@@ -1,5 +1,9 @@
 .env
 !.env.example
-vitest-report
+.vercel
+dist
+cache
+archive
+node_modules
 
-packages/site/docs/en/resources/blog/data.json
+
