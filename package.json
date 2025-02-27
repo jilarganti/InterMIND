@@ -46,6 +46,7 @@
   },
   "dependencies": {
     "@types/express": "^5.0.0",
+    "@vercel/node": "^5.1.9",
     "body-parser": "^1.20.3",
     "concurrently": "^9.1.2",
     "express": "^4.21.2",
