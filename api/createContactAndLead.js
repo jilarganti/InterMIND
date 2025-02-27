@@ -5,7 +5,7 @@
  */
 
 import { ApiClient, PersonsApi, LeadsApi } from "pipedrive"
-import { fetchLeadFields } from "./fetchFields.js"
+import { fetchLeadFields } from "./CRM/fetchFields.js"
 import dotenv from "dotenv"
 
 dotenv.config()

@@ -29,44 +29,29 @@
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.32.1",
     "@tsconfig/node22": "^22.0.0",
-    "@types/jsdom": "^21.1.7",
     "@types/markdown-it-footnote": "^3.0.4",
-    "@types/node": "^22.13.1",
+    "@types/node": "^22.13.5",
     "@vitejs/plugin-vue": "^5.2.1",
-    "@vitest/ui": "^2.1.9",
     "@vue/tsconfig": "^0.5.1",
+    "concurrently": "^9.1.2",
     "dotenv": "^16.4.7",
-    "jsdom": "^25.0.1",
+    "globals": "^15.15.0",
     "markdown-it-footnote": "^4.0.0",
-    "msw": "^2.7.0",
-    "openai": "^4.83.0",
-    "prettier": "^3.4.2",
-    "ts-node": "^10.9.2",
-    "ts-node-dev": "^2.0.0",
+    "openai": "^4.85.4",
+    "prettier": "^3.5.2",
+    "simple-git-hooks": "^2.11.1",
     "typescript": "^5.7.3",
     "vite": "^5.4.14",
-    "vite-plugin-vue-devtools": "^7.7.1",
-    "vitepress": "^1.6.3",
-    "vitest": "^2.1.9",
-    "@commitlint/cli": "19.5.0",
-    "@commitlint/config-angular": "19.5.0",
-    "@eslint/js": "^9.19.0",
-    "eslint": "^9.19.0",
-    "concurrently": "^9.1.2",
-    "eslint-plugin-vue": "^9.32.0",
-    "globals": "^15.14.0",
-    "simple-git-hooks": "^2.11.1",
-    "typescript-eslint": "^8.22.0"
+    "vitepress": "^1.6.3"
   },
   "dependencies": {
     "@types/express": "^5.0.0",
-    "@vercel/node": "^5.1.9",
     "body-parser": "^1.20.3",
     "concurrently": "^9.1.2",
     "express": "^4.21.2",
-    "libphonenumber-js": "^1.11.19",
+    "libphonenumber-js": "^1.12.0",
     "pipedrive": "^23.4.3",
-    "uuid": "^11.0.5",
+    "uuid": "^11.1.0",
     "vue": "^3.5.13"
   },
   "prettier": {
@@ -77,5 +62,10 @@
   "simple-git-hooks": {
     "pre-commit": "pnpm format",
     "pre-push": "pnpm build"
+  },
+  "pnpm": {
+    "overrides": {
+      "superagent@7.1.6": "7.1.6"
+    }
   }
 }
