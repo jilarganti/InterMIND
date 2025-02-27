@@ -1,0 +1,5 @@
+.env
+!.env.example
+vitest-report
+
+packages/site/docs/en/resources/blog/data.json

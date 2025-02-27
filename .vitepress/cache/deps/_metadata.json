@@ -1,0 +1,43 @@
+{
+  "hash": "a1c0f843",
+  "configHash": "25a40786",
+  "lockfileHash": "cb40d920",
+  "browserHash": "f02cac72",
+  "optimized": {
+    "vue": {
+      "src": "../../../../../node_modules/.pnpm/vue@3.5.13_typescript@5.7.3/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "c530c503",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../../node_modules/.pnpm/@vue+devtools-api@7.7.1/node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "8e474f9f",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../../../node_modules/.pnpm/@vueuse+core@12.5.0_typescript@5.7.3/node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "a7010dad",
+      "needsInterop": false
+    },
+    "libphonenumber-js": {
+      "src": "../../../../../node_modules/.pnpm/libphonenumber-js@1.11.19/node_modules/libphonenumber-js/index.js",
+      "file": "libphonenumber-js.js",
+      "fileHash": "fc67afef",
+      "needsInterop": false
+    },
+    "uuid": {
+      "src": "../../../../../node_modules/.pnpm/uuid@11.0.5/node_modules/uuid/dist/esm-browser/index.js",
+      "file": "uuid.js",
+      "fileHash": "a2f0045f",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-IWYC5R2O": {
+      "file": "chunk-IWYC5R2O.js"
+    }
+  }
+}

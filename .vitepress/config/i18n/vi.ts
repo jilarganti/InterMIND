@@ -1,0 +1,125 @@
+import { defineConfig, type DefaultTheme } from "vitepress"
+
+const BASE_PATH = "/vi"
+
+export const vi = defineConfig({
+  description:
+    "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thành lập công ty, ngân hàng, thuế, pháp lý và visa. Biến ước mơ kinh doanh của bạn thành hiện thực!",
+  head: [
+    [
+      "meta",
+      {
+        property: "og:title",
+        content: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thành lập công ty, ngân hàng, thuế, pháp lý và visa.",
+      },
+    ],
+  ],
+
+  themeConfig: {
+    nav: [
+      {
+        text: "Dịch vụ",
+        activeMatch: `${BASE_PATH}/company-registration/`,
+        items: [
+          { text: "Đăng ký công ty", link: `${BASE_PATH}/uae-business/company-registration/overview` },
+          { text: "Giải pháp ngân hàng", link: `${BASE_PATH}/uae-business/company-registration/banking` },
+          { text: "Di trú", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
+        ],
+      },
+      {
+        text: "Tài nguyên",
+        items: [{ text: "Giới thiệu", link: `${BASE_PATH}/resources/about` }],
+      },
+      { text: "Liên hệ", link: `${BASE_PATH}/resources/contacts` },
+    ],
+
+    sidebar: {
+      [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
+    },
+
+    footer: {
+      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Cài đặt quyền riêng tư</a>',
+    },
+
+    contact_form: {
+      name: "Họ tên *",
+      namePlaceholder: "tên của bạn",
+      email: "Email *",
+      emailPlaceholder: "địa chỉ email của bạn",
+      phone: "Điện thoại *",
+      phonePlaceholder: "ví dụ: +1 1234567890 hoặc (1) 123 456-7890",
+      phoneError: "Vui lòng nhập số điện thoại",
+      category: "Chúng tôi có thể giúp gì cho bạn? *",
+      categoryPlaceholder: "chọn loại dịch vụ",
+      message: "Hãy thảo luận về mục tiêu của bạn (không bắt buộc)",
+      messagePlaceholder: "mô tả dự án hoặc yêu cầu của bạn",
+      submit: "Gửi yêu cầu",
+      sending: "Đang gửi...",
+      successTitle: "Cảm ơn bạn!",
+      successMessage: "Chúng tôi rất cảm kích sự quan tâm của bạn! Đội ngũ của chúng tôi sẽ liên hệ với bạn sớm để thảo luận về nhu cầu của bạn.",
+      defaultCategories: ["Đăng ký công ty", "Mở tài khoản ngân hàng", "EID & Golden Visa", "Dịch vụ khác"],
+      defaultButtonText: "Nhận tư vấn miễn phí",
+    },
+  },
+})
+
+function sidebarServices(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "Tổng quan kinh doanh tại UAE",
+      collapsed: false,
+      items: [
+        { text: "Đăng ký công ty", link: "company-registration/overview" },
+        { text: "Ưu điểm & nhược điểm", link: "company-registration/benefits-problems" },
+        { text: "Giải pháp ngân hàng doanh nghiệp", link: "offer/banking/" },
+        { text: "Golden Visa", link: "offer/golden-visa/" },
+        { text: "Visa & EID", link: "company-registration/employment-visas" },
+        { text: "Phí và thời gian", link: "company-registration/fees-timelines" },
+      ],
+    },
+    {
+      text: "Cấu trúc doanh nghiệp UAE",
+      collapsed: true,
+      items: [
+        { text: "Các bước đăng ký công ty", link: "company-registration/insights/incorporation-steps" },
+        { text: "UAE free zones", link: "company-registration/free-zones" },
+        { text: "UAE mainland", link: "company-registration/mainland" },
+      ],
+    },
+    {
+      text: "Đảm bảo tuân thủ kinh doanh tại UAE",
+      collapsed: true,
+      items: [
+        { text: "Đảm bảo phê duyệt tài khoản ngân hàng doanh nghiệp", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "Tài khoản ngân hàng cho doanh nghiệp rủi ro cao", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
+        { text: "Duy trì tuân thủ và bảo vệ doanh nghiệp của bạn", link: "company-registration/Protect-Your-Business" },
+      ],
+    },
+    {
+      text: "Pháp lý, kế toán và thuế",
+      collapsed: true,
+      items: [
+        { text: "Các vấn đề kế toán và thuế", link: "company-registration/accounting-legal" },
+        { text: "Đăng ký UBO", link: "company-registration/ubo" },
+      ],
+    },
+    {
+      text: "So sánh",
+      collapsed: true,
+      items: [
+        { text: "Mainland và free zones", link: "comparison/mainland-vs-free-zones" },
+        { text: "So sánh các loại hình doanh nghiệp UAE", link: "comparison/entity-types" },
+      ],
+    },
+  ]
+}
+
+function sidebarInsights(): DefaultTheme.SidebarItem[] {
+  return [{ text: "Giới thiệu", link: `about` }]
+}
+
+function sidebarContactUs(): DefaultTheme.SidebarItem[] {
+  return [{ text: "Liên hệ", link: `contacts` }]
+}

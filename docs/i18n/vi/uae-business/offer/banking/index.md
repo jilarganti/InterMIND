@@ -1,0 +1,151 @@
+---
+layout: home
+title: "Ngân Hàng Doanh Nghiệp UAE | Dịch Vụ Dựa Trên Phí Thành Công"
+description: "Tài khoản doanh nghiệp đa tiền tệ cao cấp không cần phí trước - chỉ thanh toán sau khi được duyệt. Quản lý hồ sơ toàn diện với tỷ lệ thành công 98%. Đảm bảo mở tài khoản."
+showSponsors: false
+
+hero:
+  name: "Ngân Hàng UAE: Bến Đỗ An Toàn Của Bạn"
+  text: Không phí trước
+  tagline: Đảm bảo phê duyệt tài khoản ngân hàng doanh nghiệp năm 2025. <span class="hl">Không phí trước</span> - chỉ thanh toán sau khi được duyệt. Tỷ lệ thành công 90%.
+  image:
+    light:
+      src: /img/Logo.avif
+      width: 50%
+    dark:
+      src: /img/Logo.avif
+      width: 50%
+    alt: Logo Golden Fish
+---
+
+<FeatureCards :features="[
+  {
+    title: 'Đảm Bảo Phê Duyệt Tài Khoản',
+    bullet: '✓',
+    items: [
+      '**Đảm bảo hai tháng** cho phê duyệt tài khoản đầu tiên',
+      'Đảm bảo ba tháng cho tài khoản thứ hai',
+      'Chuẩn bị kế hoạch kinh doanh chất lượng',
+      'Hỗ trợ thẩm định toàn diện',
+      'Chiến lược giao tiếp trực tiếp với ngân hàng',
+      'Thiết lập gói ngân hàng hoàn chỉnh'
+    ],
+    linkText: 'Read More',
+    link: '../../corporate-banking-services/guaranteed-account-approvals',
+    icon: {
+      light: '/video/iStock-2186765808.mp4',
+      dark: '/video/iStock-2166377244.mp4',
+      alt: 'Yêu cầu ngân hàng',
+    }
+  },
+]" />
+
+<FeatureCards :features="[
+  {
+    title: 'Tài khoản ngân hàng UAE cho doanh nghiệp rủi ro cao',
+    items: [
+      'Hướng dẫn chuyên môn về thẩm định tăng cường (EDD)',
+      'Giám sát giao dịch và quản lý rủi ro',
+      'Thiết lập chính sách và quy trình tuân thủ',
+      'Quản lý quan hệ ngân hàng',
+      'Cập nhật và kiểm toán tuân thủ định kỳ',
+      'Lập kế hoạch dự phòng cho bảo mật tài khoản'
+    ],
+    linkText: 'Read More',
+    link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
+    icon: {
+      light: '/img/iStock-1333000394.avif',
+      dark: '/img/iStock-584576538.avif',
+      alt: 'Dịch vụ ngân hàng',
+    }
+  },
+  {
+    title: 'Duy trì tuân thủ: Bảo vệ doanh nghiệp UAE của bạn',
+    items: [
+      'Kiểm toán tuân thủ định kỳ để xác định rủi ro tiềm ẩn',
+      'Dịch vụ PRO toàn diện cho phê duyệt chính phủ',
+      'Quản lý và cảnh báo gia hạn giấy phép',
+      'Tư vấn ngân hàng và bảo trì tài khoản',
+      'Hỗ trợ tuân thủ VAT và ESR',
+      'Tuân thủ visa nhân viên và luật lao động',
+      'Hội thảo đào tạo về cập nhật quy định'
+    ],
+    linkText: 'Read More',
+    link: '../../company-registration/Protect-Your-Business',
+    icon: {
+      light: '/img/iStock-1382278859.jpg',
+      dark: '/img/iStock-1867623684.jpg',
+      alt: 'Dịch vụ ngân hàng',
+    }
+  },
+  {
+    title: 'Lợi Ích Ngân Hàng Doanh Nghiệp UAE',
+    items: [
+      'Hệ thống ngân hàng mạnh với xếp hạng **Aa2** của Moody\'s',
+      '**Tỷ giá USD cố định từ năm 1980**',
+      'Không hạn chế chuyển vốn',
+      'Dự trữ ngoại hối trên 184 tỷ USD',
+      'Ổn định chính trị và kinh tế',
+      'Hệ thống ngân hàng được chính phủ bảo đảm',
+      'Ngân hàng số đẳng cấp thế giới'
+    ],
+    linkText: 'Read More',
+    link: '../../company-registration/banking',
+    icon: {
+      light: '/img/iStock-1032707788.jpg',
+      dark: '/img/iStock-1152367067.avif',
+      alt: 'Quy trình ngân hàng',
+    }
+  }
+]" />
+
+## Golden Fish giới thiệu các ngân hàng sau cho khách hàng:
+
+<!--@include: /../../include/recommended-banks.md-->
+
+## Tại Sao Chọn Golden Fish
+
+<BenefitsList :features="[
+  {
+    icon: '🏆',
+    title: 'Chuyên Môn Về Rủi Ro Cao',
+    text: 'Chuyên về các trường hợp phức tạp từ khu vực có rủi ro cao. Hiểu sâu về yêu cầu thẩm định tăng cường (EDD).'
+  },
+  {
+    icon: '💰',
+    title: 'Phí Dựa Trên Thành Công',
+    text: 'Không phí trả trước - **chỉ thanh toán sau khi được chấp thuận.** Tỷ lệ thành công 98% cho visa và 90% cho tài khoản ngân hàng.'
+  },
+  {
+    icon: '🏦',
+    title: 'Quan Hệ Ngân Hàng',
+    text: 'Quan hệ đối tác mạnh mẽ với các ngân hàng lớn tại UAE. Nhiều lựa chọn ngân hàng để tối đa hóa cơ hội được chấp thuận.'
+  },
+  {
+    icon: '📊',
+    title: 'Hỗ Trợ Tuân Thủ Toàn Diện',
+    text: 'Hướng dẫn chuyên môn về báo cáo ESR, khai báo UBO và các yêu cầu pháp lý. Cập nhật tuân thủ thường xuyên.'
+  },
+  {
+    icon: '📝',
+    title: 'Xuất Sắc Về Tài Liệu',
+    text: 'Chuẩn bị chuyên nghiệp tất cả các tài liệu cần thiết, bao gồm kế hoạch kinh doanh và chính sách tuân thủ.'
+  },
+  {
+    icon: '🤝',
+    title: 'Đối Tác Lâu Dài',
+    text: '**Hỗ trợ liên tục** về hoạt động ngân hàng, kế toán, thuế và yêu cầu tuân thủ sau khi thiết lập.'
+  }
+]" />
+
+## Đặt lịch tư vấn miễn phí để thảo luận về nhu cầu ngân hàng doanh nghiệp của bạn
+
+<video  autoplay muted playsinline style="padding: 80px" >
+  <source src="/video/iStock-2185918790.mp4" type="video/mp4">
+</video>
+
+<ContactFormModal formName="Banking [offer]" buttonText="Nhận tư vấn miễn phí" :services="[
+ '🏢 Tài khoản Doanh nghiệp cho Cư dân UAE',
+ '🌐 Tài khoản Doanh nghiệp cho Người không cư trú UAE (Rủi ro Thấp)',
+ '⚠️ Tài khoản Doanh nghiệp cho Người không cư trú UAE (Rủi ro Cao)',
+ '👤 Tài khoản Ngân hàng Cá nhân']"/>

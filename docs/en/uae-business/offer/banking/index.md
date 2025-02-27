@@ -1,0 +1,151 @@
+---
+layout: home
+title: "UAE Corporate Banking | Success Fee Based Service"
+description: "Premium multi-currency corporate accounts with zero upfront fees - pay only after approval. Full application management with 98% success rate. Guaranteed account opening."
+showSponsors: false
+
+hero:
+  name: "UAE Banking: Your Safe Harbor"
+  text: Zero upfront fees
+  tagline: Guaranteed corporate bank account approvals in 2025. <span class="hl">Zero upfront fees</span> - pay only after approval. 90% success rate.
+  image:
+    light:
+      src: /img/Logo.avif
+      width: 50%
+    dark:
+      src: /img/Logo.avif
+      width: 50%
+    alt: Golden Fish logo
+---
+
+<FeatureCards :features="[
+  {
+    title: 'Guaranteed Account Approvals',
+    bullet: '✓',
+    items: [
+      '**Two-month guarantee** for first account approval',
+      'Three-month guarantee for second account',
+      'Quality business plan preparation',
+      'Comprehensive due diligence support',
+      'Direct bank communication strategy',
+      'Complete banking package setup'
+    ],
+    linkText: 'Read More',
+    link: '../../corporate-banking-services/guaranteed-account-approvals',
+    icon: {
+      light: '/video/iStock-2186765808.mp4',
+      dark: '/video/iStock-2166377244.mp4',
+      alt: 'Banking Requirements',
+    }
+  },
+]" />
+
+<FeatureCards :features="[
+  {
+    title: 'UAE bank accounts for high-risk business',
+    items: [
+      'Expert guidance on enhanced due diligence (EDD)',
+      'Transaction monitoring and risk management', 
+      'Compliance policies and procedures setup',
+      'Bank relationship management',
+      'Regular compliance updates and audits',
+      'Contingency planning for account security'
+    ],
+    linkText: 'Read More',
+    link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
+    icon: {
+      light: '/img/iStock-1333000394.avif',
+      dark: '/img/iStock-584576538.avif',
+      alt: 'Banking Services',
+    }
+  },
+  {
+    title: 'Stay compliant: Safeguard your UAE business',
+    items: [
+      'Regular compliance audits to identify potential risks',
+      'End-to-end PRO services for government approvals',
+      'License renewal management and alerts',
+      'Banking consultancy and account maintenance',
+      'VAT and ESR compliance support',
+      'Employee visa and labor law compliance',
+      'Training workshops on regulatory updates'
+    ],
+    linkText: 'Read More',
+    link: '../../company-registration/Protect-Your-Business',
+    icon: {
+      light: '/img/iStock-1382278859.jpg',
+      dark: '/img/iStock-1867623684.jpg',
+      alt: 'Banking Services',
+    }
+  },
+  {
+    title: 'UAE Corporate Banking Benefits',
+    items: [
+      'Strong banking system with **Aa2** Moody\'s rating',
+      '**Fixed USD exchange rate since 1980**',
+      'No restrictions on capital movement',
+      'Foreign reserves over US$184 billion',
+      'Political and economic stability',
+      'Government-backed banking system',
+      'World-class digital banking'
+    ],
+    linkText: 'Read More',
+    link: '../../company-registration/banking',
+    icon: {
+      light: '/img/iStock-1032707788.jpg',
+      dark: '/img/iStock-1152367067.avif',
+      alt: 'Banking Process',
+    }
+  }
+]" />
+
+## Golden Fish recommends these banks to our clients:
+
+<!--@include: /../../include/recommended-banks.md-->
+
+## Why Choose Golden Fish
+
+<BenefitsList :features="[
+  {
+    icon: '🏆',
+    title: 'High-Risk Expertise',
+    text: 'Specialized in complex cases from high-risk jurisdictions. Deep understanding of enhanced due diligence (EDD) requirements.'
+  },
+  {
+    icon: '💰',
+    title: 'Success-Based Fees',
+    text: 'Zero upfront fees - **pay only after approval.** 98% success rate for visas and 90% for bank accounts.'
+  },
+  {
+    icon: '🏦',
+    title: 'Bank Relationships',
+    text: 'Strong partnerships with major UAE banks. Multiple banking options to maximize approval chances.'
+  },
+  {
+    icon: '📊',
+    title: 'Full Compliance Support',
+    text: 'Expert guidance through ESR reports, UBO filings, and regulatory requirements. Regular compliance updates.'
+  },
+  {
+    icon: '📝',
+    title: 'Documentation Excellence',
+    text: 'Professional preparation of all required documents, including business plans and compliance policies.'
+  },
+  {
+    icon: '🤝',
+    title: 'Long-Term Partnership',
+    text: '**Continuous assistance** with banking operations, accounting, tax, and compliance requirements after setup.'
+  }
+]" />
+
+## Book a free consultation to discuss your corporate banking needs
+
+<video  autoplay muted playsinline style="padding: 80px" >
+  <source src="/video/iStock-2185918790.mp4" type="video/mp4">
+</video>
+
+<ContactFormModal formName="Banking [offer]" buttonText="Get a free consultation" :services="[
+ '🏢 UAE Resident Corporate Account',
+ '🌐 Non-UAE Resident Corporate Account (Low Risk)',
+ '⚠️ Non-UAE Resident Corporate Account (High Risk)',
+ '👤 Personal Bank Account']"/>

@@ -1,0 +1,93 @@
+{
+  "name": "site",
+  "version": "0.3.0",
+  "description": "Documentation for Golden Fish",
+  "main": "index.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jilarganti/GoldenFish/tree/main/packages/site"
+  },
+  "author": "Jil Arganti",
+  "license": "CC BY-NC-SA 4.0",
+  "type": "module",
+  "scripts": {
+    "dev:front": "vitepress dev",
+    "dev:api": "vercel dev --listen 3000",
+    "dev:node": "node server.js",
+    "kill-port": "kill -9 $(lsof -t -i:3000) || true",
+    "dev": "pnpm kill-port & concurrently \"npm run dev:api\" \"npm run dev:front\"",
+   
+    "build:api": "vite build",
+
+
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+
+    "translate": "node --no-deprecation scripts/translate",
+
+    "format": "prettier -w .",
+    "prepare": "simple-git-hooks",
+    "lint": "pnpm eslint --cache .",
+
+    "deployment": "vercel > deploy.log && grep -o 'https://.*\\.vercel\\.app' deploy.log | xargs -I {} env BASE_URL={} playwright test",
+    "convert": "bash -x scripts/toAVIF.sh"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/jsdom": "^21.1.7",
+    "@types/markdown-it-footnote": "^3.0.4",
+    "@types/node": "^22.13.1",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitest/ui": "^2.1.9",
+    "@vue/tsconfig": "^0.5.1",
+    "dotenv": "^16.4.7",
+    "jsdom": "^25.0.1",
+    "markdown-it-footnote": "^4.0.0",
+    "msw": "^2.7.0",
+    "openai": "^4.83.0",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.3",
+    "vite": "^5.4.14",
+    "vite-plugin-vue-devtools": "^7.7.1",
+    "vitepress": "^1.6.3",
+    "vitest": "^2.1.9",
+    "@commitlint/cli": "19.5.0",
+    "@commitlint/config-angular": "19.5.0",
+    "@eslint/js": "^9.19.0",
+
+
+    "eslint": "^9.19.0",
+    "concurrently": "^9.1.2",
+    "eslint-plugin-vue": "^9.32.0",
+    "globals": "^15.14.0",
+    "simple-git-hooks": "^2.11.1",
+    "typescript-eslint": "^8.22.0"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@vercel/node": "^5.1.9",
+    "body-parser": "^1.20.3",
+    "concurrently": "^9.1.2",
+    "express": "^4.21.2",
+    "libphonenumber-js": "^1.11.19",
+    "pipedrive": "^23.4.3",
+    "uuid": "^11.0.5",
+    "vue": "^3.5.13"
+  },
+  "prettier": {
+    "$schema": "https://json.schemastore.org/prettierrc",
+    "semi": false,
+    "printWidth": 160
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint && pnpm format",
+    "pre-push": "pnpm build",
+    "commit-msg": "npx --no-install commitlint --edit $1",
+    "preserveUnused": [
+      "commit-msg"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+import { defineConfig, type DefaultTheme } from "vitepress"
+
+const BASE_PATH = "/pt"
+
+export const pt = defineConfig({
+  description:
+    "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, bancos, impostos, questões legais e vistos. Transformando seus sonhos empresariais em realidade!",
+  head: [
+    [
+      "meta",
+      {
+        property: "og:title",
+        content:
+          "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, bancos, impostos, questões legais e vistos.",
+      },
+    ],
+  ],
+
+  themeConfig: {
+    nav: [
+      {
+        text: "Serviços",
+        activeMatch: `${BASE_PATH}/company-registration/`,
+        items: [
+          { text: "Registro de empresa", link: `${BASE_PATH}/uae-business/company-registration/overview` },
+          { text: "Soluções bancárias", link: `${BASE_PATH}/uae-business/company-registration/banking` },
+          { text: "Migração", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
+        ],
+      },
+      {
+        text: "Recursos",
+        items: [{ text: "Sobre", link: `${BASE_PATH}/resources/about` }],
+      },
+      { text: "Contato", link: `${BASE_PATH}/resources/contacts` },
+    ],
+
+    sidebar: {
+      [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
+    },
+
+    footer: {
+      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configurações de Privacidade</a>',
+    },
+
+    contact_form: {
+      name: "Nome *",
+      namePlaceholder: "seu nome",
+      email: "E-mail *",
+      emailPlaceholder: "seu endereço de e-mail",
+      phone: "Telefone *",
+      phonePlaceholder: "ex: +55 11 98765-4321 ou (11) 98765-4321",
+      phoneError: "Por favor, insira o número de telefone",
+      category: "Como podemos ajudar? *",
+      categoryPlaceholder: "selecione o tipo de serviço",
+      message: "Vamos discutir seus objetivos (opcional)",
+      messagePlaceholder: "descreva seu projeto ou requisitos",
+      submit: "Enviar solicitação",
+      sending: "Enviando...",
+      successTitle: "Obrigado!",
+      successMessage: "Agradecemos muito seu interesse! Nossa equipe entrará em contato em breve para discutir suas necessidades.",
+      defaultCategories: ["Registro de empresa", "Abertura de contas bancárias", "EID & Golden Visa", "Outros Serviços"],
+      defaultButtonText: "Obter consultoria gratuita",
+    },
+  },
+})
+
+function sidebarServices(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "Resumo de negócios nos EAU",
+      collapsed: false,
+      items: [
+        { text: "Registro de empresa", link: "company-registration/overview" },
+        { text: "Prós e contras", link: "company-registration/benefits-problems" },
+        { text: "Soluções bancárias corporativas", link: "offer/banking/" },
+        { text: "Golden Visa", link: "offer/golden-visa/" },
+        { text: "Vistos e EID", link: "company-registration/employment-visas" },
+        { text: "Taxas e prazos", link: "company-registration/fees-timelines" },
+      ],
+    },
+    {
+      text: "Estruturas corporativas nos EAU",
+      collapsed: true,
+      items: [
+        { text: "Etapas de registro de empresa", link: "company-registration/insights/incorporation-steps" },
+        { text: "Free zones dos EAU", link: "company-registration/free-zones" },
+        { text: "Mainland dos EAU", link: "company-registration/mainland" },
+      ],
+    },
+    {
+      text: "Conformidade empresarial garantida nos EAU",
+      collapsed: true,
+      items: [
+        { text: "Aprovações garantidas de contas bancárias corporativas", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "Contas bancárias para negócios de alto risco", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
+        { text: "Mantenha seu negócio em conformidade e protegido", link: "company-registration/Protect-Your-Business" },
+      ],
+    },
+    {
+      text: "Jurídico, contabilidade e impostos",
+      collapsed: true,
+      items: [
+        { text: "Considerações contábeis e fiscais", link: "company-registration/accounting-legal" },
+        { text: "Registro UBO", link: "company-registration/ubo" },
+      ],
+    },
+    {
+      text: "Comparações",
+      collapsed: true,
+      items: [
+        { text: "Mainland vs free zones", link: "comparison/mainland-vs-free-zones" },
+        { text: "Comparação de entidades nos EAU", link: "comparison/entity-types" },
+      ],
+    },
+  ]
+}
+
+function sidebarInsights(): DefaultTheme.SidebarItem[] {
+  return [{ text: "Sobre", link: `about` }]
+}
+
+function sidebarContactUs(): DefaultTheme.SidebarItem[] {
+  return [{ text: "Contatos", link: `contacts` }]
+}
