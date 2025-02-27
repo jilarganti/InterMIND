@@ -9,34 +9,28 @@
   "repository": "github:jilarganti/GoldenFish",
   "type": "module",
   "scripts": {
-
     "prepare": "simple-git-hooks",
     "lint": "pnpm eslint --cache .",
 
     "deployment": "vercel > deploy.log && grep -o 'https://.*\\.vercel\\.app' deploy.log | xargs -I {} env BASE_URL={} playwright test",
-    "format": "pnpm -F site format",
-
+    "format": "pnpm -F site format"
   },
   "devDependencies": {
     "@commitlint/cli": "19.5.0",
     "@commitlint/config-angular": "19.5.0",
     "@eslint/js": "^9.19.0",
 
-
     "eslint": "^9.19.0",
     "concurrently": "^9.1.2",
     "eslint-plugin-vue": "^9.32.0",
     "globals": "^15.14.0",
     "simple-git-hooks": "^2.11.1",
-    "typescript-eslint": "^8.22.0",
-
+    "typescript-eslint": "^8.22.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint && pnpm format",
     "pre-push": "pnpm build",
     "commit-msg": "npx --no-install commitlint --edit $1",
-    "preserveUnused": [
-      "commit-msg"
-    ]
+    "preserveUnused": ["commit-msg"]
   }
 }
