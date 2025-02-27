@@ -1,19 +1,19 @@
-export async function fetchLeadFields(): Promise<any> {
+export async function fetchLeadFields() {
   try {
     const response = await fetch(`https://api.pipedrive.com/v1/leadFields?api_token=${process.env.PIPEDRIVE_API_TOKEN}`)
-    const data = (await response.json()) as any
+    const data = await response.json()
 
     if (data.success) {
-      const fields = data.data.reduce((acc: any, field: any) => {
+      const fields = data.data.reduce((acc, field) => {
         acc[field.key] = field
         return acc
       }, {})
       return fields
     } else {
       console.error("Error loading lead fields:", data.error)
-      throw new Error(data.error || "Unknown error")
+      throw new Error(data.error)
     }
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error fetching lead fields:", error.message)
     throw error
   }

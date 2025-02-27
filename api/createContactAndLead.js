@@ -7,27 +7,12 @@
 import { ApiClient, PersonsApi, LeadsApi } from "pipedrive"
 import { fetchLeadFields } from "./CRM/fetchFields.js"
 import dotenv from "dotenv"
-import { VercelRequest, VercelResponse } from "@vercel/node"
 
 dotenv.config()
 
-interface ContactRequest {
-  name: string
-  email: string
-  phone: string
-  channel: string
-  channelId: string
-  originId: string
-  category: string
-  message: string
-  leadSource: string
-  countryCode: string
-  countryName: string
-}
+let leadFields = null
 
-let leadFields: any = null
-
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+export default async function handler(req, res) {
   if (req.method === "GET") return res.status(200).json({ status: "OK" })
   if (req.method !== "POST") return res.status(405).json({ message: "Method not allowed" })
 
@@ -35,21 +20,20 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (!leadFields) {
     try {
       leadFields = await fetchLeadFields()
-    } catch (error: any) {
+    } catch (error) {
       return res.status(500).json({ success: false, message: "Failed to initialize Pipedrive fields:" + error.message })
     }
   }
 
-  const { name, email, phone, channel, channelId, originId, category, message, leadSource, countryCode, countryName } = req.body as ContactRequest
-
+  const { name, email, phone, channel, channelId, originId, category, message, leadSource, countryCode, countryName } = req.body
   const apiClient = new ApiClient()
-  apiClient.authentications.api_key.apiKey = process.env.PIPEDRIVE_API_TOKEN as string
+  apiClient.authentications.api_key.apiKey = process.env.PIPEDRIVE_API_TOKEN
 
   const personsApi = new PersonsApi(apiClient)
   const leadsApi = new LeadsApi(apiClient)
 
   // Search for channel ID
-  const channelValue = leadFields["channel"]?.options.find((opt: any) => opt.label === channel)?.id
+  const channelValue = leadFields["channel"].options.find((opt) => opt.label === channel)?.id
   if (!channelValue) return res.status(400).json({ success: false, message: `Channel "${channel}" not found.` })
 
   try {
@@ -78,7 +62,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     if (!leadResponse.data) return res.status(400).json({ success: false, message: "Failed to create lead." })
 
     res.status(200).json({ success: true, message: "Contact and lead created successfully." })
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error:", error.message)
     res.status(500).json({ success: false, message: error.message })
   }

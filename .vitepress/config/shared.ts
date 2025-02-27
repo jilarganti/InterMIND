@@ -10,24 +10,13 @@ const RTL_LOCALES = ["ar", "fa", "ur"]
 // Определяем текущее окружение
 const getEnvironment = () => {
   if (process.env.VERCEL_ENV) return process.env.VERCEL_ENV
-  if (process.env.CF_PAGES_BRANCH) return process.env.CF_PAGES_BRANCH === "main" ? "production" : "staging"
+
 }
 
 const isProduction = getEnvironment() === "production"
 const getApiUrl = () => (process.env.VERCEL_URL ? "https://" + process.env.VERCEL_URL : "http://localhost:3000")
 
-// const getApiUrl = () => {
-//   switch (getEnvironment()) {
-//     case "production":
-//       return "https://goldenfish.ae"
-//     case "staging":
-//       return "https://goldenfish-staging.vercel.app/"
-//     case "development":
-//       return `https://${process.env.VERCEL_URL}`
-//     default:
-//       return "http://localhost:3000"
-//   }
-// }
+
 
 export const shared = defineConfig({
   title: "Golden Fish",
