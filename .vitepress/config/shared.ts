@@ -10,13 +10,10 @@ const RTL_LOCALES = ["ar", "fa", "ur"]
 // Определяем текущее окружение
 const getEnvironment = () => {
   if (process.env.VERCEL_ENV) return process.env.VERCEL_ENV
-
 }
 
 const isProduction = getEnvironment() === "production"
 const getApiUrl = () => (process.env.VERCEL_URL ? "https://" + process.env.VERCEL_URL : "http://localhost:3000")
-
-
 
 export const shared = defineConfig({
   title: "Golden Fish",
