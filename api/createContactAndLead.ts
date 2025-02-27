@@ -7,30 +7,27 @@
 import { ApiClient, PersonsApi, LeadsApi } from "pipedrive"
 import { fetchLeadFields } from "./CRM/fetchFields.js"
 import dotenv from "dotenv"
-import { VercelRequest, VercelResponse } from '@vercel/node'
+import { VercelRequest, VercelResponse } from "@vercel/node"
 
 dotenv.config()
 
 interface ContactRequest {
-  name: string;
-  email: string;
-  phone: string;
-  channel: string;
-  channelId: string;
-  originId: string;
-  category: string;
-  message: string;
-  leadSource: string;
-  countryCode: string;
-  countryName: string;
+  name: string
+  email: string
+  phone: string
+  channel: string
+  channelId: string
+  originId: string
+  category: string
+  message: string
+  leadSource: string
+  countryCode: string
+  countryName: string
 }
 
 let leadFields: any = null
 
-export default async function handler(
-  req: VercelRequest,
-  res: VercelResponse
-) {
+export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method === "GET") return res.status(200).json({ status: "OK" })
   if (req.method !== "POST") return res.status(405).json({ message: "Method not allowed" })
 
@@ -43,19 +40,7 @@ export default async function handler(
     }
   }
 
-  const {
-    name,
-    email,
-    phone,
-    channel,
-    channelId,
-    originId,
-    category,
-    message,
-    leadSource,
-    countryCode,
-    countryName
-  } = req.body as ContactRequest
+  const { name, email, phone, channel, channelId, originId, category, message, leadSource, countryCode, countryName } = req.body as ContactRequest
 
   const apiClient = new ApiClient()
   apiClient.authentications.api_key.apiKey = process.env.PIPEDRIVE_API_TOKEN as string
