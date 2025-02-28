@@ -31,41 +31,40 @@
 
 import { ApiClient, PersonsApi, LeadsApi } from "pipedrive"
 import { fetchLeadFields } from "./CRM/fetchFields.js"
-import dotenv from "dotenv"
 
-// dotenv.config()
+export const runtime = "edge"
 
 /** @type {LeadFields|null} */
 let leadFields = null
 
 /**
- * @param {import('@vercel/node').VercelRequest} req
- * @param {import('@vercel/node').VercelResponse} res
+ * @param {Request} request
  */
-export default async function handler(req, res) {
-  if (req.method === "GET") return res.status(200).json({ status: "OK" })
-  if (req.method !== "POST") return res.status(405).json({ message: "Method not allowed" })
-
+export async function POST(request) {
   // Инициализация полей при первом запросе
   if (!leadFields) {
     try {
       /** @type {LeadFields} */
       leadFields = await fetchLeadFields()
     } catch (error) {
-      return res.status(500).json({
-        success: false,
-        message: "Failed to initialize Pipedrive fields:" + (error instanceof Error ? error.message : String(error)),
-      })
+      return Response.json(
+        {
+          success: false,
+          message: "Failed to initialize Pipedrive fields:" + (error instanceof Error ? error.message : String(error)),
+        },
+        { status: 500 },
+      )
     }
   }
 
   /** @type {RequestBody} */
-  const { name, email, phone, channel, channelId, originId, category, message, leadSource, countryCode, countryName } = req.body
+  const body = await request.json()
+  const { name, email, phone, channel, channelId, originId, category, message, leadSource, countryCode, countryName } = body
   const apiClient = new ApiClient()
 
   // Проверяем, что process.env.PIPEDRIVE_API_TOKEN существует
   if (!process.env.PIPEDRIVE_API_TOKEN) {
-    return res.status(500).json({ success: false, message: "Pipedrive API token is not configured" })
+    return Response.json({ success: false, message: "Pipedrive API token is not configured" }, { status: 500 })
   }
 
   apiClient.authentications.api_key.apiKey = process.env.PIPEDRIVE_API_TOKEN
@@ -75,14 +74,14 @@ export default async function handler(req, res) {
 
   // Search for channel ID
   if (!leadFields || !leadFields["channel"] || !leadFields["channel"].options) {
-    return res.status(400).json({ success: false, message: "Channel data is not available" })
+    return Response.json({ success: false, message: "Channel data is not available" }, { status: 400 })
   }
 
   const channelOption = leadFields["channel"].options.find((opt) => opt.label === channel)
   const channelValue = channelOption?.id
 
   if (!channelValue) {
-    return res.status(400).json({ success: false, message: `Channel "${channel}" not found.` })
+    return Response.json({ success: false, message: `Channel "${channel}" not found.` }, { status: 400 })
   }
 
   try {
@@ -96,7 +95,7 @@ export default async function handler(req, res) {
     })
 
     if (!personResponse?.data) {
-      return res.status(400).json({ success: false, message: "Failed to create contact." })
+      return Response.json({ success: false, message: "Failed to create contact." }, { status: 400 })
     }
 
     // Create lead with custom field
@@ -113,15 +112,22 @@ export default async function handler(req, res) {
     })
 
     if (!leadResponse?.data) {
-      return res.status(400).json({ success: false, message: "Failed to create lead." })
+      return Response.json({ success: false, message: "Failed to create lead." }, { status: 400 })
     }
 
-    res.status(200).json({ success: true, message: "Contact and lead created successfully." })
+    return Response.json({ success: true, message: "Contact and lead created successfully." }, { status: 200 })
   } catch (error) {
     console.error("Error:", error instanceof Error ? error.message : String(error))
-    res.status(500).json({
-      success: false,
-      message: error instanceof Error ? error.message : String(error),
-    })
+    return Response.json(
+      {
+        success: false,
+        message: error instanceof Error ? error.message : String(error),
+      },
+      { status: 500 },
+    )
   }
+}
+
+export async function GET() {
+  return Response.json({ status: "OK" }, { status: 200 })
 }
