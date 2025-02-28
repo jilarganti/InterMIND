@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from "node:url"
 import { gtmHead } from "./gtm.config"
 
 const hostUrl = "https://goldenfish.ae"
-const NOINDEX_PAGES = ["company-registration/fees-timelines", "include/recommended-banks", "@@@"]
+const NOINDEX_PAGES = ["company-registration/fees-timelines", "include/recommended-banks", "t.md"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
 
 const isProduction = process.env.VERCEL_ENV === "production"

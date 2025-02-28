@@ -41,6 +41,11 @@ let leadFields = null
  * @param {Request} request
  */
 export async function POST(request) {
+  // Проверяем, что process.env.PIPEDRIVE_API_TOKEN существует
+  if (!process.env.PIPEDRIVE_API_TOKEN) {
+    return Response.json({ success: false, message: "Pipedrive API token is not configured" }, { status: 500 })
+  }
+
   // Инициализация полей при первом запросе
   if (!leadFields) {
     try {
@@ -61,11 +66,6 @@ export async function POST(request) {
   const body = await request.json()
   const { name, email, phone, channel, channelId, originId, category, message, leadSource, countryCode, countryName } = body
   const apiClient = new ApiClient()
-
-  // Проверяем, что process.env.PIPEDRIVE_API_TOKEN существует
-  if (!process.env.PIPEDRIVE_API_TOKEN) {
-    return Response.json({ success: false, message: "Pipedrive API token is not configured" }, { status: 500 })
-  }
 
   apiClient.authentications.api_key.apiKey = process.env.PIPEDRIVE_API_TOKEN
 

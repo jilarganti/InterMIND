@@ -11,9 +11,9 @@ import ContactForm from "./ContactForm.vue"
 import FeatureCards from "./FeatureCards.vue"
 import FeatureCard from "./FeatureCard.vue"
 import BenefitsList from "./BenefitsList.vue"
-
-import ModalDemo from "./ModalDemo.vue"
 import ContactFormModal from "./ContactFormModal.vue"
+import AIChat from "./AIChat.vue"
+import ChatLayout from "./ChatLayout.vue"
 
 interface Components {
   [key: string]: Component
@@ -31,7 +31,7 @@ export const components: Components = {
   FeatureCards,
   FeatureCard,
   BenefitsList,
-
-  ModalDemo,
+  AIChat,
+  ChatLayout,
   ContactFormModal,
 }
