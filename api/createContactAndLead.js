@@ -1,17 +1,47 @@
-"use strict"
-
 /**
  * This API endpoint creates a new contact and lead in Pipedrive CRM.
+ * @typedef {Object} RequestBody
+ * @property {string} name - Имя контакта
+ * @property {string} email - Email контакта
+ * @property {string} phone - Телефон контакта
+ * @property {string} channel - Канал
+ * @property {string} channelId - ID канала
+ * @property {string} originId - ID источника
+ * @property {string} category - Категория услуги
+ * @property {string} message - Сообщение
+ * @property {string} leadSource - Источник лида
+ * @property {string} countryCode - Код страны
+ * @property {string} countryName - Название страны
+ */
+
+/**
+ * @typedef {Object} FieldOption
+ * @property {string|number} id - ID опции
+ * @property {string} label - Название опции
+ */
+
+/**
+ * @typedef {Object} Field
+ * @property {FieldOption[]} options - Доступные опции для поля
+ */
+
+/**
+ * @typedef {Object.<string, Field>} LeadFields
  */
 
 import { ApiClient, PersonsApi, LeadsApi } from "pipedrive"
 import { fetchLeadFields } from "./CRM/fetchFields.js"
 import dotenv from "dotenv"
 
-dotenv.config()
+// dotenv.config()
 
+/** @type {LeadFields|null} */
 let leadFields = null
 
+/**
+ * @param {import('@vercel/node').VercelRequest} req
+ * @param {import('@vercel/node').VercelResponse} res
+ */
 export default async function handler(req, res) {
   if (req.method === "GET") return res.status(200).json({ status: "OK" })
   if (req.method !== "POST") return res.status(405).json({ message: "Method not allowed" })
@@ -19,22 +49,41 @@ export default async function handler(req, res) {
   // Инициализация полей при первом запросе
   if (!leadFields) {
     try {
+      /** @type {LeadFields} */
       leadFields = await fetchLeadFields()
     } catch (error) {
-      return res.status(500).json({ success: false, message: "Failed to initialize Pipedrive fields:" + error.message })
+      return res.status(500).json({
+        success: false,
+        message: "Failed to initialize Pipedrive fields:" + (error instanceof Error ? error.message : String(error)),
+      })
     }
   }
 
+  /** @type {RequestBody} */
   const { name, email, phone, channel, channelId, originId, category, message, leadSource, countryCode, countryName } = req.body
   const apiClient = new ApiClient()
+
+  // Проверяем, что process.env.PIPEDRIVE_API_TOKEN существует
+  if (!process.env.PIPEDRIVE_API_TOKEN) {
+    return res.status(500).json({ success: false, message: "Pipedrive API token is not configured" })
+  }
+
   apiClient.authentications.api_key.apiKey = process.env.PIPEDRIVE_API_TOKEN
 
   const personsApi = new PersonsApi(apiClient)
   const leadsApi = new LeadsApi(apiClient)
 
   // Search for channel ID
-  const channelValue = leadFields["channel"].options.find((opt) => opt.label === channel)?.id
-  if (!channelValue) return res.status(400).json({ success: false, message: `Channel "${channel}" not found.` })
+  if (!leadFields || !leadFields["channel"] || !leadFields["channel"].options) {
+    return res.status(400).json({ success: false, message: "Channel data is not available" })
+  }
+
+  const channelOption = leadFields["channel"].options.find((opt) => opt.label === channel)
+  const channelValue = channelOption?.id
+
+  if (!channelValue) {
+    return res.status(400).json({ success: false, message: `Channel "${channel}" not found.` })
+  }
 
   try {
     // Create contact
@@ -45,7 +94,10 @@ export default async function handler(req, res) {
       b8ba0ea36db4270f7b560e09fb2cb3e0714b388b: countryCode, // ⚙️Country code
       cf5a54d84951c31197d58e97029976686967a64f: countryName, // ⚙️Country name
     })
-    if (!personResponse.data) return res.status(400).json({ success: false, message: "Failed to create contact." })
+
+    if (!personResponse?.data) {
+      return res.status(400).json({ success: false, message: "Failed to create contact." })
+    }
 
     // Create lead with custom field
     const leadResponse = await leadsApi.addLead({
@@ -59,11 +111,17 @@ export default async function handler(req, res) {
       baa8db361de3fa51e24c8e18c7d2271643635ba9: message, // ⚙️Message
       bcf617c56c755e11604aea1ed230d695cd5c2735: leadSource, // ⚙️Lead source
     })
-    if (!leadResponse.data) return res.status(400).json({ success: false, message: "Failed to create lead." })
+
+    if (!leadResponse?.data) {
+      return res.status(400).json({ success: false, message: "Failed to create lead." })
+    }
 
     res.status(200).json({ success: true, message: "Contact and lead created successfully." })
   } catch (error) {
-    console.error("Error:", error.message)
-    res.status(500).json({ success: false, message: error.message })
+    console.error("Error:", error instanceof Error ? error.message : String(error))
+    res.status(500).json({
+      success: false,
+      message: error instanceof Error ? error.message : String(error),
+    })
   }
 }
