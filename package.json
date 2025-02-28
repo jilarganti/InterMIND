@@ -16,7 +16,7 @@
     "dev:node": "node server.js",
     "kill-port": "kill -9 $(lsof -t -i:3000) || true",
     "dev": "pnpm kill-port & concurrently \"npm run dev:api\" \"npm run dev:front\"",
-    "build:api": "vite build",
+    "build:api": "npx vercel build",
     "build": "vitepress build",
     "preview": "vitepress preview",
     "translate": "node --no-deprecation scripts/translate",
@@ -46,6 +46,7 @@
   },
   "dependencies": {
     "@types/express": "^5.0.0",
+    "@vercel/functions": "^2.0.0",
     "@vercel/node": "^5.1.9",
     "body-parser": "^1.20.3",
     "concurrently": "^9.1.2",
@@ -63,10 +64,5 @@
   "simple-git-hooks": {
     "pre-commit": "pnpm format",
     "pre-push": "pnpm build"
-  },
-  "pnpm": {
-    "overrides": {
-      "superagent@7.1.6": "7.1.6"
-    }
   }
 }
