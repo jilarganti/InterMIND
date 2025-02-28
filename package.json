@@ -37,7 +37,7 @@
     "dotenv": "^16.4.7",
     "globals": "^15.15.0",
     "markdown-it-footnote": "^4.0.0",
-    "openai": "^4.85.4",
+    "openai": "^4.86.1",
     "prettier": "^3.5.2",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.7.3",
@@ -47,11 +47,11 @@
   "dependencies": {
     "@types/express": "^5.0.0",
     "@vercel/functions": "^2.0.0",
-    "@vercel/node": "^5.1.9",
+    "@vercel/node": "^5.1.10",
     "body-parser": "^1.20.3",
     "concurrently": "^9.1.2",
     "express": "^4.21.2",
-    "libphonenumber-js": "^1.12.0",
+    "libphonenumber-js": "^1.12.4",
     "pipedrive": "^23.4.3",
     "uuid": "^11.1.0",
     "vue": "^3.5.13"

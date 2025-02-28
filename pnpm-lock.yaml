@@ -14,8 +14,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
       "@vercel/node":
-        specifier: ^5.1.9
-        version: 5.1.9(rollup@4.34.8)
+        specifier: ^5.1.10
+        version: 5.1.10(rollup@4.34.8)
       body-parser:
         specifier: ^1.20.3
         version: 1.20.3
@@ -26,8 +26,8 @@ importers:
         specifier: ^4.21.2
         version: 4.21.2
       libphonenumber-js:
-        specifier: ^1.12.0
-        version: 1.12.0
+        specifier: ^1.12.4
+        version: 1.12.4
       pipedrive:
         specifier: ^23.4.3
         version: 23.4.3
@@ -66,8 +66,8 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       openai:
-        specifier: ^4.85.4
-        version: 4.85.4(ws@8.18.1)
+        specifier: ^4.86.1
+        version: 4.86.1(ws@8.18.1)
       prettier:
         specifier: ^3.5.2
         version: 3.5.2
@@ -636,8 +636,8 @@ packages:
   "@ungap/structured-clone@1.3.0":
     resolution: { integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g== }
 
-  "@vercel/build-utils@10.3.0":
-    resolution: { integrity: sha512-wvAuBZJcDEeOfcQlcs3DSREvfbKOVVOFBHjabWX5y/ISbuW749A46SXrnoysCavluJcakizael4eFSg7n5IjJA== }
+  "@vercel/build-utils@10.3.1":
+    resolution: { integrity: sha512-aWVzwW4UYwrO0yxHQBSiFn/P665S3pORKTRbmdQ/DXMvzsvGtmyG2zeSFApV2WJ3fH46V74i8Lv9IouhmYkbVQ== }
 
   "@vercel/error-utils@2.0.3":
     resolution: { integrity: sha512-CqC01WZxbLUxoiVdh9B/poPbNpY9U+tO1N9oWHwTl5YAZxcqXmmWJ8KNMFItJCUUWdY3J3xv8LvAuQv2KZ5YdQ== }
@@ -656,8 +656,8 @@ packages:
     engines: { node: ">=16" }
     hasBin: true
 
-  "@vercel/node@5.1.9":
-    resolution: { integrity: sha512-LR5fZPLWH/8sdphxteUPG1QuwmbY9/JVAKf3jOp41wqLnTUytg55iRsnc0Z4ncpFjT/dVCu4TdKNk/kL1io8LA== }
+  "@vercel/node@5.1.10":
+    resolution: { integrity: sha512-VHY/VRu4AtzzHHX2aNOjHQ2LzQvkmaahTJKJ8zAfGseivvwOfFkJ7+TWcNWBx2yimCJLezqUcGmbUrru0r2I1g== }
 
   "@vercel/static-config@3.0.0":
     resolution: { integrity: sha512-2qtvcBJ1bGY0dYGYh3iM7yGKkk971FujLEDXzuW5wcZsPr1GSEjO/w2iSr3qve6nDDtBImsGoDEnus5FI4+fIw== }
@@ -1414,8 +1414,8 @@ packages:
   json-schema-traverse@1.0.0:
     resolution: { integrity: sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug== }
 
-  libphonenumber-js@1.12.0:
-    resolution: { integrity: sha512-suerD9kiG3T/p+4SweDdVEalIGnenX7vJCTG7DCNoz5iedKiSMT3Zx6O0AuCgZlWtJnioAXlIedIaqgY4+omdw== }
+  libphonenumber-js@1.12.4:
+    resolution: { integrity: sha512-vLmhg7Gan7idyAKfc6pvCtNzvar4/eIzrVVk3hjNFH5+fGqyjD0gQRovdTrDl20wsmZhBtmZpcsR0tOfquwb8g== }
 
   lodash@4.17.21:
     resolution: { integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg== }
@@ -1469,8 +1469,8 @@ packages:
   micromark-util-symbol@2.0.1:
     resolution: { integrity: sha512-vs5t8Apaud9N28kgCrRUdEed4UJ+wWNvicHLPxCa9ENlYuAY31M0ETy5y1vA33YoNPDFTghEbnh6efaE8h4x0Q== }
 
-  micromark-util-types@2.0.1:
-    resolution: { integrity: sha512-534m2WhVTddrcKVepwmVEVnUAmtrx9bfIjNoQHRqfnvdaHQiFytEhJoTgpWJvDEXCO5gLTQh3wYC1PgOJA4NSQ== }
+  micromark-util-types@2.0.2:
+    resolution: { integrity: sha512-Yw0ECSpJoViF1qTU4DC6NwtC4aWGt1EkzaQB8KPPyCRR8z9TWeV0HbEFGTO+ZY1wB22zmxnJqhPyTpOVCpeHTA== }
 
   micromatch@4.0.8:
     resolution: { integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA== }
@@ -1589,8 +1589,8 @@ packages:
   oniguruma-to-es@3.1.1:
     resolution: { integrity: sha512-bUH8SDvPkH3ho3dvwJwfonjlQ4R80vjyvrU8YpxuROddv55vAEJrTuCuCVUhhsHbtlD9tGGbaNApGQckXhS8iQ== }
 
-  openai@4.85.4:
-    resolution: { integrity: sha512-Nki51PBSu+Aryo7WKbdXvfm0X/iKkQS2fq3O0Uqb/O3b4exOZFid2te1BZ52bbO5UwxQZ5eeHJDCTqtrJLPw0w== }
+  openai@4.86.1:
+    resolution: { integrity: sha512-x3iCLyaC3yegFVZaxOmrYJjitKxZ9hpVbLi+ZlT5UHuHTMlEQEbKXkGOM78z9qm2T5GF+XRUZCP2/aV4UPFPJQ== }
     hasBin: true
     peerDependencies:
       ws: ^8.18.0
@@ -1660,8 +1660,8 @@ packages:
     resolution: { integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A== }
     engines: { node: ^10 || ^12 || >=14 }
 
-  preact@10.26.2:
-    resolution: { integrity: sha512-0gNmv4qpS9HaN3+40CLBAnKe0ZfyE4ZWo5xKlC1rVrr0ckkEvJvAQqKaHANdFKsGstoxrY4AItZ7kZSGVoVjgg== }
+  preact@10.26.3:
+    resolution: { integrity: sha512-OJCfNTdttkOTCbTN+gCnXn/woDqz1dIjvP+gdCoYGP2kKuX6w79FAP8qgY/r7jgAunvqHVVmEOKzKOFWzrXZdw== }
 
   prettier@3.5.2:
     resolution: { integrity: sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg== }
@@ -2252,7 +2252,7 @@ snapshots:
   "@docsearch/js@3.8.2(@algolia/client-search@5.20.3)(search-insights@2.17.3)":
     dependencies:
       "@docsearch/react": 3.8.2(@algolia/client-search@5.20.3)(search-insights@2.17.3)
-      preact: 10.26.2
+      preact: 10.26.3
     transitivePeerDependencies:
       - "@algolia/client-search"
       - "@types/react"
@@ -2387,7 +2387,7 @@ snapshots:
       consola: 3.4.0
       detect-libc: 2.0.3
       https-proxy-agent: 7.0.6
-      node-fetch: 2.7.0
+      node-fetch: 2.6.9
       nopt: 8.1.0
       semver: 7.7.1
       tar: 7.4.3
@@ -2620,7 +2620,7 @@ snapshots:
 
   "@ungap/structured-clone@1.3.0": {}
 
-  "@vercel/build-utils@10.3.0": {}
+  "@vercel/build-utils@10.3.1": {}
 
   "@vercel/error-utils@2.0.3": {}
 
@@ -2645,13 +2645,13 @@ snapshots:
       - rollup
       - supports-color
 
-  "@vercel/node@5.1.9(rollup@4.34.8)":
+  "@vercel/node@5.1.10(rollup@4.34.8)":
     dependencies:
       "@edge-runtime/node-utils": 2.3.0
       "@edge-runtime/primitives": 4.1.0
       "@edge-runtime/vm": 3.2.0
       "@types/node": 16.18.11
-      "@vercel/build-utils": 10.3.0
+      "@vercel/build-utils": 10.3.1
       "@vercel/error-utils": 2.0.3
       "@vercel/nft": 0.27.10(rollup@4.34.8)
       "@vercel/static-config": 3.0.0
@@ -3445,7 +3445,7 @@ snapshots:
 
   json-schema-traverse@1.0.0: {}
 
-  libphonenumber-js@1.12.0: {}
+  libphonenumber-js@1.12.4: {}
 
   lodash@4.17.21: {}
 
@@ -3486,7 +3486,7 @@ snapshots:
   micromark-util-character@2.1.1:
     dependencies:
       micromark-util-symbol: 2.0.1
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-util-encode@2.0.1: {}
 
@@ -3498,7 +3498,7 @@ snapshots:
 
   micromark-util-symbol@2.0.1: {}
 
-  micromark-util-types@2.0.1: {}
+  micromark-util-types@2.0.2: {}
 
   micromatch@4.0.8:
     dependencies:
@@ -3580,7 +3580,7 @@ snapshots:
       regex: 6.0.1
       regex-recursion: 6.0.2
 
-  openai@4.85.4(ws@8.18.1):
+  openai@4.86.1(ws@8.18.1):
     dependencies:
       "@types/node": 18.19.76
       "@types/node-fetch": 2.6.12
@@ -3641,7 +3641,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  preact@10.26.2: {}
+  preact@10.26.3: {}
 
   prettier@3.5.2: {}
 
