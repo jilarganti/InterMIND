@@ -3,17 +3,13 @@ import markdownItFootnote from "markdown-it-footnote"
 import { fileURLToPath, URL } from "node:url"
 import { gtmHead } from "./gtm.config"
 
-const hostLink = "https://goldenfish.ae"
+const hostUrl = "https://goldenfish.ae"
 const NOINDEX_PAGES = ["company-registration/fees-timelines", "include/recommended-banks", "@@@"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
 
-// Определяем текущее окружение
-const getEnvironment = () => {
-  if (process.env.VERCEL_ENV) return process.env.VERCEL_ENV
-}
-
-const isProduction = getEnvironment() === "production"
-const getApiUrl = () => (process.env.VERCEL_URL ? "https://" + process.env.VERCEL_URL : "http://localhost:3000")
+const isProduction = process.env.VERCEL_ENV === "production"
+const vercelUrl = process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL
+const baseUrl = vercelUrl ? `https://${vercelUrl}` : "http://localhost:3000"
 
 export const shared = defineConfig({
   title: "Golden Fish",
@@ -43,7 +39,7 @@ export const shared = defineConfig({
     }
 
     // canonical link
-    pageData.frontmatter.head.push(["link", { rel: "canonical", href: hostLink + "/" + pagePath }])
+    pageData.frontmatter.head.push(["link", { rel: "canonical", href: hostUrl + "/" + pagePath }])
   },
   markdown: {
     config: (md) => {
@@ -61,12 +57,12 @@ export const shared = defineConfig({
       },
     },
     server: {
-      proxy: { "/api": { target: getApiUrl(), changeOrigin: true } },
+      proxy: { "/api": { target: baseUrl, changeOrigin: true } },
     },
     plugins: [],
   },
   sitemap: {
-    hostname: hostLink,
+    hostname: hostUrl,
     // Убираем страницы noindex из sitemap.xml
     transformItems: (items) => items.filter((item) => !NOINDEX_PAGES.some((path) => item.url.endsWith(path))),
   },
@@ -76,7 +72,7 @@ export const shared = defineConfig({
     ["meta", { name: "theme-color", content: "#5f67ee" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:site_name", content: "Golden Fish" }],
-    ["meta", { property: "og:url", content: hostLink }],
+    ["meta", { property: "og:url", content: hostUrl }],
     ...gtmHead,
   ],
   themeConfig: {
