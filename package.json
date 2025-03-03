@@ -15,7 +15,7 @@
     "dev:api": "vercel dev --listen 3000",
     "dev:node": "node server.js",
     "kill-port": "kill -9 $(lsof -t -i:3000) || true",
-    "dev": "pnpm kill-port & concurrently \"npm run dev:api\" \"npm run dev:front\"",
+    "dev": "pnpm kill-port & concurrently \"pnpm run dev:api\" \"pnpm run dev:front\"",
     "build:api": "npx vercel build",
     "build": "vitepress build",
     "preview": "vitepress preview",
