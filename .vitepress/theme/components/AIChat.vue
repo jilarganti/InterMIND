@@ -35,13 +35,86 @@ const renderMarkdown = (content: string) => {
   return md.render(content)
 }
 
+// Функция для обработки маркеров изображений в тексте
+async function processImagesInMessage(message: UIMessage) {
+  if (!message || message.role !== "assistant") return message
+
+  console.log("🟢 CLIENT: Проверяем наличие маркеров изображений в сообщении...")
+
+  // Проверяем, есть ли маркеры изображений в тексте
+  const imageRegex = /\[NEEDS_IMAGE:([^\]]+)\]/g
+  if (!imageRegex.test(message.content)) {
+    console.log("🟢 CLIENT: Маркеры изображений не найдены")
+    return message
+  }
+
+  console.log("🟢 CLIENT: Найдены маркеры изображений, начинаем обработку")
+
+  // Сбрасываем regex для повторного поиска
+  imageRegex.lastIndex = 0
+
+  let match
+  let processedContent = message.content
+  let matchPromises = []
+
+  // Находим все маркеры и обрабатываем их
+  while ((match = imageRegex.exec(message.content)) !== null) {
+    const fullMatch = match[0]
+    const query = match[1]
+
+    console.log(`🟢 CLIENT: Обрабатываем маркер для запроса "${query}"`)
+
+    // Создаем промис для каждого маркера
+    const searchPromise = fetch(`/api/search-images?q=${encodeURIComponent(query)}`)
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(`🟢 CLIENT: Получены результаты поиска для "${query}":`, data)
+
+        if (data.images && data.images.length > 0) {
+          const imageUrl = data.images[0].url
+          console.log(`🟢 CLIENT: Найдено изображение: ${imageUrl.substring(0, 50)}...`)
+
+          const imageMarkdown = `![${query}](${imageUrl})`
+          processedContent = processedContent.replace(new RegExp(escapeRegExp(fullMatch), "g"), imageMarkdown)
+        } else {
+          console.log(`🟢 CLIENT: Изображения для "${query}" не найдены`)
+          processedContent = processedContent.replace(new RegExp(escapeRegExp(fullMatch), "g"), `[Изображение для "${query}" не найдено]`)
+        }
+      })
+      .catch((err) => {
+        console.error(`🔴 CLIENT: Ошибка при поиске изображения для "${query}":`, err)
+        processedContent = processedContent.replace(new RegExp(escapeRegExp(fullMatch), "g"), `[Ошибка поиска изображения для "${query}"]`)
+      })
+
+    matchPromises.push(searchPromise)
+  }
+
+  // Ждем завершения всех запросов
+  if (matchPromises.length > 0) {
+    console.log(`🟢 CLIENT: Ожидаем завершения ${matchPromises.length} запросов изображений...`)
+    await Promise.all(matchPromises)
+    console.log("🟢 CLIENT: Все запросы изображений завершены")
+
+    // Создаем новое сообщение с обработанным контентом
+    return {
+      ...message,
+      content: processedContent,
+    }
+  }
+
+  return message
+}
+
+// Вспомогательная функция для экранирования спецсимволов в регулярных выражениях
+function escapeRegExp(string: string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+}
+
 const messagesContainerRef = ref<HTMLDivElement | null>(null)
 const textareaRef = ref<HTMLTextAreaElement | null>(null)
 
 // Инициализируем с сохраненными сообщениями
 const currentMessages = ref<UIMessage[]>(getMessages(props.chatId))
-
-// В <script setup> AIChat.vue меняем эту часть:
 
 const { messages, input, handleSubmit, status, error, stop, setMessages } = useChat({
   api: "/api/chat",
@@ -58,7 +131,26 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
       throw new Error(`HTTP error! status: ${response.status}`)
     }
   },
-  onFinish: () => {
+  onFinish: async () => {
+    console.log(`🟢 CLIENT: Ответ завершен, начинаем обработку изображений...`)
+
+    // Если есть сообщения, обрабатываем последнее (от ассистента)
+    if (messages.value.length > 0) {
+      const lastIndex = messages.value.length - 1
+      const lastMessage = messages.value[lastIndex]
+
+      if (lastMessage.role === "assistant") {
+        // Обрабатываем маркеры изображений в последнем сообщении
+        const processedMessage = await processImagesInMessage(lastMessage)
+
+        // Обновляем сообщение, если оно изменилось
+        if (processedMessage !== lastMessage) {
+          console.log(`🟢 CLIENT: Обновляем сообщение с обработанными изображениями`)
+          messages.value = [...messages.value.slice(0, lastIndex), processedMessage]
+        }
+      }
+    }
+
     saveMessages(props.chatId, messages.value)
     scrollToBottom()
   },

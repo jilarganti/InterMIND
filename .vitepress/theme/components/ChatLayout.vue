@@ -6,11 +6,11 @@ import { useChatsStorage } from "../composables/useChatsStorage"
 const { chatIds, selectedChatId, createNewChat, selectChat } = useChatsStorage()
 
 const tags = ref([
-  { id: "1", text: "Explain the code" },
-  { id: "2", text: "Debug this issue" },
-  { id: "3", text: "Optimize performance" },
-  { id: "4", text: "Suggest improvements" },
-  { id: "5", text: "Write tests" },
+  { id: "1", text: "Expo City Dubai" },
+  { id: "2", text: "Dubai Frame tickets" },
+  { id: "3", text: "Burj Khalifa tickets" },
+  { id: "4", text: "Dubai Mall restaurants" },
+  { id: "5", text: "Palm Jumeirah rental" },
 ])
 
 interface ChatRef {
