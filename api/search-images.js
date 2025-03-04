@@ -1,5 +1,5 @@
 // api/search-images.js
-import { searchImages } from "./image-service.js"
+import { searchImages } from "./AIChat/image-service.js"
 
 // @ts-ignore
 export async function GET(req) {

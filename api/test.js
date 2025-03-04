@@ -1,10 +1,9 @@
 // @ts-check
 
 /**
- * @param {import('@vercel/node').VercelRequest} req
- * @param {import('@vercel/node').VercelResponse} res
+ * @param {{ method: string; body: string; }} req
+ * @param {{ status: (arg0: number) => { (): any; new (): any; json: { (arg0: { message: string; }): void; new (): any; }; }; }} res
  */
-
 export default function handler(req, res) {
   try {
     res.status(200).json({ message: "API работает" + req.method + req.body })
