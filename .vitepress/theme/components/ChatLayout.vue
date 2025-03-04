@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue"
 import AIChat from "./AIChat.vue"
-import { useChatsStorage } from "../composables/useChatsStorage"
+import { useChatsStorage } from "../composables/AIChat/useChatsStorage"
 
 const { chatIds, selectedChatId, createNewChat, selectChat } = useChatsStorage()
 

@@ -14,7 +14,7 @@
 import { useData, useRoute } from "vitepress"
 import { ref, computed } from "vue"
 import { generateOriginId } from "../utils/path"
-import { useFormSubmit } from "../composables/useFormSubmit"
+import { useFormSubmit } from "../composables/CRM/useFormSubmit"
 import { parsePhoneNumberWithError } from "libphonenumber-js"
 import { EXCLUDED_COUNTRIES } from "@setup/config/excludedCounties"
 
