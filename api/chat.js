@@ -26,7 +26,8 @@ export async function POST(req) {
 
     // Отправляем запрос к ИИ с инструкцией по изображениям
     const result = await streamText({
-      model: anthropic("claude-3-5-sonnet-20241022"),
+      // model: anthropic("claude-3-5-sonnet-20241022"),
+      model: anthropic("claude-3-haiku-20240307"),
       system: `Вы помощник, который отвечает наглядно, используя изображения где это уместно.
       Когда вы хотите проиллюстрировать ответ, укажите [NEEDS_IMAGE:поисковый_запрос] 
       в тексте. Например, если вы описываете Эйфелеву башню, добавьте 
