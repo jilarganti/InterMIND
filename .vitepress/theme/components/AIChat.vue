@@ -1,217 +1,29 @@
 <script setup lang="ts">
-import { ref, watch, nextTick } from "vue"
-import { useChat } from "@ai-sdk/vue"
+import { ref } from "vue"
 import { ArrowUp, Square } from "lucide-vue-next"
-import MarkdownIt from "markdown-it"
-import { useChatsStorage } from "../composables/useChatsStorage"
+import { useMarkdown } from "../composables/useMarkdown"
+import { useTextareaHandler } from "../composables/useTextareaHandler"
+import { useChatMessages } from "../composables/useChatMessages"
 import type { UIMessage } from "@ai-sdk/ui-utils"
 
 const props = defineProps<{
   chatId: string
 }>()
 
-const { saveMessages, getMessages } = useChatsStorage()
-
-const md = new MarkdownIt({
-  html: true,
-  linkify: true,
-  typographer: true,
-  breaks: false,
-})
-
-// Настройка открытия ссылок в новой вкладке
-const defaultRender = md.renderer.rules.link_open || ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options))
-
-md.renderer.rules.link_open = (tokens, idx, options, env, self) => {
-  tokens[idx].attrSet("target", "_blank")
-  tokens[idx].attrSet("rel", "noopener")
-  return defaultRender(tokens, idx, options, env, self)
-}
-
-// Настройка обработки переносов строк
-md.set({ breaks: false })
-
-const renderMarkdown = (content: string) => {
-  return md.render(content)
-}
-
-// Функция для обработки маркеров изображений в тексте
-async function processImagesInMessage(message: UIMessage) {
-  if (!message || message.role !== "assistant") return message
-
-  console.log("🟢 CLIENT: Проверяем наличие маркеров изображений в сообщении...")
-
-  // Проверяем, есть ли маркеры изображений в тексте
-  const imageRegex = /\[NEEDS_IMAGE:([^\]]+)\]/g
-  if (!imageRegex.test(message.content)) {
-    console.log("🟢 CLIENT: Маркеры изображений не найдены")
-    return message
-  }
-
-  console.log("🟢 CLIENT: Найдены маркеры изображений, начинаем обработку")
-
-  // Сбрасываем regex для повторного поиска
-  imageRegex.lastIndex = 0
-
-  let match
-  let processedContent = message.content
-  let matchPromises = []
-
-  // Находим все маркеры и обрабатываем их
-  while ((match = imageRegex.exec(message.content)) !== null) {
-    const fullMatch = match[0]
-    const query = match[1]
-
-    console.log(`🟢 CLIENT: Обрабатываем маркер для запроса "${query}"`)
-
-    // Создаем промис для каждого маркера
-    const searchPromise = fetch(`/api/search-images?q=${encodeURIComponent(query)}`)
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(`🟢 CLIENT: Получены результаты поиска для "${query}":`, data)
-
-        if (data.images && data.images.length > 0) {
-          const imageUrl = data.images[0].url
-          console.log(`🟢 CLIENT: Найдено изображение: ${imageUrl.substring(0, 50)}...`)
-
-          const imageMarkdown = `![${query}](${imageUrl})`
-          processedContent = processedContent.replace(new RegExp(escapeRegExp(fullMatch), "g"), imageMarkdown)
-        } else {
-          console.log(`🟢 CLIENT: Изображения для "${query}" не найдены`)
-          processedContent = processedContent.replace(new RegExp(escapeRegExp(fullMatch), "g"), `[Изображение для "${query}" не найдено]`)
-        }
-      })
-      .catch((err) => {
-        console.error(`🔴 CLIENT: Ошибка при поиске изображения для "${query}":`, err)
-        processedContent = processedContent.replace(new RegExp(escapeRegExp(fullMatch), "g"), `[Ошибка поиска изображения для "${query}"]`)
-      })
-
-    matchPromises.push(searchPromise)
-  }
-
-  // Ждем завершения всех запросов
-  if (matchPromises.length > 0) {
-    console.log(`🟢 CLIENT: Ожидаем завершения ${matchPromises.length} запросов изображений...`)
-    await Promise.all(matchPromises)
-    console.log("🟢 CLIENT: Все запросы изображений завершены")
-
-    // Создаем новое сообщение с обработанным контентом
-    return {
-      ...message,
-      content: processedContent,
-    }
-  }
-
-  return message
-}
-
-// Вспомогательная функция для экранирования спецсимволов в регулярных выражениях
-function escapeRegExp(string: string) {
-  return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-}
-
+// Рефы для DOM-элементов
 const messagesContainerRef = ref<HTMLDivElement | null>(null)
 const textareaRef = ref<HTMLTextAreaElement | null>(null)
 
-// Инициализируем с сохраненными сообщениями
-const currentMessages = ref<UIMessage[]>(getMessages(props.chatId))
+// Маркдаун-рендерер
+const { renderMarkdown } = useMarkdown()
 
-const { messages, input, handleSubmit, status, error, stop, setMessages } = useChat({
-  api: "/api/chat",
-  id: props.chatId,
-  initialMessages: getMessages(props.chatId),
-  body: {
-    stream: true,
-  },
-  headers: {
-    "Content-Type": "application/json",
-  },
-  onResponse: (response) => {
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`)
-    }
-  },
-  onFinish: async () => {
-    console.log(`🟢 CLIENT: Ответ завершен, начинаем обработку изображений...`)
+// Основная логика чата
+const { messages, input, status, error, handleSubmitWithScroll, handleStop } = useChatMessages(props.chatId, messagesContainerRef, textareaRef)
 
-    // Если есть сообщения, обрабатываем последнее (от ассистента)
-    if (messages.value.length > 0) {
-      const lastIndex = messages.value.length - 1
-      const lastMessage = messages.value[lastIndex]
+// Логика работы с текстовым полем
+const { handleInput, insertText } = useTextareaHandler(textareaRef, input)
 
-      if (lastMessage.role === "assistant") {
-        // Обрабатываем маркеры изображений в последнем сообщении
-        const processedMessage = await processImagesInMessage(lastMessage)
-
-        // Обновляем сообщение, если оно изменилось
-        if (processedMessage !== lastMessage) {
-          console.log(`🟢 CLIENT: Обновляем сообщение с обработанными изображениями`)
-          messages.value = [...messages.value.slice(0, lastIndex), processedMessage]
-        }
-      }
-    }
-
-    saveMessages(props.chatId, messages.value)
-    scrollToBottom()
-  },
-  onError: (error) => {
-    console.error("Chat error:", error)
-  },
-})
-
-// Заменяем watch для chatId
-watch(
-  () => props.chatId,
-  (newChatId, oldChatId) => {
-    // Сохраняем сообщения предыдущего чата
-    if (oldChatId && messages.value.length > 0) {
-      saveMessages(oldChatId, messages.value)
-    }
-
-    // Загружаем сообщения для нового чата через setMessages
-    const savedMessages = getMessages(newChatId)
-    setMessages(savedMessages)
-  },
-  { immediate: true },
-)
-
-// Обновляем watch для messages
-watch(
-  messages,
-  (newMessages) => {
-    if (newMessages.length > 0) {
-      saveMessages(props.chatId, newMessages)
-    }
-  },
-  { deep: true },
-)
-
-const scrollToBottom = async () => {
-  await nextTick()
-  if (messagesContainerRef.value) {
-    const container = messagesContainerRef.value
-    container.scrollTop = container.scrollHeight
-  }
-}
-
-watch(
-  messages,
-  () => {
-    scrollToBottom()
-  },
-  { deep: true },
-)
-
-const adjustTextareaHeight = (target: HTMLTextAreaElement) => {
-  target.style.height = "auto"
-  target.style.height = `${target.scrollHeight}px`
-}
-
-const handleInput = (event: Event) => {
-  const textarea = event.target as HTMLTextAreaElement
-  adjustTextareaHeight(textarea)
-}
-
+// Обработчик нажатия клавиш
 const handleKeyDown = (event: KeyboardEvent) => {
   if (event.key === "Enter" && !event.shiftKey) {
     event.preventDefault()
@@ -221,54 +33,7 @@ const handleKeyDown = (event: KeyboardEvent) => {
   }
 }
 
-const resetTextareaHeight = () => {
-  if (textareaRef.value) {
-    textareaRef.value.style.height = "auto"
-  }
-}
-
-const handleSubmitWithScroll = async (event: Event) => {
-  event.preventDefault()
-
-  if (!input.value.trim() && status.value !== "streaming") {
-    return
-  }
-
-  try {
-    await handleSubmit(event)
-    scrollToBottom()
-    resetTextareaHeight()
-  } catch (e) {
-    console.error("Failed to send message:", e)
-  }
-}
-
-const handleStop = () => {
-  stop()
-}
-
-// Method to insert text at cursor position
-const insertText = (text: string) => {
-  if (textareaRef.value) {
-    const textarea = textareaRef.value
-    const start = textarea.selectionStart
-    const end = textarea.selectionEnd
-    const textBefore = input.value.substring(0, start)
-    const textAfter = input.value.substring(end)
-
-    input.value = textBefore + text + textAfter
-
-    // Set cursor position after inserted text
-    nextTick(() => {
-      textarea.focus()
-      const newPosition = start + text.length
-      textarea.selectionStart = newPosition
-      textarea.selectionEnd = newPosition
-      adjustTextareaHeight(textarea)
-    })
-  }
-}
-
+// Экспорт метода insertText для использования извне
 defineExpose({ insertText })
 </script>
 
