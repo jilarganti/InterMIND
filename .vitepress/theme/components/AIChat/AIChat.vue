@@ -1,10 +1,9 @@
 <script setup lang="ts">
 import { ref } from "vue"
 import { ArrowUp, Square } from "lucide-vue-next"
-import { useMarkdown } from "../composables/AIChat/useMarkdown"
-import { useTextareaHandler } from "../composables/AIChat/useTextareaHandler"
-import { useChatMessages } from "../composables/AIChat/useChatMessages"
-import type { UIMessage } from "@ai-sdk/ui-utils"
+import { useMarkdown } from "@setup/theme/composables/AIChat/useMarkdown"
+import { useTextareaHandler } from "@setup/theme/composables/AIChat/useTextareaHandler"
+import { useChatMessages } from "@setup/theme/composables/AIChat/useChatMessages"
 
 const props = defineProps<{
   chatId: string
