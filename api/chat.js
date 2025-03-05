@@ -30,8 +30,8 @@ export async function POST(req) {
 
     // Отправляем запрос к ИИ с системным промптом
     const result = await streamText({
-      // model: anthropic("claude-3-5-sonnet-20241022"),
-      model: anthropic("claude-3-haiku-20240307"),
+      model: anthropic("claude-3-5-sonnet-20241022"),
+      // model: anthropic("claude-3-haiku-20240307"),
       system: systemPrompt,
       messages,
     })
