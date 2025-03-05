@@ -14,6 +14,21 @@ export function useChatMessages(chatId: string, messagesContainerRef: Ref<HTMLDi
   // Инициализируем с сохраненными сообщениями
   const currentChatId = ref(chatId)
 
+  // Таймер проверки маркеров - используем примитив вместо ref
+  let checkForImageMarkersTimer: number | null = null
+
+  // Флаг для отслеживания активного стрима
+  const isStreamActive = ref(false)
+
+  // Функция для надежного удаления таймера
+  const clearImageMarkersTimer = () => {
+    if (checkForImageMarkersTimer !== null) {
+      console.log("🔧 CLIENT: Очищаем таймер проверки маркеров изображений")
+      window.clearInterval(checkForImageMarkersTimer)
+      checkForImageMarkersTimer = null
+    }
+  }
+
   const { messages, input, handleSubmit, status, error, stop, setMessages } = useChat({
     api: "/api/chat",
     id: chatId,
@@ -32,6 +47,12 @@ export function useChatMessages(chatId: string, messagesContainerRef: Ref<HTMLDi
     onFinish: async () => {
       console.log(`🟢 CLIENT: Ответ завершен, начинаем обработку изображений...`)
 
+      // Всегда очищаем таймер при завершении ответа
+      clearImageMarkersTimer()
+
+      // Сбрасываем флаг активного стрима
+      isStreamActive.value = false
+
       // Если есть сообщения, обрабатываем последнее (от ассистента)
       if (messages.value.length > 0) {
         const lastIndex = messages.value.length - 1
@@ -44,18 +65,48 @@ export function useChatMessages(chatId: string, messagesContainerRef: Ref<HTMLDi
           // Обновляем сообщение, если оно изменилось
           if (processedMessage !== lastMessage) {
             console.log(`🟢 CLIENT: Обновляем сообщение с обработанными изображениями`)
-            messages.value = [...messages.value.slice(0, lastIndex), processedMessage]
+
+            // Создаем новый массив, чтобы обеспечить реактивное обновление
+            const updatedMessages = [...messages.value]
+            updatedMessages[lastIndex] = processedMessage
+
+            setMessages(updatedMessages)
           }
         }
       }
 
+      // Сохраняем сообщения после завершения
       saveMessages(currentChatId.value, messages.value)
-      scrollToBottom()
+
+      // Скроллим вниз
+      nextTick(() => {
+        scrollToBottom()
+      })
     },
     onError: (error) => {
       console.error("Chat error:", error)
+
+      // Очищаем таймер при ошибке
+      clearImageMarkersTimer()
+
+      // Сбрасываем флаг активного стрима
+      isStreamActive.value = false
     },
   })
+
+  // Наблюдаем за изменением статуса
+  watch(
+    () => status.value,
+    (newStatus) => {
+      // Обновляем флаг активного стрима
+      isStreamActive.value = newStatus === "streaming"
+
+      // Если стрим остановлен, очищаем таймер
+      if (newStatus !== "streaming") {
+        clearImageMarkersTimer()
+      }
+    }
+  )
 
   // Сброс высоты textarea
   const resetTextareaHeight = (): void => {
@@ -68,11 +119,14 @@ export function useChatMessages(chatId: string, messagesContainerRef: Ref<HTMLDi
   const handleSubmitWithScroll = async (event: Event): Promise<void> => {
     event.preventDefault()
 
-    if (!input.value.trim() && status.value !== "streaming") {
+    if (!input.value.trim() || status.value === "streaming") {
       return
     }
 
     try {
+      // Перед новым запросом очищаем таймер, если он существует
+      clearImageMarkersTimer()
+
       await handleSubmit(event)
       scrollToBottom()
       resetTextareaHeight()
@@ -83,6 +137,10 @@ export function useChatMessages(chatId: string, messagesContainerRef: Ref<HTMLDi
 
   // Остановка генерации ответа
   const handleStop = (): void => {
+    // Очищаем таймер при остановке стрима
+    clearImageMarkersTimer()
+
+    // Останавливаем генерацию
     stop()
   }
 
@@ -99,6 +157,9 @@ export function useChatMessages(chatId: string, messagesContainerRef: Ref<HTMLDi
   watch(
     () => chatId,
     (newChatId, oldChatId) => {
+      // Очищаем таймер при переключении чата
+      clearImageMarkersTimer()
+
       currentChatId.value = newChatId
 
       // Сохраняем сообщения предыдущего чата
