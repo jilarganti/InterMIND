@@ -94,6 +94,6 @@ export function useImageProcessing() {
   }
 
   return {
-    processImagesInMessage
+    processImagesInMessage,
   }
 }

@@ -60,7 +60,6 @@
     "printWidth": 160
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm format",
     "pre-push": "pnpm build"
   }
 }
