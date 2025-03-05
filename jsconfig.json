@@ -4,7 +4,11 @@
     "strict": true,
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "bundler"
+    "moduleResolution": "bundler",
+    "paths": {
+      "@config/*": ["./.vitepress/config/*"],
+      "@theme/*": ["./.vitepress/theme/*"]
+    }
   },
   "include": ["api/**/*.js"]
 }

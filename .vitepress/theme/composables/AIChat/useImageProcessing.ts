@@ -1,3 +1,4 @@
+// .vitepress/theme/composables/useImageProcessing.ts
 import type { UIMessage } from "@ai-sdk/ui-utils"
 
 export function useImageProcessing() {
@@ -7,6 +8,7 @@ export function useImageProcessing() {
   }
 
   // Функция для обработки маркеров изображений в тексте
+  // с добавлением ссылок на источники
   async function processImagesInMessage(message: UIMessage): Promise<UIMessage> {
     if (!message || message.role !== "assistant") return message
 
@@ -42,10 +44,25 @@ export function useImageProcessing() {
           console.log(`🟢 CLIENT: Получены результаты поиска для "${query}":`, data)
 
           if (data.images && data.images.length > 0) {
-            const imageUrl = data.images[0].url
+            const image = data.images[0]
+            const imageUrl = image.url
+            const title = image.title || query
+
             console.log(`🟢 CLIENT: Найдено изображение: ${imageUrl.substring(0, 50)}...`)
 
-            const imageMarkdown = `![${query}](${imageUrl})`
+            // Вариант 1: Изображение со ссылкой на источник под ним (компактный)
+            const imageMarkdown = `![${query}](${imageUrl})\n<small>[📍${title}](${imageUrl})</small>`
+
+            // Вариант 2: Обернуть изображение в ссылку
+            // const imageMarkdown = `[![${query}](${imageUrl})](${imageUrl} "Источник: ${title}")`
+
+            // Вариант 3: HTML с более гибким форматированием
+            // const imageMarkdown =
+            //   `<figure style="margin:0;text-align:center">
+            //   <img src="${imageUrl}" alt="${query}" style="max-width:100%">
+            //   <figcaption style="font-size:0.8em;color:#666">Источник: <a href="${imageUrl}" target="_blank">${title}</a></figcaption>
+            //   </figure>`;
+
             processedContent = processedContent.replace(new RegExp(escapeRegExp(fullMatch), "g"), imageMarkdown)
           } else {
             console.log(`🟢 CLIENT: Изображения для "${query}" не найдены`)
@@ -77,6 +94,6 @@ export function useImageProcessing() {
   }
 
   return {
-    processImagesInMessage,
+    processImagesInMessage
   }
 }
