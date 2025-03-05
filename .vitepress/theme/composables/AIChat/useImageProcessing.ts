@@ -48,7 +48,8 @@ export function useImageProcessing() {
             const imageUrl = image.url
             const title = image.title || query
 
-            console.log(`🟢 CLIENT: Найдено изображение: ${imageUrl.substring(0, 50)}...`)
+            // console.log(`🟢 CLIENT: Найдено изображение: ${imageUrl.substring(0, 50)}...`)
+            console.log(`🟢 CLIENT: Найдено изображение: ${imageUrl}`)
 
             // Вариант 1: Изображение со ссылкой на источник под ним (компактный)
             const imageMarkdown = `![${query}](${imageUrl})\n<small>[📍${title}](${imageUrl})</small>`
