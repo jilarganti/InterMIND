@@ -72,8 +72,8 @@ hero:
     linkText: 'Read More',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
-      light: '/img/ILON MASK ID.webp',
-      dark: '/img/ILON MASK ID.webp',
+      light: '/img/ILONMASKID.webp',
+      dark: '/img/ILONMASKID.webp',
       alt: 'ভিসা সেবাসমূহ',
       width: '100%'
     }
@@ -130,6 +130,6 @@ hero:
   '🎯 প্রতিভাবান ব্যক্তিত্ব',]"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILON MASK ID.webp', href: './immigration.md', alt: 'UAE ইমিগ্রেশন' },
-  { src: '/img/ILON MASK ID.webp', href: './immigration.md', alt: 'UAE ইমিগ্রেশন' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAE ইমিগ্রেশন' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAE ইমিগ্রেশন' },
 ]"/> -->

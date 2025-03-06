@@ -63,7 +63,7 @@ Thời gian ước tính để hoàn thành thủ tục là khoảng ba tuần c
 
 Thị thực phụ thuộc chỉ có thể được nộp đơn sau khi người bảo lãnh chính đã có được những điều sau:
 
-- Thẻ [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) ![Thẻ căn cước](/img/ILON MASK ID.webp)
+- Thẻ [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) ![Thẻ căn cước](/img/ILONMASKID.webp)
 - Hợp đồng thuê nhà đã ký tại UAE với diện tích đủ lớn để chứa tất cả người phụ thuộc
 - Đăng ký Ejari cho bất động sản nhà ở này
 

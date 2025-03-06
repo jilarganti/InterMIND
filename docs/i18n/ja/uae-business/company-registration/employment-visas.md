@@ -63,7 +63,7 @@ Golden Fishは、クライアントの起業家ビザまたは就労ビザが取
 
 扶養家族ビザは、主たるスポンサーが以下のものを取得した後でのみ申請できます：
 
-- [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id)カード ![身分証明書](/img/ILON MASK ID.webp)
+- [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id)カード ![身分証明書](/img/ILONMASKID.webp)
 - すべての扶養家族を収容できる十分な広さのUAEの居住用物件の賃貸契約書（署名済み）
 - この居住用物件のEjari登録証
 

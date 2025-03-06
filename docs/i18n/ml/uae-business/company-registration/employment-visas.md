@@ -63,7 +63,7 @@ Golden Fish നമ്മുടെ ക്ലയന്റിന്റെ സംര
 
 പ്രധാന സ്പോൺസർക്ക് താഴെ പറയുന്നവ ലഭിച്ചതിന് ശേഷം മാത്രമേ ആശ്രിത വിസകൾക്ക് അപേക്ഷിക്കാൻ കഴിയൂ:
 
-- ഒരു [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) കാർഡ് ![ID Card](/img/ILON MASK ID.webp)
+- ഒരു [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) കാർഡ് ![ID Card](/img/ILONMASKID.webp)
 - എല്ലാ ആശ്രിതരെയും താമസിപ്പിക്കാൻ വലുപ്പമുള്ള UAE റെസിഡൻഷ്യൽ പ്രോപ്പർട്ടിക്കായുള്ള ഒപ്പിട്ട ലീസ് കരാർ
 - ഈ റെസിഡൻഷ്യൽ പ്രോപ്പർട്ടിക്കുള്ള Ejari രജിസ്ട്രേഷൻ
 

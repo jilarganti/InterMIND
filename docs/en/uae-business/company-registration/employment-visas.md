@@ -63,7 +63,7 @@ The estimated timeframe to secure the same is approximately three weeks per depe
 
 Dependent visas can only be applied after the principal sponsor has obtained the following:
 
-- An [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) card ![ID Card](/img/ILON MASK ID.webp)
+- An [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) card ![ID Card](/img/ILONMASKID.webp)
 - A signed lease agreement for a UAE residential property large enough to accommodate all dependents
 - The Ejari registration for this residential property
 

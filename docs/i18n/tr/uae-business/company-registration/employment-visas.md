@@ -63,7 +63,7 @@ Bağımlı vize başvurusunun tamamlanması için gereken tahmini süre, işlem 
 
 Bağımlı vizeler ancak ana sponsorun aşağıdakileri elde etmesinden sonra başvurulabilir:
 
-- Bir [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) kartı ![Kimlik Kartı](/img/ILON MASK ID.webp)
+- Bir [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) kartı ![Kimlik Kartı](/img/ILONMASKID.webp)
 - Tüm bağımlıları barındırabilecek büyüklükte bir BAE konut mülkü için imzalanmış kira sözleşmesi
 - Bu konut mülkü için Ejari kaydı
 

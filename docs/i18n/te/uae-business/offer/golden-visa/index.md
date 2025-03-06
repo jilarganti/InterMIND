@@ -72,8 +72,8 @@ hero:
     linkText: 'Read More',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
-      light: '/img/ILON MASK ID.webp',
-      dark: '/img/ILON MASK ID.webp',
+      light: '/img/ILONMASKID.webp',
+      dark: '/img/ILONMASKID.webp',
       alt: 'వీసా సేవలు',
       width: '100%'
     }
@@ -130,6 +130,6 @@ hero:
   '🎯 ప్రతిభావంతులైన టాలెంట్లు',]"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILON MASK ID.webp', href: './immigration.md', alt: 'UAE వలస' },
-  { src: '/img/ILON MASK ID.webp', href: './immigration.md', alt: 'UAE వలస' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAE వలస' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAE వలస' },
 ]"/> -->

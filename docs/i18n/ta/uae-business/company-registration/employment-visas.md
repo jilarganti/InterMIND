@@ -63,7 +63,7 @@ Golden Fish எங்கள் வாடிக்கையாளரின் த
 
 முதன்மை ஸ்பான்சர் பின்வருவனவற்றைப் பெற்ற பிறகே சார்ந்த விசாக்களுக்கு விண்ணப்பிக்க முடியும்:
 
-- ஒரு [எமிரேட்ஸ் அடையாள](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) அட்டை ![அடையாள அட்டை](/img/ILON MASK ID.webp)
+- ஒரு [எமிரேட்ஸ் அடையாள](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) அட்டை ![அடையாள அட்டை](/img/ILONMASKID.webp)
 - அனைத்து சார்ந்தவர்களையும் தங்க வைக்க போதுமான அளவு UAE குடியிருப்பு சொத்திற்கான கையெழுத்திடப்பட்ட குத்தகை ஒப்பந்தம்
 - இந்த குடியிருப்பு சொத்திற்கான Ejari பதிவு
 

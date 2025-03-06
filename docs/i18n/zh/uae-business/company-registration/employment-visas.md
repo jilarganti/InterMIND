@@ -63,7 +63,7 @@ Golden Fish 将在客户获得创业签证或工作签证后，很乐意为其�
 
 家属签证只能在主要担保人获得以下文件后才能申请：
 
-- [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) 卡 ![身份证](/img/ILON MASK ID.webp)
+- [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) 卡 ![身份证](/img/ILONMASKID.webp)
 - 已签署的阿联酋住宅租赁合同，房屋面积需足够容纳所有家属
 - 该住宅物业的 Ejari 登记证明
 

@@ -63,7 +63,7 @@ Perkiraan waktu yang dibutuhkan untuk mendapatkan visa tersebut adalah sekitar t
 
 Visa tanggungan hanya dapat diajukan setelah sponsor utama telah memperoleh hal-hal berikut:
 
-- Kartu [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) ![Kartu Identitas](/img/ILON MASK ID.webp)
+- Kartu [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) ![Kartu Identitas](/img/ILONMASKID.webp)
 - Perjanjian sewa yang ditandatangani untuk properti residensial UAE yang cukup besar untuk menampung semua tanggungan
 - Pendaftaran Ejari untuk properti residensial ini
 

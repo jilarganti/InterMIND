@@ -72,8 +72,8 @@ hero:
     linkText: 'Read More',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
-      light: '/img/ILON MASK ID.webp',
-      dark: '/img/ILON MASK ID.webp',
+      light: '/img/ILONMASKID.webp',
+      dark: '/img/ILONMASKID.webp',
       alt: 'ویزا سروسز',
       width: '100%'
     }
@@ -130,6 +130,6 @@ hero:
   '🎯 ہنر مند صلاحیتیں',]"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILON MASK ID.webp', href: './immigration.md', alt: 'UAE امیگریشن' },
-  { src: '/img/ILON MASK ID.webp', href: './immigration.md', alt: 'UAE امیگریشن' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAE امیگریشن' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAE امیگریشن' },
 ]"/> -->

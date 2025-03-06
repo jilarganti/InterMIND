@@ -55,7 +55,7 @@ hero:
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
-      dark: '/img/ILON MASK ID.webp',
+      dark: '/img/ILONMASKID.webp',
       alt: 'Servicios de Visado'
     }
   },

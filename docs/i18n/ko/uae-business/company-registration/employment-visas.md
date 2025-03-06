@@ -63,7 +63,7 @@ Golden Fish는 고객의 사업가 비자 또는 취업 비자가 확보되면 �
 
 부양가족 비자는 주 스폰서가 다음 사항을 획득한 후에만 신청할 수 있습니다:
 
-- [에미레이츠 ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) 카드 ![신분증](/img/ILON MASK ID.webp)
+- [에미레이츠 ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) 카드 ![신분증](/img/ILONMASKID.webp)
 - 모든 부양가족을 수용할 수 있을 만큼 충분히 큰 UAE 주거용 부동산에 대한 서명된 임대 계약서
 - 해당 주거용 부동산에 대한 Ejari 등록
 

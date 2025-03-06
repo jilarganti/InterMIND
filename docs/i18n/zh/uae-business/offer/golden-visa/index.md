@@ -72,8 +72,8 @@ hero:
     linkText: 'Read More',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
-      light: '/img/ILON MASK ID.webp',
-      dark: '/img/ILON MASK ID.webp',
+      light: '/img/ILONMASKID.webp',
+      dark: '/img/ILONMASKID.webp',
       alt: '签证服务',
       width: '100%'
     }
@@ -130,6 +130,6 @@ hero:
   '🎯 天才人才',]"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILON MASK ID.webp', href: './immigration.md', alt: '阿联酋移民' },
-  { src: '/img/ILON MASK ID.webp', href: './immigration.md', alt: '阿联酋移民' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: '阿联酋移民' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: '阿联酋移民' },
 ]"/> -->

@@ -63,7 +63,7 @@ Golden Fish с удовольствием оформит семейные виз
 
 Визы для членов семьи могут быть оформлены только после того, как основной спонсор получит следующее:
 
-- Карту [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) ![Удостоверение личности](/img/ILON MASK ID.webp)
+- Карту [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) ![Удостоверение личности](/img/ILONMASKID.webp)
 - Подписанный договор аренды жилой недвижимости в ОАЭ, достаточно просторной для размещения всех членов семьи
 - Регистрацию Ejari для данной жилой недвижимости
 

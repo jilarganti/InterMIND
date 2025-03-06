@@ -72,8 +72,8 @@ hero:
     linkText: 'Read More',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
-      light: '/img/ILON MASK ID.webp',
-      dark: '/img/ILON MASK ID.webp',
+      light: '/img/ILONMASKID.webp',
+      dark: '/img/ILONMASKID.webp',
       alt: 'Vize Hizmetleri',
       width: '100%'
     }
@@ -130,6 +130,6 @@ hero:
   '🎯 Yetenekli Dahiler',]"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILON MASK ID.webp', href: './immigration.md', alt: 'BAE Göçmenlik' },
-  { src: '/img/ILON MASK ID.webp', href: './immigration.md', alt: 'BAE Göçmenlik' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'BAE Göçmenlik' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'BAE Göçmenlik' },
 ]"/> -->

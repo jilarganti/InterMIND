@@ -72,8 +72,8 @@ hero:
     linkText: 'اقرأ المزيد',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
-      light: '/img/ILON MASK ID.webp',
-      dark: '/img/ILON MASK ID.webp',
+      light: '/img/ILONMASKID.webp',
+      dark: '/img/ILONMASKID.webp',
       alt: 'خدمات التأشيرات',
       width: '100%'
     }
@@ -130,6 +130,6 @@ hero:
   '🎯 المواهب المتميزة',]"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILON MASK ID.webp', href: './immigration.md', alt: 'الهجرة إلى الإمارات' },
-  { src: '/img/ILON MASK ID.webp', href: './immigration.md', alt: 'الهجرة إلى الإمارات' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'الهجرة إلى الإمارات' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'الهجرة إلى الإمارات' },
 ]"/> -->

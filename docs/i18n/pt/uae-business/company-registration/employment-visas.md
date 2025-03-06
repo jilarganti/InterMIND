@@ -63,7 +63,7 @@ O prazo estimado para obter o mesmo é de aproximadamente três semanas por vist
 
 Os vistos de dependentes só podem ser solicitados após o patrocinador principal ter obtido o seguinte:
 
-- Um cartão [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) ![Cartão de Identidade](/img/ILON MASK ID.webp)
+- Um cartão [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) ![Cartão de Identidade](/img/ILONMASKID.webp)
 - Um contrato de aluguel assinado para uma propriedade residencial nos Emirados Árabes Unidos grande o suficiente para acomodar todos os dependentes
 - O registro Ejari para esta propriedade residencial
 

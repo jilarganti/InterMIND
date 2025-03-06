@@ -63,7 +63,7 @@ El plazo estimado para obtener el mismo es de aproximadamente tres semanas por c
 
 Los visados de dependientes solo se pueden solicitar después de que el patrocinador principal haya obtenido lo siguiente:
 
-- Una tarjeta de [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) ![Tarjeta de identificación](/img/ILON MASK ID.webp)
+- Una tarjeta de [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) ![Tarjeta de identificación](/img/ILONMASKID.webp)
 - Un contrato de arrendamiento firmado para una propiedad residencial en EAU lo suficientemente grande para acomodar a todos los dependientes
 - El registro Ejari para esta propiedad residencial
 

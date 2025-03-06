@@ -63,7 +63,7 @@ Le délai estimé pour obtenir ces visas est d'environ trois semaines par visa d
 
 Les visas de personnes à charge ne peuvent être demandés qu'après que le sponsor principal ait obtenu les éléments suivants :
 
-- Une carte [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) ![Carte d'identité](/img/ILON MASK ID.webp)
+- Une carte [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) ![Carte d'identité](/img/ILONMASKID.webp)
 - Un contrat de location signé pour un bien immobilier aux EAU suffisamment grand pour accueillir toutes les personnes à charge
 - L'enregistrement Ejari pour ce bien immobilier
 
