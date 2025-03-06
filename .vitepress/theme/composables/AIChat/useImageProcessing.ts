@@ -58,7 +58,7 @@ export function useImageProcessing() {
             // const imageHtml = `[![${query}](${imageUrl})](${imageUrl} "Источник: ${title}")`
 
             const imageHtml =
-              `<figure class="image-container" style="margin:0;text-align:center">
+              `<figure class="image-container" style="margin:16px;text-align:center">
                 <img class="chat-interactive-image" src="${imageUrl}" data-query="${query}" data-title="${title}" style="max-width:100%">
                 <figcaption style="font-size:0.8em;color:#666;margin-top:4px">Источник: <a href="${imageUrl}" target="_blank">📍${title}</a></figcaption>
               </figure>`;
