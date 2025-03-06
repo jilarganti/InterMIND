@@ -4,6 +4,8 @@ import { ArrowUp, Square } from "lucide-vue-next"
 import { useMarkdown } from "@theme/composables/AIChat/useMarkdown"
 import { useTextareaHandler } from "@theme/composables/AIChat/useTextareaHandler"
 import { useChatMessages } from "@theme/composables/AIChat/useChatMessages"
+import { useInteractiveImages } from "@theme/composables/AIChat/useInteractiveImages"
+// Стили для интерактивных изображений подключаются в theme/index.ts
 
 const props = defineProps<{
   chatId: string
@@ -16,8 +18,25 @@ const textareaRef = ref<HTMLTextAreaElement | null>(null)
 // Маркдаун-рендерер
 const { renderMarkdown } = useMarkdown()
 
+// Функция для отправки текста напрямую (используется в обработчике изображений)
+const submitTextDirectly = (text: string) => {
+  if (text.trim() && status.value !== "streaming") {
+    // Устанавливаем текст в поле ввода
+    input.value = text
+
+    // Отправляем сообщение
+    handleSubmitWithScroll(new Event("submit"))
+
+    // Очищаем поле ввода после отправки
+    input.value = ""
+  }
+}
+
 // Основная логика чата
 const { messages, input, status, error, handleSubmitWithScroll, handleStop } = useChatMessages(props.chatId, messagesContainerRef, textareaRef)
+
+// Обработчик интерактивных изображений
+const { handleImageClick } = useInteractiveImages(messagesContainerRef, submitTextDirectly)
 
 // Логика работы с текстовым полем
 const { handleInput, insertText } = useTextareaHandler(textareaRef, input)

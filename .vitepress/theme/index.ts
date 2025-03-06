@@ -1,6 +1,7 @@
 import { h } from "vue"
 import DefaultTheme from "vitepress/theme"
 import "./style.css"
+import "./interactive-images.css"
 import type { Theme } from "vitepress"
 import { useData, inBrowser, useRouter } from "vitepress"
 import { watchEffect } from "vue"

@@ -52,19 +52,40 @@ export function useImageProcessing() {
             console.log(`🟢 CLIENT: Найдено изображение: ${imageUrl}`)
 
             // Вариант 1: Изображение со ссылкой на источник под ним (компактный)
-            const imageMarkdown = `![${query}](${imageUrl})\n<small>[📍${title}](${imageUrl})</small>`
+            // const imageHtml = `![${query}](${imageUrl})\n<small>[📍${title}](${imageUrl})</small>`
 
             // Вариант 2: Обернуть изображение в ссылку
-            // const imageMarkdown = `[![${query}](${imageUrl})](${imageUrl} "Источник: ${title}")`
+            // const imageHtml = `[![${query}](${imageUrl})](${imageUrl} "Источник: ${title}")`
+
+            const imageHtml =
+              `<figure class="image-container" style="margin:0;text-align:center">
+                <img class="chat-interactive-image" src="${imageUrl}" data-query="${query}" data-title="${title}" style="max-width:100%">
+                <figcaption style="font-size:0.8em;color:#666;margin-top:4px">Источник: <a href="${imageUrl}" target="_blank">📍${title}</a></figcaption>
+              </figure>`;
 
             // Вариант 3: HTML с более гибким форматированием
-            // const imageMarkdown =
-            //   `<figure style="margin:0;text-align:center">
-            //   <img src="${imageUrl}" alt="${query}" style="max-width:100%">
-            //   <figcaption style="font-size:0.8em;color:#666">Источник: <a href="${imageUrl}" target="_blank">${title}</a></figcaption>
+            // const imageHtml =
+            //   `<figure class="image-container" style="margin:16px;>
+            //     <img class="chat-interactive-image" src="${imageUrl}" data-query="${query}" data-title="${title}" style="max-width:100%;border-radius:8px;">
+            //     <figcaption style="font-size:0.8em;color:#666;margin-top:4px"><a href="${imageUrl}" target="_blank">📍${title}</a></figcaption>
             //   </figure>`;
 
-            processedContent = processedContent.replace(new RegExp(escapeRegExp(fullMatch), "g"), imageMarkdown)
+            // HTML с кастомными атрибутами для интерактивности
+            // data-query атрибут хранит оригинальный поисковый запрос
+            // const imageHtml = `
+            //   <figure class="image-container" style="margin:16px 0;text-align:center">
+            //     <img src="${imageUrl}" alt="${query}" 
+            //          class="chat-interactive-image" 
+            //          data-query="${query}"
+            //          data-title="${title}"
+            //          style="max-width:100%;border-radius:8px;cursor:pointer">
+            //     <figcaption style="font-size:0.8em;color:#666;margin-top:4px">
+            //       ${title} • <a href="${imageUrl}" target="_blank" rel="noopener">Источник</a>
+            //     </figcaption>
+            //   </figure>
+            // `
+
+            processedContent = processedContent.replace(new RegExp(escapeRegExp(fullMatch), "g"), imageHtml)
           } else {
             console.log(`🟢 CLIENT: Изображения для "${query}" не найдены`)
             processedContent = processedContent.replace(new RegExp(escapeRegExp(fullMatch), "g"), `[Изображение для "${query}" не найдено]`)
