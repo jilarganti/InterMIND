@@ -5,6 +5,7 @@ import "./interactive-images.css"
 import type { Theme } from "vitepress"
 import { useData, inBrowser, useRouter } from "vitepress"
 import { watchEffect } from "vue"
+import { createPinia } from 'pinia'
 
 import { components } from "./components"
 const { TypeForm, HomeSponsors, AsideSponsors } = components
@@ -45,7 +46,8 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // Регистрируем все компоненты одним циклом
+    app.use(createPinia())
+    // Регистрируем свои компоненты одним циклом
     Object.entries(components).forEach(([name, component]) => {
       app.component(name, component)
     })

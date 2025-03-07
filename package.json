@@ -13,7 +13,7 @@
     "dev:front": "vitepress dev",
     "dev:api": "vercel dev --listen 3000",
     "kill-port": "kill -9 $(lsof -t -i:3000) || true",
-    "dev": "pnpm kill-port & concurrently \"pnpm run dev:api\" \"pnpm run dev:front\"",
+    "dev": "concurrently \"pnpm run dev:api\" \"pnpm run dev:front\"",
     "build": "vitepress build",
     "translate": "node --no-deprecation scripts/translate",
     "format": "prettier -w .",
@@ -50,6 +50,7 @@
     "libphonenumber-js": "^1.12.5",
     "lucide-vue-next": "^0.476.0",
     "node-fetch": "^3.3.2",
+    "pinia": "^3.0.1",
     "pipedrive": "^23.4.3",
     "uuid": "^11.1.0",
     "vue": "^3.5.13"
