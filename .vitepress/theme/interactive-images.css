@@ -9,7 +9,7 @@
 }
 
 .chat-interactive-image:hover {
-  transform: scale(1.01);
+  transform: scale(1.005);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
@@ -17,24 +17,6 @@
 .image-container {
   position: relative;
 }
-
-/* .image-container::before {
-  content: "🔍";
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 12px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  z-index: 2;
-} */
 
 .image-container:hover::before {
   opacity: 1;
