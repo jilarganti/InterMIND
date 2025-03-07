@@ -20,6 +20,9 @@ importers:
       '@ai-sdk/vue':
         specifier: ^1.1.19
         version: 1.1.19(vue@3.5.13(typescript@5.8.2))(zod@3.24.2)
+      '@vueuse/core':
+        specifier: ^12.8.2
+        version: 12.8.2(typescript@5.8.2)
       ai:
         specifier: ^4.1.52
         version: 4.1.52(react@18.3.1)(zod@3.24.2)

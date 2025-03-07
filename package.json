@@ -46,6 +46,7 @@
     "@ai-sdk/openai": "^1.2.0",
     "@ai-sdk/ui-utils": "^1.1.16",
     "@ai-sdk/vue": "^1.1.19",
+    "@vueuse/core": "^12.8.2",
     "ai": "^4.1.52",
     "libphonenumber-js": "^1.12.5",
     "lucide-vue-next": "^0.476.0",

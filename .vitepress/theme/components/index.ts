@@ -15,6 +15,7 @@ import ContactFormModal from "./CRM/ContactFormModal.vue"
 
 import AIChat from "./AIChat/AIChat.vue"
 import ChatLayout from "./AIChat/ChatLayout.vue"
+// import ChatLayoutNew from "./AIChat/ChatLayout.vue"
 
 interface Components {
   [key: string]: Component
@@ -32,6 +33,7 @@ export const components: Components = {
   BenefitsList,
   AIChat,
   ChatLayout,
+  // ChatLayoutNew,
   ContactFormModal,
   TypeForm,
 }

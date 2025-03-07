@@ -1,11 +1,13 @@
 <script setup lang="ts">
-import { ref } from "vue"
+import { ref, onMounted, watch, onUnmounted } from "vue"
 import { ArrowUp, Square } from "lucide-vue-next"
-import { useMarkdown } from "@theme/composables/AIChat/useMarkdown"
-import { useTextareaHandler } from "@theme/composables/AIChat/useTextareaHandler"
-import { useChatMessages } from "@theme/composables/AIChat/useChatMessages"
-import { useInteractiveImages } from "@theme/composables/AIChat/useInteractiveImages"
-// Стили для интерактивных изображений подключаются в theme/index.ts
+import { useChat } from "@ai-sdk/vue"
+// Импортируем новые утилиты
+import { useMarkdownRenderer, useScrollToBottom, useTextarea } from "@theme/utils/chatUtils"
+// Импортируем утилиту для обработки изображений
+import { processImagesInMessage } from "@theme/utils/imageProcessor"
+// Импортируем хранилище чатов
+import { useChatsStore } from "@theme/stores/chatsStore"
 
 const props = defineProps<{
   chatId: string
@@ -15,10 +17,106 @@ const props = defineProps<{
 const messagesContainerRef = ref<HTMLDivElement | null>(null)
 const textareaRef = ref<HTMLTextAreaElement | null>(null)
 
-// Маркдаун-рендерер
-const { renderMarkdown } = useMarkdown()
+// Инициализируем хранилище чатов
+const chatsStore = useChatsStore()
 
-// Функция для отправки текста напрямую (используется в обработчике изображений)
+// Используем новый рендерер Markdown
+const { renderMarkdown } = useMarkdownRenderer()
+
+// Обработка скролла
+const { scrollToBottom } = useScrollToBottom(messagesContainerRef)
+
+// Создаем новый chat с помощью useChat
+const { messages, input, handleSubmit, status, error, stop, setMessages } = useChat({
+  api: "/api/chat",
+  id: props.chatId,
+  initialMessages: chatsStore.getMessages(props.chatId),
+  body: {
+    stream: true,
+  },
+  headers: {
+    "Content-Type": "application/json",
+  },
+  onResponse: (response) => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`)
+    }
+  },
+  onFinish: async () => {
+    console.log(`🟢 CLIENT: Ответ завершен, начинаем обработку изображений...`)
+
+    // Если есть сообщения, обрабатываем последнее (от ассистента)
+    if (messages.value.length > 0) {
+      const lastIndex = messages.value.length - 1
+      const lastMessage = messages.value[lastIndex]
+
+      if (lastMessage.role === "assistant") {
+        // Обрабатываем маркеры изображений в последнем сообщении
+        const processedMessage = await processImagesInMessage(lastMessage)
+
+        // Обновляем сообщение, если оно изменилось
+        if (processedMessage !== lastMessage) {
+          console.log(`🟢 CLIENT: Обновляем сообщение с обработанными изображениями`)
+
+          // Создаем новый массив, чтобы обеспечить реактивное обновление
+          const updatedMessages = [...messages.value]
+          updatedMessages[lastIndex] = processedMessage
+
+          setMessages(updatedMessages)
+        }
+      }
+    }
+
+    // Сохраняем сообщения после завершения
+    chatsStore.saveMessages(props.chatId, messages.value)
+
+    // Скроллим вниз
+    scrollToBottom()
+  },
+  onError: (error) => {
+    console.error("Chat error:", error)
+  },
+})
+
+// Добавьте этот watch для отслеживания изменения chatId
+watch(
+  () => props.chatId,
+  (newChatId, oldChatId) => {
+    console.log(`ID чата изменился: ${oldChatId} -> ${newChatId}`)
+
+    // Загружаем сообщения для нового чата
+    const savedMessages = chatsStore.getMessages(newChatId)
+
+    // Обновляем сообщения в useChat
+    setMessages(savedMessages)
+  },
+)
+
+// Логика работы с текстовым полем
+const { handleInput, insertText, handleKeyDown } = useTextarea(textareaRef, input)
+
+// Обработчик отправки сообщения
+const handleSubmitWithScroll = async (event: Event) => {
+  event.preventDefault()
+
+  if (!input.value.trim() || status.value === "streaming") {
+    return
+  }
+
+  try {
+    await handleSubmit(event)
+    scrollToBottom()
+  } catch (e) {
+    console.error("Failed to send message:", e)
+  }
+}
+
+// Остановка генерации ответа
+const handleStop = (): void => {
+  stop()
+}
+
+// Функция для отправки текста напрямую (используется для быстрых ответов)
 const submitTextDirectly = (text: string) => {
   if (text.trim() && status.value !== "streaming") {
     // Устанавливаем текст в поле ввода
@@ -26,30 +124,76 @@ const submitTextDirectly = (text: string) => {
 
     // Отправляем сообщение
     handleSubmitWithScroll(new Event("submit"))
-
-    // Очищаем поле ввода после отправки
-    input.value = ""
   }
 }
 
-// Основная логика чата
-const { messages, input, status, error, handleSubmitWithScroll, handleStop } = useChatMessages(props.chatId, messagesContainerRef, textareaRef)
+// Обработчик клика по изображению
+function handleImageClick(event: MouseEvent) {
+  const target = event.target as HTMLElement
 
-// Обработчик интерактивных изображений
-const { handleImageClick } = useInteractiveImages(messagesContainerRef, submitTextDirectly)
+  // Проверяем, что кликнули по интерактивному изображению
+  if (target && target.classList.contains("chat-interactive-image")) {
+    // Получаем оригинальный поисковый запрос из атрибутов
+    const query = target.getAttribute("data-query")
+    if (query) {
+      console.log(`🟢 CLIENT: Клик по изображению с запросом "${query}"`)
 
-// Логика работы с текстовым полем
-const { handleInput, insertText } = useTextareaHandler(textareaRef, input)
+      // Создаем фидбек пользователю, что запрос отправляется
+      const pulseAnimation = "pulse 1s 2"
+      const originalTransition = target.style.transition
 
-// Обработчик нажатия клавиш
-const handleKeyDown = (event: KeyboardEvent) => {
-  if (event.key === "Enter" && !event.shiftKey) {
-    event.preventDefault()
-    if (input.value.trim() && status.value !== "streaming") {
-      handleSubmitWithScroll(event)
+      // Применяем эффект пульсации
+      target.style.transition = "all 0.3s"
+      target.style.animation = pulseAnimation
+      target.style.boxShadow = "0 0 0 2px var(--vp-c-brand)"
+
+      setTimeout(() => {
+        // Отправляем запрос в чат
+        submitTextDirectly(query)
+
+        // Восстанавливаем стили
+        setTimeout(() => {
+          target.style.animation = ""
+          target.style.boxShadow = ""
+          target.style.transition = originalTransition
+        }, 1000)
+      }, 300)
     }
   }
 }
+
+// Подключаем обработчик кликов по изображениям
+onMounted(() => {
+  if (messagesContainerRef.value) {
+    messagesContainerRef.value.addEventListener("click", handleImageClick)
+  }
+})
+
+onUnmounted(() => {
+  if (messagesContainerRef.value) {
+    messagesContainerRef.value.removeEventListener("click", handleImageClick)
+  }
+})
+
+// Автоматическая прокрутка при изменении сообщений
+watch(
+  messages,
+  () => {
+    scrollToBottom()
+  },
+  { deep: true },
+)
+
+// Сохраняем сообщения при изменении
+watch(
+  messages,
+  (newMessages) => {
+    if (newMessages.length > 0) {
+      chatsStore.saveMessages(props.chatId, newMessages)
+    }
+  },
+  { deep: true },
+)
 
 // Экспорт метода insertText для использования извне
 defineExpose({ insertText })
@@ -77,7 +221,7 @@ defineExpose({ insertText })
       <form @submit.prevent="handleSubmitWithScroll" class="input-form">
         <textarea
           v-model="input"
-          @keydown="handleKeyDown"
+          @keydown="(e) => handleKeyDown(e, handleSubmitWithScroll)"
           @input="handleInput"
           ref="textareaRef"
           placeholder="Message (⇧↵ for new line)"

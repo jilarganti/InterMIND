@@ -1,30 +1,9 @@
-<!-- 
- 
-.vitepress/
-└── theme/
-    ├── components/
-    │   └── AIChat/
-    │       ├── AIChat.vue           # Компонент чата (представление)
-    │       └── ChatLayout.vue       # Компонент макета чата
-    ├── stores/
-    │   ├── chatStore.ts            # Хранилище для текущего чата
-    │   └── chatsStore.ts           # Хранилище для списка всех чатов
-    └── utils/
-        ├── chatUtils.ts            # Утилиты для работы с чатом
-        └── imageProcessor.ts       # Обработчик изображений
-
--->
-
 <script setup lang="ts">
-import { ref, onMounted, watch } from "vue"
-import AIChat from "./AIChat.vue"
-import { useChatsStore } from "@theme/stores/chatsStore"
-// import { useChatStore } from "@theme/stores/chatStore"
+import { ref } from "vue"
+import AIChat from "../deprecated/AIChat.vue"
+import { useChatsStorage } from "@theme/composables/AIChat/useChatsStorage"
 
-// Используем новое хранилище Pinia
-const chatsStore = useChatsStore()
-
-// Не деструктурируем методы, чтобы сохранить их контекст
+const { chatIds, selectedChatId, createNewChat, selectChat } = useChatsStorage()
 
 const tags = ref([
   { id: "1", text: "Expo City Dubai" },
@@ -45,22 +24,10 @@ const insertTag = (tagText: string) => {
   }
 }
 
-// Создаем функцию для выбора чата
-const handleSelectChat = (chatId: string) => {
-  console.log("Выбираем чат:", chatId)
-  chatsStore.selectChat(chatId)
-  console.log("Выбранный чат после выбора:", chatsStore.selectedChatId)
+// Создаем первый чат если нет сохраненных
+if (chatIds.value.length === 0) {
+  createNewChat()
 }
-
-onMounted(() => {
-  // Инициализируем Pinia-хранилище
-  chatsStore.ensureChat()
-
-  // Создаем новый чат только если список пуст
-  if (chatsStore.chatIds.length === 0) {
-    chatsStore.createNewChat()
-  }
-})
 </script>
 
 <template>
@@ -70,22 +37,22 @@ onMounted(() => {
       <h2 class="column-header">Chats</h2>
       <div class="dialogs-list">
         <div
-          v-for="chatId in chatsStore.chatIds"
+          v-for="chatId in chatIds"
           :key="chatId"
           class="dialog-item"
-          :class="{ 'dialog-item-active': chatId === chatsStore.selectedChatId }"
-          @click="handleSelectChat(chatId)"
+          :class="{ 'dialog-item-active': chatId === selectedChatId }"
+          @click="selectChat(chatId)"
         >
           <div class="dialog-name">Chat {{ chatId }}</div>
           <div class="dialog-timestamp">{{ new Date(Number(chatId)).toLocaleTimeString() }}</div>
         </div>
       </div>
-      <button class="new-chat-button" @click="chatsStore.createNewChat">+ New Chat</button>
+      <button class="new-chat-button" @click="createNewChat">+ New Chat</button>
     </div>
 
     <!-- Middle column - Chat -->
     <div class="chat-column">
-      <AIChat v-if="chatsStore.selectedChatId" ref="chatInputRef" :key="chatsStore.selectedChatId" :chat-id="chatsStore.selectedChatId" />
+      <AIChat v-if="selectedChatId" ref="chatInputRef" :key="selectedChatId" :chat-id="selectedChatId" />
     </div>
 
     <!-- Right column - Tags -->
@@ -172,6 +139,15 @@ onMounted(() => {
   font-weight: 500;
   margin-bottom: 0.25rem;
   color: var(--vp-c-main-1);
+}
+
+.dialog-last-message {
+  font-size: 0.875rem;
+  color: var(--vp-c-main-2);
+  margin-bottom: 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .dialog-timestamp {
