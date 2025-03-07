@@ -2,11 +2,8 @@
 import { ref, onMounted, watch, onUnmounted } from "vue"
 import { ArrowUp, Square } from "lucide-vue-next"
 import { useChat } from "@ai-sdk/vue"
-// Импортируем новые утилиты
-import { useMarkdownRenderer, useScrollToBottom, useTextarea } from "@theme/utils/chatUtils"
-// Импортируем утилиту для обработки изображений
-import { processImagesInMessage } from "@theme/utils/imageProcessor"
-// Импортируем хранилище чатов
+import { useChatUi } from "@theme/composables/AIChat/useChatUi"
+import { processImagesInMessage } from "@theme/utils/chatUtils"
 import { useChatsStore } from "@theme/stores/chatsStore"
 
 const props = defineProps<{
@@ -19,12 +16,6 @@ const textareaRef = ref<HTMLTextAreaElement | null>(null)
 
 // Инициализируем хранилище чатов
 const chatsStore = useChatsStore()
-
-// Используем новый рендерер Markdown
-const { renderMarkdown } = useMarkdownRenderer()
-
-// Обработка скролла
-const { scrollToBottom } = useScrollToBottom(messagesContainerRef)
 
 // Создаем новый chat с помощью useChat
 const { messages, input, handleSubmit, status, error, stop, setMessages } = useChat({
@@ -78,22 +69,8 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
   },
 })
 
-// Добавьте этот watch для отслеживания изменения chatId
-watch(
-  () => props.chatId,
-  (newChatId, oldChatId) => {
-    console.log(`ID чата изменился: ${oldChatId} -> ${newChatId}`)
-
-    // Загружаем сообщения для нового чата
-    const savedMessages = chatsStore.getMessages(newChatId)
-
-    // Обновляем сообщения в useChat
-    setMessages(savedMessages)
-  },
-)
-
-// Логика работы с текстовым полем
-const { handleInput, insertText, handleKeyDown } = useTextarea(textareaRef, input)
+// Инициализируем композабл для UI элементов
+const { renderMarkdown, scrollToBottom, handleInput, insertText, handleKeyDown, setupImageClickHandler } = useChatUi(messagesContainerRef, textareaRef, input)
 
 // Обработчик отправки сообщения
 const handleSubmitWithScroll = async (event: Event) => {
@@ -127,53 +104,32 @@ const submitTextDirectly = (text: string) => {
   }
 }
 
-// Обработчик клика по изображению
-function handleImageClick(event: MouseEvent) {
-  const target = event.target as HTMLElement
+// Настройка обработчика кликов по изображениям
+const { setupImageClicks, cleanupImageClicks } = setupImageClickHandler(submitTextDirectly)
 
-  // Проверяем, что кликнули по интерактивному изображению
-  if (target && target.classList.contains("chat-interactive-image")) {
-    // Получаем оригинальный поисковый запрос из атрибутов
-    const query = target.getAttribute("data-query")
-    if (query) {
-      console.log(`🟢 CLIENT: Клик по изображению с запросом "${query}"`)
-
-      // Создаем фидбек пользователю, что запрос отправляется
-      const pulseAnimation = "pulse 1s 2"
-      const originalTransition = target.style.transition
-
-      // Применяем эффект пульсации
-      target.style.transition = "all 0.3s"
-      target.style.animation = pulseAnimation
-      target.style.boxShadow = "0 0 0 2px var(--vp-c-brand)"
-
-      setTimeout(() => {
-        // Отправляем запрос в чат
-        submitTextDirectly(query)
-
-        // Восстанавливаем стили
-        setTimeout(() => {
-          target.style.animation = ""
-          target.style.boxShadow = ""
-          target.style.transition = originalTransition
-        }, 1000)
-      }, 300)
-    }
-  }
-}
-
-// Подключаем обработчик кликов по изображениям
+// Подключаем обработчик кликов по изображениям при монтировании
 onMounted(() => {
-  if (messagesContainerRef.value) {
-    messagesContainerRef.value.addEventListener("click", handleImageClick)
-  }
+  setupImageClicks()
 })
 
+// Отключаем обработчик при удалении компонента
 onUnmounted(() => {
-  if (messagesContainerRef.value) {
-    messagesContainerRef.value.removeEventListener("click", handleImageClick)
-  }
+  cleanupImageClicks()
 })
+
+// Добавляем наблюдатель за изменением chatId
+watch(
+  () => props.chatId,
+  (newChatId, oldChatId) => {
+    console.log(`ID чата изменился: ${oldChatId} -> ${newChatId}`)
+
+    // Загружаем сообщения для нового чата
+    const savedMessages = chatsStore.getMessages(newChatId)
+
+    // Обновляем сообщения в useChat
+    setMessages(savedMessages)
+  },
+)
 
 // Автоматическая прокрутка при изменении сообщений
 watch(

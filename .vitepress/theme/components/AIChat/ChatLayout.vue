@@ -1,30 +1,9 @@
-<!-- 
- 
-.vitepress/
-└── theme/
-    ├── components/
-    │   └── AIChat/
-    │       ├── AIChat.vue           # Компонент чата (представление)
-    │       └── ChatLayout.vue       # Компонент макета чата
-    ├── stores/
-    │   ├── chatStore.ts            # Хранилище для текущего чата
-    │   └── chatsStore.ts           # Хранилище для списка всех чатов
-    └── utils/
-        ├── chatUtils.ts            # Утилиты для работы с чатом
-        └── imageProcessor.ts       # Обработчик изображений
-
--->
-
 <script setup lang="ts">
 import { ref, onMounted, watch } from "vue"
 import AIChat from "./AIChat.vue"
 import { useChatsStore } from "@theme/stores/chatsStore"
-// import { useChatStore } from "@theme/stores/chatStore"
 
-// Используем новое хранилище Pinia
 const chatsStore = useChatsStore()
-
-// Не деструктурируем методы, чтобы сохранить их контекст
 
 const tags = ref([
   { id: "1", text: "Expo City Dubai" },

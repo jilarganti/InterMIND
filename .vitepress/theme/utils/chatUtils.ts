@@ -1,162 +1,90 @@
 // .vitepress/theme/utils/chatUtils.ts
-import { nextTick } from "vue"
-import type { Ref } from "vue"
-import MarkdownIt from "markdown-it"
+import type { UIMessage } from "@ai-sdk/ui-utils"
 
 /**
- * Утилита для скролла к концу контейнера сообщений
+ * Функция для экранирования спецсимволов в регулярных выражениях
  */
-export function useScrollToBottom(messagesContainerRef: Ref<HTMLDivElement | null>) {
-    const scrollToBottom = async (): Promise<void> => {
-        await nextTick()
-        if (messagesContainerRef.value) {
-            const container = messagesContainerRef.value
-            container.scrollTop = container.scrollHeight
-        }
-    }
-
-    return {
-        scrollToBottom,
-    }
+function escapeRegExp(string: string): string {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
 }
 
 /**
- * Утилита для обработки textarea
+ * Функция для обработки маркеров изображений в тексте
+ * с добавлением ссылок на источники
  */
-export function useTextarea(textareaRef: Ref<HTMLTextAreaElement | null>, input: Ref<string>) {
-    // Регулировка высоты textarea
-    const adjustHeight = (target: HTMLTextAreaElement): void => {
-        target.style.height = "auto"
-        target.style.height = `${target.scrollHeight}px`
+export async function processImagesInMessage(message: UIMessage): Promise<UIMessage> {
+    if (!message || message.role !== "assistant") return message
+
+    console.log("🟢 CLIENT: Проверяем наличие маркеров изображений в сообщении...")
+
+    // Проверяем, есть ли маркеры изображений в тексте
+    const imageRegex = /\[NEEDS_IMAGE:([^\]]+)\]/g
+    if (!imageRegex.test(message.content)) {
+        console.log("🟢 CLIENT: Маркеры изображений не найдены")
+        return message
     }
 
-    // Обработчик ввода для регулировки высоты
-    const handleInput = (event: Event): void => {
-        const textarea = event.target as HTMLTextAreaElement
-        adjustHeight(textarea)
-    }
+    console.log("🟢 CLIENT: Найдены маркеры изображений, начинаем обработку")
 
-    // Сброс высоты textarea
-    const resetHeight = (): void => {
-        if (textareaRef.value) {
-            textareaRef.value.style.height = "auto"
-        }
-    }
+    // Сбрасываем regex для повторного поиска
+    imageRegex.lastIndex = 0
 
-    // Вставка текста в позицию курсора
-    const insertText = (text: string): void => {
-        if (textareaRef.value) {
-            const textarea = textareaRef.value
-            const start = textarea.selectionStart
-            const end = textarea.selectionEnd
-            const textBefore = input.value.substring(0, start)
-            const textAfter = input.value.substring(end)
+    let processedContent = message.content
+    let matchPromises = []
 
-            input.value = textBefore + text + textAfter
+    // Находим все маркеры и обрабатываем их
+    let match
+    while ((match = imageRegex.exec(message.content)) !== null) {
+        const fullMatch = match[0]
+        const query = match[1]
 
-            // Set cursor position after inserted text
-            nextTick(() => {
-                textarea.focus()
-                const newPosition = start + text.length
-                textarea.selectionStart = newPosition
-                textarea.selectionEnd = newPosition
-                adjustHeight(textarea)
+        console.log(`🟢 CLIENT: Обрабатываем маркер для запроса "${query}"`)
+
+        // Создаем промис для каждого маркера
+        const searchPromise = fetch(`/api/search-images?q=${encodeURIComponent(query)}`)
+            .then((response) => response.json())
+            .then((data) => {
+                console.log(`🟢 CLIENT: Получены результаты поиска для "${query}":`, data)
+
+                if (data.images && data.images.length > 0) {
+                    const image = data.images[0]
+                    const imageUrl = image.url
+                    const title = image.title || query
+
+                    console.log(`🟢 CLIENT: Найдено изображение: ${imageUrl}`)
+
+                    const imageHtml =
+                        `<figure class="image-container" style="margin:16px;text-align:center">
+              <img class="chat-interactive-image" src="${imageUrl}" data-query="${query}" data-title="${title}" style="max-width:100%">
+              <figcaption style="font-size:0.8em;color:#666;margin-top:4px">Источник: <a href="${imageUrl}" target="_blank">📍${title}</a></figcaption>
+            </figure>`;
+
+                    processedContent = processedContent.replace(new RegExp(escapeRegExp(fullMatch), "g"), imageHtml)
+                } else {
+                    console.log(`🟢 CLIENT: Изображения для "${query}" не найдены`)
+                    processedContent = processedContent.replace(new RegExp(escapeRegExp(fullMatch), "g"), `[Изображение для "${query}" не найдено]`)
+                }
             })
+            .catch((err) => {
+                console.error(`🔴 CLIENT: Ошибка при поиске изображения для "${query}":`, err)
+                processedContent = processedContent.replace(new RegExp(escapeRegExp(fullMatch), "g"), `[Ошибка поиска изображения для "${query}"]`)
+            })
+
+        matchPromises.push(searchPromise)
+    }
+
+    // Ждем завершения всех запросов
+    if (matchPromises.length > 0) {
+        console.log(`🟢 CLIENT: Ожидаем завершения ${matchPromises.length} запросов изображений...`)
+        await Promise.all(matchPromises)
+        console.log("🟢 CLIENT: Все запросы изображений завершены")
+
+        // Создаем новое сообщение с обработанным контентом
+        return {
+            ...message,
+            content: processedContent,
         }
     }
 
-    // Обработчик нажатия клавиш
-    const handleKeyDown = (event: KeyboardEvent, submitFn: (event: Event) => void): void => {
-        if (event.key === "Enter" && !event.shiftKey) {
-            event.preventDefault()
-            if (input.value.trim()) {
-                submitFn(event)
-            }
-        }
-    }
-
-    return {
-        adjustHeight,
-        handleInput,
-        resetHeight,
-        insertText,
-        handleKeyDown
-    }
-}
-
-/**
- * Утилита для обработки событий клика по изображениям
- */
-export function useImageClick(
-    messagesContainerRef: Ref<HTMLDivElement | null>,
-    submitText: (text: string) => void
-) {
-    // Обработчик клика по изображению
-    function handleImageClick(event: MouseEvent) {
-        const target = event.target as HTMLElement
-
-        // Проверяем, что кликнули по интерактивному изображению
-        if (target && target.classList.contains('chat-interactive-image')) {
-            // Получаем оригинальный поисковый запрос из атрибутов
-            const query = target.getAttribute('data-query')
-            if (query) {
-                console.log(`🟢 CLIENT: Клик по изображению с запросом "${query}"`)
-
-                // Создаем фидбек пользователю, что запрос отправляется
-                const pulseAnimation = 'pulse 1s 2'
-                const originalTransition = target.style.transition
-
-                // Применяем эффект пульсации
-                target.style.transition = 'all 0.3s'
-                target.style.animation = pulseAnimation
-                target.style.boxShadow = '0 0 0 2px var(--vp-c-brand)'
-
-                setTimeout(() => {
-                    // Отправляем запрос в чат
-                    submitText(query)
-
-                    // Восстанавливаем стили
-                    setTimeout(() => {
-                        target.style.animation = ''
-                        target.style.boxShadow = ''
-                        target.style.transition = originalTransition
-                    }, 1000)
-                }, 300)
-            }
-        }
-    }
-
-    return {
-        handleImageClick
-    }
-}
-
-/**
- * Утилита для рендеринга Markdown
- */
-export function useMarkdownRenderer() {
-    const md = new MarkdownIt({
-        html: true,
-        linkify: true,
-        typographer: true,
-        breaks: false
-    })
-
-    // Настройка открытия ссылок в новой вкладке
-    const defaultRender = md.renderer.rules.link_open ||
-        ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options))
-
-    md.renderer.rules.link_open = (tokens, idx, options, env, self) => {
-        tokens[idx].attrSet("target", "_blank")
-        tokens[idx].attrSet("rel", "noopener")
-        return defaultRender(tokens, idx, options, env, self)
-    }
-
-    const renderMarkdown = (content: string): string => {
-        return md.render(content)
-    }
-
-    return {
-        renderMarkdown
-    }
+    return message
 }
