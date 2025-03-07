@@ -26,9 +26,7 @@ const insertTag = (tagText: string) => {
 
 // Создаем функцию для выбора чата
 const handleSelectChat = (chatId: string) => {
-  console.log("Выбираем чат:", chatId)
   chatsStore.selectChat(chatId)
-  console.log("Выбранный чат после выбора:", chatsStore.selectedChatId)
 }
 
 onMounted(() => {
