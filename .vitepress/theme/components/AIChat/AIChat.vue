@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ref, onMounted, watch, onUnmounted } from "vue"
-import { ArrowUp, Square } from "lucide-vue-next"
+import { ref, onMounted, watch, onUnmounted, computed } from "vue"
+import { ArrowUp, Square, Bug } from "lucide-vue-next"
 import { useChat } from "@ai-sdk/vue"
 import { useChatUi } from "@theme/composables/AIChat/useChatUi"
 import { processImagesInMessage } from "@theme/utils/chatUtils"
@@ -8,11 +8,21 @@ import { useChatsStore } from "@theme/stores/chatsStore"
 
 const props = defineProps<{
   chatId: string
+  showRaw?: boolean
 }>()
 
 // Рефы для DOM-элементов
 const messagesContainerRef = ref<HTMLDivElement | null>(null)
 const textareaRef = ref<HTMLTextAreaElement | null>(null)
+const showRawMessages = ref(props.showRaw || false)
+
+// Проверка на режим разработки
+const isDevelopment = computed(() => {
+  if (typeof import.meta.env !== "undefined") {
+    return !import.meta.env.VITE_IS_PROD
+  }
+  return false
+})
 
 // Инициализируем хранилище чатов
 const chatsStore = useChatsStore()
@@ -28,8 +38,8 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
   onFinish: async () => {
     console.log(`🟢 CLIENT: Ответ завершен, начинаем обработку изображений...`)
 
-    // Если есть сообщения, обрабатываем последнее (от ассистента)
-    if (messages.value.length > 0) {
+    // Если не показываем сырые сообщения и есть сообщения, обрабатываем последнее (от ассистента)
+    if (!showRawMessages.value && messages.value.length > 0) {
       const lastIndex = messages.value.length - 1
       const lastMessage = messages.value[lastIndex]
 
@@ -81,6 +91,11 @@ const submitTextDirectly = (text: string) => {
   }
 }
 
+// Функция для переключения отображения сырых сообщений
+const toggleRawMessages = (value: boolean) => {
+  showRawMessages.value = value
+}
+
 // Настройка обработчика кликов по изображениям
 const { setupImageClicks, cleanupImageClicks } = setupImageClickHandler(submitTextDirectly)
 
@@ -93,6 +108,14 @@ onMounted(() => {
 onUnmounted(() => {
   cleanupImageClicks()
 })
+
+// Отслеживание изменения showRaw из пропсов
+// watch(
+//   () => props.showRaw,
+//   (newValue) => {
+//     showRawMessages.value = newValue || false
+//   },
+// )
 
 // Универсальный наблюдатель для обработки изменений chatId и сохранения сообщений
 watch(
@@ -115,8 +138,8 @@ watch(
   { deep: true },
 )
 
-// Экспорт метода insertText для использования извне
-defineExpose({ insertText })
+// Экспорт методов для использования извне
+defineExpose({ insertText, toggleRawMessages })
 </script>
 
 <template>
@@ -124,7 +147,17 @@ defineExpose({ insertText })
     <!-- Messages area -->
     <div ref="messagesContainerRef" class="messages-container">
       <div v-for="msg in messages" :key="msg.id" class="message" :class="msg.role">
-        <div class="message-content" v-html="renderMarkdown(msg.content)"></div>
+        <!-- Raw message display (Debug mode) -->
+        <div v-if="showRawMessages" class="message-content raw-message">
+          <div class="raw-message-header">
+            <span class="raw-role">{{ msg.role.toUpperCase() }}</span>
+            <span class="raw-id">ID: {{ msg.id }}</span>
+          </div>
+          <pre class="raw-content">{{ msg.content }}</pre>
+        </div>
+
+        <!-- Formatted message display (Normal mode) -->
+        <div v-else class="message-content" v-html="renderMarkdown(msg.content)"></div>
       </div>
 
       <!-- Error message -->
@@ -133,12 +166,27 @@ defineExpose({ insertText })
       </div>
 
       <!-- Status indicator -->
-      <div v-if="status === 'streaming'" class="typing-indicator">AI is typing...</div>
+      <div v-if="status === 'streaming'" class="typing-indicator">
+        <span v-if="showRawMessages">Raw streaming...</span>
+        <span v-else>AI is typing...</span>
+      </div>
     </div>
 
     <!-- Input area -->
     <div class="input-container">
       <form @submit.prevent="handleSubmitWithScroll" class="input-form">
+        <!-- Debug toggle button (only in development) -->
+        <button
+          v-if="isDevelopment"
+          type="button"
+          @click="toggleRawMessages(!showRawMessages)"
+          class="debug-icon-button"
+          :class="{ 'debug-active': showRawMessages }"
+          :title="showRawMessages ? 'Отключить режим отладки' : 'Включить режим отладки'"
+        >
+          <component :is="Bug" :size="18" />
+        </button>
+
         <textarea
           v-model="input"
           @keydown="(e) => handleKeyDown(e, handleSubmitWithScroll)"
