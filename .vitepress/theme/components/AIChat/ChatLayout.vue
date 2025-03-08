@@ -1,19 +1,10 @@
 <script setup lang="ts">
-import { ref, onMounted, watch, computed } from "vue"
+import { ref, onMounted } from "vue"
 import AIChat from "./AIChat.vue"
 import { useChatsStore } from "@theme/stores/chatsStore"
 import "./style.css"
 
 const chatsStore = useChatsStore()
-const showRawMessages = ref(false)
-
-// Проверка на режим разработки
-const isDevelopment = computed(() => {
-  if (typeof import.meta.env !== "undefined") {
-    return !import.meta.env.VITE_IS_PROD
-  }
-  return false
-})
 
 const tags = ref([
   { id: "1", text: "Expo City Dubai" },
@@ -25,7 +16,6 @@ const tags = ref([
 
 interface ChatRef {
   insertText: (text: string) => void
-  toggleRawMessages?: (value: boolean) => void
 }
 const chatInputRef = ref<ChatRef | null>(null)
 
@@ -38,14 +28,6 @@ const insertTag = (tagText: string) => {
 // Создаем функцию для выбора чата
 const handleSelectChat = (chatId: string) => {
   chatsStore.selectChat(chatId)
-}
-
-// Переключение режима отображения сырых сообщений
-const toggleRawMode = () => {
-  showRawMessages.value = !showRawMessages.value
-  if (chatInputRef.value && chatInputRef.value.toggleRawMessages) {
-    chatInputRef.value.toggleRawMessages(showRawMessages.value)
-  }
 }
 
 onMounted(() => {
@@ -64,12 +46,6 @@ onMounted(() => {
     <!-- Left column - Dialogs list -->
     <div class="dialogs-column">
       <h2 class="column-header">Chats</h2>
-      <!-- Debug toggle only shown in development -->
-      <div v-if="isDevelopment" class="debug-toggle-container">
-        <button @click="toggleRawMode" class="debug-toggle-button" :class="{ 'debug-toggle-active': showRawMessages }">
-          {{ showRawMessages ? "Raw Mode ON" : "Raw Mode OFF" }}
-        </button>
-      </div>
       <div class="dialogs-list">
         <div
           v-for="chatId in chatsStore.chatIds"
@@ -87,13 +63,7 @@ onMounted(() => {
 
     <!-- Middle column - Chat -->
     <div class="chat-column">
-      <AIChat
-        v-if="chatsStore.selectedChatId"
-        ref="chatInputRef"
-        :key="chatsStore.selectedChatId"
-        :chat-id="chatsStore.selectedChatId"
-        :show-raw="showRawMessages"
-      />
+      <AIChat v-if="chatsStore.selectedChatId" ref="chatInputRef" :key="chatsStore.selectedChatId" :chat-id="chatsStore.selectedChatId" />
     </div>
 
     <!-- Right column - Tags -->

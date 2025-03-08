@@ -8,21 +8,15 @@ import { useChatsStore } from "@theme/stores/chatsStore"
 
 const props = defineProps<{
   chatId: string
-  showRaw?: boolean
 }>()
 
 // Рефы для DOM-элементов
 const messagesContainerRef = ref<HTMLDivElement | null>(null)
 const textareaRef = ref<HTMLTextAreaElement | null>(null)
-const showRawMessages = ref(props.showRaw || false)
+const showRawMessages = ref(false)
 
-// Проверка на режим разработки
-const isDevelopment = computed(() => {
-  if (typeof import.meta.env !== "undefined") {
-    return !import.meta.env.VITE_IS_PROD
-  }
-  return false
-})
+// Проверка на режим разработки (упрощенная)
+const isDevelopment = computed(() => !import.meta.env.VITE_IS_PROD)
 
 // Инициализируем хранилище чатов
 const chatsStore = useChatsStore()
@@ -92,8 +86,8 @@ const submitTextDirectly = (text: string) => {
 }
 
 // Функция для переключения отображения сырых сообщений
-const toggleRawMessages = (value: boolean) => {
-  showRawMessages.value = value
+const toggleRawMessages = () => {
+  showRawMessages.value = !showRawMessages.value
 }
 
 // Настройка обработчика кликов по изображениям
@@ -108,14 +102,6 @@ onMounted(() => {
 onUnmounted(() => {
   cleanupImageClicks()
 })
-
-// Отслеживание изменения showRaw из пропсов
-// watch(
-//   () => props.showRaw,
-//   (newValue) => {
-//     showRawMessages.value = newValue || false
-//   },
-// )
 
 // Универсальный наблюдатель для обработки изменений chatId и сохранения сообщений
 watch(
@@ -138,8 +124,8 @@ watch(
   { deep: true },
 )
 
-// Экспорт методов для использования извне
-defineExpose({ insertText, toggleRawMessages })
+// Экспортируем только insertText (для вставки тегов из ChatLayout)
+defineExpose({ insertText })
 </script>
 
 <template>
@@ -179,7 +165,7 @@ defineExpose({ insertText, toggleRawMessages })
         <button
           v-if="isDevelopment"
           type="button"
-          @click="toggleRawMessages(!showRawMessages)"
+          @click="toggleRawMessages"
           class="debug-icon-button"
           :class="{ 'debug-active': showRawMessages }"
           :title="showRawMessages ? 'Отключить режим отладки' : 'Включить режим отладки'"
