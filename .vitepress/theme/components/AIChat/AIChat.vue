@@ -25,14 +25,6 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
   body: {
     stream: true,
   },
-  headers: {
-    "Content-Type": "application/json",
-  },
-  onResponse: (response) => {
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`)
-    }
-  },
   onFinish: async () => {
     console.log(`🟢 CLIENT: Ответ завершен, начинаем обработку изображений...`)
 
@@ -58,10 +50,7 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
       }
     }
 
-    // Сохраняем сообщения после завершения
-    chatsStore.saveMessages(props.chatId, messages.value)
-
-    // Скроллим вниз
+    // Прокручиваем к последнему сообщению
     scrollToBottom()
   },
   onError: (error) => {
@@ -72,7 +61,7 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
 // Инициализируем композабл для UI элементов
 const { renderMarkdown, scrollToBottom, handleInput, insertText, handleKeyDown, setupImageClickHandler } = useChatUi(messagesContainerRef, textareaRef, input)
 
-// Обработчик отправки сообщения
+// Обработчик отправки сообщения с прокруткой
 const handleSubmitWithScroll = async (event: Event) => {
   event.preventDefault()
 
@@ -80,26 +69,14 @@ const handleSubmitWithScroll = async (event: Event) => {
     return
   }
 
-  try {
-    await handleSubmit(event)
-    scrollToBottom()
-  } catch (e) {
-    console.error("Failed to send message:", e)
-  }
-}
-
-// Остановка генерации ответа
-const handleStop = (): void => {
-  stop()
+  await handleSubmit(event)
+  scrollToBottom()
 }
 
 // Функция для отправки текста напрямую (используется для быстрых ответов)
 const submitTextDirectly = (text: string) => {
   if (text.trim() && status.value !== "streaming") {
-    // Устанавливаем текст в поле ввода
     input.value = text
-
-    // Отправляем сообщение
     handleSubmitWithScroll(new Event("submit"))
   }
 }
@@ -117,36 +94,23 @@ onUnmounted(() => {
   cleanupImageClicks()
 })
 
-// Добавляем наблюдатель за изменением chatId
+// Универсальный наблюдатель для обработки изменений chatId и сохранения сообщений
 watch(
-  () => props.chatId,
-  (newChatId, oldChatId) => {
-    console.log(`ID чата изменился: ${oldChatId} -> ${newChatId}`)
-
-    // Загружаем сообщения для нового чата
-    const savedMessages = chatsStore.getMessages(newChatId)
-
-    // Обновляем сообщения в useChat
-    setMessages(savedMessages)
-  },
-)
-
-// Автоматическая прокрутка при изменении сообщений
-watch(
-  messages,
-  () => {
-    scrollToBottom()
-  },
-  { deep: true },
-)
-
-// Сохраняем сообщения при изменении
-watch(
-  messages,
-  (newMessages) => {
-    if (newMessages.length > 0) {
-      chatsStore.saveMessages(props.chatId, newMessages)
+  [() => props.chatId, messages],
+  ([newChatId, newMessages], [oldChatId]) => {
+    // Обработка изменения ID чата
+    if (newChatId !== oldChatId && oldChatId !== undefined) {
+      console.log(`🟢 CLIENT: ID чата изменился: ${oldChatId} -> ${newChatId}`)
+      setMessages(chatsStore.getMessages(newChatId))
     }
+
+    // Сохранение сообщений при их изменении
+    if (newMessages.length > 0) {
+      chatsStore.saveMessages(newChatId, newMessages)
+    }
+
+    // Прокрутка при изменении сообщений
+    scrollToBottom()
   },
   { deep: true },
 )
@@ -189,7 +153,7 @@ defineExpose({ insertText })
           <button v-if="status !== 'streaming'" type="submit" :disabled="!input.trim()" class="send-button">
             <component :is="ArrowUp" :size="20" />
           </button>
-          <button v-else type="button" @click="handleStop" class="stop-button">
+          <button v-else type="button" @click="stop" class="stop-button">
             <component :is="Square" :size="20" />
           </button>
         </div>
