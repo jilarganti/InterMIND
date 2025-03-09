@@ -80,23 +80,24 @@ export function useChatUi(messagesContainerRef: Ref<HTMLDivElement | null>, text
   }
 
   /**
-   * Обработка кликов по изображениям
+   * Обработка кликов по интерактивным элементам (изображения, ссылки, blockquotes)
    */
   const setupImageClickHandler = (submitTextFn: (text: string) => void): ImageClickHandlers => {
-    // Обработчик клика по изображению
-    const handleImageClick = (event: MouseEvent) => {
+    // Обработчик клика по интерактивным элементам
+    const handleElementClick = (event: MouseEvent) => {
       const target = event.target as HTMLElement
 
-      // Проверяем, что кликнули по интерактивному изображению
+      // Обработка клика по изображению (существующая функциональность)
       if (target?.classList.contains("chat-interactive-image")) {
         const query = target.getAttribute("data-query")
         if (query) {
           console.log(`🟢 CLIENT: Клик по изображению с запросом "${query}"`)
 
           // Создаем визуальный фидбек
-          target.style.transition = "all 0.3s"
-          target.style.animation = "pulse 1s 2"
-          target.style.boxShadow = "0 0 0 2px var(--vp-c-brand)"
+          const htmlTarget = target as HTMLElement
+          htmlTarget.style.transition = "all 0.3s"
+          htmlTarget.style.animation = "pulse 1s 2"
+          htmlTarget.style.boxShadow = "0 0 0 2px var(--vp-c-brand)"
 
           // Отправляем запрос после небольшой задержки
           setTimeout(() => {
@@ -104,9 +105,29 @@ export function useChatUi(messagesContainerRef: Ref<HTMLDivElement | null>, text
 
             // Восстанавливаем стили
             setTimeout(() => {
-              target.style.animation = ""
-              target.style.boxShadow = ""
+              htmlTarget.style.animation = ""
+              htmlTarget.style.boxShadow = ""
             }, 1000)
+          }, 300)
+        }
+      }
+
+      // Обработка клика по кнопке у ссылки или blockquote (новая функциональность)
+      if (target?.classList.contains("interactive-element-button") || target?.closest(".interactive-element-button")) {
+        const buttonEl = target.classList.contains("interactive-element-button") ? target : target.closest(".interactive-element-button")
+        const query = buttonEl?.getAttribute("data-query")
+
+        if (query && buttonEl) {
+          console.log(`🟢 CLIENT: Клик по кнопке с запросом "${query}"`)
+
+          // Создаем визуальный фидбек
+          const htmlButton = buttonEl as HTMLElement
+          htmlButton.style.transition = "all 0.3s"
+          htmlButton.style.animation = "pulse 1s 1"
+
+          // Отправляем запрос после небольшой задержки
+          setTimeout(() => {
+            submitTextFn(query)
           }, 300)
         }
       }
@@ -114,19 +135,19 @@ export function useChatUi(messagesContainerRef: Ref<HTMLDivElement | null>, text
 
     // Добавление обработчика
     const setupImageClicks = () => {
-      messagesContainerRef.value?.addEventListener("click", handleImageClick)
+      messagesContainerRef.value?.addEventListener("click", handleElementClick)
     }
 
     // Удаление обработчика
     const cleanupImageClicks = () => {
-      messagesContainerRef.value?.removeEventListener("click", handleImageClick)
+      messagesContainerRef.value?.removeEventListener("click", handleElementClick)
     }
 
     return { setupImageClicks, cleanupImageClicks }
   }
 
   /**
-   * Рендеринг Markdown
+   * Рендеринг Markdown с добавлением интерактивных кнопок
    */
   const md = new MarkdownIt({
     html: true,
@@ -138,14 +159,73 @@ export function useChatUi(messagesContainerRef: Ref<HTMLDivElement | null>, text
   // Настройка открытия ссылок в новой вкладке
   const defaultRender = md.renderer.rules.link_open || ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options))
 
+  // Модификация для ссылок: добавляем интерактивную кнопку
   md.renderer.rules.link_open = (tokens, idx, options, env, self) => {
     tokens[idx].attrSet("target", "_blank")
     tokens[idx].attrSet("rel", "noopener")
     return defaultRender(tokens, idx, options, env, self)
   }
 
+  // Сохраняем оригинальный renderer для blockquote
+  const defaultBlockquoteRender = md.renderer.rules.blockquote_open || ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options))
+
+  // Модифицируем renderer для blockquote
+  md.renderer.rules.blockquote_open = (tokens, idx, options, env, self) => {
+    return defaultBlockquoteRender(tokens, idx, options, env, self)
+  }
+
+  // Добавляем пост-процессинг для добавления интерактивных кнопок
+  const addInteractiveButtons = (html: string): string => {
+    // Временный DOM для манипуляций с HTML
+    const tempDiv = document.createElement("div")
+    tempDiv.innerHTML = html
+
+    // Обработка ссылок: добавляем кнопку после каждой ссылки
+    const links = tempDiv.querySelectorAll("a")
+    links.forEach((link) => {
+      // Не добавляем кнопку для простых ссылок без текста
+      if (!link.textContent || link.textContent.trim().length < 5) return
+
+      const linkText = link.textContent.trim()
+      const container = document.createElement("span")
+      container.className = "interactive-link-container"
+
+      const button = document.createElement("button")
+      button.className = "interactive-element-button"
+      button.setAttribute("data-query", `Расскажи больше про ${linkText}`)
+      button.setAttribute("title", `Спросить про "${linkText}"`)
+      button.textContent = "⬆️"
+
+      link.parentNode!.insertBefore(container, link.nextSibling)
+      container.appendChild(button)
+    })
+
+    // Обработка blockquote: добавляем кнопку в конец каждого blockquote
+    const blockquotes = tempDiv.querySelectorAll("blockquote")
+    blockquotes.forEach((blockquote) => {
+      const text = blockquote.textContent!.trim()
+      // Удаляем эмодзи из начала текста для запроса
+      const queryText = text.replace(/^[\p{Emoji}\s]+/u, "").trim()
+
+      // Не добавляем кнопку для пустых blockquote
+      if (!queryText || queryText.length < 5) return
+
+      const button = document.createElement("button")
+      button.className = "interactive-element-button blockquote-button"
+      button.setAttribute("data-query", `Расскажи больше про ${queryText}`)
+      button.setAttribute("title", `Узнать больше про "${queryText.substring(0, 30)}${queryText.length > 30 ? "..." : ""}"`)
+      button.textContent = "⬆️"
+
+      blockquote.appendChild(button)
+    })
+
+    return tempDiv.innerHTML
+  }
+
+  // Рендеринг Markdown с добавлением интерактивных элементов
   const renderMarkdown = (content: string): string => {
-    return md.render(content)
+    const renderedHtml = md.render(content)
+    return addInteractiveButtons(renderedHtml)
   }
 
   return {
@@ -158,7 +238,7 @@ export function useChatUi(messagesContainerRef: Ref<HTMLDivElement | null>, text
     insertText,
     handleKeyDown,
 
-    // Изображения
+    // Изображения и интерактивные элементы
     setupImageClickHandler,
 
     // Markdown

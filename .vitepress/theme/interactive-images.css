@@ -1,4 +1,6 @@
-/* Стили для интерактивных изображений в чате */
+/* Стили для интерактивных элементов в чате */
+
+/* ===== Стили для интерактивных изображений ===== */
 .chat-interactive-image {
   transition:
     transform 0.3s ease,
@@ -21,6 +23,52 @@
 .image-container:hover::before {
   opacity: 1;
 }
+
+/* ===== Новые стили для интерактивных ссылок и blockquotes ===== */
+
+/* Общие стили для контейнера ссылки с кнопкой */
+.interactive-link-container {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 4px;
+}
+
+/* Стили для интерактивных кнопок */
+.interactive-element-button {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  opacity: 0.8;
+  font-size: 16px;
+}
+
+.interactive-element-button:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+/* Специальные стили для кнопок внутри blockquote */
+blockquote .interactive-element-button {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  opacity: 0.7;
+}
+
+blockquote {
+  position: relative;
+  padding-right: 30px; /* Отступ для кнопки */
+}
+
+blockquote .interactive-element-button:hover {
+  opacity: 1;
+}
+
+/* ===== Анимации и другие общие стили ===== */
 
 /* Анимация пульсации при клике */
 @keyframes pulse {
