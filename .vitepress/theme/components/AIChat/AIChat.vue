@@ -37,7 +37,7 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
     }),
   },
   onFinish: async () => {
-    console.log(`🟢 CLIENT: Ответ завершен, начинаем обработку изображений...`)
+    console.log(`🟢 CLIENT: Ответ завершен, mode: ${currentMode.value} → default`)
 
     // Сбрасываем режим на стандартный после получения ответа
     currentMode.value = "default"
@@ -93,6 +93,7 @@ const handleSubmitWithScroll = async (event: Event) => {
     return
   }
 
+  console.log(`🟢 CLIENT: Отправка запроса в режиме: ${currentMode.value}`)
   await handleSubmit(event)
   scrollToBottom()
 }
@@ -101,6 +102,7 @@ const handleSubmitWithScroll = async (event: Event) => {
 const submitTextDirectly = (text: string, mode = "default") => {
   if (text.trim() && status.value !== "streaming") {
     // Устанавливаем режим запроса
+    console.log(`🟢 CLIENT: Меняем режим: ${currentMode.value} → ${mode}`)
     currentMode.value = mode
     input.value = text
     handleSubmitWithScroll(new Event("submit"))

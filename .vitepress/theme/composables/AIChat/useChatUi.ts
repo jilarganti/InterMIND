@@ -8,9 +8,6 @@ interface ImageClickHandlers {
   cleanupImageClicks: () => void
 }
 
-/**
- * Универсальный composable для работы с UI элементами чата
- */
 export function useChatUi(
   messagesContainerRef: Ref<HTMLDivElement | null>,
   textareaRef?: Ref<HTMLTextAreaElement | null>,
@@ -107,7 +104,10 @@ export function useChatUi(
           // Отправляем запрос после небольшой задержки
           setTimeout(() => {
             // Устанавливаем режим followup
-            if (setMode) setMode("followup")
+            if (setMode) {
+              console.log(`🟢 CLIENT: Клик по изображению → режим followup`)
+              setMode("followup")
+            }
             submitTextFn(query, "followup")
 
             // Восстанавливаем стили
@@ -135,7 +135,10 @@ export function useChatUi(
           // Отправляем запрос после небольшой задержки
           setTimeout(() => {
             // Устанавливаем режим followup
-            if (setMode) setMode("followup")
+            if (setMode) {
+              console.log(`🟢 CLIENT: Клик по элементу → режим followup`)
+              setMode("followup")
+            }
             submitTextFn(query, "followup")
           }, 300)
         }
@@ -189,7 +192,7 @@ export function useChatUi(
     const tempDiv = document.createElement("div")
     tempDiv.innerHTML = html
 
-    // Обработка ссылок: добавляем кнопку после каждой ссылки
+    // Обработка ссылок: добавляем кнопку перед каждой ссылкой
     const links = tempDiv.querySelectorAll("a")
     links.forEach((link) => {
       // Не добавляем кнопку для простых ссылок без текста
@@ -204,42 +207,53 @@ export function useChatUi(
       const displayTextMatch = linkText.match(/(.*?)\s*\[.*?\]/)
       const queryText = displayTextMatch ? displayTextMatch[1].trim() : linkText
 
-      // Создаем контейнер и помещаем его после ссылки
-      const linkParent = link.parentNode
-      if (!linkParent) return
-
       // Создаем кнопку и устанавливаем ей нужные атрибуты
       const button = document.createElement("button")
       button.className = "interactive-element-button"
       button.setAttribute("data-query", queryText)
       button.setAttribute("title", queryText)
-      button.innerHTML = '<span class="interactive-icon">⬆️</span>'
+      button.innerHTML = '<span class="interactive-icon">ℹ️</span>'
 
-      // Добавляем кнопку после ссылки в DOM
-      if (link.nextSibling) {
-        linkParent.insertBefore(button, link.nextSibling)
-      } else {
-        linkParent.appendChild(button)
-      }
+      // Вставляем кнопку перед ссылкой
+      link.parentNode?.insertBefore(button, link)
     })
 
-    // Обработка blockquote: добавляем кнопку в конец каждого blockquote
+    // Обработка blockquote: добавляем кнопку в начало
     const blockquotes = tempDiv.querySelectorAll("blockquote")
     blockquotes.forEach((blockquote) => {
-      const text = blockquote.textContent!.trim()
-      // Удаляем эмодзи из начала текста для запроса
+      // Проверяем что в blockquote есть текст
+      if (!blockquote.textContent || blockquote.textContent.trim().length < 5) return
+
+      // Получаем текст и убираем эмодзи
+      const text = blockquote.textContent.trim()
       const queryText = text.replace(/^[\p{Emoji}\s]+/u, "").trim()
 
-      // Не добавляем кнопку для пустых blockquote
-      if (!queryText || queryText.length < 5) return
+      // Ищем первый параграф или первый текстовый узел
+      let firstNode = null
+      const firstParagraph = blockquote.querySelector("p:first-child")
 
-      const button = document.createElement("button")
-      button.className = "interactive-element-button blockquote-button"
-      button.setAttribute("data-query", queryText)
-      button.setAttribute("title", queryText)
-      button.innerHTML = '<span class="interactive-icon">⬆️</span>'
+      if (firstParagraph) {
+        // Создаем кнопку
+        const button = document.createElement("button")
+        button.className = "interactive-element-button"
+        button.setAttribute("data-query", queryText)
+        button.setAttribute("title", queryText)
+        button.innerHTML = '<span class="interactive-icon">ℹ️</span>'
 
-      blockquote.appendChild(button)
+        // Вставляем кнопку в начало параграфа
+        firstParagraph.insertBefore(button, firstParagraph.firstChild)
+        firstParagraph.insertBefore(document.createTextNode(" "), firstParagraph.childNodes[1])
+      } else {
+        // Создаем кнопку и вставляем её в начало blockquote
+        const button = document.createElement("button")
+        button.className = "interactive-element-button"
+        button.setAttribute("data-query", queryText)
+        button.setAttribute("title", queryText)
+        button.innerHTML = '<span class="interactive-icon">ℹ️</span>'
+
+        blockquote.insertBefore(document.createTextNode(" "), blockquote.firstChild)
+        blockquote.insertBefore(button, blockquote.firstChild)
+      }
     })
 
     return tempDiv.innerHTML

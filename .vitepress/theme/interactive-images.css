@@ -33,14 +33,14 @@
   line-height: 1;
 }
 
-/* Стили для интерактивных кнопок */
+/* Общие стили для всех интерактивных кнопок */
 .interactive-element-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 20px;
   height: 20px;
-  margin-left: 4px;
+  margin-right: 4px; /* теперь отступ справа, так как кнопка в начале */
   padding: 0;
   border: none;
   background-color: transparent;
@@ -56,21 +56,9 @@
   transform: scale(1.2);
 }
 
-/* Специальные стили для кнопок внутри blockquote */
-blockquote .interactive-element-button {
-  position: absolute;
-  right: 8px;
-  top: 8px;
-  opacity: 0.7;
-}
-
+/* Удаляем специальное позиционирование для blockquote */
 blockquote {
   position: relative;
-  padding-right: 30px; /* Отступ для кнопки */
-}
-
-blockquote .interactive-element-button:hover {
-  opacity: 1;
 }
 
 /* ===== Анимации и другие общие стили ===== */
