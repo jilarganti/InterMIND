@@ -26,17 +26,21 @@
 
 /* ===== Новые стили для интерактивных ссылок и blockquotes ===== */
 
-/* Общие стили для контейнера ссылки с кнопкой */
-.interactive-link-container {
-  display: inline-flex;
-  align-items: center;
-  margin-left: 4px;
+/* Стили для интерактивной иконки внутри кнопки */
+.interactive-icon {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1;
 }
 
 /* Стили для интерактивных кнопок */
 .interactive-element-button {
-  width: 24px;
-  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin-left: 4px;
   padding: 0;
   border: none;
   background-color: transparent;
@@ -44,6 +48,7 @@
   transition: all 0.2s ease;
   opacity: 0.8;
   font-size: 16px;
+  vertical-align: middle;
 }
 
 .interactive-element-button:hover {

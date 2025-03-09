@@ -21,6 +21,9 @@ const isDevelopment = computed(() => !import.meta.env.VITE_IS_PROD)
 // Инициализируем хранилище чатов
 const chatsStore = useChatsStore()
 
+// Текущий режим запроса (по умолчанию "default")
+const currentMode = ref("default")
+
 // Создаем новый chat с помощью useChat
 const { messages, input, handleSubmit, status, error, stop, setMessages } = useChat({
   api: "/api/chat",
@@ -28,9 +31,16 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
   initialMessages: chatsStore.getMessages(props.chatId),
   body: {
     stream: true,
+    // Используем функцию, которая будет вызываться при каждом запросе
+    getBody: () => ({
+      mode: currentMode.value,
+    }),
   },
   onFinish: async () => {
     console.log(`🟢 CLIENT: Ответ завершен, начинаем обработку изображений...`)
+
+    // Сбрасываем режим на стандартный после получения ответа
+    currentMode.value = "default"
 
     // Если не показываем сырые сообщения и есть сообщения, обрабатываем последнее (от ассистента)
     if (!showRawMessages.value && messages.value.length > 0) {
@@ -58,12 +68,22 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
     scrollToBottom()
   },
   onError: (error) => {
+    // Сбрасываем режим на стандартный после ошибки
+    currentMode.value = "default"
     console.error("Chat error:", error)
   },
 })
 
 // Инициализируем композабл для UI элементов
-const { renderMarkdown, scrollToBottom, handleInput, insertText, handleKeyDown, setupImageClickHandler } = useChatUi(messagesContainerRef, textareaRef, input)
+const { renderMarkdown, scrollToBottom, handleInput, insertText, handleKeyDown, setupImageClickHandler } = useChatUi(
+  messagesContainerRef,
+  textareaRef,
+  input,
+  // Добавляем функцию для изменения режима
+  (mode: string) => {
+    currentMode.value = mode
+  },
+)
 
 // Обработчик отправки сообщения с прокруткой
 const handleSubmitWithScroll = async (event: Event) => {
@@ -78,8 +98,10 @@ const handleSubmitWithScroll = async (event: Event) => {
 }
 
 // Функция для отправки текста напрямую (используется для быстрых ответов)
-const submitTextDirectly = (text: string) => {
+const submitTextDirectly = (text: string, mode = "default") => {
   if (text.trim() && status.value !== "streaming") {
+    // Устанавливаем режим запроса
+    currentMode.value = mode
     input.value = text
     handleSubmitWithScroll(new Event("submit"))
   }
@@ -91,7 +113,10 @@ const toggleRawMessages = () => {
 }
 
 // Настройка обработчика кликов по изображениям
-const { setupImageClicks, cleanupImageClicks } = setupImageClickHandler(submitTextDirectly)
+const { setupImageClicks, cleanupImageClicks } = setupImageClickHandler(
+  // Передаем функцию submitTextDirectly вместе с режимом followup
+  (text) => submitTextDirectly(text, "followup"),
+)
 
 // Подключаем обработчик кликов по изображениям при монтировании
 onMounted(() => {
@@ -124,8 +149,8 @@ watch(
   { deep: true },
 )
 
-// Экспортируем только insertText (для вставки тегов из ChatLayout)
-defineExpose({ insertText })
+// Экспортируем методы для использования из родительского компонента
+defineExpose({ insertText, submitTextDirectly })
 </script>
 
 <template>
@@ -154,7 +179,10 @@ defineExpose({ insertText })
       <!-- Status indicator -->
       <div v-if="status === 'streaming'" class="typing-indicator">
         <span v-if="showRawMessages">Raw streaming...</span>
-        <span v-else>AI is typing...</span>
+        <span v-else>
+          <span v-if="currentMode === 'followup'">AI готовит детальный ответ...</span>
+          <span v-else>AI is typing...</span>
+        </span>
       </div>
     </div>
 

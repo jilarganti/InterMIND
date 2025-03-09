@@ -11,7 +11,12 @@ interface ImageClickHandlers {
 /**
  * Универсальный composable для работы с UI элементами чата
  */
-export function useChatUi(messagesContainerRef: Ref<HTMLDivElement | null>, textareaRef?: Ref<HTMLTextAreaElement | null>, input?: Ref<string>) {
+export function useChatUi(
+  messagesContainerRef: Ref<HTMLDivElement | null>,
+  textareaRef?: Ref<HTMLTextAreaElement | null>,
+  input?: Ref<string>,
+  setMode?: (mode: string) => void,
+) {
   /**
    * Скролл к концу контейнера сообщений
    */
@@ -82,7 +87,7 @@ export function useChatUi(messagesContainerRef: Ref<HTMLDivElement | null>, text
   /**
    * Обработка кликов по интерактивным элементам (изображения, ссылки, blockquotes)
    */
-  const setupImageClickHandler = (submitTextFn: (text: string) => void): ImageClickHandlers => {
+  const setupImageClickHandler = (submitTextFn: (text: string, mode?: string) => void): ImageClickHandlers => {
     // Обработчик клика по интерактивным элементам
     const handleElementClick = (event: MouseEvent) => {
       const target = event.target as HTMLElement
@@ -101,7 +106,9 @@ export function useChatUi(messagesContainerRef: Ref<HTMLDivElement | null>, text
 
           // Отправляем запрос после небольшой задержки
           setTimeout(() => {
-            submitTextFn(query)
+            // Устанавливаем режим followup
+            if (setMode) setMode("followup")
+            submitTextFn(query, "followup")
 
             // Восстанавливаем стили
             setTimeout(() => {
@@ -127,7 +134,9 @@ export function useChatUi(messagesContainerRef: Ref<HTMLDivElement | null>, text
 
           // Отправляем запрос после небольшой задержки
           setTimeout(() => {
-            submitTextFn(query)
+            // Устанавливаем режим followup
+            if (setMode) setMode("followup")
+            submitTextFn(query, "followup")
           }, 300)
         }
       }
@@ -186,18 +195,32 @@ export function useChatUi(messagesContainerRef: Ref<HTMLDivElement | null>, text
       // Не добавляем кнопку для простых ссылок без текста
       if (!link.textContent || link.textContent.trim().length < 5) return
 
+      // Получаем текст ссылки и href
       const linkText = link.textContent.trim()
-      const container = document.createElement("span")
-      container.className = "interactive-link-container"
+      const href = link.getAttribute("href") || ""
 
+      // Определяем, что использовать в запросе - текст до скобок или полный текст
+      // Это помогает обрабатывать случаи типа "Dubai Mall Dining Directory [www.thedubaimall.com/dine ]"
+      const displayTextMatch = linkText.match(/(.*?)\s*\[.*?\]/)
+      const queryText = displayTextMatch ? displayTextMatch[1].trim() : linkText
+
+      // Создаем контейнер и помещаем его после ссылки
+      const linkParent = link.parentNode
+      if (!linkParent) return
+
+      // Создаем кнопку и устанавливаем ей нужные атрибуты
       const button = document.createElement("button")
       button.className = "interactive-element-button"
-      button.setAttribute("data-query", `Расскажи больше про ${linkText}`)
-      button.setAttribute("title", `Спросить про "${linkText}"`)
-      button.textContent = "⬆️"
+      button.setAttribute("data-query", queryText)
+      button.setAttribute("title", queryText)
+      button.innerHTML = '<span class="interactive-icon">⬆️</span>'
 
-      link.parentNode!.insertBefore(container, link.nextSibling)
-      container.appendChild(button)
+      // Добавляем кнопку после ссылки в DOM
+      if (link.nextSibling) {
+        linkParent.insertBefore(button, link.nextSibling)
+      } else {
+        linkParent.appendChild(button)
+      }
     })
 
     // Обработка blockquote: добавляем кнопку в конец каждого blockquote
@@ -212,9 +235,9 @@ export function useChatUi(messagesContainerRef: Ref<HTMLDivElement | null>, text
 
       const button = document.createElement("button")
       button.className = "interactive-element-button blockquote-button"
-      button.setAttribute("data-query", `Расскажи больше про ${queryText}`)
-      button.setAttribute("title", `Узнать больше про "${queryText.substring(0, 30)}${queryText.length > 30 ? "..." : ""}"`)
-      button.textContent = "⬆️"
+      button.setAttribute("data-query", queryText)
+      button.setAttribute("title", queryText)
+      button.innerHTML = '<span class="interactive-icon">⬆️</span>'
 
       blockquote.appendChild(button)
     })
