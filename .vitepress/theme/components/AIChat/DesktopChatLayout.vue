@@ -1,28 +1,23 @@
 <script setup lang="ts">
-import { ref, onMounted, computed, onUnmounted } from "vue"
+import { ref, onMounted, computed, watch } from "vue"
 import AIChat from "./AIChat.vue"
-import DesktopChatLayout from "./DesktopChatLayout.vue"
 import { useChatsStore } from "@theme/stores/chatsStore"
-import { ArrowUp, ArrowLeft, Menu } from "lucide-vue-next"
-import "./style.css"
+import { ArrowUp, ArrowLeft, Menu, Plus, Home, MessageSquare, Search } from "lucide-vue-next"
 
 // Инициализируем хранилище чатов
 const chatsStore = useChatsStore()
 
 // Управление текущим layout: 'main', 'chats', 'chat'
-const currentView = ref("main")
+const currentView = ref("chat")
 
-// Поле ввода текста на главном экране
-const mainInput = ref("")
-const mainInputRef = ref(null)
+// Поле ввода текста для быстрого поиска
+const searchInput = ref("")
+const searchInputRef = ref(null)
 
 // Состояние и значение для редактирования заголовка чата
 const isEditingTitle = ref(false)
 const editableChatTitle = ref("")
 const titleInputRef = ref(null)
-
-// Определение ширины экрана для выбора макета
-const isDesktop = ref(false)
 
 // Ссылка на компонент чата для доступа к его методам
 interface ChatRef {
@@ -40,11 +35,21 @@ const quickPrompts = ref([
   { id: "5", text: "Palm Jumeirah rental" },
 ])
 
-// Группировка чатов по годам и месяцам
+// Фильтрация чатов при поиске
+const filteredChatIds = computed(() => {
+  if (!searchInput.value) return chatsStore.chatIds
+
+  return chatsStore.chatIds.filter((chatId) => {
+    const date = new Date(Number(chatId))
+    return date.toLocaleString().toLowerCase().includes(searchInput.value.toLowerCase())
+  })
+})
+
+// Группировка отфильтрованных чатов по годам и месяцам
 const groupedChats = computed(() => {
   const groups = {}
 
-  chatsStore.chatIds.forEach((id) => {
+  filteredChatIds.value.forEach((id) => {
     const date = new Date(Number(id))
     const year = date.getFullYear()
     const month = date.toLocaleString("default", { month: "long" })
@@ -63,41 +68,9 @@ const groupedChats = computed(() => {
   return groups
 })
 
-// Функция для добавления текста тега в поле ввода на главном экране
-const addTagToInput = (tagText: string) => {
-  // Проверяем, нужно ли добавлять пробел перед тегом
-  const needsSpace = mainInput.value && !mainInput.value.endsWith(" ")
-
-  // Добавляем тег в поле ввода с пробелом в конце
-  mainInput.value += (needsSpace ? " " : "") + tagText + " "
-
-  // Ставим фокус на поле ввода
-  setTimeout(() => {
-    if (mainInputRef.value) {
-      mainInputRef.value.focus()
-    }
-  }, 10)
-}
-
-// Функция для отправки запроса с главного экрана
-const sendMainInput = () => {
-  if (!mainInput.value.trim()) return
-
-  createNewChat()
-
-  // Небольшая задержка для гарантии, что чат уже создан
-  setTimeout(() => {
-    if (chatInputRef.value) {
-      chatInputRef.value.submitTextDirectly(mainInput.value.trim())
-      mainInput.value = "" // Очищаем поле ввода
-    }
-  }, 100)
-}
-
 // Функция для выбора чата
 const handleSelectChat = (chatId: string) => {
   chatsStore.selectChat(chatId)
-  currentView.value = "chat"
 }
 
 // Функции для управления редактированием заголовка
@@ -124,12 +97,11 @@ const saveTitle = () => {
 // Функция для создания нового чата
 const createNewChat = () => {
   chatsStore.createNewChat()
-  currentView.value = "chat"
 }
 
-// Функция для проверки и обновления типа макета (десктоп или мобильный)
-const updateLayoutType = () => {
-  isDesktop.value = window.innerWidth >= 768
+// Обработчик ввода в поле поиска
+const handleSearchInput = () => {
+  // Реализация поиска по чатам
 }
 
 // Инициализация при монтировании компонента
@@ -141,60 +113,43 @@ onMounted(() => {
   if (chatsStore.chatIds.length === 0) {
     chatsStore.createNewChat()
   }
-
-  // Проверяем размер экрана для выбора макета
-  updateLayoutType()
-
-  // Добавляем слушатель изменения размера окна
-  window.addEventListener("resize", updateLayoutType)
 })
 
-// Удаляем слушатель при размонтировании компонента
-onUnmounted(() => {
-  window.removeEventListener("resize", updateLayoutType)
-})
+// Отслеживаем изменение selectedChatId
+watch(
+  () => chatsStore.selectedChatId,
+  (newChatId) => {
+    // Убедимся, что выбранный чат существует
+    if (newChatId && !chatsStore.chatIds.includes(newChatId)) {
+      if (chatsStore.chatIds.length > 0) {
+        chatsStore.selectChat(chatsStore.chatIds[0])
+      } else {
+        createNewChat()
+      }
+    }
+  },
+)
 </script>
 
 <template>
-  <!-- Десктопный макет (отображается на широких экранах) -->
-  <DesktopChatLayout v-if="isDesktop" />
-
-  <!-- Мобильный макет (отображается на узких экранах) -->
-  <div v-else class="mobile-layout">
-    <!-- Main layout -->
-    <div v-if="currentView === 'main'" class="layout-view main-view">
-      <div class="mobile-header">
-        <button class="nav-button" @click="currentView = 'chats'">
-          <Menu :size="20" />
-        </button>
-        <div class="view-title">Golden Fish</div>
+  <div class="desktop-chat-layout">
+    <!-- Левая боковая панель со списком чатов -->
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-brand">Golden Fish</div>
+        <div class="search-container">
+          <Search :size="18" class="search-icon" />
+          <input v-model="searchInput" @input="handleSearchInput" ref="searchInputRef" class="search-input" placeholder="Поиск чатов..." type="text" />
+        </div>
       </div>
 
-      <div class="quick-prompts">
-        <button v-for="prompt in quickPrompts" :key="prompt.id" class="quick-prompt-button" @click="addTagToInput(prompt.text)">
-          {{ prompt.text }}
-        </button>
-      </div>
+      <!-- Кнопка создания нового чата -->
+      <button class="new-chat-button" @click="createNewChat">
+        <Plus :size="18" />
+        <span>Новый чат</span>
+      </button>
 
-      <div class="input-footer">
-        <form @submit.prevent="sendMainInput" class="main-input-form">
-          <input v-model="mainInput" ref="mainInputRef" class="main-input-field" placeholder="Задайте вопрос..." type="text" />
-          <button type="submit" class="main-send-button" :disabled="!mainInput.trim()">
-            <ArrowUp :size="20" />
-          </button>
-        </form>
-      </div>
-    </div>
-
-    <!-- Chats list layout -->
-    <div v-else-if="currentView === 'chats'" class="layout-view chats-view">
-      <div class="mobile-header">
-        <button class="nav-button" @click="currentView = 'main'">
-          <ArrowLeft :size="20" />
-        </button>
-        <div class="view-title">Чаты</div>
-      </div>
-
+      <!-- Список чатов -->
       <div class="chats-list">
         <div v-for="(yearData, year) in groupedChats" :key="year" class="chat-year-group">
           <h2 class="year-header">{{ year }}</h2>
@@ -209,6 +164,7 @@ onUnmounted(() => {
               :class="{ active: chatId === chatsStore.selectedChatId }"
               @click="handleSelectChat(chatId)"
             >
+              <MessageSquare :size="18" class="chat-icon" />
               <span class="chat-name">{{ chatsStore.getChatTitle(chatId) || `Чат от ${new Date(Number(chatId)).toLocaleString()}` }}</span>
             </div>
           </div>
@@ -216,16 +172,14 @@ onUnmounted(() => {
       </div>
     </div>
 
-    <!-- Chat conversation layout -->
-    <div v-else-if="currentView === 'chat'" class="layout-view chat-view">
-      <div class="mobile-header">
-        <button class="nav-button" @click="currentView = 'main'">
-          <ArrowLeft :size="20" />
-        </button>
+    <!-- Основной контент чата -->
+    <div class="chat-content">
+      <!-- Заголовок чата для десктопной версии -->
+      <div v-if="chatsStore.selectedChatId" class="desktop-chat-header">
         <div class="chat-title-container">
           <div
             v-if="!isEditingTitle"
-            class="view-title editable-title"
+            class="chat-title editable-title"
             @click="startEditingTitle"
             :title="chatsStore.getChatTitle(chatsStore.selectedChatId) || 'Новый чат'"
           >
@@ -244,6 +198,27 @@ onUnmounted(() => {
       </div>
 
       <AIChat v-if="chatsStore.selectedChatId" ref="chatInputRef" :key="chatsStore.selectedChatId" :chat-id="chatsStore.selectedChatId" />
+
+      <!-- Placeholder, когда нет выбранного чата -->
+      <div v-else class="no-chat-selected">
+        <div class="placeholder-content">
+          <Home :size="48" />
+          <h2>Выберите чат или создайте новый</h2>
+          <button class="create-chat-btn" @click="createNewChat">Создать новый чат</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Правая панель с быстрыми подсказками (опционально) -->
+    <div class="quick-prompts-panel">
+      <div class="panel-header">
+        <h3>Быстрые запросы</h3>
+      </div>
+      <div class="quick-prompts-list">
+        <button v-for="prompt in quickPrompts" :key="prompt.id" class="quick-prompt-button" @click="chatInputRef?.insertText(prompt.text)">
+          {{ prompt.text }}
+        </button>
+      </div>
     </div>
   </div>
 </template>
