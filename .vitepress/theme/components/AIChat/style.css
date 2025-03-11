@@ -384,3 +384,245 @@
   border-color: var(--vp-custom-block-warning-border);
   color: var(--vp-hl-color);
 }
+
+/* Мобильный интерфейс в стиле Gemini */
+
+/* Скрываем элемент "Return to top" */
+.VPNavBarTitle a,
+.VPNavBar .VPNavBarTitle,
+.vp-doc a[href="#top"],
+a[href="#top"],
+.VPBackToTop,
+.VPDocFooter .prev-next {
+  display: none !important;
+}
+
+/* Общие стили для мобильного интерфейса */
+.mobile-layout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--vp-c-gray-bg);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: 100; /* Увеличиваем z-index, чтобы быть над другими элементами */
+}
+
+/* Общий контейнер для всех layout-view */
+.layout-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+/* Заголовок на всех экранах */
+.mobile-header {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--vp-c-gray-border);
+  background-color: var(--vp-c-gray-bg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  z-index: 10;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  padding: 8px;
+  margin-right: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--vp-c-main-1);
+  cursor: pointer;
+}
+
+.view-title {
+  flex: 1;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: var(--vp-c-main-1);
+}
+
+/* Нижняя панель с кнопкой или полем ввода */
+.input-footer {
+  padding: 16px;
+  border-top: 1px solid var(--vp-c-gray-border);
+  margin-top: auto;
+  background-color: var(--vp-c-gray-bg);
+}
+
+/* Стили для поля ввода на главном экране */
+.main-input-form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.main-input-field {
+  flex: 1;
+  padding: 12px 16px;
+  border: 1px solid var(--vp-c-gray-border);
+  border-radius: 24px;
+  font-size: 16px;
+  background-color: var(--vp-c-gray-bg);
+  color: var(--vp-c-main-1);
+  outline: none;
+}
+
+.main-input-field:focus {
+  border-color: var(--vp-c-main-3);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05);
+}
+
+.main-send-button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--vp-c-main-3);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.main-send-button:hover {
+  background-color: var(--vp-c-main-2);
+}
+
+.main-send-button:disabled {
+  background-color: var(--vp-c-gray-border);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.new-chat-button {
+  width: 100%;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 24px;
+  background-color: var(--vp-c-main-3);
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.new-chat-button:hover {
+  background-color: var(--vp-c-main-2);
+}
+
+/* Стили для экрана Main */
+.main-view .quick-prompts {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.quick-prompt-button {
+  width: 100%;
+  padding: 16px;
+  text-align: left;
+  border: 1px solid var(--vp-c-gray-border);
+  border-radius: 12px;
+  background-color: var(--vp-c-gray-bg);
+  color: var(--vp-c-main-1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.quick-prompt-button:hover {
+  background-color: var(--vp-c-blue-bg);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Стили для экрана списка чатов */
+.chats-view .chats-list {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.year-header {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 16px 0 8px 0;
+  color: var(--vp-c-main-1);
+}
+
+.month-header {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 12px 0 8px 0;
+  color: var(--vp-c-main-2);
+  border-bottom: 1px solid var(--vp-c-gray-border);
+  padding-bottom: 4px;
+}
+
+.chat-item {
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  background-color: var(--vp-c-gray-bg);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.chat-item:hover {
+  background-color: var(--vp-c-blue-bg);
+}
+
+.chat-item.active {
+  background-color: var(--vp-c-gray-border);
+}
+
+.chat-name {
+  font-weight: 500;
+  color: var(--vp-c-main-1);
+}
+
+/* Стили для экрана чата */
+.chat-view {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Совместимость с существующими стилями для AIChat */
+.chat-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Медиа-запросы для адаптивности */
+@media (min-width: 768px) {
+  .mobile-layout {
+    max-width: 768px;
+    margin: 0 auto;
+    border-left: 1px solid var(--vp-c-gray-border);
+    border-right: 1px solid var(--vp-c-gray-border);
+  }
+
+  .quick-prompts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
