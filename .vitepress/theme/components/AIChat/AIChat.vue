@@ -15,8 +15,19 @@ const messagesContainerRef = ref<HTMLDivElement | null>(null)
 const textareaRef = ref<HTMLTextAreaElement | null>(null)
 const showRawMessages = ref(false)
 
-// Проверка на режим разработки (упрощенная)
+// Проверка на режим разработки
 const isDevelopment = computed(() => !import.meta.env.VITE_IS_PROD)
+
+// Проверка на мобильное устройство
+const isMobile = computed(() => {
+  if (typeof window === "undefined") return false
+  return window.innerWidth < 768
+})
+
+// Проверка наличия текста в поле ввода
+const hasInputContent = computed(() => {
+  return input.value.trim().length > 0
+})
 
 // Инициализируем хранилище чатов
 const chatsStore = useChatsStore()
@@ -95,6 +106,13 @@ const handleSubmitWithScroll = async (event: Event) => {
 
   console.log(`🟢 CLIENT: Отправка запроса в режиме: ${currentMode.value}`)
   await handleSubmit(event)
+
+  // Сбрасываем высоту поля ввода после отправки
+  if (textareaRef.value) {
+    textareaRef.value.style.height = "auto"
+    textareaRef.value.style.height = "24px"
+  }
+
   scrollToBottom()
 }
 
@@ -119,6 +137,18 @@ const { setupImageClicks, cleanupImageClicks } = setupImageClickHandler(
   // Передаем функцию submitTextDirectly вместе с режимом followup
   (text) => submitTextDirectly(text, "followup"),
 )
+
+// Обработчик нажатий клавиш (модифицированный для мобильных устройств)
+const handleKeyDownModified = (event: KeyboardEvent) => {
+  if (isMobile.value) {
+    // На мобильных устройствах Enter всегда добавляет новую строку
+    // Не делаем preventDefault, позволяя браузеру обрабатывать Enter стандартно
+    return
+  } else {
+    // На десктопе - стандартное поведение
+    handleKeyDown(event, handleSubmitWithScroll)
+  }
+}
 
 // Подключаем обработчик кликов по изображениям при монтировании
 onMounted(() => {
@@ -205,12 +235,13 @@ defineExpose({ insertText, submitTextDirectly })
 
         <textarea
           v-model="input"
-          @keydown="(e) => handleKeyDown(e, handleSubmitWithScroll)"
+          @keydown="handleKeyDownModified"
           @input="handleInput"
           ref="textareaRef"
           placeholder="Message (⇧↵ for new line)"
           :disabled="status === 'streaming'"
           class="message-input"
+          :class="{ 'has-content': hasInputContent }"
           rows="1"
         ></textarea>
         <div class="button-container">

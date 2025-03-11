@@ -1,5 +1,5 @@
 // .vitepress/theme/composables/useChatUi.ts
-import { nextTick } from "vue"
+import { nextTick, ref } from "vue"
 import type { Ref } from "vue"
 import MarkdownIt from "markdown-it"
 
@@ -14,6 +14,19 @@ export function useChatUi(
   input?: Ref<string>,
   setMode?: (mode: string) => void,
 ) {
+  // Проверка на мобильное устройство
+  const isMobile = ref(false)
+
+  // Устанавливаем флаг мобильного устройства при инициализации
+  if (typeof window !== "undefined") {
+    isMobile.value = window.innerWidth < 768
+
+    // Обновляем флаг при изменении размера окна
+    window.addEventListener("resize", () => {
+      isMobile.value = window.innerWidth < 768
+    })
+  }
+
   /**
    * Скролл к концу контейнера сообщений
    */
@@ -73,10 +86,17 @@ export function useChatUi(
 
   // Обработчик нажатий клавиш
   const handleKeyDown = (event: KeyboardEvent, submitFn: (event: Event) => void): void => {
+    // Для мобильных устройств Enter должен добавлять новую строку
+    if (isMobile.value) {
+      return // Позволяем стандартное поведение
+    }
+
+    // Для десктопа Enter без Shift отправляет сообщение
     if (event.key === "Enter" && !event.shiftKey) {
       event.preventDefault()
       if (input?.value.trim()) {
         submitFn(event)
+        resetHeight()
       }
     }
   }
@@ -280,5 +300,8 @@ export function useChatUi(
 
     // Markdown
     renderMarkdown,
+
+    // Утилиты
+    isMobile,
   }
 }

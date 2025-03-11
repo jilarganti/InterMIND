@@ -2,7 +2,7 @@
 import { ref, onMounted, computed } from "vue"
 import AIChat from "./AIChat.vue"
 import { useChatsStore } from "@theme/stores/chatsStore"
-import { ArrowUp } from "lucide-vue-next"
+import { ArrowUp, ArrowLeft, Menu } from "lucide-vue-next"
 import "./style.css"
 
 // Инициализируем хранилище чатов
@@ -56,8 +56,12 @@ const groupedChats = computed(() => {
 
 // Функция для добавления текста тега в поле ввода на главном экране
 const addTagToInput = (tagText: string) => {
+  // Проверяем, нужно ли добавлять пробел перед тегом
+  const needsSpace = mainInput.value && !mainInput.value.endsWith(" ")
+
   // Добавляем тег в поле ввода с пробелом в конце
-  mainInput.value += (mainInput.value ? " " : "") + tagText + " "
+  mainInput.value += (needsSpace ? " " : "") + tagText + " "
+
   // Ставим фокус на поле ввода
   setTimeout(() => {
     if (mainInputRef.value) {
@@ -110,8 +114,10 @@ onMounted(() => {
     <!-- Main layout -->
     <div v-if="currentView === 'main'" class="layout-view main-view">
       <div class="mobile-header">
-        <button class="nav-button" @click="currentView = 'chats'">Чаты</button>
-        <h1 class="view-title">Golden Fish</h1>
+        <button class="nav-button" @click="currentView = 'chats'">
+          <Menu :size="20" />
+        </button>
+        <div class="view-title">Golden Fish</div>
       </div>
 
       <div class="quick-prompts">
@@ -133,8 +139,10 @@ onMounted(() => {
     <!-- Chats list layout -->
     <div v-else-if="currentView === 'chats'" class="layout-view chats-view">
       <div class="mobile-header">
-        <button class="nav-button" @click="currentView = 'main'">Назад</button>
-        <h1 class="view-title">Чаты</h1>
+        <button class="nav-button" @click="currentView = 'main'">
+          <ArrowLeft :size="20" />
+        </button>
+        <div class="view-title">Чаты</div>
       </div>
 
       <div class="chats-list">
@@ -161,8 +169,10 @@ onMounted(() => {
     <!-- Chat conversation layout -->
     <div v-else-if="currentView === 'chat'" class="layout-view chat-view">
       <div class="mobile-header">
-        <button class="nav-button" @click="currentView = 'main'">Назад</button>
-        <h1 class="view-title">Чат</h1>
+        <button class="nav-button" @click="currentView = 'main'">
+          <ArrowLeft :size="20" />
+        </button>
+        <div class="view-title">Чат</div>
       </div>
 
       <AIChat v-if="chatsStore.selectedChatId" ref="chatInputRef" :key="chatsStore.selectedChatId" :chat-id="chatsStore.selectedChatId" />
