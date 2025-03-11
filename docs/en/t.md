@@ -4,7 +4,8 @@ sidebar: false
 aside: false
 next: false
 lastUpdated: false
-# layout: false
+navbar: false
+layout: doc
 ---
 
 <ChatLayout />
