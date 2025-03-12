@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue"
-import AIChat from "./AIChat.vue"
+import ChatThread from "./ChatThread.vue"
 import ChatHeader from "./ChatHeader.vue"
 import { Home } from "lucide-vue-next"
 import { useChatTitle } from "@theme/composables/AIChat/useChatTitle"
@@ -44,14 +44,14 @@ const emit = defineEmits<{
   (e: "update-title", chatId: string, title: string): void
 }>()
 
-// Интерфейс для доступа к методам AIChat
+// Интерфейс для доступа к методам ChatThread
 interface ChatRef {
   insertText: (text: string) => void
   submitTextDirectly: (text: string) => void
 }
 
-// Ref для доступа к компоненту AIChat
-const chatInputRef = ref<ChatRef | null>(null)
+// Ref для доступа к компоненту ChatThread
+const chatThreadRef = ref<ChatRef | null>(null)
 
 // Ref для input элемента заголовка
 const titleInputRef = ref<HTMLInputElement | null>(null)
@@ -68,13 +68,13 @@ const handleSaveTitle = () => {
 // Возвращаем методы для использования в родительском компоненте
 defineExpose({
   insertText: (text: string) => {
-    if (chatInputRef.value) {
-      chatInputRef.value.insertText(text)
+    if (chatThreadRef.value) {
+      chatThreadRef.value.insertText(text)
     }
   },
   submitTextDirectly: (text: string) => {
-    if (chatInputRef.value) {
-      chatInputRef.value.submitTextDirectly(text)
+    if (chatThreadRef.value) {
+      chatThreadRef.value.submitTextDirectly(text)
     }
   },
 })
@@ -98,7 +98,7 @@ defineExpose({
 
     <!-- Компонент чата или плейсхолдер -->
     <template v-if="chatId">
-      <AIChat ref="chatInputRef" :chat-id="chatId" />
+      <ChatThread ref="chatThreadRef" :chat-id="chatId" />
     </template>
 
     <!-- Плейсхолдер, если нет выбранного чата -->
@@ -175,28 +175,5 @@ defineExpose({
   .placeholder-content h2 {
     font-size: 1.25rem;
   }
-}
-
-/* Интеграция с компонентом AIChat */
-:deep(.chat-frame) {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  background-color: var(--vp-c-bg);
-}
-
-:deep(.messages-container) {
-  flex: 1;
-  overflow-y: auto;
-  padding: 1rem;
-  scroll-behavior: smooth;
-}
-
-:deep(.input-container) {
-  padding: 12px 16px;
-  background-color: var(--vp-c-bg);
-  margin-top: auto;
-  border-top: 1px solid var(--vp-c-divider);
 }
 </style>

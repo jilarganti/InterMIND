@@ -70,14 +70,10 @@ const handleUpdateTitle = (chatId: string, title: string) => {
 /* Основной макет */
 .desktop-chat-layout {
   display: grid;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  position: relative;
   background-color: var(--vp-c-bg);
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   z-index: 100;
   grid-template-columns: 280px 1fr 240px;

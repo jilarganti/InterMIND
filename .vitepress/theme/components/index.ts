@@ -14,8 +14,8 @@ import BenefitsList from "./BenefitsList.vue"
 import ContactFormModal from "./CRM/ContactFormModal.vue"
 
 import AIChat from "./AIChat/AIChat.vue"
-import ChatLayout from "./AIChat/ChatLayout.vue"
-import DesktopChatLayout from "./AIChat/DesktopChatLayout.vue"
+// import ChatLayout from "./AIChat/ChatLayout.vue"
+// import DesktopChatLayout from "./AIChat/DesktopChatLayout.vue"
 
 // import ChatLayoutNew from "./AIChat/ChatLayout.vue"
 
@@ -34,8 +34,8 @@ export const components: Components = {
   FeatureCard,
   BenefitsList,
   AIChat,
-  ChatLayout,
-  DesktopChatLayout,
+  // ChatLayout,
+  // DesktopChatLayout,
 
   ContactFormModal,
   TypeForm,

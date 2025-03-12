@@ -1,16 +1,20 @@
 <script setup lang="ts">
 import { ref } from "vue"
+import ChatThread from "./ChatThread.vue"
 import ChatList from "./ChatList.vue"
 import ChatContainer from "./ChatContainer.vue"
 import QuickPrompts from "./QuickPrompts.vue"
-import DesktopChatLayout from "./DesktopChatLayout.vue"
 import { useChatManagement } from "@theme/composables/AIChat/useChatManagement"
 import { useQuickPrompts } from "@theme/composables/AIChat/useQuickPrompts"
-import { useChatLayout } from "@theme/composables/AIChat/useChatLayout"
 import { ArrowUp } from "lucide-vue-next"
 
-// Инициализируем определение макета
-const { isDesktop, currentView, setCurrentView } = useChatLayout()
+// Управление текущим view: 'main', 'chats', 'chat'
+const currentView = ref("main")
+
+// Функция изменения текущего представления
+const setCurrentView = (view: string) => {
+  currentView.value = view
+}
 
 // Инициализируем управление чатами с поддержкой навигации в мобильном режиме
 const { searchInput, groupedChats, hasSelectedChat, createNewChat, selectChat, chatsStore } = useChatManagement({ setCurrentView })
@@ -53,11 +57,7 @@ const sendMainInput = () => {
 </script>
 
 <template>
-  <!-- Десктопный макет (отображается на широких экранах) -->
-  <DesktopChatLayout v-if="isDesktop" />
-
-  <!-- Мобильный макет (отображается на узких экранах) -->
-  <div v-else class="mobile-layout">
+  <div class="mobile-layout">
     <!-- Главный экран -->
     <div v-if="currentView === 'main'" class="layout-view main-view">
       <div class="mobile-header">
@@ -134,12 +134,6 @@ const sendMainInput = () => {
   width: 100vw;
   overflow: hidden;
   z-index: 100;
-}
-
-@media (min-width: 768px) {
-  .mobile-layout {
-    display: none; /* Скрываем на десктопе */
-  }
 }
 
 /* Общий контейнер для всех layout-view */

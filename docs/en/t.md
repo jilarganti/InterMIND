@@ -8,4 +8,4 @@ navbar: false
 layout: doc
 ---
 
-<ChatLayout />
+<AIChat />

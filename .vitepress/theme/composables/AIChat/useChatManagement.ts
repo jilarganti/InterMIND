@@ -3,6 +3,15 @@ import { ref, computed, onMounted, watch } from "vue"
 import { useChatsStore } from "@theme/stores/chatsStore"
 import type { Ref } from "vue"
 
+// Интерфейс для определения структуры групп чатов
+interface MonthGroup {
+  [month: string]: string[]
+}
+
+interface YearGroups {
+  [year: string]: MonthGroup
+}
+
 interface UseChatManagementOptions {
   /**
    * Функция для установки выбранного представления в мобильном интерфейсе
@@ -34,11 +43,11 @@ export function useChatManagement(options: UseChatManagementOptions = {}) {
 
   // Группировка отфильтрованных чатов по годам и месяцам
   const groupedChats = computed(() => {
-    const groups = {}
+    const groups: YearGroups = {}
 
     filteredChatIds.value.forEach((id) => {
       const date = new Date(Number(id))
-      const year = date.getFullYear()
+      const year = date.getFullYear().toString() // Преобразуем number в string
       const month = date.toLocaleString("default", { month: "long" })
 
       if (!groups[year]) {
