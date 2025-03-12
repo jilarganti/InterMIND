@@ -27,6 +27,11 @@ const props = defineProps<{
    * Идентификатор текущего макета (desktop или mobile)
    */
   layout?: "desktop" | "mobile"
+
+  /**
+   * Является ли чат черновиком (не добавлен в список)
+   */
+  isDraft?: boolean
 }>()
 
 const emit = defineEmits<{
@@ -77,8 +82,10 @@ onMounted(() => {
 
     <div class="chat-title-container">
       <!-- Отображение заголовка -->
-      <div v-if="!isEditing" class="chat-title editable-title" @click="emit('start-editing')" :title="title">
+      <div v-if="!isEditing" class="chat-title editable-title" :class="{ 'draft-title': isDraft }" @click="!isDraft && emit('start-editing')" :title="title">
         {{ title }}
+        <!-- Индикатор черновика -->
+        <span v-if="isDraft" class="draft-indicator">Черновик</span>
       </div>
 
       <!-- Редактирование заголовка -->
@@ -158,6 +165,33 @@ onMounted(() => {
   font-size: 0.875rem;
   margin-left: 8px;
   opacity: 0.6;
+}
+
+/* Стили для черновика */
+.draft-title {
+  cursor: default;
+  font-style: italic;
+  color: var(--vp-c-text-2);
+}
+
+.draft-title:hover {
+  background-color: transparent;
+}
+
+.draft-title:hover::after {
+  content: "";
+}
+
+.draft-indicator {
+  font-size: 0.75rem;
+  font-weight: normal;
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+  padding: 2px 6px;
+  border-radius: 10px;
+  margin-left: 8px;
+  display: inline-block;
+  vertical-align: 1px;
 }
 
 .title-input {

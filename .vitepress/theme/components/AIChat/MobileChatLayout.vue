@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from "vue"
+import { ref, computed } from "vue"
 import ChatList from "./ChatList.vue"
 import ChatContainer from "./ChatContainer.vue"
 import QuickPrompts from "./QuickPrompts.vue"
@@ -18,6 +18,11 @@ const setCurrentView = (view: string) => {
 // Инициализируем управление чатами с поддержкой навигации в мобильном режиме
 const { searchInput, groupedChats, hasSelectedChat, createNewChat, selectChat, chatsStore } = useChatManagement({ setCurrentView })
 
+// Проверяем, является ли текущий чат черновиком
+const isDraftChat = computed(() => {
+  return chatsStore.draftChatId === chatsStore.selectedChatId
+})
+
 // Поле ввода текста на главном экране
 const mainInput = ref("")
 const mainInputRef = ref(null)
@@ -35,7 +40,9 @@ const handleQuickPromptSelect = (text: string) => {
 
 // Обработчик использования подсказки на пустом экране
 const handleUsePromptFromEmpty = (text: string) => {
-  createNewChat()
+  if (!hasSelectedChat.value) {
+    createNewChat()
+  }
 
   // Небольшая задержка для гарантии, что чат уже создан
   setTimeout(() => {
@@ -54,8 +61,10 @@ const handleUpdateTitle = (chatId: string, title: string) => {
 const sendMainInput = () => {
   if (!mainInput.value.trim()) return
 
-  // Создаем новый чат
-  createNewChat()
+  // Если нет выбранного чата, создаем новый
+  if (!hasSelectedChat.value) {
+    createNewChat()
+  }
 
   // Небольшая задержка для гарантии, что чат уже создан
   setTimeout(() => {
@@ -119,10 +128,11 @@ const sendMainInput = () => {
       <ChatContainer
         ref="chatContainerRef"
         :chat-id="chatsStore.selectedChatId"
-        :chat-title="chatsStore.getChatTitle(chatsStore.selectedChatId) || 'Новый чат'"
+        :chat-title="isDraftChat ? 'Новый чат' : chatsStore.getChatTitle(chatsStore.selectedChatId) || 'Чат без названия'"
         layout="mobile"
         :show-header="true"
         :show-prompts-when-empty="true"
+        :is-draft="isDraftChat"
         @go-back="setCurrentView('main')"
         @create-chat="createNewChat"
         @update-title="handleUpdateTitle"

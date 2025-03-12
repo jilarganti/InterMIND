@@ -13,6 +13,7 @@ export interface ChatInfo {
 export const useChatsStore = defineStore("chats", () => {
   const chatIds = ref<string[]>([])
   const selectedChatId = ref<string>("")
+  const draftChatId = ref<string>("")
   const chatsData = ref<Record<string, ChatInfo>>({})
 
   // Проверка на клиентскую среду
@@ -62,10 +63,10 @@ export const useChatsStore = defineStore("chats", () => {
     )
   }
 
-  // Создание нового чата
-  const createNewChat = () => {
+  // Создание временного черновика чата (не добавляется в список)
+  const createDraftChat = () => {
     const chatId = Date.now().toString()
-    chatIds.value.unshift(chatId) // Добавляем в начало списка
+    draftChatId.value = chatId
     chatsData.value[chatId] = {
       id: chatId,
       messages: [],
@@ -75,8 +76,28 @@ export const useChatsStore = defineStore("chats", () => {
     return chatId
   }
 
+  // Публикация черновика чата (добавление в список)
+  const publishDraftChat = () => {
+    if (draftChatId.value && chatsData.value[draftChatId.value]) {
+      const chatId = draftChatId.value
+
+      // Добавляем чат в список только если есть сообщения
+      if (chatsData.value[chatId].messages.length > 0) {
+        chatIds.value.unshift(chatId) // Добавляем в начало списка
+        draftChatId.value = "" // Сбрасываем черновик
+        return chatId
+      }
+    }
+    return null
+  }
+
   // Выбор чата
   const selectChat = (chatId: string) => {
+    // Если был открыт черновик, проверяем нужно ли его сохранить
+    if (draftChatId.value && draftChatId.value !== chatId) {
+      publishDraftChat()
+    }
+
     selectedChatId.value = chatId
   }
 
@@ -86,8 +107,20 @@ export const useChatsStore = defineStore("chats", () => {
     if (index > -1) {
       chatIds.value.splice(index, 1)
       delete chatsData.value[chatId]
+
+      // Если удалили выбранный чат
       if (selectedChatId.value === chatId) {
-        selectedChatId.value = chatIds.value[0] || ""
+        // Если это был черновик, сбрасываем его
+        if (draftChatId.value === chatId) {
+          draftChatId.value = ""
+        }
+
+        // Выбираем первый чат из списка или создаем новый черновик
+        if (chatIds.value.length > 0) {
+          selectedChatId.value = chatIds.value[0]
+        } else {
+          createDraftChat()
+        }
       }
     }
   }
@@ -97,8 +130,15 @@ export const useChatsStore = defineStore("chats", () => {
     if (!isClient || !chatId) return
 
     if (chatsData.value[chatId]) {
+      const isFirstMessage = chatsData.value[chatId].messages.length === 0 && messages.length > 0
+
       chatsData.value[chatId].messages = messages
       chatsData.value[chatId].timestamp = Date.now()
+
+      // Если это первое сообщение в черновике, публикуем его
+      if (isFirstMessage && draftChatId.value === chatId) {
+        publishDraftChat()
+      }
 
       // Автоматически генерируем заголовок из первого сообщения пользователя, если заголовок не задан
       if (!chatsData.value[chatId].title && messages.length > 0) {
@@ -135,15 +175,22 @@ export const useChatsStore = defineStore("chats", () => {
 
   // Инициализация при первом запуске
   const ensureChat = () => {
-    if (chatIds.value.length === 0) {
-      createNewChat()
+    // Если нет выбранного чата или это черновик без сообщений,
+    // и нет чатов в списке, создаем черновик
+    if (
+      (!selectedChatId.value || (draftChatId.value === selectedChatId.value && chatsData.value[draftChatId.value]?.messages.length === 0)) &&
+      chatIds.value.length === 0
+    ) {
+      createDraftChat()
     }
   }
 
   return {
     chatIds,
     selectedChatId,
-    createNewChat,
+    draftChatId,
+    createDraftChat,
+    publishDraftChat,
     selectChat,
     removeChat,
     saveMessages,

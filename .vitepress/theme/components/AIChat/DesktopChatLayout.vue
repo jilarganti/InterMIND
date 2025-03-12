@@ -8,6 +8,11 @@ import { useQuickPrompts } from "@theme/composables/AIChat/useQuickPrompts"
 // Инициализируем управление чатами
 const { searchInput, groupedChats, hasSelectedChat, createNewChat, selectChat, chatsStore } = useChatManagement()
 
+// Проверяем, является ли текущий чат черновиком
+const isDraftChat = computed(() => {
+  return chatsStore.draftChatId === chatsStore.selectedChatId
+})
+
 // Ссылка на компонент контейнера чата для доступа к его методам
 const chatContainerRef = ref(null)
 
@@ -16,7 +21,9 @@ const { quickPrompts, insertQuickPrompt, submitQuickPrompt } = useQuickPrompts(c
 
 // Обработчик использования подсказки на пустом экране
 const handleUsePromptFromEmpty = (text: string) => {
-  createNewChat()
+  if (!hasSelectedChat.value) {
+    createNewChat()
+  }
 
   // Небольшая задержка для гарантии, что чат уже создан
   setTimeout(() => {
@@ -58,10 +65,11 @@ const handleUpdateTitle = (chatId: string, title: string) => {
     <ChatContainer
       ref="chatContainerRef"
       :chat-id="chatsStore.selectedChatId"
-      :chat-title="chatsStore.getChatTitle(chatsStore.selectedChatId) || 'Новый чат'"
+      :chat-title="isDraftChat ? 'Новый чат' : chatsStore.getChatTitle(chatsStore.selectedChatId) || 'Чат без названия'"
       layout="desktop"
       :show-header="true"
       :show-prompts-when-empty="true"
+      :is-draft="isDraftChat"
       @create-chat="createNewChat"
       @update-title="handleUpdateTitle"
       @use-prompt="handleUsePromptFromEmpty"

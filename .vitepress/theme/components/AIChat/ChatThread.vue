@@ -134,6 +134,7 @@ const { setupImageClicks, cleanupImageClicks } = setupImageClickHandler(
 // Подключаем обработчик кликов по изображениям при монтировании
 onMounted(() => {
   setupImageClicks()
+  scrollToBottom()
 })
 
 // Отключаем обработчик при удалении компонента
@@ -217,7 +218,7 @@ defineExpose({ insertText, submitTextDirectly })
 
 .message {
   display: flex;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .message-content {
@@ -241,12 +242,52 @@ defineExpose({ insertText, submitTextDirectly })
   background-color: var(--vp-c-bg-soft);
   color: var(--vp-c-text-1);
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.75rem 1rem;
 }
 
 .message.assistant .message-content {
   color: var(--vp-c-text-1);
   width: 100%;
+}
+
+/* Стили для форматирования контента сообщений */
+.message.assistant .message-content :deep(p) {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.message.assistant .message-content :deep(ul),
+.message.assistant .message-content :deep(ol) {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.message.assistant .message-content :deep(h3),
+.message.assistant .message-content :deep(h4) {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.message.assistant .message-content :deep(pre) {
+  margin: 0.5rem 0;
+  padding: 0.75rem 1rem;
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 0.375rem;
+  overflow-x: auto;
+}
+
+.message.assistant .message-content :deep(code) {
+  padding: 0.2rem 0.4rem;
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 0.25rem;
+}
+
+.message.assistant .message-content :deep(blockquote) {
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 4px solid var(--vp-c-divider);
+  background-color: var(--vp-c-bg-soft);
 }
 
 /* Стили для отладочного режима */

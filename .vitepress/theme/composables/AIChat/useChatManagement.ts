@@ -27,7 +27,10 @@ export function useChatManagement(options: UseChatManagementOptions = {}) {
   const searchInput = ref("")
 
   // Определяем, есть ли выбранный чат
-  const hasSelectedChat = computed(() => Boolean(chatsStore.selectedChatId) && chatsStore.chatIds.includes(chatsStore.selectedChatId))
+  const hasSelectedChat = computed(
+    () =>
+      Boolean(chatsStore.selectedChatId) && (chatsStore.chatIds.includes(chatsStore.selectedChatId) || chatsStore.selectedChatId === chatsStore.draftChatId),
+  )
 
   // Фильтрация чатов при поиске (по заголовку и дате)
   const filteredChatIds = computed(() => {
@@ -66,7 +69,13 @@ export function useChatManagement(options: UseChatManagementOptions = {}) {
 
   // Функция для создания нового чата
   const createNewChat = () => {
-    const chatId = chatsStore.createNewChat()
+    // Если уже есть выбранный черновик, используем его
+    if (chatsStore.draftChatId && chatsStore.selectedChatId === chatsStore.draftChatId) {
+      return chatsStore.draftChatId
+    }
+
+    // Иначе создаем новый черновик
+    const chatId = chatsStore.createDraftChat()
 
     // Если мы в мобильном макете, переключаемся на чат
     if (options.setCurrentView) {
@@ -95,11 +104,6 @@ export function useChatManagement(options: UseChatManagementOptions = {}) {
   onMounted(() => {
     // Инициализируем хранилище чатов
     chatsStore.ensureChat()
-
-    // Создаем новый чат, если список пуст
-    if (chatsStore.chatIds.length === 0) {
-      createNewChat()
-    }
   })
 
   // Отслеживаем изменение selectedChatId
@@ -107,7 +111,7 @@ export function useChatManagement(options: UseChatManagementOptions = {}) {
     () => chatsStore.selectedChatId,
     (newChatId) => {
       // Убедимся, что выбранный чат существует
-      if (newChatId && !chatsStore.chatIds.includes(newChatId)) {
+      if (newChatId && !chatsStore.chatIds.includes(newChatId) && newChatId !== chatsStore.draftChatId) {
         if (chatsStore.chatIds.length > 0) {
           selectChat(chatsStore.chatIds[0])
         } else {

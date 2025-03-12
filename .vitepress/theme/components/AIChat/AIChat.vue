@@ -15,6 +15,39 @@ const updateLayoutType = () => {
   isDesktop.value = window.innerWidth >= 768
 }
 
+// Функция для безопасной инициализации чата
+const initializeChat = () => {
+  try {
+    // Проверяем корректность данных в localStorage
+    const storedIds = localStorage.getItem("chat_ids")
+    const storedData = localStorage.getItem("chats_data")
+
+    if (storedIds && storedData) {
+      try {
+        // Пробуем распарсить данные
+        JSON.parse(storedIds)
+        JSON.parse(storedData)
+      } catch (error) {
+        // Если данные повреждены, сбрасываем их
+        console.warn("Обнаружены поврежденные данные в localStorage, выполняем сброс")
+        localStorage.removeItem("chat_ids")
+        localStorage.removeItem("chats_data")
+        return
+      }
+    }
+
+    // Инициализируем хранилище чатов
+    chatsStore.ensureChat()
+
+    // Создаем новый черновик, если список пуст и нет активного черновика
+    if (chatsStore.chatIds.length === 0 && !chatsStore.draftChatId) {
+      chatsStore.createDraftChat()
+    }
+  } catch (error) {
+    console.error("Ошибка при инициализации чата:", error)
+  }
+}
+
 // Инициализация при монтировании компонента
 onMounted(() => {
   // Проверяем размер экрана
@@ -23,13 +56,8 @@ onMounted(() => {
   // Добавляем слушатель изменения размера окна
   window.addEventListener("resize", updateLayoutType)
 
-  // Инициализируем хранилище чатов
-  chatsStore.ensureChat()
-
-  // Создаем новый чат, если список пуст
-  if (chatsStore.chatIds.length === 0) {
-    chatsStore.createNewChat()
-  }
+  // Безопасная инициализация чата
+  initializeChat()
 })
 
 // Очистка при размонтировании компонента
@@ -47,7 +75,7 @@ onUnmounted(() => {
 </template>
 
 <style>
-/* Глобальные стили для чат-интерфейса */
+/* Контейнер чата */
 .ai-chat-container {
   position: fixed;
   top: 0;
@@ -60,13 +88,5 @@ onUnmounted(() => {
   z-index: 100;
 }
 
-/* Скрываем элементы VitePress, которые могут мешать чату */
-.VPNavBarTitle a,
-.VPNavBar .VPNavBarTitle,
-.vp-doc a[href="#top"],
-a[href="#top"],
-.VPBackToTop,
-.VPDocFooter .prev-next {
-  display: none !important;
-}
+/* Убраны стили, которые скрывали элементы VitePress */
 </style>

@@ -32,6 +32,11 @@ const props = defineProps<{
    * Показывать ли быстрые подсказки в пустом экране
    */
   showPromptsWhenEmpty?: boolean
+
+  /**
+   * Является ли чат черновиком (не добавлен в список)
+   */
+  isDraft?: boolean
 }>()
 
 const emit = defineEmits<{
@@ -127,6 +132,7 @@ defineExpose({
       :editable-title="editableChatTitle"
       :show-back-button="layout === 'mobile'"
       :layout="layout"
+      :is-draft="isDraft"
       @start-editing="startEditingTitle"
       @save-title="handleSaveTitle"
       @update:editable-title="editableChatTitle = $event"
