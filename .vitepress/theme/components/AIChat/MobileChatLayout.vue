@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref } from "vue"
-import ChatThread from "./ChatThread.vue"
 import ChatList from "./ChatList.vue"
 import ChatContainer from "./ChatContainer.vue"
 import QuickPrompts from "./QuickPrompts.vue"
@@ -32,6 +31,18 @@ const { quickPrompts, handleQuickPrompt, addTagToMainInput, submitQuickPrompt } 
 // Обработчик выбора быстрой подсказки
 const handleQuickPromptSelect = (text: string) => {
   addTagToMainInput(text)
+}
+
+// Обработчик использования подсказки на пустом экране
+const handleUsePromptFromEmpty = (text: string) => {
+  createNewChat()
+
+  // Небольшая задержка для гарантии, что чат уже создан
+  setTimeout(() => {
+    if (chatContainerRef.value) {
+      chatContainerRef.value.submitTextDirectly(text)
+    }
+  }, 100)
 }
 
 // Обработчик обновления заголовка чата
@@ -111,9 +122,11 @@ const sendMainInput = () => {
         :chat-title="chatsStore.getChatTitle(chatsStore.selectedChatId) || 'Новый чат'"
         layout="mobile"
         :show-header="true"
+        :show-prompts-when-empty="true"
         @go-back="setCurrentView('main')"
         @create-chat="createNewChat"
         @update-title="handleUpdateTitle"
+        @use-prompt="handleUsePromptFromEmpty"
       />
     </div>
   </div>

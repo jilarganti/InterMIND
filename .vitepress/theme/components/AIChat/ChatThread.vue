@@ -85,15 +85,21 @@ const { renderMarkdown, scrollToBottom, setupImageClickHandler } = useChatUi(
 )
 
 // Обработчик отправки сообщения с прокруткой
-const handleSubmitWithScroll = async (event: Event) => {
-  event.preventDefault()
+const handleSubmitWithScroll = async (event?: Event) => {
+  // Делаем проверку на наличие события перед вызовом preventDefault
+  if (event) {
+    event.preventDefault()
+  }
 
   if (!input.value.trim() || status.value === "streaming") {
     return
   }
 
   console.log(`🟢 CLIENT: Отправка запроса в режиме: ${currentMode.value}`)
-  await handleSubmit(event)
+
+  // Создаем новое событие, если не было передано существующее
+  const submitEvent = event || new Event("submit")
+  await handleSubmit(submitEvent)
 
   scrollToBottom()
 }
@@ -105,7 +111,7 @@ const submitTextDirectly = (text: string, mode = "default") => {
     console.log(`🟢 CLIENT: Меняем режим: ${currentMode.value} → ${mode}`)
     currentMode.value = mode
     input.value = text
-    handleSubmitWithScroll(new Event("submit"))
+    handleSubmitWithScroll() // Не передаем событие, будет создано внутри функции
   }
 }
 

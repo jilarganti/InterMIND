@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from "vue"
+import { ref, onMounted, onUnmounted, computed } from "vue"
 import { ArrowUp, Square, Bug } from "lucide-vue-next"
 
 const props = defineProps<{
@@ -43,7 +43,7 @@ const emit = defineEmits<{
   /**
    * Событие отправки сообщения
    */
-  (e: "send"): void
+  (e: "send", event?: Event): void
 
   /**
    * Событие остановки генерации
@@ -86,13 +86,13 @@ function updateIsMobile() {
 
 // Функция для отправки сообщения
 const handleSubmit = (event: Event): void => {
-  event.preventDefault()
-
+  // Если поле пустое или идет отправка, не делаем ничего
   if (!props.inputValue.trim() || props.status === "streaming") {
     return
   }
 
-  emit("send")
+  // Передаем событие в emit для правильной обработки в родительском компоненте
+  emit("send", event)
 
   // Сбрасываем высоту поля ввода после отправки
   resetHeight()
@@ -136,8 +136,6 @@ const handleKeyDown = (event: KeyboardEvent): void => {
     }
   }
 }
-
-import { computed } from "vue"
 </script>
 
 <template>
