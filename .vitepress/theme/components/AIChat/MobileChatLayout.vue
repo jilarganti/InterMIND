@@ -30,11 +30,24 @@ const mainInputRef = ref(null)
 const chatContainerRef = ref(null)
 
 // Инициализируем работу с быстрыми подсказками в мобильном режиме
-const { quickPrompts, handleQuickPrompt, addTagToMainInput, submitQuickPrompt } = useQuickPrompts(chatContainerRef, mainInput, { isMobileMode: true })
+const { quickPrompts, submitQuickPrompt } = useQuickPrompts(chatContainerRef, mainInput, { isMobileMode: true })
 
-// Обработчик выбора быстрой подсказки
+// Обработчик выбора быстрой подсказки - ИСПРАВЛЕНО: теперь сразу отправляет запрос
 const handleQuickPromptSelect = (text: string) => {
-  addTagToMainInput(text)
+  // Создаем новый чат или используем существующий черновик
+  if (!hasSelectedChat.value) {
+    createNewChat()
+  }
+
+  // Переключаемся на экран чата
+  setCurrentView("chat")
+
+  // Небольшая задержка для гарантии, что чат создан и интерфейс обновлен
+  setTimeout(() => {
+    if (chatContainerRef.value) {
+      chatContainerRef.value.submitTextDirectly(text)
+    }
+  }, 150)
 }
 
 // Обработчик использования подсказки на пустом экране
@@ -65,13 +78,21 @@ const sendMainInput = () => {
     createNewChat()
   }
 
+  // Сохраняем текст запроса перед переключением вида
+  const inputText = mainInput.value.trim()
+
+  // Очищаем поле ввода
+  mainInput.value = ""
+
+  // Переключаемся на экран чата
+  setCurrentView("chat")
+
   // Небольшая задержка для гарантии, что чат уже создан
   setTimeout(() => {
     if (chatContainerRef.value) {
-      chatContainerRef.value.submitTextDirectly(mainInput.value.trim())
-      mainInput.value = "" // Очищаем поле ввода
+      chatContainerRef.value.submitTextDirectly(inputText)
     }
-  }, 100)
+  }, 150)
 }
 </script>
 
@@ -235,6 +256,11 @@ const sendMainInput = () => {
 }
 
 .quick-prompt-button:hover {
+  background-color: var(--vp-c-bg-mute);
+}
+
+.quick-prompt-button:active {
+  transform: scale(0.98);
   background-color: var(--vp-c-bg-mute);
 }
 

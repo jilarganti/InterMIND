@@ -220,7 +220,7 @@ defineExpose({
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 12px;
   width: 100%;
-  max-width: 800px;
+  /* max-width: 800px; */
 }
 
 .quick-prompt-button {
