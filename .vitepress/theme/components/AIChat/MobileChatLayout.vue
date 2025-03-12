@@ -2,10 +2,9 @@
 import { ref, computed } from "vue"
 import ChatList from "./ChatList.vue"
 import ChatContainer from "./ChatContainer.vue"
-import QuickPrompts from "./QuickPrompts.vue"
 import { useChatManagement } from "@theme/composables/AIChat/useChatManagement"
 import { useQuickPrompts } from "@theme/composables/AIChat/useQuickPrompts"
-import { ArrowUp } from "lucide-vue-next"
+import { ArrowUp, Menu } from "lucide-vue-next"
 
 // Управление текущим view: 'main', 'chats', 'chat'
 const currentView = ref("main")
@@ -82,13 +81,19 @@ const sendMainInput = () => {
     <div v-if="currentView === 'main'" class="layout-view main-view">
       <div class="mobile-header">
         <button class="nav-button" @click="setCurrentView('chats')">
-          <span>Меню</span>
+          <Menu :size="20" />
         </button>
         <div class="view-title">Golden Fish</div>
       </div>
 
-      <!-- Используем компонент QuickPrompts для отображения быстрых подсказок -->
-      <QuickPrompts :prompts="quickPrompts" layout="mobile" :show-header="false" @select-prompt="handleQuickPromptSelect" />
+      <!-- Быстрые подсказки на главном экране -->
+      <div class="quick-prompts-main">
+        <div v-for="prompt in quickPrompts" :key="prompt.id" class="quick-prompt-item">
+          <button class="quick-prompt-button" @click="handleQuickPromptSelect(prompt.text)">
+            {{ prompt.text }}
+          </button>
+        </div>
+      </div>
 
       <div class="input-footer">
         <form @submit.prevent="sendMainInput" class="main-input-form">
@@ -200,6 +205,37 @@ const sendMainInput = () => {
   text-overflow: ellipsis;
   display: inline-block;
   max-width: calc(100% - 40px);
+}
+
+/* Новые стили для быстрых подсказок на главном экране */
+.quick-prompts-main {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.quick-prompt-item {
+  width: 100%;
+}
+
+.quick-prompt-button {
+  width: 100%;
+  padding: 16px;
+  text-align: left;
+  border-radius: 12px;
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+}
+
+.quick-prompt-button:hover {
+  background-color: var(--vp-c-bg-mute);
 }
 
 /* Стили для футера с полем ввода */
