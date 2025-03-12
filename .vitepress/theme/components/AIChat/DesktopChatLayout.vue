@@ -2,28 +2,17 @@
 import { ref, computed } from "vue"
 import ChatList from "./ChatList.vue"
 import ChatContainer from "./ChatContainer.vue"
-import QuickPrompts from "./QuickPrompts.vue"
 import { useChatManagement } from "@theme/composables/AIChat/useChatManagement"
 import { useQuickPrompts } from "@theme/composables/AIChat/useQuickPrompts"
 
 // Инициализируем управление чатами
 const { searchInput, groupedChats, hasSelectedChat, createNewChat, selectChat, chatsStore } = useChatManagement()
 
-// Проверяем, есть ли активный чат
-const hasActiveChat = computed(() => Boolean(chatsStore.selectedChatId))
-
 // Ссылка на компонент контейнера чата для доступа к его методам
 const chatContainerRef = ref(null)
 
-// Инициализируем работу с быстрыми подсказками
+// Инициализируем работу с быстрыми подсказками (без отображения панели)
 const { quickPrompts, insertQuickPrompt, submitQuickPrompt } = useQuickPrompts(chatContainerRef)
-
-// Обработчик выбора быстрой подсказки
-const handleQuickPromptSelect = (text: string) => {
-  if (chatContainerRef.value) {
-    insertQuickPrompt(text)
-  }
-}
 
 // Обработчик использования подсказки на пустом экране
 const handleUsePromptFromEmpty = (text: string) => {
@@ -77,24 +66,11 @@ const handleUpdateTitle = (chatId: string, title: string) => {
       @update-title="handleUpdateTitle"
       @use-prompt="handleUsePromptFromEmpty"
     />
-
-    <!-- Правая панель с быстрыми подсказками (только если есть активный чат) -->
-    <QuickPrompts
-      v-if="hasActiveChat"
-      :prompts="quickPrompts"
-      layout="desktop"
-      :show-header="true"
-      panel-title="Быстрые запросы"
-      @select-prompt="handleQuickPromptSelect"
-    />
-
-    <!-- Пустой div для сохранения структуры grid при отсутствии активного чата -->
-    <div v-else class="empty-sidebar"></div>
   </div>
 </template>
 
 <style scoped>
-/* Основной макет */
+/* Основной макет - изменен на двухколоночный */
 .desktop-chat-layout {
   display: grid;
   position: relative;
@@ -103,29 +79,8 @@ const handleUpdateTitle = (chatId: string, title: string) => {
   height: 100%;
   overflow: hidden;
   z-index: 100;
-  grid-template-columns: 280px 1fr 240px;
-  grid-template-areas: "sidebar content prompts";
-}
-
-/* Медиа-запрос для планшетов */
-@media (min-width: 768px) and (max-width: 1023px) {
-  .desktop-chat-layout {
-    grid-template-columns: 240px 1fr;
-    grid-template-areas: "sidebar content";
-  }
-
-  /* Скрываем панель быстрых подсказок на планшетах */
-  :deep(.quick-prompts-container),
-  .empty-sidebar {
-    display: none;
-  }
-}
-
-/* Пустая боковая панель (заменитель для QuickPrompts) */
-.empty-sidebar {
-  grid-area: prompts;
-  background-color: var(--vp-c-bg-soft);
-  border-left: 1px solid var(--vp-c-divider);
+  grid-template-columns: 280px 1fr;
+  grid-template-areas: "sidebar content";
 }
 
 /* Стили для компонентов */
@@ -137,7 +92,17 @@ const handleUpdateTitle = (chatId: string, title: string) => {
   grid-area: content;
 }
 
-:deep(.quick-prompts-container) {
-  grid-area: prompts;
+/* Медиа-запрос для планшетов */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .desktop-chat-layout {
+    grid-template-columns: 240px 1fr;
+  }
+}
+
+/* Медиа-запрос для больших экранов */
+@media (min-width: 1400px) {
+  .desktop-chat-layout {
+    grid-template-columns: 300px 1fr;
+  }
 }
 </style>
