@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { ref, onMounted, watch, onUnmounted, computed } from "vue"
-import { ArrowUp, Square, Bug } from "lucide-vue-next"
 import { useChat } from "@ai-sdk/vue"
 import { useChatUi } from "@theme/composables/AIChat/useChatUi"
 import { processImagesInMessage } from "@theme/utils/chatUtils"
 import { useChatsStore } from "@theme/stores/chatsStore"
+import ChatFooter from "./ChatFooter.vue"
 
 const props = defineProps<{
   chatId: string
@@ -12,22 +12,10 @@ const props = defineProps<{
 
 // Рефы для DOM-элементов
 const messagesContainerRef = ref<HTMLDivElement | null>(null)
-const textareaRef = ref<HTMLTextAreaElement | null>(null)
 const showRawMessages = ref(false)
 
 // Проверка на режим разработки
 const isDevelopment = computed(() => !import.meta.env.VITE_IS_PROD)
-
-// Проверка на мобильное устройство
-const isMobile = computed(() => {
-  if (typeof window === "undefined") return false
-  return window.innerWidth < 768
-})
-
-// Проверка наличия текста в поле ввода
-const hasInputContent = computed(() => {
-  return input.value.trim().length > 0
-})
 
 // Инициализируем хранилище чатов
 const chatsStore = useChatsStore()
@@ -85,10 +73,10 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
   },
 })
 
-// Инициализируем композабл для UI элементов
-const { renderMarkdown, scrollToBottom, handleInput, insertText, handleKeyDown, setupImageClickHandler } = useChatUi(
+// Инициализируем composable для UI элементов
+const { renderMarkdown, scrollToBottom, setupImageClickHandler } = useChatUi(
   messagesContainerRef,
-  textareaRef,
+  null,
   input,
   // Добавляем функцию для изменения режима
   (mode: string) => {
@@ -107,12 +95,6 @@ const handleSubmitWithScroll = async (event: Event) => {
   console.log(`🟢 CLIENT: Отправка запроса в режиме: ${currentMode.value}`)
   await handleSubmit(event)
 
-  // Сбрасываем высоту поля ввода после отправки
-  if (textareaRef.value) {
-    textareaRef.value.style.height = "auto"
-    textareaRef.value.style.height = "24px"
-  }
-
   scrollToBottom()
 }
 
@@ -127,6 +109,11 @@ const submitTextDirectly = (text: string, mode = "default") => {
   }
 }
 
+// Функция для вставки текста в позицию курсора
+const insertText = (text: string): void => {
+  input.value += (input.value && !input.value.endsWith(" ") ? " " : "") + text + " "
+}
+
 // Функция для переключения отображения сырых сообщений
 const toggleRawMessages = () => {
   showRawMessages.value = !showRawMessages.value
@@ -137,18 +124,6 @@ const { setupImageClicks, cleanupImageClicks } = setupImageClickHandler(
   // Передаем функцию submitTextDirectly вместе с режимом followup
   (text) => submitTextDirectly(text, "followup"),
 )
-
-// Обработчик нажатий клавиш (модифицированный для мобильных устройств)
-const handleKeyDownModified = (event: KeyboardEvent) => {
-  if (isMobile.value) {
-    // На мобильных устройствах Enter всегда добавляет новую строку
-    // Не делаем preventDefault, позволяя браузеру обрабатывать Enter стандартно
-    return
-  } else {
-    // На десктопе - стандартное поведение
-    handleKeyDown(event, handleSubmitWithScroll)
-  }
-}
 
 // Подключаем обработчик кликов по изображениям при монтировании
 onMounted(() => {
@@ -202,57 +177,102 @@ defineExpose({ insertText, submitTextDirectly })
         <!-- Formatted message display (Normal mode) -->
         <div v-else class="message-content" v-html="renderMarkdown(msg.content)"></div>
       </div>
-
-      <!-- Error message -->
-      <div v-if="error" class="error-message">
-        {{ error.message }}
-      </div>
-
-      <!-- Status indicator -->
-      <div v-if="status === 'streaming'" class="typing-indicator">
-        <span v-if="showRawMessages">Raw streaming...</span>
-        <span v-else>
-          <span v-if="currentMode === 'followup'">AI готовит детальный ответ...</span>
-          <span v-else>AI is typing...</span>
-        </span>
-      </div>
     </div>
 
-    <!-- Input area -->
-    <div class="input-container">
-      <form @submit.prevent="handleSubmitWithScroll" class="input-form">
-        <!-- Debug toggle button (only in development) -->
-        <button
-          v-if="isDevelopment"
-          type="button"
-          @click="toggleRawMessages"
-          class="debug-icon-button"
-          :class="{ 'debug-active': showRawMessages }"
-          :title="showRawMessages ? 'Отключить режим отладки' : 'Включить режим отладки'"
-        >
-          <component :is="Bug" :size="18" />
-        </button>
-
-        <textarea
-          v-model="input"
-          @keydown="handleKeyDownModified"
-          @input="handleInput"
-          ref="textareaRef"
-          placeholder="Message (⇧↵ for new line)"
-          :disabled="status === 'streaming'"
-          class="message-input"
-          :class="{ 'has-content': hasInputContent }"
-          rows="1"
-        ></textarea>
-        <div class="button-container">
-          <button v-if="status !== 'streaming'" type="submit" :disabled="!input.trim()" class="send-button">
-            <component :is="ArrowUp" :size="20" />
-          </button>
-          <button v-else type="button" @click="stop" class="stop-button">
-            <component :is="Square" :size="20" />
-          </button>
-        </div>
-      </form>
-    </div>
+    <!-- Input area using ChatFooter component -->
+    <ChatFooter
+      v-model:inputValue="input"
+      :status="status"
+      :errorMessage="error?.message"
+      :debugMode="showRawMessages"
+      :currentMode="currentMode"
+      @send="handleSubmitWithScroll"
+      @stop="stop"
+      @toggle-debug="toggleRawMessages"
+    />
   </div>
 </template>
+
+<style scoped>
+.chat-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: var(--vp-c-bg);
+}
+
+.messages-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  scroll-behavior: smooth;
+}
+
+.message {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.message-content {
+  border-radius: 0.5rem;
+  display: inline-block;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.message.user {
+  justify-content: flex-end;
+  padding-left: 20%;
+}
+
+.message.assistant {
+  justify-content: flex-start;
+  padding-right: 0;
+}
+
+.message.user .message-content {
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.message.assistant .message-content {
+  color: var(--vp-c-text-1);
+  width: 100%;
+}
+
+/* Стили для отладочного режима */
+.raw-message {
+  background-color: var(--vp-c-bg-soft);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-family: monospace;
+  font-size: 0.875rem;
+}
+
+.raw-message-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.raw-role {
+  font-weight: bold;
+  color: var(--vp-c-brand);
+}
+
+.raw-id {
+  color: var(--vp-c-text-2);
+  font-size: 0.75rem;
+}
+
+.raw-content {
+  white-space: pre-wrap;
+  overflow-x: auto;
+  margin: 0;
+}
+</style>

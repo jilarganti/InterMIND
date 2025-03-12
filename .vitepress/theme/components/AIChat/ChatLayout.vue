@@ -1,158 +1,55 @@
 <script setup lang="ts">
-import { ref, onMounted, computed, onUnmounted } from "vue"
-import AIChat from "./AIChat.vue"
+import { ref } from "vue"
+import ChatList from "./ChatList.vue"
+import ChatContainer from "./ChatContainer.vue"
+import QuickPrompts from "./QuickPrompts.vue"
 import DesktopChatLayout from "./DesktopChatLayout.vue"
-import { useChatsStore } from "@theme/stores/chatsStore"
-import { ArrowUp, ArrowLeft, Menu } from "lucide-vue-next"
-import "./style.css"
+import { useChatManagement } from "@theme/composables/AIChat/useChatManagement"
+import { useQuickPrompts } from "@theme/composables/AIChat/useQuickPrompts"
+import { useChatLayout } from "@theme/composables/AIChat/useChatLayout"
+import { ArrowUp } from "lucide-vue-next"
 
-// Инициализируем хранилище чатов
-const chatsStore = useChatsStore()
+// Инициализируем определение макета
+const { isDesktop, currentView, setCurrentView } = useChatLayout()
 
-// Управление текущим layout: 'main', 'chats', 'chat'
-const currentView = ref("main")
+// Инициализируем управление чатами с поддержкой навигации в мобильном режиме
+const { searchInput, groupedChats, hasSelectedChat, createNewChat, selectChat, chatsStore } = useChatManagement({ setCurrentView })
 
 // Поле ввода текста на главном экране
 const mainInput = ref("")
 const mainInputRef = ref(null)
 
-// Состояние и значение для редактирования заголовка чата
-const isEditingTitle = ref(false)
-const editableChatTitle = ref("")
-const titleInputRef = ref(null)
+// Ссылка на компонент контейнера чата для доступа к его методам
+const chatContainerRef = ref(null)
 
-// Определение ширины экрана для выбора макета
-const isDesktop = ref(false)
+// Инициализируем работу с быстрыми подсказками в мобильном режиме
+const { quickPrompts, handleQuickPrompt, addTagToMainInput, submitQuickPrompt } = useQuickPrompts(chatContainerRef, mainInput, { isMobileMode: true })
 
-// Ссылка на компонент чата для доступа к его методам
-interface ChatRef {
-  insertText: (text: string) => void
-  submitTextDirectly: (text: string) => void
+// Обработчик выбора быстрой подсказки
+const handleQuickPromptSelect = (text: string) => {
+  addTagToMainInput(text)
 }
-const chatInputRef = ref<ChatRef | null>(null)
 
-// Список быстрых поисковых запросов
-const quickPrompts = ref([
-  { id: "1", text: "Expo City Dubai" },
-  { id: "2", text: "Dubai Frame tickets" },
-  { id: "3", text: "Burj Khalifa tickets" },
-  { id: "4", text: "Dubai Mall restaurants" },
-  { id: "5", text: "Palm Jumeirah rental" },
-])
-
-// Группировка чатов по годам и месяцам
-const groupedChats = computed(() => {
-  const groups = {}
-
-  chatsStore.chatIds.forEach((id) => {
-    const date = new Date(Number(id))
-    const year = date.getFullYear()
-    const month = date.toLocaleString("default", { month: "long" })
-
-    if (!groups[year]) {
-      groups[year] = {}
-    }
-
-    if (!groups[year][month]) {
-      groups[year][month] = []
-    }
-
-    groups[year][month].push(id)
-  })
-
-  return groups
-})
-
-// Функция для добавления текста тега в поле ввода на главном экране
-const addTagToInput = (tagText: string) => {
-  // Проверяем, нужно ли добавлять пробел перед тегом
-  const needsSpace = mainInput.value && !mainInput.value.endsWith(" ")
-
-  // Добавляем тег в поле ввода с пробелом в конце
-  mainInput.value += (needsSpace ? " " : "") + tagText + " "
-
-  // Ставим фокус на поле ввода
-  setTimeout(() => {
-    if (mainInputRef.value) {
-      mainInputRef.value.focus()
-    }
-  }, 10)
+// Обработчик обновления заголовка чата
+const handleUpdateTitle = (chatId: string, title: string) => {
+  chatsStore.setChatTitle(chatId, title)
 }
 
 // Функция для отправки запроса с главного экрана
 const sendMainInput = () => {
   if (!mainInput.value.trim()) return
 
+  // Создаем новый чат
   createNewChat()
 
   // Небольшая задержка для гарантии, что чат уже создан
   setTimeout(() => {
-    if (chatInputRef.value) {
-      chatInputRef.value.submitTextDirectly(mainInput.value.trim())
+    if (chatContainerRef.value) {
+      chatContainerRef.value.submitTextDirectly(mainInput.value.trim())
       mainInput.value = "" // Очищаем поле ввода
     }
   }, 100)
 }
-
-// Функция для выбора чата
-const handleSelectChat = (chatId: string) => {
-  chatsStore.selectChat(chatId)
-  currentView.value = "chat"
-}
-
-// Функции для управления редактированием заголовка
-const startEditingTitle = () => {
-  if (chatsStore.selectedChatId) {
-    editableChatTitle.value = chatsStore.getChatTitle(chatsStore.selectedChatId) || ""
-    isEditingTitle.value = true
-    // Устанавливаем фокус на поле ввода после его появления
-    setTimeout(() => {
-      if (titleInputRef.value) {
-        titleInputRef.value.focus()
-      }
-    }, 10)
-  }
-}
-
-const saveTitle = () => {
-  if (chatsStore.selectedChatId) {
-    chatsStore.setChatTitle(chatsStore.selectedChatId, editableChatTitle.value.trim())
-    isEditingTitle.value = false
-  }
-}
-
-// Функция для создания нового чата
-const createNewChat = () => {
-  chatsStore.createNewChat()
-  currentView.value = "chat"
-}
-
-// Функция для проверки и обновления типа макета (десктоп или мобильный)
-const updateLayoutType = () => {
-  isDesktop.value = window.innerWidth >= 768
-}
-
-// Инициализация при монтировании компонента
-onMounted(() => {
-  // Инициализируем хранилище чатов
-  chatsStore.ensureChat()
-
-  // Создаем новый чат, если список пуст
-  if (chatsStore.chatIds.length === 0) {
-    chatsStore.createNewChat()
-  }
-
-  // Проверяем размер экрана для выбора макета
-  updateLayoutType()
-
-  // Добавляем слушатель изменения размера окна
-  window.addEventListener("resize", updateLayoutType)
-})
-
-// Удаляем слушатель при размонтировании компонента
-onUnmounted(() => {
-  window.removeEventListener("resize", updateLayoutType)
-})
 </script>
 
 <template>
@@ -161,20 +58,17 @@ onUnmounted(() => {
 
   <!-- Мобильный макет (отображается на узких экранах) -->
   <div v-else class="mobile-layout">
-    <!-- Main layout -->
+    <!-- Главный экран -->
     <div v-if="currentView === 'main'" class="layout-view main-view">
       <div class="mobile-header">
-        <button class="nav-button" @click="currentView = 'chats'">
-          <Menu :size="20" />
+        <button class="nav-button" @click="setCurrentView('chats')">
+          <span>Меню</span>
         </button>
         <div class="view-title">Golden Fish</div>
       </div>
 
-      <div class="quick-prompts">
-        <button v-for="prompt in quickPrompts" :key="prompt.id" class="quick-prompt-button" @click="addTagToInput(prompt.text)">
-          {{ prompt.text }}
-        </button>
-      </div>
+      <!-- Используем компонент QuickPrompts для отображения быстрых подсказок -->
+      <QuickPrompts :prompts="quickPrompts" layout="mobile" :show-header="false" @select-prompt="handleQuickPromptSelect" />
 
       <div class="input-footer">
         <form @submit.prevent="sendMainInput" class="main-input-form">
@@ -186,64 +80,168 @@ onUnmounted(() => {
       </div>
     </div>
 
-    <!-- Chats list layout -->
+    <!-- Список чатов -->
     <div v-else-if="currentView === 'chats'" class="layout-view chats-view">
-      <div class="mobile-header">
-        <button class="nav-button" @click="currentView = 'main'">
-          <ArrowLeft :size="20" />
-        </button>
-        <div class="view-title">Чаты</div>
-      </div>
-
-      <div class="chats-list">
-        <div v-for="(yearData, year) in groupedChats" :key="year" class="chat-year-group">
-          <h2 class="year-header">{{ year }}</h2>
-
-          <div v-for="(monthChats, month) in yearData" :key="`${year}-${month}`" class="chat-month-group">
-            <h3 class="month-header">{{ month }}</h3>
-
-            <div
-              v-for="chatId in monthChats"
-              :key="chatId"
-              class="chat-item"
-              :class="{ active: chatId === chatsStore.selectedChatId }"
-              @click="handleSelectChat(chatId)"
-            >
-              <span class="chat-name">{{ chatsStore.getChatTitle(chatId) || `Чат от ${new Date(Number(chatId)).toLocaleString()}` }}</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ChatList
+        :grouped-chats="groupedChats"
+        :selected-chat-id="chatsStore.selectedChatId"
+        :search-input="searchInput"
+        panel-title="Чаты"
+        :show-search="false"
+        layout="mobile"
+        @update:search-input="searchInput = $event"
+        @select-chat="selectChat"
+        @create-chat="createNewChat"
+        @go-back="setCurrentView('main')"
+      >
+        <!-- Используем слот для отображения заголовка чата -->
+        <template #chat-title="{ chatId }">
+          <span class="chat-name">
+            {{ chatsStore.getChatTitle(chatId) || `Чат от ${new Date(Number(chatId)).toLocaleString()}` }}
+          </span>
+        </template>
+      </ChatList>
     </div>
 
-    <!-- Chat conversation layout -->
+    <!-- Экран чата -->
     <div v-else-if="currentView === 'chat'" class="layout-view chat-view">
-      <div class="mobile-header">
-        <button class="nav-button" @click="currentView = 'main'">
-          <ArrowLeft :size="20" />
-        </button>
-        <div class="chat-title-container">
-          <div
-            v-if="!isEditingTitle"
-            class="view-title editable-title"
-            @click="startEditingTitle"
-            :title="chatsStore.getChatTitle(chatsStore.selectedChatId) || 'Новый чат'"
-          >
-            {{ chatsStore.getChatTitle(chatsStore.selectedChatId) || "Новый чат" }}
-          </div>
-          <input
-            v-else
-            v-model="editableChatTitle"
-            class="title-input"
-            @blur="saveTitle"
-            @keydown.enter="saveTitle"
-            ref="titleInputRef"
-            placeholder="Введите название чата..."
-          />
-        </div>
-      </div>
-
-      <AIChat v-if="chatsStore.selectedChatId" ref="chatInputRef" :key="chatsStore.selectedChatId" :chat-id="chatsStore.selectedChatId" />
+      <ChatContainer
+        ref="chatContainerRef"
+        :chat-id="chatsStore.selectedChatId"
+        :chat-title="chatsStore.getChatTitle(chatsStore.selectedChatId) || 'Новый чат'"
+        layout="mobile"
+        :show-header="true"
+        @go-back="setCurrentView('main')"
+        @create-chat="createNewChat"
+        @update-title="handleUpdateTitle"
+      />
     </div>
   </div>
 </template>
+
+<style scoped>
+/* Основной мобильный макет */
+.mobile-layout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--vp-c-bg);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: 100;
+}
+
+@media (min-width: 768px) {
+  .mobile-layout {
+    display: none; /* Скрываем на десктопе */
+  }
+}
+
+/* Общий контейнер для всех layout-view */
+.layout-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+/* Заголовок на экране main */
+.mobile-header {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: var(--vp-c-bg);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  padding: 8px;
+  margin-right: 12px;
+  color: var(--vp-c-text-1);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-title {
+  flex: 1;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--vp-c-text-1);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  max-width: calc(100% - 40px);
+}
+
+/* Стили для футера с полем ввода */
+.input-footer {
+  padding: 12px 16px;
+  background-color: var(--vp-c-bg);
+  margin-top: auto;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.main-input-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.main-input-field {
+  flex: 1;
+  padding: 10px 16px;
+  border-radius: 24px;
+  font-size: 1rem;
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  outline: none;
+  border: 1px solid var(--vp-c-divider);
+  resize: none;
+  overflow: hidden;
+  height: auto;
+  min-height: 24px;
+}
+
+.main-input-field:focus {
+  background-color: var(--vp-c-bg-mute);
+  border-color: var(--vp-c-brand);
+}
+
+.main-send-button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--vp-c-brand);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.main-send-button:hover {
+  background-color: var(--vp-c-brand-dark);
+}
+
+.main-send-button:disabled {
+  background-color: var(--vp-c-gray);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+</style>

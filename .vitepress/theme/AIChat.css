@@ -1,0 +1,144 @@
+/* 
+ * Базовые глобальные стили для чат-интерфейса
+ * Эти стили применяются ко всем компонентам чата
+ */
+
+/* Скрываем элемент "Return to top" */
+.VPNavBarTitle a,
+.VPNavBar .VPNavBarTitle,
+.vp-doc a[href="#top"],
+a[href="#top"],
+.VPBackToTop,
+.VPDocFooter .prev-next {
+  display: none !important;
+}
+
+/* Базовые переменные и темы */
+:root {
+  --chat-font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  --chat-border-radius: 8px;
+  --chat-transition-speed: 0.2s;
+}
+
+/* Стили для контейнера сообщений */
+.message {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.message-content {
+  border-radius: 0.5rem;
+  display: inline-block;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.message.user {
+  justify-content: flex-end;
+  padding-left: 20%;
+}
+
+.message.assistant {
+  justify-content: flex-start;
+  padding-right: 0;
+}
+
+.message.user .message-content {
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.message.assistant .message-content {
+  color: var(--vp-c-text-1);
+  width: 100%;
+}
+
+/* Индикаторы состояния */
+.typing-indicator {
+  padding: 0.5rem;
+  color: var(--vp-c-text-2);
+  font-size: 0.875rem;
+}
+
+.error-message {
+  padding: 0.75rem;
+  margin: 1rem 0;
+  background-color: var(--vp-custom-block-danger-bg);
+  color: var(--vp-c-text-1);
+  border-radius: 0.5rem;
+}
+
+/* Анимация пульсации при клике */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(95, 103, 238, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(95, 103, 238, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(95, 103, 238, 0);
+  }
+}
+
+/* Стили для режима отладки */
+.debug-icon-button {
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.25rem;
+  margin-right: 0.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.debug-icon-button:hover {
+  background-color: var(--vp-c-bg-mute);
+  color: var(--vp-c-text-1);
+}
+
+.debug-icon-button.debug-active {
+  background-color: var(--vp-custom-block-warning-bg);
+  color: var(--vp-hl-color);
+}
+
+.raw-message {
+  background-color: var(--vp-c-bg-soft);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-family: monospace;
+  font-size: 0.875rem;
+}
+
+.raw-message-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.raw-role {
+  font-weight: bold;
+  color: var(--vp-c-brand);
+}
+
+.raw-id {
+  color: var(--vp-c-text-2);
+  font-size: 0.75rem;
+}
+
+.raw-content {
+  white-space: pre-wrap;
+  overflow-x: auto;
+  margin: 0;
+}

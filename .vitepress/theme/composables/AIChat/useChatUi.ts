@@ -1,4 +1,4 @@
-// .vitepress/theme/composables/useChatUi.ts
+// .vitepress/theme/composables/AIChat/useChatUi.ts
 import { nextTick, ref } from "vue"
 import type { Ref } from "vue"
 import MarkdownIt from "markdown-it"
@@ -39,69 +39,6 @@ export function useChatUi(
   }
 
   /**
-   * Функции для работы с textarea
-   */
-  // Регулировка высоты textarea
-  const adjustHeight = (target: HTMLTextAreaElement): void => {
-    target.style.height = "auto"
-    target.style.height = `${target.scrollHeight}px`
-  }
-
-  // Обработчик ввода
-  const handleInput = (event: Event): void => {
-    if (textareaRef?.value) {
-      const textarea = event.target as HTMLTextAreaElement
-      adjustHeight(textarea)
-    }
-  }
-
-  // Сброс высоты textarea
-  const resetHeight = (): void => {
-    if (textareaRef?.value) {
-      textareaRef.value.style.height = "auto"
-    }
-  }
-
-  // Вставка текста в позицию курсора
-  const insertText = (text: string): void => {
-    if (textareaRef?.value && input) {
-      const textarea = textareaRef.value
-      const start = textarea.selectionStart
-      const end = textarea.selectionEnd
-      const textBefore = input.value.substring(0, start)
-      const textAfter = input.value.substring(end)
-
-      input.value = textBefore + text + textAfter
-
-      // Устанавливаем позицию курсора после вставленного текста
-      nextTick(() => {
-        textarea.focus()
-        const newPosition = start + text.length
-        textarea.selectionStart = newPosition
-        textarea.selectionEnd = newPosition
-        adjustHeight(textarea)
-      })
-    }
-  }
-
-  // Обработчик нажатий клавиш
-  const handleKeyDown = (event: KeyboardEvent, submitFn: (event: Event) => void): void => {
-    // Для мобильных устройств Enter должен добавлять новую строку
-    if (isMobile.value) {
-      return // Позволяем стандартное поведение
-    }
-
-    // Для десктопа Enter без Shift отправляет сообщение
-    if (event.key === "Enter" && !event.shiftKey) {
-      event.preventDefault()
-      if (input?.value.trim()) {
-        submitFn(event)
-        resetHeight()
-      }
-    }
-  }
-
-  /**
    * Обработка кликов по интерактивным элементам (изображения, ссылки, blockquotes)
    */
   const setupImageClickHandler = (submitTextFn: (text: string, mode?: string) => void): ImageClickHandlers => {
@@ -109,7 +46,7 @@ export function useChatUi(
     const handleElementClick = (event: MouseEvent) => {
       const target = event.target as HTMLElement
 
-      // Обработка клика по изображению (существующая функциональность)
+      // Обработка клика по изображению
       if (target?.classList.contains("chat-interactive-image")) {
         const query = target.getAttribute("data-query")
         if (query) {
@@ -139,7 +76,7 @@ export function useChatUi(
         }
       }
 
-      // Обработка клика по кнопке у ссылки или blockquote (новая функциональность)
+      // Обработка клика по кнопке у ссылки или blockquote
       if (target?.classList.contains("interactive-element-button") || target?.closest(".interactive-element-button")) {
         const buttonEl = target.classList.contains("interactive-element-button") ? target : target.closest(".interactive-element-button")
         const query = buttonEl?.getAttribute("data-query")
@@ -288,12 +225,6 @@ export function useChatUi(
   return {
     // Скролл
     scrollToBottom,
-
-    // Работа с текстовым полем
-    handleInput,
-    resetHeight,
-    insertText,
-    handleKeyDown,
 
     // Изображения и интерактивные элементы
     setupImageClickHandler,
