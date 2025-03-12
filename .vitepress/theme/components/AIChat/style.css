@@ -374,7 +374,7 @@ a[href="#top"],
  * Контент форматирование для сообщений
  * -------------------------------------------------------------
  */
-.message-content :deep(p) {
+/* .message-content :deep(p) {
   margin: 0;
   line-height: 1.5;
 }
@@ -433,7 +433,7 @@ a[href="#top"],
   background-color: transparent;
   padding: 0;
   color: inherit;
-}
+} */
 
 /* 
  * Стили для редактируемых заголовков

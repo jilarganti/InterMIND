@@ -214,7 +214,7 @@ h1.name {
   }
 }
 
-.VPDoc table {
+/* .VPDoc table {
   width: 100% !important;
   display: table;
   margin: 20px 0;
@@ -229,7 +229,7 @@ th {
 
 .VPDoc.has-aside .content-container {
   max-width: 100% !important;
-}
+} */
 
 /* Стили для диаграммы Гантта */
 
