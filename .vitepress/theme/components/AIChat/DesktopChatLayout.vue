@@ -2,17 +2,13 @@
 import { ref, onMounted, computed, watch } from "vue"
 import AIChat from "./AIChat.vue"
 import { useChatsStore } from "@theme/stores/chatsStore"
-import { ArrowUp, ArrowLeft, Menu, Plus, Home, MessageSquare, Search } from "lucide-vue-next"
+import { Plus, Home, MessageSquare, Search } from "lucide-vue-next"
 
 // Инициализируем хранилище чатов
 const chatsStore = useChatsStore()
 
-// Управление текущим layout: 'main', 'chats', 'chat'
-const currentView = ref("chat")
-
 // Поле ввода текста для быстрого поиска
 const searchInput = ref("")
-const searchInputRef = ref(null)
 
 // Состояние и значение для редактирования заголовка чата
 const isEditingTitle = ref(false)
@@ -39,9 +35,11 @@ const quickPrompts = ref([
 const filteredChatIds = computed(() => {
   if (!searchInput.value) return chatsStore.chatIds
 
+  const searchTerm = searchInput.value.toLowerCase()
   return chatsStore.chatIds.filter((chatId) => {
     const date = new Date(Number(chatId))
-    return date.toLocaleString().toLowerCase().includes(searchInput.value.toLowerCase())
+    const title = chatsStore.getChatTitle(chatId) || ""
+    return date.toLocaleString().toLowerCase().includes(searchTerm) || title.toLowerCase().includes(searchTerm)
   })
 })
 
@@ -99,9 +97,11 @@ const createNewChat = () => {
   chatsStore.createNewChat()
 }
 
-// Обработчик ввода в поле поиска
-const handleSearchInput = () => {
-  // Реализация поиска по чатам
+// Функция для вставки текста из быстрой подсказки
+const insertQuickPrompt = (text: string) => {
+  if (chatInputRef.value) {
+    chatInputRef.value.insertText(text)
+  }
 }
 
 // Инициализация при монтировании компонента
@@ -111,7 +111,7 @@ onMounted(() => {
 
   // Создаем новый чат, если список пуст
   if (chatsStore.chatIds.length === 0) {
-    chatsStore.createNewChat()
+    createNewChat()
   }
 })
 
@@ -122,7 +122,7 @@ watch(
     // Убедимся, что выбранный чат существует
     if (newChatId && !chatsStore.chatIds.includes(newChatId)) {
       if (chatsStore.chatIds.length > 0) {
-        chatsStore.selectChat(chatsStore.chatIds[0])
+        handleSelectChat(chatsStore.chatIds[0])
       } else {
         createNewChat()
       }
@@ -135,11 +135,12 @@ watch(
   <div class="desktop-chat-layout">
     <!-- Левая боковая панель со списком чатов -->
     <div class="sidebar">
+      <!-- Заголовок и поиск -->
       <div class="sidebar-header">
         <div class="sidebar-brand">Golden Fish</div>
         <div class="search-container">
           <Search :size="18" class="search-icon" />
-          <input v-model="searchInput" @input="handleSearchInput" ref="searchInputRef" class="search-input" placeholder="Поиск чатов..." type="text" />
+          <input v-model="searchInput" class="search-input" placeholder="Поиск чатов..." type="text" />
         </div>
       </div>
 
@@ -165,7 +166,9 @@ watch(
               @click="handleSelectChat(chatId)"
             >
               <MessageSquare :size="18" class="chat-icon" />
-              <span class="chat-name">{{ chatsStore.getChatTitle(chatId) || `Чат от ${new Date(Number(chatId)).toLocaleString()}` }}</span>
+              <span class="chat-name">
+                {{ chatsStore.getChatTitle(chatId) || `Чат от ${new Date(Number(chatId)).toLocaleString()}` }}
+              </span>
             </div>
           </div>
         </div>
@@ -177,6 +180,7 @@ watch(
       <!-- Заголовок чата для десктопной версии -->
       <div v-if="chatsStore.selectedChatId" class="desktop-chat-header">
         <div class="chat-title-container">
+          <!-- Отображение заголовка или режим редактирования -->
           <div
             v-if="!isEditingTitle"
             class="chat-title editable-title"
@@ -197,9 +201,9 @@ watch(
         </div>
       </div>
 
+      <!-- Компонент чата или плейсхолдер -->
       <AIChat v-if="chatsStore.selectedChatId" ref="chatInputRef" :key="chatsStore.selectedChatId" :chat-id="chatsStore.selectedChatId" />
 
-      <!-- Placeholder, когда нет выбранного чата -->
       <div v-else class="no-chat-selected">
         <div class="placeholder-content">
           <Home :size="48" />
@@ -209,13 +213,13 @@ watch(
       </div>
     </div>
 
-    <!-- Правая панель с быстрыми подсказками (опционально) -->
+    <!-- Правая панель с быстрыми подсказками -->
     <div class="quick-prompts-panel">
       <div class="panel-header">
         <h3>Быстрые запросы</h3>
       </div>
       <div class="quick-prompts-list">
-        <button v-for="prompt in quickPrompts" :key="prompt.id" class="quick-prompt-button" @click="chatInputRef?.insertText(prompt.text)">
+        <button v-for="prompt in quickPrompts" :key="prompt.id" class="quick-prompt-button" @click="insertQuickPrompt(prompt.text)">
           {{ prompt.text }}
         </button>
       </div>
