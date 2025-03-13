@@ -37,10 +37,11 @@ const initializeChat = () => {
     }
 
     // Инициализируем хранилище чатов
-    chatsStore.ensureChat()
-
-    // Создаем новый чат, если список пуст
-    if (chatsStore.chatIds.length === 0) {
+    if (chatsStore.chatIds.length > 0) {
+      // Если есть сохраненные чаты, выбираем первый
+      chatsStore.selectChat(chatsStore.chatIds[0])
+    } else {
+      // Если нет сохраненных чатов, создаем новый
       chatsStore.createNewChat()
     }
   } catch (error) {
@@ -87,6 +88,4 @@ onUnmounted(() => {
   overflow: hidden;
   z-index: 100;
 }
-
-/* Убраны стили, которые скрывали элементы VitePress */
 </style>

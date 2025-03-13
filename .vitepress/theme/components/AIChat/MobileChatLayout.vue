@@ -3,18 +3,17 @@ import { ref, computed } from "vue"
 import ChatList from "./ChatList.vue"
 import ChatContainer from "./ChatContainer.vue"
 import { useChatManagement } from "@theme/composables/AIChat/useChatManagement"
-import { useQuickPrompts } from "@theme/composables/AIChat/useQuickPrompts"
-import { ArrowUp, Menu } from "lucide-vue-next"
+import { ArrowLeft } from "lucide-vue-next"
 
-// Управление текущим view: 'main', 'chats', 'chat'
-const currentView = ref("main")
+// Управление текущим view: 'chats', 'chat'
+const currentView = ref("chat") // По умолчанию открываем чат
 
 // Функция изменения текущего представления
 const setCurrentView = (view: string) => {
   currentView.value = view
 }
 
-// Инициализируем управление чатами с поддержкой навигации в мобильном режиме
+// Инициализируем управление чатами
 const { searchInput, groupedChats, hasSelectedChat, createNewChat, selectChat, chatsStore } = useChatManagement({ setCurrentView })
 
 // Проверка на временный чат
@@ -35,41 +34,21 @@ const chatTitle = computed(() => {
   return chatsStore.getChatTitle(chatId) || `Чат от ${new Date(Number(chatId)).toLocaleString()}`
 })
 
-// Поле ввода текста на главном экране
-const mainInput = ref("")
-const mainInputRef = ref(null)
-
-// Ссылка на компонент контейнера чата для доступа к его методам
+// Ссылка на компонент контейнера чата
 const chatContainerRef = ref(null)
 
-// Инициализируем работу с быстрыми подсказками в мобильном режиме
-const { quickPrompts, submitQuickPrompt } = useQuickPrompts(chatContainerRef, mainInput, { isMobileMode: true })
-
-// Обработчик выбора быстрой подсказки - сразу отправляет запрос
-const handleQuickPromptSelect = (text: string) => {
-  // Создаем новый чат или используем существующий
-  if (!hasSelectedChat.value) {
-    createNewChat()
-  }
-
-  // Переключаемся на экран чата
+// Обработчик создания нового чата
+const handleCreateChat = () => {
+  const chatId = createNewChat()
   setCurrentView("chat")
-
-  // Небольшая задержка для гарантии, что чат создан и интерфейс обновлен
-  setTimeout(() => {
-    if (chatContainerRef.value) {
-      chatContainerRef.value.submitTextDirectly(text)
-    }
-  }, 150)
 }
 
-// Обработчик использования подсказки на пустом экране
-const handleUsePromptFromEmpty = (text: string) => {
+// Обработчик использования подсказки
+const handleUsePrompt = (text: string) => {
   if (!hasSelectedChat.value) {
     createNewChat()
   }
 
-  // Небольшая задержка для гарантии, что чат уже создан
   setTimeout(() => {
     if (chatContainerRef.value) {
       chatContainerRef.value.submitTextDirectly(text)
@@ -81,85 +60,51 @@ const handleUsePromptFromEmpty = (text: string) => {
 const handleUpdateTitle = (chatId: string, title: string) => {
   chatsStore.setChatTitle(chatId, title)
 }
-
-// Функция для отправки запроса с главного экрана
-const sendMainInput = () => {
-  if (!mainInput.value.trim()) return
-
-  // Если нет выбранного чата, создаем новый
-  if (!hasSelectedChat.value) {
-    createNewChat()
-  }
-
-  // Сохраняем текст запроса перед переключением вида
-  const inputText = mainInput.value.trim()
-
-  // Очищаем поле ввода
-  mainInput.value = ""
-
-  // Переключаемся на экран чата
-  setCurrentView("chat")
-
-  // Небольшая задержка для гарантии, что чат уже создан
-  setTimeout(() => {
-    if (chatContainerRef.value) {
-      chatContainerRef.value.submitTextDirectly(inputText)
-    }
-  }, 150)
-}
 </script>
 
 <template>
   <div class="mobile-layout">
-    <!-- Главный экран -->
-    <div v-if="currentView === 'main'" class="layout-view main-view">
-      <div class="mobile-header">
-        <button class="nav-button" @click="setCurrentView('chats')">
-          <Menu :size="20" />
-        </button>
-        <div class="view-title">Golden Fish</div>
+    <!-- Список чатов -->
+    <div v-if="currentView === 'chats'" class="layout-view chats-view">
+      <div class="chat-header">
+        <h2 class="title">Чаты</h2>
+        <button class="new-chat-button" @click="handleCreateChat">Новый чат</button>
       </div>
 
-      <!-- Быстрые подсказки на главном экране -->
-      <div class="quick-prompts-main">
-        <div v-for="prompt in quickPrompts" :key="prompt.id" class="quick-prompt-item">
-          <button class="quick-prompt-button" @click="handleQuickPromptSelect(prompt.text)">
-            {{ prompt.text }}
-          </button>
+      <div class="chats-container">
+        <!-- Поиск чатов -->
+        <div class="search-container">
+          <input v-model="searchInput" class="search-input" placeholder="Поиск чатов..." type="text" />
+        </div>
+
+        <!-- Группы чатов -->
+        <div class="chat-groups-list">
+          <div v-for="(yearData, year) in groupedChats" :key="year" class="chat-year-group">
+            <h3 class="year-header">{{ year }}</h3>
+
+            <div v-for="(monthChats, month) in yearData" :key="`${year}-${month}`" class="chat-month-group">
+              <h4 class="month-header">{{ month }}</h4>
+
+              <div
+                v-for="chatId in monthChats"
+                :key="chatId"
+                class="chat-item"
+                :class="{ active: chatId === chatsStore.selectedChatId }"
+                @click="selectChat(chatId)"
+              >
+                <span class="chat-name">
+                  {{ chatsStore.getChatTitle(chatId) || "🆕" }}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Сообщение, если нет чатов -->
+          <div v-if="Object.keys(groupedChats).length === 0" class="empty-chats-message">
+            <p>У вас пока нет сохраненных чатов</p>
+          </div>
         </div>
       </div>
-
-      <div class="input-footer">
-        <form @submit.prevent="sendMainInput" class="main-input-form">
-          <input v-model="mainInput" ref="mainInputRef" class="main-input-field" placeholder="Задайте вопрос..." type="text" />
-          <button type="submit" class="main-send-button" :disabled="!mainInput.trim()">
-            <ArrowUp :size="20" />
-          </button>
-        </form>
-      </div>
-    </div>
-
-    <!-- Список чатов -->
-    <div v-else-if="currentView === 'chats'" class="layout-view chats-view">
-      <ChatList
-        :grouped-chats="groupedChats"
-        :selected-chat-id="chatsStore.selectedChatId"
-        :search-input="searchInput"
-        panel-title="Чаты"
-        :show-search="false"
-        layout="mobile"
-        @update:search-input="searchInput = $event"
-        @select-chat="selectChat"
-        @create-chat="createNewChat"
-        @go-back="setCurrentView('main')"
-      >
-        <!-- Используем слот для отображения заголовка чата -->
-        <template #chat-title="{ chatId }">
-          <span class="chat-name">
-            {{ chatsStore.getChatTitle(chatId) || "🆕" }}
-          </span>
-        </template>
-      </ChatList>
     </div>
 
     <!-- Экран чата -->
@@ -172,10 +117,10 @@ const sendMainInput = () => {
         :show-header="true"
         :show-prompts-when-empty="true"
         :is-draft="isTempChat"
-        @go-back="setCurrentView('main')"
-        @create-chat="createNewChat"
+        @go-back="setCurrentView('chats')"
+        @create-chat="handleCreateChat"
         @update-title="handleUpdateTitle"
-        @use-prompt="handleUsePromptFromEmpty"
+        @use-prompt="handleUsePrompt"
       />
     </div>
   </div>
@@ -206,134 +151,116 @@ const sendMainInput = () => {
   width: 100%;
 }
 
-/* Заголовок на экране main */
-.mobile-header {
+/* Заголовок экрана чатов */
+.chat-header {
   display: flex;
   align-items: center;
-  padding: 12px 16px;
-  background-color: var(--vp-c-bg);
+  justify-content: space-between;
+  padding: 16px;
   border-bottom: 1px solid var(--vp-c-divider);
 }
 
-.nav-button {
-  background: none;
-  border: none;
-  padding: 8px;
-  margin-right: 12px;
-  color: var(--vp-c-text-1);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.view-title {
-  flex: 1;
-  font-size: 28px;
-  font-weight: 700;
+.title {
+  font-size: 24px;
+  font-weight: 600;
   margin: 0;
-  color: var(--vp-c-text-1);
-  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: inline-block;
-  max-width: calc(100% - 40px);
 }
 
-/* Новые стили для быстрых подсказок на главном экране */
-.quick-prompts-main {
+.new-chat-button {
+  padding: 8px 16px;
+  background-color: var(--vp-c-brand);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Контейнер списка чатов */
+.chats-container {
   flex: 1;
-  padding: 16px;
-  overflow-y: auto;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  overflow: hidden;
 }
 
-.quick-prompt-item {
-  width: 100%;
-}
-
-.quick-prompt-button {
-  width: 100%;
-  padding: 16px;
-  text-align: left;
-  border-radius: 12px;
-  background-color: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.2s;
-  border: none;
-}
-
-.quick-prompt-button:hover {
-  background-color: var(--vp-c-bg-mute);
-}
-
-.quick-prompt-button:active {
-  transform: scale(0.98);
-  background-color: var(--vp-c-bg-mute);
-}
-
-/* Стили для футера с полем ввода */
-.input-footer {
+/* Поиск */
+.search-container {
   padding: 12px 16px;
-  background-color: var(--vp-c-bg);
-  margin-top: auto;
-  border-top: 1px solid var(--vp-c-divider);
+  border-bottom: 1px solid var(--vp-c-divider);
 }
 
-.main-input-form {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  max-width: 48rem;
-  margin: 0 auto;
-}
-
-.main-input-field {
-  flex: 1;
+.search-input {
+  width: 100%;
   padding: 10px 16px;
   border-radius: 24px;
-  font-size: 1rem;
+  font-size: 16px;
   background-color: var(--vp-c-bg-soft);
   color: var(--vp-c-text-1);
   outline: none;
   border: 1px solid var(--vp-c-divider);
-  resize: none;
-  overflow: hidden;
-  height: auto;
-  min-height: 24px;
 }
 
-.main-input-field:focus {
-  background-color: var(--vp-c-bg-mute);
-  border-color: var(--vp-c-brand);
+/* Список групп чатов */
+.chat-groups-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
 }
 
-.main-send-button {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  border-radius: 50%;
-  background-color: var(--vp-c-brand);
-  color: white;
+/* Группировка чатов */
+.chat-year-group {
+  margin-bottom: 16px;
+}
+
+.year-header {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 16px 0 8px 0;
+  color: var(--vp-c-text-1);
+}
+
+.month-header {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 12px 0 8px 0;
+  color: var(--vp-c-text-2);
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--vp-c-divider-light);
+}
+
+.chat-item {
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  background-color: var(--vp-c-bg-soft);
   cursor: pointer;
   transition: background-color 0.2s;
 }
 
-.main-send-button:hover {
-  background-color: var(--vp-c-brand-dark);
+.chat-item:hover,
+.chat-item:active {
+  background-color: var(--vp-c-bg-mute);
 }
 
-.main-send-button:disabled {
-  background-color: var(--vp-c-gray);
-  cursor: not-allowed;
-  opacity: 0.7;
+.chat-item.active {
+  background-color: var(--vp-c-bg-alt);
+  font-weight: 500;
+}
+
+.chat-name {
+  font-weight: 500;
+  color: var(--vp-c-text-1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+/* Пустой список чатов */
+.empty-chats-message {
+  padding: 20px 0;
+  text-align: center;
+  color: var(--vp-c-text-2);
 }
 </style>

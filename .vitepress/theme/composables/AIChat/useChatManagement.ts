@@ -73,10 +73,8 @@ export function useChatManagement(options: UseChatManagementOptions = {}) {
   const createNewChat = () => {
     const chatId = chatsStore.createNewChat()
 
-    // Если мы в мобильном макете, переключаемся на чат
-    if (options.setCurrentView) {
-      options.setCurrentView("chat")
-    }
+    // Нет необходимости автоматически переходить на чат,
+    // это должно контролироваться вызывающим кодом при необходимости
 
     return chatId
   }
@@ -85,7 +83,7 @@ export function useChatManagement(options: UseChatManagementOptions = {}) {
   const selectChat = (chatId: string) => {
     chatsStore.selectChat(chatId)
 
-    // Если мы в мобильном макете, переключаемся на чат
+    // Если указано, переключаемся на экран чата
     if (options.setCurrentView) {
       options.setCurrentView("chat")
     }
