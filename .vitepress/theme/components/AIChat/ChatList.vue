@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { MessageSquare, Search } from "lucide-vue-next"
+import { MessageSquare, Search, Plus } from "lucide-vue-next"
 
 const props = defineProps<{
   /**
@@ -16,11 +16,6 @@ const props = defineProps<{
    * Значение строки поиска
    */
   searchInput: string
-
-  /**
-   * Заголовок панели списка чатов
-   */
-  panelTitle?: string
 
   /**
    * Показывать ли поле поиска
@@ -55,13 +50,6 @@ const emit = defineEmits<{
   (e: "go-back"): void
 }>()
 
-// Функция для получения заголовка чата
-const getChatTitle = (chatId: string) => {
-  // В компоненте используем props
-  // Хранилище должно быть доступно в родительском компоненте
-  emit("select-chat", chatId)
-}
-
 // Запрашиваем создание нового чата у родителя
 const createNewChat = () => {
   emit("create-chat")
@@ -81,24 +69,16 @@ const updateSearchInput = (event: Event) => {
 
 <template>
   <div class="chat-list-container" :class="{ 'mobile-chat-list': layout === 'mobile' }">
-    <!-- Заголовок и поиск -->
-    <div class="list-header">
-      <!-- Для мобильного макета добавляем кнопку "Назад" -->
-      <button v-if="layout === 'mobile'" class="back-button" @click="goBack">← Назад</button>
-
-      <div class="list-title">{{ panelTitle || "Чаты" }}</div>
-
-      <!-- Поле поиска (опциональное) -->
-      <div v-if="showSearch" class="search-container">
+    <!-- Поисковая строка и кнопка нового чата -->
+    <div class="search-toolbar">
+      <div class="search-container">
         <Search :size="18" class="search-icon" />
         <input :value="searchInput" @input="updateSearchInput" class="search-input" placeholder="Поиск чатов..." type="text" />
       </div>
+      <button class="new-chat-button" @click="createNewChat">
+        <Plus :size="20" />
+      </button>
     </div>
-
-    <!-- Кнопка создания нового чата -->
-    <button class="new-chat-button" @click="createNewChat">
-      <span>Новый чат</span>
-    </button>
 
     <!-- Список чатов -->
     <div class="chats-list">
@@ -133,25 +113,22 @@ const updateSearchInput = (event: Event) => {
   flex-direction: column;
   height: 100%;
   overflow: hidden;
+  background-color: var(--vp-c-bg-soft);
 }
 
-/* Заголовок и поиск */
-.list-header {
-  padding: 16px;
-  border-bottom: 1px solid var(--vp-c-divider);
-}
-
-.list-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--vp-c-text-1);
-  margin-bottom: 16px;
+/* Панель поиска и создания чата */
+.search-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background-color: var(--vp-c-bg-soft);
 }
 
 /* Поиск */
 .search-container {
   position: relative;
-  margin-bottom: 8px;
+  flex: 1;
 }
 
 .search-icon {
@@ -164,7 +141,7 @@ const updateSearchInput = (event: Event) => {
 
 .search-input {
   width: 100%;
-  padding: 8px 8px 8px 36px;
+  padding: 10px 10px 10px 36px;
   border-radius: 8px;
   border: 1px solid var(--vp-c-divider);
   background-color: var(--vp-c-bg);
@@ -178,37 +155,17 @@ const updateSearchInput = (event: Event) => {
   box-shadow: 0 0 0 2px var(--vp-c-brand-light);
 }
 
-/* Кнопка назад */
-.back-button {
-  padding: 8px 12px;
-  margin-bottom: 10px;
-  background: none;
-  border: none;
-  color: var(--vp-c-text-1);
-  cursor: pointer;
-  font-size: 0.9rem;
-  display: flex;
-  align-items: center;
-}
-
-.back-button:hover {
-  text-decoration: underline;
-}
-
 /* Кнопка нового чата */
 .new-chat-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin: 16px;
-  padding: 10px;
+  width: 40px;
+  height: 40px;
   background-color: var(--vp-c-brand);
   color: white;
   border: none;
   border-radius: 8px;
-  font-size: 0.875rem;
-  font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
 }
@@ -249,7 +206,7 @@ const updateSearchInput = (event: Event) => {
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.2s;
-  background-color: var(--vp-c-bg-soft);
+  background-color: var(--vp-c-bg);
 }
 
 .chat-item:hover {

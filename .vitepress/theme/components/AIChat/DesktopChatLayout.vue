@@ -13,15 +13,6 @@ const isTempChat = computed(() => {
   return chatsStore.isTempChat(chatsStore.selectedChatId)
 })
 
-// Проверка, что выбранный чат не имеет сообщений
-const isEmpty = computed(() => {
-  const chatId = chatsStore.selectedChatId
-  if (!chatId) return true
-
-  const messages = chatsStore.getMessages(chatId)
-  return !messages || messages.length === 0
-})
-
 // Определение заголовка чата
 const chatTitle = computed(() => {
   const chatId = chatsStore.selectedChatId
@@ -68,7 +59,6 @@ const handleUpdateTitle = (chatId: string, title: string) => {
       :grouped-chats="groupedChats"
       :selected-chat-id="chatsStore.selectedChatId"
       :search-input="searchInput"
-      panel-title="Golden Fish"
       :show-search="true"
       layout="desktop"
       @update:search-input="searchInput = $event"
@@ -100,7 +90,7 @@ const handleUpdateTitle = (chatId: string, title: string) => {
 </template>
 
 <style scoped>
-/* Основной макет - изменен на двухколоночный */
+/* Основной макет - двухколоночный */
 .desktop-chat-layout {
   display: grid;
   position: relative;
