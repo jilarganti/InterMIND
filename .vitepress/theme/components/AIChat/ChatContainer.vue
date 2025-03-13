@@ -144,21 +144,22 @@ defineExpose({
       <!-- Если в чате есть сообщения - показываем чат -->
       <ChatThread v-if="hasMessages" ref="chatThreadRef" :chat-id="chatId" :key="`thread-${chatId}`" />
 
-      <!-- Если чат пустой - показываем подсказки над полем ввода -->
-      <template v-else>
+      <!-- Если чат пустой - показываем подсказки -->
+      <div v-else class="empty-chat-wrapper">
         <!-- Быстрые подсказки для нового чата -->
-        <div v-if="showPromptsWhenEmpty" class="new-chat-prompts">
-          <h3 class="prompts-title">Что бы вы хотели узнать о Дубае?</h3>
+        <div v-if="showPromptsWhenEmpty" class="prompts-container">
           <div class="prompts-grid">
-            <button v-for="prompt in quickPrompts" :key="prompt.id" class="quick-prompt-button" @click="handlePromptSelectInChat(prompt.text)">
+            <button v-for="prompt in quickPrompts" :key="prompt.id" class="prompt-button" @click="handlePromptSelectInChat(prompt.text)">
               {{ prompt.text }}
             </button>
           </div>
         </div>
 
-        <!-- Компонент чата для отображения поля ввода -->
-        <ChatThread ref="chatThreadRef" :chat-id="chatId" :key="`empty-${chatId}`" class="empty-chat-thread" />
-      </template>
+        <!-- Поле ввода чата -->
+        <div class="chat-input-wrapper">
+          <ChatThread ref="chatThreadRef" :chat-id="chatId" :key="`empty-${chatId}`" class="empty-chat-thread" />
+        </div>
+      </div>
     </template>
 
     <!-- Плейсхолдер, если нет выбранного чата -->
@@ -169,16 +170,6 @@ defineExpose({
         <p class="welcome-text">Выберите чат или создайте новый, чтобы начать общение.</p>
 
         <button class="create-chat-btn" @click="emit('create-chat')">Создать новый чат</button>
-
-        <!-- Быстрые подсказки в пустом экране -->
-        <div v-if="showPromptsWhenEmpty" class="empty-screen-prompts">
-          <h3 class="prompt-heading">Быстрые запросы</h3>
-          <div class="prompts-grid">
-            <button v-for="prompt in quickPrompts" :key="prompt.id" class="quick-prompt-button" @click="handlePromptSelect(prompt.text)">
-              {{ prompt.text }}
-            </button>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -190,63 +181,82 @@ defineExpose({
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 100%;
   overflow: hidden;
   background-color: var(--vp-c-bg);
 }
 
-/* Стили для пустого чата */
-.new-chat-prompts {
-  flex: 1;
-  padding: 20px;
-  overflow-y: auto;
+/* Обертка для пустого чата */
+.empty-chat-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
-.prompts-title {
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: var(--vp-c-text-1);
-  margin-bottom: 20px;
-  text-align: center;
+/* Контейнер для подсказок */
+.prompts-container {
+  flex: 1; /* Занимает все доступное пространство */
+  width: 100%;
+  overflow-y: auto; /* Добавляем скролл если не помещается */
+  padding: 16px;
 }
 
+/* Сетка подсказок */
 .prompts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
   width: 100%;
-  /* max-width: 800px; */
 }
 
-.quick-prompt-button {
-  padding: 12px 16px;
-  background-color: var(--vp-c-bg-soft);
+/* Адаптивность для разных экранов */
+@media (max-width: 768px) {
+  .prompts-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .prompts-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Кнопка подсказки */
+.prompt-button {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  text-align: left;
   border: 1px solid var(--vp-c-divider);
   border-radius: 8px;
-  text-align: left;
-  font-size: 0.95rem;
+  background-color: var(--vp-c-bg-soft);
   color: var(--vp-c-text-1);
+  font-size: 15px;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
 }
 
-.quick-prompt-button:hover {
+.prompt-button:hover {
   background-color: var(--vp-c-bg-mute);
   border-color: var(--vp-c-brand);
   transform: translateY(-2px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-/* Ограничиваем размер пустого чата, чтобы подсказки были над полем ввода */
+/* Обертка для поля ввода */
+.chat-input-wrapper {
+  flex-shrink: 0; /* Не сжимается */
+  margin-top: auto; /* Прижимаем к нижней части */
+  min-height: 70px; /* Минимальная высота */
+  width: 100%;
+}
+
+/* Пустой чат */
 .empty-chat-thread {
-  height: auto;
-  min-height: 120px;
-  margin-top: auto;
+  width: 100%;
 }
 
 /* Плейсхолдер при отсутствии чата */
@@ -305,45 +315,5 @@ defineExpose({
 
 .create-chat-btn:hover {
   background-color: var(--vp-c-brand-dark);
-}
-
-/* Стили для быстрых подсказок на пустом экране */
-.empty-screen-prompts {
-  width: 100%;
-  max-width: 600px;
-}
-
-.prompt-heading {
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: var(--vp-c-text-1);
-  margin-bottom: 16px;
-  text-align: center;
-}
-
-/* Для мобильной версии */
-@media (max-width: 767px) {
-  .placeholder-content {
-    padding: 16px;
-    max-width: 100%;
-  }
-
-  .placeholder-content h2 {
-    font-size: 1.5rem;
-  }
-
-  .welcome-text {
-    font-size: 1rem;
-  }
-
-  .prompts-grid {
-    grid-template-columns: 1fr;
-    max-width: 100%;
-  }
-
-  .prompts-title {
-    font-size: 1.1rem;
-    margin-bottom: 16px;
-  }
 }
 </style>
