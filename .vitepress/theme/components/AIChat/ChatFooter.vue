@@ -168,7 +168,7 @@ const handleKeyDown = (event: KeyboardEvent): void => {
 
       <!-- Кнопки отправки/остановки -->
       <div class="button-container">
-        <button v-if="status !== 'streaming'" type="submit" :disabled="!inputValue.trim()" class="send-button">
+        <button v-if="status !== 'streaming'" type="submit" :disabled="!inputValue.trim()" class="send-button" :class="{ visible: hasInputContent }">
           <ArrowUp :size="20" />
         </button>
         <button v-else type="button" @click="emit('stop')" class="stop-button">
@@ -248,6 +248,8 @@ const handleKeyDown = (event: KeyboardEvent): void => {
 .button-container {
   display: flex;
   align-items: center;
+  width: 40px;
+  height: 40px;
 }
 
 /* Кнопки отправки/остановки */
@@ -260,28 +262,46 @@ const handleKeyDown = (event: KeyboardEvent): void => {
   justify-content: center;
   border: none;
   border-radius: 50%;
-  background-color: var(--vp-c-brand);
-  color: white;
+  color: var(--vp-c-text-1);
+  background-color: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
   cursor: pointer;
-  transition: background-color 0.2s;
+}
+
+/* Стиль кнопки отправки при наличии текста */
+.send-button {
+  opacity: 0;
+  transform: scale(0.9);
+  transition:
+    opacity 0.2s,
+    transform 0.2s;
+}
+
+.send-button.visible {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .send-button:hover {
-  background-color: var(--vp-c-brand-dark);
+  background-color: var(--vp-c-bg-mute);
+  border-color: var(--vp-c-divider-dark);
 }
 
 .send-button:disabled {
-  background-color: var(--vp-c-gray);
-  cursor: not-allowed;
-  opacity: 0.7;
+  opacity: 0;
+  cursor: default;
 }
 
 .stop-button {
-  background-color: var(--vp-c-danger);
+  opacity: 1;
+  background-color: var(--vp-c-danger-soft);
+  border-color: var(--vp-c-danger);
+  color: var(--vp-c-danger-dark);
 }
 
 .stop-button:hover {
-  background-color: var(--vp-c-danger-dark);
+  background-color: var(--vp-c-danger-soft);
+  border-color: var(--vp-c-danger-dark);
 }
 
 /* Индикатор набора сообщения */
