@@ -39,9 +39,9 @@ const initializeChat = () => {
     // Инициализируем хранилище чатов
     chatsStore.ensureChat()
 
-    // Создаем новый черновик, если список пуст и нет активного черновика
-    if (chatsStore.chatIds.length === 0 && !chatsStore.draftChatId) {
-      chatsStore.createDraftChat()
+    // Создаем новый чат, если список пуст
+    if (chatsStore.chatIds.length === 0) {
+      chatsStore.createNewChat()
     }
   } catch (error) {
     console.error("Ошибка при инициализации чата:", error)

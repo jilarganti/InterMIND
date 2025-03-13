@@ -142,7 +142,7 @@ defineExpose({
     <!-- Если чат существует -->
     <template v-if="chatId">
       <!-- Если в чате есть сообщения - показываем чат -->
-      <ChatThread v-if="hasMessages" ref="chatThreadRef" :chat-id="chatId" />
+      <ChatThread v-if="hasMessages" ref="chatThreadRef" :chat-id="chatId" :key="`thread-${chatId}`" />
 
       <!-- Если чат пустой - показываем подсказки над полем ввода -->
       <template v-else>
@@ -157,7 +157,7 @@ defineExpose({
         </div>
 
         <!-- Компонент чата для отображения поля ввода -->
-        <ChatThread ref="chatThreadRef" :chat-id="chatId" class="empty-chat-thread" />
+        <ChatThread ref="chatThreadRef" :chat-id="chatId" :key="`empty-${chatId}`" class="empty-chat-thread" />
       </template>
     </template>
 

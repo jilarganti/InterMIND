@@ -8,9 +8,31 @@ import { useQuickPrompts } from "@theme/composables/AIChat/useQuickPrompts"
 // Инициализируем управление чатами
 const { searchInput, groupedChats, hasSelectedChat, createNewChat, selectChat, chatsStore } = useChatManagement()
 
-// Проверяем, является ли текущий чат черновиком
-const isDraftChat = computed(() => {
-  return chatsStore.draftChatId === chatsStore.selectedChatId
+// Проверка на временный чат
+const isTempChat = computed(() => {
+  return chatsStore.isTempChat(chatsStore.selectedChatId)
+})
+
+// Проверка, что выбранный чат не имеет сообщений
+const isEmpty = computed(() => {
+  const chatId = chatsStore.selectedChatId
+  if (!chatId) return true
+
+  const messages = chatsStore.getMessages(chatId)
+  return !messages || messages.length === 0
+})
+
+// Определение заголовка чата
+const chatTitle = computed(() => {
+  const chatId = chatsStore.selectedChatId
+  if (!chatId) return ""
+
+  // Для временного чата показываем "Новый чат"
+  if (isTempChat.value) {
+    return "Новый чат"
+  }
+
+  return chatsStore.getChatTitle(chatId) || `Чат от ${new Date(Number(chatId)).toLocaleString()}`
 })
 
 // Ссылка на компонент контейнера чата для доступа к его методам
@@ -56,7 +78,7 @@ const handleUpdateTitle = (chatId: string, title: string) => {
       <!-- Используем слот для отображения заголовка чата -->
       <template #chat-title="{ chatId }">
         <span class="chat-name">
-          {{ chatsStore.getChatTitle(chatId) || `Чат от ${new Date(Number(chatId)).toLocaleString()}` }}
+          {{ chatsStore.getChatTitle(chatId) || "🆕" }}
         </span>
       </template>
     </ChatList>
@@ -65,11 +87,11 @@ const handleUpdateTitle = (chatId: string, title: string) => {
     <ChatContainer
       ref="chatContainerRef"
       :chat-id="chatsStore.selectedChatId"
-      :chat-title="isDraftChat ? 'Новый чат' : chatsStore.getChatTitle(chatsStore.selectedChatId) || 'Чат без названия'"
+      :chat-title="chatTitle"
       layout="desktop"
       :show-header="true"
       :show-prompts-when-empty="true"
-      :is-draft="isDraftChat"
+      :is-draft="isTempChat"
       @create-chat="createNewChat"
       @update-title="handleUpdateTitle"
       @use-prompt="handleUsePromptFromEmpty"

@@ -28,8 +28,7 @@ export function useChatManagement(options: UseChatManagementOptions = {}) {
 
   // Определяем, есть ли выбранный чат
   const hasSelectedChat = computed(
-    () =>
-      Boolean(chatsStore.selectedChatId) && (chatsStore.chatIds.includes(chatsStore.selectedChatId) || chatsStore.selectedChatId === chatsStore.draftChatId),
+    () => Boolean(chatsStore.selectedChatId) && (chatsStore.chatIds.includes(chatsStore.selectedChatId) || chatsStore.isTempChat(chatsStore.selectedChatId)),
   )
 
   // Фильтрация чатов при поиске (по заголовку и дате)
@@ -49,6 +48,9 @@ export function useChatManagement(options: UseChatManagementOptions = {}) {
     const groups: YearGroups = {}
 
     filteredChatIds.value.forEach((id) => {
+      // Игнорируем временный чат в группировке (он не должен отображаться в списке)
+      if (chatsStore.isTempChat(id)) return
+
       const date = new Date(Number(id))
       const year = date.getFullYear().toString() // Преобразуем number в string
       const month = date.toLocaleString("default", { month: "long" })
@@ -69,13 +71,7 @@ export function useChatManagement(options: UseChatManagementOptions = {}) {
 
   // Функция для создания нового чата
   const createNewChat = () => {
-    // Если уже есть выбранный черновик, используем его
-    if (chatsStore.draftChatId && chatsStore.selectedChatId === chatsStore.draftChatId) {
-      return chatsStore.draftChatId
-    }
-
-    // Иначе создаем новый черновик
-    const chatId = chatsStore.createDraftChat()
+    const chatId = chatsStore.createNewChat()
 
     // Если мы в мобильном макете, переключаемся на чат
     if (options.setCurrentView) {
@@ -111,7 +107,7 @@ export function useChatManagement(options: UseChatManagementOptions = {}) {
     () => chatsStore.selectedChatId,
     (newChatId) => {
       // Убедимся, что выбранный чат существует
-      if (newChatId && !chatsStore.chatIds.includes(newChatId) && newChatId !== chatsStore.draftChatId) {
+      if (newChatId && !chatsStore.chatIds.includes(newChatId) && !chatsStore.isTempChat(newChatId)) {
         if (chatsStore.chatIds.length > 0) {
           selectChat(chatsStore.chatIds[0])
         } else {

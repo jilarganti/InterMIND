@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, watch, onUnmounted, computed } from "vue"
+import { ref, onMounted, watch, onUnmounted, computed, watchEffect } from "vue"
 import { useChat } from "@ai-sdk/vue"
 import { useChatUi } from "@theme/composables/AIChat/useChatUi"
 import { processImagesInMessage } from "@theme/utils/chatUtils"
@@ -23,10 +23,13 @@ const chatsStore = useChatsStore()
 // Текущий режим запроса (по умолчанию "default")
 const currentMode = ref("default")
 
+// ID для текущей сессии чата (используется для отслеживания изменений)
+const chatSessionId = ref(props.chatId)
+
 // Создаем новый chat с помощью useChat
 const { messages, input, handleSubmit, status, error, stop, setMessages } = useChat({
   api: "/api/chat",
-  id: props.chatId,
+  id: chatSessionId.value, // Используем chatSessionId вместо props.chatId
   initialMessages: chatsStore.getMessages(props.chatId),
   body: {
     stream: true,
@@ -37,6 +40,12 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
   },
   onFinish: async () => {
     console.log(`🟢 CLIENT: Ответ завершен, mode: ${currentMode.value} → default`)
+
+    // Проверяем, что chatId не изменился во время получения ответа
+    if (chatSessionId.value !== props.chatId) {
+      console.log(`🟠 CLIENT: ID чата изменился во время получения ответа. Игнорируем обновление.`)
+      return
+    }
 
     // Сбрасываем режим на стандартный после получения ответа
     currentMode.value = "default"
@@ -131,6 +140,19 @@ const { setupImageClicks, cleanupImageClicks } = setupImageClickHandler(
   (text) => submitTextDirectly(text, "followup"),
 )
 
+// Когда chatId меняется, обновляем chatSessionId и перезагружаем сообщения
+watchEffect(() => {
+  if (props.chatId !== chatSessionId.value) {
+    console.log(`🟢 CLIENT: Обновляем chatSessionId: ${chatSessionId.value} → ${props.chatId}`)
+    chatSessionId.value = props.chatId
+
+    // Загружаем сообщения для нового чата
+    const chatMessages = chatsStore.getMessages(props.chatId)
+    console.log(`🟢 CLIENT: Загружаем сообщения для чата ${props.chatId}:`, chatMessages.length)
+    setMessages(chatMessages)
+  }
+})
+
 // Подключаем обработчик кликов по изображениям при монтировании
 onMounted(() => {
   setupImageClicks()
@@ -142,23 +164,15 @@ onUnmounted(() => {
   cleanupImageClicks()
 })
 
-// Универсальный наблюдатель для обработки изменений chatId и сохранения сообщений
+// Наблюдатель для сохранения сообщений
 watch(
-  [() => props.chatId, messages],
-  ([newChatId, newMessages], [oldChatId]) => {
-    // Обработка изменения ID чата
-    if (newChatId !== oldChatId && oldChatId !== undefined) {
-      console.log(`🟢 CLIENT: ID чата изменился: ${oldChatId} -> ${newChatId}`)
-      setMessages(chatsStore.getMessages(newChatId))
+  messages,
+  (newMessages) => {
+    // Сохраняем сообщения при их изменении
+    if (newMessages.length > 0 && props.chatId === chatSessionId.value) {
+      chatsStore.saveMessages(props.chatId, newMessages)
+      scrollToBottom()
     }
-
-    // Сохранение сообщений при их изменении
-    if (newMessages.length > 0) {
-      chatsStore.saveMessages(newChatId, newMessages)
-    }
-
-    // Прокрутка при изменении сообщений
-    scrollToBottom()
   },
   { deep: true },
 )

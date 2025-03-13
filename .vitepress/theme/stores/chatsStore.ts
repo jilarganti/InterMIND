@@ -11,9 +11,16 @@ export interface ChatInfo {
 }
 
 export const useChatsStore = defineStore("chats", () => {
+  // Список ID постоянных чатов (отображаются в списке)
   const chatIds = ref<string[]>([])
+
+  // ID текущего выбранного чата (может быть и временным, и постоянным)
   const selectedChatId = ref<string>("")
-  const draftChatId = ref<string>("")
+
+  // ID временного чата (не отображается в списке, пока не получит сообщения/заголовок)
+  const tempChatId = ref<string>("")
+
+  // Данные всех чатов (и постоянных, и временных)
   const chatsData = ref<Record<string, ChatInfo>>({})
 
   // Проверка на клиентскую среду
@@ -29,7 +36,11 @@ export const useChatsStore = defineStore("chats", () => {
 
       if (storedIds) {
         chatIds.value = JSON.parse(storedIds)
-        selectedChatId.value = chatIds.value[0] || ""
+
+        // Выбираем первый чат из списка, если он есть
+        if (chatIds.value.length > 0) {
+          selectedChatId.value = chatIds.value[0]
+        }
       }
 
       if (storedData) {
@@ -63,63 +74,93 @@ export const useChatsStore = defineStore("chats", () => {
     )
   }
 
-  // Создание временного черновика чата (не добавляется в список)
-  const createDraftChat = () => {
+  // Создание временного чата
+  const createTempChat = () => {
     const chatId = Date.now().toString()
-    draftChatId.value = chatId
+
+    // Если уже есть временный чат без сообщений, используем его
+    if (tempChatId.value && chatsData.value[tempChatId.value]?.messages.length === 0) {
+      selectedChatId.value = tempChatId.value
+      return tempChatId.value
+    }
+
+    // Создаем новый временный чат
+    tempChatId.value = chatId
     chatsData.value[chatId] = {
       id: chatId,
       messages: [],
       timestamp: Date.now(),
     }
     selectedChatId.value = chatId
+
+    console.log(`🟢 CLIENT: Создан временный чат: ${chatId}`)
     return chatId
   }
 
-  // Публикация черновика чата (добавление в список)
-  const publishDraftChat = () => {
-    if (draftChatId.value && chatsData.value[draftChatId.value]) {
-      const chatId = draftChatId.value
+  // Публикация временного чата (превращение во "взрослый" чат в списке)
+  const publishTempChat = (chatId: string) => {
+    // Проверяем, что чат существует и это текущий временный чат
+    if (chatId === tempChatId.value && chatsData.value[chatId]) {
+      // Добавляем чат в начало основного списка
+      chatIds.value.unshift(chatId)
 
-      // Добавляем чат в список только если есть сообщения
-      if (chatsData.value[chatId].messages.length > 0) {
-        chatIds.value.unshift(chatId) // Добавляем в начало списка
-        draftChatId.value = "" // Сбрасываем черновик
-        return chatId
-      }
+      console.log(`🟢 CLIENT: Временный чат ${chatId} опубликован и добавлен в список`)
+
+      // Сбрасываем ссылку на временный чат
+      tempChatId.value = ""
+
+      return true
     }
-    return null
+    return false
   }
 
-  // Выбор чата
-  const selectChat = (chatId: string) => {
-    // Если был открыт черновик, проверяем нужно ли его сохранить
-    if (draftChatId.value && draftChatId.value !== chatId) {
-      publishDraftChat()
-    }
+  // Функция создания нового чата (всегда создаёт временный)
+  const createNewChat = () => {
+    return createTempChat()
+  }
 
-    selectedChatId.value = chatId
+  // Выбор существующего чата
+  const selectChat = (chatId: string) => {
+    // Если выбираем новый чат
+    if (selectedChatId.value !== chatId) {
+      // Если есть активный временный чат без сообщений, удаляем его
+      if (tempChatId.value && chatsData.value[tempChatId.value]?.messages.length === 0 && !chatIds.value.includes(tempChatId.value)) {
+        delete chatsData.value[tempChatId.value]
+
+        // Если выбранный чат был временным, сбрасываем его
+        if (selectedChatId.value === tempChatId.value) {
+          selectedChatId.value = ""
+        }
+        tempChatId.value = ""
+      }
+
+      // Устанавливаем новый выбранный чат
+      selectedChatId.value = chatId
+    }
   }
 
   // Удаление чата
   const removeChat = (chatId: string) => {
+    // Удаляем из основного списка
     const index = chatIds.value.indexOf(chatId)
     if (index > -1) {
       chatIds.value.splice(index, 1)
+
+      // Если это был временный чат, очищаем ссылку
+      if (chatId === tempChatId.value) {
+        tempChatId.value = ""
+      }
+
+      // Удаляем данные чата
       delete chatsData.value[chatId]
 
       // Если удалили выбранный чат
       if (selectedChatId.value === chatId) {
-        // Если это был черновик, сбрасываем его
-        if (draftChatId.value === chatId) {
-          draftChatId.value = ""
-        }
-
-        // Выбираем первый чат из списка или создаем новый черновик
+        // Выбираем первый чат из списка или создаем новый
         if (chatIds.value.length > 0) {
           selectedChatId.value = chatIds.value[0]
         } else {
-          createDraftChat()
+          createNewChat()
         }
       }
     }
@@ -132,24 +173,23 @@ export const useChatsStore = defineStore("chats", () => {
     if (chatsData.value[chatId]) {
       const isFirstMessage = chatsData.value[chatId].messages.length === 0 && messages.length > 0
 
+      // Обновляем сообщения и временную метку
       chatsData.value[chatId].messages = messages
       chatsData.value[chatId].timestamp = Date.now()
 
-      // Если это первое сообщение в черновике, публикуем его
-      if (isFirstMessage && draftChatId.value === chatId) {
-        publishDraftChat()
-      }
-
-      // Автоматически генерируем заголовок из первого сообщения пользователя, если заголовок не задан
-      if (!chatsData.value[chatId].title && messages.length > 0) {
+      // Если это первое сообщение и чат временный - публикуем его
+      if (isFirstMessage && chatId === tempChatId.value && !chatIds.value.includes(chatId)) {
+        // Если есть сообщение от пользователя, используем его как заголовок
         const firstUserMessage = messages.find((msg) => msg.role === "user")
         if (firstUserMessage) {
           const content = firstUserMessage.content.substring(0, 30)
           // Обрезаем на границе слова, если текст длиннее 30 символов
           const title = content.length < 30 ? content : content.substring(0, content.lastIndexOf(" ")) + "..."
-
           chatsData.value[chatId].title = title
         }
+
+        // Публикуем чат
+        publishTempChat(chatId)
       }
     }
   }
@@ -170,27 +210,38 @@ export const useChatsStore = defineStore("chats", () => {
 
     if (chatsData.value[chatId]) {
       chatsData.value[chatId].title = title || undefined
+
+      // Если чат временный и получил заголовок - публикуем его
+      if (chatId === tempChatId.value && title && !chatIds.value.includes(chatId)) {
+        publishTempChat(chatId)
+      }
     }
+  }
+
+  // Проверка, является ли чат временным
+  const isTempChat = (chatId: string): boolean => {
+    return chatId === tempChatId.value
   }
 
   // Инициализация при первом запуске
   const ensureChat = () => {
-    // Если нет выбранного чата или это черновик без сообщений,
-    // и нет чатов в списке, создаем черновик
-    if (
-      (!selectedChatId.value || (draftChatId.value === selectedChatId.value && chatsData.value[draftChatId.value]?.messages.length === 0)) &&
-      chatIds.value.length === 0
-    ) {
-      createDraftChat()
+    // Если нет выбранного чата, создаем временный
+    if (!selectedChatId.value) {
+      // Если есть чаты в списке, выбираем первый
+      if (chatIds.value.length > 0) {
+        selectedChatId.value = chatIds.value[0]
+      } else {
+        // Иначе создаем временный
+        createTempChat()
+      }
     }
   }
 
   return {
     chatIds,
     selectedChatId,
-    draftChatId,
-    createDraftChat,
-    publishDraftChat,
+    tempChatId,
+    createNewChat,
     selectChat,
     removeChat,
     saveMessages,
@@ -198,5 +249,7 @@ export const useChatsStore = defineStore("chats", () => {
     getChatTitle,
     setChatTitle,
     ensureChat,
+    isTempChat,
+    publishTempChat,
   }
 })

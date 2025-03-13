@@ -17,9 +17,22 @@ const setCurrentView = (view: string) => {
 // Инициализируем управление чатами с поддержкой навигации в мобильном режиме
 const { searchInput, groupedChats, hasSelectedChat, createNewChat, selectChat, chatsStore } = useChatManagement({ setCurrentView })
 
-// Проверяем, является ли текущий чат черновиком
-const isDraftChat = computed(() => {
-  return chatsStore.draftChatId === chatsStore.selectedChatId
+// Проверка на временный чат
+const isTempChat = computed(() => {
+  return chatsStore.isTempChat(chatsStore.selectedChatId)
+})
+
+// Определение заголовка чата
+const chatTitle = computed(() => {
+  const chatId = chatsStore.selectedChatId
+  if (!chatId) return ""
+
+  // Для временного чата показываем "Новый чат"
+  if (isTempChat.value) {
+    return "Новый чат"
+  }
+
+  return chatsStore.getChatTitle(chatId) || `Чат от ${new Date(Number(chatId)).toLocaleString()}`
 })
 
 // Поле ввода текста на главном экране
@@ -32,9 +45,9 @@ const chatContainerRef = ref(null)
 // Инициализируем работу с быстрыми подсказками в мобильном режиме
 const { quickPrompts, submitQuickPrompt } = useQuickPrompts(chatContainerRef, mainInput, { isMobileMode: true })
 
-// Обработчик выбора быстрой подсказки - ИСПРАВЛЕНО: теперь сразу отправляет запрос
+// Обработчик выбора быстрой подсказки - сразу отправляет запрос
 const handleQuickPromptSelect = (text: string) => {
-  // Создаем новый чат или используем существующий черновик
+  // Создаем новый чат или используем существующий
   if (!hasSelectedChat.value) {
     createNewChat()
   }
@@ -143,7 +156,7 @@ const sendMainInput = () => {
         <!-- Используем слот для отображения заголовка чата -->
         <template #chat-title="{ chatId }">
           <span class="chat-name">
-            {{ chatsStore.getChatTitle(chatId) || `Чат от ${new Date(Number(chatId)).toLocaleString()}` }}
+            {{ chatsStore.getChatTitle(chatId) || "🆕" }}
           </span>
         </template>
       </ChatList>
@@ -154,11 +167,11 @@ const sendMainInput = () => {
       <ChatContainer
         ref="chatContainerRef"
         :chat-id="chatsStore.selectedChatId"
-        :chat-title="isDraftChat ? 'Новый чат' : chatsStore.getChatTitle(chatsStore.selectedChatId) || 'Чат без названия'"
+        :chat-title="chatTitle"
         layout="mobile"
         :show-header="true"
         :show-prompts-when-empty="true"
-        :is-draft="isDraftChat"
+        :is-draft="isTempChat"
         @go-back="setCurrentView('main')"
         @create-chat="createNewChat"
         @update-title="handleUpdateTitle"
