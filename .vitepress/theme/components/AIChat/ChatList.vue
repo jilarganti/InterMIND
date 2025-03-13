@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { MessageSquare, Search, Plus } from "lucide-vue-next"
+import { MessageSquare, Search, Plus, Home } from "lucide-vue-next"
 
 const props = defineProps<{
   /**
@@ -71,11 +71,17 @@ const updateSearchInput = (event: Event) => {
   <div class="chat-list-container" :class="{ 'mobile-chat-list': layout === 'mobile' }">
     <!-- Поисковая строка и кнопка нового чата -->
     <div class="search-toolbar">
+      <!-- Кнопка Home для перехода на главную страницу -->
+      <a href="/" class="toolbar-button neutral-button" title="На главную">
+        <Home :size="20" />
+      </a>
+
       <div class="search-container">
         <Search :size="18" class="search-icon" />
         <input :value="searchInput" @input="updateSearchInput" class="search-input" placeholder="Поиск чатов..." type="text" />
       </div>
-      <button class="new-chat-button" @click="createNewChat">
+
+      <button class="toolbar-button neutral-button" @click="createNewChat" title="Новый чат">
         <Plus :size="20" />
       </button>
     </div>
@@ -125,10 +131,37 @@ const updateSearchInput = (event: Event) => {
   background-color: var(--vp-c-bg-soft);
 }
 
+/* Общие стили для кнопок в тулбаре */
+.toolbar-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+/* Нейтральный стиль кнопок */
+.neutral-button {
+  color: var(--vp-c-text-2);
+  background-color: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+  transition: all 0.2s;
+}
+
+.neutral-button:hover {
+  color: var(--vp-c-text-1);
+  border-color: var(--vp-c-divider-dark);
+}
+
 /* Поиск */
 .search-container {
   position: relative;
   flex: 1;
+  height: 40px;
 }
 
 .search-icon {
@@ -137,41 +170,25 @@ const updateSearchInput = (event: Event) => {
   top: 50%;
   transform: translateY(-50%);
   color: var(--vp-c-text-3);
+  z-index: 1;
 }
 
 .search-input {
   width: 100%;
-  padding: 10px 10px 10px 36px;
+  height: 40px;
+  padding: 0 10px 0 36px;
   border-radius: 8px;
   border: 1px solid var(--vp-c-divider);
   background-color: var(--vp-c-bg);
   font-size: 0.875rem;
   color: var(--vp-c-text-1);
+  box-sizing: border-box;
 }
 
 .search-input:focus {
   outline: none;
   border-color: var(--vp-c-brand);
   box-shadow: 0 0 0 2px var(--vp-c-brand-light);
-}
-
-/* Кнопка нового чата */
-.new-chat-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  background-color: var(--vp-c-brand);
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.new-chat-button:hover {
-  background-color: var(--vp-c-brand-dark);
 }
 
 /* Список чатов */
