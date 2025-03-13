@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { MessageSquare, Search, Plus, Home } from "lucide-vue-next"
+import { computed } from "vue"
 
 const props = defineProps<{
   /**
@@ -50,6 +51,22 @@ const emit = defineEmits<{
   (e: "go-back"): void
 }>()
 
+// Преобразуем вложенную структуру в плоский список групп по месяцам
+const flattenedGroups = computed(() => {
+  const result = {}
+
+  // Объединяем все месяцы из разных лет
+  for (const [year, monthData] of Object.entries(props.groupedChats)) {
+    for (const [month, chatIds] of Object.entries(monthData)) {
+      // Добавляем год к названию месяца для уникальности
+      const monthKey = `${month} ${year}`
+      result[monthKey] = chatIds
+    }
+  }
+
+  return result
+})
+
 // Запрашиваем создание нового чата у родителя
 const createNewChat = () => {
   emit("create-chat")
@@ -88,24 +105,21 @@ const updateSearchInput = (event: Event) => {
 
     <!-- Список чатов -->
     <div class="chats-list">
-      <div v-for="(yearData, year) in groupedChats" :key="year" class="chat-year-group">
-        <h2 class="year-header">{{ year }}</h2>
+      <!-- Упрощенная структура - только по месяцам -->
+      <div v-for="(chatIds, month) in flattenedGroups" :key="month" class="chat-month-group">
+        <div class="month-header">{{ month }}</div>
 
-        <div v-for="(monthChats, month) in yearData" :key="`${year}-${month}`" class="chat-month-group">
-          <h3 class="month-header">{{ month }}</h3>
-
-          <div v-for="chatId in monthChats" :key="chatId" class="chat-item" :class="{ active: chatId === selectedChatId }" @click="emit('select-chat', chatId)">
-            <MessageSquare :size="18" class="chat-icon" />
-            <!-- Используем слот для отображения заголовка чата -->
-            <slot name="chat-title" :chat-id="chatId">
-              <span class="chat-name">Чат {{ new Date(Number(chatId)).toLocaleString() }}</span>
-            </slot>
-          </div>
+        <div v-for="chatId in chatIds" :key="chatId" class="chat-item" :class="{ active: chatId === selectedChatId }" @click="emit('select-chat', chatId)">
+          <MessageSquare :size="18" class="chat-icon" />
+          <!-- Используем слот для отображения заголовка чата -->
+          <slot name="chat-title" :chat-id="chatId">
+            <span class="chat-name">Чат {{ new Date(Number(chatId)).toLocaleString() }}</span>
+          </slot>
         </div>
       </div>
 
       <!-- Если список пуст, показываем сообщение -->
-      <div v-if="Object.keys(groupedChats).length === 0" class="empty-list-message">
+      <div v-if="Object.keys(flattenedGroups).length === 0" class="empty-list-message">
         <p>Нет чатов, соответствующих поиску</p>
       </div>
     </div>
@@ -198,19 +212,13 @@ const updateSearchInput = (event: Event) => {
   padding: 0 16px 16px 16px;
 }
 
-.year-header {
-  font-size: 1.1rem;
-  font-weight: 700;
-  margin: 16px 0 8px 0;
-  color: var(--vp-c-text-1);
-}
-
+/* Заголовок месяца */
 .month-header {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
-  margin: 12px 0 8px 0;
   color: var(--vp-c-text-2);
-  padding-bottom: 4px;
+  padding: 8px 0;
+  margin-top: 4px;
   border-bottom: 1px solid var(--vp-c-divider-light);
 }
 
@@ -258,10 +266,5 @@ const updateSearchInput = (event: Event) => {
 .mobile-chat-list .chat-item {
   padding: 12px;
   margin-bottom: 8px;
-}
-
-.mobile-chat-list .year-header {
-  font-size: 1.1rem;
-  margin-top: 20px;
 }
 </style>
