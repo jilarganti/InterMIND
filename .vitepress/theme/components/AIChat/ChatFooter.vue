@@ -181,15 +181,6 @@ const handleKeyDown = (event: KeyboardEvent): void => {
     <div v-if="errorMessage" class="error-message">
       {{ errorMessage }}
     </div>
-
-    <!-- Индикатор статуса отправки -->
-    <div v-if="status === 'streaming'" class="typing-indicator">
-      <span v-if="debugMode">Raw streaming...</span>
-      <span v-else>
-        <span v-if="currentMode === 'followup'">AI готовит детальный ответ...</span>
-        <span v-else>AI is typing...</span>
-      </span>
-    </div>
   </div>
 </template>
 
@@ -302,14 +293,6 @@ const handleKeyDown = (event: KeyboardEvent): void => {
 .stop-button:hover {
   background-color: var(--vp-c-danger-soft);
   border-color: var(--vp-c-danger-dark);
-}
-
-/* Индикатор набора сообщения */
-.typing-indicator {
-  padding: 0.5rem 1rem;
-  color: var(--vp-c-text-2);
-  font-size: 0.875rem;
-  text-align: center;
 }
 
 /* Сообщение об ошибке */
