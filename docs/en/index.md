@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Get Free Consultation
-      link: ./#contact-form
+      link: ./chat
     - theme: alt
       text: Support 24/7
       link: ./resources/contacts
