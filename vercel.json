@@ -9,5 +9,11 @@
         "cache-control": "public, max-age=86400, s-maxage=604800"
       }
     }
-  ]
+  ],
+  "functions": {
+    "api/chat.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  }
 }

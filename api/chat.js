@@ -42,6 +42,7 @@ export async function POST(req) {
       // model: anthropic("claude-3-haiku-20240307"),
       system: systemPrompt,
       messages,
+      maxTokens: 4000, // Устанавливаем явное ограничение токенов
     })
 
     console.log("🔵 API: Получен ответ от AI, начинаем стриминг...")
