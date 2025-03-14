@@ -29,7 +29,7 @@ export async function searchImages(query, limit = 1) {
   console.log(`🟢 IMAGE-SERVICE: Ключи API настроены корректно`)
 
   try {
-    const url = `https://www.googleapis.com/customsearch/v1?key=${GOOGLE_API_KEY}&cx=${SEARCH_ENGINE_ID}&q=${encodeURIComponent(query)}&searchType=image&num=${limit}&safe=active&imgType=photo`
+    const url = `https://www.googleapis.com/customsearch/v1?key=${GOOGLE_API_KEY}&cx=${SEARCH_ENGINE_ID}&q=${encodeURIComponent(query)}&searchType=image&&dateRestrict=y1&num=${limit}`
     console.log(`🟢 IMAGE-SERVICE: Отправляем запрос к Google CSE API: ${url.substring(0, url.indexOf("key=") + 5)}...HIDDEN...`)
 
     const startTime = Date.now()
