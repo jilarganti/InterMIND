@@ -6,6 +6,7 @@ import { Home } from "lucide-vue-next"
 import { useChatTitle } from "@theme/composables/AIChat/useChatTitle"
 import { useQuickPrompts } from "@theme/composables/AIChat/useQuickPrompts"
 import { useChatsStore } from "@theme/stores/chatsStore"
+import type { ChatThreadMethods } from "@theme/types/ChatThread"
 
 const props = defineProps<{
   /**
@@ -71,14 +72,8 @@ const hasMessages = computed(() => {
   return messages && messages.length > 0
 })
 
-// Интерфейс для доступа к методам ChatThread
-interface ChatRef {
-  insertText: (text: string) => void
-  submitTextDirectly: (text: string) => void
-}
-
 // Ref для доступа к компоненту ChatThread
-const chatThreadRef = ref<ChatRef | null>(null)
+const chatThreadRef = ref<ChatThreadMethods | null>(null)
 
 // Ref для input элемента заголовка
 const titleInputRef = ref<HTMLInputElement | null>(null)

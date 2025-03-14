@@ -2,11 +2,17 @@
 import { MessageSquare, Search, Plus, Home } from "lucide-vue-next"
 import { computed } from "vue"
 
-const props = defineProps<{
+interface GroupedChats {
+  [year: string]: {
+    [month: string]: string[]
+  }
+}
+
+interface Props {
   /**
    * Сгруппированные чаты по годам и месяцам
    */
-  groupedChats: Record<string, Record<string, string[]>>
+  groupedChats: GroupedChats
 
   /**
    * ID текущего выбранного чата
@@ -27,7 +33,9 @@ const props = defineProps<{
    * Идентификатор текущего макета (desktop или mobile)
    */
   layout?: "desktop" | "mobile"
-}>()
+}
+
+const props = defineProps<Props>()
 
 const emit = defineEmits<{
   /**
@@ -53,7 +61,8 @@ const emit = defineEmits<{
 
 // Преобразуем вложенную структуру в плоский список групп по месяцам
 const flattenedGroups = computed(() => {
-  const result = {}
+  // Правильно типизируем результирующий объект
+  const result: Record<string, string[]> = {}
 
   // Объединяем все месяцы из разных лет
   for (const [year, monthData] of Object.entries(props.groupedChats)) {

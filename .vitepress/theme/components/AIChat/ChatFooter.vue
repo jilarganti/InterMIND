@@ -2,16 +2,16 @@
 import { ref, onMounted, onUnmounted, computed } from "vue"
 import { ArrowUp, Square, Bug } from "lucide-vue-next"
 
-const props = defineProps<{
+interface Props {
   /**
    * Текст в поле ввода
    */
   inputValue: string
 
   /**
-   * Статус отправки сообщения ('idle', 'streaming', 'error')
+   * Статус отправки сообщения ('idle'/'ready'/'submitted', 'streaming', 'error')
    */
-  status: "idle" | "streaming" | "error"
+  status: "idle" | "ready" | "submitted" | "streaming" | "error"
 
   /**
    * Сообщение об ошибке (если есть)
@@ -32,7 +32,9 @@ const props = defineProps<{
    * Специфичный режим для чата
    */
   currentMode?: string
-}>()
+}
+
+const props = defineProps<Props>()
 
 const emit = defineEmits<{
   /**

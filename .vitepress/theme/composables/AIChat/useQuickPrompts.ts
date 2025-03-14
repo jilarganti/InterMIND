@@ -1,6 +1,7 @@
 // .vitepress/theme/composables/AIChat/useQuickPrompts.ts
 import { ref } from "vue"
 import type { Ref } from "vue"
+import type { ChatThreadMethods } from "@theme/types/ChatThread"
 
 export interface QuickPrompt {
   id: string
@@ -16,11 +17,10 @@ interface UseQuickPromptsOptions {
   isMobileMode?: boolean
 }
 
-export function useQuickPrompts(
-  chatInputRef: Ref<{ insertText: (text: string) => void; submitTextDirectly: (text: string) => void } | null>,
-  mainInputRef?: Ref<string>,
-  options: UseQuickPromptsOptions = {},
-) {
+/**
+ * Управление быстрыми подсказками для чата
+ */
+export function useQuickPrompts(chatInputRef: Ref<ChatThreadMethods | null>, mainInputRef?: Ref<string>, options: UseQuickPromptsOptions = {}) {
   // Список быстрых поисковых запросов по категориям
   const quickPrompts = ref<QuickPrompt[]>([
     // Attractions - достопримечательности

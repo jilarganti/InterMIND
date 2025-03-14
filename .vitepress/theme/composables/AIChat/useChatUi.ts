@@ -8,6 +8,13 @@ interface ImageClickHandlers {
   cleanupImageClicks: () => void
 }
 
+/**
+ * Composable для управления UI элементами чата
+ * @param messagesContainerRef Ref на контейнер сообщений
+ * @param textareaRef Ref на поле ввода (опциональный)
+ * @param input Ref на значение поля ввода (опциональный)
+ * @param setMode Функция для изменения режима чата (опциональный)
+ */
 export function useChatUi(
   messagesContainerRef: Ref<HTMLDivElement | null>,
   textareaRef?: Ref<HTMLTextAreaElement | null>,
@@ -50,8 +57,6 @@ export function useChatUi(
       if (target?.classList.contains("chat-interactive-image")) {
         const query = target.getAttribute("data-query")
         if (query) {
-          console.log(`🟢 CLIENT: Клик по изображению с запросом "${query}"`)
-
           // Создаем визуальный фидбек
           const htmlTarget = target as HTMLElement
           htmlTarget.style.transition = "all 0.3s"
@@ -62,7 +67,6 @@ export function useChatUi(
           setTimeout(() => {
             // Устанавливаем режим followup
             if (setMode) {
-              console.log(`🟢 CLIENT: Клик по изображению → режим followup`)
               setMode("followup")
             }
             submitTextFn(query, "followup")
@@ -82,8 +86,6 @@ export function useChatUi(
         const query = buttonEl?.getAttribute("data-query")
 
         if (query && buttonEl) {
-          console.log(`🟢 CLIENT: Клик по кнопке с запросом "${query}"`)
-
           // Создаем визуальный фидбек
           const htmlButton = buttonEl as HTMLElement
           htmlButton.style.transition = "all 0.3s"
@@ -93,7 +95,6 @@ export function useChatUi(
           setTimeout(() => {
             // Устанавливаем режим followup
             if (setMode) {
-              console.log(`🟢 CLIENT: Клик по элементу → режим followup`)
               setMode("followup")
             }
             submitTextFn(query, "followup")
@@ -128,19 +129,11 @@ export function useChatUi(
   // Настройка открытия ссылок в новой вкладке
   const defaultRender = md.renderer.rules.link_open || ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options))
 
-  // Модификация для ссылок: добавляем интерактивную кнопку
+  // Модификация для ссылок: добавляем атрибуты для безопасности
   md.renderer.rules.link_open = (tokens, idx, options, env, self) => {
     tokens[idx].attrSet("target", "_blank")
     tokens[idx].attrSet("rel", "noopener")
     return defaultRender(tokens, idx, options, env, self)
-  }
-
-  // Сохраняем оригинальный renderer для blockquote
-  const defaultBlockquoteRender = md.renderer.rules.blockquote_open || ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options))
-
-  // Модифицируем renderer для blockquote
-  md.renderer.rules.blockquote_open = (tokens, idx, options, env, self) => {
-    return defaultBlockquoteRender(tokens, idx, options, env, self)
   }
 
   // Добавляем пост-процессинг для добавления интерактивных кнопок
@@ -160,7 +153,6 @@ export function useChatUi(
       const href = link.getAttribute("href") || ""
 
       // Определяем, что использовать в запросе - текст до скобок или полный текст
-      // Это помогает обрабатывать случаи типа "Dubai Mall Dining Directory [www.thedubaimall.com/dine ]"
       const displayTextMatch = linkText.match(/(.*?)\s*\[.*?\]/)
       const queryText = displayTextMatch ? displayTextMatch[1].trim() : linkText
 
@@ -186,7 +178,6 @@ export function useChatUi(
       const queryText = text.replace(/^[\p{Emoji}\s]+/u, "").trim()
 
       // Ищем первый параграф или первый текстовый узел
-      let firstNode = null
       const firstParagraph = blockquote.querySelector("p:first-child")
 
       if (firstParagraph) {

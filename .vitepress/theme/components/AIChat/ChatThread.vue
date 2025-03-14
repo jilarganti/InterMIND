@@ -5,10 +5,13 @@ import { useChatUi } from "@theme/composables/AIChat/useChatUi"
 import { processImagesInMessage } from "@theme/utils/chatUtils"
 import { useChatsStore } from "@theme/stores/chatsStore"
 import ChatFooter from "./ChatFooter.vue"
+import type { UIMessage } from "@ai-sdk/ui-utils"
 
-const props = defineProps<{
+interface Props {
   chatId: string
-}>()
+}
+
+const props = defineProps<Props>()
 
 // Рефы для DOM-элементов
 const messagesContainerRef = ref<HTMLDivElement | null>(null)
@@ -29,23 +32,17 @@ const chatSessionId = ref(props.chatId)
 // Создаем новый chat с помощью useChat
 const { messages, input, handleSubmit, status, error, stop, setMessages } = useChat({
   api: "/api/chat",
-  id: chatSessionId.value, // Используем chatSessionId вместо props.chatId
+  id: chatSessionId.value,
   initialMessages: chatsStore.getMessages(props.chatId),
   body: {
     stream: true,
-    // Используем функцию, которая будет вызываться при каждом запросе
     getBody: () => ({
       mode: currentMode.value,
     }),
   },
   onFinish: async () => {
-    console.log(`🟢 CLIENT: Ответ завершен, mode: ${currentMode.value} → default`)
-
     // Проверяем, что chatId не изменился во время получения ответа
-    if (chatSessionId.value !== props.chatId) {
-      console.log(`🟠 CLIENT: ID чата изменился во время получения ответа. Игнорируем обновление.`)
-      return
-    }
+    if (chatSessionId.value !== props.chatId) return
 
     // Сбрасываем режим на стандартный после получения ответа
     currentMode.value = "default"
@@ -61,8 +58,6 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
 
         // Обновляем сообщение, если оно изменилось
         if (processedMessage !== lastMessage) {
-          console.log(`🟢 CLIENT: Обновляем сообщение с обработанными изображениями`)
-
           // Создаем новый массив, чтобы обеспечить реактивное обновление
           const updatedMessages = [...messages.value]
           updatedMessages[lastIndex] = processedMessage
@@ -75,17 +70,16 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
     // Прокручиваем к последнему сообщению
     scrollToBottom()
   },
-  onError: (error) => {
+  onError: () => {
     // Сбрасываем режим на стандартный после ошибки
     currentMode.value = "default"
-    console.error("Chat error:", error)
   },
 })
 
 // Инициализируем composable для UI элементов
 const { renderMarkdown, scrollToBottom, setupImageClickHandler } = useChatUi(
   messagesContainerRef,
-  null,
+  undefined, // передаем undefined вместо null для типизации
   input,
   // Добавляем функцию для изменения режима
   (mode: string) => {
@@ -104,8 +98,6 @@ const handleSubmitWithScroll = async (event?: Event) => {
     return
   }
 
-  console.log(`🟢 CLIENT: Отправка запроса в режиме: ${currentMode.value}`)
-
   // Создаем новое событие, если не было передано существующее
   const submitEvent = event || new Event("submit")
   await handleSubmit(submitEvent)
@@ -117,7 +109,6 @@ const handleSubmitWithScroll = async (event?: Event) => {
 const submitTextDirectly = (text: string, mode = "default") => {
   if (text.trim() && status.value !== "streaming") {
     // Устанавливаем режим запроса
-    console.log(`🟢 CLIENT: Меняем режим: ${currentMode.value} → ${mode}`)
     currentMode.value = mode
     input.value = text
     handleSubmitWithScroll() // Не передаем событие, будет создано внутри функции
@@ -143,12 +134,10 @@ const { setupImageClicks, cleanupImageClicks } = setupImageClickHandler(
 // Когда chatId меняется, обновляем chatSessionId и перезагружаем сообщения
 watchEffect(() => {
   if (props.chatId !== chatSessionId.value) {
-    console.log(`🟢 CLIENT: Обновляем chatSessionId: ${chatSessionId.value} → ${props.chatId}`)
     chatSessionId.value = props.chatId
 
     // Загружаем сообщения для нового чата
     const chatMessages = chatsStore.getMessages(props.chatId)
-    console.log(`🟢 CLIENT: Загружаем сообщения для чата ${props.chatId}:`, chatMessages.length)
     setMessages(chatMessages)
   }
 })
@@ -183,7 +172,7 @@ defineExpose({ insertText, submitTextDirectly })
 
 <template>
   <div class="chat-thread">
-    <!-- Messages area -->
+    <!-- Контейнер сообщений -->
     <div ref="messagesContainerRef" class="messages-container">
       <div v-for="msg in messages" :key="msg.id" class="message" :class="msg.role">
         <!-- Raw message display (Debug mode) -->
@@ -264,6 +253,39 @@ defineExpose({ insertText, submitTextDirectly })
   width: 100%;
 }
 
+/* Стили для отладочного режима */
+.raw-message {
+  background-color: var(--vp-c-bg-soft);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-family: monospace;
+  font-size: 0.875rem;
+}
+
+.raw-message-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.raw-role {
+  font-weight: bold;
+  color: var(--vp-c-brand);
+}
+
+.raw-id {
+  color: var(--vp-c-text-2);
+  font-size: 0.75rem;
+}
+
+.raw-content {
+  white-space: pre-wrap;
+  overflow-x: auto;
+  margin: 0;
+}
+
 /* Стили для форматирования контента сообщений */
 .message.assistant .message-content :deep(p) {
   margin-top: 0.5rem;
@@ -302,38 +324,5 @@ defineExpose({ insertText, submitTextDirectly })
   padding: 0.5rem 1rem;
   border-left: 4px solid var(--vp-c-divider);
   background-color: var(--vp-c-bg-soft);
-}
-
-/* Стили для отладочного режима */
-.raw-message {
-  background-color: var(--vp-c-bg-soft);
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  font-family: monospace;
-  font-size: 0.875rem;
-}
-
-.raw-message-header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--vp-c-divider);
-}
-
-.raw-role {
-  font-weight: bold;
-  color: var(--vp-c-brand);
-}
-
-.raw-id {
-  color: var(--vp-c-text-2);
-  font-size: 0.75rem;
-}
-
-.raw-content {
-  white-space: pre-wrap;
-  overflow-x: auto;
-  margin: 0;
 }
 </style>

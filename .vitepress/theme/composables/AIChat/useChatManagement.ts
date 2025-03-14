@@ -1,9 +1,8 @@
-// .vitepress/theme/composables/AIChat/useChatManagement.ts
-import { ref, computed, onMounted, watch } from "vue"
+import { ref, computed, onMounted } from "vue"
 import { useChatsStore } from "@theme/stores/chatsStore"
 import type { Ref } from "vue"
 
-// Интерфейс для определения структуры групп чатов
+// Типы для группировки чатов
 interface MonthGroup {
   [month: string]: string[]
 }
@@ -15,11 +14,13 @@ interface YearGroups {
 interface UseChatManagementOptions {
   /**
    * Функция для установки выбранного представления в мобильном интерфейсе
-   * (используется только в мобильном макете)
    */
   setCurrentView?: (view: string) => void
 }
 
+/**
+ * Composable для управления чатами и их отображением
+ */
 export function useChatManagement(options: UseChatManagementOptions = {}) {
   const chatsStore = useChatsStore()
 
@@ -48,11 +49,11 @@ export function useChatManagement(options: UseChatManagementOptions = {}) {
     const groups: YearGroups = {}
 
     filteredChatIds.value.forEach((id) => {
-      // Игнорируем временный чат в группировке (он не должен отображаться в списке)
+      // Игнорируем временный чат в группировке
       if (chatsStore.isTempChat(id)) return
 
       const date = new Date(Number(id))
-      const year = date.getFullYear().toString() // Преобразуем number в string
+      const year = date.getFullYear().toString()
       const month = date.toLocaleString("default", { month: "long" })
 
       if (!groups[year]) {
@@ -72,10 +73,6 @@ export function useChatManagement(options: UseChatManagementOptions = {}) {
   // Функция для создания нового чата
   const createNewChat = () => {
     const chatId = chatsStore.createNewChat()
-
-    // Нет необходимости автоматически переходить на чат,
-    // это должно контролироваться вызывающим кодом при необходимости
-
     return chatId
   }
 
@@ -99,21 +96,6 @@ export function useChatManagement(options: UseChatManagementOptions = {}) {
     // Инициализируем хранилище чатов
     chatsStore.ensureChat()
   })
-
-  // Отслеживаем изменение selectedChatId
-  watch(
-    () => chatsStore.selectedChatId,
-    (newChatId) => {
-      // Убедимся, что выбранный чат существует
-      if (newChatId && !chatsStore.chatIds.includes(newChatId) && !chatsStore.isTempChat(newChatId)) {
-        if (chatsStore.chatIds.length > 0) {
-          selectChat(chatsStore.chatIds[0])
-        } else {
-          createNewChat()
-        }
-      }
-    },
-  )
 
   return {
     // Состояние

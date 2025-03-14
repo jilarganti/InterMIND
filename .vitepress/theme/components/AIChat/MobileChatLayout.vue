@@ -4,6 +4,7 @@ import ChatList from "./ChatList.vue"
 import ChatContainer from "./ChatContainer.vue"
 import { useChatManagement } from "@theme/composables/AIChat/useChatManagement"
 import { useQuickPrompts } from "@theme/composables/AIChat/useQuickPrompts"
+import type { ChatThreadMethods } from "@theme/types/ChatThread"
 
 // Управление текущим view: 'chats', 'chat'
 const currentView = ref("chat") // По умолчанию открываем чат
@@ -35,7 +36,10 @@ const chatTitle = computed(() => {
 })
 
 // Ссылка на компонент контейнера чата
-const chatContainerRef = ref(null)
+const chatContainerRef = ref<{
+  insertText: (text: string) => void
+  submitTextDirectly: (text: string) => void
+} | null>(null)
 
 // Получаем быстрые подсказки
 const { quickPrompts } = useQuickPrompts(chatContainerRef)
