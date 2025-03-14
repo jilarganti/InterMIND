@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import FeatureCard from "./FeatureCard.vue"
+
 interface ImageTheme {
   light: string
   dark: string
