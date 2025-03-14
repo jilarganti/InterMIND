@@ -7,7 +7,6 @@
       "@config/*": ["./.vitepress/config/*"],
       "@theme/*": ["./.vitepress/theme/*"],
       "@docs/*": ["./docs/en/*"]
-      // "@setup/*": ["./.vitepress/*"],
     }
   }
 }

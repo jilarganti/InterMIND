@@ -1,15 +1,16 @@
 import { h } from "vue"
 import DefaultTheme from "vitepress/theme"
-import "./style.css"
-// import "./interactive-images.css"
 import type { Theme } from "vitepress"
+import "./styles/style.css"
+import "./styles/AIChat.css"
+
 import { useData, inBrowser, useRouter } from "vitepress"
 import { watchEffect } from "vue"
 import { createPinia } from "pinia"
-import "./AIChat.css"
 
 import { components } from "./components"
-const { TypeForm, HomeSponsors, AsideSponsors } = components
+
+const { AsideSponsors } = components
 
 const PATH_CLEANUP_REGEX = /^(?:en|ar|hi|ur|bn|ml|ta|te|fa|zh|fr|ru|uk|tr|ko|ja|tl|id|vi|pt|es)\/|(\.[^/.]+)$/g
 
@@ -41,9 +42,9 @@ export default {
     })
 
     return h(DefaultTheme.Layout, null, {
-      "home-features-after": () => h(HomeSponsors),
       "aside-ads-before": () => h(AsideSponsors),
-      "nav-bar-content-after": () => h(TypeForm, { typeformId: "01J8Q752166MZH0T93ZYYJ3ZMD" }),
+      // "home-features-after": () => h(HomeSponsors),
+      // "nav-bar-content-after": () => h(TypeForm, { typeformId: "01J8Q752166MZH0T93ZYYJ3ZMD" }),
     })
   },
   enhanceApp({ app, router, siteData }) {

@@ -1,9 +1,10 @@
+node_modules
 .env
 
-.vercel
 dist
 cache
+
+.vercel
 archive
-node_modules
 
 

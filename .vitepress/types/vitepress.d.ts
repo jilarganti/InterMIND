@@ -3,30 +3,30 @@
  */
 import "vitepress"
 
-// declare module "vitepress" {
-//   export interface UserConfig {
-//     themeConfig: ThemeConfig & {
-//       contact_form: {
-//         name: string
-//         namePlaceholder: string
-//         phone: string
-//         phonePlaceholder: string
-//         phoneError: string
-//         email: string
-//         emailPlaceholder: string
-//         message: string
-//         messagePlaceholder: string
-//         submit: string
-//         sending: string
-//         successTitle: string
-//         successMessage: string
-//         selectPlaceholder: string
-//         defaultCategories: string[]
-//         defaultButtonText: string
-//       }
-//     }
-//   }
-// }
+declare module "vitepress" {
+  export interface UserConfig {
+    themeConfig: ThemeConfig & {
+      contact_form: {
+        name: string
+        namePlaceholder: string
+        phone: string
+        phonePlaceholder: string
+        phoneError: string
+        email: string
+        emailPlaceholder: string
+        message: string
+        messagePlaceholder: string
+        submit: string
+        sending: string
+        successTitle: string
+        successMessage: string
+        selectPlaceholder: string
+        defaultCategories: string[]
+        defaultButtonText: string
+      }
+    }
+  }
+}
 
 interface FormSubmissionEvent {
   event: string
