@@ -136,23 +136,19 @@ defineExpose({
 
     <!-- Если чат существует -->
     <template v-if="chatId">
-      <!-- Если в чате есть сообщения - показываем чат -->
-      <ChatThread v-if="hasMessages" ref="chatThreadRef" :chat-id="chatId" :key="`thread-${chatId}`" />
+      <!-- Используем единый ChatThread компонент с одним ключом -->
+      <div class="chat-thread-container">
+        <ChatThread ref="chatThreadRef" :chat-id="chatId" :key="chatId" />
 
-      <!-- Если чат пустой - показываем подсказки -->
-      <div v-else class="empty-chat-wrapper">
-        <!-- Быстрые подсказки для нового чата -->
-        <div v-if="showPromptsWhenEmpty" class="prompts-container">
-          <div class="prompts-grid">
-            <button v-for="prompt in quickPrompts" :key="prompt.id" class="prompt-button" @click="handlePromptSelectInChat(prompt.text)">
-              {{ prompt.text }}
-            </button>
+        <!-- Если чат пустой - показываем подсказки поверх чата, но не закрываем поле ввода -->
+        <div v-if="!hasMessages && showPromptsWhenEmpty" class="empty-prompts-overlay">
+          <div class="prompts-container">
+            <div class="prompts-grid">
+              <button v-for="prompt in quickPrompts" :key="prompt.id" class="prompt-button" @click="handlePromptSelectInChat(prompt.text)">
+                {{ prompt.text }}
+              </button>
+            </div>
           </div>
-        </div>
-
-        <!-- Поле ввода чата -->
-        <div class="chat-input-wrapper">
-          <ChatThread ref="chatThreadRef" :chat-id="chatId" :key="`empty-${chatId}`" class="empty-chat-thread" />
         </div>
       </div>
     </template>
@@ -181,8 +177,10 @@ defineExpose({
   background-color: var(--vp-c-bg);
 }
 
-/* Обертка для пустого чата */
-.empty-chat-wrapper {
+/* Контейнер для компонента ChatThread */
+.chat-thread-container {
+  position: relative;
+  flex: 1;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -190,34 +188,47 @@ defineExpose({
   overflow: hidden;
 }
 
+/* Оверлей для подсказок в пустом чате - оставляем место для поля ввода */
+.empty-prompts-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 70px; /* Оставляем место для поля ввода */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--vp-c-bg);
+  z-index: 10;
+  padding: 8px;
+  overflow-y: auto;
+  width: 100%; /* Гарантируем 100% ширину */
+}
+
 /* Контейнер для подсказок */
 .prompts-container {
-  flex: 1; /* Занимает все доступное пространство */
   width: 100%;
-  overflow-y: auto; /* Добавляем скролл если не помещается */
-  padding: 16px;
+  max-width: 1200px; /* Увеличиваем максимальную ширину */
+  margin: 0 auto;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
 }
 
 /* Сетка подсказок */
 .prompts-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Адаптивная сетка */
   gap: 16px;
   width: 100%;
+  max-height: calc(100vh - 160px); /* Оставляем место для поля ввода */
+  overflow-y: auto;
 }
 
-/* Адаптивность для разных экранов */
-@media (max-width: 768px) {
-  .prompts-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .prompts-grid {
-    grid-template-columns: 1fr;
-  }
-}
+/* Адаптивность для разных экранов уже реализована через auto-fill */
 
 /* Кнопка подсказки */
 .prompt-button {
@@ -239,19 +250,6 @@ defineExpose({
   border-color: var(--vp-c-brand);
   transform: translateY(-2px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-}
-
-/* Обертка для поля ввода */
-.chat-input-wrapper {
-  flex-shrink: 0; /* Не сжимается */
-  margin-top: auto; /* Прижимаем к нижней части */
-  min-height: 70px; /* Минимальная высота */
-  width: 100%;
-}
-
-/* Пустой чат */
-.empty-chat-thread {
-  width: 100%;
 }
 
 /* Плейсхолдер при отсутствии чата */
