@@ -59,9 +59,7 @@ export function useChatUi(
         if (query) {
           // Создаем визуальный фидбек
           const htmlTarget = target as HTMLElement
-          htmlTarget.style.transition = "all 0.3s"
-          htmlTarget.style.animation = "pulse 1s 2"
-          htmlTarget.style.boxShadow = "0 0 0 2px var(--vp-c-brand)"
+          htmlTarget.style.color = "var(--chat-bg-mute)"
 
           // Отправляем запрос после небольшой задержки
           setTimeout(() => {
@@ -72,10 +70,7 @@ export function useChatUi(
             submitTextFn(query, "followup")
 
             // Восстанавливаем стили
-            setTimeout(() => {
-              htmlTarget.style.animation = ""
-              htmlTarget.style.boxShadow = ""
-            }, 1000)
+            // setTimeout(() => {}, 1000)
           }, 300)
         }
       }
@@ -87,8 +82,7 @@ export function useChatUi(
         if (query) {
           // Создаем визуальный фидбек
           const htmlTarget = target as HTMLElement
-          htmlTarget.style.transition = "all 0.3s"
-          htmlTarget.style.animation = "pulse 1s 1"
+          htmlTarget.style.color = "var(--chat-bg-mute)"
 
           // Отправляем запрос после небольшой задержки
           setTimeout(() => {
@@ -111,8 +105,7 @@ export function useChatUi(
         if (query && element) {
           // Создаем визуальный фидбек
           const htmlElement = element as HTMLElement
-          htmlElement.style.transition = "all 0.3s"
-          htmlElement.style.animation = "pulse 1s 1"
+          htmlElement.style.color = "var(--chat-bg-mute)"
 
           // Отправляем запрос после небольшой задержки
           setTimeout(() => {
@@ -184,10 +177,9 @@ export function useChatUi(
       interactiveText.setAttribute("data-query", queryText)
       interactiveText.setAttribute("title", "Learn more: " + queryText)
       interactiveText.textContent = queryText + ":"
-      interactiveText.style.cursor = "pointer"
-      interactiveText.style.color = "var(--chat-brand-color)"
-      interactiveText.style.textDecoration = "underline"
-      // interactiveText.style.marginRight = "0.5em"
+      // interactiveText.style.cursor = "pointer"
+      // interactiveText.style.color = "var(--chat-brand-color)"
+      // interactiveText.style.textDecoration = "underline"
 
       // Изменяем текст ссылки на URL без https:// и без параметров после ?, и ограничиваем длину до 30 символов
       let displayUrl = href.replace(/^https?:\/\//, "").replace(/\?.*$/, "")
@@ -223,9 +215,9 @@ export function useChatUi(
         interactiveText.className = "interactive-blockquote-text"
         interactiveText.setAttribute("data-query", queryText)
         interactiveText.innerHTML = originalContent
-        interactiveText.style.cursor = "pointer"
-        interactiveText.style.color = "var(--chat-brand-color)"
-        interactiveText.style.textDecoration = "underline"
+        // interactiveText.style.cursor = "pointer"
+        // interactiveText.style.color = "var(--chat-brand-color)"
+        // interactiveText.style.textDecoration = "underline"
 
         // Вставляем интерактивный элемент в параграф
         firstParagraph.appendChild(interactiveText)

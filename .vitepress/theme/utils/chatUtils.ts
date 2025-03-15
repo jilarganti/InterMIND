@@ -53,7 +53,7 @@ export async function processImagesInMessage(message: UIMessage): Promise<UIMess
           const imageUrl = image.url
           const title = image.title || query
 
-          const imageHtml = `<figure class="image-container" style="margin:16px;">
+          const imageHtml = `<figure class="image-container">
             <img class="chat-interactive-image" src="${imageUrl}" data-query="${query}" data-title="${title}" style="max-width:100%">
             <figcaption style="font-size:0.8em;color:#666;margin-top:4px"><a href="${imageUrl}" target="_blank">${title}</a></figcaption>
           </figure>`

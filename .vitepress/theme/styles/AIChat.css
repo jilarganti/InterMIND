@@ -54,7 +54,7 @@
 }
 
 /* Утилиты для анимаций */
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   from {
     opacity: 0;
   }
@@ -84,10 +84,10 @@
   100% {
     box-shadow: 0 0 0 0 rgba(var(--vp-c-brand-rgb), 0);
   }
-}
+} */
 
 /* Индикаторы загрузки */
-@keyframes bounce {
+/* @keyframes bounce {
   0%,
   80%,
   100% {
@@ -96,4 +96,4 @@
   40% {
     transform: scale(1);
   }
-}
+} */

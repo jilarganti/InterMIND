@@ -313,24 +313,24 @@ defineExpose({ insertText, submitTextDirectly })
   overflow-x: auto;
 }
 
-.message.assistant .message-content :deep(code) {
+/* .message.assistant .message-content :deep(code) {
   padding: 0.2rem 0.4rem;
   background-color: var(--vp-c-bg-soft);
   border-radius: 0.25rem;
-}
+} */
 
 .message.assistant .message-content :deep(blockquote) {
   margin: 0.5rem 0;
   padding: 0.5rem 1rem;
-  border-left: 4px solid var(--vp-c-divider);
-  background-color: var(--vp-c-bg-soft);
+  border-left: 4px solid var(--chat-brand-color);
+  /* background-color: var(--vp-c-bg-soft); */
 }
 
-/* Стили для интерактивных элементов */
+/* Стили для интерактивных ссылок и блоков */
 .message.assistant .message-content :deep(.interactive-link-text) {
-  color: var(--vp-c-brand);
+  color: var(--chat-brand-color);
   cursor: pointer;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   margin-right: 0.5em;
 }
 
@@ -339,6 +339,7 @@ defineExpose({ insertText, submitTextDirectly })
 }
 
 .message.assistant .message-content :deep(.interactive-blockquote-text) {
+  color: var(--chat-brand-color);
   cursor: pointer;
   display: inline-block;
   width: 100%;
@@ -346,5 +347,18 @@ defineExpose({ insertText, submitTextDirectly })
 
 .message.assistant .message-content :deep(.interactive-blockquote-text:hover) {
   opacity: 0.8;
+}
+
+/* Стили для интерактивных изображений */
+.message.assistant .message-content :deep(.chat-interactive-image) {
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.message.assistant .message-content :deep(.chat-interactive-image:hover) {
+  border-color: var(--chat-brand-color);
+  transform: scale(1.005);
 }
 </style>
