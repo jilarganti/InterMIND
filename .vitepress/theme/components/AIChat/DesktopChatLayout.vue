@@ -103,7 +103,7 @@ const handleUpdateTitle = (chatId: string, title: string) => {
   height: 100%;
   overflow: hidden;
   z-index: 100;
-  grid-template-columns: 280px 1fr;
+  /* grid-template-columns: 280px 1fr; */
   grid-template-areas: "sidebar content";
 }
 
@@ -126,7 +126,7 @@ const handleUpdateTitle = (chatId: string, title: string) => {
 /* Медиа-запрос для больших экранов */
 @media (min-width: 1400px) {
   .desktop-chat-layout {
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 400px 1fr;
   }
 }
 </style>
