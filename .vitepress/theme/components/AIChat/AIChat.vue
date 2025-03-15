@@ -4,6 +4,20 @@ import MobileChatLayout from "./MobileChatLayout.vue"
 import DesktopChatLayout from "./DesktopChatLayout.vue"
 import { useChatLayout } from "@theme/composables/AIChat/useChatLayout"
 import { useChatsStore } from "@theme/stores/chatsStore"
+import type { QuickPrompt } from "@theme/composables/AIChat/useQuickPrompts"
+
+// Определяем пропсы для компонента
+interface Props {
+  /**
+   * Массив быстрых подсказок для чата
+   */
+  prompts?: QuickPrompt[]
+}
+
+// Используем defineProps с типом Props
+const props = withDefaults(defineProps<Props>(), {
+  prompts: () => [], // По умолчанию пустой массив
+})
 
 // Используем composable для определения типа устройства
 const { isDesktop } = useChatLayout()
@@ -20,9 +34,9 @@ onMounted(() => {
 
 <template>
   <div class="ai-chat-container">
-    <!-- Отображаем соответствующий макет в зависимости от типа устройства -->
-    <DesktopChatLayout v-if="isDesktop" />
-    <MobileChatLayout v-else />
+    <!-- Отображаем соответствующий макет в зависимости от типа устройства и передаем prompts -->
+    <DesktopChatLayout v-if="isDesktop" :prompts="prompts" />
+    <MobileChatLayout v-else :prompts="prompts" />
   </div>
 </template>
 

@@ -5,6 +5,20 @@ import ChatContainer from "./ChatContainer.vue"
 import { useChatManagement } from "@theme/composables/AIChat/useChatManagement"
 import { useQuickPrompts } from "@theme/composables/AIChat/useQuickPrompts"
 import type { ChatThreadMethods } from "@theme/types/ChatThread"
+import type { QuickPrompt } from "@theme/composables/AIChat/useQuickPrompts"
+
+// Определяем пропсы
+interface Props {
+  /**
+   * Быстрые подсказки для чата
+   */
+  prompts: QuickPrompt[]
+}
+
+// Используем defineProps с типом Props
+const props = withDefaults(defineProps<Props>(), {
+  prompts: () => [], // По умолчанию пустой массив
+})
 
 // Управление текущим view: 'chats', 'chat'
 const currentView = ref("chat") // По умолчанию открываем чат
@@ -41,8 +55,8 @@ const chatContainerRef = ref<{
   submitTextDirectly: (text: string) => void
 } | null>(null)
 
-// Получаем быстрые подсказки
-const { quickPrompts } = useQuickPrompts(chatContainerRef)
+// Получаем быстрые подсказки из пропсов
+const { quickPrompts } = useQuickPrompts(chatContainerRef, props.prompts)
 
 // Обработчик использования подсказки
 const handleUsePrompt = (text: string) => {
@@ -103,6 +117,7 @@ const handleCreateChat = () => {
         :show-header="true"
         :show-prompts-when-empty="true"
         :is-draft="isTempChat"
+        :prompts="quickPrompts"
         @go-back="setCurrentView('chats')"
         @create-chat="handleCreateChat"
         @update-title="handleUpdateTitle"

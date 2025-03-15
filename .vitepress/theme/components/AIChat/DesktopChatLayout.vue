@@ -5,6 +5,20 @@ import ChatContainer from "./ChatContainer.vue"
 import { useChatManagement } from "@theme/composables/AIChat/useChatManagement"
 import { useQuickPrompts } from "@theme/composables/AIChat/useQuickPrompts"
 import type { ChatThreadMethods } from "@theme/types/ChatThread"
+import type { QuickPrompt } from "@theme/composables/AIChat/useQuickPrompts"
+
+// Определяем пропсы
+interface Props {
+  /**
+   * Быстрые подсказки для чата
+   */
+  prompts: QuickPrompt[]
+}
+
+// Используем defineProps с типом Props
+const props = withDefaults(defineProps<Props>(), {
+  prompts: () => [], // По умолчанию пустой массив
+})
 
 // Инициализируем управление чатами
 const { searchInput, groupedChats, hasSelectedChat, createNewChat, selectChat, chatsStore } = useChatManagement()
@@ -33,8 +47,8 @@ const chatContainerRef = ref<{
   submitTextDirectly: (text: string) => void
 } | null>(null)
 
-// Инициализируем работу с быстрыми подсказками (без отображения панели)
-const { quickPrompts, insertQuickPrompt, submitQuickPrompt } = useQuickPrompts(chatContainerRef)
+// Инициализируем работу с быстрыми подсказками, передавая пропсы из родителя
+const { quickPrompts, insertQuickPrompt, submitQuickPrompt } = useQuickPrompts(chatContainerRef, props.prompts)
 
 // Обработчик использования подсказки на пустом экране
 const handleUsePromptFromEmpty = (text: string) => {
@@ -86,6 +100,7 @@ const handleUpdateTitle = (chatId: string, title: string) => {
       :show-header="true"
       :show-prompts-when-empty="true"
       :is-draft="isTempChat"
+      :prompts="quickPrompts"
       @create-chat="createNewChat"
       @update-title="handleUpdateTitle"
       @use-prompt="handleUsePromptFromEmpty"
@@ -115,13 +130,6 @@ const handleUpdateTitle = (chatId: string, title: string) => {
 :deep(.chat-container) {
   grid-area: content;
 }
-
-/* Медиа-запрос для планшетов */
-/* @media (min-width: 768px) and (max-width: 1023px) {
-  .desktop-chat-layout {
-    grid-template-columns: 240px 1fr;
-  }
-} */
 
 /* Медиа-запрос для больших экранов */
 @media (min-width: 1400px) {

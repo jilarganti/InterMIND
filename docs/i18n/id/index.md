@@ -1,20 +1,20 @@
 ---
 layout: home
-title: Layanan Pembentukan Perusahaan di UAE
-description: "Layanan ahli pembentukan dan dukungan perusahaan UAE. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa. Mewujudkan impian bisnis Anda."
+title: "Layanan Pembentukan Perusahaan di UAE"
+description: "Layanan ahli pembentukan dan dukungan perusahaan di UAE. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa. Mewujudkan impian bisnis Anda."
 showSponsors: false
 
 hero:
   name: "UAE: Pelabuhan Aman Finansial Anda"
   # text: We speak your tongue
-  tagline: "Dukungan Bisnis Lengkap: Perbankan, Pendirian Perusahaan, Visa. Tanpa biaya di muka – bayar hanya setelah persetujuan."
+  tagline: "Dukungan Bisnis Lengkap: Perbankan, Pendirian Perusahaan, Visa. Tanpa biaya di muka – bayar setelah persetujuan."
 
   actions:
     - theme: brand
-      text: Dapatkan Konsultasi Gratis
-      link: ./#contact-form
+      text: Get Free Consultation
+      link: ./chat
     - theme: alt
-      text: Dukungan 24/7
+      text: Support 24/7
       link: ./resources/contacts
   image:
     light:
@@ -24,6 +24,7 @@ hero:
       src: /img/Logo.avif
       width: 50%
     alt: Logo Golden Fish
+
 ---
 
 <FeatureCards :features="[
@@ -33,7 +34,7 @@ hero:
     items: [
       'Jaminan persetujuan rekening bank korporat',
       'Tingkat keberhasilan 90%',
-      '**Tanpa biaya di muka** - bayar hanya setelah persetujuan',
+      '**Tanpa biaya di muka** - bayar setelah persetujuan',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/banking/',
@@ -49,7 +50,7 @@ hero:
     items: [
       '**Tidak perlu masuk UAE setiap 6 bulan**',
       'Tingkat keberhasilan 98%',
-      '**Tanpa biaya di muka** - bayar hanya setelah persetujuan',
+      '**Tanpa biaya di muka** - bayar setelah persetujuan',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/golden-visa/',
@@ -64,8 +65,8 @@ hero:
     details: 'Panduan lengkap untuk mendirikan perusahaan di Free Zone, offshore, Mainland, cabang.',
     items: [
       '**Kepemilikan Asing 100%** tersedia di Free Zone dan Mainland',
-      'Tarif Pajak Rendah - hanya 9% pajak korporat',
-      'Tanpa Kontrol Mata Uang - repatriasi modal yang mudah'
+      'Tarif Pajak Rendah - hanya 9% pajak perusahaan',
+      'Tanpa Kontrol Mata Uang - repatriasi modal mudah'
     ],
     linkText: 'Read More',
     link: './uae-business/company-registration/overview',
@@ -91,8 +92,8 @@ hero:
     }
   },
   {
-    title: 'Pajak Korporat & PPN',
-    details: 'Saran ahli memastikan kepatuhan terhadap kewajiban Pajak Korporat dan PPN dengan Federal Tax Authority (FTA).',
+    title: 'Pajak Perusahaan & PPN',
+    details: 'Saran ahli memastikan kepatuhan terhadap kewajiban Pajak Perusahaan dan PPN dengan Federal Tax Authority (FTA).',
     items: [],
     linkText: 'Read More',
     link: './uae-business/company-registration/accounting-legal',
@@ -167,32 +168,12 @@ hero:
 
 <div id="contact-form"></div>
 
-<!-- <ContactForm
- mediaUrl="/img/iStock-2185906461.mp4"
- redirectUrl="../../company-registration/banking"
- selectLabel="Bagaimana kami dapat membantu? *"
- selectPlaceholder="Pilih jenis layanan"
- messagePlaceholder="Deskripsi singkat kebutuhan Anda"
- :selectOptions="[
-   '🏦 Pembukaan Rekening Bank Perusahaan',
-   '👨‍💼 Pembentukan Perusahaan (Free Zone/Mainland/Branch)',
-   '🌐 Visa kerja/freelance/pelajar',
-   '💎 Golden Visa (10-tahun)',
-   '📋 Lisensi & Izin Usaha',
-   '💰 Layanan Pajak Perusahaan & PPN',
-   '📊 Akuntansi & Penggajian',
-   '⚖️ Layanan Hukum',
-   '📝 Layanan PRO & Kepatuhan',
-   'ℹ️ Layanan Lainnya'
- ]"
-/> -->
-
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Hubungi Kami" buttonText="Kirim pesan kepada kami" 
-:services="['📝 Pendaftaran perusahaan', '🏧 Pembukaan rekening bank', '🪪 EID & Golden Visa', 'Layanan Lainnya']"/>
+<ContactFormModal formName="Home page" buttonText="Dapatkan konsultasi gratis" 
+:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/>
 
 <!-- <br>
 

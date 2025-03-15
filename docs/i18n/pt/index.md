@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Serviços de Formação de Empresas nos EAU
+title: "Serviços de Formação de Empresas nos EAU"
 description: "Serviços especializados de formação e suporte empresarial nos EAU. Soluções para abertura de empresas, bancos, impostos, questões legais e vistos. Transformando seus sonhos empresariais em realidade."
 showSponsors: false
 
@@ -11,10 +11,10 @@ hero:
 
   actions:
     - theme: brand
-      text: Obter Consultoria Gratuita
-      link: ./#contact-form
+      text: Get Free Consultation
+      link: ./chat
     - theme: alt
-      text: Suporte 24/7
+      text: Support 24/7
       link: ./resources/contacts
   image:
     light:
@@ -23,7 +23,8 @@ hero:
     dark:
       src: /img/Logo.avif
       width: 50%
-    alt: Logotipo Golden Fish
+    alt: Logo Golden Fish
+
 ---
 
 <FeatureCards :features="[
@@ -61,7 +62,7 @@ hero:
   },
   {
     title: 'Guia de Abertura de Empresa',
-    details: 'Guia completo para abrir empresas na Free Zone, offshore, mainland e filiais.',
+    details: 'Guia completo para abrir empresas em Free Zone, offshore, Mainland e filiais.',
     items: [
       '**100% de Propriedade Estrangeira** disponível em Free Zones e Mainland',
       'Baixas Taxas de Impostos - apenas 9% de imposto corporativo',
@@ -80,7 +81,7 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Serviços de Compliance',
-    details: 'Nossos especialistas orientam você através dos complexos requisitos regulatórios dos EAU, incluindo relatórios ESR e registros UBO.',
+    details: 'Nossos especialistas o guiam através dos complexos requisitos regulatórios dos EAU, incluindo relatórios ESR e registros UBO.',
     items: [],
     linkText: 'Read More',
     link: './uae-business/company-registration/ubo',
@@ -91,8 +92,8 @@ hero:
     }
   },
   {
-    title: 'Imposto Corporativo e IVA',
-    details: 'Consultoria especializada garante conformidade com obrigações de Imposto Corporativo e IVA junto à Autoridade Federal Tributária (FTA).',
+    title: 'Imposto Corporativo e VAT',
+    details: 'Consultoria especializada garante conformidade com obrigações de Imposto Corporativo e VAT junto à Autoridade Federal Tributária (FTA).',
     items: [],
     linkText: 'Read More',
     link: './uae-business/company-registration/accounting-legal',
@@ -104,7 +105,7 @@ hero:
   },
   {
     title: 'Serviços Jurídicos',
-    details: 'Equipe jurídica orienta sobre as leis dos EAU referentes a fusões e aquisições, reestruturação corporativa, financiamento e resolução de disputas.',
+    details: 'Equipe jurídica orienta sobre as leis dos EAU referentes a M&As, reestruturação corporativa, financiamento e resolução de disputas.',
     items: [],
     linkText: 'Read More',
     link: './uae-business/company-registration/Protect-Your-Business',
@@ -116,7 +117,7 @@ hero:
   },
   {
     title: 'Contabilidade e Folha de Pagamento',
-    details: 'Nossos contadores gerenciam finanças, fornecendo escrituração contábil, reconciliação, folha de pagamento e suporte à auditoria, economizando custos de contratação.',
+    details: 'Nossos contadores gerenciam finanças, fornecendo escrituração, reconciliação, folha de pagamento e suporte à auditoria, economizando custos de contratação.',
     items: [],
     linkText: 'Read More',
     link: './resources/contacts',
@@ -125,7 +126,7 @@ hero:
       dark: '/img/iStock-1320130292.jpg',
       alt: 'Serviços Contábeis'
     }
-  }
+  },
 ]" />
 
 ## Por que Escolher a Golden Fish
@@ -167,32 +168,12 @@ hero:
 
 <div id="contact-form"></div>
 
-<!-- <ContactForm
- mediaUrl="/img/iStock-2185906461.mp4"
- redirectUrl="../../company-registration/banking"
- selectLabel="Como podemos ajudar? *"
- selectPlaceholder="Escolha o tipo de serviço"
- messagePlaceholder="Breve descrição das suas necessidades"
- :selectOptions="[
-   '🏦 Abertura de Conta Bancária Corporativa',
-   '👨‍💼 Formação de Empresa (Free Zone/Mainland/Branch)',
-   '🌐 Visto de trabalho/freelance/estudante',
-   '💎 Golden Visa (10 anos)',
-   '📋 Licença Comercial e Permissões',
-   '💰 Serviços de Impostos Corporativos e VAT',
-   '📊 Contabilidade e Folha de Pagamento',
-   '⚖️ Serviços Jurídicos',
-   '📝 Serviços PRO e Conformidade',
-   'ℹ️ Outros Serviços'
- ]"
-/> -->
-
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Fale Conosco" buttonText="Envie-nos uma mensagem" 
-:services="['📝 Registro de empresa', '🏧 Abertura de contas bancárias', '🪪 EID & Golden Visa', 'Outros Serviços']"/>
+<ContactFormModal formName="Home page" buttonText="Obtenha uma consulta gratuita" 
+:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/>
 
 <!-- <br>
 

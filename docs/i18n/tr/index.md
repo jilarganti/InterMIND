@@ -1,18 +1,18 @@
 ---
 layout: home
-title: BAE'de Şirket Kurma Hizmetleri
+title: "BAE'de Şirket Kurma Hizmetleri"
 description: "Uzman BAE şirket kurma ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri. İş hayallerinizi gerçeğe dönüştürüyoruz."
 showSponsors: false
 
 hero:
   name: "BAE: Finansal Güvenli Limanınız"
   # text: We speak your tongue
-  tagline: "Tam İş Desteği: Bankacılık, Şirket Kurulumu, Vizeler. Sıfır peşin ödeme – sadece onay sonrası ödeme."
+  tagline: "Tam İş Desteği: Bankacılık, Şirket Kurulumu, Vizeler. Sıfır peşin ödeme - sadece onay sonrası ödeme."
 
   actions:
     - theme: brand
       text: Ücretsiz Danışmanlık Alın
-      link: ./#contact-form
+      link: ./chat
     - theme: alt
       text: 7/24 Destek
       link: ./resources/contacts
@@ -24,16 +24,17 @@ hero:
       src: /img/Logo.avif
       width: 50%
     alt: Golden Fish logosu
+
 ---
 
 <FeatureCards :features="[
   {
     title: 'Banka Hesabı Açma',
-    details: 'BAE\'nin güvenilir bankalarında kolayca kurumsal veya bireysel banka hesabı açın.',
+    details: 'BAE\'nin güvenilir bankalarında kolayca işletme veya kişisel banka hesabı açın.',
     items: [
       'Garantili kurumsal banka hesabı onayları',
       '%90 başarı oranı',
-      '**Peşin ödeme yok** - sadece onay sonrası ödeme',
+      '**Sıfır peşin ödeme** - sadece onay sonrası ödeme',
     ],
     linkText: 'Devamını Oku',
     link: './uae-business/offer/banking/',
@@ -49,7 +50,7 @@ hero:
     items: [
       '**Her 6 ayda bir BAE\'ye girme zorunluluğu yok**',
       '%98 başarı oranı',
-      '**Peşin ödeme yok** - sadece onay sonrası ödeme',
+      '**Sıfır peşin ödeme** - sadece onay sonrası ödeme',
     ],
     linkText: 'Devamını Oku',
     link: './uae-business/offer/golden-visa/',
@@ -61,7 +62,7 @@ hero:
   },
   {
     title: 'Şirket Kurulum Rehberi',
-    details: 'Free Zone, offshore, mainland ve şube şirketleri kurulumu için kapsamlı rehber.',
+    details: 'Free Zone, offshore, Mainland ve şube şirketleri kurulumu için kapsamlı rehber.',
     items: [
       'Free Zone ve Mainland\'de **%100 Yabancı Mülkiyet** mümkün',
       'Düşük Vergi Oranları - sadece %9 kurumlar vergisi',
@@ -116,7 +117,7 @@ hero:
   },
   {
     title: 'Muhasebe & Bordro',
-    details: 'Muhasebecilerimiz, işe alım maliyetlerinden tasarruf sağlayarak defter tutma, mutabakat, bordro ve denetim desteği sunarak finanslarınızı yönetir.',
+    details: 'Muhasebecilerimiz, işe alım maliyetlerinden tasarruf sağlayarak defter tutma, mutabakat, bordro ve denetim desteği sağlar.',
     items: [],
     linkText: 'Devamını Oku',
     link: './resources/contacts',
@@ -133,7 +134,7 @@ hero:
 <BenefitsList :features="[
 {
  icon: '💰',
- title: 'Başarı Bazlı Ücretler',
+ title: 'Başarıya Dayalı Ücretler',
  text: '**Peşin ücret yok - sadece onaydan sonra ödeme.** Gizli maliyetler olmadan tam şeffaflık.'
 },
 {
@@ -144,11 +145,11 @@ hero:
 {
  icon: '🏦',
  title: 'Banka İlişkileri',
- text: 'BAE\'nin önde gelen bankaları ve uluslararası bankalarla güçlü ortaklıklar. Onay şansını en üst düzeye çıkarmak için birden fazla bankaya başvuru.'
+ text: 'Önde gelen BAE ve uluslararası bankalarla güçlü ortaklıklar. Onay şansını en üst düzeye çıkarmak için birden fazla bankaya başvuru.'
 },
 {
  icon: '📊',
- title: 'Tam Yönetim',
+ title: 'Eksiksiz Yönetim',
  text: 'Belgelerden hesap aktivasyonuna kadar uçtan uca yönetim, haftalık ilerleme güncellemeleri ve doğrudan banka iletişimi.'
 },
 {
@@ -163,36 +164,16 @@ hero:
 }
 ]" />
 
-## Hemen Başlayın - Ücretsiz İlk Danışma
+## Hemen Başlayın - Ücretsiz İlk Danışmanlık
 
 <div id="contact-form"></div>
-
-<!-- <ContactForm
- mediaUrl="/img/iStock-2185906461.mp4"
- redirectUrl="../../company-registration/banking"
- selectLabel="Size nasıl yardımcı olabiliriz? *"
- selectPlaceholder="Hizmet türünü seçin"
- messagePlaceholder="İhtiyaçlarınızın kısa açıklaması"
- :selectOptions="[
-   '🏦 Kurumsal Banka Hesabı Açma',
-   '👨‍💼 Şirket Kuruluşu (Free Zone/Mainland/Branch)',
-   '🌐 Çalışma/serbest/öğrenci vizesi',
-   '💎 Golden Visa (10 yıllık)',
-   '📋 İşletme Lisansı ve İzinleri',
-   '💰 Kurumsal Vergi ve KDV Hizmetleri',
-   '📊 Muhasebe ve Bordro',
-   '⚖️ Hukuki Hizmetler',
-   '📝 PRO Hizmetleri ve Uyum',
-   'ℹ️ Diğer Hizmetler'
- ]"
-/> -->
 
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Bize Ulaşın" buttonText="Bize mesaj gönderin" 
-:services="['📝 Şirket tescili', '🏧 Banka hesabı açma', '🪪 EID & Golden Visa', 'Diğer Hizmetler']"/>
+<ContactFormModal formName="Home page" buttonText="Ücretsiz danışmanlık alın" 
+:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/>
 
 <!-- <br>
 

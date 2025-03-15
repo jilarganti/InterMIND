@@ -1,18 +1,18 @@
 ---
 layout: home
-title: متحدہ عرب امارات میں کمپنی کی تشکیل کی خدمات
+title: "متحدہ عرب امارات میں کمپنی کی تشکیل کی خدمات"
 description: "متحدہ عرب امارات میں ماہرانہ کمپنی کی تشکیل اور معاونت کی خدمات۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔ آپ کے کاروباری خوابوں کو حقیقت بنانا۔"
 showSponsors: false
 
 hero:
   name: "متحدہ عرب امارات: آپ کی مالی محفوظ پناہ گاہ"
   # text: We speak your tongue
-  tagline: "مکمل کاروباری معاونت: بینکنگ، کمپنی سیٹ اپ، ویزا۔ کوئی پیشگی فیس نہیں - صرف منظوری کے بعد ادائیگی کریں۔"
+  tagline: "مکمل کاروباری معاونت: بینکنگ، کمپنی سیٹ اپ، ویزا۔ کوئی پیشگی فیس نہیں - صرف منظوری کے بعد ادائیگی۔"
 
   actions:
     - theme: brand
       text: مفت مشاورت حاصل کریں
-      link: ./#contact-form
+      link: ./chat
     - theme: alt
       text: 24/7 معاونت
       link: ./resources/contacts
@@ -24,6 +24,7 @@ hero:
       src: /img/Logo.avif
       width: 50%
     alt: Golden Fish لوگو
+
 ---
 
 <FeatureCards :features="[
@@ -33,9 +34,9 @@ hero:
     items: [
       'کارپوریٹ بینک اکاؤنٹ کی ضمانت شدہ منظوری',
       '90% کامیابی کی شرح',
-      '**کوئی پیشگی فیس نہیں** - صرف منظوری کے بعد ادائیگی کریں',
+      '**کوئی پیشگی فیس نہیں** - صرف منظوری کے بعد ادائیگی',
     ],
-    linkText: 'مزید پڑھیں',
+    linkText: 'Read More',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -49,9 +50,9 @@ hero:
     items: [
       '**ہر 6 ماہ بعد UAE میں داخل ہونے کی ضرورت نہیں**',
       '98% کامیابی کی شرح',
-      '**کوئی پیشگی فیس نہیں** - صرف منظوری کے بعد ادائیگی کریں',
+      '**کوئی پیشگی فیس نہیں** - صرف منظوری کے بعد ادائیگی',
     ],
-    linkText: 'مزید پڑھیں',
+    linkText: 'Read More',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -61,13 +62,13 @@ hero:
   },
   {
     title: 'کمپنی سیٹ اپ گائیڈ',
-    details: 'Free Zone، آف شور، Mainland، برانچ میں کمپنیاں قائم کرنے کی مکمل گائیڈ۔',
+    details: 'Free Zone، آف شور، مین لینڈ، برانچ میں کمپنیاں قائم کرنے کی مکمل گائیڈ۔',
     items: [
       'Free Zones اور Mainland میں **100% غیر ملکی ملکیت** دستیاب ہے',
       'کم ٹیکس شرح - صرف 9% کارپوریٹ ٹیکس',
-      'کوئی کرنسی کنٹرول نہیں - آسان سرمایہ کی واپسی'
+      'کرنسی کنٹرول نہیں - آسان سرمایہ واپسی',
     ],
-    linkText: 'مزید پڑھیں',
+    linkText: 'Read More',
     link: './uae-business/company-registration/overview',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -80,9 +81,9 @@ hero:
 <FeatureCards :features="[
   {
     title: 'تعمیل کی خدمات',
-    details: 'ہمارے ماہرین آپ کو ESR رپورٹس اور UBO فائلنگز سمیت متحدہ عرب امارات کی پیچیدہ ریگولیٹری ضروریات سے رہنمائی کرتے ہیں۔',
+    details: 'ہمارے ماہرین آپ کو ESR رپورٹس اور UBO فائلنگز سمیت UAE کے پیچیدہ ریگولیٹری تقاضوں میں رہنمائی کرتے ہیں۔',
     items: [],
-    linkText: 'مزید پڑھیں',
+    linkText: 'Read More',
     link: './uae-business/company-registration/ubo',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -94,7 +95,7 @@ hero:
     title: 'کارپوریٹ ٹیکس اور VAT',
     details: 'فیڈرل ٹیکس اتھارٹی (FTA) کے ساتھ کارپوریٹ ٹیکس اور VAT کی ذمہ داریوں کی تعمیل کو یقینی بنانے کے لیے ماہرانہ مشورہ۔',
     items: [],
-    linkText: 'مزید پڑھیں',
+    linkText: 'Read More',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -104,9 +105,9 @@ hero:
   },
   {
     title: 'قانونی خدمات',
-    details: 'قانونی ٹیم M&As، کارپوریٹ ری سٹرکچرنگ، فنانسنگ، اور تنازعات کے حل کے بارے میں متحدہ عرب امارات کے قوانین پر مشورہ دیتی ہے۔',
+    details: 'قانونی ٹیم M&As، کارپوریٹ ری سٹرکچرنگ، فنانسنگ، اور تنازعات کے حل کے بارے میں UAE کے قوانین پر مشورہ دیتی ہے۔',
     items: [],
-    linkText: 'مزید پڑھیں',
+    linkText: 'Read More',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -116,9 +117,9 @@ hero:
   },
   {
     title: 'اکاؤنٹنگ اور پے رول',
-    details: 'ہمارے اکاؤنٹنٹس مالیات کا انتظام کرتے ہیں، بک کیپنگ، ریکنسیلیشن، پے رول، اور آڈٹ سپورٹ فراہم کرتے ہیں، بھرتی کی لاگت کو بچاتے ہیں۔',
+    details: 'ہمارے اکاؤنٹنٹس مالیات کا انتظام کرتے ہیں، بک کیپنگ، مطابقت، پے رول، اور آڈٹ سپورٹ فراہم کرتے ہیں، بھرتی کی لاگت کو بچاتے ہیں۔',
     items: [],
-    linkText: 'مزید پڑھیں',
+    linkText: 'Read More',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
@@ -128,13 +129,13 @@ hero:
   },
 ]" />
 
-## گولڈن فش کو کیوں چنیں
+## Golden Fish کو کیوں چنیں
 
 <BenefitsList :features="[
 {
  icon: '💰',
  title: 'کامیابی پر مبنی فیس',
- text: '**منظوری کے بعد ہی ادائیگی - کوئی پیشگی فیس نہیں۔** مکمل شفافیت کے ساتھ کوئی چھپی ہوئی لاگت نہیں۔'
+ text: '**کوئی پیشگی فیس نہیں - صرف منظوری کے بعد ادائیگی کریں۔** مکمل شفافیت کے ساتھ کوئی چھپی ہوئی لاگت نہیں۔'
 },
 {
  icon: '🔄',
@@ -149,12 +150,12 @@ hero:
 {
  icon: '📊',
  title: 'مکمل انتظام',
- text: 'دستاویزات سے لے کر اکاؤنٹ ایکٹیویشن تک مکمل نگرانی، ہفتہ وار پیش رفت کی اپ ڈیٹس اور بینک سے براہ راست رابطہ۔'
+ text: 'دستاویزات سے لے کر اکاؤنٹ کی فعالیت تک آخر تک نگرانی، ہفتہ وار پیش رفت کی اپ ڈیٹس اور بینک سے براہ راست رابطہ۔'
 },
 {
  icon: '📝',
  title: 'پیشہ ورانہ دستاویزات',
- text: 'ہماری ٹیم جامع بزنس پلان تیار کرتی ہے اور تمام تعمیل کی دستاویزات کو سنبھالتی ہے۔'
+ text: 'ہماری ٹیم جامع کاروباری منصوبے تیار کرتی ہے اور تمام تعمیل کی دستاویزات کو سنبھالتی ہے۔'
 },
 {
  icon: '🤝',
@@ -167,32 +168,12 @@ hero:
 
 <div id="contact-form"></div>
 
-<!-- <ContactForm
- mediaUrl="/img/iStock-2185906461.mp4"
- redirectUrl="../../company-registration/banking"
- selectLabel="ہم آپ کی کیسے مدد کر سکتے ہیں؟ *"
- selectPlaceholder="سروس کی قسم منتخب کریں"
- messagePlaceholder="اپنی ضروریات کی مختصر تفصیل"
- :selectOptions="[
-   '🏦 کارپوریٹ بینک اکاؤنٹ کھولنا',
-   '👨‍💼 کمپنی کی تشکیل (Free Zone/Mainland/Branch)',
-   '🌐 ورک/فری لانس/طالب علم ویزا',
-   '💎 Golden Visa (10-سالہ)',
-   '📋 بزنس لائسنس اور پرمٹس',
-   '💰 کارپوریٹ ٹیکس اور VAT سروسز',
-   '📊 اکاؤنٹنگ اور پے رول',
-   '⚖️ قانونی خدمات',
-   '📝 PRO سروسز اور کمپلائنس',
-   'ℹ️ دیگر خدمات'
- ]"
-/> -->
-
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="ہم سے رابطہ کریں" buttonText="ہمیں پیغام بھیجیں" 
-:services="['📝 کمپنی رجسٹریشن', '🏧 بینک اکاؤنٹس کھولنا', '🪪 EID اور Golden Visa', 'دیگر خدمات']"/>
+<ContactFormModal formName="Home page" buttonText="مفت مشاورت حاصل کریں" 
+:services="['📝 Company registration', '🏧 بینک اکاؤنٹس کھولنا', '🪪 EID & Golden Visa', 'دیگر خدمات']"/>
 
 <!-- <br>
 

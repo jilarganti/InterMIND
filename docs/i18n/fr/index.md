@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Services de Formation d'Entreprise aux EAU
-description: "Services experts de formation et de soutien aux entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa. Réalisation de vos rêves d'entreprise."
+title: "Services de Formation d'Entreprise aux EAU"
+description: "Services experts de formation et de support d'entreprise aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa. Réalisation de vos rêves d'entreprise."
 showSponsors: false
 
 hero:
@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Obtenir une Consultation Gratuite
-      link: ./#contact-form
+      link: ./chat
     - theme: alt
       text: Support 24/7
       link: ./resources/contacts
@@ -35,7 +35,7 @@ hero:
       'Taux de réussite de 90%',
       '**Aucun frais initial** - paiement uniquement après approbation',
     ],
-    linkText: 'Read More',
+    linkText: 'En Savoir Plus',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -51,7 +51,7 @@ hero:
       'Taux de réussite de 98%',
       '**Aucun frais initial** - paiement uniquement après approbation',
     ],
-    linkText: 'Read More',
+    linkText: 'En Savoir Plus',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -67,7 +67,7 @@ hero:
       'Taux d\'imposition bas - seulement 9% d\'impôt sur les sociétés',
       'Pas de contrôle des changes - rapatriement facile des capitaux'
     ],
-    linkText: 'Read More',
+    linkText: 'En Savoir Plus',
     link: './uae-business/company-registration/overview',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -82,7 +82,7 @@ hero:
     title: 'Services de Conformité',
     details: 'Nos experts vous guident à travers les exigences réglementaires complexes des EAU, y compris les rapports ESR et les déclarations UBO.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'En Savoir Plus',
     link: './uae-business/company-registration/ubo',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -94,7 +94,7 @@ hero:
     title: 'Impôt sur les Sociétés & TVA',
     details: 'Conseils d\'experts pour assurer la conformité aux obligations d\'impôt sur les sociétés et de TVA auprès de l\'Autorité Fiscale Fédérale (FTA).',
     items: [],
-    linkText: 'Read More',
+    linkText: 'En Savoir Plus',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -106,7 +106,7 @@ hero:
     title: 'Services Juridiques',
     details: 'L\'équipe juridique conseille sur les lois des EAU concernant les fusions-acquisitions, la restructuration d\'entreprise, le financement et la résolution des litiges.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'En Savoir Plus',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -118,7 +118,7 @@ hero:
     title: 'Comptabilité & Paie',
     details: 'Nos comptables gèrent les finances, assurant la tenue des comptes, le rapprochement, la paie et le support d\'audit, économisant les coûts de recrutement.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'En Savoir Plus',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
@@ -167,32 +167,12 @@ hero:
 
 <div id="contact-form"></div>
 
-<!-- <ContactForm
- mediaUrl="/img/iStock-2185906461.mp4"
- redirectUrl="../../company-registration/banking"
- selectLabel="Comment pouvons-nous vous aider ? *"
- selectPlaceholder="Choisissez le type de service"
- messagePlaceholder="Brève description de vos besoins"
- :selectOptions="[
-   '🏦 Ouverture de Compte Bancaire Entreprise',
-   '👨‍💼 Formation d\'Entreprise (Free Zone/Mainland/Branch)',
-   '🌐 Visa de travail/freelance/étudiant',
-   '💎 Golden Visa (10 ans)',
-   '📋 Licence Commerciale & Permis',
-   '💰 Services Fiscaux & TVA',
-   '📊 Comptabilité & Paie',
-   '⚖️ Services Juridiques',
-   '📝 Services PRO & Conformité',
-   'ℹ️ Autres Services'
- ]"
-/> -->
-
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Contactez-nous" buttonText="Envoyez-nous un message" 
-:services="['📝 Enregistrement d\'entreprise', '🏧 Ouverture de comptes bancaires', '🪪 EID & Golden Visa', 'Autres Services']"/>
+<ContactFormModal formName="Page d'accueil" buttonText="Obtenir une consultation gratuite" 
+:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/>
 
 <!-- <br>
 

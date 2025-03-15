@@ -7,6 +7,7 @@ import { useChatTitle } from "@theme/composables/AIChat/useChatTitle"
 import { useQuickPrompts } from "@theme/composables/AIChat/useQuickPrompts"
 import { useChatsStore } from "@theme/stores/chatsStore"
 import type { ChatThreadMethods } from "@theme/types/ChatThread"
+import type { QuickPrompt } from "@theme/composables/AIChat/useQuickPrompts"
 
 const props = defineProps<{
   /**
@@ -38,6 +39,11 @@ const props = defineProps<{
    * Является ли чат черновиком (не добавлен в список)
    */
   isDraft?: boolean
+
+  /**
+   * Быстрые подсказки для чата
+   */
+  prompts?: QuickPrompt[]
 }>()
 
 const emit = defineEmits<{
@@ -81,8 +87,8 @@ const titleInputRef = ref<HTMLInputElement | null>(null)
 // Используем composable для управления заголовком
 const { isEditingTitle, editableChatTitle, startEditingTitle, saveTitle } = useChatTitle(titleInputRef)
 
-// Получаем список быстрых подсказок
-const { quickPrompts } = useQuickPrompts(chatThreadRef)
+// Получаем список быстрых подсказок из props
+const { quickPrompts } = useQuickPrompts(chatThreadRef, props.prompts || [])
 
 // Сохраняем заголовок и отправляем событие родителю
 const handleSaveTitle = () => {

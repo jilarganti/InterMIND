@@ -1,20 +1,20 @@
 ---
 layout: home
-title: Dịch Vụ Thành Lập Công Ty tại UAE
-description: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thiết lập công ty, ngân hàng, thuế, pháp lý và visa. Biến ước mơ kinh doanh của bạn thành hiện thực."
+title: "Dịch Vụ Thành Lập Công Ty tại UAE"
+description: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thiết lập công ty, ngân hàng, thuế, pháp lý và thị thực. Biến ước mơ kinh doanh của bạn thành hiện thực."
 showSponsors: false
 
 hero:
   name: "UAE: Bến Đỗ Tài Chính An Toàn Của Bạn"
   # text: We speak your tongue
-  tagline: "Hỗ Trợ Kinh Doanh Toàn Diện: Ngân Hàng, Thành Lập Công Ty, Visa. Không phí trước - chỉ thanh toán sau khi được chấp thuận."
+  tagline: "Hỗ Trợ Kinh Doanh Toàn Diện: Ngân Hàng, Thành Lập Công Ty, Thị Thực. Không phí trước - chỉ thanh toán sau khi được phê duyệt."
 
   actions:
     - theme: brand
-      text: Nhận Tư Vấn Miễn Phí
-      link: ./#contact-form
+      text: Get Free Consultation
+      link: ./chat
     - theme: alt
-      text: Hỗ Trợ 24/7
+      text: Support 24/7
       link: ./resources/contacts
   image:
     light:
@@ -24,16 +24,17 @@ hero:
       src: /img/Logo.avif
       width: 50%
     alt: Logo Golden Fish
+
 ---
 
 <FeatureCards :features="[
   {
     title: 'Mở Tài Khoản Ngân Hàng',
-    details: 'Dễ dàng mở tài khoản ngân hàng cá nhân hoặc doanh nghiệp với các ngân hàng uy tín tại UAE.',
+    details: 'Dễ dàng mở tài khoản doanh nghiệp hoặc cá nhân với các ngân hàng uy tín tại UAE.',
     items: [
       'Đảm bảo phê duyệt tài khoản doanh nghiệp',
       'Tỷ lệ thành công 90%',
-      '**Không phí trước** - chỉ thanh toán sau khi được chấp thuận',
+      '**Không phí trước** - chỉ thanh toán sau khi được phê duyệt',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/banking/',
@@ -49,19 +50,19 @@ hero:
     items: [
       '**Không cần nhập cảnh UAE mỗi 6 tháng**',
       'Tỷ lệ thành công 98%',
-      '**Không phí trước** - chỉ thanh toán sau khi được chấp thuận',
+      '**Không phí trước** - chỉ thanh toán sau khi được phê duyệt',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
-      alt: 'Dịch vụ Visa'
+      alt: 'Dịch vụ Thị thực'
     }
   },
   {
     title: 'Hướng Dẫn Thành Lập Công Ty',
-    details: 'Hướng dẫn đầy đủ về thành lập công ty trong Free Zone, offshore, mainland, chi nhánh.',
+    details: 'Hướng dẫn đầy đủ để thành lập công ty trong Free Zone, offshore, mainland, chi nhánh.',
     items: [
       '**Sở hữu 100% vốn nước ngoài** có sẵn tại Free Zone và Mainland',
       'Thuế suất thấp - chỉ 9% thuế doanh nghiệp',
@@ -116,7 +117,7 @@ hero:
   },
   {
     title: 'Kế Toán & Tiền Lương',
-    details: 'Kế toán của chúng tôi quản lý tài chính, cung cấp dịch vụ sổ sách, đối chiếu, tính lương và hỗ trợ kiểm toán, tiết kiệm chi phí tuyển dụng.',
+    details: 'Kế toán của chúng tôi quản lý tài chính, cung cấp dịch vụ sổ sách, đối chiếu, tiền lương và hỗ trợ kiểm toán, tiết kiệm chi phí tuyển dụng.',
     items: [],
     linkText: 'Read More',
     link: './resources/contacts',
@@ -144,7 +145,7 @@ hero:
 {
  icon: '🏦',
  title: 'Quan Hệ Ngân Hàng',
- text: 'Quan hệ đối tác mạnh mẽ với các ngân hàng lớn tại UAE và quốc tế. Nộp đơn cho nhiều ngân hàng để tối đa hóa cơ hội được chấp thuận.'
+ text: 'Mối quan hệ đối tác mạnh mẽ với các ngân hàng lớn tại UAE và quốc tế. Nộp đơn cho nhiều ngân hàng để tối đa hóa cơ hội được chấp thuận.'
 },
 {
  icon: '📊',
@@ -167,32 +168,12 @@ hero:
 
 <div id="contact-form"></div>
 
-<!-- <ContactForm
- mediaUrl="/img/iStock-2185906461.mp4"
- redirectUrl="../../company-registration/banking"
- selectLabel="Chúng tôi có thể giúp gì? *"
- selectPlaceholder="Chọn loại dịch vụ"
- messagePlaceholder="Mô tả ngắn gọn yêu cầu của bạn"
- :selectOptions="[
-   '🏦 Mở Tài Khoản Ngân Hàng Doanh Nghiệp',
-   '👨‍💼 Thành Lập Công Ty (Free Zone/Mainland/Branch)',
-   '🌐 Visa làm việc/tự do/sinh viên',
-   '💎 Golden Visa (10 năm)',
-   '📋 Giấy Phép Kinh Doanh & Các Loại Giấy Phép',
-   '💰 Dịch Vụ Thuế Doanh Nghiệp & VAT',
-   '📊 Kế Toán & Tiền Lương',
-   '⚖️ Dịch Vụ Pháp Lý',
-   '📝 Dịch Vụ PRO & Tuân Thủ',
-   'ℹ️ Các Dịch Vụ Khác'
- ]"
-/> -->
-
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Liên Hệ Với Chúng Tôi" buttonText="Gửi tin nhắn cho chúng tôi" 
-:services="['📝 Đăng ký công ty', '🏧 Mở tài khoản ngân hàng', '🪪 EID & Golden Visa', 'Các Dịch Vụ Khác']"/>
+<ContactFormModal formName="Home page" buttonText="Nhận tư vấn miễn phí" 
+:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/>
 
 <!-- <br>
 

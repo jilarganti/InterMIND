@@ -1,20 +1,20 @@
 ---
 layout: home
-title: 在阿联酋成立公司服务
-description: "专业的阿联酋公司成立和支持服务。公司设立、银行业务、税务、法律和签证解决方案。实现您的商业梦想。"
+title: "阿联酋公司注册服务"
+description: "专业的阿联酋公司成立和支持服务。提供公司设立、银行开户、税务、法律和签证解决方案。助您实现商业梦想。"
 showSponsors: false
 
 hero:
-  name: "阿联酋：您的金融避风港"
+  name: "阿联酋：您的财务安全港"
   # text: We speak your tongue
-  tagline: "全方位商业支持：银行业务、公司设立、签证。零预付费用 – 仅在获批后付款。"
+  tagline: "全方位商业支持：银行开户、公司设立、签证办理。零预付费用 – 获批后付款。"
 
   actions:
     - theme: brand
       text: 获取免费咨询
-      link: ./#contact-form
+      link: ./chat
     - theme: alt
-      text: 全天候支持
+      text: 24/7全天候支持
       link: ./resources/contacts
   image:
     light:
@@ -24,16 +24,17 @@ hero:
       src: /img/Logo.avif
       width: 50%
     alt: Golden Fish标志
+
 ---
 
 <FeatureCards :features="[
   {
-    title: '银行账户开户',
-    details: '轻松在阿联酋信誉良好的银行开设商业或个人账户。',
+    title: '银行账户开立',
+    details: '轻松在阿联酋信誉银行开设企业或个人账户。',
     items: [
       '保证企业银行账户获批',
       '90%成功率',
-      '**零预付费用** - 仅在获批后付款',
+      '**零预付费用** - 获批后付款',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/banking/',
@@ -44,12 +45,12 @@ hero:
     }
   },
   {
-    title: 'Golden Visa和居留',
-    details: '通过无缝申请流程获取阿联酋**Golden Visa**长期居留。',
+    title: 'Golden Visa与居留',
+    details: '通过简便的申请流程获取阿联酋**Golden Visa**长期居留。',
     items: [
       '**无需每6个月入境阿联酋**',
       '98%成功率',
-      '**零预付费用** - 仅在获批后付款',
+      '**零预付费用** - 获批后付款',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/golden-visa/',
@@ -61,11 +62,11 @@ hero:
   },
   {
     title: '公司设立指南',
-    details: '在Free Zone、离岸、Mainland、分公司设立公司的完整指南。',
+    details: 'Free Zone、离岸、Mainland、分公司设立的完整指南。',
     items: [
-      'Free Zones和Mainland提供**100%外资所有权**',
+      'Free Zone和Mainland可**100%外资持股**',
       '低税率 - 仅9%企业税',
-      '无货币管制 - 轻松资本汇回'
+      '无外汇管制 - 资金轻松汇回'
     ],
     linkText: 'Read More',
     link: './uae-business/company-registration/overview',
@@ -91,7 +92,7 @@ hero:
     }
   },
   {
-    title: '企业税务和增值税',
+    title: '企业税务与增值税',
     details: '专业建议确保符合联邦税务局(FTA)的企业税和增值税义务。',
     items: [],
     linkText: 'Read More',
@@ -104,7 +105,7 @@ hero:
   },
   {
     title: '法律服务',
-    details: '法律团队就阿联酋并购、公司重组、融资和争议解决等法律提供建议。',
+    details: '法律团队就并购、公司重组、融资和争议解决等阿联酋法律提供咨询。',
     items: [],
     linkText: 'Read More',
     link: './uae-business/company-registration/Protect-Your-Business',
@@ -115,8 +116,8 @@ hero:
     }
   },
   {
-    title: '会计和工资服务',
-    details: '我们的会计师管理财务，提供记账、对账、工资和审计支持，节省雇佣成本。',
+    title: '会计与工资服务',
+    details: '我们的会计师管理财务，提供记账、对账、工资发放和审计支持，节省雇佣成本。',
     items: [],
     linkText: 'Read More',
     link: './resources/contacts',
@@ -134,12 +135,12 @@ hero:
 {
  icon: '💰',
  title: '成功付费制',
- text: '**零预付费用 - 仅在获批后付费。** 完全透明，无隐藏费用。'
+ text: '**零预付费用 - 仅在获批后付款。** 完全透明，无隐藏费用。'
 },
 {
  icon: '🔄',
  title: '多重解决方案',
- text: '可接触本地和国际银行。如果首选申请被拒，还有备选方案。'
+ text: '可接触本地和国际银行。如果首选申请被拒，还有其他替代方案。'
 },
 {
  icon: '🏦',
@@ -159,7 +160,7 @@ hero:
 {
  icon: '🤝',
  title: '持续支持',
- text: '开户后持续协助银行业务运营和合规要求。'
+ text: '开户后持续提供银行业务运营和合规要求方面的协助。'
 }
 ]" />
 
@@ -167,32 +168,12 @@ hero:
 
 <div id="contact-form"></div>
 
-<!-- <ContactForm
- mediaUrl="/img/iStock-2185906461.mp4"
- redirectUrl="../../company-registration/banking"
- selectLabel="我们如何帮助您？*"
- selectPlaceholder="选择服务类型"
- messagePlaceholder="简要描述您的需求"
- :selectOptions="[
-   '🏦 公司银行账户开户',
-   '👨‍💼 公司注册（Free Zone/Mainland/Branch）',
-   '🌐 工作/自由职业/学生签证',
-   '💎 Golden Visa（10年）',
-   '📋 营业执照和许可证',
-   '💰 公司税务和增值税服务',
-   '📊 会计和工资服务',
-   '⚖️ 法律服务',
-   '📝 PRO服务和合规',
-   'ℹ️ 其他服务'
- ]"
-/> -->
-
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="联系我们" buttonText="给我们发送消息" 
-:services="['📝 公司注册', '🏧 开设银行账户', '🪪 EID和Golden Visa', '其他服务']"/>
+<ContactFormModal formName="Home page" buttonText="获取免费咨询" 
+:services="['📝 公司注册', '🏧 开立银行账户', '🪪 EID 和 Golden Visa', '其他服务']"/>
 
 <!-- <br>
 
@@ -201,6 +182,6 @@ hero:
 <br>
 
 <ImageGrid :images="[
-  { src: '/img/iStock-1945498989.avif', href: './immigration.md', alt: 'UAE移民' },
-  { src: '/img/iStock-1965736217.avif', href: './immigration.md', alt: 'UAE移民' },
+  { src: '/img/iStock-1945498989.avif', href: './immigration.md', alt: '阿联酋移民' },
+  { src: '/img/iStock-1965736217.avif', href: './immigration.md', alt: '阿联酋移民' },
 ]"/> -->

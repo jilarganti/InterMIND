@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Servicios de Formación de Empresas en los EAU
-description: "Servicios expertos de formación y soporte empresarial en los EAU. Configuración de empresas, banca, impuestos, soluciones legales y de visados. Haciendo realidad sus sueños empresariales."
+title: "Servicios de Formación de Empresas en los EAU"
+description: "Servicios expertos de formación y soporte empresarial en EAU. Configuración de empresas, banca, impuestos, soluciones legales y de visados. Haciendo realidad sus sueños empresariales."
 showSponsors: false
 
 hero:
@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Obtener Consulta Gratuita
-      link: ./#contact-form
+      link: ./chat
     - theme: alt
       text: Soporte 24/7
       link: ./resources/contacts
@@ -29,13 +29,13 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Apertura de Cuenta Bancaria',
-    details: 'Abra fácilmente cuentas bancarias personales o empresariales con los bancos de confianza de los EAU.',
+    details: 'Abra fácilmente cuentas bancarias comerciales o personales con los bancos de confianza de los EAU.',
     items: [
       'Aprobaciones garantizadas de cuentas bancarias corporativas',
       'Tasa de éxito del 90%',
       '**Sin costos iniciales** - pague solo después de la aprobación',
     ],
-    linkText: 'Read More',
+    linkText: 'Leer Más',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -51,7 +51,7 @@ hero:
       'Tasa de éxito del 98%',
       '**Sin costos iniciales** - pague solo después de la aprobación',
     ],
-    linkText: 'Read More',
+    linkText: 'Leer Más',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -60,19 +60,19 @@ hero:
     }
   },
   {
-    title: 'Guía de Configuración de Empresas',
+    title: 'Guía de Establecimiento de Empresas',
     details: 'Guía completa para establecer empresas en Free Zone, offshore, Mainland, sucursal.',
     items: [
       '**100% Propiedad Extranjera** disponible en Free Zones y Mainland',
-      'Tasas Impositivas Bajas - solo 9% de impuesto corporativo',
+      'Bajas Tasas Impositivas - solo 9% de impuesto corporativo',
       'Sin Control de Divisas - fácil repatriación de capital'
     ],
-    linkText: 'Read More',
+    linkText: 'Leer Más',
     link: './uae-business/company-registration/overview',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
-      alt: 'Guía de Configuración de Empresas'
+      alt: 'Guía de Establecimiento de Empresas'
     }
   },
 ]" />
@@ -80,9 +80,9 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Servicios de Cumplimiento',
-    details: 'Nuestros expertos le guían a través de los complejos requisitos regulatorios de los EAU, incluyendo informes ESR y presentaciones UBO.',
+    details: 'Nuestros expertos le guían a través de los complejos requisitos regulatorios de EAU, incluyendo informes ESR y presentaciones UBO.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Leer Más',
     link: './uae-business/company-registration/ubo',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -91,10 +91,10 @@ hero:
     }
   },
   {
-    title: 'Impuesto Corporativo e IVA',
-    details: 'Asesoramiento experto asegura el cumplimiento de las obligaciones de Impuesto Corporativo e IVA con la Autoridad Fiscal Federal (FTA).',
+    title: 'Impuesto Corporativo y VAT',
+    details: 'Asesoramiento experto asegura el cumplimiento de las obligaciones de Impuesto Corporativo y VAT con la Autoridad Federal de Impuestos (FTA).',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Leer Más',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -104,9 +104,9 @@ hero:
   },
   {
     title: 'Servicios Legales',
-    details: 'El equipo legal asesora sobre las leyes de los EAU relacionadas con fusiones y adquisiciones, reestructuración corporativa, financiamiento y resolución de disputas.',
+    details: 'El equipo legal asesora sobre las leyes de EAU relacionadas con fusiones y adquisiciones, reestructuración corporativa, financiamiento y resolución de disputas.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Leer Más',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -118,14 +118,14 @@ hero:
     title: 'Contabilidad y Nómina',
     details: 'Nuestros contadores gestionan las finanzas, proporcionando contabilidad, conciliación, nómina y soporte de auditoría, ahorrando costos de contratación.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Leer Más',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',
       alt: 'Servicios de Contabilidad'
     }
-  }
+  },
 ]" />
 
 ## Por Qué Elegir Golden Fish
@@ -167,32 +167,12 @@ hero:
 
 <div id="contact-form"></div>
 
-<!-- <ContactForm
- mediaUrl="/img/iStock-2185906461.mp4"
- redirectUrl="../../company-registration/banking"
- selectLabel="¿Cómo podemos ayudar? *"
- selectPlaceholder="Elija el tipo de servicio"
- messagePlaceholder="Breve descripción de sus requisitos"
- :selectOptions="[
-   '🏦 Apertura de Cuenta Bancaria Corporativa',
-   '👨‍💼 Formación de Empresa (Free Zone/Mainland/Branch)',
-   '🌐 Visa de trabajo/freelance/estudiante',
-   '💎 Golden Visa (10 años)',
-   '📋 Licencia Comercial y Permisos',
-   '💰 Servicios de Impuestos Corporativos y VAT',
-   '📊 Contabilidad y Nómina',
-   '⚖️ Servicios Legales',
-   '📝 Servicios PRO y Cumplimiento',
-   'ℹ️ Otros Servicios'
- ]"
-/> -->
-
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Contáctenos" buttonText="Envíenos un mensaje" 
-:services="['📝 Registro de empresa', '🏧 Apertura de cuentas bancarias', '🪪 EID & Golden Visa', 'Otros Servicios']"/>
+<ContactFormModal formName="Home page" buttonText="Obtener una consulta gratuita" 
+:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/>
 
 <!-- <br>
 
@@ -201,6 +181,6 @@ hero:
 <br>
 
 <ImageGrid :images="[
-  { src: '/img/iStock-1945498989.avif', href: './immigration.md', alt: 'Inmigración UAE' },
-  { src: '/img/iStock-1965736217.avif', href: './immigration.md', alt: 'Inmigración UAE' },
+  { src: '/img/iStock-1945498989.avif', href: './immigration.md', alt: 'Inmigración EAU' },
+  { src: '/img/iStock-1965736217.avif', href: './immigration.md', alt: 'Inmigración EAU' },
 ]"/> -->
