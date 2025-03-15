@@ -325,4 +325,26 @@ defineExpose({ insertText, submitTextDirectly })
   border-left: 4px solid var(--vp-c-divider);
   background-color: var(--vp-c-bg-soft);
 }
+
+/* Стили для интерактивных элементов */
+.message.assistant .message-content :deep(.interactive-link-text) {
+  color: var(--vp-c-brand);
+  cursor: pointer;
+  text-decoration: underline;
+  margin-right: 0.5em;
+}
+
+.message.assistant .message-content :deep(.interactive-link-text:hover) {
+  opacity: 0.8;
+}
+
+.message.assistant .message-content :deep(.interactive-blockquote-text) {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+}
+
+.message.assistant .message-content :deep(.interactive-blockquote-text:hover) {
+  opacity: 0.8;
+}
 </style>

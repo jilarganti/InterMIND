@@ -9,9 +9,7 @@
  */
 :root {
   /* Основные цвета бренда */
-  --chat-brand-color: var(--vp-c-brand);
-  --chat-brand-dark: var(--vp-c-brand-dark);
-  --chat-brand-light: var(--vp-c-brand-light);
+  --chat-brand-color: var(--vp-hl-color);
 
   /* Фоны и границы */
   --chat-bg-color: var(--vp-c-bg);
@@ -20,9 +18,9 @@
   --chat-border-color: var(--vp-c-divider);
 
   /* Текст */
-  --chat-text-color: var(--vp-c-text-1);
-  --chat-text-soft: var(--vp-c-text-2);
-  --chat-text-mute: var(--vp-c-text-3);
+  --chat-text-color: var(--vp-c-default-1);
+  --chat-text-soft: var(--vp-c-default-2);
+  --chat-text-mute: var(--vp-c-default-3);
 
   /* Размеры и анимации */
   --chat-border-radius: 8px;

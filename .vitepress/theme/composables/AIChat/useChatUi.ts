@@ -80,20 +80,42 @@ export function useChatUi(
         }
       }
 
-      // Обработка клика по кнопке у ссылки или blockquote
-      if (target?.classList.contains("interactive-element-button") || target?.closest(".interactive-element-button")) {
-        const buttonEl = target.classList.contains("interactive-element-button") ? target : target.closest(".interactive-element-button")
-        const query = buttonEl?.getAttribute("data-query")
+      // Обработка клика по интерактивному тексту ссылки
+      if (target?.classList.contains("interactive-link-text")) {
+        const query = target.getAttribute("data-query")
 
-        if (query && buttonEl) {
+        if (query) {
           // Создаем визуальный фидбек
-          const htmlButton = buttonEl as HTMLElement
-          htmlButton.style.transition = "all 0.3s"
-          htmlButton.style.animation = "pulse 1s 1"
+          const htmlTarget = target as HTMLElement
+          htmlTarget.style.transition = "all 0.3s"
+          htmlTarget.style.animation = "pulse 1s 1"
 
           // Отправляем запрос после небольшой задержки
           setTimeout(() => {
-            // Устанавливаем режим followup
+            if (setMode) {
+              setMode("followup")
+            }
+            submitTextFn(query, "followup")
+          }, 300)
+
+          // Предотвращаем всплытие события, чтобы не срабатывал клик по ссылке
+          event.stopPropagation()
+        }
+      }
+
+      // Обработка клика по blockquote
+      if (target?.classList.contains("interactive-blockquote-text") || target?.closest(".interactive-blockquote-text")) {
+        const element = target.classList.contains("interactive-blockquote-text") ? target : target.closest(".interactive-blockquote-text")
+        const query = element?.getAttribute("data-query")
+
+        if (query && element) {
+          // Создаем визуальный фидбек
+          const htmlElement = element as HTMLElement
+          htmlElement.style.transition = "all 0.3s"
+          htmlElement.style.animation = "pulse 1s 1"
+
+          // Отправляем запрос после небольшой задержки
+          setTimeout(() => {
             if (setMode) {
               setMode("followup")
             }
@@ -136,16 +158,16 @@ export function useChatUi(
     return defaultRender(tokens, idx, options, env, self)
   }
 
-  // Добавляем пост-процессинг для добавления интерактивных кнопок
+  // Добавляем пост-процессинг для добавления интерактивных элементов
   const addInteractiveButtons = (html: string): string => {
     // Временный DOM для манипуляций с HTML
     const tempDiv = document.createElement("div")
     tempDiv.innerHTML = html
 
-    // Обработка ссылок: добавляем кнопку перед каждой ссылкой
+    // Обработка ссылок: делаем текст перед ссылкой интерактивным
     const links = tempDiv.querySelectorAll("a")
     links.forEach((link) => {
-      // Не добавляем кнопку для простых ссылок без текста
+      // Не обрабатываем пустые ссылки или ссылки с коротким текстом
       if (!link.textContent || link.textContent.trim().length < 5) return
 
       // Получаем текст ссылки и href
@@ -156,18 +178,29 @@ export function useChatUi(
       const displayTextMatch = linkText.match(/(.*?)\s*\[.*?\]/)
       const queryText = displayTextMatch ? displayTextMatch[1].trim() : linkText
 
-      // Создаем кнопку и устанавливаем ей нужные атрибуты
-      const button = document.createElement("button")
-      button.className = "interactive-element-button"
-      button.setAttribute("data-query", queryText)
-      button.setAttribute("title", queryText)
-      button.innerHTML = '<span class="interactive-icon">ℹ️</span>'
+      // Создаем интерактивный элемент для текста перед ссылкой
+      const interactiveText = document.createElement("span")
+      interactiveText.className = "interactive-link-text"
+      interactiveText.setAttribute("data-query", queryText)
+      interactiveText.setAttribute("title", "Learn more: " + queryText)
+      interactiveText.textContent = queryText + ":"
+      interactiveText.style.cursor = "pointer"
+      interactiveText.style.color = "var(--chat-brand-color)"
+      interactiveText.style.textDecoration = "underline"
+      // interactiveText.style.marginRight = "0.5em"
 
-      // Вставляем кнопку перед ссылкой
-      link.parentNode?.insertBefore(button, link)
+      // Изменяем текст ссылки на URL без https:// и без параметров после ?, и ограничиваем длину до 30 символов
+      let displayUrl = href.replace(/^https?:\/\//, "").replace(/\?.*$/, "")
+      if (displayUrl.length > 30) {
+        displayUrl = displayUrl.substring(0, 27) + "..."
+      }
+      link.textContent = displayUrl
+
+      // Вставляем интерактивный текст перед ссылкой
+      link.parentNode?.insertBefore(interactiveText, link)
     })
 
-    // Обработка blockquote: добавляем кнопку в начало
+    // Обработка blockquote: делаем весь текст интерактивным
     const blockquotes = tempDiv.querySelectorAll("blockquote")
     blockquotes.forEach((blockquote) => {
       // Проверяем что в blockquote есть текст
@@ -177,30 +210,25 @@ export function useChatUi(
       const text = blockquote.textContent.trim()
       const queryText = text.replace(/^[\p{Emoji}\s]+/u, "").trim()
 
-      // Ищем первый параграф или первый текстовый узел
+      // Ищем первый параграф
       const firstParagraph = blockquote.querySelector("p:first-child")
 
       if (firstParagraph) {
-        // Создаем кнопку
-        const button = document.createElement("button")
-        button.className = "interactive-element-button"
-        button.setAttribute("data-query", queryText)
-        button.setAttribute("title", queryText)
-        button.innerHTML = '<span class="interactive-icon">ℹ️</span>'
+        // Сохраняем оригинальное содержимое
+        const originalContent = firstParagraph.innerHTML
 
-        // Вставляем кнопку в начало параграфа
-        firstParagraph.insertBefore(button, firstParagraph.firstChild)
-        firstParagraph.insertBefore(document.createTextNode(" "), firstParagraph.childNodes[1])
-      } else {
-        // Создаем кнопку и вставляем её в начало blockquote
-        const button = document.createElement("button")
-        button.className = "interactive-element-button"
-        button.setAttribute("data-query", queryText)
-        button.setAttribute("title", queryText)
-        button.innerHTML = '<span class="interactive-icon">ℹ️</span>'
+        // Создаем интерактивный элемент с тем же содержимым
+        firstParagraph.innerHTML = ""
+        const interactiveText = document.createElement("span")
+        interactiveText.className = "interactive-blockquote-text"
+        interactiveText.setAttribute("data-query", queryText)
+        interactiveText.innerHTML = originalContent
+        interactiveText.style.cursor = "pointer"
+        interactiveText.style.color = "var(--chat-brand-color)"
+        interactiveText.style.textDecoration = "underline"
 
-        blockquote.insertBefore(document.createTextNode(" "), blockquote.firstChild)
-        blockquote.insertBefore(button, blockquote.firstChild)
+        // Вставляем интерактивный элемент в параграф
+        firstParagraph.appendChild(interactiveText)
       }
     })
 
