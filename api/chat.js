@@ -38,11 +38,14 @@ export async function POST(req) {
 
     // Отправляем запрос к ИИ с выбранным системным промптом
     const result = await streamText({
-      model: anthropic("claude-3-5-sonnet-20241022"),
+      // model: anthropic("claude-3-5-sonnet-20241022"),
+      model: anthropic("claude-3-5-haiku-20241022"),
       // model: anthropic("claude-3-haiku-20240307"),
       system: systemPrompt,
       messages,
-      maxTokens: 4000, // Устанавливаем явное ограничение токенов
+      maxTokens: 4000,
+      temperature: 0.3,
+      // stop: ["<figure>", "</figure>"],
     })
 
     console.log("🔵 API: Получен ответ от AI, начинаем стриминг...")
