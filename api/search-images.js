@@ -15,6 +15,15 @@ function normalizeQuery(query) {
     .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "")
 }
 
+/**
+ * Кеш запросов к API (только для текущей сессии)
+ * @type {Map<string, {timestamp: number, data: any}>}
+ */
+const memoryCache = new Map()
+
+// Время жизни кеша в памяти - 1 час (в миллисекундах)
+const CACHE_TTL = 60 * 60 * 1000
+
 // @ts-ignore
 export async function GET(req) {
   console.log("🔵 SEARCH-API: Получен запрос на поиск изображений")
@@ -35,13 +44,51 @@ export async function GET(req) {
   const normalizedQuery = normalizeQuery(query)
   console.log(`🔵 SEARCH-API: Поиск изображений для запроса "${query}" (нормализовано: "${normalizedQuery}")`)
 
+  // Пытаемся найти результат в кеше в памяти
+  const now = Date.now()
+  const cachedResult = memoryCache.get(normalizedQuery)
+
+  if (cachedResult && now - cachedResult.timestamp < CACHE_TTL) {
+    console.log(`🔵 SEARCH-API: Найдено в кеше, возвращаем кешированный результат для "${normalizedQuery}"`)
+    return new Response(JSON.stringify(cachedResult.data), {
+      status: 200,
+      headers: {
+        "Content-Type": "application/json",
+        "Cache-Control": "public, max-age=86400, s-maxage=604800",
+        "X-Cache": "HIT",
+      },
+    })
+  }
+
   try {
     // Вызываем функцию поиска изображений
     const images = await searchImages(query, 1)
     console.log(`🔵 SEARCH-API: Найдено ${images.length} изображений`)
 
+    // Формируем результат
+    const result = { images }
+
+    // Сохраняем в кеше в памяти
+    memoryCache.set(normalizedQuery, {
+      timestamp: now,
+      data: result,
+    })
+
+    // Очищаем старые записи из кеша, если их больше 100
+    if (memoryCache.size > 100) {
+      const keysToDelete = []
+
+      for (const [key, value] of memoryCache.entries()) {
+        if (now - value.timestamp > CACHE_TTL) {
+          keysToDelete.push(key)
+        }
+      }
+
+      keysToDelete.forEach((key) => memoryCache.delete(key))
+    }
+
     // Настройки кеширования для Vercel Edge Network, работают и с Vitepress
-    return new Response(JSON.stringify({ images }), {
+    return new Response(JSON.stringify(result), {
       status: 200,
       headers: {
         "Content-Type": "application/json",
@@ -52,6 +99,8 @@ export async function GET(req) {
         "Vercel-CDN-Cache-Control": "public, max-age=604800",
         // Для обеспечения актуальности данных:
         "stale-while-revalidate": "86400",
+        // Метка для отслеживания кеширования
+        "X-Cache": "MISS",
       },
     })
   } catch (error) {

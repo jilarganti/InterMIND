@@ -1,3 +1,4 @@
+// .vitepress/theme/utils/chatUtils.ts
 import type { UIMessage } from "@ai-sdk/ui-utils"
 
 /**
@@ -21,7 +22,8 @@ interface ImageSearchResponse {
 
 /**
  * Функция для обработки маркеров изображений в тексте
- * с добавлением ссылок на источники
+ * с добавлением ссылок на источники (устаревшая, оставлена для совместимости)
+ * @deprecated Используйте ImageLoader вместо этой функции
  */
 export async function processImagesInMessage(message: UIMessage): Promise<UIMessage> {
   if (!message || message.role !== "assistant") return message
@@ -83,4 +85,12 @@ export async function processImagesInMessage(message: UIMessage): Promise<UIMess
   }
 
   return message
+}
+
+/**
+ * Проверяет, содержит ли сообщение маркеры изображений
+ */
+export function hasImageMarkers(content: string): boolean {
+  const imageRegex = /\[NEEDS_IMAGE:([^\]]+)\]/g
+  return imageRegex.test(content)
 }
