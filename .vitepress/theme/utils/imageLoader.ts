@@ -1,5 +1,6 @@
 // .vitepress/theme/utils/imageLoader.ts
 import type { UIMessage } from "@ai-sdk/ui-utils"
+import { IMAGE_MARKER_REGEX, escapeRegExp } from "./chatUtils"
 
 /**
  * Интерфейс для результата поиска изображений
@@ -42,13 +43,6 @@ export class ImageLoader {
   }
 
   /**
-   * Экранирует специальные символы для использования в регулярных выражениях
-   */
-  private escapeRegExp(string: string): string {
-    return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-  }
-
-  /**
    * Обрабатывает маркеры изображений в содержимом сообщения
    * @param content Содержимое сообщения
    * @param messageIndex Индекс сообщения в массиве
@@ -56,16 +50,14 @@ export class ImageLoader {
    * @returns Обновленное содержимое сообщения
    */
   processImageMarkers(content: string, messageIndex: number, isComplete = false): string {
-    // Паттерн поиска маркеров изображений
-    const imageRegex = /\[NEEDS_IMAGE:([^\]]+)\]/g
     let modifiedContent = content
     let match: RegExpExecArray | null
 
     // Сбрасываем регулярное выражение
-    imageRegex.lastIndex = 0
+    IMAGE_MARKER_REGEX.lastIndex = 0
 
     // Перебираем все маркеры в тексте
-    while ((match = imageRegex.exec(content)) !== null) {
+    while ((match = IMAGE_MARKER_REGEX.exec(content)) !== null) {
       const fullMatch = match[0]
       const query = match[1].trim()
 
@@ -77,14 +69,11 @@ export class ImageLoader {
       // Добавляем маркер для предотвращения повторной обработки
       this.pendingQueries.add(query)
 
-      // Создаем уникальный плейсхолдер для этого маркера
-      const placeholder = isComplete ? `<div class="image-placeholder" data-query="${query}">Загрузка изображения для "${query}"...</div>` : fullMatch
+      // Во время стриминга сохраняем оригинальный маркер
+      const placeholder = fullMatch
 
       // Сохраняем плейсхолдер для данного запроса
       this.imagePlaceholders.set(query, placeholder)
-
-      // Заменяем маркер на плейсхолдер
-      modifiedContent = modifiedContent.replace(new RegExp(this.escapeRegExp(fullMatch), "g"), placeholder)
 
       // Начинаем загрузку изображения, если его еще нет в кеше
       if (!this.imagePromises.has(query)) {
@@ -131,16 +120,6 @@ export class ImageLoader {
 
     // Сохраняем промис
     this.imagePromises.set(query, imagePromise)
-
-    // Обрабатываем результат и обновляем сообщение
-    imagePromise.then((imageHtml) => {
-      // Получаем текущий плейсхолдер
-      const placeholder = this.imagePlaceholders.get(query)
-      if (!placeholder) return
-
-      // Запрашиваем обновление сообщения через переданную функцию
-      this.messageUpdater(messageIndex, placeholder, imageHtml)
-    })
   }
 
   /**
@@ -160,13 +139,13 @@ export class ImageLoader {
     // Получаем финальное содержимое
     let finalContent = message.content
 
-    // Заменяем все плейсхолдеры на загруженные изображения
+    // Заменяем все маркеры на загруженные изображения только после завершения ответа
     for (const [query, imagePromise] of this.imagePromises.entries()) {
       const placeholder = this.imagePlaceholders.get(query)
       const imageHtml = await imagePromise
 
       if (placeholder && imageHtml) {
-        finalContent = finalContent.replace(new RegExp(this.escapeRegExp(placeholder), "g"), imageHtml)
+        finalContent = finalContent.replace(new RegExp(escapeRegExp(placeholder), "g"), imageHtml)
       }
     }
 
