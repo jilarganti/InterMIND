@@ -1,5 +1,8 @@
 // api/chat.js
 import { anthropic } from "@ai-sdk/anthropic"
+import { groq } from "@ai-sdk/groq"
+import { openai } from "@ai-sdk/openai"
+import { deepseek } from "@ai-sdk/deepseek"
 import { streamText } from "ai"
 import { BUSINESS_PROMPT, FOLLOW_UP_PROMPT } from "../.vitepress/config/AIConfig.js"
 
@@ -39,8 +42,11 @@ export async function POST(req) {
     // Отправляем запрос к ИИ с выбранным системным промптом
     const result = await streamText({
       // model: anthropic("claude-3-5-sonnet-20241022"),
-      model: anthropic("claude-3-5-haiku-20241022"),
+      // model: anthropic("claude-3-5-haiku-20241022"),
       // model: anthropic("claude-3-haiku-20240307"),
+      // model: groq('gemma2-9b-it'),
+      model: openai("gpt-4-turbo"),
+      // model: deepseek('deepseek-chat'),
       system: systemPrompt,
       messages,
       maxTokens: 4000,
