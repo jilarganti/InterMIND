@@ -40,17 +40,18 @@ export async function POST(req) {
     }
 
     // Отправляем запрос к ИИ с выбранным системным промптом
-    const result = await streamText({
+    const result = streamText({
       // model: anthropic("claude-3-5-sonnet-20241022"),
       // model: anthropic("claude-3-5-haiku-20241022"),
-      // model: anthropic("claude-3-haiku-20240307"),
-      // model: groq('gemma2-9b-it'),
-      model: openai("gpt-4-turbo"),
+      model: anthropic("claude-3-haiku-20240307"),
+      // model: groq("gemma2-9b-it"),
+      // model: openai("gpt-4-turbo"),
+      // model: openai("gpt-4o-mini"),
       // model: deepseek('deepseek-chat'),
       system: systemPrompt,
       messages,
-      maxTokens: 4000,
-      temperature: 0.3,
+      // maxTokens: 4000,
+      temperature: 0.9,
       // stop: ["<figure>", "</figure>"],
     })
 
