@@ -58,6 +58,11 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
       mode: currentMode.value,
     }),
   },
+  onResponse(response) {
+    console.log("Received HTTP response from server:", response)
+  },
+  onToolCall({ toolCall }) {},
+  experimental_prepareRequestBody(options) {},
   onFinish: async () => {
     // Проверяем, что chatId не изменился во время получения ответа
     if (chatSessionId.value !== props.chatId) return
