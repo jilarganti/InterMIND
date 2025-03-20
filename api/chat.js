@@ -1,13 +1,22 @@
 // api/chat.js
 import { anthropic } from "@ai-sdk/anthropic"
-import { groq } from "@ai-sdk/groq"
-import { openai } from "@ai-sdk/openai"
-import { deepseek } from "@ai-sdk/deepseek"
 import { streamText } from "ai"
 import { BUSINESS_PROMPT, FOLLOW_UP_PROMPT } from "../.vitepress/config/AIConfig.js"
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30
+
+/**
+ * Функция для удаления тегов figure из текста сообщения
+ * @param {string} content - содержимое сообщения
+ * @returns {string} - очищенное содержимое
+ */
+function removeFigureTags(content) {
+  if (typeof content !== "string") return content
+
+  // Удаляем теги <figure> и </figure> и весь контент между ними
+  return content.replace(/<figure\b[^>]*>[\s\S]*?<\/figure>/gi, "")
+}
 
 /**
  * Обработчик POST-запроса
@@ -18,18 +27,28 @@ export async function POST(req) {
 
   try {
     const body = await req.json()
-    const messages = body.messages || []
+    let messages = body.messages || []
 
     // Получаем режим запроса из body (по умолчанию 'default')
     const mode = body.mode || "default"
     console.log(`🔵 API: Получено ${messages.length} сообщений, режим: ${mode}`)
 
-    // Логируем только последнее сообщение для отладки
-    if (messages.length > 0) {
-      console.log(`🔵 API: Последнее сообщение от ${messages[messages.length - 1].role}: ${messages[messages.length - 1].content.substring(0, 100)}...`)
-    }
+    /**
+     * Костыль для очистки сообщений от тегов figure. В норме теги не должны попадать в историю сообщений.
+     */
+    // @ts-ignore
+    const cleanedMessages = messages.map((msg) => {
+      if (msg.role === "assistant") {
+        return {
+          ...msg,
+          content: removeFigureTags(msg.content),
+        }
+      }
+      return msg
+    })
 
-    console.log(`🔵 API: Отправка запроса к AI в режиме ${mode}...`)
+    // Используем очищенные сообщения
+    messages = cleanedMessages
 
     // Выбираем системный промпт в зависимости от режима
     let systemPrompt = BUSINESS_PROMPT // По умолчанию используем бизнес-промпт
@@ -40,10 +59,10 @@ export async function POST(req) {
     }
 
     // Отправляем запрос к ИИ с выбранным системным промптом
-    const result = streamText({
+    const result = await streamText({
       // model: anthropic("claude-3-5-sonnet-20241022"),
-      // model: anthropic("claude-3-5-haiku-20241022"),
-      model: anthropic("claude-3-sonnet-20240229"),
+      model: anthropic("claude-3-5-haiku-20241022"),
+      // model: anthropic("claude-3-sonnet-20240229"),
       // model: anthropic("claude-3-haiku-20240307"),
       // model: groq("gemma2-9b-it"),
       // model: openai("gpt-4-turbo"),
