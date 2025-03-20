@@ -59,7 +59,7 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
     }),
   },
   onResponse(response) {
-    console.log("Received HTTP response from server:", response)
+    // console.log("Received HTTP response from server:", response)
   },
   onToolCall({ toolCall }) {},
   experimental_prepareRequestBody(options) {},
