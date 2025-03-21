@@ -85,7 +85,7 @@ const chatThreadRef = ref<ChatThreadMethods | null>(null)
 const titleInputRef = ref<HTMLInputElement | null>(null)
 
 // Используем composable для управления заголовком
-const { isEditingTitle, editableChatTitle, startEditingTitle, saveTitle } = useChatTitle(titleInputRef)
+const { isEditingTitle, editableChatTitle, startEditingTitle, saveTitle } = useChatTitle()
 
 // Получаем список быстрых подсказок из props
 const { quickPrompts } = useQuickPrompts(chatThreadRef, props.prompts || [])
@@ -181,6 +181,7 @@ defineExpose({
   width: 100%;
   overflow: hidden;
   background-color: var(--vp-c-bg);
+  min-width: 320px; /* Минимальная ширина для контейнера чата */
 }
 
 /* Контейнер для компонента ChatThread */
