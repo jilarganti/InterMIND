@@ -119,7 +119,7 @@ const adjustHeight = (target: HTMLTextAreaElement): void => {
 const resetHeight = (): void => {
   if (textareaRef.value) {
     textareaRef.value.style.height = "auto"
-    textareaRef.value.style.height = "24px"
+    // textareaRef.value.style.height = "24px"
   }
 }
 

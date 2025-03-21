@@ -59,6 +59,10 @@ const emit = defineEmits<{
 // Ref для поля ввода заголовка
 const titleInputRef = ref<HTMLInputElement | null>(null)
 
+const vFocus = {
+  mounted: (el: HTMLElement) => el.focus(),
+}
+
 // Обработчик изменения значения поля
 const updateEditableTitle = (event: Event) => {
   const target = event.target as HTMLInputElement
@@ -91,6 +95,7 @@ onMounted(() => {
       <!-- Редактирование заголовка -->
       <input
         v-else
+        v-focus
         ref="titleInputRef"
         :value="editableTitle"
         @input="updateEditableTitle"
