@@ -140,6 +140,7 @@ const handleKeyDown = (event: KeyboardEvent): void => {
 }
 </script>
 
+<!-- Изменения в template - заменяем двойную кнопку на одну -->
 <template>
   <div class="chat-footer">
     <form @submit.prevent="handleSubmit" class="input-form">
@@ -168,13 +169,17 @@ const handleKeyDown = (event: KeyboardEvent): void => {
         rows="1"
       ></textarea>
 
-      <!-- Кнопки отправки/остановки -->
+      <!-- Единая кнопка отправки/остановки -->
       <div class="button-container">
-        <button v-if="status !== 'streaming'" type="submit" :disabled="!inputValue.trim()" class="send-button" :class="{ visible: hasInputContent }">
-          <ArrowUp :size="20" />
-        </button>
-        <button v-else type="button" @click="emit('stop')" class="stop-button">
-          <Square :size="20" />
+        <button
+          type="button"
+          class="action-button"
+          :class="{ 'send-button': status !== 'streaming', 'stop-button': status === 'streaming' }"
+          :disabled="status !== 'streaming' && !inputValue.trim()"
+          @click="status === 'streaming' ? emit('stop') : handleSubmit($event)"
+        >
+          <ArrowUp v-if="status !== 'streaming'" :size="20" />
+          <Square v-else :size="20" />
         </button>
       </div>
     </form>
@@ -186,6 +191,7 @@ const handleKeyDown = (event: KeyboardEvent): void => {
   </div>
 </template>
 
+<!-- Изменения в CSS - объединяем стили кнопок -->
 <style scoped>
 /* Основной футер */
 .chat-footer {
@@ -245,9 +251,8 @@ const handleKeyDown = (event: KeyboardEvent): void => {
   height: 40px;
 }
 
-/* Кнопки отправки/остановки */
-.send-button,
-.stop-button {
+/* Общие стили для кнопки действия (отправки/остановки) */
+.action-button {
   width: 40px;
   height: 40px;
   display: flex;
@@ -255,24 +260,15 @@ const handleKeyDown = (event: KeyboardEvent): void => {
   justify-content: center;
   border: none;
   border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Стили для режима отправки */
+.send-button {
   color: var(--vp-c-text-1);
   background-color: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
-  cursor: pointer;
-}
-
-/* Стиль кнопки отправки при наличии текста */
-.send-button {
-  opacity: 0;
-  transform: scale(0.9);
-  transition:
-    opacity 0.2s,
-    transform 0.2s;
-}
-
-.send-button.visible {
-  opacity: 1;
-  transform: scale(1);
 }
 
 .send-button:hover {
@@ -281,19 +277,19 @@ const handleKeyDown = (event: KeyboardEvent): void => {
 }
 
 .send-button:disabled {
-  opacity: 0;
+  opacity: 0.5;
   cursor: default;
 }
 
+/* Стили для режима остановки */
 .stop-button {
-  opacity: 1;
-  background-color: var(--vp-c-danger-soft);
-  border-color: var(--vp-c-danger);
-  color: var(--vp-c-danger-dark);
+  color: var(--vp-c-text-1);
+  background-color: var(--vp-c-warning-soft);
+  border: 1px solid var(--vp-c-divider);
 }
 
 .stop-button:hover {
-  background-color: var(--vp-c-danger-soft);
+  background-color: var(--vp-c-warning-soft);
   border-color: var(--vp-c-danger-dark);
 }
 
