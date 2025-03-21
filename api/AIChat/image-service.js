@@ -29,7 +29,10 @@ export async function searchImages(query, limit = 1) {
   console.log(`🟢 IMAGE-SERVICE: Ключи API настроены корректно`)
 
   try {
-    const url = `https://www.googleapis.com/customsearch/v1?key=${GOOGLE_API_KEY}&cx=${SEARCH_ENGINE_ID}&q=${encodeURIComponent(query)}&searchType=image&num=${limit}&safe=active&imgType=photo&imgSize=large`
+    // Ограничиваем запрашиваемое количество изображений до 10
+    const validLimit = Math.min(Math.max(1, limit), 10)
+
+    const url = `https://www.googleapis.com/customsearch/v1?key=${GOOGLE_API_KEY}&cx=${SEARCH_ENGINE_ID}&q=${encodeURIComponent(query)}&searchType=image&num=${validLimit}&safe=active&imgType=photo&imgSize=large`
     console.log(`🟢 IMAGE-SERVICE: Отправляем запрос к Google CSE API: ${url.substring(0, url.indexOf("key=") + 5)}...HIDDEN...`)
 
     const startTime = Date.now()
@@ -90,7 +93,7 @@ export async function searchImages(query, limit = 1) {
 
     console.log(`🟢 IMAGE-SERVICE: Возвращаем ${results.length} изображений:`)
     // Логируем только первые несколько результатов
-    results.slice(0, 2).forEach((item, index) => {
+    results.slice(0, Math.min(results.length, 3)).forEach((item, index) => {
       console.log(`  - #${index + 1}: ${item.title.substring(0, 30)}... | URL: ${item.url.substring(0, 50)}...`)
     })
 

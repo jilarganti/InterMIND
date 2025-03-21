@@ -26,6 +26,9 @@ export class ImageLoader {
   private messageUpdater: (index: number, oldStr: string, newStr: string) => void
   private pendingQueries = new Set<string>()
 
+  // Кеш для хранения уже использованных URL изображений
+  private usedImageUrls = new Set<string>()
+
   /**
    * @param messageUpdater Функция для обновления содержимого сообщения
    */
@@ -40,6 +43,23 @@ export class ImageLoader {
     this.imagePromises.clear()
     this.imagePlaceholders.clear()
     this.pendingQueries.clear()
+    // Не сбрасываем usedImageUrls, чтобы сохранять историю использованных изображений в рамках сессии
+  }
+
+  /**
+   * Нормализует URL изображения для сравнения
+   * Убирает параметры запроса и фрагменты
+   */
+  private normalizeImageUrl(url: string): string {
+    try {
+      // Создаем URL объект
+      const urlObj = new URL(url)
+      // Возвращаем URL без параметров запроса и фрагмента
+      return `${urlObj.protocol}//${urlObj.hostname}${urlObj.pathname}`
+    } catch (e) {
+      // Если не удалось разобрать URL, возвращаем оригинальный
+      return url
+    }
   }
 
   /**
@@ -90,8 +110,8 @@ export class ImageLoader {
    * @param messageIndex Индекс сообщения для обновления
    */
   private loadImage(query: string, messageIndex: number) {
-    // Создаем промис для загрузки изображения
-    const imagePromise = fetch(`/api/search-images?q=${encodeURIComponent(query)}`)
+    // Запрашиваем сразу 5 изображений
+    const imagePromise = fetch(`/api/search-images?q=${encodeURIComponent(query)}&limit=5`)
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Ошибка поиска изображения: ${response.status} ${response.statusText}`)
@@ -100,9 +120,21 @@ export class ImageLoader {
       })
       .then((data) => {
         if (data.images && data.images.length > 0) {
-          const image = data.images[0]
+          // Выбираем первое изображение, которое еще не использовалось
+          const unusedImage = data.images.find((image) => {
+            const normalizedUrl = this.normalizeImageUrl(image.url)
+            return !this.usedImageUrls.has(normalizedUrl)
+          })
+
+          // Если нашли неиспользованное изображение, используем его
+          // Иначе используем первое в списке
+          const image = unusedImage || data.images[0]
           const imageUrl = image.url
           const title = image.title || query
+
+          // Добавляем нормализованный URL в список использованных
+          const normalizedUrl = this.normalizeImageUrl(imageUrl)
+          this.usedImageUrls.add(normalizedUrl)
 
           // Создаем HTML для изображения
           return `<figure class="image-container">

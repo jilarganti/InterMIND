@@ -28,9 +28,13 @@ const CACHE_TTL = 60 * 60 * 1000
 export async function GET(req) {
   console.log("🔵 SEARCH-API: Получен запрос на поиск изображений")
 
-  // Извлекаем параметр запроса
+  // Извлекаем параметры запроса
   const url = new URL(req.url)
   const query = url.searchParams.get("q")
+  const limit = parseInt(url.searchParams.get("limit") || "1", 10)
+
+  // Ограничиваем максимальное значение limit до 10
+  const validLimit = Math.min(Math.max(1, limit), 10)
 
   if (!query) {
     console.error("🔴 SEARCH-API: Отсутствует параметр запроса 'q'")
@@ -42,11 +46,11 @@ export async function GET(req) {
 
   // Нормализуем запрос для лучшего кеширования
   const normalizedQuery = normalizeQuery(query)
-  console.log(`🔵 SEARCH-API: Поиск изображений для запроса "${query}" (нормализовано: "${normalizedQuery}")`)
+  console.log(`🔵 SEARCH-API: Поиск изображений для запроса "${query}" (нормализовано: "${normalizedQuery}", limit: ${validLimit})`)
 
   // Пытаемся найти результат в кеше в памяти
   const now = Date.now()
-  const cachedResult = memoryCache.get(normalizedQuery)
+  const cachedResult = memoryCache.get(`${normalizedQuery}_${validLimit}`) // Используем limit как часть ключа кеша
 
   if (cachedResult && now - cachedResult.timestamp < CACHE_TTL) {
     console.log(`🔵 SEARCH-API: Найдено в кеше, возвращаем кешированный результат для "${normalizedQuery}"`)
@@ -61,15 +65,15 @@ export async function GET(req) {
   }
 
   try {
-    // Вызываем функцию поиска изображений
-    const images = await searchImages(query, 1)
+    // Вызываем функцию поиска изображений с указанным лимитом
+    const images = await searchImages(query, validLimit)
     console.log(`🔵 SEARCH-API: Найдено ${images.length} изображений`)
 
     // Формируем результат
     const result = { images }
 
     // Сохраняем в кеше в памяти
-    memoryCache.set(normalizedQuery, {
+    memoryCache.set(`${normalizedQuery}_${validLimit}`, {
       timestamp: now,
       data: result,
     })
