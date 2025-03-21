@@ -21,7 +21,15 @@ export function useChatTitle() {
   const saveTitle = () => {
     if (!chatsStore.selectedChatId) return
 
-    chatsStore.setChatTitle(chatsStore.selectedChatId, editableChatTitle.value.trim())
+    // Сохраняем только если заголовок не пустой
+    if (editableChatTitle.value.trim()) {
+      chatsStore.setChatTitle(chatsStore.selectedChatId, editableChatTitle.value.trim())
+    } else {
+      // Если поле пустое, восстанавливаем текущий заголовок в поле редактирования
+      const currentTitle = chatsStore.getChatTitle(chatsStore.selectedChatId) || ""
+      editableChatTitle.value = currentTitle
+    }
+
     isEditingTitle.value = false
   }
 
