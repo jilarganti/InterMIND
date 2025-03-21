@@ -41,12 +41,12 @@ const chatTitle = computed(() => {
   const chatId = chatsStore.selectedChatId
   if (!chatId) return ""
 
-  // Для временного чата показываем "Новый чат"
+  // Для временного чата показываем дата создания
   if (isTempChat.value) {
-    return "Новый чат"
+    return new Date(Number(chatId)).toLocaleString()
   }
 
-  return chatsStore.getChatTitle(chatId) || `Чат от ${new Date(Number(chatId)).toLocaleString()}`
+  return chatsStore.getChatTitle(chatId) || ""
 })
 
 // Ссылка на компонент контейнера чата
@@ -101,7 +101,7 @@ const handleCreateChat = () => {
         <!-- Используем слот для отображения заголовка чата -->
         <template #chat-title="{ chatId }">
           <span class="chat-name">
-            {{ chatsStore.getChatTitle(chatId) || "🆕" }}
+            {{ chatsStore.getChatTitle(chatId) }}
           </span>
         </template>
       </ChatList>

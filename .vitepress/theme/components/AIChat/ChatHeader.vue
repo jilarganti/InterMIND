@@ -89,7 +89,7 @@ onMounted(() => {
       <div v-if="!isEditing" class="chat-title editable-title" :class="{ 'draft-title': isDraft }" @click="!isDraft && emit('start-editing')" :title="title">
         {{ title }}
         <!-- Индикатор черновика -->
-        <span v-if="isDraft" class="draft-indicator">Черновик</span>
+        <span v-if="isDraft" class="draft-indicator">🆕</span>
       </div>
 
       <!-- Редактирование заголовка -->
