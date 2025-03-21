@@ -10,57 +10,62 @@ navbar: false
 
 <script setup>
 const chatPrompts = [
-  { id: "1", text: "Expo City Dubai", category: "आकर्षण" },
-  { id: "2", text: "Dubai Frame tickets", category: "आकर्षण" },
-  { id: "3", text: "Burj Khalifa tickets", category: "आकर्षण" },
-  { id: "4", text: "Museum of the Future", category: "आकर्षण" },
-  { id: "5", text: "Abu Dhabi Louvre", category: "आकर्षण" },
-  { id: "6", text: "Ferrari World Abu Dhabi", category: "आकर्षण" },
-  { id: "7", text: "Dubai Mall restaurants", category: "भोजन" },
-  { id: "8", text: "Best Arabic food Dubai", category: "भोजन" },
-  { id: "9", text: "Dubai Michelin star restaurants", category: "भोजन" },
-  { id: "10", text: "Sharjah street food", category: "भोजन" },
-  { id: "11", text: "Palm Jumeirah rental", category: "आवास" },
-  { id: "12", text: "Dubai Marina apartments", category: "आवास" },
-  { id: "13", text: "Abu Dhabi affordable housing", category: "आवास" },
-  { id: "14", text: "UAE rental laws", category: "आवास" },
-  { id: "15", text: "Dubai Metro map", category: "परिवहन" },
-  { id: "16", text: "Abu Dhabi taxi rates", category: "परिवहन" },
-  { id: "17", text: "UAE driving license", category: "परिवहन" },
-  { id: "18", text: "Dubai RTA services", category: "परिवहन" },
-  { id: "19", text: "Dubai Mall shopping", category: "खरीदारी" },
-  { id: "20", text: "Global Village Dubai", category: "खरीदारी" },
-  { id: "21", text: "Dubai Gold Souk", category: "खरीदारी" },
-  { id: "22", text: "Mall of Emirates offers", category: "खरीदारी" },
-  { id: "23", text: "UAE business setup", category: "व्यवसाय" },
-  { id: "24", text: "Dubai free zones", category: "व्यवसाय" },
-  { id: "25", text: "UAE company registration", category: "व्यवसाय" },
-  { id: "26", text: "UAE freelance visa", category: "व्यवसाय" },
-  { id: "27", text: "UAE visa requirements", category: "यात्रा" },
-  { id: "28", text: "Dubai tourist attractions", category: "यात्रा" },
-  { id: "29", text: "UAE visit visa application", category: "यात्रा" },
-  { id: "30", text: "Abu Dhabi tourist places", category: "यात्रा" },
-  { id: "31", text: "Desert safari Dubai", category: "यात्रा" },
-  { id: "32", text: "Dubai jobs for expatriates", category: "नौकरियां" },
-  { id: "33", text: "UAE work permit process", category: "नौकरियां" },
-  { id: "34", text: "Remote jobs in UAE", category: "नौकरियां" },
-  { id: "35", text: "UAE salary guide", category: "नौकरियां" },
-  { id: "36", text: "UAE weather forecast", category: "कार्यक्रम" },
-  { id: "37", text: "Dubai upcoming events", category: "कार्यक्रम" },
-  { id: "38", text: "UAE national day celebrations", category: "कार्यक्रम" },
-  { id: "39", text: "Dubai shopping festival", category: "कार्यक्रम" },
-  { id: "40", text: "Emirates ID renewal", category: "सेवाएं" },
-  { id: "41", text: "UAE banking services", category: "सेवाएं" },
-  { id: "42", text: "DEWA bill payment", category: "सेवाएं" },
-  { id: "43", text: "Etisalat package upgrade", category: "सेवाएं" },
-  { id: "44", text: "Best schools in Dubai", category: "शिक्षा" },
-  { id: "45", text: "UAE university admission", category: "शिक्षा" },
-  { id: "46", text: "KHDA school ratings", category: "शिक्षा" },
-  { id: "47", text: "UAE health insurance", category: "स्वास्थ्य सेवा" },
-  { id: "48", text: "Best hospitals in Dubai", category: "स्वास्थ्य सेवा" },
-  { id: "49", text: "Medical check-up UAE", category: "स्वास्थ्य सेवा" },
-  { id: "50", text: "DHA services", category: "स्वास्थ्य सेवा" }
+  // व्यापार सेवाएं (पहला ब्लॉक)
+  { id: "1", text: "UAE में कंपनी पंजीकरण", category: "business" },
+  { id: "2", text: "Mainland कंपनी स्थापना", category: "business" },
+  { id: "3", text: "Free Zone कंपनी पंजीकरण", category: "business" },
+  { id: "4", text: "Offshore कंपनी गठन", category: "business" },
+  { id: "5", text: "UAE फ्रीलांस वीजा", category: "business" },
+  { id: "6", text: "दुबई बिजनेस लाइसेंस", category: "business" },
+  { id: "7", text: "UAE व्यापार लाइसेंस आवश्यकताएं", category: "business" },
+  { id: "23", text: "UAE व्यवसाय स्थापना", category: "business" },
+  { id: "24", text: "दुबई Free Zones", category: "business" },
+  { id: "25", text: "UAE कंपनी पंजीकरण", category: "business" },
+  { id: "26", text: "UAE फ्रीलांस वीजा", category: "business" },
+  
+  // वीजा और आव्रजन
+  { id: "8", text: "UAE Golden Visa आवेदन", category: "visa" },
+  { id: "9", text: "UAE रोजगार वीजा", category: "visa" },
+  { id: "10", text: "UAE में परिवार वीजा प्रायोजन", category: "visa" },
+  { id: "11", text: "वीजा मेडिकल टेस्ट आवश्यकताएं", category: "visa" },
+  { id: "12", text: "UAE निवास वीजा प्रक्रिया", category: "visa" },
+  { id: "27", text: "UAE वीजा आवश्यकताएं", category: "visa" },
+  
+  // कानूनी और दस्तावेज
+  { id: "13", text: "Emirates ID आवेदन", category: "legal" },
+  { id: "14", text: "UAE दस्तावेज सत्यापन", category: "legal" },
+  { id: "15", text: "UAE में मुख्तारनामा", category: "legal" },
+  { id: "16", text: "UAE व्यापार अनुबंध समीक्षा", category: "legal" },
+  { id: "40", text: "Emirates ID नवीनीकरण", category: "legal" },
+  
+  // वित्तीय सेवाएं
+  { id: "17", text: "UAE कॉर्पोरेट बैंक खाता", category: "finance" },
+  { id: "18", text: "UAE कर पंजीकरण (VAT)", category: "finance" },
+  { id: "19", text: "UAE में लेखा सेवाएं", category: "finance" },
+  { id: "20", text: "UAE Economic Substance Regulations", category: "finance" },
+  { id: "41", text: "UAE बैंकिंग सेवाएं", category: "finance" },
+  
+  // रियल एस्टेट और सेवाएं
+  { id: "21", text: "UAE संपत्ति निवेश", category: "property" },
+  { id: "22", text: "दुबई कार्यालय स्थान किराया", category: "property" },
+
+  // स्वास्थ्य सेवा
+  { id: "47", text: "UAE स्वास्थ्य बीमा", category: "healthcare" },
+  { id: "48", text: "दुबई के सर्वश्रेष्ठ अस्पताल", category: "healthcare" },
+  { id: "49", text: "UAE मेडिकल चेक-अप", category: "healthcare" },
+  
+  // पर्यटन और मनोरंजन (अंत में)
+  { id: "28", text: "दुबई पर्यटक आकर्षण", category: "travel" },
+  { id: "29", text: "Expo City दुबई", category: "attractions" },
+  { id: "30", text: "Dubai Frame टिकट", category: "attractions" },
+  { id: "31", text: "Burj Khalifa टिकट", category: "attractions" },
+  { id: "32", text: "Museum of the Future", category: "attractions" },
+  { id: "33", text: "Abu Dhabi Louvre", category: "attractions" },
+  { id: "34", text: "Ferrari World Abu Dhabi", category: "attractions" },
+  { id: "35", text: "Dubai Mall शॉपिंग", category: "shopping" },
 ]
 </script>
 
 <AIChat :prompts="chatPrompts" />
+
+<userStyle>Normal</userStyle>

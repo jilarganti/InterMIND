@@ -10,57 +10,62 @@ navbar: false
 
 <script setup>
 const chatPrompts = [
-  { id: "1", text: "ఎక్స్పో సిటీ దుబాయ్", category: "attractions" },
-  { id: "2", text: "దుబాయ్ ఫ్రేమ్ టికెట్లు", category: "attractions" },
-  { id: "3", text: "బుర్జ్ ఖలీఫా టికెట్లు", category: "attractions" },
-  { id: "4", text: "భవిష్యత్తు మ్యూజియం", category: "attractions" },
-  { id: "5", text: "అబుదాబి లూవ్ర్", category: "attractions" },
-  { id: "6", text: "ఫెరారీ వరల్డ్ అబుదాబి", category: "attractions" },
-  { id: "7", text: "దుబాయ్ మాల్ రెస్టారెంట్లు", category: "food" },
-  { id: "8", text: "దుబాయ్లో ఉత్తమ అరబిక్ ఆహారం", category: "food" },
-  { id: "9", text: "దుబాయ్ మిచ్లిన్ స్టార్ రెస్టారెంట్లు", category: "food" },
-  { id: "10", text: "షార్జా వీధి ఆహారం", category: "food" },
-  { id: "11", text: "పామ్ జుమేరా అద్దె", category: "housing" },
-  { id: "12", text: "దుబాయ్ మరీనా అపార్ట్మెంట్లు", category: "housing" },
-  { id: "13", text: "అబుదాబి చౌకైన గృహాలు", category: "housing" },
-  { id: "14", text: "UAE అద్దె చట్టాలు", category: "housing" },
-  { id: "15", text: "దుబాయ్ మెట్రో మ్యాప్", category: "transportation" },
-  { id: "16", text: "అబుదాబి టాక్సీ ధరలు", category: "transportation" },
-  { id: "17", text: "UAE డ్రైవింగ్ లైసెన్స్", category: "transportation" },
-  { id: "18", text: "దుబాయ్ RTA సేవలు", category: "transportation" },
-  { id: "19", text: "దుబాయ్ మాల్ షాపింగ్", category: "shopping" },
-  { id: "20", text: "గ్లోబల్ విలేజ్ దుబాయ్", category: "shopping" },
-  { id: "21", text: "దుబాయ్ గోల్డ్ సౌక్", category: "shopping" },
-  { id: "22", text: "మాల్ ఆఫ్ ఎమిరేట్స్ ఆఫర్లు", category: "shopping" },
-  { id: "23", text: "UAE వ్యాపార ప్రారంభం", category: "business" },
+  // వ్యాపార సేవలు (మొదటి బ్లాక్)
+  { id: "1", text: "UAE లో కంపెనీ రిజిస్ట్రేషన్", category: "business" },
+  { id: "2", text: "Mainland కంపెనీ సెటప్", category: "business" },
+  { id: "3", text: "Free zone కంపెనీ రిజిస్ట్రేషన్", category: "business" },
+  { id: "4", text: "Offshore కంపెనీ ఏర్పాటు", category: "business" },
+  { id: "5", text: "UAE ఫ్రీలాన్స్ వీసా", category: "business" },
+  { id: "6", text: "దుబాయ్ బిజినెస్ లైసెన్స్", category: "business" },
+  { id: "7", text: "UAE ట్రేడ్ లైసెన్స్ అవసరాలు", category: "business" },
+  { id: "23", text: "UAE బిజినెస్ సెటప్", category: "business" },
   { id: "24", text: "దుబాయ్ free zones", category: "business" },
   { id: "25", text: "UAE కంపెనీ రిజిస్ట్రేషన్", category: "business" },
   { id: "26", text: "UAE ఫ్రీలాన్స్ వీసా", category: "business" },
-  { id: "27", text: "UAE వీసా అవసరాలు", category: "travel" },
-  { id: "28", text: "దుబాయ్ పర్యాటక ఆకర్షణలు", category: "travel" },
-  { id: "29", text: "UAE విజిట్ వీసా దరఖాస్తు", category: "travel" },
-  { id: "30", text: "అబుదాబి పర్యాటక ప్రదేశాలు", category: "travel" },
-  { id: "31", text: "డెజర్ట్ సఫారీ దుబాయ్", category: "travel" },
-  { id: "32", text: "విదేశీయులకు దుబాయ్ ఉద్యోగాలు", category: "jobs" },
-  { id: "33", text: "UAE పని పర్మిట్ ప్రక్రియ", category: "jobs" },
-  { id: "34", text: "UAEలో రిమోట్ ఉద్యోగాలు", category: "jobs" },
-  { id: "35", text: "UAE జీతాల గైడ్", category: "jobs" },
-  { id: "36", text: "UAE వాతావరణ సూచన", category: "events" },
-  { id: "37", text: "దుబాయ్ రాబోయే కార్యక్రమాలు", category: "events" },
-  { id: "38", text: "UAE జాతీయ దినోత్సవాలు", category: "events" },
-  { id: "39", text: "దుబాయ్ షాపింగ్ ఫెస్టివల్", category: "events" },
-  { id: "40", text: "Emirates ID పునరుద్ధరణ", category: "services" },
-  { id: "41", text: "UAE బ్యాంకింగ్ సేవలు", category: "services" },
-  { id: "42", text: "DEWA బిల్లు చెల్లింపు", category: "services" },
-  { id: "43", text: "Etisalat ప్యాకేజీ అప్గ్రేడ్", category: "services" },
-  { id: "44", text: "దుబాయ్లో ఉత్తమ పాఠశాలలు", category: "education" },
-  { id: "45", text: "UAE విశ్వవిద్యాలయ ప్రవేశం", category: "education" },
-  { id: "46", text: "KHDA పాఠశాల రేటింగ్లు", category: "education" },
+  
+  // వీసా మరియు వలస
+  { id: "8", text: "UAE Golden Visa దరఖాస్తు", category: "visa" },
+  { id: "9", text: "UAE ఉద్యోగ వీసా", category: "visa" },
+  { id: "10", text: "UAE లో కుటుంబ వీసా స్పాన్సర్‌షిప్", category: "visa" },
+  { id: "11", text: "వీసా మెడికల్ టెస్ట్ అవసరాలు", category: "visa" },
+  { id: "12", text: "UAE రెసిడెన్సీ వీసా ప్రక్రియ", category: "visa" },
+  { id: "27", text: "UAE వీసా అవసరాలు", category: "visa" },
+  
+  // చట్టపరమైన మరియు పత్రాలు
+  { id: "13", text: "Emirates ID దరఖాస్తు", category: "legal" },
+  { id: "14", text: "UAE పత్రాల ధృవీకరణ", category: "legal" },
+  { id: "15", text: "UAE లో పవర్ ఆఫ్ అటార్నీ", category: "legal" },
+  { id: "16", text: "UAE వ్యాపార ఒప్పందం సమీక్ష", category: "legal" },
+  { id: "40", text: "Emirates ID పునరుద్ధరణ", category: "legal" },
+  
+  // ఆర్థిక సేవలు
+  { id: "17", text: "UAE కార్పొరేట్ బ్యాంక్ ఖాతా", category: "finance" },
+  { id: "18", text: "UAE పన్ను రిజిస్ట్రేషన్ (VAT)", category: "finance" },
+  { id: "19", text: "UAE లో అకౌంటింగ్ సేవలు", category: "finance" },
+  { id: "20", text: "UAE Economic Substance Regulations", category: "finance" },
+  { id: "41", text: "UAE బ్యాంకింగ్ సేవలు", category: "finance" },
+  
+  // రియల్ ఎస్టేట్ మరియు సేవలు
+  { id: "21", text: "UAE ప్రాపర్టీ పెట్టుబడి", category: "property" },
+  { id: "22", text: "దుబాయ్ ఆఫీస్ స్పేస్ అద్దె", category: "property" },
+
+  // ఆరోగ్య సంరక్షణ
   { id: "47", text: "UAE ఆరోగ్య బీమా", category: "healthcare" },
-  { id: "48", text: "దుబాయ్లో ఉత్తమ ఆసుపత్రులు", category: "healthcare" },
-  { id: "49", text: "మెడికల్ చెక్-అప్ UAE", category: "healthcare" },
-  { id: "50", text: "DHA సేవలు", category: "healthcare" }
+  { id: "48", text: "దుబాయ్‌లో ఉత్తమ ఆసుపత్రులు", category: "healthcare" },
+  { id: "49", text: "UAE మెడికల్ చెకప్", category: "healthcare" },
+  
+  // పర్యాటక మరియు వినోద కార్యక్రమాలు (చివరిలో)
+  { id: "28", text: "దుబాయ్ పర్యాటక ఆకర్షణలు", category: "travel" },
+  { id: "29", text: "Expo City దుబాయ్", category: "attractions" },
+  { id: "30", text: "Dubai Frame టికెట్లు", category: "attractions" },
+  { id: "31", text: "Burj Khalifa టికెట్లు", category: "attractions" },
+  { id: "32", text: "Museum of the Future", category: "attractions" },
+  { id: "33", text: "Abu Dhabi Louvre", category: "attractions" },
+  { id: "34", text: "Ferrari World Abu Dhabi", category: "attractions" },
+  { id: "35", text: "Dubai Mall షాపింగ్", category: "shopping" },
 ]
 </script>
 
 <AIChat :prompts="chatPrompts" />
+
+<userStyle>Normal</userStyle>

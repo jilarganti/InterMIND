@@ -10,57 +10,62 @@ navbar: false
 
 <script setup>
 const chatPrompts = [
-  { id: "1", text: "Expo City Dubai", category: "attractions" },
-  { id: "2", text: "Vé Dubai Frame", category: "attractions" },
-  { id: "3", text: "Vé Burj Khalifa", category: "attractions" },
-  { id: "4", text: "Museum of the Future", category: "attractions" },
-  { id: "5", text: "Abu Dhabi Louvre", category: "attractions" },
-  { id: "6", text: "Ferrari World Abu Dhabi", category: "attractions" },
-  { id: "7", text: "Nhà hàng tại Dubai Mall", category: "food" },
-  { id: "8", text: "Món ăn Ả Rập ngon nhất Dubai", category: "food" },
-  { id: "9", text: "Nhà hàng sao Michelin Dubai", category: "food" },
-  { id: "10", text: "Ẩm thực đường phố Sharjah", category: "food" },
-  { id: "11", text: "Thuê nhà tại Palm Jumeirah", category: "housing" },
-  { id: "12", text: "Căn hộ Dubai Marina", category: "housing" },
-  { id: "13", text: "Nhà ở giá rẻ Abu Dhabi", category: "housing" },
-  { id: "14", text: "Luật thuê nhà UAE", category: "housing" },
-  { id: "15", text: "Bản đồ tàu điện ngầm Dubai", category: "transportation" },
-  { id: "16", text: "Giá taxi Abu Dhabi", category: "transportation" },
-  { id: "17", text: "Bằng lái xe UAE", category: "transportation" },
-  { id: "18", text: "Dịch vụ RTA Dubai", category: "transportation" },
-  { id: "19", text: "Mua sắm tại Dubai Mall", category: "shopping" },
-  { id: "20", text: "Global Village Dubai", category: "shopping" },
-  { id: "21", text: "Chợ vàng Dubai", category: "shopping" },
-  { id: "22", text: "Ưu đãi tại Mall of Emirates", category: "shopping" },
-  { id: "23", text: "Thành lập doanh nghiệp UAE", category: "business" },
-  { id: "24", text: "Dubai Free Zones", category: "business" },
-  { id: "25", text: "Đăng ký công ty UAE", category: "business" },
+  // Dịch vụ kinh doanh (khối đầu tiên)
+  { id: "1", text: "Đăng ký công ty tại UAE", category: "business" },
+  { id: "2", text: "Thành lập công ty Mainland", category: "business" },
+  { id: "3", text: "Đăng ký công ty Free zone", category: "business" },
+  { id: "4", text: "Thành lập công ty Offshore", category: "business" },
+  { id: "5", text: "Visa freelance UAE", category: "business" },
+  { id: "6", text: "Giấy phép kinh doanh Dubai", category: "business" },
+  { id: "7", text: "Yêu cầu giấy phép thương mại UAE", category: "business" },
+  { id: "23", text: "Thành lập doanh nghiệp tại UAE", category: "business" },
+  { id: "24", text: "Khu Free zone Dubai", category: "business" },
+  { id: "25", text: "Đăng ký công ty tại UAE", category: "business" },
   { id: "26", text: "Visa freelance UAE", category: "business" },
-  { id: "27", text: "Yêu cầu visa UAE", category: "travel" },
-  { id: "28", text: "Điểm du lịch Dubai", category: "travel" },
-  { id: "29", text: "Đơn xin visa du lịch UAE", category: "travel" },
-  { id: "30", text: "Địa điểm du lịch Abu Dhabi", category: "travel" },
-  { id: "31", text: "Safari sa mạc Dubai", category: "travel" },
-  { id: "32", text: "Việc làm cho người nước ngoài tại Dubai", category: "jobs" },
-  { id: "33", text: "Quy trình giấy phép lao động UAE", category: "jobs" },
-  { id: "34", text: "Việc làm từ xa tại UAE", category: "jobs" },
-  { id: "35", text: "Hướng dẫn lương UAE", category: "jobs" },
-  { id: "36", text: "Dự báo thời tiết UAE", category: "events" },
-  { id: "37", text: "Sự kiện sắp tới tại Dubai", category: "events" },
-  { id: "38", text: "Lễ kỷ niệm quốc khánh UAE", category: "events" },
-  { id: "39", text: "Lễ hội mua sắm Dubai", category: "events" },
-  { id: "40", text: "Gia hạn Emirates ID", category: "services" },
-  { id: "41", text: "Dịch vụ ngân hàng UAE", category: "services" },
-  { id: "42", text: "Thanh toán hóa đơn DEWA", category: "services" },
-  { id: "43", text: "Nâng cấp gói Etisalat", category: "services" },
-  { id: "44", text: "Trường học tốt nhất Dubai", category: "education" },
-  { id: "45", text: "Tuyển sinh đại học UAE", category: "education" },
-  { id: "46", text: "Xếp hạng trường học KHDA", category: "education" },
+  
+  // Thị thực và di trú
+  { id: "8", text: "Đơn xin Golden Visa UAE", category: "visa" },
+  { id: "9", text: "Visa lao động UAE", category: "visa" },
+  { id: "10", text: "Bảo lãnh visa gia đình tại UAE", category: "visa" },
+  { id: "11", text: "Yêu cầu kiểm tra y tế visa", category: "visa" },
+  { id: "12", text: "Quy trình visa cư trú UAE", category: "visa" },
+  { id: "27", text: "Yêu cầu visa UAE", category: "visa" },
+  
+  // Pháp lý và giấy tờ
+  { id: "13", text: "Đăng ký Emirates ID", category: "legal" },
+  { id: "14", text: "Chứng thực giấy tờ UAE", category: "legal" },
+  { id: "15", text: "Giấy ủy quyền tại UAE", category: "legal" },
+  { id: "16", text: "Xem xét hợp đồng kinh doanh UAE", category: "legal" },
+  { id: "40", text: "Gia hạn Emirates ID", category: "legal" },
+  
+  // Dịch vụ tài chính
+  { id: "17", text: "Tài khoản ngân hàng doanh nghiệp UAE", category: "finance" },
+  { id: "18", text: "Đăng ký thuế UAE (VAT)", category: "finance" },
+  { id: "19", text: "Dịch vụ kế toán tại UAE", category: "finance" },
+  { id: "20", text: "Quy định về Economic Substance UAE", category: "finance" },
+  { id: "41", text: "Dịch vụ ngân hàng UAE", category: "finance" },
+  
+  // Bất động sản và dịch vụ
+  { id: "21", text: "Đầu tư bất động sản UAE", category: "property" },
+  { id: "22", text: "Thuê văn phòng Dubai", category: "property" },
+
+  // Y tế
   { id: "47", text: "Bảo hiểm y tế UAE", category: "healthcare" },
-  { id: "48", text: "Bệnh viện tốt nhất Dubai", category: "healthcare" },
+  { id: "48", text: "Các bệnh viện tốt nhất tại Dubai", category: "healthcare" },
   { id: "49", text: "Kiểm tra sức khỏe UAE", category: "healthcare" },
-  { id: "50", text: "Dịch vụ DHA", category: "healthcare" }
+  
+  // Du lịch và giải trí (cuối cùng)
+  { id: "28", text: "Điểm du lịch Dubai", category: "travel" },
+  { id: "29", text: "Expo City Dubai", category: "attractions" },
+  { id: "30", text: "Vé Dubai Frame", category: "attractions" },
+  { id: "31", text: "Vé Burj Khalifa", category: "attractions" },
+  { id: "32", text: "Museum of the Future", category: "attractions" },
+  { id: "33", text: "Abu Dhabi Louvre", category: "attractions" },
+  { id: "34", text: "Ferrari World Abu Dhabi", category: "attractions" },
+  { id: "35", text: "Mua sắm tại Dubai Mall", category: "shopping" },
 ]
 </script>
 
 <AIChat :prompts="chatPrompts" />
+
+<userStyle>Normal</userStyle>

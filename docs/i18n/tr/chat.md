@@ -10,57 +10,62 @@ navbar: false
 
 <script setup>
 const chatPrompts = [
-  { id: "1", text: "Expo City Dubai", category: "attractions" },
-  { id: "2", text: "Dubai Frame biletleri", category: "attractions" },
-  { id: "3", text: "Burj Khalifa biletleri", category: "attractions" },
-  { id: "4", text: "Gelecek Müzesi", category: "attractions" },
-  { id: "5", text: "Abu Dhabi Louvre", category: "attractions" },
-  { id: "6", text: "Ferrari World Abu Dhabi", category: "attractions" },
-  { id: "7", text: "Dubai Mall restoranları", category: "food" },
-  { id: "8", text: "Dubai'de en iyi Arap yemekleri", category: "food" },
-  { id: "9", text: "Dubai Michelin yıldızlı restoranlar", category: "food" },
-  { id: "10", text: "Sharjah sokak lezzetleri", category: "food" },
-  { id: "11", text: "Palm Jumeirah kiralık", category: "housing" },
-  { id: "12", text: "Dubai Marina daireleri", category: "housing" },
-  { id: "13", text: "Abu Dhabi uygun fiyatlı konutlar", category: "housing" },
-  { id: "14", text: "BAE kira kanunları", category: "housing" },
-  { id: "15", text: "Dubai Metro haritası", category: "transportation" },
-  { id: "16", text: "Abu Dhabi taksi ücretleri", category: "transportation" },
-  { id: "17", text: "BAE sürücü belgesi", category: "transportation" },
-  { id: "18", text: "Dubai RTA hizmetleri", category: "transportation" },
-  { id: "19", text: "Dubai Mall alışveriş", category: "shopping" },
-  { id: "20", text: "Global Village Dubai", category: "shopping" },
-  { id: "21", text: "Dubai Altın Çarşısı", category: "shopping" },
-  { id: "22", text: "Mall of Emirates kampanyaları", category: "shopping" },
-  { id: "23", text: "BAE şirket kurulumu", category: "business" },
+  // İş Hizmetleri (ilk blok)
+  { id: "1", text: "UAE'de şirket tescili", category: "business" },
+  { id: "2", text: "Mainland şirket kurulumu", category: "business" },
+  { id: "3", text: "Free Zone şirket tescili", category: "business" },
+  { id: "4", text: "Offshore şirket kurulumu", category: "business" },
+  { id: "5", text: "UAE freelance vizesi", category: "business" },
+  { id: "6", text: "Dubai ticari lisansı", category: "business" },
+  { id: "7", text: "UAE ticari lisans gereklilikleri", category: "business" },
+  { id: "23", text: "UAE şirket kurulumu", category: "business" },
   { id: "24", text: "Dubai free zones", category: "business" },
-  { id: "25", text: "BAE şirket tescili", category: "business" },
-  { id: "26", text: "BAE serbest çalışma vizesi", category: "business" },
-  { id: "27", text: "BAE vize gereklilikleri", category: "travel" },
-  { id: "28", text: "Dubai turistik yerleri", category: "travel" },
-  { id: "29", text: "BAE ziyaret vizesi başvurusu", category: "travel" },
-  { id: "30", text: "Abu Dhabi turistik mekanları", category: "travel" },
-  { id: "31", text: "Dubai çöl safarisi", category: "travel" },
-  { id: "32", text: "Dubai'de yabancılar için iş fırsatları", category: "jobs" },
-  { id: "33", text: "BAE çalışma izni süreci", category: "jobs" },
-  { id: "34", text: "BAE'de uzaktan çalışma işleri", category: "jobs" },
-  { id: "35", text: "BAE maaş rehberi", category: "jobs" },
-  { id: "36", text: "BAE hava durumu tahmini", category: "events" },
-  { id: "37", text: "Dubai yaklaşan etkinlikler", category: "events" },
-  { id: "38", text: "BAE milli gün kutlamaları", category: "events" },
-  { id: "39", text: "Dubai alışveriş festivali", category: "events" },
-  { id: "40", text: "Emirates ID yenileme", category: "services" },
-  { id: "41", text: "BAE bankacılık hizmetleri", category: "services" },
-  { id: "42", text: "DEWA fatura ödeme", category: "services" },
-  { id: "43", text: "Etisalat paket yükseltme", category: "services" },
-  { id: "44", text: "Dubai'deki en iyi okullar", category: "education" },
-  { id: "45", text: "BAE üniversite kabul", category: "education" },
-  { id: "46", text: "KHDA okul değerlendirmeleri", category: "education" },
-  { id: "47", text: "BAE sağlık sigortası", category: "healthcare" },
+  { id: "25", text: "UAE şirket tescili", category: "business" },
+  { id: "26", text: "UAE freelance vizesi", category: "business" },
+  
+  // Vize ve Göçmenlik
+  { id: "8", text: "UAE Golden Visa başvurusu", category: "visa" },
+  { id: "9", text: "UAE çalışma vizesi", category: "visa" },
+  { id: "10", text: "UAE'de aile vizesi sponsorluğu", category: "visa" },
+  { id: "11", text: "Vize sağlık testi gereklilikleri", category: "visa" },
+  { id: "12", text: "UAE oturma vizesi süreci", category: "visa" },
+  { id: "27", text: "UAE vize gereklilikleri", category: "visa" },
+  
+  // Hukuki ve Belgeler
+  { id: "13", text: "Emirates ID başvurusu", category: "legal" },
+  { id: "14", text: "UAE belge tasdiki", category: "legal" },
+  { id: "15", text: "UAE'de vekaletname", category: "legal" },
+  { id: "16", text: "UAE iş sözleşmesi incelemesi", category: "legal" },
+  { id: "40", text: "Emirates ID yenileme", category: "legal" },
+  
+  // Finansal Hizmetler
+  { id: "17", text: "UAE kurumsal banka hesabı", category: "finance" },
+  { id: "18", text: "UAE vergi kaydı (KDV)", category: "finance" },
+  { id: "19", text: "UAE'de muhasebe hizmetleri", category: "finance" },
+  { id: "20", text: "UAE Economic Substance Regulations", category: "finance" },
+  { id: "41", text: "UAE bankacılık hizmetleri", category: "finance" },
+  
+  // Gayrimenkul ve Hizmetler
+  { id: "21", text: "UAE gayrimenkul yatırımı", category: "property" },
+  { id: "22", text: "Dubai ofis alanı kiralama", category: "property" },
+
+  // Sağlık Hizmetleri
+  { id: "47", text: "UAE sağlık sigortası", category: "healthcare" },
   { id: "48", text: "Dubai'deki en iyi hastaneler", category: "healthcare" },
-  { id: "49", text: "BAE sağlık kontrolü", category: "healthcare" },
-  { id: "50", text: "DHA hizmetleri", category: "healthcare" }
+  { id: "49", text: "UAE sağlık kontrolü", category: "healthcare" },
+  
+  // Turizm ve Eğlence (sonda)
+  { id: "28", text: "Dubai turistik yerleri", category: "travel" },
+  { id: "29", text: "Expo City Dubai", category: "attractions" },
+  { id: "30", text: "Dubai Frame biletleri", category: "attractions" },
+  { id: "31", text: "Burj Khalifa biletleri", category: "attractions" },
+  { id: "32", text: "Museum of the Future", category: "attractions" },
+  { id: "33", text: "Abu Dhabi Louvre", category: "attractions" },
+  { id: "34", text: "Ferrari World Abu Dhabi", category: "attractions" },
+  { id: "35", text: "Dubai Mall alışveriş", category: "shopping" },
 ]
 </script>
 
 <AIChat :prompts="chatPrompts" />
+
+<userStyle>Normal</userStyle>

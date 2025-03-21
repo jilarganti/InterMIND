@@ -10,57 +10,62 @@ navbar: false
 
 <script setup>
 const chatPrompts = [
-  { id: "1", text: "Expo City Dubai", category: "attractions" },
-  { id: "2", text: "Billets Dubai Frame", category: "attractions" },
-  { id: "3", text: "Billets Burj Khalifa", category: "attractions" },
-  { id: "4", text: "Musée du Futur", category: "attractions" },
-  { id: "5", text: "Louvre Abu Dhabi", category: "attractions" },
-  { id: "6", text: "Ferrari World Abu Dhabi", category: "attractions" },
-  { id: "7", text: "Restaurants du Dubai Mall", category: "food" },
-  { id: "8", text: "Meilleure cuisine arabe à Dubai", category: "food" },
-  { id: "9", text: "Restaurants étoilés Michelin à Dubai", category: "food" },
-  { id: "10", text: "Street food à Sharjah", category: "food" },
-  { id: "11", text: "Location Palm Jumeirah", category: "housing" },
-  { id: "12", text: "Appartements Dubai Marina", category: "housing" },
-  { id: "13", text: "Logements abordables Abu Dhabi", category: "housing" },
-  { id: "14", text: "Lois de location UAE", category: "housing" },
-  { id: "15", text: "Plan du métro de Dubai", category: "transportation" },
-  { id: "16", text: "Tarifs taxis Abu Dhabi", category: "transportation" },
-  { id: "17", text: "Permis de conduire UAE", category: "transportation" },
-  { id: "18", text: "Services RTA Dubai", category: "transportation" },
-  { id: "19", text: "Shopping Dubai Mall", category: "shopping" },
-  { id: "20", text: "Global Village Dubai", category: "shopping" },
-  { id: "21", text: "Souk de l'Or Dubai", category: "shopping" },
-  { id: "22", text: "Offres Mall of Emirates", category: "shopping" },
-  { id: "23", text: "Création d'entreprise UAE", category: "business" },
-  { id: "24", text: "Dubai Free Zones", category: "business" },
-  { id: "25", text: "Enregistrement société UAE", category: "business" },
+  // Services aux entreprises (premier bloc)
+  { id: "1", text: "Enregistrement d'entreprise aux UAE", category: "business" },
+  { id: "2", text: "Création d'entreprise Mainland", category: "business" },
+  { id: "3", text: "Enregistrement d'entreprise en Free Zone", category: "business" },
+  { id: "4", text: "Formation d'entreprise Offshore", category: "business" },
+  { id: "5", text: "Visa freelance UAE", category: "business" },
+  { id: "6", text: "Licence commerciale à Dubai", category: "business" },
+  { id: "7", text: "Exigences de licence commerciale UAE", category: "business" },
+  { id: "23", text: "Création d'entreprise aux UAE", category: "business" },
+  { id: "24", text: "Free Zones de Dubai", category: "business" },
+  { id: "25", text: "Enregistrement d'entreprise aux UAE", category: "business" },
   { id: "26", text: "Visa freelance UAE", category: "business" },
-  { id: "27", text: "Conditions visa UAE", category: "travel" },
-  { id: "28", text: "Attractions touristiques Dubai", category: "travel" },
-  { id: "29", text: "Demande visa visiteur UAE", category: "travel" },
-  { id: "30", text: "Lieux touristiques Abu Dhabi", category: "travel" },
-  { id: "31", text: "Safari désert Dubai", category: "travel" },
-  { id: "32", text: "Emplois expatriés Dubai", category: "jobs" },
-  { id: "33", text: "Processus permis travail UAE", category: "jobs" },
-  { id: "34", text: "Emplois à distance UAE", category: "jobs" },
-  { id: "35", text: "Guide salaires UAE", category: "jobs" },
-  { id: "36", text: "Prévisions météo UAE", category: "events" },
-  { id: "37", text: "Événements à venir Dubai", category: "events" },
-  { id: "38", text: "Célébrations fête nationale UAE", category: "events" },
-  { id: "39", text: "Festival du shopping Dubai", category: "events" },
-  { id: "40", text: "Renouvellement Emirates ID", category: "services" },
-  { id: "41", text: "Services bancaires UAE", category: "services" },
-  { id: "42", text: "Paiement facture DEWA", category: "services" },
-  { id: "43", text: "Mise à niveau forfait Etisalat", category: "services" },
-  { id: "44", text: "Meilleures écoles Dubai", category: "education" },
-  { id: "45", text: "Admission université UAE", category: "education" },
-  { id: "46", text: "Classements écoles KHDA", category: "education" },
+  
+  // Visas et immigration
+  { id: "8", text: "Demande de Golden Visa UAE", category: "visa" },
+  { id: "9", text: "Visa de travail UAE", category: "visa" },
+  { id: "10", text: "Parrainage visa familial aux UAE", category: "visa" },
+  { id: "11", text: "Exigences test médical pour visa", category: "visa" },
+  { id: "12", text: "Processus de visa de résidence UAE", category: "visa" },
+  { id: "27", text: "Conditions de visa UAE", category: "visa" },
+  
+  // Juridique et documents
+  { id: "13", text: "Demande Emirates ID", category: "legal" },
+  { id: "14", text: "Attestation de documents UAE", category: "legal" },
+  { id: "15", text: "Procuration aux UAE", category: "legal" },
+  { id: "16", text: "Révision contrat commercial UAE", category: "legal" },
+  { id: "40", text: "Renouvellement Emirates ID", category: "legal" },
+  
+  // Services financiers
+  { id: "17", text: "Compte bancaire entreprise UAE", category: "finance" },
+  { id: "18", text: "Enregistrement fiscal UAE (TVA)", category: "finance" },
+  { id: "19", text: "Services comptables aux UAE", category: "finance" },
+  { id: "20", text: "Réglementations UAE Economic Substance", category: "finance" },
+  { id: "41", text: "Services bancaires UAE", category: "finance" },
+  
+  // Immobilier et services
+  { id: "21", text: "Investissement immobilier UAE", category: "property" },
+  { id: "22", text: "Location bureaux à Dubai", category: "property" },
+
+  // Santé
   { id: "47", text: "Assurance santé UAE", category: "healthcare" },
-  { id: "48", text: "Meilleurs hôpitaux Dubai", category: "healthcare" },
+  { id: "48", text: "Meilleurs hôpitaux à Dubai", category: "healthcare" },
   { id: "49", text: "Bilan médical UAE", category: "healthcare" },
-  { id: "50", text: "Services DHA", category: "healthcare" }
+  
+  // Tourisme et loisirs (à la fin)
+  { id: "28", text: "Attractions touristiques Dubai", category: "travel" },
+  { id: "29", text: "Expo City Dubai", category: "attractions" },
+  { id: "30", text: "Billets Dubai Frame", category: "attractions" },
+  { id: "31", text: "Billets Burj Khalifa", category: "attractions" },
+  { id: "32", text: "Museum of the Future", category: "attractions" },
+  { id: "33", text: "Louvre Abu Dhabi", category: "attractions" },
+  { id: "34", text: "Ferrari World Abu Dhabi", category: "attractions" },
+  { id: "35", text: "Shopping au Dubai Mall", category: "shopping" },
 ]
 </script>
 
 <AIChat :prompts="chatPrompts" />
+
+<userStyle>Normal</userStyle>

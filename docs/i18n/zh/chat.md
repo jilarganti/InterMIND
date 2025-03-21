@@ -10,57 +10,62 @@ navbar: false
 
 <script setup>
 const chatPrompts = [
-  { id: "1", text: "迪拜世博城", category: "attractions" },
-  { id: "2", text: "迪拜相框门票", category: "attractions" },
-  { id: "3", text: "哈利法塔门票", category: "attractions" },
-  { id: "4", text: "未来博物馆", category: "attractions" },
-  { id: "5", text: "阿布扎比卢浮宫", category: "attractions" },
-  { id: "6", text: "阿布扎比法拉利世界", category: "attractions" },
-  { id: "7", text: "迪拜购物中心餐厅", category: "food" },
-  { id: "8", text: "迪拜最佳阿拉伯美食", category: "food" },
-  { id: "9", text: "迪拜米其林星级餐厅", category: "food" },
-  { id: "10", text: "沙迦街头美食", category: "food" },
-  { id: "11", text: "棕榈岛租房", category: "housing" },
-  { id: "12", text: "迪拜码头公寓", category: "housing" },
-  { id: "13", text: "阿布扎比经济适用房", category: "housing" },
-  { id: "14", text: "阿联酋租赁法律", category: "housing" },
-  { id: "15", text: "迪拜地铁线路图", category: "transportation" },
-  { id: "16", text: "阿布扎比出租车费率", category: "transportation" },
-  { id: "17", text: "阿联酋驾照", category: "transportation" },
-  { id: "18", text: "迪拜RTA服务", category: "transportation" },
-  { id: "19", text: "迪拜购物中心购物", category: "shopping" },
-  { id: "20", text: "迪拜环球村", category: "shopping" },
-  { id: "21", text: "迪拜黄金市场", category: "shopping" },
-  { id: "22", text: "阿联酋购物中心优惠", category: "shopping" },
-  { id: "23", text: "阿联酋企业设立", category: "business" },
-  { id: "24", text: "迪拜自由区", category: "business" },
-  { id: "25", text: "阿联酋公司注册", category: "business" },
-  { id: "26", text: "阿联酋自由职业签证", category: "business" },
-  { id: "27", text: "阿联酋签证要求", category: "travel" },
-  { id: "28", text: "迪拜旅游景点", category: "travel" },
-  { id: "29", text: "阿联酋访问签证申请", category: "travel" },
-  { id: "30", text: "阿布扎比旅游景点", category: "travel" },
-  { id: "31", text: "迪拜沙漠冒险", category: "travel" },
-  { id: "32", text: "迪拜外籍人士工作", category: "jobs" },
-  { id: "33", text: "阿联酋工作许可流程", category: "jobs" },
-  { id: "34", text: "阿联酋远程工作", category: "jobs" },
-  { id: "35", text: "阿联酋薪资指南", category: "jobs" },
-  { id: "36", text: "阿联酋天气预报", category: "events" },
-  { id: "37", text: "迪拜即将举行的活动", category: "events" },
-  { id: "38", text: "阿联酋国庆庆典", category: "events" },
-  { id: "39", text: "迪拜购物节", category: "events" },
-  { id: "40", text: "Emirates ID更新", category: "services" },
-  { id: "41", text: "阿联酋银行服务", category: "services" },
-  { id: "42", text: "DEWA账单支付", category: "services" },
-  { id: "43", text: "Etisalat套餐升级", category: "services" },
-  { id: "44", text: "迪拜最佳学校", category: "education" },
-  { id: "45", text: "阿联酋大学入学", category: "education" },
-  { id: "46", text: "KHDA学校评级", category: "education" },
-  { id: "47", text: "阿联酋医疗保险", category: "healthcare" },
+  // 商业服务（第一块）
+  { id: "1", text: "在UAE注册公司", category: "business" },
+  { id: "2", text: "Mainland公司设立", category: "business" },
+  { id: "3", text: "Free Zone公司注册", category: "business" },
+  { id: "4", text: "离岸公司成立", category: "business" },
+  { id: "5", text: "UAE自由职业签证", category: "business" },
+  { id: "6", text: "迪拜营业执照", category: "business" },
+  { id: "7", text: "UAE贸易许可证要求", category: "business" },
+  { id: "23", text: "UAE企业设立", category: "business" },
+  { id: "24", text: "迪拜Free Zone", category: "business" },
+  { id: "25", text: "UAE公司注册", category: "business" },
+  { id: "26", text: "UAE自由职业签证", category: "business" },
+  
+  // 签证和移民
+  { id: "8", text: "UAE Golden Visa申请", category: "visa" },
+  { id: "9", text: "UAE工作签证", category: "visa" },
+  { id: "10", text: "UAE家庭签证担保", category: "visa" },
+  { id: "11", text: "签证体检要求", category: "visa" },
+  { id: "12", text: "UAE居留签证流程", category: "visa" },
+  { id: "27", text: "UAE签证要求", category: "visa" },
+  
+  // 法律和文件
+  { id: "13", text: "Emirates ID申请", category: "legal" },
+  { id: "14", text: "UAE文件认证", category: "legal" },
+  { id: "15", text: "UAE授权委托书", category: "legal" },
+  { id: "16", text: "UAE商业合同审查", category: "legal" },
+  { id: "40", text: "Emirates ID更新", category: "legal" },
+  
+  // 金融服务
+  { id: "17", text: "UAE企业银行账户", category: "finance" },
+  { id: "18", text: "UAE税务登记（VAT）", category: "finance" },
+  { id: "19", text: "UAE会计服务", category: "finance" },
+  { id: "20", text: "UAE经济实质法规", category: "finance" },
+  { id: "41", text: "UAE银行服务", category: "finance" },
+  
+  // 房地产和服务
+  { id: "21", text: "UAE房地产投资", category: "property" },
+  { id: "22", text: "迪拜办公空间租赁", category: "property" },
+
+  // 医疗保健
+  { id: "47", text: "UAE医疗保险", category: "healthcare" },
   { id: "48", text: "迪拜最佳医院", category: "healthcare" },
-  { id: "49", text: "阿联酋体检", category: "healthcare" },
-  { id: "50", text: "DHA服务", category: "healthcare" }
+  { id: "49", text: "UAE体检", category: "healthcare" },
+  
+  // 旅游和娱乐（最后）
+  { id: "28", text: "迪拜旅游景点", category: "travel" },
+  { id: "29", text: "Expo City Dubai", category: "attractions" },
+  { id: "30", text: "Dubai Frame门票", category: "attractions" },
+  { id: "31", text: "Burj Khalifa门票", category: "attractions" },
+  { id: "32", text: "未来博物馆", category: "attractions" },
+  { id: "33", text: "阿布扎比卢浮宫", category: "attractions" },
+  { id: "34", text: "阿布扎比法拉利世界", category: "attractions" },
+  { id: "35", text: "迪拜购物中心购物", category: "shopping" },
 ]
 </script>
 
 <AIChat :prompts="chatPrompts" />
+
+<userStyle>Normal</userStyle>

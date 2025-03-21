@@ -10,57 +10,62 @@ navbar: false
 
 <script setup>
 const chatPrompts = [
-  { id: "1", text: "Expo City دبی", category: "attractions" },
-  { id: "2", text: "بلیط Dubai Frame", category: "attractions" },
-  { id: "3", text: "بلیط برج خلیفه", category: "attractions" },
-  { id: "4", text: "موزه آینده", category: "attractions" },
-  { id: "5", text: "لوور ابوظبی", category: "attractions" },
-  { id: "6", text: "فراری ورلد ابوظبی", category: "attractions" },
-  { id: "7", text: "رستوران‌های دبی مال", category: "food" },
-  { id: "8", text: "بهترین غذاهای عربی دبی", category: "food" },
-  { id: "9", text: "رستوران‌های میشلن دبی", category: "food" },
-  { id: "10", text: "غذاهای خیابانی شارجه", category: "food" },
-  { id: "11", text: "اجاره در نخل جمیرا", category: "housing" },
-  { id: "12", text: "آپارتمان‌های دبی مارینا", category: "housing" },
-  { id: "13", text: "مسکن ارزان قیمت ابوظبی", category: "housing" },
-  { id: "14", text: "قوانین اجاره امارات", category: "housing" },
-  { id: "15", text: "نقشه مترو دبی", category: "transportation" },
-  { id: "16", text: "نرخ تاکسی ابوظبی", category: "transportation" },
-  { id: "17", text: "گواهینامه رانندگی امارات", category: "transportation" },
-  { id: "18", text: "خدمات RTA دبی", category: "transportation" },
-  { id: "19", text: "خرید در دبی مال", category: "shopping" },
-  { id: "20", text: "گلوبال ویلیج دبی", category: "shopping" },
-  { id: "21", text: "بازار طلای دبی", category: "shopping" },
-  { id: "22", text: "پیشنهادات مال آف امارات", category: "shopping" },
-  { id: "23", text: "راه‌اندازی کسب و کار در امارات", category: "business" },
-  { id: "24", text: "مناطق آزاد دبی", category: "business" },
-  { id: "25", text: "ثبت شرکت در امارات", category: "business" },
-  { id: "26", text: "ویزای فریلنسری امارات", category: "business" },
-  { id: "27", text: "شرایط ویزای امارات", category: "travel" },
-  { id: "28", text: "جاذبه‌های گردشگری دبی", category: "travel" },
-  { id: "29", text: "درخواست ویزای توریستی امارات", category: "travel" },
-  { id: "30", text: "مکان‌های گردشگری ابوظبی", category: "travel" },
-  { id: "31", text: "سافاری صحرا در دبی", category: "travel" },
-  { id: "32", text: "مشاغل برای خارجی‌ها در دبی", category: "jobs" },
-  { id: "33", text: "فرآیند مجوز کار امارات", category: "jobs" },
-  { id: "34", text: "مشاغل دورکاری در امارات", category: "jobs" },
-  { id: "35", text: "راهنمای حقوق در امارات", category: "jobs" },
-  { id: "36", text: "پیش‌بینی آب و هوای امارات", category: "events" },
-  { id: "37", text: "رویدادهای آینده دبی", category: "events" },
-  { id: "38", text: "جشن‌های روز ملی امارات", category: "events" },
-  { id: "39", text: "فستیوال خرید دبی", category: "events" },
-  { id: "40", text: "تمدید Emirates ID", category: "services" },
-  { id: "41", text: "خدمات بانکی امارات", category: "services" },
-  { id: "42", text: "پرداخت قبض DEWA", category: "services" },
-  { id: "43", text: "ارتقای بسته Etisalat", category: "services" },
-  { id: "44", text: "بهترین مدارس دبی", category: "education" },
-  { id: "45", text: "پذیرش دانشگاه‌های امارات", category: "education" },
-  { id: "46", text: "رتبه‌بندی مدارس KHDA", category: "education" },
-  { id: "47", text: "بیمه درمانی امارات", category: "healthcare" },
+  // خدمات کسب و کار (بلوک اول)
+  { id: "1", text: "ثبت شرکت در UAE", category: "business" },
+  { id: "2", text: "راه‌اندازی شرکت Mainland", category: "business" },
+  { id: "3", text: "ثبت شرکت در Free Zone", category: "business" },
+  { id: "4", text: "تشکیل شرکت Offshore", category: "business" },
+  { id: "5", text: "ویزای فریلنسری UAE", category: "business" },
+  { id: "6", text: "مجوز تجاری دبی", category: "business" },
+  { id: "7", text: "الزامات مجوز تجاری UAE", category: "business" },
+  { id: "23", text: "راه‌اندازی کسب و کار در UAE", category: "business" },
+  { id: "24", text: "مناطق Free Zone دبی", category: "business" },
+  { id: "25", text: "ثبت شرکت در UAE", category: "business" },
+  { id: "26", text: "ویزای فریلنسری UAE", category: "business" },
+  
+  // ویزا و مهاجرت
+  { id: "8", text: "درخواست Golden Visa امارات", category: "visa" },
+  { id: "9", text: "ویزای کار UAE", category: "visa" },
+  { id: "10", text: "اسپانسرشیپ ویزای خانوادگی در UAE", category: "visa" },
+  { id: "11", text: "الزامات آزمایش پزشکی ویزا", category: "visa" },
+  { id: "12", text: "فرآیند ویزای اقامت UAE", category: "visa" },
+  { id: "27", text: "الزامات ویزای UAE", category: "visa" },
+  
+  // حقوقی و اسناد
+  { id: "13", text: "درخواست Emirates ID", category: "legal" },
+  { id: "14", text: "تصدیق اسناد UAE", category: "legal" },
+  { id: "15", text: "وکالت‌نامه در UAE", category: "legal" },
+  { id: "16", text: "بررسی قرارداد تجاری UAE", category: "legal" },
+  { id: "40", text: "تمدید Emirates ID", category: "legal" },
+  
+  // خدمات مالی
+  { id: "17", text: "حساب بانکی شرکتی UAE", category: "finance" },
+  { id: "18", text: "ثبت مالیاتی UAE (VAT)", category: "finance" },
+  { id: "19", text: "خدمات حسابداری در UAE", category: "finance" },
+  { id: "20", text: "مقررات اقتصادی UAE", category: "finance" },
+  { id: "41", text: "خدمات بانکی UAE", category: "finance" },
+  
+  // املاک و خدمات
+  { id: "21", text: "سرمایه‌گذاری ملکی UAE", category: "property" },
+  { id: "22", text: "اجاره دفتر کار در دبی", category: "property" },
+
+  // بهداشت و درمان
+  { id: "47", text: "بیمه درمانی UAE", category: "healthcare" },
   { id: "48", text: "بهترین بیمارستان‌های دبی", category: "healthcare" },
-  { id: "49", text: "چکاپ پزشکی امارات", category: "healthcare" },
-  { id: "50", text: "خدمات DHA", category: "healthcare" }
+  { id: "49", text: "چکاپ پزشکی UAE", category: "healthcare" },
+  
+  // گردشگری و تفریحات
+  { id: "28", text: "جاذبه‌های گردشگری دبی", category: "travel" },
+  { id: "29", text: "Expo City دبی", category: "attractions" },
+  { id: "30", text: "بلیط Dubai Frame", category: "attractions" },
+  { id: "31", text: "بلیط برج خلیفه", category: "attractions" },
+  { id: "32", text: "موزه آینده", category: "attractions" },
+  { id: "33", text: "لوور ابوظبی", category: "attractions" },
+  { id: "34", text: "فراری ورلد ابوظبی", category: "attractions" },
+  { id: "35", text: "خرید در دبی مال", category: "shopping" },
 ]
 </script>
 
 <AIChat :prompts="chatPrompts" />
+
+<userStyle>Normal</userStyle>

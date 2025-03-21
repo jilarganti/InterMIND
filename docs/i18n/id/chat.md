@@ -10,57 +10,62 @@ navbar: false
 
 <script setup>
 const chatPrompts = [
-  { id: "1", text: "Expo City Dubai", category: "attractions" },
-  { id: "2", text: "Tiket Dubai Frame", category: "attractions" },
-  { id: "3", text: "Tiket Burj Khalifa", category: "attractions" },
-  { id: "4", text: "Museum of the Future", category: "attractions" },
-  { id: "5", text: "Abu Dhabi Louvre", category: "attractions" },
-  { id: "6", text: "Ferrari World Abu Dhabi", category: "attractions" },
-  { id: "7", text: "Restoran Dubai Mall", category: "food" },
-  { id: "8", text: "Makanan Arab Terbaik di Dubai", category: "food" },
-  { id: "9", text: "Restoran Bintang Michelin Dubai", category: "food" },
-  { id: "10", text: "Makanan Jalanan Sharjah", category: "food" },
-  { id: "11", text: "Sewa di Palm Jumeirah", category: "housing" },
-  { id: "12", text: "Apartemen Dubai Marina", category: "housing" },
-  { id: "13", text: "Perumahan Terjangkau Abu Dhabi", category: "housing" },
-  { id: "14", text: "Hukum Sewa UAE", category: "housing" },
-  { id: "15", text: "Peta Metro Dubai", category: "transportation" },
-  { id: "16", text: "Tarif Taksi Abu Dhabi", category: "transportation" },
-  { id: "17", text: "SIM UAE", category: "transportation" },
-  { id: "18", text: "Layanan RTA Dubai", category: "transportation" },
-  { id: "19", text: "Belanja di Dubai Mall", category: "shopping" },
-  { id: "20", text: "Global Village Dubai", category: "shopping" },
-  { id: "21", text: "Dubai Gold Souk", category: "shopping" },
-  { id: "22", text: "Promo Mall of Emirates", category: "shopping" },
-  { id: "23", text: "Pendirian Bisnis UAE", category: "business" },
-  { id: "24", text: "Dubai Free Zones", category: "business" },
-  { id: "25", text: "Pendaftaran Perusahaan UAE", category: "business" },
-  { id: "26", text: "Visa Freelance UAE", category: "business" },
-  { id: "27", text: "Persyaratan Visa UAE", category: "travel" },
-  { id: "28", text: "Tempat Wisata Dubai", category: "travel" },
-  { id: "29", text: "Aplikasi Visa Kunjungan UAE", category: "travel" },
-  { id: "30", text: "Tempat Wisata Abu Dhabi", category: "travel" },
-  { id: "31", text: "Safari Gurun Dubai", category: "travel" },
-  { id: "32", text: "Lowongan Kerja Ekspatriat Dubai", category: "jobs" },
-  { id: "33", text: "Proses Izin Kerja UAE", category: "jobs" },
-  { id: "34", text: "Pekerjaan Remote di UAE", category: "jobs" },
-  { id: "35", text: "Panduan Gaji UAE", category: "jobs" },
-  { id: "36", text: "Prakiraan Cuaca UAE", category: "events" },
-  { id: "37", text: "Acara Mendatang Dubai", category: "events" },
-  { id: "38", text: "Perayaan Hari Nasional UAE", category: "events" },
-  { id: "39", text: "Festival Belanja Dubai", category: "events" },
-  { id: "40", text: "Perpanjangan Emirates ID", category: "services" },
-  { id: "41", text: "Layanan Perbankan UAE", category: "services" },
-  { id: "42", text: "Pembayaran Tagihan DEWA", category: "services" },
-  { id: "43", text: "Upgrade Paket Etisalat", category: "services" },
-  { id: "44", text: "Sekolah Terbaik di Dubai", category: "education" },
-  { id: "45", text: "Penerimaan Universitas UAE", category: "education" },
-  { id: "46", text: "Peringkat Sekolah KHDA", category: "education" },
-  { id: "47", text: "Asuransi Kesehatan UAE", category: "healthcare" },
-  { id: "48", text: "Rumah Sakit Terbaik di Dubai", category: "healthcare" },
-  { id: "49", text: "Pemeriksaan Kesehatan UAE", category: "healthcare" },
-  { id: "50", text: "Layanan DHA", category: "healthcare" }
+  // Layanan Bisnis (blok pertama)
+  { id: "1", text: "Pendaftaran perusahaan di UAE", category: "business" },
+  { id: "2", text: "Pendirian perusahaan Mainland", category: "business" },
+  { id: "3", text: "Pendaftaran perusahaan Free Zone", category: "business" },
+  { id: "4", text: "Pembentukan perusahaan Offshore", category: "business" },
+  { id: "5", text: "Visa freelance UAE", category: "business" },
+  { id: "6", text: "Lisensi bisnis Dubai", category: "business" },
+  { id: "7", text: "Persyaratan lisensi dagang UAE", category: "business" },
+  { id: "23", text: "Pendirian bisnis UAE", category: "business" },
+  { id: "24", text: "Free Zone Dubai", category: "business" },
+  { id: "25", text: "Pendaftaran perusahaan UAE", category: "business" },
+  { id: "26", text: "Visa freelance UAE", category: "business" },
+  
+  // Visa dan Imigrasi
+  { id: "8", text: "Pengajuan Golden Visa UAE", category: "visa" },
+  { id: "9", text: "Visa kerja UAE", category: "visa" },
+  { id: "10", text: "Sponsor visa keluarga di UAE", category: "visa" },
+  { id: "11", text: "Persyaratan tes medis visa", category: "visa" },
+  { id: "12", text: "Proses visa tinggal UAE", category: "visa" },
+  { id: "27", text: "Persyaratan visa UAE", category: "visa" },
+  
+  // Hukum dan Dokumen
+  { id: "13", text: "Pengajuan Emirates ID", category: "legal" },
+  { id: "14", text: "Legalisasi dokumen UAE", category: "legal" },
+  { id: "15", text: "Surat Kuasa di UAE", category: "legal" },
+  { id: "16", text: "Peninjauan kontrak bisnis UAE", category: "legal" },
+  { id: "40", text: "Perpanjangan Emirates ID", category: "legal" },
+  
+  // Layanan Keuangan
+  { id: "17", text: "Rekening bank korporat UAE", category: "finance" },
+  { id: "18", text: "Pendaftaran pajak UAE (VAT)", category: "finance" },
+  { id: "19", text: "Layanan akuntansi di UAE", category: "finance" },
+  { id: "20", text: "Peraturan Substansi Ekonomi UAE", category: "finance" },
+  { id: "41", text: "Layanan perbankan UAE", category: "finance" },
+  
+  // Properti dan Layanan
+  { id: "21", text: "Investasi properti UAE", category: "property" },
+  { id: "22", text: "Sewa ruang kantor Dubai", category: "property" },
+
+  // Kesehatan
+  { id: "47", text: "Asuransi kesehatan UAE", category: "healthcare" },
+  { id: "48", text: "Rumah sakit terbaik di Dubai", category: "healthcare" },
+  { id: "49", text: "Pemeriksaan kesehatan UAE", category: "healthcare" },
+  
+  // Pariwisata dan Hiburan (di akhir)
+  { id: "28", text: "Objek wisata Dubai", category: "travel" },
+  { id: "29", text: "Expo City Dubai", category: "attractions" },
+  { id: "30", text: "Tiket Dubai Frame", category: "attractions" },
+  { id: "31", text: "Tiket Burj Khalifa", category: "attractions" },
+  { id: "32", text: "Museum of the Future", category: "attractions" },
+  { id: "33", text: "Abu Dhabi Louvre", category: "attractions" },
+  { id: "34", text: "Ferrari World Abu Dhabi", category: "attractions" },
+  { id: "35", text: "Belanja di Dubai Mall", category: "shopping" },
 ]
 </script>
 
 <AIChat :prompts="chatPrompts" />
+
+<userStyle>Normal</userStyle>
