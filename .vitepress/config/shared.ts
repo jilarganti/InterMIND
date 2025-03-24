@@ -39,7 +39,7 @@ export const shared = defineConfig({
     }
 
     // canonical link
-    pageData.frontmatter.head.push(["link", { rel: "canonical", href: hostUrl + "/" + pagePath }])
+    // pageData.frontmatter.head.push(["link", { rel: "canonical", href: hostUrl + "/" + pagePath }])
   },
   markdown: {
     config: (md) => {
@@ -55,7 +55,6 @@ export const shared = defineConfig({
         "@config": fileURLToPath(new URL("../config/", import.meta.url)),
         "@theme": fileURLToPath(new URL("../theme/", import.meta.url)),
         "@docs": fileURLToPath(new URL("../../docs/en", import.meta.url)),
-        // "@setup": fileURLToPath(new URL("../", import.meta.url)),
       },
     },
     server: {
