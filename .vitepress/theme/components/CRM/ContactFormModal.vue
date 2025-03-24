@@ -16,7 +16,7 @@ import { ref, computed } from "vue"
 import { generateOriginId } from "@theme/utils/path"
 import { useFormSubmit } from "@theme/composables/CRM/useFormSubmit"
 import { parsePhoneNumberWithError } from "libphonenumber-js"
-import { EXCLUDED_COUNTRIES } from "@config/excludedCounties"
+import { INCLUDED_COUNTRIES } from "@config/countryList"
 
 const { site, page } = useData()
 
@@ -88,7 +88,7 @@ const handleSubmit = async () => {
   formData.value.countryName = name
 
   if (!isRealLead) formData.value.name = "[test] " + formData.value.name
-  if (EXCLUDED_COUNTRIES.includes(code)) formData.value.name = "[spam] " + formData.value.name
+  if (!INCLUDED_COUNTRIES.includes(code)) formData.value.name = "[spam] " + formData.value.name
 
   await submitForm()
 

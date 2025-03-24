@@ -1,3 +1,64 @@
+/**
+ * Таргетирование по странам в Google Ads
+ */
+
+export const INCLUDED_COUNTRIES = [
+  "AU", // Australia
+  "AT", // Austria
+  "AZ", // Azerbaijan
+  "BE", // Belgium
+  "BN", // Brunei
+  "CA", // Canada
+  "CN", // China
+  "HR", // Croatia
+  "CY", // Cyprus
+  "CZ", // Czechia
+  "DK", // Denmark
+  "EE", // Estonia
+  "FI", // Finland
+  "FR", // France
+  "DE", // Germany
+  "GR", // Greece
+  "HK", // Hong Kong
+  "HU", // Hungary
+  "IS", // Iceland
+  "IN", // India
+  "IE", // Ireland
+  "IL", // Israel
+  "IT", // Italy
+  "JP", // Japan
+  "JO", // Jordan
+  "KZ", // Kazakhstan
+  "KW", // Kuwait
+  "LV", // Latvia
+  "LT", // Lithuania
+  "LU", // Luxembourg
+  "MT", // Malta
+  "NL", // Netherlands
+  "NZ", // New Zealand
+  "NO", // Norway
+  "OM", // Oman
+  "PL", // Poland
+  "QA", // Qatar
+  "RO", // Romania
+  "SA", // Saudi Arabia
+  "RS", // Serbia
+  "SG", // Singapore
+  "SK", // Slovakia
+  "SI", // Slovenia
+  "KR", // South Korea
+  "ES", // Spain
+  "SE", // Sweden
+  "CH", // Switzerland
+  "TR", // Turkiye
+  "AE", // United Arab Emirates
+  "GB", // United Kingdom
+  "US", // United States
+]
+
+/**
+ * Сейчас не используется
+ */
 export const EXCLUDED_COUNTRIES = [
   "DZ", // Algeria
   "AO", // Angola
