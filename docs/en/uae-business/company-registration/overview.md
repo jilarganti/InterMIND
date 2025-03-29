@@ -364,8 +364,17 @@ UAE business residence permits are typically issued for 2 to 3 years.
   <source src="/video/iStock-2185918790.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Setup [guide]" buttonText="Get a free consultation" :services="[
-'🏢 New company formation',
-'🌱 Expansion plan (ie. new branch or franchise)',
-'🔄 Company relocation',
-'🪪 Visa purposes only']"/>
+<ContactFormModal 
+  formName="Setup [guide]" 
+  buttonText="Get a free consultation" 
+  categoryLabel="Required support level: *" 
+  categoryPlaceholderText="Choose your support level"
+  messageLabel="Help us prepare for your consultation (recommended)"
+  messagePlaceholderText="Tell us about your business type, planned activities in UAE, timeline, and any specific questions about company formation or visas"
+  :services="[
+  'Basic — essential documentation and company registration consultation only',
+  'Standard — complete documentation and guidance through main setup stages',
+  'Comprehensive — full-service company formation with minimal involvement from your side',
+  'Custom — need to discuss complex structure or multi-jurisdictional business setup',
+  ]"
+/>

@@ -1,13 +1,13 @@
 ---
 layout: home
 title: "Visa Emas UAE | Layanan Berbasis Success Fee"
-description: "Visa izin tinggal premium 10 tahun tanpa biaya di muka - bayar hanya setelah persetujuan. Manajemen aplikasi lengkap dengan tingkat keberhasilan 98%. Layanan perpanjangan gratis, hanya biaya pemerintah."
+description: "Visa izin tinggal premium 10 tahun tanpa biaya di muka - bayar hanya setelah disetujui. Manajemen aplikasi lengkap dengan tingkat keberhasilan 98%. Layanan perpanjangan gratis, hanya biaya pemerintah."
 showSponsors: false
 
 hero:
   name: "Visa Emas UAE"
   text: Pembayaran berdasarkan hasil
-  tagline: Izin tinggal 10 tahun. <span class="hl">Tanpa biaya di muka</span> - bayar hanya setelah persetujuan. Tingkat keberhasilan 98%.
+  tagline: Izin tinggal 10 tahun. <span class="hl">Tanpa biaya di muka</span> - bayar hanya setelah disetujui. Tingkat keberhasilan 98%.
   image:
     light:
       src: /img/Logo.avif
@@ -20,12 +20,12 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Keuntungan Visa Emas UAE',
+    title: 'Manfaat Visa Emas UAE',
     items: [
-      'Masa berlaku 10 tahun dengan opsi perpanjangan selama memenuhi syarat kualifikasi',
+      'Masa berlaku 10 tahun dengan opsi perpanjangan jika memenuhi syarat kualifikasi',
       '**Tidak perlu masuk UAE setiap 6 bulan**',
       'Diizinkan kepemilikan bisnis 100%',
-      'Sponsor anggota keluarga dan staf domestik tanpa batas',
+      'Sponsor anggota keluarga dan staf rumah tangga tanpa batas',
       'Sponsor anak hingga usia 25 tahun',
       'Termasuk sponsor orang tua',
       'Tidak memerlukan sponsor atau pemberi kerja'
@@ -43,11 +43,11 @@ hero:
     title: 'Cara Mendapatkan Visa Emas UAE',
     items: [
       'Investasi AED 2M dalam properti UAE',
-      'Deposit AED 2M dalam dana investasi UAE',
+      'Deposito AED 2M dalam dana investasi UAE',
       'Bisnis dengan modal AED 2M',
       'Kontribusi FTA tahunan AED 250K',
       'Profesional Terampil',
-      'Orang-orang berbakat'
+      'Orang berbakat jenius'
     ],
     linkText: 'Read More',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
@@ -111,23 +111,29 @@ hero:
   {
     icon: '🔄',
     title: 'Dukungan Perpanjangan',
-    text: 'Bantuan perpanjangan visa gratis dengan **biaya agen nol** - hanya biaya pemerintah.'
+    text: 'Bantuan perpanjangan visa gratis dengan **nol biaya agen** - hanya biaya pemerintah.'
   }
 ]" />
 
-## Pesan konsultasi gratis untuk memeriksa kelayakan dan mendiskusikan pilihan Anda.
+## Jadwalkan konsultasi gratis untuk memeriksa kelayakan dan mendiskusikan pilihan Anda.
 
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Golden Visa [offer]" buttonText="Dapatkan konsultasi gratis" :services="[
-  '🏠 Investasi AED 2M dalam properti UAE',
-  '💰 Deposit AED 2M dalam dana investasi UAE',
-  '🏢 Bisnis dengan modal AED 2M',
-  '📈 Kontribusi FTA tahunan AED 250K',
-  '👨‍💼 Profesional Terampil',
-  '🎯 Orang-orang berbakat',]"/>
+<ContactFormModal 
+  formName="Golden Visa [offer]" 
+  buttonText="Dapatkan konsultasi gratis" 
+  categoryLabel="Tingkat dukungan yang diperlukan: *" 
+  categoryPlaceholderText="Pilih tingkat dukungan Anda"
+  messageLabel="Bantu kami mempersiapkan konsultasi Anda (direkomendasikan)"
+  messagePlaceholderText="Ceritakan kepada kami tentang preferensi investasi, anggota keluarga, jadwal, atau pertanyaan spesifik Anda"
+  :services="[
+  'Dasar — hanya dokumen dan konsultasi penting',
+  'Standar — dokumentasi lengkap dan panduan melalui tahap-tahap utama',
+  'Komprehensif — manajemen proses layanan penuh dengan keterlibatan minimal dari Anda',
+  'Kustom — perlu mendiskusikan detail spesifik dan persyaratan khusus',
+  ]"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigrasi UAE' },

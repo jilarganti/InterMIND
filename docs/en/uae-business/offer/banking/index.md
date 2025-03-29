@@ -144,8 +144,17 @@ hero:
   <source src="/video/iStock-2185918790.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Banking [offer]" buttonText="Get a free consultation" :services="[
- '🏢 UAE Resident Corporate Account',
- '🌐 Non-UAE Resident Corporate Account (Low Risk)',
- '⚠️ Non-UAE Resident Corporate Account (High Risk)',
- '👤 Personal Bank Account']"/>
+<ContactFormModal 
+  formName="Banking [offer]" 
+  buttonText="Get a free consultation" 
+  categoryLabel="Required support level: *" 
+  categoryPlaceholderText="Choose your support level"
+  messageLabel="Help us prepare for your consultation (recommended)"
+  messagePlaceholderText="Tell us about your business type, jurisdictions of operation, expected transaction volumes, and any specific banking needs (multi-currency, trade finance, etc.)"
+  :services="[
+  'Basic — essential documentation and account opening consultation only',
+  'Standard — complete documentation and guidance through all banking stages',
+  'Comprehensive — full-service banking setup with minimal involvement from your side',
+  'Custom — need to discuss high-volume transactions or multi-jurisdictional structure',
+  ]"
+/>

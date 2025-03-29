@@ -1,11 +1,11 @@
 ---
 layout: home
-title: "Visto Golden UAE | Serviço Baseado em Taxa de Sucesso"
+title: "Visto Golden dos EAU | Serviço Baseado em Taxa de Sucesso"
 description: "Visto de residência premium de 10 anos sem taxas antecipadas - pague apenas após aprovação. Gestão completa da aplicação com 98% de taxa de sucesso. Serviço de renovação gratuito, apenas taxas governamentais."
 showSponsors: false
 
 hero:
-  name: "Visto Golden UAE"
+  name: "Visto Golden dos EAU"
   text: Pagamento por resultados
   tagline: Residência de 10 anos. <span class="hl">Zero taxas antecipadas</span> - pague apenas após aprovação. 98% de taxa de sucesso.
   image:
@@ -20,12 +20,12 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Benefícios do Visto Golden UAE',
+    title: 'Benefícios do Visto Golden dos EAU',
     items: [
       'Validade de 10 anos com opção de renovação mantendo as condições qualificativas',
-      '**Não é necessário entrar nos UAE a cada 6 meses**',
+      '**Sem necessidade de entrar nos EAU a cada 6 meses**',
       'Permitida propriedade empresarial 100%',
-      'Patrocínio de membros da família e funcionários domésticos ilimitados',
+      'Patrocínio de familiares e funcionários domésticos ilimitados',
       'Patrocínio de filhos até 25 anos',
       'Patrocínio de pais incluído',
       'Não é necessário patrocinador ou empregador'
@@ -40,10 +40,10 @@ hero:
     }
   },
   {
-    title: 'Como Obter o Visto Golden UAE',
+    title: 'Como Obter o Visto Golden dos EAU',
     items: [
-      'Investimento de AED 2M em propriedades nos UAE',
-      'Depósito de AED 2M em fundos de investimento nos UAE',
+      'Investimento de AED 2M em propriedades nos EAU',
+      'Depósito de AED 2M em fundos de investimento dos EAU',
       'Negócio com capital de AED 2M',
       'Contribuição anual FTA de AED 250K',
       'Profissionais Qualificados',
@@ -65,7 +65,7 @@ hero:
       'Avaliação inicial de elegibilidade',
       'Preparação e verificação de documentos',
       'Exame médico e biometria',
-      'Envio e Processamento da Solicitação',
+      'Submissão e Processamento da Aplicação',
       'Emissão do Emirates ID e visto',
       'Patrocínio de visto familiar (opcional)'
     ],
@@ -80,12 +80,12 @@ hero:
   }
 ]" />
 
-## Por Que Escolher a Golden Fish
+## Por que Escolher a Golden Fish
 
 <BenefitsList :features="[
   {
     icon: '💰',
-    title: 'Taxas Baseadas em Sucesso',
+    title: 'Taxas Baseadas no Sucesso',
     text: '**Nenhum pagamento até seu Golden Visa ser aprovado.** Transparência total sem custos ocultos.'
   },
   {
@@ -121,15 +121,21 @@ hero:
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Golden Visa [offer]" buttonText="Obtenha uma consulta gratuita" :services="[
-  '🏠 Investimento de AED 2M em propriedades nos EAU',
-  '💰 Depósito de AED 2M em fundos de investimento dos EAU',
-  '🏢 Negócio com capital de AED 2M',
-  '📈 Contribuição anual FTA de AED 250K',
-  '👨‍💼 Profissionais Qualificados',
-  '🎯 Talentos Excepcionais',]"/>
+<ContactFormModal 
+  formName="Golden Visa [offer]" 
+  buttonText="Obtenha uma consulta gratuita" 
+  categoryLabel="Nível de suporte necessário: *" 
+  categoryPlaceholderText="Escolha seu nível de suporte"
+  messageLabel="Ajude-nos a preparar sua consulta (recomendado)"
+  messagePlaceholderText="Conte-nos sobre suas preferências de investimento, membros da família, cronograma ou quaisquer perguntas específicas"
+  :services="[
+  'Básico — apenas documentos essenciais e consultas',
+  'Padrão — documentação completa e orientação nas principais etapas',
+  'Abrangente — gerenciamento completo do processo com mínima participação sua',
+  'Personalizado — necessidade de discutir detalhes específicos e requisitos especiais',
+  ]"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração EAU' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração EAU' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração UAE' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração UAE' },
 ]"/> -->

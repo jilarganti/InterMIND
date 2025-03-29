@@ -1,13 +1,13 @@
 ---
 layout: home
-title: "Visa Doré UAE | Service Basé sur le Succès"
+title: "Visa Or des EAU | Service Basé sur les Résultats"
 description: "Visa de résidence premium de 10 ans sans frais initiaux - paiement uniquement après approbation. Gestion complète des demandes avec 98% de taux de réussite. Service de renouvellement gratuit, frais gouvernementaux uniquement."
 showSponsors: false
 
 hero:
-  name: "Visa Doré UAE"
+  name: "Visa Or des EAU"
   text: Paiement aux résultats
-  tagline: Résidence de 10 ans. <span class="hl">Zéro frais initiaux</span> - paiement uniquement après approbation. 98% de taux de réussite.
+  tagline: Résidence de 10 ans. <span class="hl">Zéro frais initial</span> - paiement uniquement après approbation. 98% de taux de réussite.
   image:
     light:
       src: /img/Logo.avif
@@ -20,46 +20,46 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Avantages du Visa Doré UAE',
+    title: 'Avantages du Visa Or des EAU',
     items: [
       'Validité de 10 ans avec option de renouvellement sous conditions qualifiantes',
-      '**Pas besoin d\'entrer aux UAE tous les 6 mois**',
+      '**Pas besoin d\'entrer aux EAU tous les 6 mois**',
       'Propriété d\'entreprise à 100% autorisée',
       'Parrainage de membres de la famille et personnel domestique illimité',
       'Parrainage des enfants jusqu\'à 25 ans',
       'Parrainage des parents inclus',
       'Aucun sponsor ou employeur requis'
     ],
-    linkText: 'Read More',
+    linkText: 'En savoir plus',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
     icon: {
       light: '/img/iStock-1785818081.avif',
       dark: '/img/iStock-1203821481.avif',
-      alt: 'Services de Visa',
+      alt: 'Services de visa',
       width: '100%'
     }
   },
   {
-    title: 'Comment Obtenir le Visa Doré UAE',
+    title: 'Comment Obtenir le Visa Or des EAU',
     items: [
-      'Investissement de 2M AED dans l\'immobilier UAE',
-      'Dépôt de 2M AED dans des fonds d\'investissement UAE',
-      'Entreprise avec capital de 2M AED',
+      'Investissement de 2M AED dans l\'immobilier aux EAU',
+      'Dépôt de 2M AED dans des fonds d\'investissement aux EAU',
+      'Entreprise avec un capital de 2M AED',
       'Contribution FTA annuelle de 250K AED',
-      'Professionnels Qualifiés',
-      'Talents Exceptionnels'
+      'Professionnels qualifiés',
+      'Talents exceptionnels'
     ],
-    linkText: 'Read More',
+    linkText: 'En savoir plus',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
     icon: {
       light: '/img/iStock-1333000394.avif',
       dark: '/img/iStock-584576538.avif',
-      alt: 'Services de Visa',
+      alt: 'Services de visa',
       width: '10%'
     }
   },
   {
-    title: 'Processus du Visa Doré',
+    title: 'Processus du Visa Or',
     bullet: '✓',
     items: [
       'Évaluation initiale d\'éligibilité',
@@ -67,14 +67,14 @@ hero:
       'Examen médical et biométrie',
       'Soumission et traitement de la demande',
       'Émission de l\'Emirates ID et du visa',
-      'Parrainage visa familial (optionnel)'
+      'Parrainage de visa familial (optionnel)'
     ],
-    linkText: 'Read More',
+    linkText: 'En savoir plus',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',
       dark: '/img/ILONMASKID.webp',
-      alt: 'Services de Visa',
+      alt: 'Services de visa',
       width: '100%'
     }
   }
@@ -91,7 +91,7 @@ hero:
   {
     icon: '📈',
     title: 'Taux de Réussite Prouvé',
-    text: '98% de taux d\'approbation avec des centaines de Golden Visas délivrés grâce à notre traitement premium.'
+    text: 'Taux d\'approbation de 98% avec des centaines de Golden Visas délivrés grâce à notre traitement premium.'
   },
   {
     icon: '📋',
@@ -101,7 +101,7 @@ hero:
   {
     icon: '👨‍💼',
     title: 'Expertise Locale aux UAE',
-    text: 'Des spécialistes dédiés à Dubai fournissent des conseils d\'experts à chaque étape du processus.'
+    text: 'Des spécialistes dédiés à Dubai fournissent des conseils d\'expert à chaque étape du processus.'
   },
   {
     icon: '🔍',
@@ -110,7 +110,7 @@ hero:
   },
   {
     icon: '🔄',
-    title: 'Support au Renouvellement',
+    title: 'Assistance au Renouvellement',
     text: 'Assistance gratuite pour le renouvellement du visa avec **zéro frais d\'agence** - uniquement les frais gouvernementaux.'
   }
 ]" />
@@ -121,13 +121,19 @@ hero:
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Golden Visa [offer]" buttonText="Obtenir une consultation gratuite" :services="[
-  '🏠 Investissement de 2M AED dans l\'immobilier aux EAU',
-  '💰 Dépôt de 2M AED dans des fonds d\'investissement aux EAU',
-  '🏢 Entreprise avec un capital de 2M AED',
-  '📈 Contribution FTA annuelle de 250K AED',
-  '👨‍💼 Professionnels qualifiés',
-  '🎯 Génies de talent',]"/>
+<ContactFormModal 
+  formName="Golden Visa [offer]" 
+  buttonText="Obtenir une consultation gratuite" 
+  categoryLabel="Niveau de support requis : *" 
+  categoryPlaceholderText="Choisissez votre niveau de support"
+  messageLabel="Aidez-nous à préparer votre consultation (recommandé)"
+  messagePlaceholderText="Parlez-nous de vos préférences d'investissement, des membres de votre famille, du calendrier ou de toute question spécifique"
+  :services="[
+  'Basique — documents essentiels et consultations uniquement',
+  'Standard — documentation complète et accompagnement aux étapes principales',
+  'Complet — gestion complète du processus avec une implication minimale de votre part',
+  'Personnalisé — besoin de discuter des détails spécifiques et des exigences particulières',
+  ]"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Immigration aux EAU' },

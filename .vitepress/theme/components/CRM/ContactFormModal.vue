@@ -4,10 +4,23 @@
  * @param services - Выбор сервисов (по умолчанию:, ["Company registration", "Opening bank accounts", "EID & Golden Visa", "Other Services"])
  * @param style - Стили кнопки (по умолчанию: "display: block; margin: 0 auto;")
  * @param buttonText - Текст кнопки (по умолчанию: "Get a free consultation")
+ * @param categoryLabel - Заголовок поля категорий (по умолчанию: берется из локализации site.value.themeConfig.contact_form.category)
+ * @param categoryPlaceholderText - Плейсхолдер для поля категорий (по умолчанию: берется из локализации site.value.themeConfig.contact_form.categoryPlaceholder)
+ * @param messageLabel - Заголовок поля сообщения (по умолчанию: берется из локализации site.value.themeConfig.contact_form.message)
+ * @param messagePlaceholderText - Плейсхолдер для поля сообщения (по умолчанию: берется из локализации site.value.themeConfig.contact_form.messagePlaceholder)
  * @param success - Событие успешной отправки формы
  *
  * @usage
- * <ContactFormModal buttonText="Get consultation" formName="Golden Visa" services="["Global Visa ", "Other Services"]" @success="handleSuccess" />
+ * <ContactFormModal
+ *   buttonText="Get consultation"
+ *   formName="Golden Visa"
+ *   services="["Global Visa ", "Other Services"]"
+ *   categoryLabel="Выберите услугу"
+ *   categoryPlaceholderText="Выберите из списка"
+ *   messageLabel="Ваш запрос"
+ *   messagePlaceholderText="Опишите ваш запрос подробнее..."
+ *   @success="handleSuccess"
+ * />
  *
  * const handleSuccess = () => {}
  */
@@ -26,11 +39,19 @@ const props = defineProps<{
   services?: string[]
   buttonText?: string
   formStyle?: string
+  categoryLabel?: string
+  categoryPlaceholderText?: string
+  messageLabel?: string
+  messagePlaceholderText?: string
 }>()
 
 const buttonTextValue = computed(() => props.buttonText || site.value.themeConfig.contact_form.defaultButtonText)
 const categoriesValue = computed(() => props.services || site.value.themeConfig.contact_form.defaultCategories)
 const styleValue = computed(() => props.formStyle || "display: block; margin: 0 auto;")
+const categoryLabelValue = computed(() => props.categoryLabel || site.value.themeConfig.contact_form.category)
+const categoryPlaceholderValue = computed(() => props.categoryPlaceholderText || site.value.themeConfig.contact_form.categoryPlaceholder)
+const messageLabelValue = computed(() => props.messageLabel || site.value.themeConfig.contact_form.message)
+const messagePlaceholderValue = computed(() => props.messagePlaceholderText || site.value.themeConfig.contact_form.messagePlaceholder)
 
 const emit = defineEmits(["success"])
 const isRealLead = import.meta.env.VITE_IS_PROD
@@ -162,9 +183,9 @@ function getCountryFromPhone(phone: string): { code: string; name: string } {
             </div>
 
             <div>
-              <label for="category">{{ category }}</label>
+              <label for="category">{{ categoryLabelValue }}</label>
               <select name="category" v-model="formData.category" required>
-                <option value="" disabled>{{ categoryPlaceholder }}</option>
+                <option value="" disabled>{{ categoryPlaceholderValue }}</option>
                 <option v-for="category in categoriesValue" :key="category" :value="category">
                   {{ category }}
                 </option>
@@ -172,8 +193,8 @@ function getCountryFromPhone(phone: string): { code: string; name: string } {
             </div>
 
             <div>
-              <label for="message">{{ message }}</label>
-              <textarea name="message" v-model="formData.message" :placeholder="messagePlaceholder"></textarea>
+              <label for="message">{{ messageLabelValue }}</label>
+              <textarea name="message" v-model="formData.message" :placeholder="messagePlaceholderValue"></textarea>
             </div>
 
             <p v-if="formStatus.errorMessage" class="error">

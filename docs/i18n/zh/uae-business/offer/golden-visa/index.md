@@ -6,7 +6,7 @@ showSponsors: false
 
 hero:
   name: "阿联酋黄金签证"
-  text: 按结果付费
+  text: "按结果付费"
   tagline: 10年居留权。<span class="hl">零预付费用</span> - 仅在获批后付款。98%成功率。
   image:
     light:
@@ -16,7 +16,6 @@ hero:
       src: /img/Logo.avif
       width: 50%
     alt: Golden Fish标志
-
 ---
 
 <FeatureCards :features="[
@@ -64,10 +63,10 @@ hero:
     bullet: '✓',
     items: [
       '初步资格评估',
-      '文件准备与验证',
+      '文件准备和验证',
       '体检和生物识别',
       '申请提交和处理',
-      'Emirates ID和签证签发',
+      '阿联酋身份证和签证签发',
       '家庭签证担保（可选）'
     ],
     linkText: 'Read More',
@@ -92,7 +91,7 @@ hero:
   {
     icon: '📈',
     title: '成功率有保证',
-    text: '通过我们的优质服务，已成功办理数百个 Golden Visa，批准率达98%。'
+    text: '通过我们的优质服务处理，已发放数百个 Golden Visa，批准率达98%。'
   },
   {
     icon: '📋',
@@ -107,7 +106,7 @@ hero:
   {
     icon: '🔍',
     title: '优质处理',
-    text: '与政府部门直接沟通，快速通道确保更快审批。'
+    text: '与政府部门直接沟通，快速通道加快审批。'
   },
   {
     icon: '🔄',
@@ -116,19 +115,25 @@ hero:
   }
 ]" />
 
-## 预约免费咨询，了解您的资格并讨论选项。
+## 预约免费咨询，了解您的资格并讨论可选方案。
 
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Golden Visa [offer]" buttonText="获取免费咨询" :services="[
-  '🏠 在阿联酋投资200万迪拉姆房产',
-  '💰 在阿联酋投资基金存入200万迪拉姆',
-  '🏢 投资200万迪拉姆创办企业',
-  '📈 每年向FTA缴纳25万迪拉姆',
-  '👨‍💼 技术专业人才',
-  '🎯 天才人才',]"/>
+<ContactFormModal 
+  formName="Golden Visa [offer]" 
+  buttonText="获取免费咨询" 
+  categoryLabel="所需支持级别：*" 
+  categoryPlaceholderText="选择您的支持级别"
+  messageLabel="帮助我们为您的咨询做准备（建议填写）"
+  messagePlaceholderText="请告诉我们您的投资偏好、家庭成员情况、时间安排或任何具体问题"
+  :services="[
+  '基础套餐 — 仅包含必要文件和咨询',
+  '标准套餐 — 完整文件准备及主要阶段指导',
+  '全面套餐 — 全程服务管理，您只需最少参与',
+  '定制套餐 — 需要讨论具体细节和特殊要求',
+  ]"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: '阿联酋移民' },

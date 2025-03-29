@@ -1,11 +1,11 @@
 ---
 layout: home
-title: "Visa Dorada de EAU | Servicio Basado en Honorarios de Éxito"
-description: "Visa de residencia premium de 10 años sin costos iniciales - pague solo después de la aprobación. Gestión completa de solicitudes con 98% de tasa de éxito. Servicio de renovación gratuito, solo tasas gubernamentales."
+title: "Visa Dorada EAU | Servicio Basado en Honorarios de Éxito"
+description: "Visa de residencia premium de 10 años sin costos iniciales - pague solo después de la aprobación. Gestión completa de la solicitud con 98% de tasa de éxito. Servicio de renovación gratuito, solo tasas gubernamentales."
 showSponsors: false
 
 hero:
-  name: "Visa Dorada de EAU"
+  name: "Visa Dorada EAU"
   text: Pago por resultados
   tagline: Residencia de 10 años. <span class="hl">Sin costos iniciales</span> - pague solo después de la aprobación. 98% de tasa de éxito.
   image:
@@ -20,7 +20,7 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Beneficios de la Visa Dorada de EAU',
+    title: 'Beneficios de la Visa Dorada EAU',
     items: [
       'Validez de 10 años con opción de renovación al mantener las condiciones de calificación',
       '**No es necesario ingresar a EAU cada 6 meses**',
@@ -40,14 +40,14 @@ hero:
     }
   },
   {
-    title: 'Cómo Obtener la Visa Dorada de EAU',
+    title: 'Cómo Obtener la Visa Dorada EAU',
     items: [
       'Inversión de 2M AED en propiedades en EAU',
-      'Depósito de 2M AED en fondos de inversión de EAU',
+      'Depósito de 2M AED en fondos de inversión EAU',
       'Negocio con capital de 2M AED',
       'Contribución anual FTA de 250K AED',
       'Profesionales Calificados',
-      'Talentos excepcionales'
+      'Talentos Excepcionales'
     ],
     linkText: 'Read More',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
@@ -65,7 +65,7 @@ hero:
       'Evaluación inicial de elegibilidad',
       'Preparación y verificación de documentos',
       'Examen médico y biometría',
-      'Presentación y procesamiento de solicitud',
+      'Presentación y procesamiento de la solicitud',
       'Emisión de Emirates ID y visa',
       'Patrocinio de visa familiar (opcional)'
     ],
@@ -85,7 +85,7 @@ hero:
 <BenefitsList :features="[
   {
     icon: '💰',
-    title: 'Tarifas Basadas en el Éxito',
+    title: 'Honorarios Basados en el Éxito',
     text: '**Sin pago hasta que su Golden Visa sea aprobada.** Transparencia total sin costos ocultos.'
   },
   {
@@ -96,11 +96,11 @@ hero:
   {
     icon: '📋',
     title: 'Gestión Completa',
-    text: 'Manejo integral desde la documentación hasta la emisión de la visa, cuidando todos los detalles.'
+    text: 'Manejo integral desde la documentación hasta la emisión de la visa, ocupándonos de todos los detalles.'
   },
   {
     icon: '👨‍💼',
-    title: 'Experiencia Local en EAU',
+    title: 'Experiencia Local en UAE',
     text: 'Especialistas dedicados en Dubái proporcionan orientación experta en cada paso del proceso.'
   },
   {
@@ -121,15 +121,21 @@ hero:
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Golden Visa [offer]" buttonText="Obtener una consulta gratuita" :services="[
-  '🏠 Inversión de 2M AED en propiedades de EAU',
-  '💰 Depósito de 2M AED en fondos de inversión de EAU',
-  '🏢 Negocio con capital de 2M AED',
-  '📈 Contribución anual FTA de 250K AED',
-  '👨‍💼 Profesionales calificados',
-  '🎯 Genios de talento',]"/>
+<ContactFormModal 
+  formName="Golden Visa [offer]" 
+  buttonText="Obtener una consulta gratuita" 
+  categoryLabel="Nivel de soporte requerido: *" 
+  categoryPlaceholderText="Elija su nivel de soporte"
+  messageLabel="Ayúdenos a preparar su consulta (recomendado)"
+  messagePlaceholderText="Cuéntenos sobre sus preferencias de inversión, miembros de la familia, cronograma o cualquier pregunta específica"
+  :services="[
+  'Básico — solo documentos esenciales y consultas',
+  'Estándar — documentación completa y orientación durante las etapas principales',
+  'Integral — gestión completa del proceso con mínima participación de su parte',
+  'Personalizado — necesidad de discutir detalles específicos y requisitos especiales',
+  ]"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración EAU' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración EAU' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración a EAU' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración a EAU' },
 ]"/> -->
