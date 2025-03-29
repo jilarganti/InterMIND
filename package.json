@@ -16,7 +16,7 @@
     "dev": "concurrently \"pnpm run dev:api\" \"pnpm run dev:front\"",
     "build": "vitepress build",
     "translate": "node --no-deprecation scripts/translate",
-    "test:traffic-sources": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/crm/test-traffic-sources.ts",
+    "test:traffic-sources": "node --experimental-specifier-resolution=node --loader ts-node/esm __tests__/crm/test-traffic-sources.ts",
     "format": "prettier -w .",
     "lint": "pnpm eslint --cache .",
     "convert": "bash -x scripts/toAVIF.sh",
