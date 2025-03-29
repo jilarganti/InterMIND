@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: Get Free Consultation
-      link: ./#contact-form
-    - theme: alt
-      text: Support 24/7
       link: ./resources/contacts
+    # - theme: alt
+    #   text: Support 24/7
+    #   link: ./resources/contacts
   image:
     light:
       src: /img/Logo.avif
@@ -27,6 +27,22 @@ hero:
 ---
 
 <FeatureCards :features="[
+  {
+    title: 'Company Setup Guide',
+    details: 'Complete guide to setup companies in the free zone, offshore, mainland, branch.',
+    items: [
+      '**100% Foreign Ownership** available in Free Zones and Mainland',
+      'Low Tax Rates - only 9% corporate tax',
+      'No Currency Controls - easy capital repatriation'
+    ],
+    linkText: 'Read More',
+    link: './uae-business/company-registration/overview',
+    icon: {
+      light: '/img/iStock-2051326997.avif',
+      dark: '/img/iStock-1448478309.jpg',
+      alt: 'Company Setup Guide'
+    }
+  },
   {
     title: 'Bank Account Opening',
     details: 'Easily open business or personal bank accounts with the UAE\'s trusted banks.',
@@ -57,22 +73,6 @@ hero:
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
       alt: 'Visa Services'
-    }
-  },
-  {
-    title: 'Company Setup Guide',
-    details: 'Complete guide to setup companies in the free zone, offshore, mainland, branch.',
-    items: [
-      '**100% Foreign Ownership** available in Free Zones and Mainland',
-      'Low Tax Rates - only 9% corporate tax',
-      'No Currency Controls - easy capital repatriation'
-    ],
-    linkText: 'Read More',
-    link: './uae-business/company-registration/overview',
-    icon: {
-      light: '/img/iStock-2051326997.avif',
-      dark: '/img/iStock-1448478309.jpg',
-      alt: 'Company Setup Guide'
     }
   },
 ]" />
@@ -175,7 +175,7 @@ hero:
 }
 ]" />
 
-## Get Started Now - Free Initial Consultation
+<!-- ## Get Started Now - Free Initial Consultation
 
 <div id="contact-form"></div>
 
@@ -183,8 +183,8 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Home page" buttonText="Get a free consultation" 
-:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/>
+<ContactFormModal formName="Home page" buttonText="Get a free consultation"
+:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/> -->
 
 <!-- <br>
 

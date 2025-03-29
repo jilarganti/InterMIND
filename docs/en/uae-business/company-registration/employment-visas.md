@@ -100,20 +100,3 @@ As of 1 January 2023, all UAE employees must have job loss insurance. This may o
 ## Health Insurance
 
 Before securing a UAE visa, visa candidates must secure local health insurance. Our fees cover securing basic health insurance.
-
-## Book a free consultation to discuss your options
-
-<video  autoplay muted playsinline style="padding: 80px" >
-  <source src="/video/iStock-2185914135.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal formName="Employment Visa [guide]" buttonText="Get a free consultation" :services="[
-    '💼 Employment Visa + Labor Card',
-    '👨‍💼 Entrepreneur Visa (2-year)',
-    '🏢 Free Zone Company Visa',
-    '👨‍👩‍👧‍👦 Dependent Family Visa',
-    '💳 Emirates ID Application',
-    '💵 Monthly salary above AED 30K',
-    '💰 Golden Visa Eligibility',
-    '❓ Other Visa Services',
-    ]"/>

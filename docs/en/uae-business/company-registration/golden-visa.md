@@ -226,10 +226,16 @@ The UAE Golden Visa provides a unique opportunity for investors, entrepreneurs, 
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Golden Visa [guide]" buttonText="Get a free consultation" :services="[
-  '🏠 AED 2M investment in UAE properties',
-  '💰 AED 2M deposit in UAE investment funds',
-  '🏢 Business with AED 2M capital',
-  '📈 AED 250K annual FTA contribution',
-  '👨‍💼 Skilled Professionals',
-  '🎯 Geniuses of talent',]"/>
+<ContactFormModal 
+  formName="Golden Visa [guide]" 
+  buttonText="Get a free consultation" 
+  categoryLabel="Required support level: *" 
+  categoryPlaceholderText="Choose your support level"
+  messageLabel="Help us prepare for your consultation (recommended)"
+  messagePlaceholderText="Tell us about your investment preferences, family members, timeline, or any specific questions"
+  :services="[
+  'Basic — essential documents and consultations only',
+  'Standard — complete documentation and guidance through main stages',
+  'Comprehensive — full-service process management with minimal involvement from you',
+  'Custom — need to discuss specific details and special requirements',
+  ]"/>

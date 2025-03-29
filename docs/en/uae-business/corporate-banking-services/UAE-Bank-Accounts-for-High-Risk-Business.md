@@ -137,15 +137,3 @@ For comprehensive support in UAE bank account management and compliance, conside
 - Key steps include appointing a dedicated compliance officer, conducting regular internal audits, updating documentation annually, and ensuring that staff are trained in [AML/CFT procedures](https://rulebook.centralbank.ae/en/rulebook/cabinet-decision-58-2020-beneficial-owner-procedures).
 
 [![UAE Immigration: Key Differences](/content/uae-immigration.svg)](../company-registration/benefits-problems.md)
-
-## Book a free consultation to discuss your corporate banking needs
-
-<video  autoplay muted playsinline style="margin-top: 2rem" >
-  <source src="/img/iStock-2185912341.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal formName="Banking [high-risk]" buttonText="Get a free consultation" :services="[
- '🏢 UAE Resident Corporate Account',
- '🌐 Non-UAE Resident Corporate Account (Low Risk)',
- '⚠️ Non-UAE Resident Corporate Account (High Risk)',
- '👤 Personal Bank Account']"/>

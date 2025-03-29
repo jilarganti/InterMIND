@@ -161,15 +161,3 @@ Unfortunately, the bank's in-house Legal and Compliance Department has the ultim
 Upon successful multi-currency corporate bank account approval and once the business relationship with the customer has been established, the bank's in-house Legal and Compliance Department continues to monitor the customer's corporate bank account. Therefore, Golden Fish recommends our Clients put in place internal systems and processes, such as regular internal audits, transaction monitoring tools, and compliance training for staff, to ensure continuing compliance with each banking transaction of their corporate bank accounts to maintain the stable and healthy corporate relationship with the bank;
 
 :::
-
-## Book a free consultation to discuss your corporate banking needs
-
-<video  autoplay muted playsinline style="margin-top: 2rem" >
-  <source src="/img/iStock-2185912341.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal formName="Banking [our guarantee]" buttonText="Get a free consultation" :services="[
- '🏢 UAE Resident Corporate Account',
- '🌐 Non-UAE Resident Corporate Account (Low Risk)',
- '⚠️ Non-UAE Resident Corporate Account (High Risk)',
- '👤 Personal Bank Account']"/>
