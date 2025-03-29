@@ -1,6 +1,6 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": [".vitepress/**/*", "docs/en/**/*"],
+  "include": [".vitepress/**/*", "docs/en/**/*", "scripts/**/*"],
 
   "compilerOptions": {
     "paths": {
