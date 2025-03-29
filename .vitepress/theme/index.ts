@@ -9,6 +9,7 @@ import { watchEffect } from "vue"
 import { createPinia } from "pinia"
 
 import { components } from "./components"
+import { initUtmTracking } from "./utils/utm"
 
 const { AsideSponsors } = components
 
@@ -38,6 +39,9 @@ export default {
             router.go(browserLang === "en" ? `/${path}` : `/${browserLang}/${path}`)
           }
         }
+
+        // Инициализация отслеживания UTM-параметров при загрузке страницы
+        initUtmTracking()
       }
     })
 
@@ -53,5 +57,23 @@ export default {
     Object.entries(components).forEach(([name, component]) => {
       app.component(name, component)
     })
+
+    // Слушатель изменения роута для обновления UTM-параметров
+    if (inBrowser) {
+      // Инициализируем UTM при запуске приложения
+      setTimeout(() => {
+        initUtmTracking()
+      }, 0)
+
+      // Добавляем слушатель изменений в URL, так как VitePress не имеет полноценных событий роутера
+      window.addEventListener("popstate", () => {
+        initUtmTracking()
+      })
+
+      // Метод вызывается при смене страницы
+      router.onAfterRouteChange = () => {
+        initUtmTracking()
+      }
+    }
   },
 } satisfies Theme

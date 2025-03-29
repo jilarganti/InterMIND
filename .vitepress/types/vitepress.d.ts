@@ -16,11 +16,12 @@ declare module "vitepress" {
         emailPlaceholder: string
         message: string
         messagePlaceholder: string
+        category: string
+        categoryPlaceholder: string
         submit: string
         sending: string
         successTitle: string
         successMessage: string
-        selectPlaceholder: string
         defaultCategories: string[]
         defaultButtonText: string
       }
@@ -35,6 +36,7 @@ interface FormSubmissionEvent {
   form_URL: string
   form_category: string
   is_real_lead: boolean
+  lead_source?: string // Добавляем источник лида
 }
 
 declare global {

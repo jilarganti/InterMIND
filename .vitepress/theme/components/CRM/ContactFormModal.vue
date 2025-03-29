@@ -12,11 +12,12 @@
  * const handleSuccess = () => {}
  */
 import { useData, useRoute } from "vitepress"
-import { ref, computed } from "vue"
+import { ref, computed, onMounted } from "vue"
 import { generateOriginId } from "@theme/utils/path"
 import { useFormSubmit } from "@theme/composables/CRM/useFormSubmit"
 import { parsePhoneNumberWithError } from "libphonenumber-js"
 import { INCLUDED_COUNTRIES } from "@config/countryList"
+import { determineTrafficSource, initUtmTracking } from "@theme/utils/utm"
 
 const { site, page } = useData()
 
@@ -53,30 +54,16 @@ const {
 } = site.value.themeConfig.contact_form
 const { formData, formStatus, submitForm } = useFormSubmit()
 
+// Инициализация отслеживания UTM-параметров при монтировании компонента
+onMounted(() => {
+  if (typeof window !== "undefined") {
+    initUtmTracking()
+  }
+})
+
 const route = useRoute()
-const utm_campaign = route.data.params?.utm_campaign
-const utm_medium = route.data.params?.utm_medium
-const referrer = typeof document !== "undefined" ? document.referrer : ""
 
-// Определяем тип трафика
-const getTrafficType = () => {
-  if (utm_campaign) {
-    return utm_medium ? utm_campaign + "[" + utm_medium + "]" : utm_campaign
-  }
-
-  // Если нет referrer - это прямой трафик
-  if (!referrer) {
-    return "Direct"
-  }
-
-  // Проверяем основные поисковые системы
-  const searchEngines = ["google.", "bing.", "yahoo.", "yandex.", "baidu."]
-  const isOrganic = searchEngines.some((engine) => referrer.includes(engine))
-
-  return isOrganic ? "Organic" : "Referral"
-}
-
-formData.value.leadSource = getTrafficType()
+formData.value.leadSource = determineTrafficSource()
 formData.value.channel = "Web forms"
 formData.value.channelId = props.formName
 formData.value.originId = generateOriginId(page.value.relativePath)
@@ -104,6 +91,7 @@ const handleSubmit = async () => {
       form_URL: page.value.relativePath,
       form_category: formData.value.category,
       is_real_lead: isRealLead,
+      lead_source: formData.value.leadSource, // Добавляем источник лида в данные события
     })
   }
 }

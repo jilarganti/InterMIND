@@ -6,6 +6,8 @@ import { gtmHead } from "./gtm.config"
 const hostUrl = "https://goldenfish.ae"
 const NOINDEX_PAGES = ["company-registration/fees-timelines", "include/recommended-banks", "t.md"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
+// Список UTM-параметров для сохранения в параметрах страницы
+const UTM_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "campaign_id"]
 
 const isProduction = process.env.VERCEL_ENV === "production"
 const vercelUrl = process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL
@@ -21,9 +23,12 @@ export const shared = defineConfig({
     "en/:rest*": ":rest*",
     "i18n/:locale/:rest*": ":locale/:rest*",
   },
-  transformPageData(pageData) {
+  transformPageData(pageData, ctx) {
     const pagePath = pageData.relativePath.replace(/\.md$/, "").replace(/index$/, "")
     pageData.frontmatter.head ??= []
+
+    // Инициализируем params как пустой объект
+    pageData.params = {}
 
     // Определяем язык из пути файла
     const locale = pagePath.split("/")[0]
@@ -40,6 +45,24 @@ export const shared = defineConfig({
 
     // canonical link
     // pageData.frontmatter.head.push(["link", { rel: "canonical", href: hostUrl + "/" + pagePath }])
+
+    // Сохраняем UTM-параметры в метаданных страницы
+    // Извлекаем параметры из URL текущего запроса (если он доступен)
+    if (typeof window !== "undefined" && window.location.search) {
+      try {
+        const urlParams = new URLSearchParams(window.location.search)
+
+        // Сохраняем все UTM-параметры в params
+        UTM_PARAMS.forEach((param) => {
+          const value = urlParams.get(param)
+          if (value) {
+            pageData.params![param] = value
+          }
+        })
+      } catch (e) {
+        console.error("Error extracting query parameters:", e)
+      }
+    }
   },
   markdown: {
     config: (md) => {

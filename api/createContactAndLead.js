@@ -9,9 +9,10 @@
  * @property {string} originId - ID источника
  * @property {string} category - Категория услуги
  * @property {string} message - Сообщение
- * @property {string} leadSource - Источник лида
+ * @property {string} leadSource - Источник лида (например, "Direct", "Organic", "ADS[campaign]" и т.д.)
  * @property {string} countryCode - Код страны
  * @property {string} countryName - Название страны
+ * @property {Object} utmData - Дополнительные данные UTM-параметров (опционально)
  */
 
 /**
