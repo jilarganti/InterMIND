@@ -1,13 +1,13 @@
 ---
 layout: home
-title: "阿联酋公司银行服务 | 成功付费服务"
-description: "高端多币种公司账户，零预付费用 - 仅在获批后付费。全程申请管理，98%成功率。保证开户。"
+title: "阿联酋企业银行服务 | 成功付费制服务"
+description: "高端多币种企业账户，零预付费用 - 仅在获批后付费。全程申请管理，98%成功率。保证开户。"
 showSponsors: false
 
 hero:
   name: "阿联酋银行：您的安全港湾"
   text: 零预付费用
-  tagline: 2025年保证公司银行账户审批。<span class="hl">零预付费用</span> - 仅在获批后付费。90%成功率。
+  tagline: 2025年保证企业银行账户审批。<span class="hl">零预付费用</span> - 仅在获批后付费。90%成功率。
   image:
     light:
       src: /img/Logo.avif
@@ -16,7 +16,6 @@ hero:
       src: /img/Logo.avif
       width: 50%
     alt: Golden Fish标志
-
 ---
 
 <FeatureCards :features="[
@@ -80,14 +79,14 @@ hero:
     }
   },
   {
-    title: '阿联酋公司银行优势',
+    title: '阿联酋企业银行优势',
     items: [
-      '穆迪**Aa2**评级的强大银行系统',
+      '穆迪**Aa2**评级的强大银行体系',
       '**自1980年起固定美元汇率**',
       '资本流动无限制',
       '外汇储备超过1840亿美元',
       '政治和经济稳定',
-      '政府支持的银行系统',
+      '政府支持的银行体系',
       '世界级数字银行服务'
     ],
     linkText: 'Read More',
@@ -110,22 +109,22 @@ hero:
   {
     icon: '🏆',
     title: '高风险专业知识',
-    text: '专门处理来自高风险司法管辖区的复杂案例。深入理解增强型尽职调查 (EDD) 要求。'
+    text: '专门处理来自高风险司法管辖区的复杂案例。深入了解增强型尽职调查(EDD)要求。'
   },
   {
     icon: '💰',
-    title: '成功付费制',
+    title: '成功付费模式',
     text: '零预付费用 - **仅在获批后付费。** 签证成功率98%，银行开户成功率90%。'
   },
   {
     icon: '🏦',
-    title: '银行关系网络',
-    text: '与阿联酋主要银行建立稳固合作伙伴关系。多重银行选择以最大化审批通过机会。'
+    title: '银行合作关系',
+    text: '与阿联酋主要银行建立稳固合作伙伴关系。多重银行选择以最大化批准机会。'
   },
   {
     icon: '📊',
     title: '全面合规支持',
-    text: '为 ESR 报告、UBO 申报和监管要求提供专业指导。定期合规更新。'
+    text: '为ESR报告、UBO申报和监管要求提供专业指导。定期合规更新。'
   },
   {
     icon: '📝',
@@ -145,8 +144,17 @@ hero:
   <source src="/video/iStock-2185918790.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Banking [offer]" buttonText="获取免费咨询" :services="[
- '🏢 UAE Resident Corporate Account',
- '🌐 Non-UAE Resident Corporate Account (Low Risk)',
- '⚠️ Non-UAE Resident Corporate Account (High Risk)',
- '👤 Personal Bank Account']"/>
+<ContactFormModal 
+  formName="Banking [offer]" 
+  buttonText="获取免费咨询" 
+  categoryLabel="所需支持级别：*" 
+  categoryPlaceholderText="选择您的支持级别"
+  messageLabel="帮助我们为您的咨询做准备（建议填写）"
+  messagePlaceholderText="请告诉我们您的业务类型、运营管辖区、预期交易量以及任何特定的银行需求（多币种、贸易融资等）"
+  :services="[
+  '基础 — 仅提供基本文件和开户咨询',
+  '标准 — 完整文件指导及全程银行开户服务',
+  '全面 — 全方位银行设置服务，最大程度减少您的参与',
+  '定制 — 需要讨论大额交易或多管辖区结构',
+  ]"
+/>

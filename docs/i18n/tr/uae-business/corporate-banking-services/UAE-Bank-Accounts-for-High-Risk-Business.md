@@ -1,6 +1,6 @@
 ---
 title: "Yüksek Riskli İşletmeler için BAE Banka Hesapları"
-description: "2024'te yüksek riskli işletmeler için BAE banka hesaplarının nasıl açılacağını ve korunacağını öğrenin. Uyumluluk gereksinimleri, risk azaltma ve hesap dondurmalarını önleme konusunda uzman rehber."
+description: "2024'te yüksek riskli işletmeler için BAE banka hesaplarının nasıl açılacağını ve korunacağını öğrenin. Uyumluluk gereksinimleri, risk azaltma ve hesap dondurmaları önleme konusunda uzman rehber."
 ---
 
 # Yüksek riskli işletmeler için BAE banka hesapları
@@ -9,11 +9,11 @@ description: "2024'te yüksek riskli işletmeler için BAE banka hesaplarının 
 
 BAE, elverişli vergi politikaları, dinamik bir finans merkezine erişim ve yenilikçiliği destekleyen düzenleyici ortam ile birlikte sıkı uyum standartlarını koruyarak yüksek riskli işletmeler (örn. kripto para şirketleri, ödeme hizmetleri, offshore yapılar) için önemli fırsatlar sunmaktadır. Bu rehber, [BAE'nin 2024-2027 Ulusal Stratejisi](https://www.mofa.gov.ae/en/mediahub/news/2024/9/5/5-9-2024-uae-uae) kapsamındaki geliştirilmiş AML/CFT gerekliliklerini anlamanıza yardımcı olur.
 
-![BAE Bankacılık Temel Metrikleri 2024](/content/uae-banking-stats.svg)
+![BAE Bankacılık Temel Göstergeleri 2024](/content/uae-banking-stats.svg)
 
 ## Düzenleyici Çerçeveyi Anlamak
 
-BAE mevzuatındaki son değişiklikler, uyum gerekliliklerini güçlendirerek yüksek riskli işletmeleri daha sıkı dokümantasyon, geliştirilmiş durum tespiti ve artırılmış izleme yükümlülükleri getirerek önemli ölçüde etkilemiştir:
+BAE mevzuatındaki son değişiklikler, yüksek riskli işletmelere daha sıkı belgelendirme, gelişmiş durum tespiti ve artırılmış izleme yükümlülükleri getirerek uyum gerekliliklerini güçlendirdi:
 
 - **[Federal Law No. 20 (2018)](https://rulebook.centralbank.ae/en/rulebook/decree-federal-law-no-20-2018-anti-money-laundering-and-combating-financing-terrorism-and)**, 2024'te güncellendi
 - **[Cabinet Resolution No. 10 (2019)](https://uaelegislation.gov.ae/en/legislations/1015/download)**
@@ -33,7 +33,7 @@ BAE mevzuatındaki son değişiklikler, uyum gerekliliklerini güçlendirerek y�
 - Lisansın BAE düzenlemeleriyle uyumluluğunun sağlanması
 - Bankanın ilgisini ölçmek için ön onay taleplerinin sunulması
 
-## 2. Geliştirilmiş Müşteri Durum Tespiti (EDD) Belgelendirmesi
+## 2. Gelişmiş Durum Tespiti (EDD) Belgelendirmesi
 
 ### Gerekli Belgeler:
 
@@ -63,7 +63,7 @@ Bankalar şüpheli faaliyetleri goAML platformu üzerinden Mali İstihbarat Biri
 - Düzenli uyum güncellemeleri sağlayın
 - Düzenleyici değişiklikleri sürekli takip edin
 
-## 5. Uyum Bakımı
+## 5. Uyum Sürdürme
 
 ### Temel Gereksinimler:
 
@@ -83,24 +83,23 @@ Bankalar şüpheli faaliyetleri goAML platformu üzerinden Mali İstihbarat Biri
 
 ## Cezalar ve Yaptırımlar
 
-- 1 milyon AED'ye kadar para cezası (\$272,000)
+- 1 milyon AED'ye kadar (\$272.000) para cezası
 - Hesap dondurma ve lisans askıya alma
 - Ciddi ihlaller için cezai yaptırımlar
-- 2024'ten bu yana hesap bloklarında %15 artış
+- 2024'ten bu yana hesap blokelerinde %15 artış
 
 ![BAE Bankacılık Cezaları ve Yaptırımları](/content/penalties-enforcement.svg)
 
 ## Başarı Örnekleri
 
 - Bir kripto para sağlayıcısı, faydalanıcı sahiplerinin detaylı doğrulaması ve fon kaynaklarının şeffaf raporlanması dahil olmak üzere sağlam KYC/AML önlemleri uygulayarak başarılı bir şekilde hesap açtı. Bu, bankanın başlangıçtaki tereddütlerine rağmen onay almasına yardımcı oldu.
-
-- Bir finansal hizmetler şirketi, yüksek değerli işlemler hakkında banka ile düzenli iletişim ve düzenleyici uyumu sağlamak için güncel uyum belgelerinin zamanında sunulması dahil olmak üzere proaktif işlem izleme yoluyla hesap dondurmalarından kaçındı.
+- Bir finansal hizmetler şirketi, yüksek değerli işlemler hakkında banka ile düzenli iletişim ve düzenleyici uyumu sağlamak için güncellenmiş uyum belgelerinin zamanında sunulması dahil olmak üzere proaktif işlem izleme yoluyla hesap dondurmalarından kaçındı.
 
 ## Profesyonel Destek
 
-BAE'de banka hesabı yönetimi ve uyum konularında kapsamlı destek için aşağıdakileri değerlendirin:
+BAE banka hesabı yönetimi ve uyum konularında kapsamlı destek için aşağıdaki hizmetlerimizi değerlendirin:
 
-- Belge hazırlığı
+- Belge hazırlama
 - İşlem takibi
 - Yasal uyum
 - Risk yönetimi danışmanlığı
@@ -119,34 +118,22 @@ BAE'de banka hesabı yönetimi ve uyum konularında kapsamlı destek için aşa�
 
 ### BAE'de yüksek riskli işletme hesapları için gerekli kritik düzenleyici belgeler nelerdir?
 
-- Yüksek riskli işletmeler, kapsamlı kurumsal belgeler, 12 aylık mali tablolar, UBO belgeleri, fon kaynağı doğrulaması ve uyum politikaları sağlamalıdır. Gelişmiş durum tespiti gereksinimleri standarttır. Daha fazla bilgi için [Federal Law No. 20 (2018)](https://rulebook.centralbank.ae/en/rulebook/decree-federal-law-no-20-2018-anti-money-laundering-and-combating-financing-terrorism-and) adresine bakın.
+- Yüksek riskli işletmeler, kapsamlı kurumsal belgeler, 12 aylık mali tablolar, UBO belgeleri, fon kaynağı doğrulaması ve uyum politikaları sağlamalıdır. Gelişmiş durum tespiti gereklilikleri standarttır. Daha fazla bilgi için [Federal Kanun No. 20 (2018)](https://rulebook.centralbank.ae/en/rulebook/decree-federal-law-no-20-2018-anti-money-laundering-and-combating-financing-terrorism-and)'e bakınız.
 
 ### BAE'de hangi bankalar yüksek riskli müşterilerle çalışmaya daha yatkındır?
 
-- Mashreq Bank ve RAKBank gibi bankalar, belirli yüksek riskli müşterilerle çalışma konusunda isteklilik göstermiştir, ancak kabul büyük ölçüde müşterinin özel risk profiline ve uyum hazırlığına bağlıdır. Bankaların resmi web sitelerindeki banka özel politikalarını incelemek veya doğrudan rehberlik için onlarla iletişime geçmek tavsiye edilir.
+- Mashreq Bank ve RAKBank gibi bankalar, belirli yüksek riskli müşterilerle çalışma konusunda isteklilik göstermiştir, ancak kabul büyük ölçüde müşterinin spesifik risk profiline ve uyum hazırlığına bağlıdır. Bankaların resmi web sitelerindeki banka özel politikalarını incelemek veya doğrudan rehberlik için onlarla iletişime geçmek tavsiye edilir.
 
 ### Yüksek riskli işletmeler hesap dondurma riskini nasıl azaltabilir?
 
-- Yüksek riskli işletmeler, bankalarıyla proaktif iletişim kurmalı, [AML/CFT gereklilikleri](https://www.centralbank.ae/en/our-operations/anti-money-laundering-aml/) ile tam uyumu sağlamalı, belge güncellemelerini zamanında yapmalı ve öngörülebilir, belgelenmiş işlemler oluşturmalıdır.
+- Yüksek riskli işletmeler, bankalarıyla proaktif iletişim kurmalı, [AML/CFT gereklilikleri](https://www.centralbank.ae/en/our-operations/anti-money-laundering-aml/)ne tam uyum sağlamalı, belge güncellemelerini zamanında yapmalı ve öngörülebilir, belgelenmiş işlemler oluşturmalıdır.
 
 ### BAE'de yüksek riskli işletmeler uyumsuzluk durumunda hangi cezalarla karşılaşabilir?
 
-- Cezalar arasında 1 milyon AED'ye kadar para cezaları, hesap dondurma, lisans askıya alma ve ciddi ihlaller için potansiyel cezai yaptırımlar bulunmaktadır. Detaylı ceza kılavuzları için [Cabinet Resolution No. 10 (2019)](https://uaelegislation.gov.ae/en/legislations/1015/download) adresine bakın.
+- Cezalar arasında 1 milyon AED'ye kadar para cezaları, hesap dondurma, lisans askıya alma ve ciddi ihlaller için potansiyel cezai yaptırımlar bulunmaktadır. Detaylı ceza kılavuzları için [Kabine Kararı No. 10 (2019)](https://uaelegislation.gov.ae/en/legislations/1015/download)'a bakınız.
 
 ### BAE AML/CFT düzenlemelerine uymak için hangi adımlar önerilir?
 
 - Temel adımlar arasında özel bir uyum görevlisi atamak, düzenli iç denetimler yapmak, belgeleri yıllık olarak güncellemek ve personelin [AML/CFT prosedürleri](https://rulebook.centralbank.ae/en/rulebook/cabinet-decision-58-2020-beneficial-owner-procedures) konusunda eğitilmesini sağlamak yer alır.
 
 [![UAE Immigration: Key Differences](/content/uae-immigration.svg)](../company-registration/benefits-problems.md)
-
-## Kurumsal bankacılık ihtiyaçlarınızı görüşmek için ücretsiz danışmanlık alın
-
-<video  autoplay muted playsinline style="margin-top: 2rem" >
-  <source src="/img/iStock-2185912341.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal formName="Banking [high-risk]" buttonText="Ücretsiz danışmanlık alın" :services="[
- '🏢 UAE Resident Corporate Account',
- '🌐 Non-UAE Resident Corporate Account (Low Risk)',
- '⚠️ Non-UAE Resident Corporate Account (High Risk)',
- '👤 Personal Bank Account']"/>

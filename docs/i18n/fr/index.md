@@ -1,21 +1,21 @@
 ---
 layout: home
 title: "Services de Formation d'Entreprise aux EAU"
-description: "Services experts de formation et de support d'entreprise aux EAU. Configuration d'entreprise, services bancaires, fiscaux, juridiques et solutions de visa. Réalisation de vos rêves d'entreprise."
+description: "Services experts de formation et de support d'entreprise aux EAU. Configuration d'entreprise, services bancaires, fiscalité, solutions juridiques et visas. Réalisation de vos rêves d'entreprise."
 showSponsors: false
 
 hero:
-  name: "EAU : Votre Havre Financier Sûr"
+  name: "EAU : Votre Havre Financier"
   # text: We speak your tongue
-  tagline: "Support Commercial Complet : Services Bancaires, Configuration d'Entreprise, Visas. Zéro frais initiaux – paiement uniquement après approbation."
+  tagline: "Support Commercial Complet : Services Bancaires, Configuration d'Entreprise, Visas. Zéro frais initial – paiement uniquement après approbation."
 
   actions:
     - theme: brand
       text: Get Free Consultation
-      link: ./chat
-    - theme: alt
-      text: Support 24/7
       link: ./resources/contacts
+    # - theme: alt
+    #   text: Support 24/7
+    #   link: ./resources/contacts
   image:
     light:
       src: /img/Logo.avif
@@ -27,38 +27,6 @@ hero:
 ---
 
 <FeatureCards :features="[
-  {
-    title: 'Ouverture de Compte Bancaire',
-    details: 'Ouvrez facilement des comptes bancaires professionnels ou personnels auprès des banques de confiance des EAU.',
-    items: [
-      'Approbations garanties pour les comptes bancaires d\'entreprise',
-      'Taux de réussite de 90%',
-      '**Zéro frais initiaux** - paiement uniquement après approbation',
-    ],
-    linkText: 'Read More',
-    link: './uae-business/offer/banking/',
-    icon: {
-      light: '/img/iStock-2153786564.avif',
-      dark: '/img/iStock-2166793628.avif',
-      alt: 'Services Bancaires'
-    }
-  },
-  {
-    title: 'Golden Visa & Résidence',
-    details: 'Obtenez un **Golden Visa** des EAU pour une résidence à long terme avec un processus de demande simplifié.',
-    items: [
-      '**Pas besoin d\'entrer aux EAU tous les 6 mois**',
-      'Taux de réussite de 98%',
-      '**Zéro frais initiaux** - paiement uniquement après approbation',
-    ],
-    linkText: 'Read More',
-    link: './uae-business/offer/golden-visa/',
-    icon: {
-      light: '/img/iStock-1312241253.avif',
-      dark: '/img/ILONMASKID.webp',
-      alt: 'Services de Visa'
-    }
-  },
   {
     title: 'Guide de Création d\'Entreprise',
     details: 'Guide complet pour créer des entreprises en Free Zone, offshore, Mainland, succursale.',
@@ -72,7 +40,39 @@ hero:
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
-      alt: 'Guide de Création d\'Entreprise'
+      alt: 'Guide de création d\'entreprise'
+    }
+  },
+  {
+    title: 'Ouverture de Compte Bancaire',
+    details: 'Ouvrez facilement des comptes bancaires professionnels ou personnels auprès des banques de confiance des EAU.',
+    items: [
+      'Approbations garanties pour les comptes bancaires d\'entreprise',
+      'Taux de réussite de 90%',
+      '**Zéro frais initial** - paiement uniquement après approbation',
+    ],
+    linkText: 'Read More',
+    link: './uae-business/offer/banking/',
+    icon: {
+      light: '/img/iStock-2153786564.avif',
+      dark: '/img/iStock-2166793628.avif',
+      alt: 'Services bancaires'
+    }
+  },
+  {
+    title: 'Golden Visa et Résidence',
+    details: 'Obtenez un **Golden Visa** des EAU pour une résidence à long terme avec un processus de demande simplifié.',
+    items: [
+      '**Pas besoin d\'entrer aux EAU tous les 6 mois**',
+      'Taux de réussite de 98%',
+      '**Zéro frais initial** - paiement uniquement après approbation',
+    ],
+    linkText: 'Read More',
+    link: './uae-business/offer/golden-visa/',
+    icon: {
+      light: '/img/iStock-1312241253.avif',
+      dark: '/img/ILONMASKID.webp',
+      alt: 'Services de visa'
     }
   },
 ]" />
@@ -87,11 +87,11 @@ hero:
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
-      alt: 'Services de Conformité'
+      alt: 'Services de conformité'
     }
   },
   {
-    title: 'Impôt sur les Sociétés & TVA',
+    title: 'Impôt sur les Sociétés et TVA',
     details: 'Conseils d\'experts pour assurer la conformité aux obligations d\'impôt sur les sociétés et de TVA auprès de l\'Autorité Fiscale Fédérale (FTA).',
     items: [],
     linkText: 'Read More',
@@ -99,7 +99,7 @@ hero:
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
-      alt: 'Services Fiscaux'
+      alt: 'Services fiscaux'
     }
   },
   {
@@ -111,21 +111,21 @@ hero:
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
-      alt: 'Services Juridiques'
+      alt: 'Services juridiques'
     }
   },
   {
-    title: 'Comptabilité & Paie',
-    details: 'Nos comptables gèrent les finances, assurant la tenue des comptes, le rapprochement, la paie et le support d\'audit, économisant les coûts de recrutement.',
+    title: 'Comptabilité et Paie',
+    details: 'Nos comptables gèrent les finances, assurant la comptabilité, le rapprochement, la paie et le support d\'audit, économisant les coûts de recrutement.',
     items: [],
     linkText: 'Read More',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',
-      alt: 'Services Comptables'
+      alt: 'Services comptables'
     }
-  }
+  },
 ]" />
 
 ## Pourquoi Choisir Golden Fish
@@ -163,7 +163,7 @@ hero:
 }
 ]" />
 
-## Commencez Maintenant - Consultation Initiale Gratuite
+<!-- ## Commencez Maintenant - Consultation Initiale Gratuite
 
 <div id="contact-form"></div>
 
@@ -171,8 +171,8 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Page d'accueil" buttonText="Obtenir une consultation gratuite" 
-:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/>
+<ContactFormModal formName="Home page" buttonText="Obtenir une consultation gratuite"
+:services="['📝 Enregistrement d\'entreprise', '🏧 Ouverture de comptes bancaires', '🪪 EID & Golden Visa', 'Autres Services']"/> -->
 
 <!-- <br>
 
@@ -181,6 +181,6 @@ hero:
 <br>
 
 <ImageGrid :images="[
-  { src: '/img/iStock-1945498989.avif', href: './immigration.md', alt: 'Immigration aux EAU' },
-  { src: '/img/iStock-1965736217.avif', href: './immigration.md', alt: 'Immigration aux EAU' },
+  { src: '/img/iStock-1945498989.avif', href: './immigration.md', alt: 'Immigration UAE' },
+  { src: '/img/iStock-1965736217.avif', href: './immigration.md', alt: 'Immigration UAE' },
 ]"/> -->

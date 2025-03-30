@@ -1,21 +1,18 @@
 ---
 layout: home
 title: "متحدہ عرب امارات میں کمپنی کی تشکیل کی خدمات"
-description: "متحدہ عرب امارات میں ماہرانہ کمپنی کی تشکیل اور معاونت کی خدمات۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔ آپ کے کاروباری خوابوں کو حقیقت بنانا۔"
+description: "ماہرانہ متحدہ عرب امارات کمپنی کی تشکیل اور معاونت کی خدمات۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔ آپ کے کاروباری خوابوں کو حقیقت بنانا۔"
 showSponsors: false
 
 hero:
   name: "متحدہ عرب امارات: آپ کی مالی محفوظ پناہ گاہ"
-  # text: We speak your tongue
-  tagline: "مکمل کاروباری معاونت: بینکنگ، کمپنی سیٹ اپ، ویزا۔ کوئی پیشگی فیس نہیں - صرف منظوری کے بعد ادائیگی۔"
+  tagline: "مکمل کاروباری معاونت: بینکنگ، کمپنی سیٹ اپ، ویزا۔ کوئی ابتدائی فیس نہیں - صرف منظوری کے بعد ادائیگی کریں۔"
 
   actions:
     - theme: brand
-      text: مفت مشاورت حاصل کریں
-      link: ./chat
-    - theme: alt
-      text: 24/7 معاونت
+      text: Get Free Consultation
       link: ./resources/contacts
+
   image:
     light:
       src: /img/Logo.avif
@@ -24,19 +21,34 @@ hero:
       src: /img/Logo.avif
       width: 50%
     alt: Golden Fish لوگو
-
 ---
 
 <FeatureCards :features="[
+  {
+    title: 'کمپنی سیٹ اپ گائیڈ',
+    details: 'Free Zone، آف شور، مین لینڈ، برانچ میں کمپنیاں قائم کرنے کی مکمل گائیڈ۔',
+    items: [
+      'Free Zones اور Mainland میں **100% غیر ملکی ملکیت** دستیاب',
+      'کم ٹیکس شرح - صرف 9% کارپوریٹ ٹیکس',
+      'کرنسی کنٹرول نہیں - آسان سرمایہ واپسی'
+    ],
+    linkText: 'Read More',
+    link: './uae-business/company-registration/overview',
+    icon: {
+      light: '/img/iStock-2051326997.avif',
+      dark: '/img/iStock-1448478309.jpg',
+      alt: 'کمپنی سیٹ اپ گائیڈ'
+    }
+  },
   {
     title: 'بینک اکاؤنٹ کھولنا',
     details: 'متحدہ عرب امارات کے قابل اعتماد بینکوں کے ساتھ آسانی سے کاروباری یا ذاتی بینک اکاؤنٹس کھولیں۔',
     items: [
       'کارپوریٹ بینک اکاؤنٹ کی ضمانت شدہ منظوری',
       '90% کامیابی کی شرح',
-      '**کوئی پیشگی فیس نہیں** - صرف منظوری کے بعد ادائیگی',
+      '**کوئی ابتدائی فیس نہیں** - صرف منظوری کے بعد ادائیگی کریں',
     ],
-    linkText: 'مزید پڑھیں',
+    linkText: 'Read More',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -48,11 +60,11 @@ hero:
     title: 'Golden Visa اور رہائش',
     details: 'آسان درخواست کے عمل کے ساتھ طویل مدتی رہائش کے لیے متحدہ عرب امارات کا **Golden Visa** حاصل کریں۔',
     items: [
-      '**ہر 6 ماہ بعد UAE میں داخل ہونے کی ضرورت نہیں**',
+      '**ہر 6 ماہ بعد متحدہ عرب امارات میں داخل ہونے کی ضرورت نہیں**',
       '98% کامیابی کی شرح',
-      '**کوئی پیشگی فیس نہیں** - صرف منظوری کے بعد ادائیگی',
+      '**کوئی ابتدائی فیس نہیں** - صرف منظوری کے بعد ادائیگی کریں',
     ],
-    linkText: 'مزید پڑھیں',
+    linkText: 'Read More',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -60,30 +72,14 @@ hero:
       alt: 'ویزا خدمات'
     }
   },
-  {
-    title: 'کمپنی سیٹ اپ گائیڈ',
-    details: 'Free Zone، آف شور، Mainland، برانچ میں کمپنیاں قائم کرنے کی مکمل گائیڈ۔',
-    items: [
-      'Free Zones اور Mainland میں **100% غیر ملکی ملکیت** دستیاب ہے',
-      'کم ٹیکس شرح - صرف 9% کارپوریٹ ٹیکس',
-      'کرنسی کنٹرول نہیں - آسان سرمایہ واپسی',
-    ],
-    linkText: 'مزید پڑھیں',
-    link: './uae-business/company-registration/overview',
-    icon: {
-      light: '/img/iStock-2051326997.avif',
-      dark: '/img/iStock-1448478309.jpg',
-      alt: 'کمپنی سیٹ اپ گائیڈ'
-    }
-  },
 ]" />
 
 <FeatureCards :features="[
   {
     title: 'تعمیل کی خدمات',
-    details: 'ہمارے ماہرین آپ کو ESR رپورٹس اور UBO فائلنگز سمیت UAE کے پیچیدہ ریگولیٹری تقاضوں میں رہنمائی کرتے ہیں۔',
+    details: 'ہمارے ماہرین آپ کو ESR رپورٹس اور UBO فائلنگز سمیت متحدہ عرب امارات کے پیچیدہ ریگولیٹری تقاضوں میں رہنمائی کرتے ہیں۔',
     items: [],
-    linkText: 'مزید پڑھیں',
+    linkText: 'Read More',
     link: './uae-business/company-registration/ubo',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -95,7 +91,7 @@ hero:
     title: 'کارپوریٹ ٹیکس اور VAT',
     details: 'فیڈرل ٹیکس اتھارٹی (FTA) کے ساتھ کارپوریٹ ٹیکس اور VAT کی ذمہ داریوں کی تعمیل کو یقینی بنانے کے لیے ماہرانہ مشورہ۔',
     items: [],
-    linkText: 'مزید پڑھیں',
+    linkText: 'Read More',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -105,9 +101,9 @@ hero:
   },
   {
     title: 'قانونی خدمات',
-    details: 'قانونی ٹیم M&As، کارپوریٹ ری سٹرکچرنگ، فنانسنگ، اور تنازعات کے حل کے بارے میں UAE کے قوانین پر مشورہ دیتی ہے۔',
+    details: 'قانونی ٹیم M&As، کارپوریٹ ری سٹرکچرنگ، فنانسنگ، اور تنازعات کے حل کے بارے میں متحدہ عرب امارات کے قوانین پر مشورہ دیتی ہے۔',
     items: [],
-    linkText: 'مزید پڑھیں',
+    linkText: 'Read More',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -117,16 +113,16 @@ hero:
   },
   {
     title: 'اکاؤنٹنگ اور پے رول',
-    details: 'ہمارے اکاؤنٹنٹس مالیات کا انتظام کرتے ہیں، بک کیپنگ، مطابقت، پے رول، اور آڈٹ سپورٹ فراہم کرتے ہیں، بھرتی کی لاگت کو بچاتے ہیں۔',
+    details: 'ہمارے اکاؤنٹنٹس بک کیپنگ، مطابقت پذیری، پے رول، اور آڈٹ سپورٹ فراہم کرتے ہوئے مالیات کا انتظام کرتے ہیں، جس سے بھرتی کی لاگت بچتی ہے۔',
     items: [],
-    linkText: 'مزید پڑھیں',
+    linkText: 'Read More',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',
       alt: 'اکاؤنٹنگ خدمات'
     }
-  },
+  }
 ]" />
 
 ## Golden Fish کو کیوں چنیں
@@ -135,7 +131,7 @@ hero:
 {
  icon: '💰',
  title: 'کامیابی پر مبنی فیس',
- text: '**کوئی پیشگی فیس نہیں - صرف منظوری کے بعد ادائیگی کریں۔** مکمل شفافیت کے ساتھ کوئی چھپی ہوئی لاگت نہیں۔'
+ text: '**کوئی ادائیگی پیشگی نہیں - صرف منظوری کے بعد ادائیگی کریں۔** مکمل شفافیت، کوئی چھپی ہوئی لاگت نہیں۔'
 },
 {
  icon: '🔄',
@@ -155,7 +151,7 @@ hero:
 {
  icon: '📝',
  title: 'پیشہ ورانہ دستاویزات',
- text: 'ہماری ٹیم جامع بزنس پلان تیار کرتی ہے اور تمام تعمیل دستاویزات کو سنبھالتی ہے۔'
+ text: 'ہماری ٹیم جامع کاروباری منصوبے تیار کرتی ہے اور تمام تعمیل کی دستاویزات کو سنبھالتی ہے۔'
 },
 {
  icon: '🤝',
@@ -164,7 +160,7 @@ hero:
 }
 ]" />
 
-## ابھی شروع کریں - مفت ابتدائی مشاورت
+<!-- ## Get Started Now - Free Initial Consultation
 
 <div id="contact-form"></div>
 
@@ -172,12 +168,12 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Home page" buttonText="مفت مشاورت حاصل کریں" 
-:services="['📝 Company registration', '🏧 بینک اکاؤنٹس کھولنا', '🪪 EID & Golden Visa', 'دیگر خدمات']"/>
+<ContactFormModal formName="Home page" buttonText="Get a free consultation"
+:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/> -->
 
 <!-- <br>
 
-# کامیابی کی کہانیاں
+# Success Stories
 
 <br>
 

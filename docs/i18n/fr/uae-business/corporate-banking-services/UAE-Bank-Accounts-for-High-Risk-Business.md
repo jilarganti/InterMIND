@@ -1,6 +1,6 @@
 ---
-title: "Comptes bancaires aux EAU pour entreprises à haut risque"
-description: "Découvrez comment ouvrir et protéger des comptes bancaires aux EAU pour les entreprises à haut risque. Guide expert sur les exigences de conformité, l'atténuation des risques et la prévention du gel des comptes en 2024."
+title: "Comptes Bancaires aux EAU pour Entreprises à Haut Risque"
+description: "Découvrez comment ouvrir et protéger des comptes bancaires aux EAU pour entreprises à haut risque. Guide expert sur les exigences de conformité, l'atténuation des risques et la prévention du gel des comptes en 2024."
 ---
 
 # Comptes bancaires aux EAU pour entreprises à haut risque
@@ -45,7 +45,7 @@ Les récents changements dans la législation des UAE ont renforcé les exigence
 
 ## 3. Surveillance des Transactions et Gestion des Risques
 
-Les banques doivent signaler les activités suspectes à la Financial Intelligence Unit (FIU) via la plateforme goAML.
+Les banques doivent signaler les activités suspectes à l'Unité de Renseignement Financier (FIU) via la plateforme goAML.
 
 ### Étapes de Mitigation des Risques :
 
@@ -54,7 +54,7 @@ Les banques doivent signaler les activités suspectes à la Financial Intelligen
 - Maintenir une surveillance des transactions en temps réel
 - Prénotifier les banques des transactions importantes
 
-## 4. Gestion Active des Comptes
+## 4. Gestion Active du Compte
 
 ### Meilleures Pratiques :
 
@@ -81,23 +81,23 @@ Les banques doivent signaler les activités suspectes à la Financial Intelligen
 - Préparation de la documentation pour les défis potentiels
 - Protocoles de communication clairs avec les partenaires bancaires
 
-## Sanctions et Application
+## Pénalités et Application
 
-- Amendes jusqu'à 1 million d'AED (272 000 \$)
+- Amendes jusqu'à 1 million AED (272 000 \$)
 - Gel des comptes et suspension des licences
-- Sanctions pénales pour les infractions graves
+- Sanctions pénales pour les violations graves
 - Augmentation de 15% des blocages de comptes depuis 2024
 
-![Sanctions et Application Bancaires aux EAU](/content/penalties-enforcement.svg)
+![Pénalités et Application Bancaires aux EAU](/content/penalties-enforcement.svg)
 
 ## Cas de Réussite
 
-- Un fournisseur de cryptomonnaies a réussi à ouvrir des comptes en mettant en œuvre des mesures KYC/AML robustes, notamment une vérification détaillée des bénéficiaires effectifs et un reporting transparent de l'origine des fonds. Cela a permis d'obtenir l'approbation bancaire malgré les hésitations initiales.
+- Un fournisseur de cryptomonnaies a réussi à ouvrir des comptes en mettant en œuvre des mesures KYC/AML robustes, notamment une vérification détaillée des bénéficiaires effectifs et un reporting transparent de l'origine des fonds. Cela a permis d'obtenir l'approbation de la banque malgré les hésitations initiales.
 - Une société de services financiers a évité le gel des comptes grâce à une surveillance proactive des transactions, incluant une communication régulière avec la banque concernant les transactions de grande valeur et la soumission en temps opportun des documents de conformité mis à jour pour assurer l'alignement réglementaire.
 
 ## Assistance Professionnelle
 
-Pour un soutien complet dans la gestion des comptes bancaires et la conformité aux EAU, considérez les éléments suivants :
+Pour un soutien complet dans la gestion des comptes bancaires aux UAE et la conformité, considérez les éléments suivants :
 
 - Préparation des documents
 - Surveillance des transactions
@@ -107,45 +107,33 @@ Pour un soutien complet dans la gestion des comptes bancaires et la conformité 
 ## Ressources Juridiques
 
 - [Ministère de la Justice](https://www.moj.gov.ae)
-- [Unité de Renseignement Financier des EAU](https://www.uaefiu.gov.ae)
+- [Unité de Renseignement Financier des UAE](https://www.uaefiu.gov.ae)
 - [Plateforme goAML](https://goaml.ae)
-- [Directives AML/CFT de la Banque Centrale des EAU](https://www.centralbank.ae/en/our-operations/anti-money-laundering-aml/)
+- [Directives AML/CFT de la Banque Centrale des UAE](https://www.centralbank.ae/en/our-operations/anti-money-laundering-aml/)
 
 > [!IMPORTANT] 💜 Besoin de conseils d'experts ?
-> [Contactez nos experts bancaires](../../resources/contacts) pour assurer la conformité et éviter le gel des comptes dans le paysage réglementaire en évolution des EAU.
+> [Contactez nos experts bancaires](../../resources/contacts) pour assurer la conformité et éviter le gel des comptes dans le paysage réglementaire évolutif des UAE.
 
 ## FAQ pour Avocats Professionnels
 
 ### Quels sont les documents réglementaires essentiels requis pour les comptes d'entreprises à haut risque aux EAU ?
 
-- Les entreprises à haut risque doivent fournir des documents d'entreprise complets, des états financiers sur 12 mois, la documentation UBO, la vérification de l'origine des fonds et les politiques de conformité. Les exigences de vigilance renforcée sont standard. Pour plus de détails, consultez [Federal Law No. 20 (2018)](https://rulebook.centralbank.ae/en/rulebook/decree-federal-law-no-20-2018-anti-money-laundering-and-combating-financing-terrorism-and).
+- Les entreprises à haut risque doivent fournir des documents d'entreprise complets, des états financiers sur 12 mois, la documentation UBO, la vérification de l'origine des fonds et les politiques de conformité. Les exigences de vigilance renforcée sont standard. Pour plus de détails, consultez la [Federal Law No. 20 (2018)](https://rulebook.centralbank.ae/en/rulebook/decree-federal-law-no-20-2018-anti-money-laundering-and-combating-financing-terrorism-and).
 
 ### Quelles banques aux EAU sont plus enclines à travailler avec des clients à haut risque ?
 
-- Des banques comme Mashreq Bank et RAKBank ont démontré leur volonté de travailler avec certains clients à haut risque, bien que l'acceptation dépende fortement du profil de risque spécifique du client et de sa préparation à la conformité. Il est conseillé de consulter les politiques spécifiques des banques sur leurs sites officiels ou de les contacter directement pour obtenir des conseils.
+- Des banques comme Mashreq Bank et RAKBank ont démontré leur volonté de travailler avec certains clients à haut risque, bien que l'acceptation dépende fortement du profil de risque spécifique du client et de sa préparation en matière de conformité. Il est conseillé de consulter les politiques spécifiques des banques sur leurs sites officiels ou de les contacter directement pour obtenir des conseils.
 
 ### Comment les entreprises à haut risque peuvent-elles atténuer le risque de gel des comptes ?
 
-- Les entreprises à haut risque doivent maintenir une communication proactive avec leur banque, assurer une conformité complète aux exigences [AML/CFT](https://www.centralbank.ae/en/our-operations/anti-money-laundering-aml/), fournir des mises à jour de documentation en temps opportun et établir des transactions prévisibles et documentées.
+- Les entreprises à haut risque doivent maintenir une communication proactive avec leur banque, assurer une conformité complète aux [exigences AML/CFT](https://www.centralbank.ae/en/our-operations/anti-money-laundering-aml/), fournir des mises à jour de documentation en temps opportun et établir des transactions prévisibles et documentées.
 
 ### Quelles sanctions les entreprises à haut risque peuvent-elles encourir en cas de non-conformité aux EAU ?
 
-- Les sanctions comprennent des amendes allant jusqu'à 1 million d'AED, le gel des comptes, la suspension des licences et potentiellement des sanctions pénales pour les violations graves. Pour les directives détaillées sur les sanctions, consultez [Cabinet Resolution No. 10 (2019)](https://uaelegislation.gov.ae/en/legislations/1015/download).
+- Les sanctions comprennent des amendes allant jusqu'à 1 million d'AED, le gel des comptes, la suspension des licences et potentiellement des sanctions pénales pour les violations graves. Pour les directives détaillées sur les sanctions, consultez la [Cabinet Resolution No. 10 (2019)](https://uaelegislation.gov.ae/en/legislations/1015/download).
 
 ### Quelles sont les étapes recommandées pour se conformer aux réglementations AML/CFT des EAU ?
 
 - Les étapes clés comprennent la nomination d'un responsable de la conformité dédié, la réalisation d'audits internes réguliers, la mise à jour annuelle de la documentation et la formation du personnel aux [procédures AML/CFT](https://rulebook.centralbank.ae/en/rulebook/cabinet-decision-58-2020-beneficial-owner-procedures).
 
 [![Immigration aux EAU : Différences Clés](/content/uae-immigration.svg)](../company-registration/benefits-problems.md)
-
-## Réservez une consultation gratuite pour discuter de vos besoins en matière de services bancaires aux entreprises
-
-<video  autoplay muted playsinline style="margin-top: 2rem" >
-  <source src="/img/iStock-2185912341.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal formName="Banking [high-risk]" buttonText="Obtenir une consultation gratuite" :services="[
- '🏢 Compte d\'entreprise pour résident aux EAU',
- '🌐 Compte d\'entreprise pour non-résident aux EAU (Faible risque)',
- '⚠️ Compte d\'entreprise pour non-résident aux EAU (Haut risque)',
- '👤 Compte bancaire personnel']"/>

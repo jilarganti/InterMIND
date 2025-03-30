@@ -1,9 +1,9 @@
 ---
-title: "Rekening Bank UEA untuk Bisnis Berisiko Tinggi"
-description: "Pelajari cara membuka dan melindungi rekening bank UEA untuk bisnis berisiko tinggi. Panduan ahli tentang persyaratan kepatuhan, mitigasi risiko, dan pencegahan pembekuan rekening di 2024."
+title: "Rekening Bank UAE untuk Bisnis Berisiko Tinggi"
+description: "Pelajari cara membuka dan melindungi rekening bank UAE untuk bisnis berisiko tinggi. Panduan ahli tentang persyaratan kepatuhan, mitigasi risiko, dan pencegahan pembekuan rekening di 2024."
 ---
 
-# Rekening bank UEA untuk bisnis berisiko tinggi
+# Rekening bank UAE untuk bisnis berisiko tinggi
 
 ## Ringkasan Eksekutif
 
@@ -92,7 +92,7 @@ Bank wajib melaporkan aktivitas mencurigakan kepada Financial Intelligence Unit 
 
 ## Kasus Sukses
 
-- Penyedia cryptocurrency berhasil membuka rekening dengan menerapkan langkah-langkah KYC/AML yang kuat, termasuk verifikasi rinci pemilik manfaat dan pelaporan transparan mengenai sumber dana. Hal ini membantu mendapatkan persetujuan bank meskipun awalnya ada keraguan.
+- Sebuah penyedia cryptocurrency berhasil membuka rekening dengan menerapkan langkah-langkah KYC/AML yang kuat, termasuk verifikasi rinci pemilik manfaat dan pelaporan transparan mengenai sumber dana. Hal ini membantu mendapatkan persetujuan bank meskipun awalnya ada keraguan.
 - Sebuah perusahaan jasa keuangan berhasil menghindari pembekuan rekening melalui pemantauan transaksi proaktif, termasuk komunikasi rutin dengan bank terkait transaksi bernilai tinggi dan pengajuan tepat waktu dokumen kepatuhan yang diperbarui untuk memastikan keselarasan regulasi.
 
 ## Bantuan Profesional
@@ -130,22 +130,10 @@ Untuk dukungan komprehensif dalam pengelolaan rekening bank UAE dan kepatuhan, p
 
 ### Sanksi apa yang dapat dihadapi bisnis berisiko tinggi untuk ketidakpatuhan di UAE?
 
-- Sanksi termasuk denda hingga AED 1 juta, pembekuan rekening, penangguhan izin, dan berpotensi sanksi pidana untuk pelanggaran serius. Untuk pedoman sanksi terperinci, lihat [Cabinet Resolution No. 10 (2019)](https://uaelegislation.gov.ae/en/legislations/1015/download).
+- Sanksi termasuk denda hingga AED 1 juta, pembekuan rekening, penangguhan izin, dan kemungkinan sanksi pidana untuk pelanggaran serius. Untuk pedoman sanksi terperinci, lihat [Cabinet Resolution No. 10 (2019)](https://uaelegislation.gov.ae/en/legislations/1015/download).
 
 ### Langkah apa yang direkomendasikan untuk mematuhi peraturan AML/CFT UAE?
 
-- Langkah-langkah utama termasuk menunjuk petugas kepatuhan khusus, melakukan audit internal secara rutin, memperbarui dokumentasi setiap tahun, dan memastikan bahwa staf dilatih dalam [prosedur AML/CFT](https://rulebook.centralbank.ae/en/rulebook/cabinet-decision-58-2020-beneficial-owner-procedures).
+- Langkah-langkah utama termasuk menunjuk petugas kepatuhan khusus, melakukan audit internal secara rutin, memperbarui dokumentasi setiap tahun, dan memastikan staf dilatih dalam [prosedur AML/CFT](https://rulebook.centralbank.ae/en/rulebook/cabinet-decision-58-2020-beneficial-owner-procedures).
 
 [![Imigrasi UAE: Perbedaan Utama](/content/uae-immigration.svg)](../company-registration/benefits-problems.md)
-
-## Jadwalkan konsultasi gratis untuk membahas kebutuhan perbankan korporat Anda
-
-<video  autoplay muted playsinline style="margin-top: 2rem" >
-  <source src="/img/iStock-2185912341.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal formName="Banking [high-risk]" buttonText="Dapatkan konsultasi gratis" :services="[
- '🏢 Rekening Korporat Penduduk UAE',
- '🌐 Rekening Korporat Non-Penduduk UAE (Risiko Rendah)',
- '⚠️ Rekening Korporat Non-Penduduk UAE (Risiko Tinggi)',
- '👤 Rekening Bank Pribadi']"/>

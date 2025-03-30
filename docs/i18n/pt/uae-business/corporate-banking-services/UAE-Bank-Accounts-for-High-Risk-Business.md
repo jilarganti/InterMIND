@@ -7,13 +7,13 @@ description: "Aprenda como abrir e proteger contas bancárias nos EAU para negó
 
 ## Resumo Executivo
 
-Os Emirados Árabes Unidos oferecem oportunidades significativas para empresas de alto risco (por exemplo, empresas de criptomoedas, serviços de pagamento, estruturas offshore), incluindo políticas fiscais favoráveis, acesso a um centro financeiro dinâmico e um ambiente regulatório que apoia a inovação enquanto mantém rigorosos padrões de conformidade. Este guia ajuda a navegar pelos requisitos aprimorados de AML/CFT sob a [UAE's 2024-2027 National Strategy](https://www.mofa.gov.ae/en/mediahub/news/2024/9/5/5-9-2024-uae-uae).
+Os Emirados Árabes Unidos (UAE) oferecem oportunidades significativas para negócios de alto risco (por exemplo, empresas de criptomoedas, serviços de pagamento, estruturas offshore), incluindo políticas fiscais favoráveis, acesso a um centro financeiro dinâmico e um ambiente regulatório que apoia a inovação, mantendo rigorosos padrões de conformidade. Este guia ajuda a navegar pelos requisitos aprimorados de AML/CFT sob a [UAE's 2024-2027 National Strategy](https://www.mofa.gov.ae/en/mediahub/news/2024/9/5/5-9-2024-uae-uae).
 
-![Métricas Principais do Setor Bancário dos EAU 2024](/content/uae-banking-stats.svg)
+![Métricas Principais do Setor Bancário dos UAE 2024](/content/uae-banking-stats.svg)
 
 ## Entendendo o Marco Regulatório
 
-Mudanças recentes na legislação dos UAE fortaleceram os requisitos de conformidade, impactando significativamente negócios de alto risco ao impor documentação mais rigorosa, due diligence aprimorada e maiores obrigações de monitoramento:
+Mudanças recentes na legislação dos UAE fortaleceram os requisitos de conformidade, impactando significativamente empresas de alto risco ao impor documentação mais rigorosa, due diligence aprimorada e maiores obrigações de monitoramento:
 
 - **[Federal Law No. 20 (2018)](https://rulebook.centralbank.ae/en/rulebook/decree-federal-law-no-20-2018-anti-money-laundering-and-combating-financing-terrorism-and)**, atualizada em 2024
 - **[Cabinet Resolution No. 10 (2019)](https://uaelegislation.gov.ae/en/legislations/1015/download)**
@@ -38,7 +38,7 @@ Mudanças recentes na legislação dos UAE fortaleceram os requisitos de conform
 ### Documentos Necessários:
 
 - Documentos corporativos e licenças
-- Demonstrativos financeiros dos últimos 12 meses
+- Demonstrações financeiras dos últimos 12 meses
 - Documentação do UBO (Beneficiário Final)
 - Verificação da origem dos recursos
 - Políticas e procedimentos de compliance
@@ -54,7 +54,7 @@ Os bancos devem reportar atividades suspeitas à Unidade de Inteligência Financ
 - Manter monitoramento de transações em tempo real
 - Pré-notificar bancos sobre transações significativas
 
-## 4. Gestão Ativa de Conta
+## 4. Gerenciamento Ativo de Conta
 
 ### Melhores Práticas:
 
@@ -83,7 +83,7 @@ Os bancos devem reportar atividades suspeitas à Unidade de Inteligência Financ
 
 ## Penalidades e Fiscalização
 
-- Multas de até AED 1 milhão (US\$272.000)
+- Multas de até AED 1 milhão (US$ 272.000)
 - Congelamento de contas e suspensão de licenças
 - Penalidades criminais para violações graves
 - Aumento de 15% nos bloqueios de contas desde 2024
@@ -118,11 +118,11 @@ Para suporte abrangente no gerenciamento e conformidade de contas bancárias nos
 
 ### Quais são os documentos regulatórios críticos necessários para contas empresariais de alto risco nos EAU?
 
-- Empresas de alto risco devem fornecer documentos corporativos abrangentes, demonstrações financeiras de 12 meses, documentação UBO, verificação da origem dos fundos e políticas de compliance. Requisitos de due diligence aprimorada são padrão. Para mais detalhes, consulte [Federal Law No. 20 (2018)](https://rulebook.centralbank.ae/en/rulebook/decree-federal-law-no-20-2018-anti-money-laundering-and-combating-financing-terrorism-and).
+- Empresas de alto risco devem fornecer documentos corporativos abrangentes, demonstrações financeiras de 12 meses, documentação UBO, verificação da origem dos fundos e políticas de conformidade. Requisitos de due diligence aprimorada são padrão. Para mais detalhes, consulte [Federal Law No. 20 (2018)](https://rulebook.centralbank.ae/en/rulebook/decree-federal-law-no-20-2018-anti-money-laundering-and-combating-financing-terrorism-and).
 
-### Quais bancos nos EAU são mais inclinados a trabalhar com clientes de alto risco?
+### Quais bancos nos EAU estão mais inclinados a trabalhar com clientes de alto risco?
 
-- Bancos como Mashreq Bank e RAKBank demonstraram disposição para trabalhar com certos clientes de alto risco, embora a aceitação dependa muito do perfil de risco específico do cliente e sua prontidão em compliance. É aconselhável revisar as políticas específicas dos bancos em seus sites oficiais ou contatá-los diretamente para orientação.
+- Bancos como Mashreq Bank e RAKBank demonstraram disposição para trabalhar com certos clientes de alto risco, embora a aceitação dependa muito do perfil de risco específico do cliente e sua prontidão em conformidade. É aconselhável revisar as políticas específicas dos bancos em seus sites oficiais ou contatá-los diretamente para orientação.
 
 ### Como empresas de alto risco podem mitigar o risco de congelamento de contas?
 
@@ -130,22 +130,10 @@ Para suporte abrangente no gerenciamento e conformidade de contas bancárias nos
 
 ### Quais penalidades as empresas de alto risco podem enfrentar por não conformidade nos EAU?
 
-- As penalidades incluem multas de até 1 milhão de AED, congelamento de contas, suspensão de licenças e potencialmente penalidades criminais para violações graves. Para diretrizes detalhadas sobre penalidades, consulte [Cabinet Resolution No. 10 (2019)](https://uaelegislation.gov.ae/en/legislations/1015/download).
+- As penalidades incluem multas de até 1 milhão de AED, congelamento de contas, suspensão de licenças e possíveis penalidades criminais para violações graves. Para diretrizes detalhadas sobre penalidades, consulte [Cabinet Resolution No. 10 (2019)](https://uaelegislation.gov.ae/en/legislations/1015/download).
 
 ### Quais passos são recomendados para cumprir com as regulamentações AML/CFT dos EAU?
 
-- Os passos principais incluem nomear um oficial de compliance dedicado, realizar auditorias internas regulares, atualizar documentação anualmente e garantir que a equipe seja treinada em [procedimentos AML/CFT](https://rulebook.centralbank.ae/en/rulebook/cabinet-decision-58-2020-beneficial-owner-procedures).
+- Os passos principais incluem nomear um oficial de conformidade dedicado, realizar auditorias internas regulares, atualizar documentação anualmente e garantir que a equipe seja treinada em [procedimentos AML/CFT](https://rulebook.centralbank.ae/en/rulebook/cabinet-decision-58-2020-beneficial-owner-procedures).
 
 [![Imigração EAU: Diferenças Principais](/content/uae-immigration.svg)](../company-registration/benefits-problems.md)
-
-## Agende uma consulta gratuita para discutir suas necessidades bancárias corporativas
-
-<video  autoplay muted playsinline style="margin-top: 2rem" >
-  <source src="/img/iStock-2185912341.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal formName="Banking [high-risk]" buttonText="Obter uma consulta gratuita" :services="[
- '🏢 Conta Corporativa para Residentes nos UAE',
- '🌐 Conta Corporativa para Não-Residentes nos UAE (Baixo Risco)',
- '⚠️ Conta Corporativa para Não-Residentes nos UAE (Alto Risco)',
- '👤 Conta Bancária Pessoal']"/>

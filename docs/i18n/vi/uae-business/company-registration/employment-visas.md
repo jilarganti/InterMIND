@@ -1,5 +1,5 @@
 ---
-title: "Giải thích về Thị thực UAE"
+title: "Hướng Dẫn Về Thị Thực UAE"
 description: "Tổng quan chuyên sâu về các loại thị thực UAE: giấy phép cư trú, thị thực lao động và thị thực phụ thuộc. Tất cả những điều bạn cần biết về yêu cầu và quy trình xử lý."
 ---
 
@@ -12,9 +12,9 @@ Các chuyên gia nước ngoài muốn sinh sống và làm việc tại UAE ph�
 > - Thành lập doanh nghiệp tại UAE;
 > - Trở thành cổ đông của một công ty UAE;
 > - Mua bất động sản tại UAE;
-> - Được tuyển dụng làm việc tại UAE.
+> - Được tuyển dụng tại UAE.
 
-Golden Fish hỗ trợ khách hàng trong việc xin cấp giấy phép lao động và cư trú tại UAE.
+Golden Fish hỗ trợ khách hàng trong việc xin giấy phép lao động và cư trú tại UAE.
 
 ## Tổng quan về Thị thực Cư trú
 
@@ -24,23 +24,23 @@ Những người có thị thực cư trú UAE có thể bảo lãnh cho các th
 
 Thị thực cư trú 5 năm và 10 năm cũng có sẵn.
 
-Các nhà đầu tư nước ngoài có công ty trong Free Zone phải lưu ý rằng hạn ngạch visa nhân viên của họ tỷ lệ thuận với diện tích văn phòng được thuê. Cứ mỗi 10m2 diện tích văn phòng sẽ được cấp một visa nhân viên. Quy tắc thông thường ở nhiều Free Zone là 10m2 cho một visa.
+Các nhà đầu tư nước ngoài có công ty trong Free Zone cần lưu ý rằng hạn ngạch thị thực cho nhân viên của họ tỷ lệ thuận với diện tích văn phòng được thuê. Cứ mỗi 10m2 diện tích văn phòng sẽ được cấp một thị thực nhân viên. Quy tắc thông thường ở nhiều Free Zone là 10m2 cho một thị thực.
 
-Các công ty offshore UAE không đủ điều kiện để xin visa lao động.
+Các công ty offshore UAE không đủ điều kiện để xin thị thực lao động.
 
 ## Thị thực cho Chuyên gia
 
-Các doanh nhân chuyển đến UAE để quản lý doanh nghiệp của họ có thể đăng ký thị thực cư trú hai năm.
+Các doanh nhân chuyển đến UAE để quản lý doanh nghiệp của họ có thể xin thị thực cư trú hai năm.
 
-Các doanh nhân có dự án trị giá tối thiểu 500.000 AED hoặc những người có vườn ươm doanh nghiệp được công nhận đặc biệt tại UAE có thể được cấp thị thực cư trú năm năm.
+Các doanh nhân có dự án trị giá tối thiểu AED 500.000 hoặc những người có vườn ươm doanh nghiệp được công nhận đặc biệt tại UAE có thể được cấp thị thực cư trú năm năm.
 
-Các nhà đầu tư bất động sản sở hữu bất động sản có tổng giá trị ít nhất 2 triệu AED có thể nhận được Golden Visa có thể gia hạn năm năm.
+Các nhà đầu tư bất động sản sở hữu bất động sản có tổng giá trị ít nhất AED 2 triệu có thể nhận được Golden Visa có thể gia hạn năm năm.
 
 > [!NOTE] 💚 Các nhà đầu tư tại UAE có thể đảm bảo Golden Visa lên đến 10 năm mà không cần người bảo trợ bằng cách đáp ứng một trong các tiêu chí sau:
 >
-> - Gửi 2 triệu AED vào quỹ đầu tư được UAE công nhận;
-> - Nắm giữ giấy phép thương mại hoặc công nghiệp với vốn điều lệ ít nhất 2 triệu AED;
-> - Chứng minh các khoản thanh toán cho chính phủ hàng năm là 250.000 AED thông qua FTA.
+> - Gửi tiền AED 2 triệu vào quỹ đầu tư được công nhận tại UAE;
+> - Nắm giữ giấy phép thương mại hoặc công nghiệp với vốn điều lệ ít nhất AED 2 triệu;
+> - Chứng minh các khoản thanh toán hàng năm cho chính phủ là AED 250.000 thông qua FTA.
 
 Các chuyên gia có chuyên môn đặc biệt trong các ngành cụ thể như y tế, khoa học hoặc nghiên cứu cũng đủ điều kiện nhận thị thực cư trú lên đến mười năm.
 
@@ -57,21 +57,21 @@ Thị thực lao động được cấp bởi Bộ Lao động, trong khi thị 
 
 ## Thị thực phụ thuộc cho thành viên gia đình
 
-Golden Fish sẽ sẵn sàng xin thị thực cho gia đình sau khi thị thực doanh nhân hoặc việc làm của khách hàng được đảm bảo.
+Golden Fish sẽ sẵn sàng xin thị thực gia đình sau khi khách hàng đã có thị thực doanh nhân hoặc thị thực lao động.
 
-Thời gian ước tính để có được thị thực phụ thuộc là khoảng ba tuần cho mỗi người, tùy thuộc vào các yếu tố như chậm trễ xử lý hoặc thiếu tài liệu.
+Thời gian ước tính để có được thị thực là khoảng ba tuần cho mỗi thị thực phụ thuộc, tùy thuộc vào các yếu tố như chậm trễ xử lý hoặc thiếu tài liệu.
 
-Thị thực phụ thuộc chỉ có thể được nộp đơn sau khi người bảo lãnh chính đã có được những điều sau:
+Thị thực phụ thuộc chỉ có thể được xin sau khi người bảo lãnh chính đã có được những điều sau:
 
 - Thẻ [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) ![Thẻ căn cước](/img/ILONMASKID.webp)
 - Hợp đồng thuê nhà đã ký tại UAE với diện tích đủ lớn để chứa tất cả người phụ thuộc
-- Đăng ký Ejari cho bất động sản này
+- Đăng ký Ejari cho bất động sản nhà ở này
 
-## Quy trình Visa làm việc tại UAE (Hướng dẫn từng bước)
+## Quy Trình Xin Visa Lao Động UAE (Hướng Dẫn Từng Bước)
 
-Trước khi nộp đơn xin visa cho chính phủ, người nộp đơn phải đảm bảo hộ chiếu của họ có ít nhất hai trang trống và còn hiệu lực ít nhất sáu tháng.
+Trước khi nộp đơn xin visa cho chính phủ, người nộp đơn phải đảm bảo hộ chiếu có ít nhất hai trang trống và còn hiệu lực ít nhất sáu tháng.
 
-Sau khi ký kết, Golden Fish sẽ cung cấp cho bạn danh sách đầy đủ các giấy tờ cần thiết. Tùy thuộc vào vị trí công việc, có thể yêu cầu các tài liệu được chứng nhận bởi đại sứ quán UAE như bằng cấp học thuật, giấy phép chuyên môn hoặc chứng chỉ kinh nghiệm.
+Sau khi ký kết, Golden Fish sẽ cung cấp cho bạn danh sách đầy đủ các giấy tờ cần thiết. Tùy thuộc vào vị trí công việc, có thể yêu cầu các giấy tờ được chứng nhận bởi đại sứ quán UAE như bằng cấp học thuật, giấy phép chuyên môn hoặc chứng chỉ kinh nghiệm.
 
 Trong quá trình xin visa, người nộp đơn sẽ:
 
@@ -80,7 +80,7 @@ Trong quá trình xin visa, người nộp đơn sẽ:
 - Ghi nhận sinh trắc học với cơ quan chính phủ
 - Đảm bảo bảo hiểm y tế địa phương
 
-Quy trình xin visa nhân viên mất khoảng bốn tuần kể từ khi nộp hồ sơ. Đơn xin visa cho người phụ thuộc mất ba tuần.
+Quy trình xin visa lao động mất khoảng bốn tuần kể từ khi nộp hồ sơ. Đơn xin visa cho người phụ thuộc mất ba tuần.
 
 Nếu đơn xin visa được bắt đầu khi người nộp đơn đang ở UAE, người nộp đơn phải ở lại trong nước trong suốt quá trình xin visa. Nếu đơn xin visa được thực hiện khi người nộp đơn ở nước ngoài, khách hàng của chúng tôi chỉ có thể nhập cảnh vào UAE sau khi nhận được giấy phép nhập cảnh.
 
@@ -88,32 +88,15 @@ Nếu giấy phép nhập cảnh được cấp khi người nộp đơn ở nư
 
 Quyết định cuối cùng thuộc về chính phủ, và mặc dù chúng tôi không thể đảm bảo thành công, chúng tôi tối đa hóa cơ hội được chấp thuận thông qua việc chuẩn bị kỹ lưỡng. Chúng tôi đảm bảo việc chuẩn bị và nộp hồ sơ xin visa nhập cư chất lượng cao để tối đa hóa khả năng được chấp thuận.
 
-> [!NOTE] 💚 Sau khi visa được cấp, người nộp đơn phải đến UAE ít nhất một lần trong mỗi 180 ngày để tránh bị hủy.
+> [!NOTE] 💚 Sau khi visa được cấp, người nộp đơn phải đến UAE ít nhất một lần trong mỗi 180 ngày để tránh bị hủy visa.
 > Không tuân thủ yêu cầu này có thể dẫn đến việc tự động hủy visa, có thể dẫn đến việc phải nộp đơn xin visa lại, tốn thêm thời gian và chi phí.
 
-Từ ngày 1 tháng 1 năm 2023, tất cả nhân viên tại UAE được yêu cầu phải có bảo hiểm mất việc làm. Bảo hiểm này cung cấp hỗ trợ tài chính cho nhân viên bị mất việc do bị chấm dứt hợp đồng bởi người sử dụng lao động (trừ trường hợp sơ suất nghiêm trọng). Chi phí bảo hiểm hàng năm dao động từ 60 AED đến 120 AED, tùy thuộc vào lương cơ bản của nhân viên. Bảo hiểm này được bao gồm khi khách hàng của chúng tôi thuê chúng tôi để đảm bảo visa làm việc và cư trú tại UAE.
+Từ ngày 1 tháng 1 năm 2023, tất cả người lao động tại UAE được yêu cầu phải có bảo hiểm mất việc làm. Bảo hiểm này cung cấp hỗ trợ tài chính cho người lao động bị mất việc do bị chấm dứt hợp đồng bởi người sử dụng lao động (trừ trường hợp sơ suất nghiêm trọng). Chi phí bảo hiểm hàng năm dao động từ 60 AED đến 120 AED, tùy thuộc vào lương cơ bản của người lao động. Bảo hiểm này được bao gồm khi khách hàng của chúng tôi thuê chúng tôi để đảm bảo visa lao động và cư trú tại UAE.
 
 ## Chương trình Bảo hiểm Mất việc Không tự nguyện
 
-Kể từ ngày 1 tháng 1 năm 2023, tất cả người lao động tại UAE phải có bảo hiểm mất việc làm. Chương trình này có thể cung cấp hỗ trợ tài chính cho người lao động bị chấm dứt hợp đồng bởi người sử dụng lao động, ngoại trừ các trường hợp do sơ suất nghiêm trọng. Chi phí bảo hiểm hàng năm dao động từ AED 60 đến AED 120, dựa trên mức lương cơ bản của người lao động. Chúng tôi tự động bao gồm bảo hiểm này khi khách hàng sử dụng dịch vụ việc làm và thị thực cư trú UAE của chúng tôi.
+Kể từ ngày 1 tháng 1 năm 2023, tất cả người lao động tại UAE bắt buộc phải có bảo hiểm mất việc làm. Chương trình này có thể cung cấp hỗ trợ tài chính cho người lao động bị chấm dứt hợp đồng bởi người sử dụng lao động, ngoại trừ các trường hợp do sơ suất nghiêm trọng. Chi phí bảo hiểm hàng năm dao động từ 60 AED đến 120 AED, dựa trên mức lương cơ bản của người lao động. Chúng tôi tự động bao gồm bảo hiểm này khi khách hàng sử dụng dịch vụ việc làm và thị thực cư trú UAE của chúng tôi.
 
 ## Bảo hiểm y tế
 
 Trước khi được cấp thị thực UAE, các ứng viên xin thị thực phải có bảo hiểm y tế địa phương. Phí dịch vụ của chúng tôi đã bao gồm việc đảm bảo bảo hiểm y tế cơ bản.
-
-## Đặt lịch tư vấn miễn phí để thảo luận các lựa chọn của bạn
-
-<video  autoplay muted playsinline style="padding: 80px" >
-  <source src="/video/iStock-2185914135.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal formName="Employment Visa [guide]" buttonText="Nhận tư vấn miễn phí" :services="[
-    '💼 Employment Visa + Labor Card',
-    '👨‍💼 Entrepreneur Visa (2-year)',
-    '🏢 Free Zone Company Visa',
-    '👨‍👩‍👧‍👦 Dependent Family Visa',
-    '💳 Emirates ID Application',
-    '💵 Mức lương hàng tháng trên 30K AED',
-    '💰 Golden Visa Eligibility',
-    '❓ Các Dịch Vụ Visa Khác',
-    ]"/>

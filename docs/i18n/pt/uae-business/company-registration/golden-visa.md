@@ -7,15 +7,15 @@ description: "Guia passo a passo para obter o Visto Golden dos EAU através de i
 
 ## O que é o UAE Golden Visa?
 
-O UAE Golden Visa representa uma mudança de paradigma na abordagem do país em relação à residência, oferecendo estabilidade sem precedentes para indivíduos qualificados através de segurança a longo prazo, independência de patrocínio empregatício e benefícios familiares garantidos. Introduzido em 2019 e significativamente expandido em 2022, este programa exemplifica o compromisso dos Emirados Árabes Unidos em atrair e reter talentos de alto nível e investidores significativos.
+O UAE Golden Visa representa uma mudança paradigmática na abordagem do país em relação à residência, oferecendo estabilidade sem precedentes para indivíduos qualificados através de segurança a longo prazo, independência de patrocínio empregatício e benefícios familiares garantidos. Introduzido em 2019 e significativamente expandido em 2022, este programa exemplifica o compromisso dos UAE em atrair e reter talentos de alto nível e investidores significativos.
 
 ### Por que Escolher o UAE Golden Visa?
 
-> [!TIP] 💙 Diferentemente dos vistos padrão dos UAE, o Golden Visa oferece total independência: sem necessidade de patrocínio do empregador, sem renovações regulares e sem restrições na propriedade de empresas.
+> [!TIP] 💙 Diferentemente dos vistos padrão dos UAE, o Golden Visa oferece total independência: sem necessidade de patrocínio do empregador, sem renovações regulares e sem restrições na propriedade de negócios.
 
-O UAE Golden Visa proporciona uma oportunidade única para investidores, empreendedores e profissionais obterem residência de longo prazo em um país conhecido por sua estabilidade econômica, ambiente favorável aos negócios e alta qualidade de vida. Diferentemente das autorizações de residência padrão, o Golden Visa oferece flexibilidade, independência e um status renovável de 10 anos.
+O UAE Golden Visa proporciona uma oportunidade única para investidores, empreendedores e profissionais obterem residência de longo prazo em um país conhecido por sua estabilidade econômica, ambiente favorável aos negócios e alta qualidade de vida. Diferentemente das permissões de residência padrão, o Golden Visa oferece flexibilidade, independência e um status renovável de 10 anos.
 
-## Principais Benefícios do Golden Visa dos EAU
+## Principais Benefícios do Visto Golden UAE
 
 <video  autoplay muted playsinline style="padding: 30px" class="light-only">
   <source src="/img/iStock-1906734765.mp4" type="video/mp4">
@@ -26,17 +26,17 @@ O UAE Golden Visa proporciona uma oportunidade única para investidores, empreen
 
 ### Liberdade de Movimento
 
-> [!TIP] 💙 Os titulares do Golden Visa podem morar no exterior mantendo a residência nos EAU - não há requisito mínimo de permanência nos EAU.
+> [!TIP] 💙 Os portadores do Golden Visa podem morar no exterior mantendo a residência nos UAE - não há requisito mínimo de permanência nos UAE.
 
-- **Entrada e saída sem restrições** dos EAU, exceto em casos de restrições legais, proibições de segurança ou limitações de viagem impostas pelas autoridades dos EAU.
+- **Entrada e saída sem restrições** dos UAE, exceto em casos de restrições legais, proibições de segurança ou limitações de viagem impostas pelas autoridades dos UAE.
 - **Sem requisitos obrigatórios de permanência** – More no exterior mantendo sua residência.
-- **Privilégios de entradas múltiplas** – Entre e saia quantas vezes precisar.
+- **Privilégios de múltiplas entradas** – Entre e saia quantas vezes precisar.
 
 ### Benefícios para Negócios
 
 > [!TIP] 💙 Opere seu negócio com total liberdade: 100% de propriedade, sem necessidade de parceiro local e licenças comerciais ilimitadas em todos os emirados.
 
-- **100% de propriedade do negócio** em empresas do mainland.
+- **100% de propriedade do negócio** em empresas mainland.
 - **Repatriação total dos lucros** – Transfira 100% dos seus lucros para o exterior sem restrições.
 - **Sem necessidade de parceiro local** – Opere seu negócio de forma independente.
 - **Acesso a serviços bancários premium** para investimentos, empréstimos e planejamento financeiro.
@@ -52,11 +52,11 @@ O UAE Golden Visa proporciona uma oportunidade única para investidores, empreen
   - Filhos menores de 25 anos, independentemente da educação ou estado civil.
   - Filhos com deficiência, patrocinados por toda a vida.
   - Patrocínio de pais sem restrições de idade.
-  - Patrocínio de funcionários domésticos ilimitados.
+  - Patrocínio ilimitado de funcionários domésticos.
 
 ## Elegibilidade e Requisitos para o Visto Golden dos EAU
 
-> [!TIP] 💙 Escolha seu caminho de qualificação com base em seu perfil: investimento imobiliário, propriedade de empresa, investimento em fundos, profissionais qualificados e outras categorias especializadas.
+> [!TIP] 💙 Escolha seu caminho de qualificação com base em seu perfil: investimento imobiliário, propriedade de negócios, investimento em fundos, profissionais qualificados e outras categorias especializadas.
 
 ### 1. Investimento Imobiliário (AED 2M+)
 
@@ -67,7 +67,7 @@ O UAE Golden Visa proporciona uma oportunidade única para investidores, empreen
 - **Propriedade**: Registrada em nome pessoal do investidor.
 - **Opção de Visto de 5 anos:** Investimentos imobiliários a partir de AED 1M podem se qualificar se a propriedade estiver livre de hipoteca ou se o investidor tiver pelo menos AED 1M em patrimônio.
 
-### 2. Participação em Fundo de Investimento (AED 2M+)
+### 2. Participação em Fundos de Investimento (AED 2M+)
 
 - **Valor do investimento**: Depósito mínimo de AED 2M em um fundo elegível dos EAU.
 - **Período de retenção**: É necessário um bloqueio de 3 anos.
@@ -87,7 +87,7 @@ O UAE Golden Visa proporciona uma oportunidade única para investidores, empreen
 
 ### 5. Profissionais Altamente Qualificados
 
-> [!TIP] 💙 Profissionais altamente qualificados em todas as áreas, incluindo medicina, ciência, engenharia, tecnologia da informação, gestão empresarial, educação, direito, cultura e ciências sociais, são elegíveis para o Visto Golden dos EAU nas seguintes condições.
+> [!TIP] 💙 Profissionais altamente qualificados em todas as áreas, incluindo medicina, ciência, engenharia, tecnologia da informação, gestão empresarial, educação, direito, cultura e ciências sociais, são elegíveis para o Visto Golden dos EAU sob as seguintes condições.
 
 - **Contrato de Trabalho Válido**: O candidato deve ter um contrato de trabalho válido com um empregador baseado nos EAU.
 - **Qualificações Educacionais**: É necessário no mínimo um diploma de bacharel.
@@ -103,7 +103,7 @@ O UAE Golden Visa proporciona uma oportunidade única para investidores, empreen
 
 ### 6. Talentos Excepcionais
 
-> [!TIP] 💙 Indivíduos com talento extraordinário em suas respectivas áreas podem se qualificar para um Visto Golden dos EAU nas seguintes condições.
+> [!TIP] 💙 Indivíduos com talento extraordinário em suas respectivas áreas podem se qualificar para um Visto Golden dos EAU sob as seguintes condições.
 
 - **Elegibilidade**:
   - Artistas, atletas, inventores e indivíduos com realizações notáveis em ciência, tecnologia ou outras indústrias criativas.
@@ -125,11 +125,11 @@ O UAE Golden Visa proporciona uma oportunidade única para investidores, empreen
 
 > [!NOTE] 💚 Elegibilidade e requisitos estão sujeitos a atualizações periódicas. Consulte profissionais licenciados para aconselhamento personalizado e as regulamentações mais recentes.
 
-## Processo de Solicitação do Visto Golden UAE
+## Processo de Solicitação do Golden Visa dos EAU
 
 > [!TIP] 💙 Prazos de Processamento:
 >
-> - Residentes UAE: média de 3 meses para processamento
+> - Residentes nos EAU: média de 3 meses para processamento
 > - Não Residentes: média de 4 meses para processamento
 
 ### Etapa 1: Avaliação Inicial
@@ -141,19 +141,19 @@ O UAE Golden Visa proporciona uma oportunidade única para investidores, empreen
 
 ### Etapa 2: Envio de Documentos (2-3 Semanas)
 
-> [!TIP] 💙 Para um processamento mais rápido, certifique-se que todos os documentos atendam a estes padrões:
+> [!TIP] 💙 Para um processamento mais rápido, certifique-se de que todos os documentos atendam a estes padrões:
 >
 > - Válidos por pelo menos 6 meses
-> - Devidamente atestados pelo MOFA UAE
+> - Devidamente autenticados pelo MOFA dos EAU
 > - Traduzidos para o árabe por um tradutor certificado
 > - Preparados em formato digital
 
-- **Tradução e autenticação** – Traduza e legalize documentos principais.
+- **Tradução e autenticação** – Traduza e legalize documentos importantes.
 - **Envio de todos os documentos** – Faça upload da documentação financeira, educacional e pessoal.
 
-### Etapa 3: Registro da Solicitação (1-2 Semanas)
+### Etapa 3: Apresentação da Solicitação (1-2 Semanas)
 
-- **Envio da solicitação online** – Registre o visto online.
+- **Envio da solicitação online** – Apresente o pedido do visto online.
 - **Pagamento de taxas** – Pague as taxas aplicáveis.
 
 ### Etapa 4: Procedimentos no País (1-2 Semanas)
@@ -164,10 +164,10 @@ O UAE Golden Visa proporciona uma oportunidade única para investidores, empreen
 
 ### Etapa 5: Aprovação Final (1 Semana)
 
-- **Emissão do visto** – Receba o Golden Visa UAE carimbado.
-- **Suporte familiar** – Opcionalmente processe vistos familiares e Emirates IDs.
+- **Emissão do visto** – Receba o Golden Visa dos EAU carimbado.
+- **Suporte familiar** – Opcionalmente, processe vistos e Emirates IDs para familiares.
 
-> [!NOTE] 💚 Regulamentos e requisitos de visto estão sujeitos a alterações. Para obter informações atualizadas, consulte fontes oficiais do governo UAE ou um especialista jurídico.
+> [!NOTE] 💚 Regulamentos e requisitos de visto estão sujeitos a alterações. Para obter informações atualizadas, consulte fontes oficiais do governo dos EAU ou um especialista jurídico.
 
 ## Perguntas Frequentes (FAQ)
 
@@ -181,13 +181,13 @@ O UAE Golden Visa proporciona uma oportunidade única para investidores, empreen
 
 - Sim, turistas podem solicitar e converter seu status após a aprovação do visto.
 
-**3. Preciso manter meu investimento para conservar meu visto?**
+**3. Preciso manter meu investimento para manter meu visto?**
 
 - Sim, você deve manter seu investimento por pelo menos 3 anos.
 
-**4. Membros da família podem ser incluídos na solicitação?**
+**4. Familiares podem ser incluídos na solicitação?**
 
-- Sim, você pode patrocinar seu cônjuge, filhos (até 25 anos), pais e número ilimitado de funcionários domésticos.
+- Sim, você pode patrocinar seu cônjuge, filhos (até 25 anos), pais e funcionários domésticos sem limite.
 
 **5. O que acontece se minha solicitação for rejeitada?**
 
@@ -203,13 +203,13 @@ O UAE Golden Visa proporciona uma oportunidade única para investidores, empreen
 
 **8. O que acontece se minhas circunstâncias mudarem?**
 
-- Reporte as mudanças às autoridades dos EAU, pois elas podem afetar o status do seu visto.
+- Informe as mudanças às autoridades dos EAU, pois elas podem afetar o status do seu visto.
 
 > [!NOTE] 💚 Determinados critérios devem ser atendidos para beneficiar-se plenamente dessas vantagens.
 
 ## Nossos Serviços de Suporte
 
-> [!NOTE] 💚 Nosso modelo de taxa baseada em sucesso significa que você não paga nada até que seu Golden Visa seja aprovado. 98% de nossas aplicações são bem-sucedidas, e fornecemos suporte completo durante todo o processo.
+> [!NOTE] 💚 Nosso modelo de taxa baseada em sucesso significa que você não paga nada até que seu Golden Visa seja aprovado. 98% de nossas solicitações são bem-sucedidas, e fornecemos suporte completo durante todo o processo.
 
 ### Pacote de Suporte Completo
 
@@ -220,16 +220,22 @@ O UAE Golden Visa proporciona uma oportunidade única para investidores, empreen
 - **Suporte pós-aprovação** – Assistência com Emirates ID, vistos familiares e serviços bancários.
 - **Consultoria jurídica** – Obtenha orientação sobre requisitos de conformidade e investimento.
 
-## Entre em contato para uma consultoria personalizada e inicie sua jornada do Visto Golden dos EAU hoje.
+## Entre em contato para uma consultoria personalizada e inicie hoje sua jornada para o Golden Visa dos EAU.
 
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Golden Visa [guide]" buttonText="Obtenha uma consultoria gratuita" :services="[
-  '🏠 Investimento de AED 2M em propriedades nos EAU',
-  '💰 Depósito de AED 2M em fundos de investimento dos EAU',
-  '🏢 Negócio com capital de AED 2M',
-  '📈 Contribuição anual FTA de AED 250K',
-  '👨‍💼 Profissionais Qualificados',
-  '🎯 Talentos Excepcionais',]"/>
+<ContactFormModal 
+  formName="Golden Visa [guia]" 
+  buttonText="Obtenha uma consultoria gratuita" 
+  categoryLabel="Nível de suporte necessário: *" 
+  categoryPlaceholderText="Escolha seu nível de suporte"
+  messageLabel="Ajude-nos a preparar sua consultoria (recomendado)"
+  messagePlaceholderText="Conte-nos sobre suas preferências de investimento, membros da família, cronograma ou quaisquer perguntas específicas"
+  :services="[
+  'Básico — apenas documentos essenciais e consultorias',
+  'Padrão — documentação completa e orientação durante as principais etapas',
+  'Abrangente — gerenciamento completo do processo com mínima participação sua',
+  'Personalizado — necessidade de discutir detalhes específicos e requisitos especiais',
+  ]"/>

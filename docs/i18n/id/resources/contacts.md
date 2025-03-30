@@ -16,7 +16,7 @@ Ingin mendirikan atau mengembangkan bisnis Anda di UAE? Hubungi Golden Fish Corp
 **Detail Lisensi:**
 
 - Nomor Lisensi: 1414192
-- Nomor Registrasi: 2411728
+- Nomor Register: 2411728
 
 **Lokasi Kantor:**  
 City Avenue Building  
@@ -34,7 +34,20 @@ Dubai, UAE
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
 > [!IMPORTANT] Mengapa Memilih Kami?
-> Dengan tim profesional yang berpengetahuan luas dan komitmen untuk memberikan layanan personal, kami memastikan pengalaman yang lancar dan efisien bagi klien, memungkinkan mereka fokus pada hal yang paling penting – mengembangkan bisnis mereka di UAE.
+> Dengan tim profesional yang berpengetahuan luas dan komitmen untuk layanan personal, kami memastikan pengalaman yang lancar dan efisien bagi klien, memungkinkan mereka fokus pada hal yang paling penting – mengembangkan bisnis mereka di UAE.
 
-<ContactFormModal formName="Hubungi Kami" buttonText="Kirim pesan kepada kami" formStyle="display: block; margin: 2rem auto;"
-:services="['📝 Pendaftaran perusahaan', '🏧 Pembukaan rekening bank', '🪪 EID & Golden Visa', 'Layanan Lainnya']"/>
+<ContactFormModal 
+  formName="Hubungi Kami" 
+  buttonText="Kirim pesan kepada kami" 
+  formStyle="display: block; margin: 2rem auto;"
+  categoryLabel="Tingkat dukungan yang diperlukan: *" 
+  categoryPlaceholderText="Pilih tingkat dukungan Anda"
+  messageLabel="Bagaimana kami dapat membantu Anda? (direkomendasikan)"
+  messagePlaceholderText="Silakan bagikan detail pertanyaan Anda untuk membantu kami menyiapkan solusi terbaik untuk kebutuhan Anda"
+  :services="[
+  'Basic — konsultasi awal dan panduan saja',
+  'Standard — manajemen dokumentasi dan proses lengkap',
+  'Comprehensive — solusi layanan lengkap dengan keterlibatan minimal dari pihak Anda',
+  'Custom — persyaratan kompleks atau situasi bisnis yang unik',
+  ]"
+/>

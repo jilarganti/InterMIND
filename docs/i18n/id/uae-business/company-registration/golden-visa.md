@@ -1,13 +1,13 @@
 ---
-title: "Visa Emas UAE: Panduan Investasi Lengkap"
-description: "Panduan langkah demi langkah untuk mendapatkan Visa Emas UAE melalui investasi, kepemilikan bisnis atau kualifikasi profesional. Persyaratan, manfaat dan proses aplikasi."
+title: "Visa Golden UAE: Panduan Investasi Lengkap"
+description: "Panduan langkah demi langkah untuk mendapatkan Visa Golden UAE melalui investasi, kepemilikan bisnis atau kualifikasi profesional. Persyaratan, manfaat dan proses aplikasi."
 ---
 
-# Panduan Visa Emas UAE: Proses Lengkap Langkah demi Langkah untuk Izin Tinggal melalui Investasi, Bisnis, dan Talenta
+# Panduan Visa Golden UAE: Proses Lengkap Langkah demi Langkah untuk Izin Tinggal melalui Investasi, Bisnis, dan Talenta
 
 ## Apa itu UAE Golden Visa?
 
-UAE Golden Visa merepresentasikan perubahan paradigma dalam pendekatan negara terhadap izin tinggal, menawarkan stabilitas yang belum pernah ada sebelumnya bagi individu yang memenuhi syarat melalui keamanan jangka panjang, independensi dari sponsor pekerjaan, dan manfaat keluarga yang terjamin. Diperkenalkan pada tahun 2019 dan diperluas secara signifikan pada tahun 2022, program ini menunjukkan komitmen UAE untuk menarik dan mempertahankan talenta terbaik dan investor penting.
+UAE Golden Visa merepresentasikan pergeseran paradigma dalam pendekatan negara terhadap izin tinggal, menawarkan stabilitas yang belum pernah ada sebelumnya bagi individu yang memenuhi syarat melalui keamanan jangka panjang, independensi dari sponsor kerja, dan manfaat keluarga yang terjamin. Diperkenalkan pada tahun 2019 dan diperluas secara signifikan pada tahun 2022, program ini menunjukkan komitmen UAE untuk menarik dan mempertahankan talenta terbaik dan investor penting.
 
 ### Mengapa Memilih UAE Golden Visa?
 
@@ -15,7 +15,7 @@ UAE Golden Visa merepresentasikan perubahan paradigma dalam pendekatan negara te
 
 UAE Golden Visa memberikan kesempatan unik bagi investor, pengusaha, dan profesional untuk mendapatkan izin tinggal jangka panjang di negara yang dikenal dengan stabilitas ekonomi, lingkungan yang ramah bisnis, dan kualitas hidup yang tinggi. Berbeda dengan izin tinggal standar, Golden Visa menawarkan fleksibilitas, independensi, dan status yang dapat diperpanjang selama 10 tahun.
 
-## Manfaat Utama UAE Golden Visa
+## Manfaat Utama Golden Visa UAE
 
 <video  autoplay muted playsinline style="padding: 30px" class="light-only">
   <source src="/img/iStock-1906734765.mp4" type="video/mp4">
@@ -48,7 +48,7 @@ UAE Golden Visa memberikan kesempatan unik bagi investor, pengusaha, dan profesi
 > [!TIP] 💙 Sponsori seluruh keluarga Anda termasuk anak-anak hingga usia 25 tahun, orang tua tanpa batas usia, dan staf rumah tangga tanpa batas - semuanya di bawah Golden Visa Anda.
 
 - **Sponsorship keluarga menyeluruh**, termasuk:
-  - Pasangan dengan opsi izin kerja mandiri.
+  - Pasangan dengan opsi izin kerja independen.
   - Anak-anak di bawah 25 tahun, terlepas dari status pendidikan atau pernikahan.
   - Anak-anak dengan disabilitas, disponsori seumur hidup.
   - Sponsorship orang tua tanpa batasan usia.
@@ -71,8 +71,8 @@ UAE Golden Visa memberikan kesempatan unik bagi investor, pengusaha, dan profesi
 
 - **Jumlah investasi**: Setoran minimal AED 2M dalam dana UAE yang memenuhi syarat.
 - **Periode penahanan**: Diperlukan penguncian 3 tahun.
-- **Dana yang memenuhi syarat**: Dana investasi terakreditasi UAE yang disetujui oleh Securities and Commodities Authority (SCA).
-- **Persyaratan tambahan**: Bukti investasi dan kepatuhan terhadap peraturan khusus dana.
+- **Dana yang memenuhi syarat**: Dana investasi UAE yang terakreditasi dan disetujui oleh Securities and Commodities Authority (SCA).
+- **Persyaratan tambahan**: Bukti investasi dan kepatuhan terhadap peraturan dana tertentu.
 
 ### 3. Investasi Bisnis (AED 2M+)
 
@@ -110,11 +110,11 @@ UAE Golden Visa memberikan kesempatan unik bagi investor, pengusaha, dan profesi
   - Pemohon harus menunjukkan kontribusi signifikan di bidangnya.
 - **Persyaratan Persetujuan**:
   - Dukungan dari otoritas UAE yang relevan (misalnya, Kementerian Kebudayaan dan Pemuda, Otoritas Olahraga Umum, atau entitas khusus sektor lainnya) wajib.
-  - Pengajuan bukti seperti penghargaan, paten, atau prestasi yang diakui secara internasional mungkin diperlukan.
+  - Penyerahan bukti seperti penghargaan, paten, atau prestasi yang diakui secara internasional mungkin diperlukan.
 
 ### 7. Siswa dan Lulusan Berprestasi
 
-> [!TIP] 💙 Visa Emas UAE memberikan penghargaan atas keunggulan akademis, menyediakan jalur bagi siswa dan lulusan yang berprestasi.
+> [!TIP] 💙 Visa Emas UAE menghargai keunggulan akademis, menyediakan jalur bagi siswa dan lulusan yang berprestasi.
 
 - **Kriteria untuk Siswa Berprestasi**:
   - Mencapai nilai keunggulan atau minimal 95% di sekolah menengah dari institusi terakreditasi di UAE.
@@ -125,7 +125,7 @@ UAE Golden Visa memberikan kesempatan unik bagi investor, pengusaha, dan profesi
 
 > [!NOTE] 💚 Kelayakan dan persyaratan dapat berubah secara berkala. Konsultasikan dengan profesional berlisensi untuk saran yang dipersonalisasi dan peraturan terbaru.
 
-## Proses Aplikasi UAE Golden Visa
+## Proses Pengajuan UAE Golden Visa
 
 > [!TIP] 💙 Waktu Pemrosesan:
 >
@@ -134,7 +134,7 @@ UAE Golden Visa memberikan kesempatan unik bagi investor, pengusaha, dan profesi
 
 ### Langkah 1: Penilaian Awal
 
-> [!TIP] 💙 Sebelum memulai proses aplikasi, pastikan Anda memiliki semua dokumen yang diperlukan untuk menghindari keterlambatan.
+> [!TIP] 💙 Sebelum memulai proses pengajuan, pastikan Anda memiliki semua dokumen yang diperlukan untuk menghindari keterlambatan.
 
 - **Peninjauan kelayakan** – Konfirmasi kelayakan Anda untuk Golden Visa.
 - **Daftar dokumen** – Siapkan dokumen keuangan, investasi, dan identitas.
@@ -145,7 +145,7 @@ UAE Golden Visa memberikan kesempatan unik bagi investor, pengusaha, dan profesi
 >
 > - Berlaku minimal 6 bulan
 > - Dilegalisasi dengan benar oleh UAE MOFA
-> - Diterjemahkan ke dalam bahasa Arab oleh penerjemah tersertifikasi
+> - Diterjemahkan ke bahasa Arab oleh penerjemah tersertifikasi
 > - Disiapkan dalam format digital
 
 - **Penerjemahan dan legalisasi** – Terjemahkan dan legalisasi dokumen penting.
@@ -203,7 +203,7 @@ UAE Golden Visa memberikan kesempatan unik bagi investor, pengusaha, dan profesi
 
 **8. Apa yang terjadi jika keadaan saya berubah?**
 
-- Laporkan perubahan kepada otoritas UAE karena dapat mempengaruhi status visa Anda.
+- Laporkan perubahan kepada otoritas UAE karena hal tersebut dapat mempengaruhi status visa Anda.
 
 > [!NOTE] 💚 Kriteria tertentu harus dipenuhi untuk mendapatkan manfaat penuh dari keuntungan ini.
 
@@ -220,16 +220,22 @@ UAE Golden Visa memberikan kesempatan unik bagi investor, pengusaha, dan profesi
 - **Dukungan pasca persetujuan** – Bantuan untuk Emirates ID, visa keluarga, dan perbankan.
 - **Konsultasi hukum** – Dapatkan saran tentang kepatuhan dan persyaratan investasi.
 
-## Hubungi kami untuk konsultasi personal dan mulai perjalanan UAE Golden Visa Anda hari ini.
+## Hubungi kami untuk konsultasi personal dan mulai perjalanan Visa Emas UAE Anda hari ini.
 
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Golden Visa [guide]" buttonText="Dapatkan konsultasi gratis" :services="[
-  '🏠 Investasi properti UAE senilai AED 2M',
-  '💰 Deposito AED 2M di dana investasi UAE',
-  '🏢 Bisnis dengan modal AED 2M',
-  '📈 Kontribusi FTA tahunan AED 250K',
-  '👨‍💼 Profesional Terampil',
-  '🎯 Talenta berbakat',]"/>
+<ContactFormModal 
+  formName="Golden Visa [guide]" 
+  buttonText="Dapatkan konsultasi gratis" 
+  categoryLabel="Tingkat dukungan yang diperlukan: *" 
+  categoryPlaceholderText="Pilih tingkat dukungan Anda"
+  messageLabel="Bantu kami mempersiapkan konsultasi Anda (direkomendasikan)"
+  messagePlaceholderText="Ceritakan kepada kami tentang preferensi investasi, anggota keluarga, jadwal, atau pertanyaan spesifik Anda"
+  :services="[
+  'Dasar — hanya dokumen dan konsultasi penting',
+  'Standar — dokumentasi lengkap dan panduan melalui tahap-tahap utama',
+  'Komprehensif — manajemen proses layanan penuh dengan keterlibatan minimal dari Anda',
+  'Kustom — perlu mendiskusikan detail spesifik dan persyaratan khusus',
+  ]"/>

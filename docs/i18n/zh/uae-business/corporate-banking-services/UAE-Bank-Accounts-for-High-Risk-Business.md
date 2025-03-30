@@ -7,13 +7,13 @@ description: "了解如何为高风险企业开设和保护阿联酋银行账户
 
 ## 执行摘要
 
-阿联酋为高风险企业（如加密货币公司、支付服务、离岸结构）提供重要机遇，包括优惠的税收政策、进入充满活力的金融中心的机会，以及在保持严格合规标准的同时支持创新的监管环境。本指南帮助企业在[阿联酋2024-2027年国家战略](https://www.mofa.gov.ae/en/mediahub/news/2024/9/5/5-9-2024-uae-uae)下应对加强的AML/CFT要求。
+阿联酋为高风险企业（如加密货币公司、支付服务、离岸结构）提供重要机遇，包括优惠的税收政策、进入充满活力的金融中心的机会，以及在保持严格合规标准的同时支持创新的监管环境。本指南帮助企业在[阿联酋2024-2027年国家战略](https://www.mofa.gov.ae/en/mediahub/news/2024/9/5/5-9-2024-uae-uae)框架下，应对加强的AML/CFT要求。
 
-![2024年阿联酋银行业关键指标](/content/uae-banking-stats.svg)
+![阿联酋银行业2024年关键指标](/content/uae-banking-stats.svg)
 
-## 理解监管框架
+## 了解监管框架
 
-阿联酋最新立法变更加强了合规要求，通过实施更严格的文件要求、强化尽职调查和增加监控义务，显著影响了高风险企业：
+阿联酋最新法律变更加强了合规要求，通过实施更严格的文件要求、强化尽职调查和增加监控义务，显著影响了高风险企业：
 
 - **[联邦法律第20号（2018年）](https://rulebook.centralbank.ae/en/rulebook/decree-federal-law-no-20-2018-anti-money-laundering-and-combating-financing-terrorism-and)**，2024年更新
 - **[内阁决议第10号（2019年）](https://uaelegislation.gov.ae/en/legislations/1015/download)**
@@ -28,8 +28,8 @@ description: "了解如何为高风险企业开设和保护阿联酋银行账户
 
 ### 关键步骤：
 
-- 研究银行政策（例如，Mashreq Bank 和 RAKBank 接受特定的高风险客户）
-- 验证最低存款要求（从 \$13,600 到 \$136,000 不等）
+- 研究银行政策（例如，Mashreq Bank 和 RAKBank 接受特定高风险客户）
+- 验证最低存款要求（从 13,600 美元到 136,000 美元不等）
 - 确保许可证符合阿联酋法规
 - 提交预审批请求以评估银行兴趣
 
@@ -39,13 +39,13 @@ description: "了解如何为高风险企业开设和保护阿联酋银行账户
 
 - 公司文件和许可证
 - 12个月财务报表
-- UBO（最终受益所有人）文件
+- UBO（最终受益人）文件
 - 资金来源验证
 - 合规政策和程序
 
 ## 3. 交易监控和风险管理
 
-银行必须通过 goAML 平台向金融情报中心 (FIU) 报告可疑活动。
+银行必须通过 goAML 平台向金融情报中心（FIU）报告可疑活动。
 
 ### 风险缓解步骤：
 
@@ -54,13 +54,13 @@ description: "了解如何为高风险企业开设和保护阿联酋银行账户
 - 维持实时交易监控
 - 提前向银行通报重大交易
 
-## 4. 账户活跃管理
+## 4. 账户积极管理
 
 ### 最佳实践：
 
 - 从可预测的、有记录的交易开始（例如：定期工资支付、定期供应商付款）
-- 与银行保持清晰的沟通
-- 提供定期合规更新
+- 与银行保持清晰沟通
+- 定期提供合规更新
 - 持续监控法规变化
 
 ## 5. 合规维护
@@ -69,7 +69,7 @@ description: "了解如何为高风险企业开设和保护阿联酋银行账户
 
 - 年度文档更新
 - 定期内部审计
-- 专职合规官员
+- 指定合规官员
 - AML/CFT 程序的员工培训
 
 ## 6. 应急计划
@@ -81,18 +81,18 @@ description: "了解如何为高风险企业开设和保护阿联酋银行账户
 - 为潜在挑战准备文件
 - 与银行合作伙伴建立清晰的沟通协议
 
-## 处罚与执法
+## 处罚和执行措施
 
 - 最高罚款100万迪拉姆（272,000美元）
 - 账户冻结和执照暂停
 - 严重违规将受到刑事处罚
 - 自2024年以来账户冻结增加15%
 
-![阿联酋银行处罚与执法](/content/penalties-enforcement.svg)
+![阿联酋银行处罚和执行措施](/content/penalties-enforcement.svg)
 
 ## 成功案例
 
-- 一家加密货币提供商通过实施严格的KYC/AML措施，包括详细验证实益拥有人和资金来源的透明报告，成功开设了账户。这帮助他们克服了银行最初的顾虑，获得了批准。
+- 一家加密货币提供商通过实施严格的KYC/AML措施，包括详细验证实益拥有人和透明的资金来源报告，成功开设了账户。这帮助他们克服了银行最初的顾虑，获得了批准。
 
 - 一家金融服务公司通过主动交易监控避免了账户冻结，包括定期与银行就大额交易进行沟通，并及时提交更新的合规文件以确保符合监管要求。
 
@@ -102,15 +102,15 @@ description: "了解如何为高风险企业开设和保护阿联酋银行账户
 
 - 文件准备
 - 交易监控
-- 法规合规
+- 监管合规
 - 风险管理咨询
 
 ## 法律资源
 
-- [司法部](https://www.moj.gov.ae)
-- [阿联酋金融情报中心](https://www.uaefiu.gov.ae)
-- [goAML 平台](https://goaml.ae)
-- [阿联酋中央银行 AML/CFT 指南](https://www.centralbank.ae/en/our-operations/anti-money-laundering-aml/)
+- [Ministry of Justice](https://www.moj.gov.ae)
+- [UAE Financial Intelligence Unit](https://www.uaefiu.gov.ae)
+- [goAML Platform](https://goaml.ae)
+- [UAE Central Bank AML/CFT Guidelines](https://www.centralbank.ae/en/our-operations/anti-money-laundering-aml/)
 
 > [!IMPORTANT] 💜 需要专业指导？
 > [联系我们的银行专家](../../resources/contacts)，以确保在阿联酋不断发展的监管环境中合规并防止账户冻结。
@@ -119,34 +119,22 @@ description: "了解如何为高风险企业开设和保护阿联酋银行账户
 
 ### 在阿联酋高风险企业账户需要哪些关键监管文件？
 
-- 高风险企业必须提供完整的公司文件、12个月财务报表、UBO文件、资金来源验证和合规政策。加强尽职调查是标准要求。更多详情，请参考[联邦法律第20号（2018年）](https://rulebook.centralbank.ae/en/rulebook/decree-federal-law-no-20-2018-anti-money-laundering-and-combating-financing-terrorism-and)。
+- 高风险企业必须提供完整的公司文件、12个月财务报表、UBO文件、资金来源验证和合规政策。加强尽职调查要求是标准做法。更多详情，请参考[联邦法律第20号（2018年）](https://rulebook.centralbank.ae/en/rulebook/decree-federal-law-no-20-2018-anti-money-laundering-and-combating-financing-terrorism-and)。
 
 ### 阿联酋哪些银行更倾向于与高风险客户合作？
 
-- Mashreq Bank和RAKBank等银行已表现出愿意与某些高风险客户合作的意向，但接受与否高度依赖于客户的具体风险状况和合规准备情况。建议查看银行官方网站的具体政策或直接联系他们获取指导。
+- Mashreq Bank和RAKBank等银行已表现出愿意与某些高风险客户合作的意向，但接受与否高度依赖于客户的具体风险状况和合规准备情况。建议查看各银行官方网站的具体政策或直接联系他们获取指导。
 
 ### 高风险企业如何降低账户冻结的风险？
 
-- 高风险企业应与银行保持积极沟通，确保严格遵守[AML/CFT要求](https://www.centralbank.ae/en/our-operations/anti-money-laundering-aml/)，及时更新文件，并建立可预测的、有据可查的交易记录。
+- 高风险企业应与银行保持积极沟通，确保完全遵守[AML/CFT要求](https://www.centralbank.ae/en/our-operations/anti-money-laundering-aml/)，及时更新文件，并建立可预测的、有据可查的交易。
 
-### 在阿联酋，高风险企业不合规会面临哪些处罚？
+### 在阿联酋，高风险企业因不合规可能面临哪些处罚？
 
-- 处罚包括最高100万迪拉姆的罚款、账户冻结、执照吊销，严重违规可能会面临刑事处罚。详细处罚指南请参考[内阁决议第10号（2019年）](https://uaelegislation.gov.ae/en/legislations/1015/download)。
+- 处罚包括高达100万迪拉姆的罚款、账户冻结、执照吊销，严重违规可能面临刑事处罚。详细处罚指南请参考[内阁决议第10号（2019年）](https://uaelegislation.gov.ae/en/legislations/1015/download)。
 
 ### 遵守阿联酋AML/CFT法规建议采取哪些步骤？
 
 - 关键步骤包括任命专职合规官员、定期进行内部审计、每年更新文件，并确保员工接受[AML/CFT程序](https://rulebook.centralbank.ae/en/rulebook/cabinet-decision-58-2020-beneficial-owner-procedures)培训。
 
 [![阿联酋移民：主要区别](/content/uae-immigration.svg)](../company-registration/benefits-problems.md)
-
-## 预约免费咨询以讨论您的企业银行需求
-
-<video  autoplay muted playsinline style="margin-top: 2rem" >
-  <source src="/img/iStock-2185912341.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal formName="Banking [high-risk]" buttonText="获取免费咨询" :services="[
- '🏢 UAE 居民公司账户',
- '🌐 非UAE居民公司账户（低风险）',
- '⚠️ 非UAE居民公司账户（高风险）',
- '👤 个人银行账户']"/>

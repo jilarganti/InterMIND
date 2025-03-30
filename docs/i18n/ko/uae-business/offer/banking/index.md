@@ -5,7 +5,7 @@ description: "선불 수수료 없는 프리미엄 다중 통화 기업 계좌 -
 showSponsors: false
 
 hero:
-  name: "UAE 뱅킹: 당신의 안전한 항구"
+  name: "UAE 뱅킹: 귀하의 안전한 항구"
   text: 선불 수수료 없음
   tagline: 2025년 기업 은행 계좌 승인 보장. <span class="hl">선불 수수료 없음</span> - 승인 후에만 지불. 90% 성공률.
   image:
@@ -63,7 +63,7 @@ hero:
     title: '컴플라이언스 유지: UAE 비즈니스 보호',
     items: [
       '잠재적 리스크 식별을 위한 정기적인 컴플라이언스 감사',
-      '정부 승인을 위한 종합적인 PRO 서비스',
+      '정부 승인을 위한 종합 PRO 서비스',
       '라이선스 갱신 관리 및 알림',
       '뱅킹 컨설팅 및 계좌 유지',
       'VAT 및 ESR 컴플라이언스 지원',
@@ -82,9 +82,9 @@ hero:
     title: 'UAE 기업 뱅킹 혜택',
     items: [
       'Moody\'s **Aa2** 등급의 강력한 뱅킹 시스템',
-      '**1980년부터 고정된 USD 환율**',
+      '**1980년 이후 고정된 USD 환율**',
       '자본 이동에 대한 제한 없음',
-      'US$1,840억 이상의 외환 보유고',
+      '1,840억 달러 이상의 외환 보유고',
       '정치적, 경제적 안정성',
       '정부 지원 뱅킹 시스템',
       '세계적 수준의 디지털 뱅킹'
@@ -99,7 +99,7 @@ hero:
   }
 ]" />
 
-## Golden Fish는 고객님들께 다음 은행들을 추천해드립니다:
+## Golden Fish에서 고객님께 추천하는 은행:
 
 <!--@include: /../../include/recommended-banks.md-->
 
@@ -109,7 +109,7 @@ hero:
   {
     icon: '🏆',
     title: '고위험 전문성',
-    text: '고위험 관할 지역의 복잡한 사례를 전문으로 합니다. enhanced due diligence (EDD) 요구사항에 대한 깊은 이해를 보유하고 있습니다.'
+    text: '고위험 관할권의 복잡한 사례를 전문으로 합니다. enhanced due diligence (EDD) 요구사항에 대한 깊은 이해를 보유하고 있습니다.'
   },
   {
     icon: '💰',
@@ -123,13 +123,13 @@ hero:
   },
   {
     icon: '📊',
-    title: '종합 규정 준수 지원',
+    title: '전체 규정 준수 지원',
     text: 'ESR 보고서, UBO 신고 및 규제 요구사항에 대한 전문적인 안내. 정기적인 컴플라이언스 업데이트.'
   },
   {
     icon: '📝',
     title: '문서 작성 전문성',
-    text: '사업 계획서와 규정 준수 정책을 포함한 모든 필요 서류의 전문적인 준비.'
+    text: '사업 계획서와 컴플라이언스 정책을 포함한 모든 필요 서류의 전문적인 준비.'
   },
   {
     icon: '🤝',
@@ -138,14 +138,23 @@ hero:
   }
 ]" />
 
-## 기업 금융 상담을 위한 무료 상담 예약
+## 기업 뱅킹 니즈에 대해 무료 상담 예약하기
 
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/video/iStock-2185918790.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Banking [offer]" buttonText="무료 상담 받기" :services="[
- '🏢 UAE 거주자 기업 계좌',
- '🌐 UAE 비거주자 기업 계좌 (저위험)',
- '⚠️ UAE 비거주자 기업 계좌 (고위험)',
- '👤 개인 은행 계좌']"/>
+<ContactFormModal 
+  formName="Banking [offer]" 
+  buttonText="무료 상담 받기" 
+  categoryLabel="필요한 지원 수준: *" 
+  categoryPlaceholderText="지원 수준을 선택하세요"
+  messageLabel="상담 준비를 위해 도움이 되는 정보 (권장사항)"
+  messagePlaceholderText="귀사의 사업 유형, 운영 관할 지역, 예상 거래량 및 특정 뱅킹 요구사항(다중 통화, 무역 금융 등)에 대해 알려주세요"
+  :services="[
+  '기본 — 필수 서류 및 계좌 개설 상담만 진행',
+  '표준 — 모든 뱅킹 단계에 대한 완전한 서류 작성 및 안내',
+  '종합 — 귀사의 최소한의 참여로 완벽한 뱅킹 설정 서비스 제공',
+  '맞춤형 — 대량 거래 또는 다중 관할 구조에 대해 논의 필요',
+  ]"
+/>

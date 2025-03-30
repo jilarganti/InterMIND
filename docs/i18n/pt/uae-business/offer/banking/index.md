@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Banco Corporativo nos EAU | Serviço Baseado em Taxa de Sucesso"
-description: "Contas corporativas premium em múltiplas moedas sem taxas antecipadas - pague apenas após a aprovação. Gestão completa da aplicação com 98% de taxa de sucesso. Abertura de conta garantida."
+description: "Contas corporativas multi-moeda premium sem taxas antecipadas - pague apenas após a aprovação. Gestão completa da aplicação com 98% de taxa de sucesso. Abertura de conta garantida."
 showSponsors: false
 
 hero:
@@ -15,7 +15,7 @@ hero:
     dark:
       src: /img/Logo.avif
       width: 50%
-    alt: Logo Golden Fish
+    alt: Logotipo Golden Fish
 ---
 
 <FeatureCards :features="[
@@ -44,7 +44,7 @@ hero:
   {
     title: 'Contas bancárias nos EAU para negócios de alto risco',
     items: [
-      'Orientação especializada em enhanced due diligence (EDD)',
+      'Orientação especializada em due diligence aprimorada (EDD)',
       'Monitoramento de transações e gestão de riscos',
       'Configuração de políticas e procedimentos de compliance',
       'Gestão de relacionamento bancário',
@@ -87,7 +87,7 @@ hero:
       'Reservas estrangeiras superiores a US$184 bilhões',
       'Estabilidade política e econômica',
       'Sistema bancário apoiado pelo governo',
-      'Sistema bancário digital de classe mundial'
+      'Banco digital de classe mundial'
     ],
     linkText: 'Read More',
     link: '../../company-registration/banking',
@@ -103,13 +103,13 @@ hero:
 
 <!--@include: /../../include/recommended-banks.md-->
 
-## Por Que Escolher a Golden Fish
+## Por que Escolher a Golden Fish
 
 <BenefitsList :features="[
   {
     icon: '🏆',
     title: 'Especialização em Alto Risco',
-    text: 'Especializado em casos complexos de jurisdições de alto risco. Profundo conhecimento dos requisitos de due diligence aprimorada (EDD).'
+    text: 'Especializada em casos complexos de jurisdições de alto risco. Profundo conhecimento dos requisitos de due diligence aprimorada (EDD).'
   },
   {
     icon: '💰',
@@ -144,8 +144,17 @@ hero:
   <source src="/video/iStock-2185918790.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Banking [offer]" buttonText="Obter uma consulta gratuita" :services="[
- '🏢 Conta Corporativa para Residentes nos UAE',
- '🌐 Conta Corporativa para Não-Residentes nos UAE (Baixo Risco)',
- '⚠️ Conta Corporativa para Não-Residentes nos UAE (Alto Risco)',
- '👤 Conta Bancária Pessoal']"/>
+<ContactFormModal 
+  formName="Banking [offer]" 
+  buttonText="Obter uma consulta gratuita" 
+  categoryLabel="Nível de suporte necessário: *" 
+  categoryPlaceholderText="Escolha seu nível de suporte"
+  messageLabel="Ajude-nos a preparar sua consulta (recomendado)"
+  messagePlaceholderText="Conte-nos sobre o tipo do seu negócio, jurisdições de operação, volumes esperados de transações e quaisquer necessidades bancárias específicas (múltiplas moedas, financiamento comercial, etc.)"
+  :services="[
+  'Básico — apenas consulta essencial de documentação e abertura de conta',
+  'Padrão — documentação completa e orientação em todas as etapas bancárias',
+  'Abrangente — configuração bancária completa com mínima participação da sua parte',
+  'Personalizado — necessidade de discutir transações de alto volume ou estrutura multijurisdicional',
+  ]"
+/>

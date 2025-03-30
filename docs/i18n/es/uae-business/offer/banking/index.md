@@ -1,11 +1,11 @@
 ---
 layout: home
-title: "Banca Corporativa en EAU | Servicio Basado en Comisión de Éxito"
+title: "Banca Corporativa EAU | Servicio Basado en Comisión de Éxito"
 description: "Cuentas corporativas premium multidivisa sin costos iniciales - pague solo después de la aprobación. Gestión completa de solicitudes con 98% de tasa de éxito. Apertura de cuenta garantizada."
 showSponsors: false
 
 hero:
-  name: "Banca en EAU: Su Puerto Seguro"
+  name: "Banca EAU: Su Puerto Seguro"
   text: Sin costos iniciales
   tagline: Aprobaciones garantizadas de cuentas corporativas en 2025. <span class="hl">Sin costos iniciales</span> - pague solo después de la aprobación. 90% de tasa de éxito.
   image:
@@ -23,7 +23,7 @@ hero:
     title: 'Aprobaciones de Cuenta Garantizadas',
     bullet: '✓',
     items: [
-      'Garantía de **dos meses** para la primera aprobación de cuenta',
+      '**Garantía de dos meses** para la aprobación de la primera cuenta',
       'Garantía de tres meses para la segunda cuenta',
       'Preparación de plan de negocios de calidad',
       'Soporte integral de due diligence',
@@ -42,7 +42,7 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Cuentas bancarias en EAU para negocios de alto riesgo',
+    title: 'Cuentas bancarias EAU para negocios de alto riesgo',
     items: [
       'Orientación experta en due diligence mejorada (EDD)',
       'Monitoreo de transacciones y gestión de riesgos',
@@ -64,9 +64,9 @@ hero:
     items: [
       'Auditorías regulares de cumplimiento para identificar riesgos potenciales',
       'Servicios PRO integrales para aprobaciones gubernamentales',
-      'Gestión de renovación de licencias y alertas',
+      'Gestión y alertas de renovación de licencias',
       'Consultoría bancaria y mantenimiento de cuenta',
-      'Soporte de cumplimiento de VAT y ESR',
+      'Soporte de cumplimiento VAT y ESR',
       'Cumplimiento de visas de empleados y leyes laborales',
       'Talleres de capacitación sobre actualizaciones regulatorias'
     ],
@@ -79,7 +79,7 @@ hero:
     }
   },
   {
-    title: 'Beneficios de la Banca Corporativa en EAU',
+    title: 'Beneficios de la Banca Corporativa EAU',
     items: [
       'Sistema bancario sólido con calificación **Aa2** de Moody\'s',
       '**Tipo de cambio USD fijo desde 1980**',
@@ -114,16 +114,16 @@ hero:
   {
     icon: '💰',
     title: 'Tarifas Basadas en Éxito',
-    text: 'Sin pagos iniciales - **pague solo después de la aprobación.** 98% de tasa de éxito para visas y 90% para cuentas bancarias.'
+    text: 'Sin pagos por adelantado - **pague solo después de la aprobación.** 98% de tasa de éxito para visas y 90% para cuentas bancarias.'
   },
   {
     icon: '🏦',
     title: 'Relaciones Bancarias',
-    text: 'Sólidas alianzas con los principales bancos de EAU. Múltiples opciones bancarias para maximizar las posibilidades de aprobación.'
+    text: 'Sólidas alianzas con los principales bancos de UAE. Múltiples opciones bancarias para maximizar las posibilidades de aprobación.'
   },
   {
     icon: '📊',
-    title: 'Soporte Completo en Cumplimiento',
+    title: 'Soporte Completo de Cumplimiento',
     text: 'Orientación experta en informes ESR, declaraciones UBO y requisitos regulatorios. Actualizaciones regulares de cumplimiento.'
   },
   {
@@ -144,8 +144,17 @@ hero:
   <source src="/video/iStock-2185918790.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Banking [offer]" buttonText="Obtener una consulta gratuita" :services="[
- '🏢 Cuenta Corporativa para Residentes de UAE',
- '🌐 Cuenta Corporativa para No Residentes de UAE (Bajo Riesgo)',
- '⚠️ Cuenta Corporativa para No Residentes de UAE (Alto Riesgo)',
- '👤 Cuenta Bancaria Personal']"/>
+<ContactFormModal 
+  formName="Banking [offer]" 
+  buttonText="Obtener una consulta gratuita" 
+  categoryLabel="Nivel de soporte requerido: *" 
+  categoryPlaceholderText="Elija su nivel de soporte"
+  messageLabel="Ayúdenos a prepararnos para su consulta (recomendado)"
+  messagePlaceholderText="Cuéntenos sobre el tipo de su negocio, jurisdicciones de operación, volúmenes de transacción esperados y cualquier necesidad bancaria específica (múltiples divisas, financiamiento comercial, etc.)"
+  :services="[
+  'Básico — solo consulta esencial de documentación y apertura de cuenta',
+  'Estándar — documentación completa y orientación durante todas las etapas bancarias',
+  'Integral — configuración bancaria completa con mínima participación de su parte',
+  'Personalizado — necesidad de discutir transacciones de alto volumen o estructura multijurisdiccional',
+  ]"
+/>

@@ -11,17 +11,17 @@ next: false
 
 # Contáctenos
 
-¿Busca establecer o hacer crecer su negocio en los EAU? Póngase en contacto con Golden Fish Corporate Services Provider LLC - su agente registrado para la formación de empresas, servicios PRO y asistencia con visados.
+¿Busca establecer o hacer crecer su negocio en los UAE? Póngase en contacto con Golden Fish Corporate Services Provider LLC - su agente registrado para la formación de empresas, servicios PRO y asistencia con visados.
 
 **Detalles de la Licencia:**
 
-- Número de Licencia: 1414192
-- Número de Registro: 2411728
+- Licencia No: 1414192
+- Registro No: 2411728
 
 **Ubicación de la Oficina:**  
 City Avenue Building  
 Office 405-070, Port Saeed  
-Dubái, EAU
+Dubai, UAE
 
 **Contacto:**
 
@@ -33,8 +33,21 @@ Dubái, EAU
 <!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
-> [!IMPORTANT] ¿Por qué Elegirnos?
-> Con un equipo de profesionales expertos y un compromiso con servicios personalizados, garantizamos una experiencia fluida y eficiente para nuestros clientes, permitiéndoles concentrarse en lo más importante: hacer crecer su negocio en los EAU.
+> [!IMPORTANT] ¿Por qué elegirnos?
+> Con un equipo de profesionales expertos y un compromiso con servicios personalizados, garantizamos una experiencia fluida y eficiente para nuestros clientes, permitiéndoles concentrarse en lo más importante: hacer crecer su negocio en los UAE.
 
-<ContactFormModal formName="Contáctenos" buttonText="Envíenos un mensaje" formStyle="display: block; margin: 2rem auto;"
-:services="['📝 Registro de empresa', '🏧 Apertura de cuentas bancarias', '🪪 EID & Golden Visa', 'Otros Servicios']"/>
+<ContactFormModal 
+  formName="Contáctenos" 
+  buttonText="Envíenos un mensaje" 
+  formStyle="display: block; margin: 2rem auto;"
+  categoryLabel="Nivel de soporte requerido: *" 
+  categoryPlaceholderText="Elija su nivel de soporte"
+  messageLabel="¿Cómo podemos ayudarle? (recomendado)"
+  messagePlaceholderText="Por favor, comparta los detalles de su consulta para ayudarnos a preparar la mejor solución para sus necesidades"
+  :services="[
+  'Básico — solo consulta inicial y orientación',
+  'Estándar — gestión completa de documentación y procesos',
+  'Integral — solución de servicio completo con mínima participación de su parte',
+  'Personalizado — requisitos complejos o situación empresarial única',
+  ]"
+/>

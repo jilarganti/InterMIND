@@ -23,14 +23,14 @@ hero:
     title: 'Jaminan Persetujuan Rekening',
     bullet: '✓',
     items: [
-      'Jaminan **dua bulan** untuk persetujuan rekening pertama',
+      '**Jaminan dua bulan** untuk persetujuan rekening pertama',
       'Jaminan tiga bulan untuk rekening kedua',
       'Penyusunan rencana bisnis berkualitas',
       'Dukungan uji tuntas komprehensif',
       'Strategi komunikasi langsung dengan bank',
       'Pengaturan paket perbankan lengkap'
     ],
-    linkText: 'Read More',
+    linkText: 'Baca Selengkapnya',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -51,7 +51,7 @@ hero:
       'Pembaruan dan audit kepatuhan rutin',
       'Perencanaan kontingensi untuk keamanan rekening'
     ],
-    linkText: 'Read More',
+    linkText: 'Baca Selengkapnya',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -64,13 +64,13 @@ hero:
     items: [
       'Audit kepatuhan rutin untuk mengidentifikasi potensi risiko',
       'Layanan PRO end-to-end untuk persetujuan pemerintah',
-      'Manajemen pembaruan lisensi dan peringatan',
+      'Manajemen dan peringatan pembaruan lisensi',
       'Konsultasi perbankan dan pemeliharaan rekening',
       'Dukungan kepatuhan VAT dan ESR',
       'Kepatuhan visa karyawan dan hukum ketenagakerjaan',
       'Lokakarya pelatihan tentang pembaruan regulasi'
     ],
-    linkText: 'Read More',
+    linkText: 'Baca Selengkapnya',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -89,7 +89,7 @@ hero:
       'Sistem perbankan yang didukung pemerintah',
       'Perbankan digital kelas dunia'
     ],
-    linkText: 'Read More',
+    linkText: 'Baca Selengkapnya',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',
@@ -99,7 +99,7 @@ hero:
   }
 ]" />
 
-## Golden Fish merekomendasikan bank-bank berikut untuk klien kami:
+## Golden Fish merekomendasikan bank-bank berikut kepada klien kami:
 
 <!--@include: /../../include/recommended-banks.md-->
 
@@ -114,7 +114,7 @@ hero:
   {
     icon: '💰',
     title: 'Biaya Berbasis Keberhasilan',
-    text: 'Tanpa biaya di muka - **bayar hanya setelah persetujuan.** Tingkat keberhasilan 98% untuk visa dan 90% untuk rekening bank.'
+    text: 'Tanpa biaya di muka - **bayar hanya setelah disetujui.** Tingkat keberhasilan 98% untuk visa dan 90% untuk rekening bank.'
   },
   {
     icon: '🏦',
@@ -134,7 +134,7 @@ hero:
   {
     icon: '🤝',
     title: 'Kemitraan Jangka Panjang',
-    text: '**Bantuan berkelanjutan** dengan operasi perbankan, akuntansi, pajak, dan persyaratan kepatuhan setelah pendirian.'
+    text: '**Bantuan berkelanjutan** dengan operasi perbankan, akuntansi, pajak, dan persyaratan kepatuhan setelah setup.'
   }
 ]" />
 
@@ -144,8 +144,17 @@ hero:
   <source src="/video/iStock-2185918790.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Banking [offer]" buttonText="Dapatkan konsultasi gratis" :services="[
- '🏢 Rekening Korporat Penduduk UAE',
- '🌐 Rekening Korporat Non-Penduduk UAE (Risiko Rendah)',
- '⚠️ Rekening Korporat Non-Penduduk UAE (Risiko Tinggi)',
- '👤 Rekening Bank Pribadi']"/>
+<ContactFormModal 
+  formName="Banking [offer]" 
+  buttonText="Dapatkan konsultasi gratis" 
+  categoryLabel="Tingkat dukungan yang diperlukan: *" 
+  categoryPlaceholderText="Pilih tingkat dukungan Anda"
+  messageLabel="Bantu kami mempersiapkan konsultasi Anda (direkomendasikan)"
+  messagePlaceholderText="Ceritakan tentang jenis bisnis Anda, yurisdiksi operasi, perkiraan volume transaksi, dan kebutuhan perbankan khusus (multi-mata uang, pembiayaan perdagangan, dll.)"
+  :services="[
+  'Dasar — hanya konsultasi dokumentasi esensial dan pembukaan rekening',
+  'Standar — dokumentasi lengkap dan panduan melalui semua tahap perbankan',
+  'Komprehensif — pengaturan perbankan layanan penuh dengan keterlibatan minimal dari pihak Anda',
+  'Kustom — perlu membahas transaksi volume tinggi atau struktur multi-yurisdiksi',
+  ]"
+/>

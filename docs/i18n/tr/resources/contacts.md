@@ -34,7 +34,20 @@ Dubai, UAE
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
 > [!IMPORTANT] Neden Bizi Seçmelisiniz?
-> Uzman profesyonel ekibimiz ve kişiselleştirilmiş hizmet taahhüdümüzle, müşterilerimizin BAE'deki işlerini büyütmeye odaklanabilmeleri için sorunsuz ve verimli bir deneyim sunuyoruz.
+> Bilgili profesyonellerden oluşan ekibimiz ve kişiselleştirilmiş hizmet taahhüdümüzle, müşterilerimizin en önemli konuya - BAE'deki işlerini büyütmeye - odaklanabilmeleri için sorunsuz ve verimli bir deneyim sunuyoruz.
 
-<ContactFormModal formName="Bize Ulaşın" buttonText="Bize mesaj gönderin" formStyle="display: block; margin: 2rem auto;"
-:services="['📝 Şirket tescili', '🏧 Banka hesabı açma', '🪪 EID & Golden Visa', 'Diğer Hizmetler']"/>
+<ContactFormModal 
+  formName="Bize Ulaşın" 
+  buttonText="Bize mesaj gönderin" 
+  formStyle="display: block; margin: 2rem auto;"
+  categoryLabel="Gereken destek seviyesi: *" 
+  categoryPlaceholderText="Destek seviyenizi seçin"
+  messageLabel="Size nasıl yardımcı olabiliriz? (önerilen)"
+  messagePlaceholderText="İhtiyaçlarınız için en iyi çözümü hazırlayabilmemiz için lütfen sorgunuzun detaylarını paylaşın"
+  :services="[
+  'Temel — yalnızca ilk danışmanlık ve rehberlik',
+  'Standart — eksiksiz dokümantasyon ve süreç yönetimi',
+  'Kapsamlı — sizin minimum katılımınızla tam hizmet çözümü',
+  'Özel — karmaşık gereksinimler veya benzersiz iş durumu',
+  ]"
+/>

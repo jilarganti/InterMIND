@@ -5,17 +5,17 @@ description: "Guide étape par étape pour obtenir le Visa Gold des EAU par l'in
 
 # Guide du Visa Gold des EAU : Processus Complet Étape par Étape pour la Résidence par Investissement, Business et Talent
 
-## Qu'est-ce que le Visa Golden des EAU ?
+## Qu'est-ce que le Visa Golden UAE ?
 
-Le Visa Golden des EAU représente un changement de paradigme dans l'approche du pays en matière de résidence, offrant une stabilité sans précédent aux personnes qualifiées grâce à une sécurité à long terme, une indépendance vis-à-vis du parrainage employeur et des avantages familiaux garantis. Lancé en 2019 et considérablement élargi en 2022, ce programme illustre l'engagement des EAU à attirer et retenir les talents de haut niveau et les investisseurs importants.
+Le Visa Golden UAE représente un changement de paradigme dans l'approche du pays en matière de résidence, offrant une stabilité sans précédent aux personnes qualifiées grâce à une sécurité à long terme, une indépendance vis-à-vis du parrainage employeur et des avantages familiaux garantis. Lancé en 2019 et considérablement étendu en 2022, ce programme illustre l'engagement des UAE à attirer et retenir les talents de haut niveau et les investisseurs importants.
 
-### Pourquoi Choisir le Visa Golden des EAU ?
+### Pourquoi choisir le Visa Golden UAE ?
 
-> [!TIP] 💙 Contrairement aux visas standards des EAU, le Visa Golden vous offre une indépendance totale : pas de parrainage employeur, pas de renouvellements réguliers et aucune restriction sur la propriété d'entreprise.
+> [!TIP] 💙 Contrairement aux visas UAE standard, le Visa Golden vous offre une indépendance totale : pas de parrainage employeur, pas de renouvellements réguliers et aucune restriction sur la propriété d'entreprise.
 
-Le Visa Golden des EAU offre une opportunité unique aux investisseurs, entrepreneurs et professionnels d'obtenir une résidence à long terme dans un pays reconnu pour sa stabilité économique, son environnement favorable aux affaires et sa qualité de vie élevée. Contrairement aux permis de résidence standards, le Visa Golden offre flexibilité, indépendance et un statut renouvelable de 10 ans.
+Le Visa Golden UAE offre une opportunité unique aux investisseurs, entrepreneurs et professionnels d'obtenir une résidence à long terme dans un pays reconnu pour sa stabilité économique, son environnement favorable aux entreprises et sa qualité de vie élevée. Contrairement aux permis de résidence standard, le Visa Golden offre flexibilité, indépendance et un statut renouvelable de 10 ans.
 
-## Avantages Clés du Visa Doré des EAU
+## Avantages Clés du Visa Golden des EAU
 
 <video  autoplay muted playsinline style="padding: 30px" class="light-only">
   <source src="/img/iStock-1906734765.mp4" type="video/mp4">
@@ -26,7 +26,7 @@ Le Visa Golden des EAU offre une opportunité unique aux investisseurs, entrepre
 
 ### Liberté de Mouvement
 
-> [!TIP] 💙 Les détenteurs du Golden Visa peuvent vivre à l'étranger tout en conservant leur résidence aux EAU - il n'y a pas d'exigence de séjour minimum aux EAU.
+> [!TIP] 💙 Les titulaires du Golden Visa peuvent vivre à l'étranger tout en conservant leur résidence aux EAU - il n'y a pas d'exigence de séjour minimum aux EAU.
 
 - **Entrée et sortie sans restriction** des EAU, sauf en cas de restrictions légales, d'interdictions de sécurité ou de limitations de voyage imposées par les autorités des EAU.
 - **Aucune exigence de séjour obligatoire** – Vivez à l'étranger tout en conservant votre résidence.
@@ -36,20 +36,20 @@ Le Visa Golden des EAU offre une opportunité unique aux investisseurs, entrepre
 
 > [!TIP] 💙 Gérez votre entreprise en toute liberté : 100% de propriété, pas besoin de partenaire local, et licences commerciales illimitées dans tous les émirats.
 
-- **Propriété d'entreprise à 100%** dans les sociétés du mainland.
+- **Propriété d'entreprise à 100%** dans les sociétés mainland.
 - **Rapatriement total des bénéfices** – Transférez 100% de vos profits à l'étranger sans restrictions.
 - **Aucune exigence de partenaire local** – Gérez votre entreprise de manière indépendante.
-- **Accès aux services bancaires premium** pour les investissements, prêts et planification financière.
+- **Accès aux services bancaires premium** pour les investissements, les prêts et la planification financière.
 - **Traitement préférentiel** dans les services gouvernementaux et traitement prioritaire.
 - **Aucune restriction de licence commerciale** – Exploitez plusieurs types d'entreprises sans contraintes de licence.
 
 ### Parrainage Familial
 
-> [!TIP] 💙 Parrainez toute votre famille, y compris les enfants jusqu'à 25 ans, les parents sans limite d'âge, et un personnel domestique illimité - tout sous votre Golden Visa.
+> [!TIP] 💙 Parrainez toute votre famille, y compris les enfants jusqu'à 25 ans, les parents sans limite d'âge et un personnel domestique illimité - tout sous votre Golden Visa.
 
 - **Parrainage familial complet**, comprenant :
   - Conjoint avec options de permis de travail indépendant.
-  - Enfants de moins de 25 ans, indépendamment de leur éducation ou statut matrimonial.
+  - Enfants de moins de 25 ans, indépendamment de leur éducation ou de leur état civil.
   - Enfants handicapés, parrainés à vie.
   - Parrainage des parents sans restrictions d'âge.
   - Parrainage illimité du personnel domestique.
@@ -60,7 +60,7 @@ Le Visa Golden des EAU offre une opportunité unique aux investisseurs, entrepre
 
 ### 1. Investissement Immobilier (2M+ AED)
 
-> [!TIP] 💙 L'investissement immobilier peut inclure toute combinaison de biens résidentiels et commerciaux, y compris les propriétés sur plan des promoteurs agréés.
+> [!TIP] 💙 L'investissement immobilier peut inclure toute combinaison de biens résidentiels et commerciaux, y compris les propriétés sur plan auprès de promoteurs agréés.
 
 - **Types d'investissement** : Propriété unique, propriétés multiples, achats sur plan, unités résidentielles ou commerciales.
 - **Critères d'évaluation** : Prix d'achat, valeur marchande ou évaluation du promoteur.
@@ -69,7 +69,7 @@ Le Visa Golden des EAU offre une opportunité unique aux investisseurs, entrepre
 
 ### 2. Participation aux Fonds d'Investissement (2M+ AED)
 
-- **Montant d'investissement** : Dépôt minimum de 2M AED dans un fonds éligible des EAU.
+- **Montant d'investissement** : Dépôt minimum de 2M AED dans un fonds éligible aux EAU.
 - **Période de détention** : Une période de blocage de 3 ans est requise.
 - **Fonds éligibles** : Fonds d'investissement accrédités aux EAU approuvés par la Securities and Commodities Authority (SCA).
 - **Exigences supplémentaires** : Preuve d'investissement et conformité aux réglementations spécifiques du fonds.
@@ -90,7 +90,7 @@ Le Visa Golden des EAU offre une opportunité unique aux investisseurs, entrepre
 > [!TIP] 💙 Les professionnels hautement qualifiés dans tous les domaines, y compris la médecine, la science, l'ingénierie, les technologies de l'information, la gestion d'entreprise, l'éducation, le droit, la culture et les sciences sociales, sont éligibles au Visa Doré des EAU selon les conditions suivantes.
 
 - **Contrat de Travail Valide** : Le candidat doit avoir un contrat de travail valide avec un employeur basé aux EAU.
-- **Qualifications Académiques** : Un minimum de licence est requis.
+- **Qualifications Académiques** : Un diplôme minimum de licence est requis.
 - **Exigence Salariale** : Un salaire mensuel minimum de 30 000 AED est requis.
 - **Exigences supplémentaires** : Les certificats des ministères et autorités des EAU sont obligatoires.
 
@@ -101,7 +101,7 @@ Le Visa Golden des EAU offre une opportunité unique aux investisseurs, entrepre
 - Contrat de travail valide.
 - Un salaire mensuel minimum de 50 000 AED est requis.
 
-### 6. Talent Exceptionnel
+### 6. Talents Exceptionnels
 
 > [!TIP] 💙 Les personnes ayant un talent extraordinaire dans leurs domaines respectifs peuvent être éligibles au Visa Doré des EAU selon les conditions suivantes.
 
@@ -109,7 +109,7 @@ Le Visa Golden des EAU offre une opportunité unique aux investisseurs, entrepre
   - Artistes, athlètes, inventeurs et personnes ayant des réalisations remarquables en science, technologie ou autres industries créatives.
   - Les candidats doivent démontrer une contribution significative dans leur domaine.
 - **Conditions d'Approbation** :
-  - L'approbation d'une autorité pertinente des EAU (par exemple, le Ministère de la Culture et de la Jeunesse, l'Autorité Générale des Sports ou d'autres entités sectorielles) est obligatoire.
+  - L'approbation d'une autorité pertinente des EAU (par exemple, le Ministère de la Culture et de la Jeunesse, l'Autorité Générale des Sports ou d'autres entités spécifiques au secteur) est obligatoire.
   - La soumission de preuves telles que des prix, des brevets ou des réalisations internationalement reconnues peut être requise.
 
 ### 7. Étudiants et Diplômés Exceptionnels
@@ -149,14 +149,14 @@ Le Visa Golden des EAU offre une opportunité unique aux investisseurs, entrepre
 > - Préparés en format numérique
 
 - **Traduction et attestation** – Traduisez et légalisez les documents clés.
-- **Soumission de tous les documents** – Téléchargez la documentation financière, éducative et personnelle.
+- **Soumission de tous les documents** – Téléchargez les documents financiers, éducatifs et personnels.
 
 ### Étape 3 : Dépôt de la Demande (1-2 Semaines)
 
 - **Soumission de la demande en ligne** – Déposez la demande de visa en ligne.
 - **Paiement des frais** – Payez les frais applicables.
 
-### Étape 4 : Procédures dans le Pays (1-2 Semaines)
+### Étape 4 : Procédures sur Place (1-2 Semaines)
 
 - **Examen médical** – Effectuez un bilan de santé.
 - **Données biométriques** – Soumettez vos empreintes digitales et une photo.
@@ -173,13 +173,13 @@ Le Visa Golden des EAU offre une opportunité unique aux investisseurs, entrepre
 
 > [!TIP] 💙 Le renouvellement du Golden Visa nécessite le maintien des conditions d'éligibilité, mais nous gérons le processus de renouvellement sans frais d'agence - vous ne payez que les frais gouvernementaux obligatoires.
 
-**1. Combien de temps faut-il pour obtenir un Golden Visa aux EAU ?**
+**1. Combien de temps faut-il pour obtenir un Golden Visa aux UAE ?**
 
 - Cela prend généralement 4 à 8 semaines, selon la préparation des documents, l'éligibilité et les délais de traitement gouvernementaux.
 
-**2. Puis-je demander un Golden Visa avec un visa touristique ?**
+**2. Puis-je faire une demande de Golden Visa avec un visa touristique ?**
 
-- Oui, les touristes peuvent faire la demande et convertir leur statut une fois le visa approuvé.
+- Oui, les touristes peuvent faire une demande et convertir leur statut une fois le visa approuvé.
 
 **3. Dois-je maintenir mon investissement pour conserver mon visa ?**
 
@@ -187,7 +187,7 @@ Le Visa Golden des EAU offre une opportunité unique aux investisseurs, entrepre
 
 **4. Les membres de la famille peuvent-ils être inclus dans la demande ?**
 
-- Oui, vous pouvez parrainer votre conjoint, vos enfants (jusqu'à 25 ans), vos parents et un nombre illimité de personnel domestique.
+- Oui, vous pouvez parrainer votre conjoint(e), vos enfants (jusqu'à 25 ans), vos parents et un nombre illimité de personnel domestique.
 
 **5. Que se passe-t-il si ma demande est rejetée ?**
 
@@ -197,39 +197,45 @@ Le Visa Golden des EAU offre une opportunité unique aux investisseurs, entrepre
 
 - Le Golden Visa est renouvelable tous les 10 ans si les critères d'éligibilité continuent d'être remplis.
 
-**7. Quels sont les avantages fiscaux du Golden Visa des EAU ?**
+**7. Quels sont les avantages fiscaux du Golden Visa des UAE ?**
 
-- Les EAU n'ont pas d'impôt sur le revenu, ce qui permet aux détenteurs de profiter de revenus non imposables.
+- Les UAE n'ont pas d'impôt sur le revenu, ce qui permet aux détenteurs de profiter de revenus non imposables.
 
 **8. Que se passe-t-il si ma situation change ?**
 
-- Signalez les changements aux autorités des EAU car ils peuvent affecter votre statut de visa.
+- Signalez les changements aux autorités des UAE car ils peuvent affecter votre statut de visa.
 
 > [!NOTE] 💚 Certains critères doivent être remplis pour bénéficier pleinement de ces avantages.
 
 ## Nos Services de Support
 
-> [!NOTE] 💚 Notre modèle de frais basé sur le succès signifie que vous ne payez rien jusqu'à l'approbation de votre Golden Visa. 98% de nos demandes sont acceptées, et nous fournissons un support complet tout au long du processus.
+> [!NOTE] 💚 Notre modèle de rémunération basé sur le succès signifie que vous ne payez rien jusqu'à l'approbation de votre Golden Visa. 98% de nos demandes sont acceptées, et nous fournissons un support complet tout au long du processus.
 
 ### Pack de Support Complet
 
 - **Gestionnaire de dossier dédié** – Recevez des conseils étape par étape.
 - **Traitement des documents** – Nous gérons la traduction, l'attestation et le téléchargement des documents.
 - **Assistance 24/7** – Support client à chaque étape du processus.
-- **Liaison gouvernementale** – Nous gérons la communication avec les autorités des UAE.
+- **Liaison gouvernementale** – Nous gérons la communication avec les autorités des EAU.
 - **Support post-approbation** – Assistance pour l'Emirates ID, les visas familiaux et les services bancaires.
 - **Consultation juridique** – Obtenez des conseils sur la conformité et les exigences d'investissement.
 
-## Contactez-nous pour une consultation personnalisée et commencez votre parcours vers le Visa d'Or des EAU aujourd'hui.
+## Contactez-nous pour une consultation personnalisée et commencez votre parcours vers le Visa Golden UAE dès aujourd'hui.
 
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Golden Visa [guide]" buttonText="Obtenir une consultation gratuite" :services="[
-  '🏠 Investissement de 2M AED dans l\'immobilier aux EAU',
-  '💰 Dépôt de 2M AED dans des fonds d\'investissement aux EAU',
-  '🏢 Entreprise avec un capital de 2M AED',
-  '📈 Contribution FTA annuelle de 250K AED',
-  '👨‍💼 Professionnels qualifiés',
-  '🎯 Talents exceptionnels',]"/>
+<ContactFormModal 
+  formName="Golden Visa [guide]" 
+  buttonText="Obtenir une consultation gratuite" 
+  categoryLabel="Niveau de support requis : *" 
+  categoryPlaceholderText="Choisissez votre niveau de support"
+  messageLabel="Aidez-nous à préparer votre consultation (recommandé)"
+  messagePlaceholderText="Parlez-nous de vos préférences d'investissement, des membres de votre famille, du calendrier ou de toute question spécifique"
+  :services="[
+  'Basique — documents essentiels et consultations uniquement',
+  'Standard — documentation complète et accompagnement dans les principales étapes',
+  'Complet — gestion complète du processus avec une implication minimale de votre part',
+  'Personnalisé — besoin de discuter des détails spécifiques et des exigences particulières',
+  ]"/>

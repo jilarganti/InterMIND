@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: Get Free Consultation
-      link: ./chat
-    - theme: alt
-      text: Support 24/7
       link: ./resources/contacts
+    # - theme: alt
+    #   text: Support 24/7
+    #   link: ./resources/contacts
   image:
     light:
       src: /img/Logo.avif
@@ -23,16 +23,32 @@ hero:
     dark:
       src: /img/Logo.avif
       width: 50%
-    alt: Logo de Golden Fish
+    alt: Logotipo Golden Fish
 ---
 
 <FeatureCards :features="[
+  {
+    title: 'Guía de Configuración de Empresas',
+    details: 'Guía completa para establecer empresas en Free Zone, offshore, Mainland, sucursal.',
+    items: [
+      '**100% Propiedad Extranjera** disponible en Free Zones y Mainland',
+      'Bajas Tasas Impositivas - solo 9% de impuesto corporativo',
+      'Sin Control de Divisas - fácil repatriación de capital'
+    ],
+    linkText: 'Read More',
+    link: './uae-business/company-registration/overview',
+    icon: {
+      light: '/img/iStock-2051326997.avif',
+      dark: '/img/iStock-1448478309.jpg',
+      alt: 'Guía de Configuración de Empresas'
+    }
+  },
   {
     title: 'Apertura de Cuenta Bancaria',
     details: 'Abra fácilmente cuentas bancarias comerciales o personales con los bancos de confianza de los EAU.',
     items: [
       'Aprobaciones garantizadas de cuentas bancarias corporativas',
-      'Tasa de éxito del 90%',
+      '90% tasa de éxito',
       '**Sin costos iniciales** - pague solo después de la aprobación',
     ],
     linkText: 'Read More',
@@ -48,7 +64,7 @@ hero:
     details: 'Obtenga una **Golden Visa** de EAU para residencia a largo plazo con un proceso de solicitud sin complicaciones.',
     items: [
       '**No es necesario ingresar a EAU cada 6 meses**',
-      'Tasa de éxito del 98%',
+      '98% tasa de éxito',
       '**Sin costos iniciales** - pague solo después de la aprobación',
     ],
     linkText: 'Read More',
@@ -57,22 +73,6 @@ hero:
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
       alt: 'Servicios de Visado'
-    }
-  },
-  {
-    title: 'Guía de Configuración de Empresas',
-    details: 'Guía completa para establecer empresas en Free Zone, offshore, Mainland, sucursal.',
-    items: [
-      '**100% Propiedad Extranjera** disponible en Free Zones y Mainland',
-      'Tasas Impositivas Bajas - solo 9% de impuesto corporativo',
-      'Sin Control de Divisas - fácil repatriación de capital'
-    ],
-    linkText: 'Read More',
-    link: './uae-business/company-registration/overview',
-    icon: {
-      light: '/img/iStock-2051326997.avif',
-      dark: '/img/iStock-1448478309.jpg',
-      alt: 'Guía de Configuración de Empresas'
     }
   },
 ]" />
@@ -154,7 +154,7 @@ hero:
 {
  icon: '📝',
  title: 'Documentación Profesional',
- text: 'Nuestro equipo prepara planes de negocio completos y gestiona toda la documentación de cumplimiento.'
+ text: 'Nuestro equipo prepara planes de negocio completos y maneja toda la documentación de cumplimiento.'
 },
 {
  icon: '🤝',
@@ -163,7 +163,7 @@ hero:
 }
 ]" />
 
-## Empiece Ahora - Consulta Inicial Gratuita
+<!-- ## Get Started Now - Free Initial Consultation
 
 <div id="contact-form"></div>
 
@@ -171,12 +171,12 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Home page" buttonText="Obtener una consulta gratuita" 
-:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/>
+<ContactFormModal formName="Home page" buttonText="Get a free consultation"
+:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/> -->
 
 <!-- <br>
 
-# Historias de Éxito
+# Success Stories
 
 <br>
 

@@ -22,16 +22,16 @@ Los cambios recientes en la legislación de UAE han fortalecido los requisitos d
 
 ## 1. Selección del Banco y Evaluación Inicial
 
-**Desafío:** No todos los bancos de EAU aceptan clientes de alto riesgo o estructuras empresariales complejas debido a preocupaciones sobre el cumplimiento normativo, mayores requisitos de monitoreo, posibles riesgos reputacionales y el aseguramiento de obligaciones prácticas de AML/CFT.
+**Desafío:** No todos los bancos de UAE aceptan clientes de alto riesgo o estructuras empresariales complejas debido a preocupaciones sobre el cumplimiento normativo, mayores requisitos de monitoreo, posibles riesgos reputacionales y el aseguramiento de obligaciones prácticas de AML/CFT.
 
 ![Proceso de Selección Bancaria](/content/bank-selection.svg)
 
 ### Pasos Clave:
 
-- Investigar políticas bancarias (por ejemplo, Mashreq Bank y RAKBank aceptan clientes específicos de alto riesgo)
+- Investigar políticas bancarias (por ejemplo, Mashreq Bank y RAKBank aceptan ciertos clientes de alto riesgo)
 - Verificar requisitos de depósito mínimo (desde \$13,600 hasta \$136,000)
-- Asegurar la compatibilidad de la licencia con las regulaciones de EAU
-- Enviar solicitudes de aprobación previa para evaluar el interés del banco
+- Asegurar la compatibilidad de la licencia con las regulaciones de UAE
+- Enviar solicitudes de pre-aprobación para evaluar el interés del banco
 
 ## 2. Documentación de Debida Diligencia Mejorada (EDD)
 
@@ -85,24 +85,24 @@ Los bancos deben reportar actividades sospechosas a la Unidad de Inteligencia Fi
 
 - Multas de hasta AED 1 millón (\$272,000)
 - Congelación de cuentas y suspensión de licencias
-- Sanciones penales para infracciones graves
-- Incremento del 15% en bloqueos de cuentas desde 2024
+- Sanciones penales por infracciones graves
+- Aumento del 15% en bloqueos de cuentas desde 2024
 
 ![Sanciones y Cumplimiento Bancario en EAU](/content/penalties-enforcement.svg)
 
 ## Casos de Éxito
 
-- Un proveedor de criptomonedas logró abrir cuentas exitosamente mediante la implementación de medidas robustas de KYC/AML, incluyendo la verificación detallada de los beneficiarios finales y la presentación transparente del origen de los fondos. Esto ayudó a obtener la aprobación bancaria a pesar de las dudas iniciales.
-- Una empresa de servicios financieros evitó el congelamiento de cuentas mediante el monitoreo proactivo de transacciones, incluyendo la comunicación regular con el banco sobre transacciones de alto valor y la presentación oportuna de documentos de cumplimiento actualizados para garantizar el alineamiento regulatorio.
+- Un proveedor de criptomonedas logró abrir cuentas exitosamente mediante la implementación de sólidas medidas KYC/AML, incluyendo la verificación detallada de los beneficiarios finales y la presentación transparente del origen de los fondos. Esto ayudó a obtener la aprobación bancaria a pesar de las dudas iniciales.
+- Una empresa de servicios financieros evitó el congelamiento de cuentas mediante un monitoreo proactivo de transacciones, incluyendo comunicación regular con el banco sobre transacciones de alto valor y la presentación oportuna de documentos de cumplimiento actualizados para garantizar el alineamiento regulatorio.
 
 ## Asistencia Profesional
 
-Para obtener apoyo integral en la gestión y cumplimiento de cuentas bancarias en UAE, considere lo siguiente:
+Para un apoyo integral en la gestión y cumplimiento de cuentas bancarias en UAE, considere lo siguiente:
 
 - Preparación de documentos
 - Monitoreo de transacciones
 - Cumplimiento normativo
-- Asesoría en gestión de riesgos
+- Asesoramiento en gestión de riesgos
 
 ## Recursos Legales
 
@@ -112,15 +112,15 @@ Para obtener apoyo integral en la gestión y cumplimiento de cuentas bancarias e
 - [UAE Central Bank AML/CFT Guidelines](https://www.centralbank.ae/en/our-operations/anti-money-laundering-aml/)
 
 > [!IMPORTANT] 💜 ¿Necesita orientación experta?
-> [Contact our banking experts](../../resources/contacts) para garantizar el cumplimiento y prevenir el bloqueo de cuentas en el panorama regulatorio cambiante de los EAU.
+> [Contact our banking experts](../../resources/contacts) para garantizar el cumplimiento y evitar el bloqueo de cuentas en el panorama regulatorio cambiante de los EAU.
 
 ## Preguntas frecuentes para abogados profesionales
 
 ### ¿Cuáles son los documentos regulatorios críticos necesarios para cuentas comerciales de alto riesgo en los UAE?
 
-- Los negocios de alto riesgo deben proporcionar documentos corporativos completos, estados financieros de 12 meses, documentación UBO, verificación del origen de los fondos y políticas de cumplimiento. Los requisitos de debida diligencia mejorada son estándar. Para más detalles, consulte [Federal Law No. 20 (2018)](https://rulebook.centralbank.ae/en/rulebook/decree-federal-law-no-20-2018-anti-money-laundering-and-combating-financing-terrorism-and).
+- Los negocios de alto riesgo deben proporcionar documentos corporativos completos, estados financieros de 12 meses, documentación UBO, verificación del origen de los fondos y políticas de cumplimiento. Los requisitos de debida diligencia mejorada son estándar. Para más detalles, consulte la [Federal Law No. 20 (2018)](https://rulebook.centralbank.ae/en/rulebook/decree-federal-law-no-20-2018-anti-money-laundering-and-combating-financing-terrorism-and).
 
-### ¿Qué bancos en los UAE están más inclinados a trabajar con clientes de alto riesgo?
+### ¿Qué bancos en los UAE están más dispuestos a trabajar con clientes de alto riesgo?
 
 - Bancos como Mashreq Bank y RAKBank han demostrado disposición para trabajar con ciertos clientes de alto riesgo, aunque la aceptación depende en gran medida del perfil de riesgo específico del cliente y su preparación para el cumplimiento. Es recomendable revisar las políticas específicas de los bancos en sus sitios web oficiales o contactarlos directamente para obtener orientación.
 
@@ -130,22 +130,10 @@ Para obtener apoyo integral en la gestión y cumplimiento de cuentas bancarias e
 
 ### ¿Qué sanciones pueden enfrentar los negocios de alto riesgo por incumplimiento en los UAE?
 
-- Las sanciones incluyen multas de hasta 1 millón de AED, congelación de cuentas, suspensión de licencias y potencialmente sanciones penales por violaciones graves. Para guías detalladas sobre sanciones, consulte [Cabinet Resolution No. 10 (2019)](https://uaelegislation.gov.ae/en/legislations/1015/download).
+- Las sanciones incluyen multas de hasta 1 millón de AED, congelación de cuentas, suspensión de licencias y potencialmente sanciones penales por violaciones graves. Para ver las pautas detalladas de sanciones, consulte la [Cabinet Resolution No. 10 (2019)](https://uaelegislation.gov.ae/en/legislations/1015/download).
 
 ### ¿Qué pasos se recomiendan para cumplir con las regulaciones AML/CFT de los UAE?
 
 - Los pasos clave incluyen nombrar un oficial de cumplimiento dedicado, realizar auditorías internas regulares, actualizar la documentación anualmente y asegurar que el personal esté capacitado en [procedimientos AML/CFT](https://rulebook.centralbank.ae/en/rulebook/cabinet-decision-58-2020-beneficial-owner-procedures).
 
 [![Inmigración UAE: Diferencias Clave](/content/uae-immigration.svg)](../company-registration/benefits-problems.md)
-
-## Reserve una consulta gratuita para discutir sus necesidades bancarias corporativas
-
-<video  autoplay muted playsinline style="margin-top: 2rem" >
-  <source src="/img/iStock-2185912341.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal formName="Banking [high-risk]" buttonText="Obtener una consulta gratuita" :services="[
- '🏢 Cuenta Corporativa para Residentes de UAE',
- '🌐 Cuenta Corporativa para No Residentes de UAE (Bajo Riesgo)',
- '⚠️ Cuenta Corporativa para No Residentes de UAE (Alto Riesgo)',
- '👤 Cuenta Bancaria Personal']"/>

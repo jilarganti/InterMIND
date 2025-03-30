@@ -6,7 +6,7 @@ next: false
 ---
 
 <!-- <p>
-  <img src="/img/Logo.avif" alt="logo" width="100" height="100" style="margin-left: 50%;">
+  <img src="/img/Logo.avif" alt="logotipo" width="100" height="100" style="margin-left: 50%;">
 </p> -->
 
 # Entre em Contato
@@ -34,7 +34,20 @@ Dubai, UAE
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
 > [!IMPORTANT] Por que Nos Escolher?
-> Com uma equipe de profissionais experientes e um compromisso com serviços personalizados, garantimos uma experiência tranquila e eficiente para nossos clientes, permitindo que eles se concentrem no que é mais importante – fazer seu negócio crescer nos Emirados Árabes Unidos.
+> Com uma equipe de profissionais experientes e um compromisso com serviços personalizados, garantimos uma experiência tranquila e eficiente para os clientes, permitindo que eles se concentrem no que é mais importante – fazer seu negócio crescer nos Emirados Árabes Unidos.
 
-<ContactFormModal formName="Entre em Contato" buttonText="Envie-nos uma mensagem" formStyle="display: block; margin: 2rem auto;"
-:services="['📝 Registro de empresa', '🏧 Abertura de contas bancárias', '🪪 EID & Golden Visa', 'Outros Serviços']"/>
+<ContactFormModal 
+  formName="Entre em Contato" 
+  buttonText="Envie-nos uma mensagem" 
+  formStyle="display: block; margin: 2rem auto;"
+  categoryLabel="Nível de suporte necessário: *" 
+  categoryPlaceholderText="Escolha seu nível de suporte"
+  messageLabel="Como podemos ajudar? (recomendado)"
+  messagePlaceholderText="Por favor, compartilhe os detalhes da sua consulta para nos ajudar a preparar a melhor solução para suas necessidades"
+  :services="[
+  'Básico — apenas consulta inicial e orientação',
+  'Padrão — documentação completa e gerenciamento de processos',
+  'Abrangente — solução completa com mínima participação da sua parte',
+  'Personalizado — requisitos complexos ou situação empresarial única',
+  ]"
+/>

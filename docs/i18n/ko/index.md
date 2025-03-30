@@ -1,21 +1,18 @@
 ---
 layout: home
 title: "UAE 기업 설립 서비스"
-description: "UAE 전문 기업 설립 및 지원 서비스. 회사 설립, 은행, 세금, 법률 및 비자 솔루션. 귀하의 비즈니스 꿈을 현실로 만들어 드립니다."
+description: "전문적인 UAE 기업 설립 및 지원 서비스. 회사 설립, 은행업무, 세금, 법률 및 비자 솔루션. 귀하의 비즈니스 꿈을 현실로 만들어 드립니다."
 showSponsors: false
 
 hero:
   name: "UAE: 귀하의 금융 안전항"
-  # text: We speak your tongue
-  tagline: "종합 비즈니스 지원: 은행, 회사 설립, 비자. 승인 후 수수료 지불 - 선불 없음"
+  tagline: "종합 비즈니스 지원: 은행업무, 회사 설립, 비자. 선수금 없음 - 승인 후 지불"
 
   actions:
     - theme: brand
       text: Get Free Consultation
-      link: ./chat
-    - theme: alt
-      text: Support 24/7
       link: ./resources/contacts
+
   image:
     light:
       src: /img/Logo.avif
@@ -28,12 +25,28 @@ hero:
 
 <FeatureCards :features="[
   {
+    title: '회사 설립 가이드',
+    details: 'Free Zone, Offshore, Mainland, Branch에서의 회사 설립을 위한 완벽한 가이드.',
+    items: [
+      'Free Zone과 Mainland에서 **100% 외국인 소유** 가능',
+      '낮은 세율 - 9% 법인세만 적용',
+      '환율 통제 없음 - 자본 본국 송금 용이'
+    ],
+    linkText: 'Read More',
+    link: './uae-business/company-registration/overview',
+    icon: {
+      light: '/img/iStock-2051326997.avif',
+      dark: '/img/iStock-1448478309.jpg',
+      alt: '회사 설립 가이드'
+    }
+  },
+  {
     title: '은행 계좌 개설',
-    details: 'UAE 신뢰할 수 있는 은행에서 기업 또는 개인 계좌를 쉽게 개설하세요.',
+    details: 'UAE의 신뢰할 수 있는 은행들과 함께 기업 또는 개인 은행 계좌를 쉽게 개설하세요.',
     items: [
       '기업 은행 계좌 승인 보장',
       '90% 성공률',
-      '**선불 수수료 없음** - 승인 후 지불',
+      '**선수금 없음** - 승인 후 지불',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/banking/',
@@ -45,11 +58,11 @@ hero:
   },
   {
     title: 'Golden Visa 및 거주권',
-    details: '간편한 신청 절차로 장기 거주를 위한 UAE **Golden Visa**를 취득하세요.',
+    details: '원활한 신청 절차로 장기 거주를 위한 UAE **Golden Visa**를 취득하세요.',
     items: [
       '**6개월마다 UAE 입국 불필요**',
       '98% 성공률',
-      '**선불 수수료 없음** - 승인 후 지불',
+      '**선수금 없음** - 승인 후 지불',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/golden-visa/',
@@ -59,28 +72,12 @@ hero:
       alt: '비자 서비스'
     }
   },
-  {
-    title: '회사 설립 가이드',
-    details: 'Free Zone, 역외, Mainland, 지사 설립을 위한 완벽한 가이드.',
-    items: [
-      'Free Zone과 Mainland에서 **100% 외국인 소유** 가능',
-      '낮은 세율 - 9% 법인세만 적용',
-      '환율 통제 없음 - 자본 송금 용이'
-    ],
-    linkText: 'Read More',
-    link: './uae-business/company-registration/overview',
-    icon: {
-      light: '/img/iStock-2051326997.avif',
-      dark: '/img/iStock-1448478309.jpg',
-      alt: '회사 설립 가이드'
-    }
-  },
 ]" />
 
 <FeatureCards :features="[
   {
     title: '규정 준수 서비스',
-    details: '전문가들이 ESR 보고서와 UBO 신고를 포함한 UAE의 복잡한 규제 요건을 안내해 드립니다.',
+    details: '당사의 전문가들이 ESR 보고서와 UBO 신고를 포함한 복잡한 UAE 규제 요건을 안내해 드립니다.',
     items: [],
     linkText: 'Read More',
     link: './uae-business/company-registration/ubo',
@@ -104,7 +101,7 @@ hero:
   },
   {
     title: '법률 서비스',
-    details: '법률팀이 M&A, 기업 구조조정, 자금 조달, 분쟁 해결에 관한 UAE 법률 자문을 제공합니다.',
+    details: '법률팀이 M&A, 기업 구조조정, 자금조달, 분쟁해결에 관한 UAE 법률 자문을 제공합니다.',
     items: [],
     linkText: 'Read More',
     link: './uae-business/company-registration/Protect-Your-Business',
@@ -116,7 +113,7 @@ hero:
   },
   {
     title: '회계 및 급여',
-    details: '회계사들이 장부 기장, 조정, 급여, 감사 지원을 제공하여 채용 비용을 절감해 드립니다.',
+    details: '당사의 회계사들이 부기, 조정, 급여, 감사 지원을 제공하여 채용 비용을 절감해 드립니다.',
     items: [],
     linkText: 'Read More',
     link: './resources/contacts',
@@ -125,7 +122,7 @@ hero:
       dark: '/img/iStock-1320130292.jpg',
       alt: '회계 서비스'
     }
-  },
+  }
 ]" />
 
 ## Golden Fish를 선택해야 하는 이유
@@ -134,7 +131,7 @@ hero:
 {
  icon: '💰',
  title: '성과 기반 수수료',
- text: '**선불 수수료 없음 - 승인 후에만 지불.** 숨겨진 비용 없는 완벽한 투명성.'
+ text: '**선수금 없음 - 승인 후에만 지불.** 숨겨진 비용 없는 완벽한 투명성.'
 },
 {
  icon: '🔄',
@@ -163,7 +160,7 @@ hero:
 }
 ]" />
 
-## 지금 시작하세요 - 무료 초기 상담
+<!-- ## Get Started Now - Free Initial Consultation
 
 <div id="contact-form"></div>
 
@@ -171,12 +168,12 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Home page" buttonText="무료 상담 받기" 
-:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/>
+<ContactFormModal formName="Home page" buttonText="Get a free consultation"
+:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/> -->
 
 <!-- <br>
 
-# 성공 사례
+# Success Stories
 
 <br>
 

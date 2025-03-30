@@ -3,7 +3,7 @@ title: "Guia de Abertura de Empresa nos Emirados Árabes Unidos"
 description: "Guia completo para abrir empresas nos EAU: free zone, offshore, mainland, filial. Entre em contato com a Golden Fish para iniciar e gerenciar seu negócio nos EAU."
 ---
 
-# Iniciando e gerenciando negócios nos Emirados Árabes Unidos
+# Iniciando e gerenciando negócios nos EAU
 
 Golden Fish - seu parceiro de confiança na abertura de empresas nos EAU, oferecendo serviços abrangentes de formação e suporte empresarial para ajudar negócios a prosperarem nos Emirados Árabes Unidos.
 
@@ -26,9 +26,9 @@ Na Golden Fish, entendemos que cada negócio tem requisitos únicos. Nossa equip
 
 👍 **Baixas Taxas de Impostos**: Sem impostos sobre a renda pessoal e uma taxa corporativa muito baixa de 9% tornam os EAU altamente atrativos para indivíduos e empresas que buscam eficiência tributária.
 
-👍 **100% de Propriedade Estrangeira**: Propriedade estrangeira total em Free Zones e Mainland LLCs sem necessidade de um parceiro local torna iniciar e administrar um negócio mais simples em comparação com muitos outros países.
+👍 **100% de Propriedade Estrangeira**: Propriedade estrangeira total em Free Zones e Mainland LLCs sem necessidade de um parceiro local torna mais simples iniciar e administrar um negócio em comparação com muitos outros países.
 
-👍 **Sem Controles Cambiais**: Os EAU não têm restrições sobre câmbio de moeda ou repatriação de capital, facilitando o acesso das empresas a moedas locais e estrangeiras.
+👍 **Sem Controle Cambial**: Os EAU não têm restrições sobre câmbio de moeda ou repatriação de capital, facilitando o acesso das empresas a moedas locais e estrangeiras.
 
 👍 **Infraestrutura Bancária Robusta**: Os EAU hospedam um número significativo de bancos internacionais, com 50 bancos locais e estrangeiros operando no país, simplificando transações financeiras para empresas.
 
@@ -44,7 +44,7 @@ Na Golden Fish, entendemos que cada negócio tem requisitos únicos. Nossa equip
 
 👎 **Restrições Específicas por Setor**: Certos setores estratégicos, como bancário e telecomunicações, requerem aprovações governamentais especiais, limitando oportunidades para investidores estrangeiros.
 
-👎 **Requisitos de Substância Econômica**: Empresas em certos setores devem cumprir regulamentações de substância econômica, o que pode aumentar os custos operacionais e a complexidade.
+👎 **Requisitos de Substância Econômica**: Empresas em determinados setores devem cumprir regulamentações de substância econômica, o que pode aumentar os custos operacionais e a complexidade.
 
 👎 **Ajustes Culturais**: Embora os EAU sejam cosmopolitas, continua sendo um estado islâmico com normas e regulamentações culturais específicas, que podem exigir ajustes significativos para expatriados.
 
@@ -54,112 +54,112 @@ Na Golden Fish, entendemos que cada negócio tem requisitos únicos. Nossa equip
 
 Os UAE oferecem uma variedade de opções de entidades empresariais, cada uma atendendo a diferentes necessidades, desde propriedade estrangeira total até estruturas tributárias simplificadas. Abaixo está uma análise dos principais tipos de entidades empresariais disponíveis nos UAE, junto com suas características, benefícios e casos ideais de uso.
 
-## Fazendo Negócios nos EAU com uma Entidade Registrada Localmente
+## Fazendo Negócios nos UAE com uma Entidade Registrada Localmente
 
-### 1. **A Empresa Free Zone dos EAU**
+### 1. **A Empresa Free Zone dos UAE**
 
-Este tipo de entidade é um dos mais populares nos EAU. Historicamente, tem sido preferido devido aos desafios regulatórios e complexidades associadas à formação de joint ventures com parceiros locais, incluindo requisitos de propriedade compartilhada e obrigações de participação nos lucros. Hoje, é frequentemente escolhido por suas vantagens fiscais, como isenções de impostos corporativos, taxas de importação/exportação e 100% de repatriação de lucros. Existem mais de 40 Free Zones em todo os EAU, cada uma atendendo a diferentes necessidades empresariais.
+Este tipo de entidade é um dos mais populares nos UAE. Historicamente, tem sido preferido devido aos desafios regulatórios e complexidades associadas à formação de joint ventures com parceiros locais, incluindo requisitos de propriedade compartilhada e obrigações de participação nos lucros. Hoje, é frequentemente escolhido por suas vantagens fiscais, como isenções de impostos corporativos, taxas de importação/exportação e 100% de repatriação de lucros. Existem mais de 40 free zones em todo o UAE, cada uma atendendo a diferentes necessidades empresariais.
 
 **Características Principais**:
 
-- **Propriedade**: Pode ser registrada com um único acionista e um diretor, que pode ser estrangeiro sem residência nos EAU.
-- **Requisito de Escritório**: É obrigatório um contrato de locação para escritório, armazém ou espaço industrial dentro da Free Zone.
+- **Propriedade**: Pode ser registrada com um único acionista e um diretor, que pode ser estrangeiro sem residência nos UAE.
+- **Requisito de Escritório**: É obrigatório um contrato de locação para escritório, armazém ou espaço industrial dentro da free zone.
 - **Ultimate Beneficial Ownership (UBO)**: Cada empresa deve estabelecer um registro UBO e fornecer essas informações ao registrador ou autoridade licenciadora relevante. No entanto, UBO, diretores e acionistas não são divulgados publicamente.
-- **Atividades**: As empresas podem operar sem um parceiro emiradense, especialmente para atividades internacionais e negociações com outras empresas Free Zone.
+- **Atividades**: As empresas podem operar sem um parceiro emiradense, especialmente para atividades internacionais e negociações com outras empresas free zone.
 
-**Melhores Usos**: Uma empresa Free Zone nos EAU é ideal para minimizar a tributação internacional e conduzir negócios com partes internacionais ou outras empresas Free Zone dos EAU.
+**Melhores Usos**: Uma empresa free zone nos UAE é ideal para minimizar tributação internacional e conduzir negócios com partes internacionais ou outras empresas free zone dos UAE.
 
 <!-- Learn more on our [UAE Free Zone Page](#). -->
 
-### 2. **A Empresa Offshore dos EAU**
+### 2. **A Empresa Offshore dos UAE**
 
-Formar uma empresa offshore nos EAU oferece uma maneira rápida e econômica de entrar no mercado. No entanto, vem com certas limitações: não pode patrocinar vistos de funcionários, importar/exportar produtos dentro dos EAU ou emitir faturas para clientes dos EAU.
+Formar uma empresa offshore nos UAE oferece uma maneira rápida e econômica de entrar no mercado. No entanto, vem com certas limitações: não pode patrocinar vistos de funcionários, importar/exportar produtos dentro dos UAE ou emitir faturas para clientes dos UAE.
 
 **Características Principais**:
 
-- **Restrições**: Não pode patrocinar vistos de funcionários, importar/exportar produtos dentro dos EAU ou emitir faturas para clientes dos EAU.
+- **Restrições**: Não pode patrocinar vistos de funcionários, importar/exportar produtos dentro dos UAE ou emitir faturas para clientes dos UAE.
 - **Requisitos de Capital**: Não há requisito mínimo de capital social.
 
-**Melhores Usos**: Adequada para clientes que buscam estabelecer uma holding, conduzir negócios internacionais ou manter ativos imobiliários nos EAU.
+**Melhores Usos**: Adequada para clientes que buscam estabelecer uma holding, conduzir negócios internacionais ou manter ativos imobiliários nos UAE.
 
 <!-- Please find more details in our [UAE Offshore Company Setup Guide](#). -->
 
-### 3. **A Empresa Mainland dos EAU**
+### 3. **A Empresa Mainland dos UAE**
 
-Investidores estrangeiros podem estabelecer uma Limited Liability Company (LLC) no Mainland para fornecer serviços profissionais ou negociar com outras empresas Mainland dos EAU.
+Investidores estrangeiros podem estabelecer uma Limited Liability Company (LLC) no mainland para fornecer serviços profissionais ou negociar com outras empresas mainland dos UAE.
 
 **Características Principais**:
 
 - **Propriedade Estrangeira**: A maioria das atividades comerciais permite 100% de propriedade estrangeira sem necessidade de um parceiro emiradense local, embora exceções possam se aplicar, como atividades relacionadas à exploração de petróleo, defesa e outros setores estrategicamente importantes.
-- **Requisitos UBO**: Como nas Free Zones, os dados UBO devem ser registrados e enviados à autoridade apropriada.
+- **Requisitos UBO**: Como nas free zones, os dados UBO devem ser registrados e enviados à autoridade apropriada.
 
-**Melhores Usos**: Adequada para clientes que precisam emitir faturas, importar e distribuir produtos no Mainland dos EAU ou participar de licitações governamentais.
+**Melhores Usos**: Adequada para clientes que precisam emitir faturas, importar e distribuir produtos no mainland dos UAE ou participar de licitações governamentais.
 
-## Fazendo Negócios nos EAU com uma Entidade Estrangeira
+## Fazendo Negócios nos UAE com uma Entidade Estrangeira
 
-### 4. **O Escritório de Filial nos EAU**
+### 4. **O Escritório Branch nos UAE**
 
-Um escritório de filial permite que empresas estrangeiras operem nos EAU com 100% de propriedade estrangeira. No entanto, é necessário nomear um representante residente nos EAU para atuar como ponto de contato com as autoridades reguladoras, garantir conformidade com as leis locais e gerenciar processos administrativos no país.
+Um escritório branch permite que empresas estrangeiras operem nos UAE com 100% de propriedade estrangeira. No entanto, é necessário nomear um representante residente nos UAE para atuar como ponto de contato com as autoridades reguladoras, garantir conformidade com as leis locais e gerenciar processos administrativos no país.
 
 **Características Principais**:
 
 - **Operações**: Opera sob o mesmo nome e escopo de negócios da empresa matriz, e está autorizado a emitir faturas e celebrar contratos locais.
 - **Garantias**: Requer uma garantia bancária de AED 50.000 (US$13.650) e uma taxa de emissão de AED 7.000 (US$1.920). Multas mensais podem ser aplicadas por atraso na configuração da conta bancária.
-- **Restrições**: As filiais não podem se envolver em atividades de fabricação ou importação/exportação.
-- **Responsabilidade**: Não é uma entidade legal separada, o que significa que a empresa matriz estrangeira tem responsabilidade ilimitada pelas operações da filial.
+- **Restrições**: Branches não podem se envolver em atividades de fabricação ou importação/exportação.
+- **Responsabilidade**: Não é uma entidade jurídica separada, o que significa que a empresa matriz estrangeira tem responsabilidade ilimitada pelas operações da branch.
 
 **Melhores Usos**: Adequado para empresas de serviços que buscam conduzir operações localmente por um período definido.
 
-### 5. **O Escritório de Representação nos EAU**
+### 5. **O Escritório de Representação nos UAE**
 
-Um escritório de representação é ideal para promover uma empresa matriz e realizar pesquisas de mercado nos EAU.
+Um escritório de representação é ideal para promover uma empresa matriz e realizar pesquisas de mercado nos UAE.
 
 **Características Principais**:
 
 - **Limitações**: Não pode realizar operações comerciais, mas pode promover o negócio e coletar inteligência de mercado.
-- **Registro Similar**: Os requisitos de registro são muito semelhantes aos de um escritório de filial.
+- **Registro Similar**: Os requisitos de registro são muito semelhantes aos de um escritório branch.
 
-**Melhores Usos**: Adequado para empresas que desejam avaliar o mercado dos EAU sem se envolver em atividades comerciais.
+**Melhores Usos**: Adequado para empresas que desejam avaliar o mercado dos UAE sem se envolver em atividades comerciais.
 
 ## Comparação dos Tipos de Entidades nos EAU
 
-| Característica                      | LLC Residente           | LLC Free Zone           | Escritório Branch      | LLC Offshore       |
-| ---------------------------------- | ----------------------- | ----------------------- | ---------------------- | ------------------ |
-| _**ATIVIDADES PRINCIPAIS**_         |                         |                         |                        |                    |
-| Escopo do Negócio                  | Todos produtos/serviços | Todos produtos/serviços | Igual empresa matriz   | Somente internacional |
-| Negócios Locais Permitidos         | ✅ Acesso total         | ℹ️ Com restrições       | ✅ Sim                 | ❌ Não             |
-| Contratos Governamentais           | ✅ Sim                  | ℹ️ Com exceções         | ✅ Sim                 | ❌ Não             |
-| Faturamento Local                  | ✅ Sim                  | ℹ️ Com restrições       | ✅ Sim                 | ❌ Não             |
-| _**REQUISITOS DE ABERTURA**_       |                         |                         |                        |                    |
-| Capital Mínimo                     | US$1                    | Varia por zona          | Depende localização    | US$1               |
-| Prazo de Abertura                  | 5 semanas              | 6 semanas               | 6-8 semanas            | 2-4 semanas        |
-| Viagem Necessária                  | ❌ Não                  | ❌ Não                   | ❌ Não                 | ❌ Não             |
-| Escritório Físico                  | Obrigatório            | Obrigatório             | Obrigatório            | Não obrigatório    |
-| Prazo Conta Bancária              | 8 semanas              | 8 semanas               | 8 semanas              | 10-12 semanas      |
-| Período Total de Abertura          | 3,5 meses              | 3,5 meses               | 4 meses                | 3-4 meses          |
-| _**ESTRUTURA LEGAL**_              |                         |                         |                        |                    |
-| Responsabilidade Limitada          | ✅ Sim                  | ✅ Sim                   | ❌ Não                 | ✅ Sim             |
-| Propriedade Estrangeira           | ✅ 100%                 | ✅ 100%                  | ✅ 100%                | ✅ 100%            |
-| Registro Público                   | ❌ Não                  | ❌ Não                   | ❌ Não                 | ❌ Não             |
-| Acesso DTAA                        | ✅ Sim                  | ✅ Sim                   | ✅ Sim                 | ❌ Não             |
-| Reconhecimento Governamental       | Alto                    | Alto                    | Alto                   | Limitado           |
-| _**OPERAÇÕES COMERCIAIS**_         |                         |                         |                        |                    |
-| Financiamento Comercial           | ✅ Disponível           | ✅ Disponível            | ✅ Disponível          | ✅ Disponível      |
-| Patrocínio de Visto               | ✅ Sim                  | ✅ Sim                   | ✅ Sim                 | ❌ Não             |
-| Serviços Bancários Locais         | ✅ Acesso total         | ✅ Acesso total          | ✅ Acesso total        | ℹ️ Limitado        |
-| Importação/Exportação             | ✅ Sem restrições       | ✅ Via free zone         | ℹ️ Limitado            | ❌ Não             |
-| _**REQUISITOS ANUAIS**_           |                         |                         |                        |                    |
-| Auditoria Obrigatória             | ✅ Sim                  | ✅ Sim                   | ✅ Sim                 | ℹ️ Varia           |
-| Declaração Fiscal                 | ✅ Obrigatória          | ✅ Obrigatória           | ✅ Obrigatória         | ℹ️ Limitada        |
-| Renovação de Licença              | Anual                   | Anual                   | Anual                  | Anual              |
-| Nível de Conformidade             | Alto                    | Alto                    | Alto                   | Baixo              |
-| _**ASPECTOS FINANCEIROS**_        |                         |                         |                        |                    |
-| Custos de Abertura                | Moderado                | Alto                    | Alto                   | Baixo              |
-| Custos de Manutenção              | Moderado                | Moderado-Alto           | Alto                   | Baixo              |
-| Garantia Bancária                 | Não                     | Não                     | AED 50.000             | Não                |
-| Custos de Escritório              | Flexível                | Alto                    | Obrigatório            | Não obrigatório    |
+| Característica                      | LLC Residente           | LLC Free Zone           | Escritório Branch      | LLC Offshore      |
+| ---------------------------------- | ----------------------- | ----------------------- | ---------------------- | ----------------- |
+| _**ATIVIDADES PRINCIPAIS**_         |                         |                         |                        |                   |
+| Escopo de Negócios                  | Todos produtos/serviços | Todos produtos/serviços | Igual empresa matriz   | Somente internacional |
+| Negócios Locais Permitidos          | ✅ Acesso total         | ℹ️ Com restrições       | ✅ Sim                 | ❌ Não            |
+| Contratos Governamentais            | ✅ Sim                  | ℹ️ Com exceções         | ✅ Sim                 | ❌ Não            |
+| Faturamento Local                   | ✅ Sim                  | ℹ️ Com restrições       | ✅ Sim                 | ❌ Não            |
+| _**REQUISITOS DE ABERTURA**_        |                         |                         |                        |                   |
+| Capital Mínimo                      | US$1                    | Varia por zona          | Depende localização    | US$1              |
+| Prazo de Abertura                   | 5 semanas              | 6 semanas               | 6-8 semanas            | 2-4 semanas       |
+| Viagem Necessária                   | ❌ Não                  | ❌ Não                   | ❌ Não                 | ❌ Não            |
+| Escritório Físico                   | Obrigatório            | Obrigatório             | Obrigatório            | Não obrigatório   |
+| Prazo Conta Bancária                | 8 semanas              | 8 semanas               | 8 semanas              | 10-12 semanas     |
+| Período Total de Abertura           | 3,5 meses              | 3,5 meses               | 4 meses                | 3-4 meses         |
+| _**ESTRUTURA LEGAL**_               |                         |                         |                        |                   |
+| Responsabilidade Limitada           | ✅ Sim                  | ✅ Sim                   | ❌ Não                 | ✅ Sim            |
+| Propriedade Estrangeira             | ✅ 100%                 | ✅ 100%                  | ✅ 100%                | ✅ 100%           |
+| Registro Público                    | ❌ Não                  | ❌ Não                   | ❌ Não                 | ❌ Não            |
+| Acesso DTAA                         | ✅ Sim                  | ✅ Sim                   | ✅ Sim                 | ❌ Não            |
+| Reconhecimento Governamental        | Alto                   | Alto                    | Alto                   | Limitado          |
+| _**OPERAÇÕES COMERCIAIS**_          |                         |                         |                        |                   |
+| Financiamento Comercial             | ✅ Disponível           | ✅ Disponível            | ✅ Disponível          | ✅ Disponível     |
+| Patrocínio de Visto                 | ✅ Sim                  | ✅ Sim                   | ✅ Sim                 | ❌ Não            |
+| Serviços Bancários Locais           | ✅ Acesso total         | ✅ Acesso total          | ✅ Acesso total        | ℹ️ Limitado       |
+| Importação/Exportação               | ✅ Sem restrições       | ✅ Via free zone         | ℹ️ Limitado            | ❌ Não            |
+| _**REQUISITOS ANUAIS**_             |                         |                         |                        |                   |
+| Auditoria Obrigatória               | ✅ Sim                  | ✅ Sim                   | ✅ Sim                 | ℹ️ Varia          |
+| Declaração Fiscal                   | ✅ Obrigatória          | ✅ Obrigatória           | ✅ Obrigatória         | ℹ️ Limitada       |
+| Renovação de Licença                | Anual                  | Anual                   | Anual                  | Anual             |
+| Nível de Conformidade               | Alto                   | Alto                    | Alto                   | Baixo             |
+| _**ASPECTOS FINANCEIROS**_          |                         |                         |                        |                   |
+| Custos de Abertura                  | Moderado               | Alto                    | Alto                   | Baixo             |
+| Custos de Manutenção                | Moderado               | Moderado-Alto           | Alto                   | Baixo             |
+| Garantia Bancária                   | Não                    | Não                     | AED 50.000             | Não               |
+| Custos de Escritório                | Flexível               | Alto                    | Obrigatório            | Não obrigatório   |
 
-<Button href="../comparison/entity-types" text="Ver comparação detalhada"/>
+<Button href="../comparison/entity-types" text="See detailed comparison"/>
 
 ## Visão Geral do Licenciamento Empresarial nos UAE
 
@@ -173,9 +173,9 @@ Todas as licenças empresariais devem ser renovadas anualmente, normalmente dent
 
 É essencial diferenciar estas licenças operacionais das **licenças regulatórias**, que são autorizações adicionais necessárias para produtos ou serviços específicos. Por exemplo:
 
-- Uma empresa que fornece serviços bancários deve obter uma **licença bancária** separada do Banco Central dos UAE.
-- Um prestador de serviços de saúde deve garantir uma **licença médica** da autoridade de saúde relevante.
-- Uma instituição educacional precisa de uma **licença educacional** do Ministério da Educação.
+- Uma empresa que fornece serviços bancários deve obter uma **banking license** do Banco Central dos UAE.
+- Um prestador de serviços de saúde deve garantir uma **medical license** da autoridade de saúde relevante.
+- Uma instituição educacional precisa de uma **education license** do Ministério da Educação.
 
 ## Restrições para Manter Múltiplas Licenças
 
@@ -183,13 +183,13 @@ Empresas estabelecidas no Mainland de Dubai geralmente não têm permissão para
 
 ## Etapas e Cronograma Típicos para Constituição de Empresa nos EAU
 
-O processo de formação de empresa nos Emirados Árabes Unidos pode variar dependendo do Emirado onde você planeja estabelecer seu negócio. Para informações detalhadas sobre os requisitos de cada Emirado, considere visitar recursos governamentais oficiais como os sites do Department of Economic Development de Dubai, Abu Dhabi ou Sharjah. Por exemplo, os requisitos e prazos em Abu Dhabi podem diferir significativamente daqueles em Dubai ou Sharjah. No entanto, estas são as etapas típicas envolvidas no processo de formação da empresa:
+O processo de formação de empresa nos Emirados Árabes Unidos pode variar dependendo do Emirado onde você planeja estabelecer seu negócio. Para informações detalhadas sobre os requisitos de cada Emirado, considere visitar recursos governamentais oficiais como os sites do Department of Economic Development de Dubai, Abu Dhabi ou Sharjah. Por exemplo, os requisitos e prazos em Abu Dhabi podem diferir significativamente daqueles em Dubai ou Sharjah. No entanto, as seguintes são as etapas típicas envolvidas no processo de formação da empresa:
 
 1. **Definir a Estrutura Corporativa nos EAU**: Decidir sobre o tipo de empresa e estrutura societária adequada para seus objetivos comerciais.
 2. **Preparação, Tradução e Legalização de Documentos**: Preparar todos os documentos necessários, garantindo que sejam traduzidos e legalmente autenticados conforme necessário.
 3. **Obter Aprovação Preliminar**: Garantir a aprovação inicial do **Department of Economic Development (DED)** ou da Autoridade Free Zone relevante.
 4. **Garantir uma Sede Comercial e Abrir uma Conta Bancária Corporativa**: Encontrar uma localização adequada para escritório e completar o processo de abertura de conta bancária.
-5. **Solicitar a Licença Apropriada**: Dependendo da natureza do seu negócio, solicitar uma licença comercial, licença industrial ou licença profissional.
+5. **Solicitar a Licença Apropriada**: Dependendo da natureza do seu negócio, solicitar uma licença comercial, industrial ou profissional.
 
 :::details Mostrar o processo
 
@@ -205,7 +205,7 @@ O processo de formação de empresa nos Emirados Árabes Unidos pode variar depe
 
 <Button href="./fees-timelines#timelines" text="View all timelines"/>
 
-## Considerações contábeis e fiscais nos EAU
+## Considerações contábeis e fiscais nos UAE
 
 ![Mostrar o processo de configuração](/img/AccountingTaxConsiderations.svg)
 
@@ -223,13 +223,13 @@ A Golden Fish recomenda estes bancos para nossos clientes:
   { url: 'https://www.mashreqbank.com', src: '/content/Mashreq-new-logo.png' }
 ]" />
 
-<Button href="./banking" text="Learn more"/>
+<Button href="./banking" text="Saiba mais"/>
 
-## Vistos dos EAU para empresas
+## Vistos UAE para empresas
 
-### Visto de residência de longa duração
+### Visto de residência de longo prazo
 
-Os EAU emitem vistos de residência de 5 e 10 anos para investidores, empreendedores e talentos especiais elegíveis. Os benefícios deste visto são estendidos também ao cônjuge e aos filhos.
+Os UAE emitem vistos de residência de 5 e 10 anos para investidores, empreendedores e talentos especiais elegíveis. Os benefícios deste visto são estendidos também ao cônjuge e aos filhos.
 
 ### Visto de trabalho
 
@@ -265,9 +265,9 @@ Para incorporação de uma entidade na free zone nos EAU, a Golden Fish irá:
 6. Registrar a empresa para VAT (se necessário).
 7. Obter vistos de trabalho para clientes e seus funcionários.
 
-**Quais são os benefícios de abrir uma entidade na free zone nos EAU?**
+**Quais são os benefícios de abrir uma entidade na free zone dos EAU?**
 
-As empresas da free zone nos EAU oferecem diversos benefícios, incluindo:
+As empresas da free zone dos EAU oferecem diversos benefícios, incluindo:
 
 1. Sem necessidade de acionista residente, ou seja, uma empresa FZ pode ser 100% de propriedade estrangeira.
 2. Sem obrigação de contratar funcionários.
@@ -276,11 +276,11 @@ As empresas da free zone nos EAU oferecem diversos benefícios, incluindo:
 
 ### Diretores e Acionistas
 
-**Quantos diretores devem ser nomeados para registro em uma free trade zone nos EAU?**
+**Quantos diretores devem ser nomeados para registro em uma free trade zone dos EAU?**
 
 Apenas um diretor é necessário para formar uma empresa na free zone dos EAU.
 
-**Quantos acionistas são necessários para incorporar em uma free trade zone nos EAU?**
+**Quantos acionistas são necessários para incorporar em uma free trade zone dos EAU?**
 
 Apenas um acionista é necessário para iniciar uma entidade na free zone nos EAU.
 
@@ -292,7 +292,7 @@ Apenas um acionista é necessário para iniciar uma empresa offshore nos EAU.
 
 Não.
 
-**Os detalhes do acionista/diretor estão disponíveis para visualização pública?**
+**Os detalhes dos acionistas/diretores estão disponíveis para visualização pública?**
 
 Não.
 
@@ -306,11 +306,11 @@ Não, a Golden Fish pode legalmente incorporar sua empresa nos EAU sem necessida
 
 Os requisitos variam com base no tipo de empresa:
 
-| Tipo de Empresa   | Requisito de Escritório                                                               |
-| ----------------- | ------------------------------------------------------------------------------------ |
-| Free Zone Company | Um contrato de aluguel para escritório ou flexi-desk é necessário antes da incorporação. |
-| Mainland Company  | Apenas um endereço virtual ou registrado é necessário.                                |
-| Offshore Company  | Apenas um endereço virtual ou registrado é necessário.                                |
+| Tipo de Empresa    | Requisito de Escritório                                                               |
+| ----------------- | --------------------------------------------------------------------------------------- |
+| Empresa Free Zone | Um contrato de aluguel para escritório ou flexi-desk é necessário antes da incorporação. |
+| Empresa Mainland  | Apenas um endereço virtual ou registrado é necessário.                                   |
+| Empresa Offshore  | Apenas um endereço virtual ou registrado é necessário.                                   |
 
 Esta tabela comparativa ajuda a esclarecer as diferenças entre os requisitos para empresas free zone, mainland e offshore.
 
@@ -324,7 +324,7 @@ Sim, a maioria das entidades exigirá demonstrações financeiras auditadas.
 
 O Imposto de Renda Corporativo (CIT) foi implementado nos EAU com uma taxa padrão de 9%. Além disso, dependendo do volume e natureza do negócio, algumas empresas estão sujeitas ao VAT (5%) e/ou taxas alfandegárias. Setores específicos, como petróleo e gás e filiais de bancos estrangeiros, podem ter considerações ou isenções fiscais especiais.
 
-**Uma empresa dos EAU é obrigada a apresentar declaração fiscal anual e/ou demonstração financeira?**
+**Uma empresa dos EAU precisa apresentar declaração fiscal anual e/ou demonstração financeira?**
 
 Sim, todas as empresas nos EAU são obrigadas a apresentar contas auditadas anuais ao governo.
 
@@ -340,7 +340,7 @@ A Golden Fish recomenda várias opções de bancos locais dos EAU, incluindo:
 4. Dubai Islamic Bank
 5. Mashreq Bank
 
-Estes bancos são conhecidos por bom atendimento ao cliente, essencial ao iniciar um novo negócio nos EAU.
+Estes bancos são conhecidos pelo bom atendimento ao cliente, essencial ao iniciar um novo negócio nos EAU.
 
 **Como abrir uma conta bancária offshore nos EAU?**
 
@@ -352,9 +352,9 @@ Sim, a Golden Fish pode auxiliar clientes com suas necessidades bancárias islâ
 
 ### Vistos e Residência
 
-**Por quanto tempo é emitido um visto de residência empresarial nos EAU?**
+**Por quanto tempo é emitido um visto de residência empresarial dos EAU?**
 
-As permissões de residência empresarial nos EAU são tipicamente emitidas por 2 a 3 anos.
+As permissões de residência empresarial dos EAU são tipicamente emitidas por 2 a 3 anos.
 
 :::
 
@@ -364,8 +364,17 @@ As permissões de residência empresarial nos EAU são tipicamente emitidas por 
   <source src="/video/iStock-2185918790.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Setup [guide]" buttonText="Obtenha uma consulta gratuita" :services="[
-'🏢 Formação de nova empresa',
-'🌱 Plano de expansão (ex: nova filial ou franquia)',
-'🔄 Relocalização da empresa',
-'🪪 Apenas para fins de visto']"/>
+<ContactFormModal 
+  formName="Setup [guide]" 
+  buttonText="Obtenha uma consulta gratuita" 
+  categoryLabel="Nível de suporte necessário: *" 
+  categoryPlaceholderText="Escolha seu nível de suporte"
+  messageLabel="Ajude-nos a nos preparar para sua consulta (recomendado)"
+  messagePlaceholderText="Conte-nos sobre o tipo do seu negócio, atividades planejadas nos UAE, cronograma e quaisquer perguntas específicas sobre formação de empresa ou vistos"
+  :services="[
+  'Básico — apenas consulta sobre documentação essencial e registro de empresa',
+  'Padrão — documentação completa e orientação durante as principais etapas de configuração',
+  'Abrangente — formação completa da empresa com mínima participação da sua parte',
+  'Personalizado — necessidade de discutir estrutura complexa ou configuração de negócios multijurisdicional',
+  ]"
+/>

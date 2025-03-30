@@ -5,11 +5,11 @@ description: "Visão geral especializada dos tipos de visto dos EAU: autorizaç�
 
 # Vistos de residência e trabalho nos EAU
 
-Profissionais estrangeiros que desejam morar e trabalhar nos Emirados Árabes Unidos devem obter um visto de residência e uma autorização de trabalho (também conhecida como cartão de trabalho).
+Profissionais estrangeiros que desejam morar e trabalhar nos EAU devem obter um visto de residência e uma autorização de trabalho (também conhecida como cartão de trabalho).
 
 > [!NOTE] 💚 Um cidadão estrangeiro tem direito a um visto de residência nos EAU após:
 >
-> - Formação de empresa nos EAU;
+> - Constituição de empresa nos EAU;
 > - Tornar-se acionista de uma empresa nos EAU;
 > - Comprar imóveis nos EAU;
 > - Estar empregado nos EAU.
@@ -20,25 +20,25 @@ A Golden Fish auxilia clientes na obtenção de autorizações de trabalho e res
 
 Obter um visto de residência de dois anos nos Emirados Árabes Unidos é relativamente mais simples do que em outras jurisdições. Uma vez obtido, pode ser facilmente renovado.
 
-Indivíduos que possuem visto de residência dos Emirados Árabes Unidos podem patrocinar seus familiares, desde que atendam a requisitos específicos, como uma renda mensal mínima, arranjos adequados de moradia e obtenção de um plano de seguro saúde para cada membro da família.
+Indivíduos que possuem visto de residência nos Emirados Árabes Unidos podem patrocinar seus familiares, desde que atendam a requisitos específicos, como uma renda mensal mínima, arranjos adequados de moradia e obtenção de um plano de seguro saúde para cada membro da família.
 
 Vistos de residência de cinco e dez anos também estão disponíveis.
 
-Investidores estrangeiros com empresas em Free Zone devem considerar que sua cota para vistos de funcionários é diretamente proporcional ao tamanho das instalações do escritório alugado. Para cada 10 m² de espaço de escritório, é concedido um visto de funcionário. A regra padrão em muitas free zones é de 10 m² por visto.
+Investidores estrangeiros com empresas em free zone devem considerar que sua cota para vistos de funcionários é diretamente proporcional ao tamanho das instalações do escritório alugado. Para cada 10 m² de espaço de escritório, é concedido um visto de funcionário. A regra padrão em muitas free zones é de 10 m² por visto.
 
 Empresas offshore dos Emirados Árabes Unidos não são elegíveis para solicitar vistos de trabalho.
 
 ## Vistos para Profissionais
 
-Empreendedores que se mudam para os EAU para gerenciar seus negócios podem solicitar um visto de residência de dois anos.
+Empreendedores que se mudam para os UAE para gerenciar seus negócios podem solicitar um visto de residência de dois anos.
 
-Empreendedores com um projeto no valor mínimo de AED 500.000 ou aqueles com incubadoras de negócios especialmente credenciadas nos EAU podem receber um visto de residência de cinco anos.
+Empreendedores com um projeto no valor mínimo de AED 500.000 ou aqueles com incubadoras de negócios especialmente credenciadas nos UAE podem receber um visto de residência de cinco anos.
 
 Investidores imobiliários que possuem propriedade ou propriedades com valor total de pelo menos AED 2 milhões podem obter um Golden Visa renovável de cinco anos.
 
-> [!NOTE] 💚 Investidores nos EAU podem garantir um Golden Visa por até 10 anos sem patrocinador atendendo a um dos seguintes critérios:
+> [!NOTE] 💚 Investidores nos UAE podem garantir um Golden Visa por até 10 anos sem patrocinador atendendo a um dos seguintes critérios:
 >
-> - Depositar AED 2 milhões em um fundo de investimento credenciado nos EAU;
+> - Depositar AED 2 milhões em um fundo de investimento credenciado nos UAE;
 > - Possuir uma licença comercial ou industrial com capital declarado de pelo menos AED 2 milhões;
 > - Comprovar pagamentos governamentais anuais de AED 250.000 através da FTA.
 
@@ -55,7 +55,7 @@ Todos os trabalhadores estrangeiros precisam de um visto de residência e uma "c
 
 Os vistos de trabalho são emitidos pelo Ministério do Trabalho, enquanto os vistos de residência são emitidos pelo Departamento de Imigração. O funcionário deve sempre portar a carteira de trabalho, que também serve como documento de identidade.
 
-## Vistos de Dependentes para Membros da Família
+## Vistos para Dependentes Familiares
 
 A Golden Fish terá prazer em solicitar vistos familiares assim que o visto de empreendedor ou de trabalho do nosso cliente estiver garantido.
 
@@ -64,8 +64,8 @@ O prazo estimado para obter o mesmo é de aproximadamente três semanas por vist
 Os vistos de dependentes só podem ser solicitados após o patrocinador principal ter obtido o seguinte:
 
 - Um cartão [Emirates ID](https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id) ![Cartão de Identidade](/img/ILONMASKID.webp)
-- Um contrato de aluguel assinado para uma propriedade residencial nos EAU grande o suficiente para acomodar todos os dependentes
-- O registro Ejari para esta propriedade residencial
+- Um contrato de aluguel assinado para um imóvel residencial nos Emirados Árabes Unidos grande o suficiente para acomodar todos os dependentes
+- O registro Ejari para este imóvel residencial
 
 ## Processo de Visto de Trabalho nos EAU (Guia Passo a Passo)
 
@@ -73,16 +73,16 @@ Antes de enviar uma solicitação de visto ao governo, os candidatos devem garan
 
 Após a contratação, a Golden Fish fornecerá uma lista completa dos documentos necessários. Dependendo do cargo, podem ser exigidos documentos autenticados pela embaixada dos EAU, como qualificações acadêmicas, licenças profissionais ou certificados de experiência.
 
-Durante o processo de solicitação de visto, os candidatos deverão:
+Durante o processo de solicitação do visto, os candidatos deverão:
 
 - Viajar para Dubai e permanecer no país por sete dias úteis completos
 - Realizar exame médico em Dubai
 - Registrar seus dados biométricos junto à autoridade governamental
 - Obter seguro de saúde local
 
-O processo de solicitação de visto para funcionários leva aproximadamente quatro semanas a partir do momento da submissão. Solicitações de visto para dependentes levam três semanas.
+O processo de solicitação do visto de trabalho leva aproximadamente quatro semanas a partir do momento em que o visto é submetido. As solicitações de visto para dependentes levam três semanas.
 
-Se uma solicitação de visto for iniciada enquanto o candidato estiver nos EAU, ele deve permanecer no país durante todo o processo. Se a solicitação for feita quando o candidato estiver no exterior, nosso cliente só poderá entrar nos EAU após receber a permissão de entrada.
+Se uma solicitação de visto for iniciada enquanto o candidato estiver nos EAU, ele deve permanecer no país durante todo o processo de solicitação do visto. Se a solicitação for feita quando o candidato estiver no exterior, nosso cliente só poderá entrar nos EAU após receber a permissão de entrada.
 
 Se a permissão de entrada for obtida enquanto o candidato estiver no exterior, ele deve entrar em Dubai dentro de dois meses a partir da data de emissão da permissão.
 
@@ -93,27 +93,10 @@ A decisão final cabe ao governo e, embora não possamos garantir o sucesso, max
 
 A partir de 1º de janeiro de 2023, todos os funcionários nos EAU são obrigados a obter seguro contra perda de emprego. Este seguro fornece assistência financeira aos funcionários que perdem seus empregos devido à demissão por seus empregadores (exceto por negligência grave). O custo anual do seguro varia entre AED 60 e AED 120, dependendo do salário base do funcionário. Este seguro está incluído quando nossos clientes nos contratam para garantir seus vistos de trabalho e residência nos EAU.
 
-## Programa de Seguro por Perda Involuntária de Emprego
+## Programa de Seguro Contra Perda Involuntária de Emprego
 
-A partir de 1º de janeiro de 2023, todos os funcionários nos UAE devem ter seguro contra perda de emprego. Isso pode oferecer suporte financeiro aos funcionários que são demitidos por seus empregadores, excluindo casos de negligência grave. O custo anual deste seguro varia de AED 60 a AED 120, com base no salário base do funcionário. Incluímos este seguro automaticamente quando nossos clientes nos contratam para empregos e vistos de residência nos UAE.
+A partir de 1º de janeiro de 2023, todos os funcionários nos UAE devem ter seguro contra perda de emprego. Este pode oferecer suporte financeiro aos funcionários que são demitidos por seus empregadores, excluindo casos de negligência grave. O custo anual deste seguro varia de AED 60 a AED 120, com base no salário base do funcionário. Incluímos este seguro automaticamente quando nossos clientes nos contratam para vistos de emprego e residência nos UAE.
 
 ## Seguro Saúde
 
-Antes de obter um visto para os UAE, os candidatos ao visto devem contratar um seguro saúde local. Nossas taxas incluem a contratação do seguro saúde básico.
-
-## Agende uma consulta gratuita para discutir suas opções
-
-<video  autoplay muted playsinline style="padding: 80px" >
-  <source src="/video/iStock-2185914135.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal formName="Employment Visa [guide]" buttonText="Obter uma consulta gratuita" :services="[
-    '💼 Employment Visa + Labor Card',
-    '👨‍💼 Entrepreneur Visa (2 anos)',
-    '🏢 Free Zone Company Visa',
-    '👨‍👩‍👧‍👦 Visto para Dependentes Familiares',
-    '💳 Solicitação de Emirates ID',
-    '💵 Salário mensal acima de AED 30K',
-    '💰 Elegibilidade para Golden Visa',
-    '❓ Outros Serviços de Visto',
-    ]"/>
+Antes de obter um visto para os UAE, os candidatos devem adquirir um seguro saúde local. Nossas taxas incluem a obtenção do seguro saúde básico.

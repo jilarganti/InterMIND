@@ -1,21 +1,18 @@
 ---
 layout: home
 title: "Dịch Vụ Thành Lập Công Ty tại UAE"
-description: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thiết lập công ty, ngân hàng, thuế, pháp lý và visa. Biến ước mơ kinh doanh của bạn thành hiện thực."
+description: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thiết lập công ty, ngân hàng, thuế, pháp lý và thị thực. Biến ước mơ kinh doanh của bạn thành hiện thực."
 showSponsors: false
 
 hero:
   name: "UAE: Bến Đỗ Tài Chính An Toàn Của Bạn"
-  # text: We speak your tongue
-  tagline: "Hỗ Trợ Kinh Doanh Toàn Diện: Ngân Hàng, Thành Lập Công Ty, Visa. Không phí trước - chỉ thanh toán sau khi được phê duyệt."
+  tagline: "Hỗ Trợ Kinh Doanh Toàn Diện: Ngân Hàng, Thành Lập Công Ty, Thị Thực. Không phí trước - chỉ thanh toán sau khi được phê duyệt."
 
   actions:
     - theme: brand
       text: Get Free Consultation
-      link: ./chat
-    - theme: alt
-      text: Support 24/7
       link: ./resources/contacts
+
   image:
     light:
       src: /img/Logo.avif
@@ -24,13 +21,28 @@ hero:
       src: /img/Logo.avif
       width: 50%
     alt: Logo Golden Fish
-
 ---
 
 <FeatureCards :features="[
   {
+    title: 'Hướng Dẫn Thành Lập Công Ty',
+    details: 'Hướng dẫn đầy đủ về thành lập công ty trong Free Zone, offshore, mainland, chi nhánh.',
+    items: [
+      '**Sở hữu 100% vốn nước ngoài** khả dụng tại Free Zone và Mainland',
+      'Thuế suất thấp - chỉ 9% thuế doanh nghiệp',
+      'Không kiểm soát tiền tệ - dễ dàng chuyển vốn về nước'
+    ],
+    linkText: 'Read More',
+    link: './uae-business/company-registration/overview',
+    icon: {
+      light: '/img/iStock-2051326997.avif',
+      dark: '/img/iStock-1448478309.jpg',
+      alt: 'Hướng dẫn thành lập công ty'
+    }
+  },
+  {
     title: 'Mở Tài Khoản Ngân Hàng',
-    details: 'Dễ dàng mở tài khoản doanh nghiệp hoặc cá nhân với các ngân hàng uy tín tại UAE.',
+    details: 'Dễ dàng mở tài khoản doanh nghiệp hoặc cá nhân tại các ngân hàng uy tín của UAE.',
     items: [
       'Đảm bảo phê duyệt tài khoản doanh nghiệp',
       'Tỷ lệ thành công 90%',
@@ -41,7 +53,7 @@ hero:
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
-      alt: 'Dịch vụ Ngân hàng'
+      alt: 'Dịch vụ ngân hàng'
     }
   },
   {
@@ -57,23 +69,7 @@ hero:
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
-      alt: 'Dịch vụ Visa'
-    }
-  },
-  {
-    title: 'Hướng Dẫn Thành Lập Công Ty',
-    details: 'Hướng dẫn đầy đủ để thành lập công ty trong Free Zone, offshore, mainland, chi nhánh.',
-    items: [
-      '**Sở hữu 100% vốn nước ngoài** có sẵn tại Free Zone và Mainland',
-      'Thuế suất thấp - chỉ 9% thuế doanh nghiệp',
-      'Không kiểm soát tiền tệ - dễ dàng chuyển vốn về nước'
-    ],
-    linkText: 'Read More',
-    link: './uae-business/company-registration/overview',
-    icon: {
-      light: '/img/iStock-2051326997.avif',
-      dark: '/img/iStock-1448478309.jpg',
-      alt: 'Hướng dẫn Thành lập Công ty'
+      alt: 'Dịch vụ thị thực'
     }
   },
 ]" />
@@ -88,19 +84,19 @@ hero:
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
-      alt: 'Dịch vụ Tuân thủ'
+      alt: 'Dịch vụ tuân thủ'
     }
   },
   {
     title: 'Thuế Doanh Nghiệp & VAT',
-    details: 'Tư vấn chuyên môn đảm bảo tuân thủ nghĩa vụ Thuế Doanh nghiệp và VAT với Cơ quan Thuế Liên bang (FTA).',
+    details: 'Tư vấn chuyên môn đảm bảo tuân thủ nghĩa vụ Thuế Doanh Nghiệp và VAT với Cơ quan Thuế Liên bang (FTA).',
     items: [],
     linkText: 'Read More',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
-      alt: 'Dịch vụ Thuế'
+      alt: 'Dịch vụ thuế'
     }
   },
   {
@@ -112,19 +108,19 @@ hero:
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
-      alt: 'Dịch vụ Pháp lý'
+      alt: 'Dịch vụ pháp lý'
     }
   },
   {
     title: 'Kế Toán & Tiền Lương',
-    details: 'Kế toán của chúng tôi quản lý tài chính, cung cấp dịch vụ sổ sách, đối chiếu, tiền lương và hỗ trợ kiểm toán, tiết kiệm chi phí tuyển dụng.',
+    details: 'Kế toán của chúng tôi quản lý tài chính, cung cấp dịch vụ ghi sổ, đối chiếu, tính lương và hỗ trợ kiểm toán, tiết kiệm chi phí tuyển dụng.',
     items: [],
     linkText: 'Read More',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',
-      alt: 'Dịch vụ Kế toán'
+      alt: 'Dịch vụ kế toán'
     }
   },
 ]" />
@@ -140,12 +136,12 @@ hero:
 {
  icon: '🔄',
  title: 'Nhiều Giải Pháp',
- text: 'Tiếp cận cả ngân hàng trong nước và quốc tế. Có phương án thay thế nếu đơn đăng ký chính bị từ chối.'
+ text: 'Tiếp cận cả ngân hàng trong nước và quốc tế. Có phương án thay thế nếu đơn đăng ký đầu tiên bị từ chối.'
 },
 {
  icon: '🏦',
  title: 'Quan Hệ Ngân Hàng',
- text: 'Đối tác mạnh mẽ với các ngân hàng lớn tại UAE và quốc tế. Nộp đơn cho nhiều ngân hàng để tối đa hóa cơ hội được chấp thuận.'
+ text: 'Mối quan hệ đối tác mạnh mẽ với các ngân hàng lớn tại UAE và quốc tế. Nộp đơn cho nhiều ngân hàng để tối đa hóa cơ hội được chấp thuận.'
 },
 {
  icon: '📊',
@@ -164,7 +160,7 @@ hero:
 }
 ]" />
 
-## Bắt Đầu Ngay - Tư Vấn Miễn Phí Ban Đầu
+<!-- ## Get Started Now - Free Initial Consultation
 
 <div id="contact-form"></div>
 
@@ -172,12 +168,12 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Home page" buttonText="Nhận tư vấn miễn phí" 
-:services="['📝 Đăng ký công ty', '🏧 Mở tài khoản ngân hàng', '🪪 EID & Golden Visa', 'Các dịch vụ khác']"/>
+<ContactFormModal formName="Home page" buttonText="Get a free consultation"
+:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/> -->
 
 <!-- <br>
 
-# Câu Chuyện Thành Công
+# Success Stories
 
 <br>
 

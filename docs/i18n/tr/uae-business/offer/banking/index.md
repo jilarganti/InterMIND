@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "BAE Kurumsal Bankacılık | Başarı Ücreti Bazlı Hizmet"
+title: "BAE Kurumsal Bankacılık | Başarı Ücretine Dayalı Hizmet"
 description: "Peşin ücret olmadan premium çok para birimli kurumsal hesaplar - sadece onaydan sonra ödeme yapın. %98 başarı oranı ile tam başvuru yönetimi. Garantili hesap açılışı."
 showSponsors: false
 
@@ -63,7 +63,7 @@ hero:
     title: 'Uyumlu kalın: BAE işletmenizi koruyun',
     items: [
       'Potansiyel riskleri belirlemek için düzenli uyum denetimleri',
-      'Devlet onayları için uçtan uca PRO hizmetleri',
+      'Devlet onayları için eksiksiz PRO hizmetleri',
       'Lisans yenileme yönetimi ve uyarıları',
       'Bankacılık danışmanlığı ve hesap bakımı',
       'KDV ve ESR uyum desteği',
@@ -114,12 +114,12 @@ hero:
   {
     icon: '💰',
     title: 'Başarıya Dayalı Ücretler',
-    text: 'Peşin ödeme yok - **sadece onay sonrası ödeme.** Vizelerde %98, banka hesaplarında %90 başarı oranı.'
+    text: 'Ön ödeme yok - **sadece onay sonrası ödeme.** Vizelerde %98, banka hesaplarında %90 başarı oranı.'
   },
   {
     icon: '🏦',
     title: 'Banka İlişkileri',
-    text: 'Büyük BAE bankalarıyla güçlü ortaklıklar. Onay şansını en üst düzeye çıkarmak için çoklu bankacılık seçenekleri.'
+    text: 'BAE\'nin önde gelen bankalarıyla güçlü ortaklıklar. Onay şansını en üst düzeye çıkarmak için çoklu bankacılık seçenekleri.'
   },
   {
     icon: '📊',
@@ -144,8 +144,17 @@ hero:
   <source src="/video/iStock-2185918790.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Banking [offer]" buttonText="Ücretsiz danışmanlık alın" :services="[
- '🏢 UAE Resident Corporate Account',
- '🌐 Non-UAE Resident Corporate Account (Low Risk)',
- '⚠️ Non-UAE Resident Corporate Account (High Risk)',
- '👤 Personal Bank Account']"/>
+<ContactFormModal 
+  formName="Banking [offer]" 
+  buttonText="Ücretsiz danışmanlık alın" 
+  categoryLabel="Gerekli destek seviyesi: *" 
+  categoryPlaceholderText="Destek seviyenizi seçin"
+  messageLabel="Danışmanlığınız için bize yardımcı olun (önerilen)"
+  messagePlaceholderText="İşletmenizin türü, faaliyet gösterdiğiniz yargı bölgeleri, beklenen işlem hacimleri ve özel bankacılık ihtiyaçlarınız (çoklu para birimi, ticaret finansmanı vb.) hakkında bilgi verin"
+  :services="[
+  'Temel — yalnızca temel belgelendirme ve hesap açma danışmanlığı',
+  'Standart — tüm bankacılık aşamalarında eksiksiz belgelendirme ve rehberlik',
+  'Kapsamlı — sizin minimum katılımınızla tam hizmet bankacılık kurulumu',
+  'Özel — yüksek hacimli işlemleri veya çok yargı yetkili yapıyı görüşmek gerekiyor',
+  ]"
+/>
