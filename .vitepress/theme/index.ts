@@ -31,8 +31,6 @@ export default {
         const cookieLang = document.cookie.match(/nf_lang=([^;]+)/)?.[1]?.slice(0, 2)
         const path = page.value.relativePath.replace(PATH_CLEANUP_REGEX, "")
 
-        // console.log(browserLang, currentLang, cookieLang, path)
-
         if (!cookieLang) {
           document.cookie = `nf_lang=${browserLang}; expires=Mon, 1 Jan 2030 00:00:00 UTC; path=/`
           if (currentLang !== browserLang) {
