@@ -7,6 +7,7 @@ import FeatureCards from "./FeatureCards.vue"
 import BenefitsList from "./BenefitsList.vue"
 import ContactFormModal from "./CRM/ContactFormModal.vue"
 import AIChat from "./AIChat/AIChat.vue"
+import FeatureBlock from "./FeatureBlock.vue"
 
 interface Components {
   [key: string]: Component
@@ -20,4 +21,5 @@ export const components: Components = {
   BenefitsList,
   AIChat,
   ContactFormModal,
+  FeatureBlock,
 }

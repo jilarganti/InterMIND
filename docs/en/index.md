@@ -1,13 +1,13 @@
 ---
 layout: home
 title: Company Formation Services in the UAE
-description: "Expert UAE company formation and support services. Company setup, banking, tax, legal and visa solutions. Making your business dreams reality."
+description: "Expert UAE company formation and support services. Company setup, banking, tax, legal and visa solutions. Pay only after approval."
 showSponsors: false
 
 hero:
   name: "UAE: Your Financial Safe Harbor"
   # text: We speak your tongue
-  tagline: "Full Business Support: Banking, Company Setup, Visas. Zero upfront fees – pay only after approval."
+  tagline: "Full Business Support: Company Setup, Visas, Banking. Pay only after approval."
 
   actions:
     - theme: brand
@@ -29,14 +29,14 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Company Setup Guide',
-    details: 'Complete guide to setup companies in the free zone, offshore, mainland, branch.',
+    details: 'Complete guide to setup companies in the **free zone, offshore, mainland, branch**.',
     items: [
-      '**100% Foreign Ownership** available in Free Zones and Mainland',
+      '100% Foreign Ownership available in Free Zones and Mainland',
       'Low Tax Rates - only 9% corporate tax',
       'No Currency Controls - easy capital repatriation'
     ],
     linkText: 'Read More',
-    link: './uae-business/company-registration/overview',
+    link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -45,11 +45,11 @@ hero:
   },
   {
     title: 'Bank Account Opening',
-    details: 'Easily open business or personal bank accounts with the UAE\'s trusted banks.',
+    details: 'Easily open business or personal **bank accounts** with the UAE\'s trusted banks.',
     items: [
-      'Guaranteed corporate bank account approvals',
-      '90% success rate',
-      '**Zero upfront fees** - pay only after approval',
+      'End-to-end PRO services for government approvals',
+      '[Pay only after approval](/uae-business/benefits/success-based-fees)',
+      '87% success rate',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/banking/',
@@ -64,8 +64,8 @@ hero:
     details: 'Obtain a UAE **Golden Visa** for long-term residency with a seamless application process.',
     items: [
       '**No need to enter UAE every 6 months**',
-      '98% success rate',
-      '**Zero upfront fees** - pay only after approval',
+      '[Pay only after approval](/uae-business/benefits/success-based-fees)',
+      '96% success rate',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/golden-visa/',

@@ -3,7 +3,7 @@ title: Pay Only After Success - No Agent Fees Upfront
 description: "Unlike others, we only charge government fees upfront and our service fees after approval. No risk, full transparency, and guaranteed results."
 ---
 
-# Zero Upfront Fees – Pay Only After Approval
+# Pay Only After Success - No Agent Fees Upfront
 
 ## Our Unique Payment Approach
 
@@ -32,6 +32,8 @@ Our business model is radically different from standard market practice:
 3. We handle all document preparation and submission work
 4. After approval, you receive an invoice for our services
 5. Process completion and receipt of necessary documents
+
+![Show the setup process](/img/post-payment-process.svg)
 
 ## Why We Can Offer This
 
