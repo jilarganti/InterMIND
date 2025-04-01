@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from "node:url"
 import { gtmHead } from "./gtm.config"
 
 const hostUrl = "https://goldenfish.ae"
-const NOINDEX_PAGES = ["company-registration/fees-timelines", "include/recommended-banks", "t.md"]
+const NOINDEX_PAGES = ["company-registration/fees-timelines", "include/recommended-banks", "test.md", "chat.md"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
 // Список UTM-параметров для сохранения в параметрах страницы
 const UTM_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "campaign_id"]

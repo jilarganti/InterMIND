@@ -1,14 +1,13 @@
 ---
 layout: home
-title: "UAE Company Registration | No Agent Fees Until Approval"
-description: "Complete UAE company formation services with our unique risk-free model. Setup in Free Zones, Mainland, or Offshore with expert local guidance. 90%+ success rate."
+title: "UAE Business Without Risk | No Approval, No Payment"
+description: "Revolutionary UAE company formation model: you pay only after success. Expert guidance through every stage with 90%+ success rate."
 showSponsors: false
 
 hero:
-  name: "UAE Company Formation Made Simple"
+  name: "UAE Company Formation: The No-Risk Way"
   # text: Payment by results
-  # tagline: 'Expert business setup solutions. <span class="hl">Zero agent fees until approval</span>. 90%+ success rate.'
-  tagline: "Complete UAE company formation services with our unique risk-free model. <span class='hl'>Zero agent fees until approval</span>."
+  tagline: "Set up your business with confidence. <span class='hl'>Zero agent fees until approval</span>. Expert guidance guaranteed."
   image:
     light:
       src: /img/Logo.avif

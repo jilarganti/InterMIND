@@ -1,20 +1,20 @@
 ---
 layout: home
 title: "UAE Corporate Banking | Success Fee Based Service"
-description: "Premium multi-currency corporate accounts with zero upfront fees - pay only after approval. Full application management with 98% success rate. Guaranteed account opening."
+description: "Premium multi-currency corporate accounts with zero upfront fees - pay only after approval. Full application management with 96% success rate. Guaranteed account opening."
 showSponsors: false
 
 hero:
   name: "UAE Banking: Your Safe Harbor"
-  text: Zero upfront fees
-  tagline: Guaranteed corporate bank account approvals in 2025. <span class="hl">Zero upfront fees</span> - pay only after approval. 90% success rate.
+  # text: Zero upfront fees
+  tagline: Guaranteed corporate bank account approvals in 2025. <span class="hl">Zero upfront fees</span> - pay only after approval. 96% success rate.
   image:
     light:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     dark:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     alt: Golden Fish logo
 ---
 
@@ -23,7 +23,7 @@ hero:
     title: 'Guaranteed Account Approvals',
     bullet: '✓',
     items: [
-      '**Two-month guarantee** for first account approval',
+      'Two-month guarantee for first account approval',
       'Three-month guarantee for second account',
       'Quality business plan preparation',
       'Comprehensive due diligence support',
@@ -107,35 +107,20 @@ hero:
 
 <BenefitsList :features="[
   {
-    icon: '🏆',
-    title: 'High-Risk Expertise',
-    text: 'Specialized in complex cases from high-risk jurisdictions. Deep understanding of enhanced due diligence (EDD) requirements.'
-  },
-  {
-    icon: '💰',
-    title: 'Success-Based Fees',
-    text: 'Zero upfront fees - **pay only after approval.** 98% success rate for visas and 90% for bank accounts.'
-  },
-  {
-    icon: '🏦',
-    title: 'Bank Relationships',
-    text: 'Strong partnerships with major UAE banks. Multiple banking options to maximize approval chances.'
+    icon: '🏢',
+    title: 'Local UAE Expertise',
+    text: 'Dedicated specialists in Dubai provide expert guidance through every step of the process.'
   },
   {
     icon: '📊',
-    title: 'Full Compliance Support',
-    text: 'Expert guidance through ESR reports, UBO filings, and regulatory requirements. Regular compliance updates.'
+    title: 'Proven Success Rate',
+    text: 'Over 90% approval rate with hundreds of visas, bank accounts, and company registrations issued through our premium processing.'
   },
   {
-    icon: '📝',
-    title: 'Documentation Excellence',
-    text: 'Professional preparation of all required documents, including business plans and compliance policies.'
+    icon: '💸',
+    title: '**Success-Based Fees**',
+    text: '[Pay only after approval](/uae-business/benefits/success-based-fees). Complete transparency with no hidden costs.'
   },
-  {
-    icon: '🤝',
-    title: 'Long-Term Partnership',
-    text: '**Continuous assistance** with banking operations, accounting, tax, and compliance requirements after setup.'
-  }
 ]" />
 
 ## Book a free consultation to discuss your corporate banking needs
