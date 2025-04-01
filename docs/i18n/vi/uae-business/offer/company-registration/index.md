@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Thách Thức Cần Xem Xét',
-  details: 'Mặc dù UAE có nhiều lợi ích, doanh nghiệp nên lưu ý các thách thức tiềm ẩn khi thiết lập hoạt động. \n\n* Môi trường pháp lý phức tạp: Quy định khác nhau giữa các tiểu vương quốc và free zone\n* Yêu cầu về cơ sở kinh tế: Cần nhân viên địa phương và văn phòng vật lý cho một số hoạt động\n* Chi phí ban đầu cao: Phí đăng ký, tài liệu và thuê văn phòng bắt buộc',
+  details: 'Mặc dù UAE có nhiều lợi ích, doanh nghiệp nên lưu ý các thách thức tiềm ẩn khi thiết lập hoạt động. \n\n* Môi trường pháp lý phức tạp: Quy định khác nhau giữa các tiểu vương quốc và free zone\n* Yêu cầu về cơ sở kinh tế: Cần nhân viên địa phương và văn phòng vật lý cho một số hoạt động\n* Chi phí ban đầu cao: Phí đăng ký, hồ sơ và thuê văn phòng bắt buộc',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -45,7 +45,7 @@ hero:
 <FeatureBlock :card="{
   title: 'Hướng Dẫn Thành Lập Công Ty',
   details: 'Hướng dẫn đầy đủ để thành lập công ty tại **free zone, offshore, mainland, branch**. \n\n* 100% Sở hữu nước ngoài có sẵn tại Free Zone và Mainland\n* Thuế suất thấp - chỉ 9% thuế doanh nghiệp\n* Không kiểm soát tiền tệ - dễ dàng chuyển vốn',
-  link: './uae-business/company-registration/overview',
+  link: '../../company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
     dark: '/video/iStock-1269162753.mp4',
@@ -64,7 +64,7 @@ hero:
       'Tỷ lệ thành công 96%'
     ],
     linkText: 'Đọc Thêm',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -80,7 +80,7 @@ hero:
       'Tỷ lệ thành công 92%'
     ],
     linkText: 'Đọc Thêm',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -112,7 +112,7 @@ hero:
   {
     icon: '📊',
     title: 'Tỷ Lệ Thành Công Đã Được Chứng Minh',
-    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua dịch vụ xử lý cao cấp của chúng tôi.'
+    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua quy trình xử lý cao cấp của chúng tôi.[Test](https://imind-meetgenius.vercel.app/)'
   },
   {
     icon: '💸',

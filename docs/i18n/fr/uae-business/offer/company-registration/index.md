@@ -44,8 +44,8 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Guide de Création d\'Entreprise',
-  details: 'Guide complet pour créer des entreprises en **free zone, offshore, mainland, branch**. \n\n* 100% de Propriété Étrangère disponible en Free Zones et Mainland\n* Taux d\'Imposition Bas - seulement 9% d\'impôt sur les sociétés\n* Pas de Contrôle des Changes - rapatriement facile du capital',
-  link: './uae-business/company-registration/overview',
+  details: 'Guide complet pour créer des entreprises en **free zone, offshore, mainland, branch**. \n\n* 100% de Propriété Étrangère disponible en Free Zones et Mainland\n* Taux d\'Imposition Bas - seulement 9% d\'impôt sur les sociétés\n* Pas de Contrôle des Changes - rapatriement facile des capitaux',
+  link: '../../company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
     dark: '/video/iStock-1269162753.mp4',
@@ -64,7 +64,7 @@ hero:
       'Taux de réussite de 96%'
     ],
     linkText: 'En Savoir Plus',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -72,15 +72,15 @@ hero:
     }
   },
   {
-    title: 'Golden Visa & Résidence',
+    title: 'Visa Doré et Résidence',
     details: 'Obtenez un **Golden Visa** des EAU pour une résidence à long terme avec un processus de demande simplifié.',
     items: [
       '**Pas besoin d\'entrer aux EAU tous les 6 mois**',
-      'Validité de 10 ans avec option de renouvellement en maintenant les conditions requises',
+      'Validité de 10 ans avec option de renouvellement sous conditions qualifiantes',
       'Taux de réussite de 92%'
     ],
     linkText: 'En Savoir Plus',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -107,16 +107,16 @@ hero:
   {
     icon: '🏢',
     title: 'Expertise Locale aux EAU',
-    text: 'Des spécialistes dévoués à Dubaï fournissent des conseils d\'experts à chaque étape du processus.'
+    text: 'Des spécialistes dédiés à Dubaï fournissent des conseils d\'experts à chaque étape du processus.'
   },
   {
     icon: '📊',
     title: 'Taux de Réussite Prouvé',
-    text: 'Plus de 90% de taux d\'approbation avec des centaines de visas, comptes bancaires et enregistrements d\'entreprises délivrés via notre traitement premium.'
+    text: 'Plus de 90% de taux d\'approbation avec des centaines de visas, comptes bancaires et enregistrements d\'entreprises délivrés via notre traitement premium.[Test](https://imind-meetgenius.vercel.app/)'
   },
   {
     icon: '💸',
-    title: '**Frais Basés sur le Succès**',
+    title: '**Honoraires Basés sur le Succès**',
     text: '[Payez uniquement après approbation](/uae-business/benefits/success-based-fees). Transparence totale sans frais cachés.'
   },
 ]" />

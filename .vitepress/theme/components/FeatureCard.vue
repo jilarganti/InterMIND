@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from "vue"
 import { renderMarkdown } from "../utils/markdown" // Импортируем утилиту для рендеринга маркдауна
+import { useLocalizedPath } from "../utils/locale" // Импортируем утилиту для локализованных путей
 
 const props = defineProps<{
   title: string
@@ -15,6 +16,8 @@ const props = defineProps<{
   linkHref?: string
   bullet?: string
 }>()
+
+const { navigateTo } = useLocalizedPath()
 
 // Add video detection computed property
 const isVideoLight = computed(() => props.images.light?.toLowerCase().match(/\.(mp4|webm|ogg)$/))
@@ -35,9 +38,10 @@ const renderedItems = computed(() => {
   return props.items.map((item) => renderMarkdown(item))
 })
 
+// Обработчик клика по карточке с использованием локализованного пути
 const handleCardClick = () => {
   if (props.linkHref) {
-    window.location.href = props.linkHref
+    navigateTo(props.linkHref)
   }
 }
 
@@ -70,7 +74,7 @@ const bulletStyle = computed(() => props.bullet || "•")
       </li>
     </ul>
 
-    <a v-if="linkHref" :href="linkHref" class="feature-link" :class="{ 'is-clickable': linkHref }">
+    <a v-if="linkHref" @click.prevent="handleCardClick" href="#" class="feature-link" :class="{ 'is-clickable': linkHref }">
       {{ linkText }}
       <span class="arrow">→</span>
     </a>

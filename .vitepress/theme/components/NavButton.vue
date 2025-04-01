@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useRouter, useData } from "vitepress"
 import { computed } from "vue"
+import { useLocalizedPath } from "../utils/locale"
 
 interface Props {
   /**
@@ -23,8 +23,7 @@ const props = withDefaults(defineProps<Props>(), {
   buttonClass: "",
 })
 
-const router = useRouter()
-const { lang } = useData()
+const { navigateTo } = useLocalizedPath()
 
 // Вычисляемый класс с добавлением brand по умолчанию
 const computedClass = computed(() => {
@@ -44,9 +43,7 @@ const computedClass = computed(() => {
  * Обработчик клика по кнопке - переход по ссылке с учетом локали
  */
 const handleClick = (): void => {
-  const currentLang = lang.value.slice(0, 2)
-  const localizedPath = currentLang === "en" ? props.to : `/${currentLang}${props.to}`
-  router.go(localizedPath)
+  navigateTo(props.to)
 }
 </script>
 

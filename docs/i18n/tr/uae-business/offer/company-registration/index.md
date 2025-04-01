@@ -6,7 +6,7 @@ showSponsors: false
 
 hero:
   name: "BAE Şirket Kurulumu: Risksiz Yöntem"
-  # text: Sonuca göre ödeme
+  # text: Sonuç bazlı ödeme
   tagline: "Güvenle işinizi kurun. <span class='hl'>Onay alınana kadar sıfır acente ücreti</span>. Garantili uzman rehberlik."
   image:
     light:
@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Dikkat Edilmesi Gereken Zorluklar',
-  details: 'BAE birçok avantaj sunarken, işletmeler faaliyetlerini kurarken potansiyel zorlukların farkında olmalıdır. \n\n* Karmaşık Düzenleyici Ortam: Emirlikler ve free zone\'lar arasında farklı düzenlemeler\n* Ekonomik Madde Gereklilikleri: Belirli faaliyetler için yerel personel ve fiziksel ofis alanı gerekli\n* Yüksek Başlangıç Maliyetleri: Kayıt ücretleri, dokümantasyon ve zorunlu ofis kiraları',
+  details: 'BAE birçok avantaj sunarken, işletmeler faaliyetlerini kurarken potansiyel zorlukların farkında olmalıdır. \n\n* Karmaşık Düzenleyici Ortam: Emirlikler ve free zone\'lar arasında farklı düzenlemeler\n* Ekonomik Maddi Varlık Gereklilikleri: Belirli faaliyetler için yerel personel ve fiziksel ofis alanı gerekli\n* Yüksek Başlangıç Maliyetleri: Kayıt ücretleri, dokümantasyon ve zorunlu ofis kiraları',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -45,7 +45,7 @@ hero:
 <FeatureBlock :card="{
   title: 'Şirket Kurulum Rehberi',
   details: '**Free zone, offshore, mainland, branch** şirket kurulumu için kapsamlı rehber. \n\n* Free Zone ve Mainland\'de %100 Yabancı Mülkiyet mümkün\n* Düşük Vergi Oranları - sadece %9 kurumlar vergisi\n* Döviz Kontrolü Yok - kolay sermaye transferi',
-  link: './uae-business/company-registration/overview',
+  link: '../../company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
     dark: '/video/iStock-1269162753.mp4',
@@ -59,12 +59,12 @@ hero:
     title: 'Banka Hesabı Açma',
     details: 'BAE\'nin güvenilir bankalarında kolayca ticari veya kişisel **banka hesapları** açın.',
     items: [
-      'Devlet onayları için eksiksiz PRO hizmetleri',
+      'Devlet onayları için kapsamlı PRO hizmetleri',
       'Eksiksiz bankacılık paketi kurulumu',
       '%96 başarı oranı'
     ],
-    linkText: 'Devamını Oku',
-    link: './uae-business/offer/banking/',
+    linkText: 'Daha Fazla Bilgi',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -79,8 +79,8 @@ hero:
       'Yeterlilik koşullarının sürdürülmesi halinde yenileme seçeneğiyle 10 yıl geçerlilik',
       '%92 başarı oranı'
     ],
-    linkText: 'Devamını Oku',
-    link: './uae-business/offer/golden-visa/',
+    linkText: 'Daha Fazla Bilgi',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -91,7 +91,7 @@ hero:
     title: 'Kurumsal hizmetlerimiz hakkında daha fazla bilgi edinin',
     details: '',
     items: [],
-    linkText: 'Devamını Oku',
+    linkText: 'Daha Fazla Bilgi',
     link: '../../company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
@@ -112,12 +112,12 @@ hero:
   {
     icon: '📊',
     title: 'Kanıtlanmış Başarı Oranı',
-    text: 'Premium hizmetlerimiz aracılığıyla yüzlerce vize, banka hesabı ve şirket tescili ile %90\'ın üzerinde onay oranı.'
+    text: 'Premium hizmetlerimiz aracılığıyla verilen yüzlerce vize, banka hesabı ve şirket tescilinde %90\'ın üzerinde onay oranı.[Test](https://imind-meetgenius.vercel.app/)'
   },
   {
     icon: '💸',
     title: '**Başarıya Dayalı Ücretler**',
-    text: '[Sadece onay sonrası ödeme](/uae-business/benefits/success-based-fees). Gizli maliyetler olmadan tam şeffaflık.'
+    text: '[Sadece onaydan sonra ödeme yapın](/uae-business/benefits/success-based-fees). Gizli maliyetler olmadan tam şeffaflık.'
   },
 ]" />
 
@@ -133,7 +133,7 @@ hero:
   categoryLabel="Gereken destek seviyesi: *" 
   categoryPlaceholderText="Destek seviyenizi seçin"
   messageLabel="Danışmanlığınız için bize yardımcı olun (önerilen)"
-  messagePlaceholderText="Tercihleriniz, aile üyeleriniz, zaman çizelgeniz veya özel sorularınız hakkında bilgi verin"
+  messagePlaceholderText="Tercihleriniz, aile üyeleriniz, zaman çizelgeniz veya özel sorularınız hakkında bize bilgi verin"
   :services="[
   'Temel — yalnızca gerekli belgeler ve danışmanlıklar',
   'Standart — eksiksiz dokümantasyon ve ana aşamalarda rehberlik',

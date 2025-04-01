@@ -45,7 +45,7 @@ hero:
 <FeatureBlock :card="{
   title: 'Company Setup Guide',
   details: 'Complete guide to setup companies in the **free zone, offshore, mainland, branch**. \n\n* 100% Foreign Ownership available in Free Zones and Mainland\n* Low Tax Rates - only 9% corporate tax\n* No Currency Controls - easy capital repatriation',
-  link: './uae-business/company-registration/overview',
+  link: '../../company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
     dark: '/video/iStock-1269162753.mp4',
@@ -112,7 +112,7 @@ hero:
   {
     icon: '📊',
     title: 'Proven Success Rate',
-    text: 'Over 90% approval rate with hundreds of visas, bank accounts, and company registrations issued through our premium processing.'
+    text: 'Over 90% approval rate with hundreds of visas, bank accounts, and company registrations issued through our premium processing.[Test](https://imind-meetgenius.vercel.app/)'
   },
   {
     icon: '💸',

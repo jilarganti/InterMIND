@@ -7,7 +7,7 @@ showSponsors: false
 hero:
   name: "Formación de Empresas en EAU: El Camino Sin Riesgos"
   # text: Pago por resultados
-  tagline: "Establezca su negocio con confianza. <span class='hl'>Sin tarifas de agente hasta la aprobación</span>. Orientación experta garantizada."
+  tagline: "Establezca su negocio con confianza. <span class='hl'>Sin honorarios de agente hasta la aprobación</span>. Orientación experta garantizada."
   image:
     light:
       src: /img/Logo.avif
@@ -15,7 +15,7 @@ hero:
     dark:
       src: /img/Logo.avif
       width: 40%
-    alt: Logo Golden Fish
+    alt: Logotipo Golden Fish
 ---
 
 <FeatureBlock :card="{
@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Desafíos a Considerar',
-  details: 'Si bien los EAU ofrecen muchos beneficios, las empresas deben ser conscientes de los posibles desafíos al establecer operaciones. \n\n* Entorno Regulatorio Complejo: Diferentes regulaciones entre emiratos y free zones\n* Requisitos de Sustancia Económica: Personal local y espacio de oficina física necesarios para ciertas actividades\n* Altos Costos Iniciales: Tarifas de registro, documentación y alquileres obligatorios de oficinas',
+  details: 'Si bien los EAU ofrecen muchos beneficios, las empresas deben ser conscientes de los posibles desafíos al establecer operaciones. \n\n* Entorno Regulatorio Complejo: Diferentes regulaciones entre emiratos y free zones\n* Requisitos de Sustancia Económica: Personal local y espacio de oficina física necesarios para ciertas actividades\n* Altos Costos Iniciales: Tasas de registro, documentación y alquileres obligatorios de oficinas',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -45,7 +45,7 @@ hero:
 <FeatureBlock :card="{
   title: 'Guía de Configuración de Empresa',
   details: 'Guía completa para establecer empresas en **free zone, offshore, mainland, branch**. \n\n* 100% Propiedad Extranjera disponible en Free Zones y Mainland\n* Bajas Tasas Impositivas - solo 9% de impuesto corporativo\n* Sin Control de Divisas - fácil repatriación de capital',
-  link: './uae-business/company-registration/overview',
+  link: '../../company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
     dark: '/video/iStock-1269162753.mp4',
@@ -57,14 +57,14 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Apertura de Cuenta Bancaria',
-    details: 'Abra fácilmente **cuentas bancarias** comerciales o personales con los bancos de confianza de EAU.',
+    details: 'Abra fácilmente cuentas bancarias comerciales o personales con los bancos de confianza de EAU.',
     items: [
       'Servicios PRO integrales para aprobaciones gubernamentales',
       'Configuración completa del paquete bancario',
       '96% de tasa de éxito'
     ],
     linkText: 'Leer Más',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -80,7 +80,7 @@ hero:
       '92% de tasa de éxito'
     ],
     linkText: 'Leer Más',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -101,22 +101,22 @@ hero:
   }
 ]" />
 
-## Por Qué Elegir Golden Fish
+## Por qué elegir Golden Fish
 
 <BenefitsList :features="[
   {
     icon: '🏢',
-    title: 'Experiencia Local en EAU',
+    title: 'Experiencia local en EAU',
     text: 'Especialistas dedicados en Dubái proporcionan orientación experta en cada paso del proceso.'
   },
   {
     icon: '📊',
-    title: 'Tasa de Éxito Comprobada',
-    text: 'Más del 90% de tasa de aprobación con cientos de visas, cuentas bancarias y registros de empresas emitidos a través de nuestro procesamiento premium.'
+    title: 'Tasa de éxito comprobada',
+    text: 'Más del 90% de tasa de aprobación con cientos de visas, cuentas bancarias y registros de empresas emitidos a través de nuestro procesamiento premium.[Test](https://imind-meetgenius.vercel.app/)'
   },
   {
     icon: '💸',
-    title: '**Tarifas Basadas en el Éxito**',
+    title: '**Tarifas basadas en el éxito**',
     text: '[Pague solo después de la aprobación](/uae-business/benefits/success-based-fees). Transparencia total sin costos ocultos.'
   },
 ]" />

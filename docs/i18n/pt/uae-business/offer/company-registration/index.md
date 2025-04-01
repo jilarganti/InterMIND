@@ -7,7 +7,7 @@ showSponsors: false
 hero:
   name: "Formação de Empresa nos EAU: O Caminho Sem Riscos"
   # text: Pagamento por resultados
-  tagline: "Monte seu negócio com confiança. <span class='hl'>Zero taxas de agente até a aprovação</span>. Orientação especializada garantida."
+  tagline: "Monte seu negócio com confiança. <span class='hl'>Zero taxas até a aprovação</span>. Orientação especializada garantida."
   image:
     light:
       src: /img/Logo.avif
@@ -20,7 +20,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Benefícios de Negócios nos EAU',
-  details: 'Os EAU oferecem numerosas vantagens para empreendedores e investidores internacionais que buscam um ambiente de negócios favorável. \n\n* Baixas Taxas de Impostos: Apenas 9% de imposto corporativo e 5% de IVA sem imposto de renda pessoal\n* 100% de Propriedade Estrangeira: Controle completo da sua empresa sem parceiros locais\n* Sem Controles Cambiais: Repatriação de lucros e câmbio de moeda sem restrições',
+  details: 'Os EAU oferecem numerosas vantagens para empreendedores e investidores internacionais que buscam um ambiente de negócios favorável. \n\n* Baixas Taxas: Apenas 9% de imposto corporativo e 5% de IVA sem imposto de renda pessoal\n* 100% de Propriedade Estrangeira: Controle total da sua empresa sem parceiros locais\n* Sem Controle Cambial: Repatriação de lucros e câmbio de moeda sem restrições',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -44,8 +44,8 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Guia de Abertura de Empresa',
-  details: 'Guia completo para abrir empresas na **free zone, offshore, mainland, branch**. \n\n* 100% de Propriedade Estrangeira disponível em Free Zones e Mainland\n* Baixas Taxas de Impostos - apenas 9% de imposto corporativo\n* Sem Controles Cambiais - fácil repatriação de capital',
-  link: './uae-business/company-registration/overview',
+  details: 'Guia completo para abrir empresas na **free zone, offshore, mainland, branch**. \n\n* 100% de Propriedade Estrangeira disponível em Free Zones e Mainland\n* Baixas Taxas - apenas 9% de imposto corporativo\n* Sem Controle Cambial - fácil repatriação de capital',
+  link: '../../company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
     dark: '/video/iStock-1269162753.mp4',
@@ -57,14 +57,14 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Abertura de Conta Bancária',
-    details: 'Abra facilmente **contas bancárias** empresariais ou pessoais com os bancos confiáveis dos EAU.',
+    details: 'Abra facilmente contas bancárias empresariais ou pessoais com os bancos confiáveis dos EAU.',
     items: [
       'Serviços PRO completos para aprovações governamentais',
       'Configuração completa do pacote bancário',
       'Taxa de sucesso de 96%'
     ],
     linkText: 'Leia Mais',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -73,14 +73,14 @@ hero:
   },
   {
     title: 'Golden Visa e Residência',
-    details: 'Obtenha um **Golden Visa** dos EAU para residência de longo prazo com um processo de aplicação simplificado.',
+    details: 'Obtenha um **Golden Visa** dos EAU para residência de longo prazo com um processo de solicitação simplificado.',
     items: [
       '**Sem necessidade de entrar nos EAU a cada 6 meses**',
       'Validade de 10 anos com opção de renovação mantendo as condições qualificadoras',
       'Taxa de sucesso de 92%'
     ],
     linkText: 'Leia Mais',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -112,12 +112,12 @@ hero:
   {
     icon: '📊',
     title: 'Taxa de Sucesso Comprovada',
-    text: 'Mais de 90% de taxa de aprovação com centenas de vistos, contas bancárias e registros de empresas emitidos através do nosso processamento premium.'
+    text: 'Mais de 90% de taxa de aprovação com centenas de vistos, contas bancárias e registros de empresas emitidos através do nosso processamento premium.[Test](https://imind-meetgenius.vercel.app/)'
   },
   {
     icon: '💸',
     title: '**Taxas Baseadas no Sucesso**',
-    text: '[Pague apenas após a aprovação](/uae-business/benefits/success-based-fees). Transparência total sem custos ocultos.'
+    text: '[Pay only after approval](/uae-business/benefits/success-based-fees). Transparência total sem custos ocultos.'
   },
 ]" />
 

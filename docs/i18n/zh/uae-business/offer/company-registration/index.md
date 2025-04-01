@@ -1,13 +1,13 @@
 ---
 layout: home
 title: "阿联酋无风险创业 | 未获批不收费"
-description: "革新性阿联酋公司注册模式：仅在成功后付费。全程专业指导，成功率超90%。"
+description: "革新性的阿联酋公司注册模式：仅在成功后付费。全程专业指导，成功率超过90%。"
 showSponsors: false
 
 hero:
   name: "阿联酋公司注册：零风险之选"
   # text: 按结果付费
-  tagline: "自信创业从这里开始。<span class='hl'>获批前零代理费</span>。专业指导保证。"
+  tagline: "自信创业从这里开始。<span class='hl'>获批前零代理费</span>。保证专业指导。"
   image:
     light:
       src: /img/Logo.avif
@@ -20,7 +20,7 @@ hero:
 
 <FeatureBlock :card="{
   title: '在阿联酋经商的优势',
-  details: '阿联酋为国际企业家和投资者提供众多优势和有利的商业环境。\n\n* 低税率：仅9%公司税和5%增值税，无个人所得税\n* 100%外资所有权：无需本地合伙人，完全控制您的公司\n* 无货币管制：利润汇回和货币兑换自由',
+  details: '阿联酋为国际企业家和投资者提供众多优势，打造理想的营商环境。\n\n* 低税率：仅9%公司税和5%增值税，无个人所得税\n* 100%外资所有权：无需本地合伙人，完全掌控公司\n* 无外汇管制：利润汇回和货币兑换自由',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: '需要考虑的挑战',
-  details: '虽然阿联酋提供诸多优势，但企业在设立运营时应注意潜在挑战。\n\n* 复杂的监管环境：各酋长国和自由区规定不同\n* 经济实质要求：某些活动需要本地员工和实体办公场所\n* 高初始成本：注册费、文件费和强制性办公室租金',
+  details: '尽管阿联酋提供诸多优势，企业在设立运营时仍需注意潜在挑战。\n\n* 复杂的监管环境：各酋长国和自贸区法规不同\n* 经济实质要求：特定活动需要本地员工和实体办公场所\n* 较高的初始成本：注册费、文件费和强制性办公室租金',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-1299393716.avif',
@@ -44,8 +44,8 @@ hero:
 
 <FeatureBlock :card="{
   title: '公司设立指南',
-  details: '完整指导在**Free Zone、离岸、Mainland、分公司**设立公司。\n\n* Free Zone和Mainland均可100%外资持股\n* 低税率 - 仅9%公司税\n* 无货币管制 - 资金汇回便捷',
-  link: './uae-business/company-registration/overview',
+  details: '完整指导在**自贸区、离岸、大陆、分公司**设立公司。\n\n* 自贸区和大陆均可100%外资持股\n* 低税率 - 仅9%公司税\n* 无外汇管制 - 资金汇回便捷',
+  link: '../../company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
     dark: '/video/iStock-1269162753.mp4',
@@ -57,14 +57,14 @@ hero:
 <FeatureCards :features="[
   {
     title: '银行开户',
-    details: '轻松在阿联酋信誉银行开设企业或个人**银行账户**。',
+    details: '轻松在阿联酋信誉银行开设商业或个人**银行账户**。',
     items: [
       '政府审批全程PRO服务',
       '完整银行服务包设置',
       '96%成功率'
     ],
-    linkText: 'Read More',
-    link: './uae-business/offer/banking/',
+    linkText: '了解更多',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -75,12 +75,12 @@ hero:
     title: 'Golden Visa与居留',
     details: '通过无缝申请流程获取阿联酋**Golden Visa**长期居留。',
     items: [
-      '**无需每6个月入境阿联酋**',
+      '**无需每6个月入境一次**',
       '10年有效期，符合条件可续签',
       '92%成功率'
     ],
-    linkText: 'Read More',
-    link: './uae-business/offer/golden-visa/',
+    linkText: '了解更多',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -91,7 +91,7 @@ hero:
     title: '探索更多企业服务',
     details: '',
     items: [],
-    linkText: 'Read More',
+    linkText: '了解更多',
     link: '../../company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
@@ -112,7 +112,7 @@ hero:
   {
     icon: '📊',
     title: '成功率有目共睹',
-    text: '通过我们的优质服务，签证、银行账户和公司注册的审批成功率超过90%，已成功办理数百个案例。'
+    text: '通过我们的优质服务，签证、银行账户和公司注册的审批成功率超过90%，已成功办理数百个案例。[Test](https://imind-meetgenius.vercel.app/)'
   },
   {
     icon: '💸',
@@ -121,7 +121,7 @@ hero:
   },
 ]" />
 
-## 预约免费咨询，了解您的资格并讨论选项。
+## 预约免费咨询，了解您的资格并讨论可选方案。
 
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">

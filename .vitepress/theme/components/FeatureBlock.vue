@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { computed } from "vue"
-import { useData, useRouter } from "vitepress"
+import { useData } from "vitepress"
 import { renderMarkdown } from "../utils/markdown" // Предполагается, что у нас есть утилита для рендеринга маркдауна
+import { useLocalizedPath } from "../utils/locale" // Импортируем утилиту для работы с локализованными путями
 
 /**
  * Компонент FeatureBlock для отображения контента с изображением/видео
@@ -32,7 +33,7 @@ const props = defineProps<{
 }>()
 
 const { isDark } = useData()
-const router = useRouter()
+const { navigateTo } = useLocalizedPath()
 
 // Определяем источник медиа в зависимости от темы
 const mediaUrl = computed(() => {
@@ -59,8 +60,8 @@ const isVideo = computed(() => mediaUrl.value?.toLowerCase().match(/\.(mp4|webm|
 // Обработчик клика по медиа для перехода по ссылке
 const handleMediaClick = () => {
   if (props.card.link) {
-    // Используем Vue Router вместо window.location.href для правильной навигации
-    router.go(props.card.link)
+    // Используем функцию navigateTo для локализованного перехода
+    navigateTo(props.card.link)
   }
 }
 

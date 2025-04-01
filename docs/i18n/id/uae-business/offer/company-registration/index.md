@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Bisnis UAE Tanpa Risiko | Tanpa Persetujuan, Tanpa Pembayaran"
-description: "Model pembentukan perusahaan UAE revolusioner: Anda hanya membayar setelah berhasil. Panduan ahli di setiap tahap dengan tingkat keberhasilan 90%+."
+description: "Model pembentukan perusahaan UAE revolusioner: Anda hanya membayar setelah berhasil. Panduan ahli di setiap tahap dengan tingkat keberhasilan 90%+"
 showSponsors: false
 
 hero:
@@ -20,7 +20,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Keuntungan Bisnis UAE',
-  details: 'UAE menawarkan berbagai keuntungan bagi pengusaha dan investor internasional yang mencari lingkungan bisnis yang menguntungkan. \n\n* Tarif Pajak Rendah: Hanya 9% pajak perusahaan dan 5% PPN tanpa pajak penghasilan pribadi\n* Kepemilikan Asing 100%: Kendali penuh atas perusahaan Anda tanpa mitra lokal\n* Tanpa Kontrol Mata Uang: Repatriasi keuntungan dan pertukaran mata uang tanpa batasan',
+  details: 'UAE menawarkan berbagai keuntungan bagi pengusaha dan investor internasional yang mencari lingkungan bisnis yang menguntungkan. \n\n* Tarif Pajak Rendah: Hanya 9% pajak perusahaan dan 5% PPN tanpa pajak penghasilan pribadi\n* 100% Kepemilikan Asing: Kendali penuh atas perusahaan Anda tanpa mitra lokal\n* Tanpa Kontrol Mata Uang: Repatriasi keuntungan dan pertukaran mata uang tanpa batasan',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -44,8 +44,8 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Panduan Pendirian Perusahaan',
-  details: 'Panduan lengkap untuk mendirikan perusahaan di **free zone, offshore, mainland, branch**. \n\n* Kepemilikan Asing 100% tersedia di Free Zone dan Mainland\n* Tarif Pajak Rendah - hanya 9% pajak perusahaan\n* Tanpa Kontrol Mata Uang - repatriasi modal mudah',
-  link: './uae-business/company-registration/overview',
+  details: 'Panduan lengkap untuk mendirikan perusahaan di **free zone, offshore, mainland, branch**. \n\n* 100% Kepemilikan Asing tersedia di Free Zone dan Mainland\n* Tarif Pajak Rendah - hanya 9% pajak perusahaan\n* Tanpa Kontrol Mata Uang - repatriasi modal mudah',
+  link: '../../company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
     dark: '/video/iStock-1269162753.mp4',
@@ -63,8 +63,8 @@ hero:
       'Pengaturan paket perbankan lengkap',
       'Tingkat keberhasilan 96%'
     ],
-    linkText: 'Read More',
-    link: './uae-business/offer/banking/',
+    linkText: 'Baca Selengkapnya',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -79,8 +79,8 @@ hero:
       'Masa berlaku 10 tahun dengan opsi perpanjangan jika memenuhi syarat',
       'Tingkat keberhasilan 92%'
     ],
-    linkText: 'Read More',
-    link: './uae-business/offer/golden-visa/',
+    linkText: 'Baca Selengkapnya',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -91,7 +91,7 @@ hero:
     title: 'Jelajahi layanan korporat kami lainnya',
     details: '',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Baca Selengkapnya',
     link: '../../company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
@@ -112,12 +112,12 @@ hero:
   {
     icon: '📊',
     title: 'Tingkat Keberhasilan Terbukti',
-    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan pendaftaran perusahaan yang diproses melalui layanan premium kami.'
+    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan pendaftaran perusahaan yang dikeluarkan melalui pemrosesan premium kami.[Test](https://imind-meetgenius.vercel.app/)'
   },
   {
     icon: '💸',
     title: '**Biaya Berbasis Keberhasilan**',
-    text: '[Bayar hanya setelah disetujui](/uae-business/benefits/success-based-fees). Transparansi penuh tanpa biaya tersembunyi.'
+    text: '[Bayar hanya setelah persetujuan](/uae-business/benefits/success-based-fees). Transparansi penuh tanpa biaya tersembunyi.'
   },
 ]" />
 
