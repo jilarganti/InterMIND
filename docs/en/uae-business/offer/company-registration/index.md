@@ -64,7 +64,7 @@ hero:
       '96% success rate'
     ],
     linkText: 'Read More',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -80,7 +80,7 @@ hero:
       '92% success rate'
     ],
     linkText: 'Read More',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
