@@ -1,17 +1,17 @@
 ---
 layout: home
 title: "Layanan Pembentukan Perusahaan di UAE"
-description: "Layanan pembentukan dan dukungan perusahaan ahli di UAE. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa. Mewujudkan impian bisnis Anda."
+description: "Layanan ahli pembentukan dan dukungan perusahaan UAE. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa. Bayar hanya setelah persetujuan."
 showSponsors: false
 
 hero:
   name: "UAE: Pelabuhan Keuangan Aman Anda"
   # text: We speak your tongue
-  tagline: "Dukungan Bisnis Lengkap: Perbankan, Pendirian Perusahaan, Visa. Tanpa biaya di muka – bayar hanya setelah disetujui."
+  tagline: "Dukungan Bisnis Lengkap: Pendirian Perusahaan, Visa, Perbankan. <span class='hl'>Tidak ada keberhasilan — tidak ada biaya</span>."
 
   actions:
     - theme: brand
-      text: Get Free Consultation
+      text: Dapatkan Konsultasi Gratis
       link: ./resources/contacts
     # - theme: alt
     #   text: Support 24/7
@@ -19,24 +19,24 @@ hero:
   image:
     light:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     dark:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     alt: Logo Golden Fish
 ---
 
 <FeatureCards :features="[
   {
     title: 'Panduan Pendirian Perusahaan',
-    details: 'Panduan lengkap untuk mendirikan perusahaan di Free Zone, offshore, mainland, cabang.',
+    details: 'Panduan lengkap untuk mendirikan perusahaan di **Free Zone, offshore, Mainland, cabang**.',
     items: [
-      '**Kepemilikan Asing 100%** tersedia di Free Zone dan Mainland',
+      'Kepemilikan Asing 100% tersedia di Free Zone dan Mainland',
       'Tarif Pajak Rendah - hanya 9% pajak perusahaan',
-      'Tanpa Kontrol Mata Uang - repatriasi modal mudah'
+      'Tidak Ada Kontrol Mata Uang - repatriasi modal mudah'
     ],
     linkText: 'Read More',
-    link: './uae-business/company-registration/overview',
+    link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -45,11 +45,11 @@ hero:
   },
   {
     title: 'Pembukaan Rekening Bank',
-    details: 'Buka rekening bank bisnis atau pribadi dengan mudah di bank-bank terpercaya UAE.',
+    details: 'Mudah membuka **rekening bank** bisnis atau pribadi dengan bank-bank terpercaya UAE.',
     items: [
-      'Jaminan persetujuan rekening perusahaan',
-      'Tingkat keberhasilan 90%',
-      '**Tanpa biaya di muka** - bayar hanya setelah disetujui',
+      'Layanan PRO end-to-end untuk persetujuan pemerintah',
+      'Pengaturan paket perbankan lengkap',
+      'Tingkat keberhasilan 96%',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/banking/',
@@ -61,11 +61,11 @@ hero:
   },
   {
     title: 'Golden Visa & Izin Tinggal',
-    details: 'Dapatkan **Golden Visa** UAE untuk izin tinggal jangka panjang dengan proses aplikasi yang mudah.',
+    details: 'Dapatkan **Golden Visa** UAE untuk izin tinggal jangka panjang dengan proses aplikasi yang lancar.',
     items: [
       '**Tidak perlu masuk UAE setiap 6 bulan**',
-      'Tingkat keberhasilan 98%',
-      '**Tanpa biaya di muka** - bayar hanya setelah disetujui',
+      'Masa berlaku 10 tahun dengan opsi perpanjangan dengan mempertahankan syarat kualifikasi',
+      'Tingkat keberhasilan 92%',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/golden-visa/',
@@ -80,10 +80,10 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Layanan Kepatuhan',
-    details: 'Tim ahli kami memandu Anda melalui persyaratan regulasi UAE yang kompleks, termasuk laporan ESR dan pengajuan UBO.',
+    details: 'Para ahli kami membimbing Anda melalui persyaratan regulasi UAE yang kompleks, termasuk laporan ESR dan pengajuan UBO.',
     items: [],
     linkText: 'Read More',
-    link: './uae-business/company-registration/ubo',
+    link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -104,7 +104,7 @@ hero:
   },
   {
     title: 'Layanan Hukum',
-    details: 'Tim hukum memberikan saran tentang hukum UAE terkait M&A, restrukturisasi perusahaan, pembiayaan, dan penyelesaian sengketa.',
+    details: 'Tim hukum memberikan saran tentang hukum UAE mengenai M&A, restrukturisasi perusahaan, pembiayaan, dan penyelesaian sengketa.',
     items: [],
     linkText: 'Read More',
     link: './uae-business/company-registration/Protect-Your-Business',
@@ -131,36 +131,21 @@ hero:
 ## Mengapa Memilih Golden Fish
 
 <BenefitsList :features="[
-{
- icon: '💰',
- title: 'Biaya Berbasis Keberhasilan',
- text: '**Tanpa biaya di muka - bayar hanya setelah persetujuan.** Transparansi penuh tanpa biaya tersembunyi.'
-},
-{
- icon: '🔄',
- title: 'Beragam Solusi',
- text: 'Akses ke bank lokal dan internasional. Opsi alternatif jika pengajuan utama ditolak.'
-},
-{
- icon: '🏦',
- title: 'Hubungan Perbankan',
- text: 'Kemitraan yang kuat dengan bank-bank besar UAE dan internasional. Pengajuan ke beberapa bank untuk memaksimalkan peluang persetujuan.'
-},
-{
- icon: '📊',
- title: 'Manajemen Lengkap',
- text: 'Penanganan menyeluruh dari dokumentasi hingga aktivasi rekening, dengan pembaruan progres mingguan dan komunikasi langsung dengan bank.'
-},
-{
- icon: '📝',
- title: 'Dokumentasi Profesional',
- text: 'Tim kami menyiapkan rencana bisnis yang komprehensif dan menangani semua dokumentasi kepatuhan.'
-},
-{
- icon: '🤝',
- title: 'Dukungan Berkelanjutan',
- text: 'Bantuan berkelanjutan untuk operasi perbankan dan persyaratan kepatuhan setelah pembukaan rekening.'
-}
+  {
+    icon: '🏢',
+    title: 'Keahlian Lokal UAE',
+    text: 'Spesialis berdedikasi di Dubai memberikan panduan ahli melalui setiap tahap proses.'
+  },
+  {
+    icon: '📊',
+    title: 'Tingkat Keberhasilan Terbukti',
+    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan pendaftaran perusahaan yang dikeluarkan melalui pemrosesan premium kami.'
+  },
+  {
+    icon: '💸',
+    title: '**Biaya Berbasis Keberhasilan**',
+    text: '[Bayar hanya setelah persetujuan](/uae-business/benefits/success-based-fees). Transparansi penuh tanpa biaya tersembunyi.'
+  },
 ]" />
 
 <!-- ## Mulai Sekarang - Konsultasi Awal Gratis

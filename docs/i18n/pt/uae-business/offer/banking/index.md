@@ -1,21 +1,21 @@
 ---
 layout: home
 title: "Banco Corporativo nos EAU | Serviço Baseado em Taxa de Sucesso"
-description: "Contas corporativas multi-moeda premium sem taxas antecipadas - pague apenas após a aprovação. Gestão completa da aplicação com 98% de taxa de sucesso. Abertura de conta garantida."
+description: "Contas corporativas multi-moeda premium sem taxas antecipadas - pague apenas após a aprovação. Gestão completa da aplicação com 96% de taxa de sucesso. Abertura de conta garantida."
 showSponsors: false
 
 hero:
   name: "Banco nos EAU: Seu Porto Seguro"
-  text: Zero taxas antecipadas
-  tagline: Aprovações garantidas de contas corporativas em 2025. <span class="hl">Zero taxas antecipadas</span> - pague apenas após a aprovação. 90% de taxa de sucesso.
+  # text: Sem taxas antecipadas
+  tagline: Aprovações garantidas de contas corporativas em 2025. <span class="hl">Sem taxas antecipadas</span> - pague apenas após a aprovação. 96% de taxa de sucesso.
   image:
     light:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     dark:
       src: /img/Logo.avif
-      width: 50%
-    alt: Logotipo Golden Fish
+      width: 40%
+    alt: Logo Golden Fish
 ---
 
 <FeatureCards :features="[
@@ -23,8 +23,8 @@ hero:
     title: 'Aprovações de Conta Garantidas',
     bullet: '✓',
     items: [
-      '**Garantia de dois meses** para aprovação da primeira conta',
-      'Garantia de três meses para segunda conta',
+      'Garantia de dois meses para aprovação da primeira conta',
+      'Garantia de três meses para a segunda conta',
       'Preparação de plano de negócios de qualidade',
       'Suporte abrangente de due diligence',
       'Estratégia de comunicação direta com o banco',
@@ -60,7 +60,7 @@ hero:
     }
   },
   {
-    title: 'Mantenha-se em conformidade: Proteja seu negócio nos EAU',
+    title: 'Mantenha a conformidade: Proteja seu negócio nos EAU',
     items: [
       'Auditorias regulares de compliance para identificar riscos potenciais',
       'Serviços PRO completos para aprovações governamentais',
@@ -107,35 +107,20 @@ hero:
 
 <BenefitsList :features="[
   {
-    icon: '🏆',
-    title: 'Especialização em Alto Risco',
-    text: 'Especializada em casos complexos de jurisdições de alto risco. Profundo conhecimento dos requisitos de due diligence aprimorada (EDD).'
-  },
-  {
-    icon: '💰',
-    title: 'Taxas Baseadas em Sucesso',
-    text: 'Zero taxas antecipadas - **pagamento apenas após aprovação.** Taxa de sucesso de 98% para vistos e 90% para contas bancárias.'
-  },
-  {
-    icon: '🏦',
-    title: 'Relacionamentos Bancários',
-    text: 'Parcerias sólidas com os principais bancos dos EAU. Múltiplas opções bancárias para maximizar as chances de aprovação.'
+    icon: '🏢',
+    title: 'Expertise Local nos EAU',
+    text: 'Especialistas dedicados em Dubai fornecem orientação especializada em cada etapa do processo.'
   },
   {
     icon: '📊',
-    title: 'Suporte Total em Compliance',
-    text: 'Orientação especializada em relatórios ESR, registros UBO e requisitos regulatórios. Atualizações regulares de compliance.'
+    title: 'Taxa de Sucesso Comprovada',
+    text: 'Mais de 90% de taxa de aprovação com centenas de vistos, contas bancárias e registros de empresas emitidos através do nosso processamento premium.'
   },
   {
-    icon: '📝',
-    title: 'Excelência em Documentação',
-    text: 'Preparação profissional de todos os documentos necessários, incluindo planos de negócios e políticas de compliance.'
+    icon: '💸',
+    title: '**Taxas Baseadas no Sucesso**',
+    text: '[Pague apenas após a aprovação](/uae-business/benefits/success-based-fees). Transparência total sem custos ocultos.'
   },
-  {
-    icon: '🤝',
-    title: 'Parceria de Longo Prazo',
-    text: '**Assistência contínua** com operações bancárias, contabilidade, impostos e requisitos de compliance após a configuração.'
-  }
 ]" />
 
 ## Agende uma consulta gratuita para discutir suas necessidades bancárias corporativas

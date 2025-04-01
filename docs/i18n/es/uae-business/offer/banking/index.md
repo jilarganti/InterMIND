@@ -1,20 +1,20 @@
 ---
 layout: home
 title: "Banca Corporativa EAU | Servicio Basado en Comisión de Éxito"
-description: "Cuentas corporativas premium multidivisa sin costos iniciales - pague solo después de la aprobación. Gestión completa de solicitudes con 98% de tasa de éxito. Apertura de cuenta garantizada."
+description: "Cuentas corporativas premium multidivisa sin costos iniciales - pague solo después de la aprobación. Gestión completa de solicitudes con 96% de tasa de éxito. Apertura de cuenta garantizada."
 showSponsors: false
 
 hero:
   name: "Banca EAU: Su Puerto Seguro"
-  text: Sin costos iniciales
-  tagline: Aprobaciones garantizadas de cuentas corporativas en 2025. <span class="hl">Sin costos iniciales</span> - pague solo después de la aprobación. 90% de tasa de éxito.
+  # text: Sin costos iniciales
+  tagline: Aprobaciones garantizadas de cuentas corporativas en 2025. <span class="hl">Sin costos iniciales</span> - pague solo después de la aprobación. 96% de tasa de éxito.
   image:
     light:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     dark:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     alt: Logotipo Golden Fish
 ---
 
@@ -23,7 +23,7 @@ hero:
     title: 'Aprobaciones de Cuenta Garantizadas',
     bullet: '✓',
     items: [
-      '**Garantía de dos meses** para la aprobación de la primera cuenta',
+      'Garantía de dos meses para la aprobación de la primera cuenta',
       'Garantía de tres meses para la segunda cuenta',
       'Preparación de plan de negocios de calidad',
       'Soporte integral de due diligence',
@@ -64,10 +64,10 @@ hero:
     items: [
       'Auditorías regulares de cumplimiento para identificar riesgos potenciales',
       'Servicios PRO integrales para aprobaciones gubernamentales',
-      'Gestión y alertas de renovación de licencias',
+      'Gestión de renovación de licencias y alertas',
       'Consultoría bancaria y mantenimiento de cuenta',
-      'Soporte de cumplimiento VAT y ESR',
-      'Cumplimiento de visas de empleados y leyes laborales',
+      'Soporte de cumplimiento de VAT y ESR',
+      'Cumplimiento de visas de empleados y ley laboral',
       'Talleres de capacitación sobre actualizaciones regulatorias'
     ],
     linkText: 'Read More',
@@ -83,7 +83,7 @@ hero:
     items: [
       'Sistema bancario sólido con calificación **Aa2** de Moody\'s',
       '**Tipo de cambio USD fijo desde 1980**',
-      'Sin restricciones en movimientos de capital',
+      'Sin restricciones en movimiento de capital',
       'Reservas extranjeras superiores a US$184 mil millones',
       'Estabilidad política y económica',
       'Sistema bancario respaldado por el gobierno',
@@ -107,35 +107,20 @@ hero:
 
 <BenefitsList :features="[
   {
-    icon: '🏆',
-    title: 'Experiencia en Alto Riesgo',
-    text: 'Especializados en casos complejos de jurisdicciones de alto riesgo. Comprensión profunda de los requisitos de debida diligencia mejorada (EDD).'
-  },
-  {
-    icon: '💰',
-    title: 'Tarifas Basadas en Éxito',
-    text: 'Sin pagos por adelantado - **pague solo después de la aprobación.** 98% de tasa de éxito para visas y 90% para cuentas bancarias.'
-  },
-  {
-    icon: '🏦',
-    title: 'Relaciones Bancarias',
-    text: 'Sólidas alianzas con los principales bancos de UAE. Múltiples opciones bancarias para maximizar las posibilidades de aprobación.'
+    icon: '🏢',
+    title: 'Experiencia Local en EAU',
+    text: 'Especialistas dedicados en Dubái proporcionan orientación experta en cada paso del proceso.'
   },
   {
     icon: '📊',
-    title: 'Soporte Completo de Cumplimiento',
-    text: 'Orientación experta en informes ESR, declaraciones UBO y requisitos regulatorios. Actualizaciones regulares de cumplimiento.'
+    title: 'Tasa de Éxito Comprobada',
+    text: 'Más del 90% de tasa de aprobación con cientos de visas, cuentas bancarias y registros de empresas emitidos a través de nuestro procesamiento premium.'
   },
   {
-    icon: '📝',
-    title: 'Excelencia en Documentación',
-    text: 'Preparación profesional de todos los documentos requeridos, incluyendo planes de negocio y políticas de cumplimiento.'
+    icon: '💸',
+    title: '**Tarifas Basadas en el Éxito**',
+    text: '[Pague solo después de la aprobación](/uae-business/benefits/success-based-fees). Transparencia total sin costos ocultos.'
   },
-  {
-    icon: '🤝',
-    title: 'Asociación a Largo Plazo',
-    text: '**Asistencia continua** con operaciones bancarias, contabilidad, impuestos y requisitos de cumplimiento después de la configuración.'
-  }
 ]" />
 
 ## Reserve una consulta gratuita para discutir sus necesidades bancarias corporativas

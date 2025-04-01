@@ -1,20 +1,20 @@
 ---
 layout: home
 title: "Perbankan Korporat UAE | Layanan Berbasis Success Fee"
-description: "Rekening korporat multi-mata uang premium tanpa biaya di muka - bayar hanya setelah disetujui. Manajemen aplikasi lengkap dengan tingkat keberhasilan 98%. Pembukaan rekening dijamin."
+description: "Rekening korporat multi-mata uang premium tanpa biaya di muka - bayar hanya setelah disetujui. Manajemen aplikasi lengkap dengan tingkat keberhasilan 96%. Pembukaan rekening dijamin."
 showSponsors: false
 
 hero:
   name: "Perbankan UAE: Pelabuhan Aman Anda"
-  text: Tanpa biaya di muka
-  tagline: Jaminan persetujuan rekening bank korporat di 2025. <span class="hl">Tanpa biaya di muka</span> - bayar hanya setelah disetujui. Tingkat keberhasilan 90%.
+  # text: Tanpa biaya di muka
+  tagline: Jaminan persetujuan rekening bank korporat di 2025. <span class="hl">Tanpa biaya di muka</span> - bayar hanya setelah disetujui. Tingkat keberhasilan 96%.
   image:
     light:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     dark:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     alt: Logo Golden Fish
 ---
 
@@ -23,14 +23,14 @@ hero:
     title: 'Jaminan Persetujuan Rekening',
     bullet: '✓',
     items: [
-      '**Jaminan dua bulan** untuk persetujuan rekening pertama',
+      'Jaminan dua bulan untuk persetujuan rekening pertama',
       'Jaminan tiga bulan untuk rekening kedua',
       'Penyusunan rencana bisnis berkualitas',
       'Dukungan uji tuntas komprehensif',
       'Strategi komunikasi langsung dengan bank',
       'Pengaturan paket perbankan lengkap'
     ],
-    linkText: 'Baca Selengkapnya',
+    linkText: 'Read More',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -51,7 +51,7 @@ hero:
       'Pembaruan dan audit kepatuhan rutin',
       'Perencanaan kontingensi untuk keamanan rekening'
     ],
-    linkText: 'Baca Selengkapnya',
+    linkText: 'Read More',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -70,7 +70,7 @@ hero:
       'Kepatuhan visa karyawan dan hukum ketenagakerjaan',
       'Lokakarya pelatihan tentang pembaruan regulasi'
     ],
-    linkText: 'Baca Selengkapnya',
+    linkText: 'Read More',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -89,7 +89,7 @@ hero:
       'Sistem perbankan yang didukung pemerintah',
       'Perbankan digital kelas dunia'
     ],
-    linkText: 'Baca Selengkapnya',
+    linkText: 'Read More',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',
@@ -107,35 +107,20 @@ hero:
 
 <BenefitsList :features="[
   {
-    icon: '🏆',
-    title: 'Keahlian Risiko Tinggi',
-    text: 'Spesialisasi dalam kasus kompleks dari yurisdiksi berisiko tinggi. Pemahaman mendalam tentang persyaratan enhanced due diligence (EDD).'
-  },
-  {
-    icon: '💰',
-    title: 'Biaya Berbasis Keberhasilan',
-    text: 'Tanpa biaya di muka - **bayar hanya setelah disetujui.** Tingkat keberhasilan 98% untuk visa dan 90% untuk rekening bank.'
-  },
-  {
-    icon: '🏦',
-    title: 'Hubungan Perbankan',
-    text: 'Kemitraan yang kuat dengan bank-bank utama UAE. Berbagai pilihan perbankan untuk memaksimalkan peluang persetujuan.'
+    icon: '🏢',
+    title: 'Keahlian Lokal UAE',
+    text: 'Spesialis berdedikasi di Dubai memberikan panduan ahli di setiap tahap proses.'
   },
   {
     icon: '📊',
-    title: 'Dukungan Kepatuhan Penuh',
-    text: 'Panduan ahli melalui laporan ESR, pengajuan UBO, dan persyaratan regulasi. Pembaruan kepatuhan secara berkala.'
+    title: 'Tingkat Keberhasilan Terbukti',
+    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan pendaftaran perusahaan yang dikeluarkan melalui pemrosesan premium kami.'
   },
   {
-    icon: '📝',
-    title: 'Keunggulan Dokumentasi',
-    text: 'Persiapan profesional untuk semua dokumen yang diperlukan, termasuk rencana bisnis dan kebijakan kepatuhan.'
+    icon: '💸',
+    title: '**Biaya Berbasis Keberhasilan**',
+    text: '[Bayar hanya setelah persetujuan](/uae-business/benefits/success-based-fees). Transparansi penuh tanpa biaya tersembunyi.'
   },
-  {
-    icon: '🤝',
-    title: 'Kemitraan Jangka Panjang',
-    text: '**Bantuan berkelanjutan** dengan operasi perbankan, akuntansi, pajak, dan persyaratan kepatuhan setelah setup.'
-  }
 ]" />
 
 ## Jadwalkan konsultasi gratis untuk membahas kebutuhan perbankan korporat Anda

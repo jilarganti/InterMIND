@@ -1,39 +1,42 @@
 ---
 layout: home
 title: "Dịch Vụ Thành Lập Công Ty tại UAE"
-description: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thiết lập công ty, ngân hàng, thuế, pháp lý và thị thực. Biến ước mơ kinh doanh của bạn thành hiện thực."
+description: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thiết lập công ty, ngân hàng, thuế, pháp lý và visa. Chỉ thanh toán sau khi được phê duyệt."
 showSponsors: false
 
 hero:
   name: "UAE: Bến Đỗ Tài Chính An Toàn Của Bạn"
-  tagline: "Hỗ Trợ Kinh Doanh Toàn Diện: Ngân Hàng, Thành Lập Công Ty, Thị Thực. Không phí trước - chỉ thanh toán sau khi được phê duyệt."
+  # text: We speak your tongue
+  tagline: "Hỗ Trợ Kinh Doanh Toàn Diện: Thành Lập Công Ty, Visa, Ngân Hàng. <span class='hl'>Không thành công — không thu phí</span>."
 
   actions:
     - theme: brand
       text: Get Free Consultation
       link: ./resources/contacts
-
+    # - theme: alt
+    #   text: Support 24/7
+    #   link: ./resources/contacts
   image:
     light:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     dark:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     alt: Logo Golden Fish
 ---
 
 <FeatureCards :features="[
   {
     title: 'Hướng Dẫn Thành Lập Công Ty',
-    details: 'Hướng dẫn đầy đủ về thành lập công ty trong Free Zone, offshore, mainland, chi nhánh.',
+    details: 'Hướng dẫn đầy đủ về thành lập công ty tại **free zone, offshore, mainland, branch**.',
     items: [
-      '**Sở hữu 100% vốn nước ngoài** khả dụng tại Free Zone và Mainland',
+      'Cho phép 100% Sở hữu nước ngoài tại Free Zones và Mainland',
       'Thuế suất thấp - chỉ 9% thuế doanh nghiệp',
       'Không kiểm soát tiền tệ - dễ dàng chuyển vốn về nước'
     ],
     linkText: 'Read More',
-    link: './uae-business/company-registration/overview',
+    link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -42,11 +45,11 @@ hero:
   },
   {
     title: 'Mở Tài Khoản Ngân Hàng',
-    details: 'Dễ dàng mở tài khoản doanh nghiệp hoặc cá nhân tại các ngân hàng uy tín của UAE.',
+    details: 'Dễ dàng mở **tài khoản ngân hàng** cá nhân hoặc doanh nghiệp tại các ngân hàng uy tín của UAE.',
     items: [
-      'Đảm bảo phê duyệt tài khoản doanh nghiệp',
-      'Tỷ lệ thành công 90%',
-      '**Không phí trước** - chỉ thanh toán sau khi được phê duyệt',
+      'Dịch vụ PRO toàn diện cho phê duyệt chính phủ',
+      'Thiết lập gói ngân hàng hoàn chỉnh',
+      'Tỷ lệ thành công 96%',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/banking/',
@@ -61,15 +64,15 @@ hero:
     details: 'Nhận **Golden Visa** UAE để cư trú dài hạn với quy trình đăng ký thuận tiện.',
     items: [
       '**Không cần nhập cảnh UAE mỗi 6 tháng**',
-      'Tỷ lệ thành công 98%',
-      '**Không phí trước** - chỉ thanh toán sau khi được phê duyệt',
+      'Hiệu lực 10 năm với tùy chọn gia hạn khi duy trì đủ điều kiện',
+      'Tỷ lệ thành công 92%',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
-      alt: 'Dịch vụ thị thực'
+      alt: 'Dịch vụ visa'
     }
   },
 ]" />
@@ -80,7 +83,7 @@ hero:
     details: 'Chuyên gia của chúng tôi hướng dẫn bạn qua các yêu cầu quy định phức tạp của UAE, bao gồm báo cáo ESR và hồ sơ UBO.',
     items: [],
     linkText: 'Read More',
-    link: './uae-business/company-registration/ubo',
+    link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -128,39 +131,24 @@ hero:
 ## Tại Sao Chọn Golden Fish
 
 <BenefitsList :features="[
-{
- icon: '💰',
- title: 'Phí Dựa Trên Thành Công',
- text: '**Không phí trả trước - chỉ thanh toán sau khi được chấp thuận.** Hoàn toàn minh bạch không có chi phí ẩn.'
-},
-{
- icon: '🔄',
- title: 'Nhiều Giải Pháp',
- text: 'Tiếp cận cả ngân hàng trong nước và quốc tế. Có phương án thay thế nếu đơn đăng ký đầu tiên bị từ chối.'
-},
-{
- icon: '🏦',
- title: 'Quan Hệ Ngân Hàng',
- text: 'Mối quan hệ đối tác mạnh mẽ với các ngân hàng lớn tại UAE và quốc tế. Nộp đơn cho nhiều ngân hàng để tối đa hóa cơ hội được chấp thuận.'
-},
-{
- icon: '📊',
- title: 'Quản Lý Toàn Diện',
- text: 'Xử lý từ đầu đến cuối từ hồ sơ đến kích hoạt tài khoản, với cập nhật tiến độ hàng tuần và liên lạc trực tiếp với ngân hàng.'
-},
-{
- icon: '📝',
- title: 'Hồ Sơ Chuyên Nghiệp',
- text: 'Đội ngũ của chúng tôi chuẩn bị kế hoạch kinh doanh toàn diện và xử lý mọi hồ sơ tuân thủ.'
-},
-{
- icon: '🤝',
- title: 'Hỗ Trợ Liên Tục',
- text: 'Hỗ trợ liên tục về hoạt động ngân hàng và yêu cầu tuân thủ sau khi mở tài khoản.'
-}
+  {
+    icon: '🏢',
+    title: 'Chuyên Môn Tại UAE',
+    text: 'Các chuyên gia tận tâm tại Dubai cung cấp hướng dẫn chuyên nghiệp trong từng bước của quy trình.'
+  },
+  {
+    icon: '📊',
+    title: 'Tỷ Lệ Thành Công Đã Được Chứng Minh',
+    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua quy trình xử lý cao cấp của chúng tôi.'
+  },
+  {
+    icon: '💸',
+    title: '**Phí Dựa Trên Thành Công**',
+    text: '[Chỉ thanh toán sau khi được phê duyệt](/uae-business/benefits/success-based-fees). Hoàn toàn minh bạch không có chi phí ẩn.'
+  },
 ]" />
 
-<!-- ## Get Started Now - Free Initial Consultation
+<!-- ## Bắt Đầu Ngay - Tư Vấn Ban Đầu Miễn Phí
 
 <div id="contact-form"></div>
 
@@ -168,12 +156,12 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Home page" buttonText="Get a free consultation"
-:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/> -->
+<ContactFormModal formName="Home page" buttonText="Nhận tư vấn miễn phí"
+:services="['📝 Đăng ký công ty', '🏧 Mở tài khoản ngân hàng', '🪪 EID & Golden Visa', 'Các Dịch Vụ Khác']"/> -->
 
 <!-- <br>
 
-# Success Stories
+# Câu Chuyện Thành Công
 
 <br>
 

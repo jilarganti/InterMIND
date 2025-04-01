@@ -1,20 +1,20 @@
 ---
 layout: home
 title: "Ngân Hàng Doanh Nghiệp UAE | Dịch Vụ Dựa Trên Phí Thành Công"
-description: "Tài khoản doanh nghiệp đa tiền tệ cao cấp không phí trước - chỉ thanh toán sau khi được duyệt. Quản lý hồ sơ toàn diện với tỷ lệ thành công 98%. Đảm bảo mở tài khoản."
+description: "Tài khoản doanh nghiệp đa tiền tệ cao cấp không phí trước - chỉ thanh toán sau khi được duyệt. Quản lý hồ sơ toàn diện với tỷ lệ thành công 96%. Đảm bảo mở tài khoản."
 showSponsors: false
 
 hero:
   name: "Ngân Hàng UAE: Bến Đỗ An Toàn Của Bạn"
-  text: Không phí trước
-  tagline: Đảm bảo phê duyệt tài khoản ngân hàng doanh nghiệp năm 2025. <span class="hl">Không phí trước</span> - chỉ thanh toán sau khi được duyệt. Tỷ lệ thành công 90%.
+  # text: Không phí trước
+  tagline: Đảm bảo phê duyệt tài khoản ngân hàng doanh nghiệp năm 2025. <span class="hl">Không phí trước</span> - chỉ thanh toán sau khi được duyệt. Tỷ lệ thành công 96%.
   image:
     light:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     dark:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     alt: Logo Golden Fish
 ---
 
@@ -23,8 +23,8 @@ hero:
     title: 'Đảm Bảo Phê Duyệt Tài Khoản',
     bullet: '✓',
     items: [
-      '**Đảm bảo hai tháng** cho phê duyệt tài khoản đầu tiên',
-      'Đảm bảo ba tháng cho tài khoản thứ hai',
+      'Đảm bảo phê duyệt tài khoản đầu tiên trong hai tháng',
+      'Đảm bảo phê duyệt tài khoản thứ hai trong ba tháng',
       'Chuẩn bị kế hoạch kinh doanh chất lượng',
       'Hỗ trợ thẩm định toàn diện',
       'Chiến lược giao tiếp trực tiếp với ngân hàng',
@@ -107,35 +107,20 @@ hero:
 
 <BenefitsList :features="[
   {
-    icon: '🏆',
-    title: 'Chuyên Môn Về Rủi Ro Cao',
-    text: 'Chuyên về các trường hợp phức tạp từ khu vực có rủi ro cao. Hiểu biết sâu sắc về yêu cầu thẩm định tăng cường (EDD).'
-  },
-  {
-    icon: '💰',
-    title: 'Phí Dựa Trên Thành Công',
-    text: 'Không phí trả trước - **chỉ thanh toán sau khi được chấp thuận.** Tỷ lệ thành công 98% cho visa và 90% cho tài khoản ngân hàng.'
-  },
-  {
-    icon: '🏦',
-    title: 'Quan Hệ Ngân Hàng',
-    text: 'Mối quan hệ đối tác mạnh mẽ với các ngân hàng lớn tại UAE. Nhiều lựa chọn ngân hàng để tối đa hóa cơ hội được chấp thuận.'
+    icon: '🏢',
+    title: 'Chuyên Môn Tại UAE',
+    text: 'Các chuyên gia tận tâm tại Dubai cung cấp hướng dẫn chuyên nghiệp trong từng bước của quy trình.'
   },
   {
     icon: '📊',
-    title: 'Hỗ Trợ Tuân Thủ Toàn Diện',
-    text: 'Hướng dẫn chuyên môn về báo cáo ESR, khai báo UBO và các yêu cầu pháp lý. Cập nhật tuân thủ thường xuyên.'
+    title: 'Tỷ Lệ Thành Công Đã Được Chứng Minh',
+    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua quy trình xử lý cao cấp của chúng tôi.'
   },
   {
-    icon: '📝',
-    title: 'Xuất Sắc Về Hồ Sơ',
-    text: 'Chuẩn bị chuyên nghiệp tất cả các tài liệu cần thiết, bao gồm kế hoạch kinh doanh và chính sách tuân thủ.'
+    icon: '💸',
+    title: '**Phí Dựa Trên Thành Công**',
+    text: '[Chỉ thanh toán sau khi được phê duyệt](/uae-business/benefits/success-based-fees). Hoàn toàn minh bạch không có chi phí ẩn.'
   },
-  {
-    icon: '🤝',
-    title: 'Đối Tác Lâu Dài',
-    text: '**Hỗ trợ liên tục** về hoạt động ngân hàng, kế toán, thuế và yêu cầu tuân thủ sau khi thiết lập.'
-  }
 ]" />
 
 ## Đặt lịch tư vấn miễn phí để thảo luận về nhu cầu ngân hàng doanh nghiệp của bạn

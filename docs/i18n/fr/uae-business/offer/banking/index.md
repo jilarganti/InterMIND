@@ -1,20 +1,20 @@
 ---
 layout: home
 title: "Services Bancaires aux Entreprises aux EAU | Service Basé sur les Honoraires de Succès"
-description: "Comptes d'entreprise multi-devises premium sans frais initiaux - paiement uniquement après approbation. Gestion complète des demandes avec un taux de réussite de 98%. Ouverture de compte garantie."
+description: "Comptes d'entreprise multi-devises premium sans frais initiaux - paiement uniquement après approbation. Gestion complète des demandes avec un taux de réussite de 96%. Ouverture de compte garantie."
 showSponsors: false
 
 hero:
-  name: "Banque aux EAU : Votre Havre de Sécurité"
-  text: Zéro frais initiaux
-  tagline: Approbations garanties de comptes d'entreprise en 2025. <span class="hl">Zéro frais initiaux</span> - paiement uniquement après approbation. Taux de réussite de 90%.
+  name: "Services Bancaires aux EAU : Votre Havre de Sécurité"
+  # text: Aucun frais initial
+  tagline: Approbations garanties de comptes d'entreprise en 2025. <span class="hl">Aucun frais initial</span> - paiement uniquement après approbation. Taux de réussite de 96%.
   image:
     light:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     dark:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     alt: Logo Golden Fish
 ---
 
@@ -23,19 +23,19 @@ hero:
     title: 'Approbations de Compte Garanties',
     bullet: '✓',
     items: [
-      '**Garantie de deux mois** pour la première approbation de compte',
+      'Garantie de deux mois pour l\'approbation du premier compte',
       'Garantie de trois mois pour le second compte',
       'Préparation d\'un business plan de qualité',
       'Support complet de due diligence',
       'Stratégie de communication directe avec la banque',
       'Configuration complète du package bancaire'
     ],
-    linkText: 'En Savoir Plus',
+    linkText: 'Read More',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
       dark: '/video/iStock-2166377244.mp4',
-      alt: 'Exigences Bancaires',
+      alt: 'Exigences bancaires',
     }
   },
 ]" />
@@ -44,19 +44,19 @@ hero:
   {
     title: 'Comptes bancaires aux EAU pour entreprises à haut risque',
     items: [
-      'Conseils d\'experts sur la due diligence renforcée (EDD)',
+      'Conseils d\'experts sur l\'EDD',
       'Surveillance des transactions et gestion des risques',
-      'Mise en place des politiques et procédures de conformité',
+      'Configuration des politiques et procédures de conformité',
       'Gestion des relations bancaires',
       'Mises à jour et audits réguliers de conformité',
       'Planification d\'urgence pour la sécurité des comptes'
     ],
-    linkText: 'En Savoir Plus',
+    linkText: 'Read More',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
       dark: '/img/iStock-584576538.avif',
-      alt: 'Services Bancaires',
+      alt: 'Services bancaires',
     }
   },
   {
@@ -70,12 +70,12 @@ hero:
       'Conformité aux visas employés et au droit du travail',
       'Ateliers de formation sur les mises à jour réglementaires'
     ],
-    linkText: 'En Savoir Plus',
+    linkText: 'Read More',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
       dark: '/img/iStock-1867623684.jpg',
-      alt: 'Services Bancaires',
+      alt: 'Services bancaires',
     }
   },
   {
@@ -89,12 +89,12 @@ hero:
       'Système bancaire soutenu par le gouvernement',
       'Services bancaires numériques de classe mondiale'
     ],
-    linkText: 'En Savoir Plus',
+    linkText: 'Read More',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',
       dark: '/img/iStock-1152367067.avif',
-      alt: 'Processus Bancaire',
+      alt: 'Processus bancaire',
     }
   }
 ]" />
@@ -107,35 +107,20 @@ hero:
 
 <BenefitsList :features="[
   {
-    icon: '🏆',
-    title: 'Expertise en Matière de Haut Risque',
-    text: 'Spécialisé dans les cas complexes provenant de juridictions à haut risque. Compréhension approfondie des exigences de vigilance renforcée (EDD).'
-  },
-  {
-    icon: '💰',
-    title: 'Honoraires Basés sur le Succès',
-    text: 'Aucun frais initial - **paiement uniquement après approbation.** Taux de réussite de 98% pour les visas et 90% pour les comptes bancaires.'
-  },
-  {
-    icon: '🏦',
-    title: 'Relations Bancaires',
-    text: 'Partenariats solides avec les principales banques des UAE. Multiples options bancaires pour maximiser les chances d\'approbation.'
+    icon: '🏢',
+    title: 'Expertise Locale aux EAU',
+    text: 'Des spécialistes dévoués à Dubaï fournissent des conseils d\'experts à chaque étape du processus.'
   },
   {
     icon: '📊',
-    title: 'Support Complet en Conformité',
-    text: 'Accompagnement expert pour les rapports ESR, les déclarations UBO et les exigences réglementaires. Mises à jour régulières de conformité.'
+    title: 'Taux de Réussite Prouvé',
+    text: 'Plus de 90% de taux d\'approbation avec des centaines de visas, comptes bancaires et enregistrements d\'entreprises délivrés via notre traitement premium.'
   },
   {
-    icon: '📝',
-    title: 'Excellence en Documentation',
-    text: 'Préparation professionnelle de tous les documents requis, y compris les plans d\'affaires et les politiques de conformité.'
+    icon: '💸',
+    title: '**Honoraires Basés sur le Succès**',
+    text: '[Payez uniquement après approbation](/uae-business/benefits/success-based-fees). Transparence totale sans frais cachés.'
   },
-  {
-    icon: '🤝',
-    title: 'Partenariat à Long Terme',
-    text: '**Assistance continue** pour les opérations bancaires, la comptabilité, la fiscalité et les exigences de conformité après la mise en place.'
-  }
 ]" />
 
 ## Réservez une consultation gratuite pour discuter de vos besoins en matière de banque d'entreprise

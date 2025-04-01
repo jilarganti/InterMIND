@@ -1,17 +1,17 @@
 ---
 layout: home
 title: "Serviços de Formação de Empresas nos EAU"
-description: "Serviços especializados de formação e suporte empresarial nos EAU. Abertura de empresa, serviços bancários, impostos, soluções jurídicas e de visto. Transformando seus sonhos empresariais em realidade."
+description: "Serviços especializados de formação e suporte empresarial nos EAU. Abertura de empresa, serviços bancários, impostos, soluções jurídicas e de visto. Pagamento apenas após aprovação."
 showSponsors: false
 
 hero:
   name: "EAU: Seu Porto Seguro Financeiro"
   # text: We speak your tongue
-  tagline: "Suporte Empresarial Completo: Serviços Bancários, Abertura de Empresa, Vistos. Zero taxas antecipadas – pague apenas após aprovação."
+  tagline: "Suporte Empresarial Completo: Abertura de Empresa, Vistos, Serviços Bancários. <span class='hl'>Sem sucesso — sem taxa</span>."
 
   actions:
     - theme: brand
-      text: Get Free Consultation
+      text: Obter Consultoria Gratuita
       link: ./resources/contacts
     # - theme: alt
     #   text: Support 24/7
@@ -19,24 +19,24 @@ hero:
   image:
     light:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     dark:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     alt: Logotipo Golden Fish
 ---
 
 <FeatureCards :features="[
   {
     title: 'Guia de Abertura de Empresa',
-    details: 'Guia completo para abrir empresas na Free Zone, offshore, mainland e filiais.',
+    details: 'Guia completo para abrir empresas na **Free Zone, offshore, mainland, branch**.',
     items: [
-      '**100% de Propriedade Estrangeira** disponível em Free Zones e Mainland',
+      'Propriedade 100% Estrangeira disponível em Free Zones e Mainland',
       'Baixas Taxas de Impostos - apenas 9% de imposto corporativo',
       'Sem Controle Cambial - fácil repatriação de capital'
     ],
-    linkText: 'Read More',
-    link: './uae-business/company-registration/overview',
+    linkText: 'Saiba Mais',
+    link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -45,13 +45,13 @@ hero:
   },
   {
     title: 'Abertura de Conta Bancária',
-    details: 'Abra facilmente contas bancárias empresariais ou pessoais com os bancos confiáveis dos EAU.',
+    details: 'Abra facilmente **contas bancárias** empresariais ou pessoais com os bancos confiáveis dos EAU.',
     items: [
-      'Aprovações garantidas para contas bancárias corporativas',
-      '90% de taxa de sucesso',
-      '**Zero taxas antecipadas** - pague apenas após aprovação',
+      'Serviços PRO completos para aprovações governamentais',
+      'Configuração completa do pacote bancário',
+      'Taxa de sucesso de 96%',
     ],
-    linkText: 'Read More',
+    linkText: 'Saiba Mais',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -64,10 +64,10 @@ hero:
     details: 'Obtenha um **Golden Visa** dos EAU para residência de longo prazo com um processo de solicitação simplificado.',
     items: [
       '**Sem necessidade de entrar nos EAU a cada 6 meses**',
-      '98% de taxa de sucesso',
-      '**Zero taxas antecipadas** - pague apenas após aprovação',
+      'Validade de 10 anos com opção de renovação mantendo as condições qualificadoras',
+      'Taxa de sucesso de 92%',
     ],
-    linkText: 'Read More',
+    linkText: 'Saiba Mais',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -82,8 +82,8 @@ hero:
     title: 'Serviços de Compliance',
     details: 'Nossos especialistas o guiam através dos complexos requisitos regulatórios dos EAU, incluindo relatórios ESR e registros UBO.',
     items: [],
-    linkText: 'Read More',
-    link: './uae-business/company-registration/ubo',
+    linkText: 'Saiba Mais',
+    link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -91,10 +91,10 @@ hero:
     }
   },
   {
-    title: 'Imposto Corporativo e VAT',
-    details: 'Consultoria especializada garante conformidade com obrigações de Imposto Corporativo e VAT junto à Autoridade Federal Tributária (FTA).',
+    title: 'Imposto Corporativo e IVA',
+    details: 'Consultoria especializada garante conformidade com obrigações de Imposto Corporativo e IVA junto à Autoridade Federal Tributária (FTA).',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Saiba Mais',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -104,9 +104,9 @@ hero:
   },
   {
     title: 'Serviços Jurídicos',
-    details: 'Equipe jurídica orienta sobre as leis dos EAU referentes a M&As, reestruturação corporativa, financiamento e resolução de disputas.',
+    details: 'Equipe jurídica orienta sobre as leis dos EAU referentes a fusões e aquisições, reestruturação corporativa, financiamento e resolução de disputas.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Saiba Mais',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -116,9 +116,9 @@ hero:
   },
   {
     title: 'Contabilidade e Folha de Pagamento',
-    details: 'Nossos contadores gerenciam finanças, fornecendo contabilidade, reconciliação, folha de pagamento e suporte de auditoria, economizando custos de contratação.',
+    details: 'Nossos contadores gerenciam finanças, fornecendo contabilidade, reconciliação, folha de pagamento e suporte à auditoria, economizando custos de contratação.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Saiba Mais',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
@@ -131,39 +131,24 @@ hero:
 ## Por que Escolher a Golden Fish
 
 <BenefitsList :features="[
-{
- icon: '💰',
- title: 'Taxas Baseadas em Sucesso',
- text: '**Zero taxas antecipadas - pague apenas após a aprovação.** Transparência total sem custos ocultos.'
-},
-{
- icon: '🔄',
- title: 'Múltiplas Soluções',
- text: 'Acesso a bancos locais e internacionais. Opções alternativas caso a aplicação principal seja recusada.'
-},
-{
- icon: '🏦',
- title: 'Relacionamentos Bancários',
- text: 'Parcerias sólidas com os principais bancos dos EAU e internacionais. Aplicações em múltiplos bancos para maximizar as chances de aprovação.'
-},
-{
- icon: '📊',
- title: 'Gestão Completa',
- text: 'Gerenciamento completo desde a documentação até a ativação da conta, com atualizações semanais de progresso e comunicação direta com o banco.'
-},
-{
- icon: '📝',
- title: 'Documentação Profissional',
- text: 'Nossa equipe prepara planos de negócios abrangentes e cuida de toda a documentação de conformidade.'
-},
-{
- icon: '🤝',
- title: 'Suporte Contínuo',
- text: 'Assistência contínua com operações bancárias e requisitos de conformidade após a abertura da conta.'
-}
+  {
+    icon: '🏢',
+    title: 'Expertise Local nos EAU',
+    text: 'Especialistas dedicados em Dubai fornecem orientação especializada em cada etapa do processo.'
+  },
+  {
+    icon: '📊',
+    title: 'Taxa de Sucesso Comprovada',
+    text: 'Mais de 90% de taxa de aprovação com centenas de vistos, contas bancárias e registros de empresas emitidos através do nosso processamento premium.'
+  },
+  {
+    icon: '💸',
+    title: '**Taxas Baseadas no Sucesso**',
+    text: '[Pague apenas após a aprovação](/uae-business/benefits/success-based-fees). Transparência total sem custos ocultos.'
+  },
 ]" />
 
-<!-- ## Get Started Now - Free Initial Consultation
+<!-- ## Comece Agora - Consulta Inicial Gratuita
 
 <div id="contact-form"></div>
 
@@ -171,12 +156,12 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Home page" buttonText="Get a free consultation"
-:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/> -->
+<ContactFormModal formName="Home page" buttonText="Obtenha uma consulta gratuita"
+:services="['📝 Registro de empresa', '🏧 Abertura de contas bancárias', '🪪 EID & Golden Visa', 'Outros Serviços']"/> -->
 
 <!-- <br>
 
-# Success Stories
+# Histórias de Sucesso
 
 <br>
 

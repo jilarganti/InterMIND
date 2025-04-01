@@ -1,17 +1,17 @@
 ---
 layout: home
 title: "UAEでの会社設立サービス"
-description: "UAEにおける専門的な会社設立・サポートサービス。会社設立、銀行取引、税務、法務、ビザソリューションを提供。ビジネスの夢を実現します。"
+description: "UAEにおける専門的な会社設立・サポートサービス。会社設立、銀行口座開設、税務、法務、ビザソリューションを提供。承認後のみの支払い。"
 showSponsors: false
 
 hero:
   name: "UAE：あなたの金融安全港"
   # text: We speak your tongue
-  tagline: "包括的なビジネスサポート：銀行取引、会社設立、ビザ。前払い手数料なし – 承認後のみ支払い。"
+  tagline: "包括的なビジネスサポート：会社設立、ビザ、銀行取引。<span class='hl'>成功報酬制</span>。"
 
   actions:
     - theme: brand
-      text: Get Free Consultation
+      text: 無料相談を受ける
       link: ./resources/contacts
     # - theme: alt
     #   text: Support 24/7
@@ -19,24 +19,24 @@ hero:
   image:
     light:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     dark:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     alt: Golden Fishロゴ
 ---
 
 <FeatureCards :features="[
   {
     title: '会社設立ガイド',
-    details: 'Free Zone、オフショア、Mainland、支店での会社設立の完全ガイド。',
+    details: 'Free Zone、オフショア、Mainland、支店の**会社設立完全ガイド**。',
     items: [
-      'Free ZoneとMainlandで**100%外国人所有**が可能',
+      'Free ZoneとMainlandで100%外国人所有が可能',
       '低税率 - 法人税わずか9%',
       '為替管理なし - 簡単な資本送金'
     ],
-    linkText: 'Read More',
-    link: './uae-business/company-registration/overview',
+    linkText: '詳細を見る',
+    link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -45,13 +45,13 @@ hero:
   },
   {
     title: '銀行口座開設',
-    details: 'UAEの信頼できる銀行で法人・個人口座を簡単に開設。',
+    details: 'UAEの信頼できる銀行で**ビジネスまたは個人口座**を簡単に開設。',
     items: [
-      '法人口座開設の承認保証',
-      '90%の成功率',
-      '**前払い手数料なし** - 承認後のみ支払い',
+      '政府承認のための包括的なPROサービス',
+      '完全な銀行パッケージ設定',
+      '96%の成功率',
     ],
-    linkText: 'Read More',
+    linkText: '詳細を見る',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -61,13 +61,13 @@ hero:
   },
   {
     title: 'Golden Visaと居住権',
-    details: 'スムーズな申請プロセスで長期居住のためのUAE **Golden Visa**を取得。',
+    details: 'スムーズな申請プロセスで長期居住のための**Golden Visa**を取得。',
     items: [
       '**6ヶ月ごとのUAE入国不要**',
-      '98%の成功率',
-      '**前払い手数料なし** - 承認後のみ支払い',
+      '条件を満たせば10年間有効で更新可能',
+      '92%の成功率',
     ],
-    linkText: 'Read More',
+    linkText: '詳細を見る',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -80,10 +80,10 @@ hero:
 <FeatureCards :features="[
   {
     title: 'コンプライアンスサービス',
-    details: '当社の専門家がESRレポートやUBO申告を含むUAEの複雑な規制要件をサポート。',
+    details: 'ESRレポートやUBO申告を含むUAEの複雑な規制要件をエキスパートがサポート。',
     items: [],
-    linkText: 'Read More',
-    link: './uae-business/company-registration/ubo',
+    linkText: '詳細を見る',
+    link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -91,10 +91,10 @@ hero:
     }
   },
   {
-    title: '法人税・VAT',
-    details: '連邦税務局（FTA）への法人税とVAT義務の遵守を確実にする専門家のアドバイス。',
+    title: '法人税・付加価値税',
+    details: '連邦税務局（FTA）への法人税・付加価値税の義務を確実に遵守するための専門家によるアドバイス。',
     items: [],
-    linkText: 'Read More',
+    linkText: '詳細を見る',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -104,9 +104,9 @@ hero:
   },
   {
     title: '法務サービス',
-    details: '法務チームがM&A、企業再編、資金調達、紛争解決に関するUAEの法律についてアドバイス。',
+    details: 'M&A、企業再編、資金調達、紛争解決に関するUAE法についての法務チームによるアドバイス。',
     items: [],
-    linkText: 'Read More',
+    linkText: '詳細を見る',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -116,9 +116,9 @@ hero:
   },
   {
     title: '会計・給与計算',
-    details: '当社の会計士が財務管理、帳簿記帳、照合、給与計算、監査サポートを提供し、採用コストを削減。',
+    details: '当社の会計士が帳簿記帳、照合、給与計算、監査サポートを提供し、採用コストを削減。',
     items: [],
-    linkText: 'Read More',
+    linkText: '詳細を見る',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
@@ -131,36 +131,21 @@ hero:
 ## Golden Fish を選ぶ理由
 
 <BenefitsList :features="[
-{
- icon: '💰',
- title: '成功報酬型手数料',
- text: '**前払い手数料なし - 承認後のみ支払い。** 隠れた費用のない完全な透明性。'
-},
-{
- icon: '🔄',
- title: '複数のソリューション',
- text: '国内外の銀行へのアクセス。主要な申請が却下された場合の代替オプション。'
-},
-{
- icon: '🏦',
- title: '銀行との関係',
- text: 'UAEおよび国際的な主要銀行との強力なパートナーシップ。承認の可能性を最大化するための複数の銀行への申請。'
-},
-{
- icon: '📊',
- title: '完全なマネジメント',
- text: '書類作成から口座開設まで一貫したサポート、週次の進捗報告、銀行との直接的なコミュニケーション。'
-},
-{
- icon: '📝',
- title: 'プロフェッショナルな書類作成',
- text: '当社チームが包括的なビジネスプランを作成し、すべてのコンプライアンス書類を処理します。'
-},
-{
- icon: '🤝',
- title: '継続的なサポート',
- text: '口座開設後の銀行取引とコンプライアンス要件に関する継続的なサポート。'
-}
+  {
+    icon: '🏢',
+    title: 'UAEでの現地専門知識',
+    text: 'ドバイの専門スタッフがプロセスの各段階で専門的なガイダンスを提供します。'
+  },
+  {
+    icon: '📊',
+    title: '実証された成功率',
+    text: '当社のプレミアム処理を通じて発行されたビザ、銀行口座、会社登録の承認率は90％以上で、数百件の実績があります。'
+  },
+  {
+    icon: '💸',
+    title: '**成功報酬制**',
+    text: '[承認後のみの支払い](/uae-business/benefits/success-based-fees)。隠れた費用のない完全な透明性。'
+  },
 ]" />
 
 <!-- ## 今すぐ始める - 無料初回相談

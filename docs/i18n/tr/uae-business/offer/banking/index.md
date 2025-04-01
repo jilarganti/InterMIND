@@ -1,20 +1,20 @@
 ---
 layout: home
-title: "BAE Kurumsal Bankacılık | Başarı Ücretine Dayalı Hizmet"
-description: "Peşin ücret olmadan premium çok para birimli kurumsal hesaplar - sadece onaydan sonra ödeme yapın. %98 başarı oranı ile tam başvuru yönetimi. Garantili hesap açılışı."
+title: "BAE Kurumsal Bankacılık | Başarı Primi Bazlı Hizmet"
+description: "Peşin ücret olmadan premium çok para birimli kurumsal hesaplar - sadece onaydan sonra ödeme yapın. %96 başarı oranı ile tam başvuru yönetimi. Garantili hesap açılışı."
 showSponsors: false
 
 hero:
   name: "BAE Bankacılığı: Güvenli Limanınız"
-  text: Peşin ücret yok
-  tagline: 2025'te garantili kurumsal banka hesabı onayları. <span class="hl">Peşin ücret yok</span> - sadece onaydan sonra ödeme. %90 başarı oranı.
+  # text: Peşin ücret yok
+  tagline: 2025'te garantili kurumsal banka hesabı onayları. <span class="hl">Peşin ücret yok</span> - sadece onaydan sonra ödeme yapın. %96 başarı oranı.
   image:
     light:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     dark:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     alt: Golden Fish logosu
 ---
 
@@ -23,7 +23,7 @@ hero:
     title: 'Garantili Hesap Onayları',
     bullet: '✓',
     items: [
-      'İlk hesap onayı için **iki ay garanti**',
+      'İlk hesap onayı için iki ay garanti',
       'İkinci hesap için üç ay garanti',
       'Kaliteli iş planı hazırlama',
       'Kapsamlı durum tespiti desteği',
@@ -63,7 +63,7 @@ hero:
     title: 'Uyumlu kalın: BAE işletmenizi koruyun',
     items: [
       'Potansiyel riskleri belirlemek için düzenli uyum denetimleri',
-      'Devlet onayları için eksiksiz PRO hizmetleri',
+      'Devlet onayları için uçtan uca PRO hizmetleri',
       'Lisans yenileme yönetimi ve uyarıları',
       'Bankacılık danışmanlığı ve hesap bakımı',
       'KDV ve ESR uyum desteği',
@@ -107,35 +107,20 @@ hero:
 
 <BenefitsList :features="[
   {
-    icon: '🏆',
-    title: 'Yüksek Risk Uzmanlığı',
-    text: 'Yüksek riskli bölgelerden gelen karmaşık vakalarda uzmanlaşmış. Enhanced due diligence (EDD) gereksinimlerinde derin anlayış.'
-  },
-  {
-    icon: '💰',
-    title: 'Başarıya Dayalı Ücretler',
-    text: 'Ön ödeme yok - **sadece onay sonrası ödeme.** Vizelerde %98, banka hesaplarında %90 başarı oranı.'
-  },
-  {
-    icon: '🏦',
-    title: 'Banka İlişkileri',
-    text: 'BAE\'nin önde gelen bankalarıyla güçlü ortaklıklar. Onay şansını en üst düzeye çıkarmak için çoklu bankacılık seçenekleri.'
+    icon: '🏢',
+    title: 'BAE Yerel Uzmanlığı',
+    text: 'Dubai\'deki uzman ekibimiz sürecin her adımında profesyonel rehberlik sağlar.'
   },
   {
     icon: '📊',
-    title: 'Tam Uyum Desteği',
-    text: 'ESR raporları, UBO bildirimleri ve yasal gereklilikler konusunda uzman rehberlik. Düzenli uyum güncellemeleri.'
+    title: 'Kanıtlanmış Başarı Oranı',
+    text: 'Premium hizmetlerimiz aracılığıyla yüzlerce vize, banka hesabı ve şirket tescili ile %90\'ın üzerinde onay oranı.'
   },
   {
-    icon: '📝',
-    title: 'Dokümantasyon Mükemmeliyeti',
-    text: 'İş planları ve uyum politikaları dahil tüm gerekli belgelerin profesyonel hazırlanması.'
+    icon: '💸',
+    title: '**Başarıya Dayalı Ücretler**',
+    text: '[Sadece onay sonrası ödeme](/uae-business/benefits/success-based-fees). Gizli maliyetler olmadan tam şeffaflık.'
   },
-  {
-    icon: '🤝',
-    title: 'Uzun Vadeli Ortaklık',
-    text: 'Kurulum sonrası bankacılık işlemleri, muhasebe, vergi ve uyum gereklilikleri konusunda **sürekli destek.**'
-  }
 ]" />
 
 ## Kurumsal bankacılık ihtiyaçlarınızı görüşmek için ücretsiz danışmanlık alın
@@ -155,6 +140,6 @@ hero:
   'Temel — yalnızca temel belgelendirme ve hesap açma danışmanlığı',
   'Standart — tüm bankacılık aşamalarında eksiksiz belgelendirme ve rehberlik',
   'Kapsamlı — sizin minimum katılımınızla tam hizmet bankacılık kurulumu',
-  'Özel — yüksek hacimli işlemleri veya çok yargı yetkili yapıyı görüşmek gerekiyor',
+  'Özel — yüksek hacimli işlemleri veya çok yargı bölgeli yapıyı görüşmek gerekiyor',
   ]"
 />

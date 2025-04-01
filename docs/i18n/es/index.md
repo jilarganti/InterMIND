@@ -1,13 +1,13 @@
 ---
 layout: home
 title: "Servicios de Formación de Empresas en los EAU"
-description: "Servicios expertos de formación y soporte empresarial en EAU. Configuración de empresas, banca, impuestos, soluciones legales y de visados. Haciendo realidad sus sueños empresariales."
+description: "Servicios expertos de formación y soporte empresarial en EAU. Configuración de empresas, banca, impuestos, soluciones legales y de visados. Pague solo después de la aprobación."
 showSponsors: false
 
 hero:
   name: "EAU: Su Puerto Seguro Financiero"
   # text: We speak your tongue
-  tagline: "Soporte Empresarial Completo: Banca, Configuración de Empresas, Visados. Sin costos iniciales – pague solo después de la aprobación."
+  tagline: "Soporte Empresarial Completo: Configuración de Empresas, Visados, Banca. <span class='hl'>Sin éxito — sin cargo</span>."
 
   actions:
     - theme: brand
@@ -19,24 +19,24 @@ hero:
   image:
     light:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     dark:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     alt: Logotipo Golden Fish
 ---
 
 <FeatureCards :features="[
   {
     title: 'Guía de Configuración de Empresas',
-    details: 'Guía completa para establecer empresas en Free Zone, offshore, Mainland, sucursal.',
+    details: 'Guía completa para establecer empresas en **free zone, offshore, mainland, branch**.',
     items: [
-      '**100% Propiedad Extranjera** disponible en Free Zones y Mainland',
-      'Bajas Tasas Impositivas - solo 9% de impuesto corporativo',
+      'Propiedad 100% Extranjera disponible en Free Zones y Mainland',
+      'Tasas Impositivas Bajas - solo 9% de impuesto corporativo',
       'Sin Control de Divisas - fácil repatriación de capital'
     ],
     linkText: 'Read More',
-    link: './uae-business/company-registration/overview',
+    link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -45,11 +45,11 @@ hero:
   },
   {
     title: 'Apertura de Cuenta Bancaria',
-    details: 'Abra fácilmente cuentas bancarias comerciales o personales con los bancos de confianza de los EAU.',
+    details: 'Abra fácilmente **cuentas bancarias** comerciales o personales con los bancos de confianza de EAU.',
     items: [
-      'Aprobaciones garantizadas de cuentas bancarias corporativas',
-      '90% tasa de éxito',
-      '**Sin costos iniciales** - pague solo después de la aprobación',
+      'Servicios PRO integrales para aprobaciones gubernamentales',
+      'Configuración completa del paquete bancario',
+      '96% de tasa de éxito',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/banking/',
@@ -64,8 +64,8 @@ hero:
     details: 'Obtenga una **Golden Visa** de EAU para residencia a largo plazo con un proceso de solicitud sin complicaciones.',
     items: [
       '**No es necesario ingresar a EAU cada 6 meses**',
-      '98% tasa de éxito',
-      '**Sin costos iniciales** - pague solo después de la aprobación',
+      'Validez de 10 años con opción de renovación al mantener las condiciones de calificación',
+      '92% de tasa de éxito',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/golden-visa/',
@@ -83,7 +83,7 @@ hero:
     details: 'Nuestros expertos le guían a través de los complejos requisitos regulatorios de EAU, incluyendo informes ESR y presentaciones UBO.',
     items: [],
     linkText: 'Read More',
-    link: './uae-business/company-registration/ubo',
+    link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -116,7 +116,7 @@ hero:
   },
   {
     title: 'Contabilidad y Nómina',
-    details: 'Nuestros contadores gestionan las finanzas, proporcionando contabilidad, conciliación, nómina y soporte de auditoría, ahorrando costos de contratación.',
+    details: 'Nuestros contadores gestionan las finanzas, proporcionando contabilidad, conciliación, nómina y apoyo de auditoría, ahorrando costos de contratación.',
     items: [],
     linkText: 'Read More',
     link: './resources/contacts',
@@ -131,39 +131,24 @@ hero:
 ## Por Qué Elegir Golden Fish
 
 <BenefitsList :features="[
-{
- icon: '💰',
- title: 'Tarifas Basadas en el Éxito',
- text: '**Sin costos iniciales - pague solo después de la aprobación.** Transparencia total sin costos ocultos.'
-},
-{
- icon: '🔄',
- title: 'Múltiples Soluciones',
- text: 'Acceso a bancos locales e internacionales. Opciones alternativas si la solicitud principal es rechazada.'
-},
-{
- icon: '🏦',
- title: 'Relaciones Bancarias',
- text: 'Sólidas alianzas con los principales bancos de EAU e internacionales. Solicitudes a múltiples bancos para maximizar las posibilidades de aprobación.'
-},
-{
- icon: '📊',
- title: 'Gestión Completa',
- text: 'Manejo integral desde la documentación hasta la activación de la cuenta, con actualizaciones semanales de progreso y comunicación directa con el banco.'
-},
-{
- icon: '📝',
- title: 'Documentación Profesional',
- text: 'Nuestro equipo prepara planes de negocio completos y maneja toda la documentación de cumplimiento.'
-},
-{
- icon: '🤝',
- title: 'Soporte Continuo',
- text: 'Asistencia continua con operaciones bancarias y requisitos de cumplimiento después de la apertura de la cuenta.'
-}
+  {
+    icon: '🏢',
+    title: 'Experiencia Local en EAU',
+    text: 'Especialistas dedicados en Dubái proporcionan orientación experta en cada paso del proceso.'
+  },
+  {
+    icon: '📊',
+    title: 'Tasa de Éxito Comprobada',
+    text: 'Más del 90% de tasa de aprobación con cientos de visas, cuentas bancarias y registros de empresas emitidos a través de nuestro procesamiento premium.'
+  },
+  {
+    icon: '💸',
+    title: '**Tarifas Basadas en el Éxito**',
+    text: '[Pague solo después de la aprobación](/uae-business/benefits/success-based-fees). Transparencia total sin costos ocultos.'
+  },
 ]" />
 
-<!-- ## Get Started Now - Free Initial Consultation
+<!-- ## Comience Ahora - Consulta Inicial Gratuita
 
 <div id="contact-form"></div>
 
@@ -171,12 +156,12 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal formName="Home page" buttonText="Get a free consultation"
-:services="['📝 Company registration', '🏧 Opening bank accounts', '🪪 EID & Golden Visa', 'Other Services']"/> -->
+<ContactFormModal formName="Home page" buttonText="Obtener una consulta gratuita"
+:services="['📝 Registro de empresa', '🏧 Apertura de cuentas bancarias', '🪪 EID & Golden Visa', 'Otros Servicios']"/> -->
 
 <!-- <br>
 
-# Success Stories
+# Historias de Éxito
 
 <br>
 

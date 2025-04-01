@@ -1,13 +1,13 @@
 ---
 layout: home
 title: "Services de Formation d'Entreprise aux EAU"
-description: "Services experts de formation et de support d'entreprise aux EAU. Configuration d'entreprise, services bancaires, fiscalité, solutions juridiques et visas. Réalisation de vos rêves d'entreprise."
+description: "Services experts de formation et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa. Paiement uniquement après approbation."
 showSponsors: false
 
 hero:
   name: "EAU : Votre Havre Financier"
   # text: We speak your tongue
-  tagline: "Support Commercial Complet : Services Bancaires, Configuration d'Entreprise, Visas. Zéro frais initial – paiement uniquement après approbation."
+  tagline: "Support Commercial Complet : Création d'Entreprise, Visas, Services Bancaires. <span class='hl'>Pas de succès — pas de frais</span>."
 
   actions:
     - theme: brand
@@ -19,24 +19,24 @@ hero:
   image:
     light:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     dark:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     alt: Logo Golden Fish
 ---
 
 <FeatureCards :features="[
   {
     title: 'Guide de Création d\'Entreprise',
-    details: 'Guide complet pour créer des entreprises en Free Zone, offshore, Mainland, succursale.',
+    details: 'Guide complet pour créer des entreprises en **free zone, offshore, mainland, branch**.',
     items: [
-      '**Propriété étrangère à 100%** disponible en Free Zones et Mainland',
+      'Propriété étrangère à 100% disponible en Free Zones et Mainland',
       'Taux d\'imposition bas - seulement 9% d\'impôt sur les sociétés',
       'Pas de contrôle des changes - rapatriement facile des capitaux'
     ],
     linkText: 'Read More',
-    link: './uae-business/company-registration/overview',
+    link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -45,11 +45,11 @@ hero:
   },
   {
     title: 'Ouverture de Compte Bancaire',
-    details: 'Ouvrez facilement des comptes bancaires professionnels ou personnels auprès des banques de confiance des EAU.',
+    details: 'Ouvrez facilement des **comptes bancaires** professionnels ou personnels auprès des banques de confiance des EAU.',
     items: [
-      'Approbations garanties pour les comptes bancaires d\'entreprise',
-      'Taux de réussite de 90%',
-      '**Zéro frais initial** - paiement uniquement après approbation',
+      'Services PRO complets pour les approbations gouvernementales',
+      'Configuration complète du package bancaire',
+      'Taux de réussite de 96%',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/banking/',
@@ -64,8 +64,8 @@ hero:
     details: 'Obtenez un **Golden Visa** des EAU pour une résidence à long terme avec un processus de demande simplifié.',
     items: [
       '**Pas besoin d\'entrer aux EAU tous les 6 mois**',
-      'Taux de réussite de 98%',
-      '**Zéro frais initial** - paiement uniquement après approbation',
+      'Validité de 10 ans avec option de renouvellement sous conditions',
+      'Taux de réussite de 92%',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/golden-visa/',
@@ -83,7 +83,7 @@ hero:
     details: 'Nos experts vous guident à travers les exigences réglementaires complexes des EAU, y compris les rapports ESR et les déclarations UBO.',
     items: [],
     linkText: 'Read More',
-    link: './uae-business/company-registration/ubo',
+    link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -131,36 +131,21 @@ hero:
 ## Pourquoi Choisir Golden Fish
 
 <BenefitsList :features="[
-{
- icon: '💰',
- title: 'Honoraires Basés sur le Succès',
- text: '**Aucun frais initial - paiement uniquement après approbation.** Transparence totale sans coûts cachés.'
-},
-{
- icon: '🔄',
- title: 'Solutions Multiples',
- text: 'Accès aux banques locales et internationales. Options alternatives si la demande principale est refusée.'
-},
-{
- icon: '🏦',
- title: 'Relations Bancaires',
- text: 'Partenariats solides avec les principales banques des UAE et internationales. Demandes auprès de plusieurs banques pour maximiser les chances d\'approbation.'
-},
-{
- icon: '📊',
- title: 'Gestion Complète',
- text: 'Prise en charge de A à Z, de la documentation à l\'activation du compte, avec des mises à jour hebdomadaires et une communication directe avec la banque.'
-},
-{
- icon: '📝',
- title: 'Documentation Professionnelle',
- text: 'Notre équipe prépare des plans d\'affaires complets et gère toute la documentation de conformité.'
-},
-{
- icon: '🤝',
- title: 'Support Continu',
- text: 'Assistance continue pour les opérations bancaires et les exigences de conformité après l\'ouverture du compte.'
-}
+  {
+    icon: '🏢',
+    title: 'Expertise Locale aux EAU',
+    text: 'Des spécialistes dédiés à Dubaï fournissent des conseils d\'experts à chaque étape du processus.'
+  },
+  {
+    icon: '📊',
+    title: 'Taux de Réussite Prouvé',
+    text: 'Plus de 90% de taux d\'approbation avec des centaines de visas, comptes bancaires et enregistrements d\'entreprises délivrés via notre traitement premium.'
+  },
+  {
+    icon: '💸',
+    title: '**Frais Basés sur le Succès**',
+    text: '[Payez uniquement après approbation](/uae-business/benefits/success-based-fees). Transparence totale sans frais cachés.'
+  },
 ]" />
 
 <!-- ## Commencez Maintenant - Consultation Initiale Gratuite
@@ -181,6 +166,6 @@ hero:
 <br>
 
 <ImageGrid :images="[
-  { src: '/img/iStock-1945498989.avif', href: './immigration.md', alt: 'Immigration UAE' },
-  { src: '/img/iStock-1965736217.avif', href: './immigration.md', alt: 'Immigration UAE' },
+  { src: '/img/iStock-1945498989.avif', href: './immigration.md', alt: 'Immigration aux EAU' },
+  { src: '/img/iStock-1965736217.avif', href: './immigration.md', alt: 'Immigration aux EAU' },
 ]"/> -->
