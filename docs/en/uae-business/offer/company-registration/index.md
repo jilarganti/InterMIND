@@ -112,7 +112,7 @@ hero:
   {
     icon: '📊',
     title: 'Proven Success Rate',
-    text: 'Over 90% approval rate with hundreds of visas, bank accounts, and company registrations issued through our premium processing.[Test](https://imind-meetgenius.vercel.app/)'
+    text: 'Over 90% approval rate with hundreds of visas, bank accounts, and company registrations issued through our premium processing.'
   },
   {
     icon: '💸',
