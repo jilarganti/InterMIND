@@ -1,122 +1,131 @@
 ---
 layout: home
-title: "UAE Golden Visa | Success Fee Based Service"
-description: "Premium 10-year residency visa with zero upfront fees - pay only after approval. Full application management with 98% success rate. Free renewal service, government fees only."
+title: "UAE Company Registration | No Agent Fees Until Approval"
+description: "Complete UAE company formation services with our unique risk-free model. Setup in Free Zones, Mainland, or Offshore with expert local guidance. 90%+ success rate."
 showSponsors: false
 
 hero:
-  name: "UAE Golden Visa"
-  text: Payment by results
-  tagline: 10-year residency. <span class="hl">Zero upfront fees</span> - pay only after approval. 98% success rate.
+  name: "UAE Company Formation Made Simple"
+  # text: Payment by results
+  # tagline: 'Expert business setup solutions. <span class="hl">Zero agent fees until approval</span>. 90%+ success rate.'
+  tagline: "Complete UAE company formation services with our unique risk-free model. <span class='hl'>Zero agent fees until approval</span>."
   image:
     light:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     dark:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     alt: Golden Fish logo
 ---
 
 <FeatureBlock :card="{
-  title: 'TruthMeet: AI Fact-Checking for Business Conversations',
-  details: 'Video conferencing with built-in AI that **verifies claims** in real-time based on your meeting history. It quietly alerts you when statements contradict your company\'s documented facts. No more decisions based on inaccurate information or misremembered agreements. Save hours spent on fact verification while maintaining professional relationships.',
-  link: './guide/use-cases#truthmeet-real-time-fact-checking',
+  title: 'Benefits of UAE Business',
+  details: 'The UAE offers numerous advantages for international entrepreneurs and investors seeking a favorable business environment. \n\n* Low Tax Rates: Just 9% corporate tax and 5% VAT with no personal income tax\n* 100% Foreign Ownership: Complete control of your company without local partners\n* No Currency Controls: Unrestricted profit repatriation and currency exchange',
+  link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
-    light: '/pic/TruthMeet.png',
-    dark: '/pic/TruthMeet.png',
-    width: '80%'
+    light: '/img/iStock-2051326997.avif',
+    dark: '/img/iStock-1448478309.jpg',
+    width: '100%'
   },
   inversion: false
 }" />
 
 <FeatureBlock :card="{
-  title: 'DataBoost: AI-Powered Meeting Intelligence',
-  details: 'Smart meeting assistant that fills **critical knowledge gaps** in real-time discussions. It quietly monitors conversations to identify when additional data would be valuable, then delivers precisely what\'s needed without overwhelming participants. The system analyzes historical company data to provide instant analytics, forecasts, and context-relevant insights. Teams make better decisions faster while maintaining natural conversation flow.',
-  link: './guide/use-cases#databoost-intelligent-data-enrichment',
+  title: 'Challenges to Consider',
+  details: 'While the UAE offers many benefits, businesses should be aware of potential challenges when establishing operations. \n\n* Complex Regulatory Environment: Different regulations across emirates and free zones\n* Economic Substance Requirements: Local staff and physical office space needed for certain activities\n* High Initial Costs: Registration fees, documentation, and mandatory office rentals',
+  link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
-    light: '/pic/DataBoost.png',
-    dark: '/pic/DataBoost.png',
-    width: '80%'
+      light: '/img/iStock-1299393716.avif',
+      dark: '/img/iStock-2149731304.avif',
+    width: '100%'
   },
   inversion: true
 }" />
 
 <FeatureBlock :card="{
-  title: 'TaskTracker: AI Meeting Minutes & Accountability',
-  details: 'AI assistant that turns conversations into **structured action plans** with no manual note-taking required. It intelligently breaks down project goals into trackable microgoals, automatically assigning responsibilities and deadlines from meeting context. The system creates a shared Google Doc with interactive checkboxes that updates in real-time as tasks progress. [Team members](./team) experience positive accountability pressure through transparent progress tracking visible to all stakeholders.',
-  link: './guide/use-cases#tasktracker-main-goal-identification-with-task-decomposition',
+  title: 'Company Setup Guide',
+  details: 'Complete guide to setup companies in the **free zone, offshore, mainland, branch**. \n\n* 100% Foreign Ownership available in Free Zones and Mainland\n* Low Tax Rates - only 9% corporate tax\n* No Currency Controls - easy capital repatriation',
+  link: './uae-business/company-registration/overview',
   src: {
-    light: '/pic/TaskTracker.png',
-    dark: '/pic/TaskTracker.png',
-    width: '80%'
+    light: '/video/iStock-1204982076.mp4',
+    dark: '/video/iStock-1269162753.mp4',
+    width: '100%'
   },
   inversion: false
 }" />
 
-<FeatureBlock :card="{
-  title: 'MeetingScore: AI Meeting Performance Analytics',
-  details: 'AI system that discreetly analyzes meeting quality without interrupting natural conversation flow. It evaluates each participant\'s contributions, time management, and agenda adherence against **cognitive psychology best practices**. The platform generates public performance ratings on team dashboards, creating accountability through transparency rather than direct intervention. By establishing objective meeting metrics, teams naturally improve their meeting culture as members become conscious of their comparative effectiveness scores.',
-  link: './guide/use-cases#meetingrater-meeting-effectiveness-analytics',
-  src: {
-    light: '/pic/MeetingScore.png',
-    dark: '/pic/MeetingScore.png',
-    width: '80%'
+<FeatureCards :features="[
+  {
+    title: 'Bank Account Opening',
+    details: 'Easily open business or personal **bank accounts** with the UAE\'s trusted banks.',
+    items: [
+      'End-to-end PRO services for government approvals',
+      'Complete banking package setup',
+      '96% success rate'
+    ],
+    linkText: 'Read More',
+    link: './uae-business/offer/banking/',
+    icon: {
+      light: '/img/iStock-2153786564.avif',
+      dark: '/img/iStock-2166793628.avif',
+      alt: 'Banking Services'
+    }
   },
-  inversion: true
-}" />
-
-<FeatureBlock :card="{
-  title: 'BabelBreak: Seamless Multilingual Communication',
-  details: 'Revolutionary meeting platform that instantly translates speech into each participant\'s native language while preserving the speaker\'s natural voice and intonation. The system automatically detects both the speaker\'s language and each listener\'s preferred language without requiring manual configuration. Participants from different countries converse naturally as if language barriers never existed, with **cultural nuances** appropriately adapted during translation. Global teams can now collaborate effortlessly with zero language preparation needed for international meetings.',
-  link: './guide/use-cases#babelbreak-synchronous-multilingual-translation',
-  src: {
-    light: '/pic/BabelBreak.png',
-    dark: '/pic/BabelBreak.png',
-    width: '80%'
+  {
+    title: 'Golden Visa & Residency',
+    details: 'Obtain a UAE **Golden Visa** for long-term residency with a seamless application process.',
+    items: [
+      '**No need to enter UAE every 6 months**',
+      '10-year validity with the option for renewal upon maintaining qualifying conditions',
+      '92% success rate'
+    ],
+    linkText: 'Read More',
+    link: './uae-business/offer/golden-visa/',
+    icon: {
+      light: '/img/iStock-1312241253.avif',
+      dark: '/img/ILONMASKID.webp',
+      alt: 'Visa Services'
+    }
   },
-  inversion: false
-}" />
+  {
+    title: 'Explore more of our corporate services',
+    details: '',
+    items: [],
+    linkText: 'Read More',
+    link: '../../company-registration/insights/incorporation-steps',
+    icon: {
+      light: '/img/iStock-473502112.avif',
+      dark: '/img/iStock-1160827423.avif',
+      alt: 'More Services'
+    }
+  }
+]" />
 
 ## Why Choose Golden Fish
 
 <BenefitsList :features="[
   {
-    icon: '💰',
-    title: 'Success-Based Fees',
-    text: '**No payment until your Golden Visa is approved.** Complete transparency with no hidden costs.'
-  },
-  {
-    icon: '📈',
-    title: 'Proven Success Rate',
-    text: '98% approval rate with hundreds of Golden Visas issued through our premium processing.'
-  },
-  {
-    icon: '📋',
-    title: 'Complete Management',
-    text: 'End-to-end handling from documentation to visa issuance, taking care of all details.'
-  },
-  {
-    icon: '👨‍💼',
+    icon: '🏢',
     title: 'Local UAE Expertise',
     text: 'Dedicated specialists in Dubai provide expert guidance through every step of the process.'
   },
   {
-    icon: '🔍',
-    title: 'Premium Processing',
-    text: 'Direct communication with authorities and fast-track channels for quicker approvals.'
+    icon: '📊',
+    title: 'Proven Success Rate',
+    text: 'Over 90% approval rate with hundreds of visas, bank accounts, and company registrations issued through our premium processing.'
   },
   {
-    icon: '🔄',
-    title: 'Renewal Support',
-    text: 'Complimentary visa renewal assistance with **zero agency fees** - government charges only.'
-  }
+    icon: '💸',
+    title: '**Success-Based Fees**',
+    text: '[Pay only after approval](/uae-business/benefits/success-based-fees). Complete transparency with no hidden costs.'
+  },
 ]" />
 
 ## Book a free consultation to check your eligibility and discuss your options.
 
 <video  autoplay muted playsinline style="padding: 80px" >
-  <source src="/img/iStock-2185912341.mp4" type="video/mp4">
+  <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
 <ContactFormModal 
@@ -125,7 +134,7 @@ hero:
   categoryLabel="Required support level: *" 
   categoryPlaceholderText="Choose your support level"
   messageLabel="Help us prepare for your consultation (recommended)"
-  messagePlaceholderText="Tell us about your investment preferences, family members, timeline, or any specific questions"
+  messagePlaceholderText="Tell us about your preferences, family members, timeline, or any specific questions"
   :services="[
   'Basic — essential documents and consultations only',
   'Standard — complete documentation and guidance through main stages',

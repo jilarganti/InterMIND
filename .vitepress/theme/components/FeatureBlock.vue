@@ -104,21 +104,10 @@ const renderedTitle = computed(() => {
 .usp-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  max-width: 1200px;
-  margin: 0 auto 24px;
+  gap: 24px;
+  /* max-width: 1200px; */
+  /* margin: 0 auto 4px; */
   align-items: stretch;
-}
-
-.content-container {
-  order: 1;
-  padding: 16px 16px 0;
-}
-
-.media-container {
-  order: 0;
-  width: 100%;
-  padding: 0 16px;
 }
 
 .media-container.clickable {

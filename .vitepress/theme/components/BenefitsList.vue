@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import { computed } from "vue"
+import { renderMarkdown } from "../utils/markdown" // Импортируем утилиту для рендеринга маркдауна
+
 interface Feature {
   icon: string
   title: string
@@ -9,9 +12,20 @@ const props = defineProps<{
   features: Feature[]
 }>()
 
-const processText = (text: string) => {
-  return text.replace(/\*\*(.*?)\*\*/g, '<span class="hl">$1</span>')
-}
+// Обработка текста через маркдаун или через замену **текст** на <span class="hl">текст</span>
+// const processText = (text: string) => {
+//   return text.replace(/\*\*(.*?)\*\*/g, '<span class="hl">$1</span>')
+// }
+
+// Рендеринг заголовков через маркдаун
+const renderedTitles = computed(() => {
+  return props.features.map((feature) => renderMarkdown(feature.title))
+})
+
+// Рендеринг текста через маркдаун
+const renderedTexts = computed(() => {
+  return props.features.map((feature) => renderMarkdown(feature.text))
+})
 </script>
 
 <template>
@@ -19,8 +33,8 @@ const processText = (text: string) => {
     <div v-for="(feature, index) in features" :key="index" class="benefit-card">
       <div class="emoji">{{ feature.icon }}</div>
       <div class="content">
-        <h3 class="title">{{ feature.title }}</h3>
-        <div class="text" v-html="processText(feature.text)"></div>
+        <h3 class="title" v-html="renderedTitles[index]"></h3>
+        <div class="text" v-html="renderedTexts[index]"></div>
       </div>
     </div>
   </div>
@@ -67,9 +81,25 @@ const processText = (text: string) => {
   margin: 0;
 }
 
+.title :deep(p) {
+  margin: 0;
+}
+
+.title :deep(strong) {
+  color: var(--vp-hl-color);
+}
+
 .text {
   font-size: 1.1rem;
   color: var(--vp-c-text-2);
+}
+
+.text :deep(p) {
+  margin: 0;
+}
+
+.text :deep(strong) {
+  color: var(--vp-hl-color);
 }
 
 @media (max-width: 960px) {

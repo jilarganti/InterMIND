@@ -7,7 +7,7 @@ showSponsors: false
 hero:
   name: "UAE: Your Financial Safe Harbor"
   # text: We speak your tongue
-  tagline: "Full Business Support: Company Setup, Visas, Banking. Pay only after approval."
+  tagline: "Full Business Support: Company Setup, Visas, Banking. <span class='hl'>No success — no fee</span>."
 
   actions:
     - theme: brand
@@ -19,10 +19,10 @@ hero:
   image:
     light:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     dark:
       src: /img/Logo.avif
-      width: 50%
+      width: 40%
     alt: Golden Fish logo
 ---
 
@@ -48,8 +48,8 @@ hero:
     details: 'Easily open business or personal **bank accounts** with the UAE\'s trusted banks.',
     items: [
       'End-to-end PRO services for government approvals',
-      '[Pay only after approval](/uae-business/benefits/success-based-fees)',
-      '87% success rate',
+      'Complete banking package setup',
+      '96% success rate',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/banking/',
@@ -64,8 +64,8 @@ hero:
     details: 'Obtain a UAE **Golden Visa** for long-term residency with a seamless application process.',
     items: [
       '**No need to enter UAE every 6 months**',
-      '[Pay only after approval](/uae-business/benefits/success-based-fees)',
-      '96% success rate',
+      '10-year validity with the option for renewal upon maintaining qualifying conditions',
+      '92% success rate',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/golden-visa/',
@@ -83,7 +83,7 @@ hero:
     details: 'Our experts guide you through complex UAE regulatory requirements, including ESR reports and UBO filings.',
     items: [],
     linkText: 'Read More',
-    link: './uae-business/company-registration/ubo',
+    link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -126,53 +126,26 @@ hero:
       alt: 'Accounting Services'
     }
   },
-  // {
-  //   title: 'Explore more of our corporate services',
-  //   details: '',
-  //   items: [],
-  //   linkText: 'Read More',
-  //   link: './resources/contacts',
-  //   icon: {
-  //     light: '/img/iStock-473502112.avif',
-  //     dark: '/img/iStock-1160827423.avif',
-  //     alt: 'More Services'
-  //   }
-  // }
 ]" />
 
 ## Why Choose Golden Fish
 
 <BenefitsList :features="[
-{
- icon: '💰',
- title: 'Success-Based Fees',
- text: '**Zero upfront fees - pay only after approval.** Complete transparency with no hidden costs.'
-},
-{
- icon: '🔄',
- title: 'Multiple Solutions',
- text: 'Access to both local and international banks. Alternative options if primary application is declined.'
-},
-{
- icon: '🏦',
- title: 'Bank Relationships',
- text: 'Strong partnerships with major UAE and international banks. Applications to multiple banks to maximize approval chances.'
-},
-{
- icon: '📊',
- title: 'Complete Management',
- text: 'End-to-end handling from documentation to account activation, with weekly progress updates and direct bank communication.'
-},
-{
- icon: '📝',
- title: 'Professional Documentation',
- text: 'Our team prepares comprehensive business plans and handles all compliance documentation.'
-},
-{
- icon: '🤝',
- title: 'Ongoing Support',
- text: 'Continuous assistance with banking operations and compliance requirements after account opening.'
-}
+  {
+    icon: '🏢',
+    title: 'Local UAE Expertise',
+    text: 'Dedicated specialists in Dubai provide expert guidance through every step of the process.'
+  },
+  {
+    icon: '📊',
+    title: 'Proven Success Rate',
+    text: 'Over 90% approval rate with hundreds of visas, bank accounts, and company registrations issued through our premium processing.'
+  },
+  {
+    icon: '💸',
+    title: '**Success-Based Fees**',
+    text: '[Pay only after approval](/uae-business/benefits/success-based-fees). Complete transparency with no hidden costs.'
+  },
 ]" />
 
 <!-- ## Get Started Now - Free Initial Consultation
