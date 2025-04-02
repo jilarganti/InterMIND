@@ -57,7 +57,7 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Abertura de Conta Bancária',
-    details: 'Abra facilmente contas bancárias empresariais ou pessoais com os bancos confiáveis dos EAU.',
+    details: 'Abra facilmente **contas bancárias** empresariais ou pessoais com os bancos confiáveis dos EAU.',
     items: [
       'Serviços PRO completos para aprovações governamentais',
       'Configuração completa do pacote bancário',
@@ -73,7 +73,7 @@ hero:
   },
   {
     title: 'Golden Visa e Residência',
-    details: 'Obtenha um **Golden Visa** dos EAU para residência de longo prazo com um processo de solicitação simplificado.',
+    details: 'Obtenha um **Golden Visa** dos EAU para residência de longo prazo com um processo de aplicação simplificado.',
     items: [
       '**Sem necessidade de entrar nos EAU a cada 6 meses**',
       'Validade de 10 anos com opção de renovação mantendo as condições qualificadoras',
@@ -112,12 +112,12 @@ hero:
   {
     icon: '📊',
     title: 'Taxa de Sucesso Comprovada',
-    text: 'Mais de 90% de taxa de aprovação com centenas de vistos, contas bancárias e registros de empresas emitidos através do nosso processamento premium.[Test](https://imind-meetgenius.vercel.app/)'
+    text: 'Mais de 90% de taxa de aprovação com centenas de vistos, contas bancárias e registros de empresas emitidos através do nosso processamento premium.'
   },
   {
     icon: '💸',
     title: '**Taxas Baseadas no Sucesso**',
-    text: '[Pay only after approval](/uae-business/benefits/success-based-fees). Transparência total sem custos ocultos.'
+    text: '[Pague apenas após a aprovação](/uae-business/benefits/success-based-fees). Transparência total sem custos ocultos.'
   },
 ]" />
 

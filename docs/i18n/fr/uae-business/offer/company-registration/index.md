@@ -107,12 +107,12 @@ hero:
   {
     icon: '🏢',
     title: 'Expertise Locale aux EAU',
-    text: 'Des spécialistes dédiés à Dubaï fournissent des conseils d\'experts à chaque étape du processus.'
+    text: 'Des spécialistes dévoués à Dubaï fournissent des conseils d\'experts à chaque étape du processus.'
   },
   {
     icon: '📊',
     title: 'Taux de Réussite Prouvé',
-    text: 'Plus de 90% de taux d\'approbation avec des centaines de visas, comptes bancaires et enregistrements d\'entreprises délivrés via notre traitement premium.[Test](https://imind-meetgenius.vercel.app/)'
+    text: 'Plus de 90% de taux d\'approbation avec des centaines de visas, comptes bancaires et enregistrements d\'entreprises délivrés via notre traitement premium.'
   },
   {
     icon: '💸',

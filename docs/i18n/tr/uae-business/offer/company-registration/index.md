@@ -63,7 +63,7 @@ hero:
       'Eksiksiz bankacılık paketi kurulumu',
       '%96 başarı oranı'
     ],
-    linkText: 'Daha Fazla Bilgi',
+    linkText: 'Devamını Oku',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -76,10 +76,10 @@ hero:
     details: 'Sorunsuz bir başvuru süreciyle uzun süreli ikamet için BAE **Golden Visa** alın.',
     items: [
       '**Her 6 ayda bir BAE\'ye girme zorunluluğu yok**',
-      'Yeterlilik koşullarının sürdürülmesi halinde yenileme seçeneğiyle 10 yıl geçerlilik',
+      'Yeterlilik koşullarını koruyarak 10 yıl geçerlilik ve yenileme seçeneği',
       '%92 başarı oranı'
     ],
-    linkText: 'Daha Fazla Bilgi',
+    linkText: 'Devamını Oku',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -91,7 +91,7 @@ hero:
     title: 'Kurumsal hizmetlerimiz hakkında daha fazla bilgi edinin',
     details: '',
     items: [],
-    linkText: 'Daha Fazla Bilgi',
+    linkText: 'Devamını Oku',
     link: '../../company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
@@ -112,12 +112,12 @@ hero:
   {
     icon: '📊',
     title: 'Kanıtlanmış Başarı Oranı',
-    text: 'Premium hizmetlerimiz aracılığıyla verilen yüzlerce vize, banka hesabı ve şirket tescilinde %90\'ın üzerinde onay oranı.[Test](https://imind-meetgenius.vercel.app/)'
+    text: 'Premium hizmetlerimiz aracılığıyla yüzlerce vize, banka hesabı ve şirket tescili ile %90\'ın üzerinde onay oranı.'
   },
   {
     icon: '💸',
     title: '**Başarıya Dayalı Ücretler**',
-    text: '[Sadece onaydan sonra ödeme yapın](/uae-business/benefits/success-based-fees). Gizli maliyetler olmadan tam şeffaflık.'
+    text: '[Sadece onay sonrası ödeme](/uae-business/benefits/success-based-fees). Gizli maliyetler olmadan tam şeffaflık.'
   },
 ]" />
 
@@ -133,7 +133,7 @@ hero:
   categoryLabel="Gereken destek seviyesi: *" 
   categoryPlaceholderText="Destek seviyenizi seçin"
   messageLabel="Danışmanlığınız için bize yardımcı olun (önerilen)"
-  messagePlaceholderText="Tercihleriniz, aile üyeleriniz, zaman çizelgeniz veya özel sorularınız hakkında bize bilgi verin"
+  messagePlaceholderText="Tercihleriniz, aile üyeleriniz, zaman çizelgeniz veya özel sorularınız hakkında bilgi verin"
   :services="[
   'Temel — yalnızca gerekli belgeler ve danışmanlıklar',
   'Standart — eksiksiz dokümantasyon ve ana aşamalarda rehberlik',

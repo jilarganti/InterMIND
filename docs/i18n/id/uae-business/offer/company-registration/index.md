@@ -112,12 +112,12 @@ hero:
   {
     icon: '📊',
     title: 'Tingkat Keberhasilan Terbukti',
-    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan pendaftaran perusahaan yang dikeluarkan melalui pemrosesan premium kami.[Test](https://imind-meetgenius.vercel.app/)'
+    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan pendaftaran perusahaan yang diproses melalui layanan premium kami.'
   },
   {
     icon: '💸',
     title: '**Biaya Berbasis Keberhasilan**',
-    text: '[Bayar hanya setelah persetujuan](/uae-business/benefits/success-based-fees). Transparansi penuh tanpa biaya tersembunyi.'
+    text: '[Bayar hanya setelah disetujui](/uae-business/benefits/success-based-fees). Transparansi penuh tanpa biaya tersembunyi.'
   },
 ]" />
 

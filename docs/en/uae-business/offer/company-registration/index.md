@@ -20,7 +20,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Benefits of UAE Business',
-  details: 'The UAE offers numerous advantages for international entrepreneurs and investors seeking a favorable business environment. \n\n* Low Tax Rates: Just 9% corporate tax and 5% VAT with no personal income tax\n* 100% Foreign Ownership: Complete control of your company without local partners\n* No Currency Controls: Unrestricted profit repatriation and currency exchange',
+  details: 'The UAE offers numerous advantages for international entrepreneurs and investors seeking a favorable business environment. \n\n* Low Tax Rates: Just 9% corporate tax and 5% VAT with no personal income tax\n* 100% Foreign Ownership: Complete control of your company without local partners\n* No Currency Controls: Unrestricted profit repatriation and currency exchange\n\n[Show complete list](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Challenges to Consider',
-  details: 'While the UAE offers many benefits, businesses should be aware of potential challenges when establishing operations. \n\n* Complex Regulatory Environment: Different regulations across emirates and free zones\n* Economic Substance Requirements: Local staff and physical office space needed for certain activities\n* High Initial Costs: Registration fees, documentation, and mandatory office rentals',
+  details: 'While the UAE offers many benefits, businesses should be aware of potential challenges when establishing operations. \n\n* Complex Regulatory Environment: Different regulations across emirates and free zones\n* Economic Substance Requirements: Local staff and physical office space needed for certain activities\n* High Initial Costs: Registration fees, documentation, and mandatory office rentals\n\n[Show complete list](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -44,8 +44,8 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Company Setup Guide',
-  details: 'Complete guide to setup companies in the **free zone, offshore, mainland, branch**. \n\n* 100% Foreign Ownership available in Free Zones and Mainland\n* Low Tax Rates - only 9% corporate tax\n* No Currency Controls - easy capital repatriation',
-  link: '../../company-registration/overview',
+  details: 'Complete guide to setup companies in the **free zone, offshore, mainland, branch**. \n\n* 100% Foreign Ownership available in Free Zones and Mainland\n* Low Tax Rates - only 9% corporate tax\n* No Currency Controls - easy capital repatriation\n\n[Read More](/uae-business/company-registration/overview)',
+  link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
     dark: '/video/iStock-1269162753.mp4',

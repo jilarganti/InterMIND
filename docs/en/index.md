@@ -45,11 +45,11 @@ hero:
   },
   {
     title: 'Bank Account Opening',
-    details: 'Easily open business or personal **bank accounts** with the UAE\'s trusted banks.',
+    details: 'Easily open business or personal bank accounts with the UAE\'s trusted banks.',
     items: [
       'End-to-end PRO services for government approvals',
       'Complete banking package setup',
-      '96% success rate',
+      '**96% success rate**',
     ],
     linkText: 'Read More',
     link: './uae-business/offer/banking/',

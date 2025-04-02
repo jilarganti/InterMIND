@@ -101,22 +101,22 @@ hero:
   }
 ]" />
 
-## Por qué elegir Golden Fish
+## Por Qué Elegir Golden Fish
 
 <BenefitsList :features="[
   {
     icon: '🏢',
-    title: 'Experiencia local en EAU',
+    title: 'Experiencia Local en EAU',
     text: 'Especialistas dedicados en Dubái proporcionan orientación experta en cada paso del proceso.'
   },
   {
     icon: '📊',
-    title: 'Tasa de éxito comprobada',
-    text: 'Más del 90% de tasa de aprobación con cientos de visas, cuentas bancarias y registros de empresas emitidos a través de nuestro procesamiento premium.[Test](https://imind-meetgenius.vercel.app/)'
+    title: 'Tasa de Éxito Comprobada',
+    text: 'Más del 90% de tasa de aprobación con cientos de visas, cuentas bancarias y registros de empresas emitidos a través de nuestro procesamiento premium.'
   },
   {
     icon: '💸',
-    title: '**Tarifas basadas en el éxito**',
+    title: '**Tarifas Basadas en el Éxito**',
     text: '[Pague solo después de la aprobación](/uae-business/benefits/success-based-fees). Transparencia total sin costos ocultos.'
   },
 ]" />

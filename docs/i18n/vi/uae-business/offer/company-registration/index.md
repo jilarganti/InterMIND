@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Thách Thức Cần Xem Xét',
-  details: 'Mặc dù UAE có nhiều lợi ích, doanh nghiệp nên lưu ý các thách thức tiềm ẩn khi thiết lập hoạt động. \n\n* Môi trường pháp lý phức tạp: Quy định khác nhau giữa các tiểu vương quốc và free zone\n* Yêu cầu về cơ sở kinh tế: Cần nhân viên địa phương và văn phòng vật lý cho một số hoạt động\n* Chi phí ban đầu cao: Phí đăng ký, hồ sơ và thuê văn phòng bắt buộc',
+  details: 'Mặc dù UAE có nhiều lợi ích, doanh nghiệp nên lưu ý các thách thức tiềm ẩn khi thiết lập hoạt động. \n\n* Môi trường pháp lý phức tạp: Quy định khác nhau giữa các tiểu vương quốc và free zone\n* Yêu cầu về thực chất kinh tế: Cần nhân viên địa phương và văn phòng vật lý cho một số hoạt động\n* Chi phí ban đầu cao: Phí đăng ký, tài liệu và thuê văn phòng bắt buộc',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -112,7 +112,7 @@ hero:
   {
     icon: '📊',
     title: 'Tỷ Lệ Thành Công Đã Được Chứng Minh',
-    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua quy trình xử lý cao cấp của chúng tôi.[Test](https://imind-meetgenius.vercel.app/)'
+    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua quy trình xử lý cao cấp của chúng tôi.'
   },
   {
     icon: '💸',

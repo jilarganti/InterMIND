@@ -1,13 +1,13 @@
 ---
 layout: home
 title: "UAE 무위험 사업 설립 | 승인 전 무료"
-description: "혁신적인 UAE 기업 설립 모델: 성공 후에만 비용 지불. 90% 이상의 성공률로 모든 단계에서 전문가의 안내를 받으세요."
+description: "혁신적인 UAE 기업 설립 모델: 성공 후에만 비용 지불. 90% 이상의 성공률로 모든 단계에서 전문가 지도 제공."
 showSponsors: false
 
 hero:
   name: "UAE 기업 설립: 무위험 방식"
-  # text: 성과에 따른 지불
-  tagline: "자신감 있게 비즈니스를 설립하세요. <span class='hl'>승인 전까지 수수료 없음</span>. 전문가 지원 보장."
+  # text: Payment by results
+  tagline: "자신감 있게 비즈니스를 설립하세요. <span class='hl'>승인 전까지 수수료 없음</span>. 전문가 지도 보장."
   image:
     light:
       src: /img/Logo.avif
@@ -20,7 +20,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'UAE 사업의 장점',
-  details: 'UAE는 우호적인 비즈니스 환경을 찾는 국제 기업가와 투자자들에게 많은 이점을 제공합니다. \n\n* 낮은 세율: 법인세 9%와 부가가치세 5%만 있으며 개인소득세는 없음\n* 100% 외국인 소유권: 현지 파트너 없이 완전한 기업 통제권\n* 환율 통제 없음: 제한 없는 이익 송금과 환전',
+  details: 'UAE는 우호적인 비즈니스 환경을 찾는 국제 기업가와 투자자들에게 많은 이점을 제공합니다. \n\n* 낮은 세율: 법인세 9%, 부가가치세 5%만 있으며 개인소득세는 없음\n* 100% 외국인 소유권: 현지 파트너 없이 완전한 기업 통제권\n* 환율 통제 없음: 제한 없는 이익 송금 및 환전',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: '고려해야 할 과제',
-  details: 'UAE는 많은 이점을 제공하지만, 사업 설립 시 잠재적인 과제들을 인식해야 합니다. \n\n* 복잡한 규제 환경: 에미리트와 Free Zone 간의 서로 다른 규정\n* 경제적 실체 요건: 특정 활동에 대한 현지 직원과 물리적 사무실 공간 필요\n* 높은 초기 비용: 등록비, 문서 작업, 필수 사무실 임대료',
+  details: 'UAE는 많은 이점을 제공하지만, 사업 설립 시 잠재적인 과제들을 인식해야 합니다. \n\n* 복잡한 규제 환경: 에미리트와 Free Zone 간 상이한 규정\n* 경제적 실체 요건: 특정 활동에 대한 현지 직원 및 물리적 사무실 공간 필요\n* 높은 초기 비용: 등록비, 문서 작업, 필수 사무실 임대료',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -63,7 +63,7 @@ hero:
       '완벽한 뱅킹 패키지 설정',
       '96% 성공률'
     ],
-    linkText: '자세히 보기',
+    linkText: 'Read More',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -79,7 +79,7 @@ hero:
       '자격 조건 유지 시 10년 유효 및 갱신 옵션',
       '92% 성공률'
     ],
-    linkText: '자세히 보기',
+    linkText: 'Read More',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -91,7 +91,7 @@ hero:
     title: '더 많은 기업 서비스 살펴보기',
     details: '',
     items: [],
-    linkText: '자세히 보기',
+    linkText: 'Read More',
     link: '../../company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
@@ -112,7 +112,7 @@ hero:
   {
     icon: '📊',
     title: '입증된 성공률',
-    text: '프리미엄 처리를 통해 수백 건의 비자, 은행 계좌, 회사 등록이 발급되어 90% 이상의 승인률을 자랑합니다.[Test](https://imind-meetgenius.vercel.app/)'
+    text: '프리미엄 처리를 통해 발급된 수백 건의 비자, 은행 계좌, 회사 등록에서 90% 이상의 승인률을 기록했습니다.'
   },
   {
     icon: '💸',
