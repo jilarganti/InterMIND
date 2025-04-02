@@ -35,10 +35,11 @@ const formatCurrency = (value: number | undefined): string => {
     <tbody>
       <tr v-for="row in rows" :key="row.title">
         <td>{{ row.title }}</td>
-        <td v-if="row.year1Cost !== undefined">{{ formatCurrency(row.year1Cost) }}</td>
-        <td v-if="row.year2Cost !== undefined">{{ formatCurrency(row.year2Cost) }}</td>
-        <td v-if="row.remarks !== undefined" v-html="row.remarks"></td>
-        <td v-if="row.cost !== undefined">{{ formatCurrency(row.cost) }}</td>
+        <!-- Всегда рендерим ячейки, но проверяем содержимое внутри -->
+        <td>{{ row.year1Cost !== undefined ? formatCurrency(row.year1Cost) : "" }}</td>
+        <td>{{ row.year2Cost !== undefined ? formatCurrency(row.year2Cost) : "" }}</td>
+        <td v-html="row.remarks || ''"></td>
+        <td>{{ row.cost !== undefined ? formatCurrency(row.cost) : "" }}</td>
         <td>
           <input
             type="hidden"
