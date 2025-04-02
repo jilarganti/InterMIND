@@ -1,13 +1,13 @@
 ---
 layout: home
-title: "阿联酋无风险创业 | 未获批不收费"
-description: "革新性的阿联酋公司注册模式：仅在成功后付费。全程专业指导，成功率超过90%。"
+title: "阿联酋无风险创业 | 无批准不收费"
+description: "革新性的阿联酋公司注册模式：仅在成功后付费。专业指导全程陪伴，成功率超90%。"
 showSponsors: false
 
 hero:
-  name: "阿联酋公司注册：零风险之选"
+  name: "阿联酋公司注册：我们与您共担风险"
   # text: 按结果付费
-  tagline: "自信创业从这里开始。<span class='hl'>获批前零代理费</span>。保证专业指导。"
+  tagline: "安心发展您的业务。<span class='hl'>获批前零代理费</span>。我们只在您获得成果后收费。"
   image:
     light:
       src: /img/Logo.avif
@@ -19,8 +19,8 @@ hero:
 ---
 
 <FeatureBlock :card="{
-  title: '在阿联酋经商的优势',
-  details: '阿联酋为国际企业家和投资者提供众多优势，打造理想的营商环境。\n\n* 低税率：仅9%公司税和5%增值税，无个人所得税\n* 100%外资所有权：无需本地合伙人，完全掌控公司\n* 无外汇管制：利润汇回和货币兑换自由',
+  title: '您的优势 — 我们的责任',
+  details: '阿联酋为寻求有利商业环境的国际企业家和投资者提供众多优势。\n\n* 低税率：仅9%公司税和5%增值税，无个人所得税\n* 100%外资所有权：无需本地合伙人，完全控制您的公司\n* 无货币管制：利润汇回和货币兑换不受限制\n\n[查看完整列表](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -31,8 +31,8 @@ hero:
 }" />
 
 <FeatureBlock :card="{
-  title: '需要考虑的挑战',
-  details: '尽管阿联酋提供诸多优势，企业在设立运营时仍需注意潜在挑战。\n\n* 复杂的监管环境：各酋长国和自由区规定不同\n* 经济实质要求：特定活动需要本地员工和实体办公场所\n* 较高的初始成本：注册费、文件费和强制性办公室租金',
+  title: '我们共同应对的挑战',
+  details: '虽然阿联酋提供诸多优势，但企业在建立运营时应注意潜在挑战。\n\n* 复杂的监管环境：各酋长国和自由区的法规不同\n* 经济实质要求：某些活动需要本地员工和实体办公空间\n* 高初始成本：注册费、文件费和强制性办公室租金\n\n[查看完整列表](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-1299393716.avif',
@@ -43,9 +43,9 @@ hero:
 }" />
 
 <FeatureBlock :card="{
-  title: '公司设立指南',
-  details: '完整指导在**自由区、离岸、大陆、分公司**设立公司。\n\n* 自由区和大陆均可100%外资持股\n* 低税率 - 仅9%公司税\n* 无外汇管制 - 资金汇回便捷',
-  link: '../../company-registration/overview',
+  title: '全程支持：与您同行每一步',
+  details: '完整指导在**自由区、离岸、大陆、分公司**设立公司。\n\n* 自由区和大陆均可100%外资所有\n* 低税率 - 仅9%公司税\n* 无货币管制 - 轻松资本汇回\n\n[了解更多](/uae-business/company-registration/overview)',
+  link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
     dark: '/video/iStock-1269162753.mp4',
@@ -56,8 +56,8 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: '银行开户',
-    details: '轻松在阿联酋信誉银行开设企业或个人**银行账户**。',
+    title: '银行账户开立',
+    details: '轻松在阿联酋信誉银行开立商业或个人**银行账户**。',
     items: [
       '政府审批全程PRO服务',
       '完整银行服务包设置',
@@ -72,7 +72,7 @@ hero:
     }
   },
   {
-    title: 'Golden Visa与居留',
+    title: 'Golden Visa和居留',
     details: '通过无缝申请流程获取阿联酋**Golden Visa**长期居留。',
     items: [
       '**无需每6个月入境阿联酋**',

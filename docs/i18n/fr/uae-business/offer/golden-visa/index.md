@@ -1,11 +1,11 @@
 ---
 layout: home
-title: "Visa Or des EAU | Service Basé sur les Résultats"
-description: "Visa de résidence premium de 10 ans sans frais initiaux - paiement uniquement après approbation. Gestion complète des demandes avec 98% de taux de réussite. Service de renouvellement gratuit, frais gouvernementaux uniquement."
+title: "Visa Doré des EAU | Service Basé sur les Résultats"
+description: "Visa de résidence premium de 10 ans sans frais initiaux - paiement uniquement après approbation. Gestion complète des demandes avec 98% de taux de réussite. Service de renouvellement gratuit, uniquement frais gouvernementaux."
 showSponsors: false
 
 hero:
-  name: "Visa Or des EAU"
+  name: "Visa Doré des EAU"
   text: Paiement aux résultats
   tagline: Résidence de 10 ans. <span class="hl">Zéro frais initial</span> - paiement uniquement après approbation. 98% de taux de réussite.
   image:
@@ -20,7 +20,7 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Avantages du Visa Or des EAU',
+    title: 'Avantages du Visa Doré des EAU',
     items: [
       'Validité de 10 ans avec option de renouvellement sous conditions qualifiantes',
       '**Pas besoin d\'entrer aux EAU tous les 6 mois**',
@@ -35,12 +35,12 @@ hero:
     icon: {
       light: '/img/iStock-1785818081.avif',
       dark: '/img/iStock-1203821481.avif',
-      alt: 'Services de visa',
+      alt: 'Services de Visa',
       width: '100%'
     }
   },
   {
-    title: 'Comment Obtenir le Visa Or des EAU',
+    title: 'Comment Obtenir le Visa Doré des EAU',
     items: [
       'Investissement de 2M AED dans l\'immobilier aux EAU',
       'Dépôt de 2M AED dans des fonds d\'investissement aux EAU',
@@ -54,27 +54,27 @@ hero:
     icon: {
       light: '/img/iStock-1333000394.avif',
       dark: '/img/iStock-584576538.avif',
-      alt: 'Services de visa',
+      alt: 'Services de Visa',
       width: '10%'
     }
   },
   {
-    title: 'Processus du Visa Or',
+    title: 'Processus du Visa Doré',
     bullet: '✓',
     items: [
       'Évaluation initiale d\'éligibilité',
       'Préparation et vérification des documents',
       'Examen médical et biométrie',
       'Soumission et traitement de la demande',
-      'Émission de l\'Emirates ID et du visa',
-      'Parrainage de visa familial (optionnel)'
+      'Délivrance de l\'Emirates ID et du visa',
+      'Parrainage visa familial (optionnel)'
     ],
     linkText: 'En savoir plus',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',
       dark: '/img/ILONMASKID.webp',
-      alt: 'Services de visa',
+      alt: 'Services de Visa',
       width: '100%'
     }
   }
@@ -101,7 +101,7 @@ hero:
   {
     icon: '👨‍💼',
     title: 'Expertise Locale aux UAE',
-    text: 'Des spécialistes dédiés à Dubai fournissent des conseils d\'expert à chaque étape du processus.'
+    text: 'Des spécialistes dédiés à Dubai fournissent des conseils d\'experts à chaque étape du processus.'
   },
   {
     icon: '🔍',

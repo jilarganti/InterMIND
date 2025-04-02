@@ -5,9 +5,9 @@ description: "Modelo revolucionário de formação de empresas nos EAU: você pa
 showSponsors: false
 
 hero:
-  name: "Formação de Empresa nos EAU: O Caminho Sem Riscos"
+  name: "Formação de Empresa nos EAU: Compartilhamos Seu Risco"
   # text: Pagamento por resultados
-  tagline: "Monte seu negócio com confiança. <span class='hl'>Zero taxas até a aprovação</span>. Orientação especializada garantida."
+  tagline: "Desenvolva seu negócio com tranquilidade. <span class='hl'>Zero taxas de agente até a aprovação</span>. Não recebemos até você obter resultados."
   image:
     light:
       src: /img/Logo.avif
@@ -19,8 +19,8 @@ hero:
 ---
 
 <FeatureBlock :card="{
-  title: 'Benefícios de Negócios nos EAU',
-  details: 'Os EAU oferecem numerosas vantagens para empreendedores e investidores internacionais que buscam um ambiente de negócios favorável. \n\n* Baixas Taxas: Apenas 9% de imposto corporativo e 5% de IVA sem imposto de renda pessoal\n* 100% de Propriedade Estrangeira: Controle total da sua empresa sem parceiros locais\n* Sem Controle Cambial: Repatriação de lucros e câmbio de moeda sem restrições',
+  title: 'Suas Vantagens — Nossa Responsabilidade',
+  details: 'Os EAU oferecem numerosas vantagens para empreendedores e investidores internacionais que buscam um ambiente de negócios favorável. \n\n* Baixas Taxas: Apenas 9% de imposto corporativo e 5% de IVA sem imposto de renda pessoal\n* 100% de Propriedade Estrangeira: Controle total da sua empresa sem parceiros locais\n* Sem Controle Cambial: Repatriação de lucros e câmbio de moeda sem restrições\n\n[Mostrar lista completa](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -31,8 +31,8 @@ hero:
 }" />
 
 <FeatureBlock :card="{
-  title: 'Desafios a Considerar',
-  details: 'Embora os EAU ofereçam muitos benefícios, as empresas devem estar cientes dos potenciais desafios ao estabelecer operações. \n\n* Ambiente Regulatório Complexo: Diferentes regulamentações entre emirados e free zones\n* Requisitos de Substância Econômica: Funcionários locais e espaço físico necessários para certas atividades\n* Altos Custos Iniciais: Taxas de registro, documentação e aluguéis obrigatórios de escritório',
+  title: 'Desafios que Enfrentamos Juntos',
+  details: 'Embora os EAU ofereçam muitos benefícios, as empresas devem estar cientes dos possíveis desafios ao estabelecer operações. \n\n* Ambiente Regulatório Complexo: Diferentes regulamentações entre emirados e free zones\n* Requisitos de Substância Econômica: Funcionários locais e espaço físico necessários para certas atividades\n* Altos Custos Iniciais: Taxas de registro, documentação e aluguéis obrigatórios de escritório\n\n[Mostrar lista completa](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -43,9 +43,9 @@ hero:
 }" />
 
 <FeatureBlock :card="{
-  title: 'Guia de Abertura de Empresa',
-  details: 'Guia completo para abrir empresas na **free zone, offshore, mainland, branch**. \n\n* 100% de Propriedade Estrangeira disponível em Free Zones e Mainland\n* Baixas Taxas - apenas 9% de imposto corporativo\n* Sem Controle Cambial - fácil repatriação de capital',
-  link: '../../company-registration/overview',
+  title: 'Suporte Completo: Passo a Passo com Você',
+  details: 'Guia completo para estabelecer empresas na **Free Zone, Offshore, Mainland, Branch**. \n\n* 100% de Propriedade Estrangeira disponível em Free Zones e Mainland\n* Baixas Taxas - apenas 9% de imposto corporativo\n* Sem Controle Cambial - fácil repatriação de capital\n\n[Saiba mais](/uae-business/company-registration/overview)',
+  link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
     dark: '/video/iStock-1269162753.mp4',
@@ -57,13 +57,13 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Abertura de Conta Bancária',
-    details: 'Abra facilmente **contas bancárias** empresariais ou pessoais com os bancos confiáveis dos EAU.',
+    details: 'Abra facilmente contas bancárias **empresariais ou pessoais** com os bancos confiáveis dos EAU.',
     items: [
       'Serviços PRO completos para aprovações governamentais',
       'Configuração completa do pacote bancário',
       'Taxa de sucesso de 96%'
     ],
-    linkText: 'Leia Mais',
+    linkText: 'Saiba mais',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -73,13 +73,13 @@ hero:
   },
   {
     title: 'Golden Visa e Residência',
-    details: 'Obtenha um **Golden Visa** dos EAU para residência de longo prazo com um processo de aplicação simplificado.',
+    details: 'Obtenha um **Golden Visa** dos EAU para residência de longo prazo com um processo de solicitação simplificado.',
     items: [
       '**Sem necessidade de entrar nos EAU a cada 6 meses**',
       'Validade de 10 anos com opção de renovação mantendo as condições qualificadoras',
       'Taxa de sucesso de 92%'
     ],
-    linkText: 'Leia Mais',
+    linkText: 'Saiba mais',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -91,7 +91,7 @@ hero:
     title: 'Explore mais dos nossos serviços corporativos',
     details: '',
     items: [],
-    linkText: 'Leia Mais',
+    linkText: 'Saiba mais',
     link: '../../company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',

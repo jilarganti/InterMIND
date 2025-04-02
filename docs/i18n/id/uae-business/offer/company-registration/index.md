@@ -5,9 +5,9 @@ description: "Model pembentukan perusahaan UAE revolusioner: Anda hanya membayar
 showSponsors: false
 
 hero:
-  name: "Pembentukan Perusahaan UAE: Cara Tanpa Risiko"
+  name: "Pembentukan Perusahaan UAE: Kami Berbagi Risiko Anda"
   # text: Pembayaran berdasarkan hasil
-  tagline: "Dirikan bisnis Anda dengan percaya diri. <span class='hl'>Nol biaya agen hingga persetujuan</span>. Panduan ahli dijamin."
+  tagline: "Kembangkan bisnis Anda dengan tenang. <span class='hl'>Tanpa biaya agen sampai disetujui</span>. Kami tidak dibayar sampai Anda mendapatkan hasil."
   image:
     light:
       src: /img/Logo.avif
@@ -19,8 +19,8 @@ hero:
 ---
 
 <FeatureBlock :card="{
-  title: 'Keuntungan Bisnis UAE',
-  details: 'UAE menawarkan berbagai keuntungan bagi pengusaha dan investor internasional yang mencari lingkungan bisnis yang menguntungkan. \n\n* Tarif Pajak Rendah: Hanya 9% pajak perusahaan dan 5% PPN tanpa pajak penghasilan pribadi\n* 100% Kepemilikan Asing: Kendali penuh atas perusahaan Anda tanpa mitra lokal\n* Tanpa Kontrol Mata Uang: Repatriasi keuntungan dan pertukaran mata uang tanpa batasan',
+  title: 'Keuntungan Anda — Tanggung Jawab Kami',
+  details: 'UAE menawarkan berbagai keuntungan bagi pengusaha dan investor internasional yang mencari lingkungan bisnis yang menguntungkan. \n\n* Tarif Pajak Rendah: Hanya 9% pajak perusahaan dan 5% PPN tanpa pajak penghasilan pribadi\n* 100% Kepemilikan Asing: Kendali penuh atas perusahaan Anda tanpa mitra lokal\n* Tanpa Kontrol Mata Uang: Repatriasi keuntungan dan pertukaran mata uang tanpa batasan\n\n[Tampilkan daftar lengkap](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -31,8 +31,8 @@ hero:
 }" />
 
 <FeatureBlock :card="{
-  title: 'Tantangan yang Perlu Dipertimbangkan',
-  details: 'Meskipun UAE menawarkan banyak keuntungan, bisnis harus menyadari tantangan potensial saat mendirikan operasi. \n\n* Lingkungan Regulasi Kompleks: Peraturan berbeda di setiap emirat dan free zone\n* Persyaratan Substansi Ekonomi: Staf lokal dan ruang kantor fisik diperlukan untuk aktivitas tertentu\n* Biaya Awal Tinggi: Biaya pendaftaran, dokumentasi, dan sewa kantor wajib',
+  title: 'Tantangan Yang Kita Hadapi Bersama',
+  details: 'Meskipun UAE menawarkan banyak manfaat, bisnis harus menyadari potensi tantangan saat membangun operasi. \n\n* Lingkungan Regulasi Kompleks: Peraturan berbeda di setiap emirat dan free zone\n* Persyaratan Substansi Ekonomi: Staf lokal dan ruang kantor fisik diperlukan untuk aktivitas tertentu\n* Biaya Awal Tinggi: Biaya pendaftaran, dokumentasi, dan sewa kantor wajib\n\n[Tampilkan daftar lengkap](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -43,9 +43,9 @@ hero:
 }" />
 
 <FeatureBlock :card="{
-  title: 'Panduan Pendirian Perusahaan',
-  details: 'Panduan lengkap untuk mendirikan perusahaan di **free zone, offshore, mainland, branch**. \n\n* 100% Kepemilikan Asing tersedia di Free Zone dan Mainland\n* Tarif Pajak Rendah - hanya 9% pajak perusahaan\n* Tanpa Kontrol Mata Uang - repatriasi modal mudah',
-  link: '../../company-registration/overview',
+  title: 'Dukungan Lengkap: Langkah demi Langkah Bersama Anda',
+  details: 'Panduan lengkap untuk mendirikan perusahaan di **free zone, offshore, mainland, branch**. \n\n* 100% Kepemilikan Asing tersedia di Free Zone dan Mainland\n* Tarif Pajak Rendah - hanya 9% pajak perusahaan\n* Tanpa Kontrol Mata Uang - repatriasi modal mudah\n\n[Pelajari lebih lanjut](/uae-business/company-registration/overview)',
+  link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
     dark: '/video/iStock-1269162753.mp4',
@@ -63,7 +63,7 @@ hero:
       'Pengaturan paket perbankan lengkap',
       'Tingkat keberhasilan 96%'
     ],
-    linkText: 'Baca Selengkapnya',
+    linkText: 'Pelajari lebih lanjut',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -76,10 +76,10 @@ hero:
     details: 'Dapatkan **Golden Visa** UAE untuk izin tinggal jangka panjang dengan proses aplikasi yang lancar.',
     items: [
       '**Tidak perlu masuk UAE setiap 6 bulan**',
-      'Masa berlaku 10 tahun dengan opsi perpanjangan jika memenuhi syarat',
+      'Berlaku 10 tahun dengan opsi perpanjangan jika memenuhi syarat',
       'Tingkat keberhasilan 92%'
     ],
-    linkText: 'Baca Selengkapnya',
+    linkText: 'Pelajari lebih lanjut',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -91,7 +91,7 @@ hero:
     title: 'Jelajahi layanan korporat kami lainnya',
     details: '',
     items: [],
-    linkText: 'Baca Selengkapnya',
+    linkText: 'Pelajari lebih lanjut',
     link: '../../company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
@@ -112,12 +112,12 @@ hero:
   {
     icon: '📊',
     title: 'Tingkat Keberhasilan Terbukti',
-    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan pendaftaran perusahaan yang diproses melalui layanan premium kami.'
+    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan pendaftaran perusahaan yang dikeluarkan melalui pemrosesan premium kami.'
   },
   {
     icon: '💸',
     title: '**Biaya Berbasis Keberhasilan**',
-    text: '[Bayar hanya setelah disetujui](/uae-business/benefits/success-based-fees). Transparansi penuh tanpa biaya tersembunyi.'
+    text: '[Bayar hanya setelah persetujuan](/uae-business/benefits/success-based-fees). Transparansi penuh tanpa biaya tersembunyi.'
   },
 ]" />
 

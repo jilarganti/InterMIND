@@ -1,13 +1,13 @@
 ---
 layout: home
 title: "Negocios en EAU Sin Riesgo | Sin Aprobación, Sin Pago"
-description: "Modelo revolucionario de formación de empresas en EAU: pague solo después del éxito. Orientación experta en cada etapa con más del 90% de tasa de éxito."
+description: "Modelo revolucionario de formación de empresas en EAU: solo pagas después del éxito. Orientación experta en cada etapa con más del 90% de tasa de éxito."
 showSponsors: false
 
 hero:
-  name: "Formación de Empresas en EAU: El Camino Sin Riesgos"
+  name: "Formación de Empresas en EAU: Compartimos Tu Riesgo"
   # text: Pago por resultados
-  tagline: "Establezca su negocio con confianza. <span class='hl'>Sin honorarios de agente hasta la aprobación</span>. Orientación experta garantizada."
+  tagline: "Haz crecer tu negocio con tranquilidad. <span class='hl'>Cero honorarios de agente hasta la aprobación</span>. No cobramos hasta que obtengas resultados."
   image:
     light:
       src: /img/Logo.avif
@@ -19,8 +19,8 @@ hero:
 ---
 
 <FeatureBlock :card="{
-  title: 'Beneficios de los Negocios en EAU',
-  details: 'Los EAU ofrecen numerosas ventajas para emprendedores e inversores internacionales que buscan un entorno empresarial favorable. \n\n* Bajas Tasas Impositivas: Solo 9% de impuesto corporativo y 5% de IVA sin impuesto sobre la renta personal\n* 100% Propiedad Extranjera: Control total de su empresa sin socios locales\n* Sin Control de Divisas: Repatriación de beneficios y cambio de divisas sin restricciones',
+  title: 'Tus Ventajas — Nuestra Responsabilidad',
+  details: 'Los EAU ofrecen numerosas ventajas para empresarios e inversores internacionales que buscan un entorno empresarial favorable. \n\n* Bajas Tasas Impositivas: Solo 9% de impuesto corporativo y 5% de IVA sin impuesto sobre la renta personal\n* 100% Propiedad Extranjera: Control total de tu empresa sin socios locales\n* Sin Control de Divisas: Repatriación de beneficios y cambio de divisas sin restricciones\n\n[Mostrar lista completa](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -31,21 +31,21 @@ hero:
 }" />
 
 <FeatureBlock :card="{
-  title: 'Desafíos a Considerar',
-  details: 'Si bien los EAU ofrecen muchos beneficios, las empresas deben ser conscientes de los posibles desafíos al establecer operaciones. \n\n* Entorno Regulatorio Complejo: Diferentes regulaciones entre emiratos y free zones\n* Requisitos de Sustancia Económica: Personal local y espacio de oficina física necesarios para ciertas actividades\n* Altos Costos Iniciales: Tasas de registro, documentación y alquileres obligatorios de oficinas',
+  title: 'Desafíos que Enfrentamos Juntos',
+  details: 'Si bien los EAU ofrecen muchos beneficios, las empresas deben ser conscientes de los posibles desafíos al establecer operaciones. \n\n* Entorno Regulatorio Complejo: Diferentes regulaciones entre emiratos y free zones\n* Requisitos de Sustancia Económica: Personal local y espacio de oficina física necesarios para ciertas actividades\n* Altos Costos Iniciales: Tasas de registro, documentación y alquileres obligatorios de oficinas\n\n[Mostrar lista completa](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
-      light: '/img/iStock-1299393716.avif',
-      dark: '/img/iStock-2149731304.avif',
+    light: '/img/iStock-1299393716.avif',
+    dark: '/img/iStock-2149731304.avif',
     width: '100%'
   },
   inversion: true
 }" />
 
 <FeatureBlock :card="{
-  title: 'Guía de Configuración de Empresa',
-  details: 'Guía completa para establecer empresas en **free zone, offshore, mainland, branch**. \n\n* 100% Propiedad Extranjera disponible en Free Zones y Mainland\n* Bajas Tasas Impositivas - solo 9% de impuesto corporativo\n* Sin Control de Divisas - fácil repatriación de capital',
-  link: '../../company-registration/overview',
+  title: 'Soporte Completo: Paso a Paso Contigo',
+  details: 'Guía completa para establecer empresas en **free zone, offshore, mainland, branch**. \n\n* 100% Propiedad Extranjera disponible en Free Zones y Mainland\n* Bajas Tasas Impositivas - solo 9% de impuesto corporativo\n* Sin Control de Divisas - fácil repatriación de capital\n\n[Más información](/uae-business/company-registration/overview)',
+  link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
     dark: '/video/iStock-1269162753.mp4',
@@ -57,13 +57,13 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Apertura de Cuenta Bancaria',
-    details: 'Abra fácilmente cuentas bancarias comerciales o personales con los bancos de confianza de EAU.',
+    details: 'Abre fácilmente **cuentas bancarias** comerciales o personales con los bancos de confianza de EAU.',
     items: [
       'Servicios PRO integrales para aprobaciones gubernamentales',
       'Configuración completa del paquete bancario',
       '96% de tasa de éxito'
     ],
-    linkText: 'Leer Más',
+    linkText: 'Más información',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -73,13 +73,13 @@ hero:
   },
   {
     title: 'Golden Visa y Residencia',
-    details: 'Obtenga una **Golden Visa** de EAU para residencia a largo plazo con un proceso de solicitud sin complicaciones.',
+    details: 'Obtén una **Golden Visa** de EAU para residencia a largo plazo con un proceso de solicitud sin complicaciones.',
     items: [
-      '**No es necesario ingresar a EAU cada 6 meses**',
+      '**No es necesario entrar a EAU cada 6 meses**',
       'Validez de 10 años con opción de renovación al mantener las condiciones de calificación',
       '92% de tasa de éxito'
     ],
-    linkText: 'Leer Más',
+    linkText: 'Más información',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -88,10 +88,10 @@ hero:
     }
   },
   {
-    title: 'Explore más de nuestros servicios corporativos',
+    title: 'Explora más de nuestros servicios corporativos',
     details: '',
     items: [],
-    linkText: 'Leer Más',
+    linkText: 'Más información',
     link: '../../company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',

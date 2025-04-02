@@ -1,13 +1,12 @@
 ---
 layout: home
-title: "Thành Lập Doanh Nghiệp UAE Không Rủi Ro | Không Phê Duyệt, Không Thanh Toán"
+title: "Kinh Doanh UAE Không Rủi Ro | Không Phê Duyệt, Không Thanh Toán"
 description: "Mô hình thành lập công ty UAE đột phá: chỉ thanh toán sau khi thành công. Hướng dẫn chuyên nghiệp qua từng giai đoạn với tỷ lệ thành công trên 90%."
 showSponsors: false
 
 hero:
-  name: "Thành Lập Công Ty UAE: Cách Không Rủi Ro"
-  # text: Thanh toán theo kết quả
-  tagline: "Thành lập doanh nghiệp với sự tự tin. <span class='hl'>Không phí đại lý cho đến khi được phê duyệt</span>. Đảm bảo hướng dẫn chuyên nghiệp."
+  name: "Thành Lập Công Ty UAE: Chúng Tôi Chia Sẻ Rủi Ro Cùng Bạn"
+  tagline: "Phát triển kinh doanh với sự an tâm. <span class='hl'>Không phí đại lý cho đến khi được phê duyệt</span>. Chúng tôi chỉ nhận phí khi bạn có kết quả."
   image:
     light:
       src: /img/Logo.avif
@@ -19,8 +18,8 @@ hero:
 ---
 
 <FeatureBlock :card="{
-  title: 'Lợi Ích Kinh Doanh Tại UAE',
-  details: 'UAE mang đến nhiều lợi thế cho các doanh nhân và nhà đầu tư quốc tế tìm kiếm môi trường kinh doanh thuận lợi. \n\n* Thuế suất thấp: Chỉ 9% thuế doanh nghiệp và 5% VAT, không có thuế thu nhập cá nhân\n* 100% Sở hữu nước ngoài: Kiểm soát hoàn toàn công ty mà không cần đối tác địa phương\n* Không kiểm soát tiền tệ: Tự do chuyển lợi nhuận và trao đổi ngoại tệ',
+  title: 'Lợi Thế Của Bạn — Trách Nhiệm Của Chúng Tôi',
+  details: 'UAE mang đến nhiều lợi thế cho các doanh nhân và nhà đầu tư quốc tế tìm kiếm môi trường kinh doanh thuận lợi. \n\n* Thuế suất thấp: Chỉ 9% thuế doanh nghiệp và 5% VAT, không có thuế thu nhập cá nhân\n* 100% Sở hữu nước ngoài: Kiểm soát hoàn toàn công ty mà không cần đối tác địa phương\n* Không kiểm soát tiền tệ: Tự do chuyển lợi nhuận và trao đổi ngoại tệ\n\n[Xem danh sách đầy đủ](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -31,21 +30,21 @@ hero:
 }" />
 
 <FeatureBlock :card="{
-  title: 'Thách Thức Cần Xem Xét',
-  details: 'Mặc dù UAE có nhiều lợi ích, doanh nghiệp nên lưu ý các thách thức tiềm ẩn khi thiết lập hoạt động. \n\n* Môi trường pháp lý phức tạp: Quy định khác nhau giữa các tiểu vương quốc và free zone\n* Yêu cầu về thực chất kinh tế: Cần nhân viên địa phương và văn phòng vật lý cho một số hoạt động\n* Chi phí ban đầu cao: Phí đăng ký, tài liệu và thuê văn phòng bắt buộc',
+  title: 'Thách Thức Chúng Ta Cùng Vượt Qua',
+  details: 'Mặc dù UAE mang lại nhiều lợi ích, doanh nghiệp cần lưu ý những thách thức tiềm ẩn khi thiết lập hoạt động. \n\n* Môi trường pháp lý phức tạp: Quy định khác nhau giữa các tiểu vương quốc và free zone\n* Yêu cầu về thực chất kinh tế: Cần nhân viên địa phương và văn phòng vật lý cho một số hoạt động\n* Chi phí ban đầu cao: Phí đăng ký, hồ sơ và thuê văn phòng bắt buộc\n\n[Xem danh sách đầy đủ](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
-      light: '/img/iStock-1299393716.avif',
-      dark: '/img/iStock-2149731304.avif',
+    light: '/img/iStock-1299393716.avif',
+    dark: '/img/iStock-2149731304.avif',
     width: '100%'
   },
   inversion: true
 }" />
 
 <FeatureBlock :card="{
-  title: 'Hướng Dẫn Thành Lập Công Ty',
-  details: 'Hướng dẫn đầy đủ để thành lập công ty tại **free zone, offshore, mainland, branch**. \n\n* 100% Sở hữu nước ngoài có sẵn tại Free Zone và Mainland\n* Thuế suất thấp - chỉ 9% thuế doanh nghiệp\n* Không kiểm soát tiền tệ - dễ dàng chuyển vốn',
-  link: '../../company-registration/overview',
+  title: 'Hỗ Trợ Toàn Diện: Đồng Hành Từng Bước',
+  details: 'Hướng dẫn đầy đủ để thành lập công ty tại **free zone, offshore, mainland, branch**. \n\n* 100% Sở hữu nước ngoài khả dụng tại Free Zone và Mainland\n* Thuế suất thấp - chỉ 9% thuế doanh nghiệp\n* Không kiểm soát tiền tệ - dễ dàng chuyển vốn\n\n[Tìm hiểu thêm](/uae-business/company-registration/overview)',
+  link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
     dark: '/video/iStock-1269162753.mp4',
@@ -57,18 +56,18 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Mở Tài Khoản Ngân Hàng',
-    details: 'Dễ dàng mở **tài khoản ngân hàng** doanh nghiệp hoặc cá nhân với các ngân hàng uy tín của UAE.',
+    details: 'Dễ dàng mở **tài khoản ngân hàng** cá nhân hoặc doanh nghiệp với các ngân hàng uy tín của UAE.',
     items: [
       'Dịch vụ PRO toàn diện cho phê duyệt chính phủ',
       'Thiết lập gói ngân hàng hoàn chỉnh',
       'Tỷ lệ thành công 96%'
     ],
-    linkText: 'Đọc Thêm',
+    linkText: 'Tìm hiểu thêm',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
-      alt: 'Dịch vụ Ngân hàng'
+      alt: 'Dịch vụ ngân hàng'
     }
   },
   {
@@ -76,27 +75,27 @@ hero:
     details: 'Nhận **Golden Visa** UAE để cư trú dài hạn với quy trình đăng ký suôn sẻ.',
     items: [
       '**Không cần nhập cảnh UAE mỗi 6 tháng**',
-      'Hiệu lực 10 năm với tùy chọn gia hạn khi duy trì điều kiện đủ tiêu chuẩn',
+      'Hiệu lực 10 năm với tùy chọn gia hạn khi duy trì đủ điều kiện',
       'Tỷ lệ thành công 92%'
     ],
-    linkText: 'Đọc Thêm',
+    linkText: 'Tìm hiểu thêm',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
-      alt: 'Dịch vụ Visa'
+      alt: 'Dịch vụ visa'
     }
   },
   {
     title: 'Khám phá thêm các dịch vụ doanh nghiệp của chúng tôi',
     details: '',
     items: [],
-    linkText: 'Đọc Thêm',
+    linkText: 'Tìm hiểu thêm',
     link: '../../company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
       dark: '/img/iStock-1160827423.avif',
-      alt: 'Các Dịch Vụ Khác'
+      alt: 'Các dịch vụ khác'
     }
   }
 ]" />
@@ -142,6 +141,6 @@ hero:
   ]"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Nhập cư UAE' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Nhập cư UAE' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Di trú UAE' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Di trú UAE' },
 ]"/> -->

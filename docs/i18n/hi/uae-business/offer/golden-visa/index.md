@@ -30,7 +30,7 @@ hero:
       'माता-पिता का प्रायोजन शामिल',
       'किसी प्रायोजक या नियोक्ता की आवश्यकता नहीं'
     ],
-    linkText: 'और पढ़ें',
+    linkText: 'और जानें',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
     icon: {
       light: '/img/iStock-1785818081.avif',
@@ -49,7 +49,7 @@ hero:
       'कुशल पेशेवर',
       'प्रतिभाशाली व्यक्ति'
     ],
-    linkText: 'और पढ़ें',
+    linkText: 'और जानें',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -69,7 +69,7 @@ hero:
       'एमिरेट्स आईडी और वीज़ा जारी करना',
       'परिवार वीज़ा प्रायोजन (वैकल्पिक)'
     ],
-    linkText: 'और पढ़ें',
+    linkText: 'और जानें',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',

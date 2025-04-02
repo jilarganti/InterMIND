@@ -29,13 +29,13 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Şirket Kurulum Rehberi',
-    details: '**Free zone, offshore, mainland, branch** şirketleri kurma rehberi.',
+    details: '**Free zone, offshore, mainland, branch** şirketleri kurma konusunda eksiksiz rehber.',
     items: [
       'Free Zone ve Mainland\'de %100 Yabancı Mülkiyet mümkün',
       'Düşük Vergi Oranları - sadece %9 kurumlar vergisi',
       'Döviz Kontrolü Yok - kolay sermaye transferi'
     ],
-    linkText: 'Devamını Oku',
+    linkText: 'Daha fazla bilgi',
     link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -45,13 +45,13 @@ hero:
   },
   {
     title: 'Banka Hesabı Açma',
-    details: 'BAE\'nin güvenilir bankalarında kolayca ticari veya kişisel **banka hesapları** açın.',
+    details: 'BAE\'nin güvenilir bankalarında kolayca ticari veya bireysel banka hesabı açın.',
     items: [
       'Devlet onayları için eksiksiz PRO hizmetleri',
       'Tam bankacılık paketi kurulumu',
-      '%96 başarı oranı',
+      '**%96 başarı oranı**',
     ],
-    linkText: 'Devamını Oku',
+    linkText: 'Daha fazla bilgi',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -61,13 +61,13 @@ hero:
   },
   {
     title: 'Golden Visa ve İkamet',
-    details: 'Sorunsuz bir başvuru süreciyle uzun süreli ikamet için BAE **Golden Visa** alın.',
+    details: 'Sorunsuz bir başvuru süreciyle uzun süreli ikamet için **Golden Visa** alın.',
     items: [
       '**Her 6 ayda bir BAE\'ye girme zorunluluğu yok**',
-      'Gerekli şartların sağlanması durumunda yenileme seçeneğiyle 10 yıl geçerlilik',
+      'Gerekli şartların korunması halinde yenileme seçeneğiyle 10 yıl geçerlilik',
       '%92 başarı oranı',
     ],
-    linkText: 'Devamını Oku',
+    linkText: 'Daha fazla bilgi',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -82,7 +82,7 @@ hero:
     title: 'Uyum Hizmetleri',
     details: 'Uzmanlarımız, ESR raporları ve UBO bildirimleri dahil karmaşık BAE düzenleyici gereklilikleri konusunda size rehberlik eder.',
     items: [],
-    linkText: 'Devamını Oku',
+    linkText: 'Daha fazla bilgi',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -92,9 +92,9 @@ hero:
   },
   {
     title: 'Kurumlar Vergisi ve KDV',
-    details: 'Federal Vergi Kurumu (FTA) ile Kurumlar Vergisi ve KDV yükümlülüklerine uyum konusunda uzman danışmanlık.',
+    details: 'Uzman danışmanlık, Federal Vergi Kurumu (FTA) ile Kurumlar Vergisi ve KDV yükümlülüklerine uyumu sağlar.',
     items: [],
-    linkText: 'Devamını Oku',
+    linkText: 'Daha fazla bilgi',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -104,9 +104,9 @@ hero:
   },
   {
     title: 'Hukuki Hizmetler',
-    details: 'Hukuk ekibimiz, şirket birleşme ve satın almaları, kurumsal yeniden yapılandırma, finansman ve uyuşmazlık çözümü konularında BAE yasaları hakkında danışmanlık verir.',
+    details: 'Hukuk ekibimiz, birleşme ve satın almalar, kurumsal yeniden yapılandırma, finansman ve uyuşmazlık çözümü konularında BAE yasaları hakkında danışmanlık verir.',
     items: [],
-    linkText: 'Devamını Oku',
+    linkText: 'Daha fazla bilgi',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -116,9 +116,9 @@ hero:
   },
   {
     title: 'Muhasebe ve Bordro',
-    details: 'Muhasebecilerimiz, işe alım maliyetlerinden tasarruf sağlayarak defter tutma, mutabakat, bordro ve denetim desteği sağlar.',
+    details: 'Muhasebecilerimiz, işe alım maliyetlerinden tasarruf sağlayarak defter tutma, mutabakat, bordro ve denetim desteği sağlayarak finansları yönetir.',
     items: [],
-    linkText: 'Devamını Oku',
+    linkText: 'Daha fazla bilgi',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
