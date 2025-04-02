@@ -76,7 +76,6 @@ const bulletStyle = computed(() => props.bullet || "•")
 
     <a v-if="linkHref" @click.prevent="handleCardClick" href="#" class="feature-link" :class="{ 'is-clickable': linkHref }">
       {{ linkText }}
-      <span class="arrow">→</span>
     </a>
   </div>
 </template>
@@ -197,9 +196,6 @@ const bulletStyle = computed(() => props.bullet || "•")
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  color: var(--vp-c-brand);
-  text-decoration: none;
-  font-weight: 500;
   margin-top: auto;
   position: relative;
   z-index: 1;
@@ -209,16 +205,5 @@ const bulletStyle = computed(() => props.bullet || "•")
   cursor: pointer;
 }
 
-.feature-link:hover {
-  text-decoration: underline;
-  color: var(--vp-hl-color);
-}
-
-.arrow {
-  transition: transform 0.2s;
-}
-
-.feature-link:hover .arrow {
-  transform: translateX(4px);
-}
+/* Удалены стили ссылок, так как они теперь определены глобально */
 </style>

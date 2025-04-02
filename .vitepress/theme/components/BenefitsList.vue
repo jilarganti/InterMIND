@@ -12,11 +12,6 @@ const props = defineProps<{
   features: Feature[]
 }>()
 
-// Обработка текста через маркдаун или через замену **текст** на <span class="hl">текст</span>
-// const processText = (text: string) => {
-//   return text.replace(/\*\*(.*?)\*\*/g, '<span class="hl">$1</span>')
-// }
-
 // Рендеринг заголовков через маркдаун
 const renderedTitles = computed(() => {
   return props.features.map((feature) => renderMarkdown(feature.title))
@@ -61,10 +56,6 @@ const renderedTexts = computed(() => {
   gap: 16px;
 }
 
-/* .benefit-card:hover {
-  border-color: var(--vp-hl-color);
-} */
-
 .emoji {
   font-size: 3rem;
 }
@@ -101,6 +92,8 @@ const renderedTexts = computed(() => {
 .text :deep(strong) {
   color: var(--vp-hl-color);
 }
+
+/* Удалены стили ссылок, так как они теперь определены глобально */
 
 @media (max-width: 960px) {
   .benefits-grid {
