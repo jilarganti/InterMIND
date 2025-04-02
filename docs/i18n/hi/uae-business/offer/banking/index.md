@@ -30,7 +30,7 @@ hero:
       'बैंक से सीधा संवाद रणनीति',
       'संपूर्ण बैंकिंग पैकेज सेटअप'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -51,7 +51,7 @@ hero:
       'नियमित अनुपालन अपडेट और ऑडिट',
       'खाता सुरक्षा के लिए आकस्मिक योजना'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -70,7 +70,7 @@ hero:
       'कर्मचारी वीजा और श्रम कानून अनुपालन',
       'नियामक अपडेट पर प्रशिक्षण कार्यशालाएं'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -89,7 +89,7 @@ hero:
       'सरकार समर्थित बैंकिंग प्रणाली',
       'विश्व स्तरीय डिजिटल बैंकिंग'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',

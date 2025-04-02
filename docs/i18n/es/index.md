@@ -35,7 +35,7 @@ hero:
       'Tasas Impositivas Bajas - solo 9% de impuesto corporativo',
       'Sin Control de Divisas - fácil repatriación de capital'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -51,7 +51,7 @@ hero:
       'Configuración completa del paquete bancario',
       '96% de tasa de éxito',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -67,7 +67,7 @@ hero:
       'Validez de 10 años con opción de renovación al mantener las condiciones de calificación',
       '92% de tasa de éxito',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -82,7 +82,7 @@ hero:
     title: 'Servicios de Cumplimiento',
     details: 'Nuestros expertos le guían a través de los complejos requisitos regulatorios de EAU, incluyendo informes ESR y presentaciones UBO.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -94,7 +94,7 @@ hero:
     title: 'Impuesto Corporativo y VAT',
     details: 'Asesoramiento experto asegura el cumplimiento de las obligaciones de Impuesto Corporativo y VAT con la Autoridad Federal de Impuestos (FTA).',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -106,7 +106,7 @@ hero:
     title: 'Servicios Legales',
     details: 'El equipo legal asesora sobre las leyes de EAU relacionadas con fusiones y adquisiciones, reestructuración corporativa, financiamiento y resolución de disputas.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -118,7 +118,7 @@ hero:
     title: 'Contabilidad y Nómina',
     details: 'Nuestros contadores gestionan las finanzas, proporcionando contabilidad, conciliación, nómina y apoyo de auditoría, ahorrando costos de contratación.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',

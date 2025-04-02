@@ -30,7 +30,7 @@ hero:
       '부모 스폰서십 포함',
       '스폰서 또는 고용주 불필요'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
     icon: {
       light: '/img/iStock-1785818081.avif',
@@ -49,7 +49,7 @@ hero:
       '전문 기술직 종사자',
       '특별 재능 보유자'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -69,7 +69,7 @@ hero:
       'Emirates ID 및 비자 발급',
       '가족 비자 스폰서십 (선택사항)'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',

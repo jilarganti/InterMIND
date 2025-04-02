@@ -30,7 +30,7 @@ hero:
       'Patrocínio de pais incluído',
       'Não é necessário patrocinador ou empregador'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
     icon: {
       light: '/img/iStock-1785818081.avif',
@@ -49,7 +49,7 @@ hero:
       'Profissionais Qualificados',
       'Talentos Excepcionais'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -69,7 +69,7 @@ hero:
       'Emissão do Emirates ID e visto',
       'Patrocínio de visto familiar (opcional)'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',

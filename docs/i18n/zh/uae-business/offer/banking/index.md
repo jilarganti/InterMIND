@@ -30,7 +30,7 @@ hero:
       '直接银行沟通策略',
       '完整银行服务包设置'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -51,7 +51,7 @@ hero:
       '定期合规更新和审计',
       '账户安全应急计划'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -70,7 +70,7 @@ hero:
       '员工签证和劳动法合规',
       '监管更新培训研讨会'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -89,7 +89,7 @@ hero:
       '政府支持的银行体系',
       '世界级数字银行服务'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',

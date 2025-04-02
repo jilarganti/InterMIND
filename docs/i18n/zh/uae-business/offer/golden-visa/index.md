@@ -30,7 +30,7 @@ hero:
       '包含父母担保',
       '无需担保人或雇主'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
     icon: {
       light: '/img/iStock-1785818081.avif',
@@ -49,7 +49,7 @@ hero:
       '技术专业人才',
       '天才人才'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -69,7 +69,7 @@ hero:
       '阿联酋身份证和签证签发',
       '家庭签证担保（可选）'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',

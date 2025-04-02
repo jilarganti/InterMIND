@@ -30,7 +30,7 @@ hero:
       'Ebeveyn sponsorluğu dahil',
       'Sponsor veya işveren gerekli değil'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
     icon: {
       light: '/img/iStock-1785818081.avif',
@@ -49,7 +49,7 @@ hero:
       'Vasıflı Profesyoneller',
       'Üstün yetenekli kişiler'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -69,7 +69,7 @@ hero:
       'Emirates ID ve vize düzenleme',
       'Aile vizesi sponsorluğu (opsiyonel)'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',

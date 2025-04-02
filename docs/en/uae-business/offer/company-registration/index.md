@@ -5,9 +5,9 @@ description: "Revolutionary UAE company formation model: you pay only after succ
 showSponsors: false
 
 hero:
-  name: "UAE Company Formation: The No-Risk Way"
+  name: "UAE Company Formation: We Share Your Risk"
   # text: Payment by results
-  tagline: "Set up your business with confidence. <span class='hl'>Zero agent fees until approval</span>. Expert guidance guaranteed."
+  tagline: "Grow your business with peace of mind. <span class='hl'>Zero agent fees until approval</span>. We don't get paid until you get results."
   image:
     light:
       src: /img/Logo.avif
@@ -19,7 +19,7 @@ hero:
 ---
 
 <FeatureBlock :card="{
-  title: 'Benefits of UAE Business',
+  title: 'Your Advantages — Our Responsibility',
   details: 'The UAE offers numerous advantages for international entrepreneurs and investors seeking a favorable business environment. \n\n* Low Tax Rates: Just 9% corporate tax and 5% VAT with no personal income tax\n* 100% Foreign Ownership: Complete control of your company without local partners\n* No Currency Controls: Unrestricted profit repatriation and currency exchange\n\n[Show complete list](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
@@ -31,7 +31,7 @@ hero:
 }" />
 
 <FeatureBlock :card="{
-  title: 'Challenges to Consider',
+  title: 'Challenges We Tackle Together',
   details: 'While the UAE offers many benefits, businesses should be aware of potential challenges when establishing operations. \n\n* Complex Regulatory Environment: Different regulations across emirates and free zones\n* Economic Substance Requirements: Local staff and physical office space needed for certain activities\n* High Initial Costs: Registration fees, documentation, and mandatory office rentals\n\n[Show complete list](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
@@ -43,8 +43,8 @@ hero:
 }" />
 
 <FeatureBlock :card="{
-  title: 'Company Setup Guide',
-  details: 'Complete guide to setup companies in the **free zone, offshore, mainland, branch**. \n\n* 100% Foreign Ownership available in Free Zones and Mainland\n* Low Tax Rates - only 9% corporate tax\n* No Currency Controls - easy capital repatriation\n\n[Read More](/uae-business/company-registration/overview)',
+  title: 'Complete Support: Step by Step With You',
+  details: 'Complete guide to setup companies in the **free zone, offshore, mainland, branch**. \n\n* 100% Foreign Ownership available in Free Zones and Mainland\n* Low Tax Rates - only 9% corporate tax\n* No Currency Controls - easy capital repatriation\n\n[Learn more](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -63,7 +63,7 @@ hero:
       'Complete banking package setup',
       '96% success rate'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -79,7 +79,7 @@ hero:
       '10-year validity with the option for renewal upon maintaining qualifying conditions',
       '92% success rate'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -91,7 +91,7 @@ hero:
     title: 'Explore more of our corporate services',
     details: '',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',

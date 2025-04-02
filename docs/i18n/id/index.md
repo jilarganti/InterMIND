@@ -35,7 +35,7 @@ hero:
       'Tarif Pajak Rendah - hanya 9% pajak perusahaan',
       'Tidak Ada Kontrol Mata Uang - repatriasi modal mudah'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -51,7 +51,7 @@ hero:
       'Pengaturan paket perbankan lengkap',
       'Tingkat keberhasilan 96%',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -67,7 +67,7 @@ hero:
       'Masa berlaku 10 tahun dengan opsi perpanjangan dengan mempertahankan syarat kualifikasi',
       'Tingkat keberhasilan 92%',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -82,7 +82,7 @@ hero:
     title: 'Layanan Kepatuhan',
     details: 'Para ahli kami membimbing Anda melalui persyaratan regulasi UAE yang kompleks, termasuk laporan ESR dan pengajuan UBO.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -94,7 +94,7 @@ hero:
     title: 'Pajak Perusahaan & PPN',
     details: 'Saran ahli memastikan kepatuhan terhadap kewajiban Pajak Perusahaan dan PPN dengan Federal Tax Authority (FTA).',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -106,7 +106,7 @@ hero:
     title: 'Layanan Hukum',
     details: 'Tim hukum memberikan saran tentang hukum UAE mengenai M&A, restrukturisasi perusahaan, pembiayaan, dan penyelesaian sengketa.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -118,7 +118,7 @@ hero:
     title: 'Akuntansi & Penggajian',
     details: 'Akuntan kami mengelola keuangan, menyediakan pembukuan, rekonsiliasi, penggajian, dan dukungan audit, menghemat biaya perekrutan.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',

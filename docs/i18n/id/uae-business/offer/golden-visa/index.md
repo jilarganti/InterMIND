@@ -30,7 +30,7 @@ hero:
       'Termasuk sponsor orang tua',
       'Tidak memerlukan sponsor atau pemberi kerja'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
     icon: {
       light: '/img/iStock-1785818081.avif',
@@ -49,7 +49,7 @@ hero:
       'Profesional Terampil',
       'Orang berbakat jenius'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -69,7 +69,7 @@ hero:
       'Penerbitan Emirates ID dan visa',
       'Sponsor visa keluarga (opsional)'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',

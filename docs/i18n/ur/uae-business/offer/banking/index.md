@@ -30,7 +30,7 @@ hero:
       'بینک سے براہ راست رابطے کی حکمت عملی',
       'مکمل بینکنگ پیکج سیٹ اپ'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -51,7 +51,7 @@ hero:
       'باقاعدہ کمپلائنس اپ ڈیٹس اور آڈٹس',
       'اکاؤنٹ سیکیورٹی کے لیے ہنگامی منصوبہ بندی'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -70,7 +70,7 @@ hero:
       'ملازم ویزا اور لیبر قانون کمپلائنس',
       'ریگولیٹری اپ ڈیٹس پر تربیتی ورکشاپس'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -89,7 +89,7 @@ hero:
       'حکومت کی پشت پناہی والا بینکنگ نظام',
       'عالمی معیار کی ڈیجیٹل بینکنگ'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',

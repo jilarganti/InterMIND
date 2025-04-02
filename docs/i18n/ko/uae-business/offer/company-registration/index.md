@@ -63,7 +63,7 @@ hero:
       '완벽한 뱅킹 패키지 설정',
       '96% 성공률'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -79,7 +79,7 @@ hero:
       '자격 조건 유지 시 10년 유효 및 갱신 옵션',
       '92% 성공률'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -91,7 +91,7 @@ hero:
     title: '더 많은 기업 서비스 살펴보기',
     details: '',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',

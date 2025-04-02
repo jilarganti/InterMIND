@@ -32,7 +32,7 @@ hero:
       'কম ট্যাক্স হার - মাত্র 9% কর্পোরেট ট্যাক্স',
       'কোন মুদ্রা নিয়ন্ত্রণ নেই - সহজ মূলধন প্রত্যাবাসন'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -48,7 +48,7 @@ hero:
       'সম্পূর্ণ ব্যাংকিং প্যাকেজ সেটআপ',
       '96% সাফল্যের হার',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -64,7 +64,7 @@ hero:
       'যোগ্যতার শর্তাবলী বজায় রেখে 10 বছরের বৈধতা এবং নবায়নের সুযোগ',
       '92% সাফল্যের হার',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -79,7 +79,7 @@ hero:
     title: 'কমপ্লায়েন্স সেবা',
     details: 'আমাদের বিশেষজ্ঞরা আপনাকে ESR রিপোর্ট এবং UBO ফাইলিং সহ জটিল UAE নিয়ন্ত্রক প্রয়োজনীয়তাগুলি পূরণে সহায়তা করে।',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -91,7 +91,7 @@ hero:
     title: 'কর্পোরেট ট্যাক্স এবং VAT',
     details: 'Federal Tax Authority (FTA)-এর সাথে কর্পোরেট ট্যাক্স এবং VAT বাধ্যবাধকতা মেনে চলার বিশেষজ্ঞ পরামর্শ।',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -103,7 +103,7 @@ hero:
     title: 'আইনি সেবা',
     details: 'আইনি দল M&A, কর্পোরেট পুনর্গঠন, অর্থায়ন এবং বিরোধ নিষ্পত্তি সংক্রান্ত UAE-এর আইন সম্পর্কে পরামর্শ দেয়।',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -115,7 +115,7 @@ hero:
     title: 'অ্যাকাউন্টিং এবং পেরোল',
     details: 'আমাদের অ্যাকাউন্টেন্টরা বুককিপিং, রিকনসিলিয়েশন, পেরোল এবং অডিট সাপোর্ট প্রদান করে অর্থ ব্যবস্থাপনা করে, নিয়োগ খরচ সাশ্রয় করে।',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',

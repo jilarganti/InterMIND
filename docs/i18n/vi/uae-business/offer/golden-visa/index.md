@@ -30,7 +30,7 @@ hero:
       'Bao gồm bảo lãnh cha mẹ',
       'Không cần người bảo lãnh hoặc chủ lao động'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
     icon: {
       light: '/img/iStock-1785818081.avif',
@@ -49,7 +49,7 @@ hero:
       'Chuyên gia có kỹ năng',
       'Tài năng xuất chúng'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -69,7 +69,7 @@ hero:
       'Cấp Emirates ID và thị thực',
       'Bảo lãnh thị thực gia đình (tùy chọn)'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',

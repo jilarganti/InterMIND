@@ -24,7 +24,6 @@ hero:
       src: /img/Logo.avif
       width: 40%
     alt: Golden Fish标志
-
 ---
 
 <FeatureCards :features="[
@@ -36,7 +35,7 @@ hero:
       '低税率 - 仅9%企业所得税',
       '无外汇管制 - 资金汇出便捷'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -52,7 +51,7 @@ hero:
       '完整的银行开户套餐',
       '96%成功率',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -68,7 +67,7 @@ hero:
       '10年有效期，符合条件可续签',
       '92%成功率',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -83,7 +82,7 @@ hero:
     title: '合规服务',
     details: '我们的专家指导您完成复杂的阿联酋监管要求，包括ESR报告和UBO申报。',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -95,7 +94,7 @@ hero:
     title: '企业税务和增值税',
     details: '专业建议确保符合联邦税务局(FTA)的企业税和增值税义务。',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -107,7 +106,7 @@ hero:
     title: '法律服务',
     details: '法律团队就并购、公司重组、融资和争议解决等阿联酋法律提供咨询。',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -119,7 +118,7 @@ hero:
     title: '会计和工资服务',
     details: '我们的会计师管理财务，提供记账、对账、工资和审计支持，节省雇佣成本。',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',

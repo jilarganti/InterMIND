@@ -7,7 +7,7 @@ showSponsors: false
 hero:
   name: "یو اے ای گولڈن ویزا"
   text: "نتائج پر ادائیگی"
-  tagline: "10 سالہ رہائش۔ <span class=\"hl\">کوئی پیشگی فیس نہیں</span> - صرف منظوری کے بعد ادائیگی۔ 98% کامیابی کی شرح۔"
+  tagline: '10 سالہ رہائش۔ <span class="hl">کوئی پیشگی فیس نہیں</span> - صرف منظوری کے بعد ادائیگی۔ 98% کامیابی کی شرح۔'
   image:
     light:
       src: /img/Logo.avif
@@ -30,7 +30,7 @@ hero:
       'والدین کی اسپانسرشپ شامل',
       'کسی اسپانسر یا آجر کی ضرورت نہیں'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
     icon: {
       light: '/img/iStock-1785818081.avif',
@@ -49,7 +49,7 @@ hero:
       'ماہر پیشہ ور افراد',
       'فنکار اور صلاحیتوں کے مالک'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -69,7 +69,7 @@ hero:
       'امارات شناختی کارڈ اور ویزا کا اجراء',
       'خاندانی ویزا اسپانسرشپ (اختیاری)'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',

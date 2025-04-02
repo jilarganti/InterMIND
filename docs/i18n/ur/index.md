@@ -32,7 +32,7 @@ hero:
       'کم ٹیکس شرح - صرف 9% کارپوریٹ ٹیکس',
       'کرنسی کنٹرول نہیں - آسان سرمایہ کی واپسی'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -48,7 +48,7 @@ hero:
       'مکمل بینکنگ پیکیج سیٹ اپ',
       '96% کامیابی کی شرح',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -64,7 +64,7 @@ hero:
       'اہلیت کی شرائط برقرار رکھنے پر تجدید کے اختیار کے ساتھ 10 سال کی مدت',
       '92% کامیابی کی شرح',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -79,7 +79,7 @@ hero:
     title: 'تعمیل کی خدمات',
     details: 'ہمارے ماہرین آپ کو ESR رپورٹس اور UBO فائلنگز سمیت متحدہ عرب امارات کے پیچیدہ ریگولیٹری تقاضوں میں رہنمائی کرتے ہیں۔',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -91,7 +91,7 @@ hero:
     title: 'کارپوریٹ ٹیکس اور VAT',
     details: 'فیڈرل ٹیکس اتھارٹی (FTA) کے ساتھ کارپوریٹ ٹیکس اور VAT کی ذمہ داریوں کی تعمیل کو یقینی بنانے کے لیے ماہرانہ مشورہ۔',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -103,7 +103,7 @@ hero:
     title: 'قانونی خدمات',
     details: 'قانونی ٹیم M&As، کارپوریٹ ری سٹرکچرنگ، فنانسنگ، اور تنازعات کے حل کے بارے میں متحدہ عرب امارات کے قوانین پر مشورہ دیتی ہے۔',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -115,7 +115,7 @@ hero:
     title: 'اکاؤنٹنگ اور پے رول',
     details: 'ہمارے اکاؤنٹنٹس مالیات کا انتظام کرتے ہیں، بک کیپنگ، مطابقت، پے رول، اور آڈٹ سپورٹ فراہم کرتے ہیں، بھرتی کی لاگت کو بچاتے ہیں۔',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',

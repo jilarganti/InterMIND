@@ -30,7 +30,7 @@ hero:
       'బ్యాంకుతో ప్రత్యక్ష కమ్యూనికేషన్ వ్యూహం',
       'పూర్తి బ్యాంకింగ్ ప్యాకేజీ సెటప్'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -51,7 +51,7 @@ hero:
       'క్రమం తప్పకుండా అనుసరణ నవీకరణలు మరియు ఆడిట్లు',
       'ఖాతా భద్రత కోసం కంటింజెన్సీ ప్లానింగ్'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -70,7 +70,7 @@ hero:
       'ఉద్యోగి వీసా మరియు కార్మిక చట్ట అనుసరణ',
       'నియంత్రణ నవీకరణలపై శిక్షణా కార్యశాలలు'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -89,7 +89,7 @@ hero:
       'ప్రభుత్వ మద్దతుతో బ్యాంకింగ్ వ్యవస్థ',
       'ప్రపంచ స్థాయి డిజిటల్ బ్యాంకింగ్'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',

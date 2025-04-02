@@ -32,7 +32,7 @@ hero:
       'குறைந்த வரி விகிதங்கள் - 9% நிறுவன வரி மட்டுமே',
       'நாணய கட்டுப்பாடுகள் இல்லை - எளிதான மூலதன திரும்பப்பெறுதல்'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -48,7 +48,7 @@ hero:
       'முழுமையான வங்கி தொகுப்பு அமைப்பு',
       '96% வெற்றி விகிதம்',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -64,7 +64,7 @@ hero:
       'தகுதி நிபந்தனைகளை பராமரிக்கும்போது புதுப்பிப்பு விருப்பத்துடன் 10 ஆண்டுகள் செல்லுபடியாகும்',
       '92% வெற்றி விகிதம்',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -79,7 +79,7 @@ hero:
     title: 'இணக்க சேவைகள்',
     details: 'ESR அறிக்கைகள் மற்றும் UBO தாக்கல்கள் உட்பட சிக்கலான UAE ஒழுங்குமுறை தேவைகள் குறித்து எங்கள் நிபுணர்கள் வழிகாட்டுகிறார்கள்.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -91,7 +91,7 @@ hero:
     title: 'நிறுவன வரி & VAT',
     details: 'Federal Tax Authority (FTA) உடன் நிறுவன வரி மற்றும் VAT கடமைகளுக்கு இணங்க நிபுணர் ஆலோசனை உறுதி செய்கிறது.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -103,7 +103,7 @@ hero:
     title: 'சட்ட சேவைகள்',
     details: 'M&As, நிறுவன மறுசீரமைப்பு, நிதியளிப்பு மற்றும் தகராறு தீர்வு தொடர்பான UAE சட்டங்கள் குறித்து சட்ட குழு ஆலோசனை வழங்குகிறது.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -115,7 +115,7 @@ hero:
     title: 'கணக்கியல் & ஊதியப்பட்டியல்',
     details: 'எங்கள் கணக்காளர்கள் நிதியை நிர்வகித்து, கணக்கு வைத்தல், சரிசெய்தல், ஊதியப்பட்டியல் மற்றும் தணிக்கை ஆதரவை வழங்கி, நியமன செலவுகளை சேமிக்கிறார்கள்.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',

@@ -30,7 +30,7 @@ hero:
       'മാതാപിതാക്കളുടെ സ്പോൺസർഷിപ്പ് ഉൾപ്പെടുന്നു',
       'സ്പോൺസറോ തൊഴിലുടമയോ ആവശ്യമില്ല'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
     icon: {
       light: '/img/iStock-1785818081.avif',
@@ -49,7 +49,7 @@ hero:
       'വിദഗ്ധ പ്രൊഫഷണലുകൾ',
       'പ്രതിഭാശാലികൾ'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -69,7 +69,7 @@ hero:
       'എമിറേറ്റ്സ് ഐഡിയും വിസ നൽകലും',
       'കുടുംബ വിസ സ്പോൺസർഷിപ്പ് (ഓപ്ഷണൽ)'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',

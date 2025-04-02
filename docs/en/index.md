@@ -35,7 +35,7 @@ hero:
       'Low Tax Rates - only 9% corporate tax',
       'No Currency Controls - easy capital repatriation'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -51,7 +51,7 @@ hero:
       'Complete banking package setup',
       '**96% success rate**',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -67,7 +67,7 @@ hero:
       '10-year validity with the option for renewal upon maintaining qualifying conditions',
       '92% success rate',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -82,7 +82,7 @@ hero:
     title: 'Compliance Services',
     details: 'Our experts guide you through complex UAE regulatory requirements, including ESR reports and UBO filings.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -94,7 +94,7 @@ hero:
     title: 'Corporate Tax & VAT',
     details: 'Expert advice ensures compliance with Corporate Tax and VAT obligations with the Federal Tax Authority (FTA).',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -106,7 +106,7 @@ hero:
     title: 'Legal Services',
     details: 'Legal team advises on UAE\'s laws regarding M&As, corporate restructuring, financing, and dispute resolution.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -118,7 +118,7 @@ hero:
     title: 'Accounting & Payroll',
     details: 'Our accountants manage finances, providing bookkeeping, reconciliation, payroll, and audit support, saving hiring costs.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',

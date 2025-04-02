@@ -30,7 +30,7 @@ hero:
       'ব্যাংকের সাথে সরাসরি যোগাযোগের কৌশল',
       'সম্পূর্ণ ব্যাংকিং প্যাকেজ সেটআপ'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -51,7 +51,7 @@ hero:
       'নিয়মিত কমপ্লায়েন্স আপডেট ও অডিট',
       'অ্যাকাউন্ট নিরাপত্তার জন্য জরুরি পরিকল্পনা'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -70,7 +70,7 @@ hero:
       'কর্মচারী ভিসা ও শ্রম আইন কমপ্লায়েন্স',
       'নিয়ন্ত্রক আপডেট সম্পর্কে প্রশিক্ষণ কর্মশালা'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -89,7 +89,7 @@ hero:
       'সরকার-সমর্থিত ব্যাংকিং সিস্টেম',
       'বিশ্বমানের ডিজিটাল ব্যাংকিং'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',

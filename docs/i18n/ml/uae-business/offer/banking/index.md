@@ -30,7 +30,7 @@ hero:
       'നേരിട്ടുള്ള ബാങ്ക് ആശയവിനിമയ തന്ത്രം',
       'പൂർണ്ണ ബാങ്കിംഗ് പാക്കേജ് സജ്ജീകരണം'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -51,7 +51,7 @@ hero:
       'നിയമിത കംപ്ലയൻസ് അപ്ഡേറ്റുകളും ഓഡിറ്റുകളും',
       'അക്കൗണ്ട് സുരക്ഷയ്ക്കായുള്ള കണ്ടിജൻസി പ്ലാനിംഗ്'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -70,7 +70,7 @@ hero:
       'ജീവനക്കാരുടെ വിസയും തൊഴിൽ നിയമ കംപ്ലയൻസും',
       'റെഗുലേറ്ററി അപ്ഡേറ്റുകളിൽ പരിശീലന വർക്ക്ഷോപ്പുകൾ'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -89,7 +89,7 @@ hero:
       'സർക്കാർ പിന്തുണയുള്ള ബാങ്കിംഗ് സിസ്റ്റം',
       'ലോകോത്തര ഡിജിറ്റൽ ബാങ്കിംഗ്'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',

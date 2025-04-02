@@ -30,7 +30,7 @@ hero:
       'Chiến lược giao tiếp trực tiếp với ngân hàng',
       'Thiết lập gói ngân hàng hoàn chỉnh'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -51,7 +51,7 @@ hero:
       'Cập nhật và kiểm toán tuân thủ định kỳ',
       'Lập kế hoạch dự phòng cho bảo mật tài khoản'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -70,7 +70,7 @@ hero:
       'Tuân thủ visa nhân viên và luật lao động',
       'Hội thảo đào tạo về cập nhật quy định'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -89,7 +89,7 @@ hero:
       'Hệ thống ngân hàng được chính phủ bảo đảm',
       'Ngân hàng số đẳng cấp thế giới'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',

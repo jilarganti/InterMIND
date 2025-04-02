@@ -30,7 +30,7 @@ hero:
       'Estrategia de comunicación directa con el banco',
       'Configuración completa del paquete bancario'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -51,7 +51,7 @@ hero:
       'Actualizaciones y auditorías regulares de cumplimiento',
       'Planificación de contingencia para seguridad de cuenta'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -70,7 +70,7 @@ hero:
       'Cumplimiento de visas de empleados y ley laboral',
       'Talleres de capacitación sobre actualizaciones regulatorias'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -89,7 +89,7 @@ hero:
       'Sistema bancario respaldado por el gobierno',
       'Banca digital de clase mundial'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',

@@ -30,7 +30,7 @@ hero:
       'Doğrudan banka iletişim stratejisi',
       'Eksiksiz bankacılık paketi kurulumu'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -51,7 +51,7 @@ hero:
       'Düzenli uyum güncellemeleri ve denetimler',
       'Hesap güvenliği için acil durum planlaması'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -70,7 +70,7 @@ hero:
       'Çalışan vizesi ve iş hukuku uyumu',
       'Düzenleyici güncellemeler hakkında eğitim çalıştayları'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -89,7 +89,7 @@ hero:
       'Devlet destekli bankacılık sistemi',
       'Dünya standartlarında dijital bankacılık'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',

@@ -30,7 +30,7 @@ hero:
       'Strategi komunikasi langsung dengan bank',
       'Pengaturan paket perbankan lengkap'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -51,7 +51,7 @@ hero:
       'Pembaruan dan audit kepatuhan rutin',
       'Perencanaan kontingensi untuk keamanan rekening'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -70,7 +70,7 @@ hero:
       'Kepatuhan visa karyawan dan hukum ketenagakerjaan',
       'Lokakarya pelatihan tentang pembaruan regulasi'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -89,7 +89,7 @@ hero:
       'Sistem perbankan yang didukung pemerintah',
       'Perbankan digital kelas dunia'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',

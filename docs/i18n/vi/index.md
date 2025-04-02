@@ -35,7 +35,7 @@ hero:
       'Thuế suất thấp - chỉ 9% thuế doanh nghiệp',
       'Không kiểm soát tiền tệ - dễ dàng chuyển vốn về nước'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -51,7 +51,7 @@ hero:
       'Thiết lập gói ngân hàng hoàn chỉnh',
       'Tỷ lệ thành công 96%',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -67,7 +67,7 @@ hero:
       'Hiệu lực 10 năm với tùy chọn gia hạn khi duy trì đủ điều kiện',
       'Tỷ lệ thành công 92%',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -82,7 +82,7 @@ hero:
     title: 'Dịch Vụ Tuân Thủ',
     details: 'Chuyên gia của chúng tôi hướng dẫn bạn qua các yêu cầu quy định phức tạp của UAE, bao gồm báo cáo ESR và hồ sơ UBO.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -94,7 +94,7 @@ hero:
     title: 'Thuế Doanh Nghiệp & VAT',
     details: 'Tư vấn chuyên môn đảm bảo tuân thủ nghĩa vụ Thuế Doanh Nghiệp và VAT với Cơ quan Thuế Liên bang (FTA).',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -106,7 +106,7 @@ hero:
     title: 'Dịch Vụ Pháp Lý',
     details: 'Đội ngũ pháp lý tư vấn về luật UAE liên quan đến M&A, tái cấu trúc doanh nghiệp, tài chính và giải quyết tranh chấp.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -118,7 +118,7 @@ hero:
     title: 'Kế Toán & Tiền Lương',
     details: 'Kế toán của chúng tôi quản lý tài chính, cung cấp dịch vụ ghi sổ, đối chiếu, tính lương và hỗ trợ kiểm toán, tiết kiệm chi phí tuyển dụng.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',

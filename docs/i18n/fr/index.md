@@ -35,7 +35,7 @@ hero:
       'Taux d\'imposition bas - seulement 9% d\'impôt sur les sociétés',
       'Pas de contrôle des changes - rapatriement facile des capitaux'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -51,7 +51,7 @@ hero:
       'Configuration complète du package bancaire',
       'Taux de réussite de 96%',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -67,7 +67,7 @@ hero:
       'Validité de 10 ans avec option de renouvellement sous conditions',
       'Taux de réussite de 92%',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -82,7 +82,7 @@ hero:
     title: 'Services de Conformité',
     details: 'Nos experts vous guident à travers les exigences réglementaires complexes des EAU, y compris les rapports ESR et les déclarations UBO.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -94,7 +94,7 @@ hero:
     title: 'Impôt sur les Sociétés et TVA',
     details: 'Conseils d\'experts pour assurer la conformité aux obligations d\'impôt sur les sociétés et de TVA auprès de l\'Autorité Fiscale Fédérale (FTA).',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -106,7 +106,7 @@ hero:
     title: 'Services Juridiques',
     details: 'L\'équipe juridique conseille sur les lois des EAU concernant les fusions-acquisitions, la restructuration d\'entreprise, le financement et la résolution des litiges.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -118,7 +118,7 @@ hero:
     title: 'Comptabilité et Paie',
     details: 'Nos comptables gèrent les finances, assurant la comptabilité, le rapprochement, la paie et le support d\'audit, économisant les coûts de recrutement.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',

@@ -32,7 +32,7 @@ hero:
       'తక్కువ పన్ను రేట్లు - కేవలం 9% కార్పొరేట్ పన్ను',
       'కరెన్సీ నియంత్రణలు లేవు - సులభమైన మూలధన స్వదేశానికి తిరిగి పంపడం'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -48,7 +48,7 @@ hero:
       'పూర్తి బ్యాంకింగ్ ప్యాకేజీ సెటప్',
       '96% విజయ శాతం',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -64,7 +64,7 @@ hero:
       'అర్హత పరిస్థితులను కొనసాగించడంతో పునరుద్ధరణ ఎంపికతో 10 సంవత్సరాల చెల్లుబాటు',
       '92% విజయ శాతం',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -79,7 +79,7 @@ hero:
     title: 'అనుసరణ సేవలు',
     details: 'ESR నివేదికలు మరియు UBO ఫైలింగ్‌లతో సహా క్లిష్టమైన యుఎఇ నియంత్రణ అవసరాల గుండా మా నిపుణులు మిమ్మల్ని మార్గనిర్దేశం చేస్తారు.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -91,7 +91,7 @@ hero:
     title: 'కార్పొరేట్ పన్ను & VAT',
     details: 'Federal Tax Authority (FTA)తో కార్పొరేట్ పన్ను మరియు VAT బాధ్యతలకు అనుగుణంగా నిపుణ సలహా నిర్ధారిస్తుంది.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -103,7 +103,7 @@ hero:
     title: 'చట్టపరమైన సేవలు',
     details: 'M&As, కార్పొరేట్ పునర్నిర్మాణం, ఆర్థిక సహాయం మరియు వివాద పరిష్కారం గురించి యుఎఇ చట్టాలపై చట్టపరమైన బృందం సలహా ఇస్తుంది.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -115,7 +115,7 @@ hero:
     title: 'అకౌంటింగ్ & పేరోల్',
     details: 'మా అకౌంటెంట్లు బుక్‌కీపింగ్, రీకన్సిలియేషన్, పేరోల్ మరియు ఆడిట్ మద్దతును అందించడం ద్వారా ఆర్థిక వ్యవహారాలను నిర్వహిస్తారు, నియామక ఖర్చులను ఆదా చేస్తారు.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',

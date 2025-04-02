@@ -35,7 +35,7 @@ hero:
       '낮은 세율 - 9% 법인세만 적용',
       '외환 통제 없음 - 자본 본국 송금 용이'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -51,7 +51,7 @@ hero:
       '완벽한 은행 패키지 설정',
       '96% 성공률',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -67,7 +67,7 @@ hero:
       '자격 조건 유지 시 10년 유효 및 갱신 옵션',
       '92% 성공률',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -82,7 +82,7 @@ hero:
     title: '규정 준수 서비스',
     details: '전문가들이 ESR 보고서와 UBO 신고를 포함한 복잡한 UAE 규제 요건을 안내해 드립니다.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -94,7 +94,7 @@ hero:
     title: '법인세 및 부가가치세',
     details: '연방세무청(FTA)의 법인세 및 부가가치세 의무를 준수하도록 전문가 조언 제공.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -106,7 +106,7 @@ hero:
     title: '법률 서비스',
     details: '법률팀이 M&A, 기업 구조조정, 자금 조달 및 분쟁 해결에 관한 UAE 법률 자문 제공.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -118,7 +118,7 @@ hero:
     title: '회계 및 급여',
     details: '회계사들이 장부 기장, 조정, 급여 및 감사 지원을 제공하여 채용 비용을 절감합니다.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',

@@ -35,7 +35,7 @@ hero:
       'Низкие налоговые ставки - всего 9% корпоративного налога',
       'Отсутствие валютного контроля - легкая репатриация капитала'
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -51,7 +51,7 @@ hero:
       'Комплексная настройка банковского обслуживания',
       '96% успешных случаев',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -67,7 +67,7 @@ hero:
       '10-летний срок действия с возможностью продления при сохранении квалификационных условий',
       '92% успешных случаев',
     ],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -82,7 +82,7 @@ hero:
     title: 'Услуги по комплаенс',
     details: 'Наши эксперты проведут вас через сложные нормативные требования ОАЭ, включая отчеты ESR и подачи UBO.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -94,7 +94,7 @@ hero:
     title: 'Корпоративный налог и НДС',
     details: 'Экспертные консультации обеспечивают соответствие обязательствам по корпоративному налогу и НДС перед Федеральным налоговым органом (FTA).',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -106,7 +106,7 @@ hero:
     title: 'Юридические услуги',
     details: 'Юридическая команда консультирует по законодательству ОАЭ в области слияний и поглощений, корпоративной реструктуризации, финансирования и разрешения споров.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -118,7 +118,7 @@ hero:
     title: 'Бухгалтерия и расчет зарплаты',
     details: 'Наши бухгалтеры управляют финансами, ведут бухгалтерский учет, сверку, расчет зарплаты и поддержку аудита, экономя на затратах на персонал.',
     items: [],
-    linkText: 'Read More',
+    linkText: 'Learn more',
     link: './resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
