@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"সংযুক্ত আরব আমিরাতে ব্যবসা স্থাপন এবং বৃদ্ধি সহজীকরণ","description":"","frontmatter":{"head":[["meta",{"name":"robots","content":"noindex"}]]},"headers":[],"params":{},"relativePath":"bn/resources/about.md","filePath":"i18n/bn/resources/about.md","lastUpdated":1742883140000}');
+const _sfc_main = { name: "bn/resources/about.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="সংযুক্ত-আরব-আমিরাতে-ব্যবসা-স্থাপন-এবং-বৃদ্ধি-সহজীকরণ" tabindex="-1">সংযুক্ত আরব আমিরাতে ব্যবসা স্থাপন এবং বৃদ্ধি সহজীকরণ <a class="header-anchor" href="#সংযুক্ত-আরব-আমিরাতে-ব্যবসা-স্থাপন-এবং-বৃদ্ধি-সহজীকরণ" aria-label="Permalink to &quot;সংযুক্ত আরব আমিরাতে ব্যবসা স্থাপন এবং বৃদ্ধি সহজীকরণ&quot;">​</a></h1><p>GOLDEN FISH সংযুক্ত আরব আমিরাতে তাদের উপস্থিতি স্থাপন বা সম্প্রসারণ করতে চাওয়া ব্যবসা এবং পেশাদারদের জন্য ব্যাপক সহায়তা প্রদান করে। আমাদের লক্ষ্য হল স্থানান্তর, কমপ্লায়েন্স, ব্যবসায়িক পরামর্শ এবং চলমান ব্যবস্থাপনার জটিল প্রক্রিয়াগুলি সহজ করা, যা আমাদের ক্লায়েন্টদের জন্য একটি সুচারু এবং দক্ষ অভিজ্ঞতা নিশ্চিত করে।</p><div class="info custom-block github-alert"><p class="custom-block-title">আমাদের দৃষ্টিভঙ্গি</p><p>বিশেষজ্ঞ নির্দেশনা এবং নির্ভরযোগ্য সহায়তা প্রদানের মাধ্যমে সংযুক্ত আরব আমিরাতে সফল উপস্থিতি স্থাপন করতে চাওয়া ব্যবসা এবং পেশাদারদের জন্য একটি বিশ্বস্ত অংশীদার হয়ে ওঠা।</p></div><div class="info custom-block github-alert"><p class="custom-block-title">আমাদের লক্ষ্য</p><p>স্থানান্তর এবং ব্যবসা স্থাপনের প্রক্রিয়া সহজ করা, আমাদের ক্লায়েন্টদের বৃদ্ধি এবং সাফল্যের উপর মনোনিবেশ করতে সক্ষম করা।</p></div><h3 id="কোম্পানির-কৌশল" tabindex="-1">কোম্পানির কৌশল <a class="header-anchor" href="#কোম্পানির-কৌশল" aria-label="Permalink to &quot;কোম্পানির কৌশল&quot;">​</a></h3><ul><li><strong>ক্লায়েন্ট-কেন্দ্রিক পদ্ধতি</strong>: আমরা প্রতিটি ক্লায়েন্টের নির্দিষ্ট চাহিদা এবং লক্ষ্যের জন্য কাস্টমাইজড সমাধান প্রদান করি, সুচারু ব্যবসায়িক পরিবর্তন নিশ্চিত করি।</li><li><strong>পরিচালনাগত শ্রেষ্ঠত্ব</strong>: স্থানীয় বিশেষজ্ঞতা এবং দক্ষ প্রক্রিয়া ব্যবহার করে, আমরা ক্লায়েন্টদের সংযুক্ত আরব আমিরাতের ব্যবসায়িক পরিবেশের জটিলতা নেভিগেট করতে সাহায্য করি, সময় এবং প্রচেষ্টা কমিয়ে।</li><li><strong>টেকসই বৃদ্ধি</strong>: আমরা ধারাবাহিক, উচ্চ-মানের পরিষেবা প্রদানের মাধ্যমে আমাদের ক্লায়েন্টদের সাথে দীর্ঘমেয়াদী সম্পর্ক গড়ে তোলার উপর ফোকাস করি যা সাফল্য এবং বৃদ্ধিকে উৎসাহিত করে।</li></ul><h3 id="আমাদের-সেবাসমূহ" tabindex="-1">আমাদের সেবাসমূহ <a class="header-anchor" href="#আমাদের-সেবাসমূহ" aria-label="Permalink to &quot;আমাদের সেবাসমূহ&quot;">​</a></h3><ul><li><strong>ব্যবসা স্থানান্তর</strong>: সংযুক্ত আরব আমিরাতে আপনার ব্যবসা স্থাপনে বিশেষজ্ঞ সহায়তা।</li><li><strong>পরামর্শ</strong>: প্রয়োজনীয় ডকুমেন্টেশন পাওয়ার জন্য পেশাদার সহায়তা।</li><li><strong>ব্যবসায়িক সহায়তা</strong>: আপনার ব্যবসার সাফল্য এবং বৃদ্ধিতে সহায়তা করার জন্য চলমান পরিচালনাগত সহায়তা।</li></ul><div class="important custom-block github-alert"><p class="custom-block-title">আমাদেরকে কেন বেছে নেবেন?</p><p>জ্ঞানী পেশাদারদের একটি দল এবং ব্যক্তিগতকৃত পরিষেবার প্রতি প্রতিশ্রুতির সাথে, আমরা ক্লায়েন্টদের জন্য একটি সুচারু এবং দক্ষ অভিজ্ঞতা নিশ্চিত করি, যা তাদেরকে সবচেয়ে গুরুত্বপূর্ণ বিষয়ে ফোকাস করতে দেয় - সংযুক্ত আরব আমিরাতে তাদের ব্যবসা বৃদ্ধি করা।</p></div><hr><p><strong>Anastasia Khurtina</strong><br> পরিচালক</p></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("i18n/bn/resources/about.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const about = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  about as default
+};

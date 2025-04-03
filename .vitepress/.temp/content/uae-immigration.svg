@@ -1,0 +1,66 @@
+<svg viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="700" fill="#f0f4f8"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#2c3e50">
+    UAE Immigration: Key Differences
+  </text>
+
+  <!-- Benefits Section -->
+  <rect x="50" y="100" width="340" height="450" rx="10" fill="#2ecc71" opacity="0.2"/>
+  <text x="70" y="140" text-anchor="start" font-size="20" font-weight="bold" fill="#27ae60">
+    Top 5 Benefits
+  </text>
+  
+  <!-- Benefit Items -->
+  <text x="70" y="190" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">1. Low Tax Rates</text>
+  <text x="90" y="210" text-anchor="start" font-size="15" fill="#2c3e50">• No personal income tax</text>
+  <text x="90" y="230" text-anchor="start" font-size="15" fill="#2c3e50">• 9% corporate tax only</text>
+  
+  <text x="70" y="270" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">2. 100% Foreign Ownership</text>
+  <text x="90" y="290" text-anchor="start" font-size="15" fill="#2c3e50">• Free Zones and Mainland</text>
+  <text x="90" y="310" text-anchor="start" font-size="15" fill="#2c3e50">• No local partner needed</text>
+  
+  <text x="70" y="350" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">3. No Currency Controls</text>
+  <text x="90" y="370" text-anchor="start" font-size="15" fill="#2c3e50">• Free capital movement</text>
+  
+  <text x="70" y="410" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">4. Banking Infrastructure</text>
+  <text x="90" y="430" text-anchor="start" font-size="15" fill="#2c3e50">• 50+ local and foreign banks</text>
+  
+  <text x="70" y="470" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">5. CIS-Friendly</text>
+  <text x="90" y="490" text-anchor="start" font-size="15" fill="#2c3e50">• Russian-speaking community</text>
+
+  <!-- Disadvantages Section -->
+  <rect x="410" y="100" width="340" height="450" rx="10" fill="#e74c3c" opacity="0.2"/>
+  <text x="430" y="140" text-anchor="start" font-size="20" font-weight="bold" fill="#c0392b">
+    Top 5 Disadvantages
+  </text>
+  
+  <!-- Disadvantage Items -->
+  <text x="430" y="190" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">1. High Cost of Living</text>
+  <text x="450" y="210" text-anchor="start" font-size="15" fill="#2c3e50">• Expensive housing</text>
+  <text x="450" y="230" text-anchor="start" font-size="15" fill="#2c3e50">• Premium lifestyle costs</text>
+  
+  <text x="430" y="270" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">2. Complex Setup</text>
+  <text x="450" y="290" text-anchor="start" font-size="15" fill="#2c3e50">• Multiple formation options</text>
+  <text x="450" y="310" text-anchor="start" font-size="15" fill="#2c3e50">• Complex regulations</text>
+  
+  <text x="430" y="350" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">3. Sector Restrictions</text>
+  <text x="450" y="370" text-anchor="start" font-size="15" fill="#2c3e50">• Strategic sector limitations</text>
+  
+  <text x="430" y="410" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">4. Substance Requirements</text>
+  <text x="450" y="430" text-anchor="start" font-size="15" fill="#2c3e50">• Additional operational costs</text>
+  
+  <text x="430" y="470" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">5. Cultural Adjustment</text>
+  <text x="450" y="490" text-anchor="start" font-size="15" fill="#2c3e50">• Islamic state regulations</text>
+
+  <!-- Footer with Link -->
+  <rect x="50" y="580" width="700" height="80" rx="10" fill="#3498db" opacity="0.1"/>
+  <text x="400" y="615" text-anchor="middle" font-size="20" font-weight="bold" fill="#2c3e50">
+    💙 Want more details?
+  </text>
+  <text x="400" y="640" text-anchor="middle" font-size="20" fill="#2980b9">
+    Read our comprehensive guide on benefits and drawbacks
+  </text>
+</svg>

@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"Спрощення створення та розвитку бізнесу в ОАЕ","description":"","frontmatter":{"head":[["meta",{"name":"robots","content":"noindex"}]]},"headers":[],"params":{},"relativePath":"uk/resources/about.md","filePath":"i18n/uk/resources/about.md","lastUpdated":1742883140000}');
+const _sfc_main = { name: "uk/resources/about.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="спрощення-створення-та-розвитку-бізнесу-в-оае" tabindex="-1">Спрощення створення та розвитку бізнесу в ОАЕ <a class="header-anchor" href="#спрощення-створення-та-розвитку-бізнесу-в-оае" aria-label="Permalink to &quot;Спрощення створення та розвитку бізнесу в ОАЕ&quot;">​</a></h1><p>GOLDEN FISH надає комплексну підтримку бізнесу та професіоналам, які прагнуть заснувати або розширити свою присутність в ОАЕ. Наша місія полягає в спрощенні складних процесів релокації, дотримання відповідності вимогам, бізнес-консультацій та поточного управління, забезпечуючи плавний та ефективний досвід для наших клієнтів.</p><div class="info custom-block github-alert"><p class="custom-block-title">Наше Бачення</p><p>Стати надійним партнером для бізнесу та професіоналів, які прагнуть встановити успішну присутність в ОАЕ, надаючи експертні рекомендації та надійну підтримку.</p></div><div class="info custom-block github-alert"><p class="custom-block-title">Наша Місія</p><p>Спростити процес релокації та створення бізнесу, надаючи нашим клієнтам можливість зосередитися на зростанні та успіху.</p></div><h3 id="стратегія-компаніі" tabindex="-1">Стратегія компанії <a class="header-anchor" href="#стратегія-компаніі" aria-label="Permalink to &quot;Стратегія компанії&quot;">​</a></h3><ul><li><strong>Клієнтоорієнтований підхід</strong>: Ми надаємо індивідуальні рішення, адаптовані до конкретних потреб та цілей кожного клієнта, забезпечуючи плавний перехід бізнесу.</li><li><strong>Операційна досконалість</strong>: Використовуючи локальну експертизу та ефективні процеси, ми допомагаємо клієнтам орієнтуватися в складнощах бізнес-середовища ОАЕ, зменшуючи витрати часу та зусиль.</li><li><strong>Сталий розвиток</strong>: Ми зосереджуємося на побудові довгострокових відносин з нашими клієнтами, надаючи послідовні, високоякісні послуги, що сприяють успіху та зростанню.</li></ul><h3 id="наші-послуги" tabindex="-1">Наші послуги <a class="header-anchor" href="#наші-послуги" aria-label="Permalink to &quot;Наші послуги&quot;">​</a></h3><ul><li><strong>Релокація бізнесу</strong>: Експертна допомога у створенні вашого бізнесу в ОАЕ.</li><li><strong>Консалтинг</strong>: Професійна підтримка в отриманні необхідної документації.</li><li><strong>Підтримка бізнесу</strong>: Постійна операційна допомога для успіху та зростання вашого бізнесу.</li></ul><div class="important custom-block github-alert"><p class="custom-block-title">Чому обирають нас?</p><p>Маючи команду досвідчених професіоналів та відданість персоналізованому обслуговуванню, ми забезпечуємо плавний та ефективний досвід для клієнтів, дозволяючи їм зосередитися на найважливішому – розвитку їхнього бізнесу в ОАЕ.</p></div><hr><p><strong>Анастасія Хуртіна</strong><br> Директор</p></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("i18n/uk/resources/about.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const about = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  about as default
+};

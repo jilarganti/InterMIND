@@ -1,0 +1,108 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f0f4f8"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#2c3e50">
+    UAE Facts & Figures 2024
+  </text>
+
+  <!-- Population & Demographics Box -->
+  <rect x="50" y="100" width="220" height="200" rx="10" fill="#3498db" opacity="0.2"/>
+  <text x="70" y="130" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">
+    Dubai Population
+  </text>
+  <text x="70" y="160" text-anchor="start" font-size="24" font-weight="bold" fill="#3498db">
+    3.68M
+  </text>
+  <text x="70" y="190" text-anchor="start" font-size="12" fill="#2c3e50">
+    • 75% expatriates
+  </text>
+  <text x="70" y="210" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Most populous emirate
+  </text>
+  <text x="70" y="230" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Business language: English
+  </text>
+
+  <!-- Emirates Size Box -->
+  <rect x="290" y="100" width="220" height="200" rx="10" fill="#2ecc71" opacity="0.2"/>
+  <text x="310" y="130" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">
+    Emirates Size
+  </text>
+  <text x="310" y="160" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Abu Dhabi: 84% of UAE
+  </text>
+  <text x="310" y="180" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Dubai: Major business hub
+  </text>
+  <text x="310" y="200" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Ajman: 0.3% of UAE
+  </text>
+  <text x="310" y="230" text-anchor="start" font-size="12" fill="#2c3e50">
+    7 emirates total
+  </text>
+
+  <!-- Modern Achievements Box -->
+  <rect x="530" y="100" width="220" height="200" rx="10" fill="#e74c3c" opacity="0.2"/>
+  <text x="550" y="130" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">
+    Modern Development
+  </text>
+  <text x="550" y="160" text-anchor="start" font-size="12" fill="#2c3e50">
+    • 300+ skyscrapers
+  </text>
+  <text x="550" y="180" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Burj Khalifa: 828m
+  </text>
+  <text x="550" y="200" text-anchor="start" font-size="12" fill="#2c3e50">
+    • 163 floors
+  </text>
+  <text x="550" y="220" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Cost: $1.5B
+  </text>
+
+  <!-- Economy Box -->
+  <rect x="50" y="320" width="340" height="150" rx="10" fill="#f1c40f" opacity="0.2"/>
+  <text x="70" y="350" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">
+    Economic Highlights
+  </text>
+  <text x="70" y="380" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Oil revenue: only 20% of income
+  </text>
+  <text x="70" y="400" text-anchor="start" font-size="12" fill="#2c3e50">
+    • 3rd largest import/export hub
+  </text>
+  <text x="70" y="420" text-anchor="start" font-size="12" fill="#2c3e50">
+    • #1 for starting business globally
+  </text>
+  <text x="70" y="440" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Main sectors: finance, tourism, real estate
+  </text>
+
+  <!-- Governance Box -->
+  <rect x="410" y="320" width="340" height="150" rx="10" fill="#9b59b6" opacity="0.2"/>
+  <text x="430" y="350" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">
+    Leadership & History
+  </text>
+  <text x="430" y="380" text-anchor="start" font-size="12" fill="#2c3e50">
+    • UN member since 1971
+  </text>
+  <text x="430" y="400" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Al Maktoum family rule since 1833
+  </text>
+  <text x="430" y="420" text-anchor="start" font-size="12" fill="#2c3e50">
+    • President: HH Sheikh Mohammed bin
+  </text>
+  <text x="430" y="440" text-anchor="start" font-size="12" fill="#2c3e50">
+    Zayed Al Nahyan (since 2022)
+  </text>
+
+  <!-- Interesting Facts -->
+  <rect x="50" y="490" width="700" height="80" rx="10" fill="#34495e" opacity="0.1"/>
+  <text x="70" y="520" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Customs tax: 100% on cigarettes, 50% on alcohol
+  </text>
+  <text x="70" y="540" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Burj Khalifa: 900 apartments, 304 hotel rooms, 57 elevators
+  </text>
+</svg>

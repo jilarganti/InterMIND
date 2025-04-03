@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"UAE 자유무역지대 vs 본토 기업 설립 가이드","description":"UAE 자유무역지대와 본토 기업 비교. 자유무역지대와 본토 설립 간의 세금, 소유권, 비자 및 사업 활동의 주요 차이점.","frontmatter":{"title":"UAE 자유무역지대 vs 본토 기업 설립 가이드","description":"UAE 자유무역지대와 본토 기업 비교. 자유무역지대와 본토 설립 간의 세금, 소유권, 비자 및 사업 활동의 주요 차이점.","head":[["meta",{"name":"robots","content":"noindex"}]]},"headers":[],"params":{},"relativePath":"ko/uae-business/comparison/mainland-vs-free-zones.md","filePath":"i18n/ko/uae-business/comparison/mainland-vs-free-zones.md","lastUpdated":1742883140000}');
+const _sfc_main = { name: "ko/uae-business/comparison/mainland-vs-free-zones.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="본토-vs-자유무역지대-주요-차이점" tabindex="-1">본토 vs 자유무역지대: 주요 차이점<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> <a class="header-anchor" href="#본토-vs-자유무역지대-주요-차이점" aria-label="Permalink to &quot;본토 vs 자유무역지대: 주요 차이점[^1]&quot;">​</a></h1><table tabindex="0"><thead><tr><th><strong>측면</strong></th><th><strong>Mainland</strong></th><th><strong>Free Zones</strong></th></tr></thead><tbody><tr><td><strong>정의</strong></td><td>Mainland는 자유무역지대 외 지역을 의미하며, 경제관광부가 규제합니다.</td><td>Free zone은 자체 라이센싱 및 등록 규칙이 있는 특별 지정 구역입니다.</td></tr><tr><td><strong>현지화(Emiratisation) 요구사항</strong></td><td>숙련된 인력의 최소 2%는 에미리트 국민이어야 합니다.</td><td>기업에 대한 현지화 요구사항이 없습니다.</td></tr><tr><td><strong>사업 활동 관할권</strong></td><td>UAE 내외 및 GCC 지역에서 사업 운영이 가능합니다.</td><td>일반적으로 UAE 외부에서 운영되지만 일부 자유무역지대는 역내외 활동을 모두 허용합니다.</td></tr><tr><td><strong>법인 형태</strong></td><td>Mainland 기업은 LLC, 파트너십, 합작주식회사 등 다양한 법적 형태 중 선택할 수 있습니다.</td><td>Free zone은 Free Zone Establishments 및 외국 기업 지사와 같은 특정 법적 구조를 제공합니다.</td></tr><tr><td><strong>소유권 옵션</strong></td><td>외국 투자자는 전략적 산업을 제외한 대부분의 분야에서 100% 소유가 가능합니다.</td><td>외국 투자자는 모든 분야에서 100% 소유가 가능합니다.</td></tr><tr><td><strong>세금 영향</strong></td><td>Mainland 기업은 5% VAT와 9% 법인세(수익 AED 375,000 초과)가 적용되나 소득세는 없습니다.</td><td>Free zone 기업은 VAT, 법인세, 소득세 면제 혜택과 이익 송금이 가능합니다.</td></tr><tr><td><strong>감사 요구사항</strong></td><td>사업 활동과 규제 지침에 따라 다릅니다.</td><td>일반적으로 자유무역지대 규정 준수를 위해 필요합니다.</td></tr><tr><td><strong>물리적 사무실 요구사항</strong></td><td>최소 100 평방피트의 사무실 공간이 필요합니다.</td><td>필수적인 물리적 사무실 요구사항 없음; 가상 사무실 및 유연한 공간 옵션 이용 가능.</td></tr><tr><td><strong>최소 자본금</strong></td><td>특정 최소 자본금 요구사항 없음; 법적 구조에 따라 다릅니다.</td><td>최소 자본금은 자유무역지대별로 다릅니다.</td></tr><tr><td><strong>비자 제한</strong></td><td>활동 및 시설 규정을 준수하는 한 비자 수에 제한이 없습니다.</td><td>일부 자유무역지대는 비자 수에 할당량이 있으나 특정 조건에 따라 증가 가능합니다.</td></tr><tr><td><strong>관세 면제</strong></td><td>기업은 UAE로 수입되는 물품에 대해 관세를 지불해야 합니다.</td><td>Free zone 기업은 자유무역지대로 수입되는 물품에 대해 관세 면제 혜택을 받습니다.</td></tr></tbody></table><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>이 비교는 주로 두바이에 적용되며, UAE의 에미리트별로 법률과 규정이 다를 수 있습니다. 자유무역지대와 본토(mainland)에서의 사업 수행에 대한 일반 원칙은 여러 에미리트에서 종종 유사하지만, 아부다비, 샤르자 또는 기타 행정구역은 특히 과세, 최소 자본금, 물리적 사무실 요구사항 및 비자 정책과 관련하여 고유한 규칙과 요구사항을 가질 수 있습니다. 각 관할권의 세부사항을 이해하고 특정 비즈니스 요구사항과 목표에 따라 정보에 입각한 결정을 내리기 위해서는 법률 및 비즈니스 고문과 상담하는 것이 필수적입니다. <a href="#fnref1" class="footnote-backref">↩︎</a></p></li></ol></section></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("i18n/ko/uae-business/comparison/mainland-vs-free-zones.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const mainlandVsFreeZones = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  mainlandVsFreeZones as default
+};

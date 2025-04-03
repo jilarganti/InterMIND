@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"Menyederhanakan Pendirian dan Pertumbuhan Bisnis di UAE","description":"","frontmatter":{"head":[["meta",{"name":"robots","content":"noindex"}]]},"headers":[],"params":{},"relativePath":"id/resources/about.md","filePath":"i18n/id/resources/about.md","lastUpdated":1742883140000}');
+const _sfc_main = { name: "id/resources/about.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="menyederhanakan-pendirian-dan-pertumbuhan-bisnis-di-uae" tabindex="-1">Menyederhanakan Pendirian dan Pertumbuhan Bisnis di UAE <a class="header-anchor" href="#menyederhanakan-pendirian-dan-pertumbuhan-bisnis-di-uae" aria-label="Permalink to &quot;Menyederhanakan Pendirian dan Pertumbuhan Bisnis di UAE&quot;">​</a></h1><p>GOLDEN FISH menyediakan dukungan komprehensif bagi bisnis dan profesional yang ingin mendirikan atau mengembangkan kehadiran mereka di UAE. Misi kami adalah menyederhanakan proses kompleks relokasi, kepatuhan, konsultasi bisnis, dan manajemen berkelanjutan, memastikan pengalaman yang lancar dan efisien bagi klien kami.</p><div class="info custom-block github-alert"><p class="custom-block-title">Visi Kami</p><p>Menjadi mitra terpercaya bagi bisnis dan profesional yang ingin membangun kehadiran yang sukses di UAE dengan memberikan panduan ahli dan dukungan yang dapat diandalkan.</p></div><div class="info custom-block github-alert"><p class="custom-block-title">Misi Kami</p><p>Menyederhanakan proses relokasi dan pendirian bisnis, memberdayakan klien kami untuk fokus pada pertumbuhan dan kesuksesan.</p></div><h3 id="strategi-perusahaan" tabindex="-1">Strategi Perusahaan <a class="header-anchor" href="#strategi-perusahaan" aria-label="Permalink to &quot;Strategi Perusahaan&quot;">​</a></h3><ul><li><strong>Pendekatan Berfokus pada Klien</strong>: Kami menyediakan solusi yang disesuaikan dengan kebutuhan dan tujuan spesifik setiap klien, memastikan transisi bisnis yang lancar.</li><li><strong>Keunggulan Operasional</strong>: Dengan memanfaatkan keahlian lokal dan proses yang efisien, kami membantu klien menavigasi kompleksitas lingkungan bisnis UAE, mengurangi waktu dan usaha.</li><li><strong>Pertumbuhan Berkelanjutan</strong>: Kami fokus pada membangun hubungan jangka panjang dengan klien kami dengan memberikan layanan berkualitas tinggi yang konsisten yang mendorong kesuksesan dan pertumbuhan.</li></ul><h3 id="layanan-kami" tabindex="-1">Layanan Kami <a class="header-anchor" href="#layanan-kami" aria-label="Permalink to &quot;Layanan Kami&quot;">​</a></h3><ul><li><strong>Relokasi Bisnis</strong>: Bantuan ahli dalam mendirikan bisnis Anda di UAE.</li><li><strong>Konsultasi</strong>: Dukungan profesional untuk memperoleh dokumentasi yang diperlukan.</li><li><strong>Dukungan Bisnis</strong>: Bantuan operasional berkelanjutan untuk membantu bisnis Anda berhasil dan berkembang.</li></ul><div class="important custom-block github-alert"><p class="custom-block-title">Mengapa Memilih Kami?</p><p>Dengan tim profesional yang berpengetahuan dan komitmen untuk layanan yang dipersonalisasi, kami memastikan pengalaman yang lancar dan efisien bagi klien, memungkinkan mereka fokus pada hal yang paling penting – mengembangkan bisnis mereka di UAE.</p></div><hr><p><strong>Anastasia Khurtina</strong><br> Direktur</p></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("i18n/id/resources/about.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const about = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  about as default
+};
