@@ -19,7 +19,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'உங்கள் நன்மைகள் — எங்கள் பொறுப்பு',
-  details: 'சாதகமான வணிக சூழலை நாடும் சர்வதேச தொழில்முனைவோர் மற்றும் முதலீட்டாளர்களுக்கு UAE பல நன்மைகளை வழங்குகிறது. \n\n* குறைந்த வரி விகிதங்கள்: வெறும் 9% கார்ப்பரேட் வரி மற்றும் 5% VAT, தனிநபர் வருமான வரி இல்லை\n* 100% வெளிநாட்டு உரிமை: உள்ளூர் கூட்டாளிகள் இல்லாமல் உங்கள் நிறுவனத்தின் முழு கட்டுப்பாடு\n* நாணய கட்டுப்பாடுகள் இல்லை: தடையற்ற லாப திருப்பியனுப்புதல் மற்றும் நாணய பரிமாற்றம்\n\n[முழு பட்டியலைக் காட்டு](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'சாதகமான வணிக சூழலை நாடும் சர்வதேச தொழில்முனைவோர் மற்றும் முதலீட்டாளர்களுக்கு UAE பல நன்மைகளை வழங்குகிறது. \n\n* குறைந்த வரி விகிதங்கள்: வெறும் 9% கார்ப்பரேட் வரி மற்றும் 5% VAT, தனிநபர் வருமான வரி இல்லை\n* 100% வெளிநாட்டு உரிமை: உள்ளூர் கூட்டாளிகள் இல்லாமல் உங்கள் நிறுவனத்தின் முழு கட்டுப்பாடு\n* நாணய கட்டுப்பாடுகள் இல்லை: தடையற்ற லாப திருப்பி அனுப்புதல் மற்றும் நாணய பரிமாற்றம்\n\n[முழு பட்டியலைக் காட்டு](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -43,7 +43,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'முழு ஆதரவு: படிப்படியாக உங்களுடன்',
-  details: '**Free Zone, Offshore, Mainland, Branch** ஆகியவற்றில் நிறுவனங்களை அமைப்பதற்கான முழுமையான வழிகாட்டி. \n\n* Free Zones மற்றும் Mainland இல் 100% வெளிநாட்டு உரிமை கிடைக்கும்\n* குறைந்த வரி விகிதங்கள் - 9% கார்ப்பரேட் வரி மட்டுமே\n* நாணய கட்டுப்பாடுகள் இல்லை - எளிதான மூலதன திருப்பியனுப்புதல்\n\n[மேலும் அறிக](/uae-business/company-registration/overview)',
+  details: '**Free Zone, Offshore, Mainland, Branch** ஆகியவற்றில் நிறுவனங்களை அமைப்பதற்கான முழுமையான வழிகாட்டி. \n\n* Free Zones மற்றும் Mainland இல் 100% வெளிநாட்டு உரிமை கிடைக்கும்\n* குறைந்த வரி விகிதங்கள் - 9% கார்ப்பரேட் வரி மட்டுமே\n* நாணய கட்டுப்பாடுகள் இல்லை - எளிதான மூலதன திருப்பி அனுப்புதல்\n\n[மேலும் அறிக](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -56,7 +56,7 @@ hero:
 <FeatureCards :features="[
   {
     title: 'வங்கி கணக்கு திறத்தல்',
-    details: 'UAE இன் நம்பகமான வங்கிகளுடன் வணிக அல்லது தனிப்பட்ட **வங்கி கணக்குகளை** எளிதாக திறக்கவும்.',
+    details: 'UAE இன் நம்பகமான வங்கிகளுடன் வணிக அல்லது தனிப்பட்ட **வங்கி கணக்குகளை** எளிதாகத் திறக்கவும்.',
     items: [
       'அரசு ஒப்புதல்களுக்கான முழு PRO சேவைகள்',
       'முழுமையான வங்கி தொகுப்பு அமைப்பு',
@@ -72,7 +72,7 @@ hero:
   },
   {
     title: 'Golden Visa & குடியிருப்பு',
-    details: 'தடையற்ற விண்ணப்ப செயல்முறையுடன் நீண்டகால குடியிருப்புக்கான UAE **Golden Visa** பெறுங்கள்.',
+    details: 'தடையற்ற விண்ணப்ப செயல்முறையுடன் நீண்டகால குடியிருப்புக்கான UAE **Golden Visa** ஐப் பெறுங்கள்.',
     items: [
       '**ஒவ்வொரு 6 மாதங்களுக்கும் UAE க்குள் நுழைய வேண்டிய அவசியம் இல்லை**',
       'தகுதி நிபந்தனைகளை பராமரிக்கும்போது புதுப்பிப்பு விருப்பத்துடன் 10 ஆண்டுகள் செல்லுபடியாகும்',
@@ -91,7 +91,7 @@ hero:
     details: '',
     items: [],
     linkText: 'மேலும் அறிக',
-    link: '../../company-registration/insights/incorporation-steps',
+    link: '/uae-business/company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
       dark: '/img/iStock-1160827423.avif',

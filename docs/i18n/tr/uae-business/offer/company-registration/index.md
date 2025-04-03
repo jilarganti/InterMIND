@@ -16,11 +16,10 @@ hero:
       src: /img/Logo.avif
       width: 40%
     alt: Golden Fish logosu
----
 
 <FeatureBlock :card="{
   title: 'Sizin Avantajlarınız — Bizim Sorumluluğumuz',
-  details: 'BAE, uygun iş ortamı arayan uluslararası girişimciler ve yatırımcılar için çok sayıda avantaj sunmaktadır. \n\n* Düşük Vergi Oranları: Sadece %9 kurumlar vergisi ve %5 KDV, gelir vergisi yok\n* %100 Yabancı Mülkiyet: Yerel ortaklar olmadan şirketinizin tam kontrolü\n* Döviz Kontrolü Yok: Kısıtlamasız kar transferi ve döviz işlemleri\n\n[Tam listeyi göster](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'BAE, uygun iş ortamı arayan uluslararası girişimci ve yatırımcılara çok sayıda avantaj sunmaktadır. \n\n* Düşük Vergi Oranları: Sadece %9 kurumlar vergisi ve %5 KDV, gelir vergisi yok\n* %100 Yabancı Mülkiyet: Yerel ortaklar olmadan şirketinizin tam kontrolü\n* Döviz Kontrolü Yok: Kısıtlamasız kar transferi ve döviz işlemleri\n\n[Tam listeyi göster](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -35,8 +34,8 @@ hero:
   details: 'BAE birçok avantaj sunarken, işletmeler faaliyetlerini kurarken olası zorluklardan haberdar olmalıdır. \n\n* Karmaşık Düzenleyici Ortam: Emirlikler ve free zone\'lar arasında farklı düzenlemeler\n* Ekonomik Maddi Varlık Gereklilikleri: Belirli faaliyetler için yerel personel ve fiziksel ofis alanı gerekli\n* Yüksek Başlangıç Maliyetleri: Kayıt ücretleri, belgeler ve zorunlu ofis kiraları\n\n[Tam listeyi göster](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
-      light: '/img/iStock-1299393716.avif',
-      dark: '/img/iStock-2149731304.avif',
+    light: '/img/iStock-1299393716.avif',
+    dark: '/img/iStock-2149731304.avif',
     width: '100%'
   },
   inversion: true
@@ -59,8 +58,8 @@ hero:
     title: 'Banka Hesabı Açılışı',
     details: 'BAE\'nin güvenilir bankalarında kolayca ticari veya kişisel **banka hesapları** açın.',
     items: [
-      'Devlet onayları için kapsamlı PRO hizmetleri',
-      'Eksiksiz bankacılık paketi kurulumu',
+      'Devlet onayları için eksiksiz PRO hizmetleri',
+      'Tam bankacılık paketi kurulumu',
       '%96 başarı oranı'
     ],
     linkText: 'Daha fazla bilgi',
@@ -88,11 +87,11 @@ hero:
     }
   },
   {
-    title: 'Kurumsal hizmetlerimizin daha fazlasını keşfedin',
+    title: 'Kurumsal hizmetlerimiz hakkında daha fazla bilgi edinin',
     details: '',
     items: [],
     linkText: 'Daha fazla bilgi',
-    link: '../../company-registration/insights/incorporation-steps',
+    link: '/uae-business/company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
       dark: '/img/iStock-1160827423.avif',

@@ -10,7 +10,7 @@ hero:
 
   actions:
     - theme: brand
-      text: Get Free Consultation
+      text: مفت مشاورت حاصل کریں
       link: /resources/contacts
 
   image:
@@ -26,13 +26,13 @@ hero:
 <FeatureCards :features="[
   {
     title: 'کمپنی سیٹ اپ گائیڈ',
-    details: '**Free Zone، آف شور، Mainland، برانچ** میں کمپنیاں قائم کرنے کی مکمل گائیڈ۔',
+    details: '**Free Zone, Offshore, Mainland, Branch** میں کمپنیاں قائم کرنے کی مکمل گائیڈ۔',
     items: [
       'Free Zones اور Mainland میں 100% غیر ملکی ملکیت دستیاب',
       'کم ٹیکس شرح - صرف 9% کارپوریٹ ٹیکس',
-      'کرنسی کنٹرول نہیں - آسان سرمایہ کی واپسی'
+      'کرنسی کنٹرول نہیں - آسان سرمایہ واپسی'
     ],
-    linkText: 'Learn more',
+    linkText: 'مزید جانیں',
     link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -48,7 +48,7 @@ hero:
       'مکمل بینکنگ پیکیج سیٹ اپ',
       '**96% کامیابی کی شرح**',
     ],
-    linkText: 'Learn more',
+    linkText: 'مزید جانیں',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -58,13 +58,13 @@ hero:
   },
   {
     title: 'Golden Visa اور رہائش',
-    details: 'آسان درخواست کے عمل کے ساتھ طویل مدتی رہائش کے لیے **Golden Visa** حاصل کریں۔',
+    details: 'آسان درخواست کے عمل کے ساتھ طویل مدتی رہائش کے لیے متحدہ عرب امارات کا **Golden Visa** حاصل کریں۔',
     items: [
-      '**ہر 6 ماہ بعد متحدہ عرب امارات میں داخلے کی ضرورت نہیں**',
-      'اہلیت کی شرائط برقرار رکھنے پر تجدید کے اختیار کے ساتھ 10 سال کی مدت',
+      '**ہر 6 ماہ بعد متحدہ عرب امارات میں داخل ہونے کی ضرورت نہیں**',
+      'اہلیت کی شرائط برقرار رکھنے پر 10 سال کی مدت کے ساتھ تجدید کا اختیار',
       '92% کامیابی کی شرح',
     ],
-    linkText: 'Learn more',
+    linkText: 'مزید جانیں',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -79,7 +79,7 @@ hero:
     title: 'تعمیل کی خدمات',
     details: 'ہمارے ماہرین آپ کو ESR رپورٹس اور UBO فائلنگز سمیت متحدہ عرب امارات کے پیچیدہ ریگولیٹری تقاضوں میں رہنمائی کرتے ہیں۔',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'مزید جانیں',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -91,7 +91,7 @@ hero:
     title: 'کارپوریٹ ٹیکس اور VAT',
     details: 'فیڈرل ٹیکس اتھارٹی (FTA) کے ساتھ کارپوریٹ ٹیکس اور VAT کی ذمہ داریوں کی تعمیل کو یقینی بنانے کے لیے ماہرانہ مشورہ۔',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'مزید جانیں',
     link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -103,7 +103,7 @@ hero:
     title: 'قانونی خدمات',
     details: 'قانونی ٹیم M&As، کارپوریٹ ری سٹرکچرنگ، فنانسنگ، اور تنازعات کے حل کے بارے میں متحدہ عرب امارات کے قوانین پر مشورہ دیتی ہے۔',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'مزید جانیں',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -115,7 +115,7 @@ hero:
     title: 'اکاؤنٹنگ اور پے رول',
     details: 'ہمارے اکاؤنٹنٹس مالیات کا انتظام کرتے ہیں، بک کیپنگ، مطابقت، پے رول، اور آڈٹ سپورٹ فراہم کرتے ہیں، بھرتی کی لاگت کو بچاتے ہیں۔',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'مزید جانیں',
     link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',

@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Tantangan Yang Kita Hadapi Bersama',
-  details: 'Meskipun UAE menawarkan banyak manfaat, bisnis harus menyadari potensi tantangan saat membangun operasi. \n\n* Lingkungan Regulasi Kompleks: Peraturan berbeda di setiap emirat dan free zone\n* Persyaratan Substansi Ekonomi: Staf lokal dan ruang kantor fisik diperlukan untuk aktivitas tertentu\n* Biaya Awal Tinggi: Biaya pendaftaran, dokumentasi, dan sewa kantor wajib\n\n[Tampilkan daftar lengkap](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'Meskipun UAE menawarkan banyak keuntungan, bisnis harus menyadari potensi tantangan saat membangun operasi. \n\n* Lingkungan Regulasi Kompleks: Peraturan berbeda di setiap emirat dan free zone\n* Persyaratan Substansi Ekonomi: Staf lokal dan ruang kantor fisik diperlukan untuk aktivitas tertentu\n* Biaya Awal Tinggi: Biaya pendaftaran, dokumentasi, dan sewa kantor wajib\n\n[Tampilkan daftar lengkap](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -57,7 +57,7 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Pembukaan Rekening Bank',
-    details: 'Buka rekening **bank** bisnis atau pribadi dengan mudah di bank-bank terpercaya UAE.',
+    details: 'Buka **rekening bank** bisnis atau pribadi dengan mudah di bank-bank terpercaya UAE.',
     items: [
       'Layanan PRO end-to-end untuk persetujuan pemerintah',
       'Pengaturan paket perbankan lengkap',
@@ -76,7 +76,7 @@ hero:
     details: 'Dapatkan **Golden Visa** UAE untuk izin tinggal jangka panjang dengan proses aplikasi yang lancar.',
     items: [
       '**Tidak perlu masuk UAE setiap 6 bulan**',
-      'Berlaku 10 tahun dengan opsi perpanjangan jika memenuhi syarat',
+      'Masa berlaku 10 tahun dengan opsi perpanjangan jika memenuhi syarat',
       'Tingkat keberhasilan 92%'
     ],
     linkText: 'Pelajari lebih lanjut',
@@ -92,7 +92,7 @@ hero:
     details: '',
     items: [],
     linkText: 'Pelajari lebih lanjut',
-    link: '../../company-registration/insights/incorporation-steps',
+    link: '/uae-business/company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
       dark: '/img/iStock-1160827423.avif',
@@ -112,12 +112,12 @@ hero:
   {
     icon: '📊',
     title: 'Tingkat Keberhasilan Terbukti',
-    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan pendaftaran perusahaan yang dikeluarkan melalui pemrosesan premium kami.'
+    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan pendaftaran perusahaan yang diproses melalui layanan premium kami.'
   },
   {
     icon: '💸',
     title: '**Biaya Berbasis Keberhasilan**',
-    text: '[Bayar hanya setelah persetujuan](/uae-business/benefits/success-based-fees). Transparansi penuh tanpa biaya tersembunyi.'
+    text: '[Bayar hanya setelah disetujui](/uae-business/benefits/success-based-fees). Transparansi penuh tanpa biaya tersembunyi.'
   },
 ]" />
 

@@ -1,13 +1,13 @@
 ---
 layout: home
-title: "UAE 무위험 비즈니스 | 승인 없으면 비용 없음"
-description: "혁신적인 UAE 기업 설립 모델: 성공 후에만 비용 지불. 90% 이상의 성공률로 모든 단계에서 전문가의 안내를 받으세요."
+title: "UAE 무위험 비즈니스 | 승인 없으면 지불 없음"
+description: "혁신적인 UAE 기업 설립 모델: 성공 후에만 지불. 90% 이상의 성공률로 모든 단계에서 전문가의 안내를 받으세요."
 showSponsors: false
 
 hero:
   name: "UAE 기업 설립: 우리가 위험을 함께 합니다"
-  # text: 성과에 따른 지불
-  tagline: "안심하고 비즈니스를 성장시키세요. <span class='hl'>승인 전까지 수수료 없음</span>. 결과가 나올 때까지 비용이 발생하지 않습니다."
+  # text: Payment by results
+  tagline: "안심하고 비즈니스를 성장시키세요. <span class='hl'>승인될 때까지 수수료 없음</span>. 결과가 나올 때까지 비용이 발생하지 않습니다."
   image:
     light:
       src: /img/Logo.avif
@@ -92,7 +92,7 @@ hero:
     details: '',
     items: [],
     linkText: '자세히 알아보기',
-    link: '../../company-registration/insights/incorporation-steps',
+    link: '/uae-business/company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
       dark: '/img/iStock-1160827423.avif',
@@ -133,7 +133,7 @@ hero:
   categoryLabel="필요한 지원 수준: *" 
   categoryPlaceholderText="지원 수준을 선택하세요"
   messageLabel="상담 준비를 위해 도움이 되는 정보 (권장사항)"
-  messagePlaceholderText="선호 사항, 가족 구성원, 일정 또는 구체적인 질문 사항을 알려주세요"
+  messagePlaceholderText="선호 사항, 가족 구성원, 일정 또는 구체적인 질문사항을 알려주세요"
   :services="[
   '기본 — 필수 서류와 상담만 제공',
   '스탠다드 — 주요 단계에 대한 완전한 문서화 및 안내',

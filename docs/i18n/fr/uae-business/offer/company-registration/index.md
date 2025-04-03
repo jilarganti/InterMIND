@@ -5,7 +5,7 @@ description: "Modèle révolutionnaire de création d'entreprise aux EAU : vous 
 showSponsors: false
 
 hero:
-  name: "Création d'Entreprise aux EAU : Nous Partageons Votre Risque"
+  name: "Formation d'Entreprise aux EAU : Nous Partageons Votre Risque"
   # text: Paiement aux résultats
   tagline: "Développez votre entreprise en toute tranquillité. <span class='hl'>Zéro frais d'agent jusqu'à l'approbation</span>. Nous ne sommes pas payés tant que vous n'obtenez pas de résultats."
   image:
@@ -20,7 +20,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Vos Avantages — Notre Responsabilité',
-  details: 'Les EAU offrent de nombreux avantages aux entrepreneurs et investisseurs internationaux à la recherche d\'un environnement commercial favorable. \n\n* Taux d\'Imposition Bas : Seulement 9% d\'impôt sur les sociétés et 5% de TVA sans impôt sur le revenu\n* 100% de Propriété Étrangère : Contrôle total de votre entreprise sans partenaires locaux\n* Pas de Contrôle des Changes : Rapatriement des bénéfices et change de devises sans restriction\n\n[Voir la liste complète](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'Les EAU offrent de nombreux avantages aux entrepreneurs et investisseurs internationaux à la recherche d\'un environnement commercial favorable. \n\n* Taux d\'Imposition Bas : Seulement 9% d\'impôt sur les sociétés et 5% de TVA sans impôt sur le revenu\n* 100% de Propriété Étrangère : Contrôle total de votre entreprise sans partenaires locaux\n* Pas de Contrôle des Changes : Rapatriement des bénéfices et change de devises sans restriction\n\n[Show complete list](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Défis que Nous Relevons Ensemble',
-  details: 'Bien que les EAU offrent de nombreux avantages, les entreprises doivent être conscientes des défis potentiels lors de l\'établissement de leurs activités. \n\n* Environnement Réglementaire Complexe : Différentes réglementations selon les émirats et les free zones\n* Exigences de Substance Économique : Personnel local et espace de bureau physique nécessaires pour certaines activités\n* Coûts Initiaux Élevés : Frais d\'enregistrement, documentation et locations de bureaux obligatoires\n\n[Voir la liste complète](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'Bien que les EAU offrent de nombreux avantages, les entreprises doivent être conscientes des défis potentiels lors de l\'établissement de leurs activités. \n\n* Environnement Réglementaire Complexe : Différentes réglementations selon les émirats et les free zones\n* Exigences de Substance Économique : Personnel local et espace de bureau physique nécessaires pour certaines activités\n* Coûts Initiaux Élevés : Frais d\'enregistrement, documentation et locations de bureaux obligatoires\n\n[Show complete list](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-1299393716.avif',
@@ -44,7 +44,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Accompagnement Complet : Étape par Étape avec Vous',
-  details: 'Guide complet pour créer des entreprises en **free zone, offshore, mainland, branch**. \n\n* 100% de Propriété Étrangère disponible en Free Zones et Mainland\n* Taux d\'Imposition Bas - seulement 9% d\'impôt sur les sociétés\n* Pas de Contrôle des Changes - rapatriement facile du capital\n\n[En savoir plus](/uae-business/company-registration/overview)',
+  details: 'Guide complet pour créer des entreprises en **free zone, offshore, mainland, branch**. \n\n* 100% de Propriété Étrangère disponible en Free Zones et Mainland\n* Taux d\'Imposition Bas - seulement 9% d\'impôt sur les sociétés\n* Pas de Contrôle des Changes - rapatriement facile du capital\n\n[Learn more](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -63,7 +63,7 @@ hero:
       'Configuration complète du package bancaire',
       'Taux de réussite de 96%'
     ],
-    linkText: 'En savoir plus',
+    linkText: 'Learn more',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -79,7 +79,7 @@ hero:
       'Validité de 10 ans avec option de renouvellement sous conditions',
       'Taux de réussite de 92%'
     ],
-    linkText: 'En savoir plus',
+    linkText: 'Learn more',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -91,8 +91,8 @@ hero:
     title: 'Découvrez plus de nos services aux entreprises',
     details: '',
     items: [],
-    linkText: 'En savoir plus',
-    link: '../../company-registration/insights/incorporation-steps',
+    linkText: 'Learn more',
+    link: '/uae-business/company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
       dark: '/img/iStock-1160827423.avif',

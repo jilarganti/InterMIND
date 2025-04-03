@@ -11,7 +11,7 @@ hero:
 
   actions:
     - theme: brand
-      text: Get Free Consultation
+      text: Отримати безкоштовну консультацію
       link: /resources/contacts
     # - theme: alt
     #   text: Support 24/7
@@ -35,7 +35,7 @@ hero:
       'Низькі податкові ставки - лише 9% корпоративного податку',
       'Відсутність валютного контролю - легка репатріація капіталу'
     ],
-    linkText: 'Learn more',
+    linkText: 'Дізнатися більше',
     link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -51,7 +51,7 @@ hero:
       'Повний пакет банківського обслуговування',
       '**96% успішних справ**',
     ],
-    linkText: 'Learn more',
+    linkText: 'Дізнатися більше',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -63,11 +63,11 @@ hero:
     title: 'Golden Visa та резидентство',
     details: 'Отримайте **Golden Visa** ОАЕ для довгострокового проживання через простий процес подання.',
     items: [
-      '**Немає потреби в\'їжджати в ОАЕ кожні 6 місяців**',
+      '**Не потрібно в\'їжджати в ОАЕ кожні 6 місяців**',
       '10-річна дійсність з можливістю продовження при збереженні кваліфікаційних умов',
       '92% успішних справ',
     ],
-    linkText: 'Learn more',
+    linkText: 'Дізнатися більше',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -82,7 +82,7 @@ hero:
     title: 'Послуги з комплаєнсу',
     details: 'Наші експерти проведуть вас через складні регуляторні вимоги ОАЕ, включаючи звіти ESR та подання UBO.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Дізнатися більше',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -92,9 +92,9 @@ hero:
   },
   {
     title: 'Корпоративний податок і ПДВ',
-    details: 'Експертні консультації забезпечують відповідність зобов\'язанням з корпоративного податку та ПДВ перед Federal Tax Authority (FTA).',
+    details: 'Експертні консультації забезпечують відповідність зобов\'язанням з корпоративного податку та ПДВ перед Федеральною податковою службою (FTA).',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Дізнатися більше',
     link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -106,7 +106,7 @@ hero:
     title: 'Юридичні послуги',
     details: 'Юридична команда консультує щодо законодавства ОАЕ у сфері злиття та поглинання, корпоративної реструктуризації, фінансування та вирішення спорів.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Дізнатися більше',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -116,9 +116,9 @@ hero:
   },
   {
     title: 'Бухгалтерський облік і зарплата',
-    details: 'Наші бухгалтери керують фінансами, надаючи послуги бухгалтерського обліку, звірки, розрахунку зарплати та підтримки аудиту, економлячи витрати на найм.',
+    details: 'Наші бухгалтери керують фінансами, надаючи послуги бухгалтерського обліку, звірки, нарахування зарплати та підтримки аудиту, економлячи витрати на найм.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Дізнатися більше',
     link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',

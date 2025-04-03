@@ -80,7 +80,7 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Uyum Hizmetleri',
-    details: 'Uzmanlarımız, ESR raporları ve UBO bildirimleri dahil karmaşık BAE düzenleyici gereklilikleri konusunda size rehberlik eder.',
+    details: 'Uzmanlarımız, ESR raporları ve UBO bildirimleri dahil karmaşık BAE düzenleyici gerekliliklerinde size rehberlik eder.',
     items: [],
     linkText: 'Daha fazla bilgi',
     link: '/uae-business/company-registration/Protect-Your-Business',
@@ -144,7 +144,7 @@ hero:
   {
     icon: '💸',
     title: '**Başarıya Dayalı Ücretler**',
-    text: '[Sadece onay sonrası ödeme](/uae-business/benefits/success-based-fees). Gizli maliyetler olmadan tam şeffaflık.'
+    text: '[Sadece onaydan sonra ödeme yapın](/uae-business/benefits/success-based-fees). Gizli maliyetler olmadan tam şeffaflık.'
   },
 ]" />
 

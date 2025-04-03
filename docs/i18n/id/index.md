@@ -1,13 +1,13 @@
 ---
 layout: home
-title: "Layanan Pembentukan Perusahaan di UAE"
-description: "Layanan ahli pembentukan dan dukungan perusahaan UAE. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa. Bayar hanya setelah persetujuan."
+title: "Layanan Pendirian Perusahaan di UAE"
+description: "Layanan ahli pendirian dan dukungan perusahaan di UAE. Solusi setup perusahaan, perbankan, pajak, hukum dan visa. Pembayaran hanya setelah persetujuan."
 showSponsors: false
 
 hero:
   name: "UAE: Pelabuhan Keuangan Aman Anda"
   # text: We speak your tongue
-  tagline: "Dukungan Bisnis Lengkap: Pendirian Perusahaan, Visa, Perbankan. <span class='hl'>Tidak ada keberhasilan — tidak ada biaya</span>."
+  tagline: "Dukungan Bisnis Lengkap: Setup Perusahaan, Visa, Perbankan. <span class='hl'>Tanpa keberhasilan — tanpa biaya</span>."
 
   actions:
     - theme: brand
@@ -33,7 +33,7 @@ hero:
     items: [
       'Kepemilikan Asing 100% tersedia di Free Zone dan Mainland',
       'Tarif Pajak Rendah - hanya 9% pajak perusahaan',
-      'Tidak Ada Kontrol Mata Uang - repatriasi modal mudah'
+      'Tanpa Kontrol Mata Uang - repatriasi modal mudah'
     ],
     linkText: 'Learn more',
     link: '/uae-business/offer/company-registration/',
@@ -48,7 +48,7 @@ hero:
     details: 'Buka rekening bank bisnis atau pribadi dengan mudah di bank-bank terpercaya UAE.',
     items: [
       'Layanan PRO end-to-end untuk persetujuan pemerintah',
-      'Pengaturan paket perbankan lengkap',
+      'Setup paket perbankan lengkap',
       '**Tingkat keberhasilan 96%**',
     ],
     linkText: 'Learn more',
@@ -64,7 +64,7 @@ hero:
     details: 'Dapatkan **Golden Visa** UAE untuk izin tinggal jangka panjang dengan proses aplikasi yang lancar.',
     items: [
       '**Tidak perlu masuk UAE setiap 6 bulan**',
-      'Masa berlaku 10 tahun dengan opsi perpanjangan dengan mempertahankan syarat kualifikasi',
+      'Masa berlaku 10 tahun dengan opsi perpanjangan jika memenuhi syarat',
       'Tingkat keberhasilan 92%',
     ],
     linkText: 'Learn more',
@@ -104,7 +104,7 @@ hero:
   },
   {
     title: 'Layanan Hukum',
-    details: 'Tim hukum memberikan saran tentang hukum UAE mengenai M&A, restrukturisasi perusahaan, pembiayaan, dan penyelesaian sengketa.',
+    details: 'Tim hukum memberikan saran tentang hukum UAE terkait M&A, restrukturisasi perusahaan, pembiayaan, dan penyelesaian sengketa.',
     items: [],
     linkText: 'Learn more',
     link: '/uae-business/company-registration/Protect-Your-Business',
@@ -134,7 +134,7 @@ hero:
   {
     icon: '🏢',
     title: 'Keahlian Lokal UAE',
-    text: 'Spesialis berdedikasi di Dubai memberikan panduan ahli di setiap tahap proses.'
+    text: 'Spesialis berdedikasi di Dubai memberikan panduan ahli melalui setiap tahap proses.'
   },
   {
     icon: '📊',

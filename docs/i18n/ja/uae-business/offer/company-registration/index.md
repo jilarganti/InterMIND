@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: '共に取り組む課題',
-  details: 'UAEは多くの利点を提供しますが、事業を設立する際には潜在的な課題に注意が必要です。\n\n* 複雑な規制環境：首長国とフリーゾーンで異なる規制\n* 経済実体要件：特定の活動には現地スタッフと物理的なオフィススペースが必要\n* 高い初期費用：登録料、書類作成費用、必須のオフィス賃貸料\n\n[完全なリストを表示](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'UAEは多くの利点を提供していますが、事業を設立する際には潜在的な課題に注意が必要です。\n\n* 複雑な規制環境：首長国とフリーゾーンで異なる規制\n* 経済実体要件：特定の活動には現地スタッフと物理的なオフィススペースが必要\n* 高い初期費用：登録料、書類作成費用、必須のオフィス賃貸料\n\n[完全なリストを表示](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-1299393716.avif',
@@ -60,7 +60,7 @@ hero:
     details: 'UAEの信頼できる銀行で**銀行口座**を簡単に開設。',
     items: [
       '政府承認のための完全なPROサービス',
-      '包括的な銀行パッケージのセットアップ',
+      '完全な銀行パッケージのセットアップ',
       '96%の成功率'
     ],
     linkText: '詳細を見る',
@@ -72,7 +72,7 @@ hero:
     }
   },
   {
-    title: 'Golden Visaと居住権',
+    title: 'Golden Visa & 居住権',
     details: 'スムーズな申請プロセスで長期居住のための**Golden Visa**を取得。',
     items: [
       '**6ヶ月ごとのUAE入国不要**',
@@ -92,7 +92,7 @@ hero:
     details: '',
     items: [],
     linkText: '詳細を見る',
-    link: '../../company-registration/insights/incorporation-steps',
+    link: '/uae-business/company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
       dark: '/img/iStock-1160827423.avif',

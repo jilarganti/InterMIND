@@ -116,7 +116,7 @@ hero:
   },
   {
     title: 'Contabilidad y Nómina',
-    details: 'Nuestros contadores gestionan las finanzas, proporcionando contabilidad, conciliación, nómina y soporte de auditoría, ahorrando costos de contratación.',
+    details: 'Nuestros contadores gestionan las finanzas, proporcionando contabilidad, conciliación, nómina y apoyo de auditoría, ahorrando costos de contratación.',
     items: [],
     linkText: 'Learn more',
     link: '/resources/contacts',

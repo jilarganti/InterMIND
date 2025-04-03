@@ -67,7 +67,7 @@ hero:
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
-      alt: 'Dịch vụ ngân hàng'
+      alt: 'Dịch vụ Ngân hàng'
     }
   },
   {
@@ -75,7 +75,7 @@ hero:
     details: 'Nhận **Golden Visa** UAE để cư trú dài hạn với quy trình đăng ký suôn sẻ.',
     items: [
       '**Không cần nhập cảnh UAE mỗi 6 tháng**',
-      'Hiệu lực 10 năm với tùy chọn gia hạn khi duy trì đủ điều kiện',
+      'Hiệu lực 10 năm với tùy chọn gia hạn khi duy trì điều kiện đủ tiêu chuẩn',
       'Tỷ lệ thành công 92%'
     ],
     linkText: 'Tìm hiểu thêm',
@@ -83,7 +83,7 @@ hero:
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
-      alt: 'Dịch vụ visa'
+      alt: 'Dịch vụ Visa'
     }
   },
   {
@@ -91,11 +91,11 @@ hero:
     details: '',
     items: [],
     linkText: 'Tìm hiểu thêm',
-    link: '../../company-registration/insights/incorporation-steps',
+    link: '/uae-business/company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
       dark: '/img/iStock-1160827423.avif',
-      alt: 'Các dịch vụ khác'
+      alt: 'Các Dịch vụ Khác'
     }
   }
 ]" />
@@ -141,6 +141,6 @@ hero:
   ]"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Di trú UAE' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Di trú UAE' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Nhập cư UAE' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Nhập cư UAE' },
 ]"/> -->

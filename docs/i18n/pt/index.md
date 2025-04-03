@@ -31,7 +31,7 @@ hero:
     title: 'Guia de Abertura de Empresa',
     details: 'Guia completo para abrir empresas na **Free Zone, offshore, Mainland, filial**.',
     items: [
-      '100% de Propriedade Estrangeira disponível em Free Zones e Mainland',
+      'Propriedade 100% Estrangeira disponível em Free Zones e Mainland',
       'Baixas Taxas de Impostos - apenas 9% de imposto corporativo',
       'Sem Controle Cambial - fácil repatriação de capital'
     ],

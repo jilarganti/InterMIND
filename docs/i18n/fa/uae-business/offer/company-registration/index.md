@@ -6,7 +6,7 @@ showSponsors: false
 
 hero:
   name: "ثبت شرکت در امارات: ما در ریسک شریک شما هستیم"
-  tagline: "کسب و کار خود را با آرامش خاطر توسعه دهید. <span class='hl'>بدون هزینه نمایندگی تا زمان تایید</span>. ما تا زمانی که نتیجه نگیرید، دستمزدی دریافت نمی‌کنیم."
+  tagline: "کسب و کار خود را با آرامش خاطر توسعه دهید. <span class='hl'>بدون کارمزد نمایندگی تا زمان تایید</span>. ما تا زمانی که نتیجه نگیرید، دستمزدی دریافت نمی‌کنیم."
   image:
     light:
       src: /img/Logo.avif
@@ -19,7 +19,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'مزایای شما — مسئولیت ما',
-  details: 'امارات مزایای متعددی برای کارآفرینان و سرمایه‌گذاران بین‌المللی که به دنبال محیط تجاری مناسب هستند، ارائه می‌دهد. \n\n* نرخ‌های مالیاتی پایین: فقط ۹٪ مالیات شرکتی و ۵٪ مالیات بر ارزش افزوده بدون مالیات بر درآمد شخصی\n* مالکیت ۱۰۰٪ خارجی: کنترل کامل شرکت خود بدون نیاز به شریک محلی\n* بدون کنترل ارزی: انتقال نامحدود سود و تبادل ارز\n\n[نمایش لیست کامل](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'امارات مزایای متعددی برای کارآفرینان و سرمایه‌گذاران بین‌المللی که به دنبال محیط تجاری مناسب هستند، ارائه می‌دهد. \n\n* نرخ‌های مالیاتی پایین: فقط ۹٪ مالیات شرکتی و ۵٪ مالیات بر ارزش افزوده بدون مالیات بر درآمد شخصی\n* مالکیت ۱۰۰٪ خارجی: کنترل کامل شرکت خود بدون نیاز به شریک محلی\n* بدون کنترل ارزی: انتقال نامحدود سود و تبدیل ارز\n\n[نمایش لیست کامل](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -31,7 +31,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'چالش‌هایی که با هم حل می‌کنیم',
-  details: 'اگرچه امارات مزایای زیادی دارد، کسب و کارها باید از چالش‌های احتمالی هنگام راه‌اندازی عملیات آگاه باشند. \n\n* محیط نظارتی پیچیده: مقررات متفاوت در امارات و مناطق آزاد\n* الزامات اقتصادی: نیاز به کارمندان محلی و فضای دفتر فیزیکی برای برخی فعالیت‌ها\n* هزینه‌های اولیه بالا: هزینه‌های ثبت، مستندات و اجاره اجباری دفتر\n\n[نمایش لیست کامل](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'اگرچه امارات مزایای زیادی دارد، کسب و کارها باید از چالش‌های احتمالی هنگام راه‌اندازی عملیات آگاه باشند. \n\n* محیط نظارتی پیچیده: مقررات متفاوت در امارات و مناطق Free Zone\n* الزامات اقتصادی: نیاز به کارمندان محلی و فضای دفتر فیزیکی برای برخی فعالیت‌ها\n* هزینه‌های اولیه بالا: هزینه‌های ثبت، مستندات و اجاره اجباری دفتر\n\n[نمایش لیست کامل](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-1299393716.avif',
@@ -91,7 +91,7 @@ hero:
     details: '',
     items: [],
     linkText: 'اطلاعات بیشتر',
-    link: '../../company-registration/insights/incorporation-steps',
+    link: '/uae-business/company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
       dark: '/img/iStock-1160827423.avif',

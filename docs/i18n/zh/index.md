@@ -46,7 +46,7 @@ hero:
   },
   {
     title: '银行账户开立',
-    details: '在阿联酋信誉良好的银行轻松开设企业或个人账户。',
+    details: '在阿联酋信誉良好的银行轻松开设商业或个人账户。',
     items: [
       '提供政府审批全程PRO服务',
       '完整的银行开户套餐',
@@ -81,7 +81,7 @@ hero:
 <FeatureCards :features="[
   {
     title: '合规服务',
-    details: '我们的专家指导您完成复杂的阿联酋监管要求，包括ESR报告和UBO申报。',
+    details: '我们的专家指导您完成阿联酋复杂的监管要求，包括ESR报告和UBO申报。',
     items: [],
     linkText: 'Learn more',
     link: '/uae-business/company-registration/Protect-Your-Business',

@@ -92,7 +92,7 @@ hero:
     details: '',
     items: [],
     linkText: 'Saiba mais',
-    link: '../../company-registration/insights/incorporation-steps',
+    link: '/uae-business/company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
       dark: '/img/iStock-1160827423.avif',

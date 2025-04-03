@@ -6,7 +6,7 @@ showSponsors: false
 
 hero:
   name: "تأسيس شركة في الإمارات: نشارككم المخاطر"
-  tagline: "نمّي أعمالك براحة بال. <span class='hl'>لا رسوم وكيل حتى الموافقة</span>. لا نحصل على أجرنا حتى تحصل على النتائج."
+  tagline: "نمّي أعمالك براحة بال. <span class='hl'>صفر رسوم وكيل حتى الموافقة</span>. لا نحصل على أجرنا حتى تحصل على النتائج."
   image:
     light:
       src: /img/Logo.avif
@@ -31,7 +31,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'التحديات التي نواجهها معاً',
-  details: 'رغم المزايا العديدة التي تقدمها الإمارات، يجب على الشركات أن تدرك التحديات المحتملة عند تأسيس عملياتها. \n\n* بيئة تنظيمية معقدة: لوائح مختلفة عبر الإمارات والمناطق الحرة\n* متطلبات الوجود الاقتصادي: حاجة لموظفين محليين ومكتب فعلي لبعض الأنشطة\n* تكاليف أولية مرتفعة: رسوم التسجيل والوثائق وإيجارات المكاتب الإلزامية\n\n[عرض القائمة الكاملة](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'رغم المزايا العديدة في الإمارات، يجب على الشركات أن تدرك التحديات المحتملة عند تأسيس عملياتها. \n\n* بيئة تنظيمية معقدة: لوائح مختلفة عبر الإمارات والمناطق الحرة\n* متطلبات الوجود الاقتصادي: حاجة لموظفين محليين ومكتب فعلي لبعض الأنشطة\n* تكاليف أولية مرتفعة: رسوم التسجيل والوثائق وإيجارات المكاتب الإلزامية\n\n[عرض القائمة الكاملة](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-1299393716.avif',
@@ -42,7 +42,7 @@ hero:
 }" />
 
 <FeatureBlock :card="{
-  title: 'دعم كامل: خطوة بخطوة معك',
+  title: 'دعم شامل: خطوة بخطوة معك',
   details: 'دليل كامل لتأسيس الشركات في **Free Zone والـ Offshore والـ Mainland والفروع**. \n\n* ملكية أجنبية 100٪ متاحة في Free Zones والـ Mainland\n* معدلات ضريبية منخفضة - 9٪ ضريبة شركات فقط\n* لا قيود على العملات - سهولة إعادة رأس المال\n\n[اعرف المزيد](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
@@ -56,7 +56,7 @@ hero:
 <FeatureCards :features="[
   {
     title: 'فتح الحساب المصرفي',
-    details: 'افتح حسابات مصرفية تجارية أو شخصية **بسهولة** مع البنوك الإماراتية الموثوقة.',
+    details: 'افتح **حسابات مصرفية** شخصية أو تجارية بسهولة مع البنوك الإماراتية الموثوقة.',
     items: [
       'خدمات PRO شاملة للموافقات الحكومية',
       'إعداد حزمة مصرفية كاملة',
@@ -72,7 +72,7 @@ hero:
   },
   {
     title: 'التأشيرة الذهبية والإقامة',
-    details: 'احصل على **Golden Visa** الإماراتية للإقامة طويلة الأمد بعملية تقديم سلسة.',
+    details: 'احصل على **Golden Visa** الإماراتية للإقامة طويلة الأمد مع عملية تقديم سلسة.',
     items: [
       '**لا حاجة لدخول الإمارات كل 6 أشهر**',
       'صلاحية 10 سنوات مع إمكانية التجديد عند استيفاء الشروط المؤهلة',
@@ -91,7 +91,7 @@ hero:
     details: '',
     items: [],
     linkText: 'اعرف المزيد',
-    link: '../../company-registration/insights/incorporation-steps',
+    link: '/uae-business/company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
       dark: '/img/iStock-1160827423.avif',

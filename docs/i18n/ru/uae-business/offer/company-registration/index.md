@@ -1,13 +1,13 @@
 ---
 layout: home
-title: "Бизнес в ОАЭ без риска | Нет одобрения - нет оплаты"
+title: "Бизнес в ОАЭ без риска | Оплата после одобрения"
 description: "Революционная модель создания компании в ОАЭ: оплата только после успеха. Экспертное сопровождение на каждом этапе с уровнем успеха более 90%."
 showSponsors: false
 
 hero:
-  name: "Регистрация компании в ОАЭ: мы разделяем ваш риск"
+  name: "Регистрация компании в ОАЭ: Мы разделяем ваш риск"
   # text: Оплата по результату
-  tagline: "Развивайте свой бизнес со спокойствием. <span class='hl'>Никаких агентских сборов до одобрения</span>. Мы не получаем оплату, пока вы не получите результат."
+  tagline: "Развивайте свой бизнес со спокойствием. <span class='hl'>Без агентских сборов до одобрения</span>. Мы получаем оплату только после достижения результата."
   image:
     light:
       src: /img/Logo.avif
@@ -20,7 +20,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Ваши преимущества — наша ответственность',
-  details: 'ОАЭ предлагает множество преимуществ для международных предпринимателей и инвесторов, ищущих благоприятную бизнес-среду. \n\n* Низкие налоговые ставки: Всего 9% корпоративного налога и 5% НДС без подоходного налога\n* 100% иностранное владение: Полный контроль над вашей компанией без местных партнеров\n* Отсутствие валютного контроля: Неограниченная репатриация прибыли и обмен валюты\n\n[Показать полный список](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'ОАЭ предлагает множество преимуществ для международных предпринимателей и инвесторов, ищущих благоприятную бизнес-среду. \n\n* Низкие налоговые ставки: Всего 9% корпоративного налога и 5% НДС без подоходного налога\n* 100% иностранное владение: Полный контроль над компанией без местных партнеров\n* Отсутствие валютного контроля: Неограниченная репатриация прибыли и обмен валюты\n\n[Показать полный список](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -44,7 +44,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Полная поддержка: шаг за шагом с вами',
-  details: 'Полное руководство по созданию компаний в **free zone, offshore, mainland, branch**. \n\n* 100% иностранное владение доступно в Free Zones и Mainland\n* Низкие налоговые ставки - всего 9% корпоративного налога\n* Отсутствие валютного контроля - легкая репатриация капитала\n\n[Узнать больше](/uae-business/company-registration/overview)',
+  details: 'Полное руководство по созданию компаний в **free zone, offshore, mainland, branch**. \n\n* 100% иностранное владение доступно в Free Zones и Mainland\n* Низкие налоговые ставки - только 9% корпоративного налога\n* Отсутствие валютного контроля - легкая репатриация капитала\n\n[Узнать больше](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -92,7 +92,7 @@ hero:
     details: '',
     items: [],
     linkText: 'Узнать больше',
-    link: '../../company-registration/insights/incorporation-steps',
+    link: '/uae-business/company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
       dark: '/img/iStock-1160827423.avif',

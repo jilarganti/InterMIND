@@ -1,13 +1,13 @@
 ---
 layout: home
 title: "阿联酋无风险创业 | 无批准不收费"
-description: "革新性的阿联酋公司注册模式：仅在成功后付费。专业指导全程陪伴，成功率超90%。"
+description: "革新性的阿联酋公司成立模式：仅在成功后付费。专业指导全程陪伴，成功率超过90%。"
 showSponsors: false
 
 hero:
-  name: "阿联酋公司注册：我们与您共担风险"
+  name: "阿联酋公司成立：我们与您共担风险"
   # text: 按结果付费
-  tagline: "安心发展您的业务。<span class='hl'>获批前零代理费</span>。我们只在您获得成果后收费。"
+  tagline: "安心发展您的业务。<span class='hl'>获得批准前零代理费</span>。我们只在您获得成果后收费。"
   image:
     light:
       src: /img/Logo.avif
@@ -16,11 +16,12 @@ hero:
       src: /img/Logo.avif
       width: 40%
     alt: Golden Fish标志
+
 ---
 
 <FeatureBlock :card="{
   title: '您的优势 — 我们的责任',
-  details: '阿联酋为寻求有利商业环境的国际企业家和投资者提供众多优势。\n\n* 低税率：仅9%公司税和5%增值税，无个人所得税\n* 100%外资所有权：无需本地合伙人，完全控制您的公司\n* 无货币管制：利润汇回和货币兑换不受限制\n\n[查看完整列表](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: '阿联酋为寻求有利商业环境的国际企业家和投资者提供众多优势。\n\n* 低税率：仅9%公司税和5%增值税，无个人所得税\n* 100%外资所有权：无需本地合作伙伴，完全控制您的公司\n* 无货币管制：利润汇回和货币兑换不受限制\n\n[查看完整列表](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -44,7 +45,7 @@ hero:
 
 <FeatureBlock :card="{
   title: '全程支持：与您同行每一步',
-  details: '完整指导在**自由区、离岸、大陆、分公司**设立公司。\n\n* 自由区和大陆均可100%外资所有\n* 低税率 - 仅9%公司税\n* 无货币管制 - 轻松资本汇回\n\n[了解更多](/uae-business/company-registration/overview)',
+  details: '完整指导在**自由区、离岸、大陆、分公司**设立公司。\n\n* 自由区和大陆均可100%外资所有权\n* 低税率 - 仅9%公司税\n* 无货币管制 - 轻松资本汇回\n\n[了解更多](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -59,7 +60,7 @@ hero:
     title: '银行账户开立',
     details: '轻松在阿联酋信誉银行开立商业或个人**银行账户**。',
     items: [
-      '政府审批全程PRO服务',
+      '政府审批的全程PRO服务',
       '完整银行服务包设置',
       '96%成功率'
     ],
@@ -92,7 +93,7 @@ hero:
     details: '',
     items: [],
     linkText: '了解更多',
-    link: '../../company-registration/insights/incorporation-steps',
+    link: '/uae-business/company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
       dark: '/img/iStock-1160827423.avif',
@@ -121,7 +122,7 @@ hero:
   },
 ]" />
 
-## 预约免费咨询，了解您的资格并讨论可选方案。
+## 预约免费咨询，了解您的资格并讨论选项。
 
 <video  autoplay muted playsinline style="padding: 80px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">

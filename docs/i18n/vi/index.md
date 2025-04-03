@@ -28,7 +28,7 @@ hero:
     title: 'Hướng Dẫn Thành Lập Công Ty',
     details: 'Hướng dẫn đầy đủ để thành lập công ty tại **free zone, offshore, mainland, branch**.',
     items: [
-      'Cho phép 100% sở hữu nước ngoài tại Free Zones và Mainland',
+      'Cho phép 100% sở hữu nước ngoài tại Free Zone và Mainland',
       'Thuế suất thấp - chỉ 9% thuế doanh nghiệp',
       'Không kiểm soát tiền tệ - dễ dàng chuyển vốn về nước'
     ],
