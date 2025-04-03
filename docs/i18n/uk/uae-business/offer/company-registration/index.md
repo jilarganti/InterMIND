@@ -16,6 +16,7 @@ hero:
       src: /img/Logo.avif
       width: 40%
     alt: Логотип Golden Fish
+---
 
 <FeatureBlock :card="{
   title: 'Ваші переваги — наша відповідальність',
