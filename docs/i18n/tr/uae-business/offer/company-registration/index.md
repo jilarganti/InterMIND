@@ -1,12 +1,12 @@
 ---
 layout: home
 title: "BAE'de Risksiz İş Kurma | Onay Yoksa Ödeme Yok"
-description: "Devrimsel BAE şirket kuruluş modeli: sadece başarı sonrası ödeme yapın. Her aşamada %90+ başarı oranıyla uzman rehberlik."
+description: "Devrimsel BAE şirket kuruluş modeli: sadece başarı sonrası ödeme yapın. %90'ın üzerinde başarı oranıyla her aşamada uzman rehberlik."
 showSponsors: false
 
 hero:
   name: "BAE Şirket Kuruluşu: Riskinizi Paylaşıyoruz"
-  # text: Sonuca göre ödeme
+  # text: Payment by results
   tagline: "İş dünyasında huzurla büyüyün. <span class='hl'>Onay alınana kadar sıfır acente ücreti</span>. Siz sonuç almadan biz ücret almıyoruz."
   image:
     light:
@@ -17,9 +17,11 @@ hero:
       width: 40%
     alt: Golden Fish logosu
 
+---
+
 <FeatureBlock :card="{
   title: 'Sizin Avantajlarınız — Bizim Sorumluluğumuz',
-  details: 'BAE, uygun iş ortamı arayan uluslararası girişimci ve yatırımcılara çok sayıda avantaj sunmaktadır. \n\n* Düşük Vergi Oranları: Sadece %9 kurumlar vergisi ve %5 KDV, gelir vergisi yok\n* %100 Yabancı Mülkiyet: Yerel ortaklar olmadan şirketinizin tam kontrolü\n* Döviz Kontrolü Yok: Kısıtlamasız kar transferi ve döviz işlemleri\n\n[Tam listeyi göster](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'BAE, uygun iş ortamı arayan uluslararası girişimciler ve yatırımcılar için çok sayıda avantaj sunmaktadır. \n\n* Düşük Vergi Oranları: Sadece %9 kurumlar vergisi ve %5 KDV, gelir vergisi yok\n* %100 Yabancı Mülkiyet: Yerel ortaklar olmadan şirketinizin tam kontrolü\n* Döviz Kontrolü Yok: Kısıtlamasız kar transferi ve döviz işlemleri\n\n[Tam listeyi göster](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -31,11 +33,11 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Birlikte Üstesinden Geldiğimiz Zorluklar',
-  details: 'BAE birçok avantaj sunarken, işletmeler faaliyetlerini kurarken olası zorluklardan haberdar olmalıdır. \n\n* Karmaşık Düzenleyici Ortam: Emirlikler ve free zone\'lar arasında farklı düzenlemeler\n* Ekonomik Maddi Varlık Gereklilikleri: Belirli faaliyetler için yerel personel ve fiziksel ofis alanı gerekli\n* Yüksek Başlangıç Maliyetleri: Kayıt ücretleri, belgeler ve zorunlu ofis kiraları\n\n[Tam listeyi göster](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'BAE birçok fayda sunarken, işletmeler operasyonlarını kurarken potansiyel zorlukların farkında olmalıdır. \n\n* Karmaşık Düzenleyici Ortam: Emirlikler ve Free Zone\'lar arasında farklı düzenlemeler\n* Ekonomik Madde Gereksinimleri: Belirli faaliyetler için yerel personel ve fiziksel ofis alanı gerekli\n* Yüksek Başlangıç Maliyetleri: Kayıt ücretleri, dokümantasyon ve zorunlu ofis kiraları\n\n[Tam listeyi göster](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
-    light: '/img/iStock-1299393716.avif',
-    dark: '/img/iStock-2149731304.avif',
+      light: '/img/iStock-1299393716.avif',
+      dark: '/img/iStock-2149731304.avif',
     width: '100%'
   },
   inversion: true
@@ -43,7 +45,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Tam Destek: Adım Adım Yanınızdayız',
-  details: '**Free zone, offshore, mainland, branch** şirket kurulumları için eksiksiz rehber. \n\n* Free Zone ve Mainland\'de %100 Yabancı Mülkiyet mümkün\n* Düşük Vergi Oranları - sadece %9 kurumlar vergisi\n* Döviz Kontrolü Yok - kolay sermaye transferi\n\n[Daha fazla bilgi](/uae-business/company-registration/overview)',
+  details: '**Free Zone, offshore, mainland, şube** şirket kurulumları için eksiksiz rehber. \n\n* Free Zone ve Mainland\'de %100 Yabancı Mülkiyet mümkün\n* Düşük Vergi Oranları - sadece %9 kurumlar vergisi\n* Döviz Kontrolü Yok - kolay sermaye transferi\n\n[Daha fazla bilgi](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -58,8 +60,8 @@ hero:
     title: 'Banka Hesabı Açılışı',
     details: 'BAE\'nin güvenilir bankalarında kolayca ticari veya kişisel **banka hesapları** açın.',
     items: [
-      'Devlet onayları için eksiksiz PRO hizmetleri',
-      'Tam bankacılık paketi kurulumu',
+      'Devlet onayları için kapsamlı PRO hizmetleri',
+      'Eksiksiz bankacılık paketi kurulumu',
       '%96 başarı oranı'
     ],
     linkText: 'Daha fazla bilgi',
@@ -72,7 +74,7 @@ hero:
   },
   {
     title: 'Golden Visa ve İkamet',
-    details: 'Sorunsuz bir başvuru süreciyle uzun süreli ikamet için BAE **Golden Visa** alın.',
+    details: 'Sorunsuz bir başvuru süreciyle uzun süreli ikamet için **Golden Visa** alın.',
     items: [
       '**Her 6 ayda bir BAE\'ye girme zorunluluğu yok**',
       'Yeterlilik koşullarını koruyarak 10 yıl geçerlilik ve yenileme seçeneği',
@@ -105,13 +107,13 @@ hero:
 <BenefitsList :features="[
   {
     icon: '🏢',
-    title: 'BAE Yerel Uzmanlığı',
+    title: 'Yerel BAE Uzmanlığı',
     text: 'Dubai\'deki uzman ekibimiz sürecin her adımında profesyonel rehberlik sağlar.'
   },
   {
     icon: '📊',
     title: 'Kanıtlanmış Başarı Oranı',
-    text: 'Premium hizmetlerimiz aracılığıyla yüzlerce vize, banka hesabı ve şirket tescili ile %90\'ın üzerinde onay oranı.'
+    text: 'Premium hizmetlerimiz aracılığıyla %90\'ın üzerinde onay oranıyla yüzlerce vize, banka hesabı ve şirket tescili gerçekleştirilmiştir.'
   },
   {
     icon: '💸',

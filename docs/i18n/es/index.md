@@ -1,17 +1,17 @@
 ---
 layout: home
 title: "Servicios de Formación de Empresas en los EAU"
-description: "Servicios expertos de formación y soporte empresarial en EAU. Configuración de empresas, banca, impuestos, soluciones legales y de visados. Pague solo después de la aprobación."
+description: "Servicios expertos de formación y soporte empresarial en EAU. Establecimiento de empresas, servicios bancarios, fiscales, legales y de visados. Pago solo después de la aprobación."
 showSponsors: false
 
 hero:
   name: "EAU: Su Puerto Seguro Financiero"
   # text: We speak your tongue
-  tagline: "Soporte Empresarial Completo: Configuración de Empresas, Visados, Banca. <span class='hl'>Sin éxito — sin cargo</span>."
+  tagline: "Soporte Empresarial Completo: Establecimiento de Empresas, Visados, Servicios Bancarios. <span class='hl'>Sin éxito — sin cargo</span>."
 
   actions:
     - theme: brand
-      text: Get Free Consultation
+      text: Obtener Consulta Gratuita
       link: /resources/contacts
     # - theme: alt
     #   text: Support 24/7
@@ -23,16 +23,16 @@ hero:
     dark:
       src: /img/Logo.avif
       width: 40%
-    alt: Logotipo Golden Fish
+    alt: Logo Golden Fish
 ---
 
 <FeatureCards :features="[
   {
-    title: 'Guía de Configuración de Empresas',
-    details: 'Guía completa para establecer empresas en **free zone, offshore, mainland, branch**.',
+    title: 'Guía de Establecimiento de Empresas',
+    details: 'Guía completa para establecer empresas en **Free Zone, offshore, Mainland, branch**.',
     items: [
-      'Propiedad 100% Extranjera disponible en Free Zones y Mainland',
-      'Tasas Impositivas Bajas - solo 9% de impuesto corporativo',
+      'Disponible 100% de Propiedad Extranjera en Free Zones y Mainland',
+      'Bajas Tasas Impositivas - solo 9% de impuesto corporativo',
       'Sin Control de Divisas - fácil repatriación de capital'
     ],
     linkText: 'Learn more',
@@ -40,7 +40,7 @@ hero:
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
-      alt: 'Guía de Configuración de Empresas'
+      alt: 'Guía de Establecimiento de Empresas'
     }
   },
   {
@@ -134,7 +134,7 @@ hero:
   {
     icon: '🏢',
     title: 'Experiencia Local en EAU',
-    text: 'Especialistas dedicados en Dubái proporcionan orientación experta en cada paso del proceso.'
+    text: 'Especialistas dedicados en Dubai proporcionan orientación experta en cada paso del proceso.'
   },
   {
     icon: '📊',
@@ -156,9 +156,9 @@ hero:
 
 **¿Habrá restricciones de propiedad si los extranjeros establecen una empresa en UAE?**
 
-Ciertas entidades comerciales de UAE, como aquellas involucradas en sectores estratégicos específicos, requerirán que los clientes nombren accionista(s) emiratí(es). Por lo tanto, es esencial elegir la entidad comercial óptima que se adapte a sus necesidades corporativas para proceder con el establecimiento de una empresa en UAE.
+Ciertas entidades comerciales de UAE, como las involucradas en sectores estratégicos específicos, requerirán que los clientes nombren accionista(s) emiratí(es). Por lo tanto, es esencial elegir la entidad comercial óptima que se adapte a sus necesidades corporativas para proceder con el establecimiento de una empresa en UAE.
 
-**¿Mi empresa puede ser 100% de propiedad extranjera?**
+**¿Puede mi empresa ser 100% de propiedad extranjera?**
 
 Sí, la mayoría de las actividades comerciales permiten 100% de propiedad extranjera.
 
@@ -166,11 +166,11 @@ Sí, la mayoría de las actividades comerciales permiten 100% de propiedad extra
 
 **¿Cómo se registra una empresa en la free trade zone de UAE?**
 
-Para la constitución de una entidad en free zone en UAE, Golden Fish:
+Para la incorporación de una entidad en free zone en UAE, Golden Fish:
 
 1. Obtendrá los permisos necesarios de las autoridades pertinentes.
 2. Reservará el nombre de la empresa.
-3. Preparará los documentos de constitución.
+3. Preparará los documentos de incorporación.
 4. Notarizará los documentos en los tribunales públicos.
 5. Solicitará la licencia comercial.
 6. Registrará la empresa para IVA (si es necesario).
@@ -191,7 +191,7 @@ Las empresas en free zone de UAE ofrecen varios beneficios, incluyendo:
 
 Solo se requiere un director para formar una empresa en free zone de UAE.
 
-**¿Cuántos accionistas se requieren para constituirse en una free trade zone de UAE?**
+**¿Cuántos accionistas se requieren para incorporarse en una free trade zone de UAE?**
 
 Solo se requiere un accionista para iniciar una entidad en free zone en UAE.
 
@@ -209,9 +209,9 @@ No.
 
 ### Logística e Instalaciones
 
-**¿Necesito visitar UAE para constituir una empresa allí?**
+**¿Necesito visitar UAE para incorporar una empresa allí?**
 
-No, Golden Fish puede constituir legalmente su empresa en UAE sin necesidad de viajar.
+No, Golden Fish puede incorporar legalmente su empresa en UAE sin necesidad de viajar.
 
 **¿Necesito alquilar instalaciones para mi empresa?**
 
@@ -219,7 +219,7 @@ Los requisitos difieren según el tipo de empresa:
 
 | Tipo de Empresa   | Requisito de Oficina                                                                    |
 | ----------------- | --------------------------------------------------------------------------------------- |
-| Empresa Free Zone | Se requiere un contrato de arrendamiento de oficina o flexi-desk antes de la constitución. |
+| Empresa Free Zone | Se requiere un contrato de arrendamiento de oficina o flexi-desk antes de la incorporación. |
 | Empresa Mainland  | Solo se necesita una dirección virtual o registrada.                                     |
 | Empresa Offshore  | Solo se necesita una dirección virtual o registrada.                                     |
 
@@ -227,7 +227,7 @@ Esta tabla comparativa ayuda a aclarar las diferencias entre los requisitos para
 
 ### Cumplimiento y Tributación
 
-**¿Se me requerirá obtener una auditoría completa si establezco una pequeña empresa en UAE?**
+**¿Se requerirá una auditoría completa si establezco una pequeña empresa en UAE?**
 
 Sí, la mayoría de las entidades requerirán estados financieros auditados.
 
@@ -235,7 +235,7 @@ Sí, la mayoría de las entidades requerirán estados financieros auditados.
 
 El Impuesto sobre la Renta Corporativa (CIT) se ha implementado en UAE a una tasa estándar del 9%. Además, dependiendo del volumen y naturaleza del negocio, algunas empresas están sujetas al IVA (5%) y/o aranceles aduaneros. Industrias específicas, como petróleo y gas y sucursales de bancos extranjeros, pueden tener consideraciones o exenciones fiscales especiales.
 
-**¿Una empresa de UAE está obligada a presentar una declaración de impuestos anual y/o estado financiero?**
+**¿Una empresa de UAE debe presentar una declaración de impuestos anual y/o estado financiero?**
 
 Sí, todas las empresas en UAE están obligadas a presentar cuentas auditadas anuales al gobierno.
 
@@ -255,7 +255,7 @@ Estos bancos son conocidos por su buen servicio al cliente, lo cual es esencial 
 
 **¿Cómo abro una cuenta bancaria offshore en UAE?**
 
-Los clientes no necesitarán registrar una empresa local para abrir una cuenta bancaria offshore en UAE. Sin embargo, los procedimientos KYC serán más estrictos que los de apertura de una cuenta bancaria para una empresa residente. También se requerirán documentos de certificación. Consulte [nuestra guía de apertura de cuenta bancaria para empresas UAE](/uae-business/company-registration/banking) para obtener información más detallada.
+Los clientes no necesitarán registrar una empresa local para abrir una cuenta bancaria offshore en UAE. Sin embargo, los procedimientos KYC serán más estrictos que los de apertura de una cuenta bancaria para una empresa residente. También se requerirán documentos de atestación. Consulte [nuestra guía de apertura de cuenta bancaria para empresas UAE](./uae-business/company-registration/banking) para obtener información más detallada.
 
 **¿Puede Golden Fish ayudar con servicios de Banca Islámica en UAE?**
 
@@ -263,8 +263,8 @@ Sí, Golden Fish puede ayudar a los clientes con sus necesidades de banca islám
 
 ### Visas y Residencia
 
-**¿Por cuánto tiempo se emite una visa de residencia empresarial de UAE?**
+**¿Por cuánto tiempo se emite una visa de residencia empresarial en UAE?**
 
-Los permisos de residencia empresarial de UAE se emiten típicamente por 2 a 3 años.
+Los permisos de residencia empresarial en UAE se emiten típicamente por 2 a 3 años.
 
 :::

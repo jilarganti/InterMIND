@@ -255,7 +255,7 @@ These banks are known for good customer service, which is essential when startin
 
 **How do I open an offshore bank account in the UAE?**
 
-Clients will not be required to register a local company to open an offshore bank account in the UAE. However, the KYC procedures will be more stringent than those for opening a bank account for a resident company. Attestation documents will also be required. Please refer to [our bank account opening guide for UAE companies](/uae-business/company-registration/banking) for more detailed information.
+Clients will not be required to register a local company to open an offshore bank account in the UAE. However, the KYC procedures will be more stringent than those for opening a bank account for a resident company. Attestation documents will also be required. Please refer to [our bank account opening guide for UAE companies](./uae-business/company-registration/banking) for more detailed information.
 
 **Can Golden Fish assist with Islamic Banking services in the UAE?**
 
