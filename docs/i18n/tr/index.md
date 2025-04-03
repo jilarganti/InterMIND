@@ -154,25 +154,25 @@ hero:
 
 ### Genel Sahiplik Gereksinimleri
 
-**Yabancılar BAE'de şirket kurduğunda sahiplik konusunda kısıtlamalar olacak mı?**
+**Yabancılar BAE'de şirket kurduğunda mülkiyet konusunda kısıtlamalar olacak mı?**
 
-Belirli BAE işletme kuruluşları, özellikle stratejik sektörlerde faaliyet gösterenler, müşterilerin Emirlik hissedarı/hissedarları atamasını gerektirecektir. Bu nedenle, BAE'de iş kurulumu için kurumsal ihtiyaçlarınıza uygun optimal işletme kuruluşunu seçmek önemlidir.
+Belirli BAE işletme kuruluşları, özellikle stratejik sektörlerde faaliyet gösterenler, müşterilerin Emirlik hissedarı/hissedarları atamasını gerektirecektir. Bu nedenle, BAE'de iş kurulumu ile devam etmek için kurumsal ihtiyaçlarınıza uygun optimal işletme kuruluşunu seçmek önemlidir.
 
 **Şirketim %100 yabancı sermayeli olabilir mi?**
 
-Evet, çoğu iş faaliyeti %100 yabancı sahipliğine izin vermektedir.
+Evet, çoğu iş faaliyeti %100 yabancı mülkiyete izin vermektedir.
 
 ### Şirket Tescili
 
 **BAE serbest ticaret bölgesinde şirket nasıl tescil edilir?**
 
-BAE'de bir serbest bölge kuruluşunun tescili için Golden Fish:
+Golden Fish, BAE'de serbest bölge kuruluşu için:
 
 1. İlgili makamlardan gerekli izinleri alır.
 2. Şirket adını rezerve eder.
 3. Kuruluş belgelerini hazırlar.
 4. Belgeleri kamu mahkemelerinde noter tasdiki yapar.
-5. İşletme ruhsatı için başvurur.
+5. İş lisansı için başvurur.
 6. Şirketi KDV için kaydeder (gerekirse).
 7. Müşteriler ve çalışanları için çalışma vizesi alır.
 
@@ -207,23 +207,23 @@ Hayır.
 
 Hayır.
 
-### Lojistik ve İşyeri
+### Lojistik ve Tesisler
 
 **BAE'de şirket kurmak için BAE'yi ziyaret etmem gerekiyor mu?**
 
 Hayır, Golden Fish seyahat etmenize gerek kalmadan BAE şirketinizi yasal olarak kurabilir.
 
-**Şirketim için işyeri kiralamam gerekiyor mu?**
+**Şirketim için ofis kiralamam gerekiyor mu?**
 
 Gereksinimler şirket türüne göre değişir:
 
 | Şirket Türü      | Ofis Gerekliliği                                                                     |
 | ----------------- | ------------------------------------------------------------------------------------ |
-| Serbest Bölge Şirketi | Kuruluş öncesi ofis alanı veya flexi-desk için kira sözleşmesi gereklidir.         |
-| Mainland Şirketi  | Sadece sanal veya kayıtlı adres gereklidir.                                         |
-| Offshore Şirketi  | Sadece sanal veya kayıtlı adres gereklidir.                                         |
+| Serbest Bölge Şirketi | Kuruluş öncesi ofis alanı veya flexi-desk için kira sözleşmesi gereklidir. |
+| Mainland Şirketi  | Sadece sanal veya kayıtlı adres gereklidir.                                        |
+| Offshore Şirketi  | Sadece sanal veya kayıtlı adres gereklidir.                                        |
 
-Bu karşılaştırma tablosu, serbest bölge, mainland ve offshore şirketleri için gereksinimleri açıklamaktadır.
+Bu karşılaştırma tablosu, serbest bölge, mainland ve offshore şirketleri için gereksinimleri açıkça göstermektedir.
 
 ### Uyum ve Vergilendirme
 
@@ -233,17 +233,17 @@ Evet, çoğu kuruluş denetlenmiş mali tablolar gerektirecektir.
 
 **BAE şirket kurulumunun vergi etkileri nelerdir?**
 
-BAE'de Kurumlar Vergisi (CIT) standart %9 oranında uygulanmaktadır. Ayrıca, işin hacmine ve niteliğine bağlı olarak, bazı şirketler KDV (%5) ve/veya gümrük vergilerine tabidir. Petrol ve gaz gibi belirli sektörler ve yabancı bankaların şubeleri özel vergi düzenlemelerine veya muafiyetlere tabi olabilir.
+BAE'de Kurumlar Vergisi (CIT) standart %9 oranında uygulanmaktadır. Ayrıca, işin hacmine ve niteliğine bağlı olarak, bazı şirketler KDV (%5) ve/veya gümrük vergilerine tabidir. Petrol ve gaz gibi belirli sektörler ve yabancı bankaların şubeleri özel vergi değerlendirmelerine veya muafiyetlere tabi olabilir.
 
 **BAE şirketinin yıllık vergi beyannamesi ve/veya mali tablo sunması gerekli midir?**
 
-Evet, BAE'deki tüm şirketlerin hükümete yıllık denetlenmiş hesapları sunması zorunludur.
+Evet, BAE'deki tüm şirketler hükümete yıllık denetlenmiş hesaplar sunmak zorundadır.
 
 ### Bankacılık Çözümleri
 
 **BAE iş bankacılığı çözümleri için hangi bankalar önerilir?**
 
-Golden Fish aşağıdaki yerel BAE bankalarını önermektedir:
+Golden Fish aşağıdaki yerel BAE banka seçeneklerini önermektedir:
 
 1. Emirates NBD
 2. First Abu Dhabi Bank
@@ -255,7 +255,7 @@ Bu bankalar, BAE'de yeni bir işe başlarken önemli olan iyi müşteri hizmetle
 
 **BAE'de offshore banka hesabı nasıl açılır?**
 
-Müşterilerin BAE'de offshore banka hesabı açmak için yerel şirket kaydettirmesi gerekmeyecektir. Ancak, KYC prosedürleri yerleşik bir şirket için banka hesabı açmaktan daha katı olacaktır. Tasdik belgeleri de gerekecektir. Daha detaylı bilgi için lütfen [BAE şirketleri için banka hesabı açma rehberimize](./banking) bakınız.
+Müşterilerin BAE'de offshore banka hesabı açmak için yerel şirket kaydettirmesi gerekmeyecektir. Ancak, KYC prosedürleri yerleşik bir şirket için banka hesabı açmaya göre daha sıkı olacaktır. Tasdik belgeleri de gerekecektir. Daha detaylı bilgi için lütfen [BAE şirketleri için banka hesabı açma rehberimize](/uae-business/company-registration/banking) bakınız.
 
 **Golden Fish BAE'de İslami Bankacılık hizmetlerinde yardımcı olabilir mi?**
 

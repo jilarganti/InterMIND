@@ -27,48 +27,7 @@ Key rules:
 
 5. Экранируй спецсимволы внутри текста в коде, но не внутри frontmatter.
 
-6. Если текст начинается с ---, это frontmatter. Обязательно добавляйте пустую строку в конце кода frontmatter с ---.
-Правильно:
----
-layout: home
-title: "Perbankan Korporat UAE | Layanan Berbasis Success Fee"
-description: "Rekening korporat multi-mata uang premium tanpa biaya di muka - bayar hanya setelah disetujui. Manajemen aplikasi lengkap dengan tingkat keberhasilan 98%. Pembukaan rekening dijamin."
-showSponsors: false
-
-hero:
-  name: "Perbankan UAE: Pelabuhan Aman Anda"
-  text: Tanpa biaya di muka
-  tagline: Jaminan persetujuan rekening bank korporat di 2025. <span class="hl">Tanpa biaya di muka</span> - bayar hanya setelah disetujui. Tingkat keberhasilan 90%.
-  image:
-    light:
-      src: /img/Logo.avif
-      width: 50%
-    dark:
-      src: /img/Logo.avif
-      width: 50%
-    alt: Logo Golden Fish
- ---   
-
-Неправильно:
-
----
-layout: home
-title: "Perbankan Korporat UAE | Layanan Berbasis Success Fee"
-description: "Rekening korporat multi-mata uang premium tanpa biaya di muka - bayar hanya setelah disetujui. Manajemen aplikasi lengkap dengan tingkat keberhasilan 98%. Pembukaan rekening dijamin."
-showSponsors: false
-
-hero:
-  name: "Perbankan UAE: Pelabuhan Aman Anda"
-  text: Tanpa biaya di muka
-  tagline: Jaminan persetujuan rekening bank korporat di 2025. <span class="hl">Tanpa biaya di muka</span> - bayar hanya setelah disetujui. Tingkat keberhasilan 90%.
-  image:
-    light:
-      src: /img/Logo.avif
-      width: 50%
-    dark:
-      src: /img/Logo.avif
-      width: 50%
-    alt: Logo Golden Fish
+6. Если текст начинается с --- это frontmatter. Обязательно добавляйте пустую строку в конце кода frontmatter с ---.
 
 7. Переводи заголовки с учетом SEO-оптимизации и культурных особенностей. Например, в русском языке слова в заголовках не пишутся с большой буквы.
 

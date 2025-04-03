@@ -134,7 +134,7 @@ hero:
   {
     icon: '🏢',
     title: 'Expertise Locale aux EAU',
-    text: 'Des spécialistes dévoués à Dubaï fournissent des conseils d\'experts à chaque étape du processus.'
+    text: 'Des spécialistes dédiés à Dubaï fournissent des conseils d\'experts à chaque étape du processus.'
   },
   {
     icon: '📊',
@@ -195,9 +195,9 @@ Un seul directeur est requis pour former une entreprise en free zone aux UAE.
 
 Un seul actionnaire est requis pour créer une entité en free zone aux UAE.
 
-**Combien d'actionnaires sont nécessaires pour une société offshore aux UAE ?**
+**Combien d'actionnaires sont requis pour une offshore company aux UAE ?**
 
-Un seul actionnaire est requis pour créer une société offshore aux UAE.
+Un seul actionnaire est requis pour créer une offshore company aux UAE.
 
 **Un directeur résident est-il requis ?**
 
@@ -219,9 +219,9 @@ Les exigences diffèrent selon le type d'entreprise :
 
 | Type d'entreprise | Exigence de bureau |
 | ----------------- | --------------------------------------------------------------------------------------- |
-| Entreprise Free Zone | Un contrat de location pour des locaux de bureau ou un flexi-desk est requis avant l'incorporation. |
-| Entreprise Mainland | Seule une adresse virtuelle ou enregistrée est nécessaire. |
-| Entreprise Offshore | Seule une adresse virtuelle ou enregistrée est nécessaire. |
+| Free Zone Company | Un contrat de location de bureaux ou un flexi-desk est requis avant l'incorporation. |
+| Mainland Company | Seule une adresse virtuelle ou enregistrée est nécessaire. |
+| Offshore Company | Seule une adresse virtuelle ou enregistrée est nécessaire. |
 
 Ce tableau comparatif aide à clarifier les différences entre les exigences pour les entreprises free zone, mainland et offshore.
 
@@ -235,7 +235,7 @@ Oui, la plupart des entités devront présenter des états financiers audités.
 
 L'impôt sur les sociétés (CIT) a été mis en place aux UAE au taux standard de 9%. De plus, selon le volume et la nature de l'activité, certaines entreprises sont assujetties à la TVA (5%) et/ou aux droits de douane. Des secteurs spécifiques, comme le pétrole et le gaz et les succursales de banques étrangères, peuvent avoir des considérations ou exemptions fiscales particulières.
 
-**Une entreprise aux UAE est-elle tenue de soumettre une déclaration fiscale annuelle et/ou un état financier ?**
+**Une entreprise des UAE est-elle tenue de soumettre une déclaration fiscale annuelle et/ou un état financier ?**
 
 Oui, toutes les entreprises aux UAE sont tenues de soumettre des comptes audités annuels au gouvernement.
 
@@ -255,7 +255,7 @@ Ces banques sont connues pour leur bon service client, ce qui est essentiel lors
 
 **Comment ouvrir un compte bancaire offshore aux UAE ?**
 
-Les clients n'auront pas besoin d'enregistrer une société locale pour ouvrir un compte bancaire offshore aux UAE. Cependant, les procédures KYC seront plus strictes que pour l'ouverture d'un compte bancaire pour une société résidente. Des documents d'attestation seront également requis. Veuillez consulter [notre guide d'ouverture de compte bancaire pour les entreprises aux UAE](./banking) pour plus d'informations détaillées.
+Les clients n'auront pas besoin d'enregistrer une entreprise locale pour ouvrir un compte bancaire offshore aux UAE. Cependant, les procédures KYC seront plus strictes que pour l'ouverture d'un compte bancaire pour une entreprise résidente. Des documents d'attestation seront également requis. Veuillez consulter [notre guide d'ouverture de compte bancaire pour les entreprises UAE](/uae-business/company-registration/banking) pour plus d'informations détaillées.
 
 **Golden Fish peut-il aider avec les services bancaires islamiques aux UAE ?**
 

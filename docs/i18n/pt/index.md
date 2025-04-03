@@ -116,7 +116,7 @@ hero:
   },
   {
     title: 'Contabilidade e Folha de Pagamento',
-    details: 'Nossos contadores gerenciam finanças, fornecendo contabilidade, reconciliação, folha de pagamento e suporte de auditoria, economizando custos de contratação.',
+    details: 'Nossos contadores gerenciam finanças, fornecendo contabilidade, reconciliação, folha de pagamento e suporte à auditoria, economizando custos de contratação.',
     items: [],
     linkText: 'Saiba mais',
     link: '/resources/contacts',
@@ -150,7 +150,7 @@ hero:
 
 ## Perguntas Frequentes
 
-:::details FAQ sobre Abertura de Empresa nos EAU
+:::details Perguntas Frequentes sobre Abertura de Empresa nos EAU
 
 ### Requisitos Gerais de Propriedade
 
@@ -178,7 +178,7 @@ Para incorporação de uma entidade na free zone nos EAU, a Golden Fish irá:
 
 **Quais são os benefícios de abrir uma entidade na free zone dos EAU?**
 
-As empresas na free zone dos EAU oferecem diversos benefícios, incluindo:
+As empresas da free zone dos EAU oferecem diversos benefícios, incluindo:
 
 1. Sem necessidade de acionista residente, ou seja, uma empresa FZ pode ser 100% de propriedade estrangeira.
 2. Sem obrigação de contratar funcionários.
@@ -195,9 +195,9 @@ Apenas um diretor é necessário para formar uma empresa na free zone dos EAU.
 
 Apenas um acionista é necessário para iniciar uma entidade na free zone nos EAU.
 
-**Quantos acionistas são necessários para uma offshore company nos EAU?**
+**Quantos acionistas são necessários para uma empresa offshore nos EAU?**
 
-Apenas um acionista é necessário para iniciar uma offshore company nos EAU.
+Apenas um acionista é necessário para iniciar uma empresa offshore nos EAU.
 
 **É necessário um diretor residente?**
 
@@ -219,9 +219,9 @@ Os requisitos variam com base no tipo de empresa:
 
 | Tipo de Empresa    | Requisito de Escritório                                                               |
 | ----------------- | --------------------------------------------------------------------------------------- |
-| Free Zone Company | Um contrato de aluguel para escritório ou flexi-desk é necessário antes da incorporação. |
-| Mainland Company  | Apenas um endereço virtual ou registrado é necessário.                                   |
-| Offshore Company  | Apenas um endereço virtual ou registrado é necessário.                                   |
+| Empresa Free Zone | Um contrato de aluguel para escritório ou flexi-desk é necessário antes da incorporação. |
+| Empresa Mainland  | Apenas um endereço virtual ou registrado é necessário.                                   |
+| Empresa Offshore  | Apenas um endereço virtual ou registrado é necessário.                                   |
 
 Esta tabela comparativa ajuda a esclarecer as diferenças entre os requisitos para empresas free zone, mainland e offshore.
 
@@ -235,7 +235,7 @@ Sim, a maioria das entidades exigirá demonstrações financeiras auditadas.
 
 O Imposto de Renda Corporativo (CIT) foi implementado nos EAU com uma taxa padrão de 9%. Além disso, dependendo do volume e natureza do negócio, algumas empresas estão sujeitas ao VAT (5%) e/ou taxas alfandegárias. Setores específicos, como petróleo e gás e filiais de bancos estrangeiros, podem ter considerações ou isenções fiscais especiais.
 
-**Uma empresa dos EAU precisa apresentar declaração fiscal anual e/ou demonstração financeira?**
+**Uma empresa dos EAU é obrigada a apresentar declaração fiscal anual e/ou demonstração financeira?**
 
 Sim, todas as empresas nos EAU são obrigadas a apresentar contas auditadas anuais ao governo.
 
@@ -255,7 +255,7 @@ Estes bancos são conhecidos pelo bom atendimento ao cliente, essencial ao inici
 
 **Como abrir uma conta bancária offshore nos EAU?**
 
-Os clientes não precisarão registrar uma empresa local para abrir uma conta bancária offshore nos EAU. No entanto, os procedimentos KYC serão mais rigorosos do que para abrir uma conta bancária para uma empresa residente. Documentos de autenticação também serão necessários. Consulte [nosso guia de abertura de conta bancária para empresas dos EAU](./banking) para informações mais detalhadas.
+Os clientes não precisarão registrar uma empresa local para abrir uma conta bancária offshore nos EAU. No entanto, os procedimentos KYC serão mais rigorosos do que para abrir uma conta bancária para uma empresa residente. Documentos de autenticação também serão necessários. Consulte [nosso guia de abertura de conta bancária para empresas dos EAU](/uae-business/company-registration/banking) para informações mais detalhadas.
 
 **A Golden Fish pode auxiliar com serviços bancários islâmicos nos EAU?**
 

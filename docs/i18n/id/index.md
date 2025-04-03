@@ -64,7 +64,7 @@ hero:
     details: 'Dapatkan **Golden Visa** UAE untuk izin tinggal jangka panjang dengan proses aplikasi yang lancar.',
     items: [
       '**Tidak perlu masuk UAE setiap 6 bulan**',
-      'Masa berlaku 10 tahun dengan opsi perpanjangan dengan mempertahankan syarat kualifikasi',
+      'Masa berlaku 10 tahun dengan opsi perpanjangan jika memenuhi syarat',
       'Tingkat keberhasilan 92%',
     ],
     linkText: 'Learn more',
@@ -139,12 +139,12 @@ hero:
   {
     icon: '📊',
     title: 'Tingkat Keberhasilan Terbukti',
-    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan pendaftaran perusahaan yang diproses melalui layanan premium kami.'
+    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan pendaftaran perusahaan yang dikeluarkan melalui pemrosesan premium kami.'
   },
   {
     icon: '💸',
     title: '**Biaya Berbasis Keberhasilan**',
-    text: '[Bayar hanya setelah disetujui](/uae-business/benefits/success-based-fees). Transparansi penuh tanpa biaya tersembunyi.'
+    text: '[Bayar hanya setelah persetujuan](/uae-business/benefits/success-based-fees). Transparansi penuh tanpa biaya tersembunyi.'
   },
 ]" />
 
@@ -156,7 +156,7 @@ hero:
 
 **Apakah ada pembatasan kepemilikan jika warga asing mendirikan perusahaan di UAE?**
 
-Beberapa entitas bisnis UAE, seperti yang terlibat dalam sektor strategis tertentu, akan mengharuskan klien untuk menunjuk pemegang saham Emirati. Oleh karena itu, memilih entitas bisnis yang optimal untuk memenuhi kebutuhan perusahaan Anda sangat penting untuk melanjutkan pendirian bisnis di UAE.
+Beberapa entitas bisnis UAE, seperti yang terlibat dalam sektor strategis tertentu, akan mengharuskan klien untuk menunjuk pemegang saham Emirati. Oleh karena itu, memilih entitas bisnis yang optimal untuk memenuhi kebutuhan korporat Anda sangat penting untuk melanjutkan pendirian bisnis di UAE.
 
 **Apakah perusahaan saya bisa dimiliki 100% oleh asing?**
 
@@ -211,7 +211,7 @@ Tidak.
 
 **Apakah saya harus mengunjungi UAE untuk mendirikan perusahaan di sana?**
 
-Tidak, Golden Fish dapat secara legal mendirikan perusahaan UAE Anda tanpa Anda perlu bepergian.
+Tidak, Golden Fish dapat secara legal mendirikan perusahaan UAE Anda tanpa perlu Anda bepergian.
 
 **Apakah saya perlu menyewa tempat untuk perusahaan saya?**
 
@@ -219,9 +219,9 @@ Persyaratan berbeda berdasarkan jenis perusahaan:
 
 | Jenis Perusahaan | Persyaratan Kantor |
 | ----------------- | --------------------------------------------------------------------------------------- |
-| Perusahaan Free Zone | Perjanjian sewa untuk tempat kantor atau flexi-desk diperlukan sebelum pendirian. |
-| Perusahaan Mainland | Hanya memerlukan alamat virtual atau terdaftar. |
-| Perusahaan Offshore | Hanya memerlukan alamat virtual atau terdaftar. |
+| Free Zone Company | Perjanjian sewa untuk tempat kantor atau flexi-desk diperlukan sebelum pendirian. |
+| Mainland Company | Hanya memerlukan alamat virtual atau terdaftar. |
+| Offshore Company | Hanya memerlukan alamat virtual atau terdaftar. |
 
 Tabel perbandingan ini membantu memperjelas perbedaan antara persyaratan untuk perusahaan free zone, mainland, dan offshore.
 
@@ -251,11 +251,11 @@ Golden Fish merekomendasikan beberapa pilihan bank lokal UAE, termasuk:
 4. Dubai Islamic Bank
 5. Mashreq Bank
 
-Bank-bank ini dikenal karena layanan pelanggan yang baik, yang penting saat memulai bisnis baru di UAE.
+Bank-bank ini dikenal dengan layanan pelanggan yang baik, yang penting saat memulai bisnis baru di UAE.
 
 **Bagaimana cara membuka rekening bank offshore di UAE?**
 
-Klien tidak akan diminta untuk mendaftarkan perusahaan lokal untuk membuka rekening bank offshore di UAE. Namun, prosedur KYC akan lebih ketat daripada untuk membuka rekening bank untuk perusahaan penduduk. Dokumen legalisasi juga akan diperlukan. Silakan lihat [panduan pembukaan rekening bank kami untuk perusahaan UAE](./banking) untuk informasi lebih detail.
+Klien tidak akan diminta untuk mendaftarkan perusahaan lokal untuk membuka rekening bank offshore di UAE. Namun, prosedur KYC akan lebih ketat daripada untuk membuka rekening bank untuk perusahaan penduduk. Dokumen legalisasi juga akan diperlukan. Silakan lihat [panduan pembukaan rekening bank kami untuk perusahaan UAE](/uae-business/company-registration/banking) untuk informasi lebih detail.
 
 **Apakah Golden Fish dapat membantu dengan layanan Perbankan Syariah di UAE?**
 

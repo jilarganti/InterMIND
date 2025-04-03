@@ -28,7 +28,7 @@ hero:
     title: 'Hướng Dẫn Thành Lập Công Ty',
     details: 'Hướng dẫn đầy đủ để thành lập công ty tại **free zone, offshore, mainland, branch**.',
     items: [
-      'Cho phép 100% sở hữu nước ngoài tại Free Zones và Mainland',
+      'Cho phép 100% sở hữu nước ngoài tại Free Zone và Mainland',
       'Thuế suất thấp - chỉ 9% thuế doanh nghiệp',
       'Không kiểm soát tiền tệ - dễ dàng chuyển vốn về nước'
     ],
@@ -153,7 +153,7 @@ hero:
 
 **Có hạn chế nào về quyền sở hữu khi người nước ngoài thành lập công ty tại UAE không?**
 
-Một số loại hình doanh nghiệp UAE, chẳng hạn như những doanh nghiệp hoạt động trong các lĩnh vực chiến lược cụ thể, sẽ yêu cầu khách hàng chỉ định (các) cổ đông người Emirates. Do đó, việc lựa chọn loại hình doanh nghiệp phù hợp nhất với nhu cầu của công ty là điều cần thiết để tiến hành thành lập doanh nghiệp tại UAE.
+Một số loại hình doanh nghiệp UAE, chẳng hạn như những doanh nghiệp hoạt động trong các lĩnh vực chiến lược cụ thể, sẽ yêu cầu khách hàng chỉ định (các) cổ đông người Emirates. Do đó, việc lựa chọn loại hình doanh nghiệp phù hợp nhất với nhu cầu của doanh nghiệp là điều cần thiết để tiến hành thành lập doanh nghiệp tại UAE.
 
 **Công ty của tôi có thể 100% vốn nước ngoài không?**
 
@@ -177,7 +177,7 @@ Có, hầu hết các hoạt động kinh doanh đều được phép sở hữu
 
 Các công ty trong khu vực tự do UAE có nhiều lợi ích, bao gồm:
 
-1. Không yêu cầu cổ đông thường trú, nghĩa là công ty FZ có thể 100% vốn nước ngoài.
+1. Không yêu cầu cổ đông thường trú, tức là công ty FZ có thể 100% vốn nước ngoài.
 2. Không bắt buộc phải thuê nhân viên.
 3. Không phải nộp thuế hải quan đối với hàng hóa ra vào khu vực.
 4. Cơ sở hạ tầng chất lượng cao.
@@ -226,9 +226,9 @@ Bảng so sánh này giúp làm rõ sự khác biệt về yêu cầu giữa cá
 
 **Tôi có cần kiểm toán đầy đủ nếu thành lập doanh nghiệp nhỏ tại UAE không?**
 
-Có, hầu hết các doanh nghiệp đều cần báo cáo tài chính được kiểm toán.
+Có, hầu hết các đơn vị đều cần báo cáo tài chính được kiểm toán.
 
-**Những tác động về thuế khi thành lập công ty UAE là gì?**
+**Những tác động thuế khi thành lập công ty UAE là gì?**
 
 Thuế Thu nhập Doanh nghiệp (CIT) đã được áp dụng tại UAE với mức thuế suất tiêu chuẩn là 9%. Ngoài ra, tùy thuộc vào quy mô và tính chất kinh doanh, một số công ty phải chịu thuế VAT (5%) và/hoặc thuế hải quan. Các ngành cụ thể như dầu khí và chi nhánh ngân hàng nước ngoài có thể có các cân nhắc hoặc miễn trừ thuế đặc biệt.
 
@@ -252,7 +252,7 @@ Các ngân hàng này nổi tiếng với dịch vụ khách hàng tốt, điề
 
 **Làm thế nào để mở tài khoản ngân hàng offshore tại UAE?**
 
-Khách hàng không cần đăng ký công ty địa phương để mở tài khoản ngân hàng offshore tại UAE. Tuy nhiên, thủ tục KYC sẽ nghiêm ngặt hơn so với việc mở tài khoản ngân hàng cho công ty thường trú. Cũng sẽ cần các tài liệu chứng thực. Vui lòng tham khảo [hướng dẫn mở tài khoản ngân hàng cho công ty UAE của chúng tôi](./banking) để biết thông tin chi tiết hơn.
+Khách hàng không cần đăng ký công ty địa phương để mở tài khoản ngân hàng offshore tại UAE. Tuy nhiên, thủ tục KYC sẽ nghiêm ngặt hơn so với việc mở tài khoản ngân hàng cho công ty thường trú. Cũng cần các tài liệu chứng thực. Vui lòng tham khảo [hướng dẫn mở tài khoản ngân hàng cho công ty UAE](/uae-business/company-registration/banking) để biết thông tin chi tiết hơn.
 
 **Golden Fish có hỗ trợ dịch vụ Ngân hàng Hồi giáo tại UAE không?**
 

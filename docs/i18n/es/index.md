@@ -156,9 +156,9 @@ hero:
 
 **¿Habrá restricciones de propiedad si los extranjeros establecen una empresa en UAE?**
 
-Ciertas entidades comerciales de UAE, como aquellas involucradas en sectores estratégicos específicos, requerirán que los clientes designen accionista(s) emiratí(es). Por lo tanto, es esencial elegir la entidad comercial óptima que se adapte a sus necesidades corporativas para proceder con el establecimiento de una empresa en UAE.
+Ciertas entidades comerciales de UAE, como aquellas involucradas en sectores estratégicos específicos, requerirán que los clientes nombren accionista(s) emiratí(es). Por lo tanto, es esencial elegir la entidad comercial óptima que se adapte a sus necesidades corporativas para proceder con el establecimiento de una empresa en UAE.
 
-**¿Puede mi empresa ser 100% de propiedad extranjera?**
+**¿Mi empresa puede ser 100% de propiedad extranjera?**
 
 Sí, la mayoría de las actividades comerciales permiten 100% de propiedad extranjera.
 
@@ -235,7 +235,7 @@ Sí, la mayoría de las entidades requerirán estados financieros auditados.
 
 El Impuesto sobre la Renta Corporativa (CIT) se ha implementado en UAE a una tasa estándar del 9%. Además, dependiendo del volumen y naturaleza del negocio, algunas empresas están sujetas al IVA (5%) y/o aranceles aduaneros. Industrias específicas, como petróleo y gas y sucursales de bancos extranjeros, pueden tener consideraciones o exenciones fiscales especiales.
 
-**¿Una empresa de UAE debe presentar una declaración de impuestos anual y/o estado financiero?**
+**¿Una empresa de UAE está obligada a presentar una declaración de impuestos anual y/o estado financiero?**
 
 Sí, todas las empresas en UAE están obligadas a presentar cuentas auditadas anuales al gobierno.
 
@@ -255,7 +255,7 @@ Estos bancos son conocidos por su buen servicio al cliente, lo cual es esencial 
 
 **¿Cómo abro una cuenta bancaria offshore en UAE?**
 
-Los clientes no necesitarán registrar una empresa local para abrir una cuenta bancaria offshore en UAE. Sin embargo, los procedimientos KYC serán más estrictos que los de apertura de una cuenta bancaria para una empresa residente. También se requerirán documentos de certificación. Consulte [nuestra guía de apertura de cuentas bancarias para empresas UAE](./banking) para obtener información más detallada.
+Los clientes no necesitarán registrar una empresa local para abrir una cuenta bancaria offshore en UAE. Sin embargo, los procedimientos KYC serán más estrictos que los de apertura de una cuenta bancaria para una empresa residente. También se requerirán documentos de certificación. Consulte [nuestra guía de apertura de cuenta bancaria para empresas UAE](/uae-business/company-registration/banking) para obtener información más detallada.
 
 **¿Puede Golden Fish ayudar con servicios de Banca Islámica en UAE?**
 
@@ -263,8 +263,8 @@ Sí, Golden Fish puede ayudar a los clientes con sus necesidades de banca islám
 
 ### Visas y Residencia
 
-**¿Por cuánto tiempo se emite una visa de residencia comercial de UAE?**
+**¿Por cuánto tiempo se emite una visa de residencia empresarial de UAE?**
 
-Los permisos de residencia comercial de UAE típicamente se emiten por 2 a 3 años.
+Los permisos de residencia empresarial de UAE se emiten típicamente por 2 a 3 años.
 
 :::
