@@ -6,13 +6,16 @@ showSponsors: false
 
 hero:
   name: "UAE: Bến Đỗ Tài Chính An Toàn Của Bạn"
+  # text: We speak your tongue
   tagline: "Hỗ Trợ Kinh Doanh Toàn Diện: Thành Lập Công Ty, Thị Thực, Ngân Hàng. <span class='hl'>Không thành công — không thu phí</span>."
 
   actions:
     - theme: brand
-      text: Get Free Consultation
+      text: Nhận Tư Vấn Miễn Phí
       link: /resources/contacts
-
+    # - theme: alt
+    #   text: Support 24/7
+    #   link: ./resources/contacts
   image:
     light:
       src: /img/Logo.avif
@@ -21,18 +24,19 @@ hero:
       src: /img/Logo.avif
       width: 40%
     alt: Logo Golden Fish
+
 ---
 
 <FeatureCards :features="[
   {
     title: 'Hướng Dẫn Thành Lập Công Ty',
-    details: 'Hướng dẫn đầy đủ để thành lập công ty tại **free zone, offshore, mainland, branch**.',
+    details: 'Hướng dẫn đầy đủ để thành lập công ty tại **Free Zone, Offshore, Mainland, Branch**.',
     items: [
-      'Cho phép 100% sở hữu nước ngoài tại Free Zone và Mainland',
+      'Cho phép 100% Sở hữu nước ngoài tại Free Zone và Mainland',
       'Thuế suất thấp - chỉ 9% thuế doanh nghiệp',
       'Không kiểm soát tiền tệ - dễ dàng chuyển vốn về nước'
     ],
-    linkText: 'Learn more',
+    linkText: 'Tìm hiểu thêm',
     link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -48,7 +52,7 @@ hero:
       'Thiết lập gói ngân hàng hoàn chỉnh',
       '**Tỷ lệ thành công 96%**',
     ],
-    linkText: 'Learn more',
+    linkText: 'Tìm hiểu thêm',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -64,7 +68,7 @@ hero:
       'Hiệu lực 10 năm với tùy chọn gia hạn khi duy trì đủ điều kiện',
       'Tỷ lệ thành công 92%',
     ],
-    linkText: 'Learn more',
+    linkText: 'Tìm hiểu thêm',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -79,7 +83,7 @@ hero:
     title: 'Dịch Vụ Tuân Thủ',
     details: 'Chuyên gia của chúng tôi hướng dẫn bạn qua các yêu cầu quy định phức tạp của UAE, bao gồm báo cáo ESR và hồ sơ UBO.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Tìm hiểu thêm',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -91,7 +95,7 @@ hero:
     title: 'Thuế Doanh Nghiệp & VAT',
     details: 'Tư vấn chuyên môn đảm bảo tuân thủ nghĩa vụ Thuế Doanh Nghiệp và VAT với Cơ quan Thuế Liên bang (FTA).',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Tìm hiểu thêm',
     link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -103,7 +107,7 @@ hero:
     title: 'Dịch Vụ Pháp Lý',
     details: 'Đội ngũ pháp lý tư vấn về luật UAE liên quan đến M&A, tái cấu trúc doanh nghiệp, tài chính và giải quyết tranh chấp.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Tìm hiểu thêm',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -115,7 +119,7 @@ hero:
     title: 'Kế Toán & Tiền Lương',
     details: 'Kế toán của chúng tôi quản lý tài chính, cung cấp dịch vụ ghi sổ, đối chiếu, tính lương và hỗ trợ kiểm toán, tiết kiệm chi phí tuyển dụng.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Tìm hiểu thêm',
     link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
@@ -163,9 +167,9 @@ Có, hầu hết các hoạt động kinh doanh đều được phép sở hữu
 
 **Làm thế nào để đăng ký công ty trong khu vực thương mại tự do UAE?**
 
-Để thành lập một công ty trong khu vực tự do tại UAE, Golden Fish sẽ:
+Để thành lập doanh nghiệp trong khu vực tự do tại UAE, Golden Fish sẽ:
 
-1. Xin các giấy phép cần thiết từ các cơ quan có thẩm quyền.
+1. Xin các giấy phép cần thiết từ cơ quan có thẩm quyền.
 2. Đăng ký tên công ty.
 3. Chuẩn bị các tài liệu thành lập.
 4. Công chứng các tài liệu tại tòa án công.
@@ -173,13 +177,13 @@ Có, hầu hết các hoạt động kinh doanh đều được phép sở hữu
 6. Đăng ký VAT cho công ty (nếu cần).
 7. Xin visa làm việc cho khách hàng và nhân viên.
 
-**Lợi ích của việc thành lập công ty trong khu vực tự do UAE là gì?**
+**Lợi ích của việc thành lập doanh nghiệp trong khu vực tự do UAE là gì?**
 
 Các công ty trong khu vực tự do UAE có nhiều lợi ích, bao gồm:
 
-1. Không yêu cầu cổ đông thường trú, tức là công ty FZ có thể 100% vốn nước ngoài.
+1. Không yêu cầu cổ đông thường trú, nghĩa là công ty FZ có thể 100% vốn nước ngoài.
 2. Không bắt buộc phải thuê nhân viên.
-3. Không phải nộp thuế hải quan đối với hàng hóa ra vào khu vực.
+3. Không phải đóng thuế hải quan đối với hàng hóa ra vào khu vực.
 4. Cơ sở hạ tầng chất lượng cao.
 
 ### Giám đốc và Cổ đông
@@ -190,7 +194,7 @@ Chỉ cần một giám đốc để thành lập công ty trong khu vực tự 
 
 **Cần bao nhiêu cổ đông để thành lập công ty trong khu vực thương mại tự do UAE?**
 
-Chỉ cần một cổ đông để thành lập công ty trong khu vực tự do tại UAE.
+Chỉ cần một cổ đông để thành lập doanh nghiệp trong khu vực tự do tại UAE.
 
 **Cần bao nhiêu cổ đông để thành lập công ty offshore tại UAE?**
 
@@ -214,9 +218,9 @@ Không, Golden Fish có thể hợp pháp thành lập công ty UAE cho bạn m�
 
 Yêu cầu khác nhau tùy theo loại hình công ty:
 
-| Loại công ty | Yêu cầu về văn phòng |
+| Loại công ty | Yêu cầu văn phòng |
 | ----------------- | --------------------------------------------------------------------------------------- |
-| Công ty Free Zone | Cần có hợp đồng thuê văn phòng hoặc bàn làm việc linh hoạt trước khi thành lập. |
+| Công ty Free Zone | Cần có hợp đồng thuê văn phòng hoặc flexi-desk trước khi thành lập. |
 | Công ty Mainland | Chỉ cần địa chỉ ảo hoặc địa chỉ đăng ký. |
 | Công ty Offshore | Chỉ cần địa chỉ ảo hoặc địa chỉ đăng ký. |
 
@@ -226,13 +230,13 @@ Bảng so sánh này giúp làm rõ sự khác biệt về yêu cầu giữa cá
 
 **Tôi có cần kiểm toán đầy đủ nếu thành lập doanh nghiệp nhỏ tại UAE không?**
 
-Có, hầu hết các đơn vị đều cần báo cáo tài chính được kiểm toán.
+Có, hầu hết các doanh nghiệp đều cần báo cáo tài chính được kiểm toán.
 
-**Những tác động thuế khi thành lập công ty UAE là gì?**
+**Những tác động về thuế khi thành lập công ty tại UAE là gì?**
 
-Thuế Thu nhập Doanh nghiệp (CIT) đã được áp dụng tại UAE với mức thuế suất tiêu chuẩn là 9%. Ngoài ra, tùy thuộc vào quy mô và tính chất kinh doanh, một số công ty phải chịu thuế VAT (5%) và/hoặc thuế hải quan. Các ngành cụ thể như dầu khí và chi nhánh ngân hàng nước ngoài có thể có các cân nhắc hoặc miễn trừ thuế đặc biệt.
+Thuế Thu nhập Doanh nghiệp (CIT) đã được áp dụng tại UAE với mức thuế suất tiêu chuẩn là 9%. Ngoài ra, tùy thuộc vào quy mô và tính chất kinh doanh, một số công ty phải chịu VAT (5%) và/hoặc thuế hải quan. Các ngành cụ thể như dầu khí và chi nhánh ngân hàng nước ngoài có thể có các cân nhắc hoặc miễn trừ thuế đặc biệt.
 
-**Công ty UAE có cần nộp tờ khai thuế hàng năm và/hoặc báo cáo tài chính không?**
+**Công ty UAE có phải nộp tờ khai thuế hàng năm và/hoặc báo cáo tài chính không?**
 
 Có, tất cả các công ty tại UAE đều phải nộp báo cáo tài chính được kiểm toán hàng năm cho chính phủ.
 
@@ -252,7 +256,7 @@ Các ngân hàng này nổi tiếng với dịch vụ khách hàng tốt, điề
 
 **Làm thế nào để mở tài khoản ngân hàng offshore tại UAE?**
 
-Khách hàng không cần đăng ký công ty địa phương để mở tài khoản ngân hàng offshore tại UAE. Tuy nhiên, thủ tục KYC sẽ nghiêm ngặt hơn so với việc mở tài khoản ngân hàng cho công ty thường trú. Cũng cần các tài liệu chứng thực. Vui lòng tham khảo [hướng dẫn mở tài khoản ngân hàng cho công ty UAE](/uae-business/company-registration/banking) để biết thông tin chi tiết hơn.
+Khách hàng không cần đăng ký công ty địa phương để mở tài khoản ngân hàng offshore tại UAE. Tuy nhiên, thủ tục KYC sẽ nghiêm ngặt hơn so với việc mở tài khoản ngân hàng cho công ty thường trú. Cũng cần các tài liệu chứng thực. Vui lòng tham khảo [hướng dẫn mở tài khoản ngân hàng cho công ty UAE của chúng tôi](./uae-business/company-registration/banking) để biết thông tin chi tiết hơn.
 
 **Golden Fish có hỗ trợ dịch vụ Ngân hàng Hồi giáo tại UAE không?**
 
