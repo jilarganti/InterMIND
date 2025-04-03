@@ -1,6 +1,6 @@
 ---
 title: "阿联酋公司注册费用和时间表"
-description: "阿联酋公司设立专家。阿联酋公司注册费用及预计业务设立时间表。"
+description: "专业阿联酋公司设立专家。阿联酋公司注册费用及预计业务设立时间表。"
 showForm: true
 ---
 
@@ -8,86 +8,70 @@ showForm: true
 
 ## 费用
 
-:::details 阿联酋大陆实体
-<TableWrapper
-  :headers="['阿联酋不同实体类型', '第1年费用', '第2年费用', '草案发票']"
-  :rows="[
-    { title: 'Dubai mainland LLC', year1Cost: 23610, year2Cost: 12932, invoiceLink: 'https://docs.google.com/document/d/17zrplxsKNhqfC8AGuqbiAzR_1QXutglx_zeaSEys7-E/edit?usp=sharing' },
-    { title: 'Abu Dhabi LLC', year1Cost: 29538, year2Cost: 12003, invoiceLink: '/resources/contacts' },
-    { title: 'RAK LLC', year1Cost: 23400, year2Cost: 10469, invoiceLink: '/resources/contacts' },
-    { title: 'Sharjah LLC', year1Cost: 30995, year2Cost: 13960, invoiceLink: '/resources/contacts' },
-    { title: 'Ajman LLC', year1Cost: 29375, year2Cost: 8960, invoiceLink: '/resources/contacts' }
-  ]"
-/>
-:::
+### UAE大陆实体
 
-:::details 离岸实体
-<TableWrapper
-  :headers="['阿联酋离岸公司成立选项', '第1年费用', '第2年费用', '草案发票']"
-  :rows="[
-    { title: 'JAFZA offshore company formation', year1Cost: 22393, year2Cost: 10143, invoiceLink: '/resources/contacts' },
-    { title: 'RAK offshore company formation', year1Cost: 16714, year2Cost: 5620, invoiceLink: '/resources/contacts' },
-    { title: 'Ajman offshore company formation', year1Cost: 12670, year2Cost: 3200, invoiceLink: '/resources/contacts' }
-  ]"
-/>
-:::
+| UAE实体类型 | 第一年费用 | 第二年费用 | 账单草案                                                                                                    |
+| -------------------------- | ----------- | ----------- | ---------------------------------------------------------------------------------------------------------------- |
+| Dubai大陆LLC公司         | $11,805     | $6,466      | [查看账单](https://docs.google.com/document/d/17zrplxsKNhqfC8AGuqbiAzR_1QXutglx_zeaSEys7-E/edit?usp=sharing) |
+| Abu Dhabi LLC公司              | $14,769     | $6,002      | [查看账单](/resources/contacts)                                                                              |
+| RAK LLC公司                    | $11,700     | $5,235      | [查看账单](/resources/contacts)                                                                              |
+| Sharjah LLC公司                | $15,498     | $6,980      | [查看账单](/resources/contacts)                                                                              |
+| Ajman LLC公司                  | $14,688     | $4,480      | [查看账单](/resources/contacts)                                                                              |
 
-:::details 阿联酋自由区实体
-<TableWrapper
-  :headers="['阿联酋自由区', '第1年费用', '第2年费用', '草案发票']"
-  :rows="[
-    { title: 'Dubai FTZ - Dubai Airport', year1Cost: 22063, year2Cost: 12329, invoiceLink: '/resources/contacts' },
-    { title: 'Dubai FTZ - DMCC', year1Cost: 24874, year2Cost: 15999, invoiceLink: '/resources/contacts' },
-    { title: 'RAKEZ company', year1Cost: 19605, year2Cost: 11182, invoiceLink: '/resources/contacts' }
-  ]"
-/>
-:::
+### 离岸实体
 
-:::details 其他阿联酋公司服务
+| UAE离岸公司注册选项 | 第一年费用 | 第二年费用 | 账单草案                       |
+| ------------------------------------------ | ----------- | ----------- | ----------------------------------- |
+| JAFZA离岸公司注册           | $11,197     | $5,072      | [查看账单](/resources/contacts) |
+| RAK离岸公司注册             | $8,357      | $2,810      | [查看账单](/resources/contacts) |
+| Ajman离岸公司注册           | $6,335      | $1,600      | [查看账单](/resources/contacts) |
 
-<TableWrapper
-  :headers="['阿联酋公司银行开户（需要亲自到场）', '备注', '费用（美元）']"
-  :rows="[
-    { title: '为我们注册的阿联酋公司开设阿联酋公司银行账户', remarks: '简单的公司结构和业务活动', cost: 4950 },
-    { title: '', remarks: '复杂的公司结构或业务活动（如加密货币）', cost: 6950 },
-    { title: '为非我们注册的阿联酋公司开设阿联酋公司银行账户', remarks: '阿联酋公司银行账户', cost: 6950 },
-    { title: '', remarks: '复杂的公司结构或业务活动（如加密货币）', cost: 8950 },
-    { title: '阿联酋个人银行账户', remarks: '', cost: 2950 }
-  ]"
-/>
+### UAE自贸区实体
 
-<TableWrapper
-  :headers="['阿联酋居留/工作签证', '备注', '费用']"
-  :rows="[
-    { title: '工作签证费用', remarks: '我们的费用包括<br/>i) 员工保护计划（EPI）费用（根据薪资范围和签证类型，23-155美元不等）；<br/>ii) 体检费用（235美元）<br/>iii) Emirates ID申请费用（165美元）和<br/>iv) 政府申请费用（1,500美元）。不包括医疗保险费用', cost: 4950 },
-    { title: '黄金签证费用', remarks: '', cost: 7950 },
-    { title: '家属签证 - 配偶', remarks: '', cost: 2950 },
-    { title: '家属签证 - 子女', remarks: '', cost: 1950 }
-  ]"
-/>
+| UAE自贸区            | 第一年费用 | 第二年费用 | 账单草案                       |
+| ------------------------- | ----------- | ----------- | ----------------------------------- |
+| Dubai FTZ - Dubai机场 | $11,032     | $6,165      | [查看账单](/resources/contacts) |
+| Dubai FTZ - DMCC          | $12,437     | $8,000      | [查看账单](/resources/contacts) |
+| RAKEZ公司             | $9,803      | $5,591      | [查看账单](/resources/contacts) |
 
-<TableWrapper
-  :headers="['阿联酋公司会计和税务服务', '备注', '费用']"
-  :rows="[
-    { title: '运营公司年度会计和税务费用', remarks: '这是Golden Fish费用的估算。在收到贵公司的会计数据草案后，Golden Fish将准确告知您业务的会计和税务费用。', cost: 5950 },
-    { title: '休眠公司年度会计和税务费用', remarks: '', cost: 1200 },
-    { title: '审计费用估算（如需要）', remarks: '', cost: 2000 },
-    { title: '增值税申报', remarks: '根据交易量按季度或月度申报', cost: 750 },
-    { title: '记账服务', remarks: '', buttonLink: '#' },
-    { title: '工资单服务', remarks: '', buttonLink: '#' }
-  ]"
-/>
-:::
+### 其他UAE公司服务
+
+| UAE公司银行账户开户（需要亲自到访）            | 备注                                                        | 费用（美元） |
+| --------------------------------------------------------------- | -------------------------------------------------------------- | ----------- |
+| 为我们注册的UAE公司开设UAE公司银行账户        | 简单的公司结构和业务活动               | $2,475      |
+|                                                                 | 复杂的公司结构或业务活动（如加密货币） | $3,475      |
+| 为非我们注册的UAE公司开设UAE公司银行账户 | UAE公司银行账户                   | $3,475      |
+|                                                                 | 复杂的公司结构或业务活动（如加密货币） | $4,475      |
+| UAE个人银行账户                                       |                                                                | $1,475      |
+
+| UAE居留/就业签证 | 备注                                                                                                                                                                                                                                                                                            | 费用   |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 就业签证费用          | 我们的费用包括<br/>i) 员工保护计划(EPI)费用（根据薪资范围和签证类型，从23美元到155美元不等）；<br/>ii) 体检费用（235美元）<br/>iii) Emirates ID申请费用（165美元）和<br/>iv) 政府申请费用（1,500美元）。不包括医疗保险费用 | $2,475 |
+| 黄金签证费用              |                                                                                                                                                                                                                                                                                    | $3,975 |
+| 家属签证 - 配偶       |                                                                                                                                                                                                                                                                                    | $1,475 |
+| 家属签证 - 子女        |                                                                                                                                                                                                                                                                                    | $975   |
+
+| UAE公司会计和税务服务              | 备注                                                                                                                                                                                              | 费用            |
+| ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| 运营公司年度会计和税务费用 | 这是Golden Fish费用的估算。在收到贵公司的会计数据草案后，Golden Fish将准确告知您业务的会计和税务费用。 | $2,975          |
+| 休眠公司年度会计和税务费用 |                                                                                                                                                                                      | $600            |
+| 审计费用估算（如需要）                 |                                                                                                                                                                                      | $1,000          |
+| 增值税申报                                           | 根据交易量按季度或月度申报                                                                                                                                                             | $375            |
+| 记账服务                                         |                                                                                                                                                                                      | [点击此处](#) |
+| 工资单服务                                              |                                                                                                                                                                                      | [点击此处](#) |
 
 ## 时间表
 
-阿联酋平均设立业务所需时间为17周，具体如下：
+在阿联酋设立公司的平均服务周期为17周，具体如下：
 
-| 服务                               | Mainland | Free Zone | Offshore (除JAFZA外) | JAFZA offshore |
+| 服务项目                           | Mainland | Free Zone | Offshore (除JAFZA外) | JAFZA offshore |
 | --------------------------------- | -------- | --------- | ------------------- | -------------- |
-| 业务规划                           | 1周      | 1周       | 1周                 | 1周            |
-| 公司注册                           | 5周      | 6周       | 2周                 | 4周            |
-| 公司银行账户审批                    | 8周      | 8周       | 12周                | 8周            |
-| 公司网上银行审批                    | 1周      | 1周       | 1周                 | 1周            |
-| 业务完成                           | 1周      | 1周       | 1周                 | 1周            |
-| 总业务周期                         | 16周     | 17周      | 17周                | 15周           |
+| 服务规划                          | 1周      | 1周       | 1周                 | 1周            |
+| 公司注册                          | 5周      | 6周       | 2周                 | 4周            |
+| 公司银行账户审批                   | 8周      | 8周       | 12周                | 8周            |
+| 公司网上银行审批                   | 1周      | 1周       | 1周                 | 1周            |
+| 服务完成                          | 1周      | 1周       | 1周                 | 1周            |
+| 总服务周期                        | 16周     | 17周      | 17周                | 15周           |
+
+> [!IMPORTANT] 成功付费模式
+> [仅在获得批准后付费](../benefits/success-based-fees.md)。完全透明，无隐藏费用。

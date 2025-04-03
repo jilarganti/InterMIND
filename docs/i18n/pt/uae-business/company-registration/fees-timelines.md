@@ -1,6 +1,6 @@
 ---
-title: "Taxas e prazos para registro de empresa nos EAU"
-description: "Especialistas em abrir empresas nos Emirados Árabes Unidos. Taxas para registro de empresa nos EAU e cronograma estimado para abertura de empresa."
+title: "Taxas e prazos para registro de empresa nos UAE"
+description: "Especialistas em abertura de empresas nos UAE. Taxas para registro de empresa nos UAE e cronograma estimado para estabelecimento do negócio."
 showForm: true
 ---
 
@@ -8,80 +8,61 @@ showForm: true
 
 ## Taxas
 
-:::details Entidades mainland dos EAU
-<TableWrapper
-  :headers="['Diferentes tipos de entidades dos EAU', 'Custo Ano 1', 'Custo Ano 2', 'Minuta da Fatura']"
-  :rows="[
-    { title: 'Dubai mainland LLC', year1Cost: 23610, year2Cost: 12932, invoiceLink: 'https://docs.google.com/document/d/17zrplxsKNhqfC8AGuqbiAzR_1QXutglx_zeaSEys7-E/edit?usp=sharing' },
-    { title: 'Abu Dhabi LLC', year1Cost: 29538, year2Cost: 12003, invoiceLink: '/resources/contacts' },
-    { title: 'RAK LLC', year1Cost: 23400, year2Cost: 10469, invoiceLink: '/resources/contacts' },
-    { title: 'Sharjah LLC', year1Cost: 30995, year2Cost: 13960, invoiceLink: '/resources/contacts' },
-    { title: 'Ajman LLC', year1Cost: 29375, year2Cost: 8960, invoiceLink: '/resources/contacts' }
-  ]"
-/>
-:::
+### Entidades mainland dos EAU
 
-:::details Entidades offshore
-<TableWrapper
-  :headers="['Opções para formar empresas Offshore nos EAU', 'Custo Ano 1', 'Custo Ano 2', 'Minuta da Fatura']"
-  :rows="[
-    { title: 'JAFZA offshore company formation', year1Cost: 22393, year2Cost: 10143, invoiceLink: '/resources/contacts' },
-    { title: 'RAK offshore company formation', year1Cost: 16714, year2Cost: 5620, invoiceLink: '/resources/contacts' },
-    { title: 'Ajman offshore company formation', year1Cost: 12670, year2Cost: 3200, invoiceLink: '/resources/contacts' }
-  ]"
-/>
-:::
+| Diferentes tipos de entidades nos EAU | Custo Ano 1 | Custo Ano 2 | Rascunho da Fatura                                                                                               |
+| ------------------------------------ | ----------- | ----------- | ---------------------------------------------------------------------------------------------------------------- |
+| Dubai mainland LLC                    | $11.805     | $6.466      | [View Invoice](https://docs.google.com/document/d/17zrplxsKNhqfC8AGuqbiAzR_1QXutglx_zeaSEys7-E/edit?usp=sharing) |
+| Abu Dhabi LLC                         | $14.769     | $6.002      | [View Invoice](/resources/contacts)                                                                              |
+| RAK LLC                              | $11.700     | $5.235      | [View Invoice](/resources/contacts)                                                                              |
+| Sharjah LLC                          | $15.498     | $6.980      | [View Invoice](/resources/contacts)                                                                              |
+| Ajman LLC                            | $14.688     | $4.480      | [View Invoice](/resources/contacts)                                                                              |
 
-:::details Entidades free zone dos EAU
-<TableWrapper
-  :headers="['Free zones dos EAU', 'Custo Ano 1', 'Custo Ano 2', 'Minuta da Fatura']"
-  :rows="[
-    { title: 'Dubai FTZ - Dubai Airport', year1Cost: 22063, year2Cost: 12329, invoiceLink: '/resources/contacts' },
-    { title: 'Dubai FTZ - DMCC', year1Cost: 24874, year2Cost: 15999, invoiceLink: '/resources/contacts' },
-    { title: 'RAKEZ company', year1Cost: 19605, year2Cost: 11182, invoiceLink: '/resources/contacts' }
-  ]"
-/>
-:::
+### Entidades offshore
 
-:::details Outros serviços empresariais nos EAU
+| Opções para formar empresas offshore nos EAU | Custo Ano 1 | Custo Ano 2 | Rascunho da Fatura                  |
+| ------------------------------------------- | ----------- | ----------- | ----------------------------------- |
+| Formação de empresa offshore JAFZA          | $11.197     | $5.072      | [View Invoice](/resources/contacts) |
+| Formação de empresa offshore RAK            | $8.357      | $2.810      | [View Invoice](/resources/contacts) |
+| Formação de empresa offshore Ajman          | $6.335      | $1.600      | [View Invoice](/resources/contacts) |
 
-<TableWrapper
-  :headers="['Abertura de conta bancária corporativa nos EAU (necessária viagem)', 'Observações', 'Custo em USD']"
-  :rows="[
-    { title: 'UAE corporate bank account for a UAE company we register', remarks: 'Estrutura corporativa e atividade empresarial simples', cost: 4950 },
-    { title: '', remarks: 'Estrutura corporativa ou atividade empresarial complexa (ex: crypto)', cost: 6950 },
-    { title: 'UAE corporate bank account for a UAE company we didn\'t register', remarks: 'Conta bancária corporativa nos EAU para empresa dos EAU', cost: 6950 },
-    { title: '', remarks: 'Estrutura corporativa ou atividade empresarial complexa (ex: crypto)', cost: 8950 },
-    { title: 'UAE personal bank account', remarks: '', cost: 2950 }
-  ]"
-/>
+### Entidades free zone dos EAU
 
-<TableWrapper
-  :headers="['Visto de residência/trabalho nos EAU', 'Observações', 'Custo']"
-  :rows="[
-    { title: 'Employment visa fees', remarks: 'Nossa taxa inclui<br/>i) taxa do Employee Protection Program (EPI) (US$23 a US$155 dependendo da faixa salarial e tipo de visto);<br/>ii) teste de aptidão médica (US$235)<br/>iii) solicitação do Emirates ID (US$165) e<br/>iv) taxa governamental (US$1,500). Exclui taxas de seguro saúde', cost: 4950 },
-    { title: 'Golden visa fees', remarks: '', cost: 7950 },
-    { title: 'Dependent visa - spouse', remarks: '', cost: 2950 },
-    { title: 'Dependent visa - child', remarks: '', cost: 1950 }
-  ]"
-/>
+| Free zones dos EAU        | Custo Ano 1 | Custo Ano 2 | Rascunho da Fatura                  |
+| ------------------------- | ----------- | ----------- | ----------------------------------- |
+| Dubai FTZ - Dubai Airport | $11.032     | $6.165      | [View Invoice](/resources/contacts) |
+| Dubai FTZ - DMCC          | $12.437     | $8.000      | [View Invoice](/resources/contacts) |
+| RAKEZ company             | $9.803      | $5.591      | [View Invoice](/resources/contacts) |
 
-<TableWrapper
-  :headers="['Serviços contábeis e fiscais para empresas nos EAU', 'Observações', 'Custo']"
-  :rows="[
-    { title: 'Annual accounting and tax fees for an active company', remarks: 'Esta é uma estimativa das taxas da Golden Fish. Após receber um conjunto de números contábeis preliminares de sua empresa, a Golden Fish informará com precisão as taxas contábeis e fiscais para seu negócio.', cost: 5950 },
-    { title: 'Annual accounting and tax fees for a dormant company', remarks: '', cost: 1200 },
-    { title: 'Approximate audit fees (if required)', remarks: '', cost: 2000 },
-    { title: 'VAT return', remarks: 'Trimestral ou mensal dependendo do volume', cost: 750 },
-    { title: 'Book-keeping', remarks: '', buttonLink: '#' },
-    { title: 'Payroll', remarks: '', buttonLink: '#' }
-  ]"
-/>
-:::
+### Outros serviços empresariais nos EAU
 
-## Cronogramas
+| Abertura de conta bancária corporativa nos EAU (viagem necessária) | Observações                                                    | Custo em USD |
+| ---------------------------------------------------------------- | -------------------------------------------------------------- | ------------ |
+| Conta bancária corporativa nos EAU para empresa que registramos    | Estrutura corporativa e atividade empresarial simples          | $2.475       |
+|                                                                    | Estrutura corporativa ou atividade complexa (ex: cripto)        | $3.475       |
+| Conta bancária corporativa para empresa não registrada por nós     | Conta bancária corporativa para empresa nos EAU                | $3.475       |
+|                                                                    | Estrutura corporativa ou atividade complexa (ex: cripto)        | $4.475       |
+| Conta bancária pessoal nos EAU                                     |                                                                | $1.475       |
 
-O período médio de estabelecimento nos UAE é de 17 semanas, conforme detalhado abaixo:
+| Visto de residência/trabalho nos EAU | Observações                                                                                                                                                                                                                                                                                              | Custo  |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| Taxas de visto de trabalho           | Nossa taxa inclui<br/>i) taxa do Programa de Proteção ao Empregado (EPI) (US$23 a US$155 dependendo da faixa salarial e tipo de visto);<br/>ii) teste de aptidão médica (US$235)<br/>iii) solicitação de Emirates ID (US$165) e<br/>iv) taxa governamental (US$1.500). Exclui taxas de seguro saúde | $2.475 |
+| Taxas de visto Golden                |                                                                                                                                                                                                                                                                                                          | $3.975 |
+| Visto de dependente - cônjuge        |                                                                                                                                                                                                                                                                                                          | $1.475 |
+| Visto de dependente - filho          |                                                                                                                                                                                                                                                                                                          | $975   |
+
+| Serviços contábeis e fiscais para empresas nos EAU      | Observações                                                                                                                                                                                           | Custo           |
+| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| Taxas contábeis e fiscais anuais para empresa ativa    | Esta é uma estimativa das taxas da Golden Fish. Após receber um conjunto de números contábeis preliminares de sua empresa, a Golden Fish informará com precisão as taxas contábeis e fiscais do seu negócio. | $2.975          |
+| Taxas contábeis e fiscais anuais para empresa inativa  |                                                                                                                                                                                                         | $600            |
+| Taxas aproximadas de auditoria (se necessário)         |                                                                                                                                                                                                         | $1.000          |
+| Declaração de VAT                                      | Trimestral ou mensal dependendo do volume                                                                                                                                                               | $375            |
+| Contabilidade                                          |                                                                                                                                                                                                         | [Click here](#) |
+| Folha de pagamento                                     |                                                                                                                                                                                                         | [Click here](#) |
+
+## Prazos
+
+O período médio de configuração nos EAU é de 17 semanas, conforme detalhado abaixo:
 
 | Serviço                                    | Mainland | Free Zone | Offshore (exceto JAFZA) | JAFZA offshore |
 | ------------------------------------------ | -------- | --------- | ----------------------- | -------------- |
@@ -91,3 +72,6 @@ O período médio de estabelecimento nos UAE é de 17 semanas, conforme detalhad
 | Aprovação do internet banking corporativo  | 1 semana | 1 semana  | 1 semana                | 1 semana       |
 | Conclusão do processo                      | 1 semana | 1 semana  | 1 semana                | 1 semana       |
 | Período total do processo                  | 16 semanas| 17 semanas| 17 semanas              | 15 semanas     |
+
+> [!IMPORTANT] Taxas Baseadas em Sucesso
+> [Pague apenas após a aprovação](../benefits/success-based-fees.md). Transparência total sem custos ocultos.

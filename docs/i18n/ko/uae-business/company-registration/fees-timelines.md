@@ -1,6 +1,6 @@
 ---
-title: "UAE 회사 등록 수수료 및 소요 기간"
-description: "UAE 회사 설립 전문가. UAE 회사 등록 수수료 및 예상 사업 설립 소요 기간."
+title: "UAE 기업 등록 수수료 및 소요 기간"
+description: "UAE 기업 설립 전문가. UAE 기업 등록 수수료와 예상 사업 설립 소요 기간 안내."
 showForm: true
 ---
 
@@ -8,76 +8,57 @@ showForm: true
 
 ## 수수료
 
-:::details UAE 본토 법인
-<TableWrapper
-  :headers="['UAE 법인 유형', '1년차 비용', '2년차 비용', '견적서']"
-  :rows="[
-    { title: 'Dubai mainland LLC', year1Cost: 23610, year2Cost: 12932, invoiceLink: 'https://docs.google.com/document/d/17zrplxsKNhqfC8AGuqbiAzR_1QXutglx_zeaSEys7-E/edit?usp=sharing' },
-    { title: 'Abu Dhabi LLC', year1Cost: 29538, year2Cost: 12003, invoiceLink: '/resources/contacts' },
-    { title: 'RAK LLC', year1Cost: 23400, year2Cost: 10469, invoiceLink: '/resources/contacts' },
-    { title: 'Sharjah LLC', year1Cost: 30995, year2Cost: 13960, invoiceLink: '/resources/contacts' },
-    { title: 'Ajman LLC', year1Cost: 29375, year2Cost: 8960, invoiceLink: '/resources/contacts' }
-  ]"
-/>
-:::
+### UAE 본토 법인
 
-:::details 역외 법인
-<TableWrapper
-  :headers="['UAE 역외 법인 설립 옵션', '1년차 비용', '2년차 비용', '견적서']"
-  :rows="[
-    { title: 'JAFZA offshore company formation', year1Cost: 22393, year2Cost: 10143, invoiceLink: '/resources/contacts' },
-    { title: 'RAK offshore company formation', year1Cost: 16714, year2Cost: 5620, invoiceLink: '/resources/contacts' },
-    { title: 'Ajman offshore company formation', year1Cost: 12670, year2Cost: 3200, invoiceLink: '/resources/contacts' }
-  ]"
-/>
-:::
+| UAE 법인 유형 | 1년차 비용 | 2년차 비용 | 견적서                                                                                                           |
+| -------------------------- | ----------- | ----------- | ---------------------------------------------------------------------------------------------------------------- |
+| Dubai mainland LLC         | $11,805     | $6,466      | [View Invoice](https://docs.google.com/document/d/17zrplxsKNhqfC8AGuqbiAzR_1QXutglx_zeaSEys7-E/edit?usp=sharing) |
+| Abu Dhabi LLC              | $14,769     | $6,002      | [View Invoice](/resources/contacts)                                                                              |
+| RAK LLC                    | $11,700     | $5,235      | [View Invoice](/resources/contacts)                                                                              |
+| Sharjah LLC                | $15,498     | $6,980      | [View Invoice](/resources/contacts)                                                                              |
+| Ajman LLC                  | $14,688     | $4,480      | [View Invoice](/resources/contacts)                                                                              |
 
-:::details UAE 프리존 법인
-<TableWrapper
-  :headers="['UAE 프리존', '1년차 비용', '2년차 비용', '견적서']"
-  :rows="[
-    { title: 'Dubai FTZ - Dubai Airport', year1Cost: 22063, year2Cost: 12329, invoiceLink: '/resources/contacts' },
-    { title: 'Dubai FTZ - DMCC', year1Cost: 24874, year2Cost: 15999, invoiceLink: '/resources/contacts' },
-    { title: 'RAKEZ company', year1Cost: 19605, year2Cost: 11182, invoiceLink: '/resources/contacts' }
-  ]"
-/>
-:::
+### 역외 법인
 
-:::details 기타 UAE 기업 서비스
+| UAE 역외 법인 설립 옵션 | 1년차 비용 | 2년차 비용 | 견적서                                |
+| ------------------------------------------ | ----------- | ----------- | ----------------------------------- |
+| JAFZA offshore company formation           | $11,197     | $5,072      | [View Invoice](/resources/contacts) |
+| RAK offshore company formation             | $8,357      | $2,810      | [View Invoice](/resources/contacts) |
+| Ajman offshore company formation           | $6,335      | $1,600      | [View Invoice](/resources/contacts) |
 
-<TableWrapper
-  :headers="['UAE 기업 은행 계좌 개설 (방문 필요)', '비고', '비용 (USD)']"
-  :rows="[
-    { title: '당사가 등록한 UAE 기업의 은행 계좌', remarks: '단순 기업 구조 및 사업 활동', cost: 4950 },
-    { title: '', remarks: '복잡한 기업 구조 또는 사업 활동 (예: 암호화폐)', cost: 6950 },
-    { title: '당사가 등록하지 않은 UAE 기업의 은행 계좌', remarks: 'UAE 기업 은행 계좌', cost: 6950 },
-    { title: '', remarks: '복잡한 기업 구조 또는 사업 활동 (예: 암호화폐)', cost: 8950 },
-    { title: 'UAE 개인 은행 계좌', remarks: '', cost: 2950 }
-  ]"
-/>
+### UAE Free Zone 법인
 
-<TableWrapper
-  :headers="['UAE 거주/취업 비자', '비고', '비용']"
-  :rows="[
-    { title: '취업 비자 수수료', remarks: '수수료 포함 사항:<br/>i) 직원 보호 프로그램(EPI) 수수료 (급여 범위와 비자 유형에 따라 US$23~US$155)<br/>ii) 건강 검진 (US$235)<br/>iii) Emirates ID 신청 (US$165)<br/>iv) 정부 신청 수수료 (US$1,500). 건강 보험료 제외', cost: 4950 },
-    { title: '골든 비자 수수료', remarks: '', cost: 7950 },
-    { title: '부양가족 비자 - 배우자', remarks: '', cost: 2950 },
-    { title: '부양가족 비자 - 자녀', remarks: '', cost: 1950 }
-  ]"
-/>
+| UAE Free Zone            | 1년차 비용 | 2년차 비용 | 견적서                                |
+| ------------------------- | ----------- | ----------- | ----------------------------------- |
+| Dubai FTZ - Dubai Airport | $11,032     | $6,165      | [View Invoice](/resources/contacts) |
+| Dubai FTZ - DMCC          | $12,437     | $8,000      | [View Invoice](/resources/contacts) |
+| RAKEZ company             | $9,803      | $5,591      | [View Invoice](/resources/contacts) |
 
-<TableWrapper
-  :headers="['UAE 기업 회계 및 세무 서비스', '비고', '비용']"
-  :rows="[
-    { title: '운영 중인 기업의 연간 회계 및 세무 수수료', remarks: 'Golden Fish 수수료 예상액입니다. 귀사의 회계 자료 초안을 받은 후 Golden Fish에서 정확한 회계 및 세무 수수료를 안내해 드립니다.', cost: 5950 },
-    { title: '휴면 기업의 연간 회계 및 세무 수수료', remarks: '', cost: 1200 },
-    { title: '감사 수수료 예상액 (필요시)', remarks: '', cost: 2000 },
-    { title: 'VAT 신고', remarks: '거래량에 따라 분기별 또는 월별', cost: 750 },
-    { title: '부기', remarks: '', buttonLink: '#' },
-    { title: '급여 관리', remarks: '', buttonLink: '#' }
-  ]"
-/>
-:::
+### 기타 UAE 기업 서비스
+
+| UAE 기업 은행 계좌 개설 (방문 필요)            | 비고                                                          | 비용(USD) |
+| --------------------------------------------------------------- | -------------------------------------------------------------- | ----------- |
+| 당사가 등록한 UAE 기업의 기업 은행 계좌        | 단순 기업 구조 및 사업 활동               | $2,475      |
+|                                                                 | 복잡한 기업 구조 또는 사업 활동 (예: 암호화폐) | $3,475      |
+| 당사가 등록하지 않은 UAE 기업의 기업 은행 계좌 | UAE 기업의 기업 은행 계좌                   | $3,475      |
+|                                                                 | 복잡한 기업 구조 또는 사업 활동 (예: 암호화폐) | $4,475      |
+| UAE 개인 은행 계좌                                       |                                                                | $1,475      |
+
+| UAE 거주/취업 비자 | 비고                                                                                                                                                                                                                                                                                            | 비용   |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 취업 비자 수수료          | 포함 사항:<br/>i) 직원 보호 프로그램(EPI) 수수료 (급여 범위와 비자 유형에 따라 US$23~US$155);<br/>ii) 건강 검진 (US$235)<br/>iii) Emirates ID 신청 (US$165)<br/>iv) 정부 신청 수수료 (US$1,500). 건강 보험료 제외 | $2,475 |
+| Golden visa 수수료              |                                                                                                                                                                                                                                                                                    | $3,975 |
+| 부양가족 비자 - 배우자       |                                                                                                                                                                                                                                                                                    | $1,475 |
+| 부양가족 비자 - 자녀        |                                                                                                                                                                                                                                                                                    | $975   |
+
+| UAE 기업 회계 및 세무 서비스              | 비고                                                                                                                                                                                              | 비용            |
+| ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| 운영 중인 기업의 연간 회계 및 세무 수수료 | Golden Fish 수수료 예상액입니다. 귀사의 회계 자료 초안을 받은 후, Golden Fish에서 귀사의 정확한 회계 및 세무 수수료를 안내해 드립니다. | $2,975          |
+| 휴면 기업의 연간 회계 및 세무 수수료 |                                                                                                                                                                                      | $600            |
+| 예상 감사 수수료 (필요한 경우)                 |                                                                                                                                                                                      | $1,000          |
+| VAT 신고                                           | 거래량에 따라 분기 또는 월별                                                                                                                                                             | $375            |
+| 부기                                         |                                                                                                                                                                                      | [Click here](#) |
+| 급여                                              |                                                                                                                                                                                      | [Click here](#) |
 
 ## 소요 기간
 
@@ -91,3 +72,6 @@ UAE 설립 절차의 평균 소요 기간은 아래와 같이 17주입니다:
 | 기업 인터넷 뱅킹 승인              | 1주      | 1주       | 1주                    | 1주            |
 | 절차 완료                          | 1주      | 1주       | 1주                    | 1주            |
 | 총 소요 기간                       | 16주     | 17주      | 17주                   | 15주           |
+
+> [!IMPORTANT] 성공 기반 수수료
+> [승인 후에만 지불](../benefits/success-based-fees.md). 숨겨진 비용 없는 완벽한 투명성.

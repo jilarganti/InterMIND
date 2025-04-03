@@ -72,3 +72,6 @@ The average UAE setup engagement period is 17 weeks as outlined below:
 | Corporate internet banking approval | 1 week   | 1 week    | 1 week                  | 1 week         |
 | Engagement completion               | 1 week   | 1 week    | 1 week                  | 1 week         |
 | Total engagement period             | 16 weeks | 17 weeks  | 17 weeks                | 15 weeks       |
+
+> [!IMPORTANT] Success-Based Fees
+> [Pay only after approval](../benefits/success-based-fees.md). Complete transparency with no hidden costs.

@@ -1,87 +1,68 @@
 ---
-title: "UAEの会社登録料金と所要期間"
-description: "UAEの会社設立のエキスパート。UAEでの会社登録費用と事業設立の予想タイムライン。"
+title: "UAEの会社登録手数料とタイムライン"
+description: "UAEの会社設立のエキスパート。UAEでの会社登録手数料と事業設立の予想タイムライン。"
 showForm: true
 ---
 
-# 2025年の料金と所要期間
+# 2025年の手数料とタイムライン
 
-## 料金
+## 手数料
 
-:::details UAEメインランド法人
-<TableWrapper
-  :headers="['UAEの法人形態', '1年目費用', '2年目費用', '請求書案']"
-  :rows="[
-    { title: 'Dubai mainland LLC', year1Cost: 23610, year2Cost: 12932, invoiceLink: 'https://docs.google.com/document/d/17zrplxsKNhqfC8AGuqbiAzR_1QXutglx_zeaSEys7-E/edit?usp=sharing' },
-    { title: 'Abu Dhabi LLC', year1Cost: 29538, year2Cost: 12003, invoiceLink: '/resources/contacts' },
-    { title: 'RAK LLC', year1Cost: 23400, year2Cost: 10469, invoiceLink: '/resources/contacts' },
-    { title: 'Sharjah LLC', year1Cost: 30995, year2Cost: 13960, invoiceLink: '/resources/contacts' },
-    { title: 'Ajman LLC', year1Cost: 29375, year2Cost: 8960, invoiceLink: '/resources/contacts' }
-  ]"
-/>
-:::
+### UAE本土法人
 
-:::details オフショア法人
-<TableWrapper
-  :headers="['UAEオフショア会社設立のオプション', '1年目費用', '2年目費用', '請求書案']"
-  :rows="[
-    { title: 'JAFZA offshore company formation', year1Cost: 22393, year2Cost: 10143, invoiceLink: '/resources/contacts' },
-    { title: 'RAK offshore company formation', year1Cost: 16714, year2Cost: 5620, invoiceLink: '/resources/contacts' },
-    { title: 'Ajman offshore company formation', year1Cost: 12670, year2Cost: 3200, invoiceLink: '/resources/contacts' }
-  ]"
-/>
-:::
+| UAE法人の種類 | 1年目費用 | 2年目費用 | 請求書案                                                                                                    |
+| -------------------------- | ----------- | ----------- | ---------------------------------------------------------------------------------------------------------------- |
+| Dubai mainland LLC         | $11,805     | $6,466      | [View Invoice](https://docs.google.com/document/d/17zrplxsKNhqfC8AGuqbiAzR_1QXutglx_zeaSEys7-E/edit?usp=sharing) |
+| Abu Dhabi LLC              | $14,769     | $6,002      | [View Invoice](/resources/contacts)                                                                              |
+| RAK LLC                    | $11,700     | $5,235      | [View Invoice](/resources/contacts)                                                                              |
+| Sharjah LLC                | $15,498     | $6,980      | [View Invoice](/resources/contacts)                                                                              |
+| Ajman LLC                  | $14,688     | $4,480      | [View Invoice](/resources/contacts)                                                                              |
 
-:::details UAEフリーゾーン法人
-<TableWrapper
-  :headers="['UAEフリーゾーン', '1年目費用', '2年目費用', '請求書案']"
-  :rows="[
-    { title: 'Dubai FTZ - Dubai Airport', year1Cost: 22063, year2Cost: 12329, invoiceLink: '/resources/contacts' },
-    { title: 'Dubai FTZ - DMCC', year1Cost: 24874, year2Cost: 15999, invoiceLink: '/resources/contacts' },
-    { title: 'RAKEZ company', year1Cost: 19605, year2Cost: 11182, invoiceLink: '/resources/contacts' }
-  ]"
-/>
-:::
+### オフショア法人
 
-:::details その他のUAE企業サービス
+| UAEオフショア会社設立オプション | 1年目費用 | 2年目費用 | 請求書案                       |
+| ------------------------------------------ | ----------- | ----------- | ----------------------------------- |
+| JAFZA offshore company formation           | $11,197     | $5,072      | [View Invoice](/resources/contacts) |
+| RAK offshore company formation             | $8,357      | $2,810      | [View Invoice](/resources/contacts) |
+| Ajman offshore company formation           | $6,335      | $1,600      | [View Invoice](/resources/contacts) |
 
-<TableWrapper
-  :headers="['UAE法人銀行口座開設（渡航必要）', '備考', '費用（USD）']"
-  :rows="[
-    { title: '当社で登録したUAE企業のUAE法人銀行口座', remarks: 'シンプルな企業構造と事業活動', cost: 4950 },
-    { title: '', remarks: '複雑な企業構造または事業活動（暗号資産など）', cost: 6950 },
-    { title: '当社で登録していないUAE企業のUAE法人銀行口座', remarks: 'UAE法人銀行口座', cost: 6950 },
-    { title: '', remarks: '複雑な企業構造または事業活動（暗号資産など）', cost: 8950 },
-    { title: 'UAE個人銀行口座', remarks: '', cost: 2950 }
-  ]"
-/>
+### UAEフリーゾーン法人
 
-<TableWrapper
-  :headers="['UAE居住/就労ビザ', '備考', '費用']"
-  :rows="[
-    { title: '就労ビザ費用', remarks: '費用に含まれるもの：<br/>i) 従業員保護プログラム（EPI）費用（給与範囲とビザの種類に応じて23～155米ドル）<br/>ii) 健康診断（235米ドル）<br/>iii) Emirates ID申請（165米ドル）<br/>iv) 政府申請費用（1,500米ドル）。健康保険料は含まれません', cost: 4950 },
-    { title: 'ゴールデンビザ費用', remarks: '', cost: 7950 },
-    { title: '扶養家族ビザ - 配偶者', remarks: '', cost: 2950 },
-    { title: '扶養家族ビザ - 子供', remarks: '', cost: 1950 }
-  ]"
-/>
+| UAEフリーゾーン            | 1年目費用 | 2年目費用 | 請求書案                       |
+| ------------------------- | ----------- | ----------- | ----------------------------------- |
+| Dubai FTZ - Dubai Airport | $11,032     | $6,165      | [View Invoice](/resources/contacts) |
+| Dubai FTZ - DMCC          | $12,437     | $8,000      | [View Invoice](/resources/contacts) |
+| RAKEZ company             | $9,803      | $5,591      | [View Invoice](/resources/contacts) |
 
-<TableWrapper
-  :headers="['UAE企業会計・税務サービス', '備考', '費用']"
-  :rows="[
-    { title: '活動中の企業の年間会計・税務費用', remarks: 'これはGolden Fishの費用見積もりです。お客様の会社から会計数値の草案を受け取った後、Golden Fishは正確な会計・税務費用をご案内いたします。', cost: 5950 },
-    { title: '休眠会社の年間会計・税務費用', remarks: '', cost: 1200 },
-    { title: '概算監査費用（必要な場合）', remarks: '', cost: 2000 },
-    { title: 'VAT申告', remarks: '取引量に応じて四半期または月次', cost: 750 },
-    { title: '帳簿記帳', remarks: '', buttonLink: '#' },
-    { title: '給与計算', remarks: '', buttonLink: '#' }
-  ]"
-/>
-:::
+### その他のUAE企業サービス
+
+| UAE法人銀行口座開設（渡航必要）            | 備考                                                        | 費用（USD） |
+| --------------------------------------------------------------- | -------------------------------------------------------------- | ----------- |
+| 当社で登録したUAE企業向けUAE法人銀行口座        | シンプルな企業構造および事業活動               | $2,475      |
+|                                                                 | 複雑な企業構造または事業活動（暗号資産など） | $3,475      |
+| 当社で登録していないUAE企業向けUAE法人銀行口座 | UAE企業向けUAE法人銀行口座                   | $3,475      |
+|                                                                 | 複雑な企業構造または事業活動（暗号資産など） | $4,475      |
+| UAE個人銀行口座                                       |                                                                | $1,475      |
+
+| UAE居住/就労ビザ | 備考                                                                                                                                                                                                                                                                                            | 費用   |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 就労ビザ費用          | 費用に含まれるもの：<br/>i) 従業員保護プログラム（EPI）費用（給与範囲とビザの種類により$23～$155）<br/>ii) 健康診断（$235）<br/>iii) Emirates ID申請（$165）<br/>iv) 政府申請費用（$1,500）。健康保険料は含まれません | $2,475 |
+| ゴールデンビザ費用              |                                                                                                                                                                                                                                                                                    | $3,975 |
+| 扶養家族ビザ - 配偶者       |                                                                                                                                                                                                                                                                                    | $1,475 |
+| 扶養家族ビザ - 子供        |                                                                                                                                                                                                                                                                                    | $975   |
+
+| UAE企業会計・税務サービス              | 備考                                                                                                                                                                                              | 費用            |
+| ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| 活動中の企業向け年間会計・税務費用 | これはGolden Fish費用の見積もりです。お客様の会社から仮の会計数値を受け取った後、Golden Fishは正確な会計・税務費用をお知らせします。 | $2,975          |
+| 休眠会社向け年間会計・税務費用 |                                                                                                                                                                                      | $600            |
+| 概算監査費用（必要な場合）                 |                                                                                                                                                                                      | $1,000          |
+| VAT申告                                           | 取引量に応じて四半期または月次                                                                                                                                                             | $375            |
+| 記帳                                         |                                                                                                                                                                                      | [Click here](#) |
+| 給与計算                                              |                                                                                                                                                                                      | [Click here](#) |
 
 ## タイムライン
 
-UAEでの平均的な設立所要期間は以下の通り17週間です：
+UAEでの平均セットアップ期間は以下の通り17週間です：
 
 | サービス                           | Mainland | Free Zone | Offshore (JAFZA以外) | JAFZA offshore |
 | --------------------------------- | -------- | --------- | ------------------- | -------------- |
@@ -90,4 +71,7 @@ UAEでの平均的な設立所要期間は以下の通り17週間です：
 | 法人銀行口座承認                  | 8週間    | 8週間     | 12週間              | 8週間          |
 | 法人インターネットバンキング承認   | 1週間    | 1週間     | 1週間               | 1週間          |
 | 契約完了                          | 1週間    | 1週間     | 1週間               | 1週間          |
-| 総所要期間                        | 16週間   | 17週間    | 17週間              | 15週間         |
+| 総契約期間                        | 16週間   | 17週間    | 17週間              | 15週間         |
+
+> [!IMPORTANT] 成功報酬型手数料
+> [承認後のみお支払い](../benefits/success-based-fees.md)。隠れた費用のない完全な透明性。
