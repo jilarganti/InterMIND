@@ -3,16 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/vi"
 
 export const vi = defineConfig({
-  description:
-    "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thành lập công ty, ngân hàng, thuế, pháp lý và visa. Biến ước mơ kinh doanh của bạn thành hiện thực!",
+  description: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thành lập công ty, ngân hàng, thuế, pháp lý và thị thực. Biến ước mơ kinh doanh của bạn thành hiện thực!",
   head: [
-    [
-      "meta",
-      {
-        property: "og:title",
-        content: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thành lập công ty, ngân hàng, thuế, pháp lý và visa.",
-      },
-    ],
+    ["meta", { property: "og:title", content: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thành lập công ty, ngân hàng, thuế, pháp lý và thị thực." }],
   ],
 
   themeConfig: {
@@ -49,11 +42,11 @@ export const vi = defineConfig({
       email: "Email *",
       emailPlaceholder: "địa chỉ email của bạn",
       phone: "Điện thoại *",
-      phonePlaceholder: "ví dụ: +1 1234567890 hoặc (1) 123 456-7890",
+      phonePlaceholder: "vd: +1 1234567890 hoặc (1) 123 456-7890",
       phoneError: "Vui lòng nhập số điện thoại",
       category: "Chúng tôi có thể giúp gì cho bạn? *",
       categoryPlaceholder: "chọn loại dịch vụ",
-      message: "Hãy thảo luận về mục tiêu của bạn (không bắt buộc)",
+      message: "Hãy thảo luận về mục tiêu của bạn (tùy chọn)",
       messagePlaceholder: "mô tả dự án hoặc yêu cầu của bạn",
       submit: "Gửi yêu cầu",
       sending: "Đang gửi...",
@@ -72,11 +65,12 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Đăng ký công ty", link: "company-registration/overview" },
-        { text: "Ưu điểm & nhược điểm", link: "company-registration/benefits-problems" },
+        { text: "Ưu & nhược điểm", link: "company-registration/benefits-problems" },
         { text: "Giải pháp ngân hàng doanh nghiệp", link: "offer/banking/" },
         { text: "Golden Visa", link: "offer/golden-visa/" },
-        { text: "Visa & EID", link: "company-registration/employment-visas" },
+        { text: "Thị thực & EID", link: "company-registration/employment-visas" },
         { text: "Phí và thời gian", link: "company-registration/fees-timelines" },
+        { text: "Chỉ thanh toán sau khi thành công", link: "benefits/success-based-fees" },
       ],
     },
     {
@@ -89,12 +83,12 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "Đảm bảo tuân thủ kinh doanh tại UAE",
+      text: "Đảm bảo tuân thủ kinh doanh UAE",
       collapsed: true,
       items: [
         { text: "Đảm bảo phê duyệt tài khoản ngân hàng doanh nghiệp", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Tài khoản ngân hàng cho doanh nghiệp rủi ro cao", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "Duy trì tuân thủ và bảo vệ doanh nghiệp của bạn", link: "company-registration/Protect-Your-Business" },
+        { text: "Giữ doanh nghiệp của bạn tuân thủ và được bảo vệ", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -109,7 +103,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "So sánh",
       collapsed: true,
       items: [
-        { text: "Mainland và free zones", link: "comparison/mainland-vs-free-zones" },
+        { text: "Mainland vs free zones", link: "comparison/mainland-vs-free-zones" },
         { text: "So sánh các loại hình doanh nghiệp UAE", link: "comparison/entity-types" },
       ],
     },

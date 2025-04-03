@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Serviços de Formação de Empresas nos EAU"
-description: "Serviços especializados de formação e suporte empresarial nos EAU. Abertura de empresa, serviços bancários, impostos, soluções legais e de visto. Pagamento apenas após aprovação."
+description: "Serviços especializados de formação e suporte empresarial nos EAU. Abertura de empresa, serviços bancários, impostos, soluções jurídicas e de visto. Pagamento apenas após aprovação."
 showSponsors: false
 
 hero:
@@ -11,8 +11,8 @@ hero:
 
   actions:
     - theme: brand
-      text: Get Free Consultation
-      link: ./resources/contacts
+      text: Obter Consultoria Gratuita
+      link: /resources/contacts
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -29,14 +29,14 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Guia de Abertura de Empresa',
-    details: 'Guia completo para abrir empresas na **free zone, offshore, mainland, branch**.',
+    details: 'Guia completo para abrir empresas na **Free Zone, offshore, Mainland, filial**.',
     items: [
-      'Propriedade 100% Estrangeira disponível em Free Zones e Mainland',
+      '100% de Propriedade Estrangeira disponível em Free Zones e Mainland',
       'Baixas Taxas de Impostos - apenas 9% de imposto corporativo',
       'Sem Controle Cambial - fácil repatriação de capital'
     ],
-    linkText: 'Learn more',
-    link: './uae-business/offer/company-registration/',
+    linkText: 'Saiba mais',
+    link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -51,8 +51,8 @@ hero:
       'Configuração completa do pacote bancário',
       '**96% de taxa de sucesso**',
     ],
-    linkText: 'Learn more',
-    link: './uae-business/offer/banking/',
+    linkText: 'Saiba mais',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -67,8 +67,8 @@ hero:
       'Validade de 10 anos com opção de renovação mantendo as condições qualificadoras',
       '92% de taxa de sucesso',
     ],
-    linkText: 'Learn more',
-    link: './uae-business/offer/golden-visa/',
+    linkText: 'Saiba mais',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -79,23 +79,23 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Serviços de Compliance',
+    title: 'Serviços de Conformidade',
     details: 'Nossos especialistas o guiam através dos complexos requisitos regulatórios dos EAU, incluindo relatórios ESR e registros UBO.',
     items: [],
-    linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    linkText: 'Saiba mais',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
-      alt: 'Serviços de Compliance'
+      alt: 'Serviços de Conformidade'
     }
   },
   {
-    title: 'Imposto Corporativo e VAT',
-    details: 'Consultoria especializada garante conformidade com obrigações de Imposto Corporativo e VAT junto à Autoridade Federal Tributária (FTA).',
+    title: 'Imposto Corporativo e IVA',
+    details: 'Consultoria especializada garante conformidade com obrigações de Imposto Corporativo e IVA junto à Autoridade Federal Tributária (FTA).',
     items: [],
-    linkText: 'Learn more',
-    link: './uae-business/company-registration/accounting-legal',
+    linkText: 'Saiba mais',
+    link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
@@ -104,10 +104,10 @@ hero:
   },
   {
     title: 'Serviços Jurídicos',
-    details: 'Equipe jurídica orienta sobre as leis dos EAU referentes a M&As, reestruturação corporativa, financiamento e resolução de disputas.',
+    details: 'Equipe jurídica orienta sobre as leis dos EAU referentes a fusões e aquisições, reestruturação corporativa, financiamento e resolução de disputas.',
     items: [],
-    linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    linkText: 'Saiba mais',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
@@ -116,14 +116,14 @@ hero:
   },
   {
     title: 'Contabilidade e Folha de Pagamento',
-    details: 'Nossos contadores gerenciam finanças, fornecendo contabilidade, reconciliação, folha de pagamento e suporte à auditoria, economizando custos de contratação.',
+    details: 'Nossos contadores gerenciam finanças, fornecendo contabilidade, reconciliação, folha de pagamento e suporte de auditoria, economizando custos de contratação.',
     items: [],
-    linkText: 'Learn more',
-    link: './resources/contacts',
+    linkText: 'Saiba mais',
+    link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',
-      alt: 'Serviços Contábeis'
+      alt: 'Serviços de Contabilidade'
     }
   },
 ]" />

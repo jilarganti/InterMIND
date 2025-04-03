@@ -6,12 +6,12 @@ showSponsors: false
 
 hero:
   name: "യുഎഇ: നിങ്ങളുടെ സാമ്പത്തിക സുരക്ഷിത തുറമുഖം"
-  tagline: "പൂർണ്ണ ബിസിനസ്സ് പിന്തുണ: കമ്പനി സ്ഥാപനം, വിസകൾ, ബാങ്കിംഗ്. <span class='hl'>വിജയം ഇല്ലെങ്കിൽ - ഫീസ് ഇല്ല</span>."
+  tagline: "സമ്പൂർണ്ണ ബിസിനസ്സ് പിന്തുണ: കമ്പനി സ്ഥാപനം, വിസകൾ, ബാങ്കിംഗ്. <span class='hl'>വിജയം ഇല്ലെങ്കിൽ - ഫീസ് ഇല്ല</span>."
 
   actions:
     - theme: brand
       text: സൗജന്യ കൺസൾട്ടേഷൻ നേടുക
-      link: ./resources/contacts
+      link: /resources/contacts
 
   image:
     light:
@@ -33,7 +33,7 @@ hero:
       'കറൻസി നിയന്ത്രണങ്ങൾ ഇല്ല - എളുപ്പത്തിലുള്ള മൂലധന തിരിച്ചെടുക്കൽ'
     ],
     linkText: 'കൂടുതൽ അറിയുക',
-    link: './uae-business/offer/company-registration/',
+    link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -49,7 +49,7 @@ hero:
       '**96% വിജയ നിരക്ക്**',
     ],
     linkText: 'കൂടുതൽ അറിയുക',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -65,7 +65,7 @@ hero:
       '92% വിജയ നിരക്ക്',
     ],
     linkText: 'കൂടുതൽ അറിയുക',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -80,7 +80,7 @@ hero:
     details: 'ESR റിപ്പോർട്ടുകളും UBO ഫയലിംഗുകളും ഉൾപ്പെടെ സങ്കീർണ്ണമായ യുഎഇ നിയന്ത്രണ ആവശ്യകതകളിലൂടെ ഞങ്ങളുടെ വിദഗ്ധർ നിങ്ങളെ നയിക്കുന്നു.',
     items: [],
     linkText: 'കൂടുതൽ അറിയുക',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -89,10 +89,10 @@ hero:
   },
   {
     title: 'കോർപ്പറേറ്റ് നികുതി & VAT',
-    details: 'ഫെഡറൽ ടാക്സ് അതോറിറ്റി (FTA)യുമായുള്ള കോർപ്പറേറ്റ് നികുതി, VAT ബാധ്യതകൾ പാലിക്കുന്നതിന് വിദഗ്ധ ഉപദേശം.',
+    details: 'ഫെഡറൽ ടാക്സ് അതോറിറ്റി (FTA) യുമായുള്ള കോർപ്പറേറ്റ് നികുതി, VAT ബാധ്യതകൾ പാലിക്കുന്നതിന് വിദഗ്ധ ഉപദേശം.',
     items: [],
     linkText: 'കൂടുതൽ അറിയുക',
-    link: './uae-business/company-registration/accounting-legal',
+    link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
@@ -104,7 +104,7 @@ hero:
     details: 'M&As, കോർപ്പറേറ്റ് പുനഃസംഘടന, ധനസഹായം, തർക്ക പരിഹാരം എന്നിവയെക്കുറിച്ച് യുഎഇ നിയമങ്ങളിൽ നിയമ ടീം ഉപദേശിക്കുന്നു.',
     items: [],
     linkText: 'കൂടുതൽ അറിയുക',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
@@ -116,7 +116,7 @@ hero:
     details: 'ഞങ്ങളുടെ അക്കൗണ്ടന്റുമാർ ബുക്ക്കീപ്പിംഗ്, റീകൺസിലിയേഷൻ, പേറോൾ, ഓഡിറ്റ് പിന്തുണ എന്നിവ നൽകി സാമ്പത്തിക കാര്യങ്ങൾ കൈകാര്യം ചെയ്യുന്നു, നിയമന ചെലവുകൾ ലാഭിക്കുന്നു.',
     items: [],
     linkText: 'കൂടുതൽ അറിയുക',
-    link: './resources/contacts',
+    link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',

@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Get Free Consultation
-      link: ./resources/contacts
+      link: /resources/contacts
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -29,14 +29,14 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Руководство по открытию компании',
-    details: 'Полное руководство по регистрации компаний в **free zone, offshore, mainland, branch**.',
+    details: 'Полное руководство по регистрации компаний в **Free Zone, offshore, mainland, branch**.',
     items: [
-      '100% иностранное владение доступно в Free Zones и Mainland',
+      '100% иностранное владение доступно в Free Zone и Mainland',
       'Низкие налоговые ставки - всего 9% корпоративного налога',
-      'Отсутствие валютного контроля - легкая репатриация капитала'
+      'Отсутствие валютного контроля - простая репатриация капитала'
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/company-registration/',
+    link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -45,14 +45,14 @@ hero:
   },
   {
     title: 'Открытие банковского счета',
-    details: 'Легкое открытие **банковских счетов** для бизнеса и частных лиц в надежных банках ОАЭ.',
+    details: 'Легкое открытие корпоративных и личных банковских счетов в надежных банках ОАЭ.',
     items: [
       'Полный спектр PRO-услуг для получения государственных разрешений',
       'Комплексная настройка банковского обслуживания',
-      '96% успешных случаев',
+      '**96% успешных случаев**',
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -68,7 +68,7 @@ hero:
       '92% успешных случаев',
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -79,15 +79,15 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Услуги по комплаенс',
+    title: 'Услуги по комплаенсу',
     details: 'Наши эксперты проведут вас через сложные нормативные требования ОАЭ, включая отчеты ESR и подачи UBO.',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
-      alt: 'Услуги по комплаенс'
+      alt: 'Услуги по комплаенсу'
     }
   },
   {
@@ -95,7 +95,7 @@ hero:
     details: 'Экспертные консультации обеспечивают соответствие обязательствам по корпоративному налогу и НДС перед Федеральным налоговым органом (FTA).',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/accounting-legal',
+    link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
@@ -107,7 +107,7 @@ hero:
     details: 'Юридическая команда консультирует по законодательству ОАЭ в области слияний и поглощений, корпоративной реструктуризации, финансирования и разрешения споров.',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
@@ -119,7 +119,7 @@ hero:
     details: 'Наши бухгалтеры управляют финансами, ведут бухгалтерский учет, сверку, расчет зарплаты и поддержку аудита, экономя на затратах на персонал.',
     items: [],
     linkText: 'Learn more',
-    link: './resources/contacts',
+    link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',

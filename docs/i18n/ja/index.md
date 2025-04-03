@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 無料相談を受ける
-      link: ./resources/contacts
+      link: /resources/contacts
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -23,7 +23,7 @@ hero:
     dark:
       src: /img/Logo.avif
       width: 40%
-    alt: Golden Fish ロゴ
+    alt: Golden Fishロゴ
 ---
 
 <FeatureCards :features="[
@@ -36,7 +36,7 @@ hero:
       '為替管理なし - 簡単な資本送金'
     ],
     linkText: '詳細を見る',
-    link: './uae-business/offer/company-registration/',
+    link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -52,7 +52,7 @@ hero:
       '**96%の成功率**',
     ],
     linkText: '詳細を見る',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -68,7 +68,7 @@ hero:
       '92%の成功率',
     ],
     linkText: '詳細を見る',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -80,10 +80,10 @@ hero:
 <FeatureCards :features="[
   {
     title: 'コンプライアンスサービス',
-    details: '当社の専門家が、ESRレポートやUBO申告を含むUAEの複雑な規制要件をサポート。',
+    details: 'ESRレポートやUBO申告を含む、UAEの複雑な規制要件をエキスパートがサポート。',
     items: [],
     linkText: '詳細を見る',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -95,7 +95,7 @@ hero:
     details: '連邦税務局（FTA）への法人税・付加価値税の義務を確実に遵守するための専門家によるアドバイス。',
     items: [],
     linkText: '詳細を見る',
-    link: './uae-business/company-registration/accounting-legal',
+    link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
@@ -104,10 +104,10 @@ hero:
   },
   {
     title: '法務サービス',
-    details: '法務チームがM&A、企業再編、資金調達、紛争解決に関するUAEの法律についてアドバイス。',
+    details: 'M&A、企業再編、資金調達、紛争解決に関するUAEの法律について法務チームが助言。',
     items: [],
     linkText: '詳細を見る',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
@@ -116,10 +116,10 @@ hero:
   },
   {
     title: '会計・給与計算',
-    details: '当社の会計士が、簿記、照合、給与計算、監査サポートを提供し、採用コストを削減。',
+    details: '会計士が財務を管理し、帳簿記帳、照合、給与計算、監査サポートを提供し、採用コストを削減。',
     items: [],
     linkText: '詳細を見る',
-    link: './resources/contacts',
+    link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',
@@ -139,7 +139,7 @@ hero:
   {
     icon: '📊',
     title: '実証された成功率',
-    text: '当社のプレミアム処理サービスを通じて、90%以上の承認率で数百件のビザ、銀行口座、会社登録を実現しています。'
+    text: '当社のプレミアム処理を通じて発行されたビザ、銀行口座、会社登録の承認率は90％以上で、数百件の実績があります。'
   },
   {
     icon: '💸',

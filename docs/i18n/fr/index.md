@@ -11,8 +11,8 @@ hero:
 
   actions:
     - theme: brand
-      text: Get Free Consultation
-      link: ./resources/contacts
+      text: Obtenir une Consultation Gratuite
+      link: /resources/contacts
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -32,31 +32,31 @@ hero:
     details: 'Guide complet pour créer des entreprises en **free zone, offshore, mainland, branch**.',
     items: [
       'Propriété étrangère à 100% disponible en Free Zones et Mainland',
-      'Taux d\'imposition bas - seulement 9% d\'impôt sur les sociétés',
-      'Pas de contrôle des changes - rapatriement facile des capitaux'
+      'Taux d\'Imposition Bas - seulement 9% d\'impôt sur les sociétés',
+      'Pas de Contrôle des Changes - rapatriement facile des capitaux'
     ],
-    linkText: 'Learn more',
-    link: './uae-business/offer/company-registration/',
+    linkText: 'En savoir plus',
+    link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
-      alt: 'Guide de création d\'entreprise'
+      alt: 'Guide de Création d\'Entreprise'
     }
   },
   {
     title: 'Ouverture de Compte Bancaire',
-    details: 'Ouvrez facilement des **comptes bancaires** professionnels ou personnels auprès des banques de confiance des EAU.',
+    details: 'Ouvrez facilement des comptes bancaires professionnels ou personnels auprès des banques de confiance des EAU.',
     items: [
       'Services PRO complets pour les approbations gouvernementales',
       'Configuration complète du package bancaire',
-      'Taux de réussite de 96%',
+      '**Taux de réussite de 96%**',
     ],
-    linkText: 'Learn more',
-    link: './uae-business/offer/banking/',
+    linkText: 'En savoir plus',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
-      alt: 'Services bancaires'
+      alt: 'Services Bancaires'
     }
   },
   {
@@ -67,12 +67,12 @@ hero:
       'Validité de 10 ans avec option de renouvellement sous conditions',
       'Taux de réussite de 92%',
     ],
-    linkText: 'Learn more',
-    link: './uae-business/offer/golden-visa/',
+    linkText: 'En savoir plus',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
-      alt: 'Services de visa'
+      alt: 'Services de Visa'
     }
   },
 ]" />
@@ -82,48 +82,48 @@ hero:
     title: 'Services de Conformité',
     details: 'Nos experts vous guident à travers les exigences réglementaires complexes des EAU, y compris les rapports ESR et les déclarations UBO.',
     items: [],
-    linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    linkText: 'En savoir plus',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
-      alt: 'Services de conformité'
+      alt: 'Services de Conformité'
     }
   },
   {
     title: 'Impôt sur les Sociétés et TVA',
-    details: 'Conseils d\'experts pour assurer la conformité aux obligations d\'impôt sur les sociétés et de TVA auprès de l\'Autorité Fiscale Fédérale (FTA).',
+    details: 'Conseils d\'experts pour assurer la conformité aux obligations d\'Impôt sur les Sociétés et de TVA auprès de l\'Autorité Fiscale Fédérale (FTA).',
     items: [],
-    linkText: 'Learn more',
-    link: './uae-business/company-registration/accounting-legal',
+    linkText: 'En savoir plus',
+    link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
-      alt: 'Services fiscaux'
+      alt: 'Services Fiscaux'
     }
   },
   {
     title: 'Services Juridiques',
     details: 'L\'équipe juridique conseille sur les lois des EAU concernant les fusions-acquisitions, la restructuration d\'entreprise, le financement et la résolution des litiges.',
     items: [],
-    linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    linkText: 'En savoir plus',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
-      alt: 'Services juridiques'
+      alt: 'Services Juridiques'
     }
   },
   {
     title: 'Comptabilité et Paie',
     details: 'Nos comptables gèrent les finances, assurant la comptabilité, le rapprochement, la paie et le support d\'audit, économisant les coûts de recrutement.',
     items: [],
-    linkText: 'Learn more',
-    link: './resources/contacts',
+    linkText: 'En savoir plus',
+    link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',
-      alt: 'Services comptables'
+      alt: 'Services Comptables'
     }
   },
 ]" />
@@ -134,7 +134,7 @@ hero:
   {
     icon: '🏢',
     title: 'Expertise Locale aux EAU',
-    text: 'Des spécialistes dédiés à Dubaï fournissent des conseils d\'experts à chaque étape du processus.'
+    text: 'Des spécialistes dévoués à Dubaï fournissent des conseils d\'experts à chaque étape du processus.'
   },
   {
     icon: '📊',

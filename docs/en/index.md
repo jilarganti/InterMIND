@@ -36,7 +36,7 @@ hero:
       'No Currency Controls - easy capital repatriation'
     ],
     linkText: 'Learn more',
-    link: '/uae-business/offer/company-registration/',
+    link: './uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',

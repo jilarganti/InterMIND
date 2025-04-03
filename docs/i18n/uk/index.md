@@ -11,8 +11,8 @@ hero:
 
   actions:
     - theme: brand
-      text: Отримати безкоштовну консультацію
-      link: ./resources/contacts
+      text: Get Free Consultation
+      link: /resources/contacts
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -29,14 +29,14 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Посібник зі створення компанії',
-    details: 'Повний посібник зі створення компаній у **free zone, offshore, mainland, branch**.',
+    details: 'Повний посібник зі створення компаній у **Free Zone, offshore, mainland, branch**.',
     items: [
       '100% іноземна власність доступна у Free Zones та Mainland',
       'Низькі податкові ставки - лише 9% корпоративного податку',
       'Відсутність валютного контролю - легка репатріація капіталу'
     ],
-    linkText: 'Дізнатися більше',
-    link: './uae-business/offer/company-registration/',
+    linkText: 'Learn more',
+    link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -51,8 +51,8 @@ hero:
       'Повний пакет банківського обслуговування',
       '**96% успішних справ**',
     ],
-    linkText: 'Дізнатися більше',
-    link: './uae-business/offer/banking/',
+    linkText: 'Learn more',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -61,14 +61,14 @@ hero:
   },
   {
     title: 'Golden Visa та резидентство',
-    details: 'Отримайте **Golden Visa** ОАЕ для довгострокового проживання через простий процес подання заявки.',
+    details: 'Отримайте **Golden Visa** ОАЕ для довгострокового проживання через простий процес подання.',
     items: [
-      '**Не потрібно в\'їжджати в ОАЕ кожні 6 місяців**',
+      '**Немає потреби в\'їжджати в ОАЕ кожні 6 місяців**',
       '10-річна дійсність з можливістю продовження при збереженні кваліфікаційних умов',
       '92% успішних справ',
     ],
-    linkText: 'Дізнатися більше',
-    link: './uae-business/offer/golden-visa/',
+    linkText: 'Learn more',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -82,8 +82,8 @@ hero:
     title: 'Послуги з комплаєнсу',
     details: 'Наші експерти проведуть вас через складні регуляторні вимоги ОАЕ, включаючи звіти ESR та подання UBO.',
     items: [],
-    linkText: 'Дізнатися більше',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    linkText: 'Learn more',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -92,10 +92,10 @@ hero:
   },
   {
     title: 'Корпоративний податок і ПДВ',
-    details: 'Експертні консультації забезпечують відповідність зобов\'язанням з корпоративного податку та ПДВ перед Федеральною податковою службою (FTA).',
+    details: 'Експертні консультації забезпечують відповідність зобов\'язанням з корпоративного податку та ПДВ перед Federal Tax Authority (FTA).',
     items: [],
-    linkText: 'Дізнатися більше',
-    link: './uae-business/company-registration/accounting-legal',
+    linkText: 'Learn more',
+    link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
@@ -106,8 +106,8 @@ hero:
     title: 'Юридичні послуги',
     details: 'Юридична команда консультує щодо законодавства ОАЕ у сфері злиття та поглинання, корпоративної реструктуризації, фінансування та вирішення спорів.',
     items: [],
-    linkText: 'Дізнатися більше',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    linkText: 'Learn more',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
@@ -116,10 +116,10 @@ hero:
   },
   {
     title: 'Бухгалтерський облік і зарплата',
-    details: 'Наші бухгалтери керують фінансами, надаючи послуги бухгалтерського обліку, звірки, нарахування зарплати та підтримки аудиту, економлячи витрати на найм.',
+    details: 'Наші бухгалтери керують фінансами, надаючи послуги бухгалтерського обліку, звірки, розрахунку зарплати та підтримки аудиту, економлячи витрати на найм.',
     items: [],
-    linkText: 'Дізнатися більше',
-    link: './resources/contacts',
+    linkText: 'Learn more',
+    link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',

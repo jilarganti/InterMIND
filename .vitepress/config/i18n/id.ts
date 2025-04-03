@@ -3,16 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/id"
 
 export const id = defineConfig({
-  description:
-    "Layanan pembentukan dan dukungan perusahaan UAE yang ahli. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa. Mewujudkan impian bisnis Anda!",
+  description: "Layanan pembentukan dan dukungan perusahaan UAE yang ahli. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa. Mewujudkan impian bisnis Anda!",
   head: [
-    [
-      "meta",
-      {
-        property: "og:title",
-        content: "Layanan pembentukan dan dukungan perusahaan UAE yang ahli. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa.",
-      },
-    ],
+    ["meta", { property: "og:title", content: "Layanan pembentukan dan dukungan perusahaan UAE yang ahli. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa." }],
   ],
 
   themeConfig: {
@@ -49,7 +42,7 @@ export const id = defineConfig({
       email: "Email *",
       emailPlaceholder: "alamat email Anda",
       phone: "Telepon *",
-      phonePlaceholder: "contoh: +1 1234567890 atau (1) 123 456-7890",
+      phonePlaceholder: "contoh, +1 1234567890 atau (1) 123 456-7890",
       phoneError: "Silakan masukkan nomor telepon",
       category: "Bagaimana kami dapat membantu Anda? *",
       categoryPlaceholder: "pilih jenis layanan",
@@ -77,6 +70,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "Visa & EID", link: "company-registration/employment-visas" },
         { text: "Biaya dan jadwal", link: "company-registration/fees-timelines" },
+        { text: "Bayar hanya setelah berhasil", link: "benefits/success-based-fees" },
       ],
     },
     {
@@ -84,15 +78,15 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         { text: "Langkah pendaftaran perusahaan", link: "company-registration/insights/incorporation-steps" },
-        { text: "UAE free zones", link: "company-registration/free-zones" },
-        { text: "UAE mainland", link: "company-registration/mainland" },
+        { text: "Free zones UAE", link: "company-registration/free-zones" },
+        { text: "Mainland UAE", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "Kepatuhan bisnis UAE terjamin",
+      text: "Kepatuhan bisnis UAE dijamin",
       collapsed: true,
       items: [
-        { text: "Persetujuan rekening bank korporat terjamin", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "Persetujuan rekening bank korporat dijamin", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Rekening bank untuk bisnis berisiko tinggi", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
         { text: "Jaga kepatuhan dan perlindungan bisnis Anda", link: "company-registration/Protect-Your-Business" },
       ],

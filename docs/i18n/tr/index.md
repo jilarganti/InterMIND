@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Ücretsiz Danışmanlık Alın
-      link: ./resources/contacts
+      link: /resources/contacts
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -29,14 +29,14 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Şirket Kurulum Rehberi',
-    details: '**Free zone, offshore, mainland, branch** şirketleri kurma konusunda eksiksiz rehber.',
+    details: '**Free zone, offshore, mainland, branch** şirket kurulumu için kapsamlı rehber.',
     items: [
-      'Free Zone ve Mainland\'de %100 Yabancı Mülkiyet mümkün',
+      'Free Zone ve Mainland\'de %100 Yabancı Mülkiyet imkanı',
       'Düşük Vergi Oranları - sadece %9 kurumlar vergisi',
       'Döviz Kontrolü Yok - kolay sermaye transferi'
     ],
     linkText: 'Daha fazla bilgi',
-    link: './uae-business/offer/company-registration/',
+    link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -48,11 +48,11 @@ hero:
     details: 'BAE\'nin güvenilir bankalarında kolayca ticari veya bireysel banka hesabı açın.',
     items: [
       'Devlet onayları için eksiksiz PRO hizmetleri',
-      'Tam bankacılık paketi kurulumu',
+      'Eksiksiz bankacılık paketi kurulumu',
       '**%96 başarı oranı**',
     ],
     linkText: 'Daha fazla bilgi',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -64,11 +64,11 @@ hero:
     details: 'Sorunsuz bir başvuru süreciyle uzun süreli ikamet için **Golden Visa** alın.',
     items: [
       '**Her 6 ayda bir BAE\'ye girme zorunluluğu yok**',
-      'Gerekli şartların korunması halinde yenileme seçeneğiyle 10 yıl geçerlilik',
+      'Gerekli şartların sağlanması durumunda yenileme seçeneğiyle 10 yıl geçerlilik',
       '%92 başarı oranı',
     ],
     linkText: 'Daha fazla bilgi',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -83,7 +83,7 @@ hero:
     details: 'Uzmanlarımız, ESR raporları ve UBO bildirimleri dahil karmaşık BAE düzenleyici gereklilikleri konusunda size rehberlik eder.',
     items: [],
     linkText: 'Daha fazla bilgi',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -95,7 +95,7 @@ hero:
     details: 'Uzman danışmanlık, Federal Vergi Kurumu (FTA) ile Kurumlar Vergisi ve KDV yükümlülüklerine uyumu sağlar.',
     items: [],
     linkText: 'Daha fazla bilgi',
-    link: './uae-business/company-registration/accounting-legal',
+    link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
@@ -107,7 +107,7 @@ hero:
     details: 'Hukuk ekibimiz, birleşme ve satın almalar, kurumsal yeniden yapılandırma, finansman ve uyuşmazlık çözümü konularında BAE yasaları hakkında danışmanlık verir.',
     items: [],
     linkText: 'Daha fazla bilgi',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
@@ -116,10 +116,10 @@ hero:
   },
   {
     title: 'Muhasebe ve Bordro',
-    details: 'Muhasebecilerimiz, işe alım maliyetlerinden tasarruf sağlayarak defter tutma, mutabakat, bordro ve denetim desteği sağlayarak finansları yönetir.',
+    details: 'Muhasebecilerimiz, işe alım maliyetlerinden tasarruf sağlayarak defter tutma, mutabakat, bordro ve denetim desteği sağlar.',
     items: [],
     linkText: 'Daha fazla bilgi',
-    link: './resources/contacts',
+    link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',

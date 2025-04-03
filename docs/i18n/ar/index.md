@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: احصل على استشارة مجانية
-      link: ./resources/contacts
+      link: /resources/contacts
 
   image:
     light:
@@ -33,7 +33,7 @@ hero:
       'لا قيود على العملات - سهولة إعادة رأس المال'
     ],
     linkText: 'اعرف المزيد',
-    link: './uae-business/offer/company-registration/',
+    link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -42,14 +42,14 @@ hero:
   },
   {
     title: 'فتح الحساب المصرفي',
-    details: 'افتح حسابات مصرفية تجارية أو شخصية بسهولة مع البنوك الموثوقة في الإمارات.',
+    details: 'افتح حسابات مصرفية تجارية أو شخصية بسهولة مع البنوك الإماراتية الموثوقة.',
     items: [
       'خدمات PRO شاملة للموافقات الحكومية',
       'إعداد حزمة مصرفية كاملة',
       '**معدل نجاح 96٪**',
     ],
     linkText: 'اعرف المزيد',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -58,14 +58,14 @@ hero:
   },
   {
     title: 'التأشيرة الذهبية والإقامة',
-    details: 'احصل على **Golden Visa** في الإمارات للإقامة طويلة المدى مع عملية تقديم سلسة.',
+    details: 'احصل على **Golden Visa** الإماراتية للإقامة طويلة الأمد مع عملية تقديم سلسة.',
     items: [
       '**لا حاجة لدخول الإمارات كل 6 أشهر**',
-      'صلاحية 10 سنوات مع إمكانية التجديد عند الحفاظ على شروط التأهيل',
+      'صلاحية 10 سنوات مع إمكانية التجديد عند استيفاء الشروط المؤهلة',
       'معدل نجاح 92٪',
     ],
     linkText: 'اعرف المزيد',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -80,7 +80,7 @@ hero:
     details: 'يرشدك خبراؤنا خلال متطلبات اللوائح الإماراتية المعقدة، بما في ذلك تقارير ESR وملفات UBO.',
     items: [],
     linkText: 'اعرف المزيد',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -92,7 +92,7 @@ hero:
     details: 'نصائح خبيرة تضمن الامتثال لالتزامات ضريبة الشركات وضريبة القيمة المضافة مع الهيئة الاتحادية للضرائب.',
     items: [],
     linkText: 'اعرف المزيد',
-    link: './uae-business/company-registration/accounting-legal',
+    link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
@@ -104,7 +104,7 @@ hero:
     details: 'يقدم الفريق القانوني المشورة بشأن قوانين الإمارات المتعلقة بعمليات الدمج والاستحواذ وإعادة الهيكلة والتمويل وحل النزاعات.',
     items: [],
     linkText: 'اعرف المزيد',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
@@ -116,7 +116,7 @@ hero:
     details: 'يدير محاسبونا الشؤون المالية، ويقدمون خدمات مسك الدفاتر والتسوية والرواتب ودعم التدقيق، مما يوفر تكاليف التوظيف.',
     items: [],
     linkText: 'اعرف المزيد',
-    link: './resources/contacts',
+    link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',

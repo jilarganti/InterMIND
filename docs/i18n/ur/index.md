@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Free Consultation
-      link: ./resources/contacts
+      link: /resources/contacts
 
   image:
     light:
@@ -20,7 +20,7 @@ hero:
     dark:
       src: /img/Logo.avif
       width: 40%
-    alt: گولڈن فش لوگو
+    alt: Golden Fish لوگو
 ---
 
 <FeatureCards :features="[
@@ -33,7 +33,7 @@ hero:
       'کرنسی کنٹرول نہیں - آسان سرمایہ کی واپسی'
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/company-registration/',
+    link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -42,14 +42,14 @@ hero:
   },
   {
     title: 'بینک اکاؤنٹ کھولنا',
-    details: 'متحدہ عرب امارات کے قابل اعتماد بینکوں کے ساتھ آسانی سے کاروباری یا ذاتی **بینک اکاؤنٹس** کھولیں۔',
+    details: 'متحدہ عرب امارات کے قابل اعتماد بینکوں کے ساتھ آسانی سے کاروباری یا ذاتی بینک اکاؤنٹس کھولیں۔',
     items: [
       'سرکاری منظوریوں کے لیے مکمل PRO خدمات',
       'مکمل بینکنگ پیکیج سیٹ اپ',
-      '96% کامیابی کی شرح',
+      '**96% کامیابی کی شرح**',
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -58,14 +58,14 @@ hero:
   },
   {
     title: 'Golden Visa اور رہائش',
-    details: 'آسان درخواست کے عمل کے ساتھ طویل مدتی رہائش کے لیے متحدہ عرب امارات کا **Golden Visa** حاصل کریں۔',
+    details: 'آسان درخواست کے عمل کے ساتھ طویل مدتی رہائش کے لیے **Golden Visa** حاصل کریں۔',
     items: [
-      '**ہر 6 ماہ بعد متحدہ عرب امارات میں داخل ہونے کی ضرورت نہیں**',
+      '**ہر 6 ماہ بعد متحدہ عرب امارات میں داخلے کی ضرورت نہیں**',
       'اہلیت کی شرائط برقرار رکھنے پر تجدید کے اختیار کے ساتھ 10 سال کی مدت',
       '92% کامیابی کی شرح',
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -80,7 +80,7 @@ hero:
     details: 'ہمارے ماہرین آپ کو ESR رپورٹس اور UBO فائلنگز سمیت متحدہ عرب امارات کے پیچیدہ ریگولیٹری تقاضوں میں رہنمائی کرتے ہیں۔',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -92,7 +92,7 @@ hero:
     details: 'فیڈرل ٹیکس اتھارٹی (FTA) کے ساتھ کارپوریٹ ٹیکس اور VAT کی ذمہ داریوں کی تعمیل کو یقینی بنانے کے لیے ماہرانہ مشورہ۔',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/accounting-legal',
+    link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
@@ -104,7 +104,7 @@ hero:
     details: 'قانونی ٹیم M&As، کارپوریٹ ری سٹرکچرنگ، فنانسنگ، اور تنازعات کے حل کے بارے میں متحدہ عرب امارات کے قوانین پر مشورہ دیتی ہے۔',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
@@ -116,7 +116,7 @@ hero:
     details: 'ہمارے اکاؤنٹنٹس مالیات کا انتظام کرتے ہیں، بک کیپنگ، مطابقت، پے رول، اور آڈٹ سپورٹ فراہم کرتے ہیں، بھرتی کی لاگت کو بچاتے ہیں۔',
     items: [],
     linkText: 'Learn more',
-    link: './resources/contacts',
+    link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',
@@ -141,7 +141,7 @@ hero:
   {
     icon: '💸',
     title: '**کامیابی پر مبنی فیس**',
-    text: '[صرف منظوری کے بعد ادائیگی کریں](/uae-business/benefits/success-based-fees)۔ خفیہ اخراجات کے بغیر مکمل شفافیت۔'
+    text: '[صرف منظوری کے بعد ادائیگی کریں](/uae-business/benefits/success-based-fees)۔ کوئی چھپی ہوئی لاگت نہیں، مکمل شفافیت۔'
   },
 ]" />
 

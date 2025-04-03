@@ -1,21 +1,18 @@
 ---
 layout: home
 title: "Dịch Vụ Thành Lập Công Ty tại UAE"
-description: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thiết lập công ty, ngân hàng, thuế, pháp lý và visa. Chỉ thanh toán sau khi được phê duyệt."
+description: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thiết lập công ty, ngân hàng, thuế, pháp lý và thị thực. Chỉ thanh toán sau khi được phê duyệt."
 showSponsors: false
 
 hero:
   name: "UAE: Bến Đỗ Tài Chính An Toàn Của Bạn"
-  # text: We speak your tongue
-  tagline: "Hỗ Trợ Kinh Doanh Toàn Diện: Thành Lập Công Ty, Visa, Ngân Hàng. <span class='hl'>Không thành công — không thu phí</span>."
+  tagline: "Hỗ Trợ Kinh Doanh Toàn Diện: Thành Lập Công Ty, Thị Thực, Ngân Hàng. <span class='hl'>Không thành công — không thu phí</span>."
 
   actions:
     - theme: brand
       text: Get Free Consultation
-      link: ./resources/contacts
-    # - theme: alt
-    #   text: Support 24/7
-    #   link: ./resources/contacts
+      link: /resources/contacts
+
   image:
     light:
       src: /img/Logo.avif
@@ -29,14 +26,14 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Hướng Dẫn Thành Lập Công Ty',
-    details: 'Hướng dẫn đầy đủ về thành lập công ty tại **free zone, offshore, mainland, branch**.',
+    details: 'Hướng dẫn đầy đủ để thành lập công ty tại **free zone, offshore, mainland, branch**.',
     items: [
-      'Cho phép 100% Sở hữu nước ngoài tại Free Zones và Mainland',
+      'Cho phép 100% sở hữu nước ngoài tại Free Zones và Mainland',
       'Thuế suất thấp - chỉ 9% thuế doanh nghiệp',
       'Không kiểm soát tiền tệ - dễ dàng chuyển vốn về nước'
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/company-registration/',
+    link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -45,14 +42,14 @@ hero:
   },
   {
     title: 'Mở Tài Khoản Ngân Hàng',
-    details: 'Dễ dàng mở **tài khoản ngân hàng** cá nhân hoặc doanh nghiệp tại các ngân hàng uy tín của UAE.',
+    details: 'Dễ dàng mở tài khoản doanh nghiệp hoặc cá nhân tại các ngân hàng uy tín của UAE.',
     items: [
       'Dịch vụ PRO toàn diện cho phê duyệt chính phủ',
       'Thiết lập gói ngân hàng hoàn chỉnh',
-      'Tỷ lệ thành công 96%',
+      '**Tỷ lệ thành công 96%**',
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -68,11 +65,11 @@ hero:
       'Tỷ lệ thành công 92%',
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
-      alt: 'Dịch vụ visa'
+      alt: 'Dịch vụ thị thực'
     }
   },
 ]" />
@@ -83,7 +80,7 @@ hero:
     details: 'Chuyên gia của chúng tôi hướng dẫn bạn qua các yêu cầu quy định phức tạp của UAE, bao gồm báo cáo ESR và hồ sơ UBO.',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -95,7 +92,7 @@ hero:
     details: 'Tư vấn chuyên môn đảm bảo tuân thủ nghĩa vụ Thuế Doanh Nghiệp và VAT với Cơ quan Thuế Liên bang (FTA).',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/accounting-legal',
+    link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
@@ -107,7 +104,7 @@ hero:
     details: 'Đội ngũ pháp lý tư vấn về luật UAE liên quan đến M&A, tái cấu trúc doanh nghiệp, tài chính và giải quyết tranh chấp.',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
@@ -119,7 +116,7 @@ hero:
     details: 'Kế toán của chúng tôi quản lý tài chính, cung cấp dịch vụ ghi sổ, đối chiếu, tính lương và hỗ trợ kiểm toán, tiết kiệm chi phí tuyển dụng.',
     items: [],
     linkText: 'Learn more',
-    link: './resources/contacts',
+    link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',

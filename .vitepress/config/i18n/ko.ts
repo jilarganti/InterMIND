@@ -3,8 +3,10 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ko"
 
 export const ko = defineConfig({
-  description: "UAE 전문 기업 설립 및 지원 서비스. 회사 설립, 은행업무, 세금, 법률 및 비자 솔루션. 귀하의 비즈니스 꿈을 현실로 만들어드립니다!",
-  head: [["meta", { property: "og:title", content: "UAE 전문 기업 설립 및 지원 서비스. 회사 설립, 은행업무, 세금, 법률 및 비자 솔루션." }]],
+  description: "전문적인 UAE 기업 설립 및 지원 서비스. 회사 설립, 은행업무, 세금, 법률 및 비자 솔루션. 귀하의 비즈니스 꿈을 현실로 만들어드립니다!",
+  head: [
+    ["meta", { property: "og:title", content: "전문적인 UAE 기업 설립 및 지원 서비스. 회사 설립, 은행업무, 세금, 법률 및 비자 솔루션." }],
+  ],
 
   themeConfig: {
     nav: [
@@ -68,6 +70,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "비자 및 EID", link: "company-registration/employment-visas" },
         { text: "수수료 및 소요기간", link: "company-registration/fees-timelines" },
+        { text: "성공 후 지불", link: "benefits/success-based-fees" },
       ],
     },
     {
@@ -75,7 +78,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         { text: "기업 등록 절차", link: "company-registration/insights/incorporation-steps" },
-        { text: "UAE Free Zone", link: "company-registration/free-zones" },
+        { text: "UAE Free Zones", link: "company-registration/free-zones" },
         { text: "UAE Mainland", link: "company-registration/mainland" },
       ],
     },
@@ -100,7 +103,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "비교",
       collapsed: true,
       items: [
-        { text: "Mainland vs Free Zone", link: "comparison/mainland-vs-free-zones" },
+        { text: "Mainland vs Free Zones", link: "comparison/mainland-vs-free-zones" },
         { text: "UAE 법인 유형 비교", link: "comparison/entity-types" },
       ],
     },

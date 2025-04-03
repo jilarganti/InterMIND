@@ -3,10 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/tr"
 
 export const tr = defineConfig({
-  description:
-    "Uzman BAE şirket kurma ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri. İş hayallerinizi gerçeğe dönüştürüyoruz!",
+  description: "Uzman BAE şirket kurulum ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri. İş hayallerinizi gerçeğe dönüştürüyoruz!",
   head: [
-    ["meta", { property: "og:title", content: "Uzman BAE şirket kurma ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri." }],
+    ["meta", { property: "og:title", content: "Uzman BAE şirket kurulum ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri." }],
   ],
 
   themeConfig: {
@@ -49,7 +48,7 @@ export const tr = defineConfig({
       categoryPlaceholder: "hizmet türünü seçin",
       message: "Hedeflerinizi tartışalım (isteğe bağlı)",
       messagePlaceholder: "projenizi veya gereksinimlerinizi açıklayın",
-      submit: "Talebi gönder",
+      submit: "Talep gönder",
       sending: "Gönderiliyor...",
       successTitle: "Teşekkür ederiz!",
       successMessage: "İlginiz için çok teşekkür ederiz! Ekibimiz ihtiyaçlarınızı görüşmek üzere kısa süre içinde sizinle iletişime geçecektir.",
@@ -71,6 +70,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "Vizeler ve EID", link: "company-registration/employment-visas" },
         { text: "Ücretler ve süreler", link: "company-registration/fees-timelines" },
+        { text: "Sadece başarı sonrası ödeme", link: "benefits/success-based-fees" },
       ],
     },
     {

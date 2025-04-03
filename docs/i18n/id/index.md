@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Dapatkan Konsultasi Gratis
-      link: ./resources/contacts
+      link: /resources/contacts
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -36,7 +36,7 @@ hero:
       'Tidak Ada Kontrol Mata Uang - repatriasi modal mudah'
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/company-registration/',
+    link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -45,14 +45,14 @@ hero:
   },
   {
     title: 'Pembukaan Rekening Bank',
-    details: 'Mudah membuka **rekening bank** bisnis atau pribadi dengan bank-bank terpercaya UAE.',
+    details: 'Buka rekening bank bisnis atau pribadi dengan mudah di bank-bank terpercaya UAE.',
     items: [
       'Layanan PRO end-to-end untuk persetujuan pemerintah',
       'Pengaturan paket perbankan lengkap',
-      'Tingkat keberhasilan 96%',
+      '**Tingkat keberhasilan 96%**',
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -68,7 +68,7 @@ hero:
       'Tingkat keberhasilan 92%',
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -83,7 +83,7 @@ hero:
     details: 'Para ahli kami membimbing Anda melalui persyaratan regulasi UAE yang kompleks, termasuk laporan ESR dan pengajuan UBO.',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -95,7 +95,7 @@ hero:
     details: 'Saran ahli memastikan kepatuhan terhadap kewajiban Pajak Perusahaan dan PPN dengan Federal Tax Authority (FTA).',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/accounting-legal',
+    link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
@@ -107,7 +107,7 @@ hero:
     details: 'Tim hukum memberikan saran tentang hukum UAE mengenai M&A, restrukturisasi perusahaan, pembiayaan, dan penyelesaian sengketa.',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
@@ -119,7 +119,7 @@ hero:
     details: 'Akuntan kami mengelola keuangan, menyediakan pembukuan, rekonsiliasi, penggajian, dan dukungan audit, menghemat biaya perekrutan.',
     items: [],
     linkText: 'Learn more',
-    link: './resources/contacts',
+    link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',
@@ -134,7 +134,7 @@ hero:
   {
     icon: '🏢',
     title: 'Keahlian Lokal UAE',
-    text: 'Spesialis berdedikasi di Dubai memberikan panduan ahli melalui setiap tahap proses.'
+    text: 'Spesialis berdedikasi di Dubai memberikan panduan ahli di setiap tahap proses.'
   },
   {
     icon: '📊',

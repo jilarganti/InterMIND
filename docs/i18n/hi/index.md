@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: निःशुल्क परामर्श प्राप्त करें
-      link: ./resources/contacts
+      link: /resources/contacts
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -23,7 +23,7 @@ hero:
     dark:
       src: /img/Logo.avif
       width: 40%
-    alt: गोल्डन फिश लोगो
+    alt: Golden Fish लोगो
 ---
 
 <FeatureCards :features="[
@@ -36,7 +36,7 @@ hero:
       'कोई मुद्रा नियंत्रण नहीं - आसान पूंजी प्रत्यावर्तन'
     ],
     linkText: 'और जानें',
-    link: './uae-business/offer/company-registration/',
+    link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -52,7 +52,7 @@ hero:
       '**96% सफलता दर**',
     ],
     linkText: 'और जानें',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -68,7 +68,7 @@ hero:
       '92% सफलता दर',
     ],
     linkText: 'और जानें',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -83,7 +83,7 @@ hero:
     details: 'हमारे विशेषज्ञ आपको ESR रिपोर्ट और UBO फाइलिंग सहित जटिल यूएई नियामक आवश्यकताओं के माध्यम से मार्गदर्शन करते हैं।',
     items: [],
     linkText: 'और जानें',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -95,7 +95,7 @@ hero:
     details: 'विशेषज्ञ सलाह Federal Tax Authority (FTA) के साथ कॉर्पोरेट टैक्स और VAT दायित्वों का अनुपालन सुनिश्चित करती है।',
     items: [],
     linkText: 'और जानें',
-    link: './uae-business/company-registration/accounting-legal',
+    link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
@@ -107,7 +107,7 @@ hero:
     details: 'कानूनी टीम M&As, कॉर्पोरेट पुनर्गठन, वित्तपोषण और विवाद समाधान के संबंध में यूएई के कानूनों पर सलाह देती है।',
     items: [],
     linkText: 'और जानें',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
@@ -115,11 +115,11 @@ hero:
     }
   },
   {
-    title: 'लेखा और पेरोल',
-    details: 'हमारे लेखाकार वित्त का प्रबंधन करते हैं, बुककीपिंग, समाधान, पेरोल और ऑडिट सहायता प्रदान करते हैं, जिससे भर्ती लागत बचती है।',
+    title: 'लेखा और वेतन',
+    details: 'हमारे लेखाकार वित्त का प्रबंधन करते हैं, बुककीपिंग, समाधान, वेतन और ऑडिट सहायता प्रदान करते हैं, भर्ती लागत बचाते हैं।',
     items: [],
     linkText: 'और जानें',
-    link: './resources/contacts',
+    link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',

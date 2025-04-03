@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Get Free Consultation
-      link: ./resources/contacts
+      link: /resources/contacts
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -24,19 +24,20 @@ hero:
       src: /img/Logo.avif
       width: 40%
     alt: Golden Fish标志
+
 ---
 
 <FeatureCards :features="[
   {
     title: '公司设立指南',
-    details: '完整的**自贸区、离岸、大陆、分公司**设立指南。',
+    details: '完整指导在**Free Zone、离岸、Mainland、分公司**设立公司。',
     items: [
-      '自贸区和Mainland可100%外资持股',
+      'Free Zone和Mainland允许100%外资所有权',
       '低税率 - 仅9%企业所得税',
-      '无外汇管制 - 资金汇出便捷'
+      '无外汇管制 - 资金汇回便捷'
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/company-registration/',
+    link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -45,14 +46,14 @@ hero:
   },
   {
     title: '银行账户开立',
-    details: '在阿联酋信誉良好的银行轻松开立商业或个人**银行账户**。',
+    details: '在阿联酋信誉良好的银行轻松开设企业或个人账户。',
     items: [
-      '政府审批全程PRO服务',
+      '提供政府审批全程PRO服务',
       '完整的银行开户套餐',
-      '96%成功率',
+      '**96%成功率**',
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -64,11 +65,11 @@ hero:
     details: '通过无缝申请流程获取阿联酋**Golden Visa**长期居留权。',
     items: [
       '**无需每6个月入境阿联酋**',
-      '10年有效期，符合条件可续签',
+      '有效期10年，符合条件可续签',
       '92%成功率',
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -83,7 +84,7 @@ hero:
     details: '我们的专家指导您完成复杂的阿联酋监管要求，包括ESR报告和UBO申报。',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -95,7 +96,7 @@ hero:
     details: '专业建议确保符合联邦税务局(FTA)的企业税和增值税义务。',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/accounting-legal',
+    link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
@@ -107,7 +108,7 @@ hero:
     details: '法律团队就并购、公司重组、融资和争议解决等阿联酋法律提供咨询。',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
@@ -119,7 +120,7 @@ hero:
     details: '我们的会计师管理财务，提供记账、对账、工资和审计支持，节省雇佣成本。',
     items: [],
     linkText: 'Learn more',
-    link: './resources/contacts',
+    link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',

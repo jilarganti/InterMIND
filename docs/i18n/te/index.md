@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Free Consultation
-      link: ./resources/contacts
+      link: /resources/contacts
 
   image:
     light:
@@ -20,20 +20,20 @@ hero:
     dark:
       src: /img/Logo.avif
       width: 40%
-    alt: గోల్డెన్ ఫిష్ లోగో
+    alt: Golden Fish లోగో
 ---
 
 <FeatureCards :features="[
   {
     title: 'కంపెనీ సెటప్ గైడ్',
-    details: '**free zone, offshore, mainland, branch** లో కంపెనీలను స్థాపించడానికి పూర్తి మార్గదర్శి.',
+    details: '**free zone, offshore, mainland, branch** లో కంపెనీలను సెటప్ చేయడానికి పూర్తి మార్గదర్శకం.',
     items: [
       'Free Zones మరియు Mainland లో 100% విదేశీ యాజమాన్యం అందుబాటులో ఉంది',
       'తక్కువ పన్ను రేట్లు - కేవలం 9% కార్పొరేట్ పన్ను',
       'కరెన్సీ నియంత్రణలు లేవు - సులభమైన మూలధన స్వదేశానికి తిరిగి పంపడం'
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/company-registration/',
+    link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -42,14 +42,14 @@ hero:
   },
   {
     title: 'బ్యాంక్ ఖాతా తెరవడం',
-    details: 'యుఎఇలోని విశ్వసనీయ బ్యాంకులతో సులభంగా వ్యాపార లేదా వ్యక్తిగత **బ్యాంక్ ఖాతాలను** తెరవండి.',
+    details: 'యుఎఇలోని విశ్వసనీయ బ్యాంకులతో వ్యాపార లేదా వ్యక్తిగత బ్యాంక్ ఖాతాలను సులభంగా తెరవండి.',
     items: [
       'ప్రభుత్వ ఆమోదాల కోసం ఎండ్-టు-ఎండ్ PRO సేవలు',
       'పూర్తి బ్యాంకింగ్ ప్యాకేజీ సెటప్',
-      '96% విజయ శాతం',
+      '**96% విజయ శాతం**',
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -58,14 +58,14 @@ hero:
   },
   {
     title: 'Golden Visa & నివాస అనుమతి',
-    details: 'సరళమైన దరఖాస్తు ప్రక్రియతో దీర్ఘకాలిక నివాస అనుమతి కోసం యుఎఇ **Golden Visa** పొందండి.',
+    details: 'సరళమైన దరఖాస్తు ప్రక్రియతో దీర్ఘకాలిక నివాసం కోసం యుఎఇ **Golden Visa** పొందండి.',
     items: [
       '**ప్రతి 6 నెలలకు యుఎఇ ప్రవేశించవలసిన అవసరం లేదు**',
       'అర్హత పరిస్థితులను కొనసాగించడంతో పునరుద్ధరణ ఎంపికతో 10 సంవత్సరాల చెల్లుబాటు',
       '92% విజయ శాతం',
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -77,10 +77,10 @@ hero:
 <FeatureCards :features="[
   {
     title: 'అనుసరణ సేవలు',
-    details: 'ESR నివేదికలు మరియు UBO ఫైలింగ్‌లతో సహా క్లిష్టమైన యుఎఇ నియంత్రణ అవసరాల గుండా మా నిపుణులు మిమ్మల్ని మార్గనిర్దేశం చేస్తారు.',
+    details: 'మా నిపుణులు ESR నివేదికలు మరియు UBO ఫైలింగ్‌లతో సహా సంక్లిష్టమైన యుఎఇ నియంత్రణ అవసరాల ద్వారా మిమ్మల్ని మార్గనిర్దేశం చేస్తారు.',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -92,7 +92,7 @@ hero:
     details: 'Federal Tax Authority (FTA)తో కార్పొరేట్ పన్ను మరియు VAT బాధ్యతలకు అనుగుణంగా నిపుణ సలహా నిర్ధారిస్తుంది.',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/accounting-legal',
+    link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
@@ -104,7 +104,7 @@ hero:
     details: 'M&As, కార్పొరేట్ పునర్నిర్మాణం, ఆర్థిక సహాయం మరియు వివాద పరిష్కారం గురించి యుఎఇ చట్టాలపై చట్టపరమైన బృందం సలహా ఇస్తుంది.',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
@@ -116,7 +116,7 @@ hero:
     details: 'మా అకౌంటెంట్లు బుక్‌కీపింగ్, రీకన్సిలియేషన్, పేరోల్ మరియు ఆడిట్ మద్దతును అందించడం ద్వారా ఆర్థిక వ్యవహారాలను నిర్వహిస్తారు, నియామక ఖర్చులను ఆదా చేస్తారు.',
     items: [],
     linkText: 'Learn more',
-    link: './resources/contacts',
+    link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',

@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Get Free Consultation
-      link: ./resources/contacts
+      link: /resources/contacts
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -36,7 +36,7 @@ hero:
       'Sin Control de Divisas - fácil repatriación de capital'
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/company-registration/',
+    link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
@@ -45,14 +45,14 @@ hero:
   },
   {
     title: 'Apertura de Cuenta Bancaria',
-    details: 'Abra fácilmente **cuentas bancarias** comerciales o personales con los bancos de confianza de EAU.',
+    details: 'Abra fácilmente cuentas bancarias comerciales o personales con los bancos de confianza de los EAU.',
     items: [
       'Servicios PRO integrales para aprobaciones gubernamentales',
       'Configuración completa del paquete bancario',
-      '96% de tasa de éxito',
+      '**96% de tasa de éxito**',
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/banking/',
+    link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
@@ -68,7 +68,7 @@ hero:
       '92% de tasa de éxito',
     ],
     linkText: 'Learn more',
-    link: './uae-business/offer/golden-visa/',
+    link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
@@ -83,7 +83,7 @@ hero:
     details: 'Nuestros expertos le guían a través de los complejos requisitos regulatorios de EAU, incluyendo informes ESR y presentaciones UBO.',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
@@ -95,7 +95,7 @@ hero:
     details: 'Asesoramiento experto asegura el cumplimiento de las obligaciones de Impuesto Corporativo y VAT con la Autoridad Federal de Impuestos (FTA).',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/accounting-legal',
+    link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
@@ -107,7 +107,7 @@ hero:
     details: 'El equipo legal asesora sobre las leyes de EAU relacionadas con fusiones y adquisiciones, reestructuración corporativa, financiamiento y resolución de disputas.',
     items: [],
     linkText: 'Learn more',
-    link: './uae-business/company-registration/Protect-Your-Business',
+    link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
@@ -116,10 +116,10 @@ hero:
   },
   {
     title: 'Contabilidad y Nómina',
-    details: 'Nuestros contadores gestionan las finanzas, proporcionando contabilidad, conciliación, nómina y apoyo de auditoría, ahorrando costos de contratación.',
+    details: 'Nuestros contadores gestionan las finanzas, proporcionando contabilidad, conciliación, nómina y soporte de auditoría, ahorrando costos de contratación.',
     items: [],
     linkText: 'Learn more',
-    link: './resources/contacts',
+    link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',

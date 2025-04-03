@@ -3,13 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/te"
 
 export const te = defineConfig({
-  description:
-    "యుఏఈలో నిపుణ కంపెనీ స్థాపన మరియు మద్దతు సేవలు. కంపెనీ సెటప్, బ్యాంకింగ్, పన్ను, చట్టపరమైన మరియు వీసా పరిష్కారాలు. మీ వ్యాపార కలలను వాస్తవంగా మార్చడం!",
+  description: "నిపుణుల UAE కంపెనీ ఏర్పాటు మరియు మద్దతు సేవలు. కంపెనీ సెటప్, బ్యాంకింగ్, పన్ను, చట్టపరమైన మరియు వీసా పరిష్కారాలు. మీ వ్యాపార కలలను వాస్తవంగా మారుస్తున్నాము!",
   head: [
-    [
-      "meta",
-      { property: "og:title", content: "యుఏఈలో నిపుణ కంపెనీ స్థాపన మరియు మద్దతు సేవలు. కంపెనీ సెటప్, బ్యాంకింగ్, పన్ను, చట్టపరమైన మరియు వీసా పరిష్కారాలు." },
-    ],
+    ["meta", { property: "og:title", content: "నిపుణుల UAE కంపెనీ ఏర్పాటు మరియు మద్దతు సేవలు. కంపెనీ సెటప్, బ్యాంకింగ్, పన్ను, చట్టపరమైన మరియు వీసా పరిష్కారాలు." }],
   ],
 
   themeConfig: {
@@ -55,7 +51,7 @@ export const te = defineConfig({
       submit: "అభ్యర్థనను సమర్పించండి",
       sending: "పంపుతోంది...",
       successTitle: "ధన్యవాదాలు!",
-      successMessage: "మీ ఆసక్తికి మేము చాలా కృతజ్ఞులం! మా బృందం త్వరలో మీ అవసరాలను చర్చించడానికి మిమ్మల్ని సంప్రదిస్తుంది.",
+      successMessage: "మీ ఆసక్తికి చాలా కృతజ్ఞతలు! మా బృందం త్వరలో మీ అవసరాలను చర్చించడానికి మిమ్మల్ని సంప్రదిస్తుంది.",
       defaultCategories: ["కంపెనీ రిజిస్ట్రేషన్", "బ్యాంక్ ఖాతాలు తెరవడం", "EID & Golden Visa", "ఇతర సేవలు"],
       defaultButtonText: "ఉచిత సలహా పొందండి",
     },
@@ -65,19 +61,20 @@ export const te = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "యుఏఈ వ్యాపార సారాంశం",
+      text: "UAE వ్యాపార సారాంశం",
       collapsed: false,
       items: [
         { text: "కంపెనీ రిజిస్ట్రేషన్", link: "company-registration/overview" },
-        { text: "ప్రయోజనాలు & సమస్యలు", link: "company-registration/benefits-problems" },
+        { text: "ప్రయోజనాలు & నష్టాలు", link: "company-registration/benefits-problems" },
         { text: "కార్పొరేట్ బ్యాంకింగ్ పరిష్కారాలు", link: "offer/banking/" },
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "వీసాలు & EID", link: "company-registration/employment-visas" },
-        { text: "ఫీజులు మరియు కాలపరిమితులు", link: "company-registration/fees-timelines" },
+        { text: "ఫీజులు మరియు కాలవ్యవధులు", link: "company-registration/fees-timelines" },
+        { text: "విజయం తర్వాత మాత్రమే చెల్లించండి", link: "benefits/success-based-fees" },
       ],
     },
     {
-      text: "యుఏఈ కార్పొరేట్ నిర్మాణాలు",
+      text: "UAE కార్పొరేట్ నిర్మాణాలు",
       collapsed: true,
       items: [
         { text: "కంపెనీ రిజిస్ట్రేషన్ దశలు", link: "company-registration/insights/incorporation-steps" },
@@ -86,12 +83,12 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "యుఏఈ వ్యాపార అనుసరణ హామీ",
+      text: "UAE వ్యాపార అనుసరణ హామీ ఇవ్వబడింది",
       collapsed: true,
       items: [
-        { text: "హామీ ఇవ్వబడిన కార్పొరేట్ బ్యాంక్ ఖాతా ఆమోదాలు", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "హామీ ఇచ్చిన కార్పొరేట్ బ్యాంక్ ఖాతా ఆమోదాలు", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "అధిక-రిస్క్ వ్యాపారానికి బ్యాంక్ ఖాతాలు", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "మీ వ్యాపారాన్ని అనుసరణలో మరియు రక్షితంగా ఉంచండి", link: "company-registration/Protect-Your-Business" },
+        { text: "మీ వ్యాపారాన్ని అనుసరణలో ఉంచండి మరియు రక్షించండి", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -107,7 +104,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         { text: "Mainland vs free zones", link: "comparison/mainland-vs-free-zones" },
-        { text: "యుఏఈ సంస్థల పోలిక", link: "comparison/entity-types" },
+        { text: "UAE సంస్థల పోలిక", link: "comparison/entity-types" },
       ],
     },
   ]
