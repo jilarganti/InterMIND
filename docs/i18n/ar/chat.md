@@ -10,7 +10,7 @@ navbar: false
 
 <script setup>
 const chatPrompts = [
-  // خدمات الأعمال (المجموعة الأولى)
+  // خدمات الأعمال (البلوك الأول)
   { id: "1", text: "تأسيس شركة في الإمارات", category: "business" },
   { id: "2", text: "تأسيس شركة Mainland", category: "business" },
   { id: "3", text: "تسجيل شركة في المنطقة Free Zone", category: "business" },
@@ -28,19 +28,19 @@ const chatPrompts = [
   { id: "9", text: "تأشيرة العمل الإماراتية", category: "visa" },
   { id: "10", text: "كفالة تأشيرة العائلة في الإمارات", category: "visa" },
   { id: "11", text: "متطلبات الفحص الطبي للتأشيرة", category: "visa" },
-  { id: "12", text: "إجراءات الإقامة في الإمارات", category: "visa" },
+  { id: "12", text: "إجراءات تأشيرة الإقامة في الإمارات", category: "visa" },
   { id: "27", text: "متطلبات التأشيرة الإماراتية", category: "visa" },
   
   // القانونية والوثائق
   { id: "13", text: "طلب الهوية الإماراتية", category: "legal" },
   { id: "14", text: "تصديق الوثائق في الإمارات", category: "legal" },
   { id: "15", text: "الوكالة القانونية في الإمارات", category: "legal" },
-  { id: "16", text: "مراجعة العقود التجارية الإماراتية", category: "legal" },
+  { id: "16", text: "مراجعة العقود التجارية في الإمارات", category: "legal" },
   { id: "40", text: "تجديد الهوية الإماراتية", category: "legal" },
   
   // الخدمات المالية
-  { id: "17", text: "الحساب المصرفي للشركات في الإمارات", category: "finance" },
-  { id: "18", text: "التسجيل الضريبي (VAT) في الإمارات", category: "finance" },
+  { id: "17", text: "حساب مصرفي للشركات في الإمارات", category: "finance" },
+  { id: "18", text: "التسجيل الضريبي في الإمارات (VAT)", category: "finance" },
   { id: "19", text: "خدمات المحاسبة في الإمارات", category: "finance" },
   { id: "20", text: "قوانين المادة الاقتصادية في الإمارات", category: "finance" },
   { id: "41", text: "الخدمات المصرفية في الإمارات", category: "finance" },

@@ -52,11 +52,11 @@ const chatPrompts = [
   // ആരോഗ്യ പരിപാലനം
   { id: "47", text: "UAE ആരോഗ്യ ഇൻഷുറൻസ്", category: "healthcare" },
   { id: "48", text: "ദുബായിലെ മികച്ച ആശുപത്രികൾ", category: "healthcare" },
-  { id: "49", text: "മെഡിക്കൽ ചെക്കപ്പ് UAE", category: "healthcare" },
+  { id: "49", text: "UAE മെഡിക്കൽ ചെക്കപ്പ്", category: "healthcare" },
   
   // ടൂറിസവും വിനോദവും (അവസാനം)
   { id: "28", text: "ദുബായ് ടൂറിസ്റ്റ് ആകർഷണങ്ങൾ", category: "travel" },
-  { id: "29", text: "Expo City ദുബായ്", category: "attractions" },
+  { id: "29", text: "Expo City Dubai", category: "attractions" },
   { id: "30", text: "Dubai Frame ടിക്കറ്റുകൾ", category: "attractions" },
   { id: "31", text: "Burj Khalifa ടിക്കറ്റുകൾ", category: "attractions" },
   { id: "32", text: "Museum of the Future", category: "attractions" },

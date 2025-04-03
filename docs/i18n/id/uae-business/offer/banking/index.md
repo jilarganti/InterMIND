@@ -64,7 +64,7 @@ hero:
     items: [
       'Audit kepatuhan rutin untuk mengidentifikasi potensi risiko',
       'Layanan PRO end-to-end untuk persetujuan pemerintah',
-      'Manajemen dan peringatan pembaruan lisensi',
+      'Manajemen pembaruan lisensi dan peringatan',
       'Konsultasi perbankan dan pemeliharaan rekening',
       'Dukungan kepatuhan VAT dan ESR',
       'Kepatuhan visa karyawan dan hukum ketenagakerjaan',

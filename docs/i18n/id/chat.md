@@ -13,13 +13,13 @@ const chatPrompts = [
   // Layanan Bisnis (blok pertama)
   { id: "1", text: "Pendaftaran perusahaan di UAE", category: "business" },
   { id: "2", text: "Pendirian perusahaan Mainland", category: "business" },
-  { id: "3", text: "Pendaftaran perusahaan Free Zone", category: "business" },
+  { id: "3", text: "Pendaftaran perusahaan Free zone", category: "business" },
   { id: "4", text: "Pembentukan perusahaan Offshore", category: "business" },
   { id: "5", text: "Visa freelance UAE", category: "business" },
   { id: "6", text: "Lisensi bisnis Dubai", category: "business" },
   { id: "7", text: "Persyaratan lisensi dagang UAE", category: "business" },
   { id: "23", text: "Pendirian bisnis UAE", category: "business" },
-  { id: "24", text: "Free Zone Dubai", category: "business" },
+  { id: "24", text: "Free zones Dubai", category: "business" },
   { id: "25", text: "Pendaftaran perusahaan UAE", category: "business" },
   { id: "26", text: "Visa freelance UAE", category: "business" },
   

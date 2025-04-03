@@ -30,7 +30,7 @@ hero:
       '銀行との直接的なコミュニケーション戦略',
       '完全な銀行パッケージのセットアップ'
     ],
-    linkText: 'Learn more',
+    linkText: '詳細を見る',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -44,14 +44,14 @@ hero:
   {
     title: 'ハイリスクビジネス向けUAE銀行口座',
     items: [
-      'EDD（強化されたデューデリジェンス）に関する専門的なガイダンス',
+      'EDD（強化デューデリジェンス）に関する専門的なガイダンス',
       '取引モニタリングとリスク管理',
-      'コンプライアンスポリシーと手順のセットアップ',
+      'コンプライアンスポリシーと手順の設定',
       '銀行との関係管理',
       '定期的なコンプライアンス更新と監査',
       '口座セキュリティのための緊急時対応計画'
     ],
-    linkText: 'Learn more',
+    linkText: '詳細を見る',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -70,7 +70,7 @@ hero:
       '従業員ビザと労働法コンプライアンス',
       '規制更新に関するトレーニングワークショップ'
     ],
-    linkText: 'Learn more',
+    linkText: '詳細を見る',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -89,7 +89,7 @@ hero:
       '政府支援の銀行システム',
       '世界クラスのデジタルバンキング'
     ],
-    linkText: 'Learn more',
+    linkText: '詳細を見る',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',

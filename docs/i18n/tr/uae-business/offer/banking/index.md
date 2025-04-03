@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "BAE Kurumsal Bankacılık | Başarı Primi Bazlı Hizmet"
+title: "BAE Kurumsal Bankacılık | Başarı Ücretine Dayalı Hizmet"
 description: "Peşin ücret olmadan premium çok para birimli kurumsal hesaplar - sadece onaydan sonra ödeme yapın. %96 başarı oranı ile tam başvuru yönetimi. Garantili hesap açılışı."
 showSponsors: false
 
@@ -66,7 +66,7 @@ hero:
       'Devlet onayları için uçtan uca PRO hizmetleri',
       'Lisans yenileme yönetimi ve uyarıları',
       'Bankacılık danışmanlığı ve hesap bakımı',
-      'KDV ve ESR uyum desteği',
+      'VAT ve ESR uyum desteği',
       'Çalışan vizesi ve iş hukuku uyumu',
       'Düzenleyici güncellemeler hakkında eğitim çalıştayları'
     ],
@@ -137,9 +137,9 @@ hero:
   messageLabel="Danışmanlığınız için bize yardımcı olun (önerilen)"
   messagePlaceholderText="İşletmenizin türü, faaliyet gösterdiğiniz yargı bölgeleri, beklenen işlem hacimleri ve özel bankacılık ihtiyaçlarınız (çoklu para birimi, ticaret finansmanı vb.) hakkında bilgi verin"
   :services="[
-  'Temel — yalnızca temel belgelendirme ve hesap açma danışmanlığı',
+  'Temel — yalnızca temel belgeler ve hesap açma danışmanlığı',
   'Standart — tüm bankacılık aşamalarında eksiksiz belgelendirme ve rehberlik',
   'Kapsamlı — sizin minimum katılımınızla tam hizmet bankacılık kurulumu',
-  'Özel — yüksek hacimli işlemleri veya çok yargı bölgeli yapıyı görüşmek gerekiyor',
+  'Özel — yüksek hacimli işlemleri veya çok yargı yetkili yapıyı görüşmek gerekiyor',
   ]"
 />

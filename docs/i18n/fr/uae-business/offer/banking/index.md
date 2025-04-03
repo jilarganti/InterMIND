@@ -5,7 +5,7 @@ description: "Comptes d'entreprise multi-devises premium sans frais initiaux - p
 showSponsors: false
 
 hero:
-  name: "Services Bancaires aux EAU : Votre Havre de Sécurité"
+  name: "Banque aux EAU : Votre Havre de Sécurité"
   # text: Aucun frais initial
   tagline: Approbations garanties de comptes d'entreprise en 2025. <span class="hl">Aucun frais initial</span> - paiement uniquement après approbation. Taux de réussite de 96%.
   image:
@@ -30,12 +30,12 @@ hero:
       'Stratégie de communication directe avec la banque',
       'Configuration complète du package bancaire'
     ],
-    linkText: 'Learn more',
+    linkText: 'En savoir plus',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
       dark: '/video/iStock-2166377244.mp4',
-      alt: 'Exigences bancaires',
+      alt: 'Exigences Bancaires',
     }
   },
 ]" />
@@ -44,19 +44,19 @@ hero:
   {
     title: 'Comptes bancaires aux EAU pour entreprises à haut risque',
     items: [
-      'Conseils d\'experts sur l\'EDD',
+      'Conseils d\'experts sur la due diligence renforcée (EDD)',
       'Surveillance des transactions et gestion des risques',
-      'Configuration des politiques et procédures de conformité',
+      'Mise en place des politiques et procédures de conformité',
       'Gestion des relations bancaires',
       'Mises à jour et audits réguliers de conformité',
       'Planification d\'urgence pour la sécurité des comptes'
     ],
-    linkText: 'Learn more',
+    linkText: 'En savoir plus',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
       dark: '/img/iStock-584576538.avif',
-      alt: 'Services bancaires',
+      alt: 'Services Bancaires',
     }
   },
   {
@@ -70,12 +70,12 @@ hero:
       'Conformité aux visas employés et au droit du travail',
       'Ateliers de formation sur les mises à jour réglementaires'
     ],
-    linkText: 'Learn more',
+    linkText: 'En savoir plus',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
       dark: '/img/iStock-1867623684.jpg',
-      alt: 'Services bancaires',
+      alt: 'Services Bancaires',
     }
   },
   {
@@ -89,12 +89,12 @@ hero:
       'Système bancaire soutenu par le gouvernement',
       'Services bancaires numériques de classe mondiale'
     ],
-    linkText: 'Learn more',
+    linkText: 'En savoir plus',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',
       dark: '/img/iStock-1152367067.avif',
-      alt: 'Processus bancaire',
+      alt: 'Processus Bancaire',
     }
   }
 ]" />

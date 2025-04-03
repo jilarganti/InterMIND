@@ -11,14 +11,14 @@ navbar: false
 <script setup>
 const chatPrompts = [
   // Services aux entreprises (premier bloc)
-  { id: "1", text: "Enregistrement d'entreprise aux UAE", category: "business" },
+  { id: "1", text: "Création d'entreprise aux UAE", category: "business" },
   { id: "2", text: "Création d'entreprise Mainland", category: "business" },
-  { id: "3", text: "Enregistrement d'entreprise en Free Zone", category: "business" },
-  { id: "4", text: "Formation d'entreprise Offshore", category: "business" },
+  { id: "3", text: "Création d'entreprise en Free Zone", category: "business" },
+  { id: "4", text: "Formation de société offshore", category: "business" },
   { id: "5", text: "Visa freelance UAE", category: "business" },
   { id: "6", text: "Licence commerciale à Dubai", category: "business" },
-  { id: "7", text: "Exigences de licence commerciale UAE", category: "business" },
-  { id: "23", text: "Création d'entreprise aux UAE", category: "business" },
+  { id: "7", text: "Conditions de licence commerciale UAE", category: "business" },
+  { id: "23", text: "Installation d'entreprise aux UAE", category: "business" },
   { id: "24", text: "Free Zones de Dubai", category: "business" },
   { id: "25", text: "Enregistrement d'entreprise aux UAE", category: "business" },
   { id: "26", text: "Visa freelance UAE", category: "business" },
@@ -40,18 +40,18 @@ const chatPrompts = [
   
   // Services financiers
   { id: "17", text: "Compte bancaire entreprise UAE", category: "finance" },
-  { id: "18", text: "Enregistrement fiscal UAE (TVA)", category: "finance" },
-  { id: "19", text: "Services comptables aux UAE", category: "finance" },
+  { id: "18", text: "Enregistrement TVA UAE", category: "finance" },
+  { id: "19", text: "Services comptables UAE", category: "finance" },
   { id: "20", text: "Réglementations UAE Economic Substance", category: "finance" },
   { id: "41", text: "Services bancaires UAE", category: "finance" },
   
   // Immobilier et services
   { id: "21", text: "Investissement immobilier UAE", category: "property" },
-  { id: "22", text: "Location bureaux à Dubai", category: "property" },
+  { id: "22", text: "Location bureaux Dubai", category: "property" },
 
   // Santé
   { id: "47", text: "Assurance santé UAE", category: "healthcare" },
-  { id: "48", text: "Meilleurs hôpitaux à Dubai", category: "healthcare" },
+  { id: "48", text: "Meilleurs hôpitaux de Dubai", category: "healthcare" },
   { id: "49", text: "Bilan médical UAE", category: "healthcare" },
   
   // Tourisme et loisirs (à la fin)
@@ -62,7 +62,7 @@ const chatPrompts = [
   { id: "32", text: "Museum of the Future", category: "attractions" },
   { id: "33", text: "Louvre Abu Dhabi", category: "attractions" },
   { id: "34", text: "Ferrari World Abu Dhabi", category: "attractions" },
-  { id: "35", text: "Shopping au Dubai Mall", category: "shopping" },
+  { id: "35", text: "Shopping Dubai Mall", category: "shopping" },
 ]
 </script>
 

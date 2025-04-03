@@ -13,13 +13,13 @@ const chatPrompts = [
   // 비즈니스 서비스 (첫 번째 블록)
   { id: "1", text: "UAE 회사 등록", category: "business" },
   { id: "2", text: "Mainland 회사 설립", category: "business" },
-  { id: "3", text: "Free Zone 회사 등록", category: "business" },
+  { id: "3", text: "Free zone 회사 등록", category: "business" },
   { id: "4", text: "Offshore 회사 설립", category: "business" },
   { id: "5", text: "UAE 프리랜서 비자", category: "business" },
   { id: "6", text: "두바이 사업 면허", category: "business" },
   { id: "7", text: "UAE 무역 면허 요건", category: "business" },
   { id: "23", text: "UAE 사업 설립", category: "business" },
-  { id: "24", text: "두바이 Free Zone", category: "business" },
+  { id: "24", text: "두바이 Free zone", category: "business" },
   { id: "25", text: "UAE 회사 등록", category: "business" },
   { id: "26", text: "UAE 프리랜서 비자", category: "business" },
   
@@ -33,9 +33,9 @@ const chatPrompts = [
   
   // 법률 및 서류
   { id: "13", text: "Emirates ID 신청", category: "legal" },
-  { id: "14", text: "UAE 서류 공증", category: "legal" },
+  { id: "14", text: "UAE 문서 공증", category: "legal" },
   { id: "15", text: "UAE 위임장", category: "legal" },
-  { id: "16", text: "UAE 사업 계약서 검토", category: "legal" },
+  { id: "16", text: "UAE 사업 계약 검토", category: "legal" },
   { id: "40", text: "Emirates ID 갱신", category: "legal" },
   
   // 금융 서비스

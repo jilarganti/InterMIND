@@ -31,7 +31,7 @@ const chatPrompts = [
   { id: "12", text: "Proceso de visa de residencia UAE", category: "visa" },
   { id: "27", text: "Requisitos de visa UAE", category: "visa" },
   
-  // Legal y documentos
+  // Legal y documentación
   { id: "13", text: "Solicitud de Emirates ID", category: "legal" },
   { id: "14", text: "Legalización de documentos UAE", category: "legal" },
   { id: "15", text: "Poder notarial en UAE", category: "legal" },
@@ -42,7 +42,7 @@ const chatPrompts = [
   { id: "17", text: "Cuenta bancaria corporativa UAE", category: "finance" },
   { id: "18", text: "Registro fiscal UAE (VAT)", category: "finance" },
   { id: "19", text: "Servicios de contabilidad en UAE", category: "finance" },
-  { id: "20", text: "UAE Economic Substance Regulations", category: "finance" },
+  { id: "20", text: "Regulaciones de Sustancia Económica UAE", category: "finance" },
   { id: "41", text: "Servicios bancarios UAE", category: "finance" },
   
   // Propiedades y servicios

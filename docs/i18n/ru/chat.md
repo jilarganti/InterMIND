@@ -19,7 +19,7 @@ const chatPrompts = [
   { id: "6", text: "Бизнес-лицензия в Дубае", category: "business" },
   { id: "7", text: "Требования к торговой лицензии в ОАЭ", category: "business" },
   { id: "23", text: "Открытие бизнеса в ОАЭ", category: "business" },
-  { id: "24", text: "Свободные зоны Дубая", category: "business" },
+  { id: "24", text: "Free Zone в Дубае", category: "business" },
   { id: "25", text: "Регистрация компании в ОАЭ", category: "business" },
   { id: "26", text: "Фриланс виза в ОАЭ", category: "business" },
   
@@ -42,7 +42,7 @@ const chatPrompts = [
   { id: "17", text: "Корпоративный банковский счет в ОАЭ", category: "finance" },
   { id: "18", text: "Регистрация НДС в ОАЭ", category: "finance" },
   { id: "19", text: "Бухгалтерские услуги в ОАЭ", category: "finance" },
-  { id: "20", text: "Требования Economic Substance в ОАЭ", category: "finance" },
+  { id: "20", text: "Economic Substance Regulations в ОАЭ", category: "finance" },
   { id: "41", text: "Банковские услуги в ОАЭ", category: "finance" },
   
   // Недвижимость и услуги
@@ -52,7 +52,7 @@ const chatPrompts = [
   // Здравоохранение
   { id: "47", text: "Медицинская страховка в ОАЭ", category: "healthcare" },
   { id: "48", text: "Лучшие больницы в Дубае", category: "healthcare" },
-  { id: "49", text: "Медицинское обследование в ОАЭ", category: "healthcare" },
+  { id: "49", text: "Медицинский осмотр в ОАЭ", category: "healthcare" },
   
   // Туризм и развлечения (в конце)
   { id: "28", text: "Туристические достопримечательности Дубая", category: "travel" },

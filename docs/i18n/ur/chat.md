@@ -17,8 +17,8 @@ const chatPrompts = [
   { id: "4", text: "Offshore کمپنی کی تشکیل", category: "business" },
   { id: "5", text: "UAE فری لانس ویزا", category: "business" },
   { id: "6", text: "Dubai بزنس لائسنس", category: "business" },
-  { id: "7", text: "UAE ٹریڈ لائسنس کی ضروریات", category: "business" },
-  { id: "23", text: "UAE بزنس سیٹ اپ", category: "business" },
+  { id: "7", text: "UAE تجارتی لائسنس کی ضروریات", category: "business" },
+  { id: "23", text: "UAE کاروباری سیٹ اپ", category: "business" },
   { id: "24", text: "Dubai free zones", category: "business" },
   { id: "25", text: "UAE کمپنی رجسٹریشن", category: "business" },
   { id: "26", text: "UAE فری لانس ویزا", category: "business" },
@@ -26,7 +26,7 @@ const chatPrompts = [
   // ویزا اور امیگریشن
   { id: "8", text: "UAE Golden Visa کی درخواست", category: "visa" },
   { id: "9", text: "UAE ملازمت ویزا", category: "visa" },
-  { id: "10", text: "UAE میں فیملی ویزا اسپانسرشپ", category: "visa" },
+  { id: "10", text: "UAE میں خاندانی ویزا اسپانسرشپ", category: "visa" },
   { id: "11", text: "ویزا میڈیکل ٹیسٹ کی ضروریات", category: "visa" },
   { id: "12", text: "UAE رہائشی ویزا کا عمل", category: "visa" },
   { id: "27", text: "UAE ویزا کی ضروریات", category: "visa" },
@@ -35,7 +35,7 @@ const chatPrompts = [
   { id: "13", text: "Emirates ID کی درخواست", category: "legal" },
   { id: "14", text: "UAE دستاویزات کی تصدیق", category: "legal" },
   { id: "15", text: "UAE میں پاور آف اٹارنی", category: "legal" },
-  { id: "16", text: "UAE بزنس کنٹریکٹ کا جائزہ", category: "legal" },
+  { id: "16", text: "UAE کاروباری معاہدے کا جائزہ", category: "legal" },
   { id: "40", text: "Emirates ID کی تجدید", category: "legal" },
   
   // مالیاتی خدمات
@@ -46,7 +46,7 @@ const chatPrompts = [
   { id: "41", text: "UAE بینکنگ خدمات", category: "finance" },
   
   // جائیداد اور خدمات
-  { id: "21", text: "UAE پراپرٹی انویسٹمنٹ", category: "property" },
+  { id: "21", text: "UAE پراپرٹی انوسٹمنٹ", category: "property" },
   { id: "22", text: "Dubai آفس سپیس کرایہ", category: "property" },
 
   // صحت
@@ -55,7 +55,7 @@ const chatPrompts = [
   { id: "49", text: "UAE میڈیکل چیک اپ", category: "healthcare" },
   
   // سیاحت اور تفریح
-  { id: "28", text: "دبئی کے سیاحتی مقامات", category: "travel" },
+  { id: "28", text: "دبئی سیاحتی مقامات", category: "travel" },
   { id: "29", text: "Expo City Dubai", category: "attractions" },
   { id: "30", text: "Dubai Frame ٹکٹس", category: "attractions" },
   { id: "31", text: "Burj Khalifa ٹکٹس", category: "attractions" },

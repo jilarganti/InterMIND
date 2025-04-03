@@ -11,48 +11,48 @@ navbar: false
 <script setup>
 const chatPrompts = [
   // Бізнес-послуги (перший блок)
-  { id: "1", text: "Реєстрація компанії в UAE", category: "business" },
+  { id: "1", text: "Реєстрація компанії в ОАЕ", category: "business" },
   { id: "2", text: "Створення Mainland компанії", category: "business" },
   { id: "3", text: "Реєстрація компанії у Free Zone", category: "business" },
-  { id: "4", text: "Створення Offshore компанії", category: "business" },
-  { id: "5", text: "Фріланс віза в UAE", category: "business" },
+  { id: "4", text: "Створення офшорної компанії", category: "business" },
+  { id: "5", text: "Фріланс віза в ОАЕ", category: "business" },
   { id: "6", text: "Бізнес-ліцензія в Дубаї", category: "business" },
-  { id: "7", text: "Вимоги до торгової ліцензії в UAE", category: "business" },
-  { id: "23", text: "Створення бізнесу в UAE", category: "business" },
-  { id: "24", text: "Free Zone в Дубаї", category: "business" },
-  { id: "25", text: "Реєстрація компанії в UAE", category: "business" },
-  { id: "26", text: "Фріланс віза в UAE", category: "business" },
+  { id: "7", text: "Вимоги до торгової ліцензії в ОАЕ", category: "business" },
+  { id: "23", text: "Створення бізнесу в ОАЕ", category: "business" },
+  { id: "24", text: "Вільні економічні зони Дубая", category: "business" },
+  { id: "25", text: "Реєстрація компанії в ОАЕ", category: "business" },
+  { id: "26", text: "Фріланс віза в ОАЕ", category: "business" },
   
   // Візи та імміграція
-  { id: "8", text: "Подання на Golden Visa в UAE", category: "visa" },
-  { id: "9", text: "Робоча віза в UAE", category: "visa" },
-  { id: "10", text: "Спонсорство сімейної візи в UAE", category: "visa" },
+  { id: "8", text: "Подання на Golden Visa в ОАЕ", category: "visa" },
+  { id: "9", text: "Робоча віза в ОАЕ", category: "visa" },
+  { id: "10", text: "Спонсорство сімейної візи в ОАЕ", category: "visa" },
   { id: "11", text: "Вимоги до медичного тесту для візи", category: "visa" },
-  { id: "12", text: "Процес отримання резидентської візи в UAE", category: "visa" },
-  { id: "27", text: "Візові вимоги UAE", category: "visa" },
+  { id: "12", text: "Процес отримання резидентської візи в ОАЕ", category: "visa" },
+  { id: "27", text: "Візові вимоги ОАЕ", category: "visa" },
   
   // Юридичні та документи
   { id: "13", text: "Подання на Emirates ID", category: "legal" },
-  { id: "14", text: "Засвідчення документів в UAE", category: "legal" },
-  { id: "15", text: "Довіреність в UAE", category: "legal" },
-  { id: "16", text: "Перевірка бізнес-контрактів в UAE", category: "legal" },
+  { id: "14", text: "Легалізація документів в ОАЕ", category: "legal" },
+  { id: "15", text: "Довіреність в ОАЕ", category: "legal" },
+  { id: "16", text: "Перевірка бізнес-контрактів в ОАЕ", category: "legal" },
   { id: "40", text: "Продовження Emirates ID", category: "legal" },
   
   // Фінансові послуги
-  { id: "17", text: "Корпоративний банківський рахунок в UAE", category: "finance" },
-  { id: "18", text: "Податкова реєстрація в UAE (VAT)", category: "finance" },
-  { id: "19", text: "Бухгалтерські послуги в UAE", category: "finance" },
-  { id: "20", text: "Правила економічної присутності в UAE", category: "finance" },
-  { id: "41", text: "Банківські послуги в UAE", category: "finance" },
+  { id: "17", text: "Корпоративний банківський рахунок в ОАЕ", category: "finance" },
+  { id: "18", text: "Реєстрація податків (ПДВ) в ОАЕ", category: "finance" },
+  { id: "19", text: "Бухгалтерські послуги в ОАЕ", category: "finance" },
+  { id: "20", text: "Економічні нормативи в ОАЕ", category: "finance" },
+  { id: "41", text: "Банківські послуги в ОАЕ", category: "finance" },
   
   // Нерухомість та послуги
-  { id: "21", text: "Інвестиції в нерухомість UAE", category: "property" },
+  { id: "21", text: "Інвестиції в нерухомість ОАЕ", category: "property" },
   { id: "22", text: "Оренда офісів в Дубаї", category: "property" },
 
   // Охорона здоров'я
-  { id: "47", text: "Медичне страхування в UAE", category: "healthcare" },
-  { id: "48", text: "Найкращі лікарні в Дубаї", category: "healthcare" },
-  { id: "49", text: "Медичний огляд в UAE", category: "healthcare" },
+  { id: "47", text: "Медичне страхування в ОАЕ", category: "healthcare" },
+  { id: "48", text: "Найкращі лікарні Дубая", category: "healthcare" },
+  { id: "49", text: "Медичний огляд в ОАЕ", category: "healthcare" },
   
   // Туризм та розваги (в кінці)
   { id: "28", text: "Туристичні пам'ятки Дубая", category: "travel" },

@@ -13,13 +13,13 @@ const chatPrompts = [
   // Dịch vụ kinh doanh (khối đầu tiên)
   { id: "1", text: "Đăng ký công ty tại UAE", category: "business" },
   { id: "2", text: "Thành lập công ty Mainland", category: "business" },
-  { id: "3", text: "Đăng ký công ty Free Zone", category: "business" },
+  { id: "3", text: "Đăng ký công ty Free zone", category: "business" },
   { id: "4", text: "Thành lập công ty Offshore", category: "business" },
   { id: "5", text: "Visa freelance UAE", category: "business" },
   { id: "6", text: "Giấy phép kinh doanh Dubai", category: "business" },
   { id: "7", text: "Yêu cầu giấy phép thương mại UAE", category: "business" },
   { id: "23", text: "Thành lập doanh nghiệp UAE", category: "business" },
-  { id: "24", text: "Khu Free Zone Dubai", category: "business" },
+  { id: "24", text: "Khu Free zone Dubai", category: "business" },
   { id: "25", text: "Đăng ký công ty UAE", category: "business" },
   { id: "26", text: "Visa freelance UAE", category: "business" },
   
@@ -31,9 +31,9 @@ const chatPrompts = [
   { id: "12", text: "Quy trình visa cư trú UAE", category: "visa" },
   { id: "27", text: "Yêu cầu visa UAE", category: "visa" },
   
-  // Pháp lý và giấy tờ
+  // Pháp lý và tài liệu
   { id: "13", text: "Đăng ký Emirates ID", category: "legal" },
-  { id: "14", text: "Chứng thực giấy tờ UAE", category: "legal" },
+  { id: "14", text: "Chứng thực tài liệu UAE", category: "legal" },
   { id: "15", text: "Giấy ủy quyền tại UAE", category: "legal" },
   { id: "16", text: "Xem xét hợp đồng kinh doanh UAE", category: "legal" },
   { id: "40", text: "Gia hạn Emirates ID", category: "legal" },

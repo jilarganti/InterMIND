@@ -16,8 +16,8 @@ const chatPrompts = [
   { id: "3", text: "Free Zone会社登録", category: "business" },
   { id: "4", text: "オフショア会社設立", category: "business" },
   { id: "5", text: "UAEフリーランスビザ", category: "business" },
-  { id: "6", text: "ドバイ事業ライセンス", category: "business" },
-  { id: "7", text: "UAE事業ライセンス要件", category: "business" },
+  { id: "6", text: "ドバイビジネスライセンス", category: "business" },
+  { id: "7", text: "UAE貿易ライセンス要件", category: "business" },
   { id: "23", text: "UAE事業設立", category: "business" },
   { id: "24", text: "ドバイFree Zone", category: "business" },
   { id: "25", text: "UAE会社登録", category: "business" },
@@ -35,7 +35,7 @@ const chatPrompts = [
   { id: "13", text: "Emirates ID申請", category: "legal" },
   { id: "14", text: "UAE文書認証", category: "legal" },
   { id: "15", text: "UAE委任状", category: "legal" },
-  { id: "16", text: "UAE事業契約書審査", category: "legal" },
+  { id: "16", text: "UAEビジネス契約書審査", category: "legal" },
   { id: "40", text: "Emirates ID更新", category: "legal" },
   
   // 金融サービス

@@ -13,13 +13,13 @@ const chatPrompts = [
   // व्यापार सेवाएं (पहला ब्लॉक)
   { id: "1", text: "UAE में कंपनी पंजीकरण", category: "business" },
   { id: "2", text: "Mainland कंपनी स्थापना", category: "business" },
-  { id: "3", text: "Free Zone कंपनी पंजीकरण", category: "business" },
+  { id: "3", text: "Free zone कंपनी पंजीकरण", category: "business" },
   { id: "4", text: "Offshore कंपनी गठन", category: "business" },
   { id: "5", text: "UAE फ्रीलांस वीजा", category: "business" },
   { id: "6", text: "दुबई व्यापार लाइसेंस", category: "business" },
   { id: "7", text: "UAE व्यापार लाइसेंस आवश्यकताएं", category: "business" },
   { id: "23", text: "UAE व्यवसाय स्थापना", category: "business" },
-  { id: "24", text: "दुबई Free Zones", category: "business" },
+  { id: "24", text: "दुबई Free zones", category: "business" },
   { id: "25", text: "UAE कंपनी पंजीकरण", category: "business" },
   { id: "26", text: "UAE फ्रीलांस वीजा", category: "business" },
   
@@ -34,7 +34,7 @@ const chatPrompts = [
   // कानूनी और दस्तावेज
   { id: "13", text: "Emirates ID आवेदन", category: "legal" },
   { id: "14", text: "UAE दस्तावेज सत्यापन", category: "legal" },
-  { id: "15", text: "UAE में मुख्तारनामा", category: "legal" },
+  { id: "15", text: "UAE में पावर ऑफ अटॉर्नी", category: "legal" },
   { id: "16", text: "UAE व्यापार अनुबंध समीक्षा", category: "legal" },
   { id: "40", text: "Emirates ID नवीनीकरण", category: "legal" },
   

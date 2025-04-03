@@ -23,7 +23,7 @@ const chatPrompts = [
   { id: "25", text: "Registro de empresa UAE", category: "business" },
   { id: "26", text: "Visto freelance UAE", category: "business" },
   
-  // Vistos e imigração
+  // Vistos e Imigração
   { id: "8", text: "Solicitação de Golden Visa UAE", category: "visa" },
   { id: "9", text: "Visto de trabalho UAE", category: "visa" },
   { id: "10", text: "Patrocínio de visto familiar UAE", category: "visa" },
@@ -31,21 +31,21 @@ const chatPrompts = [
   { id: "12", text: "Processo de visto de residência UAE", category: "visa" },
   { id: "27", text: "Requisitos para visto UAE", category: "visa" },
   
-  // Jurídico e documentos
+  // Jurídico e Documentação
   { id: "13", text: "Solicitação de Emirates ID", category: "legal" },
   { id: "14", text: "Autenticação de documentos UAE", category: "legal" },
   { id: "15", text: "Procuração nos UAE", category: "legal" },
   { id: "16", text: "Revisão de contrato comercial UAE", category: "legal" },
   { id: "40", text: "Renovação do Emirates ID", category: "legal" },
   
-  // Serviços financeiros
+  // Serviços Financeiros
   { id: "17", text: "Conta bancária corporativa UAE", category: "finance" },
   { id: "18", text: "Registro fiscal UAE (VAT)", category: "finance" },
   { id: "19", text: "Serviços contábeis UAE", category: "finance" },
-  { id: "20", text: "Regulamentos de Substância Econômica UAE", category: "finance" },
+  { id: "20", text: "UAE Economic Substance Regulations", category: "finance" },
   { id: "41", text: "Serviços bancários UAE", category: "finance" },
   
-  // Imóveis e serviços
+  // Imóveis e Serviços
   { id: "21", text: "Investimento imobiliário UAE", category: "property" },
   { id: "22", text: "Aluguel de escritório Dubai", category: "property" },
 
@@ -54,7 +54,7 @@ const chatPrompts = [
   { id: "48", text: "Melhores hospitais em Dubai", category: "healthcare" },
   { id: "49", text: "Check-up médico UAE", category: "healthcare" },
   
-  // Turismo e entretenimento (no final)
+  // Turismo e Entretenimento (no final)
   { id: "28", text: "Atrações turísticas Dubai", category: "travel" },
   { id: "29", text: "Expo City Dubai", category: "attractions" },
   { id: "30", text: "Ingressos Dubai Frame", category: "attractions" },

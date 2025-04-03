@@ -66,8 +66,8 @@ hero:
       'Servicios PRO integrales para aprobaciones gubernamentales',
       'Gestión de renovación de licencias y alertas',
       'Consultoría bancaria y mantenimiento de cuenta',
-      'Soporte de cumplimiento de VAT y ESR',
-      'Cumplimiento de visas de empleados y ley laboral',
+      'Soporte de cumplimiento VAT y ESR',
+      'Cumplimiento de visas de empleados y leyes laborales',
       'Talleres de capacitación sobre actualizaciones regulatorias'
     ],
     linkText: 'Learn more',
@@ -83,7 +83,7 @@ hero:
     items: [
       'Sistema bancario sólido con calificación **Aa2** de Moody\'s',
       '**Tipo de cambio USD fijo desde 1980**',
-      'Sin restricciones en movimiento de capital',
+      'Sin restricciones en movimientos de capital',
       'Reservas extranjeras superiores a US$184 mil millones',
       'Estabilidad política y económica',
       'Sistema bancario respaldado por el gobierno',

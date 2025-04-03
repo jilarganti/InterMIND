@@ -30,7 +30,7 @@ hero:
       'Estratégia de comunicação direta com o banco',
       'Configuração completa do pacote bancário'
     ],
-    linkText: 'Learn more',
+    linkText: 'Saiba mais',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -51,7 +51,7 @@ hero:
       'Atualizações e auditorias regulares de compliance',
       'Planejamento de contingência para segurança da conta'
     ],
-    linkText: 'Learn more',
+    linkText: 'Saiba mais',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -60,7 +60,7 @@ hero:
     }
   },
   {
-    title: 'Mantenha a conformidade: Proteja seu negócio nos EAU',
+    title: 'Mantenha-se em conformidade: Proteja seu negócio nos EAU',
     items: [
       'Auditorias regulares de compliance para identificar riscos potenciais',
       'Serviços PRO completos para aprovações governamentais',
@@ -70,7 +70,7 @@ hero:
       'Conformidade com vistos de funcionários e lei trabalhista',
       'Workshops de treinamento sobre atualizações regulatórias'
     ],
-    linkText: 'Learn more',
+    linkText: 'Saiba mais',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -89,7 +89,7 @@ hero:
       'Sistema bancário apoiado pelo governo',
       'Banco digital de classe mundial'
     ],
-    linkText: 'Learn more',
+    linkText: 'Saiba mais',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',
@@ -139,7 +139,7 @@ hero:
   :services="[
   'Básico — apenas consulta essencial de documentação e abertura de conta',
   'Padrão — documentação completa e orientação em todas as etapas bancárias',
-  'Abrangente — configuração bancária completa com mínima participação da sua parte',
+  'Abrangente — configuração bancária completa com mínimo envolvimento da sua parte',
   'Personalizado — necessidade de discutir transações de alto volume ou estrutura multijurisdicional',
   ]"
 />

@@ -13,7 +13,7 @@ const chatPrompts = [
   // İş Hizmetleri (ilk blok)
   { id: "1", text: "UAE'de şirket tescili", category: "business" },
   { id: "2", text: "Mainland şirket kurulumu", category: "business" },
-  { id: "3", text: "Free Zone şirket tescili", category: "business" },
+  { id: "3", text: "Free zone şirket tescili", category: "business" },
   { id: "4", text: "Offshore şirket kurulumu", category: "business" },
   { id: "5", text: "UAE freelance vizesi", category: "business" },
   { id: "6", text: "Dubai ticari lisansı", category: "business" },
@@ -23,7 +23,7 @@ const chatPrompts = [
   { id: "25", text: "UAE şirket tescili", category: "business" },
   { id: "26", text: "UAE freelance vizesi", category: "business" },
   
-  // Vize ve Göç
+  // Vize ve Göçmenlik
   { id: "8", text: "UAE Golden Visa başvurusu", category: "visa" },
   { id: "9", text: "UAE çalışma vizesi", category: "visa" },
   { id: "10", text: "UAE'de aile vizesi sponsorluğu", category: "visa" },
@@ -49,7 +49,7 @@ const chatPrompts = [
   { id: "21", text: "UAE gayrimenkul yatırımı", category: "property" },
   { id: "22", text: "Dubai ofis alanı kiralama", category: "property" },
 
-  // Sağlık Hizmetleri
+  // Sağlık
   { id: "47", text: "UAE sağlık sigortası", category: "healthcare" },
   { id: "48", text: "Dubai'deki en iyi hastaneler", category: "healthcare" },
   { id: "49", text: "UAE sağlık kontrolü", category: "healthcare" },
