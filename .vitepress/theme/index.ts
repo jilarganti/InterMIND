@@ -25,26 +25,35 @@ export default {
      * Redirect to the localized path for the first time
      */
     watchEffect(() => {
-      if (inBrowser) {
-        const browserLang = navigator.language.slice(0, 2)
-        const currentLang = lang.value.slice(0, 2)
-        const cookieLang = document.cookie.match(/nf_lang=([^;]+)/)?.[1]?.slice(0, 2)
-        const path = page.value.relativePath.replace(PATH_CLEANUP_REGEX, "")
+      watchEffect(() => {
+        if (inBrowser) {
+          // Не делаем редирект, если это бот
+          const isBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent)
+          if (isBot) return
 
-        // Проверяем, что это не поисковый робот
-        const isBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent)
+          const browserLang = navigator.language.slice(0, 2)
+          const currentLang = lang.value.slice(0, 2)
+          const supportedLanguages = ["ar", "bn", "es", "fa", "fr", "hi", "id", "ja", "ko", "ml", "pt", "ru", "ta", "te", "tr", "uk", "ur", "vi", "zh"]
 
-        // Редиректим только реальных пользователей, не роботов
-        if (!isBot && !cookieLang) {
-          document.cookie = `nf_lang=${browserLang}; expires=Mon, 1 Jan 2030 00:00:00 UTC; path=/`
-          if (currentLang !== browserLang) {
-            router.go(browserLang === "en" ? `/${path}` : `/${browserLang}/${path}`)
+          // Проверяем поддерживается ли язык браузера
+          const isSupported = supportedLanguages.includes(browserLang)
+
+          // Получаем сохраненный язык из cookie
+          const cookieLang = document.cookie.match(/nf_lang=([^;]+)/)?.[1]?.slice(0, 2)
+
+          // Определяем, нужен ли редирект (только если у нас нет cookie и текущий язык не совпадает)
+          const needsRedirect = !cookieLang && isSupported && currentLang !== browserLang && browserLang !== "en"
+
+          if (needsRedirect) {
+            const path = page.value.relativePath.replace(PATH_CLEANUP_REGEX, "")
+            document.cookie = `nf_lang=${browserLang}; expires=Mon, 1 Jan 2030 00:00:00 UTC; path=/`
+            router.go(`/${browserLang}/${path}`)
           }
-        }
 
-        // Инициализация отслеживания UTM-параметров при загрузке страницы
-        initUtmTracking()
-      }
+          // Инициализация UTM отслеживания
+          initUtmTracking()
+        }
+      })
     })
 
     return h(DefaultTheme.Layout, null, {
