@@ -29,5 +29,7 @@
   "markdown.preview.breaks": true,
   // "markdown.validate.enabled": true,
   "commentTranslate.hover.enabled": false,
-  "commentTranslate.targetLanguage": "ru"
+  "commentTranslate.targetLanguage": "ru",
+
+  "vue.server.includeLanguages": ["vue"]
 }

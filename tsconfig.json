@@ -1,6 +1,6 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": [".vitepress/**/*", "docs/en/**/*", "__tests__/CRM"],
+  "include": [".vitepress/**/*", "__tests__/CRM", "docs/en/**/*.[ts,vue,md]"],
 
   "compilerOptions": {
     "paths": {
@@ -8,5 +8,8 @@
       "@theme/*": ["./.vitepress/theme/*"],
       "@docs/*": ["./docs/en/*"]
     }
+  },
+  "vueCompilerOptions": {
+    "vitePressExtensions": [".md"]
   }
 }
