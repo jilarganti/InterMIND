@@ -3,17 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/fr"
 
 export const fr = defineConfig({
-  description:
-    "Services experts de formation et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa. Réalisons vos rêves professionnels !",
+  description: "Services experts de création et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa. Réalisons vos rêves professionnels !",
   head: [
-    [
-      "meta",
-      {
-        property: "og:title",
-        content:
-          "Services experts de formation et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa.",
-      },
-    ],
+    ["meta", { property: "og:title", content: "Services experts de création et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa." }],
   ],
 
   themeConfig: {
@@ -22,7 +14,7 @@ export const fr = defineConfig({
         text: "Services",
         activeMatch: `${BASE_PATH}/company-registration/`,
         items: [
-          { text: "Enregistrement d'entreprise", link: `${BASE_PATH}/uae-business/company-registration/overview` },
+          { text: "Création d'entreprise", link: `${BASE_PATH}/uae-business/company-registration/overview` },
           { text: "Solutions bancaires", link: `${BASE_PATH}/uae-business/company-registration/banking` },
           { text: "Migration", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
         ],
@@ -51,7 +43,7 @@ export const fr = defineConfig({
       emailPlaceholder: "votre adresse e-mail",
       phone: "Téléphone *",
       phonePlaceholder: "ex., +1 1234567890 ou (1) 123 456-7890",
-      phoneError: "Veuillez saisir votre numéro de téléphone",
+      phoneError: "Veuillez saisir un numéro de téléphone",
       category: "Comment pouvons-nous vous aider ? *",
       categoryPlaceholder: "sélectionnez le type de service",
       message: "Discutons de vos objectifs (facultatif)",
@@ -59,8 +51,8 @@ export const fr = defineConfig({
       submit: "Envoyer la demande",
       sending: "Envoi en cours...",
       successTitle: "Merci !",
-      successMessage: "Nous apprécions grandement votre intérêt ! Notre équipe vous contactera prochainement pour discuter de vos besoins.",
-      defaultCategories: ["Enregistrement d'entreprise", "Ouverture de comptes bancaires", "EID & Golden Visa", "Autres services"],
+      successMessage: "Nous apprécions grandement votre intérêt ! Notre équipe vous contactera sous peu pour discuter de vos besoins.",
+      defaultCategories: ["Création d'entreprise", "Ouverture de comptes bancaires", "EID & Golden Visa", "Autres services"],
       defaultButtonText: "Obtenir une consultation gratuite",
     },
   },
@@ -72,19 +64,20 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Aperçu des affaires aux EAU",
       collapsed: false,
       items: [
-        { text: "Enregistrement d'entreprise", link: "company-registration/overview" },
+        { text: "Création d'entreprise", link: "company-registration/overview" },
         { text: "Avantages et inconvénients", link: "company-registration/benefits-problems" },
         { text: "Solutions bancaires entreprises", link: "offer/banking/" },
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "Visas et EID", link: "company-registration/employment-visas" },
         { text: "Frais et délais", link: "company-registration/fees-timelines" },
+        { text: "Paiement uniquement après succès", link: "benefits/success-based-fees" },
       ],
     },
     {
       text: "Structures d'entreprise aux EAU",
       collapsed: true,
       items: [
-        { text: "Étapes d'enregistrement d'entreprise", link: "company-registration/insights/incorporation-steps" },
+        { text: "Étapes de création d'entreprise", link: "company-registration/insights/incorporation-steps" },
         { text: "Free zones aux EAU", link: "company-registration/free-zones" },
         { text: "Mainland aux EAU", link: "company-registration/mainland" },
       ],

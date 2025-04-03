@@ -3,17 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/uk"
 
 export const uk = defineConfig({
-  description:
-    "Експертні послуги з реєстрації та підтримки компаній в ОАЕ. Створення компаній, банківські послуги, податкові, юридичні рішення та візова підтримка. Втілюємо ваші бізнес-мрії в реальність!",
+  description: "Експертні послуги з реєстрації та підтримки компаній в ОАЕ. Створення компаній, банківські послуги, податкові, юридичні рішення та візова підтримка. Втілюємо ваші бізнес-мрії в реальність!",
   head: [
-    [
-      "meta",
-      {
-        property: "og:title",
-        content:
-          "Експертні послуги з реєстрації та підтримки компаній в ОАЕ. Створення компаній, банківські послуги, податкові, юридичні рішення та візова підтримка.",
-      },
-    ],
+    ["meta", { property: "og:title", content: "Експертні послуги з реєстрації та підтримки компаній в ОАЕ. Створення компаній, банківські послуги, податкові, юридичні рішення та візова підтримка." }],
   ],
 
   themeConfig: {
@@ -52,14 +44,14 @@ export const uk = defineConfig({
       phone: "Телефон *",
       phonePlaceholder: "напр., +1 1234567890 або (1) 123 456-7890",
       phoneError: "Будь ласка, введіть номер телефону",
-      category: "Як ми можемо вам допомогти? *",
+      category: "Як ми можемо допомогти? *",
       categoryPlaceholder: "оберіть тип послуги",
       message: "Обговорімо ваші цілі (необов'язково)",
       messagePlaceholder: "опишіть ваш проект або вимоги",
       submit: "Надіслати запит",
       sending: "Надсилання...",
       successTitle: "Дякуємо!",
-      successMessage: "Ми дуже цінуємо ваш інтерес! Наша команда незабаром зв'яжеться з вами для обговорення ваших потреб.",
+      successMessage: "Ми дуже цінуємо ваш інтерес! Наша команда зв'яжеться з вами найближчим часом для обговорення ваших потреб.",
       defaultCategories: ["Реєстрація компанії", "Відкриття банківських рахунків", "EID і Golden Visa", "Інші послуги"],
       defaultButtonText: "Отримати безкоштовну консультацію",
     },
@@ -78,6 +70,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "Візи та EID", link: "company-registration/employment-visas" },
         { text: "Вартість та терміни", link: "company-registration/fees-timelines" },
+        { text: "Оплата тільки після успіху", link: "benefits/success-based-fees" },
       ],
     },
     {
@@ -93,9 +86,9 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Гарантована відповідність бізнесу в ОАЕ",
       collapsed: true,
       items: [
-        { text: "Гарантоване відкриття корпоративних банківських рахунків", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "Гарантоване схвалення корпоративних банківських рахунків", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Банківські рахунки для високоризикового бізнесу", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "Підтримка відповідності та захист вашого бізнесу", link: "company-registration/Protect-Your-Business" },
+        { text: "Підтримуйте відповідність та захист вашого бізнесу", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -110,7 +103,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Порівняння",
       collapsed: true,
       items: [
-        { text: "Mainland проти Free zones", link: "comparison/mainland-vs-free-zones" },
+        { text: "Mainland проти free zones", link: "comparison/mainland-vs-free-zones" },
         { text: "Порівняння юридичних осіб ОАЕ", link: "comparison/entity-types" },
       ],
     },

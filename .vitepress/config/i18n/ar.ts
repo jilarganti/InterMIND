@@ -3,13 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description:
-    "خدمات تأسيس الشركات والدعم المتخصصة في الإمارات. حلول تأسيس الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات. نحول أحلام أعمالك إلى حقيقة!",
+  description: "خدمات احترافية لتأسيس الشركات والدعم في الإمارات. حلول تأسيس الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات. نحول أحلام أعمالك إلى حقيقة!",
   head: [
-    [
-      "meta",
-      { property: "og:title", content: "خدمات تأسيس الشركات والدعم المتخصصة في الإمارات. حلول تأسيس الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات." },
-    ],
+    ["meta", { property: "og:title", content: "خدمات احترافية لتأسيس الشركات والدعم في الإمارات. حلول تأسيس الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات." }],
   ],
 
   themeConfig: {
@@ -70,10 +66,11 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "تسجيل الشركات", link: "company-registration/overview" },
         { text: "المزايا والعيوب", link: "company-registration/benefits-problems" },
-        { text: "حلول الخدمات المصرفية للشركات", link: "offer/banking/" },
+        { text: "الحلول المصرفية للشركات", link: "offer/banking/" },
         { text: "التأشيرة الذهبية", link: "offer/golden-visa/" },
         { text: "التأشيرات وEID", link: "company-registration/employment-visas" },
         { text: "الرسوم والجداول الزمنية", link: "company-registration/fees-timelines" },
+        { text: "ادفع فقط بعد النجاح", link: "benefits/success-based-fees" },
       ],
     },
     {
@@ -86,16 +83,16 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "ضمان الامتثال التجاري في الإمارات",
+      text: "الامتثال المضمون للأعمال في الإمارات",
       collapsed: true,
       items: [
-        { text: "ضمان الموافقات على الحسابات المصرفية للشركات", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "موافقات مضمونة للحسابات المصرفية للشركات", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "حسابات مصرفية للأعمال عالية المخاطر", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
         { text: "حافظ على امتثال وحماية عملك", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
-      text: "القانونية والمحاسبة والضرائب",
+      text: "القانون والمحاسبة والضرائب",
       collapsed: true,
       items: [
         { text: "اعتبارات المحاسبة والضرائب", link: "company-registration/accounting-legal" },

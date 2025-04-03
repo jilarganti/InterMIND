@@ -3,17 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ru"
 
 export const ru = defineConfig({
-  description:
-    "Профессиональные услуги по регистрации и поддержке компаний в ОАЭ. Создание компаний, банковские услуги, налоговые, юридические решения и оформление виз. Воплощаем ваши бизнес-мечты в реальность!",
+  description: "Экспертные услуги по регистрации и сопровождению компаний в ОАЭ. Создание компаний, банковские услуги, налоговые, юридические решения и оформление виз. Воплощаем ваши бизнес-мечты в реальность!",
   head: [
-    [
-      "meta",
-      {
-        property: "og:title",
-        content:
-          "Профессиональные услуги по регистрации и поддержке компаний в ОАЭ. Создание компаний, банковские услуги, налоговые, юридические решения и оформление виз.",
-      },
-    ],
+    ["meta", { property: "og:title", content: "Экспертные услуги по регистрации и сопровождению компаний в ОАЭ. Создание компаний, банковские услуги, налоговые, юридические решения и оформление виз." }],
   ],
 
   themeConfig: {
@@ -78,6 +70,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "Визы и EID", link: "company-registration/employment-visas" },
         { text: "Стоимость и сроки", link: "company-registration/fees-timelines" },
+        { text: "Оплата только после успеха", link: "benefits/success-based-fees" },
       ],
     },
     {

@@ -44,7 +44,7 @@ export default {
     })
 
     return h(DefaultTheme.Layout, null, {
-      "aside-ads-before": () => h(AsideSponsors),
+      // "aside-ads-before": () => h(AsideSponsors),
       // "home-features-after": () => h(HomeSponsors),
       // "nav-bar-content-after": () => h(TypeForm, { typeformId: "01J8Q752166MZH0T93ZYYJ3ZMD" }),
     })

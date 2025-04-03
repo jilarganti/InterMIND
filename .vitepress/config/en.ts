@@ -70,6 +70,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "Visas & EID", link: "company-registration/employment-visas" },
         { text: "Fees and timelines", link: "company-registration/fees-timelines" },
+        { text: "Pay only after success", link: "benefits/success-based-fees" },
       ],
     },
     {

@@ -3,16 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ta"
 
 export const ta = defineConfig({
-  description:
-    "நிபுணத்துவம் வாய்ந்த UAE நிறுவன உருவாக்கம் மற்றும் ஆதரவு சேவைகள். நிறுவன அமைப்பு, வங்கி, வரி, சட்ட மற்றும் விசா தீர்வுகள். உங்கள் வணிக கனவுகளை நனவாக்குகிறோம்!",
+  description: "நிபுணத்துவ UAE நிறுவன உருவாக்கம் மற்றும் ஆதரவு சேவைகள். நிறுவன அமைப்பு, வங்கி, வரி, சட்ட மற்றும் விசா தீர்வுகள். உங்கள் வணிக கனவுகளை நனவாக்குகிறோம்!",
   head: [
-    [
-      "meta",
-      {
-        property: "og:title",
-        content: "நிபுணத்துவம் வாய்ந்த UAE நிறுவன உருவாக்கம் மற்றும் ஆதரவு சேவைகள். நிறுவன அமைப்பு, வங்கி, வரி, சட்ட மற்றும் விசா தீர்வுகள்.",
-      },
-    ],
+    ["meta", { property: "og:title", content: "நிபுணத்துவ UAE நிறுவன உருவாக்கம் மற்றும் ஆதரவு சேவைகள். நிறுவன அமைப்பு, வங்கி, வரி, சட்ட மற்றும் விசா தீர்வுகள்." }],
   ],
 
   themeConfig: {
@@ -53,14 +46,14 @@ export const ta = defineConfig({
       phoneError: "தொலைபேசி எண்ணை உள்ளிடவும்",
       category: "நாங்கள் எவ்வாறு உதவ முடியும்? *",
       categoryPlaceholder: "சேவை வகையைத் தேர்ந்தெடுக்கவும்",
-      message: "உங்கள் இலக்குகளைப் பற்றி விவாதிக்கலாம் (விருப்பத்தேர்வு)",
+      message: "உங்கள் இலக்குகளை விவாதிப்போம் (விருப்பத்தேர்வு)",
       messagePlaceholder: "உங்கள் திட்டம் அல்லது தேவைகளை விவரிக்கவும்",
       submit: "கோரிக்கையை சமர்ப்பிக்கவும்",
       sending: "அனுப்புகிறது...",
       successTitle: "நன்றி!",
-      successMessage: "உங்கள் ஆர்வத்திற்கு மிக்க நன்றி! எங்கள் குழு உங்கள் தேவைகளைப் பற்றி விரைவில் தொடர்பு கொள்ளும்.",
+      successMessage: "உங்கள் ஆர்வத்திற்கு மிக்க நன்றி! எங்கள் குழு விரைவில் உங்கள் தேவைகளை விவாதிக்க தொடர்பு கொள்ளும்.",
       defaultCategories: ["நிறுவன பதிவு", "வங்கி கணக்குகளைத் திறத்தல்", "EID & Golden Visa", "பிற சேவைகள்"],
-      defaultButtonText: "இலவச ஆலோசனை பெறுங்கள்",
+      defaultButtonText: "இலவச ஆலோசனையைப் பெறுங்கள்",
     },
   },
 })
@@ -77,6 +70,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "விசாக்கள் & EID", link: "company-registration/employment-visas" },
         { text: "கட்டணங்கள் மற்றும் காலவரிசைகள்", link: "company-registration/fees-timelines" },
+        { text: "வெற்றிக்குப் பிறகு மட்டுமே செலுத்துங்கள்", link: "benefits/success-based-fees" },
       ],
     },
     {

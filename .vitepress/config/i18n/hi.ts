@@ -3,8 +3,10 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/hi"
 
 export const hi = defineConfig({
-  description: "यूएई में विशेषज्ञ कंपनी स्थापना और सहायता सेवाएं। कंपनी सेटअप, बैंकिंग, कर, कानूनी और वीजा समाधान। आपके व्यवसायिक सपनों को साकार करना!",
-  head: [["meta", { property: "og:title", content: "यूएई में विशेषज्ञ कंपनी स्थापना और सहायता सेवाएं। कंपनी सेटअप, बैंकिंग, कर, कानूनी और वीजा समाधान।" }]],
+  description: "UAE में विशेषज्ञ कंपनी स्थापना और सहायता सेवाएं। कंपनी सेटअप, बैंकिंग, कर, कानूनी और वीजा समाधान। आपके व्यवसायिक सपनों को साकार करना!",
+  head: [
+    ["meta", { property: "og:title", content: "UAE में विशेषज्ञ कंपनी स्थापना और सहायता सेवाएं। कंपनी सेटअप, बैंकिंग, कर, कानूनी और वीजा समाधान।" }],
+  ],
 
   themeConfig: {
     nav: [
@@ -49,7 +51,7 @@ export const hi = defineConfig({
       submit: "अनुरोध भेजें",
       sending: "भेज रहे हैं...",
       successTitle: "धन्यवाद!",
-      successMessage: "आपकी रुचि के लिए हम बहुत आभारी हैं! हमारी टीम जल्द ही आपकी जरूरतों पर चर्चा करने के लिए आपसे संपर्क करेगी।",
+      successMessage: "आपकी रुचि के लिए हम बहुत आभारी हैं! हमारी टीम जल्द ही आपकी जरूरतों पर चर्चा करने के लिए संपर्क करेगी।",
       defaultCategories: ["कंपनी पंजीकरण", "बैंक खाते खोलना", "EID और Golden Visa", "अन्य सेवाएं"],
       defaultButtonText: "निःशुल्क परामर्श प्राप्त करें",
     },
@@ -59,7 +61,7 @@ export const hi = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "यूएई व्यवसाय सारांश",
+      text: "UAE व्यवसाय सारांश",
       collapsed: false,
       items: [
         { text: "कंपनी पंजीकरण", link: "company-registration/overview" },
@@ -68,10 +70,11 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "वीजा और EID", link: "company-registration/employment-visas" },
         { text: "शुल्क और समय सीमा", link: "company-registration/fees-timelines" },
+        { text: "सफलता के बाद ही भुगतान", link: "benefits/success-based-fees" },
       ],
     },
     {
-      text: "यूएई कॉर्पोरेट संरचनाएं",
+      text: "UAE कॉर्पोरेट संरचनाएं",
       collapsed: true,
       items: [
         { text: "कंपनी पंजीकरण के चरण", link: "company-registration/insights/incorporation-steps" },
@@ -80,7 +83,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "यूएई व्यवसाय अनुपालन गारंटीकृत",
+      text: "UAE व्यवसाय अनुपालन गारंटीकृत",
       collapsed: true,
       items: [
         { text: "गारंटीकृत कॉर्पोरेट बैंक खाता स्वीकृतियां", link: "corporate-banking-services/guaranteed-account-approvals" },
@@ -101,7 +104,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         { text: "Mainland बनाम free zones", link: "comparison/mainland-vs-free-zones" },
-        { text: "यूएई संस्थाओं की तुलना", link: "comparison/entity-types" },
+        { text: "UAE संस्थाओं की तुलना", link: "comparison/entity-types" },
       ],
     },
   ]

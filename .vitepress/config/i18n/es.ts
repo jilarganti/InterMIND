@@ -3,16 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/es"
 
 export const es = defineConfig({
-  description:
-    "Servicios expertos de formación y soporte de empresas en EAU. Configuración de empresas, banca, impuestos, soluciones legales y de visado. ¡Haciendo realidad tus sueños empresariales!",
+  description: "Servicios expertos de formación y soporte de empresas en EAU. Configuración de empresas, banca, impuestos, soluciones legales y de visados. ¡Haciendo realidad sus sueños empresariales!",
   head: [
-    [
-      "meta",
-      {
-        property: "og:title",
-        content: "Servicios expertos de formación y soporte de empresas en EAU. Configuración de empresas, banca, impuestos, soluciones legales y de visado.",
-      },
-    ],
+    ["meta", { property: "og:title", content: "Servicios expertos de formación y soporte de empresas en EAU. Configuración de empresas, banca, impuestos, soluciones legales y de visados." }],
   ],
 
   themeConfig: {
@@ -45,22 +38,22 @@ export const es = defineConfig({
 
     contact_form: {
       name: "Nombre *",
-      namePlaceholder: "tu nombre",
+      namePlaceholder: "su nombre",
       email: "Correo electrónico *",
-      emailPlaceholder: "tu dirección de correo electrónico",
+      emailPlaceholder: "su dirección de correo electrónico",
       phone: "Teléfono *",
       phonePlaceholder: "ej., +1 1234567890 o (1) 123 456-7890",
-      phoneError: "Por favor, introduce el número de teléfono",
-      category: "¿Cómo podemos ayudarte? *",
-      categoryPlaceholder: "selecciona tipo de servicio",
-      message: "Hablemos de tus objetivos (opcional)",
-      messagePlaceholder: "describe tu proyecto o requisitos",
+      phoneError: "Por favor, introduzca el número de teléfono",
+      category: "¿Cómo podemos ayudarle? *",
+      categoryPlaceholder: "seleccione tipo de servicio",
+      message: "Hablemos de sus objetivos (opcional)",
+      messagePlaceholder: "describa su proyecto o requisitos",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
-      successMessage: "¡Agradecemos mucho tu interés! Nuestro equipo te contactará pronto para discutir tus necesidades.",
-      defaultCategories: ["Registro de empresa", "Apertura de cuentas bancarias", "EID & Golden Visa", "Otros servicios"],
-      defaultButtonText: "Obtén una consulta gratuita",
+      successMessage: "¡Agradecemos enormemente su interés! Nuestro equipo se pondrá en contacto con usted en breve para discutir sus necesidades.",
+      defaultCategories: ["Registro de empresas", "Apertura de cuentas bancarias", "EID y Golden Visa", "Otros servicios"],
+      defaultButtonText: "Obtener una consulta gratuita",
     },
   },
 })
@@ -77,6 +70,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "Visados y EID", link: "company-registration/employment-visas" },
         { text: "Tarifas y plazos", link: "company-registration/fees-timelines" },
+        { text: "Pague solo después del éxito", link: "benefits/success-based-fees" },
       ],
     },
     {
@@ -94,7 +88,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Aprobaciones garantizadas de cuentas bancarias corporativas", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Cuentas bancarias para negocios de alto riesgo", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "Mantén tu negocio en cumplimiento y protegido", link: "company-registration/Protect-Your-Business" },
+        { text: "Mantenga su negocio en cumplimiento y protegido", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {

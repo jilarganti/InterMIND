@@ -3,13 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ur"
 
 export const ur = defineConfig({
-  description:
-    "متحدہ عرب امارات میں ماہرانہ کمپنی کی تشکیل اور معاونتی خدمات۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔ آپ کے کاروباری خوابوں کو حقیقت بنانا!",
+  description: "متحدہ عرب امارات میں ماہرانہ کمپنی کی تشکیل اور معاونتی خدمات۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔ آپ کے کاروباری خوابوں کو حقیقت بنانا!",
   head: [
-    [
-      "meta",
-      { property: "og:title", content: "متحدہ عرب امارات میں ماہرانہ کمپنی کی تشکیل اور معاونتی خدمات۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔" },
-    ],
+    ["meta", { property: "og:title", content: "متحدہ عرب امارات میں ماہرانہ کمپنی کی تشکیل اور معاونتی خدمات۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔" }],
   ],
 
   themeConfig: {
@@ -51,7 +47,7 @@ export const ur = defineConfig({
       category: "ہم آپ کی کیسے مدد کر سکتے ہیں؟ *",
       categoryPlaceholder: "سروس کی قسم منتخب کریں",
       message: "آئیے آپ کے مقاصد پر بات کریں (اختیاری)",
-      messagePlaceholder: "اپنے پروجیکٹ یا ضروریات کی وضاحت کریں",
+      messagePlaceholder: "اپنے پروجیکٹ یا ضروریات کی تفصیل بیان کریں",
       submit: "درخواست جمع کریں",
       sending: "بھیج رہا ہے...",
       successTitle: "شکریہ!",
@@ -74,6 +70,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "ویزا اور EID", link: "company-registration/employment-visas" },
         { text: "فیس اور ٹائم لائنز", link: "company-registration/fees-timelines" },
+        { text: "صرف کامیابی کے بعد ادائیگی", link: "benefits/success-based-fees" },
       ],
     },
     {
@@ -89,8 +86,8 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "متحدہ عرب امارات کاروباری تعمیل کی ضمانت",
       collapsed: true,
       items: [
-        { text: "کارپوریٹ بینک اکاؤنٹ کی منظوری کی ضمانت", link: "corporate-banking-services/guaranteed-account-approvals" },
-        { text: "ہائی رسک کاروبار کے لیے بینک اکاؤنٹس", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
+        { text: "کارپوریٹ بینک اکاؤنٹ منظوری کی ضمانت", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "اعلی خطرے والے کاروبار کے لیے بینک اکاؤنٹس", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
         { text: "اپنے کاروبار کو قانونی اور محفوظ رکھیں", link: "company-registration/Protect-Your-Business" },
       ],
     },

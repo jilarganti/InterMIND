@@ -3,13 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ml"
 
 export const ml = defineConfig({
-  description:
-    "യുഎഇയിലെ വിദഗ്ധ കമ്പനി രൂപീകരണവും പിന്തുണാ സേവനങ്ങളും. കമ്പനി സ്ഥാപനം, ബാങ്കിംഗ്, നികുതി, നിയമ, വിസ പരിഹാരങ്ങൾ. നിങ്ങളുടെ ബിസിനസ് സ്വപ്നങ്ങൾ യാഥാർത്ഥ്യമാക്കുന്നു!",
+  description: "യുഎഇയിലെ വിദഗ്ധ കമ്പനി രൂപീകരണവും പിന്തുണാ സേവനങ്ങളും. കമ്പനി സ്ഥാപനം, ബാങ്കിംഗ്, നികുതി, നിയമ, വിസ പരിഹാരങ്ങൾ. നിങ്ങളുടെ ബിസിനസ് സ്വപ്നങ്ങൾ യാഥാർത്ഥ്യമാക്കുന്നു!",
   head: [
-    [
-      "meta",
-      { property: "og:title", content: "യുഎഇയിലെ വിദഗ്ധ കമ്പനി രൂപീകരണവും പിന്തുണാ സേവനങ്ങളും. കമ്പനി സ്ഥാപനം, ബാങ്കിംഗ്, നികുതി, നിയമ, വിസ പരിഹാരങ്ങൾ." },
-    ],
+    ["meta", { property: "og:title", content: "യുഎഇയിലെ വിദഗ്ധ കമ്പനി രൂപീകരണവും പിന്തുണാ സേവനങ്ങളും. കമ്പനി സ്ഥാപനം, ബാങ്കിംഗ്, നികുതി, നിയമ, വിസ പരിഹാരങ്ങൾ." }],
   ],
 
   themeConfig: {
@@ -25,7 +21,7 @@ export const ml = defineConfig({
       },
       {
         text: "വിഭവങ്ങൾ",
-        items: [{ text: "ഞങ്ങളെക്കുറിച്ച്", link: `${BASE_PATH}/resources/about` }],
+        items: [{ text: "കുറിച്ച്", link: `${BASE_PATH}/resources/about` }],
       },
       { text: "ബന്ധപ്പെടുക", link: `${BASE_PATH}/resources/contacts` },
     ],
@@ -47,15 +43,15 @@ export const ml = defineConfig({
       emailPlaceholder: "നിങ്ങളുടെ ഇമെയിൽ വിലാസം",
       phone: "ഫോൺ *",
       phonePlaceholder: "ഉദാ., +1 1234567890 അല്ലെങ്കിൽ (1) 123 456-7890",
-      phoneError: "ഫോൺ നമ്പർ നൽകുക",
+      phoneError: "ദയവായി ഫോൺ നമ്പർ നൽകുക",
       category: "ഞങ്ങൾക്ക് എങ്ങനെ സഹായിക്കാൻ കഴിയും? *",
       categoryPlaceholder: "സേവന തരം തിരഞ്ഞെടുക്കുക",
       message: "നിങ്ങളുടെ ലക്ഷ്യങ്ങൾ ചർച്ച ചെയ്യാം (ഓപ്ഷണൽ)",
-      messagePlaceholder: "നിങ്ങളുടെ പ്രോജക്റ്റ് അല്ലെങ്കിൽ ആവശ്യങ്ങൾ വിവരിക്കുക",
+      messagePlaceholder: "നിങ്ങളുടെ പ്രോജക്റ്റ് അല്ലെങ്കിൽ ആവശ്യകതകൾ വിവരിക്കുക",
       submit: "അഭ്യർത്ഥന സമർപ്പിക്കുക",
       sending: "അയയ്ക്കുന്നു...",
       successTitle: "നന്ദി!",
-      successMessage: "നിങ്ങളുടെ താൽപ്പര്യത്തിന് ഞങ്ങൾ വളരെ നന്ദിയുണ്ട്! നിങ്ങളുടെ ആവശ്യങ്ങൾ ചർച്ച ചെയ്യാൻ ഞങ്ങളുടെ ടീം ഉടൻ നിങ്ങളെ ബന്ധപ്പെടും.",
+      successMessage: "നിങ്ങളുടെ താൽപ്പര്യത്തിന് ഞങ്ങൾ വളരെ നന്ദിയുണ്ട്! ഞങ്ങളുടെ ടീം നിങ്ങളുടെ ആവശ്യങ്ങൾ ചർച്ച ചെയ്യാൻ ഉടൻ ബന്ധപ്പെടും.",
       defaultCategories: ["കമ്പനി രജിസ്ട്രേഷൻ", "ബാങ്ക് അക്കൗണ്ടുകൾ തുറക്കൽ", "EID & Golden Visa", "മറ്റ് സേവനങ്ങൾ"],
       defaultButtonText: "സൗജന്യ കൺസൾട്ടേഷൻ നേടുക",
     },
@@ -74,6 +70,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "വിസകളും EID-യും", link: "company-registration/employment-visas" },
         { text: "ഫീസും സമയക്രമങ്ങളും", link: "company-registration/fees-timelines" },
+        { text: "വിജയത്തിന് ശേഷം മാത്രം പണം നൽകുക", link: "benefits/success-based-fees" },
       ],
     },
     {
@@ -107,14 +104,14 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         { text: "Mainland vs free zones", link: "comparison/mainland-vs-free-zones" },
-        { text: "യുഎഇ എന്റിറ്റികൾ താരതമ്യം", link: "comparison/entity-types" },
+        { text: "യുഎഇ സ്ഥാപനങ്ങളുടെ താരതമ്യം", link: "comparison/entity-types" },
       ],
     },
   ]
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "ഞങ്ങളെക്കുറിച്ച്", link: `about` }]
+  return [{ text: "കുറിച്ച്", link: `about` }]
 }
 
 function sidebarContactUs(): DefaultTheme.SidebarItem[] {

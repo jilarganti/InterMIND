@@ -3,8 +3,7 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/bn"
 
 export const bn = defineConfig({
-  description:
-    "বিশেষজ্ঞ UAE কোম্পানি গঠন এবং সহায়তা পরিষেবা। কোম্পানি সেটআপ, ব্যাংকিং, ট্যাক্স, আইনি এবং ভিসা সমাধান। আপনার ব্যবসায়িক স্বপ্নকে বাস্তবে পরিণত করা!",
+  description: "বিশেষজ্ঞ UAE কোম্পানি গঠন এবং সহায়তা পরিষেবা। কোম্পানি সেটআপ, ব্যাংকিং, ট্যাক্স, আইনি এবং ভিসা সমাধান। আপনার ব্যবসায়িক স্বপ্নকে বাস্তবে পরিণত করা!",
   head: [
     ["meta", { property: "og:title", content: "বিশেষজ্ঞ UAE কোম্পানি গঠন এবং সহায়তা পরিষেবা। কোম্পানি সেটআপ, ব্যাংকিং, ট্যাক্স, আইনি এবং ভিসা সমাধান।" }],
   ],
@@ -71,6 +70,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "ভিসা ও EID", link: "company-registration/employment-visas" },
         { text: "ফি এবং সময়সীমা", link: "company-registration/fees-timelines" },
+        { text: "সফলতার পরেই শুধু পেমেন্ট", link: "benefits/success-based-fees" },
       ],
     },
     {

@@ -3,17 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/pt"
 
 export const pt = defineConfig({
-  description:
-    "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, bancos, impostos, questões legais e vistos. Transformando seus sonhos empresariais em realidade!",
+  description: "Serviços especializados de formação e suporte empresarial nos EAU. Soluções para abertura de empresas, bancos, impostos, questões legais e vistos. Transformando seus sonhos empresariais em realidade!",
   head: [
-    [
-      "meta",
-      {
-        property: "og:title",
-        content:
-          "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, bancos, impostos, questões legais e vistos.",
-      },
-    ],
+    ["meta", { property: "og:title", content: "Serviços especializados de formação e suporte empresarial nos EAU. Soluções para abertura de empresas, bancos, impostos, questões legais e vistos." }],
   ],
 
   themeConfig: {
@@ -50,7 +42,7 @@ export const pt = defineConfig({
       email: "E-mail *",
       emailPlaceholder: "seu endereço de e-mail",
       phone: "Telefone *",
-      phonePlaceholder: "ex: +55 11 98765-4321 ou (11) 98765-4321",
+      phonePlaceholder: "ex: +1 1234567890 ou (1) 123 456-7890",
       phoneError: "Por favor, insira o número de telefone",
       category: "Como podemos ajudar? *",
       categoryPlaceholder: "selecione o tipo de serviço",
@@ -61,7 +53,7 @@ export const pt = defineConfig({
       successTitle: "Obrigado!",
       successMessage: "Agradecemos muito seu interesse! Nossa equipe entrará em contato em breve para discutir suas necessidades.",
       defaultCategories: ["Registro de empresa", "Abertura de contas bancárias", "EID & Golden Visa", "Outros Serviços"],
-      defaultButtonText: "Obter consultoria gratuita",
+      defaultButtonText: "Obter uma consulta gratuita",
     },
   },
 })
@@ -78,6 +70,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "Vistos e EID", link: "company-registration/employment-visas" },
         { text: "Taxas e prazos", link: "company-registration/fees-timelines" },
+        { text: "Pague apenas após o sucesso", link: "benefits/success-based-fees" },
       ],
     },
     {

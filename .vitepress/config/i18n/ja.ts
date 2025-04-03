@@ -4,7 +4,9 @@ const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
   description: "UAEにおける専門的な会社設立・サポートサービス。会社設立、銀行取引、税務、法務、ビザソリューションを提供。ビジネスの夢を実現します！",
-  head: [["meta", { property: "og:title", content: "UAEにおける専門的な会社設立・サポートサービス。会社設立、銀行取引、税務、法務、ビザソリューション。" }]],
+  head: [
+    ["meta", { property: "og:title", content: "UAEにおける専門的な会社設立・サポートサービス。会社設立、銀行取引、税務、法務、ビザソリューション。" }],
+  ],
 
   themeConfig: {
     nav: [
@@ -36,22 +38,22 @@ export const ja = defineConfig({
 
     contact_form: {
       name: "お名前 *",
-      namePlaceholder: "お名前を入力",
+      namePlaceholder: "お名前を入力してください",
       email: "メールアドレス *",
-      emailPlaceholder: "メールアドレスを入力",
+      emailPlaceholder: "メールアドレスを入力してください",
       phone: "電話番号 *",
       phonePlaceholder: "例：+1 1234567890 または (1) 123 456-7890",
       phoneError: "電話番号を入力してください",
       category: "ご用件 *",
-      categoryPlaceholder: "サービスタイプを選択",
+      categoryPlaceholder: "サービスタイプを選択してください",
       message: "ご要望をお聞かせください（任意）",
-      messagePlaceholder: "プロジェクトまたは要件について説明してください",
+      messagePlaceholder: "プロジェクトまたは要件についてご記入ください",
       submit: "送信する",
       sending: "送信中...",
       successTitle: "ありがとうございます！",
       successMessage: "お問い合わせありがとうございます！担当者が速やかにご連絡させていただきます。",
       defaultCategories: ["会社登記", "銀行口座開設", "EID & Golden Visa", "その他のサービス"],
-      defaultButtonText: "無料相談を受ける",
+      defaultButtonText: "無料相談を予約する",
     },
   },
 })
@@ -67,7 +69,8 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "法人向け銀行ソリューション", link: "offer/banking/" },
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "ビザ & EID", link: "company-registration/employment-visas" },
-        { text: "費用と所要期間", link: "company-registration/fees-timelines" },
+        { text: "手数料と所要期間", link: "company-registration/fees-timelines" },
+        { text: "成功報酬型", link: "benefits/success-based-fees" },
       ],
     },
     {
@@ -89,7 +92,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "法務、会計、税務",
+      text: "法務・会計・税務",
       collapsed: true,
       items: [
         { text: "会計・税務の考慮事項", link: "company-registration/accounting-legal" },
