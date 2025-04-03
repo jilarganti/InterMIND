@@ -1,13 +1,13 @@
 ---
 layout: home
-title: "UAEでのリスクフリーなビジネス展開 | 承認後支払い"
-description: "革新的なUAE企業設立モデル：成功後のみの支払い。90%以上の成功率で各段階を専門家がサポート。"
+title: "リスクなしのUAEビジネス | 承認なし、支払いなし"
+description: "革新的なUAE企業設立モデル：成功後のみ支払い。90％以上の成功率で各段階を専門家がガイド。"
 showSponsors: false
 
 hero:
-  name: "UAE企業設立：リスクを共有します"
-  # text: 成果報酬制
-  tagline: "安心してビジネスを成長させましょう。<span class='hl'>承認まで代理店手数料ゼロ</span>。結果が出るまで料金は発生しません。"
+  name: "UAE企業設立：私たちがリスクを共有します"
+  # text: Payment by results
+  tagline: "自信を持ってビジネスに投資：会社登録の成功後にのみ支払いが発生します。<span class='hl'>あなたの成功が私たちの唯一の目標です</span>。"
   image:
     light:
       src: /img/Logo.avif
@@ -15,12 +15,12 @@ hero:
     dark:
       src: /img/Logo.avif
       width: 40%
-    alt: Golden Fishロゴ
+    alt: Golden Fish ロゴ
 ---
 
 <FeatureBlock :card="{
-  title: 'お客様のメリット — 私たちの責任',
-  details: 'UAEは、好適なビジネス環境を求める国際的な起業家や投資家に多くの利点を提供しています。\n\n* 低税率：法人税9%、VAT5%で個人所得税なし\n* 100%外国人所有：現地パートナーなしで完全な会社支配権\n* 為替管理なし：利益送金と為替取引の制限なし\n\n[完全なリストを表示](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  title: 'お客様の利点 — 私たちの責任',
+  details: 'UAEは、好適なビジネス環境を求める国際的な起業家や投資家に多くの利点を提供しています。\n\n* 低税率：法人税9％、VAT5％で個人所得税なし\n* 100％外国人所有：現地パートナーなしで完全な会社支配権\n* 為替管理なし：利益送金と通貨交換の制限なし\n\n[完全なリストを表示](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: '共に取り組む課題',
-  details: 'UAEは多くの利点を提供していますが、事業を設立する際には潜在的な課題に注意が必要です。\n\n* 複雑な規制環境：首長国とフリーゾーンで異なる規制\n* 経済実体要件：特定の活動には現地スタッフと物理的なオフィススペースが必要\n* 高い初期費用：登録料、書類作成費用、必須のオフィス賃貸料\n\n[完全なリストを表示](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'UAEは多くの利点を提供していますが、事業を設立する際には潜在的な課題に注意が必要です。\n\n* 複雑な規制環境：首長国とフリーゾーンで異なる規制\n* 経済実体要件：特定の活動には現地スタッフと物理的なオフィススペースが必要\n* 高い初期費用：登録料、文書作成、必須オフィス賃貸\n\n[完全なリストを表示](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-1299393716.avif',
@@ -44,7 +44,7 @@ hero:
 
 <FeatureBlock :card="{
   title: '完全サポート：一歩一歩共に',
-  details: '**Free Zone、Offshore、Mainland、Branch**での会社設立の完全ガイド。\n\n* Free ZoneとMainlandで100%外国人所有が可能\n* 低税率 - 法人税9%のみ\n* 為替管理なし - 簡単な資本送金\n\n[詳細を見る](/uae-business/company-registration/overview)',
+  details: '**Free Zone、Offshore、Mainland、Branch**での会社設立の完全ガイド。\n\n* Free ZoneとMainlandで100％外国人所有が可能\n* 低税率 - 法人税9％のみ\n* 為替管理なし - 簡単な資本送金\n\n[詳細を見る](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -61,7 +61,7 @@ hero:
     items: [
       '政府承認のための完全なPROサービス',
       '完全な銀行パッケージのセットアップ',
-      '96%の成功率'
+      '96％の成功率'
     ],
     linkText: '詳細を見る',
     link: '/uae-business/offer/banking/',
@@ -72,12 +72,12 @@ hero:
     }
   },
   {
-    title: 'Golden Visa & 居住権',
+    title: 'Golden Visaと居住権',
     details: 'スムーズな申請プロセスで長期居住のための**Golden Visa**を取得。',
     items: [
       '**6ヶ月ごとのUAE入国不要**',
-      '条件を維持すれば更新可能な10年有効',
-      '92%の成功率'
+      '資格条件を維持することで10年間有効、更新可能',
+      '92％の成功率'
     ],
     linkText: '詳細を見る',
     link: '/uae-business/offer/golden-visa/',
@@ -88,7 +88,7 @@ hero:
     }
   },
   {
-    title: '法人向けサービスをさらに探る',
+    title: '企業向けサービスをさらに探る',
     details: '',
     items: [],
     linkText: '詳細を見る',
@@ -101,18 +101,18 @@ hero:
   }
 ]" />
 
-## Golden Fish を選ぶ理由
+## なぜ Golden Fish を選ぶのか
 
 <BenefitsList :features="[
   {
     icon: '🏢',
-    title: 'UAEでの現地専門知識',
+    title: 'UAEのローカル専門知識',
     text: 'ドバイの専門スタッフが、プロセスの各段階で専門的なガイダンスを提供します。'
   },
   {
     icon: '📊',
     title: '実証された成功率',
-    text: '当社のプレミアム処理を通じて発行されたビザ、銀行口座、会社登録の承認率は90％以上で、数百件の実績があります。'
+    text: '当社のプレミアム処理を通じて発行されたビザ、銀行口座、会社登録の承認率は90％以上です。'
   },
   {
     icon: '💸',

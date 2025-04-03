@@ -6,7 +6,8 @@ showSponsors: false
 
 hero:
   name: "Thành Lập Công Ty UAE: Chúng Tôi Chia Sẻ Rủi Ro Cùng Bạn"
-  tagline: "Phát triển kinh doanh với sự an tâm. <span class='hl'>Không phí đại lý cho đến khi được phê duyệt</span>. Chúng tôi chỉ nhận phí khi bạn có kết quả."
+  # text: Payment by results
+  tagline: "Đầu tư vào doanh nghiệp của bạn một cách tự tin: chúng tôi chỉ nhận thanh toán sau khi đăng ký công ty thành công. <span class='hl'>Thành công của bạn là mục tiêu duy nhất của chúng tôi</span>."
   image:
     light:
       src: /img/Logo.avif
@@ -15,11 +16,12 @@ hero:
       src: /img/Logo.avif
       width: 40%
     alt: Logo Golden Fish
+
 ---
 
 <FeatureBlock :card="{
   title: 'Lợi Thế Của Bạn — Trách Nhiệm Của Chúng Tôi',
-  details: 'UAE mang đến nhiều lợi thế cho các doanh nhân và nhà đầu tư quốc tế tìm kiếm môi trường kinh doanh thuận lợi. \n\n* Thuế suất thấp: Chỉ 9% thuế doanh nghiệp và 5% VAT, không có thuế thu nhập cá nhân\n* 100% Sở hữu nước ngoài: Kiểm soát hoàn toàn công ty mà không cần đối tác địa phương\n* Không kiểm soát tiền tệ: Tự do chuyển lợi nhuận và trao đổi ngoại tệ\n\n[Xem danh sách đầy đủ](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'UAE mang đến nhiều lợi thế cho các doanh nhân và nhà đầu tư quốc tế tìm kiếm môi trường kinh doanh thuận lợi. \n\n* Thuế suất thấp: Chỉ 9% thuế doanh nghiệp và 5% VAT, không có thuế thu nhập cá nhân\n* 100% Sở hữu nước ngoài: Kiểm soát hoàn toàn công ty của bạn mà không cần đối tác địa phương\n* Không kiểm soát tiền tệ: Tự do chuyển lợi nhuận và trao đổi ngoại tệ\n\n[Xem danh sách đầy đủ](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -31,11 +33,11 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Thách Thức Chúng Ta Cùng Vượt Qua',
-  details: 'Mặc dù UAE mang lại nhiều lợi ích, doanh nghiệp cần lưu ý những thách thức tiềm ẩn khi thiết lập hoạt động. \n\n* Môi trường pháp lý phức tạp: Quy định khác nhau giữa các tiểu vương quốc và free zone\n* Yêu cầu về thực chất kinh tế: Cần nhân viên địa phương và văn phòng vật lý cho một số hoạt động\n* Chi phí ban đầu cao: Phí đăng ký, hồ sơ và thuê văn phòng bắt buộc\n\n[Xem danh sách đầy đủ](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'Mặc dù UAE mang lại nhiều lợi ích, doanh nghiệp cần lưu ý những thách thức tiềm ẩn khi thiết lập hoạt động. \n\n* Môi trường pháp lý phức tạp: Quy định khác nhau giữa các tiểu vương quốc và Free Zone\n* Yêu cầu về thực chất kinh tế: Cần nhân viên địa phương và văn phòng vật lý cho một số hoạt động\n* Chi phí ban đầu cao: Phí đăng ký, tài liệu và thuê văn phòng bắt buộc\n\n[Xem danh sách đầy đủ](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
-    light: '/img/iStock-1299393716.avif',
-    dark: '/img/iStock-2149731304.avif',
+      light: '/img/iStock-1299393716.avif',
+      dark: '/img/iStock-2149731304.avif',
     width: '100%'
   },
   inversion: true
@@ -43,7 +45,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Hỗ Trợ Toàn Diện: Đồng Hành Từng Bước',
-  details: 'Hướng dẫn đầy đủ để thành lập công ty tại **free zone, offshore, mainland, branch**. \n\n* 100% Sở hữu nước ngoài khả dụng tại Free Zone và Mainland\n* Thuế suất thấp - chỉ 9% thuế doanh nghiệp\n* Không kiểm soát tiền tệ - dễ dàng chuyển vốn\n\n[Tìm hiểu thêm](/uae-business/company-registration/overview)',
+  details: 'Hướng dẫn đầy đủ để thành lập công ty tại **Free Zone, Offshore, Mainland, Branch**. \n\n* 100% Sở hữu nước ngoài có sẵn tại Free Zone và Mainland\n* Thuế suất thấp - chỉ 9% thuế doanh nghiệp\n* Không kiểm soát tiền tệ - dễ dàng chuyển vốn\n\n[Tìm hiểu thêm](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -56,7 +58,7 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Mở Tài Khoản Ngân Hàng',
-    details: 'Dễ dàng mở **tài khoản ngân hàng** cá nhân hoặc doanh nghiệp với các ngân hàng uy tín của UAE.',
+    details: 'Dễ dàng mở **tài khoản ngân hàng** doanh nghiệp hoặc cá nhân với các ngân hàng uy tín của UAE.',
     items: [
       'Dịch vụ PRO toàn diện cho phê duyệt chính phủ',
       'Thiết lập gói ngân hàng hoàn chỉnh',
@@ -141,6 +143,6 @@ hero:
   ]"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Nhập cư UAE' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Nhập cư UAE' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Di trú UAE' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Di trú UAE' },
 ]"/> -->

@@ -1,13 +1,13 @@
 ---
 layout: home
-title: "Création d'Entreprise aux EAU Sans Risque | Pas d'Approbation, Pas de Paiement"
-description: "Modèle révolutionnaire de création d'entreprise aux EAU : vous ne payez qu'après le succès. Accompagnement expert à chaque étape avec un taux de réussite de plus de 90%."
+title: "Entreprise aux EAU Sans Risque | Pas d'Approbation, Pas de Paiement"
+description: "Modèle révolutionnaire de création d'entreprise aux EAU : vous ne payez qu'après le succès. Accompagnement expert à chaque étape avec un taux de réussite de 90%+"
 showSponsors: false
 
 hero:
-  name: "Formation d'Entreprise aux EAU : Nous Partageons Votre Risque"
+  name: "Création d'Entreprise aux EAU : Nous Partageons Votre Risque"
   # text: Paiement aux résultats
-  tagline: "Développez votre entreprise en toute tranquillité. <span class='hl'>Zéro frais d'agent jusqu'à l'approbation</span>. Nous ne sommes pas payés tant que vous n'obtenez pas de résultats."
+  tagline: "Investissez dans votre entreprise en toute confiance : nous ne sommes payés qu'après l'enregistrement réussi de votre société. <span class='hl'>Votre succès est notre seul objectif</span>."
   image:
     light:
       src: /img/Logo.avif
@@ -35,16 +35,16 @@ hero:
   details: 'Bien que les EAU offrent de nombreux avantages, les entreprises doivent être conscientes des défis potentiels lors de l\'établissement de leurs activités. \n\n* Environnement Réglementaire Complexe : Différentes réglementations selon les émirats et les free zones\n* Exigences de Substance Économique : Personnel local et espace de bureau physique nécessaires pour certaines activités\n* Coûts Initiaux Élevés : Frais d\'enregistrement, documentation et locations de bureaux obligatoires\n\n[Show complete list](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
-    light: '/img/iStock-1299393716.avif',
-    dark: '/img/iStock-2149731304.avif',
+      light: '/img/iStock-1299393716.avif',
+      dark: '/img/iStock-2149731304.avif',
     width: '100%'
   },
   inversion: true
 }" />
 
 <FeatureBlock :card="{
-  title: 'Accompagnement Complet : Étape par Étape avec Vous',
-  details: 'Guide complet pour créer des entreprises en **free zone, offshore, mainland, branch**. \n\n* 100% de Propriété Étrangère disponible en Free Zones et Mainland\n* Taux d\'Imposition Bas - seulement 9% d\'impôt sur les sociétés\n* Pas de Contrôle des Changes - rapatriement facile du capital\n\n[Learn more](/uae-business/company-registration/overview)',
+  title: 'Support Complet : Étape par Étape avec Vous',
+  details: 'Guide complet pour créer des entreprises en **free zone, offshore, mainland, branch**. \n\n* 100% de Propriété Étrangère disponible en Free Zones et Mainland\n* Taux d\'Imposition Bas - seulement 9% d\'impôt sur les sociétés\n* Pas de Contrôle des Changes - rapatriement facile des capitaux\n\n[Learn more](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -107,7 +107,7 @@ hero:
   {
     icon: '🏢',
     title: 'Expertise Locale aux EAU',
-    text: 'Des spécialistes dédiés à Dubaï fournissent des conseils d\'experts à chaque étape du processus.'
+    text: 'Des spécialistes dédiés à Dubai fournissent des conseils d\'experts à chaque étape du processus.'
   },
   {
     icon: '📊',
@@ -136,7 +136,7 @@ hero:
   messagePlaceholderText="Parlez-nous de vos préférences, des membres de votre famille, du calendrier ou de toute question spécifique"
   :services="[
   'Basique — documents essentiels et consultations uniquement',
-  'Standard — documentation complète et accompagnement dans les principales étapes',
+  'Standard — documentation complète et accompagnement lors des principales étapes',
   'Complet — gestion complète du processus avec une implication minimale de votre part',
   'Personnalisé — besoin de discuter des détails spécifiques et des exigences particulières',
   ]"/>

@@ -7,7 +7,7 @@ showSponsors: false
 hero:
   name: "UAE Company Formation: We Share Your Risk"
   # text: Payment by results
-  tagline: "Grow your business with peace of mind. <span class='hl'>Zero agent fees until approval</span>. We don't get paid until you get results."
+  tagline: "Invest in your business with confidence: we only get paid after successful company registration. <span class='hl'>Your success is our only goal</span>."
   image:
     light:
       src: /img/Logo.avif

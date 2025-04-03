@@ -6,8 +6,8 @@ showSponsors: false
 
 hero:
   name: "Formação de Empresa nos EAU: Compartilhamos Seu Risco"
-  # text: Pagamento por resultados
-  tagline: "Desenvolva seu negócio com tranquilidade. <span class='hl'>Zero taxas de agente até a aprovação</span>. Não recebemos até você obter resultados."
+  # text: Payment by results
+  tagline: "Invista em seu negócio com confiança: só recebemos após o registro bem-sucedido da empresa. <span class='hl'>Seu sucesso é nosso único objetivo</span>."
   image:
     light:
       src: /img/Logo.avif
@@ -20,7 +20,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Suas Vantagens — Nossa Responsabilidade',
-  details: 'Os EAU oferecem numerosas vantagens para empreendedores e investidores internacionais que buscam um ambiente de negócios favorável. \n\n* Baixas Taxas: Apenas 9% de imposto corporativo e 5% de IVA sem imposto de renda pessoal\n* 100% de Propriedade Estrangeira: Controle total da sua empresa sem parceiros locais\n* Sem Controle Cambial: Repatriação de lucros e câmbio de moeda sem restrições\n\n[Mostrar lista completa](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'Os EAU oferecem numerosas vantagens para empreendedores e investidores internacionais que buscam um ambiente de negócios favorável. \n\n* Baixas Taxas: Apenas 9% de imposto corporativo e 5% de IVA sem imposto de renda pessoal\n* 100% de Propriedade Estrangeira: Controle total da sua empresa sem parceiros locais\n* Sem Controle Cambial: Repatriação de lucros e câmbio de moeda sem restrições\n\n[Show complete list](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Desafios que Enfrentamos Juntos',
-  details: 'Embora os EAU ofereçam muitos benefícios, as empresas devem estar cientes dos possíveis desafios ao estabelecer operações. \n\n* Ambiente Regulatório Complexo: Diferentes regulamentações entre emirados e free zones\n* Requisitos de Substância Econômica: Funcionários locais e espaço físico necessários para certas atividades\n* Altos Custos Iniciais: Taxas de registro, documentação e aluguéis obrigatórios de escritório\n\n[Mostrar lista completa](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'Embora os EAU ofereçam muitos benefícios, as empresas devem estar cientes dos possíveis desafios ao estabelecer operações. \n\n* Ambiente Regulatório Complexo: Diferentes regulamentações entre emirados e free zones\n* Requisitos de Substância Econômica: Funcionários locais e espaço físico necessários para certas atividades\n* Altos Custos Iniciais: Taxas de registro, documentação e aluguéis obrigatórios de escritório\n\n[Show complete list](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -44,7 +44,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Suporte Completo: Passo a Passo com Você',
-  details: 'Guia completo para estabelecer empresas na **Free Zone, Offshore, Mainland, Branch**. \n\n* 100% de Propriedade Estrangeira disponível em Free Zones e Mainland\n* Baixas Taxas - apenas 9% de imposto corporativo\n* Sem Controle Cambial - fácil repatriação de capital\n\n[Saiba mais](/uae-business/company-registration/overview)',
+  details: 'Guia completo para estabelecer empresas na **free zone, offshore, mainland, branch**. \n\n* 100% de Propriedade Estrangeira disponível em Free Zones e Mainland\n* Baixas Taxas - apenas 9% de imposto corporativo\n* Sem Controle Cambial - fácil repatriação de capital\n\n[Learn more](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -57,13 +57,13 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Abertura de Conta Bancária',
-    details: 'Abra facilmente contas bancárias **empresariais ou pessoais** com os bancos confiáveis dos EAU.',
+    details: 'Abra facilmente contas bancárias empresariais ou pessoais com os bancos confiáveis dos EAU.',
     items: [
       'Serviços PRO completos para aprovações governamentais',
       'Configuração completa do pacote bancário',
-      'Taxa de sucesso de 96%'
+      '96% de taxa de sucesso'
     ],
-    linkText: 'Saiba mais',
+    linkText: 'Learn more',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -77,9 +77,9 @@ hero:
     items: [
       '**Sem necessidade de entrar nos EAU a cada 6 meses**',
       'Validade de 10 anos com opção de renovação mantendo as condições qualificadoras',
-      'Taxa de sucesso de 92%'
+      '92% de taxa de sucesso'
     ],
-    linkText: 'Saiba mais',
+    linkText: 'Learn more',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -88,10 +88,10 @@ hero:
     }
   },
   {
-    title: 'Explore mais dos nossos serviços corporativos',
+    title: 'Explore mais de nossos serviços corporativos',
     details: '',
     items: [],
-    linkText: 'Saiba mais',
+    linkText: 'Learn more',
     link: '/uae-business/company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
@@ -129,7 +129,7 @@ hero:
 
 <ContactFormModal 
   formName="Golden Visa [offer]" 
-  buttonText="Obtenha uma consulta gratuita" 
+  buttonText="Obter uma consulta gratuita" 
   categoryLabel="Nível de suporte necessário: *" 
   categoryPlaceholderText="Escolha seu nível de suporte"
   messageLabel="Ajude-nos a preparar sua consulta (recomendado)"
@@ -142,6 +142,6 @@ hero:
   ]"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração UAE' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração UAE' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração para os EAU' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração para os EAU' },
 ]"/> -->
