@@ -1,8 +1,8 @@
 ---
-footer: false
-sidebar: false
-aside: false
-next: false
+# footer: false
+# sidebar: false
+# aside: false
+# next: false
 ---
 
 <!-- <p>
@@ -11,17 +11,17 @@ next: false
 
 # Contáctenos
 
-¿Busca establecer o hacer crecer su negocio en los UAE? Póngase en contacto con Golden Fish Corporate Services Provider LLC - su agente registrado para la formación de empresas, servicios PRO y asistencia con visados.
+¿Busca establecer o hacer crecer su negocio en los EAU? Póngase en contacto con Golden Fish Corporate Services Provider LLC - su agente registrado para la formación de empresas, servicios PRO y asistencia con visados.
 
 **Detalles de la Licencia:**
 
-- Licencia No: 1414192
-- Registro No: 2411728
+- Número de Licencia: 1414192
+- Número de Registro: 2411728
 
 **Ubicación de la Oficina:**  
 City Avenue Building  
 Office 405-070, Port Saeed  
-Dubai, UAE
+Dubái, EAU
 
 **Contacto:**
 
@@ -34,7 +34,7 @@ Dubai, UAE
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
 > [!IMPORTANT] ¿Por qué elegirnos?
-> Con un equipo de profesionales expertos y un compromiso con servicios personalizados, garantizamos una experiencia fluida y eficiente para nuestros clientes, permitiéndoles concentrarse en lo más importante: hacer crecer su negocio en los UAE.
+> Con un equipo de profesionales expertos y un compromiso con servicios personalizados, garantizamos una experiencia fluida y eficiente para nuestros clientes, permitiéndoles concentrarse en lo más importante: hacer crecer su negocio en los EAU.
 
 <ContactFormModal 
   formName="Contáctenos" 

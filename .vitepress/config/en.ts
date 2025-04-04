@@ -34,7 +34,7 @@ export const en = defineConfig({
 
     footer: {
       message:
-        '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Privacy Settings</a> | <a href="resources/Privacy-Policy">Privacy Policy</a> | <a href="resources/Legal-Regulations-for-AI-Services">Legal Regulations for AI Services</a>',
+        '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Privacy Settings</a> | <a href="/resources/Privacy-Policy">Privacy Policy</a> | <a href="/resources/Legal-Regulations-for-AI-Services">Legal Regulations for AI Services</a>',
     },
 
     contact_form: {

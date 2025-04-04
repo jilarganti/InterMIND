@@ -1,8 +1,8 @@
 ---
-footer: false
-sidebar: false
-aside: false
-next: false
+# footer: false
+# sidebar: false
+# aside: false
+# next: false
 ---
 
 <!-- <p>
@@ -11,7 +11,7 @@ next: false
 
 # Contactez-nous
 
-Vous souhaitez établir ou développer votre entreprise aux UAE ? Contactez Golden Fish Corporate Services Provider LLC - votre agent agréé pour la formation d'entreprise, les services PRO et l'assistance visa.
+Vous souhaitez établir ou développer votre entreprise aux EAU ? Contactez Golden Fish Corporate Services Provider LLC - votre agent agréé pour la formation d'entreprise, les services PRO et l'assistance visa.
 
 **Détails de la licence :**
 
@@ -21,11 +21,11 @@ Vous souhaitez établir ou développer votre entreprise aux UAE ? Contactez Gold
 **Adresse du bureau :**  
 City Avenue Building  
 Bureau 405-070, Port Saeed  
-Dubaï, UAE
+Dubaï, EAU
 
 **Nos coordonnées :**
 
-- Email : info@goldenfish.ae
+- E-mail : info@goldenfish.ae
 - Téléphone : +971 058 574 88 06
 - WhatsApp : +971 058 574 88 06
 - Telegram : @goldenfish_ae
@@ -34,7 +34,7 @@ Dubaï, UAE
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
 > [!IMPORTANT] Pourquoi nous choisir ?
-> Avec une équipe de professionnels expérimentés et un engagement envers des services personnalisés, nous garantissons une expérience fluide et efficace pour nos clients, leur permettant de se concentrer sur l'essentiel : le développement de leur entreprise aux UAE.
+> Avec une équipe de professionnels expérimentés et un engagement envers des services personnalisés, nous garantissons une expérience fluide et efficace pour nos clients, leur permettant de se concentrer sur l'essentiel : le développement de leur entreprise aux EAU.
 
 <ContactFormModal 
   formName="Contactez-nous" 
@@ -43,11 +43,11 @@ Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
   categoryLabel="Niveau de support requis : *" 
   categoryPlaceholderText="Choisissez votre niveau de support"
   messageLabel="Comment pouvons-nous vous aider ? (recommandé)"
-  messagePlaceholderText="Veuillez partager les détails de votre demande pour nous permettre de préparer la meilleure solution pour vos besoins"
+  messagePlaceholderText="Veuillez partager les détails de votre demande pour nous permettre de préparer la meilleure solution adaptée à vos besoins"
   :services="[
   'Basique — consultation initiale et orientation uniquement',
   'Standard — gestion complète de la documentation et des processus',
-  'Complet — solution complète avec implication minimale de votre part',
+  'Complet — solution de service intégral avec participation minimale de votre part',
   'Personnalisé — exigences complexes ou situation commerciale unique',
   ]"
 />

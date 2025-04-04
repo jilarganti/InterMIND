@@ -1,8 +1,8 @@
 ---
-footer: false
-sidebar: false
-aside: false
-next: false
+# footer: false
+# sidebar: false
+# aside: false
+# next: false
 ---
 
 <!-- <p>
@@ -37,7 +37,7 @@ Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 > Với đội ngũ chuyên gia giàu kinh nghiệm và cam kết cung cấp dịch vụ cá nhân hóa, chúng tôi đảm bảo trải nghiệm suôn sẻ và hiệu quả cho khách hàng, cho phép họ tập trung vào điều quan trọng nhất – phát triển doanh nghiệp tại UAE.
 
 <ContactFormModal 
-  formName="Contact Us" 
+  formName="Liên Hệ Với Chúng Tôi" 
   buttonText="Gửi tin nhắn cho chúng tôi" 
   formStyle="display: block; margin: 2rem auto;"
   categoryLabel="Mức độ hỗ trợ cần thiết: *" 

@@ -1,8 +1,8 @@
 ---
-footer: false
-sidebar: false
-aside: false
-next: false
+# footer: false
+# sidebar: false
+# aside: false
+# next: false
 ---
 
 <!-- <p>
@@ -34,13 +34,13 @@ Dubai, UAE
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
 > [!IMPORTANT] Neden Bizi Seçmelisiniz?
-> Bilgili profesyonellerden oluşan ekibimiz ve kişiselleştirilmiş hizmet taahhüdümüzle, müşterilerimizin en önemli konuya - BAE'deki işlerini büyütmeye - odaklanabilmeleri için sorunsuz ve verimli bir deneyim sunuyoruz.
+> Bilgili profesyonellerden oluşan ekibimiz ve kişiselleştirilmiş hizmet taahhüdümüz ile müşterilerimize sorunsuz ve verimli bir deneyim sunuyor, böylece onların en önemli konuya - BAE'deki işlerini büyütmeye - odaklanmalarını sağlıyoruz.
 
 <ContactFormModal 
   formName="Bize Ulaşın" 
   buttonText="Bize mesaj gönderin" 
   formStyle="display: block; margin: 2rem auto;"
-  categoryLabel="Gereken destek seviyesi: *" 
+  categoryLabel="Gerekli destek seviyesi: *" 
   categoryPlaceholderText="Destek seviyenizi seçin"
   messageLabel="Size nasıl yardımcı olabiliriz? (önerilen)"
   messagePlaceholderText="İhtiyaçlarınız için en iyi çözümü hazırlayabilmemiz için lütfen sorgunuzun detaylarını paylaşın"

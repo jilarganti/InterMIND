@@ -1,8 +1,8 @@
 ---
-footer: false
-sidebar: false
-aside: false
-next: false
+# footer: false
+# sidebar: false
+# aside: false
+# next: false
 ---
 
 <!-- <p>
@@ -45,9 +45,9 @@ Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
   messageLabel="Bagaimana kami dapat membantu Anda? (direkomendasikan)"
   messagePlaceholderText="Silakan bagikan detail pertanyaan Anda untuk membantu kami menyiapkan solusi terbaik untuk kebutuhan Anda"
   :services="[
-  'Basic — konsultasi awal dan panduan saja',
-  'Standard — manajemen dokumentasi dan proses lengkap',
-  'Comprehensive — solusi layanan lengkap dengan keterlibatan minimal dari pihak Anda',
-  'Custom — persyaratan kompleks atau situasi bisnis yang unik',
+  'Dasar — hanya konsultasi dan panduan awal',
+  'Standar — manajemen dokumentasi dan proses lengkap',
+  'Komprehensif — solusi layanan lengkap dengan keterlibatan minimal dari pihak Anda',
+  'Kustom — persyaratan kompleks atau situasi bisnis yang unik',
   ]"
 />
