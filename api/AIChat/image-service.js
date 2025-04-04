@@ -5,8 +5,7 @@ import fetch from "node-fetch"
 // API-ключ для Google Custom Search
 const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY
 const SEARCH_ENGINE_ID = process.env.SEARCH_ENGINE_ID
-// Домен приложения для заголовка Referer
-const APP_DOMAIN = process.env.VITE_BASE_URL
+
 /**
  * Функция для поиска изображений
  * @param {string} query - Поисковый запрос
@@ -37,17 +36,7 @@ export async function searchImages(query, limit = 1) {
     console.log(`🟢 IMAGE-SERVICE: Отправляем запрос к Google CSE API: ${url.substring(0, url.indexOf("key=") + 5)}...HIDDEN...`)
 
     const startTime = Date.now()
-
-    // Добавляем заголовок Referer для прохождения ограничений Google API
-    const referer = APP_DOMAIN.startsWith("http") ? APP_DOMAIN : `https://${APP_DOMAIN}`
-    console.log(`🟢 IMAGE-SERVICE: Используем Referer: ${referer}`)
-
-    const response = await fetch(url, {
-      headers: {
-        Referer: referer,
-      },
-    })
-
+    const response = await fetch(url)
     const responseTime = Date.now() - startTime
 
     console.log(`🟢 IMAGE-SERVICE: Получен ответ от Google CSE API, статус: ${response.status}, время: ${responseTime}ms`)
