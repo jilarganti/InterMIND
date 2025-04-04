@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ml"
 
 export const ml = defineConfig({
-  description: "യുഎഇയിലെ വിദഗ്ധ കമ്പനി രൂപീകരണവും പിന്തുണാ സേവനങ്ങളും. കമ്പനി സ്ഥാപനം, ബാങ്കിംഗ്, നികുതി, നിയമ, വിസ പരിഹാരങ്ങൾ. നിങ്ങളുടെ ബിസിനസ് സ്വപ്നങ്ങൾ യാഥാർത്ഥ്യമാക്കുന്നു!",
+  description: "യുഎഇയിൽ കമ്പനി രൂപീകരണത്തിനും പിന്തുണ സേവനങ്ങൾക്കുമുള്ള വിദഗ്ധ സേവനങ്ങൾ. കമ്പനി സെറ്റപ്പ്, ബാങ്കിംഗ്, നികുതി, നിയമ, വിസ പരിഹാരങ്ങൾ. നിങ്ങളുടെ ബിസിനസ് സ്വപ്നങ്ങൾ യാഥാർഥ്യമാക്കുന്നു!",
   head: [
-    ["meta", { property: "og:title", content: "യുഎഇയിലെ വിദഗ്ധ കമ്പനി രൂപീകരണവും പിന്തുണാ സേവനങ്ങളും. കമ്പനി സ്ഥാപനം, ബാങ്കിംഗ്, നികുതി, നിയമ, വിസ പരിഹാരങ്ങൾ." }],
+    ["meta", { property: "og:title", content: "യുഎഇയിൽ കമ്പനി രൂപീകരണത്തിനും പിന്തുണ സേവനങ്ങൾക്കുമുള്ള വിദഗ്ധ സേവനങ്ങൾ. കമ്പനി സെറ്റപ്പ്, ബാങ്കിംഗ്, നികുതി, നിയമ, വിസ പരിഹാരങ്ങൾ." }],
   ],
 
   themeConfig: {
@@ -21,7 +21,7 @@ export const ml = defineConfig({
       },
       {
         text: "വിഭവങ്ങൾ",
-        items: [{ text: "കുറിച്ച്", link: `${BASE_PATH}/resources/about` }],
+        items: [{ text: "ഞങ്ങളെക്കുറിച്ച്", link: `${BASE_PATH}/resources/about` }],
       },
       { text: "ബന്ധപ്പെടുക", link: `${BASE_PATH}/resources/contacts` },
     ],
@@ -32,7 +32,7 @@ export const ml = defineConfig({
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">സ്വകാര്യതാ ക്രമീകരണങ്ങൾ</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">സ്വകാര്യതാ നയം</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI സേവനങ്ങൾക്കുള്ള നിയമ നിയന്ത്രണങ്ങൾ</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">സ്വകാര്യ സെറ്റിംഗുകൾ</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">സ്വകാര്യ നയം</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI സേവനങ്ങൾക്കുള്ള നിയമ നിയന്ത്രണങ്ങൾ</a>`,
     },
 
     contact_form: {
@@ -42,19 +42,19 @@ export const ml = defineConfig({
       emailPlaceholder: "നിങ്ങളുടെ ഇമെയിൽ വിലാസം",
       phone: "ഫോൺ *",
       phonePlaceholder: "ഉദാ., +1 1234567890 അല്ലെങ്കിൽ (1) 123 456-7890",
-      phoneError: "ഫോൺ നമ്പർ നൽകുക",
+      phoneError: "ദയവായി ഫോൺ നമ്പർ നൽകുക",
       category: "ഞങ്ങൾക്ക് എങ്ങനെ സഹായിക്കാൻ കഴിയും? *",
       categoryPlaceholder: "സേവന തരം തിരഞ്ഞെടുക്കുക",
-      message: "നിങ്ങളുടെ ലക്ഷ്യങ്ങൾ ചർച്ച ചെയ്യാം (ഓപ്ഷണൽ)",
-      messagePlaceholder: "നിങ്ങളുടെ പ്രോജക്റ്റ് അല്ലെങ്കിൽ ആവശ്യങ്ങൾ വിവരിക്കുക",
-      submit: "അഭ്യർത്ഥന സമർപ്പിക്കുക",
+      message: "നിങ്ങളുടെ ലക്ഷ്യങ്ങൾ ചർച്ച ചെയ്യാം (വിട്ടുകളയാവുന്നതാണ്)",
+      messagePlaceholder: "നിങ്ങളുടെ പ്രൊജക്റ്റ് അല്ലെങ്കിൽ ആവശ്യങ്ങൾ വിവരിക്കുക",
+      submit: "അഭ്യർഥന സമർപ്പിക്കുക",
       sending: "അയയ്ക്കുന്നു...",
       successTitle: "നന്ദി!",
-      successMessage: "നിങ്ങളുടെ താൽപ്പര്യത്തിന് വളരെ നന്ദി! നിങ്ങളുടെ ആവശ്യങ്ങൾ ചർച്ച ചെയ്യാൻ ഞങ്ങളുടെ ടീം ഉടൻ നിങ്ങളെ ബന്ധപ്പെടും.",
-      defaultCategories: ["കമ്പനി രജിസ്ട്രേഷൻ", "ബാങ്ക് അക്കൗണ്ടുകൾ തുറക്കൽ", "EID & Golden Visa", "മറ്റ് സേവനങ്ങൾ"],
+      successMessage: "നിങ്ങളുടെ താൽപ്പര്യത്തിന് ഞങ്ങൾ വളരെ നന്ദിയുള്ളവരാണ്! നിങ്ങളുടെ ആവശ്യങ്ങൾ ചർച്ച ചെയ്യാൻ ഞങ്ങളുടെ ടീം വേഗത്തിൽ നിങ്ങളെ ബന്ധപ്പെടും.",
+      defaultCategories: ["കമ്പനി രജിസ്ട്രേഷൻ", "ബാങ്ക് അക്കൗണ്ട് തുറക്കൽ", "EID & ഗോൾഡൻ വിസ", "മറ്റ് സേവനങ്ങൾ"],
       defaultButtonText: "സൗജന്യ കൺസൾട്ടേഷൻ നേടുക",
     },
   },
 })
 
-[Rest of the code structure remains the same with translated text elements while maintaining all technical terms, links and formatting]
+// Rest of the code remains the same as the original markdown
