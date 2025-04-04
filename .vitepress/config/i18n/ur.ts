@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ur"
 
 export const ur = defineConfig({
-  description: "متحدہ عرب امارات میں ماہرانہ کمپنی کی تشکیل اور معاونتی خدمات۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔ آپ کے کاروباری خوابوں کو حقیقت بنانا!",
+  description: "متحدہ عرب امارات میں کمپنی کی تشکیل اور معاونتی خدمات میں ماہر۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔ آپ کے کاروباری خوابوں کو حقیقت بنانا!",
   head: [
-    ["meta", { property: "og:title", content: "متحدہ عرب امارات میں ماہرانہ کمپنی کی تشکیل اور معاونتی خدمات۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔" }],
+    ["meta", { property: "og:title", content: "متحدہ عرب امارات میں کمپنی کی تشکیل اور معاونتی خدمات میں ماہر۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔" }],
   ],
 
   themeConfig: {
@@ -29,11 +29,10 @@ export const ur = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">رازداری کی ترتیبات</a>',
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">رازداری کی ترتیبات</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">رازداری پالیسی</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">مصنوعی ذہانت کی خدمات کے لیے قانونی ضوابط</a>`,
     },
 
     contact_form: {
@@ -52,7 +51,7 @@ export const ur = defineConfig({
       sending: "بھیج رہا ہے...",
       successTitle: "شکریہ!",
       successMessage: "آپ کی دلچسپی کے لیے بہت شکریہ! ہماری ٹیم جلد ہی آپ کی ضروریات پر بات کرنے کے لیے آپ سے رابطہ کرے گی۔",
-      defaultCategories: ["کمپنی رجسٹریشن", "بینک اکاؤنٹس کھولنا", "EID & Golden Visa", "دیگر خدمات"],
+      defaultCategories: ["کمپنی رجسٹریشن", "بینک اکاؤنٹس کھولنا", "EID اور Golden Visa", "دیگر خدمات"],
       defaultButtonText: "مفت مشاورت حاصل کریں",
     },
   },
@@ -70,7 +69,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "ویزا اور EID", link: "company-registration/employment-visas" },
         { text: "فیس اور ٹائم لائنز", link: "company-registration/fees-timelines" },
-        { text: "صرف کامیابی کے بعد ادائیگی", link: "benefits/success-based-fees" },
+        { text: "کامیابی کے بعد ہی ادائیگی", link: "benefits/success-based-fees" },
       ],
     },
     {
@@ -86,8 +85,8 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "متحدہ عرب امارات کاروباری تعمیل کی ضمانت",
       collapsed: true,
       items: [
-        { text: "کارپوریٹ بینک اکاؤنٹ منظوری کی ضمانت", link: "corporate-banking-services/guaranteed-account-approvals" },
-        { text: "اعلی خطرے والے کاروبار کے لیے بینک اکاؤنٹس", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
+        { text: "کارپوریٹ بینک اکاؤنٹ کی منظوری کی ضمانت", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "ہائی رسک کاروبار کے لیے بینک اکاؤنٹس", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
         { text: "اپنے کاروبار کو قانونی اور محفوظ رکھیں", link: "company-registration/Protect-Your-Business" },
       ],
     },
@@ -104,16 +103,17 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         { text: "Mainland بمقابلہ free zones", link: "comparison/mainland-vs-free-zones" },
-        { text: "متحدہ عرب امارات کی اداروں کا موازنہ", link: "comparison/entity-types" },
+        { text: "UAE ادارے کا موازنہ", link: "comparison/entity-types" },
       ],
     },
   ]
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "ہمارے بارے میں", link: `about` }]
-}
-
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "رابطے", link: `contacts` }]
+  return [
+    { text: "ہمارے بارے میں", link: "about" },
+    { text: "رابطے", link: "contacts" },
+    { text: "رازداری پالیسی", link: "Privacy-Policy" },
+    { text: "مصنوعی ذہانت کی خدمات کے لیے قانونی ضوابط", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }

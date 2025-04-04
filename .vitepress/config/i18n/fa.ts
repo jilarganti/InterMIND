@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/fa"
 
 export const fa = defineConfig({
-  description: "خدمات تخصصی ثبت و پشتیبانی شرکت در امارات. راهکارهای ثبت شرکت، بانکداری، مالیات، حقوقی و ویزا. تحقق رویاهای تجاری شما!",
+  description: "خدمات تخصصی تأسیس و پشتیبانی شرکت در امارات. راه‌حل‌های ثبت شرکت، بانکداری، مالیات، حقوقی و ویزا. تحقق رویاهای تجاری شما!",
   head: [
-    ["meta", { property: "og:title", content: "خدمات تخصصی ثبت و پشتیبانی شرکت در امارات. راهکارهای ثبت شرکت، بانکداری، مالیات، حقوقی و ویزا." }],
+    ["meta", { property: "og:title", content: "خدمات تخصصی تأسیس و پشتیبانی شرکت در امارات. راه‌حل‌های ثبت شرکت، بانکداری، مالیات، حقوقی و ویزا." }],
   ],
 
   themeConfig: {
@@ -15,7 +15,7 @@ export const fa = defineConfig({
         activeMatch: `${BASE_PATH}/company-registration/`,
         items: [
           { text: "ثبت شرکت", link: `${BASE_PATH}/uae-business/company-registration/overview` },
-          { text: "راهکارهای بانکی", link: `${BASE_PATH}/uae-business/company-registration/banking` },
+          { text: "راه‌حل‌های بانکی", link: `${BASE_PATH}/uae-business/company-registration/banking` },
           { text: "مهاجرت", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
         ],
       },
@@ -23,17 +23,16 @@ export const fa = defineConfig({
         text: "منابع",
         items: [{ text: "درباره ما", link: `${BASE_PATH}/resources/about` }],
       },
-      { text: "تماس", link: `${BASE_PATH}/resources/contacts` },
+      { text: "تماس با ما", link: `${BASE_PATH}/resources/contacts` },
     ],
 
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">تنظیمات حریم خصوصی</a>',
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">تنظیمات حریم خصوصی</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">سیاست حریم خصوصی</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">مقررات قانونی خدمات هوش مصنوعی</a>`,
     },
 
     contact_form: {
@@ -42,8 +41,8 @@ export const fa = defineConfig({
       email: "ایمیل *",
       emailPlaceholder: "آدرس ایمیل شما",
       phone: "تلفن *",
-      phonePlaceholder: "مثال: +1 1234567890 یا (1) 123 456-7890",
-      phoneError: "لطفا شماره تلفن را وارد کنید",
+      phonePlaceholder: "مثال: ۹۸۹۱۲۳۴۵۶۷۸۹+",
+      phoneError: "لطفاً شماره تلفن را وارد کنید",
       category: "چگونه می‌توانیم کمک کنیم؟ *",
       categoryPlaceholder: "نوع خدمات را انتخاب کنید",
       message: "اهداف خود را با ما در میان بگذارید (اختیاری)",
@@ -66,7 +65,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "ثبت شرکت", link: "company-registration/overview" },
         { text: "مزایا و معایب", link: "company-registration/benefits-problems" },
-        { text: "راهکارهای بانکداری شرکتی", link: "offer/banking/" },
+        { text: "راه‌حل‌های بانکداری شرکتی", link: "offer/banking/" },
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "ویزا و EID", link: "company-registration/employment-visas" },
         { text: "هزینه‌ها و زمان‌بندی", link: "company-registration/fees-timelines" },
@@ -86,7 +85,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "تضمین انطباق کسب و کار در امارات",
       collapsed: true,
       items: [
-        { text: "تأیید تضمینی حساب‌های بانکی شرکتی", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "تضمین تأیید حساب بانکی شرکتی", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "حساب‌های بانکی برای کسب و کارهای پرریسک", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
         { text: "حفظ انطباق و محافظت از کسب و کار شما", link: "company-registration/Protect-Your-Business" },
       ],
@@ -103,7 +102,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "مقایسه‌ها",
       collapsed: true,
       items: [
-        { text: "مقایسه Mainland و Free zones", link: "comparison/mainland-vs-free-zones" },
+        { text: "مقایسه Mainland و Free Zone", link: "comparison/mainland-vs-free-zones" },
         { text: "مقایسه انواع شرکت‌ها در امارات", link: "comparison/entity-types" },
       ],
     },
@@ -111,9 +110,10 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "درباره ما", link: `about` }]
-}
-
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "تماس با ما", link: `contacts` }]
+  return [
+    { text: "درباره ما", link: "about" },
+    { text: "تماس با ما", link: "contacts" },
+    { text: "سیاست حریم خصوصی", link: "Privacy-Policy" },
+    { text: "مقررات قانونی خدمات هوش مصنوعی", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }

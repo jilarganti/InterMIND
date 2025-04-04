@@ -29,11 +29,10 @@ export const uk = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Налаштування конфіденційності</a>',
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Налаштування конфіденційності</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Політика конфіденційності</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Правові норми щодо послуг ШІ</a>`,
     },
 
     contact_form: {
@@ -51,7 +50,7 @@ export const uk = defineConfig({
       submit: "Надіслати запит",
       sending: "Надсилання...",
       successTitle: "Дякуємо!",
-      successMessage: "Ми дуже цінуємо ваш інтерес! Наша команда зв'яжеться з вами найближчим часом для обговорення ваших потреб.",
+      successMessage: "Ми дуже цінуємо ваш інтерес! Наша команда незабаром зв'яжеться з вами для обговорення ваших потреб.",
       defaultCategories: ["Реєстрація компанії", "Відкриття банківських рахунків", "EID і Golden Visa", "Інші послуги"],
       defaultButtonText: "Отримати безкоштовну консультацію",
     },
@@ -78,8 +77,8 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         { text: "Етапи реєстрації компанії", link: "company-registration/insights/incorporation-steps" },
-        { text: "Вільні зони ОАЕ", link: "company-registration/free-zones" },
-        { text: "Материкова частина ОАЕ", link: "company-registration/mainland" },
+        { text: "Free zones ОАЕ", link: "company-registration/free-zones" },
+        { text: "Mainland ОАЕ", link: "company-registration/mainland" },
       ],
     },
     {
@@ -88,7 +87,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Гарантоване схвалення корпоративних банківських рахунків", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Банківські рахунки для високоризикового бізнесу", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "Підтримуйте відповідність та захист вашого бізнесу", link: "company-registration/Protect-Your-Business" },
+        { text: "Підтримка відповідності та захист вашого бізнесу", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -111,9 +110,10 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Про нас", link: `about` }]
-}
-
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Контакти", link: `contacts` }]
+  return [
+    { text: "Про нас", link: "about" },
+    { text: "Контакти", link: "contacts" },
+    { text: "Політика конфіденційності", link: "Privacy-Policy" },
+    { text: "Правові норми щодо послуг ШІ", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }

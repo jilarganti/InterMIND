@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
-  description: "专业的阿联酋公司成立和支持服务。提供公司设立、银行开户、税务、法律和签证解决方案。助您实现商业梦想！",
+  description: "专业的阿联酋公司成立和支持服务。公司设立、银行业务、税务、法律和签证解决方案。让您的商业梦想成为现实！",
   head: [
-    ["meta", { property: "og:title", content: "专业的阿联酋公司成立和支持服务。提供公司设立、银行开户、税务、法律和签证解决方案。" }],
+    ["meta", { property: "og:title", content: "专业的阿联酋公司成立和支持服务。公司设立、银行业务、税务、法律和签证解决方案。" }],
   ],
 
   themeConfig: {
@@ -16,7 +16,7 @@ export const zh = defineConfig({
         items: [
           { text: "公司注册", link: `${BASE_PATH}/uae-business/company-registration/overview` },
           { text: "银行解决方案", link: `${BASE_PATH}/uae-business/company-registration/banking` },
-          { text: "移民服务", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
+          { text: "移民", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
         ],
       },
       {
@@ -29,11 +29,10 @@ export const zh = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a>',
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">人工智能服务法律规定</a>`,
     },
 
     contact_form: {
@@ -61,11 +60,11 @@ export const zh = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "阿联酋商业概览",
+      text: "阿联酋商业概述",
       collapsed: false,
       items: [
         { text: "公司注册", link: "company-registration/overview" },
-        { text: "优势与挑战", link: "company-registration/benefits-problems" },
+        { text: "优势与劣势", link: "company-registration/benefits-problems" },
         { text: "企业银行解决方案", link: "offer/banking/" },
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "签证和EID", link: "company-registration/employment-visas" },
@@ -74,12 +73,12 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "阿联酋公司架构",
+      text: "阿联酋公司结构",
       collapsed: true,
       items: [
         { text: "公司注册步骤", link: "company-registration/insights/incorporation-steps" },
-        { text: "阿联酋Free Zone", link: "company-registration/free-zones" },
-        { text: "阿联酋Mainland", link: "company-registration/mainland" },
+        { text: "阿联酋自贸区", link: "company-registration/free-zones" },
+        { text: "阿联酋大陆", link: "company-registration/mainland" },
       ],
     },
     {
@@ -100,20 +99,21 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "对比分析",
+      text: "比较",
       collapsed: true,
       items: [
-        { text: "Mainland与Free Zone对比", link: "comparison/mainland-vs-free-zones" },
-        { text: "阿联酋实体类型对比", link: "comparison/entity-types" },
+        { text: "大陆与自贸区对比", link: "comparison/mainland-vs-free-zones" },
+        { text: "阿联酋实体比较", link: "comparison/entity-types" },
       ],
     },
   ]
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "关于我们", link: `about` }]
-}
-
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "联系方式", link: `contacts` }]
+  return [
+    { text: "关于我们", link: "about" },
+    { text: "联系方式", link: "contacts" },
+    { text: "隐私政策", link: "Privacy-Policy" },
+    { text: "人工智能服务法律规定", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }

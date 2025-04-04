@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/te"
 
 export const te = defineConfig({
-  description: "నిపుణుల UAE కంపెనీ ఏర్పాటు మరియు మద్దతు సేవలు. కంపెనీ సెటప్, బ్యాంకింగ్, పన్ను, చట్టపరమైన మరియు వీసా పరిష్కారాలు. మీ వ్యాపార కలలను వాస్తవంగా మారుస్తున్నాము!",
+  description: "యుఎఇలో నిపుణ కంపెనీ స్థాపన మరియు మద్దతు సేవలు. కంపెనీ సెటప్, బ్యాంకింగ్, పన్ను, చట్టపరమైన మరియు వీసా పరిష్కారాలు. మీ వ్యాపార కలలను వాస్తవంగా మార్చడం!",
   head: [
-    ["meta", { property: "og:title", content: "నిపుణుల UAE కంపెనీ ఏర్పాటు మరియు మద్దతు సేవలు. కంపెనీ సెటప్, బ్యాంకింగ్, పన్ను, చట్టపరమైన మరియు వీసా పరిష్కారాలు." }],
+    ["meta", { property: "og:title", content: "యుఎఇలో నిపుణ కంపెనీ స్థాపన మరియు మద్దతు సేవలు. కంపెనీ సెటప్, బ్యాంకింగ్, పన్ను, చట్టపరమైన మరియు వీసా పరిష్కారాలు." }],
   ],
 
   themeConfig: {
@@ -29,11 +29,10 @@ export const te = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">గోప్యతా సెట్టింగ్‌లు</a>',
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">గోప్యతా సెట్టింగ్‌లు</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">గోప్యతా విధానం</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI సేవల కోసం చట్టపరమైన నిబంధనలు</a>`,
     },
 
     contact_form: {
@@ -51,7 +50,7 @@ export const te = defineConfig({
       submit: "అభ్యర్థనను సమర్పించండి",
       sending: "పంపుతోంది...",
       successTitle: "ధన్యవాదాలు!",
-      successMessage: "మీ ఆసక్తికి చాలా కృతజ్ఞతలు! మా బృందం త్వరలో మీ అవసరాలను చర్చించడానికి మిమ్మల్ని సంప్రదిస్తుంది.",
+      successMessage: "మీ ఆసక్తికి చాలా కృతజ్ఞతలు! మీ అవసరాలను చర్చించడానికి మా బృందం త్వరలో మిమ్మల్ని సంప్రదిస్తుంది.",
       defaultCategories: ["కంపెనీ రిజిస్ట్రేషన్", "బ్యాంక్ ఖాతాలు తెరవడం", "EID & Golden Visa", "ఇతర సేవలు"],
       defaultButtonText: "ఉచిత సలహా పొందండి",
     },
@@ -61,7 +60,7 @@ export const te = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "UAE వ్యాపార సారాంశం",
+      text: "యుఎఇ వ్యాపార సారాంశం",
       collapsed: false,
       items: [
         { text: "కంపెనీ రిజిస్ట్రేషన్", link: "company-registration/overview" },
@@ -74,7 +73,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "UAE కార్పొరేట్ నిర్మాణాలు",
+      text: "యుఎఇ కార్పొరేట్ నిర్మాణాలు",
       collapsed: true,
       items: [
         { text: "కంపెనీ రిజిస్ట్రేషన్ దశలు", link: "company-registration/insights/incorporation-steps" },
@@ -83,12 +82,12 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "UAE వ్యాపార అనుసరణ హామీ ఇవ్వబడింది",
+      text: "యుఎఇ వ్యాపార అనుకూలత హామీ",
       collapsed: true,
       items: [
         { text: "హామీ ఇచ్చిన కార్పొరేట్ బ్యాంక్ ఖాతా ఆమోదాలు", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "అధిక-రిస్క్ వ్యాపారానికి బ్యాంక్ ఖాతాలు", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "మీ వ్యాపారాన్ని అనుసరణలో ఉంచండి మరియు రక్షించండి", link: "company-registration/Protect-Your-Business" },
+        { text: "మీ వ్యాపారాన్ని అనుకూలంగా మరియు రక్షితంగా ఉంచండి", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -111,9 +110,10 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "మా గురించి", link: `about` }]
-}
-
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "సంప్రదింపులు", link: `contacts` }]
+  return [
+    { text: "మా గురించి", link: "about" },
+    { text: "సంప్రదింపులు", link: "contacts" },
+    { text: "గోప్యతా విధానం", link: "Privacy-Policy" },
+    { text: "AI సేవల కోసం చట్టపరమైన నిబంధనలు", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }

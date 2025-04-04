@@ -29,11 +29,10 @@ export const vi = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Cài đặt quyền riêng tư</a>',
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Cài đặt quyền riêng tư</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Chính sách bảo mật</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Quy định pháp lý cho dịch vụ AI</a>`,
     },
 
     contact_form: {
@@ -61,7 +60,7 @@ export const vi = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Tổng quan kinh doanh tại UAE",
+      text: "Tổng quan kinh doanh UAE",
       collapsed: false,
       items: [
         { text: "Đăng ký công ty", link: "company-registration/overview" },
@@ -111,9 +110,10 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Giới thiệu", link: `about` }]
-}
-
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Liên hệ", link: `contacts` }]
+  return [
+    { text: "Giới thiệu", link: "about" },
+    { text: "Liên hệ", link: "contacts" },
+    { text: "Chính sách bảo mật", link: "Privacy-Policy" },
+    { text: "Quy định pháp lý cho dịch vụ AI", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }

@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/tr"
 
 export const tr = defineConfig({
-  description: "Uzman BAE şirket kurulum ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri. İş hayallerinizi gerçeğe dönüştürüyoruz!",
+  description: "BAE'de uzman şirket kurma ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri. İş hayallerinizi gerçeğe dönüştürüyoruz!",
   head: [
-    ["meta", { property: "og:title", content: "Uzman BAE şirket kurulum ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri." }],
+    ["meta", { property: "og:title", content: "BAE'de uzman şirket kurma ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri." }],
   ],
 
   themeConfig: {
@@ -29,11 +29,10 @@ export const tr = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Gizlilik Ayarları</a>',
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Gizlilik Ayarları</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Gizlilik Politikası</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Yapay Zeka Hizmetleri için Yasal Düzenlemeler</a>`,
     },
 
     contact_form: {
@@ -48,7 +47,7 @@ export const tr = defineConfig({
       categoryPlaceholder: "hizmet türünü seçin",
       message: "Hedeflerinizi tartışalım (isteğe bağlı)",
       messagePlaceholder: "projenizi veya gereksinimlerinizi açıklayın",
-      submit: "Talep gönder",
+      submit: "Talebi gönder",
       sending: "Gönderiliyor...",
       successTitle: "Teşekkür ederiz!",
       successMessage: "İlginiz için çok teşekkür ederiz! Ekibimiz ihtiyaçlarınızı görüşmek üzere kısa süre içinde sizinle iletişime geçecektir.",
@@ -111,9 +110,10 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Hakkımızda", link: `about` }]
-}
-
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "İletişim", link: `contacts` }]
+  return [
+    { text: "Hakkımızda", link: "about" },
+    { text: "İletişim", link: "contacts" },
+    { text: "Gizlilik Politikası", link: "Privacy-Policy" },
+    { text: "Yapay Zeka Hizmetleri için Yasal Düzenlemeler", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }

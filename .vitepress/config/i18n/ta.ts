@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ta"
 
 export const ta = defineConfig({
-  description: "நிபுணத்துவ UAE நிறுவன உருவாக்கம் மற்றும் ஆதரவு சேவைகள். நிறுவன அமைப்பு, வங்கி, வரி, சட்ட மற்றும் விசா தீர்வுகள். உங்கள் வணிக கனவுகளை நனவாக்குகிறோம்!",
+  description: "ஐக்கிய அரபு எமிரேட்ஸில் நிபுணத்துவ நிறுவன அமைப்பு மற்றும் ஆதரவு சேவைகள். நிறுவன அமைப்பு, வங்கி, வரி, சட்ட மற்றும் விசா தீர்வுகள். உங்கள் வணிக கனவுகளை நனவாக்குகிறோம்!",
   head: [
-    ["meta", { property: "og:title", content: "நிபுணத்துவ UAE நிறுவன உருவாக்கம் மற்றும் ஆதரவு சேவைகள். நிறுவன அமைப்பு, வங்கி, வரி, சட்ட மற்றும் விசா தீர்வுகள்." }],
+    ["meta", { property: "og:title", content: "ஐக்கிய அரபு எமிரேட்ஸில் நிபுணத்துவ நிறுவன அமைப்பு மற்றும் ஆதரவு சேவைகள். நிறுவன அமைப்பு, வங்கி, வரி, சட்ட மற்றும் விசா தீர்வுகள்." }],
   ],
 
   themeConfig: {
@@ -29,11 +29,10 @@ export const ta = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">தனியுரிமை அமைப்புகள்</a>',
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">தனியுரிமை அமைப்புகள்</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">தனியுரிமைக் கொள்கை</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI சேவைகளுக்கான சட்ட விதிமுறைகள்</a>`,
     },
 
     contact_form: {
@@ -46,12 +45,12 @@ export const ta = defineConfig({
       phoneError: "தொலைபேசி எண்ணை உள்ளிடவும்",
       category: "நாங்கள் எவ்வாறு உதவ முடியும்? *",
       categoryPlaceholder: "சேவை வகையைத் தேர்ந்தெடுக்கவும்",
-      message: "உங்கள் இலக்குகளை விவாதிப்போம் (விருப்பத்தேர்வு)",
+      message: "உங்கள் இலக்குகளை விவாதிக்கலாம் (விருப்பத்தேர்வு)",
       messagePlaceholder: "உங்கள் திட்டம் அல்லது தேவைகளை விவரிக்கவும்",
       submit: "கோரிக்கையை சமர்ப்பிக்கவும்",
       sending: "அனுப்புகிறது...",
       successTitle: "நன்றி!",
-      successMessage: "உங்கள் ஆர்வத்திற்கு மிக்க நன்றி! எங்கள் குழு விரைவில் உங்கள் தேவைகளை விவாதிக்க தொடர்பு கொள்ளும்.",
+      successMessage: "உங்கள் ஆர்வத்திற்கு மிக்க நன்றி! எங்கள் குழு உங்கள் தேவைகளை விவாதிக்க விரைவில் தொடர்பு கொள்ளும்.",
       defaultCategories: ["நிறுவன பதிவு", "வங்கி கணக்குகளைத் திறத்தல்", "EID & Golden Visa", "பிற சேவைகள்"],
       defaultButtonText: "இலவச ஆலோசனையைப் பெறுங்கள்",
     },
@@ -70,7 +69,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "விசாக்கள் & EID", link: "company-registration/employment-visas" },
         { text: "கட்டணங்கள் மற்றும் காலவரிசைகள்", link: "company-registration/fees-timelines" },
-        { text: "வெற்றிக்குப் பிறகு மட்டுமே செலுத்துங்கள்", link: "benefits/success-based-fees" },
+        { text: "வெற்றிக்குப் பிறகு மட்டுமே பணம் செலுத்துங்கள்", link: "benefits/success-based-fees" },
       ],
     },
     {
@@ -83,7 +82,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "UAE வணிக இணக்க உத்தரவாதம்",
+      text: "UAE வணிக இணக்கம் உத்தரவாதம்",
       collapsed: true,
       items: [
         { text: "உத்தரவாதமளிக்கப்பட்ட கார்ப்பரேட் வங்கி கணக்கு ஒப்புதல்கள்", link: "corporate-banking-services/guaranteed-account-approvals" },
@@ -96,7 +95,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         { text: "கணக்கியல் மற்றும் வரி கருத்துகள்", link: "company-registration/accounting-legal" },
-        { text: "UBO பதிவேடு", link: "company-registration/ubo" },
+        { text: "UBO பதிவு", link: "company-registration/ubo" },
       ],
     },
     {
@@ -111,9 +110,10 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "எங்களைப் பற்றி", link: `about` }]
-}
-
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "தொடர்புகள்", link: `contacts` }]
+  return [
+    { text: "எங்களைப் பற்றி", link: "about" },
+    { text: "தொடர்புகள்", link: "contacts" },
+    { text: "தனியுரிமைக் கொள்கை", link: "Privacy-Policy" },
+    { text: "AI சேவைகளுக்கான சட்ட விதிமுறைகள்", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }

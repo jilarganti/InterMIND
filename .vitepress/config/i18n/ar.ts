@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description: "خدمات احترافية لتأسيس الشركات والدعم في الإمارات. حلول تأسيس الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات. نحول أحلام أعمالك إلى حقيقة!",
+  description: "خدمات تأسيس الشركات والدعم المتخصصة في الإمارات. حلول تأسيس الشركات والخدمات المصرفية والضرائب والقانونية والتأشيرات. نحول أحلام أعمالك إلى حقيقة!",
   head: [
-    ["meta", { property: "og:title", content: "خدمات احترافية لتأسيس الشركات والدعم في الإمارات. حلول تأسيس الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات." }],
+    ["meta", { property: "og:title", content: "خدمات تأسيس الشركات والدعم المتخصصة في الإمارات. حلول تأسيس الشركات والخدمات المصرفية والضرائب والقانونية والتأشيرات." }],
   ],
 
   themeConfig: {
@@ -29,11 +29,10 @@ export const ar = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">إعدادات الخصوصية</a>',
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">إعدادات الخصوصية</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">سياسة الخصوصية</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">اللوائح القانونية لخدمات الذكاء الاصطناعي</a>`,
     },
 
     contact_form: {
@@ -70,7 +69,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "التأشيرة الذهبية", link: "offer/golden-visa/" },
         { text: "التأشيرات وEID", link: "company-registration/employment-visas" },
         { text: "الرسوم والجداول الزمنية", link: "company-registration/fees-timelines" },
-        { text: "ادفع فقط بعد النجاح", link: "benefits/success-based-fees" },
+        { text: "الدفع بعد النجاح فقط", link: "benefits/success-based-fees" },
       ],
     },
     {
@@ -92,7 +91,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "القانون والمحاسبة والضرائب",
+      text: "القانونية والمحاسبة والضرائب",
       collapsed: true,
       items: [
         { text: "اعتبارات المحاسبة والضرائب", link: "company-registration/accounting-legal" },
@@ -111,9 +110,10 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "عن الشركة", link: `about` }]
-}
-
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "جهات الاتصال", link: `contacts` }]
+  return [
+    { text: "عن الشركة", link: "about" },
+    { text: "جهات الاتصال", link: "contacts" },
+    { text: "سياسة الخصوصية", link: "Privacy-Policy" },
+    { text: "اللوائح القانونية لخدمات الذكاء الاصطناعي", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }

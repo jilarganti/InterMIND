@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/fr"
 
 export const fr = defineConfig({
-  description: "Services experts de création et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa. Réalisons vos rêves professionnels !",
+  description: "Services professionnels de formation d'entreprise aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa. Réalisons vos rêves d'entreprise !",
   head: [
-    ["meta", { property: "og:title", content: "Services experts de création et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa." }],
+    ["meta", { property: "og:title", content: "Services professionnels de formation d'entreprise aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa." }],
   ],
 
   themeConfig: {
@@ -29,18 +29,17 @@ export const fr = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a>',
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Réglementations légales pour les services d'IA</a>`,
     },
 
     contact_form: {
       name: "Nom *",
       namePlaceholder: "votre nom",
-      email: "E-mail *",
-      emailPlaceholder: "votre adresse e-mail",
+      email: "Email *",
+      emailPlaceholder: "votre adresse email",
       phone: "Téléphone *",
       phonePlaceholder: "ex., +1 1234567890 ou (1) 123 456-7890",
       phoneError: "Veuillez saisir un numéro de téléphone",
@@ -111,9 +110,10 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "À propos", link: `about` }]
-}
-
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Contacts", link: `contacts` }]
+  return [
+    { text: "À propos", link: "about" },
+    { text: "Contacts", link: "contacts" },
+    { text: "Politique de confidentialité", link: "Privacy-Policy" },
+    { text: "Réglementations légales pour les services d'IA", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }

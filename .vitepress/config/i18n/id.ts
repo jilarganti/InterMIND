@@ -29,11 +29,10 @@ export const id = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Pengaturan Privasi</a>',
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Pengaturan Privasi</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Kebijakan Privasi</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Peraturan Hukum untuk Layanan AI</a>`,
     },
 
     contact_form: {
@@ -70,7 +69,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Golden Visa", link: "offer/golden-visa/" },
         { text: "Visa & EID", link: "company-registration/employment-visas" },
         { text: "Biaya dan jadwal", link: "company-registration/fees-timelines" },
-        { text: "Bayar hanya setelah berhasil", link: "benefits/success-based-fees" },
+        { text: "Bayar setelah berhasil", link: "benefits/success-based-fees" },
       ],
     },
     {
@@ -78,8 +77,8 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         { text: "Langkah pendaftaran perusahaan", link: "company-registration/insights/incorporation-steps" },
-        { text: "Free zones UAE", link: "company-registration/free-zones" },
-        { text: "Mainland UAE", link: "company-registration/mainland" },
+        { text: "UAE free zones", link: "company-registration/free-zones" },
+        { text: "UAE mainland", link: "company-registration/mainland" },
       ],
     },
     {
@@ -111,9 +110,10 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Tentang Kami", link: `about` }]
-}
-
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Kontak", link: `contacts` }]
+  return [
+    { text: "Tentang Kami", link: "about" },
+    { text: "Kontak", link: "contacts" },
+    { text: "Kebijakan Privasi", link: "Privacy-Policy" },
+    { text: "Peraturan Hukum untuk Layanan AI", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }

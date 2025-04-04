@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/bn"
 
 export const bn = defineConfig({
-  description: "বিশেষজ্ঞ UAE কোম্পানি গঠন এবং সহায়তা পরিষেবা। কোম্পানি সেটআপ, ব্যাংকিং, ট্যাক্স, আইনি এবং ভিসা সমাধান। আপনার ব্যবসায়িক স্বপ্নকে বাস্তবে পরিণত করা!",
+  description: "ইউএই কোম্পানি গঠন এবং সহায়তা পরিষেবায় বিশেষজ্ঞ। কোম্পানি সেটআপ, ব্যাংকিং, ট্যাক্স, আইনি এবং ভিসা সমাধান। আপনার ব্যবসায়িক স্বপ্নকে বাস্তবে পরিণত করি!",
   head: [
-    ["meta", { property: "og:title", content: "বিশেষজ্ঞ UAE কোম্পানি গঠন এবং সহায়তা পরিষেবা। কোম্পানি সেটআপ, ব্যাংকিং, ট্যাক্স, আইনি এবং ভিসা সমাধান।" }],
+    ["meta", { property: "og:title", content: "ইউএই কোম্পানি গঠন এবং সহায়তা পরিষেবায় বিশেষজ্ঞ। কোম্পানি সেটআপ, ব্যাংকিং, ট্যাক্স, আইনি এবং ভিসা সমাধান।" }],
   ],
 
   themeConfig: {
@@ -29,11 +29,10 @@ export const bn = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">গোপনীয়তা সেটিংস</a>',
+      message: `©Golden Fish, 2025। | <a href="#" onClick="UC_UI.showSecondLayer();">গোপনীয়তা সেটিংস</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">গোপনীয়তা নীতি</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">এআই পরিষেবার জন্য আইনি প্রবিধান</a>`,
     },
 
     contact_form: {
@@ -45,14 +44,14 @@ export const bn = defineConfig({
       phonePlaceholder: "যেমন, +1 1234567890 বা (1) 123 456-7890",
       phoneError: "অনুগ্রহ করে ফোন নম্বর দিন",
       category: "আমরা কিভাবে সাহায্য করতে পারি? *",
-      categoryPlaceholder: "সেবার ধরন নির্বাচন করুন",
+      categoryPlaceholder: "পরিষেবার ধরন নির্বাচন করুন",
       message: "আপনার লক্ষ্য নিয়ে আলোচনা করি (ঐচ্ছিক)",
       messagePlaceholder: "আপনার প্রকল্প বা প্রয়োজনীয়তা বর্ণনা করুন",
       submit: "অনুরোধ জমা দিন",
       sending: "পাঠানো হচ্ছে...",
       successTitle: "ধন্যবাদ!",
       successMessage: "আপনার আগ্রহের জন্য আমরা অত্যন্ত কৃতজ্ঞ! আমাদের টিম শীঘ্রই আপনার প্রয়োজনীয়তা নিয়ে আলোচনা করার জন্য যোগাযোগ করবে।",
-      defaultCategories: ["কোম্পানি নিবন্ধন", "ব্যাংক অ্যাকাউন্ট খোলা", "EID এবং Golden Visa", "অন্যান্য সেবা"],
+      defaultCategories: ["কোম্পানি নিবন্ধন", "ব্যাংক অ্যাকাউন্ট খোলা", "EID এবং Golden Visa", "অন্যান্য পরিষেবা"],
       defaultButtonText: "বিনামূল্যে পরামর্শ নিন",
     },
   },
@@ -61,7 +60,7 @@ export const bn = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "UAE ব্যবসার সারসংক্ষেপ",
+      text: "ইউএই ব্যবসার সারসংক্ষেপ",
       collapsed: false,
       items: [
         { text: "কোম্পানি নিবন্ধন", link: "company-registration/overview" },
@@ -74,7 +73,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "UAE কর্পোরেট কাঠামো",
+      text: "ইউএই কর্পোরেট কাঠামো",
       collapsed: true,
       items: [
         { text: "কোম্পানি নিবন্ধনের ধাপসমূহ", link: "company-registration/insights/incorporation-steps" },
@@ -83,7 +82,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "UAE ব্যবসায়িক অনুবর্তিতা নিশ্চিত",
+      text: "ইউএই ব্যবসায়িক অনুবর্তিতা নিশ্চিত",
       collapsed: true,
       items: [
         { text: "নিশ্চিত কর্পোরেট ব্যাংক অ্যাকাউন্ট অনুমোদন", link: "corporate-banking-services/guaranteed-account-approvals" },
@@ -104,16 +103,17 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         { text: "Mainland বনাম free zones", link: "comparison/mainland-vs-free-zones" },
-        { text: "UAE সত্তার তুলনা", link: "comparison/entity-types" },
+        { text: "ইউএই সত্তার তুলনা", link: "comparison/entity-types" },
       ],
     },
   ]
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "আমাদের সম্পর্কে", link: `about` }]
-}
-
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "যোগাযোগ", link: `contacts` }]
+  return [
+    { text: "আমাদের সম্পর্কে", link: "about" },
+    { text: "যোগাযোগ", link: "contacts" },
+    { text: "গোপনীয়তা নীতি", link: "Privacy-Policy" },
+    { text: "এআই পরিষেবার জন্য আইনি প্রবিধান", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }

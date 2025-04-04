@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ru"
 
 export const ru = defineConfig({
-  description: "Экспертные услуги по регистрации и сопровождению компаний в ОАЭ. Создание компаний, банковские услуги, налоговые, юридические решения и оформление виз. Воплощаем ваши бизнес-мечты в реальность!",
+  description: "Профессиональные услуги по регистрации и поддержке компаний в ОАЭ. Создание компаний, банковские услуги, налоговые, юридические решения и визовая поддержка. Воплощаем ваши бизнес-мечты в реальность!",
   head: [
-    ["meta", { property: "og:title", content: "Экспертные услуги по регистрации и сопровождению компаний в ОАЭ. Создание компаний, банковские услуги, налоговые, юридические решения и оформление виз." }],
+    ["meta", { property: "og:title", content: "Профессиональные услуги по регистрации и поддержке компаний в ОАЭ. Создание компаний, банковские услуги, налоговые, юридические решения и визовая поддержка." }],
   ],
 
   themeConfig: {
@@ -29,11 +29,10 @@ export const ru = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a>',
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Правовые нормы для AI-сервисов</a>`,
     },
 
     contact_form: {
@@ -78,17 +77,17 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         { text: "Этапы регистрации компании", link: "company-registration/insights/incorporation-steps" },
-        { text: "Free zones ОАЭ", link: "company-registration/free-zones" },
-        { text: "Mainland ОАЭ", link: "company-registration/mainland" },
+        { text: "Free zones в ОАЭ", link: "company-registration/free-zones" },
+        { text: "Mainland в ОАЭ", link: "company-registration/mainland" },
       ],
     },
     {
       text: "Гарантированное соответствие бизнеса в ОАЭ",
       collapsed: true,
       items: [
-        { text: "Гарантированное открытие корпоративных банковских счетов", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "Гарантированное открытие корпоративных счетов", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Банковские счета для высокорискового бизнеса", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "Поддержание соответствия и защита вашего бизнеса", link: "company-registration/Protect-Your-Business" },
+        { text: "Поддержание соответствия и защита бизнеса", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -104,16 +103,17 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         { text: "Mainland против free zones", link: "comparison/mainland-vs-free-zones" },
-        { text: "Сравнение юридических лиц ОАЭ", link: "comparison/entity-types" },
+        { text: "Сравнение юридических лиц в ОАЭ", link: "comparison/entity-types" },
       ],
     },
   ]
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "О нас", link: `about` }]
-}
-
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Контакты", link: `contacts` }]
+  return [
+    { text: "О нас", link: "about" },
+    { text: "Контакты", link: "contacts" },
+    { text: "Политика конфиденциальности", link: "Privacy-Policy" },
+    { text: "Правовые нормы для AI-сервисов", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }

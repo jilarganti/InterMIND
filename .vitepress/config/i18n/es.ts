@@ -29,11 +29,10 @@ export const es = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de privacidad</a>',
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de Privacidad</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Política de Privacidad</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Regulaciones Legales para Servicios de IA</a>`,
     },
 
     contact_form: {
@@ -51,8 +50,8 @@ export const es = defineConfig({
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
-      successMessage: "¡Agradecemos enormemente su interés! Nuestro equipo se pondrá en contacto con usted en breve para discutir sus necesidades.",
-      defaultCategories: ["Registro de empresas", "Apertura de cuentas bancarias", "EID y Golden Visa", "Otros servicios"],
+      successMessage: "¡Agradecemos mucho su interés! Nuestro equipo se pondrá en contacto con usted en breve para discutir sus necesidades.",
+      defaultCategories: ["Registro de empresas", "Apertura de cuentas bancarias", "EID & Golden Visa", "Otros servicios"],
       defaultButtonText: "Obtener una consulta gratuita",
     },
   },
@@ -111,9 +110,10 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Acerca de", link: `about` }]
-}
-
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Contactos", link: `contacts` }]
+  return [
+    { text: "Acerca de", link: "about" },
+    { text: "Contactos", link: "contacts" },
+    { text: "Política de Privacidad", link: "Privacy-Policy" },
+    { text: "Regulaciones Legales para Servicios de IA", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }

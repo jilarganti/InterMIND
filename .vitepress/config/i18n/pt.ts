@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/pt"
 
 export const pt = defineConfig({
-  description: "Serviços especializados de formação e suporte empresarial nos EAU. Soluções para abertura de empresas, bancos, impostos, questões legais e vistos. Transformando seus sonhos empresariais em realidade!",
+  description: "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, bancos, impostos, questões legais e vistos. Transformando seus sonhos empresariais em realidade!",
   head: [
-    ["meta", { property: "og:title", content: "Serviços especializados de formação e suporte empresarial nos EAU. Soluções para abertura de empresas, bancos, impostos, questões legais e vistos." }],
+    ["meta", { property: "og:title", content: "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, bancos, impostos, questões legais e vistos." }],
   ],
 
   themeConfig: {
@@ -29,11 +29,10 @@ export const pt = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configurações de Privacidade</a>',
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configurações de Privacidade</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Política de Privacidade</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Regulamentações Legais para Serviços de IA</a>`,
     },
 
     contact_form: {
@@ -42,7 +41,7 @@ export const pt = defineConfig({
       email: "E-mail *",
       emailPlaceholder: "seu endereço de e-mail",
       phone: "Telefone *",
-      phonePlaceholder: "ex: +1 1234567890 ou (1) 123 456-7890",
+      phonePlaceholder: "ex., +1 1234567890 ou (1) 123 456-7890",
       phoneError: "Por favor, insira o número de telefone",
       category: "Como podemos ajudar? *",
       categoryPlaceholder: "selecione o tipo de serviço",
@@ -53,7 +52,7 @@ export const pt = defineConfig({
       successTitle: "Obrigado!",
       successMessage: "Agradecemos muito seu interesse! Nossa equipe entrará em contato em breve para discutir suas necessidades.",
       defaultCategories: ["Registro de empresa", "Abertura de contas bancárias", "EID & Golden Visa", "Outros Serviços"],
-      defaultButtonText: "Obter uma consulta gratuita",
+      defaultButtonText: "Obter consultoria gratuita",
     },
   },
 })
@@ -78,8 +77,8 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         { text: "Etapas de registro de empresa", link: "company-registration/insights/incorporation-steps" },
-        { text: "Free zones dos EAU", link: "company-registration/free-zones" },
-        { text: "Mainland dos EAU", link: "company-registration/mainland" },
+        { text: "UAE free zones", link: "company-registration/free-zones" },
+        { text: "UAE mainland", link: "company-registration/mainland" },
       ],
     },
     {
@@ -111,9 +110,10 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Sobre", link: `about` }]
-}
-
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Contatos", link: `contacts` }]
+  return [
+    { text: "Sobre", link: "about" },
+    { text: "Contatos", link: "contacts" },
+    { text: "Política de Privacidade", link: "Privacy-Policy" },
+    { text: "Regulamentações Legais para Serviços de IA", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }
