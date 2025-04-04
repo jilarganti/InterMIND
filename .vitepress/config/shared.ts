@@ -72,6 +72,7 @@ export const shared = defineConfig({
   vite: {
     define: {
       "import.meta.env.VITE_IS_PROD": isProduction,
+      "import.meta.env.VITE_BASE_URL": JSON.stringify(baseUrl),
     },
     resolve: {
       alias: {
