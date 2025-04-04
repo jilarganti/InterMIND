@@ -31,6 +31,11 @@ Key rules:
 
 7. Переводи заголовки с учетом SEO-оптимизации и культурных особенностей. Например, в русском языке слова в заголовках не пишутся с большой буквы.
 
+8. Ты должен переводить текст и код полностью! 
+
+ОШИБКИ:
+[Rest of the code with function definitions remains unchanged as it contains technical terms and structure]
+
 Provide translation between <translated_markdown> tags.`
 
 export function getPromptForTranslation(content, targetLang, langCode) {
