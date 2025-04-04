@@ -29,11 +29,12 @@ export const en = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
+      // [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Privacy Settings</a>',
+      message:
+        '©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Privacy Settings</a> | <a href="resources/Privacy-Policy">Privacy Policy</a> | <a href="resources/Legal-Regulations-for-AI-Services">Legal Regulations for AI Services</a>',
     },
 
     contact_form: {
@@ -111,9 +112,14 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
-  return [{ text: "About", link: `about` }]
+  return [
+    { text: "About", link: "about" },
+    { text: "Contacts", link: "contacts" },
+    { text: "Privacy Policy", link: "Privacy-Policy" },
+    { text: "Legal Regulations for AI Services", link: "Legal-Regulations-for-AI-Services" },
+  ]
 }
 
-function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Contacts", link: `contacts` }]
-}
+// function sidebarContactUs(): DefaultTheme.SidebarItem[] {
+//   return [{ text: "Contacts", link: `contacts` }]
+// }
