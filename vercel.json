@@ -1,5 +1,5 @@
 {
   "buildCommand": "pnpm run build",
-  "outputDirectory": ".vitepress/dist",
+  "outputDirectory": "docs/.vitepress/dist",
   "cleanUrls": true
 }
