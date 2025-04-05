@@ -78,7 +78,7 @@ export const shared = defineConfig({
       alias: {
         "@config": fileURLToPath(new URL("../config/", import.meta.url)),
         "@theme": fileURLToPath(new URL("../theme/", import.meta.url)),
-        "@docs": fileURLToPath(new URL("../../docs/en", import.meta.url)),
+        "@docs": fileURLToPath(new URL("../../../en", import.meta.url)),
       },
     },
     server: {

@@ -4,8 +4,8 @@
 
   "compilerOptions": {
     "paths": {
-      "@config/*": ["./.vitepress/config/*"],
-      "@theme/*": ["./.vitepress/theme/*"],
+      "@config/*": ["./docs/.vitepress/config/*"],
+      "@theme/*": ["./docs/.vitepress/theme/*"],
       "@docs/*": ["./docs/en/*"]
     }
   },
