@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev:node": "vercel dev --yes",
-    "dev": "concurrently 'pnpm run dev:node' 'vitepress dev'",
+    "dev": "concurrently 'pnpm run dev:node' 'vitepress dev docs'",
     "build": "vitepress build docs"
   },
   "devDependencies": {},
