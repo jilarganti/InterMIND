@@ -1,0 +1,13 @@
+{
+  "name": "golden-fish",
+  "description": "Start efficiently 🌱 doing business in UAE!",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev:node": "vercel dev --yes",
+    "dev": "concurrently 'pnpm run dev:node' 'vitepress dev'",
+    "build": "vitepress build docs"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

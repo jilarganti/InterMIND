@@ -15,7 +15,7 @@ const baseUrl = vercelUrl ? `https://${vercelUrl}` : "http://localhost:3000"
 
 export const shared = defineConfig({
   title: "Golden Fish",
-  // srcDir: "./docs",
+  srcDir: "./docs",
   lastUpdated: true,
   cleanUrls: true,
   metaChunk: true,
