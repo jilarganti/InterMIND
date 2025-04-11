@@ -6,8 +6,8 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "paths": {
-      "@config/*": ["packages/GoldenFish/docs/.vitepress/config/*"],
-      "@theme/*": ["packages/GoldenFish/docs/.vitepress/theme/*"]
+      "@config/*": ["packages/golden-fish/docs/.vitepress/config/*"],
+      "@theme/*": ["packages/golden-fish/docs/.vitepress/theme/*"]
     }
   },
   "include": ["api/**/*.js"]
