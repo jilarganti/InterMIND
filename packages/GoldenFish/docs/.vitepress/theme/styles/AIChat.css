@@ -1,0 +1,99 @@
+/* 
+ * Базовые стили для чат-интерфейса Golden Fish
+ * -----------------------------------------------------------
+ * Только основные переменные и утилиты
+ */
+
+/* 
+ * Переменные темы для чата
+ */
+:root {
+  /* Основные цвета бренда */
+  --chat-brand-color: var(--vp-hl-color);
+
+  /* Фоны и границы */
+  --chat-bg-color: var(--vp-c-bg);
+  --chat-bg-soft: var(--vp-c-bg-soft);
+  --chat-bg-mute: var(--vp-c-bg-mute);
+  --chat-border-color: var(--vp-c-divider);
+
+  /* Текст */
+  --chat-text-color: var(--vp-c-default-1);
+  --chat-text-soft: var(--vp-c-default-2);
+  --chat-text-mute: var(--vp-c-default-3);
+
+  /* Размеры и анимации */
+  --chat-border-radius: 8px;
+  --chat-transition-speed: 0.2s;
+  --chat-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 
+ * Базовые утилиты
+ */
+
+/* Прокрутка с плавной анимацией */
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+/* Скрытие скролла при сохранении функциональности */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Утилиты для обрезания текста */
+.text-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Утилиты для анимаций */
+/* @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(var(--vp-c-brand-rgb), 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(var(--vp-c-brand-rgb), 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(var(--vp-c-brand-rgb), 0);
+  }
+} */
+
+/* Индикаторы загрузки */
+/* @keyframes bounce {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+} */
