@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev:node": "vercel dev --yes",
+    "dev:node": "vercel dev",
     "dev": "concurrently 'pnpm run dev:node' 'vitepress dev docs'",
-    "build": "vitepress build docs"
+    "build": "vitepress build docs -o docs/.vitepress/dist"
   },
   "devDependencies": {},
   "dependencies": {}
