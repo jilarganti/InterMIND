@@ -4,9 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "devv": "concurrently \"pnpm run dev:node\" \"pnpm run site\"",
     "dev": "vitepress dev docs",
-    "dev:node": "vercel dev --yes",
     "build": "vitepress build docs",
     "translate": "node --no-deprecation scripts/translate",
     "test:traffic-sources": "node --experimental-specifier-resolution=node --loader ts-node/esm __tests__/crm/test-traffic-sources.ts",

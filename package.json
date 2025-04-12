@@ -11,13 +11,6 @@
   "type": "module",
   "scripts": {
     "build": "pnpm -r build",
-    "dev": "vite",
-    "vercel-dev": "pnpx vercel dev",
-    "devvv": "pnpx vercel dev",
-    "dev:node": "pnpx vercel dev",
-    "kill-port": "kill -9 $(lsof -t -i:3000) || true",
-    "devv": "concurrently \"pnpm run dev:api\" \"pnpm run dev:front\"",
-    "convert": "bash -x scripts/toAVIF.sh",
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
@@ -67,15 +60,5 @@
   },
   "simple-git-hooks": {
     "pre-push": "pnpm build"
-  },
-  "packageManager": "pnpm@10.6.5",
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "@algolia/client-search",
-        "search-insights",
-        "postcss"
-      ]
-    }
   }
 }
