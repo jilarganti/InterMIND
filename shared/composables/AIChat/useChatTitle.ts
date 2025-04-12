@@ -1,6 +1,6 @@
 // .vitepress/theme/composables/AIChat/useChatTitle.ts
 import { ref } from "vue"
-import { useChatsStore } from "@theme/stores/chatsStore"
+import { useChatsStore } from "../../stores/chatsStore"
 
 export function useChatTitle() {
   const chatsStore = useChatsStore()

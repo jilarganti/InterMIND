@@ -1,7 +1,7 @@
 // .vitepress/theme/composables/AIChat/useQuickPrompts.ts
 import { ref } from "vue"
 import type { Ref } from "vue"
-import type { ChatThreadMethods } from "@theme/types/ChatThread"
+import type { ChatThreadMethods } from "../../types/ChatThread"
 
 export interface QuickPrompt {
   id: string

@@ -2,10 +2,10 @@
 import { ref, computed } from "vue"
 import ChatList from "./ChatList.vue"
 import ChatContainer from "./ChatContainer.vue"
-import { useChatManagement } from "@theme/~composables/AIChat/useChatManagement"
-import { useQuickPrompts } from "@theme/~composables/AIChat/useQuickPrompts"
-import type { ChatThreadMethods } from "@theme/types/ChatThread"
-import type { QuickPrompt } from "@theme/~composables/AIChat/useQuickPrompts"
+import { useChatManagement } from "../../composables/AIChat/useChatManagement"
+import { useQuickPrompts } from "../../composables/AIChat/useQuickPrompts"
+import type { ChatThreadMethods } from "../../types/ChatThread"
+import type { QuickPrompt } from "../../composables/AIChat/useQuickPrompts"
 
 // Определяем пропсы
 interface Props {

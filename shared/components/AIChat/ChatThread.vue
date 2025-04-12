@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { ref, onMounted, watch, onUnmounted, computed, watchEffect } from "vue"
 import { useChat } from "@ai-sdk/vue"
-import { useChatUi } from "@theme/~composables/AIChat/useChatUi"
-import { useChatsStore } from "@theme/~stores/chatsStore"
-import { ImageLoader } from "@theme/~utils/imageLoader"
+import { useChatUi } from "../../composables/AIChat/useChatUi"
+import { useChatsStore } from "../../stores/chatsStore"
+import { ImageLoader } from "../../utils/imageLoader"
 import ChatFooter from "./ChatFooter.vue"
 import type { UIMessage } from "@ai-sdk/ui-utils"
 

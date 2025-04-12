@@ -26,11 +26,12 @@
  */
 import { useData, useRoute } from "vitepress"
 import { ref, computed, onMounted } from "vue"
-import { generateOriginId } from "@theme/~utils/path"
-import { useFormSubmit } from "@theme/~composables/CRM/useFormSubmit"
+
+import { generateOriginId } from "../../utils/path"
+import { useFormSubmit } from "../../composables/CRM/useFormSubmit"
 import { parsePhoneNumberWithError } from "libphonenumber-js"
-import { INCLUDED_COUNTRIES } from "@config/countryList"
-import { determineTrafficSource, initUtmTracking } from "@theme/~utils/utm"
+import { INCLUDED_COUNTRIES } from "../../../packages/golden-fish/docs/.vitepress/config/countryList"
+import { determineTrafficSource, initUtmTracking } from "../../utils/utm"
 
 const { site, page } = useData()
 

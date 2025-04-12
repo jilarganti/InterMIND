@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { QuickPrompt } from "@theme/composables/AIChat/useQuickPrompts"
+import type { QuickPrompt } from "../../composables/AIChat/useQuickPrompts"
 
 const props = defineProps<{
   /**
