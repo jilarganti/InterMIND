@@ -26,11 +26,11 @@
  */
 import { useData, useRoute } from "vitepress"
 import { ref, computed, onMounted } from "vue"
-import { generateOriginId } from "@theme/utils/path"
-import { useFormSubmit } from "@theme/composables/CRM/useFormSubmit"
+import { generateOriginId } from "@theme/~utils/path"
+import { useFormSubmit } from "@theme/~composables/CRM/useFormSubmit"
 import { parsePhoneNumberWithError } from "libphonenumber-js"
 import { INCLUDED_COUNTRIES } from "@config/countryList"
-import { determineTrafficSource, initUtmTracking } from "@theme/utils/utm"
+import { determineTrafficSource, initUtmTracking } from "@theme/~utils/utm"
 
 const { site, page } = useData()
 

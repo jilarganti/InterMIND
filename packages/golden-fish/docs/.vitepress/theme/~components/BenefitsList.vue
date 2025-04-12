@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from "vue"
-import { renderMarkdown } from "../utils/markdown" // Импортируем утилиту для рендеринга маркдауна
+import { renderMarkdown } from "../~utils/markdown" // Импортируем утилиту для рендеринга маркдауна
 
 interface Feature {
   icon: string

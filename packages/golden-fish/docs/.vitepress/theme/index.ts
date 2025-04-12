@@ -8,8 +8,8 @@ import { useData, inBrowser, useRouter } from "vitepress"
 import { watchEffect } from "vue"
 import { createPinia } from "pinia"
 
-import { components } from "./components"
-import { initUtmTracking } from "./utils/utm"
+import { components } from "shared/components"
+import { initUtmTracking } from "./~utils/utm"
 
 const { AsideSponsors } = components
 

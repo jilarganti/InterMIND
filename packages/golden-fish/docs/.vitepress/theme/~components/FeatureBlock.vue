@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { computed } from "vue"
 import { useData } from "vitepress"
-import { renderMarkdown } from "../utils/markdown" // Предполагается, что у нас есть утилита для рендеринга маркдауна
-import { useLocalizedPath } from "../utils/locale" // Импортируем утилиту для работы с локализованными путями
+import { renderMarkdown } from "../~utils/markdown" // Предполагается, что у нас есть утилита для рендеринга маркдауна
+import { useLocalizedPath } from "../~utils/locale" // Импортируем утилиту для работы с локализованными путями
 
 /**
  * Компонент FeatureBlock для отображения контента с изображением/видео

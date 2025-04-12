@@ -1,5 +1,5 @@
 import { ref, computed, onMounted } from "vue"
-import { useChatsStore } from "@theme/stores/chatsStore"
+import { useChatsStore } from "@theme/~stores/chatsStore"
 import type { Ref } from "vue"
 
 // Типы для группировки чатов

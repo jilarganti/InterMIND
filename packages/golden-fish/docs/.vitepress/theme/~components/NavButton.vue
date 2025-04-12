@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from "vue"
-import { useLocalizedPath } from "../utils/locale"
+import { useLocalizedPath } from "../~utils/locale"
 
 interface Props {
   /**

@@ -2,7 +2,7 @@
 import { computed } from "vue"
 import { VPDocAsideSponsors } from "vitepress/theme"
 // import { useSponsor } from "../composables/sponsor"
-import { useSponsor } from "@theme/composables/sponsor"
+import { useSponsor } from "@theme/~composables/sponsor"
 import { useData } from "vitepress"
 
 const { data } = useSponsor()

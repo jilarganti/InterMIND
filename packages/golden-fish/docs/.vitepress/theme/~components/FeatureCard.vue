@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from "vue"
-import { renderMarkdown } from "../utils/markdown" // Импортируем утилиту для рендеринга маркдауна
-import { useLocalizedPath } from "../utils/locale" // Импортируем утилиту для локализованных путей
+import { renderMarkdown } from "../~utils/markdown" // Импортируем утилиту для рендеринга маркдауна
+import { useLocalizedPath } from "../~utils/locale" // Импортируем утилиту для локализованных путей
 
 const props = defineProps<{
   title: string

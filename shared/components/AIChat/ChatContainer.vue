@@ -3,11 +3,11 @@ import { ref, computed } from "vue"
 import ChatThread from "./ChatThread.vue"
 import ChatHeader from "./ChatHeader.vue"
 import { Home } from "lucide-vue-next"
-import { useChatTitle } from "@theme/composables/AIChat/useChatTitle"
-import { useQuickPrompts } from "@theme/composables/AIChat/useQuickPrompts"
-import { useChatsStore } from "@theme/stores/chatsStore"
+import { useChatTitle } from "@theme/~composables/AIChat/useChatTitle"
+import { useQuickPrompts } from "@theme/~composables/AIChat/useQuickPrompts"
+import { useChatsStore } from "@theme/~stores/chatsStore"
 import type { ChatThreadMethods } from "@theme/types/ChatThread"
-import type { QuickPrompt } from "@theme/composables/AIChat/useQuickPrompts"
+import type { QuickPrompt } from "@theme/~composables/AIChat/useQuickPrompts"
 
 const props = defineProps<{
   /**

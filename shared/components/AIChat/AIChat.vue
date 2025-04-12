@@ -2,9 +2,9 @@
 import { onMounted } from "vue"
 import MobileChatLayout from "./MobileChatLayout.vue"
 import DesktopChatLayout from "./DesktopChatLayout.vue"
-import { useChatLayout } from "@theme/composables/AIChat/useChatLayout"
-import { useChatsStore } from "@theme/stores/chatsStore"
-import type { QuickPrompt } from "@theme/composables/AIChat/useQuickPrompts"
+import { useChatLayout } from "@theme/~composables/AIChat/useChatLayout"
+import { useChatsStore } from "@theme/~stores/chatsStore"
+import type { QuickPrompt } from "@theme/~composables/AIChat/useQuickPrompts"
 
 // Определяем пропсы для компонента
 interface Props {

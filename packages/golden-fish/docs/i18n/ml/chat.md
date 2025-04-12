@@ -67,5 +67,3 @@ const chatPrompts = [
 </script>
 
 <AIChat :prompts="chatPrompts" />
-
-<userStyle>Normal</userStyle>
