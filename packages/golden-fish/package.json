@@ -6,7 +6,11 @@
   "scripts": {
     "dev:node": "vercel dev",
     "dev": "concurrently 'pnpm run dev:node' 'vitepress dev docs'",
-    "build": "vitepress build docs -o docs/.vitepress/dist"
+    "build": "vitepress build docs -o docs/.vitepress/dist",
+    "translate": "node --no-deprecation scripts/translate",
+    "test:traffic-sources": "node --experimental-specifier-resolution=node --loader ts-node/esm __tests__/crm/test-traffic-sources.ts",
+    "format": "prettier -w .",
+    "lint": "pnpm eslint --cache ."
   },
   "devDependencies": {},
   "dependencies": {}

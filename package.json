@@ -10,15 +10,10 @@
   "license": "CC BY-NC-SA 4.0",
   "type": "module",
   "scripts": {
-    "dev:front": "vitepress dev docs",
-    "dev:api": "vercel dev --listen 3000",
+    "dev": "pnpm run dev:node",
+    "dev:node": "vercel dev",
     "kill-port": "kill -9 $(lsof -t -i:3000) || true",
-    "dev": "concurrently \"pnpm run dev:api\" \"pnpm run dev:front\"",
-    "build": "vitepress build docs",
-    "translate": "node --no-deprecation scripts/translate",
-    "test:traffic-sources": "node --experimental-specifier-resolution=node --loader ts-node/esm __tests__/crm/test-traffic-sources.ts",
-    "format": "prettier -w .",
-    "lint": "pnpm eslint --cache .",
+    "devv": "concurrently \"pnpm run dev:api\" \"pnpm run dev:front\"",
     "convert": "bash -x scripts/toAVIF.sh",
     "prepare": "simple-git-hooks"
   },
