@@ -1,7 +1,7 @@
 // api/chat.js
 import { anthropic } from "@ai-sdk/anthropic"
 import { streamText } from "ai"
-import { BUSINESS_PROMPT, FOLLOW_UP_PROMPT } from "../packages/golden-fish/.vitepress/config/AIConfig.js"
+import { BUSINESS_PROMPT, FOLLOW_UP_PROMPT } from "../packages/golden-fish/docs/.vitepress/config/AIConfig.js"
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30
