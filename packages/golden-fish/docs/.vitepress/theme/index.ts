@@ -1,18 +1,12 @@
-// Импортируем только стили приложения
+import { h } from "vue"
+import DefaultTheme from "vitepress/theme"
 import "./styles/style.css"
 
-import { createTheme, components } from "shared"
+import { components } from "shared"
+import sharedTheme from "shared"
 
-// Создаем тему с настройками для данного проекта
-export default createTheme({
-  components,
-  // Можно добавить специфичные слоты, если нужно
-  renderSlots: (h) => ({
-    // "aside-ads-before": () => h(components.AsideSponsors),
-    // "home-features-after": () => h(components.HomeSponsors)
-  }),
-  // Дополнительный хук для расширения приложения
-  enhanceAppHook: ({ app }) => {
-    // Здесь можно добавить код, специфичный для этого проекта
-  },
-})
+// Просто расширяем тему из shared и регистрируем те же компоненты
+export default {
+  ...sharedTheme,
+  // Если нужно переопределить какие-то методы темы, можно это сделать здесь
+}
