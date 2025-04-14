@@ -26,6 +26,7 @@
  */
 import { useData, useRoute } from "vitepress"
 import { ref, computed, onMounted } from "vue"
+import { onClickOutside } from "@vueuse/core"
 
 import { generateOriginId } from "../../utils/path"
 import { useFormSubmit } from "../../composables/CRM/useFormSubmit"
@@ -76,10 +77,20 @@ const {
 } = site.value.themeConfig.contact_form
 const { formData, formStatus, submitForm } = useFormSubmit()
 
+// Реф для модального контейнера
+const modalContainerRef = ref(null)
+
 // Инициализация отслеживания UTM-параметров при монтировании компонента
 onMounted(() => {
   if (typeof window !== "undefined") {
     initUtmTracking()
+  }
+})
+
+// Настройка обработчика клика снаружи модального окна
+onClickOutside(modalContainerRef, () => {
+  if (showModal.value) {
+    closeModal()
   }
 })
 
@@ -148,7 +159,7 @@ function getCountryFromPhone(phone: string): { code: string; name: string } {
   <Teleport to="body">
     <Transition name="modal">
       <div v-show="showModal" class="modal-mask">
-        <div class="modal-container">
+        <div ref="modalContainerRef" class="modal-container">
           <div class="modal-header">
             <h3>{{ buttonTextValue }}</h3>
             <button class="close-button" @click="closeModal">&times;</button>

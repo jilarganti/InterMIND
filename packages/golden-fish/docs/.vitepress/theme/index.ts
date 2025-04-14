@@ -5,7 +5,7 @@ import "./style.css"
 import { components } from "shared"
 import sharedTheme from "shared"
 
-const { ContactFormModal, NavButton } = components
+const { ContactFormModalNav, NavButton } = components
 
 // Просто расширяем тему из shared и регистрируем те же компоненты
 export default {
@@ -15,13 +15,13 @@ export default {
       // Для десктопов (в навбаре)
       "nav-bar-content-after": () =>
         h("div", { class: "auth-buttons-container" }, [
-          h(ContactFormModal, { buttonText: "Send request" }),
+          h(ContactFormModalNav, { buttonText: "Send request" }),
           h(NavButton, { text: "Ask AI", buttonClass: "alt", to: "/chat" }),
         ]),
       // Для мобильных (в выпадающем меню)
       "nav-screen-content-after": () =>
         h("div", { class: "auth-buttons-container mobile-buttons" }, [
-          h(ContactFormModal, { buttonText: "Send request" }),
+          h(ContactFormModalNav, { buttonText: "Send request" }),
           h(NavButton, { text: "Ask AI", buttonClass: "alt", to: "/chat" }),
         ]),
     })
