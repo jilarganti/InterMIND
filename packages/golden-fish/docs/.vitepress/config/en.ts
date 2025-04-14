@@ -21,9 +21,9 @@ export const en = defineConfig({
       },
       {
         text: "Resources",
-        items: [{ text: "About", link: `${BASE_PATH}/resources/about` }],
+        items: [{ text: "About us", link: `${BASE_PATH}/resources/about` }],
       },
-      { text: "Contact", link: `${BASE_PATH}/resources/contacts` },
+      { text: "Contacts", link: `${BASE_PATH}/resources/contacts` },
     ],
 
     sidebar: {
@@ -47,13 +47,22 @@ export const en = defineConfig({
       category: "How can we help you? *",
       categoryPlaceholder: "select service type",
       message: "Let's discuss your goals (optional)",
-      messagePlaceholder: "describe your project or requirements",
+      messagePlaceholder: "Please share your inquiry details to help us prepare the best solution for your needs",
       submit: "Submit request",
       sending: "Sending...",
       successTitle: "Thank you!",
       successMessage: "We greatly appreciate your interest! Our team will contact you shortly to discuss your needs.",
-      defaultCategories: ["Company registration", "Opening bank accounts", "EID & Golden Visa", "Other Services"],
-      defaultButtonText: "Get a free consultation",
+      defaultCategories: [
+        "New company formation",
+        "Expansion plan (ie. new branch or franchise)",
+        "Company relocation",
+        "Golden Visa",
+        "Visa purposes only",
+        "Opening bank accounts",
+        "Other Services",
+      ],
+      defaultButtonText: "Send us a message",
+      // defaultButtonText: "Get a free consultation",
     },
   },
 })
@@ -62,12 +71,12 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "UAE business summary",
-      collapsed: false,
+      // collapsed: false,
       items: [
         { text: "Company registration", link: "company-registration/overview" },
         { text: "Pros & cons", link: "company-registration/benefits-problems" },
-        { text: "Corporate banking solutions", link: "offer/banking/" },
-        { text: "Golden Visa", link: "offer/golden-visa/" },
+        { text: "Corporate banking solutions", link: "company-registration/banking" },
+        { text: "Golden Visa", link: "company-registration//golden-visa" },
         { text: "Visas & EID", link: "company-registration/employment-visas" },
         { text: "Fees and timelines", link: "company-registration/fees-timelines" },
         { text: "Pay only after success", link: "benefits/success-based-fees" },
@@ -75,7 +84,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "UAE corporate structures",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Company registration steps", link: "company-registration/insights/incorporation-steps" },
         { text: "UAE free zones", link: "company-registration/free-zones" },
@@ -84,7 +93,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "UAE business compliance guaranteed",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Guaranteed corporate bank account approvals", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Bank accounts for high-risk business", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
@@ -93,7 +102,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Legal, accounting and tax",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Accounting and tax considerations", link: "company-registration/accounting-legal" },
         { text: "UBO register", link: "company-registration/ubo" },
@@ -101,7 +110,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Comparisons",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Mainland vs free zones", link: "comparison/mainland-vs-free-zones" },
         { text: "UAE entities compared", link: "comparison/entity-types" },
@@ -112,7 +121,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "About", link: "about" },
+    { text: "About us", link: "about" },
     { text: "Contacts", link: "contacts" },
     { text: "Privacy Policy", link: "Privacy-Policy" },
     { text: "Legal Regulations for AI Services", link: "Legal-Regulations-for-AI-Services" },

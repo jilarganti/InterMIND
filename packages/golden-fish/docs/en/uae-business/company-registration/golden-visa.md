@@ -220,22 +220,18 @@ The UAE Golden Visa provides a unique opportunity for investors, entrepreneurs, 
 - **Post-approval support** – Assistance with Emirates ID, family visas, and banking.
 - **Legal consultation** – Get advice on compliance and investment requirements.
 
-## Contact us for a personalized consultation and start your UAE Golden Visa journey today.
+### Contact us for a personalized consultation and start your UAE Golden Visa journey today.
 
-<video  autoplay muted playsinline style="padding: 80px" >
+<video  autoplay muted playsinline style="padding: 24px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal 
-  formName="Golden Visa [guide]" 
-  buttonText="Get a free consultation" 
-  categoryLabel="Required support level: *" 
-  categoryPlaceholderText="Choose your support level"
-  messageLabel="Help us prepare for your consultation (recommended)"
-  messagePlaceholderText="Tell us about your investment preferences, family members, timeline, or any specific questions"
+<ContactFormModal formName="Golden Visa" buttonText="Get a free consultation" 
   :services="[
-  'Basic — essential documents and consultations only',
-  'Standard — complete documentation and guidance through main stages',
-  'Comprehensive — full-service process management with minimal involvement from you',
-  'Custom — need to discuss specific details and special requirements',
-  ]"/>
+  'AED 2M investment in UAE properties',
+  'AED 2M deposit in UAE investment funds',
+  'Business with AED 2M capital',
+  'AED 250K annual FTA contribution',
+  'Skilled Professionals',
+  'Geniuses of talent',
+]"/>
