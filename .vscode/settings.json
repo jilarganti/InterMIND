@@ -5,10 +5,8 @@
     ".eslintcache": true,
     "pnpm-lock.yaml": false,
     "LICENSE": true,
-    "playwright-report": true,
-    "vitest-report": true,
-    "test-results": true,
-    "deploy.log": true
+    "docs": true,
+    "dist": true
   },
   "search.exclude": {
     "**/node_modules": true,
