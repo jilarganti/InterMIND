@@ -342,6 +342,7 @@ code {
 .auth-buttons-container {
   display: flex;
   gap: 16px;
+  align-items: center;
 }
 
 /* Стили для отображения в навбаре */
@@ -362,6 +363,23 @@ code {
 .VPNavScreen .auth-buttons-container.mobile-buttons button {
   width: 100%;
   justify-content: center;
+}
+
+/* Контейнер для кнопок в футере документа */
+.VPDocFooter .auth-buttons-container {
+  display: flex;
+  justify-content: center; /* Выравнивание по центру */
+  gap: 16px;
+  margin-bottom: 30px; /* Отступ снизу */
+  width: 100%; /* Занимает полную ширину */
+  margin-top: 20px;
+}
+
+/* Альтернативный вариант для футера, если первый не сработает */
+div[class^="VPDocFooter"] .auth-buttons-container {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 /* Скрытие десктопных кнопок на мобильных устройствах */

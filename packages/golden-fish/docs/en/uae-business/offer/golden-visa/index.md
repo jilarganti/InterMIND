@@ -118,23 +118,11 @@ hero:
 
 ## Book a free consultation to check your eligibility and discuss your options.
 
-<video  autoplay muted playsinline style="padding: 80px" >
+<video  autoplay muted playsinline style="padding: 24px" >
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal 
-  formName="Golden Visa [offer]" 
-  buttonText="Get a free consultation" 
-  categoryLabel="Required support level: *" 
-  categoryPlaceholderText="Choose your support level"
-  messageLabel="Help us prepare for your consultation (recommended)"
-  messagePlaceholderText="Tell us about your investment preferences, family members, timeline, or any specific questions"
-  :services="[
-  'Basic — essential documents and consultations only',
-  'Standard — complete documentation and guidance through main stages',
-  'Comprehensive — full-service process management with minimal involvement from you',
-  'Custom — need to discuss specific details and special requirements',
-  ]"/>
+<ContactFormModalNav buttonText="Get a free consultation" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAE Immigration' },

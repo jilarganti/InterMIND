@@ -268,3 +268,5 @@ Yes, Golden Fish can assist clients with their Islamic banking needs.
 UAE business residence permits are typically issued for 2 to 3 years.
 
 :::
+
+<ContactFormModalNav buttonText="Get a free consultation" formStyle="display: block; margin: 3rem auto;"/>

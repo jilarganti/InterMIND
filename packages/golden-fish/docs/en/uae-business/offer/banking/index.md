@@ -125,21 +125,4 @@ hero:
 
 ## Book a free consultation to discuss your corporate banking needs
 
-<video  autoplay muted playsinline style="padding: 80px" >
-  <source src="/video/iStock-2185918790.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal 
-  formName="Banking [offer]" 
-  buttonText="Get a free consultation" 
-  categoryLabel="Required support level: *" 
-  categoryPlaceholderText="Choose your support level"
-  messageLabel="Help us prepare for your consultation (recommended)"
-  messagePlaceholderText="Tell us about your business type, jurisdictions of operation, expected transaction volumes, and any specific banking needs (multi-currency, trade finance, etc.)"
-  :services="[
-  'Basic — essential documentation and account opening consultation only',
-  'Standard — complete documentation and guidance through all banking stages',
-  'Comprehensive — full-service banking setup with minimal involvement from your side',
-  'Custom — need to discuss high-volume transactions or multi-jurisdictional structure',
-  ]"
-/>
+<ContactFormModalNav buttonText="Get a free consultation" formStyle="display: block; margin: 3rem auto;"/>

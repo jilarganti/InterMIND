@@ -35,5 +35,3 @@ Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
 > [!IMPORTANT] Why Choose Us?
 > With a team of knowledgeable professionals and a commitment to personalized services, we ensure a smooth and efficient experience for clients, allowing them to focus on what matters most – growing their business in the UAE.
-
-<ContactFormModal formName="Contact Us" formStyle="display: block; margin: 2rem auto;"/>
