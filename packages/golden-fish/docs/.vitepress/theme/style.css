@@ -341,3 +341,20 @@ code {
   /* Fullwidth Hyphen-Minus (U+FF0D) */
   color: var(--vp-hl-color);
 }
+
+.auth-buttons-container {
+  display: flex;
+  gap: 16px;
+  /* align-items: center; */
+}
+
+/* Стили для контейнера в панели навигации */
+.VPNavBar .auth-buttons-container {
+  margin-left: 16px;
+}
+
+/* Стили для контейнера в hero-секции */
+.VPHero .auth-buttons-container {
+  margin-top: 24px;
+  display: inline-flex;
+}
