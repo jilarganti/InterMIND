@@ -214,10 +214,6 @@ h1.name {
   }
 } */
 
-:root {
-  --vp-layout-max-width: 80%;
-}
-
 .VPDoc table {
   /* width: 100% !important; */
   display: table;
@@ -342,19 +338,35 @@ code {
   color: var(--vp-hl-color);
 }
 
+/* Базовые стили для контейнера кнопок */
 .auth-buttons-container {
   display: flex;
   gap: 16px;
-  /* align-items: center; */
 }
 
-/* Стили для контейнера в панели навигации */
+/* Стили для отображения в навбаре */
 .VPNavBar .auth-buttons-container {
   margin-left: 16px;
 }
 
-/* Стили для контейнера в hero-секции */
-.VPHero .auth-buttons-container {
-  margin-top: 24px;
-  display: inline-flex;
+/* Стили для выпадающего меню на мобильных */
+.VPNavScreen .auth-buttons-container.mobile-buttons {
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 20px;
+  padding: 0 24px;
+  width: 100%;
+}
+
+/* Кнопки на всю ширину в мобильном меню */
+.VPNavScreen .auth-buttons-container.mobile-buttons button {
+  width: 100%;
+  justify-content: center;
+}
+
+/* Скрытие десктопных кнопок на мобильных устройствах */
+@media (max-width: 768px) {
+  .VPNavBar .auth-buttons-container {
+    display: none;
+  }
 }

@@ -14,18 +14,22 @@ export default {
     // const { frontmatter } = useData()
 
     return h(DefaultTheme.Layout, null, {
+      // Для десктопов (в навбаре)
       "nav-bar-content-after": () =>
         h("div", { class: "auth-buttons-container" }, [
           h(ContactFormModal, {
             buttonText: "Send request",
-            // formStyle: "display: block; margin: 20px auto;",
           }),
           h(NavButton, { text: "Ask AI", buttonClass: "alt", to: "/chat" }),
         ]),
-      // "aside-ads-before": () => h(AsideSponsors),
-      // "home-features-after": () => h(HomeSponsors),
+      // Для мобильных (в выпадающем меню)
+      "nav-screen-content-after": () =>
+        h("div", { class: "auth-buttons-container mobile-buttons" }, [
+          h(ContactFormModal, {
+            buttonText: "Send request",
+          }),
+          h(NavButton, { text: "Ask AI", buttonClass: "alt", to: "/chat" }),
+        ]),
     })
   },
-  // Если нужно переопределить какие-то методы темы, можно это сделать здесь
-  // enhanceApp({ app, router }) {},
 }
