@@ -11,23 +11,17 @@ const { ContactFormModal, NavButton } = components
 export default {
   ...sharedTheme,
   Layout() {
-    // const { frontmatter } = useData()
-
     return h(DefaultTheme.Layout, null, {
       // Для десктопов (в навбаре)
       "nav-bar-content-after": () =>
         h("div", { class: "auth-buttons-container" }, [
-          h(ContactFormModal, {
-            buttonText: "Send request",
-          }),
+          h(ContactFormModal, { buttonText: "Send request" }),
           h(NavButton, { text: "Ask AI", buttonClass: "alt", to: "/chat" }),
         ]),
       // Для мобильных (в выпадающем меню)
       "nav-screen-content-after": () =>
         h("div", { class: "auth-buttons-container mobile-buttons" }, [
-          h(ContactFormModal, {
-            buttonText: "Send request",
-          }),
+          h(ContactFormModal, { buttonText: "Send request" }),
           h(NavButton, { text: "Ask AI", buttonClass: "alt", to: "/chat" }),
         ]),
     })
