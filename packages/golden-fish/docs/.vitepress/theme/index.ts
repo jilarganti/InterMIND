@@ -1,6 +1,6 @@
 import { h } from "vue"
 import DefaultTheme from "vitepress/theme"
-import "./styles/style.css"
+import "./style.css"
 
 import { components } from "shared"
 import sharedTheme from "shared"
