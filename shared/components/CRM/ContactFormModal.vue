@@ -56,6 +56,7 @@ const messageLabelValue = computed(() => props.messageLabel || site.value.themeC
 const messagePlaceholderValue = computed(() => props.messagePlaceholderText || site.value.themeConfig.contact_form.messagePlaceholder)
 
 const emit = defineEmits(["success"])
+
 const isRealLead = import.meta.env.VITE_IS_PROD
 
 const showModal = ref(false)
