@@ -139,15 +139,3 @@ Trade finance covers several financial instruments, including bank guarantees, l
 Corporate finance options include loans, overdrafts, or preferential credit terms (e.g., reduced interest rates for loyal customers or extended repayment schedules).
 
 Some multinational Clients seek trade finance to boost working capital, better manage cash flow, benefit from economies of scale by buying in volume, and reduce bankruptcy risks.
-
-## Book a free consultation to discuss your corporate banking needs
-
-<video  autoplay muted playsinline style="padding: 80px" >
-  <source src="/img/iStock-2185912341.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal formName="Banking [guide]" buttonText="Get a free consultation" :services="[
- '🏢 UAE Resident Corporate Account',
- '🌐 Non-UAE Resident Corporate Account (Low Risk)',
- '⚠️ Non-UAE Resident Corporate Account (High Risk)',
- '👤 Personal Bank Account']"/>
