@@ -370,3 +370,58 @@ code {
     display: none;
   }
 }
+
+/* Базовое предотвращение горизонтальной прокрутки сайта */
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* Навигация и основные контейнеры */
+#app,
+.VPNav,
+.VPNavBar,
+.VPContent {
+  max-width: 100vw;
+}
+
+/* Специальная обработка для таблиц - контейнер с горизонтальной прокруткой */
+.vp-doc table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+  white-space: nowrap; /* Опционально - предотвращает перенос в ячейках */
+}
+
+/* При необходимости можно сделать индикатор прокрутки для таблиц */
+.vp-doc table::after {
+  content: "⟷ Прокрутите для просмотра";
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #999;
+  padding: 0.5rem 0;
+  /* Показываем только если есть горизонтальная прокрутка */
+  display: none;
+}
+
+.vp-doc table::-webkit-scrollbar {
+  height: 8px;
+}
+
+.vp-doc table::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+/* Другие широкие элементы, которые могут требовать прокрутки */
+pre,
+code {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+:root {
+  --vp-layout-max-width: 100%;
+}
