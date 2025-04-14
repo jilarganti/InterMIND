@@ -1,8 +1,8 @@
 export const config = {
   rootDir: "docs/en",
   rootTranslateDir: "docs/i18n",
-  configDir: ".vitepress/config",
-  configTranslateDir: ".vitepress/config/i18n",
+  configDir: "docs/.vitepress/config",
+  configTranslateDir: "docs/.vitepress/config/i18n",
 
   languages: {
     ar: { code: "ar", name: "Gulf Arab & MSA" },
