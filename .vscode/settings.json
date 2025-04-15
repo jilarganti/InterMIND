@@ -2,11 +2,10 @@
   "files.exclude": {
     ".vercel": true,
     ".vscode": true,
-    ".eslintcache": true,
     "pnpm-lock.yaml": false,
     "LICENSE": true,
-    "docs": true,
-    "dist": true
+
+    "dist": false
   },
   "search.exclude": {
     "**/node_modules": true,
