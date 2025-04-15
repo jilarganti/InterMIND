@@ -1,11 +1,11 @@
 ---
 layout: home
 title: "Services de Formation d'Entreprise aux EAU"
-description: "Services experts de formation et de support d'entreprise aux EAU. Configuration d'entreprise, services bancaires, fiscaux, juridiques et solutions de visa. Paiement uniquement après approbation."
+description: "Services experts de formation et d'accompagnement d'entreprises aux EAU. Configuration d'entreprise, services bancaires, fiscalité, solutions juridiques et visas. Paiement uniquement après approbation."
 showSponsors: false
 
 hero:
-  name: "EAU : Votre Havre Financier Sécurisé"
+  name: "EAU : Votre Havre Financier"
   # text: We speak your tongue
   tagline: "Support Commercial Complet : Configuration d'Entreprise, Visas, Services Bancaires. <span class='hl'>Pas de succès — pas de frais</span>."
 
@@ -29,13 +29,13 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Guide de Création d\'Entreprise',
-    details: 'Guide complet pour créer des entreprises en **Free Zone, offshore, Mainland, succursale**.',
+    details: 'Guide complet pour créer des entreprises en **free zone, offshore, mainland, branch**.',
     items: [
       'Propriété étrangère à 100% disponible en Free Zones et Mainland',
-      'Taux d\'imposition bas - seulement 9% d\'impôt sur les sociétés',
-      'Pas de contrôle des changes - rapatriement facile des capitaux'
+      'Taux d\'Imposition Bas - seulement 9% d\'impôt sur les sociétés',
+      'Pas de Contrôle des Changes - rapatriement facile des capitaux'
     ],
-    linkText: 'Learn more',
+    linkText: 'En savoir plus',
     link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -51,7 +51,7 @@ hero:
       'Configuration complète du package bancaire',
       '**Taux de réussite de 96%**',
     ],
-    linkText: 'Learn more',
+    linkText: 'En savoir plus',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -60,14 +60,14 @@ hero:
     }
   },
   {
-    title: 'Golden Visa et Résidence',
+    title: 'Visa Doré et Résidence',
     details: 'Obtenez un **Golden Visa** des EAU pour une résidence à long terme avec un processus de demande simplifié.',
     items: [
       '**Pas besoin d\'entrer aux EAU tous les 6 mois**',
-      'Validité de 10 ans avec option de renouvellement sous conditions qualifiantes',
+      'Validité de 10 ans avec option de renouvellement sous conditions',
       'Taux de réussite de 92%',
     ],
-    linkText: 'Learn more',
+    linkText: 'En savoir plus',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -82,7 +82,7 @@ hero:
     title: 'Services de Conformité',
     details: 'Nos experts vous guident à travers les exigences réglementaires complexes des EAU, y compris les rapports ESR et les déclarations UBO.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'En savoir plus',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -94,7 +94,7 @@ hero:
     title: 'Impôt sur les Sociétés et TVA',
     details: 'Conseils d\'experts pour assurer la conformité aux obligations d\'impôt sur les sociétés et de TVA auprès de l\'Autorité Fiscale Fédérale (FTA).',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'En savoir plus',
     link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -106,7 +106,7 @@ hero:
     title: 'Services Juridiques',
     details: 'L\'équipe juridique conseille sur les lois des EAU concernant les fusions-acquisitions, la restructuration d\'entreprise, le financement et la résolution des litiges.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'En savoir plus',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -118,7 +118,7 @@ hero:
     title: 'Comptabilité et Paie',
     details: 'Nos comptables gèrent les finances, assurant la comptabilité, le rapprochement, la paie et le support d\'audit, économisant les coûts de recrutement.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'En savoir plus',
     link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
@@ -152,7 +152,7 @@ hero:
 
 :::details FAQ sur la création d'entreprise aux EAU
 
-### Exigences générales de propriété
+### Exigences générales en matière de propriété
 
 **Y aura-t-il des restrictions sur la propriété si des étrangers créent une entreprise aux EAU ?**
 
@@ -217,8 +217,8 @@ Non, Golden Fish peut légalement incorporer votre entreprise aux EAU sans que v
 
 Les exigences diffèrent selon le type d'entreprise :
 
-| Type d'entreprise | Exigence de bureau |
-| ----------------- | --------------------------------------------------------------------------------------- |
+| Type d'entreprise | Exigence en matière de bureau |
+| ----------------- | ----------------------------- |
 | Entreprise Free Zone | Un contrat de location de bureaux ou un flexi-desk est requis avant l'incorporation. |
 | Entreprise Mainland | Seule une adresse virtuelle ou enregistrée est nécessaire. |
 | Entreprise Offshore | Seule une adresse virtuelle ou enregistrée est nécessaire. |
@@ -255,7 +255,7 @@ Ces banques sont connues pour leur bon service client, ce qui est essentiel lors
 
 **Comment ouvrir un compte bancaire offshore aux EAU ?**
 
-Les clients n'auront pas besoin d'enregistrer une entreprise locale pour ouvrir un compte bancaire offshore aux EAU. Cependant, les procédures KYC seront plus strictes que pour l'ouverture d'un compte bancaire pour une entreprise résidente. Des documents d'attestation seront également requis. Veuillez consulter [notre guide d'ouverture de compte bancaire pour les entreprises des EAU](./uae-business/company-registration/banking) pour plus d'informations détaillées.
+Les clients n'auront pas besoin d'enregistrer une société locale pour ouvrir un compte bancaire offshore aux EAU. Cependant, les procédures KYC seront plus strictes que pour l'ouverture d'un compte bancaire pour une société résidente. Des documents d'attestation seront également requis. Veuillez consulter [notre guide d'ouverture de compte bancaire pour les entreprises des EAU](./uae-business/company-registration/banking) pour plus d'informations détaillées.
 
 **Golden Fish peut-il aider avec les services bancaires islamiques aux EAU ?**
 
@@ -268,3 +268,5 @@ Oui, Golden Fish peut aider les clients avec leurs besoins en matière de servic
 Les permis de résidence d'affaires aux EAU sont généralement délivrés pour 2 à 3 ans.
 
 :::
+
+<ContactFormModalNav buttonText="Obtenir une consultation gratuite" formStyle="display: block; margin: 3rem auto;"/>

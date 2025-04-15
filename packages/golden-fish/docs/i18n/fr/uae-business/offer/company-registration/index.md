@@ -43,8 +43,8 @@ hero:
 }" />
 
 <FeatureBlock :card="{
-  title: 'Support Complet : Étape par Étape avec Vous',
-  details: 'Guide complet pour créer des entreprises en **free zone, offshore, mainland, branch**. \n\n* 100% de Propriété Étrangère disponible en Free Zones et Mainland\n* Taux d\'Imposition Bas - seulement 9% d\'impôt sur les sociétés\n* Pas de Contrôle des Changes - rapatriement facile des capitaux\n\n[Learn more](/uae-business/company-registration/overview)',
+  title: 'Accompagnement Complet : Étape par Étape avec Vous',
+  details: 'Guide complet pour créer des entreprises en **free zone, offshore, mainland, branch**. \n\n* 100% de Propriété Étrangère disponible en Free Zones et Mainland\n* Taux d\'Imposition Bas - seulement 9% d\'impôt sur les sociétés\n* Pas de Contrôle des Changes - rapatriement facile du capital\n\n[Learn more](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -106,7 +106,7 @@ hero:
 <BenefitsList :features="[
   {
     icon: '🏢',
-    title: 'Expertise Locale aux EAU',
+    title: 'Expertise Locale aux UAE',
     text: 'Des spécialistes dédiés à Dubai fournissent des conseils d\'experts à chaque étape du processus.'
   },
   {
@@ -123,23 +123,11 @@ hero:
 
 ## Réservez une consultation gratuite pour vérifier votre éligibilité et discuter de vos options.
 
-<video  autoplay muted playsinline style="padding: 80px" >
+<video  autoplay muted playsinline style="padding: 24px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal 
-  formName="Golden Visa [offer]" 
-  buttonText="Obtenir une consultation gratuite" 
-  categoryLabel="Niveau de support requis : *" 
-  categoryPlaceholderText="Choisissez votre niveau de support"
-  messageLabel="Aidez-nous à préparer votre consultation (recommandé)"
-  messagePlaceholderText="Parlez-nous de vos préférences, des membres de votre famille, du calendrier ou de toute question spécifique"
-  :services="[
-  'Basique — documents essentiels et consultations uniquement',
-  'Standard — documentation complète et accompagnement lors des principales étapes',
-  'Complet — gestion complète du processus avec une implication minimale de votre part',
-  'Personnalisé — besoin de discuter des détails spécifiques et des exigences particulières',
-  ]"/>
+<ContactFormModalNav buttonText="Obtenir une consultation gratuite" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Immigration aux EAU' },

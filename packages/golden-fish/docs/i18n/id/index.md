@@ -29,13 +29,13 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Panduan Pendirian Perusahaan',
-    details: 'Panduan lengkap untuk mendirikan perusahaan di **Free Zone, offshore, Mainland, cabang**.',
+    details: 'Panduan lengkap untuk mendirikan perusahaan di **free zone, offshore, mainland, branch**.',
     items: [
       'Kepemilikan Asing 100% tersedia di Free Zone dan Mainland',
       'Tarif Pajak Rendah - hanya 9% pajak perusahaan',
       'Tidak Ada Kontrol Mata Uang - repatriasi modal yang mudah'
     ],
-    linkText: 'Learn more',
+    linkText: 'Pelajari lebih lanjut',
     link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -51,7 +51,7 @@ hero:
       'Pengaturan paket perbankan lengkap',
       '**Tingkat keberhasilan 96%**',
     ],
-    linkText: 'Learn more',
+    linkText: 'Pelajari lebih lanjut',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -67,7 +67,7 @@ hero:
       'Masa berlaku 10 tahun dengan opsi perpanjangan jika memenuhi syarat',
       'Tingkat keberhasilan 92%',
     ],
-    linkText: 'Learn more',
+    linkText: 'Pelajari lebih lanjut',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -82,7 +82,7 @@ hero:
     title: 'Layanan Kepatuhan',
     details: 'Para ahli kami membimbing Anda melalui persyaratan regulasi UAE yang kompleks, termasuk laporan ESR dan pengajuan UBO.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Pelajari lebih lanjut',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -94,7 +94,7 @@ hero:
     title: 'Pajak Perusahaan & PPN',
     details: 'Saran ahli memastikan kepatuhan terhadap kewajiban Pajak Perusahaan dan PPN dengan Federal Tax Authority (FTA).',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Pelajari lebih lanjut',
     link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -106,7 +106,7 @@ hero:
     title: 'Layanan Hukum',
     details: 'Tim hukum memberikan saran tentang hukum UAE mengenai M&A, restrukturisasi perusahaan, pembiayaan, dan penyelesaian sengketa.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Pelajari lebih lanjut',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -118,7 +118,7 @@ hero:
     title: 'Akuntansi & Penggajian',
     details: 'Akuntan kami mengelola keuangan, menyediakan pembukuan, rekonsiliasi, penggajian, dan dukungan audit, menghemat biaya perekrutan.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Pelajari lebih lanjut',
     link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
@@ -189,17 +189,17 @@ Perusahaan free zone UAE menawarkan beberapa keuntungan, termasuk:
 
 **Berapa banyak direktur yang harus ditunjuk untuk mendaftar di free trade zone UAE?**
 
-Hanya satu direktur yang diperlukan untuk membentuk perusahaan free zone UAE.
+Hanya diperlukan satu direktur untuk membentuk perusahaan free zone UAE.
 
 **Berapa banyak pemegang saham yang diperlukan untuk pendirian di free trade zone UAE?**
 
-Hanya satu pemegang saham yang diperlukan untuk memulai entitas free zone di UAE.
+Hanya diperlukan satu pemegang saham untuk memulai entitas free zone di UAE.
 
 **Berapa banyak pemegang saham yang diperlukan untuk perusahaan offshore di UAE?**
 
-Hanya satu pemegang saham yang diperlukan untuk memulai perusahaan offshore di UAE.
+Hanya diperlukan satu pemegang saham untuk memulai perusahaan offshore di UAE.
 
-**Apakah direktur penduduk diperlukan?**
+**Apakah diperlukan direktur yang berdomisili?**
 
 Tidak.
 
@@ -217,13 +217,13 @@ Tidak, Golden Fish dapat secara legal mendirikan perusahaan UAE Anda tanpa Anda 
 
 Persyaratan berbeda berdasarkan jenis perusahaan:
 
-| Jenis Perusahaan | Persyaratan Kantor                                                                    |
-| ---------------- | ------------------------------------------------------------------------------------ |
-| Free Zone Company| Perjanjian sewa untuk tempat kantor atau flexi-desk diperlukan sebelum pendirian.    |
-| Mainland Company | Hanya memerlukan alamat virtual atau terdaftar.                                       |
-| Offshore Company | Hanya memerlukan alamat virtual atau terdaftar.                                       |
+| Jenis Perusahaan | Persyaratan Kantor |
+| ----------------- | --------------------------------------------------------------------------------------- |
+| Free Zone Company | Perjanjian sewa untuk tempat kantor atau flexi-desk diperlukan sebelum pendirian. |
+| Mainland Company | Hanya memerlukan alamat virtual atau terdaftar. |
+| Offshore Company | Hanya memerlukan alamat virtual atau terdaftar. |
 
-Tabel perbandingan ini membantu memperjelas perbedaan antara persyaratan untuk perusahaan free zone, mainland, dan offshore.
+Tabel perbandingan ini membantu memperjelas perbedaan persyaratan antara perusahaan free zone, mainland, dan offshore.
 
 ### Kepatuhan dan Perpajakan
 
@@ -237,7 +237,7 @@ Pajak Penghasilan Badan (CIT) telah diterapkan di UAE dengan tarif standar 9%. S
 
 **Apakah perusahaan UAE diwajibkan untuk menyerahkan laporan pajak tahunan dan/atau laporan keuangan?**
 
-Ya, semua perusahaan di UAE wajib menyerahkan laporan keuangan yang diaudit tahunan kepada pemerintah.
+Ya, semua perusahaan di UAE wajib menyerahkan laporan keuangan yang diaudit kepada pemerintah setiap tahun.
 
 ### Solusi Perbankan
 
@@ -268,3 +268,5 @@ Ya, Golden Fish dapat membantu klien dengan kebutuhan perbankan syariah mereka.
 Izin tinggal bisnis UAE biasanya diterbitkan untuk 2 hingga 3 tahun.
 
 :::
+
+<ContactFormModalNav buttonText="Dapatkan konsultasi gratis" formStyle="display: block; margin: 3rem auto;"/>

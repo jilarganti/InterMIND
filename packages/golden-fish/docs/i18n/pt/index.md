@@ -1,13 +1,13 @@
 ---
 layout: home
 title: "Serviços de Formação de Empresas nos EAU"
-description: "Serviços especializados de formação e suporte empresarial nos EAU. Constituição de empresas, serviços bancários, tributários, jurídicos e soluções de visto. Pagamento apenas após aprovação."
+description: "Serviços especializados de formação e suporte empresarial nos EAU. Abertura de empresa, serviços bancários, impostos, soluções jurídicas e de visto. Pagamento apenas após aprovação."
 showSponsors: false
 
 hero:
   name: "EAU: Seu Porto Seguro Financeiro"
   # text: We speak your tongue
-  tagline: "Suporte Empresarial Completo: Constituição de Empresa, Vistos, Serviços Bancários. <span class='hl'>Sem sucesso — sem cobrança</span>."
+  tagline: "Suporte Empresarial Completo: Abertura de Empresa, Vistos, Serviços Bancários. <span class='hl'>Sem sucesso — sem cobrança</span>."
 
   actions:
     - theme: brand
@@ -28,19 +28,19 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Guia de Constituição de Empresa',
-    details: 'Guia completo para constituir empresas na **Free Zone, offshore, mainland, branch**.',
+    title: 'Guia de Abertura de Empresa',
+    details: 'Guia completo para abrir empresas na **Free Zone, offshore, mainland, branch**.',
     items: [
-      'Propriedade 100% Estrangeira disponível em Free Zones e Mainland',
+      '100% de Propriedade Estrangeira disponível em Free Zones e Mainland',
       'Baixas Taxas de Impostos - apenas 9% de imposto corporativo',
       'Sem Controle Cambial - fácil repatriação de capital'
     ],
-    linkText: 'Learn more',
+    linkText: 'Saiba mais',
     link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
       dark: '/img/iStock-1448478309.jpg',
-      alt: 'Guia de Constituição de Empresa'
+      alt: 'Guia de Abertura de Empresa'
     }
   },
   {
@@ -51,7 +51,7 @@ hero:
       'Configuração completa do pacote bancário',
       '**96% de taxa de sucesso**',
     ],
-    linkText: 'Learn more',
+    linkText: 'Saiba mais',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -67,7 +67,7 @@ hero:
       'Validade de 10 anos com opção de renovação mantendo as condições qualificadoras',
       '92% de taxa de sucesso',
     ],
-    linkText: 'Learn more',
+    linkText: 'Saiba mais',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -79,22 +79,22 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Serviços de Compliance',
+    title: 'Serviços de Conformidade',
     details: 'Nossos especialistas o guiam através dos complexos requisitos regulatórios dos EAU, incluindo relatórios ESR e registros UBO.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Saiba mais',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
-      alt: 'Serviços de Compliance'
+      alt: 'Serviços de Conformidade'
     }
   },
   {
     title: 'Imposto Corporativo e VAT',
     details: 'Consultoria especializada garante conformidade com obrigações de Imposto Corporativo e VAT junto à Autoridade Federal Tributária (FTA).',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Saiba mais',
     link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -104,9 +104,9 @@ hero:
   },
   {
     title: 'Serviços Jurídicos',
-    details: 'Equipe jurídica orienta sobre as leis dos EAU referentes a M&As, reestruturação corporativa, financiamento e resolução de disputas.',
+    details: 'Equipe jurídica aconselha sobre as leis dos EAU referentes a fusões e aquisições, reestruturação corporativa, financiamento e resolução de disputas.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Saiba mais',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -118,7 +118,7 @@ hero:
     title: 'Contabilidade e Folha de Pagamento',
     details: 'Nossos contadores gerenciam finanças, fornecendo contabilidade, reconciliação, folha de pagamento e suporte de auditoria, economizando custos de contratação.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Saiba mais',
     link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
@@ -134,7 +134,7 @@ hero:
   {
     icon: '🏢',
     title: 'Expertise Local nos EAU',
-    text: 'Especialistas dedicados em Dubai fornecem orientação especializada em cada etapa do processo.'
+    text: 'Especialistas dedicados em Dubai oferecem orientação especializada em cada etapa do processo.'
   },
   {
     icon: '📊',
@@ -166,7 +166,7 @@ Sim, a maioria das atividades empresariais permite 100% de propriedade estrangei
 
 **Como registrar uma empresa na free trade zone dos EAU?**
 
-Para incorporação de uma entidade na free zone nos EAU, a Golden Fish irá:
+Para incorporação de uma entidade free zone nos EAU, a Golden Fish irá:
 
 1. Obter as permissões necessárias das autoridades relevantes.
 2. Reservar o nome da empresa.
@@ -176,9 +176,9 @@ Para incorporação de uma entidade na free zone nos EAU, a Golden Fish irá:
 6. Registrar a empresa para VAT (se necessário).
 7. Obter vistos de trabalho para clientes e seus funcionários.
 
-**Quais são os benefícios de abrir uma entidade na free zone nos EAU?**
+**Quais são os benefícios de abrir uma entidade free zone nos EAU?**
 
-As empresas da free zone nos EAU oferecem diversos benefícios, incluindo:
+Empresas free zone nos EAU oferecem diversos benefícios, incluindo:
 
 1. Sem necessidade de acionista residente, ou seja, uma empresa FZ pode ser 100% de propriedade estrangeira.
 2. Sem obrigação de contratar funcionários.
@@ -187,13 +187,13 @@ As empresas da free zone nos EAU oferecem diversos benefícios, incluindo:
 
 ### Diretores e Acionistas
 
-**Quantos diretores devem ser nomeados para registro em uma free trade zone nos EAU?**
+**Quantos diretores devem ser nomeados para registro em uma free trade zone dos EAU?**
 
-Apenas um diretor é necessário para formar uma empresa na free zone dos EAU.
+Apenas um diretor é necessário para formar uma empresa free zone nos EAU.
 
-**Quantos acionistas são necessários para incorporação em uma free trade zone nos EAU?**
+**Quantos acionistas são necessários para incorporação em uma free trade zone dos EAU?**
 
-Apenas um acionista é necessário para iniciar uma entidade na free zone nos EAU.
+Apenas um acionista é necessário para iniciar uma entidade free zone nos EAU.
 
 **Quantos acionistas são necessários para uma empresa offshore nos EAU?**
 
@@ -203,7 +203,7 @@ Apenas um acionista é necessário para iniciar uma empresa offshore nos EAU.
 
 Não.
 
-**Os detalhes dos acionistas/diretores estão disponíveis para visualização pública?**
+**Os detalhes do acionista/diretor estão disponíveis para visualização pública?**
 
 Não.
 
@@ -229,15 +229,15 @@ Esta tabela comparativa ajuda a esclarecer as diferenças entre os requisitos pa
 
 **Precisarei fazer uma auditoria completa se abrir uma pequena empresa nos EAU?**
 
-Sim, a maioria das entidades exigirá demonstrações financeiras auditadas.
+Sim, a maioria das entidades necessitará de demonstrações financeiras auditadas.
 
 **Quais são as implicações fiscais de uma abertura de empresa nos EAU?**
 
-O Imposto de Renda Corporativo (CIT) foi implementado nos EAU com uma taxa padrão de 9%. Além disso, dependendo do volume e natureza do negócio, algumas empresas estão sujeitas ao VAT (5%) e/ou taxas alfandegárias. Setores específicos, como petróleo e gás e filiais de bancos estrangeiros, podem ter considerações ou isenções fiscais especiais.
+O Imposto de Renda Corporativo (CIT) foi implementado nos EAU com uma taxa padrão de 9%. Além disso, dependendo do volume e natureza do negócio, algumas empresas são sujeitas a VAT (5%) e/ou taxas alfandegárias. Indústrias específicas, como petróleo e gás e filiais de bancos estrangeiros, podem ter considerações ou isenções fiscais especiais.
 
-**Uma empresa dos EAU é obrigada a apresentar declaração fiscal anual e/ou demonstração financeira?**
+**Uma empresa dos EAU precisa enviar declaração fiscal anual e/ou demonstração financeira?**
 
-Sim, todas as empresas nos EAU são obrigadas a apresentar contas auditadas anuais ao governo.
+Sim, todas as empresas nos EAU são obrigadas a enviar contas auditadas anuais ao governo.
 
 ### Soluções Bancárias
 
@@ -255,7 +255,7 @@ Estes bancos são conhecidos por bom atendimento ao cliente, essencial ao inicia
 
 **Como abrir uma conta bancária offshore nos EAU?**
 
-Os clientes não precisarão registrar uma empresa local para abrir uma conta bancária offshore nos EAU. No entanto, os procedimentos KYC serão mais rigorosos do que para abrir uma conta bancária para uma empresa residente. Documentos de autenticação também serão necessários. Consulte [nosso guia de abertura de conta bancária para empresas dos EAU](./uae-business/company-registration/banking) para informações mais detalhadas.
+Os clientes não precisarão registrar uma empresa local para abrir uma conta bancária offshore nos EAU. No entanto, os procedimentos KYC serão mais rigorosos do que para abrir uma conta bancária para uma empresa residente. Documentos de atestação também serão necessários. Consulte [nosso guia de abertura de conta bancária para empresas dos EAU](./uae-business/company-registration/banking) para informações mais detalhadas.
 
 **A Golden Fish pode auxiliar com serviços bancários islâmicos nos EAU?**
 
@@ -263,8 +263,10 @@ Sim, a Golden Fish pode auxiliar clientes com suas necessidades bancárias islâ
 
 ### Vistos e Residência
 
-**Por quanto tempo é emitido um visto de residência empresarial nos EAU?**
+**Por quanto tempo é emitido um visto de residência empresarial dos EAU?**
 
-As permissões de residência empresarial nos EAU são tipicamente emitidas por 2 a 3 anos.
+As permissões de residência empresarial dos EAU são tipicamente emitidas por 2 a 3 anos.
 
 :::
+
+<ContactFormModalNav buttonText="Obtenha uma consulta gratuita" formStyle="display: block; margin: 3rem auto;"/>

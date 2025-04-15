@@ -34,20 +34,4 @@ Dubai, UAE
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
 > [!IMPORTANT] Neden Bizi Seçmelisiniz?
-> Bilgili profesyonellerden oluşan ekibimiz ve kişiselleştirilmiş hizmet taahhüdümüz ile müşterilerimize sorunsuz ve verimli bir deneyim sunuyor, böylece onların en önemli konuya - BAE'deki işlerini büyütmeye - odaklanmalarını sağlıyoruz.
-
-<ContactFormModal 
-  formName="Bize Ulaşın" 
-  buttonText="Bize mesaj gönderin" 
-  formStyle="display: block; margin: 2rem auto;"
-  categoryLabel="Gerekli destek seviyesi: *" 
-  categoryPlaceholderText="Destek seviyenizi seçin"
-  messageLabel="Size nasıl yardımcı olabiliriz? (önerilen)"
-  messagePlaceholderText="İhtiyaçlarınız için en iyi çözümü hazırlayabilmemiz için lütfen sorgunuzun detaylarını paylaşın"
-  :services="[
-  'Temel — yalnızca ilk danışmanlık ve rehberlik',
-  'Standart — eksiksiz dokümantasyon ve süreç yönetimi',
-  'Kapsamlı — sizin minimum katılımınızla tam hizmet çözümü',
-  'Özel — karmaşık gereksinimler veya benzersiz iş durumu',
-  ]"
-/>
+> Bilgili profesyonellerden oluşan ekibimiz ve kişiselleştirilmiş hizmet taahhüdümüz ile müşterilerimize sorunsuz ve verimli bir deneyim sunuyor, böylece onların en önemli konuya - BAE'de işlerini büyütmeye - odaklanmalarını sağlıyoruz.

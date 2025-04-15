@@ -1,13 +1,13 @@
 ---
 layout: home
-title: "BAE Altın Vize | Başarı Bazlı Ücretlendirme Hizmeti"
-description: "Peşin ödeme olmadan premium 10 yıllık oturma vizesi - sadece onaydan sonra ödeme. %98 başarı oranıyla tam başvuru yönetimi. Ücretsiz yenileme hizmeti, sadece resmi harçlar."
+title: "BAE Altın Vize | Başarı Ücretine Dayalı Hizmet"
+description: "Ön ödeme olmadan premium 10 yıllık oturma vizesi - sadece onaydan sonra ödeme yapın. %98 başarı oranı ile tam başvuru yönetimi. Ücretsiz yenileme hizmeti, sadece resmi harçlar."
 showSponsors: false
 
 hero:
   name: "BAE Altın Vize"
-  text: Sonuç bazlı ödeme
-  tagline: 10 yıllık oturma. <span class="hl">Peşin ödeme yok</span> - sadece onaydan sonra ödeme. %98 başarı oranı.
+  text: Sonuca dayalı ödeme
+  tagline: 10 yıllık oturma. <span class="hl">Ön ödeme yok</span> - sadece onaydan sonra ödeme. %98 başarı oranı.
   image:
     light:
       src: /img/Logo.avif
@@ -22,10 +22,10 @@ hero:
   {
     title: 'BAE Altın Vize Avantajları',
     items: [
-      '10 yıl geçerlilik ve yeterlilik koşullarını koruyarak yenileme seçeneği',
+      '10 yıl geçerlilik ve uygunluk koşullarını koruyarak yenileme seçeneği',
       '**Her 6 ayda bir BAE\'ye giriş yapma zorunluluğu yok**',
       '%100 işletme sahipliğine izin verilir',
-      'Aile üyeleri ve sınırsız sayıda ev personeli sponsorluğu',
+      'Aile üyeleri ve sınırsız ev personeli sponsorluğu',
       '25 yaşına kadar çocuk sponsorluğu',
       'Ebeveyn sponsorluğu dahil',
       'Sponsor veya işveren gerekli değil'
@@ -66,8 +66,8 @@ hero:
       'Belge hazırlama ve doğrulama',
       'Sağlık muayenesi ve biyometrik',
       'Başvuru Gönderimi ve İşleme',
-      'Emirates ID ve vize düzenleme',
-      'Aile vizesi sponsorluğu (opsiyonel)'
+      'Emirates ID ve vize düzenlenmesi',
+      'Aile vizesi sponsorluğu (isteğe bağlı)'
     ],
     linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
@@ -85,7 +85,7 @@ hero:
 <BenefitsList :features="[
   {
     icon: '💰',
-    title: 'Başarıya Dayalı Ücretler',
+    title: 'Başarı Bazlı Ücretler',
     text: '**Golden Visa onaylanana kadar ödeme yok.** Gizli maliyetler olmadan tam şeffaflık.'
   },
   {
@@ -96,7 +96,7 @@ hero:
   {
     icon: '📋',
     title: 'Eksiksiz Yönetim',
-    text: 'Belgelerden vize düzenlemeye kadar tüm detayların uçtan uca yönetimi.'
+    text: 'Belgelerden vize düzenlenmesine kadar tüm detaylarla ilgilenen uçtan uca hizmet.'
   },
   {
     icon: '👨‍💼',
@@ -106,7 +106,7 @@ hero:
   {
     icon: '🔍',
     title: 'Premium İşlem',
-    text: 'Yetkililerle doğrudan iletişim ve daha hızlı onaylar için hızlı kanal erişimi.'
+    text: 'Daha hızlı onaylar için yetkililerle doğrudan iletişim ve hızlı kanal erişimi.'
   },
   {
     icon: '🔄',
@@ -117,23 +117,11 @@ hero:
 
 ## Uygunluğunuzu kontrol etmek ve seçeneklerinizi görüşmek için ücretsiz danışmanlık randevusu alın.
 
-<video  autoplay muted playsinline style="padding: 80px" >
+<video  autoplay muted playsinline style="padding: 24px" >
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal 
-  formName="Golden Visa [offer]" 
-  buttonText="Ücretsiz danışmanlık alın" 
-  categoryLabel="Gereken destek seviyesi: *" 
-  categoryPlaceholderText="Destek seviyenizi seçin"
-  messageLabel="Danışmanlığınız için bize yardımcı olun (önerilen)"
-  messagePlaceholderText="Yatırım tercihleriniz, aile üyeleriniz, zaman çizelgeniz veya özel sorularınız hakkında bilgi verin"
-  :services="[
-  'Temel — yalnızca gerekli belgeler ve danışmanlıklar',
-  'Standart — eksiksiz dokümantasyon ve ana aşamalarda rehberlik',
-  'Kapsamlı — sizden minimum katılım ile tam servis süreç yönetimi',
-  'Özel — belirli detayları ve özel gereksinimleri görüşmek gerekiyor',
-  ]"/>
+<ContactFormModalNav buttonText="Ücretsiz danışmanlık alın" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'BAE Göçmenlik' },

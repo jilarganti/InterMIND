@@ -5,7 +5,7 @@ description: "Comptes d'entreprise multi-devises premium sans frais initiaux - p
 showSponsors: false
 
 hero:
-  name: "Banque aux EAU : Votre Havre de Sécurité"
+  name: "Services Bancaires aux EAU : Votre Havre de Sécurité"
   # text: Aucun frais initial
   tagline: Approbations garanties de comptes d'entreprise en 2025. <span class="hl">Aucun frais initial</span> - paiement uniquement après approbation. Taux de réussite de 96%.
   image:
@@ -44,9 +44,9 @@ hero:
   {
     title: 'Comptes bancaires aux EAU pour entreprises à haut risque',
     items: [
-      'Conseils d\'experts sur la due diligence renforcée (EDD)',
+      'Conseils d\'experts sur l\'EDD',
       'Surveillance des transactions et gestion des risques',
-      'Mise en place des politiques et procédures de conformité',
+      'Configuration des politiques et procédures de conformité',
       'Gestion des relations bancaires',
       'Mises à jour et audits réguliers de conformité',
       'Planification d\'urgence pour la sécurité des comptes'
@@ -109,7 +109,7 @@ hero:
   {
     icon: '🏢',
     title: 'Expertise Locale aux EAU',
-    text: 'Des spécialistes dévoués à Dubaï fournissent des conseils d\'experts à chaque étape du processus.'
+    text: 'Des spécialistes dédiés à Dubai fournissent des conseils d\'experts à chaque étape du processus.'
   },
   {
     icon: '📊',
@@ -118,28 +118,11 @@ hero:
   },
   {
     icon: '💸',
-    title: '**Honoraires Basés sur le Succès**',
+    title: '**Frais Basés sur le Succès**',
     text: '[Payez uniquement après approbation](/uae-business/benefits/success-based-fees). Transparence totale sans frais cachés.'
   },
 ]" />
 
-## Réservez une consultation gratuite pour discuter de vos besoins en matière de banque d'entreprise
+## Réservez une consultation gratuite pour discuter de vos besoins bancaires d'entreprise
 
-<video  autoplay muted playsinline style="padding: 80px" >
-  <source src="/video/iStock-2185918790.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal 
-  formName="Banking [offer]" 
-  buttonText="Obtenir une consultation gratuite" 
-  categoryLabel="Niveau de support requis : *" 
-  categoryPlaceholderText="Choisissez votre niveau de support"
-  messageLabel="Aidez-nous à préparer votre consultation (recommandé)"
-  messagePlaceholderText="Parlez-nous de votre type d'entreprise, des juridictions d'exploitation, des volumes de transactions prévus et de vos besoins bancaires spécifiques (multi-devises, financement commercial, etc.)"
-  :services="[
-  'Basique — consultation essentielle sur la documentation et l\'ouverture de compte uniquement',
-  'Standard — documentation complète et accompagnement à travers toutes les étapes bancaires',
-  'Complet — configuration bancaire complète avec une implication minimale de votre part',
-  'Personnalisé — besoin de discuter des transactions à volume élevé ou d\'une structure multi-juridictionnelle',
-  ]"
-/>
+<ContactFormModalNav buttonText="Obtenir une consultation gratuite" formStyle="display: block; margin: 3rem auto;"/>

@@ -5,8 +5,8 @@ description: "선불 수수료 없는 프리미엄 다중 통화 기업 계좌 -
 showSponsors: false
 
 hero:
-  name: "UAE 뱅킹: 귀하의 안전한 항구"
-  # text: 선불 수수료 없음
+  name: "UAE 뱅킹: 당신의 안전한 항구"
+  # text: Zero upfront fees
   tagline: 2025년 기업 은행 계좌 승인 보장. <span class="hl">선불 수수료 없음</span> - 승인 후에만 지불. 96% 성공률.
   image:
     light:
@@ -45,7 +45,7 @@ hero:
     title: '고위험 사업을 위한 UAE 은행 계좌',
     items: [
       '강화된 실사(EDD)에 대한 전문가 지침',
-      '거래 모니터링 및 리스크 관리',
+      '거래 모니터링 및 리스크 관리', 
       '컴플라이언스 정책 및 절차 설정',
       '은행 관계 관리',
       '정기적인 컴플라이언스 업데이트 및 감사',
@@ -62,9 +62,9 @@ hero:
   {
     title: '컴플라이언스 유지: UAE 비즈니스 보호',
     items: [
-      '잠재적 리스크 식별을 위한 정기 컴플라이언스 감사',
-      '정부 승인을 위한 종합 PRO 서비스',
-      '라이선스 갱신 관리 및 알림',
+      '잠재적 리스크 식별을 위한 정기적인 컴플라이언스 감사',
+      '정부 승인을 위한 종합적인 PRO 서비스',
+      '라이센스 갱신 관리 및 알림',
       '뱅킹 컨설팅 및 계좌 유지',
       'VAT 및 ESR 컴플라이언스 지원',
       '직원 비자 및 노동법 컴플라이언스',
@@ -81,12 +81,12 @@ hero:
   {
     title: 'UAE 기업 뱅킹 혜택',
     items: [
-      'Moody\'s **Aa2** 등급의 강력한 은행 시스템',
-      '**1980년 이후 고정 USD 환율**',
+      'Moody\'s **Aa2** 등급의 강력한 뱅킹 시스템',
+      '**1980년부터 고정된 USD 환율**',
       '자본 이동에 대한 제한 없음',
       '1,840억 달러 이상의 외환 보유고',
       '정치적, 경제적 안정성',
-      '정부 지원 은행 시스템',
+      '정부 지원 뱅킹 시스템',
       '세계적 수준의 디지털 뱅킹'
     ],
     linkText: 'Learn more',
@@ -99,7 +99,7 @@ hero:
   }
 ]" />
 
-## Golden Fish에서 고객님께 추천하는 은행:
+## Golden Fish는 고객님들께 다음 은행들을 추천해드립니다:
 
 <!--@include: /../../include/recommended-banks.md-->
 
@@ -123,23 +123,6 @@ hero:
   },
 ]" />
 
-## 기업 뱅킹 니즈에 대해 무료 상담 예약하기
+## 기업 뱅킹 니즈에 대해 상담받으실 수 있는 무료 컨설팅을 예약하세요
 
-<video  autoplay muted playsinline style="padding: 80px" >
-  <source src="/video/iStock-2185918790.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal 
-  formName="Banking [offer]" 
-  buttonText="무료 상담 받기" 
-  categoryLabel="필요한 지원 수준: *" 
-  categoryPlaceholderText="지원 수준을 선택하세요"
-  messageLabel="상담 준비를 위해 도움이 되는 정보 (권장사항)"
-  messagePlaceholderText="귀사의 사업 유형, 운영 관할 지역, 예상 거래량 및 특정 뱅킹 요구사항(다중통화, 무역금융 등)에 대해 알려주세요"
-  :services="[
-  '기본 — 필수 서류 및 계좌 개설 상담만 진행',
-  '표준 — 모든 뱅킹 단계에 대한 완전한 서류 작성 및 안내',
-  '종합 — 귀사의 최소한의 참여로 완벽한 뱅킹 설정 서비스 제공',
-  '맞춤형 — 대량 거래 또는 다중 관할 구조에 대해 논의 필요',
-  ]"
-/>
+<ContactFormModalNav buttonText="무료 컨설팅 받기" formStyle="display: block; margin: 3rem auto;"/>

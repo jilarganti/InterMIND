@@ -1,12 +1,11 @@
 ---
 layout: home
-title: "Kinh Doanh UAE Không Rủi Ro | Không Phê Duyệt, Không Thanh Toán"
+title: "Thành Lập Doanh Nghiệp UAE Không Rủi Ro | Không Phê Duyệt, Không Thanh Toán"
 description: "Mô hình thành lập công ty UAE đột phá: chỉ thanh toán sau khi thành công. Hướng dẫn chuyên nghiệp qua từng giai đoạn với tỷ lệ thành công trên 90%."
 showSponsors: false
 
 hero:
   name: "Thành Lập Công Ty UAE: Chúng Tôi Chia Sẻ Rủi Ro Cùng Bạn"
-  # text: Payment by results
   tagline: "Đầu tư vào doanh nghiệp của bạn một cách tự tin: chúng tôi chỉ nhận thanh toán sau khi đăng ký công ty thành công. <span class='hl'>Thành công của bạn là mục tiêu duy nhất của chúng tôi</span>."
   image:
     light:
@@ -16,7 +15,6 @@ hero:
       src: /img/Logo.avif
       width: 40%
     alt: Logo Golden Fish
-
 ---
 
 <FeatureBlock :card="{
@@ -33,7 +31,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Thách Thức Chúng Ta Cùng Vượt Qua',
-  details: 'Mặc dù UAE mang lại nhiều lợi ích, doanh nghiệp cần lưu ý những thách thức tiềm ẩn khi thiết lập hoạt động. \n\n* Môi trường pháp lý phức tạp: Quy định khác nhau giữa các tiểu vương quốc và Free Zone\n* Yêu cầu về thực chất kinh tế: Cần nhân viên địa phương và văn phòng vật lý cho một số hoạt động\n* Chi phí ban đầu cao: Phí đăng ký, tài liệu và thuê văn phòng bắt buộc\n\n[Xem danh sách đầy đủ](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'Mặc dù UAE cung cấp nhiều lợi ích, doanh nghiệp cần lưu ý những thách thức tiềm ẩn khi thiết lập hoạt động. \n\n* Môi trường pháp lý phức tạp: Quy định khác nhau giữa các tiểu vương quốc và free zone\n* Yêu cầu về thực chất kinh tế: Cần nhân viên địa phương và văn phòng vật lý cho một số hoạt động\n* Chi phí ban đầu cao: Phí đăng ký, tài liệu và thuê văn phòng bắt buộc\n\n[Xem danh sách đầy đủ](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -45,7 +43,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Hỗ Trợ Toàn Diện: Đồng Hành Từng Bước',
-  details: 'Hướng dẫn đầy đủ để thành lập công ty tại **Free Zone, Offshore, Mainland, Branch**. \n\n* 100% Sở hữu nước ngoài có sẵn tại Free Zone và Mainland\n* Thuế suất thấp - chỉ 9% thuế doanh nghiệp\n* Không kiểm soát tiền tệ - dễ dàng chuyển vốn\n\n[Tìm hiểu thêm](/uae-business/company-registration/overview)',
+  details: 'Hướng dẫn đầy đủ để thành lập công ty tại **free zone, offshore, mainland, branch**. \n\n* 100% Sở hữu nước ngoài có sẵn tại Free Zone và Mainland\n* Thuế suất thấp - chỉ 9% thuế doanh nghiệp\n* Không kiểm soát tiền tệ - dễ dàng chuyển vốn\n\n[Tìm hiểu thêm](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -108,7 +106,7 @@ hero:
   {
     icon: '🏢',
     title: 'Chuyên Môn Tại UAE',
-    text: 'Các chuyên gia tận tâm tại Dubai cung cấp hướng dẫn chuyên nghiệp trong từng bước của quy trình.'
+    text: 'Các chuyên gia tận tâm tại Dubai cung cấp hướng dẫn chuyên nghiệp trong suốt quá trình thực hiện.'
   },
   {
     icon: '📊',
@@ -122,25 +120,13 @@ hero:
   },
 ]" />
 
-## Đặt lịch tư vấn miễn phí để kiểm tra tư cách hợp lệ và thảo luận các lựa chọn của bạn.
+## Đặt lịch tư vấn miễn phí để kiểm tra tư cách hợp lệ và thảo luận về các lựa chọn của bạn.
 
-<video  autoplay muted playsinline style="padding: 80px" >
+<video  autoplay muted playsinline style="padding: 24px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal 
-  formName="Golden Visa [offer]" 
-  buttonText="Nhận tư vấn miễn phí" 
-  categoryLabel="Mức độ hỗ trợ cần thiết: *" 
-  categoryPlaceholderText="Chọn mức độ hỗ trợ của bạn"
-  messageLabel="Giúp chúng tôi chuẩn bị cho buổi tư vấn của bạn (khuyến nghị)"
-  messagePlaceholderText="Hãy cho chúng tôi biết về sở thích, thành viên gia đình, thời gian, hoặc bất kỳ câu hỏi cụ thể nào của bạn"
-  :services="[
-  'Cơ bản — chỉ tài liệu và tư vấn thiết yếu',
-  'Tiêu chuẩn — hướng dẫn đầy đủ tài liệu và các giai đoạn chính',
-  'Toàn diện — quản lý quy trình dịch vụ đầy đủ với sự tham gia tối thiểu từ bạn',
-  'Tùy chỉnh — cần thảo luận chi tiết cụ thể và yêu cầu đặc biệt',
-  ]"/>
+<ContactFormModalNav buttonText="Nhận tư vấn miễn phí" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Di trú UAE' },

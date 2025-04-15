@@ -1,13 +1,13 @@
 ---
 layout: home
 title: "Thị Thực Vàng UAE | Dịch Vụ Dựa Trên Phí Thành Công"
-description: "Thị thực cư trú cao cấp 10 năm không phí trước - chỉ thanh toán sau khi được phê duyệt. Quản lý hồ sơ toàn diện với tỷ lệ thành công 98%. Dịch vụ gia hạn miễn phí, chỉ tính phí chính phủ."
+description: "Thị thực cư trú cao cấp 10 năm không phí trả trước - chỉ thanh toán sau khi được phê duyệt. Quản lý hồ sơ toàn diện với tỷ lệ thành công 98%. Dịch vụ gia hạn miễn phí, chỉ tính phí chính phủ."
 showSponsors: false
 
 hero:
   name: "Thị Thực Vàng UAE"
   text: Thanh toán theo kết quả
-  tagline: Cư trú 10 năm. <span class="hl">Không phí trước</span> - chỉ thanh toán sau khi được phê duyệt. Tỷ lệ thành công 98%.
+  tagline: Cư trú 10 năm. <span class="hl">Không phí trả trước</span> - chỉ thanh toán sau khi được phê duyệt. Tỷ lệ thành công 98%.
   image:
     light:
       src: /img/Logo.avif
@@ -30,7 +30,7 @@ hero:
       'Bao gồm bảo lãnh cha mẹ',
       'Không cần người bảo lãnh hoặc chủ lao động'
     ],
-    linkText: 'Learn more',
+    linkText: 'Tìm hiểu thêm',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
     icon: {
       light: '/img/iStock-1785818081.avif',
@@ -42,14 +42,14 @@ hero:
   {
     title: 'Cách Nhận Thị Thực Vàng UAE',
     items: [
-      'Đầu tư AED 2M vào bất động sản UAE',
-      'Gửi tiền AED 2M vào quỹ đầu tư UAE',
-      'Doanh nghiệp với vốn AED 2M',
-      'Đóng góp FTA hàng năm AED 250K',
+      'Đầu tư 2M AED vào bất động sản UAE',
+      'Gửi tiền 2M AED vào quỹ đầu tư UAE',
+      'Doanh nghiệp với vốn 2M AED',
+      'Đóng góp FTA hàng năm 250K AED',
       'Chuyên gia có kỹ năng',
       'Tài năng xuất chúng'
     ],
-    linkText: 'Learn more',
+    linkText: 'Tìm hiểu thêm',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -69,7 +69,7 @@ hero:
       'Cấp Emirates ID và thị thực',
       'Bảo lãnh thị thực gia đình (tùy chọn)'
     ],
-    linkText: 'Learn more',
+    linkText: 'Tìm hiểu thêm',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',
@@ -111,31 +111,19 @@ hero:
   {
     icon: '🔄',
     title: 'Hỗ Trợ Gia Hạn',
-    text: 'Hỗ trợ gia hạn visa miễn phí với **không phí dịch vụ** - chỉ tính phí chính phủ.'
+    text: 'Hỗ trợ gia hạn visa miễn phí với **không phí đại lý** - chỉ tính phí chính phủ.'
   }
 ]" />
 
-## Đặt lịch tư vấn miễn phí để kiểm tra tư cách hợp lệ và thảo luận các lựa chọn của bạn.
+## Đặt lịch tư vấn miễn phí để kiểm tra tư cách hợp lệ và thảo luận về các lựa chọn của bạn.
 
-<video  autoplay muted playsinline style="padding: 80px" >
+<video  autoplay muted playsinline style="padding: 24px" >
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal 
-  formName="Golden Visa [offer]" 
-  buttonText="Nhận tư vấn miễn phí" 
-  categoryLabel="Mức độ hỗ trợ cần thiết: *" 
-  categoryPlaceholderText="Chọn mức độ hỗ trợ của bạn"
-  messageLabel="Giúp chúng tôi chuẩn bị cho buổi tư vấn của bạn (khuyến nghị)"
-  messagePlaceholderText="Hãy cho chúng tôi biết về sở thích đầu tư, thành viên gia đình, thời gian, hoặc bất kỳ câu hỏi cụ thể nào"
-  :services="[
-  'Cơ bản — chỉ tài liệu và tư vấn thiết yếu',
-  'Tiêu chuẩn — hướng dẫn đầy đủ tài liệu và các giai đoạn chính',
-  'Toàn diện — quản lý quy trình dịch vụ đầy đủ với sự tham gia tối thiểu từ bạn',
-  'Tùy chỉnh — cần thảo luận chi tiết cụ thể và yêu cầu đặc biệt',
-  ]"/>
+<ContactFormModalNav buttonText="Nhận tư vấn miễn phí" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Nhập cư UAE' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Nhập cư UAE' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Di trú UAE' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Di trú UAE' },
 ]"/> -->

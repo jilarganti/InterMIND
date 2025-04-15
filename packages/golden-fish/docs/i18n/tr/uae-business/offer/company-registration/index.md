@@ -16,11 +16,12 @@ hero:
       src: /img/Logo.avif
       width: 40%
     alt: Golden Fish logosu
+
 ---
 
 <FeatureBlock :card="{
   title: 'Sizin Avantajlarınız — Bizim Sorumluluğumuz',
-  details: 'BAE, uygun bir iş ortamı arayan uluslararası girişimciler ve yatırımcılar için çok sayıda avantaj sunmaktadır. \n\n* Düşük Vergi Oranları: Sadece %9 kurumlar vergisi ve %5 KDV, gelir vergisi yok\n* %100 Yabancı Mülkiyet: Yerel ortaklar olmadan şirketinizin tam kontrolü\n* Döviz Kontrolü Yok: Kısıtlamasız kar transferi ve döviz işlemleri\n\n[Tam listeyi göster](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'BAE, uygun bir iş ortamı arayan uluslararası girişimciler ve yatırımcılar için çok sayıda avantaj sunmaktadır. \n\n* Düşük Vergi Oranları: Sadece %9 kurumlar vergisi ve %5 KDV, gelir vergisi yok\n* %100 Yabancı Mülkiyet: Yerel ortaklar olmadan şirketinizin tam kontrolü\n* Döviz Kontrolü Yok: Kısıtlamasız kar transferi ve döviz değişimi\n\n[Tam listeyi göster](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -32,7 +33,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Birlikte Üstesinden Geldiğimiz Zorluklar',
-  details: 'BAE birçok fayda sunarken, işletmeler operasyonlarını kurarken potansiyel zorlukların farkında olmalıdır. \n\n* Karmaşık Düzenleyici Ortam: Emirlikler ve Free Zone\'lar arasında farklı düzenlemeler\n* Ekonomik Madde Gereklilikleri: Belirli faaliyetler için yerel personel ve fiziksel ofis alanı gerekli\n* Yüksek Başlangıç Maliyetleri: Kayıt ücretleri, dokümantasyon ve zorunlu ofis kiraları\n\n[Tam listeyi göster](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'BAE birçok fayda sunarken, işletmeler operasyonlarını kurarken potansiyel zorlukların farkında olmalıdır. \n\n* Karmaşık Düzenleyici Ortam: Emirlikler ve Free Zone\'lar arasında farklı düzenlemeler\n* Ekonomik Madde Gereksinimleri: Belirli faaliyetler için yerel personel ve fiziksel ofis alanı gerekli\n* Yüksek Başlangıç Maliyetleri: Kayıt ücretleri, dokümantasyon ve zorunlu ofis kiraları\n\n[Tam listeyi göster](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -44,7 +45,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Tam Destek: Adım Adım Yanınızdayız',
-  details: '**Free Zone, Offshore, Mainland, Branch** şirket kurulumu için eksiksiz rehber. \n\n* Free Zone ve Mainland\'de %100 Yabancı Mülkiyet mümkün\n* Düşük Vergi Oranları - sadece %9 kurumlar vergisi\n* Döviz Kontrolü Yok - kolay sermaye transferi\n\n[Daha fazla bilgi](/uae-business/company-registration/overview)',
+  details: '**Free Zone, Offshore, Mainland, Branch** şirket kurulumları için eksiksiz rehber. \n\n* Free Zone ve Mainland\'de %100 Yabancı Mülkiyet mümkün\n* Düşük Vergi Oranları - sadece %9 kurumlar vergisi\n* Döviz Kontrolü Yok - kolay sermaye transferi\n\n[Daha fazla bilgi](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -56,7 +57,7 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Banka Hesabı Açma',
+    title: 'Banka Hesabı Açılışı',
     details: 'BAE\'nin güvenilir bankalarında kolayca ticari veya kişisel **banka hesapları** açın.',
     items: [
       'Devlet onayları için kapsamlı PRO hizmetleri',
@@ -76,7 +77,7 @@ hero:
     details: 'Sorunsuz bir başvuru süreciyle uzun süreli ikamet için BAE **Golden Visa** alın.',
     items: [
       '**Her 6 ayda bir BAE\'ye girme zorunluluğu yok**',
-      'Yeterlilik koşullarını koruyarak 10 yıl geçerlilik ve yenileme seçeneği',
+      'Yeterlilik koşullarını koruyarak 10 yıllık geçerlilik ve yenileme seçeneği',
       '%92 başarı oranı'
     ],
     linkText: 'Daha fazla bilgi',
@@ -112,34 +113,22 @@ hero:
   {
     icon: '📊',
     title: 'Kanıtlanmış Başarı Oranı',
-    text: 'Premium hizmetlerimiz aracılığıyla %90\'ın üzerinde onay oranıyla yüzlerce vize, banka hesabı ve şirket tescili gerçekleştirilmiştir.'
+    text: 'Premium hizmetlerimiz aracılığıyla verilen yüzlerce vize, banka hesabı ve şirket tescilinde %90\'ın üzerinde onay oranı.'
   },
   {
     icon: '💸',
     title: '**Başarıya Dayalı Ücretler**',
-    text: '[Sadece onay sonrası ödeme](/uae-business/benefits/success-based-fees). Gizli maliyetler olmadan tam şeffaflık.'
+    text: '[Sadece onaydan sonra ödeme yapın](/uae-business/benefits/success-based-fees). Gizli maliyetler olmadan tam şeffaflık.'
   },
 ]" />
 
 ## Uygunluğunuzu kontrol etmek ve seçeneklerinizi görüşmek için ücretsiz danışmanlık randevusu alın.
 
-<video  autoplay muted playsinline style="padding: 80px" >
+<video  autoplay muted playsinline style="padding: 24px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal 
-  formName="Golden Visa [offer]" 
-  buttonText="Ücretsiz danışmanlık alın" 
-  categoryLabel="Gereken destek seviyesi: *" 
-  categoryPlaceholderText="Destek seviyenizi seçin"
-  messageLabel="Danışmanlığınız için bize yardımcı olun (önerilen)"
-  messagePlaceholderText="Tercihleriniz, aile üyeleriniz, zaman çizelgeniz veya özel sorularınız hakkında bilgi verin"
-  :services="[
-  'Temel — yalnızca gerekli belgeler ve danışmanlıklar',
-  'Standart — eksiksiz dokümantasyon ve ana aşamalarda rehberlik',
-  'Kapsamlı — sizden minimum katılım ile tam servis süreç yönetimi',
-  'Özel — belirli detayları ve özel gereksinimleri görüşmek gerekiyor',
-  ]"/>
+<ContactFormModalNav buttonText="Ücretsiz danışmanlık alın" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'BAE Göçmenlik' },

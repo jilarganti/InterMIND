@@ -6,7 +6,7 @@
 ---
 
 <!-- <p>
-  <img src="/img/Logo.avif" alt="logotipo" width="100" height="100" style="margin-left: 50%;">
+  <img src="/img/Logo.avif" alt="logo" width="100" height="100" style="margin-left: 50%;">
 </p> -->
 
 # Contáctenos
@@ -23,7 +23,7 @@ City Avenue Building
 Office 405-070, Port Saeed  
 Dubái, EAU
 
-**Contacto:**
+**Póngase en Contacto:**
 
 - Correo electrónico: info@goldenfish.ae
 - Teléfono: +971 058 574 88 06
@@ -33,21 +33,5 @@ Dubái, EAU
 <!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
-> [!IMPORTANT] ¿Por qué elegirnos?
+> [!IMPORTANT] ¿Por Qué Elegirnos?
 > Con un equipo de profesionales expertos y un compromiso con servicios personalizados, garantizamos una experiencia fluida y eficiente para nuestros clientes, permitiéndoles concentrarse en lo más importante: hacer crecer su negocio en los EAU.
-
-<ContactFormModal 
-  formName="Contáctenos" 
-  buttonText="Envíenos un mensaje" 
-  formStyle="display: block; margin: 2rem auto;"
-  categoryLabel="Nivel de soporte requerido: *" 
-  categoryPlaceholderText="Elija su nivel de soporte"
-  messageLabel="¿Cómo podemos ayudarle? (recomendado)"
-  messagePlaceholderText="Por favor, comparta los detalles de su consulta para ayudarnos a preparar la mejor solución para sus necesidades"
-  :services="[
-  'Básico — solo consulta inicial y orientación',
-  'Estándar — gestión completa de documentación y procesos',
-  'Integral — solución de servicio completo con mínima participación de su parte',
-  'Personalizado — requisitos complejos o situación empresarial única',
-  ]"
-/>

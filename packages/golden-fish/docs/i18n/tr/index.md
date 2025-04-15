@@ -30,13 +30,13 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Şirket Kurulum Rehberi',
-    details: '**Free Zone, offshore, Mainland, şube** şirketleri kurulum rehberi.',
+    details: '**Free zone, offshore, mainland, branch** şirketleri kurma rehberi.',
     items: [
       'Free Zone ve Mainland\'de %100 Yabancı Mülkiyet mümkün',
       'Düşük Vergi Oranları - sadece %9 kurumlar vergisi',
       'Döviz Kontrolü Yok - kolay sermaye transferi'
     ],
-    linkText: 'Daha fazla bilgi',
+    linkText: 'Learn more',
     link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -46,13 +46,13 @@ hero:
   },
   {
     title: 'Banka Hesabı Açma',
-    details: 'BAE\'nin güvenilir bankalarında kolayca ticari veya bireysel hesap açın.',
+    details: 'BAE\'nin güvenilir bankalarında kolayca ticari veya kişisel banka hesabı açın.',
     items: [
       'Devlet onayları için kapsamlı PRO hizmetleri',
       'Eksiksiz bankacılık paketi kurulumu',
       '**%96 başarı oranı**',
     ],
-    linkText: 'Daha fazla bilgi',
+    linkText: 'Learn more',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -65,10 +65,10 @@ hero:
     details: 'Sorunsuz bir başvuru süreciyle uzun süreli ikamet için **Golden Visa** alın.',
     items: [
       '**Her 6 ayda bir BAE\'ye girme zorunluluğu yok**',
-      'Koşulların devamı halinde 10 yıl geçerlilik ve yenileme seçeneği',
+      'Gerekli şartların sağlanması durumunda 10 yıl geçerlilik ve yenileme seçeneği',
       '%92 başarı oranı',
     ],
-    linkText: 'Daha fazla bilgi',
+    linkText: 'Learn more',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -83,7 +83,7 @@ hero:
     title: 'Uyum Hizmetleri',
     details: 'Uzmanlarımız, ESR raporları ve UBO bildirimleri dahil karmaşık BAE düzenleyici gerekliliklerinde size rehberlik eder.',
     items: [],
-    linkText: 'Daha fazla bilgi',
+    linkText: 'Learn more',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -95,7 +95,7 @@ hero:
     title: 'Kurumlar Vergisi ve KDV',
     details: 'Federal Vergi Kurumu (FTA) ile Kurumlar Vergisi ve KDV yükümlülüklerine uyum için uzman danışmanlık.',
     items: [],
-    linkText: 'Daha fazla bilgi',
+    linkText: 'Learn more',
     link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -107,7 +107,7 @@ hero:
     title: 'Hukuki Hizmetler',
     details: 'Hukuk ekibimiz, birleşme ve satın almalar, kurumsal yeniden yapılandırma, finansman ve uyuşmazlık çözümü konularında BAE yasaları hakkında danışmanlık verir.',
     items: [],
-    linkText: 'Daha fazla bilgi',
+    linkText: 'Learn more',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -117,9 +117,9 @@ hero:
   },
   {
     title: 'Muhasebe ve Bordro',
-    details: 'Muhasebecilerimiz, işe alım maliyetlerinden tasarruf sağlayarak muhasebe, mutabakat, bordro ve denetim desteği sunar.',
+    details: 'Muhasebecilerimiz, işe alım maliyetlerinden tasarruf sağlayarak defter tutma, mutabakat, bordro ve denetim desteği sağlar.',
     items: [],
-    linkText: 'Daha fazla bilgi',
+    linkText: 'Learn more',
     link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
@@ -144,7 +144,7 @@ hero:
   },
   {
     icon: '💸',
-    title: '**Başarıya Dayalı Ücretler**',
+    title: '**Başarıya Dayalı Ücretlendirme**',
     text: '[Sadece onay sonrası ödeme](/uae-business/benefits/success-based-fees). Gizli maliyetler olmadan tam şeffaflık.'
   },
 ]" />
@@ -155,50 +155,50 @@ hero:
 
 ### Genel Sahiplik Gereksinimleri
 
-**Yabancılar BAE'de şirket kurduğunda sahiplik konusunda kısıtlamalar olacak mı?**
+**Yabancılar BAE'de şirket kurduğunda mülkiyet konusunda kısıtlamalar olacak mı?**
 
-Belirli BAE işletme kuruluşları, özellikle belirli stratejik sektörlerde faaliyet gösterenler, müşterilerin Emirlik hissedarı/hissedarları atamasını gerektirecektir. Bu nedenle, BAE'de iş kurulumu için kurumsal ihtiyaçlarınıza uygun optimal işletme kuruluşunu seçmek önemlidir.
+Belirli BAE işletme kuruluşları, özellikle stratejik sektörlerde faaliyet gösterenler, müşterilerin Emirlik hissedarı/hissedarları atamasını gerektirecektir. Bu nedenle, BAE'de iş kurulumu için kurumsal ihtiyaçlarınıza uygun optimal işletme kuruluşunu seçmek önemlidir.
 
-**Şirketim %100 yabancı sahipliğinde olabilir mi?**
+**Şirketim %100 yabancı sermayeli olabilir mi?**
 
-Evet, çoğu iş faaliyeti %100 yabancı sahipliğine izin vermektedir.
+Evet, çoğu iş faaliyeti %100 yabancı mülkiyete izin vermektedir.
 
 ### Şirket Tescili
 
-**BAE free trade zone'da şirket nasıl tescil edilir?**
+**BAE serbest ticaret bölgesinde şirket nasıl tescil edilir?**
 
-Golden Fish, BAE'de free zone kuruluşu için:
+BAE'de bir serbest bölge kuruluşunun tescili için Golden Fish:
 
 1. İlgili makamlardan gerekli izinleri alır.
 2. Şirket adını rezerve eder.
 3. Kuruluş belgelerini hazırlar.
 4. Belgeleri kamu mahkemelerinde noter tasdiki yapar.
-5. İşletme lisansı için başvurur.
+5. İşletme ruhsatı için başvurur.
 6. Şirketi KDV için kaydeder (gerekirse).
 7. Müşteriler ve çalışanları için çalışma vizesi alır.
 
-**BAE'de free zone kuruluşu başlatmanın faydaları nelerdir?**
+**BAE'de serbest bölge kuruluşu kurmanın faydaları nelerdir?**
 
-BAE free zone şirketleri birçok fayda sunar:
+BAE serbest bölge şirketleri birçok avantaj sunar:
 
-1. Yerleşik hissedar gerekliliği yoktur, yani bir FZ şirketi %100 yabancı sahipliğinde olabilir.
+1. Yerleşik hissedar gerekliliği yoktur, yani bir FZ şirketi %100 yabancı sermayeli olabilir.
 2. Personel çalıştırma zorunluluğu yoktur.
 3. Bölgeye giren veya çıkan mallar için gümrük vergisi yoktur.
 4. Yüksek kaliteli altyapı.
 
 ### Yöneticiler ve Hissedarlar
 
-**BAE free trade zone'da tescil için kaç yönetici atanmalıdır?**
+**BAE serbest ticaret bölgesinde tescil için kaç yönetici atanmalıdır?**
 
-BAE free zone şirketi kurmak için sadece bir yönetici gereklidir.
+BAE serbest bölge şirketi kurmak için sadece bir yönetici gereklidir.
 
-**BAE free trade zone'da kuruluş için kaç hissedar gereklidir?**
+**BAE serbest ticaret bölgesinde kuruluş için kaç hissedar gereklidir?**
 
-BAE'de free zone kuruluşu başlatmak için sadece bir hissedar gereklidir.
+BAE'de serbest bölge kuruluşu başlatmak için sadece bir hissedar gereklidir.
 
-**BAE'de offshore şirket için kaç hissedar gereklidir?**
+**BAE'de bir offshore şirket için kaç hissedar gereklidir?**
 
-BAE'de offshore şirket kurmak için sadece bir hissedar gereklidir.
+BAE'de bir offshore şirket kurmak için sadece bir hissedar gereklidir.
 
 **Yerleşik yönetici gerekli midir?**
 
@@ -214,17 +214,17 @@ Hayır.
 
 Hayır, Golden Fish BAE şirketinizi seyahat etmenize gerek kalmadan yasal olarak kurabilir.
 
-**Şirketim için ofis kiralamam gerekiyor mu?**
+**Şirketim için tesis kiralamam gerekiyor mu?**
 
 Gereksinimler şirket türüne göre değişir:
 
 | Şirket Türü      | Ofis Gerekliliği                                                                     |
 | ----------------- | ------------------------------------------------------------------------------------ |
-| Free Zone Şirketi | Kuruluş öncesi ofis tesisleri veya flexi-desk için kira sözleşmesi gereklidir.     |
+| Serbest Bölge Şirketi | Kuruluş öncesi ofis tesisleri veya flexi-desk için kira sözleşmesi gereklidir. |
 | Mainland Şirketi  | Sadece sanal veya kayıtlı adres gereklidir.                                         |
 | Offshore Şirketi  | Sadece sanal veya kayıtlı adres gereklidir.                                         |
 
-Bu karşılaştırma tablosu free zone, mainland ve offshore şirketleri için gereksinimler arasındaki farkları açıklamaktadır.
+Bu karşılaştırma tablosu, serbest bölge, mainland ve offshore şirketleri için gereksinimleri açıklamaktadır.
 
 ### Uyum ve Vergilendirme
 
@@ -234,17 +234,17 @@ Evet, çoğu kuruluş denetlenmiş mali tablolar gerektirecektir.
 
 **BAE şirket kurulumunun vergi etkileri nelerdir?**
 
-BAE'de Kurumlar Vergisi (CIT) standart %9 oranında uygulanmaktadır. Ayrıca, işin hacmine ve niteliğine bağlı olarak, bazı şirketler KDV (%5) ve/veya gümrük vergilerine tabidir. Petrol ve gaz ve yabancı bankaların şubeleri gibi belirli sektörler özel vergi değerlendirmelerine veya muafiyetlere tabi olabilir.
+BAE'de Kurumlar Vergisi (CIT) standart %9 oranında uygulanmaktadır. Ayrıca, işin hacmine ve niteliğine bağlı olarak, bazı şirketler KDV (%5) ve/veya gümrük vergilerine tabidir. Petrol ve gaz gibi belirli sektörler ve yabancı bankaların şubeleri özel vergi düzenlemelerine veya muafiyetlere tabi olabilir.
 
 **BAE şirketinin yıllık vergi beyannamesi ve/veya mali tablo sunması gerekli midir?**
 
-Evet, BAE'deki tüm şirketler hükümete yıllık denetlenmiş hesaplar sunmakla yükümlüdür.
+Evet, BAE'deki tüm şirketler hükümete yıllık denetlenmiş hesaplar sunmak zorundadır.
 
 ### Bankacılık Çözümleri
 
 **BAE iş bankacılığı çözümleri için hangi bankalar önerilir?**
 
-Golden Fish aşağıdaki yerel BAE banka seçeneklerini önermektedir:
+Golden Fish, aşağıdakiler dahil olmak üzere çeşitli yerel BAE bankası seçenekleri önermektedir:
 
 1. Emirates NBD
 2. First Abu Dhabi Bank
@@ -269,3 +269,5 @@ Evet, Golden Fish müşterilerine İslami bankacılık ihtiyaçlarında yardımc
 BAE iş ikamet izinleri genellikle 2 ila 3 yıl için verilir.
 
 :::
+
+<ContactFormModalNav buttonText="Ücretsiz danışmanlık alın" formStyle="display: block; margin: 3rem auto;"/>

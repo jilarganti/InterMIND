@@ -44,7 +44,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Dukungan Lengkap: Langkah demi Langkah Bersama Anda',
-  details: 'Panduan lengkap untuk mendirikan perusahaan di **free zone, offshore, mainland, branch**. \n\n* 100% Kepemilikan Asing tersedia di Free Zone dan Mainland\n* Tarif Pajak Rendah - hanya 9% pajak perusahaan\n* Tanpa Kontrol Mata Uang - repatriasi modal yang mudah\n\n[Learn more](/uae-business/company-registration/overview)',
+  details: 'Panduan lengkap untuk mendirikan perusahaan di **free zone, offshore, mainland, branch**. \n\n* 100% Kepemilikan Asing tersedia di Free Zones dan Mainland\n* Tarif Pajak Rendah - hanya 9% pajak perusahaan\n* Tanpa Kontrol Mata Uang - repatriasi modal yang mudah\n\n[Learn more](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -88,7 +88,7 @@ hero:
     }
   },
   {
-    title: 'Jelajahi lebih banyak layanan korporat kami',
+    title: 'Jelajahi layanan korporat kami lebih lanjut',
     details: '',
     items: [],
     linkText: 'Learn more',
@@ -123,23 +123,11 @@ hero:
 
 ## Pesan konsultasi gratis untuk memeriksa kelayakan dan mendiskusikan pilihan Anda.
 
-<video  autoplay muted playsinline style="padding: 80px" >
+<video  autoplay muted playsinline style="padding: 24px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal 
-  formName="Golden Visa [offer]" 
-  buttonText="Dapatkan konsultasi gratis" 
-  categoryLabel="Tingkat dukungan yang diperlukan: *" 
-  categoryPlaceholderText="Pilih tingkat dukungan Anda"
-  messageLabel="Bantu kami mempersiapkan konsultasi Anda (direkomendasikan)"
-  messagePlaceholderText="Ceritakan tentang preferensi Anda, anggota keluarga, jadwal, atau pertanyaan spesifik"
-  :services="[
-  'Dasar — hanya dokumen penting dan konsultasi',
-  'Standar — dokumentasi lengkap dan panduan melalui tahap-tahap utama',
-  'Komprehensif — manajemen proses layanan penuh dengan keterlibatan minimal dari Anda',
-  'Kustom — perlu mendiskusikan detail spesifik dan persyaratan khusus',
-  ]"/>
+<ContactFormModalNav buttonText="Dapatkan konsultasi gratis" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigrasi UAE' },

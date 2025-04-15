@@ -1,13 +1,13 @@
 ---
 layout: home
-title: "阿联酋企业银行服务 | 成功付费制服务"
-description: "高端多币种企业账户，零预付费用 - 仅在获批后付费。全程申请管理，96%成功率。保证开户。"
+title: "阿联酋公司银行服务 | 成功付费服务"
+description: "高端多币种公司账户，零预付费用 - 仅在获批后付费。全程申请管理，96%成功率。保证开户。"
 showSponsors: false
 
 hero:
   name: "阿联酋银行：您的安全港湾"
   # text: 零预付费用
-  tagline: 2025年保证企业银行账户审批。<span class="hl">零预付费用</span> - 仅在获批后付费。96%成功率。
+  tagline: 2025年保证公司银行账户审批。<span class="hl">零预付费用</span> - 仅在获批后付费。96%成功率。
   image:
     light:
       src: /img/Logo.avif
@@ -30,7 +30,7 @@ hero:
       '直接银行沟通策略',
       '完整银行服务包设置'
     ],
-    linkText: '了解更多',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -44,14 +44,14 @@ hero:
   {
     title: '阿联酋高风险企业银行账户',
     items: [
-      '加强尽职调查(EDD)专业指导',
+      '加强尽职调查(EDD)专家指导',
       '交易监控和风险管理',
       '合规政策和程序设置',
       '银行关系管理',
       '定期合规更新和审计',
       '账户安全应急计划'
     ],
-    linkText: '了解更多',
+    linkText: 'Learn more',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -70,7 +70,7 @@ hero:
       '员工签证和劳动法合规',
       '监管更新培训研讨会'
     ],
-    linkText: '了解更多',
+    linkText: 'Learn more',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -79,17 +79,17 @@ hero:
     }
   },
   {
-    title: '阿联酋企业银行优势',
+    title: '阿联酋公司银行优势',
     items: [
-      '穆迪**Aa2**评级的强大银行体系',
+      '穆迪**Aa2**评级的强大银行系统',
       '**自1980年起固定美元汇率**',
       '资本流动无限制',
       '外汇储备超过1840亿美元',
       '政治和经济稳定',
-      '政府支持的银行体系',
+      '政府支持的银行系统',
       '世界级数字银行服务'
     ],
-    linkText: '了解更多',
+    linkText: 'Learn more',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',
@@ -113,33 +113,16 @@ hero:
   },
   {
     icon: '📊',
-    title: '成功率有目共睹',
+    title: '成功率有保证',
     text: '通过我们的优质服务，签证、银行账户和公司注册的审批成功率超过90%，已成功办理数百个案例。'
   },
   {
     icon: '💸',
     title: '**成功付费制**',
-    text: '[仅在获批后收费](/uae-business/benefits/success-based-fees)。完全透明，绝无隐藏费用。'
+    text: '[仅在获得批准后付费](/uae-business/benefits/success-based-fees)。完全透明，绝无隐藏费用。'
   },
 ]" />
 
 ## 预约免费咨询以讨论您的企业银行需求
 
-<video  autoplay muted playsinline style="padding: 80px" >
-  <source src="/video/iStock-2185918790.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal 
-  formName="Banking [offer]" 
-  buttonText="获取免费咨询" 
-  categoryLabel="所需支持级别：*" 
-  categoryPlaceholderText="选择您的支持级别"
-  messageLabel="帮助我们为您的咨询做准备（建议填写）"
-  messagePlaceholderText="请告诉我们您的业务类型、运营管辖区、预期交易量以及任何特定的银行需求（多币种、贸易融资等）"
-  :services="[
-  '基础 — 仅提供基本文件和开户咨询',
-  '标准 — 完整文件指导及全程银行开户服务',
-  '全面 — 全方位银行开户服务，最大程度减少您的参与',
-  '定制 — 需要讨论大额交易或多管辖区结构',
-  ]"
-/>
+<ContactFormModalNav buttonText="获取免费咨询" formStyle="display: block; margin: 3rem auto;"/>

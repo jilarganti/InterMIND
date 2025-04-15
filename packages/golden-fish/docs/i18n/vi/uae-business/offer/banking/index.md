@@ -1,13 +1,13 @@
 ---
 layout: home
 title: "Ngân Hàng Doanh Nghiệp UAE | Dịch Vụ Dựa Trên Phí Thành Công"
-description: "Tài khoản doanh nghiệp đa tiền tệ cao cấp không phí trước - chỉ thanh toán sau khi được duyệt. Quản lý hồ sơ toàn diện với tỷ lệ thành công 96%. Đảm bảo mở tài khoản."
+description: "Tài khoản doanh nghiệp đa tiền tệ cao cấp không phí trả trước - chỉ thanh toán sau khi được duyệt. Quản lý hồ sơ toàn diện với tỷ lệ thành công 96%. Đảm bảo mở tài khoản."
 showSponsors: false
 
 hero:
   name: "Ngân Hàng UAE: Bến Đỗ An Toàn Của Bạn"
-  # text: Không phí trước
-  tagline: Đảm bảo phê duyệt tài khoản ngân hàng doanh nghiệp năm 2025. <span class="hl">Không phí trước</span> - chỉ thanh toán sau khi được duyệt. Tỷ lệ thành công 96%.
+  # text: Zero upfront fees
+  tagline: Đảm bảo phê duyệt tài khoản ngân hàng doanh nghiệp năm 2025. <span class="hl">Không phí trả trước</span> - chỉ thanh toán sau khi được duyệt. Tỷ lệ thành công 96%.
   image:
     light:
       src: /img/Logo.avif
@@ -23,8 +23,8 @@ hero:
     title: 'Đảm Bảo Phê Duyệt Tài Khoản',
     bullet: '✓',
     items: [
-      'Đảm bảo phê duyệt tài khoản đầu tiên trong hai tháng',
-      'Đảm bảo phê duyệt tài khoản thứ hai trong ba tháng',
+      'Đảm bảo hai tháng cho phê duyệt tài khoản đầu tiên',
+      'Đảm bảo ba tháng cho tài khoản thứ hai',
       'Chuẩn bị kế hoạch kinh doanh chất lượng',
       'Hỗ trợ thẩm định toàn diện',
       'Chiến lược giao tiếp trực tiếp với ngân hàng',
@@ -35,7 +35,7 @@ hero:
     icon: {
       light: '/video/iStock-2186765808.mp4',
       dark: '/video/iStock-2166377244.mp4',
-      alt: 'Yêu Cầu Ngân Hàng',
+      alt: 'Yêu cầu Ngân hàng',
     }
   },
 ]" />
@@ -48,7 +48,7 @@ hero:
       'Giám sát giao dịch và quản lý rủi ro',
       'Thiết lập chính sách và quy trình tuân thủ',
       'Quản lý quan hệ ngân hàng',
-      'Cập nhật và kiểm toán tuân thủ định kỳ',
+      'Cập nhật và kiểm toán tuân thủ thường xuyên',
       'Lập kế hoạch dự phòng cho bảo mật tài khoản'
     ],
     linkText: 'Learn more',
@@ -56,13 +56,13 @@ hero:
     icon: {
       light: '/img/iStock-1333000394.avif',
       dark: '/img/iStock-584576538.avif',
-      alt: 'Dịch Vụ Ngân Hàng',
+      alt: 'Dịch vụ Ngân hàng',
     }
   },
   {
     title: 'Duy trì tuân thủ: Bảo vệ doanh nghiệp UAE của bạn',
     items: [
-      'Kiểm toán tuân thủ định kỳ để xác định rủi ro tiềm ẩn',
+      'Kiểm toán tuân thủ thường xuyên để xác định rủi ro tiềm ẩn',
       'Dịch vụ PRO toàn diện cho phê duyệt chính phủ',
       'Quản lý và cảnh báo gia hạn giấy phép',
       'Tư vấn ngân hàng và duy trì tài khoản',
@@ -75,7 +75,7 @@ hero:
     icon: {
       light: '/img/iStock-1382278859.jpg',
       dark: '/img/iStock-1867623684.jpg',
-      alt: 'Dịch Vụ Ngân Hàng',
+      alt: 'Dịch vụ Ngân hàng',
     }
   },
   {
@@ -94,7 +94,7 @@ hero:
     icon: {
       light: '/img/iStock-1032707788.jpg',
       dark: '/img/iStock-1152367067.avif',
-      alt: 'Quy Trình Ngân Hàng',
+      alt: 'Quy trình Ngân hàng',
     }
   }
 ]" />
@@ -114,7 +114,7 @@ hero:
   {
     icon: '📊',
     title: 'Tỷ Lệ Thành Công Đã Được Chứng Minh',
-    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua quy trình xử lý cao cấp của chúng tôi.'
+    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua dịch vụ xử lý cao cấp của chúng tôi.'
   },
   {
     icon: '💸',
@@ -125,21 +125,4 @@ hero:
 
 ## Đặt lịch tư vấn miễn phí để thảo luận về nhu cầu ngân hàng doanh nghiệp của bạn
 
-<video  autoplay muted playsinline style="padding: 80px" >
-  <source src="/video/iStock-2185918790.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal 
-  formName="Banking [offer]" 
-  buttonText="Nhận tư vấn miễn phí" 
-  categoryLabel="Mức độ hỗ trợ cần thiết: *" 
-  categoryPlaceholderText="Chọn mức độ hỗ trợ của bạn"
-  messageLabel="Giúp chúng tôi chuẩn bị cho buổi tư vấn của bạn (khuyến nghị)"
-  messagePlaceholderText="Hãy cho chúng tôi biết về loại hình kinh doanh của bạn, khu vực hoạt động, khối lượng giao dịch dự kiến và các nhu cầu ngân hàng cụ thể (đa tiền tệ, tài trợ thương mại, v.v.)"
-  :services="[
-  'Cơ bản — chỉ tư vấn về tài liệu thiết yếu và mở tài khoản',
-  'Tiêu chuẩn — hướng dẫn đầy đủ về tài liệu và các giai đoạn ngân hàng',
-  'Toàn diện — thiết lập ngân hàng trọn gói với sự tham gia tối thiểu từ phía bạn',
-  'Tùy chỉnh — cần thảo luận về giao dịch khối lượng lớn hoặc cấu trúc đa quốc gia',
-  ]"
-/>
+<ContactFormModalNav buttonText="Nhận tư vấn miễn phí" formStyle="display: block; margin: 3rem auto;"/>

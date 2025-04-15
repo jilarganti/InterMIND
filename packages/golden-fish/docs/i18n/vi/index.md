@@ -6,16 +6,13 @@ showSponsors: false
 
 hero:
   name: "UAE: Bến Đỗ Tài Chính An Toàn Của Bạn"
-  # text: We speak your tongue
   tagline: "Hỗ Trợ Kinh Doanh Toàn Diện: Thành Lập Công Ty, Thị Thực, Ngân Hàng. <span class='hl'>Không thành công — không thu phí</span>."
 
   actions:
     - theme: brand
       text: Nhận Tư Vấn Miễn Phí
       link: /resources/contacts
-    # - theme: alt
-    #   text: Support 24/7
-    #   link: ./resources/contacts
+
   image:
     light:
       src: /img/Logo.avif
@@ -24,15 +21,14 @@ hero:
       src: /img/Logo.avif
       width: 40%
     alt: Logo Golden Fish
-
 ---
 
 <FeatureCards :features="[
   {
     title: 'Hướng Dẫn Thành Lập Công Ty',
-    details: 'Hướng dẫn đầy đủ để thành lập công ty tại **Free Zone, Offshore, Mainland, Branch**.',
+    details: 'Hướng dẫn đầy đủ để thành lập công ty tại **free zone, offshore, mainland, branch**.',
     items: [
-      'Cho phép 100% Sở hữu nước ngoài tại Free Zone và Mainland',
+      'Cho phép 100% Sở hữu nước ngoài tại Free Zones và Mainland',
       'Thuế suất thấp - chỉ 9% thuế doanh nghiệp',
       'Không kiểm soát tiền tệ - dễ dàng chuyển vốn về nước'
     ],
@@ -46,7 +42,7 @@ hero:
   },
   {
     title: 'Mở Tài Khoản Ngân Hàng',
-    details: 'Dễ dàng mở tài khoản doanh nghiệp hoặc cá nhân tại các ngân hàng uy tín của UAE.',
+    details: 'Dễ dàng mở tài khoản doanh nghiệp hoặc cá nhân với các ngân hàng uy tín của UAE.',
     items: [
       'Dịch vụ PRO toàn diện cho phê duyệt chính phủ',
       'Thiết lập gói ngân hàng hoàn chỉnh',
@@ -135,7 +131,7 @@ hero:
   {
     icon: '🏢',
     title: 'Chuyên Môn Tại UAE',
-    text: 'Các chuyên gia tận tâm tại Dubai cung cấp hướng dẫn chuyên nghiệp trong từng bước của quy trình.'
+    text: 'Các chuyên gia tận tâm tại Dubai cung cấp hướng dẫn chuyên nghiệp trong suốt quá trình thực hiện.'
   },
   {
     icon: '📊',
@@ -153,23 +149,23 @@ hero:
 
 :::details Câu hỏi thường gặp về Thành lập Doanh nghiệp tại UAE
 
-### Yêu cầu về quyền sở hữu chung
+### Yêu cầu về Quyền sở hữu chung
 
 **Có hạn chế nào về quyền sở hữu khi người nước ngoài thành lập công ty tại UAE không?**
 
-Một số loại hình doanh nghiệp UAE, chẳng hạn như những doanh nghiệp hoạt động trong các lĩnh vực chiến lược cụ thể, sẽ yêu cầu khách hàng chỉ định (các) cổ đông người Emirates. Do đó, việc lựa chọn loại hình doanh nghiệp phù hợp nhất với nhu cầu của doanh nghiệp là điều cần thiết để tiến hành thành lập doanh nghiệp tại UAE.
+Một số loại hình doanh nghiệp UAE, chẳng hạn như những doanh nghiệp hoạt động trong các lĩnh vực chiến lược cụ thể, sẽ yêu cầu khách hàng chỉ định (các) cổ đông người Emirates. Do đó, việc lựa chọn loại hình doanh nghiệp tối ưu phù hợp với nhu cầu của doanh nghiệp là điều cần thiết để tiến hành thành lập doanh nghiệp tại UAE.
 
 **Công ty của tôi có thể 100% vốn nước ngoài không?**
 
 Có, hầu hết các hoạt động kinh doanh đều được phép sở hữu 100% vốn nước ngoài.
 
-### Đăng ký công ty
+### Đăng ký Công ty
 
 **Làm thế nào để đăng ký công ty trong khu vực thương mại tự do UAE?**
 
 Để thành lập doanh nghiệp trong khu vực tự do tại UAE, Golden Fish sẽ:
 
-1. Xin các giấy phép cần thiết từ cơ quan có thẩm quyền.
+1. Xin các giấy phép cần thiết từ các cơ quan có thẩm quyền.
 2. Đăng ký tên công ty.
 3. Chuẩn bị các tài liệu thành lập.
 4. Công chứng các tài liệu tại tòa án công.
@@ -181,9 +177,9 @@ Có, hầu hết các hoạt động kinh doanh đều được phép sở hữu
 
 Các công ty trong khu vực tự do UAE có nhiều lợi ích, bao gồm:
 
-1. Không yêu cầu cổ đông thường trú, nghĩa là công ty FZ có thể 100% vốn nước ngoài.
+1. Không yêu cầu cổ đông thường trú, tức là công ty FZ có thể 100% vốn nước ngoài.
 2. Không bắt buộc phải thuê nhân viên.
-3. Không phải đóng thuế hải quan đối với hàng hóa ra vào khu vực.
+3. Không phải nộp thuế hải quan đối với hàng hóa ra vào khu vực.
 4. Cơ sở hạ tầng chất lượng cao.
 
 ### Giám đốc và Cổ đông
@@ -218,11 +214,11 @@ Không, Golden Fish có thể hợp pháp thành lập công ty UAE cho bạn m�
 
 Yêu cầu khác nhau tùy theo loại hình công ty:
 
-| Loại công ty | Yêu cầu văn phòng |
+| Loại Công ty | Yêu cầu về Văn phòng |
 | ----------------- | --------------------------------------------------------------------------------------- |
 | Công ty Free Zone | Cần có hợp đồng thuê văn phòng hoặc flexi-desk trước khi thành lập. |
-| Công ty Mainland | Chỉ cần địa chỉ ảo hoặc địa chỉ đăng ký. |
-| Công ty Offshore | Chỉ cần địa chỉ ảo hoặc địa chỉ đăng ký. |
+| Công ty Mainland | Chỉ cần địa chỉ đăng ký hoặc địa chỉ ảo. |
+| Công ty Offshore | Chỉ cần địa chỉ đăng ký hoặc địa chỉ ảo. |
 
 Bảng so sánh này giúp làm rõ sự khác biệt về yêu cầu giữa các công ty free zone, mainland và offshore.
 
@@ -234,7 +230,7 @@ Có, hầu hết các doanh nghiệp đều cần báo cáo tài chính được
 
 **Những tác động về thuế khi thành lập công ty tại UAE là gì?**
 
-Thuế Thu nhập Doanh nghiệp (CIT) đã được áp dụng tại UAE với mức thuế suất tiêu chuẩn là 9%. Ngoài ra, tùy thuộc vào quy mô và tính chất kinh doanh, một số công ty phải chịu VAT (5%) và/hoặc thuế hải quan. Các ngành cụ thể như dầu khí và chi nhánh ngân hàng nước ngoài có thể có các cân nhắc hoặc miễn trừ thuế đặc biệt.
+Thuế Thu nhập Doanh nghiệp (CIT) đã được áp dụng tại UAE với mức thuế suất tiêu chuẩn là 9%. Ngoài ra, tùy thuộc vào quy mô và tính chất kinh doanh, một số công ty phải chịu thuế VAT (5%) và/hoặc thuế hải quan. Các ngành cụ thể như dầu khí và chi nhánh ngân hàng nước ngoài có thể có các cân nhắc hoặc miễn trừ thuế đặc biệt.
 
 **Công ty UAE có phải nộp tờ khai thuế hàng năm và/hoặc báo cáo tài chính không?**
 
@@ -269,3 +265,5 @@ Có, Golden Fish có thể hỗ trợ khách hàng với nhu cầu ngân hàng H
 Giấy phép cư trú kinh doanh UAE thường được cấp trong thời hạn 2 đến 3 năm.
 
 :::
+
+<ContactFormModalNav buttonText="Nhận tư vấn miễn phí" formStyle="display: block; margin: 3rem auto;"/>

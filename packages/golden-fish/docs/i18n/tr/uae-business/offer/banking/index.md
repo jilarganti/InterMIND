@@ -1,13 +1,13 @@
 ---
 layout: home
-title: "BAE Kurumsal Bankacılık | Başarı Ücretine Dayalı Hizmet"
+title: "BAE Kurumsal Bankacılık | Başarı Ücretli Hizmet"
 description: "Peşin ücret olmadan premium çok para birimli kurumsal hesaplar - sadece onaydan sonra ödeme yapın. %96 başarı oranı ile tam başvuru yönetimi. Garantili hesap açılışı."
 showSponsors: false
 
 hero:
   name: "BAE Bankacılığı: Güvenli Limanınız"
   # text: Peşin ücret yok
-  tagline: 2025'te garantili kurumsal banka hesabı onayları. <span class="hl">Peşin ücret yok</span> - sadece onaydan sonra ödeme yapın. %96 başarı oranı.
+  tagline: 2025'te garantili kurumsal banka hesabı onayları. <span class="hl">Peşin ücret yok</span> - sadece onaydan sonra ödeme. %96 başarı oranı.
   image:
     light:
       src: /img/Logo.avif
@@ -16,6 +16,7 @@ hero:
       src: /img/Logo.avif
       width: 40%
     alt: Golden Fish logosu
+
 ---
 
 <FeatureCards :features="[
@@ -108,38 +109,21 @@ hero:
 <BenefitsList :features="[
   {
     icon: '🏢',
-    title: 'BAE Yerel Uzmanlığı',
+    title: 'Yerel BAE Uzmanlığı',
     text: 'Dubai\'deki uzman ekibimiz sürecin her adımında profesyonel rehberlik sağlar.'
   },
   {
     icon: '📊',
     title: 'Kanıtlanmış Başarı Oranı',
-    text: 'Premium hizmetlerimiz aracılığıyla yüzlerce vize, banka hesabı ve şirket tescili ile %90\'ın üzerinde onay oranı.'
+    text: 'Premium hizmetlerimiz aracılığıyla verilen yüzlerce vize, banka hesabı ve şirket tescilinde %90\'ın üzerinde onay oranı.'
   },
   {
     icon: '💸',
     title: '**Başarıya Dayalı Ücretler**',
-    text: '[Sadece onay sonrası ödeme](/uae-business/benefits/success-based-fees). Gizli maliyetler olmadan tam şeffaflık.'
+    text: '[Sadece onaydan sonra ödeme yapın](/uae-business/benefits/success-based-fees). Gizli maliyetler olmadan tam şeffaflık.'
   },
 ]" />
 
 ## Kurumsal bankacılık ihtiyaçlarınızı görüşmek için ücretsiz danışmanlık alın
 
-<video  autoplay muted playsinline style="padding: 80px" >
-  <source src="/video/iStock-2185918790.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal 
-  formName="Banking [offer]" 
-  buttonText="Ücretsiz danışmanlık alın" 
-  categoryLabel="Gerekli destek seviyesi: *" 
-  categoryPlaceholderText="Destek seviyenizi seçin"
-  messageLabel="Danışmanlığınız için bize yardımcı olun (önerilen)"
-  messagePlaceholderText="İşletmenizin türü, faaliyet gösterdiğiniz yargı bölgeleri, beklenen işlem hacimleri ve özel bankacılık ihtiyaçlarınız (çoklu para birimi, ticaret finansmanı vb.) hakkında bilgi verin"
-  :services="[
-  'Temel — yalnızca temel belgeler ve hesap açma danışmanlığı',
-  'Standart — tüm bankacılık aşamalarında eksiksiz belgelendirme ve rehberlik',
-  'Kapsamlı — sizin minimum katılımınızla tam hizmet bankacılık kurulumu',
-  'Özel — yüksek hacimli işlemleri veya çok yargı yetkili yapıyı görüşmek gerekiyor',
-  ]"
-/>
+<ContactFormModalNav buttonText="Ücretsiz danışmanlık alın" formStyle="display: block; margin: 3rem auto;"/>

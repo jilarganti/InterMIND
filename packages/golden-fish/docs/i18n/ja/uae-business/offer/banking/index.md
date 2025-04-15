@@ -1,13 +1,13 @@
 ---
 layout: home
 title: "UAEコーポレートバンキング | 成功報酬型サービス"
-description: "前払い手数料なしのプレミアムマルチカレンシー法人口座 - 承認後のみ支払い。96%の成功率を誇る完全な申請管理。口座開設保証付き。"
+description: "前払い手数料なしのプレミアムマルチカレンシー法人口座 - 承認後のみ支払い。96%の成功率で完全な申請管理。口座開設保証付き。"
 showSponsors: false
 
 hero:
   name: "UAEバンキング：あなたの安全な港"
   # text: 前払い手数料なし
-  tagline: 2025年の法人口座開設保証。<span class="hl">前払い手数料なし</span> - 承認後のみ支払い。96%の成功率。
+  tagline: 2025年法人銀行口座開設保証。<span class="hl">前払い手数料なし</span> - 承認後のみ支払い。96%の成功率。
   image:
     light:
       src: /img/Logo.avif
@@ -15,7 +15,7 @@ hero:
     dark:
       src: /img/Logo.avif
       width: 40%
-    alt: Golden Fishロゴ
+    alt: Golden Fish ロゴ
 ---
 
 <FeatureCards :features="[
@@ -23,7 +23,7 @@ hero:
     title: '口座開設保証',
     bullet: '✓',
     items: [
-      '最初の口座承認は2ヶ月保証',
+      '最初の口座承認まで2ヶ月保証',
       '2番目の口座は3ヶ月保証',
       '質の高いビジネスプラン作成',
       '包括的なデューデリジェンスサポート',
@@ -35,7 +35,7 @@ hero:
     icon: {
       light: '/video/iStock-2186765808.mp4',
       dark: '/video/iStock-2166377244.mp4',
-      alt: '銀行要件',
+      alt: '銀行要件'
     }
   },
 ]" />
@@ -44,9 +44,9 @@ hero:
   {
     title: 'ハイリスクビジネス向けUAE銀行口座',
     items: [
-      'EDD（強化デューデリジェンス）に関する専門的なガイダンス',
+      '強化デューデリジェンス（EDD）に関する専門的ガイダンス',
       '取引モニタリングとリスク管理',
-      'コンプライアンスポリシーと手順の設定',
+      'コンプライアンスポリシーと手順のセットアップ',
       '銀行との関係管理',
       '定期的なコンプライアンス更新と監査',
       '口座セキュリティのための緊急時対応計画'
@@ -56,11 +56,11 @@ hero:
     icon: {
       light: '/img/iStock-1333000394.avif',
       dark: '/img/iStock-584576538.avif',
-      alt: 'バンキングサービス',
+      alt: 'バンキングサービス'
     }
   },
   {
-    title: 'コンプライアンスを維持：UAEビジネスの保護',
+    title: 'コンプライアンスを維持：UAEビジネスを守る',
     items: [
       '潜在的リスクを特定するための定期的なコンプライアンス監査',
       '政府承認のための完全なPROサービス',
@@ -75,11 +75,11 @@ hero:
     icon: {
       light: '/img/iStock-1382278859.jpg',
       dark: '/img/iStock-1867623684.jpg',
-      alt: 'バンキングサービス',
+      alt: 'バンキングサービス'
     }
   },
   {
-    title: 'UAEコーポレートバンキングの利点',
+    title: 'UAE法人バンキングの利点',
     items: [
       'ムーディーズ評価**Aa2**の強固な銀行システム',
       '**1980年以降の固定USD為替レート**',
@@ -94,7 +94,7 @@ hero:
     icon: {
       light: '/img/iStock-1032707788.jpg',
       dark: '/img/iStock-1152367067.avif',
-      alt: 'バンキングプロセス',
+      alt: 'バンキングプロセス'
     }
   }
 ]" />
@@ -103,7 +103,7 @@ hero:
 
 <!--@include: /../../include/recommended-banks.md-->
 
-## Golden Fish を選ぶ理由
+## なぜ Golden Fish を選ぶのか
 
 <BenefitsList :features="[
   {
@@ -114,32 +114,15 @@ hero:
   {
     icon: '📊',
     title: '実証された成功率',
-    text: '当社のプレミアム処理を通じて発行されたビザ、銀行口座、会社登録の承認率は90％以上で、数百件の実績があります。'
+    text: '当社のプレミアム処理サービスを通じて、90%以上の承認率を誇り、数百件のビザ、銀行口座、企業登録の実績があります。'
   },
   {
     icon: '💸',
     title: '**成功報酬制**',
-    text: '[承認後のみの支払い](/uae-business/benefits/success-based-fees)。隠れた費用のない完全な透明性。'
+    text: '[承認後のみの支払い](/uae-business/benefits/success-based-fees)。隠れた費用のない完全な透明性を提供します。'
   },
 ]" />
 
 ## 法人銀行取引に関する無料相談のご予約
 
-<video  autoplay muted playsinline style="padding: 80px" >
-  <source src="/video/iStock-2185918790.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal 
-  formName="Banking [offer]" 
-  buttonText="無料相談を予約する" 
-  categoryLabel="必要なサポートレベル: *" 
-  categoryPlaceholderText="サポートレベルを選択してください"
-  messageLabel="相談の準備にご協力ください（推奨）"
-  messagePlaceholderText="ビジネスの種類、事業展開地域、想定取引量、特定の銀行取引ニーズ（多通貨、貿易金融など）についてお知らせください"
-  :services="[
-  'ベーシック — 基本的な書類作成と口座開設相談のみ',
-  'スタンダード — 完全な書類作成と全銀行取引段階のガイダンス',
-  '包括的 — お客様の関与を最小限に抑えた銀行取引の完全サポート',
-  'カスタム — 大量取引や多国籍構造についての相談が必要',
-  ]"
-/>
+<ContactFormModalNav buttonText="無料相談を予約する" formStyle="display: block; margin: 3rem auto;"/>

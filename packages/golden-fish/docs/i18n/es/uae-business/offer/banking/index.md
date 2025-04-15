@@ -1,11 +1,11 @@
 ---
 layout: home
-title: "Banca Corporativa EAU | Servicio Basado en Comisión de Éxito"
+title: "Banca Corporativa en EAU | Servicio Basado en Comisión de Éxito"
 description: "Cuentas corporativas premium multidivisa sin costos iniciales - pague solo después de la aprobación. Gestión completa de solicitudes con 96% de tasa de éxito. Apertura de cuenta garantizada."
 showSponsors: false
 
 hero:
-  name: "Banca EAU: Su Puerto Seguro"
+  name: "Banca en EAU: Su Puerto Seguro"
   # text: Sin costos iniciales
   tagline: Aprobaciones garantizadas de cuentas corporativas en 2025. <span class="hl">Sin costos iniciales</span> - pague solo después de la aprobación. 96% de tasa de éxito.
   image:
@@ -42,9 +42,9 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Cuentas bancarias EAU para negocios de alto riesgo',
+    title: 'Cuentas bancarias en EAU para negocios de alto riesgo',
     items: [
-      'Orientación experta en due diligence mejorada (EDD)',
+      'Orientación experta en enhanced due diligence (EDD)',
       'Monitoreo de transacciones y gestión de riesgos',
       'Configuración de políticas y procedimientos de cumplimiento',
       'Gestión de relaciones bancarias',
@@ -66,8 +66,8 @@ hero:
       'Servicios PRO integrales para aprobaciones gubernamentales',
       'Gestión de renovación de licencias y alertas',
       'Consultoría bancaria y mantenimiento de cuenta',
-      'Soporte de cumplimiento VAT y ESR',
-      'Cumplimiento de visas de empleados y leyes laborales',
+      'Soporte de cumplimiento de VAT y ESR',
+      'Cumplimiento de visas de empleados y ley laboral',
       'Talleres de capacitación sobre actualizaciones regulatorias'
     ],
     linkText: 'Learn more',
@@ -79,7 +79,7 @@ hero:
     }
   },
   {
-    title: 'Beneficios de la Banca Corporativa EAU',
+    title: 'Beneficios de la Banca Corporativa en EAU',
     items: [
       'Sistema bancario sólido con calificación **Aa2** de Moody\'s',
       '**Tipo de cambio USD fijo desde 1980**',
@@ -125,21 +125,4 @@ hero:
 
 ## Reserve una consulta gratuita para discutir sus necesidades bancarias corporativas
 
-<video  autoplay muted playsinline style="padding: 80px" >
-  <source src="/video/iStock-2185918790.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal 
-  formName="Banking [offer]" 
-  buttonText="Obtener una consulta gratuita" 
-  categoryLabel="Nivel de soporte requerido: *" 
-  categoryPlaceholderText="Elija su nivel de soporte"
-  messageLabel="Ayúdenos a prepararnos para su consulta (recomendado)"
-  messagePlaceholderText="Cuéntenos sobre el tipo de su negocio, jurisdicciones de operación, volúmenes de transacción esperados y cualquier necesidad bancaria específica (múltiples divisas, financiamiento comercial, etc.)"
-  :services="[
-  'Básico — solo consulta esencial de documentación y apertura de cuenta',
-  'Estándar — documentación completa y orientación durante todas las etapas bancarias',
-  'Integral — configuración bancaria completa con mínima participación de su parte',
-  'Personalizado — necesidad de discutir transacciones de alto volumen o estructura multijurisdiccional',
-  ]"
-/>
+<ContactFormModalNav buttonText="Obtener una consulta gratuita" formStyle="display: block; margin: 3rem auto;"/>

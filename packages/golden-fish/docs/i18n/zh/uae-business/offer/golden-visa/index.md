@@ -16,6 +16,7 @@ hero:
       src: /img/Logo.avif
       width: 50%
     alt: Golden Fish标志
+
 ---
 
 <FeatureCards :features="[
@@ -30,7 +31,7 @@ hero:
       '包含父母担保',
       '无需担保人或雇主'
     ],
-    linkText: 'Learn more',
+    linkText: '了解更多',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
     icon: {
       light: '/img/iStock-1785818081.avif',
@@ -44,12 +45,12 @@ hero:
     items: [
       '在阿联酋房地产投资200万迪拉姆',
       '在阿联酋投资基金存入200万迪拉姆',
-      '拥有200万迪拉姆资本的企业',
+      '注册资本200万迪拉姆的企业',
       '每年向FTA缴纳25万迪拉姆',
       '技术专业人才',
       '天才人才'
     ],
-    linkText: 'Learn more',
+    linkText: '了解更多',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -66,10 +67,10 @@ hero:
       '文件准备和验证',
       '体检和生物识别',
       '申请提交和处理',
-      '阿联酋身份证和签证签发',
+      'Emirates ID和签证签发',
       '家庭签证担保（可选）'
     ],
-    linkText: 'Learn more',
+    linkText: '了解更多',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',
@@ -86,12 +87,12 @@ hero:
   {
     icon: '💰',
     title: '成功付费制',
-    text: '**Golden Visa 获批后才收费。**完全透明，无隐藏费用。'
+    text: '**Golden Visa 获批后才收费。**完全透明，绝无隐藏费用。'
   },
   {
     icon: '📈',
     title: '成功率有保证',
-    text: '通过我们的优质服务处理，已发放数百个 Golden Visa，批准率达98%。'
+    text: '通过我们的优质服务，已成功办理数百个 Golden Visa，批准率高达98%。'
   },
   {
     icon: '📋',
@@ -105,35 +106,23 @@ hero:
   },
   {
     icon: '🔍',
-    title: '优质处理',
-    text: '与政府部门直接沟通，快速通道加快审批。'
+    title: '优质快速处理',
+    text: '与政府部门直接沟通，通过快速通道加快审批。'
   },
   {
     icon: '🔄',
     title: '续签支持',
-    text: '免费签证续签协助，**零代理费用** - 仅收取政府规费。'
+    text: '提供免费签证续签协助，**零代理费**——仅收取政府规定费用。'
   }
 ]" />
 
 ## 预约免费咨询，了解您的资格并讨论可选方案。
 
-<video  autoplay muted playsinline style="padding: 80px" >
+<video  autoplay muted playsinline style="padding: 24px" >
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal 
-  formName="Golden Visa [offer]" 
-  buttonText="获取免费咨询" 
-  categoryLabel="所需支持级别：*" 
-  categoryPlaceholderText="选择您的支持级别"
-  messageLabel="帮助我们为您的咨询做准备（建议填写）"
-  messagePlaceholderText="请告诉我们您的投资偏好、家庭成员情况、时间安排或任何具体问题"
-  :services="[
-  '基础套餐 — 仅包含必要文件和咨询',
-  '标准套餐 — 完整文件准备及主要阶段指导',
-  '全面套餐 — 全程服务管理，您只需最少参与',
-  '定制套餐 — 需要讨论具体细节和特殊要求',
-  ]"/>
+<ContactFormModalNav buttonText="获取免费咨询" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: '阿联酋移民' },

@@ -1,13 +1,13 @@
 ---
 layout: home
-title: "リスクなしのUAEビジネス | 承認なし、支払いなし"
-description: "革新的なUAE企業設立モデル：成功後のみ支払い。90％以上の成功率で各段階を専門家がガイド。"
+title: "UAEでリスクフリーのビジネス展開 | 承認後支払い制"
+description: "革新的なUAE企業設立モデル：成功後のみ支払い。90％以上の成功率で各段階を専門家がサポート。"
 showSponsors: false
 
 hero:
-  name: "UAE企業設立：私たちがリスクを共有します"
+  name: "UAE企業設立：リスクを共有します"
   # text: Payment by results
-  tagline: "自信を持ってビジネスに投資：会社登録の成功後にのみ支払いが発生します。<span class='hl'>あなたの成功が私たちの唯一の目標です</span>。"
+  tagline: "自信を持ってビジネスに投資：企業登録の成功後のみ支払い。<span class='hl'>あなたの成功が私たちの唯一の目標です</span>。"
   image:
     light:
       src: /img/Logo.avif
@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: '共に取り組む課題',
-  details: 'UAEは多くの利点を提供していますが、事業を設立する際には潜在的な課題に注意が必要です。\n\n* 複雑な規制環境：首長国とフリーゾーンで異なる規制\n* 経済実体要件：特定の活動には現地スタッフと物理的なオフィススペースが必要\n* 高い初期費用：登録料、文書作成、必須オフィス賃貸\n\n[完全なリストを表示](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'UAEは多くの利点を提供しますが、事業を設立する際には潜在的な課題に注意が必要です。\n\n* 複雑な規制環境：首長国とFree Zone間で異なる規制\n* 経済実体要件：特定の活動には現地スタッフと物理的なオフィススペースが必要\n* 高額な初期費用：登録料、書類作成、必須オフィス賃貸\n\n[完全なリストを表示](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-1299393716.avif',
@@ -44,7 +44,7 @@ hero:
 
 <FeatureBlock :card="{
   title: '完全サポート：一歩一歩共に',
-  details: '**Free Zone、Offshore、Mainland、Branch**での会社設立の完全ガイド。\n\n* Free ZoneとMainlandで100％外国人所有が可能\n* 低税率 - 法人税9％のみ\n* 為替管理なし - 簡単な資本送金\n\n[詳細を見る](/uae-business/company-registration/overview)',
+  details: '**Free Zone、Offshore、Mainland、支店**での会社設立の完全ガイド。\n\n* Free ZoneとMainlandで100％外国人所有が可能\n* 低税率 - 法人税9％のみ\n* 為替管理なし - 簡単な資本送金\n\n[詳細を見る](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -88,7 +88,7 @@ hero:
     }
   },
   {
-    title: '企業向けサービスをさらに探る',
+    title: '法人向けサービスの詳細',
     details: '',
     items: [],
     linkText: '詳細を見る',
@@ -106,7 +106,7 @@ hero:
 <BenefitsList :features="[
   {
     icon: '🏢',
-    title: 'UAEのローカル専門知識',
+    title: 'UAEでの現地専門知識',
     text: 'ドバイの専門スタッフが、プロセスの各段階で専門的なガイダンスを提供します。'
   },
   {
@@ -123,23 +123,11 @@ hero:
 
 ## 無料相談で資格要件を確認し、オプションについて話し合いましょう。
 
-<video  autoplay muted playsinline style="padding: 80px" >
+<video  autoplay muted playsinline style="padding: 24px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal 
-  formName="Golden Visa [offer]" 
-  buttonText="無料相談を予約する" 
-  categoryLabel="必要なサポートレベル: *" 
-  categoryPlaceholderText="サポートレベルを選択してください"
-  messageLabel="相談の準備にご協力ください（推奨）"
-  messagePlaceholderText="ご希望、ご家族、タイムライン、具体的なご質問などについてお聞かせください"
-  :services="[
-  'ベーシック — 必要書類と相談のみ',
-  'スタンダード — 完全な書類作成と主要段階のガイダンス',
-  'コンプリヘンシブ — お客様の関与を最小限に抑えた完全なプロセス管理',
-  'カスタム — 具体的な詳細や特別な要件について相談が必要',
-  ]"/>
+<ContactFormModalNav buttonText="無料相談を予約する" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAEの移民' },

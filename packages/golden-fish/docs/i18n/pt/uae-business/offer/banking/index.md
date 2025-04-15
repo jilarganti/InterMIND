@@ -1,12 +1,12 @@
 ---
 layout: home
 title: "Banco Corporativo nos EAU | Serviço Baseado em Taxa de Sucesso"
-description: "Contas corporativas multi-moeda premium sem taxas antecipadas - pague apenas após a aprovação. Gestão completa da aplicação com 96% de taxa de sucesso. Abertura de conta garantida."
+description: "Contas corporativas premium multi-moeda sem taxas antecipadas - pague apenas após a aprovação. Gestão completa da aplicação com 96% de taxa de sucesso. Abertura de conta garantida."
 showSponsors: false
 
 hero:
   name: "Banco nos EAU: Seu Porto Seguro"
-  # text: Sem taxas antecipadas
+  # text: Zero upfront fees
   tagline: Aprovações garantidas de contas corporativas em 2025. <span class="hl">Sem taxas antecipadas</span> - pague apenas após a aprovação. 96% de taxa de sucesso.
   image:
     light:
@@ -15,7 +15,7 @@ hero:
     dark:
       src: /img/Logo.avif
       width: 40%
-    alt: Logo Golden Fish
+    alt: Logotipo Golden Fish
 ---
 
 <FeatureCards :features="[
@@ -44,7 +44,7 @@ hero:
   {
     title: 'Contas bancárias nos EAU para negócios de alto risco',
     items: [
-      'Orientação especializada em due diligence aprimorada (EDD)',
+      'Orientação especializada em enhanced due diligence (EDD)',
       'Monitoramento de transações e gestão de riscos',
       'Configuração de políticas e procedimentos de compliance',
       'Gestão de relacionamento bancário',
@@ -87,7 +87,7 @@ hero:
       'Reservas estrangeiras superiores a US$184 bilhões',
       'Estabilidade política e econômica',
       'Sistema bancário apoiado pelo governo',
-      'Banco digital de classe mundial'
+      'Sistema bancário digital de classe mundial'
     ],
     linkText: 'Saiba mais',
     link: '../../company-registration/banking',
@@ -109,7 +109,7 @@ hero:
   {
     icon: '🏢',
     title: 'Expertise Local nos EAU',
-    text: 'Especialistas dedicados em Dubai fornecem orientação especializada em cada etapa do processo.'
+    text: 'Especialistas dedicados em Dubai oferecem orientação especializada em cada etapa do processo.'
   },
   {
     icon: '📊',
@@ -125,21 +125,4 @@ hero:
 
 ## Agende uma consulta gratuita para discutir suas necessidades bancárias corporativas
 
-<video  autoplay muted playsinline style="padding: 80px" >
-  <source src="/video/iStock-2185918790.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal 
-  formName="Banking [offer]" 
-  buttonText="Obter uma consulta gratuita" 
-  categoryLabel="Nível de suporte necessário: *" 
-  categoryPlaceholderText="Escolha seu nível de suporte"
-  messageLabel="Ajude-nos a preparar sua consulta (recomendado)"
-  messagePlaceholderText="Conte-nos sobre o tipo do seu negócio, jurisdições de operação, volumes esperados de transações e quaisquer necessidades bancárias específicas (múltiplas moedas, financiamento comercial, etc.)"
-  :services="[
-  'Básico — apenas consulta essencial de documentação e abertura de conta',
-  'Padrão — documentação completa e orientação em todas as etapas bancárias',
-  'Abrangente — configuração bancária completa com mínimo envolvimento da sua parte',
-  'Personalizado — necessidade de discutir transações de alto volume ou estrutura multijurisdicional',
-  ]"
-/>
+<ContactFormModalNav buttonText="Obter uma consulta gratuita" formStyle="display: block; margin: 3rem auto;"/>

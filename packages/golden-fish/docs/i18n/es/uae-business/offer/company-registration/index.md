@@ -6,7 +6,7 @@ showSponsors: false
 
 hero:
   name: "Formación de Empresas en EAU: Compartimos Tu Riesgo"
-  # text: Payment by results
+  # text: Pago por resultados
   tagline: "Invierte en tu negocio con confianza: solo nos pagas después del registro exitoso de la empresa. <span class='hl'>Tu éxito es nuestro único objetivo</span>."
   image:
     light:
@@ -44,7 +44,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Soporte Completo: Paso a Paso Contigo',
-  details: 'Guía completa para establecer empresas en **free zone, offshore, mainland, branch**. \n\n* 100% Propiedad Extranjera disponible en Free Zones y Mainland\n* Bajas Tasas Impositivas - solo 9% de impuesto corporativo\n* Sin Control de Divisas - fácil repatriación de capital\n\n[Saber más](/uae-business/company-registration/overview)',
+  details: 'Guía completa para establecer empresas en **free zone, offshore, mainland, branch**. \n\n* 100% Propiedad Extranjera disponible en Free Zones y Mainland\n* Bajas Tasas Impositivas - solo 9% de impuesto corporativo\n* Sin Control de Divisas - fácil repatriación de capital\n\n[Más información](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -57,13 +57,13 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Apertura de Cuenta Bancaria',
-    details: 'Abre fácilmente cuentas bancarias **comerciales o personales** con los bancos de confianza de los EAU.',
+    details: 'Abre fácilmente cuentas bancarias **comerciales o personales** con los bancos de confianza de EAU.',
     items: [
       'Servicios PRO integrales para aprobaciones gubernamentales',
       'Configuración completa del paquete bancario',
       '96% de tasa de éxito'
     ],
-    linkText: 'Saber más',
+    linkText: 'Más información',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -79,7 +79,7 @@ hero:
       'Validez de 10 años con opción de renovación al mantener las condiciones de calificación',
       '92% de tasa de éxito'
     ],
-    linkText: 'Saber más',
+    linkText: 'Más información',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -91,7 +91,7 @@ hero:
     title: 'Explora más de nuestros servicios corporativos',
     details: '',
     items: [],
-    linkText: 'Saber más',
+    linkText: 'Más información',
     link: '/uae-business/company-registration/insights/incorporation-steps',
     icon: {
       light: '/img/iStock-473502112.avif',
@@ -107,7 +107,7 @@ hero:
   {
     icon: '🏢',
     title: 'Experiencia Local en EAU',
-    text: 'Especialistas dedicados en Dubai proporcionan orientación experta en cada paso del proceso.'
+    text: 'Especialistas dedicados en Dubái proporcionan orientación experta en cada paso del proceso.'
   },
   {
     icon: '📊',
@@ -123,23 +123,11 @@ hero:
 
 ## Reserve una consulta gratuita para verificar su elegibilidad y discutir sus opciones.
 
-<video  autoplay muted playsinline style="padding: 80px" >
+<video  autoplay muted playsinline style="padding: 24px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal 
-  formName="Golden Visa [offer]" 
-  buttonText="Obtener una consulta gratuita" 
-  categoryLabel="Nivel de soporte requerido: *" 
-  categoryPlaceholderText="Elija su nivel de soporte"
-  messageLabel="Ayúdenos a preparar su consulta (recomendado)"
-  messagePlaceholderText="Cuéntenos sobre sus preferencias, miembros de la familia, cronograma o cualquier pregunta específica"
-  :services="[
-  'Básico — solo documentos esenciales y consultas',
-  'Estándar — documentación completa y orientación durante las etapas principales',
-  'Integral — gestión completa del proceso con mínima participación de su parte',
-  'Personalizado — necesidad de discutir detalles específicos y requisitos especiales',
-  ]"/>
+<ContactFormModalNav buttonText="Obtener una consulta gratuita" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración a EAU' },

@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Desafios que Enfrentamos Juntos',
-  details: 'Embora os EAU ofereçam muitos benefícios, as empresas devem estar cientes dos possíveis desafios ao estabelecer operações. \n\n* Ambiente Regulatório Complexo: Diferentes regulamentações entre emirados e free zones\n* Requisitos de Substância Econômica: Funcionários locais e espaço físico necessários para certas atividades\n* Altos Custos Iniciais: Taxas de registro, documentação e aluguéis obrigatórios de escritório\n\n[Show complete list](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'Embora os EAU ofereçam muitos benefícios, as empresas devem estar cientes dos possíveis desafios ao estabelecer operações. \n\n* Ambiente Regulatório Complexo: Diferentes regulamentações entre emirados e free zones\n* Requisitos de Substância Econômica: Funcionários locais e espaço físico necessários para certas atividades\n* Altos Custos Iniciais: Taxas de registro, documentação e aluguel obrigatório de escritório\n\n[Show complete list](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -57,11 +57,11 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Abertura de Conta Bancária',
-    details: 'Abra facilmente contas bancárias empresariais ou pessoais com os bancos confiáveis dos EAU.',
+    details: 'Abra facilmente contas bancárias **empresariais ou pessoais** com os bancos confiáveis dos EAU.',
     items: [
       'Serviços PRO completos para aprovações governamentais',
       'Configuração completa do pacote bancário',
-      '96% de taxa de sucesso'
+      'Taxa de sucesso de 96%'
     ],
     linkText: 'Learn more',
     link: '/uae-business/offer/banking/',
@@ -77,7 +77,7 @@ hero:
     items: [
       '**Sem necessidade de entrar nos EAU a cada 6 meses**',
       'Validade de 10 anos com opção de renovação mantendo as condições qualificadoras',
-      '92% de taxa de sucesso'
+      'Taxa de sucesso de 92%'
     ],
     linkText: 'Learn more',
     link: '/uae-business/offer/golden-visa/',
@@ -88,7 +88,7 @@ hero:
     }
   },
   {
-    title: 'Explore mais de nossos serviços corporativos',
+    title: 'Explore mais dos nossos serviços corporativos',
     details: '',
     items: [],
     linkText: 'Learn more',
@@ -107,7 +107,7 @@ hero:
   {
     icon: '🏢',
     title: 'Expertise Local nos EAU',
-    text: 'Especialistas dedicados em Dubai fornecem orientação especializada em cada etapa do processo.'
+    text: 'Especialistas dedicados em Dubai oferecem orientação especializada em cada etapa do processo.'
   },
   {
     icon: '📊',
@@ -123,23 +123,11 @@ hero:
 
 ## Agende uma consulta gratuita para verificar sua elegibilidade e discutir suas opções.
 
-<video  autoplay muted playsinline style="padding: 80px" >
+<video  autoplay muted playsinline style="padding: 24px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModal 
-  formName="Golden Visa [offer]" 
-  buttonText="Obter uma consulta gratuita" 
-  categoryLabel="Nível de suporte necessário: *" 
-  categoryPlaceholderText="Escolha seu nível de suporte"
-  messageLabel="Ajude-nos a preparar sua consulta (recomendado)"
-  messagePlaceholderText="Conte-nos sobre suas preferências, membros da família, cronograma ou quaisquer perguntas específicas"
-  :services="[
-  'Básico — apenas documentos essenciais e consultas',
-  'Padrão — documentação completa e orientação nas principais etapas',
-  'Abrangente — gerenciamento completo do processo com mínima participação sua',
-  'Personalizado — necessidade de discutir detalhes específicos e requisitos especiais',
-  ]"/>
+<ContactFormModalNav buttonText="Obter uma consulta gratuita" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração para os EAU' },

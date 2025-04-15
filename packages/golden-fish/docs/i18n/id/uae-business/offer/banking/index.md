@@ -1,13 +1,13 @@
 ---
 layout: home
 title: "Perbankan Korporat UAE | Layanan Berbasis Success Fee"
-description: "Rekening korporat multi-mata uang premium tanpa biaya di muka - bayar hanya setelah disetujui. Manajemen aplikasi lengkap dengan tingkat keberhasilan 96%. Pembukaan rekening dijamin."
+description: "Rekening korporat multi-mata uang premium tanpa biaya di muka - bayar hanya setelah persetujuan. Manajemen aplikasi lengkap dengan tingkat keberhasilan 96%. Pembukaan rekening dijamin."
 showSponsors: false
 
 hero:
   name: "Perbankan UAE: Pelabuhan Aman Anda"
-  # text: Tanpa biaya di muka
-  tagline: Jaminan persetujuan rekening bank korporat di 2025. <span class="hl">Tanpa biaya di muka</span> - bayar hanya setelah disetujui. Tingkat keberhasilan 96%.
+  # text: Zero upfront fees
+  tagline: Jaminan persetujuan rekening korporat di 2025. <span class="hl">Tanpa biaya di muka</span> - bayar hanya setelah persetujuan. Tingkat keberhasilan 96%.
   image:
     light:
       src: /img/Logo.avif
@@ -26,7 +26,7 @@ hero:
       'Jaminan dua bulan untuk persetujuan rekening pertama',
       'Jaminan tiga bulan untuk rekening kedua',
       'Penyusunan rencana bisnis berkualitas',
-      'Dukungan uji tuntas komprehensif',
+      'Dukungan due diligence komprehensif',
       'Strategi komunikasi langsung dengan bank',
       'Pengaturan paket perbankan lengkap'
     ],
@@ -67,7 +67,7 @@ hero:
       'Manajemen pembaruan lisensi dan peringatan',
       'Konsultasi perbankan dan pemeliharaan rekening',
       'Dukungan kepatuhan VAT dan ESR',
-      'Kepatuhan visa karyawan dan hukum ketenagakerjaan',
+      'Visa karyawan dan kepatuhan hukum ketenagakerjaan',
       'Lokakarya pelatihan tentang pembaruan regulasi'
     ],
     linkText: 'Learn more',
@@ -99,7 +99,7 @@ hero:
   }
 ]" />
 
-## Golden Fish merekomendasikan bank-bank berikut kepada klien kami:
+## Golden Fish merekomendasikan bank-bank berikut untuk klien kami:
 
 <!--@include: /../../include/recommended-banks.md-->
 
@@ -114,7 +114,7 @@ hero:
   {
     icon: '📊',
     title: 'Tingkat Keberhasilan Terbukti',
-    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan pendaftaran perusahaan yang dikeluarkan melalui pemrosesan premium kami.'
+    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan pendaftaran perusahaan yang diproses melalui layanan premium kami.'
   },
   {
     icon: '💸',
@@ -125,21 +125,4 @@ hero:
 
 ## Jadwalkan konsultasi gratis untuk membahas kebutuhan perbankan korporat Anda
 
-<video  autoplay muted playsinline style="padding: 80px" >
-  <source src="/video/iStock-2185918790.mp4" type="video/mp4">
-</video>
-
-<ContactFormModal 
-  formName="Banking [offer]" 
-  buttonText="Dapatkan konsultasi gratis" 
-  categoryLabel="Tingkat dukungan yang diperlukan: *" 
-  categoryPlaceholderText="Pilih tingkat dukungan Anda"
-  messageLabel="Bantu kami mempersiapkan konsultasi Anda (direkomendasikan)"
-  messagePlaceholderText="Ceritakan tentang jenis bisnis Anda, yurisdiksi operasi, perkiraan volume transaksi, dan kebutuhan perbankan khusus (multi-mata uang, pembiayaan perdagangan, dll.)"
-  :services="[
-  'Dasar — hanya konsultasi dokumentasi esensial dan pembukaan rekening',
-  'Standar — dokumentasi lengkap dan panduan melalui semua tahap perbankan',
-  'Komprehensif — pengaturan perbankan layanan penuh dengan keterlibatan minimal dari pihak Anda',
-  'Kustom — perlu membahas transaksi volume tinggi atau struktur multi-yurisdiksi',
-  ]"
-/>
+<ContactFormModalNav buttonText="Dapatkan konsultasi gratis" formStyle="display: block; margin: 3rem auto;"/>
