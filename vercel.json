@@ -1,3 +1,11 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/test", "destination": "/api/redirect" },
+    {
+      "source": "/(.*)",
+      "destination": "/api/redirect",
+      "missing": [{ "type": "cookie", "key": "nf_lang" }]
+    }
+  ]
 }
