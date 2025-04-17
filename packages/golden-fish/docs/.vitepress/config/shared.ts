@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress"
 import markdownItFootnote from "markdown-it-footnote"
 import { fileURLToPath, URL } from "node:url"
 import { gtmHead } from "./gtm.config"
+import llmstxt from "vitepress-plugin-llms"
 
 const hostUrl = "https://goldenfish.ae"
 const NOINDEX_PAGES = ["company-registration/fees-timelines", "include/recommended-banks", "test", "chat"]
@@ -84,13 +85,15 @@ export const shared = defineConfig({
     server: {
       proxy: {
         "/api": { target: baseUrl, changeOrigin: true },
-        // "/middleware": {
-        //   changeOrigin: true,
-        //   rewrite: (path) => path.replace(/^\/middleware/, "/middleware.ts"),
-        // },
       },
     },
-    plugins: [],
+    plugins: [
+      // isProduction &&
+      llmstxt({
+        workDir: "en",
+        ignoreFiles: ["index.md"],
+      }),
+    ],
   },
   sitemap: {
     hostname: hostUrl,
