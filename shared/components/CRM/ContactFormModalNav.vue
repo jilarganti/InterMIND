@@ -38,7 +38,7 @@ const props = defineProps<{
 // Обрабатываем текущий путь страницы для использования как formName
 const formName = computed(() => {
   // Выводим путь для отладки
-  console.log("Исходный путь:", page.value.relativePath)
+  // console.log("Исходный путь:", page.value.relativePath)
 
   // Удаляем локаль из пути и форматируем для лучшей читаемости
   const path = page.value.relativePath
@@ -52,7 +52,7 @@ const formName = computed(() => {
     .toLowerCase()
     .replace(/\b\w/g, (c) => c.toUpperCase())
 
-  console.log("Обработанный путь:", path)
+  // console.log("Обработанный путь:", path)
   return `Page: ${path}` || "Unknown Page"
 })
 

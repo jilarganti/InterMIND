@@ -84,16 +84,10 @@ export const shared = defineConfig({
     server: {
       proxy: {
         "/api": { target: baseUrl, changeOrigin: true },
-        "/test": { target: baseUrl, rewrite: (path) => "/api/redirect" },
-        "^/(?!api|assets).*": {
-          target: baseUrl,
-          rewrite: (path) => "/api/redirect",
-          bypass: (req) => {
-            if (req.headers.cookie?.includes("nf_lang")) {
-              return false // Не выполнять прокси, пропустить к обычной обработке
-            }
-          },
-        },
+        // "/middleware": {
+        //   changeOrigin: true,
+        //   rewrite: (path) => path.replace(/^\/middleware/, "/middleware.ts"),
+        // },
       },
     },
     plugins: [],
