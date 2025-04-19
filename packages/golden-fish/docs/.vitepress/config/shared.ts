@@ -3,6 +3,8 @@ import markdownItFootnote from "markdown-it-footnote"
 import { fileURLToPath, URL } from "node:url"
 import { gtmHead } from "./gtm.config"
 import llmstxt from "vitepress-plugin-llms"
+import fs from "node:fs"
+import path from "node:path"
 
 const hostUrl = "https://goldenfish.ae"
 const NOINDEX_PAGES = ["company-registration/fees-timelines", "include/recommended-banks", "test", "chat"]
@@ -74,6 +76,7 @@ export const shared = defineConfig({
     define: {
       "import.meta.env.VITE_IS_PROD": isProduction,
       "import.meta.env.VITE_BASE_URL": JSON.stringify(baseUrl),
+      "import.meta.env.VITE_LLMS_CONTENT": JSON.stringify(getLlmsContent()),
     },
     resolve: {
       alias: {
@@ -113,3 +116,18 @@ export const shared = defineConfig({
     logo: { light: "/img/Logo.avif", dark: "/img/Logo.avif" },
   },
 })
+
+// Простое синхронное чтение содержимого llms.txt
+function getLlmsContent() {
+  try {
+    const llmsPath = path.resolve(process.cwd(), "docs/.vitepress/dist/llms.txt")
+    if (fs.existsSync(llmsPath)) {
+      return fs.readFileSync(llmsPath, "utf-8")
+    }
+    console.warn("Файл llms.txt не найден.")
+    return ""
+  } catch (error) {
+    console.error("Ошибка при чтении файла llms.txt:", error)
+    return ""
+  }
+}
