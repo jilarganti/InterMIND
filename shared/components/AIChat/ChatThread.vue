@@ -6,12 +6,17 @@ import { useChatsStore } from "../../stores/chatsStore"
 import { ImageLoader } from "../../utils/imageLoader"
 import ChatFooter from "./ChatFooter.vue"
 import type { UIMessage } from "@ai-sdk/ui-utils"
+import { useData } from "vitepress" // Импортируем useData из VitePress
 
 interface Props {
   chatId: string
 }
 
 const props = defineProps<Props>()
+
+// Получаем данные из VitePress, включая текущую локаль
+const { lang } = useData()
+console.log("Current locale:", lang.value)
 
 // Рефы для DOM-элементов
 const messagesContainerRef = ref<HTMLDivElement | null>(null)
@@ -53,10 +58,9 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
   id: chatSessionId.value,
   initialMessages: chatsStore.getMessages(props.chatId),
   body: {
+    mode: currentMode.value,
+    language: lang.value.split("-")[0],
     stream: true,
-    getBody: () => ({
-      mode: currentMode.value,
-    }),
   },
   onResponse(response) {
     // console.log("Received HTTP response from server:", response)

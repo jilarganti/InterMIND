@@ -34,15 +34,20 @@ export async function POST(req) {
   const llmsTxt = await getContent("packages/golden-fish/docs/.vitepress/dist/llms.txt", "llmsTxt")
   const llmsFullTxt = await getContent("packages/golden-fish/docs/.vitepress/dist/llms-full.txt", "llmsFullTxt")
 
-  console.log("llms.txt content:", llmsTxt)
+  // console.log("llms.txt content:", llmsTxt)
 
   try {
     const body = await req.json()
     let messages = body.messages || []
+    const { mode, language } = body
 
     // Получаем режим запроса из body (по умолчанию 'default')
-    const mode = body.mode || "default"
-    console.log(`🔵 API: Получено ${messages.length} сообщений, режим: ${mode}`)
+    // const mode = body.mode || "default"
+    // Получаем язык из body (по умолчанию 'ru')
+
+    // const language = body.language || "ru"
+
+    console.log(`🔵 API: Получено ${messages.length} сообщений, режим: ${mode}, язык: ${language}`)
 
     /**
      * Костыль для очистки сообщений от тегов figure. В норме теги не должны попадать в историю сообщений.
@@ -70,16 +75,17 @@ export async function POST(req) {
       systemPrompt = FOLLOW_UP_PROMPT
     }
 
-    systemPrompt = `${llmsTxt} \n ${llmsFullTxt}` + systemPrompt
+    // Добавляем информацию о языке в системный промпт
+    systemPrompt = `${llmsTxt} \n ${llmsFullTxt} \n Пожалуйста, отвечай на языке: ${language}. \n` + systemPrompt
 
     // Отправляем запрос к ИИ с выбранным системным промптом
     const result = await streamText({
       // model: anthropic("claude-3-5-sonnet-20241022"),
       // model: anthropic("claude-3-5-haiku-20241022"),
       // model: anthropic("claude-3-sonnet-20240229"),
-      // model: anthropic("claude-3-haiku-20240307"),
+      model: anthropic("claude-3-haiku-20240307"),
       // model: groq("gemma2-9b-it"),
-      model: openai("gpt-4-turbo"),
+      // model: openai("gpt-4-turbo"),
       // model: openai("gpt-4o-mini"),
       // model: deepseek('deepseek-chat'),
       system: systemPrompt,
