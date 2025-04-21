@@ -2,6 +2,7 @@
 import { nextTick, ref } from "vue"
 import type { Ref } from "vue"
 import MarkdownIt from "markdown-it"
+import footnote from "markdown-it-footnote" // Импортируем плагин для сносок
 
 interface ImageClickHandlers {
   setupImageClicks: () => void
@@ -52,6 +53,74 @@ export function useChatUi(
     // Обработчик клика по интерактивным элементам
     const handleElementClick = (event: MouseEvent) => {
       const target = event.target as HTMLElement
+
+      // Обработка клика по сноскам
+      if (target?.classList.contains("footnote-ref") || target?.closest(".footnote-ref")) {
+        event.preventDefault()
+
+        const link = target.tagName === "A" ? target : target.closest("a")
+
+        if (link) {
+          const href = link.getAttribute("href")
+          if (href && href.startsWith("#")) {
+            const id = href.substring(1)
+            const footnote = messagesContainerRef.value?.querySelector(`#${id}`)
+
+            if (footnote) {
+              // Прокручиваем к сноске (с учетом контейнера сообщений)
+              const containerTop = messagesContainerRef.value?.getBoundingClientRect().top || 0
+              const footnoteTop = footnote.getBoundingClientRect().top
+              const offset = footnoteTop - containerTop - 20 // 20px отступ
+
+              if (messagesContainerRef.value) {
+                messagesContainerRef.value.scrollTop += offset
+              }
+
+              // Визуально выделяем сноску на короткое время
+              footnote.classList.add("footnote-highlight")
+              setTimeout(() => {
+                footnote.classList.remove("footnote-highlight")
+              }, 2000)
+            }
+          }
+        }
+
+        return
+      }
+
+      // Обработка клика по обратной ссылке сноски
+      if (target?.classList.contains("footnote-backref") || target?.closest(".footnote-backref")) {
+        event.preventDefault()
+
+        const link = target.tagName === "A" ? target : target.closest("a")
+
+        if (link) {
+          const href = link.getAttribute("href")
+          if (href && href.startsWith("#")) {
+            const id = href.substring(1)
+            const refElement = messagesContainerRef.value?.querySelector(`#${id}`)
+
+            if (refElement) {
+              // Прокручиваем к ссылке на сноску
+              const containerTop = messagesContainerRef.value?.getBoundingClientRect().top || 0
+              const refTop = refElement.getBoundingClientRect().top
+              const offset = refTop - containerTop - 100 // 100px отступ для лучшей видимости
+
+              if (messagesContainerRef.value) {
+                messagesContainerRef.value.scrollTop += offset
+              }
+
+              // Визуально выделяем ссылку на короткое время
+              refElement.classList.add("footnote-highlight")
+              setTimeout(() => {
+                refElement.classList.remove("footnote-highlight")
+              }, 2000)
+            }
+          }
+        }
+
+        return
+      }
 
       // Обработка клика по изображению
       if (target?.classList.contains("chat-interactive-image")) {
@@ -141,13 +210,23 @@ export function useChatUi(
     breaks: false,
   })
 
+  // Применяем плагин сносок (footnotes)
+  md.use(footnote)
+
   // Настройка открытия ссылок в новой вкладке
   const defaultRender = md.renderer.rules.link_open || ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options))
 
-  // Модификация для ссылок: добавляем атрибуты для безопасности
+  // Модификация для ссылок: добавляем атрибуты для безопасности для внешних ссылок
+  // и не трогаем внутренние якоря (# ссылки)
   md.renderer.rules.link_open = (tokens, idx, options, env, self) => {
-    tokens[idx].attrSet("target", "_blank")
-    tokens[idx].attrSet("rel", "noopener")
+    const href = tokens[idx].attrGet("href") || ""
+
+    // Не добавляем target="_blank" для внутренних якорей (сносок)
+    if (!href.startsWith("#")) {
+      tokens[idx].attrSet("target", "_blank")
+      tokens[idx].attrSet("rel", "noopener")
+    }
+
     return defaultRender(tokens, idx, options, env, self)
   }
 
@@ -162,6 +241,9 @@ export function useChatUi(
     links.forEach((link) => {
       // Не обрабатываем пустые ссылки или ссылки с коротким текстом
       if (!link.textContent || link.textContent.trim().length < 5) return
+
+      // Не обрабатываем ссылки для сносок
+      if (link.classList.contains("footnote-ref") || link.classList.contains("footnote-backref")) return
 
       // Получаем текст ссылки и href
       const linkText = link.textContent.trim()

@@ -443,4 +443,21 @@ defineExpose({ insertText, submitTextDirectly })
   border-color: var(--chat-brand-color);
   transform: scale(1.005);
 }
+
+/* Стили для сносок */
+
+/* Подсветка активной сноски */
+.message.assistant .message-content :deep(.footnote-highlight) {
+  animation: footnote-highlight 2s ease-in-out;
+}
+
+@keyframes footnote-highlight {
+  0%,
+  100% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: var(--vp-c-brand-soft);
+  }
+}
 </style>
