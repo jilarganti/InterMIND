@@ -1,7 +1,12 @@
 // api/chat.js
 import { anthropic } from "@ai-sdk/anthropic"
+import { openai } from "@ai-sdk/openai"
+import { groq } from "@ai-sdk/groq"
+import { deepseek } from "@ai-sdk/deepseek"
 import { streamText } from "ai"
 import { BUSINESS_PROMPT, FOLLOW_UP_PROMPT } from "../packages/golden-fish/docs/.vitepress/config/AIConfig.js"
+import fs from "fs"
+import fetch from "node-fetch"
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30
@@ -24,6 +29,12 @@ function removeFigureTags(content) {
  */
 export async function POST(req) {
   console.log("🔵 API: Получен запрос к /api/chat")
+
+  // Читаем содержимое файлов
+  const llmsTxt = await getContent("packages/golden-fish/docs/.vitepress/dist/llms.txt", "llmsTxt")
+  const llmsFullTxt = await getContent("packages/golden-fish/docs/.vitepress/dist/llms-full.txt", "llmsFullTxt")
+
+  console.log("llms.txt content:", llmsTxt)
 
   try {
     const body = await req.json()
@@ -59,14 +70,16 @@ export async function POST(req) {
       systemPrompt = FOLLOW_UP_PROMPT
     }
 
+    systemPrompt = `${llmsTxt} \n ${llmsFullTxt}` + systemPrompt
+
     // Отправляем запрос к ИИ с выбранным системным промптом
     const result = await streamText({
       // model: anthropic("claude-3-5-sonnet-20241022"),
-      model: anthropic("claude-3-5-haiku-20241022"),
+      // model: anthropic("claude-3-5-haiku-20241022"),
       // model: anthropic("claude-3-sonnet-20240229"),
       // model: anthropic("claude-3-haiku-20240307"),
       // model: groq("gemma2-9b-it"),
-      // model: openai("gpt-4-turbo"),
+      model: openai("gpt-4-turbo"),
       // model: openai("gpt-4o-mini"),
       // model: deepseek('deepseek-chat'),
       system: systemPrompt,
@@ -91,4 +104,34 @@ export async function POST(req) {
       headers: { "Content-Type": "application/json" },
     })
   }
+}
+
+async function getContent(filePath, tag) {
+  // Определяем окружение
+  const baseUrl = "https://" + (process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL)
+  let content
+
+  if (process.env.VERCEL_ENV === "dev") {
+    content = fs.readFileSync(filePath, "utf8")
+  } else {
+    // Находим в пути "/dist/" и отсекаем всё до и включая
+    let urlPath = filePath
+    const distIndex = filePath.indexOf("/dist/")
+
+    if (distIndex !== -1) {
+      urlPath = filePath.substring(distIndex + 6) // +6 чтобы отсечь и сам "/dist/"
+    }
+
+    const fullUrl = `${baseUrl}/${urlPath}`
+    const response = await fetch(fullUrl)
+
+    if (!response.ok) {
+      throw new Error(`Ошибка HTTP: ${response.status} при получении ${fullUrl}`)
+    }
+
+    content = await response.text()
+  }
+
+  // Возвращаем контент с тегом
+  return `<${tag}>\n${content}\n</${tag}>`
 }
