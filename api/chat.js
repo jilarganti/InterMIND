@@ -10,6 +10,7 @@ import fetch from "node-fetch"
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30
+let llmsTxt, llmsFullTxt
 
 /**
  * Функция для удаления тегов figure из текста сообщения
@@ -31,8 +32,10 @@ export async function POST(req) {
   console.log("🔵 API: Получен запрос к /api/chat")
 
   // Читаем содержимое файлов
-  const llmsTxt = await getContent("packages/golden-fish/docs/.vitepress/dist/llms.txt", "llmsTxt")
-  const llmsFullTxt = await getContent("packages/golden-fish/docs/.vitepress/dist/llms-full.txt", "llmsFullTxt")
+  // Загружаем свежие данные
+  llmsTxt = await getContent("packages/golden-fish/docs/.vitepress/dist/llms.txt", "llmsTxt")
+  llmsTxt = llmsTxt.replace(/\.md/g, "")
+  llmsFullTxt = await getContent("packages/golden-fish/docs/.vitepress/dist/llms-full.txt", "llmsFullTxt")
 
   // console.log("llms.txt content:", llmsTxt)
 
