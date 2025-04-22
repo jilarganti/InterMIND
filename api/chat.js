@@ -85,8 +85,8 @@ export async function POST(req) {
     const result = await streamText({
       // model: anthropic("claude-3-5-sonnet-20241022"),
       // model: anthropic("claude-3-5-haiku-20241022"),
-      // model: anthropic("claude-3-sonnet-20240229"),
-      model: anthropic("claude-3-haiku-20240307"),
+      model: anthropic("claude-3-sonnet-20240229"),
+      // model: anthropic("claude-3-haiku-20240307"),
       // model: groq("gemma2-9b-it"),
       // model: openai("gpt-4-turbo"),
       // model: openai("gpt-4o-mini"),

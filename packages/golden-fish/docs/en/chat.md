@@ -15,15 +15,16 @@ navbar: false
   { id: "49", text: "free zone site links, table", category: "general" },
   { id: "49", text: "table of links to free zone sites with price", category: "general" },
   
-  { id: "48", text: "top 20 hospitals in the UAE", category: "healthcare" },
-  // Бизнес-услуги (первый блок)
   { id: "1", text: "Company registration in UAE", category: "business" },
+  { id: "7", text: "UAE trade license requirements", category: "business" },
+  { id: "48", text: "5 Best Hospitals in UAE, Pros and Cons", category: "healthcare" },
+
+  // Бизнес-услуги (первый блок)
   { id: "2", text: "Mainland company setup", category: "business" },
   { id: "3", text: "Free zone company registration", category: "business" },
   { id: "4", text: "Offshore company formation", category: "business" },
   { id: "5", text: "UAE freelance visa", category: "business" },
   { id: "6", text: "Dubai business license", category: "business" },
-  { id: "7", text: "UAE trade license requirements", category: "business" },
   { id: "23", text: "UAE business setup", category: "business" },
   { id: "24", text: "Dubai free zones", category: "business" },
   { id: "25", text: "UAE company registration", category: "business" },
