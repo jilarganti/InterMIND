@@ -58,15 +58,21 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
   id: chatSessionId.value,
   initialMessages: chatsStore.getMessages(props.chatId),
   body: {
-    mode: currentMode.value,
-    language: lang.value.split("-")[0],
     stream: true,
+  },
+  experimental_prepareRequestBody(options) {
+    // Добавляем актуальные значения в каждый запрос
+    return {
+      ...options,
+      mode: currentMode.value,
+      language: lang.value.split("-")[0],
+    }
   },
   onResponse(response) {
     // console.log("Received HTTP response from server:", response)
   },
   onToolCall({ toolCall }) {},
-  experimental_prepareRequestBody(options) {},
+  // experimental_prepareRequestBody(options) {},
   onFinish: async () => {
     // Проверяем, что chatId не изменился во время получения ответа
     if (chatSessionId.value !== props.chatId) return
@@ -205,10 +211,7 @@ const toggleRawMessages = () => {
 }
 
 // Настройка обработчика кликов по изображениям
-const { setupImageClicks, cleanupImageClicks } = setupImageClickHandler(
-  // Передаем функцию submitTextDirectly вместе с режимом followup
-  (text) => submitTextDirectly(text, "followup"),
-)
+const { setupImageClicks, cleanupImageClicks } = setupImageClickHandler((text, mode) => submitTextDirectly(text, mode))
 
 // Когда chatId меняется, обновляем chatSessionId и перезагружаем сообщения
 watchEffect(() => {
