@@ -10,8 +10,10 @@ navbar: false
 
 <script setup>
 const chatPrompts = [
-  { id: "49", text: "Golden Fish sitemap most popular links", category: "general" },
-  { id: "49", text: "Golden Fish site. Most popular FAQ.", category: "general" },
+  { id: "49", text: "popular pages of this site, table", category: "general" },
+  { id: "49", text: "this site, top 20 FAQ", category: "general" },
+  { id: "49", text: "free zone site links, table", category: "general" },
+  { id: "49", text: "table of links to free zone sites with price", category: "general" },
   // Бизнес-услуги (первый блок)
   { id: "1", text: "Company registration in UAE", category: "business" },
   { id: "2", text: "Mainland company setup", category: "business" },
