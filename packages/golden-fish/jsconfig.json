@@ -9,6 +9,5 @@
       "@config/*": ["./docs/.vitepress/config/*"],
       "@theme/*": ["./docs/.vitepress/theme/*"]
     }
-  },
-  "include": ["api/**/*.js"]
+  }
 }

@@ -216,12 +216,12 @@ defineExpose({
 /* Контейнер для подсказок */
 .prompts-container {
   width: 100%;
-  max-width: 1200px; /* Увеличиваем максимальную ширину */
+
   margin: 0 auto;
-  padding: 8px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
-  flex: 1;
+  /* flex: 1; */
   justify-content: center;
 }
 
@@ -229,6 +229,7 @@ defineExpose({
 .prompts-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Адаптивная сетка */
+  padding: 16px;
   gap: 16px;
   width: 100%;
   max-height: calc(100vh - 160px); /* Оставляем место для поля ввода */

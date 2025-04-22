@@ -9,11 +9,13 @@ navbar: false
 ---
 
 <script setup>
-const chatPrompts = [
-  { id: "49", text: "popular pages of this site, table", category: "general" },
+  const chatPrompts = [
+    { id: "49", text: "popular pages of this site, table", category: "general" },
   { id: "49", text: "this site, top 20 FAQ", category: "general" },
   { id: "49", text: "free zone site links, table", category: "general" },
   { id: "49", text: "table of links to free zone sites with price", category: "general" },
+  
+  { id: "48", text: "top 20 hospitals in the UAE", category: "healthcare" },
   // Бизнес-услуги (первый блок)
   { id: "1", text: "Company registration in UAE", category: "business" },
   { id: "2", text: "Mainland company setup", category: "business" },
@@ -55,7 +57,6 @@ const chatPrompts = [
 
   // Здравоохранение
   { id: "47", text: "UAE health insurance", category: "healthcare" },
-  { id: "48", text: "Best hospitals in Dubai", category: "healthcare" },
   { id: "49", text: "Medical check-up UAE", category: "healthcare" },
   
   // Туризм и развлечения (в конце)
