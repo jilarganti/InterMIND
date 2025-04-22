@@ -332,7 +332,7 @@ defineExpose({ insertText, submitTextDirectly })
 
 .message.assistant .message-content {
   color: var(--vp-c-text-1);
-  width: 100%;
+  /* width: 100%; */
 }
 
 /* Стили для отладочного режима */
@@ -459,5 +459,9 @@ defineExpose({ insertText, submitTextDirectly })
   50% {
     background-color: var(--vp-c-brand-soft);
   }
+}
+
+.message.assistant .message-content :deep(table) {
+  display: inline-table; /* Меняем display: block на inline-table */
 }
 </style>
