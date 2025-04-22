@@ -132,14 +132,7 @@ export function useChatUi(
 
           // Отправляем запрос после небольшой задержки
           setTimeout(() => {
-            // Устанавливаем режим followup
-            if (setMode) {
-              setMode("followup")
-            }
             submitTextFn(query, "followup")
-
-            // Восстанавливаем стили
-            // setTimeout(() => {}, 1000)
           }, 300)
         }
       }
@@ -155,9 +148,6 @@ export function useChatUi(
 
           // Отправляем запрос после небольшой задержки
           setTimeout(() => {
-            if (setMode) {
-              setMode("followup")
-            }
             submitTextFn(query, "followup")
           }, 300)
 
@@ -178,9 +168,6 @@ export function useChatUi(
 
           // Отправляем запрос после небольшой задержки
           setTimeout(() => {
-            if (setMode) {
-              setMode("followup")
-            }
             submitTextFn(query, "followup")
           }, 300)
         }
