@@ -182,10 +182,8 @@ export const useChatsStore = defineStore("chats", () => {
         // Если есть сообщение от пользователя, используем его как заголовок
         const firstUserMessage = messages.find((msg) => msg.role === "user")
         if (firstUserMessage) {
-          const content = firstUserMessage.content.substring(0, 30)
-          // Обрезаем на границе слова, если текст длиннее 30 символов
-          const title = content.length < 30 ? content : content.substring(0, content.lastIndexOf(" ")) + "..."
-          chatsData.value[chatId].title = title
+          // Задаем заголовок чата
+          chatsData.value[chatId].title = firstUserMessage.content
         }
 
         // Публикуем чат
