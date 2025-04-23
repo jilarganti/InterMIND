@@ -1,3 +1,4 @@
+// shared/components/NavButton.vue
 <script setup lang="ts">
 import { computed } from "vue"
 import { useLocalizedPath } from "../utils/locale"
@@ -17,10 +18,16 @@ interface Props {
    * Ссылка для перехода
    */
   to: string
+
+  /**
+   * Стили для кнопки
+   */
+  buttonStyle?: string | Record<string, any>
 }
 
 const props = withDefaults(defineProps<Props>(), {
   buttonClass: "",
+  buttonStyle: "",
 })
 
 const { navigateTo } = useLocalizedPath()
@@ -48,7 +55,7 @@ const handleClick = (): void => {
 </script>
 
 <template>
-  <button :class="computedClass" @click="handleClick">
+  <button :class="computedClass" :style="buttonStyle" @click="handleClick">
     {{ text }}
   </button>
 </template>
