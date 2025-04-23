@@ -17,8 +17,11 @@ navbar: false
   
   { id: "1", text: "Company registration in UAE", category: "business" },
   { id: "7", text: "UAE trade license requirements", category: "business" },
+  { id: "7", text: "comparison of UAE entity types, table & analytics", category: "business" },
   { id: "48", text: "10 Best Hospitals in UAE, Pros and Cons", category: "healthcare" },
 
+  { id: "15", text: "Power of Attorney in UAE", category: "legal" },
+  
   // Бизнес-услуги (первый блок)
   { id: "2", text: "Mainland company setup", category: "business" },
   { id: "3", text: "Free zone company registration", category: "business" },
@@ -41,7 +44,6 @@ navbar: false
   // Юридические и документы
   { id: "13", text: "Emirates ID application", category: "legal" },
   { id: "14", text: "UAE document attestation", category: "legal" },
-  { id: "15", text: "Power of Attorney in UAE", category: "legal" },
   { id: "16", text: "UAE business contract review", category: "legal" },
   { id: "40", text: "Emirates ID renewal", category: "legal" },
   
