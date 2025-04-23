@@ -1,6 +1,6 @@
 // shared/components/AIChat/AIChat.vue
 <script setup lang="ts">
-import { onMounted, ref, nextTick } from "vue"
+import { onMounted, provide, ref } from "vue"
 import MobileChatLayout from "./MobileChatLayout.vue"
 import DesktopChatLayout from "./DesktopChatLayout.vue"
 import { useChatLayout } from "../../composables/AIChat/useChatLayout"
@@ -26,8 +26,14 @@ const { isDesktop } = useChatLayout()
 // Инициализируем хранилище чатов
 const chatsStore = useChatsStore()
 
+// Создаем реактивную ссылку для начального сообщения
+const initialMessage = ref<string | null>(null)
+
+// Предоставляем начальное сообщение дочерним компонентам
+provide("initialMessage", initialMessage)
+
 // Инициализация при монтировании компонента
-onMounted(async () => {
+onMounted(() => {
   // Используем готовый метод из хранилища для инициализации чата
   chatsStore.ensureChat()
 
@@ -37,26 +43,7 @@ onMounted(async () => {
     const query = urlParams.get("q")
 
     if (query) {
-      // Ждем следующий тик, чтобы компоненты загрузились
-      await nextTick()
-
-      // Небольшая задержка для гарантии полной инициализации
-      setTimeout(() => {
-        // Находим активный ChatThread через DOM
-        const chatThread = document.querySelector(".chat-thread")
-        if (chatThread) {
-          // Получаем поле ввода и кнопку отправки
-          const input = chatThread.querySelector(".message-input") as HTMLTextAreaElement
-          const submitButton = chatThread.querySelector(".action-button") as HTMLButtonElement
-
-          if (input && submitButton) {
-            // Вставляем текст и отправляем
-            input.value = query
-            input.dispatchEvent(new Event("input", { bubbles: true }))
-            submitButton.click()
-          }
-        }
-      }, 500)
+      initialMessage.value = query
     }
   }
 })
@@ -69,7 +56,6 @@ onMounted(async () => {
     <MobileChatLayout v-else :prompts="prompts" />
   </div>
 </template>
-
 <style scoped>
 .ai-chat-container {
   position: fixed;

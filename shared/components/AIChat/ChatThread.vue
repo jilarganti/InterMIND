@@ -1,5 +1,7 @@
+// shared/components/AIChat/ChatThread.vue
 <script setup lang="ts">
-import { ref, onMounted, watch, onUnmounted, computed, watchEffect } from "vue"
+import { ref, onMounted, watch, onUnmounted, computed, watchEffect, inject } from "vue"
+import type { Ref } from "vue"
 import { useChat } from "@ai-sdk/vue"
 import { useChatUi } from "../../composables/AIChat/useChatUi"
 import { useChatsStore } from "../../stores/chatsStore"
@@ -13,6 +15,9 @@ interface Props {
 }
 
 const props = defineProps<Props>()
+
+// Получаем начальное сообщение
+const initialMessage = inject<Ref<string | null>>("initialMessage", ref(null))
 
 // Получаем данные из VitePress, включая текущую локаль
 const { lang } = useData()
@@ -231,6 +236,20 @@ watchEffect(() => {
 onMounted(() => {
   setupImageClicks()
   scrollToBottom()
+
+  // Отправляем начальное сообщение, если оно есть
+  if (initialMessage.value) {
+    // Небольшая задержка для гарантии инициализации
+    setTimeout(() => {
+      if (initialMessage.value) {
+        // Проверяем еще раз внутри setTimeout
+        input.value = initialMessage.value
+        handleSubmitWithScroll()
+        // Очищаем после отправки
+        initialMessage.value = null
+      }
+    }, 100)
+  }
 })
 
 // Отключаем обработчик при удалении компонента

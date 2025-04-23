@@ -77,7 +77,7 @@ const handleKeyDown = (event: KeyboardEvent) => {
   width: 200px;
   height: 36px;
   padding: 0 10px 0 32px;
-  font-size: 14px;
+  font-size: 16px;
   background-color: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
   border-radius: 20px;
