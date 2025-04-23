@@ -4,6 +4,7 @@ import "./style.css"
 
 import { components } from "shared"
 import sharedTheme from "shared"
+import SearchInput from "../../../../../shared/components/AIChat/SearchInput.vue"
 
 const { ContactFormModalNav, NavButton } = components
 
@@ -12,6 +13,8 @@ export default {
   ...sharedTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
+      // Для десктопов (в навбаре)
+      "nav-bar-content-before": () => h(SearchInput),
       // Для десктопов (в навбаре)
       "nav-bar-content-after": () =>
         h("div", { class: "auth-buttons-container" }, [

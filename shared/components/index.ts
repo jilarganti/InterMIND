@@ -9,6 +9,7 @@ import ContactFormModalNav from "./CRM/ContactFormModalNav.vue"
 import AIChat from "./AIChat/AIChat.vue"
 import FeatureBlock from "./FeatureBlock.vue"
 import NavButton from "./NavButton.vue"
+import SearchInput from "./AIChat/SearchInput.vue"
 
 interface Components {
   [key: string]: Component
@@ -24,4 +25,5 @@ export const components: Components = {
   ContactFormModalNav,
   FeatureBlock,
   NavButton,
+  SearchInput,
 }
