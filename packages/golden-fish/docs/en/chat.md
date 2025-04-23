@@ -11,7 +11,7 @@ navbar: false
 <script setup>
   const chatPrompts = [
     { id: "49", text: "popular pages of this site, table", category: "general" },
-  { id: "49", text: "this site, top 20 FAQ", category: "general" },
+  { id: "49", text: "this site, top 10 FAQ", category: "general" },
   { id: "49", text: "free zone site links, table", category: "general" },
   { id: "49", text: "table of links to free zone sites with price", category: "general" },
   
@@ -21,7 +21,7 @@ navbar: false
   { id: "48", text: "10 Best Hospitals in UAE, Pros and Cons", category: "healthcare" },
 
   { id: "15", text: "Power of Attorney in UAE", category: "legal" },
-  
+
   // Бизнес-услуги (первый блок)
   { id: "2", text: "Mainland company setup", category: "business" },
   { id: "3", text: "Free zone company registration", category: "business" },
