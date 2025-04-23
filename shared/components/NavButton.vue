@@ -7,7 +7,7 @@ interface Props {
   /**
    * Текст кнопки
    */
-  text: string
+  buttonLabel: string
 
   /**
    * Класс для кнопки
@@ -56,7 +56,7 @@ const handleClick = (): void => {
 
 <template>
   <button :class="computedClass" :style="buttonStyle" @click="handleClick">
-    {{ text }}
+    {{ buttonLabel }}
   </button>
 </template>
 
