@@ -15,20 +15,20 @@ export default {
       // Для десктопов (в навбаре)
       "nav-bar-content-after": () =>
         h("div", { class: "auth-buttons-container" }, [
-          h(NavButton, { text: "Ask AI", to: "/chat" }),
+          h(NavButton, { buttonLabel: "Ask AI", to: "/chat" }),
           // h(ContactFormModalNav, { buttonText: "Send request" }),
         ]),
       // Для мобильных (в выпадающем меню)
       "nav-screen-content-after": () =>
         h("div", { class: "auth-buttons-container mobile-buttons" }, [
-          h(NavButton, { text: "Ask AI", buttonClass: "alt", to: "/chat" }),
+          h(NavButton, { buttonLabel: "Ask AI", buttonClass: "alt", to: "/chat" }),
           h(ContactFormModalNav, { buttonText: "Send request" }),
         ]),
       // Для обычных страниц (внизу страницы)
       "doc-footer-before": () =>
         h("div", { class: "auth-buttons-container" }, [
-          // h(NavButton, { text: "Ask AI", buttonClass: "alt", to: "/chat" }),
           h(ContactFormModalNav, { buttonText: "Get a free consultation" }),
+          // h(NavButton, { buttonLabel: "Ask AI", buttonClass: "alt", to: "/chat" }),
         ]),
     })
   },
