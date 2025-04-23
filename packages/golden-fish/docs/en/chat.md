@@ -17,7 +17,7 @@ navbar: false
   
   { id: "1", text: "Company registration in UAE", category: "business" },
   { id: "7", text: "UAE trade license requirements", category: "business" },
-  { id: "48", text: "5 Best Hospitals in UAE, Pros and Cons", category: "healthcare" },
+  { id: "48", text: "10 Best Hospitals in UAE, Pros and Cons", category: "healthcare" },
 
   // Бизнес-услуги (первый блок)
   { id: "2", text: "Mainland company setup", category: "business" },
