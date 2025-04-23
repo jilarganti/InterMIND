@@ -18,7 +18,7 @@ export default {
       // Для десктопов (в навбаре)
       "nav-bar-content-after": () =>
         h("div", { class: "auth-buttons-container" }, [
-          h(NavButton, { buttonLabel: "Ask AI", to: "/chat" }),
+          // h(NavButton, { buttonLabel: "Ask AI", to: "/chat" }),
           // h(ContactFormModalNav, { buttonText: "Send request" }),
         ]),
       // Для мобильных (в выпадающем меню)
@@ -30,8 +30,8 @@ export default {
       // Для обычных страниц (внизу страницы)
       "doc-footer-before": () =>
         h("div", { class: "auth-buttons-container" }, [
-          h(ContactFormModalNav, { buttonText: "Get a free consultation" }),
-          // h(NavButton, { buttonLabel: "Ask AI", buttonClass: "alt", to: "/chat" }),
+          // h(ContactFormModalNav, { buttonText: "Speak to an expert" }),
+          h(NavButton, { buttonLabel: "Chat to an expert", to: "/chat" }),
         ]),
     })
   },

@@ -11,8 +11,8 @@ hero:
 
   actions:
     - theme: brand
-      text: Get Free Consultation
-      link: /resources/contacts
+      text: Chat to an expert
+      link: /chat
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -269,4 +269,4 @@ UAE business residence permits are typically issued for 2 to 3 years.
 
 :::
 
-<ContactFormModalNav buttonText="Get a free consultation" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="Speak to an expert" formStyle="display: block; margin: 3rem auto;"/>
