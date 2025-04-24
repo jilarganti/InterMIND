@@ -8,6 +8,10 @@ hero:
   name: "UAE Golden Visa"
   text: Payment by results
   tagline: 10-year residency. <span class="hl">Zero upfront fees</span> - pay only after approval. 98% success rate.
+  actions:
+    - theme: brand
+      text: Chat to an expert
+      link: /chat
   image:
     light:
       src: /img/Logo.avif

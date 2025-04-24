@@ -8,6 +8,10 @@ hero:
   name: "UAE Company Formation: We Share Your Risk"
   # text: Payment by results
   tagline: "Invest in your business with confidence: we only get paid after successful company registration. <span class='hl'>Your success is our only goal</span>."
+  actions:
+    - theme: brand
+      text: Chat to an expert
+      link: /chat
   image:
     light:
       src: /img/Logo.avif

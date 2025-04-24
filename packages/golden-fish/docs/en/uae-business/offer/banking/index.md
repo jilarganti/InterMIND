@@ -8,6 +8,10 @@ hero:
   name: "UAE Banking: Your Safe Harbor"
   # text: Zero upfront fees
   tagline: Guaranteed corporate bank account approvals in 2025. <span class="hl">Zero upfront fees</span> - pay only after approval. 96% success rate.
+  actions:
+    - theme: brand
+      text: Chat to an expert
+      link: /chat
   image:
     light:
       src: /img/Logo.avif
