@@ -3,20 +3,20 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/bn"
 
 export const bn = defineConfig({
-  description: "ইউএই কোম্পানি গঠন এবং সহায়তা পরিষেবায় বিশেষজ্ঞ। কোম্পানি সেটআপ, ব্যাংকিং, ট্যাক্স, আইনি এবং ভিসা সমাধান। আপনার ব্যবসায়িক স্বপ্নকে বাস্তবে পরিণত করি!",
+  description: "দক্ষ ইউএই কোম্পানি গঠন এবং সমর্থন সেবা। কোম্পানি সেটআপ, ব্যাংকিং, ট্যাক্স, আইনি এবং ভিসা সমাধান। আপনার ব্যবসায়িক স্বপ্নকে বাস্তবে রূপ দিচ্ছি!",
   head: [
-    ["meta", { property: "og:title", content: "ইউএই কোম্পানি গঠন এবং সহায়তা পরিষেবায় বিশেষজ্ঞ। কোম্পানি সেটআপ, ব্যাংকিং, ট্যাক্স, আইনি এবং ভিসা সমাধান।" }],
+    ["meta", { property: "og:title", content: "দক্ষ ইউএই কোম্পানি গঠন এবং সমর্থন সেবা। কোম্পানি সেটআপ, ব্যাংকিং, ট্যাক্স, আইনি এবং ভিসা সমাধান।" }],
   ],
 
   themeConfig: {
     nav: [
       {
-        text: "পরিষেবাসমূহ",
+        text: "সেবাসমূহ",
         activeMatch: `${BASE_PATH}/company-registration/`,
         items: [
           { text: "কোম্পানি নিবন্ধন", link: `${BASE_PATH}/uae-business/company-registration/overview` },
           { text: "ব্যাংকিং সমাধান", link: `${BASE_PATH}/uae-business/company-registration/banking` },
-          { text: "অভিবাসন", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
+          { text: "মাইগ্রেশন", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
         ],
       },
       {
@@ -29,30 +29,43 @@ export const bn = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      // [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: `©Golden Fish, 2025। | <a href="#" onClick="UC_UI.showSecondLayer();">গোপনীয়তা সেটিংস</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">গোপনীয়তা নীতি</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">এআই পরিষেবার জন্য আইনি প্রবিধান</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">গোপনীয়তা সেটিংস</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">গোপনীয়তা নীতি</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">এআই সেবার জন্য আইনি নিয়মাবলী</a>`,
     },
 
+    localization: {
+      placeholder4SearchInput: "দ্রুত অনুসন্ধান...",
+    },
     contact_form: {
       name: "নাম *",
       namePlaceholder: "আপনার নাম",
       email: "ইমেইল *",
       emailPlaceholder: "আপনার ইমেইল ঠিকানা",
       phone: "ফোন *",
-      phonePlaceholder: "যেমন, +1 1234567890 বা (1) 123 456-7890",
-      phoneError: "অনুগ্রহ করে ফোন নম্বর দিন",
-      category: "আমরা কিভাবে সাহায্য করতে পারি? *",
-      categoryPlaceholder: "পরিষেবার ধরন নির্বাচন করুন",
-      message: "আপনার লক্ষ্য নিয়ে আলোচনা করি (ঐচ্ছিক)",
-      messagePlaceholder: "আপনার প্রকল্প বা প্রয়োজনীয়তা বর্ণনা করুন",
+      phonePlaceholder: "উদাহরণস্বরূপ, +1 1234567890 অথবা (1) 123 456-7890",
+      phoneError: "অনুগ্রহ করে ফোন নম্বর লিখুন",
+      category: "আমরা কিভাবে আপনাকে সাহায্য করতে পারি? *",
+      categoryPlaceholder: "সেবা ধরন নির্বাচন করুন",
+      message: "আপনার লক্ষ্য নিয়ে আলোচনা করা যাক (ঐচ্ছিক)",
+      messagePlaceholder: "আমাদের জন্য সেরা সমাধান প্রস্তুত করতে আপনার অনুসন্ধানের বিবরণ ভাগ করুন",
       submit: "অনুরোধ জমা দিন",
       sending: "পাঠানো হচ্ছে...",
       successTitle: "ধন্যবাদ!",
-      successMessage: "আপনার আগ্রহের জন্য আমরা অত্যন্ত কৃতজ্ঞ! আমাদের টিম শীঘ্রই আপনার প্রয়োজনীয়তা নিয়ে আলোচনা করার জন্য যোগাযোগ করবে।",
-      defaultCategories: ["কোম্পানি নিবন্ধন", "ব্যাংক অ্যাকাউন্ট খোলা", "EID এবং Golden Visa", "অন্যান্য পরিষেবা"],
-      defaultButtonText: "বিনামূল্যে পরামর্শ নিন",
+      successMessage: "আপনার আগ্রহের জন্য আমরা অত্যন্ত কৃতজ্ঞ! আমাদের দল শীঘ্রই আপনার সাথে যোগাযোগ করবে এবং আপনার প্রয়োজনীয়তা নিয়ে আলোচনা করবে।",
+      defaultCategories: [
+        "নতুন কোম্পানি গঠন",
+        "বিস্তার পরিকল্পনা (যেমন নতুন শাখা বা ফ্র্যাঞ্চাইজি)",
+        "কোম্পানি স্থানান্তর",
+        "গোল্ডেন ভিসা",
+        "শুধুমাত্র ভিসা উদ্দেশ্যে",
+        "ব্যাংক অ্যাকাউন্ট খোলা",
+        "অন্যান্য সেবা",
+      ],
+      defaultButtonText: "আমাদের বার্তা পাঠান",
+      // defaultButtonText: "একটি বিনামূল্যে পরামর্শ পান",
     },
   },
 })
@@ -60,50 +73,50 @@ export const bn = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "ইউএই ব্যবসার সারসংক্ষেপ",
-      collapsed: false,
+      text: "ইউএই ব্যবসার সারাংশ",
+      // collapsed: false,
       items: [
         { text: "কোম্পানি নিবন্ধন", link: "company-registration/overview" },
         { text: "সুবিধা ও অসুবিধা", link: "company-registration/benefits-problems" },
-        { text: "কর্পোরেট ব্যাংকিং সমাধান", link: "offer/banking/" },
-        { text: "Golden Visa", link: "offer/golden-visa/" },
-        { text: "ভিসা ও EID", link: "company-registration/employment-visas" },
+        { text: "কর্পোরেট ব্যাংকিং সমাধান", link: "company-registration/banking" },
+        { text: "গোল্ডেন ভিসা", link: "company-registration//golden-visa" },
+        { text: "ভিসা ও ইআইডি", link: "company-registration/employment-visas" },
         { text: "ফি এবং সময়সীমা", link: "company-registration/fees-timelines" },
-        { text: "সফলতার পরেই শুধু পেমেন্ট", link: "benefits/success-based-fees" },
+        { text: "সাফল্যের পর শুধুমাত্র পেমেন্ট", link: "benefits/success-based-fees" },
       ],
     },
     {
       text: "ইউএই কর্পোরেট কাঠামো",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "কোম্পানি নিবন্ধনের ধাপসমূহ", link: "company-registration/insights/incorporation-steps" },
-        { text: "UAE free zones", link: "company-registration/free-zones" },
-        { text: "UAE mainland", link: "company-registration/mainland" },
+        { text: "ইউএই ফ্রি জোন", link: "company-registration/free-zones" },
+        { text: "ইউএই মেইনল্যান্ড", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "ইউএই ব্যবসায়িক অনুবর্তিতা নিশ্চিত",
-      collapsed: true,
+      text: "ইউএই ব্যবসা অনুযায়ী নিশ্চিত কমপ্লায়েন্স",
+      collapsed: false,
       items: [
-        { text: "নিশ্চিত কর্পোরেট ব্যাংক অ্যাকাউন্ট অনুমোদন", link: "corporate-banking-services/guaranteed-account-approvals" },
-        { text: "উচ্চ-ঝুঁকিপূর্ণ ব্যবসার জন্য ব্যাংক অ্যাকাউন্ট", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "আপনার ব্যবসা অনুবর্তী এবং সুরক্ষিত রাখুন", link: "company-registration/Protect-Your-Business" },
+        { text: "গ্যারান্টিড কর্পোরেট ব্যাংক অ্যাকাউন্ট অনুমোদন", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "উচ্চ-ঝুঁকি ব্যবসার জন্য ব্যাংক অ্যাকাউন্ট", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
+        { text: "আপনার ব্যবসাকে অনুযায়ী এবং সুরক্ষিত রাখুন", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
-      text: "আইনি, হিসাবরক্ষণ এবং কর",
-      collapsed: true,
+      text: "আইনি, হিসাবরক্ষণ এবং ট্যাক্স",
+      collapsed: false,
       items: [
-        { text: "হিসাবরক্ষণ এবং কর বিবেচনা", link: "company-registration/accounting-legal" },
-        { text: "UBO রেজিস্টার", link: "company-registration/ubo" },
+        { text: "হিসাবরক্ষণ এবং ট্যাক্স বিবেচনা", link: "company-registration/accounting-legal" },
+        { text: "ইউবিও রেজিস্টার", link: "company-registration/ubo" },
       ],
     },
     {
-      text: "তুলনামূলক বিশ্লেষণ",
-      collapsed: true,
+      text: "তুলনা",
+      collapsed: false,
       items: [
-        { text: "Mainland বনাম free zones", link: "comparison/mainland-vs-free-zones" },
-        { text: "ইউএই সত্তার তুলনা", link: "comparison/entity-types" },
+        { text: "মেইনল্যান্ড বনাম ফ্রি জোন", link: "comparison/mainland-vs-free-zones" },
+        { text: "ইউএই এন্টিটি তুলনা", link: "comparison/entity-types" },
       ],
     },
   ]
@@ -114,6 +127,10 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
     { text: "আমাদের সম্পর্কে", link: "about" },
     { text: "যোগাযোগ", link: "contacts" },
     { text: "গোপনীয়তা নীতি", link: "Privacy-Policy" },
-    { text: "এআই পরিষেবার জন্য আইনি প্রবিধান", link: "Legal-Regulations-for-AI-Services" },
+    { text: "এআই সেবার জন্য আইনি নিয়মাবলী", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
+
+// function sidebarContactUs(): DefaultTheme.SidebarItem[] {
+//   return [{ text: "Contacts", link: `contacts` }]
+// }

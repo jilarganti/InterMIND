@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ru"
 
 export const ru = defineConfig({
-  description: "Профессиональные услуги по регистрации и поддержке компаний в ОАЭ. Создание компаний, банковские услуги, налоговые, юридические решения и визовая поддержка. Воплощаем ваши бизнес-мечты в реальность!",
+  description: "Экспертные услуги по созданию и поддержке компаний в ОАЭ. Регистрация компаний, банковские услуги, налоговые, юридические решения и оформление виз. Воплощаем ваши бизнес-мечты в реальность!",
   head: [
-    ["meta", { property: "og:title", content: "Профессиональные услуги по регистрации и поддержке компаний в ОАЭ. Создание компаний, банковские услуги, налоговые, юридические решения и визовая поддержка." }],
+    ["meta", { property: "og:title", content: "Экспертные услуги по созданию и поддержке компаний в ОАЭ. Регистрация компаний, банковские услуги, налоговые, юридические решения и оформление виз." }],
   ],
 
   themeConfig: {
@@ -35,6 +35,9 @@ export const ru = defineConfig({
       message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Правовые нормы для AI-сервисов</a>`,
     },
 
+    localization: {
+      placeholder4SearchInput: "Быстрый поиск...",
+    },
     contact_form: {
       name: "Имя *",
       namePlaceholder: "ваше имя",
@@ -46,13 +49,21 @@ export const ru = defineConfig({
       category: "Как мы можем помочь? *",
       categoryPlaceholder: "выберите тип услуги",
       message: "Обсудим ваши цели (необязательно)",
-      messagePlaceholder: "опишите ваш проект или требования",
+      messagePlaceholder: "Пожалуйста, поделитесь деталями вашего запроса, чтобы мы могли подготовить наилучшее решение для ваших потребностей",
       submit: "Отправить запрос",
       sending: "Отправка...",
       successTitle: "Спасибо!",
       successMessage: "Мы очень ценим ваш интерес! Наша команда свяжется с вами в ближайшее время для обсуждения ваших потребностей.",
-      defaultCategories: ["Регистрация компании", "Открытие банковских счетов", "EID и Golden Visa", "Другие услуги"],
-      defaultButtonText: "Получить бесплатную консультацию",
+      defaultCategories: [
+        "Создание новой компании",
+        "План расширения (новый филиал или франшиза)",
+        "Релокация компании",
+        "Golden Visa",
+        "Только визовые цели",
+        "Открытие банковских счетов",
+        "Другие услуги",
+      ],
+      defaultButtonText: "Отправить сообщение",
     },
   },
 })
@@ -61,38 +72,37 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "Обзор бизнеса в ОАЭ",
-      collapsed: false,
       items: [
         { text: "Регистрация компании", link: "company-registration/overview" },
-        { text: "Преимущества и недостатки", link: "company-registration/benefits-problems" },
-        { text: "Корпоративные банковские решения", link: "offer/banking/" },
-        { text: "Golden Visa", link: "offer/golden-visa/" },
+        { text: "Плюсы и минусы", link: "company-registration/benefits-problems" },
+        { text: "Корпоративные банковские решения", link: "company-registration/banking" },
+        { text: "Golden Visa", link: "company-registration//golden-visa" },
         { text: "Визы и EID", link: "company-registration/employment-visas" },
         { text: "Стоимость и сроки", link: "company-registration/fees-timelines" },
         { text: "Оплата только после успеха", link: "benefits/success-based-fees" },
       ],
     },
     {
-      text: "Корпоративные структуры в ОАЭ",
-      collapsed: true,
+      text: "Корпоративные структуры ОАЭ",
+      collapsed: false,
       items: [
         { text: "Этапы регистрации компании", link: "company-registration/insights/incorporation-steps" },
-        { text: "Free zones в ОАЭ", link: "company-registration/free-zones" },
-        { text: "Mainland в ОАЭ", link: "company-registration/mainland" },
+        { text: "Свободные зоны ОАЭ", link: "company-registration/free-zones" },
+        { text: "Материковая часть ОАЭ", link: "company-registration/mainland" },
       ],
     },
     {
       text: "Гарантированное соответствие бизнеса в ОАЭ",
-      collapsed: true,
+      collapsed: false,
       items: [
-        { text: "Гарантированное открытие корпоративных счетов", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "Гарантированное открытие корпоративных банковских счетов", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Банковские счета для высокорискового бизнеса", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "Поддержание соответствия и защита бизнеса", link: "company-registration/Protect-Your-Business" },
+        { text: "Поддержание соответствия и защита вашего бизнеса", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
       text: "Юридические, бухгалтерские и налоговые услуги",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Бухгалтерские и налоговые аспекты", link: "company-registration/accounting-legal" },
         { text: "Реестр UBO", link: "company-registration/ubo" },
@@ -100,10 +110,10 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Сравнения",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Mainland против free zones", link: "comparison/mainland-vs-free-zones" },
-        { text: "Сравнение юридических лиц в ОАЭ", link: "comparison/entity-types" },
+        { text: "Сравнение юридических лиц ОАЭ", link: "comparison/entity-types" },
       ],
     },
   ]

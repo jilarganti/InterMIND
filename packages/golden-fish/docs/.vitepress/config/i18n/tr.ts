@@ -16,7 +16,7 @@ export const tr = defineConfig({
         items: [
           { text: "Şirket tescili", link: `${BASE_PATH}/uae-business/company-registration/overview` },
           { text: "Bankacılık çözümleri", link: `${BASE_PATH}/uae-business/company-registration/banking` },
-          { text: "Göç", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
+          { text: "Göç işlemleri", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
         ],
       },
       {
@@ -35,6 +35,9 @@ export const tr = defineConfig({
       message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Gizlilik Ayarları</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Gizlilik Politikası</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Yapay Zeka Hizmetleri için Yasal Düzenlemeler</a>`,
     },
 
+    localization: {
+      placeholder4SearchInput: "Hızlı arama...",
+    },
     contact_form: {
       name: "İsim *",
       namePlaceholder: "adınız",
@@ -42,17 +45,25 @@ export const tr = defineConfig({
       emailPlaceholder: "e-posta adresiniz",
       phone: "Telefon *",
       phonePlaceholder: "örn., +1 1234567890 veya (1) 123 456-7890",
-      phoneError: "Lütfen telefon numarası giriniz",
+      phoneError: "Lütfen telefon numarası girin",
       category: "Size nasıl yardımcı olabiliriz? *",
       categoryPlaceholder: "hizmet türünü seçin",
       message: "Hedeflerinizi tartışalım (isteğe bağlı)",
-      messagePlaceholder: "projenizi veya gereksinimlerinizi açıklayın",
+      messagePlaceholder: "İhtiyaçlarınız için en iyi çözümü hazırlamamıza yardımcı olmak için lütfen sorgunuzun detaylarını paylaşın",
       submit: "Talebi gönder",
       sending: "Gönderiliyor...",
       successTitle: "Teşekkür ederiz!",
       successMessage: "İlginiz için çok teşekkür ederiz! Ekibimiz ihtiyaçlarınızı görüşmek üzere kısa süre içinde sizinle iletişime geçecektir.",
-      defaultCategories: ["Şirket tescili", "Banka hesabı açma", "EID & Golden Visa", "Diğer Hizmetler"],
-      defaultButtonText: "Ücretsiz danışmanlık alın",
+      defaultCategories: [
+        "Yeni şirket kurulumu",
+        "Genişleme planı (yeni şube veya franchise)",
+        "Şirket taşıma",
+        "Golden Visa",
+        "Sadece vize amaçlı",
+        "Banka hesabı açma",
+        "Diğer Hizmetler",
+      ],
+      defaultButtonText: "Bize mesaj gönderin",
     },
   },
 })
@@ -61,20 +72,19 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "BAE iş özeti",
-      collapsed: false,
       items: [
         { text: "Şirket tescili", link: "company-registration/overview" },
         { text: "Artılar ve eksiler", link: "company-registration/benefits-problems" },
-        { text: "Kurumsal bankacılık çözümleri", link: "offer/banking/" },
-        { text: "Golden Visa", link: "offer/golden-visa/" },
+        { text: "Kurumsal bankacılık çözümleri", link: "company-registration/banking" },
+        { text: "Golden Visa", link: "company-registration//golden-visa" },
         { text: "Vizeler ve EID", link: "company-registration/employment-visas" },
         { text: "Ücretler ve süreler", link: "company-registration/fees-timelines" },
-        { text: "Sadece başarı sonrası ödeme", link: "benefits/success-based-fees" },
+        { text: "Sadece başarıdan sonra ödeme", link: "benefits/success-based-fees" },
       ],
     },
     {
       text: "BAE kurumsal yapıları",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Şirket tescil adımları", link: "company-registration/insights/incorporation-steps" },
         { text: "UAE free zones", link: "company-registration/free-zones" },
@@ -83,7 +93,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "BAE iş uyumluluğu garantili",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Garantili kurumsal banka hesabı onayları", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Yüksek riskli işletmeler için banka hesapları", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
@@ -92,7 +102,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Hukuk, muhasebe ve vergi",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Muhasebe ve vergi hususları", link: "company-registration/accounting-legal" },
         { text: "UBO kaydı", link: "company-registration/ubo" },
@@ -100,10 +110,10 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Karşılaştırmalar",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Mainland ve free zones karşılaştırması", link: "comparison/mainland-vs-free-zones" },
-        { text: "BAE kuruluşları karşılaştırması", link: "comparison/entity-types" },
+        { text: "BAE varlıkları karşılaştırması", link: "comparison/entity-types" },
       ],
     },
   ]

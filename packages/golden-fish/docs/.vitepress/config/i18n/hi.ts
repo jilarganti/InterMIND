@@ -35,6 +35,9 @@ export const hi = defineConfig({
       message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">गोपनीयता सेटिंग्स</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">गोपनीयता नीति</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">एआई सेवाओं के लिए कानूनी नियम</a>`,
     },
 
+    localization: {
+      placeholder4SearchInput: "त्वरित खोज...",
+    },
     contact_form: {
       name: "नाम *",
       namePlaceholder: "आपका नाम",
@@ -46,13 +49,21 @@ export const hi = defineConfig({
       category: "हम आपकी कैसे मदद कर सकते हैं? *",
       categoryPlaceholder: "सेवा प्रकार चुनें",
       message: "आइए आपके लक्ष्यों पर चर्चा करें (वैकल्पिक)",
-      messagePlaceholder: "अपनी परियोजना या आवश्यकताओं का वर्णन करें",
+      messagePlaceholder: "कृपया अपनी पूछताछ का विवरण साझा करें ताकि हम आपकी जरूरतों के लिए सर्वोत्तम समाधान तैयार कर सकें",
       submit: "अनुरोध भेजें",
-      sending: "भेज रहा है...",
+      sending: "भेज रहे हैं...",
       successTitle: "धन्यवाद!",
-      successMessage: "आपकी रुचि के लिए बहुत-बहुत धन्यवाद! हमारी टीम आपकी जरूरतों पर चर्चा करने के लिए जल्द ही आपसे संपर्क करेगी।",
-      defaultCategories: ["कंपनी पंजीकरण", "बैंक खाते खोलना", "EID और Golden Visa", "अन्य सेवाएं"],
-      defaultButtonText: "निःशुल्क परामर्श प्राप्त करें",
+      successMessage: "आपकी रुचि के लिए हम बहुत आभारी हैं! हमारी टीम आपकी जरूरतों पर चर्चा करने के लिए जल्द ही आपसे संपर्क करेगी।",
+      defaultCategories: [
+        "नई कंपनी स्थापना",
+        "विस्तार योजना (जैसे नई शाखा या फ्रेंचाइजी)",
+        "कंपनी स्थानांतरण",
+        "Golden Visa",
+        "केवल वीजा उद्देश्य",
+        "बैंक खाते खोलना",
+        "अन्य सेवाएं",
+      ],
+      defaultButtonText: "हमें संदेश भेजें",
     },
   },
 })
@@ -61,20 +72,19 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "यूएई व्यवसाय सारांश",
-      collapsed: false,
       items: [
         { text: "कंपनी पंजीकरण", link: "company-registration/overview" },
         { text: "फायदे और नुकसान", link: "company-registration/benefits-problems" },
-        { text: "कॉर्पोरेट बैंकिंग समाधान", link: "offer/banking/" },
-        { text: "Golden Visa", link: "offer/golden-visa/" },
-        { text: "वीज़ा और EID", link: "company-registration/employment-visas" },
-        { text: "शुल्क और समय-सीमा", link: "company-registration/fees-timelines" },
+        { text: "कॉर्पोरेट बैंकिंग समाधान", link: "company-registration/banking" },
+        { text: "Golden Visa", link: "company-registration//golden-visa" },
+        { text: "वीजा और EID", link: "company-registration/employment-visas" },
+        { text: "शुल्क और समय सीमा", link: "company-registration/fees-timelines" },
         { text: "सफलता के बाद ही भुगतान", link: "benefits/success-based-fees" },
       ],
     },
     {
       text: "यूएई कॉर्पोरेट संरचनाएं",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "कंपनी पंजीकरण के चरण", link: "company-registration/insights/incorporation-steps" },
         { text: "UAE free zones", link: "company-registration/free-zones" },
@@ -83,16 +93,16 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "यूएई व्यवसाय अनुपालन गारंटीकृत",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "गारंटीकृत कॉर्पोरेट बैंक खाता स्वीकृतियां", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "उच्च जोखिम वाले व्यवसाय के लिए बैंक खाते", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "अपने व्यवसाय को अनुपालित और सुरक्षित रखें", link: "company-registration/Protect-Your-Business" },
+        { text: "अपने व्यवसाय को अनुपालन और सुरक्षित रखें", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
       text: "कानूनी, लेखा और कर",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "लेखा और कर विचार", link: "company-registration/accounting-legal" },
         { text: "UBO रजिस्टर", link: "company-registration/ubo" },
@@ -100,7 +110,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "तुलनाएं",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Mainland बनाम free zones", link: "comparison/mainland-vs-free-zones" },
         { text: "यूएई संस्थाओं की तुलना", link: "comparison/entity-types" },

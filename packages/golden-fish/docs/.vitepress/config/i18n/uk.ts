@@ -32,27 +32,38 @@ export const uk = defineConfig({
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Налаштування конфіденційності</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Політика конфіденційності</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Правові норми щодо послуг ШІ</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Налаштування конфіденційності</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Політика конфіденційності</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Правові норми для AI-послуг</a>`,
     },
 
+    localization: {
+      placeholder4SearchInput: "Швидкий пошук...",
+    },
     contact_form: {
       name: "Ім'я *",
       namePlaceholder: "ваше ім'я",
       email: "Email *",
-      emailPlaceholder: "ваша email адреса",
+      emailPlaceholder: "ваша електронна адреса",
       phone: "Телефон *",
-      phonePlaceholder: "напр., +1 1234567890 або (1) 123 456-7890",
+      phonePlaceholder: "наприклад, +1 1234567890 або (1) 123 456-7890",
       phoneError: "Будь ласка, введіть номер телефону",
-      category: "Як ми можемо допомогти? *",
+      category: "Як ми можемо вам допомогти? *",
       categoryPlaceholder: "оберіть тип послуги",
       message: "Обговорімо ваші цілі (необов'язково)",
-      messagePlaceholder: "опишіть ваш проект або вимоги",
+      messagePlaceholder: "Будь ласка, поділіться деталями вашого запиту, щоб ми могли підготувати найкраще рішення для ваших потреб",
       submit: "Надіслати запит",
       sending: "Надсилання...",
       successTitle: "Дякуємо!",
-      successMessage: "Ми дуже цінуємо ваш інтерес! Наша команда незабаром зв'яжеться з вами для обговорення ваших потреб.",
-      defaultCategories: ["Реєстрація компанії", "Відкриття банківських рахунків", "EID і Golden Visa", "Інші послуги"],
-      defaultButtonText: "Отримати безкоштовну консультацію",
+      successMessage: "Ми дуже цінуємо ваш інтерес! Наша команда зв'яжеться з вами найближчим часом для обговорення ваших потреб.",
+      defaultCategories: [
+        "Створення нової компанії",
+        "План розширення (новий філіал або франшиза)",
+        "Релокація компанії",
+        "Golden Visa",
+        "Тільки візові питання",
+        "Відкриття банківських рахунків",
+        "Інші послуги",
+      ],
+      defaultButtonText: "Надіслати повідомлення",
     },
   },
 })
@@ -61,12 +72,11 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "Огляд бізнесу в ОАЕ",
-      collapsed: false,
       items: [
         { text: "Реєстрація компанії", link: "company-registration/overview" },
         { text: "Переваги та недоліки", link: "company-registration/benefits-problems" },
-        { text: "Корпоративні банківські рішення", link: "offer/banking/" },
-        { text: "Golden Visa", link: "offer/golden-visa/" },
+        { text: "Корпоративні банківські рішення", link: "company-registration/banking" },
+        { text: "Golden Visa", link: "company-registration//golden-visa" },
         { text: "Візи та EID", link: "company-registration/employment-visas" },
         { text: "Вартість та терміни", link: "company-registration/fees-timelines" },
         { text: "Оплата тільки після успіху", link: "benefits/success-based-fees" },
@@ -74,25 +84,25 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Корпоративні структури ОАЕ",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Етапи реєстрації компанії", link: "company-registration/insights/incorporation-steps" },
-        { text: "Free zones ОАЕ", link: "company-registration/free-zones" },
-        { text: "Mainland ОАЕ", link: "company-registration/mainland" },
+        { text: "Вільні зони ОАЕ", link: "company-registration/free-zones" },
+        { text: "Материкова частина ОАЕ", link: "company-registration/mainland" },
       ],
     },
     {
       text: "Гарантована відповідність бізнесу в ОАЕ",
-      collapsed: true,
+      collapsed: false,
       items: [
-        { text: "Гарантоване схвалення корпоративних банківських рахунків", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "Гарантоване відкриття корпоративних банківських рахунків", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Банківські рахунки для високоризикового бізнесу", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
         { text: "Підтримка відповідності та захист вашого бізнесу", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
       text: "Юридичні, бухгалтерські та податкові послуги",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Бухгалтерські та податкові аспекти", link: "company-registration/accounting-legal" },
         { text: "Реєстр UBO", link: "company-registration/ubo" },
@@ -100,7 +110,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Порівняння",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Mainland проти free zones", link: "comparison/mainland-vs-free-zones" },
         { text: "Порівняння юридичних осіб ОАЕ", link: "comparison/entity-types" },
@@ -114,6 +124,6 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
     { text: "Про нас", link: "about" },
     { text: "Контакти", link: "contacts" },
     { text: "Політика конфіденційності", link: "Privacy-Policy" },
-    { text: "Правові норми щодо послуг ШІ", link: "Legal-Regulations-for-AI-Services" },
+    { text: "Правові норми для AI-послуг", link: "Legal-Regulations-for-AI-Services" },
   ]
 }

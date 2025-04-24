@@ -21,9 +21,9 @@ export const es = defineConfig({
       },
       {
         text: "Recursos",
-        items: [{ text: "Acerca de", link: `${BASE_PATH}/resources/about` }],
+        items: [{ text: "Sobre nosotros", link: `${BASE_PATH}/resources/about` }],
       },
-      { text: "Contacto", link: `${BASE_PATH}/resources/contacts` },
+      { text: "Contactos", link: `${BASE_PATH}/resources/contacts` },
     ],
 
     sidebar: {
@@ -32,9 +32,12 @@ export const es = defineConfig({
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de Privacidad</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Política de Privacidad</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Regulaciones Legales para Servicios de IA</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de privacidad</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Política de privacidad</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Regulaciones legales para servicios de IA</a>`,
     },
 
+    localization: {
+      placeholder4SearchInput: "Búsqueda rápida...",
+    },
     contact_form: {
       name: "Nombre *",
       namePlaceholder: "su nombre",
@@ -46,13 +49,21 @@ export const es = defineConfig({
       category: "¿Cómo podemos ayudarle? *",
       categoryPlaceholder: "seleccione tipo de servicio",
       message: "Hablemos de sus objetivos (opcional)",
-      messagePlaceholder: "describa su proyecto o requisitos",
+      messagePlaceholder: "Por favor, comparta los detalles de su consulta para ayudarnos a preparar la mejor solución para sus necesidades",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
-      successMessage: "¡Agradecemos mucho su interés! Nuestro equipo se pondrá en contacto con usted en breve para discutir sus necesidades.",
-      defaultCategories: ["Registro de empresas", "Apertura de cuentas bancarias", "EID & Golden Visa", "Otros servicios"],
-      defaultButtonText: "Obtener una consulta gratuita",
+      successMessage: "¡Agradecemos enormemente su interés! Nuestro equipo se pondrá en contacto con usted en breve para discutir sus necesidades.",
+      defaultCategories: [
+        "Formación de nueva empresa",
+        "Plan de expansión (ej. nueva sucursal o franquicia)",
+        "Reubicación de empresa",
+        "Golden Visa",
+        "Solo propósitos de visado",
+        "Apertura de cuentas bancarias",
+        "Otros servicios",
+      ],
+      defaultButtonText: "Envíenos un mensaje",
     },
   },
 })
@@ -61,12 +72,11 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "Resumen de negocios en EAU",
-      collapsed: false,
       items: [
         { text: "Registro de empresas", link: "company-registration/overview" },
         { text: "Ventajas y desventajas", link: "company-registration/benefits-problems" },
-        { text: "Soluciones bancarias corporativas", link: "offer/banking/" },
-        { text: "Golden Visa", link: "offer/golden-visa/" },
+        { text: "Soluciones bancarias corporativas", link: "company-registration/banking" },
+        { text: "Golden Visa", link: "company-registration//golden-visa" },
         { text: "Visados y EID", link: "company-registration/employment-visas" },
         { text: "Tarifas y plazos", link: "company-registration/fees-timelines" },
         { text: "Pague solo después del éxito", link: "benefits/success-based-fees" },
@@ -74,7 +84,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Estructuras corporativas en EAU",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Pasos para el registro de empresas", link: "company-registration/insights/incorporation-steps" },
         { text: "UAE free zones", link: "company-registration/free-zones" },
@@ -83,7 +93,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Cumplimiento empresarial garantizado en EAU",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Aprobaciones garantizadas de cuentas bancarias corporativas", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Cuentas bancarias para negocios de alto riesgo", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
@@ -92,7 +102,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Legal, contabilidad e impuestos",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Consideraciones contables y fiscales", link: "company-registration/accounting-legal" },
         { text: "Registro UBO", link: "company-registration/ubo" },
@@ -100,7 +110,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Comparaciones",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Mainland vs free zones", link: "comparison/mainland-vs-free-zones" },
         { text: "Comparación de entidades en EAU", link: "comparison/entity-types" },
@@ -111,9 +121,9 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Acerca de", link: "about" },
+    { text: "Sobre nosotros", link: "about" },
     { text: "Contactos", link: "contacts" },
-    { text: "Política de Privacidad", link: "Privacy-Policy" },
-    { text: "Regulaciones Legales para Servicios de IA", link: "Legal-Regulations-for-AI-Services" },
+    { text: "Política de privacidad", link: "Privacy-Policy" },
+    { text: "Regulaciones legales para servicios de IA", link: "Legal-Regulations-for-AI-Services" },
   ]
 }

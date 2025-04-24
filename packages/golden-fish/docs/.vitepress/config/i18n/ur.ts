@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ur"
 
 export const ur = defineConfig({
-  description: "متحدہ عرب امارات میں کمپنی کی تشکیل اور معاونتی خدمات میں ماہر۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔ آپ کے کاروباری خوابوں کو حقیقت بنانا!",
+  description: "ماہر اماراتی کمپنی کی تشکیل اور معاونت کی خدمات۔ کمپنی کی ترتیب، بینکاری، ٹیکس، قانونی اور ویزا حل۔ آپ کے کاروباری خوابوں کو حقیقت بنانا!",
   head: [
-    ["meta", { property: "og:title", content: "متحدہ عرب امارات میں کمپنی کی تشکیل اور معاونتی خدمات میں ماہر۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔" }],
+    ["meta", { property: "og:title", content: "ماہر اماراتی کمپنی کی تشکیل اور معاونت کی خدمات۔ کمپنی کی ترتیب، بینکاری، ٹیکس، قانونی اور ویزا حل۔" }],
   ],
 
   themeConfig: {
@@ -15,7 +15,7 @@ export const ur = defineConfig({
         activeMatch: `${BASE_PATH}/company-registration/`,
         items: [
           { text: "کمپنی رجسٹریشن", link: `${BASE_PATH}/uae-business/company-registration/overview` },
-          { text: "بینکنگ حل", link: `${BASE_PATH}/uae-business/company-registration/banking` },
+          { text: "بینکاری حل", link: `${BASE_PATH}/uae-business/company-registration/banking` },
           { text: "ہجرت", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
         ],
       },
@@ -29,30 +29,43 @@ export const ur = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      // [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">رازداری کی ترتیبات</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">رازداری پالیسی</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">مصنوعی ذہانت کی خدمات کے لیے قانونی ضوابط</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">پرائیویسی سیٹنگز</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">پرائیویسی پالیسی</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI خدمات کے لیے قانونی ضوابط</a>`,
     },
 
+    localization: {
+      placeholder4SearchInput: "فوری تلاش...",
+    },
     contact_form: {
       name: "نام *",
       namePlaceholder: "آپ کا نام",
-      email: "ای میل *",
-      emailPlaceholder: "آپ کا ای میل ایڈریس",
+      email: "ایمیل *",
+      emailPlaceholder: "آپ کا ایمیل ایڈریس",
       phone: "فون *",
-      phonePlaceholder: "مثال، +1 1234567890 یا (1) 123 456-7890",
+      phonePlaceholder: "مثال کے طور پر، +1 1234567890 یا (1) 123 456-7890",
       phoneError: "براہ کرم فون نمبر درج کریں",
-      category: "ہم آپ کی کیسے مدد کر سکتے ہیں؟ *",
-      categoryPlaceholder: "سروس کی قسم منتخب کریں",
-      message: "آئیے آپ کے مقاصد پر بات کریں (اختیاری)",
-      messagePlaceholder: "اپنے پروجیکٹ یا ضروریات کی تفصیل بیان کریں",
-      submit: "درخواست جمع کریں",
-      sending: "بھیج رہا ہے...",
+      category: "ہم آپ کی کس طرح مدد کر سکتے ہیں؟ *",
+      categoryPlaceholder: "خدمت کی قسم منتخب کریں",
+      message: "آپ کے مقاصد پر بات کریں (اختیاری)",
+      messagePlaceholder: "براہ کرم اپنی درخواست کی تفصیلات شیئر کریں تاکہ ہم آپ کی ضروریات کے لیے بہترین حل تیار کر سکیں",
+      submit: "درخواست جمع کروائیں",
+      sending: "بھیجا جا رہا ہے...",
       successTitle: "شکریہ!",
-      successMessage: "آپ کی دلچسپی کے لیے بہت شکریہ! ہماری ٹیم جلد ہی آپ کی ضروریات پر بات کرنے کے لیے آپ سے رابطہ کرے گی۔",
-      defaultCategories: ["کمپنی رجسٹریشن", "بینک اکاؤنٹس کھولنا", "EID اور Golden Visa", "دیگر خدمات"],
-      defaultButtonText: "مفت مشاورت حاصل کریں",
+      successMessage: "ہم آپ کی دلچسپی کی بہت قدر کرتے ہیں! ہماری ٹیم جلد ہی آپ سے رابطہ کرے گی تاکہ آپ کی ضروریات پر بات چیت کی جا سکے۔",
+      defaultCategories: [
+        "نئی کمپنی کی تشکیل",
+        "توسیع کا منصوبہ (مثلاً نیا شاخ یا فرنچائز)",
+        "کمپنی کی منتقلی",
+        "گولڈن ویزا",
+        "صرف ویزا کے مقاصد",
+        "بینک اکاؤنٹس کھولنا",
+        "دیگر خدمات",
+      ],
+      defaultButtonText: "ہمیں پیغام بھیجیں",
+      // defaultButtonText: "مفت مشاورت حاصل کریں",
     },
   },
 })
@@ -60,50 +73,50 @@ export const ur = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "متحدہ عرب امارات کاروباری خلاصہ",
-      collapsed: false,
+      text: "امارات کاروبار کا خلاصہ",
+      // collapsed: false,
       items: [
         { text: "کمپنی رجسٹریشن", link: "company-registration/overview" },
-        { text: "فوائد اور مسائل", link: "company-registration/benefits-problems" },
-        { text: "کارپوریٹ بینکنگ حل", link: "offer/banking/" },
-        { text: "Golden Visa", link: "offer/golden-visa/" },
+        { text: "فوائد و نقصانات", link: "company-registration/benefits-problems" },
+        { text: "کارپوریٹ بینکنگ حل", link: "company-registration/banking" },
+        { text: "گولڈن ویزا", link: "company-registration//golden-visa" },
         { text: "ویزا اور EID", link: "company-registration/employment-visas" },
         { text: "فیس اور ٹائم لائنز", link: "company-registration/fees-timelines" },
         { text: "کامیابی کے بعد ہی ادائیگی", link: "benefits/success-based-fees" },
       ],
     },
     {
-      text: "متحدہ عرب امارات کارپوریٹ ڈھانچے",
-      collapsed: true,
+      text: "امارات کارپوریٹ ڈھانچے",
+      collapsed: false,
       items: [
         { text: "کمپنی رجسٹریشن کے مراحل", link: "company-registration/insights/incorporation-steps" },
-        { text: "UAE free zones", link: "company-registration/free-zones" },
-        { text: "UAE mainland", link: "company-registration/mainland" },
+        { text: "امارات فری زونز", link: "company-registration/free-zones" },
+        { text: "امارات مین لینڈ", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "متحدہ عرب امارات کاروباری تعمیل کی ضمانت",
-      collapsed: true,
+      text: "امارات کاروبار کی تعمیل کی ضمانت",
+      collapsed: false,
       items: [
-        { text: "کارپوریٹ بینک اکاؤنٹ کی منظوری کی ضمانت", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "کارپوریٹ بینک اکاؤنٹ منظوریوں کی ضمانت", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "ہائی رسک کاروبار کے لیے بینک اکاؤنٹس", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "اپنے کاروبار کو قانونی اور محفوظ رکھیں", link: "company-registration/Protect-Your-Business" },
+        { text: "اپنے کاروبار کو مطابقت پذیر اور محفوظ رکھیں", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
       text: "قانونی، اکاؤنٹنگ اور ٹیکس",
-      collapsed: true,
+      collapsed: false,
       items: [
-        { text: "اکاؤنٹنگ اور ٹیکس کے تحفظات", link: "company-registration/accounting-legal" },
+        { text: "اکاؤنٹنگ اور ٹیکس کے غور و فکر", link: "company-registration/accounting-legal" },
         { text: "UBO رجسٹر", link: "company-registration/ubo" },
       ],
     },
     {
       text: "موازنے",
-      collapsed: true,
+      collapsed: false,
       items: [
-        { text: "Mainland بمقابلہ free zones", link: "comparison/mainland-vs-free-zones" },
-        { text: "UAE ادارے کا موازنہ", link: "comparison/entity-types" },
+        { text: "مین لینڈ بمقابلہ فری زونز", link: "comparison/mainland-vs-free-zones" },
+        { text: "امارات کی ادارہ جات کا موازنہ", link: "comparison/entity-types" },
       ],
     },
   ]
@@ -112,8 +125,12 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
     { text: "ہمارے بارے میں", link: "about" },
-    { text: "رابطے", link: "contacts" },
-    { text: "رازداری پالیسی", link: "Privacy-Policy" },
-    { text: "مصنوعی ذہانت کی خدمات کے لیے قانونی ضوابط", link: "Legal-Regulations-for-AI-Services" },
+    { text: "رابطہ", link: "contacts" },
+    { text: "پرائیویسی پالیسی", link: "Privacy-Policy" },
+    { text: "AI خدمات کے لیے قانونی ضوابط", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
+
+// function sidebarContactUs(): DefaultTheme.SidebarItem[] {
+//   return [{ text: "رابطہ", link: `contacts` }]
+// }

@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/pt"
 
 export const pt = defineConfig({
-  description: "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, bancos, impostos, questões legais e vistos. Transformando seus sonhos empresariais em realidade!",
+  description: "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, serviços bancários, impostos, questões legais e vistos. Transformando seus sonhos empresariais em realidade!",
   head: [
-    ["meta", { property: "og:title", content: "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, bancos, impostos, questões legais e vistos." }],
+    ["meta", { property: "og:title", content: "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, serviços bancários, impostos, questões legais e vistos." }],
   ],
 
   themeConfig: {
@@ -21,9 +21,9 @@ export const pt = defineConfig({
       },
       {
         text: "Recursos",
-        items: [{ text: "Sobre", link: `${BASE_PATH}/resources/about` }],
+        items: [{ text: "Sobre nós", link: `${BASE_PATH}/resources/about` }],
       },
-      { text: "Contato", link: `${BASE_PATH}/resources/contacts` },
+      { text: "Contatos", link: `${BASE_PATH}/resources/contacts` },
     ],
 
     sidebar: {
@@ -35,6 +35,9 @@ export const pt = defineConfig({
       message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configurações de Privacidade</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Política de Privacidade</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Regulamentações Legais para Serviços de IA</a>`,
     },
 
+    localization: {
+      placeholder4SearchInput: "Pesquisa rápida...",
+    },
     contact_form: {
       name: "Nome *",
       namePlaceholder: "seu nome",
@@ -46,13 +49,21 @@ export const pt = defineConfig({
       category: "Como podemos ajudar? *",
       categoryPlaceholder: "selecione o tipo de serviço",
       message: "Vamos discutir seus objetivos (opcional)",
-      messagePlaceholder: "descreva seu projeto ou requisitos",
+      messagePlaceholder: "Por favor, compartilhe os detalhes da sua consulta para nos ajudar a preparar a melhor solução para suas necessidades",
       submit: "Enviar solicitação",
       sending: "Enviando...",
       successTitle: "Obrigado!",
       successMessage: "Agradecemos muito seu interesse! Nossa equipe entrará em contato em breve para discutir suas necessidades.",
-      defaultCategories: ["Registro de empresa", "Abertura de contas bancárias", "EID & Golden Visa", "Outros Serviços"],
-      defaultButtonText: "Obter consultoria gratuita",
+      defaultCategories: [
+        "Nova formação de empresa",
+        "Plano de expansão (ex. nova filial ou franquia)",
+        "Relocalização de empresa",
+        "Golden Visa",
+        "Apenas para fins de visto",
+        "Abertura de contas bancárias",
+        "Outros Serviços",
+      ],
+      defaultButtonText: "Envie-nos uma mensagem",
     },
   },
 })
@@ -61,12 +72,11 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "Resumo de negócios nos EAU",
-      collapsed: false,
       items: [
         { text: "Registro de empresa", link: "company-registration/overview" },
         { text: "Prós e contras", link: "company-registration/benefits-problems" },
-        { text: "Soluções bancárias corporativas", link: "offer/banking/" },
-        { text: "Golden Visa", link: "offer/golden-visa/" },
+        { text: "Soluções bancárias corporativas", link: "company-registration/banking" },
+        { text: "Golden Visa", link: "company-registration//golden-visa" },
         { text: "Vistos e EID", link: "company-registration/employment-visas" },
         { text: "Taxas e prazos", link: "company-registration/fees-timelines" },
         { text: "Pague apenas após o sucesso", link: "benefits/success-based-fees" },
@@ -74,16 +84,16 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Estruturas corporativas nos EAU",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Etapas de registro de empresa", link: "company-registration/insights/incorporation-steps" },
-        { text: "UAE free zones", link: "company-registration/free-zones" },
-        { text: "UAE mainland", link: "company-registration/mainland" },
+        { text: "Free zones dos EAU", link: "company-registration/free-zones" },
+        { text: "Mainland dos EAU", link: "company-registration/mainland" },
       ],
     },
     {
       text: "Conformidade empresarial garantida nos EAU",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Aprovações garantidas de contas bancárias corporativas", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Contas bancárias para negócios de alto risco", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
@@ -92,7 +102,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Jurídico, contabilidade e impostos",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Considerações contábeis e fiscais", link: "company-registration/accounting-legal" },
         { text: "Registro UBO", link: "company-registration/ubo" },
@@ -100,7 +110,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Comparações",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Mainland vs free zones", link: "comparison/mainland-vs-free-zones" },
         { text: "Comparação de entidades nos EAU", link: "comparison/entity-types" },
@@ -111,7 +121,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Sobre", link: "about" },
+    { text: "Sobre nós", link: "about" },
     { text: "Contatos", link: "contacts" },
     { text: "Política de Privacidade", link: "Privacy-Policy" },
     { text: "Regulamentações Legais para Serviços de IA", link: "Legal-Regulations-for-AI-Services" },

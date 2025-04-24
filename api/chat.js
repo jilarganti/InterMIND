@@ -82,7 +82,7 @@ export async function POST(req) {
     systemPrompt = `${llmsTxt} \n ${llmsFullTxt} \n Пожалуйста, отвечай на языке: ${language}. \n` + systemPrompt
 
     // Отправляем запрос к ИИ с выбранным системным промптом
-    const result = await streamText({
+    const result = streamText({
       // model: anthropic("claude-3-5-sonnet-20241022"),
       // model: anthropic("claude-3-5-haiku-20241022"),
       model: anthropic("claude-3-sonnet-20240229"),

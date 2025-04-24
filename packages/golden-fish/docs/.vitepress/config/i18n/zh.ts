@@ -23,7 +23,7 @@ export const zh = defineConfig({
         text: "资源",
         items: [{ text: "关于我们", link: `${BASE_PATH}/resources/about` }],
       },
-      { text: "联系我们", link: `${BASE_PATH}/resources/contacts` },
+      { text: "联系方式", link: `${BASE_PATH}/resources/contacts` },
     ],
 
     sidebar: {
@@ -35,24 +35,35 @@ export const zh = defineConfig({
       message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">人工智能服务法律规定</a>`,
     },
 
+    localization: {
+      placeholder4SearchInput: "快速搜索...",
+    },
     contact_form: {
       name: "姓名 *",
       namePlaceholder: "您的姓名",
       email: "电子邮箱 *",
       emailPlaceholder: "您的电子邮箱地址",
       phone: "电话 *",
-      phonePlaceholder: "例如：+1 1234567890 或 (1) 123 456-7890",
+      phonePlaceholder: "例如：+1 1234567890",
       phoneError: "请输入电话号码",
       category: "我们如何帮助您？ *",
       categoryPlaceholder: "选择服务类型",
       message: "让我们讨论您的目标（可选）",
-      messagePlaceholder: "描述您的项目或需求",
+      messagePlaceholder: "请分享您的需求详情，以便我们为您提供最佳解决方案",
       submit: "提交请求",
       sending: "发送中...",
       successTitle: "感谢您！",
-      successMessage: "非常感谢您的关注！我们的团队将尽快与您联系，讨论您的需求。",
-      defaultCategories: ["公司注册", "开设银行账户", "EID和Golden Visa", "其他服务"],
-      defaultButtonText: "获取免费咨询",
+      successMessage: "我们非常感谢您的兴趣！我们的团队将尽快与您联系，讨论您的需求。",
+      defaultCategories: [
+        "新公司成立",
+        "扩张计划（如新分支机构或特许经营）",
+        "公司迁移",
+        "黄金签证",
+        "签证目的",
+        "开立银行账户",
+        "其他服务",
+      ],
+      defaultButtonText: "发送消息",
     },
   },
 })
@@ -60,21 +71,19 @@ export const zh = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "阿联酋商业概述",
-      collapsed: false,
+      text: "阿联酋商业概要",
       items: [
         { text: "公司注册", link: "company-registration/overview" },
-        { text: "优势与劣势", link: "company-registration/benefits-problems" },
-        { text: "企业银行解决方案", link: "offer/banking/" },
-        { text: "Golden Visa", link: "offer/golden-visa/" },
-        { text: "签证和EID", link: "company-registration/employment-visas" },
+        { text: "银行解决方案", link: "company-registration/banking" },
+        { text: "黄金签证", link: "company-registration/golden-visa" },
+        { text: "签证和身份证", link: "company-registration/employment-visas" },
         { text: "费用和时间表", link: "company-registration/fees-timelines" },
         { text: "成功后付费", link: "benefits/success-based-fees" },
       ],
     },
     {
       text: "阿联酋公司结构",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "公司注册步骤", link: "company-registration/insights/incorporation-steps" },
         { text: "阿联酋自贸区", link: "company-registration/free-zones" },
@@ -83,27 +92,27 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "阿联酋商业合规保证",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "保证企业银行账户审批", link: "corporate-banking-services/guaranteed-account-approvals" },
-        { text: "高风险企业银行账户", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
+        { text: "高风险业务银行账户", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
         { text: "保持业务合规和受保护", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
       text: "法律、会计和税务",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "会计和税务考虑", link: "company-registration/accounting-legal" },
-        { text: "UBO登记", link: "company-registration/ubo" },
+        { text: "最终受益人登记", link: "company-registration/ubo" },
       ],
     },
     {
       text: "比较",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "大陆与自贸区对比", link: "comparison/mainland-vs-free-zones" },
-        { text: "阿联酋实体比较", link: "comparison/entity-types" },
+        { text: "阿联酋实体对比", link: "comparison/entity-types" },
       ],
     },
   ]

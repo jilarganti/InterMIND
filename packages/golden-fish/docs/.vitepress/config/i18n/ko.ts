@@ -35,24 +35,35 @@ export const ko = defineConfig({
       message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">개인정보 설정</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">개인정보 처리방침</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI 서비스 법적 규정</a>`,
     },
 
+    localization: {
+      placeholder4SearchInput: "빠른 검색...",
+    },
     contact_form: {
       name: "이름 *",
       namePlaceholder: "귀하의 이름",
       email: "이메일 *",
       emailPlaceholder: "귀하의 이메일 주소",
       phone: "전화번호 *",
-      phonePlaceholder: "예: +1 1234567890 또는 (1) 123 456-7890",
+      phonePlaceholder: "예시: +1 1234567890 또는 (1) 123 456-7890",
       phoneError: "전화번호를 입력해 주세요",
       category: "어떤 도움이 필요하신가요? *",
       categoryPlaceholder: "서비스 유형 선택",
       message: "목표에 대해 논의해 보세요 (선택사항)",
-      messagePlaceholder: "프로젝트나 요구사항을 설명해 주세요",
+      messagePlaceholder: "귀하의 요구사항에 맞는 최적의 솔루션을 준비할 수 있도록 문의 사항을 자세히 알려주세요",
       submit: "요청 제출",
       sending: "전송 중...",
       successTitle: "감사합니다!",
-      successMessage: "관심을 가져주셔서 감사합니다! 저희 팀이 곧 연락하여 귀하의 요구사항을 논의하겠습니다.",
-      defaultCategories: ["기업 등록", "은행 계좌 개설", "EID & Golden Visa", "기타 서비스"],
-      defaultButtonText: "무료 상담 받기",
+      successMessage: "관심을 가져주셔서 대단히 감사합니다! 저희 팀이 곧 연락드려 귀하의 요구사항에 대해 논의하겠습니다.",
+      defaultCategories: [
+        "신규 기업 설립",
+        "사업 확장 계획 (예: 새로운 지점 또는 프랜차이즈)",
+        "기업 이전",
+        "Golden Visa",
+        "비자 목적만",
+        "은행 계좌 개설",
+        "기타 서비스",
+      ],
+      defaultButtonText: "메시지 보내기",
     },
   },
 })
@@ -61,12 +72,11 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "UAE 비즈니스 요약",
-      collapsed: false,
       items: [
         { text: "기업 등록", link: "company-registration/overview" },
         { text: "장단점", link: "company-registration/benefits-problems" },
-        { text: "기업 은행 솔루션", link: "offer/banking/" },
-        { text: "Golden Visa", link: "offer/golden-visa/" },
+        { text: "기업 은행 솔루션", link: "company-registration/banking" },
+        { text: "Golden Visa", link: "company-registration//golden-visa" },
         { text: "비자 및 EID", link: "company-registration/employment-visas" },
         { text: "수수료 및 소요기간", link: "company-registration/fees-timelines" },
         { text: "성공 후 지불", link: "benefits/success-based-fees" },
@@ -74,25 +84,25 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "UAE 기업 구조",
-      collapsed: true,
+      collapsed: false,
       items: [
-        { text: "기업 등록 절차", link: "company-registration/insights/incorporation-steps" },
-        { text: "UAE Free Zone", link: "company-registration/free-zones" },
-        { text: "UAE Mainland", link: "company-registration/mainland" },
+        { text: "기업 등록 단계", link: "company-registration/insights/incorporation-steps" },
+        { text: "UAE free zones", link: "company-registration/free-zones" },
+        { text: "UAE mainland", link: "company-registration/mainland" },
       ],
     },
     {
       text: "UAE 비즈니스 규정 준수 보장",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "기업 은행 계좌 승인 보장", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "고위험 사업을 위한 은행 계좌", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "비즈니스 규정 준수 및 보호", link: "company-registration/Protect-Your-Business" },
+        { text: "비즈니스 규정 준수 및 보호 유지", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
       text: "법률, 회계 및 세무",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "회계 및 세무 고려사항", link: "company-registration/accounting-legal" },
         { text: "UBO 등록", link: "company-registration/ubo" },
@@ -100,9 +110,9 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "비교",
-      collapsed: true,
+      collapsed: false,
       items: [
-        { text: "Mainland vs Free Zone", link: "comparison/mainland-vs-free-zones" },
+        { text: "Mainland vs free zones", link: "comparison/mainland-vs-free-zones" },
         { text: "UAE 법인 유형 비교", link: "comparison/entity-types" },
       ],
     },

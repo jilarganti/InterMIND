@@ -21,7 +21,7 @@ export const id = defineConfig({
       },
       {
         text: "Sumber Daya",
-        items: [{ text: "Tentang Kami", link: `${BASE_PATH}/resources/about` }],
+        items: [{ text: "Tentang kami", link: `${BASE_PATH}/resources/about` }],
       },
       { text: "Kontak", link: `${BASE_PATH}/resources/contacts` },
     ],
@@ -35,6 +35,9 @@ export const id = defineConfig({
       message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Pengaturan Privasi</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Kebijakan Privasi</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Peraturan Hukum untuk Layanan AI</a>`,
     },
 
+    localization: {
+      placeholder4SearchInput: "Pencarian cepat...",
+    },
     contact_form: {
       name: "Nama *",
       namePlaceholder: "nama Anda",
@@ -46,13 +49,21 @@ export const id = defineConfig({
       category: "Bagaimana kami dapat membantu Anda? *",
       categoryPlaceholder: "pilih jenis layanan",
       message: "Mari diskusikan tujuan Anda (opsional)",
-      messagePlaceholder: "jelaskan proyek atau kebutuhan Anda",
+      messagePlaceholder: "Silakan bagikan detail pertanyaan Anda untuk membantu kami menyiapkan solusi terbaik untuk kebutuhan Anda",
       submit: "Kirim permintaan",
       sending: "Mengirim...",
       successTitle: "Terima kasih!",
       successMessage: "Kami sangat menghargai minat Anda! Tim kami akan segera menghubungi Anda untuk membahas kebutuhan Anda.",
-      defaultCategories: ["Pendaftaran perusahaan", "Pembukaan rekening bank", "EID & Golden Visa", "Layanan Lainnya"],
-      defaultButtonText: "Dapatkan konsultasi gratis",
+      defaultCategories: [
+        "Pembentukan perusahaan baru",
+        "Rencana ekspansi (cabang atau waralaba baru)",
+        "Relokasi perusahaan",
+        "Golden Visa",
+        "Hanya untuk keperluan visa",
+        "Pembukaan rekening bank",
+        "Layanan Lainnya",
+      ],
+      defaultButtonText: "Kirim pesan kepada kami",
     },
   },
 })
@@ -61,29 +72,28 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "Ringkasan bisnis UAE",
-      collapsed: false,
       items: [
         { text: "Pendaftaran perusahaan", link: "company-registration/overview" },
         { text: "Kelebihan & kekurangan", link: "company-registration/benefits-problems" },
-        { text: "Solusi perbankan korporat", link: "offer/banking/" },
-        { text: "Golden Visa", link: "offer/golden-visa/" },
+        { text: "Solusi perbankan korporat", link: "company-registration/banking" },
+        { text: "Golden Visa", link: "company-registration//golden-visa" },
         { text: "Visa & EID", link: "company-registration/employment-visas" },
         { text: "Biaya dan jadwal", link: "company-registration/fees-timelines" },
-        { text: "Bayar setelah berhasil", link: "benefits/success-based-fees" },
+        { text: "Bayar hanya setelah berhasil", link: "benefits/success-based-fees" },
       ],
     },
     {
       text: "Struktur korporat UAE",
-      collapsed: true,
+      collapsed: false,
       items: [
-        { text: "Langkah pendaftaran perusahaan", link: "company-registration/insights/incorporation-steps" },
+        { text: "Langkah-langkah pendaftaran perusahaan", link: "company-registration/insights/incorporation-steps" },
         { text: "UAE free zones", link: "company-registration/free-zones" },
         { text: "UAE mainland", link: "company-registration/mainland" },
       ],
     },
     {
       text: "Kepatuhan bisnis UAE dijamin",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Persetujuan rekening bank korporat dijamin", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Rekening bank untuk bisnis berisiko tinggi", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
@@ -92,7 +102,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Hukum, akuntansi dan pajak",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Pertimbangan akuntansi dan pajak", link: "company-registration/accounting-legal" },
         { text: "Register UBO", link: "company-registration/ubo" },
@@ -100,7 +110,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "Perbandingan",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "Mainland vs free zones", link: "comparison/mainland-vs-free-zones" },
         { text: "Perbandingan entitas UAE", link: "comparison/entity-types" },
@@ -111,7 +121,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Tentang Kami", link: "about" },
+    { text: "Tentang kami", link: "about" },
     { text: "Kontak", link: "contacts" },
     { text: "Kebijakan Privasi", link: "Privacy-Policy" },
     { text: "Peraturan Hukum untuk Layanan AI", link: "Legal-Regulations-for-AI-Services" },
