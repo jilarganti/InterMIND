@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { MessageSquare, Search, Plus, Home } from "lucide-vue-next"
+import { MessageSquare, Search, Plus, ArrowLeft } from "lucide-vue-next"
 import { computed } from "vue"
 
 interface GroupedChats {
@@ -97,17 +97,17 @@ const updateSearchInput = (event: Event) => {
   <div class="chat-list-container" :class="{ 'mobile-chat-list': layout === 'mobile' }">
     <!-- Поисковая строка и кнопка нового чата -->
     <div class="search-toolbar">
-      <!-- Кнопка Home для перехода на главную страницу -->
-      <a href="/" class="toolbar-button neutral-button" title="На главную">
-        <Home :size="20" />
+      <!-- Кнопка Back для перехода на предыдущую страницу -->
+      <a href="javascript:history.back()" class="toolbar-button neutral-button" title="Back to site">
+        <ArrowLeft :size="20" />
       </a>
 
       <div class="search-container">
         <Search :size="18" class="search-icon" />
-        <input :value="searchInput" @input="updateSearchInput" class="search-input" placeholder="Поиск чатов..." type="text" />
+        <input :value="searchInput" @input="updateSearchInput" class="search-input" placeholder="Search..." type="text" />
       </div>
 
-      <button class="toolbar-button neutral-button" @click="createNewChat" title="Новый чат">
+      <button class="toolbar-button neutral-button" @click="createNewChat" title="New Chat">
         <Plus :size="20" />
       </button>
     </div>
