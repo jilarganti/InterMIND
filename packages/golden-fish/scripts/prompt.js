@@ -38,7 +38,17 @@ Key rules:
 
 Provide translation between <translated_markdown> tags.`
 
+/**
+ * Generates the prompt for translation by replacing placeholders in the template.
+ * @param {string} content The markdown content to translate.
+ * @param {string} targetLang The target language name.
+ * @param {string} langCode The target language code (unused in the current implementation but kept for potential future use).
+ * @returns {string} The complete prompt string.
+ */
 export function getPromptForTranslation(content, targetLang, langCode) {
   // console.log("Target language:", targetLang, "Language code:", langCode) // Отладка
-  return translationPrompt.replace("{{content}}", content).replace("{{targetLang}}", targetLang).replace("{{langCode}}", langCode)
+  // Note: The langCode parameter is currently not used in the replacement logic.
+  // The template uses {{targetLang}}, not {{langCode}}.
+  // If {{langCode}} needs to be used, update the translationPrompt template accordingly.
+  return translationPrompt.replace("{{content}}", content).replace("{{targetLang}}", targetLang) // Removed .replace("{{langCode}}", langCode) as it's not in the template
 }
