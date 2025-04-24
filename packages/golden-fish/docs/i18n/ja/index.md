@@ -11,8 +11,8 @@ hero:
 
   actions:
     - theme: brand
-      text: 無料相談を受ける
-      link: /resources/contacts
+      text: 専門家に相談
+      link: /chat
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -29,10 +29,10 @@ hero:
 <FeatureCards :features="[
   {
     title: '会社設立ガイド',
-    details: '**Free Zone、オフショア、Mainland、支店**での会社設立完全ガイド。',
+    details: 'Free Zone、オフショア、Mainland、支店の**完全な会社設立ガイド**。',
     items: [
       'Free ZoneとMainlandで100%外国人所有が可能',
-      '低税率 - 法人税9%のみ',
+      '低税率 - 法人税わずか9%',
       '為替管理なし - 簡単な資本送金',
     ],
     linkText: '詳細を見る',
@@ -45,7 +45,7 @@ hero:
   },
   {
     title: '銀行口座開設',
-    details: 'UAEの信頼できる銀行で、ビジネスまたは個人口座を簡単に開設。',
+    details: 'UAEの信頼できる銀行で法人・個人口座を簡単に開設。',
     items: [
       '政府承認のための包括的なPROサービス',
       '完全な銀行パッケージのセットアップ',
@@ -60,10 +60,10 @@ hero:
     }
   },
   {
-    title: 'Golden Visaと居住権',
-    details: 'スムーズな申請プロセスで長期居住のためのUAE **Golden Visa**を取得。',
+    title: 'Golden Visa & 居住権',
+    details: 'スムーズな申請プロセスで長期居住のための**Golden Visa**を取得。',
     items: [
-      '**6ヶ月ごとのUAE入国が不要**',
+      '**6ヶ月ごとのUAE入国不要**',
       '条件を満たせば10年間有効で更新可能',
       '92%の成功率',
     ],
@@ -80,7 +80,7 @@ hero:
 <FeatureCards :features="[
   {
     title: 'コンプライアンスサービス',
-    details: '当社の専門家が、ESRレポートやUBO申告を含むUAEの複雑な規制要件をサポート。',
+    details: 'ESRレポートやUBO申告を含むUAEの複雑な規制要件をサポート。',
     items: [],
     linkText: '詳細を見る',
     link: '/uae-business/company-registration/Protect-Your-Business',
@@ -91,8 +91,8 @@ hero:
     }
   },
   {
-    title: '法人税・付加価値税',
-    details: '連邦税務局（FTA）への法人税・付加価値税の義務を確実に遵守するための専門家によるアドバイス。',
+    title: '法人税・VAT',
+    details: '連邦税務局（FTA）への法人税とVAT義務の遵守を専門家がサポート。',
     items: [],
     linkText: '詳細を見る',
     link: '/uae-business/company-registration/accounting-legal',
@@ -104,7 +104,7 @@ hero:
   },
   {
     title: '法務サービス',
-    details: '法務チームがM&A、企業再編、資金調達、紛争解決に関するUAEの法律についてアドバイス。',
+    details: 'M&A、企業再編、資金調達、紛争解決に関するUAE法の法的アドバイス。',
     items: [],
     linkText: '詳細を見る',
     link: '/uae-business/company-registration/Protect-Your-Business',
@@ -116,7 +116,7 @@ hero:
   },
   {
     title: '会計・給与計算',
-    details: '当社の会計士が、採用コストを削減しながら、帳簿記帳、照合、給与計算、監査サポートを提供。',
+    details: '帳簿記帳、照合、給与計算、監査サポートを提供し、採用コストを削減。',
     items: [],
     linkText: '詳細を見る',
     link: '/resources/contacts',
@@ -138,13 +138,13 @@ hero:
   },
   {
     icon: '📊',
-    title: '実証された成功率',
-    text: '当社のプレミアム処理を通じて発行されたビザ、銀行口座、会社登録の承認率は90％以上です。'
+    title: '実績のある成功率',
+    text: '当社のプレミアム処理サービスを通じて、90%以上の承認率を誇り、数百件のビザ、銀行口座開設、企業登録の実績があります。'
   },
   {
     icon: '💸',
     title: '**成功報酬制**',
-    text: '[承認後のみの支払い](/uae-business/benefits/success-based-fees)。隠れた費用のない完全な透明性。'
+    text: '[承認後のみの支払い](/uae-business/benefits/success-based-fees)。隠れた費用のない完全な透明性を提供します。'
   },
 ]" />
 
@@ -170,8 +170,8 @@ UAEでのフリーゾーン企業の設立において、Golden Fishは以下を
 
 1. 関連当局から必要な許可を取得
 2. 会社名の予約
-3. 設立文書の準備
-4. 公共裁判所での文書の公証
+3. 設立書類の準備
+4. 公共裁判所での書類の公証
 5. 事業ライセンスの申請
 6. VAT登録（必要な場合）
 7. クライアントと従業員の就労ビザ取得
@@ -182,7 +182,7 @@ UAEフリーゾーン企業には以下のようなメリットがあります�
 
 1. 居住株主の要件なし（FZ企業は100%外国人所有可能）
 2. スタッフ雇用の義務なし
-3. ゾーンへの出入りする商品に対する関税なし
+3. ゾーンへの出入りする商品に関税なし
 4. 高品質なインフラ
 
 ### 取締役と株主
@@ -215,7 +215,7 @@ UAEでオフショア企業を設立するには1名の株主のみが必要で�
 
 **会社のための施設を借りる必要がありますか？**
 
-要件は会社の種類によって異なります：
+会社の種類によって要件が異なります：
 
 | 会社の種類 | オフィス要件 |
 | ----------------- | --------------------------------------------------------------------------------------- |
@@ -255,11 +255,11 @@ Golden Fishは以下のようなUAEローカル銀行のオプションを推奨
 
 **UAEでオフショア銀行口座を開設するにはどうすればよいですか？**
 
-UAEでオフショア銀行口座を開設するために現地企業の登録は必要ありません。ただし、KYC手続きは居住企業の銀行口座開設よりも厳格になります。また、認証書類も必要となります。詳細については、[UAE企業向け銀行口座開設ガイド](./uae-business/company-registration/banking)をご参照ください。
+UAEでオフショア銀行口座を開設するために現地企業の登録は必要ありません。ただし、KYC手続きは居住企業の銀行口座開設よりも厳格になります。認証書類も必要となります。詳細については[UAE企業向け銀行口座開設ガイド](./uae-business/company-registration/banking)をご参照ください。
 
-**Golden FishはUAEでのイスラム銀行サービスを支援できますか？**
+**Golden FishはUAEでのイスラム銀行サービスのサポートは可能ですか？**
 
-はい、Golden Fishはクライアントのイスラム銀行のニーズを支援できます。
+はい、Golden Fishはクライアントのイスラム銀行のニーズをサポートできます。
 
 ### ビザと居住権
 
@@ -269,4 +269,4 @@ UAE事業居住許可は通常2〜3年間発行されます。
 
 :::
 
-<ContactFormModalNav buttonText="無料相談を受ける" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="専門家に相談する" formStyle="display: block; margin: 3rem auto;"/>

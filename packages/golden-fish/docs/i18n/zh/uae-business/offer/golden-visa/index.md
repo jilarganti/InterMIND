@@ -45,7 +45,7 @@ hero:
     items: [
       '在阿联酋房地产投资200万迪拉姆',
       '在阿联酋投资基金存入200万迪拉姆',
-      '注册资本200万迪拉姆的企业',
+      '拥有200万迪拉姆资本的企业',
       '每年向FTA缴纳25万迪拉姆',
       '技术专业人才',
       '天才人才'
@@ -122,7 +122,7 @@ hero:
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="获取免费咨询" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="咨询专家" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: '阿联酋移民' },

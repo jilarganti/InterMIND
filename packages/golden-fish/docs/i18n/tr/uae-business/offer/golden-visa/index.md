@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "BAE Altın Vize | Başarı Ücretine Dayalı Hizmet"
-description: "Ön ödeme olmadan premium 10 yıllık oturma vizesi - sadece onaydan sonra ödeme yapın. %98 başarı oranı ile tam başvuru yönetimi. Ücretsiz yenileme hizmeti, sadece resmi harçlar."
+description: "Ön ödeme olmadan premium 10 yıllık oturma vizesi - sadece onaydan sonra ödeme yapın. %98 başarı oranıyla tam başvuru yönetimi. Ücretsiz yenileme hizmeti, sadece resmi harçlar."
 showSponsors: false
 
 hero:
@@ -121,7 +121,7 @@ hero:
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Ücretsiz danışmanlık alın" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="Uzmanla görüşün" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'BAE Göçmenlik' },

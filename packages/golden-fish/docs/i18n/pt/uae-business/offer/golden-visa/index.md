@@ -23,7 +23,7 @@ hero:
     title: 'Benefícios do Visto Golden UAE',
     items: [
       'Validade de 10 anos com opção de renovação mantendo as condições qualificativas',
-      '**Sem necessidade de entrar nos UAE a cada 6 meses**',
+      '**Não é necessário entrar nos UAE a cada 6 meses**',
       'Permitida propriedade empresarial 100%',
       'Patrocínio de membros da família e funcionários domésticos ilimitados',
       'Patrocínio de filhos até 25 anos',
@@ -121,9 +121,9 @@ hero:
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Obter uma consulta gratuita" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="Fale com um especialista" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração para os EAU' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração para os EAU' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração UAE' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração UAE' },
 ]"/> -->

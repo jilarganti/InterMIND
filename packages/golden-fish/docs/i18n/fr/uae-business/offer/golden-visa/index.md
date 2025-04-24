@@ -121,7 +121,7 @@ hero:
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Obtenir une consultation gratuite" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="Parler à un expert" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Immigration aux EAU' },

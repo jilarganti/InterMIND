@@ -22,7 +22,7 @@ hero:
   {
     title: 'Keuntungan Visa Emas UAE',
     items: [
-      'Masa berlaku 10 tahun dengan opsi perpanjangan setelah memenuhi syarat kualifikasi',
+      'Masa berlaku 10 tahun dengan opsi perpanjangan selama memenuhi syarat kualifikasi',
       '**Tidak perlu masuk UAE setiap 6 bulan**',
       'Diizinkan kepemilikan bisnis 100%',
       'Sponsor anggota keluarga dan staf domestik tanpa batas',
@@ -91,11 +91,11 @@ hero:
   {
     icon: '📈',
     title: 'Tingkat Keberhasilan Terbukti',
-    text: 'Tingkat persetujuan 98% dengan ratusan Golden Visa yang telah diterbitkan melalui pemrosesan premium kami.'
+    text: 'Tingkat persetujuan 98% dengan ratusan Golden Visa yang diterbitkan melalui pemrosesan premium kami.'
   },
   {
     icon: '📋',
-    title: 'Pengelolaan Lengkap',
+    title: 'Manajemen Lengkap',
     text: 'Penanganan menyeluruh dari dokumentasi hingga penerbitan visa, mengurus semua detail.'
   },
   {
@@ -121,7 +121,7 @@ hero:
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Dapatkan konsultasi gratis" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="Bicara dengan ahli" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigrasi UAE' },

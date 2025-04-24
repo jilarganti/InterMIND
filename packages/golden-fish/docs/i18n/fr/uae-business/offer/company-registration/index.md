@@ -44,7 +44,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Accompagnement Complet : Étape par Étape avec Vous',
-  details: 'Guide complet pour créer des entreprises en **free zone, offshore, mainland, branch**. \n\n* 100% de Propriété Étrangère disponible en Free Zones et Mainland\n* Taux d\'Imposition Bas - seulement 9% d\'impôt sur les sociétés\n* Pas de Contrôle des Changes - rapatriement facile du capital\n\n[Learn more](/uae-business/company-registration/overview)',
+  details: 'Guide complet pour créer des entreprises en **free zone, offshore, mainland, branch**. \n\n* 100% de Propriété Étrangère disponible en Free Zones et Mainland\n* Taux d\'Imposition Bas - seulement 9% d\'impôt sur les sociétés\n* Pas de Contrôle des Changes - rapatriement facile des capitaux\n\n[Learn more](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -127,7 +127,7 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Obtenir une consultation gratuite" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="Parler à un expert" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Immigration aux EAU' },

@@ -5,7 +5,7 @@ description: "বিপ্লবী UAE কোম্পানি গঠনের
 showSponsors: false
 
 hero:
-  name: "UAE কোম্পানি গঠন: আমরা আপনার ঝুঁকি ভাগ করি"
+  name: "UAE কোম্পানি গঠন: আমরা আপনার ঝুঁকি ভাগ করে নিই"
   tagline: "আত্মবিশ্বাসের সাথে আপনার ব্যবসায় বিনিয়োগ করুন: আমরা শুধুমাত্র সফল কোম্পানি নিবন্ধনের পরেই অর্থ প্রাপ্ত হই। <span class='hl'>আপনার সাফল্যই আমাদের একমাত্র লক্ষ্য</span>।"
   image:
     light:
@@ -19,7 +19,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'আপনার সুবিধা — আমাদের দায়িত্ব',
-  details: 'UAE আন্তর্জাতিক উদ্যোক্তা এবং বিনিয়োগকারীদের জন্য অনুকূল ব্যবসায়িক পরিবেশ প্রদান করে। \n\n* কম করের হার: মাত্র 9% কর্পোরেট ট্যাক্স এবং 5% VAT, ব্যক্তিগত আয়কর নেই\n* 100% Foreign Ownership: স্থানীয় অংশীদার ছাড়াই আপনার কোম্পানির সম্পূর্ণ নিয়ন্ত্রণ\n* কোন Currency Controls নেই: অবাধ মুনাফা প্রত্যাবাসন এবং মুদ্রা বিনিময়\n\n[সম্পূর্ণ তালিকা দেখুন](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'UAE আন্তর্জাতিক উদ্যোক্তা এবং বিনিয়োগকারীদের জন্য অনুকূল ব্যবসায়িক পরিবেশ প্রদান করে। \n\n* কম করের হার: মাত্র 9% কর্পোরেট ট্যাক্স এবং 5% VAT, ব্যক্তিগত আয়কর নেই\n* 100% বৈদেশিক মালিকানা: স্থানীয় অংশীদার ছাড়াই আপনার কোম্পানির সম্পূর্ণ নিয়ন্ত্রণ\n* কোন মুদ্রা নিয়ন্ত্রণ নেই: অবাধ মুনাফা প্রত্যাবাসন এবং মুদ্রা বিনিময়\n\n[সম্পূর্ণ তালিকা দেখুন](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -30,12 +30,12 @@ hero:
 }" />
 
 <FeatureBlock :card="{
-  title: 'চ্যালেঞ্জগুলি আমরা একসাথে মোকাবেলা করি',
-  details: 'UAE অনেক সুবিধা প্রদান করলেও, ব্যবসা প্রতিষ্ঠানের সময় সম্ভাব্য চ্যালেঞ্জগুলি সম্পর্কে সচেতন থাকা উচিত। \n\n* জটিল নিয়ন্ত্রক পরিবেশ: এমিরেটস এবং Free Zone জুড়ে বিভিন্ন প্রবিধান\n* Economic Substance Requirements: নির্দিষ্ট কার্যক্রমের জন্য স্থানীয় কর্মী এবং বাস্তব অফিস স্থান প্রয়োজন\n* উচ্চ প্রারম্ভিক খরচ: নিবন্ধন ফি, ডকুমেন্টেশন, এবং বাধ্যতামূলক অফিস ভাড়া\n\n[সম্পূর্ণ তালিকা দেখুন](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  title: 'আমরা একসাথে মোকাবেলা করি যে চ্যালেঞ্জগুলি',
+  details: 'UAE অনেক সুবিধা প্রদান করলেও, ব্যবসা প্রতিষ্ঠানের সময় সম্ভাব্য চ্যালেঞ্জগুলি সম্পর্কে সচেতন থাকা উচিত। \n\n* জটিল নিয়ন্ত্রক পরিবেশ: এমিরেটস এবং Free Zone জুড়ে বিভিন্ন প্রবিধান\n* অর্থনৈতিক সারবস্তু প্রয়োজনীয়তা: নির্দিষ্ট কার্যক্রমের জন্য স্থানীয় কর্মী এবং বাস্তব অফিস স্থান প্রয়োজন\n* উচ্চ প্রারম্ভিক খরচ: নিবন্ধন ফি, ডকুমেন্টেশন, এবং বাধ্যতামূলক অফিস ভাড়া\n\n[সম্পূর্ণ তালিকা দেখুন](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
-      light: '/img/iStock-1299393716.avif',
-      dark: '/img/iStock-2149731304.avif',
+    light: '/img/iStock-1299393716.avif',
+    dark: '/img/iStock-2149731304.avif',
     width: '100%'
   },
   inversion: true
@@ -43,7 +43,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'সম্পূর্ণ সহায়তা: প্রতিটি পদক্ষেপে আপনার সাথে',
-  details: 'Free Zone, Offshore, Mainland, Branch-এ কোম্পানি স্থাপনের সম্পূর্ণ গাইড। \n\n* Free Zones এবং Mainland-এ 100% Foreign Ownership উপলব্ধ\n* কম করের হার - মাত্র 9% কর্পোরেট ট্যাক্স\n* কোন Currency Controls নেই - সহজ মূলধন প্রত্যাবাসন\n\n[আরও জানুন](/uae-business/company-registration/overview)',
+  details: '**Free Zone, Offshore, Mainland, Branch** এ কোম্পানি স্থাপনের সম্পূর্ণ গাইড। \n\n* Free Zones এবং Mainland এ 100% বৈদেশিক মালিকানা উপলব্ধ\n* কম করের হার - মাত্র 9% কর্পোরেট ট্যাক্স\n* কোন মুদ্রা নিয়ন্ত্রণ নেই - সহজ মূলধন প্রত্যাবাসন\n\n[আরও জানুন](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -74,7 +74,7 @@ hero:
     title: 'Golden Visa এবং রেসিডেন্সি',
     details: 'সহজ আবেদন প্রক্রিয়ার মাধ্যমে দীর্ঘমেয়াদী বসবাসের জন্য UAE **Golden Visa** প্রাপ্ত করুন।',
     items: [
-      '**প্রতি 6 মাসে UAE-তে প্রবেশের প্রয়োজন নেই**',
+      '**প্রতি 6 মাসে UAE প্রবেশের প্রয়োজন নেই**',
       'যোগ্যতার শর্তাবলী বজায় রেখে 10 বছরের বৈধতা এবং নবায়নের সুযোগ',
       '92% সাফল্যের হার'
     ],
@@ -126,9 +126,9 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="বিনামূল্যে পরামর্শ পান" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="একজন বিশেষজ্ঞের সাথে কথা বলুন" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'ইউএই ইমিগ্রেশন' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'ইউএই ইমিগ্রেশন' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAE ইমিগ্রেশন' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAE ইমিগ্রেশন' },
 ]"/> -->

@@ -1,13 +1,13 @@
 ---
 layout: home
 title: "BAE Kurumsal Bankacılık | Başarı Ücretli Hizmet"
-description: "Peşin ücret olmadan premium çok para birimli kurumsal hesaplar - sadece onaydan sonra ödeme yapın. %96 başarı oranı ile tam başvuru yönetimi. Garantili hesap açılışı."
+description: "Peşin ödeme olmadan premium çok para birimli kurumsal hesaplar - sadece onaydan sonra ödeme yapın. %96 başarı oranı ile tam başvuru yönetimi. Garantili hesap açılışı."
 showSponsors: false
 
 hero:
   name: "BAE Bankacılığı: Güvenli Limanınız"
-  # text: Peşin ücret yok
-  tagline: 2025'te garantili kurumsal banka hesabı onayları. <span class="hl">Peşin ücret yok</span> - sadece onaydan sonra ödeme. %96 başarı oranı.
+  # text: Peşin ödeme yok
+  tagline: 2025'te garantili kurumsal banka hesabı onayları. <span class="hl">Peşin ödeme yok</span> - sadece onaydan sonra ödeme. %96 başarı oranı.
   image:
     light:
       src: /img/Logo.avif
@@ -124,6 +124,6 @@ hero:
   },
 ]" />
 
-## Kurumsal bankacılık ihtiyaçlarınızı görüşmek için ücretsiz danışmanlık alın
+## Kurumsal bankacılık ihtiyaçlarınızı görüşmek için ücretsiz danışmanlık randevusu alın
 
-<ContactFormModalNav buttonText="Ücretsiz danışmanlık alın" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="Uzmanla görüşün" formStyle="display: block; margin: 3rem auto;"/>

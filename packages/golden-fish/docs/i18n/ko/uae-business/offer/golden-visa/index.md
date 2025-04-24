@@ -44,7 +44,7 @@ hero:
     items: [
       'UAE 부동산에 AED 2M 투자',
       'UAE 투자 펀드에 AED 2M 예치',
-      'AED 2M 자본금의 사업체',
+      'AED 2M 자본금 사업체',
       '연간 AED 250K FTA 기여금',
       '전문 기술직',
       '특별 재능 보유자'
@@ -64,7 +64,7 @@ hero:
     items: [
       '초기 자격 평가',
       '서류 준비 및 검증',
-      '의료 검사 및 생체인식',
+      '건강검진 및 생체인식',
       '신청서 제출 및 처리',
       'Emirates ID 및 비자 발급',
       '가족 비자 스폰서십 (선택사항)'
@@ -91,12 +91,12 @@ hero:
   {
     icon: '📈',
     title: '입증된 성공률',
-    text: '프리미엄 처리를 통해 수백 건의 Golden Visa를 발급하며 98%의 승인율을 자랑합니다.'
+    text: '프리미엄 처리를 통해 수백 건의 Golden Visa를 발급하며 98%의 승인률을 자랑합니다.'
   },
   {
     icon: '📋',
     title: '완벽한 관리',
-    text: '서류 준비부터 비자 발급까지 모든 세부사항을 종합적으로 처리해드립니다.'
+    text: '서류 준비부터 비자 발급까지 모든 세부 사항을 종합적으로 처리해드립니다.'
   },
   {
     icon: '👨‍💼',
@@ -121,7 +121,7 @@ hero:
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="무료 상담 받기" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="전문가와 상담하기" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAE 이민' },

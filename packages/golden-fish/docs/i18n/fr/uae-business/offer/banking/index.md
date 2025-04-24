@@ -44,7 +44,7 @@ hero:
   {
     title: 'Comptes bancaires aux EAU pour entreprises à haut risque',
     items: [
-      'Conseils d\'experts sur l\'EDD',
+      'Conseils d\'experts sur la due diligence renforcée (EDD)',
       'Surveillance des transactions et gestion des risques',
       'Configuration des politiques et procédures de conformité',
       'Gestion des relations bancaires',
@@ -67,7 +67,7 @@ hero:
       'Gestion du renouvellement des licences et alertes',
       'Conseil bancaire et maintenance des comptes',
       'Support de conformité TVA et ESR',
-      'Conformité aux visas employés et au droit du travail',
+      'Conformité aux visas des employés et au droit du travail',
       'Ateliers de formation sur les mises à jour réglementaires'
     ],
     linkText: 'En savoir plus',
@@ -125,4 +125,4 @@ hero:
 
 ## Réservez une consultation gratuite pour discuter de vos besoins bancaires d'entreprise
 
-<ContactFormModalNav buttonText="Obtenir une consultation gratuite" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="Parler à un expert" formStyle="display: block; margin: 3rem auto;"/>

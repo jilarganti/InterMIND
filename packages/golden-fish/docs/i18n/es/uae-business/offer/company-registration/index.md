@@ -84,7 +84,7 @@ hero:
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
-      alt: 'Servicios de Visado'
+      alt: 'Servicios de Visa'
     }
   },
   {
@@ -127,9 +127,9 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Obtener una consulta gratuita" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="Hablar con un experto" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración a EAU' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración a EAU' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración EAU' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración EAU' },
 ]"/> -->

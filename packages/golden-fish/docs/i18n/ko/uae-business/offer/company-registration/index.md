@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "UAE 무위험 비즈니스 | 승인 없으면 지불 없음"
+title: "UAE 무위험 비즈니스 | 승인 없이 지불 없음"
 description: "혁신적인 UAE 기업 설립 모델: 성공 후에만 지불. 90% 이상의 성공률로 모든 단계에서 전문가 지도."
 showSponsors: false
 
@@ -31,7 +31,7 @@ hero:
 }" />
 
 <FeatureBlock :card="{
-  title: '함께 해결하는 과제들',
+  title: '함께 해결하는 과제',
   details: 'UAE는 많은 이점을 제공하지만, 기업들은 사업 설립 시 잠재적인 과제들을 인식해야 합니다. \n\n* 복잡한 규제 환경: 에미리트와 Free Zone 전반에 걸친 다양한 규정\n* 경제적 실체 요건: 특정 활동에 필요한 현지 직원과 물리적 사무실 공간\n* 높은 초기 비용: 등록비, 문서 작업, 필수 사무실 임대\n\n[전체 목록 보기](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
@@ -44,7 +44,7 @@ hero:
 
 <FeatureBlock :card="{
   title: '완벽한 지원: 단계별 동행',
-  details: '**Free Zone, Offshore, Mainland, Branch** 회사 설립을 위한 완벽한 가이드. \n\n* Free Zone과 Mainland에서 100% 외국인 소유 가능\n* 낮은 세율 - 법인세 9%만\n* 환율 통제 없음 - 쉬운 자본 송금\n\n[자세히 알아보기](/uae-business/company-registration/overview)',
+  details: '**Free Zone, Offshore, Mainland, Branch** 기업 설립을 위한 완벽한 가이드. \n\n* Free Zone과 Mainland에서 100% 외국인 소유 가능\n* 낮은 세율 - 법인세 9%만\n* 환율 통제 없음 - 쉬운 자본 송금\n\n[자세히 알아보기](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -127,7 +127,7 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="무료 상담 받기" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="전문가와 상담하기" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAE 이민' },

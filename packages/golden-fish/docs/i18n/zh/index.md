@@ -6,16 +6,13 @@ showSponsors: false
 
 hero:
   name: "阿联酋：您的财务安全港"
-  # text: We speak your tongue
   tagline: "全方位商业支持：公司设立、签证、银行开户。<span class='hl'>不成功不收费</span>。"
 
   actions:
     - theme: brand
-      text: 获取免费咨询
-      link: /resources/contacts
-    # - theme: alt
-    #   text: Support 24/7
-    #   link: ./resources/contacts
+      text: 咨询专家
+      link: /chat
+
   image:
     light:
       src: /img/Logo.avif
@@ -23,16 +20,16 @@ hero:
     dark:
       src: /img/Logo.avif
       width: 40%
-    alt: Golden Fish 标志
+    alt: Golden Fish标志
 
 ---
 
 <FeatureCards :features="[
   {
     title: '公司设立指南',
-    details: '完整指导在**Free Zone、Offshore、Mainland、Branch**设立公司。',
+    details: '完整指导在**Free Zone、offshore、mainland、branch**设立公司。',
     items: [
-      'Free Zone和Mainland可100%外资持股',
+      'Free Zone和Mainland允许100%外资所有权',
       '低税率 - 仅9%企业所得税',
       '无外汇管制 - 资金轻松汇回'
     ],
@@ -61,7 +58,7 @@ hero:
     }
   },
   {
-    title: 'Golden Visa和居留',
+    title: 'Golden Visa与居留',
     details: '通过无缝申请流程获取阿联酋**Golden Visa**长期居留。',
     items: [
       '**无需每6个月入境阿联酋**',
@@ -81,7 +78,7 @@ hero:
 <FeatureCards :features="[
   {
     title: '合规服务',
-    details: '我们的专家指导您完成复杂的阿联酋监管要求，包括ESR报告和UBO申报。',
+    details: '我们的专家指导您完成阿联酋复杂的监管要求，包括ESR报告和UBO申报。',
     items: [],
     linkText: '了解更多',
     link: '/uae-business/company-registration/Protect-Your-Business',
@@ -92,7 +89,7 @@ hero:
     }
   },
   {
-    title: '企业税务和增值税',
+    title: '企业税务与增值税',
     details: '专业建议确保符合联邦税务局(FTA)的企业税和增值税义务。',
     items: [],
     linkText: '了解更多',
@@ -105,7 +102,7 @@ hero:
   },
   {
     title: '法律服务',
-    details: '法律团队就并购、公司重组、融资和争议解决等阿联酋法律提供建议。',
+    details: '法律团队就阿联酋并购、公司重组、融资和争议解决等法律提供建议。',
     items: [],
     linkText: '了解更多',
     link: '/uae-business/company-registration/Protect-Your-Business',
@@ -116,7 +113,7 @@ hero:
     }
   },
   {
-    title: '会计和工资服务',
+    title: '会计与工资服务',
     details: '我们的会计师管理财务，提供记账、对账、工资和审计支持，节省雇佣成本。',
     items: [],
     linkText: '了解更多',
@@ -157,7 +154,7 @@ hero:
 
 **外国人在阿联酋设立公司是否有所有权限制？**
 
-某些阿联酋商业实体，如涉及特定战略领域的实体，将要求客户任命阿联酋籍股东。因此，选择最适合您企业需求的商业实体对于在阿联酋设立企业至关重要。
+某些阿联酋商业实体，如涉及特定战略领域的实体，将要求客户任命阿联酋籍股东。因此，选择最适合您企业需求的商业实体对于在阿联酋设立业务至关重要。
 
 **我的公司可以100%由外国人持有吗？**
 
@@ -212,7 +209,7 @@ hero:
 
 **我需要亲自到阿联酋注册公司吗？**
 
-不需要，Golden Fish 可以在您无需亲自前往的情况下合法地为您注册阿联酋公司。
+不需要，Golden Fish 可以在您无需亲自前往的情况下合法注册您的阿联酋公司。
 
 **我的公司需要租用场所吗？**
 
@@ -221,10 +218,10 @@ hero:
 | 公司类型 | 办公场所要求 |
 | -------- | ------------ |
 | 自由区公司 | 注册前需要办公场所租赁协议或灵活办公桌。 |
-| 内地公司 | 仅需要虚拟或注册地址。 |
-| 离岸公司 | 仅需要虚拟或注册地址。 |
+| 大陆公司 | 仅需虚拟或注册地址。 |
+| 离岸公司 | 仅需虚拟或注册地址。 |
 
-此对比表有助于明确自由区、内地和离岸公司之间的要求差异。
+此对比表有助于明确自由区、大陆和离岸公司之间的要求差异。
 
 ### 合规和税务
 
@@ -234,7 +231,7 @@ hero:
 
 **在阿联酋设立公司有什么税务影响？**
 
-阿联酋已实施企业所得税(CIT)，标准税率为9%。此外，根据业务量和性质，部分公司需缴纳增值税(5%)和/或关税。特定行业，如石油和天然气以及外国银行分行，可能有特殊税收考虑或豁免。
+阿联酋已实施企业所得税（CIT），标准税率为9%。此外，根据业务规模和性质，部分公司需缴纳增值税（5%）和/或关税。特定行业，如石油和天然气以及外国银行分行，可能有特殊税收考虑或豁免。
 
 **阿联酋公司是否需要提交年度纳税申报表和/或财务报表？**
 
@@ -252,7 +249,7 @@ Golden Fish 推荐多家阿联酋本地银行选项，包括：
 4. Dubai Islamic Bank
 5. Mashreq Bank
 
-这些银行以良好的客户服务著称，这对于在阿联酋创业至关重要。
+这些银行以良好的客户服务著称，这对在阿联酋创业至关重要。
 
 **如何在阿联酋开设离岸银行账户？**
 
@@ -270,4 +267,4 @@ Golden Fish 推荐多家阿联酋本地银行选项，包括：
 
 :::
 
-<ContactFormModalNav buttonText="获取免费咨询" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="咨询专家" formStyle="display: block; margin: 3rem auto;"/>

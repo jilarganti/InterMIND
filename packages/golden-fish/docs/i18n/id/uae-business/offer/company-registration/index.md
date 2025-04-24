@@ -44,7 +44,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Dukungan Lengkap: Langkah demi Langkah Bersama Anda',
-  details: 'Panduan lengkap untuk mendirikan perusahaan di **free zone, offshore, mainland, branch**. \n\n* 100% Kepemilikan Asing tersedia di Free Zones dan Mainland\n* Tarif Pajak Rendah - hanya 9% pajak perusahaan\n* Tanpa Kontrol Mata Uang - repatriasi modal yang mudah\n\n[Learn more](/uae-business/company-registration/overview)',
+  details: 'Panduan lengkap untuk mendirikan perusahaan di **free zone, offshore, mainland, branch**. \n\n* 100% Kepemilikan Asing tersedia di Free Zone dan Mainland\n* Tarif Pajak Rendah - hanya 9% pajak perusahaan\n* Tanpa Kontrol Mata Uang - repatriasi modal yang mudah\n\n[Learn more](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -127,7 +127,7 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Dapatkan konsultasi gratis" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="Bicara dengan ahli" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigrasi UAE' },

@@ -109,12 +109,12 @@ hero:
   {
     icon: '🏢',
     title: 'Chuyên Môn Tại UAE',
-    text: 'Các chuyên gia tận tâm tại Dubai cung cấp hướng dẫn chuyên nghiệp trong từng bước của quy trình.'
+    text: 'Các chuyên gia tận tâm tại Dubai cung cấp hướng dẫn chuyên nghiệp trong suốt quá trình thực hiện.'
   },
   {
     icon: '📊',
     title: 'Tỷ Lệ Thành Công Đã Được Chứng Minh',
-    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua dịch vụ xử lý cao cấp của chúng tôi.'
+    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua quy trình xử lý cao cấp của chúng tôi.'
   },
   {
     icon: '💸',
@@ -125,4 +125,4 @@ hero:
 
 ## Đặt lịch tư vấn miễn phí để thảo luận về nhu cầu ngân hàng doanh nghiệp của bạn
 
-<ContactFormModalNav buttonText="Nhận tư vấn miễn phí" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="Trao đổi với chuyên gia" formStyle="display: block; margin: 3rem auto;"/>

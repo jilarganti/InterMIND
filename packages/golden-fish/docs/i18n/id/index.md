@@ -11,8 +11,8 @@ hero:
 
   actions:
     - theme: brand
-      text: Dapatkan Konsultasi Gratis
-      link: /resources/contacts
+      text: Chat dengan ahli
+      link: /chat
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -29,11 +29,11 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Panduan Pendirian Perusahaan',
-    details: 'Panduan lengkap untuk mendirikan perusahaan di **free zone, offshore, mainland, branch**.',
+    details: 'Panduan lengkap untuk mendirikan perusahaan di **Free Zone, offshore, Mainland, branch**.',
     items: [
       'Kepemilikan Asing 100% tersedia di Free Zone dan Mainland',
       'Tarif Pajak Rendah - hanya 9% pajak perusahaan',
-      'Tidak Ada Kontrol Mata Uang - repatriasi modal yang mudah'
+      'Tidak Ada Kontrol Mata Uang - repatriasi modal mudah'
     ],
     linkText: 'Pelajari lebih lanjut',
     link: '/uae-business/offer/company-registration/',
@@ -61,7 +61,7 @@ hero:
   },
   {
     title: 'Golden Visa & Izin Tinggal',
-    details: 'Dapatkan **Golden Visa** UAE untuk izin tinggal jangka panjang dengan proses aplikasi yang lancar.',
+    details: 'Dapatkan **Golden Visa** UAE untuk izin tinggal jangka panjang dengan proses aplikasi yang mudah.',
     items: [
       '**Tidak perlu masuk UAE setiap 6 bulan**',
       'Masa berlaku 10 tahun dengan opsi perpanjangan jika memenuhi syarat',
@@ -171,7 +171,7 @@ Untuk pendirian entitas free zone di UAE, Golden Fish akan:
 1. Mendapatkan izin yang diperlukan dari otoritas terkait.
 2. Melakukan reservasi nama perusahaan.
 3. Menyiapkan dokumen pendirian.
-4. Mengesahkan dokumen di pengadilan umum.
+4. Melakukan notarisasi dokumen di pengadilan umum.
 5. Mengajukan izin usaha.
 6. Mendaftarkan perusahaan untuk PPN (jika diperlukan).
 7. Mendapatkan visa kerja untuk klien dan karyawan mereka.
@@ -223,7 +223,7 @@ Persyaratan berbeda berdasarkan jenis perusahaan:
 | Mainland Company | Hanya memerlukan alamat virtual atau terdaftar. |
 | Offshore Company | Hanya memerlukan alamat virtual atau terdaftar. |
 
-Tabel perbandingan ini membantu memperjelas perbedaan persyaratan antara perusahaan free zone, mainland, dan offshore.
+Tabel perbandingan ini membantu memperjelas perbedaan antara persyaratan untuk perusahaan free zone, mainland, dan offshore.
 
 ### Kepatuhan dan Perpajakan
 
@@ -269,4 +269,4 @@ Izin tinggal bisnis UAE biasanya diterbitkan untuk 2 hingga 3 tahun.
 
 :::
 
-<ContactFormModalNav buttonText="Dapatkan konsultasi gratis" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="Bicara dengan ahli" formStyle="display: block; margin: 3rem auto;"/>

@@ -64,7 +64,7 @@ hero:
     items: [
       '잠재적 리스크 식별을 위한 정기적인 컴플라이언스 감사',
       '정부 승인을 위한 종합적인 PRO 서비스',
-      '라이센스 갱신 관리 및 알림',
+      '라이선스 갱신 관리 및 알림',
       '뱅킹 컨설팅 및 계좌 유지',
       'VAT 및 ESR 컴플라이언스 지원',
       '직원 비자 및 노동법 컴플라이언스',
@@ -123,6 +123,6 @@ hero:
   },
 ]" />
 
-## 기업 뱅킹 니즈에 대해 상담받으실 수 있는 무료 컨설팅을 예약하세요
+## 기업 뱅킹 니즈에 대해 상담하실 수 있는 무료 컨설팅을 예약하세요
 
-<ContactFormModalNav buttonText="무료 컨설팅 받기" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="전문가와 상담하기" formStyle="display: block; margin: 3rem auto;"/>

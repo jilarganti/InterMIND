@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: '共に取り組む課題',
-  details: 'UAEは多くの利点を提供しますが、事業を設立する際には潜在的な課題に注意が必要です。\n\n* 複雑な規制環境：首長国とFree Zone間で異なる規制\n* 経済実体要件：特定の活動には現地スタッフと物理的なオフィススペースが必要\n* 高額な初期費用：登録料、書類作成、必須オフィス賃貸\n\n[完全なリストを表示](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'UAEは多くの利点を提供していますが、事業を設立する際には潜在的な課題に注意が必要です。\n\n* 複雑な規制環境：首長国とFree Zone間で異なる規制\n* 経済実体要件：特定の活動には現地スタッフと物理的なオフィススペースが必要\n* 高額な初期費用：登録料、書類作成費用、必須オフィス賃貸料\n\n[完全なリストを表示](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-1299393716.avif',
@@ -44,7 +44,7 @@ hero:
 
 <FeatureBlock :card="{
   title: '完全サポート：一歩一歩共に',
-  details: '**Free Zone、Offshore、Mainland、支店**での会社設立の完全ガイド。\n\n* Free ZoneとMainlandで100％外国人所有が可能\n* 低税率 - 法人税9％のみ\n* 為替管理なし - 簡単な資本送金\n\n[詳細を見る](/uae-business/company-registration/overview)',
+  details: '**Free Zone、Offshore、Mainland、Branch**での会社設立の完全ガイド。\n\n* Free ZoneとMainlandで100％外国人所有が可能\n* 低税率 - 法人税9％のみ\n* 為替管理なし - 簡単な資本送金\n\n[詳細を見る](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -76,7 +76,7 @@ hero:
     details: 'スムーズな申請プロセスで長期居住のための**Golden Visa**を取得。',
     items: [
       '**6ヶ月ごとのUAE入国不要**',
-      '資格条件を維持することで10年間有効、更新可能',
+      '条件を満たせば10年間有効で更新可能',
       '92％の成功率'
     ],
     linkText: '詳細を見る',
@@ -88,7 +88,7 @@ hero:
     }
   },
   {
-    title: '法人向けサービスの詳細',
+    title: '企業向けサービスの詳細',
     details: '',
     items: [],
     linkText: '詳細を見る',
@@ -112,12 +112,12 @@ hero:
   {
     icon: '📊',
     title: '実証された成功率',
-    text: '当社のプレミアム処理を通じて発行されたビザ、銀行口座、会社登録の承認率は90％以上です。'
+    text: '当社のプレミアム処理サービスを通じて、90%以上の承認率を誇り、数百件のビザ、銀行口座、企業登録の実績があります。'
   },
   {
     icon: '💸',
     title: '**成功報酬制**',
-    text: '[承認後のみの支払い](/uae-business/benefits/success-based-fees)。隠れた費用のない完全な透明性。'
+    text: '[承認後のみの支払い](/uae-business/benefits/success-based-fees)。隠れた費用のない完全な透明性を提供します。'
   },
 ]" />
 
@@ -127,7 +127,7 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="無料相談を予約する" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="専門家に相談する" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAEの移民' },

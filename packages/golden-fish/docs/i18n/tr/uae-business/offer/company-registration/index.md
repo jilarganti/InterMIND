@@ -77,7 +77,7 @@ hero:
     details: 'Sorunsuz bir başvuru süreciyle uzun süreli ikamet için BAE **Golden Visa** alın.',
     items: [
       '**Her 6 ayda bir BAE\'ye girme zorunluluğu yok**',
-      'Yeterlilik koşullarını koruyarak 10 yıllık geçerlilik ve yenileme seçeneği',
+      'Yeterlilik koşullarını koruyarak 10 yıl geçerlilik ve yenileme seçeneği',
       '%92 başarı oranı'
     ],
     linkText: 'Daha fazla bilgi',
@@ -128,7 +128,7 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Ücretsiz danışmanlık alın" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="Uzmanla görüşün" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'BAE Göçmenlik' },

@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "阿联酋公司银行服务 | 成功付费服务"
-description: "高端多币种公司账户，零预付费用 - 仅在获批后付费。全程申请管理，96%成功率。保证开户。"
+title: "阿联酋公司银行服务 | 成功付费制服务"
+description: "优质多币种公司账户，零预付费用 - 仅在获批后付费。全程申请管理，96%成功率。保证开户。"
 showSponsors: false
 
 hero:
@@ -16,6 +16,7 @@ hero:
       src: /img/Logo.avif
       width: 40%
     alt: Golden Fish标志
+
 ---
 
 <FeatureCards :features="[
@@ -125,4 +126,4 @@ hero:
 
 ## 预约免费咨询以讨论您的企业银行需求
 
-<ContactFormModalNav buttonText="获取免费咨询" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="咨询专家" formStyle="display: block; margin: 3rem auto;"/>

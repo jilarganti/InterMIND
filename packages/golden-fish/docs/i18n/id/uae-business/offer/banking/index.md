@@ -26,7 +26,7 @@ hero:
       'Jaminan dua bulan untuk persetujuan rekening pertama',
       'Jaminan tiga bulan untuk rekening kedua',
       'Penyusunan rencana bisnis berkualitas',
-      'Dukungan due diligence komprehensif',
+      'Dukungan uji tuntas komprehensif',
       'Strategi komunikasi langsung dengan bank',
       'Pengaturan paket perbankan lengkap'
     ],
@@ -125,4 +125,4 @@ hero:
 
 ## Jadwalkan konsultasi gratis untuk membahas kebutuhan perbankan korporat Anda
 
-<ContactFormModalNav buttonText="Dapatkan konsultasi gratis" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="Bicara dengan ahli" formStyle="display: block; margin: 3rem auto;"/>

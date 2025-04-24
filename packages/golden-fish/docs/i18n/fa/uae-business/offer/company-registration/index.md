@@ -20,7 +20,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'مزایای شما — مسئولیت ما',
-  details: 'امارات متحده عربی مزایای متعددی برای کارآفرینان و سرمایه‌گذاران بین‌المللی که به دنبال محیط تجاری مناسب هستند، ارائه می‌دهد. \n\n* نرخ‌های مالیاتی پایین: فقط ۹٪ مالیات شرکتی و ۵٪ مالیات بر ارزش افزوده بدون مالیات بر درآمد شخصی\n* مالکیت ۱۰۰٪ خارجی: کنترل کامل شرکت خود بدون نیاز به شریک محلی\n* بدون کنترل ارزی: انتقال نامحدود سود و تبادل ارز\n\n[نمایش لیست کامل](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'امارات متحده عربی مزایای متعددی برای کارآفرینان و سرمایه‌گذاران بین‌المللی که به دنبال محیط تجاری مناسب هستند، ارائه می‌دهد. \n\n* نرخ مالیات پایین: فقط ۹٪ مالیات شرکتی و ۵٪ مالیات بر ارزش افزوده بدون مالیات بر درآمد شخصی\n* مالکیت ۱۰۰٪ خارجی: کنترل کامل شرکت خود بدون نیاز به شریک محلی\n* بدون کنترل ارزی: انتقال نامحدود سود و تبادل ارز\n\n[نمایش لیست کامل](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -32,7 +32,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'چالش‌هایی که با هم حل می‌کنیم',
-  details: 'اگرچه امارات مزایای زیادی دارد، کسب و کارها باید از چالش‌های احتمالی هنگام راه‌اندازی عملیات آگاه باشند. \n\n* محیط نظارتی پیچیده: مقررات متفاوت در امارات و مناطق Free Zone\n* الزامات اقتصادی: نیاز به کارمندان محلی و فضای دفتر فیزیکی برای برخی فعالیت‌ها\n* هزینه‌های اولیه بالا: هزینه‌های ثبت، مستندات و اجاره اجباری دفتر\n\n[نمایش لیست کامل](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'اگرچه امارات مزایای زیادی دارد، کسب و کارها باید از چالش‌های احتمالی هنگام راه‌اندازی عملیات آگاه باشند. \n\n* محیط نظارتی پیچیده: مقررات متفاوت در امارات و مناطق آزاد\n* الزامات اقتصادی: نیاز به کارمندان محلی و فضای دفتر فیزیکی برای برخی فعالیت‌ها\n* هزینه‌های اولیه بالا: هزینه‌های ثبت، مستندات و اجاره اجباری دفتر\n\n[نمایش لیست کامل](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-1299393716.avif',
@@ -44,7 +44,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'پشتیبانی کامل: قدم به قدم با شما',
-  details: 'راهنمای کامل برای راه‌اندازی شرکت در **Free Zone، Offshore، Mainland، Branch**. \n\n* امکان مالکیت ۱۰۰٪ خارجی در Free Zone و Mainland\n* نرخ‌های مالیاتی پایین - فقط ۹٪ مالیات شرکتی\n* بدون کنترل ارزی - بازگشت آسان سرمایه\n\n[اطلاعات بیشتر](/uae-business/company-registration/overview)',
+  details: 'راهنمای کامل برای راه‌اندازی شرکت در **Free Zone، Offshore، Mainland، Branch**. \n\n* امکان مالکیت ۱۰۰٪ خارجی در Free Zone و Mainland\n* نرخ مالیات پایین - فقط ۹٪ مالیات شرکتی\n* بدون کنترل ارزی - بازگشت آسان سرمایه\n\n[اطلاعات بیشتر](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -72,8 +72,8 @@ hero:
     }
   },
   {
-    title: 'Golden Visa و اقامت',
-    details: 'با فرآیند درخواست بی‌دردسر، **Golden Visa** امارات را برای اقامت طولانی‌مدت دریافت کنید.',
+    title: 'ویزای طلایی و اقامت',
+    details: 'با فرآیند درخواست آسان، **Golden Visa** امارات را برای اقامت طولانی‌مدت دریافت کنید.',
     items: [
       '**نیازی به ورود به امارات هر ۶ ماه نیست**',
       'اعتبار ۱۰ ساله با امکان تمدید در صورت حفظ شرایط لازم',
@@ -127,7 +127,7 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="دریافت مشاوره رایگان" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="صحبت با یک متخصص" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'مهاجرت به امارات' },

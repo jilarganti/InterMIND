@@ -1,18 +1,18 @@
 ---
 layout: home
 title: "Services de Formation d'Entreprise aux EAU"
-description: "Services experts de formation et d'accompagnement d'entreprises aux EAU. Configuration d'entreprise, services bancaires, fiscalité, solutions juridiques et visas. Paiement uniquement après approbation."
+description: "Services experts de formation et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa. Paiement uniquement après approbation."
 showSponsors: false
 
 hero:
   name: "EAU : Votre Havre Financier"
   # text: We speak your tongue
-  tagline: "Support Commercial Complet : Configuration d'Entreprise, Visas, Services Bancaires. <span class='hl'>Pas de succès — pas de frais</span>."
+  tagline: "Support Commercial Complet : Création d'Entreprise, Visas, Services Bancaires. <span class='hl'>Pas de succès — pas de frais</span>."
 
   actions:
     - theme: brand
-      text: Obtenir une Consultation Gratuite
-      link: /resources/contacts
+      text: Discuter avec un expert
+      link: /chat
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -29,11 +29,11 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Guide de Création d\'Entreprise',
-    details: 'Guide complet pour créer des entreprises en **free zone, offshore, mainland, branch**.',
+    details: 'Guide complet pour créer des entreprises en **Free Zone, offshore, Mainland, succursale**.',
     items: [
       'Propriété étrangère à 100% disponible en Free Zones et Mainland',
-      'Taux d\'Imposition Bas - seulement 9% d\'impôt sur les sociétés',
-      'Pas de Contrôle des Changes - rapatriement facile des capitaux'
+      'Taux d\'imposition bas - seulement 9% d\'impôt sur les sociétés',
+      'Pas de contrôle des changes - rapatriement facile des capitaux'
     ],
     linkText: 'En savoir plus',
     link: '/uae-business/offer/company-registration/',
@@ -133,7 +133,7 @@ hero:
 <BenefitsList :features="[
   {
     icon: '🏢',
-    title: 'Expertise Locale aux EAU',
+    title: 'Expertise Locale aux UAE',
     text: 'Des spécialistes dédiés à Dubai fournissent des conseils d\'experts à chaque étape du processus.'
   },
   {
@@ -150,23 +150,23 @@ hero:
 
 ## FAQ
 
-:::details FAQ sur la création d'entreprise aux EAU
+:::details FAQ sur la création d'entreprise aux UAE
 
-### Exigences générales en matière de propriété
+### Exigences générales de propriété
 
-**Y aura-t-il des restrictions sur la propriété si des étrangers créent une entreprise aux EAU ?**
+**Y aura-t-il des restrictions sur la propriété si des étrangers créent une entreprise aux UAE ?**
 
-Certaines entités commerciales des EAU, comme celles impliquées dans des secteurs stratégiques spécifiques, exigeront que les clients nomment un ou plusieurs actionnaires émiratis. Par conséquent, il est essentiel de choisir l'entité commerciale optimale pour répondre à vos besoins lors de la création d'une entreprise aux EAU.
+Certaines entités commerciales des UAE, comme celles impliquées dans des secteurs stratégiques spécifiques, exigeront que les clients nomment un ou plusieurs actionnaires émiratis. Par conséquent, il est essentiel de choisir l'entité commerciale optimale pour répondre à vos besoins lors de la création d'une entreprise aux UAE.
 
-**Mon entreprise peut-elle être détenue à 100 % par des étrangers ?**
+**Mon entreprise peut-elle être détenue à 100% par des étrangers ?**
 
-Oui, la plupart des activités commerciales permettent une propriété étrangère à 100 %.
+Oui, la plupart des activités commerciales permettent une propriété étrangère à 100%.
 
 ### Enregistrement d'entreprise
 
-**Comment enregistrer une entreprise dans la Free Zone des EAU ?**
+**Comment enregistrer une entreprise dans la Free Zone des UAE ?**
 
-Pour l'incorporation d'une entité en Free Zone aux EAU, Golden Fish va :
+Pour l'incorporation d'une entité en Free Zone aux UAE, Golden Fish va :
 
 1. Obtenir les autorisations nécessaires auprès des autorités compétentes.
 2. Réserver le nom de l'entreprise.
@@ -176,28 +176,28 @@ Pour l'incorporation d'une entité en Free Zone aux EAU, Golden Fish va :
 6. Enregistrer l'entreprise pour la TVA (si nécessaire).
 7. Obtenir des visas de travail pour les clients et leurs employés.
 
-**Quels sont les avantages de créer une entité en Free Zone aux EAU ?**
+**Quels sont les avantages de créer une entité en Free Zone aux UAE ?**
 
-Les entreprises en Free Zone aux EAU offrent plusieurs avantages, notamment :
+Les entreprises en Free Zone aux UAE offrent plusieurs avantages, notamment :
 
-1. Pas d'obligation d'avoir un actionnaire résident, c'est-à-dire qu'une entreprise FZ peut être détenue à 100 % par des étrangers.
+1. Pas d'obligation d'avoir un actionnaire résident, c'est-à-dire qu'une entreprise FZ peut être détenue à 100% par des étrangers.
 2. Pas d'obligation d'embaucher du personnel.
 3. Pas de droits de douane sur les marchandises entrant ou sortant de la zone.
 4. Infrastructure de haute qualité.
 
 ### Directeurs et actionnaires
 
-**Combien de directeurs doivent être nommés pour s'enregistrer dans une Free Zone des EAU ?**
+**Combien de directeurs doivent être nommés pour s'enregistrer dans une Free Zone des UAE ?**
 
-Un seul directeur est requis pour former une entreprise en Free Zone aux EAU.
+Un seul directeur est requis pour former une entreprise en Free Zone aux UAE.
 
-**Combien d'actionnaires sont nécessaires pour s'incorporer dans une Free Zone des EAU ?**
+**Combien d'actionnaires sont nécessaires pour s'incorporer dans une Free Zone des UAE ?**
 
-Un seul actionnaire est requis pour créer une entité en Free Zone aux EAU.
+Un seul actionnaire est requis pour créer une entité en Free Zone aux UAE.
 
-**Combien d'actionnaires sont nécessaires pour une société offshore aux EAU ?**
+**Combien d'actionnaires sont nécessaires pour une société offshore aux UAE ?**
 
-Un seul actionnaire est requis pour créer une société offshore aux EAU.
+Un seul actionnaire est requis pour créer une société offshore aux UAE.
 
 **Un directeur résident est-il requis ?**
 
@@ -209,17 +209,17 @@ Non.
 
 ### Logistique et locaux
 
-**Dois-je me rendre aux EAU pour y incorporer une entreprise ?**
+**Dois-je me rendre aux UAE pour y incorporer une entreprise ?**
 
-Non, Golden Fish peut légalement incorporer votre entreprise aux EAU sans que vous ayez besoin de vous déplacer.
+Non, Golden Fish peut légalement incorporer votre entreprise aux UAE sans que vous ayez besoin de voyager.
 
 **Dois-je louer des locaux pour mon entreprise ?**
 
 Les exigences diffèrent selon le type d'entreprise :
 
-| Type d'entreprise | Exigence en matière de bureau |
-| ----------------- | ----------------------------- |
-| Entreprise Free Zone | Un contrat de location de bureaux ou un flexi-desk est requis avant l'incorporation. |
+| Type d'entreprise | Exigence de bureau |
+| ----------------- | --------------------------------------------------------------------------------------- |
+| Entreprise Free Zone | Un contrat de location pour des locaux de bureau ou un flexi-desk est requis avant l'incorporation. |
 | Entreprise Mainland | Seule une adresse virtuelle ou enregistrée est nécessaire. |
 | Entreprise Offshore | Seule une adresse virtuelle ou enregistrée est nécessaire. |
 
@@ -227,23 +227,23 @@ Ce tableau comparatif aide à clarifier les différences entre les exigences pou
 
 ### Conformité et fiscalité
 
-**Serai-je tenu d'obtenir un audit complet si je crée une petite entreprise aux EAU ?**
+**Serai-je tenu d'obtenir un audit complet si je crée une petite entreprise aux UAE ?**
 
 Oui, la plupart des entités devront présenter des états financiers audités.
 
-**Quelles sont les implications fiscales de la création d'une entreprise aux EAU ?**
+**Quelles sont les implications fiscales de la création d'une entreprise aux UAE ?**
 
-L'impôt sur les sociétés (CIT) a été mis en place aux EAU au taux standard de 9 %. De plus, selon le volume et la nature de l'activité, certaines entreprises sont assujetties à la TVA (5 %) et/ou aux droits de douane. Des secteurs spécifiques, comme le pétrole et le gaz et les succursales de banques étrangères, peuvent avoir des considérations ou exemptions fiscales particulières.
+L'impôt sur les sociétés (CIT) a été mis en place aux UAE au taux standard de 9%. De plus, selon le volume et la nature de l'activité, certaines entreprises sont assujetties à la TVA (5%) et/ou aux droits de douane. Des secteurs spécifiques, comme le pétrole et le gaz et les succursales de banques étrangères, peuvent avoir des considérations ou exemptions fiscales particulières.
 
-**Une entreprise des EAU doit-elle soumettre une déclaration fiscale annuelle et/ou un état financier ?**
+**Une entreprise aux UAE doit-elle soumettre une déclaration fiscale annuelle et/ou un état financier ?**
 
-Oui, toutes les entreprises aux EAU sont tenues de soumettre des comptes audités annuels au gouvernement.
+Oui, toutes les entreprises aux UAE sont tenues de soumettre des comptes audités annuels au gouvernement.
 
 ### Solutions bancaires
 
-**Quelles banques sont recommandées pour les solutions bancaires aux entreprises des EAU ?**
+**Quelles banques sont recommandées pour les solutions bancaires aux entreprises aux UAE ?**
 
-Golden Fish recommande plusieurs options de banques locales aux EAU, notamment :
+Golden Fish recommande plusieurs options de banques locales aux UAE, notamment :
 
 1. Emirates NBD
 2. First Abu Dhabi Bank
@@ -251,22 +251,22 @@ Golden Fish recommande plusieurs options de banques locales aux EAU, notamment :
 4. Dubai Islamic Bank
 5. Mashreq Bank
 
-Ces banques sont connues pour leur bon service client, ce qui est essentiel lors du démarrage d'une nouvelle entreprise aux EAU.
+Ces banques sont connues pour leur bon service client, ce qui est essentiel lors du démarrage d'une nouvelle entreprise aux UAE.
 
-**Comment ouvrir un compte bancaire offshore aux EAU ?**
+**Comment ouvrir un compte bancaire offshore aux UAE ?**
 
-Les clients n'auront pas besoin d'enregistrer une société locale pour ouvrir un compte bancaire offshore aux EAU. Cependant, les procédures KYC seront plus strictes que pour l'ouverture d'un compte bancaire pour une société résidente. Des documents d'attestation seront également requis. Veuillez consulter [notre guide d'ouverture de compte bancaire pour les entreprises des EAU](./uae-business/company-registration/banking) pour plus d'informations détaillées.
+Les clients n'auront pas besoin d'enregistrer une entreprise locale pour ouvrir un compte bancaire offshore aux UAE. Cependant, les procédures KYC seront plus strictes que pour l'ouverture d'un compte bancaire pour une entreprise résidente. Des documents d'attestation seront également requis. Veuillez consulter [notre guide d'ouverture de compte bancaire pour les entreprises aux UAE](./uae-business/company-registration/banking) pour plus d'informations détaillées.
 
-**Golden Fish peut-il aider avec les services bancaires islamiques aux EAU ?**
+**Golden Fish peut-il aider avec les services bancaires islamiques aux UAE ?**
 
 Oui, Golden Fish peut aider les clients avec leurs besoins en matière de services bancaires islamiques.
 
 ### Visas et résidence
 
-**Quelle est la durée de validité d'un visa de résidence d'affaires aux EAU ?**
+**Quelle est la durée de validité d'un visa de résidence d'affaires aux UAE ?**
 
-Les permis de résidence d'affaires aux EAU sont généralement délivrés pour 2 à 3 ans.
+Les permis de résidence d'affaires aux UAE sont généralement délivrés pour 2 à 3 ans.
 
 :::
 
-<ContactFormModalNav buttonText="Obtenir une consultation gratuite" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="Parler à un expert" formStyle="display: block; margin: 3rem auto;"/>

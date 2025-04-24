@@ -19,7 +19,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'مزاياك - مسؤوليتنا',
-  details: 'تقدم دولة الإمارات العديد من المزايا لرواد الأعمال والمستثمرين الدوليين الباحثين عن بيئة أعمال مواتية. \n\n* معدلات ضريبية منخفضة: 9٪ ضريبة شركات و5٪ ضريبة قيمة مضافة بدون ضريبة دخل شخصية\n* ملكية أجنبية 100٪: تحكم كامل في شركتك بدون شركاء محليين\n* لا قيود على العملات: تحويل الأرباح وتبادل العملات بدون قيود\n\n[عرض القائمة الكاملة](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'توفر دولة الإمارات العديد من المزايا لرواد الأعمال والمستثمرين الدوليين الباحثين عن بيئة أعمال مواتية. \n\n* معدلات ضريبية منخفضة: 9٪ ضريبة شركات و5٪ ضريبة قيمة مضافة بدون ضريبة دخل شخصية\n* ملكية أجنبية 100٪: تحكم كامل في شركتك بدون شركاء محليين\n* لا قيود على العملات: تحويل الأرباح وتبادل العملات بدون قيود\n\n[عرض القائمة الكاملة](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -31,7 +31,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'التحديات التي نواجهها معاً',
-  details: 'رغم المزايا العديدة التي تقدمها الإمارات، يجب أن تكون الشركات على دراية بالتحديات المحتملة عند تأسيس عملياتها. \n\n* بيئة تنظيمية معقدة: لوائح مختلفة عبر الإمارات والمناطق الحرة\n* متطلبات الوجود الاقتصادي: حاجة لموظفين محليين ومساحة مكتبية فعلية لبعض الأنشطة\n* تكاليف أولية مرتفعة: رسوم التسجيل والوثائق وإيجارات المكاتب الإلزامية\n\n[عرض القائمة الكاملة](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'رغم المزايا العديدة في الإمارات، يجب أن تكون الشركات على دراية بالتحديات المحتملة عند تأسيس عملياتها. \n\n* بيئة تنظيمية معقدة: لوائح مختلفة عبر الإمارات والمناطق الحرة\n* متطلبات الوجود الاقتصادي: حاجة لموظفين محليين ومكتب فعلي لبعض الأنشطة\n* تكاليف أولية مرتفعة: رسوم التسجيل والوثائق وإيجارات المكاتب الإلزامية\n\n[عرض القائمة الكاملة](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-1299393716.avif',
@@ -126,7 +126,7 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="احصل على استشارة مجانية" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="تحدث مع خبير" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'الهجرة إلى الإمارات' },

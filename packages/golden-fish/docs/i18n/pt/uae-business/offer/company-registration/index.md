@@ -127,9 +127,9 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Obter uma consulta gratuita" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="Fale com um especialista" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração para os EAU' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração para os EAU' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração UAE' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração UAE' },
 ]"/> -->

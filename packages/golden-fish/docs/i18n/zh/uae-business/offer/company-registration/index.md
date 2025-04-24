@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "阿联酋无风险创业 | 无批准不收费"
-description: "革命性的阿联酋公司成立模式：仅在成功后付费。专业指导全程服务，成功率超过90%。"
+description: "革命性的阿联酋公司成立模式：仅在成功后付费。专业指导全程服务，成功率超90%。"
 showSponsors: false
 
 hero:
@@ -127,7 +127,7 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="获取免费咨询" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="咨询专家" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: '阿联酋移民' },

@@ -35,7 +35,7 @@ hero:
     icon: {
       light: '/img/iStock-1785818081.avif',
       dark: '/img/iStock-1203821481.avif',
-      alt: 'Dịch vụ thị thực',
+      alt: 'Dịch vụ Thị thực',
       width: '100%'
     }
   },
@@ -54,7 +54,7 @@ hero:
     icon: {
       light: '/img/iStock-1333000394.avif',
       dark: '/img/iStock-584576538.avif',
-      alt: 'Dịch vụ thị thực',
+      alt: 'Dịch vụ Thị thực',
       width: '10%'
     }
   },
@@ -74,7 +74,7 @@ hero:
     icon: {
       light: '/img/ILONMASKID.webp',
       dark: '/img/ILONMASKID.webp',
-      alt: 'Dịch vụ thị thực',
+      alt: 'Dịch vụ Thị thực',
       width: '100%'
     }
   }
@@ -121,7 +121,7 @@ hero:
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Nhận tư vấn miễn phí" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="Trao đổi với chuyên gia" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Di trú UAE' },

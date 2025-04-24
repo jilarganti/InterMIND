@@ -35,7 +35,7 @@ hero:
     icon: {
       light: '/video/iStock-2186765808.mp4',
       dark: '/video/iStock-2166377244.mp4',
-      alt: '銀行要件'
+      alt: '銀行要件',
     }
   },
 ]" />
@@ -56,7 +56,7 @@ hero:
     icon: {
       light: '/img/iStock-1333000394.avif',
       dark: '/img/iStock-584576538.avif',
-      alt: 'バンキングサービス'
+      alt: 'バンキングサービス',
     }
   },
   {
@@ -75,7 +75,7 @@ hero:
     icon: {
       light: '/img/iStock-1382278859.jpg',
       dark: '/img/iStock-1867623684.jpg',
-      alt: 'バンキングサービス'
+      alt: 'バンキングサービス',
     }
   },
   {
@@ -94,7 +94,7 @@ hero:
     icon: {
       light: '/img/iStock-1032707788.jpg',
       dark: '/img/iStock-1152367067.avif',
-      alt: 'バンキングプロセス'
+      alt: 'バンキングプロセス',
     }
   }
 ]" />
@@ -113,8 +113,8 @@ hero:
   },
   {
     icon: '📊',
-    title: '実証された成功率',
-    text: '当社のプレミアム処理サービスを通じて、90%以上の承認率を誇り、数百件のビザ、銀行口座、企業登録の実績があります。'
+    title: '実績のある成功率',
+    text: '当社のプレミアム処理サービスを通じて、90%以上の承認率を誇り、数百件のビザ、銀行口座開設、企業登録の実績があります。'
   },
   {
     icon: '💸',
@@ -125,4 +125,4 @@ hero:
 
 ## 法人銀行取引に関する無料相談のご予約
 
-<ContactFormModalNav buttonText="無料相談を予約する" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="専門家に相談する" formStyle="display: block; margin: 3rem auto;"/>

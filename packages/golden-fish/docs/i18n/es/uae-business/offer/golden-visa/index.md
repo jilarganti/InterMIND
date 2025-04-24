@@ -42,7 +42,7 @@ hero:
   {
     title: 'Cómo Obtener la Visa Dorada de EAU',
     items: [
-      'Inversión de 2M AED en propiedades de EAU',
+      'Inversión de 2M AED en propiedades en EAU',
       'Depósito de 2M AED en fondos de inversión de EAU',
       'Negocio con capital de 2M AED',
       'Contribución anual de 250K AED a FTA',
@@ -65,7 +65,7 @@ hero:
       'Evaluación inicial de elegibilidad',
       'Preparación y verificación de documentos',
       'Examen médico y biometría',
-      'Presentación y procesamiento de solicitud',
+      'Presentación y procesamiento de la solicitud',
       'Emisión de Emirates ID y visa',
       'Patrocinio de visa familiar (opcional)'
     ],
@@ -121,9 +121,9 @@ hero:
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Obtener una consulta gratuita" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="Hablar con un experto" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración a EAU' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración a EAU' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración EAU' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración EAU' },
 ]"/> -->

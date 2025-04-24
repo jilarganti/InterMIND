@@ -64,7 +64,7 @@ hero:
     items: [
       'Auditorias regulares de compliance para identificar riscos potenciais',
       'Serviços PRO completos para aprovações governamentais',
-      'Gestão de renovação de licença e alertas',
+      'Gestão e alertas de renovação de licença',
       'Consultoria bancária e manutenção de conta',
       'Suporte em conformidade com VAT e ESR',
       'Conformidade com vistos de funcionários e lei trabalhista',
@@ -125,4 +125,4 @@ hero:
 
 ## Agende uma consulta gratuita para discutir suas necessidades bancárias corporativas
 
-<ContactFormModalNav buttonText="Obter uma consulta gratuita" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="Fale com um especialista" formStyle="display: block; margin: 3rem auto;"/>

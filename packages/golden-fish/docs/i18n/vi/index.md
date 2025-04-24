@@ -10,8 +10,8 @@ hero:
 
   actions:
     - theme: brand
-      text: Nhận Tư Vấn Miễn Phí
-      link: /resources/contacts
+      text: Chat với chuyên gia
+      link: /chat
 
   image:
     light:
@@ -131,12 +131,12 @@ hero:
   {
     icon: '🏢',
     title: 'Chuyên Môn Tại UAE',
-    text: 'Các chuyên gia tận tâm tại Dubai cung cấp hướng dẫn chuyên nghiệp trong suốt quá trình thực hiện.'
+    text: 'Các chuyên gia tận tâm tại Dubai cung cấp hướng dẫn chuyên nghiệp trong từng bước của quy trình.'
   },
   {
     icon: '📊',
     title: 'Tỷ Lệ Thành Công Đã Được Chứng Minh',
-    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua quy trình xử lý cao cấp của chúng tôi.'
+    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua dịch vụ xử lý cao cấp của chúng tôi.'
   },
   {
     icon: '💸',
@@ -165,7 +165,7 @@ Có, hầu hết các hoạt động kinh doanh đều được phép sở hữu
 
 Để thành lập doanh nghiệp trong khu vực tự do tại UAE, Golden Fish sẽ:
 
-1. Xin các giấy phép cần thiết từ các cơ quan có thẩm quyền.
+1. Xin các giấy phép cần thiết từ cơ quan có thẩm quyền.
 2. Đăng ký tên công ty.
 3. Chuẩn bị các tài liệu thành lập.
 4. Công chứng các tài liệu tại tòa án công.
@@ -179,7 +179,7 @@ Các công ty trong khu vực tự do UAE có nhiều lợi ích, bao gồm:
 
 1. Không yêu cầu cổ đông thường trú, tức là công ty FZ có thể 100% vốn nước ngoài.
 2. Không bắt buộc phải thuê nhân viên.
-3. Không phải nộp thuế hải quan đối với hàng hóa ra vào khu vực.
+3. Không phải đóng thuế hải quan đối với hàng hóa ra vào khu vực.
 4. Cơ sở hạ tầng chất lượng cao.
 
 ### Giám đốc và Cổ đông
@@ -230,7 +230,7 @@ Có, hầu hết các doanh nghiệp đều cần báo cáo tài chính được
 
 **Những tác động về thuế khi thành lập công ty tại UAE là gì?**
 
-Thuế Thu nhập Doanh nghiệp (CIT) đã được áp dụng tại UAE với mức thuế suất tiêu chuẩn là 9%. Ngoài ra, tùy thuộc vào quy mô và tính chất kinh doanh, một số công ty phải chịu thuế VAT (5%) và/hoặc thuế hải quan. Các ngành cụ thể như dầu khí và chi nhánh ngân hàng nước ngoài có thể có các cân nhắc hoặc miễn trừ thuế đặc biệt.
+Thuế Thu nhập Doanh nghiệp (CIT) đã được áp dụng tại UAE với mức thuế suất tiêu chuẩn là 9%. Ngoài ra, tùy thuộc vào quy mô và tính chất kinh doanh, một số công ty phải chịu thuế VAT (5%) và/hoặc thuế hải quan. Các ngành cụ thể như dầu khí và chi nhánh ngân hàng nước ngoài có thể có các xem xét hoặc miễn trừ thuế đặc biệt.
 
 **Công ty UAE có phải nộp tờ khai thuế hàng năm và/hoặc báo cáo tài chính không?**
 
@@ -252,7 +252,7 @@ Các ngân hàng này nổi tiếng với dịch vụ khách hàng tốt, điề
 
 **Làm thế nào để mở tài khoản ngân hàng offshore tại UAE?**
 
-Khách hàng không cần đăng ký công ty địa phương để mở tài khoản ngân hàng offshore tại UAE. Tuy nhiên, thủ tục KYC sẽ nghiêm ngặt hơn so với việc mở tài khoản ngân hàng cho công ty thường trú. Cũng cần các tài liệu chứng thực. Vui lòng tham khảo [hướng dẫn mở tài khoản ngân hàng cho công ty UAE của chúng tôi](./uae-business/company-registration/banking) để biết thông tin chi tiết hơn.
+Khách hàng không cần đăng ký công ty địa phương để mở tài khoản ngân hàng offshore tại UAE. Tuy nhiên, thủ tục KYC sẽ nghiêm ngặt hơn so với việc mở tài khoản ngân hàng cho công ty thường trú. Cũng cần các tài liệu chứng thực. Vui lòng tham khảo [hướng dẫn mở tài khoản ngân hàng cho công ty UAE của chúng tôi](./uae-business/company-registration/banking) để biết thêm thông tin chi tiết.
 
 **Golden Fish có hỗ trợ dịch vụ Ngân hàng Hồi giáo tại UAE không?**
 
@@ -266,4 +266,4 @@ Giấy phép cư trú kinh doanh UAE thường được cấp trong thời hạn
 
 :::
 
-<ContactFormModalNav buttonText="Nhận tư vấn miễn phí" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="Trao đổi với chuyên gia" formStyle="display: block; margin: 3rem auto;"/>

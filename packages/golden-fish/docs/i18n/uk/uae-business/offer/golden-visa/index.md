@@ -116,13 +116,13 @@ hero:
   }
 ]" />
 
-## Замовте безкоштовну консультацію, щоб перевірити вашу відповідність вимогам та обговорити можливості.
+## Замовте безкоштовну консультацію, щоб перевірити вашу відповідність вимогам та обговорити можливі варіанти.
 
 <video  autoplay muted playsinline style="padding: 24px" >
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Отримати безкоштовну консультацію" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="Поговорити з експертом" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Імміграція в ОАЕ' },

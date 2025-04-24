@@ -7,12 +7,12 @@ showSponsors: false
 hero:
   name: "EAU: Seu Porto Seguro Financeiro"
   # text: We speak your tongue
-  tagline: "Suporte Empresarial Completo: Abertura de Empresa, Vistos, Serviços Bancários. <span class='hl'>Sem sucesso — sem cobrança</span>."
+  tagline: "Suporte Empresarial Completo: Abertura de Empresa, Vistos, Serviços Bancários. <span class='hl'>Sem sucesso — sem taxa</span>."
 
   actions:
     - theme: brand
-      text: Obter Consultoria Gratuita
-      link: /resources/contacts
+      text: Fale com um especialista
+      link: /chat
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -29,7 +29,7 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Guia de Abertura de Empresa',
-    details: 'Guia completo para abrir empresas na **Free Zone, offshore, mainland, branch**.',
+    details: 'Guia completo para abrir empresas na **Free Zone, offshore, mainland, filial**.',
     items: [
       '100% de Propriedade Estrangeira disponível em Free Zones e Mainland',
       'Baixas Taxas de Impostos - apenas 9% de imposto corporativo',
@@ -235,9 +235,9 @@ Sim, a maioria das entidades necessitará de demonstrações financeiras auditad
 
 O Imposto de Renda Corporativo (CIT) foi implementado nos EAU com uma taxa padrão de 9%. Além disso, dependendo do volume e natureza do negócio, algumas empresas são sujeitas a VAT (5%) e/ou taxas alfandegárias. Indústrias específicas, como petróleo e gás e filiais de bancos estrangeiros, podem ter considerações ou isenções fiscais especiais.
 
-**Uma empresa dos EAU precisa enviar declaração fiscal anual e/ou demonstração financeira?**
+**Uma empresa dos EAU precisa apresentar declaração fiscal anual e/ou demonstração financeira?**
 
-Sim, todas as empresas nos EAU são obrigadas a enviar contas auditadas anuais ao governo.
+Sim, todas as empresas nos EAU são obrigadas a apresentar contas auditadas anuais ao governo.
 
 ### Soluções Bancárias
 
@@ -269,4 +269,4 @@ As permissões de residência empresarial dos EAU são tipicamente emitidas por 
 
 :::
 
-<ContactFormModalNav buttonText="Obtenha uma consulta gratuita" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="Fale com um especialista" formStyle="display: block; margin: 3rem auto;"/>

@@ -106,7 +106,7 @@ hero:
   {
     icon: '🏢',
     title: 'Chuyên Môn Tại UAE',
-    text: 'Các chuyên gia tận tâm tại Dubai cung cấp hướng dẫn chuyên nghiệp trong suốt quá trình thực hiện.'
+    text: 'Các chuyên gia tận tâm tại Dubai cung cấp hướng dẫn chuyên nghiệp trong từng bước của quy trình.'
   },
   {
     icon: '📊',
@@ -126,7 +126,7 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Nhận tư vấn miễn phí" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="Trao đổi với chuyên gia" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Di trú UAE' },

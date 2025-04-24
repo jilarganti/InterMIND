@@ -122,7 +122,7 @@ hero:
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Получить бесплатную консультацию" formStyle="display: block; margin: 1rem auto;"/>
+<ContactFormModalNav buttonText="Поговорить с экспертом" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Иммиграция в ОАЭ' },

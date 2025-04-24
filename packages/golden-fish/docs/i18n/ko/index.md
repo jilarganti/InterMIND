@@ -11,8 +11,8 @@ hero:
 
   actions:
     - theme: brand
-      text: 무료 상담 받기
-      link: /resources/contacts
+      text: 전문가와 상담하기
+      link: /chat
     # - theme: alt
     #   text: Support 24/7
     #   link: ./resources/contacts
@@ -35,7 +35,7 @@ hero:
       '낮은 세율 - 9% 법인세만 적용',
       '환율 통제 없음 - 자본 본국 송금 용이'
     ],
-    linkText: '자세히 알아보기',
+    linkText: '자세히 보기',
     link: '/uae-business/offer/company-registration/',
     icon: {
       light: '/img/iStock-2051326997.avif',
@@ -45,13 +45,13 @@ hero:
   },
   {
     title: '은행 계좌 개설',
-    details: 'UAE 신뢰할 수 있는 은행에서 비즈니스 또는 개인 계좌를 쉽게 개설하세요.',
+    details: 'UAE 신뢰할 수 있는 은행에서 기업 또는 개인 계좌를 쉽게 개설하세요.',
     items: [
       '정부 승인을 위한 종합 PRO 서비스',
       '완벽한 은행 패키지 설정',
       '**96% 성공률**',
     ],
-    linkText: '자세히 알아보기',
+    linkText: '자세히 보기',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
@@ -67,7 +67,7 @@ hero:
       '자격 조건 유지 시 10년 유효 및 갱신 옵션',
       '92% 성공률',
     ],
-    linkText: '자세히 알아보기',
+    linkText: '자세히 보기',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
@@ -82,7 +82,7 @@ hero:
     title: '규정 준수 서비스',
     details: '전문가들이 ESR 보고서와 UBO 신고를 포함한 복잡한 UAE 규제 요건을 안내해 드립니다.',
     items: [],
-    linkText: '자세히 알아보기',
+    linkText: '자세히 보기',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -94,7 +94,7 @@ hero:
     title: '법인세 및 부가가치세',
     details: '연방세무청(FTA)의 법인세 및 부가가치세 의무를 준수하도록 전문가 조언 제공.',
     items: [],
-    linkText: '자세히 알아보기',
+    linkText: '자세히 보기',
     link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -106,7 +106,7 @@ hero:
     title: '법률 서비스',
     details: 'M&A, 기업 구조조정, 자금 조달 및 분쟁 해결에 관한 UAE 법률 자문.',
     items: [],
-    linkText: '자세히 알아보기',
+    linkText: '자세히 보기',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -118,7 +118,7 @@ hero:
     title: '회계 및 급여',
     details: '회계사들이 장부 기장, 조정, 급여, 감사 지원을 제공하여 채용 비용을 절감합니다.',
     items: [],
-    linkText: '자세히 알아보기',
+    linkText: '자세히 보기',
     link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
@@ -134,17 +134,17 @@ hero:
   {
     icon: '🏢',
     title: 'UAE 현지 전문성',
-    text: '두바이 현지 전문가들이 모든 절차를 전문적으로 안내해드립니다.'
+    text: '두바이의 전담 전문가들이 모든 과정을 전문적으로 안내해드립니다.'
   },
   {
     icon: '📊',
     title: '입증된 성공률',
-    text: '프리미엄 처리를 통해 수백 건의 비자, 은행 계좌, 회사 등록에서 90% 이상의 승인률을 기록했습니다.'
+    text: '프리미엄 처리를 통해 발급된 수백 건의 비자, 은행 계좌, 회사 등록에서 90% 이상의 승인률을 기록했습니다.'
   },
   {
     icon: '💸',
     title: '**성공 기반 수수료**',
-    text: '[승인 후에만 비용 지불](/uae-business/benefits/success-based-fees). 숨겨진 비용 없는 완벽한 투명성.'
+    text: '[승인 후에만 지불](/uae-business/benefits/success-based-fees). 숨겨진 비용 없는 완벽한 투명성.'
   },
 ]" />
 
@@ -166,7 +166,7 @@ hero:
 
 **UAE free trade zone에서 회사를 어떻게 등록하나요?**
 
-UAE에서 프리존 법인 설립을 위해 Golden Fish는 다음과 같은 절차를 진행합니다:
+UAE에서 free zone 법인 설립을 위해 Golden Fish는 다음과 같은 절차를 진행합니다:
 
 1. 관련 당국으로부터 필요한 허가 취득
 2. 회사명 예약
@@ -211,7 +211,7 @@ UAE 역외 회사 설립에는 1명의 주주만 필요합니다.
 
 **UAE에서 회사를 설립하기 위해 방문해야 하나요?**
 
-아니요, Golden Fish는 귀하가 직접 방문하지 않아도 법적으로 UAE 회사 설립이 가능합니다.
+아니요, Golden Fish는 귀하가 직접 방문하지 않아도 합법적으로 UAE 회사를 설립할 수 있습니다.
 
 **회사를 위한 사업장을 임대해야 하나요?**
 
@@ -219,7 +219,7 @@ UAE 역외 회사 설립에는 1명의 주주만 필요합니다.
 
 | 회사 유형 | 사무실 요구사항 |
 | ----------------- | --------------------------------------------------------------------------------------- |
-| Free Zone 회사 | 설립 전 사무실 또는 플렉시데스크 임대 계약이 필요합니다. |
+| Free Zone 회사 | 설립 전 사무실 또는 플렉시 데스크 임대 계약이 필요합니다. |
 | Mainland 회사 | 가상 또는 등록된 주소만 필요합니다. |
 | Offshore 회사 | 가상 또는 등록된 주소만 필요합니다. |
 
@@ -237,7 +237,7 @@ UAE에서는 9%의 표준 법인세(CIT)가 도입되었습니다. 또한 사업
 
 **UAE 회사는 연간 세금 신고서 및/또는 재무제표를 제출해야 하나요?**
 
-네, UAE의 모든 회사는 정부에 연간 감사된 회계보고서를 제출해야 합니다.
+네, UAE의 모든 회사는 정부에 연간 감사된 회계를 제출해야 합니다.
 
 ### 은행 솔루션
 
@@ -255,11 +255,11 @@ Golden Fish는 다음과 같은 UAE 현지 은행 옵션을 추천합니다:
 
 **UAE에서 역외 은행 계좌를 어떻게 개설하나요?**
 
-UAE에서 역외 은행 계좌를 개설하기 위해 현지 회사를 등록할 필요는 없습니다. 그러나 KYC 절차는 거주 회사의 은행 계좌 개설보다 더 엄격할 것입니다. 공증 서류도 필요합니다. 자세한 정보는 [UAE 회사를 위한 은행 계좌 개설 가이드](./uae-business/company-registration/banking)를 참조하시기 바랍니다.
+UAE에서 역외 은행 계좌를 개설하기 위해 현지 회사를 등록할 필요는 없습니다. 그러나 KYC 절차는 거주 회사의 은행 계좌 개설보다 더 엄격할 것입니다. 공증 서류도 필요합니다. 자세한 정보는 [UAE 회사를 위한 은행 계좌 개설 가이드](./uae-business/company-registration/banking)를 참조하세요.
 
 **Golden Fish가 UAE에서 이슬람 은행 서비스를 지원할 수 있나요?**
 
-네, Golden Fish는 고객의 이슬람 은행 업무를 지원할 수 있습니다.
+네, Golden Fish는 고객의 이슬람 은행 요구사항을 지원할 수 있습니다.
 
 ### 비자 및 거주
 
@@ -269,4 +269,4 @@ UAE 사업 거주 허가는 일반적으로 2~3년 동안 발급됩니다.
 
 :::
 
-<ContactFormModalNav buttonText="무료 상담 받기" formStyle="display: block; margin: 3rem auto;"/>
+<ContactFormModalNav buttonText="전문가와 상담하기" formStyle="display: block; margin: 3rem auto;"/>
