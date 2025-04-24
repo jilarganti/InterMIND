@@ -3,8 +3,6 @@ import markdownItFootnote from "markdown-it-footnote"
 import { fileURLToPath, URL } from "node:url"
 import { gtmHead } from "./gtm.config"
 import llmstxt from "vitepress-plugin-llms"
-import fs from "node:fs"
-import path from "node:path"
 
 const hostUrl = "https://goldenfish.ae"
 const NOINDEX_PAGES = ["company-registration/fees-timelines", "include/recommended-banks", "test", "chat"]

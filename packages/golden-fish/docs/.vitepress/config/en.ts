@@ -36,6 +36,9 @@ export const en = defineConfig({
       message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Privacy Settings</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Privacy Policy</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Legal Regulations for AI Services</a>`,
     },
 
+    localization: {
+      placeholder4SearchInput: "Quick search...",
+    },
     contact_form: {
       name: "Name *",
       namePlaceholder: "your name",
