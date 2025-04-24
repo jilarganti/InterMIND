@@ -7,15 +7,12 @@ showSponsors: false
 hero:
   name: "UAE: Your Financial Safe Harbor"
   # text: We speak your tongue
-  tagline: "Full Business Support: Company Setup, Visas, Banking. <span class='hl'>No success — no fee</span>."
-
+  tagline: "5-minute expert consultation: Discover how to setup your UAE business <span class='hl'>risk-free</span>"
+  # tagline: "5 minutes with our expert = Your complete UAE business roadmap"
   actions:
     - theme: brand
-      text: Chat to an expert
+      text: Instant expert chat
       link: /chat
-    # - theme: alt
-    #   text: Support 24/7
-    #   link: ./resources/contacts
   image:
     light:
       src: /img/Logo.avif
@@ -26,56 +23,41 @@ hero:
     alt: Golden Fish logo
 ---
 
-<FeatureCards :features="[
-  {
-    title: 'Company Setup Guide',
-    details: 'Complete guide to setup companies in the **free zone, offshore, mainland, branch**.',
-    items: [
-      '100% Foreign Ownership available in Free Zones and Mainland',
-      'Low Tax Rates - only 9% corporate tax',
-      'No Currency Controls - easy capital repatriation'
-    ],
-    linkText: 'Learn more',
-    link: '/uae-business/offer/company-registration/',
-    icon: {
-      light: '/img/iStock-2051326997.avif',
-      dark: '/img/iStock-1448478309.jpg',
-      alt: 'Company Setup Guide'
-    }
+<FeatureBlock :card="{
+  title: 'Company Setup Guide',
+  details: 'Complete guide to setup companies in the **free zone, offshore, mainland, branch**. \n\n* 100% Foreign Ownership available in Free Zones and Mainland\n* Low Tax Rates - only 9% corporate tax\n* No Currency Controls - easy capital repatriation\n\n[Learn more](/uae-business/offer/company-registration/)',
+  link: '/uae-business/offer/company-registration/',
+  src: {
+    light: '/img/iStock-2051326997.avif',
+    dark: '/img/iStock-1448478309.jpg',
+    width: '100%'
   },
-  {
-    title: 'Bank Account Opening',
-    details: 'Easily open business or personal bank accounts with the UAE\'s trusted banks.',
-    items: [
-      'End-to-end PRO services for government approvals',
-      'Complete banking package setup',
-      '**96% success rate**',
-    ],
-    linkText: 'Learn more',
-    link: '/uae-business/offer/banking/',
-    icon: {
-      light: '/img/iStock-2153786564.avif',
-      dark: '/img/iStock-2166793628.avif',
-      alt: 'Banking Services'
-    }
+  inversion: false
+}" />
+
+<FeatureBlock :card="{
+  title: 'Banking Solutions',
+  details: 'Easily open business or personal bank accounts with the UAE\'s trusted banks. \n\n* End-to-end PRO services for government approvals\n* Complete banking package setup\n* **96% success rate**\n\n[Learn more](/uae-business/offer/banking/)',
+  link: '/uae-business/offer/banking/',
+  src: {
+    light: '/img/iStock-2153786564.avif',
+    dark: '/img/iStock-2166793628.avif',
+    width: '100%'
   },
-  {
-    title: 'Golden Visa & Residency',
-    details: 'Obtain a UAE **Golden Visa** for long-term residency with a seamless application process.',
-    items: [
-      '**No need to enter UAE every 6 months**',
-      '10-year validity with the option for renewal upon maintaining qualifying conditions',
-      '92% success rate',
-    ],
-    linkText: 'Learn more',
-    link: '/uae-business/offer/golden-visa/',
-    icon: {
-      light: '/img/iStock-1312241253.avif',
-      dark: '/img/ILONMASKID.webp',
-      alt: 'Visa Services'
-    }
+  inversion: true
+}" />
+
+<FeatureBlock :card="{
+  title: 'Golden Visa & Residency',
+  details: 'Obtain a UAE **Golden Visa** for long-term residency with a seamless application process. \n\n* **No need to enter UAE every 6 months**\n* 10-year validity with the option for renewal upon maintaining qualifying conditions\n* 92% success rate\n\n[Learn more](/uae-business/offer/golden-visa/)',
+  link: '/uae-business/offer/golden-visa/',
+  src: {
+    light: '/img/iStock-1312241253.avif',
+    dark: '/img/ILONMASKID.webp',
+    width: '100%'
   },
-]" />
+  inversion: false
+}" />
 
 <FeatureCards :features="[
   {
@@ -147,6 +129,14 @@ hero:
     text: '[Pay only after approval](/uae-business/benefits/success-based-fees). Complete transparency with no hidden costs.'
   },
 ]" />
+
+## Book a free consultation to check your eligibility and discuss your options.
+
+<video autoplay muted playsinline style="padding: 24px">
+  <source src="/img/iStock-2185906461.mp4" type="video/mp4">
+</video>
+
+<ContactFormModalNav buttonText="Speak to an expert" formStyle="display: block; margin: 1rem auto;"/>
 
 ## FAQ
 
@@ -268,5 +258,3 @@ Yes, Golden Fish can assist clients with their Islamic banking needs.
 UAE business residence permits are typically issued for 2 to 3 years.
 
 :::
-
-<ContactFormModalNav buttonText="Speak to an expert" formStyle="display: block; margin: 3rem auto;"/>

@@ -29,7 +29,7 @@ export default {
       // Для мобильных (в выпадающем меню)
       "nav-screen-content-after": () =>
         h("div", { class: "auth-buttons-container mobile-buttons" }, [
-          h(NavButton, { buttonLabel: "Chat to an expert", to: "/chat" }),
+          h(NavButton, { buttonLabel: "Instant expert chat", to: "/chat" }),
           // h(NavButton, { buttonLabel: "Ask AI", buttonClass: "alt", to: "/chat" }),
           // h(ContactFormModalNav, { buttonText: "Send request" }),
         ]),
@@ -37,7 +37,7 @@ export default {
       "doc-footer-before": () =>
         h("div", { class: "auth-buttons-container" }, [
           // h(ContactFormModalNav, { buttonText: "Speak to an expert" }),
-          h(NavButton, { buttonLabel: "Chat to an expert", to: "/chat" }),
+          h(NavButton, { buttonLabel: "Instant expert chat", to: "/chat" }),
         ]),
     })
   },

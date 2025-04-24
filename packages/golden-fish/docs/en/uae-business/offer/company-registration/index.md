@@ -10,7 +10,7 @@ hero:
   tagline: "Invest in your business with confidence: we only get paid after successful company registration. <span class='hl'>Your success is our only goal</span>."
   actions:
     - theme: brand
-      text: Chat to an expert
+      text: Instant expert chat
       link: /chat
   image:
     light:
