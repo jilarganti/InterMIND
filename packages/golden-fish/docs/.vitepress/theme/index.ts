@@ -27,18 +27,25 @@ export default {
           // h(ContactFormModalNav, { buttonText: "Send request" }),
         ]),
       // Для мобильных (в выпадающем меню)
-      "nav-screen-content-after": () =>
-        h("div", { class: "auth-buttons-container mobile-buttons" }, [
-          h(NavButton, { buttonLabel: "Instant expert chat", to: "/chat" }),
+      "nav-screen-content-after": () => {
+        const { site } = useData()
+        const buttonLabel = site.value.themeConfig.localization.buttonLabel4NavButton
+        return h("div", { class: "auth-buttons-container" }, [
+          h(NavButton, { buttonLabel: buttonLabel, to: "/chat" }),
           // h(NavButton, { buttonLabel: "Ask AI", buttonClass: "alt", to: "/chat" }),
           // h(ContactFormModalNav, { buttonText: "Send request" }),
-        ]),
+        ])
+      },
       // Для обычных страниц (внизу страницы)
-      "doc-footer-before": () =>
-        h("div", { class: "auth-buttons-container" }, [
-          // h(ContactFormModalNav, { buttonText: "Speak to an expert" }),
-          h(NavButton, { buttonLabel: "Instant expert chat", to: "/chat" }),
-        ]),
+      "doc-footer-before": () => {
+        const { site } = useData()
+        const buttonLabel = site.value.themeConfig.localization.buttonLabel4NavButton
+        return h("div", { class: "auth-buttons-container mobile-buttons" }, [
+          h(NavButton, { buttonLabel: buttonLabel, to: "/chat" }),
+          // h(NavButton, { buttonLabel: "Ask AI", buttonClass: "alt", to: "/chat" }),
+          // h(ContactFormModalNav, { buttonText: "Send request" }),
+        ])
+      },
     })
   },
 }
