@@ -3,20 +3,20 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/hi"
 
 export const hi = defineConfig({
-  description: "यूएई में विशेषज्ञ कंपनी स्थापना और सहायता सेवाएं। कंपनी सेटअप, बैंकिंग, कर, कानूनी और वीजा समाधान। आपके व्यवसायिक सपनों को साकार करना!",
+  description: "यूएई में कंपनी स्थापना और सहायता सेवाओं में विशेषज्ञ। कंपनी सेटअप, बैंकिंग, कर, कानूनी और वीजा समाधान। आपके व्यापार सपनों को साकार करना!",
   head: [
-    ["meta", { property: "og:title", content: "यूएई में विशेषज्ञ कंपनी स्थापना और सहायता सेवाएं। कंपनी सेटअप, बैंकिंग, कर, कानूनी और वीजा समाधान।" }],
+    ["meta", { property: "og:title", content: "यूएई में कंपनी स्थापना और सहायता सेवाओं में विशेषज्ञ। कंपनी सेटअप, बैंकिंग, कर, कानूनी और वीजा समाधान।" }],
   ],
 
   themeConfig: {
     nav: [
       {
-        text: "सेवाएं",
+        text: "सेवाएँ",
         activeMatch: `${BASE_PATH}/company-registration/`,
         items: [
           { text: "कंपनी पंजीकरण", link: `${BASE_PATH}/uae-business/company-registration/overview` },
           { text: "बैंकिंग समाधान", link: `${BASE_PATH}/uae-business/company-registration/banking` },
-          { text: "प्रवास", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
+          { text: "प्रवासन", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
         ],
       },
       {
@@ -29,6 +29,7 @@ export const hi = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      // [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
@@ -37,6 +38,7 @@ export const hi = defineConfig({
 
     localization: {
       placeholder4SearchInput: "त्वरित खोज...",
+      buttonLabel4NavButton: "तत्काल विशेषज्ञ चैट",
     },
     contact_form: {
       name: "नाम *",
@@ -44,26 +46,27 @@ export const hi = defineConfig({
       email: "ईमेल *",
       emailPlaceholder: "आपका ईमेल पता",
       phone: "फोन *",
-      phonePlaceholder: "उदाहरण, +1 1234567890 या (1) 123 456-7890",
+      phonePlaceholder: "उदा., +1 1234567890 या (1) 123 456-7890",
       phoneError: "कृपया फोन नंबर दर्ज करें",
       category: "हम आपकी कैसे मदद कर सकते हैं? *",
       categoryPlaceholder: "सेवा प्रकार चुनें",
-      message: "आइए आपके लक्ष्यों पर चर्चा करें (वैकल्पिक)",
+      message: "आपके लक्ष्यों पर चर्चा करें (वैकल्पिक)",
       messagePlaceholder: "कृपया अपनी पूछताछ का विवरण साझा करें ताकि हम आपकी जरूरतों के लिए सर्वोत्तम समाधान तैयार कर सकें",
-      submit: "अनुरोध भेजें",
-      sending: "भेज रहे हैं...",
+      submit: "अनुरोध जमा करें",
+      sending: "भेजा जा रहा है...",
       successTitle: "धन्यवाद!",
-      successMessage: "आपकी रुचि के लिए हम बहुत आभारी हैं! हमारी टीम आपकी जरूरतों पर चर्चा करने के लिए जल्द ही आपसे संपर्क करेगी।",
+      successMessage: "हम आपकी रुचि की सराहना करते हैं! हमारी टीम जल्द ही आपसे संपर्क करेगी और आपकी जरूरतों पर चर्चा करेगी।",
       defaultCategories: [
         "नई कंपनी स्थापना",
         "विस्तार योजना (जैसे नई शाखा या फ्रेंचाइजी)",
         "कंपनी स्थानांतरण",
-        "Golden Visa",
-        "केवल वीजा उद्देश्य",
+        "गोल्डन वीजा",
+        "केवल वीजा उद्देश्यों के लिए",
         "बैंक खाते खोलना",
         "अन्य सेवाएं",
       ],
       defaultButtonText: "हमें संदेश भेजें",
+      // defaultButtonText: "निःशुल्क परामर्श प्राप्त करें",
     },
   },
 })
@@ -71,33 +74,34 @@ export const hi = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "यूएई व्यवसाय सारांश",
+      text: "यूएई व्यापार सारांश",
+      // collapsed: false,
       items: [
         { text: "कंपनी पंजीकरण", link: "company-registration/overview" },
-        { text: "फायदे और नुकसान", link: "company-registration/benefits-problems" },
+        { text: "पेशेवर और विपक्ष", link: "company-registration/benefits-problems" },
         { text: "कॉर्पोरेट बैंकिंग समाधान", link: "company-registration/banking" },
-        { text: "Golden Visa", link: "company-registration//golden-visa" },
+        { text: "गोल्डन वीजा", link: "company-registration//golden-visa" },
         { text: "वीजा और EID", link: "company-registration/employment-visas" },
-        { text: "शुल्क और समय सीमा", link: "company-registration/fees-timelines" },
-        { text: "सफलता के बाद ही भुगतान", link: "benefits/success-based-fees" },
+        { text: "शुल्क और समयसीमा", link: "company-registration/fees-timelines" },
+        { text: "सफलता के बाद ही भुगतान करें", link: "benefits/success-based-fees" },
       ],
     },
     {
       text: "यूएई कॉर्पोरेट संरचनाएं",
       collapsed: false,
       items: [
-        { text: "कंपनी पंजीकरण के चरण", link: "company-registration/insights/incorporation-steps" },
-        { text: "UAE free zones", link: "company-registration/free-zones" },
-        { text: "UAE mainland", link: "company-registration/mainland" },
+        { text: "कंपनी पंजीकरण कदम", link: "company-registration/insights/incorporation-steps" },
+        { text: "यूएई फ्री जोन्स", link: "company-registration/free-zones" },
+        { text: "यूएई मेनलैंड", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "यूएई व्यवसाय अनुपालन गारंटीकृत",
+      text: "यूएई व्यापार अनुपालन गारंटीड",
       collapsed: false,
       items: [
-        { text: "गारंटीकृत कॉर्पोरेट बैंक खाता स्वीकृतियां", link: "corporate-banking-services/guaranteed-account-approvals" },
-        { text: "उच्च जोखिम वाले व्यवसाय के लिए बैंक खाते", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "अपने व्यवसाय को अनुपालन और सुरक्षित रखें", link: "company-registration/Protect-Your-Business" },
+        { text: "गारंटीड कॉर्पोरेट बैंक खाता मंजूरी", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "उच्च-जोखिम व्यापार के लिए बैंक खाते", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
+        { text: "अपने व्यापार को अनुपालन और सुरक्षित रखें", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -109,11 +113,11 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "तुलनाएं",
+      text: "तुलनाएँ",
       collapsed: false,
       items: [
-        { text: "Mainland बनाम free zones", link: "comparison/mainland-vs-free-zones" },
-        { text: "यूएई संस्थाओं की तुलना", link: "comparison/entity-types" },
+        { text: "मेनलैंड बनाम फ्री जोन्स", link: "comparison/mainland-vs-free-zones" },
+        { text: "यूएई संस्थाएँ तुलना", link: "comparison/entity-types" },
       ],
     },
   ]
@@ -127,3 +131,7 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
     { text: "एआई सेवाओं के लिए कानूनी नियम", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
+
+// function sidebarContactUs(): DefaultTheme.SidebarItem[] {
+//   return [{ text: "संपर्क", link: `contacts` }]
+// }

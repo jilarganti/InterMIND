@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description: "خدمات تأسيس الشركات والدعم في الإمارات العربية المتحدة من قبل خبراء. إعداد الشركة، الحلول المصرفية، الضرائب، الخدمات القانونية والتأشيرات. نحقق أحلامك التجارية إلى واقع!",
+  description: "خبراء في تأسيس الشركات وخدمات الدعم في الإمارات. إعداد الشركة، الحلول المصرفية، الضرائب، الخدمات القانونية وحلول التأشيرات. نحول أحلامك التجارية إلى واقع!",
   head: [
-    ["meta", { property: "og:title", content: "خدمات تأسيس الشركات والدعم في الإمارات العربية المتحدة من قبل خبراء. إعداد الشركة، الحلول المصرفية، الضرائب، الخدمات القانونية والتأشيرات." }],
+    ["meta", { property: "og:title", content: "خبراء في تأسيس الشركات وخدمات الدعم في الإمارات. إعداد الشركة، الحلول المصرفية، الضرائب، الخدمات القانونية وحلول التأشيرات." }],
   ],
 
   themeConfig: {
@@ -14,7 +14,7 @@ export const ar = defineConfig({
         text: "الخدمات",
         activeMatch: `${BASE_PATH}/company-registration/`,
         items: [
-          { text: "تسجيل الشركة", link: `${BASE_PATH}/uae-business/company-registration/overview` },
+          { text: "تسجيل الشركات", link: `${BASE_PATH}/uae-business/company-registration/overview` },
           { text: "الحلول المصرفية", link: `${BASE_PATH}/uae-business/company-registration/banking` },
           { text: "الهجرة", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
         ],
@@ -38,6 +38,7 @@ export const ar = defineConfig({
 
     localization: {
       placeholder4SearchInput: "بحث سريع...",
+      buttonLabel4NavButton: "دردشة فورية مع الخبراء",
     },
     contact_form: {
       name: "الاسم *",
@@ -54,14 +55,14 @@ export const ar = defineConfig({
       submit: "إرسال الطلب",
       sending: "جاري الإرسال...",
       successTitle: "شكرًا لك!",
-      successMessage: "نقدر اهتمامك بشكل كبير! سيتواصل فريقنا معك قريبًا لمناقشة احتياجاتك.",
+      successMessage: "نقدر اهتمامك كثيرًا! سيتواصل فريقنا معك قريبًا لمناقشة احتياجاتك.",
       defaultCategories: [
         "تأسيس شركة جديدة",
         "خطة التوسع (مثل فرع جديد أو امتياز)",
         "نقل الشركة",
         "التأشيرة الذهبية",
         "التأشيرات لأغراض الزيارة فقط",
-        "فتح حسابات مصرفية",
+        "فتح حسابات بنكية",
         "خدمات أخرى",
       ],
       defaultButtonText: "أرسل لنا رسالة",
@@ -76,7 +77,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "ملخص الأعمال في الإمارات",
       // collapsed: false,
       items: [
-        { text: "تسجيل الشركة", link: "company-registration/overview" },
+        { text: "تسجيل الشركات", link: "company-registration/overview" },
         { text: "الإيجابيات والسلبيات", link: "company-registration/benefits-problems" },
         { text: "حلول الخدمات المصرفية للشركات", link: "company-registration/banking" },
         { text: "التأشيرة الذهبية", link: "company-registration//golden-visa" },
@@ -90,21 +91,21 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "خطوات تسجيل الشركة", link: "company-registration/insights/incorporation-steps" },
-        { text: "المناطق الحرة في الإمارات", link: "company-registration/free-zones" },
-        { text: "البر الرئيسي في الإمارات", link: "company-registration/mainland" },
+        { text: "مناطق الإمارات الحرة", link: "company-registration/free-zones" },
+        { text: "الإمارات البر الرئيسي", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "ضمان الامتثال التجاري في الإمارات",
+      text: "الامتثال التجاري في الإمارات مضمون",
       collapsed: false,
       items: [
-        { text: "ضمان الموافقة على الحسابات المصرفية للشركات", link: "corporate-banking-services/guaranteed-account-approvals" },
-        { text: "حسابات مصرفية للأعمال عالية المخاطر", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "حافظ على امتثال وحماية عملك التجاري", link: "company-registration/Protect-Your-Business" },
+        { text: "ضمان الموافقة على الحسابات البنكية للشركات", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "حسابات بنكية للأعمال عالية المخاطر", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
+        { text: "حافظ على امتثال وحماية عملك", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
-      text: "القانونية والمحاسبة والضرائب",
+      text: "القانوني والمحاسبة والضرائب",
       collapsed: false,
       items: [
         { text: "الاعتبارات المحاسبية والضريبية", link: "company-registration/accounting-legal" },
@@ -132,5 +133,5 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
 }
 
 // function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-//   return [{ text: "الاتصال", link: `contacts` }]
+//   return [{ text: "Contacts", link: `contacts` }]
 // }

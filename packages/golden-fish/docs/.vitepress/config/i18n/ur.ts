@@ -33,11 +33,12 @@ export const ur = defineConfig({
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">پرائیویسی سیٹنگز</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">پرائیویسی پالیسی</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI خدمات کے لیے قانونی ضوابط</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">رازداری کی ترتیبات</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">رازداری کی پالیسی</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI خدمات کے لیے قانونی ضوابط</a>`,
     },
 
     localization: {
       placeholder4SearchInput: "فوری تلاش...",
+      buttonLabel4NavButton: "فوری ماہر چیٹ",
     },
     contact_form: {
       name: "نام *",
@@ -57,7 +58,7 @@ export const ur = defineConfig({
       successMessage: "ہم آپ کی دلچسپی کی بہت قدر کرتے ہیں! ہماری ٹیم جلد ہی آپ سے رابطہ کرے گی تاکہ آپ کی ضروریات پر بات چیت کی جا سکے۔",
       defaultCategories: [
         "نئی کمپنی کی تشکیل",
-        "توسیع کا منصوبہ (مثلاً نیا شاخ یا فرنچائز)",
+        "توسیع کا منصوبہ (یعنی نیا شاخ یا فرنچائز)",
         "کمپنی کی منتقلی",
         "گولڈن ویزا",
         "صرف ویزا کے مقاصد",
@@ -81,7 +82,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "کارپوریٹ بینکنگ حل", link: "company-registration/banking" },
         { text: "گولڈن ویزا", link: "company-registration//golden-visa" },
         { text: "ویزا اور EID", link: "company-registration/employment-visas" },
-        { text: "فیس اور ٹائم لائنز", link: "company-registration/fees-timelines" },
+        { text: "فیس اور وقت کی حدود", link: "company-registration/fees-timelines" },
         { text: "کامیابی کے بعد ہی ادائیگی", link: "benefits/success-based-fees" },
       ],
     },
@@ -98,9 +99,9 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "امارات کاروبار کی تعمیل کی ضمانت",
       collapsed: false,
       items: [
-        { text: "کارپوریٹ بینک اکاؤنٹ منظوریوں کی ضمانت", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "کارپوریٹ بینک اکاؤنٹ کی منظوری کی ضمانت", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "ہائی رسک کاروبار کے لیے بینک اکاؤنٹس", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "اپنے کاروبار کو مطابقت پذیر اور محفوظ رکھیں", link: "company-registration/Protect-Your-Business" },
+        { text: "اپنے کاروبار کو محفوظ اور مطابقت پذیر رکھیں", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -126,7 +127,7 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
     { text: "ہمارے بارے میں", link: "about" },
     { text: "رابطہ", link: "contacts" },
-    { text: "پرائیویسی پالیسی", link: "Privacy-Policy" },
+    { text: "رازداری کی پالیسی", link: "Privacy-Policy" },
     { text: "AI خدمات کے لیے قانونی ضوابط", link: "Legal-Regulations-for-AI-Services" },
   ]
 }

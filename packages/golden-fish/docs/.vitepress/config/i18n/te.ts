@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/te"
 
 export const te = defineConfig({
-  description: "నిపుణులైన యుఏఈ కంపెనీ ఏర్పాటు మరియు మద్దతు సేవలు. కంపెనీ సెటప్, బ్యాంకింగ్, పన్ను, చట్టం మరియు వీసా పరిష్కారాలు. మీ వ్యాపార కలలను నిజం చేస్తున్నాము!",
+  description: "నిపుణులైన UAE కంపెనీ ఏర్పాటు మరియు మద్దతు సేవలు. కంపెనీ సెటప్, బ్యాంకింగ్, పన్ను, చట్టం మరియు వీసా పరిష్కారాలు. మీ వ్యాపార కలలను నిజం చేస్తున్నాము!",
   head: [
-    ["meta", { property: "og:title", content: "నిపుణులైన యుఏఈ కంపెనీ ఏర్పాటు మరియు మద్దతు సేవలు. కంపెనీ సెటప్, బ్యాంకింగ్, పన్ను, చట్టం మరియు వీసా పరిష్కారాలు." }],
+    ["meta", { property: "og:title", content: "నిపుణులైన UAE కంపెనీ ఏర్పాటు మరియు మద్దతు సేవలు. కంపెనీ సెటప్, బ్యాంకింగ్, పన్ను, చట్టం మరియు వీసా పరిష్కారాలు." }],
   ],
 
   themeConfig: {
@@ -33,11 +33,12 @@ export const te = defineConfig({
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">గోప్యతా సెట్టింగ్స్</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">గోప్యతా విధానం</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI సేవల కోసం చట్టబద్ధ నియమాలు</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">గోప్యతా సెట్టింగ్స్</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">గోప్యతా విధానం</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI సేవల కోసం చట్టబద్ధ నియమావళి</a>`,
     },
 
     localization: {
       placeholder4SearchInput: "త్వరిత అన్వేషణ...",
+      buttonLabel4NavButton: "తక్షణ నిపుణుడి చాట్",
     },
     contact_form: {
       name: "పేరు *",
@@ -73,7 +74,7 @@ export const te = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "యుఏఈ వ్యాపార సారాంశం",
+      text: "UAE వ్యాపార సారాంశం",
       // collapsed: false,
       items: [
         { text: "కంపెనీ నమోదు", link: "company-registration/overview" },
@@ -86,16 +87,16 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "యుఏఈ కార్పొరేట్ నిర్మాణాలు",
+      text: "UAE కార్పొరేట్ నిర్మాణాలు",
       collapsed: false,
       items: [
         { text: "కంపెనీ నమోదు దశలు", link: "company-registration/insights/incorporation-steps" },
-        { text: "యుఏఈ ఫ్రీ జోన్స్", link: "company-registration/free-zones" },
-        { text: "యుఏఈ మెయిన్ల్యాండ్", link: "company-registration/mainland" },
+        { text: "UAE ఫ్రీ జోన్స్", link: "company-registration/free-zones" },
+        { text: "UAE మెయిన్ల్యాండ్", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "యుఏఈ వ్యాపార అనుసరణ హామీ",
+      text: "UAE వ్యాపార అనుసరణ హామీ",
       collapsed: false,
       items: [
         { text: "హామీ ఇచ్చిన కార్పొరేట్ బ్యాంక్ ఖాతా ఆమోదాలు", link: "corporate-banking-services/guaranteed-account-approvals" },
@@ -116,7 +117,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "మెయిన్ల్యాండ్ vs ఫ్రీ జోన్స్", link: "comparison/mainland-vs-free-zones" },
-        { text: "యుఏఈ సంస్థల పోలిక", link: "comparison/entity-types" },
+        { text: "UAE సంస్థల పోలిక", link: "comparison/entity-types" },
       ],
     },
   ]
@@ -127,7 +128,7 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
     { text: "మా గురించి", link: "about" },
     { text: "సంప్రదింపులు", link: "contacts" },
     { text: "గోప్యతా విధానం", link: "Privacy-Policy" },
-    { text: "AI సేవల కోసం చట్టబద్ధ నియమాలు", link: "Legal-Regulations-for-AI-Services" },
+    { text: "AI సేవల కోసం చట్టబద్ధ నియమావళి", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
 

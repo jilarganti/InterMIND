@@ -3,7 +3,7 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/bn"
 
 export const bn = defineConfig({
-  description: "দক্ষ ইউএই কোম্পানি গঠন এবং সমর্থন সেবা। কোম্পানি সেটআপ, ব্যাংকিং, ট্যাক্স, আইনি এবং ভিসা সমাধান। আপনার ব্যবসায়িক স্বপ্নকে বাস্তবে রূপ দিচ্ছি!",
+  description: "দক্ষ ইউএই কোম্পানি গঠন এবং সমর্থন সেবা। কোম্পানি সেটআপ, ব্যাংকিং, ট্যাক্স, আইনি এবং ভিসা সমাধান। আপনার ব্যবসায়িক স্বপ্নকে বাস্তবে পরিণত করা!",
   head: [
     ["meta", { property: "og:title", content: "দক্ষ ইউএই কোম্পানি গঠন এবং সমর্থন সেবা। কোম্পানি সেটআপ, ব্যাংকিং, ট্যাক্স, আইনি এবং ভিসা সমাধান।" }],
   ],
@@ -33,11 +33,12 @@ export const bn = defineConfig({
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">গোপনীয়তা সেটিংস</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">গোপনীয়তা নীতি</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">এআই সেবার জন্য আইনি নিয়মাবলী</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">গোপনীয়তা সেটিংস</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">গোপনীয়তা নীতি</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">এআই সেবার জন্য আইনি বিধিনিষেধ</a>`,
     },
 
     localization: {
       placeholder4SearchInput: "দ্রুত অনুসন্ধান...",
+      buttonLabel4NavButton: "তাৎক্ষণিক বিশেষজ্ঞ চ্যাট",
     },
     contact_form: {
       name: "নাম *",
@@ -46,7 +47,7 @@ export const bn = defineConfig({
       emailPlaceholder: "আপনার ইমেইল ঠিকানা",
       phone: "ফোন *",
       phonePlaceholder: "উদাহরণস্বরূপ, +1 1234567890 অথবা (1) 123 456-7890",
-      phoneError: "অনুগ্রহ করে ফোন নম্বর লিখুন",
+      phoneError: "ফোন নম্বর প্রবেশ করুন",
       category: "আমরা কিভাবে আপনাকে সাহায্য করতে পারি? *",
       categoryPlaceholder: "সেবা ধরন নির্বাচন করুন",
       message: "আপনার লক্ষ্য নিয়ে আলোচনা করা যাক (ঐচ্ছিক)",
@@ -60,7 +61,7 @@ export const bn = defineConfig({
         "বিস্তার পরিকল্পনা (যেমন নতুন শাখা বা ফ্র্যাঞ্চাইজি)",
         "কোম্পানি স্থানান্তর",
         "গোল্ডেন ভিসা",
-        "শুধুমাত্র ভিসা উদ্দেশ্যে",
+        "শুধুমাত্র ভিসা উদ্দেশ্য",
         "ব্যাংক অ্যাকাউন্ট খোলা",
         "অন্যান্য সেবা",
       ],
@@ -82,7 +83,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "গোল্ডেন ভিসা", link: "company-registration//golden-visa" },
         { text: "ভিসা ও ইআইডি", link: "company-registration/employment-visas" },
         { text: "ফি এবং সময়সীমা", link: "company-registration/fees-timelines" },
-        { text: "সাফল্যের পর শুধুমাত্র পেমেন্ট", link: "benefits/success-based-fees" },
+        { text: "সাফল্যের পরে শুধুমাত্র পেমেন্ট", link: "benefits/success-based-fees" },
       ],
     },
     {
@@ -90,17 +91,17 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "কোম্পানি নিবন্ধনের ধাপসমূহ", link: "company-registration/insights/incorporation-steps" },
-        { text: "ইউএই ফ্রি জোন", link: "company-registration/free-zones" },
+        { text: "ইউএই ফ্রি জোনস", link: "company-registration/free-zones" },
         { text: "ইউএই মেইনল্যান্ড", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "ইউএই ব্যবসা অনুযায়ী নিশ্চিত কমপ্লায়েন্স",
+      text: "ইউএই ব্যবসা অনুবর্তিতা নিশ্চিত",
       collapsed: false,
       items: [
-        { text: "গ্যারান্টিড কর্পোরেট ব্যাংক অ্যাকাউন্ট অনুমোদন", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "গ্যারান্টিযুক্ত কর্পোরেট ব্যাংক অ্যাকাউন্ট অনুমোদন", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "উচ্চ-ঝুঁকি ব্যবসার জন্য ব্যাংক অ্যাকাউন্ট", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "আপনার ব্যবসাকে অনুযায়ী এবং সুরক্ষিত রাখুন", link: "company-registration/Protect-Your-Business" },
+        { text: "আপনার ব্যবসাকে অনুবর্তী এবং সুরক্ষিত রাখুন", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -115,7 +116,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "তুলনা",
       collapsed: false,
       items: [
-        { text: "মেইনল্যান্ড বনাম ফ্রি জোন", link: "comparison/mainland-vs-free-zones" },
+        { text: "মেইনল্যান্ড বনাম ফ্রি জোনস", link: "comparison/mainland-vs-free-zones" },
         { text: "ইউএই এন্টিটি তুলনা", link: "comparison/entity-types" },
       ],
     },
@@ -127,10 +128,10 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
     { text: "আমাদের সম্পর্কে", link: "about" },
     { text: "যোগাযোগ", link: "contacts" },
     { text: "গোপনীয়তা নীতি", link: "Privacy-Policy" },
-    { text: "এআই সেবার জন্য আইনি নিয়মাবলী", link: "Legal-Regulations-for-AI-Services" },
+    { text: "এআই সেবার জন্য আইনি বিধিনিষেধ", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
 
 // function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-//   return [{ text: "Contacts", link: `contacts` }]
+//   return [{ text: "যোগাযোগ", link: `contacts` }]
 // }

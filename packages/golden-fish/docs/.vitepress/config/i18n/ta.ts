@@ -37,7 +37,8 @@ export const ta = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "விரைவு தேடல்...",
+      placeholder4SearchInput: "விரைவான தேடல்...",
+      buttonLabel4NavButton: "உடனடி நிபுணர் அரட்டை",
     },
     contact_form: {
       name: "பெயர் *",
@@ -49,8 +50,8 @@ export const ta = defineConfig({
       phoneError: "தொலைபேசி எண்ணை உள்ளிடவும்",
       category: "உங்களுக்கு எவ்வாறு உதவலாம்? *",
       categoryPlaceholder: "சேவை வகையை தெரிவு செய்க",
-      message: "உங்கள் இலக்குகளை பற்றி பேசுவோம் (விருப்பத்தேர்வு)",
-      messagePlaceholder: "உங்கள் விசாரணை விவரங்களை பகிர்ந்து உங்கள் தேவைகளுக்கு சிறந்த தீர்வை தயாரிக்க உதவுங்கள்",
+      message: "உங்கள் இலக்குகளை பற்றி பேசுவோம் (விருப்பமானது)",
+      messagePlaceholder: "உங்கள் விசாரணை விவரங்களை பகிர்ந்து உங்கள் தேவைகளுக்கு சிறந்த தீர்வை தயாரிக்க எங்களுக்கு உதவுங்கள்",
       submit: "கோரிக்கையை சமர்ப்பிக்கவும்",
       sending: "அனுப்புகிறது...",
       successTitle: "நன்றி!",
@@ -61,7 +62,7 @@ export const ta = defineConfig({
         "நிறுவன மாற்றம்",
         "கோல்டன் விசா",
         "விசா நோக்கங்களுக்கு மட்டும்",
-        "வங்கி கணக்குகளை திறப்பது",
+        "வங்கி கணக்குகள் திறப்பு",
         "பிற சேவைகள்",
       ],
       defaultButtonText: "எங்களுக்கு ஒரு செய்தி அனுப்புங்கள்",
@@ -80,7 +81,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "நன்மைகள் & குறைகள்", link: "company-registration/benefits-problems" },
         { text: "கார்ப்பரேட் வங்கி தீர்வுகள்", link: "company-registration/banking" },
         { text: "கோல்டன் விசா", link: "company-registration//golden-visa" },
-        { text: "விசாக்கள் & இஇடி", link: "company-registration/employment-visas" },
+        { text: "விசாக்கள் & EID", link: "company-registration/employment-visas" },
         { text: "கட்டணங்கள் மற்றும் காலக்கெடுகள்", link: "company-registration/fees-timelines" },
         { text: "வெற்றிக்கு பின் மட்டுமே செலுத்துக", link: "benefits/success-based-fees" },
       ],
@@ -95,12 +96,12 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "யுஏஇ வணிக செம்மை உறுதி",
+      text: "யுஏஇ வணிக சீர்திருத்தம் உறுதி",
       collapsed: false,
       items: [
-        { text: "கார்ப்பரேட் வங்கி கணக்கு அனுமதிகள் உறுதி", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "உறுதியான கார்ப்பரேட் வங்கி கணக்கு அனுமதிகள்", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "உயர் அபாய வணிகத்திற்கான வங்கி கணக்குகள்", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "உங்கள் வணிகத்தை செம்மையாகவும் பாதுகாப்பாகவும் வைத்திருக்கவும்", link: "company-registration/Protect-Your-Business" },
+        { text: "உங்கள் வணிகத்தை சீர்திருத்தமாகவும் பாதுகாப்பாகவும் வைத்திருக்கவும்", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -108,7 +109,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "கணக்கியல் மற்றும் வரி கருத்துக்கள்", link: "company-registration/accounting-legal" },
-        { text: "யுபிஓ பதிவு", link: "company-registration/ubo" },
+        { text: "UBO பதிவு", link: "company-registration/ubo" },
       ],
     },
     {

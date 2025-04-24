@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/vi"
 
 export const vi = defineConfig({
-  description: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thành lập công ty, ngân hàng, thuế, pháp lý và thị thực. Biến ước mơ kinh doanh của bạn thành hiện thực!",
+  description: "Chuyên gia về thành lập công ty và dịch vụ hỗ trợ tại UAE. Thiết lập công ty, giải pháp ngân hàng, thuế, pháp lý và visa. Biến giấc mơ kinh doanh của bạn thành hiện thực!",
   head: [
-    ["meta", { property: "og:title", content: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thành lập công ty, ngân hàng, thuế, pháp lý và thị thực." }],
+    ["meta", { property: "og:title", content: "Chuyên gia về thành lập công ty và dịch vụ hỗ trợ tại UAE. Thiết lập công ty, giải pháp ngân hàng, thuế, pháp lý và visa." }],
   ],
 
   themeConfig: {
@@ -16,7 +16,7 @@ export const vi = defineConfig({
         items: [
           { text: "Đăng ký công ty", link: `${BASE_PATH}/uae-business/company-registration/overview` },
           { text: "Giải pháp ngân hàng", link: `${BASE_PATH}/uae-business/company-registration/banking` },
-          { text: "Di trú", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
+          { text: "Di cư", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
         ],
       },
       {
@@ -29,22 +29,24 @@ export const vi = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      // [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Cài đặt quyền riêng tư</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Chính sách bảo mật</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Quy định pháp lý cho dịch vụ AI</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Cài đặt quyền riêng tư</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Chính sách bảo mật</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Quy định pháp lý cho Dịch vụ AI</a>`,
     },
 
     localization: {
       placeholder4SearchInput: "Tìm kiếm nhanh...",
+      buttonLabel4NavButton: "Chat ngay với chuyên gia",
     },
     contact_form: {
-      name: "Họ tên *",
+      name: "Tên *",
       namePlaceholder: "tên của bạn",
       email: "Email *",
       emailPlaceholder: "địa chỉ email của bạn",
       phone: "Điện thoại *",
-      phonePlaceholder: "ví dụ: +1 1234567890 hoặc (1) 123 456-7890",
+      phonePlaceholder: "ví dụ, +1 1234567890 hoặc (1) 123 456-7890",
       phoneError: "Vui lòng nhập số điện thoại",
       category: "Chúng tôi có thể giúp gì cho bạn? *",
       categoryPlaceholder: "chọn loại dịch vụ",
@@ -53,17 +55,18 @@ export const vi = defineConfig({
       submit: "Gửi yêu cầu",
       sending: "Đang gửi...",
       successTitle: "Cảm ơn bạn!",
-      successMessage: "Chúng tôi rất cảm kích sự quan tâm của bạn! Đội ngũ của chúng tôi sẽ liên hệ với bạn sớm để thảo luận về nhu cầu của bạn.",
+      successMessage: "Chúng tôi rất trân trọng sự quan tâm của bạn! Đội ngũ của chúng tôi sẽ liên hệ với bạn ngay lập tức để thảo luận về nhu cầu của bạn.",
       defaultCategories: [
         "Thành lập công ty mới",
-        "Kế hoạch mở rộng (chi nhánh hoặc nhượng quyền)",
+        "Kế hoạch mở rộng (ví dụ: chi nhánh mới hoặc nhượng quyền)",
         "Di dời công ty",
         "Golden Visa",
-        "Chỉ cho mục đích thị thực",
+        "Chỉ mục đích visa",
         "Mở tài khoản ngân hàng",
         "Dịch vụ khác",
       ],
       defaultButtonText: "Gửi tin nhắn cho chúng tôi",
+      // defaultButtonText: "Nhận tư vấn miễn phí",
     },
   },
 })
@@ -71,13 +74,14 @@ export const vi = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Tổng quan kinh doanh tại UAE",
+      text: "Tóm tắt kinh doanh UAE",
+      // collapsed: false,
       items: [
         { text: "Đăng ký công ty", link: "company-registration/overview" },
-        { text: "Ưu và nhược điểm", link: "company-registration/benefits-problems" },
+        { text: "Ưu & nhược điểm", link: "company-registration/benefits-problems" },
         { text: "Giải pháp ngân hàng doanh nghiệp", link: "company-registration/banking" },
         { text: "Golden Visa", link: "company-registration//golden-visa" },
-        { text: "Thị thực & EID", link: "company-registration/employment-visas" },
+        { text: "Visa & EID", link: "company-registration/employment-visas" },
         { text: "Phí và thời gian", link: "company-registration/fees-timelines" },
         { text: "Chỉ thanh toán sau khi thành công", link: "benefits/success-based-fees" },
       ],
@@ -87,32 +91,32 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Các bước đăng ký công ty", link: "company-registration/insights/incorporation-steps" },
-        { text: "UAE free zones", link: "company-registration/free-zones" },
-        { text: "UAE mainland", link: "company-registration/mainland" },
+        { text: "Free Zone UAE", link: "company-registration/free-zones" },
+        { text: "Mainland UAE", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "Đảm bảo tuân thủ kinh doanh UAE",
+      text: "Tuân thủ kinh doanh UAE được đảm bảo",
       collapsed: false,
       items: [
-        { text: "Đảm bảo phê duyệt tài khoản ngân hàng doanh nghiệp", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "Phê duyệt tài khoản ngân hàng doanh nghiệp được đảm bảo", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Tài khoản ngân hàng cho doanh nghiệp rủi ro cao", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "Giữ doanh nghiệp của bạn tuân thủ và được bảo vệ", link: "company-registration/Protect-Your-Business" },
+        { text: "Giữ doanh nghiệp tuân thủ và được bảo vệ", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
       text: "Pháp lý, kế toán và thuế",
       collapsed: false,
       items: [
-        { text: "Các vấn đề kế toán và thuế", link: "company-registration/accounting-legal" },
-        { text: "Đăng ký UBO", link: "company-registration/ubo" },
+        { text: "Xem xét kế toán và thuế", link: "company-registration/accounting-legal" },
+        { text: "Sổ đăng ký UBO", link: "company-registration/ubo" },
       ],
     },
     {
       text: "So sánh",
       collapsed: false,
       items: [
-        { text: "Mainland và free zones", link: "comparison/mainland-vs-free-zones" },
+        { text: "Mainland so với Free Zone", link: "comparison/mainland-vs-free-zones" },
         { text: "So sánh các loại hình doanh nghiệp UAE", link: "comparison/entity-types" },
       ],
     },
@@ -124,6 +128,10 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
     { text: "Về chúng tôi", link: "about" },
     { text: "Liên hệ", link: "contacts" },
     { text: "Chính sách bảo mật", link: "Privacy-Policy" },
-    { text: "Quy định pháp lý cho dịch vụ AI", link: "Legal-Regulations-for-AI-Services" },
+    { text: "Quy định pháp lý cho Dịch vụ AI", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
+
+// function sidebarContactUs(): DefaultTheme.SidebarItem[] {
+//   return [{ text: "Liên hệ", link: `contacts` }]
+// }

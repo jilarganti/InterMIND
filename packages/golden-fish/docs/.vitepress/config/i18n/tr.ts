@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/tr"
 
 export const tr = defineConfig({
-  description: "BAE'de uzman şirket kurma ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri. İş hayallerinizi gerçeğe dönüştürüyoruz!",
+  description: "Uzman BAE şirket kurulumu ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri. İş hayallerinizi gerçeğe dönüştürüyoruz!",
   head: [
-    ["meta", { property: "og:title", content: "BAE'de uzman şirket kurma ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri." }],
+    ["meta", { property: "og:title", content: "Uzman BAE şirket kurulumu ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri." }],
   ],
 
   themeConfig: {
@@ -14,9 +14,9 @@ export const tr = defineConfig({
         text: "Hizmetler",
         activeMatch: `${BASE_PATH}/company-registration/`,
         items: [
-          { text: "Şirket tescili", link: `${BASE_PATH}/uae-business/company-registration/overview` },
+          { text: "Şirket kaydı", link: `${BASE_PATH}/uae-business/company-registration/overview` },
           { text: "Bankacılık çözümleri", link: `${BASE_PATH}/uae-business/company-registration/banking` },
-          { text: "Göç işlemleri", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
+          { text: "Göç", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
         ],
       },
       {
@@ -29,6 +29,7 @@ export const tr = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      // [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
@@ -37,10 +38,11 @@ export const tr = defineConfig({
 
     localization: {
       placeholder4SearchInput: "Hızlı arama...",
+      buttonLabel4NavButton: "Anında uzman sohbeti",
     },
     contact_form: {
       name: "İsim *",
-      namePlaceholder: "adınız",
+      namePlaceholder: "isminiz",
       email: "E-posta *",
       emailPlaceholder: "e-posta adresiniz",
       phone: "Telefon *",
@@ -49,21 +51,22 @@ export const tr = defineConfig({
       category: "Size nasıl yardımcı olabiliriz? *",
       categoryPlaceholder: "hizmet türünü seçin",
       message: "Hedeflerinizi tartışalım (isteğe bağlı)",
-      messagePlaceholder: "İhtiyaçlarınız için en iyi çözümü hazırlamamıza yardımcı olmak için lütfen sorgunuzun detaylarını paylaşın",
-      submit: "Talebi gönder",
+      messagePlaceholder: "İhtiyaçlarınıza en uygun çözümü hazırlamamız için lütfen sorgu detaylarınızı paylaşın",
+      submit: "Talep gönder",
       sending: "Gönderiliyor...",
-      successTitle: "Teşekkür ederiz!",
-      successMessage: "İlginiz için çok teşekkür ederiz! Ekibimiz ihtiyaçlarınızı görüşmek üzere kısa süre içinde sizinle iletişime geçecektir.",
+      successTitle: "Teşekkürler!",
+      successMessage: "İlginiz için çok teşekkür ederiz! Ekibimiz kısa süre içinde ihtiyaçlarınızı tartışmak için sizinle iletişime geçecektir.",
       defaultCategories: [
         "Yeni şirket kurulumu",
-        "Genişleme planı (yeni şube veya franchise)",
+        "Genişleme planı (örn. yeni şube veya franchise)",
         "Şirket taşıma",
         "Golden Visa",
         "Sadece vize amaçlı",
-        "Banka hesabı açma",
+        "Banka hesaplarının açılması",
         "Diğer Hizmetler",
       ],
-      defaultButtonText: "Bize mesaj gönderin",
+      defaultButtonText: "Bize bir mesaj gönderin",
+      // defaultButtonText: "Ücretsiz danışmanlık alın",
     },
   },
 })
@@ -72,27 +75,28 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "BAE iş özeti",
+      // collapsed: false,
       items: [
-        { text: "Şirket tescili", link: "company-registration/overview" },
-        { text: "Artılar ve eksiler", link: "company-registration/benefits-problems" },
+        { text: "Şirket kaydı", link: "company-registration/overview" },
+        { text: "Artılar & eksiler", link: "company-registration/benefits-problems" },
         { text: "Kurumsal bankacılık çözümleri", link: "company-registration/banking" },
         { text: "Golden Visa", link: "company-registration//golden-visa" },
-        { text: "Vizeler ve EID", link: "company-registration/employment-visas" },
-        { text: "Ücretler ve süreler", link: "company-registration/fees-timelines" },
-        { text: "Sadece başarıdan sonra ödeme", link: "benefits/success-based-fees" },
+        { text: "Vizeler & EID", link: "company-registration/employment-visas" },
+        { text: "Ücretler ve zaman çizelgeleri", link: "company-registration/fees-timelines" },
+        { text: "Başarıdan sonra öde", link: "benefits/success-based-fees" },
       ],
     },
     {
       text: "BAE kurumsal yapıları",
       collapsed: false,
       items: [
-        { text: "Şirket tescil adımları", link: "company-registration/insights/incorporation-steps" },
-        { text: "UAE free zones", link: "company-registration/free-zones" },
-        { text: "UAE mainland", link: "company-registration/mainland" },
+        { text: "Şirket kayıt adımları", link: "company-registration/insights/incorporation-steps" },
+        { text: "BAE serbest bölgeler", link: "company-registration/free-zones" },
+        { text: "BAE anakara", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "BAE iş uyumluluğu garantili",
+      text: "Garantili BAE iş uyumu",
       collapsed: false,
       items: [
         { text: "Garantili kurumsal banka hesabı onayları", link: "corporate-banking-services/guaranteed-account-approvals" },
@@ -104,7 +108,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Hukuk, muhasebe ve vergi",
       collapsed: false,
       items: [
-        { text: "Muhasebe ve vergi hususları", link: "company-registration/accounting-legal" },
+        { text: "Muhasebe ve vergi düşünceleri", link: "company-registration/accounting-legal" },
         { text: "UBO kaydı", link: "company-registration/ubo" },
       ],
     },
@@ -112,8 +116,8 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Karşılaştırmalar",
       collapsed: false,
       items: [
-        { text: "Mainland ve free zones karşılaştırması", link: "comparison/mainland-vs-free-zones" },
-        { text: "BAE varlıkları karşılaştırması", link: "comparison/entity-types" },
+        { text: "Anakara ile serbest bölgeler karşılaştırması", link: "comparison/mainland-vs-free-zones" },
+        { text: "Karşılaştırıldığında BAE kurumları", link: "comparison/entity-types" },
       ],
     },
   ]
@@ -127,3 +131,7 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
     { text: "Yapay Zeka Hizmetleri için Yasal Düzenlemeler", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
+
+// function sidebarContactUs(): DefaultTheme.SidebarItem[] {
+//   return [{ text: "İletişim", link: `contacts` }]
+// }

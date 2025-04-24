@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/fa"
 
 export const fa = defineConfig({
-  description: "خدمات حرفه‌ای تأسیس شرکت و پشتیبانی در امارات. راه‌اندازی شرکت، راهکارهای بانکی، مالیاتی، حقوقی و ویزا. تحقق رویاهای تجاری شما!",
+  description: "خدمات تخصصی تأسیس شرکت و پشتیبانی در امارات متحده عربی. راه‌اندازی شرکت، راه‌حل‌های بانکی، مالیاتی، حقوقی و ویزا. تحقق رویاهای تجاری شما!",
   head: [
-    ["meta", { property: "og:title", content: "خدمات حرفه‌ای تأسیس شرکت و پشتیبانی در امارات. راه‌اندازی شرکت، راهکارهای بانکی، مالیاتی، حقوقی و ویزا." }],
+    ["meta", { property: "og:title", content: "خدمات تخصصی تأسیس شرکت و پشتیبانی در امارات متحده عربی. راه‌اندازی شرکت، راه‌حل‌های بانکی، مالیاتی، حقوقی و ویزا." }],
   ],
 
   themeConfig: {
@@ -15,7 +15,7 @@ export const fa = defineConfig({
         activeMatch: `${BASE_PATH}/company-registration/`,
         items: [
           { text: "ثبت شرکت", link: `${BASE_PATH}/uae-business/company-registration/overview` },
-          { text: "راهکارهای بانکی", link: `${BASE_PATH}/uae-business/company-registration/banking` },
+          { text: "راه‌حل‌های بانکی", link: `${BASE_PATH}/uae-business/company-registration/banking` },
           { text: "مهاجرت", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
         ],
       },
@@ -38,6 +38,7 @@ export const fa = defineConfig({
 
     localization: {
       placeholder4SearchInput: "جستجوی سریع...",
+      buttonLabel4NavButton: "گفتگوی فوری با متخصص",
     },
     contact_form: {
       name: "نام *",
@@ -45,18 +46,18 @@ export const fa = defineConfig({
       email: "ایمیل *",
       emailPlaceholder: "آدرس ایمیل شما",
       phone: "تلفن *",
-      phonePlaceholder: "مثلاً، +1 1234567890 یا (1) 123 456-7890",
+      phonePlaceholder: "مثلاً +1 1234567890 یا (1) 123 456-7890",
       phoneError: "لطفاً شماره تلفن را وارد کنید",
       category: "چگونه می‌توانیم به شما کمک کنیم؟ *",
-      categoryPlaceholder: "نوع خدمت را انتخاب کنید",
+      categoryPlaceholder: "نوع خدمات را انتخاب کنید",
       message: "اهداف خود را بحث کنیم (اختیاری)",
-      messagePlaceholder: "لطفاً جزئیات استعلام خود را برای آماده‌سازی بهترین راهکار برای نیازهایتان به اشتراک بگذارید",
+      messagePlaceholder: "لطفاً جزئیات استعلام خود را برای آماده‌سازی بهترین راه‌حل برای نیازهایتان به اشتراک بگذارید",
       submit: "ارسال درخواست",
       sending: "در حال ارسال...",
-      successTitle: "متشکریم!",
-      successMessage: "از علاقه شما بسیار سپاسگزاریم! تیم ما به زودی با شما تماس خواهد گرفت تا در مورد نیازهایتان بحث کند.",
+      successTitle: "تشکر از شما!",
+      successMessage: "ما از علاقه شما بسیار قدردانی می‌کنیم! تیم ما به زودی با شما تماس خواهد گرفت تا در مورد نیازهایتان بحث کند.",
       defaultCategories: [
-        "تأسیس شرکت جدید",
+        "تشکیل شرکت جدید",
         "طرح گسترش (مثلاً شعبه یا فرنچایز جدید)",
         "انتقال شرکت",
         "ویزای طلایی",
@@ -65,7 +66,7 @@ export const fa = defineConfig({
         "سایر خدمات",
       ],
       defaultButtonText: "پیامی برای ما ارسال کنید",
-      // defaultButtonText: "مشاوره رایگان دریافت کنید",
+      // defaultButtonText: "دریافت مشاوره رایگان",
     },
   },
 })
@@ -73,12 +74,12 @@ export const fa = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "خلاصه تجارت در امارات",
+      text: "خلاصه کسب‌وکار امارات",
       // collapsed: false,
       items: [
         { text: "ثبت شرکت", link: "company-registration/overview" },
         { text: "مزایا و معایب", link: "company-registration/benefits-problems" },
-        { text: "راهکارهای بانکی شرکتی", link: "company-registration/banking" },
+        { text: "راه‌حل‌های بانکی شرکتی", link: "company-registration/banking" },
         { text: "ویزای طلایی", link: "company-registration//golden-visa" },
         { text: "ویزاها و EID", link: "company-registration/employment-visas" },
         { text: "هزینه‌ها و زمان‌بندی‌ها", link: "company-registration/fees-timelines" },
@@ -86,7 +87,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "ساختارهای شرکتی در امارات",
+      text: "ساختارهای شرکتی امارات",
       collapsed: false,
       items: [
         { text: "مراحل ثبت شرکت", link: "company-registration/insights/incorporation-steps" },
@@ -95,7 +96,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "تضمین انطباق تجارت در امارات",
+      text: "تضمین انطباق کسب‌وکار امارات",
       collapsed: false,
       items: [
         { text: "تضمین تأیید حساب‌های بانکی شرکتی", link: "corporate-banking-services/guaranteed-account-approvals" },

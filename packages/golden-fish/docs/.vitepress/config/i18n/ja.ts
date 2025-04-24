@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
-  description: "UAEにおける専門的な会社設立・サポートサービス。会社設立、銀行取引、税務、法務、ビザソリューションを提供。ビジネスの夢を実現します！",
+  description: "UAEでの会社設立とサポートサービスの専門家。会社設立、銀行、税金、法律、ビザのソリューション。あなたのビジネスの夢を現実に！",
   head: [
-    ["meta", { property: "og:title", content: "UAEにおける専門的な会社設立・サポートサービス。会社設立、銀行取引、税務、法務、ビザソリューション。" }],
+    ["meta", { property: "og:title", content: "UAEでの会社設立とサポートサービスの専門家。会社設立、銀行、税金、法律、ビザのソリューション。" }],
   ],
 
   themeConfig: {
@@ -14,14 +14,14 @@ export const ja = defineConfig({
         text: "サービス",
         activeMatch: `${BASE_PATH}/company-registration/`,
         items: [
-          { text: "会社登記", link: `${BASE_PATH}/uae-business/company-registration/overview` },
+          { text: "会社登録", link: `${BASE_PATH}/uae-business/company-registration/overview` },
           { text: "銀行ソリューション", link: `${BASE_PATH}/uae-business/company-registration/banking` },
           { text: "移住", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
         ],
       },
       {
         text: "リソース",
-        items: [{ text: "会社概要", link: `${BASE_PATH}/resources/about` }],
+        items: [{ text: "私たちについて", link: `${BASE_PATH}/resources/about` }],
       },
       { text: "お問い合わせ", link: `${BASE_PATH}/resources/contacts` },
     ],
@@ -29,6 +29,7 @@ export const ja = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      // [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
@@ -37,33 +38,35 @@ export const ja = defineConfig({
 
     localization: {
       placeholder4SearchInput: "クイック検索...",
+      buttonLabel4NavButton: "即時エキスパートチャット",
     },
     contact_form: {
-      name: "お名前 *",
-      namePlaceholder: "あなたのお名前",
-      email: "メールアドレス *",
+      name: "名前 *",
+      namePlaceholder: "あなたの名前",
+      email: "メール *",
       emailPlaceholder: "あなたのメールアドレス",
-      phone: "電話番号 *",
+      phone: "電話 *",
       phonePlaceholder: "例：+1 1234567890 または (1) 123 456-7890",
       phoneError: "電話番号を入力してください",
-      category: "ご用件 *",
+      category: "どのようにお手伝いできますか？ *",
       categoryPlaceholder: "サービスタイプを選択",
-      message: "ご要望についてお聞かせください（任意）",
-      messagePlaceholder: "最適なソリューションをご提案するため、ご要望の詳細をお知らせください",
-      submit: "送信する",
+      message: "あなたの目標について話しましょう（任意）",
+      messagePlaceholder: "あなたのニーズに最適なソリューションを準備するために、お問い合わせの詳細を共有してください",
+      submit: "リクエストを送信",
       sending: "送信中...",
       successTitle: "ありがとうございます！",
-      successMessage: "お問い合わせいただき、誠にありがとうございます。担当者より速やかにご連絡させていただきます。",
+      successMessage: "ご興味をいただき、誠にありがとうございます！弊社チームがまもなくご連絡し、ご要望について話し合います。",
       defaultCategories: [
         "新規会社設立",
-        "事業拡大計画（支店またはフランチャイズ）",
-        "会社移転",
-        "Golden Visa",
-        "ビザのみの申請",
+        "拡張計画（例：新しい支店やフランチャイズ）",
+        "会社の移転",
+        "ゴールデンビザ",
+        "ビザのみの目的",
         "銀行口座開設",
         "その他のサービス",
       ],
-      defaultButtonText: "メッセージを送信",
+      defaultButtonText: "メッセージを送る",
+      // defaultButtonText: "無料相談を受ける",
     },
   },
 })
@@ -72,48 +75,49 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "UAEビジネス概要",
+      // collapsed: false,
       items: [
-        { text: "会社登記", link: "company-registration/overview" },
-        { text: "メリット・デメリット", link: "company-registration/benefits-problems" },
-        { text: "法人向け銀行ソリューション", link: "company-registration/banking" },
-        { text: "Golden Visa", link: "company-registration//golden-visa" },
-        { text: "ビザ・EID", link: "company-registration/employment-visas" },
-        { text: "手数料と所要期間", link: "company-registration/fees-timelines" },
-        { text: "成功報酬制", link: "benefits/success-based-fees" },
+        { text: "会社登録", link: "company-registration/overview" },
+        { text: "長所と短所", link: "company-registration/benefits-problems" },
+        { text: "企業銀行ソリューション", link: "company-registration/banking" },
+        { text: "ゴールデンビザ", link: "company-registration//golden-visa" },
+        { text: "ビザとEID", link: "company-registration/employment-visas" },
+        { text: "料金とタイムライン", link: "company-registration/fees-timelines" },
+        { text: "成功後の支払いのみ", link: "benefits/success-based-fees" },
       ],
     },
     {
       text: "UAE企業構造",
       collapsed: false,
       items: [
-        { text: "会社登記の手順", link: "company-registration/insights/incorporation-steps" },
-        { text: "UAE Free Zone", link: "company-registration/free-zones" },
-        { text: "UAE Mainland", link: "company-registration/mainland" },
+        { text: "会社登録手順", link: "company-registration/insights/incorporation-steps" },
+        { text: "UAEフリーゾーン", link: "company-registration/free-zones" },
+        { text: "UAE本土", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "UAE企業コンプライアンス保証",
+      text: "UAEビジネスコンプライアンス保証",
       collapsed: false,
       items: [
-        { text: "法人口座開設の承認保証", link: "corporate-banking-services/guaranteed-account-approvals" },
-        { text: "ハイリスクビジネス向け銀行口座", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "ビジネスのコンプライアンスと保護", link: "company-registration/Protect-Your-Business" },
+        { text: "保証された企業銀行口座の承認", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "ハイリスクビジネスのための銀行口座", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
+        { text: "ビジネスをコンプライアンスと保護のもとに保つ", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
-      text: "法務・会計・税務",
+      text: "法務、会計、税務",
       collapsed: false,
       items: [
-        { text: "会計・税務の考慮事項", link: "company-registration/accounting-legal" },
-        { text: "UBOレジスター", link: "company-registration/ubo" },
+        { text: "会計と税務の考慮事項", link: "company-registration/accounting-legal" },
+        { text: "UBOレジスタ", link: "company-registration/ubo" },
       ],
     },
     {
       text: "比較",
       collapsed: false,
       items: [
-        { text: "Mainland vs Free Zone", link: "comparison/mainland-vs-free-zones" },
-        { text: "UAE事業体の比較", link: "comparison/entity-types" },
+        { text: "本土対フリーゾーン", link: "comparison/mainland-vs-free-zones" },
+        { text: "UAEのエンティティ比較", link: "comparison/entity-types" },
       ],
     },
   ]
@@ -121,9 +125,13 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "会社概要", link: "about" },
+    { text: "私たちについて", link: "about" },
     { text: "お問い合わせ", link: "contacts" },
     { text: "プライバシーポリシー", link: "Privacy-Policy" },
     { text: "AIサービスの法的規制", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
+
+// function sidebarContactUs(): DefaultTheme.SidebarItem[] {
+//   return [{ text: "お問い合わせ", link: `contacts` }]
+// }

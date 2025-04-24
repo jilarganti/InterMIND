@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ru"
 
 export const ru = defineConfig({
-  description: "Экспертные услуги по созданию и поддержке компаний в ОАЭ. Регистрация компаний, банковские услуги, налоговые, юридические решения и оформление виз. Воплощаем ваши бизнес-мечты в реальность!",
+  description: "Экспертные услуги по регистрации компаний в ОАЭ и поддержке. Организация компании, банковское обслуживание, налоги, юридические и визовые решения. Воплощаем ваши бизнес-мечты в реальность!",
   head: [
-    ["meta", { property: "og:title", content: "Экспертные услуги по созданию и поддержке компаний в ОАЭ. Регистрация компаний, банковские услуги, налоговые, юридические решения и оформление виз." }],
+    ["meta", { property: "og:title", content: "Экспертные услуги по регистрации компаний в ОАЭ и поддержке. Организация компании, банковское обслуживание, налоги, юридические и визовые решения." }],
   ],
 
   themeConfig: {
@@ -29,14 +29,16 @@ export const ru = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      // [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Правовые нормы для AI-сервисов</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Юридические регулирования для AI-сервисов</a>`,
     },
 
     localization: {
       placeholder4SearchInput: "Быстрый поиск...",
+      buttonLabel4NavButton: "Мгновенная связь с экспертом",
     },
     contact_form: {
       name: "Имя *",
@@ -46,24 +48,25 @@ export const ru = defineConfig({
       phone: "Телефон *",
       phonePlaceholder: "например, +1 1234567890 или (1) 123 456-7890",
       phoneError: "Пожалуйста, введите номер телефона",
-      category: "Как мы можем помочь? *",
+      category: "Как мы можем вам помочь? *",
       categoryPlaceholder: "выберите тип услуги",
-      message: "Обсудим ваши цели (необязательно)",
+      message: "Давайте обсудим ваши цели (необязательно)",
       messagePlaceholder: "Пожалуйста, поделитесь деталями вашего запроса, чтобы мы могли подготовить наилучшее решение для ваших потребностей",
       submit: "Отправить запрос",
       sending: "Отправка...",
       successTitle: "Спасибо!",
-      successMessage: "Мы очень ценим ваш интерес! Наша команда свяжется с вами в ближайшее время для обсуждения ваших потребностей.",
+      successMessage: "Мы высоко ценим ваш интерес! Наша команда свяжется с вами в ближайшее время, чтобы обсудить ваши потребности.",
       defaultCategories: [
         "Создание новой компании",
-        "План расширения (новый филиал или франшиза)",
-        "Релокация компании",
+        "План расширения (например, новое отделение или франшиза)",
+        "Перемещение компании",
         "Golden Visa",
-        "Только визовые цели",
+        "Виза только для целей",
         "Открытие банковских счетов",
         "Другие услуги",
       ],
-      defaultButtonText: "Отправить сообщение",
+      defaultButtonText: "Отправить нам сообщение",
+      // defaultButtonText: "Получить бесплатную консультацию",
     },
   },
 })
@@ -72,6 +75,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "Обзор бизнеса в ОАЭ",
+      // collapsed: false,
       items: [
         { text: "Регистрация компании", link: "company-registration/overview" },
         { text: "Плюсы и минусы", link: "company-registration/benefits-problems" },
@@ -88,31 +92,31 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Этапы регистрации компании", link: "company-registration/insights/incorporation-steps" },
         { text: "Свободные зоны ОАЭ", link: "company-registration/free-zones" },
-        { text: "Материковая часть ОАЭ", link: "company-registration/mainland" },
+        { text: "Основная территория ОАЭ", link: "company-registration/mainland" },
       ],
     },
     {
       text: "Гарантированное соответствие бизнеса в ОАЭ",
       collapsed: false,
       items: [
-        { text: "Гарантированное открытие корпоративных банковских счетов", link: "corporate-banking-services/guaranteed-account-approvals" },
-        { text: "Банковские счета для высокорискового бизнеса", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "Поддержание соответствия и защита вашего бизнеса", link: "company-registration/Protect-Your-Business" },
+        { text: "Гарантированное одобрение корпоративных банковских счетов", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "Банковские счета для бизнеса с высокими рисками", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
+        { text: "Поддержание вашего бизнеса в соответствии и защищенности", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
-      text: "Юридические, бухгалтерские и налоговые услуги",
+      text: "Юридические, бухгалтерские и налоговые вопросы",
       collapsed: false,
       items: [
-        { text: "Бухгалтерские и налоговые аспекты", link: "company-registration/accounting-legal" },
-        { text: "Реестр UBO", link: "company-registration/ubo" },
+        { text: "Учет и налоговые соображения", link: "company-registration/accounting-legal" },
+        { text: "Регистр UBO", link: "company-registration/ubo" },
       ],
     },
     {
       text: "Сравнения",
       collapsed: false,
       items: [
-        { text: "Mainland против free zones", link: "comparison/mainland-vs-free-zones" },
+        { text: "Основная территория против свободных зон", link: "comparison/mainland-vs-free-zones" },
         { text: "Сравнение юридических лиц ОАЭ", link: "comparison/entity-types" },
       ],
     },
@@ -124,6 +128,10 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
     { text: "О нас", link: "about" },
     { text: "Контакты", link: "contacts" },
     { text: "Политика конфиденциальности", link: "Privacy-Policy" },
-    { text: "Правовые нормы для AI-сервисов", link: "Legal-Regulations-for-AI-Services" },
+    { text: "Юридические регулирования для AI-сервисов", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
+
+// function sidebarContactUs(): DefaultTheme.SidebarItem[] {
+//   return [{ text: "Контакты", link: `contacts` }]
+// }

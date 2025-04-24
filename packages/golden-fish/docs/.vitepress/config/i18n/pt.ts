@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/pt"
 
 export const pt = defineConfig({
-  description: "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, serviços bancários, impostos, questões legais e vistos. Transformando seus sonhos empresariais em realidade!",
+  description: "Especialista em formação de empresas e serviços de apoio nos Emirados Árabes Unidos. Configuração de empresa, soluções bancárias, fiscais, legais e de vistos. Tornando seus sonhos empresariais realidade!",
   head: [
-    ["meta", { property: "og:title", content: "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, serviços bancários, impostos, questões legais e vistos." }],
+    ["meta", { property: "og:title", content: "Especialista em formação de empresas e serviços de apoio nos Emirados Árabes Unidos. Configuração de empresa, soluções bancárias, fiscais, legais e de vistos." }],
   ],
 
   themeConfig: {
@@ -29,6 +29,7 @@ export const pt = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      // [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
@@ -36,34 +37,36 @@ export const pt = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Pesquisa rápida...",
+      placeholder4SearchInput: "Busca rápida...",
+      buttonLabel4NavButton: "Chat instantâneo com especialista",
     },
     contact_form: {
       name: "Nome *",
       namePlaceholder: "seu nome",
-      email: "E-mail *",
-      emailPlaceholder: "seu endereço de e-mail",
+      email: "Email *",
+      emailPlaceholder: "seu endereço de email",
       phone: "Telefone *",
-      phonePlaceholder: "ex., +1 1234567890 ou (1) 123 456-7890",
+      phonePlaceholder: "ex.: +55 123456789 ou (55) 123 456-7890",
       phoneError: "Por favor, insira o número de telefone",
-      category: "Como podemos ajudar? *",
+      category: "Como podemos ajudá-lo? *",
       categoryPlaceholder: "selecione o tipo de serviço",
       message: "Vamos discutir seus objetivos (opcional)",
-      messagePlaceholder: "Por favor, compartilhe os detalhes da sua consulta para nos ajudar a preparar a melhor solução para suas necessidades",
-      submit: "Enviar solicitação",
+      messagePlaceholder: "Por favor, compartilhe os detalhes do seu pedido para nos ajudar a preparar a melhor solução para suas necessidades",
+      submit: "Enviar pedido",
       sending: "Enviando...",
       successTitle: "Obrigado!",
       successMessage: "Agradecemos muito seu interesse! Nossa equipe entrará em contato em breve para discutir suas necessidades.",
       defaultCategories: [
-        "Nova formação de empresa",
-        "Plano de expansão (ex. nova filial ou franquia)",
-        "Relocalização de empresa",
-        "Golden Visa",
+        "Formação de nova empresa",
+        "Plano de expansão (ex.: nova filial ou franquia)",
+        "Relocação de empresa",
+        "Visto Gold",
         "Apenas para fins de visto",
         "Abertura de contas bancárias",
         "Outros Serviços",
       ],
       defaultButtonText: "Envie-nos uma mensagem",
+      // defaultButtonText: "Obtenha uma consulta gratuita",
     },
   },
 })
@@ -72,22 +75,23 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "Resumo de negócios nos EAU",
+      // collapsed: false,
       items: [
         { text: "Registro de empresa", link: "company-registration/overview" },
-        { text: "Prós e contras", link: "company-registration/benefits-problems" },
+        { text: "Prós & contras", link: "company-registration/benefits-problems" },
         { text: "Soluções bancárias corporativas", link: "company-registration/banking" },
-        { text: "Golden Visa", link: "company-registration//golden-visa" },
-        { text: "Vistos e EID", link: "company-registration/employment-visas" },
+        { text: "Visto Gold", link: "company-registration//golden-visa" },
+        { text: "Vistos & EID", link: "company-registration/employment-visas" },
         { text: "Taxas e prazos", link: "company-registration/fees-timelines" },
-        { text: "Pague apenas após o sucesso", link: "benefits/success-based-fees" },
+        { text: "Pague somente após o sucesso", link: "benefits/success-based-fees" },
       ],
     },
     {
-      text: "Estruturas corporativas nos EAU",
+      text: "Estruturas corporativas dos EAU",
       collapsed: false,
       items: [
-        { text: "Etapas de registro de empresa", link: "company-registration/insights/incorporation-steps" },
-        { text: "Free zones dos EAU", link: "company-registration/free-zones" },
+        { text: "Etapas para registro de empresa", link: "company-registration/insights/incorporation-steps" },
+        { text: "Free Zones dos EAU", link: "company-registration/free-zones" },
         { text: "Mainland dos EAU", link: "company-registration/mainland" },
       ],
     },
@@ -95,7 +99,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Conformidade empresarial garantida nos EAU",
       collapsed: false,
       items: [
-        { text: "Aprovações garantidas de contas bancárias corporativas", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "Aprovações garantidas de conta bancária corporativa", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Contas bancárias para negócios de alto risco", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
         { text: "Mantenha seu negócio em conformidade e protegido", link: "company-registration/Protect-Your-Business" },
       ],
@@ -104,16 +108,16 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Jurídico, contabilidade e impostos",
       collapsed: false,
       items: [
-        { text: "Considerações contábeis e fiscais", link: "company-registration/accounting-legal" },
-        { text: "Registro UBO", link: "company-registration/ubo" },
+        { text: "Considerações sobre contabilidade e impostos", link: "company-registration/accounting-legal" },
+        { text: "Registro de UBO", link: "company-registration/ubo" },
       ],
     },
     {
-      text: "Comparações",
+      text: "Comparativos",
       collapsed: false,
       items: [
-        { text: "Mainland vs free zones", link: "comparison/mainland-vs-free-zones" },
-        { text: "Comparação de entidades nos EAU", link: "comparison/entity-types" },
+        { text: "Mainland vs Free Zones", link: "comparison/mainland-vs-free-zones" },
+        { text: "Entidades dos EAU comparadas", link: "comparison/entity-types" },
       ],
     },
   ]
@@ -127,3 +131,7 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
     { text: "Regulamentações Legais para Serviços de IA", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
+
+// function sidebarContactUs(): DefaultTheme.SidebarItem[] {
+//   return [{ text: "Contatos", link: `contacts` }]
+// }
