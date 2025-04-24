@@ -38,6 +38,7 @@ export const en = defineConfig({
 
     localization: {
       placeholder4SearchInput: "Quick search...",
+      buttonLabel4NavButton: "Instant expert chat",
     },
     contact_form: {
       name: "Name *",
