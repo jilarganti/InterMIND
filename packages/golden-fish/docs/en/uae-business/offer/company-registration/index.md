@@ -27,8 +27,8 @@ hero:
   details: 'The UAE offers numerous advantages for international entrepreneurs and investors seeking a favorable business environment. \n\n* Low Tax Rates: Just 9% corporate tax and 5% VAT with no personal income tax\n* 100% Foreign Ownership: Complete control of your company without local partners\n* No Currency Controls: Unrestricted profit repatriation and currency exchange\n\n[Show complete list](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
-    light: '/img/iStock-2051326997.avif',
-    dark: '/img/iStock-1448478309.jpg',
+    light: '/img/iStock-1331100622.jpg',
+    dark: '/img/iStock-1203821481.avif',
     width: '100%'
   },
   inversion: false

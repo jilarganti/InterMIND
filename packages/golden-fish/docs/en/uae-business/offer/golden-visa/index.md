@@ -89,35 +89,20 @@ hero:
 
 <BenefitsList :features="[
   {
-    icon: '💰',
-    title: 'Success-Based Fees',
-    text: '**No payment until your Golden Visa is approved.** Complete transparency with no hidden costs.'
-  },
-  {
-    icon: '📈',
-    title: 'Proven Success Rate',
-    text: '98% approval rate with hundreds of Golden Visas issued through our premium processing.'
-  },
-  {
-    icon: '📋',
-    title: 'Complete Management',
-    text: 'End-to-end handling from documentation to visa issuance, taking care of all details.'
-  },
-  {
-    icon: '👨‍💼',
+    icon: '🏢',
     title: 'Local UAE Expertise',
     text: 'Dedicated specialists in Dubai provide expert guidance through every step of the process.'
   },
   {
-    icon: '🔍',
-    title: 'Premium Processing',
-    text: 'Direct communication with authorities and fast-track channels for quicker approvals.'
+    icon: '📊',
+    title: 'Proven Success Rate',
+    text: 'Over 90% approval rate with hundreds of visas, bank accounts, and company registrations issued through our premium processing.'
   },
   {
-    icon: '🔄',
-    title: 'Renewal Support',
-    text: 'Complimentary visa renewal assistance with **zero agency fees** - government charges only.'
-  }
+    icon: '💸',
+    title: '**Success-Based Fees**',
+    text: '[Pay only after approval](/uae-business/benefits/success-based-fees). Complete transparency with no hidden costs.'
+  },
 ]" />
 
 ## Book a free consultation to check your eligibility and discuss your options.
