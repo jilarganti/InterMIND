@@ -1,6 +1,7 @@
 // shared/components/NavButton.vue
 <script setup lang="ts">
 import { computed } from "vue"
+import { useData } from "vitepress"
 import { useLocalizedPath } from "../utils/locale"
 
 interface Props {
@@ -32,6 +33,11 @@ const props = withDefaults(defineProps<Props>(), {
 
 const { navigateTo } = useLocalizedPath()
 
+const { page, frontmatter } = useData()
+
+const hideComponents = computed(() => frontmatter.value.hideComponents)
+const showComponent = computed(() => hideComponents.value !== "NavButton")
+
 // Вычисляемый класс с добавлением brand по умолчанию
 const computedClass = computed(() => {
   // Базовый класс
@@ -55,7 +61,7 @@ const handleClick = (): void => {
 </script>
 
 <template>
-  <button :class="computedClass" :style="buttonStyle" @click="handleClick">
+  <button v-if="showComponent" :class="computedClass" :style="buttonStyle" @click="handleClick">
     {{ buttonLabel }}
   </button>
 </template>
