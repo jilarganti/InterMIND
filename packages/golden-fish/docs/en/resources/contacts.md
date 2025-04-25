@@ -3,7 +3,9 @@
 # sidebar: false
 # aside: false
 # next: false
-hideComponents: NavButton
+hideComponents:
+  - NavButton
+  # - SearchInput
 ---
 
 <!-- <p>

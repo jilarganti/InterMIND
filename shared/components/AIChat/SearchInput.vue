@@ -1,8 +1,8 @@
 // shared/components/AIChat/SearchInput.vue
 <script setup lang="ts">
-import { ref } from "vue"
+import { ref, computed } from "vue"
 import { Search } from "lucide-vue-next"
-import { useRouter } from "vitepress"
+import { useRouter, useData } from "vitepress"
 
 interface Props {
   /**
@@ -23,6 +23,10 @@ const props = withDefaults(defineProps<Props>(), {
 
 const router = useRouter()
 const searchQuery = ref("")
+const { site, frontmatter } = useData()
+
+const hide = computed(() => frontmatter.value.hideComponents?.includes("SearchInput"))
+const placeholder = computed(() => props.placeholder || site.value.themeConfig.localization.placeholder4SearchInput)
 
 // Обработчик отправки запроса
 const handleSubmit = () => {
@@ -45,7 +49,7 @@ const handleKeyDown = (event: KeyboardEvent) => {
 </script>
 
 <template>
-  <div class="search-nav-container">
+  <div v-if="!hide" class="search-nav-container">
     <div class="search-input-wrapper">
       <Search :size="16" class="search-icon" />
       <input v-model="searchQuery" type="text" :placeholder="placeholder" class="search-input" @keydown="handleKeyDown" />

@@ -16,9 +16,9 @@ export default {
     return h(DefaultTheme.Layout, null, {
       // Для десктопов (в навбаре)
       "nav-bar-content-before": () => {
-        const { site } = useData()
-        const phonePlaceholder = site.value.themeConfig.localization.placeholder4SearchInput
-        return h(SearchInput, { placeholder: phonePlaceholder })
+        // const { site } = useData()
+        // const phonePlaceholder = site.value.themeConfig.localization.placeholder4SearchInput
+        return h(SearchInput)
       },
       // Для десктопов (в навбаре)
       "nav-bar-content-after": () =>
