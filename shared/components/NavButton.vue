@@ -32,11 +32,7 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 const { navigateTo } = useLocalizedPath()
-
-const { page, frontmatter } = useData()
-
-const hideComponents = computed(() => frontmatter.value.hideComponents)
-const showComponent = computed(() => hideComponents.value !== "NavButton")
+const showComponent = computed(() => useData().frontmatter.value.hideComponents !== "NavButton")
 
 // Вычисляемый класс с добавлением brand по умолчанию
 const computedClass = computed(() => {
