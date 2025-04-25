@@ -37,7 +37,9 @@ export const bn = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "দ্রুত অনুসন্ধান...",
+      placeholder4SearchInput: "যেকোনো কিছু জিজ্ঞাসা করুন...",
+      placeholder4ChatFooter: "যেকোনো কিছু জিজ্ঞাসা করুন...",
+      placeholder4ChatList: "চ্যাটের বিষয় লিখুন...",
       buttonLabel4NavButton: "তাৎক্ষণিক বিশেষজ্ঞ চ্যাট",
     },
     contact_form: {
@@ -47,25 +49,25 @@ export const bn = defineConfig({
       emailPlaceholder: "আপনার ইমেইল ঠিকানা",
       phone: "ফোন *",
       phonePlaceholder: "উদাহরণস্বরূপ, +1 1234567890 অথবা (1) 123 456-7890",
-      phoneError: "ফোন নম্বর প্রবেশ করুন",
+      phoneError: "অনুগ্রহ করে ফোন নম্বর লিখুন",
       category: "আমরা কিভাবে আপনাকে সাহায্য করতে পারি? *",
       categoryPlaceholder: "সেবা ধরন নির্বাচন করুন",
       message: "আপনার লক্ষ্য নিয়ে আলোচনা করা যাক (ঐচ্ছিক)",
-      messagePlaceholder: "আমাদের জন্য সেরা সমাধান প্রস্তুত করতে আপনার অনুসন্ধানের বিবরণ ভাগ করুন",
+      messagePlaceholder: "আমাদের আপনার প্রয়োজনের সেরা সমাধান প্রস্তুত করতে আপনার অনুসন্ধানের বিবরণ ভাগ করুন",
       submit: "অনুরোধ জমা দিন",
       sending: "পাঠানো হচ্ছে...",
       successTitle: "ধন্যবাদ!",
-      successMessage: "আপনার আগ্রহের জন্য আমরা অত্যন্ত কৃতজ্ঞ! আমাদের দল শীঘ্রই আপনার সাথে যোগাযোগ করবে এবং আপনার প্রয়োজনীয়তা নিয়ে আলোচনা করবে।",
+      successMessage: "আপনার আগ্রহের জন্য আমরা অত্যন্ত কৃতজ্ঞ! আমাদের দল শীঘ্রই আপনার সাথে যোগাযোগ করবে আপনার প্রয়োজন নিয়ে আলোচনা করতে।",
       defaultCategories: [
         "নতুন কোম্পানি গঠন",
         "বিস্তার পরিকল্পনা (যেমন নতুন শাখা বা ফ্র্যাঞ্চাইজি)",
         "কোম্পানি স্থানান্তর",
         "গোল্ডেন ভিসা",
-        "শুধুমাত্র ভিসা উদ্দেশ্য",
+        "শুধুমাত্র ভিসা উদ্দেশ্যে",
         "ব্যাংক অ্যাকাউন্ট খোলা",
         "অন্যান্য সেবা",
       ],
-      defaultButtonText: "আমাদের বার্তা পাঠান",
+      defaultButtonText: "আমাদের একটি বার্তা পাঠান",
       // defaultButtonText: "একটি বিনামূল্যে পরামর্শ পান",
     },
   },
@@ -74,7 +76,7 @@ export const bn = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "ইউএই ব্যবসার সারাংশ",
+      text: "ইউএই ব্যবসা সারসংক্ষেপ",
       // collapsed: false,
       items: [
         { text: "কোম্পানি নিবন্ধন", link: "company-registration/overview" },
@@ -91,17 +93,17 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "কোম্পানি নিবন্ধনের ধাপসমূহ", link: "company-registration/insights/incorporation-steps" },
-        { text: "ইউএই ফ্রি জোনস", link: "company-registration/free-zones" },
+        { text: "ইউএই ফ্রি জোন", link: "company-registration/free-zones" },
         { text: "ইউএই মেইনল্যান্ড", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "ইউএই ব্যবসা অনুবর্তিতা নিশ্চিত",
+      text: "ইউএই ব্যবসা অনুমোদন নিশ্চিত",
       collapsed: false,
       items: [
-        { text: "গ্যারান্টিযুক্ত কর্পোরেট ব্যাংক অ্যাকাউন্ট অনুমোদন", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "গ্যারান্টিড কর্পোরেট ব্যাংক অ্যাকাউন্ট অনুমোদন", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "উচ্চ-ঝুঁকি ব্যবসার জন্য ব্যাংক অ্যাকাউন্ট", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "আপনার ব্যবসাকে অনুবর্তী এবং সুরক্ষিত রাখুন", link: "company-registration/Protect-Your-Business" },
+        { text: "আপনার ব্যবসাকে অনুমোদিত এবং সুরক্ষিত রাখুন", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -116,7 +118,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "তুলনা",
       collapsed: false,
       items: [
-        { text: "মেইনল্যান্ড বনাম ফ্রি জোনস", link: "comparison/mainland-vs-free-zones" },
+        { text: "মেইনল্যান্ড বনাম ফ্রি জোন", link: "comparison/mainland-vs-free-zones" },
         { text: "ইউএই এন্টিটি তুলনা", link: "comparison/entity-types" },
       ],
     },
@@ -133,5 +135,5 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
 }
 
 // function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-//   return [{ text: "যোগাযোগ", link: `contacts` }]
+//   return [{ text: "Contacts", link: `contacts` }]
 // }

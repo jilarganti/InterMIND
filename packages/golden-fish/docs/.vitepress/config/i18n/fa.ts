@@ -37,8 +37,10 @@ export const fa = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "جستجوی سریع...",
-      buttonLabel4NavButton: "گفتگوی فوری با متخصص",
+      placeholder4SearchInput: "هر سوالی دارید بپرسید...",
+      placeholder4ChatFooter: "هر سوالی دارید بپرسید...",
+      placeholder4ChatList: "موضوع چت را وارد کنید...",
+      buttonLabel4NavButton: "چت فوری با متخصص",
     },
     contact_form: {
       name: "نام *",
@@ -46,7 +48,7 @@ export const fa = defineConfig({
       email: "ایمیل *",
       emailPlaceholder: "آدرس ایمیل شما",
       phone: "تلفن *",
-      phonePlaceholder: "مثلاً +1 1234567890 یا (1) 123 456-7890",
+      phonePlaceholder: "مثلاً، +1 1234567890 یا (1) 123 456-7890",
       phoneError: "لطفاً شماره تلفن را وارد کنید",
       category: "چگونه می‌توانیم به شما کمک کنیم؟ *",
       categoryPlaceholder: "نوع خدمات را انتخاب کنید",
@@ -54,8 +56,8 @@ export const fa = defineConfig({
       messagePlaceholder: "لطفاً جزئیات استعلام خود را برای آماده‌سازی بهترین راه‌حل برای نیازهایتان به اشتراک بگذارید",
       submit: "ارسال درخواست",
       sending: "در حال ارسال...",
-      successTitle: "تشکر از شما!",
-      successMessage: "ما از علاقه شما بسیار قدردانی می‌کنیم! تیم ما به زودی با شما تماس خواهد گرفت تا در مورد نیازهایتان بحث کند.",
+      successTitle: "متشکریم!",
+      successMessage: "علاقه شما را بسیار قدردانی می‌کنیم! تیم ما به زودی با شما تماس خواهد گرفت تا در مورد نیازهایتان بحث کند.",
       defaultCategories: [
         "تشکیل شرکت جدید",
         "طرح گسترش (مثلاً شعبه یا فرنچایز جدید)",
@@ -66,7 +68,7 @@ export const fa = defineConfig({
         "سایر خدمات",
       ],
       defaultButtonText: "پیامی برای ما ارسال کنید",
-      // defaultButtonText: "دریافت مشاوره رایگان",
+      // defaultButtonText: "مشاوره رایگان دریافت کنید",
     },
   },
 })
@@ -92,7 +94,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "مراحل ثبت شرکت", link: "company-registration/insights/incorporation-steps" },
         { text: "مناطق آزاد امارات", link: "company-registration/free-zones" },
-        { text: "سرزمین اصلی امارات", link: "company-registration/mainland" },
+        { text: "امارات مینلند", link: "company-registration/mainland" },
       ],
     },
     {
@@ -101,7 +103,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "تضمین تأیید حساب‌های بانکی شرکتی", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "حساب‌های بانکی برای کسب‌وکارهای پرخطر", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "حفظ انطباق و حمایت از کسب‌وکار شما", link: "company-registration/Protect-Your-Business" },
+        { text: "کسب‌وکار خود را مطابق و محافظت شده نگه دارید", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -116,7 +118,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "مقایسه‌ها",
       collapsed: false,
       items: [
-        { text: "مقایسه سرزمین اصلی با مناطق آزاد", link: "comparison/mainland-vs-free-zones" },
+        { text: "مینلند در مقابل مناطق آزاد", link: "comparison/mainland-vs-free-zones" },
         { text: "مقایسه نهادهای امارات", link: "comparison/entity-types" },
       ],
     },

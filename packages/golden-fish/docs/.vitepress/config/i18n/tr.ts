@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/tr"
 
 export const tr = defineConfig({
-  description: "Uzman BAE şirket kurulumu ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri. İş hayallerinizi gerçeğe dönüştürüyoruz!",
+  description: "BAE'de uzman şirket kurulumu ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri. İş hayallerinizi gerçeğe dönüştürüyoruz!",
   head: [
-    ["meta", { property: "og:title", content: "Uzman BAE şirket kurulumu ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri." }],
+    ["meta", { property: "og:title", content: "BAE'de uzman şirket kurulumu ve destek hizmetleri. Şirket kurulumu, bankacılık, vergi, hukuk ve vize çözümleri." }],
   ],
 
   themeConfig: {
@@ -37,7 +37,9 @@ export const tr = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Hızlı arama...",
+      placeholder4SearchInput: "Bir şey sor...",
+      placeholder4ChatFooter: "Bir şey sor...",
+      placeholder4ChatList: "Sohbet konusu gir...",
       buttonLabel4NavButton: "Anında uzman sohbeti",
     },
     contact_form: {
@@ -52,7 +54,7 @@ export const tr = defineConfig({
       categoryPlaceholder: "hizmet türünü seçin",
       message: "Hedeflerinizi tartışalım (isteğe bağlı)",
       messagePlaceholder: "İhtiyaçlarınıza en uygun çözümü hazırlamamız için lütfen sorgu detaylarınızı paylaşın",
-      submit: "Talep gönder",
+      submit: "İsteği gönder",
       sending: "Gönderiliyor...",
       successTitle: "Teşekkürler!",
       successMessage: "İlginiz için çok teşekkür ederiz! Ekibimiz kısa süre içinde ihtiyaçlarınızı tartışmak için sizinle iletişime geçecektir.",
@@ -91,12 +93,12 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Şirket kayıt adımları", link: "company-registration/insights/incorporation-steps" },
-        { text: "BAE serbest bölgeler", link: "company-registration/free-zones" },
+        { text: "BAE serbest bölgeleri", link: "company-registration/free-zones" },
         { text: "BAE anakara", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "Garantili BAE iş uyumu",
+      text: "BAE iş uyumluluğu garantili",
       collapsed: false,
       items: [
         { text: "Garantili kurumsal banka hesabı onayları", link: "corporate-banking-services/guaranteed-account-approvals" },
@@ -117,7 +119,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Anakara ile serbest bölgeler karşılaştırması", link: "comparison/mainland-vs-free-zones" },
-        { text: "Karşılaştırıldığında BAE kurumları", link: "comparison/entity-types" },
+        { text: "BAE varlık türleri karşılaştırması", link: "comparison/entity-types" },
       ],
     },
   ]

@@ -3,7 +3,7 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
-  description: "阿联酋公司成立及支持服务专家。公司设立、银行、税务、法律及签证解决方案。实现您的商业梦想！",
+  description: "阿联酋公司成立及支持服务专家。公司设立、银行、税务、法律及签证解决方案。让您的商业梦想成为现实！",
   head: [
     ["meta", { property: "og:title", content: "阿联酋公司成立及支持服务专家。公司设立、银行、税务、法律及签证解决方案。" }],
   ],
@@ -33,11 +33,13 @@ export const zh = defineConfig({
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI服务法律法规</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">人工智能服务法律法规</a>`,
     },
 
     localization: {
-      placeholder4SearchInput: "快速搜索...",
+      placeholder4SearchInput: "随时咨询...",
+      placeholder4ChatFooter: "随时咨询...",
+      placeholder4ChatList: "输入聊天主题...",
       buttonLabel4NavButton: "即时专家聊天",
     },
     contact_form: {
@@ -48,7 +50,7 @@ export const zh = defineConfig({
       phone: "电话 *",
       phonePlaceholder: "例如：+1 1234567890 或 (1) 123 456-7890",
       phoneError: "请输入电话号码",
-      category: "我们如何帮助您？*",
+      category: "我们如何帮助您？ *",
       categoryPlaceholder: "选择服务类型",
       message: "让我们讨论您的目标（可选）",
       messagePlaceholder: "请分享您的咨询详情，以帮助我们为您准备最佳解决方案",
@@ -101,7 +103,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "保证企业银行账户批准", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "高风险业务的银行账户", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "保持您的业务合规与保护", link: "company-registration/Protect-Your-Business" },
+        { text: "保持您的业务合规与受保护", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -128,7 +130,7 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
     { text: "关于我们", link: "about" },
     { text: "联系方式", link: "contacts" },
     { text: "隐私政策", link: "Privacy-Policy" },
-    { text: "AI服务法律法规", link: "Legal-Regulations-for-AI-Services" },
+    { text: "人工智能服务法律法规", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
 

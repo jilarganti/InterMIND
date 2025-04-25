@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ru"
 
 export const ru = defineConfig({
-  description: "Экспертные услуги по регистрации компаний в ОАЭ и поддержке. Организация компании, банковское обслуживание, налоги, юридические и визовые решения. Воплощаем ваши бизнес-мечты в реальность!",
+  description: "Экспертные услуги по регистрации компаний в ОАЭ и поддержке. Организация компании, банковские услуги, налоги, юридические вопросы и решения по визам. Воплощаем ваши бизнес-мечты в реальность!",
   head: [
-    ["meta", { property: "og:title", content: "Экспертные услуги по регистрации компаний в ОАЭ и поддержке. Организация компании, банковское обслуживание, налоги, юридические и визовые решения." }],
+    ["meta", { property: "og:title", content: "Экспертные услуги по регистрации компаний в ОАЭ и поддержке. Организация компании, банковские услуги, налоги, юридические вопросы и решения по визам." }],
   ],
 
   themeConfig: {
@@ -37,8 +37,10 @@ export const ru = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Быстрый поиск...",
-      buttonLabel4NavButton: "Мгновенная связь с экспертом",
+      placeholder4SearchInput: "Спросите что угодно...",
+      placeholder4ChatFooter: "Спросите что угодно...",
+      placeholder4ChatList: "Введите тему чата...",
+      buttonLabel4NavButton: "Мгновенный чат с экспертом",
     },
     contact_form: {
       name: "Имя *",
@@ -51,22 +53,22 @@ export const ru = defineConfig({
       category: "Как мы можем вам помочь? *",
       categoryPlaceholder: "выберите тип услуги",
       message: "Давайте обсудим ваши цели (необязательно)",
-      messagePlaceholder: "Пожалуйста, поделитесь деталями вашего запроса, чтобы мы могли подготовить наилучшее решение для ваших потребностей",
+      messagePlaceholder: "Пожалуйста, поделитесь деталями вашего запроса, чтобы мы могли подготовить наилучшее решение для ваших нужд",
       submit: "Отправить запрос",
       sending: "Отправка...",
       successTitle: "Спасибо!",
       successMessage: "Мы высоко ценим ваш интерес! Наша команда свяжется с вами в ближайшее время, чтобы обсудить ваши потребности.",
       defaultCategories: [
-        "Создание новой компании",
+        "Регистрация новой компании",
         "План расширения (например, новое отделение или франшиза)",
         "Перемещение компании",
         "Golden Visa",
-        "Виза только для целей",
+        "Виза только для целей визы",
         "Открытие банковских счетов",
         "Другие услуги",
       ],
-      defaultButtonText: "Отправить нам сообщение",
-      // defaultButtonText: "Получить бесплатную консультацию",
+      defaultButtonText: "Отправьте нам сообщение",
+      // defaultButtonText: "Получите бесплатную консультацию",
     },
   },
 })
@@ -91,25 +93,25 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Этапы регистрации компании", link: "company-registration/insights/incorporation-steps" },
-        { text: "Свободные зоны ОАЭ", link: "company-registration/free-zones" },
+        { text: "Свободные экономические зоны ОАЭ", link: "company-registration/free-zones" },
         { text: "Основная территория ОАЭ", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "Гарантированное соответствие бизнеса в ОАЭ",
+      text: "Гарантированное соответствие бизнеса требованиям ОАЭ",
       collapsed: false,
       items: [
         { text: "Гарантированное одобрение корпоративных банковских счетов", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Банковские счета для бизнеса с высокими рисками", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "Поддержание вашего бизнеса в соответствии и защищенности", link: "company-registration/Protect-Your-Business" },
+        { text: "Поддержание соответствия бизнеса требованиям и его защита", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
       text: "Юридические, бухгалтерские и налоговые вопросы",
       collapsed: false,
       items: [
-        { text: "Учет и налоговые соображения", link: "company-registration/accounting-legal" },
-        { text: "Регистр UBO", link: "company-registration/ubo" },
+        { text: "Учет и налоговые вопросы", link: "company-registration/accounting-legal" },
+        { text: "Реестр UBO", link: "company-registration/ubo" },
       ],
     },
     {

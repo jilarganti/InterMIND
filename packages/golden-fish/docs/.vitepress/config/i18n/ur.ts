@@ -33,11 +33,13 @@ export const ur = defineConfig({
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">رازداری کی ترتیبات</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">رازداری کی پالیسی</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI خدمات کے لیے قانونی ضوابط</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">رازداری کی ترتیبات</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">رازداری کی پالیسی</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">مصنوعی ذہانت کی خدمات کے قانونی ضوابط</a>`,
     },
 
     localization: {
-      placeholder4SearchInput: "فوری تلاش...",
+      placeholder4SearchInput: "کچھ بھی پوچھیں...",
+      placeholder4ChatFooter: "کچھ بھی پوچھیں...",
+      placeholder4ChatList: "چیٹ کا موضوع درج کریں...",
       buttonLabel4NavButton: "فوری ماہر چیٹ",
     },
     contact_form: {
@@ -51,14 +53,14 @@ export const ur = defineConfig({
       category: "ہم آپ کی کس طرح مدد کر سکتے ہیں؟ *",
       categoryPlaceholder: "خدمت کی قسم منتخب کریں",
       message: "آپ کے مقاصد پر بات کریں (اختیاری)",
-      messagePlaceholder: "براہ کرم اپنی درخواست کی تفصیلات شیئر کریں تاکہ ہم آپ کی ضروریات کے لیے بہترین حل تیار کر سکیں",
+      messagePlaceholder: "براہ کرم اپنی درخواست کی تفصیلات شیئر کریں تاکہ ہم آپ کی ضروریات کے لئے بہترین حل تیار کر سکیں",
       submit: "درخواست جمع کروائیں",
-      sending: "بھیجا جا رہا ہے...",
+      sending: "بھیج رہے ہیں...",
       successTitle: "شکریہ!",
-      successMessage: "ہم آپ کی دلچسپی کی بہت قدر کرتے ہیں! ہماری ٹیم جلد ہی آپ سے رابطہ کرے گی تاکہ آپ کی ضروریات پر بات چیت کی جا سکے۔",
+      successMessage: "ہم آپ کی دلچسپی کی بہت قدر کرتے ہیں! ہماری ٹیم جلد ہی آپ سے رابطہ کرے گی تاکہ آپ کی ضروریات پر بات چیت کر سکے۔",
       defaultCategories: [
         "نئی کمپنی کی تشکیل",
-        "توسیع کا منصوبہ (یعنی نیا شاخ یا فرنچائز)",
+        "توسیع کا منصوبہ (مثلاً نیا شاخ یا فرنچائز)",
         "کمپنی کی منتقلی",
         "گولڈن ویزا",
         "صرف ویزا کے مقاصد",
@@ -79,10 +81,10 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "کمپنی رجسٹریشن", link: "company-registration/overview" },
         { text: "فوائد و نقصانات", link: "company-registration/benefits-problems" },
-        { text: "کارپوریٹ بینکنگ حل", link: "company-registration/banking" },
+        { text: "کارپوریٹ بینکاری حل", link: "company-registration/banking" },
         { text: "گولڈن ویزا", link: "company-registration//golden-visa" },
         { text: "ویزا اور EID", link: "company-registration/employment-visas" },
-        { text: "فیس اور وقت کی حدود", link: "company-registration/fees-timelines" },
+        { text: "فیس اور ٹائم لائنز", link: "company-registration/fees-timelines" },
         { text: "کامیابی کے بعد ہی ادائیگی", link: "benefits/success-based-fees" },
       ],
     },
@@ -99,9 +101,9 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "امارات کاروبار کی تعمیل کی ضمانت",
       collapsed: false,
       items: [
-        { text: "کارپوریٹ بینک اکاؤنٹ کی منظوری کی ضمانت", link: "corporate-banking-services/guaranteed-account-approvals" },
-        { text: "ہائی رسک کاروبار کے لیے بینک اکاؤنٹس", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "اپنے کاروبار کو محفوظ اور مطابقت پذیر رکھیں", link: "company-registration/Protect-Your-Business" },
+        { text: "کارپوریٹ بینک اکاؤنٹ منظوریوں کی ضمانت", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "ہائی رسک کاروبار کے لئے بینک اکاؤنٹس", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
+        { text: "اپنے کاروبار کو مطابقت پذیر اور محفوظ رکھیں", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -128,10 +130,10 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
     { text: "ہمارے بارے میں", link: "about" },
     { text: "رابطہ", link: "contacts" },
     { text: "رازداری کی پالیسی", link: "Privacy-Policy" },
-    { text: "AI خدمات کے لیے قانونی ضوابط", link: "Legal-Regulations-for-AI-Services" },
+    { text: "مصنوعی ذہانت کی خدمات کے قانونی ضوابط", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
 
 // function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-//   return [{ text: "رابطہ", link: `contacts` }]
+//   return [{ text: "Contacts", link: `contacts` }]
 // }

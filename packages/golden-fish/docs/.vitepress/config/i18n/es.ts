@@ -3,7 +3,7 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/es"
 
 export const es = defineConfig({
-  description: "Expertos en formación de empresas y servicios de apoyo en los EAU. Creación de empresas, soluciones bancarias, fiscales, legales y de visados. ¡Hacemos realidad los sueños de su negocio!",
+  description: "Expertos en formación de empresas y servicios de apoyo en los EAU. Creación de empresas, soluciones bancarias, fiscales, legales y de visados. ¡Haciendo realidad los sueños de su negocio!",
   head: [
     ["meta", { property: "og:title", content: "Expertos en formación de empresas y servicios de apoyo en los EAU. Creación de empresas, soluciones bancarias, fiscales, legales y de visados." }],
   ],
@@ -21,7 +21,7 @@ export const es = defineConfig({
       },
       {
         text: "Recursos",
-        items: [{ text: "Acerca de nosotros", link: `${BASE_PATH}/resources/about` }],
+        items: [{ text: "Sobre nosotros", link: `${BASE_PATH}/resources/about` }],
       },
       { text: "Contactos", link: `${BASE_PATH}/resources/contacts` },
     ],
@@ -37,25 +37,27 @@ export const es = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Búsqueda rápida...",
+      placeholder4SearchInput: "Pregunta cualquier cosa...",
+      placeholder4ChatFooter: "Pregunta cualquier cosa...",
+      placeholder4ChatList: "Introduce el tema de la conversación...",
       buttonLabel4NavButton: "Chat instantáneo con expertos",
     },
     contact_form: {
       name: "Nombre *",
-      namePlaceholder: "su nombre",
+      namePlaceholder: "tu nombre",
       email: "Correo electrónico *",
-      emailPlaceholder: "su dirección de correo electrónico",
+      emailPlaceholder: "tu dirección de correo electrónico",
       phone: "Teléfono *",
       phonePlaceholder: "p. ej., +1 1234567890 o (1) 123 456-7890",
-      phoneError: "Por favor, introduzca el número de teléfono",
-      category: "¿Cómo podemos ayudarle? *",
-      categoryPlaceholder: "seleccione tipo de servicio",
-      message: "Hablemos de sus objetivos (opcional)",
-      messagePlaceholder: "Por favor, comparta los detalles de su consulta para ayudarnos a preparar la mejor solución para sus necesidades",
+      phoneError: "Por favor, introduce el número de teléfono",
+      category: "¿Cómo podemos ayudarte? *",
+      categoryPlaceholder: "selecciona el tipo de servicio",
+      message: "Hablemos de tus objetivos (opcional)",
+      messagePlaceholder: "Por favor, comparte los detalles de tu consulta para ayudarnos a preparar la mejor solución para tus necesidades",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
-      successMessage: "¡Agradecemos mucho su interés! Nuestro equipo se pondrá en contacto con usted pronto para discutir sus necesidades.",
+      successMessage: "¡Agradecemos mucho tu interés! Nuestro equipo se pondrá en contacto contigo en breve para discutir tus necesidades.",
       defaultCategories: [
         "Formación de nueva empresa",
         "Plan de expansión (p. ej., nueva sucursal o franquicia)",
@@ -65,8 +67,8 @@ export const es = defineConfig({
         "Apertura de cuentas bancarias",
         "Otros servicios",
       ],
-      defaultButtonText: "Envíenos un mensaje",
-      // defaultButtonText: "Obtenga una consulta gratuita",
+      defaultButtonText: "Envíanos un mensaje",
+      // defaultButtonText: "Obtén una consulta gratuita",
     },
   },
 })
@@ -83,7 +85,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Visa Dorada", link: "company-registration//golden-visa" },
         { text: "Visas y EID", link: "company-registration/employment-visas" },
         { text: "Tarifas y plazos", link: "company-registration/fees-timelines" },
-        { text: "Pague solo después del éxito", link: "benefits/success-based-fees" },
+        { text: "Paga solo después del éxito", link: "benefits/success-based-fees" },
       ],
     },
     {
@@ -91,7 +93,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Pasos para el registro de empresas", link: "company-registration/insights/incorporation-steps" },
-        { text: "Zonas libres de los EAU", link: "company-registration/free-zones" },
+        { text: "Zonas francas de los EAU", link: "company-registration/free-zones" },
         { text: "Continente de los EAU", link: "company-registration/mainland" },
       ],
     },
@@ -101,7 +103,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Aprobaciones garantizadas de cuentas bancarias corporativas", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Cuentas bancarias para negocios de alto riesgo", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "Mantenga su negocio conforme y protegido", link: "company-registration/Protect-Your-Business" },
+        { text: "Mantén tu negocio cumpliendo y protegido", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -109,15 +111,15 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Consideraciones de contabilidad e impuestos", link: "company-registration/accounting-legal" },
-        { text: "Registro UBO", link: "company-registration/ubo" },
+        { text: "Registro de UBO", link: "company-registration/ubo" },
       ],
     },
     {
       text: "Comparaciones",
       collapsed: false,
       items: [
-        { text: "Continente vs zonas libres", link: "comparison/mainland-vs-free-zones" },
-        { text: "Entidades de los EAU comparadas", link: "comparison/entity-types" },
+        { text: "Continente vs zonas francas", link: "comparison/mainland-vs-free-zones" },
+        { text: "Comparación de entidades en los EAU", link: "comparison/entity-types" },
       ],
     },
   ]
@@ -125,7 +127,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Acerca de nosotros", link: "about" },
+    { text: "Sobre nosotros", link: "about" },
     { text: "Contactos", link: "contacts" },
     { text: "Política de privacidad", link: "Privacy-Policy" },
     { text: "Regulaciones legales para servicios de IA", link: "Legal-Regulations-for-AI-Services" },

@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/pt"
 
 export const pt = defineConfig({
-  description: "Especialista em formação de empresas e serviços de apoio nos Emirados Árabes Unidos. Configuração de empresa, soluções bancárias, fiscais, legais e de vistos. Tornando seus sonhos empresariais realidade!",
+  description: "Especialistas em formação de empresas e serviços de apoio nos Emirados Árabes Unidos. Configuração de empresa, soluções bancárias, fiscais, legais e de vistos. Tornando seus sonhos empresariais em realidade!",
   head: [
-    ["meta", { property: "og:title", content: "Especialista em formação de empresas e serviços de apoio nos Emirados Árabes Unidos. Configuração de empresa, soluções bancárias, fiscais, legais e de vistos." }],
+    ["meta", { property: "og:title", content: "Especialistas em formação de empresas e serviços de apoio nos Emirados Árabes Unidos. Configuração de empresa, soluções bancárias, fiscais, legais e de vistos." }],
   ],
 
   themeConfig: {
@@ -37,7 +37,9 @@ export const pt = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Busca rápida...",
+      placeholder4SearchInput: "Pergunte qualquer coisa...",
+      placeholder4ChatFooter: "Pergunte qualquer coisa...",
+      placeholder4ChatList: "Insira o tópico do chat...",
       buttonLabel4NavButton: "Chat instantâneo com especialista",
     },
     contact_form: {
@@ -60,7 +62,7 @@ export const pt = defineConfig({
         "Formação de nova empresa",
         "Plano de expansão (ex.: nova filial ou franquia)",
         "Relocação de empresa",
-        "Visto Gold",
+        "Golden Visa",
         "Apenas para fins de visto",
         "Abertura de contas bancárias",
         "Outros Serviços",
@@ -74,29 +76,29 @@ export const pt = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Resumo de negócios nos EAU",
+      text: "Resumo de negócios nos Emirados Árabes Unidos",
       // collapsed: false,
       items: [
         { text: "Registro de empresa", link: "company-registration/overview" },
         { text: "Prós & contras", link: "company-registration/benefits-problems" },
         { text: "Soluções bancárias corporativas", link: "company-registration/banking" },
-        { text: "Visto Gold", link: "company-registration//golden-visa" },
+        { text: "Golden Visa", link: "company-registration//golden-visa" },
         { text: "Vistos & EID", link: "company-registration/employment-visas" },
         { text: "Taxas e prazos", link: "company-registration/fees-timelines" },
         { text: "Pague somente após o sucesso", link: "benefits/success-based-fees" },
       ],
     },
     {
-      text: "Estruturas corporativas dos EAU",
+      text: "Estruturas corporativas nos Emirados Árabes Unidos",
       collapsed: false,
       items: [
         { text: "Etapas para registro de empresa", link: "company-registration/insights/incorporation-steps" },
-        { text: "Free Zones dos EAU", link: "company-registration/free-zones" },
-        { text: "Mainland dos EAU", link: "company-registration/mainland" },
+        { text: "Zonas livres dos Emirados Árabes Unidos", link: "company-registration/free-zones" },
+        { text: "Continente dos Emirados Árabes Unidos", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "Conformidade empresarial garantida nos EAU",
+      text: "Conformidade empresarial garantida nos Emirados Árabes Unidos",
       collapsed: false,
       items: [
         { text: "Aprovações garantidas de conta bancária corporativa", link: "corporate-banking-services/guaranteed-account-approvals" },
@@ -116,8 +118,8 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Comparativos",
       collapsed: false,
       items: [
-        { text: "Mainland vs Free Zones", link: "comparison/mainland-vs-free-zones" },
-        { text: "Entidades dos EAU comparadas", link: "comparison/entity-types" },
+        { text: "Continente vs zonas livres", link: "comparison/mainland-vs-free-zones" },
+        { text: "Comparação de entidades dos Emirados Árabes Unidos", link: "comparison/entity-types" },
       ],
     },
   ]

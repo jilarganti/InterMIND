@@ -37,8 +37,10 @@ export const ta = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "விரைவான தேடல்...",
-      buttonLabel4NavButton: "உடனடி நிபுணர் அரட்டை",
+      placeholder4SearchInput: "எதையும் கேளுங்கள்...",
+      placeholder4ChatFooter: "எதையும் கேளுங்கள்...",
+      placeholder4ChatList: "உரையாடல் தலைப்பை உள்ளிடுங்கள்...",
+      buttonLabel4NavButton: "உடனடி நிபுணர் உரையாடல்",
     },
     contact_form: {
       name: "பெயர் *",
@@ -47,22 +49,22 @@ export const ta = defineConfig({
       emailPlaceholder: "உங்கள் மின்னஞ்சல் முகவரி",
       phone: "தொலைபேசி *",
       phonePlaceholder: "உதாரணமாக, +1 1234567890 அல்லது (1) 123 456-7890",
-      phoneError: "தொலைபேசி எண்ணை உள்ளிடவும்",
+      phoneError: "தொலைபேசி எண்ணை உள்ளிடுங்கள்",
       category: "உங்களுக்கு எவ்வாறு உதவலாம்? *",
       categoryPlaceholder: "சேவை வகையை தெரிவு செய்க",
-      message: "உங்கள் இலக்குகளை பற்றி பேசுவோம் (விருப்பமானது)",
+      message: "உங்கள் இலக்குகளை பேசுவோம் (விருப்பத்தேர்வு)",
       messagePlaceholder: "உங்கள் விசாரணை விவரங்களை பகிர்ந்து உங்கள் தேவைகளுக்கு சிறந்த தீர்வை தயாரிக்க எங்களுக்கு உதவுங்கள்",
       submit: "கோரிக்கையை சமர்ப்பிக்கவும்",
       sending: "அனுப்புகிறது...",
       successTitle: "நன்றி!",
-      successMessage: "உங்கள் ஆர்வத்தை நாங்கள் மிகவும் மதிக்கிறோம்! உங்கள் தேவைகளை பற்றி விவாதிக்க எங்கள் குழு விரைவில் உங்களுக்கு தொடர்பு கொள்ளும்.",
+      successMessage: "உங்கள் ஆர்வத்தை நாங்கள் மிகவும் மதிக்கிறோம்! உங்கள் தேவைகளை பேச எங்கள் குழு விரைவில் உங்களுக்கு தொடர்பு கொள்ளும்.",
       defaultCategories: [
         "புதிய நிறுவன அமைப்பு",
         "விரிவாக்க திட்டம் (உதாரணமாக. புதிய கிளை அல்லது பிரான்சைஸ்)",
         "நிறுவன மாற்றம்",
         "கோல்டன் விசா",
         "விசா நோக்கங்களுக்கு மட்டும்",
-        "வங்கி கணக்குகள் திறப்பு",
+        "வங்கி கணக்குகளை திறப்பது",
         "பிற சேவைகள்",
       ],
       defaultButtonText: "எங்களுக்கு ஒரு செய்தி அனுப்புங்கள்",
@@ -81,7 +83,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "நன்மைகள் & குறைகள்", link: "company-registration/benefits-problems" },
         { text: "கார்ப்பரேட் வங்கி தீர்வுகள்", link: "company-registration/banking" },
         { text: "கோல்டன் விசா", link: "company-registration//golden-visa" },
-        { text: "விசாக்கள் & EID", link: "company-registration/employment-visas" },
+        { text: "விசாக்கள் & இஇடி", link: "company-registration/employment-visas" },
         { text: "கட்டணங்கள் மற்றும் காலக்கெடுகள்", link: "company-registration/fees-timelines" },
         { text: "வெற்றிக்கு பின் மட்டுமே செலுத்துக", link: "benefits/success-based-fees" },
       ],
@@ -96,12 +98,12 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "யுஏஇ வணிக சீர்திருத்தம் உறுதி",
+      text: "யுஏஇ வணிக செவ்வை உறுதி",
       collapsed: false,
       items: [
         { text: "உறுதியான கார்ப்பரேட் வங்கி கணக்கு அனுமதிகள்", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "உயர் அபாய வணிகத்திற்கான வங்கி கணக்குகள்", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "உங்கள் வணிகத்தை சீர்திருத்தமாகவும் பாதுகாப்பாகவும் வைத்திருக்கவும்", link: "company-registration/Protect-Your-Business" },
+        { text: "உங்கள் வணிகத்தை செவ்வையாகவும் பாதுகாப்பாகவும் வைத்திருங்கள்", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
@@ -109,7 +111,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "கணக்கியல் மற்றும் வரி கருத்துக்கள்", link: "company-registration/accounting-legal" },
-        { text: "UBO பதிவு", link: "company-registration/ubo" },
+        { text: "யுபிஓ பதிவு", link: "company-registration/ubo" },
       ],
     },
     {

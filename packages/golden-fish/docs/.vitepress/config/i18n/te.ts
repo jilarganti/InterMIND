@@ -33,11 +33,13 @@ export const te = defineConfig({
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">గోప్యతా సెట్టింగ్స్</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">గోప్యతా విధానం</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI సేవల కోసం చట్టబద్ధ నియమావళి</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">గోప్యతా సెట్టింగ్స్</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">గోప్యతా విధానం</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI సేవల కోసం చట్టబద్ధ నియమాలు</a>`,
     },
 
     localization: {
-      placeholder4SearchInput: "త్వరిత అన్వేషణ...",
+      placeholder4SearchInput: "ఏదైనా అడగండి...",
+      placeholder4ChatFooter: "ఏదైనా అడగండి...",
+      placeholder4ChatList: "చాట్ అంశం నమోదు చేయండి...",
       buttonLabel4NavButton: "తక్షణ నిపుణుడి చాట్",
     },
     contact_form: {
@@ -47,7 +49,7 @@ export const te = defineConfig({
       emailPlaceholder: "మీ ఇమెయిల్ చిరునామా",
       phone: "ఫోన్ *",
       phonePlaceholder: "ఉదా., +1 1234567890 లేదా (1) 123 456-7890",
-      phoneError: "దయచేసి ఫోన్ నంబర్ ని ఎంటర్ చేయండి",
+      phoneError: "దయచేసి ఫోన్ నంబర్ నమోదు చేయండి",
       category: "మేము మీకు ఎలా సహాయపడగలము? *",
       categoryPlaceholder: "సేవా రకం ఎంచుకోండి",
       message: "మీ లక్ష్యాలను చర్చిద్దాం (ఐచ్ఛికం)",
@@ -61,7 +63,7 @@ export const te = defineConfig({
         "విస్తరణ ప్రణాళిక (ఉదా. కొత్త శాఖ లేదా ఫ్రాంచైజీ)",
         "కంపెనీ స్థానాంతరణ",
         "గోల్డెన్ వీసా",
-        "కేవలం వీసా ఉద్దేశ్యాల కోసం",
+        "వీసా ఉద్దేశ్యాలు మాత్రమే",
         "బ్యాంక్ ఖాతాల తెరవడం",
         "ఇతర సేవలు",
       ],
@@ -78,11 +80,11 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       // collapsed: false,
       items: [
         { text: "కంపెనీ నమోదు", link: "company-registration/overview" },
-        { text: "ప్రయోజనాలు & లోపాలు", link: "company-registration/benefits-problems" },
+        { text: "ప్రయోజనాలు & సమస్యలు", link: "company-registration/benefits-problems" },
         { text: "కార్పొరేట్ బ్యాంకింగ్ పరిష్కారాలు", link: "company-registration/banking" },
         { text: "గోల్డెన్ వీసా", link: "company-registration//golden-visa" },
         { text: "వీసాలు & EID", link: "company-registration/employment-visas" },
-        { text: "ఫీజులు మరియు సమయాలు", link: "company-registration/fees-timelines" },
+        { text: "ఫీజులు మరియు సమయపట్టికలు", link: "company-registration/fees-timelines" },
         { text: "విజయం తర్వాత మాత్రమే చెల్లించండి", link: "benefits/success-based-fees" },
       ],
     },
@@ -128,7 +130,7 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
     { text: "మా గురించి", link: "about" },
     { text: "సంప్రదింపులు", link: "contacts" },
     { text: "గోప్యతా విధానం", link: "Privacy-Policy" },
-    { text: "AI సేవల కోసం చట్టబద్ధ నియమావళి", link: "Legal-Regulations-for-AI-Services" },
+    { text: "AI సేవల కోసం చట్టబద్ధ నియమాలు", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
 

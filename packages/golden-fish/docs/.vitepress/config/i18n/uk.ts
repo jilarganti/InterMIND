@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/uk"
 
 export const uk = defineConfig({
-  description: "Експертні послуги з організації бізнесу в ОАЕ та підтримки. Реєстрація компаній, банківські рішення, податкові, юридичні та візові послуги. Реалізуємо ваші бізнес-мрії!",
+  description: "Експертні послуги з організації компаній в ОАЕ та підтримки. Реєстрація компанії, банківські рішення, податки, юридичні послуги та візова підтримка. Реалізуємо ваші бізнес-мрії!",
   head: [
-    ["meta", { property: "og:title", content: "Експертні послуги з організації бізнесу в ОАЕ та підтримки. Реєстрація компаній, банківські рішення, податкові, юридичні та візові послуги." }],
+    ["meta", { property: "og:title", content: "Експертні послуги з організації компаній в ОАЕ та підтримки. Реєстрація компанії, банківські рішення, податки, юридичні послуги та візова підтримка." }],
   ],
 
   themeConfig: {
@@ -33,11 +33,13 @@ export const uk = defineConfig({
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Налаштування конфіденційності</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Політика конфіденційності</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Юридичні регуляції для послуг ШІ</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Налаштування конфіденційності</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Політика конфіденційності</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Юридичні регуляції для AI послуг</a>`,
     },
 
     localization: {
-      placeholder4SearchInput: "Швидкий пошук...",
+      placeholder4SearchInput: "Запитайте що завгодно...",
+      placeholder4ChatFooter: "Запитайте що завгодно...",
+      placeholder4ChatList: "Введіть тему чату...",
       buttonLabel4NavButton: "Миттєвий чат з експертом",
     },
     contact_form: {
@@ -51,7 +53,7 @@ export const uk = defineConfig({
       category: "Як ми можемо вам допомогти? *",
       categoryPlaceholder: "виберіть тип послуги",
       message: "Обговоримо ваші цілі (необов'язково)",
-      messagePlaceholder: "Будь ласка, опишіть деталі вашого запиту, щоб ми могли підготувати найкраще рішення для ваших потреб",
+      messagePlaceholder: "Будь ласка, поділіться деталями вашого запиту, щоб ми могли підготувати найкраще рішення для ваших потреб",
       submit: "Надіслати запит",
       sending: "Відправлення...",
       successTitle: "Дякуємо!",
@@ -96,7 +98,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "Гарантоване дотримання бізнес-вимог в ОАЕ",
+      text: "Гарантоване дотримання бізнесу в ОАЕ",
       collapsed: false,
       items: [
         { text: "Гарантоване схвалення корпоративних банківських рахунків", link: "corporate-banking-services/guaranteed-account-approvals" },
@@ -128,7 +130,7 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
     { text: "Про нас", link: "about" },
     { text: "Контакти", link: "contacts" },
     { text: "Політика конфіденційності", link: "Privacy-Policy" },
-    { text: "Юридичні регуляції для послуг ШІ", link: "Legal-Regulations-for-AI-Services" },
+    { text: "Юридичні регуляції для AI послуг", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
 

@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/id"
 
 export const id = defineConfig({
-  description: "Layanan pembentukan perusahaan dan dukungan ahli di UEA. Penyiapan perusahaan, perbankan, pajak, solusi hukum dan visa. Mewujudkan impian bisnis Anda!",
+  description: "Layanan pembentukan perusahaan dan dukungan ahli di UEA. Penyiapan perusahaan, perbankan, pajak, solusi legal dan visa. Mewujudkan impian bisnis Anda!",
   head: [
-    ["meta", { property: "og:title", content: "Layanan pembentukan perusahaan dan dukungan ahli di UEA. Penyiapan perusahaan, perbankan, pajak, solusi hukum dan visa." }],
+    ["meta", { property: "og:title", content: "Layanan pembentukan perusahaan dan dukungan ahli di UEA. Penyiapan perusahaan, perbankan, pajak, solusi legal dan visa." }],
   ],
 
   themeConfig: {
@@ -33,12 +33,14 @@ export const id = defineConfig({
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Pengaturan Privasi</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Kebijakan Privasi</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Regulasi Hukum untuk Layanan AI</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Pengaturan Privasi</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Kebijakan Privasi</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Regulasi Legal untuk Layanan AI</a>`,
     },
 
     localization: {
-      placeholder4SearchInput: "Pencarian cepat...",
-      buttonLabel4NavButton: "Obrolan ahli instan",
+      placeholder4SearchInput: "Tanya apa saja...",
+      placeholder4ChatFooter: "Tanya apa saja...",
+      placeholder4ChatList: "Masukkan topik chat...",
+      buttonLabel4NavButton: "Chat ahli instan",
     },
     contact_form: {
       name: "Nama *",
@@ -48,7 +50,7 @@ export const id = defineConfig({
       phone: "Telepon *",
       phonePlaceholder: "mis., +1 1234567890 atau (1) 123 456-7890",
       phoneError: "Silakan masukkan nomor telepon",
-      category: "Bagaimana kami dapat membantu Anda? *",
+      category: "Bagaimana kami bisa membantu Anda? *",
       categoryPlaceholder: "pilih jenis layanan",
       message: "Mari kita bahas tujuan Anda (opsional)",
       messagePlaceholder: "Silakan bagikan detail pertanyaan Anda untuk membantu kami menyiapkan solusi terbaik untuk kebutuhan Anda",
@@ -91,8 +93,8 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Langkah pendaftaran perusahaan", link: "company-registration/insights/incorporation-steps" },
-        { text: "Free Zone UEA", link: "company-registration/free-zones" },
-        { text: "Mainland UEA", link: "company-registration/mainland" },
+        { text: "Zona bebas UEA", link: "company-registration/free-zones" },
+        { text: "Daratan UEA", link: "company-registration/mainland" },
       ],
     },
     {
@@ -105,7 +107,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "Hukum, akuntansi dan pajak",
+      text: "Legal, akuntansi dan pajak",
       collapsed: false,
       items: [
         { text: "Pertimbangan akuntansi dan pajak", link: "company-registration/accounting-legal" },
@@ -116,7 +118,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Perbandingan",
       collapsed: false,
       items: [
-        { text: "Mainland vs Free Zone", link: "comparison/mainland-vs-free-zones" },
+        { text: "Daratan vs zona bebas", link: "comparison/mainland-vs-free-zones" },
         { text: "Perbandingan entitas UEA", link: "comparison/entity-types" },
       ],
     },
@@ -128,7 +130,7 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
     { text: "Tentang kami", link: "about" },
     { text: "Kontak", link: "contacts" },
     { text: "Kebijakan Privasi", link: "Privacy-Policy" },
-    { text: "Regulasi Hukum untuk Layanan AI", link: "Legal-Regulations-for-AI-Services" },
+    { text: "Regulasi Legal untuk Layanan AI", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
 

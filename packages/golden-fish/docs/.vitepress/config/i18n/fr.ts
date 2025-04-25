@@ -37,7 +37,9 @@ export const fr = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Recherche rapide...",
+      placeholder4SearchInput: "Posez n'importe quelle question...",
+      placeholder4ChatFooter: "Posez n'importe quelle question...",
+      placeholder4ChatList: "Entrez le sujet de la discussion...",
       buttonLabel4NavButton: "Chat instantané avec un expert",
     },
     contact_form: {
@@ -46,7 +48,7 @@ export const fr = defineConfig({
       email: "Email *",
       emailPlaceholder: "votre adresse email",
       phone: "Téléphone *",
-      phonePlaceholder: "ex. : +1 1234567890 ou (1) 123 456-7890",
+      phonePlaceholder: "par exemple, +1 1234567890 ou (1) 123 456-7890",
       phoneError: "Veuillez entrer un numéro de téléphone",
       category: "Comment pouvons-nous vous aider ? *",
       categoryPlaceholder: "sélectionnez le type de service",
@@ -58,10 +60,10 @@ export const fr = defineConfig({
       successMessage: "Nous apprécions grandement votre intérêt ! Notre équipe vous contactera sous peu pour discuter de vos besoins.",
       defaultCategories: [
         "Création de nouvelle entreprise",
-        "Plan d'expansion (ex. nouvelle succursale ou franchise)",
+        "Plan d'expansion (par ex. nouvelle succursale ou franchise)",
         "Relocalisation d'entreprise",
         "Visa doré",
-        "Uniquement pour des raisons de visa",
+        "Uniquement pour le visa",
         "Ouverture de comptes bancaires",
         "Autres services",
       ],
@@ -74,7 +76,7 @@ export const fr = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Résumé des affaires aux Émirats",
+      text: "Résumé des affaires aux EAU",
       // collapsed: false,
       items: [
         { text: "Enregistrement d'entreprise", link: "company-registration/overview" },
@@ -87,19 +89,19 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "Structures d'entreprise aux Émirats",
+      text: "Structures d'entreprise aux EAU",
       collapsed: false,
       items: [
         { text: "Étapes d'enregistrement d'entreprise", link: "company-registration/insights/incorporation-steps" },
-        { text: "Free Zones aux Émirats", link: "company-registration/free-zones" },
-        { text: "Mainland aux Émirats", link: "company-registration/mainland" },
+        { text: "Zones franches des EAU", link: "company-registration/free-zones" },
+        { text: "Continent des EAU", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "Conformité d'entreprise garantie aux Émirats",
+      text: "Conformité des affaires aux EAU garantie",
       collapsed: false,
       items: [
-        { text: "Approvals garantis de comptes bancaires d'entreprise", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "Approvals de comptes bancaires d'entreprise garantis", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Comptes bancaires pour entreprises à haut risque", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
         { text: "Maintenez votre entreprise conforme et protégée", link: "company-registration/Protect-Your-Business" },
       ],
@@ -116,8 +118,8 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Comparaisons",
       collapsed: false,
       items: [
-        { text: "Mainland vs Free Zones", link: "comparison/mainland-vs-free-zones" },
-        { text: "Comparaison des entités aux Émirats", link: "comparison/entity-types" },
+        { text: "Continent vs zones franches", link: "comparison/mainland-vs-free-zones" },
+        { text: "Comparaison des entités des EAU", link: "comparison/entity-types" },
       ],
     },
   ]

@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
-  description: "UAEでの会社設立とサポートサービスの専門家。会社設立、銀行、税金、法律、ビザのソリューション。あなたのビジネスの夢を現実に！",
+  description: "UAEでの会社設立とサポートサービスの専門家。会社設立、銀行、税務、法務、ビザのソリューション。あなたのビジネスの夢を現実に！",
   head: [
-    ["meta", { property: "og:title", content: "UAEでの会社設立とサポートサービスの専門家。会社設立、銀行、税金、法律、ビザのソリューション。" }],
+    ["meta", { property: "og:title", content: "UAEでの会社設立とサポートサービスの専門家。会社設立、銀行、税務、法務、ビザのソリューション。" }],
   ],
 
   themeConfig: {
@@ -37,7 +37,9 @@ export const ja = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "クイック検索...",
+      placeholder4SearchInput: "何でもお尋ねください...",
+      placeholder4ChatFooter: "何でもお尋ねください...",
+      placeholder4ChatList: "チャットのトピックを入力...",
       buttonLabel4NavButton: "即時エキスパートチャット",
     },
     contact_form: {
@@ -45,13 +47,13 @@ export const ja = defineConfig({
       namePlaceholder: "あなたの名前",
       email: "メール *",
       emailPlaceholder: "あなたのメールアドレス",
-      phone: "電話 *",
+      phone: "電話番号 *",
       phonePlaceholder: "例：+1 1234567890 または (1) 123 456-7890",
       phoneError: "電話番号を入力してください",
       category: "どのようにお手伝いできますか？ *",
       categoryPlaceholder: "サービスタイプを選択",
       message: "あなたの目標について話しましょう（任意）",
-      messagePlaceholder: "あなたのニーズに最適なソリューションを準備するために、お問い合わせの詳細を共有してください",
+      messagePlaceholder: "あなたの問い合わせの詳細を共有してください。最適なソリューションを準備するために",
       submit: "リクエストを送信",
       sending: "送信中...",
       successTitle: "ありがとうございます！",
@@ -62,7 +64,7 @@ export const ja = defineConfig({
         "会社の移転",
         "ゴールデンビザ",
         "ビザのみの目的",
-        "銀行口座開設",
+        "銀行口座の開設",
         "その他のサービス",
       ],
       defaultButtonText: "メッセージを送る",
@@ -87,7 +89,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "UAE企業構造",
+      text: "UAEの企業構造",
       collapsed: false,
       items: [
         { text: "会社登録手順", link: "company-registration/insights/incorporation-steps" },
@@ -99,9 +101,9 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "UAEビジネスコンプライアンス保証",
       collapsed: false,
       items: [
-        { text: "保証された企業銀行口座の承認", link: "corporate-banking-services/guaranteed-account-approvals" },
-        { text: "ハイリスクビジネスのための銀行口座", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "ビジネスをコンプライアンスと保護のもとに保つ", link: "company-registration/Protect-Your-Business" },
+        { text: "企業銀行口座承認保証", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "ハイリスクビジネスの銀行口座", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
+        { text: "ビジネスをコンプライアンスと保護する", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {

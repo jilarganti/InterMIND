@@ -27,8 +27,8 @@ export const config = {
   },
 
   models: {
-    claude: { name: "claude-3-5-sonnet-20241022" },
     gpt4: { name: "gpt-4-1106-preview" },
+    claude: { name: "claude-3-5-sonnet-20241022" },
     // claude: { name: "claude-3-5-haiku-20241022" },
     grok: { name: "grok-2-latest" },
   },

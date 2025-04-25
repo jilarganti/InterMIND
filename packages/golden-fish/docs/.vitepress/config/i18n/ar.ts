@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description: "خبراء في تأسيس الشركات وخدمات الدعم في الإمارات. إعداد الشركة، الحلول المصرفية، الضرائب، الخدمات القانونية وحلول التأشيرات. نحول أحلامك التجارية إلى واقع!",
+  description: "خدمات تأسيس الشركات والدعم في الإمارات العربية المتحدة من قبل خبراء. إعداد الشركة، الحلول المصرفية، الضرائب، الخدمات القانونية والتأشيرات. نحقق أحلامك التجارية إلى واقع!",
   head: [
-    ["meta", { property: "og:title", content: "خبراء في تأسيس الشركات وخدمات الدعم في الإمارات. إعداد الشركة، الحلول المصرفية، الضرائب، الخدمات القانونية وحلول التأشيرات." }],
+    ["meta", { property: "og:title", content: "خدمات تأسيس الشركات والدعم في الإمارات العربية المتحدة من قبل خبراء. إعداد الشركة، الحلول المصرفية، الضرائب، الخدمات القانونية والتأشيرات." }],
   ],
 
   themeConfig: {
@@ -14,7 +14,7 @@ export const ar = defineConfig({
         text: "الخدمات",
         activeMatch: `${BASE_PATH}/company-registration/`,
         items: [
-          { text: "تسجيل الشركات", link: `${BASE_PATH}/uae-business/company-registration/overview` },
+          { text: "تسجيل الشركة", link: `${BASE_PATH}/uae-business/company-registration/overview` },
           { text: "الحلول المصرفية", link: `${BASE_PATH}/uae-business/company-registration/banking` },
           { text: "الهجرة", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
         ],
@@ -37,8 +37,10 @@ export const ar = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "بحث سريع...",
-      buttonLabel4NavButton: "دردشة فورية مع الخبراء",
+      placeholder4SearchInput: "اسأل عن أي شيء...",
+      placeholder4ChatFooter: "اسأل عن أي شيء...",
+      placeholder4ChatList: "أدخل موضوع الدردشة...",
+      buttonLabel4NavButton: "دردشة فورية مع خبير",
     },
     contact_form: {
       name: "الاسم *",
@@ -55,14 +57,14 @@ export const ar = defineConfig({
       submit: "إرسال الطلب",
       sending: "جاري الإرسال...",
       successTitle: "شكرًا لك!",
-      successMessage: "نقدر اهتمامك كثيرًا! سيتواصل فريقنا معك قريبًا لمناقشة احتياجاتك.",
+      successMessage: "نقدر اهتمامك بشكل كبير! سيتواصل فريقنا معك قريبًا لمناقشة احتياجاتك.",
       defaultCategories: [
         "تأسيس شركة جديدة",
         "خطة التوسع (مثل فرع جديد أو امتياز)",
         "نقل الشركة",
         "التأشيرة الذهبية",
         "التأشيرات لأغراض الزيارة فقط",
-        "فتح حسابات بنكية",
+        "فتح حسابات مصرفية",
         "خدمات أخرى",
       ],
       defaultButtonText: "أرسل لنا رسالة",
@@ -77,7 +79,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "ملخص الأعمال في الإمارات",
       // collapsed: false,
       items: [
-        { text: "تسجيل الشركات", link: "company-registration/overview" },
+        { text: "تسجيل الشركة", link: "company-registration/overview" },
         { text: "الإيجابيات والسلبيات", link: "company-registration/benefits-problems" },
         { text: "حلول الخدمات المصرفية للشركات", link: "company-registration/banking" },
         { text: "التأشيرة الذهبية", link: "company-registration//golden-visa" },
@@ -99,17 +101,17 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "الامتثال التجاري في الإمارات مضمون",
       collapsed: false,
       items: [
-        { text: "ضمان الموافقة على الحسابات البنكية للشركات", link: "corporate-banking-services/guaranteed-account-approvals" },
-        { text: "حسابات بنكية للأعمال عالية المخاطر", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
+        { text: "ضمان الموافقة على الحسابات المصرفية للشركات", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "حسابات مصرفية للأعمال عالية المخاطر", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
         { text: "حافظ على امتثال وحماية عملك", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
-      text: "القانوني والمحاسبة والضرائب",
+      text: "القانونية والمحاسبة والضرائب",
       collapsed: false,
       items: [
         { text: "الاعتبارات المحاسبية والضريبية", link: "company-registration/accounting-legal" },
-        { text: "سجل المالك النافع", link: "company-registration/ubo" },
+        { text: "سجل المستفيدين الحقيقيين", link: "company-registration/ubo" },
       ],
     },
     {

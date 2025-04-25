@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ml"
 
 export const ml = defineConfig({
-  description: "യു.എ.ഇ കമ്പനി രൂപീകരണവും പിന്തുണ സേവനങ്ങളും വിദഗ്ധർ. കമ്പനി സ്ഥാപനം, ബാങ്കിംഗ്, നികുതി, നിയമം, വിസ പരിഹാരങ്ങൾ. നിങ്ങളുടെ ബിസിനസ് സ്വപ്നങ്ങൾ യാഥാർത്ഥ്യമാക്കുന്നു!",
+  description: "വിദഗ്ധ യു.എ.ഇ കമ്പനി രൂപീകരണവും പിന്തുണ സേവനങ്ങളും. കമ്പനി സ്ഥാപനം, ബാങ്കിംഗ്, നികുതി, നിയമവും വിസാ പരിഹാരങ്ങളും. നിങ്ങളുടെ ബിസിനസ് സ്വപ്നങ്ങൾ യാഥാർത്ഥ്യമാക്കുന്നു!",
   head: [
-    ["meta", { property: "og:title", content: "യു.എ.ഇ കമ്പനി രൂപീകരണവും പിന്തുണ സേവനങ്ങളും വിദഗ്ധർ. കമ്പനി സ്ഥാപനം, ബാങ്കിംഗ്, നികുതി, നിയമം, വിസ പരിഹാരങ്ങൾ." }],
+    ["meta", { property: "og:title", content: "വിദഗ്ധ യു.എ.ഇ കമ്പനി രൂപീകരണവും പിന്തുണ സേവനങ്ങളും. കമ്പനി സ്ഥാപനം, ബാങ്കിംഗ്, നികുതി, നിയമവും വിസാ പരിഹാരങ്ങളും." }],
   ],
 
   themeConfig: {
@@ -37,8 +37,10 @@ export const ml = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "ദ്രുത തിരയൽ...",
-      buttonLabel4NavButton: "തത്കാല വിദഗ്ധ ചാറ്റ്",
+      placeholder4SearchInput: "എന്തും ചോദിക്കൂ...",
+      placeholder4ChatFooter: "എന്തും ചോദിക്കൂ...",
+      placeholder4ChatList: "ചാറ്റ് വിഷയം നൽകൂ...",
+      buttonLabel4NavButton: "തത്ക്ഷണ വിദഗ്ധ ചാറ്റ്",
     },
     contact_form: {
       name: "പേര് *",
@@ -51,7 +53,7 @@ export const ml = defineConfig({
       category: "ഞങ്ങൾ എങ്ങനെ സഹായിക്കാം? *",
       categoryPlaceholder: "സേവന തരം തിരഞ്ഞെടുക്കുക",
       message: "നിങ്ങളുടെ ലക്ഷ്യങ്ങൾ ചർച്ച ചെയ്യാം (ഓപ്ഷണൽ)",
-      messagePlaceholder: "ഞങ്ങൾക്ക് താങ്കളുടെ ആവശ്യങ്ങൾക്ക് മികച്ച പരിഹാരം ഒരുക്കാൻ സഹായിക്കുന്ന വിവരങ്ങൾ പങ്കുവെക്കുക",
+      messagePlaceholder: "ഞങ്ങൾക്ക് താങ്കളുടെ ആവശ്യങ്ങൾക്ക് മികച്ച പരിഹാരം ഒരുക്കാൻ അന്വേഷണ വിവരങ്ങൾ പങ്കുവെക്കുക",
       submit: "അഭ്യർത്ഥന സമർപ്പിക്കുക",
       sending: "അയക്കുന്നു...",
       successTitle: "നന്ദി!",
@@ -61,12 +63,12 @@ export const ml = defineConfig({
         "വിപുലീകരണ പദ്ധതി (ഉദാ. പുതിയ ശാഖ അല്ലെങ്കിൽ ഫ്രാഞ്ചൈസി)",
         "കമ്പനി സ്ഥലം മാറ്റം",
         "ഗോൾഡൻ വിസ",
-        "വിസ ഉദ്ദേശ്യങ്ങൾ മാത്രം",
+        "വിസാ ഉദ്ദേശ്യങ്ങൾ മാത്രം",
         "ബാങ്ക് അക്കൗണ്ടുകൾ തുറക്കൽ",
         "മറ്റ് സേവനങ്ങൾ",
       ],
-      defaultButtonText: "ഞങ്ങളെ ഒരു സന്ദേശം അയക്കുക",
-      // defaultButtonText: "സൗജന്യ കൺസൾട്ടേഷൻ നേടുക",
+      defaultButtonText: "ഞങ്ങളോട് ഒരു സന്ദേശം അയക്കൂ",
+      // defaultButtonText: "ഒരു സൗജന്യ കൺസൾട്ടേഷൻ നേടുക",
     },
   },
 })
@@ -82,7 +84,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "കോർപ്പറേറ്റ് ബാങ്കിംഗ് പരിഹാരങ്ങൾ", link: "company-registration/banking" },
         { text: "ഗോൾഡൻ വിസ", link: "company-registration//golden-visa" },
         { text: "വിസകൾ & ഇ.ഐ.ഡി", link: "company-registration/employment-visas" },
-        { text: "ഫീസുകൾ ഒപ്പം സമയക്രമങ്ങൾ", link: "company-registration/fees-timelines" },
+        { text: "ഫീസുകളും സമയക്രമവും", link: "company-registration/fees-timelines" },
         { text: "വിജയം നേടിയ ശേഷം മാത്രം പണം നൽകുക", link: "benefits/success-based-fees" },
       ],
     },
@@ -96,20 +98,20 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "യു.എ.ഇ ബിസിനസ് അനുസരണം ഗ്യാരണ്ടിയായി",
+      text: "യു.എ.ഇ ബിസിനസ് കംപ്ലയൻസ് ഗ്യാരണ്ടീഡ്",
       collapsed: false,
       items: [
-        { text: "ഗ്യാരണ്ടിയായ കോർപ്പറേറ്റ് ബാങ്ക് അക്കൗണ്ട് അനുമതികൾ", link: "corporate-banking-services/guaranteed-account-approvals" },
-        { text: "ഉയർന്ന റിസ്ക് ബിസിനസിനുള്ള ബാങ്ക് അക്കൗണ്ടുകൾ", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "നിങ്ങളുടെ ബിസിനസ് അനുസരണപ്പെടുത്തുകയും സംരക്ഷിക്കുകയും ചെയ്യുക", link: "company-registration/Protect-Your-Business" },
+        { text: "ഗ്യാരണ്ടീഡ് കോർപ്പറേറ്റ് ബാങ്ക് അക്കൗണ്ട് അനുമതികൾ", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "ഹൈ-റിസ്ക് ബിസിനസിനുള്ള ബാങ്ക് അക്കൗണ്ടുകൾ", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
+        { text: "നിങ്ങളുടെ ബിസിനസ് കംപ്ലയന്റും സംരക്ഷിതവും ആക്കുക", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
-      text: "നിയമം, അക്കൗണ്ടിംഗ് ഒപ്പം നികുതി",
+      text: "നിയമം, അക്കൗണ്ടിംഗ് ആൻഡ് ടാക്സ്",
       collapsed: false,
       items: [
-        { text: "അക്കൗണ്ടിംഗ് ഒപ്പം നികുതി പരിഗണനകൾ", link: "company-registration/accounting-legal" },
-        { text: "യു.ബി.ഓ രജിസ്റ്റർ", link: "company-registration/ubo" },
+        { text: "അക്കൗണ്ടിംഗ് ആൻഡ് ടാക്സ് പരിഗണനകൾ", link: "company-registration/accounting-legal" },
+        { text: "യു.ബി.ഒ രജിസ്റ്റർ", link: "company-registration/ubo" },
       ],
     },
     {

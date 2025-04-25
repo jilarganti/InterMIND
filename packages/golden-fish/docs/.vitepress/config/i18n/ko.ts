@@ -33,29 +33,31 @@ export const ko = defineConfig({
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">개인정보 설정</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">개인정보 처리방침</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI 서비스 법적 규정</a>`,
+      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">개인정보 설정</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">개인정보 보호정책</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI 서비스 법규</a>`,
     },
 
     localization: {
-      placeholder4SearchInput: "빠른 검색...",
+      placeholder4SearchInput: "무엇이든 물어보세요...",
+      placeholder4ChatFooter: "무엇이든 물어보세요...",
+      placeholder4ChatList: "채팅 주제 입력...",
       buttonLabel4NavButton: "즉시 전문가 채팅",
     },
     contact_form: {
       name: "이름 *",
-      namePlaceholder: "귀하의 이름",
+      namePlaceholder: "당신의 이름",
       email: "이메일 *",
-      emailPlaceholder: "귀하의 이메일 주소",
+      emailPlaceholder: "당신의 이메일 주소",
       phone: "전화번호 *",
       phonePlaceholder: "예: +1 1234567890 또는 (1) 123 456-7890",
       phoneError: "전화번호를 입력해 주세요",
       category: "어떻게 도와드릴까요? *",
       categoryPlaceholder: "서비스 유형 선택",
       message: "목표에 대해 논의해 보세요 (선택사항)",
-      messagePlaceholder: "귀하의 요구에 가장 적합한 솔루션을 준비할 수 있도록 문의 사항을 공유해 주세요",
+      messagePlaceholder: "귀하의 요청 사항을 공유해 주시면 최적의 솔루션을 준비하는 데 도움이 됩니다",
       submit: "요청 제출",
       sending: "전송 중...",
       successTitle: "감사합니다!",
-      successMessage: "귀하의 관심에 깊이 감사드립니다! 저희 팀이 곧 연락을 드려 귀하의 요구 사항에 대해 논의할 것입니다.",
+      successMessage: "관심을 가져주셔서 대단히 감사합니다! 저희 팀이 곧 연락을 드려 귀하의 요구 사항에 대해 논의할 예정입니다.",
       defaultCategories: [
         "새로운 회사 설립",
         "확장 계획 (예: 새로운 지점 또는 프랜차이즈)",
@@ -108,7 +110,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "법률, 회계 및 세금",
       collapsed: false,
       items: [
-        { text: "회계 및 세금 고려 사항", link: "company-registration/accounting-legal" },
+        { text: "회계 및 세금 고려사항", link: "company-registration/accounting-legal" },
         { text: "UBO 등록", link: "company-registration/ubo" },
       ],
     },
@@ -127,8 +129,8 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
     { text: "회사 소개", link: "about" },
     { text: "연락처", link: "contacts" },
-    { text: "개인정보 처리방침", link: "Privacy-Policy" },
-    { text: "AI 서비스 법적 규정", link: "Legal-Regulations-for-AI-Services" },
+    { text: "개인정보 보호정책", link: "Privacy-Policy" },
+    { text: "AI 서비스 법규", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
 
