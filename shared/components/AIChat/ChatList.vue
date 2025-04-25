@@ -60,10 +60,7 @@ const emit = defineEmits<{
   (e: "go-back"): void
 }>()
 
-const { site, frontmatter } = useData()
-
-const hide = computed(() => frontmatter.value.hideComponents?.includes("SearchInput"))
-const placeholder = computed(() => site.value.themeConfig.localization.placeholder4ChatList)
+const placeholder = computed(() => useData().site.value.themeConfig.localization.placeholder4ChatList)
 
 // Преобразуем вложенную структуру в плоский список групп по месяцам
 const flattenedGroups = computed(() => {

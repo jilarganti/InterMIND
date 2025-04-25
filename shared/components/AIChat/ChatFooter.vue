@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted, computed } from "vue"
-// Import Loader2 icon
+import { useData } from "vitepress"
 import { ArrowUp, Square, Bug, Loader2 } from "lucide-vue-next"
 
 interface Props {
@@ -64,6 +64,8 @@ const textareaRef = ref<HTMLTextAreaElement | null>(null)
 
 // Проверка на режим разработки
 const isDevelopment = ref(!import.meta.env.VITE_IS_PROD)
+
+const placeholder = computed(() => useData().site.value.themeConfig.localization.placeholder4ChatFooter)
 
 // Проверка наличия текста в поле ввода
 const hasInputContent = computed(() => {
@@ -162,7 +164,7 @@ const handleKeyDown = (event: KeyboardEvent): void => {
         @input="handleInput"
         @keydown="handleKeyDown"
         ref="textareaRef"
-        placeholder="Message (⇧↵ for new line)"
+        :placeholder="placeholder"
         :disabled="status === 'streaming'"
         class="message-input"
         :class="{ 'has-content': hasInputContent }"
@@ -177,10 +179,10 @@ const handleKeyDown = (event: KeyboardEvent): void => {
           :class="{
             'send-button': status !== 'streaming' && status !== 'submitted',
             'stop-button': status === 'streaming',
-            'loading-button': status === 'submitted' // Add class for loading state
+            'loading-button': status === 'submitted', // Add class for loading state
           }"
-          :disabled="status === 'submitted' || (status !== 'streaming' && !inputValue.trim())" 
-          @click="status === 'streaming' ? emit('stop') : (status !== 'submitted' ? handleSubmit($event) : null)" 
+          :disabled="status === 'submitted' || (status !== 'streaming' && !inputValue.trim())"
+          @click="status === 'streaming' ? emit('stop') : status !== 'submitted' ? handleSubmit($event) : null"
         >
           <!-- Show ArrowUp when ready to send -->
           <ArrowUp v-if="status !== 'streaming' && status !== 'submitted'" :size="20" />
