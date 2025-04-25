@@ -406,7 +406,7 @@ body {
 
 /* Специальная обработка для таблиц - контейнер с горизонтальной прокруткой */
 .vp-doc table {
-  display: block;
+  display: inline-table;
   overflow-x: auto;
   max-width: 100%;
   white-space: nowrap; /* Опционально - предотвращает перенос в ячейках */
