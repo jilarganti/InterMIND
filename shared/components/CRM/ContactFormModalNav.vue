@@ -22,7 +22,7 @@ import { useData } from "vitepress"
 import ContactFormModal from "./ContactFormModal.vue"
 import { computed } from "vue"
 
-const showComponent = computed(() => useData().frontmatter.value.hideComponents !== "ContactFormModalNav")
+const hideComponent = computed(() => useData().frontmatter.value.hideComponents?.includes("ContactFormModalNav"))
 
 // Определяем пропсы, кроме formName, который берем из текущего пути
 const props = defineProps<{
@@ -42,7 +42,7 @@ const formName = computed(() => {
 
   // Удаляем локаль из пути и форматируем для лучшей читаемости
   const path = useData()
-    .page.value.relativePath// Удаляем префикс локали и расширение файла
+    .page.value.relativePath // Удаляем префикс локали и расширение файла
     .replace(/^(en|ar|hi|ur|bn|ml|ta|te|fa|zh|fr|ru|uk|tr|ko|ja|id|vi|pt|es)\//, "")
     .replace(/\.md$/i, "") // регистронезависимое удаление .md
     // Форматируем путь для читаемости
@@ -66,7 +66,7 @@ const handleSuccess = () => {
 
 <template>
   <ContactFormModal
-    v-if="showComponent"
+    v-if="!hideComponent"
     :formName="formName"
     :buttonText="buttonText"
     :services="services"

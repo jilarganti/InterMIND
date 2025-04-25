@@ -32,7 +32,7 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 const { navigateTo } = useLocalizedPath()
-const showComponent = computed(() => useData().frontmatter.value.hideComponents !== "NavButton")
+const hideComponent = computed(() => useData().frontmatter.value.hideComponents?.includes("NavButton"))
 
 // Вычисляемый класс с добавлением brand по умолчанию
 const computedClass = computed(() => {
@@ -57,7 +57,7 @@ const handleClick = (): void => {
 </script>
 
 <template>
-  <button v-if="showComponent" :class="computedClass" :style="buttonStyle" @click="handleClick">
+  <button v-if="!hideComponent" :class="computedClass" :style="buttonStyle" @click="handleClick">
     {{ buttonLabel }}
   </button>
 </template>
