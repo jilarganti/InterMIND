@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted, computed } from "vue"
-import { ArrowUp, Square, Bug } from "lucide-vue-next"
+// Import Loader2 icon
+import { ArrowUp, Square, Bug, Loader2 } from "lucide-vue-next"
 
 interface Props {
   /**
@@ -140,7 +141,6 @@ const handleKeyDown = (event: KeyboardEvent): void => {
 }
 </script>
 
-<!-- Изменения в template - заменяем двойную кнопку на одну -->
 <template>
   <div class="chat-footer">
     <form @submit.prevent="handleSubmit" class="input-form">
@@ -174,11 +174,19 @@ const handleKeyDown = (event: KeyboardEvent): void => {
         <button
           type="button"
           class="action-button"
-          :class="{ 'send-button': status !== 'streaming', 'stop-button': status === 'streaming' }"
-          :disabled="status !== 'streaming' && !inputValue.trim()"
-          @click="status === 'streaming' ? emit('stop') : handleSubmit($event)"
+          :class="{
+            'send-button': status !== 'streaming' && status !== 'submitted',
+            'stop-button': status === 'streaming',
+            'loading-button': status === 'submitted' // Add class for loading state
+          }"
+          :disabled="status === 'submitted' || (status !== 'streaming' && !inputValue.trim())" 
+          @click="status === 'streaming' ? emit('stop') : (status !== 'submitted' ? handleSubmit($event) : null)" 
         >
-          <ArrowUp v-if="status !== 'streaming'" :size="20" />
+          <!-- Show ArrowUp when ready to send -->
+          <ArrowUp v-if="status !== 'streaming' && status !== 'submitted'" :size="20" />
+          <!-- Show Loader when waiting for response -->
+          <Loader2 v-else-if="status === 'submitted'" :size="20" class="animate-spin" />
+          <!-- Show Square when streaming -->
           <Square v-else :size="20" />
         </button>
       </div>
@@ -191,7 +199,6 @@ const handleKeyDown = (event: KeyboardEvent): void => {
   </div>
 </template>
 
-<!-- Изменения в CSS - объединяем стили кнопок -->
 <style scoped>
 /* Основной футер */
 .chat-footer {
@@ -291,6 +298,28 @@ const handleKeyDown = (event: KeyboardEvent): void => {
 .stop-button:hover {
   background-color: var(--vp-c-warning-soft);
   border-color: var(--vp-c-danger-dark);
+}
+
+/* Styles for loading state */
+.loading-button {
+  color: var(--vp-c-text-2); /* Use a muted color */
+  background-color: var(--vp-c-bg-mute);
+  border: 1px solid var(--vp-c-divider);
+  cursor: wait; /* Indicate waiting */
+}
+
+/* Spinning animation */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
 }
 
 /* Сообщение об ошибке */

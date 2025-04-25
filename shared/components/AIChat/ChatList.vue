@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { MessageSquare, Search, Plus, ArrowLeft } from "lucide-vue-next"
 import { computed } from "vue"
+import { useData } from "vitepress"
 
 interface GroupedChats {
   [year: string]: {
@@ -59,6 +60,11 @@ const emit = defineEmits<{
   (e: "go-back"): void
 }>()
 
+const { site, frontmatter } = useData()
+
+const hide = computed(() => frontmatter.value.hideComponents?.includes("SearchInput"))
+const placeholder = computed(() => site.value.themeConfig.localization.placeholder4ChatList)
+
 // Преобразуем вложенную структуру в плоский список групп по месяцам
 const flattenedGroups = computed(() => {
   // Правильно типизируем результирующий объект
@@ -104,7 +110,7 @@ const updateSearchInput = (event: Event) => {
 
       <div class="search-container">
         <Search :size="18" class="search-icon" />
-        <input :value="searchInput" @input="updateSearchInput" class="search-input" placeholder="Search..." type="text" />
+        <input :value="searchInput" @input="updateSearchInput" class="search-input" :placeholder="placeholder" type="text" />
       </div>
 
       <button class="toolbar-button neutral-button" @click="createNewChat" title="New Chat">

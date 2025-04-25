@@ -18,6 +18,7 @@ navbar: false
   { id: "1", text: "Company registration in UAE", category: "business" },
   { id: "7", text: "UAE trade license requirements", category: "business" },
   { id: "7", text: "comparison of UAE entity types, table & analytics", category: "business" },
+  { id: "7", text: "expert comparison of the cost of relocating a company from Britain to various free zones for a financial business with two founders. 8 visas, 3 family members + a dog. Rent in a business center. British, not a UAE resident", category: "business" },
   { id: "48", text: "10 Best Hospitals in UAE, Pros and Cons", category: "healthcare" },
 
   { id: "15", text: "Power of Attorney in UAE", category: "legal" },
