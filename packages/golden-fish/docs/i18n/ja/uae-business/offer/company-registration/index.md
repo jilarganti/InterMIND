@@ -1,13 +1,17 @@
 ---
 layout: home
-title: "UAEでリスクフリーのビジネス展開 | 承認後支払い制"
-description: "革新的なUAE企業設立モデル：成功後のみ支払い。90％以上の成功率で各段階を専門家がサポート。"
+title: "リスクなしのUAEビジネス | 承認なし、支払いなし"
+description: "革新的なUAE企業設立モデル：成功後のみ支払い。90％以上の成功率で各段階を専門家がガイド。"
 showSponsors: false
 
 hero:
-  name: "UAE企業設立：リスクを共有します"
+  name: "UAE企業設立：私たちがリスクを共有します"
   # text: Payment by results
-  tagline: "自信を持ってビジネスに投資：企業登録の成功後のみ支払い。<span class='hl'>あなたの成功が私たちの唯一の目標です</span>。"
+  tagline: "自信を持ってビジネスに投資：会社登録の成功後にのみ支払いが発生します。<span class='hl'>あなたの成功が私たちの唯一の目標です</span>。"
+  actions:
+    - theme: brand
+      text: 専門家とすぐにチャット
+      link: /chat
   image:
     light:
       src: /img/Logo.avif
@@ -20,11 +24,11 @@ hero:
 
 <FeatureBlock :card="{
   title: 'お客様の利点 — 私たちの責任',
-  details: 'UAEは、好適なビジネス環境を求める国際的な起業家や投資家に多くの利点を提供しています。\n\n* 低税率：法人税9％、VAT5％で個人所得税なし\n* 100％外国人所有：現地パートナーなしで完全な会社支配権\n* 為替管理なし：利益送金と通貨交換の制限なし\n\n[完全なリストを表示](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'UAEは、好適なビジネス環境を求める国際的な起業家や投資家に多くの利点を提供しています。\n\n* 低税率：法人税9％、VAT5％で個人所得税なし\n* 100％外国人所有：現地パートナーなしで完全な会社支配権\n* 為替管理なし：利益送金と為替取引の制限なし\n\n[完全なリストを表示](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
-    light: '/img/iStock-2051326997.avif',
-    dark: '/img/iStock-1448478309.jpg',
+    light: '/img/iStock-1331100622.jpg',
+    dark: '/img/iStock-1203821481.avif',
     width: '100%'
   },
   inversion: false
@@ -32,11 +36,11 @@ hero:
 
 <FeatureBlock :card="{
   title: '共に取り組む課題',
-  details: 'UAEは多くの利点を提供していますが、事業を設立する際には潜在的な課題に注意が必要です。\n\n* 複雑な規制環境：首長国とFree Zone間で異なる規制\n* 経済実体要件：特定の活動には現地スタッフと物理的なオフィススペースが必要\n* 高額な初期費用：登録料、書類作成費用、必須オフィス賃貸料\n\n[完全なリストを表示](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'UAEは多くの利点を提供していますが、事業を設立する際には潜在的な課題に注意する必要があります。\n\n* 複雑な規制環境：首長国とFree Zone間で異なる規制\n* 経済実体要件：特定の活動には現地スタッフと物理的なオフィススペースが必要\n* 高い初期費用：登録料、文書作成、必須オフィス賃貸\n\n[完全なリストを表示](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
-    light: '/img/iStock-1299393716.avif',
-    dark: '/img/iStock-2149731304.avif',
+      light: '/img/iStock-1299393716.avif',
+      dark: '/img/iStock-2149731304.avif',
     width: '100%'
   },
   inversion: true
@@ -72,11 +76,11 @@ hero:
     }
   },
   {
-    title: 'Golden Visaと居住権',
+    title: 'Golden Visa & 居住権',
     details: 'スムーズな申請プロセスで長期居住のための**Golden Visa**を取得。',
     items: [
       '**6ヶ月ごとのUAE入国不要**',
-      '条件を満たせば10年間有効で更新可能',
+      '資格条件を維持することで10年間有効、更新可能',
       '92％の成功率'
     ],
     linkText: '詳細を見る',
@@ -88,7 +92,7 @@ hero:
     }
   },
   {
-    title: '企業向けサービスの詳細',
+    title: 'その他の法人サービスを探る',
     details: '',
     items: [],
     linkText: '詳細を見る',

@@ -6,8 +6,11 @@ showSponsors: false
 
 hero:
   name: "यूएई कंपनी फॉर्मेशन: हम आपका जोखिम साझा करते हैं"
-  # text: Payment by results
-  tagline: "अपने व्यवसाय में विश्वास के साथ निवेश करें: हम केवल सफल कंपनी पंजीकरण के बाद ही भुगतान प्राप्त करते हैं। <span class='hl'>आपकी सफलता ही हमारा एकमात्र लक्ष्य है</span>।"
+  tagline: "आत्मविश्वास के साथ अपने व्यवसाय में निवेश करें: हम केवल सफल कंपनी पंजीकरण के बाद ही भुगतान प्राप्त करते हैं। <span class='hl'>आपकी सफलता ही हमारा एकमात्र लक्ष्य है</span>।"
+  actions:
+    - theme: brand
+      text: तुरंत विशेषज्ञ चैट
+      link: /chat
   image:
     light:
       src: /img/Logo.avif
@@ -21,11 +24,11 @@ hero:
 
 <FeatureBlock :card="{
   title: 'आपके फायदे — हमारी जिम्मेदारी',
-  details: 'यूएई अंतर्राष्ट्रीय उद्यमियों और निवेशकों के लिए अनुकूल व्यावसायिक वातावरण में कई लाभ प्रदान करता है। \n\n* कम कर दरें: केवल 9% कॉर्पोरेट टैक्स और 5% VAT, व्यक्तिगत आयकर नहीं\n* 100% विदेशी स्वामित्व: स्थानीय भागीदारों के बिना अपनी कंपनी का पूर्ण नियंत्रण\n* कोई मुद्रा नियंत्रण नहीं: अप्रतिबंधित लाभ प्रत्यावर्तन और मुद्रा विनिमय\n\n[पूरी सूची देखें](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'यूएई अंतर्राष्ट्रीय उद्यमियों और निवेशकों के लिए अनुकूल व्यावसायिक वातावरण की पेशकश करता है। \n\n* कम कर दरें: केवल 9% कॉर्पोरेट टैक्स और 5% VAT, व्यक्तिगत आयकर नहीं\n* 100% विदेशी स्वामित्व: स्थानीय भागीदारों के बिना अपनी कंपनी पर पूर्ण नियंत्रण\n* कोई मुद्रा नियंत्रण नहीं: अप्रतिबंधित लाभ प्रत्यावर्तन और मुद्रा विनिमय\n\n[पूरी सूची देखें](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
-    light: '/img/iStock-2051326997.avif',
-    dark: '/img/iStock-1448478309.jpg',
+    light: '/img/iStock-1331100622.jpg',
+    dark: '/img/iStock-1203821481.avif',
     width: '100%'
   },
   inversion: false
@@ -33,7 +36,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'चुनौतियां जिन्हें हम मिलकर सुलझाते हैं',
-  details: 'यूएई कई लाभ प्रदान करता है, लेकिन व्यवसायों को संचालन स्थापित करते समय संभावित चुनौतियों से अवगत होना चाहिए। \n\n* जटिल नियामक वातावरण: एमिरेट्स और Free Zone में अलग-अलग नियम\n* आर्थिक पदार्थ आवश्यकताएं: कुछ गतिविधियों के लिए स्थानीय कर्मचारी और भौतिक कार्यालय स्थान आवश्यक\n* उच्च प्रारंभिक लागत: पंजीकरण शुल्क, दस्तावेज़ीकरण और अनिवार्य कार्यालय किराया\n\n[पूरी सूची देखें](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'यूएई कई लाभ प्रदान करता है, लेकिन व्यवसायों को परिचालन स्थापित करते समय संभावित चुनौतियों से अवगत होना चाहिए। \n\n* जटिल नियामक वातावरण: एमिरेट्स और Free Zone में अलग-अलग नियम\n* आर्थिक पदार्थ आवश्यकताएं: कुछ गतिविधियों के लिए स्थानीय कर्मचारी और भौतिक कार्यालय स्थान आवश्यक\n* उच्च प्रारंभिक लागत: पंजीकरण शुल्क, दस्तावेजीकरण और अनिवार्य कार्यालय किराया\n\n[पूरी सूची देखें](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-1299393716.avif',
@@ -45,7 +48,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'पूर्ण समर्थन: कदम-दर-कदम आपके साथ',
-  details: '**Free Zone, Offshore, Mainland, Branch** में कंपनियां स्थापित करने के लिए पूर्ण मार्गदर्शिका। \n\n* Free Zone और Mainland में 100% विदेशी स्वामित्व उपलब्ध\n* कम कर दरें - केवल 9% कॉर्पोरेट टैक्स\n* कोई मुद्रा नियंत्रण नहीं - आसान पूंजी प्रत्यावर्तन\n\n[अधिक जानें](/uae-business/company-registration/overview)',
+  details: '**Free Zone, Offshore, Mainland, Branch** में कंपनियां स्थापित करने की पूर्ण मार्गदर्शिका। \n\n* Free Zone और Mainland में 100% विदेशी स्वामित्व उपलब्ध\n* कम कर दरें - केवल 9% कॉर्पोरेट टैक्स\n* कोई मुद्रा नियंत्रण नहीं - आसान पूंजी प्रत्यावर्तन\n\n[अधिक जानें](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -61,7 +64,7 @@ hero:
     details: 'यूएई के विश्वसनीय बैंकों के साथ आसानी से व्यावसायिक या व्यक्तिगत **बैंक खाते** खोलें।',
     items: [
       'सरकारी मंजूरी के लिए एंड-टू-एंड PRO सेवाएं',
-      'पूर्ण बैंकिंग पैकेज सेटअप',
+      'संपूर्ण बैंकिंग पैकेज सेटअप',
       '96% सफलता दर'
     ],
     linkText: 'अधिक जानें',
@@ -122,7 +125,7 @@ hero:
   },
 ]" />
 
-## अपनी पात्रता की जांच करने और अपने विकल्पों पर चर्चा करने के लिए निःशुल्क परामर्श बुक करें।
+## अपनी पात्रता की जांच करने और अपने विकल्पों पर चर्चा करने के लिए एक निःशुल्क परामर्श बुक करें।
 
 <video  autoplay muted playsinline style="padding: 24px" >
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">

@@ -8,6 +8,10 @@ hero:
   name: "UAE 기업 설립: 우리가 위험을 함께 합니다"
   # text: Payment by results
   tagline: "자신감 있게 비즈니스에 투자하세요: 회사 등록이 성공한 후에만 비용을 지불합니다. <span class='hl'>귀하의 성공이 우리의 유일한 목표입니다</span>."
+  actions:
+    - theme: brand
+      text: 즉시 전문가 상담
+      link: /chat
   image:
     light:
       src: /img/Logo.avif
@@ -23,8 +27,8 @@ hero:
   details: 'UAE는 우호적인 비즈니스 환경을 찾는 국제 기업가와 투자자들에게 많은 이점을 제공합니다. \n\n* 낮은 세율: 법인세 9%와 부가가치세 5%만 있으며 개인소득세는 없음\n* 100% 외국인 소유: 현지 파트너 없이 회사를 완전히 통제\n* 환율 통제 없음: 제한 없는 이익 송금과 환전\n\n[전체 목록 보기](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
-    light: '/img/iStock-2051326997.avif',
-    dark: '/img/iStock-1448478309.jpg',
+    light: '/img/iStock-1331100622.jpg',
+    dark: '/img/iStock-1203821481.avif',
     width: '100%'
   },
   inversion: false
@@ -44,7 +48,7 @@ hero:
 
 <FeatureBlock :card="{
   title: '완벽한 지원: 단계별 동행',
-  details: '**Free Zone, Offshore, Mainland, Branch** 기업 설립을 위한 완벽한 가이드. \n\n* Free Zone과 Mainland에서 100% 외국인 소유 가능\n* 낮은 세율 - 법인세 9%만\n* 환율 통제 없음 - 쉬운 자본 송금\n\n[자세히 알아보기](/uae-business/company-registration/overview)',
+  details: '**Free Zone, Offshore, Mainland, Branch** 회사 설립을 위한 완벽한 가이드. \n\n* Free Zone과 Mainland에서 100% 외국인 소유 가능\n* 낮은 세율 - 법인세 9%만\n* 환율 통제 없음 - 쉬운 자본 송금\n\n[자세히 알아보기](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',

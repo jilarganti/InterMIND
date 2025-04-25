@@ -8,6 +8,10 @@ hero:
   name: "Visa Dorada de EAU"
   text: Pago por resultados
   tagline: Residencia de 10 años. <span class="hl">Sin costos iniciales</span> - pague solo después de la aprobación. 98% de tasa de éxito.
+  actions:
+    - theme: brand
+      text: Chat instantáneo con expertos
+      link: /chat
   image:
     light:
       src: /img/Logo.avif
@@ -30,7 +34,7 @@ hero:
       'Patrocinio de padres incluido',
       'No se requiere patrocinador ni empleador'
     ],
-    linkText: 'Learn more',
+    linkText: 'Más información',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
     icon: {
       light: '/img/iStock-1785818081.avif',
@@ -42,14 +46,14 @@ hero:
   {
     title: 'Cómo Obtener la Visa Dorada de EAU',
     items: [
-      'Inversión de 2M AED en propiedades en EAU',
-      'Depósito de 2M AED en fondos de inversión de EAU',
-      'Negocio con capital de 2M AED',
-      'Contribución anual de 250K AED a FTA',
+      'Inversión de AED 2M en propiedades en EAU',
+      'Depósito de AED 2M en fondos de inversión de EAU',
+      'Negocio con capital de AED 2M',
+      'Contribución anual de AED 250K a FTA',
       'Profesionales Calificados',
       'Talentos Excepcionales'
     ],
-    linkText: 'Learn more',
+    linkText: 'Más información',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -69,7 +73,7 @@ hero:
       'Emisión de Emirates ID y visa',
       'Patrocinio de visa familiar (opcional)'
     ],
-    linkText: 'Learn more',
+    linkText: 'Más información',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',
@@ -84,35 +88,20 @@ hero:
 
 <BenefitsList :features="[
   {
-    icon: '💰',
-    title: 'Tarifas Basadas en el Éxito',
-    text: '**Sin pago hasta que su Golden Visa sea aprobada.** Transparencia total sin costos ocultos.'
-  },
-  {
-    icon: '📈',
-    title: 'Tasa de Éxito Comprobada',
-    text: '98% de tasa de aprobación con cientos de Golden Visas emitidas a través de nuestro procesamiento premium.'
-  },
-  {
-    icon: '📋',
-    title: 'Gestión Completa',
-    text: 'Manejo integral desde la documentación hasta la emisión de la visa, cuidando todos los detalles.'
-  },
-  {
-    icon: '👨‍💼',
-    title: 'Experiencia Local en UAE',
+    icon: '🏢',
+    title: 'Experiencia Local en EAU',
     text: 'Especialistas dedicados en Dubái proporcionan orientación experta en cada paso del proceso.'
   },
   {
-    icon: '🔍',
-    title: 'Procesamiento Premium',
-    text: 'Comunicación directa con las autoridades y canales preferentes para aprobaciones más rápidas.'
+    icon: '📊',
+    title: 'Tasa de Éxito Comprobada',
+    text: 'Más del 90% de tasa de aprobación con cientos de visas, cuentas bancarias y registros de empresas emitidos a través de nuestro procesamiento premium.'
   },
   {
-    icon: '🔄',
-    title: 'Soporte de Renovación',
-    text: 'Asistencia gratuita para la renovación de visa con **cero tarifas de agencia** - solo cargos gubernamentales.'
-  }
+    icon: '💸',
+    title: '**Tarifas Basadas en el Éxito**',
+    text: '[Pague solo después de la aprobación](/uae-business/benefits/success-based-fees). Transparencia total sin costos ocultos.'
+  },
 ]" />
 
 ## Reserve una consulta gratuita para verificar su elegibilidad y discutir sus opciones.

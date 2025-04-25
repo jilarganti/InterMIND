@@ -8,6 +8,10 @@ hero:
   name: "BAE Şirket Kuruluşu: Riskinizi Paylaşıyoruz"
   # text: Payment by results
   tagline: "İşinize güvenle yatırım yapın: sadece başarılı şirket tescilinden sonra ödeme alıyoruz. <span class='hl'>Başarınız tek hedefimiz</span>."
+  actions:
+    - theme: brand
+      text: Anında uzman sohbeti
+      link: /chat
   image:
     light:
       src: /img/Logo.avif
@@ -21,11 +25,11 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Sizin Avantajlarınız — Bizim Sorumluluğumuz',
-  details: 'BAE, uygun bir iş ortamı arayan uluslararası girişimciler ve yatırımcılar için çok sayıda avantaj sunmaktadır. \n\n* Düşük Vergi Oranları: Sadece %9 kurumlar vergisi ve %5 KDV, gelir vergisi yok\n* %100 Yabancı Mülkiyet: Yerel ortaklar olmadan şirketinizin tam kontrolü\n* Döviz Kontrolü Yok: Kısıtlamasız kar transferi ve döviz değişimi\n\n[Tam listeyi göster](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'BAE, uygun bir iş ortamı arayan uluslararası girişimciler ve yatırımcılar için çok sayıda avantaj sunmaktadır. \n\n* Düşük Vergi Oranları: Sadece %9 kurumlar vergisi ve %5 KDV, gelir vergisi yok\n* %100 Yabancı Mülkiyet: Yerel ortaklar olmadan şirketinizin tam kontrolü\n* Döviz Kontrolü Yok: Kısıtlamasız kar transferi ve döviz işlemleri\n\n[Tam listeyi göster](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
-    light: '/img/iStock-2051326997.avif',
-    dark: '/img/iStock-1448478309.jpg',
+    light: '/img/iStock-1331100622.jpg',
+    dark: '/img/iStock-1203821481.avif',
     width: '100%'
   },
   inversion: false
@@ -33,7 +37,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Birlikte Üstesinden Geldiğimiz Zorluklar',
-  details: 'BAE birçok fayda sunarken, işletmeler operasyonlarını kurarken potansiyel zorlukların farkında olmalıdır. \n\n* Karmaşık Düzenleyici Ortam: Emirlikler ve Free Zone\'lar arasında farklı düzenlemeler\n* Ekonomik Madde Gereksinimleri: Belirli faaliyetler için yerel personel ve fiziksel ofis alanı gerekli\n* Yüksek Başlangıç Maliyetleri: Kayıt ücretleri, dokümantasyon ve zorunlu ofis kiraları\n\n[Tam listeyi göster](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'BAE birçok fayda sunarken, işletmeler operasyonlarını kurarken potansiyel zorlukların farkında olmalıdır. \n\n* Karmaşık Düzenleyici Ortam: Emirlikler ve free zone\'lar arasında farklı düzenlemeler\n* Ekonomik Madde Gereklilikleri: Belirli faaliyetler için yerel personel ve fiziksel ofis alanı gerekli\n* Yüksek Başlangıç Maliyetleri: Kayıt ücretleri, dokümantasyon ve zorunlu ofis kiraları\n\n[Tam listeyi göster](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -45,7 +49,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Tam Destek: Adım Adım Yanınızdayız',
-  details: '**Free Zone, Offshore, Mainland, Branch** şirket kurulumları için eksiksiz rehber. \n\n* Free Zone ve Mainland\'de %100 Yabancı Mülkiyet mümkün\n* Düşük Vergi Oranları - sadece %9 kurumlar vergisi\n* Döviz Kontrolü Yok - kolay sermaye transferi\n\n[Daha fazla bilgi](/uae-business/company-registration/overview)',
+  details: '**Free zone, offshore, mainland, branch** şirket kurulumu için eksiksiz rehber. \n\n* Free Zone ve Mainland\'de %100 Yabancı Mülkiyet mümkün\n* Düşük Vergi Oranları - sadece %9 kurumlar vergisi\n* Döviz Kontrolü Yok - kolay sermaye transferi\n\n[Daha fazla bilgi](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -74,10 +78,10 @@ hero:
   },
   {
     title: 'Golden Visa ve İkamet',
-    details: 'Sorunsuz bir başvuru süreciyle uzun süreli ikamet için BAE **Golden Visa** alın.',
+    details: 'Sorunsuz bir başvuru süreciyle uzun süreli ikamet için **Golden Visa** alın.',
     items: [
       '**Her 6 ayda bir BAE\'ye girme zorunluluğu yok**',
-      'Yeterlilik koşullarını koruyarak 10 yıl geçerlilik ve yenileme seçeneği',
+      'Yeterlilik koşullarını koruyarak 10 yıllık geçerlilik ve yenileme seçeneği',
       '%92 başarı oranı'
     ],
     linkText: 'Daha fazla bilgi',

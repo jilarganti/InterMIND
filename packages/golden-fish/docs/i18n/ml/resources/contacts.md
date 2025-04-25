@@ -3,6 +3,7 @@
 # sidebar: false
 # aside: false
 # next: false
+showContactForm: false
 ---
 
 <!-- <p>
@@ -19,19 +20,21 @@
 - രജിസ്റ്റർ നമ്പർ: 2411728
 
 **ഓഫീസ് സ്ഥാനം:**  
-സിറ്റി അവന്യൂ ബിൽഡിംഗ്  
-ഓഫീസ് 405-070, പോർട്ട് സഈദ്  
-ദുബായ്, യുഎഇ
+City Avenue Building  
+Office 405-070, Port Saeed  
+Dubai, UAE
 
 **ബന്ധപ്പെടാൻ:**
 
 - ഇമെയിൽ: info@goldenfish.ae
 - ഫോൺ: +971 058 574 88 06
-- വാട്സ്ആപ്പ്: +971 058 574 88 06
-- ടെലിഗ്രാം: @goldenfish_ae
+- WhatsApp: +971 058 574 88 06
+- Telegram: @goldenfish_ae
 
 <!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
 > [!IMPORTANT] ഞങ്ങളെ തിരഞ്ഞെടുക്കാൻ കാരണം?
 > വിദഗ്ധരായ പ്രൊഫഷണലുകളുടെ ടീമും വ്യക്തിഗത സേവനങ്ങളോടുള്ള പ്രതിബദ്ധതയും ഉള്ളതിനാൽ, ക്ലയന്റുകൾക്ക് യുഎഇയിൽ അവരുടെ ബിസിനസ് വളർത്തുന്നതിൽ ശ്രദ്ധ കേന്ദ്രീകരിക്കാൻ കഴിയുന്ന തരത്തിൽ സുഗമവും കാര്യക്ഷമവുമായ അനുഭവം ഞങ്ങൾ ഉറപ്പാക്കുന്നു.
+
+<ContactFormModalNav buttonText="ഒരു വിദഗ്ധനുമായി സംസാരിക്കുക" formStyle="display: block; margin: 2rem auto;"/>

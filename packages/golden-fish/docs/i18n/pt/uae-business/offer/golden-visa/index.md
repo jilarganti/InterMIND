@@ -5,9 +5,13 @@ description: "Visto de residência premium de 10 anos sem taxas antecipadas - pa
 showSponsors: false
 
 hero:
-  name: "Visto Golden UAE"
+  name: "UAE Golden Visa"
   text: Pagamento por resultados
   tagline: Residência de 10 anos. <span class="hl">Zero taxas antecipadas</span> - pague apenas após aprovação. 98% de taxa de sucesso.
+  actions:
+    - theme: brand
+      text: Chat instantâneo com especialista
+      link: /chat
   image:
     light:
       src: /img/Logo.avif
@@ -20,17 +24,17 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Benefícios do Visto Golden UAE',
+    title: 'Benefícios do UAE Golden Visa',
     items: [
       'Validade de 10 anos com opção de renovação mantendo as condições qualificativas',
       '**Não é necessário entrar nos UAE a cada 6 meses**',
-      'Permitida propriedade empresarial 100%',
+      'Permitida propriedade total do negócio',
       'Patrocínio de membros da família e funcionários domésticos ilimitados',
       'Patrocínio de filhos até 25 anos',
       'Patrocínio de pais incluído',
       'Não é necessário patrocinador ou empregador'
     ],
-    linkText: 'Saiba mais',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
     icon: {
       light: '/img/iStock-1785818081.avif',
@@ -40,7 +44,7 @@ hero:
     }
   },
   {
-    title: 'Como Obter o Visto Golden UAE',
+    title: 'Como Obter o UAE Golden Visa',
     items: [
       'Investimento de AED 2M em propriedades nos UAE',
       'Depósito de AED 2M em fundos de investimento nos UAE',
@@ -49,7 +53,7 @@ hero:
       'Profissionais Qualificados',
       'Talentos Excepcionais'
     ],
-    linkText: 'Saiba mais',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -59,7 +63,7 @@ hero:
     }
   },
   {
-    title: 'Processo do Visto Golden',
+    title: 'Processo do Golden Visa',
     bullet: '✓',
     items: [
       'Avaliação inicial de elegibilidade',
@@ -69,7 +73,7 @@ hero:
       'Emissão do Emirates ID e visto',
       'Patrocínio de visto familiar (opcional)'
     ],
-    linkText: 'Saiba mais',
+    linkText: 'Learn more',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',
@@ -80,39 +84,24 @@ hero:
   }
 ]" />
 
-## Por Que Escolher a Golden Fish
+## Por que Escolher a Golden Fish
 
 <BenefitsList :features="[
   {
-    icon: '💰',
-    title: 'Taxas Baseadas em Sucesso',
-    text: '**Nenhum pagamento até seu Golden Visa ser aprovado.** Transparência total sem custos ocultos.'
-  },
-  {
-    icon: '📈',
-    title: 'Taxa de Sucesso Comprovada',
-    text: '98% de taxa de aprovação com centenas de Golden Visas emitidos através do nosso processamento premium.'
-  },
-  {
-    icon: '📋',
-    title: 'Gestão Completa',
-    text: 'Gerenciamento completo desde a documentação até a emissão do visto, cuidando de todos os detalhes.'
-  },
-  {
-    icon: '👨‍💼',
+    icon: '🏢',
     title: 'Expertise Local nos EAU',
-    text: 'Especialistas dedicados em Dubai fornecem orientação especializada em cada etapa do processo.'
+    text: 'Especialistas dedicados em Dubai oferecem orientação especializada em cada etapa do processo.'
   },
   {
-    icon: '🔍',
-    title: 'Processamento Premium',
-    text: 'Comunicação direta com as autoridades e canais acelerados para aprovações mais rápidas.'
+    icon: '📊',
+    title: 'Taxa de Sucesso Comprovada',
+    text: 'Mais de 90% de taxa de aprovação com centenas de vistos, contas bancárias e registros de empresas emitidos através do nosso processamento premium.'
   },
   {
-    icon: '🔄',
-    title: 'Suporte para Renovação',
-    text: 'Assistência gratuita na renovação do visto com **taxa zero de agência** - apenas taxas governamentais.'
-  }
+    icon: '💸',
+    title: '**Taxas Baseadas no Sucesso**',
+    text: '[Pague apenas após a aprovação](/uae-business/benefits/success-based-fees). Transparência total sem custos ocultos.'
+  },
 ]" />
 
 ## Agende uma consulta gratuita para verificar sua elegibilidade e discutir suas opções.

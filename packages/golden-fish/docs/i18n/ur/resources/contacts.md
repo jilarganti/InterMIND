@@ -3,10 +3,11 @@
 # sidebar: false
 # aside: false
 # next: false
+showContactForm: false
 ---
 
 <!-- <p>
-  <img src="/img/Logo.avif" alt="logo" width="100" height="100" style="margin-left: 50%;">
+  <img src="/img/Logo.avif" alt="لوگو" width="100" height="100" style="margin-left: 50%;">
 </p> -->
 
 # ہم سے رابطہ کریں
@@ -33,5 +34,7 @@ Dubai, UAE
 <!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
-> [!IMPORTANT] ہمیں کیوں چنیں؟
-> ماہر پیشہ ور افراد کی ٹیم اور ذاتی خدمات کے لیے عزم کے ساتھ، ہم کلائنٹس کے لیے ہموار اور موثر تجربہ یقینی بناتے ہیں، جو انہیں سب سے اہم چیز پر توجہ مرکوز کرنے کی اجازت دیتا ہے - متحدہ عرب امارات میں اپنے کاروبار کو بڑھانا۔
+> [!IMPORTANT] ہمیں کیوں منتخب کریں؟
+> معلومات رکھنے والے پیشہ ور افراد کی ٹیم اور ذاتی خدمات کے لیے عزم کے ساتھ، ہم کلائنٹس کے لیے ہموار اور موثر تجربہ یقینی بناتے ہیں، جو انہیں سب سے اہم چیز پر توجہ مرکوز کرنے کی اجازت دیتا ہے – متحدہ عرب امارات میں اپنے کاروبار کو بڑھانا۔
+
+<ContactFormModalNav buttonText="ماہر سے بات کریں" formStyle="display: block; margin: 2rem auto;"/>

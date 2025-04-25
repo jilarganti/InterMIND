@@ -6,7 +6,11 @@ showSponsors: false
 
 hero:
   name: "تأسيس شركة في الإمارات: نشارككم المخاطر"
-  tagline: "استثمر في عملك بثقة: نحصل على أجرنا فقط بعد تسجيل الشركة بنجاح. <span class='hl'>نجاحك هو هدفنا الوحيد</span>."
+  tagline: "استثمر في عملك بثقة: نحصل على أتعابنا فقط بعد تسجيل الشركة بنجاح. <span class='hl'>نجاحك هو هدفنا الوحيد</span>."
+  actions:
+    - theme: brand
+      text: محادثة فورية مع خبير
+      link: /chat
   image:
     light:
       src: /img/Logo.avif
@@ -19,11 +23,11 @@ hero:
 
 <FeatureBlock :card="{
   title: 'مزاياك - مسؤوليتنا',
-  details: 'توفر دولة الإمارات العديد من المزايا لرواد الأعمال والمستثمرين الدوليين الباحثين عن بيئة أعمال مواتية. \n\n* معدلات ضريبية منخفضة: 9٪ ضريبة شركات و5٪ ضريبة قيمة مضافة بدون ضريبة دخل شخصية\n* ملكية أجنبية 100٪: تحكم كامل في شركتك بدون شركاء محليين\n* لا قيود على العملات: تحويل الأرباح وتبادل العملات بدون قيود\n\n[عرض القائمة الكاملة](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'توفر دولة الإمارات العديد من المزايا لرواد الأعمال والمستثمرين الدوليين الباحثين عن بيئة أعمال مواتية. \n\n* معدلات ضريبية منخفضة: 9٪ ضريبة شركات و5٪ ضريبة قيمة مضافة بدون ضريبة دخل شخصية\n* ملكية أجنبية 100٪: تحكم كامل في شركتك دون شركاء محليين\n* لا قيود على العملات: تحويل الأرباح وتبادل العملات بدون قيود\n\n[عرض القائمة الكاملة](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
-    light: '/img/iStock-2051326997.avif',
-    dark: '/img/iStock-1448478309.jpg',
+    light: '/img/iStock-1331100622.jpg',
+    dark: '/img/iStock-1203821481.avif',
     width: '100%'
   },
   inversion: false
@@ -43,7 +47,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'دعم كامل: خطوة بخطوة معك',
-  details: 'دليل كامل لتأسيس الشركات في **Free Zone و Offshore و Mainland و Branch**. \n\n* ملكية أجنبية 100٪ متاحة في Free Zones و Mainland\n* معدلات ضريبية منخفضة - 9٪ ضريبة شركات فقط\n* لا قيود على العملات - سهولة إعادة رأس المال\n\n[اعرف المزيد](/uae-business/company-registration/overview)',
+  details: 'دليل شامل لتأسيس الشركات في **المنطقة الحرة، الأوفشور، البر الرئيسي، الفرع**. \n\n* ملكية أجنبية 100٪ متاحة في المناطق الحرة والبر الرئيسي\n* معدلات ضريبية منخفضة - 9٪ ضريبة شركات فقط\n* لا قيود على العملات - سهولة تحويل رأس المال\n\n[اعرف المزيد](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -72,10 +76,10 @@ hero:
   },
   {
     title: 'التأشيرة الذهبية والإقامة',
-    details: 'احصل على **Golden Visa** الإماراتية للإقامة طويلة الأمد مع عملية تقديم سلسة.',
+    details: 'احصل على **التأشيرة الذهبية** للإقامة طويلة الأمد في الإمارات مع عملية تقديم سلسة.',
     items: [
       '**لا حاجة لدخول الإمارات كل 6 أشهر**',
-      'صلاحية 10 سنوات مع إمكانية التجديد عند الحفاظ على شروط التأهيل',
+      'صلاحية 10 سنوات مع إمكانية التجديد عند استيفاء الشروط المؤهلة',
       'معدل نجاح 92٪'
     ],
     linkText: 'اعرف المزيد',

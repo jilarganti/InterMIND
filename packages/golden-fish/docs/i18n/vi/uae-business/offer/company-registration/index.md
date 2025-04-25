@@ -7,6 +7,10 @@ showSponsors: false
 hero:
   name: "Thành Lập Công Ty UAE: Chúng Tôi Chia Sẻ Rủi Ro Cùng Bạn"
   tagline: "Đầu tư vào doanh nghiệp của bạn một cách tự tin: chúng tôi chỉ nhận thanh toán sau khi đăng ký công ty thành công. <span class='hl'>Thành công của bạn là mục tiêu duy nhất của chúng tôi</span>."
+  actions:
+    - theme: brand
+      text: Trò chuyện với chuyên gia ngay
+      link: /chat
   image:
     light:
       src: /img/Logo.avif
@@ -22,8 +26,8 @@ hero:
   details: 'UAE mang đến nhiều lợi thế cho các doanh nhân và nhà đầu tư quốc tế tìm kiếm môi trường kinh doanh thuận lợi. \n\n* Thuế suất thấp: Chỉ 9% thuế doanh nghiệp và 5% VAT, không có thuế thu nhập cá nhân\n* 100% Sở hữu nước ngoài: Kiểm soát hoàn toàn công ty của bạn mà không cần đối tác địa phương\n* Không kiểm soát tiền tệ: Tự do chuyển lợi nhuận và trao đổi ngoại tệ\n\n[Xem danh sách đầy đủ](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
-    light: '/img/iStock-2051326997.avif',
-    dark: '/img/iStock-1448478309.jpg',
+    light: '/img/iStock-1331100622.jpg',
+    dark: '/img/iStock-1203821481.avif',
     width: '100%'
   },
   inversion: false
@@ -111,7 +115,7 @@ hero:
   {
     icon: '📊',
     title: 'Tỷ Lệ Thành Công Đã Được Chứng Minh',
-    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua quy trình xử lý cao cấp của chúng tôi.'
+    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua dịch vụ xử lý cao cấp của chúng tôi.'
   },
   {
     icon: '💸',

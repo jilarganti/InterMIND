@@ -8,6 +8,10 @@ hero:
   name: "Formación de Empresas en EAU: Compartimos Tu Riesgo"
   # text: Pago por resultados
   tagline: "Invierte en tu negocio con confianza: solo nos pagas después del registro exitoso de la empresa. <span class='hl'>Tu éxito es nuestro único objetivo</span>."
+  actions:
+    - theme: brand
+      text: Chat instantáneo con expertos
+      link: /chat
   image:
     light:
       src: /img/Logo.avif
@@ -23,8 +27,8 @@ hero:
   details: 'Los EAU ofrecen numerosas ventajas para empresarios e inversores internacionales que buscan un entorno empresarial favorable. \n\n* Bajas Tasas Impositivas: Solo 9% de impuesto corporativo y 5% de IVA sin impuesto sobre la renta personal\n* 100% Propiedad Extranjera: Control total de tu empresa sin socios locales\n* Sin Control de Divisas: Repatriación de beneficios y cambio de divisas sin restricciones\n\n[Mostrar lista completa](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
-    light: '/img/iStock-2051326997.avif',
-    dark: '/img/iStock-1448478309.jpg',
+    light: '/img/iStock-1331100622.jpg',
+    dark: '/img/iStock-1203821481.avif',
     width: '100%'
   },
   inversion: false
@@ -32,7 +36,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Desafíos que Enfrentamos Juntos',
-  details: 'Aunque los EAU ofrecen muchos beneficios, las empresas deben ser conscientes de los posibles desafíos al establecer operaciones. \n\n* Entorno Regulatorio Complejo: Diferentes regulaciones entre emiratos y free zones\n* Requisitos de Sustancia Económica: Personal local y espacio de oficina física necesarios para ciertas actividades\n* Altos Costos Iniciales: Tasas de registro, documentación y alquileres obligatorios de oficinas\n\n[Mostrar lista completa](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'Si bien los EAU ofrecen muchos beneficios, las empresas deben ser conscientes de los posibles desafíos al establecer operaciones. \n\n* Entorno Regulatorio Complejo: Diferentes regulaciones entre emiratos y free zones\n* Requisitos de Sustancia Económica: Personal local y espacio de oficina física necesarios para ciertas actividades\n* Altos Costos Iniciales: Tasas de registro, documentación y alquileres obligatorios de oficinas\n\n[Mostrar lista completa](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -57,7 +61,7 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Apertura de Cuenta Bancaria',
-    details: 'Abre fácilmente cuentas bancarias **comerciales o personales** con los bancos de confianza de EAU.',
+    details: 'Abre fácilmente cuentas **bancarias** comerciales o personales con los bancos de confianza de EAU.',
     items: [
       'Servicios PRO integrales para aprobaciones gubernamentales',
       'Configuración completa del paquete bancario',
@@ -75,7 +79,7 @@ hero:
     title: 'Golden Visa y Residencia',
     details: 'Obtén una **Golden Visa** de EAU para residencia a largo plazo con un proceso de solicitud sin complicaciones.',
     items: [
-      '**No es necesario entrar a EAU cada 6 meses**',
+      '**No es necesario ingresar a EAU cada 6 meses**',
       'Validez de 10 años con opción de renovación al mantener las condiciones de calificación',
       '92% de tasa de éxito'
     ],
@@ -84,7 +88,7 @@ hero:
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
-      alt: 'Servicios de Visa'
+      alt: 'Servicios de Visado'
     }
   },
   {
@@ -130,6 +134,6 @@ hero:
 <ContactFormModalNav buttonText="Hablar con un experto" formStyle="display: block; margin: 1rem auto;"/>
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración EAU' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración EAU' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración a EAU' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Inmigración a EAU' },
 ]"/> -->

@@ -8,6 +8,10 @@ hero:
   name: "Thị Thực Vàng UAE"
   text: Thanh toán theo kết quả
   tagline: Cư trú 10 năm. <span class="hl">Không phí trả trước</span> - chỉ thanh toán sau khi được phê duyệt. Tỷ lệ thành công 98%.
+  actions:
+    - theme: brand
+      text: Trò chuyện với chuyên gia ngay
+      link: /chat
   image:
     light:
       src: /img/Logo.avif
@@ -16,6 +20,7 @@ hero:
       src: /img/Logo.avif
       width: 50%
     alt: Logo Golden Fish
+
 ---
 
 <FeatureCards :features="[
@@ -35,17 +40,17 @@ hero:
     icon: {
       light: '/img/iStock-1785818081.avif',
       dark: '/img/iStock-1203821481.avif',
-      alt: 'Dịch vụ Thị thực',
+      alt: 'Dịch vụ thị thực',
       width: '100%'
     }
   },
   {
     title: 'Cách Nhận Thị Thực Vàng UAE',
     items: [
-      'Đầu tư 2M AED vào bất động sản UAE',
-      'Gửi tiền 2M AED vào quỹ đầu tư UAE',
-      'Doanh nghiệp với vốn 2M AED',
-      'Đóng góp FTA hàng năm 250K AED',
+      'Đầu tư AED 2M vào bất động sản UAE',
+      'Gửi tiền AED 2M vào quỹ đầu tư UAE',
+      'Doanh nghiệp với vốn AED 2M',
+      'Đóng góp FTA hàng năm AED 250K',
       'Chuyên gia có kỹ năng',
       'Tài năng xuất chúng'
     ],
@@ -54,7 +59,7 @@ hero:
     icon: {
       light: '/img/iStock-1333000394.avif',
       dark: '/img/iStock-584576538.avif',
-      alt: 'Dịch vụ Thị thực',
+      alt: 'Dịch vụ thị thực',
       width: '10%'
     }
   },
@@ -74,7 +79,7 @@ hero:
     icon: {
       light: '/img/ILONMASKID.webp',
       dark: '/img/ILONMASKID.webp',
-      alt: 'Dịch vụ Thị thực',
+      alt: 'Dịch vụ thị thực',
       width: '100%'
     }
   }
@@ -84,35 +89,20 @@ hero:
 
 <BenefitsList :features="[
   {
-    icon: '💰',
-    title: 'Phí Dựa Trên Thành Công',
-    text: '**Không thanh toán cho đến khi Golden Visa của bạn được phê duyệt.** Hoàn toàn minh bạch không có chi phí ẩn.'
-  },
-  {
-    icon: '📈',
-    title: 'Tỷ Lệ Thành Công Đã Được Chứng Minh',
-    text: 'Tỷ lệ phê duyệt 98% với hàng trăm Golden Visa đã được cấp thông qua quy trình xử lý cao cấp của chúng tôi.'
-  },
-  {
-    icon: '📋',
-    title: 'Quản Lý Toàn Diện',
-    text: 'Xử lý từ đầu đến cuối từ hồ sơ đến cấp visa, chăm sóc mọi chi tiết.'
-  },
-  {
-    icon: '👨‍💼',
-    title: 'Chuyên Môn Địa Phương UAE',
+    icon: '🏢',
+    title: 'Chuyên Môn Tại UAE',
     text: 'Các chuyên gia tận tâm tại Dubai cung cấp hướng dẫn chuyên nghiệp trong từng bước của quy trình.'
   },
   {
-    icon: '🔍',
-    title: 'Xử Lý Cao Cấp',
-    text: 'Liên lạc trực tiếp với cơ quan chức năng và kênh xử lý nhanh để phê duyệt nhanh chóng hơn.'
+    icon: '📊',
+    title: 'Tỷ Lệ Thành Công Đã Được Chứng Minh',
+    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua quy trình xử lý cao cấp của chúng tôi.'
   },
   {
-    icon: '🔄',
-    title: 'Hỗ Trợ Gia Hạn',
-    text: 'Hỗ trợ gia hạn visa miễn phí với **không phí đại lý** - chỉ tính phí chính phủ.'
-  }
+    icon: '💸',
+    title: '**Phí Dựa Trên Thành Công**',
+    text: '[Chỉ thanh toán sau khi được phê duyệt](/uae-business/benefits/success-based-fees). Hoàn toàn minh bạch không có chi phí ẩn.'
+  },
 ]" />
 
 ## Đặt lịch tư vấn miễn phí để kiểm tra tư cách hợp lệ và thảo luận về các lựa chọn của bạn.

@@ -1,13 +1,17 @@
 ---
 layout: home
 title: "BAE Altın Vize | Başarı Ücretine Dayalı Hizmet"
-description: "Ön ödeme olmadan premium 10 yıllık oturma vizesi - sadece onaydan sonra ödeme yapın. %98 başarı oranıyla tam başvuru yönetimi. Ücretsiz yenileme hizmeti, sadece resmi harçlar."
+description: "Ön ödeme olmadan premium 10 yıllık oturma vizesi - sadece onaydan sonra ödeme. %98 başarı oranıyla tam başvuru yönetimi. Ücretsiz yenileme hizmeti, sadece resmi harçlar."
 showSponsors: false
 
 hero:
   name: "BAE Altın Vize"
   text: Sonuca dayalı ödeme
   tagline: 10 yıllık oturma. <span class="hl">Ön ödeme yok</span> - sadece onaydan sonra ödeme. %98 başarı oranı.
+  actions:
+    - theme: brand
+      text: Anında uzman sohbeti
+      link: /chat
   image:
     light:
       src: /img/Logo.avif
@@ -16,13 +20,14 @@ hero:
       src: /img/Logo.avif
       width: 50%
     alt: Golden Fish logosu
+
 ---
 
 <FeatureCards :features="[
   {
     title: 'BAE Altın Vize Avantajları',
     items: [
-      '10 yıl geçerlilik ve uygunluk koşullarını koruyarak yenileme seçeneği',
+      '10 yıl geçerlilik ve şartları sağladığı sürece yenileme seçeneği',
       '**Her 6 ayda bir BAE\'ye giriş yapma zorunluluğu yok**',
       '%100 işletme sahipliğine izin verilir',
       'Aile üyeleri ve sınırsız ev personeli sponsorluğu',
@@ -30,7 +35,7 @@ hero:
       'Ebeveyn sponsorluğu dahil',
       'Sponsor veya işveren gerekli değil'
     ],
-    linkText: 'Learn more',
+    linkText: 'Daha fazla bilgi',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
     icon: {
       light: '/img/iStock-1785818081.avif',
@@ -42,14 +47,14 @@ hero:
   {
     title: 'BAE Altın Vize Nasıl Alınır',
     items: [
-      'BAE gayrimenkullerine 2M AED yatırım',
-      'BAE yatırım fonlarına 2M AED mevduat',
+      'BAE\'de 2M AED değerinde gayrimenkul yatırımı',
+      'BAE yatırım fonlarında 2M AED mevduat',
       '2M AED sermayeli işletme',
       'Yıllık 250K AED FTA katkısı',
       'Vasıflı Profesyoneller',
       'Üstün yetenekli kişiler'
     ],
-    linkText: 'Learn more',
+    linkText: 'Daha fazla bilgi',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -69,7 +74,7 @@ hero:
       'Emirates ID ve vize düzenlenmesi',
       'Aile vizesi sponsorluğu (isteğe bağlı)'
     ],
-    linkText: 'Learn more',
+    linkText: 'Daha fazla bilgi',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
     icon: {
       light: '/img/ILONMASKID.webp',
@@ -84,35 +89,20 @@ hero:
 
 <BenefitsList :features="[
   {
-    icon: '💰',
-    title: 'Başarı Bazlı Ücretler',
-    text: '**Golden Visa onaylanana kadar ödeme yok.** Gizli maliyetler olmadan tam şeffaflık.'
-  },
-  {
-    icon: '📈',
-    title: 'Kanıtlanmış Başarı Oranı',
-    text: 'Premium işlemlerimiz aracılığıyla verilen yüzlerce Golden Visa ile %98 onay oranı.'
-  },
-  {
-    icon: '📋',
-    title: 'Eksiksiz Yönetim',
-    text: 'Belgelerden vize düzenlenmesine kadar tüm detaylarla ilgilenen uçtan uca hizmet.'
-  },
-  {
-    icon: '👨‍💼',
+    icon: '🏢',
     title: 'Yerel BAE Uzmanlığı',
     text: 'Dubai\'deki uzman ekibimiz sürecin her adımında profesyonel rehberlik sağlar.'
   },
   {
-    icon: '🔍',
-    title: 'Premium İşlem',
-    text: 'Daha hızlı onaylar için yetkililerle doğrudan iletişim ve hızlı kanal erişimi.'
+    icon: '📊',
+    title: 'Kanıtlanmış Başarı Oranı',
+    text: 'Premium hizmetlerimiz aracılığıyla verilen yüzlerce vize, banka hesabı ve şirket tescilinde %90\'ın üzerinde onay oranı.'
   },
   {
-    icon: '🔄',
-    title: 'Yenileme Desteği',
-    text: '**Sıfır acente ücreti** ile ücretsiz vize yenileme desteği - sadece resmi harçlar.'
-  }
+    icon: '💸',
+    title: '**Başarıya Dayalı Ücretler**',
+    text: '[Sadece onaydan sonra ödeme yapın](/uae-business/benefits/success-based-fees). Gizli maliyetler olmadan tam şeffaflık.'
+  },
 ]" />
 
 ## Uygunluğunuzu kontrol etmek ve seçeneklerinizi görüşmek için ücretsiz danışmanlık randevusu alın.

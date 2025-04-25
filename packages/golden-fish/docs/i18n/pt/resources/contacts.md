@@ -3,13 +3,14 @@
 # sidebar: false
 # aside: false
 # next: false
+showContactForm: false
 ---
 
 <!-- <p>
-  <img src="/img/Logo.avif" alt="logo" width="100" height="100" style="margin-left: 50%;">
+  <img src="/img/Logo.avif" alt="logotipo" width="100" height="100" style="margin-left: 50%;">
 </p> -->
 
-# Fale Conosco
+# Entre em Contato
 
 Procurando estabelecer ou expandir seu negócio nos Emirados Árabes Unidos? Entre em contato com a Golden Fish Corporate Services Provider LLC - seu agente registrado para formação de empresas, serviços PRO e assistência com vistos.
 
@@ -34,4 +35,6 @@ Dubai, UAE
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
 > [!IMPORTANT] Por que Nos Escolher?
-> Com uma equipe de profissionais experientes e um compromisso com serviços personalizados, garantimos uma experiência tranquila e eficiente para nossos clientes, permitindo que eles se concentrem no que é mais importante – fazer seu negócio crescer nos Emirados Árabes Unidos.
+> Com uma equipe de profissionais experientes e um compromisso com serviços personalizados, garantimos uma experiência tranquila e eficiente para os clientes, permitindo que eles se concentrem no que é mais importante – fazer seu negócio crescer nos Emirados Árabes Unidos.
+
+<ContactFormModalNav buttonText="Fale com um especialista" formStyle="display: block; margin: 2rem auto;"/>

@@ -22,7 +22,9 @@ import { useData } from "vitepress"
 import ContactFormModal from "./ContactFormModal.vue"
 import { computed } from "vue"
 
-const { page } = useData()
+const { page, frontmatter } = useData()
+
+const showContactForm = computed(() => frontmatter.value.showSponsors ?? true)
 
 // Определяем пропсы, кроме formName, который берем из текущего пути
 const props = defineProps<{
@@ -66,6 +68,7 @@ const handleSuccess = () => {
 
 <template>
   <ContactFormModal
+    v-if="showContactForm"
     :formName="formName"
     :buttonText="buttonText"
     :services="services"

@@ -3,6 +3,7 @@
 # sidebar: false
 # aside: false
 # next: false
+showContactForm: false
 ---
 
 <!-- <p>
@@ -11,7 +12,7 @@
 
 # お問い合わせ
 
-UAEでビジネスを立ち上げたい、または成長させたいとお考えですか？会社設立、PROサービス、ビザ支援の登録代理店である Golden Fish Corporate Services Provider LLC にご連絡ください。
+UAEでビジネスを立ち上げたい、または成長させたいとお考えですか？Golden Fish Corporate Services Provider LLC にご連絡ください。会社設立、PROサービス、ビザ支援の登録代理店です。
 
 **ライセンス情報：**
 
@@ -34,4 +35,6 @@ Dubai, UAE
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
 > [!IMPORTANT] 当社が選ばれる理由
-> 知識豊富な専門家チームと、お客様一人一人に合わせたサービスの提供により、クライアントの皆様がUAEでのビジネス成長に集中できるよう、円滑で効率的な経験をお約束します。
+> 知識豊富な専門家チームと、きめ細やかなサービスへの取り組みにより、クライアントの皆様がUAEでのビジネス成長に集中できるよう、円滑で効率的な体験を提供いたします。
+
+<ContactFormModalNav buttonText="専門家に相談する" formStyle="display: block; margin: 2rem auto;"/>
