@@ -22,7 +22,7 @@ import { useData } from "vitepress"
 import ContactFormModal from "./ContactFormModal.vue"
 import { computed } from "vue"
 
-const hideComponent = computed(() => useData().frontmatter.value.hideComponents?.includes("ContactFormModalNav"))
+const hide = computed(() => useData().frontmatter.value.hideComponents?.includes("ContactFormModalNav"))
 
 // Определяем пропсы, кроме formName, который берем из текущего пути
 const props = defineProps<{
@@ -66,7 +66,7 @@ const handleSuccess = () => {
 
 <template>
   <ContactFormModal
-    v-if="!hideComponent"
+    v-if="!hide"
     :formName="formName"
     :buttonText="buttonText"
     :services="services"

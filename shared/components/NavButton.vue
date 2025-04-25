@@ -8,7 +8,7 @@ interface Props {
   /**
    * Текст кнопки
    */
-  buttonLabel: string
+  buttonLabel?: string
 
   /**
    * Класс для кнопки
@@ -32,7 +32,10 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 const { navigateTo } = useLocalizedPath()
-const hideComponent = computed(() => useData().frontmatter.value.hideComponents?.includes("NavButton"))
+const { site, frontmatter } = useData()
+
+const hide = computed(() => frontmatter.value.hideComponents?.includes("NavButton"))
+const label = computed(() => props.buttonLabel || site.value.themeConfig.localization.buttonLabel4NavButton)
 
 // Вычисляемый класс с добавлением brand по умолчанию
 const computedClass = computed(() => {
@@ -57,8 +60,8 @@ const handleClick = (): void => {
 </script>
 
 <template>
-  <button v-if="!hideComponent" :class="computedClass" :style="buttonStyle" @click="handleClick">
-    {{ buttonLabel }}
+  <button v-if="!hide" :class="computedClass" :style="buttonStyle" @click="handleClick">
+    {{ label }}
   </button>
 </template>
 
