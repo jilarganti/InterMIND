@@ -3,16 +3,18 @@
 # sidebar: false
 # aside: false
 # next: false
-showContactForm: false
+hideComponents:
+  - NavButton
+  # - SearchInput
 ---
 
 <!-- <p>
   <img src="/img/Logo.avif" alt="로고" width="100" height="100" style="margin-left: 50%;">
 </p> -->
 
-# 연락처
+# 문의하기
 
-UAE에서 비즈니스를 설립하거나 성장시키고 싶으신가요? 회사 설립, PRO 서비스 및 비자 지원을 위한 등록 대리인인 Golden Fish Corporate Services Provider LLC에 문의하세요.
+UAE에서 사업을 시작하거나 성장시키고 싶으신가요? 회사 설립, PRO 서비스, 비자 지원을 위한 등록 대리인인 Golden Fish Corporate Services Provider LLC에 문의하세요.
 
 **라이센스 정보:**
 

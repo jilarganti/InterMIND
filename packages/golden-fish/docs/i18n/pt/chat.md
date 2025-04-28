@@ -17,14 +17,15 @@ navbar: false
     
     { id: "1", text: "Registro de empresa nos EAU", category: "business" },
     { id: "7", text: "Requisitos para licença comercial nos EAU", category: "business" },
-    { id: "7", text: "comparação de tipos de entidades nos EAU, tabela e análise", category: "business" },
+    { id: "7", text: "comparação dos tipos de entidades nos EAU, tabela e análise", category: "business" },
+    { id: "7", text: "comparação especializada do custo de relocação de uma empresa britânica para várias free zones para um negócio financeiro com dois fundadores. 8 vistos, 3 membros da família + um cachorro. Aluguel em centro empresarial. Britânico, não residente nos EAU", category: "business" },
     { id: "48", text: "10 Melhores Hospitais nos EAU, Prós e Contras", category: "healthcare" },
 
     { id: "15", text: "Procuração nos EAU", category: "legal" },
 
     // Serviços Empresariais (primeiro bloco)
     { id: "2", text: "Estabelecimento de empresa Mainland", category: "business" },
-    { id: "3", text: "Registro de empresa Free Zone", category: "business" },
+    { id: "3", text: "Registro de empresa em Free Zone", category: "business" },
     { id: "4", text: "Formação de empresa Offshore", category: "business" },
     { id: "5", text: "Visto freelance EAU", category: "business" },
     { id: "6", text: "Licença comercial Dubai", category: "business" },
@@ -37,9 +38,9 @@ navbar: false
     { id: "8", text: "Solicitação de Golden Visa EAU", category: "visa" },
     { id: "9", text: "Visto de trabalho EAU", category: "visa" },
     { id: "10", text: "Patrocínio de visto familiar nos EAU", category: "visa" },
-    { id: "11", text: "Requisitos para exame médico de visto", category: "visa" },
+    { id: "11", text: "Requisitos para exame médico do visto", category: "visa" },
     { id: "12", text: "Processo de visto de residência EAU", category: "visa" },
-    { id: "27", text: "Requisitos de visto EAU", category: "visa" },
+    { id: "27", text: "Requisitos para visto EAU", category: "visa" },
     
     // Jurídico e Documentos
     { id: "13", text: "Solicitação de Emirates ID", category: "legal" },
@@ -67,7 +68,7 @@ navbar: false
     { id: "29", text: "Expo City Dubai", category: "attractions" },
     { id: "30", text: "Ingressos Dubai Frame", category: "attractions" },
     { id: "31", text: "Ingressos Burj Khalifa", category: "attractions" },
-    { id: "32", text: "Museu do Futuro", category: "attractions" },
+    { id: "32", text: "Museum of the Future", category: "attractions" },
     { id: "33", text: "Louvre Abu Dhabi", category: "attractions" },
     { id: "34", text: "Ferrari World Abu Dhabi", category: "attractions" },
     { id: "35", text: "Compras Dubai Mall", category: "shopping" },

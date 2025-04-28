@@ -3,7 +3,9 @@
 # sidebar: false
 # aside: false
 # next: false
-showContactForm: false
+hideComponents:
+  - NavButton
+  # - SearchInput
 ---
 
 <!-- <p>
@@ -17,7 +19,7 @@ Ingin mendirikan atau mengembangkan bisnis Anda di UAE? Hubungi Golden Fish Corp
 **Detail Lisensi:**
 
 - Nomor Lisensi: 1414192
-- Nomor Registrasi: 2411728
+- Nomor Register: 2411728
 
 **Lokasi Kantor:**  
 City Avenue Building  

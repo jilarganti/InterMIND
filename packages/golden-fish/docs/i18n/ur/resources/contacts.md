@@ -3,7 +3,9 @@
 # sidebar: false
 # aside: false
 # next: false
-showContactForm: false
+hideComponents:
+  - NavButton
+  # - SearchInput
 ---
 
 <!-- <p>
@@ -34,7 +36,7 @@ Dubai, UAE
 <!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
-> [!IMPORTANT] ہمیں کیوں منتخب کریں؟
-> معلومات رکھنے والے پیشہ ور افراد کی ٹیم اور ذاتی خدمات کے لیے عزم کے ساتھ، ہم کلائنٹس کے لیے ہموار اور موثر تجربہ یقینی بناتے ہیں، جو انہیں سب سے اہم چیز پر توجہ مرکوز کرنے کی اجازت دیتا ہے – متحدہ عرب امارات میں اپنے کاروبار کو بڑھانا۔
+> [!IMPORTANT] ہمیں کیوں چنیں؟
+> معلومات سے بھرپور پیشہ ور ٹیم اور ذاتی خدمات کے لیے عزم کے ساتھ، ہم کلائنٹس کے لیے ہموار اور موثر تجربہ یقینی بناتے ہیں، جو انہیں اہم ترین چیز پر توجہ دینے کی اجازت دیتا ہے – متحدہ عرب امارات میں اپنے کاروبار کو بڑھانا۔
 
 <ContactFormModalNav buttonText="ماہر سے بات کریں" formStyle="display: block; margin: 2rem auto;"/>

@@ -18,6 +18,7 @@ navbar: false
     { id: "1", text: "UAE 회사 등록", category: "business" },
     { id: "7", text: "UAE 무역 라이선스 요구사항", category: "business" },
     { id: "7", text: "UAE 기업 유형 비교, 표 및 분석", category: "business" },
+    { id: "7", text: "금융 사업을 위해 영국에서 다양한 free zone으로 회사를 이전하는 비용에 대한 전문가 비교. 비자 8개, 가족 구성원 3명 + 반려견. 비즈니스 센터 임대. 영국인, UAE 비거주자", category: "business" },
     { id: "48", text: "UAE 최고의 병원 10곳, 장단점", category: "healthcare" },
 
     { id: "15", text: "UAE의 위임장", category: "legal" },
@@ -65,12 +66,12 @@ navbar: false
     // 관광 및 엔터테인먼트 (마지막)
     { id: "28", text: "두바이 관광 명소", category: "travel" },
     { id: "29", text: "Expo City 두바이", category: "attractions" },
-    { id: "30", text: "Dubai Frame 티켓", category: "attractions" },
-    { id: "31", text: "Burj Khalifa 티켓", category: "attractions" },
-    { id: "32", text: "Museum of the Future", category: "attractions" },
-    { id: "33", text: "Abu Dhabi Louvre", category: "attractions" },
-    { id: "34", text: "Ferrari World Abu Dhabi", category: "attractions" },
-    { id: "35", text: "Dubai Mall 쇼핑", category: "shopping" },
+    { id: "30", text: "두바이 프레임 티켓", category: "attractions" },
+    { id: "31", text: "부르즈 할리파 티켓", category: "attractions" },
+    { id: "32", text: "미래 박물관", category: "attractions" },
+    { id: "33", text: "아부다비 루브르", category: "attractions" },
+    { id: "34", text: "페라리 월드 아부다비", category: "attractions" },
+    { id: "35", text: "두바이 몰 쇼핑", category: "shopping" },
 ]
 </script>
 

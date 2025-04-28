@@ -3,7 +3,9 @@
 # sidebar: false
 # aside: false
 # next: false
-showContactForm: false
+hideComponents:
+  - NavButton
+  # - SearchInput
 ---
 
 <!-- <p>

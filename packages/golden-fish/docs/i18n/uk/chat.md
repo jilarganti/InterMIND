@@ -18,18 +18,19 @@ navbar: false
     { id: "1", text: "Реєстрація компанії в ОАЕ", category: "business" },
     { id: "7", text: "Вимоги до торгової ліцензії в ОАЕ", category: "business" },
     { id: "7", text: "порівняння типів компаній в ОАЕ, таблиця та аналітика", category: "business" },
+    { id: "7", text: "експертне порівняння вартості переміщення компанії з Британії до різних free zone для фінансового бізнесу з двома засновниками. 8 віз, 3 члени сім'ї + собака. Оренда в бізнес-центрі. Британець, не резидент ОАЕ", category: "business" },
     { id: "48", text: "10 найкращих лікарень в ОАЕ, переваги та недоліки", category: "healthcare" },
 
     { id: "15", text: "Довіреність в ОАЕ", category: "legal" },
 
     // Бізнес-послуги (перший блок)
-    { id: "2", text: "Створення компанії в Mainland", category: "business" },
-    { id: "3", text: "Реєстрація компанії у Free Zone", category: "business" },
+    { id: "2", text: "Створення Mainland компанії", category: "business" },
+    { id: "3", text: "Реєстрація компанії у Free zone", category: "business" },
     { id: "4", text: "Створення офшорної компанії", category: "business" },
     { id: "5", text: "Віза фрілансера в ОАЕ", category: "business" },
     { id: "6", text: "Бізнес-ліцензія в Дубаї", category: "business" },
     { id: "23", text: "Створення бізнесу в ОАЕ", category: "business" },
-    { id: "24", text: "Free Zone в Дубаї", category: "business" },
+    { id: "24", text: "Free zone в Дубаї", category: "business" },
     { id: "25", text: "Реєстрація компанії в ОАЕ", category: "business" },
     { id: "26", text: "Віза фрілансера в ОАЕ", category: "business" },
     
@@ -39,7 +40,7 @@ navbar: false
     { id: "10", text: "Спонсорство сімейної візи в ОАЕ", category: "visa" },
     { id: "11", text: "Вимоги до медичного тесту для візи", category: "visa" },
     { id: "12", text: "Процес отримання резидентської візи в ОАЕ", category: "visa" },
-    { id: "27", text: "Вимоги до візи в ОАЕ", category: "visa" },
+    { id: "27", text: "Візові вимоги ОАЕ", category: "visa" },
     
     // Юридичні та документи
     { id: "13", text: "Подання на Emirates ID", category: "legal" },

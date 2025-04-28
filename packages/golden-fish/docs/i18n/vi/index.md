@@ -1,18 +1,16 @@
 ---
 layout: home
 title: "Dịch Vụ Thành Lập Công Ty tại UAE"
-description: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thiết lập công ty, ngân hàng, thuế, pháp lý và thị thực. Chỉ thanh toán sau khi được phê duyệt."
+description: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thiết lập công ty, ngân hàng, thuế, pháp lý và visa. Chỉ thanh toán sau khi được phê duyệt."
 showSponsors: false
 
 hero:
   name: "UAE: Bến Đỗ Tài Chính An Toàn Của Bạn"
-  tagline: "Hỗ Trợ Kinh Doanh Toàn Diện: Thành Lập Công Ty, Thị Thực, Ngân Hàng. <span class='hl'>Không thành công — không thu phí</span>."
-
+  tagline: "Tư vấn chuyên gia 5 phút: Khám phá cách thành lập doanh nghiệp tại UAE <span class='hl'>không rủi ro</span>"
   actions:
     - theme: brand
-      text: Chat với chuyên gia
+      text: Trò chuyện với chuyên gia ngay
       link: /chat
-
   image:
     light:
       src: /img/Logo.avif
@@ -23,56 +21,41 @@ hero:
     alt: Logo Golden Fish
 ---
 
-<FeatureCards :features="[
-  {
-    title: 'Hướng Dẫn Thành Lập Công Ty',
-    details: 'Hướng dẫn đầy đủ để thành lập công ty tại **free zone, offshore, mainland, branch**.',
-    items: [
-      'Cho phép 100% Sở hữu nước ngoài tại Free Zones và Mainland',
-      'Thuế suất thấp - chỉ 9% thuế doanh nghiệp',
-      'Không kiểm soát tiền tệ - dễ dàng chuyển vốn về nước'
-    ],
-    linkText: 'Tìm hiểu thêm',
-    link: '/uae-business/offer/company-registration/',
-    icon: {
-      light: '/img/iStock-2051326997.avif',
-      dark: '/img/iStock-1448478309.jpg',
-      alt: 'Hướng dẫn thành lập công ty'
-    }
+<FeatureBlock :card="{
+  title: 'Hướng Dẫn Thành Lập Công Ty',
+  details: 'Hướng dẫn đầy đủ để thành lập công ty tại **free zone, offshore, mainland, branch**. \n\n* Cho phép 100% Sở hữu nước ngoài tại Free Zones và Mainland\n* Thuế suất thấp - chỉ 9% thuế doanh nghiệp\n* Không kiểm soát tiền tệ - dễ dàng chuyển vốn về nước\n\n[Tìm hiểu thêm](/uae-business/offer/company-registration/)',
+  link: '/uae-business/offer/company-registration/',
+  src: {
+    light: '/img/iStock-2051326997.avif',
+    dark: '/img/iStock-1448478309.jpg',
+    width: '100%'
   },
-  {
-    title: 'Mở Tài Khoản Ngân Hàng',
-    details: 'Dễ dàng mở tài khoản doanh nghiệp hoặc cá nhân với các ngân hàng uy tín của UAE.',
-    items: [
-      'Dịch vụ PRO toàn diện cho phê duyệt chính phủ',
-      'Thiết lập gói ngân hàng hoàn chỉnh',
-      '**Tỷ lệ thành công 96%**',
-    ],
-    linkText: 'Tìm hiểu thêm',
-    link: '/uae-business/offer/banking/',
-    icon: {
-      light: '/img/iStock-2153786564.avif',
-      dark: '/img/iStock-2166793628.avif',
-      alt: 'Dịch vụ ngân hàng'
-    }
+  inversion: false
+}" />
+
+<FeatureBlock :card="{
+  title: 'Giải Pháp Ngân Hàng',
+  details: 'Dễ dàng mở tài khoản doanh nghiệp hoặc cá nhân với các ngân hàng uy tín của UAE. \n\n* Dịch vụ PRO toàn diện cho phê duyệt chính phủ\n* Thiết lập gói ngân hàng hoàn chỉnh\n* **Tỷ lệ thành công 96%**\n\n[Tìm hiểu thêm](/uae-business/offer/banking/)',
+  link: '/uae-business/offer/banking/',
+  src: {
+    light: '/img/iStock-2153786564.avif',
+    dark: '/img/iStock-2166793628.avif',
+    width: '100%'
   },
-  {
-    title: 'Golden Visa & Cư Trú',
-    details: 'Nhận **Golden Visa** UAE để cư trú dài hạn với quy trình đăng ký thuận tiện.',
-    items: [
-      '**Không cần nhập cảnh UAE mỗi 6 tháng**',
-      'Hiệu lực 10 năm với tùy chọn gia hạn khi duy trì đủ điều kiện',
-      'Tỷ lệ thành công 92%',
-    ],
-    linkText: 'Tìm hiểu thêm',
-    link: '/uae-business/offer/golden-visa/',
-    icon: {
-      light: '/img/iStock-1312241253.avif',
-      dark: '/img/ILONMASKID.webp',
-      alt: 'Dịch vụ thị thực'
-    }
+  inversion: true
+}" />
+
+<FeatureBlock :card="{
+  title: 'Golden Visa & Cư Trú',
+  details: 'Nhận **Golden Visa** UAE để cư trú dài hạn với quy trình đăng ký thuận tiện. \n\n* **Không cần nhập cảnh UAE mỗi 6 tháng**\n* Hiệu lực 10 năm với tùy chọn gia hạn khi duy trì đủ điều kiện\n* Tỷ lệ thành công 92%\n\n[Tìm hiểu thêm](/uae-business/offer/golden-visa/)',
+  link: '/uae-business/offer/golden-visa/',
+  src: {
+    light: '/img/iStock-1312241253.avif',
+    dark: '/img/ILONMASKID.webp',
+    width: '100%'
   },
-]" />
+  inversion: false
+}" />
 
 <FeatureCards :features="[
   {
@@ -84,7 +67,7 @@ hero:
     icon: {
       light: '/img/iStock-1299393716.avif',
       dark: '/img/iStock-2149731304.avif',
-      alt: 'Dịch vụ tuân thủ'
+      alt: 'Dịch Vụ Tuân Thủ'
     }
   },
   {
@@ -96,7 +79,7 @@ hero:
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
-      alt: 'Dịch vụ thuế'
+      alt: 'Dịch Vụ Thuế'
     }
   },
   {
@@ -108,7 +91,7 @@ hero:
     icon: {
       light: '/img/iStock-650045508.avif',
       dark: '/img/iStock-1498627598.avif',
-      alt: 'Dịch vụ pháp lý'
+      alt: 'Dịch Vụ Pháp Lý'
     }
   },
   {
@@ -120,7 +103,7 @@ hero:
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',
-      alt: 'Dịch vụ kế toán'
+      alt: 'Dịch Vụ Kế Toán'
     }
   },
 ]" />
@@ -131,12 +114,12 @@ hero:
   {
     icon: '🏢',
     title: 'Chuyên Môn Tại UAE',
-    text: 'Các chuyên gia tận tâm tại Dubai cung cấp hướng dẫn chuyên nghiệp trong từng bước của quy trình.'
+    text: 'Các chuyên gia tận tâm tại Dubai cung cấp hướng dẫn chuyên nghiệp trong suốt quá trình thực hiện.'
   },
   {
     icon: '📊',
     title: 'Tỷ Lệ Thành Công Đã Được Chứng Minh',
-    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua dịch vụ xử lý cao cấp của chúng tôi.'
+    text: 'Tỷ lệ phê duyệt trên 90% với hàng trăm visa, tài khoản ngân hàng và đăng ký công ty được cấp thông qua quy trình xử lý cao cấp của chúng tôi.'
   },
   {
     icon: '💸',
@@ -144,6 +127,14 @@ hero:
     text: '[Chỉ thanh toán sau khi được phê duyệt](/uae-business/benefits/success-based-fees). Hoàn toàn minh bạch không có chi phí ẩn.'
   },
 ]" />
+
+## Đặt lịch tư vấn miễn phí để kiểm tra tư cách hợp lệ và thảo luận các lựa chọn của bạn.
+
+<video autoplay muted playsinline style="padding: 24px">
+  <source src="/img/iStock-2185906461.mp4" type="video/mp4">
+</video>
+
+<ContactFormModalNav buttonText="Trao đổi với chuyên gia" formStyle="display: block; margin: 1rem auto;"/>
 
 ## Câu hỏi thường gặp
 
@@ -153,7 +144,7 @@ hero:
 
 **Có hạn chế nào về quyền sở hữu khi người nước ngoài thành lập công ty tại UAE không?**
 
-Một số loại hình doanh nghiệp UAE, chẳng hạn như những doanh nghiệp hoạt động trong các lĩnh vực chiến lược cụ thể, sẽ yêu cầu khách hàng chỉ định (các) cổ đông người Emirates. Do đó, việc lựa chọn loại hình doanh nghiệp tối ưu phù hợp với nhu cầu của doanh nghiệp là điều cần thiết để tiến hành thành lập doanh nghiệp tại UAE.
+Một số loại hình doanh nghiệp UAE, chẳng hạn như những doanh nghiệp hoạt động trong các lĩnh vực chiến lược cụ thể, sẽ yêu cầu khách hàng chỉ định (các) cổ đông người Emirates. Do đó, việc lựa chọn loại hình doanh nghiệp phù hợp nhất với nhu cầu của doanh nghiệp là điều cần thiết để tiến hành thành lập doanh nghiệp tại UAE.
 
 **Công ty của tôi có thể 100% vốn nước ngoài không?**
 
@@ -165,7 +156,7 @@ Có, hầu hết các hoạt động kinh doanh đều được phép sở hữu
 
 Để thành lập doanh nghiệp trong khu vực tự do tại UAE, Golden Fish sẽ:
 
-1. Xin các giấy phép cần thiết từ cơ quan có thẩm quyền.
+1. Xin các giấy phép cần thiết từ các cơ quan có thẩm quyền.
 2. Đăng ký tên công ty.
 3. Chuẩn bị các tài liệu thành lập.
 4. Công chứng các tài liệu tại tòa án công.
@@ -177,9 +168,9 @@ Có, hầu hết các hoạt động kinh doanh đều được phép sở hữu
 
 Các công ty trong khu vực tự do UAE có nhiều lợi ích, bao gồm:
 
-1. Không yêu cầu cổ đông thường trú, tức là công ty FZ có thể 100% vốn nước ngoài.
+1. Không yêu cầu cổ đông thường trú, nghĩa là công ty FZ có thể 100% vốn nước ngoài.
 2. Không bắt buộc phải thuê nhân viên.
-3. Không phải đóng thuế hải quan đối với hàng hóa ra vào khu vực.
+3. Không phải nộp thuế hải quan đối với hàng hóa ra vào khu vực.
 4. Cơ sở hạ tầng chất lượng cao.
 
 ### Giám đốc và Cổ đông
@@ -230,7 +221,7 @@ Có, hầu hết các doanh nghiệp đều cần báo cáo tài chính được
 
 **Những tác động về thuế khi thành lập công ty tại UAE là gì?**
 
-Thuế Thu nhập Doanh nghiệp (CIT) đã được áp dụng tại UAE với mức thuế suất tiêu chuẩn là 9%. Ngoài ra, tùy thuộc vào quy mô và tính chất kinh doanh, một số công ty phải chịu thuế VAT (5%) và/hoặc thuế hải quan. Các ngành cụ thể như dầu khí và chi nhánh ngân hàng nước ngoài có thể có các xem xét hoặc miễn trừ thuế đặc biệt.
+Thuế Thu nhập Doanh nghiệp (CIT) đã được áp dụng tại UAE với mức thuế suất tiêu chuẩn là 9%. Ngoài ra, tùy thuộc vào quy mô và tính chất kinh doanh, một số công ty phải chịu thuế VAT (5%) và/hoặc thuế hải quan. Các ngành cụ thể như dầu khí và chi nhánh ngân hàng nước ngoài có thể có các cân nhắc hoặc miễn trừ thuế đặc biệt.
 
 **Công ty UAE có phải nộp tờ khai thuế hàng năm và/hoặc báo cáo tài chính không?**
 
@@ -252,7 +243,7 @@ Các ngân hàng này nổi tiếng với dịch vụ khách hàng tốt, điề
 
 **Làm thế nào để mở tài khoản ngân hàng offshore tại UAE?**
 
-Khách hàng không cần đăng ký công ty địa phương để mở tài khoản ngân hàng offshore tại UAE. Tuy nhiên, thủ tục KYC sẽ nghiêm ngặt hơn so với việc mở tài khoản ngân hàng cho công ty thường trú. Cũng cần các tài liệu chứng thực. Vui lòng tham khảo [hướng dẫn mở tài khoản ngân hàng cho công ty UAE của chúng tôi](./uae-business/company-registration/banking) để biết thêm thông tin chi tiết.
+Khách hàng không cần đăng ký công ty địa phương để mở tài khoản ngân hàng offshore tại UAE. Tuy nhiên, thủ tục KYC sẽ nghiêm ngặt hơn so với việc mở tài khoản ngân hàng cho công ty thường trú. Cũng cần các tài liệu chứng thực. Vui lòng tham khảo [hướng dẫn mở tài khoản ngân hàng cho công ty UAE của chúng tôi](./uae-business/company-registration/banking) để biết thông tin chi tiết hơn.
 
 **Golden Fish có hỗ trợ dịch vụ Ngân hàng Hồi giáo tại UAE không?**
 
@@ -265,5 +256,3 @@ Có, Golden Fish có thể hỗ trợ khách hàng với nhu cầu ngân hàng H
 Giấy phép cư trú kinh doanh UAE thường được cấp trong thời hạn 2 đến 3 năm.
 
 :::
-
-<ContactFormModalNav buttonText="Trao đổi với chuyên gia" formStyle="display: block; margin: 3rem auto;"/>

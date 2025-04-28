@@ -1,18 +1,16 @@
 ---
 layout: home
 title: "在阿联酋成立公司服务"
-description: "专业的阿联酋公司成立和支持服务。公司设立、银行开户、税务、法律和签证解决方案。仅在获批后付费。"
+description: "专业的阿联酋公司成立和支持服务。公司设立、银行开户、税务、法律和签证解决方案。审批通过后付款。"
 showSponsors: false
 
 hero:
-  name: "阿联酋：您的财务安全港"
-  tagline: "全方位商业支持：公司设立、签证、银行开户。<span class='hl'>不成功不收费</span>。"
-
+  name: "阿联酋：您的金融安全港"
+  tagline: "5分钟专家咨询：了解如何<span class='hl'>零风险</span>设立您的阿联酋企业"
   actions:
     - theme: brand
-      text: 咨询专家
+      text: 即时专家对话
       link: /chat
-
   image:
     light:
       src: /img/Logo.avif
@@ -24,61 +22,46 @@ hero:
 
 ---
 
-<FeatureCards :features="[
-  {
-    title: '公司设立指南',
-    details: '完整指导在**Free Zone、offshore、mainland、branch**设立公司。',
-    items: [
-      'Free Zone和Mainland允许100%外资所有权',
-      '低税率 - 仅9%企业所得税',
-      '无外汇管制 - 资金轻松汇回'
-    ],
-    linkText: '了解更多',
-    link: '/uae-business/offer/company-registration/',
-    icon: {
-      light: '/img/iStock-2051326997.avif',
-      dark: '/img/iStock-1448478309.jpg',
-      alt: '公司设立指南'
-    }
+<FeatureBlock :card="{
+  title: '公司设立指南',
+  details: '完整指导在**Free Zone、offshore、mainland、branch**设立公司。\n\n* Free Zone和Mainland允许100%外资所有权\n* 低税率 - 仅9%企业所得税\n* 无外汇管制 - 轻松资本汇回\n\n[了解更多](/uae-business/offer/company-registration/)',
+  link: '/uae-business/offer/company-registration/',
+  src: {
+    light: '/img/iStock-2051326997.avif',
+    dark: '/img/iStock-1448478309.jpg',
+    width: '100%'
   },
-  {
-    title: '银行账户开户',
-    details: '在阿联酋信誉良好的银行轻松开设企业或个人账户。',
-    items: [
-      '政府审批的全程PRO服务',
-      '完整的银行开户套餐',
-      '**96%成功率**',
-    ],
-    linkText: '了解更多',
-    link: '/uae-business/offer/banking/',
-    icon: {
-      light: '/img/iStock-2153786564.avif',
-      dark: '/img/iStock-2166793628.avif',
-      alt: '银行服务'
-    }
+  inversion: false
+}" />
+
+<FeatureBlock :card="{
+  title: '银行解决方案',
+  details: '轻松在阿联酋信誉良好的银行开设企业或个人账户。\n\n* 政府审批的端到端PRO服务\n* 完整的银行开户套餐\n* **96%成功率**\n\n[了解更多](/uae-business/offer/banking/)',
+  link: '/uae-business/offer/banking/',
+  src: {
+    light: '/img/iStock-2153786564.avif',
+    dark: '/img/iStock-2166793628.avif',
+    width: '100%'
   },
-  {
-    title: 'Golden Visa与居留',
-    details: '通过无缝申请流程获取阿联酋**Golden Visa**长期居留。',
-    items: [
-      '**无需每6个月入境阿联酋**',
-      '10年有效期，符合条件可续签',
-      '92%成功率',
-    ],
-    linkText: '了解更多',
-    link: '/uae-business/offer/golden-visa/',
-    icon: {
-      light: '/img/iStock-1312241253.avif',
-      dark: '/img/ILONMASKID.webp',
-      alt: '签证服务'
-    }
+  inversion: true
+}" />
+
+<FeatureBlock :card="{
+  title: 'Golden Visa与居留',
+  details: '通过无缝申请流程获取阿联酋**Golden Visa**长期居留。\n\n* **无需每6个月入境阿联酋**\n* 10年有效期，符合条件可续签\n* 92%成功率\n\n[了解更多](/uae-business/offer/golden-visa/)',
+  link: '/uae-business/offer/golden-visa/',
+  src: {
+    light: '/img/iStock-1312241253.avif',
+    dark: '/img/ILONMASKID.webp',
+    width: '100%'
   },
-]" />
+  inversion: false
+}" />
 
 <FeatureCards :features="[
   {
     title: '合规服务',
-    details: '我们的专家指导您完成阿联酋复杂的监管要求，包括ESR报告和UBO申报。',
+    details: '我们的专家指导您完成复杂的阿联酋监管要求，包括ESR报告和UBO申报。',
     items: [],
     linkText: '了解更多',
     link: '/uae-business/company-registration/Protect-Your-Business',
@@ -90,7 +73,7 @@ hero:
   },
   {
     title: '企业税务与增值税',
-    details: '专业建议确保符合联邦税务局(FTA)的企业税和增值税义务。',
+    details: '专家建议确保符合联邦税务局(FTA)的企业税和增值税义务。',
     items: [],
     linkText: '了解更多',
     link: '/uae-business/company-registration/accounting-legal',
@@ -145,6 +128,14 @@ hero:
     text: '[仅在获得批准后付费](/uae-business/benefits/success-based-fees)。完全透明，绝无隐藏费用。'
   },
 ]" />
+
+## 预约免费咨询，了解您的资格并讨论可选方案。
+
+<video autoplay muted playsinline style="padding: 24px">
+  <source src="/img/iStock-2185906461.mp4" type="video/mp4">
+</video>
+
+<ContactFormModalNav buttonText="咨询专家" formStyle="display: block; margin: 1rem auto;"/>
 
 ## 常见问题
 
@@ -229,9 +220,9 @@ hero:
 
 是的，大多数实体都需要经审计的财务报表。
 
-**在阿联酋设立公司有什么税务影响？**
+**阿联酋公司设立有什么税务影响？**
 
-阿联酋已实施企业所得税（CIT），标准税率为9%。此外，根据业务规模和性质，部分公司需缴纳增值税（5%）和/或关税。特定行业，如石油和天然气以及外国银行分行，可能有特殊税收考虑或豁免。
+阿联酋已实施企业所得税(CIT)，标准税率为9%。此外，根据业务规模和性质，部分公司需缴纳增值税(5%)和/或关税。特定行业，如石油天然气和外国银行分行，可能有特殊税收考虑或豁免。
 
 **阿联酋公司是否需要提交年度纳税申报表和/或财务报表？**
 
@@ -241,7 +232,7 @@ hero:
 
 **推荐哪些银行提供阿联酋商业银行解决方案？**
 
-Golden Fish 推荐多家阿联酋本地银行选项，包括：
+Golden Fish 推荐几家阿联酋本地银行选项，包括：
 
 1. Emirates NBD
 2. First Abu Dhabi Bank
@@ -266,5 +257,3 @@ Golden Fish 推荐多家阿联酋本地银行选项，包括：
 阿联酋商业居留许可通常有效期为2至3年。
 
 :::
-
-<ContactFormModalNav buttonText="咨询专家" formStyle="display: block; margin: 3rem auto;"/>

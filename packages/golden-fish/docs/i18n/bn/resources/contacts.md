@@ -3,7 +3,9 @@
 # sidebar: false
 # aside: false
 # next: false
-showContactForm: false
+hideComponents:
+  - NavButton
+  # - SearchInput
 ---
 
 <!-- <p>
@@ -35,6 +37,6 @@ Dubai, UAE
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
 > [!IMPORTANT] আমাদের কেন বেছে নেবেন?
-> জ্ঞানী পেশাদারদের একটি দল এবং ব্যক্তিগতকৃত পরিষেবার প্রতি প্রতিশ্রুতির মাধ্যমে, আমরা ক্লায়েন্টদের জন্য একটি সহজ এবং দক্ষ অভিজ্ঞতা নিশ্চিত করি, যা তাদেরকে সবচেয়ে গুরুত্বপূর্ণ বিষয়ে মনোনিবেশ করতে দেয় - UAE-তে তাদের ব্যবসা বৃদ্ধি করা।
+> জ্ঞানী পেশাদারদের একটি দল এবং ব্যক্তিগতকৃত পরিষেবার প্রতি অঙ্গীকারের মাধ্যমে, আমরা ক্লায়েন্টদের জন্য একটি সহজ এবং দক্ষ অভিজ্ঞতা নিশ্চিত করি, যা তাদেরকে সবচেয়ে গুরুত্বপূর্ণ বিষয়ে মনোনিবেশ করতে দেয় - UAE-তে তাদের ব্যবসা বৃদ্ধি করা।
 
-<ContactFormModalNav buttonText="একজন বিশেষজ্ঞের সাথে কথা বলুন" formStyle="display: block; margin: 2rem auto;"/>
+<ContactFormModalNav buttonText="বিশেষজ্ঞের সাথে কথা বলুন" formStyle="display: block; margin: 2rem auto;"/>

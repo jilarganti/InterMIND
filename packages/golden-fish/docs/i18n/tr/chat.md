@@ -11,13 +11,14 @@ navbar: false
 <script setup>
   const chatPrompts = [
     { id: "49", text: "bu sitenin popüler sayfaları, tablo", category: "general" },
-    { id: "49", text: "bu site, en iyi 10 SSS", category: "general" },
+    { id: "49", text: "bu site, ilk 10 SSS", category: "general" },
     { id: "49", text: "free zone site bağlantıları, tablo", category: "general" },
     { id: "49", text: "fiyatlı free zone sitelerine bağlantılar tablosu", category: "general" },
     
     { id: "1", text: "BAE'de şirket tescili", category: "business" },
     { id: "7", text: "BAE ticaret lisansı gereklilikleri", category: "business" },
     { id: "7", text: "BAE kuruluş türlerinin karşılaştırması, tablo ve analiz", category: "business" },
+    { id: "7", text: "iki kuruculu finansal bir işletme için İngiltere'den çeşitli free zone'lara şirket taşıma maliyetinin uzman karşılaştırması. 8 vize, 3 aile üyesi + köpek. İş merkezinde kiralama. İngiliz, BAE mukimi değil", category: "business" },
     { id: "48", text: "BAE'deki En İyi 10 Hastane, Artıları ve Eksileri", category: "healthcare" },
 
     { id: "15", text: "BAE'de Vekaletname", category: "legal" },
@@ -26,12 +27,12 @@ navbar: false
     { id: "2", text: "Mainland şirket kurulumu", category: "business" },
     { id: "3", text: "Free zone şirket tescili", category: "business" },
     { id: "4", text: "Offshore şirket kurulumu", category: "business" },
-    { id: "5", text: "BAE serbest çalışan vizesi", category: "business" },
-    { id: "6", text: "Dubai iş lisansı", category: "business" },
+    { id: "5", text: "BAE freelance vizesi", category: "business" },
+    { id: "6", text: "Dubai ticaret lisansı", category: "business" },
     { id: "23", text: "BAE iş kurulumu", category: "business" },
-    { id: "24", text: "Dubai free zones", category: "business" },
+    { id: "24", text: "Dubai free zone'ları", category: "business" },
     { id: "25", text: "BAE şirket tescili", category: "business" },
-    { id: "26", text: "BAE serbest çalışan vizesi", category: "business" },
+    { id: "26", text: "BAE freelance vizesi", category: "business" },
     
     // Vize ve Göçmenlik
     { id: "8", text: "BAE Golden Visa başvurusu", category: "visa" },

@@ -3,7 +3,9 @@
 # sidebar: false
 # aside: false
 # next: false
-showContactForm: false
+hideComponents:
+  - NavButton
+  # - SearchInput
 ---
 
 <!-- <p>
@@ -12,7 +14,7 @@ showContactForm: false
 
 # हमसे संपर्क करें
 
-क्या आप UAE में अपना व्यवसाय स्थापित या विकसित करना चाहते हैं? Golden Fish Corporate Services Provider LLC से संपर्क करें - कंपनी गठन, PRO सेवाओं और वीजा सहायता के लिए आपका पंजीकृत एजेंट।
+UAE में अपना व्यवसाय स्थापित करना या बढ़ाना चाहते हैं? Golden Fish Corporate Services Provider LLC से संपर्क करें - कंपनी गठन, PRO सेवाओं और वीजा सहायता के लिए आपका पंजीकृत एजेंट।
 
 **लाइसेंस विवरण:**
 

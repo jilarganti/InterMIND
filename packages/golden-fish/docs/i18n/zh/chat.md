@@ -13,11 +13,12 @@ navbar: false
     { id: "49", text: "本站热门页面，表格", category: "general" },
     { id: "49", text: "本站十大常见问题", category: "general" },
     { id: "49", text: "自贸区网站链接，表格", category: "general" },
-    { id: "49", text: "含价格的自贸区网站链接表格", category: "general" },
+    { id: "49", text: "带价格的自贸区网站链接表格", category: "general" },
     
     { id: "1", text: "在阿联酋注册公司", category: "business" },
     { id: "7", text: "阿联酋贸易许可证要求", category: "business" },
     { id: "7", text: "阿联酋实体类型比较，表格和分析", category: "business" },
+    { id: "7", text: "专业比较将英国公司迁移到不同自贸区的成本，针对有两位创始人的金融企业。8个签证名额，3位家庭成员+一只狗。商务中心租赁。英国人，非阿联酋居民", category: "business" },
     { id: "48", text: "阿联酋十大最佳医院，优劣分析", category: "healthcare" },
 
     { id: "15", text: "阿联酋授权委托书", category: "legal" },

@@ -18,6 +18,7 @@ navbar: false
     { id: "1", text: "Регистрация компании в ОАЭ", category: "business" },
     { id: "7", text: "Требования к торговой лицензии в ОАЭ", category: "business" },
     { id: "7", text: "сравнение типов компаний в ОАЭ, таблица и аналитика", category: "business" },
+    { id: "7", text: "экспертное сравнение стоимости релокации компании из Британии в различные free zone для финансового бизнеса с двумя учредителями. 8 виз, 3 члена семьи + собака. Аренда в бизнес-центре. Британец, не резидент ОАЭ", category: "business" },
     { id: "48", text: "10 лучших больниц в ОАЭ, плюсы и минусы", category: "healthcare" },
 
     { id: "15", text: "Доверенность в ОАЭ", category: "legal" },
@@ -51,12 +52,12 @@ navbar: false
     { id: "17", text: "Корпоративный банковский счет в ОАЭ", category: "finance" },
     { id: "18", text: "Регистрация НДС в ОАЭ", category: "finance" },
     { id: "19", text: "Бухгалтерские услуги в ОАЭ", category: "finance" },
-    { id: "20", text: "Правила экономического присутствия в ОАЭ", category: "finance" },
+    { id: "20", text: "Economic Substance Regulations в ОАЭ", category: "finance" },
     { id: "41", text: "Банковские услуги в ОАЭ", category: "finance" },
     
     // Недвижимость и услуги
     { id: "21", text: "Инвестиции в недвижимость ОАЭ", category: "property" },
-    { id: "22", text: "Аренда офисов в Дубае", category: "property" },
+    { id: "22", text: "Аренда офиса в Дубае", category: "property" },
 
     // Здравоохранение
     { id: "47", text: "Медицинская страховка в ОАЭ", category: "healthcare" },
@@ -67,8 +68,8 @@ navbar: false
     { id: "29", text: "Expo City Dubai", category: "attractions" },
     { id: "30", text: "Билеты в Dubai Frame", category: "attractions" },
     { id: "31", text: "Билеты в Burj Khalifa", category: "attractions" },
-    { id: "32", text: "Музей будущего", category: "attractions" },
-    { id: "33", text: "Лувр Абу-Даби", category: "attractions" },
+    { id: "32", text: "Museum of the Future", category: "attractions" },
+    { id: "33", text: "Abu Dhabi Louvre", category: "attractions" },
     { id: "34", text: "Ferrari World Abu Dhabi", category: "attractions" },
     { id: "35", text: "Шопинг в Dubai Mall", category: "shopping" },
 ]

@@ -1,21 +1,18 @@
 ---
 layout: home
 title: "Layanan Pembentukan Perusahaan di UAE"
-description: "Layanan ahli pembentukan dan dukungan perusahaan di UAE. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa. Bayar hanya setelah persetujuan."
+description: "Layanan ahli pembentukan dan dukungan perusahaan UAE. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa. Bayar hanya setelah persetujuan."
 showSponsors: false
 
 hero:
   name: "UAE: Pelabuhan Aman Finansial Anda"
   # text: We speak your tongue
-  tagline: "Dukungan Bisnis Lengkap: Pendirian Perusahaan, Visa, Perbankan. <span class='hl'>Tidak ada kesuksesan — tidak ada biaya</span>."
-
+  tagline: "Konsultasi ahli 5 menit: Temukan cara mendirikan bisnis UAE Anda <span class='hl'>tanpa risiko</span>"
+  # tagline: "5 minutes with our expert = Your complete UAE business roadmap"
   actions:
     - theme: brand
-      text: Chat dengan ahli
+      text: Obrolan ahli instan
       link: /chat
-    # - theme: alt
-    #   text: Support 24/7
-    #   link: ./resources/contacts
   image:
     light:
       src: /img/Logo.avif
@@ -26,63 +23,48 @@ hero:
     alt: Logo Golden Fish
 ---
 
-<FeatureCards :features="[
-  {
-    title: 'Panduan Pendirian Perusahaan',
-    details: 'Panduan lengkap untuk mendirikan perusahaan di **Free Zone, offshore, Mainland, branch**.',
-    items: [
-      'Kepemilikan Asing 100% tersedia di Free Zone dan Mainland',
-      'Tarif Pajak Rendah - hanya 9% pajak perusahaan',
-      'Tidak Ada Kontrol Mata Uang - repatriasi modal mudah'
-    ],
-    linkText: 'Pelajari lebih lanjut',
-    link: '/uae-business/offer/company-registration/',
-    icon: {
-      light: '/img/iStock-2051326997.avif',
-      dark: '/img/iStock-1448478309.jpg',
-      alt: 'Panduan Pendirian Perusahaan'
-    }
+<FeatureBlock :card="{
+  title: 'Panduan Pendirian Perusahaan',
+  details: 'Panduan lengkap untuk mendirikan perusahaan di **free zone, offshore, mainland, branch**. \n\n* Kepemilikan Asing 100% tersedia di Free Zones dan Mainland\n* Tarif Pajak Rendah - hanya 9% pajak perusahaan\n* Tanpa Kontrol Mata Uang - repatriasi modal yang mudah\n\n[Learn more](/uae-business/offer/company-registration/)',
+  link: '/uae-business/offer/company-registration/',
+  src: {
+    light: '/img/iStock-2051326997.avif',
+    dark: '/img/iStock-1448478309.jpg',
+    width: '100%'
   },
-  {
-    title: 'Pembukaan Rekening Bank',
-    details: 'Buka rekening bank bisnis atau pribadi dengan mudah di bank-bank terpercaya UAE.',
-    items: [
-      'Layanan PRO end-to-end untuk persetujuan pemerintah',
-      'Pengaturan paket perbankan lengkap',
-      '**Tingkat keberhasilan 96%**',
-    ],
-    linkText: 'Pelajari lebih lanjut',
-    link: '/uae-business/offer/banking/',
-    icon: {
-      light: '/img/iStock-2153786564.avif',
-      dark: '/img/iStock-2166793628.avif',
-      alt: 'Layanan Perbankan'
-    }
+  inversion: false
+}" />
+
+<FeatureBlock :card="{
+  title: 'Solusi Perbankan',
+  details: 'Buka rekening bank bisnis atau pribadi dengan mudah di bank-bank terpercaya UAE. \n\n* Layanan PRO end-to-end untuk persetujuan pemerintah\n* Paket perbankan lengkap\n* **Tingkat keberhasilan 96%**\n\n[Learn more](/uae-business/offer/banking/)',
+  link: '/uae-business/offer/banking/',
+  src: {
+    light: '/img/iStock-2153786564.avif',
+    dark: '/img/iStock-2166793628.avif',
+    width: '100%'
   },
-  {
-    title: 'Golden Visa & Izin Tinggal',
-    details: 'Dapatkan **Golden Visa** UAE untuk izin tinggal jangka panjang dengan proses aplikasi yang mudah.',
-    items: [
-      '**Tidak perlu masuk UAE setiap 6 bulan**',
-      'Masa berlaku 10 tahun dengan opsi perpanjangan jika memenuhi syarat',
-      'Tingkat keberhasilan 92%',
-    ],
-    linkText: 'Pelajari lebih lanjut',
-    link: '/uae-business/offer/golden-visa/',
-    icon: {
-      light: '/img/iStock-1312241253.avif',
-      dark: '/img/ILONMASKID.webp',
-      alt: 'Layanan Visa'
-    }
+  inversion: true
+}" />
+
+<FeatureBlock :card="{
+  title: 'Golden Visa & Izin Tinggal',
+  details: 'Dapatkan **Golden Visa** UAE untuk izin tinggal jangka panjang dengan proses aplikasi yang lancar. \n\n* **Tidak perlu masuk UAE setiap 6 bulan**\n* Masa berlaku 10 tahun dengan opsi perpanjangan dengan mempertahankan syarat kualifikasi\n* Tingkat keberhasilan 92%\n\n[Learn more](/uae-business/offer/golden-visa/)',
+  link: '/uae-business/offer/golden-visa/',
+  src: {
+    light: '/img/iStock-1312241253.avif',
+    dark: '/img/ILONMASKID.webp',
+    width: '100%'
   },
-]" />
+  inversion: false
+}" />
 
 <FeatureCards :features="[
   {
     title: 'Layanan Kepatuhan',
     details: 'Para ahli kami membimbing Anda melalui persyaratan regulasi UAE yang kompleks, termasuk laporan ESR dan pengajuan UBO.',
     items: [],
-    linkText: 'Pelajari lebih lanjut',
+    linkText: 'Learn more',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -94,7 +76,7 @@ hero:
     title: 'Pajak Perusahaan & PPN',
     details: 'Saran ahli memastikan kepatuhan terhadap kewajiban Pajak Perusahaan dan PPN dengan Federal Tax Authority (FTA).',
     items: [],
-    linkText: 'Pelajari lebih lanjut',
+    linkText: 'Learn more',
     link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
@@ -106,7 +88,7 @@ hero:
     title: 'Layanan Hukum',
     details: 'Tim hukum memberikan saran tentang hukum UAE mengenai M&A, restrukturisasi perusahaan, pembiayaan, dan penyelesaian sengketa.',
     items: [],
-    linkText: 'Pelajari lebih lanjut',
+    linkText: 'Learn more',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -118,7 +100,7 @@ hero:
     title: 'Akuntansi & Penggajian',
     details: 'Akuntan kami mengelola keuangan, menyediakan pembukuan, rekonsiliasi, penggajian, dan dukungan audit, menghemat biaya perekrutan.',
     items: [],
-    linkText: 'Pelajari lebih lanjut',
+    linkText: 'Learn more',
     link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
@@ -148,6 +130,14 @@ hero:
   },
 ]" />
 
+## Pesan konsultasi gratis untuk memeriksa kelayakan dan mendiskusikan pilihan Anda.
+
+<video autoplay muted playsinline style="padding: 24px">
+  <source src="/img/iStock-2185906461.mp4" type="video/mp4">
+</video>
+
+<ContactFormModalNav buttonText="Bicara dengan ahli" formStyle="display: block; margin: 1rem auto;"/>
+
 ## FAQ
 
 :::details FAQ Pendirian Bisnis UAE
@@ -171,7 +161,7 @@ Untuk pendirian entitas free zone di UAE, Golden Fish akan:
 1. Mendapatkan izin yang diperlukan dari otoritas terkait.
 2. Melakukan reservasi nama perusahaan.
 3. Menyiapkan dokumen pendirian.
-4. Melakukan notarisasi dokumen di pengadilan umum.
+4. Mengesahkan dokumen di pengadilan umum.
 5. Mengajukan izin usaha.
 6. Mendaftarkan perusahaan untuk PPN (jika diperlukan).
 7. Mendapatkan visa kerja untuk klien dan karyawan mereka.
@@ -189,17 +179,17 @@ Perusahaan free zone UAE menawarkan beberapa keuntungan, termasuk:
 
 **Berapa banyak direktur yang harus ditunjuk untuk mendaftar di free trade zone UAE?**
 
-Hanya diperlukan satu direktur untuk membentuk perusahaan free zone UAE.
+Hanya satu direktur yang diperlukan untuk membentuk perusahaan free zone UAE.
 
 **Berapa banyak pemegang saham yang diperlukan untuk pendirian di free trade zone UAE?**
 
-Hanya diperlukan satu pemegang saham untuk memulai entitas free zone di UAE.
+Hanya satu pemegang saham yang diperlukan untuk memulai entitas free zone di UAE.
 
 **Berapa banyak pemegang saham yang diperlukan untuk perusahaan offshore di UAE?**
 
-Hanya diperlukan satu pemegang saham untuk memulai perusahaan offshore di UAE.
+Hanya satu pemegang saham yang diperlukan untuk memulai perusahaan offshore di UAE.
 
-**Apakah diperlukan direktur yang berdomisili?**
+**Apakah direktur penduduk diperlukan?**
 
 Tidak.
 
@@ -207,7 +197,7 @@ Tidak.
 
 Tidak.
 
-### Logistik dan Tempat Usaha
+### Logistik dan Tempat
 
 **Apakah saya harus mengunjungi UAE untuk mendirikan perusahaan di sana?**
 
@@ -219,9 +209,9 @@ Persyaratan berbeda berdasarkan jenis perusahaan:
 
 | Jenis Perusahaan | Persyaratan Kantor |
 | ----------------- | --------------------------------------------------------------------------------------- |
-| Free Zone Company | Perjanjian sewa untuk tempat kantor atau flexi-desk diperlukan sebelum pendirian. |
-| Mainland Company | Hanya memerlukan alamat virtual atau terdaftar. |
-| Offshore Company | Hanya memerlukan alamat virtual atau terdaftar. |
+| Perusahaan Free Zone | Perjanjian sewa untuk tempat kantor atau flexi-desk diperlukan sebelum pendirian. |
+| Perusahaan Mainland | Hanya memerlukan alamat virtual atau terdaftar. |
+| Perusahaan Offshore | Hanya memerlukan alamat virtual atau terdaftar. |
 
 Tabel perbandingan ini membantu memperjelas perbedaan antara persyaratan untuk perusahaan free zone, mainland, dan offshore.
 
@@ -233,11 +223,11 @@ Ya, sebagian besar entitas akan memerlukan laporan keuangan yang diaudit.
 
 **Apa implikasi pajak dari pendirian perusahaan UAE?**
 
-Pajak Penghasilan Badan (CIT) telah diterapkan di UAE dengan tarif standar 9%. Selain itu, tergantung pada volume dan sifat bisnis, beberapa perusahaan bertanggung jawab atas PPN (5%) dan/atau bea masuk. Industri tertentu, seperti minyak dan gas serta cabang bank asing, mungkin memiliki pertimbangan atau pengecualian pajak khusus.
+Pajak Penghasilan Badan (CIT) telah diterapkan di UAE dengan tarif standar 9%. Selain itu, tergantung pada volume dan sifat bisnis, beberapa perusahaan bertanggung jawab atas PPN (5%) dan/atau bea masuk. Industri tertentu, seperti minyak dan gas dan cabang bank asing, mungkin memiliki pertimbangan atau pengecualian pajak khusus.
 
 **Apakah perusahaan UAE diwajibkan untuk menyerahkan laporan pajak tahunan dan/atau laporan keuangan?**
 
-Ya, semua perusahaan di UAE wajib menyerahkan laporan keuangan yang diaudit kepada pemerintah setiap tahun.
+Ya, semua perusahaan di UAE wajib menyerahkan laporan keuangan yang diaudit tahunan kepada pemerintah.
 
 ### Solusi Perbankan
 
@@ -268,5 +258,3 @@ Ya, Golden Fish dapat membantu klien dengan kebutuhan perbankan syariah mereka.
 Izin tinggal bisnis UAE biasanya diterbitkan untuk 2 hingga 3 tahun.
 
 :::
-
-<ContactFormModalNav buttonText="Bicara dengan ahli" formStyle="display: block; margin: 3rem auto;"/>

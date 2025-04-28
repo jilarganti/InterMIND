@@ -3,7 +3,9 @@
 # sidebar: false
 # aside: false
 # next: false
-showContactForm: false
+hideComponents:
+  - NavButton
+  # - SearchInput
 ---
 
 <!-- <p>
@@ -12,7 +14,7 @@ showContactForm: false
 
 # Свяжитесь с нами
 
-Хотите открыть или развивать бизнес в ОАЭ? Свяжитесь с Golden Fish Corporate Services Provider LLC - вашим зарегистрированным агентом по регистрации компаний, PRO-услугам и визовой поддержке.
+Планируете открыть или развивать бизнес в ОАЭ? Свяжитесь с Golden Fish Corporate Services Provider LLC - вашим зарегистрированным агентом по регистрации компаний, PRO-услугам и визовой поддержке.
 
 **Данные лицензии:**
 
