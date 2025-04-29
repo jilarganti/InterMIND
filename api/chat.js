@@ -132,6 +132,7 @@ async function getContent(filePath, tag) {
     }
 
     const fullUrl = `${baseUrl}/${urlPath}`
+    console.log("🔵 API: Получаем контент по URL:", fullUrl)
     const response = await fetch(fullUrl, {
       headers: {
         "x-vercel-protection-bypass": process.env.VERCEL_AUTOMATION_BYPASS_SECRET,
