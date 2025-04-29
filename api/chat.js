@@ -134,7 +134,7 @@ async function getContent(filePath, tag) {
     const fullUrl = `${baseUrl}/${urlPath}`
     const response = await fetch(fullUrl, {
       headers: {
-        Authorization: `Bearer ${process.env.VERCEL_AUTH_TOKEN}`,
+        "x-vercel-protection-bypass": process.env.VERCEL_AUTOMATION_BYPASS_SECRET,
       },
     })
 
