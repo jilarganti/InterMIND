@@ -117,65 +117,34 @@ export async function POST(req) {
 
 async function getContent(filePath, tag) {
   // Определяем окружение
-  let content;
-  
-  try {
-    if (process.env.VERCEL_ENV === "development" || process.env.NODE_ENV === "development") {
-      // Local development - read from filesystem
-      console.log(`🔵 Reading file from local filesystem: ${filePath}`);
-      content = fs.readFileSync(filePath, "utf8");
-    } else {
-      // Production - fetch from URL
-      // Use the current hostname rather than relying on environment variables
-      const baseUrl = process.env.VERCEL_URL 
-        ? `https://${process.env.VERCEL_URL}`
-        : process.env.VERCEL_BRANCH_URL
-        ? `https://${process.env.VERCEL_BRANCH_URL}`
-        : "https://golden-fish.ae"; // Fallback to your main domain
-      
-      // Находим в пути "/dist/" и отсекаем всё до и включая
-      let urlPath = filePath;
-      const distIndex = filePath.indexOf("/dist/");
+  const baseUrl = "https://" + (process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL)
+  let content
 
-      if (distIndex !== -1) {
-        urlPath = filePath.substring(distIndex + 6); // +6 чтобы отсечь и сам "/dist/"
-      }
+  if (process.env.VERCEL_ENV === "dev") {
+    content = fs.readFileSync(filePath, "utf8")
+  } else {
+    // Находим в пути "/dist/" и отсекаем всё до и включая
+    let urlPath = filePath
+    const distIndex = filePath.indexOf("/dist/")
 
-      const fullUrl = `${baseUrl}/${urlPath}`;
-      console.log(`🔵 Fetching content from: ${fullUrl}`);
-      
-      const response = await fetch(fullUrl, {
-        headers: {
-          // Add potential headers that might help with authentication
-          "Cache-Control": "no-cache",
-          "User-Agent": "GoldenFishAPI/1.0",
-        },
-      });
-
-      if (!response.ok) {
-        console.error(`🔴 HTTP Error: ${response.status} ${response.statusText} when fetching ${fullUrl}`);
-        
-        // Try fallback URL without using environment variables
-        const projectUrl = "https://golden-fish.ae";
-        const fallbackUrl = `${projectUrl}/${urlPath}`;
-        console.log(`🔵 Trying fallback URL: ${fallbackUrl}`);
-        
-        const fallbackResponse = await fetch(fallbackUrl);
-        if (!fallbackResponse.ok) {
-          throw new Error(`HTTP Error: ${response.status} при получении ${fullUrl} и fallback ${fallbackUrl}`);
-        }
-        
-        content = await fallbackResponse.text();
-      } else {
-        content = await response.text();
-      }
+    if (distIndex !== -1) {
+      urlPath = filePath.substring(distIndex + 6) // +6 чтобы отсечь и сам "/dist/"
     }
 
-    // Return content with tag
-    return `<${tag}>\n${content}\n</${tag}>`;
-  } catch (error) {
-    console.error(`🔴 Error in getContent for ${filePath}:`, error);
-    // Return empty placeholder with tag to avoid breaking the flow
-    return `<${tag}>\n# Error loading content\n</${tag}>`;
+    const fullUrl = `${baseUrl}/${urlPath}`
+    const response = await fetch(fullUrl, {
+      headers: {
+        Authorization: `Bearer ${process.env.VERCEL_AUTH_TOKEN}`,
+      },
+    })
+
+    if (!response.ok) {
+      throw new Error(`Ошибка HTTP: ${response.status} при получении ${fullUrl}`)
+    }
+
+    content = await response.text()
   }
+
+  // Возвращаем контент с тегом
+  return `<${tag}>\n${content}\n</${tag}>`
 }
