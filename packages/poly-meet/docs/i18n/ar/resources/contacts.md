@@ -1,0 +1,40 @@
+---
+# footer: false
+# sidebar: false
+# aside: false
+# next: false
+showContactForm: false
+---
+
+<!-- <p>
+  <img src="/img/Logo.avif" alt="شعار" width="100" height="100" style="margin-left: 50%;">
+</p> -->
+
+# تواصل معنا
+
+هل تتطلع إلى تأسيس أو تنمية أعمالك في الإمارات العربية المتحدة؟ تواصل مع Golden Fish Corporate Services Provider LLC - وكيلك المعتمد لتأسيس الشركات وخدمات PRO والمساعدة في التأشيرات.
+
+**تفاصيل الرخصة:**
+
+- رقم الرخصة: 1414192
+- رقم السجل: 2411728
+
+**موقع المكتب:**  
+مبنى سيتي أفينيو  
+مكتب 405-070، بور سعيد  
+دبي، الإمارات العربية المتحدة
+
+**للتواصل معنا:**
+
+- البريد الإلكتروني: info@goldenfish.ae
+- الهاتف: 06 88 574 058 971+
+- واتساب: 06 88 574 058 971+
+- تيليجرام: @goldenfish_ae
+
+<!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
+Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
+
+> [!IMPORTANT] لماذا تختارنا؟
+> مع فريق من المحترفين ذوي الخبرة والتزامنا بتقديم خدمات مخصصة، نضمن تجربة سلسة وفعالة لعملائنا، مما يتيح لهم التركيز على ما يهم - تنمية أعمالهم في الإمارات العربية المتحدة.
+
+<ContactFormModalNav buttonText="تحدث مع خبير" formStyle="display: block; margin: 2rem auto;"/>

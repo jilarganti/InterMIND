@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "paths": {
+      "@config/*": ["./docs/.vitepress/config/*"],
+      "@theme/*": ["./docs/.vitepress/theme/*"]
+    }
+  }
+}

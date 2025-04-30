@@ -1,0 +1,81 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f6f6f6"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#2c3e50">
+    Bank Selection Process
+  </text>
+  
+  <!-- Step 1: Initial Research -->
+  <rect x="50" y="100" width="200" height="100" rx="10" fill="#3498db" opacity="0.2"/>
+  <text x="70" y="130" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">
+    Step 1: Research
+  </text>
+  <text x="70" y="155" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Bank policies
+  </text>
+  <text x="70" y="175" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Minimum deposits
+  </text>
+  
+  <!-- Step 2: License Check -->
+  <rect x="300" y="100" width="200" height="100" rx="10" fill="#3498db" opacity="0.2"/>
+  <text x="320" y="130" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">
+    Step 2: Compatibility
+  </text>
+  <text x="320" y="155" text-anchor="start" font-size="12" fill="#2c3e50">
+    • License verification
+  </text>
+  <text x="320" y="175" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Activity check
+  </text>
+  
+  <!-- Step 3: Pre-approval -->
+  <rect x="550" y="100" width="200" height="100" rx="10" fill="#3498db" opacity="0.2"/>
+  <text x="570" y="130" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">
+    Step 3: Pre-approval
+  </text>
+  <text x="570" y="155" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Initial application
+  </text>
+  <text x="570" y="175" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Document submission
+  </text>
+  
+  <!-- Step 4: Documentation -->
+  <rect x="50" y="300" width="200" height="100" rx="10" fill="#3498db" opacity="0.2"/>
+  <text x="70" y="330" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">
+    Step 4: Documentation
+  </text>
+  <text x="70" y="355" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Full KYC package
+  </text>
+  <text x="70" y="375" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Financial statements
+  </text>
+  
+  <!-- Step 5: Due Diligence -->
+  <rect x="300" y="300" width="200" height="100" rx="10" fill="#3498db" opacity="0.2"/>
+  <text x="320" y="330" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">
+    Step 5: Due Diligence
+  </text>
+  <text x="320" y="355" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Enhanced checks
+  </text>
+  <text x="320" y="375" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Risk assessment
+  </text>
+  
+  <!-- Step 6: Account Opening -->
+  <rect x="550" y="300" width="200" height="100" rx="10" fill="#3498db" opacity="0.2"/>
+  <text x="570" y="330" text-anchor="start" font-size="16" font-weight="bold" fill="#2c3e50">
+    Step 6: Final Approval
+  </text>
+  <text x="570" y="355" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Account opening
+  </text>
+  <text x="570" y="375" text-anchor="start" font-size="12" fill="#2c3e50">
+    • Initial deposit
+  </text>
+</svg>
