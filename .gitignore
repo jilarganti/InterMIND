@@ -3,4 +3,6 @@
 **/.env
 **/dist/
 **/cache/
-.vercel
+
+.vercel/
+!packages/**/.vercel/project.json
