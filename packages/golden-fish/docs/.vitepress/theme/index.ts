@@ -1,13 +1,13 @@
 import { h } from "vue"
 import DefaultTheme from "vitepress/theme"
-import { useData } from "vitepress"
+// import { useData } from "vitepress"
 import "./style.css"
 
 import { components } from "shared"
 import sharedTheme from "shared"
-import SearchInput from "../../../../../shared/components/AIChat/SearchInput.vue"
+// import SearchInput from "../../../../../shared/components/AIChat/SearchInput.vue"
 
-const { ContactFormModalNav, NavButton } = components
+const { ContactFormModalNav, NavButton, SearchInput } = components
 
 // Расширяем тему из shared и регистрируем компоненты
 export default {

@@ -127,6 +127,12 @@ importers:
         specifier: workspace:*
         version: link:../../shared
 
+  packages/intermind:
+    dependencies:
+      shared:
+        specifier: workspace:*
+        version: link:../../shared
+
   shared: {}
 
 packages:
