@@ -20,7 +20,7 @@ const vercelUrl = process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL
 const baseUrl = vercelUrl ? `https://${vercelUrl}` : "http://localhost:3000"
 
 export const shared = defineConfig({
-  title: "Golden Fish",
+  title: "Poly Meet",
   // srcDir: "./docs",
   lastUpdated: true,
   cleanUrls: true,

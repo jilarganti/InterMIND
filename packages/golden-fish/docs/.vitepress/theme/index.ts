@@ -1,11 +1,8 @@
 import { h } from "vue"
 import DefaultTheme from "vitepress/theme"
-// import { useData } from "vitepress"
 import "./style.css"
-
 import { components } from "shared"
 import sharedTheme from "shared"
-// import SearchInput from "../../../../../shared/components/AIChat/SearchInput.vue"
 
 const { ContactFormModalNav, NavButton, SearchInput } = components
 

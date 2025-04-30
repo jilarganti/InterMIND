@@ -11,29 +11,26 @@ export const en = defineConfig({
   themeConfig: {
     nav: [
       {
-        text: "Services",
-        activeMatch: `${BASE_PATH}/company-registration/`,
-        items: [
-          { text: "Company registration", link: `${BASE_PATH}/uae-business/company-registration/overview` },
-          { text: "Banking solutions", link: `${BASE_PATH}/uae-business/company-registration/banking` },
-          { text: "Migration", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
-        ],
+        text: "Giude",
+        activeMatch: `${BASE_PATH}/guide/`,
+        items: [{ text: "Introduction", link: `${BASE_PATH}/guide/what-is-meetgenius` }],
       },
-      {
-        text: "Resources",
-        items: [{ text: "About us", link: `${BASE_PATH}/resources/about` }],
-      },
-      { text: "Contacts", link: `${BASE_PATH}/resources/contacts` },
+      // {
+      //   text: "Resources",
+      //   items: [
+      //     { text: "About", link: `${BASE_PATH}/resources/about` },
+      //     { text: "Contact", link: `${BASE_PATH}/resources/contacts` },
+      //   ],
+      // },
     ],
 
     sidebar: {
-      [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
-      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      // [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
+      [`${BASE_PATH}/guide/`]: { base: `${BASE_PATH}/guide/`, items: sidebarServices() },
+      // [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Privacy Settings</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Privacy Policy</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Legal Regulations for AI Services</a>`,
+      message: `© MindMeeting OÜ, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Privacy Settings</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Privacy Policy</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Legal Regulations for AI Services</a>`,
     },
 
     localization: {
@@ -76,50 +73,12 @@ export const en = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "UAE business summary",
-      // collapsed: false,
-      items: [
-        { text: "Company registration", link: "company-registration/overview" },
-        { text: "Pros & cons", link: "company-registration/benefits-problems" },
-        { text: "Corporate banking solutions", link: "company-registration/banking" },
-        { text: "Golden Visa", link: "company-registration//golden-visa" },
-        { text: "Visas & EID", link: "company-registration/employment-visas" },
-        { text: "Fees and timelines", link: "company-registration/fees-timelines" },
-        { text: "Pay only after success", link: "benefits/success-based-fees" },
-      ],
-    },
-    {
-      text: "UAE corporate structures",
+      text: "Introduction",
       collapsed: false,
       items: [
-        { text: "Company registration steps", link: "company-registration/insights/incorporation-steps" },
-        { text: "UAE free zones", link: "company-registration/free-zones" },
-        { text: "UAE mainland", link: "company-registration/mainland" },
-      ],
-    },
-    {
-      text: "UAE business compliance guaranteed",
-      collapsed: false,
-      items: [
-        { text: "Guaranteed corporate bank account approvals", link: "corporate-banking-services/guaranteed-account-approvals" },
-        { text: "Bank accounts for high-risk business", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "Keep your business compliant and protected", link: "company-registration/Protect-Your-Business" },
-      ],
-    },
-    {
-      text: "Legal, accounting and tax",
-      collapsed: false,
-      items: [
-        { text: "Accounting and tax considerations", link: "company-registration/accounting-legal" },
-        { text: "UBO register", link: "company-registration/ubo" },
-      ],
-    },
-    {
-      text: "Comparisons",
-      collapsed: false,
-      items: [
-        { text: "Mainland vs free zones", link: "comparison/mainland-vs-free-zones" },
-        { text: "UAE entities compared", link: "comparison/entity-types" },
+        { text: "What is MeetGenius?", link: "what-is-meetgenius" },
+        { text: "Use cases", link: "use-cases" },
+        { text: "How it works", link: "how-it-works" },
       ],
     },
   ]
@@ -127,13 +86,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "About us", link: "about" },
-    { text: "Contacts", link: "contacts" },
-    { text: "Privacy Policy", link: "Privacy-Policy" },
-    { text: "Legal Regulations for AI Services", link: "Legal-Regulations-for-AI-Services" },
+    { text: "About", link: "/about" },
+    { text: "Contact", link: "/contacts" },
   ]
 }
-
-// function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-//   return [{ text: "Contacts", link: `contacts` }]
-// }
