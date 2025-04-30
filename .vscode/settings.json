@@ -5,7 +5,8 @@
     "pnpm-lock.yaml": false,
     "LICENSE": true,
 
-    "dist": false
+    "dist": false,
+    "**/.git": false
   },
   "search.exclude": {
     "**/node_modules": true,
