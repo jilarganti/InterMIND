@@ -4,5 +4,4 @@
 **/dist/
 **/cache/
 
-.vercel/
-!packages/**/.vercel/project.json
+.vercel

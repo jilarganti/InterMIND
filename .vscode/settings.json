@@ -1,11 +1,6 @@
 {
   "files.exclude": {
-    ".vercel": true,
-    ".vscode": true,
-    "pnpm-lock.yaml": false,
     "LICENSE": true,
-
-    "dist": false,
     "**/.git": false
   },
   "search.exclude": {

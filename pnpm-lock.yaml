@@ -130,7 +130,7 @@ importers:
         specifier: workspace:*
         version: link:../../shared
 
-  packages/poly-meet:
+  packages/i14n:
     dependencies:
       shared:
         specifier: workspace:*
