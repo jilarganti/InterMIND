@@ -5,7 +5,7 @@ description: "Expert UAE company formation and support services. Company setup, 
 showSponsors: false
 
 hero:
-  name: "UAE: Your Financial Safe Harbor"
+  name: "Live Interpretation Video Meetings"
   # text: We speak your tongue
   tagline: "5-minute expert consultation: Discover how to setup your UAE business <span class='hl'>risk-free</span>"
   # tagline: "5 minutes with our expert = Your complete UAE business roadmap"
