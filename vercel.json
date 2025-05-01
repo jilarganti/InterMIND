@@ -1,3 +1,10 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+
+  "rewrites": [
+    {
+      "source": "/oauth/:path*",
+      "destination": "https://id.gocall.today/realms/vca/:path*"
+    }
+  ]
 }

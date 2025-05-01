@@ -14,6 +14,7 @@ const UTM_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "
 const OAUTH_PROVIDER_URL = "https://id.gocall.today/realms/vca"
 const OAUTH_CLIENT_ID = "vca"
 const APP_BASE_URL = "https://gocall.today"
+const OAUTH_PROXY_PATH = "/oauth"
 
 const isProduction = process.env.VERCEL_ENV === "production"
 const vercelUrl = process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL
@@ -82,6 +83,7 @@ export const shared = defineConfig({
       "import.meta.env.VITE_OAUTH_PROVIDER_URL": JSON.stringify(OAUTH_PROVIDER_URL),
       "import.meta.env.VITE_OAUTH_CLIENT_ID": JSON.stringify(OAUTH_CLIENT_ID),
       "import.meta.env.VITE_APP_BASE_URL": JSON.stringify(APP_BASE_URL),
+      "import.meta.env.VITE_OAUTH_PROXY_PATH": JSON.stringify(OAUTH_PROXY_PATH),
     },
     resolve: {
       alias: {
@@ -93,6 +95,11 @@ export const shared = defineConfig({
     server: {
       proxy: {
         "/api": { target: baseUrl, changeOrigin: true },
+        "/oauth": {
+          target: OAUTH_PROVIDER_URL,
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/oauth/, ""),
+        },
       },
     },
     plugins: [
