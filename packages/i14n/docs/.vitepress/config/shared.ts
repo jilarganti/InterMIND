@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from "node:url"
 import { gtmHead } from "./gtm.config"
 import llmstxt from "vitepress-plugin-llms"
 
-const hostUrl = "https://i14n.COM"
+const hostUrl = "https://i14n.com"
 const NOINDEX_PAGES = ["test", "chat"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
 // Список UTM-параметров для сохранения в параметрах страницы
