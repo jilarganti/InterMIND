@@ -76,7 +76,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Introduction",
       collapsed: false,
       items: [
-        { text: "What is MeetGenius?", link: "what-is-i14n" },
+        { text: "What is i14n?", link: "what-is-i14n" },
         { text: "How it works", link: "how-it-works" },
         { text: "Use cases", link: "use-cases" },
       ],
