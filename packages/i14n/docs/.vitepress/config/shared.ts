@@ -98,6 +98,7 @@ export const shared = defineConfig({
         "/oauth": {
           target: OAUTH_PROVIDER_URL,
           changeOrigin: true,
+          secure: false, // если используется HTTPS
           rewrite: (path) => path.replace(/^\/oauth/, ""),
         },
       },
@@ -117,14 +118,14 @@ export const shared = defineConfig({
   },
 
   head: [
-    ["link", { rel: "icon", type: "image/avif", href: "/img/Logo.avif" }],
+    // ["link", { rel: "icon", type: "image/avif", href: "/img/Logo.avif" }],
     ["meta", { name: "theme-color", content: "#5f67ee" }],
     ["meta", { property: "og:type", content: "website" }],
-    ["meta", { property: "og:site_name", content: "Golden Fish" }],
+    ["meta", { property: "og:site_name", content: "i14n" }],
     ["meta", { property: "og:url", content: hostUrl }],
     ...gtmHead,
   ],
   themeConfig: {
-    logo: { light: "/img/Logo.avif", dark: "/img/Logo.avif" },
+    // logo: { light: "/img/Logo.avif", dark: "/img/Logo.avif" },
   },
 })
