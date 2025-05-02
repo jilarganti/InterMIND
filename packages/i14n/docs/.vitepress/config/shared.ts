@@ -4,6 +4,7 @@ import { fileURLToPath, URL } from "node:url"
 import { gtmHead } from "./gtm.config"
 import llmstxt from "vitepress-plugin-llms"
 
+// Обновляем URL сайта документации
 const hostUrl = "https://i14n.com"
 const NOINDEX_PAGES = ["test", "chat"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
@@ -12,9 +13,8 @@ const UTM_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "
 
 // Определение констант для OAuth прямо в коде, так как это не закрытые данные
 const OAUTH_PROVIDER_URL = "https://id.gocall.today/realms/vca"
-const OAUTH_CLIENT_ID = "vca"
 const APP_BASE_URL = "https://gocall.today"
-const OAUTH_PROXY_PATH = "/oauth"
+const OAUTH_CLIENT_ID = "vca"
 
 const isProduction = process.env.VERCEL_ENV === "production"
 const vercelUrl = process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL
@@ -83,7 +83,6 @@ export const shared = defineConfig({
       "import.meta.env.VITE_OAUTH_PROVIDER_URL": JSON.stringify(OAUTH_PROVIDER_URL),
       "import.meta.env.VITE_OAUTH_CLIENT_ID": JSON.stringify(OAUTH_CLIENT_ID),
       "import.meta.env.VITE_APP_BASE_URL": JSON.stringify(APP_BASE_URL),
-      "import.meta.env.VITE_OAUTH_PROXY_PATH": JSON.stringify(OAUTH_PROXY_PATH),
     },
     resolve: {
       alias: {
@@ -95,12 +94,6 @@ export const shared = defineConfig({
     server: {
       proxy: {
         "/api": { target: baseUrl, changeOrigin: true },
-        "/oauth": {
-          target: OAUTH_PROVIDER_URL,
-          changeOrigin: true,
-          secure: false, // если используется HTTPS
-          rewrite: (path) => path.replace(/^\/oauth/, ""),
-        },
       },
     },
     plugins: [

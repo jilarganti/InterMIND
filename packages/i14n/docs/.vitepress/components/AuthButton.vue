@@ -36,8 +36,7 @@ const login = (): void => {
 
   // Формируем URL для авторизации
   const authUrl =
-    // `${import.meta.env.VITE_OAUTH_PROVIDER_URL}` +
-    `${import.meta.env.VITE_OAUTH_PROXY_PATH}` +
+    `${import.meta.env.VITE_OAUTH_PROVIDER_URL}` +
     "/protocol/openid-connect/auth" +
     `?client_id=${import.meta.env.VITE_OAUTH_CLIENT_ID}` +
     "&scope=openid" +
