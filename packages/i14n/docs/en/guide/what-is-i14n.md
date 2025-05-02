@@ -1,6 +1,12 @@
 # What is i14n?
 
-i14n (pronounced "interpretation") represents a paradigm shift in human communication across language barriers. Just as calculators eliminated the need to perform mental arithmetic, i14n eliminates the outdated practice of spending years learning foreign languages for practical communication purposes.
+i14n[^1] (pronounced "interpretation") represents a paradigm shift in human communication across language barriers. Just as calculators eliminated the need to perform mental arithmetic, i14n eliminates the outdated practice of spending years learning foreign languages for practical communication purposes.
+
+[^1]: The name itself is a technical numeronym - similar to i18n (internationalization) - where 14 represents the 14 letters between "i" and "n" in the word "interpretation".
+
+## Breaking Down the Concept
+
+i14n is a seamless integration of synchronous interpretation capabilities within video conferencing. Unlike traditional translation services that work with text or require separate interpretation channels, i14n delivers real-time spoken language translation directly within your video meeting experience.
 
 ## The Evolution of Communication Efficiency
 
@@ -22,4 +28,4 @@ i14n isn't just a video conferencing tool with translation features - it's a fun
 
 With i14n, we've created a system where the language barrier dissolves instantly. Our platform doesn't just translate - it interprets nuance, context, and meaning across languages in real-time, delivering an experience that would take decades of language study to achieve naturally.
 
-Embrace the future of efficient global communication. Stop learning languages. Start communicating effectively.
+> [!IMPORTANT] Embrace the future of efficient global communication. Stop learning languages. Start communicating effectively.

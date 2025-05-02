@@ -443,3 +443,34 @@ code {
 :root {
   --vp-layout-max-width: 100%;
 }
+
+:root {
+  --vp-home-hero-image-background-image: none;
+  --vp-home-hero-image-filter: none;
+}
+
+.VPHomeHero .name,
+.VPHomeHero .text,
+.VPHomeHero .tagline {
+  max-width: 100%;
+  margin: 2rem auto;
+}
+
+/* Размер шрифта для больших экранов (десктоп) */
+.VPHomeHero .text {
+  font-size: 8rem;
+}
+
+/* Размер шрифта для планшетов */
+@media (max-width: 1024px) {
+  .VPHomeHero .text {
+    font-size: 7rem;
+  }
+}
+
+/* Размер шрифта для смартфонов */
+@media (max-width: 640px) {
+  .VPHomeHero .text {
+    font-size: 6rem;
+  }
+}
