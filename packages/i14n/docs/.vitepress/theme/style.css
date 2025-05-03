@@ -444,33 +444,59 @@ code {
   --vp-layout-max-width: 100%;
 }
 
-:root {
+/* :root {
   --vp-home-hero-image-background-image: none;
   --vp-home-hero-image-filter: none;
-}
+} */
 
-.VPHomeHero .name,
-.VPHomeHero .text,
-.VPHomeHero .tagline {
+.VPHomeHero :is(.name, .text, .tagline) {
   max-width: 100%;
-  margin: 2rem auto;
+  margin: 3rem auto;
 }
 
-/* Размер шрифта для больших экранов (десктоп) */
+/* CSS с анимацией */
 .VPHomeHero .text {
   font-size: 8rem;
+  animation: shrinkText 1s ease-out 1s forwards;
+  animation-delay: 20s;
 }
 
-/* Размер шрифта для планшетов */
-@media (max-width: 1024px) {
-  .VPHomeHero .text {
-    font-size: 7rem;
+.VPHomeHero .text.no-animation {
+  font-size: 4rem;
+  margin: 2rem auto;
+  animation: none;
+}
+
+@keyframes shrinkText {
+  to {
+    font-size: 4rem;
+    margin: 2rem auto;
   }
 }
 
-/* Размер шрифта для смартфонов */
+/* Мобильная версия */
 @media (max-width: 640px) {
+  .VPHomeHero :is(.name, .text, .tagline) {
+    max-width: 100%;
+    margin: 0 auto 1.5rem;
+  }
+
   .VPHomeHero .text {
-    font-size: 6rem;
+    font-size: 4.5rem;
+    animation: shrinkTextMobile 1s ease-out 1s forwards;
+    animation-delay: 20s;
+  }
+
+  .VPHomeHero .text.no-animation {
+    font-size: 3rem;
+    margin: 0 auto 1rem;
+    animation: none;
+  }
+
+  @keyframes shrinkTextMobile {
+    to {
+      font-size: 3rem;
+      margin: 0 auto 1rem;
+    }
   }
 }

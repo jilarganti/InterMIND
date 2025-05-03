@@ -10,8 +10,8 @@ hero:
   tagline: "Speak your language. Understand everyone. i14n eliminates language barriers instantly in any video meeting, making years of language learning unnecessary. Express yourself naturally while everyone hears you perfectly in their native language."
   actions:
     - theme: brand
-      text: Try i14n Now
-      link: /try
+      text: What is i14n?
+      link: ./guide/what-is-i14n
 ---
 
 <FeatureBlock :card="{
@@ -61,3 +61,15 @@ hero:
   },
   inversion: true
 }" />
+
+<script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  const el = document.querySelector('.VPHomeHero .text');
+  if (el && localStorage.getItem('visited')) {
+    el.classList.add('no-animation');
+  }
+  localStorage.setItem('visited', 'true');
+})
+</script>
