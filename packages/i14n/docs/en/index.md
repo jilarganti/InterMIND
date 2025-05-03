@@ -2,7 +2,6 @@
 layout: home
 title: "Real-Time Video Interpretation | Speak Your Language, Understand All | i14n"
 description: "Eliminate language barriers instantly with i14n's real-time video interpretation. Join meetings in your native language while everyone understands perfectly. Why learn a new language when technology can bridge the gap?"
-showSponsors: false
 
 hero:
   name: "Live Interpretation Video Meetings"
