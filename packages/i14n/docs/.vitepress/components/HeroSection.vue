@@ -14,13 +14,15 @@ const props = defineProps({
   actions: { type: Array as () => ActionItem[], default: () => [] },
 })
 
+// Применяем renderMarkdown и для заголовка, и для текста
 const renderedTitle = computed(() => renderMarkdown(props.title))
+const renderedText = computed(() => renderMarkdown(props.text))
 </script>
 
 <template>
   <section class="hero-section">
-    <h1 class="hero-title" v-html="renderedTitle"></h1>
-    <p class="hero-text">{{ text }}</p>
+    <h1 class="hero-title">{{ props.title }}</h1>
+    <p class="hero-text" v-html="renderedText"></p>
     <div v-if="actions && actions.length" class="hero-actions">
       <a v-for="(action, idx) in actions" :key="idx" :href="action.link" :class="['hero-action', action.theme]">
         {{ action.text }}
@@ -33,28 +35,40 @@ const renderedTitle = computed(() => renderMarkdown(props.title))
 .hero-section {
   text-align: center;
   margin: 8rem 0;
-  /* padding: 0 1.5rem; */
-  /* max-width: 100%; */
+  padding: 0 1.5rem;
+  max-width: 100%;
 }
 
 .hero-title {
   font-size: calc(3rem + 1.2vw);
   font-weight: 700;
   line-height: 1.2;
-  /* margin-bottom: 1rem; */
+  margin-bottom: 1.5rem;
   background: var(--vp-home-hero-name-background);
-  /* -webkit-background-clip: text; */
+  -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* Важно: удаляем стандартные отступы из p-тегов, созданных renderMarkdown */
+.hero-title :deep(p) {
+  margin: 0;
+  padding: 0;
 }
 
 .hero-text {
   font-size: calc(0.5rem + 0.8vw);
   font-weight: 500;
-  /* margin: 0.5rem auto 1.2rem; */
-  /* max-width: 768px; */
-  line-height: 1.5;
+  margin: 1.5rem auto 2rem;
+  max-width: 768px;
+  line-height: 1.6;
   color: var(--vp-c-text-2);
+}
+
+/* Важно: удаляем стандартные отступы из p-тегов, созданных renderMarkdown */
+.hero-text :deep(p) {
+  margin: 0;
+  padding: 0;
 }
 
 .hero-actions {
@@ -112,10 +126,12 @@ const renderedTitle = computed(() => renderMarkdown(props.title))
 
   .hero-title {
     font-size: 1.8rem;
+    margin-bottom: 1rem;
   }
 
   .hero-text {
     font-size: 1.2rem;
+    margin: 1rem auto 1.5rem;
   }
 }
 </style>

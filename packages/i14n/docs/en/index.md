@@ -13,8 +13,8 @@ description: "Eliminate language barriers instantly with i14n's real-time video 
 ---
 
 <HeroSection
-  title='**Stop** learning languages. Start living.'
-  text="Real-time interpretation Video Meetings with /ntermind. We don't just translate — we comprehend, analyze, and act. Save 2000+ hours of your life."
+  title='Stop learning languages. Start living.'
+  text="Real-time <span class='hl'>interpretation</span> Video Meetings with /ntermind. We don't just translate — we comprehend, analyze, and act. Save 2000+ hours of your life."
   :actions="[
     { theme: 'brand', text: 'What is i14n?', link: './guide/what-is-i14n' },
     { theme: 'brand', text: 'Use Cases', link: './guide/use-cases' }
