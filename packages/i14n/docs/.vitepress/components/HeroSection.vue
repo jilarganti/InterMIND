@@ -49,7 +49,7 @@ const renderedTitle = computed(() => renderMarkdown(props.title))
 }
 
 .hero-text {
-  font-size: calc(rem + 0.8vw);
+  font-size: calc(0.5rem + 0.8vw);
   font-weight: 500;
   /* margin: 0.5rem auto 1.2rem; */
   /* max-width: 768px; */
