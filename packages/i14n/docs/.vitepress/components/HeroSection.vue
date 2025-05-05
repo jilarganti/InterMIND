@@ -15,10 +15,6 @@ const props = defineProps({
 })
 
 const renderedTitle = computed(() => renderMarkdown(props.title))
-// const renderedTitle = computed(() => {
-//   return props.features.map((feature) => renderMarkdown(props.title))
-// })
-// const renderedText = computed(() => renderMarkdown(props.text))
 </script>
 
 <template>
