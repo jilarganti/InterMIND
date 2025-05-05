@@ -41,29 +41,30 @@ const renderedText = computed(() => renderMarkdown(props.text))
 <style scoped>
 .hero-section {
   text-align: center;
-  margin: 8rem 0;
+  /* margin: 8rem 0; */
 }
 
 .hero-title {
   font-size: calc(3rem + 1.2vw);
   font-weight: 700;
   line-height: 1.2;
+  margin-top: 6rem;
 }
 
-/* Style for the highlighted word */
 .hero-title :deep(.highlighted-word) {
   background: var(--vp-home-hero-name-background);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent; /* Standard property */
-  -webkit-text-fill-color: transparent; /* For Webkit browsers */
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero-text {
-  font-size: calc(rem + 0.8vw);
+  font-size: calc(0.7rem + 0.8vw);
   font-weight: 500;
   line-height: 1.5;
   color: var(--vp-c-text-2);
+  margin-top: 2rem;
 }
 
 .hero-actions {
@@ -71,7 +72,7 @@ const renderedText = computed(() => renderMarkdown(props.text))
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .hero-action {
