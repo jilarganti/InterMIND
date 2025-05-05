@@ -1,4 +1,5 @@
 import { h } from "vue"
+import { type App } from "vue"
 import DefaultTheme from "vitepress/theme"
 import type { Theme } from "vitepress"
 import "./styles/AIChat.css"
@@ -18,7 +19,7 @@ export default {
     return h(DefaultTheme.Layout)
   },
 
-  enhanceApp({ app, router }) {
+  enhanceApp({ app, router }: { app: App; router: any }) {
     app.use(createPinia())
 
     // Регистрируем кастомные компоненты

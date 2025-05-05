@@ -2,16 +2,24 @@
 layout: home
 title: "Real-Time Video Interpretation | Speak Your Language, Understand All | i14n"
 description: "Eliminate language barriers instantly with i14n's real-time video interpretation. Join meetings in your native language while everyone understands perfectly. Why learn a new language when technology can bridge the gap?"
-
-hero:
-  name: "Live Interpretation Video Meetings"
-  text: "Why learn languages when technology can do it for you?"
-  tagline: "Speak your language. Understand everyone. i14n eliminates language barriers instantly in any video meeting, making years of language learning unnecessary. Express yourself naturally while everyone hears you perfectly in their native language."
-  actions:
-    - theme: brand
-      text: What is i14n?
-      link: ./guide/what-is-i14n
+# hero:
+#   name: "Interpreting"
+#   text: "Video Meetings"
+#   tagline: "We don’t just translate — we comprehend, analyze, and act."
+#   actions:
+#     - theme: brand
+#       text: What is i14n?
+#       link: ./guide/what-is-i14n
 ---
+
+<HeroSection
+  title='**Stop** learning languages. Start living.'
+  text="Real-time interpretation Video Meetings with /ntermind. We don't just translate — we comprehend, analyze, and act. Save 2000+ hours of your life."
+  :actions="[
+    { theme: 'brand', text: 'What is i14n?', link: './guide/what-is-i14n' },
+    { theme: 'brand', text: 'Use Cases', link: './guide/use-cases' }
+  ]"
+/>
 
 <FeatureBlock :card="{
   title: 'Your voice, their language, no waiting',

@@ -1,4 +1,5 @@
 import { h } from "vue"
+import { type App } from "vue"
 import DefaultTheme from "vitepress/theme"
 // import { useData } from "vitepress"
 import "./style.css"
@@ -6,8 +7,9 @@ import "./style.css"
 import { components } from "shared"
 import sharedTheme from "shared"
 import AuthButton from "../components/AuthButton.vue"
+import HeroSection from "../components/HeroSection.vue"
 
-const { ContactFormModalNav, NavButton, SearchInput } = components
+const { ContactFormModalNav, NavButton, SearchInput, FeatutesBlock } = components
 
 // Расширяем тему из shared и регистрируем компоненты
 export default {
@@ -29,5 +31,9 @@ export default {
       //     h(NavButton, { text: "Ask AI", buttonClass: "alt", to: "/chat" }),
       //   ]),
     })
+  },
+  enhanceApp({ app }: { app: App }) {
+    app.component("HeroSection", HeroSection)
+    // app.component('TextAd', TextAd)
   },
 }
