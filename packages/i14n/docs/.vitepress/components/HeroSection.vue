@@ -14,12 +14,21 @@ const props = defineProps({
   actions: { type: Array as () => ActionItem[], default: () => [] },
 })
 
+// Computed property to style the word(s) enclosed in ** **
+const styledTitle = computed(() => {
+  // Regex to find text enclosed in double asterisks
+  const regex = /\*\*(.*?)\*\*/
+  // Replace the pattern with the span tag
+  const highlightedTitle = props.title.replace(regex, '<span class="highlighted-word">$1</span>')
+  return highlightedTitle
+})
 const renderedText = computed(() => renderMarkdown(props.text))
 </script>
 
 <template>
   <section class="hero-section">
-    <h1 class="hero-title">{{ props.title }}</h1>
+    <!-- Use v-html to render the styled title -->
+    <h1 class="hero-title" v-html="styledTitle"></h1>
     <p class="hero-text" v-html="renderedText"></p>
     <div v-if="actions && actions.length" class="hero-actions">
       <a v-for="(action, idx) in actions" :key="idx" :href="action.link" :class="['hero-action', action.theme]">
@@ -33,26 +42,26 @@ const renderedText = computed(() => renderMarkdown(props.text))
 .hero-section {
   text-align: center;
   margin: 8rem 0;
-  /* padding: 0 1.5rem; */
-  /* max-width: 100%; */
 }
 
 .hero-title {
   font-size: calc(3rem + 1.2vw);
   font-weight: 700;
   line-height: 1.2;
-  /* margin-bottom: 1rem; */
+}
+
+/* Style for the highlighted word */
+.hero-title :deep(.highlighted-word) {
   background: var(--vp-home-hero-name-background);
-  /* -webkit-background-clip: text; */
+  -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent; /* Standard property */
+  -webkit-text-fill-color: transparent; /* For Webkit browsers */
 }
 
 .hero-text {
   font-size: calc(rem + 0.8vw);
   font-weight: 500;
-  /* margin: 0.5rem auto 1.2rem; */
-  /* max-width: 768px; */
   line-height: 1.5;
   color: var(--vp-c-text-2);
 }
