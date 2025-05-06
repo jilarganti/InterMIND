@@ -17,7 +17,7 @@ description: "Eliminate language barriers instantly with i14n's real-time video 
   text="We don’t just translate — we comprehend, analyze, and act."
   :actions="[
     { theme: 'brand', text: 'What is i14n?', link: './guide/what-is-i14n' },
-    { theme: 'brand', text: 'Use Cases', link: './guide/use-cases' }
+    { theme: 'alt', text: 'Use Cases', link: './guide/use-cases' }
   ]"
 />
 
