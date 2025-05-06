@@ -44,10 +44,13 @@ const renderedText = computed(() => renderMarkdown(props.text))
 .hero-section {
   text-align: center;
   /* margin: 8rem 0; */
+  width: 100%; /* Ensure it takes full available width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 .hero-title {
-  font-size: calc(3rem + 1.2vw);
+  font-size: calc(2.8rem + 1.2vw);
   font-weight: 700;
   line-height: 1.2;
   margin-top: 6rem;
@@ -83,16 +86,19 @@ const renderedText = computed(() => renderMarkdown(props.text))
 }
 
 @media (max-width: 640px) {
-  /* .hero-section {
-    margin: 0rem 0;
-  } */
-
   .hero-title {
     font-size: 2rem;
+    overflow-wrap: break-word;
   }
 
   .hero-text {
     font-size: 1rem;
+    overflow-wrap: break-word;
+  }
+
+  .hero-actions {
+    /* Add this rule for hero-actions */
+    margin-top: 2rem; /* Use fixed margin for smaller screens */
   }
 }
 </style>
