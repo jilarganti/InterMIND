@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { computed } from "vue"
+import { computed, ref, onMounted, type Ref } from "vue"
 // Import VPButton - Adjust path if necessary based on your VitePress setup
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 // import { renderMarkdown } from "../../../../../shared/utils/markdown"
+import { typewriter } from "../../../../../shared/utils/animations" // Adjusted import path
 
 interface ActionItem {
   text: string
@@ -15,6 +16,8 @@ const props = defineProps({
   title: { type: String, required: true },
   text: { type: String, required: true },
   actions: { type: Array as () => ActionItem[], default: () => [] },
+  typingSpeed: { type: Number, default: 50 }, // Optional: speed in ms
+  textDelay: { type: Number, default: 200 }, // Optional: delay before text starts typing
 })
 
 // Regex to find text enclosed in double asterisks
@@ -23,17 +26,33 @@ const regex = /\*\*(.*?)\*\*/
 // Computed property to style the word(s) enclosed in ** **
 const styledTitle = computed(() => props.title.replace(regex, '<span class="highlighted-word">$1</span>'))
 const styledText = computed(() => props.text.replace(regex, '<span class="hl">$1</span>'))
+
+const displayedTitle = ref("")
+const displayedText = ref("")
+const showActions = ref(false)
+
+onMounted(async () => {
+  await typewriter(styledTitle.value, displayedTitle, props.typingSpeed)
+  // Optional delay before starting to type the text
+  if (props.textDelay > 0) {
+    await new Promise((resolve) => setTimeout(resolve, props.textDelay))
+  }
+  await typewriter(styledText.value, displayedText, props.typingSpeed)
+  showActions.value = true // Show actions after text is typed
+})
 </script>
 
 <template>
   <section class="hero-section">
     <!-- Use v-html to render the styled title -->
-    <h1 class="hero-title" v-html="styledTitle"></h1>
-    <p class="hero-text" v-html="styledText"></p>
-    <div v-if="actions && actions.length" class="hero-actions">
-      <!-- Use VPButton component -->
-      <VPButton v-for="(action, idx) in actions" :key="idx" :text="action.text" :href="action.link" :theme="action.theme" />
-    </div>
+    <h1 class="hero-title" v-html="displayedTitle"></h1>
+    <p class="hero-text" v-html="displayedText"></p>
+    <Transition name="fade-slide-up">
+      <div v-if="actions && actions.length && showActions" class="hero-actions">
+        <!-- Use VPButton component -->
+        <VPButton v-for="(action, idx) in actions" :key="idx" :text="action.text" :href="action.link" :theme="action.theme" />
+      </div>
+    </Transition>
   </section>
 </template>
 
@@ -96,5 +115,19 @@ const styledText = computed(() => props.text.replace(regex, '<span class="hl">$1
   .hero-actions {
     margin-top: 2.5rem; /* Use fixed margin for smaller screens */
   }
+}
+
+/* Styles for the fade-slide-up transition */
+.fade-slide-up-enter-active,
+.fade-slide-up-leave-active {
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.fade-slide-up-enter-from,
+.fade-slide-up-leave-to {
+  opacity: 0;
+  transform: translateY(20px);
 }
 </style>
