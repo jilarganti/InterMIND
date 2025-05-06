@@ -2,23 +2,27 @@
 layout: home
 title: "Real-Time Video Interpretation | Speak Your Language, Understand All | i14n"
 description: "Eliminate language barriers instantly with i14n's real-time video interpretation. Join meetings in your native language while everyone understands perfectly. Why learn a new language when technology can bridge the gap?"
-# hero:
-#   name: "Interpreting"
-#   text: "Video Meetings"
-#   tagline: "We don’t just translate — we comprehend, analyze, and act."
-#   actions:
-#     - theme: brand
-#       text: What is i14n?
-#       link: ./guide/what-is-i14n
 ---
+
+<script setup lang="ts">
+import { ref } from 'vue'
+import { manageSessionFlag } from '../../../shared/utils/sessionStorageHelper'
+
+const initialAnimationState = manageSessionFlag("heroSectionAnimated", "true");
+
+// Animate if manageSessionFlag returned undefined (meaning it was the first call this session)
+const shouldPlayHeroAnimation = ref(initialAnimationState === undefined);
+</script>
 
 <HeroSection
   title='Live **Interpretation** Video Meetings'
   text="We don’t just translate — we comprehend, analyze, and **act**."
   :actions="[
-    { theme: 'brand', text: 'What is i14n?', link: './guide/what-is-i14n' },
-    { theme: 'alt', text: 'Use Cases', link: './guide/use-cases' }
+    { theme: 'brand', text: 'What for?', link: './guide/what-is-i14n' },
+    { theme: 'alt', text: 'Try for free', link: './guide/use-cases' }
   ]"
+  textDelay="3000"
+  :playAnimation="shouldPlayHeroAnimation"
 />
 
 <FeatureBlock :card="{
@@ -68,15 +72,3 @@ description: "Eliminate language barriers instantly with i14n's real-time video 
   },
   inversion: true
 }" />
-
-<script setup>
-import { onMounted } from 'vue'
-
-onMounted(() => {
-  const el = document.querySelector('.VPHomeHero .text');
-  if (el && localStorage.getItem('visited')) {
-    el.classList.add('no-animation');
-  }
-  localStorage.setItem('visited', 'true');
-})
-</script>

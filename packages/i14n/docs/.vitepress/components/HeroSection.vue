@@ -1,9 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, onMounted, type Ref } from "vue"
-// Import VPButton - Adjust path if necessary based on your VitePress setup
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
-// import { renderMarkdown } from "../../../../../shared/utils/markdown"
-import { typewriter } from "../../../../../shared/utils/animations" // Adjusted import path
+import { typewriter } from "../../../../../shared/utils/animations"
 
 interface ActionItem {
   text: string
@@ -18,6 +16,7 @@ const props = defineProps({
   actions: { type: Array as () => ActionItem[], default: () => [] },
   typingSpeed: { type: Number, default: 50 }, // Optional: speed in ms
   textDelay: { type: Number, default: 200 }, // Optional: delay before text starts typing
+  playAnimation: { type: Boolean, default: true }, // New prop to control animation
 })
 
 // Regex to find text enclosed in double asterisks
@@ -32,13 +31,19 @@ const displayedText = ref("")
 const showActions = ref(false)
 
 onMounted(async () => {
-  await typewriter(styledTitle.value, displayedTitle, props.typingSpeed)
-  // Optional delay before starting to type the text
-  if (props.textDelay > 0) {
-    await new Promise((resolve) => setTimeout(resolve, props.textDelay))
+  if (props.playAnimation) {
+    // Check the new prop to decide whether to animate
+    await typewriter(styledTitle.value, displayedTitle, props.typingSpeed)
+    // Optional delay before starting to type the text
+    if (props.textDelay > 0) {
+      await new Promise((resolve) => setTimeout(resolve, props.textDelay))
+    }
+    await typewriter(styledText.value, displayedText, props.typingSpeed)
+  } else {
+    displayedTitle.value = styledTitle.value // Show title immediately
+    displayedText.value = styledText.value // Show text immediately
   }
-  await typewriter(styledText.value, displayedText, props.typingSpeed)
-  showActions.value = true // Show actions after text is typed
+  showActions.value = true // Show actions after text is typed or set
 })
 </script>
 
