@@ -18,7 +18,7 @@ const shouldPlayHeroAnimation = ref(initialAnimationState === undefined);
   title='Live **Interpretation** Video Meetings'
   text="We don’t just translate — we comprehend, analyze, and **act**."
   :actions="[
-    { theme: 'brand', text: 'What for?', link: './guide/what-is-i14n' },
+    { theme: 'brand', text: 'Sign in', link: './guide/what-is-i14n' },
     { theme: 'alt', text: 'Try for free', link: './guide/use-cases' }
   ]"
   textDelay="500"
