@@ -1,25 +1,16 @@
 <script setup lang="ts">
 import { computed, ref, onMounted, useSlots } from "vue"
-import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 import { typewriter } from "../../../../../shared/utils/animations"
-
-interface ActionItem {
-  text: string
-  link: string
-  // Theme can be 'brand', 'alt', 'sponsor' as per VPButton props
-  theme: "brand" | "alt" | "sponsor"
-}
 
 const props = defineProps({
   title: { type: String, required: true },
   text: { type: String, required: true },
-  actions: { type: Array as () => ActionItem[], default: () => [] },
   typingSpeed: { type: Number, default: 50 }, // Optional: speed in ms
   textDelay: { type: Number, default: 200 }, // Optional: initial delay before animations start
   playAnimation: { type: Boolean, default: true },
 })
 
-// Check if default slot is provided to determine whether to show default buttons
+// Check if default slot is provided to determine whether to show buttons
 const slots = useSlots()
 const hasButtonSlot = computed(() => !!slots.default)
 
@@ -60,15 +51,8 @@ onMounted(async () => {
     <h1 class="hero-title" v-html="displayedTitle"></h1>
     <p class="hero-text" v-html="displayedText"></p>
     <Transition name="fade-slide-up">
-      <div v-if="showActions" class="hero-actions">
-        <!-- If slot is provided, use that instead of the default buttons -->
-        <template v-if="hasButtonSlot">
-          <slot></slot>
-        </template>
-        <!-- Otherwise use the default VPButton implementation (for backward compatibility) -->
-        <template v-else-if="actions && actions.length">
-          <VPButton v-for="(action, idx) in actions" :key="idx" :text="action.text" :href="action.link" :theme="action.theme" custom />
-        </template>
+      <div v-if="showActions && hasButtonSlot" class="hero-actions">
+        <slot></slot>
       </div>
     </Transition>
   </section>
@@ -78,6 +62,7 @@ onMounted(async () => {
 .hero-section {
   text-align: center;
   /* margin: 8rem 0; */
+  margin-bottom: 4rem;
   width: 100%; /* Ensure it takes full available width */
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
   overflow-x: hidden; /* Prevent horizontal scrolling */
