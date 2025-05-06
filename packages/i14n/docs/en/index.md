@@ -9,21 +9,16 @@ import { ref } from 'vue'
 import { manageSessionFlag } from '../../../shared/utils/sessionStorageHelper'
 
 const initialAnimationState = manageSessionFlag("heroSectionAnimated", "true");
-
-// Animate if manageSessionFlag returned undefined (meaning it was the first call this session)
 const shouldPlayHeroAnimation = ref(initialAnimationState === undefined);
 </script>
 
-<HeroSection
-  title='Live **Interpretation** Video Meetings'
-  text="We don't just translate — we comprehend, analyze, and **act**."
-  :actions="[
-    { theme: 'brand', text: 'Sign in', link: './guide/what-is-i14n' },
-    { theme: 'alt', text: 'Try for free', link: './guide/use-cases' }
-  ]"
-  :textDelay="500"
-  :playAnimation="shouldPlayHeroAnimation"
-/>
+<HeroSection 
+  title="Live **Interpretation** Video Meetings" 
+  text="We don't just translate — we comprehend, analyze, and **act**." 
+  :playAnimation="shouldPlayHeroAnimation">
+<NavButton to="./guide/what-is-i14n" buttonClass="brand" buttonLabel="Get Started" />
+<AuthButton text="Sign In" buttonClass="alt" />
+</HeroSection>
 
 <FeatureBlock :card="{
   title: 'Your voice, their language, no waiting',

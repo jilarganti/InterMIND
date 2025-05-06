@@ -41,13 +41,14 @@ const computedTheme = computed(() => {
 /**
  * Обработчик клика по кнопке - переход по ссылке с учетом локали
  */
-const handleClick = (): void => {
+const handleClick = (event: Event): void => {
+  event.preventDefault()
   navigateTo(props.to)
 }
 </script>
 
 <template>
-  <VPButton v-if="!hide" :text="label" :theme="computedTheme" :href="'javascript:void(0);'" @click="handleClick" custom />
+  <VPButton v-if="!hide" :text="label" :theme="computedTheme" :href="props.to" @click="handleClick" custom />
 </template>
 
 <style scoped>

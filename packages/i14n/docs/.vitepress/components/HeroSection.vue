@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, onMounted, type Ref } from "vue"
+import { computed, ref, onMounted, useSlots } from "vue"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 import { typewriter } from "../../../../../shared/utils/animations"
 
@@ -18,6 +18,10 @@ const props = defineProps({
   textDelay: { type: Number, default: 200 }, // Optional: initial delay before animations start
   playAnimation: { type: Boolean, default: true },
 })
+
+// Check if default slot is provided to determine whether to show default buttons
+const slots = useSlots()
+const hasButtonSlot = computed(() => !!slots.default)
 
 // Regex to find text enclosed in double asterisks
 const regex = /\*\*(.*?)\*\*/
@@ -56,9 +60,15 @@ onMounted(async () => {
     <h1 class="hero-title" v-html="displayedTitle"></h1>
     <p class="hero-text" v-html="displayedText"></p>
     <Transition name="fade-slide-up">
-      <div v-if="actions && actions.length && showActions" class="hero-actions">
-        <!-- Use VPButton component с атрибутом custom для исключения предупреждений о эмитах -->
-        <VPButton v-for="(action, idx) in actions" :key="idx" :text="action.text" :href="action.link" :theme="action.theme" custom />
+      <div v-if="showActions" class="hero-actions">
+        <!-- If slot is provided, use that instead of the default buttons -->
+        <template v-if="hasButtonSlot">
+          <slot></slot>
+        </template>
+        <!-- Otherwise use the default VPButton implementation (for backward compatibility) -->
+        <template v-else-if="actions && actions.length">
+          <VPButton v-for="(action, idx) in actions" :key="idx" :text="action.text" :href="action.link" :theme="action.theme" custom />
+        </template>
       </div>
     </Transition>
   </section>

@@ -41,5 +41,6 @@ export default {
 
     // i14n-specific component registrations
     app.component("HeroSection", HeroSection)
+    app.component("AuthButton", AuthButton)
   },
 }
