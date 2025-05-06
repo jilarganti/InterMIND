@@ -9,7 +9,7 @@ import sharedTheme from "shared"
 import AuthButton from "../components/AuthButton.vue"
 import HeroSection from "../components/HeroSection.vue"
 
-const { ContactFormModalNav, NavButton, SearchInput, FeatutesBlock } = components
+const { ContactFormModalNav, NavButton, SearchInput, FeatureBlock } = components
 
 // Расширяем тему из shared и регистрируем компоненты
 export default {
@@ -32,8 +32,14 @@ export default {
       //   ]),
     })
   },
-  enhanceApp({ app }: { app: App }) {
+  enhanceApp({ app, router }: { app: App; router: any }) {
+    // Added router to signature
+    // Call shared theme's enhanceApp to register global components and plugins
+    if (sharedTheme.enhanceApp) {
+      sharedTheme.enhanceApp({ app, router })
+    }
+
+    // i14n-specific component registrations
     app.component("HeroSection", HeroSection)
-    // app.component('TextAd', TextAd)
   },
 }

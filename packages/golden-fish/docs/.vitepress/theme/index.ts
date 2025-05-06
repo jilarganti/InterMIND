@@ -8,7 +8,7 @@ const { ContactFormModalNav, NavButton, SearchInput } = components
 
 // Расширяем тему из shared и регистрируем компоненты
 export default {
-  ...sharedTheme,
+  ...sharedTheme, // It inherits everything from sharedTheme
   Layout() {
     return h(DefaultTheme.Layout, null, {
       // Для десктопов (в навбаре)
@@ -45,4 +45,5 @@ export default {
       },
     })
   },
+  // <<< NO enhanceApp function is defined here >>>
 }
