@@ -92,13 +92,13 @@ const renderedText = computed(() => renderMarkdown(props.text))
   }
 
   .hero-text {
-    font-size: 1rem;
+    font-size: 1.2rem;
     overflow-wrap: break-word;
   }
 
   .hero-actions {
     /* Add this rule for hero-actions */
-    margin-top: 2rem; /* Use fixed margin for smaller screens */
+    margin-top: 2.5rem; /* Use fixed margin for smaller screens */
   }
 }
 </style>

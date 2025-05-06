@@ -14,7 +14,7 @@ description: "Eliminate language barriers instantly with i14n's real-time video 
 
 <HeroSection
   title='Live **Interpretation** Video Meetings'
-  text="We don’t just translate — we comprehend, analyze, and act."
+  text="We don’t just translate — we comprehend, analyze, and **act**."
   :actions="[
     { theme: 'brand', text: 'What is i14n?', link: './guide/what-is-i14n' },
     { theme: 'alt', text: 'Use Cases', link: './guide/use-cases' }
