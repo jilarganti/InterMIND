@@ -57,8 +57,8 @@ onMounted(async () => {
     <p class="hero-text" v-html="displayedText"></p>
     <Transition name="fade-slide-up">
       <div v-if="actions && actions.length && showActions" class="hero-actions">
-        <!-- Use VPButton component -->
-        <VPButton v-for="(action, idx) in actions" :key="idx" :text="action.text" :href="action.link" :theme="action.theme" />
+        <!-- Use VPButton component с атрибутом custom для исключения предупреждений о эмитах -->
+        <VPButton v-for="(action, idx) in actions" :key="idx" :text="action.text" :href="action.link" :theme="action.theme" custom />
       </div>
     </Transition>
   </section>

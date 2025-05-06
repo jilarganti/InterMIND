@@ -16,12 +16,12 @@ const shouldPlayHeroAnimation = ref(initialAnimationState === undefined);
 
 <HeroSection
   title='Live **Interpretation** Video Meetings'
-  text="We don’t just translate — we comprehend, analyze, and **act**."
+  text="We don't just translate — we comprehend, analyze, and **act**."
   :actions="[
     { theme: 'brand', text: 'Sign in', link: './guide/what-is-i14n' },
     { theme: 'alt', text: 'Try for free', link: './guide/use-cases' }
   ]"
-  textDelay="500"
+  :textDelay="500"
   :playAnimation="shouldPlayHeroAnimation"
 />
 

@@ -1,20 +1,22 @@
 <script setup lang="ts">
 interface Props {
   href: string
-  text: string
-  class?: string
+  text?: string
+
   target?: string
   rel?: string
 }
 
-defineProps<Props>()
+const props = withDefaults(defineProps<Props>(), {
+  text: "",
+})
 </script>
 
 <template>
-  <a :href="href" class="themed-button light-only" :class="class" :target="target" :rel="rel">
+  <a :href="href" class="themed-button light-only" :target="target" :rel="rel">
     {{ text }}
   </a>
-  <a :href="href" class="themed-button dark-only" :class="class" :target="target" :rel="rel">
+  <a :href="href" class="themed-button dark-only" :target="target" :rel="rel">
     {{ text }}
   </a>
 </template>
