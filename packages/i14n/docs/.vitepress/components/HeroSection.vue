@@ -60,11 +60,11 @@ const renderedText = computed(() => renderMarkdown(props.text))
 }
 
 .hero-text {
-  font-size: calc(0.7rem + 0.8vw);
+  font-size: calc(0.6rem + 1.2vw);
   font-weight: 500;
   line-height: 1.5;
   color: var(--vp-c-text-2);
-  margin-top: 2rem;
+  margin-top: calc(1.5rem + 1.2vw);
 }
 
 .hero-actions {
@@ -72,7 +72,7 @@ const renderedText = computed(() => renderMarkdown(props.text))
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  margin-top: 3rem;
+  margin-top: calc(2rem + 1.2vw);
 }
 
 .hero-action {
