@@ -21,7 +21,7 @@ const shouldPlayHeroAnimation = ref(initialAnimationState === undefined);
     { theme: 'brand', text: 'What for?', link: './guide/what-is-i14n' },
     { theme: 'alt', text: 'Try for free', link: './guide/use-cases' }
   ]"
-  textDelay="3000"
+  textDelay="500"
   :playAnimation="shouldPlayHeroAnimation"
 />
 

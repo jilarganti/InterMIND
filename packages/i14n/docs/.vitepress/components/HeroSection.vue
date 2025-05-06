@@ -15,8 +15,8 @@ const props = defineProps({
   text: { type: String, required: true },
   actions: { type: Array as () => ActionItem[], default: () => [] },
   typingSpeed: { type: Number, default: 50 }, // Optional: speed in ms
-  textDelay: { type: Number, default: 200 }, // Optional: delay before text starts typing
-  playAnimation: { type: Boolean, default: true }, // New prop to control animation
+  textDelay: { type: Number, default: 200 }, // Optional: initial delay before animations start
+  playAnimation: { type: Boolean, default: true },
 })
 
 // Regex to find text enclosed in double asterisks
@@ -32,18 +32,21 @@ const showActions = ref(false)
 
 onMounted(async () => {
   if (props.playAnimation) {
-    // Check the new prop to decide whether to animate
-    await typewriter(styledTitle.value, displayedTitle, props.typingSpeed)
-    // Optional delay before starting to type the text
+    // Apply initial delay if textDelay is set
     if (props.textDelay > 0) {
       await new Promise((resolve) => setTimeout(resolve, props.textDelay))
     }
+
+    // Animate title
+    await typewriter(styledTitle.value, displayedTitle, props.typingSpeed)
+
+    // Animate text sequentially after title animation completes
     await typewriter(styledText.value, displayedText, props.typingSpeed)
   } else {
     displayedTitle.value = styledTitle.value // Show title immediately
     displayedText.value = styledText.value // Show text immediately
   }
-  showActions.value = true // Show actions after text is typed or set
+  showActions.value = true // Show actions after text is typed/set or animations complete
 })
 </script>
 
