@@ -37,11 +37,14 @@ onMounted(async () => {
 
     // Animate text sequentially after title animation completes
     await typewriter(styledText.value, displayedText, props.typingSpeed)
+    
+    // Show actions after text animation completes
+    showActions.value = true
   } else {
     displayedTitle.value = styledTitle.value // Show title immediately
     displayedText.value = styledText.value // Show text immediately
+    showActions.value = true // Show actions immediately too
   }
-  showActions.value = true // Show actions after text is typed/set or animations complete
 })
 </script>
 
@@ -50,7 +53,9 @@ onMounted(async () => {
     <!-- Use v-html to render the styled title -->
     <h1 class="hero-title" v-html="displayedTitle"></h1>
     <p class="hero-text" v-html="displayedText"></p>
-    <Transition name="fade-slide-up">
+    
+    <!-- Only apply transition when playAnimation is true -->
+    <Transition :name="props.playAnimation ? 'fade-slide-up' : ''">
       <div v-if="showActions && hasButtonSlot" class="hero-actions">
         <slot></slot>
       </div>
