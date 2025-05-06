@@ -3,6 +3,7 @@
 import { computed } from "vue"
 import { useData } from "vitepress"
 import { useLocalizedPath } from "../utils/locale"
+import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 
 interface Props {
   /**
@@ -11,25 +12,17 @@ interface Props {
   buttonLabel?: string
 
   /**
-   * Класс для кнопки
+   * Класс для кнопки (используется для определения темы: 'alt' или 'brand')
    */
-  buttonClass?: string
+  buttonClass?: "brand" | "alt" | "sponsor"
 
   /**
    * Ссылка для перехода
    */
   to: string
-
-  /**
-   * Стили для кнопки
-   */
-  buttonStyle?: string | Record<string, any>
 }
 
-const props = withDefaults(defineProps<Props>(), {
-  buttonClass: "",
-  buttonStyle: "",
-})
+const props = defineProps<Props>()
 
 const { navigateTo } = useLocalizedPath()
 const { site, frontmatter } = useData()
@@ -37,18 +30,12 @@ const { site, frontmatter } = useData()
 const hide = computed(() => frontmatter.value.hideComponents?.includes("NavButton"))
 const label = computed(() => props.buttonLabel || site.value.themeConfig.localization.buttonLabel4NavButton)
 
-// Вычисляемый класс с добавлением brand по умолчанию
-const computedClass = computed(() => {
-  // Базовый класс
-  const baseClass = "nav-button"
-
-  // Если класс не указан, используем brand
-  if (!props.buttonClass) {
-    return `${baseClass} brand`
+// Вычисляемая тема для VPButton
+const computedTheme = computed(() => {
+  if (props.buttonClass === "alt" || props.buttonClass === "sponsor" || props.buttonClass === "brand") {
+    return props.buttonClass
   }
-
-  // Иначе используем указанный класс
-  return `${baseClass} ${props.buttonClass}`
+  return "brand" // По умолчанию 'brand'
 })
 
 /**
@@ -60,58 +47,9 @@ const handleClick = (): void => {
 </script>
 
 <template>
-  <button v-if="!hide" :class="computedClass" :style="buttonStyle" @click="handleClick">
-    {{ label }}
-  </button>
+  <VPButton v-if="!hide" :text="label" :theme="computedTheme" @click="handleClick" />
 </template>
 
 <style scoped>
-.nav-button {
-  display: inline-block;
-  text-align: center;
-  white-space: nowrap;
-  transition:
-    color 0.25s,
-    border-color 0.25s,
-    background-color 0.25s;
-  border-radius: 20px;
-  padding: 0 20px;
-  line-height: 38px;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-  border: 1px solid transparent;
-}
-
-/* Стили кнопки по умолчанию */
-.nav-button.brand {
-  border-color: var(--vp-button-brand-border);
-  color: var(--vp-button-brand-text);
-  background-color: var(--vp-button-brand-bg);
-}
-
-.nav-button.brand:hover {
-  border-color: var(--vp-button-brand-hover-border);
-  color: var(--vp-button-brand-hover-text);
-  background-color: var(--vp-button-brand-hover-bg);
-}
-
-/* Альтернативный стиль кнопки */
-.nav-button.alt {
-  border-color: var(--vp-button-alt-border);
-  color: var(--vp-button-alt-text);
-  background-color: var(--vp-button-alt-bg);
-}
-
-.nav-button.alt:hover {
-  border-color: var(--vp-button-alt-hover-border);
-  color: var(--vp-button-alt-hover-text);
-  background-color: var(--vp-button-alt-hover-bg);
-}
-
-.nav-button.alt:hover {
-  border-color: var(--vp-button-alt-hover-border);
-  color: var(--vp-button-alt-hover-text);
-  background-color: var(--vp-button-alt-hover-bg);
-}
+/* Стили удалены, так как VPButton имеет свои собственные стили */
 </style>

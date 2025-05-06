@@ -23,7 +23,7 @@ export default {
       "nav-bar-content-after": () =>
         h("div", { class: "auth-buttons-container" }, [
           h(AuthButton, { text: "Sign in", buttonClass: "brand" }),
-          // h(NavButton, { text: "Ask AI", buttonClass: "alt", to: "/chat" }),
+          h(NavButton, { text: "Ask AI", buttonClass: "alt", to: "/chat" }),
         ]),
       // "home-hero-actions-after": () =>
       //   h("div", { class: "auth-buttons-container" }, [
