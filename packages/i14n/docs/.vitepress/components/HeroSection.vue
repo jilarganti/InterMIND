@@ -77,17 +77,22 @@ const renderedText = computed(() => renderMarkdown(props.text))
   margin-top: calc(2rem + 1.2vw);
 }
 
+/* Add this rule to remove underline from VPButtons within hero actions */
+.hero-actions :deep(.VPButton) {
+  text-decoration: none; /* Override default link styling */
+}
+
 @media (max-width: 640px) {
-  .hero-section {
-    margin: 2rem 0;
-  }
+  /* .hero-section {
+    margin: 0rem 0;
+  } */
 
   .hero-title {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .hero-text {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 </style>
