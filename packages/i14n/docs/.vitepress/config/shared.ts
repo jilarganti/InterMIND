@@ -5,7 +5,7 @@ import { gtmHead } from "./gtm.config"
 import llmstxt from "vitepress-plugin-llms"
 
 // Обновляем URL сайта документации
-const hostUrl = "https://i14n.com"
+const hostUrl = "https://intermind.com"
 const NOINDEX_PAGES = ["test", "chat"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
 // Список UTM-параметров для сохранения в параметрах страницы
@@ -21,7 +21,7 @@ const vercelUrl = process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL
 const baseUrl = vercelUrl ? `https://${vercelUrl}` : "http://localhost:3000"
 
 export const shared = defineConfig({
-  title: "i14n",
+  title: "intermind",
   // srcDir: "./docs",
   lastUpdated: true,
   cleanUrls: true,
@@ -111,7 +111,7 @@ export const shared = defineConfig({
   },
 
   head: [
-    // ["link", { rel: "icon", type: "image/avif", href: "/img/Logo.avif" }],
+    ["link", { rel: "icon", type: "image/avif", href: "/img/Logo.avif" }],
     ["meta", { name: "theme-color", content: "#5f67ee" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:site_name", content: "i14n" }],
