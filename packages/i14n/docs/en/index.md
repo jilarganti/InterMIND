@@ -6,16 +6,16 @@ description: "Eliminate language barriers instantly with i14n's real-time video 
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { manageSessionFlag } from '../../../shared/utils/sessionStorageHelper'
+import { manageSessionFlag } from '../../../../shared/utils/sessionStorageHelper'
 
 const initialAnimationState = manageSessionFlag("heroSectionAnimated", "true");
 const shouldPlayHeroAnimation = ref(initialAnimationState === undefined);
 </script>
 
-<HeroSection 
-  title="Live **Interpretation** Video Meetings" 
-  text="We don't just translate — we comprehend, analyze, and **act**." 
-  :playAnimation="shouldPlayHeroAnimation">
+<HeroSection
+title="Live **Interpretation** Video Meetings"
+text="Invest in strategy, not vocabulary. InterMind interprets while you **innovate**."
+:playAnimation="shouldPlayHeroAnimation">
 <NavButton to="./guide/what-is-i14n" buttonClass="brand" buttonLabel="Get Started" />
 <AuthButton text="Sign In" buttonClass="alt" />
 </HeroSection>
