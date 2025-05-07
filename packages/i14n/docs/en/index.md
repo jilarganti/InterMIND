@@ -14,9 +14,9 @@ const shouldPlayHeroAnimation = ref(initialAnimationState === undefined);
 
 <HeroSection
 title="Live **Interpretation** Video Meetings"
-text="Invest in strategy, not vocabulary. &nbsp; InterMind interprets while you innovate."
+text="**Invest in strategy, not vocabulary**. &nbsp; InterMind interprets while you innovate."
 :playAnimation="shouldPlayHeroAnimation">
-<NavButton to="./guide/what-is-i14n" buttonClass="brand" buttonLabel="Get Started" />
+<NavButton to="./guide/what-is-intermind" buttonClass="brand" buttonLabel="Get Started" />
 <AuthButton text="Sign In" buttonClass="alt" />
 </HeroSection>
 

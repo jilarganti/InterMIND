@@ -13,7 +13,7 @@ export const en = defineConfig({
       {
         text: "Giude",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "Introduction", link: `${BASE_PATH}/guide/what-is-i14n` }],
+        items: [{ text: "Introduction", link: `${BASE_PATH}/guide/what-is-intermind` }],
       },
       // {
       //   text: "Resources",
@@ -76,7 +76,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Introduction",
       collapsed: false,
       items: [
-        { text: "What is i14n?", link: "what-is-i14n" },
+        { text: "What is InterMind?", link: "what-is-intermind" },
         { text: "How it works", link: "how-it-works" },
         { text: "Use cases", link: "use-cases" },
       ],

@@ -15,7 +15,7 @@ const slots = useSlots()
 const hasButtonSlot = computed(() => !!slots.default)
 
 // Regex to find text enclosed in double asterisks
-const regex = /\*\*(.*?)\*\*/
+const regex = /\*\*(.*?)\*\*/g
 
 // Computed property to style the word(s) enclosed in ** **
 const styledTitle = computed(() => props.title.replace(regex, '<span class="highlighted-word">$1</span>'))
@@ -37,7 +37,7 @@ onMounted(async () => {
 
     // Animate text sequentially after title animation completes
     await typewriter(styledText.value, displayedText, props.typingSpeed)
-    
+
     // Show actions after text animation completes
     showActions.value = true
   } else {
@@ -53,7 +53,7 @@ onMounted(async () => {
     <!-- Use v-html to render the styled title -->
     <h1 class="hero-title" v-html="displayedTitle"></h1>
     <p class="hero-text" v-html="displayedText"></p>
-    
+
     <!-- Only apply transition when playAnimation is true -->
     <Transition :name="props.playAnimation ? 'fade-slide-up' : ''">
       <div v-if="showActions && hasButtonSlot" class="hero-actions">
@@ -80,20 +80,20 @@ onMounted(async () => {
   margin-top: 6rem;
 }
 
+.hero-text {
+  font-size: calc(1rem + 0.5vw);
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--vp-c-text-2);
+  margin-top: calc(1rem + 0.5vw);
+}
+
 .hero-title :deep(.highlighted-word) {
   background: var(--vp-home-hero-name-background);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-}
-
-.hero-text {
-  font-size: calc(0.6rem + 1.2vw);
-  font-weight: 500;
-  line-height: 1.5;
-  color: var(--vp-c-text-2);
-  margin-top: calc(1.5rem + 1.2vw);
 }
 
 .hero-actions {
