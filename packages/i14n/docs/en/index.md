@@ -32,8 +32,8 @@ text="It’s Not Just Interpreting. It’s Interpreting with a Mind."
     ],
   link: './guide/use-cases#instant-understanding',
   src: {
-    light: '/pic/BabelBreak.png',
-    dark: '/pic/BabelBreak.png',
+    light: 'Speak instantly across 132 languages.png',
+    dark: 'Speak instantly across 132 languages.png',
     width: '80%'
   },
   inversion: false
@@ -55,6 +55,44 @@ text="It’s Not Just Interpreting. It’s Interpreting with a Mind."
   },
   inversion: true
 }" />
+
+<FeatureBlock :card="{
+  title: 'Professional-Grade Video Meetings — Built In',
+  details: 'InterMind is a full-featured meeting platform — not just an add-on. It’s built to host high-impact conversations with clarity, control, and scale.',
+  items: [
+    '🎥 1080p video quality, adaptive noise cancellation, and clear voice prioritization.',
+    '📅 Scheduling, moderation, recording, and full calendar integration.',
+    '🖥️ Optimized for multilingual teams, hybrid panels, and large-scale events.'
+  ],
+  link: './guide/features#video-platform',
+  src: {
+    light: '/pic/ProMeetings.png',
+    dark: '/pic/ProMeetings.png',
+    width: '80%'
+  },
+  inversion: false
+}" />
+
+<FeatureBlock
+  :card="{
+    title: 'Secure & Confidential by Design',
+    details:
+      'InterMind protects every word at the source. Media streams stay encrypted and are **never** reused for AI training or shared with third parties.',
+    items: [
+      '🔒 Zero-data learning — streams live in volatile memory and auto-purge when the call ends.',
+      '🛡️ 256-bit WebRTC encryption with no server-side decryption step.',
+      '✋ User-controlled flow — if you skip interpretation, audio stays peer-to-peer on-device.',
+      '📜 GDPR, CCPA, and UAE PDPL-ready: export / deletion rights built in.'
+    ],
+    link: './guide/security',
+    src: {
+      light: '/pic/SecureMeetings.png',
+      dark: '/pic/SecureMeetings.png',
+      width: '80%'
+    },
+    inversion: true
+  }"
+/>
 
 ## Why Teams Choose InterMind
 

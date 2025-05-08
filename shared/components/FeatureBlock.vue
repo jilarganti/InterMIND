@@ -179,8 +179,12 @@ const renderedItems = computed(() => {
 }
 
 .usp-list-item {
-  /* margin-bottom: 8px; */
+  margin-bottom: 4px; /* Reduced from 8px to 4px */
   color: var(--vp-c-text-2);
+}
+
+.usp-list-item :deep(p) {
+  margin: 0; /* Ensure no extra margin from <p> tags */
 }
 
 .usp-list-item :deep(strong) {
