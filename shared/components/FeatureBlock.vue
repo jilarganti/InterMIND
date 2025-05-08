@@ -16,6 +16,7 @@ import { useLocalizedPath } from "../utils/locale" // Импортируем у�
  * @prop {string} [card.src.alt] - Альтернативный текст для изображения
  * @prop {string} [card.src.width] - Ширина изображения/видео
  * @prop {boolean} [card.inversion] - Инвертировать порядок текста и изображения
+ * @prop {string[]} [card.items] - Список элементов (поддерживает markdown)
  */
 const props = defineProps<{
   card: {
@@ -29,6 +30,7 @@ const props = defineProps<{
       width?: string
     }
     inversion?: boolean
+    items?: string[]
   }
 }>()
 
@@ -80,6 +82,11 @@ const renderedTitle = computed(() => {
   if (!props.card.title) return ""
   return renderMarkdown(props.card.title)
 })
+
+// Рендерим маркдаун в элементах списка
+const renderedItems = computed(() => {
+  return props.card.items?.map((item) => renderMarkdown(item)) || []
+})
 </script>
 
 <template>
@@ -88,6 +95,9 @@ const renderedTitle = computed(() => {
     <div class="content-container">
       <h3 v-if="card.title" class="usp-title" v-html="renderedTitle"></h3>
       <div v-if="card.details" class="usp-description" v-html="renderedDescription"></div>
+      <ul v-if="card.items" class="usp-list">
+        <li v-for="(item, index) in renderedItems" :key="index" class="usp-list-item" v-html="item"></li>
+      </ul>
       <slot name="content"></slot>
     </div>
 
@@ -160,6 +170,21 @@ const renderedTitle = computed(() => {
 
 .clickable:hover .media-content {
   border-color: var(--vp-hl-color);
+}
+
+.usp-list {
+  list-style: none;
+  /* padding: 0.5rem; */
+  /* margin: 0 0 8px; */
+}
+
+.usp-list-item {
+  /* margin-bottom: 8px; */
+  color: var(--vp-c-text-2);
+}
+
+.usp-list-item :deep(strong) {
+  color: var(--vp-hl-color);
 }
 
 @media (min-width: 768px) {

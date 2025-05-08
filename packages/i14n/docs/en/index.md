@@ -12,17 +12,24 @@ const initialAnimationState = manageSessionFlag("heroSectionAnimated", "true");
 const shouldPlayHeroAnimation = ref(initialAnimationState === undefined);
 </script>
 
+<!-- text="**Invest in strategy, not vocabulary**. &nbsp; InterMind interprets while you innovate." -->
+
 <HeroSection
 title="Live **Interpretation** Video Meetings"
-text="**Invest in strategy, not vocabulary**. &nbsp; InterMind interprets while you innovate."
+text="It’s Not Just Interpreting. It’s Interpreting with a Mind."
 :playAnimation="shouldPlayHeroAnimation">
 <NavButton to="./guide/what-is-intermind" buttonClass="brand" buttonLabel="Get Started" />
 <AuthButton text="Sign In" buttonClass="alt" />
 </HeroSection>
 
 <FeatureBlock :card="{
-  title: 'Your voice, their language, no waiting',
-  details: 'Express yourself naturally in your native language while everyone hears you in theirs. i14n preserves your tone, emotion, and meaning across any language—no awkward pauses, just fluid conversation.',
+  title: 'Speak instantly across 132 languages — with your own voice.',
+  details: 'InterMind enables every participant to speak their native language — naturally, in real time, and without subtitles or lag.',
+    items: [
+      '🎙️ Speak freely — be understood instantly.',
+      '🧠 AI-powered interpretation captures tone, intent, and industry-specific terminology.',
+      '🔄 Two-way, continuous, voice-to-voice interpretation with zero manual setup.',
+    ],
   link: './guide/use-cases#instant-understanding',
   src: {
     light: '/pic/BabelBreak.png',
@@ -33,37 +40,43 @@ text="**Invest in strategy, not vocabulary**. &nbsp; InterMind interprets while 
 }" />
 
 <FeatureBlock :card="{
-  title: 'Years of language study or one click?',
-  details: 'Replace years of language learning with a single button. Join meetings instantly with clients, partners, and colleagues worldwide without spending time and resources mastering foreign languages.',
-  link: './guide/use-cases#zero-learning-curve',
+  title: 'The ‘Mind’ Behind the Interpretation',
+  details: 'InterMind goes beyond live voice translation. It enriches conversations with real-time facts, context, emotional signals, and domain-specific guidance — transforming understanding into intelligent communication.',
+  items: [
+    '📎 Supplementary text: terms, definitions, links, and fact checks in real time.',
+    '🎥 Emotion-aware video overlays: tone indicators, sentiment signals, speaker confidence.',
+    '🧠 Unified context: interprets not just words but meaning, intent, and relevance.'
+  ],
+  link: './guide/use-cases#interpreting-with-a-mind',
   src: {
-    light: '/pic/LanguageStudy.png',
-    dark: '/pic/LanguageStudy.png',
+    light: '/pic/InterMindOverlay.png',
+    dark: '/pic/InterMindOverlay.png',
     width: '80%'
   },
   inversion: true
 }" />
 
-<FeatureBlock :card="{
-  title: 'Works With Everything',
-  details: 'Seamlessly integrates with Zoom, Teams, Webex, and more. No downloads or complex setups required—just instant access to global communication from the platforms you already use.',
-  link: './guide/use-cases#platform-compatibility',
-  src: {
-    light: '/pic/Integration.png',
-    dark: '/pic/Integration.png',
-    width: '80%'
-  },
-  inversion: false
-}" />
+## Why Teams Choose InterMind
 
-<FeatureBlock :card="{
-  title: 'Focus on ideas, not translation',
-  details: 'Eliminate preparation time and stress from international meetings. Express complex ideas confidently in your native language and be perfectly understood. Communication becomes natural again.',
-  link: './guide/use-cases#meeting-productivity',
-  src: {
-    light: '/pic/Ideas.png',
-    dark: '/pic/Ideas.png',
-    width: '80%'
+<BenefitsList :features="[
+  {
+    // icon: '🧠',
+    title: 'Understand Instantly — Speak Naturally',
+    text: 'Real-time AI interpretation with zero friction. Participants speak their **native language** and hear others as if they shared the same tongue — with tone, nuance, and emotional fidelity fully preserved.'
   },
-  inversion: true
-}" />
+  {
+    // icon: '🚀',
+    title: 'Communication That Outpaces Language Learning',
+    text: 'Skip the 2,000-hour journey to fluency. InterMind delivers **professional-grade multilingual communication** instantly — no training required.'
+  },
+  {
+    // icon: '🌐',
+    title: 'Speak Across 132 Languages — Without Thinking About It',
+    text: 'No language selection. No interpreter coordination. InterMind **detects, adapts, and interprets** automatically — as if the barrier never existed.'
+  },
+  // {
+  //   // icon: '🎯',
+  //   title: 'AI That Thinks in Context, Not in Phrases',
+  //   text: 'Enterprise-grade interpretation that understands context, speaker intent, and terminology — even in **legal, medical, or technical domains**.'
+  // }
+]" />
