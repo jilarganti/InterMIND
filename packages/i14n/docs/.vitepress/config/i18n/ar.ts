@@ -13,7 +13,7 @@ export const ar = defineConfig({
       {
         text: "الدليل",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "مقدمة", link: `${BASE_PATH}/guide/what-is-i14n` }],
+        items: [{ text: "مقدمة", link: `${BASE_PATH}/guide/what-is-intermind` }],
       },
     ],
 
@@ -67,7 +67,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "مقدمة",
       collapsed: false,
       items: [
-        { text: "ما هو i14n؟", link: "what-is-i14n" },
+        { text: "ما هو InterMind؟", link: "what-is-intermind" },
         { text: "كيف يعمل", link: "how-it-works" },
         { text: "حالات الاستخدام", link: "use-cases" },
       ],

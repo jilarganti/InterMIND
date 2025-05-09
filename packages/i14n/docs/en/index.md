@@ -13,10 +13,14 @@ const shouldPlayHeroAnimation = ref(initialAnimationState === undefined);
 </script>
 
 <!-- text="**Invest in strategy, not vocabulary**. &nbsp; InterMind interprets while you innovate." -->
+<!-- text="It’s Not Just Interpreting. It’s Interpreting with a Mind." -->
+<!-- text="Save Your Mind, Let AI Do The Interpreting" -->
+<!-- text="Why Train Your Mind When AI Can Interpret Everything?" -->
+<!-- text="The Human Mind: Wasted on Interpreting in the AI Era" -->
 
 <HeroSection
 title="Live **Interpretation** Video Meetings"
-text="It’s Not Just Interpreting. It’s Interpreting with a Mind."
+text="Classrooms take years; InterMind delivers real-time understanding today, in every language."
 :playAnimation="shouldPlayHeroAnimation">
 <NavButton to="./guide/what-is-intermind" buttonClass="brand" buttonLabel="Get Started" />
 <AuthButton text="Sign In" buttonClass="alt" />
@@ -32,8 +36,8 @@ text="It’s Not Just Interpreting. It’s Interpreting with a Mind."
     ],
   link: './guide/use-cases#instant-understanding',
   src: {
-    light: 'Speak instantly across 132 languages.png',
-    dark: 'Speak instantly across 132 languages.png',
+    light: 'Speak-instantly.png',
+    dark: 'Speak-instantly.png',
     width: '80%'
   },
   inversion: false

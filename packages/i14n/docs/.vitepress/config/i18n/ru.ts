@@ -13,7 +13,7 @@ export const ru = defineConfig({
       {
         text: "Руководство",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "Введение", link: `${BASE_PATH}/guide/what-is-i14n` }],
+        items: [{ text: "Введение", link: `${BASE_PATH}/guide/what-is-intermind` }],
       },
     ],
 
@@ -37,7 +37,7 @@ export const ru = defineConfig({
       email: "Email *",
       emailPlaceholder: "ваш email адрес",
       phone: "Телефон *",
-      phonePlaceholder: "например, +7 1234567890 или (7) 123 456-7890",
+      phonePlaceholder: "например, +1 1234567890 или (1) 123 456-7890",
       phoneError: "Пожалуйста, введите номер телефона",
       category: "Как мы можем помочь? *",
       categoryPlaceholder: "выберите тип услуги",
@@ -67,7 +67,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Введение",
       collapsed: false,
       items: [
-        { text: "Что такое i14n?", link: "what-is-i14n" },
+        { text: "Что такое InterMind?", link: "what-is-intermind" },
         { text: "Как это работает", link: "how-it-works" },
         { text: "Примеры использования", link: "use-cases" },
       ],

@@ -1,7 +1,7 @@
 {
   "files.exclude": {
     "LICENSE": true,
-    // "packages/golden-fish": true,
+    "packages/golden-fish": true,
     "**/.git": false
   },
   "search.exclude": {
