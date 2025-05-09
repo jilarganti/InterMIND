@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import { computed, ref, onMounted, useSlots } from "vue"
 import { typewriter } from "../../../../../shared/utils/animations"
+import { manageSessionFlag } from "../../../../../shared/utils/sessionStorageHelper"
 
 const props = defineProps({
   title: { type: String, required: true },
   text: { type: String, required: true },
   typingSpeed: { type: Number, default: 50 }, // Optional: speed in ms
   textDelay: { type: Number, default: 200 }, // Optional: initial delay before animations start
-  playAnimation: { type: Boolean, default: true },
 })
 
 // Check if default slot is provided to determine whether to show buttons
@@ -21,12 +21,16 @@ const regex = /\*\*(.*?)\*\*/g
 const styledTitle = computed(() => props.title.replace(regex, '<span class="highlighted-word">$1</span>'))
 const styledText = computed(() => props.text.replace(regex, '<span class="hl">$1</span>'))
 
+// Determine animation state internally
+const initialAnimationState = manageSessionFlag("heroSectionAnimated", "true")
+const shouldPlayHeroAnimation = ref(initialAnimationState === undefined)
+
 const displayedTitle = ref("")
 const displayedText = ref("")
 const showActions = ref(false)
 
 onMounted(async () => {
-  if (props.playAnimation) {
+  if (shouldPlayHeroAnimation.value) {
     // Apply initial delay if textDelay is set
     if (props.textDelay > 0) {
       await new Promise((resolve) => setTimeout(resolve, props.textDelay))
@@ -54,8 +58,8 @@ onMounted(async () => {
     <h1 class="hero-title" v-html="displayedTitle"></h1>
     <p class="hero-text" v-html="displayedText"></p>
 
-    <!-- Only apply transition when playAnimation is true -->
-    <Transition :name="props.playAnimation ? 'fade-slide-up' : ''">
+    <!-- Only apply transition when shouldPlayHeroAnimation is true -->
+    <Transition :name="shouldPlayHeroAnimation ? 'fade-slide-up' : ''">
       <div v-if="showActions && hasButtonSlot" class="hero-actions">
         <slot></slot>
       </div>

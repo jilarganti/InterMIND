@@ -4,14 +4,6 @@ title: "Real-Time Video Interpretation | Speak Your Language, Understand All | i
 description: "Eliminate language barriers instantly with i14n's real-time video interpretation. Join meetings in your native language while everyone understands perfectly. Why learn a new language when technology can bridge the gap?"
 ---
 
-<script setup lang="ts">
-import { ref } from 'vue'
-import { manageSessionFlag } from '../../../../shared/utils/sessionStorageHelper'
-
-const initialAnimationState = manageSessionFlag("heroSectionAnimated", "true");
-const shouldPlayHeroAnimation = ref(initialAnimationState === undefined);
-</script>
-
 <!-- text="**Invest in strategy, not vocabulary**. &nbsp; InterMind interprets while you innovate." -->
 <!-- text="It’s Not Just Interpreting. It’s Interpreting with a Mind." -->
 <!-- text="Save Your Mind, Let AI Do The Interpreting" -->
@@ -20,8 +12,7 @@ const shouldPlayHeroAnimation = ref(initialAnimationState === undefined);
 
 <HeroSection
 title="Live **Interpretation** Video Meetings"
-text="Classrooms take years; InterMind delivers real-time understanding today, in every language."
-:playAnimation="shouldPlayHeroAnimation">
+text="Classrooms take years; InterMind delivers real-time understanding today, in every language.">
 <NavButton to="./guide/what-is-intermind" buttonClass="brand" buttonLabel="Get Started" />
 <AuthButton text="Sign In" buttonClass="alt" />
 </HeroSection>
