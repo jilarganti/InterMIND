@@ -25,7 +25,7 @@ const styledText = computed(() => props.text.replace(regex, '<span class="hl">$1
 const initialAnimationState = manageSessionFlag("heroSectionAnimated", "true")
 const shouldPlayHeroAnimation = ref(initialAnimationState === undefined)
 
-const displayedTitle = ref("")
+const displayedTitle = ref(styledTitle.value) // Показывать title сразу, без анимации
 const displayedText = ref("")
 const showActions = ref(false)
 
@@ -36,16 +36,12 @@ onMounted(async () => {
       await new Promise((resolve) => setTimeout(resolve, props.textDelay))
     }
 
-    // Animate title
-    await typewriter(styledTitle.value, displayedTitle, props.typingSpeed)
-
-    // Animate text sequentially after title animation completes
+    // Animate only text
     await typewriter(styledText.value, displayedText, props.typingSpeed)
 
     // Show actions after text animation completes
     showActions.value = true
   } else {
-    displayedTitle.value = styledTitle.value // Show title immediately
     displayedText.value = styledText.value // Show text immediately
     showActions.value = true // Show actions immediately too
   }
