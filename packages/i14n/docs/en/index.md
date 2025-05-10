@@ -61,8 +61,8 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
   ],
   link: './guide/features#video-platform',
   src: {
-    light: '3.png',
-    dark: '3.png',
+    light: '3l.png',
+    dark: '3d.png',
     width: '80%'
   },
   inversion: false

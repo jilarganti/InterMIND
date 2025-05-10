@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description: "خدمات احترافية لتأسيس الشركات والدعم في الإمارات. حلول تأسيس الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات. نحول أحلام أعمالك إلى حقيقة!",
+  description: "خدمات احترافية لتأسيس الشركات والدعم في الإمارات. حلول إنشاء الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات. نحول أحلام أعمالك إلى حقيقة!",
   head: [
-    ["meta", { property: "og:title", content: "خدمات احترافية لتأسيس الشركات والدعم في الإمارات. حلول تأسيس الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات." }],
+    ["meta", { property: "og:title", content: "خدمات احترافية لتأسيس الشركات والدعم في الإمارات. حلول إنشاء الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات." }],
   ],
 
   themeConfig: {
@@ -37,7 +37,7 @@ export const ar = defineConfig({
       email: "البريد الإلكتروني *",
       emailPlaceholder: "عنوان بريدك الإلكتروني",
       phone: "الهاتف *",
-      phonePlaceholder: "مثال: ‎+1 1234567890 أو (1) 123 456-7890",
+      phonePlaceholder: "مثال: +1 1234567890 أو (1) 123 456-7890",
       phoneError: "يرجى إدخال رقم الهاتف",
       category: "كيف يمكننا مساعدتك؟ *",
       categoryPlaceholder: "اختر نوع الخدمة",
@@ -51,8 +51,8 @@ export const ar = defineConfig({
         "تأسيس شركة جديدة",
         "خطة التوسع (مثل فرع جديد أو امتياز)",
         "نقل مقر الشركة",
-        "التأشيرة الذهبية",
-        "خدمات التأشيرات فقط",
+        "Golden Visa",
+        "لأغراض التأشيرة فقط",
         "فتح حسابات مصرفية",
         "خدمات أخرى",
       ],
@@ -68,6 +68,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "ما هو InterMind؟", link: "what-is-intermind" },
+        { text: "هندسة الخصوصية المقسمة إقليمياً بواسطة InterMind", link: "privacy-architecture" },
         { text: "كيف يعمل", link: "how-it-works" },
         { text: "حالات الاستخدام", link: "use-cases" },
       ],
@@ -77,7 +78,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "عن الشركة", link: "/about" },
+    { text: "حول", link: "/about" },
     { text: "اتصل بنا", link: "/contacts" },
   ]
 }
