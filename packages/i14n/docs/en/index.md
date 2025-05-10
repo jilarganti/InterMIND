@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Real-Time Video Interpretation | Speak Your Language, Understand All | i14n"
+title: "Real-Time Video Interpretation | Speak Your Language, Understand All"
 description: "Eliminate language barriers instantly with i14n's real-time video interpretation. Join meetings in your native language while everyone understands perfectly. Why learn a new language when technology can bridge the gap?"
 ---
 
@@ -18,7 +18,7 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
 </HeroSection>
 
 <FeatureBlock :card="{
-  title: 'Speak instantly across 132 languages',
+  title: 'Speak Instantly in Over 100 Languages',
   details: 'InterMind enables every participant to speak their native language — naturally, in real time, and without subtitles or lag.',
     items: [
       '🎙️ Speak freely — be understood instantly.',

@@ -21,7 +21,7 @@ const vercelUrl = process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL
 const baseUrl = vercelUrl ? `https://${vercelUrl}` : "http://localhost:3000"
 
 export const shared = defineConfig({
-  title: "InterMind",
+  title: "InterMIND",
   // srcDir: "./docs",
   lastUpdated: true,
   cleanUrls: true,
@@ -114,7 +114,7 @@ export const shared = defineConfig({
     ["link", { rel: "icon", type: "image/svg+xml", href: "favicon.svg" }],
     ["meta", { name: "theme-color", content: "#5f67ee" }],
     ["meta", { property: "og:type", content: "website" }],
-    ["meta", { property: "og:site_name", content: "i14n" }],
+    ["meta", { property: "og:site_name", content: "InterMIND" }],
     ["meta", { property: "og:url", content: hostUrl }],
     ...gtmHead,
   ],

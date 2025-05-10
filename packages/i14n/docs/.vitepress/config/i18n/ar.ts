@@ -68,8 +68,8 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "ما هو InterMind؟", link: "what-is-intermind" },
-        { text: "هندسة الخصوصية المقسمة إقليمياً بواسطة InterMind", link: "privacy-architecture" },
         { text: "كيف يعمل", link: "how-it-works" },
+        { text: "هندسة الخصوصية المقسمة حسب المنطقة من InterMind", link: "privacy-architecture" },
         { text: "حالات الاستخدام", link: "use-cases" },
       ],
     },

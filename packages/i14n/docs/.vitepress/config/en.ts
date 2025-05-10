@@ -77,8 +77,8 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "What is InterMind?", link: "what-is-intermind" },
-        { text: "Region-Segmented Privacy Architecture by InterMind", link: "privacy-architecture" },
         { text: "How it works", link: "how-it-works" },
+        { text: "Region-Segmented Privacy Architecture by InterMind", link: "privacy-architecture" },
         { text: "Use cases", link: "use-cases" },
       ],
     },
