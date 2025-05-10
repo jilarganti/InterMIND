@@ -27,8 +27,8 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
     ],
   link: './guide/use-cases#instant-understanding',
   src: {
-    light: 'Speak-instantly.png',
-    dark: 'Speak-instantly.png',
+    light: '1.png',
+    dark: '1.png',
     width: '80%'
   },
   inversion: false
@@ -36,16 +36,16 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
 
 <FeatureBlock :card="{
   title: 'The ‘Mind’ Behind the Interpretation',
-  details: 'InterMind goes beyond live voice translation. It enriches conversations with real-time facts, context, emotional signals, and domain-specific guidance — transforming understanding into intelligent communication.',
+  details: 'InterMind turns every multilingual call into clear, searchable knowledge.',
   items: [
-    '📎 Supplementary text: terms, definitions, links, and fact checks in real time.',
-    '🎥 Emotion-aware video overlays: tone indicators, sentiment signals, speaker confidence.',
-    '🧠 Unified context: interprets not just words but meaning, intent, and relevance.'
+    '🔍 Instantly search any content across past and current meetings. Ask questions naturally, get precise answers without reviewing recordings.',
+    '✅ Never miss action items from any meeting. Our AI extracts tasks, owners and deadlines automatically from conversations.',
+    '📝 AI meeting summaries deliver key points instantly in any language, keeping everyone aligned without manual note-taking.',
   ],
-  link: './guide/use-cases#interpreting-with-a-mind',
+  link: './guide/use-cases#meeting-intelligence',
   src: {
-    light: '/pic/InterMindOverlay.png',
-    dark: '/pic/InterMindOverlay.png',
+    light: '2.png',
+    dark:  '3.png',
     width: '80%'
   },
   inversion: true
