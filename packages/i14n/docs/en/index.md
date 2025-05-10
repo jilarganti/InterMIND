@@ -18,7 +18,7 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
 </HeroSection>
 
 <FeatureBlock :card="{
-  title: 'Speak instantly across 132 languages — with your own voice.',
+  title: 'Speak instantly across 132 languages',
   details: 'InterMind enables every participant to speak their native language — naturally, in real time, and without subtitles or lag.',
     items: [
       '🎙️ Speak freely — be understood instantly.',
@@ -44,25 +44,25 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
   ],
   link: './guide/use-cases#meeting-intelligence',
   src: {
-    light: '2.png',
-    dark:  '3.png',
+    light: '2l.png',
+    dark:  '2d.png',
     width: '80%'
   },
   inversion: true
 }" />
 
 <FeatureBlock :card="{
-  title: 'Professional-Grade Video Meetings — Built In',
-  details: 'InterMind is a full-featured meeting platform — not just an add-on. It’s built to host high-impact conversations with clarity, control, and scale.',
+  title: 'Built for Serious Meetings — Not Just Talking',
+  details: 'InterMind is a professional-grade video meeting platform, not a lightweight add-on or plugin.',
   items: [
-    '🎥 1080p video quality, adaptive noise cancellation, and clear voice prioritization.',
-    '📅 Scheduling, moderation, recording, and full calendar integration.',
-    '🖥️ Optimized for multilingual teams, hybrid panels, and large-scale events.'
+    '🎙️ 1080p resolution, smart noise suppression, and focused voice pickup.',
+    '🗓 Scheduling, moderation, demos, recording, and full calendar integration — all built in, ready to go.',
+    '💬 Live transcripts, participant chat, and an AI assistant that keeps meetings productive.'
   ],
   link: './guide/features#video-platform',
   src: {
-    light: '/pic/ProMeetings.png',
-    dark: '/pic/ProMeetings.png',
+    light: '3.png',
+    dark: '3.png',
     width: '80%'
   },
   inversion: false
@@ -72,17 +72,16 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
   :card="{
     title: 'Secure & Confidential by Design',
     details:
-      'InterMind protects every word at the source. Media streams stay encrypted and are **never** reused for AI training or shared with third parties.',
+      'InterMind is built for conversations where trust matters. While we rely on best-in-class third-party infrastructure, **confidentiality is always in your hands**.',
     items: [
-      '🔒 Zero-data learning — streams live in volatile memory and auto-purge when the call ends.',
-      '🛡️ 256-bit WebRTC encryption with no server-side decryption step.',
-      '✋ User-controlled flow — if you skip interpretation, audio stays peer-to-peer on-device.',
-      '📜 GDPR, CCPA, and UAE PDPL-ready: export / deletion rights built in.'
+      '🌍 Region-based privacy — choose where your data is processed. We route all interpretation, storage, and analytics through infrastructure aligned with your compliance zone (e.g. EU, US, Asia).',
+      '🔒 Private by default — InterMind itself **never** stores or uses your content for training, profiling, or third-party access.',
+      '📜 Compliant by architecture — GDPR, CCPA, and UAE PDPL-ready, with full support for export and deletion rights.'
     ],
     link: './guide/security',
     src: {
-      light: '/pic/SecureMeetings.png',
-      dark: '/pic/SecureMeetings.png',
+      light: '4.png',
+      dark: '4.png',
       width: '80%'
     },
     inversion: true
