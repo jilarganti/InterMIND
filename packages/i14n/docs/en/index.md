@@ -4,17 +4,17 @@ title: "Real-Time Video Interpretation | Speak Your Language, Understand All"
 description: "Eliminate language barriers instantly with i14n's real-time video interpretation. Join meetings in your native language while everyone understands perfectly. Why learn a new language when technology can bridge the gap?"
 ---
 
-<!-- text="**Invest in strategy, not vocabulary**. &nbsp; InterMind interprets while you innovate." -->
-<!-- text="It’s Not Just Interpreting. It’s Interpreting with a Mind." -->
-<!-- text="Save Your Mind, Let AI Do The Interpreting" -->
+<!-- text="Focus on growth — let iMind handle the languages." -->
+<!-- text="Invest in growth, not translation headaches. iMind interprets while you innovate." -->
 <!-- text="Why Train Your Mind When AI Can Interpret Everything?" -->
 <!-- text="The Human Mind: Wasted on Interpreting in the AI Era" -->
+<!-- text="Classrooms take years; InterMind delivers real-time understanding today, in every language."> -->
 
 <HeroSection
 title="Live **Interpretation** Video Meetings"
-text="Classrooms take years; InterMind delivers real-time understanding today, in every language.">
+text="Focus on growth — let iMind handle the languages.">
 <AuthButton text="Live demo" buttonClass="brand"/>
-<NavButton to="./guide/what-is-intermind" buttonClass="alt" buttonLabel="Get Started" />
+<NavButton to="./guide/what-is-imind" buttonClass="alt" buttonLabel="ROI Calc" />
 </HeroSection>
 
 <FeatureBlock :card="{
@@ -25,7 +25,7 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
       '✧ AI-powered interpretation captures tone, intent, and industry-specific terminology.',
       '✧ Two-way, continuous, voice-to-voice interpretation with zero manual setup.',
     ],
-  link: './guide/use-cases#instant-understanding',
+  link: './guide/what-is-imind',
   src: {
     light: '1.png',
     dark: '1.png',
@@ -42,7 +42,7 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
     '✧ Never miss action items from any meeting. Our AI extracts tasks, owners and deadlines automatically from conversations.',
     '✧ AI meeting summaries deliver key points instantly in any language, keeping everyone aligned without manual note-taking.',
   ],
-  link: './guide/use-cases#meeting-intelligence',
+  link: '/guide/how-it-works#🧩-deep-memory-deep-understanding',
   src: {
     light: '2l.png',
     dark:  '2d.png',
@@ -59,7 +59,7 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
     '✧ Scheduling, moderation, demos, recording, and full calendar integration — all built in, ready to go.',
     '⚡︎ Live transcripts, participant chat, and an AI assistant that keeps meetings productive.'
   ],
-  link: './guide/features#video-platform',
+  link: '/guide/how-it-works',
   src: {
     light: '3l.png',
     dark: '3d.png',
@@ -78,7 +78,7 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
       '✧ Private by default — InterMind itself **never** stores or uses your content for training, profiling, or third-party access.',
       '✧ Compliant by architecture — GDPR, CCPA, and UAE PDPL-ready, with full support for export and deletion rights.'
     ],
-    link: './guide/security',
+    link: '/guide/privacy-architecture',
     src: {
       light: '4.png',
       dark: '4.png',

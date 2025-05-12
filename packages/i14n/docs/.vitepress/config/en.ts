@@ -13,7 +13,7 @@ export const en = defineConfig({
       {
         text: "Giude",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "Introduction", link: `${BASE_PATH}/guide/what-is-intermind` }],
+        items: [{ text: "Introduction", link: `${BASE_PATH}/guide/what-is-imind` }],
       },
       // {
       //   text: "Resources",
@@ -76,7 +76,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Introduction",
       collapsed: false,
       items: [
-        { text: "What is InterMind?", link: "what-is-intermind" },
+        { text: "What is iMind?", link: "what-is-imind" },
         { text: "How it works", link: "how-it-works" },
         { text: "Region-Segmented Privacy Architecture by InterMind", link: "privacy-architecture" },
         { text: "Use cases", link: "use-cases" },
