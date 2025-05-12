@@ -120,6 +120,6 @@ export const shared = defineConfig({
     ...gtmHead,
   ],
   themeConfig: {
-    // logo: { light: "/img/Logo.avif", dark: "/img/Logo.avif" },
+    logo: { light: "favicon.svg", dark: "favicon.svg" },
   },
 })

@@ -13,8 +13,8 @@ description: "Eliminate language barriers instantly with i14n's real-time video 
 <HeroSection
 title="Live **Interpretation** Video Meetings"
 text="Classrooms take years; InterMind delivers real-time understanding today, in every language.">
-<NavButton to="./guide/what-is-intermind" buttonClass="brand" buttonLabel="Get Started" />
-<AuthButton text="Sign In" buttonClass="alt" />
+<AuthButton text="Live demo" buttonClass="brand"/>
+<NavButton to="./guide/what-is-intermind" buttonClass="alt" buttonLabel="Get Started" />
 </HeroSection>
 
 <FeatureBlock :card="{

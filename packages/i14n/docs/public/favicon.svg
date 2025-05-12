@@ -1,8 +1,5 @@
-
-<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-  <!-- Длинная вертикальная черта (|) -->
-  <rect x="18" y="8" width="6" height="48" fill="black" />
-  <!-- Буква "i" — прямоугольник и точка -->
-  <rect x="34" y="28" width="6" height="28" fill="black" />
-  <circle cx="37" cy="18" r="4" fill="black" />
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <rect x="0" y="0" width="1024" height="1024" rx="200" fill="#bc694a"/>
+  <rect x="464" y="205" width="96" height="614.4" fill="#ffffff" transform="rotate(20 512 512)"/>
 </svg>

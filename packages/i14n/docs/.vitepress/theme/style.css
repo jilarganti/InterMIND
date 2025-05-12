@@ -110,7 +110,8 @@
  * -------------------------------------------------------------------------- */
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(0deg, #caa36f 0%, #b08c5c 50%, rgba(252, 176, 69, 1) 100%);
+  --vp-home-hero-name-background: -webkit-linear-gradient(0deg, #a45e40 0%, #bc694a 40%, #bc694a 60%, #d68f5f 100%);
+
   /* --vp-home-hero-name-color: transparent; */
   /* --vp-home-hero-name-background: -webkit-linear-gradient(0deg,
       rgb(16, 15, 16) 0%,
