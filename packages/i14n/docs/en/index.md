@@ -29,7 +29,7 @@ text="Focus on growth — let iMind handle the languages.">
   src: {
     light: '1.png',
     dark: '1.png',
-    width: '80%'
+    // width: '80%'
   },
   inversion: false
 }" />
@@ -46,7 +46,7 @@ text="Focus on growth — let iMind handle the languages.">
   src: {
     light: '2l.png',
     dark:  '2d.png',
-    width: '80%'
+    // width: '80%'
   },
   inversion: true
 }" />
@@ -63,7 +63,7 @@ text="Focus on growth — let iMind handle the languages.">
   src: {
     light: '3l.png',
     dark: '3d.png',
-    width: '80%'
+    // width: '80%'
   },
   inversion: false
 }" />
@@ -82,7 +82,7 @@ text="Focus on growth — let iMind handle the languages.">
     src: {
       light: '4.png',
       dark: '4.png',
-      width: '80%'
+      // width: '80%'
     },
     inversion: true
   }"

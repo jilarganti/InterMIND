@@ -121,6 +121,11 @@ const renderedItems = computed(() => {
   align-items: stretch;
 }
 
+/* Added for mobile layout: makes children of .content-container direct flex items of .usp-wrapper */
+.content-container {
+  display: contents;
+}
+
 .media-container.clickable {
   cursor: pointer;
 }
@@ -130,6 +135,7 @@ const renderedItems = computed(() => {
   font-weight: 600;
   margin: 0 0 16px;
   color: var(--vp-c-text-1);
+  order: 1; /* Added for mobile layout */
 }
 
 .usp-title :deep(p) {
@@ -145,6 +151,7 @@ const renderedItems = computed(() => {
   color: var(--vp-c-text-2);
   line-height: 1.6;
   margin-bottom: 16px;
+  order: 3; /* Added for mobile layout */
 }
 
 .usp-description :deep(p) {
@@ -153,6 +160,11 @@ const renderedItems = computed(() => {
 
 .usp-description :deep(strong) {
   color: var(--vp-hl-color);
+}
+
+/* Added for mobile layout: .media-container order */
+.media-container {
+  order: 2; /* Added for mobile layout */
 }
 
 .media-content {
@@ -176,6 +188,8 @@ const renderedItems = computed(() => {
   list-style: none;
   /* padding: 0.5rem; */
   /* margin: 0 0 8px; */
+  order: 4; /* Added for mobile layout */
+  margin-top: -24px; /* Counteract the 24px gap from .usp-wrapper on mobile */
 }
 
 .usp-list-item {
@@ -200,6 +214,7 @@ const renderedItems = computed(() => {
   }
 
   .content-container {
+    display: block; /* Added: Override display: contents for desktop */
     flex: 1 1 500px;
     max-width: 500px;
     padding: 0;
@@ -209,7 +224,7 @@ const renderedItems = computed(() => {
   .media-container {
     flex: 0 1 500px;
     padding: 0;
-    order: 1;
+    order: 1; /* This will override mobile order: 2 for desktop */
   }
 
   .usp-wrapper.inverted .content-container {
@@ -222,6 +237,18 @@ const renderedItems = computed(() => {
 
   .usp-title {
     font-size: 28px;
+    order: initial; /* Added: Reset mobile order for desktop */
+  }
+
+  /* Added: Reset mobile order for desktop */
+  .usp-description,
+  .usp-list {
+    order: initial;
+  }
+
+  .usp-list {
+    /* Reset negative margin for desktop */
+    margin-top: 0; /* Or specific value like 16px if needed, 0 relies on preceding element's margin-bottom */
   }
 }
 </style>
