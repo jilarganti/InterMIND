@@ -1,8 +1,10 @@
 # What is InterMind?
 
-**InterMind** is a video meeting platform with intelligent, [real-time simultaneous interpretation](https://en.wikipedia.org/wiki/Language_interpretation). It enables participants to speak their native language while instantly hearing others in theirs — preserving nuance, intent, and natural speech flow.
+**InterMind** is a video meeting platform with intelligent, real-time simultaneous interpretation[^1]. It enables participants to speak their native language while instantly hearing others in theirs — preserving nuance, intent, and natural speech flow.
 
 Unlike traditional translation tools, InterMind doesn't just convert words — it interprets meaning, adapts tone, and facilitates seamless multilingual dialogue as if the language barrier didn’t exist.
+
+[^1]: Interpreting is translation from a spoken or signed language into another language, usually in real time to facilitate live communication. [Wiki](https://en.wikipedia.org/wiki/Language_interpretation)
 
 ## Breaking Down the Concept
 
