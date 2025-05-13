@@ -6,7 +6,7 @@ import { useLocalizedPath } from "../utils/locale" // Импортируем у�
 const props = defineProps<{
   title: string
   details?: string
-  items: string[]
+  items?: string[]
   images?: {
     light: string
     dark: string
@@ -35,7 +35,7 @@ const renderedDetails = computed(() => {
 
 // Обработка маркдауна в элементах списка
 const renderedItems = computed(() => {
-  return props.items.map((item) => renderMarkdown(item))
+  return props.items?.map((item) => renderMarkdown(item)) || []
 })
 
 // Обработчик клика по карточке с использованием локализованного пути
@@ -68,7 +68,7 @@ const bulletStyle = computed(() => props.bullet || "•")
 
     <div v-if="details" class="feature-details" v-html="renderedDetails"></div>
 
-    <ul class="feature-list" :style="{ '--bullet-content': `'${bulletStyle}'` }">
+    <ul v-if="items && items.length > 0" class="feature-list" :style="{ '--bullet-content': `'${bulletStyle}'` }">
       <li v-for="(item, index) in renderedItems" :key="index" class="feature-item">
         <div class="feature-text" v-html="item"></div>
       </li>

@@ -17,7 +17,7 @@ text="Understand instantly — without learning foreign languages">
 
 <FeatureBlock :card="{
   title: 'Speak Instantly in Over 100 Languages',
-  details: 'iMind enables every participant to speak their native language — naturally, in real time, and without subtitles or lag.',
+  details: 'iMind enables every participant to speak their native language — naturally, in [real time](/guide/how-it-works), and **without subtitles** or lag.',
     items: [
       '⚡︎ Speak freely — be understood instantly.',
       '✧ AI-powered interpretation captures tone, intent, and industry-specific terminology.',
@@ -83,6 +83,11 @@ text="Understand instantly — without learning foreign languages">
 />
 
 ## Who Needs iMind?
+
+Business doesn't wait for translations.
+When accuracy, speed, and trust matter — iMind lets you speak your language and stay in control.
+
+> [!warning] For global teams, investors, partners, and suppliers — every conversation becomes effortless and immediate.
 
 <FeatureCards :features="[
   {
@@ -159,29 +164,43 @@ text="Understand instantly — without learning foreign languages">
   {
     title: 'Supply Chain Coordination',
     details: 'From factory to customer — coordinate with suppliers and logistics partners in their native language with zero friction.',
-    items: [],
     linkText: 'Learn more',
     link: '/guide/use-cases#supply-chain',
   },
     {
       title: 'Investor & Partner Pitches',
       details: 'Pitch confidently to global investors and strategic partners — no interpreters, no awkward pauses. You speak. iMind delivers.',
-      items: [],
       linkText: 'Discover more',
       link: '/guide/use-cases#investors',
     },
     {
       title: 'Exhibitions & Conferences',
       details: 'Maximize your impact at international expos. Present, network, and negotiate across language barriers without missing a beat.',
-      items: [],
       linkText: 'See live demo',
       link: '/guide/use-cases#conferences',
     },
     {
       title: 'Exhibitions & Conferences',
       details: 'Maximize your impact at international expos. Present, network, and negotiate across language barriers without missing a beat.',
-      items: [],
       linkText: 'See live demo',
       link: '/guide/use-cases#conferences',
+    },
+]" />
+
+<FeatureCards :features="[
+  {
+    title: 'Supply Chain Coordination',
+  },
+    {
+      title: 'Investor & Partner Pitches',
+    },
+    {
+      title: 'Exhibitions & Conferences',
+    },
+    {
+      title: 'Exhibitions & Conferences',
+    },
+    {
+      title: 'Exhibitions & [Conferences](/guide/use-cases#conferences)',
     },
 ]" />

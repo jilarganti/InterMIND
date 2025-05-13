@@ -10,9 +10,9 @@ interface ImageTheme {
 interface FeatureItem {
   title: string
   details?: string
-  items: string[]
-  linkText: string
-  link: string
+  items?: string[]
+  linkText?: string
+  link?: string
   icon?: ImageTheme
   bullet?: string
 }
