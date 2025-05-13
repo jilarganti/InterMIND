@@ -5,14 +5,12 @@ description: "Eliminate language barriers instantly with i14n's real-time video 
 ---
 
 <!-- text="Focus on growth — let iMind handle the languages." -->
-<!-- text="Invest in growth, not translation headaches. iMind interprets while you innovate." -->
-<!-- text="Why Train Your Mind When AI Can Interpret Everything?" -->
-<!-- text="The Human Mind: Wasted on Interpreting in the AI Era" -->
 <!-- text="Classrooms take years; InterMind delivers real-time understanding today, in every language."> -->
+<!-- text="Invest in growth, not translation headaches. iMind interprets while you innovate." -->
 
 <HeroSection
 title="Live **Interpretation** Video Meetings"
-text="Focus on growth — let iMind handle the languages.">
+text="Classrooms take years; InterMind delivers real-time understanding today, in every language.">
 <AuthButton text="Live demo" buttonClass="brand"/>
 <NavButton to="./guide/what-is-imind" buttonClass="alt" buttonLabel="ROI Calc" />
 </HeroSection>
@@ -72,7 +70,7 @@ text="Focus on growth — let iMind handle the languages.">
   :card="{
     title: 'Secure & Confidential by Design',
     details:
-      'InterMind is built for conversations where trust matters. While we rely on best-in-class third-party infrastructure, **confidentiality is always in your hands**.',
+      'InterMind is built for conversations where trust matters. While we rely on best-in-class third-party infrastructure, confidentiality is always in your hands.',
     items: [
       '⚡︎ Region-based privacy — choose where your data is processed. We route all interpretation, storage, and analytics through infrastructure aligned with your compliance zone (e.g. EU, US, Asia).',
       '✧ Private by default — InterMind itself **never** stores or uses your content for training, profiling, or third-party access.',
