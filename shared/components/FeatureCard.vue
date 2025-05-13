@@ -7,7 +7,7 @@ const props = defineProps<{
   title: string
   details?: string
   items: string[]
-  images: {
+  images?: {
     light: string
     dark: string
     alt?: string
@@ -20,8 +20,8 @@ const props = defineProps<{
 const { navigateTo } = useLocalizedPath()
 
 // Add video detection computed property
-const isVideoLight = computed(() => props.images.light?.toLowerCase().match(/\.(mp4|webm|ogg)$/))
-const isVideoDark = computed(() => props.images.dark?.toLowerCase().match(/\.(mp4|webm|ogg)$/))
+const isVideoLight = computed(() => props.images?.light?.toLowerCase().match(/\.(mp4|webm|ogg)$/))
+const isVideoDark = computed(() => props.images?.dark?.toLowerCase().match(/\.(mp4|webm|ogg)$/))
 
 // Обработка маркдауна в заголовке и описании
 const renderedTitle = computed(() => {
@@ -51,7 +51,7 @@ const bulletStyle = computed(() => props.bullet || "•")
 <template>
   <div class="feature-card">
     <!-- Light theme media - с обработчиком клика -->
-    <div class="media-container" :class="{ 'is-clickable': linkHref }" @click="linkHref && handleCardClick()">
+    <div v-if="images" class="media-container" :class="{ 'is-clickable': linkHref }" @click="linkHref && handleCardClick()">
       <video v-if="isVideoLight" autoplay muted playsinline class="feature-image light">
         <source :src="images.light" :type="`video/${images.light.split('.').pop()}`" />
       </video>

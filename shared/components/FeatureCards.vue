@@ -13,7 +13,7 @@ interface FeatureItem {
   items: string[]
   linkText: string
   link: string
-  icon: ImageTheme
+  icon?: ImageTheme
   bullet?: string
 }
 

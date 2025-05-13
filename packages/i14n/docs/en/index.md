@@ -10,9 +10,9 @@ description: "Eliminate language barriers instantly with i14n's real-time video 
 
 <HeroSection
 title="Live **Interpretation** Video Meetings"
-text="Classrooms take years; iMind delivers real-time understanding today, in every language.">
-<AuthButton text="Live demo" buttonClass="brand"/>
-<NavButton to="./guide/what-is-imind" buttonClass="alt" buttonLabel="/mind?" />
+text="Understand instantly — without learning foreign languages">
+<AuthButton text="Try Live Demo →" buttonClass="brand"/>
+<NavButton to="#who-needs-imind" buttonClass="alt" buttonLabel="Who Needs iMind?" />
 </HeroSection>
 
 <FeatureBlock :card="{
@@ -67,7 +67,7 @@ text="Classrooms take years; iMind delivers real-time understanding today, in ev
   :card="{
     title: 'Secure & Confidential by Design',
     details:
-      'iMind is built for conversations where trust matters. While we rely on best-in-class third-party infrastructure, confidentiality is always in your hands.',
+      'iMind is built for conversations where trust matters. While we rely on best-in-class third-party infrastructure, [confidentiality is always in your hands](/guide/privacy-architecture).',
     items: [
       '⚡︎ Region-based privacy — choose where your data is processed. We route all interpretation, storage, and analytics through infrastructure aligned with your compliance zone (e.g. EU, US, Asia).',
       '✧ Private by default — iMind itself **never** stores or uses your content for training, profiling, or third-party access.',
@@ -82,27 +82,85 @@ text="Classrooms take years; iMind delivers real-time understanding today, in ev
   }"
 />
 
-## Why Teams Choose iMind
+## Who Needs iMind?
 
-<BenefitsList :features="[
+<FeatureCards :features="[
   {
-    // icon: '🧠',
-    title: 'Understand Instantly — Speak Naturally',
-    text: 'Real-time AI interpretation with zero friction. Participants speak their **native language** and hear others as if they shared the same tongue — with tone, nuance, and emotional fidelity fully preserved.'
+    title: 'Cross-Border Negotiations',
+    details: 'Secure million-dollar deals without language barriers. iMind ensures every nuance is understood across the USA, China, Mexico, and Europe.',
+    items: [
+      'Avoid costly misunderstandings in high-stakes negotiations.',
+      'Communicate legal, financial, and technical terms with precision.',
+      'Eliminate the need for third-party interpreters during sensitive discussions.'
+    ],
+    linkText: 'See how it works',
+    link: '/guide/use-cases#negotiations',
+    icon: {
+      light: 'iStock-2186765808.mp4',
+      dark: 'iStock-2166377244.mp4',
+      alt: 'International Negotiations'
+    }
   },
   {
-    // icon: '🚀',
-    title: 'Communication That Outpaces Language Learning',
-    text: 'Skip the 2,000-hour journey to fluency. iMind delivers **professional-grade multilingual communication** instantly — no training required.'
-  },
+    title: 'Exhibitions & Conferences',
+    details: 'Maximize your impact at international expos. Present, network, and negotiate across language barriers without missing a beat.',
+    items: [
+      'Engage with a global audience without language limitations.',
+      'Deliver live presentations with native-language clarity.',
+      'Network effectively and seize more partnership opportunities.'
+    ],
+    linkText: 'See live demo',
+    link: '/guide/use-cases#conferences',
+    icon: {
+      light: '/img/conference-light.avif',
+      dark: '/img/conference-dark.avif',
+      alt: 'International Conferences'
+    }
+  }
+]" />
+
+<FeatureCards :features="[
   {
-    // icon: '🌐',
-    title: 'Speak Across 132 Languages — Without Thinking About It',
-    text: 'No language selection. No interpreter coordination. iMind **detects, adapts, and interprets** automatically — as if the barrier never existed.'
+    title: 'Supply Chain Coordination',
+    details: 'From factory to customer — coordinate with suppliers and logistics partners in their native language with zero friction.',
+    items: [
+      'Solve issues faster with real-time multilingual meetings.',
+      'Ensure clarity on specifications, timelines, and quality standards.',
+      'Reduce dependency on delayed written communication.'
+    ],
+    linkText: 'Learn more',
+    link: '/guide/use-cases#supply-chain',
+    icon: {
+      light: '/img/supply-chain-light.avif',
+      dark: '/img/supply-chain-dark.avif',
+      alt: 'Supply Chain Communication'
+    }
   },
-  // {
-  //   // icon: '🎯',
-  //   title: 'AI That Thinks in Context, Not in Phrases',
-  //   text: 'Enterprise-grade interpretation that understands context, speaker intent, and terminology — even in **legal, medical, or technical domains**.'
-  // }
+    {
+      title: 'Investor & Partner Pitches',
+      details: 'Pitch confidently to global investors and strategic partners — no interpreters, no awkward pauses. You speak. iMind delivers.',
+      items: [
+        'Build trust by speaking directly in every meeting.',
+        'Present your product with clarity and impact, regardless of language.',
+        'Maintain the flow of conversation without breaking engagement.'
+      ],
+      linkText: 'Discover more',
+      link: '/guide/use-cases#investors',
+      icon: {
+        light: '/img/investor-pitch-light.avif',
+        dark: '/img/investor-pitch-dark.avif',
+        alt: 'Investor Pitch'
+      }
+    },
+  {
+    title: 'Operational Team Alignment',
+    details: 'Align global teams with real-time voice-to-voice interpretation. Daily calls, technical briefings, and troubleshooting — in every language.',
+    items: [
+      'Improve team efficiency by eliminating language friction.',
+      'Ensure accurate knowledge transfer in technical discussions.',
+      'Foster a unified corporate culture across borders.'
+    ],
+    linkText: 'Explore use cases',
+    link: '/guide/use-cases#operations',
+  }
 ]" />
