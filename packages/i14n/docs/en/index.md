@@ -96,25 +96,25 @@ text="Understand instantly — without learning foreign languages">
     linkText: 'See how it works',
     link: '/guide/use-cases#negotiations',
     icon: {
-      light: 'iStock-2186765808.mp4',
-      dark: 'iStock-2166377244.mp4',
+      light: '11.png',
+      dark: '11.png',
       alt: 'International Negotiations'
     }
   },
   {
-    title: 'Exhibitions & Conferences',
-    details: 'Maximize your impact at international expos. Present, network, and negotiate across language barriers without missing a beat.',
+    title: 'Operational Team Alignment',
+    details: 'Align global teams with real-time voice-to-voice interpretation. Daily calls, technical briefings, and troubleshooting — in every language.',
     items: [
-      'Engage with a global audience without language limitations.',
-      'Deliver live presentations with native-language clarity.',
-      'Network effectively and seize more partnership opportunities.'
+      'Improve team efficiency by eliminating language friction.',
+      'Ensure accurate knowledge transfer in technical discussions.',
+      'Foster a unified corporate culture across borders.'
     ],
-    linkText: 'See live demo',
-    link: '/guide/use-cases#conferences',
-    icon: {
-      light: '/img/conference-light.avif',
-      dark: '/img/conference-dark.avif',
-      alt: 'International Conferences'
+    linkText: 'Explore use cases',
+    link: '/guide/use-cases#operations',
+        icon: {
+      light: '12.png',
+      dark: '12.png',
+      alt: 'International Negotiations'
     }
   }
 ]" />
@@ -130,11 +130,6 @@ text="Understand instantly — without learning foreign languages">
     ],
     linkText: 'Learn more',
     link: '/guide/use-cases#supply-chain',
-    icon: {
-      light: '/img/supply-chain-light.avif',
-      dark: '/img/supply-chain-dark.avif',
-      alt: 'Supply Chain Communication'
-    }
   },
     {
       title: 'Investor & Partner Pitches',
@@ -146,21 +141,47 @@ text="Understand instantly — without learning foreign languages">
       ],
       linkText: 'Discover more',
       link: '/guide/use-cases#investors',
-      icon: {
-        light: '/img/investor-pitch-light.avif',
-        dark: '/img/investor-pitch-dark.avif',
-        alt: 'Investor Pitch'
-      }
     },
+    {
+      title: 'Exhibitions & Conferences',
+      details: 'Maximize your impact at international expos. Present, network, and negotiate across language barriers without missing a beat.',
+      items: [
+        'Engage with a global audience without language limitations.',
+        'Deliver live presentations with native-language clarity.',
+        'Network effectively and seize more partnership opportunities.'
+      ],
+      linkText: 'See live demo',
+      link: '/guide/use-cases#conferences',
+    },
+]" />
+
+<FeatureCards :features="[
   {
-    title: 'Operational Team Alignment',
-    details: 'Align global teams with real-time voice-to-voice interpretation. Daily calls, technical briefings, and troubleshooting — in every language.',
-    items: [
-      'Improve team efficiency by eliminating language friction.',
-      'Ensure accurate knowledge transfer in technical discussions.',
-      'Foster a unified corporate culture across borders.'
-    ],
-    linkText: 'Explore use cases',
-    link: '/guide/use-cases#operations',
-  }
+    title: 'Supply Chain Coordination',
+    details: 'From factory to customer — coordinate with suppliers and logistics partners in their native language with zero friction.',
+    items: [],
+    linkText: 'Learn more',
+    link: '/guide/use-cases#supply-chain',
+  },
+    {
+      title: 'Investor & Partner Pitches',
+      details: 'Pitch confidently to global investors and strategic partners — no interpreters, no awkward pauses. You speak. iMind delivers.',
+      items: [],
+      linkText: 'Discover more',
+      link: '/guide/use-cases#investors',
+    },
+    {
+      title: 'Exhibitions & Conferences',
+      details: 'Maximize your impact at international expos. Present, network, and negotiate across language barriers without missing a beat.',
+      items: [],
+      linkText: 'See live demo',
+      link: '/guide/use-cases#conferences',
+    },
+    {
+      title: 'Exhibitions & Conferences',
+      details: 'Maximize your impact at international expos. Present, network, and negotiate across language barriers without missing a beat.',
+      items: [],
+      linkText: 'See live demo',
+      link: '/guide/use-cases#conferences',
+    },
 ]" />
