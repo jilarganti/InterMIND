@@ -5,19 +5,19 @@ description: "Eliminate language barriers instantly with i14n's real-time video 
 ---
 
 <!-- text="Focus on growth — let iMind handle the languages." -->
-<!-- text="Classrooms take years; InterMind delivers real-time understanding today, in every language."> -->
+<!-- text="Classrooms take years; iMind delivers real-time understanding today, in every language."> -->
 <!-- text="Invest in growth, not translation headaches. iMind interprets while you innovate." -->
 
 <HeroSection
 title="Live **Interpretation** Video Meetings"
-text="Classrooms take years; InterMind delivers real-time understanding today, in every language.">
+text="Classrooms take years; iMind delivers real-time understanding today, in every language.">
 <AuthButton text="Live demo" buttonClass="brand"/>
-<NavButton to="./guide/what-is-imind" buttonClass="alt" buttonLabel="ROI Calc" />
+<NavButton to="./guide/what-is-imind" buttonClass="alt" buttonLabel="/mind?" />
 </HeroSection>
 
 <FeatureBlock :card="{
   title: 'Speak Instantly in Over 100 Languages',
-  details: 'InterMind enables every participant to speak their native language — naturally, in real time, and without subtitles or lag.',
+  details: 'iMind enables every participant to speak their native language — naturally, in real time, and without subtitles or lag.',
     items: [
       '⚡︎ Speak freely — be understood instantly.',
       '✧ AI-powered interpretation captures tone, intent, and industry-specific terminology.',
@@ -27,14 +27,13 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
   src: {
     light: '1.png',
     dark: '1.png',
-    // width: '80%'
   },
   inversion: false
 }" />
 
 <FeatureBlock :card="{
-  title: 'The ‘Mind’ Behind the Interpretation',
-  details: 'InterMind turns every multilingual call into clear, searchable knowledge.',
+  title: 'The `Mind` Behind the Interpretation',
+  details: 'iMind turns every multilingual call into clear, searchable knowledge.',
   items: [
     '⚡︎ Instantly search any content across past and current meetings. Ask questions naturally, get precise answers without reviewing recordings.',
     '✧ Never miss action items from any meeting. Our AI extracts tasks, owners and deadlines automatically from conversations.',
@@ -43,15 +42,14 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
   link: '/guide/how-it-works#🧩-deep-memory-deep-understanding',
   src: {
     light: '2l.png',
-    dark:  '2d.png',
-    // width: '80%'
+    dark: '2d.png',
   },
   inversion: true
 }" />
 
 <FeatureBlock :card="{
   title: 'Built for Serious Meetings — Not Just Talking',
-  details: 'InterMind is a professional-grade video meeting platform, not a lightweight add-on or plugin.',
+  details: 'iMind is a professional-grade video meeting platform, not a lightweight add-on or plugin.',
   items: [
     '✧ 1080p resolution, smart noise suppression, and focused voice pickup.',
     '✧ Scheduling, moderation, demos, recording, and full calendar integration — all built in, ready to go.',
@@ -61,7 +59,6 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
   src: {
     light: '3l.png',
     dark: '3d.png',
-    // width: '80%'
   },
   inversion: false
 }" />
@@ -70,23 +67,22 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
   :card="{
     title: 'Secure & Confidential by Design',
     details:
-      'InterMind is built for conversations where trust matters. While we rely on best-in-class third-party infrastructure, confidentiality is always in your hands.',
+      'iMind is built for conversations where trust matters. While we rely on best-in-class third-party infrastructure, confidentiality is always in your hands.',
     items: [
       '⚡︎ Region-based privacy — choose where your data is processed. We route all interpretation, storage, and analytics through infrastructure aligned with your compliance zone (e.g. EU, US, Asia).',
-      '✧ Private by default — InterMind itself **never** stores or uses your content for training, profiling, or third-party access.',
+      '✧ Private by default — iMind itself **never** stores or uses your content for training, profiling, or third-party access.',
       '✧ Compliant by architecture — GDPR, CCPA, and UAE PDPL-ready, with full support for export and deletion rights.'
     ],
     link: '/guide/privacy-architecture',
     src: {
       light: '4.png',
       dark: '4.png',
-      // width: '80%'
     },
     inversion: true
   }"
 />
 
-## Why Teams Choose InterMind
+## Why Teams Choose iMind
 
 <BenefitsList :features="[
   {
@@ -97,12 +93,12 @@ text="Classrooms take years; InterMind delivers real-time understanding today, i
   {
     // icon: '🚀',
     title: 'Communication That Outpaces Language Learning',
-    text: 'Skip the 2,000-hour journey to fluency. InterMind delivers **professional-grade multilingual communication** instantly — no training required.'
+    text: 'Skip the 2,000-hour journey to fluency. iMind delivers **professional-grade multilingual communication** instantly — no training required.'
   },
   {
     // icon: '🌐',
     title: 'Speak Across 132 Languages — Without Thinking About It',
-    text: 'No language selection. No interpreter coordination. InterMind **detects, adapts, and interprets** automatically — as if the barrier never existed.'
+    text: 'No language selection. No interpreter coordination. iMind **detects, adapts, and interprets** automatically — as if the barrier never existed.'
   },
   // {
   //   // icon: '🎯',

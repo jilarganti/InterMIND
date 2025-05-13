@@ -13,7 +13,7 @@ export const ar = defineConfig({
       {
         text: "الدليل",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "مقدمة", link: `${BASE_PATH}/guide/what-is-intermind` }],
+        items: [{ text: "مقدمة", link: `${BASE_PATH}/guide/what-is-imind` }],
       },
     ],
 
@@ -22,7 +22,7 @@ export const ar = defineConfig({
     },
 
     footer: {
-      message: `© MindMeeting OÜ, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">إعدادات الخصوصية</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">سياسة الخصوصية</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">اللوائح القانونية لخدمات الذكاء الاصطناعي</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">إعدادات الخصوصية</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">سياسة الخصوصية</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">اللوائح القانونية لخدمات الذكاء الاصطناعي</a>`,
     },
 
     localization: {
@@ -51,8 +51,8 @@ export const ar = defineConfig({
         "تأسيس شركة جديدة",
         "خطة التوسع (مثل فرع جديد أو امتياز)",
         "نقل مقر الشركة",
-        "Golden Visa",
-        "لأغراض التأشيرة فقط",
+        "التأشيرة الذهبية",
+        "خدمات التأشيرات فقط",
         "فتح حسابات مصرفية",
         "خدمات أخرى",
       ],
@@ -67,7 +67,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "مقدمة",
       collapsed: false,
       items: [
-        { text: "ما هو InterMind؟", link: "what-is-intermind" },
+        { text: "ما هو iMind؟", link: "what-is-imind" },
         { text: "كيف يعمل", link: "how-it-works" },
         { text: "هندسة الخصوصية المقسمة حسب المنطقة من InterMind", link: "privacy-architecture" },
         { text: "حالات الاستخدام", link: "use-cases" },

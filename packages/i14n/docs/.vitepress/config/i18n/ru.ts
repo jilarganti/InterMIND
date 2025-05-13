@@ -13,7 +13,7 @@ export const ru = defineConfig({
       {
         text: "Руководство",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "Введение", link: `${BASE_PATH}/guide/what-is-intermind` }],
+        items: [{ text: "Введение", link: `${BASE_PATH}/guide/what-is-imind` }],
       },
     ],
 
@@ -22,7 +22,7 @@ export const ru = defineConfig({
     },
 
     footer: {
-      message: `© MindMeeting OÜ, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Правовые нормы для AI-сервисов</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Правовые нормы для AI-сервисов</a>`,
     },
 
     localization: {
@@ -42,7 +42,7 @@ export const ru = defineConfig({
       category: "Как мы можем помочь? *",
       categoryPlaceholder: "выберите тип услуги",
       message: "Обсудим ваши цели (необязательно)",
-      messagePlaceholder: "Пожалуйста, поделитесь деталями вашего запроса, чтобы мы могли подготовить лучшее решение для ваших потребностей",
+      messagePlaceholder: "Пожалуйста, поделитесь деталями вашего запроса, чтобы мы могли подготовить наилучшее решение для ваших потребностей",
       submit: "Отправить запрос",
       sending: "Отправка...",
       successTitle: "Спасибо!",
@@ -67,9 +67,9 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Введение",
       collapsed: false,
       items: [
-        { text: "Что такое InterMind?", link: "what-is-intermind" },
+        { text: "Что такое iMind?", link: "what-is-imind" },
         { text: "Как это работает", link: "how-it-works" },
-        { text: "Регионально-сегментированная архитектура конфиденциальности InterMind", link: "privacy-architecture" },
+        { text: "Региональная архитектура конфиденциальности InterMind", link: "privacy-architecture" },
         { text: "Примеры использования", link: "use-cases" },
       ],
     },
