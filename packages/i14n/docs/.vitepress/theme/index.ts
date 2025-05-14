@@ -7,7 +7,7 @@ import "./style.css"
 import { components } from "shared"
 import sharedTheme from "shared"
 import AuthButton from "../components/AuthButton.vue"
-import HeroSection from "../components/HeroSection.vue"
+// import HeroSection from "../components/HeroSection.vue"
 
 const { ContactFormModalNav, NavButton, SearchInput, FeatureBlock } = components
 
@@ -40,7 +40,7 @@ export default {
     }
 
     // i14n-specific component registrations
-    app.component("HeroSection", HeroSection)
+    // app.component("HeroSection", HeroSection)
     app.component("AuthButton", AuthButton)
   },
 }

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, onMounted, useSlots } from "vue"
-import { typewriter } from "../../../../../shared/utils/animations"
-import { manageSessionFlag } from "../../../../../shared/utils/sessionStorageHelper"
+import { typewriter } from "../utils/animations"
+import { manageSessionFlag } from "../utils/sessionStorageHelper"
 
 const props = defineProps({
   title: { type: String, required: true },

@@ -10,6 +10,7 @@ import AIChat from "./AIChat/AIChat.vue"
 import FeatureBlock from "./FeatureBlock.vue"
 import NavButton from "./NavButton.vue"
 import SearchInput from "./AIChat/SearchInput.vue"
+import HeroSection from "./HeroSection.vue"
 
 interface Components {
   [key: string]: Component
@@ -26,4 +27,5 @@ export const components: Components = {
   FeatureBlock,
   NavButton,
   SearchInput,
+  HeroSection,
 }
