@@ -116,7 +116,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
     details: '**$14** per user per month',
     items: [
       'Improve team efficiency by eliminating language friction.',
-      'Ensure accurate knowledge transfer in technical discussions.',
+      'Ensure accurate knowledge **transfer** in technical discussions.',
       'Foster a unified corporate culture across borders.'
     ],
     linkText: 'Explore use cases',

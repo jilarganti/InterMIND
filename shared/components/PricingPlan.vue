@@ -55,7 +55,7 @@ const styledDetails = computed(() => props.details.replace(regex, '<span class="
 
 <style scoped>
 .pricing-plan {
-  /* background: var(--vp-c-bg-soft); */
+  background: var(--vp-c-bg-soft);
   /* border: 1px solid var(--vp-c-brand); */
   border-radius: 16px;
   padding: 32px 24px 24px 24px;
@@ -82,16 +82,25 @@ const styledDetails = computed(() => props.details.replace(regex, '<span class="
 }
 .plan-title {
   font-size: 1.5rem;
-  font-weight: 700;
+  /* font-weight: 700; */
   /* color: var(--vp-c-brand); */
   margin: 0 0 8px 0;
 }
-/* .plan-price {
-  font-size: 2rem;
-  font-weight: 600;
+.plan-price {
+  font-size: 1rem;
+  /* font-weight: 600; */
   color: var(--vp-c-text-1);
-  margin-bottom: 0;
-} */
+  /* margin-bottom: 0; */
+}
+
+.plan-price .highlighted-word {
+  background: var(--vp-home-hero-name-background);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
 .plan-features {
   list-style: none;
   padding: 0;
@@ -112,30 +121,5 @@ const styledDetails = computed(() => props.details.replace(regex, '<span class="
 }
 .feature-text :deep(strong) {
   color: var(--vp-hl-color);
-}
-.plan-link {
-  display: inline-block;
-  margin: 0 auto;
-  padding: 10px 28px;
-  background: var(--vp-c-brand);
-  color: #fff;
-  border-radius: 6px;
-  font-weight: 600;
-  font-size: 1rem;
-  text-align: center;
-  text-decoration: none;
-  transition: background 0.2s;
-}
-.plan-link:hover,
-.plan-link:focus {
-  background: var(--vp-hl-color);
-}
-
-.plan-price .highlighted-word {
-  background: var(--vp-home-hero-name-background);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
 }
 </style>
