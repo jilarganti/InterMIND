@@ -6,13 +6,13 @@ description: "Eliminate language barriers instantly with i14n's real-time video 
 
 <!-- text="Focus on growth — let iMind handle the languages." -->
 <!-- text="Classrooms take years; iMind delivers real-time understanding today, in every language."> -->
-<!-- text="Invest in growth, not translation headaches. iMind interprets while you innovate." -->
+<!-- text="Understand instantly — without learning foreign languages" -->
 
 <HeroSection
 title="Live **Interpretation** Video Meetings"
-text="Understand instantly — without learning foreign languages">
+text="For companies where **language barriers** mean lost deals, delays, and costly mistakes.">
 <AuthButton text="Try Live Demo →" buttonClass="brand"/>
-<NavButton to="#who-needs-imind" buttonClass="alt" buttonLabel="Who Needs iMind?" />
+<NavButton to="#who-needs-imind" buttonClass="alt" buttonLabel="Pricing" />
 </HeroSection>
 
 <FeatureBlock :card="{
@@ -32,7 +32,7 @@ text="Understand instantly — without learning foreign languages">
 }" />
 
 <FeatureBlock :card="{
-  title: 'The `Mind` Behind the Interpretation',
+  title: 'The **Mind Within** Your Meetings',
   details: 'iMind turns every multilingual call into clear, searchable knowledge.',
   items: [
     '⚡︎ Instantly search any content across past and current meetings. Ask questions naturally, get precise answers without reviewing recordings.',
@@ -82,17 +82,14 @@ text="Understand instantly — without learning foreign languages">
   }"
 />
 
-## Who Needs iMind?
+## Help your whole company work smarter
 
-Business doesn't wait for translations.
-When accuracy, speed, and trust matter — iMind lets you speak your language and stay in control.
-
-> [!warning] For global teams, investors, partners, and suppliers — every conversation becomes effortless and immediate.
+### With Granola, both teams and individuals can share knowledge more easily, keeping on top of the things that matter
 
 <FeatureCards :features="[
   {
-    title: 'Cross-Border Negotiations',
-    details: 'Secure million-dollar deals without language barriers. iMind ensures every nuance is understood across the USA, China, Mexico, and Europe.',
+    title: 'Free trial',
+    details: 'Free',
     items: [
       'Avoid costly misunderstandings in high-stakes negotiations.',
       'Communicate legal, financial, and technical terms with precision.',
@@ -100,15 +97,10 @@ When accuracy, speed, and trust matter — iMind lets you speak your language an
     ],
     linkText: 'See how it works',
     link: '/guide/use-cases#negotiations',
-    icon: {
-      light: '11.png',
-      dark: '11.png',
-      alt: 'International Negotiations'
-    }
   },
   {
-    title: 'Operational Team Alignment',
-    details: 'Align global teams with real-time voice-to-voice interpretation. Daily calls, technical briefings, and troubleshooting — in every language.',
+    title: 'Individual',
+    details: '**$18** per month',
     items: [
       'Improve team efficiency by eliminating language friction.',
       'Ensure accurate knowledge transfer in technical discussions.',
@@ -116,91 +108,16 @@ When accuracy, speed, and trust matter — iMind lets you speak your language an
     ],
     linkText: 'Explore use cases',
     link: '/guide/use-cases#operations',
-        icon: {
-      light: '12.png',
-      dark: '12.png',
-      alt: 'International Negotiations'
-    }
-  }
-]" />
-
-<FeatureCards :features="[
+  },
   {
-    title: 'Supply Chain Coordination',
-    details: 'From factory to customer — coordinate with suppliers and logistics partners in their native language with zero friction.',
+    title: 'Business',
+    details: '**$14** per user per month',
     items: [
-      'Solve issues faster with real-time multilingual meetings.',
-      'Ensure clarity on specifications, timelines, and quality standards.',
-      'Reduce dependency on delayed written communication.'
+      'Improve team efficiency by eliminating language friction.',
+      'Ensure accurate knowledge transfer in technical discussions.',
+      'Foster a unified corporate culture across borders.'
     ],
-    linkText: 'Learn more',
-    link: '/guide/use-cases#supply-chain',
-  },
-    {
-      title: 'Investor & Partner Pitches',
-      details: 'Pitch confidently to global investors and strategic partners — no interpreters, no awkward pauses. You speak. iMind delivers.',
-      items: [
-        'Build trust by speaking directly in every meeting.',
-        'Present your product with clarity and impact, regardless of language.',
-        'Maintain the flow of conversation without breaking engagement.'
-      ],
-      linkText: 'Discover more',
-      link: '/guide/use-cases#investors',
-    },
-    {
-      title: 'Exhibitions & Conferences',
-      details: 'Maximize your impact at international expos. Present, network, and negotiate across language barriers without missing a beat.',
-      items: [
-        'Engage with a global audience without language limitations.',
-        'Deliver live presentations with native-language clarity.',
-        'Network effectively and seize more partnership opportunities.'
-      ],
-      linkText: 'See live demo',
-      link: '/guide/use-cases#conferences',
-    },
-]" />
-
-<FeatureCards :features="[
-  {
-    title: 'Supply Chain Coordination',
-    details: 'From factory to customer — coordinate with suppliers and logistics partners in their native language with zero friction.',
-    linkText: 'Learn more',
-    link: '/guide/use-cases#supply-chain',
-  },
-    {
-      title: 'Investor & Partner Pitches',
-      details: 'Pitch confidently to global investors and strategic partners — no interpreters, no awkward pauses. You speak. iMind delivers.',
-      linkText: 'Discover more',
-      link: '/guide/use-cases#investors',
-    },
-    {
-      title: 'Exhibitions & Conferences',
-      details: 'Maximize your impact at international expos. Present, network, and negotiate across language barriers without missing a beat.',
-      linkText: 'See live demo',
-      link: '/guide/use-cases#conferences',
-    },
-    {
-      title: 'Exhibitions & Conferences',
-      details: 'Maximize your impact at international expos. Present, network, and negotiate across language barriers without missing a beat.',
-      linkText: 'See live demo',
-      link: '/guide/use-cases#conferences',
-    },
-]" />
-
-<FeatureCards :features="[
-  {
-    title: 'Supply Chain Coordination',
-  },
-    {
-      title: 'Investor & Partner Pitches',
-    },
-    {
-      title: 'Exhibitions & Conferences',
-    },
-    {
-      title: 'Exhibitions & Conferences',
-    },
-    {
-      title: 'Exhibitions & [Conferences](/guide/use-cases#conferences)',
-    },
+    linkText: 'Explore use cases',
+    link: '/guide/use-cases#operations',
+  }
 ]" />
