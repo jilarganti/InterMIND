@@ -27,8 +27,8 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
     ],
   link: './guide/what-is-imind',
   src: {
-    light: '1.png',
-    dark: '1.png',
+    light: '/1.png',
+    dark: '/1.png',
   },
   inversion: false
 }" />
@@ -45,8 +45,8 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   ],
   link: '/guide/how-it-works#🧩-deep-memory-deep-understanding',
   src: {
-    light: '2l.png',
-    dark: '2d.png',
+    light: '/2l.png',
+    dark: '/2d.png',
   },
   inversion: true
 }" />
@@ -63,8 +63,8 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   ],
   link: '/guide/how-it-works',
   src: {
-    light: '3l.png',
-    dark: '3d.png',
+    light: '/3l.png',
+    dark: '/3d.png',
   },
   inversion: false
 }" />
@@ -83,8 +83,8 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
     ],
     link: '/guide/privacy-architecture',
     src: {
-      light: '4.png',
-      dark: '4.png',
+      light: '/4.png',
+      dark: '/4.png',
     },
     inversion: true
   }"

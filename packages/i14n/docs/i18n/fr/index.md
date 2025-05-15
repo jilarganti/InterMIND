@@ -27,8 +27,8 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
     ],
   link: './guide/what-is-imind',
   src: {
-    light: '1.png',
-    dark: '1.png',
+    light: '/1.png',
+    dark: '/1.png',
   },
   inversion: false
 }" />
@@ -41,12 +41,12 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   items: [
     '⚡︎ Recherchez instantanément tout contenu dans les réunions passées et actuelles. Posez des questions naturellement, obtenez des réponses précises sans revoir les enregistrements.',
     '✧ Ne manquez jamais les tâches issues des réunions. Notre IA extrait automatiquement les tâches, les responsables et les délais des conversations.',
-    '✧ Les résumés de réunion par IA livrent les points clés instantanément dans n\'importe quelle langue, gardant tout le monde aligné sans prise de notes manuelle.',
+    '✧ Les résumés de réunion par IA fournissent les points clés instantanément dans n\'importe quelle langue, gardant tout le monde aligné sans prise de notes manuelle.',
   ],
   link: '/guide/how-it-works#🧩-deep-memory-deep-understanding',
   src: {
-    light: '2l.png',
-    dark: '2d.png',
+    light: '/2l.png',
+    dark: '/2d.png',
   },
   inversion: true
 }" />
@@ -55,7 +55,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
 
 <FeatureBlock :card="{
   title: 'Conçu pour les Réunions Professionnelles — Pas Juste pour Parler',
-  details: 'iMind est une plateforme de réunion vidéo de qualité professionnelle, pas un simple complément ou plugin.',
+  details: 'iMind est une plateforme de réunion vidéo de niveau professionnel, pas un simple module complémentaire ou plugin.',
   items: [
     '✧ Résolution 1080p, suppression intelligente du bruit et captation vocale ciblée.',
     '✧ Planification, modération, démonstrations, enregistrement et intégration complète du calendrier — tout est intégré, prêt à l\'emploi.',
@@ -63,8 +63,8 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   ],
   link: '/guide/how-it-works',
   src: {
-    light: '3l.png',
-    dark: '3d.png',
+    light: '/3l.png',
+    dark: '/3d.png',
   },
   inversion: false
 }" />
@@ -83,8 +83,8 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
     ],
     link: '/guide/privacy-architecture',
     src: {
-      light: '4.png',
-      dark: '4.png',
+      light: '/4.png',
+      dark: '/4.png',
     },
     inversion: true
   }"
