@@ -97,7 +97,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
     ],
     linkText: 'See how it works',
     link: '/guide/use-cases#negotiations',
-    bullet: '😀'
+    bullet: '✓'
   },
   {
     title: 'Individual',
@@ -109,7 +109,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
     ],
     linkText: 'Explore use cases',
     link: '/guide/use-cases#operations',
-    bullet: '😀'
+    bullet: '⚡︎'
   },
   {
     title: 'Business',
