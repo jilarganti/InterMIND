@@ -86,7 +86,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 
 ### With Granola, both teams and individuals can share knowledge more easily, keeping on top of the things that matter
 
-<FeatureCards :features="[
+<PricingPlans :plans="[
   {
     title: 'Free trial',
     details: 'Free',
@@ -97,6 +97,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
     ],
     linkText: 'See how it works',
     link: '/guide/use-cases#negotiations',
+    bullet: '😀'
   },
   {
     title: 'Individual',
@@ -108,6 +109,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
     ],
     linkText: 'Explore use cases',
     link: '/guide/use-cases#operations',
+    bullet: '😀'
   },
   {
     title: 'Business',
@@ -119,5 +121,6 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
     ],
     linkText: 'Explore use cases',
     link: '/guide/use-cases#operations',
+    bullet: '💰'
   }
 ]" />
