@@ -2,6 +2,7 @@
 import { computed } from "vue"
 import { renderMarkdown } from "../utils/markdown"
 import { useLocalizedPath } from "../utils/locale"
+import NavButton from "./NavButton.vue"
 
 const props = defineProps<{
   title: string
@@ -40,9 +41,7 @@ const handleCardClick = () => {
         <span class="feature-text" v-html="item"></span>
       </li>
     </ul>
-    <a v-if="linkHref" @click.prevent="handleCardClick" href="#" class="plan-link">
-      {{ linkText }}
-    </a>
+    <NavButton v-if="linkHref" :to="linkHref" :buttonLabel="linkText" buttonClass="brand" />
   </div>
 </template>
 
