@@ -89,14 +89,14 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 <PricingPlans :plans="[
   {
     title: 'Free trial',
-    details: 'Free',
+    details: '**Free**',
     items: [
       'Avoid costly misunderstandings in high-stakes negotiations.',
       'Communicate legal, financial, and technical terms with precision.',
       'Eliminate the need for third-party interpreters during sensitive discussions.'
     ],
     linkText: 'See how it works',
-    link: '/guide/use-cases#negotiations',
+    linkHref: '/guide/use-cases#negotiations',
     bullet: '✓'
   },
   {
@@ -108,7 +108,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
       'Foster a unified corporate culture across borders.'
     ],
     linkText: 'Explore use cases',
-    link: '/guide/use-cases#operations',
+    linkHref: '/guide/use-cases#operations',
     bullet: '⚡︎'
   },
   {
@@ -120,7 +120,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
       'Foster a unified corporate culture across borders.'
     ],
     linkText: 'Explore use cases',
-    link: '/guide/use-cases#operations',
+    linkHref: '/guide/use-cases#operations',
     bullet: '💰'
   }
 ]" />

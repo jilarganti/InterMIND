@@ -9,7 +9,7 @@ interface ImageTheme {
 
 interface PricingPlanItem {
   title: string
-  details?: string
+  details: string
   items?: string[]
   linkText?: string
   linkHref?: string

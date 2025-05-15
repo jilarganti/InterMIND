@@ -6,7 +6,7 @@ import NavButton from "./NavButton.vue"
 
 const props = defineProps<{
   title: string
-  details?: string
+  details: string
   items?: string[]
   images?: {
     light: string
@@ -18,37 +18,45 @@ const props = defineProps<{
   bullet?: string
 }>()
 
-const { navigateTo } = useLocalizedPath()
+// const { navigateTo } = useLocalizedPath()
 
-const renderedTitle = computed(() => renderMarkdown(props.title))
-const renderedDetails = computed(() => (props.details ? renderMarkdown(props.details) : ""))
+// const renderedTitle = computed(() => renderMarkdown(props.title))
+// const renderedDetails = computed(() => (props.details ? renderMarkdown(props.details) : ""))
 const renderedItems = computed(() => props.items?.map((item) => renderMarkdown(item)) || [])
 const bulletStyle = computed(() => props.bullet || "•")
 
-const handleCardClick = () => {
-  if (props.linkHref) navigateTo(props.linkHref)
-}
+// const handleCardClick = () => {
+//   if (props.linkHref) navigateTo(props.linkHref)
+// }
+
+// Regex to find text enclosed in double asterisks
+const regex = /\*\*(.*?)\*\*/g
+
+// Computed property to style the word(s) enclosed in ** **
+const styledTitle = computed(() => props.title.replace(regex, '<span class="hl">$1</span>'))
+const styledDetails = computed(() => props.details.replace(regex, '<span class="highlighted-word">$1</span>'))
+// const styledDetails = computed(() => props.details.replace(regex, '<span class="hl">$1</span>'))
 </script>
 
 <template>
-  <div class="pricing-plan" :class="{ 'is-clickable': linkHref }" @click="linkHref && handleCardClick()">
+  <div class="pricing-plan">
     <div class="plan-header">
-      <h3 class="plan-title" v-html="renderedTitle"></h3>
-      <div v-if="details" class="plan-price" v-html="renderedDetails"></div>
+      <h3 class="plan-title" v-html="styledTitle"></h3>
+      <div class="plan-price" v-html="styledDetails"></div>
     </div>
+    <NavButton v-if="linkHref" :to="linkHref" :buttonLabel="linkText" buttonClass="alt" />
     <ul v-if="items && items.length > 0" class="plan-features" :style="{ '--bullet-content': `'${bulletStyle}'` }">
       <li v-for="(item, index) in renderedItems" :key="index" class="plan-feature">
         <span class="feature-text" v-html="item"></span>
       </li>
     </ul>
-    <NavButton v-if="linkHref" :to="linkHref" :buttonLabel="linkText" buttonClass="brand" />
   </div>
 </template>
 
 <style scoped>
 .pricing-plan {
-  background: var(--vp-c-bg-soft);
-  border: 2px solid var(--vp-c-brand);
+  /* background: var(--vp-c-bg-soft); */
+  /* border: 1px solid var(--vp-c-brand); */
   border-radius: 16px;
   padding: 32px 24px 24px 24px;
   display: flex;
@@ -75,15 +83,15 @@ const handleCardClick = () => {
 .plan-title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--vp-c-brand);
+  /* color: var(--vp-c-brand); */
   margin: 0 0 8px 0;
 }
-.plan-price {
+/* .plan-price {
   font-size: 2rem;
   font-weight: 600;
   color: var(--vp-c-text-1);
   margin-bottom: 0;
-}
+} */
 .plan-features {
   list-style: none;
   padding: 0;
@@ -121,5 +129,13 @@ const handleCardClick = () => {
 .plan-link:hover,
 .plan-link:focus {
   background: var(--vp-hl-color);
+}
+
+.plan-price .highlighted-word {
+  background: var(--vp-home-hero-name-background);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 </style>
