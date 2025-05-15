@@ -77,14 +77,15 @@ const styledDetails = computed(() => props.details.replace(regex, '<span class="
   box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.08);
 }
 .plan-header {
-  margin-bottom: 20px;
-  text-align: center;
+  margin-bottom: 28px;
+  /* text-align: center; */
 }
 .plan-title {
   font-size: 1.5rem;
   /* font-weight: 700; */
   /* color: var(--vp-c-brand); */
   margin: 0 0 8px 0;
+  margin-bottom: 28px;
 }
 .plan-price {
   font-size: 1rem;
@@ -93,12 +94,10 @@ const styledDetails = computed(() => props.details.replace(regex, '<span class="
   /* margin-bottom: 0; */
 }
 
-.plan-price .highlighted-word {
-  background: var(--vp-home-hero-name-background);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
+::v-deep .highlighted-word {
+  color: var(--vp-hl-color);
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 .plan-features {

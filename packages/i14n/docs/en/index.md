@@ -91,11 +91,10 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
     title: 'Free trial',
     details: '**Free**',
     items: [
-      'Avoid costly misunderstandings in high-stakes negotiations.',
-      'Communicate legal, financial, and technical terms with precision.',
-      'Eliminate the need for third-party interpreters during sensitive discussions.'
+      '25 free meetings',
+      ''
     ],
-    linkText: 'See how it works',
+    linkText: 'Start a trial',
     linkHref: '/guide/use-cases#negotiations',
     bullet: '✓'
   },
