@@ -11,8 +11,8 @@ interface PricingPlanItem {
   title: string
   details: string
   items?: string[]
-  linkText?: string
-  linkHref?: string
+  linkText: string
+  linkHref: string
   images?: ImageTheme
   bullet?: string
 }

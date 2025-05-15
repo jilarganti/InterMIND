@@ -13,8 +13,8 @@ const props = defineProps<{
     dark: string
     alt?: string
   }
-  linkText?: string
-  linkHref?: string
+  linkText: string
+  linkHref: string
   bullet?: string
 }>()
 

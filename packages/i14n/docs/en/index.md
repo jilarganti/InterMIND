@@ -106,7 +106,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
       'Ensure accurate knowledge transfer in technical discussions.',
       'Foster a unified corporate culture across borders.'
     ],
-    linkText: 'Explore use cases',
+    linkText: 'Start a trial',
     linkHref: '/guide/use-cases#operations',
     bullet: '⚡︎'
   },
@@ -118,7 +118,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
       'Ensure accurate knowledge **transfer** in technical discussions.',
       'Foster a unified corporate culture across borders.'
     ],
-    linkText: 'Explore use cases',
+    linkText: 'Start a trial',
     linkHref: '/guide/use-cases#operations',
     bullet: '💰'
   }
