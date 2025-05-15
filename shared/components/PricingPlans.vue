@@ -14,6 +14,7 @@ interface PricingPlanItem {
   linkText: string
   linkHref: string
   images?: ImageTheme
+  buttonClass?: "brand" | "alt" | "sponsor"
   bullet?: string
 }
 
@@ -35,6 +36,7 @@ const columns = Math.min(props.plans.length, 3)
       :images="plan.images"
       :linkText="plan.linkText"
       :linkHref="plan.linkHref"
+      :buttonClass="plan.buttonClass"
       :bullet="plan.bullet"
     />
   </div>

@@ -12,8 +12,10 @@ description: "Eliminate language barriers instantly with i14n's real-time video 
 title="Live **Interpretation** Video Meetings"
 text="For companies where **language barriers** mean lost deals, delays, and costly mistakes.">
 <AuthButton text="Try Live Demo →" buttonClass="brand"/>
-<NavButton to="#who-needs-imind" buttonClass="alt" buttonLabel="Pricing" />
+<NavButton to="#pricing" buttonClass="alt" buttonLabel="Pricing" />
 </HeroSection>
+
+<span id="1"></span>
 
 <FeatureBlock :card="{
   title: 'Speak Instantly in Over 100 Languages',
@@ -31,6 +33,8 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   inversion: false
 }" />
 
+<span id="2"></span>
+
 <FeatureBlock :card="{
   title: 'The **Mind Within** Your Meetings',
   details: 'iMind turns every multilingual call into clear, searchable knowledge.',
@@ -47,6 +51,8 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   inversion: true
 }" />
 
+<span id="3"></span>
+
 <FeatureBlock :card="{
   title: 'Built for Serious Meetings — Not Just Talking',
   details: 'iMind is a professional-grade video meeting platform, not a lightweight add-on or plugin.',
@@ -62,6 +68,8 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   },
   inversion: false
 }" />
+
+<span id="4"></span>
 
 <FeatureBlock
   :card="{
@@ -82,41 +90,40 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   }"
 />
 
-## Help your whole company work smarter
-
-### With Granola, both teams and individuals can share knowledge more easily, keeping on top of the things that matter
+## Pricing
 
 <PricingPlans :plans="[
   {
-    title: 'Free trial',
-    details: '**Free**',
+    title: 'Business Starter',
+    details: '**$7** per user / month',
     items: [
-      '25 free meetings',
-      ''
+      'Speak Instantly in Over 100 Languages [ℹ️](#1)',
+      'Built for Serious Meetings — Not Just Talking [ℹ️](#3)',
     ],
     linkText: 'Start a trial',
     linkHref: '/guide/use-cases#negotiations',
-    bullet: '✓'
+    bullet: '💬'
   },
   {
-    title: 'Individual',
-    details: '**$18** per month',
+    title: 'Business Standard',
+    details: '**$14** per user / month',
     items: [
-      'Improve team efficiency by eliminating language friction.',
-      'Ensure accurate knowledge transfer in technical discussions.',
-      'Foster a unified corporate culture across borders.'
+      'Speak Instantly in Over 100 Languages [ℹ️](#1)',
+      'Built for Serious Meetings — Not Just Talking [ℹ️](#3)',
+      'The **Mind Within** Your Meetings [ℹ️](#2)',
     ],
     linkText: 'Start a trial',
     linkHref: '/guide/use-cases#operations',
     bullet: '⚡︎'
   },
   {
-    title: 'Business',
-    details: '**$14** per user per month',
+    title: 'Business Plus',
+    details: '**$22** per user / month',
     items: [
-      'Improve team efficiency by eliminating language friction.',
-      'Ensure accurate knowledge **transfer** in technical discussions.',
-      'Foster a unified corporate culture across borders.'
+      'Speak Instantly in Over 100 Languages [ℹ️](#1)',
+      'Built for Serious Meetings — Not Just Talking [ℹ️](#3)',
+      'The **Mind Within** Your Meetings [ℹ️](#2)',
+      'Region-Segmented Privacy Architecture [ℹ️](#4)'
     ],
     linkText: 'Start a trial',
     linkHref: '/guide/use-cases#operations',

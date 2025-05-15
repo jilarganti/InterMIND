@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { computed } from "vue"
 import { renderMarkdown } from "../utils/markdown"
-import { useLocalizedPath } from "../utils/locale"
 import NavButton from "./NavButton.vue"
 
 const props = defineProps<{
@@ -15,27 +14,18 @@ const props = defineProps<{
   }
   linkText: string
   linkHref: string
+  buttonClass?: "brand" | "alt" | "sponsor"
   bullet?: string
 }>()
 
-// const { navigateTo } = useLocalizedPath()
-
-// const renderedTitle = computed(() => renderMarkdown(props.title))
-// const renderedDetails = computed(() => (props.details ? renderMarkdown(props.details) : ""))
 const renderedItems = computed(() => props.items?.map((item) => renderMarkdown(item)) || [])
 const bulletStyle = computed(() => props.bullet || "•")
 
-// const handleCardClick = () => {
-//   if (props.linkHref) navigateTo(props.linkHref)
-// }
-
-// Regex to find text enclosed in double asterisks
 const regex = /\*\*(.*?)\*\*/g
 
 // Computed property to style the word(s) enclosed in ** **
 const styledTitle = computed(() => props.title.replace(regex, '<span class="hl">$1</span>'))
 const styledDetails = computed(() => props.details.replace(regex, '<span class="highlighted-word">$1</span>'))
-// const styledDetails = computed(() => props.details.replace(regex, '<span class="hl">$1</span>'))
 </script>
 
 <template>
@@ -44,7 +34,7 @@ const styledDetails = computed(() => props.details.replace(regex, '<span class="
       <h3 class="plan-title" v-html="styledTitle"></h3>
       <div class="plan-price" v-html="styledDetails"></div>
     </div>
-    <NavButton v-if="linkHref" :to="linkHref" :buttonLabel="linkText" buttonClass="alt" />
+    <NavButton v-if="linkHref" :to="linkHref" :buttonLabel="linkText" :buttonClass="buttonClass" />
     <ul v-if="items && items.length > 0" class="plan-features" :style="{ '--bullet-content': `'${bulletStyle}'` }">
       <li v-for="(item, index) in renderedItems" :key="index" class="plan-feature">
         <span class="feature-text" v-html="item"></span>
@@ -56,7 +46,6 @@ const styledDetails = computed(() => props.details.replace(regex, '<span class="
 <style scoped>
 .pricing-plan {
   background: var(--vp-c-bg-soft);
-  /* border: 1px solid var(--vp-c-brand); */
   border-radius: 16px;
   padding: 32px 24px 24px 24px;
   display: flex;
@@ -71,39 +60,35 @@ const styledDetails = computed(() => props.details.replace(regex, '<span class="
 .pricing-plan.is-clickable {
   cursor: pointer;
 }
-.pricing-plan:hover,
-.pricing-plan:focus-within {
-  border-color: var(--vp-hl-color);
-  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.08);
-}
+
 .plan-header {
   margin-bottom: 28px;
   /* text-align: center; */
 }
 .plan-title {
   font-size: 1.5rem;
-  /* font-weight: 700; */
-  /* color: var(--vp-c-brand); */
   margin: 0 0 8px 0;
   margin-bottom: 28px;
 }
 .plan-price {
   font-size: 1rem;
-  /* font-weight: 600; */
   color: var(--vp-c-text-1);
-  /* margin-bottom: 0; */
 }
 
-::v-deep .highlighted-word {
+:deep(.highlighted-word) {
   color: var(--vp-hl-color);
   font-weight: bold;
   font-size: 2rem;
 }
 
+/* Add this rule to remove underline from VPButtons within hero actions */
+:deep(.VPButton) {
+  text-decoration: none;
+}
+
 .plan-features {
   list-style: none;
   padding: 0;
-  margin: 0 0 24px 0;
 }
 .plan-feature {
   position: relative;
