@@ -131,10 +131,27 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   }
 ]" />
 
-# Многосекционная гармошка с анимацией
+## Take a look at our FAQs to learn more.
 
 <AccordionGroup :items="[
-  { q: 'Часто задаваемый вопрос 1', a: 'Ответ на вопрос 1' },
-  { q: 'Часто задаваемый вопрос 2', a: 'Ответ на вопрос 2' },
-  { q: 'Часто задаваемый вопрос 3', a: 'Ответ на вопрос 3' }
+  {
+    q: 'Can external participants join a call?',
+    a: 'Absolutely. For the no-cost version of Google Meet, participants can either sign in with a Google Account or be approved by the meeting organizer to join.<br><br>For Google Workspace customers, once you’ve created a meeting, you can invite anyone to join even if they don’t have a Google Account. Just share the link or meeting ID with all meeting participants.'
+  },
+  {
+    q: 'How much does Google Meet cost?',
+    a: 'Anyone with a Google Account can create a video meeting, invite up to 100 participants, and meet for up to 60 minutes per meeting at no cost. For mobile calls and 1:1s, there’s no time limit.<br><br>For longer, larger meetings or additional features such as international dial-in numbers, meeting recording, live streaming, and administrative controls, see plans and pricing for organizations or Google Workspace Individual.'
+  },
+  {
+    q: 'How do I access premium features?',
+    a: 'Premium features are available in our Google Workspace plans and in Google One Premium.'
+  },
+  {
+    q: 'Is the meeting content secure?',
+    a: 'Yes. All video and audio streams in Meet are encrypted. Users can join securely even when they\'re off site.'
+  },
+  {
+    q: 'Is a third-party service required for dial-in access?',
+    a: 'No. With Google Workspace’s Enterprise edition, you have the ability to include a phone number and PIN on each of your meetings with no other configuration required. Check the dial-in documentation for further details.'
+  }
 ]" />

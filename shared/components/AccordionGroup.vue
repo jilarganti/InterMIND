@@ -46,6 +46,7 @@ function toggle(index) {
   /* background: var(--vp-c-bg, #fff); */
   /* box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.03); */
   overflow: hidden;
+  margin-top: 2rem;
 }
 
 .accordion-item + .accordion-item {
@@ -58,13 +59,13 @@ function toggle(index) {
   width: 100%;
   text-align: left;
   padding: 1rem 2.2rem 1rem 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   cursor: pointer;
   outline: none;
   position: relative;
   color: var(--vp-c-text-1, #222);
-  transition: background 0.2s;
+  /* transition: background 0.2s; */
 }
 
 .accordion-header:hover,
