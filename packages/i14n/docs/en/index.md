@@ -136,7 +136,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 <AccordionGroup :items="[
   {
     q: 'Can external participants join a call?',
-    a: 'Absolutely. For the no-cost version of iMind, participants can either sign in with a Google Account or be approved by the meeting organizer to join.<br><br>For Google Workspace customers, once you’ve created a meeting, you can invite anyone to join even if they don’t have a Google Account. Just share the link or meeting ID with all meeting participants.'
+    a: '**Absolutely**. For the no-cost version of iMind, participants can either sign in with a Google Account or be approved by the meeting organizer to join.<br><br>For Google Workspace customers, once you’ve created a meeting, you can invite anyone to join even if they don’t have a Google Account. Just share the link or meeting ID with all meeting participants. [ℹ️](#2)'
   },
   {
     q: 'How much does iMind cost?',

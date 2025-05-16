@@ -1,18 +1,6 @@
-<template>
-  <div class="accordion-group">
-    <div v-for="(item, index) in items" :key="index" class="accordion-item">
-      <button class="accordion-header" @click="toggle(index)">
-        {{ item.q }}
-      </button>
-      <div class="accordion-content" v-show="openStates[index]">
-        <p v-html="item.a"></p>
-      </div>
-    </div>
-  </div>
-</template>
-
 <script setup>
-import { ref } from "vue"
+import { ref, computed } from "vue"
+import { renderMarkdown } from "../utils/markdown"
 
 const props = defineProps({
   items: {
@@ -24,14 +12,36 @@ const props = defineProps({
 
 const openStates = ref(props.items.map(() => false))
 
+// Рендерим маркдаун в элементах списка
+const renderedItems = computed(() => {
+  return (
+    props.items?.map((item) => ({
+      q: item.q,
+      a: renderMarkdown(item.a),
+    })) || []
+  )
+})
+
 function toggle(index) {
   openStates.value[index] = !openStates.value[index]
 }
 </script>
 
+<template>
+  <div class="accordion-group">
+    <div v-for="(item, index) in renderedItems" :key="index" class="accordion-item">
+      <button class="accordion-header" @click="toggle(index)">
+        {{ item.q }}
+      </button>
+      <div class="accordion-content" v-show="openStates[index]">
+        <p v-html="item.a"></p>
+      </div>
+    </div>
+  </div>
+</template>
+
 <style scoped>
 .accordion-group {
-  /* border-top: 1px solid #ddd; */
   margin-top: 2rem;
 }
 
@@ -40,12 +50,10 @@ function toggle(index) {
 }
 
 .accordion-header {
-  background: none;
-  border: none;
   width: 100%;
   text-align: left;
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   cursor: pointer;
   font-weight: 600;
   color: var(--vp-c-text-1);
@@ -59,16 +67,5 @@ function toggle(index) {
   padding: 0 1rem 1rem;
   color: var(--vp-c-text-2);
   font-size: 0.95rem;
-}
-@media (max-width: 600px) {
-  .accordion-header {
-    font-size: 0.98rem;
-    padding: 1rem 2rem 1rem 0.7rem;
-  }
-  .accordion-content {
-    font-size: 0.96rem;
-    padding-left: 0.7rem;
-    padding-right: 0.7rem;
-  }
 }
 </style>
