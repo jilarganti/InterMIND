@@ -9,6 +9,7 @@ interface ImageTheme {
 
 interface PricingPlanItem {
   title: string
+  price: string
   details: string
   items?: string[]
   linkText: string
@@ -31,6 +32,7 @@ const columns = Math.min(props.plans.length, 3)
       v-for="(plan, index) in plans"
       :key="index"
       :title="plan.title"
+      :price="plan.price"
       :details="plan.details"
       :items="plan.items"
       :images="plan.images"

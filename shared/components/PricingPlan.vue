@@ -5,6 +5,7 @@ import NavButton from "./NavButton.vue"
 
 const props = defineProps<{
   title: string
+  price: string
   details: string
   items?: string[]
   images?: {
@@ -25,6 +26,7 @@ const regex = /\*\*(.*?)\*\*/g
 
 // Computed property to style the word(s) enclosed in ** **
 const styledTitle = computed(() => props.title.replace(regex, '<span class="hl">$1</span>'))
+const styledPrice = computed(() => props.price.replace(regex, '<span class="highlighted-word">$1</span>'))
 const styledDetails = computed(() => props.details.replace(regex, '<span class="highlighted-word">$1</span>'))
 </script>
 
@@ -32,6 +34,7 @@ const styledDetails = computed(() => props.details.replace(regex, '<span class="
   <div class="pricing-plan">
     <div class="plan-header">
       <h3 class="plan-title" v-html="styledTitle"></h3>
+      <div class="plan-price" v-html="styledPrice"></div>
       <div class="plan-price" v-html="styledDetails"></div>
     </div>
     <NavButton v-if="linkHref" :to="linkHref" :buttonLabel="linkText" :buttonClass="buttonClass" />
@@ -51,15 +54,11 @@ const styledDetails = computed(() => props.details.replace(regex, '<span class="
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  transition:
-    box-shadow 0.2s,
-    border-color 0.2s;
-  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.04);
   position: relative;
 }
-.pricing-plan.is-clickable {
+/* .pricing-plan.is-clickable {
   cursor: pointer;
-}
+} */
 
 .plan-header {
   margin-bottom: 28px;

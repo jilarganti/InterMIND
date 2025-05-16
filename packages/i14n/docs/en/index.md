@@ -11,7 +11,7 @@ description: "Eliminate language barriers instantly with i14n's real-time video 
 <HeroSection
 title="Live **Interpretation** Video Meetings"
 text="For companies where **language barriers** mean lost deals, delays, and costly mistakes.">
-<AuthButton text="Try Live Demo →" buttonClass="brand"/>
+<AuthButton text="Try Live Demo" buttonClass="brand"/>
 <NavButton to="#pricing" buttonClass="alt" buttonLabel="Pricing" />
 </HeroSection>
 
@@ -95,7 +95,8 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 <PricingPlans :plans="[
   {
     title: 'Business Starter',
-    details: '**$7** per user / month , 1 year commitment',
+    price: '**$7** per user / month , 1 year commitment',
+    details: 'Or $8.40 per user / month, when billed monthly',
     items: [
       'Speak Instantly in Over 100 Languages [💬](#1)',
       'Built for Serious Meetings — Not Just Talking [💬](#3)',
@@ -105,7 +106,8 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   },
   {
     title: 'Business Standard',
-    details: '**$14** per user / month, 1 year commitment',
+    price: '**$14** per user / month, 1 year commitment',
+    details: 'Or $16.80 per user / month, when billed monthly',
     items: [
       'Speak Instantly in Over 100 Languages [💬](#1)',
       'Built for Serious Meetings — Not Just Talking [💬](#3)',
@@ -116,7 +118,8 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   },
   {
     title: 'Business Plus',
-    details: '**$22** per user / month, 1 year commitment',
+    price: '**$22** per user / month, 1 year commitment',
+    details: 'Or $16.80 per user / month, when billed monthly',
     items: [
       'Speak Instantly in Over 100 Languages [💬](#1)',
       'Built for Serious Meetings — Not Just Talking [💬](#3)',
