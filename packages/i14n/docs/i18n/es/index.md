@@ -130,3 +130,28 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
     bullet: '💰'
   }
 ]" />
+
+## Consulta nuestras preguntas frecuentes para saber más.
+
+<AccordionGroup :items="[
+  {
+    q: '¿Pueden unirse participantes externos a una llamada?',
+    a: 'Absolutamente. Para la versión gratuita de iMind, los participantes pueden iniciar sesión con una cuenta de Google o ser aprobados por el organizador de la reunión para unirse.<br><br>Para los clientes de Google Workspace, una vez que hayas creado una reunión, puedes invitar a cualquier persona a unirse incluso si no tiene una cuenta de Google. Simplemente comparte el enlace o el ID de la reunión con todos los participantes.'
+  },
+  {
+    q: '¿Cuánto cuesta iMind?',
+    a: 'Cualquier persona con una cuenta de Google puede crear una videollamada, invitar hasta 100 participantes y reunirse hasta 60 minutos por reunión sin costo. Para llamadas móviles y reuniones 1:1, no hay límite de tiempo.<br><br>Para reuniones más largas, con más participantes o funciones adicionales como números de marcación internacional, grabación de reuniones, transmisión en vivo y controles administrativos, consulta los planes y precios para organizaciones o Google Workspace Individual.'
+  },
+  {
+    q: '¿Cómo accedo a las funciones premium?',
+    a: 'Las funciones premium están disponibles en nuestros planes de Google Workspace y en Google One Premium.'
+  },
+  {
+    q: '¿Es seguro el contenido de la reunión?',
+    a: 'Sí. Todas las transmisiones de video y audio en Meet están cifradas. Los usuarios pueden unirse de forma segura incluso cuando están fuera de la oficina.'
+  },
+  {
+    q: '¿Se requiere un servicio de terceros para el acceso telefónico?',
+    a: 'No. Con la edición Enterprise de Google Workspace, tienes la capacidad de incluir un número de teléfono y PIN en cada una de tus reuniones sin necesidad de configuración adicional. Consulta la documentación de acceso telefónico para más detalles.'
+  }
+]" />

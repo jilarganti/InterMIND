@@ -95,7 +95,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
 <PricingPlans :plans="[
   {
     title: 'Business Starter',
-    details: '**7 €** par utilisateur / mois',
+    details: '**7$** par utilisateur / mois',
     items: [
       'Parlez instantanément dans plus de 100 langues [ℹ️](#1)',
       'Conçu pour les réunions professionnelles — Pas seulement pour discuter [ℹ️](#3)',
@@ -106,11 +106,11 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   },
   {
     title: 'Business Standard',
-    details: '**14 €** par utilisateur / mois',
+    details: '**14$** par utilisateur / mois',
     items: [
       'Parlez instantanément dans plus de 100 langues [ℹ️](#1)',
       'Conçu pour les réunions professionnelles — Pas seulement pour discuter [ℹ️](#3)',
-      'L\'**Intelligence Intégrée** dans vos réunions [ℹ️](#2)',
+      'L\'**Intelligence** au cœur de vos réunions [ℹ️](#2)',
     ],
     linkText: 'Commencer un essai',
     linkHref: '/guide/use-cases#operations',
@@ -118,15 +118,40 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   },
   {
     title: 'Business Plus',
-    details: '**22 €** par utilisateur / mois',
+    details: '**22$** par utilisateur / mois',
     items: [
       'Parlez instantanément dans plus de 100 langues [ℹ️](#1)',
       'Conçu pour les réunions professionnelles — Pas seulement pour discuter [ℹ️](#3)',
-      'L\'**Intelligence Intégrée** dans vos réunions [ℹ️](#2)',
+      'L\'**Intelligence** au cœur de vos réunions [ℹ️](#2)',
       'Architecture de confidentialité segmentée par région [ℹ️](#4)'
     ],
     linkText: 'Commencer un essai',
     linkHref: '/guide/use-cases#operations',
     bullet: '💰'
+  }
+]" />
+
+## Consultez notre FAQ pour en savoir plus.
+
+<AccordionGroup :items="[
+  {
+    q: 'Les participants externes peuvent-ils rejoindre un appel ?',
+    a: 'Absolument. Pour la version gratuite d\'iMind, les participants peuvent soit se connecter avec un compte Google, soit être approuvés par l\'organisateur de la réunion pour la rejoindre.<br><br>Pour les clients Google Workspace, une fois que vous avez créé une réunion, vous pouvez inviter n\'importe qui à la rejoindre, même s\'ils n\'ont pas de compte Google. Il suffit de partager le lien ou l\'identifiant de la réunion avec tous les participants.'
+  },
+  {
+    q: 'Combien coûte iMind ?',
+    a: 'Toute personne disposant d\'un compte Google peut créer une réunion vidéo, inviter jusqu\'à 100 participants et se réunir pendant 60 minutes maximum par réunion gratuitement. Pour les appels mobiles et les conversations en tête-à-tête, il n\'y a pas de limite de temps.<br><br>Pour des réunions plus longues, plus importantes ou des fonctionnalités supplémentaires telles que les numéros d\'appel internationaux, l\'enregistrement des réunions, la diffusion en direct et les contrôles administratifs, consultez les forfaits et les tarifs pour les organisations ou Google Workspace Individual.'
+  },
+  {
+    q: 'Comment accéder aux fonctionnalités premium ?',
+    a: 'Les fonctionnalités premium sont disponibles dans nos forfaits Google Workspace et dans Google One Premium.'
+  },
+  {
+    q: 'Le contenu de la réunion est-il sécurisé ?',
+    a: 'Oui. Tous les flux vidéo et audio dans Meet sont cryptés. Les utilisateurs peuvent rejoindre en toute sécurité même lorsqu\'ils sont hors site.'
+  },
+  {
+    q: 'Un service tiers est-il nécessaire pour l\'accès par téléphone ?',
+    a: 'Non. Avec l\'édition Enterprise de Google Workspace, vous avez la possibilité d\'inclure un numéro de téléphone et un code PIN sur chacune de vos réunions sans autre configuration requise. Consultez la documentation sur la numérotation pour plus de détails.'
   }
 ]" />
