@@ -112,7 +112,7 @@ export const shared = defineConfig({
   },
 
   head: [
-    ["link", { rel: "icon", type: "image/svg+xml", href: "favicon.svg" }],
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
     ["meta", { name: "theme-color", content: "#5f67ee" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:site_name", content: "InterMIND" }],
@@ -120,6 +120,6 @@ export const shared = defineConfig({
     ...gtmHead,
   ],
   themeConfig: {
-    logo: { light: "favicon.svg", dark: "favicon.svg" },
+    logo: { light: "/favicon.svg", dark: "/favicon.svg" },
   },
 })

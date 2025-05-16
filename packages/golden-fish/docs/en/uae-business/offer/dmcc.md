@@ -12,19 +12,55 @@ description: "End-to-end company formation in DMCC: license, office, visas, bank
 <HeroSection
 title="Business Registration in **DMCC** Free Zone"
 text="Turnkey solutions for trading, logistics, commodities, and international business operations">
-<NavButton to="#who-needs-imind" buttonClass="alt" buttonLabel="29000 AED/17 days - Order directly" />
-<NavButton to="#who-needs-imind" buttonClass="brand" buttonLabel="36555 AED/17 days - Order from expert" />
-<NavButton to="#who-needs-imind" buttonClass="alt" buttonLabel="42555 AED/17 days - Order from expert" />
+
 </HeroSection>
 
-<!-- DMCC (Dubai Multi Commodities Centre) is the leading free zone in Dubai for companies engaged in global trade, logistics, and commodity businesses. It’s the go-to choice for firms working with suppliers, distributors, and overseas markets.
+## Pricing
 
-> [!tip] Our services are tailored for:
->
-> - Trading companies (import/export)
-> - Logistics and supply chain operators
-> - Precious metals and commodities businesses
-> - IT companies with international clients -->
+<PricingPlans :plans="[
+  {
+    title: 'Order service directly at DMCC',
+    details: '**29 205** AED  **17** days',
+    items: [
+      'Direct access without intermediaries',
+      'No additional fees',
+      'No commissions'
+    ],
+    linkText: 'Order directly',
+    linkHref: '/guide/use-cases#negotiations',
+    bullet: '💬'
+  },
+  {
+    title: 'Choose our **Standard** plan for expert guidance',
+    details: '**36 555** AED  **17** days',
+    items: [
+      'Time-saving',
+      'Predictable outcomes',
+      'Personal expert assistance',
+      'Business-class transportation to service locations',
+      'Minimal involvement required'
+    ],
+    linkText: 'Order from expert',
+    linkHref: '/guide/use-cases#operations',
+    bullet: '⚡︎'
+  },
+  {
+    title: 'Opt for our **Premium** plan for **top-tier** expert guidance',
+    details: '**42 055** AED  **15** days',
+    items: [
+      'VIP airport reception for one person',
+      'Premium-class airport-hotel-airport transfers',
+      'Expedited VIP procedures',
+      'Guaranteed results',
+      'Personal expert available 24/7',
+      'Premium-class transportation to service locations',
+      'Minimal involvement required'
+    ],
+    linkText: 'Order from expert',
+    linkHref: '/guide/use-cases#operations',
+    bullet: '💰'
+  }
+]" />
 
 ## Your Opportunities with DMCC
 
