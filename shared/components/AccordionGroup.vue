@@ -33,12 +33,14 @@ function toggle(index) {
       <button class="accordion-header" @click="toggle(index)">
         <span>{{ item.q }}</span>
         <span class="accordion-emoji">
-          {{ openStates[index] ? "➖" : "➕" }}
+          {{ openStates[index] ? "↑" : "↓" }}
         </span>
       </button>
-      <div class="accordion-content" v-show="openStates[index]">
-        <p v-html="item.a"></p>
-      </div>
+      <transition name="fade">
+        <div class="accordion-content" v-show="openStates[index]">
+          <p v-html="item.a"></p>
+        </div>
+      </transition>
     </div>
   </div>
 </template>
@@ -71,12 +73,24 @@ function toggle(index) {
 
 .accordion-emoji {
   margin-left: 0.5em;
-  /* font-size: 1em; */
 }
 
 .accordion-content {
   padding: 0 1rem 1rem;
   color: var(--vp-c-text-2);
   font-size: 0.95rem;
+}
+
+/* Fade transition */
+.fade-enter-active {
+  transition: opacity 0.5s;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+.fade-enter-to,
+.fade-leave-from {
+  opacity: 1;
 }
 </style>
