@@ -71,7 +71,7 @@ const styledDetails = computed(() => props.details.replace(regex, '<span class="
   margin-bottom: 28px;
 }
 .plan-price {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--vp-c-text-1);
 }
 

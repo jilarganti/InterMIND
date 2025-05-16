@@ -19,11 +19,11 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 
 <FeatureBlock :card="{
   title: 'Speak Instantly in Over 100 Languages',
-  details: 'iMind enables every participant to speak their native language — naturally, in [real time](/guide/how-it-works), and **without subtitles** or lag.',
+  details: 'iMind enables every participant to speak their native language — naturally, in [real time](/guide/how-it-works), and without subtitles or lag.',
     items: [
-      '⚡︎ Speak freely — be understood instantly.',
+      '✧ Speak freely — be understood instantly.',
       '✧ AI-powered interpretation captures tone, intent, and industry-specific terminology.',
-      '✧ Two-way, continuous, voice-to-voice interpretation with zero manual setup.',
+      '⚡︎ Two-way, continuous, **voice-to-voice interpretation** with zero manual setup.',
     ],
   link: './guide/what-is-imind',
   src: {
@@ -95,39 +95,36 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 <PricingPlans :plans="[
   {
     title: 'Business Starter',
-    details: '**$7** per user / month',
+    details: '**$7** per user / month , 1 year commitment',
     items: [
-      'Speak Instantly in Over 100 Languages [ℹ️](#1)',
-      'Built for Serious Meetings — Not Just Talking [ℹ️](#3)',
+      'Speak Instantly in Over 100 Languages [💬](#1)',
+      'Built for Serious Meetings — Not Just Talking [💬](#3)',
     ],
     linkText: 'Start a trial',
     linkHref: '/guide/use-cases#negotiations',
-    bullet: '💬'
   },
   {
     title: 'Business Standard',
-    details: '**$14** per user / month',
+    details: '**$14** per user / month, 1 year commitment',
     items: [
-      'Speak Instantly in Over 100 Languages [ℹ️](#1)',
-      'Built for Serious Meetings — Not Just Talking [ℹ️](#3)',
-      'The **Mind Within** Your Meetings [ℹ️](#2)',
+      'Speak Instantly in Over 100 Languages [💬](#1)',
+      'Built for Serious Meetings — Not Just Talking [💬](#3)',
+      'The Mind Within Your Meetings [💬](#2)',
     ],
     linkText: 'Start a trial',
     linkHref: '/guide/use-cases#operations',
-    bullet: '⚡︎'
   },
   {
     title: 'Business Plus',
-    details: '**$22** per user / month',
+    details: '**$22** per user / month, 1 year commitment',
     items: [
-      'Speak Instantly in Over 100 Languages [ℹ️](#1)',
-      'Built for Serious Meetings — Not Just Talking [ℹ️](#3)',
-      'The **Mind Within** Your Meetings [ℹ️](#2)',
-      'Region-Segmented Privacy Architecture [ℹ️](#4)'
+      'Speak Instantly in Over 100 Languages [💬](#1)',
+      'Built for Serious Meetings — Not Just Talking [💬](#3)',
+      'The Mind Within Your Meetings [💬](#2)',
+      'Region-Segmented Privacy Architecture [💬](#4)'
     ],
     linkText: 'Start a trial',
     linkHref: '/guide/use-cases#operations',
-    bullet: '💰'
   }
 ]" />
 
@@ -136,7 +133,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 <AccordionGroup :items="[
   {
     q: 'Can external participants join a call?',
-    a: '**Absolutely**. For the no-cost version of iMind, participants can either sign in with a Google Account or be approved by the meeting organizer to join.<br><br>For Google Workspace customers, once you’ve created a meeting, you can invite anyone to join even if they don’t have a Google Account. Just share the link or meeting ID with all meeting participants. [ℹ️](#2)'
+    a: '**Absolutely**. For the no-cost version of iMind, participants can either sign in with a Google Account or be approved by the meeting organizer to join.<br><br>For Google Workspace customers, once you’ve created a meeting, you can invite anyone to join even if they don’t have a Google Account. Just share the link or meeting ID with all meeting participants. [💬](#2)'
   },
   {
     q: 'How much does iMind cost?',
