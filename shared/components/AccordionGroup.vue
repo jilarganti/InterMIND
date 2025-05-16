@@ -31,7 +31,10 @@ function toggle(index) {
   <div class="accordion-group">
     <div v-for="(item, index) in renderedItems" :key="index" class="accordion-item">
       <button class="accordion-header" @click="toggle(index)">
-        {{ item.q }}
+        <span>{{ item.q }}</span>
+        <span class="accordion-emoji">
+          {{ openStates[index] ? "➖" : "➕" }}
+        </span>
       </button>
       <div class="accordion-content" v-show="openStates[index]">
         <p v-html="item.a"></p>
@@ -57,10 +60,18 @@ function toggle(index) {
   cursor: pointer;
   font-weight: 600;
   color: var(--vp-c-text-1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .accordion-header:hover {
   background: var(--vp-c-bg-alt);
+}
+
+.accordion-emoji {
+  margin-left: 0.5em;
+  /* font-size: 1em; */
 }
 
 .accordion-content {
