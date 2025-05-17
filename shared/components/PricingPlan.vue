@@ -5,8 +5,8 @@ import NavButton from "./NavButton.vue"
 
 const props = defineProps<{
   title: string
-  price: string
-  details: string
+  price?: string
+  details?: string
   items?: string[]
   images?: {
     light: string
@@ -26,16 +26,16 @@ const regex = /\*\*(.*?)\*\*/g
 
 // Computed property to style the word(s) enclosed in ** **
 const styledTitle = computed(() => props.title.replace(regex, '<span class="hl">$1</span>'))
-const styledPrice = computed(() => props.price.replace(regex, '<span class="highlighted-word">$1</span>'))
-const styledDetails = computed(() => props.details.replace(regex, '<span class="highlighted-word">$1</span>'))
+const styledPrice = computed(() => props.price?.replace(regex, '<span class="highlighted-word">$1</span>') ?? "")
+const styledDetails = computed(() => props.details?.replace(regex, '<span class="highlighted-word">$1</span>') ?? "")
 </script>
 
 <template>
   <div class="pricing-plan">
     <div class="plan-header">
       <h3 class="plan-title" v-html="styledTitle"></h3>
-      <div class="plan-price" v-html="styledPrice"></div>
-      <div class="plan-price" v-html="styledDetails"></div>
+      <div v-if="price" class="plan-price" v-html="styledPrice"></div>
+      <div v-if="details" class="plan-price" v-html="styledDetails"></div>
     </div>
     <NavButton v-if="linkHref" :to="linkHref" :buttonLabel="linkText" :buttonClass="buttonClass" />
     <ul v-if="items && items.length > 0" class="plan-features" :style="{ '--bullet-content': `'${bulletStyle}'` }">
