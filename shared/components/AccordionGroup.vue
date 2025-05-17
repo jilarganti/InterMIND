@@ -27,7 +27,7 @@ function toggle(index) {
         </span>
       </button>
       <transition name="fade">
-        <div class="accordion-content" v-show="openStates[index]">
+        <div class="accordion-content" v-if="openStates[index]">
           <p v-html="renderMarkdown(item.a)"></p>
         </div>
       </transition>
