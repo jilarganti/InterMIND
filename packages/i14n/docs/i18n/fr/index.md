@@ -11,7 +11,7 @@ description: "Éliminez instantanément les barrières linguistiques avec l'inte
 <HeroSection
 title="Réunions Vidéo avec **Interprétation** en Direct"
 text="Pour les entreprises où les **barrières linguistiques** signifient des opportunités manquées, des retards et des erreurs coûteuses.">
-<AuthButton text="Essayer la Démo en Direct →" buttonClass="brand"/>
+<AuthButton text="Essayer la Démo en Direct" buttonClass="brand"/>
 <NavButton to="#pricing" buttonClass="alt" buttonLabel="Tarifs" />
 </HeroSection>
 
@@ -19,11 +19,11 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
 
 <FeatureBlock :card="{
   title: 'Parlez Instantanément dans Plus de 100 Langues',
-  details: 'iMind permet à chaque participant de parler sa langue maternelle — naturellement, en [temps réel](/guide/how-it-works), et **sans sous-titres** ni décalage.',
+  details: 'iMind permet à chaque participant de parler sa langue maternelle — naturellement, en [temps réel](/guide/how-it-works), et sans sous-titres ni décalage.',
     items: [
-      '⚡︎ Parlez librement — soyez compris instantanément.',
+      '✧ Parlez librement — soyez compris instantanément.',
       '✧ L\'interprétation alimentée par l\'IA capture le ton, l\'intention et la terminologie spécifique à l\'industrie.',
-      '✧ Interprétation bidirectionnelle, continue, voix-à-voix sans configuration manuelle.',
+      '⚡︎ Interprétation **voix-à-voix** bidirectionnelle et continue sans configuration manuelle.',
     ],
   link: './guide/what-is-imind',
   src: {
@@ -55,7 +55,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
 
 <FeatureBlock :card="{
   title: 'Conçu pour les Réunions Professionnelles — Pas Juste pour Parler',
-  details: 'iMind est une plateforme de réunion vidéo de niveau professionnel, pas un simple module complémentaire ou plugin.',
+  details: 'iMind est une plateforme de réunion vidéo de qualité professionnelle, pas un simple module complémentaire ou plugin.',
   items: [
     '✧ Résolution 1080p, suppression intelligente du bruit et captation vocale ciblée.',
     '✧ Planification, modération, démonstrations, enregistrement et intégration complète du calendrier — tout est intégré, prêt à l\'emploi.',
@@ -95,52 +95,52 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
 <PricingPlans :plans="[
   {
     title: 'Business Starter',
-    details: '**7$** par utilisateur / mois',
+    price: '**7 €** par utilisateur / mois, engagement d\'un an',
+    details: 'Ou 8,40 € par utilisateur / mois, facturation mensuelle',
     items: [
-      'Parlez instantanément dans plus de 100 langues [ℹ️](#1)',
-      'Conçu pour les réunions professionnelles — Pas seulement pour discuter [ℹ️](#3)',
+      'Parlez instantanément dans plus de 100 langues [💬](#1)',
+      'Conçu pour les réunions professionnelles — Pas seulement pour discuter [💬](#3)',
     ],
     linkText: 'Commencer un essai',
     linkHref: '/guide/use-cases#negotiations',
-    bullet: '💬'
   },
   {
     title: 'Business Standard',
-    details: '**14$** par utilisateur / mois',
+    price: '**14 €** par utilisateur / mois, engagement d\'un an',
+    details: 'Ou 16,80 € par utilisateur / mois, facturation mensuelle',
     items: [
-      'Parlez instantanément dans plus de 100 langues [ℹ️](#1)',
-      'Conçu pour les réunions professionnelles — Pas seulement pour discuter [ℹ️](#3)',
-      'L\'**Intelligence** au cœur de vos réunions [ℹ️](#2)',
+      'Parlez instantanément dans plus de 100 langues [💬](#1)',
+      'Conçu pour les réunions professionnelles — Pas seulement pour discuter [💬](#3)',
+      'L\'Intelligence au cœur de vos réunions [💬](#2)',
     ],
     linkText: 'Commencer un essai',
     linkHref: '/guide/use-cases#operations',
-    bullet: '⚡︎'
   },
   {
     title: 'Business Plus',
-    details: '**22$** par utilisateur / mois',
+    price: '**22 €** par utilisateur / mois, engagement d\'un an',
+    details: 'Ou 16,80 € par utilisateur / mois, facturation mensuelle',
     items: [
-      'Parlez instantanément dans plus de 100 langues [ℹ️](#1)',
-      'Conçu pour les réunions professionnelles — Pas seulement pour discuter [ℹ️](#3)',
-      'L\'**Intelligence** au cœur de vos réunions [ℹ️](#2)',
-      'Architecture de confidentialité segmentée par région [ℹ️](#4)'
+      'Parlez instantanément dans plus de 100 langues [💬](#1)',
+      'Conçu pour les réunions professionnelles — Pas seulement pour discuter [💬](#3)',
+      'L\'Intelligence au cœur de vos réunions [💬](#2)',
+      'Architecture de confidentialité segmentée par région [💬](#4)'
     ],
     linkText: 'Commencer un essai',
     linkHref: '/guide/use-cases#operations',
-    bullet: '💰'
   }
 ]" />
 
-## Consultez notre FAQ pour en savoir plus.
+## Consultez nos FAQ pour en savoir plus.
 
 <AccordionGroup :items="[
   {
     q: 'Les participants externes peuvent-ils rejoindre un appel ?',
-    a: 'Absolument. Pour la version gratuite d\'iMind, les participants peuvent soit se connecter avec un compte Google, soit être approuvés par l\'organisateur de la réunion pour la rejoindre.<br><br>Pour les clients Google Workspace, une fois que vous avez créé une réunion, vous pouvez inviter n\'importe qui à la rejoindre, même s\'ils n\'ont pas de compte Google. Il suffit de partager le lien ou l\'identifiant de la réunion avec tous les participants.'
+    a: '**Absolument**. Pour la version gratuite d\'iMind, les participants peuvent soit se connecter avec un compte Google, soit être approuvés par l\'organisateur de la réunion pour la rejoindre.<br><br>Pour les clients Google Workspace, une fois que vous avez créé une réunion, vous pouvez inviter n\'importe qui à la rejoindre, même s\'ils n\'ont pas de compte Google. Il suffit de partager le lien ou l\'ID de la réunion avec tous les participants. [💬](#2)'
   },
   {
     q: 'Combien coûte iMind ?',
-    a: 'Toute personne disposant d\'un compte Google peut créer une réunion vidéo, inviter jusqu\'à 100 participants et se réunir pendant 60 minutes maximum par réunion gratuitement. Pour les appels mobiles et les conversations en tête-à-tête, il n\'y a pas de limite de temps.<br><br>Pour des réunions plus longues, plus importantes ou des fonctionnalités supplémentaires telles que les numéros d\'appel internationaux, l\'enregistrement des réunions, la diffusion en direct et les contrôles administratifs, consultez les forfaits et les tarifs pour les organisations ou Google Workspace Individual.'
+    a: 'Toute personne disposant d\'un compte Google peut créer une réunion vidéo, inviter jusqu\'à 100 participants et se réunir pendant 60 minutes maximum par réunion gratuitement. Pour les appels mobiles et les conversations en tête-à-tête, il n\'y a pas de limite de temps.<br><br>Pour des réunions plus longues, plus importantes ou des fonctionnalités supplémentaires telles que les numéros d\'appel internationaux, l\'enregistrement des réunions, la diffusion en direct et les contrôles administratifs, consultez les plans et tarifs pour les organisations ou Google Workspace Individual.'
   },
   {
     q: 'Comment accéder aux fonctionnalités premium ?',
@@ -152,6 +152,6 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   },
   {
     q: 'Un service tiers est-il nécessaire pour l\'accès par téléphone ?',
-    a: 'Non. Avec l\'édition Enterprise de Google Workspace, vous avez la possibilité d\'inclure un numéro de téléphone et un code PIN sur chacune de vos réunions sans autre configuration requise. Consultez la documentation sur la numérotation pour plus de détails.'
+    a: 'Non. Avec l\'édition Enterprise de Google Workspace, vous avez la possibilité d\'inclure un numéro de téléphone et un code PIN pour chacune de vos réunions sans autre configuration requise. Consultez la documentation sur la numérotation pour plus de détails.'
   }
 ]" />

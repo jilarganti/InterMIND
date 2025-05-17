@@ -11,7 +11,7 @@ description: "Elimine las barreras del idioma instantáneamente con la interpret
 <HeroSection
 title="Reuniones de Video con **Interpretación** en Vivo"
 text="Para empresas donde las **barreras del idioma** significan pérdida de negocios, retrasos y errores costosos.">
-<AuthButton text="Probar Demo en Vivo →" buttonClass="brand"/>
+<AuthButton text="Probar Demo en Vivo" buttonClass="brand"/>
 <NavButton to="#pricing" buttonClass="alt" buttonLabel="Precios" />
 </HeroSection>
 
@@ -19,11 +19,11 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
 
 <FeatureBlock :card="{
   title: 'Hable Instantáneamente en Más de 100 Idiomas',
-  details: 'iMind permite que cada participante hable en su idioma nativo — de forma natural, en [tiempo real](/guide/how-it-works), y **sin subtítulos** ni retrasos.',
+  details: 'iMind permite que cada participante hable en su idioma nativo — de forma natural, en [tiempo real](/guide/how-it-works), y sin subtítulos ni retrasos.',
     items: [
-      '⚡︎ Hable libremente — sea entendido al instante.',
+      '✧ Hable libremente — sea entendido al instante.',
       '✧ Interpretación impulsada por IA que capta el tono, la intención y la terminología específica de la industria.',
-      '✧ Interpretación bidireccional, continua, de voz a voz sin configuración manual.',
+      '⚡︎ Interpretación **voz a voz** bidireccional y continua sin configuración manual.',
     ],
   link: './guide/what-is-imind',
   src: {
@@ -95,39 +95,39 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
 <PricingPlans :plans="[
   {
     title: 'Business Starter',
-    details: '**$7** por usuario / mes',
+    price: '**$7** por usuario / mes, compromiso de 1 año',
+    details: 'O $8.40 por usuario / mes, facturado mensualmente',
     items: [
-      'Hable instantáneamente en más de 100 idiomas [ℹ️](#1)',
-      'Diseñado para reuniones serias — No solo para charlar [ℹ️](#3)',
+      'Hable instantáneamente en más de 100 idiomas [💬](#1)',
+      'Diseñado para reuniones serias — No solo para charlar [💬](#3)',
     ],
     linkText: 'Comenzar prueba',
     linkHref: '/guide/use-cases#negotiations',
-    bullet: '💬'
   },
   {
     title: 'Business Standard',
-    details: '**$14** por usuario / mes',
+    price: '**$14** por usuario / mes, compromiso de 1 año',
+    details: 'O $16.80 por usuario / mes, facturado mensualmente',
     items: [
-      'Hable instantáneamente en más de 100 idiomas [ℹ️](#1)',
-      'Diseñado para reuniones serias — No solo para charlar [ℹ️](#3)',
-      'La **Mente Dentro** de sus reuniones [ℹ️](#2)',
+      'Hable instantáneamente en más de 100 idiomas [💬](#1)',
+      'Diseñado para reuniones serias — No solo para charlar [💬](#3)',
+      'La mente dentro de sus reuniones [💬](#2)',
     ],
     linkText: 'Comenzar prueba',
     linkHref: '/guide/use-cases#operations',
-    bullet: '⚡︎'
   },
   {
     title: 'Business Plus',
-    details: '**$22** por usuario / mes',
+    price: '**$22** por usuario / mes, compromiso de 1 año',
+    details: 'O $16.80 por usuario / mes, facturado mensualmente',
     items: [
-      'Hable instantáneamente en más de 100 idiomas [ℹ️](#1)',
-      'Diseñado para reuniones serias — No solo para charlar [ℹ️](#3)',
-      'La **Mente Dentro** de sus reuniones [ℹ️](#2)',
-      'Arquitectura de privacidad segmentada por región [ℹ️](#4)'
+      'Hable instantáneamente en más de 100 idiomas [💬](#1)',
+      'Diseñado para reuniones serias — No solo para charlar [💬](#3)',
+      'La mente dentro de sus reuniones [💬](#2)',
+      'Arquitectura de privacidad segmentada por región [💬](#4)'
     ],
     linkText: 'Comenzar prueba',
     linkHref: '/guide/use-cases#operations',
-    bullet: '💰'
   }
 ]" />
 
@@ -136,11 +136,11 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
 <AccordionGroup :items="[
   {
     q: '¿Pueden unirse participantes externos a una llamada?',
-    a: 'Absolutamente. Para la versión gratuita de iMind, los participantes pueden iniciar sesión con una cuenta de Google o ser aprobados por el organizador de la reunión para unirse.<br><br>Para los clientes de Google Workspace, una vez que hayas creado una reunión, puedes invitar a cualquier persona a unirse incluso si no tiene una cuenta de Google. Simplemente comparte el enlace o el ID de la reunión con todos los participantes.'
+    a: '**Absolutamente**. Para la versión gratuita de iMind, los participantes pueden iniciar sesión con una cuenta de Google o ser aprobados por el organizador de la reunión para unirse.<br><br>Para los clientes de Google Workspace, una vez que hayas creado una reunión, puedes invitar a cualquier persona a unirse incluso si no tiene una cuenta de Google. Simplemente comparte el enlace o el ID de la reunión con todos los participantes. [💬](#2)'
   },
   {
     q: '¿Cuánto cuesta iMind?',
-    a: 'Cualquier persona con una cuenta de Google puede crear una videollamada, invitar hasta 100 participantes y reunirse hasta 60 minutos por reunión sin costo. Para llamadas móviles y reuniones 1:1, no hay límite de tiempo.<br><br>Para reuniones más largas, con más participantes o funciones adicionales como números de marcación internacional, grabación de reuniones, transmisión en vivo y controles administrativos, consulta los planes y precios para organizaciones o Google Workspace Individual.'
+    a: 'Cualquier persona con una cuenta de Google puede crear una videollamada, invitar hasta 100 participantes y reunirse hasta 60 minutos por reunión sin costo. Para llamadas móviles y reuniones 1:1, no hay límite de tiempo.<br><br>Para reuniones más largas, más grandes o funciones adicionales como números de marcación internacional, grabación de reuniones, transmisión en vivo y controles administrativos, consulta los planes y precios para organizaciones o Google Workspace Individual.'
   },
   {
     q: '¿Cómo accedo a las funciones premium?',
@@ -152,6 +152,6 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
   },
   {
     q: '¿Se requiere un servicio de terceros para el acceso telefónico?',
-    a: 'No. Con la edición Enterprise de Google Workspace, tienes la capacidad de incluir un número de teléfono y PIN en cada una de tus reuniones sin necesidad de configuración adicional. Consulta la documentación de acceso telefónico para más detalles.'
+    a: 'No. Con la edición Enterprise de Google Workspace, tienes la capacidad de incluir un número de teléfono y PIN en cada una de tus reuniones sin necesidad de configuración adicional. Consulta la documentación de marcación para más detalles.'
   }
 ]" />
