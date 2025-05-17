@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed } from "vue"
+import { ref } from "vue"
 import { renderMarkdown } from "../utils/markdown"
 
 const props = defineProps({
@@ -12,16 +12,6 @@ const props = defineProps({
 
 const openStates = ref(props.items.map(() => false))
 
-// Рендерим маркдаун в элементах списка
-const renderedItems = computed(() => {
-  return (
-    props.items?.map((item) => ({
-      q: item.q,
-      a: renderMarkdown(item.a),
-    })) || []
-  )
-})
-
 function toggle(index) {
   openStates.value[index] = !openStates.value[index]
 }
@@ -29,7 +19,7 @@ function toggle(index) {
 
 <template>
   <div class="accordion-group">
-    <div v-for="(item, index) in renderedItems" :key="index" class="accordion-item">
+    <div v-for="(item, index) in props.items" :key="index" class="accordion-item">
       <button class="accordion-header" @click="toggle(index)">
         <span>{{ item.q }}</span>
         <span class="accordion-emoji">
@@ -38,7 +28,7 @@ function toggle(index) {
       </button>
       <transition name="fade">
         <div class="accordion-content" v-show="openStates[index]">
-          <p v-html="item.a"></p>
+          <p v-html="renderMarkdown(item.a)"></p>
         </div>
       </transition>
     </div>

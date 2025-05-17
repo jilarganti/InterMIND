@@ -19,7 +19,7 @@ const props = defineProps<{
   bullet?: string
 }>()
 
-const renderedItems = computed(() => props.items?.map((item) => renderMarkdown(item)) || [])
+// const renderedItems = computed(() => props.items?.map((item) => renderMarkdown(item)) || [])
 const bulletStyle = computed(() => props.bullet || "•")
 
 const regex = /\*\*(.*?)\*\*/g
@@ -39,8 +39,8 @@ const styledDetails = computed(() => props.details?.replace(regex, '<span class=
     </div>
     <NavButton v-if="linkHref" :to="linkHref" :buttonLabel="linkText" :buttonClass="buttonClass" />
     <ul v-if="items && items.length > 0" class="plan-features" :style="{ '--bullet-content': `'${bulletStyle}'` }">
-      <li v-for="(item, index) in renderedItems" :key="index" class="plan-feature">
-        <span class="feature-text" v-html="item"></span>
+      <li v-for="(item, index) in items" :key="index" class="plan-feature">
+        <span class="feature-text" v-html="renderMarkdown(item)"></span>
       </li>
     </ul>
   </div>
