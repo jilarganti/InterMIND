@@ -19,23 +19,20 @@ const props = defineProps<{
   bullet?: string
 }>()
 
-// const renderedItems = computed(() => props.items?.map((item) => renderMarkdown(item)) || [])
+const regex = /\*\*(.*?)\*\*/g
 const bulletStyle = computed(() => props.bullet || "•")
 
-const regex = /\*\*(.*?)\*\*/g
-
-// Computed property to style the word(s) enclosed in ** **
-const styledTitle = computed(() => props.title.replace(regex, '<span class="hl">$1</span>'))
-const styledPrice = computed(() => props.price?.replace(regex, '<span class="highlighted-word">$1</span>') ?? "")
-const styledDetails = computed(() => props.details?.replace(regex, '<span class="highlighted-word">$1</span>') ?? "")
+function replace(text: string, className: string, pattern: RegExp = regex): string {
+  return text.replace(pattern, `<span class="${className}">$1</span>`)
+}
 </script>
 
 <template>
   <div class="pricing-plan">
     <div class="plan-header">
-      <h3 class="plan-title" v-html="styledTitle"></h3>
-      <div v-if="price" class="plan-price" v-html="styledPrice"></div>
-      <div v-if="details" class="plan-price" v-html="styledDetails"></div>
+      <h3 class="plan-title" v-html="replace(props.title, 'hl')"></h3>
+      <div v-if="price" class="plan-price" v-html="replace(props.price!, 'highlighted-word')"></div>
+      <div v-if="details" class="plan-price" v-html="replace(props.details!, 'highlighted-word')"></div>
     </div>
     <NavButton v-if="linkHref" :to="linkHref" :buttonLabel="linkText" :buttonClass="buttonClass" />
     <ul v-if="items && items.length > 0" class="plan-features" :style="{ '--bullet-content': `'${bulletStyle}'` }">
@@ -56,9 +53,6 @@ const styledDetails = computed(() => props.details?.replace(regex, '<span class=
   align-items: stretch;
   position: relative;
 }
-/* .pricing-plan.is-clickable {
-  cursor: pointer;
-} */
 
 .plan-header {
   margin-bottom: 28px;
@@ -70,13 +64,13 @@ const styledDetails = computed(() => props.details?.replace(regex, '<span class=
   margin-bottom: 28px;
 }
 .plan-price {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--vp-c-text-1);
 }
 
 :deep(.highlighted-word) {
   color: var(--vp-hl-color);
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 2rem;
 }
 
@@ -100,7 +94,6 @@ const styledDetails = computed(() => props.details?.replace(regex, '<span class=
   position: absolute;
   left: 0;
   color: var(--vp-c-brand);
-  font-weight: bold;
 }
 .feature-text :deep(strong) {
   color: var(--vp-hl-color);
