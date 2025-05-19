@@ -36,26 +36,24 @@ export const zh = defineConfig({
       namePlaceholder: "您的姓名",
       email: "电子邮箱 *",
       emailPlaceholder: "您的电子邮箱地址",
-      phone: "电话 *",
-      phonePlaceholder: "例如：+1 1234567890 或 (1) 123 456-7890",
+      phone: "公司网站 *",
+      phonePlaceholder: "例如：https://imind.com",
       phoneError: "请输入电话号码",
-      category: "我们如何帮助您？ *",
+      category: "请告诉我们如何帮助您 *",
       categoryPlaceholder: "选择服务类型",
       message: "让我们讨论您的目标（可选）",
-      messagePlaceholder: "请分享您的咨询详情，以帮助我们为您准备最佳解决方案",
+      messagePlaceholder: "请提供任何附加详细信息（可选）",
       submit: "提交请求",
       sending: "发送中...",
-      successTitle: "感谢您！",
+      successTitle: "谢谢！",
       successMessage: "非常感谢您的关注！我们的团队将很快与您联系，讨论您的需求。",
       defaultCategories: [
-        "新公司成立",
-        "扩张计划（如新分支机构或特许经营）",
-        "公司迁移",
-        "Golden Visa",
-        "仅签证目的",
-        "开立银行账户",
-        "其他服务",
+        "我对实时语音翻译感兴趣",
+        "我对AI会议助手感兴趣",
+        "我对基于区域的隐私和数据控制感兴趣",
+        "其他/未列出",
       ],
+
       defaultButtonText: "给我们发送消息",
     },
   },
@@ -78,7 +76,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "关于我们", link: "/about" },
-    { text: "联系我们", link: "/contacts" },
+    { text: "关于", link: "/about" },
+    { text: "联系", link: "/contacts" },
   ]
 }

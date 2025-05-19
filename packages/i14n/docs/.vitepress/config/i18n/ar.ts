@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description: "خدمات احترافية لتأسيس الشركات والدعم في الإمارات. حلول إنشاء الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات. نحول أحلام أعمالك إلى حقيقة!",
+  description: "خدمات تأسيس الشركات المتخصصة في الإمارات وخدمات الدعم. حلول إنشاء الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات. نحول أحلام أعمالك إلى حقيقة!",
   head: [
-    ["meta", { property: "og:title", content: "خدمات احترافية لتأسيس الشركات والدعم في الإمارات. حلول إنشاء الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات." }],
+    ["meta", { property: "og:title", content: "خدمات تأسيس الشركات المتخصصة في الإمارات وخدمات الدعم. حلول إنشاء الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات." }],
   ],
 
   themeConfig: {
@@ -36,26 +36,24 @@ export const ar = defineConfig({
       namePlaceholder: "اسمك",
       email: "البريد الإلكتروني *",
       emailPlaceholder: "عنوان بريدك الإلكتروني",
-      phone: "الهاتف *",
-      phonePlaceholder: "مثال: +1 1234567890 أو (1) 123 456-7890",
+      phone: "موقع الشركة *",
+      phonePlaceholder: "مثال: https://imind.com",
       phoneError: "يرجى إدخال رقم الهاتف",
-      category: "كيف يمكننا مساعدتك؟ *",
+      category: "يرجى إخبارنا كيف يمكننا المساعدة *",
       categoryPlaceholder: "اختر نوع الخدمة",
       message: "دعنا نناقش أهدافك (اختياري)",
-      messagePlaceholder: "يرجى مشاركة تفاصيل استفسارك لمساعدتنا في إعداد أفضل حل لاحتياجاتك",
+      messagePlaceholder: "يرجى تقديم أي تفاصيل إضافية (اختياري)",
       submit: "إرسال الطلب",
       sending: "جاري الإرسال...",
       successTitle: "شكراً لك!",
       successMessage: "نقدر اهتمامك كثيراً! سيتواصل فريقنا معك قريباً لمناقشة احتياجاتك.",
       defaultCategories: [
-        "تأسيس شركة جديدة",
-        "خطة التوسع (مثل فرع جديد أو امتياز)",
-        "نقل مقر الشركة",
-        "التأشيرة الذهبية",
-        "خدمات التأشيرات فقط",
-        "فتح حسابات مصرفية",
-        "خدمات أخرى",
+        "مهتم بالترجمة الفورية للصوت",
+        "مهتم بمساعد الاجتماعات الذكي",
+        "مهتم بخصوصية البيانات والتحكم حسب المنطقة",
+        "أخرى / غير مدرجة",
       ],
+
       defaultButtonText: "أرسل لنا رسالة",
     },
   },
@@ -69,7 +67,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "ما هو iMind؟", link: "what-is-imind" },
         { text: "كيف يعمل", link: "how-it-works" },
-        { text: "هندسة الخصوصية المقسمة حسب المنطقة من InterMind", link: "privacy-architecture" },
+        { text: "هندسة الخصوصية الإقليمية من InterMind", link: "privacy-architecture" },
         { text: "حالات الاستخدام", link: "use-cases" },
       ],
     },

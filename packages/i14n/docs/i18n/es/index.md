@@ -7,16 +7,18 @@ description: "Elimine las barreras del idioma instantáneamente con la interpret
 <!-- text="Concéntrese en el crecimiento — deje que iMind se encargue de los idiomas." -->
 <!-- text="Las aulas tardan años; iMind ofrece comprensión en tiempo real hoy, en todos los idiomas." -->
 <!-- text="Entienda instantáneamente — sin aprender idiomas extranjeros" -->
+<!-- title="Reuniones de Video con **Interpretación** en Vivo" -->
 
 <HeroSection
-title="Reuniones de Video con **Interpretación** en Vivo"
+title="Reuniones de Video **Multilingües** con Interpretación de **Voz**"
 text="Para empresas donde las **barreras del idioma** significan pérdida de negocios, retrasos y errores costosos.">
-<AuthButton text="Probar Demo en Vivo" buttonClass="brand"/>
+
+<!-- <AuthButton text="Solicitar una Demo" buttonClass="brand"/> -->
+<ContactFormModalNav buttonText="Solicitar una Demo"/>
 <NavButton to="#pricing" buttonClass="alt" buttonLabel="Precios" />
 </HeroSection>
 
 <span id="1"></span>
-
 <FeatureBlock :card="{
   title: 'Hable Instantáneamente en Más de 100 Idiomas',
   details: 'iMind permite que cada participante hable en su idioma nativo — de forma natural, en [tiempo real](/guide/how-it-works), y sin subtítulos ni retrasos.',
@@ -34,7 +36,23 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
 }" />
 
 <span id="2"></span>
+<FeatureBlock :card="{
+    title: 'Diseñado para Reuniones Serias — No Solo para Charlar',
+    details: 'iMind es una plataforma de videoconferencia de nivel profesional, no un complemento o plugin ligero.',
+    items: [
+      '✧ Resolución 1080p, supresión inteligente de ruido y captación de voz focalizada.',
+      '✧ Programación, moderación, demostraciones, grabación e integración completa con calendario — todo incluido, listo para usar. Las reuniones pueden durar hasta 24 horas.',
+      '⚡︎ Transcripciones en vivo, chat entre participantes y un asistente de IA que mantiene las reuniones productivas.'
+    ],
+    link: '/guide/how-it-works',
+    src: {
+      light: '/3l.png',
+      dark: '/3d.png',
+    },
+    inversion: true
+  }" />
 
+<span id="3"></span>
 <FeatureBlock :card="{
   title: 'La **Mente Dentro** de Sus Reuniones',
   details: 'iMind convierte cada llamada multilingüe en conocimiento claro y consultable.',
@@ -48,29 +66,10 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
     light: '/2l.png',
     dark: '/2d.png',
   },
-  inversion: true
-}" />
-
-<span id="3"></span>
-
-<FeatureBlock :card="{
-  title: 'Diseñado para Reuniones Serias — No Solo para Charlar',
-  details: 'iMind es una plataforma de reuniones de video de nivel profesional, no un complemento o plugin ligero.',
-  items: [
-    '✧ Resolución 1080p, supresión inteligente de ruido y captación de voz focalizada.',
-    '✧ Programación, moderación, demostraciones, grabación e integración completa con calendario — todo incluido, listo para usar.',
-    '⚡︎ Transcripciones en vivo, chat entre participantes y un asistente de IA que mantiene las reuniones productivas.'
-  ],
-  link: '/guide/how-it-works',
-  src: {
-    light: '/3l.png',
-    dark: '/3d.png',
-  },
   inversion: false
 }" />
 
 <span id="4"></span>
-
 <FeatureBlock
   :card="{
     title: 'Seguro y Confidencial por Diseño',
@@ -94,39 +93,40 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
 
 <PricingPlans :plans="[
   {
-    title: 'Business Starter',
-    price: '**$7** por usuario / mes, compromiso de 1 año',
-    details: 'O $8.40 por usuario / mes, facturado mensualmente',
+    title: '**Básico** &nbsp 1 usuario',
+    price: '**Gratis**',
+    details: '25 reuniones gratuitas',
     items: [
-      'Hable instantáneamente en más de 100 idiomas [💬](#1)',
-      'Diseñado para reuniones serias — No solo para charlar [💬](#3)',
+      'Reuniones de video de 100 participantes + 30 GB de almacenamiento compartido por usuario [💬](#2)',
+      'Interpretación de voz a voz [💬](#1)',
+      'Asistente de IA [💬](#3)',
     ],
-    linkText: 'Comenzar prueba',
+    linkText: 'Registrarse gratis',
     linkHref: '/guide/use-cases#negotiations',
   },
   {
-    title: 'Business Standard',
-    price: '**$14** por usuario / mes, compromiso de 1 año',
-    details: 'O $16.80 por usuario / mes, facturado mensualmente',
+    title: '**Pro** &nbsp 1-99 usuarios',
+    price: '**$13.33** /mes/usuario, facturado anualmente',
+    details: 'o $15.99 facturado mensualmente',
     items: [
-      'Hable instantáneamente en más de 100 idiomas [💬](#1)',
-      'Diseñado para reuniones serias — No solo para charlar [💬](#3)',
-      'La mente dentro de sus reuniones [💬](#2)',
+      'Reuniones de video de 150 participantes + 2 TB de almacenamiento compartido por usuario [💬](#2)',
+      'Interpretación de voz a voz [💬](#1)',
+      'Asistente de IA [💬](#3)',
     ],
-    linkText: 'Comenzar prueba',
+    linkText: 'Comprar ahora',
     linkHref: '/guide/use-cases#operations',
   },
   {
-    title: 'Business Plus',
-    price: '**$22** por usuario / mes, compromiso de 1 año',
-    details: 'O $16.80 por usuario / mes, facturado mensualmente',
+    title: '**Business** &nbsp 1-250 usuarios',
+    price: '**$18.33** /mes/usuario, facturado anualmente',
+    details: 'o $21.99 facturado mensualmente',
     items: [
-      'Hable instantáneamente en más de 100 idiomas [💬](#1)',
-      'Diseñado para reuniones serias — No solo para charlar [💬](#3)',
-      'La mente dentro de sus reuniones [💬](#2)',
-      'Arquitectura de privacidad segmentada por región [💬](#4)'
+      'Reuniones de video de 500 participantes + 5 TB de almacenamiento compartido por usuario [💬](#2)',
+      'Interpretación de voz a voz [💬](#1)',
+      'Asistente de IA [💬](#3)',
+      'Privacidad basada en región [💬](#4)',
     ],
-    linkText: 'Comenzar prueba',
+    linkText: 'Comprar ahora',
     linkHref: '/guide/use-cases#operations',
   }
 ]" />
@@ -140,7 +140,7 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
   },
   {
     q: '¿Cuánto cuesta iMind?',
-    a: 'Cualquier persona con una cuenta de Google puede crear una videollamada, invitar hasta 100 participantes y reunirse hasta 60 minutos por reunión sin costo. Para llamadas móviles y reuniones 1:1, no hay límite de tiempo.<br><br>Para reuniones más largas, más grandes o funciones adicionales como números de marcación internacional, grabación de reuniones, transmisión en vivo y controles administrativos, consulta los planes y precios para organizaciones o Google Workspace Individual.'
+    a: 'Cualquier persona con una cuenta de Google puede crear una videollamada, invitar hasta 100 participantes y reunirse hasta 60 minutos por reunión sin costo. Para llamadas móviles y reuniones 1:1, no hay límite de tiempo.<br><br>Para reuniones más largas, con más participantes o funciones adicionales como números de marcación internacional, grabación de reuniones, transmisión en vivo y controles administrativos, consulta los planes y precios para organizaciones o Google Workspace Individual.'
   },
   {
     q: '¿Cómo accedo a las funciones premium?',

@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/es"
 
 export const es = defineConfig({
-  description: "Servicios expertos de formación y soporte de empresas en EAU. Soluciones de establecimiento de empresas, banca, impuestos, legales y visados. ¡Haciendo realidad tus sueños empresariales!",
+  description: "Servicios expertos de formación y soporte de empresas en EAU. Configuración de empresas, servicios bancarios, fiscales, legales y soluciones de visado. ¡Haciendo realidad tus sueños empresariales!",
   head: [
-    ["meta", { property: "og:title", content: "Servicios expertos de formación y soporte de empresas en EAU. Soluciones de establecimiento de empresas, banca, impuestos, legales y visados." }],
+    ["meta", { property: "og:title", content: "Servicios expertos de formación y soporte de empresas en EAU. Configuración de empresas, servicios bancarios, fiscales, legales y soluciones de visado." }],
   ],
 
   themeConfig: {
@@ -36,26 +36,24 @@ export const es = defineConfig({
       namePlaceholder: "tu nombre",
       email: "Correo electrónico *",
       emailPlaceholder: "tu dirección de correo electrónico",
-      phone: "Teléfono *",
-      phonePlaceholder: "ej., +1 1234567890 o (1) 123 456-7890",
+      phone: "Sitio corporativo *",
+      phonePlaceholder: "ej., https://imind.com",
       phoneError: "Por favor, ingresa el número de teléfono",
-      category: "¿Cómo podemos ayudarte? *",
+      category: "Por favor, dinos cómo podemos ayudarte *",
       categoryPlaceholder: "selecciona el tipo de servicio",
       message: "Hablemos de tus objetivos (opcional)",
-      messagePlaceholder: "Por favor, comparte los detalles de tu consulta para ayudarnos a preparar la mejor solución para tus necesidades",
+      messagePlaceholder: "Por favor, proporciona detalles adicionales (opcional)",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
       successMessage: "¡Agradecemos mucho tu interés! Nuestro equipo te contactará pronto para discutir tus necesidades.",
       defaultCategories: [
-        "Formación de nueva empresa",
-        "Plan de expansión (ej. nueva sucursal o franquicia)",
-        "Reubicación de empresa",
-        "Golden Visa",
-        "Solo propósitos de visado",
-        "Apertura de cuentas bancarias",
-        "Otros servicios",
+        "Me interesa la interpretación de voz en tiempo real",
+        "Me interesa el asistente de reuniones con IA",
+        "Me interesa el control de privacidad y datos por región",
+        "Otro / No listado",
       ],
+
       defaultButtonText: "Envíanos un mensaje",
     },
   },
