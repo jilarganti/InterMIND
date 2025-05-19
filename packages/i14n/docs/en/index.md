@@ -11,12 +11,13 @@ description: "Eliminate language barriers instantly with i14n's real-time video 
 <HeroSection
 title="Live **Interpretation** Video Meetings"
 text="For companies where **language barriers** mean lost deals, delays, and costly mistakes.">
-<AuthButton text="Try Live Demo" buttonClass="brand"/>
+
+<!-- <AuthButton text="Request a Demo" buttonClass="brand"/> -->
+<ContactFormModalNav buttonText="Speak to an expert"/>
 <NavButton to="#pricing" buttonClass="alt" buttonLabel="Pricing" />
 </HeroSection>
 
 <span id="1"></span>
-
 <FeatureBlock :card="{
   title: 'Speak Instantly in Over 100 Languages',
   details: 'iMind enables every participant to speak their native language — naturally, in [real time](/guide/how-it-works), and without subtitles or lag.',
@@ -34,7 +35,23 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 }" />
 
 <span id="2"></span>
+<FeatureBlock :card="{
+    title: 'Built for Serious Meetings — Not Just Talking',
+    details: 'iMind is a professional-grade video meeting platform, not a lightweight add-on or plugin.',
+    items: [
+      '✧ 1080p resolution, smart noise suppression, and focused voice pickup.',
+      '✧ Scheduling, moderation, demos, recording, and full calendar integration — all built in, ready to go. Meetings can run up to 24 hours.',
+      '⚡︎ Live transcripts, participant chat, and an AI assistant that keeps meetings productive.'
+    ],
+    link: '/guide/how-it-works',
+    src: {
+      light: '/3l.png',
+      dark: '/3d.png',
+    },
+    inversion: true
+  }" />
 
+<span id="3"></span>
 <FeatureBlock :card="{
   title: 'The **Mind Within** Your Meetings',
   details: 'iMind turns every multilingual call into clear, searchable knowledge.',
@@ -48,29 +65,10 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
     light: '/2l.png',
     dark: '/2d.png',
   },
-  inversion: true
-}" />
-
-<span id="3"></span>
-
-<FeatureBlock :card="{
-  title: 'Built for Serious Meetings — Not Just Talking',
-  details: 'iMind is a professional-grade video meeting platform, not a lightweight add-on or plugin.',
-  items: [
-    '✧ 1080p resolution, smart noise suppression, and focused voice pickup.',
-    '✧ Scheduling, moderation, demos, recording, and full calendar integration — all built in, ready to go.',
-    '⚡︎ Live transcripts, participant chat, and an AI assistant that keeps meetings productive.'
-  ],
-  link: '/guide/how-it-works',
-  src: {
-    light: '/3l.png',
-    dark: '/3d.png',
-  },
   inversion: false
 }" />
 
 <span id="4"></span>
-
 <FeatureBlock
   :card="{
     title: 'Secure & Confidential by Design',
@@ -94,39 +92,40 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 
 <PricingPlans :plans="[
   {
-    title: 'Business Starter',
-    price: '**$7** per user / month , 1 year commitment',
-    details: 'Or $8.40 per user / month, when billed monthly',
+    title: '**Basic** &nbsp 1 user',
+    price: '**Free**',
+    details: '25 free meetings',
     items: [
-      'Speak Instantly in Over 100 Languages [💬](#1)',
-      'Built for Serious Meetings — Not Just Talking [💬](#3)',
+      '100 participant video meetings + 30 GB pooled storage per user [💬](#2)',
+      'Voice-to-voice interpretation [💬](#1)',
+      'AI assistant [💬](#3)',
     ],
-    linkText: 'Start a trial',
+    linkText: 'Sign up for free',
     linkHref: '/guide/use-cases#negotiations',
   },
   {
-    title: 'Business Standard',
-    price: '**$14** per user / month, 1 year commitment',
-    details: 'Or $16.80 per user / month, when billed monthly',
+    title: '**Pro** &nbsp 1-99 users',
+    price: '**$13.33** /month/user, billed annually',
+    details: 'or $15.99 billed monthly',
     items: [
-      'Speak Instantly in Over 100 Languages [💬](#1)',
-      'Built for Serious Meetings — Not Just Talking [💬](#3)',
-      'The Mind Within Your Meetings [💬](#2)',
+      '150 participant video meetings + 2 TB pooled storage per user [💬](#2)',
+      'Voice-to-voice interpretation [💬](#1)',
+      'AI assistant [💬](#3)',
     ],
-    linkText: 'Start a trial',
+    linkText: 'Buy now',
     linkHref: '/guide/use-cases#operations',
   },
   {
-    title: 'Business Plus',
-    price: '**$22** per user / month, 1 year commitment',
-    details: 'Or $16.80 per user / month, when billed monthly',
+    title: '**Business** &nbsp 1-250 users',
+    price: '**$18.33** /month/user, billed annually',
+    details: 'or $21.99 billed monthly',
     items: [
-      'Speak Instantly in Over 100 Languages [💬](#1)',
-      'Built for Serious Meetings — Not Just Talking [💬](#3)',
-      'The Mind Within Your Meetings [💬](#2)',
-      'Region-Segmented Privacy Architecture [💬](#4)'
+      '500 participant video meetings + 5 TB pooled storage per user [💬](#2)',
+      'Voice-to-voice interpretation [💬](#1)',
+      'AI assistant [💬](#3)',
+      'Region-based privacy [💬](#4)',
     ],
-    linkText: 'Start a trial',
+    linkText: 'Buy now',
     linkHref: '/guide/use-cases#operations',
   }
 ]" />

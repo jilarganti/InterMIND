@@ -49,7 +49,7 @@ const props = defineProps<{
 
 const buttonTextValue = computed(() => props.buttonText || site.value.themeConfig.contact_form.defaultButtonText)
 const categoriesValue = computed(() => props.services || site.value.themeConfig.contact_form.defaultCategories)
-const styleValue = computed(() => props.formStyle || "display: block; margin: 0 auto;")
+const styleValue = computed(() => props.formStyle || "display: block;")
 const categoryLabelValue = computed(() => props.categoryLabel || site.value.themeConfig.contact_form.category)
 const categoryPlaceholderValue = computed(() => props.categoryPlaceholderText || site.value.themeConfig.contact_form.categoryPlaceholder)
 const messageLabelValue = computed(() => props.messageLabel || site.value.themeConfig.contact_form.message)

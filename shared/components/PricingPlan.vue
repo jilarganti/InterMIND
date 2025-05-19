@@ -30,7 +30,7 @@ function replace(text: string, className: string, pattern: RegExp = regex): stri
 <template>
   <div class="pricing-plan">
     <div class="plan-header">
-      <h3 class="plan-title" v-html="replace(props.title, 'hl')"></h3>
+      <h3 class="plan-title" v-html="replace(props.title, 'highlighted-word')"></h3>
       <div v-if="price" class="plan-price" v-html="replace(props.price!, 'highlighted-word')"></div>
       <div v-if="details" class="plan-price" v-html="replace(props.details!, 'highlighted-word')"></div>
     </div>
@@ -47,7 +47,7 @@ function replace(text: string, className: string, pattern: RegExp = regex): stri
 .pricing-plan {
   background: var(--vp-c-bg-soft);
   border-radius: 16px;
-  padding: 32px 24px 24px 24px;
+  padding: 18px 24px;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -59,8 +59,8 @@ function replace(text: string, className: string, pattern: RegExp = regex): stri
   /* text-align: center; */
 }
 .plan-title {
-  font-size: 1.5rem;
-  margin: 0 0 8px 0;
+  font-size: 1rem;
+  font-weight: 300;
   margin-bottom: 28px;
 }
 .plan-price {
