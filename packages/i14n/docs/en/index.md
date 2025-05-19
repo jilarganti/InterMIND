@@ -7,13 +7,14 @@ description: "Eliminate language barriers instantly with i14n's real-time video 
 <!-- text="Focus on growth — let iMind handle the languages." -->
 <!-- text="Classrooms take years; iMind delivers real-time understanding today, in every language."> -->
 <!-- text="Understand instantly — without learning foreign languages" -->
+<!-- title="Live **Interpretation** Video Meetings" -->
 
 <HeroSection
-title="Live **Interpretation** Video Meetings"
+title="**Multilingual** Video Meetings with **Voice** Interpretation"
 text="For companies where **language barriers** mean lost deals, delays, and costly mistakes.">
 
 <!-- <AuthButton text="Request a Demo" buttonClass="brand"/> -->
-<ContactFormModalNav buttonText="Speak to an expert"/>
+<ContactFormModalNav buttonText="Request a Demo"/>
 <NavButton to="#pricing" buttonClass="alt" buttonLabel="Pricing" />
 </HeroSection>
 
