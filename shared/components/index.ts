@@ -13,6 +13,7 @@ import SearchInput from "./AIChat/SearchInput.vue"
 import HeroSection from "./HeroSection.vue"
 import PricingPlans from "./PricingPlans.vue"
 import AccordionGroup from "./AccordionGroup.vue"
+import AutoScrollTestimonials from "./AutoScrollTestimonials.vue"
 
 interface Components {
   [key: string]: Component
@@ -32,4 +33,5 @@ export const components: Components = {
   HeroSection,
   PricingPlans,
   AccordionGroup,
+  AutoScrollTestimonials,
 }

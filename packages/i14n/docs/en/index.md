@@ -153,3 +153,5 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
     a: 'No. With Google Workspace’s Enterprise edition, you have the ability to include a phone number and PIN on each of your meetings with no other configuration required. Check the dial-in documentation for further details.'
   }
 ]" />
+
+<AutoScrollTestimonials />
