@@ -31,7 +31,9 @@ function replace(text: string, className: string, pattern: RegExp = regex): stri
       <div v-if="price" class="plan-price" v-html="replace(props.price!, 'highlighted-word')"></div>
       <div v-if="details" class="plan-price" v-html="replace(props.details!, 'highlighted-word')"></div>
     </div>
-    <slot name="button"></slot>
+    <div class="plan-action">
+      <slot name="button"></slot>
+    </div>
     <ul v-if="items && items.length > 0" class="plan-features" :style="{ '--bullet-content': `'${bulletStyle}'` }">
       <li v-for="(item, index) in items" :key="index" class="plan-feature">
         <span class="feature-text" v-html="renderMarkdown(item)"></span>
@@ -63,6 +65,11 @@ function replace(text: string, className: string, pattern: RegExp = regex): stri
 .plan-price {
   font-size: 0.8rem;
   color: var(--vp-c-text-1);
+}
+
+.plan-action :deep(.VPButton) {
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
 
 :deep(.highlighted-word) {
