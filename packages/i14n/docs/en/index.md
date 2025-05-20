@@ -106,7 +106,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   },
   {
     title: '**Pro** &nbsp 1-99 users',
-    price: '**$13.33** /month/user, billed annually',
+    price: '**$13.33** /month/user, annually',
     details: 'or $15.99 billed monthly',
     items: [
       '150 participant video meetings + 2 TB pooled storage per user [💬](#2)',
@@ -118,7 +118,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   },
   {
     title: '**Business** &nbsp 1-250 users',
-    price: '**$18.33** /month/user, billed annually',
+    price: '**$18.33** /month/user, annually',
     details: 'or $21.99 billed monthly',
     items: [
       '500 participant video meetings + 5 TB pooled storage per user [💬](#2)',
