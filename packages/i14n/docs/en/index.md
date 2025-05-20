@@ -13,9 +13,9 @@ description: "Eliminate language barriers instantly with i14n's real-time video 
 title="**Multilingual** Video Meetings with **Voice** Interpretation"
 text="For companies where **language barriers** mean lost deals, delays, and costly mistakes.">
 
-<!-- <AuthButton text="Request a Demo" buttonClass="brand"/> -->
-<ContactFormModalNav buttonText="Request a Demo"/>
-<NavButton to="#pricing" buttonClass="alt" buttonLabel="Pricing" />
+<AuthButton text="Sign up for free" buttonClass="brand"/>
+<!-- <ContactFormModalNav buttonText="Request a Demo"/>
+<NavButton to="#pricing" buttonClass="alt" buttonLabel="Pricing" /> -->
 </HeroSection>
 
 <span id="1"></span>
@@ -124,15 +124,9 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
     ],
   }
 ]">
-<template #button-0>
 <AuthButton text="Sign up for free" buttonClass="brand"/>
-</template>
-<template #button-1>
-<AuthButton text="Buy now" buttonClass="brand"/>
-</template>
-<template #button-2>
-<ContactFormModalNav buttonText="Contact sales"/>
-</template>
+<AuthButton text="Buy now" buttonClass="sponsor"/>
+<ContactFormModalNav buttonText="Contact sales" buttonClass="sponsor"/>
 </PricingPlans>
 
 ## Take a look at our FAQs to learn more.

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import PricingPlan from "./PricingPlan.vue"
+import { useSlots } from "vue"
 
 interface ImageTheme {
   light: string
@@ -22,6 +23,8 @@ const props = defineProps<{
 }>()
 
 const columns = Math.min(props.plans.length, 3)
+
+const slots = useSlots()
 </script>
 
 <template>
@@ -38,7 +41,10 @@ const columns = Math.min(props.plans.length, 3)
       :bullet="plan.bullet"
     >
       <template #button>
-        <slot :name="`button-${index}`" />
+        <!-- Получаем все vnodes из default slot и рендерим только нужный по индексу -->
+        <template v-if="slots.default">
+          <component :is="slots.default()[index]" v-if="slots.default()[index]" />
+        </template>
       </template>
     </PricingPlan>
   </div>
