@@ -1,55 +1,144 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue"
+import { useIntervalFn } from "@vueuse/core"
 
 const testimonials = ref([])
 const scrollContainer = ref(null)
-let frame
+const isPaused = ref(false)
+const SCROLL_AMOUNT = 1
+const SCROLL_INTERVAL = 30 // ms
 
-const scrollStep = 0.5
+const { pause, resume } = useIntervalFn(
+  () => {
+    const el = scrollContainer.value
+    if (!el || isPaused.value) return
 
-// Сохраняем ссылку на scroll-функцию и animationFrame
-const scroll = () => {
-  const el = scrollContainer.value
-  if (!el) return
+    // Simple scroll up
+    el.scrollTop += SCROLL_AMOUNT
 
-  el.scrollTop += scrollStep
-  if (el.scrollTop >= el.scrollHeight / 2) {
-    el.scrollTop = 0
-  }
+    // When reaching the bottom, reset to top
+    if (el.scrollTop + el.clientHeight >= el.scrollHeight) {
+      el.scrollTop = 0
+    }
+  },
+  SCROLL_INTERVAL,
+  { immediate: false },
+)
 
-  frame = requestAnimationFrame(scroll)
-}
-
-// Загружаем данные
 async function loadTestimonials() {
-  const res = await fetch("/testimonials.json")
-  const data = await res.json()
-  testimonials.value = [...data.sort(() => Math.random() - 0.5), ...data]
+  try {
+    const res = await fetch("/testimonials.json")
+    const data = await res.json()
+    testimonials.value = data.sort(() => Math.random() - 0.5)
+  } catch (error) {
+    console.error("Failed to load testimonials:", error)
+    testimonials.value = [
+      { text: "Great service!", author: "John Doe" },
+      { text: "Amazing product", author: "Jane Smith" },
+      { text: "Highly recommended", author: "Mike Johnson" },
+      { text: "Best customer support", author: "Sarah Miller" },
+      { text: "Love this product", author: "Chris Taylor" },
+      { text: "Will definitely use again", author: "Alex Brown" },
+    ]
+  }
 }
 
-// Регистрируем хуки ДО await
+const handleMouseEnter = () => {
+  isPaused.value = true
+}
+
+const handleMouseLeave = () => {
+  isPaused.value = false
+}
+
 onMounted(async () => {
   await loadTestimonials()
-  frame = requestAnimationFrame(scroll)
+  resume()
 })
 
-onUnmounted(() => cancelAnimationFrame(frame))
+onUnmounted(() => pause())
 </script>
 
 <template>
-  <div ref="scrollContainer" class="h-64 overflow-hidden relative text-sm leading-relaxed border rounded-2xl p-4" style="scroll-behavior: auto">
-    <div class="flex flex-col gap-4">
-      <div v-for="(t, i) in testimonials" :key="i" class="opacity-80">
-        <p>“{{ t.text }}”</p>
-        <p class="text-xs text-muted mt-1">— {{ t.author }}</p>
+  <div class="testimonial-wrapper" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
+    <div class="testimonial-scroll" ref="scrollContainer">
+      <div class="testimonial-grid">
+        <div v-for="(t, i) in testimonials" :key="i" class="testimonial-card">
+          <p class="testimonial-text">"{{ t.text }}"</p>
+          <p class="testimonial-author">— {{ t.author }}</p>
+          <p class="testimonial-stars">★★★★★</p>
+        </div>
+      </div>
+      <!-- Duplicate content for seamless scrolling -->
+      <div class="testimonial-grid">
+        <div v-for="(t, i) in testimonials" :key="`dup-${i}`" class="testimonial-card">
+          <p class="testimonial-text">"{{ t.text }}"</p>
+          <p class="testimonial-author">— {{ t.author }}</p>
+          <p class="testimonial-stars">★★★★★</p>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-/* Убираем скроллбар */
-::-webkit-scrollbar {
-  display: none;
+.testimonial-wrapper {
+  height: 600px;
+  background-color: #121212;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  padding: 24px;
+  color: #ffffff;
+  position: relative;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.testimonial-scroll {
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.testimonial-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.testimonial-grid {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 24px;
+}
+
+.testimonial-card {
+  flex: 1 1 calc(33.333% - 16px);
+  max-width: calc(33.333% - 16px);
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 16px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.testimonial-text {
+  font-style: italic;
+  color: #ddd;
+}
+
+.testimonial-author {
+  margin-top: 12px;
+  color: #999;
+  font-weight: bold;
+}
+
+.testimonial-stars {
+  margin-top: 4px;
+  color: #f5c518;
+  font-size: 14px;
 }
 </style>
