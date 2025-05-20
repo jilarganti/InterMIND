@@ -157,7 +157,7 @@ function getCountryFromPhone(phone: string): { code: string; name: string } {
 
 <template>
   <div :style="styleValue">
-    <VPButton :text="buttonTextValue" :theme="buttonTheme" href="#" @click="showModal = true" />
+    <VPButton :text="buttonTextValue" :theme="buttonTheme" href="javascript:void(0);" @click.prevent="showModal = true" />
   </div>
 
   <Teleport to="body">
