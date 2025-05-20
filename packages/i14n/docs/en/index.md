@@ -126,7 +126,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 ]">
 <AuthButton text="Sign up for free" buttonClass="alt"/>
 <AuthButton text="Buy now" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Contact sales" buttonClass="sponsor"/>
+<ContactFormModalNav buttonText="Contact sales" buttonClass="alt"/>
 </PricingPlans>
 
 ## Take a look at our FAQs to learn more.

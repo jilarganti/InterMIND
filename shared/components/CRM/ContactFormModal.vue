@@ -27,6 +27,7 @@
 import { useData, useRoute } from "vitepress"
 import { ref, computed, onMounted } from "vue"
 import { onClickOutside } from "@vueuse/core"
+import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 
 import { generateOriginId } from "../../utils/path"
 import { useFormSubmit } from "../../composables/CRM/useFormSubmit"
@@ -41,6 +42,7 @@ const props = defineProps<{
   services?: string[]
   buttonText?: string
   formStyle?: string
+  buttonClass?: "brand" | "alt" | "sponsor"
   categoryLabel?: string
   categoryPlaceholderText?: string
   messageLabel?: string
@@ -50,6 +52,7 @@ const props = defineProps<{
 const buttonTextValue = computed(() => props.buttonText || site.value.themeConfig.contact_form.defaultButtonText)
 const categoriesValue = computed(() => props.services || site.value.themeConfig.contact_form.defaultCategories)
 const styleValue = computed(() => props.formStyle || "display: block;")
+const buttonTheme = computed(() => props.buttonClass || "brand")
 const categoryLabelValue = computed(() => props.categoryLabel || site.value.themeConfig.contact_form.category)
 const categoryPlaceholderValue = computed(() => props.categoryPlaceholderText || site.value.themeConfig.contact_form.categoryPlaceholder)
 const messageLabelValue = computed(() => props.messageLabel || site.value.themeConfig.contact_form.message)
@@ -153,9 +156,9 @@ function getCountryFromPhone(phone: string): { code: string; name: string } {
 </script>
 
 <template>
-  <button class="modal-button" :style="styleValue" @click="showModal = true">
-    {{ buttonTextValue }}
-  </button>
+  <div :style="styleValue">
+    <VPButton :text="buttonTextValue" :theme="buttonTheme" href="#" @click="showModal = true" />
+  </div>
 
   <Teleport to="body">
     <Transition name="modal">
@@ -215,7 +218,7 @@ function getCountryFromPhone(phone: string): { code: string; name: string } {
             </p>
 
             <div class="modal-footer">
-              <button type="submit" class="modal-button submit" :disabled="formStatus.isSubmitting">
+              <button type="submit" class="submit-button" :disabled="formStatus.isSubmitting">
                 {{ formStatus.isSubmitting ? sending : submit }}
               </button>
             </div>
@@ -264,7 +267,6 @@ function getCountryFromPhone(phone: string): { code: string; name: string } {
 .close-button {
   width: 32px;
   height: 32px;
-  /* border-radius: 50%; */
   font-size: 2rem;
   display: flex;
   align-items: center;
@@ -301,7 +303,7 @@ function getCountryFromPhone(phone: string): { code: string; name: string } {
   color: var(--vp-c-text-1);
 }
 
-.contact-form input:focus {
+contact-form input:focus {
   outline: none;
   border-color: var(--vp-c-brand);
 }
@@ -311,31 +313,6 @@ function getCountryFromPhone(phone: string): { code: string; name: string } {
   justify-content: flex-end;
   gap: 0.75rem;
   margin-top: 1.5rem;
-}
-
-.modal-button {
-  padding: 0.5rem 1rem;
-  /* min-width: fit-content; */
-  /* width: auto; */
-  border: 1px solid var(--vp-button-brand-border);
-  background-color: var(--vp-button-brand-bg);
-  color: var(--vp-button-brand-text);
-  cursor: pointer;
-  font-size: 0.875rem;
-  transition: all 0.2s ease;
-  font-weight: 600;
-  border-radius: 20px;
-}
-
-.modal-button:hover {
-  color: var(--vp-button-brand-hover-text);
-  border-color: var(--vp-button-brand-hover-border);
-  background-color: var(--vp-button-brand-hover-bg);
-}
-
-.modal-button:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
 }
 
 .error {
@@ -407,5 +384,28 @@ function getCountryFromPhone(phone: string): { code: string; name: string } {
   font-size: 16px;
   color: var(--vp-c-text-2);
   line-height: 1.5;
+}
+
+.submit-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--vp-button-brand-border);
+  background-color: var(--vp-button-brand-bg);
+  color: var(--vp-button-brand-text);
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.submit-button:hover {
+  color: var(--vp-button-brand-hover-text);
+  border-color: var(--vp-button-brand-hover-border);
+  background-color: var(--vp-button-brand-hover-bg);
+}
+
+.submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 </style>

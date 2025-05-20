@@ -6,6 +6,7 @@
  * @param buttonText - Текст кнопки (по умолчанию: "Get a free consultation")
  * @param services - Список сервисов (опционально)
  * @param formStyle - Стили кнопки (опционально)
+ * @param buttonClass - Тема кнопки: 'brand', 'alt', 'sponsor' (по умолчанию: 'brand')
  * @param categoryLabel - Заголовок поля категорий (опционально)
  * @param categoryPlaceholderText - Плейсхолдер для поля категорий (опционально)
  * @param messageLabel - Заголовок поля сообщения (опционально)
@@ -14,6 +15,7 @@
  * @usage
  * <ContactFormModalNav
  *   buttonText="Get consultation"
+ *   buttonClass="sponsor"
  *   :services="['Global Visa', 'Other Services']"
  *   categoryLabel="Выберите услугу"
  * />
@@ -29,6 +31,7 @@ const props = defineProps<{
   buttonText?: string
   services?: string[]
   formStyle?: string
+  buttonClass?: "brand" | "alt" | "sponsor"
   categoryLabel?: string
   categoryPlaceholderText?: string
   messageLabel?: string
@@ -71,6 +74,7 @@ const handleSuccess = () => {
     :buttonText="buttonText"
     :services="services"
     :formStyle="formStyle"
+    :buttonClass="buttonClass"
     :categoryLabel="categoryLabel"
     :categoryPlaceholderText="categoryPlaceholderText"
     :messageLabel="messageLabel"

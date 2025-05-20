@@ -48,7 +48,7 @@ const handleClick = (event: Event): void => {
 </script>
 
 <template>
-  <VPButton v-if="!hide" :text="label" :theme="computedTheme" :href="props.to" @click="handleClick" custom />
+  <VPButton v-if="!hide" :text="label" :theme="computedTheme" :href="props.to" @click="handleClick" />
 </template>
 
 <style scoped>

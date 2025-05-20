@@ -45,7 +45,7 @@ const login = (event: Event): void => {
 </script>
 
 <template>
-  <VPButton :text="text" :theme="props.buttonClass" href="#" @click="login" custom />
+  <VPButton :text="text" :theme="props.buttonClass" href="#" @click="login" />
 </template>
 
 <style scoped>
