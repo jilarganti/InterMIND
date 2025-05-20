@@ -12,8 +12,6 @@ interface PricingPlanItem {
   price?: string
   details?: string
   items?: string[]
-  linkText: string
-  linkHref: string
   images?: ImageTheme
   buttonClass?: "brand" | "alt" | "sponsor"
   bullet?: string
@@ -36,11 +34,13 @@ const columns = Math.min(props.plans.length, 3)
       :details="plan.details"
       :items="plan.items"
       :images="plan.images"
-      :linkText="plan.linkText"
-      :linkHref="plan.linkHref"
       :buttonClass="plan.buttonClass"
       :bullet="plan.bullet"
-    />
+    >
+      <template #button>
+        <slot :name="`button-${index}`" />
+      </template>
+    </PricingPlan>
   </div>
 </template>
 

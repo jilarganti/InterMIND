@@ -101,8 +101,6 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
       'Voice-to-voice interpretation [💬](#1)',
       'AI assistant [💬](#3)',
     ],
-    linkText: 'Sign up for free',
-    linkHref: '/guide/use-cases#negotiations',
   },
   {
     title: '**Pro** &nbsp 1-99 users',
@@ -113,8 +111,6 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
       'Voice-to-voice interpretation [💬](#1)',
       'AI assistant [💬](#3)',
     ],
-    linkText: 'Buy now',
-    linkHref: '/guide/use-cases#operations',
   },
   {
     title: '**Business** &nbsp 1-250 users',
@@ -126,10 +122,18 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
       'AI assistant [💬](#3)',
       'Region-based privacy [💬](#4)',
     ],
-    linkText: 'Buy now',
-    linkHref: '/guide/use-cases#operations',
   }
-]" />
+]">
+<template #button-0>
+<AuthButton text="Sign up for free" buttonClass="brand"/>
+</template>
+<template #button-1>
+<AuthButton text="Buy now" buttonClass="brand"/>
+</template>
+<template #button-2>
+<ContactFormModalNav buttonText="Contact sales"/>
+</template>
+</PricingPlans>
 
 ## Take a look at our FAQs to learn more.
 
