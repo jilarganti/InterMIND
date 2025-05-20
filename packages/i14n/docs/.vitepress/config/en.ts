@@ -11,17 +11,17 @@ export const en = defineConfig({
   themeConfig: {
     nav: [
       {
-        text: "Giude",
+        text: "/mind",
         activeMatch: `${BASE_PATH}/guide/`,
         items: [{ text: "Introduction", link: `${BASE_PATH}/guide/what-is-imind` }],
       },
-      // {
-      //   text: "Resources",
-      //   items: [
-      //     { text: "About", link: `${BASE_PATH}/resources/about` },
-      //     { text: "Contact", link: `${BASE_PATH}/resources/contacts` },
-      //   ],
-      // },
+      {
+        text: "mind",
+        items: [
+          { text: "About", link: `${BASE_PATH}/resources/about` },
+          { text: "Contact", link: `${BASE_PATH}/resources/contacts` },
+        ],
+      },
     ],
 
     sidebar: {
