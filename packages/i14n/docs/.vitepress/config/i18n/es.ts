@@ -3,22 +3,30 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/es"
 
 export const es = defineConfig({
-  description: "Servicios expertos de formación y soporte de empresas en EAU. Configuración de empresas, servicios bancarios, fiscales, legales y soluciones de visado. ¡Haciendo realidad tus sueños empresariales!",
+  description: "Servicios expertos de formación y soporte de empresas en EAU. Soluciones de establecimiento de empresas, banca, impuestos, legales y visados. ¡Haciendo realidad tus sueños empresariales!",
   head: [
-    ["meta", { property: "og:title", content: "Servicios expertos de formación y soporte de empresas en EAU. Configuración de empresas, servicios bancarios, fiscales, legales y soluciones de visado." }],
+    ["meta", { property: "og:title", content: "Servicios expertos de formación y soporte de empresas en EAU. Soluciones de establecimiento de empresas, banca, impuestos, legales y visados." }],
   ],
 
   themeConfig: {
     nav: [
       {
-        text: "Guía",
+        text: "/mind",
         activeMatch: `${BASE_PATH}/guide/`,
         items: [{ text: "Introducción", link: `${BASE_PATH}/guide/what-is-imind` }],
+      },
+      {
+        text: "mind",
+        items: [
+          { text: "Acerca de", link: `${BASE_PATH}/resources/about` },
+          { text: "Contacto", link: `${BASE_PATH}/resources/contacts` },
+        ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/guide/`]: { base: `${BASE_PATH}/guide/`, items: sidebarServices() },
+      // [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
     },
 
     footer: {
@@ -38,11 +46,11 @@ export const es = defineConfig({
       emailPlaceholder: "tu dirección de correo electrónico",
       phone: "Sitio corporativo *",
       phonePlaceholder: "ej., https://imind.com",
-      phoneError: "Por favor, ingresa el número de teléfono",
-      category: "Por favor, dinos cómo podemos ayudarte *",
-      categoryPlaceholder: "selecciona el tipo de servicio",
+      phoneError: "Por favor ingresa el número de teléfono",
+      category: "Por favor dinos cómo podemos ayudar *",
+      categoryPlaceholder: "selecciona tipo de servicio",
       message: "Hablemos de tus objetivos (opcional)",
-      messagePlaceholder: "Por favor, proporciona detalles adicionales (opcional)",
+      messagePlaceholder: "Por favor proporciona detalles adicionales (opcional)",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
@@ -50,11 +58,12 @@ export const es = defineConfig({
       defaultCategories: [
         "Me interesa la interpretación de voz en tiempo real",
         "Me interesa el asistente de reuniones con IA",
-        "Me interesa el control de privacidad y datos por región",
+        "Me interesa el control de privacidad y datos basado en región",
         "Otro / No listado",
       ],
 
       defaultButtonText: "Envíanos un mensaje",
+      // defaultButtonText: "Obtén una consulta gratuita",
     },
   },
 })

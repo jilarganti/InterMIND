@@ -28,10 +28,9 @@ Office 405-070, Port Saeed
 
 **联系方式：**
 
-- 电子邮件：info@goldenfish.ae
+- 电子邮件：info@mind.com
 - 电话：+971 058 574 88 06
 - WhatsApp：+971 058 574 88 06
-- Telegram：@goldenfish_ae
 
 <!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
@@ -39,4 +38,4 @@ Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 > [!IMPORTANT] 为什么选择我们？
 > 凭借我们专业知识丰富的团队和对个性化服务的承诺，我们确保为客户提供顺畅高效的体验，使他们能够专注于最重要的事情 - 在阿联酋发展业务。
 
-<ContactFormModalNav buttonText="咨询专家" formStyle="display: block; margin: 2rem auto;"/>
+<ContactFormModalNav buttonText="咨询专家" />

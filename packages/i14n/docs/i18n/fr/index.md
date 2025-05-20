@@ -13,9 +13,9 @@ description: "Éliminez instantanément les barrières linguistiques avec l'inte
 title="Réunions Vidéo **Multilingues** avec Interprétation **Vocale**"
 text="Pour les entreprises où les **barrières linguistiques** signifient des opportunités manquées, des retards et des erreurs coûteuses.">
 
-<!-- <AuthButton text="Demander une Démo" buttonClass="brand"/> -->
-<ContactFormModalNav buttonText="Demander une Démo"/>
-<NavButton to="#pricing" buttonClass="alt" buttonLabel="Tarifs" />
+<AuthButton text="Inscrivez-vous gratuitement" buttonClass="brand"/>
+<!-- <ContactFormModalNav buttonText="Demander une Démo"/>
+<NavButton to="#pricing" buttonClass="alt" buttonLabel="Tarifs" /> -->
 </HeroSection>
 
 <span id="1"></span>
@@ -72,7 +72,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Sécurisé et Confidentiel par Design',
+    title: 'Sécurisé et Confidentiel par Conception',
     details:
       'iMind est conçu pour les conversations où la confiance est essentielle. Bien que nous nous appuyions sur une infrastructure tierce de premier ordre, [la confidentialité reste toujours entre vos mains](/guide/privacy-architecture).',
     items: [
@@ -101,8 +101,6 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
       'Interprétation voix-à-voix [💬](#1)',
       'Assistant IA [💬](#3)',
     ],
-    linkText: 'S\'inscrire gratuitement',
-    linkHref: '/guide/use-cases#negotiations',
   },
   {
     title: '**Pro** &nbsp 1-99 utilisateurs',
@@ -113,8 +111,6 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
       'Interprétation voix-à-voix [💬](#1)',
       'Assistant IA [💬](#3)',
     ],
-    linkText: 'Acheter maintenant',
-    linkHref: '/guide/use-cases#operations',
   },
   {
     title: '**Business** &nbsp 1-250 utilisateurs',
@@ -126,10 +122,12 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
       'Assistant IA [💬](#3)',
       'Confidentialité basée sur la région [💬](#4)',
     ],
-    linkText: 'Acheter maintenant',
-    linkHref: '/guide/use-cases#operations',
   }
-]" />
+]">
+<AuthButton text="S'inscrire gratuitement" buttonClass="alt"/>
+<AuthButton text="Acheter maintenant" buttonClass="brand"/>
+<ContactFormModalNav buttonText="Contacter les ventes" buttonClass="alt"/>
+</PricingPlans>
 
 ## Consultez nos FAQ pour en savoir plus.
 

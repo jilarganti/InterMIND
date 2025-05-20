@@ -3,22 +3,30 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ru"
 
 export const ru = defineConfig({
-  description: "Экспертные услуги по регистрации и сопровождению компаний в ОАЭ. Создание компаний, банковское обслуживание, налоговые, юридические и визовые решения. Воплощаем ваши бизнес-мечты в реальность!",
+  description: "Экспертные услуги по созданию и поддержке компаний в ОАЭ. Регистрация компаний, банковские услуги, налоговые, юридические решения и визовая поддержка. Воплощаем ваши бизнес-мечты в реальность!",
   head: [
-    ["meta", { property: "og:title", content: "Экспертные услуги по регистрации и сопровождению компаний в ОАЭ. Создание компаний, банковское обслуживание, налоговые, юридические и визовые решения." }],
+    ["meta", { property: "og:title", content: "Экспертные услуги по созданию и поддержке компаний в ОАЭ. Регистрация компаний, банковские услуги, налоговые, юридические решения и визовая поддержка." }],
   ],
 
   themeConfig: {
     nav: [
       {
-        text: "Руководство",
+        text: "/mind",
         activeMatch: `${BASE_PATH}/guide/`,
         items: [{ text: "Введение", link: `${BASE_PATH}/guide/what-is-imind` }],
+      },
+      {
+        text: "mind",
+        items: [
+          { text: "О нас", link: `${BASE_PATH}/resources/about` },
+          { text: "Контакты", link: `${BASE_PATH}/resources/contacts` },
+        ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/guide/`]: { base: `${BASE_PATH}/guide/`, items: sidebarServices() },
+      // [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
     },
 
     footer: {
@@ -39,10 +47,10 @@ export const ru = defineConfig({
       phone: "Корпоративный сайт *",
       phonePlaceholder: "например, https://imind.com",
       phoneError: "Пожалуйста, введите номер телефона",
-      category: "Расскажите, чем мы можем помочь *",
+      category: "Пожалуйста, расскажите, чем мы можем помочь *",
       categoryPlaceholder: "выберите тип услуги",
       message: "Обсудим ваши цели (необязательно)",
-      messagePlaceholder: "Укажите дополнительные детали (необязательно)",
+      messagePlaceholder: "Пожалуйста, укажите дополнительные детали (необязательно)",
       submit: "Отправить запрос",
       sending: "Отправка...",
       successTitle: "Спасибо!",
@@ -55,6 +63,7 @@ export const ru = defineConfig({
       ],
 
       defaultButtonText: "Отправить нам сообщение",
+      // defaultButtonText: "Получить бесплатную консультацию",
     },
   },
 })

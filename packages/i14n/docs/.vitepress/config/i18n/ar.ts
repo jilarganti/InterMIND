@@ -3,17 +3,24 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description: "خدمات تأسيس الشركات المتخصصة في الإمارات وخدمات الدعم. حلول إنشاء الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات. نحول أحلام أعمالك إلى حقيقة!",
+  description: "خدمات احترافية لتأسيس الشركات والدعم في الإمارات. حلول تأسيس الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات. نحول أحلام أعمالك إلى حقيقة!",
   head: [
-    ["meta", { property: "og:title", content: "خدمات تأسيس الشركات المتخصصة في الإمارات وخدمات الدعم. حلول إنشاء الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات." }],
+    ["meta", { property: "og:title", content: "خدمات احترافية لتأسيس الشركات والدعم في الإمارات. حلول تأسيس الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات." }],
   ],
 
   themeConfig: {
     nav: [
       {
-        text: "الدليل",
+        text: "/mind",
         activeMatch: `${BASE_PATH}/guide/`,
         items: [{ text: "مقدمة", link: `${BASE_PATH}/guide/what-is-imind` }],
+      },
+      {
+        text: "mind",
+        items: [
+          { text: "من نحن", link: `${BASE_PATH}/resources/about` },
+          { text: "اتصل بنا", link: `${BASE_PATH}/resources/contacts` },
+        ],
       },
     ],
 
@@ -39,7 +46,7 @@ export const ar = defineConfig({
       phone: "موقع الشركة *",
       phonePlaceholder: "مثال: https://imind.com",
       phoneError: "يرجى إدخال رقم الهاتف",
-      category: "يرجى إخبارنا كيف يمكننا المساعدة *",
+      category: "أخبرنا كيف يمكننا المساعدة *",
       categoryPlaceholder: "اختر نوع الخدمة",
       message: "دعنا نناقش أهدافك (اختياري)",
       messagePlaceholder: "يرجى تقديم أي تفاصيل إضافية (اختياري)",
@@ -76,7 +83,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "حول", link: "/about" },
+    { text: "من نحن", link: "/about" },
     { text: "اتصل بنا", link: "/contacts" },
   ]
 }

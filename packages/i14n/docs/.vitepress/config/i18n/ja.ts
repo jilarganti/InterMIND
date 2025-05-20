@@ -11,9 +11,16 @@ export const ja = defineConfig({
   themeConfig: {
     nav: [
       {
-        text: "ガイド",
+        text: "/mind",
         activeMatch: `${BASE_PATH}/guide/`,
         items: [{ text: "はじめに", link: `${BASE_PATH}/guide/what-is-imind` }],
+      },
+      {
+        text: "mind",
+        items: [
+          { text: "会社概要", link: `${BASE_PATH}/resources/about` },
+          { text: "お問い合わせ", link: `${BASE_PATH}/resources/contacts` },
+        ],
       },
     ],
 
@@ -46,7 +53,7 @@ export const ja = defineConfig({
       submit: "リクエストを送信",
       sending: "送信中...",
       successTitle: "ありがとうございます！",
-      successMessage: "ご興味をお持ちいただき、誠にありがとうございます！担当者が shortly にご連絡させていただきます。",
+      successMessage: "ご興味をお持ちいただき、誠にありがとうございます！担当チームが shortly にご連絡させていただきます。",
       defaultCategories: [
         "リアルタイム音声通訳に興味があります",
         "AI会議アシスタントに興味があります",

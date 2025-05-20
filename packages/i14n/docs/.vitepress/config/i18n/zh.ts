@@ -11,9 +11,16 @@ export const zh = defineConfig({
   themeConfig: {
     nav: [
       {
-        text: "指南",
+        text: "/mind",
         activeMatch: `${BASE_PATH}/guide/`,
         items: [{ text: "简介", link: `${BASE_PATH}/guide/what-is-imind` }],
+      },
+      {
+        text: "mind",
+        items: [
+          { text: "关于我们", link: `${BASE_PATH}/resources/about` },
+          { text: "联系我们", link: `${BASE_PATH}/resources/contacts` },
+        ],
       },
     ],
 
@@ -26,8 +33,8 @@ export const zh = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "询问任何问题...",
-      placeholder4ChatFooter: "询问任何问题...",
+      placeholder4SearchInput: "请输入问题...",
+      placeholder4ChatFooter: "请输入问题...",
       placeholder4ChatList: "输入聊天主题...",
       buttonLabel4NavButton: "即时专家咨询",
     },
@@ -45,7 +52,7 @@ export const zh = defineConfig({
       messagePlaceholder: "请提供任何附加详细信息（可选）",
       submit: "提交请求",
       sending: "发送中...",
-      successTitle: "谢谢！",
+      successTitle: "感谢您！",
       successMessage: "非常感谢您的关注！我们的团队将很快与您联系，讨论您的需求。",
       defaultCategories: [
         "我对实时语音翻译感兴趣",
@@ -76,7 +83,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "关于", link: "/about" },
-    { text: "联系", link: "/contacts" },
+    { text: "关于我们", link: "/about" },
+    { text: "联系我们", link: "/contacts" },
   ]
 }

@@ -26,17 +26,16 @@ City Avenue Building
 Office 405-070, Port Saeed  
 Dubái, EAU
 
-**Contacto:**
+**Póngase en Contacto:**
 
-- Correo electrónico: info@goldenfish.ae
+- Correo electrónico: info@mind.com
 - Teléfono: +971 058 574 88 06
 - WhatsApp: +971 058 574 88 06
-- Telegram: @goldenfish_ae
 
 <!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
-> [!IMPORTANT] ¿Por qué elegirnos?
+> [!IMPORTANT] ¿Por Qué Elegirnos?
 > Con un equipo de profesionales expertos y un compromiso con servicios personalizados, garantizamos una experiencia fluida y eficiente para nuestros clientes, permitiéndoles concentrarse en lo más importante: hacer crecer su negocio en los EAU.
 
-<ContactFormModalNav buttonText="Hablar con un experto" formStyle="display: block; margin: 2rem auto;"/>
+<ContactFormModalNav buttonText="Hablar con un experto" />

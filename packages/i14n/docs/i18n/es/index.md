@@ -13,9 +13,9 @@ description: "Elimine las barreras del idioma instantáneamente con la interpret
 title="Reuniones de Video **Multilingües** con Interpretación de **Voz**"
 text="Para empresas donde las **barreras del idioma** significan pérdida de negocios, retrasos y errores costosos.">
 
-<!-- <AuthButton text="Solicitar una Demo" buttonClass="brand"/> -->
-<ContactFormModalNav buttonText="Solicitar una Demo"/>
-<NavButton to="#pricing" buttonClass="alt" buttonLabel="Precios" />
+<AuthButton text="Regístrese gratis" buttonClass="brand"/>
+<!-- <ContactFormModalNav buttonText="Solicitar una Demo"/>
+<NavButton to="#pricing" buttonClass="alt" buttonLabel="Precios" /> -->
 </HeroSection>
 
 <span id="1"></span>
@@ -101,24 +101,20 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
       'Interpretación de voz a voz [💬](#1)',
       'Asistente de IA [💬](#3)',
     ],
-    linkText: 'Registrarse gratis',
-    linkHref: '/guide/use-cases#negotiations',
   },
   {
     title: '**Pro** &nbsp 1-99 usuarios',
-    price: '**$13.33** /mes/usuario, facturado anualmente',
+    price: '**$13.33** /mes/usuario, anualmente',
     details: 'o $15.99 facturado mensualmente',
     items: [
       'Reuniones de video de 150 participantes + 2 TB de almacenamiento compartido por usuario [💬](#2)',
       'Interpretación de voz a voz [💬](#1)',
       'Asistente de IA [💬](#3)',
     ],
-    linkText: 'Comprar ahora',
-    linkHref: '/guide/use-cases#operations',
   },
   {
     title: '**Business** &nbsp 1-250 usuarios',
-    price: '**$18.33** /mes/usuario, facturado anualmente',
+    price: '**$18.33** /mes/usuario, anualmente',
     details: 'o $21.99 facturado mensualmente',
     items: [
       'Reuniones de video de 500 participantes + 5 TB de almacenamiento compartido por usuario [💬](#2)',
@@ -126,10 +122,12 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
       'Asistente de IA [💬](#3)',
       'Privacidad basada en región [💬](#4)',
     ],
-    linkText: 'Comprar ahora',
-    linkHref: '/guide/use-cases#operations',
   }
-]" />
+]">
+<AuthButton text="Registrarse gratis" buttonClass="alt"/>
+<AuthButton text="Comprar ahora" buttonClass="brand"/>
+<ContactFormModalNav buttonText="Contactar ventas" buttonClass="alt"/>
+</PricingPlans>
 
 ## Consulta nuestras preguntas frecuentes para saber más.
 
