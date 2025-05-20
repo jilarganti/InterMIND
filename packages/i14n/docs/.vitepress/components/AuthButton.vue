@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { nanoid } from "nanoid"
-import { computed } from "vue"
+import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 
 const REDIRECT_AFTER_AUTH_URI_KEY = "redirect_after_auth"
 
@@ -8,29 +8,24 @@ interface Props {
   /**
    * Текст кнопки
    */
-  text?: string
+  text: string
 
   /**
    * Класс для кнопки
    */
-  buttonClass?: string
+  buttonClass?: "brand" | "alt" | "sponsor"
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  text: "Войти",
-  buttonClass: "",
-})
-
-// Вычисляемый класс, комбинирующий базовый класс и переданный извне
-const computedClass = computed(() => {
-  const baseClass = "auth-button"
-  return props.buttonClass ? `${baseClass} ${props.buttonClass}` : baseClass
+  buttonClass: "brand",
 })
 
 /**
  * Выполняет перенаправление для авторизации через OAuth
  */
-const login = (): void => {
+const login = (event: Event): void => {
+  event.preventDefault()
+
   // Сохраняем текущий путь для возврата после авторизации
   localStorage.setItem(REDIRECT_AFTER_AUTH_URI_KEY, location.pathname + location.search)
 
@@ -50,52 +45,9 @@ const login = (): void => {
 </script>
 
 <template>
-  <button :class="computedClass" @click="login">
-    {{ text }}
-  </button>
+  <VPButton :text="text" :theme="props.buttonClass" href="#" @click="login" custom />
 </template>
 
 <style scoped>
-.auth-button {
-  display: inline-block;
-  border: 1px solid transparent;
-  text-align: center;
-  font-weight: 600;
-  white-space: nowrap;
-  transition:
-    color 0.25s,
-    border-color 0.25s,
-    background-color 0.25s;
-  border-radius: 20px;
-  padding: 0 20px;
-  line-height: 38px;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-/* Кнопки со стилями VitePress */
-.brand {
-  border-color: var(--vp-button-brand-border);
-  color: var(--vp-button-brand-text);
-  background-color: var(--vp-button-brand-bg);
-}
-
-.brand:hover {
-  border-color: var(--vp-button-brand-hover-border);
-  color: var(--vp-button-brand-hover-text);
-  background-color: var(--vp-button-brand-hover-bg);
-}
-
-/* Кнопка альтернативного стиля */
-.alt {
-  border-color: var(--vp-button-alt-border);
-  color: var(--vp-button-alt-text);
-  background-color: var(--vp-button-alt-bg);
-}
-
-.alt:hover {
-  border-color: var(--vp-button-alt-hover-border);
-  color: var(--vp-button-alt-hover-text);
-  background-color: var(--vp-button-alt-hover-bg);
-}
+/* Нет необходимости в собственных стилях, так как VPButton предоставляет все необходимые стили */
 </style>
