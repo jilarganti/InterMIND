@@ -79,9 +79,9 @@ function replace(text: string, className: string, pattern: RegExp = regex): stri
 }
 
 /* Add this rule to remove underline from VPButtons within hero actions */
-:deep(.VPButton) {
+/* :deep(.VPButton) {
   text-decoration: none;
-}
+} */
 
 .plan-features {
   list-style: none;

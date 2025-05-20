@@ -28,10 +28,9 @@ Dubai, UAE
 
 **Get in Touch:**
 
-- Email: info@goldenfish.ae
+- Email: info@mind.com
 - Phone: +971 058 574 88 06
 - WhatsApp: +971 058 574 88 06
-- Telegram: @goldenfish_ae
 
 <!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->

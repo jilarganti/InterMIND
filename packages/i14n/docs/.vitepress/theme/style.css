@@ -96,6 +96,11 @@
   --vp-button-alt-active-bg: color-mix(in srgb, var(--vp-hl-color) 85%, var(--vp-c-black) 15%);
 }
 
+/* Remove underline from all VPButtons */
+.VPButton {
+  text-decoration: none !important; /* Use !important to ensure override if necessary */
+}
+
 /**
  * Component: Custom block
  * -------------------------------------------------------------------------- */

@@ -105,9 +105,9 @@ onMounted(async () => {
 }
 
 /* Add this rule to remove underline from VPButtons within hero actions */
-.hero-actions :deep(.VPButton) {
-  text-decoration: none; /* Override default link styling */
-}
+/* .hero-actions :deep(.VPButton) {
+  text-decoration: none; 
+} */
 
 @media (max-width: 640px) {
   .hero-title {
