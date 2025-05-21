@@ -1,12 +1,27 @@
 <script setup>
-import { ref, onMounted, onUnmounted } from "vue"
+import { ref, onMounted, onUnmounted, computed } from "vue"
 import { useIntervalFn } from "@vueuse/core"
+
+const props = defineProps({
+  testimonialsUrl: {
+    type: String,
+  },
+  height: {
+    type: [String, Number],
+    default: 600,
+  },
+  scrollInterval: {
+    type: Number,
+    default: 50,
+  },
+})
 
 const testimonials = ref([])
 const scrollContainer = ref(null)
 const isPaused = ref(false)
 const SCROLL_AMOUNT = 1
-const SCROLL_INTERVAL = 30 // ms
+
+const frameHeight = computed(() => (typeof props.height === "number" ? `${props.height}px` : props.height))
 
 const { pause, resume } = useIntervalFn(
   () => {
@@ -20,13 +35,13 @@ const { pause, resume } = useIntervalFn(
       el.scrollTop = 0
     }
   },
-  SCROLL_INTERVAL,
+  props.scrollInterval,
   { immediate: false },
 )
 
 async function loadTestimonials() {
   try {
-    const res = await fetch("/testimonials.json")
+    const res = await fetch(props.testimonialsUrl)
     const data = await res.json()
     testimonials.value = data.sort(() => Math.random() - 0.5)
   } catch (error) {
@@ -52,13 +67,15 @@ onUnmounted(() => pause())
 </script>
 
 <template>
-  <div class="testimonial-wrapper" ref="scrollContainer" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
+  <div class="testimonial-wrapper" ref="scrollContainer" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave" :style="{ height: frameHeight }">
     <div class="testimonial-grid">
       <div v-for="(t, i) in testimonials" :key="i" class="testimonial-card">
         <p class="testimonial-title">{{ t.title }}</p>
         <p class="testimonial-text">"{{ t.text }}"</p>
-        <p class="testimonial-author">— {{ t.author }}</p>
-        <!-- <p class="testimonial-stars">★★★★★</p> -->
+        <div class="testimonial-footer">
+          <span class="testimonial-author">— {{ t.author }}</span>
+          <span class="testimonial-stars">{{ t.stars }}</span>
+        </div>
       </div>
     </div>
     <!-- Duplicate content for continuous scrolling -->
@@ -66,8 +83,10 @@ onUnmounted(() => pause())
       <div v-for="(t, i) in testimonials" :key="`dup-${i}`" class="testimonial-card">
         <p class="testimonial-title">{{ t.title }}</p>
         <p class="testimonial-text">"{{ t.text }}"</p>
-        <p class="testimonial-author">— {{ t.author }}</p>
-        <!-- <p class="testimonial-stars">★★★★★</p> -->
+        <div class="testimonial-footer">
+          <span class="testimonial-author">— {{ t.author }}</span>
+          <span class="testimonial-stars">{{ t.stars }}</span>
+        </div>
       </div>
     </div>
   </div>
@@ -75,16 +94,10 @@ onUnmounted(() => pause())
 
 <style scoped>
 .testimonial-wrapper {
-  height: 600px;
   overflow-y: hidden;
-  /* background-color: var(--vp-c-bg-soft);  */
-  /* border: 1px solid var(--vp-c-divider); */
+  margin-top: 32px;
   border-radius: 16px;
-  /* padding: 24px; */
-  /* color: #ffffff; Removed, inherit from VitePress theme */
   position: relative;
-  /* font-family: sans-serif; Removed, inherit from VitePress theme */
-  /* Hide scrollbar */
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -94,33 +107,37 @@ onUnmounted(() => pause())
 }
 
 .testimonial-grid {
-  /* display: flex; */ /* Removed */
-  /* flex-wrap: wrap; */ /* Removed */
   column-gap: 24px;
-  /* row-gap: 24px; */ /* Removed */
-  padding-bottom: 24px;
-  /* align-items: flex-start; */ /* Removed */
-  column-count: 3; /* Added */
+  column-count: 3; /* Desktop: 3 columns */
+}
+
+@media (max-width: 1024px) {
+  .testimonial-grid {
+    column-count: 2; /* Tablet: 2 columns */
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-grid {
+    column-count: 1; /* Mobile: 1 column */
+  }
 }
 
 .testimonial-card {
-  /* flex: 1 1 calc(33.333% - 16px); */ /* Removed */
-  /* max-width: calc(33.333% - 16px); */ /* Removed */
-  background-color: var(--vp-c-bg-alt); /* Use VitePress variable */
-  border: 1px solid var(--vp-c-divider); /* Use VitePress variable */
+  background-color: var(--vp-c-bg-alt);
+  border: 1px solid var(--vp-c-divider);
   border-radius: 12px;
   padding: 16px;
   box-sizing: border-box;
   font-size: 14px;
   line-height: 1.5;
-  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); Removed */
-  break-inside: avoid-column; /* Added */
-  margin-bottom: 24px; /* Added */
+  break-inside: avoid-column;
+  margin-bottom: 24px;
 }
 
 .testimonial-title {
   font-weight: bold;
-  color: var(--vp-c-text-1); /* Use VitePress variable for primary text */
+  color: var(--vp-c-text-1);
   margin-bottom: 8px;
   font-size: 20px;
 }
@@ -130,15 +147,21 @@ onUnmounted(() => pause())
   color: var(--vp-c-text-2); /* Use VitePress variable for secondary text */
 }
 
-.testimonial-author {
+.testimonial-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 12px;
+}
+
+.testimonial-author {
   color: var(--vp-c-text-3); /* Use VitePress variable for tertiary text */
   font-weight: bold;
 }
 
 .testimonial-stars {
-  margin-top: 4px;
   color: var(--vp-hl-color); /* Use VitePress highlight color variable */
   font-size: 14px;
+  margin-top: 0; /* remove margin-top since it's now inline */
 }
 </style>

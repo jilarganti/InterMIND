@@ -154,8 +154,6 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   }
 ]" />
 
-## Summary of Customer Reviews
+## What Customers Are Saying
 
-Sales teams praise Fathom for its note-free, focus-friendly calls, quick transcriptions, and CRM sync that streamline follow-ups. It's their go-to for snagging more deals with less hassle.
-
-<AutoScrollTestimonials />
+<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
