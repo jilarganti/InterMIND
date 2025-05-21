@@ -44,10 +44,7 @@ export const en = defineConfig({
           },
           {
             text: "INSIGHTS",
-            items: [
-              { text: "Testimonials", link: `${BASE_PATH}/#what-customers-are-saying` },
-              { text: "Pricing", link: `${BASE_PATH}/#clear-and-simple-pricing` },
-            ],
+            items: [{ text: "iMind.com", link: "https://imind.com" }],
           },
         ],
       },
@@ -74,7 +71,7 @@ export const en = defineConfig({
       email: "Email *",
       emailPlaceholder: "your email address",
       phone: "Corp site *",
-      phonePlaceholder: "e.g., https://imind.com",
+      phonePlaceholder: "e.g., https://mind.com",
       phoneError: "Please enter phone number",
       category: "Please tell us how we can help *",
       categoryPlaceholder: "select service type",
