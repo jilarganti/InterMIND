@@ -21,8 +21,8 @@ const vercelUrl = process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL
 const baseUrl = vercelUrl ? `https://${vercelUrl}` : "http://localhost:3000"
 
 export const shared = defineConfig({
-  title: "mind",
-  titleTemplate: "/mind",
+  title: "/ntermind",
+  titleTemplate: "Intermind",
   // srcDir: "./docs",
   lastUpdated: true,
   cleanUrls: true,

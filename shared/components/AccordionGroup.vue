@@ -37,7 +37,7 @@ function toggle(index) {
 
 <style scoped>
 .accordion-group {
-  margin-top: 2rem;
+  margin: 2rem 0;
 }
 
 .accordion-item {

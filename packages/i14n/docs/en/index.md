@@ -129,28 +129,24 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 <ContactFormModalNav buttonText="Contact sales" buttonClass="alt"/>
 </PricingPlans>
 
-## Take a look at our FAQs to learn more.
+## Frequently Asked Questions
 
 <AccordionGroup :items="[
   {
-    q: 'Can external participants join a call?',
-    a: '**Absolutely**. For the no-cost version of iMind, participants can either sign in with a Google Account or be approved by the meeting organizer to join.<br><br>For Google Workspace customers, once you’ve created a meeting, you can invite anyone to join even if they don’t have a Google Account. Just share the link or meeting ID with all meeting participants. [💬](#2)'
+    q: 'What is a Licensed user and what is a Participant?',
+    a: 'A licensed user has either a free or paid meeting license and can schedule meetings with participants based on the capacity their plan allows. A Participant is an invitee in a meeting scheduled by someone with a meeting license. A Participant does not require an account or license to join a meeting and can join for free. Participants can join a meeting from their phone, desktop, mobile and tablet devices.'
   },
   {
-    q: 'How much does iMind cost?',
-    a: 'Anyone with a Google Account can create a video meeting, invite up to 100 participants, and meet for up to 60 minutes per meeting at no cost. For mobile calls and 1:1s, there’s no time limit.<br><br>For longer, larger meetings or additional features such as international dial-in numbers, meeting recording, live streaming, and administrative controls, see plans and pricing for organizations or Google Workspace Individual.'
+    q: 'How many participants can join the meeting?',
+    a: 'All plans allow up to 100 participants by default in each meeting (up to 150 for Pro, 500 for Business).'
   },
   {
-    q: 'How do I access premium features?',
-    a: 'Premium features are available in our Google Workspace plans and in Google One Premium.'
+    q: 'How many people can use one iMind Meetings license?',
+    a: 'A licensed user can host an unlimited number of meetings. However, if multiple users need to schedule separate meetings at the same time, you will need additional meeting licenses per user.'
   },
   {
-    q: 'Is the meeting content secure?',
-    a: 'Yes. All video and audio streams in Meet are encrypted. Users can join securely even when they\'re off site.'
-  },
-  {
-    q: 'Is a third-party service required for dial-in access?',
-    a: 'No. With Google Workspace’s Enterprise edition, you have the ability to include a phone number and PIN on each of your meetings with no other configuration required. Check the dial-in documentation for further details.'
+    q: 'What is the difference between the Basic, Pro, and Business plans?',
+    a: 'With a Basic plan, you can use a wide range of iMind products for free and host up to 25 meetings. There is no time limit per meeting. With a Pro plan, you get more meetings, more participants, and advanced features. Business plans offer the highest participant limits, more storage, and region-based privacy. See the pricing section above for details.'
   }
 ]" />
 
