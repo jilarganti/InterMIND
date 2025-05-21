@@ -29,7 +29,7 @@ export const en = defineConfig({
 
     sidebar: {
       [`${BASE_PATH}/guide/`]: { base: `${BASE_PATH}/guide/`, items: sidebarServices() },
-      // [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
     },
 
     footer: {
@@ -77,7 +77,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Introduction",
       collapsed: false,
       items: [
-        { text: "What is iMind?", link: "what-is-imind" },
+        { text: "What is InterMIND?", link: "what-is-intermind" },
         { text: "How it works", link: "how-it-works" },
         { text: "Region-Segmented Privacy Architecture by InterMind", link: "privacy-architecture" },
         { text: "Use cases", link: "use-cases" },
