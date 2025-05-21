@@ -11,12 +11,12 @@ export const ru = defineConfig({
   themeConfig: {
     nav: [
       {
-        text: "/mind",
+        text: "InterMind",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "Введение", link: `${BASE_PATH}/guide/what-is-imind` }],
+        items: [{ text: "Введение", link: `${BASE_PATH}/guide/what-is-intermind` }],
       },
       {
-        text: "mind",
+        text: "Mind",
         items: [
           { text: "О нас", link: `${BASE_PATH}/resources/about` },
           { text: "Контакты", link: `${BASE_PATH}/resources/contacts` },
@@ -76,7 +76,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Что такое iMind?", link: "what-is-imind" },
         { text: "Как это работает", link: "how-it-works" },
-        { text: "Регионально-сегментированная архитектура конфиденциальности от InterMind", link: "privacy-architecture" },
+        { text: "Регионально-сегментированная архитектура конфиденциальности InterMind", link: "privacy-architecture" },
         { text: "Примеры использования", link: "use-cases" },
       ],
     },

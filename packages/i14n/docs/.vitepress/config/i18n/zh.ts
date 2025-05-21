@@ -11,12 +11,12 @@ export const zh = defineConfig({
   themeConfig: {
     nav: [
       {
-        text: "/mind",
+        text: "InterMind",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "简介", link: `${BASE_PATH}/guide/what-is-imind` }],
+        items: [{ text: "简介", link: `${BASE_PATH}/guide/what-is-intermind` }],
       },
       {
-        text: "mind",
+        text: "Mind",
         items: [
           { text: "关于我们", link: `${BASE_PATH}/resources/about` },
           { text: "联系我们", link: `${BASE_PATH}/resources/contacts` },
@@ -52,7 +52,7 @@ export const zh = defineConfig({
       messagePlaceholder: "请提供任何附加详细信息（可选）",
       submit: "提交请求",
       sending: "发送中...",
-      successTitle: "感谢您！",
+      successTitle: "谢谢！",
       successMessage: "非常感谢您的关注！我们的团队将很快与您联系，讨论您的需求。",
       defaultCategories: [
         "我对实时语音翻译感兴趣",

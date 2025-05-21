@@ -1,11 +1,11 @@
 ---
 layout: home
 title: "Interprétation Vidéo en Temps Réel | Parlez Votre Langue, Comprenez Tout"
-description: "Éliminez instantanément les barrières linguistiques avec l'interprétation vidéo en temps réel d'i14n. Participez aux réunions dans votre langue maternelle pendant que tout le monde comprend parfaitement. Pourquoi apprendre une nouvelle langue quand la technologie peut combler le fossé ?"
+description: "Éliminez instantanément les barrières linguistiques avec l'interprétation vidéo en temps réel d'InterMind. Participez aux réunions dans votre langue maternelle pendant que tout le monde comprend parfaitement. Pourquoi apprendre une nouvelle langue quand la technologie peut combler le fossé ?"
 ---
 
-<!-- text="Concentrez-vous sur la croissance — laissez iMind gérer les langues." -->
-<!-- text="Les salles de classe prennent des années ; iMind offre une compréhension en temps réel aujourd'hui, dans toutes les langues." -->
+<!-- text="Concentrez-vous sur la croissance — laissez InterMind gérer les langues." -->
+<!-- text="Les salles de classe prennent des années ; InterMind offre une compréhension en temps réel aujourd'hui, dans toutes les langues." -->
 <!-- text="Comprenez instantanément — sans apprendre de langues étrangères" -->
 <!-- title="Réunions Vidéo avec **Interprétation** en Direct" -->
 
@@ -21,13 +21,13 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Parlez Instantanément dans Plus de 100 Langues',
-  details: 'iMind permet à chaque participant de parler sa langue maternelle — naturellement, en [temps réel](/guide/how-it-works), et sans sous-titres ni décalage.',
+  details: 'InterMind permet à chaque participant de parler sa langue maternelle — naturellement, en [temps réel](/guide/how-it-works), et sans sous-titres ni décalage.',
     items: [
       '✧ Parlez librement — soyez compris instantanément.',
       '✧ L\'interprétation alimentée par l\'IA capture le ton, l\'intention et la terminologie spécifique à l\'industrie.',
       '⚡︎ Interprétation **voix-à-voix** bidirectionnelle et continue sans configuration manuelle.',
     ],
-  link: './guide/what-is-imind',
+  link: './guide/what-is-intermind',
   src: {
     light: '/1.png',
     dark: '/1.png',
@@ -38,7 +38,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
 <span id="2"></span>
 <FeatureBlock :card="{
     title: 'Conçu pour les Réunions Professionnelles — Pas Seulement pour Discuter',
-    details: 'iMind est une plateforme de réunion vidéo de qualité professionnelle, pas un simple module complémentaire ou plugin.',
+    details: 'InterMind est une plateforme de réunion vidéo de qualité professionnelle, pas un simple module complémentaire ou plugin.',
     items: [
       '✧ Résolution 1080p, suppression intelligente du bruit et captation vocale ciblée.',
       '✧ Planification, modération, démonstrations, enregistrement et intégration complète du calendrier — tout est intégré, prêt à l\'emploi. Les réunions peuvent durer jusqu\'à 24 heures.',
@@ -55,11 +55,11 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
 <span id="3"></span>
 <FeatureBlock :card="{
   title: 'L\'**Intelligence au Cœur** de Vos Réunions',
-  details: 'iMind transforme chaque appel multilingue en connaissances claires et consultables.',
+  details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
   items: [
     '⚡︎ Recherchez instantanément tout contenu dans les réunions passées et actuelles. Posez des questions naturellement, obtenez des réponses précises sans revoir les enregistrements.',
     '✧ Ne manquez jamais les points d\'action de vos réunions. Notre IA extrait automatiquement les tâches, les responsables et les délais des conversations.',
-    '✧ Les résumés de réunion par IA fournissent instantanément les points clés dans n\'importe quelle langue, gardant tout le monde aligné sans prise de notes manuelle.',
+    '✧ Les résumés de réunion par IA délivrent instantanément les points clés dans n\'importe quelle langue, gardant tout le monde aligné sans prise de notes manuelle.',
   ],
   link: '/guide/how-it-works#🧩-deep-memory-deep-understanding',
   src: {
@@ -74,10 +74,10 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   :card="{
     title: 'Sécurisé et Confidentiel par Conception',
     details:
-      'iMind est conçu pour les conversations où la confiance est essentielle. Bien que nous nous appuyions sur une infrastructure tierce de premier ordre, [la confidentialité reste toujours entre vos mains](/guide/privacy-architecture).',
+      'InterMind est conçu pour les conversations où la confiance est essentielle. Bien que nous nous appuyions sur une infrastructure tierce de premier ordre, [la confidentialité reste toujours entre vos mains](/guide/privacy-architecture).',
     items: [
       '⚡︎ Confidentialité basée sur la région — choisissez où vos données sont traitées. Nous acheminons toute l\'interprétation, le stockage et l\'analyse via une infrastructure alignée sur votre zone de conformité (par ex. UE, États-Unis, Asie).',
-      '✧ Privé par défaut — iMind lui-même ne **stocke jamais** ni n\'utilise votre contenu pour l\'entraînement, le profilage ou l\'accès tiers.',
+      '✧ Privé par défaut — InterMind lui-même ne **stocke** ni n\'utilise jamais votre contenu pour l\'entraînement, le profilage ou l\'accès tiers.',
       '✧ Conforme par architecture — Prêt pour GDPR, CCPA et UAE PDPL, avec support complet des droits d\'exportation et de suppression.'
     ],
     link: '/guide/privacy-architecture',
@@ -104,7 +104,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   },
   {
     title: '**Pro** &nbsp 1-99 utilisateurs',
-    price: '**13,33 €** /mois/utilisateur, facturation annuelle',
+    price: '**13 €** /mois/utilisateur, facturation annuelle',
     details: 'ou 15,99 € facturation mensuelle',
     items: [
       'Réunions vidéo jusqu\'à 150 participants + 2 To de stockage mutualisé par utilisateur [💬](#2)',
@@ -114,7 +114,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   },
   {
     title: '**Business** &nbsp 1-250 utilisateurs',
-    price: '**18,33 €** /mois/utilisateur, facturation annuelle',
+    price: '**18 €** /mois/utilisateur, facturation annuelle',
     details: 'ou 21,99 € facturation mensuelle',
     items: [
       'Réunions vidéo jusqu\'à 500 participants + 5 To de stockage mutualisé par utilisateur [💬](#2)',
@@ -129,27 +129,27 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
 <ContactFormModalNav buttonText="Contacter les ventes" buttonClass="alt"/>
 </PricingPlans>
 
-## Consultez nos FAQ pour en savoir plus.
+## Questions Fréquemment Posées
 
 <AccordionGroup :items="[
   {
-    q: 'Les participants externes peuvent-ils rejoindre un appel ?',
-    a: '**Absolument**. Pour la version gratuite d\'iMind, les participants peuvent soit se connecter avec un compte Google, soit être approuvés par l\'organisateur de la réunion pour la rejoindre.<br><br>Pour les clients Google Workspace, une fois que vous avez créé une réunion, vous pouvez inviter n\'importe qui à la rejoindre, même s\'ils n\'ont pas de compte Google. Il suffit de partager le lien ou l\'ID de la réunion avec tous les participants. [💬](#2)'
+    q: 'Qu\'est-ce qu\'un utilisateur sous licence et qu\'est-ce qu\'un participant ?',
+    a: 'Un utilisateur sous licence dispose soit d\'une licence de réunion gratuite ou payante et peut programmer des réunions avec des participants selon la capacité autorisée par son forfait. Un participant est une personne invitée à une réunion programmée par quelqu\'un disposant d\'une licence de réunion. Un participant n\'a pas besoin de compte ni de licence pour rejoindre une réunion et peut participer gratuitement. Les participants peuvent rejoindre une réunion depuis leur téléphone, ordinateur de bureau, appareils mobiles et tablettes.'
   },
   {
-    q: 'Combien coûte iMind ?',
-    a: 'Toute personne disposant d\'un compte Google peut créer une visioconférence, inviter jusqu\'à 100 participants et se réunir pendant 60 minutes maximum par réunion gratuitement. Pour les appels mobiles et les conversations en tête-à-tête, il n\'y a pas de limite de temps.<br><br>Pour des réunions plus longues, plus importantes ou des fonctionnalités supplémentaires telles que les numéros d\'appel internationaux, l\'enregistrement des réunions, la diffusion en direct et les contrôles administratifs, consultez les plans et tarifs pour les organisations ou Google Workspace Individual.'
+    q: 'Combien de participants peuvent rejoindre la réunion ?',
+    a: 'Tous les forfaits permettent par défaut jusqu\'à 100 participants par réunion (jusqu\'à 150 pour Pro, 500 pour Business).'
   },
   {
-    q: 'Comment accéder aux fonctionnalités premium ?',
-    a: 'Les fonctionnalités premium sont disponibles dans nos forfaits Google Workspace et dans Google One Premium.'
+    q: 'Combien de personnes peuvent utiliser une licence InterMind Meetings ?',
+    a: 'Un utilisateur sous licence peut organiser un nombre illimité de réunions. Cependant, si plusieurs utilisateurs doivent programmer des réunions séparées en même temps, vous aurez besoin de licences de réunion supplémentaires par utilisateur.'
   },
   {
-    q: 'Le contenu de la réunion est-il sécurisé ?',
-    a: 'Oui. Tous les flux vidéo et audio dans Meet sont cryptés. Les utilisateurs peuvent rejoindre en toute sécurité même lorsqu\'ils sont hors site.'
-  },
-  {
-    q: 'Un service tiers est-il nécessaire pour l\'accès par téléphone ?',
-    a: 'Non. Avec l\'édition Enterprise de Google Workspace, vous avez la possibilité d\'inclure un numéro de téléphone et un code PIN pour chacune de vos réunions sans autre configuration requise. Consultez la documentation sur la numérotation pour plus de détails.'
+    q: 'Quelle est la différence entre les forfaits Basic, Pro et Business ?',
+    a: 'Avec un forfait Basic, vous pouvez utiliser gratuitement une large gamme de produits InterMind et organiser jusqu\'à 25 réunions. Il n\'y a pas de limite de temps par réunion. Avec un forfait Pro, vous bénéficiez de plus de réunions, plus de participants et de fonctionnalités avancées. Les forfaits Business offrent les limites de participants les plus élevées, plus de stockage et une confidentialité basée sur la région. Consultez la section tarification ci-dessus pour plus de détails.'
   }
 ]" />
+
+## Ce Que Disent Nos Clients
+
+<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>

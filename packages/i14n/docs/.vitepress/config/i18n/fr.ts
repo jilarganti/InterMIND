@@ -3,7 +3,7 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/fr"
 
 export const fr = defineConfig({
-  description: "Services experts de formation et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visas. Réalisons vos rêves professionnels !",
+  description: "Services experts de formation et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visas. Réalisons vos rêves d'entreprise !",
   head: [
     ["meta", { property: "og:title", content: "Services experts de formation et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visas." }],
   ],
@@ -11,12 +11,12 @@ export const fr = defineConfig({
   themeConfig: {
     nav: [
       {
-        text: "/mind",
+        text: "InterMind",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "Introduction", link: `${BASE_PATH}/guide/what-is-imind` }],
+        items: [{ text: "Introduction", link: `${BASE_PATH}/guide/what-is-intermind` }],
       },
       {
-        text: "mind",
+        text: "Mind",
         items: [
           { text: "À propos", link: `${BASE_PATH}/resources/about` },
           { text: "Contact", link: `${BASE_PATH}/resources/contacts` },
@@ -26,6 +26,7 @@ export const fr = defineConfig({
 
     sidebar: {
       [`${BASE_PATH}/guide/`]: { base: `${BASE_PATH}/guide/`, items: sidebarServices() },
+      // [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
     },
 
     footer: {
@@ -33,19 +34,19 @@ export const fr = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Posez votre question...",
-      placeholder4ChatFooter: "Posez votre question...",
+      placeholder4SearchInput: "Posez n'importe quelle question...",
+      placeholder4ChatFooter: "Posez n'importe quelle question...",
       placeholder4ChatList: "Entrez le sujet de discussion...",
       buttonLabel4NavButton: "Chat expert instantané",
     },
     contact_form: {
       name: "Nom *",
       namePlaceholder: "votre nom",
-      email: "Email *",
-      emailPlaceholder: "votre adresse email",
+      email: "E-mail *",
+      emailPlaceholder: "votre adresse e-mail",
       phone: "Site d'entreprise *",
-      phonePlaceholder: "ex., https://imind.com",
-      phoneError: "Veuillez saisir un numéro de téléphone",
+      phonePlaceholder: "par ex., https://imind.com",
+      phoneError: "Veuillez saisir le numéro de téléphone",
       category: "Dites-nous comment nous pouvons vous aider *",
       categoryPlaceholder: "sélectionnez le type de service",
       message: "Discutons de vos objectifs (facultatif)",
@@ -53,7 +54,7 @@ export const fr = defineConfig({
       submit: "Envoyer la demande",
       sending: "Envoi en cours...",
       successTitle: "Merci !",
-      successMessage: "Nous apprécions grandement votre intérêt ! Notre équipe vous contactera prochainement pour discuter de vos besoins.",
+      successMessage: "Nous apprécions grandement votre intérêt ! Notre équipe vous contactera sous peu pour discuter de vos besoins.",
       defaultCategories: [
         "Je suis intéressé par l'interprétation vocale en temps réel",
         "Je suis intéressé par l'assistant de réunion IA",
@@ -62,6 +63,7 @@ export const fr = defineConfig({
       ],
 
       defaultButtonText: "Envoyez-nous un message",
+      // defaultButtonText: "Obtenez une consultation gratuite",
     },
   },
 })

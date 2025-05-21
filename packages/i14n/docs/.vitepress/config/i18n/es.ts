@@ -3,20 +3,20 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/es"
 
 export const es = defineConfig({
-  description: "Servicios expertos de formación y soporte de empresas en EAU. Soluciones de establecimiento de empresas, banca, impuestos, legales y visados. ¡Haciendo realidad tus sueños empresariales!",
+  description: "Servicios expertos de formación y soporte de empresas en EAU. Soluciones de establecimiento de empresas, banca, impuestos, legales y visas. ¡Haciendo realidad tus sueños empresariales!",
   head: [
-    ["meta", { property: "og:title", content: "Servicios expertos de formación y soporte de empresas en EAU. Soluciones de establecimiento de empresas, banca, impuestos, legales y visados." }],
+    ["meta", { property: "og:title", content: "Servicios expertos de formación y soporte de empresas en EAU. Soluciones de establecimiento de empresas, banca, impuestos, legales y visas." }],
   ],
 
   themeConfig: {
     nav: [
       {
-        text: "/mind",
+        text: "InterMind",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "Introducción", link: `${BASE_PATH}/guide/what-is-imind` }],
+        items: [{ text: "Introducción", link: `${BASE_PATH}/guide/what-is-intermind` }],
       },
       {
-        text: "mind",
+        text: "Mind",
         items: [
           { text: "Acerca de", link: `${BASE_PATH}/resources/about` },
           { text: "Contacto", link: `${BASE_PATH}/resources/contacts` },
