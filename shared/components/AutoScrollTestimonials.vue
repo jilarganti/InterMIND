@@ -58,7 +58,7 @@ onUnmounted(() => pause())
         <p class="testimonial-title">{{ t.title }}</p>
         <p class="testimonial-text">"{{ t.text }}"</p>
         <p class="testimonial-author">— {{ t.author }}</p>
-        <p class="testimonial-stars">★★★★★</p>
+        <!-- <p class="testimonial-stars">★★★★★</p> -->
       </div>
     </div>
     <!-- Duplicate content for continuous scrolling -->
@@ -67,7 +67,7 @@ onUnmounted(() => pause())
         <p class="testimonial-title">{{ t.title }}</p>
         <p class="testimonial-text">"{{ t.text }}"</p>
         <p class="testimonial-author">— {{ t.author }}</p>
-        <p class="testimonial-stars">★★★★★</p>
+        <!-- <p class="testimonial-stars">★★★★★</p> -->
       </div>
     </div>
   </div>
@@ -77,10 +77,10 @@ onUnmounted(() => pause())
 .testimonial-wrapper {
   height: 600px;
   overflow-y: hidden;
-  background-color: var(--vp-c-bg-soft); /* Use VitePress variable */
-  border: 1px solid var(--vp-c-divider); /* Use VitePress variable */
+  /* background-color: var(--vp-c-bg-soft);  */
+  /* border: 1px solid var(--vp-c-divider); */
   border-radius: 16px;
-  padding: 24px;
+  /* padding: 24px; */
   /* color: #ffffff; Removed, inherit from VitePress theme */
   position: relative;
   /* font-family: sans-serif; Removed, inherit from VitePress theme */
@@ -122,7 +122,7 @@ onUnmounted(() => pause())
   font-weight: bold;
   color: var(--vp-c-text-1); /* Use VitePress variable for primary text */
   margin-bottom: 8px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .testimonial-text {

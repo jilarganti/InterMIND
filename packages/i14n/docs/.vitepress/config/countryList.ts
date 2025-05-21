@@ -5,11 +5,11 @@
 export const INCLUDED_COUNTRIES = [
   "AU", // Australia
   "AT", // Austria
-  // "AZ", // Azerbaijan
+  "AZ", // Azerbaijan
   "BE", // Belgium
   "BN", // Brunei
   "CA", // Canada
-  // "CN", // China
+  "CN", // China
   "HR", // Croatia
   "CY", // Cyprus
   "CZ", // Czechia
@@ -22,12 +22,12 @@ export const INCLUDED_COUNTRIES = [
   "HK", // Hong Kong
   "HU", // Hungary
   "IS", // Iceland
-  // "IN", // India
+  "IN", // India
   "IE", // Ireland
   "IL", // Israel
   "IT", // Italy
   "JP", // Japan
-  // "JO", // Jordan
+  "JO", // Jordan
   "KZ", // Kazakhstan
   "KW", // Kuwait
   "LV", // Latvia
@@ -42,7 +42,7 @@ export const INCLUDED_COUNTRIES = [
   "QA", // Qatar
   "RO", // Romania
   "SA", // Saudi Arabia
-  // "RS", // Serbia
+  "RS", // Serbia
   "SG", // Singapore
   "SK", // Slovakia
   "SI", // Slovenia
@@ -50,7 +50,7 @@ export const INCLUDED_COUNTRIES = [
   "ES", // Spain
   "SE", // Sweden
   "CH", // Switzerland
-  // "TR", // Turkiye
+  "TR", // Turkiye
   "AE", // United Arab Emirates
   "GB", // United Kingdom
   "US", // United States
