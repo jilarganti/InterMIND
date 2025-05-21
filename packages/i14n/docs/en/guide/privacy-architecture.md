@@ -1,4 +1,4 @@
-# 🛡️ Region-Segmented Privacy Architecture by InterMind
+# Region-Segmented Privacy Architecture by InterMind
 
 ## Introduction
 
@@ -12,7 +12,7 @@ This is why we designed InterMind with **region-based confidentiality**: you cho
 
 ---
 
-## 🎯 Core Privacy Principles
+## Core Privacy Principles
 
 ### 1. **Split Responsibility Model**
 
@@ -33,7 +33,7 @@ This is why we designed InterMind with **region-based confidentiality**: you cho
 
 ---
 
-## 🌍 Region-Based Confidentiality: How It Works
+## Region-Based Confidentiality: How It Works
 
 At the start of each session, or as part of your organization’s account settings, you can select a preferred privacy zone:
 
@@ -54,7 +54,7 @@ You may:
 
 ---
 
-## 🔐 What InterMind Guarantees
+## What InterMind Guarantees
 
 We implement strict technical and legal safeguards within our domain of control:
 
@@ -76,7 +76,7 @@ We do not store your meetings, transcripts, or conversations unless you opt in. 
 
 ---
 
-## 📜 Legal & Regulatory Compliance
+## Legal & Regulatory Compliance
 
 InterMind supports full compatibility with:
 
@@ -87,7 +87,7 @@ InterMind supports full compatibility with:
 
 ---
 
-## ⚠️ What We Can and Cannot Guarantee
+## What We Can and Cannot Guarantee
 
 We are committed to full honesty, not just legalese.
 
@@ -107,7 +107,7 @@ We are committed to full honesty, not just legalese.
 
 ---
 
-## 🔧 Trust Modes & Privacy Levels
+## Trust Modes & Privacy Levels
 
 You can customize your session to match your confidentiality needs:
 
@@ -119,7 +119,7 @@ You can customize your session to match your confidentiality needs:
 
 ---
 
-## 📦 What You Get Out of the Box
+## What You Get Out of the Box
 
 - Region-specific LLM usage, with real-time transparency.
 - No training or profiling of your content — ever.

@@ -1,15 +1,15 @@
-## 🔧 How It Works
+## How It Works
 
 > [!note] Real-time interpretation. Native-level understanding. No subtitles. No lag.
 
-### 🎙 Speak in any language — hear your own
+### Speak in any language — hear your own
 
 InterMind is a multi-user video conferencing platform with **instant, bidirectional interpretation**.
 Each participant can speak in their **own native language** — at any time — and hear everyone else in **their chosen language**.
 
 No need to wait for turns or rely on subtitles.
 
-### 🧠 Real-time translation powered by deep context
+### Real-time translation powered by deep context
 
 Behind the scenes:
 
@@ -23,12 +23,12 @@ All this happens with a **latency under 3 seconds** — equivalent to a human si
 
 [^2]: Based on current progress in AI interpretation, we expect that within 2–3 years, models will consistently outperform top-tier human interpreters — including in specialized domains like law, finance, healthcare, and engineering.
 
-### 📈 Better than human — and improving every day
+### Better than human — and improving every day
 
 InterMind enables seamless integration with leading LLM providers — selected based on your chosen privacy region.
 We don’t train our own models, but we fine-tune interpretation settings using real-world multilingual meetings to ensure relevance and clarity.
 
-### 🧩 Deep memory = deep understanding
+### Deep memory = deep understanding
 
 Unlike generic translators, InterMind **remembers your meetings**:
 
@@ -40,7 +40,7 @@ Your AI interpreter evolves with your team. It understands not just the language
 
 Confidentiality is always your choice.
 
-### 🔐 Privacy by Design
+### Privacy by Design
 
 Use [Region-Segmented Privacy Architecture](privacy-architecture) to decide where and how your data is processed.
 

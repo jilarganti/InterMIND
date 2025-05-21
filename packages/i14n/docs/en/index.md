@@ -89,7 +89,9 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   }"
 />
 
-## Pricing
+## Clear and Simple Pricing
+
+Choose the plan that fits your organization's multilingual communication needs.
 
 <PricingPlans :plans="[
   {

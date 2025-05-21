@@ -23,4 +23,4 @@ hideComponents:
 <!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
-<ContactFormModalNav  />
+<ContactFormModalNav  buttonClass="alt"/>

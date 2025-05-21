@@ -14,15 +14,41 @@ export const en = defineConfig({
         text: "InterMind",
         activeMatch: `${BASE_PATH}/guide/`,
         items: [
-          { text: "Introduction", link: `${BASE_PATH}/guide/what-is-intermind` },
-          { text: "Testimonials", link: `${BASE_PATH}/#what-customers-are-saying` },
+          {
+            text: "PRODUCT",
+            items: [
+              { text: "Get started with InterMIND", link: `${BASE_PATH}/guide/what-is-intermind` },
+              { text: "How It Works", link: `${BASE_PATH}/guide/how-it-works` },
+              { text: "FAQ", link: `${BASE_PATH}/#frequently-asked-questions` },
+            ],
+          },
+          {
+            text: "INSIGHTS",
+            items: [
+              { text: "Testimonials", link: `${BASE_PATH}/#what-customers-are-saying` },
+              { text: "Pricing", link: `${BASE_PATH}/#clear-and-simple-pricing` },
+            ],
+          },
         ],
       },
       {
         text: "Mind",
+        activeMatch: `${BASE_PATH}/resources/`,
         items: [
-          { text: "About", link: `${BASE_PATH}/resources/about` },
-          { text: "Contact", link: `${BASE_PATH}/resources/contacts` },
+          {
+            text: "COMPANY",
+            items: [
+              { text: "About Mind.com", link: `${BASE_PATH}/resources/about` },
+              { text: "Contacts", link: `${BASE_PATH}/resources/contacts` },
+            ],
+          },
+          {
+            text: "INSIGHTS",
+            items: [
+              { text: "Testimonials", link: `${BASE_PATH}/#what-customers-are-saying` },
+              { text: "Pricing", link: `${BASE_PATH}/#clear-and-simple-pricing` },
+            ],
+          },
         ],
       },
     ],

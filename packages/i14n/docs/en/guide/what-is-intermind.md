@@ -10,7 +10,9 @@ Unlike traditional translation tools, InterMIND doesn't just convert words — i
 
 [^1]: Interpreting is translation from a spoken or signed language into another language, usually in real time to facilitate live communication. [Wiki](https://en.wikipedia.org/wiki/Language_interpretation)
 
-> [!warning] Your time is better spent developing expertise in your field rather than learning languages you'll use occasionally
+> [!note] ✅ Your time is better spent mastering your craft — not memorizing grammar.
+
+> [!warning] 🛑 Either you speak every language — or someone else closes your deals.
 
 ## The Evolution of Communication Efficiency
 
@@ -21,9 +23,6 @@ Throughout history, humans have consistently adopted technologies that optimize 
 - We no longer memorize directions since GPS navigation systems emerged
 
 Language learning represents one of the last inefficient allocations of human cognitive potential. The average person spends 600–1000 hours to reach basic proficiency in a new language, with fluency requiring 2000+ hours of dedicated study. These are hours that could be invested in developing specialized expertise in your actual field.
-
-> [!warning] The reality is simple:  
-> Either you’re already speaking every language — or someone else is speaking to your clients.
 
 ## The InterMIND Philosophy
 
