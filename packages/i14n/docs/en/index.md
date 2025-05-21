@@ -1,11 +1,11 @@
 ---
 layout: home
 title: "Real-Time Video Interpretation | Speak Your Language, Understand All"
-description: "Eliminate language barriers instantly with i14n's real-time video interpretation. Join meetings in your native language while everyone understands perfectly. Why learn a new language when technology can bridge the gap?"
+description: "Eliminate language barriers instantly with InterMind's real-time video interpretation. Join meetings in your native language while everyone understands perfectly. Why learn a new language when technology can bridge the gap?"
 ---
 
-<!-- text="Focus on growth — let iMind handle the languages." -->
-<!-- text="Classrooms take years; iMind delivers real-time understanding today, in every language."> -->
+<!-- text="Focus on growth — let InterMind handle the languages." -->
+<!-- text="Classrooms take years; InterMind delivers real-time understanding today, in every language."> -->
 <!-- text="Understand instantly — without learning foreign languages" -->
 <!-- title="Live **Interpretation** Video Meetings" -->
 
@@ -21,13 +21,13 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Speak Instantly in Over 100 Languages',
-  details: 'iMind enables every participant to speak their native language — naturally, in [real time](/guide/how-it-works), and without subtitles or lag.',
+  details: 'InterMind enables every participant to speak their native language — naturally, in [real time](/guide/how-it-works), and without subtitles or lag.',
     items: [
       '✧ Speak freely — be understood instantly.',
       '✧ AI-powered interpretation captures tone, intent, and industry-specific terminology.',
       '⚡︎ Two-way, continuous, **voice-to-voice interpretation** with zero manual setup.',
     ],
-  link: './guide/what-is-imind',
+  link: './guide/what-is-intermind',
   src: {
     light: '/1.png',
     dark: '/1.png',
@@ -38,7 +38,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 <span id="2"></span>
 <FeatureBlock :card="{
     title: 'Built for Serious Meetings — Not Just Talking',
-    details: 'iMind is a professional-grade video meeting platform, not a lightweight add-on or plugin.',
+    details: 'InterMind is a professional-grade video meeting platform, not a lightweight add-on or plugin.',
     items: [
       '✧ 1080p resolution, smart noise suppression, and focused voice pickup.',
       '✧ Scheduling, moderation, demos, recording, and full calendar integration — all built in, ready to go. Meetings can run up to 24 hours.',
@@ -55,7 +55,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 <span id="3"></span>
 <FeatureBlock :card="{
   title: 'The **Mind Within** Your Meetings',
-  details: 'iMind turns every multilingual call into clear, searchable knowledge.',
+  details: 'InterMind turns every multilingual call into clear, searchable knowledge.',
   items: [
     '⚡︎ Instantly search any content across past and current meetings. Ask questions naturally, get precise answers without reviewing recordings.',
     '✧ Never miss action items from any meeting. Our AI extracts tasks, owners and deadlines automatically from conversations.',
@@ -74,10 +74,10 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   :card="{
     title: 'Secure & Confidential by Design',
     details:
-      'iMind is built for conversations where trust matters. While we rely on best-in-class third-party infrastructure, [confidentiality is always in your hands](/guide/privacy-architecture).',
+      'InterMind is built for conversations where trust matters. While we rely on best-in-class third-party infrastructure, [confidentiality is always in your hands](/guide/privacy-architecture).',
     items: [
       '⚡︎ Region-based privacy — choose where your data is processed. We route all interpretation, storage, and analytics through infrastructure aligned with your compliance zone (e.g. EU, US, Asia).',
-      '✧ Private by default — iMind itself **never** stores or uses your content for training, profiling, or third-party access.',
+      '✧ Private by default — InterMind itself **never** stores or uses your content for training, profiling, or third-party access.',
       '✧ Compliant by architecture — GDPR, CCPA, and UAE PDPL-ready, with full support for export and deletion rights.'
     ],
     link: '/guide/privacy-architecture',
@@ -141,12 +141,12 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
     a: 'All plans allow up to 100 participants by default in each meeting (up to 150 for Pro, 500 for Business).'
   },
   {
-    q: 'How many people can use one iMind Meetings license?',
+    q: 'How many people can use one InterMind Meetings license?',
     a: 'A licensed user can host an unlimited number of meetings. However, if multiple users need to schedule separate meetings at the same time, you will need additional meeting licenses per user.'
   },
   {
     q: 'What is the difference between the Basic, Pro, and Business plans?',
-    a: 'With a Basic plan, you can use a wide range of iMind products for free and host up to 25 meetings. There is no time limit per meeting. With a Pro plan, you get more meetings, more participants, and advanced features. Business plans offer the highest participant limits, more storage, and region-based privacy. See the pricing section above for details.'
+    a: 'With a Basic plan, you can use a wide range of InterMind products for free and host up to 25 meetings. There is no time limit per meeting. With a Pro plan, you get more meetings, more participants, and advanced features. Business plans offer the highest participant limits, more storage, and region-based privacy. See the pricing section above for details.'
   }
 ]" />
 

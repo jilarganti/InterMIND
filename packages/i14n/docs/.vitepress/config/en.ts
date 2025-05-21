@@ -11,12 +11,12 @@ export const en = defineConfig({
   themeConfig: {
     nav: [
       {
-        text: "/mind",
+        text: "InterMind",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "Introduction", link: `${BASE_PATH}/guide/what-is-imind` }],
+        items: [{ text: "Introduction", link: `${BASE_PATH}/guide/what-is-intermind` }],
       },
       {
-        text: "mind",
+        text: "Mind",
         items: [
           { text: "About", link: `${BASE_PATH}/resources/about` },
           { text: "Contact", link: `${BASE_PATH}/resources/contacts` },
