@@ -1,4 +1,4 @@
-# 🛡️ Arquitectura de Privacidad Segmentada por Regiones de InterMind
+# Arquitectura de Privacidad Segmentada por Regiones de InterMind
 
 ## Introducción
 
@@ -8,21 +8,21 @@ Para ofrecer una experiencia fluida, InterMind integra servicios de terceros par
 
 Creemos en la **transparencia por encima de las promesas**. Solo podemos garantizar la privacidad y seguridad de los componentes bajo nuestro control directo — nuestro software, la lógica de la interfaz y cómo enrutamos los datos. Para todo lo demás, te ofrecemos **el poder de elegir**.
 
-Por eso diseñamos InterMind con **confidencialidad basada en regiones**: tú eliges dónde se procesan tus datos, qué marco legal los gobierna y qué modelos de IA se utilizan — según la zona de privacidad que selecciones.
+Por eso diseñamos InterMind con **confidencialidad basada en regiones**: tú eliges dónde se procesan tus datos, qué marco legal los gobierna y qué modelos de IA se utilizan — según tu zona de privacidad seleccionada.
 
 ---
 
-## 🎯 Principios Fundamentales de Privacidad
+## Principios Fundamentales de Privacidad
 
 ### 1. **Modelo de Responsabilidad Compartida**
 
 - InterMind **no posee ni opera** la infraestructura en la nube subyacente ni los LLMs (modelos de lenguaje extenso).
 - No almacenamos sus archivos multimedia, ni procesamos directamente su voz para el entrenamiento de modelos.
-- **Controlamos** el software del lado del cliente, las reglas de enrutamiento y la lógica de cumplimiento — incluyendo la región por la que fluyen sus datos, qué modelo se utiliza y bajo qué condiciones.
+- **Controlamos** el software del lado del cliente, las reglas de enrutamiento y la lógica de cumplimiento, incluyendo la región por la que fluyen sus datos, qué modelo se utiliza y bajo qué condiciones.
 
 ### 2. **Transparencia Arquitectónica**
 
-- Puede ver explícitamente qué región está activa para su sesión y qué leyes se aplican (por ejemplo, GDPR en Europa, CCPA en los EE. UU., PDPL en los EAU).
+- Puede ver explícitamente qué región está activa para su sesión y qué leyes se aplican (por ejemplo, GDPR en Europa, CCPA en EE. UU., PDPL en los EAU).
 - Cada sesión se ejecuta en un **modo de cumplimiento** designado, y esta configuración es visible y auditable.
 
 ### 3. **Privacidad por Defecto**
@@ -33,28 +33,28 @@ Por eso diseñamos InterMind con **confidencialidad basada en regiones**: tú el
 
 ---
 
-## 🌍 Confidencialidad Basada en Regiones: Cómo Funciona
+## Confidencialidad por Región: Cómo Funciona
 
 Al inicio de cada sesión, o como parte de la configuración de la cuenta de su organización, puede seleccionar una zona de privacidad preferida:
 
 | Región        | Leyes Aplicables                                                                               | Infraestructura                | Proveedores LLM            |
 | ------------- | --------------------------------------------------------------------------------------------- | ------------------------------ | -------------------------- |
-| Europa        | [GDPR](https://gdpr.eu)                                                                       | Solo centros de datos de la UE | Alojados en la UE o conformes con la UE |
-| Estados Unidos | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (US)         | OpenAI US / Anthropic US   |
-| EAU / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | Nube de EAU o Bahrein          | LLMs regionales o conformes |
+| Europa        | [GDPR](https://gdpr.eu)                                                                       | Solo centros de datos de la UE | Alojados en UE o conformes |
+| United States | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (US)         | OpenAI US / Anthropic US   |
+| UAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | Nube de UAE o Bahréin          | LLMs regionales o conformes |
 | Asia / China  | Leyes locales de privacidad chinas                                                            | Alibaba, Huawei, Tencent Cloud | Solo LLMs basados en China  |
 
-Esta elección determina cómo se procesan su video, audio y contenido interpretado y a través de qué jurisdicción.
+Esta elección determina cómo se procesan sus videos, audio y contenido interpretado y a través de qué jurisdicción.
 
 Usted puede:
 
 - **Establecer una región predeterminada** para su organización
 - **Anular la región por sesión**
-- **Incluir en lista negra ciertas regiones** por completo
+- **Incluir regiones en lista negra** por completo
 
 ---
 
-## 🔐 Lo que InterMind Garantiza
+## Lo que InterMind Garantiza
 
 Implementamos estrictas salvaguardas técnicas y legales dentro de nuestro dominio de control:
 
@@ -76,7 +76,7 @@ No almacenamos sus reuniones, transcripciones o conversaciones a menos que usted
 
 ---
 
-## 📜 Cumplimiento Legal y Regulatorio
+## Cumplimiento Legal y Regulatorio
 
 InterMind garantiza la compatibilidad total con:
 
@@ -87,9 +87,9 @@ InterMind garantiza la compatibilidad total con:
 
 ---
 
-## ⚠️ Lo que Podemos y No Podemos Garantizar
+## Lo que Podemos y No Podemos Garantizar
 
-Nos comprometemos a ser completamente honestos, no solo a usar lenguaje legal.
+Estamos comprometidos con la total honestidad, no solo con términos legales.
 
 > InterMind **no puede garantizar** cómo los LLMs de terceros o los proveedores de infraestructura procesan los datos una vez que salen de nuestro control.
 
@@ -97,7 +97,7 @@ Nos comprometemos a ser completamente honestos, no solo a usar lenguaje legal.
 
 - Que OpenAI, Anthropic u otros proveedores de LLM no registren o retengan datos de entrada.
 - Que los proveedores de servicios en la nube no tengan acceso a los medios transmitidos a través de sus sistemas (a menos que utilice un enclave seguro o implementación empresarial).
-- Que el contenido enviado a un modelo de terceros esté fuera de su alcance de entrenamiento (a menos que exista un contrato privado).
+- Que el contenido transmitido a un modelo de terceros esté fuera de su alcance de entrenamiento (a menos que exista un contrato privado).
 
 ### SÍ garantizamos:
 
@@ -107,9 +107,9 @@ Nos comprometemos a ser completamente honestos, no solo a usar lenguaje legal.
 
 ---
 
-## 🔧 Modos de Confianza y Niveles de Privacidad
+## Modos de Confianza y Niveles de Privacidad
 
-Puedes personalizar tu sesión según tus necesidades de confidencialidad:
+Puede personalizar su sesión según sus necesidades de confidencialidad:
 
 | Modo de Confianza | Interpretación | Transferencia Entre Regiones | Almacenamiento     | Mejor Para                                    |
 | ----------------- | -------------- | ---------------------------- | ------------------ | --------------------------------------------- |
@@ -119,7 +119,7 @@ Puedes personalizar tu sesión según tus necesidades de confidencialidad:
 
 ---
 
-## 📦 Lo Que Obtiene Desde el Primer Momento
+## Lo Que Obtiene de Forma Inmediata
 
 - Uso de LLM específico por región, con transparencia en tiempo real.
 - Sin entrenamiento ni perfilado de su contenido — nunca.

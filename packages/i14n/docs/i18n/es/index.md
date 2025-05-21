@@ -89,7 +89,9 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
   }"
 />
 
-## Precios
+## Precios Claros y Sencillos
+
+Elija el plan que se adapte a las necesidades de comunicación multilingüe de su organización.
 
 <PricingPlans :plans="[
   {
@@ -126,7 +128,7 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
 ]">
 <AuthButton text="Registrarse gratis" buttonClass="alt"/>
 <AuthButton text="Comprar ahora" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Contactar ventas" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Contactar con ventas" buttonClass="alt"/>
 </PricingPlans>
 
 ## Preguntas Frecuentes
@@ -134,19 +136,19 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
 <AccordionGroup :items="[
   {
     q: '¿Qué es un usuario con licencia y qué es un Participante?',
-    a: 'Un usuario con licencia tiene una licencia de reunión gratuita o de pago y puede programar reuniones con participantes según la capacidad que permite su plan. Un Participante es un invitado en una reunión programada por alguien con una licencia de reunión. Un Participante no requiere una cuenta o licencia para unirse a una reunión y puede unirse de forma gratuita. Los participantes pueden unirse a una reunión desde su teléfono, computadora de escritorio, dispositivos móviles y tabletas.'
+    a: 'Un usuario con licencia tiene una licencia de reunión gratuita o de pago y puede programar reuniones con participantes según la capacidad que permite su plan. Un Participante es un invitado en una reunión programada por alguien con una licencia de reunión. Un Participante no requiere una cuenta o licencia para unirse a una reunión y puede **unirse gratuitamente**. Los participantes pueden unirse a una reunión desde dispositivos de escritorio, móviles y tabletas.'
   },
   {
-    q: '¿Cuántos participantes pueden unirse a la reunión?',
-    a: 'Todos los planes permiten hasta 100 participantes por defecto en cada reunión (hasta 150 para Pro, 500 para Business).'
+      q: '¿Cuántos participantes pueden unirse a la reunión?',
+      a: 'El número de participantes depende de tu plan: Basic permite hasta 100 participantes, Pro admite hasta 150 participantes, y Business permite hasta 500 participantes por reunión.'
   },
   {
-    q: '¿Cuántas personas pueden usar una licencia de InterMind Meetings?',
-    a: 'Un usuario con licencia puede organizar un número ilimitado de reuniones. Sin embargo, si varios usuarios necesitan programar reuniones separadas al mismo tiempo, necesitará licencias de reunión adicionales por usuario.'
+    q: '¿Cuántas personas pueden usar una licencia de InterMind?',
+    a: 'Un usuario con licencia puede organizar un número ilimitado de reuniones. Sin embargo, si varios usuarios necesitan programar reuniones separadas al mismo tiempo, necesitarás licencias de reunión adicionales por usuario.'
   },
   {
-    q: '¿Cuál es la diferencia entre los planes Basic, Pro y Business?',
-    a: 'Con un plan Basic, puede usar una amplia gama de productos InterMind de forma gratuita y organizar hasta 25 reuniones. No hay límite de tiempo por reunión. Con un plan Pro, obtiene más reuniones, más participantes y funciones avanzadas. Los planes Business ofrecen los límites más altos de participantes, más almacenamiento y privacidad basada en región. Consulte la sección de precios anterior para obtener más detalles.'
+      q: '¿La interpretación de voz funciona en todos los planes?',
+      a: 'Sí, la interpretación de voz a voz en tiempo real funciona en todos los planes, incluido el plan Basic gratuito. Sin embargo, el plan Basic está limitado a 25 reuniones en total. Los planes Pro y Business permiten reuniones ilimitadas con límites de participantes aumentados y características adicionales.'
   }
 ]" />
 

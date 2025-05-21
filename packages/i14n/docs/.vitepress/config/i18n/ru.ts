@@ -13,20 +13,46 @@ export const ru = defineConfig({
       {
         text: "InterMind",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "Введение", link: `${BASE_PATH}/guide/what-is-intermind` }],
+        items: [
+          {
+            text: "ПРОДУКТ",
+            items: [
+              { text: "Начало работы с InterMIND", link: `${BASE_PATH}/guide/what-is-intermind` },
+              { text: "Как это работает", link: `${BASE_PATH}/guide/how-it-works` },
+              { text: "Часто задаваемые вопросы", link: `${BASE_PATH}/#frequently-asked-questions` },
+            ],
+          },
+          {
+            text: "ИНФОРМАЦИЯ",
+            items: [
+              { text: "Отзывы", link: `${BASE_PATH}/#what-customers-are-saying` },
+              { text: "Цены", link: `${BASE_PATH}/#clear-and-simple-pricing` },
+            ],
+          },
+        ],
       },
       {
         text: "Mind",
+        activeMatch: `${BASE_PATH}/resources/`,
         items: [
-          { text: "О нас", link: `${BASE_PATH}/resources/about` },
-          { text: "Контакты", link: `${BASE_PATH}/resources/contacts` },
+          {
+            text: "КОМПАНИЯ",
+            items: [
+              { text: "О Mind.com", link: `${BASE_PATH}/resources/about` },
+              { text: "Контакты", link: `${BASE_PATH}/resources/contacts` },
+            ],
+          },
+          {
+            text: "ИНФОРМАЦИЯ",
+            items: [{ text: "iMind.com", link: "https://imind.com" }],
+          },
         ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/guide/`]: { base: `${BASE_PATH}/guide/`, items: sidebarServices() },
-      // [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
     },
 
     footer: {
@@ -34,8 +60,8 @@ export const ru = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Спросите что угодно...",
-      placeholder4ChatFooter: "Спросите что угодно...",
+      placeholder4SearchInput: "Задайте любой вопрос...",
+      placeholder4ChatFooter: "Задайте любой вопрос...",
       placeholder4ChatList: "Введите тему чата...",
       buttonLabel4NavButton: "Мгновенный чат с экспертом",
     },
@@ -45,12 +71,12 @@ export const ru = defineConfig({
       email: "Email *",
       emailPlaceholder: "ваш email адрес",
       phone: "Корпоративный сайт *",
-      phonePlaceholder: "например, https://imind.com",
+      phonePlaceholder: "например, https://mind.com",
       phoneError: "Пожалуйста, введите номер телефона",
       category: "Пожалуйста, расскажите, чем мы можем помочь *",
       categoryPlaceholder: "выберите тип услуги",
       message: "Обсудим ваши цели (необязательно)",
-      messagePlaceholder: "Пожалуйста, укажите дополнительные детали (необязательно)",
+      messagePlaceholder: "Пожалуйста, предоставьте дополнительные детали (необязательно)",
       submit: "Отправить запрос",
       sending: "Отправка...",
       successTitle: "Спасибо!",
@@ -74,7 +100,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Введение",
       collapsed: false,
       items: [
-        { text: "Что такое iMind?", link: "what-is-imind" },
+        { text: "Что такое InterMIND?", link: "what-is-intermind" },
         { text: "Как это работает", link: "how-it-works" },
         { text: "Регионально-сегментированная архитектура конфиденциальности InterMind", link: "privacy-architecture" },
         { text: "Примеры использования", link: "use-cases" },

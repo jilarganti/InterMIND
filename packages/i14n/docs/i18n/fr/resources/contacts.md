@@ -14,28 +14,13 @@ hideComponents:
 
 # Contactez-nous
 
-Vous souhaitez établir ou développer votre entreprise aux EAU ? Contactez Golden Fish Corporate Services Provider LLC - votre agent agréé pour la formation d'entreprise, les services PRO et l'assistance visa.
+**Prenez Contact :**
 
-**Détails de la licence :**
-
-- Numéro de licence : 1414192
-- Numéro d'enregistrement : 2411728
-
-**Emplacement du bureau :**  
-City Avenue Building  
-Bureau 405-070, Port Saeed  
-Dubaï, EAU
-
-**Contactez-nous :**
-
-- E-mail : info@mind.com
+- Email : never@mind.com
 - Téléphone : +971 058 574 88 06
 - WhatsApp : +971 058 574 88 06
 
 <!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
-> [!IMPORTANT] Pourquoi nous choisir ?
-> Avec une équipe de professionnels expérimentés et un engagement envers des services personnalisés, nous garantissons une expérience fluide et efficace pour nos clients, leur permettant de se concentrer sur l'essentiel : le développement de leur entreprise aux EAU.
-
-<ContactFormModalNav buttonText="Parler à un expert" />
+<ContactFormModalNav  buttonClass="alt"/>

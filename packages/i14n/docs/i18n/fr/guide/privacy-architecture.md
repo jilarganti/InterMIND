@@ -1,4 +1,4 @@
-# 🛡️ Architecture de Confidentialité Segmentée par Région par InterMind
+# Architecture de Confidentialité Segmentée par Région par InterMind
 
 ## Introduction
 
@@ -12,7 +12,7 @@ C'est pourquoi nous avons conçu InterMind avec une **confidentialité basée su
 
 ---
 
-## 🎯 Principes Fondamentaux de Confidentialité
+## Principes Fondamentaux de la Confidentialité
 
 ### 1. **Modèle de Responsabilité Partagée**
 
@@ -33,16 +33,16 @@ C'est pourquoi nous avons conçu InterMind avec une **confidentialité basée su
 
 ---
 
-## 🌍 Confidentialité Basée sur la Région : Comment Ça Fonctionne
+## Confidentialité par région : Comment ça fonctionne
 
 Au début de chaque session, ou dans le cadre des paramètres de compte de votre organisation, vous pouvez sélectionner une zone de confidentialité préférée :
 
-| Région        | Lois Applicables                                                                               | Infrastructure                    | Fournisseurs LLM           |
-| ------------- | --------------------------------------------------------------------------------------------- | --------------------------------- | -------------------------- |
-| Europe        | [GDPR](https://gdpr.eu)                                                                       | Centres de données UE uniquement   | Hébergés UE ou conformes UE|
-| United States | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (US)            | OpenAI US / Anthropic US   |
-| UAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | Cloud UAE ou Bahreïn              | LLMs régionaux ou conformes|
-| Asie / Chine  | Lois chinoises locales sur la confidentialité                                                 | Alibaba, Huawei, Tencent Cloud    | LLMs basés en Chine uniquement |
+| Région        | Lois applicables                                                                               | Infrastructure                      | Fournisseurs LLM           |
+| ------------- | --------------------------------------------------------------------------------------------- | ----------------------------------- | -------------------------- |
+| Europe        | [GDPR](https://gdpr.eu)                                                                       | Centres de données UE uniquement     | Hébergés UE ou conformes UE |
+| United States | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (US)              | OpenAI US / Anthropic US   |
+| UAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | Cloud UAE ou Bahreïn                | LLMs régionaux ou conformes |
+| Asie / Chine  | Lois chinoises locales sur la confidentialité                                                | Alibaba, Huawei, Cloud Tencent      | LLMs basés en Chine uniquement |
 
 Ce choix détermine comment vos vidéos, audios et contenus interprétés sont traités et à travers quelle juridiction.
 
@@ -54,7 +54,7 @@ Vous pouvez :
 
 ---
 
-## 🔐 Les Garanties d'InterMind
+## Les Garanties InterMind
 
 Nous mettons en œuvre des mesures de protection techniques et juridiques strictes dans notre domaine de contrôle :
 
@@ -76,18 +76,18 @@ Nous ne stockons pas vos réunions, transcriptions ou conversations sauf si vous
 
 ---
 
-## 📜 Conformité Légale et Réglementaire
+## Conformité Légale et Réglementaire
 
 InterMind garantit une compatibilité totale avec :
 
-- **GDPR** — Droit d'accès, de suppression, d'exportation et de limitation du traitement. Pas de profilage IA.
+- **GDPR** — Droit d'accès, de suppression, d'exportation et de limitation du traitement. Pas de profilage par IA.
 - **CCPA** — Pas de vente de données personnelles, options de désactivation et pratiques de collecte transparentes.
 - **UAE PDPL** — Stockage local sur demande, contrôles d'accès stricts, pas de transferts internationaux sans consentement.
 - **China DSL/PIPL** — Traitement uniquement dans la région, pas d'acheminement à l'étranger si la Chine est sélectionnée.
 
 ---
 
-## ⚠️ Ce que nous pouvons et ne pouvons pas garantir
+## Ce Que Nous Pouvons et Ne Pouvons Pas Garantir
 
 Nous nous engageons à une honnêteté totale, pas seulement à un langage juridique.
 
@@ -107,21 +107,21 @@ Nous nous engageons à une honnêteté totale, pas seulement à un langage jurid
 
 ---
 
-## 🔧 Modes de Confiance & Niveaux de Confidentialité
+## Modes de Confiance & Niveaux de Confidentialité
 
 Vous pouvez personnaliser votre session selon vos besoins en matière de confidentialité :
 
 | Mode de Confiance | Interprétation | Transfert Inter-Régions | Stockage           | Idéal Pour                                    |
-| ---------------- | -------------- | ---------------------- | ------------------ | --------------------------------------------- |
-| 🔒 Local Uniquement | ❌             | ❌                     | ❌                 | Juridique, gouvernement, examens internes     |
-| 🔐 Verrouillé par Région | ✅        | ✅ (zone unique)       | ❌ ou session uniquement | Santé, finance, RH                    |
-| 🌐 Flexibilité Globale | ✅          | ✅ (multi-régions)     | ✅                 | Support, ventes, équipes multinationales      |
+| ---------------- | -------------- | ----------------------- | ------------------ | --------------------------------------------- |
+| 🔒 Local Uniquement | ❌             | ❌                      | ❌                 | Juridique, gouvernement, examens internes     |
+| 🔐 Verrouillé par Région | ✅        | ✅ (dans la zone uniquement) | ❌ ou session uniquement | Santé, finance, RH                    |
+| 🌐 Flexibilité Globale | ✅         | ✅ (multi-régions)      | ✅                 | Support, ventes, équipes multinationales      |
 
 ---
 
-## 📦 Ce Que Vous Obtenez Directement
+## Ce Que Vous Obtenez Directement
 
-- Utilisation des LLM spécifique à la région, avec transparence en temps réel.
+- Utilisation des LLM spécifique à chaque région, avec transparence en temps réel.
 - Aucun entraînement ni profilage de votre contenu — jamais.
 - Zéro transmission de données si l'interprétation est désactivée.
 - Stockage de données optionnel, toujours limité à la région.

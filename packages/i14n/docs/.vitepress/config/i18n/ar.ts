@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description: "خدمات تأسيس الشركات والدعم المتخصصة في الإمارات. حلول تأسيس الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات. نحول أحلام أعمالك إلى حقيقة!",
+  description: "خدمات تأسيس الشركات المتخصصة في الإمارات وخدمات الدعم. حلول إنشاء الشركات والخدمات المصرفية والضرائب والقانونية والتأشيرات. نحول أحلام أعمالك إلى حقيقة!",
   head: [
-    ["meta", { property: "og:title", content: "خدمات تأسيس الشركات والدعم المتخصصة في الإمارات. حلول تأسيس الشركات والخدمات المصرفية والضرائب والقانون والتأشيرات." }],
+    ["meta", { property: "og:title", content: "خدمات تأسيس الشركات المتخصصة في الإمارات وخدمات الدعم. حلول إنشاء الشركات والخدمات المصرفية والضرائب والقانونية والتأشيرات." }],
   ],
 
   themeConfig: {
@@ -13,19 +13,46 @@ export const ar = defineConfig({
       {
         text: "إنترمايند",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "مقدمة", link: `${BASE_PATH}/guide/what-is-intermind` }],
+        items: [
+          {
+            text: "المنتج",
+            items: [
+              { text: "ابدأ مع إنترمايند", link: `${BASE_PATH}/guide/what-is-intermind` },
+              { text: "كيف يعمل", link: `${BASE_PATH}/guide/how-it-works` },
+              { text: "الأسئلة الشائعة", link: `${BASE_PATH}/#frequently-asked-questions` },
+            ],
+          },
+          {
+            text: "رؤى",
+            items: [
+              { text: "آراء العملاء", link: `${BASE_PATH}/#what-customers-are-saying` },
+              { text: "الأسعار", link: `${BASE_PATH}/#clear-and-simple-pricing` },
+            ],
+          },
+        ],
       },
       {
         text: "مايند",
+        activeMatch: `${BASE_PATH}/resources/`,
         items: [
-          { text: "عن الشركة", link: `${BASE_PATH}/resources/about` },
-          { text: "اتصل بنا", link: `${BASE_PATH}/resources/contacts` },
+          {
+            text: "الشركة",
+            items: [
+              { text: "عن مايند.كوم", link: `${BASE_PATH}/resources/about` },
+              { text: "اتصل بنا", link: `${BASE_PATH}/resources/contacts` },
+            ],
+          },
+          {
+            text: "رؤى",
+            items: [{ text: "آي مايند.كوم", link: "https://imind.com" }],
+          },
         ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/guide/`]: { base: `${BASE_PATH}/guide/`, items: sidebarServices() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
     },
 
     footer: {
@@ -44,9 +71,9 @@ export const ar = defineConfig({
       email: "البريد الإلكتروني *",
       emailPlaceholder: "عنوان بريدك الإلكتروني",
       phone: "موقع الشركة *",
-      phonePlaceholder: "مثال: https://imind.com",
+      phonePlaceholder: "مثال: https://mind.com",
       phoneError: "يرجى إدخال رقم الهاتف",
-      category: "أخبرنا كيف يمكننا المساعدة *",
+      category: "يرجى إخبارنا كيف يمكننا المساعدة *",
       categoryPlaceholder: "اختر نوع الخدمة",
       message: "دعنا نناقش أهدافك (اختياري)",
       messagePlaceholder: "يرجى تقديم أي تفاصيل إضافية (اختياري)",
@@ -72,9 +99,9 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "مقدمة",
       collapsed: false,
       items: [
-        { text: "ما هو آي مايند؟", link: "what-is-imind" },
+        { text: "ما هو إنترمايند؟", link: "what-is-intermind" },
         { text: "كيف يعمل", link: "how-it-works" },
-        { text: "هندسة الخصوصية المقسمة حسب المنطقة من إنترمايند", link: "privacy-architecture" },
+        { text: "هندسة الخصوصية المقسمة حسب المناطق من إنترمايند", link: "privacy-architecture" },
         { text: "حالات الاستخدام", link: "use-cases" },
       ],
     },

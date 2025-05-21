@@ -13,19 +13,46 @@ export const ja = defineConfig({
       {
         text: "InterMind",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "はじめに", link: `${BASE_PATH}/guide/what-is-intermind` }],
+        items: [
+          {
+            text: "製品",
+            items: [
+              { text: "InterMINDを始める", link: `${BASE_PATH}/guide/what-is-intermind` },
+              { text: "仕組みについて", link: `${BASE_PATH}/guide/how-it-works` },
+              { text: "よくある質問", link: `${BASE_PATH}/#frequently-asked-questions` },
+            ],
+          },
+          {
+            text: "インサイト",
+            items: [
+              { text: "お客様の声", link: `${BASE_PATH}/#what-customers-are-saying` },
+              { text: "料金", link: `${BASE_PATH}/#clear-and-simple-pricing` },
+            ],
+          },
+        ],
       },
       {
         text: "Mind",
+        activeMatch: `${BASE_PATH}/resources/`,
         items: [
-          { text: "会社概要", link: `${BASE_PATH}/resources/about` },
-          { text: "お問い合わせ", link: `${BASE_PATH}/resources/contacts` },
+          {
+            text: "会社情報",
+            items: [
+              { text: "Mind.comについて", link: `${BASE_PATH}/resources/about` },
+              { text: "お問い合わせ", link: `${BASE_PATH}/resources/contacts` },
+            ],
+          },
+          {
+            text: "インサイト",
+            items: [{ text: "iMind.com", link: "https://imind.com" }],
+          },
         ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/guide/`]: { base: `${BASE_PATH}/guide/`, items: sidebarServices() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
     },
 
     footer: {
@@ -36,7 +63,7 @@ export const ja = defineConfig({
       placeholder4SearchInput: "質問を入力してください...",
       placeholder4ChatFooter: "質問を入力してください...",
       placeholder4ChatList: "チャットトピックを入力...",
-      buttonLabel4NavButton: "専門家とすぐチャット",
+      buttonLabel4NavButton: "専門家とすぐにチャット",
     },
     contact_form: {
       name: "お名前 *",
@@ -44,11 +71,11 @@ export const ja = defineConfig({
       email: "メールアドレス *",
       emailPlaceholder: "あなたのメールアドレス",
       phone: "企業サイト *",
-      phonePlaceholder: "例：https://imind.com",
+      phonePlaceholder: "例：https://mind.com",
       phoneError: "電話番号を入力してください",
-      category: "ご要望をお聞かせください *",
+      category: "ご希望のサービスをお選びください *",
       categoryPlaceholder: "サービスタイプを選択",
-      message: "目標についてご相談ください（任意）",
+      message: "目標についてお聞かせください（任意）",
       messagePlaceholder: "追加の詳細情報をご記入ください（任意）",
       submit: "リクエストを送信",
       sending: "送信中...",
@@ -62,6 +89,7 @@ export const ja = defineConfig({
       ],
 
       defaultButtonText: "メッセージを送信",
+      // defaultButtonText: "無料相談を受ける",
     },
   },
 })
@@ -72,7 +100,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "はじめに",
       collapsed: false,
       items: [
-        { text: "iMindとは？", link: "what-is-imind" },
+        { text: "InterMINDとは？", link: "what-is-intermind" },
         { text: "仕組みについて", link: "how-it-works" },
         { text: "InterMindによる地域分割プライバシーアーキテクチャ", link: "privacy-architecture" },
         { text: "ユースケース", link: "use-cases" },

@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/fr"
 
 export const fr = defineConfig({
-  description: "Services experts de formation et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visas. Réalisons vos rêves d'entreprise !",
+  description: "Services experts de formation et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa. Réalisons vos rêves d'entreprise !",
   head: [
-    ["meta", { property: "og:title", content: "Services experts de formation et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visas." }],
+    ["meta", { property: "og:title", content: "Services experts de formation et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa." }],
   ],
 
   themeConfig: {
@@ -13,20 +13,46 @@ export const fr = defineConfig({
       {
         text: "InterMind",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "Introduction", link: `${BASE_PATH}/guide/what-is-intermind` }],
+        items: [
+          {
+            text: "PRODUIT",
+            items: [
+              { text: "Débuter avec InterMIND", link: `${BASE_PATH}/guide/what-is-intermind` },
+              { text: "Comment ça marche", link: `${BASE_PATH}/guide/how-it-works` },
+              { text: "FAQ", link: `${BASE_PATH}/#frequently-asked-questions` },
+            ],
+          },
+          {
+            text: "APERÇUS",
+            items: [
+              { text: "Témoignages", link: `${BASE_PATH}/#what-customers-are-saying` },
+              { text: "Tarification", link: `${BASE_PATH}/#clear-and-simple-pricing` },
+            ],
+          },
+        ],
       },
       {
         text: "Mind",
+        activeMatch: `${BASE_PATH}/resources/`,
         items: [
-          { text: "À propos", link: `${BASE_PATH}/resources/about` },
-          { text: "Contact", link: `${BASE_PATH}/resources/contacts` },
+          {
+            text: "ENTREPRISE",
+            items: [
+              { text: "À propos de Mind.com", link: `${BASE_PATH}/resources/about` },
+              { text: "Contacts", link: `${BASE_PATH}/resources/contacts` },
+            ],
+          },
+          {
+            text: "APERÇUS",
+            items: [{ text: "iMind.com", link: "https://imind.com" }],
+          },
         ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/guide/`]: { base: `${BASE_PATH}/guide/`, items: sidebarServices() },
-      // [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
     },
 
     footer: {
@@ -36,17 +62,17 @@ export const fr = defineConfig({
     localization: {
       placeholder4SearchInput: "Posez n'importe quelle question...",
       placeholder4ChatFooter: "Posez n'importe quelle question...",
-      placeholder4ChatList: "Entrez le sujet de discussion...",
+      placeholder4ChatList: "Saisissez le sujet du chat...",
       buttonLabel4NavButton: "Chat expert instantané",
     },
     contact_form: {
       name: "Nom *",
       namePlaceholder: "votre nom",
-      email: "E-mail *",
-      emailPlaceholder: "votre adresse e-mail",
+      email: "Email *",
+      emailPlaceholder: "votre adresse email",
       phone: "Site d'entreprise *",
-      phonePlaceholder: "par ex., https://imind.com",
-      phoneError: "Veuillez saisir le numéro de téléphone",
+      phonePlaceholder: "ex., https://mind.com",
+      phoneError: "Veuillez saisir un numéro de téléphone",
       category: "Dites-nous comment nous pouvons vous aider *",
       categoryPlaceholder: "sélectionnez le type de service",
       message: "Discutons de vos objectifs (facultatif)",
@@ -63,7 +89,6 @@ export const fr = defineConfig({
       ],
 
       defaultButtonText: "Envoyez-nous un message",
-      // defaultButtonText: "Obtenez une consultation gratuite",
     },
   },
 })
@@ -74,7 +99,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Introduction",
       collapsed: false,
       items: [
-        { text: "Qu'est-ce que iMind ?", link: "what-is-imind" },
+        { text: "Qu'est-ce que InterMIND ?", link: "what-is-intermind" },
         { text: "Comment ça marche", link: "how-it-works" },
         { text: "Architecture de confidentialité segmentée par région par InterMind", link: "privacy-architecture" },
         { text: "Cas d'utilisation", link: "use-cases" },

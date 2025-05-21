@@ -59,7 +59,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   items: [
     '⚡︎ Recherchez instantanément tout contenu dans les réunions passées et actuelles. Posez des questions naturellement, obtenez des réponses précises sans revoir les enregistrements.',
     '✧ Ne manquez jamais les points d\'action de vos réunions. Notre IA extrait automatiquement les tâches, les responsables et les délais des conversations.',
-    '✧ Les résumés de réunion par IA délivrent instantanément les points clés dans n\'importe quelle langue, gardant tout le monde aligné sans prise de notes manuelle.',
+    '✧ Les résumés de réunion par IA fournissent instantanément les points clés dans n\'importe quelle langue, gardant tout le monde aligné sans prise de notes manuelle.',
   ],
   link: '/guide/how-it-works#🧩-deep-memory-deep-understanding',
   src: {
@@ -77,7 +77,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
       'InterMind est conçu pour les conversations où la confiance est essentielle. Bien que nous nous appuyions sur une infrastructure tierce de premier ordre, [la confidentialité reste toujours entre vos mains](/guide/privacy-architecture).',
     items: [
       '⚡︎ Confidentialité basée sur la région — choisissez où vos données sont traitées. Nous acheminons toute l\'interprétation, le stockage et l\'analyse via une infrastructure alignée sur votre zone de conformité (par ex. UE, États-Unis, Asie).',
-      '✧ Privé par défaut — InterMind lui-même ne **stocke** ni n\'utilise jamais votre contenu pour l\'entraînement, le profilage ou l\'accès tiers.',
+      '✧ Privé par défaut — InterMind lui-même ne **stocke** ni n\'utilise jamais votre contenu pour l\'entraînement, le profilage ou l\'accès par des tiers.',
       '✧ Conforme par architecture — Prêt pour GDPR, CCPA et UAE PDPL, avec support complet des droits d\'exportation et de suppression.'
     ],
     link: '/guide/privacy-architecture',
@@ -89,15 +89,17 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   }"
 />
 
-## Tarification
+## Prix Clairs et Simples
+
+Choisissez le forfait qui correspond aux besoins de communication multilingue de votre organisation.
 
 <PricingPlans :plans="[
   {
-    title: '**Basique** &nbsp 1 utilisateur',
+    title: '**Basic** &nbsp 1 utilisateur',
     price: '**Gratuit**',
     details: '25 réunions gratuites',
     items: [
-      'Réunions vidéo jusqu\'à 100 participants + 30 Go de stockage mutualisé par utilisateur [💬](#2)',
+      'Réunions vidéo de 100 participants + 30 Go de stockage mutualisé par utilisateur [💬](#2)',
       'Interprétation voix-à-voix [💬](#1)',
       'Assistant IA [💬](#3)',
     ],
@@ -107,7 +109,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
     price: '**13 €** /mois/utilisateur, facturation annuelle',
     details: 'ou 15,99 € facturation mensuelle',
     items: [
-      'Réunions vidéo jusqu\'à 150 participants + 2 To de stockage mutualisé par utilisateur [💬](#2)',
+      'Réunions vidéo de 150 participants + 2 To de stockage mutualisé par utilisateur [💬](#2)',
       'Interprétation voix-à-voix [💬](#1)',
       'Assistant IA [💬](#3)',
     ],
@@ -117,7 +119,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
     price: '**18 €** /mois/utilisateur, facturation annuelle',
     details: 'ou 21,99 € facturation mensuelle',
     items: [
-      'Réunions vidéo jusqu\'à 500 participants + 5 To de stockage mutualisé par utilisateur [💬](#2)',
+      'Réunions vidéo de 500 participants + 5 To de stockage mutualisé par utilisateur [💬](#2)',
       'Interprétation voix-à-voix [💬](#1)',
       'Assistant IA [💬](#3)',
       'Confidentialité basée sur la région [💬](#4)',
@@ -134,19 +136,19 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
 <AccordionGroup :items="[
   {
     q: 'Qu\'est-ce qu\'un utilisateur sous licence et qu\'est-ce qu\'un participant ?',
-    a: 'Un utilisateur sous licence dispose soit d\'une licence de réunion gratuite ou payante et peut programmer des réunions avec des participants selon la capacité autorisée par son forfait. Un participant est une personne invitée à une réunion programmée par quelqu\'un disposant d\'une licence de réunion. Un participant n\'a pas besoin de compte ni de licence pour rejoindre une réunion et peut participer gratuitement. Les participants peuvent rejoindre une réunion depuis leur téléphone, ordinateur de bureau, appareils mobiles et tablettes.'
+    a: 'Un utilisateur sous licence dispose soit d\'une licence de réunion gratuite ou payante et peut programmer des réunions avec des participants selon la capacité autorisée par son forfait. Un participant est une personne invitée à une réunion programmée par quelqu\'un disposant d\'une licence de réunion. Un participant n\'a pas besoin de compte ni de licence pour rejoindre une réunion et peut **participer gratuitement**. Les participants peuvent rejoindre une réunion depuis un ordinateur de bureau, un mobile ou une tablette.'
   },
   {
-    q: 'Combien de participants peuvent rejoindre la réunion ?',
-    a: 'Tous les forfaits permettent par défaut jusqu\'à 100 participants par réunion (jusqu\'à 150 pour Pro, 500 pour Business).'
+      q: 'Combien de participants peuvent rejoindre la réunion ?',
+      a: 'Le nombre de participants dépend de votre forfait : Basic permet jusqu\'à 100 participants, Pro prend en charge jusqu\'à 150 participants, et Business accueille jusqu\'à 500 participants par réunion.'
   },
   {
-    q: 'Combien de personnes peuvent utiliser une licence InterMind Meetings ?',
+    q: 'Combien de personnes peuvent utiliser une licence InterMind ?',
     a: 'Un utilisateur sous licence peut organiser un nombre illimité de réunions. Cependant, si plusieurs utilisateurs doivent programmer des réunions séparées en même temps, vous aurez besoin de licences de réunion supplémentaires par utilisateur.'
   },
   {
-    q: 'Quelle est la différence entre les forfaits Basic, Pro et Business ?',
-    a: 'Avec un forfait Basic, vous pouvez utiliser gratuitement une large gamme de produits InterMind et organiser jusqu\'à 25 réunions. Il n\'y a pas de limite de temps par réunion. Avec un forfait Pro, vous bénéficiez de plus de réunions, plus de participants et de fonctionnalités avancées. Les forfaits Business offrent les limites de participants les plus élevées, plus de stockage et une confidentialité basée sur la région. Consultez la section tarification ci-dessus pour plus de détails.'
+      q: 'L\'interprétation vocale fonctionne-t-elle sur tous les forfaits ?',
+      a: 'Oui, l\'interprétation vocale en temps réel fonctionne sur tous les forfaits, y compris le forfait Basic gratuit. Cependant, le forfait Basic est limité à 25 réunions au total. Les forfaits Pro et Business permettent des réunions illimitées avec des limites de participants accrues et des fonctionnalités supplémentaires.'
   }
 ]" />
 
