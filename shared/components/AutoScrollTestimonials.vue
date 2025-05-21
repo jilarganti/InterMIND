@@ -94,16 +94,18 @@ onUnmounted(() => pause())
 }
 
 .testimonial-grid {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */ /* Removed */
+  /* flex-wrap: wrap; */ /* Removed */
   column-gap: 24px;
-  row-gap: 24px;
+  /* row-gap: 24px; */ /* Removed */
   padding-bottom: 24px;
+  /* align-items: flex-start; */ /* Removed */
+  column-count: 3; /* Added */
 }
 
 .testimonial-card {
-  flex: 1 1 calc(33.333% - 16px);
-  max-width: calc(33.333% - 16px);
+  /* flex: 1 1 calc(33.333% - 16px); */ /* Removed */
+  /* max-width: calc(33.333% - 16px); */ /* Removed */
   background-color: var(--vp-c-bg-alt); /* Use VitePress variable */
   border: 1px solid var(--vp-c-divider); /* Use VitePress variable */
   border-radius: 12px;
@@ -112,6 +114,8 @@ onUnmounted(() => pause())
   font-size: 14px;
   line-height: 1.5;
   /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); Removed */
+  break-inside: avoid-column; /* Added */
+  margin-bottom: 24px; /* Added */
 }
 
 .testimonial-title {
