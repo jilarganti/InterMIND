@@ -13,7 +13,10 @@ export const en = defineConfig({
       {
         text: "InterMind",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [{ text: "Introduction", link: `${BASE_PATH}/guide/what-is-intermind` }],
+        items: [
+          { text: "Introduction", link: `${BASE_PATH}/guide/what-is-intermind` },
+          { text: "Testimonials", link: `${BASE_PATH}/#what-customers-are-saying` },
+        ],
       },
       {
         text: "Mind",

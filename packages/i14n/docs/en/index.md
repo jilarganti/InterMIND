@@ -134,23 +134,19 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 <AccordionGroup :items="[
   {
     q: 'What is a Licensed user and what is a Participant?',
-    a: 'A licensed user has either a free or paid meeting license and can schedule meetings with participants based on the capacity their plan allows. A Participant is an invitee in a meeting scheduled by someone with a meeting license. A Participant does not require an account or license to join a meeting and can join for free. Participants can join a meeting from desktop, mobile and tablet devices.'
+    a: 'A licensed user has either a free or paid meeting license and can schedule meetings with participants based on the capacity their plan allows. A Participant is an invitee in a meeting scheduled by someone with a meeting license. A Participant does not require an account or license to join a meeting and can **join for free**. Participants can join a meeting from desktop, mobile and tablet devices.'
   },
   {
-    {
       q: 'How many participants can join the meeting?',
       a: 'The number of participants depends on your plan: Basic allows up to 100 participants, Pro supports up to 150 participants, and Business accommodates up to 500 participants per meeting.'
-    },
   },
   {
     q: 'How many people can use one InterMind license?',
     a: 'A licensed user can host an unlimited number of meetings. However, if multiple users need to schedule separate meetings at the same time, you will need additional meeting licenses per user.'
   },
   {
-    {
       q: 'Does voice interpretation work on all plans?',
       a: 'Yes, real-time voice-to-voice interpretation works on all plans, including the Free Basic plan. However, the Basic plan is limited to 25 meetings total. Pro and Business plans allow unlimited meetings with increased participant limits and additional features.'
-    }
   }
 ]" />
 
