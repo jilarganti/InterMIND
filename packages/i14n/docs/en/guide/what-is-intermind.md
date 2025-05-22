@@ -1,4 +1,4 @@
-# InterMIND: Understand Every Language. Instantly.
+# The Fastest Way to Speak Every Language — Without Learning It
 
 ## The language barrier ends here
 

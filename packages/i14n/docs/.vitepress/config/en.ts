@@ -13,40 +13,26 @@ export const en = defineConfig({
       {
         text: "Product",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [
-          {
-            text: "InterMIND",
-            items: [
-              { text: "Speak. Instantly.", link: `${BASE_PATH}/guide/what-is-intermind` },
-              { text: "How It Works", link: `${BASE_PATH}/guide/how-it-works` },
-              { text: "FAQ", link: `${BASE_PATH}/#frequently-asked-questions` },
-            ],
-          },
-          {
-            text: "INSIGHTS",
-            items: [
-              { text: "Testimonials", link: `${BASE_PATH}/#what-customers-are-saying` },
-              { text: "Pricing", link: `${BASE_PATH}/#clear-and-simple-pricing` },
-            ],
-          },
-        ],
+        link: `${BASE_PATH}/guide/what-is-intermind`,
       },
       {
         text: "Company",
         activeMatch: `${BASE_PATH}/resources/`,
+        link: `${BASE_PATH}/resources/about`,
+      },
+      {
+        text: "Resources",
+        activeMatch: `${BASE_PATH}/guide/`,
+        // items: [
+        //   {
+        //     text: "EXPLORE",
         items: [
-          {
-            text: "MIND",
-            items: [
-              { text: "About Mind.com", link: `${BASE_PATH}/resources/about` },
-              { text: "Contacts", link: `${BASE_PATH}/resources/contacts` },
-            ],
-          },
-          {
-            text: "INSIGHTS",
-            items: [{ text: "iMind.com", link: "https://imind.com" }],
-          },
+          { text: "Pricing", link: `${BASE_PATH}/#clear-and-simple-pricing` },
+          { text: "FAQ", link: `${BASE_PATH}/#frequently-asked-questions` },
+          { text: "Testimonials", link: `${BASE_PATH}/#what-customers-are-saying` },
         ],
+        //   },
+        // ],
       },
     ],
 
@@ -101,8 +87,8 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "What is InterMIND?", link: "what-is-intermind" },
-        { text: "How it works", link: "how-it-works" },
-        { text: "Region-Segmented Privacy Architecture by InterMind", link: "privacy-architecture" },
+        { text: "How it Works", link: "how-it-works" },
+        { text: "Region-Segmented Privacy Architecture by InterMIND", link: "privacy-architecture" },
         { text: "Use cases", link: "use-cases" },
       ],
     },
