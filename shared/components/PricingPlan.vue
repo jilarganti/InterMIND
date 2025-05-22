@@ -65,6 +65,7 @@ function replace(text: string, className: string, pattern: RegExp = regex): stri
 .plan-price {
   font-size: 0.8rem;
   color: var(--vp-c-text-1);
+  white-space: nowrap;
 }
 
 .plan-action :deep(.VPButton) {

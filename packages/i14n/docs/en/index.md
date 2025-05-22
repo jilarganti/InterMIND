@@ -13,7 +13,7 @@ description: "Eliminate language barriers instantly with InterMind's real-time v
 title="**Multilingual** Video Meetings with **Voice** Interpretation"
 text="For companies where **language barriers** mean lost deals, delays, and costly mistakes.">
 
-<AuthButton text="Sign up for free" buttonClass="brand"/>
+<AuthButton text="Try for free" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Request a Demo"/>
 <NavButton to="#pricing" buttonClass="alt" buttonLabel="Pricing" /> -->
 </HeroSection>
@@ -106,8 +106,8 @@ Choose the plan that fits your organization's multilingual communication needs.
   },
   {
     title: '**Pro** &nbsp 1-99 users',
-    price: '**$13** /month/user, billed annually',
-    details: 'or $15.99 billed monthly',
+    price: '**$20** /month/user, billed annually',
+    details: 'or $13.99 billed monthly',
     items: [
       '150 participant video meetings + 2 TB pooled storage per user [💬](#2)',
       'Voice-to-voice interpretation [💬](#1)',
@@ -115,9 +115,9 @@ Choose the plan that fits your organization's multilingual communication needs.
     ],
   },
   {
-    title: '**Business** &nbsp 1-250 users',
-    price: '**$18** /month/user, billed annually',
-    details: 'or $21.99 billed monthly',
+    title: '**Business** &nbsp 1–250 users',
+    price: '**Tailored** plan for large teams',
+    details: 'Optimized for scale, privacy, and control',
     items: [
       '500 participant video meetings + 5 TB pooled storage per user [💬](#2)',
       'Voice-to-voice interpretation [💬](#1)',
@@ -126,7 +126,7 @@ Choose the plan that fits your organization's multilingual communication needs.
     ],
   }
 ]">
-<AuthButton text="Sign up for free" buttonClass="alt"/>
+<AuthButton text="Try for free" buttonClass="alt"/>
 <AuthButton text="Buy now" buttonClass="brand"/>
 <ContactFormModalNav buttonText="Contact sales" buttonClass="alt"/>
 </PricingPlans>
