@@ -5,7 +5,7 @@ import { gtmHead } from "./gtm.config"
 import llmstxt from "vitepress-plugin-llms"
 
 // Обновляем URL сайта документации
-const hostUrl = "https://intermind.com"
+const hostUrl = "https://mind.com"
 const NOINDEX_PAGES = ["test", "chat"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
 // Список UTM-параметров для сохранения в параметрах страницы
