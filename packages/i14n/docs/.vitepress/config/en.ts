@@ -11,13 +11,13 @@ export const en = defineConfig({
   themeConfig: {
     nav: [
       {
-        text: "InterMind",
+        text: "Product",
         activeMatch: `${BASE_PATH}/guide/`,
         items: [
           {
-            text: "PRODUCT",
+            text: "InterMIND",
             items: [
-              { text: "Get started with InterMIND", link: `${BASE_PATH}/guide/what-is-intermind` },
+              { text: "Speak. Instantly.", link: `${BASE_PATH}/guide/what-is-intermind` },
               { text: "How It Works", link: `${BASE_PATH}/guide/how-it-works` },
               { text: "FAQ", link: `${BASE_PATH}/#frequently-asked-questions` },
             ],
@@ -32,11 +32,11 @@ export const en = defineConfig({
         ],
       },
       {
-        text: "Mind",
+        text: "Company",
         activeMatch: `${BASE_PATH}/resources/`,
         items: [
           {
-            text: "COMPANY",
+            text: "MIND",
             items: [
               { text: "About Mind.com", link: `${BASE_PATH}/resources/about` },
               { text: "Contacts", link: `${BASE_PATH}/resources/contacts` },

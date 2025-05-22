@@ -1,23 +1,30 @@
-## About Mind.com
+## 🧠 About Mind.com
 
-### Our Mission
+### 🏢 Who We Are
 
-To eliminate the language gap in global business — instantly, naturally, and intelligently.  
+**Mind.com** is the company behind **InterMIND** — a real-time voice interpretation platform designed for global teams.  
+We build tools that eliminate language barriers in high-stakes business communication.
+
+### 🌍 Our Mission
+
+**End language gaps in global business** — instantly, naturally, intelligently.
 No subtitles. No delays. No misunderstandings.
 
-### What Is InterMIND?
+### 🤖 What Is InterMIND?
 
-**Not a translator. Not a subtitle engine. Not a plugin.**  
-**Mind** is an AI interpreter that thinks in real time — like a human, only faster.
+**Not a translator. Not subtitles. Not a plugin.**  
+**InterMIND** is real-time AI interpretation — like a human, only faster.
 
-It captures meaning, tone, and context.  
-It speaks in your voice, in their language — instantly.
+It captures **meaning**, **tone**, and **intent**.
+It speaks **in your voice**, **in their language** — instantly.
 
-You speak. They understand. That’s it.
+> You speak. They understand. That’s it.
 
-### Who We Are
+### 👥 Our Philosophy
 
-We’re engineers, linguists, and builders of a borderless future.  
-We believe that understanding — not translation — is the foundation of global collaboration.
+We’re engineers, linguists, and builders of a borderless future.
+We believe:
 
-— The Mind.com Team
+> **Understanding — not translation — is the foundation of global collaboration.**
+
+— _The Mind.com Team_

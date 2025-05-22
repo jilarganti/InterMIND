@@ -1,4 +1,4 @@
-# What is InterMIND?
+# InterMIND: Understand Every Language. Instantly.
 
 ## The language barrier ends here
 
