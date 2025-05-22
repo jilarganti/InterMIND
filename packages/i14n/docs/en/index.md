@@ -1,7 +1,8 @@
 ---
 layout: home
-title: "Real-Time Video Interpretation | Speak Your Language, Understand All"
-description: "Eliminate language barriers instantly with InterMind's real-time video interpretation. Join meetings in your native language while everyone understands perfectly. Why learn a new language when technology can bridge the gap?"
+title: "AI Voice Translator for Live Video Calls"
+description: "Multilingual meetings don’t need Zoom, plugins, or interpreters. InterMind is an AI voice translator for real-time video calls — speak and translate instantly."
+isHome: true
 ---
 
 <!-- text="Focus on growth — let InterMind handle the languages." -->

@@ -3,9 +3,17 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = ""
 
 export const en = defineConfig({
-  description: "Expert UAE company formation and support services. Company setup, banking, tax, legal and visa solutions. Making your business dreams reality!",
+  description:
+    "Multilingual meetings don’t need Zoom, plugins, or interpreters. InterMind is an AI voice translator for real-time video calls — speak and translate instantly.",
   head: [
-    ["meta", { property: "og:title", content: "Expert UAE company formation and support services. Company setup, banking, tax, legal and visa solutions." }],
+    ["meta", { property: "og:title", content: "AI Voice Translator for Live Video Calls | InterMIND" }],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content: "AI voice translator, real-time translation, translate video calls, multilingual meetings, Zoom translator alternative, interpreter tool",
+      },
+    ],
   ],
 
   themeConfig: {
@@ -88,7 +96,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "What is InterMIND?", link: "what-is-intermind" },
         { text: "How it Works", link: "how-it-works" },
-        { text: "Region-Segmented Privacy Architecture by InterMIND", link: "privacy-architecture" },
+        { text: "Regional Data Privacy", link: "privacy-architecture" },
         { text: "Use cases", link: "use-cases" },
       ],
     },

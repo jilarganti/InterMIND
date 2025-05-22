@@ -1,16 +1,16 @@
-# Region-Segmented Privacy Architecture by InterMind
+# Regional Data Privacy for AI Meetings
 
 ## Introduction
 
 InterMind is a platform for multilingual video meetings with live AI-powered interpretation. We are built for professionals — where not only the message matters, but the privacy of that message too.
+
+> [!tip] Real-time interpretation. Native-level understanding. No subtitles. No lag.
 
 To deliver a seamless experience, InterMind integrates third-party services for video, audio, cloud storage, real-time interpretation, and analytics. These third-party providers help us ensure performance and scalability — but they also introduce a layer we cannot directly control.
 
 We believe in **transparency over promises**. We can only guarantee privacy and security for components under our direct control — our software, interface logic, and how we route data. For everything else, we offer you **the power of choice**.
 
 This is why we designed InterMind with **region-based confidentiality**: you choose where your data is processed, which legal framework governs it, and which AI models are used — based on your selected privacy zone.
-
----
 
 ## Core Privacy Principles
 
@@ -31,8 +31,6 @@ This is why we designed InterMind with **region-based confidentiality**: you cho
 - We do not retain transcripts or media unless you explicitly request it.
 - If you disable interpretation, **no user data leaves your device at all**.
 
----
-
 ## Region-Based Confidentiality: How It Works
 
 At the start of each session, or as part of your organization’s account settings, you can select a preferred privacy zone:
@@ -51,8 +49,6 @@ You may:
 - **Set a default region** for your organization
 - **Override the region per session**
 - **Blacklist certain regions** entirely
-
----
 
 ## What InterMind Guarantees
 
@@ -74,8 +70,6 @@ All audio/video data is transmitted through encrypted channels. Interpretation r
 
 We do not store your meetings, transcripts, or conversations unless you opt in. All storage is region-bound.
 
----
-
 ## Legal & Regulatory Compliance
 
 InterMind supports full compatibility with:
@@ -84,8 +78,6 @@ InterMind supports full compatibility with:
 - **CCPA** — No sale of personal data, opt-out options, and transparent collection practices.
 - **UAE PDPL** — Local storage if requested, strict access controls, no international transfers without consent.
 - **China DSL/PIPL** — In-region processing only, no foreign routing if China is selected.
-
----
 
 ## What We Can and Cannot Guarantee
 
@@ -105,8 +97,6 @@ We are committed to full honesty, not just legalese.
 - You have tools to **control risk** by selecting your region and compliance mode.
 - InterMind **never** stores or exploits your content — even temporarily — without your consent.
 
----
-
 ## Trust Modes & Privacy Levels
 
 You can customize your session to match your confidentiality needs:
@@ -117,8 +107,6 @@ You can customize your session to match your confidentiality needs:
 | 🔐 Region-Locked | ✅             | ✅ (within zone only) | ❌ or session-only | Healthcare, finance, HR             |
 | 🌐 Global Flex   | ✅             | ✅ (multi-region)     | ✅                 | Support, sales, multinational teams |
 
----
-
 ## What You Get Out of the Box
 
 - Region-specific LLM usage, with real-time transparency.
@@ -126,8 +114,6 @@ You can customize your session to match your confidentiality needs:
 - Zero data transmission if interpretation is off.
 - Optional data storage, always region-bound.
 - Full audit and export tools for enterprise clients.
-
----
 
 ## Conclusion
 

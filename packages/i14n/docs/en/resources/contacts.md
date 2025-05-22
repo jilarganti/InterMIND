@@ -6,13 +6,15 @@
 hideComponents:
   - NavButton
   # - SearchInput
+
+description: "Have questions about AI meeting interpretation, multilingual support, or enterprise rollout? Contact InterMind to explore use cases, pricing, and integration options."
 ---
 
 <p>
   <img src="/favicon.svg" alt="logo" width="50" >
 </p>
 
-# Contact Us
+# Need Instant Multilingual Meetings? Let’s Talk
 
 <!-- **Get in Touch:**
 
