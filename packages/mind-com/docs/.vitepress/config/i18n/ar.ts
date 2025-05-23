@@ -3,7 +3,8 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description: "الاجتماعات متعددة اللغات لا تحتاج إلى Zoom أو إضافات أو مترجمين. InterMind هو مترجم صوتي ذكي للمكالمات المرئية المباشرة - تحدث وترجم فوراً.",
+  description:
+    "لا تحتاج الاجتماعات متعددة اللغات إلى Zoom أو إضافات أو مترجمين. InterMind هو مترجم صوتي ذكي للمكالمات المرئية المباشرة - تحدث وترجم فوراً.",
   head: [
     ["meta", { property: "og:title", content: "مترجم صوتي ذكي للمكالمات المرئية المباشرة | InterMIND" }],
     [
@@ -52,6 +53,7 @@ export const ar = defineConfig({
       placeholder4ChatFooter: "اسأل أي شيء...",
       placeholder4ChatList: "أدخل موضوع المحادثة...",
       buttonLabel4NavButton: "محادثة خبير فورية",
+      buttonLabel4AuthButton: "تسجيل الدخول",
     },
     contact_form: {
       name: "الاسم *",
@@ -66,10 +68,15 @@ export const ar = defineConfig({
       message: "دعنا نناقش أهدافك (اختياري)",
       messagePlaceholder: "يرجى تقديم أي تفاصيل إضافية (اختياري)",
       submit: "إرسال الطلب",
-      sending: "جاري الإرسال...",
+      sending: "جارٍ الإرسال...",
       successTitle: "شكراً لك!",
       successMessage: "نقدر اهتمامك كثيراً! سيتواصل فريقنا معك قريباً لمناقشة احتياجاتك.",
-      defaultCategories: ["مهتم بالترجمة الصوتية الفورية", "مهتم بمساعد الاجتماعات الذكي", "مهتم بخصوصية البيانات والتحكم حسب المنطقة", "أخرى / غير مدرجة"],
+      defaultCategories: [
+        "مهتم بالترجمة الصوتية الفورية",
+        "مهتم بمساعد الاجتماعات الذكي",
+        "مهتم بخصوصية البيانات والتحكم حسب المنطقة",
+        "أخرى / غير مدرجة",
+      ],
 
       defaultButtonText: "أرسل لنا رسالة",
     },

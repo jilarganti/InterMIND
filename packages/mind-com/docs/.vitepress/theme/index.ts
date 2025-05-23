@@ -1,8 +1,8 @@
 import { h } from "vue"
 import { type App } from "vue"
 import DefaultTheme from "vitepress/theme"
+import { useData } from "vitepress"
 import "./style.css"
-
 import { components } from "shared"
 import sharedTheme from "shared"
 import AuthButton from "../components/AuthButton.vue"
@@ -13,13 +13,15 @@ const { SearchInput } = components
 export default {
   ...sharedTheme,
   Layout() {
+    // const { site } = useData()
+    // const buttonLabel = useData().site.value.themeConfig.localization.buttonLabel4AuthButton
     return h(DefaultTheme.Layout, null, {
       "nav-bar-content-before": () => {
         return h(SearchInput)
       },
       "nav-bar-content-after": () =>
         h("div", { class: "auth-buttons-container" }, [
-          h(AuthButton, { text: "Sign in", buttonClass: "alt" }),
+          h(AuthButton, { text: useData().site.value.themeConfig.localization.buttonLabel4AuthButton, buttonClass: "alt" }),
           // h(NavButton, { text: "Ask AI", buttonClass: "alt", to: "/chat" }),
         ]),
     })

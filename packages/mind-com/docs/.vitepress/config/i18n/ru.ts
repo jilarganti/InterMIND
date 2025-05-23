@@ -11,8 +11,7 @@ export const ru = defineConfig({
       "meta",
       {
         name: "keywords",
-        content:
-          "ИИ-переводчик голоса, перевод в реальном времени, перевод видеозвонков, многоязычные встречи, альтернатива переводчику Zoom, инструмент переводчика",
+        content: "ИИ-переводчик голоса, перевод в реальном времени, перевод видеозвонков, многоязычные встречи, альтернатива переводчику Zoom, инструмент переводчика",
       },
     ],
   ],
@@ -34,7 +33,7 @@ export const ru = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         items: [
           { text: "Цены", link: `${BASE_PATH}/#clear-and-simple-pricing` },
-          { text: "FAQ", link: `${BASE_PATH}/#frequently-asked-questions` },
+          { text: "Частые вопросы", link: `${BASE_PATH}/#frequently-asked-questions` },
           { text: "Отзывы", link: `${BASE_PATH}/#what-customers-are-saying` },
         ],
       },
@@ -54,6 +53,7 @@ export const ru = defineConfig({
       placeholder4ChatFooter: "Спросите что угодно...",
       placeholder4ChatList: "Введите тему чата...",
       buttonLabel4NavButton: "Мгновенный чат с экспертом",
+      buttonLabel4AuthButton: "Войти",
     },
     contact_form: {
       name: "Имя *",
@@ -66,7 +66,7 @@ export const ru = defineConfig({
       category: "Пожалуйста, расскажите, чем мы можем помочь *",
       categoryPlaceholder: "выберите тип услуги",
       message: "Обсудим ваши цели (необязательно)",
-      messagePlaceholder: "Пожалуйста, предоставьте дополнительные детали (необязательно)",
+      messagePlaceholder: "Укажите дополнительные детали (необязательно)",
       submit: "Отправить запрос",
       sending: "Отправка...",
       successTitle: "Спасибо!",
@@ -91,7 +91,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Что такое InterMIND?", link: "what-is-intermind" },
         { text: "Как это работает", link: "how-it-works" },
-        { text: "Региональная защита данных", link: "privacy-architecture" },
+        { text: "Конфиденциальность данных по регионам", link: "privacy-architecture" },
         { text: "Варианты использования", link: "use-cases" },
       ],
     },

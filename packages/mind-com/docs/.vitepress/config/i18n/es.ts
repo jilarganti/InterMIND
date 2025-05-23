@@ -4,15 +4,14 @@ const BASE_PATH = "/es"
 
 export const es = defineConfig({
   description:
-    "Las reuniones multilingües no necesitan Zoom, plugins o intérpretes. InterMind es un traductor de voz con IA para videollamadas en tiempo real — habla y traduce instantáneamente.",
+    "Las reuniones multilingües no necesitan Zoom, plugins ni intérpretes. InterMind es un traductor de voz con IA para videollamadas en tiempo real: habla y traduce al instante.",
   head: [
     ["meta", { property: "og:title", content: "Traductor de Voz con IA para Videollamadas en Vivo | InterMIND" }],
     [
       "meta",
       {
         name: "keywords",
-        content:
-          "traductor de voz con IA, traducción en tiempo real, traducir videollamadas, reuniones multilingües, alternativa al traductor de Zoom, herramienta de interpretación",
+        content: "traductor de voz IA, traducción en tiempo real, traducir videollamadas, reuniones multilingües, alternativa al traductor de Zoom, herramienta de interpretación",
       },
     ],
   ],
@@ -54,6 +53,7 @@ export const es = defineConfig({
       placeholder4ChatFooter: "Pregunta cualquier cosa...",
       placeholder4ChatList: "Ingresa el tema del chat...",
       buttonLabel4NavButton: "Chat experto instantáneo",
+      buttonLabel4AuthButton: "Iniciar sesión",
     },
     contact_form: {
       name: "Nombre *",

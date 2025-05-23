@@ -3,7 +3,8 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
-  description: "多语言会议无需Zoom、插件或翻译员。InterMind是一款用于实时视频通话的AI语音翻译器——即说即译。",
+  description:
+    "多语言会议无需Zoom、插件或翻译员。InterMind是一款用于实时视频通话的AI语音翻译器——即说即译。",
   head: [
     ["meta", { property: "og:title", content: "实时视频通话AI语音翻译器 | InterMIND" }],
     [
@@ -52,6 +53,7 @@ export const zh = defineConfig({
       placeholder4ChatFooter: "询问任何问题...",
       placeholder4ChatList: "输入聊天主题...",
       buttonLabel4NavButton: "即时专家对话",
+      buttonLabel4AuthButton: "登录",
     },
     contact_form: {
       name: "姓名 *",
@@ -69,7 +71,12 @@ export const zh = defineConfig({
       sending: "发送中...",
       successTitle: "感谢您！",
       successMessage: "非常感谢您的关注！我们的团队将很快联系您讨论您的需求。",
-      defaultCategories: ["我对实时语音翻译感兴趣", "我对AI会议助手感兴趣", "我对基于区域的隐私和数据控制感兴趣", "其他/未列出"],
+      defaultCategories: [
+        "我对实时语音翻译感兴趣",
+        "我对AI会议助手感兴趣",
+        "我对基于区域的隐私和数据控制感兴趣",
+        "其他/未列出",
+      ],
 
       defaultButtonText: "给我们发送消息",
     },

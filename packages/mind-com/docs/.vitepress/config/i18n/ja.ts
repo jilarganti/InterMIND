@@ -24,7 +24,7 @@ export const ja = defineConfig({
         link: `${BASE_PATH}/product/what-is-intermind`,
       },
       {
-        text: "会社概要",
+        text: "会社情報",
         activeMatch: `${BASE_PATH}/company/`,
         link: `${BASE_PATH}/company/about`,
       },
@@ -49,10 +49,11 @@ export const ja = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "何でも質問してください...",
-      placeholder4ChatFooter: "何でも質問してください...",
+      placeholder4SearchInput: "質問を入力してください...",
+      placeholder4ChatFooter: "質問を入力してください...",
       placeholder4ChatList: "チャットトピックを入力...",
       buttonLabel4NavButton: "インスタントエキスパートチャット",
+      buttonLabel4AuthButton: "サインイン",
     },
     contact_form: {
       name: "お名前 *",
@@ -62,19 +63,19 @@ export const ja = defineConfig({
       phone: "企業サイト *",
       phonePlaceholder: "例：https://mind.com",
       phoneError: "電話番号を入力してください",
-      category: "ご要望をお聞かせください *",
+      category: "ご用件をお聞かせください *",
       categoryPlaceholder: "サービスタイプを選択",
       message: "目標についてご相談ください（任意）",
       messagePlaceholder: "追加の詳細情報をご記入ください（任意）",
       submit: "リクエストを送信",
       sending: "送信中...",
       successTitle: "ありがとうございます！",
-      successMessage: "ご興味をお持ちいただき、誠にありがとうございます！担当チームが shortly にご連絡させていただきます。",
+      successMessage: "ご興味をお持ちいただき、誠にありがとうございます！担当者が shortly にご連絡させていただきます。",
       defaultCategories: [
         "リアルタイム音声通訳に興味があります",
         "AIミーティングアシスタントに興味があります",
         "地域ベースのプライバシーとデータ管理に興味があります",
-        "その他 / リストにない項目",
+        "その他 / 該当なし",
       ],
 
       defaultButtonText: "メッセージを送信",

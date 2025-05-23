@@ -53,6 +53,7 @@ export const de = defineConfig({
       placeholder4ChatFooter: "Fragen Sie alles...",
       placeholder4ChatList: "Chat-Thema eingeben...",
       buttonLabel4NavButton: "Sofortiger Experten-Chat",
+      buttonLabel4AuthButton: "Anmelden",
     },
     contact_form: {
       name: "Name *",
@@ -66,10 +67,10 @@ export const de = defineConfig({
       categoryPlaceholder: "Servicetyp auswählen",
       message: "Lassen Sie uns Ihre Ziele besprechen (optional)",
       messagePlaceholder: "Bitte geben Sie zusätzliche Details an (optional)",
-      submit: "Anfrage absenden",
+      submit: "Anfrage senden",
       sending: "Wird gesendet...",
       successTitle: "Vielen Dank!",
-      successMessage: "Wir schätzen Ihr Interesse sehr! Unser Team wird Sie in Kürze kontaktieren, um Ihre Bedürfnisse zu besprechen.",
+      successMessage: "Wir schätzen Ihr Interesse sehr! Unser Team wird Sie in Kürze kontaktieren, um Ihre Anforderungen zu besprechen.",
       defaultCategories: [
         "Ich interessiere mich für Echtzeit-Sprachdolmetschen",
         "Ich interessiere mich für den KI-Meeting-Assistenten",
