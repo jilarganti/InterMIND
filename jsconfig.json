@@ -1,9 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./*"]
-    },
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Node",
@@ -11,6 +7,6 @@
     "allowJs": true,
     "checkJs": true
   },
-  "include": ["api/**/*.js", "api/**/*.ts", "shared/**/*.js", "shared/**/*.ts", "shared/**/*.vue"],
+  "include": ["api/**/*.js", "*/scripts/**/*.js"],
   "exclude": ["node_modules"]
 }

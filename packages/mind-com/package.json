@@ -1,6 +1,6 @@
 {
-  "name": "i14n",
-  "description": "Live Interpretation Video Meetings",
+  "name": "mind-com",
+  "description": "Multilingual Video Meetings with Voice Interpretation",
   "version": "0.1.0",
   "type": "module",
   "scripts": {

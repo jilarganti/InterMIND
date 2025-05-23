@@ -130,7 +130,7 @@ importers:
         specifier: workspace:*
         version: link:../../shared
 
-  packages/i14n:
+  packages/mind-com:
     dependencies:
       shared:
         specifier: workspace:*
