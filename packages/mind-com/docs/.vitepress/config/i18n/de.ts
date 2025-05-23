@@ -1,0 +1,105 @@
+import { defineConfig, type DefaultTheme } from "vitepress"
+
+const BASE_PATH = "/de"
+
+export const de = defineConfig({
+  description:
+    "Mehrsprachige Meetings benötigen kein Zoom, keine Plugins oder Dolmetscher. InterMind ist ein KI-Sprachübersetzer für Echtzeit-Videoanrufe — sprechen und sofort übersetzen.",
+  head: [
+    ["meta", { property: "og:title", content: "KI-Sprachübersetzer für Live-Videoanrufe | InterMIND" }],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content: "KI-Sprachübersetzer, Echtzeit-Übersetzung, Videoanrufe übersetzen, mehrsprachige Meetings, Zoom-Übersetzer Alternative, Dolmetscher-Tool",
+      },
+    ],
+  ],
+
+  themeConfig: {
+    nav: [
+      {
+        text: "Produkt",
+        activeMatch: `${BASE_PATH}/product/`,
+        link: `${BASE_PATH}/product/what-is-intermind`,
+      },
+      {
+        text: "Unternehmen",
+        activeMatch: `${BASE_PATH}/company/`,
+        link: `${BASE_PATH}/company/about`,
+      },
+      {
+        text: "Ressourcen",
+        activeMatch: `${BASE_PATH}/product/`,
+        items: [
+          { text: "Preise", link: `${BASE_PATH}/#clear-and-simple-pricing` },
+          { text: "FAQ", link: `${BASE_PATH}/#frequently-asked-questions` },
+          { text: "Kundenstimmen", link: `${BASE_PATH}/#what-customers-are-saying` },
+        ],
+      },
+    ],
+
+    sidebar: {
+      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarServices() },
+      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarInsights() },
+    },
+
+    footer: {
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Datenschutzeinstellungen</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Datenschutzerklärung</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Rechtliche Bestimmungen für KI-Dienste</a>`,
+    },
+
+    localization: {
+      placeholder4SearchInput: "Fragen Sie alles...",
+      placeholder4ChatFooter: "Fragen Sie alles...",
+      placeholder4ChatList: "Chat-Thema eingeben...",
+      buttonLabel4NavButton: "Sofortiger Experten-Chat",
+    },
+    contact_form: {
+      name: "Name *",
+      namePlaceholder: "Ihr Name",
+      email: "E-Mail *",
+      emailPlaceholder: "Ihre E-Mail-Adresse",
+      phone: "Firmenwebsite *",
+      phonePlaceholder: "z.B. https://mind.com",
+      phoneError: "Bitte Telefonnummer eingeben",
+      category: "Bitte teilen Sie uns mit, wie wir helfen können *",
+      categoryPlaceholder: "Servicetyp auswählen",
+      message: "Lassen Sie uns Ihre Ziele besprechen (optional)",
+      messagePlaceholder: "Bitte geben Sie zusätzliche Details an (optional)",
+      submit: "Anfrage absenden",
+      sending: "Wird gesendet...",
+      successTitle: "Vielen Dank!",
+      successMessage: "Wir schätzen Ihr Interesse sehr! Unser Team wird Sie in Kürze kontaktieren, um Ihre Bedürfnisse zu besprechen.",
+      defaultCategories: [
+        "Ich interessiere mich für Echtzeit-Sprachdolmetschen",
+        "Ich interessiere mich für den KI-Meeting-Assistenten",
+        "Ich interessiere mich für regionsbasierte Datenschutz- und Datenkontrolle",
+        "Sonstiges / Nicht aufgeführt",
+      ],
+
+      defaultButtonText: "Senden Sie uns eine Nachricht",
+    },
+  },
+})
+
+function sidebarServices(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "Einführung",
+      collapsed: false,
+      items: [
+        { text: "Was ist InterMIND?", link: "what-is-intermind" },
+        { text: "Wie es funktioniert", link: "how-it-works" },
+        { text: "Regionaler Datenschutz", link: "privacy-architecture" },
+        { text: "Anwendungsfälle", link: "use-cases" },
+      ],
+    },
+  ]
+}
+
+function sidebarInsights(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "Über uns", link: "/about" },
+    { text: "Kontakt", link: "/contacts" },
+  ]
+}

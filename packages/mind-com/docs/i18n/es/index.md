@@ -1,13 +1,13 @@
 ---
 layout: home
 title: "Traductor de Voz con IA para Videollamadas en Vivo"
-description: "Las reuniones multilingües no necesitan Zoom, plugins ni intérpretes. InterMind es un traductor de voz con IA para videollamadas en tiempo real — habla y traduce instantáneamente."
+description: "Las reuniones multilingües no necesitan Zoom, plugins o intérpretes. InterMind es un traductor de voz con IA para videollamadas en tiempo real — habla y traduce instantáneamente."
 isHome: true
 ---
 
 <!-- text="Céntrate en el crecimiento — deja que InterMind se encargue de los idiomas." -->
 <!-- text="Las aulas tardan años; InterMind ofrece comprensión en tiempo real hoy, en todos los idiomas." -->
-<!-- text="Comprende al instante — sin aprender idiomas extranjeros" -->
+<!-- text="Comprende instantáneamente — sin aprender idiomas extranjeros" -->
 <!-- title="Reuniones por Video con **Interpretación** en Vivo" -->
 
 <HeroSection
@@ -108,7 +108,7 @@ Elija el plan que se adapte a las necesidades de comunicación multilingüe de s
   {
     title: '**Pro** &nbsp 1-99 usuarios',
     price: '**$20** /mes/usuario, facturado anualmente',
-    details: 'o $13.99 facturado mensualmente',
+    details: 'o $25 facturado mensualmente',
     items: [
       'Reuniones de video de 150 participantes + 2 TB de almacenamiento compartido por usuario [💬](#2)',
       'Interpretación de voz a voz [💬](#1)',
@@ -116,9 +116,9 @@ Elija el plan que se adapte a las necesidades de comunicación multilingüe de s
     ],
   },
   {
-    title: '**Empresarial** &nbsp 1–250 usuarios',
-    price: 'Plan **personalizado** para equipos grandes',
-    details: 'Optimizado para escala, privacidad y control',
+    title: '**Empresarial** &nbsp 1-500 usuarios',
+    price: '**Privacidad primero**.',
+    details: 'Diseñado para equipos grandes',
     items: [
       'Reuniones de video de 500 participantes + 5 TB de almacenamiento compartido por usuario [💬](#2)',
       'Interpretación de voz a voz [💬](#1)',
