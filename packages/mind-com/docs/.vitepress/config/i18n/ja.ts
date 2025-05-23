@@ -20,17 +20,17 @@ export const ja = defineConfig({
     nav: [
       {
         text: "製品",
-        activeMatch: `${BASE_PATH}/guide/`,
-        link: `${BASE_PATH}/guide/what-is-intermind`,
+        activeMatch: `${BASE_PATH}/product/`,
+        link: `${BASE_PATH}/product/what-is-intermind`,
       },
       {
         text: "会社概要",
-        activeMatch: `${BASE_PATH}/resources/`,
-        link: `${BASE_PATH}/resources/about`,
+        activeMatch: `${BASE_PATH}/company/`,
+        link: `${BASE_PATH}/company/about`,
       },
       {
         text: "リソース",
-        activeMatch: `${BASE_PATH}/guide/`,
+        activeMatch: `${BASE_PATH}/product/`,
         items: [
           { text: "料金", link: `${BASE_PATH}/#clear-and-simple-pricing` },
           { text: "よくある質問", link: `${BASE_PATH}/#frequently-asked-questions` },
@@ -40,12 +40,12 @@ export const ja = defineConfig({
     ],
 
     sidebar: {
-      [`${BASE_PATH}/guide/`]: { base: `${BASE_PATH}/guide/`, items: sidebarServices() },
-      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarServices() },
+      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarInsights() },
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">プライバシー設定</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">プライバシーポリシー</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AIサービスの法的規制</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">プライバシー設定</a> | <a href="${BASE_PATH}/company/Privacy-Policy">プライバシーポリシー</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">AIサービスの法的規制</a>`,
     },
 
     localization: {

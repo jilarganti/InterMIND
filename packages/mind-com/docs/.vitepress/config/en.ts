@@ -20,17 +20,17 @@ export const en = defineConfig({
     nav: [
       {
         text: "Product",
-        activeMatch: `${BASE_PATH}/guide/`,
-        link: `${BASE_PATH}/guide/what-is-intermind`,
+        activeMatch: `${BASE_PATH}/product/`,
+        link: `${BASE_PATH}/product/what-is-intermind`,
       },
       {
         text: "Company",
-        activeMatch: `${BASE_PATH}/resources/`,
-        link: `${BASE_PATH}/resources/about`,
+        activeMatch: `${BASE_PATH}/company/`,
+        link: `${BASE_PATH}/company/about`,
       },
       {
         text: "Resources",
-        activeMatch: `${BASE_PATH}/guide/`,
+        activeMatch: `${BASE_PATH}/product/`,
         // items: [
         //   {
         //     text: "EXPLORE",
@@ -45,12 +45,12 @@ export const en = defineConfig({
     ],
 
     sidebar: {
-      [`${BASE_PATH}/guide/`]: { base: `${BASE_PATH}/guide/`, items: sidebarServices() },
-      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarServices() },
+      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarInsights() },
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Privacy Settings</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Privacy Policy</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Legal Regulations for AI Services</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Privacy Settings</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Privacy Policy</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Legal Regulations for AI Services</a>`,
     },
 
     localization: {

@@ -10,5 +10,5 @@ hero:
       link: ./?utm_source=google_ads&utm_medium=cpc&utm_campaign=winter_2025
     - theme: alt
       text: Test 2
-      link: ./resources/contacts
+      link: ./company/contacts
 ---

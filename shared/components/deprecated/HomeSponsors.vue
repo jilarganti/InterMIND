@@ -15,7 +15,7 @@ const showSponsors = computed(() => frontmatter.value.showSponsors)
     v-if="data && showSponsors"
     message="We're here to make it easier for you. Talk to one of our specialists today!"
     :data="data"
-    actionLink="/en/resources/contacts"
+    actionLink="/en/company/contacts"
     actionText="Get in touch"
   />
 </template>

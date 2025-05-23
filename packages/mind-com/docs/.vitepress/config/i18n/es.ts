@@ -11,7 +11,8 @@ export const es = defineConfig({
       "meta",
       {
         name: "keywords",
-        content: "traductor de voz con IA, traducción en tiempo real, traducir videollamadas, reuniones multilingües, alternativa al traductor de Zoom, herramienta de interpretación",
+        content:
+          "traductor de voz con IA, traducción en tiempo real, traducir videollamadas, reuniones multilingües, alternativa al traductor de Zoom, herramienta de interpretación",
       },
     ],
   ],
@@ -20,17 +21,17 @@ export const es = defineConfig({
     nav: [
       {
         text: "Producto",
-        activeMatch: `${BASE_PATH}/guide/`,
-        link: `${BASE_PATH}/guide/what-is-intermind`,
+        activeMatch: `${BASE_PATH}/product/`,
+        link: `${BASE_PATH}/product/what-is-intermind`,
       },
       {
         text: "Empresa",
-        activeMatch: `${BASE_PATH}/resources/`,
-        link: `${BASE_PATH}/resources/about`,
+        activeMatch: `${BASE_PATH}/company/`,
+        link: `${BASE_PATH}/company/about`,
       },
       {
         text: "Recursos",
-        activeMatch: `${BASE_PATH}/guide/`,
+        activeMatch: `${BASE_PATH}/product/`,
         items: [
           { text: "Precios", link: `${BASE_PATH}/#clear-and-simple-pricing` },
           { text: "Preguntas Frecuentes", link: `${BASE_PATH}/#frequently-asked-questions` },
@@ -40,12 +41,12 @@ export const es = defineConfig({
     ],
 
     sidebar: {
-      [`${BASE_PATH}/guide/`]: { base: `${BASE_PATH}/guide/`, items: sidebarServices() },
-      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarServices() },
+      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarInsights() },
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de Privacidad</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Política de Privacidad</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Regulaciones Legales para Servicios de IA</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de Privacidad</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Política de Privacidad</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Regulaciones Legales para Servicios de IA</a>`,
     },
 
     localization: {

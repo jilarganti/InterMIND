@@ -28,7 +28,7 @@ const sponsors = computed(() => {
 </script>
 
 <template>
-  <a v-if="showSponsors" class="ad" href="https://www.getyourguide.com/dubai-l173/dubai-expo-2020-entry-tickets-with-hotel-transfers-t494819" target="_blank">
+  <a v-if="showSponsors" class="ad" href="https://www.getyourproduct.com/dubai-l173/dubai-expo-2020-entry-tickets-with-hotel-transfers-t494819" target="_blank">
     <img width="22" height="22" src="/content/expo.avif" />
     <span>
       <p class="extra-info">Building Together</p>

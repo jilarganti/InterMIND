@@ -3,8 +3,7 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description:
-    "الاجتماعات متعددة اللغات لا تحتاج إلى Zoom أو إضافات أو مترجمين. InterMind هو مترجم صوتي ذكي للمكالمات المرئية المباشرة - تحدث وترجم فوراً.",
+  description: "الاجتماعات متعددة اللغات لا تحتاج إلى Zoom أو إضافات أو مترجمين. InterMind هو مترجم صوتي ذكي للمكالمات المرئية المباشرة - تحدث وترجم فوراً.",
   head: [
     ["meta", { property: "og:title", content: "مترجم صوتي ذكي للمكالمات المرئية المباشرة | InterMIND" }],
     [
@@ -20,17 +19,17 @@ export const ar = defineConfig({
     nav: [
       {
         text: "المنتج",
-        activeMatch: `${BASE_PATH}/guide/`,
-        link: `${BASE_PATH}/guide/what-is-intermind`,
+        activeMatch: `${BASE_PATH}/product/`,
+        link: `${BASE_PATH}/product/what-is-intermind`,
       },
       {
         text: "الشركة",
-        activeMatch: `${BASE_PATH}/resources/`,
-        link: `${BASE_PATH}/resources/about`,
+        activeMatch: `${BASE_PATH}/company/`,
+        link: `${BASE_PATH}/company/about`,
       },
       {
         text: "الموارد",
-        activeMatch: `${BASE_PATH}/guide/`,
+        activeMatch: `${BASE_PATH}/product/`,
         items: [
           { text: "الأسعار", link: `${BASE_PATH}/#clear-and-simple-pricing` },
           { text: "الأسئلة الشائعة", link: `${BASE_PATH}/#frequently-asked-questions` },
@@ -40,12 +39,12 @@ export const ar = defineConfig({
     ],
 
     sidebar: {
-      [`${BASE_PATH}/guide/`]: { base: `${BASE_PATH}/guide/`, items: sidebarServices() },
-      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
+      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarServices() },
+      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarInsights() },
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">إعدادات الخصوصية</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">سياسة الخصوصية</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">اللوائح القانونية لخدمات الذكاء الاصطناعي</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">إعدادات الخصوصية</a> | <a href="${BASE_PATH}/company/Privacy-Policy">سياسة الخصوصية</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">اللوائح القانونية لخدمات الذكاء الاصطناعي</a>`,
     },
 
     localization: {
@@ -70,12 +69,7 @@ export const ar = defineConfig({
       sending: "جاري الإرسال...",
       successTitle: "شكراً لك!",
       successMessage: "نقدر اهتمامك كثيراً! سيتواصل فريقنا معك قريباً لمناقشة احتياجاتك.",
-      defaultCategories: [
-        "مهتم بالترجمة الصوتية الفورية",
-        "مهتم بمساعد الاجتماعات الذكي",
-        "مهتم بخصوصية البيانات والتحكم حسب المنطقة",
-        "أخرى / غير مدرجة",
-      ],
+      defaultCategories: ["مهتم بالترجمة الصوتية الفورية", "مهتم بمساعد الاجتماعات الذكي", "مهتم بخصوصية البيانات والتحكم حسب المنطقة", "أخرى / غير مدرجة"],
 
       defaultButtonText: "أرسل لنا رسالة",
     },

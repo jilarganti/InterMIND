@@ -20,7 +20,7 @@ async function getFiles(dir) {
   return Array.prototype.concat(...files)
 }
 
-const articlesDir = "./docs/en/resources/blog/articles"
+const articlesDir = "./docs/en/company/blog/articles"
 const articles = await getFiles(articlesDir)
 
 const data = await Promise.all(
@@ -51,4 +51,4 @@ const data = await Promise.all(
   }),
 )
 
-await fs.writeFile("./docs/en/resources/blog/data.json", JSON.stringify(data), "utf-8")
+await fs.writeFile("./docs/en/company/blog/data.json", JSON.stringify(data), "utf-8")

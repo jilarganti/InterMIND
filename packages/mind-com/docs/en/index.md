@@ -22,13 +22,13 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Speak Instantly in Over 100 Languages',
-  details: 'InterMind enables every participant to speak their native language — naturally, in [real time](/guide/how-it-works), and without subtitles or lag.',
+  details: 'InterMind enables every participant to speak their native language — naturally, in [real time](/product/how-it-works), and without subtitles or lag.',
     items: [
       '✧ Speak freely — be understood instantly.',
       '✧ AI-powered interpretation captures tone, intent, and industry-specific terminology.',
       '⚡︎ Two-way, continuous, **voice-to-voice interpretation** with zero manual setup.',
     ],
-  link: './guide/what-is-intermind',
+  link: './product/what-is-intermind',
   src: {
     light: '/1.png',
     dark: '/1.png',
@@ -45,7 +45,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
       '✧ Scheduling, moderation, demos, recording, and full calendar integration — all built in, ready to go. Meetings can run up to 24 hours.',
       '⚡︎ Live transcripts, participant chat, and an AI assistant that keeps meetings productive.'
     ],
-    link: '/guide/how-it-works',
+    link: '/product/how-it-works',
     src: {
       light: '/3l.png',
       dark: '/3d.png',
@@ -62,7 +62,7 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
     '✧ Never miss action items from any meeting. Our AI extracts tasks, owners and deadlines automatically from conversations.',
     '✧ AI meeting summaries deliver key points instantly in any language, keeping everyone aligned without manual note-taking.',
   ],
-  link: '/guide/how-it-works#🧩-deep-memory-deep-understanding',
+  link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
   src: {
     light: '/2l.png',
     dark: '/2d.png',
@@ -75,13 +75,13 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   :card="{
     title: 'Secure & Confidential by Design',
     details:
-      'InterMind is built for conversations where trust matters. While we rely on best-in-class third-party infrastructure, [confidentiality is always in your hands](/guide/privacy-architecture).',
+      'InterMind is built for conversations where trust matters. While we rely on best-in-class third-party infrastructure, [confidentiality is always in your hands](/product/privacy-architecture).',
     items: [
       '⚡︎ Region-based privacy — choose where your data is processed. We route all interpretation, storage, and analytics through infrastructure aligned with your compliance zone (e.g. EU, US, Asia).',
       '✧ Private by default — InterMind itself **never** stores or uses your content for training, profiling, or third-party access.',
       '✧ Compliant by architecture — GDPR, CCPA, and UAE PDPL-ready, with full support for export and deletion rights.'
     ],
-    link: '/guide/privacy-architecture',
+    link: '/product/privacy-architecture',
     src: {
       light: '/4.png',
       dark: '/4.png',

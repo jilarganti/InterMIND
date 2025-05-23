@@ -22,13 +22,13 @@ text="适用于因**语言障碍**而导致交易损失、延误和代价高昂�
 <span id="1"></span>
 <FeatureBlock :card="{
   title: '即时使用100多种语言交谈',
-  details: 'InterMind使每位参与者都能使用母语自然交谈 — [实时](/guide/how-it-works)进行，无需字幕，零延迟。',
+  details: 'InterMind使每位参与者都能使用母语自然交谈 — [实时](/product/how-it-works)进行，无需字幕，零延迟。',
     items: [
       '✧ 自由发言 — 即刻被理解。',
       '✧ AI驱动的口译能够准确把握语气、意图和行业专业术语。',
       '⚡︎ 双向、连续的**语音对语音口译**，无需手动设置。',
     ],
-  link: './guide/what-is-intermind',
+  link: './product/what-is-intermind',
   src: {
     light: '/1.png',
     dark: '/1.png',
@@ -45,7 +45,7 @@ text="适用于因**语言障碍**而导致交易损失、延误和代价高昂�
       '✧ 日程安排、会议管理、演示、录制和完整日历集成 — 全部内置，随时可用。会议可持续长达24小时。',
       '⚡︎ 实时文字记录、参与者聊天，以及确保会议高效进行的AI助手。'
     ],
-    link: '/guide/how-it-works',
+    link: '/product/how-it-works',
     src: {
       light: '/3l.png',
       dark: '/3d.png',
@@ -62,7 +62,7 @@ text="适用于因**语言障碍**而导致交易损失、延误和代价高昂�
     '✧ 永不遗漏任何会议中的待办事项。我们的AI自动从对话中提取任务、负责人和截止日期。',
     '✧ AI会议摘要用任何语言即时提供要点，无需手动记录即可保持所有人步调一致。',
   ],
-  link: '/guide/how-it-works#🧩-deep-memory-deep-understanding',
+  link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
   src: {
     light: '/2l.png',
     dark: '/2d.png',
@@ -75,13 +75,13 @@ text="适用于因**语言障碍**而导致交易损失、延误和代价高昂�
   :card="{
     title: '安全保密设计',
     details:
-      'InterMind专为需要信任的对话而设计。虽然我们依赖一流的第三方基础设施，但[保密性始终掌握在您手中](/guide/privacy-architecture)。',
+      'InterMind专为需要信任的对话而设计。虽然我们依赖一流的第三方基础设施，但[保密性始终掌握在您手中](/product/privacy-architecture)。',
     items: [
       '⚡︎ 基于区域的隐私保护 — 选择数据处理地点。我们将所有口译、存储和分析通过符合您合规区域（如欧盟、美国、亚洲）的基础设施进行路由。',
       '✧ 默认私密 — InterMind本身**绝不**存储或使用您的内容用于训练、分析或第三方访问。',
       '✧ 架构合规 — 符合GDPR、CCPA和UAE PDPL要求，完全支持数据导出和删除权限。'
     ],
-    link: '/guide/privacy-architecture',
+    link: '/product/privacy-architecture',
     src: {
       light: '/4.png',
       dark: '/4.png',

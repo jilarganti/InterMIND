@@ -22,13 +22,13 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Parlez Instantanément dans Plus de 100 Langues',
-  details: 'InterMind permet à chaque participant de parler sa langue maternelle — naturellement, en [temps réel](/guide/how-it-works), et sans sous-titres ni décalage.',
+  details: 'InterMind permet à chaque participant de parler sa langue maternelle — naturellement, en [temps réel](/product/how-it-works), et sans sous-titres ni décalage.',
     items: [
       '✧ Parlez librement — soyez compris instantanément.',
       '✧ L\'interprétation alimentée par l\'IA capture le ton, l\'intention et la terminologie spécifique à l\'industrie.',
       '⚡︎ Interprétation **voix-à-voix** bidirectionnelle et continue sans configuration manuelle.',
     ],
-  link: './guide/what-is-intermind',
+  link: './product/what-is-intermind',
   src: {
     light: '/1.png',
     dark: '/1.png',
@@ -45,7 +45,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
       '✧ Planification, modération, démonstrations, enregistrement et intégration complète du calendrier — tout est intégré, prêt à l\'emploi. Les réunions peuvent durer jusqu\'à 24 heures.',
       '⚡︎ Transcriptions en direct, chat entre participants et un assistant IA qui maintient les réunions productives.'
     ],
-    link: '/guide/how-it-works',
+    link: '/product/how-it-works',
     src: {
       light: '/3l.png',
       dark: '/3d.png',
@@ -62,7 +62,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
     '✧ Ne manquez jamais les points d\'action de vos réunions. Notre IA extrait automatiquement les tâches, les responsables et les délais des conversations.',
     '✧ Les résumés de réunion par IA fournissent les points clés instantanément dans n\'importe quelle langue, gardant tout le monde aligné sans prise de notes manuelle.',
   ],
-  link: '/guide/how-it-works#🧩-deep-memory-deep-understanding',
+  link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
   src: {
     light: '/2l.png',
     dark: '/2d.png',
@@ -75,13 +75,13 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   :card="{
     title: 'Sécurisé et Confidentiel par Design',
     details:
-      'InterMind est conçu pour les conversations où la confiance est essentielle. Bien que nous nous appuyions sur une infrastructure tierce de premier ordre, [la confidentialité reste toujours entre vos mains](/guide/privacy-architecture).',
+      'InterMind est conçu pour les conversations où la confiance est essentielle. Bien que nous nous appuyions sur une infrastructure tierce de premier ordre, [la confidentialité reste toujours entre vos mains](/product/privacy-architecture).',
     items: [
       '⚡︎ Confidentialité basée sur la région — choisissez où vos données sont traitées. Nous acheminons toute l\'interprétation, le stockage et l\'analyse via une infrastructure alignée sur votre zone de conformité (par ex. UE, États-Unis, Asie).',
       '✧ Privé par défaut — InterMind lui-même ne **stocke ni n\'utilise jamais** votre contenu pour l\'entraînement, le profilage ou l\'accès par des tiers.',
       '✧ Conforme par architecture — Prêt pour GDPR, CCPA et UAE PDPL, avec support complet des droits d\'exportation et de suppression.'
     ],
-    link: '/guide/privacy-architecture',
+    link: '/product/privacy-architecture',
     src: {
       light: '/4.png',
       dark: '/4.png',
