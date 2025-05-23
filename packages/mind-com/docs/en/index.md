@@ -116,9 +116,9 @@ Choose the plan that fits your organization's multilingual communication needs.
     ],
   },
   {
-    title: '**Business** &nbsp 1–250 users',
-    price: '**Tailored** plan for large teams',
-    details: 'Optimized for scale, privacy, and control',
+    title: '**Business** &nbsp 1-500 users',
+    price: '**Privacy-first**.',
+    details: 'Built for big teams',
     items: [
       '500 participant video meetings + 5 TB pooled storage per user [💬](#2)',
       'Voice-to-voice interpretation [💬](#1)',
