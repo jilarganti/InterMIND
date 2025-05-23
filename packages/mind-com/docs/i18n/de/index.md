@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "KI-Sprach-Übersetzer für Live-Videoanrufe"
-description: "Mehrsprachige Meetings brauchen kein Zoom, keine Plugins oder Dolmetscher. InterMind ist ein KI-Sprach-Übersetzer für Echtzeit-Videoanrufe — sprechen und sofort übersetzen."
+title: "KI-Sprachübersetzer für Live-Videoanrufe"
+description: "Mehrsprachige Meetings brauchen kein Zoom, keine Plugins oder Dolmetscher. InterMind ist ein KI-Sprachübersetzer für Echtzeit-Videoanrufe — sprechen und sofort übersetzen."
 isHome: true
 ---
 
@@ -22,11 +22,11 @@ text="Für Unternehmen, bei denen **Sprachbarrieren** verlorene Geschäfte, Verz
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Sprechen Sie sofort in über 100 Sprachen',
-  details: 'InterMind ermöglicht es jedem Teilnehmer, in seiner Muttersprache zu sprechen — natürlich, in [Echtzeit](/product/how-it-works) und ohne Untertitel oder Verzögerung.',
+  details: 'InterMind ermöglicht es jedem Teilnehmer, in seiner Muttersprache zu sprechen — natürlich, in [Echtzeit](/product/how-it-works) und ohne Untertitel oder Verzögerungen.',
     items: [
       '✧ Sprechen Sie frei — werden Sie sofort verstanden.',
       '✧ KI-gestützte Dolmetschung erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
-      '⚡︎ Bidirektionale, kontinuierliche **Sprache-zu-Sprache-Dolmetschung** ohne manuelle Einrichtung.',
+      '⚡︎ Beidseitige, kontinuierliche **Sprache-zu-Sprache-Dolmetschung** ohne manuelle Einrichtung.',
     ],
   link: './product/what-is-intermind',
   src: {
@@ -38,11 +38,11 @@ text="Für Unternehmen, bei denen **Sprachbarrieren** verlorene Geschäfte, Verz
 
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: 'Entwickelt für seriöse Meetings — nicht nur zum Plaudern',
+    title: 'Entwickelt für professionelle Meetings — nicht nur zum Plaudern',
     details: 'InterMind ist eine professionelle Videomeeting-Plattform, kein einfaches Add-on oder Plugin.',
     items: [
       '✧ 1080p Auflösung, intelligente Geräuschunterdrückung und fokussierte Sprachaufnahme.',
-      '✧ Terminplanung, Moderation, Demos, Aufzeichnung und vollständige Kalenderintegration — alles eingebaut, sofort einsatzbereit. Meetings können bis zu 24 Stunden dauern.',
+      '✧ Terminplanung, Moderation, Demos, Aufzeichnung und vollständige Kalenderintegration — alles eingebaut und sofort einsatzbereit. Meetings können bis zu 24 Stunden dauern.',
       '⚡︎ Live-Transkripte, Teilnehmer-Chat und ein KI-Assistent, der Meetings produktiv hält.'
     ],
     link: '/product/how-it-works',
@@ -58,9 +58,9 @@ text="Für Unternehmen, bei denen **Sprachbarrieren** verlorene Geschäfte, Verz
   title: 'Der **Verstand in** Ihren Meetings',
   details: 'InterMind verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
   items: [
-    '⚡︎ Durchsuchen Sie sofort alle Inhalte vergangener und aktueller Meetings. Stellen Sie Fragen natürlich, erhalten Sie präzise Antworten ohne Aufzeichnungen durchzusehen.',
+    '⚡︎ Durchsuchen Sie sofort alle Inhalte vergangener und aktueller Meetings. Stellen Sie Fragen natürlich und erhalten Sie präzise Antworten ohne Aufzeichnungen durchzusehen.',
     '✧ Verpassen Sie keine Aufgaben aus Meetings. Unsere KI extrahiert automatisch Aufgaben, Verantwortliche und Fristen aus Gesprächen.',
-    '✧ KI-Meeting-Zusammenfassungen liefern Kernpunkte sofort in jeder Sprache und halten alle auf dem gleichen Stand ohne manuelle Notizen.',
+    '✧ KI-Meeting-Zusammenfassungen liefern sofort die wichtigsten Punkte in jeder Sprache und halten alle auf dem gleichen Stand ohne manuelle Notizen.',
   ],
   link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
   src: {
@@ -117,8 +117,8 @@ Wählen Sie den Plan, der zu den mehrsprachigen Kommunikationsbedürfnissen Ihre
   },
   {
     title: '**Business** &nbsp 1-500 Benutzer',
-    price: '**Datenschutz steht an erster Stelle**.',
-    details: 'Entwickelt für große Teams',
+    price: '**Datenschutz**',
+    details: 'Unternehmenstaugliche Sicherheit',
     items: [
       '500 Teilnehmer Videomeetings + 5 TB gemeinsamer Speicher pro Benutzer [💬](#2)',
       'Sprache-zu-Sprache Dolmetschen [💬](#1)',
@@ -129,7 +129,7 @@ Wählen Sie den Plan, der zu den mehrsprachigen Kommunikationsbedürfnissen Ihre
 ]">
 <AuthButton text="Kostenlos testen" buttonClass="alt"/>
 <AuthButton text="Jetzt kaufen" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Vertrieb kontaktieren" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Zugang anfragen" buttonClass="alt"/>
 </PricingPlans>
 
 ## Häufig gestellte Fragen
@@ -145,7 +145,7 @@ Wählen Sie den Plan, der zu den mehrsprachigen Kommunikationsbedürfnissen Ihre
   },
   {
     q: 'Wie viele Personen können eine InterMind-Lizenz nutzen?',
-    a: 'Ein lizenzierter Benutzer kann eine unbegrenzte Anzahl von Meetings hosten. Wenn jedoch mehrere Benutzer gleichzeitig separate Meetings planen müssen, benötigen Sie zusätzliche Meeting-Lizenzen pro Benutzer.'
+    a: 'Ein lizenzierter Benutzer kann eine unbegrenzte Anzahl von Meetings veranstalten. Wenn jedoch mehrere Benutzer gleichzeitig separate Meetings planen müssen, benötigen Sie zusätzliche Meeting-Lizenzen pro Benutzer.'
   },
   {
       q: 'Funktioniert die Sprachdolmetschung bei allen Plänen?',

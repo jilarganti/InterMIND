@@ -117,8 +117,8 @@ Choose the plan that fits your organization's multilingual communication needs.
   },
   {
     title: '**Business** &nbsp 1-500 users',
-    price: '**Privacy-first**.',
-    details: 'Built for big teams',
+    price: '**Privacy**',
+    details: 'Enterprise-grade security',
     items: [
       '500 participant video meetings + 5 TB pooled storage per user [💬](#2)',
       'Voice-to-voice interpretation [💬](#1)',
@@ -129,7 +129,7 @@ Choose the plan that fits your organization's multilingual communication needs.
 ]">
 <AuthButton text="Try for free" buttonClass="alt"/>
 <AuthButton text="Buy now" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Contact sales" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Request access" buttonClass="alt"/>
 </PricingPlans>
 
 ## Frequently Asked Questions

@@ -78,8 +78,8 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
       'InterMind est conçu pour les conversations où la confiance est essentielle. Bien que nous nous appuyions sur une infrastructure tierce de premier ordre, [la confidentialité reste toujours entre vos mains](/product/privacy-architecture).',
     items: [
       '⚡︎ Confidentialité basée sur la région — choisissez où vos données sont traitées. Nous acheminons toute l\'interprétation, le stockage et l\'analyse via une infrastructure alignée sur votre zone de conformité (par ex. UE, États-Unis, Asie).',
-      '✧ Privé par défaut — InterMind lui-même ne **stocke ni n\'utilise jamais** votre contenu pour l\'entraînement, le profilage ou l\'accès par des tiers.',
-      '✧ Conforme par architecture — Prêt pour GDPR, CCPA et UAE PDPL, avec un support complet des droits d\'exportation et de suppression.'
+      '✧ Privé par défaut — InterMind lui-même ne **stocke ni n\'utilise jamais** votre contenu pour l\'entraînement, le profilage ou l\'accès tiers.',
+      '✧ Conforme par architecture — Prêt pour GDPR, CCPA et UAE PDPL, avec support complet des droits d\'exportation et de suppression.'
     ],
     link: '/product/privacy-architecture',
     src: {
@@ -90,7 +90,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   }"
 />
 
-## Prix Clairs et Simples
+## Tarification Claire et Simple
 
 Choisissez le forfait qui correspond aux besoins de communication multilingue de votre organisation.
 
@@ -117,8 +117,8 @@ Choisissez le forfait qui correspond aux besoins de communication multilingue de
   },
   {
     title: '**Business** &nbsp 1-500 utilisateurs',
-    price: '**Confidentialité avant tout**.',
-    details: 'Conçu pour les grandes équipes',
+    price: '**Confidentialité**',
+    details: 'Sécurité de niveau entreprise',
     items: [
       'Réunions vidéo de 500 participants + 5 To de stockage mutualisé par utilisateur [💬](#2)',
       'Interprétation voix-à-voix [💬](#1)',
@@ -129,7 +129,7 @@ Choisissez le forfait qui correspond aux besoins de communication multilingue de
 ]">
 <AuthButton text="Essayer gratuitement" buttonClass="alt"/>
 <AuthButton text="Acheter maintenant" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Contacter les ventes" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Demander l'accès" buttonClass="alt"/>
 </PricingPlans>
 
 ## Questions Fréquemment Posées

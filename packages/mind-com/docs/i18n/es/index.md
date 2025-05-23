@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Traductor de Voz con IA para Videollamadas en Vivo"
-description: "Las reuniones multilingües no necesitan Zoom, plugins o intérpretes. InterMind es un traductor de voz con IA para videollamadas en tiempo real — habla y traduce instantáneamente."
+description: "Las reuniones multilingües no necesitan Zoom, plugins ni intérpretes. InterMind es un traductor de voz con IA para videollamadas en tiempo real — habla y traduce instantáneamente."
 isHome: true
 ---
 
@@ -117,8 +117,8 @@ Elija el plan que se adapte a las necesidades de comunicación multilingüe de s
   },
   {
     title: '**Empresarial** &nbsp 1-500 usuarios',
-    price: '**Privacidad primero**.',
-    details: 'Diseñado para equipos grandes',
+    price: '**Privacidad**',
+    details: 'Seguridad de nivel empresarial',
     items: [
       'Reuniones de video de 500 participantes + 5 TB de almacenamiento compartido por usuario [💬](#2)',
       'Interpretación de voz a voz [💬](#1)',
@@ -129,7 +129,7 @@ Elija el plan que se adapte a las necesidades de comunicación multilingüe de s
 ]">
 <AuthButton text="Prueba gratis" buttonClass="alt"/>
 <AuthButton text="Comprar ahora" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Contactar ventas" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Solicitar acceso" buttonClass="alt"/>
 </PricingPlans>
 
 ## Preguntas Frecuentes
