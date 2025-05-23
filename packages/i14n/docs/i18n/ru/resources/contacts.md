@@ -6,21 +6,23 @@
 hideComponents:
   - NavButton
   # - SearchInput
+
+description: "Есть вопросы о синхронном переводе встреч с помощью ИИ, многоязычной поддержке или корпоративном внедрении? Свяжитесь с InterMind, чтобы обсудить варианты использования, цены и возможности интеграции."
 ---
 
-<!-- <p>
-  <img src="/img/Logo.avif" alt="логотип" width="100" height="100" style="margin-left: 50%;">
-</p> -->
+<p>
+  <img src="/favicon.svg" alt="логотип" width="50" >
+</p>
 
-# Свяжитесь с нами
+# Нужны мгновенные многоязычные встречи? Давайте обсудим
 
-**Наши контакты:**
+<!-- **Get in Touch:**
 
 - Email: never@mind.com
-- Телефон: +971 058 574 88 06
-- WhatsApp: +971 058 574 88 06
+- Phone: +971 058 574 88 06
+- WhatsApp: +971 058 574 88 06 -->
 
 <!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
-<ContactFormModalNav  buttonClass="alt"/>
+<ContactFormModalNav  buttonClass="alt" formStyle="margin: 1rem auto;"/>

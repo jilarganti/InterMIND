@@ -6,21 +6,23 @@
 hideComponents:
   - NavButton
   # - SearchInput
+
+description: "Vous avez des questions sur l'interprétation de réunions par IA, le support multilingue ou le déploiement en entreprise ? Contactez InterMind pour explorer les cas d'utilisation, les tarifs et les options d'intégration."
 ---
 
-<!-- <p>
-  <img src="/img/Logo.avif" alt="logo" width="100" height="100" style="margin-left: 50%;">
-</p> -->
+<p>
+  <img src="/favicon.svg" alt="logo" width="50" >
+</p>
 
-# Contactez-nous
+# Besoin de Réunions Multilingues Instantanées ? Parlons-en
 
-**Prenez Contact :**
+<!-- **Get in Touch:**
 
-- Email : never@mind.com
-- Téléphone : +971 058 574 88 06
-- WhatsApp : +971 058 574 88 06
+- Email: never@mind.com
+- Phone: +971 058 574 88 06
+- WhatsApp: +971 058 574 88 06 -->
 
 <!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
-<ContactFormModalNav  buttonClass="alt"/>
+<ContactFormModalNav  buttonClass="alt" formStyle="margin: 1rem auto;"/>

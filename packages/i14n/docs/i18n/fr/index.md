@@ -1,7 +1,8 @@
 ---
 layout: home
-title: "Interprétation Vidéo en Temps Réel | Parlez Votre Langue, Comprenez Tout"
-description: "Éliminez instantanément les barrières linguistiques avec l'interprétation vidéo en temps réel d'InterMind. Participez aux réunions dans votre langue maternelle pendant que tout le monde comprend parfaitement. Pourquoi apprendre une nouvelle langue quand la technologie peut combler le fossé ?"
+title: "Traducteur Vocal IA pour Appels Vidéo en Direct"
+description: "Les réunions multilingues n'ont pas besoin de Zoom, de plugins ou d'interprètes. InterMind est un traducteur vocal IA pour les appels vidéo en temps réel — parlez et traduisez instantanément."
+isHome: true
 ---
 
 <!-- text="Concentrez-vous sur la croissance — laissez InterMind gérer les langues." -->
@@ -13,7 +14,7 @@ description: "Éliminez instantanément les barrières linguistiques avec l'inte
 title="Réunions Vidéo **Multilingues** avec Interprétation **Vocale**"
 text="Pour les entreprises où les **barrières linguistiques** signifient des opportunités manquées, des retards et des erreurs coûteuses.">
 
-<AuthButton text="Inscrivez-vous gratuitement" buttonClass="brand"/>
+<AuthButton text="Essayer gratuitement" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Demander une Démo"/>
 <NavButton to="#pricing" buttonClass="alt" buttonLabel="Tarifs" /> -->
 </HeroSection>
@@ -38,7 +39,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
 <span id="2"></span>
 <FeatureBlock :card="{
     title: 'Conçu pour les Réunions Professionnelles — Pas Seulement pour Discuter',
-    details: 'InterMind est une plateforme de réunion vidéo de qualité professionnelle, pas un simple module complémentaire ou plugin.',
+    details: 'InterMind est une plateforme de réunion vidéo de niveau professionnel, pas un simple complément ou plugin.',
     items: [
       '✧ Résolution 1080p, suppression intelligente du bruit et captation vocale ciblée.',
       '✧ Planification, modération, démonstrations, enregistrement et intégration complète du calendrier — tout est intégré, prêt à l\'emploi. Les réunions peuvent durer jusqu\'à 24 heures.',
@@ -59,7 +60,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   items: [
     '⚡︎ Recherchez instantanément tout contenu dans les réunions passées et actuelles. Posez des questions naturellement, obtenez des réponses précises sans revoir les enregistrements.',
     '✧ Ne manquez jamais les points d\'action de vos réunions. Notre IA extrait automatiquement les tâches, les responsables et les délais des conversations.',
-    '✧ Les résumés de réunion par IA fournissent instantanément les points clés dans n\'importe quelle langue, gardant tout le monde aligné sans prise de notes manuelle.',
+    '✧ Les résumés de réunion par IA fournissent les points clés instantanément dans n\'importe quelle langue, gardant tout le monde aligné sans prise de notes manuelle.',
   ],
   link: '/guide/how-it-works#🧩-deep-memory-deep-understanding',
   src: {
@@ -72,12 +73,12 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Sécurisé et Confidentiel par Conception',
+    title: 'Sécurisé et Confidentiel par Design',
     details:
       'InterMind est conçu pour les conversations où la confiance est essentielle. Bien que nous nous appuyions sur une infrastructure tierce de premier ordre, [la confidentialité reste toujours entre vos mains](/guide/privacy-architecture).',
     items: [
       '⚡︎ Confidentialité basée sur la région — choisissez où vos données sont traitées. Nous acheminons toute l\'interprétation, le stockage et l\'analyse via une infrastructure alignée sur votre zone de conformité (par ex. UE, États-Unis, Asie).',
-      '✧ Privé par défaut — InterMind lui-même ne **stocke** ni n\'utilise jamais votre contenu pour l\'entraînement, le profilage ou l\'accès par des tiers.',
+      '✧ Privé par défaut — InterMind lui-même ne **stocke ni n\'utilise jamais** votre contenu pour l\'entraînement, le profilage ou l\'accès par des tiers.',
       '✧ Conforme par architecture — Prêt pour GDPR, CCPA et UAE PDPL, avec support complet des droits d\'exportation et de suppression.'
     ],
     link: '/guide/privacy-architecture',
@@ -106,8 +107,8 @@ Choisissez le forfait qui correspond aux besoins de communication multilingue de
   },
   {
     title: '**Pro** &nbsp 1-99 utilisateurs',
-    price: '**13 €** /mois/utilisateur, facturation annuelle',
-    details: 'ou 15,99 € facturation mensuelle',
+    price: '**20€** /mois/utilisateur, facturation annuelle',
+    details: 'ou 13,99€ par mois',
     items: [
       'Réunions vidéo de 150 participants + 2 To de stockage mutualisé par utilisateur [💬](#2)',
       'Interprétation voix-à-voix [💬](#1)',
@@ -115,9 +116,9 @@ Choisissez le forfait qui correspond aux besoins de communication multilingue de
     ],
   },
   {
-    title: '**Business** &nbsp 1-250 utilisateurs',
-    price: '**18 €** /mois/utilisateur, facturation annuelle',
-    details: 'ou 21,99 € facturation mensuelle',
+    title: '**Business** &nbsp 1–250 utilisateurs',
+    price: '**Sur mesure** plan pour grandes équipes',
+    details: 'Optimisé pour l\'échelle, la confidentialité et le contrôle',
     items: [
       'Réunions vidéo de 500 participants + 5 To de stockage mutualisé par utilisateur [💬](#2)',
       'Interprétation voix-à-voix [💬](#1)',
@@ -126,7 +127,7 @@ Choisissez le forfait qui correspond aux besoins de communication multilingue de
     ],
   }
 ]">
-<AuthButton text="S'inscrire gratuitement" buttonClass="alt"/>
+<AuthButton text="Essayer gratuitement" buttonClass="alt"/>
 <AuthButton text="Acheter maintenant" buttonClass="brand"/>
 <ContactFormModalNav buttonText="Contacter les ventes" buttonClass="alt"/>
 </PricingPlans>

@@ -3,49 +3,38 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ru"
 
 export const ru = defineConfig({
-  description: "Экспертные услуги по созданию и поддержке компаний в ОАЭ. Регистрация компаний, банковские услуги, налоговые, юридические решения и визовая поддержка. Воплощаем ваши бизнес-мечты в реальность!",
+  description:
+    "Для многоязычных встреч не нужны Zoom, плагины или переводчики. InterMind — это ИИ-переводчик голоса для видеозвонков в реальном времени — говорите и переводите мгновенно.",
   head: [
-    ["meta", { property: "og:title", content: "Экспертные услуги по созданию и поддержке компаний в ОАЭ. Регистрация компаний, банковские услуги, налоговые, юридические решения и визовая поддержка." }],
+    ["meta", { property: "og:title", content: "ИИ-переводчик голоса для видеозвонков | InterMIND" }],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content: "ИИ-переводчик голоса, перевод в реальном времени, перевод видеозвонков, многоязычные встречи, альтернатива переводчику Zoom, инструмент переводчика",
+      },
+    ],
   ],
 
   themeConfig: {
     nav: [
       {
-        text: "InterMind",
+        text: "Продукт",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [
-          {
-            text: "ПРОДУКТ",
-            items: [
-              { text: "Начало работы с InterMIND", link: `${BASE_PATH}/guide/what-is-intermind` },
-              { text: "Как это работает", link: `${BASE_PATH}/guide/how-it-works` },
-              { text: "Часто задаваемые вопросы", link: `${BASE_PATH}/#frequently-asked-questions` },
-            ],
-          },
-          {
-            text: "ИНФОРМАЦИЯ",
-            items: [
-              { text: "Отзывы", link: `${BASE_PATH}/#what-customers-are-saying` },
-              { text: "Цены", link: `${BASE_PATH}/#clear-and-simple-pricing` },
-            ],
-          },
-        ],
+        link: `${BASE_PATH}/guide/what-is-intermind`,
       },
       {
-        text: "Mind",
+        text: "Компания",
         activeMatch: `${BASE_PATH}/resources/`,
+        link: `${BASE_PATH}/resources/about`,
+      },
+      {
+        text: "Ресурсы",
+        activeMatch: `${BASE_PATH}/guide/`,
         items: [
-          {
-            text: "КОМПАНИЯ",
-            items: [
-              { text: "О Mind.com", link: `${BASE_PATH}/resources/about` },
-              { text: "Контакты", link: `${BASE_PATH}/resources/contacts` },
-            ],
-          },
-          {
-            text: "ИНФОРМАЦИЯ",
-            items: [{ text: "iMind.com", link: "https://imind.com" }],
-          },
+          { text: "Цены", link: `${BASE_PATH}/#clear-and-simple-pricing` },
+          { text: "FAQ", link: `${BASE_PATH}/#frequently-asked-questions` },
+          { text: "Отзывы", link: `${BASE_PATH}/#what-customers-are-saying` },
         ],
       },
     ],
@@ -56,12 +45,12 @@ export const ru = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Правовые нормы для AI-сервисов</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Правовые нормы для ИИ-сервисов</a>`,
     },
 
     localization: {
-      placeholder4SearchInput: "Задайте любой вопрос...",
-      placeholder4ChatFooter: "Задайте любой вопрос...",
+      placeholder4SearchInput: "Спросите что угодно...",
+      placeholder4ChatFooter: "Спросите что угодно...",
       placeholder4ChatList: "Введите тему чата...",
       buttonLabel4NavButton: "Мгновенный чат с экспертом",
     },
@@ -83,13 +72,12 @@ export const ru = defineConfig({
       successMessage: "Мы очень ценим ваш интерес! Наша команда свяжется с вами в ближайшее время для обсуждения ваших потребностей.",
       defaultCategories: [
         "Меня интересует синхронный голосовой перевод",
-        "Меня интересует AI-ассистент для встреч",
-        "Меня интересует региональный контроль конфиденциальности и данных",
+        "Меня интересует ИИ-ассистент для встреч",
+        "Меня интересует региональная конфиденциальность и контроль данных",
         "Другое / Не указано",
       ],
 
       defaultButtonText: "Отправить нам сообщение",
-      // defaultButtonText: "Получить бесплатную консультацию",
     },
   },
 })
@@ -102,8 +90,8 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Что такое InterMIND?", link: "what-is-intermind" },
         { text: "Как это работает", link: "how-it-works" },
-        { text: "Регионально-сегментированная архитектура конфиденциальности InterMind", link: "privacy-architecture" },
-        { text: "Примеры использования", link: "use-cases" },
+        { text: "Региональная защита данных", link: "privacy-architecture" },
+        { text: "Варианты использования", link: "use-cases" },
       ],
     },
   ]

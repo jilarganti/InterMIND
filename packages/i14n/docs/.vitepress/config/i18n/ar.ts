@@ -3,49 +3,38 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description: "خدمات تأسيس الشركات المتخصصة في الإمارات وخدمات الدعم. حلول إنشاء الشركات والخدمات المصرفية والضرائب والقانونية والتأشيرات. نحول أحلام أعمالك إلى حقيقة!",
+  description:
+    "الاجتماعات متعددة اللغات لا تحتاج إلى Zoom أو إضافات أو مترجمين. InterMind هو مترجم صوتي ذكي للمكالمات المرئية المباشرة - تحدث وترجم فوراً.",
   head: [
-    ["meta", { property: "og:title", content: "خدمات تأسيس الشركات المتخصصة في الإمارات وخدمات الدعم. حلول إنشاء الشركات والخدمات المصرفية والضرائب والقانونية والتأشيرات." }],
+    ["meta", { property: "og:title", content: "مترجم صوتي ذكي للمكالمات المرئية المباشرة | InterMIND" }],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content: "مترجم صوتي ذكي، ترجمة فورية، ترجمة مكالمات الفيديو، اجتماعات متعددة اللغات، بديل مترجم Zoom، أداة الترجمة",
+      },
+    ],
   ],
 
   themeConfig: {
     nav: [
       {
-        text: "إنترمايند",
+        text: "المنتج",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [
-          {
-            text: "المنتج",
-            items: [
-              { text: "ابدأ مع إنترمايند", link: `${BASE_PATH}/guide/what-is-intermind` },
-              { text: "كيف يعمل", link: `${BASE_PATH}/guide/how-it-works` },
-              { text: "الأسئلة الشائعة", link: `${BASE_PATH}/#frequently-asked-questions` },
-            ],
-          },
-          {
-            text: "رؤى",
-            items: [
-              { text: "آراء العملاء", link: `${BASE_PATH}/#what-customers-are-saying` },
-              { text: "الأسعار", link: `${BASE_PATH}/#clear-and-simple-pricing` },
-            ],
-          },
-        ],
+        link: `${BASE_PATH}/guide/what-is-intermind`,
       },
       {
-        text: "مايند",
+        text: "الشركة",
         activeMatch: `${BASE_PATH}/resources/`,
+        link: `${BASE_PATH}/resources/about`,
+      },
+      {
+        text: "الموارد",
+        activeMatch: `${BASE_PATH}/guide/`,
         items: [
-          {
-            text: "الشركة",
-            items: [
-              { text: "عن مايند.كوم", link: `${BASE_PATH}/resources/about` },
-              { text: "اتصل بنا", link: `${BASE_PATH}/resources/contacts` },
-            ],
-          },
-          {
-            text: "رؤى",
-            items: [{ text: "آي مايند.كوم", link: "https://imind.com" }],
-          },
+          { text: "الأسعار", link: `${BASE_PATH}/#clear-and-simple-pricing` },
+          { text: "الأسئلة الشائعة", link: `${BASE_PATH}/#frequently-asked-questions` },
+          { text: "آراء العملاء", link: `${BASE_PATH}/#what-customers-are-saying` },
         ],
       },
     ],
@@ -56,7 +45,7 @@ export const ar = defineConfig({
     },
 
     footer: {
-      message: `© مايند، ٢٠٢٥. | <a href="#" onClick="UC_UI.showSecondLayer();">إعدادات الخصوصية</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">سياسة الخصوصية</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">اللوائح القانونية لخدمات الذكاء الاصطناعي</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">إعدادات الخصوصية</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">سياسة الخصوصية</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">اللوائح القانونية لخدمات الذكاء الاصطناعي</a>`,
     },
 
     localization: {
@@ -82,7 +71,7 @@ export const ar = defineConfig({
       successTitle: "شكراً لك!",
       successMessage: "نقدر اهتمامك كثيراً! سيتواصل فريقنا معك قريباً لمناقشة احتياجاتك.",
       defaultCategories: [
-        "مهتم بالترجمة الفورية للصوت",
+        "مهتم بالترجمة الصوتية الفورية",
         "مهتم بمساعد الاجتماعات الذكي",
         "مهتم بخصوصية البيانات والتحكم حسب المنطقة",
         "أخرى / غير مدرجة",
@@ -99,9 +88,9 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "مقدمة",
       collapsed: false,
       items: [
-        { text: "ما هو إنترمايند؟", link: "what-is-intermind" },
+        { text: "ما هو InterMIND؟", link: "what-is-intermind" },
         { text: "كيف يعمل", link: "how-it-works" },
-        { text: "هندسة الخصوصية المقسمة حسب المناطق من إنترمايند", link: "privacy-architecture" },
+        { text: "خصوصية البيانات الإقليمية", link: "privacy-architecture" },
         { text: "حالات الاستخدام", link: "use-cases" },
       ],
     },

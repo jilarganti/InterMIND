@@ -1,4 +1,4 @@
-# Qu'est-ce qu'InterMIND ?
+# La Façon la Plus Rapide de Parler Toutes les Langues — Sans les Apprendre
 
 ## La barrière linguistique s'arrête ici
 
@@ -20,9 +20,9 @@ Contrairement aux outils de traduction traditionnels, InterMIND ne se contente p
 
 - Nous avons arrêté de mémoriser les numéros de téléphone quand les smartphones l'ont rendu inutile
 - Nous avons abandonné les calculs manuels quand les calculatrices sont devenues omniprésentes
-- Nous ne mémorisons plus les itinéraires depuis l'émergence des systèmes de navigation GPS
+- Nous ne mémorisons plus les directions depuis l'émergence des systèmes de navigation GPS
 
-L'apprentissage des langues représente l'une des dernières allocations inefficaces du potentiel cognitif humain. La personne moyenne passe entre 600 et 1000 heures pour atteindre un niveau de base dans une nouvelle langue, la maîtrise nécessitant plus de 2000 heures d'étude dédiée. Ce sont des heures qui pourraient être investies dans le développement d'une expertise spécialisée dans votre domaine réel.
+L'apprentissage des langues représente l'une des dernières allocations inefficaces du potentiel cognitif humain. La personne moyenne passe 600 à 1000 heures pour atteindre un niveau de base dans une nouvelle langue, la maîtrise nécessitant plus de 2000 heures d'étude dédiée. Ce sont des heures qui pourraient être investies dans le développement d'une expertise spécialisée dans votre domaine réel.
 
 ## La Philosophie InterMIND
 

@@ -6,21 +6,23 @@
 hideComponents:
   - NavButton
   # - SearchInput
+
+description: "对AI会议口译、多语言支持或企业部署有疑问？联系InterMind探讨使用场景、定价和集成方案。"
 ---
 
-<!-- <p>
-  <img src="/img/Logo.avif" alt="标志" width="100" height="100" style="margin-left: 50%;">
-</p> -->
+<p>
+  <img src="/favicon.svg" alt="标志" width="50" >
+</p>
 
-# 联系我们
+# 需要即时多语言会议？让我们聊聊
 
-**联系方式：**
+<!-- **Get in Touch:**
 
-- 电子邮件：never@mind.com
-- 电话：+971 058 574 88 06
-- WhatsApp：+971 058 574 88 06
+- Email: never@mind.com
+- Phone: +971 058 574 88 06
+- WhatsApp: +971 058 574 88 06 -->
 
 <!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
-<ContactFormModalNav  buttonClass="alt"/>
+<ContactFormModalNav  buttonClass="alt" formStyle="margin: 1rem auto;"/>

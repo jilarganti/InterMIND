@@ -102,7 +102,7 @@ Podemos actualizar esta Política de Privacidad periódicamente. La versión act
 
 Si tiene alguna pregunta sobre esta Política de Privacidad o nuestras prácticas de datos, por favor contacte a nuestro Oficial de Protección de Datos en:
 
-- **Correo electrónico:** info@goldenfish.ae
+- **Correo electrónico:** info@goldenfish.ae, never@mind.com
 - **Dirección:** City Avenue Building, Office 405-070, Port Saeed, Dubai, UAE
 - **Teléfono:** +971 058 574 88 06
 - **WhatsApp:** +971 058 574 88 06
@@ -111,3 +111,5 @@ Si tiene alguna pregunta sobre esta Política de Privacidad o nuestras práctica
 
 - **Número de Licencia:** 1414192
 - **Número de Registro:** 2411728
+
+<ContactFormModalNav  buttonClass="alt"/>

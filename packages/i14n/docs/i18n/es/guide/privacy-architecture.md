@@ -1,16 +1,16 @@
-# Arquitectura de Privacidad Segmentada por Regiones de InterMind
+# Privacidad Regional de Datos para Reuniones de IA
 
 ## Introducción
 
 InterMind es una plataforma para reuniones por video multilingües con interpretación en vivo impulsada por IA. Estamos diseñados para profesionales — donde no solo importa el mensaje, sino también la privacidad de ese mensaje.
 
-Para ofrecer una experiencia fluida, InterMind integra servicios de terceros para video, audio, almacenamiento en la nube, interpretación en tiempo real y análisis. Estos proveedores externos nos ayudan a garantizar el rendimiento y la escalabilidad — pero también introducen una capa que no podemos controlar directamente.
+> [!tip] Interpretación en tiempo real. Comprensión a nivel nativo. Sin subtítulos. Sin retrasos.
+
+Para ofrecer una experiencia fluida, InterMind integra servicios de terceros para video, audio, almacenamiento en la nube, interpretación en tiempo real y análisis. Estos proveedores externos nos ayudan a garantizar el rendimiento y la escalabilidad, pero también introducen una capa que no podemos controlar directamente.
 
 Creemos en la **transparencia por encima de las promesas**. Solo podemos garantizar la privacidad y seguridad de los componentes bajo nuestro control directo — nuestro software, la lógica de la interfaz y cómo enrutamos los datos. Para todo lo demás, te ofrecemos **el poder de elegir**.
 
-Por eso diseñamos InterMind con **confidencialidad basada en regiones**: tú eliges dónde se procesan tus datos, qué marco legal los gobierna y qué modelos de IA se utilizan — según tu zona de privacidad seleccionada.
-
----
+Por eso diseñamos InterMind con **confidencialidad basada en regiones**: tú eliges dónde se procesan tus datos, qué marco legal los gobierna y qué modelos de IA se utilizan — según la zona de privacidad que selecciones.
 
 ## Principios Fundamentales de Privacidad
 
@@ -31,8 +31,6 @@ Por eso diseñamos InterMind con **confidencialidad basada en regiones**: tú el
 - No conservamos transcripciones ni medios a menos que usted lo solicite explícitamente.
 - Si desactiva la interpretación, **ningún dato del usuario sale de su dispositivo**.
 
----
-
 ## Confidencialidad por Región: Cómo Funciona
 
 Al inicio de cada sesión, o como parte de la configuración de la cuenta de su organización, puede seleccionar una zona de privacidad preferida:
@@ -51,8 +49,6 @@ Usted puede:
 - **Establecer una región predeterminada** para su organización
 - **Anular la región por sesión**
 - **Incluir regiones en lista negra** por completo
-
----
 
 ## Lo que InterMind Garantiza
 
@@ -74,8 +70,6 @@ Todos los datos de audio/video se transmiten a través de canales cifrados. Las 
 
 No almacenamos sus reuniones, transcripciones o conversaciones a menos que usted lo autorice. Todo el almacenamiento está limitado por región.
 
----
-
 ## Cumplimiento Legal y Regulatorio
 
 InterMind garantiza la compatibilidad total con:
@@ -84,8 +78,6 @@ InterMind garantiza la compatibilidad total con:
 - **CCPA** — Sin venta de datos personales, opciones de exclusión y prácticas de recopilación transparentes.
 - **UAE PDPL** — Almacenamiento local si se solicita, controles de acceso estrictos, sin transferencias internacionales sin consentimiento.
 - **China DSL/PIPL** — Procesamiento solo en la región, sin enrutamiento extranjero si se selecciona China.
-
----
 
 ## Lo que Podemos y No Podemos Garantizar
 
@@ -105,8 +97,6 @@ Estamos comprometidos con la total honestidad, no solo con términos legales.
 - Tiene herramientas para **controlar el riesgo** seleccionando su región y modo de cumplimiento.
 - InterMind **nunca** almacena ni explota su contenido — ni siquiera temporalmente — sin su consentimiento.
 
----
-
 ## Modos de Confianza y Niveles de Privacidad
 
 Puede personalizar su sesión según sus necesidades de confidencialidad:
@@ -117,17 +107,13 @@ Puede personalizar su sesión según sus necesidades de confidencialidad:
 | 🔐 Bloqueado por Región | ✅       | ✅ (solo dentro de la zona)  | ❌ o solo sesión   | Salud, finanzas, recursos humanos            |
 | 🌐 Flexibilidad Global | ✅        | ✅ (multi-región)            | ✅                 | Soporte, ventas, equipos multinacionales     |
 
----
-
-## Lo Que Obtiene de Forma Inmediata
+## Lo Que Obtienes Desde el Primer Momento
 
 - Uso de LLM específico por región, con transparencia en tiempo real.
-- Sin entrenamiento ni perfilado de su contenido — nunca.
+- Sin entrenamiento ni perfilado de tu contenido — nunca.
 - Cero transmisión de datos si la interpretación está desactivada.
 - Almacenamiento de datos opcional, siempre limitado por región.
 - Herramientas completas de auditoría y exportación para clientes empresariales.
-
----
 
 ## Conclusión
 

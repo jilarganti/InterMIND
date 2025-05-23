@@ -6,21 +6,23 @@
 hideComponents:
   - NavButton
   # - SearchInput
+
+description: "AI会議通訳、多言語サポート、企業展開についてご質問がありますか？InterMindにご相談いただき、ユースケース、価格、統合オプションをご確認ください。"
 ---
 
-<!-- <p>
-  <img src="/img/Logo.avif" alt="ロゴ" width="100" height="100" style="margin-left: 50%;">
-</p> -->
+<p>
+  <img src="/favicon.svg" alt="ロゴ" width="50" >
+</p>
 
-# お問い合わせ
+# 瞬時の多言語会議が必要ですか？ご相談ください
 
-**ご連絡方法：**
+<!-- **Get in Touch:**
 
-- メール: never@mind.com
-- 電話番号: +971 058 574 88 06
-- WhatsApp: +971 058 574 88 06
+- Email: never@mind.com
+- Phone: +971 058 574 88 06
+- WhatsApp: +971 058 574 88 06 -->
 
 <!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
-<ContactFormModalNav  buttonClass="alt"/>
+<ContactFormModalNav  buttonClass="alt" formStyle="margin: 1rem auto;"/>

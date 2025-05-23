@@ -3,49 +3,38 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/fr"
 
 export const fr = defineConfig({
-  description: "Services experts de formation et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa. Réalisons vos rêves d'entreprise !",
+  description:
+    "Les réunions multilingues n'ont pas besoin de Zoom, de plugins ou d'interprètes. InterMind est un traducteur vocal IA pour les appels vidéo en temps réel — parlez et traduisez instantanément.",
   head: [
-    ["meta", { property: "og:title", content: "Services experts de formation et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa." }],
+    ["meta", { property: "og:title", content: "Traducteur Vocal IA pour Appels Vidéo en Direct | InterMIND" }],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content: "traducteur vocal IA, traduction en temps réel, traduire appels vidéo, réunions multilingues, alternative à Zoom traducteur, outil d'interprétation",
+      },
+    ],
   ],
 
   themeConfig: {
     nav: [
       {
-        text: "InterMind",
+        text: "Produit",
         activeMatch: `${BASE_PATH}/guide/`,
-        items: [
-          {
-            text: "PRODUIT",
-            items: [
-              { text: "Débuter avec InterMIND", link: `${BASE_PATH}/guide/what-is-intermind` },
-              { text: "Comment ça marche", link: `${BASE_PATH}/guide/how-it-works` },
-              { text: "FAQ", link: `${BASE_PATH}/#frequently-asked-questions` },
-            ],
-          },
-          {
-            text: "APERÇUS",
-            items: [
-              { text: "Témoignages", link: `${BASE_PATH}/#what-customers-are-saying` },
-              { text: "Tarification", link: `${BASE_PATH}/#clear-and-simple-pricing` },
-            ],
-          },
-        ],
+        link: `${BASE_PATH}/guide/what-is-intermind`,
       },
       {
-        text: "Mind",
+        text: "Entreprise",
         activeMatch: `${BASE_PATH}/resources/`,
+        link: `${BASE_PATH}/resources/about`,
+      },
+      {
+        text: "Ressources",
+        activeMatch: `${BASE_PATH}/guide/`,
         items: [
-          {
-            text: "ENTREPRISE",
-            items: [
-              { text: "À propos de Mind.com", link: `${BASE_PATH}/resources/about` },
-              { text: "Contacts", link: `${BASE_PATH}/resources/contacts` },
-            ],
-          },
-          {
-            text: "APERÇUS",
-            items: [{ text: "iMind.com", link: "https://imind.com" }],
-          },
+          { text: "Tarification", link: `${BASE_PATH}/#clear-and-simple-pricing` },
+          { text: "FAQ", link: `${BASE_PATH}/#frequently-asked-questions` },
+          { text: "Témoignages", link: `${BASE_PATH}/#what-customers-are-saying` },
         ],
       },
     ],
@@ -56,13 +45,13 @@ export const fr = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Réglementations légales pour les services d'IA</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Réglementations légales pour les services IA</a>`,
     },
 
     localization: {
       placeholder4SearchInput: "Posez n'importe quelle question...",
       placeholder4ChatFooter: "Posez n'importe quelle question...",
-      placeholder4ChatList: "Saisissez le sujet du chat...",
+      placeholder4ChatList: "Entrez le sujet de discussion...",
       buttonLabel4NavButton: "Chat expert instantané",
     },
     contact_form: {
@@ -72,7 +61,7 @@ export const fr = defineConfig({
       emailPlaceholder: "votre adresse email",
       phone: "Site d'entreprise *",
       phonePlaceholder: "ex., https://mind.com",
-      phoneError: "Veuillez saisir un numéro de téléphone",
+      phoneError: "Veuillez entrer un numéro de téléphone",
       category: "Dites-nous comment nous pouvons vous aider *",
       categoryPlaceholder: "sélectionnez le type de service",
       message: "Discutons de vos objectifs (facultatif)",
@@ -84,7 +73,7 @@ export const fr = defineConfig({
       defaultCategories: [
         "Je suis intéressé par l'interprétation vocale en temps réel",
         "Je suis intéressé par l'assistant de réunion IA",
-        "Je suis intéressé par le contrôle des données et de la confidentialité par région",
+        "Je suis intéressé par le contrôle des données et la confidentialité régionale",
         "Autre / Non listé",
       ],
 
@@ -99,9 +88,9 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Introduction",
       collapsed: false,
       items: [
-        { text: "Qu'est-ce que InterMIND ?", link: "what-is-intermind" },
+        { text: "Qu'est-ce qu'InterMIND ?", link: "what-is-intermind" },
         { text: "Comment ça marche", link: "how-it-works" },
-        { text: "Architecture de confidentialité segmentée par région par InterMind", link: "privacy-architecture" },
+        { text: "Confidentialité des données régionales", link: "privacy-architecture" },
         { text: "Cas d'utilisation", link: "use-cases" },
       ],
     },

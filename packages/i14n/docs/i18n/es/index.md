@@ -1,29 +1,30 @@
 ---
 layout: home
-title: "Interpretación de Video en Tiempo Real | Hable su Idioma, Entienda Todo"
-description: "Elimine las barreras del idioma instantáneamente con la interpretación de video en tiempo real de InterMind. Participe en reuniones en su idioma nativo mientras todos entienden perfectamente. ¿Por qué aprender un nuevo idioma cuando la tecnología puede cerrar la brecha?"
+title: "Traductor de Voz con IA para Videollamadas en Vivo"
+description: "Las reuniones multilingües no necesitan Zoom, plugins ni intérpretes. InterMind es un traductor de voz con IA para videollamadas en tiempo real — habla y traduce instantáneamente."
+isHome: true
 ---
 
-<!-- text="Concéntrese en el crecimiento — deje que InterMind se encargue de los idiomas." -->
+<!-- text="Céntrate en el crecimiento — deja que InterMind se encargue de los idiomas." -->
 <!-- text="Las aulas tardan años; InterMind ofrece comprensión en tiempo real hoy, en todos los idiomas." -->
-<!-- text="Entienda instantáneamente — sin aprender idiomas extranjeros" -->
-<!-- title="Reuniones de Video con **Interpretación** en Vivo" -->
+<!-- text="Comprende al instante — sin aprender idiomas extranjeros" -->
+<!-- title="Reuniones por Video con **Interpretación** en Vivo" -->
 
 <HeroSection
-title="Reuniones de Video **Multilingües** con Interpretación de **Voz**"
-text="Para empresas donde las **barreras del idioma** significan pérdida de negocios, retrasos y errores costosos.">
+title="Reuniones por Video **Multilingües** con Interpretación por **Voz**"
+text="Para empresas donde las **barreras lingüísticas** significan pérdida de negocios, retrasos y errores costosos.">
 
-<AuthButton text="Regístrese gratis" buttonClass="brand"/>
+<AuthButton text="Prueba gratis" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Solicitar una Demo"/>
 <NavButton to="#pricing" buttonClass="alt" buttonLabel="Precios" /> -->
 </HeroSection>
 
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: 'Hable Instantáneamente en Más de 100 Idiomas',
+  title: 'Habla Instantáneamente en Más de 100 Idiomas',
   details: 'InterMind permite que cada participante hable en su idioma nativo — de forma natural, en [tiempo real](/guide/how-it-works), y sin subtítulos ni retrasos.',
     items: [
-      '✧ Hable libremente — sea entendido al instante.',
+      '✧ Habla libremente — sé entendido al instante.',
       '✧ Interpretación impulsada por IA que capta el tono, la intención y la terminología específica de la industria.',
       '⚡︎ Interpretación **voz a voz** bidireccional y continua sin configuración manual.',
     ],
@@ -38,7 +39,7 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
 <span id="2"></span>
 <FeatureBlock :card="{
     title: 'Diseñado para Reuniones Serias — No Solo para Charlar',
-    details: 'InterMind es una plataforma de reuniones de video de nivel profesional, no un complemento o plugin ligero.',
+    details: 'InterMind es una plataforma de reuniones por video de nivel profesional, no un complemento o plugin ligero.',
     items: [
       '✧ Resolución 1080p, supresión inteligente de ruido y captación de voz focalizada.',
       '✧ Programación, moderación, demostraciones, grabación e integración completa con calendario — todo incluido, listo para usar. Las reuniones pueden durar hasta 24 horas.',
@@ -54,11 +55,11 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
 
 <span id="3"></span>
 <FeatureBlock :card="{
-  title: 'La **Mente Interior** de Sus Reuniones',
+  title: 'La **Mente Interior** de Tus Reuniones',
   details: 'InterMind convierte cada llamada multilingüe en conocimiento claro y consultable.',
   items: [
-    '⚡︎ Busque instantáneamente cualquier contenido en reuniones pasadas y actuales. Haga preguntas naturalmente, obtenga respuestas precisas sin revisar grabaciones.',
-    '✧ Nunca pierda elementos de acción de ninguna reunión. Nuestra IA extrae automáticamente tareas, responsables y fechas límite de las conversaciones.',
+    '⚡︎ Busca instantáneamente cualquier contenido en reuniones pasadas y actuales. Haz preguntas naturalmente, obtén respuestas precisas sin revisar grabaciones.',
+    '✧ Nunca pierdas elementos de acción de ninguna reunión. Nuestra IA extrae automáticamente tareas, responsables y fechas límite de las conversaciones.',
     '✧ Los resúmenes de reuniones por IA entregan puntos clave instantáneamente en cualquier idioma, manteniendo a todos alineados sin tomar notas manualmente.',
   ],
   link: '/guide/how-it-works#🧩-deep-memory-deep-understanding',
@@ -74,10 +75,10 @@ text="Para empresas donde las **barreras del idioma** significan pérdida de neg
   :card="{
     title: 'Seguro y Confidencial por Diseño',
     details:
-      'InterMind está construido para conversaciones donde la confianza importa. Si bien confiamos en infraestructura de terceros de primera clase, [la confidencialidad siempre está en sus manos](/guide/privacy-architecture).',
+      'InterMind está construido para conversaciones donde la confianza importa. Si bien confiamos en infraestructura de terceros de primera clase, [la confidencialidad siempre está en tus manos](/guide/privacy-architecture).',
     items: [
-      '⚡︎ Privacidad basada en regiones — elija dónde se procesan sus datos. Dirigimos toda la interpretación, almacenamiento y análisis a través de infraestructura alineada con su zona de cumplimiento (por ejemplo, UE, EE. UU., Asia).',
-      '✧ Privado por defecto — InterMind **nunca** almacena ni utiliza su contenido para entrenamiento, perfilado o acceso de terceros.',
+      '⚡︎ Privacidad basada en regiones — elige dónde se procesan tus datos. Dirigimos toda la interpretación, almacenamiento y análisis a través de infraestructura alineada con tu zona de cumplimiento (por ejemplo, UE, EE. UU., Asia).',
+      '✧ Privado por defecto — InterMind **nunca** almacena ni utiliza tu contenido para entrenamiento, perfilado o acceso de terceros.',
       '✧ Cumplimiento por arquitectura — Preparado para GDPR, CCPA y UAE PDPL, con soporte completo para derechos de exportación y eliminación.'
     ],
     link: '/guide/privacy-architecture',
@@ -106,8 +107,8 @@ Elija el plan que se adapte a las necesidades de comunicación multilingüe de s
   },
   {
     title: '**Pro** &nbsp 1-99 usuarios',
-    price: '**$13** /mes/usuario, facturado anualmente',
-    details: 'o $15.99 facturado mensualmente',
+    price: '**$20** /mes/usuario, facturado anualmente',
+    details: 'o $13.99 facturado mensualmente',
     items: [
       'Reuniones de video de 150 participantes + 2 TB de almacenamiento compartido por usuario [💬](#2)',
       'Interpretación de voz a voz [💬](#1)',
@@ -115,9 +116,9 @@ Elija el plan que se adapte a las necesidades de comunicación multilingüe de s
     ],
   },
   {
-    title: '**Business** &nbsp 1-250 usuarios',
-    price: '**$18** /mes/usuario, facturado anualmente',
-    details: 'o $21.99 facturado mensualmente',
+    title: '**Empresarial** &nbsp 1–250 usuarios',
+    price: 'Plan **personalizado** para equipos grandes',
+    details: 'Optimizado para escala, privacidad y control',
     items: [
       'Reuniones de video de 500 participantes + 5 TB de almacenamiento compartido por usuario [💬](#2)',
       'Interpretación de voz a voz [💬](#1)',
@@ -126,9 +127,9 @@ Elija el plan que se adapte a las necesidades de comunicación multilingüe de s
     ],
   }
 ]">
-<AuthButton text="Registrarse gratis" buttonClass="alt"/>
+<AuthButton text="Prueba gratis" buttonClass="alt"/>
 <AuthButton text="Comprar ahora" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Contactar con ventas" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Contactar ventas" buttonClass="alt"/>
 </PricingPlans>
 
 ## Preguntas Frecuentes
@@ -140,7 +141,7 @@ Elija el plan que se adapte a las necesidades de comunicación multilingüe de s
   },
   {
       q: '¿Cuántos participantes pueden unirse a la reunión?',
-      a: 'El número de participantes depende de tu plan: Basic permite hasta 100 participantes, Pro admite hasta 150 participantes, y Business permite hasta 500 participantes por reunión.'
+      a: 'El número de participantes depende de tu plan: Basic permite hasta 100 participantes, Pro admite hasta 150 participantes y Business permite hasta 500 participantes por reunión.'
   },
   {
     q: '¿Cuántas personas pueden usar una licencia de InterMind?',
@@ -148,7 +149,7 @@ Elija el plan que se adapte a las necesidades de comunicación multilingüe de s
   },
   {
       q: '¿La interpretación de voz funciona en todos los planes?',
-      a: 'Sí, la interpretación de voz a voz en tiempo real funciona en todos los planes, incluido el plan Basic gratuito. Sin embargo, el plan Basic está limitado a 25 reuniones en total. Los planes Pro y Business permiten reuniones ilimitadas con límites de participantes aumentados y características adicionales.'
+      a: 'Sí, la interpretación de voz a voz en tiempo real funciona en todos los planes, incluido el plan Basic gratuito. Sin embargo, el plan Basic está limitado a 25 reuniones en total. Los planes Pro y Business permiten reuniones ilimitadas con límites de participantes aumentados y funciones adicionales.'
   }
 ]" />
 

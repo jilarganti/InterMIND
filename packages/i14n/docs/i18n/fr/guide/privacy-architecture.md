@@ -1,16 +1,16 @@
-# Architecture de Confidentialité Segmentée par Région par InterMind
+# Confidentialité Régionale des Données pour les Réunions d'IA
 
 ## Introduction
 
 InterMind est une plateforme de réunions vidéo multilingues avec interprétation en direct alimentée par l'IA. Nous sommes conçus pour les professionnels — où non seulement le message compte, mais aussi la confidentialité de ce message.
 
+> [!tip] Interprétation en temps réel. Compréhension de niveau natif. Pas de sous-titres. Pas de latence.
+
 Pour offrir une expérience fluide, InterMind intègre des services tiers pour la vidéo, l'audio, le stockage cloud, l'interprétation en temps réel et l'analyse. Ces fournisseurs tiers nous aident à garantir la performance et l'évolutivité — mais ils introduisent également une couche que nous ne pouvons pas contrôler directement.
 
-Nous croyons en la **transparence plutôt qu'aux promesses**. Nous ne pouvons garantir la confidentialité et la sécurité que pour les composants sous notre contrôle direct — notre logiciel, la logique d'interface et la façon dont nous acheminons les données. Pour tout le reste, nous vous offrons **le pouvoir du choix**.
+Nous croyons en la **transparence plutôt qu'aux promesses**. Nous ne pouvons garantir la confidentialité et la sécurité que pour les composants sous notre contrôle direct — notre logiciel, la logique d'interface et la façon dont nous acheminons les données. Pour tout le reste, nous vous offrons **le pouvoir de choix**.
 
 C'est pourquoi nous avons conçu InterMind avec une **confidentialité basée sur les régions** : vous choisissez où vos données sont traitées, quel cadre juridique les régit et quels modèles d'IA sont utilisés — en fonction de votre zone de confidentialité sélectionnée.
-
----
 
 ## Principes Fondamentaux de la Confidentialité
 
@@ -27,22 +27,20 @@ C'est pourquoi nous avons conçu InterMind avec une **confidentialité basée su
 
 ### 3. **Confidentialité par Défaut**
 
-- InterMind ne stocke **jamais** et ne réutilise pas votre contenu pour l'entraînement, le profilage ou l'analyse commerciale.
+- InterMind ne stocke **jamais** ni ne réutilise votre contenu pour l'entraînement, le profilage ou l'analyse commerciale.
 - Nous ne conservons pas les transcriptions ou les médias, sauf si vous le demandez explicitement.
 - Si vous désactivez l'interprétation, **aucune donnée utilisateur ne quitte votre appareil**.
-
----
 
 ## Confidentialité par région : Comment ça fonctionne
 
 Au début de chaque session, ou dans le cadre des paramètres de compte de votre organisation, vous pouvez sélectionner une zone de confidentialité préférée :
 
-| Région        | Lois applicables                                                                               | Infrastructure                      | Fournisseurs LLM           |
-| ------------- | --------------------------------------------------------------------------------------------- | ----------------------------------- | -------------------------- |
-| Europe        | [GDPR](https://gdpr.eu)                                                                       | Centres de données UE uniquement     | Hébergés UE ou conformes UE |
-| United States | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (US)              | OpenAI US / Anthropic US   |
-| UAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | Cloud UAE ou Bahreïn                | LLMs régionaux ou conformes |
-| Asie / Chine  | Lois chinoises locales sur la confidentialité                                                | Alibaba, Huawei, Cloud Tencent      | LLMs basés en Chine uniquement |
+| Région        | Lois applicables                                                                               | Infrastructure                    | Fournisseurs LLM           |
+| ------------- | --------------------------------------------------------------------------------------------- | --------------------------------- | -------------------------- |
+| Europe        | [GDPR](https://gdpr.eu)                                                                       | Centres de données UE uniquement   | Hébergés UE ou conformes UE |
+| United States | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (US)            | OpenAI US / Anthropic US   |
+| UAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | Cloud UAE ou Bahreïn              | LLMs régionaux ou conformes |
+| Asie / Chine  | Lois chinoises locales sur la confidentialité                                                | Cloud Alibaba, Huawei, Tencent    | LLMs basés en Chine uniquement |
 
 Ce choix détermine comment vos vidéos, audios et contenus interprétés sont traités et à travers quelle juridiction.
 
@@ -52,9 +50,7 @@ Vous pouvez :
 - **Remplacer la région par session**
 - **Mettre certaines régions sur liste noire** complètement
 
----
-
-## Les Garanties InterMind
+## Les Garanties d'InterMind
 
 Nous mettons en œuvre des mesures de protection techniques et juridiques strictes dans notre domaine de contrôle :
 
@@ -74,8 +70,6 @@ Toutes les données audio/vidéo sont transmises via des canaux chiffrés. Les d
 
 Nous ne stockons pas vos réunions, transcriptions ou conversations sauf si vous l'autorisez explicitement. Tout stockage est limité à la région.
 
----
-
 ## Conformité Légale et Réglementaire
 
 InterMind garantit une compatibilité totale avec :
@@ -84,8 +78,6 @@ InterMind garantit une compatibilité totale avec :
 - **CCPA** — Pas de vente de données personnelles, options de désactivation et pratiques de collecte transparentes.
 - **UAE PDPL** — Stockage local sur demande, contrôles d'accès stricts, pas de transferts internationaux sans consentement.
 - **China DSL/PIPL** — Traitement uniquement dans la région, pas d'acheminement à l'étranger si la Chine est sélectionnée.
-
----
 
 ## Ce Que Nous Pouvons et Ne Pouvons Pas Garantir
 
@@ -105,19 +97,15 @@ Nous nous engageons à une honnêteté totale, pas seulement à un langage jurid
 - Vous disposez d'outils pour **contrôler les risques** en sélectionnant votre région et votre mode de conformité.
 - InterMind ne stocke et n'exploite **jamais** votre contenu — même temporairement — sans votre consentement.
 
----
-
 ## Modes de Confiance & Niveaux de Confidentialité
 
-Vous pouvez personnaliser votre session selon vos besoins en matière de confidentialité :
+Vous pouvez personnaliser votre session selon vos besoins en confidentialité :
 
 | Mode de Confiance | Interprétation | Transfert Inter-Régions | Stockage           | Idéal Pour                                    |
-| ---------------- | -------------- | ----------------------- | ------------------ | --------------------------------------------- |
-| 🔒 Local Uniquement | ❌             | ❌                      | ❌                 | Juridique, gouvernement, examens internes     |
-| 🔐 Verrouillé par Région | ✅        | ✅ (dans la zone uniquement) | ❌ ou session uniquement | Santé, finance, RH                    |
-| 🌐 Flexibilité Globale | ✅         | ✅ (multi-régions)      | ✅                 | Support, ventes, équipes multinationales      |
-
----
+| ----------------- | -------------- | ----------------------- | ------------------ | --------------------------------------------- |
+| 🔒 Local Uniquement| ❌             | ❌                      | ❌                 | Juridique, gouvernement, examens internes     |
+| 🔐 Verrouillé par Région | ✅      | ✅ (dans la zone uniquement) | ❌ ou session uniquement | Santé, finance, RH                |
+| 🌐 Flexibilité Globale | ✅        | ✅ (multi-régions)      | ✅                 | Support, ventes, équipes multinationales      |
 
 ## Ce Que Vous Obtenez Directement
 
@@ -126,8 +114,6 @@ Vous pouvez personnaliser votre session selon vos besoins en matière de confide
 - Zéro transmission de données si l'interprétation est désactivée.
 - Stockage de données optionnel, toujours limité à la région.
 - Outils complets d'audit et d'exportation pour les clients entreprise.
-
----
 
 ## Conclusion
 

@@ -45,7 +45,7 @@ Lorsque vous interagissez avec nos outils d'IA, nous pouvons collecter les infor
 
 #### Objectif du Traitement
 
-Nous utilisons l'IA pour aider à la recherche juridique, l'examen de documents, l'analyse de contrats et la fourniture d'informations juridiques préliminaires.
+Nous utilisons l'IA pour faciliter la recherche juridique, l'examen des documents, l'analyse des contrats et la fourniture d'informations juridiques préliminaires.
 
 #### Stockage des Données
 
@@ -69,7 +69,7 @@ Nous pouvons partager vos informations avec :
 
 - Les entités juridiques affiliées au sein de notre réseau mondial
 - Les prestataires de services tiers qui contribuent à nos opérations
-- Les autorités réglementaires et organismes gouvernementaux lorsque la loi l'exige
+- Les autorités réglementaires et les organismes gouvernementaux lorsque la loi l'exige
 - Les conseillers professionnels et consultants
 
 Lors du transfert international de données, nous mettons en œuvre des garanties appropriées conformément aux lois applicables, y compris les Clauses Contractuelles Types, les Règles d'Entreprise Contraignantes et d'autres mécanismes de transfert légalement reconnus.
@@ -98,16 +98,18 @@ Nous conservons vos informations personnelles aussi longtemps que nécessaire po
 
 Nous pouvons mettre à jour cette Politique de confidentialité périodiquement. La version mise à jour sera indiquée par une date de révision et sera accessible sur notre site web.
 
-## Contactez-nous
+## Nous Contacter
 
 Si vous avez des questions concernant cette Politique de Confidentialité ou nos pratiques en matière de données, veuillez contacter notre Délégué à la Protection des Données à :
 
-- **Email:** info@goldenfish.ae
-- **Adresse:** City Avenue Building, Office 405-070, Port Saeed, Dubai, UAE
+- **Email:** info@goldenfish.ae, never@mind.com
+- **Adresse:** City Avenue Building, Bureau 405-070, Port Saeed, Dubaï, EAU
 - **Téléphone:** +971 058 574 88 06
 - **WhatsApp:** +971 058 574 88 06
 
-## Informations sur l'Entreprise
+## Informations sur l'entreprise
 
-- **Numéro de Licence:** 1414192
-- **Numéro d'Enregistrement:** 2411728
+- **Numéro de licence :** 1414192
+- **Numéro d'enregistrement :** 2411728
+
+<ContactFormModalNav  buttonClass="alt"/>
