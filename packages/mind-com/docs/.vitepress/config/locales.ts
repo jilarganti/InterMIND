@@ -18,6 +18,7 @@ import { ja } from "./i18n/ja"
 // import { vi } from "./i18n/vi"
 // import { pt } from "./i18n/pt"
 import { es } from "./i18n/es"
+import { de } from "./i18n/de"
 
 interface LocaleSpecificConfig {
   name: string
@@ -33,6 +34,7 @@ export const locales: Record<string, LocaleSpecificConfig> = {
   ja: { name: "Japanese", label: "日本語", lang: "ja-JP", ...ja },
   ar: { name: "Arabic (Gulf)", label: "اَلْعَرَبِيَّةُ", lang: "ar-AE", ...ar },
   ru: { name: "Russian", label: "Русский", lang: "ru-RU", ...ru },
+  de: { name: "German", label: "Deutsch", lang: "de-DE", ...de },
   // hi: { name: "Hindi", label: "हिन्दी", lang: "hi-IN", ...hi },
   // ur: { name: "Urdu", label: "اُردُو", lang: "ur-PK", ...ur },
   // bn: { name: "Bengali", label: "বাংলা", lang: "bn-BD", ...bn },

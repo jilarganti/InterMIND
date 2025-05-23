@@ -46,7 +46,7 @@ const formName = computed(() => {
   // Удаляем локаль из пути и форматируем для лучшей читаемости
   const path = useData()
     .page.value.relativePath // Удаляем префикс локали и расширение файла
-    .replace(/^(en|ar|hi|ur|bn|ml|ta|te|fa|zh|fr|ru|uk|tr|ko|ja|id|vi|pt|es)\//, "")
+    .replace(/^(en|ar|hi|ur|bn|ml|ta|te|fa|zh|fr|ru|uk|tr|ko|ja|id|vi|pt|es|de)\//, "")
     .replace(/\.md$/i, "") // регистронезависимое удаление .md
     // Форматируем путь для читаемости
     .replace(/\//g, " > ")

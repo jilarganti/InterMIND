@@ -13,6 +13,7 @@ export const config = {
     ja: { code: "ja", name: "Japanese" },
     // pt: { code: "pt", name: "Brazilian Portuguese" },
     ru: { code: "ru", name: "Russian" },
+    de: { code: "de", name: "German" }, // добавлен немецкий язык
     // uk: { code: "uk", name: "Ukrainian" },
     // ur: { code: "ur", name: "Urdu" },
     // ml: { code: "ml", name: "Malayalam" },
