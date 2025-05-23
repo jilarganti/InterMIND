@@ -108,7 +108,7 @@ Choose the plan that fits your organization's multilingual communication needs.
   {
     title: '**Pro** &nbsp 1-99 users',
     price: '**$20** /month/user, billed annually',
-    details: 'or $13.99 billed monthly',
+    details: 'or $25 billed monthly',
     items: [
       '150 participant video meetings + 2 TB pooled storage per user [💬](#2)',
       'Voice-to-voice interpretation [💬](#1)',
