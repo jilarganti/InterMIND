@@ -25,11 +25,10 @@ text="New generation of video calls. AI voice translation — evolved into real-
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Translation ≠ Understanding. Here’s what’s next.',
-  details: 'No matter the language, your voice is heard — and understood — as if you shared the same tongue.',
+  details: 'No matter the language, **your voice is heard — and understood** — as if you shared the same tongue.',
     items: [
-      '⚡︎ InterMind enables every participant to speak their native language — naturally, in [real time](/product/how-it-works), and without subtitles or lag.',
+      '⚡︎ Naturally, in [real time](/product/how-it-works), and without subtitles or lag.',
       '✧ AI-powered interpretation captures tone, intent, and industry-specific terminology.',
-      '✧ No notes. No chaos. Just clarity — powered by the [Mind within](#3) your meetings.'
     ],
   link: './product/what-is-intermind',
   src: {
@@ -41,12 +40,12 @@ text="New generation of video calls. AI voice translation — evolved into real-
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'The **Mind Within** Your Meetings',
+    title: 'The Mind Within Your Meetings',
     details: 'InterMind turns every multilingual call into clear, searchable knowledge.',
     items: [
-      '⚡︎ Instantly search any content across past and current meetings. Ask questions naturally, get precise answers without reviewing recordings.',
-      '✧ Never miss action items from any meeting. Our AI extracts tasks, owners and deadlines automatically from conversations.',
-      '✧ AI meeting summaries deliver key points instantly in any language, keeping everyone aligned without manual note-taking.',
+      '🔍 **Ask anything** — AI finds answers **across your meetings**.',
+      '✧ Auto-extracts tasks, owners, and deadlines.',
+      '✧ Summarizes key points in any language — instantly.',
     ],
     link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
     src: {
@@ -59,10 +58,9 @@ text="New generation of video calls. AI voice translation — evolved into real-
 <span id="2"></span>
 <FeatureBlock :card="{
     title: 'Built for Serious Meetings — Not Just Talking',
-    details: 'InterMind is a professional-grade video meeting platform, not a lightweight add-on or plugin.',
+    details: 'InterMind is a professional-grade **video meeting platform**, not a lightweight add-on or plugin.',
     items: [
-      '✧ 1080p resolution, smart noise suppression, and focused voice pickup.',
-      '✧ Scheduling, moderation, screen sharing, recording, participant chat and full calendar integration — all built in, ready to go.',
+      '✧ 1080p resolution, smart noise suppression, scheduling, moderation, screen sharing, recording, participant chat and full calendar integration — all built in, **ready to go**.',
     ],
     link: '/product/how-it-works',
     src: {
@@ -75,13 +73,13 @@ text="New generation of video calls. AI voice translation — evolved into real-
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Secure & Confidential by Design',
+    title: 'Privacy Where It Matters',
     details:
-      'InterMind is built for conversations where trust matters. While we rely on best-in-class third-party infrastructure, [confidentiality is always in your hands](/product/privacy-architecture).',
+      'InterMind is built for trust-critical conversations — where privacy and control matter most.',
     items: [
-      '⚡︎ Region-based privacy — choose where your data is processed. We route all interpretation, storage, and analytics through infrastructure aligned with your compliance zone (e.g. EU, US, Asia).',
-      '✧ Private by default — InterMind itself **never** stores or uses your content for training, profiling, or third-party access.',
-      '✧ Compliant by architecture — GDPR, CCPA, and UAE PDPL-ready, with full support for export and deletion rights.'
+      '⚡︎ [Region-based privacy](/product/privacy-architecture) — EU, US, SE Asia',
+      '✧ Compliant: GDPR, CCPA, UAE PDPL',
+      '✧ **Zero data training**. No third-party access.'
     ],
     link: '/product/privacy-architecture',
     src: {

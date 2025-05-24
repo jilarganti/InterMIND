@@ -7,26 +7,28 @@ isHome: true
 
 <!-- text="Konzentrieren Sie sich auf Wachstum — lassen Sie InterMind die Sprachen handhaben." -->
 <!-- text="Klassenzimmer brauchen Jahre; InterMind liefert heute Echtzeitverständigung in jeder Sprache." -->
-<!-- text="Sofortiges Verstehen — ohne Fremdsprachen zu lernen" -->
-<!-- title="Live **Dolmetsch** Videomeetings" -->
+<!-- text="**Mehrsprachige** Videomeetings mit **Sprach**-Dolmetschung" -->
+<!-- title="Live-**Dolmetsch**-Videomeetings" -->
 
 <HeroSection
-title="**Mehrsprachige** Videomeetings mit **Sprach**-Dolmetschung"
-text="Für Unternehmen, bei denen **Sprachbarrieren** verlorene Geschäfte, Verzögerungen und kostspielige Fehler bedeuten.">
+title="Treffen Sie sich in **jeder** Sprache"
+text="Neue Generation von Videoanrufen. KI-Sprachübersetzung — weiterentwickelt zur Echtzeit-Dolmetschung.">
 
-<AuthButton text="Kostenlos testen" buttonClass="brand"/>
+<AuthButton text="Hören Sie den Unterschied" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Demo anfordern"/>
 <NavButton to="#pricing" buttonClass="alt" buttonLabel="Preise" /> -->
 </HeroSection>
 
+> **Für wen ist das?**  
+> Für internationale Teams, bei denen Sprachbarrieren zu verlorenen Geschäften, Verzögerungen oder Missverständnissen führen.
+
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: 'Sprechen Sie sofort in über 100 Sprachen',
-  details: 'InterMind ermöglicht es jedem Teilnehmer, in seiner Muttersprache zu sprechen — natürlich, in [Echtzeit](/product/how-it-works) und ohne Untertitel oder Verzögerung.',
+  title: 'Übersetzung ≠ Verständnis. Das ist der nächste Schritt.',
+  details: 'Egal in welcher Sprache, **Ihre Stimme wird gehört — und verstanden** — als ob Sie die gleiche Sprache sprechen würden.',
     items: [
-      '✧ Sprechen Sie frei — werden Sie sofort verstanden.',
+      '⚡︎ Natürlich, in [Echtzeit](/product/how-it-works), und ohne Untertitel oder Verzögerung.',
       '✧ KI-gestützte Dolmetschung erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
-      '⚡︎ Bidirektionale, kontinuierliche **Sprache-zu-Sprache-Dolmetschung** ohne manuelle Einrichtung.',
     ],
   link: './product/what-is-intermind',
   src: {
@@ -36,50 +38,48 @@ text="Für Unternehmen, bei denen **Sprachbarrieren** verlorene Geschäfte, Verz
   inversion: false
 }" />
 
+<span id="3"></span>
+<FeatureBlock :card="{
+    title: 'Der Verstand in Ihren Meetings',
+    details: 'InterMind verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
+    items: [
+      '🔍 **Fragen Sie alles** — KI findet Antworten **in all Ihren Meetings**.',
+      '✧ Extrahiert automatisch Aufgaben, Verantwortliche und Fristen.',
+      '✧ Fasst Kernpunkte in jeder Sprache sofort zusammen.',
+    ],
+    link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
+    src: {
+      light: '/2l.png',
+      dark: '/2d.png',
+    },
+    inversion: true
+  }" />
+
 <span id="2"></span>
 <FeatureBlock :card="{
     title: 'Entwickelt für professionelle Meetings — nicht nur zum Plaudern',
-    details: 'InterMind ist eine professionelle Videomeeting-Plattform, kein einfaches Add-on oder Plugin.',
+    details: 'InterMind ist eine **professionelle Videomeeting-Plattform**, kein einfaches Add-on oder Plugin.',
     items: [
-      '✧ 1080p Auflösung, intelligente Geräuschunterdrückung und fokussierte Sprachaufnahme.',
-      '✧ Terminplanung, Moderation, Demos, Aufzeichnung und vollständige Kalenderintegration — alles eingebaut, sofort einsatzbereit. Meetings können bis zu 24 Stunden dauern.',
-      '⚡︎ Live-Transkripte, Teilnehmer-Chat und ein KI-Assistent, der Meetings produktiv hält.'
+      '✧ 1080p Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufnahme, Teilnehmer-Chat und vollständige Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
     ],
     link: '/product/how-it-works',
     src: {
       light: '/3l.png',
       dark: '/3d.png',
     },
-    inversion: true
+    inversion: false
   }" />
-
-<span id="3"></span>
-<FeatureBlock :card="{
-  title: 'Der **Verstand in** Ihren Meetings',
-  details: 'InterMind verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
-  items: [
-    '⚡︎ Durchsuchen Sie sofort alle Inhalte vergangener und aktueller Meetings. Stellen Sie Fragen natürlich, erhalten Sie präzise Antworten ohne Aufzeichnungen durchzusehen.',
-    '✧ Verpassen Sie keine Aufgaben aus Meetings. Unsere KI extrahiert automatisch Aufgaben, Verantwortliche und Fristen aus Gesprächen.',
-    '✧ KI-Meeting-Zusammenfassungen liefern Kernpunkte sofort in jeder Sprache und halten alle auf dem gleichen Stand ohne manuelle Notizen.',
-  ],
-  link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
-  src: {
-    light: '/2l.png',
-    dark: '/2d.png',
-  },
-  inversion: false
-}" />
 
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Sicher & vertraulich durch Design',
+    title: 'Datenschutz wo er wichtig ist',
     details:
-      'InterMind ist für Gespräche konzipiert, bei denen Vertrauen wichtig ist. Während wir uns auf erstklassige Drittanbieter-Infrastruktur verlassen, [liegt die Vertraulichkeit immer in Ihren Händen](/product/privacy-architecture).',
+      'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Privatsphäre und Kontrolle am wichtigsten sind.',
     items: [
-      '⚡︎ Regionsbasierter Datenschutz — wählen Sie, wo Ihre Daten verarbeitet werden. Wir leiten alle Dolmetschungen, Speicherung und Analysen durch Infrastruktur, die Ihrer Compliance-Zone entspricht (z.B. EU, USA, Asien).',
-      '✧ Standardmäßig privat — InterMind selbst speichert oder nutzt Ihre Inhalte **niemals** für Training, Profiling oder Zugriff durch Dritte.',
-      '✧ Konform durch Architektur — GDPR, CCPA und UAE PDPL-konform, mit voller Unterstützung für Export- und Löschrechte.'
+      '⚡︎ [Regionsbasierter Datenschutz](/product/privacy-architecture) — EU, USA, SO-Asien',
+      '✧ Konform mit: GDPR, CCPA, UAE PDPL',
+      '✧ **Kein Datentraining**. Kein Zugriff durch Dritte.'
     ],
     link: '/product/privacy-architecture',
     src: {
@@ -141,20 +141,144 @@ Wählen Sie den Plan, der zu den mehrsprachigen Kommunikationsbedürfnissen Ihre
 <AccordionGroup :items="[
   {
     q: 'Was ist ein lizenzierter Benutzer und was ist ein Teilnehmer?',
-    a: 'Ein lizenzierter Benutzer verfügt entweder über eine kostenlose oder kostenpflichtige Meeting-Lizenz und kann Meetings mit Teilnehmern entsprechend der Kapazität seines Plans planen. Ein Teilnehmer ist ein Eingeladener in einem Meeting, das von jemandem mit einer Meeting-Lizenz geplant wurde. Ein Teilnehmer benötigt kein Konto oder keine Lizenz, um an einem Meeting teilzunehmen und kann **kostenlos teilnehmen**. Teilnehmer können über Desktop, Mobilgeräte und Tablets an einem Meeting teilnehmen.'
+    a: 'Ein lizenzierter Benutzer verfügt entweder über eine kostenlose oder kostenpflichtige Meeting-Lizenz und kann Meetings mit Teilnehmern entsprechend der Kapazität ihres Plans planen. Ein Teilnehmer ist ein Eingeladener in einem Meeting, das von jemandem mit einer Meeting-Lizenz geplant wurde. Ein Teilnehmer benötigt kein Konto oder Lizenz, um an einem Meeting teilzunehmen und kann **kostenlos beitreten**. Teilnehmer können von Desktop, Mobilgeräten und Tablets aus an Meetings teilnehmen.'
   },
   {
-      q: 'Wie viele Teilnehmer können dem Meeting beitreten?',
+      q: 'Wie viele Teilnehmer können am Meeting teilnehmen?',
       a: 'Die Anzahl der Teilnehmer hängt von Ihrem Plan ab: Basic erlaubt bis zu 100 Teilnehmer, Pro unterstützt bis zu 150 Teilnehmer und Business ermöglicht bis zu 500 Teilnehmer pro Meeting.'
   },
   {
     q: 'Wie viele Personen können eine InterMind-Lizenz nutzen?',
-    a: 'Ein lizenzierter Benutzer kann eine unbegrenzte Anzahl von Meetings hosten. Wenn jedoch mehrere Benutzer separate Meetings zur gleichen Zeit planen müssen, benötigen Sie zusätzliche Meeting-Lizenzen pro Benutzer.'
+    a: 'Ein lizenzierter Benutzer kann eine unbegrenzte Anzahl von Meetings veranstalten. Wenn jedoch mehrere Benutzer gleichzeitig separate Meetings planen müssen, benötigen Sie zusätzliche Meeting-Lizenzen pro Benutzer.'
   },
   {
-      q: 'Funktioniert die Sprachdolmetschung bei allen Plänen?',
-      a: 'Ja, die Echtzeit-Sprachdolmetschung funktioniert bei allen Plänen, einschließlich des kostenlosen Basic-Plans. Der Basic-Plan ist jedoch auf insgesamt 25 Meetings beschränkt. Pro- und Business-Pläne ermöglichen unbegrenzte Meetings mit erhöhten Teilnehmerlimits und zusätzlichen Funktionen.'
-  }
+      q: 'Funktioniert die Sprachinterpretation bei allen Plänen?',
+      a: 'Ja, Echtzeit-Sprach-zu-Sprach-Interpretation funktioniert bei allen Plänen, einschließlich des kostenlosen Basic-Plans. Der Basic-Plan ist jedoch auf insgesamt 25 Meetings beschränkt. Pro- und Business-Pläne erlauben unbegrenzte Meetings mit erhöhten Teilnehmergrenzen und zusätzlichen Funktionen.'
+  },
+  {
+      q: 'Was ist die maximale Dauer eines Meetings?',
+      a: 'Meetings können bei allen Plänen bis zu 24 Stunden dauern.'
+  },
+  {
+      q: 'Kann ich Meetings aufzeichnen?',
+      a: 'Ja, alle Pläne unterstützen die Aufzeichnung von Meetings. Aufzeichnungen werden in Ihrem Konto gespeichert und können später abgerufen werden.'
+  },
+  {
+      q: 'Gibt es eine Begrenzung für die Anzahl der Meetings, die ich veranstalten kann?',
+      a: 'Der Basic-Plan erlaubt bis zu 25 Meetings, während Pro- und Business-Pläne unbegrenzte Meetings ermöglichen.'
+  },
+  {
+      q: 'Kann ich InterMind auf mobilen Geräten verwenden?',
+      a: 'Ja, InterMind ist vollständig kompatibel mit Desktop, Mobilgeräten und Tablets.'
+  },
+  {
+      q: 'Was ist, wenn ich mehr Speicherplatz für Aufzeichnungen benötige?',
+      a: 'Der Pro-Plan bietet 2 TB gemeinsam genutzten Speicher pro Benutzer, während der Business-Plan 5 TB bietet. Wenn Sie mehr benötigen, kontaktieren Sie uns bitte für individuelle Lösungen.'
+  },
+  {
+      q: 'Wie stellt InterMind Datenschutz und Sicherheit sicher?',
+      a: 'InterMind ist mit Blick auf den Datenschutz konzipiert. Wir bieten regionale Verarbeitung, standardmäßige private Einstellungen und Einhaltung der GDPR-, CCPA- und UAE PDPL-Standards.'
+  },
+  {
+      q: 'Kann ich InterMind ausprobieren, bevor ich einen Plan kaufe?',
+      a: 'Ja, Sie können mit dem kostenlosen Basic-Plan beginnen, um die Funktionen zu erleben, bevor Sie auf Pro- oder Business-Pläne upgraden.'
+  },
+  {
+      q: 'Was ist, wenn ich Hilfe oder Unterstützung benötige?',
+      a: 'Wir bieten Unterstützung über unser Hilfezentrum, E-Mail und Live-Chat. Für Business-Plan-Nutzer ist dedizierte Unterstützung verfügbar.'
+  },
+  {
+      q: 'Kann ich mein Abonnement jederzeit kündigen?',
+      a: 'Ja, Sie können Ihr Abonnement jederzeit kündigen. Bei monatlichen Plänen tritt die Kündigung am Ende des aktuellen Abrechnungszyklus in Kraft. Jahrespläne können für eine anteilige Rückerstattung gekündigt werden.'
+  },
+  {
+      q: 'Wie kann ich meinen Plan upgraden oder downgraden?',
+      a: 'Sie können Ihren Plan jederzeit über Ihre Kontoeinstellungen upgraden oder downgraden. Änderungen treten sofort in Kraft.'
+  },
+  {
+      q: 'Welche Sprachen unterstützt InterMind für die Sprachinterpretation?',
+      a: 'InterMind unterstützt eine breite Palette von Sprachen für Echtzeit-Sprachinterpretation. Die Liste wird kontinuierlich erweitert, also überprüfen Sie bitte unsere Website für die neuesten Updates.'
+  },
+  {
+      q: 'Kann ich InterMind für Webinare oder große Veranstaltungen nutzen?',
+      a: 'Ja, InterMind kann für Webinare und große Veranstaltungen verwendet werden, insbesondere mit dem Business-Plan, der bis zu 500 Teilnehmer unterstützt.'
+  },
+  {
+      q: 'Gibt es eine Begrenzung für die Anzahl der Meetings, die ich veranstalten kann?',
+      a: 'Der Basic-Plan erlaubt bis zu 25 Meetings, während Pro- und Business-Pläne unbegrenzte Meetings ermöglichen.'
+  },
+  {
+      q: 'Kann ich InterMind für Webinare oder große Veranstaltungen nutzen?',
+      a: 'Ja, InterMind kann für Webinare und große Veranstaltungen verwendet werden, insbesondere mit dem Business-Plan, der bis zu 500 Teilnehmer unterstützt.'
+  },
+  {
+      q: 'Was ist, wenn ich mehr Speicherplatz für Aufzeichnungen benötige?',
+      a: 'Der Pro-Plan bietet 2 TB gemeinsam genutzten Speicher pro Benutzer, während der Business-Plan 5 TB bietet. Wenn Sie mehr benötigen, kontaktieren Sie uns bitte für individuelle Lösungen.'
+  },
+  {
+      q: 'Wie stellt InterMind Datenschutz und Sicherheit sicher?',
+      a: 'InterMind ist mit Blick auf den Datenschutz konzipiert. Wir bieten regionale Verarbeitung, standardmäßige private Einstellungen und Einhaltung der GDPR-, CCPA- und UAE PDPL-Standards.'
+  },
+  {
+      q: 'Kann ich InterMind ausprobieren, bevor ich einen Plan kaufe?',
+      a: 'Ja, Sie können mit dem kostenlosen Basic-Plan beginnen, um die Funktionen zu erleben, bevor Sie auf Pro- oder Business-Pläne upgraden.'
+  },
+  {
+      q: 'Was ist, wenn ich Hilfe oder Unterstützung benötige?',
+      a: 'Wir bieten Unterstützung über unser Hilfezentrum, E-Mail und Live-Chat. Für Business-Plan-Nutzer ist dedizierte Unterstützung verfügbar.'
+  },
+  {
+      q: 'Kann ich mein Abonnement jederzeit kündigen?',
+      a: 'Ja, Sie können Ihr Abonnement jederzeit kündigen. Bei monatlichen Plänen tritt die Kündigung am Ende des aktuellen Abrechnungszyklus in Kraft. Jahrespläne können für eine anteilige Rückerstattung gekündigt werden.'
+  },
+  {
+      q: 'Wie kann ich meinen Plan upgraden oder downgraden?',
+      a: 'Sie können Ihren Plan jederzeit über Ihre Kontoeinstellungen upgraden oder downgraden. Änderungen treten sofort in Kraft.'
+  },
+  {
+      q: 'Welche Sprachen unterstützt InterMind für die Sprachinterpretation?',
+      a: 'InterMind unterstützt eine breite Palette von Sprachen für Echtzeit-Sprachinterpretation. Die Liste wird kontinuierlich erweitert, also überprüfen Sie bitte unsere Website für die neuesten Updates.'
+  },
+  {
+      q: 'Kann ich InterMind für Webinare oder große Veranstaltungen nutzen?',
+      a: 'Ja, InterMind kann für Webinare und große Veranstaltungen verwendet werden, insbesondere mit dem Business-Plan, der bis zu 500 Teilnehmer unterstützt.'
+  },
+  {
+      q: 'Gibt es eine Begrenzung für die Anzahl der Meetings, die ich veranstalten kann?',
+      a: 'Der Basic-Plan erlaubt bis zu 25 Meetings, während Pro- und Business-Pläne unbegrenzte Meetings ermöglichen.'
+  },
+  {
+      q: 'Kann ich InterMind für Webinare oder große Veranstaltungen nutzen?',
+      a: 'Ja, InterMind kann für Webinare und große Veranstaltungen verwendet werden, insbesondere mit dem Business-Plan, der bis zu 500 Teilnehmer unterstützt.'
+  },
+  {
+      q: 'Was ist, wenn ich mehr Speicherplatz für Aufzeichnungen benötige?',
+      a: 'Der Pro-Plan bietet 2 TB gemeinsam genutzten Speicher pro Benutzer, während der Business-Plan 5 TB bietet. Wenn Sie mehr benötigen, kontaktieren Sie uns bitte für individuelle Lösungen.'
+  },
+  {
+      q: 'Wie stellt InterMind Datenschutz und Sicherheit sicher?',
+      a: 'InterMind ist mit Blick auf den Datenschutz konzipiert. Wir bieten regionale Verarbeitung, standardmäßige private Einstellungen und Einhaltung der GDPR-, CCPA- und UAE PDPL-Standards.'
+  },
+  {
+      q: 'Kann ich InterMind ausprobieren, bevor ich einen Plan kaufe?',
+      a: 'Ja, Sie können mit dem kostenlosen Basic-Plan beginnen, um die Funktionen zu erleben, bevor Sie auf Pro- oder Business-Pläne upgraden.'
+  },
+  {
+      q: 'Was ist, wenn ich Hilfe oder Unterstützung benötige?',
+      a: 'Wir bieten Unterstützung über unser Hilfezentrum, E-Mail und Live-Chat. Für Business-Plan-Nutzer ist dedizierte Unterstützung verfügbar.'
+  },
+  {
+      q: 'Kann ich mein Abonnement jederzeit kündigen?',
+      a: 'Ja, Sie können Ihr Abonnement jederzeit kündigen. Bei monatlichen Plänen tritt die Kündigung am Ende des aktuellen Abrechnungszyklus in Kraft. Jahrespläne können für eine anteilige Rückerstattung gekündigt werden.'
+  },
+  {
+      q: 'Wie kann ich meinen Plan upgraden oder downgraden?',
+      a: 'Sie können Ihren Plan jederzeit über Ihre Kontoeinstellungen upgraden oder downgraden. Änderungen treten sofort in Kraft.'
+  },
+  {
+      q: 'Welche Sprachen unterstützt InterMind für die Sprachinterpretation?',
+      a: 'InterMind unterstützt eine breite Palette von Sprachen für Echtzeit-Sprachinterpretation. Die Liste wird kontinuierlich erweitert, also überprüfen Sie bitte unsere Website für die neuesten Updates.'
+  },
 ]" />
 
 <span id="Testimonials"></span>

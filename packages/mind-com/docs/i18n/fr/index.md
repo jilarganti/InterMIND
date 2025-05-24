@@ -7,26 +7,28 @@ isHome: true
 
 <!-- text="Concentrez-vous sur la croissance — laissez InterMind gérer les langues." -->
 <!-- text="Les salles de classe prennent des années ; InterMind offre une compréhension en temps réel aujourd'hui, dans toutes les langues." -->
-<!-- text="Comprenez instantanément — sans apprendre de langues étrangères" -->
+<!-- text="Réunions Vidéo **Multilingues** avec Interprétation **Vocale**" -->
 <!-- title="Réunions Vidéo avec **Interprétation** en Direct" -->
 
 <HeroSection
-title="Réunions Vidéo **Multilingues** avec Interprétation **Vocale**"
-text="Pour les entreprises où les **barrières linguistiques** signifient des opportunités manquées, des retards et des erreurs coûteuses.">
+title="Communiquez dans **Toutes** les Langues"
+text="Nouvelle génération d'appels vidéo. Traduction vocale IA — évoluée en interprétation en temps réel.">
 
-<AuthButton text="Essayer gratuitement" buttonClass="brand"/>
+<AuthButton text="Écoutez la différence" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Demander une Démo"/>
 <NavButton to="#pricing" buttonClass="alt" buttonLabel="Tarifs" /> -->
 </HeroSection>
 
+> **Pour qui est-ce ?**  
+> Pour les équipes internationales où les barrières linguistiques entraînent des pertes de contrats, des retards ou des malentendus.
+
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: 'Parlez Instantanément dans Plus de 100 Langues',
-  details: 'InterMind permet à chaque participant de parler sa langue maternelle — naturellement, en [temps réel](/product/how-it-works), et sans sous-titres ni décalage.',
+  title: 'Traduction ≠ Compréhension. Voici la suite.',
+  details: 'Quelle que soit la langue, **votre voix est entendue — et comprise** — comme si vous parliez la même langue.',
     items: [
-      '✧ Parlez librement — soyez compris instantanément.',
+      '⚡︎ Naturellement, en [temps réel](/product/how-it-works), et sans sous-titres ni décalage.',
       '✧ L\'interprétation alimentée par l\'IA capture le ton, l\'intention et la terminologie spécifique à l\'industrie.',
-      '⚡︎ Interprétation **voix-à-voix** bidirectionnelle et continue sans configuration manuelle.',
     ],
   link: './product/what-is-intermind',
   src: {
@@ -36,50 +38,48 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   inversion: false
 }" />
 
+<span id="3"></span>
+<FeatureBlock :card="{
+    title: 'L\'Intelligence au Cœur de Vos Réunions',
+    details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
+    items: [
+      '🔍 **Posez n\'importe quelle question** — l\'IA trouve des réponses **dans toutes vos réunions**.',
+      '✧ Extrait automatiquement les tâches, les responsables et les délais.',
+      '✧ Résume les points clés dans n\'importe quelle langue — instantanément.',
+    ],
+    link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
+    src: {
+      light: '/2l.png',
+      dark: '/2d.png',
+    },
+    inversion: true
+  }" />
+
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: 'Conçu pour les Réunions Professionnelles — Pas Seulement pour Discuter',
-    details: 'InterMind est une plateforme de réunion vidéo de niveau professionnel, pas un simple module complémentaire ou plugin.',
+    title: 'Conçu pour les Réunions Professionnelles — Pas Juste pour Parler',
+    details: 'InterMind est une **plateforme de réunion vidéo** de niveau professionnel, pas un simple complément ou plugin.',
     items: [
-      '✧ Résolution 1080p, suppression intelligente du bruit et captation vocale ciblée.',
-      '✧ Planification, modération, démonstrations, enregistrement et intégration complète du calendrier — tout est intégré, prêt à l\'emploi. Les réunions peuvent durer jusqu\'à 24 heures.',
-      '⚡︎ Transcriptions en direct, chat entre participants et un assistant IA qui maintient les réunions productives.'
+      '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, chat entre participants et intégration complète du calendrier — tout est intégré, **prêt à l\'emploi**.',
     ],
     link: '/product/how-it-works',
     src: {
       light: '/3l.png',
       dark: '/3d.png',
     },
-    inversion: true
+    inversion: false
   }" />
-
-<span id="3"></span>
-<FeatureBlock :card="{
-  title: 'L\'**Intelligence au Cœur** de Vos Réunions',
-  details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
-  items: [
-    '⚡︎ Recherchez instantanément tout contenu dans les réunions passées et actuelles. Posez des questions naturellement, obtenez des réponses précises sans revoir les enregistrements.',
-    '✧ Ne manquez jamais les tâches issues d\'une réunion. Notre IA extrait automatiquement les tâches, les responsables et les délais des conversations.',
-    '✧ Les résumés de réunion par IA fournissent les points clés instantanément dans n\'importe quelle langue, gardant tout le monde aligné sans prise de notes manuelle.',
-  ],
-  link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
-  src: {
-    light: '/2l.png',
-    dark: '/2d.png',
-  },
-  inversion: false
-}" />
 
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Sécurisé et Confidentiel par Design',
+    title: 'Confidentialité Là Où C\'est Important',
     details:
-      'InterMind est conçu pour les conversations où la confiance est essentielle. Bien que nous nous appuyions sur une infrastructure tierce de premier ordre, [la confidentialité reste toujours entre vos mains](/product/privacy-architecture).',
+      'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle sont essentiels.',
     items: [
-      '⚡︎ Confidentialité basée sur la région — choisissez où vos données sont traitées. Nous acheminons toute l\'interprétation, le stockage et l\'analyse via une infrastructure alignée sur votre zone de conformité (par ex. UE, États-Unis, Asie).',
-      '✧ Privé par défaut — InterMind lui-même ne **stocke jamais** ni n\'utilise votre contenu pour l\'entraînement, le profilage ou l\'accès par des tiers.',
-      '✧ Conforme par architecture — Prêt pour GDPR, CCPA et UAE PDPL, avec support complet des droits d\'exportation et de suppression.'
+      '⚡︎ [Confidentialité basée sur les régions](/product/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
+      '✧ Conforme : RGPD, CCPA, UAE PDPL',
+      '✧ **Zéro entraînement de données**. Aucun accès tiers.'
     ],
     link: '/product/privacy-architecture',
     src: {
@@ -140,20 +140,64 @@ Choisissez le forfait qui correspond aux besoins de communication multilingue de
 
 <AccordionGroup :items="[
   {
-    q: 'Qu\'est-ce qu\'un utilisateur sous licence et qu\'est-ce qu\'un participant ?',
-    a: 'Un utilisateur sous licence dispose soit d\'une licence de réunion gratuite ou payante et peut programmer des réunions avec des participants selon la capacité autorisée par son forfait. Un participant est une personne invitée à une réunion programmée par quelqu\'un disposant d\'une licence de réunion. Un participant n\'a pas besoin de compte ni de licence pour rejoindre une réunion et peut **participer gratuitement**. Les participants peuvent rejoindre une réunion depuis un ordinateur de bureau, un mobile ou une tablette.'
+    q: 'Quelle est la différence entre un utilisateur licencié et un participant ?',
+    a: 'Un utilisateur licencié dispose d\'une licence gratuite ou payante et peut planifier des réunions avec des participants selon la capacité autorisée par son forfait. Un participant est une personne invitée à une réunion programmée par quelqu\'un disposant d\'une licence. Un participant n\'a pas besoin de compte ni de licence pour rejoindre une réunion et peut **participer gratuitement**. Les participants peuvent rejoindre une réunion depuis un ordinateur, un mobile ou une tablette.'
   },
   {
-      q: 'Combien de participants peuvent rejoindre la réunion ?',
-      a: 'Le nombre de participants dépend de votre forfait : Basic permet jusqu\'à 100 participants, Pro prend en charge jusqu\'à 150 participants, et Business accueille jusqu\'à 500 participants par réunion.'
+    q: 'Combien de participants peuvent rejoindre la réunion ?',
+    a: 'Le nombre de participants dépend de votre forfait : Basic permet jusqu\'à 100 participants, Pro jusqu\'à 150 participants, et Business accueille jusqu\'à 500 participants par réunion.'
   },
   {
     q: 'Combien de personnes peuvent utiliser une licence InterMind ?',
-    a: 'Un utilisateur sous licence peut organiser un nombre illimité de réunions. Cependant, si plusieurs utilisateurs doivent programmer des réunions séparées en même temps, vous aurez besoin de licences de réunion supplémentaires par utilisateur.'
+    a: 'Un utilisateur licencié peut organiser un nombre illimité de réunions. Cependant, si plusieurs utilisateurs doivent programmer des réunions séparées en même temps, vous aurez besoin de licences supplémentaires par utilisateur.'
   },
   {
-      q: 'L\'interprétation vocale fonctionne-t-elle sur tous les forfaits ?',
-      a: 'Oui, l\'interprétation vocale en temps réel fonctionne sur tous les forfaits, y compris le forfait Basic gratuit. Cependant, le forfait Basic est limité à 25 réunions au total. Les forfaits Pro et Business permettent des réunions illimitées avec des limites de participants accrues et des fonctionnalités supplémentaires.'
+    q: 'L\'interprétation vocale fonctionne-t-elle sur tous les forfaits ?',
+    a: 'Oui, l\'interprétation vocale en temps réel fonctionne sur tous les forfaits, y compris le forfait Basic gratuit. Cependant, le forfait Basic est limité à 25 réunions au total. Les forfaits Pro et Business permettent des réunions illimitées avec des limites de participants plus élevées et des fonctionnalités supplémentaires.'
+  },
+  {
+    q: 'Quelle est la durée maximale d\'une réunion ?',
+    a: 'Les réunions peuvent durer jusqu\'à 24 heures sur tous les forfaits.'
+  },
+  {
+    q: 'Puis-je enregistrer les réunions ?',
+    a: 'Oui, tous les forfaits permettent l\'enregistrement des réunions. Les enregistrements sont stockés dans votre compte et peuvent être consultés ultérieurement.'
+  },
+  {
+    q: 'Y a-t-il une limite au nombre de réunions que je peux organiser ?',
+    a: 'Le forfait Basic permet jusqu\'à 25 réunions, tandis que les forfaits Pro et Business permettent des réunions illimitées.'
+  },
+  {
+    q: 'Puis-je utiliser InterMind sur des appareils mobiles ?',
+    a: 'Oui, InterMind est entièrement compatible avec les ordinateurs, mobiles et tablettes.'
+  },
+  {
+    q: 'Que faire si j\'ai besoin de plus de stockage pour les enregistrements ?',
+    a: 'Le forfait Pro offre 2 To de stockage mutualisé par utilisateur, tandis que le forfait Business fournit 5 To. Si vous avez besoin de plus, contactez-nous pour des solutions personnalisées.'
+  },
+  {
+    q: 'Comment InterMind assure-t-il la confidentialité et la sécurité des données ?',
+    a: 'InterMind est conçu en pensant à la confidentialité. Nous proposons un traitement basé sur la région, des paramètres privés par défaut et la conformité aux normes GDPR, CCPA et UAE PDPL.'
+  },
+  {
+    q: 'Puis-je essayer InterMind avant d\'acheter un forfait ?',
+    a: 'Oui, vous pouvez commencer avec le forfait Basic gratuit pour découvrir les fonctionnalités avant de passer aux forfaits Pro ou Business.'
+  },
+  {
+    q: 'Que faire si j\'ai besoin d\'aide ou de support ?',
+    a: 'Nous offrons une assistance via notre centre d\'aide, par email et par chat en direct. Pour les utilisateurs du forfait Business, un support dédié est disponible.'
+  },
+  {
+    q: 'Puis-je annuler mon abonnement à tout moment ?',
+    a: 'Oui, vous pouvez annuler votre abonnement à tout moment. Pour les forfaits mensuels, l\'annulation prend effet à la fin du cycle de facturation en cours. Les forfaits annuels peuvent être annulés avec un remboursement au prorata.'
+  },
+  {
+    q: 'Comment puis-je mettre à niveau ou rétrograder mon forfait ?',
+    a: 'Vous pouvez mettre à niveau ou rétrograder votre forfait à tout moment via les paramètres de votre compte. Les changements prennent effet immédiatement.'
+  },
+  {
+    q: 'Quelles langues InterMind prend-il en charge pour l\'interprétation vocale ?',
+    a: 'InterMind prend en charge un large éventail de langues pour l\'interprétation vocale en temps réel. La liste s\'élargit continuellement, veuillez consulter notre site web pour les dernières mises à jour.'
   }
 ]" />
 
