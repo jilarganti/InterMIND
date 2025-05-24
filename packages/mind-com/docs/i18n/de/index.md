@@ -22,11 +22,11 @@ text="Für Unternehmen, bei denen **Sprachbarrieren** verlorene Geschäfte, Verz
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Sprechen Sie sofort in über 100 Sprachen',
-  details: 'InterMind ermöglicht es jedem Teilnehmer, in seiner Muttersprache zu sprechen — natürlich, in [Echtzeit](/product/how-it-works) und ohne Untertitel oder Verzögerungen.',
+  details: 'InterMind ermöglicht es jedem Teilnehmer, in seiner Muttersprache zu sprechen — natürlich, in [Echtzeit](/product/how-it-works) und ohne Untertitel oder Verzögerung.',
     items: [
       '✧ Sprechen Sie frei — werden Sie sofort verstanden.',
       '✧ KI-gestützte Dolmetschung erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
-      '⚡︎ Beidseitige, kontinuierliche **Sprache-zu-Sprache-Dolmetschung** ohne manuelle Einrichtung.',
+      '⚡︎ Bidirektionale, kontinuierliche **Sprache-zu-Sprache-Dolmetschung** ohne manuelle Einrichtung.',
     ],
   link: './product/what-is-intermind',
   src: {
@@ -42,7 +42,7 @@ text="Für Unternehmen, bei denen **Sprachbarrieren** verlorene Geschäfte, Verz
     details: 'InterMind ist eine professionelle Videomeeting-Plattform, kein einfaches Add-on oder Plugin.',
     items: [
       '✧ 1080p Auflösung, intelligente Geräuschunterdrückung und fokussierte Sprachaufnahme.',
-      '✧ Terminplanung, Moderation, Demos, Aufzeichnung und vollständige Kalenderintegration — alles eingebaut und sofort einsatzbereit. Meetings können bis zu 24 Stunden dauern.',
+      '✧ Terminplanung, Moderation, Demos, Aufzeichnung und vollständige Kalenderintegration — alles eingebaut, sofort einsatzbereit. Meetings können bis zu 24 Stunden dauern.',
       '⚡︎ Live-Transkripte, Teilnehmer-Chat und ein KI-Assistent, der Meetings produktiv hält.'
     ],
     link: '/product/how-it-works',
@@ -58,9 +58,9 @@ text="Für Unternehmen, bei denen **Sprachbarrieren** verlorene Geschäfte, Verz
   title: 'Der **Verstand in** Ihren Meetings',
   details: 'InterMind verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
   items: [
-    '⚡︎ Durchsuchen Sie sofort alle Inhalte vergangener und aktueller Meetings. Stellen Sie Fragen natürlich und erhalten Sie präzise Antworten ohne Aufzeichnungen durchzusehen.',
+    '⚡︎ Durchsuchen Sie sofort alle Inhalte vergangener und aktueller Meetings. Stellen Sie Fragen natürlich, erhalten Sie präzise Antworten ohne Aufzeichnungen durchzusehen.',
     '✧ Verpassen Sie keine Aufgaben aus Meetings. Unsere KI extrahiert automatisch Aufgaben, Verantwortliche und Fristen aus Gesprächen.',
-    '✧ KI-Meeting-Zusammenfassungen liefern sofort die wichtigsten Punkte in jeder Sprache und halten alle auf dem gleichen Stand ohne manuelle Notizen.',
+    '✧ KI-Meeting-Zusammenfassungen liefern Kernpunkte sofort in jeder Sprache und halten alle auf dem gleichen Stand ohne manuelle Notizen.',
   ],
   link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
   src: {
@@ -75,11 +75,11 @@ text="Für Unternehmen, bei denen **Sprachbarrieren** verlorene Geschäfte, Verz
   :card="{
     title: 'Sicher & vertraulich durch Design',
     details:
-      'InterMind ist für Gespräche konzipiert, bei denen Vertrauen wichtig ist. Während wir uns auf erstklassige Drittanbieter-Infrastruktur verlassen, bleibt die [Vertraulichkeit stets in Ihren Händen](/product/privacy-architecture).',
+      'InterMind ist für Gespräche konzipiert, bei denen Vertrauen wichtig ist. Während wir uns auf erstklassige Drittanbieter-Infrastruktur verlassen, [liegt die Vertraulichkeit immer in Ihren Händen](/product/privacy-architecture).',
     items: [
-      '⚡︎ Regionsbasierter Datenschutz — wählen Sie, wo Ihre Daten verarbeitet werden. Wir leiten alle Dolmetschungen, Speicherungen und Analysen durch Infrastruktur, die Ihrer Compliance-Zone entspricht (z.B. EU, USA, Asien).',
+      '⚡︎ Regionsbasierter Datenschutz — wählen Sie, wo Ihre Daten verarbeitet werden. Wir leiten alle Dolmetschungen, Speicherung und Analysen durch Infrastruktur, die Ihrer Compliance-Zone entspricht (z.B. EU, USA, Asien).',
       '✧ Standardmäßig privat — InterMind selbst speichert oder nutzt Ihre Inhalte **niemals** für Training, Profiling oder Zugriff durch Dritte.',
-      '✧ Konform durch Architektur — GDPR-, CCPA- und UAE PDPL-konform, mit voller Unterstützung für Export- und Löschrechte.'
+      '✧ Konform durch Architektur — GDPR, CCPA und UAE PDPL-konform, mit voller Unterstützung für Export- und Löschrechte.'
     ],
     link: '/product/privacy-architecture',
     src: {
@@ -89,6 +89,8 @@ text="Für Unternehmen, bei denen **Sprachbarrieren** verlorene Geschäfte, Verz
     inversion: true
   }"
 />
+
+<span id="Pricing"></span>
 
 ## Klare und einfache Preisgestaltung
 
@@ -129,8 +131,10 @@ Wählen Sie den Plan, der zu den mehrsprachigen Kommunikationsbedürfnissen Ihre
 ]">
 <AuthButton text="Kostenlos testen" buttonClass="alt"/>
 <AuthButton text="Jetzt kaufen" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Zugang anfragen" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Zugang anfordern" buttonClass="alt"/>
 </PricingPlans>
+
+<span id="FAQ"></span>
 
 ## Häufig gestellte Fragen
 
@@ -145,13 +149,15 @@ Wählen Sie den Plan, der zu den mehrsprachigen Kommunikationsbedürfnissen Ihre
   },
   {
     q: 'Wie viele Personen können eine InterMind-Lizenz nutzen?',
-    a: 'Ein lizenzierter Benutzer kann eine unbegrenzte Anzahl von Meetings veranstalten. Wenn jedoch mehrere Benutzer gleichzeitig separate Meetings planen müssen, benötigen Sie zusätzliche Meeting-Lizenzen pro Benutzer.'
+    a: 'Ein lizenzierter Benutzer kann eine unbegrenzte Anzahl von Meetings hosten. Wenn jedoch mehrere Benutzer separate Meetings zur gleichen Zeit planen müssen, benötigen Sie zusätzliche Meeting-Lizenzen pro Benutzer.'
   },
   {
       q: 'Funktioniert die Sprachdolmetschung bei allen Plänen?',
       a: 'Ja, die Echtzeit-Sprachdolmetschung funktioniert bei allen Plänen, einschließlich des kostenlosen Basic-Plans. Der Basic-Plan ist jedoch auf insgesamt 25 Meetings beschränkt. Pro- und Business-Pläne ermöglichen unbegrenzte Meetings mit erhöhten Teilnehmerlimits und zusätzlichen Funktionen.'
   }
 ]" />
+
+<span id="Testimonials"></span>
 
 ## Was unsere Kunden sagen
 

@@ -32,9 +32,9 @@ export const zh = defineConfig({
         text: "资源",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "定价", link: `${BASE_PATH}/#clear-and-simple-pricing` },
-          { text: "常见问题", link: `${BASE_PATH}/#frequently-asked-questions` },
-          { text: "用户评价", link: `${BASE_PATH}/#what-customers-are-saying` },
+          { text: "定价", link: `${BASE_PATH}/#Pricing` },
+          { text: "常见问题", link: `${BASE_PATH}/#FAQ` },
+          { text: "用户评价", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
     ],

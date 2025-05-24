@@ -32,9 +32,9 @@ export const ja = defineConfig({
         text: "リソース",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "料金", link: `${BASE_PATH}/#clear-and-simple-pricing` },
-          { text: "よくある質問", link: `${BASE_PATH}/#frequently-asked-questions` },
-          { text: "お客様の声", link: `${BASE_PATH}/#what-customers-are-saying` },
+          { text: "料金", link: `${BASE_PATH}/#Pricing` },
+          { text: "よくある質問", link: `${BASE_PATH}/#FAQ` },
+          { text: "お客様の声", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
     ],

@@ -4,9 +4,9 @@ const BASE_PATH = "/es"
 
 export const es = defineConfig({
   description:
-    "Las reuniones multilingües no necesitan Zoom, plugins ni intérpretes. InterMind es un traductor de voz con IA para videollamadas en tiempo real: habla y traduce al instante.",
+    "Las reuniones multilingües no necesitan Zoom, plugins o intérpretes. InterMind es un traductor de voz con IA para videollamadas en tiempo real — habla y traduce instantáneamente.",
   head: [
-    ["meta", { property: "og:title", content: "Traductor de Voz con IA para Videollamadas en Vivo | InterMIND" }],
+    ["meta", { property: "og:title", content: "Traductor de Voz con IA para Videollamadas en Directo | InterMIND" }],
     [
       "meta",
       {
@@ -32,9 +32,9 @@ export const es = defineConfig({
         text: "Recursos",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "Precios", link: `${BASE_PATH}/#clear-and-simple-pricing` },
-          { text: "Preguntas Frecuentes", link: `${BASE_PATH}/#frequently-asked-questions` },
-          { text: "Testimonios", link: `${BASE_PATH}/#what-customers-are-saying` },
+          { text: "Precios", link: `${BASE_PATH}/#Pricing` },
+          { text: "Preguntas Frecuentes", link: `${BASE_PATH}/#FAQ` },
+          { text: "Testimonios", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
     ],
@@ -64,7 +64,7 @@ export const es = defineConfig({
       phonePlaceholder: "ej., https://mind.com",
       phoneError: "Por favor ingresa el número de teléfono",
       category: "Por favor dinos cómo podemos ayudarte *",
-      categoryPlaceholder: "selecciona el tipo de servicio",
+      categoryPlaceholder: "selecciona tipo de servicio",
       message: "Hablemos de tus objetivos (opcional)",
       messagePlaceholder: "Por favor proporciona detalles adicionales (opcional)",
       submit: "Enviar solicitud",

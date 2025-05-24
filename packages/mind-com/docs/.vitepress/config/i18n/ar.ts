@@ -4,7 +4,7 @@ const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
   description:
-    "لا تحتاج الاجتماعات متعددة اللغات إلى Zoom أو إضافات أو مترجمين. InterMind هو مترجم صوتي ذكي للمكالمات المرئية المباشرة - تحدث وترجم فوراً.",
+    "الاجتماعات متعددة اللغات لا تحتاج إلى Zoom أو إضافات أو مترجمين. InterMind هو مترجم صوتي ذكي للمكالمات المرئية المباشرة — تحدث وترجم فورياً.",
   head: [
     ["meta", { property: "og:title", content: "مترجم صوتي ذكي للمكالمات المرئية المباشرة | InterMIND" }],
     [
@@ -32,9 +32,9 @@ export const ar = defineConfig({
         text: "الموارد",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "الأسعار", link: `${BASE_PATH}/#clear-and-simple-pricing` },
-          { text: "الأسئلة الشائعة", link: `${BASE_PATH}/#frequently-asked-questions` },
-          { text: "آراء العملاء", link: `${BASE_PATH}/#what-customers-are-saying` },
+          { text: "الأسعار", link: `${BASE_PATH}/#Pricing` },
+          { text: "الأسئلة الشائعة", link: `${BASE_PATH}/#FAQ` },
+          { text: "آراء العملاء", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
     ],

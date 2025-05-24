@@ -39,7 +39,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
 <span id="2"></span>
 <FeatureBlock :card="{
     title: 'Conçu pour les Réunions Professionnelles — Pas Seulement pour Discuter',
-    details: 'InterMind est une plateforme de réunion vidéo de niveau professionnel, pas un simple complément ou plugin.',
+    details: 'InterMind est une plateforme de réunion vidéo de niveau professionnel, pas un simple module complémentaire ou plugin.',
     items: [
       '✧ Résolution 1080p, suppression intelligente du bruit et captation vocale ciblée.',
       '✧ Planification, modération, démonstrations, enregistrement et intégration complète du calendrier — tout est intégré, prêt à l\'emploi. Les réunions peuvent durer jusqu\'à 24 heures.',
@@ -59,7 +59,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
   items: [
     '⚡︎ Recherchez instantanément tout contenu dans les réunions passées et actuelles. Posez des questions naturellement, obtenez des réponses précises sans revoir les enregistrements.',
-    '✧ Ne manquez jamais les points d\'action de vos réunions. Notre IA extrait automatiquement les tâches, les responsables et les délais des conversations.',
+    '✧ Ne manquez jamais les tâches issues d\'une réunion. Notre IA extrait automatiquement les tâches, les responsables et les délais des conversations.',
     '✧ Les résumés de réunion par IA fournissent les points clés instantanément dans n\'importe quelle langue, gardant tout le monde aligné sans prise de notes manuelle.',
   ],
   link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
@@ -78,7 +78,7 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
       'InterMind est conçu pour les conversations où la confiance est essentielle. Bien que nous nous appuyions sur une infrastructure tierce de premier ordre, [la confidentialité reste toujours entre vos mains](/product/privacy-architecture).',
     items: [
       '⚡︎ Confidentialité basée sur la région — choisissez où vos données sont traitées. Nous acheminons toute l\'interprétation, le stockage et l\'analyse via une infrastructure alignée sur votre zone de conformité (par ex. UE, États-Unis, Asie).',
-      '✧ Privé par défaut — InterMind lui-même ne **stocke ni n\'utilise jamais** votre contenu pour l\'entraînement, le profilage ou l\'accès tiers.',
+      '✧ Privé par défaut — InterMind lui-même ne **stocke jamais** ni n\'utilise votre contenu pour l\'entraînement, le profilage ou l\'accès par des tiers.',
       '✧ Conforme par architecture — Prêt pour GDPR, CCPA et UAE PDPL, avec support complet des droits d\'exportation et de suppression.'
     ],
     link: '/product/privacy-architecture',
@@ -90,7 +90,9 @@ text="Pour les entreprises où les **barrières linguistiques** signifient des o
   }"
 />
 
-## Tarification Claire et Simple
+<span id="Pricing"></span>
+
+## Prix Clairs et Simples
 
 Choisissez le forfait qui correspond aux besoins de communication multilingue de votre organisation.
 
@@ -118,7 +120,7 @@ Choisissez le forfait qui correspond aux besoins de communication multilingue de
   {
     title: '**Business** &nbsp 1-500 utilisateurs',
     price: '**Confidentialité**',
-    details: 'Sécurité de niveau entreprise',
+    details: 'Sécurité niveau entreprise',
     items: [
       'Réunions vidéo de 500 participants + 5 To de stockage mutualisé par utilisateur [💬](#2)',
       'Interprétation voix-à-voix [💬](#1)',
@@ -131,6 +133,8 @@ Choisissez le forfait qui correspond aux besoins de communication multilingue de
 <AuthButton text="Acheter maintenant" buttonClass="brand"/>
 <ContactFormModalNav buttonText="Demander l'accès" buttonClass="alt"/>
 </PricingPlans>
+
+<span id="FAQ"></span>
 
 ## Questions Fréquemment Posées
 
@@ -152,6 +156,8 @@ Choisissez le forfait qui correspond aux besoins de communication multilingue de
       a: 'Oui, l\'interprétation vocale en temps réel fonctionne sur tous les forfaits, y compris le forfait Basic gratuit. Cependant, le forfait Basic est limité à 25 réunions au total. Les forfaits Pro et Business permettent des réunions illimitées avec des limites de participants accrues et des fonctionnalités supplémentaires.'
   }
 ]" />
+
+<span id="Testimonials"></span>
 
 ## Ce Que Disent Nos Clients
 

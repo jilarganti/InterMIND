@@ -7,7 +7,7 @@ isHome: true
 
 <!-- text="Céntrate en el crecimiento — deja que InterMind se encargue de los idiomas." -->
 <!-- text="Las aulas tardan años; InterMind ofrece comprensión en tiempo real hoy, en todos los idiomas." -->
-<!-- text="Comprende instantáneamente — sin aprender idiomas extranjeros" -->
+<!-- text="Comprende al instante — sin aprender idiomas extranjeros" -->
 <!-- title="Reuniones por Video con **Interpretación** en Vivo" -->
 
 <HeroSection
@@ -90,6 +90,8 @@ text="Para empresas donde las **barreras lingüísticas** significan pérdida de
   }"
 />
 
+<span id="Pricing"></span>
+
 ## Precios Claros y Sencillos
 
 Elija el plan que se adapte a las necesidades de comunicación multilingüe de su organización.
@@ -132,6 +134,8 @@ Elija el plan que se adapte a las necesidades de comunicación multilingüe de s
 <ContactFormModalNav buttonText="Solicitar acceso" buttonClass="alt"/>
 </PricingPlans>
 
+<span id="FAQ"></span>
+
 ## Preguntas Frecuentes
 
 <AccordionGroup :items="[
@@ -152,6 +156,8 @@ Elija el plan que se adapte a las necesidades de comunicación multilingüe de s
       a: 'Sí, la interpretación de voz a voz en tiempo real funciona en todos los planes, incluido el plan Basic gratuito. Sin embargo, el plan Basic está limitado a 25 reuniones en total. Los planes Pro y Business permiten reuniones ilimitadas con límites de participantes aumentados y funciones adicionales.'
   }
 ]" />
+
+<span id="Testimonials"></span>
 
 ## Lo Que Dicen Nuestros Clientes
 

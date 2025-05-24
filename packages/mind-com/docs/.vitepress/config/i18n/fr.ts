@@ -11,7 +11,7 @@ export const fr = defineConfig({
       "meta",
       {
         name: "keywords",
-        content: "traducteur vocal IA, traduction en temps réel, traduire appels vidéo, réunions multilingues, alternative traducteur Zoom, outil d'interprétation",
+        content: "traducteur vocal IA, traduction en temps réel, traduire appels vidéo, réunions multilingues, alternative à Zoom traducteur, outil d'interprétation",
       },
     ],
   ],
@@ -32,9 +32,9 @@ export const fr = defineConfig({
         text: "Ressources",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "Tarification", link: `${BASE_PATH}/#clear-and-simple-pricing` },
-          { text: "FAQ", link: `${BASE_PATH}/#frequently-asked-questions` },
-          { text: "Témoignages", link: `${BASE_PATH}/#what-customers-are-saying` },
+          { text: "Tarification", link: `${BASE_PATH}/#Pricing` },
+          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
+          { text: "Témoignages", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
     ],
