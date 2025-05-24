@@ -7,26 +7,29 @@ isHome: true
 
 <!-- text="Focus on growth — let InterMind handle the languages." -->
 <!-- text="Classrooms take years; InterMind delivers real-time understanding today, in every language."> -->
-<!-- text="Understand instantly — without learning foreign languages" -->
+<!-- text="**Multilingual** Video Meetings with **Voice** Interpretation" -->
 <!-- title="Live **Interpretation** Video Meetings" -->
 
 <HeroSection
-title="**Multilingual** Video Meetings with **Voice** Interpretation"
-text="For companies where **language barriers** mean lost deals, delays, and costly mistakes.">
+title="Meet in **Any** Language"
+text="New generation of video calls. AI voice translation — evolved into real-time interpretation.">
 
-<AuthButton text="Try for free" buttonClass="brand"/>
+<AuthButton text="Hear the difference" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Request a Demo"/>
 <NavButton to="#pricing" buttonClass="alt" buttonLabel="Pricing" /> -->
 </HeroSection>
 
+> **Who is this for?**  
+> For international teams where language barriers lead to lost deals, delays, or miscommunication.
+
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: 'Speak Instantly in Over 100 Languages',
-  details: 'InterMind enables every participant to speak their native language — naturally, in [real time](/product/how-it-works), and without subtitles or lag.',
+  title: 'Translation ≠ Understanding. Here’s what’s next.',
+  details: 'No matter the language, your voice is heard — and understood — as if you shared the same tongue.',
     items: [
-      '✧ Speak freely — be understood instantly.',
+      '⚡︎ InterMind enables every participant to speak their native language — naturally, in [real time](/product/how-it-works), and without subtitles or lag.',
       '✧ AI-powered interpretation captures tone, intent, and industry-specific terminology.',
-      '⚡︎ Two-way, continuous, **voice-to-voice interpretation** with zero manual setup.',
+      '✧ No notes. No chaos. Just clarity — powered by the [Mind within](#3) your meetings.'
     ],
   link: './product/what-is-intermind',
   src: {
@@ -36,39 +39,38 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   inversion: false
 }" />
 
+<span id="3"></span>
+<FeatureBlock :card="{
+    title: 'The **Mind Within** Your Meetings',
+    details: 'InterMind turns every multilingual call into clear, searchable knowledge.',
+    items: [
+      '⚡︎ Instantly search any content across past and current meetings. Ask questions naturally, get precise answers without reviewing recordings.',
+      '✧ Never miss action items from any meeting. Our AI extracts tasks, owners and deadlines automatically from conversations.',
+      '✧ AI meeting summaries deliver key points instantly in any language, keeping everyone aligned without manual note-taking.',
+    ],
+    link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
+    src: {
+      light: '/2l.png',
+      dark: '/2d.png',
+    },
+    inversion: true
+  }" />
+
 <span id="2"></span>
 <FeatureBlock :card="{
     title: 'Built for Serious Meetings — Not Just Talking',
     details: 'InterMind is a professional-grade video meeting platform, not a lightweight add-on or plugin.',
     items: [
       '✧ 1080p resolution, smart noise suppression, and focused voice pickup.',
-      '✧ Scheduling, moderation, demos, recording, and full calendar integration — all built in, ready to go. Meetings can run up to 24 hours.',
-      '⚡︎ Live transcripts, participant chat, and an AI assistant that keeps meetings productive.'
+      '✧ Scheduling, moderation, screen sharing, recording, participant chat and full calendar integration — all built in, ready to go.',
     ],
     link: '/product/how-it-works',
     src: {
       light: '/3l.png',
       dark: '/3d.png',
     },
-    inversion: true
+    inversion: false
   }" />
-
-<span id="3"></span>
-<FeatureBlock :card="{
-  title: 'The **Mind Within** Your Meetings',
-  details: 'InterMind turns every multilingual call into clear, searchable knowledge.',
-  items: [
-    '⚡︎ Instantly search any content across past and current meetings. Ask questions naturally, get precise answers without reviewing recordings.',
-    '✧ Never miss action items from any meeting. Our AI extracts tasks, owners and deadlines automatically from conversations.',
-    '✧ AI meeting summaries deliver key points instantly in any language, keeping everyone aligned without manual note-taking.',
-  ],
-  link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
-  src: {
-    light: '/2l.png',
-    dark: '/2d.png',
-  },
-  inversion: false
-}" />
 
 <span id="4"></span>
 <FeatureBlock
@@ -154,7 +156,131 @@ Choose the plan that fits your organization's multilingual communication needs.
   {
       q: 'Does voice interpretation work on all plans?',
       a: 'Yes, real-time voice-to-voice interpretation works on all plans, including the Free Basic plan. However, the Basic plan is limited to 25 meetings total. Pro and Business plans allow unlimited meetings with increased participant limits and additional features.'
-  }
+  },
+  {
+      q: 'What is the maximum duration of a meeting?',
+      a: 'Meetings can run up to 24 hours on all plans.'
+  },
+  {
+      q: 'Can I record meetings?',
+      a: 'Yes, all plans support meeting recording. Recordings are stored in your account and can be accessed later.'
+  },
+  {
+      q: 'Is there a limit on the number of meetings I can host?',
+      a: 'The Basic plan allows up to 25 meetings, while Pro and Business plans allow unlimited meetings.'
+  },
+  {
+      q: 'Can I use InterMind on mobile devices?',
+      a: 'Yes, InterMind is fully compatible with desktop, mobile, and tablet devices.'
+  },
+  {
+      q: 'What if I need more storage for recordings?',
+      a: 'The Pro plan offers 2 TB of pooled storage per user, while the Business plan provides 5 TB. If you need more, please contact us for custom solutions.'
+  },
+  {
+      q: 'How does InterMind ensure data privacy and security?',
+      a: 'InterMind is designed with privacy in mind. We offer region-based processing, private by default settings, and compliance with GDPR, CCPA, and UAE PDPL standards.'
+  },
+  {
+      q: 'Can I try InterMind before purchasing a plan?',
+      a: 'Yes, you can start with the Free Basic plan to experience the features before upgrading to Pro or Business plans.'
+  },
+  {
+      q: 'What if I need help or support?',
+      a: 'We offer support through our help center, email, and live chat. For Business plan users, dedicated support is available.'
+  },
+  {
+      q: 'Can I cancel my subscription at any time?',
+      a: 'Yes, you can cancel your subscription at any time. For monthly plans, cancellation takes effect at the end of the current billing cycle. Annual plans can be canceled for a prorated refund.'
+  },
+  {
+      q: 'How do I upgrade or downgrade my plan?',
+      a: 'You can upgrade or downgrade your plan at any time through your account settings. Changes will take effect immediately.'
+  },
+  {
+      q: 'What languages does InterMind support for voice interpretation?',
+      a: 'InterMind supports a wide range of languages for real-time voice interpretation. The list is continuously expanding, so please check our website for the latest updates.'
+  },
+  {
+      q: 'Can I use InterMind for webinars or large events?',
+      a: 'Yes, InterMind can be used for webinars and large events, especially with the Business plan that supports up to 500 participants.'
+  },
+  {
+      q: 'Is there a limit on the number of meetings I can host?',
+      a: 'The Basic plan allows up to 25 meetings, while Pro and Business plans allow unlimited meetings.'
+  },
+  {
+      q: 'Can I use InterMind for webinars or large events?',
+      a: 'Yes, InterMind can be used for webinars and large events, especially with the Business plan that supports up to 500 participants.'
+  },
+  {
+      q: 'What if I need more storage for recordings?',
+      a: 'The Pro plan offers 2 TB of pooled storage per user, while the Business plan provides 5 TB. If you need more, please contact us for custom solutions.'
+  },
+  {
+      q: 'How does InterMind ensure data privacy and security?',
+      a: 'InterMind is designed with privacy in mind. We offer region-based processing, private by default settings, and compliance with GDPR, CCPA, and UAE PDPL standards.'
+  },
+  {
+      q: 'Can I try InterMind before purchasing a plan?',
+      a: 'Yes, you can start with the Free Basic plan to experience the features before upgrading to Pro or Business plans.'
+  },
+  {
+      q: 'What if I need help or support?',
+      a: 'We offer support through our help center, email, and live chat. For Business plan users, dedicated support is available.'
+  },
+  {
+      q: 'Can I cancel my subscription at any time?',
+      a: 'Yes, you can cancel your subscription at any time. For monthly plans, cancellation takes effect at the end of the current billing cycle. Annual plans can be canceled for a prorated refund.'
+  },
+  {
+      q: 'How do I upgrade or downgrade my plan?',
+      a: 'You can upgrade or downgrade your plan at any time through your account settings. Changes will take effect immediately.'
+  },
+  {
+      q: 'What languages does InterMind support for voice interpretation?',
+      a: 'InterMind supports a wide range of languages for real-time voice interpretation. The list is continuously expanding, so please check our website for the latest updates.'
+  },
+  {
+      q: 'Can I use InterMind for webinars or large events?',
+      a: 'Yes, InterMind can be used for webinars and large events, especially with the Business plan that supports up to 500 participants.'
+  },
+  {
+      q: 'Is there a limit on the number of meetings I can host?',
+      a: 'The Basic plan allows up to 25 meetings, while Pro and Business plans allow unlimited meetings.'
+  },
+  {
+      q: 'Can I use InterMind for webinars or large events?',
+      a: 'Yes, InterMind can be used for webinars and large events, especially with the Business plan that supports up to 500 participants.'
+  },
+  {
+      q: 'What if I need more storage for recordings?',
+      a: 'The Pro plan offers 2 TB of pooled storage per user, while the Business plan provides 5 TB. If you need more, please contact us for custom solutions.'
+  },
+  {
+      q: 'How does InterMind ensure data privacy and security?',
+      a: 'InterMind is designed with privacy in mind. We offer region-based processing, private by default settings, and compliance with GDPR, CCPA, and UAE PDPL standards.'
+  },
+  {
+      q: 'Can I try InterMind before purchasing a plan?',
+      a: 'Yes, you can start with the Free Basic plan to experience the features before upgrading to Pro or Business plans.'
+  },
+  {
+      q: 'What if I need help or support?',
+      a: 'We offer support through our help center, email, and live chat. For Business plan users, dedicated support is available.'
+  },
+  {
+      q: 'Can I cancel my subscription at any time?',
+      a: 'Yes, you can cancel your subscription at any time. For monthly plans, cancellation takes effect at the end of the current billing cycle. Annual plans can be canceled for a prorated refund.'
+  },
+  {
+      q: 'How do I upgrade or downgrade my plan?',
+      a: 'You can upgrade or downgrade your plan at any time through your account settings. Changes will take effect immediately.'
+  },
+  {
+      q: 'What languages does InterMind support for voice interpretation?',
+      a: 'InterMind supports a wide range of languages for real-time voice interpretation. The list is continuously expanding, so please check our website for the latest updates.'
+  },
 ]" />
 
 <span id="Testimonials"></span>

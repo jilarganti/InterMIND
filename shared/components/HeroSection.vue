@@ -52,7 +52,7 @@ onMounted(async () => {
   <section class="hero-section">
     <!-- Use v-html to render the styled title -->
     <h1 class="hero-title" v-html="displayedTitle"></h1>
-    <p class="hero-text" v-html="displayedText"></p>
+    <h2 class="hero-text" v-html="displayedText"></h2>
 
     <!-- Only apply transition when shouldPlayHeroAnimation is true -->
     <Transition :name="shouldPlayHeroAnimation ? 'fade-slide-up' : ''">
@@ -85,7 +85,7 @@ onMounted(async () => {
   font-weight: 500;
   line-height: 1.5;
   color: var(--vp-c-text-2);
-  margin-top: calc(1rem + 0.5vw);
+  margin-top: calc(0.5rem + 0.5vw);
 }
 
 .hero-title :deep(.highlighted-word) {
@@ -111,7 +111,7 @@ onMounted(async () => {
 
 @media (max-width: 640px) {
   .hero-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     overflow-wrap: break-word;
   }
 
