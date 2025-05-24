@@ -90,6 +90,8 @@ text="For companies where **language barriers** mean lost deals, delays, and cos
   }"
 />
 
+<span id="Pricing"></span>
+
 ## Clear and Simple Pricing
 
 Choose the plan that fits your organization's multilingual communication needs.
@@ -132,6 +134,8 @@ Choose the plan that fits your organization's multilingual communication needs.
 <ContactFormModalNav buttonText="Request access" buttonClass="alt"/>
 </PricingPlans>
 
+<span id="FAQ"></span>
+
 ## Frequently Asked Questions
 
 <AccordionGroup :items="[
@@ -152,6 +156,8 @@ Choose the plan that fits your organization's multilingual communication needs.
       a: 'Yes, real-time voice-to-voice interpretation works on all plans, including the Free Basic plan. However, the Basic plan is limited to 25 meetings total. Pro and Business plans allow unlimited meetings with increased participant limits and additional features.'
   }
 ]" />
+
+<span id="Testimonials"></span>
 
 ## What Customers Are Saying
 

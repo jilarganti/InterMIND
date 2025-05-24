@@ -35,9 +35,9 @@ export const en = defineConfig({
         //   {
         //     text: "EXPLORE",
         items: [
-          { text: "Pricing", link: `${BASE_PATH}/#clear-and-simple-pricing` },
-          { text: "FAQ", link: `${BASE_PATH}/#frequently-asked-questions` },
-          { text: "Testimonials", link: `${BASE_PATH}/#what-customers-are-saying` },
+          { text: "Pricing", link: `${BASE_PATH}/#Pricing` },
+          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
+          { text: "Testimonials", link: `${BASE_PATH}/#Testimonials` },
         ],
         //   },
         // ],
