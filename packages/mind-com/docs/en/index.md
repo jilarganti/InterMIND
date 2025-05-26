@@ -94,44 +94,48 @@ text="New generation of video calls. AI voice translation — evolved into real-
 
 ## Clear and Simple Pricing
 
-Choose the plan that fits your organization's multilingual communication needs.
+Choose the plan that speaks your language. From subtitles to full voice interpretation — grow as your team does.
 
 <PricingPlans :plans="[
   {
-    title: '**Basic** &nbsp 1 user',
-    price: '**Free**',
-    details: '25 free meetings',
+    title: '**Basic** 1 user',
+    price: '**Free Forever**',
+    details: 'Not a toy. Just a door.',
     items: [
-      '100 participant video meetings + 30 GB pooled storage per user [💬](#2)',
-      'Voice-to-voice interpretation [💬](#1)',
-      'AI assistant [💬](#3)',
+      '100 participant video meetings[💬](#2)',
+      '30GB pooled storage per user [💬](#2)',
+      'Voice translation with subtitles [💬](#1)',
+      'AI meeting assistant for notes & summaries [💬](#3)',
     ],
   },
   {
-    title: '**Pro** &nbsp 1-99 users',
+    title: '**Pro**  1-99 users',
     price: '**$20** /month/user, billed annually',
     details: 'or $25 billed monthly',
     items: [
-      '150 participant video meetings + 2 TB pooled storage per user [💬](#2)',
-      'Voice-to-voice interpretation [💬](#1)',
-      'AI assistant [💬](#3)',
+      '150 participant video meetings [💬](#2)',
+      '2TB pooled storage per user [💬](#2)',
+      'Voice translation with subtitles + **Two-way voice-to-voice interpretation** [💬](#1)',
+      'AI assistant that **turns talk into action** (with tasks, highlights & transcripts) [💬](#3)',
     ],
   },
   {
-    title: '**Business** &nbsp 1-500 users',
-    price: '**Privacy**',
-    details: 'Enterprise-grade security',
+    title: '**Business** 1-250 users',
+    price: '**Custom pricing**',
+    details: 'Built for scale, privacy & compliance',
     items: [
-      '500 participant video meetings + 5 TB pooled storage per user [💬](#2)',
-      'Voice-to-voice interpretation [💬](#1)',
-      'AI assistant [💬](#3)',
-      'Region-based privacy [💬](#4)',
+      '500 participant video meetings[💬](#2)',
+      '5TB pooled storage per user [💬](#2)',
+      'Voice translation with subtitles + **Two-way voice-to-voice interpretation** [💬](#1)',
+      '**AI colleague**. Looks human. Sounds natural. Smarter than you. [💬](#3)',
+      'GDPR, CCPA, PDPL-ready architecture [💬](#4)',
+      '**Region-based privacy routing** (EU / US / Asia) [💬](#4)',
     ],
   }
 ]">
-<AuthButton text="Try for free" buttonClass="alt"/>
+<AuthButton text="Try it free — no credit card" buttonClass="alt"/>
 <AuthButton text="Buy now" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Request access" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Talk to our team" buttonClass="alt"/>
 </PricingPlans>
 
 <span id="FAQ"></span>
