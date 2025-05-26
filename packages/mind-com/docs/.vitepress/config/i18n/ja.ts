@@ -92,7 +92,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "InterMINDとは？", link: "what-is-intermind" },
         { text: "仕組み", link: "how-it-works" },
         { text: "地域データプライバシー", link: "privacy-architecture" },
-        { text: "ユースケース", link: "use-cases" },
+        { text: "重点市場", link: "markets" },
       ],
     },
   ]

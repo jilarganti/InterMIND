@@ -1,14 +1,14 @@
 ---
 layout: home
-title: "Traductor de Voz con IA para Videollamadas en Directo"
-description: "Las reuniones multilingües no necesitan Zoom, plugins ni intérpretes. InterMind es un traductor de voz con IA para videollamadas en tiempo real — habla y traduce al instante."
+title: "Traductor de Voz con IA para Videollamadas en Vivo"
+description: "Las reuniones multilingües no necesitan Zoom, plugins ni intérpretes. InterMind es un traductor de voz con IA para videollamadas en tiempo real — habla y traduce instantáneamente."
 isHome: true
 ---
 
 <!-- text="Céntrate en el crecimiento — deja que InterMind se encargue de los idiomas." -->
 <!-- text="Las aulas tardan años; InterMind ofrece comprensión en tiempo real hoy, en todos los idiomas." -->
 <!-- text="Reuniones por Video **Multilingües** con Interpretación por **Voz**" -->
-<!-- title="Reuniones por Video con **Interpretación** en Directo" -->
+<!-- title="Reuniones por Video con **Interpretación** en Vivo" -->
 
 <HeroSection
 title="Reúnete en **Cualquier** Idioma"
@@ -20,7 +20,7 @@ text="Nueva generación de videollamadas. Traducción de voz con IA — evolucio
 </HeroSection>
 
 > **¿Para quién es esto?**  
-> Para equipos internacionales donde las barreras lingüísticas provocan pérdida de negocios, retrasos o malentendidos.
+> Para equipos internacionales donde las barreras lingüísticas provocan pérdida de negocios, retrasos o malentendidos. Los Mercados Prioritarios incluyen centros de fabricación global, socios industriales de EE.UU., alta tecnología en Asia, UE multilingüe, MENA y América Latina. Aprende más en nuestra sección de [Markets](/product/markets).
 
 <span id="1"></span>
 <FeatureBlock :card="{
@@ -28,7 +28,7 @@ text="Nueva generación de videollamadas. Traducción de voz con IA — evolucio
   details: 'Sin importar el idioma, **tu voz es escuchada — y comprendida** — como si compartieran la misma lengua.',
     items: [
       '⚡︎ De forma natural, en [tiempo real](/product/how-it-works), y sin subtítulos ni retrasos.',
-      '✧ La interpretación potenciada por IA capta el tono, la intención y la terminología específica del sector.',
+      '✧ La interpretación potenciada por IA capta el tono, la intención y la terminología específica de la industria.',
     ],
   link: './product/what-is-intermind',
   src: {
@@ -45,7 +45,7 @@ text="Nueva generación de videollamadas. Traducción de voz con IA — evolucio
     items: [
       '🔍 **Pregunta cualquier cosa** — la IA encuentra respuestas **en todas tus reuniones**.',
       '✧ Extrae automáticamente tareas, responsables y fechas límite.',
-      '✧ Resume los puntos clave en cualquier idioma — al instante.',
+      '✧ Resume los puntos clave en cualquier idioma — instantáneamente.',
     ],
     link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
     src: {
@@ -58,14 +58,15 @@ text="Nueva generación de videollamadas. Traducción de voz con IA — evolucio
 <span id="2"></span>
 <FeatureBlock :card="{
     title: 'Diseñado para Reuniones Serias — No Solo para Charlar',
-    details: 'InterMind es una **plataforma de reuniones por video** de nivel profesional, no un complemento o plugin ligero.',
+    details: 'InterMind es una **plataforma de reuniones por video de nivel profesional**, no un complemento o plugin ligero.',
     items: [
-      '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, chat entre participantes e integración completa con calendario — todo incluido, **listo para usar**.',
+      '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, chat entre participantes, integración con calendario y traducción de voz con subtítulos — todo integrado, listo para usar.',
+      '✧ **Gratis Para Siempre** — sin tarjeta de crédito, sin límite de tiempo.',
     ],
     link: '/product/how-it-works',
     src: {
-      light: '/3l.png',
-      dark: '/3d.png',
+      light: '/3.png',
+      dark: '/3.png',
     },
     inversion: false
   }" />
@@ -75,11 +76,11 @@ text="Nueva generación de videollamadas. Traducción de voz con IA — evolucio
   :card="{
     title: 'Privacidad Donde Importa',
     details:
-      'InterMind está diseñado para conversaciones que requieren confianza — donde la privacidad y el control son fundamentales.',
+      'InterMind está construido para conversaciones críticas de confianza — donde la privacidad y el control son más importantes.',
     items: [
-      '⚡︎ [Privacidad basada en regiones](/product/privacy-architecture) — UE, EE. UU., SE Asia',
+      '⚡︎ [Privacidad basada en regiones](/product/privacy-architecture) — UE, EE.UU., SE Asia',
       '✧ Cumple con: GDPR, CCPA, UAE PDPL',
-      '✧ **Cero entrenamiento con datos**. Sin acceso de terceros.'
+      '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
     ],
     link: '/product/privacy-architecture',
     src: {
@@ -94,112 +95,118 @@ text="Nueva generación de videollamadas. Traducción de voz con IA — evolucio
 
 ## Precios Claros y Sencillos
 
-Elija el plan que se adapte a las necesidades de comunicación multilingüe de su organización.
+Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de voz completa — crece a medida que lo hace tu equipo.
 
 <PricingPlans :plans="[
   {
-    title: '**Básico** &nbsp 1 usuario',
-    price: '**Gratis**',
-    details: '25 reuniones gratuitas',
+    title: '**Básico** 1 usuario',
+    price: '**Gratis para siempre**',
+    details: 'No es un juguete. Solo una puerta.',
     items: [
-      'Reuniones de video de 100 participantes + 30 GB de almacenamiento compartido por usuario [💬](#2)',
-      'Interpretación de voz a voz [💬](#1)',
-      'Asistente de IA [💬](#3)',
+      'Reuniones por video de 100 participantes [💬](#2)',
+      '30GB de almacenamiento compartido por usuario',
+      'Traducción de voz con subtítulos [💬](#2)',
+      'Asistente de reuniones con IA para notas y resúmenes [💬](#3)',
     ],
   },
   {
-    title: '**Pro** &nbsp 1-99 usuarios',
+    title: '**Pro** 1-99 usuarios',
     price: '**$20** /mes/usuario, facturado anualmente',
     details: 'o $25 facturado mensualmente',
     items: [
-      'Reuniones de video de 150 participantes + 2 TB de almacenamiento compartido por usuario [💬](#2)',
-      'Interpretación de voz a voz [💬](#1)',
-      'Asistente de IA [💬](#3)',
+      'Reuniones por video de 150 participantes [💬](#2)',
+      '2TB de almacenamiento compartido por usuario',
+      'Traducción de voz con subtítulos [💬](#2) + **Interpretación bidireccional voz a voz** [💬](#1)',
+      'Asistente de IA que **convierte las conversaciones en acciones** (con tareas, destacados y transcripciones) [💬](#3)',
     ],
   },
   {
-    title: '**Empresarial** &nbsp 1-500 usuarios',
-    price: '**Privacidad**',
-    details: 'Seguridad de nivel empresarial',
+    title: '**Empresarial** 1-250 usuarios',
+    price: '**Precio personalizado**',
+    details: 'Diseñado para escala, privacidad y cumplimiento',
     items: [
-      'Reuniones de video de 500 participantes + 5 TB de almacenamiento compartido por usuario [💬](#2)',
-      'Interpretación de voz a voz [💬](#1)',
-      'Asistente de IA [💬](#3)',
-      'Privacidad basada en región [💬](#4)',
+      'Reuniones por video de 500 participantes[💬](#2)',
+      '5TB de almacenamiento compartido por usuario',
+      'Traducción de voz con subtítulos [💬](#2) + **Interpretación bidireccional voz a voz** [💬](#1)',
+      '**Colega IA**. Parece humano. Suena natural. Más inteligente que tú.',
+      'Arquitectura compatible con GDPR, CCPA, PDPL',
+      '**Enrutamiento de privacidad por región** (UE / EE.UU. / Asia) [💬](#4)',
     ],
   }
 ]">
-<AuthButton text="Prueba gratis" buttonClass="alt"/>
+<AuthButton text="Pruébalo gratis — sin tarjeta de crédito" buttonClass="alt"/>
 <AuthButton text="Comprar ahora" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Solicitar acceso" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Habla con nuestro equipo" buttonClass="alt"/>
 </PricingPlans>
 
 <span id="FAQ"></span>
 
 ## Preguntas Frecuentes
 
-<AccordionGroup :items="[
+<AccordionGroup :items="
+[
   {
-    q: '¿Qué es un usuario con licencia y qué es un Participante?',
-    a: 'Un usuario con licencia tiene una licencia gratuita o de pago y puede programar reuniones con participantes según la capacidad que permite su plan. Un Participante es un invitado a una reunión programada por alguien con una licencia de reunión. Un Participante no requiere una cuenta o licencia para unirse a una reunión y puede **unirse gratis**. Los participantes pueden unirse a una reunión desde dispositivos de escritorio, móviles y tabletas.'
+    q: '¿Qué es un usuario con licencia y qué es un participante?',
+    a: 'Un *usuario con licencia* tiene una licencia gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **gratuitamente**.'
   },
   {
-    q: '¿Cuántos participantes pueden unirse a la reunión?',
-    a: 'El número de participantes depende de su plan: Basic permite hasta 100 participantes, Pro admite hasta 150 participantes y Business permite hasta 500 participantes por reunión.'
+    q: '¿Cuántos participantes pueden unirse a una reunión?',
+    a: 'Depende de tu plan: *Basic* admite hasta **100 participantes**, *Pro* hasta **150**, y *Business* hasta **500**.'
   },
   {
     q: '¿Cuántas personas pueden usar una licencia de InterMind?',
-    a: 'Un usuario con licencia puede organizar un número ilimitado de reuniones. Sin embargo, si varios usuarios necesitan programar reuniones separadas al mismo tiempo, necesitará licencias de reunión adicionales por usuario.'
+    a: 'Cada *usuario con licencia* puede organizar **reuniones ilimitadas**. Si varios miembros del equipo necesitan organizar reuniones simultáneamente, cada uno necesitará su propia licencia.'
   },
   {
     q: '¿La interpretación de voz funciona en todos los planes?',
-    a: 'Sí, la interpretación de voz a voz en tiempo real funciona en todos los planes, incluido el plan Basic gratuito. Sin embargo, el plan Basic está limitado a 25 reuniones en total. Los planes Pro y Business permiten reuniones ilimitadas con límites de participantes aumentados y funciones adicionales.'
+    a: 'Sí, la *interpretación de voz* está disponible en todos los planes. En *Basic*, funciona solo con **subtítulos**. *Pro* y *Business* desbloquean **interpretación completa de voz a voz**, mayor capacidad y funciones avanzadas.'
   },
   {
     q: '¿Cuál es la duración máxima de una reunión?',
-    a: 'Las reuniones pueden durar hasta 24 horas en todos los planes.'
+    a: 'Las reuniones pueden durar hasta **24 horas** en todos los planes.'
   },
   {
     q: '¿Puedo grabar reuniones?',
-    a: 'Sí, todos los planes admiten la grabación de reuniones. Las grabaciones se almacenan en su cuenta y se pueden acceder posteriormente.'
+    a: 'Sí, todos los planes admiten **grabación de reuniones**. Las grabaciones se almacenan de forma segura en tu cuenta y son accesibles en cualquier momento.'
   },
   {
     q: '¿Hay un límite en el número de reuniones que puedo organizar?',
-    a: 'El plan Basic permite hasta 25 reuniones, mientras que los planes Pro y Business permiten reuniones ilimitadas.'
+    a: 'No. Puedes organizar **reuniones ilimitadas** — incluso en el plan *Free Basic*. Los planes *Pro* y *Business* ofrecen más potencia, participantes y control.'
   },
   {
-    q: '¿Puedo usar InterMind en dispositivos móviles?',
-    a: 'Sí, InterMind es totalmente compatible con dispositivos de escritorio, móviles y tabletas.'
-  },
-  {
-    q: '¿Qué pasa si necesito más almacenamiento para las grabaciones?',
-    a: 'El plan Pro ofrece 2 TB de almacenamiento compartido por usuario, mientras que el plan Business proporciona 5 TB. Si necesita más, contáctenos para soluciones personalizadas.'
+    q: '¿Qué pasa si necesito más almacenamiento para grabaciones?',
+    a: '*Pro* incluye **2 TB** de almacenamiento compartido por usuario. *Business* ofrece **5 TB**. ¿Necesitas más? **Contáctanos** para opciones personalizadas.'
   },
   {
     q: '¿Cómo garantiza InterMind la privacidad y seguridad de los datos?',
-    a: 'InterMind está diseñado pensando en la privacidad. Ofrecemos procesamiento basado en región, configuración privada por defecto y cumplimiento con los estándares GDPR, CCPA y UAE PDPL.'
+    a: 'InterMind es **privado por diseño**. Todos los datos se procesan y almacenan en tu región seleccionada — *UE, EE. UU. o Asia*. Cumplimos con **GDPR, CCPA y UAE PDPL**, y **nunca usamos tu contenido** para entrenamiento o acceso de terceros.'
   },
   {
     q: '¿Puedo probar InterMind antes de comprar un plan?',
-    a: 'Sí, puede comenzar con el plan Basic gratuito para experimentar las funciones antes de actualizar a los planes Pro o Business.'
+    a: 'Absolutamente. El plan *Free Basic* te da acceso completo a las funciones principales — incluyendo **reuniones multilingües**, **subtítulos** y un **asistente de IA**. Sin tarjeta de crédito, **sin límite de tiempo**. Actualiza cuando quieras.'
   },
   {
     q: '¿Qué pasa si necesito ayuda o soporte?',
-    a: 'Ofrecemos soporte a través de nuestro centro de ayuda, correo electrónico y chat en vivo. Para usuarios del plan Business, hay soporte dedicado disponible.'
+    a: 'El soporte está disponible a través de nuestro **centro de ayuda**, **correo electrónico** y **chat en vivo**. Los usuarios de *Business* obtienen **soporte prioritario** con un contacto dedicado.'
   },
   {
     q: '¿Puedo cancelar mi suscripción en cualquier momento?',
-    a: 'Sí, puede cancelar su suscripción en cualquier momento. Para planes mensuales, la cancelación tiene efecto al final del ciclo de facturación actual. Los planes anuales se pueden cancelar con un reembolso prorrateado.'
+    a: 'Sí. Los *planes mensuales* se cancelan al final del ciclo de facturación. Los *planes anuales* se pueden cancelar con un **reembolso prorrateado**.'
   },
   {
     q: '¿Cómo actualizo o bajo de categoría mi plan?',
-    a: 'Puede actualizar o bajar de categoría su plan en cualquier momento a través de la configuración de su cuenta. Los cambios tendrán efecto inmediatamente.'
+    a: 'Puedes cambiar tu plan en cualquier momento a través de tu **configuración de cuenta**. Los cambios surten efecto **inmediatamente**.'
   },
   {
     q: '¿Qué idiomas admite InterMind para la interpretación de voz?',
-    a: 'InterMind admite una amplia gama de idiomas para la interpretación de voz en tiempo real. La lista se expande continuamente, así que consulte nuestro sitio web para las últimas actualizaciones.'
+    a: 'Admitimos **más de 100 idiomas** con interpretación de voz en tiempo real. La lista sigue creciendo — consulta nuestro sitio web para actualizaciones.'
+  },
+  {
+    q: '¿Puedo usar InterMind para webinars o eventos grandes?',
+    a: 'Sí. Los planes *Pro* y *Business* son ideales para **reuniones grandes y webinars** — con soporte para hasta **500 participantes** en *Business*.'
   }
-]" />
+]
+"/>
 
 <span id="Testimonials"></span>
 

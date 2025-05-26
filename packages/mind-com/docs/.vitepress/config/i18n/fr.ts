@@ -92,7 +92,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Qu'est-ce qu'InterMIND ?", link: "what-is-intermind" },
         { text: "Comment ça marche", link: "how-it-works" },
         { text: "Confidentialité des données régionales", link: "privacy-architecture" },
-        { text: "Cas d'utilisation", link: "use-cases" },
+        { text: "Marchés prioritaires", link: "markets" },
       ],
     },
   ]

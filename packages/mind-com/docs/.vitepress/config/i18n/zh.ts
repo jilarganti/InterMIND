@@ -92,7 +92,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "什么是InterMIND？", link: "what-is-intermind" },
         { text: "工作原理", link: "how-it-works" },
         { text: "区域数据隐私", link: "privacy-architecture" },
-        { text: "使用场景", link: "use-cases" },
+        { text: "重点市场", link: "markets" },
       ],
     },
   ]

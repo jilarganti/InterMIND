@@ -90,9 +90,9 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "¿Qué es InterMIND?", link: "what-is-intermind" },
-        { text: "Cómo funciona", link: "how-it-works" },
-        { text: "Privacidad de datos regional", link: "privacy-architecture" },
-        { text: "Casos de uso", link: "use-cases" },
+        { text: "Cómo Funciona", link: "how-it-works" },
+        { text: "Privacidad de Datos Regional", link: "privacy-architecture" },
+        { text: "Mercados Prioritarios", link: "markets" },
       ],
     },
   ]

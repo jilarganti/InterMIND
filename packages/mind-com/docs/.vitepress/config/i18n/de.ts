@@ -67,10 +67,10 @@ export const de = defineConfig({
       categoryPlaceholder: "Servicetyp auswählen",
       message: "Lassen Sie uns Ihre Ziele besprechen (optional)",
       messagePlaceholder: "Bitte geben Sie zusätzliche Details an (optional)",
-      submit: "Anfrage absenden",
+      submit: "Anfrage senden",
       sending: "Wird gesendet...",
       successTitle: "Vielen Dank!",
-      successMessage: "Wir schätzen Ihr Interesse sehr! Unser Team wird Sie in Kürze kontaktieren, um Ihre Anforderungen zu besprechen.",
+      successMessage: "Wir schätzen Ihr Interesse sehr! Unser Team wird Sie in Kürze kontaktieren, um Ihre Bedürfnisse zu besprechen.",
       defaultCategories: [
         "Ich interessiere mich für Echtzeit-Sprachdolmetschen",
         "Ich interessiere mich für den KI-Meeting-Assistenten",
@@ -92,7 +92,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Was ist InterMIND?", link: "what-is-intermind" },
         { text: "Wie es funktioniert", link: "how-it-works" },
         { text: "Regionaler Datenschutz", link: "privacy-architecture" },
-        { text: "Anwendungsfälle", link: "use-cases" },
+        { text: "Prioritätsmärkte", link: "markets" },
       ],
     },
   ]

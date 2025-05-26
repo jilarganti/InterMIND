@@ -66,7 +66,7 @@ export const ru = defineConfig({
       category: "Пожалуйста, расскажите, чем мы можем помочь *",
       categoryPlaceholder: "выберите тип услуги",
       message: "Обсудим ваши цели (необязательно)",
-      messagePlaceholder: "Пожалуйста, предоставьте дополнительные детали (необязательно)",
+      messagePlaceholder: "Пожалуйста, укажите дополнительные детали (необязательно)",
       submit: "Отправить запрос",
       sending: "Отправка...",
       successTitle: "Спасибо!",
@@ -92,7 +92,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Что такое InterMIND?", link: "what-is-intermind" },
         { text: "Как это работает", link: "how-it-works" },
         { text: "Региональная защита данных", link: "privacy-architecture" },
-        { text: "Варианты использования", link: "use-cases" },
+        { text: "Приоритетные рынки", link: "markets" },
       ],
     },
   ]
