@@ -61,7 +61,7 @@ text="Nueva generación de videollamadas. Traducción de voz con IA — evolucio
     details: 'InterMind es una **plataforma de reuniones por video de nivel profesional**, no un complemento o plugin ligero.',
     items: [
       '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, chat entre participantes, integración con calendario y traducción de voz con subtítulos — todo integrado, listo para usar.',
-      '✧ **Gratis Para Siempre** — sin tarjeta de crédito, sin límite de tiempo.',
+      '✧ **Gratis para Siempre** — sin tarjeta de crédito, sin límite de tiempo.',
     ],
     link: '/product/how-it-works',
     src: {
@@ -103,7 +103,7 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
     price: '**Gratis para siempre**',
     details: 'No es un juguete. Solo una puerta.',
     items: [
-      'Reuniones por video de 100 participantes [💬](#2)',
+      'Reuniones de video de 100 participantes [💬](#2)',
       '30GB de almacenamiento compartido por usuario',
       'Traducción de voz con subtítulos [💬](#2)',
       'Asistente de reuniones con IA para notas y resúmenes [💬](#3)',
@@ -114,7 +114,7 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
     price: '**$20** /mes/usuario, facturado anualmente',
     details: 'o $25 facturado mensualmente',
     items: [
-      'Reuniones por video de 150 participantes [💬](#2)',
+      'Reuniones de video de 150 participantes [💬](#2)',
       '2TB de almacenamiento compartido por usuario',
       'Traducción de voz con subtítulos [💬](#2) + **Interpretación bidireccional voz a voz** [💬](#1)',
       'Asistente de IA que **convierte las conversaciones en acciones** (con tareas, destacados y transcripciones) [💬](#3)',
@@ -123,9 +123,9 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
   {
     title: '**Empresarial** 1-250 usuarios',
     price: '**Precio personalizado**',
-    details: 'Diseñado para escala, privacidad y cumplimiento',
+    details: 'Diseñado para privacidad y cumplimiento',
     items: [
-      'Reuniones por video de 500 participantes[💬](#2)',
+      'Reuniones de video de 500 participantes[💬](#2)',
       '5TB de almacenamiento compartido por usuario',
       'Traducción de voz con subtítulos [💬](#2) + **Interpretación bidireccional voz a voz** [💬](#1)',
       '**Colega IA**. Parece humano. Suena natural. Más inteligente que tú.',
@@ -134,7 +134,7 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
     ],
   }
 ]">
-<AuthButton text="Pruébalo gratis — sin tarjeta de crédito" buttonClass="alt"/>
+<AuthButton text="Pruébalo gratis" buttonClass="alt"/>
 <AuthButton text="Comprar ahora" buttonClass="brand"/>
 <ContactFormModalNav buttonText="Habla con nuestro equipo" buttonClass="alt"/>
 </PricingPlans>
@@ -147,7 +147,7 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
 [
   {
     q: '¿Qué es un usuario con licencia y qué es un participante?',
-    a: 'Un *usuario con licencia* tiene una licencia gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **gratuitamente**.'
+    a: 'Un *usuario con licencia* tiene una licencia gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son los invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **gratuitamente**.'
   },
   {
     q: '¿Cuántos participantes pueden unirse a una reunión?',
@@ -174,7 +174,7 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
     a: 'No. Puedes organizar **reuniones ilimitadas** — incluso en el plan *Free Basic*. Los planes *Pro* y *Business* ofrecen más potencia, participantes y control.'
   },
   {
-    q: '¿Qué pasa si necesito más almacenamiento para grabaciones?',
+    q: '¿Qué sucede si necesito más almacenamiento para grabaciones?',
     a: '*Pro* incluye **2 TB** de almacenamiento compartido por usuario. *Business* ofrece **5 TB**. ¿Necesitas más? **Contáctanos** para opciones personalizadas.'
   },
   {
@@ -195,7 +195,7 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
   },
   {
     q: '¿Cómo actualizo o bajo de categoría mi plan?',
-    a: 'Puedes cambiar tu plan en cualquier momento a través de tu **configuración de cuenta**. Los cambios surten efecto **inmediatamente**.'
+    a: 'Puedes cambiar tu plan en cualquier momento a través de la **configuración de tu cuenta**. Los cambios surten efecto **inmediatamente**.'
   },
   {
     q: '¿Qué idiomas admite InterMind para la interpretación de voz?',

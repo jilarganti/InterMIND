@@ -128,7 +128,7 @@ Choose the plan that speaks your language. From subtitles to full voice interpre
       '500 participant video meetings[💬](#2)',
       '5TB pooled storage per user',
       'Voice translation with subtitles [💬](#2) + **Two-way voice-to-voice interpretation** [💬](#1)',
-      '**AI colleague**. Looks human. Sounds natural. Smarter than you.',
+      '**AI colleague**. Looks human. Sounds natural. Smarter than you 👽.',
       'GDPR, CCPA, PDPL-ready architecture',
       '**Region-based privacy routing** (EU / US / Asia) [💬](#4)',
     ],

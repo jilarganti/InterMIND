@@ -12,7 +12,7 @@ isHome: true
 
 <HeroSection
 title="Communiquez dans **Toutes** les Langues"
-text="Nouvelle génération d'appels vidéo. Traduction vocale IA — évoluée en interprétation en temps réel.">
+text="Nouvelle génération d'appels vidéo. Traduction vocale par IA — évoluée en interprétation en temps réel.">
 
 <AuthButton text="Écoutez la différence" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Demander une Démo"/>
@@ -20,7 +20,7 @@ text="Nouvelle génération d'appels vidéo. Traduction vocale IA — évoluée 
 </HeroSection>
 
 > **Pour qui est-ce ?**  
-> Pour les équipes internationales où les barrières linguistiques entraînent des pertes de contrats, des retards ou des malentendus. Les marchés prioritaires incluent les pôles de fabrication mondiaux, les partenaires industriels américains, l'Asie high-tech, l'UE multilingue, la région MENA et l'Amérique latine. En savoir plus dans notre section [Markets](/product/markets).
+> Pour les équipes internationales où les barrières linguistiques entraînent des pertes de contrats, des retards ou des malentendus. Les marchés prioritaires incluent les pôles mondiaux de fabrication, les partenaires industriels américains, l'Asie high-tech, l'UE multilingue, la région MENA et l'Amérique latine. En savoir plus dans notre section [Markets](/product/markets).
 
 <span id="1"></span>
 <FeatureBlock :card="{
@@ -112,31 +112,31 @@ Choisissez le forfait qui parle votre langue. Des sous-titres à l'interprétati
   {
     title: '**Pro** 1-99 utilisateurs',
     price: '**20€** /mois/utilisateur, facturation annuelle',
-    details: 'ou 25€ facturé mensuellement',
+    details: 'ou 25€ facturation mensuelle',
     items: [
       'Réunions vidéo jusqu\'à 150 participants [💬](#2)',
       '2 To de stockage mutualisé par utilisateur',
       'Traduction vocale avec sous-titres [💬](#2) + **Interprétation vocale bidirectionnelle** [💬](#1)',
-      'Assistant IA qui **transforme les discussions en actions** (avec tâches, points clés et transcriptions) [💬](#3)',
+      'Assistant IA qui **transforme les paroles en actions** (avec tâches, points clés et transcriptions) [💬](#3)',
     ],
   },
   {
     title: '**Business** 1-250 utilisateurs',
     price: '**Prix personnalisé**',
-    details: 'Conçu pour l\'évolutivité, la confidentialité et la conformité',
+    details: 'Conçu pour la confidentialité et la conformité',
     items: [
-      'Réunions vidéo jusqu\'à 500 participants[💬](#2)',
+      'Réunions vidéo jusqu\'à 500 participants [💬](#2)',
       '5 To de stockage mutualisé par utilisateur',
       'Traduction vocale avec sous-titres [💬](#2) + **Interprétation vocale bidirectionnelle** [💬](#1)',
       '**Collègue IA**. Apparence humaine. Voix naturelle. Plus intelligent que vous.',
       'Architecture conforme GDPR, CCPA, PDPL',
-      '**Routage de confidentialité par région** (UE / États-Unis / Asie) [💬](#4)',
+      '**Routage privé par région** (UE / États-Unis / Asie) [💬](#4)',
     ],
   }
 ]">
-<AuthButton text="Essayez gratuitement — sans carte bancaire" buttonClass="alt"/>
+<AuthButton text="Essayer gratuitement" buttonClass="alt"/>
 <AuthButton text="Acheter maintenant" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Parlez à notre équipe" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Parler à notre équipe" buttonClass="alt"/>
 </PricingPlans>
 
 <span id="FAQ"></span>
