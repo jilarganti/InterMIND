@@ -123,7 +123,7 @@ Choose the plan that speaks your language. From subtitles to full voice interpre
   {
     title: '**Business** 1-250 users',
     price: '**Custom pricing**',
-    details: 'Built for scale, privacy & compliance',
+    details: 'Built for privacy & compliance',
     items: [
       '500 participant video meetings[💬](#2)',
       '5TB pooled storage per user',
@@ -134,7 +134,7 @@ Choose the plan that speaks your language. From subtitles to full voice interpre
     ],
   }
 ]">
-<AuthButton text="Try it free — no credit card" buttonClass="alt"/>
+<AuthButton text="Try it free" buttonClass="alt"/>
 <AuthButton text="Buy now" buttonClass="brand"/>
 <ContactFormModalNav buttonText="Talk to our team" buttonClass="alt"/>
 </PricingPlans>
