@@ -20,7 +20,7 @@ text="Neue Generation von Videoanrufen. KI-Sprachübersetzung — weiterentwicke
 </HeroSection>
 
 > **Für wen ist das?**  
-> Für internationale Teams, bei denen Sprachbarrieren zu verlorenen Geschäften, Verzögerungen oder Missverständnissen führen. Zu den Schwerpunktmärkten gehören globale Produktionsstandorte, US-Industriepartner, Hightech-Asien, mehrsprachige EU, MENA und Lateinamerika. Erfahren Sie mehr in unserem [Markets](/product/markets) Bereich.
+> Für internationale Teams, bei denen Sprachbarrieren zu verlorenen Geschäften, Verzögerungen oder Missverständnissen führen. Zu den Schwerpunktmärkten gehören globale Produktionsstandorte, US-Industriepartner, Hightech-Asien, mehrsprachige EU, MENA und Lateinamerika. Erfahren Sie mehr in unserem Abschnitt [Markets](./product/markets).
 
 <span id="1"></span>
 <FeatureBlock :card="{
@@ -38,7 +38,7 @@ text="Neue Generation von Videoanrufen. KI-Sprachübersetzung — weiterentwicke
   inversion: false
 }" />
 
-<span id="3"></span>
+<span id="2"></span>
 <FeatureBlock :card="{
     title: 'Der Verstand in Ihren Meetings',
     details: 'InterMind verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
@@ -55,12 +55,12 @@ text="Neue Generation von Videoanrufen. KI-Sprachübersetzung — weiterentwicke
     inversion: true
   }" />
 
-<span id="2"></span>
+<span id="3"></span>
 <FeatureBlock :card="{
     title: 'Entwickelt für professionelle Meetings — nicht nur zum Plaudern',
     details: 'InterMind ist eine **professionelle Videomeeting-Plattform**, kein einfaches Add-on oder Plugin.',
     items: [
-      '✧ 1080p Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufnahme, Teilnehmer-Chat, Kalenderintegration und Sprachübersetzung mit Untertiteln — alles integriert, sofort einsatzbereit.',
+      '✧ 1080p Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufnahme, Teilnehmer-Chat, Kalenderintegration und Übersetzung — alles integriert und sofort einsatzbereit.',
       '✧ **Für immer kostenlos** — keine Kreditkarte, keine Zeitbegrenzung.',
     ],
     link: '/product/how-it-works',
@@ -79,7 +79,7 @@ text="Neue Generation von Videoanrufen. KI-Sprachübersetzung — weiterentwicke
       'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Privatsphäre und Kontrolle am wichtigsten sind.',
     items: [
       '⚡︎ [Regionsbasierter Datenschutz](/product/privacy-architecture) — EU, USA, SO-Asien',
-      '✧ Konform mit: DSGVO, CCPA, UAE PDPL',
+      '✧ Konform mit: GDPR, CCPA, UAE PDPL',
       '✧ **Kein Datentraining**. Kein Zugriff durch Dritte.'
     ],
     link: '/product/privacy-architecture',
@@ -100,13 +100,13 @@ Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollstä
 <PricingPlans :plans="[
   {
     title: '**Basic** 1 Benutzer',
-    price: '**Kostenlos für immer**',
-    details: 'Kein Spielzeug. Nur eine Tür.',
+    price: '**Kostenlos**',
+    details: '25 kostenlose Meetings',
     items: [
-      '100 Teilnehmer Videomeetings [💬](#2)',
+      '100 Teilnehmer Videomeetings [💬](#3)',
       '30GB gemeinsamer Speicher pro Benutzer',
-      'Sprachübersetzung mit Untertiteln [💬](#2)',
-      'KI-Meeting-Assistent für Notizen & Zusammenfassungen [💬](#3)',
+      '**Simultane Sprachübersetzung** [💬](#1)',
+      'KI-Meeting-Assistent für Notizen & Zusammenfassungen [💬](#2)',
     ],
   },
   {
@@ -114,22 +114,21 @@ Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollstä
     price: '**20€** /Monat/Benutzer, jährlich abgerechnet',
     details: 'oder 25€ monatlich abgerechnet',
     items: [
-      '150 Teilnehmer Videomeetings [💬](#2)',
+      '150 Teilnehmer Videomeetings [💬](#3)',
       '2TB gemeinsamer Speicher pro Benutzer',
-      'Sprachübersetzung mit Untertiteln [💬](#2) + **Zweiwege-Sprache-zu-Sprache-Dolmetschung** [💬](#1)',
-      'KI-Assistent, der **Gespräche in Aktionen umwandelt** (mit Aufgaben, Highlights & Transkripten) [💬](#3)',
+      '**Simultane Sprachübersetzung** [💬](#1)',
+      'KI-Meeting-Assistent für Notizen & Zusammenfassungen [💬](#2)',
     ],
   },
   {
     title: '**Business** 1-250 Benutzer',
-    price: '**Individuelle Preisgestaltung**',
+    price: '**Individueller Preis**',
     details: 'Entwickelt für Datenschutz & Compliance',
     items: [
-      '500 Teilnehmer Videomeetings[💬](#2)',
+      '500 Teilnehmer Videomeetings [💬](#3)',
       '5TB gemeinsamer Speicher pro Benutzer',
-      'Sprachübersetzung mit Untertiteln [💬](#2) + **Zweiwege-Sprache-zu-Sprache-Dolmetschung** [💬](#1)',
-      '**KI-Kollege**. Sieht menschlich aus. Klingt natürlich. Intelligenter als Sie.',
-      'GDPR, CCPA, PDPL-konforme Architektur',
+      '**Simultane Sprachübersetzung** [💬](#1)',
+      '**KI-Kollege**. Sieht menschlich aus. Klingt natürlich. Schlauer als Sie 👽.',
       '**Regionsbasiertes Privacy-Routing** (EU / US / Asien) [💬](#4)',
     ],
   }
@@ -147,19 +146,19 @@ Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollstä
 [
   {
     q: 'Was ist ein lizenzierter Benutzer und was ist ein Teilnehmer?',
-    a: 'Ein *lizenzierter Benutzer* hat eine kostenlose oder bezahlte Meeting-Lizenz und kann Meetings innerhalb der Grenzen seines Plans planen. *Teilnehmer* sind Eingeladene — sie **benötigen kein Konto oder Lizenz** zur Teilnahme und können sich von jedem Gerät aus **kostenlos** verbinden.'
+    a: 'Ein *lizenzierter Benutzer* hat eine kostenlose oder kostenpflichtige Meeting-Lizenz und kann Meetings innerhalb der Grenzen seines Plans planen. *Teilnehmer* sind Eingeladene — sie **benötigen kein Konto oder Lizenz** zum Beitreten und können sich von jedem Gerät aus **kostenlos** verbinden.'
   },
   {
-    q: 'Wie viele Teilnehmer können an einem Meeting teilnehmen?',
+    q: 'Wie viele Teilnehmer können einem Meeting beitreten?',
     a: 'Das hängt von Ihrem Plan ab: *Basic* unterstützt bis zu **100 Teilnehmer**, *Pro* bis zu **150** und *Business* bis zu **500**.'
   },
   {
     q: 'Wie viele Personen können eine InterMind-Lizenz nutzen?',
-    a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt viele Meetings** hosten. Wenn mehrere Teammitglieder gleichzeitig Meetings hosten müssen, benötigt jeder eine eigene Lizenz.'
+    a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt viele Meetings** hosten. Wenn mehrere Teammitglieder gleichzeitig Meetings hosten müssen, benötigt jeder seine eigene Lizenz.'
   },
   {
     q: 'Funktioniert die Sprachdolmetschung in allen Plänen?',
-    a: 'Ja, *Sprachdolmetschung* ist in allen Plänen verfügbar. Bei *Basic* funktioniert sie **nur mit Untertiteln**. *Pro* und *Business* schalten die vollständige **bidirektionale Sprache-zu-Sprache-Dolmetschung**, mehr Kapazität und erweiterte Funktionen frei.'
+    a: 'Ja, *Sprachdolmetschung* ist in allen Plänen verfügbar. Bei *Basic* funktioniert sie **nur mit Untertiteln**. *Pro* und *Business* schalten vollständige **bidirektionale Sprache-zu-Sprache-Dolmetschung**, mehr Kapazität und erweiterte Funktionen frei.'
   },
   {
     q: 'Wie lange kann ein Meeting maximal dauern?',
@@ -175,11 +174,11 @@ Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollstä
   },
   {
     q: 'Was passiert, wenn ich mehr Speicherplatz für Aufzeichnungen benötige?',
-    a: '*Pro* enthält **2 TB** gepoolten Speicher pro Benutzer. *Business* bietet **5 TB**. Benötigen Sie mehr? **Kontaktieren Sie uns** für individuelle Optionen.'
+    a: '*Pro* enthält **2 TB** gemeinsamen Speicherplatz pro Benutzer. *Business* bietet **5 TB**. Brauchen Sie mehr? **Kontaktieren Sie uns** für individuelle Optionen.'
   },
   {
     q: 'Wie gewährleistet InterMind Datenschutz und Sicherheit?',
-    a: 'InterMind ist **von Grund auf privat**. Alle Daten werden in Ihrer ausgewählten Region verarbeitet und gespeichert — *EU, USA oder Asien*. Wir erfüllen **DSGVO, CCPA und UAE PDPL** und **verwenden Ihre Inhalte nie** für Training oder Zugriff durch Dritte.'
+    a: 'InterMind ist **von Grund auf privat**. Alle Daten werden in Ihrer ausgewählten Region verarbeitet und gespeichert — *EU, USA oder Asien*. Wir erfüllen **DSGVO, CCPA und UAE PDPL** und **verwenden Ihre Inhalte niemals** für Training oder Zugriff durch Dritte.'
   },
   {
     q: 'Kann ich InterMind vor dem Kauf eines Plans testen?',
@@ -191,7 +190,7 @@ Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollstä
   },
   {
     q: 'Kann ich mein Abonnement jederzeit kündigen?',
-    a: 'Ja. *Monatspläne* enden am Ende des Abrechnungszeitraums. *Jahrespläne* können gegen eine **anteilige Rückerstattung** gekündigt werden.'
+    a: 'Ja. *Monatspläne* enden zum Ende des Abrechnungszeitraums. *Jahrespläne* können gegen eine **anteilige Rückerstattung** gekündigt werden.'
   },
   {
     q: 'Wie kann ich meinen Plan upgraden oder downgraden?',
@@ -199,7 +198,7 @@ Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollstä
   },
   {
     q: 'Welche Sprachen unterstützt InterMind für die Sprachdolmetschung?',
-    a: 'Wir unterstützen **über 100 Sprachen** mit Echtzeit-Sprachdolmetschung. Die Liste wächst ständig — aktuelle Updates finden Sie auf unserer Website.'
+    a: 'Wir unterstützen **über 100 Sprachen** mit Echtzeit-Sprachdolmetschung. Die Liste wächst stetig — aktuelle Updates finden Sie auf unserer Website.'
   },
   {
     q: 'Kann ich InterMind für Webinare oder große Veranstaltungen nutzen?',

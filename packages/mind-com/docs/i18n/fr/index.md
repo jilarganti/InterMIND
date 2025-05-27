@@ -20,7 +20,7 @@ text="Nouvelle génération d'appels vidéo. Traduction vocale par IA — évolu
 </HeroSection>
 
 > **Pour qui est-ce ?**  
-> Pour les équipes internationales où les barrières linguistiques entraînent des pertes de contrats, des retards ou des malentendus. Les marchés prioritaires incluent les pôles mondiaux de fabrication, les partenaires industriels américains, l'Asie high-tech, l'UE multilingue, la région MENA et l'Amérique latine. En savoir plus dans notre section [Markets](/product/markets).
+> Pour les équipes internationales où les barrières linguistiques entraînent des pertes de contrats, des retards ou des malentendus. Les marchés prioritaires incluent les pôles mondiaux de fabrication, les partenaires industriels américains, l'Asie high-tech, l'UE multilingue, la région MENA et l'Amérique latine. En savoir plus dans notre section [Markets](./product/markets).
 
 <span id="1"></span>
 <FeatureBlock :card="{
@@ -38,7 +38,7 @@ text="Nouvelle génération d'appels vidéo. Traduction vocale par IA — évolu
   inversion: false
 }" />
 
-<span id="3"></span>
+<span id="2"></span>
 <FeatureBlock :card="{
     title: 'L\'Intelligence au Cœur de Vos Réunions',
     details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
@@ -55,12 +55,12 @@ text="Nouvelle génération d'appels vidéo. Traduction vocale par IA — évolu
     inversion: true
   }" />
 
-<span id="2"></span>
+<span id="3"></span>
 <FeatureBlock :card="{
     title: 'Conçu pour les Réunions Professionnelles — Pas Juste pour Parler',
     details: 'InterMind est une **plateforme de réunion vidéo de niveau professionnel**, pas un simple complément ou plugin.',
     items: [
-      '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, chat entre participants, intégration du calendrier et traduction vocale avec sous-titres — tout est intégré, prêt à l\'emploi.',
+      '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, chat entre participants, intégration du calendrier et traduction — tout est intégré, prêt à l\'emploi.',
       '✧ **Gratuit pour Toujours** — pas de carte de crédit, pas de limite de temps.',
     ],
     link: '/product/how-it-works',
@@ -95,29 +95,29 @@ text="Nouvelle génération d'appels vidéo. Traduction vocale par IA — évolu
 
 ## Prix Clairs et Simples
 
-Choisissez le forfait qui parle votre langue. Des sous-titres à l'interprétation vocale complète — évoluez au rythme de votre équipe.
+Choisissez le forfait qui vous correspond. Des sous-titres à l'interprétation vocale complète — évoluez au rythme de votre équipe.
 
 <PricingPlans :plans="[
   {
     title: '**Basic** 1 utilisateur',
-    price: '**Gratuit à vie**',
-    details: 'Pas un jouet. Juste une porte d\'entrée.',
+    price: '**Gratuit**',
+    details: '25 réunions gratuites',
     items: [
-      'Réunions vidéo jusqu\'à 100 participants [💬](#2)',
+      'Réunions vidéo jusqu'à 100 participants [💬](#3)',
       '30 Go de stockage mutualisé par utilisateur',
-      'Traduction vocale avec sous-titres [💬](#2)',
-      'Assistant IA pour les notes et résumés [💬](#3)',
+      '**Traduction vocale simultanée** [💬](#1)',
+      'Assistant IA pour les notes et résumés [💬](#2)',
     ],
   },
   {
     title: '**Pro** 1-99 utilisateurs',
     price: '**20€** /mois/utilisateur, facturation annuelle',
-    details: 'ou 25€ facturation mensuelle',
+    details: 'ou 25€ par mois',
     items: [
-      'Réunions vidéo jusqu\'à 150 participants [💬](#2)',
+      'Réunions vidéo jusqu'à 150 participants [💬](#3)',
       '2 To de stockage mutualisé par utilisateur',
-      'Traduction vocale avec sous-titres [💬](#2) + **Interprétation vocale bidirectionnelle** [💬](#1)',
-      'Assistant IA qui **transforme les paroles en actions** (avec tâches, points clés et transcriptions) [💬](#3)',
+      '**Traduction vocale simultanée** [💬](#1)',
+      'Assistant IA pour les notes et résumés [💬](#2)',
     ],
   },
   {
@@ -125,11 +125,10 @@ Choisissez le forfait qui parle votre langue. Des sous-titres à l'interprétati
     price: '**Prix personnalisé**',
     details: 'Conçu pour la confidentialité et la conformité',
     items: [
-      'Réunions vidéo jusqu\'à 500 participants [💬](#2)',
+      'Réunions vidéo jusqu'à 500 participants [💬](#3)',
       '5 To de stockage mutualisé par utilisateur',
-      'Traduction vocale avec sous-titres [💬](#2) + **Interprétation vocale bidirectionnelle** [💬](#1)',
-      '**Collègue IA**. Apparence humaine. Voix naturelle. Plus intelligent que vous.',
-      'Architecture conforme GDPR, CCPA, PDPL',
+      '**Traduction vocale simultanée** [💬](#1)',
+      '**Collègue IA**. Apparence humaine. Voix naturelle. Plus intelligent que vous 👽.',
       '**Routage privé par région** (UE / États-Unis / Asie) [💬](#4)',
     ],
   }
@@ -171,7 +170,7 @@ Choisissez le forfait qui parle votre langue. Des sous-titres à l'interprétati
   },
   {
     q: 'Y a-t-il une limite au nombre de réunions que je peux organiser ?',
-    a: 'Non. Vous pouvez organiser des **réunions illimitées** — même avec le forfait *Basic gratuit*. Les forfaits *Pro* et *Business* offrent plus de puissance, de participants et de contrôle.'
+    a: 'Non. Vous pouvez organiser des **réunions illimitées** — même avec le forfait *Free Basic*. Les forfaits *Pro* et *Business* offrent plus de puissance, de participants et de contrôle.'
   },
   {
     q: 'Que faire si j\'ai besoin de plus de stockage pour les enregistrements ?',
@@ -183,7 +182,7 @@ Choisissez le forfait qui parle votre langue. Des sous-titres à l'interprétati
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un forfait ?',
-    a: 'Absolument. Le forfait *Basic gratuit* vous donne un accès complet aux fonctionnalités de base — y compris les **réunions multilingues**, les **sous-titres** et un **assistant IA**. Pas de carte de crédit, **pas de limite de temps**. Passez à la version supérieure à tout moment.'
+    a: 'Absolument. Le forfait *Free Basic* vous donne un accès complet aux fonctionnalités de base — y compris les **réunions multilingues**, les **sous-titres** et un **assistant IA**. Pas de carte de crédit, **pas de limite de temps**. Passez à la version supérieure à tout moment.'
   },
   {
     q: 'Que faire si j\'ai besoin d\'aide ou de support ?',

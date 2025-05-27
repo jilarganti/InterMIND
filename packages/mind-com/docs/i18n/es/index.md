@@ -20,7 +20,7 @@ text="Nueva generación de videollamadas. Traducción de voz con IA — evolucio
 </HeroSection>
 
 > **¿Para quién es esto?**  
-> Para equipos internacionales donde las barreras lingüísticas provocan pérdida de negocios, retrasos o malentendidos. Los Mercados Prioritarios incluyen centros de fabricación global, socios industriales de EE.UU., alta tecnología en Asia, UE multilingüe, MENA y América Latina. Aprende más en nuestra sección de [Markets](/product/markets).
+> Para equipos internacionales donde las barreras lingüísticas provocan pérdida de negocios, retrasos o malentendidos. Los Mercados Prioritarios incluyen centros de fabricación global, socios industriales de EE.UU., alta tecnología en Asia, UE multilingüe, MENA y América Latina. Aprende más en nuestra sección de [Markets](./product/markets).
 
 <span id="1"></span>
 <FeatureBlock :card="{
@@ -38,7 +38,7 @@ text="Nueva generación de videollamadas. Traducción de voz con IA — evolucio
   inversion: false
 }" />
 
-<span id="3"></span>
+<span id="2"></span>
 <FeatureBlock :card="{
     title: 'La Mente Dentro de Tus Reuniones',
     details: 'InterMind convierte cada llamada multilingüe en conocimiento claro y consultable.',
@@ -55,13 +55,13 @@ text="Nueva generación de videollamadas. Traducción de voz con IA — evolucio
     inversion: true
   }" />
 
-<span id="2"></span>
+<span id="3"></span>
 <FeatureBlock :card="{
     title: 'Diseñado para Reuniones Serias — No Solo para Charlar',
     details: 'InterMind es una **plataforma de reuniones por video de nivel profesional**, no un complemento o plugin ligero.',
     items: [
-      '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, chat entre participantes, integración con calendario y traducción de voz con subtítulos — todo integrado, listo para usar.',
-      '✧ **Gratis para Siempre** — sin tarjeta de crédito, sin límite de tiempo.',
+      '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, chat entre participantes, integración con calendario y traducción — todo incluido, listo para usar.',
+      '✧ **Gratis Para Siempre** — sin tarjeta de crédito, sin límite de tiempo.',
     ],
     link: '/product/how-it-works',
     src: {
@@ -100,13 +100,13 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
 <PricingPlans :plans="[
   {
     title: '**Básico** 1 usuario',
-    price: '**Gratis para siempre**',
-    details: 'No es un juguete. Solo una puerta.',
+    price: '**Gratis**',
+    details: '25 reuniones gratuitas',
     items: [
-      'Reuniones de video de 100 participantes [💬](#2)',
+      'Reuniones de video de 100 participantes [💬](#3)',
       '30GB de almacenamiento compartido por usuario',
-      'Traducción de voz con subtítulos [💬](#2)',
-      'Asistente de reuniones con IA para notas y resúmenes [💬](#3)',
+      '**Traducción de voz simultánea** [💬](#1)',
+      'Asistente de reuniones con IA para notas y resúmenes [💬](#2)',
     ],
   },
   {
@@ -114,10 +114,10 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
     price: '**$20** /mes/usuario, facturado anualmente',
     details: 'o $25 facturado mensualmente',
     items: [
-      'Reuniones de video de 150 participantes [💬](#2)',
+      'Reuniones de video de 150 participantes [💬](#3)',
       '2TB de almacenamiento compartido por usuario',
-      'Traducción de voz con subtítulos [💬](#2) + **Interpretación bidireccional voz a voz** [💬](#1)',
-      'Asistente de IA que **convierte las conversaciones en acciones** (con tareas, destacados y transcripciones) [💬](#3)',
+      '**Traducción de voz simultánea** [💬](#1)',
+      'Asistente de reuniones con IA para notas y resúmenes [💬](#2)',
     ],
   },
   {
@@ -125,16 +125,15 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
     price: '**Precio personalizado**',
     details: 'Diseñado para privacidad y cumplimiento',
     items: [
-      'Reuniones de video de 500 participantes[💬](#2)',
+      'Reuniones de video de 500 participantes [💬](#3)',
       '5TB de almacenamiento compartido por usuario',
-      'Traducción de voz con subtítulos [💬](#2) + **Interpretación bidireccional voz a voz** [💬](#1)',
-      '**Colega IA**. Parece humano. Suena natural. Más inteligente que tú.',
-      'Arquitectura compatible con GDPR, CCPA, PDPL',
+      '**Traducción de voz simultánea** [💬](#1)',
+      '**Colega IA**. Parece humano. Suena natural. Más inteligente que tú 👽.',
       '**Enrutamiento de privacidad por región** (UE / EE.UU. / Asia) [💬](#4)',
     ],
   }
 ]">
-<AuthButton text="Pruébalo gratis" buttonClass="alt"/>
+<AuthButton text="Prueba gratis" buttonClass="alt"/>
 <AuthButton text="Comprar ahora" buttonClass="brand"/>
 <ContactFormModalNav buttonText="Habla con nuestro equipo" buttonClass="alt"/>
 </PricingPlans>
@@ -174,7 +173,7 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
     a: 'No. Puedes organizar **reuniones ilimitadas** — incluso en el plan *Free Basic*. Los planes *Pro* y *Business* ofrecen más potencia, participantes y control.'
   },
   {
-    q: '¿Qué sucede si necesito más almacenamiento para grabaciones?',
+    q: '¿Qué pasa si necesito más almacenamiento para grabaciones?',
     a: '*Pro* incluye **2 TB** de almacenamiento compartido por usuario. *Business* ofrece **5 TB**. ¿Necesitas más? **Contáctanos** para opciones personalizadas.'
   },
   {
