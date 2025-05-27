@@ -137,6 +137,12 @@ From first call to fluent conversations — at any scale.
 <ContactFormModalNav buttonText="Talk to our team" buttonClass="alt"/>
 </PricingPlans>
 
+<span id="Testimonials"></span>
+
+## What Customers Are Saying
+
+<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
+
 <span id="FAQ"></span>
 
 ## Frequently Asked Questions
@@ -152,20 +158,12 @@ From first call to fluent conversations — at any scale.
     a: 'Each *licensed user* can host **unlimited meetings**. If multiple team members need to host meetings simultaneously, each will need their own license.'
   },
   {
-    q: 'What features are available across different plans?',
-    a: 'All plans include core **meeting features** (recording, screen sharing, etc.) and **AI translation capabilities** with **simultaneous interpretation** in 100+ languages. The *Business* plan adds enhanced **privacy features** with region-based routing and the **AI colleague** that looks and sounds human (alpha version).'
-  },
-  {
     q: 'What is the maximum duration of a meeting?',
     a: 'Meetings can run up to **24 hours** on all plans.'
   },
   {
     q: 'Is there a limit on the number of meetings I can host?',
     a: 'The *Free Basic* plan includes **25 free meetings**. *Pro* and *Business* plans offer unlimited meetings with more participants and control.'
-  },
-  {
-    q: 'What if I need more storage for recordings?',
-    a: '*Basic* includes **30 GB** of pooled storage per user. *Pro* includes **2 TB** and *Business* offers **5 TB**. Need more? **Contact us** for custom options.'
   },
   {
     q: 'How does InterMind ensure data privacy and security?',
@@ -193,9 +191,3 @@ From first call to fluent conversations — at any scale.
   }
 ]
 "/>
-
-<span id="Testimonials"></span>
-
-## What Customers Are Saying
-
-<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>

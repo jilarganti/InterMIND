@@ -95,7 +95,7 @@ onUnmounted(() => pause())
 <style scoped>
 .testimonial-wrapper {
   overflow-y: hidden;
-  margin-top: 32px;
+  margin: 3rem 0;
   border-radius: 16px;
   position: relative;
   scrollbar-width: none;
