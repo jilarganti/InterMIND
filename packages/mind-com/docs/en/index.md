@@ -20,7 +20,7 @@ text="New generation of video calls. AI voice translation — evolved into real-
 </HeroSection>
 
 > **Who is this for?**  
-> For international teams where language barriers lead to lost deals, delays, or miscommunication. Priority Markets include global manufacturing hubs, US industrial partners, high-tech Asia, multilingual EU, MENA, and Latin America. Learn more in our [Markets](/product/markets) section.
+> For international teams where language barriers lead to lost deals, delays, or miscommunication. Priority Markets include global manufacturing hubs, US industrial partners, high-tech Asia, multilingual EU, MENA, and Latin America. Learn more in our [Markets](./product/markets) section.
 
 <span id="1"></span>
 <FeatureBlock :card="{
