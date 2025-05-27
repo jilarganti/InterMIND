@@ -12,7 +12,7 @@ export const en = defineConfig({
       {
         text: "Product",
         activeMatch: `${BASE_PATH}/product/`,
-        link: `${BASE_PATH}/product/what-is-intermind`,
+        link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
       {
         text: "Company",
@@ -83,24 +83,19 @@ export const en = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Introduction",
+      text: "Overview",
       collapsed: false,
       items: [
-        { text: "What is InterMIND?", link: "what-is-intermind" },
-        { text: "How it Works", link: "how-it-works" },
-        { text: "Regional Data Privacy", link: "privacy-architecture" },
-        { text: "Priority Markets", link: "markets" },
+        { text: "What is InterMIND?", link: "overview/what-is-intermind" },
+        { text: "How it Works", link: "overview/how-it-works" },
+        { text: "Regional Data Privacy", link: "overview/privacy-architecture" },
+        { text: "Priority Markets", link: "overview/markets" },
       ],
     },
     {
       text: "Guide",
       collapsed: false,
-      items: [
-        { text: "What is InterMIND?", link: "what-is-intermind" },
-        { text: "How it Works", link: "how-it-works" },
-        { text: "Regional Data Privacy", link: "privacy-architecture" },
-        { text: "Priority Markets", link: "markets" },
-      ],
+      items: [{ text: "Getting Started", link: "guide/getting-started" }],
     },
   ]
 }
