@@ -77,7 +77,7 @@ text="Speak your native language. Hear everyone else — as if they spoke it too
     details:
       'InterMind is built for trust-critical conversations — where privacy and control matter most.',
     items: [
-      '⚡︎ [Region-based privacy](/product/privacy-architecture) — EU, US, SE Asia',
+      '⚡︎ [Region-based privacy routing](/product/privacy-architecture) — EU, US, SE Asia',
       '✧ **Zero data training**. No third-party access.'
     ],
     link: '/product/privacy-architecture',
@@ -93,7 +93,7 @@ text="Speak your native language. Hear everyone else — as if they spoke it too
 
 ## Clear and Simple Pricing
 
-Choose the plan that speaks your language. From subtitles to full voice interpretation — grow as your team does.
+From first call to fluent conversations — at any scale.
 
 <PricingPlans :plans="[
   {
@@ -101,10 +101,10 @@ Choose the plan that speaks your language. From subtitles to full voice interpre
     price: '**Free**',
     details: '25 free meetings',
     items: [
-      '100 participant video meetings [💬](#3)',
-      '30GB pooled storage per user',
-      'AI meeting assistant for notes & summaries [💬](#2)',
-      '**Simultaneous interpretation** [💬](#1)',
+      '**100** participant video meetings [💬](#3)',
+      '**30** GB pooled storage per user',
+      'Search across all your meetings [💬](#2)',
+      'Simultaneous interpretation [💬](#1)',
     ],
   },
   {
@@ -112,10 +112,10 @@ Choose the plan that speaks your language. From subtitles to full voice interpre
     price: '**$20** /month/user, billed annually',
     details: 'or $25 billed monthly',
     items: [
-      '150 participant video meetings [💬](#3)',
-      '2TB pooled storage per user',
-      'AI meeting assistant for notes & summaries [💬](#2)',
-      '**Simultaneous interpretation** [💬](#1)',
+      '**150** participant video meetings [💬](#3)',
+      '**2** TB pooled storage per user',
+      'Search across all your meetings [💬](#2)',
+      'Simultaneous interpretation [💬](#1)',
     ],
   },
   {
@@ -123,11 +123,11 @@ Choose the plan that speaks your language. From subtitles to full voice interpre
     price: '**Custom pricing**',
     details: 'Built for privacy',
     items: [
-      '500 participant video meetings [💬](#3)',
-      '5TB pooled storage per user',
-      'AI meeting assistant for notes & summaries [💬](#2)',
-      '**Simultaneous interpretation** [💬](#1)',
-      '**Region-based privacy routing** (EU / US / Asia) [💬](#4)',
+      '**500** participant video meetings [💬](#3)',
+      '**5** TB pooled storage per user',
+      'Search across all your meetings [💬](#2)',
+      'Simultaneous interpretation [💬](#1)',
+      '**Region-based privacy routing** [💬](#4)',
       '**AI colleague**. Looks human. Sounds natural. (⍺-version)',
     ],
   }
