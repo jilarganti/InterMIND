@@ -12,7 +12,7 @@ isHome: true
 
 <HeroSection
 title="Reúnete en **Cualquier** Idioma"
-text="Nueva generación de videollamadas. Traducción de voz con IA — evolucionada a interpretación en tiempo real.">
+text="No solo traducción. Interpretación simultánea, priorizando la voz que se siente humana.">
 
 <AuthButton text="Escucha la diferencia" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Solicitar una Demo"/>
@@ -28,7 +28,7 @@ text="Nueva generación de videollamadas. Traducción de voz con IA — evolucio
   details: 'Sin importar el idioma, **tu voz es escuchada — y comprendida** — como si compartieran la misma lengua.',
     items: [
       '⚡︎ De forma natural, en [tiempo real](/product/how-it-works), y sin subtítulos ni retrasos.',
-      '✧ La interpretación potenciada por IA capta el tono, la intención y la terminología específica de la industria.',
+      '✧ La interpretación potenciada por IA captura el tono, la intención y la terminología específica de la industria.',
     ],
   link: './product/what-is-intermind',
   src: {
@@ -58,7 +58,7 @@ text="Nueva generación de videollamadas. Traducción de voz con IA — evolucio
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Diseñado para Reuniones Serias — No Solo para Charlar',
-    details: 'InterMind es una **plataforma de reuniones por video de nivel profesional**, no un complemento o plugin ligero.',
+    details: 'InterMind es una **plataforma de videollamadas de nivel profesional**, no un complemento o plugin ligero.',
     items: [
       '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, chat entre participantes, integración con calendario y traducción — todo incluido, listo para usar.',
       '✧ **Gratis Para Siempre** — sin tarjeta de crédito, sin límite de tiempo.',
@@ -80,7 +80,7 @@ text="Nueva generación de videollamadas. Traducción de voz con IA — evolucio
     items: [
       '⚡︎ [Privacidad basada en regiones](/product/privacy-architecture) — UE, EE.UU., SE Asia',
       '✧ Cumple con: GDPR, CCPA, UAE PDPL',
-      '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
+      '✧ **Cero entrenamiento con datos**. Sin acceso de terceros.'
     ],
     link: '/product/privacy-architecture',
     src: {
@@ -194,7 +194,7 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
   },
   {
     q: '¿Cómo actualizo o bajo de categoría mi plan?',
-    a: 'Puedes cambiar tu plan en cualquier momento a través de la **configuración de tu cuenta**. Los cambios surten efecto **inmediatamente**.'
+    a: 'Puedes cambiar tu plan en cualquier momento a través de tu **configuración de cuenta**. Los cambios surten efecto **inmediatamente**.'
   },
   {
     q: '¿Qué idiomas admite InterMind para la interpretación de voz?',

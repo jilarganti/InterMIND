@@ -12,7 +12,7 @@ isHome: true
 
 <HeroSection
 title="Communiquez dans **Toutes** les Langues"
-text="Nouvelle génération d'appels vidéo. Traduction vocale IA — évoluée en interprétation en temps réel.">
+text="Pas seulement de la traduction. Une interprétation simultanée, privilégiant la voix, qui semble humaine.">
 
 <AuthButton text="Écoutez la différence" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Demander une Démo"/>

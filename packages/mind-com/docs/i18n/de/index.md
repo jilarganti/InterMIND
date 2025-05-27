@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "KI-Sprachübersetzer für Live-Videoanrufe"
-description: "Mehrsprachige Meetings brauchen kein Zoom, keine Plugins oder Dolmetscher. InterMind ist ein KI-Sprachübersetzer für Echtzeit-Videoanrufe — sprechen und sofort übersetzen."
+title: "KI-Sprach-Übersetzer für Live-Videoanrufe"
+description: "Mehrsprachige Meetings brauchen kein Zoom, keine Plugins oder Dolmetscher. InterMind ist ein KI-Sprach-Übersetzer für Echtzeit-Videoanrufe — sprechen und sofort übersetzen."
 isHome: true
 ---
 
@@ -12,7 +12,7 @@ isHome: true
 
 <HeroSection
 title="Treffen Sie sich in **jeder** Sprache"
-text="Neue Generation von Videoanrufen. KI-Sprachübersetzung — weiterentwickelt zur Echtzeit-Dolmetschung.">
+text="Nicht nur Übersetzung. Simultane, sprachbasierte Dolmetschung, die sich menschlich anfühlt.">
 
 <AuthButton text="Hören Sie den Unterschied" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Demo anfordern"/>
@@ -79,7 +79,7 @@ text="Neue Generation von Videoanrufen. KI-Sprachübersetzung — weiterentwicke
       'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Privatsphäre und Kontrolle am wichtigsten sind.',
     items: [
       '⚡︎ [Regionsbasierter Datenschutz](/product/privacy-architecture) — EU, USA, SO-Asien',
-      '✧ Konform mit: GDPR, CCPA, UAE PDPL',
+      '✧ Konform mit: DSGVO, CCPA, UAE PDPL',
       '✧ **Kein Datentraining**. Kein Zugriff durch Dritte.'
     ],
     link: '/product/privacy-architecture',
@@ -146,7 +146,7 @@ Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollstä
 [
   {
     q: 'Was ist ein lizenzierter Benutzer und was ist ein Teilnehmer?',
-    a: 'Ein *lizenzierter Benutzer* hat eine kostenlose oder kostenpflichtige Meeting-Lizenz und kann Meetings innerhalb der Grenzen seines Plans planen. *Teilnehmer* sind Eingeladene — sie **benötigen kein Konto oder Lizenz** zum Beitreten und können sich von jedem Gerät aus **kostenlos** verbinden.'
+    a: 'Ein *lizenzierter Benutzer* hat eine kostenlose oder kostenpflichtige Meeting-Lizenz und kann Meetings innerhalb der Grenzen seines Plans planen. *Teilnehmer* sind Eingeladene — sie **benötigen kein Konto oder Lizenz** zur Teilnahme und können sich von jedem Gerät aus **kostenlos** verbinden.'
   },
   {
     q: 'Wie viele Teilnehmer können einem Meeting beitreten?',
@@ -154,11 +154,11 @@ Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollstä
   },
   {
     q: 'Wie viele Personen können eine InterMind-Lizenz nutzen?',
-    a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt viele Meetings** hosten. Wenn mehrere Teammitglieder gleichzeitig Meetings hosten müssen, benötigt jeder seine eigene Lizenz.'
+    a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt viele Meetings** hosten. Wenn mehrere Teammitglieder gleichzeitig Meetings hosten müssen, benötigt jeder eine eigene Lizenz.'
   },
   {
     q: 'Funktioniert die Sprachdolmetschung in allen Plänen?',
-    a: 'Ja, *Sprachdolmetschung* ist in allen Plänen verfügbar. Bei *Basic* funktioniert sie **nur mit Untertiteln**. *Pro* und *Business* schalten vollständige **bidirektionale Sprache-zu-Sprache-Dolmetschung**, mehr Kapazität und erweiterte Funktionen frei.'
+    a: 'Ja, *Sprachdolmetschung* ist in allen Plänen verfügbar. Bei *Basic* funktioniert sie **nur mit Untertiteln**. *Pro* und *Business* schalten die vollständige **bidirektionale Sprache-zu-Sprache-Dolmetschung**, mehr Kapazität und erweiterte Funktionen frei.'
   },
   {
     q: 'Wie lange kann ein Meeting maximal dauern?',
@@ -166,19 +166,19 @@ Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollstä
   },
   {
     q: 'Kann ich Meetings aufzeichnen?',
-    a: 'Ja, alle Pläne unterstützen **Meeting-Aufzeichnungen**. Aufzeichnungen werden sicher in Ihrem Konto gespeichert und sind jederzeit zugänglich.'
+    a: 'Ja, alle Pläne unterstützen **Meeting-Aufzeichnungen**. Die Aufnahmen werden sicher in Ihrem Konto gespeichert und sind jederzeit zugänglich.'
   },
   {
     q: 'Gibt es eine Begrenzung für die Anzahl der Meetings, die ich hosten kann?',
     a: 'Nein. Sie können **unbegrenzt viele Meetings** hosten — selbst im *kostenlosen Basic-Plan*. *Pro* und *Business* Pläne bieten mehr Leistung, Teilnehmer und Kontrolle.'
   },
   {
-    q: 'Was passiert, wenn ich mehr Speicherplatz für Aufzeichnungen benötige?',
-    a: '*Pro* enthält **2 TB** gemeinsamen Speicherplatz pro Benutzer. *Business* bietet **5 TB**. Brauchen Sie mehr? **Kontaktieren Sie uns** für individuelle Optionen.'
+    q: 'Was ist, wenn ich mehr Speicherplatz für Aufzeichnungen benötige?',
+    a: '*Pro* enthält **2 TB** gemeinsamen Speicherplatz pro Benutzer. *Business* bietet **5 TB**. Benötigen Sie mehr? **Kontaktieren Sie uns** für individuelle Optionen.'
   },
   {
     q: 'Wie gewährleistet InterMind Datenschutz und Sicherheit?',
-    a: 'InterMind ist **von Grund auf privat**. Alle Daten werden in Ihrer ausgewählten Region verarbeitet und gespeichert — *EU, USA oder Asien*. Wir erfüllen **DSGVO, CCPA und UAE PDPL** und **verwenden Ihre Inhalte niemals** für Training oder Zugriff durch Dritte.'
+    a: 'InterMind ist **von Grund auf privat**. Alle Daten werden in Ihrer ausgewählten Region verarbeitet und gespeichert — *EU, USA oder Asien*. Wir erfüllen **DSGVO, CCPA und UAE PDPL** und **verwenden Ihre Inhalte nie** für Training oder Zugriff durch Dritte.'
   },
   {
     q: 'Kann ich InterMind vor dem Kauf eines Plans testen?',
@@ -194,7 +194,7 @@ Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollstä
   },
   {
     q: 'Wie kann ich meinen Plan upgraden oder downgraden?',
-    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen treten **sofort** in Kraft.'
+    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam.'
   },
   {
     q: 'Welche Sprachen unterstützt InterMind für die Sprachdolmetschung?',
