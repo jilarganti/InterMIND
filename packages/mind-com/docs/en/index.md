@@ -148,24 +148,16 @@ From first call to fluent conversations — at any scale.
     a: 'A *licensed user* has a free or paid meeting license and can schedule meetings within their plan\'s limits. *Participants* are invitees — they **don’t need an account or license** to join and can connect from any device **for free**.'
   },
   {
-    q: 'How many participants can join a meeting?',
-    a: 'It depends on your plan: *Basic* supports up to **100 participants**, *Pro* up to **150**, and *Business* up to **500**.'
-  },
-  {
     q: 'How many people can use one InterMind license?',
     a: 'Each *licensed user* can host **unlimited meetings**. If multiple team members need to host meetings simultaneously, each will need their own license.'
   },
   {
-    q: 'Does simultaneous interpretation work on all plans?',
-    a: 'Yes, *simultaneous interpretation* is available across all plans.'
+    q: 'What features are available across different plans?',
+    a: 'All plans include core **meeting features** (recording, screen sharing, etc.) and **AI translation capabilities** with **simultaneous interpretation** in 100+ languages. The *Business* plan adds enhanced **privacy features** with region-based routing and the **AI colleague** that looks and sounds human (alpha version).'
   },
   {
     q: 'What is the maximum duration of a meeting?',
     a: 'Meetings can run up to **24 hours** on all plans.'
-  },
-  {
-    q: 'Can I record meetings?',
-    a: 'Yes, all plans support **meeting recording**. Recordings are stored securely in your account and accessible anytime.'
   },
   {
     q: 'Is there a limit on the number of meetings I can host?',
@@ -188,12 +180,8 @@ From first call to fluent conversations — at any scale.
     a: 'Support is available via our **help center**, **email**, and **live chat**. *Business* users get **priority support** with a dedicated contact.'
   },
   {
-    q: 'Can I cancel my subscription at any time?',
-    a: 'Yes. *Monthly plans* cancel at the end of the billing cycle. *Annual plans* can be canceled for a **prorated refund**.'
-  },
-  {
-    q: 'How do I upgrade or downgrade my plan?',
-    a: 'You can change your plan anytime through your **account settings**. Changes take effect **immediately**.'
+    q: 'How do I manage my subscription (upgrade, downgrade, or cancel)?',
+    a: 'You can change your plan anytime through your **account settings**. Changes take effect **immediately**. For cancellations, *Monthly plans* cancel at the end of the billing cycle. *Annual plans* can be canceled for a **prorated refund**.'
   },
   {
     q: 'What languages does InterMind support for interpretation?',
