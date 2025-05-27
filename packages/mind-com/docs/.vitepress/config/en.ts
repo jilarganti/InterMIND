@@ -4,7 +4,7 @@ const BASE_PATH = ""
 
 export const en = defineConfig({
   description:
-    "Multilingual meetings don’t need Zoom, plugins, or interpreters. InterMind is an AI voice translator for real-time video calls — speak and translate instantly.",
+    "InterMind is a real-time interpretation platform for multilingual video meetings. Each participant speaks their native language — and hears others as if they did too. No plugins. No downloads. Just seamless, natural conversations across 100+ languages.",
   head: [
     ["meta", { property: "og:title", content: "AI Voice Translator for Live Video Calls | InterMIND" }],
     [

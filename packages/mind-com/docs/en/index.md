@@ -1,18 +1,18 @@
 ---
 layout: home
-title: "Video calls powered by simultaneous voice translation"
-description: "InterMind is an AI-powered voice translator for real-time video calls. Instantly translate and interpret speech in 100+ languages with natural, human-like voice. No plugins, no downloads — just seamless multilingual meetings for global teams."
+title: "Video calls powered by simultaneous interpretation"
+
 isHome: true
 ---
 
-<!-- text="Focus on growth — let InterMind handle the languages." -->
+<!-- text="Video calls powered by simultaneous voice translation." -->
 <!-- text="Classrooms take years; InterMind delivers real-time understanding today, in every language."> -->
 <!-- text="**Multilingual** Video Meetings with **Voice** Interpretation" -->
 <!-- title="Live **Interpretation** Video Meetings" -->
 
 <HeroSection
 title="Meet in **Any** Language"
-text="Video calls powered by simultaneous voice translation.">
+text="Speak your native language. Hear everyone else — as if they spoke it too.">
 
 <AuthButton text="Hear the difference" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Request a Demo"/>
@@ -105,7 +105,7 @@ Choose the plan that speaks your language. From subtitles to full voice interpre
     items: [
       '100 participant video meetings [💬](#3)',
       '30GB pooled storage per user',
-      '**Simultaneous voice translation** [💬](#1)',
+      '**Simultaneous interpretation** [💬](#1)',
       'AI meeting assistant for notes & summaries [💬](#2)',
     ],
   },
@@ -116,7 +116,7 @@ Choose the plan that speaks your language. From subtitles to full voice interpre
     items: [
       '150 participant video meetings [💬](#3)',
       '2TB pooled storage per user',
-      '**Simultaneous voice translation** [💬](#1)',
+      '**Simultaneous interpretation** [💬](#1)',
       'AI meeting assistant for notes & summaries [💬](#2)',
     ],
   },
@@ -127,7 +127,7 @@ Choose the plan that speaks your language. From subtitles to full voice interpre
     items: [
       '500 participant video meetings [💬](#3)',
       '5TB pooled storage per user',
-      '**Simultaneous voice translation** [💬](#1)',
+      '**Simultaneous interpretation** [💬](#1)',
       '**AI colleague**. Looks human. Sounds natural. Smarter than you 👽.',
       '**Region-based privacy routing** (EU / US / Asia) [💬](#4)',
     ],

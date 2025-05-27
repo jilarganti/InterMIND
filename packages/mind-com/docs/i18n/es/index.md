@@ -1,18 +1,18 @@
 ---
 layout: home
-title: "Traductor de Voz con IA para Videollamadas en Vivo"
-description: "Las reuniones multilingües no necesitan Zoom, plugins ni intérpretes. InterMind es un traductor de voz con IA para videollamadas en tiempo real — habla y traduce instantáneamente."
+title: "Videollamadas potenciadas por traducción simultánea de voz"
+description: "InterMind es un traductor de voz impulsado por IA para videollamadas en tiempo real. Traduce e interpreta el habla instantáneamente en más de 100 idiomas con una voz natural similar a la humana. Sin complementos, sin descargas — solo reuniones multilingües fluidas para equipos globales."
 isHome: true
 ---
 
-<!-- text="Céntrate en el crecimiento — deja que InterMind se encargue de los idiomas." -->
+<!-- text="Videollamadas potenciadas por traducción simultánea de voz." -->
 <!-- text="Las aulas tardan años; InterMind ofrece comprensión en tiempo real hoy, en todos los idiomas." -->
-<!-- text="Reuniones por Video **Multilingües** con Interpretación por **Voz**" -->
-<!-- title="Reuniones por Video con **Interpretación** en Vivo" -->
+<!-- text="Reuniones por video **multilingües** con interpretación de **voz**" -->
+<!-- title="Reuniones por video con **interpretación** en vivo" -->
 
 <HeroSection
-title="Reúnete en **Cualquier** Idioma"
-text="No solo traducción. Interpretación simultánea, priorizando la voz que se siente humana.">
+title="Reúnete en **cualquier** idioma"
+text="Habla en tu idioma nativo. Escucha a todos los demás — como si también lo hablaran.">
 
 <AuthButton text="Escucha la diferencia" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Solicitar una Demo"/>
@@ -20,7 +20,7 @@ text="No solo traducción. Interpretación simultánea, priorizando la voz que s
 </HeroSection>
 
 > **¿Para quién es esto?**  
-> Para equipos internacionales donde las barreras lingüísticas provocan pérdida de negocios, retrasos o malentendidos. Los Mercados Prioritarios incluyen centros de fabricación global, socios industriales de EE.UU., alta tecnología en Asia, UE multilingüe, MENA y América Latina. Aprende más en nuestra sección de [Markets](./product/markets).
+> Para equipos internacionales donde las barreras del idioma conducen a pérdida de negocios, retrasos o malentendidos. Los mercados prioritarios incluyen centros de fabricación global, socios industriales de EE. UU., alta tecnología en Asia, UE multilingüe, MENA y América Latina. Aprende más en nuestra sección de [Markets](./product/markets).
 
 <span id="1"></span>
 <FeatureBlock :card="{
@@ -28,7 +28,7 @@ text="No solo traducción. Interpretación simultánea, priorizando la voz que s
   details: 'Sin importar el idioma, **tu voz es escuchada — y comprendida** — como si compartieran la misma lengua.',
     items: [
       '⚡︎ De forma natural, en [tiempo real](/product/how-it-works), y sin subtítulos ni retrasos.',
-      '✧ La interpretación potenciada por IA captura el tono, la intención y la terminología específica de la industria.',
+      '✧ La interpretación impulsada por IA captura el tono, la intención y la terminología específica de la industria.',
     ],
   link: './product/what-is-intermind',
   src: {
@@ -40,7 +40,7 @@ text="No solo traducción. Interpretación simultánea, priorizando la voz que s
 
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: 'La Mente Dentro de Tus Reuniones',
+    title: 'La mente dentro de tus reuniones',
     details: 'InterMind convierte cada llamada multilingüe en conocimiento claro y consultable.',
     items: [
       '🔍 **Pregunta cualquier cosa** — la IA encuentra respuestas **en todas tus reuniones**.',
@@ -57,11 +57,11 @@ text="No solo traducción. Interpretación simultánea, priorizando la voz que s
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Diseñado para Reuniones Serias — No Solo para Charlar',
-    details: 'InterMind es una **plataforma de videollamadas de nivel profesional**, no un complemento o plugin ligero.',
+    title: 'Diseñado para reuniones serias — no solo para charlar',
+    details: 'InterMind es una **plataforma de reuniones por video de nivel profesional**, no un complemento o plugin ligero.',
     items: [
-      '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, chat entre participantes, integración con calendario y traducción — todo incluido, listo para usar.',
-      '✧ **Gratis Para Siempre** — sin tarjeta de crédito, sin límite de tiempo.',
+      '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, chat de participantes, integración de calendario y traducción — todo incluido, listo para usar.',
+      '✧ **Gratis para siempre** — sin tarjeta de crédito, sin límite de tiempo.',
     ],
     link: '/product/how-it-works',
     src: {
@@ -74,13 +74,13 @@ text="No solo traducción. Interpretación simultánea, priorizando la voz que s
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Privacidad Donde Importa',
+    title: 'Privacidad donde importa',
     details:
       'InterMind está construido para conversaciones críticas de confianza — donde la privacidad y el control son más importantes.',
     items: [
-      '⚡︎ [Privacidad basada en regiones](/product/privacy-architecture) — UE, EE.UU., SE Asia',
+      '⚡︎ [Privacidad basada en regiones](/product/privacy-architecture) — UE, EE. UU., SE Asia',
       '✧ Cumple con: GDPR, CCPA, UAE PDPL',
-      '✧ **Cero entrenamiento con datos**. Sin acceso de terceros.'
+      '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
     ],
     link: '/product/privacy-architecture',
     src: {
@@ -146,7 +146,7 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
 [
   {
     q: '¿Qué es un usuario con licencia y qué es un participante?',
-    a: 'Un *usuario con licencia* tiene una licencia gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son los invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **gratuitamente**.'
+    a: 'Un *usuario con licencia* tiene una licencia gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **gratuitamente**.'
   },
   {
     q: '¿Cuántos participantes pueden unirse a una reunión?',
