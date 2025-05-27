@@ -77,7 +77,7 @@ text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen – als ob si
     details:
       'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Privatsphäre und Kontrolle am wichtigsten sind.',
     items: [
-      '⚡︎ [Regionsbasierter Datenschutz](/product/privacy-architecture) — EU, USA, SO-Asien',
+      '⚡︎ [Regionsbasiertes Privacy-Routing](/product/privacy-architecture) — EU, USA, SO-Asien',
       '✧ **Kein Datentraining**. Kein Zugriff durch Dritte.'
     ],
     link: '/product/privacy-architecture',
@@ -93,7 +93,7 @@ text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen – als ob si
 
 ## Klare und einfache Preisgestaltung
 
-Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollständigen Dolmetschung – wachsen Sie mit Ihrem Team.
+Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
 
 <PricingPlans :plans="[
   {
@@ -101,10 +101,10 @@ Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollstä
     price: '**Kostenlos**',
     details: '25 kostenlose Meetings',
     items: [
-      '100 Teilnehmer Videomeetings [💬](#3)',
-      '30GB gemeinsamer Speicher pro Benutzer',
-      'KI-Meeting-Assistent für Notizen & Zusammenfassungen [💬](#2)',
-      '**Simultandolmetschen** [💬](#1)',
+      '**100** Teilnehmer Videomeetings [💬](#3)',
+      '**30** GB gemeinsamer Speicher pro Benutzer',
+      'Suche in allen Ihren Meetings [💬](#2)',
+      'Simultanübersetzung [💬](#1)',
     ],
   },
   {
@@ -112,10 +112,10 @@ Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollstä
     price: '**20€** /Monat/Benutzer, jährlich abgerechnet',
     details: 'oder 25€ monatlich abgerechnet',
     items: [
-      '150 Teilnehmer Videomeetings [💬](#3)',
-      '2TB gemeinsamer Speicher pro Benutzer',
-      'KI-Meeting-Assistent für Notizen & Zusammenfassungen [💬](#2)',
-      '**Simultandolmetschen** [💬](#1)',
+      '**150** Teilnehmer Videomeetings [💬](#3)',
+      '**2** TB gemeinsamer Speicher pro Benutzer',
+      'Suche in allen Ihren Meetings [💬](#2)',
+      'Simultanübersetzung [💬](#1)',
     ],
   },
   {
@@ -123,11 +123,11 @@ Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollstä
     price: '**Individueller Preis**',
     details: 'Entwickelt für Datenschutz',
     items: [
-      '500 Teilnehmer Videomeetings [💬](#3)',
-      '5TB gemeinsamer Speicher pro Benutzer',
-      'KI-Meeting-Assistent für Notizen & Zusammenfassungen [💬](#2)',
-      '**Simultandolmetschen** [💬](#1)',
-      '**Regionsbasiertes Privacy-Routing** (EU / US / Asien) [💬](#4)',
+      '**500** Teilnehmer Videomeetings [💬](#3)',
+      '**5** TB gemeinsamer Speicher pro Benutzer',
+      'Suche in allen Ihren Meetings [💬](#2)',
+      'Simultanübersetzung [💬](#1)',
+      '**Regionsbasiertes Privacy-Routing** [💬](#4)',
       '**KI-Kollege**. Sieht menschlich aus. Klingt natürlich. (⍺-Version)',
     ],
   }
@@ -137,6 +137,12 @@ Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollstä
 <ContactFormModalNav buttonText="Sprechen Sie mit unserem Team" buttonClass="alt"/>
 </PricingPlans>
 
+<span id="Testimonials"></span>
+
+## Was unsere Kunden sagen
+
+<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
+
 <span id="FAQ"></span>
 
 ## Häufig gestellte Fragen
@@ -144,70 +150,44 @@ Wählen Sie den Plan, der Ihre Sprache spricht. Von Untertiteln bis zur vollstä
 <AccordionGroup :items="
 [
   {
-    q: 'Was ist ein lizenzierter Benutzer und was ist ein Teilnehmer?',
-    a: 'Ein *lizenzierter Benutzer* hat eine kostenlose oder kostenpflichtige Meeting-Lizenz und kann Meetings innerhalb der Grenzen seines Plans planen. *Teilnehmer* sind Eingeladene — sie **benötigen kein Konto oder Lizenz** zum Beitreten und können sich von jedem Gerät aus **kostenlos** verbinden.'
-  },
-  {
-    q: 'Wie viele Teilnehmer können einem Meeting beitreten?',
-    a: 'Das hängt von Ihrem Plan ab: *Basic* unterstützt bis zu **100 Teilnehmer**, *Pro* bis zu **150** und *Business* bis zu **500**.'
+    q: 'Was ist ein Lizenzierter Benutzer und was ist ein Teilnehmer?',
+    a: 'Ein *lizenzierter Benutzer* hat eine kostenlose oder bezahlte Meeting-Lizenz und kann Meetings innerhalb der Grenzen seines Plans planen. *Teilnehmer* sind Eingeladene — sie **benötigen kein Konto oder Lizenz** zum Beitreten und können sich von jedem Gerät aus **kostenlos** verbinden.'
   },
   {
     q: 'Wie viele Personen können eine InterMind-Lizenz nutzen?',
-    a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt viele Meetings** hosten. Wenn mehrere Teammitglieder gleichzeitig Meetings hosten müssen, benötigt jeder seine eigene Lizenz.'
-  },
-  {
-    q: 'Funktioniert die Sprachdolmetschung in allen Plänen?',
-    a: 'Ja, *Sprachdolmetschung* ist in allen Plänen verfügbar. Bei *Basic* funktioniert sie **nur mit Untertiteln**. *Pro* und *Business* schalten die vollständige **bidirektionale Sprache-zu-Sprache-Dolmetschung**, mehr Kapazität und erweiterte Funktionen frei.'
+    a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt Meetings** hosten. Wenn mehrere Teammitglieder gleichzeitig Meetings hosten müssen, benötigt jeder seine eigene Lizenz.'
   },
   {
     q: 'Wie lange kann ein Meeting maximal dauern?',
     a: 'Meetings können in allen Plänen bis zu **24 Stunden** dauern.'
   },
   {
-    q: 'Kann ich Meetings aufzeichnen?',
-    a: 'Ja, alle Pläne unterstützen **Meeting-Aufzeichnungen**. Aufzeichnungen werden sicher in Ihrem Konto gespeichert und sind jederzeit zugänglich.'
-  },
-  {
     q: 'Gibt es eine Begrenzung für die Anzahl der Meetings, die ich hosten kann?',
-    a: 'Nein. Sie können **unbegrenzt viele Meetings** hosten — selbst im *kostenlosen Basic-Plan*. *Pro* und *Business* Pläne bieten mehr Leistung, Teilnehmer und Kontrolle.'
-  },
-  {
-    q: 'Was ist, wenn ich mehr Speicherplatz für Aufzeichnungen benötige?',
-    a: '*Pro* enthält **2 TB** gemeinsamen Speicherplatz pro Benutzer. *Business* bietet **5 TB**. Benötigen Sie mehr? **Kontaktieren Sie uns** für individuelle Optionen.'
+    a: 'Der *Free Basic* Plan enthält **25 kostenlose Meetings**. *Pro* und *Business* Pläne bieten unbegrenzte Meetings mit mehr Teilnehmern und Kontrolle.'
   },
   {
     q: 'Wie gewährleistet InterMind Datenschutz und Sicherheit?',
-    a: 'InterMind ist **von Grund auf privat**. Alle Daten werden in Ihrer ausgewählten Region verarbeitet und gespeichert — *EU, USA oder Asien*. Wir erfüllen **DSGVO, CCPA und UAE PDPL** und **verwenden Ihre Inhalte niemals** für Training oder Zugriff durch Dritte.'
+    a: 'InterMind ist **von Grund auf privat**. Alle Daten werden in Ihrer ausgewählten Region verarbeitet und gespeichert — *EU, USA oder Asien*. Wir erfüllen **GDPR, CCPA und UAE PDPL** und **verwenden Ihre Inhalte nie** für Training oder Zugriff durch Dritte. **Regionsbasiertes Privacy-Routing** ist im *Business* Plan verfügbar.'
   },
   {
     q: 'Kann ich InterMind vor dem Kauf eines Plans testen?',
-    a: 'Absolut. Der *kostenlose Basic-Plan* gibt Ihnen vollen Zugriff auf Kernfunktionen — einschließlich **mehrsprachiger Meetings**, **Untertitel** und einem **KI-Assistenten**. Keine Kreditkarte, **keine zeitliche Begrenzung**. Upgrade jederzeit möglich.'
+    a: 'Absolut. Der *Free Basic* Plan gibt Ihnen vollen Zugriff auf Kernfunktionen mit **25 kostenlosen Meetings** — einschließlich **Simultandolmetschen** und **Meeting-Suche**. Keine Kreditkarte erforderlich. Upgrade jederzeit möglich.'
   },
   {
-    q: 'Was ist, wenn ich Hilfe oder Support benötige?',
+    q: 'Was passiert, wenn ich Hilfe oder Support benötige?',
     a: 'Support ist über unser **Hilfecenter**, **E-Mail** und **Live-Chat** verfügbar. *Business*-Nutzer erhalten **Priority-Support** mit einem persönlichen Ansprechpartner.'
   },
   {
-    q: 'Kann ich mein Abonnement jederzeit kündigen?',
-    a: 'Ja. *Monatspläne* enden zum Ende des Abrechnungszeitraums. *Jahrespläne* können gegen eine **anteilige Rückerstattung** gekündigt werden.'
+    q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
+    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen treten **sofort** in Kraft. Bei Kündigungen enden *Monatspläne* am Ende des Abrechnungszeitraums. *Jahrespläne* können gegen **anteilige Rückerstattung** gekündigt werden.'
   },
   {
-    q: 'Wie kann ich meinen Plan upgraden oder downgraden?',
-    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam.'
-  },
-  {
-    q: 'Welche Sprachen unterstützt InterMind für die Sprachdolmetschung?',
-    a: 'Wir unterstützen **über 100 Sprachen** mit Echtzeit-Sprachdolmetschung. Die Liste wächst stetig — aktuelle Updates finden Sie auf unserer Website.'
+    q: 'Welche Sprachen unterstützt InterMind für Dolmetschen?',
+    a: 'Wir unterstützen **über 100 Sprachen** mit Echtzeit-Dolmetschen. Die Liste wächst ständig — aktuelle Updates finden Sie auf unserer Website.'
   },
   {
     q: 'Kann ich InterMind für Webinare oder große Veranstaltungen nutzen?',
-    a: 'Ja. *Pro* und *Business* Pläne sind ideal für **große Meetings und Webinare** — mit Unterstützung für bis zu **500 Teilnehmer** im *Business*-Plan.'
+    a: 'Ja. *Pro* und *Business* Pläne sind ideal für **große Meetings und Webinare** — mit Unterstützung für bis zu **500 Teilnehmer** im *Business* Plan.'
   }
 ]
 "/>
-
-<span id="Testimonials"></span>
-
-## Was unsere Kunden sagen
-
-<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>

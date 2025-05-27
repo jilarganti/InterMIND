@@ -44,7 +44,7 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
     details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
     items: [
       '🔍 **Posez n\'importe quelle question** — l\'IA trouve des réponses **dans toutes vos réunions**.',
-      '✧ Extrait automatiquement les tâches, les responsables et les échéances.',
+      '✧ Extrait automatiquement les tâches, les responsables et les délais.',
       '✧ Résume les points clés dans n\'importe quelle langue — instantanément.',
     ],
     link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
@@ -77,7 +77,7 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
     details:
       'InterMind est conçu pour les conversations critiques — où la confidentialité et le contrôle sont essentiels.',
     items: [
-      '⚡︎ [Confidentialité basée sur les régions](/product/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
+      '⚡︎ [Routage de confidentialité par région](/product/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
       '✧ **Zéro entraînement de données**. Aucun accès tiers.'
     ],
     link: '/product/privacy-architecture',
@@ -93,7 +93,7 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
 
 ## Prix Clairs et Simples
 
-Choisissez le forfait qui vous correspond. Des sous-titres à l'interprétation vocale complète — évoluez au rythme de votre équipe.
+Du premier appel aux conversations fluides — à toute échelle.
 
 <PricingPlans :plans="[
   {
@@ -101,21 +101,21 @@ Choisissez le forfait qui vous correspond. Des sous-titres à l'interprétation 
     price: '**Gratuit**',
     details: '25 réunions gratuites',
     items: [
-      'Réunions vidéo jusqu\'à 100 participants [💬](#3)',
-      '30 Go de stockage mutualisé par utilisateur',
-      'Assistant de réunion IA pour les notes et résumés [💬](#2)',
-      '**Interprétation simultanée** [💬](#1)',
+      'Réunions vidéo pour **100** participants [💬](#3)',
+      '**30** Go de stockage mutualisé par utilisateur',
+      'Recherche dans toutes vos réunions [💬](#2)',
+      'Interprétation simultanée [💬](#1)',
     ],
   },
   {
     title: '**Pro** 1-99 utilisateurs',
-    price: '**20 €** /mois/utilisateur, facturation annuelle',
-    details: 'ou 25 € facturation mensuelle',
+    price: '**20€** /mois/utilisateur, facturation annuelle',
+    details: 'ou 25€ par mois',
     items: [
-      'Réunions vidéo jusqu\'à 150 participants [💬](#3)',
-      '2 To de stockage mutualisé par utilisateur',
-      'Assistant de réunion IA pour les notes et résumés [💬](#2)',
-      '**Interprétation simultanée** [💬](#1)',
+      'Réunions vidéo pour **150** participants [💬](#3)',
+      '**2** To de stockage mutualisé par utilisateur',
+      'Recherche dans toutes vos réunions [💬](#2)',
+      'Interprétation simultanée [💬](#1)',
     ],
   },
   {
@@ -123,12 +123,12 @@ Choisissez le forfait qui vous correspond. Des sous-titres à l'interprétation 
     price: '**Prix personnalisé**',
     details: 'Conçu pour la confidentialité',
     items: [
-      'Réunions vidéo jusqu\'à 500 participants [💬](#3)',
-      '5 To de stockage mutualisé par utilisateur',
-      'Assistant de réunion IA pour les notes et résumés [💬](#2)',
-      '**Interprétation simultanée** [💬](#1)',
-      '**Routage privé par région** (UE / États-Unis / Asie) [💬](#4)',
-      '**Collègue IA**. Apparence humaine. Voix naturelle. (version ⍺)',
+      'Réunions vidéo pour **500** participants [💬](#3)',
+      '**5** To de stockage mutualisé par utilisateur',
+      'Recherche dans toutes vos réunions [💬](#2)',
+      'Interprétation simultanée [💬](#1)',
+      '**Routage privé par région** [💬](#4)',
+      '**Collègue IA**. Apparence humaine. Voix naturelle. (version-⍺)',
     ],
   }
 ]">
@@ -136,6 +136,12 @@ Choisissez le forfait qui vous correspond. Des sous-titres à l'interprétation 
 <AuthButton text="Acheter maintenant" buttonClass="brand"/>
 <ContactFormModalNav buttonText="Parler à notre équipe" buttonClass="alt"/>
 </PricingPlans>
+
+<span id="Testimonials"></span>
+
+## Ce Que Disent Nos Clients
+
+<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
 <span id="FAQ"></span>
 
@@ -145,69 +151,43 @@ Choisissez le forfait qui vous correspond. Des sous-titres à l'interprétation 
 [
   {
     q: 'Qu\'est-ce qu\'un utilisateur sous licence et qu\'est-ce qu\'un participant ?',
-    a: 'Un *utilisateur sous licence* dispose d\'une licence gratuite ou payante et peut planifier des réunions selon les limites de son forfait. Les *participants* sont les invités — ils **n\'ont pas besoin de compte ni de licence** pour rejoindre et peuvent se connecter depuis n\'importe quel appareil **gratuitement**.'
-  },
-  {
-    q: 'Combien de participants peuvent rejoindre une réunion ?',
-    a: 'Cela dépend de votre forfait : *Basic* prend en charge jusqu\'à **100 participants**, *Pro* jusqu\'à **150**, et *Business* jusqu\'à **500**.'
+    a: 'Un *utilisateur sous licence* dispose d\'une licence gratuite ou payante et peut planifier des réunions dans les limites de son forfait. Les *participants* sont les invités — ils **n\'ont pas besoin de compte ni de licence** pour rejoindre et peuvent se connecter depuis n\'importe quel appareil **gratuitement**.'
   },
   {
     q: 'Combien de personnes peuvent utiliser une licence InterMind ?',
     a: 'Chaque *utilisateur sous licence* peut organiser des **réunions illimitées**. Si plusieurs membres de l\'équipe doivent organiser des réunions simultanément, chacun aura besoin de sa propre licence.'
   },
   {
-    q: 'L\'interprétation vocale fonctionne-t-elle sur tous les forfaits ?',
-    a: 'Oui, *l\'interprétation vocale* est disponible sur tous les forfaits. Sur *Basic*, elle fonctionne avec **sous-titres uniquement**. *Pro* et *Business* débloquent **l\'interprétation voix-à-voix bidirectionnelle** complète, plus de capacité et des fonctionnalités avancées.'
-  },
-  {
     q: 'Quelle est la durée maximale d\'une réunion ?',
     a: 'Les réunions peuvent durer jusqu\'à **24 heures** sur tous les forfaits.'
   },
   {
-    q: 'Puis-je enregistrer les réunions ?',
-    a: 'Oui, tous les forfaits prennent en charge **l\'enregistrement des réunions**. Les enregistrements sont stockés en toute sécurité dans votre compte et accessibles à tout moment.'
-  },
-  {
     q: 'Y a-t-il une limite au nombre de réunions que je peux organiser ?',
-    a: 'Non. Vous pouvez organiser des **réunions illimitées** — même avec le forfait *Basic gratuit*. Les forfaits *Pro* et *Business* offrent plus de puissance, de participants et de contrôle.'
-  },
-  {
-    q: 'Que faire si j\'ai besoin de plus de stockage pour les enregistrements ?',
-    a: '*Pro* inclut **2 To** de stockage mutualisé par utilisateur. *Business* offre **5 To**. Besoin de plus ? **Contactez-nous** pour des options personnalisées.'
+    a: 'Le forfait *Free Basic* inclut **25 réunions gratuites**. Les forfaits *Pro* et *Business* offrent des réunions illimitées avec plus de participants et de contrôle.'
   },
   {
     q: 'Comment InterMind assure-t-il la confidentialité et la sécurité des données ?',
-    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre région sélectionnée — *UE, États-Unis ou Asie*. Nous respectons le **RGPD, le CCPA et l\'UAE PDPL**, et **n\'utilisons jamais votre contenu** pour la formation ou l\'accès par des tiers.'
+    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre région sélectionnée — *UE, États-Unis ou Asie*. Nous respectons le **RGPD, le CCPA et l\'UAE PDPL**, et **n\'utilisons jamais votre contenu** pour la formation ou l\'accès par des tiers. Le **routage privé par région** est disponible sur le forfait *Business*.'
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un forfait ?',
-    a: 'Absolument. Le forfait *Basic gratuit* vous donne un accès complet aux fonctionnalités de base — y compris les **réunions multilingues**, les **sous-titres** et un **assistant IA**. Pas de carte de crédit, **pas de limite de temps**. Passez à la version supérieure à tout moment.'
+    a: 'Absolument. Le forfait *Free Basic* vous donne un accès complet aux fonctionnalités de base avec **25 réunions gratuites** — y compris **l\'interprétation simultanée** et la **recherche de réunions**. Pas de carte de crédit requise. Possibilité de mise à niveau à tout moment.'
   },
   {
     q: 'Que faire si j\'ai besoin d\'aide ou de support ?',
     a: 'Le support est disponible via notre **centre d\'aide**, par **email** et par **chat en direct**. Les utilisateurs *Business* bénéficient d\'un **support prioritaire** avec un contact dédié.'
   },
   {
-    q: 'Puis-je annuler mon abonnement à tout moment ?',
-    a: 'Oui. Les *forfaits mensuels* s\'annulent à la fin du cycle de facturation. Les *forfaits annuels* peuvent être annulés avec un **remboursement au prorata**.'
+    q: 'Comment gérer mon abonnement (mise à niveau, rétrogradation ou annulation) ?',
+    a: 'Vous pouvez modifier votre forfait à tout moment via vos **paramètres de compte**. Les changements prennent effet **immédiatement**. Pour les annulations, les *forfaits mensuels* sont annulés à la fin du cycle de facturation. Les *forfaits annuels* peuvent être annulés avec un **remboursement au prorata**.'
   },
   {
-    q: 'Comment puis-je mettre à niveau ou rétrograder mon forfait ?',
-    a: 'Vous pouvez modifier votre forfait à tout moment dans vos **paramètres de compte**. Les changements prennent effet **immédiatement**.'
-  },
-  {
-    q: 'Quelles langues InterMind prend-il en charge pour l\'interprétation vocale ?',
-    a: 'Nous prenons en charge **plus de 100 langues** avec interprétation vocale en temps réel. La liste ne cesse de s\'allonger — consultez notre site web pour les mises à jour.'
+    q: 'Quelles langues InterMind prend-il en charge pour l\'interprétation ?',
+    a: 'Nous prenons en charge **plus de 100 langues** avec interprétation en temps réel. La liste ne cesse de s\'allonger — consultez notre site web pour les mises à jour.'
   },
   {
     q: 'Puis-je utiliser InterMind pour des webinaires ou de grands événements ?',
-    a: 'Oui. Les forfaits *Pro* et *Business* sont idéaux pour les **grandes réunions et webinaires** — avec prise en charge jusqu\'à **500 participants** sur *Business*.'
+    a: 'Oui. Les forfaits *Pro* et *Business* sont idéaux pour les **grandes réunions et webinaires** — avec prise en charge jusqu\'à **500 participants** sur le forfait *Business*.'
   }
 ]
 "/>
-
-<span id="Testimonials"></span>
-
-## Ce Que Disent Nos Clients
-
-<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
