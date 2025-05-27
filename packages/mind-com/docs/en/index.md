@@ -20,7 +20,7 @@ text="Speak your native language. Hear everyone else — as if they spoke it too
 </HeroSection>
 
 > **Who is this for?**  
-> For international teams where language barriers lead to lost deals, delays, or miscommunication. Priority Markets include global manufacturing hubs, US industrial partners, high-tech Asia, multilingual EU, MENA, and Latin America. Learn more in our [Markets](./product/markets) section.
+> Built for **global teams** where language barriers cause delays, lost deals, or costly misunderstandings. Learn more in our [Markets](./product/markets) section.
 
 <span id="1"></span>
 <FeatureBlock :card="{
@@ -60,8 +60,7 @@ text="Speak your native language. Hear everyone else — as if they spoke it too
     title: 'Built for Serious Meetings — Not Just Talking',
     details: 'InterMind is a **professional-grade video meeting platform**, not a lightweight add-on or plugin.',
     items: [
-      '✧ 1080p resolution, smart noise suppression, scheduling, moderation, screen sharing, recording, participant chat, calendar integration and translation — all built in, ready to go.',
-      '✧ **Free Forever** — no credit card, no time limit.',
+      '✧ 1080p resolution, smart noise suppression, scheduling, moderation, screen sharing, recording, subtitling, participant chat and calendar integration — all built in, ready to go.',
     ],
     link: '/product/how-it-works',
     src: {
@@ -79,7 +78,6 @@ text="Speak your native language. Hear everyone else — as if they spoke it too
       'InterMind is built for trust-critical conversations — where privacy and control matter most.',
     items: [
       '⚡︎ [Region-based privacy](/product/privacy-architecture) — EU, US, SE Asia',
-      '✧ Compliant: GDPR, CCPA, UAE PDPL',
       '✧ **Zero data training**. No third-party access.'
     ],
     link: '/product/privacy-architecture',
@@ -105,8 +103,8 @@ Choose the plan that speaks your language. From subtitles to full voice interpre
     items: [
       '100 participant video meetings [💬](#3)',
       '30GB pooled storage per user',
-      '**Simultaneous interpretation** [💬](#1)',
       'AI meeting assistant for notes & summaries [💬](#2)',
+      '**Simultaneous interpretation** [💬](#1)',
     ],
   },
   {
@@ -116,20 +114,21 @@ Choose the plan that speaks your language. From subtitles to full voice interpre
     items: [
       '150 participant video meetings [💬](#3)',
       '2TB pooled storage per user',
-      '**Simultaneous interpretation** [💬](#1)',
       'AI meeting assistant for notes & summaries [💬](#2)',
+      '**Simultaneous interpretation** [💬](#1)',
     ],
   },
   {
     title: '**Business** 1-250 users',
     price: '**Custom pricing**',
-    details: 'Built for privacy & compliance',
+    details: 'Built for privacy',
     items: [
       '500 participant video meetings [💬](#3)',
       '5TB pooled storage per user',
+      'AI meeting assistant for notes & summaries [💬](#2)',
       '**Simultaneous interpretation** [💬](#1)',
-      '**AI colleague**. Looks human. Sounds natural. Smarter than you 👽.',
       '**Region-based privacy routing** (EU / US / Asia) [💬](#4)',
+      '**AI colleague**. Looks human. Sounds natural. (⍺-version)',
     ],
   }
 ]">
