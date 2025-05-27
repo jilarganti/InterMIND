@@ -5,16 +5,7 @@ const BASE_PATH = ""
 export const en = defineConfig({
   description:
     "InterMind is a real-time interpretation platform for multilingual video meetings. Each participant speaks their native language — and hears others as if they did too. No plugins. No downloads. Just seamless, natural conversations across 100+ languages.",
-  head: [
-    ["meta", { property: "og:title", content: "AI Voice Translator for Live Video Calls | InterMIND" }],
-    [
-      "meta",
-      {
-        name: "keywords",
-        content: "AI voice translator, real-time translation, translate video calls, multilingual meetings, Zoom translator alternative, interpreter tool",
-      },
-    ],
-  ],
+  head: [["meta", { property: "og:title", content: "Video calls powered by simultaneous interpretation | InterMIND" }]],
 
   themeConfig: {
     nav: [
@@ -93,6 +84,16 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "Introduction",
+      collapsed: false,
+      items: [
+        { text: "What is InterMIND?", link: "what-is-intermind" },
+        { text: "How it Works", link: "how-it-works" },
+        { text: "Regional Data Privacy", link: "privacy-architecture" },
+        { text: "Priority Markets", link: "markets" },
+      ],
+    },
+    {
+      text: "Guide",
       collapsed: false,
       items: [
         { text: "What is InterMIND?", link: "what-is-intermind" },
