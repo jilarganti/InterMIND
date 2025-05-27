@@ -4,7 +4,7 @@ const BASE_PATH = "/de"
 
 export const de = defineConfig({
   description:
-    "Mehrsprachige Meetings benötigen kein Zoom, keine Plugins oder Dolmetscher. InterMind ist ein KI-Sprachübersetzer für Echtzeit-Videoanrufe — sprechen und sofort übersetzen.",
+    "InterMind ist eine Echtzeit-Dolmetschplattform für mehrsprachige Videomeetings. Jeder Teilnehmer spricht in seiner Muttersprache — und hört andere, als würden sie es auch tun. Keine Plugins. Keine Downloads. Nur nahtlose, natürliche Gespräche in über 100 Sprachen.",
   head: [
     ["meta", { property: "og:title", content: "KI-Sprachübersetzer für Live-Videoanrufe | InterMIND" }],
     [
@@ -70,7 +70,7 @@ export const de = defineConfig({
       submit: "Anfrage senden",
       sending: "Wird gesendet...",
       successTitle: "Vielen Dank!",
-      successMessage: "Wir schätzen Ihr Interesse sehr! Unser Team wird Sie in Kürze kontaktieren, um Ihre Bedürfnisse zu besprechen.",
+      successMessage: "Wir schätzen Ihr Interesse sehr! Unser Team wird Sie in Kürze kontaktieren, um Ihre Anforderungen zu besprechen.",
       defaultCategories: [
         "Ich interessiere mich für Echtzeit-Sprachdolmetschen",
         "Ich interessiere mich für den KI-Meeting-Assistenten",

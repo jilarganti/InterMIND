@@ -4,14 +4,14 @@ const BASE_PATH = "/fr"
 
 export const fr = defineConfig({
   description:
-    "Les réunions multilingues n'ont pas besoin de Zoom, de plugins ou d'interprètes. InterMind est un traducteur vocal IA pour les appels vidéo en temps réel — parlez et traduisez instantanément.",
+    "InterMind est une plateforme d'interprétation en temps réel pour les réunions vidéo multilingues. Chaque participant parle sa langue maternelle et entend les autres comme s'ils la parlaient aussi. Pas de plugins. Pas de téléchargements. Juste des conversations naturelles et fluides dans plus de 100 langues.",
   head: [
     ["meta", { property: "og:title", content: "Traducteur Vocal IA pour Appels Vidéo en Direct | InterMIND" }],
     [
       "meta",
       {
         name: "keywords",
-        content: "traducteur vocal IA, traduction en temps réel, traduire appels vidéo, réunions multilingues, alternative à Zoom traducteur, outil d'interprétation",
+        content: "traducteur vocal IA, traduction en temps réel, traduire appels vidéo, réunions multilingues, alternative traducteur Zoom, outil d'interprète",
       },
     ],
   ],
@@ -45,7 +45,7 @@ export const fr = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Réglementations légales pour les services d'IA</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Réglementations légales pour les services d\'IA</a>`,
     },
 
     localization: {
@@ -70,7 +70,7 @@ export const fr = defineConfig({
       submit: "Envoyer la demande",
       sending: "Envoi en cours...",
       successTitle: "Merci !",
-      successMessage: "Nous apprécions grandement votre intérêt ! Notre équipe vous contactera sous peu pour discuter de vos besoins.",
+      successMessage: "Nous apprécions grandement votre intérêt ! Notre équipe vous contactera prochainement pour discuter de vos besoins.",
       defaultCategories: [
         "Je suis intéressé par l'interprétation vocale en temps réel",
         "Je suis intéressé par l'assistant de réunion IA",

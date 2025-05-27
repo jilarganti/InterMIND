@@ -1,34 +1,34 @@
 ---
 layout: home
-title: "Videollamadas potenciadas por traducción simultánea de voz"
-description: "InterMind es un traductor de voz impulsado por IA para videollamadas en tiempo real. Traduce e interpreta el habla instantáneamente en más de 100 idiomas con una voz natural similar a la humana. Sin complementos, sin descargas — solo reuniones multilingües fluidas para equipos globales."
+title: "Videollamadas potenciadas por interpretación simultánea"
+
 isHome: true
 ---
 
 <!-- text="Videollamadas potenciadas por traducción simultánea de voz." -->
 <!-- text="Las aulas tardan años; InterMind ofrece comprensión en tiempo real hoy, en todos los idiomas." -->
 <!-- text="Reuniones por video **multilingües** con interpretación de **voz**" -->
-<!-- title="Reuniones por video con **interpretación** en vivo" -->
+<!-- title="Reuniones por video con interpretación **en vivo**" -->
 
 <HeroSection
-title="Reúnete en **cualquier** idioma"
-text="Habla en tu idioma nativo. Escucha a todos los demás — como si también lo hablaran.">
+title="Reúnase en **cualquier** idioma"
+text="Hable en su idioma nativo. Escuche a todos los demás — como si también lo hablaran.">
 
-<AuthButton text="Escucha la diferencia" buttonClass="brand"/>
-<!-- <ContactFormModalNav buttonText="Solicitar una Demo"/>
+<AuthButton text="Escuche la diferencia" buttonClass="brand"/>
+<!-- <ContactFormModalNav buttonText="Solicitar una demo"/>
 <NavButton to="#pricing" buttonClass="alt" buttonLabel="Precios" /> -->
 </HeroSection>
 
 > **¿Para quién es esto?**  
-> Para equipos internacionales donde las barreras del idioma conducen a pérdida de negocios, retrasos o malentendidos. Los mercados prioritarios incluyen centros de fabricación global, socios industriales de EE. UU., alta tecnología en Asia, UE multilingüe, MENA y América Latina. Aprende más en nuestra sección de [Markets](./product/markets).
+> Diseñado para **equipos globales** donde las barreras del idioma causan retrasos, pérdida de negocios o malentendidos costosos. Aprenda más en nuestra sección de [Markets](./product/markets).
 
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Traducción ≠ Comprensión. Esto es lo siguiente.',
-  details: 'Sin importar el idioma, **tu voz es escuchada — y comprendida** — como si compartieran la misma lengua.',
+  details: 'Sin importar el idioma, **su voz es escuchada — y comprendida** — como si compartieran la misma lengua.',
     items: [
       '⚡︎ De forma natural, en [tiempo real](/product/how-it-works), y sin subtítulos ni retrasos.',
-      '✧ La interpretación impulsada por IA captura el tono, la intención y la terminología específica de la industria.',
+      '✧ La interpretación potenciada por IA captura el tono, la intención y la terminología específica de la industria.',
     ],
   link: './product/what-is-intermind',
   src: {
@@ -40,10 +40,10 @@ text="Habla en tu idioma nativo. Escucha a todos los demás — como si también
 
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: 'La mente dentro de tus reuniones',
+    title: 'La mente dentro de sus reuniones',
     details: 'InterMind convierte cada llamada multilingüe en conocimiento claro y consultable.',
     items: [
-      '🔍 **Pregunta cualquier cosa** — la IA encuentra respuestas **en todas tus reuniones**.',
+      '🔍 **Pregunte cualquier cosa** — la IA encuentra respuestas **en todas sus reuniones**.',
       '✧ Extrae automáticamente tareas, responsables y fechas límite.',
       '✧ Resume los puntos clave en cualquier idioma — instantáneamente.',
     ],
@@ -58,10 +58,9 @@ text="Habla en tu idioma nativo. Escucha a todos los demás — como si también
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Diseñado para reuniones serias — no solo para charlar',
-    details: 'InterMind es una **plataforma de reuniones por video de nivel profesional**, no un complemento o plugin ligero.',
+    details: 'InterMind es una **plataforma de videollamadas de nivel profesional**, no un complemento o plugin ligero.',
     items: [
-      '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, chat de participantes, integración de calendario y traducción — todo incluido, listo para usar.',
-      '✧ **Gratis para siempre** — sin tarjeta de crédito, sin límite de tiempo.',
+      '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat entre participantes e integración con calendario — todo incluido, listo para usar.',
     ],
     link: '/product/how-it-works',
     src: {
@@ -79,7 +78,6 @@ text="Habla en tu idioma nativo. Escucha a todos los demás — como si también
       'InterMind está construido para conversaciones críticas de confianza — donde la privacidad y el control son más importantes.',
     items: [
       '⚡︎ [Privacidad basada en regiones](/product/privacy-architecture) — UE, EE. UU., SE Asia',
-      '✧ Cumple con: GDPR, CCPA, UAE PDPL',
       '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
     ],
     link: '/product/privacy-architecture',
@@ -105,8 +103,8 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
     items: [
       'Reuniones de video de 100 participantes [💬](#3)',
       '30GB de almacenamiento compartido por usuario',
-      '**Traducción de voz simultánea** [💬](#1)',
       'Asistente de reuniones con IA para notas y resúmenes [💬](#2)',
+      '**Interpretación simultánea** [💬](#1)',
     ],
   },
   {
@@ -116,20 +114,21 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
     items: [
       'Reuniones de video de 150 participantes [💬](#3)',
       '2TB de almacenamiento compartido por usuario',
-      '**Traducción de voz simultánea** [💬](#1)',
       'Asistente de reuniones con IA para notas y resúmenes [💬](#2)',
+      '**Interpretación simultánea** [💬](#1)',
     ],
   },
   {
-    title: '**Empresarial** 1-250 usuarios',
+    title: '**Business** 1-250 usuarios',
     price: '**Precio personalizado**',
-    details: 'Diseñado para privacidad y cumplimiento',
+    details: 'Diseñado para la privacidad',
     items: [
       'Reuniones de video de 500 participantes [💬](#3)',
       '5TB de almacenamiento compartido por usuario',
-      '**Traducción de voz simultánea** [💬](#1)',
-      '**Colega IA**. Parece humano. Suena natural. Más inteligente que tú 👽.',
-      '**Enrutamiento de privacidad por región** (UE / EE.UU. / Asia) [💬](#4)',
+      'Asistente de reuniones con IA para notas y resúmenes [💬](#2)',
+      '**Interpretación simultánea** [💬](#1)',
+      '**Enrutamiento de privacidad basado en región** (EU / US / Asia) [💬](#4)',
+      '**Colega IA**. Parece humano. Suena natural. (versión-⍺)',
     ],
   }
 ]">
@@ -146,7 +145,7 @@ Elige el plan que hable tu idioma. Desde subtítulos hasta interpretación de vo
 [
   {
     q: '¿Qué es un usuario con licencia y qué es un participante?',
-    a: 'Un *usuario con licencia* tiene una licencia gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **gratuitamente**.'
+    a: 'Un *usuario con licencia* tiene una licencia gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son los invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **gratuitamente**.'
   },
   {
     q: '¿Cuántos participantes pueden unirse a una reunión?',

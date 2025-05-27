@@ -4,14 +4,14 @@ const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
   description:
-    "多言語ミーティングにZoom、プラグイン、通訳者は必要ありません。InterMindはリアルタイムビデオ通話用のAI音声翻訳ツールです—即座に話して翻訳できます。",
+    "InterMindは多言語ビデオ会議のためのリアルタイム通訳プラットフォームです。参加者は母国語で話し、他の参加者も同じように聞くことができます。プラグインも、ダウンロードも不要。100以上の言語で自然な会話をシームレスに実現します。",
   head: [
     ["meta", { property: "og:title", content: "ライブビデオ通話用AIボイス翻訳 | InterMIND" }],
     [
       "meta",
       {
         name: "keywords",
-        content: "AI音声翻訳、リアルタイム翻訳、ビデオ通話翻訳、多言語ミーティング、Zoom翻訳代替、通訳ツール",
+        content: "AIボイス翻訳, リアルタイム翻訳, ビデオ通話翻訳, 多言語会議, Zoom翻訳代替, 通訳ツール",
       },
     ],
   ],
@@ -24,7 +24,7 @@ export const ja = defineConfig({
         link: `${BASE_PATH}/product/what-is-intermind`,
       },
       {
-        text: "会社情報",
+        text: "企業情報",
         activeMatch: `${BASE_PATH}/company/`,
         link: `${BASE_PATH}/company/about`,
       },
@@ -73,7 +73,7 @@ export const ja = defineConfig({
       successMessage: "ご興味をお持ちいただき、誠にありがとうございます！担当者が shortly にご連絡させていただきます。",
       defaultCategories: [
         "リアルタイム音声通訳に興味があります",
-        "AIミーティングアシスタントに興味があります",
+        "AI会議アシスタントに興味があります",
         "地域ベースのプライバシーとデータ管理に興味があります",
         "その他 / 該当なし",
       ],
@@ -100,7 +100,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "会社概要", link: "/about" },
+    { text: "企業情報", link: "/about" },
     { text: "お問い合わせ", link: "/contacts" },
   ]
 }

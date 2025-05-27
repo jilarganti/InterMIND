@@ -1,17 +1,17 @@
 ---
 layout: home
-title: "Appels vidéo alimentés par la traduction vocale simultanée"
-description: "InterMind est un traducteur vocal alimenté par l'IA pour les appels vidéo en temps réel. Traduisez et interprétez instantanément la parole dans plus de 100 langues avec une voix naturelle et humaine. Pas de plugins, pas de téléchargements — juste des réunions multilingues fluides pour les équipes internationales."
+title: "Appels vidéo alimentés par l'interprétation simultanée"
+
 isHome: true
 ---
 
 <!-- text="Appels vidéo alimentés par la traduction vocale simultanée." -->
 <!-- text="Les salles de classe prennent des années ; InterMind offre une compréhension en temps réel aujourd'hui, dans toutes les langues." -->
 <!-- text="Réunions vidéo **multilingues** avec interprétation **vocale**" -->
-<!-- title="Réunions vidéo avec **interprétation** en direct" -->
+<!-- title="Réunions vidéo avec interprétation **en direct**" -->
 
 <HeroSection
-title="Communiquez dans **n'importe quelle** langue"
+title="Communiquez dans **Toutes** les Langues"
 text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la parlaient aussi.">
 
 <AuthButton text="Découvrez la différence" buttonClass="brand"/>
@@ -20,14 +20,14 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
 </HeroSection>
 
 > **Pour qui est-ce ?**  
-> Pour les équipes internationales où les barrières linguistiques entraînent des pertes de contrats, des retards ou des malentendus. Les marchés prioritaires comprennent les pôles de fabrication mondiaux, les partenaires industriels américains, l'Asie high-tech, l'UE multilingue, la région MENA et l'Amérique latine. En savoir plus dans notre section [Markets](./product/markets).
+> Conçu pour les **équipes internationales** où les barrières linguistiques causent des retards, des opportunités manquées ou des malentendus coûteux. En savoir plus dans notre section [Markets](./product/markets).
 
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Traduction ≠ Compréhension. Voici la suite.',
   details: 'Quelle que soit la langue, **votre voix est entendue — et comprise** — comme si vous parliez la même langue.',
     items: [
-      '⚡︎ Naturellement, en [temps réel](/product/how-it-works), et sans sous-titres ni décalage.',
+      '⚡︎ Naturellement, en [temps réel](/product/how-it-works), sans sous-titres ni décalage.',
       '✧ L\'interprétation alimentée par l\'IA capture le ton, l\'intention et la terminologie spécifique à l\'industrie.',
     ],
   link: './product/what-is-intermind',
@@ -40,11 +40,11 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
 
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: 'L\'Intelligence au cœur de vos réunions',
+    title: 'L\'Intelligence au Cœur de Vos Réunions',
     details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
     items: [
       '🔍 **Posez n\'importe quelle question** — l\'IA trouve des réponses **dans toutes vos réunions**.',
-      '✧ Extrait automatiquement les tâches, les responsables et les délais.',
+      '✧ Extrait automatiquement les tâches, les responsables et les échéances.',
       '✧ Résume les points clés dans n\'importe quelle langue — instantanément.',
     ],
     link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
@@ -57,11 +57,10 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Conçu pour les réunions professionnelles — Pas seulement pour parler',
-    details: 'InterMind est une **plateforme de réunion vidéo de niveau professionnel**, pas un simple complément ou plugin.',
+    title: 'Conçu pour les Réunions Professionnelles — Pas Juste pour Parler',
+    details: 'InterMind est une **plateforme de réunion vidéo de niveau professionnel**, pas un simple module complémentaire ou plugin.',
     items: [
-      '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, chat entre participants, intégration du calendrier et traduction — tout est intégré, prêt à l\'emploi.',
-      '✧ **Gratuit pour toujours** — pas de carte de crédit, pas de limite de temps.',
+      '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat entre participants et intégration du calendrier — tout est intégré, prêt à l\'emploi.',
     ],
     link: '/product/how-it-works',
     src: {
@@ -74,12 +73,11 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Confidentialité là où elle compte',
+    title: 'Confidentialité Là Où Elle Compte',
     details:
-      'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle sont essentiels.',
+      'InterMind est conçu pour les conversations critiques — où la confidentialité et le contrôle sont essentiels.',
     items: [
       '⚡︎ [Confidentialité basée sur les régions](/product/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
-      '✧ Conforme : RGPD, CCPA, UAE PDPL',
       '✧ **Zéro entraînement de données**. Aucun accès tiers.'
     ],
     link: '/product/privacy-architecture',
@@ -95,7 +93,7 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
 
 ## Prix Clairs et Simples
 
-Choisissez le forfait qui vous parle. Des sous-titres à l'interprétation vocale complète — évoluez au rythme de votre équipe.
+Choisissez le forfait qui vous correspond. Des sous-titres à l'interprétation vocale complète — évoluez au rythme de votre équipe.
 
 <PricingPlans :plans="[
   {
@@ -105,31 +103,32 @@ Choisissez le forfait qui vous parle. Des sous-titres à l'interprétation vocal
     items: [
       'Réunions vidéo jusqu\'à 100 participants [💬](#3)',
       '30 Go de stockage mutualisé par utilisateur',
-      '**Traduction vocale simultanée** [💬](#1)',
-      'Assistant IA pour les notes et résumés [💬](#2)',
+      'Assistant de réunion IA pour les notes et résumés [💬](#2)',
+      '**Interprétation simultanée** [💬](#1)',
     ],
   },
   {
     title: '**Pro** 1-99 utilisateurs',
-    price: '**20€** /mois/utilisateur, facturation annuelle',
-    details: 'ou 25€ par mois',
+    price: '**20 €** /mois/utilisateur, facturation annuelle',
+    details: 'ou 25 € facturation mensuelle',
     items: [
       'Réunions vidéo jusqu\'à 150 participants [💬](#3)',
       '2 To de stockage mutualisé par utilisateur',
-      '**Traduction vocale simultanée** [💬](#1)',
-      'Assistant IA pour les notes et résumés [💬](#2)',
+      'Assistant de réunion IA pour les notes et résumés [💬](#2)',
+      '**Interprétation simultanée** [💬](#1)',
     ],
   },
   {
     title: '**Business** 1-250 utilisateurs',
     price: '**Prix personnalisé**',
-    details: 'Conçu pour la confidentialité et la conformité',
+    details: 'Conçu pour la confidentialité',
     items: [
       'Réunions vidéo jusqu\'à 500 participants [💬](#3)',
       '5 To de stockage mutualisé par utilisateur',
-      '**Traduction vocale simultanée** [💬](#1)',
-      '**Collègue IA**. Apparence humaine. Voix naturelle. Plus intelligent que vous 👽.',
+      'Assistant de réunion IA pour les notes et résumés [💬](#2)',
+      '**Interprétation simultanée** [💬](#1)',
       '**Routage privé par région** (UE / États-Unis / Asie) [💬](#4)',
+      '**Collègue IA**. Apparence humaine. Voix naturelle. (version ⍺)',
     ],
   }
 ]">
@@ -190,7 +189,7 @@ Choisissez le forfait qui vous parle. Des sous-titres à l'interprétation vocal
   },
   {
     q: 'Puis-je annuler mon abonnement à tout moment ?',
-    a: 'Oui. Les *forfaits mensuels* sont annulés à la fin du cycle de facturation. Les *forfaits annuels* peuvent être annulés avec un **remboursement au prorata**.'
+    a: 'Oui. Les *forfaits mensuels* s\'annulent à la fin du cycle de facturation. Les *forfaits annuels* peuvent être annulés avec un **remboursement au prorata**.'
   },
   {
     q: 'Comment puis-je mettre à niveau ou rétrograder mon forfait ?',
