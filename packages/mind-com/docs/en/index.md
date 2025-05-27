@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "AI Voice Translator for Live Video Calls"
-description: "Multilingual meetings don’t need Zoom, plugins, or interpreters. InterMind is an AI voice translator for real-time video calls — speak and translate instantly."
+title: "Video calls powered by simultaneous voice translation"
+description: "InterMind is an AI-powered voice translator for real-time video calls. Instantly translate and interpret speech in 100+ languages with natural, human-like voice. No plugins, no downloads — just seamless multilingual meetings for global teams."
 isHome: true
 ---
 
@@ -12,7 +12,7 @@ isHome: true
 
 <HeroSection
 title="Meet in **Any** Language"
-text="Not just translation. Simultaneous, voice-first interpretation that feels human.">
+text="Video calls powered by simultaneous voice translation.">
 
 <AuthButton text="Hear the difference" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Request a Demo"/>
