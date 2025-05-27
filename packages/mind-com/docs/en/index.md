@@ -38,7 +38,7 @@ text="New generation of video calls. AI voice translation — evolved into real-
   inversion: false
 }" />
 
-<span id="3"></span>
+<span id="2"></span>
 <FeatureBlock :card="{
     title: 'The Mind Within Your Meetings',
     details: 'InterMind turns every multilingual call into clear, searchable knowledge.',
@@ -55,12 +55,12 @@ text="New generation of video calls. AI voice translation — evolved into real-
     inversion: true
   }" />
 
-<span id="2"></span>
+<span id="3"></span>
 <FeatureBlock :card="{
     title: 'Built for Serious Meetings — Not Just Talking',
     details: 'InterMind is a **professional-grade video meeting platform**, not a lightweight add-on or plugin.',
     items: [
-      '✧ 1080p resolution, smart noise suppression, scheduling, moderation, screen sharing, recording, participant chat, calendar integration and voice translation with subtitles — all built in, ready to go.',
+      '✧ 1080p resolution, smart noise suppression, scheduling, moderation, screen sharing, recording, participant chat, calendar integration and translation — all built in, ready to go.',
       '✧ **Free Forever** — no credit card, no time limit.',
     ],
     link: '/product/how-it-works',
@@ -100,13 +100,13 @@ Choose the plan that speaks your language. From subtitles to full voice interpre
 <PricingPlans :plans="[
   {
     title: '**Basic** 1 user',
-    price: '**Free Forever**',
-    details: 'Not a toy. Just a door.',
+    price: '**Free**',
+    details: '25 free meetings',
     items: [
-      '100 participant video meetings [💬](#2)',
+      '100 participant video meetings [💬](#3)',
       '30GB pooled storage per user',
-      'Voice translation with subtitles [💬](#2)',
-      'AI meeting assistant for notes & summaries [💬](#3)',
+      '**Simultaneous voice translation** [💬](#1)',
+      'AI meeting assistant for notes & summaries [💬](#2)',
     ],
   },
   {
@@ -114,10 +114,10 @@ Choose the plan that speaks your language. From subtitles to full voice interpre
     price: '**$20** /month/user, billed annually',
     details: 'or $25 billed monthly',
     items: [
-      '150 participant video meetings [💬](#2)',
+      '150 participant video meetings [💬](#3)',
       '2TB pooled storage per user',
-      'Voice translation with subtitles [💬](#2) + **Two-way voice-to-voice interpretation** [💬](#1)',
-      'AI assistant that **turns talk into action** (with tasks, highlights & transcripts) [💬](#3)',
+      '**Simultaneous voice translation** [💬](#1)',
+      'AI meeting assistant for notes & summaries [💬](#2)',
     ],
   },
   {
@@ -125,16 +125,15 @@ Choose the plan that speaks your language. From subtitles to full voice interpre
     price: '**Custom pricing**',
     details: 'Built for privacy & compliance',
     items: [
-      '500 participant video meetings[💬](#2)',
+      '500 participant video meetings [💬](#3)',
       '5TB pooled storage per user',
-      'Voice translation with subtitles [💬](#2) + **Two-way voice-to-voice interpretation** [💬](#1)',
+      '**Simultaneous voice translation** [💬](#1)',
       '**AI colleague**. Looks human. Sounds natural. Smarter than you 👽.',
-      'GDPR, CCPA, PDPL-ready architecture',
       '**Region-based privacy routing** (EU / US / Asia) [💬](#4)',
     ],
   }
 ]">
-<AuthButton text="Try it free" buttonClass="alt"/>
+<AuthButton text="Try for free" buttonClass="alt"/>
 <AuthButton text="Buy now" buttonClass="brand"/>
 <ContactFormModalNav buttonText="Talk to our team" buttonClass="alt"/>
 </PricingPlans>
