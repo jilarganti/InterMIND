@@ -12,7 +12,7 @@ isHome: true
 
 <HeroSection
 title="Meet in **Any** Language"
-text="New generation of video calls. AI voice translation — evolved into real-time interpretation.">
+text="Not just translation. Simultaneous, voice-first interpretation that feels human.">
 
 <AuthButton text="Hear the difference" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Request a Demo"/>

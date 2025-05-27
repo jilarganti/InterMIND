@@ -12,7 +12,7 @@ isHome: true
 
 <HeroSection
 title="Communiquez dans **Toutes** les Langues"
-text="Nouvelle génération d'appels vidéo. Traduction vocale par IA — évoluée en interprétation en temps réel.">
+text="Nouvelle génération d'appels vidéo. Traduction vocale IA — évoluée en interprétation en temps réel.">
 
 <AuthButton text="Écoutez la différence" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Demander une Démo"/>
@@ -95,7 +95,7 @@ text="Nouvelle génération d'appels vidéo. Traduction vocale par IA — évolu
 
 ## Prix Clairs et Simples
 
-Choisissez le forfait qui vous correspond. Des sous-titres à l'interprétation vocale complète — évoluez au rythme de votre équipe.
+Choisissez le forfait qui vous parle. Des sous-titres à l'interprétation vocale complète — évoluez au rythme de votre équipe.
 
 <PricingPlans :plans="[
   {
@@ -103,7 +103,7 @@ Choisissez le forfait qui vous correspond. Des sous-titres à l'interprétation 
     price: '**Gratuit**',
     details: '25 réunions gratuites',
     items: [
-      'Réunions vidéo jusqu'à 100 participants [💬](#3)',
+      'Réunions vidéo jusqu\'à 100 participants [💬](#3)',
       '30 Go de stockage mutualisé par utilisateur',
       '**Traduction vocale simultanée** [💬](#1)',
       'Assistant IA pour les notes et résumés [💬](#2)',
@@ -114,7 +114,7 @@ Choisissez le forfait qui vous correspond. Des sous-titres à l'interprétation 
     price: '**20€** /mois/utilisateur, facturation annuelle',
     details: 'ou 25€ par mois',
     items: [
-      'Réunions vidéo jusqu'à 150 participants [💬](#3)',
+      'Réunions vidéo jusqu\'à 150 participants [💬](#3)',
       '2 To de stockage mutualisé par utilisateur',
       '**Traduction vocale simultanée** [💬](#1)',
       'Assistant IA pour les notes et résumés [💬](#2)',
@@ -125,7 +125,7 @@ Choisissez le forfait qui vous correspond. Des sous-titres à l'interprétation 
     price: '**Prix personnalisé**',
     details: 'Conçu pour la confidentialité et la conformité',
     items: [
-      'Réunions vidéo jusqu'à 500 participants [💬](#3)',
+      'Réunions vidéo jusqu\'à 500 participants [💬](#3)',
       '5 To de stockage mutualisé par utilisateur',
       '**Traduction vocale simultanée** [💬](#1)',
       '**Collègue IA**. Apparence humaine. Voix naturelle. Plus intelligent que vous 👽.',
@@ -146,7 +146,7 @@ Choisissez le forfait qui vous correspond. Des sous-titres à l'interprétation 
 [
   {
     q: 'Qu\'est-ce qu\'un utilisateur sous licence et qu\'est-ce qu\'un participant ?',
-    a: 'Un *utilisateur sous licence* dispose d\'une licence gratuite ou payante et peut planifier des réunions selon les limites de son forfait. Les *participants* sont les invités — ils **n\'ont pas besoin de compte ni de licence** pour rejoindre et peuvent se connecter depuis n\'importe quel appareil **gratuitement**.'
+    a: 'Un *utilisateur sous licence* dispose d\'une licence gratuite ou payante et peut planifier des réunions dans les limites de son forfait. Les *participants* sont les invités — ils **n\'ont pas besoin de compte ni de licence** pour rejoindre et peuvent se connecter depuis n\'importe quel appareil **gratuitement**.'
   },
   {
     q: 'Combien de participants peuvent rejoindre une réunion ?',
@@ -170,7 +170,7 @@ Choisissez le forfait qui vous correspond. Des sous-titres à l'interprétation 
   },
   {
     q: 'Y a-t-il une limite au nombre de réunions que je peux organiser ?',
-    a: 'Non. Vous pouvez organiser des **réunions illimitées** — même avec le forfait *Free Basic*. Les forfaits *Pro* et *Business* offrent plus de puissance, de participants et de contrôle.'
+    a: 'Non. Vous pouvez organiser des **réunions illimitées** — même avec le forfait *Basic gratuit*. Les forfaits *Pro* et *Business* offrent plus de puissance, de participants et de contrôle.'
   },
   {
     q: 'Que faire si j\'ai besoin de plus de stockage pour les enregistrements ?',
@@ -182,7 +182,7 @@ Choisissez le forfait qui vous correspond. Des sous-titres à l'interprétation 
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un forfait ?',
-    a: 'Absolument. Le forfait *Free Basic* vous donne un accès complet aux fonctionnalités de base — y compris les **réunions multilingues**, les **sous-titres** et un **assistant IA**. Pas de carte de crédit, **pas de limite de temps**. Passez à la version supérieure à tout moment.'
+    a: 'Absolument. Le forfait *Basic gratuit* vous donne un accès complet aux fonctionnalités de base — y compris les **réunions multilingues**, les **sous-titres** et un **assistant IA**. Pas de carte de crédit, **pas de limite de temps**. Passez à la version supérieure à tout moment.'
   },
   {
     q: 'Que faire si j\'ai besoin d\'aide ou de support ?',
