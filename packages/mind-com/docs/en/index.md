@@ -156,8 +156,8 @@ From first call to fluent conversations — at any scale.
     a: 'Each *licensed user* can host **unlimited meetings**. If multiple team members need to host meetings simultaneously, each will need their own license.'
   },
   {
-    q: 'Does voice interpretation work on all plans?',
-    a: 'Yes, *voice interpretation* is available across all plans. On *Basic*, it works with **subtitles only**. *Pro* and *Business* unlock full **two-way voice-to-voice interpretation**, more capacity, and advanced features.'
+    q: 'Does simultaneous interpretation work on all plans?',
+    a: 'Yes, *simultaneous interpretation* is available across all plans.'
   },
   {
     q: 'What is the maximum duration of a meeting?',
@@ -169,19 +169,19 @@ From first call to fluent conversations — at any scale.
   },
   {
     q: 'Is there a limit on the number of meetings I can host?',
-    a: 'No. You can host **unlimited meetings** — even on the *Free Basic* plan. *Pro* and *Business* plans offer more power, participants, and control.'
+    a: 'The *Free Basic* plan includes **25 free meetings**. *Pro* and *Business* plans offer unlimited meetings with more participants and control.'
   },
   {
     q: 'What if I need more storage for recordings?',
-    a: '*Pro* includes **2 TB** of pooled storage per user. *Business* offers **5 TB**. Need more? **Contact us** for custom options.'
+    a: '*Basic* includes **30 GB** of pooled storage per user. *Pro* includes **2 TB** and *Business* offers **5 TB**. Need more? **Contact us** for custom options.'
   },
   {
     q: 'How does InterMind ensure data privacy and security?',
-    a: 'InterMind is **private by design**. All data is processed and stored in your selected region — *EU, US, or Asia*. We comply with **GDPR, CCPA, and UAE PDPL**, and **never use your content** for training or third-party access.'
+    a: 'InterMind is **private by design**. All data is processed and stored in your selected region — *EU, US, or Asia*. We comply with **GDPR, CCPA, and UAE PDPL**, and **never use your content** for training or third-party access. **Region-based privacy routing** is available on the *Business* plan.'
   },
   {
     q: 'Can I try InterMind before purchasing a plan?',
-    a: 'Absolutely. The *Free Basic* plan gives you full access to core features — including **multilingual meetings**, **subtitles**, and an **AI assistant**. No credit card, **no time limit**. Upgrade anytime.'
+    a: 'Absolutely. The *Free Basic* plan gives you full access to core features with **25 free meetings** — including **simultaneous interpretation** and **meeting search**. No credit card required. Upgrade anytime.'
   },
   {
     q: 'What if I need help or support?',
@@ -196,8 +196,8 @@ From first call to fluent conversations — at any scale.
     a: 'You can change your plan anytime through your **account settings**. Changes take effect **immediately**.'
   },
   {
-    q: 'What languages does InterMind support for voice interpretation?',
-    a: 'We support **100+ languages** with real-time voice interpretation. The list keeps growing — check our website for updates.'
+    q: 'What languages does InterMind support for interpretation?',
+    a: 'We support **100+ languages** with real-time interpretation. The list keeps growing — check our website for updates.'
   },
   {
     q: 'Can I use InterMind for webinars or large events?',
