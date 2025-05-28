@@ -119,6 +119,5 @@ This section provides solutions for common issues encountered during online meet
 
 - Verify permissions with the Host
 
-::: tip
-If you continue experiencing issues, ensure your browser is updated to the latest version and that you have a stable internet connection of at least 2 Mbps.
-:::
+> [!TIP]
+> If you continue experiencing issues, ensure your browser is updated to the latest version and that you have a stable internet connection of at least 2 Mbps.

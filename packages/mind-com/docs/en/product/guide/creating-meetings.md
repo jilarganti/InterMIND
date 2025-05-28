@@ -22,9 +22,8 @@ This option permits users to generate a reusable meeting link without initiating
 4. Copy the link and share it with participants
 5. You can join the meeting at any time using this link
 
-::: tip
-This option is particularly advantageous for team members who will join at different times or for future planning.
-:::
+> [!TIP]
+> This option is particularly advantageous for team members who will join at different times or for future planning.
 
 ## Start an Instant Meeting
 
@@ -39,9 +38,8 @@ This option empowers users to initiate a live meeting session immediately.
 5. Utilize the 'Copy Link' option located in the bottom left corner, or copy the link from the browser's address bar
 6. Share the link with other participants
 
-::: tip
-This option is ideal for quick synchronization or spontaneous collaboration.
-:::
+> [!TIP]
+> This option is ideal for quick synchronization or spontaneous collaboration.
 
 ## Schedule in Google Calendar
 
@@ -59,6 +57,5 @@ Schedule a future meeting and seamlessly integrate it into your Google Calendar.
    - Notifications
 6. Click **Save** and send invites from Google Calendar
 
-::: info
-This requires a connected Google Account and is particularly suitable for organized teams with integrated calendars.
-:::
+> [!INFO]
+> This requires a connected Google Account and is particularly suitable for organized teams with integrated calendars.

@@ -98,6 +98,5 @@ Each meeting row features content-related tabs:
 - **Hosts, Moderators, and signed-in Participants** have full access to their own meeting history
 - **Guest users and anonymous attendees** do not have access to the history page or its contents
 
-::: tip
-Utilize the Meeting History page to replay key discussions, retrieve important notes, and follow up on action items using summaries and transcripts—making it an essential tool for team documentation, audits, or compliance workflows.
-:::
+> [!TIP]
+> Utilize the Meeting History page to replay key discussions, retrieve important notes, and follow up on action items using summaries and transcripts—making it an essential tool for team documentation, audits, or compliance workflows.

@@ -20,9 +20,8 @@ This method is recommended for quick access and seamless synchronization with Go
 2. A pop-up window will appear, prompting you to select your Google account
 3. Authorize access to your basic profile information by clicking the **Continue** button
 
-::: warning
-If you prefer not to grant access to your basic profile information, click the **Cancel** button. You will be redirected back to the Sign in to your account page, where you can sign up using your external email address.
-:::
+> [!WARNING]
+> If you prefer not to grant access to your basic profile information, click the **Cancel** button. You will be redirected back to the Sign in to your account page, where you can sign up using your external email address.
 
 4. You will be directed to your iMind Meeting main page; no further setup is necessary
 
@@ -41,9 +40,8 @@ This method is advisable for individuals who either do not possess a Google acco
    - **First Name**
    - **Last Name**
 
-::: tip
-To ensure optimal account security, please create a password that meets the complex requirements listed above.
-:::
+> [!TIP]
+> To ensure optimal account security, please create a password that meets the complex requirements listed above.
 
 3. After completing the form, click the **Register** button
 4. Once registered successfully, you can log in using your email and password
@@ -74,9 +72,8 @@ If you created your account using an external email address:
 3. (Optional) Check the **Remember me** box to stay signed in on this device
 4. Click **Sign In** to proceed
 
-::: warning
-Select "Remember me" only on trusted devices to prevent unauthorized access.
-:::
+> [!WARNING]
+> Select "Remember me" only on trusted devices to prevent unauthorized access.
 
 ## User Profile
 
@@ -112,9 +109,8 @@ Configure your default device and user interface preferences:
 | Language                   | Choose the preferred language for the Translator  |
 | Background Blur            | Enable or disable the blur effect during meetings |
 
-::: info
-Changes are automatically saved and will apply to all future meetings.
-:::
+> [!INFO]
+> Changes are automatically saved and will apply to all future meetings.
 
 #### Communication Preferences
 
@@ -131,6 +127,5 @@ To permanently delete your account:
 2. Confirm the prompt (note: this action is irreversible)
 3. Your data, history, and preferences will be permanently erased
 
-::: danger
-Deleted accounts cannot be recovered. Please ensure you download any important information beforehand. Your name will appear as 'Deleted User' in any history meetings.
-:::
+> [!DANGER]
+> Deleted accounts cannot be recovered. Please ensure you download any important information beforehand. Your name will appear as 'Deleted User' in any history meetings.

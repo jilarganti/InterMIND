@@ -20,9 +20,8 @@ iMind Meeting is optimized for both desktop and mobile use, allowing users to jo
 3. Sign in or join a meeting link directly as a guest
 4. Grant camera and microphone permissions when prompted
 
-::: warning
-Some advanced features, such as screen sharing, may be restricted to certain browsers due to system limitations.
-:::
+> [!WARNING]
+> Some advanced features, such as screen sharing, may be restricted to certain browsers due to system limitations.
 
 ### Recommended Browsers
 
@@ -52,9 +51,8 @@ Some advanced features, such as screen sharing, may be restricted to certain bro
 - Screen sharing (desktop browsers only)
 - Layout and viewing options
 
-::: tip
-Ensure your browser has permissions enabled for camera, microphone, and pop-ups.
-:::
+> [!TIP]
+> Ensure your browser has permissions enabled for camera, microphone, and pop-ups.
 
 ### Network & Performance Tips
 
@@ -65,9 +63,8 @@ To ensure a smooth experience:
   - 5+ Mbps is recommended for HD videos
 - Close unused tabs and background applications
 
-::: info
-Keeping your browser updated is essential for optimal performance.
-:::
+> [!INFO]
+> Keeping your browser updated is essential for optimal performance.
 
 ## Best Practices for Effective Meetings
 

@@ -66,9 +66,8 @@ Guests are users who join the meeting without signing in.
 - Utilize layout and viewing options (personal only)
 - Engage in chat and raise hand
 
-::: warning
-Guests cannot access any AI features, view transcripts, or manage other participants.
-:::
+> [!WARNING]
+> Guests cannot access any AI features, view transcripts, or manage other participants.
 
 ## Role Permissions Summary
 

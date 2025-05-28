@@ -77,9 +77,8 @@ Users can utilize prompts such as:
 
 ### Access Requirements
 
-::: warning
-The AI Assistant is exclusively available to signed-in users, including Hosts, Moderators, or Participants. It does not engage publicly in the chat and is not accessible to Guest users.
-:::
+> [!WARNING]
+> The AI Assistant is exclusively available to signed-in users, including Hosts, Moderators, or Participants. It does not engage publicly in the chat and is not accessible to Guest users.
 
 ### Privacy
 
