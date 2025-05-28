@@ -95,7 +95,17 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     {
       text: "Guide",
       collapsed: false,
-      items: [{ text: "Getting Started", link: "guide/getting-started" }],
+      items: [
+        { text: "Getting Started", link: "guide/getting-started" },
+        { text: "Account Management", link: "guide/account-management" },
+        { text: "Creating Meetings", link: "guide/creating-meetings" },
+        { text: "Meeting Interface", link: "guide/meeting-interface" },
+        { text: "User Roles", link: "guide/user-roles" },
+        { text: "AI Features", link: "guide/ai-features" },
+        { text: "Meeting History", link: "guide/meeting-history" },
+        { text: "FAQ", link: "guide/faq" },
+        { text: "Troubleshooting", link: "guide/troubleshooting" },
+      ],
     },
   ]
 }
