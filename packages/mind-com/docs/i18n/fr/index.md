@@ -8,7 +8,7 @@ isHome: true
 <!-- text="Appels vidéo alimentés par la traduction vocale simultanée." -->
 <!-- text="Les salles de classe prennent des années ; InterMind offre une compréhension en temps réel aujourd'hui, dans toutes les langues." -->
 <!-- text="Réunions vidéo **multilingues** avec interprétation **vocale**" -->
-<!-- title="Réunions vidéo avec interprétation **en direct**" -->
+<!-- title="Réunions vidéo avec **interprétation** en direct" -->
 
 <HeroSection
 title="Communiquez dans **Toutes** les Langues"
@@ -27,10 +27,10 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
   title: 'Traduction ≠ Compréhension. Voici la suite.',
   details: 'Quelle que soit la langue, **votre voix est entendue — et comprise** — comme si vous parliez la même langue.',
     items: [
-      '⚡︎ Naturellement, en [temps réel](/product/how-it-works), sans sous-titres ni décalage.',
+      '⚡︎ Naturellement, en [temps réel](./product/overview/how-it-works), sans sous-titres ni décalage.',
       '✧ L\'interprétation alimentée par l\'IA capture le ton, l\'intention et la terminologie spécifique à l\'industrie.',
     ],
-  link: './product/what-is-intermind',
+  link: './product/overview/what-is-intermind',
   src: {
     light: '/1.png',
     dark: '/1.png',
@@ -47,7 +47,7 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
       '✧ Extrait automatiquement les tâches, les responsables et les délais.',
       '✧ Résume les points clés dans n\'importe quelle langue — instantanément.',
     ],
-    link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
+    link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
     src: {
       light: '/2l.png',
       dark: '/2d.png',
@@ -58,11 +58,11 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Conçu pour les Réunions Professionnelles — Pas Juste pour Parler',
-    details: 'InterMind est une **plateforme de réunion vidéo de niveau professionnel**, pas un simple module complémentaire ou plugin.',
+    details: 'InterMind est une **plateforme de réunion vidéo professionnelle**, pas un simple module complémentaire ou plugin.',
     items: [
       '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat entre participants et intégration du calendrier — tout est intégré, prêt à l\'emploi.',
     ],
-    link: '/product/how-it-works',
+    link: './product/overview/how-it-works',
     src: {
       light: '/3.png',
       dark: '/3.png',
@@ -73,14 +73,14 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Confidentialité Là Où Elle Compte',
+    title: 'Confidentialité Là Où C\'est Important',
     details:
-      'InterMind est conçu pour les conversations critiques — où la confidentialité et le contrôle sont essentiels.',
+      'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle sont essentiels.',
     items: [
-      '⚡︎ [Routage de confidentialité par région](/product/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
+      '⚡︎ [Routage de confidentialité par région](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
       '✧ **Zéro entraînement de données**. Aucun accès tiers.'
     ],
-    link: '/product/privacy-architecture',
+    link: './product/overview/privacy-architecture',
     src: {
       light: '/4.png',
       dark: '/4.png',

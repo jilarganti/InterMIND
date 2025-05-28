@@ -16,9 +16,9 @@ export default {
     // const { site } = useData()
     // const buttonLabel = useData().site.value.themeConfig.localization.buttonLabel4AuthButton
     return h(DefaultTheme.Layout, null, {
-      "nav-bar-content-before": () => {
-        return h(SearchInput)
-      },
+      // "nav-bar-content-before": () => {
+      //   return h(SearchInput)
+      // },
       "nav-bar-content-after": () =>
         h("div", { class: "auth-buttons-container" }, [
           h(AuthButton, { text: useData().site.value.themeConfig.localization.buttonLabel4AuthButton, buttonClass: "alt" }),

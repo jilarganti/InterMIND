@@ -20,17 +20,17 @@ text="Speak your native language. Hear everyone else — as if they spoke it too
 </HeroSection>
 
 > **Who is this for?**  
-> Built for **global teams** where language barriers cause delays, lost deals, or costly misunderstandings. Learn more in our [Markets](./product/overview/markets) section.
+> Built for **global teams** where language barriers cause delays, lost deals, or costly misunderstandings. [Learn more ...](./product/overview/markets)
 
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Translation ≠ Understanding. Here’s what’s next.',
   details: 'No matter the language, **your voice is heard — and understood** — as if you shared the same tongue.',
     items: [
-      '⚡︎ Naturally, in [real time](/product/how-it-works), and without subtitles or lag.',
+      '⚡︎ Naturally, in [real time](./product/overview/how-it-works), and without subtitles or lag.',
       '✧ AI-powered interpretation captures tone, intent, and industry-specific terminology.',
     ],
-  link: './product/what-is-intermind',
+  link: './product/overview/what-is-intermind',
   src: {
     light: '/1.png',
     dark: '/1.png',
@@ -47,7 +47,7 @@ text="Speak your native language. Hear everyone else — as if they spoke it too
       '✧ Auto-extracts tasks, owners, and deadlines.',
       '✧ Summarizes key points in any language — instantly.',
     ],
-    link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
+    link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
     src: {
       light: '/2l.png',
       dark: '/2d.png',
@@ -62,7 +62,7 @@ text="Speak your native language. Hear everyone else — as if they spoke it too
     items: [
       '✧ 1080p resolution, smart noise suppression, scheduling, moderation, screen sharing, recording, subtitling, participant chat and calendar integration — all built in, ready to go.',
     ],
-    link: '/product/how-it-works',
+    link: './product/overview/how-it-works',
     src: {
       light: '/3.png',
       dark: '/3.png',
@@ -77,10 +77,10 @@ text="Speak your native language. Hear everyone else — as if they spoke it too
     details:
       'InterMind is built for trust-critical conversations — where privacy and control matter most.',
     items: [
-      '⚡︎ [Region-based privacy routing](/product/privacy-architecture) — EU, US, SE Asia',
+      '⚡︎ [Region-based privacy routing](./product/overview/privacy-architecture) — EU, US, SE Asia',
       '✧ **Zero data training**. No third-party access.'
     ],
-    link: '/product/privacy-architecture',
+    link: './product/overview/privacy-architecture',
     src: {
       light: '/4.png',
       dark: '/4.png',

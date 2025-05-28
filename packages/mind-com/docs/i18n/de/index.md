@@ -12,7 +12,7 @@ isHome: true
 
 <HeroSection
 title="Treffen Sie sich in **jeder** Sprache"
-text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen – als ob sie diese auch sprechen würden.">
+text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen — als ob sie diese auch sprechen würden.">
 
 <AuthButton text="Hören Sie den Unterschied" buttonClass="brand"/>
 <!-- <ContactFormModalNav buttonText="Demo anfordern"/>
@@ -27,10 +27,10 @@ text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen – als ob si
   title: 'Übersetzung ≠ Verständnis. Das ist der nächste Schritt.',
   details: 'Egal in welcher Sprache, **Ihre Stimme wird gehört — und verstanden** — als ob Sie die gleiche Sprache sprechen würden.',
     items: [
-      '⚡︎ Natürlich, in [Echtzeit](/product/how-it-works), und ohne Untertitel oder Verzögerung.',
+      '⚡︎ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
       '✧ KI-gestützte Dolmetschung erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
     ],
-  link: './product/what-is-intermind',
+  link: './product/overview/what-is-intermind',
   src: {
     light: '/1.png',
     dark: '/1.png',
@@ -47,7 +47,7 @@ text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen – als ob si
       '✧ Extrahiert automatisch Aufgaben, Verantwortliche und Fristen.',
       '✧ Fasst Kernpunkte in jeder Sprache sofort zusammen.',
     ],
-    link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
+    link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
     src: {
       light: '/2l.png',
       dark: '/2d.png',
@@ -62,7 +62,7 @@ text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen – als ob si
     items: [
       '✧ 1080p Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufnahme, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles eingebaut und sofort einsatzbereit.',
     ],
-    link: '/product/how-it-works',
+    link: './product/overview/how-it-works',
     src: {
       light: '/3.png',
       dark: '/3.png',
@@ -77,10 +77,10 @@ text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen – als ob si
     details:
       'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Privatsphäre und Kontrolle am wichtigsten sind.',
     items: [
-      '⚡︎ [Regionsbasiertes Privacy-Routing](/product/privacy-architecture) — EU, USA, SO-Asien',
+      '⚡︎ [Regionsbasiertes Privacy-Routing](./product/overview/privacy-architecture) — EU, USA, SO-Asien',
       '✧ **Kein Datentraining**. Kein Zugriff durch Dritte.'
     ],
-    link: '/product/privacy-architecture',
+    link: './product/overview/privacy-architecture',
     src: {
       light: '/4.png',
       dark: '/4.png',
@@ -120,7 +120,7 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
   },
   {
     title: '**Business** 1-250 Benutzer',
-    price: '**Individueller Preis**',
+    price: '**Individuelle Preisgestaltung**',
     details: 'Entwickelt für Datenschutz',
     items: [
       '**500** Teilnehmer Videomeetings [💬](#3)',
@@ -151,7 +151,7 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
 [
   {
     q: 'Was ist ein Lizenzierter Benutzer und was ist ein Teilnehmer?',
-    a: 'Ein *lizenzierter Benutzer* hat eine kostenlose oder bezahlte Meeting-Lizenz und kann Meetings innerhalb der Grenzen seines Plans planen. *Teilnehmer* sind Eingeladene — sie **benötigen kein Konto oder Lizenz** zum Beitreten und können sich von jedem Gerät aus **kostenlos** verbinden.'
+    a: 'Ein *lizenzierter Benutzer* hat eine kostenlose oder bezahlte Meeting-Lizenz und kann Meetings innerhalb der Grenzen seines Plans planen. *Teilnehmer* sind Eingeladene — sie **benötigen kein Konto oder Lizenz** zur Teilnahme und können sich von jedem Gerät aus **kostenlos** verbinden.'
   },
   {
     q: 'Wie viele Personen können eine InterMind-Lizenz nutzen?',
@@ -183,7 +183,7 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
   },
   {
     q: 'Welche Sprachen unterstützt InterMind für Dolmetschen?',
-    a: 'Wir unterstützen **über 100 Sprachen** mit Echtzeit-Dolmetschen. Die Liste wächst ständig — aktuelle Updates finden Sie auf unserer Website.'
+    a: 'Wir unterstützen **über 100 Sprachen** mit Echtzeit-Dolmetschen. Die Liste wächst stetig — aktuelle Updates finden Sie auf unserer Website.'
   },
   {
     q: 'Kann ich InterMind für Webinare oder große Veranstaltungen nutzen?',

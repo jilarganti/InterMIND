@@ -11,11 +11,11 @@ isHome: true
 <!-- title="Reuniones por video con interpretación **en vivo**" -->
 
 <HeroSection
-title="Reúnase en **Cualquier** Idioma"
+title="Reúnase en **cualquier** idioma"
 text="Hable en su idioma nativo. Escuche a todos los demás — como si también lo hablaran.">
 
 <AuthButton text="Escuche la diferencia" buttonClass="brand"/>
-<!-- <ContactFormModalNav buttonText="Solicitar una Demo"/>
+<!-- <ContactFormModalNav buttonText="Solicitar una demo"/>
 <NavButton to="#pricing" buttonClass="alt" buttonLabel="Precios" /> -->
 </HeroSection>
 
@@ -24,13 +24,13 @@ text="Hable en su idioma nativo. Escuche a todos los demás — como si también
 
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: 'Traducción ≠ Comprensión. Esto es lo siguiente.',
+  title: 'Traducción ≠ Comprensión. Esto es lo que sigue.',
   details: 'Sin importar el idioma, **su voz es escuchada — y comprendida** — como si compartieran la misma lengua.',
     items: [
-      '⚡︎ De forma natural, en [tiempo real](/product/how-it-works), y sin subtítulos ni retrasos.',
+      '⚡︎ De forma natural, en [tiempo real](./product/overview/how-it-works), y sin subtítulos ni retrasos.',
       '✧ La interpretación potenciada por IA captura el tono, la intención y la terminología específica de la industria.',
     ],
-  link: './product/what-is-intermind',
+  link: './product/overview/what-is-intermind',
   src: {
     light: '/1.png',
     dark: '/1.png',
@@ -40,14 +40,14 @@ text="Hable en su idioma nativo. Escuche a todos los demás — como si también
 
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: 'La Mente Dentro de Sus Reuniones',
+    title: 'La mente dentro de sus reuniones',
     details: 'InterMind convierte cada llamada multilingüe en conocimiento claro y consultable.',
     items: [
       '🔍 **Pregunte cualquier cosa** — la IA encuentra respuestas **en todas sus reuniones**.',
       '✧ Extrae automáticamente tareas, responsables y fechas límite.',
       '✧ Resume los puntos clave en cualquier idioma — instantáneamente.',
     ],
-    link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
+    link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
     src: {
       light: '/2l.png',
       dark: '/2d.png',
@@ -57,12 +57,12 @@ text="Hable en su idioma nativo. Escuche a todos los demás — como si también
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Diseñado para Reuniones Serias — No Solo para Charlar',
+    title: 'Diseñado para reuniones serias — no solo para charlar',
     details: 'InterMind es una **plataforma de videollamadas de nivel profesional**, no un complemento o plugin ligero.',
     items: [
       '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat entre participantes e integración con calendario — todo incluido, listo para usar.',
     ],
-    link: '/product/how-it-works',
+    link: './product/overview/how-it-works',
     src: {
       light: '/3.png',
       dark: '/3.png',
@@ -73,14 +73,14 @@ text="Hable en su idioma nativo. Escuche a todos los demás — como si también
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Privacidad Donde Importa',
+    title: 'Privacidad donde importa',
     details:
       'InterMind está construido para conversaciones críticas de confianza — donde la privacidad y el control son más importantes.',
     items: [
-      '⚡︎ [Enrutamiento de privacidad basado en regiones](/product/privacy-architecture) — UE, EE. UU., SE Asia',
+      '⚡︎ [Enrutamiento de privacidad basado en regiones](./product/overview/privacy-architecture) — UE, EE. UU., SE Asia',
       '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
     ],
-    link: '/product/privacy-architecture',
+    link: './product/overview/privacy-architecture',
     src: {
       light: '/4.png',
       dark: '/4.png',
@@ -178,7 +178,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     a: 'El soporte está disponible a través de nuestro **centro de ayuda**, **correo electrónico** y **chat en vivo**. Los usuarios *Business* obtienen **soporte prioritario** con un contacto dedicado.'
   },
   {
-    q: '¿Cómo gestiono mi suscripción (actualizar, reducir o cancelar)?',
+    q: '¿Cómo gestiono mi suscripción (actualizar, degradar o cancelar)?',
     a: 'Puedes cambiar tu plan en cualquier momento a través de la **configuración de tu cuenta**. Los cambios surten efecto **inmediatamente**. Para cancelaciones, los *planes mensuales* se cancelan al final del ciclo de facturación. Los *planes anuales* se pueden cancelar con un **reembolso prorrateado**.'
   },
   {

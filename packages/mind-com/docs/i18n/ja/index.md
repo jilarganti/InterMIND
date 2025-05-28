@@ -12,25 +12,25 @@ isHome: true
 
 <HeroSection
 title="**どの**言語でも会話可能"
-text="母国語で話せば、相手も同じ言語で話しているかのように聞こえます。">
+text="母国語で話せば、他の参加者も同じ言語で話しているかのように聞こえます">
 
-<AuthButton text="その違いを体験する" buttonClass="brand"/>
-<!-- <ContactFormModalNav buttonText="デモのリクエスト"/>
+<AuthButton text="違いを体験する" buttonClass="brand"/>
+<!-- <ContactFormModalNav buttonText="デモを依頼する"/>
 <NavButton to="#pricing" buttonClass="alt" buttonLabel="料金" /> -->
 </HeroSection>
 
 > **対象者**  
-> 言語の壁が遅延、取引の損失、または高額な誤解を引き起こす**グローバルチーム**向けに開発されました。詳しくは[Markets](./product/overview/markets)セクションをご覧ください。
+> **グローバルチーム**向けに設計され、言語の壁が遅延、取引の損失、または高額な誤解を引き起こす場合に最適です。詳細は[Markets](./product/overview/markets)セクションをご覧ください。
 
 <span id="1"></span>
 <FeatureBlock :card="{
   title: '翻訳 ≠ 理解。次世代のソリューション',
   details: '言語に関係なく、**あなたの声は聞かれ、理解される**—まるで同じ言語を話しているかのように。',
     items: [
-      '⚡︎ 自然に、[リアルタイム](/product/how-it-works)で、字幕や遅延なし。',
-      '✧ AIパワード通訳が、トーン、意図、業界固有の用語を捉えます。',
+      '⚡︎ 自然に、[リアルタイム](./product/overview/how-it-works)で、字幕や遅延なし。',
+      '✧ AI搭載の通訳が、トーン、意図、業界固有の用語を捉えます。',
     ],
-  link: './product/what-is-intermind',
+  link: './product/overview/what-is-intermind',
   src: {
     light: '/1.png',
     dark: '/1.png',
@@ -40,14 +40,14 @@ text="母国語で話せば、相手も同じ言語で話しているかのよ�
 
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: '会議の中の頭脳',
+    title: '会議の中の知性',
     details: 'InterMindは多言語会議を明確で検索可能な知識に変換します。',
     items: [
-      '🔍 **何でも質問できる** — AIが**全ての会議から**答えを見つけます。',
+      '🔍 **何でも質問できる** — AIが**すべての会議から**答えを見つけます。',
       '✧ タスク、担当者、期限を自動抽出。',
-      '✧ どの言語でも即座に要点をまとめます。',
+      '✧ どの言語でも即座に要点を要約。',
     ],
-    link: '/product/how-it-works#🧩-deep-memory-deep-understanding',
+    link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
     src: {
       light: '/2l.png',
       dark: '/2d.png',
@@ -57,12 +57,12 @@ text="母国語で話せば、相手も同じ言語で話しているかのよ�
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: '単なる会話ではなく、本格的な会議のために設計',
+    title: '単なる会話ではなく、ビジネス会議のために設計',
     details: 'InterMindは**プロフェッショナルグレードのビデオ会議プラットフォーム**であり、軽量なアドオンやプラグインではありません。',
     items: [
-      '✧ 1080p解像度、スマートノイズ抑制、スケジューリング、モデレーション、画面共有、録画、字幕、参加者チャット、カレンダー連携 — すべてが組み込まれ、すぐに使用可能です。',
+      '✧ 1080p解像度、スマートノイズ抑制、スケジューリング、モデレーション、画面共有、録画、字幕、参加者チャット、カレンダー連携 — すべてが組み込まれ、すぐに使用可能。',
     ],
-    link: '/product/how-it-works',
+    link: './product/overview/how-it-works',
     src: {
       light: '/3.png',
       dark: '/3.png',
@@ -77,10 +77,10 @@ text="母国語で話せば、相手も同じ言語で話しているかのよ�
     details:
       'InterMindは信頼が重要な会話のために構築されています — プライバシーとコントロールが最も重要な場面で。',
     items: [
-      '⚡︎ [地域ベースのプライバシールーティング](/product/privacy-architecture) — EU、US、東南アジア',
-      '✧ **データトレーニングなし**。第三者アクセスなし。'
+      '⚡︎ [地域ベースのプライバシールーティング](./product/overview/privacy-architecture) — EU、US、東南アジア',
+      '✧ **データトレーニングなし**。サードパーティーアクセスなし。'
     ],
-    link: '/product/privacy-architecture',
+    link: './product/overview/privacy-architecture',
     src: {
       light: '/4.png',
       dark: '/4.png',
@@ -171,7 +171,7 @@ text="母国語で話せば、相手も同じ言語で話しているかのよ�
   },
   {
     q: 'プラン購入前にInterMindを試すことはできますか？',
-    a: 'はい、可能です。*無料基本*プランでは、**25回の無料会議**を含む主要機能—**同時通訳**や**会議検索**を含む—に完全にアクセスできます。クレジットカードは不要です。いつでもアップグレード可能です。'
+    a: 'はい、可能です。*無料基本*プランでは、**25回の無料会議**を含むコア機能に完全にアクセスできます—**同時通訳**や**会議検索**機能も含まれます。クレジットカードは不要です。いつでもアップグレード可能です。'
   },
   {
     q: 'サポートが必要な場合はどうすればよいですか？',
@@ -183,11 +183,11 @@ text="母国語で話せば、相手も同じ言語で話しているかのよ�
   },
   {
     q: 'InterMindは通訳でどの言語をサポートしていますか？',
-    a: 'リアルタイム通訳で**100以上の言語**をサポートしています。言語リストは継続的に拡大中です—最新情報はウェブサイトでご確認ください。'
+    a: 'リアルタイム通訳で**100言語以上**をサポートしています。言語リストは継続的に拡大中です—最新情報はウェブサイトでご確認ください。'
   },
   {
-    q: 'InterMindをウェビナーや大規模イベントに使用できますか？',
-    a: 'はい。*Pro*と*Business*プランは**大規模会議やウェビナー**に最適です—*Business*プランでは最大**500人の参加者**をサポートします。'
+    q: 'ウェビナーや大規模イベントにInterMindを使用できますか？',
+    a: 'はい。*Pro*と*Business*プランは**大規模な会議やウェビナー**に最適です—*Business*プランでは最大**500人の参加者**をサポートします。'
   }
 ]
 "/>
