@@ -5,23 +5,14 @@ const BASE_PATH = "/de"
 export const de = defineConfig({
   description:
     "InterMind ist eine Echtzeit-Dolmetschplattform für mehrsprachige Videomeetings. Jeder Teilnehmer spricht in seiner Muttersprache — und hört andere, als würden sie es auch tun. Keine Plugins. Keine Downloads. Nur nahtlose, natürliche Gespräche in über 100 Sprachen.",
-  head: [
-    ["meta", { property: "og:title", content: "KI-Sprachübersetzer für Live-Videoanrufe | InterMIND" }],
-    [
-      "meta",
-      {
-        name: "keywords",
-        content: "KI-Sprachübersetzer, Echtzeit-Übersetzung, Videoanrufe übersetzen, mehrsprachige Meetings, Zoom-Übersetzer Alternative, Dolmetscher-Tool",
-      },
-    ],
-  ],
+  head: [["meta", { property: "og:title", content: "Videoanrufe mit Simultandolmetschen | InterMIND" }]],
 
   themeConfig: {
     nav: [
       {
         text: "Produkt",
         activeMatch: `${BASE_PATH}/product/`,
-        link: `${BASE_PATH}/product/what-is-intermind`,
+        link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
       {
         text: "Unternehmen",
@@ -52,7 +43,7 @@ export const de = defineConfig({
       placeholder4SearchInput: "Fragen Sie alles...",
       placeholder4ChatFooter: "Fragen Sie alles...",
       placeholder4ChatList: "Chat-Thema eingeben...",
-      buttonLabel4NavButton: "Sofortiger Experten-Chat",
+      buttonLabel4NavButton: "Sofort-Expertenchat",
       buttonLabel4AuthButton: "Anmelden",
     },
     contact_form: {
@@ -67,10 +58,10 @@ export const de = defineConfig({
       categoryPlaceholder: "Servicetyp auswählen",
       message: "Lassen Sie uns Ihre Ziele besprechen (optional)",
       messagePlaceholder: "Bitte geben Sie zusätzliche Details an (optional)",
-      submit: "Anfrage senden",
+      submit: "Anfrage absenden",
       sending: "Wird gesendet...",
       successTitle: "Vielen Dank!",
-      successMessage: "Wir schätzen Ihr Interesse sehr! Unser Team wird Sie in Kürze kontaktieren, um Ihre Anforderungen zu besprechen.",
+      successMessage: "Wir schätzen Ihr Interesse sehr! Unser Team wird Sie in Kürze kontaktieren, um Ihre Bedürfnisse zu besprechen.",
       defaultCategories: [
         "Ich interessiere mich für Echtzeit-Sprachdolmetschen",
         "Ich interessiere mich für den KI-Meeting-Assistenten",
@@ -86,14 +77,19 @@ export const de = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Einführung",
+      text: "Überblick",
       collapsed: false,
       items: [
-        { text: "Was ist InterMIND?", link: "what-is-intermind" },
-        { text: "Wie es funktioniert", link: "how-it-works" },
-        { text: "Regionaler Datenschutz", link: "privacy-architecture" },
-        { text: "Prioritätsmärkte", link: "markets" },
+        { text: "Was ist InterMIND?", link: "overview/what-is-intermind" },
+        { text: "Funktionsweise", link: "overview/how-it-works" },
+        { text: "Regionaler Datenschutz", link: "overview/privacy-architecture" },
+        { text: "Hauptmärkte", link: "overview/markets" },
       ],
+    },
+    {
+      text: "Anleitung",
+      collapsed: false,
+      items: [{ text: "Erste Schritte", link: "guide/getting-started" }],
     },
   ]
 }

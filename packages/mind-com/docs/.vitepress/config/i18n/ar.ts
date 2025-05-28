@@ -5,23 +5,14 @@ const BASE_PATH = "/ar"
 export const ar = defineConfig({
   description:
     "InterMind هي منصة ترجمة فورية للاجتماعات متعددة اللغات عبر الفيديو. يتحدث كل مشارك بلغته الأم - ويسمع الآخرين كما لو كانوا يتحدثون بها أيضاً. بدون إضافات. بدون تحميلات. مجرد محادثات سلسة وطبيعية عبر أكثر من 100 لغة.",
-  head: [
-    ["meta", { property: "og:title", content: "مترجم صوتي ذكي للمكالمات المرئية المباشرة | InterMIND" }],
-    [
-      "meta",
-      {
-        name: "keywords",
-        content: "مترجم صوتي ذكي، ترجمة فورية، ترجمة مكالمات الفيديو، اجتماعات متعددة اللغات، بديل مترجم Zoom، أداة الترجمة الفورية",
-      },
-    ],
-  ],
+  head: [["meta", { property: "og:title", content: "مكالمات فيديو مدعومة بالترجمة الفورية | InterMIND" }]],
 
   themeConfig: {
     nav: [
       {
         text: "المنتج",
         activeMatch: `${BASE_PATH}/product/`,
-        link: `${BASE_PATH}/product/what-is-intermind`,
+        link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
       {
         text: "الشركة",
@@ -52,7 +43,7 @@ export const ar = defineConfig({
       placeholder4SearchInput: "اسأل أي شيء...",
       placeholder4ChatFooter: "اسأل أي شيء...",
       placeholder4ChatList: "أدخل موضوع المحادثة...",
-      buttonLabel4NavButton: "محادثة خبير فورية",
+      buttonLabel4NavButton: "محادثة فورية مع خبير",
       buttonLabel4AuthButton: "تسجيل الدخول",
     },
     contact_form: {
@@ -72,8 +63,8 @@ export const ar = defineConfig({
       successTitle: "شكراً لك!",
       successMessage: "نقدر اهتمامك كثيراً! سيتواصل فريقنا معك قريباً لمناقشة احتياجاتك.",
       defaultCategories: [
-        "مهتم بالترجمة الفورية للصوت",
-        "مهتم بمساعد الاجتماعات الذكي",
+        "مهتم بالترجمة الصوتية الفورية",
+        "مهتم بمساعد الاجتماعات بالذكاء الاصطناعي",
         "مهتم بخصوصية البيانات والتحكم حسب المنطقة",
         "أخرى / غير مدرجة",
       ],
@@ -86,14 +77,19 @@ export const ar = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "مقدمة",
+      text: "نظرة عامة",
       collapsed: false,
       items: [
-        { text: "ما هو InterMIND؟", link: "what-is-intermind" },
-        { text: "كيف يعمل", link: "how-it-works" },
-        { text: "خصوصية البيانات الإقليمية", link: "privacy-architecture" },
-        { text: "الأسواق ذات الأولوية", link: "markets" },
+        { text: "ما هو InterMIND؟", link: "overview/what-is-intermind" },
+        { text: "كيف يعمل", link: "overview/how-it-works" },
+        { text: "خصوصية البيانات الإقليمية", link: "overview/privacy-architecture" },
+        { text: "الأسواق ذات الأولوية", link: "overview/markets" },
       ],
+    },
+    {
+      text: "الدليل",
+      collapsed: false,
+      items: [{ text: "البدء", link: "guide/getting-started" }],
     },
   ]
 }

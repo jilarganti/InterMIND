@@ -4,24 +4,15 @@ const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
   description:
-    "InterMindは多言語ビデオ会議のためのリアルタイム通訳プラットフォームです。参加者は母国語で話し、他の参加者も同じように聞くことができます。プラグインも、ダウンロードも不要。100以上の言語で自然な会話をシームレスに実現します。",
-  head: [
-    ["meta", { property: "og:title", content: "ライブビデオ通話用AIボイス翻訳 | InterMIND" }],
-    [
-      "meta",
-      {
-        name: "keywords",
-        content: "AIボイス翻訳, リアルタイム翻訳, ビデオ通話翻訳, 多言語会議, Zoom翻訳代替, 通訳ツール",
-      },
-    ],
-  ],
+    "InterMindは多言語ビデオ会議のためのリアルタイム通訳プラットフォームです。参加者は母国語で話し、他の参加者も母国語で話しているかのように聞くことができます。プラグインも、ダウンロードも不要。100以上の言語で自然な会話をシームレスに実現します。",
+  head: [["meta", { property: "og:title", content: "同時通訳機能搭載のビデオ通話 | InterMIND" }]],
 
   themeConfig: {
     nav: [
       {
         text: "製品",
         activeMatch: `${BASE_PATH}/product/`,
-        link: `${BASE_PATH}/product/what-is-intermind`,
+        link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
       {
         text: "企業情報",
@@ -63,9 +54,9 @@ export const ja = defineConfig({
       phone: "企業サイト *",
       phonePlaceholder: "例：https://mind.com",
       phoneError: "電話番号を入力してください",
-      category: "ご用件をお聞かせください *",
+      category: "ご用件をお選びください *",
       categoryPlaceholder: "サービスタイプを選択",
-      message: "目標についてご相談ください（任意）",
+      message: "目的についてお聞かせください（任意）",
       messagePlaceholder: "追加の詳細情報をご記入ください（任意）",
       submit: "リクエストを送信",
       sending: "送信中...",
@@ -75,7 +66,7 @@ export const ja = defineConfig({
         "リアルタイム音声通訳に興味があります",
         "AI会議アシスタントに興味があります",
         "地域ベースのプライバシーとデータ管理に興味があります",
-        "その他 / 該当なし",
+        "その他",
       ],
 
       defaultButtonText: "メッセージを送信",
@@ -86,14 +77,19 @@ export const ja = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "はじめに",
+      text: "概要",
       collapsed: false,
       items: [
-        { text: "InterMINDとは？", link: "what-is-intermind" },
-        { text: "仕組み", link: "how-it-works" },
-        { text: "地域データプライバシー", link: "privacy-architecture" },
-        { text: "重点市場", link: "markets" },
+        { text: "InterMINDとは？", link: "overview/what-is-intermind" },
+        { text: "仕組み", link: "overview/how-it-works" },
+        { text: "地域データプライバシー", link: "overview/privacy-architecture" },
+        { text: "重点市場", link: "overview/markets" },
       ],
+    },
+    {
+      text: "ガイド",
+      collapsed: false,
+      items: [{ text: "はじめに", link: "guide/getting-started" }],
     },
   ]
 }

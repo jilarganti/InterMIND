@@ -4,24 +4,15 @@ const BASE_PATH = "/es"
 
 export const es = defineConfig({
   description:
-    "InterMind es una plataforma de interpretación en tiempo real para reuniones por video multilingües. Cada participante habla en su idioma nativo y escucha a los demás como si también lo hicieran. Sin complementos. Sin descargas. Solo conversaciones naturales y fluidas en más de 100 idiomas.",
-  head: [
-    ["meta", { property: "og:title", content: "Traductor de Voz con IA para Videollamadas en Vivo | InterMIND" }],
-    [
-      "meta",
-      {
-        name: "keywords",
-        content: "traductor de voz IA, traducción en tiempo real, traducir videollamadas, reuniones multilingües, alternativa al traductor de Zoom, herramienta de interpretación",
-      },
-    ],
-  ],
+    "InterMind es una plataforma de interpretación en tiempo real para reuniones de video multilingües. Cada participante habla en su idioma nativo y escucha a los demás como si también lo hicieran. Sin complementos. Sin descargas. Solo conversaciones naturales y fluidas en más de 100 idiomas.",
+  head: [["meta", { property: "og:title", content: "Videollamadas potenciadas por interpretación simultánea | InterMIND" }]],
 
   themeConfig: {
     nav: [
       {
         text: "Producto",
         activeMatch: `${BASE_PATH}/product/`,
-        link: `${BASE_PATH}/product/what-is-intermind`,
+        link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
       {
         text: "Empresa",
@@ -33,7 +24,7 @@ export const es = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         items: [
           { text: "Precios", link: `${BASE_PATH}/#Pricing` },
-          { text: "Preguntas Frecuentes", link: `${BASE_PATH}/#FAQ` },
+          { text: "Preguntas frecuentes", link: `${BASE_PATH}/#FAQ` },
           { text: "Testimonios", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -45,7 +36,7 @@ export const es = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de Privacidad</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Política de Privacidad</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Regulaciones Legales para Servicios de IA</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de privacidad</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Política de privacidad</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Regulaciones legales para servicios de IA</a>`,
     },
 
     localization: {
@@ -64,7 +55,7 @@ export const es = defineConfig({
       phonePlaceholder: "ej., https://mind.com",
       phoneError: "Por favor ingresa el número de teléfono",
       category: "Por favor dinos cómo podemos ayudarte *",
-      categoryPlaceholder: "selecciona tipo de servicio",
+      categoryPlaceholder: "selecciona el tipo de servicio",
       message: "Hablemos de tus objetivos (opcional)",
       messagePlaceholder: "Por favor proporciona detalles adicionales (opcional)",
       submit: "Enviar solicitud",
@@ -74,7 +65,7 @@ export const es = defineConfig({
       defaultCategories: [
         "Me interesa la interpretación de voz en tiempo real",
         "Me interesa el asistente de reuniones con IA",
-        "Me interesa la privacidad y control de datos por región",
+        "Me interesa el control de privacidad y datos por región",
         "Otro / No listado",
       ],
 
@@ -86,14 +77,19 @@ export const es = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Introducción",
+      text: "Descripción general",
       collapsed: false,
       items: [
-        { text: "¿Qué es InterMIND?", link: "what-is-intermind" },
-        { text: "Cómo Funciona", link: "how-it-works" },
-        { text: "Privacidad de Datos Regional", link: "privacy-architecture" },
-        { text: "Mercados Prioritarios", link: "markets" },
+        { text: "¿Qué es InterMIND?", link: "overview/what-is-intermind" },
+        { text: "Cómo funciona", link: "overview/how-it-works" },
+        { text: "Privacidad de datos regional", link: "overview/privacy-architecture" },
+        { text: "Mercados prioritarios", link: "overview/markets" },
       ],
+    },
+    {
+      text: "Guía",
+      collapsed: false,
+      items: [{ text: "Primeros pasos", link: "guide/getting-started" }],
     },
   ]
 }

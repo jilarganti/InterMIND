@@ -5,23 +5,14 @@ const BASE_PATH = "/fr"
 export const fr = defineConfig({
   description:
     "InterMind est une plateforme d'interprétation en temps réel pour les réunions vidéo multilingues. Chaque participant parle sa langue maternelle et entend les autres comme s'ils la parlaient aussi. Pas de plugins. Pas de téléchargements. Juste des conversations naturelles et fluides dans plus de 100 langues.",
-  head: [
-    ["meta", { property: "og:title", content: "Traducteur Vocal IA pour Appels Vidéo en Direct | InterMIND" }],
-    [
-      "meta",
-      {
-        name: "keywords",
-        content: "traducteur vocal IA, traduction en temps réel, traduire appels vidéo, réunions multilingues, alternative traducteur Zoom, outil d'interprète",
-      },
-    ],
-  ],
+  head: [["meta", { property: "og:title", content: "Appels vidéo alimentés par l'interprétation simultanée | InterMIND" }]],
 
   themeConfig: {
     nav: [
       {
         text: "Produit",
         activeMatch: `${BASE_PATH}/product/`,
-        link: `${BASE_PATH}/product/what-is-intermind`,
+        link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
       {
         text: "Entreprise",
@@ -70,7 +61,7 @@ export const fr = defineConfig({
       submit: "Envoyer la demande",
       sending: "Envoi en cours...",
       successTitle: "Merci !",
-      successMessage: "Nous apprécions grandement votre intérêt ! Notre équipe vous contactera prochainement pour discuter de vos besoins.",
+      successMessage: "Nous apprécions grandement votre intérêt ! Notre équipe vous contactera sous peu pour discuter de vos besoins.",
       defaultCategories: [
         "Je suis intéressé par l'interprétation vocale en temps réel",
         "Je suis intéressé par l'assistant de réunion IA",
@@ -86,14 +77,19 @@ export const fr = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Introduction",
+      text: "Aperçu",
       collapsed: false,
       items: [
-        { text: "Qu'est-ce qu'InterMIND ?", link: "what-is-intermind" },
-        { text: "Comment ça marche", link: "how-it-works" },
-        { text: "Confidentialité des données régionales", link: "privacy-architecture" },
-        { text: "Marchés prioritaires", link: "markets" },
+        { text: "Qu'est-ce qu'InterMIND ?", link: "overview/what-is-intermind" },
+        { text: "Comment ça marche", link: "overview/how-it-works" },
+        { text: "Confidentialité régionale des données", link: "overview/privacy-architecture" },
+        { text: "Marchés prioritaires", link: "overview/markets" },
       ],
+    },
+    {
+      text: "Guide",
+      collapsed: false,
+      items: [{ text: "Premiers pas", link: "guide/getting-started" }],
     },
   ]
 }
