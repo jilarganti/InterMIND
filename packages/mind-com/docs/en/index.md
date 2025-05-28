@@ -128,7 +128,6 @@ From first call to fluent conversations — at any scale.
       'Search across all your meetings [💬](#2)',
       'Simultaneous interpretation [💬](#1)',
       '**Privacy Zones** [💬](#4)',
-      '**AI colleague**. Looks human. Sounds natural. (⍺-version)',
     ],
   }
 ]">

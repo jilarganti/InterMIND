@@ -4,13 +4,14 @@
 
 InterMind is a platform for multilingual video meetings with live AI-powered interpretation. We are built for professionals — where not only the message matters, but the privacy of that message too.
 
-> [!tip] Real-time interpretation. Native-level understanding. No subtitles. No lag.
-
 To deliver a seamless experience, InterMind integrates third-party services for video, audio, cloud storage, real-time interpretation, and analytics. These third-party providers help us ensure performance and scalability — but they also introduce a layer we cannot directly control.
 
 We believe in **transparency over promises**. We can only guarantee privacy and security for components under our direct control — our software, interface logic, and how we route data. For everything else, we offer you **the power of choice**.
 
 This is why we designed InterMind with **region-based confidentiality**: you choose where your data is processed, which legal framework governs it, and which AI models are used — based on your selected privacy zone.
+
+> [!tip] What is a Privacy Zone?
+> A configurable region (EU, US, Asia) that governs where your data is processed and under which legal framework.
 
 ## Core Privacy Principles
 
