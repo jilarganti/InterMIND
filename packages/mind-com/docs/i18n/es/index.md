@@ -20,7 +20,7 @@ text="Hable en su idioma nativo. Escuche a todos los demás — como si también
 </HeroSection>
 
 > **¿Para quién es esto?**  
-> Diseñado para **equipos globales** donde las barreras del idioma causan retrasos, pérdida de negocios o malentendidos costosos. Aprenda más en nuestra sección de [Markets](./product/markets).
+> Diseñado para **equipos globales** donde las barreras del idioma causan retrasos, pérdida de negocios o malentendidos costosos. Aprenda más en nuestra sección de [Markets](./product/overview/markets).
 
 <span id="1"></span>
 <FeatureBlock :card="{

@@ -20,7 +20,7 @@ text="Speak your native language. Hear everyone else — as if they spoke it too
 </HeroSection>
 
 > **Who is this for?**  
-> Built for **global teams** where language barriers cause delays, lost deals, or costly misunderstandings. Learn more in our [Markets](./product/markets) section.
+> Built for **global teams** where language barriers cause delays, lost deals, or costly misunderstandings. Learn more in our [Markets](./product/overview/markets) section.
 
 <span id="1"></span>
 <FeatureBlock :card="{

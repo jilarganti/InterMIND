@@ -20,7 +20,7 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
 </HeroSection>
 
 > **Pour qui est-ce ?**  
-> Conçu pour les **équipes internationales** où les barrières linguistiques causent des retards, des opportunités manquées ou des malentendus coûteux. En savoir plus dans notre section [Markets](./product/markets).
+> Conçu pour les **équipes internationales** où les barrières linguistiques causent des retards, des opportunités manquées ou des malentendus coûteux. En savoir plus dans notre section [Markets](./product/overview/markets).
 
 <span id="1"></span>
 <FeatureBlock :card="{

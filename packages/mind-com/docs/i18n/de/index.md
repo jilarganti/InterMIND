@@ -20,7 +20,7 @@ text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen – als ob si
 </HeroSection>
 
 > **Für wen ist das?**  
-> Entwickelt für **globale Teams**, bei denen Sprachbarrieren zu Verzögerungen, verlorenen Geschäften oder kostspieligen Missverständnissen führen. Erfahren Sie mehr in unserem [Markets](./product/markets) Bereich.
+> Entwickelt für **globale Teams**, bei denen Sprachbarrieren zu Verzögerungen, verlorenen Geschäften oder kostspieligen Missverständnissen führen. Erfahren Sie mehr in unserem [Markets](./product/overview/markets) Bereich.
 
 <span id="1"></span>
 <FeatureBlock :card="{
