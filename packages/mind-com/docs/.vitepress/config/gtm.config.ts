@@ -1,12 +1,12 @@
 import type { HeadConfig } from "vitepress"
 
 const DOMAINS = {
-  PRODUCTION: "goldenfish.ae",
+  PRODUCTION: "mind.com",
 }
 
 const GTM_IDs = {
-  prod: "GTM-5V5GW5CC",
-  test: "GTM-P9N2ND34",
+  prod: "GTM-TV4L6B6W",
+  test: "GTM-TV4L6B6W",
 }
 /**
  * @see https://docs.usercentrics.com/#/consent-mode

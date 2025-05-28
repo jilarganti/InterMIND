@@ -57,7 +57,7 @@ export const es = defineConfig({
       category: "Por favor dinos cómo podemos ayudarte *",
       categoryPlaceholder: "selecciona el tipo de servicio",
       message: "Hablemos de tus objetivos (opcional)",
-      messagePlaceholder: "Por favor proporciona detalles adicionales (opcional)",
+      messagePlaceholder: "Proporciona detalles adicionales (opcional)",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
@@ -89,7 +89,17 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     {
       text: "Guía",
       collapsed: false,
-      items: [{ text: "Primeros pasos", link: "guide/getting-started" }],
+      items: [
+        { text: "Primeros pasos", link: "guide/getting-started" },
+        { text: "Gestión de cuenta", link: "guide/account-management" },
+        { text: "Crear reuniones", link: "guide/creating-meetings" },
+        { text: "Interfaz de reuniones", link: "guide/meeting-interface" },
+        { text: "Roles de usuario", link: "guide/user-roles" },
+        { text: "Funciones de IA", link: "guide/ai-features" },
+        { text: "Historial de reuniones", link: "guide/meeting-history" },
+        { text: "Preguntas frecuentes", link: "guide/faq" },
+        { text: "Solución de problemas", link: "guide/troubleshooting" },
+      ],
     },
   ]
 }

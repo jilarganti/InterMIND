@@ -4,7 +4,7 @@ const BASE_PATH = "/ru"
 
 export const ru = defineConfig({
   description:
-    "InterMind - это платформа синхронного перевода для многоязычных видеовстреч. Каждый участник говорит на своем родном языке и слышит других так, как если бы они тоже говорили на нем. Без плагинов. Без загрузок. Просто естественное общение на более чем 100 языках.",
+    "InterMind - это платформа синхронного перевода для многоязычных видеовстреч. Каждый участник говорит на своем родном языке и слышит других так, как будто они тоже говорят на нем. Без плагинов. Без загрузок. Просто естественное общение на более чем 100 языках.",
   head: [["meta", { property: "og:title", content: "Видеозвонки с синхронным переводом | InterMIND" }]],
 
   themeConfig: {
@@ -24,7 +24,7 @@ export const ru = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         items: [
           { text: "Цены", link: `${BASE_PATH}/#Pricing` },
-          { text: "Частые вопросы", link: `${BASE_PATH}/#FAQ` },
+          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Отзывы", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -89,7 +89,17 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     {
       text: "Руководство",
       collapsed: false,
-      items: [{ text: "Начало работы", link: "guide/getting-started" }],
+      items: [
+        { text: "Начало работы", link: "guide/getting-started" },
+        { text: "Управление аккаунтом", link: "guide/account-management" },
+        { text: "Создание встреч", link: "guide/creating-meetings" },
+        { text: "Интерфейс встречи", link: "guide/meeting-interface" },
+        { text: "Роли пользователей", link: "guide/user-roles" },
+        { text: "AI-функции", link: "guide/ai-features" },
+        { text: "История встреч", link: "guide/meeting-history" },
+        { text: "FAQ", link: "guide/faq" },
+        { text: "Устранение неполадок", link: "guide/troubleshooting" },
+      ],
     },
   ]
 }

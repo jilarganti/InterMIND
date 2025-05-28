@@ -4,7 +4,7 @@ const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
   description:
-    "InterMind هي منصة ترجمة فورية للاجتماعات متعددة اللغات عبر الفيديو. يتحدث كل مشارك بلغته الأم - ويسمع الآخرين كما لو كانوا يتحدثون بها أيضاً. بدون إضافات. بدون تحميلات. مجرد محادثات سلسة وطبيعية عبر أكثر من 100 لغة.",
+    "إنترمايند هي منصة ترجمة فورية للاجتماعات متعددة اللغات عبر الفيديو. يتحدث كل مشارك بلغته الأم - ويسمع الآخرين كما لو كانوا يتحدثون بها أيضاً. بدون إضافات. بدون تحميلات. مجرد محادثات سلسة وطبيعية عبر أكثر من 100 لغة.",
   head: [["meta", { property: "og:title", content: "مكالمات فيديو مدعومة بالترجمة الفورية | InterMIND" }]],
 
   themeConfig: {
@@ -43,7 +43,7 @@ export const ar = defineConfig({
       placeholder4SearchInput: "اسأل أي شيء...",
       placeholder4ChatFooter: "اسأل أي شيء...",
       placeholder4ChatList: "أدخل موضوع المحادثة...",
-      buttonLabel4NavButton: "محادثة فورية مع خبير",
+      buttonLabel4NavButton: "محادثة خبير فورية",
       buttonLabel4AuthButton: "تسجيل الدخول",
     },
     contact_form: {
@@ -65,7 +65,7 @@ export const ar = defineConfig({
       defaultCategories: [
         "مهتم بالترجمة الصوتية الفورية",
         "مهتم بمساعد الاجتماعات بالذكاء الاصطناعي",
-        "مهتم بخصوصية البيانات والتحكم حسب المنطقة",
+        "مهتم بالخصوصية والتحكم في البيانات حسب المنطقة",
         "أخرى / غير مدرجة",
       ],
 
@@ -89,7 +89,17 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     {
       text: "الدليل",
       collapsed: false,
-      items: [{ text: "البدء", link: "guide/getting-started" }],
+      items: [
+        { text: "البدء", link: "guide/getting-started" },
+        { text: "إدارة الحساب", link: "guide/account-management" },
+        { text: "إنشاء الاجتماعات", link: "guide/creating-meetings" },
+        { text: "واجهة الاجتماع", link: "guide/meeting-interface" },
+        { text: "أدوار المستخدمين", link: "guide/user-roles" },
+        { text: "ميزات الذكاء الاصطناعي", link: "guide/ai-features" },
+        { text: "سجل الاجتماعات", link: "guide/meeting-history" },
+        { text: "الأسئلة الشائعة", link: "guide/faq" },
+        { text: "استكشاف الأخطاء وإصلاحها", link: "guide/troubleshooting" },
+      ],
     },
   ]
 }

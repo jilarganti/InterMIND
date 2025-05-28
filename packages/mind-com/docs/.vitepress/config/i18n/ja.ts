@@ -43,7 +43,7 @@ export const ja = defineConfig({
       placeholder4SearchInput: "質問を入力してください...",
       placeholder4ChatFooter: "質問を入力してください...",
       placeholder4ChatList: "チャットトピックを入力...",
-      buttonLabel4NavButton: "インスタントエキスパートチャット",
+      buttonLabel4NavButton: "専門家とすぐチャット",
       buttonLabel4AuthButton: "サインイン",
     },
     contact_form: {
@@ -54,9 +54,9 @@ export const ja = defineConfig({
       phone: "企業サイト *",
       phonePlaceholder: "例：https://mind.com",
       phoneError: "電話番号を入力してください",
-      category: "ご用件をお選びください *",
+      category: "ご用件をお聞かせください *",
       categoryPlaceholder: "サービスタイプを選択",
-      message: "目的についてお聞かせください（任意）",
+      message: "目標についてご相談ください（任意）",
       messagePlaceholder: "追加の詳細情報をご記入ください（任意）",
       submit: "リクエストを送信",
       sending: "送信中...",
@@ -66,7 +66,7 @@ export const ja = defineConfig({
         "リアルタイム音声通訳に興味があります",
         "AI会議アシスタントに興味があります",
         "地域ベースのプライバシーとデータ管理に興味があります",
-        "その他",
+        "その他 / 該当なし",
       ],
 
       defaultButtonText: "メッセージを送信",
@@ -89,14 +89,24 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     {
       text: "ガイド",
       collapsed: false,
-      items: [{ text: "はじめに", link: "guide/getting-started" }],
+      items: [
+        { text: "はじめに", link: "guide/getting-started" },
+        { text: "アカウント管理", link: "guide/account-management" },
+        { text: "会議の作成", link: "guide/creating-meetings" },
+        { text: "会議インターフェース", link: "guide/meeting-interface" },
+        { text: "ユーザーロール", link: "guide/user-roles" },
+        { text: "AI機能", link: "guide/ai-features" },
+        { text: "会議履歴", link: "guide/meeting-history" },
+        { text: "よくある質問", link: "guide/faq" },
+        { text: "トラブルシューティング", link: "guide/troubleshooting" },
+      ],
     },
   ]
 }
 
 function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "企業情報", link: "/about" },
+    { text: "会社概要", link: "/about" },
     { text: "お問い合わせ", link: "/contacts" },
   ]
 }

@@ -89,7 +89,17 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
     {
       text: "指南",
       collapsed: false,
-      items: [{ text: "入门指南", link: "guide/getting-started" }],
+      items: [
+        { text: "入门指南", link: "guide/getting-started" },
+        { text: "账户管理", link: "guide/account-management" },
+        { text: "创建会议", link: "guide/creating-meetings" },
+        { text: "会议界面", link: "guide/meeting-interface" },
+        { text: "用户角色", link: "guide/user-roles" },
+        { text: "AI功能", link: "guide/ai-features" },
+        { text: "会议历史", link: "guide/meeting-history" },
+        { text: "常见问题", link: "guide/faq" },
+        { text: "故障排除", link: "guide/troubleshooting" },
+      ],
     },
   ]
 }

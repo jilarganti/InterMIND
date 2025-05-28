@@ -36,13 +36,13 @@ export const fr = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Réglementations légales pour les services d\'IA</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Réglementations légales pour les services d'IA</a>`,
     },
 
     localization: {
       placeholder4SearchInput: "Posez n'importe quelle question...",
       placeholder4ChatFooter: "Posez n'importe quelle question...",
-      placeholder4ChatList: "Entrez le sujet de discussion...",
+      placeholder4ChatList: "Entrez le sujet du chat...",
       buttonLabel4NavButton: "Chat expert instantané",
       buttonLabel4AuthButton: "Se connecter",
     },
@@ -61,7 +61,7 @@ export const fr = defineConfig({
       submit: "Envoyer la demande",
       sending: "Envoi en cours...",
       successTitle: "Merci !",
-      successMessage: "Nous apprécions grandement votre intérêt ! Notre équipe vous contactera sous peu pour discuter de vos besoins.",
+      successMessage: "Nous apprécions grandement votre intérêt ! Notre équipe vous contactera prochainement pour discuter de vos besoins.",
       defaultCategories: [
         "Je suis intéressé par l'interprétation vocale en temps réel",
         "Je suis intéressé par l'assistant de réunion IA",
@@ -82,14 +82,24 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Qu'est-ce qu'InterMIND ?", link: "overview/what-is-intermind" },
         { text: "Comment ça marche", link: "overview/how-it-works" },
-        { text: "Confidentialité régionale des données", link: "overview/privacy-architecture" },
+        { text: "Confidentialité des données régionales", link: "overview/privacy-architecture" },
         { text: "Marchés prioritaires", link: "overview/markets" },
       ],
     },
     {
       text: "Guide",
       collapsed: false,
-      items: [{ text: "Premiers pas", link: "guide/getting-started" }],
+      items: [
+        { text: "Premiers pas", link: "guide/getting-started" },
+        { text: "Gestion du compte", link: "guide/account-management" },
+        { text: "Création de réunions", link: "guide/creating-meetings" },
+        { text: "Interface de réunion", link: "guide/meeting-interface" },
+        { text: "Rôles des utilisateurs", link: "guide/user-roles" },
+        { text: "Fonctionnalités IA", link: "guide/ai-features" },
+        { text: "Historique des réunions", link: "guide/meeting-history" },
+        { text: "FAQ", link: "guide/faq" },
+        { text: "Dépannage", link: "guide/troubleshooting" },
+      ],
     },
   ]
 }
