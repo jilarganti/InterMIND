@@ -2,7 +2,7 @@
 
 ## The language barrier ends here
 
-InterMIND is the world's first video meeting platform that makes language learning obsolete. Our real-time simultaneous **interpretation**[^1] technology instantly breaks down language barriers, allowing everyone to speak their native language while understanding others perfectly. Just as calculators eliminated the need for mental arithmetic, InterMIND eliminates the need to spend years mastering foreign languages for practical communication.
+InterMIND is the world's first video meeting platform that makes language learning obsolete. Our simultaneous **interpretation**[^1] technology instantly breaks down language barriers, allowing everyone to speak their native language while understanding others perfectly. Just as calculators eliminated the need for mental arithmetic, InterMIND eliminates the need to spend years mastering foreign languages for practical communication.
 
 While traditional approaches force you to invest thousands of hours learning languages or paying expensive interpreters, InterMIND delivers immediate, seamless communication across any language pair with near-human accuracy and minimal latency. t enables participants to speak their native language while instantly hearing others in theirs — preserving nuance, intent, and natural speech flow. The result? Dramatic time savings, cost reduction, and unprecedented global collaboration opportunities.
 
