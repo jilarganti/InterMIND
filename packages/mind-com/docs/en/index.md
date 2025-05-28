@@ -77,7 +77,7 @@ text="Speak your native language. Hear everyone else — as if they spoke it too
     details:
       'InterMind is built for trust-critical conversations — where privacy and control matter most.',
     items: [
-      '⚡︎ [Region-based privacy routing](./product/overview/privacy-architecture) — EU, US, SE Asia',
+      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — EU, US, SE Asia',
       '✧ **Zero data training**. No third-party access.'
     ],
     link: './product/overview/privacy-architecture',
@@ -127,7 +127,7 @@ From first call to fluent conversations — at any scale.
       '**5** TB pooled storage per user',
       'Search across all your meetings [💬](#2)',
       'Simultaneous interpretation [💬](#1)',
-      '**Region-based privacy routing** [💬](#4)',
+      '**Privacy Zones** [💬](#4)',
       '**AI colleague**. Looks human. Sounds natural. (⍺-version)',
     ],
   }
@@ -167,7 +167,7 @@ From first call to fluent conversations — at any scale.
   },
   {
     q: 'How does InterMind ensure data privacy and security?',
-    a: 'InterMind is **private by design**. All data is processed and stored in your selected region — *EU, US, or Asia*. We comply with **GDPR, CCPA, and UAE PDPL**, and **never use your content** for training or third-party access. **Region-based privacy routing** is available on the *Business* plan.'
+    a: 'InterMind is **private by design**. All data is processed and stored within your selected **Privacy Zone** — _EU_, _US_, or _Asia_. We comply with [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), and UAE PDPL, and **never use your content** for training or third-party access.  Advanced **Privacy Zone control** is available on the **Business** plan.'
   },
   {
     q: 'Can I try InterMind before purchasing a plan?',

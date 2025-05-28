@@ -1,4 +1,4 @@
-# Regional Data Privacy for AI Meetings
+# Data Privacy for AI Meetings
 
 ## Introduction
 
