@@ -5,7 +5,6 @@ isHome: true
 ---
 
 <!-- text="Video calls powered by simultaneous voice translation." -->
-<!-- text="Classrooms take years; InterMind delivers real-time understanding today, in every language."> -->
 <!-- text="**Multilingual** Video Meetings with **Voice** Interpretation" -->
 <!-- title="Live **Interpretation** Video Meetings" -->
 
