@@ -8,6 +8,7 @@
     "build": "vitepress build docs",
     "translate": "node --no-deprecation scripts/translate",
     "test:traffic-sources": "node --experimental-specifier-resolution=node --loader ts-node/esm __tests__/crm/test-traffic-sources.ts",
+    "trans": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/ai/translate.ts",
     "format": "prettier -w .",
     "lint": "pnpm eslint --cache ."
   },
