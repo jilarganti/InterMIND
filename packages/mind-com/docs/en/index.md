@@ -1,7 +1,6 @@
 ---
 layout: home
 title: "Video calls powered by simultaneous interpretation"
-
 isHome: true
 ---
 
@@ -11,16 +10,16 @@ isHome: true
 <!-- title="Live **Interpretation** Video Meetings" -->
 
 <HeroSection
-title="Meet in **Any** Language"
-text="Speak your native language. Hear everyone else — as if they spoke it too.">
+  title="Meet in **Any** Language"
+  text="Speak your native language. Hear everyone else — as if they spoke it too.">
 
-<AuthButton text="Hear the difference" buttonClass="brand"/>
-<!-- <ContactFormModalNav buttonText="Request a Demo"/>
-<NavButton to="#pricing" buttonClass="alt" buttonLabel="Pricing" /> -->
+  <AuthButton text="Hear the difference" buttonClass="brand"/>
 </HeroSection>
 
 > **Who is this for?**  
 > Built for **global teams** where language barriers cause delays, lost deals, or costly misunderstandings. [Learn more ...](./product/overview/markets)
+
+<br>
 
 <span id="1"></span>
 <FeatureBlock :card="{
@@ -32,8 +31,8 @@ text="Speak your native language. Hear everyone else — as if they spoke it too
     ],
   link: './product/overview/what-is-intermind',
   src: {
-    light: '/1.png',
-    dark: '/1.png',
+    light: '/1l.png',
+    dark: '/1d.png',
   },
   inversion: false
 }" />
