@@ -27,12 +27,6 @@ export const config = {
     // te: { code: "te", name: "Telugu" },
   },
 
-  models: {
-    claude: { name: "claude-3-5-sonnet-20241022" },
-    gpt4: { name: "gpt-4-1106-preview" },
-    // claude: { name: "claude-3-7-sonnet" },
-    // claude: { name: "claude-3-5-haiku-20241022" },
-    // grok: { name: "grok-2-latest" },
-  },
+  models: ["claude-3-5-sonnet-20241022", "gpt-4-1106-preview"],
   exclude: ["test"],
 }

@@ -32,12 +32,12 @@ const xai = new OpenAI({ apiKey: process.env.XAI_API_KEY, baseURL: "https://api.
  * @returns {string|null}
  */
 function getNextModel(currentModel) {
-  const modelEntries = Object.entries(/** @type {ModelConfig} */ (config.models))
-  const currentIndex = modelEntries.findIndex(([key]) => key === currentModel)
-  if (currentIndex === -1 || currentIndex === modelEntries.length - 1) {
+  const models = config.models
+  const currentIndex = models.indexOf(currentModel)
+  if (currentIndex === -1 || currentIndex === models.length - 1) {
     return null
   }
-  return modelEntries[currentIndex + 1][0]
+  return models[currentIndex + 1]
 }
 
 /**
@@ -55,14 +55,38 @@ function applyContentReplacements(content, langCode) {
 }
 
 /**
+ * @param {string} model
  * @param {string} content
  * @param {string} targetLang
  * @param {string} langCode
  * @returns {Promise<string>}
  */
-async function translateWithOpenAI(content, targetLang, langCode) {
+async function translateWithModel(model, content, targetLang, langCode) {
+  let translatedContent
+  if (model.includes("gpt-4")) {
+    translatedContent = await translateWithOpenAI(model, content, targetLang, langCode)
+  } else if (model.startsWith("claude")) {
+    translatedContent = await translateWithClaude(model, content, targetLang, langCode)
+  } else {
+    throw new Error(`Неизвестная модель: ${model}`)
+  }
+  // Проверяем что текст не заканчивается на неполный перевод
+  if (/\[[^<][^[\]]*?(\.\.\.|[?])\]\s*$/.test(translatedContent)) {
+    throw new Error("Неполный перевод")
+  }
+  return translatedContent.trim()
+}
+
+/**
+ * @param {string} model
+ * @param {string} content
+ * @param {string} targetLang
+ * @param {string} langCode
+ * @returns {Promise<string>}
+ */
+async function translateWithOpenAI(model, content, targetLang, langCode) {
   const completion = await openai.chat.completions.create({
-    model: config.models.gpt4.name,
+    model: model,
     temperature: 0,
     messages: [{ role: "user", content: getPromptForTranslation(content, targetLang, langCode) }],
   })
@@ -72,14 +96,15 @@ async function translateWithOpenAI(content, targetLang, langCode) {
 }
 
 /**
+ * @param {string} model
  * @param {string} content
  * @param {string} targetLang
  * @param {string} langCode
  * @returns {Promise<string>}
  */
-async function translateWithClaude(content, targetLang, langCode) {
+async function translateWithClaude(model, content, targetLang, langCode) {
   const message = await anthropic.messages.create({
-    model: config.models.claude.name,
+    model: model,
     max_tokens: 8192,
     temperature: 0,
     messages: [{ role: "user", content: getPromptForTranslation(content, targetLang, langCode) }],
@@ -92,7 +117,6 @@ async function translateWithClaude(content, targetLang, langCode) {
       })
     })
     if (block) {
-      // Pick the first string value from the block
       for (const v of Object.values(block)) {
         if (typeof v === "string" && v.length > 0) {
           result = v
@@ -103,32 +127,6 @@ async function translateWithClaude(content, targetLang, langCode) {
   }
   const match = result.match(/<translated_markdown>([\s\S]*)<\/translated_markdown>/)
   return match ? match[1].trim() : result
-}
-
-/**
- * @param {string} model
- * @param {string} content
- * @param {string} targetLang
- * @param {string} langCode
- * @returns {Promise<string>}
- */
-async function translateWithModel(model, content, targetLang, langCode) {
-  let translatedContent
-  switch (model) {
-    case "gpt4":
-      translatedContent = await translateWithOpenAI(content, targetLang, langCode)
-      break
-    case "claude":
-      translatedContent = await translateWithClaude(content, targetLang, langCode)
-      break
-    default:
-      throw new Error(`Неизвестная модель: ${model}`)
-  }
-  // Проверяем что текст не заканчивается на неполный перевод
-  if (/\[[^<][^[\]]*?(\.\.\.|[?])\]\s*$/.test(translatedContent)) {
-    throw new Error("Неполный перевод")
-  }
-  return translatedContent.trim()
 }
 
 /**
@@ -398,8 +396,8 @@ async function translateFile(file, targetPath, lang, firstModelKey) {
 
 async function translateFiles() {
   try {
-    const firstModelKey = Object.keys(config.models)[0]
-    console.log(`💡 Начинаем перевод с модели: ${firstModelKey}`)
+    const firstModel = config.models[0]
+    console.log(`💡 Начинаем перевод с модели: ${firstModel}`)
     await syncFileStructure() // Добавляем сюда
     await cleanupTranslations()
     // Исходный конфиг берем из configDir
@@ -418,7 +416,7 @@ async function translateFiles() {
           continue
         }
         try {
-          const translatedConfig = await translateMarkdown(sourceConfig, firstModelKey, lang.name, lang.code)
+          const translatedConfig = await translateMarkdown(sourceConfig, firstModel, lang.name, lang.code)
           // Применяем все замены к переведенному конфигу
           const finalConfig = applyContentReplacements(translatedConfig, lang.code)
           const configDir = path.dirname(targetConfigPath)
@@ -455,7 +453,7 @@ async function translateFiles() {
     }
     console.log(`⏳ Требуется перевести ${tasks.length} файлов`)
     for (const task of tasks) {
-      await translateFile(task.file, task.targetPath, task.lang, firstModelKey)
+      await translateFile(task.file, task.targetPath, task.lang, firstModel)
     }
     console.log("\n✨ Готово!")
   } catch (error) {
