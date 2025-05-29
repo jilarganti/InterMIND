@@ -61,7 +61,7 @@ async function translateWithOpenAI(content, targetLang, langCode) {
 async function translateWithClaude(content, targetLang, langCode) {
   const message = await anthropic.messages.create({
     model: config.models.claude.name,
-    max_tokens: 4096,
+    max_tokens: 8192,
     temperature: 0,
     messages: [{ role: "user", content: getPromptForTranslation(content, targetLang, langCode) }],
   })
@@ -99,8 +99,8 @@ async function translateWithModel(model, content, targetLang, langCode) {
       throw new Error(`Неизвестная модель: ${model}`)
   }
 
-  // Проверяем на неполный перевод
-  if (/\[[^[\]]+(\.\.\.|[?])\]/.test(translatedContent)) {
+  // Проверяем что текст не заканчивается на неполный перевод
+  if (/\[[^<][^[\]]*?(\.\.\.|[?])\]\s*$/.test(translatedContent)) {
     throw new Error("Неполный перевод")
   }
 

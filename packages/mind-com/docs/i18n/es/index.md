@@ -1,30 +1,29 @@
 ---
 layout: home
 title: "Videollamadas potenciadas por interpretación simultánea"
-
 isHome: true
 ---
 
 <!-- text="Videollamadas potenciadas por traducción simultánea de voz." -->
 <!-- text="Las aulas tardan años; InterMind ofrece comprensión en tiempo real hoy, en todos los idiomas." -->
-<!-- text="Reuniones por video **multilingües** con interpretación de **voz**" -->
+<!-- text="Reuniones por video **multilingües** con interpretación por **voz**" -->
 <!-- title="Reuniones por video con interpretación **en vivo**" -->
 
 <HeroSection
-title="Reúnase en **cualquier** idioma"
-text="Hable en su idioma nativo. Escuche a todos los demás — como si también lo hablaran.">
+  title="Reúnase en **cualquier** idioma"
+  text="Hable en su idioma nativo. Escuche a todos los demás — como si también lo hablaran.">
 
-<AuthButton text="Escuche la diferencia" buttonClass="brand"/>
-<!-- <ContactFormModalNav buttonText="Solicitar una demo"/>
-<NavButton to="#pricing" buttonClass="alt" buttonLabel="Precios" /> -->
+  <AuthButton text="Escuche la diferencia" buttonClass="brand"/>
 </HeroSection>
 
 > **¿Para quién es esto?**  
-> Diseñado para **equipos globales** donde las barreras del idioma causan retrasos, pérdida de negocios o malentendidos costosos. Aprenda más en nuestra sección de [Markets](./product/overview/markets).
+> Diseñado para **equipos globales** donde las barreras del idioma causan retrasos, pérdida de negocios o malentendidos costosos. [Más información ...](./product/overview/markets)
+
+<br>
 
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: 'Traducción ≠ Comprensión. Esto es lo que sigue.',
+  title: 'Traducción ≠ Comprensión. Esto es lo siguiente.',
   details: 'Sin importar el idioma, **su voz es escuchada — y comprendida** — como si compartieran la misma lengua.',
     items: [
       '⚡︎ De forma natural, en [tiempo real](./product/overview/how-it-works), y sin subtítulos ni retrasos.',
@@ -32,8 +31,8 @@ text="Hable en su idioma nativo. Escuche a todos los demás — como si también
     ],
   link: './product/overview/what-is-intermind',
   src: {
-    light: '/1.png',
-    dark: '/1.png',
+    light: '/1l.png',
+    dark: '/1d.png',
   },
   inversion: false
 }" />
@@ -58,7 +57,7 @@ text="Hable en su idioma nativo. Escuche a todos los demás — como si también
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Diseñado para reuniones serias — no solo para charlar',
-    details: 'InterMind es una **plataforma de videollamadas de nivel profesional**, no un complemento o plugin ligero.',
+    details: 'InterMind es una **plataforma de reuniones por video de nivel profesional**, no un complemento o plugin ligero.',
     items: [
       '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat entre participantes e integración con calendario — todo incluido, listo para usar.',
     ],
@@ -75,9 +74,9 @@ text="Hable en su idioma nativo. Escuche a todos los demás — como si también
   :card="{
     title: 'Privacidad donde importa',
     details:
-      'InterMind está construido para conversaciones críticas de confianza — donde la privacidad y el control son más importantes.',
+      'InterMind está diseñado para conversaciones críticas de confianza — donde la privacidad y el control son más importantes.',
     items: [
-      '⚡︎ [Enrutamiento de privacidad basado en regiones](./product/overview/privacy-architecture) — UE, EE. UU., SE Asia',
+      '⚡︎ [Zonas de privacidad](./product/overview/privacy-architecture) — UE, EE. UU., SE Asia',
       '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
     ],
     link: './product/overview/privacy-architecture',
@@ -127,8 +126,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
       '**5** TB de almacenamiento compartido por usuario',
       'Búsqueda en todas tus reuniones [💬](#2)',
       'Interpretación simultánea [💬](#1)',
-      '**Enrutamiento de privacidad por región** [💬](#4)',
-      '**Colega IA**. Parece humano. Suena natural. (versión-⍺)',
+      '**Zonas de Privacidad** [💬](#4)',
     ],
   }
 ]">
@@ -167,7 +165,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Cómo garantiza InterMind la privacidad y seguridad de los datos?',
-    a: 'InterMind es **privado por diseño**. Todos los datos se procesan y almacenan en la región que selecciones — *UE, EE. UU. o Asia*. Cumplimos con **GDPR, CCPA y UAE PDPL**, y **nunca usamos tu contenido** para entrenamiento o acceso de terceros. El **enrutamiento de privacidad basado en región** está disponible en el plan *Business*.'
+    a: 'InterMind es **privado por diseño**. Todos los datos se procesan y almacenan dentro de su **Zona de Privacidad** seleccionada — _EU_, _US_, o _Asia_. Cumplimos con [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), y UAE PDPL, y **nunca usamos su contenido** para entrenamiento o acceso de terceros. El **control avanzado de Zona de Privacidad** está disponible en el plan **Business**.'
   },
   {
     q: '¿Puedo probar InterMind antes de comprar un plan?',
@@ -175,10 +173,10 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Qué pasa si necesito ayuda o soporte?',
-    a: 'El soporte está disponible a través de nuestro **centro de ayuda**, **correo electrónico** y **chat en vivo**. Los usuarios *Business* obtienen **soporte prioritario** con un contacto dedicado.'
+    a: 'El soporte está disponible a través de nuestro **centro de ayuda**, **correo electrónico** y **chat en vivo**. Los usuarios de *Business* obtienen **soporte prioritario** con un contacto dedicado.'
   },
   {
-    q: '¿Cómo gestiono mi suscripción (actualizar, degradar o cancelar)?',
+    q: '¿Cómo gestiono mi suscripción (actualizar, reducir o cancelar)?',
     a: 'Puedes cambiar tu plan en cualquier momento a través de la **configuración de tu cuenta**. Los cambios surten efecto **inmediatamente**. Para cancelaciones, los *planes mensuales* se cancelan al final del ciclo de facturación. Los *planes anuales* se pueden cancelar con un **reembolso prorrateado**.'
   },
   {

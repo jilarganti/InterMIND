@@ -1,26 +1,25 @@
 ---
 layout: home
 title: "Appels vidéo alimentés par l'interprétation simultanée"
-
 isHome: true
 ---
 
 <!-- text="Appels vidéo alimentés par la traduction vocale simultanée." -->
 <!-- text="Les salles de classe prennent des années ; InterMind offre une compréhension en temps réel aujourd'hui, dans toutes les langues." -->
 <!-- text="Réunions vidéo **multilingues** avec interprétation **vocale**" -->
-<!-- title="Réunions vidéo avec **interprétation** en direct" -->
+<!-- title="Réunions vidéo avec interprétation **en direct**" -->
 
 <HeroSection
-title="Communiquez dans **Toutes** les Langues"
-text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la parlaient aussi.">
+  title="Communiquez dans **Toutes** les Langues"
+  text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la parlaient aussi.">
 
-<AuthButton text="Découvrez la différence" buttonClass="brand"/>
-<!-- <ContactFormModalNav buttonText="Demander une démo"/>
-<NavButton to="#pricing" buttonClass="alt" buttonLabel="Tarifs" /> -->
+  <AuthButton text="Découvrez la différence" buttonClass="brand"/>
 </HeroSection>
 
 > **Pour qui est-ce ?**  
-> Conçu pour les **équipes internationales** où les barrières linguistiques causent des retards, des opportunités manquées ou des malentendus coûteux. En savoir plus dans notre section [Markets](./product/overview/markets).
+> Conçu pour les **équipes internationales** où les barrières linguistiques causent des retards, des opportunités manquées ou des malentendus coûteux. [En savoir plus ...](./product/overview/markets)
+
+<br>
 
 <span id="1"></span>
 <FeatureBlock :card="{
@@ -32,8 +31,8 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
     ],
   link: './product/overview/what-is-intermind',
   src: {
-    light: '/1.png',
-    dark: '/1.png',
+    light: '/1l.png',
+    dark: '/1d.png',
   },
   inversion: false
 }" />
@@ -44,7 +43,7 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
     details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
     items: [
       '🔍 **Posez n\'importe quelle question** — l\'IA trouve des réponses **dans toutes vos réunions**.',
-      '✧ Extrait automatiquement les tâches, les responsables et les délais.',
+      '✧ Extrait automatiquement les tâches, les responsables et les échéances.',
       '✧ Résume les points clés dans n\'importe quelle langue — instantanément.',
     ],
     link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
@@ -58,7 +57,7 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Conçu pour les Réunions Professionnelles — Pas Juste pour Parler',
-    details: 'InterMind est une **plateforme de réunion vidéo professionnelle**, pas un simple module complémentaire ou plugin.',
+    details: 'InterMind est une **plateforme de réunion vidéo de niveau professionnel**, pas un simple module complémentaire ou plugin.',
     items: [
       '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat entre participants et intégration du calendrier — tout est intégré, prêt à l\'emploi.',
     ],
@@ -77,7 +76,7 @@ text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la par
     details:
       'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle sont essentiels.',
     items: [
-      '⚡︎ [Routage de confidentialité par région](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
+      '⚡︎ [Zones de Confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
       '✧ **Zéro entraînement de données**. Aucun accès tiers.'
     ],
     link: './product/overview/privacy-architecture',
@@ -97,7 +96,7 @@ Du premier appel aux conversations fluides — à toute échelle.
 
 <PricingPlans :plans="[
   {
-    title: '**Basic** 1 utilisateur',
+    title: '**Basique** 1 utilisateur',
     price: '**Gratuit**',
     details: '25 réunions gratuites',
     items: [
@@ -109,8 +108,8 @@ Du premier appel aux conversations fluides — à toute échelle.
   },
   {
     title: '**Pro** 1-99 utilisateurs',
-    price: '**20€** /mois/utilisateur, facturation annuelle',
-    details: 'ou 25€ par mois',
+    price: '**20 €** /mois/utilisateur, facturation annuelle',
+    details: 'ou 25 € facturation mensuelle',
     items: [
       'Réunions vidéo pour **150** participants [💬](#3)',
       '**2** To de stockage mutualisé par utilisateur',
@@ -127,8 +126,7 @@ Du premier appel aux conversations fluides — à toute échelle.
       '**5** To de stockage mutualisé par utilisateur',
       'Recherche dans toutes vos réunions [💬](#2)',
       'Interprétation simultanée [💬](#1)',
-      '**Routage privé par région** [💬](#4)',
-      '**Collègue IA**. Apparence humaine. Voix naturelle. (version-⍺)',
+      '**Zones de confidentialité** [💬](#4)',
     ],
   }
 ]">
@@ -167,11 +165,11 @@ Du premier appel aux conversations fluides — à toute échelle.
   },
   {
     q: 'Comment InterMind assure-t-il la confidentialité et la sécurité des données ?',
-    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre région sélectionnée — *UE, États-Unis ou Asie*. Nous respectons le **RGPD, le CCPA et l\'UAE PDPL**, et **n\'utilisons jamais votre contenu** pour la formation ou l\'accès par des tiers. Le **routage privé par région** est disponible sur le forfait *Business*.'
+    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Privacy Zone** sélectionnée — _EU_, _US_, ou _Asia_. Nous respectons le [**GDPR**](https://gdpr.eu), le [**CCPA**](https://oag.ca.gov/privacy/ccpa), et l\'UAE PDPL, et **n\'utilisons jamais votre contenu** pour la formation ou l\'accès à des tiers. Le contrôle avancé des **Privacy Zone** est disponible sur le forfait **Business**.'
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un forfait ?',
-    a: 'Absolument. Le forfait *Free Basic* vous donne un accès complet aux fonctionnalités de base avec **25 réunions gratuites** — y compris **l\'interprétation simultanée** et la **recherche de réunions**. Pas de carte de crédit requise. Possibilité de mise à niveau à tout moment.'
+    a: 'Absolument. Le forfait *Free Basic* vous donne un accès complet aux fonctionnalités de base avec **25 réunions gratuites** — y compris l\'**interprétation simultanée** et la **recherche de réunions**. Pas de carte de crédit requise. Mise à niveau possible à tout moment.'
   },
   {
     q: 'Que faire si j\'ai besoin d\'aide ou de support ?',
@@ -187,7 +185,7 @@ Du premier appel aux conversations fluides — à toute échelle.
   },
   {
     q: 'Puis-je utiliser InterMind pour des webinaires ou de grands événements ?',
-    a: 'Oui. Les forfaits *Pro* et *Business* sont idéaux pour les **grandes réunions et webinaires** — avec prise en charge jusqu\'à **500 participants** sur le forfait *Business*.'
+    a: 'Oui. Les forfaits *Pro* et *Business* sont idéaux pour les **grandes réunions et webinaires** — avec un support jusqu\'à **500 participants** sur le forfait *Business*.'
   }
 ]
 "/>
