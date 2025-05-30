@@ -5,9 +5,7 @@ isHome: true
 ---
 
 <!-- text="Appels vidéo alimentés par la traduction vocale simultanée." -->
-<!-- text="Les salles de classe prennent des années ; InterMind offre une compréhension en temps réel aujourd'hui, dans toutes les langues." -->
-<!-- text="Réunions vidéo **multilingues** avec interprétation **vocale**" -->
-<!-- title="Réunions vidéo avec interprétation **en direct**" -->
+<!-- title="Réunions vidéo avec **Interprétation** en direct" -->
 
 <HeroSection
   title="Communiquez dans **Toutes** les Langues"
@@ -42,8 +40,8 @@ isHome: true
     title: 'L\'Intelligence au Cœur de Vos Réunions',
     details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
     items: [
-      '🔍 **Posez n\'importe quelle question** — l\'IA trouve des réponses **dans toutes vos réunions**.',
-      '✧ Extrait automatiquement les tâches, les responsables et les échéances.',
+      '🔍 **Posez n\'importe quelle question** — l\'IA trouve des réponses **à travers vos réunions**.',
+      '✧ Extrait automatiquement les tâches, les responsables et les délais.',
       '✧ Résume les points clés dans n\'importe quelle langue — instantanément.',
     ],
     link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
@@ -57,7 +55,7 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Conçu pour les Réunions Professionnelles — Pas Juste pour Parler',
-    details: 'InterMind est une **plateforme de réunion vidéo de niveau professionnel**, pas un simple module complémentaire ou plugin.',
+    details: 'InterMind est une **plateforme de réunion vidéo de niveau professionnel**, pas un simple complément ou plugin.',
     items: [
       '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat entre participants et intégration du calendrier — tout est intégré, prêt à l\'emploi.',
     ],
@@ -96,33 +94,36 @@ Du premier appel aux conversations fluides — à toute échelle.
 
 <PricingPlans :plans="[
   {
-    title: '**Basique** 1 utilisateur',
+    title: '**Basic** &nbsp 1 utilisateur',
     price: '**Gratuit**',
-    details: '25 réunions gratuites',
+    details: 'aucune carte bancaire requise',
     items: [
-      'Réunions vidéo pour **100** participants [💬](#3)',
+      '**25** réunions',
+      '**100** participants en réunion vidéo [💬](#3)',
       '**30** Go de stockage mutualisé par utilisateur',
       'Recherche dans toutes vos réunions [💬](#2)',
       'Interprétation simultanée [💬](#1)',
     ],
   },
   {
-    title: '**Pro** 1-99 utilisateurs',
-    price: '**20 €** /mois/utilisateur, facturation annuelle',
-    details: 'ou 25 € facturation mensuelle',
+    title: '**Pro** &nbsp 1-99 utilisateurs',
+    price: '**20€** /mois/utilisateur, facturation annuelle',
+    details: 'ou 25€ par mois',
     items: [
-      'Réunions vidéo pour **150** participants [💬](#3)',
+      'Réunions **illimitées**',
+      '**150** participants en réunion vidéo [💬](#3)',
       '**2** To de stockage mutualisé par utilisateur',
       'Recherche dans toutes vos réunions [💬](#2)',
       'Interprétation simultanée [💬](#1)',
     ],
   },
   {
-    title: '**Business** 1-250 utilisateurs',
+    title: '**Business** &nbsp 100+ utilisateurs',
     price: '**Prix personnalisé**',
     details: 'Conçu pour la confidentialité',
     items: [
-      'Réunions vidéo pour **500** participants [💬](#3)',
+      'Réunions **illimitées**',
+      '**500** participants en réunion vidéo [💬](#3)',
       '**5** To de stockage mutualisé par utilisateur',
       'Recherche dans toutes vos réunions [💬](#2)',
       'Interprétation simultanée [💬](#1)',
@@ -169,7 +170,7 @@ Du premier appel aux conversations fluides — à toute échelle.
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un forfait ?',
-    a: 'Absolument. Le forfait *Free Basic* vous donne un accès complet aux fonctionnalités de base avec **25 réunions gratuites** — y compris l\'**interprétation simultanée** et la **recherche de réunions**. Pas de carte de crédit requise. Mise à niveau possible à tout moment.'
+    a: 'Absolument. Le forfait *Free Basic* vous donne un accès complet aux fonctionnalités de base avec **25 réunions gratuites** — y compris l\'**interprétation simultanée** et la **recherche de réunions**. Pas de carte de crédit requise. Possibilité de mise à niveau à tout moment.'
   },
   {
     q: 'Que faire si j\'ai besoin d\'aide ou de support ?',
@@ -177,7 +178,7 @@ Du premier appel aux conversations fluides — à toute échelle.
   },
   {
     q: 'Comment gérer mon abonnement (mise à niveau, rétrogradation ou annulation) ?',
-    a: 'Vous pouvez modifier votre forfait à tout moment via vos **paramètres de compte**. Les changements prennent effet **immédiatement**. Pour les annulations, les *forfaits mensuels* sont annulés à la fin du cycle de facturation. Les *forfaits annuels* peuvent être annulés avec un **remboursement au prorata**.'
+    a: 'Vous pouvez modifier votre forfait à tout moment via vos **paramètres de compte**. Les modifications prennent effet **immédiatement**. Pour les annulations, les *forfaits mensuels* sont annulés à la fin du cycle de facturation. Les *forfaits annuels* peuvent être annulés avec un **remboursement au prorata**.'
   },
   {
     q: 'Quelles langues InterMind prend-il en charge pour l\'interprétation ?',
@@ -185,7 +186,7 @@ Du premier appel aux conversations fluides — à toute échelle.
   },
   {
     q: 'Puis-je utiliser InterMind pour des webinaires ou de grands événements ?',
-    a: 'Oui. Les forfaits *Pro* et *Business* sont idéaux pour les **grandes réunions et webinaires** — avec un support jusqu\'à **500 participants** sur le forfait *Business*.'
+    a: 'Oui. Les forfaits *Pro* et *Business* sont idéaux pour les **grandes réunions et webinaires** — avec prise en charge jusqu\'à **500 participants** sur le forfait *Business*.'
   }
 ]
 "/>
