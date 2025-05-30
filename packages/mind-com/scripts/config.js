@@ -6,12 +6,12 @@ export const config = {
 
   languages: {
     ru: { code: "ru", name: "Russian" },
-    // ar: { code: "ar", name: "Gulf Arab & MSA" },
-    // zh: { code: "zh", name: "Mandarin" },
-    // es: { code: "es", name: "Spanish" },
-    // ja: { code: "ja", name: "Japanese" },
-    // de: { code: "de", name: "German" },
-    // fr: { code: "fr", name: "French" },
+    ar: { code: "ar", name: "Gulf Arab & MSA" },
+    zh: { code: "zh", name: "Mandarin" },
+    es: { code: "es", name: "Spanish" },
+    ja: { code: "ja", name: "Japanese" },
+    de: { code: "de", name: "German" },
+    fr: { code: "fr", name: "French" },
     // -------- Uncomment to add more languages --------
 
     // pt: { code: "pt", name: "Brazilian Portuguese" },
