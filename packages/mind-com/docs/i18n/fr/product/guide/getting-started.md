@@ -16,7 +16,7 @@ iMind Meeting est optimisé pour une utilisation sur ordinateur et mobile, perme
 ### Comment Accéder
 
 1. Ouvrez votre navigateur web
-2. Visitez [https://gocall.today](https://gocall.today)
+2. Visitez [https://intermind.com](https://intermind.com)
 3. Connectez-vous ou rejoignez directement une réunion en tant qu\'invité
 4. Accordez les permissions pour la caméra et le microphone lorsque demandé
 

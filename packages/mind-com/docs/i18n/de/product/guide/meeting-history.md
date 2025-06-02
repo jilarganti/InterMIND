@@ -7,7 +7,7 @@ Die Seite "Besprechungsverlauf" dient als persönliches Archiv für alle Besprec
 Sie können auf zwei Arten auf die Besprechungsverlauf-Seite zugreifen:
 
 - Klicken Sie auf Ihr Avatar-Symbol in der oberen rechten Ecke des Dashboards und wählen Sie dann **"History"** aus dem Dropdown-Menü
-- Alternativ können Sie direkt navigieren zu: [https://gocall.today/history](https://gocall.today/history)
+- Alternativ können Sie direkt navigieren zu: [https://intermind.com/history](https://intermind.com/history)
 
 ## Besprechungsliste
 

@@ -7,7 +7,7 @@
 会議履歴ページへは2つの方法でアクセスできます：
 
 - ダッシュボードの右上にあるアバターアイコンをクリックし、ドロップダウンメニューから**「履歴」**を選択
-- または、直接こちらのURLにアクセス： [https://gocall.today/history](https://gocall.today/history)
+- または、直接こちらのURLにアクセス： [https://intermind.com/history](https://intermind.com/history)
 
 ## 会議一覧
 

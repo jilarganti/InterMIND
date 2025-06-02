@@ -12,8 +12,8 @@ const RTL_LOCALES = ["ar", "fa", "ur"]
 const UTM_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "campaign_id"]
 
 // Определение констант для OAuth прямо в коде, так как это не закрытые данные
-const OAUTH_PROVIDER_URL = "https://id.gocall.today/realms/vca"
-const APP_BASE_URL = "https://gocall.today"
+const OAUTH_PROVIDER_URL = "https://id.intermind.com/realms/vca"
+const APP_BASE_URL = "https://intermind.com"
 const OAUTH_CLIENT_ID = "vca"
 
 const isProduction = process.env.VERCEL_ENV === "production"

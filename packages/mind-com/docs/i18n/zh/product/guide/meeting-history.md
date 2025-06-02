@@ -7,7 +7,7 @@
 您可以通过两种方式访问会议历史页面：
 
 - 点击仪表板右上角的头像图标，然后从下拉菜单中选择**"历史记录"**
-- 或者直接访问：[https://gocall.today/history](https://gocall.today/history)
+- 或者直接访问：[https://intermind.com/history](https://intermind.com/history)
 
 ## 会议列表
 

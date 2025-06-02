@@ -4,7 +4,7 @@
 
 Sie können ein Konto auf zwei Arten erstellen: über Ihr Google-Konto oder durch Registrierung mit einer externen E-Mail-Adresse.
 
-1. Besuchen Sie zunächst [https://gocall.today](https://gocall.today)
+1. Besuchen Sie zunächst [https://intermind.com](https://intermind.com)
 2. Klicken Sie auf die Schaltfläche **Sign In** in der oberen rechten Ecke der Startseite
 3. Auf der Seite "In Ihr Konto einloggen" finden Sie folgende Optionen:
    - Ein E-Mail- und Passwortfeld für die Anmeldung (falls Sie bereits ein Konto besitzen)
@@ -50,7 +50,7 @@ Diese Methode ist für Personen geeignet, die entweder kein Google-Konto besitze
 
 ### Zugriff auf die Anmeldeseite
 
-1. Gehen Sie zu [https://gocall.today](https://gocall.today)
+1. Gehen Sie zu [https://intermind.com](https://intermind.com)
 2. Klicken Sie auf die Schaltfläche **Anmelden** in der oberen rechten Ecke der Homepage
 3. Sie werden zur Seite **In Ihr Konto anmelden** weitergeleitet
 
@@ -86,7 +86,7 @@ Die Benutzerprofilseite bietet Nutzern die Möglichkeit, ihre persönlichen Eins
 1. Klicken Sie auf Ihr Benutzeravatar-Symbol in der oberen rechten Ecke der Seite
 2. Wählen Sie im Dropdown-Menü die Option **Profile**
 
-**Direkte URL:** Navigieren Sie zu [https://gocall.today/profile](https://gocall.today/profile)
+**Direkte URL:** Navigieren Sie zu [https://intermind.com/profile](https://intermind.com/profile)
 
 ### Profilbereiche
 
@@ -99,15 +99,15 @@ Die Benutzerprofilseite bietet Nutzern die Möglichkeit, ihre persönlichen Eins
 
 Konfigurieren Sie Ihre Standard-Geräte- und Benutzeroberflächen-Einstellungen:
 
-| Einstellung               | Beschreibung                                          |
-| ------------------------- | ---------------------------------------------------- |
-| Mikrofon                  | Wählen Sie das bevorzugte Eingabegerät               |
-| Lautsprecher             | Wählen Sie das bevorzugte Audioausgabegerät          |
-| Kamera                    | Wählen Sie die bevorzugte Videoeingabe              |
-| Standard Assistant Provider| Wählen Sie den bevorzugten KI-Assistenten           |
-| Layout                    | Wählen Sie zwischen Raster- oder Seitenleisten-Layout|
-| Sprache                   | Wählen Sie die bevorzugte Sprache für den Übersetzer|
-| Hintergrundunschärfe      | Aktivieren oder deaktivieren Sie den Unschärfeeffekt während Meetings |
+| Einstellung                 | Beschreibung                                                          |
+| --------------------------- | --------------------------------------------------------------------- |
+| Mikrofon                    | Wählen Sie das bevorzugte Eingabegerät                                |
+| Lautsprecher                | Wählen Sie das bevorzugte Audioausgabegerät                           |
+| Kamera                      | Wählen Sie die bevorzugte Videoeingabe                                |
+| Standard Assistant Provider | Wählen Sie den bevorzugten KI-Assistenten                             |
+| Layout                      | Wählen Sie zwischen Raster- oder Seitenleisten-Layout                 |
+| Sprache                     | Wählen Sie die bevorzugte Sprache für den Übersetzer                  |
+| Hintergrundunschärfe        | Aktivieren oder deaktivieren Sie den Unschärfeeffekt während Meetings |
 
 > [!INFO]
 > Änderungen werden automatisch gespeichert und gelten für alle zukünftigen Meetings.

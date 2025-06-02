@@ -4,7 +4,7 @@
 
 Creating an account can be accomplished through two methods: utilizing your Google Account or registering with an External Email Address.
 
-1. Begin by visiting [https://gocall.today](https://gocall.today)
+1. Begin by visiting [https://intermind.com](https://intermind.com)
 2. Click on the **Sign In** button located in the top right corner of the homepage
 3. On the Sign in to your account page, you will encounter the following options:
    - An Email and Password field for logging in (if you already possess an account)
@@ -50,7 +50,7 @@ This method is advisable for individuals who either do not possess a Google acco
 
 ### Accessing the Sign In Page
 
-1. Navigate to [https://gocall.today](https://gocall.today)
+1. Navigate to [https://intermind.com](https://intermind.com)
 2. Click the **Sign In** button located in the top right corner of the homepage
 3. You will be directed to the **Sign in to your account** page
 
@@ -86,7 +86,7 @@ The User Profile page offers users the opportunity to view and customize their p
 1. Click on your user avatar icon located in the top-right corner of the page
 2. From the dropdown menu, select the **Profile** option
 
-**Direct URL:** Navigate to [https://gocall.today/profile](https://gocall.today/profile)
+**Direct URL:** Navigate to [https://intermind.com/profile](https://intermind.com/profile)
 
 ### Profile Sections
 

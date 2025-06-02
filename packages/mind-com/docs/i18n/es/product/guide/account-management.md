@@ -4,7 +4,7 @@
 
 La creación de una cuenta se puede realizar mediante dos métodos: utilizando tu Cuenta de Google o registrándote con una Dirección de Correo Electrónico Externa.
 
-1. Comienza visitando [https://gocall.today](https://gocall.today)
+1. Comienza visitando [https://intermind.com](https://intermind.com)
 2. Haz clic en el botón **Sign In** ubicado en la esquina superior derecha de la página principal
 3. En la página de Iniciar sesión en tu cuenta, encontrarás las siguientes opciones:
    - Un campo para Email y Contraseña para iniciar sesión (si ya tienes una cuenta)
@@ -50,7 +50,7 @@ Este método es aconsejable para personas que no tienen una cuenta de Google o p
 
 ### Acceder a la Página de Inicio de Sesión
 
-1. Navega a [https://gocall.today](https://gocall.today)
+1. Navega a [https://intermind.com](https://intermind.com)
 2. Haz clic en el botón **Iniciar Sesión** ubicado en la esquina superior derecha de la página principal
 3. Serás dirigido a la página **Inicia sesión en tu cuenta**
 
@@ -86,7 +86,7 @@ La página de Perfil de Usuario ofrece a los usuarios la oportunidad de ver y pe
 1. Haga clic en el icono de su avatar de usuario ubicado en la esquina superior derecha de la página
 2. Desde el menú desplegable, seleccione la opción **Profile**
 
-**URL Directa:** Navegue a [https://gocall.today/profile](https://gocall.today/profile)
+**URL Directa:** Navegue a [https://intermind.com/profile](https://intermind.com/profile)
 
 ### Secciones del Perfil
 
@@ -99,15 +99,15 @@ La página de Perfil de Usuario ofrece a los usuarios la oportunidad de ver y pe
 
 Configure sus preferencias predeterminadas de dispositivo e interfaz de usuario:
 
-| Configuración             | Descripción                                           |
-| ------------------------- | ----------------------------------------------------- |
-| Micrófono                | Elija el dispositivo de entrada preferido             |
-| Altavoz                  | Elija el dispositivo de salida de audio preferido     |
-| Cámara                   | Elija la entrada de video preferida                   |
-| Proveedor de Asistente Predeterminado | Elija el proveedor de Asistente AI preferido |
-| Diseño                   | Seleccione entre modos de diseño de Cuadrícula o Barra lateral |
-| Idioma                   | Elija el idioma preferido para el Traductor           |
-| Desenfoque de Fondo      | Active o desactive el efecto de desenfoque durante las reuniones |
+| Configuración                         | Descripción                                                      |
+| ------------------------------------- | ---------------------------------------------------------------- |
+| Micrófono                             | Elija el dispositivo de entrada preferido                        |
+| Altavoz                               | Elija el dispositivo de salida de audio preferido                |
+| Cámara                                | Elija la entrada de video preferida                              |
+| Proveedor de Asistente Predeterminado | Elija el proveedor de Asistente AI preferido                     |
+| Diseño                                | Seleccione entre modos de diseño de Cuadrícula o Barra lateral   |
+| Idioma                                | Elija el idioma preferido para el Traductor                      |
+| Desenfoque de Fondo                   | Active o desactive el efecto de desenfoque durante las reuniones |
 
 > [!INFO]
 > Los cambios se guardan automáticamente y se aplicarán a todas las reuniones futuras.

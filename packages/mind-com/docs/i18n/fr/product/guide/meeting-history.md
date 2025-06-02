@@ -7,7 +7,7 @@ La page Historique des Réunions fonctionne comme une archive personnelle de tou
 Vous pouvez accéder à la page Historique des Réunions de deux manières :
 
 - Cliquez sur l\'icône de votre avatar dans le coin supérieur droit du tableau de bord, puis sélectionnez **"History"** dans le menu déroulant
-- Alternativement, accédez directement à : [https://gocall.today/history](https://gocall.today/history)
+- Alternativement, accédez directement à : [https://intermind.com/history](https://intermind.com/history)
 
 ## Liste des Réunions
 

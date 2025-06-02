@@ -16,7 +16,7 @@ iMind Meeting 针对桌面端和移动端进行了优化，让用户可以随时
 ### 如何访问
 
 1. 打开网络浏览器
-2. 访问 [https://gocall.today](https://gocall.today)
+2. 访问 [https://intermind.com](https://intermind.com)
 3. 登录或直接以访客身份加入会议链接
 4. 在提示时授予摄像头和麦克风权限
 

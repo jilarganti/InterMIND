@@ -7,7 +7,7 @@ The Meeting History page functions as a personal archive for all meetings you ha
 You can access the Meeting History page through two methods:
 
 - Click your avatar icon in the top-right corner of the dashboard, then select **"History"** from the dropdown menu
-- Alternatively, navigate directly to: [https://gocall.today/history](https://gocall.today/history)
+- Alternatively, navigate directly to: [https://intermind.com/history](https://intermind.com/history)
 
 ## Meetings List
 

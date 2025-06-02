@@ -7,7 +7,7 @@ La página de Historial de Reuniones funciona como un archivo personal de todas 
 Puede acceder a la página del Historial de Reuniones de dos maneras:
 
 - Haga clic en el ícono de su avatar en la esquina superior derecha del panel, luego seleccione **"History"** del menú desplegable
-- Alternativamente, navegue directamente a: [https://gocall.today/history](https://gocall.today/history)
+- Alternativamente, navegue directamente a: [https://intermind.com/history](https://intermind.com/history)
 
 ## Lista de Reuniones
 

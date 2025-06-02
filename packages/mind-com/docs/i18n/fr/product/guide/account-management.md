@@ -4,7 +4,7 @@
 
 La création d\'un compte peut être effectuée de deux manières : en utilisant votre compte Google ou en vous inscrivant avec une adresse e-mail externe.
 
-1. Commencez par visiter [https://gocall.today](https://gocall.today)
+1. Commencez par visiter [https://intermind.com](https://intermind.com)
 2. Cliquez sur le bouton **Sign In** situé dans le coin supérieur droit de la page d\'accueil
 3. Sur la page de connexion à votre compte, vous verrez les options suivantes :
    - Un champ pour l\'e-mail et le mot de passe pour vous connecter (si vous avez déjà un compte)
@@ -50,7 +50,7 @@ Cette méthode est conseillée pour les personnes qui ne possèdent pas de compt
 
 ### Accéder à la Page de Connexion
 
-1. Accédez à [https://gocall.today](https://gocall.today)
+1. Accédez à [https://intermind.com](https://intermind.com)
 2. Cliquez sur le bouton **Se Connecter** situé dans le coin supérieur droit de la page d\'accueil
 3. Vous serez dirigé vers la page **Connectez-vous à votre compte**
 
@@ -86,7 +86,7 @@ La page Profil Utilisateur permet aux utilisateurs de consulter et personnaliser
 1. Cliquez sur l\'icône de votre avatar située dans le coin supérieur droit de la page
 2. Dans le menu déroulant, sélectionnez l\'option **Profile**
 
-**URL Directe :** Accédez à [https://gocall.today/profile](https://gocall.today/profile)
+**URL Directe :** Accédez à [https://intermind.com/profile](https://intermind.com/profile)
 
 ### Sections du Profil
 
@@ -99,15 +99,15 @@ La page Profil Utilisateur permet aux utilisateurs de consulter et personnaliser
 
 Configurez vos préférences par défaut pour les périphériques et l\'interface utilisateur :
 
-| Paramètre                           | Description                                                    |
-| ----------------------------------- | -------------------------------------------------------------- |
-| Microphone                          | Choisir le périphérique d\'entrée préféré                     |
-| Haut-parleur                        | Choisir le périphérique de sortie audio préféré               |
-| Caméra                              | Choisir l\'entrée vidéo préférée                              |
-| Fournisseur d\'Assistant par défaut | Choisir le fournisseur d\'Assistant IA préféré                |
-| Disposition                         | Sélectionner entre les modes Grille ou Barre latérale         |
-| Langue                              | Choisir la langue préférée pour le Traducteur                 |
-| Flou d\'arrière-plan                | Activer ou désactiver l\'effet de flou pendant les réunions   |
+| Paramètre                           | Description                                                 |
+| ----------------------------------- | ----------------------------------------------------------- |
+| Microphone                          | Choisir le périphérique d\'entrée préféré                   |
+| Haut-parleur                        | Choisir le périphérique de sortie audio préféré             |
+| Caméra                              | Choisir l\'entrée vidéo préférée                            |
+| Fournisseur d\'Assistant par défaut | Choisir le fournisseur d\'Assistant IA préféré              |
+| Disposition                         | Sélectionner entre les modes Grille ou Barre latérale       |
+| Langue                              | Choisir la langue préférée pour le Traducteur               |
+| Flou d\'arrière-plan                | Activer ou désactiver l\'effet de flou pendant les réunions |
 
 > [!INFO]
 > Les modifications sont automatiquement enregistrées et s\'appliqueront à toutes les réunions futures.

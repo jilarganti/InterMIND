@@ -16,7 +16,7 @@ iMind Meetingはデスクトップとモバイルの両方での使用に最適�
 ### アクセス方法
 
 1. Webブラウザを開く
-2. [https://gocall.today](https://gocall.today)にアクセス
+2. [https://intermind.com](https://intermind.com)にアクセス
 3. サインインするか、ゲストとして直接会議リンクに参加
 4. 要求された際にカメラとマイクの許可を与える
 
