@@ -1,8 +1,8 @@
 # Media Kit
 
-Hello! Here are a collection of Otter marketing resources and identity guidelines, including our logo, content, and trademarks.
+Hello! Here are a collection of InterMIND marketing resources and identity guidelines, including our logo, content, and trademarks.
 
-To make use of our marks or content not covered here, please contact us at
+To edit and download, right click and select Edit image
 
 ## Logo
 
