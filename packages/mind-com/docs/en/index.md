@@ -61,8 +61,8 @@ isHome: true
     ],
     link: './product/overview/how-it-works',
     src: {
-      light: '/3.png',
-      dark: '/3.png',
+      light: '/3l.mp4',
+      dark: '/3d.mp4',
     },
     inversion: false
   }" />
@@ -79,8 +79,8 @@ isHome: true
     ],
     link: './product/overview/privacy-architecture',
     src: {
-      light: '/4.png',
-      dark: '/4.png',
+      light: '/4l.png',
+      dark: '/4d.png',
     },
     inversion: true
   }"
