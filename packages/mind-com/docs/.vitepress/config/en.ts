@@ -29,6 +29,7 @@ export const en = defineConfig({
           { text: "Pricing", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Testimonials", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Media Kit", link: `${BASE_PATH}/resources/media-kit` },
         ],
         //   },
         // ],

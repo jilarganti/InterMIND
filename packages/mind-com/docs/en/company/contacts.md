@@ -10,7 +10,7 @@ hideComponents:
 description: "Have questions about AI meeting interpretation, multilingual support, or enterprise rollout? Contact InterMind to explore use cases, pricing, and integration options."
 ---
 
-<!-- <p><img src="/favicon.svg" alt="logo" width="50" ></p> -->
+<p><img src="/logo.png" alt="logo" width="300" ></p>
 
 # Need Instant Multilingual Meetings? Let’s Talk
 
