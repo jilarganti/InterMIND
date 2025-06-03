@@ -37,8 +37,9 @@ export const en = defineConfig({
     ],
 
     sidebar: {
-      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarServices() },
-      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarInsights() },
+      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
+      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
     },
 
     footer: {
@@ -81,7 +82,7 @@ export const en = defineConfig({
   },
 })
 
-function sidebarServices(): DefaultTheme.SidebarItem[] {
+function sidebarProduct(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "Overview",
@@ -111,9 +112,16 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarInsights(): DefaultTheme.SidebarItem[] {
+function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "About", link: "/about" },
     { text: "Contact", link: "/contacts" },
+  ]
+}
+
+function sidebarResources(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "Media Kit", link: "/media-kit" },
+    // { text: "Contact", link: "/contacts" },
   ]
 }
