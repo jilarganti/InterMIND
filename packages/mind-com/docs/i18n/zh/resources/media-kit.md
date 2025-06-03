@@ -2,31 +2,45 @@
 
 您好！这里收集了 InterMIND 的营销资源和品牌标识指南，包括我们的标志、内容和商标。
 
-要编辑和下载，请右键单击并选择编辑图像
+要编辑和下载，请右键点击并选择编辑图片
 
 ## 标志
 
 <br>
-<img src="/logo.png" class="transparency-grid" alt="标志" width="500" >
+<img src="/media-kit/logo.png" class="transparency-grid" alt="标志" width="500" >
+<br>
+<img src="/media-kit/logo-3-2.png" class="transparency-grid" alt="标志" width="500" >
+<br>
+<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="标志" width="500" >
 
 ## 网站图标
 
 <br>
 <img src="/favicon.svg" alt="网站图标" width="100">
 
+## 品牌色彩
+
+<br>
+
+```
+primary: #bc694a
+light: #73251a
+dark: #b16b2a
+```
+
 ## 宣传图片
 
 ### 同声传译
 
-![同声传译](/media-kit/1.png)
-
-![同声传译](/media-kit/2.png)
+<img src="/media-kit/1.png" alt="同声传译" width="500" > <br>
+<img src="/media-kit/2.png" alt="同声传译" width="500" > <br>
+<img src="/media-kit/5.png" alt="同声传译" width="500" > <br>
+<img src="/media-kit/6.png" alt="同声传译" width="500" > <br>
 
 ### 搜索所有会议记录
 
-![搜索所有会议记录](/2d.png)
-
-![搜索所有会议记录](/2l.png)
+<img src="/2d.png" alt="搜索所有会议记录" width="500" > <br>
+<img src="/2l.png" alt="搜索所有会议记录" width="500" > <br>
 
 <style>
 

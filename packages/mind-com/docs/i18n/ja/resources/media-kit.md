@@ -7,26 +7,40 @@
 ## ロゴ
 
 <br>
-<img src="/logo.png" class="transparency-grid" alt="ロゴ" width="500" >
+<img src="/media-kit/logo.png" class="transparency-grid" alt="ロゴ" width="500" >
+<br>
+<img src="/media-kit/logo-3-2.png" class="transparency-grid" alt="ロゴ" width="500" >
+<br>
+<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="ロゴ" width="500" >
 
 ## ファビコン
 
 <br>
 <img src="/favicon.svg" alt="ファビコン" width="100">
 
+## ブランドカラー
+
+<br>
+
+```
+primary: #bc694a
+light: #73251a
+dark: #b16b2a
+```
+
 ## プロモーション画像
 
 ### 同時通訳
 
-![同時通訳](/media-kit/1.png)
-
-![同時通訳](/media-kit/2.png)
+<img src="/media-kit/1.png" alt="同時通訳" width="500" > <br>
+<img src="/media-kit/2.png" alt="同時通訳" width="500" > <br>
+<img src="/media-kit/5.png" alt="同時通訳" width="500" > <br>
+<img src="/media-kit/6.png" alt="同時通訳" width="500" > <br>
 
 ### すべての会議を横断的に検索
 
-![すべての会議を横断的に検索](/2d.png)
-
-![すべての会議を横断的に検索](/2l.png)
+<img src="/2d.png" alt="すべての会議を横断的に検索" width="500" > <br>
+<img src="/2l.png" alt="すべての会議を横断的に検索" width="500" > <br>
 
 <style>
 

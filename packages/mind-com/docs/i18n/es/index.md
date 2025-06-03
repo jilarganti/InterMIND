@@ -10,13 +10,14 @@ isHome: true
 
 <HeroSection
   title="Reúnete en **Cualquier** Idioma"
-  text="Traducción de voz en vivo en videollamadas para equipos globales.">
+  text="Traducción de voz en vivo para equipos globales — **sin** retrasos, **sin** negocios perdidos, **sin** barreras lingüísticas.">
 
-  <AuthButton text="Escucha la diferencia" buttonClass="brand"/>
+  <!-- <AuthButton text="Escucha la diferencia" buttonClass="brand"/> -->
+  <AuthButton text="Pruébalo en tu idioma" buttonClass="brand"/>
 </HeroSection>
 
 > **¿Para quién es esto?**  
-> Diseñado para equipos globales donde las barreras del idioma causan **retrasos, pérdida de negocios o malentendidos costosos**. [Más información ...](./product/overview/markets)
+> Diseñado para equipos globales donde las barreras lingüísticas causan **retrasos, negocios perdidos o malentendidos costosos**. [Más información ...](./product/overview/markets)
 
 <br>
 
@@ -25,7 +26,7 @@ isHome: true
   title: 'Traducción ≠ Comprensión. Esto es lo siguiente.',
   details: 'Sin importar el idioma, **tu voz es escuchada — y comprendida** — como si compartieran la misma lengua.',
     items: [
-      '⚡︎ De forma natural, en [tiempo real](./product/overview/how-it-works), y sin subtítulos ni retrasos.',
+      '⚡︎ Naturalmente, en [tiempo real](./product/overview/how-it-works), y sin subtítulos ni retrasos.',
       '✧ Interpretación potenciada por IA que captura el tono, la intención y la terminología específica de la industria.',
     ],
   link: './product/overview/what-is-intermind',
@@ -73,7 +74,7 @@ isHome: true
   :card="{
     title: 'Privacidad Donde Importa',
     details:
-      'InterMind está diseñado para conversaciones críticas de confianza — donde la privacidad y el control son más importantes.',
+      'InterMind está construido para conversaciones críticas de confianza — donde la privacidad y el control son más importantes.',
     items: [
       '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — UE, EE. UU., SE Asia',
       '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'

@@ -4,15 +4,16 @@ title: "Live-Sprachübersetzung in Videoanrufen für globale Teams"
 isHome: true
 ---
 
-<!-- title: "Videoanrufe mit Simultanübersetzung" -->
+<!-- title: "Videoanrufe mit Simultandolmetschen" -->
 <!-- text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen — als ob sie diese auch sprechen würden." -->
 <!-- title="Live-Sprachübersetzung in Videoanrufen" -->
 
 <HeroSection
   title="Meetings in **jeder** Sprache"
-  text="Live-Sprachübersetzung in Videoanrufen für globale Teams.">
+  text="Live-Sprachübersetzung für globale Teams — **keine** Verzögerungen, **keine** verlorenen Geschäfte, **keine** Sprachbarrieren.">
 
-  <AuthButton text="Hören Sie den Unterschied" buttonClass="brand"/>
+  <!-- <AuthButton text="Hören Sie den Unterschied" buttonClass="brand"/> -->
+  <AuthButton text="Testen Sie es in Ihrer Sprache" buttonClass="brand"/>
 </HeroSection>
 
 > **Für wen ist das?**  
@@ -41,7 +42,7 @@ isHome: true
     title: 'Der Verstand in Ihren Meetings',
     details: 'InterMind verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
     items: [
-      '🔍 **Fragen Sie alles** — KI findet Antworten **über alle Ihre Meetings hinweg**.',
+      '🔍 **Fragen Sie alles** — KI findet Antworten **in all Ihren Meetings**.',
       '✧ Extrahiert automatisch Aufgaben, Verantwortliche und Fristen.',
       '✧ Fasst Kernpunkte in jeder Sprache sofort zusammen.',
     ],
@@ -56,9 +57,9 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Entwickelt für professionelle Meetings — nicht nur zum Plaudern',
-    details: 'InterMind ist eine **professionelle Videomeeting-Plattform**, keine einfache Erweiterung oder Plugin.',
+    details: 'InterMind ist eine **professionelle Videomeeting-Plattform**, kein einfaches Add-on oder Plugin.',
     items: [
-      '✧ 1080p Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufnahme, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles eingebaut und sofort einsatzbereit.',
+      '✧ 1080p Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufnahme, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert und sofort einsatzbereit.',
     ],
     link: './product/overview/how-it-works',
     src: {
@@ -71,7 +72,7 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Datenschutz wo es wichtig ist',
+    title: 'Datenschutz wo er wichtig ist',
     details:
       'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Privatsphäre und Kontrolle am wichtigsten sind.',
     items: [
@@ -103,19 +104,19 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
       '**100** Teilnehmer Videomeetings [💬](#3)',
       '**30** GB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
-      'Simultandolmetschen [💬](#1)',
+      'Simultanübersetzung [💬](#1)',
     ],
   },
   {
     title: '**Pro** &nbsp 1-99 Benutzer',
-    price: '**20€** /Monat/Benutzer, jährlich abgerechnet',
-    details: 'oder 25€ monatlich abgerechnet',
+    price: '**$20** /Monat/Benutzer, jährlich abgerechnet',
+    details: 'oder $25 monatlich abgerechnet',
     items: [
       '**unbegrenzte** Meetings',
       '**150** Teilnehmer Videomeetings [💬](#3)',
       '**2** TB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
-      'Simultandolmetschen [💬](#1)',
+      'Simultanübersetzung [💬](#1)',
     ],
   },
   {
@@ -127,7 +128,7 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
       '**500** Teilnehmer Videomeetings [💬](#3)',
       '**5** TB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
-      'Simultandolmetschen [💬](#1)',
+      'Simultanübersetzung [💬](#1)',
       '**Datenschutzzonen** [💬](#4)',
     ],
   }

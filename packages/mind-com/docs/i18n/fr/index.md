@@ -5,14 +5,15 @@ isHome: true
 ---
 
 <!-- title: "Appels vidéo alimentés par l'interprétation simultanée" -->
-<!-- text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la parlaient aussi." -->
+<!-- text="Parlez votre langue maternelle. Écoutez tout le monde — comme s'ils la parlaient aussi." -->
 <!-- title="Traduction vocale en direct pour les appels vidéo" -->
 
 <HeroSection
   title="Communiquez dans **Toutes** les Langues"
-  text="Traduction vocale en direct pour les appels vidéo des équipes internationales.">
+  text="Traduction vocale en direct pour les équipes internationales — **sans** délais, **sans** opportunités manquées, **sans** barrières linguistiques.">
 
-  <AuthButton text="Découvrez la différence" buttonClass="brand"/>
+  <!-- <AuthButton text="Écoutez la différence" buttonClass="brand"/> -->
+  <AuthButton text="Essayez dans votre langue" buttonClass="brand"/>
 </HeroSection>
 
 > **Pour qui est-ce ?**  
@@ -25,7 +26,7 @@ isHome: true
   title: 'Traduction ≠ Compréhension. Voici la suite.',
   details: 'Quelle que soit la langue, **votre voix est entendue — et comprise** — comme si vous parliez la même langue.',
     items: [
-      '⚡︎ Naturellement, en [temps réel](./product/overview/how-it-works), sans sous-titres ni décalage.',
+      '⚡︎ Naturellement, en [temps réel](./product/overview/how-it-works), sans sous-titres ni latence.',
       '✧ L\'interprétation alimentée par l\'IA capture le ton, l\'intention et la terminologie spécifique à l\'industrie.',
     ],
   link: './product/overview/what-is-intermind',
@@ -41,7 +42,7 @@ isHome: true
     title: 'L\'Intelligence au Cœur de Vos Réunions',
     details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
     items: [
-      '🔍 **Posez n\'importe quelle question** — l\'IA trouve des réponses **dans toutes vos réunions**.',
+      '🔍 **Posez n\'importe quelle question** — l\'IA trouve des réponses **à travers vos réunions**.',
       '✧ Extrait automatiquement les tâches, les responsables et les délais.',
       '✧ Résume les points clés dans n\'importe quelle langue — instantanément.',
     ],
@@ -55,8 +56,8 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Conçu pour les Réunions Professionnelles — Pas Seulement pour Discuter',
-    details: 'InterMind est une **plateforme de réunion vidéo professionnelle**, pas un simple module complémentaire.',
+    title: 'Conçu pour les Réunions Professionnelles — Pas Juste pour Parler',
+    details: 'InterMind est une **plateforme de réunion vidéo de niveau professionnel**, pas un simple module complémentaire ou plugin.',
     items: [
       '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat entre participants et intégration du calendrier — tout est intégré, prêt à l\'emploi.',
     ],
@@ -71,11 +72,11 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Confidentialité Là Où C\'est Important',
+    title: 'Confidentialité Là Où Elle Compte',
     details:
-      'InterMind est conçu pour les conversations critiques — où la confidentialité et le contrôle sont essentiels.',
+      'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle sont essentiels.',
     items: [
-      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
+      '⚡︎ [Zones de Confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
       '✧ **Zéro entraînement de données**. Aucun accès tiers.'
     ],
     link: './product/overview/privacy-architecture',
@@ -109,7 +110,7 @@ Du premier appel aux conversations fluides — à toute échelle.
   {
     title: '**Pro** &nbsp 1-99 utilisateurs',
     price: '**20€** /mois/utilisateur, facturation annuelle',
-    details: 'ou 25€ par mois',
+    details: 'ou 25€ facturation mensuelle',
     items: [
       'Réunions **illimitées**',
       '**150** participants en réunion vidéo [💬](#3)',
@@ -171,7 +172,7 @@ Du premier appel aux conversations fluides — à toute échelle.
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un forfait ?',
-    a: 'Absolument. Le forfait *Free Basic* vous donne un accès complet aux fonctionnalités de base avec **25 réunions gratuites** — y compris l\'**interprétation simultanée** et la **recherche de réunions**. Pas de carte de crédit requise. Mise à niveau possible à tout moment.'
+    a: 'Absolument. Le forfait *Free Basic* vous donne un accès complet aux fonctionnalités de base avec **25 réunions gratuites** — y compris l\'**interprétation simultanée** et la **recherche de réunions**. Pas de carte de crédit requise. Possibilité de mise à niveau à tout moment.'
   },
   {
     q: 'Que faire si j\'ai besoin d\'aide ou de support ?',

@@ -7,26 +7,40 @@ Para editar y descargar, haz clic derecho y selecciona Editar imagen
 ## Logotipo
 
 <br>
-<img src="/logo.png" class="transparency-grid" alt="logotipo" width="500" >
+<img src="/media-kit/logo.png" class="transparency-grid" alt="logotipo" width="500" >
+<br>
+<img src="/media-kit/logo-3-2.png" class="transparency-grid" alt="logotipo" width="500" >
+<br>
+<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="logotipo" width="500" >
 
 ## Favicon
 
 <br>
 <img src="/favicon.svg" alt="favicon" width="100">
 
+## Colores de Marca
+
+<br>
+
+```
+primary: #bc694a
+light: #73251a
+dark: #b16b2a
+```
+
 ## Imágenes Promocionales
 
 ### Interpretación simultánea
 
-![Interpretación simultánea](/media-kit/1.png)
-
-![Interpretación simultánea](/media-kit/2.png)
+<img src="/media-kit/1.png" alt="Interpretación simultánea" width="500" > <br>
+<img src="/media-kit/2.png" alt="Interpretación simultánea" width="500" > <br>
+<img src="/media-kit/5.png" alt="Interpretación simultánea" width="500" > <br>
+<img src="/media-kit/6.png" alt="Interpretación simultánea" width="500" > <br>
 
 ### Búsqueda en todas tus reuniones
 
-![Búsqueda en todas tus reuniones](/2d.png)
-
-![Búsqueda en todas tus reuniones](/2l.png)
+<img src="/2d.png" alt="Búsqueda en todas tus reuniones" width="500" > <br>
+<img src="/2l.png" alt="Búsqueda en todas tus reuniones" width="500" > <br>
 
 <style>
 

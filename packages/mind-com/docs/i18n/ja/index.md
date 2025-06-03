@@ -10,13 +10,14 @@ isHome: true
 
 <HeroSection
   title="**どの**言語でも会話可能"
-  text="グローバルチームのためのビデオ通話でのリアルタイム音声翻訳。">
+  text="グローバルチームのためのリアルタイム音声翻訳 — **遅延なし**、**商談の失敗なし**、**言語の壁なし**。">
 
-  <AuthButton text="違いを体験する" buttonClass="brand"/>
+  <!-- <AuthButton text="その違いを体験" buttonClass="brand"/> -->
+  <AuthButton text="あなたの言語で試す" buttonClass="brand"/>
 </HeroSection>
 
 > **対象者**  
-> 言語の壁が**遅延、取引の損失、または高額な誤解**を引き起こすグローバルチームのために開発。[詳細を見る ...](./product/overview/markets)
+> 言語の壁により**遅延、商談の失敗、または高額な誤解**が発生しているグローバルチームのために開発。[詳細を見る ...](./product/overview/markets)
 
 <br>
 
@@ -25,8 +26,8 @@ isHome: true
   title: '翻訳 ≠ 理解。次世代の解決策。',
   details: '言語に関係なく、**あなたの声は同じ言語を話しているかのように聞こえ、理解される**。',
     items: [
-      '⚡︎ [リアルタイム](./product/overview/how-it-works)で自然に、字幕や遅延なし。',
-      '✧ AIパワード通訳が、トーン、意図、業界固有の専門用語を捉える。',
+      '⚡︎ 自然に、[リアルタイム](./product/overview/how-it-works)で、字幕や遅延なし。',
+      '✧ AIによる通訳が、トーン、意図、業界固有の専門用語を捉えます。',
     ],
   link: './product/overview/what-is-intermind',
   src: {
@@ -43,7 +44,7 @@ isHome: true
     items: [
       '🔍 **何でも質問可能** — AIが**全ミーティングから**回答を見つけます。',
       '✧ タスク、担当者、期限を自動抽出。',
-      '✧ 主要ポイントを任意の言語で即座に要約。',
+      '✧ 要点を任意の言語で即座に要約。',
     ],
     link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
     src: {
@@ -71,9 +72,9 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: '重要な場面でのプライバシー',
+    title: '重要な場面でのプライバシー保護',
     details:
-      'InterMindは信頼が重要な会話のために構築されています — プライバシーとコントロールが最も重要な場面で。',
+      'InterMindは信頼性が重要な会話のために設計されています — プライバシーとコントロールが最も重要な場面で。',
     items: [
       '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — EU、US、東南アジア',
       '✧ **データトレーニングなし**。第三者アクセスなし。'
@@ -163,11 +164,11 @@ isHome: true
   },
   {
     q: '主催できる会議の回数に制限はありますか？',
-    a: '*無料基本*プランには**25回の無料会議**が含まれています。*Pro*と*Business*プランでは、より多くの参加者と制御機能付きで無制限の会議が可能です。'
+    a: '*無料基本*プランには**25回の無料会議**が含まれています。*Pro*と*Business*プランでは、より多くの参加者とコントロール機能付きで無制限の会議が可能です。'
   },
   {
     q: 'InterMindはデータのプライバシーとセキュリティをどのように確保していますか？',
-    a: 'InterMindは**プライバシー重視**の設計です。すべてのデータは選択された**プライバシーゾーン**（_EU_、_US_、または_アジア_）内で処理・保存されます。[**GDPR**](https://gdpr.eu)、[**CCPA**](https://oag.ca.gov/privacy/ccpa)、UAEのPDPLに準拠し、トレーニングやサードパーティーアクセスに**コンテンツを使用することは一切ありません**。高度な**プライバシーゾーン制御**は**Business**プランで利用可能です。'
+    a: 'InterMindは**プライバシー重視**の設計です。すべてのデータは選択された**プライバシーゾーン**（_EU_、_US_、または_アジア_）内で処理・保存されます。[**GDPR**](https://gdpr.eu)、[**CCPA**](https://oag.ca.gov/privacy/ccpa)、UAEのPDPLに準拠し、トレーニングやサードパーティーアクセスに**コンテンツを使用することはありません**。高度な**プライバシーゾーン制御**は**Business**プランで利用可能です。'
   },
   {
     q: 'プラン購入前にInterMindを試すことはできますか？',

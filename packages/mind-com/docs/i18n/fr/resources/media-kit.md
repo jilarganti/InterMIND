@@ -1,32 +1,46 @@
-# Kit Médias
+# Kit Média
 
-Bonjour ! Voici une collection de ressources marketing et de directives d\'identité d\'InterMIND, comprenant notre logo, notre contenu et nos marques déposées.
+Bonjour ! Voici une collection de ressources marketing et de directives d'identité d'InterMIND, comprenant notre logo, notre contenu et nos marques déposées.
 
-Pour modifier et télécharger, faites un clic droit et sélectionnez Modifier l\'image
+Pour modifier et télécharger, faites un clic droit et sélectionnez Modifier l'image
 
 ## Logo
 
 <br>
-<img src="/logo.png" class="transparency-grid" alt="logo" width="500" >
+<img src="/media-kit/logo.png" class="transparency-grid" alt="logo" width="500" >
+<br>
+<img src="/media-kit/logo-3-2.png" class="transparency-grid" alt="logo" width="500" >
+<br>
+<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="logo" width="500" >
 
 ## Favicon
 
 <br>
 <img src="/favicon.svg" alt="favicon" width="100">
 
+## Couleurs de la Marque
+
+<br>
+
+```
+primary: #bc694a
+light: #73251a
+dark: #b16b2a
+```
+
 ## Images Promotionnelles
 
 ### Interprétation simultanée
 
-![Interprétation simultanée](/media-kit/1.png)
-
-![Interprétation simultanée](/media-kit/2.png)
+<img src="/media-kit/1.png" alt="Interprétation simultanée" width="500" > <br>
+<img src="/media-kit/2.png" alt="Interprétation simultanée" width="500" > <br>
+<img src="/media-kit/5.png" alt="Interprétation simultanée" width="500" > <br>
+<img src="/media-kit/6.png" alt="Interprétation simultanée" width="500" > <br>
 
 ### Recherchez dans toutes vos réunions
 
-![Recherchez dans toutes vos réunions](/2d.png)
-
-![Recherchez dans toutes vos réunions](/2l.png)
+<img src="/2d.png" alt="Recherchez dans toutes vos réunions" width="500" > <br>
+<img src="/2l.png" alt="Recherchez dans toutes vos réunions" width="500" > <br>
 
 <style>
 
