@@ -4,7 +4,7 @@ const BASE_PATH = ""
 
 export const en = defineConfig({
   description:
-    "InterMind is a real-time interpretation platform for multilingual video meetings. Each participant speaks their native language — and hears others as if they did too. No plugins. No downloads. Just seamless, natural conversations across 100+ languages.",
+    "InterMind is a real-time interpretation platform for multilingual video meetings. Each participant speaks their native language — and hears others as if they did too. No plugins. No downloads. Just seamless, natural conversations across 30+ languages.",
   head: [["meta", { property: "og:title", content: "Video calls powered by simultaneous interpretation | InterMIND" }]],
 
   themeConfig: {

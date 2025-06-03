@@ -1,21 +1,22 @@
 ---
 layout: home
-title: "Video calls powered by simultaneous interpretation"
+title: "Live speech translation in video calls for global teams"
 isHome: true
 ---
 
-<!-- text="Video calls powered by simultaneous voice translation." -->
-<!-- title="Live **Interpretation** Video Meetings" -->
+<!-- title: "Video calls powered by simultaneous interpretation" -->
+<!-- text="Speak your native language. Hear everyone else — as if they spoke it too." -->
+<!-- title="Live speech translation in Video Calls" -->
 
 <HeroSection
   title="Meet in **Any** Language"
-  text="Speak your native language. Hear everyone else — as if they spoke it too.">
+  text="Live speech translation in video calls for global teams.">
 
   <AuthButton text="Hear the difference" buttonClass="brand"/>
 </HeroSection>
 
 > **Who is this for?**  
-> Built for **global teams** where language barriers cause delays, lost deals, or costly misunderstandings. [Learn more ...](./product/overview/markets)
+> Built for global teams where language barriers cause **delays, lost deals, or costly misunderstandings**. [Learn more ...](./product/overview/markets)
 
 <br>
 
