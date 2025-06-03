@@ -8,6 +8,8 @@
 
 <br>
 <img src="/logo.png" class="transparency-grid" alt="логотип" width="500" >
+<br>
+<img src="/media-kit/logo.png" class="transparency-grid" alt="логотип" width="500" >
 
 ## Фавикон
 

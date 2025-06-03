@@ -7,26 +7,40 @@ To edit and download, right click and select Edit image
 ## Logo
 
 <br>
-<img src="/logo.png" class="transparency-grid" alt="logo" width="500" >
+<img src="/media-kit/logo.png" class="transparency-grid" alt="logo" width="500" >
+<br>
+<img src="/media-kit/logo-3-2.png" class="transparency-grid" alt="logo" width="500" >
+<br>
+<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="logo" width="500" >
 
 ## Favicon
 
 <br>
 <img src="/favicon.svg" alt="favicon" width="100">
 
+## Brand Colors
+
+<br>
+
+```
+primary: #bc694a
+light: #73251a
+dark: #b16b2a
+```
+
 ## Promotional Images
 
 ### Simultaneous interpretation
 
-![Simultaneous interpretation](/media-kit/1.png)
-
-![Simultaneous interpretation](/media-kit/2.png)
+<img src="/media-kit/1.png" alt="Simultaneous interpretation" width="500" > <br>
+<img src="/media-kit/2.png" alt="Simultaneous interpretation" width="500" > <br>
+<img src="/media-kit/5.png" alt="Simultaneous interpretation" width="500" > <br>
+<img src="/media-kit/6.png" alt="Simultaneous interpretation" width="500" > <br>
 
 ### Search across all your meetings
 
-![Search across all your meetings](/2d.png)
-
-![Search across all your meetings](/2l.png)
+<img src="/2d.png" alt="Search across all your meetings" width="500" > <br>
+<img src="/2l.png" alt="Search across all your meetings" width="500" > <br>
 
 <style>
 

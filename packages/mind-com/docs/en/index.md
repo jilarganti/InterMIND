@@ -10,9 +10,10 @@ isHome: true
 
 <HeroSection
   title="Meet in **Any** Language"
-  text="Live speech translation in video calls for global teams.">
+  text="Live speech translation for global teams — **no** delays, **no** lost deals, **no** language barriers.">
 
-  <AuthButton text="Hear the difference" buttonClass="brand"/>
+  <!-- <AuthButton text="Hear the difference" buttonClass="brand"/> -->
+  <AuthButton text="Try it in your language" buttonClass="brand"/>
 </HeroSection>
 
 > **Who is this for?**  
