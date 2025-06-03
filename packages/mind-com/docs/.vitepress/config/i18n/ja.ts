@@ -4,7 +4,7 @@ const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
   description:
-    "InterMindは多言語ビデオ会議のためのリアルタイム通訳プラットフォームです。参加者は母国語で話し、他の参加者も母国語で話しているかのように聞くことができます。プラグインも、ダウンロードも不要。100以上の言語で自然な会話をシームレスに実現します。",
+    "InterMindは多言語ビデオ会議のためのリアルタイム通訳プラットフォームです。参加者は母国語で話し、他の参加者も同じように聞くことができます。プラグインも、ダウンロードも不要。30以上の言語で自然な会話をシームレスに実現します。",
   head: [["meta", { property: "og:title", content: "同時通訳機能搭載のビデオ通話 | InterMIND" }]],
 
   themeConfig: {
@@ -26,13 +26,15 @@ export const ja = defineConfig({
           { text: "料金", link: `${BASE_PATH}/#Pricing` },
           { text: "よくある質問", link: `${BASE_PATH}/#FAQ` },
           { text: "お客様の声", link: `${BASE_PATH}/#Testimonials` },
+          { text: "メディアキット", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
     ],
 
     sidebar: {
-      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarServices() },
-      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarInsights() },
+      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
+      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
     },
 
     footer: {
@@ -74,7 +76,7 @@ export const ja = defineConfig({
   },
 })
 
-function sidebarServices(): DefaultTheme.SidebarItem[] {
+function sidebarProduct(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "概要",
@@ -104,9 +106,15 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarInsights(): DefaultTheme.SidebarItem[] {
+function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "会社概要", link: "/about" },
+    { text: "企業情報", link: "/about" },
     { text: "お問い合わせ", link: "/contacts" },
+  ]
+}
+
+function sidebarResources(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "メディアキット", link: "/media-kit" },
   ]
 }

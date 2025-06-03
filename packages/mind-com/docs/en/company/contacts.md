@@ -10,8 +10,6 @@ hideComponents:
 description: "Have questions about AI meeting interpretation, multilingual support, or enterprise rollout? Contact InterMind to explore use cases, pricing, and integration options."
 ---
 
-<p><img src="/logo.png" alt="logo" width="300" ></p>
-
 # Need Instant Multilingual Meetings? Let’s Talk
 
 <!-- **Get in Touch:**
@@ -23,4 +21,5 @@ description: "Have questions about AI meeting interpretation, multilingual suppo
 <!-- WhatsApp us at [+971 058 574 88 06](https://wa.me/message/KDLD4FZVW7EUC1)
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
+<br>
 <ContactFormModalNav  buttonClass="alt" formStyle="margin: 1rem auto;"/>

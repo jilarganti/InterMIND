@@ -1,21 +1,22 @@
 ---
 layout: home
-title: "Videoanrufe mit simultaner Dolmetschung"
+title: "Live-Sprachübersetzung in Videoanrufen für globale Teams"
 isHome: true
 ---
 
-<!-- text="Videoanrufe mit simultaner Sprachübersetzung." -->
-<!-- title="Live **Dolmetsch** Videomeetings" -->
+<!-- title: "Videoanrufe mit Simultanübersetzung" -->
+<!-- text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen — als ob sie diese auch sprechen würden." -->
+<!-- title="Live-Sprachübersetzung in Videoanrufen" -->
 
 <HeroSection
-  title="Treffen Sie sich in **jeder** Sprache"
-  text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen – als ob sie diese auch sprechen würden.">
+  title="Meetings in **jeder** Sprache"
+  text="Live-Sprachübersetzung in Videoanrufen für globale Teams.">
 
   <AuthButton text="Hören Sie den Unterschied" buttonClass="brand"/>
 </HeroSection>
 
 > **Für wen ist das?**  
-> Entwickelt für **globale Teams**, bei denen Sprachbarrieren zu Verzögerungen, verlorenen Geschäften oder kostspieligen Missverständnissen führen. [Mehr erfahren ...](./product/overview/markets)
+> Entwickelt für globale Teams, bei denen Sprachbarrieren zu **Verzögerungen, verlorenen Geschäften oder kostspieligen Missverständnissen** führen. [Mehr erfahren ...](./product/overview/markets)
 
 <br>
 
@@ -25,7 +26,7 @@ isHome: true
   details: 'Egal in welcher Sprache, **Ihre Stimme wird gehört — und verstanden** — als ob Sie die gleiche Sprache sprechen würden.',
     items: [
       '⚡︎ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
-      '✧ KI-gestützte Dolmetschung erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
+      '✧ KI-gestützte Interpretation erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
     ],
   link: './product/overview/what-is-intermind',
   src: {
@@ -40,7 +41,7 @@ isHome: true
     title: 'Der Verstand in Ihren Meetings',
     details: 'InterMind verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
     items: [
-      '🔍 **Fragen Sie alles** — KI findet Antworten **in all Ihren Meetings**.',
+      '🔍 **Fragen Sie alles** — KI findet Antworten **über alle Ihre Meetings hinweg**.',
       '✧ Extrahiert automatisch Aufgaben, Verantwortliche und Fristen.',
       '✧ Fasst Kernpunkte in jeder Sprache sofort zusammen.',
     ],
@@ -55,14 +56,14 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Entwickelt für professionelle Meetings — nicht nur zum Plaudern',
-    details: 'InterMind ist eine **professionelle Videomeeting-Plattform**, kein einfaches Add-on oder Plugin.',
+    details: 'InterMind ist eine **professionelle Videomeeting-Plattform**, keine einfache Erweiterung oder Plugin.',
     items: [
       '✧ 1080p Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufnahme, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles eingebaut und sofort einsatzbereit.',
     ],
     link: './product/overview/how-it-works',
     src: {
-      light: '/3.png',
-      dark: '/3.png',
+      light: '/3l.mp4',
+      dark: '/3d.mp4',
     },
     inversion: false
   }" />
@@ -70,17 +71,17 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Datenschutz wo er wichtig ist',
+    title: 'Datenschutz wo es wichtig ist',
     details:
       'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Privatsphäre und Kontrolle am wichtigsten sind.',
     items: [
-      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — EU, US, SE Asien',
+      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — EU, US, SO-Asien',
       '✧ **Kein Datentraining**. Kein Zugriff durch Dritte.'
     ],
     link: './product/overview/privacy-architecture',
     src: {
-      light: '/4.png',
-      dark: '/4.png',
+      light: '/4l.png',
+      dark: '/4d.png',
     },
     inversion: true
   }"
@@ -94,7 +95,7 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
 
 <PricingPlans :plans="[
   {
-    title: '**Basic** 1 Benutzer',
+    title: '**Basic** &nbsp 1 Benutzer',
     price: '**Kostenlos**',
     details: 'keine Kreditkarte erforderlich',
     items: [
@@ -102,11 +103,11 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
       '**100** Teilnehmer Videomeetings [💬](#3)',
       '**30** GB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
-      'Simultanübersetzung [💬](#1)',
+      'Simultandolmetschen [💬](#1)',
     ],
   },
   {
-    title: '**Pro** 1-99 Benutzer',
+    title: '**Pro** &nbsp 1-99 Benutzer',
     price: '**20€** /Monat/Benutzer, jährlich abgerechnet',
     details: 'oder 25€ monatlich abgerechnet',
     items: [
@@ -114,19 +115,19 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
       '**150** Teilnehmer Videomeetings [💬](#3)',
       '**2** TB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
-      'Simultanübersetzung [💬](#1)',
+      'Simultandolmetschen [💬](#1)',
     ],
   },
   {
-    title: '**Business** 100+ Benutzer',
-    price: '**Individueller Preis**',
+    title: '**Business** &nbsp 100+ Benutzer',
+    price: '**Individuelle Preisgestaltung**',
     details: 'Entwickelt für Datenschutz',
     items: [
       '**unbegrenzte** Meetings',
       '**500** Teilnehmer Videomeetings [💬](#3)',
       '**5** TB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
-      'Simultanübersetzung [💬](#1)',
+      'Simultandolmetschen [💬](#1)',
       '**Datenschutzzonen** [💬](#4)',
     ],
   }

@@ -4,7 +4,7 @@ const BASE_PATH = "/de"
 
 export const de = defineConfig({
   description:
-    "InterMind ist eine Echtzeit-Dolmetschplattform für mehrsprachige Videomeetings. Jeder Teilnehmer spricht in seiner Muttersprache — und hört andere, als würden sie es auch tun. Keine Plugins. Keine Downloads. Nur nahtlose, natürliche Gespräche in über 100 Sprachen.",
+    "InterMind ist eine Echtzeit-Dolmetschplattform für mehrsprachige Videomeetings. Jeder Teilnehmer spricht in seiner Muttersprache — und hört andere, als würden sie es auch tun. Keine Plugins. Keine Downloads. Nur nahtlose, natürliche Gespräche in über 30 Sprachen.",
   head: [["meta", { property: "og:title", content: "Videoanrufe mit Simultandolmetschen | InterMIND" }]],
 
   themeConfig: {
@@ -26,13 +26,15 @@ export const de = defineConfig({
           { text: "Preise", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Referenzen", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Medienkit", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
     ],
 
     sidebar: {
-      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarServices() },
-      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarInsights() },
+      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
+      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
     },
 
     footer: {
@@ -43,7 +45,7 @@ export const de = defineConfig({
       placeholder4SearchInput: "Fragen Sie alles...",
       placeholder4ChatFooter: "Fragen Sie alles...",
       placeholder4ChatList: "Chat-Thema eingeben...",
-      buttonLabel4NavButton: "Sofort-Expertenchat",
+      buttonLabel4NavButton: "Sofortiger Experten-Chat",
       buttonLabel4AuthButton: "Anmelden",
     },
     contact_form: {
@@ -74,7 +76,7 @@ export const de = defineConfig({
   },
 })
 
-function sidebarServices(): DefaultTheme.SidebarItem[] {
+function sidebarProduct(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "Überblick",
@@ -104,9 +106,15 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarInsights(): DefaultTheme.SidebarItem[] {
+function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Über uns", link: "/about" },
     { text: "Kontakt", link: "/contacts" },
+  ]
+}
+
+function sidebarResources(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "Medienkit", link: "/media-kit" },
   ]
 }

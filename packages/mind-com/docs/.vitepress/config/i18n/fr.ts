@@ -4,7 +4,7 @@ const BASE_PATH = "/fr"
 
 export const fr = defineConfig({
   description:
-    "InterMind est une plateforme d'interprétation en temps réel pour les réunions vidéo multilingues. Chaque participant parle sa langue maternelle et entend les autres comme s'ils la parlaient aussi. Pas de plugins. Pas de téléchargements. Juste des conversations naturelles et fluides dans plus de 100 langues.",
+    "InterMind est une plateforme d'interprétation en temps réel pour les réunions vidéo multilingues. Chaque participant parle sa langue maternelle et entend les autres comme s'ils la parlaient aussi. Pas de plugins. Pas de téléchargements. Juste des conversations naturelles et fluides dans plus de 30 langues.",
   head: [["meta", { property: "og:title", content: "Appels vidéo alimentés par l'interprétation simultanée | InterMIND" }]],
 
   themeConfig: {
@@ -26,13 +26,15 @@ export const fr = defineConfig({
           { text: "Tarification", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Témoignages", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Kit Média", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
     ],
 
     sidebar: {
-      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarServices() },
-      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarInsights() },
+      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
+      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
     },
 
     footer: {
@@ -42,7 +44,7 @@ export const fr = defineConfig({
     localization: {
       placeholder4SearchInput: "Posez n'importe quelle question...",
       placeholder4ChatFooter: "Posez n'importe quelle question...",
-      placeholder4ChatList: "Entrez le sujet du chat...",
+      placeholder4ChatList: "Entrez le sujet de discussion...",
       buttonLabel4NavButton: "Chat expert instantané",
       buttonLabel4AuthButton: "Se connecter",
     },
@@ -53,7 +55,7 @@ export const fr = defineConfig({
       emailPlaceholder: "votre adresse email",
       phone: "Site d'entreprise *",
       phonePlaceholder: "ex., https://mind.com",
-      phoneError: "Veuillez entrer un numéro de téléphone",
+      phoneError: "Veuillez saisir un numéro de téléphone",
       category: "Dites-nous comment nous pouvons vous aider *",
       categoryPlaceholder: "sélectionnez le type de service",
       message: "Discutons de vos objectifs (facultatif)",
@@ -74,7 +76,7 @@ export const fr = defineConfig({
   },
 })
 
-function sidebarServices(): DefaultTheme.SidebarItem[] {
+function sidebarProduct(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "Aperçu",
@@ -104,9 +106,15 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarInsights(): DefaultTheme.SidebarItem[] {
+function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "À propos", link: "/about" },
     { text: "Contact", link: "/contacts" },
+  ]
+}
+
+function sidebarResources(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "Kit Média", link: "/media-kit" },
   ]
 }

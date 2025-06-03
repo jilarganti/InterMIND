@@ -4,7 +4,7 @@ const BASE_PATH = "/ru"
 
 export const ru = defineConfig({
   description:
-    "InterMind - это платформа синхронного перевода для многоязычных видеовстреч. Каждый участник говорит на своем родном языке и слышит других так, как будто они тоже говорят на нем. Без плагинов. Без загрузок. Просто естественное общение на более чем 100 языках.",
+    "InterMind - это платформа синхронного перевода для многоязычных видеовстреч. Каждый участник говорит на своем родном языке и слышит других так, как если бы они тоже говорили на нем. Без плагинов. Без загрузок. Просто естественное общение на более чем 30 языках.",
   head: [["meta", { property: "og:title", content: "Видеозвонки с синхронным переводом | InterMIND" }]],
 
   themeConfig: {
@@ -26,13 +26,15 @@ export const ru = defineConfig({
           { text: "Цены", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Отзывы", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Медиа-кит", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
     ],
 
     sidebar: {
-      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarServices() },
-      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarInsights() },
+      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
+      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
     },
 
     footer: {
@@ -40,8 +42,8 @@ export const ru = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Задайте любой вопрос...",
-      placeholder4ChatFooter: "Задайте любой вопрос...",
+      placeholder4SearchInput: "Спросите что угодно...",
+      placeholder4ChatFooter: "Спросите что угодно...",
       placeholder4ChatList: "Введите тему чата...",
       buttonLabel4NavButton: "Мгновенный чат с экспертом",
       buttonLabel4AuthButton: "Войти",
@@ -74,7 +76,7 @@ export const ru = defineConfig({
   },
 })
 
-function sidebarServices(): DefaultTheme.SidebarItem[] {
+function sidebarProduct(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "Обзор",
@@ -104,9 +106,15 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarInsights(): DefaultTheme.SidebarItem[] {
+function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "О нас", link: "/about" },
     { text: "Контакты", link: "/contacts" },
+  ]
+}
+
+function sidebarResources(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "Медиа-кит", link: "/media-kit" },
   ]
 }

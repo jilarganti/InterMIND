@@ -4,7 +4,7 @@ const BASE_PATH = "/es"
 
 export const es = defineConfig({
   description:
-    "InterMind es una plataforma de interpretación en tiempo real para reuniones de video multilingües. Cada participante habla en su idioma nativo y escucha a los demás como si también lo hicieran. Sin complementos. Sin descargas. Solo conversaciones naturales y fluidas en más de 100 idiomas.",
+    "InterMind es una plataforma de interpretación en tiempo real para reuniones de video multilingües. Cada participante habla en su idioma nativo y escucha a los demás como si también lo hicieran. Sin complementos. Sin descargas. Solo conversaciones naturales y fluidas en más de 30 idiomas.",
   head: [["meta", { property: "og:title", content: "Videollamadas potenciadas por interpretación simultánea | InterMIND" }]],
 
   themeConfig: {
@@ -26,13 +26,15 @@ export const es = defineConfig({
           { text: "Precios", link: `${BASE_PATH}/#Pricing` },
           { text: "Preguntas frecuentes", link: `${BASE_PATH}/#FAQ` },
           { text: "Testimonios", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Kit de medios", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
     ],
 
     sidebar: {
-      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarServices() },
-      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarInsights() },
+      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
+      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
     },
 
     footer: {
@@ -53,9 +55,9 @@ export const es = defineConfig({
       emailPlaceholder: "tu dirección de correo electrónico",
       phone: "Sitio corporativo *",
       phonePlaceholder: "ej., https://mind.com",
-      phoneError: "Por favor ingresa el número de teléfono",
-      category: "Por favor dinos cómo podemos ayudarte *",
-      categoryPlaceholder: "selecciona tipo de servicio",
+      phoneError: "Por favor ingrese el número de teléfono",
+      category: "Por favor dinos cómo podemos ayudar *",
+      categoryPlaceholder: "selecciona el tipo de servicio",
       message: "Hablemos de tus objetivos (opcional)",
       messagePlaceholder: "Por favor proporciona detalles adicionales (opcional)",
       submit: "Enviar solicitud",
@@ -65,7 +67,7 @@ export const es = defineConfig({
       defaultCategories: [
         "Me interesa la interpretación de voz en tiempo real",
         "Me interesa el asistente de reuniones con IA",
-        "Me interesa el control de privacidad y datos por región",
+        "Me interesa el control de privacidad y datos basado en región",
         "Otro / No listado",
       ],
 
@@ -74,7 +76,7 @@ export const es = defineConfig({
   },
 })
 
-function sidebarServices(): DefaultTheme.SidebarItem[] {
+function sidebarProduct(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "Descripción general",
@@ -93,7 +95,7 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
         { text: "Primeros pasos", link: "guide/getting-started" },
         { text: "Gestión de cuenta", link: "guide/account-management" },
         { text: "Crear reuniones", link: "guide/creating-meetings" },
-        { text: "Interfaz de reuniones", link: "guide/meeting-interface" },
+        { text: "Interfaz de reunión", link: "guide/meeting-interface" },
         { text: "Roles de usuario", link: "guide/user-roles" },
         { text: "Funciones de IA", link: "guide/ai-features" },
         { text: "Historial de reuniones", link: "guide/meeting-history" },
@@ -104,9 +106,15 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarInsights(): DefaultTheme.SidebarItem[] {
+function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Acerca de", link: "/about" },
     { text: "Contacto", link: "/contacts" },
+  ]
+}
+
+function sidebarResources(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "Kit de medios", link: "/media-kit" },
   ]
 }

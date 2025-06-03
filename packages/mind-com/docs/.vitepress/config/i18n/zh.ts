@@ -4,8 +4,8 @@ const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
   description:
-    "InterMind是一个实时多语言视频会议口译平台。每位参与者都可以使用母语发言，并听到其他人仿佛也在使用同一种语言。无需插件。无需下载。只需在100多种语言之间进行自然流畅的对话。",
-  head: [["meta", { property: "og:title", content: "由同声传译驱动的视频通话 | InterMIND" }]],
+    "InterMind是一个实时多语言视频会议口译平台。每位参与者都可以使用母语发言，并听到其他人仿佛也在使用同样语言。无需插件。无需下载。只需在30多种语言之间进行自然流畅的对话。",
+  head: [["meta", { property: "og:title", content: "支持同声传译的视频通话 | InterMIND" }]],
 
   themeConfig: {
     nav: [
@@ -26,13 +26,15 @@ export const zh = defineConfig({
           { text: "定价", link: `${BASE_PATH}/#Pricing` },
           { text: "常见问题", link: `${BASE_PATH}/#FAQ` },
           { text: "用户评价", link: `${BASE_PATH}/#Testimonials` },
+          { text: "媒体资料", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
     ],
 
     sidebar: {
-      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarServices() },
-      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarInsights() },
+      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
+      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
     },
 
     footer: {
@@ -43,7 +45,7 @@ export const zh = defineConfig({
       placeholder4SearchInput: "输入任何问题...",
       placeholder4ChatFooter: "输入任何问题...",
       placeholder4ChatList: "输入聊天主题...",
-      buttonLabel4NavButton: "即时专家咨询",
+      buttonLabel4NavButton: "即时专家对话",
       buttonLabel4AuthButton: "登录",
     },
     contact_form: {
@@ -54,10 +56,10 @@ export const zh = defineConfig({
       phone: "公司网站 *",
       phonePlaceholder: "例如：https://mind.com",
       phoneError: "请输入电话号码",
-      category: "请告诉我们如何帮助您 *",
+      category: "请告诉我们如何为您提供帮助 *",
       categoryPlaceholder: "选择服务类型",
       message: "让我们讨论您的目标（可选）",
-      messagePlaceholder: "请提供任何附加详情（可选）",
+      messagePlaceholder: "请提供任何附加详细信息（可选）",
       submit: "提交请求",
       sending: "发送中...",
       successTitle: "感谢您！",
@@ -74,7 +76,7 @@ export const zh = defineConfig({
   },
 })
 
-function sidebarServices(): DefaultTheme.SidebarItem[] {
+function sidebarProduct(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "概述",
@@ -104,9 +106,15 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarInsights(): DefaultTheme.SidebarItem[] {
+function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "关于我们", link: "/about" },
     { text: "联系我们", link: "/contacts" },
+  ]
+}
+
+function sidebarResources(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "媒体资料", link: "/media-kit" },
   ]
 }

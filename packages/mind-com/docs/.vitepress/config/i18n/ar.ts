@@ -4,7 +4,7 @@ const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
   description:
-    "إنترمايند هي منصة ترجمة فورية للاجتماعات متعددة اللغات عبر الفيديو. يتحدث كل مشارك بلغته الأم - ويسمع الآخرين كما لو كانوا يتحدثون بها أيضاً. بدون إضافات. بدون تحميلات. مجرد محادثات سلسة وطبيعية عبر أكثر من 100 لغة.",
+    "إنترمايند هي منصة ترجمة فورية للاجتماعات متعددة اللغات عبر الفيديو. يتحدث كل مشارك بلغته الأم - ويسمع الآخرين كما لو كانوا يتحدثون بها أيضاً. بدون إضافات. بدون تحميلات. مجرد محادثات سلسة وطبيعية عبر أكثر من 30 لغة.",
   head: [["meta", { property: "og:title", content: "مكالمات فيديو مدعومة بالترجمة الفورية | InterMIND" }]],
 
   themeConfig: {
@@ -26,13 +26,15 @@ export const ar = defineConfig({
           { text: "الأسعار", link: `${BASE_PATH}/#Pricing` },
           { text: "الأسئلة الشائعة", link: `${BASE_PATH}/#FAQ` },
           { text: "آراء العملاء", link: `${BASE_PATH}/#Testimonials` },
+          { text: "المجموعة الإعلامية", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
     ],
 
     sidebar: {
-      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarServices() },
-      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarInsights() },
+      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
+      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
     },
 
     footer: {
@@ -63,7 +65,7 @@ export const ar = defineConfig({
       successTitle: "شكراً لك!",
       successMessage: "نقدر اهتمامك كثيراً! سيتواصل فريقنا معك قريباً لمناقشة احتياجاتك.",
       defaultCategories: [
-        "مهتم بالترجمة الصوتية الفورية",
+        "مهتم بالترجمة الفورية للصوت",
         "مهتم بمساعد الاجتماعات بالذكاء الاصطناعي",
         "مهتم بالخصوصية والتحكم في البيانات حسب المنطقة",
         "أخرى / غير مدرجة",
@@ -74,7 +76,7 @@ export const ar = defineConfig({
   },
 })
 
-function sidebarServices(): DefaultTheme.SidebarItem[] {
+function sidebarProduct(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "نظرة عامة",
@@ -104,9 +106,15 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarInsights(): DefaultTheme.SidebarItem[] {
+function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "عن الشركة", link: "/about" },
     { text: "اتصل بنا", link: "/contacts" },
+  ]
+}
+
+function sidebarResources(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "المجموعة الإعلامية", link: "/media-kit" },
   ]
 }

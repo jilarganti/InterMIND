@@ -1,28 +1,29 @@
 ---
 layout: home
-title: "Videollamadas potenciadas por interpretación simultánea"
+title: "Traducción simultánea de voz en videollamadas para equipos globales"
 isHome: true
 ---
 
-<!-- text="Videollamadas potenciadas por traducción simultánea de voz." -->
-<!-- title="Reuniones por Video con **Interpretación** en Vivo" -->
+<!-- title: "Videollamadas potenciadas por interpretación simultánea" -->
+<!-- text="Habla en tu idioma nativo. Escucha a todos los demás — como si también lo hablaran." -->
+<!-- title="Traducción de voz en vivo en videollamadas" -->
 
 <HeroSection
-  title="Reúnase en **Cualquier** Idioma"
-  text="Hable en su idioma nativo. Escuche a todos los demás — como si también lo hablaran.">
+  title="Reúnete en **Cualquier** Idioma"
+  text="Traducción de voz en vivo en videollamadas para equipos globales.">
 
-  <AuthButton text="Escuche la diferencia" buttonClass="brand"/>
+  <AuthButton text="Escucha la diferencia" buttonClass="brand"/>
 </HeroSection>
 
 > **¿Para quién es esto?**  
-> Diseñado para **equipos globales** donde las barreras del idioma causan retrasos, pérdida de negocios o malentendidos costosos. [Más información ...](./product/overview/markets)
+> Diseñado para equipos globales donde las barreras del idioma causan **retrasos, pérdida de negocios o malentendidos costosos**. [Más información ...](./product/overview/markets)
 
 <br>
 
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Traducción ≠ Comprensión. Esto es lo siguiente.',
-  details: 'Sin importar el idioma, **su voz es escuchada — y comprendida** — como si compartieran la misma lengua.',
+  details: 'Sin importar el idioma, **tu voz es escuchada — y comprendida** — como si compartieran la misma lengua.',
     items: [
       '⚡︎ De forma natural, en [tiempo real](./product/overview/how-it-works), y sin subtítulos ni retrasos.',
       '✧ Interpretación potenciada por IA que captura el tono, la intención y la terminología específica de la industria.',
@@ -37,10 +38,10 @@ isHome: true
 
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: 'La Mente Dentro de Sus Reuniones',
+    title: 'La Mente Dentro de Tus Reuniones',
     details: 'InterMind convierte cada llamada multilingüe en conocimiento claro y consultable.',
     items: [
-      '🔍 **Pregunte cualquier cosa** — la IA encuentra respuestas **en todas sus reuniones**.',
+      '🔍 **Pregunta cualquier cosa** — la IA encuentra respuestas **en todas tus reuniones**.',
       '✧ Extrae automáticamente tareas, responsables y fechas límite.',
       '✧ Resume los puntos clave en cualquier idioma — instantáneamente.',
     ],
@@ -57,12 +58,12 @@ isHome: true
     title: 'Diseñado para Reuniones Serias — No Solo para Charlar',
     details: 'InterMind es una **plataforma de videollamadas de nivel profesional**, no un complemento o plugin ligero.',
     items: [
-      '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtítulos, chat entre participantes e integración con calendario — todo incluido, listo para usar.',
+      '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat entre participantes e integración con calendario — todo incluido, listo para usar.',
     ],
     link: './product/overview/how-it-works',
     src: {
-      light: '/3.png',
-      dark: '/3.png',
+      light: '/3l.mp4',
+      dark: '/3d.mp4',
     },
     inversion: false
   }" />
@@ -74,13 +75,13 @@ isHome: true
     details:
       'InterMind está diseñado para conversaciones críticas de confianza — donde la privacidad y el control son más importantes.',
     items: [
-      '⚡︎ [Zonas de Privacidad](./product/overview/privacy-architecture) — UE, EE. UU., SE Asia',
+      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — UE, EE. UU., SE Asia',
       '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
     ],
     link: './product/overview/privacy-architecture',
     src: {
-      light: '/4.png',
-      dark: '/4.png',
+      light: '/4l.png',
+      dark: '/4d.png',
     },
     inversion: true
   }"
@@ -94,7 +95,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 
 <PricingPlans :plans="[
   {
-    title: '**Básico** 1 usuario',
+    title: '**Básico** &nbsp 1 usuario',
     price: '**Gratis**',
     details: 'sin tarjeta de crédito requerida',
     items: [
@@ -106,7 +107,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     ],
   },
   {
-    title: '**Pro** 1-99 usuarios',
+    title: '**Pro**  &nbsp 1-99 usuarios',
     price: '**$20** /mes/usuario, facturado anualmente',
     details: 'o $25 facturado mensualmente',
     items: [
@@ -118,7 +119,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     ],
   },
   {
-    title: '**Empresarial** 100+ usuarios',
+    title: '**Empresarial** &nbsp 100+ usuarios',
     price: '**Precio personalizado**',
     details: 'Diseñado para la privacidad',
     items: [
