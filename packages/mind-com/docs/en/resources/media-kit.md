@@ -4,6 +4,16 @@ Hello! Here are a collection of InterMIND marketing resources and identity guide
 
 To edit and download, right click and select Edit image
 
+## Metadata
+
+### Title
+
+Live speech translation for global teams — **no** delays, **no** lost deals, **no** language barriers.
+
+### Description
+
+Real-time voice interpretation for video calls. Speak your language, understand everyone — instantly, naturally, without subtitles or delays.
+
 ## Logo
 
 <br>
