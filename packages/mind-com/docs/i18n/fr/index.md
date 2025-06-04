@@ -17,7 +17,7 @@ isHome: true
 </HeroSection>
 
 > **Pour qui est-ce ?**  
-> Conçu pour les équipes internationales où les barrières linguistiques causent des **retards, des opportunités manquées ou des malentendus coûteux**. [En savoir plus ...](./product/overview/markets)
+> Conçu pour les **équipes internationales** où les barrières linguistiques causent des **retards**, des **opportunités manquées** ou des **malentendus coûteux**. [En savoir plus ...](./product/overview/markets)
 
 <br>
 
@@ -57,7 +57,7 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Conçu pour les Réunions Professionnelles — Pas Juste pour Discuter',
-    details: 'InterMind est une **plateforme de réunion vidéo de niveau professionnel**, pas un simple module complémentaire ou plugin.',
+    details: 'InterMind est une **plateforme de réunion vidéo professionnelle**, pas un simple module complémentaire ou plugin.',
     items: [
       '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat entre participants et intégration du calendrier — tout est intégré, prêt à l\'emploi.',
     ],
@@ -72,9 +72,9 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Confidentialité Là Où C\'est Important',
+    title: 'Confidentialité Là Où Elle Compte',
     details:
-      'InterMind est conçu pour les conversations critiques — où la confidentialité et le contrôle sont primordiaux.',
+      'InterMind est conçu pour les conversations critiques — où la confidentialité et le contrôle sont essentiels.',
     items: [
       '⚡︎ [Zones de Confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
       '✧ **Zéro entraînement de données**. Aucun accès tiers.'
@@ -110,7 +110,7 @@ Du premier appel aux conversations fluides — à toute échelle.
   {
     title: '**Pro** &nbsp 1-99 utilisateurs',
     price: '**20€** /mois/utilisateur, facturation annuelle',
-    details: 'ou 25€ par mois',
+    details: 'ou 25€ facturation mensuelle',
     items: [
       'Réunions **illimitées**',
       '**150** participants en réunion vidéo [💬](#3)',
@@ -184,7 +184,7 @@ Du premier appel aux conversations fluides — à toute échelle.
   },
   {
     q: 'Quelles langues InterMind prend-il en charge pour l\'interprétation ?',
-    a: 'Nous prenons en charge **plus de 100 langues** avec interprétation en temps réel. La liste continue de s\'allonger — consultez notre site web pour les mises à jour.'
+    a: 'Nous prenons en charge **plus de 100 langues** avec interprétation en temps réel. La liste ne cesse de s\'allonger — consultez notre site web pour les mises à jour.'
   },
   {
     q: 'Puis-je utiliser InterMind pour des webinaires ou de grands événements ?',

@@ -17,7 +17,7 @@ isHome: true
 </HeroSection>
 
 > **Für wen ist das?**  
-> Entwickelt für globale Teams, bei denen Sprachbarrieren zu **Verzögerungen, verlorenen Geschäften oder kostspieligen Missverständnissen** führen. [Mehr erfahren ...](./product/overview/markets)
+> Entwickelt für **internationale Teams**, bei denen Sprachbarrieren zu **Verzögerungen**, **verlorenen Geschäften** oder **kostspieligen Missverständnissen** führen. [Mehr erfahren ...](./product/overview/markets)
 
 <br>
 
@@ -59,7 +59,7 @@ isHome: true
     title: 'Entwickelt für professionelle Meetings — nicht nur zum Plaudern',
     details: 'InterMind ist eine **professionelle Videomeeting-Plattform**, kein einfaches Add-on oder Plugin.',
     items: [
-      '✧ 1080p Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufnahme, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert und sofort einsatzbereit.',
+      '✧ 1080p Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufnahme, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles eingebaut und sofort einsatzbereit.',
     ],
     link: './product/overview/how-it-works',
     src: {

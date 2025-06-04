@@ -17,7 +17,7 @@ isHome: true
 </HeroSection>
 
 > **¿Para quién es esto?**  
-> Diseñado para equipos globales donde las barreras lingüísticas causan **retrasos, pérdida de negocios o malentendidos costosos**. [Más información ...](./product/overview/markets)
+> Diseñado para **equipos internacionales** donde las barreras lingüísticas causan **retrasos**, **pérdida de negocios** o **malentendidos costosos**. [Más información ...](./product/overview/markets)
 
 <br>
 
@@ -74,7 +74,7 @@ isHome: true
   :card="{
     title: 'Privacidad Donde Importa',
     details:
-      'InterMind está construido para conversaciones críticas de confianza — donde la privacidad y el control son más importantes.',
+      'InterMind está diseñado para conversaciones críticas de confianza — donde la privacidad y el control son más importantes.',
     items: [
       '⚡︎ [Zonas de Privacidad](./product/overview/privacy-architecture) — UE, EE. UU., SE Asia',
       '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
@@ -179,7 +179,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     a: 'El soporte está disponible a través de nuestro **centro de ayuda**, **correo electrónico** y **chat en vivo**. Los usuarios de *Business* obtienen **soporte prioritario** con un contacto dedicado.'
   },
   {
-    q: '¿Cómo gestiono mi suscripción (actualizar, degradar o cancelar)?',
+    q: '¿Cómo gestiono mi suscripción (actualizar, reducir o cancelar)?',
     a: 'Puedes cambiar tu plan en cualquier momento a través de la **configuración de tu cuenta**. Los cambios surten efecto **inmediatamente**. Para cancelaciones, los *planes mensuales* se cancelan al final del ciclo de facturación. Los *planes anuales* se pueden cancelar con un **reembolso prorrateado**.'
   },
   {
