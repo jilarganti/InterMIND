@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Live speech translation in video calls for global teams"
+title: "Live speech translation in video calls"
 isHome: true
 ---
 
