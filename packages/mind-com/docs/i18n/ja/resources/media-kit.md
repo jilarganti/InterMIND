@@ -1,8 +1,18 @@
 # メディアキット
 
-こんにちは！こちらはInterMINDのマーケティングリソースとアイデンティティガイドラインの集まりで、ロゴ、コンテンツ、商標が含まれています。
+こんにちは！InterMINDのマーケティングリソースとアイデンティティガイドラインをご紹介します。ロゴ、コンテンツ、商標などが含まれています。
 
 編集およびダウンロードするには、右クリックして「画像を編集」を選択してください
+
+## Metadata
+
+### Title
+
+グローバルチームのためのリアルタイム音声翻訳 — **遅延なし**、**商談の損失なし**、**言語の壁なし**。
+
+### Description
+
+ビデオ通話のためのリアルタイム音声通訳。自分の言語で話し、全員の発言を即座に自然に理解 — 字幕も遅延もなく。
 
 ## ロゴ
 
@@ -31,6 +41,11 @@ dark: #b16b2a
 ## プロモーション画像
 
 ### 同時通訳
+
+<img src="/media-kit/animals-cartoon-3-2.png" alt="同時通訳" width="500" > <br>
+<img src="/media-kit/animals-cartoon-1-1.png" alt="同時通訳" width="500" > <br>
+<img src="/media-kit/animals-3-2.png" alt="同時通訳" width="500" > <br>
+<img src="/media-kit/animals-1-1.png" alt="同時通訳" width="500" > <br>
 
 <img src="/media-kit/1.png" alt="同時通訳" width="500" > <br>
 <img src="/media-kit/2.png" alt="同時通訳" width="500" > <br>

@@ -1,8 +1,18 @@
-# Kit Média
+# Kit Médias
 
-Bonjour ! Voici une collection de ressources marketing et de directives d'identité d'InterMIND, comprenant notre logo, notre contenu et nos marques déposées.
+Bonjour ! Voici une collection de ressources marketing et de directives d\'identité d\'InterMIND, comprenant notre logo, notre contenu et nos marques déposées.
 
-Pour modifier et télécharger, faites un clic droit et sélectionnez Modifier l'image
+Pour modifier et télécharger, faites un clic droit et sélectionnez Modifier l\'image
+
+## Metadata
+
+### Title
+
+Traduction simultanée pour les équipes internationales — **sans** délais, **sans** affaires perdues, **sans** barrières linguistiques.
+
+### Description
+
+Interprétation vocale en temps réel pour les appels vidéo. Parlez votre langue, comprenez tout le monde — instantanément, naturellement, sans sous-titres ni délais.
 
 ## Logo
 
@@ -31,6 +41,11 @@ dark: #b16b2a
 ## Images Promotionnelles
 
 ### Interprétation simultanée
+
+<img src="/media-kit/animals-cartoon-3-2.png" alt="Interprétation simultanée" width="500" > <br>
+<img src="/media-kit/animals-cartoon-1-1.png" alt="Interprétation simultanée" width="500" > <br>
+<img src="/media-kit/animals-3-2.png" alt="Interprétation simultanée" width="500" > <br>
+<img src="/media-kit/animals-1-1.png" alt="Interprétation simultanée" width="500" > <br>
 
 <img src="/media-kit/1.png" alt="Interprétation simultanée" width="500" > <br>
 <img src="/media-kit/2.png" alt="Interprétation simultanée" width="500" > <br>

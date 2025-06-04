@@ -4,6 +4,16 @@ Hallo! Hier finden Sie eine Sammlung von InterMIND-Marketingressourcen und Ident
 
 Zum Bearbeiten und Herunterladen klicken Sie mit der rechten Maustaste und wählen Sie "Bild bearbeiten"
 
+## Metadata
+
+### Title
+
+Live-Sprachübersetzung für globale Teams — **keine** Verzögerungen, **keine** verlorenen Deals, **keine** Sprachbarrieren.
+
+### Description
+
+Echtzeit-Dolmetschen für Videoanrufe. Sprechen Sie Ihre Sprache, verstehen Sie jeden — sofort, natürlich, ohne Untertitel oder Verzögerungen.
+
 ## Logo
 
 <br>
@@ -31,6 +41,11 @@ dark: #b16b2a
 ## Werbebilder
 
 ### Simultandolmetschen
+
+<img src="/media-kit/animals-cartoon-3-2.png" alt="Simultandolmetschen" width="500" > <br>
+<img src="/media-kit/animals-cartoon-1-1.png" alt="Simultandolmetschen" width="500" > <br>
+<img src="/media-kit/animals-3-2.png" alt="Simultandolmetschen" width="500" > <br>
+<img src="/media-kit/animals-1-1.png" alt="Simultandolmetschen" width="500" > <br>
 
 <img src="/media-kit/1.png" alt="Simultandolmetschen" width="500" > <br>
 <img src="/media-kit/2.png" alt="Simultandolmetschen" width="500" > <br>

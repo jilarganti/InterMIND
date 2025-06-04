@@ -31,8 +31,8 @@ isHome: true
     ],
   link: './product/overview/what-is-intermind',
   src: {
-    light: '/1l.png',
-    dark: '/1d.png',
+    light: '/media-kit/animals-3-2.png',
+    dark: '/media-kit/animals-cartoon-3-2.png',
   },
   inversion: false
 }" />
@@ -74,9 +74,9 @@ isHome: true
   :card="{
     title: 'Privacidad Donde Importa',
     details:
-      'InterMind está diseñado para conversaciones críticas de confianza — donde la privacidad y el control son más importantes.',
+      'InterMind está diseñado para conversaciones que requieren confianza — donde la privacidad y el control son fundamentales.',
     items: [
-      '⚡︎ [Zonas de Privacidad](./product/overview/privacy-architecture) — UE, EE. UU., SE Asia',
+      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — UE, EE. UU., SE Asia',
       '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
     ],
     link: './product/overview/privacy-architecture',

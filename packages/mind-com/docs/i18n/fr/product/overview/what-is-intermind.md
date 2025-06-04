@@ -2,9 +2,9 @@
 
 ## La barrière linguistique s\'arrête ici
 
-InterMIND est la première plateforme de visioconférence au monde qui rend l\'apprentissage des langues obsolète. Notre technologie d\'**interprétation**[^1] simultanée brise instantanément les barrières linguistiques, permettant à chacun de parler sa langue maternelle tout en comprenant parfaitement les autres. Tout comme les calculatrices ont éliminé le besoin de calcul mental, InterMIND élimine la nécessité de passer des années à maîtriser des langues étrangères pour une communication pratique.
+InterMIND est la première plateforme de visioconférence au monde qui rend l\'apprentissage des langues obsolète. Notre technologie d\'**interprétation**[^1] simultanée brise instantanément les barrières linguistiques, permettant à chacun de parler sa langue maternelle tout en comprenant parfaitement les autres. Tout comme les calculatrices ont éliminé le besoin de calcul mental, InterMIND élimine la nécessité de passer des années à maîtriser des langues étrangères pour la communication pratique.
 
-Alors que les approches traditionnelles vous obligent à investir des milliers d\'heures dans l\'apprentissage des langues ou à payer des interprètes coûteux, InterMIND offre une communication immédiate et fluide dans n\'importe quelle paire de langues avec une précision quasi-humaine et une latence minimale. Il permet aux participants de parler leur langue maternelle tout en entendant instantanément les autres dans la leur — préservant les nuances, l\'intention et le flux naturel du discours. Le résultat ? Des économies de temps spectaculaires, une réduction des coûts et des opportunités de collaboration mondiale sans précédent.
+Alors que les approches traditionnelles vous obligent à investir des milliers d\'heures dans l\'apprentissage des langues ou à payer des interprètes coûteux, InterMIND offre une communication immédiate et fluide dans n\'importe quelle paire de langues avec une précision quasi humaine et une latence minimale. Il permet aux participants de parler leur langue maternelle tout en entendant instantanément les autres dans la leur — préservant les nuances, l\'intention et le flux naturel du discours. Le résultat ? Des économies de temps spectaculaires, une réduction des coûts et des opportunités de collaboration mondiale sans précédent.
 
 Contrairement aux outils de traduction traditionnels, InterMIND ne se contente pas de convertir des mots — il interprète le sens, adapte le ton et facilite un dialogue multilingue fluide comme si la barrière linguistique n\'existait pas.
 
@@ -13,6 +13,8 @@ Contrairement aux outils de traduction traditionnels, InterMIND ne se contente p
 > [!note] ✅ Votre temps est mieux employé à maîtriser votre métier — pas à mémoriser la grammaire.
 
 > [!warning] 🛑 Soit vous parlez toutes les langues — soit quelqu\'un d\'autre conclut vos affaires.
+
+![](/1d.png)
 
 ## L'Évolution de l'Efficacité de la Communication
 

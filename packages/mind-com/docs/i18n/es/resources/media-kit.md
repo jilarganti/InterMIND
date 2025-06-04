@@ -4,6 +4,16 @@
 
 Para editar y descargar, haz clic derecho y selecciona Editar imagen
 
+## Metadata
+
+### Title
+
+Traducción simultánea de voz para equipos globales — **sin** retrasos, **sin** pérdida de negocios, **sin** barreras lingüísticas.
+
+### Description
+
+Interpretación de voz en tiempo real para videollamadas. Hable en su idioma, entienda a todos — de forma instantánea, natural, sin subtítulos ni retrasos.
+
 ## Logotipo
 
 <br>
@@ -32,15 +42,20 @@ dark: #b16b2a
 
 ### Interpretación simultánea
 
+<img src="/media-kit/animals-cartoon-3-2.png" alt="Interpretación simultánea" width="500" > <br>
+<img src="/media-kit/animals-cartoon-1-1.png" alt="Interpretación simultánea" width="500" > <br>
+<img src="/media-kit/animals-3-2.png" alt="Interpretación simultánea" width="500" > <br>
+<img src="/media-kit/animals-1-1.png" alt="Interpretación simultánea" width="500" > <br>
+
 <img src="/media-kit/1.png" alt="Interpretación simultánea" width="500" > <br>
 <img src="/media-kit/2.png" alt="Interpretación simultánea" width="500" > <br>
 <img src="/media-kit/5.png" alt="Interpretación simultánea" width="500" > <br>
 <img src="/media-kit/6.png" alt="Interpretación simultánea" width="500" > <br>
 
-### Búsqueda en todas tus reuniones
+### Busca en todas tus reuniones
 
-<img src="/2d.png" alt="Búsqueda en todas tus reuniones" width="500" > <br>
-<img src="/2l.png" alt="Búsqueda en todas tus reuniones" width="500" > <br>
+<img src="/2d.png" alt="Busca en todas tus reuniones" width="500" > <br>
+<img src="/2l.png" alt="Busca en todas tus reuniones" width="500" > <br>
 
 <style>
 

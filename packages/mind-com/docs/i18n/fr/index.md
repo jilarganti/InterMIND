@@ -31,8 +31,8 @@ isHome: true
     ],
   link: './product/overview/what-is-intermind',
   src: {
-    light: '/1l.png',
-    dark: '/1d.png',
+    light: '/media-kit/animals-3-2.png',
+    dark: '/media-kit/animals-cartoon-3-2.png',
   },
   inversion: false
 }" />
@@ -72,7 +72,7 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Confidentialité Là Où Elle Compte',
+    title: 'La Confidentialité Là Où Elle Compte',
     details:
       'InterMind est conçu pour les conversations critiques — où la confidentialité et le contrôle sont essentiels.',
     items: [
@@ -110,7 +110,7 @@ Du premier appel aux conversations fluides — à toute échelle.
   {
     title: '**Pro** &nbsp 1-99 utilisateurs',
     price: '**20€** /mois/utilisateur, facturation annuelle',
-    details: 'ou 25€ facturation mensuelle',
+    details: 'ou 25€ par mois',
     items: [
       'Réunions **illimitées**',
       '**150** participants en réunion vidéo [💬](#3)',
@@ -188,7 +188,7 @@ Du premier appel aux conversations fluides — à toute échelle.
   },
   {
     q: 'Puis-je utiliser InterMind pour des webinaires ou de grands événements ?',
-    a: 'Oui. Les forfaits *Pro* et *Business* sont idéaux pour les **grandes réunions et webinaires** — avec un support jusqu\'à **500 participants** sur le forfait *Business*.'
+    a: 'Oui. Les forfaits *Pro* et *Business* sont idéaux pour les **grandes réunions et webinaires** — avec prise en charge jusqu\'à **500 participants** sur le forfait *Business*.'
   }
 ]
 "/>

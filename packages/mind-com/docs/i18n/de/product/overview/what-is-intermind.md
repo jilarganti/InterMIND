@@ -6,13 +6,15 @@ InterMIND ist die weltweit erste Videokonferenzplattform, die das Sprachenlernen
 
 Während traditionelle Ansätze Sie zwingen, tausende Stunden in das Erlernen von Sprachen zu investieren oder teure Dolmetscher zu bezahlen, ermöglicht InterMIND sofortige, nahtlose Kommunikation zwischen beliebigen Sprachpaaren mit nahezu menschlicher Genauigkeit und minimaler Verzögerung. Es ermöglicht den Teilnehmern, in ihrer Muttersprache zu sprechen und andere sofort in ihrer eigenen zu hören - dabei bleiben Nuancen, Absicht und natürlicher Sprachfluss erhalten. Das Ergebnis? Dramatische Zeitersparnis, Kostenreduzierung und beispiellose Möglichkeiten für globale Zusammenarbeit.
 
-Anders als herkömmliche Übersetzungstools übersetzt InterMIND nicht nur Wörter - es interpretiert Bedeutung, passt den Ton an und ermöglicht einen nahtlosen mehrsprachigen Dialog, als ob die Sprachbarriere nicht existieren würde.
+Anders als herkömmliche Übersetzungstools übersetzt InterMIND nicht nur Wörter - es interpretiert Bedeutung, passt den Ton an und ermöglicht einen nahtlosen mehrsprachigen Dialog, als ob es die Sprachbarriere nicht gäbe.
 
 [^1]: Dolmetschen ist die Übersetzung von einer gesprochenen oder gebärdeten Sprache in eine andere Sprache, normalerweise in Echtzeit, um Live-Kommunikation zu ermöglichen. [Wiki](https://en.wikipedia.org/wiki/Language_interpretation)
 
 > [!note] ✅ Ihre Zeit ist besser damit verbracht, Ihr Handwerk zu meistern — nicht Grammatik auswendig zu lernen.
 
 > [!warning] 🛑 Entweder Sie sprechen jede Sprache — oder jemand anderes macht Ihre Geschäfte.
+
+![](/1d.png)
 
 ## Die Entwicklung der Kommunikationseffizienz
 
@@ -24,7 +26,7 @@ Im Laufe der Geschichte haben Menschen stets Technologien übernommen, die die k
 
 Das Erlernen von Sprachen stellt eine der letzten ineffizienten Zuweisungen menschlichen kognitiven Potenzials dar. Die durchschnittliche Person benötigt 600-1000 Stunden, um grundlegende Kenntnisse in einer neuen Sprache zu erlangen, wobei für die Beherrschung 2000+ Stunden gezieltes Lernen erforderlich sind. Diese Stunden könnten stattdessen in die Entwicklung von Fachkenntnissen im eigenen Bereich investiert werden.
 
-## Die InterMIND Philosophie
+## Die InterMIND-Philosophie
 
 InterMIND ist nicht nur ein Videokonferenz-Tool mit Übersetzungsfunktionen — es ist ein grundlegendes Umdenken darüber, wie globale Kommunikation funktionieren sollte. Unser Ansatz erkennt, dass:
 

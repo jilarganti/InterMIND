@@ -2,16 +2,26 @@
 
 您好！这里收集了 InterMIND 的营销资源和品牌标识指南，包括我们的标志、内容和商标。
 
-要编辑和下载，请右键点击并选择编辑图片
+要编辑和下载，请右键单击并选择编辑图像
 
-## 标志
+## Metadata
+
+### Title
+
+全球团队实时语音翻译 — **零**延迟，**零**损失，**零**语言障碍。
+
+### Description
+
+视频通话实时语音口译。用您的母语交谈，即刻理解所有人 — 自然流畅，无需字幕，无需等待。
+
+## 标识
 
 <br>
-<img src="/media-kit/logo.png" class="transparency-grid" alt="标志" width="500" >
+<img src="/media-kit/logo.png" class="transparency-grid" alt="标识" width="500" >
 <br>
-<img src="/media-kit/logo-3-2.png" class="transparency-grid" alt="标志" width="500" >
+<img src="/media-kit/logo-3-2.png" class="transparency-grid" alt="标识" width="500" >
 <br>
-<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="标志" width="500" >
+<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="标识" width="500" >
 
 ## 网站图标
 
@@ -31,6 +41,11 @@ dark: #b16b2a
 ## 宣传图片
 
 ### 同声传译
+
+<img src="/media-kit/animals-cartoon-3-2.png" alt="同声传译" width="500" > <br>
+<img src="/media-kit/animals-cartoon-1-1.png" alt="同声传译" width="500" > <br>
+<img src="/media-kit/animals-3-2.png" alt="同声传译" width="500" > <br>
+<img src="/media-kit/animals-1-1.png" alt="同声传译" width="500" > <br>
 
 <img src="/media-kit/1.png" alt="同声传译" width="500" > <br>
 <img src="/media-kit/2.png" alt="同声传译" width="500" > <br>

@@ -27,12 +27,12 @@ isHome: true
   details: 'Egal in welcher Sprache, **Ihre Stimme wird gehört — und verstanden** — als ob Sie die gleiche Sprache sprechen würden.',
     items: [
       '⚡︎ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
-      '✧ KI-gestützte Dolmetschung erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
+      '✧ KI-gestützte Interpretation erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
     ],
   link: './product/overview/what-is-intermind',
   src: {
-    light: '/1l.png',
-    dark: '/1d.png',
+    light: '/media-kit/animals-3-2.png',
+    dark: '/media-kit/animals-cartoon-3-2.png',
   },
   inversion: false
 }" />
@@ -42,7 +42,7 @@ isHome: true
     title: 'Der Verstand in Ihren Meetings',
     details: 'InterMind verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
     items: [
-      '🔍 **Fragen Sie alles** — KI findet Antworten **in all Ihren Meetings**.',
+      '🔍 **Fragen Sie alles** — KI findet Antworten **über alle Ihre Meetings hinweg**.',
       '✧ Extrahiert automatisch Aufgaben, Verantwortliche und Fristen.',
       '✧ Fasst Kernpunkte in jeder Sprache sofort zusammen.',
     ],
@@ -59,7 +59,7 @@ isHome: true
     title: 'Entwickelt für professionelle Meetings — nicht nur zum Plaudern',
     details: 'InterMind ist eine **professionelle Videomeeting-Plattform**, kein einfaches Add-on oder Plugin.',
     items: [
-      '✧ 1080p Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufnahme, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles eingebaut und sofort einsatzbereit.',
+      '✧ 1080p Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufnahme, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert und sofort einsatzbereit.',
     ],
     link: './product/overview/how-it-works',
     src: {
