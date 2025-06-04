@@ -3,8 +3,7 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/fr"
 
 export const fr = defineConfig({
-  description:
-    "InterMind est une plateforme d'interprétation en temps réel pour les réunions vidéo multilingues. Chaque participant parle sa langue maternelle et entend les autres comme s'ils la parlaient aussi. Pas de plugins. Pas de téléchargements. Juste des conversations naturelles et fluides dans plus de 30 langues.",
+  description: "Interprétation vocale en temps réel pour les appels vidéo. Parlez votre langue, comprenez tout le monde — instantanément, naturellement, sans sous-titres ni délais.",
   head: [["meta", { property: "og:title", content: "Appels vidéo alimentés par l'interprétation simultanée | InterMIND" }]],
 
   themeConfig: {
@@ -38,7 +37,7 @@ export const fr = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Réglementations légales pour les services d'IA</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Réglementations légales pour les services d\'IA</a>`,
     },
 
     localization: {
@@ -96,7 +95,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Gestion du compte", link: "guide/account-management" },
         { text: "Création de réunions", link: "guide/creating-meetings" },
         { text: "Interface de réunion", link: "guide/meeting-interface" },
-        { text: "Rôles des utilisateurs", link: "guide/user-roles" },
+        { text: "Rôles utilisateurs", link: "guide/user-roles" },
         { text: "Fonctionnalités IA", link: "guide/ai-features" },
         { text: "Historique des réunions", link: "guide/meeting-history" },
         { text: "FAQ", link: "guide/faq" },

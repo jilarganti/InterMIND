@@ -3,8 +3,7 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ru"
 
 export const ru = defineConfig({
-  description:
-    "InterMind - это платформа синхронного перевода для многоязычных видеовстреч. Каждый участник говорит на своем родном языке и слышит других так, как если бы они тоже говорили на нем. Без плагинов. Без загрузок. Просто естественное общение на более чем 30 языках.",
+  description: "Синхронный голосовой перевод для видеозвонков. Говорите на своем языке, понимайте всех — мгновенно, естественно, без субтитров и задержек.",
   head: [["meta", { property: "og:title", content: "Видеозвонки с синхронным переводом | InterMIND" }]],
 
   themeConfig: {
@@ -42,8 +41,8 @@ export const ru = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Спросите что угодно...",
-      placeholder4ChatFooter: "Спросите что угодно...",
+      placeholder4SearchInput: "Задайте любой вопрос...",
+      placeholder4ChatFooter: "Задайте любой вопрос...",
       placeholder4ChatList: "Введите тему чата...",
       buttonLabel4NavButton: "Мгновенный чат с экспертом",
       buttonLabel4AuthButton: "Войти",
@@ -95,7 +94,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Начало работы", link: "guide/getting-started" },
         { text: "Управление аккаунтом", link: "guide/account-management" },
         { text: "Создание встреч", link: "guide/creating-meetings" },
-        { text: "Интерфейс встречи", link: "guide/meeting-interface" },
+        { text: "Интерфейс встреч", link: "guide/meeting-interface" },
         { text: "Роли пользователей", link: "guide/user-roles" },
         { text: "AI-функции", link: "guide/ai-features" },
         { text: "История встреч", link: "guide/meeting-history" },

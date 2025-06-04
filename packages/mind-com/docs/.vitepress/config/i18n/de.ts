@@ -3,8 +3,7 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/de"
 
 export const de = defineConfig({
-  description:
-    "InterMind ist eine Echtzeit-Dolmetschplattform für mehrsprachige Videomeetings. Jeder Teilnehmer spricht in seiner Muttersprache — und hört andere, als würden sie es auch tun. Keine Plugins. Keine Downloads. Nur nahtlose, natürliche Gespräche in über 30 Sprachen.",
+  description: "Echtzeit-Sprachdolmetschen für Videoanrufe. Sprechen Sie in Ihrer Sprache, verstehen Sie jeden — sofort, natürlich, ohne Untertitel oder Verzögerungen.",
   head: [["meta", { property: "og:title", content: "Videoanrufe mit Simultandolmetschen | InterMIND" }]],
 
   themeConfig: {
@@ -67,7 +66,7 @@ export const de = defineConfig({
       defaultCategories: [
         "Ich interessiere mich für Echtzeit-Sprachdolmetschen",
         "Ich interessiere mich für den KI-Meeting-Assistenten",
-        "Ich interessiere mich für regionsbasierte Datenschutz- und Datenkontrolle",
+        "Ich interessiere mich für regionsbasierte Datenschutzkontrolle",
         "Sonstiges / Nicht aufgeführt",
       ],
 

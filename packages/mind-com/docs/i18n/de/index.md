@@ -1,11 +1,11 @@
 ---
 layout: home
-title: "Live-Sprachübersetzung in Videoanrufen für globale Teams"
+title: "Live-Sprachübersetzung in Videoanrufen"
 isHome: true
 ---
 
 <!-- title: "Videoanrufe mit Simultandolmetschen" -->
-<!-- text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen — als ob sie diese auch sprechen würden." -->
+<!-- text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen – als ob sie diese auch sprechen würden." -->
 <!-- title="Live-Sprachübersetzung in Videoanrufen" -->
 
 <HeroSection
@@ -27,7 +27,7 @@ isHome: true
   details: 'Egal in welcher Sprache, **Ihre Stimme wird gehört — und verstanden** — als ob Sie die gleiche Sprache sprechen würden.',
     items: [
       '⚡︎ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
-      '✧ KI-gestützte Interpretation erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
+      '✧ KI-gestützte Dolmetschung erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
     ],
   link: './product/overview/what-is-intermind',
   src: {
@@ -109,8 +109,8 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
   },
   {
     title: '**Pro** &nbsp 1-99 Benutzer',
-    price: '**$20** /Monat/Benutzer, jährlich abgerechnet',
-    details: 'oder $25 monatlich abgerechnet',
+    price: '**20€** /Monat/Benutzer, jährlich abgerechnet',
+    details: 'oder 25€ monatlich abgerechnet',
     items: [
       '**unbegrenzte** Meetings',
       '**150** Teilnehmer Videomeetings [💬](#3)',

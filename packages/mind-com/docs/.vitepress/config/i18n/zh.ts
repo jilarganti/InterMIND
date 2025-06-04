@@ -3,9 +3,8 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
-  description:
-    "InterMind是一个实时多语言视频会议口译平台。每位参与者都可以使用母语发言，并听到其他人仿佛也在使用同样语言。无需插件。无需下载。只需在30多种语言之间进行自然流畅的对话。",
-  head: [["meta", { property: "og:title", content: "支持同声传译的视频通话 | InterMIND" }]],
+  description: "视频通话实时语音口译。说您的语言，即时自然地理解所有人 — 无需字幕，无需延迟。",
+  head: [["meta", { property: "og:title", content: "InterMIND | 支持同声传译的视频通话" }]],
 
   themeConfig: {
     nav: [
@@ -42,8 +41,8 @@ export const zh = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "输入任何问题...",
-      placeholder4ChatFooter: "输入任何问题...",
+      placeholder4SearchInput: "搜索任何内容...",
+      placeholder4ChatFooter: "询问任何问题...",
       placeholder4ChatList: "输入聊天主题...",
       buttonLabel4NavButton: "即时专家对话",
       buttonLabel4AuthButton: "登录",
@@ -56,10 +55,10 @@ export const zh = defineConfig({
       phone: "公司网站 *",
       phonePlaceholder: "例如：https://mind.com",
       phoneError: "请输入电话号码",
-      category: "请告诉我们如何为您提供帮助 *",
+      category: "请告诉我们如何帮助您 *",
       categoryPlaceholder: "选择服务类型",
       message: "让我们讨论您的目标（可选）",
-      messagePlaceholder: "请提供任何附加详细信息（可选）",
+      messagePlaceholder: "请提供任何附加详情（可选）",
       submit: "提交请求",
       sending: "发送中...",
       successTitle: "感谢您！",

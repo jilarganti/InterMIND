@@ -3,8 +3,7 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/es"
 
 export const es = defineConfig({
-  description:
-    "InterMind es una plataforma de interpretación en tiempo real para reuniones de video multilingües. Cada participante habla en su idioma nativo y escucha a los demás como si también lo hicieran. Sin complementos. Sin descargas. Solo conversaciones naturales y fluidas en más de 30 idiomas.",
+  description: "Interpretación de voz en tiempo real para videollamadas. Hable en su idioma, entienda a todos — de forma instantánea, natural, sin subtítulos ni retrasos.",
   head: [["meta", { property: "og:title", content: "Videollamadas potenciadas por interpretación simultánea | InterMIND" }]],
 
   themeConfig: {
@@ -42,36 +41,36 @@ export const es = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Pregunta cualquier cosa...",
-      placeholder4ChatFooter: "Pregunta cualquier cosa...",
-      placeholder4ChatList: "Ingresa el tema del chat...",
+      placeholder4SearchInput: "Pregunte cualquier cosa...",
+      placeholder4ChatFooter: "Pregunte cualquier cosa...",
+      placeholder4ChatList: "Ingrese tema del chat...",
       buttonLabel4NavButton: "Chat experto instantáneo",
       buttonLabel4AuthButton: "Iniciar sesión",
     },
     contact_form: {
       name: "Nombre *",
-      namePlaceholder: "tu nombre",
+      namePlaceholder: "su nombre",
       email: "Correo electrónico *",
-      emailPlaceholder: "tu dirección de correo electrónico",
+      emailPlaceholder: "su dirección de correo electrónico",
       phone: "Sitio corporativo *",
       phonePlaceholder: "ej., https://mind.com",
-      phoneError: "Por favor ingrese el número de teléfono",
-      category: "Por favor dinos cómo podemos ayudar *",
-      categoryPlaceholder: "selecciona el tipo de servicio",
-      message: "Hablemos de tus objetivos (opcional)",
-      messagePlaceholder: "Por favor proporciona detalles adicionales (opcional)",
+      phoneError: "Por favor ingrese número de teléfono",
+      category: "Por favor díganos cómo podemos ayudar *",
+      categoryPlaceholder: "seleccione tipo de servicio",
+      message: "Hablemos de sus objetivos (opcional)",
+      messagePlaceholder: "Por favor proporcione detalles adicionales (opcional)",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
-      successMessage: "¡Agradecemos mucho tu interés! Nuestro equipo te contactará pronto para discutir tus necesidades.",
+      successMessage: "¡Agradecemos mucho su interés! Nuestro equipo se pondrá en contacto con usted pronto para discutir sus necesidades.",
       defaultCategories: [
         "Me interesa la interpretación de voz en tiempo real",
         "Me interesa el asistente de reuniones con IA",
-        "Me interesa el control de privacidad y datos basado en región",
+        "Me interesa el control de privacidad y datos por región",
         "Otro / No listado",
       ],
 
-      defaultButtonText: "Envíanos un mensaje",
+      defaultButtonText: "Envíenos un mensaje",
     },
   },
 })
@@ -92,7 +91,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "Guía",
       collapsed: false,
       items: [
-        { text: "Primeros pasos", link: "guide/getting-started" },
+        { text: "Comenzar", link: "guide/getting-started" },
         { text: "Gestión de cuenta", link: "guide/account-management" },
         { text: "Crear reuniones", link: "guide/creating-meetings" },
         { text: "Interfaz de reunión", link: "guide/meeting-interface" },

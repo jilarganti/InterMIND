@@ -3,8 +3,7 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
-  description:
-    "InterMindは多言語ビデオ会議のためのリアルタイム通訳プラットフォームです。参加者は母国語で話し、他の参加者も同じように聞くことができます。プラグインも、ダウンロードも不要。30以上の言語で自然な会話をシームレスに実現します。",
+  description: "ビデオ通話のためのリアルタイム音声通訳。字幕や遅延なしで、自然に、即座に - あなたの言語で話し、全員を理解できます。",
   head: [["meta", { property: "og:title", content: "同時通訳機能搭載のビデオ通話 | InterMIND" }]],
 
   themeConfig: {
@@ -45,7 +44,7 @@ export const ja = defineConfig({
       placeholder4SearchInput: "質問を入力してください...",
       placeholder4ChatFooter: "質問を入力してください...",
       placeholder4ChatList: "チャットトピックを入力...",
-      buttonLabel4NavButton: "専門家とすぐチャット",
+      buttonLabel4NavButton: "インスタントエキスパートチャット",
       buttonLabel4AuthButton: "サインイン",
     },
     contact_form: {
@@ -108,7 +107,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
 
 function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "企業情報", link: "/about" },
+    { text: "会社概要", link: "/about" },
     { text: "お問い合わせ", link: "/contacts" },
   ]
 }

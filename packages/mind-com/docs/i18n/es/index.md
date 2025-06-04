@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Traducción simultánea de voz en videollamadas para equipos globales"
+title: "Traducción simultánea de voz en videollamadas"
 isHome: true
 ---
 
@@ -10,14 +10,14 @@ isHome: true
 
 <HeroSection
   title="Reúnete en **Cualquier** Idioma"
-  text="Traducción de voz en vivo para equipos globales — **sin** retrasos, **sin** negocios perdidos, **sin** barreras lingüísticas.">
+  text="Traducción de voz en vivo para equipos globales — **sin** retrasos, **sin** pérdida de negocios, **sin** barreras lingüísticas.">
 
   <!-- <AuthButton text="Escucha la diferencia" buttonClass="brand"/> -->
   <AuthButton text="Pruébalo en tu idioma" buttonClass="brand"/>
 </HeroSection>
 
 > **¿Para quién es esto?**  
-> Diseñado para equipos globales donde las barreras lingüísticas causan **retrasos, negocios perdidos o malentendidos costosos**. [Más información ...](./product/overview/markets)
+> Diseñado para equipos globales donde las barreras lingüísticas causan **retrasos, pérdida de negocios o malentendidos costosos**. [Más información ...](./product/overview/markets)
 
 <br>
 
@@ -26,8 +26,8 @@ isHome: true
   title: 'Traducción ≠ Comprensión. Esto es lo siguiente.',
   details: 'Sin importar el idioma, **tu voz es escuchada — y comprendida** — como si compartieran la misma lengua.',
     items: [
-      '⚡︎ Naturalmente, en [tiempo real](./product/overview/how-it-works), y sin subtítulos ni retrasos.',
-      '✧ Interpretación potenciada por IA que captura el tono, la intención y la terminología específica de la industria.',
+      '⚡︎ De forma natural, en [tiempo real](./product/overview/how-it-works), y sin subtítulos ni retrasos.',
+      '✧ Interpretación potenciada por IA que capta el tono, la intención y la terminología específica de la industria.',
     ],
   link: './product/overview/what-is-intermind',
   src: {
@@ -76,7 +76,7 @@ isHome: true
     details:
       'InterMind está construido para conversaciones críticas de confianza — donde la privacidad y el control son más importantes.',
     items: [
-      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — UE, EE. UU., SE Asia',
+      '⚡︎ [Zonas de Privacidad](./product/overview/privacy-architecture) — UE, EE. UU., SE Asia',
       '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
     ],
     link: './product/overview/privacy-architecture',
@@ -179,7 +179,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     a: 'El soporte está disponible a través de nuestro **centro de ayuda**, **correo electrónico** y **chat en vivo**. Los usuarios de *Business* obtienen **soporte prioritario** con un contacto dedicado.'
   },
   {
-    q: '¿Cómo gestiono mi suscripción (actualizar, reducir o cancelar)?',
+    q: '¿Cómo gestiono mi suscripción (actualizar, degradar o cancelar)?',
     a: 'Puedes cambiar tu plan en cualquier momento a través de la **configuración de tu cuenta**. Los cambios surten efecto **inmediatamente**. Para cancelaciones, los *planes mensuales* se cancelan al final del ciclo de facturación. Los *planes anuales* se pueden cancelar con un **reembolso prorrateado**.'
   },
   {
