@@ -128,7 +128,7 @@ const handleSubmit = async () => {
       form_URL: page.value.relativePath,
       form_category: formData.value.category,
       is_real_lead: !!isRealLead,
-      lead_source: formData.value.leadSource, // Добавляем источник лида в данные события
+      lead_source: formData.value.leadSource,
     })
   }
 }

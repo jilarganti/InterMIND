@@ -36,11 +36,13 @@ interface FormSubmissionEvent {
   form_URL: string
   form_category: string
   is_real_lead: boolean
-  lead_source?: string // Добавляем источник лида
+  lead_source?: string
 }
+
+type GTMEvent = FormSubmissionEvent | { event: string }
 
 declare global {
   interface Window {
-    dataLayer?: FormSubmissionEvent[]
+    dataLayer?: GTMEvent[]
   }
 }

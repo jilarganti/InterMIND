@@ -26,6 +26,13 @@ const props = withDefaults(defineProps<Props>(), {
 const login = (event: Event): void => {
   event.preventDefault()
 
+  /**
+   * TODO: Перенести в приложение после отладки
+   */
+  window.dataLayer?.push({
+    event: "app_event_sign_up",
+  })
+
   // Сохраняем текущий путь для возврата после авторизации
   localStorage.setItem(REDIRECT_AFTER_AUTH_URI_KEY, location.pathname + location.search)
 
