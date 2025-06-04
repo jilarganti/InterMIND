@@ -14,6 +14,8 @@ Unlike traditional translation tools, InterMIND doesn't just convert words — i
 
 > [!warning] 🛑 Either you speak every language — or someone else closes your deals.
 
+![](/1d.png)
+
 ## The Evolution of Communication Efficiency
 
 Throughout history, humans have consistently adopted technologies that optimize cognitive company:

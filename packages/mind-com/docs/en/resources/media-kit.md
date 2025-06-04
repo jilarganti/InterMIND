@@ -32,6 +32,11 @@ dark: #b16b2a
 
 ### Simultaneous interpretation
 
+<img src="/media-kit/animals-cartoon-3-2.png" alt="Simultaneous interpretation" width="500" > <br>
+<img src="/media-kit/animals-cartoon-1-1.png" alt="Simultaneous interpretation" width="500" > <br>
+<img src="/media-kit/animals-3-2.png" alt="Simultaneous interpretation" width="500" > <br>
+<img src="/media-kit/animals-1-1.png" alt="Simultaneous interpretation" width="500" > <br>
+
 <img src="/media-kit/1.png" alt="Simultaneous interpretation" width="500" > <br>
 <img src="/media-kit/2.png" alt="Simultaneous interpretation" width="500" > <br>
 <img src="/media-kit/5.png" alt="Simultaneous interpretation" width="500" > <br>
