@@ -17,7 +17,7 @@ isHome: true
 </HeroSection>
 
 > **Who is this for?**  
-> Built for global teams where language barriers cause **delays, lost deals, or costly misunderstandings**. [Learn more ...](./product/overview/markets)
+> Built for **international teams** where language barriers cause **delays**, **lost deals**, or **costly misunderstandings**. [Learn more ...](./product/overview/markets)
 
 <br>
 
