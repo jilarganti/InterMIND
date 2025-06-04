@@ -122,7 +122,7 @@ const handleSubmit = async () => {
 
     // window.dataLayer = window.dataLayer || []
     window.dataLayer?.push({
-      event: "custom_event_form_submit",
+      event: "site_event_form_submit",
       form_type: formData.value.channel,
       form_service: formData.value.channelId,
       form_URL: page.value.relativePath,
