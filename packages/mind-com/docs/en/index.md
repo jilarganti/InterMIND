@@ -16,11 +16,6 @@ isHome: true
   <AuthButton text="Try it in your language" buttonClass="brand"/>
 </HeroSection>
 
-> **Who is this for?**  
-> Built for **international teams** where language barriers cause **delays**, **lost deals**, or **costly misunderstandings**. [Learn more ...](./product/overview/markets)
-
-<br>
-
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Translation ≠ Understanding. Here’s what’s next.',
@@ -87,6 +82,11 @@ isHome: true
     inversion: true
   }"
 />
+
+> [!tip] Who is this for?  
+> Built for **international teams** where language barriers cause **delays**, **lost deals**, or **costly misunderstandings**. [Learn more ...](./product/overview/markets)
+
+<br>
 
 <span id="Pricing"></span>
 
