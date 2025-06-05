@@ -3,7 +3,8 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/de"
 
 export const de = defineConfig({
-  description: "Echtzeit-Sprachdolmetschen für Videoanrufe. Sprechen Sie in Ihrer Sprache, verstehen Sie jeden — sofort, natürlich, ohne Untertitel oder Verzögerungen.",
+  description:
+    "InterMIND fügt Echtzeit-Sprachübersetzung zu jedem Videoanruf hinzu, damit internationale Teams keine Geschäfte, Zeit oder Klarheit durch Sprachbarrieren verlieren.",
   head: [["meta", { property: "og:title", content: "Videoanrufe mit Simultandolmetschen | InterMIND" }]],
 
   themeConfig: {
@@ -44,7 +45,7 @@ export const de = defineConfig({
       placeholder4SearchInput: "Fragen Sie alles...",
       placeholder4ChatFooter: "Fragen Sie alles...",
       placeholder4ChatList: "Chat-Thema eingeben...",
-      buttonLabel4NavButton: "Sofortiger Experten-Chat",
+      buttonLabel4NavButton: "Sofort-Expertenchat",
       buttonLabel4AuthButton: "Anmelden",
     },
     contact_form: {
@@ -59,14 +60,14 @@ export const de = defineConfig({
       categoryPlaceholder: "Servicetyp auswählen",
       message: "Lassen Sie uns Ihre Ziele besprechen (optional)",
       messagePlaceholder: "Bitte geben Sie zusätzliche Details an (optional)",
-      submit: "Anfrage senden",
+      submit: "Anfrage absenden",
       sending: "Wird gesendet...",
       successTitle: "Vielen Dank!",
       successMessage: "Wir schätzen Ihr Interesse sehr! Unser Team wird Sie in Kürze kontaktieren, um Ihre Bedürfnisse zu besprechen.",
       defaultCategories: [
         "Ich interessiere mich für Echtzeit-Sprachdolmetschen",
         "Ich interessiere mich für den KI-Meeting-Assistenten",
-        "Ich interessiere mich für regionsbasierte Datenschutzkontrolle",
+        "Ich interessiere mich für regionsbasierte Datenschutz- und Datenkontrolle",
         "Sonstiges / Nicht aufgeführt",
       ],
 
@@ -82,7 +83,8 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Was ist InterMIND?", link: "overview/what-is-intermind" },
-        { text: "Funktionsweise", link: "overview/how-it-works" },
+        { text: "Wie es funktioniert", link: "overview/how-it-works" },
+        { text: "Video-Meeting-Plattform", link: "overview/video-meeting-platform" },
         { text: "Regionaler Datenschutz", link: "overview/privacy-architecture" },
         { text: "Prioritätsmärkte", link: "overview/markets" },
       ],

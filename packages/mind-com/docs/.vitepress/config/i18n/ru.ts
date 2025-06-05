@@ -3,7 +3,8 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ru"
 
 export const ru = defineConfig({
-  description: "Синхронный голосовой перевод для видеозвонков. Говорите на своем языке, понимайте всех — мгновенно, естественно, без субтитров и задержек.",
+  description:
+    "InterMIND добавляет синхронный перевод речи в каждый видеозвонок, чтобы международные команды никогда не теряли сделки, время или ясность из-за языковых барьеров.",
   head: [["meta", { property: "og:title", content: "Видеозвонки с синхронным переводом | InterMIND" }]],
 
   themeConfig: {
@@ -41,8 +42,8 @@ export const ru = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Задайте любой вопрос...",
-      placeholder4ChatFooter: "Задайте любой вопрос...",
+      placeholder4SearchInput: "Спросите что угодно...",
+      placeholder4ChatFooter: "Спросите что угодно...",
       placeholder4ChatList: "Введите тему чата...",
       buttonLabel4NavButton: "Мгновенный чат с экспертом",
       buttonLabel4AuthButton: "Войти",
@@ -55,16 +56,16 @@ export const ru = defineConfig({
       phone: "Корпоративный сайт *",
       phonePlaceholder: "например, https://mind.com",
       phoneError: "Пожалуйста, введите номер телефона",
-      category: "Расскажите, чем мы можем помочь *",
+      category: "Пожалуйста, расскажите, чем мы можем помочь *",
       categoryPlaceholder: "выберите тип услуги",
       message: "Обсудим ваши цели (необязательно)",
-      messagePlaceholder: "Укажите дополнительные детали (необязательно)",
+      messagePlaceholder: "Пожалуйста, укажите дополнительные детали (необязательно)",
       submit: "Отправить запрос",
       sending: "Отправка...",
       successTitle: "Спасибо!",
       successMessage: "Мы очень ценим ваш интерес! Наша команда свяжется с вами в ближайшее время для обсуждения ваших потребностей.",
       defaultCategories: [
-        "Меня интересует синхронный голосовой перевод",
+        "Меня интересует синхронный перевод речи",
         "Меня интересует AI-ассистент для встреч",
         "Меня интересует региональная конфиденциальность и контроль данных",
         "Другое / Не указано",
@@ -83,6 +84,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Что такое InterMIND?", link: "overview/what-is-intermind" },
         { text: "Как это работает", link: "overview/how-it-works" },
+        { text: "Платформа для видеовстреч", link: "overview/video-meeting-platform" },
         { text: "Региональная защита данных", link: "overview/privacy-architecture" },
         { text: "Приоритетные рынки", link: "overview/markets" },
       ],
@@ -94,7 +96,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Начало работы", link: "guide/getting-started" },
         { text: "Управление аккаунтом", link: "guide/account-management" },
         { text: "Создание встреч", link: "guide/creating-meetings" },
-        { text: "Интерфейс встреч", link: "guide/meeting-interface" },
+        { text: "Интерфейс встречи", link: "guide/meeting-interface" },
         { text: "Роли пользователей", link: "guide/user-roles" },
         { text: "AI-функции", link: "guide/ai-features" },
         { text: "История встреч", link: "guide/meeting-history" },

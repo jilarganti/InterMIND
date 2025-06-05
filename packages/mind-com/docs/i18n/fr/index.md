@@ -1,16 +1,16 @@
 ---
 layout: home
-title: "Traduction simultanée lors des appels vidéo"
+title: "Traduction simultanée pour les appels vidéo"
 isHome: true
 ---
 
 <!-- title: "Appels vidéo alimentés par l'interprétation simultanée" -->
 <!-- text="Parlez votre langue maternelle. Écoutez les autres — comme s'ils la parlaient aussi." -->
-<!-- title="Traduction simultanée lors des appels vidéo" -->
+<!-- title="Traduction vocale en direct pour les appels vidéo" -->
 
 <HeroSection
   title="Communiquez dans **Toutes** les Langues"
-  text="Traduction simultanée pour les équipes internationales — **sans** délais, **sans** opportunités manquées, **sans** barrières linguistiques.">
+  text="Traduction vocale en direct pour les appels vidéo — **sans** délais, **sans** opportunités manquées, **sans** barrières linguistiques.">
 
   <!-- <AuthButton text="Écoutez la différence" buttonClass="brand"/> -->
   <AuthButton text="Essayez dans votre langue" buttonClass="brand"/>
@@ -51,12 +51,12 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Conçu pour les Réunions Professionnelles — Pas Seulement pour Discuter',
-    details: 'InterMind est une **plateforme de réunion vidéo de niveau professionnel**, pas un simple module complémentaire ou plugin.',
+    title: 'Conçu pour les Réunions Professionnelles — Pas Juste pour Discuter',
+    details: 'InterMind est une **plateforme de réunion vidéo professionnelle**, pas un simple module complémentaire ou plugin.',
     items: [
       '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat entre participants et intégration du calendrier — tout est intégré, prêt à l\'emploi.',
     ],
-    link: './product/overview/how-it-works',
+    link: './product/overview/video-meeting-platform',
     src: {
       light: '/3l.mp4',
       dark: '/3d.mp4',
@@ -67,7 +67,7 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Confidentialité Là Où Elle Compte',
+    title: 'Confidentialité Là Où Cela Compte',
     details:
       'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle sont essentiels.',
     items: [
@@ -108,7 +108,7 @@ Du premier appel aux conversations fluides — à toute échelle.
     ],
   },
   {
-    title: '**Pro** &nbsp 1-99 utilisateurs',
+    title: '**Pro**  &nbsp 1-99 utilisateurs',
     price: '**20€** /mois/utilisateur, facturation annuelle',
     details: 'ou 25€ facturation mensuelle',
     items: [
@@ -129,7 +129,7 @@ Du premier appel aux conversations fluides — à toute échelle.
       '**5** To de stockage mutualisé par utilisateur',
       'Recherche dans toutes vos réunions [💬](#2)',
       'Interprétation simultanée [💬](#1)',
-      '**Zones de confidentialité** [💬](#4)',
+      '**Zones de Confidentialité** [💬](#4)',
     ],
   }
 ]">
@@ -138,11 +138,15 @@ Du premier appel aux conversations fluides — à toute échelle.
 <ContactFormModalNav buttonText="Parler à notre équipe" buttonClass="alt"/>
 </PricingPlans>
 
+> [!warning] 🛑 Soit vous parlez toutes les langues — soit quelqu'un d'autre conclut vos affaires.
+
 <span id="Testimonials"></span>
 
 ## Ce Que Disent Nos Clients
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
+
+> [!note] ✅ Votre temps est mieux investi à maîtriser votre métier — pas à mémoriser la grammaire.
 
 <span id="FAQ"></span>
 
@@ -172,7 +176,7 @@ Du premier appel aux conversations fluides — à toute échelle.
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un forfait ?',
-    a: 'Absolument. Le forfait *Free Basic* vous donne un accès complet aux fonctionnalités de base avec **25 réunions gratuites** — y compris l\'**interprétation simultanée** et la **recherche de réunions**. Pas de carte de crédit requise. Mise à niveau possible à tout moment.'
+    a: 'Absolument. Le forfait *Free Basic* vous donne un accès complet aux fonctionnalités de base avec **25 réunions gratuites** — y compris l\'**interprétation simultanée** et la **recherche de réunions**. Pas de carte de crédit requise. Possibilité de mise à niveau à tout moment.'
   },
   {
     q: 'Que faire si j\'ai besoin d\'aide ou de support ?',

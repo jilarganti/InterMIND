@@ -3,7 +3,8 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/es"
 
 export const es = defineConfig({
-  description: "Interpretación de voz en tiempo real para videollamadas. Hable en su idioma, entienda a todos — de forma instantánea, natural, sin subtítulos ni retrasos.",
+  description:
+    "InterMIND añade traducción de voz en tiempo real a cada videollamada, para que los equipos internacionales nunca pierdan negocios, tiempo o claridad debido a las barreras del idioma.",
   head: [["meta", { property: "og:title", content: "Videollamadas potenciadas por interpretación simultánea | InterMIND" }]],
 
   themeConfig: {
@@ -41,36 +42,36 @@ export const es = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Pregunte cualquier cosa...",
-      placeholder4ChatFooter: "Pregunte cualquier cosa...",
-      placeholder4ChatList: "Ingrese tema del chat...",
+      placeholder4SearchInput: "Pregunta cualquier cosa...",
+      placeholder4ChatFooter: "Pregunta cualquier cosa...",
+      placeholder4ChatList: "Ingresa el tema del chat...",
       buttonLabel4NavButton: "Chat experto instantáneo",
       buttonLabel4AuthButton: "Iniciar sesión",
     },
     contact_form: {
       name: "Nombre *",
-      namePlaceholder: "su nombre",
+      namePlaceholder: "tu nombre",
       email: "Correo electrónico *",
-      emailPlaceholder: "su dirección de correo electrónico",
+      emailPlaceholder: "tu dirección de correo electrónico",
       phone: "Sitio corporativo *",
       phonePlaceholder: "ej., https://mind.com",
-      phoneError: "Por favor ingrese número de teléfono",
-      category: "Por favor díganos cómo podemos ayudar *",
-      categoryPlaceholder: "seleccione tipo de servicio",
-      message: "Hablemos de sus objetivos (opcional)",
-      messagePlaceholder: "Por favor proporcione detalles adicionales (opcional)",
+      phoneError: "Por favor ingrese el número de teléfono",
+      category: "Por favor dinos cómo podemos ayudar *",
+      categoryPlaceholder: "selecciona el tipo de servicio",
+      message: "Hablemos de tus objetivos (opcional)",
+      messagePlaceholder: "Proporciona detalles adicionales (opcional)",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
-      successMessage: "¡Agradecemos mucho su interés! Nuestro equipo se pondrá en contacto con usted pronto para discutir sus necesidades.",
+      successMessage: "¡Agradecemos mucho tu interés! Nuestro equipo te contactará pronto para discutir tus necesidades.",
       defaultCategories: [
         "Me interesa la interpretación de voz en tiempo real",
         "Me interesa el asistente de reuniones con IA",
-        "Me interesa el control de privacidad y datos por región",
+        "Me interesa el control de privacidad y datos basado en región",
         "Otro / No listado",
       ],
 
-      defaultButtonText: "Envíenos un mensaje",
+      defaultButtonText: "Envíanos un mensaje",
     },
   },
 })
@@ -83,7 +84,8 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "¿Qué es InterMIND?", link: "overview/what-is-intermind" },
         { text: "Cómo funciona", link: "overview/how-it-works" },
-        { text: "Privacidad de datos regional", link: "overview/privacy-architecture" },
+        { text: "Plataforma de videoreuniones", link: "overview/video-meeting-platform" },
+        { text: "Privacidad regional de datos", link: "overview/privacy-architecture" },
         { text: "Mercados prioritarios", link: "overview/markets" },
       ],
     },
@@ -91,7 +93,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "Guía",
       collapsed: false,
       items: [
-        { text: "Comenzar", link: "guide/getting-started" },
+        { text: "Primeros pasos", link: "guide/getting-started" },
         { text: "Gestión de cuenta", link: "guide/account-management" },
         { text: "Crear reuniones", link: "guide/creating-meetings" },
         { text: "Interfaz de reunión", link: "guide/meeting-interface" },

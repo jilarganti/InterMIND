@@ -1,16 +1,16 @@
 ---
 layout: home
-title: "Live-Sprachübersetzung in Videoanrufen"
+title: "Live-Sprachübersetzung für Videoanrufe"
 isHome: true
 ---
 
 <!-- title: "Videoanrufe mit Simultandolmetschen" -->
-<!-- text="Sprechen Sie Ihre Muttersprache. Hören Sie alle anderen — als ob sie diese auch sprechen würden." -->
+<!-- text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen – als ob sie diese auch sprechen würden." -->
 <!-- title="Live-Sprachübersetzung in Videoanrufen" -->
 
 <HeroSection
   title="Meetings in **jeder** Sprache"
-  text="Live-Sprachübersetzung für globale Teams — **keine** Verzögerungen, **keine** verlorenen Geschäfte, **keine** Sprachbarrieren.">
+  text="Live-Sprachübersetzung in Videoanrufen — **keine** Verzögerungen, **keine** verlorenen Geschäfte, **keine** Sprachbarrieren.">
 
   <!-- <AuthButton text="Hören Sie den Unterschied" buttonClass="brand"/> -->
   <AuthButton text="Testen Sie es in Ihrer Sprache" buttonClass="brand"/>
@@ -18,11 +18,11 @@ isHome: true
 
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: 'Übersetzung ≠ Verständnis. Das ist der nächste Schritt.',
+  title: 'Übersetzung ≠ Verstehen. Das ist der nächste Schritt.',
   details: 'Egal in welcher Sprache, **Ihre Stimme wird gehört — und verstanden** — als ob Sie die gleiche Sprache sprechen würden.',
     items: [
       '⚡︎ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
-      '✧ KI-gestützte Interpretation erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
+      '✧ KI-gestützte Dolmetschung erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
     ],
   link: './product/overview/what-is-intermind',
   src: {
@@ -56,7 +56,7 @@ isHome: true
     items: [
       '✧ 1080p Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufnahme, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles eingebaut und sofort einsatzbereit.',
     ],
-    link: './product/overview/how-it-works',
+    link: './product/overview/video-meeting-platform',
     src: {
       light: '/3l.mp4',
       dark: '/3d.mp4',
@@ -104,19 +104,19 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
       '**100** Teilnehmer Videomeetings [💬](#3)',
       '**30** GB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
-      'Simultanübersetzung [💬](#1)',
+      'Simultandolmetschen [💬](#1)',
     ],
   },
   {
     title: '**Pro** &nbsp 1-99 Benutzer',
-    price: '**$20** /Monat/Benutzer, jährlich abgerechnet',
-    details: 'oder $25 monatlich abgerechnet',
+    price: '**20€** /Monat/Benutzer, jährlich abgerechnet',
+    details: 'oder 25€ monatlich abgerechnet',
     items: [
       '**unbegrenzte** Meetings',
       '**150** Teilnehmer Videomeetings [💬](#3)',
       '**2** TB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
-      'Simultanübersetzung [💬](#1)',
+      'Simultandolmetschen [💬](#1)',
     ],
   },
   {
@@ -128,7 +128,7 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
       '**500** Teilnehmer Videomeetings [💬](#3)',
       '**5** TB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
-      'Simultanübersetzung [💬](#1)',
+      'Simultandolmetschen [💬](#1)',
       '**Datenschutzzonen** [💬](#4)',
     ],
   }
@@ -138,11 +138,15 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
 <ContactFormModalNav buttonText="Sprechen Sie mit unserem Team" buttonClass="alt"/>
 </PricingPlans>
 
+> [!warning] 🛑 Entweder Sie sprechen jede Sprache — oder jemand anderes schließt Ihre Geschäfte ab.
+
 <span id="Testimonials"></span>
 
 ## Was unsere Kunden sagen
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
+
+> [!note] ✅ Ihre Zeit ist besser damit verbracht, Ihr Handwerk zu meistern — nicht Grammatik auswendig zu lernen.
 
 <span id="FAQ"></span>
 

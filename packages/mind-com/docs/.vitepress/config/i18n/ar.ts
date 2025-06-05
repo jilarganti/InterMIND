@@ -3,7 +3,8 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description: "ترجمة فورية للصوت في مكالمات الفيديو. تحدث بلغتك وافهم الجميع — فورياً وبشكل طبيعي، بدون ترجمات نصية أو تأخير.",
+  description:
+    "يضيف InterMIND الترجمة الفورية للكلام إلى كل مكالمة فيديو، حتى لا تفقد الفرق الدولية أبداً الصفقات أو الوقت أو الوضوح بسبب حواجز اللغة.",
   head: [["meta", { property: "og:title", content: "مكالمات فيديو مدعومة بالترجمة الفورية | InterMIND" }]],
 
   themeConfig: {
@@ -55,7 +56,7 @@ export const ar = defineConfig({
       phone: "موقع الشركة *",
       phonePlaceholder: "مثال: https://mind.com",
       phoneError: "يرجى إدخال رقم الهاتف",
-      category: "أخبرنا كيف يمكننا المساعدة *",
+      category: "يرجى إخبارنا كيف يمكننا المساعدة *",
       categoryPlaceholder: "اختر نوع الخدمة",
       message: "دعنا نناقش أهدافك (اختياري)",
       messagePlaceholder: "يرجى تقديم أي تفاصيل إضافية (اختياري)",
@@ -66,7 +67,7 @@ export const ar = defineConfig({
       defaultCategories: [
         "مهتم بالترجمة الفورية للصوت",
         "مهتم بمساعد الاجتماعات الذكي",
-        "مهتم بخصوصية البيانات والتحكم حسب المنطقة",
+        "مهتم بالخصوصية والتحكم في البيانات حسب المنطقة",
         "أخرى / غير مدرجة",
       ],
 
@@ -83,6 +84,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "ما هو InterMIND؟", link: "overview/what-is-intermind" },
         { text: "كيف يعمل", link: "overview/how-it-works" },
+        { text: "منصة اجتماعات الفيديو", link: "overview/video-meeting-platform" },
         { text: "خصوصية البيانات الإقليمية", link: "overview/privacy-architecture" },
         { text: "الأسواق ذات الأولوية", link: "overview/markets" },
       ],

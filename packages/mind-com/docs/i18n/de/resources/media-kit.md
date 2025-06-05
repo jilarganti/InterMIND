@@ -8,11 +8,13 @@ Zum Bearbeiten und Herunterladen klicken Sie mit der rechten Maustaste und wähl
 
 ### Title
 
-Live-Sprachübersetzung für globale Teams — **keine** Verzögerungen, **keine** verlorenen Deals, **keine** Sprachbarrieren.
+- Echtzeit-Sprachübersetzung in Videoanrufen.
+- Live-Sprachübersetzung in Videoanrufen — **keine** Verzögerungen, **keine** verlorenen Geschäfte, **keine** Sprachbarrieren.
 
 ### Description
 
-Echtzeit-Dolmetschen für Videoanrufe. Sprechen Sie Ihre Sprache, verstehen Sie jeden — sofort, natürlich, ohne Untertitel oder Verzögerungen.
+- Live-Sprachübersetzung in Videoanrufen für **internationale Teams**, bei denen Sprachbarrieren zu **Verzögerungen, verlorenen Geschäften oder kostspieligen Missverständnissen** führen.
+- InterMIND fügt jedem Videoanruf Echtzeit-Sprachübersetzung hinzu, sodass internationale Teams niemals Geschäfte, Zeit oder Klarheit durch Sprachbarrieren verlieren.
 
 ## Logo
 

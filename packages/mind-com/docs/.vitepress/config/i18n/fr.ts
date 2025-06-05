@@ -3,7 +3,8 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/fr"
 
 export const fr = defineConfig({
-  description: "Interprétation vocale en temps réel pour les appels vidéo. Parlez votre langue, comprenez tout le monde — instantanément, naturellement, sans sous-titres ni délais.",
+  description:
+    "InterMIND ajoute la traduction vocale en temps réel à chaque appel vidéo, permettant aux équipes internationales de ne jamais perdre d'opportunités, de temps ou de clarté à cause des barrières linguistiques.",
   head: [["meta", { property: "og:title", content: "Appels vidéo alimentés par l'interprétation simultanée | InterMIND" }]],
 
   themeConfig: {
@@ -83,7 +84,8 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Qu'est-ce qu'InterMIND ?", link: "overview/what-is-intermind" },
         { text: "Comment ça marche", link: "overview/how-it-works" },
-        { text: "Confidentialité des données régionales", link: "overview/privacy-architecture" },
+        { text: "Plateforme de réunion vidéo", link: "overview/video-meeting-platform" },
+        { text: "Confidentialité régionale des données", link: "overview/privacy-architecture" },
         { text: "Marchés prioritaires", link: "overview/markets" },
       ],
     },

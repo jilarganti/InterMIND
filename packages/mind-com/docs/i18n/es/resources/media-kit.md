@@ -8,11 +8,13 @@ Para editar y descargar, haz clic derecho y selecciona Editar imagen
 
 ### Title
 
-Traducción simultánea de voz para equipos globales — **sin** retrasos, **sin** pérdida de negocios, **sin** barreras lingüísticas.
+- Traducción simultánea de voz en videollamadas.
+- Traducción de voz en directo en videollamadas — **sin** retrasos, **sin** pérdida de negocios, **sin** barreras lingüísticas.
 
 ### Description
 
-Interpretación de voz en tiempo real para videollamadas. Hable en su idioma, entienda a todos — de forma instantánea, natural, sin subtítulos ni retrasos.
+- Traducción de voz en directo en videollamadas para **equipos internacionales** donde las barreras lingüísticas causan **retrasos, pérdida de negocios o malentendidos costosos**.
+- InterMIND añade traducción de voz en tiempo real a cada videollamada, para que los equipos internacionales nunca pierdan negocios, tiempo o claridad debido a las barreras del idioma.
 
 ## Logotipo
 

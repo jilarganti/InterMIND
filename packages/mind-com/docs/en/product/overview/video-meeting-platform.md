@@ -1,5 +1,12 @@
 # InterMind Video Meeting Platform
 
+<video  autoplay muted playsinline style="margin-top: 24px" class="light-only">
+  <source src="/-3d.mp4" type="video/mp4">
+</video>
+<video  autoplay muted playsinline style="margin-top: 24px" class="dark-only">
+  <source src="/-3l.mp4" type="video/mp4">
+</video>
+
 ## Built for Serious Meetings — Not Just Talking
 
 InterMind is not just another plugin or lightweight tool — it's a full-featured, enterprise-grade video meeting platform designed for professional communication, high-stakes collaboration, and global-scale operations. Here's what makes it different:

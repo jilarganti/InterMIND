@@ -1,16 +1,16 @@
 ---
 layout: home
-title: "Traducción simultánea de voz en videollamadas"
+title: "Traducción simultánea de voz para videollamadas"
 isHome: true
 ---
 
 <!-- title: "Videollamadas potenciadas por interpretación simultánea" -->
 <!-- text="Habla en tu idioma nativo. Escucha a todos los demás — como si también lo hablaran." -->
-<!-- title="Traducción de voz en vivo en videollamadas" -->
+<!-- title="Traducción de voz en tiempo real en videollamadas" -->
 
 <HeroSection
   title="Reúnete en **Cualquier** Idioma"
-  text="Traducción de voz en vivo para equipos globales — **sin** retrasos, **sin** pérdida de negocios, **sin** barreras lingüísticas.">
+  text="Traducción de voz en tiempo real en videollamadas — **sin** retrasos, **sin** negocios perdidos, **sin** barreras lingüísticas.">
 
   <!-- <AuthButton text="Escucha la diferencia" buttonClass="brand"/> -->
   <AuthButton text="Pruébalo en tu idioma" buttonClass="brand"/>
@@ -22,7 +22,7 @@ isHome: true
   details: 'Sin importar el idioma, **tu voz es escuchada — y comprendida** — como si compartieran la misma lengua.',
     items: [
       '⚡︎ De forma natural, en [tiempo real](./product/overview/how-it-works), y sin subtítulos ni retrasos.',
-      '✧ La interpretación potenciada por IA captura el tono, la intención y la terminología específica de la industria.',
+      '✧ Interpretación potenciada por IA que captura el tono, la intención y la terminología específica de la industria.',
     ],
   link: './product/overview/what-is-intermind',
   src: {
@@ -37,7 +37,7 @@ isHome: true
     title: 'La Mente Dentro de Tus Reuniones',
     details: 'InterMind convierte cada llamada multilingüe en conocimiento claro y consultable.',
     items: [
-      '🔍 **Pregunta cualquier cosa** — La IA encuentra respuestas **en todas tus reuniones**.',
+      '🔍 **Pregunta cualquier cosa** — la IA encuentra respuestas **en todas tus reuniones**.',
       '✧ Extrae automáticamente tareas, responsables y fechas límite.',
       '✧ Resume los puntos clave en cualquier idioma — instantáneamente.',
     ],
@@ -56,7 +56,7 @@ isHome: true
     items: [
       '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat entre participantes e integración con calendario — todo incluido, listo para usar.',
     ],
-    link: './product/overview/how-it-works',
+    link: './product/overview/video-meeting-platform',
     src: {
       light: '/3l.mp4',
       dark: '/3d.mp4',
@@ -71,7 +71,7 @@ isHome: true
     details:
       'InterMind está diseñado para conversaciones que requieren confianza — donde la privacidad y el control son fundamentales.',
     items: [
-      '⚡︎ [Zonas de Privacidad](./product/overview/privacy-architecture) — UE, EE. UU., SE Asia',
+      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — UE, EE.UU., SE Asia',
       '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
     ],
     link: './product/overview/privacy-architecture',
@@ -138,11 +138,15 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 <ContactFormModalNav buttonText="Habla con nuestro equipo" buttonClass="alt"/>
 </PricingPlans>
 
+> [!warning] 🛑 O hablas todos los idiomas — o alguien más cierra tus negocios.
+
 <span id="Testimonials"></span>
 
 ## Lo Que Dicen Nuestros Clientes
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
+
+> [!note] ✅ Tu tiempo es mejor invertido dominando tu oficio — no memorizando gramática.
 
 <span id="FAQ"></span>
 
@@ -179,7 +183,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     a: 'El soporte está disponible a través de nuestro **centro de ayuda**, **correo electrónico** y **chat en vivo**. Los usuarios de *Business* obtienen **soporte prioritario** con un contacto dedicado.'
   },
   {
-    q: '¿Cómo gestiono mi suscripción (actualizar, reducir o cancelar)?',
+    q: '¿Cómo gestiono mi suscripción (actualizar, degradar o cancelar)?',
     a: 'Puedes cambiar tu plan en cualquier momento a través de la **configuración de tu cuenta**. Los cambios surten efecto **inmediatamente**. Para cancelaciones, los *planes mensuales* se cancelan al final del ciclo de facturación. Los *planes anuales* se pueden cancelar con un **reembolso prorrateado**.'
   },
   {
