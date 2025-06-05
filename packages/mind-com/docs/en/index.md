@@ -56,7 +56,7 @@ isHome: true
     items: [
       '✧ 1080p resolution, smart noise suppression, scheduling, moderation, screen sharing, recording, subtitling, participant chat and calendar integration — all built in, ready to go.',
     ],
-    link: './product/overview/how-it-works',
+    link: './product/overview/video-meeting-platform',
     src: {
       light: '/3l.mp4',
       dark: '/3d.mp4',
@@ -85,10 +85,6 @@ isHome: true
 
 > [!tip] Who is this for?  
 > Built for **international teams** where language barriers cause **delays**, **lost deals**, or **costly misunderstandings**. [Learn more ...](./product/overview/markets)
-
-> [!note] ✅ Your time is better spent mastering your craft — not memorizing grammar.
-
-> [!warning] 🛑 Either you speak every language — or someone else closes your deals.
 
 <br>
 
@@ -142,11 +138,15 @@ From first call to fluent conversations — at any scale.
 <ContactFormModalNav buttonText="Talk to our team" buttonClass="alt"/>
 </PricingPlans>
 
+> [!warning] 🛑 Either you speak every language — or someone else closes your deals.
+
 <span id="Testimonials"></span>
 
 ## What Customers Are Saying
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
+
+> [!note] ✅ Your time is better spent mastering your craft — not memorizing grammar.
 
 <span id="FAQ"></span>
 
