@@ -16,22 +16,17 @@ isHome: true
   <AuthButton text="Essayez dans votre langue" buttonClass="brand"/>
 </HeroSection>
 
-> **Pour qui est-ce ?**  
-> Conçu pour les **équipes internationales** où les barrières linguistiques causent des **retards**, des **opportunités manquées** ou des **malentendus coûteux**. [En savoir plus ...](./product/overview/markets)
-
-<br>
-
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Traduction ≠ Compréhension. Voici la suite.',
   details: 'Quelle que soit la langue, **votre voix est entendue — et comprise** — comme si vous parliez la même langue.',
     items: [
-      '⚡︎ Naturellement, en [temps réel](./product/overview/how-it-works), sans sous-titres ni décalage.',
+      '⚡︎ Naturellement, en [temps réel](./product/overview/how-it-works), sans sous-titres ni latence.',
       '✧ L\'interprétation alimentée par l\'IA capture le ton, l\'intention et la terminologie spécifique à l\'industrie.',
     ],
   link: './product/overview/what-is-intermind',
   src: {
-    light: '/media-kit/animals-3-2.png',
+    light: '/media-kit/animals-cartoon-3-2.png',
     dark: '/media-kit/animals-cartoon-3-2.png',
   },
   inversion: false
@@ -56,8 +51,8 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Conçu pour les Réunions Professionnelles — Pas Juste pour Discuter',
-    details: 'InterMind est une **plateforme de réunion vidéo professionnelle**, pas un simple module complémentaire ou plugin.',
+    title: 'Conçu pour les Réunions Professionnelles — Pas Seulement pour Discuter',
+    details: 'InterMind est une **plateforme de réunion vidéo de niveau professionnel**, pas un simple module complémentaire ou plugin.',
     items: [
       '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat entre participants et intégration du calendrier — tout est intégré, prêt à l\'emploi.',
     ],
@@ -72,11 +67,11 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'La Confidentialité Là Où Elle Compte',
+    title: 'Confidentialité Là Où Elle Compte',
     details:
-      'InterMind est conçu pour les conversations critiques — où la confidentialité et le contrôle sont essentiels.',
+      'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle sont essentiels.',
     items: [
-      '⚡︎ [Zones de Confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
+      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
       '✧ **Zéro entraînement de données**. Aucun accès tiers.'
     ],
     link: './product/overview/privacy-architecture',
@@ -87,6 +82,11 @@ isHome: true
     inversion: true
   }"
 />
+
+> [!tip] Pour qui est-ce ?  
+> Conçu pour les **équipes internationales** où les barrières linguistiques causent des **retards**, des **opportunités manquées** ou des **malentendus coûteux**. [En savoir plus ...](./product/overview/markets)
+
+<br>
 
 <span id="Pricing"></span>
 
@@ -110,7 +110,7 @@ Du premier appel aux conversations fluides — à toute échelle.
   {
     title: '**Pro** &nbsp 1-99 utilisateurs',
     price: '**20€** /mois/utilisateur, facturation annuelle',
-    details: 'ou 25€ par mois',
+    details: 'ou 25€ facturation mensuelle',
     items: [
       'Réunions **illimitées**',
       '**150** participants en réunion vidéo [💬](#3)',

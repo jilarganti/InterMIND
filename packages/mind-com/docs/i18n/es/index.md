@@ -16,22 +16,17 @@ isHome: true
   <AuthButton text="Pruébalo en tu idioma" buttonClass="brand"/>
 </HeroSection>
 
-> **¿Para quién es esto?**  
-> Diseñado para **equipos internacionales** donde las barreras lingüísticas causan **retrasos**, **pérdida de negocios** o **malentendidos costosos**. [Más información ...](./product/overview/markets)
-
-<br>
-
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Traducción ≠ Comprensión. Esto es lo siguiente.',
   details: 'Sin importar el idioma, **tu voz es escuchada — y comprendida** — como si compartieran la misma lengua.',
     items: [
       '⚡︎ De forma natural, en [tiempo real](./product/overview/how-it-works), y sin subtítulos ni retrasos.',
-      '✧ Interpretación potenciada por IA que capta el tono, la intención y la terminología específica de la industria.',
+      '✧ La interpretación potenciada por IA captura el tono, la intención y la terminología específica de la industria.',
     ],
   link: './product/overview/what-is-intermind',
   src: {
-    light: '/media-kit/animals-3-2.png',
+    light: '/media-kit/animals-cartoon-3-2.png',
     dark: '/media-kit/animals-cartoon-3-2.png',
   },
   inversion: false
@@ -42,7 +37,7 @@ isHome: true
     title: 'La Mente Dentro de Tus Reuniones',
     details: 'InterMind convierte cada llamada multilingüe en conocimiento claro y consultable.',
     items: [
-      '🔍 **Pregunta cualquier cosa** — la IA encuentra respuestas **en todas tus reuniones**.',
+      '🔍 **Pregunta cualquier cosa** — La IA encuentra respuestas **en todas tus reuniones**.',
       '✧ Extrae automáticamente tareas, responsables y fechas límite.',
       '✧ Resume los puntos clave en cualquier idioma — instantáneamente.',
     ],
@@ -76,7 +71,7 @@ isHome: true
     details:
       'InterMind está diseñado para conversaciones que requieren confianza — donde la privacidad y el control son fundamentales.',
     items: [
-      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — UE, EE. UU., SE Asia',
+      '⚡︎ [Zonas de Privacidad](./product/overview/privacy-architecture) — UE, EE. UU., SE Asia',
       '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
     ],
     link: './product/overview/privacy-architecture',
@@ -87,6 +82,11 @@ isHome: true
     inversion: true
   }"
 />
+
+> [!tip] ¿Para quién es esto?  
+> Diseñado para **equipos internacionales** donde las barreras lingüísticas causan **retrasos**, **pérdida de negocios** o **malentendidos costosos**. [Más información ...](./product/overview/markets)
+
+<br>
 
 <span id="Pricing"></span>
 

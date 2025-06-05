@@ -2,7 +2,7 @@
 
 مرحباً! هذه مجموعة من موارد التسويق وإرشادات الهوية الخاصة بـ InterMIND، بما في ذلك شعارنا ومحتوانا وعلاماتنا التجارية.
 
-للتعديل والتحميل، انقر بزر الماوس الأيمن واختر تحرير الصورة
+للتعديل والتحميل، انقر بزر الماوس الأيمن واختر تعديل الصورة
 
 ## Metadata
 
@@ -17,11 +17,7 @@
 ## الشعار
 
 <br>
-<img src="/media-kit/logo.png" class="transparency-grid" alt="شعار" width="500" >
-<br>
-<img src="/media-kit/logo-3-2.png" class="transparency-grid" alt="شعار" width="500" >
-<br>
-<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="شعار" width="500" >
+<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="شعار" width="300" >
 
 ## أيقونة الموقع
 
@@ -42,20 +38,20 @@ dark: #b16b2a
 
 ### الترجمة الفورية
 
-<img src="/media-kit/animals-cartoon-3-2.png" alt="الترجمة الفورية" width="500" > <br>
-<img src="/media-kit/animals-cartoon-1-1.png" alt="الترجمة الفورية" width="500" > <br>
-<img src="/media-kit/animals-3-2.png" alt="الترجمة الفورية" width="500" > <br>
-<img src="/media-kit/animals-1-1.png" alt="الترجمة الفورية" width="500" > <br>
-
-<img src="/media-kit/1.png" alt="الترجمة الفورية" width="500" > <br>
-<img src="/media-kit/2.png" alt="الترجمة الفورية" width="500" > <br>
-<img src="/media-kit/5.png" alt="الترجمة الفورية" width="500" > <br>
-<img src="/media-kit/6.png" alt="الترجمة الفورية" width="500" > <br>
+<ImageGrid :images="[
+  { src: '/media-kit/animals-cartoon-3-2.png', alt: 'الترجمة الفورية' },
+  { src: '/media-kit/animals-cartoon-1-1.png', alt: 'الترجمة الفورية' },
+  { src: '/media-kit/5.png', alt: 'الترجمة الفورية' },
+  { src: '/media-kit/6.png', alt: 'الترجمة الفورية' },
+  { src: '/media-kit/animals-5-4.png', alt: 'الترجمة الفورية' },
+]"/>
 
 ### البحث في جميع اجتماعاتك
 
-<img src="/2d.png" alt="البحث في جميع اجتماعاتك" width="500" > <br>
-<img src="/2l.png" alt="البحث في جميع اجتماعاتك" width="500" > <br>
+<ImageGrid :images="[
+  { src: '/2d.png', alt: 'الترجمة الفورية' },
+  { src: '/2l.png', alt: 'الترجمة الفورية' },
+]"/>
 
 <style>
 

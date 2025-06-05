@@ -16,7 +16,9 @@ const OAUTH_PROVIDER_URL = "https://id.intermind.com/realms/vca"
 const APP_BASE_URL = "https://intermind.com"
 const OAUTH_CLIENT_ID = "vca"
 
-const isProduction = process.env.VERCEL_ENV === "production"
+// const isProduction = process.env.VERCEL_ENV === "production"
+const isProduction = !!process.env.PROD
+
 const vercelUrl = process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL
 const baseUrl = vercelUrl ? `https://${vercelUrl}` : "http://localhost:3000"
 
@@ -98,11 +100,11 @@ export const shared = defineConfig({
       },
     },
     plugins: [
-      // isProduction &&
-      llmstxt({
-        workDir: "en",
-        ignoreFiles: ["index.md"],
-      }),
+      isProduction &&
+        llmstxt({
+          workDir: "en",
+          ignoreFiles: ["index.md"],
+        }),
     ],
   },
   sitemap: {

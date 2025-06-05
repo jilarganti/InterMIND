@@ -17,11 +17,7 @@ Interpretación de voz en tiempo real para videollamadas. Hable en su idioma, en
 ## Logotipo
 
 <br>
-<img src="/media-kit/logo.png" class="transparency-grid" alt="logotipo" width="500" >
-<br>
-<img src="/media-kit/logo-3-2.png" class="transparency-grid" alt="logotipo" width="500" >
-<br>
-<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="logotipo" width="500" >
+<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="logotipo" width="300" >
 
 ## Favicon
 
@@ -42,20 +38,20 @@ dark: #b16b2a
 
 ### Interpretación simultánea
 
-<img src="/media-kit/animals-cartoon-3-2.png" alt="Interpretación simultánea" width="500" > <br>
-<img src="/media-kit/animals-cartoon-1-1.png" alt="Interpretación simultánea" width="500" > <br>
-<img src="/media-kit/animals-3-2.png" alt="Interpretación simultánea" width="500" > <br>
-<img src="/media-kit/animals-1-1.png" alt="Interpretación simultánea" width="500" > <br>
-
-<img src="/media-kit/1.png" alt="Interpretación simultánea" width="500" > <br>
-<img src="/media-kit/2.png" alt="Interpretación simultánea" width="500" > <br>
-<img src="/media-kit/5.png" alt="Interpretación simultánea" width="500" > <br>
-<img src="/media-kit/6.png" alt="Interpretación simultánea" width="500" > <br>
+<ImageGrid :images="[
+  { src: '/media-kit/animals-cartoon-3-2.png', alt: 'Interpretación simultánea' },
+  { src: '/media-kit/animals-cartoon-1-1.png', alt: 'Interpretación simultánea' },
+  { src: '/media-kit/5.png', alt: 'Interpretación simultánea' },
+  { src: '/media-kit/6.png', alt: 'Interpretación simultánea' },
+  { src: '/media-kit/animals-5-4.png', alt: 'Interpretación simultánea' },
+]"/>
 
 ### Busca en todas tus reuniones
 
-<img src="/2d.png" alt="Busca en todas tus reuniones" width="500" > <br>
-<img src="/2l.png" alt="Busca en todas tus reuniones" width="500" > <br>
+<ImageGrid :images="[
+  { src: '/2d.png', alt: 'Interpretación simultánea' },
+  { src: '/2l.png', alt: 'Interpretación simultánea' },
+]"/>
 
 <style>
 

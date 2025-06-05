@@ -9,29 +9,24 @@ isHome: true
 <!-- title="ビデオ通話でのリアルタイム音声翻訳" -->
 
 <HeroSection
-  title="**どんな**言語でも会話可能"
+  title="**どの**言語でも会話可能"
   text="グローバルチームのためのリアルタイム音声翻訳 — **遅延なし**、**商談の失敗なし**、**言語の壁なし**。">
 
   <!-- <AuthButton text="違いを体験する" buttonClass="brand"/> -->
   <AuthButton text="あなたの言語で試す" buttonClass="brand"/>
 </HeroSection>
 
-> **対象者**  
-> **言語の壁**により**遅延**、**商談の失敗**、または**高額な誤解**が発生している**国際チーム**向けに開発されました。[詳細を見る ...](./product/overview/markets)
-
-<br>
-
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: '翻訳 ≠ 理解。次世代の解決策。',
-  details: '言語に関係なく、**あなたの声は聞かれ、理解される** — まるで同じ言語を話しているかのように。',
+  title: '翻訳 ≠ 理解。次世代の通訳システム',
+  details: '言語に関係なく、**あなたの声は同じ言語を話しているかのように聞こえ、理解される**。',
     items: [
       '⚡︎ 自然に、[リアルタイム](./product/overview/how-it-works)で、字幕や遅延なし。',
-      '✧ AIによる通訳が、トーン、意図、業界固有の専門用語を捉えます。',
+      '✧ AIパワード通訳が、トーン、意図、業界固有の専門用語を捉えます。',
     ],
   link: './product/overview/what-is-intermind',
   src: {
-    light: '/media-kit/animals-3-2.png',
+    light: '/media-kit/animals-cartoon-3-2.png',
     dark: '/media-kit/animals-cartoon-3-2.png',
   },
   inversion: false
@@ -44,7 +39,7 @@ isHome: true
     items: [
       '🔍 **何でも質問可能** — AIが**全ミーティングから**答えを見つけます。',
       '✧ タスク、担当者、期限を自動抽出。',
-      '✧ どの言語でも要点を即座に要約。',
+      '✧ どの言語でも即座に要点をまとめます。',
     ],
     link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
     src: {
@@ -59,7 +54,7 @@ isHome: true
     title: '単なる会話ではなく、ビジネスミーティングのために設計',
     details: 'InterMindは**プロフェッショナルグレードのビデオ会議プラットフォーム**であり、軽量なアドオンやプラグインではありません。',
     items: [
-      '✧ 1080p解像度、スマートノイズ抑制、スケジューリング、モデレーション、画面共有、録画、字幕、参加者チャット、カレンダー連携 — すべて組み込み済みですぐに使用可能。',
+      '✧ 1080p解像度、スマートノイズ抑制、スケジューリング、モデレーション、画面共有、録画、字幕、参加者チャット、カレンダー連携 — すべてが組み込まれ、すぐに使用可能。',
     ],
     link: './product/overview/how-it-works',
     src: {
@@ -76,7 +71,7 @@ isHome: true
     details:
       'InterMindは信頼性が重要な会話のために設計されています — プライバシーとコントロールが最も重要な場面で。',
     items: [
-      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — EU、US、東南アジア',
+      '⚡︎ [プライバシーゾーン](./product/overview/privacy-architecture) — EU、US、東南アジア',
       '✧ **データトレーニングなし**。第三者アクセスなし。'
     ],
     link: './product/overview/privacy-architecture',
@@ -87,6 +82,11 @@ isHome: true
     inversion: true
   }"
 />
+
+> [!tip] 対象ユーザー  
+> **言語の壁**により**遅延**、**商談の失敗**、または**高額な誤解**が発生する**国際チーム**向けに設計。[詳細はこちら...](./product/overview/markets)
+
+<br>
 
 <span id="Pricing"></span>
 
@@ -187,7 +187,7 @@ isHome: true
     a: 'リアルタイム通訳で**100以上の言語**をサポートしています。言語リストは継続的に拡大中で、最新情報はウェブサイトでご確認いただけます。'
   },
   {
-    q: 'ウェビナーや大規模イベントにInterMindを使用できますか？',
+    q: 'InterMindをウェビナーや大規模イベントに使用できますか？',
     a: 'はい。*Pro*と*Business*プランは**大規模会議やウェビナー**に最適で、*Business*プランでは最大**500人の参加者**をサポートします。'
   }
 ]

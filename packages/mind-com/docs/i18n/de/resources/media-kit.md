@@ -17,11 +17,7 @@ Echtzeit-Dolmetschen für Videoanrufe. Sprechen Sie Ihre Sprache, verstehen Sie 
 ## Logo
 
 <br>
-<img src="/media-kit/logo.png" class="transparency-grid" alt="Logo" width="500" >
-<br>
-<img src="/media-kit/logo-3-2.png" class="transparency-grid" alt="Logo" width="500" >
-<br>
-<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="Logo" width="500" >
+<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="Logo" width="300" >
 
 ## Favicon
 
@@ -42,20 +38,20 @@ dark: #b16b2a
 
 ### Simultandolmetschen
 
-<img src="/media-kit/animals-cartoon-3-2.png" alt="Simultandolmetschen" width="500" > <br>
-<img src="/media-kit/animals-cartoon-1-1.png" alt="Simultandolmetschen" width="500" > <br>
-<img src="/media-kit/animals-3-2.png" alt="Simultandolmetschen" width="500" > <br>
-<img src="/media-kit/animals-1-1.png" alt="Simultandolmetschen" width="500" > <br>
-
-<img src="/media-kit/1.png" alt="Simultandolmetschen" width="500" > <br>
-<img src="/media-kit/2.png" alt="Simultandolmetschen" width="500" > <br>
-<img src="/media-kit/5.png" alt="Simultandolmetschen" width="500" > <br>
-<img src="/media-kit/6.png" alt="Simultandolmetschen" width="500" > <br>
+<ImageGrid :images="[
+  { src: '/media-kit/animals-cartoon-3-2.png', alt: 'Simultandolmetschen' },
+  { src: '/media-kit/animals-cartoon-1-1.png', alt: 'Simultandolmetschen' },
+  { src: '/media-kit/5.png', alt: 'Simultandolmetschen' },
+  { src: '/media-kit/6.png', alt: 'Simultandolmetschen' },
+  { src: '/media-kit/animals-5-4.png', alt: 'Simultandolmetschen' },
+]"/>
 
 ### Durchsuchen Sie alle Ihre Meetings
 
-<img src="/2d.png" alt="Durchsuchen Sie alle Ihre Meetings" width="500" > <br>
-<img src="/2l.png" alt="Durchsuchen Sie alle Ihre Meetings" width="500" > <br>
+<ImageGrid :images="[
+  { src: '/2d.png', alt: 'Simultandolmetschen' },
+  { src: '/2l.png', alt: 'Simultandolmetschen' },
+]"/>
 
 <style>
 

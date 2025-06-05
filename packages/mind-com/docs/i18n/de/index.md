@@ -5,7 +5,7 @@ isHome: true
 ---
 
 <!-- title: "Videoanrufe mit Simultandolmetschen" -->
-<!-- text="Sprechen Sie in Ihrer Muttersprache. Hören Sie alle anderen – als ob sie diese auch sprechen würden." -->
+<!-- text="Sprechen Sie Ihre Muttersprache. Hören Sie alle anderen — als ob sie diese auch sprechen würden." -->
 <!-- title="Live-Sprachübersetzung in Videoanrufen" -->
 
 <HeroSection
@@ -15,11 +15,6 @@ isHome: true
   <!-- <AuthButton text="Hören Sie den Unterschied" buttonClass="brand"/> -->
   <AuthButton text="Testen Sie es in Ihrer Sprache" buttonClass="brand"/>
 </HeroSection>
-
-> **Für wen ist das?**  
-> Entwickelt für **internationale Teams**, bei denen Sprachbarrieren zu **Verzögerungen**, **verlorenen Geschäften** oder **kostspieligen Missverständnissen** führen. [Mehr erfahren ...](./product/overview/markets)
-
-<br>
 
 <span id="1"></span>
 <FeatureBlock :card="{
@@ -31,7 +26,7 @@ isHome: true
     ],
   link: './product/overview/what-is-intermind',
   src: {
-    light: '/media-kit/animals-3-2.png',
+    light: '/media-kit/animals-cartoon-3-2.png',
     dark: '/media-kit/animals-cartoon-3-2.png',
   },
   inversion: false
@@ -42,7 +37,7 @@ isHome: true
     title: 'Der Verstand in Ihren Meetings',
     details: 'InterMind verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
     items: [
-      '🔍 **Fragen Sie alles** — KI findet Antworten **über alle Ihre Meetings hinweg**.',
+      '🔍 **Fragen Sie alles** — KI findet Antworten **in all Ihren Meetings**.',
       '✧ Extrahiert automatisch Aufgaben, Verantwortliche und Fristen.',
       '✧ Fasst Kernpunkte in jeder Sprache sofort zusammen.',
     ],
@@ -59,7 +54,7 @@ isHome: true
     title: 'Entwickelt für professionelle Meetings — nicht nur zum Plaudern',
     details: 'InterMind ist eine **professionelle Videomeeting-Plattform**, kein einfaches Add-on oder Plugin.',
     items: [
-      '✧ 1080p Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufnahme, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert und sofort einsatzbereit.',
+      '✧ 1080p Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufnahme, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles eingebaut und sofort einsatzbereit.',
     ],
     link: './product/overview/how-it-works',
     src: {
@@ -76,7 +71,7 @@ isHome: true
     details:
       'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Privatsphäre und Kontrolle am wichtigsten sind.',
     items: [
-      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — EU, US, SO-Asien',
+      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — EU, USA, SO-Asien',
       '✧ **Kein Datentraining**. Kein Zugriff durch Dritte.'
     ],
     link: './product/overview/privacy-architecture',
@@ -87,6 +82,11 @@ isHome: true
     inversion: true
   }"
 />
+
+> [!tip] Für wen ist das?  
+> Entwickelt für **internationale Teams**, bei denen Sprachbarrieren zu **Verzögerungen**, **verlorenen Geschäften** oder **kostspieligen Missverständnissen** führen. [Mehr erfahren ...](./product/overview/markets)
+
+<br>
 
 <span id="Pricing"></span>
 
@@ -109,8 +109,8 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
   },
   {
     title: '**Pro** &nbsp 1-99 Benutzer',
-    price: '**20€** /Monat/Benutzer, jährlich abgerechnet',
-    details: 'oder 25€ monatlich abgerechnet',
+    price: '**$20** /Monat/Benutzer, jährlich abgerechnet',
+    details: 'oder $25 monatlich abgerechnet',
     items: [
       '**unbegrenzte** Meetings',
       '**150** Teilnehmer Videomeetings [💬](#3)',

@@ -17,11 +17,7 @@
 ## 标识
 
 <br>
-<img src="/media-kit/logo.png" class="transparency-grid" alt="标识" width="500" >
-<br>
-<img src="/media-kit/logo-3-2.png" class="transparency-grid" alt="标识" width="500" >
-<br>
-<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="标识" width="500" >
+<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="标识" width="300" >
 
 ## 网站图标
 
@@ -42,20 +38,20 @@ dark: #b16b2a
 
 ### 同声传译
 
-<img src="/media-kit/animals-cartoon-3-2.png" alt="同声传译" width="500" > <br>
-<img src="/media-kit/animals-cartoon-1-1.png" alt="同声传译" width="500" > <br>
-<img src="/media-kit/animals-3-2.png" alt="同声传译" width="500" > <br>
-<img src="/media-kit/animals-1-1.png" alt="同声传译" width="500" > <br>
-
-<img src="/media-kit/1.png" alt="同声传译" width="500" > <br>
-<img src="/media-kit/2.png" alt="同声传译" width="500" > <br>
-<img src="/media-kit/5.png" alt="同声传译" width="500" > <br>
-<img src="/media-kit/6.png" alt="同声传译" width="500" > <br>
+<ImageGrid :images="[
+  { src: '/media-kit/animals-cartoon-3-2.png', alt: '同声传译' },
+  { src: '/media-kit/animals-cartoon-1-1.png', alt: '同声传译' },
+  { src: '/media-kit/5.png', alt: '同声传译' },
+  { src: '/media-kit/6.png', alt: '同声传译' },
+  { src: '/media-kit/animals-5-4.png', alt: '同声传译' },
+]"/>
 
 ### 搜索所有会议记录
 
-<img src="/2d.png" alt="搜索所有会议记录" width="500" > <br>
-<img src="/2l.png" alt="搜索所有会议记录" width="500" > <br>
+<ImageGrid :images="[
+  { src: '/2d.png', alt: '同声传译' },
+  { src: '/2l.png', alt: '同声传译' },
+]"/>
 
 <style>
 
