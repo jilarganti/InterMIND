@@ -1,8 +1,8 @@
 # Medienpaket
 
-Hallo! Hier finden Sie eine Sammlung von InterMIND-Marketingressourcen und Identitätsrichtlinien, einschließlich unseres Logos, Inhalts und unserer Markenzeichen.
+Hallo! Hier finden Sie eine Sammlung von InterMIND Marketing-Ressourcen und Identitätsrichtlinien, einschließlich unseres Logos, Inhalte und Markenzeichen.
 
-Zum Bearbeiten und Herunterladen klicken Sie mit der rechten Maustaste und wählen Sie "Bild bearbeiten"
+Zum Bearbeiten und Herunterladen klicken Sie mit der rechten Maustaste und wählen Sie Bild bearbeiten
 
 ## Metadata
 
@@ -14,7 +14,7 @@ Zum Bearbeiten und Herunterladen klicken Sie mit der rechten Maustaste und wähl
 ### Description
 
 - Live-Sprachübersetzung in Videoanrufen für **internationale Teams**, bei denen Sprachbarrieren zu **Verzögerungen, verlorenen Geschäften oder kostspieligen Missverständnissen** führen.
-- InterMIND fügt jedem Videoanruf Echtzeit-Sprachübersetzung hinzu, sodass internationale Teams niemals Geschäfte, Zeit oder Klarheit durch Sprachbarrieren verlieren.
+- InterMIND fügt jedem Videoanruf Echtzeit-Sprachübersetzung hinzu, damit internationale Teams keine Geschäfte, Zeit oder Klarheit durch Sprachbarrieren verlieren.
 
 ## Logo
 

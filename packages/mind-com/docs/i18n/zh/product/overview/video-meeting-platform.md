@@ -1,5 +1,12 @@
 # InterMind 视频会议平台
 
+<video  autoplay muted playsinline style="margin-top: 24px" class="light-only">
+  <source src="/video-meeting-platform-1d.mp4" type="video/mp4">
+</video>
+<video  autoplay muted playsinline style="margin-top: 24px" class="dark-only">
+  <source src="/video-meeting-platform-1l.mp4" type="video/mp4">
+</video>
+
 ## 专为严肃会议设计 — 不仅仅是交谈
 
 InterMind 不仅仅是另一个插件或轻量级工具 — 它是一个功能齐全的企业级视频会议平台，专为专业沟通、高风险协作和全球规模运营而设计。以下是它的与众不同之处：
@@ -41,7 +48,7 @@ InterMind 与 **Google Calendar、Outlook 和 iCal** 无缝集成，便于计划
 
 ### 🖥️ 屏幕共享
 
-轻松与参与者共享整个屏幕、应用程序窗口或浏览器标签 — 无需安装。
+轻松与参与者共享整个屏幕、应用程序窗口或浏览器标签页 — 无需安装。
 
 - 在实时演示期间进行注释。
 - 实时展示电子表格、幻灯片或软件工具。
@@ -49,7 +56,7 @@ InterMind 与 **Google Calendar、Outlook 和 iCal** 无缝集成，便于计划
 
 ### 🎙️ 会议录制
 
-一键录制会议。视频安全保存在云端，会议结束后立即可用。
+一键录制会议。视频安全存储在云端，会议结束后立即可用。
 
 - 与缺席的参与者分享。
 - 用于培训或合规记录。

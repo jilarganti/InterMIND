@@ -1,8 +1,15 @@
 # Plataforma de Videoconferencias InterMind
 
+<video  autoplay muted playsinline style="margin-top: 24px" class="light-only">
+  <source src="/video-meeting-platform-1d.mp4" type="video/mp4">
+</video>
+<video  autoplay muted playsinline style="margin-top: 24px" class="dark-only">
+  <source src="/video-meeting-platform-1l.mp4" type="video/mp4">
+</video>
+
 ## Diseñado para Reuniones Serias — No Solo para Charlar
 
-InterMind no es solo otro complemento o herramienta ligera — es una plataforma de videoconferencias completa de nivel empresarial diseñada para comunicación profesional, colaboración de alto impacto y operaciones a escala global. Esto es lo que la hace diferente:
+InterMind no es solo otro complemento o herramienta ligera — es una plataforma de videoconferencias completa de nivel empresarial diseñada para la comunicación profesional, colaboración de alto impacto y operaciones a escala global. Esto es lo que la hace diferente:
 
 ### 🎥 Video en Alta Definición 1080p
 
@@ -33,7 +40,7 @@ InterMind se integra perfectamente con **Google Calendar, Outlook y iCal**, faci
 Organice con confianza usando **controles de moderación** incorporados:
 
 - Silenciar/activar participantes.
-- Controlar compartición de pantalla y acceso a cámara.
+- Controlar compartir pantalla y acceso a cámara.
 - Asignar coanfitriones o moderadores.
 - Bloquear o proteger reuniones con contraseña.
 
@@ -43,16 +50,16 @@ Perfecto para gestionar reuniones grandes, sesiones de capacitación o briefings
 
 Comparta fácilmente toda su pantalla, ventana de aplicación o pestaña del navegador con los participantes — sin necesidad de instalaciones.
 
-- Realice anotaciones durante presentaciones en vivo.
-- Muestre hojas de cálculo, diapositivas o herramientas de software en tiempo real.
+- Realizar anotaciones durante presentaciones en vivo.
+- Mostrar hojas de cálculo, diapositivas o herramientas de software en tiempo real.
 - Compatible con presentadores multi-pantalla.
 
 ### 🎙️ Grabación de Reuniones
 
 Grabe reuniones con un solo clic. Los videos se guardan de forma segura en la nube y están disponibles inmediatamente después de la sesión.
 
-- Comparta con participantes ausentes.
-- Útil para registros de capacitación o cumplimiento.
+- Compartir con participantes ausentes.
+- Usar para registros de capacitación o cumplimiento.
 - Se puede combinar con transcripción automática.
 
 ### ✏️ Subtítulos en Tiempo Real
@@ -60,7 +67,7 @@ Grabe reuniones con un solo clic. Los videos se guardan de forma segura en la nu
 Para mayor accesibilidad, InterMind proporciona **subtítulos en tiempo real** opcionales en múltiples idiomas, incluso cuando la interpretación de voz en vivo está activa.
 
 - Compatible con usuarios con dificultades auditivas.
-- Ayuda a clarificar discursos técnicos o acentuados.
+- Ayuda a clarificar discursos técnicos o con acento.
 - Sincronizado con la voz del orador en tiempo real.
 
 ### 💬 Chat Durante la Reunión

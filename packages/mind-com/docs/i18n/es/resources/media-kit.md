@@ -1,8 +1,8 @@
 # Kit de Medios
 
-¡Hola! Aquí encontrarás una colección de recursos de marketing y pautas de identidad de InterMIND, incluyendo nuestro logotipo, contenido y marcas registradas.
+¡Hola! Aquí hay una colección de recursos de marketing y pautas de identidad de InterMIND, incluyendo nuestro logo, contenido y marcas registradas.
 
-Para editar y descargar, haz clic derecho y selecciona Editar imagen
+Para editar y descargar, haga clic derecho y seleccione Editar imagen
 
 ## Metadata
 
@@ -14,7 +14,7 @@ Para editar y descargar, haz clic derecho y selecciona Editar imagen
 ### Description
 
 - Traducción de voz en directo en videollamadas para **equipos internacionales** donde las barreras lingüísticas causan **retrasos, pérdida de negocios o malentendidos costosos**.
-- InterMIND añade traducción de voz en tiempo real a cada videollamada, para que los equipos internacionales nunca pierdan negocios, tiempo o claridad debido a las barreras del idioma.
+- InterMIND añade traducción de voz en tiempo real a cada videollamada, para que los equipos internacionales nunca pierdan negocios, tiempo o claridad debido a las barreras lingüísticas.
 
 ## Logotipo
 

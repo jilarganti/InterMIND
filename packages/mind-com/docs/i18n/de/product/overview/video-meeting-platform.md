@@ -1,8 +1,15 @@
 # InterMind Videokonferenz-Plattform
 
+<video  autoplay muted playsinline style="margin-top: 24px" class="light-only">
+  <source src="/video-meeting-platform-1d.mp4" type="video/mp4">
+</video>
+<video  autoplay muted playsinline style="margin-top: 24px" class="dark-only">
+  <source src="/video-meeting-platform-1l.mp4" type="video/mp4">
+</video>
+
 ## Entwickelt für Seriöse Meetings — Nicht Nur zum Plaudern
 
-InterMind ist nicht nur ein weiteres Plugin oder leichtgewichtiges Tool — es ist eine vollwertige, unternehmenstaugliche Video-Meeting-Plattform, die für professionelle Kommunikation, wichtige Zusammenarbeit und globale Operationen entwickelt wurde. Hier ist, was es besonders macht:
+InterMind ist nicht nur ein weiteres Plugin oder leichtgewichtiges Tool — es ist eine vollwertige, unternehmenstaugliche Video-Meeting-Plattform, entwickelt für professionelle Kommunikation, wichtige Zusammenarbeit und Operationen im globalen Maßstab. Hier ist, was es besonders macht:
 
 ### 🎥 1080p High-Definition Video
 
@@ -22,17 +29,17 @@ Unsere KI-gesteuerte Geräuschunterdrückung filtert Hintergrundgeräusche — T
 
 ### 📅 Erweiterte Meeting-Planung
 
-InterMind integriert sich nahtlos mit **Google Calendar, Outlook und iCal** und macht es einfach, Meetings zu planen, Teilnehmer einzuladen und zu erinnern.
+InterMind integriert sich nahtlos mit **Google Calendar, Outlook und iCal** und macht es einfach, Teilnehmer zu planen, einzuladen und zu erinnern.
 
 - Zeitzonen-bewusste Planung.
 - Beitreten mit einem Klick.
-- Automatische Aktualisierungen bei verschobenen Meetings.
+- Automatische Updates für neu terminierte Meetings.
 
 ### 🧑‍⚖️ Professionelle Moderationstools
 
 Moderieren Sie selbstbewusst mit integrierten **Moderationskontrollen**:
 
-- Teilnehmer stumm schalten/aktivieren.
+- Teilnehmer stumm-/entstummen.
 - Bildschirmfreigabe und Kamerazugriff steuern.
 - Co-Moderatoren zuweisen.
 - Meetings sperren oder mit Passwort schützen.
@@ -59,7 +66,7 @@ Zeichnen Sie Meetings mit einem Klick auf. Videos werden sicher in der Cloud ges
 
 Für zusätzliche Barrierefreiheit bietet InterMind optionale **Echtzeit-Untertitel** in mehreren Sprachen, auch wenn Live-Sprachdolmetschen aktiv ist.
 
-- Unterstützt hörbehinderte Nutzer.
+- Unterstützt hörgeschädigte Nutzer.
 - Hilft bei der Klärung technischer oder akzentuierter Sprache.
 - Synchronisiert mit der Sprecherstimme in Echtzeit.
 
@@ -76,7 +83,7 @@ Teilnehmer können **Textnachrichten**, Links oder private Notizen senden, ohne 
 Meetings, Aufzeichnungen und anstehende Sitzungen werden automatisch protokolliert und mit Ihrem Kalender synchronisiert.
 
 - Erhalten Sie Erinnerungen vor wichtigen Meetings.
-- Einfache Nachverfolgung wer sich wann getroffen hat — und warum.
+- Einfache Nachverfolgung wer sich wann traf — und warum.
 - Unterstützt wiederkehrende Meetings und Agenda-Anhänge.
 
 ### ✅ Alles-in-einem, keine Plugins erforderlich

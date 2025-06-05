@@ -1,10 +1,10 @@
 # InterMind Video Meeting Platform
 
 <video  autoplay muted playsinline style="margin-top: 24px" class="light-only">
-  <source src="/-3d.mp4" type="video/mp4">
+  <source src="/video-meeting-platform-1d.mp4" type="video/mp4">
 </video>
 <video  autoplay muted playsinline style="margin-top: 24px" class="dark-only">
-  <source src="/-3l.mp4" type="video/mp4">
+  <source src="/video-meeting-platform-1l.mp4" type="video/mp4">
 </video>
 
 ## Built for Serious Meetings — Not Just Talking

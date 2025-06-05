@@ -14,7 +14,7 @@ Key rules:
 1. Сохраните всю разметку и форматирование markdown, frontmatter, script, css, html, vue. Не изменяйте порядок элементов, ссылки, якоря. Похожие блоки должны быть переведены полностью.
 
 2. DO NOT translate:
-  - technical terms, abbreviations: Golden Fish, Free Zone, Mainland, EID, GCC, LLC, FZ, RAK, IFZA, DED, ESR, CRS, FATCA, AML, KYC, PEP, CDD, EDD, UBO, FZE, FZC, FZCO, FZ-LLC, FZ-Branch, FZ-Subsidiary, FZ-Holding, FZ-Company, We speak your tongue
+  - technical terms, abbreviations: Logo, InterMIND
   - link anchor text
 
 3. Translate:

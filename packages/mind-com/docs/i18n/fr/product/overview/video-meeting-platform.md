@@ -1,8 +1,15 @@
 # Plateforme de Visioconférence InterMind
 
+<video  autoplay muted playsinline style="margin-top: 24px" class="light-only">
+  <source src="/video-meeting-platform-1d.mp4" type="video/mp4">
+</video>
+<video  autoplay muted playsinline style="margin-top: 24px" class="dark-only">
+  <source src="/video-meeting-platform-1l.mp4" type="video/mp4">
+</video>
+
 ## Conçu pour les Réunions Sérieuses — Pas Juste pour Parler
 
-InterMind n\'est pas qu\'un simple plugin ou un outil léger — c\'est une plateforme de visioconférence complète de niveau entreprise, conçue pour la communication professionnelle, la collaboration stratégique et les opérations à l\'échelle mondiale. Voici ce qui la distingue :
+InterMind n\'est pas simplement un autre plugin ou un outil léger — c\'est une plateforme de visioconférence complète de niveau entreprise, conçue pour la communication professionnelle, la collaboration stratégique et les opérations à l\'échelle mondiale. Voici ce qui la rend différente :
 
 ### 🎥 Vidéo Haute Définition 1080p
 
@@ -14,7 +21,7 @@ Toutes les réunions sont diffusées en **Full HD 1080p**, offrant une qualité 
 
 ### 🔇 Suppression Intelligente du Bruit
 
-Notre système de réduction du bruit piloté par l\'IA filtre les sons ambiants — frappe au clavier, circulation, écho ou conversations lointaines — pour ne laisser passer que la voix de l\'orateur.
+Notre système de réduction du bruit piloté par l\'IA filtre les sons de fond — frappe au clavier, circulation, écho ou conversations lointaines — pour ne laisser passer que la voix de l\'orateur.
 
 - Maintient les réunions professionnelles et concentrées.
 - Fonctionne automatiquement sans contrôles manuels.
@@ -37,11 +44,11 @@ Animez en toute confiance grâce aux **contrôles de modération** intégrés :
 - Désigner des co-hôtes ou modérateurs.
 - Verrouiller ou protéger les réunions par mot de passe.
 
-Parfait pour gérer les grandes réunions, les sessions de formation ou les briefings confidentiels.
+Parfait pour gérer les grandes réunions, les sessions de formation ou les briefings sensibles.
 
 ### 🖥️ Partage d\'Écran
 
-Partagez facilement votre écran complet, une fenêtre d\'application ou un onglet de navigateur avec les participants — sans installation nécessaire.
+Partagez facilement votre écran complet, une fenêtre d\'application ou un onglet de navigateur avec les participants — sans installation requise.
 
 - Annotez pendant les présentations en direct.
 - Montrez des feuilles de calcul, des diapositives ou des outils logiciels en temps réel.
@@ -52,7 +59,7 @@ Partagez facilement votre écran complet, une fenêtre d\'application ou un ongl
 Enregistrez les réunions d\'un simple clic. Les vidéos sont sauvegardées de manière sécurisée dans le cloud et disponibles immédiatement après la session.
 
 - Partagez avec les participants absents.
-- Utilisez pour la formation ou les archives de conformité.
+- Utilisez pour la formation ou les enregistrements de conformité.
 - Peut être combiné avec la transcription automatique.
 
 ### ✏️ Sous-titres en Temps Réel
@@ -79,10 +86,10 @@ Les réunions, enregistrements et sessions à venir sont automatiquement enregis
 - Facile de suivre qui s\'est réuni quand — et pourquoi.
 - Prend en charge les réunions récurrentes et les pièces jointes d\'ordre du jour.
 
-### ✅ Tout-en-Un, Sans Plugins Requis
+### ✅ Tout-en-Un, Sans Plugins Nécessaires
 
 Contrairement à de nombreuses solutions qui dépendent d\'extensions tierces, InterMind est **entièrement intégré** et fonctionne immédiatement.
 
 - Pas d\'installations ni d\'extensions de navigateur nécessaires.
 - Expérience unifiée sur web, bureau et mobile.
-- Une plateforme sécurisée unique — conçue pour évoluer.
+- Une plateforme sécurisée unique — conçue pour l\'échelle.
