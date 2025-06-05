@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Live speech translation in video calls"
+title: "Live speech translation for video calls"
 isHome: true
 ---
 
@@ -10,7 +10,7 @@ isHome: true
 
 <HeroSection
   title="Meet in **Any** Language"
-  text="Live speech translation for global teams — **no** delays, **no** lost deals, **no** language barriers.">
+  text="Live speech translation in video calls — **no** delays, **no** lost deals, **no** language barriers.">
 
   <!-- <AuthButton text="Hear the difference" buttonClass="brand"/> -->
   <AuthButton text="Try it in your language" buttonClass="brand"/>
@@ -85,6 +85,10 @@ isHome: true
 
 > [!tip] Who is this for?  
 > Built for **international teams** where language barriers cause **delays**, **lost deals**, or **costly misunderstandings**. [Learn more ...](./product/overview/markets)
+
+> [!note] ✅ Your time is better spent mastering your craft — not memorizing grammar.
+
+> [!warning] 🛑 Either you speak every language — or someone else closes your deals.
 
 <br>
 

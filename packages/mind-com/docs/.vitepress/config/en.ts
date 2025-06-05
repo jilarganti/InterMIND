@@ -3,7 +3,8 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = ""
 
 export const en = defineConfig({
-  description: "Real-time voice interpretation for video calls. Speak your language, understand everyone — instantly, naturally, without subtitles or delays.",
+  description:
+    "InterMIND adds real-time speech translation to every video call, so international teams never lose deals, time, or clarity to language barriers.",
   head: [["meta", { property: "og:title", content: "Video calls powered by simultaneous interpretation | InterMIND" }]],
 
   themeConfig: {

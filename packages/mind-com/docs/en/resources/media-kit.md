@@ -8,11 +8,13 @@ To edit and download, right click and select Edit image
 
 ### Title
 
-Live speech translation for global teams — **no** delays, **no** lost deals, **no** language barriers.
+- Real-time speech translation in video calls.
+- Live speech translation in video calls — **no** delays, **no** lost deals, **no** language barriers.
 
 ### Description
 
-Real-time voice interpretation for video calls. Speak your language, understand everyone — instantly, naturally, without subtitles or delays.
+- Live speech translation in video calls for **international teams** where language barriers cause **delays, lost deals, or costly misunderstandings**.
+- InterMIND adds real-time speech translation to every video call, so international teams never lose deals, time, or clarity to language barriers.
 
 ## Logo
 
