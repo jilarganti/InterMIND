@@ -103,7 +103,7 @@ const renderedItems = computed(() => {
 
     <!-- Контейнер для медиа (изображение или видео) -->
     <div v-if="mediaUrl" class="media-container" :class="mediaClass" @click="handleMediaClick">
-      <video v-if="isVideo" autoplay muted playsinline loop class="media-content" :style="{ width: mediaWidth }">
+      <video v-if="isVideo" autoplay muted playsinline class="media-content" :style="{ width: mediaWidth }">
         <source :src="mediaUrl" :type="`video/${mediaUrl.split('.').pop()}`" />
       </video>
       <img v-else :src="mediaUrl" :alt="altText" class="media-content" :style="{ width: mediaWidth }" />
