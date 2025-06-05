@@ -1,9 +1,7 @@
 <script setup lang="ts">
-// import { defineProps } from "vue"
-
 interface ImageItem {
   src: string
-  href: string
+  href?: string
   alt?: string
 }
 
@@ -16,7 +14,7 @@ const columns = props.images.length
 
 <template>
   <div class="image-grid" :style="{ '--columns': columns }">
-    <a v-for="(image, index) in images" :key="index" :href="image.href" class="image-grid-item">
+    <a v-for="(image, index) in images" :key="index" :href="image.href || '#'" class="image-grid-item">
       <img :src="image.src" :alt="image.alt || 'Image ' + (index + 1)" />
     </a>
   </div>
@@ -27,13 +25,13 @@ const columns = props.images.length
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
   gap: 20px;
+  margin: 24px 0;
 }
 
 .image-grid-item img {
   width: 100%;
   height: auto;
   display: block;
-  margin-bottom: 20px;
 }
 
 /* Адаптивность: на экранах меньше 600px — 1 столбец */

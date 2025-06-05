@@ -38,16 +38,20 @@ dark: #b16b2a
 
 ### Simultaneous interpretation
 
-<img src="/media-kit/animals-cartoon-3-2.png" alt="Simultaneous interpretation" width="500" > <br>
-<img src="/media-kit/animals-cartoon-1-1.png" alt="Simultaneous interpretation" width="500" > <br>
-
-<img src="/media-kit/5.png" alt="Simultaneous interpretation" width="500" > <br>
-<img src="/media-kit/6.png" alt="Simultaneous interpretation" width="500" > <br>
+<ImageGrid :images="[
+  { src: '/media-kit/animals-cartoon-3-2.png', alt: 'Simultaneous interpretation' },
+  { src: '/media-kit/animals-cartoon-1-1.png', alt: 'Simultaneous interpretation' },
+  { src: '/media-kit/5.png', alt: 'Simultaneous interpretation' },
+  { src: '/media-kit/6.png', alt: 'Simultaneous interpretation' },
+  { src: '/media-kit/animals-5-4.png', alt: 'Simultaneous interpretation' },
+]"/>
 
 ### Search across all your meetings
 
-<img src="/2d.png" alt="Search across all your meetings" width="500" > <br>
-<img src="/2l.png" alt="Search across all your meetings" width="500" > <br>
+<ImageGrid :images="[
+  { src: '/2d.png', alt: 'Simultaneous interpretation' },
+  { src: '/2l.png', alt: 'Simultaneous interpretation' },
+]"/>
 
 <style>
 
