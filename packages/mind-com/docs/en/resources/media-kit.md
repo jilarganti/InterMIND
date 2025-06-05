@@ -17,11 +17,7 @@ Real-time voice interpretation for video calls. Speak your language, understand 
 ## Logo
 
 <br>
-<img src="/media-kit/logo.png" class="transparency-grid" alt="logo" width="500" >
-<br>
-<img src="/media-kit/logo-3-2.png" class="transparency-grid" alt="logo" width="500" >
-<br>
-<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="logo" width="500" >
+<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="logo" width="300" >
 
 ## Favicon
 
@@ -44,11 +40,7 @@ dark: #b16b2a
 
 <img src="/media-kit/animals-cartoon-3-2.png" alt="Simultaneous interpretation" width="500" > <br>
 <img src="/media-kit/animals-cartoon-1-1.png" alt="Simultaneous interpretation" width="500" > <br>
-<img src="/media-kit/animals-3-2.png" alt="Simultaneous interpretation" width="500" > <br>
-<img src="/media-kit/animals-1-1.png" alt="Simultaneous interpretation" width="500" > <br>
 
-<img src="/media-kit/1.png" alt="Simultaneous interpretation" width="500" > <br>
-<img src="/media-kit/2.png" alt="Simultaneous interpretation" width="500" > <br>
 <img src="/media-kit/5.png" alt="Simultaneous interpretation" width="500" > <br>
 <img src="/media-kit/6.png" alt="Simultaneous interpretation" width="500" > <br>
 

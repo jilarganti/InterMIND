@@ -26,7 +26,7 @@ isHome: true
     ],
   link: './product/overview/what-is-intermind',
   src: {
-    light: '/media-kit/animals-3-2.png',
+    light: '/media-kit/animals-cartoon-3-2.png',
     dark: '/media-kit/animals-cartoon-3-2.png',
   },
   inversion: false
