@@ -15,6 +15,7 @@ import PricingPlans from "./PricingPlans.vue"
 import AccordionGroup from "./AccordionGroup.vue"
 import AutoScrollTestimonials from "./AutoScrollTestimonials.vue"
 import ImageGrid from "./ImageGrid.vue"
+import TeamMembersGrid from "./TeamMembersGrid.vue"
 
 interface Components {
   [key: string]: Component
@@ -36,4 +37,5 @@ export const components: Components = {
   AccordionGroup,
   AutoScrollTestimonials,
   ImageGrid,
+  TeamMembersGrid,
 }

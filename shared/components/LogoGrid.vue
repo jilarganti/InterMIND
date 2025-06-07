@@ -1,14 +1,3 @@
-<!-- components/LogoGrid.vue -->
-<template>
-  <div class="logo-grid">
-    <a v-for="logo in logos" :key="logo.src" :href="logo.url" target="_blank" rel="noopener noreferrer" class="logo-link">
-      <div class="logo-wrapper">
-        <img :src="withBase(logo.src)" :alt="getAltText(logo.src)" class="logo" />
-      </div>
-    </a>
-  </div>
-</template>
-
 <script setup lang="ts">
 import { withBase } from "vitepress"
 
@@ -25,6 +14,16 @@ function getAltText(src: string) {
   return src.split("/").pop()?.split(".")[0] || "logo"
 }
 </script>
+
+<template>
+  <div class="logo-grid">
+    <a v-for="logo in logos" :key="logo.src" :href="logo.url" target="_blank" rel="noopener noreferrer" class="logo-link">
+      <div class="logo-wrapper">
+        <img :src="withBase(logo.src)" :alt="getAltText(logo.src)" class="logo" />
+      </div>
+    </a>
+  </div>
+</template>
 
 <style scoped>
 .logo-grid {
