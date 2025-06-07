@@ -6,15 +6,16 @@ import "./style.css"
 import { components } from "shared"
 import sharedTheme from "shared"
 import AuthButton from "../components/AuthButton.vue"
+import { Icon } from "@iconify/vue"
+import { inject } from "@vercel/analytics"
+import { injectSpeedInsights } from "@vercel/speed-insights"
 
 const { SearchInput } = components
 
-// Расширяем тему из shared и регистрируем компоненты
+// Добавляем элементы в макет
 export default {
   ...sharedTheme,
   Layout() {
-    // const { site } = useData()
-    // const buttonLabel = useData().site.value.themeConfig.localization.buttonLabel4AuthButton
     return h(DefaultTheme.Layout, null, {
       // "nav-bar-content-before": () => {
       //   return h(SearchInput)
@@ -22,17 +23,26 @@ export default {
       "nav-bar-content-after": () =>
         h("div", { class: "auth-buttons-container" }, [
           h(AuthButton, { text: useData().site.value.themeConfig.localization.buttonLabel4AuthButton, buttonClass: "alt" }),
-          // h(NavButton, { text: "Ask AI", buttonClass: "alt", to: "/chat" }),
         ]),
     })
   },
+
+  // Расширяем тему из shared и регистрируем компоненты
   enhanceApp({ app, router }: { app: App; router: any }) {
-    // Added router to signature
-    // Call shared theme's enhanceApp to register global components and plugins
+    // Регистрация компонентов из shared
     if (sharedTheme.enhanceApp) {
       sharedTheme.enhanceApp({ app, router })
     }
-
+    // Регистрация моих компонентов пакета
     app.component("AuthButton", AuthButton)
+
+    // Регистрация внешних компонентов пакета
+    app.component("Icon", Icon)
+
+    // Vercel Analytics
+    if (typeof window !== "undefined") {
+      inject()
+      injectSpeedInsights()
+    }
   },
 }
