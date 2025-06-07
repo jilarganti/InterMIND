@@ -4,7 +4,7 @@ const BASE_PATH = "/de"
 
 export const de = defineConfig({
   description:
-    "InterMIND fügt Echtzeit-Sprachübersetzung zu jedem Videoanruf hinzu, damit internationale Teams keine Geschäfte, Zeit oder Klarheit durch Sprachbarrieren verlieren.",
+    "InterMIND fügt Echtzeit-Sprachübersetzung zu jedem Videoanruf hinzu, damit internationale Teams niemals Geschäfte, Zeit oder Klarheit durch Sprachbarrieren verlieren.",
   head: [["meta", { property: "og:title", content: "Videoanrufe mit Simultandolmetschen | InterMIND" }]],
 
   themeConfig: {
@@ -26,6 +26,7 @@ export const de = defineConfig({
           { text: "Preise", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Referenzen", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Team", link: `${BASE_PATH}/resources/team` },
           { text: "Medienkit", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
@@ -60,14 +61,14 @@ export const de = defineConfig({
       categoryPlaceholder: "Servicetyp auswählen",
       message: "Lassen Sie uns Ihre Ziele besprechen (optional)",
       messagePlaceholder: "Bitte geben Sie zusätzliche Details an (optional)",
-      submit: "Anfrage absenden",
+      submit: "Anfrage senden",
       sending: "Wird gesendet...",
       successTitle: "Vielen Dank!",
       successMessage: "Wir schätzen Ihr Interesse sehr! Unser Team wird Sie in Kürze kontaktieren, um Ihre Bedürfnisse zu besprechen.",
       defaultCategories: [
         "Ich interessiere mich für Echtzeit-Sprachdolmetschen",
         "Ich interessiere mich für den KI-Meeting-Assistenten",
-        "Ich interessiere mich für regionsbasierte Datenschutz- und Datenkontrolle",
+        "Ich interessiere mich für regionsbasierte Datenschutzkontrolle",
         "Sonstiges / Nicht aufgeführt",
       ],
 
@@ -116,6 +117,7 @@ function sidebarCompany(): DefaultTheme.SidebarItem[] {
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
   return [
+    { text: "Team", link: "/team" },
     { text: "Medienkit", link: "/media-kit" },
   ]
 }

@@ -26,6 +26,7 @@ export const ru = defineConfig({
           { text: "Цены", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Отзывы", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Команда", link: `${BASE_PATH}/resources/team` },
           { text: "Медиа-кит", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
@@ -58,8 +59,8 @@ export const ru = defineConfig({
       phoneError: "Пожалуйста, введите номер телефона",
       category: "Пожалуйста, расскажите, чем мы можем помочь *",
       categoryPlaceholder: "выберите тип услуги",
-      message: "Обсудим ваши цели (необязательно)",
-      messagePlaceholder: "Пожалуйста, укажите дополнительные детали (необязательно)",
+      message: "Давайте обсудим ваши цели (необязательно)",
+      messagePlaceholder: "Пожалуйста, предоставьте дополнительные детали (необязательно)",
       submit: "Отправить запрос",
       sending: "Отправка...",
       successTitle: "Спасибо!",
@@ -67,7 +68,7 @@ export const ru = defineConfig({
       defaultCategories: [
         "Меня интересует синхронный перевод речи",
         "Меня интересует AI-ассистент для встреч",
-        "Меня интересует региональная конфиденциальность и контроль данных",
+        "Меня интересует региональный контроль конфиденциальности и данных",
         "Другое / Не указано",
       ],
 
@@ -84,7 +85,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Что такое InterMIND?", link: "overview/what-is-intermind" },
         { text: "Как это работает", link: "overview/how-it-works" },
-        { text: "Платформа для видеовстреч", link: "overview/video-meeting-platform" },
+        { text: "Платформа видеовстреч", link: "overview/video-meeting-platform" },
         { text: "Региональная защита данных", link: "overview/privacy-architecture" },
         { text: "Приоритетные рынки", link: "overview/markets" },
       ],
@@ -116,6 +117,7 @@ function sidebarCompany(): DefaultTheme.SidebarItem[] {
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
   return [
+    { text: "Команда", link: "/team" },
     { text: "Медиа-кит", link: "/media-kit" },
   ]
 }

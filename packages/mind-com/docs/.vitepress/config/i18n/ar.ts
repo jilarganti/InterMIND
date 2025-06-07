@@ -4,7 +4,7 @@ const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
   description:
-    "يضيف InterMIND الترجمة الفورية للكلام إلى كل مكالمة فيديو، حتى لا تفقد الفرق الدولية أبداً الصفقات أو الوقت أو الوضوح بسبب حواجز اللغة.",
+    "تضيف InterMIND الترجمة الفورية للكلام إلى كل مكالمة فيديو، حتى لا تفقد الفرق الدولية أبداً الصفقات أو الوقت أو الوضوح بسبب حواجز اللغة.",
   head: [["meta", { property: "og:title", content: "مكالمات فيديو مدعومة بالترجمة الفورية | InterMIND" }]],
 
   themeConfig: {
@@ -26,6 +26,7 @@ export const ar = defineConfig({
           { text: "الأسعار", link: `${BASE_PATH}/#Pricing` },
           { text: "الأسئلة الشائعة", link: `${BASE_PATH}/#FAQ` },
           { text: "آراء العملاء", link: `${BASE_PATH}/#Testimonials` },
+          { text: "الفريق", link: `${BASE_PATH}/resources/team` },
           { text: "المجموعة الإعلامية", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
@@ -65,9 +66,9 @@ export const ar = defineConfig({
       successTitle: "شكراً لك!",
       successMessage: "نقدر اهتمامك كثيراً! سيتواصل فريقنا معك قريباً لمناقشة احتياجاتك.",
       defaultCategories: [
-        "مهتم بالترجمة الفورية للصوت",
-        "مهتم بمساعد الاجتماعات الذكي",
-        "مهتم بالخصوصية والتحكم في البيانات حسب المنطقة",
+        "أنا مهتم بالترجمة الفورية للصوت",
+        "أنا مهتم بمساعد الاجتماعات الذكي",
+        "أنا مهتم بالخصوصية والتحكم في البيانات حسب المنطقة",
         "أخرى / غير مدرجة",
       ],
 
@@ -116,6 +117,7 @@ function sidebarCompany(): DefaultTheme.SidebarItem[] {
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
   return [
+    { text: "الفريق", link: "/team" },
     { text: "المجموعة الإعلامية", link: "/media-kit" },
   ]
 }

@@ -26,6 +26,7 @@ export const fr = defineConfig({
           { text: "Tarification", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Témoignages", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Équipe", link: `${BASE_PATH}/resources/team` },
           { text: "Kit Média", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
@@ -55,7 +56,7 @@ export const fr = defineConfig({
       emailPlaceholder: "votre adresse email",
       phone: "Site d'entreprise *",
       phonePlaceholder: "ex., https://mind.com",
-      phoneError: "Veuillez saisir un numéro de téléphone",
+      phoneError: "Veuillez entrer un numéro de téléphone",
       category: "Dites-nous comment nous pouvons vous aider *",
       categoryPlaceholder: "sélectionnez le type de service",
       message: "Discutons de vos objectifs (facultatif)",
@@ -116,6 +117,7 @@ function sidebarCompany(): DefaultTheme.SidebarItem[] {
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
   return [
+    { text: "Équipe", link: "/team" },
     { text: "Kit Média", link: "/media-kit" },
   ]
 }

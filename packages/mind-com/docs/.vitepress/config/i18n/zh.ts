@@ -26,6 +26,7 @@ export const zh = defineConfig({
           { text: "定价", link: `${BASE_PATH}/#Pricing` },
           { text: "常见问题", link: `${BASE_PATH}/#FAQ` },
           { text: "用户评价", link: `${BASE_PATH}/#Testimonials` },
+          { text: "团队", link: `${BASE_PATH}/resources/team` },
           { text: "媒体资料", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
@@ -42,7 +43,7 @@ export const zh = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "搜索任何内容...",
+      placeholder4SearchInput: "询问任何问题...",
       placeholder4ChatFooter: "询问任何问题...",
       placeholder4ChatList: "输入聊天主题...",
       buttonLabel4NavButton: "即时专家对话",
@@ -63,7 +64,7 @@ export const zh = defineConfig({
       submit: "提交请求",
       sending: "发送中...",
       successTitle: "感谢您！",
-      successMessage: "非常感谢您的关注！我们的团队将很快联系您讨论您的需求。",
+      successMessage: "非常感谢您的关注！我们的团队将很快与您联系，讨论您的需求。",
       defaultCategories: [
         "我对实时语音翻译感兴趣",
         "我对AI会议助手感兴趣",
@@ -116,6 +117,7 @@ function sidebarCompany(): DefaultTheme.SidebarItem[] {
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
   return [
+    { text: "团队", link: "/team" },
     { text: "媒体资料", link: "/media-kit" },
   ]
 }

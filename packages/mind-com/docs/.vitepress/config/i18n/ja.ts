@@ -26,6 +26,7 @@ export const ja = defineConfig({
           { text: "料金", link: `${BASE_PATH}/#Pricing` },
           { text: "よくある質問", link: `${BASE_PATH}/#FAQ` },
           { text: "お客様の声", link: `${BASE_PATH}/#Testimonials` },
+          { text: "チーム", link: `${BASE_PATH}/resources/team` },
           { text: "メディアキット", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
@@ -116,6 +117,7 @@ function sidebarCompany(): DefaultTheme.SidebarItem[] {
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
   return [
+    { text: "チーム", link: "/team" },
     { text: "メディアキット", link: "/media-kit" },
   ]
 }
