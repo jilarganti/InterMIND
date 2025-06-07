@@ -1,11 +1,13 @@
 # Meet the Team
 
-The development of InterMIND is guided by an international team, some of whom have chosen to be featured below.
+At InterMind, humans lead and AIs support. Our global team blends creativity, code, and comprehension — to eliminate language barriers once and for all.
+
+## Human Team
 
 <TeamMembersGrid :members="[
   {
     name: 'Jilarganti',
-    desc: 'UAE',
+    desc: 'Product, 🇦🇪',
     avatarLink: '/team/alex.jpg',
     links: [
       { icon: 'mdi:github', link: 'https://github.com/jilarganti' },
@@ -14,45 +16,95 @@ The development of InterMIND is guided by an international team, some of whom ha
   },
   {
     name: 'Windicted',
-    desc: 'Portugal',
-    avatarLink: '/team/incognito.png',
+    desc: 'Engineering, 🇵🇹',
+    avatarLink: 'https://secure.gravatar.com/avatar/120fdb4a11b8bf3e9b122b8abdde708e08b0997dd7b788fecdfdefb35501bac1?s=1600&d=identicon',
     links: [
       { icon: 'mdi:gitlab', link: 'https://gitlab.com/alexander.strikhalev' }
     ]
   },
+  {
+    name: 'Andre',
+    desc: 'Engineering, 🇷🇺',
+    avatarLink: 'https://gitlab.com/uploads/-/system/user/avatar/2413541/avatar.png?width=800',
+    links: [
+      // { icon: 'mdi:gitlab', link: 'https://gitlab.com/alexander.strikhalev' }
+    ]
+  },
+  {
+    name: 'Sfdev',
+    desc: 'Engineering, 🇵🇹',
+    avatarLink: 'https://secure.gravatar.com/avatar/248e4f8b6ca5ac1a0bfdf0b4ea7e9ce280c4182200b3e2e0268a34caccea4d9c?s=384&d=identicon',
+    links: [
+      { icon: 'mdi:gitlab', link: 'https://gitlab.com/sergei.fomin.sfdev' }
+    ]
+  },
+  {
+    name: 'DMA',
+    desc: 'Engineering, 🌎',
+    avatarLink: 'https://secure.gravatar.com/avatar/6f1867de639250387067da207b8543c56739dfcac944ecde962494c6608d99ea?s=1600&d=identicon',
+    links: [
+      { icon: 'mdi:gitlab', link: 'https://gitlab.com/petrov.dma' }
+    ]
+  },
+  {
+    name: '👽',
+    desc: 'Engineering, 🌎',
+    avatarLink: 'https://gitlab.com/uploads/-/system/user/avatar/27240326/avatar.png?width=800',
+    links: [
+      { icon: 'mdi:gitlab', link: 'https://gitlab.com/sergei.budko' }
+    ]
+  },
+  {
+    name: '👽',
+    desc: 'Engineering, 🌎',
+    avatarLink: 'https://secure.gravatar.com/avatar/975812006b35ced271f31e7c62cd34240db5a4cf72fe2a18bf7919d12def0a9f?s=1600&d=identicon',
+    links: [
+      { icon: 'mdi:gitlab', link: 'https://gitlab.com/vkorogodin' }
+    ]
+  },
+  {
+    name: '👽',
+    desc: 'Engineering, 🌎',
+    avatarLink: 'https://secure.gravatar.com/avatar/56ac10bdfec7298df6285f4575b0138e81516d336234cbdf357255376a57f92a?s=1600&d=identicon',
+    links: [
+      { icon: 'mdi:gitlab', link: 'https://gitlab.com/Komkovv' }
+    ]
+  },
 ]" />
+
+## AI Team
 
 <TeamMembersGrid :members="[
   {
     name: 'Claude',
-    desc: 'USA',
+    desc: 'Product/Engineering, 🇺🇸',
     avatarLink: '/team/ai.webp',
     links: [
-      { icon: 'vscode-icons:file-type-claude', link: 'https://www.anthropic.com/solutions/agents' }
+      { icon: 'vscode-icons:file-type-claude', link: 'https://claude.ai/' }
     ]
   },
   {
     name: 'Gemini',
-    desc: 'USA',
+    desc: 'Product/Research, 🇺🇸',
     avatarLink: '/team/ai.webp',
     links: [
-      { icon: 'material-icon-theme:gemini-ai', link: 'https://www.anthropic.com/solutions/agents' }
+      { icon: 'material-icon-theme:gemini-ai', link: 'https://gemini.google.com/' }
     ]
   },
   {
     name: 'ChatGPT',
-    desc: 'USA',
+    desc: 'Research/Engineering, 🇺🇸',
     avatarLink: '/team/ai.webp',
     links: [
-      { icon: 'streamline-logos:openai-logo', link: 'https://www.anthropic.com/solutions/agents' }
+      { icon: 'streamline-logos:openai-logo', link: 'https://chatgpt.com/' }
     ]
   },
   {
     name: 'DeepSeek',
-    desc: 'China',
+    desc: 'Engineering, 🇨🇳',
     avatarLink: '/team/ai.webp',
     links: [
-      { icon: 'arcticons:deepseek', link: 'https://www.anthropic.com/solutions/agents' }
+      { icon: 'arcticons:deepseek', link: 'https://chat.deepseek.com/' }
     ]
   },
 ]" />

@@ -60,7 +60,7 @@ function replace(text: string, className: string, pattern = /\*\*(.*?)\*\*/g): s
 .team-card {
   background: var(--vp-c-bg-soft);
   border-radius: 16px;
-  padding: 18px 24px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,7 +89,7 @@ function replace(text: string, className: string, pattern = /\*\*(.*?)\*\*/g): s
 .team-name {
   font-size: 1rem;
   font-weight: 500;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
   color: var(--vp-c-text-1);
 }
 
