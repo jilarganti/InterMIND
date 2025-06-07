@@ -29,7 +29,7 @@ export const en = defineConfig({
           { text: "Pricing", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Testimonials", link: `${BASE_PATH}/#Testimonials` },
-          { text: "Team", link: `${BASE_PATH}/resources/team` },
+          // { text: "Team", link: `${BASE_PATH}/resources/team` },
           { text: "Media Kit", link: `${BASE_PATH}/resources/media-kit` },
         ],
         //   },
@@ -123,8 +123,7 @@ function sidebarCompany(): DefaultTheme.SidebarItem[] {
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Team", link: "/team" },
+    // { text: "Team", link: "/team" },
     { text: "Media Kit", link: "/media-kit" },
-    // { text: "Contact", link: "/contacts" },
   ]
 }
