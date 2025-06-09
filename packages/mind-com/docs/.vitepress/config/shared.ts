@@ -6,7 +6,7 @@ import llmstxt from "vitepress-plugin-llms"
 
 // Обновляем URL сайта документации
 const hostUrl = "https://mind.com"
-const NOINDEX_PAGES = ["exp", "chat"]
+const NOINDEX_PAGES = ["exp", "chat", "team"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
 // Список UTM-параметров для сохранения в параметрах страницы
 const UTM_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "campaign_id"]

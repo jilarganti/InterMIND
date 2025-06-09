@@ -26,7 +26,6 @@ export const es = defineConfig({
           { text: "Precios", link: `${BASE_PATH}/#Pricing` },
           { text: "Preguntas frecuentes", link: `${BASE_PATH}/#FAQ` },
           { text: "Testimonios", link: `${BASE_PATH}/#Testimonials` },
-          { text: "Equipo", link: `${BASE_PATH}/resources/team` },
           { text: "Kit de medios", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
@@ -56,7 +55,7 @@ export const es = defineConfig({
       emailPlaceholder: "tu dirección de correo electrónico",
       phone: "Sitio corporativo *",
       phonePlaceholder: "ej., https://mind.com",
-      phoneError: "Por favor ingrese el número de teléfono",
+      phoneError: "Por favor ingresa el número de teléfono",
       category: "Por favor dinos cómo podemos ayudar *",
       categoryPlaceholder: "selecciona tipo de servicio",
       message: "Hablemos de tus objetivos (opcional)",
@@ -68,7 +67,7 @@ export const es = defineConfig({
       defaultCategories: [
         "Me interesa la interpretación de voz en tiempo real",
         "Me interesa el asistente de reuniones con IA",
-        "Me interesa el control de privacidad y datos basado en región",
+        "Me interesa el control de privacidad y datos por región",
         "Otro / No listado",
       ],
 
@@ -117,7 +116,6 @@ function sidebarCompany(): DefaultTheme.SidebarItem[] {
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Equipo", link: "/team" },
     { text: "Kit de medios", link: "/media-kit" },
   ]
 }

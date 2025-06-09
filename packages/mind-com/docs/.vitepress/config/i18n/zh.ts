@@ -26,7 +26,6 @@ export const zh = defineConfig({
           { text: "定价", link: `${BASE_PATH}/#Pricing` },
           { text: "常见问题", link: `${BASE_PATH}/#FAQ` },
           { text: "用户评价", link: `${BASE_PATH}/#Testimonials` },
-          { text: "团队", link: `${BASE_PATH}/resources/team` },
           { text: "媒体资料", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
@@ -43,7 +42,7 @@ export const zh = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "询问任何问题...",
+      placeholder4SearchInput: "搜索任何内容...",
       placeholder4ChatFooter: "询问任何问题...",
       placeholder4ChatList: "输入聊天主题...",
       buttonLabel4NavButton: "即时专家对话",
@@ -117,7 +116,6 @@ function sidebarCompany(): DefaultTheme.SidebarItem[] {
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "团队", link: "/team" },
     { text: "媒体资料", link: "/media-kit" },
   ]
 }

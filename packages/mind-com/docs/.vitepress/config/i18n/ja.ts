@@ -4,7 +4,7 @@ const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
   description:
-    "InterMINDは、国際チームが言語の壁によって取引、時間、明確さを失うことがないよう、すべてのビデオ通話にリアルタイム音声翻訳を追加します。",
+    "InterMINDは、すべてのビデオ通話にリアルタイム音声翻訳を追加し、国際チームが言語の壁によって取引、時間、明確さを失うことがないようにします。",
   head: [["meta", { property: "og:title", content: "同時通訳機能搭載のビデオ通話 | InterMIND" }]],
 
   themeConfig: {
@@ -26,7 +26,6 @@ export const ja = defineConfig({
           { text: "料金", link: `${BASE_PATH}/#Pricing` },
           { text: "よくある質問", link: `${BASE_PATH}/#FAQ` },
           { text: "お客様の声", link: `${BASE_PATH}/#Testimonials` },
-          { text: "チーム", link: `${BASE_PATH}/resources/team` },
           { text: "メディアキット", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
@@ -117,7 +116,6 @@ function sidebarCompany(): DefaultTheme.SidebarItem[] {
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "チーム", link: "/team" },
     { text: "メディアキット", link: "/media-kit" },
   ]
 }

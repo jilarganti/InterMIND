@@ -26,7 +26,6 @@ export const ru = defineConfig({
           { text: "Цены", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Отзывы", link: `${BASE_PATH}/#Testimonials` },
-          { text: "Команда", link: `${BASE_PATH}/resources/team` },
           { text: "Медиа-кит", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
@@ -117,7 +116,6 @@ function sidebarCompany(): DefaultTheme.SidebarItem[] {
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Команда", link: "/team" },
     { text: "Медиа-кит", link: "/media-kit" },
   ]
 }

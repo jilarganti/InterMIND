@@ -20,13 +20,18 @@ export const en = defineConfig({
         link: `${BASE_PATH}/company/about`,
       },
       {
+        text: "Pricing",
+        // activeMatch: `${BASE_PATH}/company/`,
+        link: `${BASE_PATH}/#Pricing`,
+      },
+      {
         text: "Resources",
         activeMatch: `${BASE_PATH}/product/`,
         // items: [
         //   {
         //     text: "EXPLORE",
         items: [
-          { text: "Pricing", link: `${BASE_PATH}/#Pricing` },
+          // { text: "Pricing", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Testimonials", link: `${BASE_PATH}/#Testimonials` },
           // { text: "Team", link: `${BASE_PATH}/resources/team` },
@@ -44,7 +49,7 @@ export const en = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Privacy Settings</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Privacy Policy</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Legal Regulations for AI Services</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Privacy Settings</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Privacy Policy</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Legal Regulations for AI Services</a> | <a href="https://status.mind.com/">Service status</a>`,
     },
 
     localization: {
@@ -117,13 +122,11 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
 function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "About", link: "/about" },
-    { text: "Contact", link: "/contacts" },
+    { text: "Team", link: "/team" },
+    { text: "Contacts", link: "/contacts" },
   ]
 }
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [
-    // { text: "Team", link: "/team" },
-    { text: "Media Kit", link: "/media-kit" },
-  ]
+  return [{ text: "Media Kit", link: "/media-kit" }]
 }

@@ -5,7 +5,7 @@ const BASE_PATH = "/fr"
 export const fr = defineConfig({
   description:
     "InterMIND ajoute la traduction vocale en temps réel à chaque appel vidéo, permettant aux équipes internationales de ne jamais perdre d'opportunités, de temps ou de clarté à cause des barrières linguistiques.",
-  head: [["meta", { property: "og:title", content: "Appels vidéo alimentés par l'interprétation simultanée | InterMIND" }]],
+  head: [["meta", { property: "og:title", content: "Appels vidéo propulsés par l'interprétation simultanée | InterMIND" }]],
 
   themeConfig: {
     nav: [
@@ -26,7 +26,6 @@ export const fr = defineConfig({
           { text: "Tarification", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Témoignages", link: `${BASE_PATH}/#Testimonials` },
-          { text: "Équipe", link: `${BASE_PATH}/resources/team` },
           { text: "Kit Média", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
@@ -43,8 +42,8 @@ export const fr = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Posez n'importe quelle question...",
-      placeholder4ChatFooter: "Posez n'importe quelle question...",
+      placeholder4SearchInput: "Posez n\'importe quelle question...",
+      placeholder4ChatFooter: "Posez n\'importe quelle question...",
       placeholder4ChatList: "Entrez le sujet de discussion...",
       buttonLabel4NavButton: "Chat expert instantané",
       buttonLabel4AuthButton: "Se connecter",
@@ -54,9 +53,9 @@ export const fr = defineConfig({
       namePlaceholder: "votre nom",
       email: "Email *",
       emailPlaceholder: "votre adresse email",
-      phone: "Site d'entreprise *",
+      phone: "Site d\'entreprise *",
       phonePlaceholder: "ex., https://mind.com",
-      phoneError: "Veuillez entrer un numéro de téléphone",
+      phoneError: "Veuillez saisir un numéro de téléphone",
       category: "Dites-nous comment nous pouvons vous aider *",
       categoryPlaceholder: "sélectionnez le type de service",
       message: "Discutons de vos objectifs (facultatif)",
@@ -66,8 +65,8 @@ export const fr = defineConfig({
       successTitle: "Merci !",
       successMessage: "Nous apprécions grandement votre intérêt ! Notre équipe vous contactera prochainement pour discuter de vos besoins.",
       defaultCategories: [
-        "Je suis intéressé par l'interprétation vocale en temps réel",
-        "Je suis intéressé par l'assistant de réunion IA",
+        "Je suis intéressé par l\'interprétation vocale en temps réel",
+        "Je suis intéressé par l\'assistant de réunion IA",
         "Je suis intéressé par le contrôle des données et la confidentialité régionale",
         "Autre / Non listé",
       ],
@@ -83,7 +82,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "Aperçu",
       collapsed: false,
       items: [
-        { text: "Qu'est-ce qu'InterMIND ?", link: "overview/what-is-intermind" },
+        { text: "Qu\'est-ce qu\'InterMIND ?", link: "overview/what-is-intermind" },
         { text: "Comment ça marche", link: "overview/how-it-works" },
         { text: "Plateforme de réunion vidéo", link: "overview/video-meeting-platform" },
         { text: "Confidentialité régionale des données", link: "overview/privacy-architecture" },
@@ -117,7 +116,6 @@ function sidebarCompany(): DefaultTheme.SidebarItem[] {
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Équipe", link: "/team" },
     { text: "Kit Média", link: "/media-kit" },
   ]
 }
