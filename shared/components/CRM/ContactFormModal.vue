@@ -187,15 +187,7 @@ const closeModal = () => {
 
             <div>
               <label for="webSite">{{ webSite }}</label>
-              <input
-                name="webSite"
-                type="tel"
-                v-model="formData.webSite"
-                :placeholder="webSitePlaceholder"
-                required
-                pattern="^(\+\d{1,4}[\s\-]?|\(\d{1,4}\)[\s\-]?|\d{1,4}[\s\-])[\d\s\-]{8,16}$"
-                maxlength="20"
-              />
+              <input name="webSite" type="url" v-model="formData.webSite" :placeholder="webSitePlaceholder" required pattern="https?://.+" maxlength="100" />
             </div>
 
             <div>

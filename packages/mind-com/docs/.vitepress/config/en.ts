@@ -74,7 +74,7 @@ export const en = defineConfig({
       submit: "Submit request",
       sending: "Sending...",
       successTitle: "Thank you!",
-      successMessage: "We greatly appreciate your interest! Our team will contact you shortly to discuss your needs.",
+      successMessage: "We’ve received your message — our team will be in touch shortly.",
       defaultCategories: [
         "Eliminate language barriers in meetings",
         "Make meetings searchable and actionable",
