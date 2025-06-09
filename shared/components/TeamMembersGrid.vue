@@ -35,7 +35,7 @@ function replace(text: string, className: string, pattern = /\*\*(.*?)\*\*/g): s
             !member.avatarLink.startsWith('/')
           "
           :icon="member.avatarLink"
-          style="font-size: 72px"
+          style="font-size: 70px"
         />
         <img v-else :src="member.avatarLink" :alt="member.name" />
       </div>
@@ -87,12 +87,10 @@ function replace(text: string, className: string, pattern = /\*\*(.*?)\*\*/g): s
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 16px;
-  box-shadow: 0 0 0 3px var(--vp-c-bg);
 }
 .team-avatar img {
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
 }
 
 .team-name {
