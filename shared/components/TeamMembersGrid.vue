@@ -27,7 +27,17 @@ function replace(text: string, className: string, pattern = /\*\*(.*?)\*\*/g): s
   <div class="team-grid">
     <div v-for="(member, index) in members" :key="index" class="team-card">
       <div class="team-avatar">
-        <img :src="member.avatarLink" :alt="member.name" />
+        <Icon
+          v-if="
+            typeof member.avatarLink === 'string' &&
+            member.avatarLink.includes(':') &&
+            !/^https?:\/\//.test(member.avatarLink) &&
+            !member.avatarLink.startsWith('/')
+          "
+          :icon="member.avatarLink"
+          style="font-size: 72px"
+        />
+        <img v-else :src="member.avatarLink" :alt="member.name" />
       </div>
       <div class="team-name" v-html="replace(member.name, 'highlighted-word')"></div>
       <div class="team-desc" v-html="replace(member.desc, 'highlighted-word')"></div>
@@ -53,7 +63,6 @@ function replace(text: string, className: string, pattern = /\*\*(.*?)\*\*/g): s
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  /* justify-content: center; */
   margin: 24px auto;
 }
 
@@ -83,7 +92,7 @@ function replace(text: string, className: string, pattern = /\*\*(.*?)\*\*/g): s
 .team-avatar img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .team-name {

@@ -8,7 +8,7 @@ At InterMind, humans lead and AIs support. Our global team blends creativity, co
   {
     name: 'Jilarganti',
     desc: 'Product, 🇦🇪',
-    avatarLink: '/team/alex.jpg',
+    avatarLink: 'https://github.com/jilarganti.png',
     links: [
       { icon: 'mdi:github', link: 'https://github.com/jilarganti' },
       { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/in/aleksey-korolev/' }
@@ -72,39 +72,41 @@ At InterMind, humans lead and AIs support. Our global team blends creativity, co
   },
 ]" />
 
-## AI Team
+## AI Team [^1]
+
+[^1]: AI team members are not human, but they are integral to our operations. They assist in various tasks, from coding to research, and help us break down language barriers. [Understand our AI framework and policies ...](../company/Legal-Regulations-for-AI-Services)
 
 <TeamMembersGrid :members="[
   {
     name: 'Claude',
     desc: 'Product/Engineering, 🇺🇸',
-    avatarLink: '/team/ai.webp',
+    avatarLink: 'vscode-icons:file-type-claude',
     links: [
-      { icon: 'vscode-icons:file-type-claude', link: 'https://claude.ai/' }
+      { icon: 'rivet-icons:link', link: 'https://claude.ai/' }
     ]
   },
   {
     name: 'Gemini',
     desc: 'Product/Research, 🇺🇸',
-    avatarLink: '/team/ai.webp',
+    avatarLink: 'material-icon-theme:gemini-ai',
     links: [
-      { icon: 'material-icon-theme:gemini-ai', link: 'https://gemini.google.com/' }
+      { icon: 'rivet-icons:link', link: 'https://gemini.google.com/' }
     ]
   },
   {
     name: 'ChatGPT',
     desc: 'Research/Engineering, 🇺🇸',
-    avatarLink: '/team/ai.webp',
+    avatarLink: 'streamline-logos:openai-logo',
     links: [
-      { icon: 'streamline-logos:openai-logo', link: 'https://chatgpt.com/' }
+      { icon: 'rivet-icons:link', link: 'https://chatgpt.com/' }
     ]
   },
   {
     name: 'DeepSeek',
     desc: 'Engineering, 🇨🇳',
-    avatarLink: '/team/ai.webp',
+    avatarLink: 'arcticons:deepseek',
     links: [
-      { icon: 'arcticons:deepseek', link: 'https://chat.deepseek.com/' }
+      { icon: 'rivet-icons:link', link: 'https://chat.deepseek.com/' }
     ]
   },
 ]" />
