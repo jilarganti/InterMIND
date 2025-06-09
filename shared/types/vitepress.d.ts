@@ -9,9 +9,9 @@ declare module "vitepress" {
       contact_form: {
         name: string
         namePlaceholder: string
-        phone: string
-        phonePlaceholder: string
-        phoneError: string
+        webSite: string
+        webSitePlaceholder: string
+        webSiteError: string
         email: string
         emailPlaceholder: string
         message: string

@@ -3,7 +3,7 @@
  * @typedef {Object} RequestBody
  * @property {string} name - Имя контакта
  * @property {string} email - Email контакта
- * @property {string} phone - Телефон контакта
+ * @property {string} webSite - Телефон контакта
  * @property {string} channel - Канал
  * @property {string} channelId - ID канала
  * @property {string} originId - ID источника
@@ -65,7 +65,7 @@ export async function POST(request) {
 
   /** @type {RequestBody} */
   const body = await request.json()
-  const { name, email, phone, channel, channelId, originId, category, message, leadSource, countryCode, countryName } = body
+  const { name, email, webSite, channel, channelId, originId, category, message, leadSource, countryCode, countryName } = body
   const apiClient = new ApiClient()
 
   apiClient.authentications.api_key.apiKey = process.env.PIPEDRIVE_API_TOKEN
@@ -90,7 +90,7 @@ export async function POST(request) {
     const personResponse = await personsApi.addPerson({
       name,
       email: [{ value: email, label: "other" }],
-      phone: [{ value: phone, label: "other" }],
+      "0bcd0dbd7c022bcc908eecd87e72bd49f830e5a6": webSite, // ⚙️Site
       "08d290c3d972d735278898a71ad674b0ff698c66": countryCode, // ⚙️Country code
       f64198e6b8654dd28a344f5831dbe547b960a17b: countryName, // ⚙️Country
     })

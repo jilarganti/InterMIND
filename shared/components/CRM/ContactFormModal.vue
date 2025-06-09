@@ -31,8 +31,8 @@ import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vu
 
 import { generateOriginId } from "../../utils/path"
 import { useFormSubmit } from "../../composables/CRM/useFormSubmit"
-import { parsePhoneNumberWithError } from "libphonenumber-js"
-import { INCLUDED_COUNTRIES } from "../../../packages/golden-fish/docs/.vitepress/config/countryList"
+// import { parsePhoneNumberWithError } from "libphonenumber-js"
+// import { INCLUDED_COUNTRIES } from "../../../packages/golden-fish/docs/.vitepress/config/countryList"
 import { determineTrafficSource, initUtmTracking } from "../../utils/utm"
 
 const { site, page } = useData()
@@ -66,8 +66,8 @@ const showModal = ref(false)
 const {
   name,
   namePlaceholder,
-  phone,
-  phonePlaceholder,
+  webSite,
+  webSitePlaceholder,
   email,
   emailPlaceholder,
   message,
@@ -107,12 +107,12 @@ formData.value.originId = generateOriginId(page.value.relativePath)
 formData.value.category = ""
 
 const handleSubmit = async () => {
-  const { code, name } = getCountryFromPhone(formData.value.phone)
-  formData.value.countryCode = code
-  formData.value.countryName = name
+  // const { code, name } = getCountryFromPhone(formData.value.phone)
+  // formData.value.countryCode = code
+  // formData.value.countryName = name
 
   if (!isRealLead) formData.value.name = "[test] " + formData.value.name
-  if (!INCLUDED_COUNTRIES.includes(code)) formData.value.name = "[spam] " + formData.value.name
+  // if (!INCLUDED_COUNTRIES.includes(code)) formData.value.name = "[spam] " + formData.value.name
 
   await submitForm()
 
@@ -138,21 +138,21 @@ const closeModal = () => {
   formStatus.value.errorMessage = ""
 }
 
-function getCountryFromPhone(phone: string): { code: string; name: string } {
-  try {
-    // Убираем пробелы, скобки, плюсы и ведущие нули
-    const cleaned = phone.replace(/[+()-\s]/g, "").replace(/^0+/, "")
+// function getCountryFromPhone(phone: string): { code: string; name: string } {
+//   try {
+//     // Убираем пробелы, скобки, плюсы и ведущие нули
+//     const cleaned = phone.replace(/[+()-\s]/g, "").replace(/^0+/, "")
 
-    // console.log("cleaned", cleaned)
+//     // console.log("cleaned", cleaned)
 
-    const countryCode = parsePhoneNumberWithError("+" + cleaned).country || ""
-    const countryName = new Intl.DisplayNames(["en"], { type: "region" }).of(countryCode) || ""
-    return { code: countryCode, name: countryName }
-  } catch {
-    console.error("Error parsing phone number")
-    return { code: "", name: "" }
-  }
-}
+//     const countryCode = parsePhoneNumberWithError("+" + cleaned).country || ""
+//     const countryName = new Intl.DisplayNames(["en"], { type: "region" }).of(countryCode) || ""
+//     return { code: countryCode, name: countryName }
+//   } catch {
+//     console.error("Error parsing phone number")
+//     return { code: "", name: "" }
+//   }
+// }
 </script>
 
 <template>
@@ -186,12 +186,12 @@ function getCountryFromPhone(phone: string): { code: string; name: string } {
             </div>
 
             <div>
-              <label for="phone">{{ phone }}</label>
+              <label for="webSite">{{ webSite }}</label>
               <input
-                name="phone"
+                name="webSite"
                 type="tel"
-                v-model="formData.phone"
-                :placeholder="phonePlaceholder"
+                v-model="formData.webSite"
+                :placeholder="webSitePlaceholder"
                 required
                 pattern="^(\+\d{1,4}[\s\-]?|\(\d{1,4}\)[\s\-]?|\d{1,4}[\s\-])[\d\s\-]{8,16}$"
                 maxlength="20"
