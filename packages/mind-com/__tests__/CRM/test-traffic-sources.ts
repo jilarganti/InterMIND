@@ -22,7 +22,7 @@ interface TrafficSource {
 interface FormData {
   name: string
   email: string
-  phone: string
+  webSite: string
   category: string
   message: string
   channel: string
@@ -121,8 +121,8 @@ function createTestFormData(sourceName: string): Omit<FormData, "leadSource"> {
   return {
     name: `[test] Traffic Source ${sourceName} - ${testId}`,
     email: `test.${testId}@example.com`,
-    phone: `+1${Math.floor(Math.random() * 9000000000) + 1000000000}`,
-    category: "Golden Visa",
+    webSite: "https://companyname.com/",
+    category: "Contacts",
     message: `Автоматический тест источника трафика: ${sourceName}`,
     channel: "Web forms",
     channelId: "Test Script",
