@@ -74,10 +74,10 @@ function replace(text: string, className: string, pattern = /\*\*(.*?)\*\*/g): s
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 260px;
-  height: 260px;
-  max-width: 260px;
-  max-height: 260px;
+  width: 300px;
+  height: 300px;
+  /* max-width: 260px;
+  max-height: 300px; */
   box-sizing: border-box;
 }
 
