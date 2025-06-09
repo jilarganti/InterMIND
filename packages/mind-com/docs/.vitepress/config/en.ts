@@ -122,7 +122,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
 function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "About", link: "/about" },
-    { text: "Team", link: "/team" },
+    // { text: "Team", link: "/team" },
     { text: "Contacts", link: "/contacts" },
   ]
 }

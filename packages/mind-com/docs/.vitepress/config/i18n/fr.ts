@@ -41,13 +41,13 @@ export const fr = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Réglementations légales pour les services d\'IA</a> | <a href="https://status.mind.com/">État du service</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Réglementations légales pour les services d'IA</a> | <a href="https://status.mind.com/">État du service</a>`,
     },
 
     localization: {
       placeholder4SearchInput: "Posez n'importe quelle question...",
       placeholder4ChatFooter: "Posez n'importe quelle question...",
-      placeholder4ChatList: "Entrez le sujet de discussion...",
+      placeholder4ChatList: "Entrez le sujet du chat...",
       buttonLabel4NavButton: "Chat expert instantané",
       buttonLabel4AuthButton: "Se connecter",
     },
@@ -113,7 +113,6 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
 function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "À propos", link: "/about" },
-    { text: "Équipe", link: "/team" },
     { text: "Contacts", link: "/contacts" },
   ]
 }

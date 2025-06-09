@@ -113,7 +113,6 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
 function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Acerca de", link: "/about" },
-    { text: "Equipo", link: "/team" },
     { text: "Contactos", link: "/contacts" },
   ]
 }

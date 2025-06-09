@@ -62,11 +62,11 @@ export const zh = defineConfig({
       category: "请告诉我们如何帮助您 *",
       categoryPlaceholder: "选择服务类型",
       message: "让我们讨论您的目标（可选）",
-      messagePlaceholder: "请提供任何附加详情（可选）",
+      messagePlaceholder: "请提供任何附加详细信息（可选）",
       submit: "提交请求",
       sending: "发送中...",
       successTitle: "感谢您！",
-      successMessage: "非常感谢您的关注！我们的团队将很快联系您讨论您的需求。",
+      successMessage: "非常感谢您的关注！我们的团队将很快与您联系，讨论您的需求。",
       defaultCategories: [
         "我对实时语音翻译感兴趣",
         "我对AI会议助手感兴趣",
@@ -113,7 +113,6 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
 function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "关于我们", link: "/about" },
-    { text: "团队", link: "/team" },
     { text: "联系方式", link: "/contacts" },
   ]
 }

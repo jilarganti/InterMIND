@@ -112,8 +112,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
 
 function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "企業概要", link: "/about" },
-    { text: "チーム", link: "/team" },
+    { text: "企業情報", link: "/about" },
     { text: "お問い合わせ", link: "/contacts" },
   ]
 }

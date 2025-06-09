@@ -59,7 +59,7 @@ export const ru = defineConfig({
       phone: "Корпоративный сайт *",
       phonePlaceholder: "например, https://mind.com",
       phoneError: "Пожалуйста, введите номер телефона",
-      category: "Пожалуйста, расскажите, чем мы можем помочь *",
+      category: "Расскажите, чем мы можем помочь *",
       categoryPlaceholder: "выберите тип услуги",
       message: "Обсудим ваши цели (необязательно)",
       messagePlaceholder: "Укажите дополнительные детали (необязательно)",
@@ -68,7 +68,7 @@ export const ru = defineConfig({
       successTitle: "Спасибо!",
       successMessage: "Мы очень ценим ваш интерес! Наша команда свяжется с вами в ближайшее время для обсуждения ваших потребностей.",
       defaultCategories: [
-        "Меня интересует синхронный перевод голоса",
+        "Меня интересует синхронный перевод речи",
         "Меня интересует AI-ассистент для встреч",
         "Меня интересует региональный контроль конфиденциальности и данных",
         "Другое / Не указано",
@@ -113,7 +113,6 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
 function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "О нас", link: "/about" },
-    { text: "Команда", link: "/team" },
     { text: "Контакты", link: "/contacts" },
   ]
 }
