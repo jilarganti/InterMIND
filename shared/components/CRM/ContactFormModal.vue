@@ -28,11 +28,8 @@ import { useData, useRoute } from "vitepress"
 import { ref, computed, onMounted } from "vue"
 import { onClickOutside } from "@vueuse/core"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
-
 import { generateOriginId } from "../../utils/path"
 import { useFormSubmit } from "../../composables/CRM/useFormSubmit"
-// import { parsePhoneNumberWithError } from "libphonenumber-js"
-// import { INCLUDED_COUNTRIES } from "../../../packages/golden-fish/docs/.vitepress/config/countryList"
 import { determineTrafficSource, initUtmTracking } from "../../utils/utm"
 
 const { site, page } = useData()
@@ -63,22 +60,8 @@ const emit = defineEmits(["success"])
 const isRealLead = import.meta.env.VITE_IS_PROD
 
 const showModal = ref(false)
-const {
-  name,
-  namePlaceholder,
-  webSite,
-  webSitePlaceholder,
-  email,
-  emailPlaceholder,
-  message,
-  messagePlaceholder,
-  category,
-  categoryPlaceholder,
-  submit,
-  sending,
-  successTitle,
-  successMessage,
-} = site.value.themeConfig.contact_form
+const { name, namePlaceholder, webSite, webSitePlaceholder, email, emailPlaceholder, submit, sending, successTitle, successMessage } =
+  site.value.themeConfig.contact_form
 const { formData, formStatus, submitForm } = useFormSubmit()
 
 // Реф для модального контейнера
@@ -107,12 +90,7 @@ formData.value.originId = generateOriginId(page.value.relativePath)
 formData.value.category = ""
 
 const handleSubmit = async () => {
-  // const { code, name } = getCountryFromPhone(formData.value.phone)
-  // formData.value.countryCode = code
-  // formData.value.countryName = name
-
   if (!isRealLead) formData.value.name = "[test] " + formData.value.name
-  // if (!INCLUDED_COUNTRIES.includes(code)) formData.value.name = "[spam] " + formData.value.name
 
   await submitForm()
 
@@ -137,22 +115,6 @@ const closeModal = () => {
   showModal.value = false
   formStatus.value.errorMessage = ""
 }
-
-// function getCountryFromPhone(phone: string): { code: string; name: string } {
-//   try {
-//     // Убираем пробелы, скобки, плюсы и ведущие нули
-//     const cleaned = phone.replace(/[+()-\s]/g, "").replace(/^0+/, "")
-
-//     // console.log("cleaned", cleaned)
-
-//     const countryCode = parsePhoneNumberWithError("+" + cleaned).country || ""
-//     const countryName = new Intl.DisplayNames(["en"], { type: "region" }).of(countryCode) || ""
-//     return { code: countryCode, name: countryName }
-//   } catch {
-//     console.error("Error parsing phone number")
-//     return { code: "", name: "" }
-//   }
-// }
 </script>
 
 <template>
