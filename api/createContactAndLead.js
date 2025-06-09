@@ -91,8 +91,8 @@ export async function POST(request) {
       name,
       email: [{ value: email, label: "other" }],
       phone: [{ value: phone, label: "other" }],
-      b8ba0ea36db4270f7b560e09fb2cb3e0714b388b: countryCode, // ⚙️Country code
-      cf5a54d84951c31197d58e97029976686967a64f: countryName, // ⚙️Country name
+      "08d290c3d972d735278898a71ad674b0ff698c66": countryCode, // ⚙️Country code
+      f64198e6b8654dd28a344f5831dbe547b960a17b: countryName, // ⚙️Country
     })
 
     if (!personResponse?.data) {
@@ -107,9 +107,9 @@ export async function POST(request) {
       channel_id: channelId,
       origin_id: originId,
       was_seen: true,
-      "8464d8373190f2251c5e1e8c035d75ddb8ef52e2": category, // ⚙️Service
-      baa8db361de3fa51e24c8e18c7d2271643635ba9: message, // ⚙️Message
-      bcf617c56c755e11604aea1ed230d695cd5c2735: leadSource, // ⚙️Lead source
+      ec30e5d548a40d6588bf2e1f06ec07cca7b4cc77: category, // ⚙️Service
+      "381414c380220bf1d26ce7b7bdc6e6ff08e20e04": message, // ⚙️Message
+      da3aa18ff6128966544ff359f07aebedc047b2e2: leadSource, // ⚙️Lead source
     })
 
     if (!leadResponse?.data) {
