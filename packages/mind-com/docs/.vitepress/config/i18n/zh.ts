@@ -20,10 +20,13 @@ export const zh = defineConfig({
         link: `${BASE_PATH}/company/about`,
       },
       {
+        text: "定价",
+        link: `${BASE_PATH}/#Pricing`,
+      },
+      {
         text: "资源",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "定价", link: `${BASE_PATH}/#Pricing` },
           { text: "常见问题", link: `${BASE_PATH}/#FAQ` },
           { text: "用户评价", link: `${BASE_PATH}/#Testimonials` },
           { text: "媒体资料", link: `${BASE_PATH}/resources/media-kit` },
@@ -38,12 +41,12 @@ export const zh = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/company/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">人工智能服务法律规定</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/company/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">人工智能服务法律规定</a> | <a href="https://status.mind.com/">服务状态</a>`,
     },
 
     localization: {
-      placeholder4SearchInput: "搜索任何内容...",
-      placeholder4ChatFooter: "询问任何问题...",
+      placeholder4SearchInput: "输入任何问题...",
+      placeholder4ChatFooter: "输入任何问题...",
       placeholder4ChatList: "输入聊天主题...",
       buttonLabel4NavButton: "即时专家对话",
       buttonLabel4AuthButton: "登录",
@@ -59,11 +62,11 @@ export const zh = defineConfig({
       category: "请告诉我们如何帮助您 *",
       categoryPlaceholder: "选择服务类型",
       message: "让我们讨论您的目标（可选）",
-      messagePlaceholder: "请提供任何附加详细信息（可选）",
+      messagePlaceholder: "请提供任何附加详情（可选）",
       submit: "提交请求",
       sending: "发送中...",
       successTitle: "感谢您！",
-      successMessage: "非常感谢您的关注！我们的团队将很快与您联系，讨论您的需求。",
+      successMessage: "非常感谢您的关注！我们的团队将很快联系您讨论您的需求。",
       defaultCategories: [
         "我对实时语音翻译感兴趣",
         "我对AI会议助手感兴趣",
@@ -110,12 +113,11 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
 function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "关于我们", link: "/about" },
-    { text: "联系我们", link: "/contacts" },
+    { text: "团队", link: "/team" },
+    { text: "联系方式", link: "/contacts" },
   ]
 }
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [
-    { text: "媒体资料", link: "/media-kit" },
-  ]
+  return [{ text: "媒体资料", link: "/media-kit" }]
 }

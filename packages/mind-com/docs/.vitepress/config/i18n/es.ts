@@ -20,13 +20,16 @@ export const es = defineConfig({
         link: `${BASE_PATH}/company/about`,
       },
       {
+        text: "Precios",
+        link: `${BASE_PATH}/#Pricing`,
+      },
+      {
         text: "Recursos",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "Precios", link: `${BASE_PATH}/#Pricing` },
-          { text: "Preguntas frecuentes", link: `${BASE_PATH}/#FAQ` },
+          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Testimonios", link: `${BASE_PATH}/#Testimonials` },
-          { text: "Kit de medios", link: `${BASE_PATH}/resources/media-kit` },
+          { text: "Kit de Medios", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
     ],
@@ -38,7 +41,7 @@ export const es = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de privacidad</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Política de privacidad</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Regulaciones legales para servicios de IA</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de Privacidad</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Política de Privacidad</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Regulaciones Legales para Servicios de IA</a> | <a href="https://status.mind.com/">Estado del servicio</a>`,
     },
 
     localization: {
@@ -55,11 +58,11 @@ export const es = defineConfig({
       emailPlaceholder: "tu dirección de correo electrónico",
       phone: "Sitio corporativo *",
       phonePlaceholder: "ej., https://mind.com",
-      phoneError: "Por favor ingresa el número de teléfono",
+      phoneError: "Por favor ingrese el número de teléfono",
       category: "Por favor dinos cómo podemos ayudar *",
       categoryPlaceholder: "selecciona tipo de servicio",
       message: "Hablemos de tus objetivos (opcional)",
-      messagePlaceholder: "Por favor proporciona detalles adicionales (opcional)",
+      messagePlaceholder: "Proporciona detalles adicionales (opcional)",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
@@ -85,7 +88,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "¿Qué es InterMIND?", link: "overview/what-is-intermind" },
         { text: "Cómo funciona", link: "overview/how-it-works" },
         { text: "Plataforma de videoreuniones", link: "overview/video-meeting-platform" },
-        { text: "Privacidad regional de datos", link: "overview/privacy-architecture" },
+        { text: "Privacidad de datos regional", link: "overview/privacy-architecture" },
         { text: "Mercados prioritarios", link: "overview/markets" },
       ],
     },
@@ -100,7 +103,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Roles de usuario", link: "guide/user-roles" },
         { text: "Funciones de IA", link: "guide/ai-features" },
         { text: "Historial de reuniones", link: "guide/meeting-history" },
-        { text: "Preguntas frecuentes", link: "guide/faq" },
+        { text: "FAQ", link: "guide/faq" },
         { text: "Solución de problemas", link: "guide/troubleshooting" },
       ],
     },
@@ -110,12 +113,11 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
 function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Acerca de", link: "/about" },
-    { text: "Contacto", link: "/contacts" },
+    { text: "Equipo", link: "/team" },
+    { text: "Contactos", link: "/contacts" },
   ]
 }
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [
-    { text: "Kit de medios", link: "/media-kit" },
-  ]
+  return [{ text: "Kit de Medios", link: "/media-kit" }]
 }

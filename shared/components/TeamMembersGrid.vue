@@ -63,19 +63,19 @@ function replace(text: string, className: string, pattern = /\*\*(.*?)\*\*/g): s
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  margin: 24px auto;
+  margin: 28px auto;
 }
 
 .team-card {
   background: var(--vp-c-bg-soft);
   border-radius: 16px;
-  padding: 40px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 300px;
-  height: 300px;
+  width: 340px;
+  height: 340px;
   /* max-width: 260px;
   max-height: 300px; */
   box-sizing: border-box;

@@ -4,7 +4,7 @@ const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
   description:
-    "InterMINDは、すべてのビデオ通話にリアルタイム音声翻訳を追加し、国際チームが言語の壁によって取引、時間、明確さを失うことがないようにします。",
+    "InterMINDは、国際チームが言語の壁によって取引、時間、明確さを失うことがないよう、すべてのビデオ通話にリアルタイム音声翻訳を追加します。",
   head: [["meta", { property: "og:title", content: "同時通訳機能搭載のビデオ通話 | InterMIND" }]],
 
   themeConfig: {
@@ -20,11 +20,14 @@ export const ja = defineConfig({
         link: `${BASE_PATH}/company/about`,
       },
       {
+        text: "料金",
+        link: `${BASE_PATH}/#Pricing`,
+      },
+      {
         text: "リソース",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "料金", link: `${BASE_PATH}/#Pricing` },
-          { text: "よくある質問", link: `${BASE_PATH}/#FAQ` },
+          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "お客様の声", link: `${BASE_PATH}/#Testimonials` },
           { text: "メディアキット", link: `${BASE_PATH}/resources/media-kit` },
         ],
@@ -38,7 +41,7 @@ export const ja = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">プライバシー設定</a> | <a href="${BASE_PATH}/company/Privacy-Policy">プライバシーポリシー</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">AIサービスの法的規制</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">プライバシー設定</a> | <a href="${BASE_PATH}/company/Privacy-Policy">プライバシーポリシー</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">AIサービスの法的規制</a> | <a href="https://status.mind.com/">サービスステータス</a>`,
     },
 
     localization: {
@@ -100,7 +103,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "ユーザーロール", link: "guide/user-roles" },
         { text: "AI機能", link: "guide/ai-features" },
         { text: "会議履歴", link: "guide/meeting-history" },
-        { text: "よくある質問", link: "guide/faq" },
+        { text: "FAQ", link: "guide/faq" },
         { text: "トラブルシューティング", link: "guide/troubleshooting" },
       ],
     },
@@ -109,13 +112,12 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
 
 function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "企業情報", link: "/about" },
+    { text: "企業概要", link: "/about" },
+    { text: "チーム", link: "/team" },
     { text: "お問い合わせ", link: "/contacts" },
   ]
 }
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [
-    { text: "メディアキット", link: "/media-kit" },
-  ]
+  return [{ text: "メディアキット", link: "/media-kit" }]
 }

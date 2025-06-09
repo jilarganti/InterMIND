@@ -1,13 +1,13 @@
-# Chez InterMind, l'humain dirige — l'IA amplifie
+# في InterMind، البشر يقودون — والذكاء الاصطناعي يُعزز
 
-Ensemble, nous mélangeons créativité, code et compréhension pour effacer définitivement les barrières linguistiques.
+معاً، نمزج الإبداع والبرمجة والفهم لإزالة الحواجز اللغوية بشكل نهائي.
 
-## Équipe Humaine
+## الفريق البشري
 
 <TeamMembersGrid :members="[
   {
     name: 'Jilarganti',
-    desc: '**Apportant** de nouveaux esprits à InterMIND, EAU',
+    desc: '**جلب** عقول جديدة إلى InterMIND، الإمارات العربية المتحدة',
     avatarLink: 'https://github.com/jilarganti.png',
     links: [
       { icon: 'mdi:github', link: 'https://github.com/jilarganti' },
@@ -16,7 +16,7 @@ Ensemble, nous mélangeons créativité, code et compréhension pour effacer dé
   },
   {
     name: 'Windicted',
-    desc: '**Transformant** les utilisateurs en adeptes, Portugal',
+    desc: '**تحويل** المستخدمين إلى مؤمنين، البرتغال',
     avatarLink: 'https://secure.gravatar.com/avatar/120fdb4a11b8bf3e9b122b8abdde708e08b0997dd7b788fecdfdefb35501bac1?s=1600&d=identicon',
     links: [
       { icon: 'mdi:gitlab', link: 'https://gitlab.com/alexander.strikhalev' }
@@ -24,7 +24,7 @@ Ensemble, nous mélangeons créativité, code et compréhension pour effacer dé
   },
   {
     name: 'Andre',
-    desc: '**Maintenant** les esprits connectés, Russie',
+    desc: '**الحفاظ** على ترابط العقول، روسيا',
     avatarLink: 'https://gitlab.com/uploads/-/system/user/avatar/2413541/avatar.png?width=800',
     links: [
       { icon: 'mdi:gitlab', link: 'https://gitlab.com/andrey.semashev' }
@@ -32,7 +32,7 @@ Ensemble, nous mélangeons créativité, code et compréhension pour effacer dé
   },
   {
     name: 'Sfdev',
-    desc: '**Faisant** rester les utilisateurs — et sourire, Portugal',
+    desc: '**جعل** المستخدمين يبقون - ويبتسمون، البرتغال',
     avatarLink: 'https://secure.gravatar.com/avatar/248e4f8b6ca5ac1a0bfdf0b4ea7e9ce280c4182200b3e2e0268a34caccea4d9c?s=384&d=identicon',
     links: [
       { icon: 'mdi:gitlab', link: 'https://gitlab.com/sergei.fomin.sfdev' }
@@ -40,7 +40,7 @@ Ensemble, nous mélangeons créativité, code et compréhension pour effacer dé
   },
   {
     name: 'DMA',
-    desc: '**Transformant** les réunions en sens, Mondial',
+    desc: '**تحويل** الاجتماعات إلى معنى، في جميع أنحاء العالم',
     avatarLink: 'https://secure.gravatar.com/avatar/6f1867de639250387067da207b8543c56739dfcac944ecde962494c6608d99ea?s=1600&d=identicon',
     links: [
       { icon: 'mdi:gitlab', link: 'https://gitlab.com/petrov.dma' }
@@ -48,7 +48,7 @@ Ensemble, nous mélangeons créativité, code et compréhension pour effacer dé
   },
   {
     name: '👽',
-    desc: '**Alimentant** la collaboration active, Mondial',
+    desc: '**تعزيز** التعاون النشط، في جميع أنحاء العالم',
     avatarLink: 'https://secure.gravatar.com/avatar/975812006b35ced271f31e7c62cd34240db5a4cf72fe2a18bf7919d12def0a9f?s=1600&d=identicon',
     links: [
       { icon: 'mdi:gitlab', link: 'https://gitlab.com/vkorogodin' }
@@ -56,14 +56,14 @@ Ensemble, nous mélangeons créativité, code et compréhension pour effacer dé
   },
 ]" />
 
-## Équipe IA [^1]
+## فريق الذكاء الاصطناعي [^1]
 
-[^1]: Les membres de l\'équipe IA ne sont pas humains, mais ils sont essentiels à nos opérations. Ils nous assistent dans diverses tâches, de la programmation à la recherche, et nous aident à surmonter les barrières linguistiques. [Comprendre notre cadre et nos politiques en matière d\'IA ...](../company/Legal-Regulations-for-AI-Services)
+[^1]: أعضاء فريق الذكاء الاصطناعي ليسوا بشراً، ولكنهم جزء لا يتجزأ من عملياتنا. يساعدون في مختلف المهام، من البرمجة إلى البحث، ويساعدوننا في كسر حواجز اللغة. [تعرف على إطار عمل الذكاء الاصطناعي وسياساتنا ...](./Legal-Regulations-for-AI-Services)
 
 <TeamMembersGrid :members="[
   {
     name: 'Claude',
-    desc: '**Apporte** de la clarté aux conversations, États-Unis',
+    desc: '**يجلب** الوضوح للمحادثات، الولايات المتحدة الأمريكية',
     avatarLink: 'vscode-icons:file-type-claude',
     links: [
       { icon: 'rivet-icons:link', link: 'https://claude.ai/' }
@@ -71,7 +71,7 @@ Ensemble, nous mélangeons créativité, code et compréhension pour effacer dé
   },
   {
     name: 'Gemini',
-    desc: '**Connecte** les connaissances aux intentions, États-Unis',
+    desc: '**يربط** المعرفة بالقصد، الولايات المتحدة الأمريكية',
     avatarLink: 'material-icon-theme:gemini-ai',
     links: [
       { icon: 'rivet-icons:link', link: 'https://gemini.google.com/' }
@@ -79,7 +79,7 @@ Ensemble, nous mélangeons créativité, code et compréhension pour effacer dé
   },
   {
     name: 'ChatGPT',
-    desc: '**Interprète** avec nuance et mémoire, États-Unis',
+    desc: '**يفسر** بدقة وذاكرة، الولايات المتحدة الأمريكية',
     avatarLink: 'streamline-logos:openai-logo',
     links: [
       { icon: 'rivet-icons:link', link: 'https://chatgpt.com/' }
@@ -87,7 +87,7 @@ Ensemble, nous mélangeons créativité, code et compréhension pour effacer dé
   },
   {
     name: 'DeepSeek',
-    desc: '**Réfléchit** en code et raisonne en contexte, Chine',
+    desc: '**يفكر** في الكود ويستدل في السياق، الصين',
     avatarLink: 'arcticons:deepseek',
     links: [
       { icon: 'rivet-icons:link', link: 'https://chat.deepseek.com/' }

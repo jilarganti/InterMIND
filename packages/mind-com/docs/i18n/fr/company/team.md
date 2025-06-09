@@ -1,13 +1,13 @@
-# En InterMind, los humanos lideran — las IAs amplifican
+# Chez InterMind, l'humain dirige — l'IA amplifie
 
-Juntos, combinamos creatividad, código y comprensión para eliminar las barreras del idioma para siempre.
+Ensemble, nous mélangeons créativité, code et compréhension pour effacer définitivement les barrières linguistiques.
 
-## Equipo Humano
+## Équipe Humaine
 
 <TeamMembersGrid :members="[
   {
     name: 'Jilarganti',
-    desc: '**Trayendo** nuevas mentes a InterMIND, EAU',
+    desc: '**Apportant** de nouveaux esprits à InterMIND, EAU',
     avatarLink: 'https://github.com/jilarganti.png',
     links: [
       { icon: 'mdi:github', link: 'https://github.com/jilarganti' },
@@ -16,7 +16,7 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   },
   {
     name: 'Windicted',
-    desc: '**Convirtiendo** usuarios en creyentes, Portugal',
+    desc: '**Transformant** les utilisateurs en adeptes, Portugal',
     avatarLink: 'https://secure.gravatar.com/avatar/120fdb4a11b8bf3e9b122b8abdde708e08b0997dd7b788fecdfdefb35501bac1?s=1600&d=identicon',
     links: [
       { icon: 'mdi:gitlab', link: 'https://gitlab.com/alexander.strikhalev' }
@@ -24,7 +24,7 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   },
   {
     name: 'Andre',
-    desc: '**Manteniendo** mentes conectadas, Rusia',
+    desc: '**Maintenant** les esprits connectés, Russie',
     avatarLink: 'https://gitlab.com/uploads/-/system/user/avatar/2413541/avatar.png?width=800',
     links: [
       { icon: 'mdi:gitlab', link: 'https://gitlab.com/andrey.semashev' }
@@ -32,7 +32,7 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   },
   {
     name: 'Sfdev',
-    desc: '**Haciendo** que los usuarios permanezcan — y sonrían, Portugal',
+    desc: '**Faisant** rester les utilisateurs — et sourire, Portugal',
     avatarLink: 'https://secure.gravatar.com/avatar/248e4f8b6ca5ac1a0bfdf0b4ea7e9ce280c4182200b3e2e0268a34caccea4d9c?s=384&d=identicon',
     links: [
       { icon: 'mdi:gitlab', link: 'https://gitlab.com/sergei.fomin.sfdev' }
@@ -40,7 +40,7 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   },
   {
     name: 'DMA',
-    desc: '**Transformando** reuniones en significado, Mundial',
+    desc: '**Transformant** les réunions en sens, Mondial',
     avatarLink: 'https://secure.gravatar.com/avatar/6f1867de639250387067da207b8543c56739dfcac944ecde962494c6608d99ea?s=1600&d=identicon',
     links: [
       { icon: 'mdi:gitlab', link: 'https://gitlab.com/petrov.dma' }
@@ -48,7 +48,7 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   },
   {
     name: '👽',
-    desc: '**Impulsando** la colaboración activa, Mundial',
+    desc: '**Alimentant** la collaboration active, Mondial',
     avatarLink: 'https://secure.gravatar.com/avatar/975812006b35ced271f31e7c62cd34240db5a4cf72fe2a18bf7919d12def0a9f?s=1600&d=identicon',
     links: [
       { icon: 'mdi:gitlab', link: 'https://gitlab.com/vkorogodin' }
@@ -56,14 +56,14 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   },
 ]" />
 
-## Equipo de IA [^1]
+## Équipe IA [^1]
 
-[^1]: Los miembros del equipo de IA no son humanos, pero son parte integral de nuestras operaciones. Ayudan en diversas tareas, desde la programación hasta la investigación, y nos ayudan a romper las barreras del idioma. [Comprenda nuestro marco y políticas de IA ...](../company/Legal-Regulations-for-AI-Services)
+[^1]: Les membres de l\'équipe IA ne sont pas humains, mais ils sont essentiels à nos opérations. Ils nous assistent dans diverses tâches, de la programmation à la recherche, et nous aident à surmonter les barrières linguistiques. [Comprendre notre cadre et nos politiques en matière d\'IA ...](./Legal-Regulations-for-AI-Services)
 
 <TeamMembersGrid :members="[
   {
     name: 'Claude',
-    desc: '**Aportando** claridad a las conversaciones, EE.UU.',
+    desc: '**Apporte** de la clarté aux conversations, États-Unis',
     avatarLink: 'vscode-icons:file-type-claude',
     links: [
       { icon: 'rivet-icons:link', link: 'https://claude.ai/' }
@@ -71,7 +71,7 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   },
   {
     name: 'Gemini',
-    desc: '**Conectando** conocimiento con intención, EE.UU.',
+    desc: '**Connecte** les connaissances aux intentions, États-Unis',
     avatarLink: 'material-icon-theme:gemini-ai',
     links: [
       { icon: 'rivet-icons:link', link: 'https://gemini.google.com/' }
@@ -79,7 +79,7 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   },
   {
     name: 'ChatGPT',
-    desc: '**Interpretando** con matices y memoria, EE.UU.',
+    desc: '**Interprète** avec nuance et mémoire, États-Unis',
     avatarLink: 'streamline-logos:openai-logo',
     links: [
       { icon: 'rivet-icons:link', link: 'https://chatgpt.com/' }
@@ -87,7 +87,7 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   },
   {
     name: 'DeepSeek',
-    desc: '**Pensando** en código y razonando en contexto, China',
+    desc: '**Réfléchit** en code et raisonne en contexte, Chine',
     avatarLink: 'arcticons:deepseek',
     links: [
       { icon: 'rivet-icons:link', link: 'https://chat.deepseek.com/' }

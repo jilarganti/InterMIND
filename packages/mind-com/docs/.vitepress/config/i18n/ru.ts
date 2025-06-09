@@ -20,10 +20,13 @@ export const ru = defineConfig({
         link: `${BASE_PATH}/company/about`,
       },
       {
+        text: "Цены",
+        link: `${BASE_PATH}/#Pricing`,
+      },
+      {
         text: "Ресурсы",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "Цены", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Отзывы", link: `${BASE_PATH}/#Testimonials` },
           { text: "Медиа-кит", link: `${BASE_PATH}/resources/media-kit` },
@@ -38,7 +41,7 @@ export const ru = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Правовые нормы для AI-сервисов</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Правовые нормы для AI-сервисов</a> | <a href="https://status.mind.com/">Статус сервиса</a>`,
     },
 
     localization: {
@@ -58,14 +61,14 @@ export const ru = defineConfig({
       phoneError: "Пожалуйста, введите номер телефона",
       category: "Пожалуйста, расскажите, чем мы можем помочь *",
       categoryPlaceholder: "выберите тип услуги",
-      message: "Давайте обсудим ваши цели (необязательно)",
-      messagePlaceholder: "Пожалуйста, предоставьте дополнительные детали (необязательно)",
+      message: "Обсудим ваши цели (необязательно)",
+      messagePlaceholder: "Укажите дополнительные детали (необязательно)",
       submit: "Отправить запрос",
       sending: "Отправка...",
       successTitle: "Спасибо!",
       successMessage: "Мы очень ценим ваш интерес! Наша команда свяжется с вами в ближайшее время для обсуждения ваших потребностей.",
       defaultCategories: [
-        "Меня интересует синхронный перевод речи",
+        "Меня интересует синхронный перевод голоса",
         "Меня интересует AI-ассистент для встреч",
         "Меня интересует региональный контроль конфиденциальности и данных",
         "Другое / Не указано",
@@ -110,12 +113,11 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
 function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "О нас", link: "/about" },
+    { text: "Команда", link: "/team" },
     { text: "Контакты", link: "/contacts" },
   ]
 }
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [
-    { text: "Медиа-кит", link: "/media-kit" },
-  ]
+  return [{ text: "Медиа-кит", link: "/media-kit" }]
 }

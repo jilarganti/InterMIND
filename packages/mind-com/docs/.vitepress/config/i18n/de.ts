@@ -4,8 +4,8 @@ const BASE_PATH = "/de"
 
 export const de = defineConfig({
   description:
-    "InterMIND fügt Echtzeit-Sprachübersetzung zu jedem Videoanruf hinzu, damit internationale Teams niemals Geschäfte, Zeit oder Klarheit durch Sprachbarrieren verlieren.",
-  head: [["meta", { property: "og:title", content: "Videoanrufe mit Simultanübersetzung | InterMIND" }]],
+    "InterMIND fügt Echtzeit-Sprachübersetzung zu jedem Videoanruf hinzu, damit internationale Teams keine Geschäfte, Zeit oder Klarheit durch Sprachbarrieren verlieren.",
+  head: [["meta", { property: "og:title", content: "Videoanrufe mit Simultandolmetschen | InterMIND" }]],
 
   themeConfig: {
     nav: [
@@ -20,13 +20,16 @@ export const de = defineConfig({
         link: `${BASE_PATH}/company/about`,
       },
       {
+        text: "Preise",
+        link: `${BASE_PATH}/#Pricing`,
+      },
+      {
         text: "Ressourcen",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "Preise", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Referenzen", link: `${BASE_PATH}/#Testimonials` },
-          { text: "Media Kit", link: `${BASE_PATH}/resources/media-kit` },
+          { text: "Medienkit", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
     ],
@@ -38,7 +41,7 @@ export const de = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Datenschutzeinstellungen</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Datenschutzerklärung</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Rechtliche Bestimmungen für KI-Dienste</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Datenschutzeinstellungen</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Datenschutzerklärung</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Rechtliche Bestimmungen für KI-Dienste</a> | <a href="https://status.mind.com/">Servicestatus</a>`,
     },
 
     localization: {
@@ -65,9 +68,9 @@ export const de = defineConfig({
       successTitle: "Vielen Dank!",
       successMessage: "Wir schätzen Ihr Interesse sehr! Unser Team wird Sie in Kürze kontaktieren, um Ihre Bedürfnisse zu besprechen.",
       defaultCategories: [
-        "Ich interessiere mich für Echtzeit-Sprachübersetzung",
+        "Ich interessiere mich für Echtzeit-Sprachdolmetschen",
         "Ich interessiere mich für den KI-Meeting-Assistenten",
-        "Ich interessiere mich für regionsbasierte Datenschutzkontrolle",
+        "Ich interessiere mich für regionsbasierte Datenschutz- und Datenkontrolle",
         "Sonstiges / Nicht aufgeführt",
       ],
 
@@ -110,12 +113,11 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
 function sidebarCompany(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Über uns", link: "/about" },
+    { text: "Team", link: "/team" },
     { text: "Kontakt", link: "/contacts" },
   ]
 }
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [
-    { text: "Media Kit", link: "/media-kit" },
-  ]
+  return [{ text: "Medienkit", link: "/media-kit" }]
 }

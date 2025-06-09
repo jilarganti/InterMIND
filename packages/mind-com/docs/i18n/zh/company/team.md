@@ -1,4 +1,4 @@
-# 在InterMind，人类引领 — 人工智能助力
+# 在 InterMind，人类引领 — 人工智能赋能
 
 携手融合创意、代码与理解，永久消除语言障碍。
 
@@ -58,7 +58,7 @@
 
 ## AI 团队 [^1]
 
-[^1]: AI 团队成员虽非人类，但他们是我们运营中不可或缺的一部分。他们协助各种任务，从编程到研究，并帮助我们打破语言障碍。[了解我们的 AI 框架和政策...](../company/Legal-Regulations-for-AI-Services)
+[^1]: AI 团队成员虽非人类，但他们是我们运营中不可或缺的一部分。他们协助各种任务，从编程到研究，并帮助我们打破语言障碍。[了解我们的 AI 框架和政策...](./Legal-Regulations-for-AI-Services)
 
 <TeamMembersGrid :members="[
   {
