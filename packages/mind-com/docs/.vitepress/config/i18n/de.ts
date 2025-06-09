@@ -5,7 +5,7 @@ const BASE_PATH = "/de"
 export const de = defineConfig({
   description:
     "InterMIND fügt Echtzeit-Sprachübersetzung zu jedem Videoanruf hinzu, damit internationale Teams keine Geschäfte, Zeit oder Klarheit durch Sprachbarrieren verlieren.",
-  head: [["meta", { property: "og:title", content: "Videoanrufe mit Simultandolmetschen | InterMIND" }]],
+  head: [["meta", { property: "og:title", content: "Videoanrufe mit Simultanübersetzung | InterMIND" }]],
 
   themeConfig: {
     nav: [
@@ -56,22 +56,22 @@ export const de = defineConfig({
       namePlaceholder: "Ihr Name",
       email: "E-Mail *",
       emailPlaceholder: "Ihre E-Mail-Adresse",
-      phone: "Firmenwebsite *",
-      phonePlaceholder: "z.B. https://mind.com",
-      phoneError: "Bitte Telefonnummer eingeben",
-      category: "Bitte teilen Sie uns mit, wie wir helfen können *",
-      categoryPlaceholder: "Servicetyp auswählen",
+      webSite: "Unternehmenswebsite *",
+      webSitePlaceholder: "z.B. https://firmenname.com",
+      webSiteError: "Bitte geben Sie die Website ein",
+      category: "Was ist Ihr primäres Ziel? *",
+      categoryPlaceholder: "Wählen Sie, was am wichtigsten ist",
       message: "Lassen Sie uns Ihre Ziele besprechen (optional)",
       messagePlaceholder: "Bitte geben Sie zusätzliche Details an (optional)",
       submit: "Anfrage senden",
       sending: "Wird gesendet...",
       successTitle: "Vielen Dank!",
-      successMessage: "Wir schätzen Ihr Interesse sehr! Unser Team wird Sie in Kürze kontaktieren, um Ihre Bedürfnisse zu besprechen.",
+      successMessage: "Wir haben Ihre Nachricht erhalten — unser Team wird sich in Kürze bei Ihnen melden.",
       defaultCategories: [
-        "Ich interessiere mich für Echtzeit-Sprachdolmetschen",
-        "Ich interessiere mich für den KI-Meeting-Assistenten",
-        "Ich interessiere mich für regionsbasierte Datenschutz- und Datenkontrolle",
-        "Sonstiges / Nicht aufgeführt",
+        "Sprachbarrieren in Meetings beseitigen",
+        "Meetings durchsuchbar und umsetzbar machen",
+        "Compliance & Datenresidenz sicherstellen (EU / US / Asien)",
+        "Nur zur Information / Sonstiges",
       ],
 
       defaultButtonText: "Senden Sie uns eine Nachricht",
@@ -86,9 +86,9 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Was ist InterMIND?", link: "overview/what-is-intermind" },
-        { text: "Wie es funktioniert", link: "overview/how-it-works" },
+        { text: "Funktionsweise", link: "overview/how-it-works" },
         { text: "Video-Meeting-Plattform", link: "overview/video-meeting-platform" },
-        { text: "Regionaler Datenschutz", link: "overview/privacy-architecture" },
+        { text: "Regionale Datenschutzarchitektur", link: "overview/privacy-architecture" },
         { text: "Prioritätsmärkte", link: "overview/markets" },
       ],
     },

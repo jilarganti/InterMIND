@@ -27,9 +27,9 @@ export const es = defineConfig({
         text: "Recursos",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
+          { text: "Preguntas frecuentes", link: `${BASE_PATH}/#FAQ` },
           { text: "Testimonios", link: `${BASE_PATH}/#Testimonials` },
-          { text: "Kit de Medios", link: `${BASE_PATH}/resources/media-kit` },
+          { text: "Kit de medios", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
     ],
@@ -41,7 +41,7 @@ export const es = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de Privacidad</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Política de Privacidad</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Regulaciones Legales para Servicios de IA</a> | <a href="https://status.mind.com/">Estado del servicio</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de privacidad</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Política de privacidad</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Regulaciones legales para servicios de IA</a> | <a href="https://status.mind.com/">Estado del servicio</a>`,
     },
 
     localization: {
@@ -56,22 +56,22 @@ export const es = defineConfig({
       namePlaceholder: "tu nombre",
       email: "Correo electrónico *",
       emailPlaceholder: "tu dirección de correo electrónico",
-      phone: "Sitio corporativo *",
-      phonePlaceholder: "ej., https://mind.com",
-      phoneError: "Por favor ingrese el número de teléfono",
-      category: "Por favor dinos cómo podemos ayudar *",
-      categoryPlaceholder: "selecciona tipo de servicio",
+      webSite: "Sitio web de la empresa *",
+      webSitePlaceholder: "ej. https://nombreempresa.com",
+      webSiteError: "Por favor ingrese el sitio web",
+      category: "¿Cuál es tu objetivo principal? *",
+      categoryPlaceholder: "Elige lo que más te importa",
       message: "Hablemos de tus objetivos (opcional)",
       messagePlaceholder: "Proporciona detalles adicionales (opcional)",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
-      successMessage: "¡Agradecemos mucho tu interés! Nuestro equipo te contactará pronto para discutir tus necesidades.",
+      successMessage: "Hemos recibido tu mensaje — nuestro equipo se pondrá en contacto pronto.",
       defaultCategories: [
-        "Me interesa la interpretación de voz en tiempo real",
-        "Me interesa el asistente de reuniones con IA",
-        "Me interesa el control de privacidad y datos por región",
-        "Otro / No listado",
+        "Eliminar barreras lingüísticas en reuniones",
+        "Hacer las reuniones rastreables y procesables",
+        "Garantizar el cumplimiento y residencia de datos (UE / EE.UU. / Asia)",
+        "Solo explorando / Otro",
       ],
 
       defaultButtonText: "Envíanos un mensaje",
@@ -103,7 +103,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Roles de usuario", link: "guide/user-roles" },
         { text: "Funciones de IA", link: "guide/ai-features" },
         { text: "Historial de reuniones", link: "guide/meeting-history" },
-        { text: "FAQ", link: "guide/faq" },
+        { text: "Preguntas frecuentes", link: "guide/faq" },
         { text: "Solución de problemas", link: "guide/troubleshooting" },
       ],
     },
@@ -118,5 +118,5 @@ function sidebarCompany(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Kit de Medios", link: "/media-kit" }]
+  return [{ text: "Kit de medios", link: "/media-kit" }]
 }
