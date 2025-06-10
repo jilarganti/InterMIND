@@ -19,21 +19,17 @@ To edit and download, right click and select Edit image
 ## Logo
 
 <br>
-<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="logo" width="300" >
-
-## Favicon
+<img src="/logo.png" class="transparency-grid" alt="logo" width="300" >
 
 <br>
-<img src="/favicon.svg" alt="favicon" width="100">
+<img src="/logo.svg" class="transparency-grid" alt="logo" width="100">
 
 ## Brand Colors
 
 <br>
 
 ```
-primary: #bc694a
-light: #73251a
-dark: #b16b2a
+-webkit-linear-gradient(90deg, #bb6622 0%, #dd9144 50%, #ffbb66 100%)
 ```
 
 ## Promotional Images
