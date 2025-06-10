@@ -196,3 +196,42 @@ From first call to fluent conversations — at any scale.
   }
 ]
 "/>
+
+<HomeFooter :columns="[
+  {
+    title: 'PRODUCT',
+    links: [
+      { text: 'Overview', link: '/product/overview/what-is-intermind' },
+      { text: 'Guide', link: '/product/guide/getting-started' },
+      { text: 'Testimonials', link: '#testimonials' },
+      { text: 'Pricing', link: '#Pricing' },
+    ]
+  },
+  {
+    title: 'SUPPORT',
+    links: [
+      { text: 'FAQ', link: '#FAQ' },
+      { text: 'Contact Support', link: '/docs' },
+      { text: 'Service status', link: 'https://status.mind.com/' },
+      { text: 'LLM version of the website documentation', link: 'https://mind.com/llms-full.txt' },
+      // { text: 'Privacy Settings', link: '/docs' },
+      // { text: 'Legal-Regulations-for-AI-Services', link: '/docs' },
+      // { text: 'Privacy Policy', link: '/examples' }
+    ]
+  },
+  {
+    title: 'RESOURCES',
+    links: [
+      { text: 'Media Kit', link: '/resources/media-kit' },
+      // { text: 'Примеры', link: '/examples' }
+    ]
+  },
+  {
+    title: 'COMPANY',
+    links: [
+      { text: 'Blog', link: 'https://github.com' },
+      { text: 'Careers', link: 'https://discord.com' },
+      { text: 'About', link: 'https://discord.com' }
+    ]
+  }
+]" />

@@ -16,6 +16,7 @@ import AccordionGroup from "./AccordionGroup.vue"
 import AutoScrollTestimonials from "./AutoScrollTestimonials.vue"
 import ImageGrid from "./ImageGrid.vue"
 import TeamMembersGrid from "./TeamMembersGrid.vue"
+import HomeFooter from "./HomeFooter.vue"
 
 interface Components {
   [key: string]: Component
@@ -38,4 +39,5 @@ export const components: Components = {
   AutoScrollTestimonials,
   ImageGrid,
   TeamMembersGrid,
+  HomeFooter,
 }

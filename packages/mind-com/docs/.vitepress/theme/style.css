@@ -464,6 +464,10 @@ code {
   animation: none;
 }
 
+.VPFooter {
+  --vp-c-gutter: transparent;
+}
+
 @keyframes shrinkText {
   to {
     font-size: 4rem;

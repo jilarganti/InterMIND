@@ -14,11 +14,11 @@ export const en = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-      {
-        text: "Company",
-        activeMatch: `${BASE_PATH}/company/`,
-        link: `${BASE_PATH}/company/about`,
-      },
+      // {
+      //   text: "Company",
+      //   activeMatch: `${BASE_PATH}/company/`,
+      //   link: `${BASE_PATH}/company/about`,
+      // },
       {
         text: "Pricing",
         // activeMatch: `${BASE_PATH}/company/`,
@@ -35,7 +35,7 @@ export const en = defineConfig({
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Testimonials", link: `${BASE_PATH}/#Testimonials` },
           // { text: "Team", link: `${BASE_PATH}/resources/team` },
-          { text: "Media Kit", link: `${BASE_PATH}/resources/media-kit` },
+          // { text: "Media Kit", link: `${BASE_PATH}/resources/media-kit` },
         ],
         //   },
         // ],
