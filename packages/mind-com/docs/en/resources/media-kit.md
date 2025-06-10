@@ -29,7 +29,7 @@ To edit and download, right click and select Edit image
 <br>
 
 ```
--webkit-linear-gradient(90deg, #bb6622 0%, #dd9144 50%, #ffbb66 100%)
+-webkit-linear-gradient(90deg, #994a11 0%, #cc833c 50%, #ffbb66 100%)
 ```
 
 ## Promotional Images

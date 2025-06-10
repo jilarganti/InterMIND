@@ -33,7 +33,7 @@
 
   --vp-c-red-border: #fbe6e9;
 
-  --vp-hl-color: #73251a;
+  --vp-hl-color: #994a11;
 }
 
 .dark {
@@ -135,7 +135,7 @@
  * -------------------------------------------------------------------------- */
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(90deg, #bb6622 0%, #dd9144 50%, #ffbb66 100%);
+  --vp-home-hero-name-background: -webkit-linear-gradient(90deg, #994a11 0%, #cc833c 50%, #ffbb66 100%);
 
   /* --vp-home-hero-name-color: transparent; */
   /* --vp-home-hero-name-background: -webkit-linear-gradient(0deg,
@@ -173,43 +173,14 @@
 
 /* Highlight color for both light and dark themes */
 
-:root {
-  --vp-hl-color-light: #84400b;
-  /* Highlight color for light theme */
-  --vp-hl-bg-light: rgba(255, 239, 213, 0.3);
-  /* Optional background color for light theme */
-}
-
-.dark {
-  --vp-hl-color-dark: #ffb36b;
-  /* Highlight color for dark theme */
-  --vp-hl-bg-dark: rgba(174, 96, 64, 0.3);
-  /* Optional background color for dark theme */
-}
-
-/* Highlight class for both light and dark themes */
-
 .hl {
-  color: var(--vp-hl-color-light);
+  color: var(--vp-hl-color);
   font-weight: bold;
 }
 
 .dark .hl {
-  color: var(--vp-hl-color-dark);
+  color: var(--vp-hl-color);
   font-weight: bold;
-}
-
-/* Optional: Background for highlights */
-.hl-background {
-  background-color: var(--vp-hl-bg-light);
-  padding: 0.2em;
-  border-radius: 3px;
-}
-
-.dark .hl-background {
-  background-color: var(--vp-hl-bg-dark);
-  padding: 0.2em;
-  border-radius: 3px;
 }
 
 h1.name {
