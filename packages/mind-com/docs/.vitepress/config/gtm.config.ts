@@ -26,9 +26,12 @@ export const gtmHead: HeadConfig[] = [
       // Устанавливаем значение "denied" по умолчанию для всех типов хранения
       gtag("consent", "default", {
         ad_user_data: "denied",
-        ad_personalization: "denied",
+        ad_personalization: "denied", 
         ad_storage: "denied",
-        analytics_storage: "denied",
+        personalization_storage: "denied",
+        analytics_storage: "granted",
+        functionality_storage: "granted",
+        security_storage: "granted",
         wait_for_update: 2000
       });
 
