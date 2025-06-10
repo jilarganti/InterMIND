@@ -22,7 +22,7 @@ To edit and download, right click and select Edit image
 <img src="/logo.png" class="transparency-grid" alt="logo" width="300" >
 
 <br>
-<img src="/logo.svg" alt="logo" width="100">
+<img src="/logo.svg" class="transparency-grid" alt="logo" width="100">
 
 ## Brand Colors
 
