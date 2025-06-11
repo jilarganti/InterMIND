@@ -1,36 +1,34 @@
 ---
-# footer: false
-# sidebar: false
-# aside: false
-# next: false
-hideComponents:
-  - NavButton
-
-description: "Have questions about AI meeting interpretation, multilingual collaboration, or enterprise deployment? Contact InterMind to discuss your use case, integration, or team onboarding."
+description: "Want to partner with InterMind, invest, or reach our executive team? Use this form for business inquiries, media requests, or legal matters."
 ---
 
-# 🤝 Need Instant Multilingual Meetings? Let’s Talk.
+# 🤝 Want to Reach InterMind? Let’s Connect.
 
-Whether you're exploring InterMind for your global team or looking to integrate interpretation into your product — we’re happy to help.
+Use this form to contact our company team directly —  
+for partnerships, investments, media, compliance, or other business-related matters.
+
+We’ll make sure your message reaches the right person.
 
 <br>
 
 <ContactFormModalNav  
   formStyle="margin: 1rem auto;"  
-  categoryLabel="What would you like to talk about?"  
-  categoryPlaceholderText="Choose your focus..."  
+  categoryLabel="What is your reason for contacting us?"  
+  categoryPlaceholderText="Choose your topic..."  
   messageLabel="Message (optional)"  
-  messagePlaceholderText="Feel free to include use case, timeline, or anything else you'd like to share."  
-  buttonText="Contact our team"  
+  messagePlaceholderText="Share any relevant background, timelines, or context you'd like us to consider."  
+  buttonText="Send your message"  
   :services="[
-    'I want to explore use cases for my team',
-    'I’d like to request a demo',
-    'I’m looking for enterprise rollout options',
-    'I have questions about pricing or features',
+    'I want to explore a partnership',
+    'I’m interested in investing',
+    'I have a media or PR inquiry',
+    'I have a legal or compliance matter',
+    'I want to report abuse or misconduct',
     'Something else'
   ]"
 />
 
 <br>
 
-> [!note] We usually respond within one business day. Your request will be reviewed by a real human — not a bot.
+> [!tip] Need product-related help?  
+> Visit our [Support Page](../help) for fast answers and assistance from the InterMind team.

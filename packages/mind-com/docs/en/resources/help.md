@@ -20,7 +20,6 @@ Fast, focused, and with a real human on the other end.
     'I want to try InterMind in my language', 
     'I’d like a demo',
     'I’m reporting a technical issue',
-    'I’m interested in a partnership',
     'Something else'
   ]" />
 
