@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started <Badge type="warning" text="beta" />
 
 Welcome to iMind Meeting, an advanced AI-powered video conferencing platform designed to enhance communication seamlessly. This platform includes features such as real-time translation and a virtual assistant named Jarvis.
 

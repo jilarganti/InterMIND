@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import VPLink from "vitepress/dist/client/theme-default/components/VPLink.vue"
+
 defineProps<{
   columns: {
     title: string
@@ -15,10 +17,9 @@ defineProps<{
           <h4>{{ column.title }}</h4>
           <ul>
             <li v-for="(item, linkIndex) in column.links" :key="linkIndex">
-              <a :href="item.link" class="footer-link" target="_blank" rel="noopener">
+              <VPLink :href="item.link" class="footer-link">
                 {{ item.text }}
-                <span v-if="item.link.startsWith('http')" class="external-indicator">↗</span>
-              </a>
+              </VPLink>
             </li>
           </ul>
         </div>
@@ -29,9 +30,8 @@ defineProps<{
 
 <style scoped>
 .home-footer {
-  /* background: var(--vp-c-bg-alt); */
   padding: 32px;
-  margin-bottom: -7rem; /* Убираем отступ снизу */
+  margin-bottom: -7rem;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
   border-top: 20px solid var(--vp-c-bg-soft);
@@ -50,7 +50,7 @@ defineProps<{
 }
 
 .footer-column {
-  min-width: 0; /* Позволяет тексту переноситься */
+  min-width: 0;
 }
 
 h4 {
@@ -73,17 +73,4 @@ ul {
   display: inline-block;
   margin-bottom: em;
 }
-
-.external-indicator {
-  font-size: 0.8em;
-  margin-left: 0.25em;
-  opacity: 0.7;
-}
-
-/* @media (max-width: 768px) {
-  .footer-columns {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-} */
 </style>

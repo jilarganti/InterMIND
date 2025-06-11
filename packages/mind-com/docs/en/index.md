@@ -201,8 +201,8 @@ From first call to fluent conversations — at any scale.
   {
     title: 'PRODUCT',
     links: [
-      { text: 'Overview', link: '/product/overview/what-is-intermind' },
-      { text: 'Guide', link: '/product/guide/getting-started' },
+      { text: 'Overview', link: './product/overview/what-is-intermind' },
+      { text: 'Guide', link: './product/guide/getting-started' },
       { text: 'Testimonials', link: '#testimonials' },
       { text: 'Pricing', link: '#Pricing' },
     ]
@@ -210,28 +210,29 @@ From first call to fluent conversations — at any scale.
   {
     title: 'SUPPORT',
     links: [
+      { text: 'Help', link: './support/help' },
       { text: 'FAQ', link: '#FAQ' },
-      { text: 'Contact Support', link: '/docs' },
       { text: 'Service status', link: 'https://status.mind.com/' },
-      { text: 'LLM version of the website documentation', link: 'https://mind.com/llms-full.txt' },
-      // { text: 'Privacy Settings', link: '/docs' },
-      // { text: 'Legal-Regulations-for-AI-Services', link: '/docs' },
-      // { text: 'Privacy Policy', link: '/examples' }
+      { text: 'Privacy Policy', link: './company/Privacy-Policy' },
+      { text: 'Legal-Regulations-for-AI-Services', link: './company/Legal-Regulations-for-AI-Services' },
+      // { text: 'Privacy Settings', link: '#' },
     ]
   },
   {
     title: 'RESOURCES',
     links: [
-      { text: 'Media Kit', link: '/resources/media-kit' },
-      // { text: 'Примеры', link: '/examples' }
+      { text: 'Blog', link: './blog' },
+      { text: 'Media Kit', link: './resources/media-kit' },
+      { text: 'LLM version of the website documentation', link: 'https://mind.com/llms-full.txt' },
     ]
   },
   {
     title: 'COMPANY',
     links: [
-      { text: 'Blog', link: 'https://github.com' },
-      { text: 'Careers', link: 'https://discord.com' },
-      { text: 'About', link: 'https://discord.com' }
+      { text: 'About', link: './company/about' },
+      { text: 'Team', link: './company/team' },
+      { text: 'Careers', link: './company/careers' },
+      { text: 'Contacts', link: './company/contacts' }
     ]
   }
 ]" />
