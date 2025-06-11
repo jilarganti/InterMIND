@@ -138,7 +138,7 @@ From first call to fluent conversations — at any scale.
 <ContactFormModalNav buttonText="Talk to our team" buttonClass="alt"/>
 </PricingPlans>
 
-> [!warning] 🛑 Either you speak every language — or someone else closes your deals.
+> [!warning] 😱 Either you speak every language — or someone else closes your deals.
 
 <span id="Testimonials"></span>
 
@@ -146,7 +146,7 @@ From first call to fluent conversations — at any scale.
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-> [!note] ✅ Your time is better spent mastering your craft — not memorizing grammar.
+> [!tip] 🥇 Your time is better spent mastering your craft — not memorizing grammar.
 
 <span id="FAQ"></span>
 
