@@ -213,8 +213,8 @@ From first call to fluent conversations — at any scale.
       { text: 'Get Support', link: './resources/help' },
       { text: 'FAQ', link: '#FAQ' },
       { text: 'Service Status', link: 'https://status.mind.com/' },
-      { text: 'Privacy Policy', link: './company/Privacy-Policy' },
-      { text: 'AI Legal Guide', link: './company/Legal-Regulations-for-AI-Services' },
+      { text: 'Privacy Policy', link: './resources/company/Privacy-Policy' },
+      { text: 'AI Legal Guide', link: './resources/company/Legal-Regulations-for-AI-Services' },
       // { text: 'Privacy Settings', link: '#' },
     ]
   },
@@ -229,10 +229,10 @@ From first call to fluent conversations — at any scale.
   {
     title: 'COMPANY',
     links: [
-      { text: 'About', link: './company/about' },
-      // { text: 'Team', link: './company/team' },
-      // { text: 'Careers', link: './company/careers' },
-      { text: 'Contacts', link: './company/contacts' }
+      { text: 'About', link: './resources/company/about' },
+      // { text: 'Team', link: './resources/company/team' },
+      // { text: 'Careers', link: './resources/company/careers' },
+      { text: 'Contacts', link: './resources/company/contacts' }
     ]
   }
 ]" />

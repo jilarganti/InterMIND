@@ -102,7 +102,7 @@ We may update this Privacy Policy periodically. The updated version will be indi
 
 If you have any questions about this Privacy Policy or our data practices, please contact our Data Protection Officer at:
 
-- **Email:** info@goldenfish.ae, never@mind.com
+- **Email:** support@mind.com
 - **Address:** City Avenue Building, Office 405-070, Port Saeed, Dubai, UAE
 - **Phone:** +971 058 574 88 06
 - **WhatsApp:** +971 058 574 88 06
@@ -111,5 +111,3 @@ If you have any questions about this Privacy Policy or our data practices, pleas
 
 - **License No:** 1414192
 - **Register No:** 2411728
-
-<ContactFormModalNav  buttonClass="alt"/>

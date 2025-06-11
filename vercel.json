@@ -1,3 +1,11 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+
+  "redirects": [
+    {
+      "source": "/company/:slug",
+      "destination": "/resources/company/:slug",
+      "permanent": true
+    }
+  ]
 }

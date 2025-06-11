@@ -44,7 +44,7 @@ export const en = defineConfig({
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
+      // [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
     },
 
@@ -91,7 +91,7 @@ export const en = defineConfig({
 function sidebarProduct(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Overview",
+      text: "OVERVIEW",
       collapsed: false,
       items: [
         { text: "What is InterMIND?", link: "overview/what-is-intermind" },
@@ -102,7 +102,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "Guide",
+      text: "GUIDE",
       collapsed: false,
       items: [
         { text: "Getting Started", link: "guide/getting-started" },
@@ -119,17 +119,42 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarCompany(): DefaultTheme.SidebarItem[] {
+function sidebarResources(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "About", link: "/about" },
-    // { text: "Team", link: "/team" },
-    { text: "Contacts", link: "/contacts" },
+    {
+      text: "SUPPORT",
+      collapsed: false,
+      items: [
+        { text: "Get Support", link: "/help" },
+        // { text: "How it Works", link: "overview/how-it-works" },
+      ],
+    },
+    {
+      text: "RESOURCES",
+      collapsed: false,
+      items: [
+        { text: "Brand Assets", link: "/media-kit" },
+        // { text: "Account Management", link: "guide/account-management" },
+      ],
+    },
+    {
+      text: "COMPANY",
+      collapsed: false,
+      items: [
+        { text: "About", link: "/company/about" },
+        // { text: "Team", link: "/team" },
+        { text: "Contacts", link: "/company/contacts" },
+      ],
+    },
   ]
 }
 
-function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [
-    { text: "Get Support", link: "/help" },
-    { text: "Brand Assets", link: "/media-kit" },
-  ]
-}
+// function sidebarResources(): DefaultTheme.SidebarItem[] {
+//   return [
+//     { text: "About", link: "/about" },
+//     // { text: "Team", link: "/team" },
+//     { text: "Contacts", link: "/contacts" },
+//     { text: "Get Support", link: "/help" },
+//     { text: "Brand Assets", link: "/media-kit" },
+//   ]
+// }
