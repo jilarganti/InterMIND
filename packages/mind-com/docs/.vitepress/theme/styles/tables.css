@@ -1,0 +1,48 @@
+/* Стили для таблиц */
+/* @media (max-width: 768px) {
+  :root {
+    --vp-layout-max-width: 100%;
+  }
+} */
+
+.VPDoc table {
+  /* width: 100% !important; */
+  display: table;
+  /* margin: 20px 0; */
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  background-color: var(--vp-custom-block-caution-border) !important;
+}
+
+/* Специальная обработка для таблиц - контейнер с горизонтальной прокруткой */
+.vp-doc table {
+  display: inline-table;
+  overflow-x: auto;
+  max-width: 100%;
+  white-space: nowrap; /* Опционально - предотвращает перенос в ячейках */
+}
+
+/* При необходимости можно сделать индикатор прокрутки для таблиц */
+.vp-doc table::after {
+  content: "⟷ Прокрутите для просмотра";
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #999;
+  padding: 0.5rem 0;
+  /* Показываем только если есть горизонтальная прокрутка */
+  display: none;
+}
+
+.vp-doc table::-webkit-scrollbar {
+  height: 8px;
+}
+
+.vp-doc table::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
