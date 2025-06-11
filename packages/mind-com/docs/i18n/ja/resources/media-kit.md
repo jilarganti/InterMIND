@@ -8,32 +8,28 @@
 
 ### Title
 
-- ビデオ通話でのリアルタイム音声翻訳。
-- ビデオ通話でのライブ音声翻訳 — **遅延なし**、**商談の失敗なし**、**言語の壁なし**。
+- ビデオ通話でのリアルタイム音声翻訳
+- ビデオ通話でのライブ音声翻訳 — **遅延なし**、**商談の失敗なし**、**言語の壁なし**
 
 ### Description
 
-- **国際チーム**向けのビデオ通話でのライブ音声翻訳。言語の壁による**遅延、商談の失敗、高額な誤解**を解消。
+- **国際チーム**向けのビデオ通話でのライブ音声翻訳 — 言語の壁による**遅延、商談の失敗、高額な誤解**を解消
 - InterMINDはすべてのビデオ通話にリアルタイム音声翻訳を追加し、国際チームが言語の壁により商談、時間、明確さを失うことはありません。
 
 ## ロゴ
 
 <br>
-<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="ロゴ" width="300" >
-
-## ファビコン
+<img src="/logo.png" class="transparency-grid" alt="ロゴ" width="300" >
 
 <br>
-<img src="/favicon.svg" alt="ファビコン" width="100">
+<img src="/logo.svg" class="transparency-grid" alt="ロゴ" width="100">
 
 ## ブランドカラー
 
 <br>
 
 ```
-primary: #bc694a
-light: #73251a
-dark: #b16b2a
+-webkit-linear-gradient(90deg, #994a11 0%, #cc833c 50%, #ffbb66 100%)
 ```
 
 ## プロモーション画像

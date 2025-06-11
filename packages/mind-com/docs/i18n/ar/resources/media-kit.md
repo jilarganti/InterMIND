@@ -19,21 +19,17 @@
 ## الشعار
 
 <br>
-<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="شعار" width="300" >
-
-## الأيقونة المفضلة
+<img src="/logo.png" class="transparency-grid" alt="شعار" width="300" >
 
 <br>
-<img src="/favicon.svg" alt="الأيقونة المفضلة" width="100">
+<img src="/logo.svg" class="transparency-grid" alt="شعار" width="100">
 
 ## ألوان العلامة التجارية
 
 <br>
 
 ```
-primary: #bc694a
-light: #73251a
-dark: #b16b2a
+-webkit-linear-gradient(90deg, #994a11 0%, #cc833c 50%, #ffbb66 100%)
 ```
 
 ## الصور الترويجية

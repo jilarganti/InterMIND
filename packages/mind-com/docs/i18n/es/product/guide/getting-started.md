@@ -1,4 +1,4 @@
-# Primeros Pasos
+# Primeros Pasos <Badge type="warning" text="beta" />
 
 Bienvenido a iMind Meeting, una plataforma avanzada de videoconferencias potenciada por IA diseñada para mejorar la comunicación de manera fluida. Esta plataforma incluye características como traducción en tiempo real y un asistente virtual llamado Jarvis.
 
@@ -8,10 +8,10 @@ iMind Meeting está optimizado tanto para uso de escritorio como móvil, permiti
 
 ### Dispositivos Compatibles
 
-- Laptops y tablets Windows
-- Laptops macOS
-- Smartphones y tablets Android
-- Smartphones y tablets iOS
+- Portátiles y tabletas Windows
+- Portátiles macOS
+- Smartphones y tabletas Android
+- Smartphones y tabletas iOS
 
 ### Cómo Acceder
 
@@ -45,7 +45,7 @@ iMind Meeting está optimizado tanto para uso de escritorio como móvil, permiti
 
 - Traductor de Audio en Línea
 - Asistente de Voz
-- Asistente AI
+- Asistente de IA
 - Mensajes durante la llamada
 - Grabación de pantalla
 - Compartir pantalla (solo navegadores de escritorio)
@@ -61,7 +61,7 @@ Para garantizar una experiencia fluida:
 - Usa una conexión a internet estable (se prefiere Wi-Fi o Ethernet)
 - Mantén una velocidad mínima de carga/descarga de 2 Mbps
   - Se recomiendan 5+ Mbps para videos HD
-- Cierra pestañas no utilizadas y aplicaciones en segundo plano
+- Cierra las pestañas no utilizadas y aplicaciones en segundo plano
 
 > [!INFO]
 > Mantener tu navegador actualizado es esencial para un rendimiento óptimo.
@@ -71,5 +71,5 @@ Para garantizar una experiencia fluida:
 - Utilice auriculares para minimizar el eco y mejorar la claridad del audio
 - Silencie su micrófono cuando no esté hablando para reducir el ruido de fondo
 - Use la función de desenfoque del fondo si se encuentra en un entorno compartido o con distracciones
-- Comunique los comentarios secundarios en el chat en lugar de interrumpir al orador
+- Comunique los comentarios secundarios en el chat en lugar de interrumpir al presentador
 - Utilice Jarvis para resumir conversaciones o recuperar puntos clave en lugar de repetir información

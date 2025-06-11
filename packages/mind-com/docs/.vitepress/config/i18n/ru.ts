@@ -15,11 +15,6 @@ export const ru = defineConfig({
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
       {
-        text: "Компания",
-        activeMatch: `${BASE_PATH}/company/`,
-        link: `${BASE_PATH}/company/about`,
-      },
-      {
         text: "Цены",
         link: `${BASE_PATH}/#Pricing`,
       },
@@ -29,14 +24,12 @@ export const ru = defineConfig({
         items: [
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Отзывы", link: `${BASE_PATH}/#Testimonials` },
-          { text: "Медиа-кит", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
     },
 
@@ -74,7 +67,7 @@ export const ru = defineConfig({
         "Просто изучаю / Другое",
       ],
 
-      defaultButtonText: "Отправить сообщение",
+      defaultButtonText: "Отправить нам сообщение",
     },
   },
 })
@@ -82,7 +75,7 @@ export const ru = defineConfig({
 function sidebarProduct(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Обзор",
+      text: "ОБЗОР",
       collapsed: false,
       items: [
         { text: "Что такое InterMIND?", link: "overview/what-is-intermind" },
@@ -93,7 +86,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "Руководство",
+      text: "РУКОВОДСТВО",
       collapsed: false,
       items: [
         { text: "Начало работы", link: "guide/getting-started" },
@@ -110,13 +103,29 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarCompany(): DefaultTheme.SidebarItem[] {
-  return [
-    { text: "О нас", link: "/about" },
-    { text: "Контакты", link: "/contacts" },
-  ]
-}
-
 function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Медиа-кит", link: "/media-kit" }]
+  return [
+    {
+      text: "ПОДДЕРЖКА",
+      collapsed: false,
+      items: [
+        { text: "Получить поддержку", link: "/help" },
+      ],
+    },
+    {
+      text: "РЕСУРСЫ",
+      collapsed: false,
+      items: [
+        { text: "Брендовые материалы", link: "/media-kit" },
+      ],
+    },
+    {
+      text: "КОМПАНИЯ",
+      collapsed: false,
+      items: [
+        { text: "О нас", link: "/company/about" },
+        { text: "Контакты", link: "/company/contacts" },
+      ],
+    },
+  ]
 }

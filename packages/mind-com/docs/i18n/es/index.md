@@ -19,7 +19,7 @@ isHome: true
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Traducción ≠ Comprensión. Esto es lo siguiente.',
-  details: 'Sin importar el idioma, **tu voz es escuchada — y comprendida** — como si compartieran la misma lengua.',
+  details: 'Sin importar el idioma, **tu voz se escucha — y se entiende** — como si compartieran la misma lengua.',
     items: [
       '⚡︎ De forma natural, en [tiempo real](./product/overview/how-it-works), y sin subtítulos ni retrasos.',
       '✧ Interpretación potenciada por IA que captura el tono, la intención y la terminología específica de la industria.',
@@ -69,9 +69,9 @@ isHome: true
   :card="{
     title: 'Privacidad Donde Importa',
     details:
-      'InterMind está diseñado para conversaciones que requieren confianza — donde la privacidad y el control son fundamentales.',
+      'InterMind está diseñado para conversaciones críticas de confianza — donde la privacidad y el control son más importantes.',
     items: [
-      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — UE, EE.UU., SE Asia',
+      '⚡︎ [Zonas de Privacidad](./product/overview/privacy-architecture) — UE, EE. UU., SE Asia',
       '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
     ],
     link: './product/overview/privacy-architecture',
@@ -90,7 +90,7 @@ isHome: true
 
 <span id="Pricing"></span>
 
-## Precios Claros y Sencillos
+## Precios claros y sencillos
 
 Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 
@@ -168,15 +168,15 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Hay un límite en el número de reuniones que puedo organizar?',
-    a: 'El plan *Free Basic* incluye **25 reuniones gratuitas**. Los planes *Pro* y *Business* ofrecen reuniones ilimitadas con más participantes y control.'
+    a: 'El plan *Básico Gratuito* incluye **25 reuniones gratuitas**. Los planes *Pro* y *Business* ofrecen reuniones ilimitadas con más participantes y control.'
   },
   {
     q: '¿Cómo garantiza InterMind la privacidad y seguridad de los datos?',
-    a: 'InterMind es **privado por diseño**. Todos los datos se procesan y almacenan dentro de su **Zona de Privacidad** seleccionada — _EU_, _US_, o _Asia_. Cumplimos con [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), y UAE PDPL, y **nunca usamos su contenido** para entrenamiento o acceso de terceros. El **control avanzado de Zona de Privacidad** está disponible en el plan **Business**.'
+    a: 'InterMind es **privado por diseño**. Todos los datos se procesan y almacenan dentro de su **Zona de Privacidad** seleccionada — _UE_, _EE.UU._, o _Asia_. Cumplimos con [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), y UAE PDPL, y **nunca usamos su contenido** para entrenamiento o acceso de terceros. El **control avanzado de Zona de Privacidad** está disponible en el plan **Business**.'
   },
   {
     q: '¿Puedo probar InterMind antes de comprar un plan?',
-    a: 'Absolutamente. El plan *Free Basic* te da acceso completo a las funciones principales con **25 reuniones gratuitas** — incluyendo **interpretación simultánea** y **búsqueda de reuniones**. No se requiere tarjeta de crédito. Actualiza cuando quieras.'
+    a: 'Absolutamente. El plan *Básico Gratuito* te da acceso completo a las funciones principales con **25 reuniones gratuitas** — incluyendo **interpretación simultánea** y **búsqueda de reuniones**. No se requiere tarjeta de crédito. Actualiza cuando quieras.'
   },
   {
     q: '¿Qué pasa si necesito ayuda o soporte?',
@@ -196,3 +196,39 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   }
 ]
 "/>
+
+<HomeFooter :columns="[
+  {
+    title: 'PRODUCTO',
+    links: [
+      { text: 'Overview', link: './product/overview/what-is-intermind' },
+      { text: 'Getting Started', link: './product/guide/getting-started' },
+      { text: 'Testimonials', link: '#testimonials' },
+      { text: 'Pricing', link: '#Pricing' },
+    ]
+  },
+  {
+    title: 'SOPORTE',
+    links: [
+      { text: 'Get Support', link: './resources/help' },
+      { text: 'FAQ', link: '#FAQ' },
+      { text: 'Service Status', link: 'https://status.mind.com/' },
+      { text: 'Privacy Policy', link: './resources/company/Privacy-Policy' },
+      { text: 'AI Legal Guide', link: './resources/company/Legal-Regulations-for-AI-Services' },
+    ]
+  },
+  {
+    title: 'RECURSOS',
+    links: [
+      { text: 'Brand Assets', link: './resources/media-kit' },
+      { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
+    ]
+  },
+  {
+    title: 'EMPRESA',
+    links: [
+      { text: 'About', link: './resources/company/about' },
+      { text: 'Contacts', link: './resources/company/contacts' }
+    ]
+  }
+]" />

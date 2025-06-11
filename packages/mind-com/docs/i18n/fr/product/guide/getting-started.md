@@ -1,6 +1,6 @@
-# Premiers pas
+# Premiers pas <Badge type="warning" text="beta" />
 
-Bienvenue sur iMind Meeting, une plateforme de visioconférence avancée alimentée par l\'IA, conçue pour améliorer la communication de manière transparente. Cette plateforme comprend des fonctionnalités telles que la traduction en temps réel et un assistant virtuel nommé Jarvis.
+Bienvenue sur iMind Meeting, une plateforme de visioconférence avancée alimentée par l'IA, conçue pour améliorer la communication de manière transparente. Cette plateforme comprend des fonctionnalités telles que la traduction en temps réel et un assistant virtuel nommé Jarvis.
 
 ## Compatibilité des Appareils et Navigateurs
 
@@ -46,7 +46,7 @@ iMind Meeting est optimisé pour une utilisation sur ordinateur et mobile, perme
 - Traducteur Audio en Ligne
 - Assistant Vocal
 - Assistant IA
-- Messages pendant l\'appel
+- Messages en cours d\'appel
 - Enregistrement d\'écran
 - Partage d\'écran (navigateurs desktop uniquement)
 - Options de mise en page et de visualisation
@@ -58,7 +58,7 @@ iMind Meeting est optimisé pour une utilisation sur ordinateur et mobile, perme
 
 Pour garantir une expérience fluide :
 
-- Utilisez une connexion internet stable (Wi-Fi ou Ethernet recommandé)
+- Utilisez une connexion Internet stable (Wi-Fi ou Ethernet recommandé)
 - Maintenez une vitesse minimale de téléchargement/envoi de 2 Mbps
   - 5+ Mbps recommandé pour les vidéos HD
 - Fermez les onglets inutilisés et les applications en arrière-plan

@@ -15,11 +15,6 @@ export const de = defineConfig({
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
       {
-        text: "Unternehmen",
-        activeMatch: `${BASE_PATH}/company/`,
-        link: `${BASE_PATH}/company/about`,
-      },
-      {
         text: "Preise",
         link: `${BASE_PATH}/#Pricing`,
       },
@@ -29,14 +24,12 @@ export const de = defineConfig({
         items: [
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Referenzen", link: `${BASE_PATH}/#Testimonials` },
-          { text: "Medienkit", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
     },
 
@@ -45,8 +38,8 @@ export const de = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Fragen Sie alles...",
-      placeholder4ChatFooter: "Fragen Sie alles...",
+      placeholder4SearchInput: "Fragen Sie etwas...",
+      placeholder4ChatFooter: "Fragen Sie etwas...",
       placeholder4ChatList: "Chat-Thema eingeben...",
       buttonLabel4NavButton: "Sofort-Expertenchat",
       buttonLabel4AuthButton: "Anmelden",
@@ -61,7 +54,7 @@ export const de = defineConfig({
       webSiteError: "Bitte geben Sie die Website ein",
       category: "Was ist Ihr primäres Ziel? *",
       categoryPlaceholder: "Wählen Sie, was am wichtigsten ist",
-      message: "Lassen Sie uns Ihre Ziele besprechen (optional)",
+      message: "Lassen Sie uns über Ihre Ziele sprechen (optional)",
       messagePlaceholder: "Bitte geben Sie zusätzliche Details an (optional)",
       submit: "Anfrage senden",
       sending: "Wird gesendet...",
@@ -82,18 +75,18 @@ export const de = defineConfig({
 function sidebarProduct(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Überblick",
+      text: "ÜBERBLICK",
       collapsed: false,
       items: [
         { text: "Was ist InterMIND?", link: "overview/what-is-intermind" },
         { text: "Funktionsweise", link: "overview/how-it-works" },
         { text: "Video-Meeting-Plattform", link: "overview/video-meeting-platform" },
-        { text: "Regionale Datenschutzarchitektur", link: "overview/privacy-architecture" },
+        { text: "Regionaler Datenschutz", link: "overview/privacy-architecture" },
         { text: "Prioritätsmärkte", link: "overview/markets" },
       ],
     },
     {
-      text: "Anleitung",
+      text: "ANLEITUNG",
       collapsed: false,
       items: [
         { text: "Erste Schritte", link: "guide/getting-started" },
@@ -110,13 +103,29 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarCompany(): DefaultTheme.SidebarItem[] {
-  return [
-    { text: "Über uns", link: "/about" },
-    { text: "Kontakt", link: "/contacts" },
-  ]
-}
-
 function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Medienkit", link: "/media-kit" }]
+  return [
+    {
+      text: "SUPPORT",
+      collapsed: false,
+      items: [
+        { text: "Support erhalten", link: "/help" },
+      ],
+    },
+    {
+      text: "RESSOURCEN",
+      collapsed: false,
+      items: [
+        { text: "Markenressourcen", link: "/media-kit" },
+      ],
+    },
+    {
+      text: "UNTERNEHMEN",
+      collapsed: false,
+      items: [
+        { text: "Über uns", link: "/company/about" },
+        { text: "Kontakt", link: "/company/contacts" },
+      ],
+    },
+  ]
 }

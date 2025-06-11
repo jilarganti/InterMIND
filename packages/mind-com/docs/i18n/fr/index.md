@@ -67,11 +67,11 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Confidentialité Là Où Cela Compte',
+    title: 'Confidentialité Là Où C\'est Important',
     details:
-      'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle sont essentiels.',
+      'InterMind est conçu pour les conversations critiques — où la confidentialité et le contrôle sont essentiels.',
     items: [
-      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
+      '⚡︎ [Zones de Confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
       '✧ **Zéro entraînement de données**. Aucun accès tiers.'
     ],
     link: './product/overview/privacy-architecture',
@@ -90,9 +90,9 @@ isHome: true
 
 <span id="Pricing"></span>
 
-## Prix Clairs et Simples
+## Prix clairs et simples
 
-Du premier appel aux conversations fluides — à toute échelle.
+Du premier appel aux conversations fluides — à n'importe quelle échelle.
 
 <PricingPlans :plans="[
   {
@@ -108,9 +108,9 @@ Du premier appel aux conversations fluides — à toute échelle.
     ],
   },
   {
-    title: '**Pro**  &nbsp 1-99 utilisateurs',
+    title: '**Pro** &nbsp 1-99 utilisateurs',
     price: '**20€** /mois/utilisateur, facturation annuelle',
-    details: 'ou 25€ facturation mensuelle',
+    details: 'ou 25€ par mois',
     items: [
       'Réunions **illimitées**',
       '**150** participants en réunion vidéo [💬](#3)',
@@ -129,7 +129,7 @@ Du premier appel aux conversations fluides — à toute échelle.
       '**5** To de stockage mutualisé par utilisateur',
       'Recherche dans toutes vos réunions [💬](#2)',
       'Interprétation simultanée [💬](#1)',
-      '**Zones de Confidentialité** [💬](#4)',
+      '**Zones de confidentialité** [💬](#4)',
     ],
   }
 ]">
@@ -138,7 +138,7 @@ Du premier appel aux conversations fluides — à toute échelle.
 <ContactFormModalNav buttonText="Parler à notre équipe" buttonClass="alt"/>
 </PricingPlans>
 
-> [!warning] 🛑 Soit vous parlez toutes les langues — soit quelqu'un d'autre conclut vos affaires.
+> [!warning] 🛑 Soit vous parlez toutes les langues — soit quelqu\'un d\'autre conclut vos affaires.
 
 <span id="Testimonials"></span>
 
@@ -146,7 +146,7 @@ Du premier appel aux conversations fluides — à toute échelle.
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-> [!note] ✅ Votre temps est mieux investi à maîtriser votre métier — pas à mémoriser la grammaire.
+> [!note] ✅ Votre temps est mieux investi à maîtriser votre art — pas à mémoriser la grammaire.
 
 <span id="FAQ"></span>
 
@@ -156,7 +156,7 @@ Du premier appel aux conversations fluides — à toute échelle.
 [
   {
     q: 'Qu\'est-ce qu\'un utilisateur sous licence et qu\'est-ce qu\'un participant ?',
-    a: 'Un *utilisateur sous licence* dispose d\'une licence gratuite ou payante et peut planifier des réunions dans les limites de son forfait. Les *participants* sont les invités — ils **n\'ont pas besoin de compte ni de licence** pour rejoindre et peuvent se connecter depuis n\'importe quel appareil **gratuitement**.'
+    a: 'Un *utilisateur sous licence* dispose d\'une licence gratuite ou payante et peut planifier des réunions selon les limites de son forfait. Les *participants* sont les invités — ils **n\'ont pas besoin de compte ni de licence** pour rejoindre et peuvent se connecter depuis n\'importe quel appareil **gratuitement**.'
   },
   {
     q: 'Combien de personnes peuvent utiliser une licence InterMind ?',
@@ -168,15 +168,15 @@ Du premier appel aux conversations fluides — à toute échelle.
   },
   {
     q: 'Y a-t-il une limite au nombre de réunions que je peux organiser ?',
-    a: 'Le forfait *Free Basic* inclut **25 réunions gratuites**. Les forfaits *Pro* et *Business* offrent des réunions illimitées avec plus de participants et de contrôle.'
+    a: 'Le forfait *Basic Gratuit* inclut **25 réunions gratuites**. Les forfaits *Pro* et *Business* offrent des réunions illimitées avec plus de participants et de contrôle.'
   },
   {
     q: 'Comment InterMind assure-t-il la confidentialité et la sécurité des données ?',
-    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Privacy Zone** sélectionnée — _EU_, _US_, ou _Asia_. Nous respectons le [**GDPR**](https://gdpr.eu), le [**CCPA**](https://oag.ca.gov/privacy/ccpa), et l\'UAE PDPL, et **n\'utilisons jamais votre contenu** pour la formation ou l\'accès à des tiers. Le contrôle avancé des **Privacy Zone** est disponible sur le forfait **Business**.'
+    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de Confidentialité** sélectionnée — _UE_, _États-Unis_ ou _Asie_. Nous respectons le [**RGPD**](https://gdpr.eu), le [**CCPA**](https://oag.ca.gov/privacy/ccpa) et l\'UAE PDPL, et **n\'utilisons jamais votre contenu** pour la formation ou l\'accès par des tiers. Le **contrôle avancé des Zones de Confidentialité** est disponible sur le forfait **Business**.'
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un forfait ?',
-    a: 'Absolument. Le forfait *Free Basic* vous donne un accès complet aux fonctionnalités de base avec **25 réunions gratuites** — y compris l\'**interprétation simultanée** et la **recherche de réunions**. Pas de carte de crédit requise. Possibilité de mise à niveau à tout moment.'
+    a: 'Absolument. Le forfait *Basic Gratuit* vous donne un accès complet aux fonctionnalités de base avec **25 réunions gratuites** — y compris l\'**interprétation simultanée** et la **recherche de réunions**. Pas de carte de crédit requise. Possibilité de mise à niveau à tout moment.'
   },
   {
     q: 'Que faire si j\'ai besoin d\'aide ou de support ?',
@@ -184,7 +184,7 @@ Du premier appel aux conversations fluides — à toute échelle.
   },
   {
     q: 'Comment gérer mon abonnement (mise à niveau, rétrogradation ou annulation) ?',
-    a: 'Vous pouvez modifier votre forfait à tout moment via vos **paramètres de compte**. Les changements prennent effet **immédiatement**. Pour les annulations, les *forfaits mensuels* sont annulés à la fin du cycle de facturation. Les *forfaits annuels* peuvent être annulés avec un **remboursement au prorata**.'
+    a: 'Vous pouvez modifier votre forfait à tout moment dans vos **paramètres de compte**. Les changements prennent effet **immédiatement**. Pour les annulations, les *forfaits mensuels* sont annulés à la fin du cycle de facturation. Les *forfaits annuels* peuvent être annulés avec un **remboursement au prorata**.'
   },
   {
     q: 'Quelles langues InterMind prend-il en charge pour l\'interprétation ?',
@@ -196,3 +196,39 @@ Du premier appel aux conversations fluides — à toute échelle.
   }
 ]
 "/>
+
+<HomeFooter :columns="[
+  {
+    title: 'PRODUIT',
+    links: [
+      { text: 'Overview', link: './product/overview/what-is-intermind' },
+      { text: 'Getting Started', link: './product/guide/getting-started' },
+      { text: 'Testimonials', link: '#testimonials' },
+      { text: 'Pricing', link: '#Pricing' },
+    ]
+  },
+  {
+    title: 'SUPPORT',
+    links: [
+      { text: 'Get Support', link: './resources/help' },
+      { text: 'FAQ', link: '#FAQ' },
+      { text: 'Service Status', link: 'https://status.mind.com/' },
+      { text: 'Privacy Policy', link: './resources/company/Privacy-Policy' },
+      { text: 'AI Legal Guide', link: './resources/company/Legal-Regulations-for-AI-Services' },
+    ]
+  },
+  {
+    title: 'RESSOURCES',
+    links: [
+      { text: 'Brand Assets', link: './resources/media-kit' },
+      { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
+    ]
+  },
+  {
+    title: 'ENTREPRISE',
+    links: [
+      { text: 'About', link: './resources/company/about' },
+      { text: 'Contacts', link: './resources/company/contacts' }
+    ]
+  }
+]" />

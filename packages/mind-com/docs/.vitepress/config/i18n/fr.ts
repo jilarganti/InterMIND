@@ -15,12 +15,7 @@ export const fr = defineConfig({
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
       {
-        text: "Entreprise",
-        activeMatch: `${BASE_PATH}/company/`,
-        link: `${BASE_PATH}/company/about`,
-      },
-      {
-        text: "Tarifs",
+        text: "Tarification",
         link: `${BASE_PATH}/#Pricing`,
       },
       {
@@ -29,14 +24,12 @@ export const fr = defineConfig({
         items: [
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Témoignages", link: `${BASE_PATH}/#Testimonials` },
-          { text: "Kit Média", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
     },
 
@@ -58,7 +51,7 @@ export const fr = defineConfig({
       emailPlaceholder: "votre adresse email",
       webSite: "Site web de l'entreprise *",
       webSitePlaceholder: "ex. https://nomsociete.com",
-      webSiteError: "Veuillez saisir l'adresse du site web",
+      webSiteError: "Veuillez saisir le site web",
       category: "Quel est votre objectif principal ? *",
       categoryPlaceholder: "Choisissez ce qui compte le plus",
       message: "Discutons de vos objectifs (facultatif)",
@@ -82,18 +75,18 @@ export const fr = defineConfig({
 function sidebarProduct(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Aperçu",
+      text: "APERÇU",
       collapsed: false,
       items: [
         { text: "Qu'est-ce qu'InterMIND ?", link: "overview/what-is-intermind" },
         { text: "Comment ça marche", link: "overview/how-it-works" },
         { text: "Plateforme de réunion vidéo", link: "overview/video-meeting-platform" },
-        { text: "Confidentialité régionale des données", link: "overview/privacy-architecture" },
+        { text: "Confidentialité des données régionales", link: "overview/privacy-architecture" },
         { text: "Marchés prioritaires", link: "overview/markets" },
       ],
     },
     {
-      text: "Guide",
+      text: "GUIDE",
       collapsed: false,
       items: [
         { text: "Premiers pas", link: "guide/getting-started" },
@@ -110,13 +103,29 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarCompany(): DefaultTheme.SidebarItem[] {
-  return [
-    { text: "À propos", link: "/about" },
-    { text: "Contacts", link: "/contacts" },
-  ]
-}
-
 function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Kit Média", link: "/media-kit" }]
+  return [
+    {
+      text: "SUPPORT",
+      collapsed: false,
+      items: [
+        { text: "Obtenir de l'aide", link: "/help" },
+      ],
+    },
+    {
+      text: "RESSOURCES",
+      collapsed: false,
+      items: [
+        { text: "Ressources de marque", link: "/media-kit" },
+      ],
+    },
+    {
+      text: "ENTREPRISE",
+      collapsed: false,
+      items: [
+        { text: "À propos", link: "/company/about" },
+        { text: "Contacts", link: "/company/contacts" },
+      ],
+    },
+  ]
 }

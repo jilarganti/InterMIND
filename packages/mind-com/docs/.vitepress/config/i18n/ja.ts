@@ -15,11 +15,6 @@ export const ja = defineConfig({
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
       {
-        text: "企業情報",
-        activeMatch: `${BASE_PATH}/company/`,
-        link: `${BASE_PATH}/company/about`,
-      },
-      {
         text: "料金",
         link: `${BASE_PATH}/#Pricing`,
       },
@@ -29,14 +24,12 @@ export const ja = defineConfig({
         items: [
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "お客様の声", link: `${BASE_PATH}/#Testimonials` },
-          { text: "メディアキット", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
     },
 
@@ -110,13 +103,29 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarCompany(): DefaultTheme.SidebarItem[] {
-  return [
-    { text: "企業情報", link: "/about" },
-    { text: "お問い合わせ", link: "/contacts" },
-  ]
-}
-
 function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [{ text: "メディアキット", link: "/media-kit" }]
+  return [
+    {
+      text: "サポート",
+      collapsed: false,
+      items: [
+        { text: "サポートを受ける", link: "/help" },
+      ],
+    },
+    {
+      text: "リソース",
+      collapsed: false,
+      items: [
+        { text: "ブランドアセット", link: "/media-kit" },
+      ],
+    },
+    {
+      text: "会社情報",
+      collapsed: false,
+      items: [
+        { text: "会社概要", link: "/company/about" },
+        { text: "お問い合わせ", link: "/company/contacts" },
+      ],
+    },
+  ]
 }

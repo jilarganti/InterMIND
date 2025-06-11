@@ -18,11 +18,11 @@ isHome: true
 
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: 'Übersetzung ≠ Verstehen. Das ist der nächste Schritt.',
+  title: 'Übersetzung ≠ Verständnis. Das ist der nächste Schritt.',
   details: 'Egal in welcher Sprache, **Ihre Stimme wird gehört — und verstanden** — als ob Sie die gleiche Sprache sprechen würden.',
     items: [
-      '⚡︎ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
-      '✧ KI-gestützte Dolmetschung erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
+      '⚡︎ Natürlich, in [Echtzeit](./product/overview/how-it-works), ohne Untertitel oder Verzögerung.',
+      '✧ KI-gestützte Interpretation erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
     ],
   link: './product/overview/what-is-intermind',
   src: {
@@ -71,7 +71,7 @@ isHome: true
     details:
       'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Privatsphäre und Kontrolle am wichtigsten sind.',
     items: [
-      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — EU, USA, SO-Asien',
+      '⚡︎ [Datenschutzzonen](./product/overview/privacy-architecture) — EU, USA, SO-Asien',
       '✧ **Kein Datentraining**. Kein Zugriff durch Dritte.'
     ],
     link: './product/overview/privacy-architecture',
@@ -138,7 +138,7 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
 <ContactFormModalNav buttonText="Sprechen Sie mit unserem Team" buttonClass="alt"/>
 </PricingPlans>
 
-> [!warning] 🛑 Entweder Sie sprechen jede Sprache — oder jemand anderes schließt Ihre Geschäfte ab.
+> [!warning] 🛑 Entweder Sie sprechen jede Sprache — oder jemand anders schließt Ihre Geschäfte ab.
 
 <span id="Testimonials"></span>
 
@@ -156,7 +156,7 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
 [
   {
     q: 'Was ist ein lizenzierter Benutzer und was ist ein Teilnehmer?',
-    a: 'Ein *lizenzierter Benutzer* hat eine kostenlose oder kostenpflichtige Meeting-Lizenz und kann Meetings innerhalb der Grenzen seines Plans planen. *Teilnehmer* sind Eingeladene — sie **benötigen kein Konto oder Lizenz** zur Teilnahme und können sich von jedem Gerät aus **kostenlos** verbinden.'
+    a: 'Ein *lizenzierter Benutzer* hat eine kostenlose oder kostenpflichtige Meeting-Lizenz und kann Meetings innerhalb der Grenzen seines Plans planen. *Teilnehmer* sind Eingeladene — sie **benötigen kein Konto oder Lizenz** zum Beitreten und können sich von jedem Gerät aus **kostenlos** verbinden.'
   },
   {
     q: 'Wie viele Personen können eine InterMind-Lizenz nutzen?',
@@ -172,7 +172,7 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
   },
   {
     q: 'Wie gewährleistet InterMind Datenschutz und Sicherheit?',
-    a: 'InterMind ist **von Grund auf privat**. Alle Daten werden in Ihrer ausgewählten **Privacy Zone** verarbeitet und gespeichert — _EU_, _US_ oder _Asien_. Wir erfüllen [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) und UAE PDPL und **verwenden Ihre Inhalte niemals** für Training oder Zugriff durch Dritte. Erweiterte **Privacy Zone-Kontrolle** ist im **Business** Plan verfügbar.'
+    a: 'InterMind ist **von Grund auf privat**. Alle Daten werden in Ihrer ausgewählten **Datenschutzzone** verarbeitet und gespeichert — _EU_, _US_ oder _Asien_. Wir erfüllen [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) und UAE PDPL und **verwenden Ihre Inhalte niemals** für Training oder Zugriff durch Dritte. Erweiterte **Datenschutzzonen-Kontrolle** ist im **Business** Plan verfügbar.'
   },
   {
     q: 'Kann ich InterMind vor dem Kauf eines Plans testen?',
@@ -188,7 +188,7 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
   },
   {
     q: 'Welche Sprachen unterstützt InterMind für Dolmetschen?',
-    a: 'Wir unterstützen **über 100 Sprachen** mit Echtzeit-Dolmetschen. Die Liste wächst ständig — aktuelle Updates finden Sie auf unserer Website.'
+    a: 'Wir unterstützen **über 100 Sprachen** mit Echtzeit-Dolmetschen. Die Liste wächst stetig — aktuelle Updates finden Sie auf unserer Website.'
   },
   {
     q: 'Kann ich InterMind für Webinare oder große Veranstaltungen nutzen?',
@@ -196,3 +196,39 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
   }
 ]
 "/>
+
+<HomeFooter :columns="[
+  {
+    title: 'PRODUKT',
+    links: [
+      { text: 'Overview', link: './product/overview/what-is-intermind' },
+      { text: 'Getting Started', link: './product/guide/getting-started' },
+      { text: 'Testimonials', link: '#testimonials' },
+      { text: 'Pricing', link: '#Pricing' },
+    ]
+  },
+  {
+    title: 'SUPPORT',
+    links: [
+      { text: 'Get Support', link: './resources/help' },
+      { text: 'FAQ', link: '#FAQ' },
+      { text: 'Service Status', link: 'https://status.mind.com/' },
+      { text: 'Privacy Policy', link: './resources/company/Privacy-Policy' },
+      { text: 'AI Legal Guide', link: './resources/company/Legal-Regulations-for-AI-Services' },
+    ]
+  },
+  {
+    title: 'RESSOURCEN',
+    links: [
+      { text: 'Brand Assets', link: './resources/media-kit' },
+      { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
+    ]
+  },
+  {
+    title: 'UNTERNEHMEN',
+    links: [
+      { text: 'About', link: './resources/company/about' },
+      { text: 'Contacts', link: './resources/company/contacts' }
+    ]
+  }
+]" />

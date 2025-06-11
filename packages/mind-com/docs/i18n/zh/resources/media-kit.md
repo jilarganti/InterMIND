@@ -13,27 +13,23 @@
 
 ### Description
 
-- 为**国际团队**提供视频通话实时语音翻译服务，消除因语言障碍导致的**延误、商业损失或代价高昂的误解**
+- 为**国际团队**提供视频通话实时语音翻译服务，解决因语言障碍导致的**延误、商机损失或代价高昂的误解**问题
 - InterMIND 为每个视频通话添加实时语音翻译功能，确保国际团队不会因语言障碍而错失商机、浪费时间或产生沟通障碍
 
 ## 标志
 
 <br>
-<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="标志" width="300" >
-
-## 网站图标
+<img src="/logo.png" class="transparency-grid" alt="标志" width="300" >
 
 <br>
-<img src="/favicon.svg" alt="网站图标" width="100">
+<img src="/logo.svg" class="transparency-grid" alt="标志" width="100">
 
 ## 品牌色彩
 
 <br>
 
 ```
-primary: #bc694a
-light: #73251a
-dark: #b16b2a
+-webkit-linear-gradient(90deg, #994a11 0%, #cc833c 50%, #ffbb66 100%)
 ```
 
 ## 宣传图片

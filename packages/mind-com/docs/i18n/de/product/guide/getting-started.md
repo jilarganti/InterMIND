@@ -1,4 +1,4 @@
-# Erste Schritte
+# Erste Schritte <Badge type="warning" text="beta" />
 
 Willkommen bei iMind Meeting, einer fortschrittlichen KI-gestützten Videokonferenzplattform, die entwickelt wurde, um die Kommunikation nahtlos zu verbessern. Diese Plattform enthält Funktionen wie Echtzeit-Übersetzung und einen virtuellen Assistenten namens Jarvis.
 
@@ -46,9 +46,9 @@ iMind Meeting ist für Desktop- und Mobilgeräte optimiert und ermöglicht Benut
 - Online Audio Translator
 - Voice Assistant
 - AI Assistant
-- In-call messages
-- Screen recording
-- Screen sharing (nur Desktop-Browser)
+- In-Meeting-Nachrichten
+- Bildschirmaufnahme
+- Bildschirmfreigabe (nur Desktop-Browser)
 - Layout- und Anzeigeoptionen
 
 > [!TIP]
@@ -59,12 +59,12 @@ iMind Meeting ist für Desktop- und Mobilgeräte optimiert und ermöglicht Benut
 Für eine reibungslose Erfahrung:
 
 - Nutzen Sie eine stabile Internetverbindung (WLAN oder Ethernet wird empfohlen)
-- Halten Sie eine minimale Upload-/Download-Geschwindigkeit von 2 Mbps ein
-  - 5+ Mbps wird für HD-Videos empfohlen
+- Halten Sie eine minimale Upload-/Download-Geschwindigkeit von 2 Mbit/s ein
+  - 5+ Mbit/s werden für HD-Videos empfohlen
 - Schließen Sie ungenutzte Tabs und Hintergrundanwendungen
 
 > [!INFO]
-> Die Aktualisierung Ihres Browsers ist für optimale Leistung unerlässlich.
+> Die Aktualisierung Ihres Browsers ist wichtig für optimale Leistung.
 
 ## Beste Praktiken für effektive Meetings
 

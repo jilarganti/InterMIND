@@ -1,8 +1,8 @@
-# Kit Médias
+# Kit Média
 
-Bonjour ! Voici une collection de ressources marketing et de directives d\'identité InterMIND, comprenant notre logo, contenu et marques déposées.
+Bonjour ! Voici une collection de ressources marketing et de directives d'identité d'InterMIND, comprenant notre logo, contenu et marques déposées.
 
-Pour modifier et télécharger, faites un clic droit et sélectionnez Modifier l\'image
+Pour modifier et télécharger, faites un clic droit et sélectionnez Modifier l'image
 
 ## Metadata
 
@@ -19,21 +19,17 @@ Pour modifier et télécharger, faites un clic droit et sélectionnez Modifier l
 ## Logo
 
 <br>
-<img src="/media-kit/logo-1-1.png" class="transparency-grid" alt="logo" width="300" >
-
-## Favicon
+<img src="/logo.png" class="transparency-grid" alt="logo" width="300" >
 
 <br>
-<img src="/favicon.svg" alt="favicon" width="100">
+<img src="/logo.svg" class="transparency-grid" alt="logo" width="100">
 
 ## Couleurs de la Marque
 
 <br>
 
 ```
-primary: #bc694a
-light: #73251a
-dark: #b16b2a
+-webkit-linear-gradient(90deg, #994a11 0%, #cc833c 50%, #ffbb66 100%)
 ```
 
 ## Images Promotionnelles

@@ -4,7 +4,7 @@ const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
   description:
-    "InterMIND为每个视频通话添加实时语音翻译，使国际团队永远不会因语言障碍而失去商机、时间或清晰度。",
+    "InterMIND为每个视频通话添加实时语音翻译，让国际团队不会因语言障碍而失去商机、时间或清晰度。",
   head: [["meta", { property: "og:title", content: "由同声传译驱动的视频通话 | InterMIND" }]],
 
   themeConfig: {
@@ -13,11 +13,6 @@ export const zh = defineConfig({
         text: "产品",
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
-      },
-      {
-        text: "公司",
-        activeMatch: `${BASE_PATH}/company/`,
-        link: `${BASE_PATH}/company/about`,
       },
       {
         text: "定价",
@@ -29,14 +24,12 @@ export const zh = defineConfig({
         items: [
           { text: "常见问题", link: `${BASE_PATH}/#FAQ` },
           { text: "用户评价", link: `${BASE_PATH}/#Testimonials` },
-          { text: "媒体资料", link: `${BASE_PATH}/resources/media-kit` },
         ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
     },
 
@@ -45,8 +38,8 @@ export const zh = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "输入任何问题...",
-      placeholder4ChatFooter: "输入任何问题...",
+      placeholder4SearchInput: "搜索任何内容...",
+      placeholder4ChatFooter: "询问任何问题...",
       placeholder4ChatList: "输入聊天主题...",
       buttonLabel4NavButton: "即时专家对话",
       buttonLabel4AuthButton: "登录",
@@ -57,19 +50,19 @@ export const zh = defineConfig({
       email: "电子邮箱 *",
       emailPlaceholder: "您的电子邮箱地址",
       webSite: "公司网站 *",
-      webSitePlaceholder: "例如：https://companyname.com",
+      webSitePlaceholder: "例如 https://companyname.com",
       webSiteError: "请输入网站地址",
       category: "您的主要目标是什么？ *",
       categoryPlaceholder: "选择最重要的方面",
       message: "让我们讨论您的目标（可选）",
-      messagePlaceholder: "请提供任何附加详情（可选）",
+      messagePlaceholder: "请提供任何额外细节（可选）",
       submit: "提交请求",
       sending: "发送中...",
       successTitle: "谢谢！",
       successMessage: "我们已收到您的消息 — 我们的团队将尽快与您联系。",
       defaultCategories: [
         "消除会议中的语言障碍",
-        "使会议可搜索且可执行",
+        "使会议可搜索和可执行",
         "确保合规性和数据驻留（欧盟/美国/亚洲）",
         "仅供探索/其他",
       ],
@@ -110,13 +103,29 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarCompany(): DefaultTheme.SidebarItem[] {
-  return [
-    { text: "关于我们", link: "/about" },
-    { text: "联系方式", link: "/contacts" },
-  ]
-}
-
 function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [{ text: "媒体资料", link: "/media-kit" }]
+  return [
+    {
+      text: "支持",
+      collapsed: false,
+      items: [
+        { text: "获取支持", link: "/help" },
+      ],
+    },
+    {
+      text: "资源",
+      collapsed: false,
+      items: [
+        { text: "品牌资源", link: "/media-kit" },
+      ],
+    },
+    {
+      text: "公司",
+      collapsed: false,
+      items: [
+        { text: "关于我们", link: "/company/about" },
+        { text: "联系方式", link: "/company/contacts" },
+      ],
+    },
+  ]
 }
