@@ -202,7 +202,7 @@ From first call to fluent conversations — at any scale.
     title: 'PRODUCT',
     links: [
       { text: 'Overview', link: './product/overview/what-is-intermind' },
-      { text: 'Guide', link: './product/guide/getting-started' },
+      { text: 'Getting Started', link: './product/guide/getting-started' },
       { text: 'Testimonials', link: '#testimonials' },
       { text: 'Pricing', link: '#Pricing' },
     ]
@@ -210,28 +210,28 @@ From first call to fluent conversations — at any scale.
   {
     title: 'SUPPORT',
     links: [
-      { text: 'Help', link: './support/help' },
+      { text: 'Get Support', link: './resources/help' },
       { text: 'FAQ', link: '#FAQ' },
-      { text: 'Service status', link: 'https://status.mind.com/' },
+      { text: 'Service Status', link: 'https://status.mind.com/' },
       { text: 'Privacy Policy', link: './company/Privacy-Policy' },
-      { text: 'Legal-Regulations-for-AI-Services', link: './company/Legal-Regulations-for-AI-Services' },
+      { text: 'AI Legal Guide', link: './company/Legal-Regulations-for-AI-Services' },
       // { text: 'Privacy Settings', link: '#' },
     ]
   },
   {
     title: 'RESOURCES',
     links: [
-      { text: 'Blog', link: './blog' },
-      { text: 'Media Kit', link: './resources/media-kit' },
-      { text: 'LLM version of the website documentation', link: 'https://mind.com/llms-full.txt' },
+      // { text: 'Blog', link: './blog' },
+      { text: 'Brand Assets', link: './resources/media-kit' },
+      { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
     ]
   },
   {
     title: 'COMPANY',
     links: [
       { text: 'About', link: './company/about' },
-      { text: 'Team', link: './company/team' },
-      { text: 'Careers', link: './company/careers' },
+      // { text: 'Team', link: './company/team' },
+      // { text: 'Careers', link: './company/careers' },
       { text: 'Contacts', link: './company/contacts' }
     ]
   }

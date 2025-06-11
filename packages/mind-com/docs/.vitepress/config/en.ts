@@ -128,5 +128,8 @@ function sidebarCompany(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Media Kit", link: "/media-kit" }]
+  return [
+    { text: "Get Support", link: "/help" },
+    { text: "Brand Assets", link: "/media-kit" },
+  ]
 }
