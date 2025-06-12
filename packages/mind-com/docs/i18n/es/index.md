@@ -50,10 +50,10 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Construido para Reuniones Serias — No Solo para Hablar',
+    title: 'Construido para Reuniones Serias — No Solo para Conversar',
     details: 'InterMind es una **plataforma de videorreuniones de grado profesional**, no un complemento o plugin ligero.',
     items: [
-      '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, listo para usar.',
+      '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo incorporado, listo para usar.',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -132,9 +132,9 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     ],
   }
 ]">
-<AuthButton text="Probar gratis" buttonClass="alt"/>
+<AuthButton text="Prueba gratis" buttonClass="alt"/>
 <AuthButton text="Comprar ahora" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Hablar con nuestro equipo" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Habla con nuestro equipo" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 😱 O hablas todos los idiomas — o alguien más cierra tus negocios.
@@ -175,7 +175,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Cómo garantiza InterMind la privacidad y seguridad de los datos?',
-    a: 'InterMind es **privado por diseño**. Todos los datos se procesan y almacenan dentro de tu **Zona de Privacidad** seleccionada — _UE_, _EE.UU._, o _Asia_. Cumplimos con [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), y UAE PDPL, y **nunca usamos tu contenido** para entrenamiento o acceso de terceros. El control avanzado de **Zona de Privacidad** está disponible en el plan **Business**.'
+    a: 'InterMind es **privado por diseño**. Todos los datos se procesan y almacenan dentro de tu **Zona de Privacidad** seleccionada — _UE_, _EE.UU._, o _Asia_. Cumplimos con [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), y UAE PDPL, y **nunca usamos tu contenido** para entrenamiento o acceso de terceros. El control avanzado de [Zona de Privacidad](./product/overview/privacy-architecture) está disponible en el plan **Business**.'
   },
   {
     q: '¿Puedo probar InterMind antes de comprar un plan?',
@@ -183,7 +183,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Qué pasa si necesito ayuda o soporte?',
-    a: 'El soporte está disponible a través de nuestro **centro de ayuda**, **correo electrónico** y **chat en vivo**. Los usuarios *Business* obtienen **soporte prioritario** con un contacto dedicado.'
+    a: 'El soporte está disponible a través de nuestro [centro de ayuda](./resources/help). Los usuarios *Business* obtienen **soporte prioritario** con un contacto dedicado.'
   },
   {
     q: '¿Cómo gestiono mi suscripción (actualizar, degradar o cancelar)?',
