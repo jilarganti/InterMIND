@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress"
 import markdownItFootnote from "markdown-it-footnote"
 import { fileURLToPath, URL } from "node:url"
-import { gtmHead } from "./gtm.config"
+import { gtmHeadScript, gtmHeadNoScript } from "./gtm.config"
 import llmstxt from "vitepress-plugin-llms"
 
 // Обновляем URL сайта документации
@@ -118,7 +118,8 @@ export const shared = defineConfig({
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:site_name", content: "InterMIND" }],
     ["meta", { property: "og:url", content: hostUrl }],
-    ...gtmHead,
+    ...gtmHeadScript,
+    ...gtmHeadNoScript,
   ],
   themeConfig: {
     logo: { light: "/logo.svg", dark: "/logo.svg" },
