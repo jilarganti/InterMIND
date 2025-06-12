@@ -35,12 +35,12 @@ Deshalb haben wir InterMind mit **regionsbasierter Vertraulichkeit** entwickelt:
 
 Zu Beginn jeder Sitzung oder als Teil der Kontoeinstellungen Ihrer Organisation können Sie eine bevorzugte Datenschutzzone auswählen:
 
-| Region        | Anwendbare Gesetze                                                                            | Infrastruktur                 | LLM-Anbieter               |
-| ------------- | --------------------------------------------------------------------------------------------- | ----------------------------- | -------------------------- |
-| Europa        | [GDPR](https://gdpr.eu)                                                                       | Nur EU-Rechenzentren          | EU-gehostet oder EU-konform |
-| United States | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (US)        | OpenAI US / Anthropic US   |
-| UAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | UAE- oder Bahrain-Cloud       | Regionale oder konforme LLMs |
-| Asien / China | Lokale chinesische Datenschutzgesetze                                                        | Alibaba, Huawei, Tencent Cloud | Nur China-basierte LLMs    |
+| Region        | Anwendbare Gesetze                                                                            | Infrastruktur                  | LLM-Anbieter                 |
+| ------------- | --------------------------------------------------------------------------------------------- | ------------------------------ | ---------------------------- |
+| Europa        | [GDPR](https://gdpr.eu)                                                                       | Nur EU-Rechenzentren           | EU-gehostet oder EU-konform  |
+| United States | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (US)         | OpenAI US / Anthropic US     |
+| UAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | UAE- oder Bahrain-Cloud        | Regionale oder konforme LLMs |
+| Asien / China | Lokale chinesische Datenschutzgesetze                                                         | Alibaba, Huawei, Tencent Cloud | Nur China-basierte LLMs      |
 
 Diese Auswahl bestimmt, wie Ihre Video-, Audio- und interpretierten Inhalte verarbeitet werden und durch welche Gerichtsbarkeit.
 
@@ -101,11 +101,11 @@ Wir verpflichten uns zu vollständiger Ehrlichkeit, nicht nur zu juristischen Fo
 
 Sie können Ihre Sitzung an Ihre Vertraulichkeitsanforderungen anpassen:
 
-| Vertrauensmodus  | Interpretation | Regionsübergreifender Transfer | Speicherung        | Am besten geeignet für                    |
-| ---------------- | -------------- | ------------------------------ | ------------------ | ----------------------------------------- |
-| 🔒 Nur lokal     | ❌             | ❌                             | ❌                 | Rechtliches, Behörden, interne Prüfungen  |
-| 🔐 Regionsbegrenzt| ✅             | ✅ (nur innerhalb der Zone)    | ❌ oder nur Sitzung| Gesundheitswesen, Finanzen, Personalwesen |
-| 🌐 Global Flex   | ✅             | ✅ (mehrere Regionen)          | ✅                 | Support, Vertrieb, multinationale Teams   |
+| Vertrauensmodus    | Interpretation | Regionsübergreifender Transfer | Speicherung         | Am besten geeignet für                    |
+| ------------------ | -------------- | ------------------------------ | ------------------- | ----------------------------------------- |
+| 🔒 Nur lokal       | ❌             | ❌                             | ❌                  | Rechtliches, Behörden, interne Prüfungen  |
+| 🔐 Regionsbegrenzt | ✅             | ✅ (nur innerhalb der Zone)    | ❌ oder nur Sitzung | Gesundheitswesen, Finanzen, Personalwesen |
+| 🌐 Global Flex     | ✅             | ✅ (mehrere Regionen)          | ✅                  | Support, Vertrieb, multinationale Teams   |
 
 ## Was Sie direkt nutzen können
 

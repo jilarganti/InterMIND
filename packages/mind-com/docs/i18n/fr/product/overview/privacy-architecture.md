@@ -35,12 +35,12 @@ C\'est pourquoi nous avons conçu InterMind avec une **confidentialité basée s
 
 Au début de chaque session, ou dans le cadre des paramètres de compte de votre organisation, vous pouvez sélectionner une zone de confidentialité préférée :
 
-| Région        | Lois applicables                                                                               | Infrastructure                    | Fournisseurs LLM           |
-| ------------- | --------------------------------------------------------------------------------------------- | --------------------------------- | -------------------------- |
-| Europe        | [GDPR](https://gdpr.eu)                                                                       | Centres de données UE uniquement   | Hébergés UE ou conformes UE |
-| United States | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (US)            | OpenAI US / Anthropic US   |
-| UAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | Cloud UAE ou Bahreïn              | LLMs régionaux ou conformes |
-| Asie / Chine  | Lois chinoises locales sur la confidentialité                                                | Alibaba, Huawei, Tencent Cloud    | LLMs basés en Chine uniquement |
+| Région        | Lois applicables                                                                              | Infrastructure                   | Fournisseurs LLM               |
+| ------------- | --------------------------------------------------------------------------------------------- | -------------------------------- | ------------------------------ |
+| Europe        | [GDPR](https://gdpr.eu)                                                                       | Centres de données UE uniquement | Hébergés UE ou conformes UE    |
+| United States | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (US)           | OpenAI US / Anthropic US       |
+| UAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | Cloud UAE ou Bahreïn             | LLMs régionaux ou conformes    |
+| Asie / Chine  | Lois chinoises locales sur la confidentialité                                                 | Alibaba, Huawei, Tencent Cloud   | LLMs basés en Chine uniquement |
 
 Ce choix détermine comment vos vidéos, audios et contenus interprétés sont traités et à travers quelle juridiction.
 
@@ -101,11 +101,11 @@ Nous nous engageons à une honnêteté totale, pas seulement à un langage jurid
 
 Vous pouvez personnaliser votre session selon vos besoins en confidentialité :
 
-| Mode de Confiance | Interprétation | Transfert Inter-Régions | Stockage           | Idéal Pour                                    |
-| ---------------- | -------------- | ---------------------- | ------------------ | --------------------------------------------- |
-| 🔒 Local Uniquement | ❌             | ❌                     | ❌                 | Juridique, gouvernement, examens internes     |
-| 🔐 Verrouillé par Région | ✅        | ✅ (dans la zone uniquement) | ❌ ou session uniquement | Santé, finance, RH                           |
-| 🌐 Flexibilité Globale | ✅          | ✅ (multi-régions)      | ✅                 | Support, ventes, équipes multinationales      |
+| Mode de Confiance        | Interprétation | Transfert Inter-Régions      | Stockage                 | Idéal Pour                                |
+| ------------------------ | -------------- | ---------------------------- | ------------------------ | ----------------------------------------- |
+| 🔒 Local Uniquement      | ❌             | ❌                           | ❌                       | Juridique, gouvernement, examens internes |
+| 🔐 Verrouillé par Région | ✅             | ✅ (dans la zone uniquement) | ❌ ou session uniquement | Santé, finance, RH                        |
+| 🌐 Flexibilité Globale   | ✅             | ✅ (multi-régions)           | ✅                       | Support, ventes, équipes multinationales  |
 
 ## Ce Que Vous Obtenez Directement
 

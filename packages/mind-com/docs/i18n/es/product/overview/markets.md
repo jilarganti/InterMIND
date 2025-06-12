@@ -5,15 +5,15 @@ La siguiente tabla destaca los mercados donde la falta de comunicación es más 
 
 ## Mercados Prioritarios
 
-| Segmento                                    | Países Estrella (ISO‑2)                                                            | Por Qué Es Importante                                                                                                    |
-| ------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| Centros de Manufactura Global               | China (CN), India (IN), Vietnam (VN), Bangladesh (BD), Indonesia (ID), Tailandia (TH) | Comercio B2B masivo con EE. UU. y UE; el dominio promedio del inglés es moderado                                        |
-| Socios Industriales de EE. UU.              | México (MX), Canadá (CA)                                                           | USMCA¹ potenció las cadenas de suministro transfronterizas de automóviles y electrónica; un canal confiable EN-ES es crucial |
-| Asia de Alta Tecnología                     | Japón (JP), Corea del Sur (KR), Taiwán (TW)                                       | Reuniones de ingeniería donde los matices en la terminología valen millones                                              |
-| UE Multilingüe                              | Alemania (DE), Francia (FR), Italia (IT), España (ES), Polonia (PL), Países Bajos (NL) | 24 idiomas oficiales en un solo mercado; contratar intérpretes para cada negocio es costoso                             |
-| Oriente Medio y Norte de África             | EAU (AE), Arabia Saudita (SA), Egipto (EG), Marruecos (MA)                        | Los proyectos reúnen equipos que hablan árabe, inglés e hindi                                                           |
-| América Latina                              | Brasil (BR), Chile (CL), Colombia (CO), Perú (PE)                                  | Las exportaciones de materias primas y la subcontratación de TI requieren una comunicación fluida PT/ES ↔ EN            |
-| Sedes de Habla Inglesa con Alcance Global   | Estados Unidos (US), Reino Unido (GB), Australia (AU)                              | Las sedes venden en todo el mundo y necesitan un canal bidireccional con Asia y LATAM                                    |
+| Segmento                                  | Países Estrella (ISO‑2)                                                                | Por Qué Es Importante                                                                                                        |
+| ----------------------------------------- | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Centros de Manufactura Global             | China (CN), India (IN), Vietnam (VN), Bangladesh (BD), Indonesia (ID), Tailandia (TH)  | Comercio B2B masivo con EE. UU. y UE; el dominio promedio del inglés es moderado                                             |
+| Socios Industriales de EE. UU.            | México (MX), Canadá (CA)                                                               | USMCA¹ potenció las cadenas de suministro transfronterizas de automóviles y electrónica; un canal confiable EN-ES es crucial |
+| Asia de Alta Tecnología                   | Japón (JP), Corea del Sur (KR), Taiwán (TW)                                            | Reuniones de ingeniería donde los matices en la terminología valen millones                                                  |
+| UE Multilingüe                            | Alemania (DE), Francia (FR), Italia (IT), España (ES), Polonia (PL), Países Bajos (NL) | 24 idiomas oficiales en un solo mercado; contratar intérpretes para cada negocio es costoso                                  |
+| Oriente Medio y Norte de África           | EAU (AE), Arabia Saudita (SA), Egipto (EG), Marruecos (MA)                             | Los proyectos reúnen equipos que hablan árabe, inglés e hindi                                                                |
+| América Latina                            | Brasil (BR), Chile (CL), Colombia (CO), Perú (PE)                                      | Las exportaciones de materias primas y la subcontratación de TI requieren una comunicación fluida PT/ES ↔ EN                |
+| Sedes de Habla Inglesa con Alcance Global | Estados Unidos (US), Reino Unido (GB), Australia (AU)                                  | Las sedes venden en todo el mundo y necesitan un canal bidireccional con Asia y LATAM                                        |
 
 ¹ **USMCA** — Acuerdo Estados Unidos-México-Canadá que reemplazó al TLCAN; impone reglas estrictas de origen en el sector automotriz.
 

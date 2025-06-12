@@ -71,24 +71,24 @@ Los invitados son usuarios que se unen a la reunión sin iniciar sesión.
 
 ## Resumen de Permisos por Rol
 
-| Función                           | Anfitrión | Moderador | Participante | Invitado |
-| -------------------------------- | --------- | --------- | ------------ | -------- |
-| Iniciar Reunión                   | ✅        | ❌        | ❌           | ❌       |
-| Silenciar Cualquier Participante  | ✅        | ✅        | ❌           | ❌       |
-| Activar Audio de Cualquier Participante | ❌  | ❌        | ❌           | ❌       |
-| Activar/Desactivar Propio Micrófono | ✅     | ✅        | ✅           | ✅       |
-| Activar/Desactivar Propia Cámara  | ✅        | ✅        | ✅           | ✅       |
-| Iniciar/Detener Grabación         | ✅        | ✅        | ❌           | ❌       |
-| Compartir Pantalla (Escritorio)    | ✅        | ✅        | ✅           | ✅       |
-| Activar/Desactivar Asistente de Voz | ✅      | ✅        | ❌           | ❌       |
-| Usar Asistente IA                 | ✅        | ✅        | ✅           | ❌       |
-| Usar Traducción en Línea          | ✅        | ✅        | ✅           | ✅       |
-| Cambiar Idioma de Traducción      | ✅        | ✅        | ✅           | ✅       |
-| Levantar / Bajar Mano             | ✅/✅     | ✅/✅     | ✅/❌        | ✅/❌    |
-| Ver Transcripción                 | ✅        | ✅        | ✅           | ❌       |
-| Cambiar Diseño / Configuración    | ✅        | ✅        | ✅           | ✅       |
-| Activar/Desactivar Desenfoque de Fondo | ✅   | ✅        | ✅           | ✅       |
-| Admitir/Denegar Invitado          | ✅        | ✅        | ❌           | ❌       |
-| Acceder al Historial de Reuniones | ✅        | ✅        | ✅           | ❌       |
-| Eliminar Participantes            | ✅        | ✅        | ❌           | ❌       |
-| Promover/Degradar Moderador       | ✅        | ✅        | ❌           | ❌       |
+| Función                                 | Anfitrión | Moderador | Participante | Invitado |
+| --------------------------------------- | --------- | --------- | ------------ | -------- |
+| Iniciar Reunión                         | ✅        | ❌        | ❌           | ❌       |
+| Silenciar Cualquier Participante        | ✅        | ✅        | ❌           | ❌       |
+| Activar Audio de Cualquier Participante | ❌        | ❌        | ❌           | ❌       |
+| Activar/Desactivar Propio Micrófono     | ✅        | ✅        | ✅           | ✅       |
+| Activar/Desactivar Propia Cámara        | ✅        | ✅        | ✅           | ✅       |
+| Iniciar/Detener Grabación               | ✅        | ✅        | ❌           | ❌       |
+| Compartir Pantalla (Escritorio)         | ✅        | ✅        | ✅           | ✅       |
+| Activar/Desactivar Asistente de Voz     | ✅        | ✅        | ❌           | ❌       |
+| Usar Asistente IA                       | ✅        | ✅        | ✅           | ❌       |
+| Usar Traducción en Línea                | ✅        | ✅        | ✅           | ✅       |
+| Cambiar Idioma de Traducción            | ✅        | ✅        | ✅           | ✅       |
+| Levantar / Bajar Mano                   | ✅/✅     | ✅/✅     | ✅/❌        | ✅/❌    |
+| Ver Transcripción                       | ✅        | ✅        | ✅           | ❌       |
+| Cambiar Diseño / Configuración          | ✅        | ✅        | ✅           | ✅       |
+| Activar/Desactivar Desenfoque de Fondo  | ✅        | ✅        | ✅           | ✅       |
+| Admitir/Denegar Invitado                | ✅        | ✅        | ❌           | ❌       |
+| Acceder al Historial de Reuniones       | ✅        | ✅        | ✅           | ❌       |
+| Eliminar Participantes                  | ✅        | ✅        | ❌           | ❌       |
+| Promover/Degradar Moderador             | ✅        | ✅        | ❌           | ❌       |

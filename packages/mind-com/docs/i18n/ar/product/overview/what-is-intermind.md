@@ -1,6 +1,6 @@
 # أسرع طريقة للتحدث بجميع اللغات — بدون تعلمها
 
-*Note: I've translated the title to both Gulf Arabic and Modern Standard Arabic (MSA) style while maintaining the markdown formatting. The translation means "The Fastest Way to Speak All Languages — Without Learning Them" and maintains the same meaning and impact as the original while being culturally appropriate for Arabic readers.*
+_Note: I've translated the title to both Gulf Arabic and Modern Standard Arabic (MSA) style while maintaining the markdown formatting. The translation means "The Fastest Way to Speak All Languages — Without Learning Them" and maintains the same meaning and impact as the original while being culturally appropriate for Arabic readers._
 
 ## حاجز اللغة ينتهي هنا
 

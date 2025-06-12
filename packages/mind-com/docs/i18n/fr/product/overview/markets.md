@@ -5,15 +5,15 @@ Le tableau ci-dessous met en évidence les marchés où les malentendus sont les
 
 ## Marchés Prioritaires
 
-| Segment                                    | Pays Étoiles (ISO‑2)                                                               | Pourquoi C'est Important                                                                                                    |
-| ------------------------------------------ | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Pôles Manufacturiers Mondiaux              | China (CN), India (IN), Vietnam (VN), Bangladesh (BD), Indonesia (ID), Thailand (TH) | Commerce B2B massif avec les États‑Unis et l'UE ; niveau moyen d'anglais modéré                                              |
-| Partenaires Industriels Américains         | Mexico (MX), Canada (CA)                                                             | L'USMCA¹ a dynamisé les chaînes d'approvisionnement transfrontalières auto et électroniques ; canal EN‑ES fiable est crucial |
-| Asie High‑Tech                             | Japan (JP), South Korea (KR), Taiwan (TW)                                            | Réunions d'ingénierie où la nuance terminologique vaut des millions                                                          |
-| UE Multilingue                             | Germany (DE), France (FR), Italy (IT), Spain (ES), Poland (PL), Netherlands (NL)     | 24 langues officielles sur un marché unique ; embaucher des interprètes pour chaque accord est coûteux                       |
-| Moyen‑Orient et Afrique du Nord            | UAE (AE), Saudi Arabia (SA), Egypt (EG), Morocco (MA)                                | Les projets réunissent des équipes parlant arabe, anglais et hindi                                                           |
-| Amérique Latine                            | Brazil (BR), Chile (CL), Colombia (CO), Peru (PE)                                    | Les exportations de matières premières et l'externalisation IT nécessitent une communication fluide PT/ES ↔ EN               |
-| Sièges Anglophones à Portée Mondiale       | United States (US), United Kingdom (GB), Australia (AU)                              | Les sièges vendent dans le monde entier et ont besoin d'un canal bidirectionnel avec l'Asie et l'LATAM                       |
+| Segment                              | Pays Étoiles (ISO‑2)                                                                 | Pourquoi C'est Important                                                                                                     |
+| ------------------------------------ | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| Pôles Manufacturiers Mondiaux        | China (CN), India (IN), Vietnam (VN), Bangladesh (BD), Indonesia (ID), Thailand (TH) | Commerce B2B massif avec les États‑Unis et l'UE ; niveau moyen d'anglais modéré                                              |
+| Partenaires Industriels Américains   | Mexico (MX), Canada (CA)                                                             | L'USMCA¹ a dynamisé les chaînes d'approvisionnement transfrontalières auto et électroniques ; canal EN‑ES fiable est crucial |
+| Asie High‑Tech                       | Japan (JP), South Korea (KR), Taiwan (TW)                                            | Réunions d'ingénierie où la nuance terminologique vaut des millions                                                          |
+| UE Multilingue                       | Germany (DE), France (FR), Italy (IT), Spain (ES), Poland (PL), Netherlands (NL)     | 24 langues officielles sur un marché unique ; embaucher des interprètes pour chaque accord est coûteux                       |
+| Moyen‑Orient et Afrique du Nord      | UAE (AE), Saudi Arabia (SA), Egypt (EG), Morocco (MA)                                | Les projets réunissent des équipes parlant arabe, anglais et hindi                                                           |
+| Amérique Latine                      | Brazil (BR), Chile (CL), Colombia (CO), Peru (PE)                                    | Les exportations de matières premières et l'externalisation IT nécessitent une communication fluide PT/ES ↔ EN              |
+| Sièges Anglophones à Portée Mondiale | United States (US), United Kingdom (GB), Australia (AU)                              | Les sièges vendent dans le monde entier et ont besoin d'un canal bidirectionnel avec l'Asie et l'LATAM                       |
 
 ¹ **USMCA** — Accord États‑Unis‑Mexique‑Canada qui a remplacé l'ALENA ; il impose des règles d'origine strictes dans le secteur automobile.
 

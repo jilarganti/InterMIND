@@ -61,7 +61,10 @@
   "prettier": {
     "$schema": "https://json.schemastore.org/prettierrc",
     "semi": false,
-    "printWidth": 160
+    "printWidth": 160,
+    "singleQuote": false,
+    "jsxSingleQuote": false,
+    "quoteProps": "preserve"
   },
   "simple-git-hooks": {
     "pre-push": "pnpm build"

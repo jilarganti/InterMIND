@@ -11,11 +11,11 @@ Rapidement, avec précision, et avec un véritable humain à votre écoute.
 
 <ContactFormModalNav   
   formStyle="margin: 1rem auto;"  
-  categoryLabel="Qu\'est-ce qui vous amène chez InterMind aujourd\'hui ?"  
+  categoryLabel="Qu'est-ce qui vous amène chez InterMind aujourd'hui ?"  
   categoryPlaceholderText="Choisissez votre raison principale…"  
   messageLabel="Dites-nous en plus (facultatif)"  
   messagePlaceholderText="Tout ce que vous souhaitez partager — objectifs, contexte ou détails techniques."  
-  buttonText="Obtenir l\'aide d\'un expert maintenant"  
+  buttonText="Obtenir l'aide d'un expert maintenant"  
   :services="[
     'Je veux essayer InterMind dans ma langue', 
     'J\'aimerais une démonstration',

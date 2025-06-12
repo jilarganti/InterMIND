@@ -71,24 +71,24 @@ Gäste sind Benutzer, die an der Besprechung teilnehmen, ohne sich anzumelden.
 
 ## Übersicht der Rollenberechtigungen
 
-| Funktion                          | Gastgeber | Moderator | Teilnehmer | Gast  |
-| --------------------------------- | --------- | --------- | ---------- | ----- |
-| Meeting starten                   | ✅        | ❌        | ❌         | ❌    |
-| Beliebigen Teilnehmer stummschalten| ✅       | ✅        | ❌         | ❌    |
-| Beliebigen Teilnehmer entstummen  | ❌        | ❌        | ❌         | ❌    |
-| Eigenes Mikrofon stumm/entstummen | ✅        | ✅        | ✅         | ✅    |
-| Eigene Kamera ein-/ausschalten    | ✅        | ✅        | ✅         | ✅    |
-| Aufnahme starten/stoppen          | ✅        | ✅        | ❌         | ❌    |
-| Bildschirm teilen (Desktop)       | ✅        | ✅        | ✅         | ✅    |
-| Sprachassistent ein-/ausschalten  | ✅        | ✅        | ❌         | ❌    |
-| KI-Assistent nutzen               | ✅        | ✅        | ✅         | ❌    |
-| Online-Übersetzung nutzen         | ✅        | ✅        | ✅         | ✅    |
-| Übersetzungssprache ändern        | ✅        | ✅        | ✅         | ✅    |
-| Hand heben / senken               | ✅/✅     | ✅/✅     | ✅/❌      | ✅/❌ |
-| Transkript ansehen                | ✅        | ✅        | ✅         | ❌    |
-| Layout / Einstellungen ändern     | ✅        | ✅        | ✅         | ✅    |
-| Hintergrundunschärfe ein-/ausschalten| ✅    | ✅        | ✅         | ✅    |
-| Gast zulassen/ablehnen            | ✅        | ✅        | ❌         | ❌    |
-| Meeting-Verlauf einsehen          | ✅        | ✅        | ✅         | ❌    |
-| Teilnehmer entfernen              | ✅        | ✅        | ❌         | ❌    |
-| Moderator befördern/zurückstufen  | ✅        | ✅        | ❌         | ❌    |
+| Funktion                              | Gastgeber | Moderator | Teilnehmer | Gast  |
+| ------------------------------------- | --------- | --------- | ---------- | ----- |
+| Meeting starten                       | ✅        | ❌        | ❌         | ❌    |
+| Beliebigen Teilnehmer stummschalten   | ✅        | ✅        | ❌         | ❌    |
+| Beliebigen Teilnehmer entstummen      | ❌        | ❌        | ❌         | ❌    |
+| Eigenes Mikrofon stumm/entstummen     | ✅        | ✅        | ✅         | ✅    |
+| Eigene Kamera ein-/ausschalten        | ✅        | ✅        | ✅         | ✅    |
+| Aufnahme starten/stoppen              | ✅        | ✅        | ❌         | ❌    |
+| Bildschirm teilen (Desktop)           | ✅        | ✅        | ✅         | ✅    |
+| Sprachassistent ein-/ausschalten      | ✅        | ✅        | ❌         | ❌    |
+| KI-Assistent nutzen                   | ✅        | ✅        | ✅         | ❌    |
+| Online-Übersetzung nutzen             | ✅        | ✅        | ✅         | ✅    |
+| Übersetzungssprache ändern            | ✅        | ✅        | ✅         | ✅    |
+| Hand heben / senken                   | ✅/✅     | ✅/✅     | ✅/❌      | ✅/❌ |
+| Transkript ansehen                    | ✅        | ✅        | ✅         | ❌    |
+| Layout / Einstellungen ändern         | ✅        | ✅        | ✅         | ✅    |
+| Hintergrundunschärfe ein-/ausschalten | ✅        | ✅        | ✅         | ✅    |
+| Gast zulassen/ablehnen                | ✅        | ✅        | ❌         | ❌    |
+| Meeting-Verlauf einsehen              | ✅        | ✅        | ✅         | ❌    |
+| Teilnehmer entfernen                  | ✅        | ✅        | ❌         | ❌    |
+| Moderator befördern/zurückstufen      | ✅        | ✅        | ❌         | ❌    |

@@ -71,7 +71,7 @@ Les invités sont des utilisateurs qui rejoignent la réunion sans se connecter.
 
 ## Résumé des Permissions des Rôles
 
-| Fonctionnalité                              | Hôte  | Modérateur | Participant | Invité |
+| Fonctionnalité                             | Hôte  | Modérateur | Participant | Invité |
 | ------------------------------------------ | ----- | ---------- | ----------- | ------ |
 | Démarrer la Réunion                        | ✅    | ❌         | ❌          | ❌     |
 | Couper le Son de Tout Participant          | ✅    | ✅         | ❌          | ❌     |
@@ -86,7 +86,7 @@ Les invités sont des utilisateurs qui rejoignent la réunion sans se connecter.
 | Changer la Langue de Traduction            | ✅    | ✅         | ✅          | ✅     |
 | Lever / Baisser la Main                    | ✅/✅ | ✅/✅      | ✅/❌       | ✅/❌  |
 | Voir la Transcription                      | ✅    | ✅         | ✅          | ❌     |
-| Modifier la Disposition / les Paramètres    | ✅    | ✅         | ✅          | ✅     |
+| Modifier la Disposition / les Paramètres   | ✅    | ✅         | ✅          | ✅     |
 | Activer/Désactiver le Flou d\'Arrière-plan | ✅    | ✅         | ✅          | ✅     |
 | Admettre/Refuser un Invité                 | ✅    | ✅         | ❌          | ❌     |
 | Accéder à l\'Historique des Réunions       | ✅    | ✅         | ✅          | ❌     |
