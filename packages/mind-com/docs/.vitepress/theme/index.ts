@@ -5,10 +5,11 @@ import { useData } from "vitepress"
 import "./styles/index.css"
 import { components } from "shared"
 import sharedTheme from "shared"
-import AuthButton from "../components/AuthButton.vue"
 import { Icon } from "@iconify/vue"
 import { inject } from "@vercel/analytics"
 import { injectSpeedInsights } from "@vercel/speed-insights"
+import AuthButton from "../components/AuthButton.vue"
+import ContactFormModalNav from "../components/ContactFormModalNav.vue"
 
 const { SearchInput } = components
 
@@ -35,6 +36,7 @@ export default {
     }
     // Регистрация моих компонентов пакета
     app.component("AuthButton", AuthButton)
+    app.component("ContactFormModalNav", ContactFormModalNav)
 
     // Регистрация внешних компонентов пакета
     app.component("Icon", Icon)
