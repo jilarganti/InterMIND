@@ -11,6 +11,7 @@
   "type": "module",
   "scripts": {
     "build": "pnpm -r build",
+    "format": "pnpm -F mind-com format",
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
@@ -67,6 +68,7 @@
     "quoteProps": "preserve"
   },
   "simple-git-hooks": {
+    "pre-commit": "pnpm format",
     "pre-push": "pnpm build"
   }
 }
