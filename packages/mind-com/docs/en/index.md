@@ -175,7 +175,7 @@ From first call to fluent conversations — at any scale.
   },
   {
     q: 'How does InterMind ensure data privacy and security?',
-    a: 'InterMind is **private by design**. All data is processed and stored within your selected **Privacy Zone** — _EU_, _US_, or _Asia_. We comply with [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), and UAE PDPL, and **never use your content** for training or third-party access.  Advanced **Privacy Zone control** is available on the **Business** plan.'
+    a: 'InterMind is **private by design**. All data is processed and stored within your selected **Privacy Zone** — _EU_, _US_, or _Asia_. We comply with [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), and UAE PDPL, and **never use your content** for training or third-party access.  Advanced [Privacy Zone control](./product/overview/privacy-architecture) is available on the **Business** plan.'
   },
   {
     q: 'Can I try InterMind before purchasing a plan?',
@@ -183,7 +183,7 @@ From first call to fluent conversations — at any scale.
   },
   {
     q: 'What if I need help or support?',
-    a: 'Support is available via our **help center**, **email**, and **live chat**. *Business* users get **priority support** with a dedicated contact.'
+    a: 'Support is available via our [help center](./resources/help). *Business* users get **priority support** with a dedicated contact.'
   },
   {
     q: 'How do I manage my subscription (upgrade, downgrade, or cancel)?',
