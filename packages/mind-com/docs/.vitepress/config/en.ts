@@ -152,7 +152,6 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 // function sidebarResources(): DefaultTheme.SidebarItem[] {
 //   return [
 //     { text: "About", link: "/about" },
-//     // { text: "Team", link: "/team" },
 //     { text: "Contacts", link: "/contacts" },
 //     { text: "Get Support", link: "/help" },
 //     { text: "Brand Assets", link: "/media-kit" },

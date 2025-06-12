@@ -6,7 +6,6 @@ isHome: true
 
 <!-- title: "Video calls powered by simultaneous interpretation" -->
 <!-- text="Speak your native language. Hear everyone else — as if they spoke it too." -->
-<!-- title="Live speech translation in Video Calls" -->
 
 <HeroSection
   title="Meet in **Any** Language"
