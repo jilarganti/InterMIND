@@ -1,4 +1,4 @@
-import type { ApiRequest, ApiResponse } from "../types/api"
+import type { ApiRequest, ApiResponse } from "./types/api"
 
 export default function handler(req: ApiRequest, res: ApiResponse) {
   try {
