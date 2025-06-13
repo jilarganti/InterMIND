@@ -1,6 +1,5 @@
 // packages/site/lib/pipedriveClient.ts
 import { ApiClient, PersonsApi, LeadsApi } from "pipedrive"
-import "../../../shared/types/pipedrive"
 
 const getApiClient = () => {
   const client = new ApiClient()
