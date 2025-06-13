@@ -6,10 +6,6 @@
     "esModuleInterop": true,
     "strict": true
   },
-  "include": [
-    "./types/**/*.d.ts",
-    "./api/**/*.ts",
-    "./packages/**/*.ts"
-    // добавьте другие папки с исходниками, если нужно
-  ]
+  "include": ["api/types/**/*.d.ts"],
+  "typeRoots": ["./api/types", "./node_modules/@types"]
 }

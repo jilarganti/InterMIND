@@ -1,4 +1,4 @@
-import type { ApiRequest, ApiResponse } from "../types/api"
+import type { ApiRequest, ApiResponse } from "./types/api"
 
 export async function GET(request: ApiRequest) {
   console.log("GET request" + request)
