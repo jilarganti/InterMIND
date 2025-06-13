@@ -7,7 +7,7 @@ export interface CRMStatus {
   errorMessage: string
 }
 
-export const usePipedriveCRM = (endpoint = "/api/createContactAndLead") => {
+export const usePipedriveCRM = (endpoint = "/api/mind-com/createContactAndLead") => {
   const status = ref<CRMStatus>({
     isSubmitting: false,
     successMessage: "",
