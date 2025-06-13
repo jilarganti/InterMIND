@@ -6,6 +6,5 @@
     "esModuleInterop": true,
     "strict": true
   },
-  "include": ["api/types/**/*.d.ts"],
-  "typeRoots": ["./api/types", "./node_modules/@types"]
+  "include": ["packages", "api", "shared"]
 }
