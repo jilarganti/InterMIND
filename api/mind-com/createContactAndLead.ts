@@ -1,8 +1,8 @@
 // api/mind-com/createContactAndLead.js
-import { createContact, createLead } from "../lib/pipedriveClient"
-import { resolveCustomFieldId } from "../lib/fieldResolver"
+import { createContact, createLead } from "../lib/pipedriveClient.js"
+import { resolveCustomFieldId } from "../lib/fieldResolver.js"
 
-export const runtime = "edge"
+// export const runtime = "edge"
 
 export async function POST(request: Request) {
   const body = await request.json()

@@ -7,6 +7,6 @@
     "allowJs": true,
     "checkJs": true
   },
-  "include": ["api/**/*.js", "*/scripts/**/*.js", "api/hlo.ts"],
+  "include": ["api/**/*.js", "*/scripts/**/*.js", "api/hlo.ts", "./types/**/*.d.ts"],
   "exclude": ["node_modules"]
 }
