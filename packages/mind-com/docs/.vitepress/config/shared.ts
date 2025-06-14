@@ -3,7 +3,6 @@ import markdownItFootnote from "markdown-it-footnote"
 import { fileURLToPath, URL } from "node:url"
 import { gtmHeadScript, gtmHeadNoScript } from "./gtm.config"
 import llmstxt from "vitepress-plugin-llms"
-import tsconfigPaths from "vite-tsconfig-paths"
 
 // Обновляем URL сайта документации
 const hostUrl = "https://mind.com"
@@ -87,21 +86,13 @@ export const shared = defineConfig({
       "import.meta.env.VITE_OAUTH_CLIENT_ID": JSON.stringify(OAUTH_CLIENT_ID),
       "import.meta.env.VITE_APP_BASE_URL": JSON.stringify(APP_BASE_URL),
     },
-    resolve: {
-      alias: {
-        "@config": fileURLToPath(new URL("../config/", import.meta.url)),
-        "@theme": fileURLToPath(new URL("../theme/", import.meta.url)),
-        "@docs": fileURLToPath(new URL("../../../en", import.meta.url)),
-        "@shared": fileURLToPath(new URL("../../../../../shared", import.meta.url)),
-      },
-    },
+
     server: {
       proxy: {
         "/api": { target: baseUrl, changeOrigin: true },
       },
     },
     plugins: [
-      // tsconfigPaths(),
       isProduction &&
         llmstxt({
           workDir: "en",
