@@ -1,6 +1,12 @@
 {
-  "extends": "@tsconfig/node22/tsconfig.json",
   "compilerOptions": {
-    "types": ["node"]
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "Node",
+    "lib": ["es2022"],
+    "typeRoots": ["../node_modules/@types"],
+    "types": ["node"],
+    "strict": true,
+    "esModuleInterop": true
   }
 }
