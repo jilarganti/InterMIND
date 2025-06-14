@@ -1,5 +1,6 @@
 {
   "extends": "../../shared/tsconfig.json",
+  "exclude": ["node_modules", "i18n", "dist"],
 
   "compilerOptions": {},
 
