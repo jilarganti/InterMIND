@@ -1,6 +1,7 @@
-<script setup>
+<script setup lang="ts">
 import { ref, onMounted, onUnmounted, computed } from "vue"
 import { useIntervalFn } from "@vueuse/core"
+import type { Ref } from "vue"
 
 const props = defineProps({
   testimonialsUrl: {
@@ -16,8 +17,15 @@ const props = defineProps({
   },
 })
 
-const testimonials = ref([])
-const scrollContainer = ref(null)
+interface Testimonial {
+  title: string
+  text: string
+  author: string
+  stars: number | string
+}
+
+const testimonials = ref<Testimonial[]>([])
+const scrollContainer: Ref<HTMLDivElement | null> = ref(null)
 const isPaused = ref(false)
 const SCROLL_AMOUNT = 1
 
@@ -41,6 +49,10 @@ const { pause, resume } = useIntervalFn(
 
 async function loadTestimonials() {
   try {
+    if (!props.testimonialsUrl) {
+      testimonials.value = []
+      return
+    }
     const res = await fetch(props.testimonialsUrl)
     const data = await res.json()
     testimonials.value = data.sort(() => Math.random() - 0.5)

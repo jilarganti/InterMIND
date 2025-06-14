@@ -1,18 +1,19 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from "vue"
 import { renderMarkdown } from "../utils/markdown"
 
-const props = defineProps({
-  items: {
-    type: Array,
-    required: true,
-    // [{ q: '...', a: '...' }]
-  },
-})
+interface AccordionItem {
+  q: string
+  a: string
+}
+
+const props = defineProps<{
+  items: AccordionItem[]
+}>()
 
 const openStates = ref(props.items.map(() => false))
 
-function toggle(index) {
+function toggle(index: number) {
   openStates.value[index] = !openStates.value[index]
 }
 </script>
@@ -20,15 +21,15 @@ function toggle(index) {
 <template>
   <div class="accordion-group">
     <div v-for="(item, index) in props.items" :key="index" class="accordion-item">
-      <button class="accordion-header" @click="toggle(index)">
-        <span>{{ item.q }}</span>
+      <button class="accordion-header" @click="toggle(index as number)">
+        <span>{{ (item as AccordionItem).q }}</span>
         <span class="accordion-emoji">
-          {{ openStates[index] ? "↑" : "↓" }}
+          {{ openStates[index as number] ? "↑" : "↓" }}
         </span>
       </button>
       <transition name="fade">
-        <div class="accordion-content" v-if="openStates[index]">
-          <p v-html="renderMarkdown(item.a)"></p>
+        <div class="accordion-content" v-if="openStates[index as number]">
+          <p v-html="renderMarkdown((item as AccordionItem).a)"></p>
         </div>
       </transition>
     </div>
