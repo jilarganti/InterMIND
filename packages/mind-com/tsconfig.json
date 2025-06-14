@@ -1,12 +1,7 @@
 {
   "extends": "../../shared/tsconfig.json",
 
-  "compilerOptions": {
-    "baseUrl": "../..",
-    "paths": {
-      "@shared/*": ["shared/*"]
-    }
-  },
+  "compilerOptions": {},
 
   "vueCompilerOptions": {
     "vitePressExtensions": [".md"]
