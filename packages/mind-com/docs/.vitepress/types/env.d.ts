@@ -6,14 +6,11 @@ declare module "*.vue" {
   export default component
 }
 
-interface ImportMeta {
-  readonly env: ImportMetaEnv
+interface ImportMetaEnv {
+  readonly VITE_IS_PROD: boolean
+  readonly VITE_BASE_URL: string
 }
 
-interface ImportMetaEnv {
-  readonly VITE_IS_PROD: string
-  readonly VITE_BASE_URL: string
-  // здесь можно добавить другие переменные окружения
-  // readonly VITE_API_URL: string
-  // readonly VITE_APP_TITLE: string
+interface ImportMeta {
+  readonly env: ImportMetaEnv
 }
