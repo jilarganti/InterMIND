@@ -3,9 +3,8 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description:
-    "يضيف InterMIND ترجمة فورية للكلام في الوقت الفعلي لكل مكالمة فيديو، حتى لا تفقد الفرق الدولية أبداً الصفقات أو الوقت أو الوضوح بسبب حواجز اللغة.",
-  head: [["meta", { property: "og:title", content: "مكالمات الفيديو مدعومة بالترجمة الفورية المتزامنة | InterMIND" }]],
+  description: "يضيف InterMIND ترجمة الكلام الفورية إلى كل مكالمة فيديو، حتى لا تفقد الفرق الدولية أبداً الصفقات أو الوقت أو الوضوح بسبب حواجز اللغة.",
+  head: [["meta", { property: "og:title", content: "مكالمات الفيديو مدعومة بالترجمة الفورية | InterMIND" }]],
 
   themeConfig: {
     nav: [
@@ -49,7 +48,7 @@ export const ar = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">إعدادات الخصوصية</a> | <a href="${BASE_PATH}/company/Privacy-Policy">سياسة الخصوصية</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">اللوائح القانونية لخدمات الذكاء الاصطناعي</a> | <a href="https://status.mind.com/">حالة الخدمة</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">إعدادات الخصوصية</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">سياسة الخصوصية</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">اللوائح القانونية لخدمات الذكاء الاصطناعي</a> | <a href="https://status.mind.com/">حالة الخدمة</a>`,
     },
 
     localization: {

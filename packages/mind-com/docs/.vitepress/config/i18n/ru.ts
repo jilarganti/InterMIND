@@ -49,7 +49,7 @@ export const ru = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Правовые нормы для ИИ-сервисов</a> | <a href="https://status.mind.com/">Статус сервиса</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Правовые нормы для ИИ-сервисов</a> | <a href="https://status.mind.com/">Статус сервиса</a>`,
     },
 
     localization: {
@@ -110,7 +110,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Создание встреч", link: "guide/creating-meetings" },
         { text: "Интерфейс встречи", link: "guide/meeting-interface" },
         { text: "Роли пользователей", link: "guide/user-roles" },
-        { text: "ИИ-функции", link: "guide/ai-features" },
+        { text: "ИИ функции", link: "guide/ai-features" },
         { text: "История встреч", link: "guide/meeting-history" },
         { text: "FAQ", link: "guide/faq" },
         { text: "Устранение неполадок", link: "guide/troubleshooting" },

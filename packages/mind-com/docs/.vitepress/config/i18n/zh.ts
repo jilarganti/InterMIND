@@ -48,7 +48,7 @@ export const zh = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/company/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">AI服务法律法规</a> | <a href="https://status.mind.com/">服务状态</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AI服务法律法规</a> | <a href="https://status.mind.com/">服务状态</a>`,
     },
 
     localization: {
@@ -64,9 +64,9 @@ export const zh = defineConfig({
       email: "邮箱 *",
       emailPlaceholder: "您的邮箱地址",
       webSite: "公司网站 *",
-      webSitePlaceholder: "例如 https://companyname.com",
+      webSitePlaceholder: "例如：https://companyname.com",
       webSiteError: "请输入网站地址",
-      category: "您的主要目标是什么？ *",
+      category: "您的主要目标是什么？*",
       categoryPlaceholder: "选择最重要的内容",
       message: "让我们讨论您的目标（可选）",
       messagePlaceholder: "请提供任何其他详细信息（可选）",

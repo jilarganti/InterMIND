@@ -49,7 +49,7 @@ export const de = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Datenschutz-Einstellungen</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Datenschutzrichtlinie</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Rechtliche Bestimmungen für KI-Dienste</a> | <a href="https://status.mind.com/">Service-Status</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Datenschutz-Einstellungen</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Datenschutzrichtlinie</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Rechtliche Bestimmungen für KI-Dienste</a> | <a href="https://status.mind.com/">Service-Status</a>`,
     },
 
     localization: {
@@ -69,14 +69,14 @@ export const de = defineConfig({
       webSiteError: "Bitte geben Sie die Website ein",
       category: "Was ist Ihr Hauptziel? *",
       categoryPlaceholder: "Wählen Sie, was am wichtigsten ist",
-      message: "Lassen Sie uns Ihre Ziele besprechen (optional)",
+      message: "Lassen Sie uns über Ihre Ziele sprechen (optional)",
       messagePlaceholder: "Bitte geben Sie zusätzliche Details an (optional)",
       submit: "Anfrage senden",
       sending: "Wird gesendet...",
       successTitle: "Vielen Dank!",
       successMessage: "Wir haben Ihre Nachricht erhalten — unser Team wird sich in Kürze bei Ihnen melden.",
       defaultCategories: [
-        "Sprachbarrieren in Meetings eliminieren",
+        "Sprachbarrieren in Meetings beseitigen",
         "Meetings durchsuchbar und umsetzbar machen",
         "Compliance & Datenresidenz sicherstellen (EU / US / Asien)",
         "Nur am Erkunden / Sonstiges",

@@ -49,7 +49,7 @@ export const es = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de privacidad</a> | <a href="${BASE_PATH}/company/Privacy-Policy">Política de privacidad</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">Regulaciones legales para servicios de IA</a> | <a href="https://status.mind.com/">Estado del servicio</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de privacidad</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Política de privacidad</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Regulaciones legales para servicios de IA</a> | <a href="https://status.mind.com/">Estado del servicio</a>`,
     },
 
     localization: {
@@ -70,7 +70,7 @@ export const es = defineConfig({
       category: "¿Cuál es tu objetivo principal? *",
       categoryPlaceholder: "Elige lo que más te importa",
       message: "Hablemos de tus objetivos (opcional)",
-      messagePlaceholder: "Por favor proporciona detalles adicionales (opcional)",
+      messagePlaceholder: "Por favor proporciona cualquier detalle adicional (opcional)",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",

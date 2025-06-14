@@ -48,14 +48,14 @@ export const ja = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">プライバシー設定</a> | <a href="${BASE_PATH}/company/Privacy-Policy">プライバシーポリシー</a> | <a href="${BASE_PATH}/company/Legal-Regulations-for-AI-Services">AIサービスの法的規制</a> | <a href="https://status.mind.com/">サービス状況</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">プライバシー設定</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">プライバシーポリシー</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AIサービスの法的規制</a> | <a href="https://status.mind.com/">サービス状況</a>`,
     },
 
     localization: {
       placeholder4SearchInput: "何でもお聞きください...",
       placeholder4ChatFooter: "何でもお聞きください...",
       placeholder4ChatList: "チャットトピックを入力...",
-      buttonLabel4NavButton: "即座の専門家チャット",
+      buttonLabel4NavButton: "即座に専門家チャット",
       buttonLabel4AuthButton: "サインイン",
     },
     contact_form: {
