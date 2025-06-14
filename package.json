@@ -16,7 +16,6 @@
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.32.1",
-    "@tsconfig/node22": "^22.0.2",
     "@types/markdown-it": "^14.1.2",
     "@types/markdown-it-footnote": "^3.0.4",
     "@types/node": "^22.15.21",

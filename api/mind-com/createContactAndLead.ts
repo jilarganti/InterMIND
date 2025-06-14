@@ -6,10 +6,22 @@ import { resolveCustomFieldId } from "../lib/fieldResolver.js"
 
 export async function POST(request: Request) {
   const body = await request.json()
+  // Add type assertion to fix TS errors
+  const { name, email, webSite, channel, channelId, originId, category, message, leadSource, countryCode, countryName } = body as {
+    name: string
+    email: string
+    webSite: string
+    channel: string
+    channelId: string
+    originId: string
+    category: string
+    message: string
+    leadSource: string
+    countryCode?: string
+    countryName?: string
+  }
 
   try {
-    const { name, email, webSite, channel, channelId, originId, category, message, leadSource, countryCode, countryName } = body
-
     const channelIdResolved = await resolveCustomFieldId("channel", channel)
 
     const person = await createContact({
