@@ -1,16 +1,14 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": ["docs/.vitepress/**/*.[ts,vue]", "docs/en/**/*.md", "__tests__/*.ts"],
 
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@config/*": ["./docs/.vitepress/config/*"],
-      "@theme/*": ["./docs/.vitepress/theme/*"],
-      "@docs/*": ["./docs/en/*"]
+      "@shared/*": ["../../shared/*"]
     }
   },
+
   "vueCompilerOptions": {
     "vitePressExtensions": [".md"]
-  },
-  "typeRoots": ["./node_modules/@types", "./docs/.vitepress/types", "../../shared/types"]
+  }
 }
