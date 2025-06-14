@@ -3,6 +3,7 @@ import markdownItFootnote from "markdown-it-footnote"
 import { fileURLToPath, URL } from "node:url"
 import { gtmHeadScript, gtmHeadNoScript } from "./gtm.config"
 import llmstxt from "vitepress-plugin-llms"
+import tsconfigPaths from "vite-tsconfig-paths"
 
 // Обновляем URL сайта документации
 const hostUrl = "https://mind.com"
@@ -91,6 +92,7 @@ export const shared = defineConfig({
         "@config": fileURLToPath(new URL("../config/", import.meta.url)),
         "@theme": fileURLToPath(new URL("../theme/", import.meta.url)),
         "@docs": fileURLToPath(new URL("../../../en", import.meta.url)),
+        "@shared": fileURLToPath(new URL("../../../../../shared", import.meta.url)),
       },
     },
     server: {
@@ -99,6 +101,7 @@ export const shared = defineConfig({
       },
     },
     plugins: [
+      // tsconfigPaths(),
       isProduction &&
         llmstxt({
           workDir: "en",

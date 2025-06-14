@@ -57,6 +57,7 @@
     "pinia": "^3.0.2",
     "pipedrive": "^23.4.3",
     "uuid": "^11.1.0",
+    "vite-tsconfig-paths": "^5.1.4",
     "vue": "^3.5.14"
   },
   "prettier": {

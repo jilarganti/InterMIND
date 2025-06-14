@@ -1,10 +1,10 @@
 {
-  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "extends": "../../shared/tsconfig.json",
 
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "../..",
     "paths": {
-      "@shared/*": ["../../shared/*"]
+      "@shared/*": ["shared/*"]
     }
   },
 
