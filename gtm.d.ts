@@ -1,5 +1,3 @@
-// Универсальный тип для событий GTM
-
 export interface FormSubmissionEvent {
   event: string
   form_type: string
@@ -15,11 +13,5 @@ export type GTMEvent = FormSubmissionEvent | { event: string }
 declare global {
   interface Window {
     dataLayer?: GTMEvent[]
-  }
-}
-
-declare global {
-  interface Window {
-    dataLayer?: Array<FormSubmissionEvent | { event: string }>
   }
 }
