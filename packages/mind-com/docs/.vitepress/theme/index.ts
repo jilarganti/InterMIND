@@ -1,5 +1,3 @@
-/// <reference types="../types/global.d.ts" />
-
 import { h } from "vue"
 import { type App } from "vue"
 import DefaultTheme from "vitepress/theme"
