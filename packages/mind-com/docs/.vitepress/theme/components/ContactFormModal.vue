@@ -29,8 +29,8 @@ import { ref, computed, onMounted } from "vue"
 import { onClickOutside } from "@vueuse/core"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 import { useFormSubmit } from "../composables/useFormSubmit"
-import { generateOriginId } from "../../../../../shared/utils/path"
-import { determineTrafficSource, initUtmTracking } from "../../../../../shared/utils/utm"
+import { generateOriginId } from "../../../../../../shared/utils/path"
+import { determineTrafficSource, initUtmTracking } from "../../../../../../shared/utils/utm"
 
 const { site, page } = useData()
 
