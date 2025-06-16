@@ -10,8 +10,8 @@ import sharedTheme from "shared"
 import { Icon } from "@iconify/vue"
 import { inject } from "@vercel/analytics"
 import { injectSpeedInsights } from "@vercel/speed-insights"
-import AuthButton from "../components/AuthButton.vue"
-import ContactFormModalNav from "../components/ContactFormModalNav.vue"
+import AuthButton from "./components/AuthButton.vue"
+import ContactFormModalNav from "./components/ContactFormModalNav.vue"
 
 const { SearchInput } = components
 

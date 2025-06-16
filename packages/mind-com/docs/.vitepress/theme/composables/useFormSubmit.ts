@@ -1,8 +1,8 @@
 // composables/CRM/useFormSubmit.ts
 import { ref } from "vue"
 import { usePipedriveCRM } from "./usePipedriveCRM"
-import { determineTrafficSource } from "../../../../../shared/utils/utm"
-import { generateOriginId } from "../../../../../shared/utils/path"
+import { determineTrafficSource } from "../../../../../../shared/utils/utm"
+import { generateOriginId } from "../../../../../../shared/utils/path"
 import { useRoute } from "vitepress"
 
 export const useFormSubmit = (formName = "Unknown") => {
