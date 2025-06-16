@@ -11,6 +11,7 @@ import { determineTrafficSource } from "../../../../../../shared/utils/utm"
 import { generateOriginId } from "../../../../../../shared/utils/path"
 
 const REDIRECT_AFTER_AUTH_URI_KEY = "redirect_after_auth"
+const isRealLead = import.meta.env.VITE_IS_PROD
 
 interface Props {
   text: string
@@ -37,10 +38,10 @@ const login = (event: Event): void => {
     channel: "Web visitors",
     channelId: props.text,
     originId: generateOriginId(page.value.relativePath),
+    category: "",
     // email: "",
     // webSite: "",
     // message: "",
-    // category: "",
     // countryCode: "",
     // countryName: "",
   }
@@ -53,6 +54,12 @@ const login = (event: Event): void => {
   // GTM tracking
   window.dataLayer?.push({
     event: "app_event_sign_up",
+    form_type: leadData.channel,
+    form_service: leadData.channelId,
+    form_URL: page.value.relativePath,
+    form_category: leadData.category,
+    is_real_lead: !!isRealLead,
+    lead_source: leadData.leadSource,
   })
 
   // Сохраняем текущий путь для возврата после авторизации
