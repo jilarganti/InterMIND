@@ -112,9 +112,9 @@ export const shared = defineConfig({
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:site_name", content: "InterMIND" }],
     ["meta", { property: "og:url", content: hostUrl }],
+    ["script", { id: "usercentrics-cmp", src: "https://web.cmp.usercentrics.eu/ui/loader.js", "data-settings-id": "oOBkcAZgmMkYWC", async: "true" }],
     ...gtmHeadScript,
     ...gtmHeadNoScript,
-    ["script", { id: "usercentrics-cmp", src: "https://web.cmp.usercentrics.eu/ui/loader.js", "data-settings-id": "oOBkcAZgmMkYWC", async: "true" }],
   ],
   themeConfig: {
     logo: { light: "/logo.svg", dark: "/logo.svg" },
