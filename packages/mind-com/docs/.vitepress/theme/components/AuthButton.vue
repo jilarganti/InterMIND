@@ -1,4 +1,6 @@
 <script setup lang="ts">
+/// <reference types="../types/global.d.ts" />
+
 import { nanoid } from "nanoid"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 
