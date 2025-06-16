@@ -53,7 +53,8 @@ const login = (event: Event): void => {
 
   // GTM tracking
   window.dataLayer?.push({
-    event: "app_event_sign_up",
+    // event: "app_event_sign_up",
+    event: "site_event_auth_attempt",
     form_type: leadData.channel,
     form_service: leadData.channelId,
     form_URL: page.value.relativePath,
