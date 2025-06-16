@@ -1,20 +1,19 @@
 <script setup lang="ts">
-/// <reference types="../types/global.d.ts" />
+/**
+ * /// <reference types="../types/global.d.ts" />
+ */
 
 import { nanoid } from "nanoid"
+import { useData } from "vitepress"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
+import { usePipedriveCRM } from "../composables/usePipedriveCRM"
+import { determineTrafficSource } from "../../../../../../shared/utils/utm"
+import { generateOriginId } from "../../../../../../shared/utils/path"
 
 const REDIRECT_AFTER_AUTH_URI_KEY = "redirect_after_auth"
 
 interface Props {
-  /**
-   * Текст кнопки
-   */
   text: string
-
-  /**
-   * Класс для кнопки
-   */
   buttonClass?: "brand" | "alt" | "sponsor"
 }
 
@@ -22,15 +21,36 @@ const props = withDefaults(defineProps<Props>(), {
   buttonClass: "brand",
 })
 
-/**
- * Выполняет перенаправление для авторизации через OAuth
- */
+const { page } = useData()
+const { submitToCRM } = usePipedriveCRM()
+
 const login = (event: Event): void => {
   event.preventDefault()
 
   /**
-   * TODO: Перенести в приложение после отладки
+   * TODO: Перенести или продублировать в продукте
    */
+  // Создаем анонимный лид в CRM параллельно с редиректом
+  const leadData = {
+    name: "[Auth attempt]",
+    leadSource: determineTrafficSource(),
+    channel: "Web visitors",
+    channelId: props.text,
+    originId: generateOriginId(page.value.relativePath),
+    // email: "",
+    // webSite: "",
+    // message: "",
+    // category: "",
+    // countryCode: "",
+    // countryName: "",
+  }
+
+  // Запускаем создание лида без ожидания результата
+  submitToCRM(leadData).catch((error) => {
+    console.error("Failed to create lead:", error)
+  })
+
+  // GTM tracking
   window.dataLayer?.push({
     event: "app_event_sign_up",
   })
