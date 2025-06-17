@@ -26,7 +26,7 @@ isHome: true
   link: '../product/overview/what-is-intermind',
   src: {
     light: '/media-kit/animals-cartoon-3-2.png',
-    dark: '/media-kit/animals-cartoon-3-2.png',
+    dark: '/promo/imind-1.webm',
   },
   inversion: false
 }" />
@@ -57,8 +57,8 @@ isHome: true
     ],
     link: '../product/overview/video-meeting-platform',
     src: {
-      light: '/imind.webm',
-      dark: '/imind.webm',
+      light: '/promo/imind-2.webm',
+      dark: '/promo/imind-2.webm',
     },
     inversion: false
   }" />
@@ -137,7 +137,7 @@ From first call to fluent conversations — at any scale.
 <ContactFormModalNav buttonText="Talk to our team" buttonClass="alt"/>
 </PricingPlans>
 
-> [!warning] 😱 Either you speak every language — or someone else closes your deals.
+> [!warning] 🔴 Free service imind.com is no longer supported.
 
 <span id="Testimonials"></span>
 
