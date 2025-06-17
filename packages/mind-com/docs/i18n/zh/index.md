@@ -26,7 +26,7 @@ isHome: true
   link: './product/overview/what-is-intermind',
   src: {
     light: '/media-kit/animals-cartoon-3-2.png',
-    dark: '/media-kit/animals-cartoon-3-2.png',
+    dark: '/1d.png',
   },
   inversion: false
 }" />
@@ -34,7 +34,7 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock :card="{
     title: '会议中的智慧大脑',
-    details: 'InterMind将每次多语言通话转化为清晰、可搜索的知识。',
+    details: 'InterMind将每个多语言通话转化为清晰、可搜索的知识。',
     items: [
       '🔍 **询问任何问题** — AI在**您的所有会议中**找到答案。',
       '✧ 自动提取任务、负责人和截止日期。',
@@ -50,7 +50,7 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: '为严肃会议而生——不仅仅是聊天',
+    title: '为严肃会议而生——不只是聊天',
     details: 'InterMind是**专业级视频会议平台**，不是轻量级插件或附加组件。',
     items: [
       '✧ 1080p分辨率、智能降噪、日程安排、会议管理、屏幕共享、录制、字幕、参与者聊天和日历集成——全部内置，即开即用。',
@@ -83,7 +83,7 @@ isHome: true
 />
 
 > [!tip] 这适合谁？  
-> 专为**国际团队**构建，语言障碍会导致**延误**、**错失交易**或**代价高昂的误解**。[了解更多...](./product/overview/markets)
+> 专为**国际团队**打造，解决语言障碍导致的**延误**、**错失交易**或**代价高昂的误解**。[了解更多...](./product/overview/markets)
 
 <br>
 
@@ -191,7 +191,7 @@ isHome: true
   },
   {
     q: 'InterMind支持哪些语言的口译服务？',
-    a: '我们支持**100多种语言**的实时口译。语言列表持续增长——请查看我们的网站获取更新。'
+    a: '我们支持**100多种语言**的实时口译。列表持续增长——请查看我们的网站获取更新。'
   },
   {
     q: '我可以使用InterMind进行网络研讨会或大型活动吗？',

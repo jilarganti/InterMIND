@@ -26,7 +26,7 @@ isHome: true
   link: './product/overview/what-is-intermind',
   src: {
     light: '/media-kit/animals-cartoon-3-2.png',
-    dark: '/media-kit/animals-cartoon-3-2.png',
+    dark: '/1d.png',
   },
   inversion: false
 }" />
@@ -51,9 +51,9 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Conçu pour les Réunions Sérieuses — Pas Seulement pour Parler',
-    details: 'InterMind est une **plateforme de réunion vidéo de qualité professionnelle**, pas un simple module complémentaire ou plugin léger.',
+    details: 'InterMind est une **plateforme de réunion vidéo de qualité professionnelle**, pas un simple complément ou plugin léger.',
     items: [
-      '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration du calendrier — tout intégré, prêt à l\'emploi.',
+      '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration calendrier — tout intégré, prêt à l\'emploi.',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -71,7 +71,7 @@ isHome: true
       'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle comptent le plus.',
     items: [
       '⚡︎ [Zones de Confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
-      '✧ **Aucune formation de données**. Aucun accès tiers.'
+      '✧ **Zéro formation de données**. Aucun accès tiers.'
     ],
     link: './product/overview/privacy-architecture',
     src: {
@@ -82,7 +82,7 @@ isHome: true
   }"
 />
 
-> [!tip] Pour qui est-ce destiné ?  
+> [!tip] À qui s'adresse-t-il ?  
 > Conçu pour les **équipes internationales** où les barrières linguistiques causent des **retards**, des **affaires perdues** ou des **malentendus coûteux**. [En savoir plus ...](./product/overview/markets)
 
 <br>

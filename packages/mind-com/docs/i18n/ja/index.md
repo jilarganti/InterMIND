@@ -1,14 +1,14 @@
 ---
 layout: home
-title: "ビデオ通話のためのリアルタイム音声翻訳"
+title: "ビデオ通話のリアルタイム音声翻訳"
 isHome: true
 ---
 
-<!-- title: "同時通訳によるビデオ通話" -->
-<!-- text="母国語で話し、他の人の声も母国語で聞こえる。" -->
+<!-- title: "同時通訳機能付きビデオ通話" -->
+<!-- text="母国語で話し、他の参加者の声も母国語で聞こえます。" -->
 
 <HeroSection
-  title="**あらゆる**言語でミーティング"
+  title="**どんな**言語でも会議を"
   text="ビデオ通話でのリアルタイム音声翻訳 — **遅延なし**、**商談の機会損失なし**、**言語の壁なし**。">
 
   <!-- <AuthButton text="違いを体感してください" buttonClass="brand"/> -->
@@ -17,28 +17,28 @@ isHome: true
 
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: '翻訳 ≠ 理解。次のレベルがここにあります。',
+  title: '翻訳 ≠ 理解。次世代の技術がここに。',
   details: '言語に関係なく、**あなたの声は聞こえ、理解される** — まるで同じ言語を話しているかのように。',
     items: [
-      '⚡︎ 自然に、[リアルタイム](./product/overview/how-it-works)で、字幕や遅延なしに。',
+      '⚡︎ 自然に、[リアルタイム](./product/overview/how-it-works)で、字幕や遅延なしで。',
       '✧ AI搭載の通訳がトーン、意図、業界固有の専門用語を捉えます。',
     ],
   link: './product/overview/what-is-intermind',
   src: {
     light: '/media-kit/animals-cartoon-3-2.png',
-    dark: '/media-kit/animals-cartoon-3-2.png',
+    dark: '/1d.png',
   },
   inversion: false
 }" />
 
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: 'ミーティング内のマインド',
+    title: '会議の中の知性',
     details: 'InterMindは多言語通話を明確で検索可能な知識に変換します。',
     items: [
-      '🔍 **何でも質問** — AIが**ミーティング全体から**答えを見つけます。',
+      '🔍 **何でも質問** — AIが**会議全体から**答えを見つけます。',
       '✧ タスク、担当者、締切を自動抽出。',
-      '✧ 重要なポイントをあらゆる言語で即座に要約。',
+      '✧ 重要なポイントをどんな言語でも即座に要約。',
     ],
     link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
     src: {
@@ -50,8 +50,8 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: '本格的なミーティングのために構築 — 単なる会話ツールではありません',
-    details: 'InterMindは**プロフェッショナルグレードのビデオミーティングプラットフォーム**であり、軽量なアドオンやプラグインではありません。',
+    title: '本格的な会議のために構築 — 単なる会話ツールではありません',
+    details: 'InterMindは**プロフェッショナルグレードのビデオ会議プラットフォーム**であり、軽量なアドオンやプラグインではありません。',
     items: [
       '✧ 1080p解像度、スマートノイズ抑制、スケジューリング、モデレーション、画面共有、録画、字幕、参加者チャット、カレンダー統合 — すべて内蔵され、すぐに使用可能。',
     ],
@@ -68,7 +68,7 @@ isHome: true
   :card="{
     title: '重要な場面でのプライバシー',
     details:
-      'InterMindは信頼が重要な会話のために構築されています — プライバシーとコントロールが最も重要な場面で。',
+      'InterMindは信頼性が重要な会話のために構築されています — プライバシーとコントロールが最も重要な場面で。',
     items: [
       '⚡︎ [プライバシーゾーン](./product/overview/privacy-architecture) — EU、米国、東南アジア',
       '✧ **データ学習ゼロ**。第三者アクセスなし。'
@@ -137,7 +137,7 @@ isHome: true
 <ContactFormModalNav buttonText="チームに相談" buttonClass="alt"/>
 </PricingPlans>
 
-> [!warning] 😱 あなたがすべての言語を話せるか — さもなければ他の誰かがあなたの取引を成約させるでしょう。
+> [!warning] 😱 あなたがすべての言語を話すか — それとも他の誰かがあなたの取引を成立させるか。
 
 <span id="Testimonials"></span>
 

@@ -26,14 +26,14 @@ isHome: true
   link: './product/overview/what-is-intermind',
   src: {
     light: '/media-kit/animals-cartoon-3-2.png',
-    dark: '/media-kit/animals-cartoon-3-2.png',
+    dark: '/1d.png',
   },
   inversion: false
 }" />
 
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: 'La Mente Dentro de Tus Reuniones',
+    title: 'La mente dentro de tus reuniones',
     details: 'InterMind convierte cada llamada multilingüe en conocimiento claro y consultable.',
     items: [
       '🔍 **Pregunta cualquier cosa** — la IA encuentra respuestas **en todas tus reuniones**.',
@@ -50,10 +50,10 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Construido para Reuniones Serias — No Solo para Conversar',
+    title: 'Construido para reuniones serias — no solo para hablar',
     details: 'InterMind es una **plataforma de videorreuniones de grado profesional**, no un complemento o plugin ligero.',
     items: [
-      '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo incorporado, listo para usar.',
+      '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, listo para usar.',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -66,11 +66,11 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Privacidad Donde Importa',
+    title: 'Privacidad donde importa',
     details:
       'InterMind está construido para conversaciones críticas de confianza — donde la privacidad y el control importan más.',
     items: [
-      '⚡︎ [Zonas de Privacidad](./product/overview/privacy-architecture) — UE, EE.UU., Sudeste Asiático',
+      '⚡︎ [Zonas de privacidad](./product/overview/privacy-architecture) — UE, EE.UU., Sudeste Asiático',
       '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
     ],
     link: './product/overview/privacy-architecture',
@@ -132,9 +132,9 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     ],
   }
 ]">
-<AuthButton text="Prueba gratis" buttonClass="alt"/>
+<AuthButton text="Probar gratis" buttonClass="alt"/>
 <AuthButton text="Comprar ahora" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Habla con nuestro equipo" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Hablar con nuestro equipo" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 😱 O hablas todos los idiomas — o alguien más cierra tus negocios.
@@ -175,7 +175,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Cómo garantiza InterMind la privacidad y seguridad de los datos?',
-    a: 'InterMind es **privado por diseño**. Todos los datos se procesan y almacenan dentro de tu **Zona de Privacidad** seleccionada — _UE_, _EE.UU._, o _Asia_. Cumplimos con [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), y UAE PDPL, y **nunca usamos tu contenido** para entrenamiento o acceso de terceros. El control avanzado de [Zona de Privacidad](./product/overview/privacy-architecture) está disponible en el plan **Business**.'
+    a: 'InterMind es **privado por diseño**. Todos los datos se procesan y almacenan dentro de tu **Zona de Privacidad** seleccionada — _UE_, _EE.UU._, o _Asia_. Cumplimos con [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), y UAE PDPL, y **nunca usamos tu contenido** para entrenamiento o acceso de terceros. El [control avanzado de Zona de Privacidad](./product/overview/privacy-architecture) está disponible en el plan **Business**.'
   },
   {
     q: '¿Puedo probar InterMind antes de comprar un plan?',

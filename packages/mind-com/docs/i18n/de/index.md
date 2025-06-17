@@ -17,7 +17,7 @@ isHome: true
 
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: 'Übersetzung ≠ Verstehen. Hier ist die Zukunft.',
+  title: 'Übersetzung ≠ Verstehen. Hier ist, was als nächstes kommt.',
   details: 'Unabhängig von der Sprache wird **Ihre Stimme gehört — und verstanden** — als würden Sie dieselbe Sprache sprechen.',
     items: [
       '⚡︎ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
@@ -26,7 +26,7 @@ isHome: true
   link: './product/overview/what-is-intermind',
   src: {
     light: '/media-kit/animals-cartoon-3-2.png',
-    dark: '/media-kit/animals-cartoon-3-2.png',
+    dark: '/1d.png',
   },
   inversion: false
 }" />
@@ -53,7 +53,7 @@ isHome: true
     title: 'Entwickelt für ernsthafte Meetings — nicht nur zum Reden',
     details: 'InterMind ist eine **professionelle Video-Meeting-Plattform**, kein leichtgewichtiges Add-on oder Plugin.',
     items: [
-      '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, sofort einsatzbereit.',
+      '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles eingebaut, sofort einsatzbereit.',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -66,12 +66,12 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Datenschutz wo es darauf ankommt',
+    title: 'Datenschutz, wo es darauf ankommt',
     details:
       'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Datenschutz und Kontrolle am wichtigsten sind.',
     items: [
       '⚡︎ [Datenschutzzonen](./product/overview/privacy-architecture) — EU, USA, Südostasien',
-      '✧ **Kein Datentraining**. Kein Zugriff durch Dritte.'
+      '✧ **Null Datentraining**. Kein Zugriff durch Dritte.'
     ],
     link: './product/overview/privacy-architecture',
     src: {
