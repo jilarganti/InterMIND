@@ -1,18 +1,17 @@
 ---
 layout: home
-title: "Live speech translation for video calls"
-isHome: true
+title: Video meetings reimagined — now at mind.com
+description: "From iMind to InterMIND: voice-first video calls with real-time AI-powered interpretation."
+head:
+  - [link, { rel: "canonical", href: "https://mind.com/" }]
+  - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
-<!-- title: "Video calls powered by simultaneous interpretation" -->
-<!-- text="Speak your native language. Hear everyone else — as if they spoke it too." -->
-
 <HeroSection
-  title="Video conferences and chat for business"
-  text="In one click. No downloads, no installations. Next generation video meetings with **simultaneous interpretation** in 30+ languages. Built for **international teams**.">
+  title="Video meetings reimagined <br>— now at **mind.com**"
+  text="From iMind to InterMIND: voice-first video calls with live speech translation.">
 
-  <!-- <AuthButton text="Hear the difference" buttonClass="brand"/> -->
-  <AuthButton text="Get started" buttonClass="brand"/>
+  <AuthButton text="Start Now" buttonClass="brand"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -26,7 +25,7 @@ isHome: true
   link: '../product/overview/what-is-intermind',
   src: {
     light: '/media-kit/animals-cartoon-3-2.png',
-    dark: '/promo/imind-1.webm',
+    dark: '/1d.png',
   },
   inversion: false
 }" />
