@@ -1,0 +1,12 @@
+{
+  "folders": [
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "markdown.updateLinksOnFileMove.enabled": "prompt",
+    "vue.server.includeLanguages": ["vue"]
+  },
+  "chat.agent.enabled": true
+}
