@@ -1,32 +1,30 @@
 ---
 layout: home
-title: "ビデオ通話のためのリアルタイム音声翻訳"
-isHome: true
+title: "ビデオ会議の再発明 — mind.comで新登場"
+description: "iMindからInterMINDへ：リアルタイムAI通訳機能付きの音声優先ビデオ通話。"
+head:
+  - [link, { rel: "canonical", href: "https://mind.com/" }]
+  - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
-<!-- title: "同時通訳機能付きビデオ通話" -->
-<!-- text="母国語で話し、他の人の声も母国語で聞こえる。" -->
-
 <HeroSection
-  title="ビジネス向けビデオ会議とチャット"
-  text="ワンクリックで開始。ダウンロードもインストールも不要。30以上の言語で**同時通訳**機能を備えた次世代ビデオ会議。**国際チーム**のために構築されました。">
-
-  <!-- <AuthButton text="違いを体験する" buttonClass="brand"/> -->
-  <AuthButton text="始める" buttonClass="brand"/>
+  title="ビデオ会議の再発明 <br>— **mind.com**で新登場"
+  text="iMindからInterMINDへ：リアルタイム音声翻訳機能付きの音声優先ビデオ通話。">
+<AuthButton text="今すぐ開始" buttonClass="brand"/>
 </HeroSection>
 
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: '翻訳 ≠ 理解。次のレベルがここにあります。',
-  details: '言語に関係なく、**あなたの声は聞かれ、理解される** — まるで同じ言語を話しているかのように。',
+  title: '翻訳 ≠ 理解。次世代の技術をご紹介します。',
+  details: '言語に関係なく、**あなたの声は聞こえ、理解されます** — まるで同じ言語を話しているかのように。',
     items: [
       '⚡︎ 自然に、[リアルタイム](../product/overview/how-it-works)で、字幕や遅延なしで。',
-      '✧ AI搭載の通訳がトーン、意図、業界固有の専門用語を捉えます。',
+      '✧ AI搭載の通訳機能が、トーン、意図、業界固有の専門用語を捉えます。',
     ],
   link: '../product/overview/what-is-intermind',
   src: {
     light: '/media-kit/animals-cartoon-3-2.png',
-    dark: '/promo/imind-1.webm',
+    dark: '/1d.png',
   },
   inversion: false
 }" />
@@ -34,7 +32,7 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock :card="{
     title: '会議の中の知性',
-    details: 'InterMindは多言語通話を明確で検索可能な知識に変換します。',
+    details: 'InterMindは、すべての多言語通話を明確で検索可能な知識に変換します。',
     items: [
       '🔍 **何でも質問** — AIが**会議全体から**答えを見つけます。',
       '✧ タスク、担当者、締切を自動抽出。',
@@ -50,7 +48,7 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: '本格的な会議のために構築 — 単なる会話ツールではありません',
+    title: '本格的な会議のために構築 — 単なる雑談ではなく',
     details: 'InterMindは**プロフェッショナルグレードのビデオ会議プラットフォーム**であり、軽量なアドオンやプラグインではありません。',
     items: [
       '✧ 1080p解像度、スマートノイズ抑制、スケジューリング、モデレーション、画面共有、録画、字幕、参加者チャット、カレンダー統合 — すべて内蔵され、すぐに使用可能。',
@@ -83,7 +81,7 @@ isHome: true
 />
 
 > [!tip] これは誰のためのものですか？  
-> 言語の壁が**遅延**、**失注**、または**コストのかかる誤解**を引き起こす**国際チーム**のために構築されています。[詳細を見る ...](../product/overview/markets)
+> 言語の壁が**遅延**、**失注**、または**コストのかかる誤解**を引き起こす**国際チーム**のために構築されています。[詳細はこちら ...](../product/overview/markets)
 
 <br>
 
@@ -191,7 +189,7 @@ isHome: true
   },
   {
     q: 'InterMindはどの言語の通訳に対応していますか？',
-    a: 'リアルタイム通訳で**100以上の言語**をサポートしています。リストは継続的に拡大しており、最新情報はウェブサイトでご確認ください。'
+    a: 'リアルタイム通訳で**100以上の言語**をサポートしています。リストは継続的に拡大しており、最新情報については当社のウェブサイトをご確認ください。'
   },
   {
     q: 'InterMindをウェビナーや大規模イベントに使用できますか？',

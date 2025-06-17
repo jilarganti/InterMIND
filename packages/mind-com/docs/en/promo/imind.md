@@ -10,8 +10,7 @@ head:
 <HeroSection
   title="Video meetings reimagined <br>— now at **mind.com**"
   text="From iMind to InterMIND: voice-first video calls with live speech translation.">
-
-  <AuthButton text="Start Now" buttonClass="brand"/>
+<AuthButton text="Start Now" buttonClass="brand"/>
 </HeroSection>
 
 <span id="1"></span>

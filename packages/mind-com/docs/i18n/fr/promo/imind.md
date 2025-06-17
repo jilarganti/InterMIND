@@ -1,23 +1,21 @@
 ---
 layout: home
-title: "Traduction vocale en direct pour les appels vidéo"
-isHome: true
+title: "Réunions vidéo réinventées — maintenant sur mind.com"
+description: "D'iMind à InterMIND : appels vidéo axés sur la voix avec interprétation IA en temps réel."
+head:
+  - [link, { rel: "canonical", href: "https://mind.com/" }]
+  - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
-<!-- title: "Appels vidéo alimentés par l'interprétation simultanée" -->
-<!-- text="Parlez votre langue maternelle. Entendez tout le monde — comme s'ils la parlaient aussi." -->
-
 <HeroSection
-  title="Visioconférences et chat pour les entreprises"
-  text="En un clic. Aucun téléchargement, aucune installation. Réunions vidéo de nouvelle génération avec **interprétation simultanée** dans plus de 30 langues. Conçu pour les **équipes internationales**.">
-
-  <!-- <AuthButton text="Entendez la différence" buttonClass="brand"/> -->
-  <AuthButton text="Commencer" buttonClass="brand"/>
+  title="Réunions vidéo réinventées <br>— maintenant sur **mind.com**"
+  text="D'iMind à InterMIND : appels vidéo axés sur la voix avec traduction vocale en direct.">
+<AuthButton text="Commencer maintenant" buttonClass="brand"/>
 </HeroSection>
 
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: 'Traduction ≠ Compréhension. Voici ce qui suit.',
+  title: 'Traduction ≠ Compréhension. Voici la suite.',
   details: 'Peu importe la langue, **votre voix est entendue — et comprise** — comme si vous partagiez la même langue.',
     items: [
       '⚡︎ Naturellement, en [temps réel](../product/overview/how-it-works), et sans sous-titres ni latence.',
@@ -26,15 +24,15 @@ isHome: true
   link: '../product/overview/what-is-intermind',
   src: {
     light: '/media-kit/animals-cartoon-3-2.png',
-    dark: '/promo/imind-1.webm',
+    dark: '/1d.png',
   },
   inversion: false
 }" />
 
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: 'L\'esprit au cœur de vos réunions',
-    details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
+    title: 'L\'intelligence au cœur de vos réunions',
+    details: 'InterMIND transforme chaque appel multilingue en connaissances claires et consultables.',
     items: [
       '🔍 **Posez n\'importe quelle question** — l\'IA trouve des réponses **dans toutes vos réunions**.',
       '✧ Extrait automatiquement les tâches, les responsables et les échéances.',
@@ -51,7 +49,7 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Conçu pour les réunions sérieuses — pas seulement pour parler',
-    details: 'InterMind est une **plateforme de visioconférence de niveau professionnel**, pas un simple module complémentaire ou plugin léger.',
+    details: 'InterMIND est une **plateforme de réunion vidéo de qualité professionnelle**, pas un simple module complémentaire ou plugin léger.',
     items: [
       '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration calendrier — tout intégré, prêt à l\'emploi.',
     ],
@@ -68,7 +66,7 @@ isHome: true
   :card="{
     title: 'Confidentialité là où ça compte',
     details:
-      'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle sont primordiaux.',
+      'InterMIND est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle sont primordiaux.',
     items: [
       '⚡︎ [Zones de confidentialité](../product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
       '✧ **Aucune formation de données**. Aucun accès tiers.'
@@ -82,7 +80,7 @@ isHome: true
   }"
 />
 
-> [!tip] À qui s\'adresse-t-il ?  
+> [!tip] À qui s'adresse-t-il ?  
 > Conçu pour les **équipes internationales** où les barrières linguistiques causent des **retards**, des **affaires perdues** ou des **malentendus coûteux**. [En savoir plus ...](../product/overview/markets)
 
 <br>

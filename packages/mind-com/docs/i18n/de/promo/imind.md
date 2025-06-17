@@ -1,18 +1,16 @@
 ---
 layout: home
-title: "Live-Sprachübersetzung für Videoanrufe"
-isHome: true
+title: "Videomeetings neu gedacht — jetzt auf mind.com"
+description: "Von iMind zu InterMIND: sprachbasierte Videoanrufe mit KI-gestützter Echtzeitübersetzung."
+head:
+  - [link, { rel: "canonical", href: "https://mind.com/" }]
+  - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
-<!-- title: "Videoanrufe mit simultaner Übersetzung" -->
-<!-- text="Sprechen Sie Ihre Muttersprache. Hören Sie alle anderen — als würden sie diese auch sprechen." -->
-
 <HeroSection
-  title="Videokonferenzen und Chat für Unternehmen"
-  text="Mit einem Klick. Keine Downloads, keine Installationen. Videokonferenzen der nächsten Generation mit **simultaner Übersetzung** in über 30 Sprachen. Entwickelt für **internationale Teams**.">
-
-  <!-- <AuthButton text="Hören Sie den Unterschied" buttonClass="brand"/> -->
-  <AuthButton text="Jetzt starten" buttonClass="brand"/>
+  title="Videomeetings neu gedacht <br>— jetzt auf **mind.com**"
+  text="Von iMind zu InterMIND: sprachbasierte Videoanrufe mit Live-Sprachübersetzung.">
+<AuthButton text="Jetzt starten" buttonClass="brand"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -20,13 +18,13 @@ isHome: true
   title: 'Übersetzung ≠ Verstehen. Hier ist die Zukunft.',
   details: 'Unabhängig von der Sprache wird **Ihre Stimme gehört — und verstanden** — als würden Sie dieselbe Sprache sprechen.',
     items: [
-      '⚡︎ Natürlich, in [Echtzeit](../product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
-      '✧ KI-gestützte Übersetzung erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
+      '⚡︎ Natürlich, in [Echtzeit](../product/overview/how-it-works), ohne Untertitel oder Verzögerung.',
+      '✧ KI-gestützte Interpretation erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
     ],
   link: '../product/overview/what-is-intermind',
   src: {
     light: '/media-kit/animals-cartoon-3-2.png',
-    dark: '/promo/imind-1.webm',
+    dark: '/1d.png',
   },
   inversion: false
 }" />
@@ -34,7 +32,7 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock :card="{
     title: 'Der Verstand in Ihren Meetings',
-    details: 'InterMind verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
+    details: 'InterMIND verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
     items: [
       '🔍 **Fragen Sie alles** — KI findet Antworten **in all Ihren Meetings**.',
       '✧ Extrahiert automatisch Aufgaben, Verantwortliche und Fristen.',
@@ -50,10 +48,10 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Entwickelt für professionelle Meetings — nicht nur zum Reden',
-    details: 'InterMind ist eine **professionelle Videokonferenz-Plattform**, kein leichtgewichtiges Add-on oder Plugin.',
+    title: 'Für professionelle Meetings entwickelt — nicht nur zum Reden',
+    details: 'InterMIND ist eine **professionelle Videomeeting-Plattform**, kein leichtgewichtiges Add-on oder Plugin.',
     items: [
-      '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert und einsatzbereit.',
+      '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, sofort einsatzbereit.',
     ],
     link: '../product/overview/video-meeting-platform',
     src: {
@@ -68,7 +66,7 @@ isHome: true
   :card="{
     title: 'Datenschutz wo es darauf ankommt',
     details:
-      'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Datenschutz und Kontrolle am wichtigsten sind.',
+      'InterMIND ist für vertrauenskritische Gespräche entwickelt — wo Datenschutz und Kontrolle am wichtigsten sind.',
     items: [
       '⚡︎ [Datenschutzzonen](../product/overview/privacy-architecture) — EU, USA, Südostasien',
       '✧ **Keine Datennutzung für Training**. Kein Zugriff durch Dritte.'
@@ -163,14 +161,14 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
   },
   {
     q: 'Wie viele Personen können eine InterMind-Lizenz verwenden?',
-    a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt viele Meetings** hosten. Wenn mehrere Teammitglieder gleichzeitig Meetings hosten müssen, benötigt jeder seine eigene Lizenz.'
+    a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt viele Meetings** veranstalten. Wenn mehrere Teammitglieder gleichzeitig Meetings veranstalten müssen, benötigt jeder seine eigene Lizenz.'
   },
   {
     q: 'Wie lange kann ein Meeting maximal dauern?',
-    a: 'Meetings können in allen Plänen bis zu **24 Stunden** laufen.'
+    a: 'Meetings können in allen Plänen bis zu **24 Stunden** dauern.'
   },
   {
-    q: 'Gibt es eine Begrenzung für die Anzahl der Meetings, die ich hosten kann?',
+    q: 'Gibt es eine Begrenzung für die Anzahl der Meetings, die ich veranstalten kann?',
     a: 'Der *Free Basic*-Plan beinhaltet **25 kostenlose Meetings**. *Pro*- und *Business*-Pläne bieten unbegrenzte Meetings mit mehr Teilnehmern und Kontrolle.'
   },
   {
@@ -183,11 +181,11 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
   },
   {
     q: 'Was ist, wenn ich Hilfe oder Support benötige?',
-    a: 'Support ist über unser [Hilfezentrum](../resources/help) verfügbar. *Business*-Benutzer erhalten **Priority-Support** mit einem dedizierten Ansprechpartner.'
+    a: 'Support ist über unser [Hilfezentrum](../resources/help) verfügbar. *Business*-Benutzer erhalten **vorrangigen Support** mit einem dedizierten Kontakt.'
   },
   {
     q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
-    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Bei Kündigungen werden *Monatspläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.'
+    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen treten **sofort** in Kraft. Bei Kündigungen werden *monatliche Pläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.'
   },
   {
     q: 'Welche Sprachen unterstützt InterMind für die Dolmetschung?',

@@ -1,18 +1,16 @@
 ---
 layout: home
-title: "Traducción de voz en vivo para videollamadas"
-isHome: true
+title: "Videollamadas reimaginadas — ahora en mind.com"
+description: "De iMind a InterMIND: videollamadas con voz como protagonista e interpretación con IA en tiempo real."
+head:
+  - [link, { rel: "canonical", href: "https://mind.com/" }]
+  - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
-<!-- title: "Videollamadas potenciadas por interpretación simultánea" -->
-<!-- text="Habla tu idioma nativo. Escucha a todos los demás — como si también lo hablaran." -->
-
 <HeroSection
-  title="Videoconferencias y chat para empresas"
-  text="En un clic. Sin descargas, sin instalaciones. Reuniones de video de nueva generación con **interpretación simultánea** en más de 30 idiomas. Diseñado para **equipos internacionales**.">
-
-  <!-- <AuthButton text="Escucha la diferencia" buttonClass="brand"/> -->
-  <AuthButton text="Comenzar" buttonClass="brand"/>
+  title="Videollamadas reimaginadas <br>— ahora en **mind.com**"
+  text="De iMind a InterMIND: videollamadas con voz como protagonista y traducción de voz en vivo.">
+<AuthButton text="Comenzar ahora" buttonClass="brand"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -21,12 +19,12 @@ isHome: true
   details: 'Sin importar el idioma, **tu voz es escuchada — y comprendida** — como si compartieras la misma lengua.',
     items: [
       '⚡︎ Naturalmente, en [tiempo real](../product/overview/how-it-works), y sin subtítulos o retrasos.',
-      '✧ La interpretación impulsada por IA captura el tono, la intención y la terminología específica de la industria.',
+      '✧ La interpretación con IA captura el tono, la intención y la terminología específica de la industria.',
     ],
   link: '../product/overview/what-is-intermind',
   src: {
     light: '/media-kit/animals-cartoon-3-2.png',
-    dark: '/promo/imind-1.webm',
+    dark: '/1d.png',
   },
   inversion: false
 }" />
@@ -34,7 +32,7 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock :card="{
     title: 'La mente dentro de tus reuniones',
-    details: 'InterMind convierte cada llamada multilingüe en conocimiento claro y consultable.',
+    details: 'InterMIND convierte cada llamada multilingüe en conocimiento claro y consultable.',
     items: [
       '🔍 **Pregunta cualquier cosa** — la IA encuentra respuestas **en todas tus reuniones**.',
       '✧ Extrae automáticamente tareas, responsables y fechas límite.',
@@ -50,8 +48,8 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Diseñado para reuniones serias — no solo para hablar',
-    details: 'InterMind es una **plataforma de videoconferencias de grado profesional**, no un complemento o plugin ligero.',
+    title: 'Diseñado para reuniones serias — no solo para conversar',
+    details: 'InterMIND es una **plataforma de videollamadas de nivel profesional**, no un complemento ligero o plugin.',
     items: [
       '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, listo para usar.',
     ],
@@ -68,7 +66,7 @@ isHome: true
   :card="{
     title: 'Privacidad donde importa',
     details:
-      'InterMind está diseñado para conversaciones críticas de confianza — donde la privacidad y el control importan más.',
+      'InterMIND está diseñado para conversaciones críticas de confianza — donde la privacidad y el control importan más.',
     items: [
       '⚡︎ [Zonas de privacidad](../product/overview/privacy-architecture) — UE, EE.UU., Sudeste Asiático',
       '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
@@ -83,7 +81,7 @@ isHome: true
 />
 
 > [!tip] ¿Para quién es esto?  
-> Diseñado para **equipos internacionales** donde las barreras del idioma causan **retrasos**, **negocios perdidos** o **malentendidos costosos**. [Aprende más ...](../product/overview/markets)
+> Diseñado para **equipos internacionales** donde las barreras del idioma causan **retrasos**, **negocios perdidos** o **malentendidos costosos**. [Más información ...](../product/overview/markets)
 
 <br>
 
@@ -155,7 +153,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 [
   {
     q: '¿Qué idiomas admite InterMind para interpretación?',
-    a: 'InterMind admite **interpretación en tiempo real** en los siguientes 19 idiomas:<br><br>- العربية (ar) – Árabe<br>- Čeština (cs) – Checo<br>- Deutsch (de) – Alemán<br>- English (en) – Inglés<br>- Español (es) – Español<br>- Français (fr) – Francés<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Húngaro<br>- Italiano (it) – Italiano<br>- 日本語 (ja) – Japonés<br>- 한국어 (ko) – Coreano<br>- Nederlands (nl) – Holandés<br>- Polski (pl) – Polaco<br>- Português (pt) – Portugués<br>- Русский (ru) – Ruso<br>- Türkçe (tr) – Turco<br>- 中文 (zh) – Chino<br>- עברית (he) – Hebreo<br>- ไทย (th) – Tailandés<br><br>Estamos expandiendo continuamente esta lista — se agregan nuevos idiomas con cada versión principal.'
+    a: 'InterMind admite **interpretación en tiempo real** en los siguientes 19 idiomas:<br><br>- العربية (ar) – Árabe<br>- Čeština (cs) – Checo<br>- Deutsch (de) – Alemán<br>- English (en) – Inglés<br>- Español (es) – Español<br>- Français (fr) – Francés<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Húngaro<br>- Italiano (it) – Italiano<br>- 日本語 (ja) – Japonés<br>- 한국어 (ko) – Coreano<br>- Nederlands (nl) – Holandés<br>- Polski (pl) – Polaco<br>- Português (pt) – Portugués<br>- Русский (ru) – Ruso<br>- Türkçe (tr) – Turco<br>- 中文 (zh) – Chino<br>- עברית (he) – Hebreo<br>- ไทย (th) – Tailandés<br><br>Estamos expandiendo continuamente esta lista — se agregan nuevos idiomas con cada lanzamiento principal.'
   },
   {
     q: '¿Qué es un usuario con licencia y qué es un participante?',
@@ -226,7 +224,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     links: [
       // { text: 'Blog', link: './blog' },
       { text: 'Recursos de marca', link: '../resources/media-kit' },
-      { text: 'Documentos de API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
+      { text: 'Documentación API IA / LLM', link: 'https://mind.com/llms-full.txt' },
     ]
   },
   {
