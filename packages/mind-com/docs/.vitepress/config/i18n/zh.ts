@@ -3,8 +3,7 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
-  description:
-    "InterMIND为每个视频通话添加实时语音翻译，让国际团队永远不会因为语言障碍而失去交易、时间或清晰度。",
+  description: "InterMIND为每个视频通话添加实时语音翻译，让国际团队永远不会因为语言障碍而失去交易、时间或清晰度。",
   head: [["meta", { property: "og:title", content: "由同声传译驱动的视频通话 | InterMIND" }]],
 
   themeConfig: {
@@ -75,12 +74,7 @@ export const zh = defineConfig({
       sending: "发送中...",
       successTitle: "谢谢您！",
       successMessage: "我们已收到您的消息——我们的团队将很快与您联系。",
-      defaultCategories: [
-        "消除会议中的语言障碍",
-        "让会议可搜索且可操作",
-        "确保合规性和数据驻留（欧盟/美国/亚洲）",
-        "只是探索/其他",
-      ],
+      defaultCategories: ["消除会议中的语言障碍", "让会议可搜索且可操作", "确保合规性和数据驻留（欧盟/美国/亚洲）", "只是探索/其他"],
 
       defaultButtonText: "给我们发消息",
       // defaultButtonText: "获取免费咨询",
