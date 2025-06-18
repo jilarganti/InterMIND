@@ -103,7 +103,7 @@ export const shared = defineConfig({
   sitemap: {
     hostname: hostUrl,
     // Убираем страницы noindex из sitemap.xml
-    transformItems: (items) => items.filter((item) => !NOINDEX_PAGES.some((path) => item.url.endsWith(path))),
+    transformItems: (items) => items.filter((item) => !NOINDEX_PAGES.some((path) => item.url.includes(path))),
   },
 
   head: [
