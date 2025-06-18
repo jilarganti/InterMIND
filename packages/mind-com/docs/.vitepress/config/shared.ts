@@ -6,7 +6,7 @@ import llmstxt from "vitepress-plugin-llms"
 
 // Обновляем URL сайта документации
 const hostUrl = "https://mind.com"
-const NOINDEX_PAGES = ["exp", "chat", "team"]
+const NOINDEX_PAGES = ["/exp", "/chat", "/team/", "promo/imind"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
 // Список UTM-параметров для сохранения в параметрах страницы
 const UTM_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "campaign_id"]
@@ -48,7 +48,11 @@ export const shared = defineConfig({
     }
 
     // noindex для не прода и исключенных страниц
-    if (NOINDEX_PAGES.some((path) => pagePath.includes(path)) || !isProduction) {
+    // if (NOINDEX_PAGES.some((path) => pagePath.includes(path)) || !isProduction) {
+    //   pageData.frontmatter.head.push(["meta", { name: "robots", content: "noindex" }])
+    // }
+
+    if (NOINDEX_PAGES.includes("/" + pagePath) || !isProduction) {
       pageData.frontmatter.head.push(["meta", { name: "robots", content: "noindex" }])
     }
 
