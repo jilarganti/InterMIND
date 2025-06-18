@@ -1,14 +1,10 @@
 ---
 layout: home
 hero:
-  name: 测试
-  # text: 我们说您的语言
-  # tagline: "全方位商业支持：银行业务、公司设立、签证。零预付费用 – 仅在获批后付款。"
+  name: "测试"
   actions:
     - theme: brand
-      text: 测试 1
+      text: "测试 1"
       link: ./?utm_source=google_ads&utm_medium=cpc&utm_campaign=winter_2025
-    - theme: alt
-      text: 测试 2
-      link: ./company/contacts
+
 ---

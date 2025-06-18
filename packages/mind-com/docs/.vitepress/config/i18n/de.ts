@@ -69,14 +69,14 @@ export const de = defineConfig({
       webSiteError: "Bitte geben Sie die Website ein",
       category: "Was ist Ihr Hauptziel? *",
       categoryPlaceholder: "Wählen Sie, was am wichtigsten ist",
-      message: "Lassen Sie uns über Ihre Ziele sprechen (optional)",
+      message: "Lassen Sie uns Ihre Ziele besprechen (optional)",
       messagePlaceholder: "Bitte geben Sie zusätzliche Details an (optional)",
       submit: "Anfrage senden",
       sending: "Wird gesendet...",
       successTitle: "Vielen Dank!",
       successMessage: "Wir haben Ihre Nachricht erhalten — unser Team wird sich in Kürze bei Ihnen melden.",
       defaultCategories: [
-        "Sprachbarrieren in Meetings beseitigen",
+        "Sprachbarrieren in Meetings eliminieren",
         "Meetings durchsuchbar und umsetzbar machen",
         "Compliance & Datenresidenz sicherstellen (EU / US / Asien)",
         "Nur am Erkunden / Sonstiges",
@@ -85,7 +85,7 @@ export const de = defineConfig({
       defaultButtonText: "Senden Sie uns eine Nachricht",
       // defaultButtonText: "Kostenlose Beratung erhalten",
     },
-  },
+  } as DefaultTheme.Config,
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {

@@ -85,7 +85,7 @@ export const es = defineConfig({
       defaultButtonText: "Envíanos un mensaje",
       // defaultButtonText: "Obtén una consulta gratuita",
     },
-  },
+  } as DefaultTheme.Config,
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {

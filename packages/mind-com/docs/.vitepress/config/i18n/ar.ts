@@ -3,7 +3,8 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description: "يضيف InterMIND ترجمة الكلام الفورية إلى كل مكالمة فيديو، حتى لا تفقد الفرق الدولية أبداً الصفقات أو الوقت أو الوضوح بسبب حواجز اللغة.",
+  description:
+    "يضيف InterMIND ترجمة صوتية فورية لكل مكالمة فيديو، حتى لا تفقد الفرق الدولية أبداً الصفقات أو الوقت أو الوضوح بسبب حواجز اللغة.",
   head: [["meta", { property: "og:title", content: "مكالمات الفيديو مدعومة بالترجمة الفورية | InterMIND" }]],
 
   themeConfig: {
@@ -84,7 +85,7 @@ export const ar = defineConfig({
       defaultButtonText: "أرسل لنا رسالة",
       // defaultButtonText: "احصل على استشارة مجانية",
     },
-  },
+  } as DefaultTheme.Config,
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {

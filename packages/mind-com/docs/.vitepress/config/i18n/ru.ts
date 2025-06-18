@@ -20,7 +20,7 @@ export const ru = defineConfig({
       //   link: `${BASE_PATH}/company/about`,
       // },
       {
-        text: "Тарифы",
+        text: "Цены",
         // activeMatch: `${BASE_PATH}/company/`,
         link: `${BASE_PATH}/#Pricing`,
       },
@@ -31,7 +31,7 @@ export const ru = defineConfig({
         //   {
         //     text: "ИЗУЧИТЬ",
         items: [
-          // { text: "Тарифы", link: `${BASE_PATH}/#Pricing` },
+          // { text: "Цены", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Отзывы", link: `${BASE_PATH}/#Testimonials` },
           // { text: "Команда", link: `${BASE_PATH}/resources/team` },
@@ -85,7 +85,7 @@ export const ru = defineConfig({
       defaultButtonText: "Отправьте нам сообщение",
       // defaultButtonText: "Получить бесплатную консультацию",
     },
-  },
+  } as DefaultTheme.Config,
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {
@@ -110,7 +110,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Создание встреч", link: "guide/creating-meetings" },
         { text: "Интерфейс встречи", link: "guide/meeting-interface" },
         { text: "Роли пользователей", link: "guide/user-roles" },
-        { text: "ИИ функции", link: "guide/ai-features" },
+        { text: "ИИ-функции", link: "guide/ai-features" },
         { text: "История встреч", link: "guide/meeting-history" },
         { text: "FAQ", link: "guide/faq" },
         { text: "Устранение неполадок", link: "guide/troubleshooting" },

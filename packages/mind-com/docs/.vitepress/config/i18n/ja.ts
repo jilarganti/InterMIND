@@ -3,7 +3,8 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
-  description: "InterMINDは、すべてのビデオ通話にリアルタイム音声翻訳を追加し、国際チームが言語の壁によって取引、時間、明確性を失うことがないようにします。",
+  description:
+    "InterMINDは、すべてのビデオ通話にリアルタイム音声翻訳を追加し、国際チームが言語の壁によって取引、時間、明確性を失うことがないようにします。",
   head: [["meta", { property: "og:title", content: "同時通訳によるビデオ通話 | InterMIND" }]],
 
   themeConfig: {
@@ -55,7 +56,7 @@ export const ja = defineConfig({
       placeholder4SearchInput: "何でもお聞きください...",
       placeholder4ChatFooter: "何でもお聞きください...",
       placeholder4ChatList: "チャットトピックを入力...",
-      buttonLabel4NavButton: "即座に専門家チャット",
+      buttonLabel4NavButton: "即座の専門家チャット",
       buttonLabel4AuthButton: "サインイン",
     },
     contact_form: {
@@ -84,7 +85,7 @@ export const ja = defineConfig({
       defaultButtonText: "メッセージを送信",
       // defaultButtonText: "無料相談を受ける",
     },
-  },
+  } as DefaultTheme.Config,
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {
