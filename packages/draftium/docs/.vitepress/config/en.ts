@@ -44,7 +44,7 @@ export const en = defineConfig({
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      // [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
+      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
     },
 
@@ -149,11 +149,11 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-// function sidebarResources(): DefaultTheme.SidebarItem[] {
-//   return [
-//     { text: "About", link: "/about" },
-//     { text: "Contacts", link: "/contacts" },
-//     { text: "Get Support", link: "/help" },
-//     { text: "Brand Assets", link: "/media-kit" },
-//   ]
-// }
+function sidebarAccount(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "About", link: "/about" },
+    { text: "Contacts", link: "/contacts" },
+    { text: "Get Support", link: "/help" },
+    { text: "Brand Assets", link: "/media-kit" },
+  ]
+}

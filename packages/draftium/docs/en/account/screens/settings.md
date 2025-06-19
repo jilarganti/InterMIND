@@ -1,5 +1,5 @@
 ---
-layout: false
+layout: doc
 ---
 
 # Settings
