@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": true
+  },
+  "include": ["api/**/*.js", "*/scripts/**/*.js", "api/hlo.ts", "./types/**/*.d.ts"],
+  "exclude": ["node_modules"]
+}
