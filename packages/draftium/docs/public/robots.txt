@@ -1,5 +1,3 @@
 User-agent: *
-Allow: /
-Disallow: /api/
-Disallow: /company/team
-Sitemap: https://mind.com/sitemap.xml
+Disallow: /
+Sitemap: https://i14n.com/sitemap.xml

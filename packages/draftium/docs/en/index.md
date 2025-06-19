@@ -8,8 +8,8 @@ isHome: true
 <!-- text="Speak your native language. Hear everyone else — as if they spoke it too." -->
 
 <HeroSection
-  title="Meet in **Any** Language"
-  text="Live speech translation in video calls — **no** delays, **no** lost deals, **no** language barriers.">
+  title="Don’t Pitch It — Prototype It"
+  text="Iterate on UI, logic, and structure — before you write a single line of code.">
 
   <!-- <AuthButton text="Hear the difference" buttonClass="brand"/> -->
   <AuthButton text="Try it in your language" buttonClass="brand"/>
@@ -226,7 +226,7 @@ From first call to fluent conversations — at any scale.
     links: [
       // { text: 'Blog', link: './blog' },
       { text: 'Brand Assets', link: './resources/media-kit' },
-      { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
+      // { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
     ]
   },
   {
