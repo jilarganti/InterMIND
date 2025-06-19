@@ -11,7 +11,8 @@
       <div class="right-icons">
         <a href="/product/guide/getting-started" title="Support">❔</a>
         <a href="/resources/help" title="Report a problem">💬</a>
-        <a href="/account/settings" title="Settings">⚙️</a>
+        <a href="/account/screens/settings" title="Settings">⚙️</a>
+        <a href="/account/upgrade" title="Upgrade plan">📈</a>
         <a href="/account" title="Account">👦🏻</a>
       </div>
     </div>
