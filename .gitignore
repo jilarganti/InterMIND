@@ -1,7 +1,9 @@
 .DS_Store
-**/node_modules/
-
-**/dist/
-**/cache/
-
 .vercel
+
+node_modules
+dist
+cache
+temp
+
+*.code-workspace
