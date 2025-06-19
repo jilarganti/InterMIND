@@ -1,0 +1,153 @@
+import { defineConfig, type DefaultTheme } from "vitepress"
+
+const BASE_PATH = "/zh"
+
+export const zh = defineConfig({
+  description: "InterMIND为每个视频通话添加实时语音翻译，让国际团队永远不会因为语言障碍而失去交易、时间或清晰度。",
+  head: [["meta", { property: "og:title", content: "由同声传译驱动的视频通话 | InterMIND" }]],
+
+  themeConfig: {
+    nav: [
+      {
+        text: "产品",
+        activeMatch: `${BASE_PATH}/product/`,
+        link: `${BASE_PATH}/product/overview/what-is-intermind`,
+      },
+      // {
+      //   text: "公司",
+      //   activeMatch: `${BASE_PATH}/company/`,
+      //   link: `${BASE_PATH}/company/about`,
+      // },
+      {
+        text: "定价",
+        // activeMatch: `${BASE_PATH}/company/`,
+        link: `${BASE_PATH}/#Pricing`,
+      },
+      {
+        text: "资源",
+        activeMatch: `${BASE_PATH}/product/`,
+        // items: [
+        //   {
+        //     text: "探索",
+        items: [
+          // { text: "定价", link: `${BASE_PATH}/#Pricing` },
+          { text: "常见问题", link: `${BASE_PATH}/#FAQ` },
+          { text: "客户评价", link: `${BASE_PATH}/#Testimonials` },
+          // { text: "团队", link: `${BASE_PATH}/resources/team` },
+          // { text: "媒体资料包", link: `${BASE_PATH}/resources/media-kit` },
+        ],
+        //   },
+        // ],
+      },
+    ],
+
+    sidebar: {
+      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
+      // [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
+      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
+    },
+
+    footer: {
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AI服务法律法规</a> | <a href="https://status.mind.com/">服务状态</a>`,
+    },
+
+    localization: {
+      placeholder4SearchInput: "询问任何问题...",
+      placeholder4ChatFooter: "询问任何问题...",
+      placeholder4ChatList: "输入聊天主题...",
+      buttonLabel4NavButton: "即时专家聊天",
+      buttonLabel4AuthButton: "登录",
+    },
+    contact_form: {
+      name: "姓名 *",
+      namePlaceholder: "您的姓名",
+      email: "邮箱 *",
+      emailPlaceholder: "您的邮箱地址",
+      webSite: "公司网站 *",
+      webSitePlaceholder: "例如 https://companyname.com",
+      webSiteError: "请输入网站地址",
+      category: "您的主要目标是什么？ *",
+      categoryPlaceholder: "选择最重要的内容",
+      message: "让我们讨论您的目标（可选）",
+      messagePlaceholder: "请提供任何其他详细信息（可选）",
+      submit: "提交请求",
+      sending: "发送中...",
+      successTitle: "谢谢您！",
+      successMessage: "我们已收到您的消息——我们的团队将很快与您联系。",
+      defaultCategories: ["消除会议中的语言障碍", "让会议可搜索且可操作", "确保合规性和数据驻留（欧盟/美国/亚洲）", "只是探索/其他"],
+
+      defaultButtonText: "给我们发消息",
+      // defaultButtonText: "获取免费咨询",
+    },
+  } as DefaultTheme.Config,
+})
+
+function sidebarProduct(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "概述",
+      collapsed: false,
+      items: [
+        { text: "什么是InterMIND？", link: "overview/what-is-intermind" },
+        { text: "工作原理", link: "overview/how-it-works" },
+        { text: "视频会议平台", link: "overview/video-meeting-platform" },
+        { text: "区域数据隐私", link: "overview/privacy-architecture" },
+        { text: "重点市场", link: "overview/markets" },
+      ],
+    },
+    {
+      text: "指南",
+      collapsed: false,
+      items: [
+        { text: "入门指南", link: "guide/getting-started" },
+        { text: "账户管理", link: "guide/account-management" },
+        { text: "创建会议", link: "guide/creating-meetings" },
+        { text: "会议界面", link: "guide/meeting-interface" },
+        { text: "用户角色", link: "guide/user-roles" },
+        { text: "AI功能", link: "guide/ai-features" },
+        { text: "会议历史", link: "guide/meeting-history" },
+        { text: "常见问题", link: "guide/faq" },
+        { text: "故障排除", link: "guide/troubleshooting" },
+      ],
+    },
+  ]
+}
+
+function sidebarResources(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "支持",
+      collapsed: false,
+      items: [
+        { text: "获取支持", link: "/help" },
+        // { text: "工作原理", link: "overview/how-it-works" },
+      ],
+    },
+    {
+      text: "资源",
+      collapsed: false,
+      items: [
+        { text: "品牌资产", link: "/media-kit" },
+        // { text: "账户管理", link: "guide/account-management" },
+      ],
+    },
+    {
+      text: "公司",
+      collapsed: false,
+      items: [
+        { text: "关于我们", link: "/company/about" },
+        // { text: "团队", link: "/team" },
+        { text: "联系方式", link: "/company/contacts" },
+      ],
+    },
+  ]
+}
+
+// function sidebarResources(): DefaultTheme.SidebarItem[] {
+//   return [
+//     { text: "关于我们", link: "/about" },
+//     { text: "联系方式", link: "/contacts" },
+//     { text: "获取支持", link: "/help" },
+//     { text: "品牌资产", link: "/media-kit" },
+//   ]
+// }
