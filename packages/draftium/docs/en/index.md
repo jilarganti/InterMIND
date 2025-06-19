@@ -11,8 +11,8 @@ isHome: true
   title="Don’t Pitch It — Prototype It"
   text="Iterate on UI, logic, and structure — before you write a single line of code.">
 
-  <!-- <AuthButton text="Hear the difference" buttonClass="brand"/> -->
-  <AuthButton text="Try it in your language" buttonClass="brand"/>
+  <!-- <AuthButton text="Try it in your language" buttonClass="brand"/> -->
+  <NavButton buttonLabel="DRAFTIUM" buttonClass="brand" to="./account/index"/>
 </HeroSection>
 
 <span id="1"></span>
