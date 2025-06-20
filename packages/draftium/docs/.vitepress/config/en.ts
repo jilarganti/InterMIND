@@ -151,9 +151,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 
 function sidebarAccount(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "About", link: "/about" },
-    { text: "Contacts", link: "/contacts" },
-    { text: "Get Support", link: "/help" },
-    { text: "Brand Assets", link: "/media-kit" },
+    { text: "Meetings", link: "/" },
+    { text: "History", link: "/" },
   ]
 }

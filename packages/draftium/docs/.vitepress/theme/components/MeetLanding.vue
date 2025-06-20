@@ -13,6 +13,7 @@
         <a href="/resources/help" title="Report a problem">💬</a>
         <a href="/account/screens/settings" title="Settings">⚙️</a>
         <a href="/account/upgrade" title="Upgrade plan">📈</a>
+        <a href="/account/screens/profile" title="Profile">📈</a>
         <a href="/account" title="Account">👦🏻</a>
       </div>
     </div>
