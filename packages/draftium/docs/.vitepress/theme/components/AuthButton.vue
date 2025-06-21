@@ -1,7 +1,7 @@
 <script setup lang="ts">
 /**
- * /// <reference types="../types/global.d.ts" />
  */
+/// <reference types="../types/global.d.ts" />
 
 import { nanoid } from "nanoid"
 import { useData } from "vitepress"
