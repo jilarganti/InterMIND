@@ -53,6 +53,7 @@ const login = (event: Event): void => {
   window.dataLayer?.push({
     // event: "app_event_sign_up",
     event: "site_event_auth_attempt",
+    gclid: sessionStorage.getItem("gclid"),
     form_type: leadData.channel,
     form_service: leadData.channelId,
     form_URL: page.value.relativePath,

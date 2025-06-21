@@ -101,6 +101,7 @@ const handleSubmit = async () => {
     // window.dataLayer = window.dataLayer || []
     window.dataLayer?.push({
       event: "site_event_form_submit",
+      gclid: sessionStorage.getItem("gclid"),
       form_type: formData.value.channel,
       form_service: formData.value.channelId,
       form_URL: page.value.relativePath,
