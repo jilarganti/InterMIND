@@ -1,9 +1,9 @@
 {
   "files.exclude": {
     "LICENSE": true,
-    "packages/mind-com": true,
+    "packages/mind-com": false,
     "packages/golden-fish": true,
-    "packages/draftium": false
+    "packages/draftium": true
     // "**/.git": false
   },
   "search.exclude": {
