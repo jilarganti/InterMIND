@@ -158,22 +158,8 @@ export function determineTrafficSource(): string {
  * Инициализирует отслеживание UTM-параметров
  * Должен вызываться при загрузке приложения
  */
-let _utmInitialized = false
-
 export function initUtmTracking(): void {
-  if (_utmInitialized) return
-  _utmInitialized = true
-
   if (typeof window === "undefined") return
-
-  const gclid = new URLSearchParams(window.location.search).get("gclid")
-  if (gclid) {
-    sessionStorage.setItem("gclid", gclid)
-  }
-
-  if (!import.meta.env.VITE_IS_PROD) {
-    console.log("[GCLID]", gclid ? `Saved: ${gclid}` : "Missing")
-  }
 
   // Извлекаем параметры из URL
   const urlParams = extractUtmFromUrl()
