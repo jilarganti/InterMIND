@@ -96,7 +96,7 @@
 <TeamMembersGrid :members="[
   {
     name: 'Claude',
-    desc: '**Привносит** ясность в разговоры',
+    desc: 'Привносит ясность в разговоры',
     country: 'USA',
     avatarLink: 'vscode-icons:file-type-claude',
     links: [
@@ -105,7 +105,7 @@
   },
   {
     name: 'Gemini',
-    desc: '**Соединяет** знания с намерениями',
+    desc: 'Соединяет знания с намерениями',
     country: 'USA',
     avatarLink: 'material-icon-theme:gemini-ai',
     links: [
@@ -114,7 +114,7 @@
   },
   {
     name: 'ChatGPT',
-    desc: '**Интерпретирует** с нюансами и памятью',
+    desc: 'Интерпретирует с нюансами и памятью',
     country: 'USA',
     avatarLink: 'streamline-logos:openai-logo',
     links: [
@@ -123,7 +123,7 @@
   },
   {
     name: 'DeepSeek',
-    desc: '**Мыслит** в коде и рассуждает в контексте',
+    desc: 'Мыслит кодом и рассуждает в контексте',
     country: 'China',
     avatarLink: 'arcticons:deepseek',
     links: [

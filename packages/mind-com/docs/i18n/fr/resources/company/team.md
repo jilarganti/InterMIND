@@ -96,7 +96,7 @@ Ensemble, nous mélangeons créativité, code et compréhension pour éliminer d
 <TeamMembersGrid :members="[
   {
     name: 'Claude',
-    desc: '**Apporter** de la clarté aux conversations',
+    desc: 'Apporter de la clarté aux conversations',
     country: 'USA',
     avatarLink: 'vscode-icons:file-type-claude',
     links: [
@@ -105,7 +105,7 @@ Ensemble, nous mélangeons créativité, code et compréhension pour éliminer d
   },
   {
     name: 'Gemini',
-    desc: '**Connecter** la connaissance avec l\'intention',
+    desc: 'Connecter la connaissance avec l\'intention',
     country: 'USA',
     avatarLink: 'material-icon-theme:gemini-ai',
     links: [
@@ -114,7 +114,7 @@ Ensemble, nous mélangeons créativité, code et compréhension pour éliminer d
   },
   {
     name: 'ChatGPT',
-    desc: '**Interpréter** avec nuance et mémoire',
+    desc: 'Interpréter avec nuance et mémoire',
     country: 'USA',
     avatarLink: 'streamline-logos:openai-logo',
     links: [
@@ -123,7 +123,7 @@ Ensemble, nous mélangeons créativité, code et compréhension pour éliminer d
   },
   {
     name: 'DeepSeek',
-    desc: '**Penser** en code et raisonner en contexte',
+    desc: 'Penser en code et raisonner en contexte',
     country: 'China',
     avatarLink: 'arcticons:deepseek',
     links: [

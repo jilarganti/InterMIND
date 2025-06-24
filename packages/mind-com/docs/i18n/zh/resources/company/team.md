@@ -91,12 +91,12 @@
 
 ## AI 团队 [^1]
 
-[^1]: AI 团队成员不是人类，但他们是我们运营不可或缺的一部分。他们协助各种任务，从编程到研究，并帮助我们打破语言障碍。[了解我们的 AI 框架和政策...](./Legal-Regulations-for-AI-Services)
+[^1]: AI 团队成员不是人类，但他们是我们运营不可或缺的一部分。他们协助完成各种任务，从编程到研究，并帮助我们打破语言障碍。[了解我们的 AI 框架和政策...](./Legal-Regulations-for-AI-Services)
 
 <TeamMembersGrid :members="[
   {
     name: 'Claude',
-    desc: '**为**对话带来清晰度',
+    desc: '为对话带来清晰度',
     country: 'USA',
     avatarLink: 'vscode-icons:file-type-claude',
     links: [
@@ -105,7 +105,7 @@
   },
   {
     name: 'Gemini',
-    desc: '**连接**知识与意图',
+    desc: '连接知识与意图',
     country: 'USA',
     avatarLink: 'material-icon-theme:gemini-ai',
     links: [
@@ -114,7 +114,7 @@
   },
   {
     name: 'ChatGPT',
-    desc: '**以**细致入微和记忆进行解释',
+    desc: '以细致入微和记忆进行解释',
     country: 'USA',
     avatarLink: 'streamline-logos:openai-logo',
     links: [
@@ -123,7 +123,7 @@
   },
   {
     name: 'DeepSeek',
-    desc: '**用**代码思考，在语境中推理',
+    desc: '用代码思考，在语境中推理',
     country: 'China',
     avatarLink: 'arcticons:deepseek',
     links: [

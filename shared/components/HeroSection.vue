@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, onMounted, useSlots } from "vue"
 import { typewriter } from "../utils/animations"
-import { manageSessionFlag } from "../utils/sessionStorageHelper"
+import { manageLocalFlag } from "../utils/brawserStorageHelper"
 
 const props = defineProps({
   title: { type: String, required: true },
@@ -22,8 +22,8 @@ const styledTitle = computed(() => props.title.replace(regex, '<span class="high
 const styledText = computed(() => props.text.replace(regex, '<span class="hl">$1</span>'))
 
 // Determine animation state internally
-const initialAnimationState = manageSessionFlag("heroSectionAnimated", "true")
-const shouldPlayHeroAnimation = ref(initialAnimationState === undefined)
+const initialAnimationState = manageLocalFlag("heroSectionAnimated", "true")
+const shouldPlayHeroAnimation = ref(initialAnimationState === undefined) // This will be true only on first visit
 
 const displayedTitle = ref(styledTitle.value) // Показывать title сразу, без анимации
 const displayedText = ref("")

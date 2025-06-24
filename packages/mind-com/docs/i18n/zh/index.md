@@ -34,7 +34,7 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock :card="{
     title: '会议中的智慧大脑',
-    details: 'InterMind将每个多语言通话转化为清晰、可搜索的知识。',
+    details: 'InterMind将每次多语言通话转化为清晰、可搜索的知识。',
     items: [
       '🔍 **询问任何问题** — AI在**您的所有会议中**找到答案。',
       '✧ 自动提取任务、负责人和截止日期。',
@@ -83,7 +83,7 @@ isHome: true
 />
 
 > [!tip] 这适合谁？  
-> 专为**国际团队**打造，解决语言障碍导致的**延误**、**错失交易**或**代价高昂的误解**。[了解更多...](./product/overview/markets)
+> 专为**国际团队**构建，语言障碍会导致**延误**、**错失交易**或**代价高昂的误解**。[了解更多...](./product/overview/markets)
 
 <br>
 
@@ -191,7 +191,7 @@ isHome: true
   },
   {
     q: 'InterMind支持哪些语言的口译服务？',
-    a: '我们支持**100多种语言**的实时口译。列表持续增长——请查看我们的网站获取更新。'
+    a: '我们支持**100多种语言**的实时口译。语言列表持续增长——请查看我们的网站获取更新。'
   },
   {
     q: '我可以使用InterMind进行网络研讨会或大型活动吗？',
@@ -233,9 +233,9 @@ isHome: true
     title: '公司',
     links: [
       { text: '关于我们', link: './resources/company/about' },
-      // { text: 'Team', link: './resources/company/team' },
+      { text: '团队', link: './resources/company/team' },
       // { text: 'Careers', link: './resources/company/careers' },
-      { text: '联系我们', link: './resources/company/contacts' }
+      { text: '联系方式', link: './resources/company/contacts' }
     ]
   },
 ]" />

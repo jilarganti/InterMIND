@@ -187,7 +187,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
   },
   {
     q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
-    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Bei Kündigungen werden *monatliche Pläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.'
+    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen treten **sofort** in Kraft. Bei Kündigungen werden *monatliche Pläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.'
   },
   {
     q: 'Welche Sprachen unterstützt InterMind für die Dolmetschung?',
@@ -233,7 +233,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
     title: 'UNTERNEHMEN',
     links: [
       { text: 'Über uns', link: './resources/company/about' },
-      // { text: 'Team', link: './resources/company/team' },
+      { text: 'Team', link: './resources/company/team' },
       // { text: 'Careers', link: './resources/company/careers' },
       { text: 'Kontakte', link: './resources/company/contacts' }
     ]

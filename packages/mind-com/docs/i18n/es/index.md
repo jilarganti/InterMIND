@@ -120,7 +120,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     title: '**Empresarial** &nbsp 100+ usuarios',
-    price: '**Precio personalizado**',
+    price: '**Precios personalizados**',
     details: 'Diseñado para la privacidad',
     items: [
       '**ilimitadas** reuniones',
@@ -132,9 +132,9 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     ],
   }
 ]">
-<AuthButton text="Probar gratis" buttonClass="alt"/>
+<AuthButton text="Prueba gratis" buttonClass="alt"/>
 <AuthButton text="Comprar ahora" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Hablar con nuestro equipo" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Habla con nuestro equipo" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 😱 O hablas todos los idiomas — o alguien más cierra tus negocios.
@@ -155,7 +155,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 [
   {
     q: '¿Qué idiomas admite InterMind para interpretación?',
-    a: 'InterMind admite **interpretación en tiempo real** en los siguientes 19 idiomas:<br><br>- العربية (ar) – Árabe<br>- Čeština (cs) – Checo<br>- Deutsch (de) – Alemán<br>- English (en) – Inglés<br>- Español (es) – Español<br>- Français (fr) – Francés<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Húngaro<br>- Italiano (it) – Italiano<br>- 日本語 (ja) – Japonés<br>- 한국어 (ko) – Coreano<br>- Nederlands (nl) – Holandés<br>- Polski (pl) – Polaco<br>- Português (pt) – Portugués<br>- Русский (ru) – Ruso<br>- Türkçe (tr) – Turco<br>- 中文 (zh) – Chino<br>- עברית (he) – Hebreo<br>- ไทย (th) – Tailandés<br><br>Estamos expandiendo continuamente esta lista — se agregan nuevos idiomas con cada versión principal.'
+    a: 'InterMind admite **interpretación en tiempo real** en los siguientes 19 idiomas:<br><br>- العربية (ar) – Árabe<br>- Čeština (cs) – Checo<br>- Deutsch (de) – Alemán<br>- English (en) – Inglés<br>- Español (es) – Español<br>- Français (fr) – Francés<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Húngaro<br>- Italiano (it) – Italiano<br>- 日本語 (ja) – Japonés<br>- 한국어 (ko) – Coreano<br>- Nederlands (nl) – Holandés<br>- Polski (pl) – Polaco<br>- Português (pt) – Portugués<br>- Русский (ru) – Ruso<br>- Türkçe (tr) – Turco<br>- 中文 (zh) – Chino<br>- עברית (he) – Hebreo<br>- ไทย (th) – Tailandés<br><br>Estamos expandiendo continuamente esta lista — se agregan nuevos idiomas con cada lanzamiento principal.'
   },
   {
     q: '¿Qué es un usuario con licencia y qué es un participante?',
@@ -175,7 +175,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Cómo garantiza InterMind la privacidad y seguridad de los datos?',
-    a: 'InterMind es **privado por diseño**. Todos los datos se procesan y almacenan dentro de tu **Zona de Privacidad** seleccionada — _UE_, _EE.UU._, o _Asia_. Cumplimos con [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), y UAE PDPL, y **nunca usamos tu contenido** para entrenamiento o acceso de terceros. El [control avanzado de Zona de Privacidad](./product/overview/privacy-architecture) está disponible en el plan **Business**.'
+    a: 'InterMind es **privado por diseño**. Todos los datos se procesan y almacenan dentro de tu **Zona de Privacidad** seleccionada — _UE_, _EE.UU._, o _Asia_. Cumplimos con [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), y UAE PDPL, y **nunca usamos tu contenido** para entrenamiento o acceso de terceros. El control avanzado de [Zona de Privacidad](./product/overview/privacy-architecture) está disponible en el plan **Business**.'
   },
   {
     q: '¿Puedo probar InterMind antes de comprar un plan?',
@@ -233,7 +233,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     title: 'EMPRESA',
     links: [
       { text: 'Acerca de', link: './resources/company/about' },
-      // { text: 'Team', link: './resources/company/team' },
+      { text: 'Equipo', link: './resources/company/team' },
       // { text: 'Careers', link: './resources/company/careers' },
       { text: 'Contactos', link: './resources/company/contacts' }
     ]

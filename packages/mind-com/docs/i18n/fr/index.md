@@ -51,9 +51,9 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Conçu pour les Réunions Sérieuses — Pas Seulement pour Parler',
-    details: 'InterMind est une **plateforme de réunion vidéo de qualité professionnelle**, pas un simple complément ou plugin léger.',
+    details: 'InterMind est une **plateforme de réunion vidéo de qualité professionnelle**, pas un simple module complémentaire ou plugin léger.',
     items: [
-      '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration calendrier — tout intégré, prêt à l\'emploi.',
+      '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration du calendrier — tout intégré, prêt à l\'emploi.',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -175,7 +175,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
   },
   {
     q: 'Comment InterMind assure-t-il la confidentialité et la sécurité des données ?',
-    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et au PDPL des EAU, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès par des tiers. Le [contrôle avancé de la Zone de confidentialité](./product/overview/privacy-architecture) est disponible sur le plan **Business**.'
+    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et au PDPL des EAU, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès par des tiers. Le contrôle avancé de la [Zone de confidentialité](./product/overview/privacy-architecture) est disponible sur le plan **Business**.'
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un plan ?',
@@ -233,7 +233,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
     title: 'ENTREPRISE',
     links: [
       { text: 'À propos', link: './resources/company/about' },
-      // { text: 'Team', link: './resources/company/team' },
+      { text: 'Équipe', link: './resources/company/team' },
       // { text: 'Careers', link: './resources/company/careers' },
       { text: 'Contacts', link: './resources/company/contacts' }
     ]

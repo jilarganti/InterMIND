@@ -96,7 +96,7 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
 <TeamMembersGrid :members="[
   {
     name: 'Claude',
-    desc: '**Bringt** Klarheit in Gespräche',
+    desc: 'Klarheit in Gespräche bringen',
     country: 'USA',
     avatarLink: 'vscode-icons:file-type-claude',
     links: [
@@ -105,7 +105,7 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
   },
   {
     name: 'Gemini',
-    desc: '**Verbindet** Wissen mit Absicht',
+    desc: 'Wissen mit Absicht verbinden',
     country: 'USA',
     avatarLink: 'material-icon-theme:gemini-ai',
     links: [
@@ -114,7 +114,7 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
   },
   {
     name: 'ChatGPT',
-    desc: '**Interpretiert** mit Nuancen und Gedächtnis',
+    desc: 'Mit Nuancen und Gedächtnis interpretieren',
     country: 'USA',
     avatarLink: 'streamline-logos:openai-logo',
     links: [
@@ -123,7 +123,7 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
   },
   {
     name: 'DeepSeek',
-    desc: '**Denkt** in Code und argumentiert im Kontext',
+    desc: 'In Code denken und im Kontext schlussfolgern',
     country: 'China',
     avatarLink: 'arcticons:deepseek',
     links: [

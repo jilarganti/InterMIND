@@ -142,7 +142,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "О нас", link: "/company/about" },
-        // { text: "Команда", link: "/team" },
+        { text: "Команда", link: "/company/team" },
         { text: "Контакты", link: "/company/contacts" },
       ],
     },

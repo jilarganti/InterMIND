@@ -96,7 +96,7 @@
 <TeamMembersGrid :members="[
   {
     name: 'Claude',
-    desc: '**يجلب** الوضوح للمحادثات',
+    desc: 'جلب الوضوح للمحادثات',
     country: 'USA',
     avatarLink: 'vscode-icons:file-type-claude',
     links: [
@@ -105,7 +105,7 @@
   },
   {
     name: 'Gemini',
-    desc: '**يربط** المعرفة بالقصد',
+    desc: 'ربط المعرفة بالقصد',
     country: 'USA',
     avatarLink: 'material-icon-theme:gemini-ai',
     links: [
@@ -114,7 +114,7 @@
   },
   {
     name: 'ChatGPT',
-    desc: '**يفسر** بدقة وذاكرة',
+    desc: 'التفسير بدقة وذاكرة',
     country: 'USA',
     avatarLink: 'streamline-logos:openai-logo',
     links: [
@@ -123,7 +123,7 @@
   },
   {
     name: 'DeepSeek',
-    desc: '**يفكر** بالكود ويستدل في السياق',
+    desc: 'التفكير بالكود والاستدلال في السياق',
     country: 'China',
     avatarLink: 'arcticons:deepseek',
     links: [

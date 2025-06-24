@@ -3,7 +3,8 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
-  description: "InterMIND为每个视频通话添加实时语音翻译，让国际团队永远不会因为语言障碍而失去交易、时间或清晰度。",
+  description:
+    "InterMIND为每个视频通话添加实时语音翻译，让国际团队永远不会因为语言障碍而失去交易、时间或清晰度。",
   head: [["meta", { property: "og:title", content: "由同声传译驱动的视频通话 | InterMIND" }]],
 
   themeConfig: {
@@ -64,9 +65,9 @@ export const zh = defineConfig({
       email: "邮箱 *",
       emailPlaceholder: "您的邮箱地址",
       webSite: "公司网站 *",
-      webSitePlaceholder: "例如 https://companyname.com",
+      webSitePlaceholder: "例如：https://companyname.com",
       webSiteError: "请输入网站地址",
-      category: "您的主要目标是什么？ *",
+      category: "您的主要目标是什么？*",
       categoryPlaceholder: "选择最重要的内容",
       message: "让我们讨论您的目标（可选）",
       messagePlaceholder: "请提供任何其他详细信息（可选）",
@@ -74,7 +75,12 @@ export const zh = defineConfig({
       sending: "发送中...",
       successTitle: "谢谢您！",
       successMessage: "我们已收到您的消息——我们的团队将很快与您联系。",
-      defaultCategories: ["消除会议中的语言障碍", "让会议可搜索且可操作", "确保合规性和数据驻留（欧盟/美国/亚洲）", "只是探索/其他"],
+      defaultCategories: [
+        "消除会议中的语言障碍",
+        "让会议可搜索且可操作",
+        "确保合规性和数据驻留（欧盟/美国/亚洲）",
+        "只是探索/其他",
+      ],
 
       defaultButtonText: "给我们发消息",
       // defaultButtonText: "获取免费咨询",
@@ -136,7 +142,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "关于我们", link: "/company/about" },
-        // { text: "团队", link: "/team" },
+        { text: "团队", link: "/company/team" },
         { text: "联系方式", link: "/company/contacts" },
       ],
     },

@@ -142,7 +142,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Acerca de", link: "/company/about" },
-        // { text: "Equipo", link: "/team" },
+        { text: "Equipo", link: "/company/team" },
         { text: "Contactos", link: "/company/contacts" },
       ],
     },

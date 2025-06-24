@@ -96,7 +96,7 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
 <TeamMembersGrid :members="[
   {
     name: 'Claude',
-    desc: '**Aportando** claridad a las conversaciones',
+    desc: 'Aportando claridad a las conversaciones',
     country: 'USA',
     avatarLink: 'vscode-icons:file-type-claude',
     links: [
@@ -105,7 +105,7 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   },
   {
     name: 'Gemini',
-    desc: '**Conectando** conocimiento con intención',
+    desc: 'Conectando conocimiento con intención',
     country: 'USA',
     avatarLink: 'material-icon-theme:gemini-ai',
     links: [
@@ -114,7 +114,7 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   },
   {
     name: 'ChatGPT',
-    desc: '**Interpretando** con matices y memoria',
+    desc: 'Interpretando con matices y memoria',
     country: 'USA',
     avatarLink: 'streamline-logos:openai-logo',
     links: [
@@ -123,7 +123,7 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   },
   {
     name: 'DeepSeek',
-    desc: '**Pensando** en código y razonando en contexto',
+    desc: 'Pensando en código y razonando en contexto',
     country: 'China',
     avatarLink: 'arcticons:deepseek',
     links: [

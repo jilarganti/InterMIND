@@ -233,7 +233,7 @@ isHome: true
     title: 'КОМПАНИЯ',
     links: [
       { text: 'О нас', link: './resources/company/about' },
-      // { text: 'Team', link: './resources/company/team' },
+      { text: 'Команда', link: './resources/company/team' },
       // { text: 'Careers', link: './resources/company/careers' },
       { text: 'Контакты', link: './resources/company/contacts' }
     ]

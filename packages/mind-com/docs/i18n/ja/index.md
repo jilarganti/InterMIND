@@ -191,7 +191,7 @@ isHome: true
   },
   {
     q: 'InterMindはどの言語の通訳に対応していますか？',
-    a: 'リアルタイム通訳で**100以上の言語**をサポートしています。リストは継続的に拡大しており、最新情報については当社のウェブサイトをご確認ください。'
+    a: 'リアルタイム通訳で**100以上の言語**をサポートしています。リストは継続的に拡大しており、最新情報はウェブサイトでご確認ください。'
   },
   {
     q: 'InterMindをウェビナーや大規模イベントに使用できますか？',
@@ -233,7 +233,7 @@ isHome: true
     title: '会社情報',
     links: [
       { text: '会社概要', link: './resources/company/about' },
-      // { text: 'Team', link: './resources/company/team' },
+      { text: 'チーム', link: './resources/company/team' },
       // { text: 'Careers', link: './resources/company/careers' },
       { text: 'お問い合わせ', link: './resources/company/contacts' }
     ]
