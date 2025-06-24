@@ -1,0 +1,52 @@
+/* Кастомные CSS переменные */
+:root {
+  --vp-layout-max-width: 1440px;
+}
+
+/* Переопределение базовых стилей VitePress только для кастомного макета */
+.meet-wrapper .VPDoc {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.meet-wrapper .VPContent {
+  padding-top: 0 !important;
+}
+
+/* Скрытие стандартных элементов VitePress только для кастомного макета */
+.meet-wrapper ~ .VPNav,
+.meet-wrapper ~ .VPLocalNav,
+.meet-wrapper ~ .VPSidebar,
+.meet-wrapper ~ .VPFooter {
+  display: none !important;
+}
+
+/* Для кастомного макета скрываем стандартную навигацию */
+body:has(.meet-wrapper) .VPNav,
+body:has(.meet-wrapper) .VPLocalNav,
+body:has(.meet-wrapper) .VPSidebar,
+body:has(.meet-wrapper) .VPFooter {
+  display: none !important;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  .meet-wrapper {
+    padding-bottom: 80px;
+  }
+
+  .chat-footer {
+    height: 64px;
+    padding: 0 12px;
+  }
+
+  .actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .code-input {
+    width: 100%;
+    max-width: 280px;
+  }
+}

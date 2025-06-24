@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: custom
 ---
 
 # Plans that grow with you

@@ -10,6 +10,7 @@ import { inject } from "@vercel/analytics"
 import { injectSpeedInsights } from "@vercel/speed-insights"
 import AuthButton from "./components/AuthButton.vue"
 import ContactFormModalNav from "./components/ContactFormModalNav.vue"
+import CustomLayout from "./layouts/CustomLayout.vue"
 
 const { SearchInput } = components
 
@@ -17,13 +18,24 @@ const { SearchInput } = components
 export default {
   ...sharedTheme,
   Layout() {
+    const { frontmatter } = useData()
+
+    // Если это кастомный макет (встречи), используем CustomLayout
+    if (frontmatter.value.layout === "custom" || frontmatter.value.layout === "home") {
+      return h(CustomLayout)
+    }
+
+    // Иначе используем стандартный макет VitePress
     return h(DefaultTheme.Layout, null, {
       // "nav-bar-content-before": () => {
       //   return h(SearchInput)
       // },
       "nav-bar-content-after": () =>
         h("div", { class: "auth-buttons-container" }, [
-          h(AuthButton, { text: useData().site.value.themeConfig.localization.buttonLabel4AuthButton, buttonClass: "alt" }),
+          h(AuthButton, {
+            text: useData().site.value.themeConfig.localization.buttonLabel4AuthButton,
+            buttonClass: "alt",
+          }),
         ]),
     })
   },
@@ -34,9 +46,11 @@ export default {
     if (sharedTheme.enhanceApp) {
       sharedTheme.enhanceApp({ app, router })
     }
+
     // Регистрация моих компонентов пакета
     app.component("AuthButton", AuthButton)
     app.component("ContactFormModalNav", ContactFormModalNav)
+    app.component("CustomLayout", CustomLayout)
 
     // Регистрация внешних компонентов пакета
     app.component("Icon", Icon)
