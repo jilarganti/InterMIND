@@ -5,5 +5,5 @@ hero:
   actions:
     - theme: brand
       text: "测试 1"
-      link: ./?utm_source=google_ads&utm_medium=cpc&utm_campaign=winter_2025
+      link: https://mind.com/?gclid=TEST-123&utm_source=google_ads&utm_medium=cpc&utm_campaign=test-campaign
 ---

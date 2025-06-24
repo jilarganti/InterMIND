@@ -1,14 +1,13 @@
 {
   "name": "mind-com",
-  "description": "Multilingual Video Meetings with Voice Interpretation",
-  "version": "0.1.0",
+  "description": "Live speech translation in video calls",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "translate": "node --no-deprecation scripts/translate",
-    "test:traffic-sources": "node --experimental-specifier-resolution=node --loader ts-node/esm __tests__/crm/test-traffic-sources.ts",
-    "trans": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/ai/translate.ts",
+    "test:traffic-sources": "node --experimental-specifier-resolution=node --loader ts-node/esm __tests__/test-traffic-sources.ts",
     "format": "prettier -w .",
     "lint": "pnpm eslint --cache ."
   },

@@ -1,9 +1,9 @@
 ---
 layout: home
 hero:
-  name: اختبار
+  name: "اختبار"
   actions:
     - theme: brand
-      text: اختبار 1
-      link: ./?utm_source=google_ads&utm_medium=cpc&utm_campaign=winter_2025
+      text: "اختبار 1"
+      link: https://mind.com/?gclid=TEST-123&utm_source=google_ads&utm_medium=cpc&utm_campaign=test-campaign
 ---
