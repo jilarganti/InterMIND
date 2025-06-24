@@ -96,7 +96,7 @@ Together, we blend creativity, code, and understanding to erase language barrier
 <TeamMembersGrid :members="[
   {
     name: 'Claude',
-    desc: '**Bringing** clarity to conversations',
+    desc: 'Bringing clarity to conversations',
     country: 'USA',
     avatarLink: 'vscode-icons:file-type-claude',
     links: [
@@ -105,7 +105,7 @@ Together, we blend creativity, code, and understanding to erase language barrier
   },
   {
     name: 'Gemini',
-    desc: '**Connecting** knowledge with intent',
+    desc: 'Connecting knowledge with intent',
     country: 'USA',
     avatarLink: 'material-icon-theme:gemini-ai',
     links: [
@@ -114,7 +114,7 @@ Together, we blend creativity, code, and understanding to erase language barrier
   },
   {
     name: 'ChatGPT',
-    desc: '**Interpreting** with nuance and memory',
+    desc: 'Interpreting with nuance and memory',
     country: 'USA',
     avatarLink: 'streamline-logos:openai-logo',
     links: [
@@ -123,7 +123,7 @@ Together, we blend creativity, code, and understanding to erase language barrier
   },
   {
     name: 'DeepSeek',
-    desc: '**Thinking** in code and reasoning in context',
+    desc: 'Thinking in code and reasoning in context',
     country: 'China',
     avatarLink: 'arcticons:deepseek',
     links: [

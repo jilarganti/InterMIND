@@ -233,7 +233,7 @@ From first call to fluent conversations — at any scale.
     title: 'COMPANY',
     links: [
       { text: 'About', link: './resources/company/about' },
-      // { text: 'Team', link: './resources/company/team' },
+      { text: 'Team', link: './resources/company/team' },
       // { text: 'Careers', link: './resources/company/careers' },
       { text: 'Contacts', link: './resources/company/contacts' }
     ]
