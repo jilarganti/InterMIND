@@ -8,10 +8,11 @@ interface SocialLink {
 }
 
 interface Member {
-  name: string
-  desc: string
+  name?: string
+  desc?: string
   avatarLink: string
   links?: SocialLink[]
+  country?: string
 }
 
 const props = defineProps<{
@@ -37,10 +38,11 @@ function replace(text: string, className: string, pattern = /\*\*(.*?)\*\*/g): s
           :icon="member.avatarLink"
           style="font-size: 70px"
         />
-        <img v-else :src="member.avatarLink" :alt="member.name" />
+        <img v-else :src="member.avatarLink" :alt="member.name || 'Incognito'" />
       </div>
-      <div class="team-name" v-html="replace(member.name, 'highlighted-word')"></div>
-      <div class="team-desc" v-html="replace(member.desc, 'highlighted-word')"></div>
+      <div class="team-name" v-html="replace(member.name || 'Incognito', 'highlighted-word')"></div>
+      <div class="team-desc" v-html="replace(member.desc || 'Engineering', 'highlighted-word')"></div>
+      <div class="team-country">{{ member.country || "Worldwide" }}</div>
       <div v-if="member.links && member.links.length" class="team-links">
         <a
           v-for="(link, linkIndex) in member.links"
@@ -105,6 +107,12 @@ function replace(text: string, className: string, pattern = /\*\*(.*?)\*\*/g): s
   color: var(--vp-c-text-2);
   margin-bottom: 12px;
   max-width: 240px;
+}
+
+.team-country {
+  font-size: 0.85rem;
+  color: var(--vp-c-text-3, #888);
+  margin-bottom: 8px;
 }
 
 .team-links {

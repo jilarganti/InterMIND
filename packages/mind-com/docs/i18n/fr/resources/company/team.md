@@ -1,69 +1,103 @@
-# Chez InterMind, l'humain dirige — l'IA amplifie
+# Chez InterMind, les humains dirigent — les IA amplifient
 
-Ensemble, nous mélangeons créativité, code et compréhension pour effacer définitivement les barrières linguistiques.
+Ensemble, nous mélangeons créativité, code et compréhension pour éliminer définitivement les barrières linguistiques.
 
-## Équipe Humaine
+## Équipe humaine
 
 <TeamMembersGrid :members="[
   {
     name: 'Jilarganti',
-    desc: '**Apportant** de nouveaux esprits à InterMIND, EAU',
+    desc: 'Apporter de **nouveaux esprits** à InterMIND',
+    country: 'EAU',
     avatarLink: 'https://github.com/jilarganti.png',
     links: [
       { icon: 'mdi:github', link: 'https://github.com/jilarganti' },
-      { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/in/aleksey-korolev/' }
+      { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/in/aleksey-korolev' }
     ]
   },
   {
     name: 'Windicted',
-    desc: '**Transformant** les utilisateurs en adeptes, Portugal',
+    // desc: '**Transformer** les utilisateurs en croyants',
+    country: 'Portugal',
     avatarLink: 'https://secure.gravatar.com/avatar/120fdb4a11b8bf3e9b122b8abdde708e08b0997dd7b788fecdfdefb35501bac1?s=1600&d=identicon',
     links: [
       { icon: 'mdi:gitlab', link: 'https://gitlab.com/alexander.strikhalev' }
     ]
   },
   {
-    name: 'Andre',
-    desc: '**Maintenant** les esprits connectés, Russie',
-    avatarLink: 'https://gitlab.com/uploads/-/system/user/avatar/2413541/avatar.png?width=800',
+    name: 'L\'équipe **Mind.com**',
+    desc: 'Éliminer les barrières linguistiques pour de bon',
+    avatarLink: '/logo.svg',
     links: [
-      { icon: 'mdi:gitlab', link: 'https://gitlab.com/andrey.semashev' }
+      { icon: 'mdi:twitter', link: 'https://x.com/imindcom' },
+      { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/company/mind' },
     ]
   },
-  {
-    name: 'Sfdev',
-    desc: '**Faisant** rester les utilisateurs — et sourire, Portugal',
-    avatarLink: 'https://secure.gravatar.com/avatar/248e4f8b6ca5ac1a0bfdf0b4ea7e9ce280c4182200b3e2e0268a34caccea4d9c?s=384&d=identicon',
-    links: [
-      { icon: 'mdi:gitlab', link: 'https://gitlab.com/sergei.fomin.sfdev' }
-    ]
-  },
-  {
-    name: 'DMA',
-    desc: '**Transformant** les réunions en sens, Mondial',
-    avatarLink: 'https://secure.gravatar.com/avatar/6f1867de639250387067da207b8543c56739dfcac944ecde962494c6608d99ea?s=1600&d=identicon',
-    links: [
-      { icon: 'mdi:gitlab', link: 'https://gitlab.com/petrov.dma' }
-    ]
-  },
-  {
-    name: '👽',
-    desc: '**Alimentant** la collaboration active, Mondial',
-    avatarLink: 'https://secure.gravatar.com/avatar/975812006b35ced271f31e7c62cd34240db5a4cf72fe2a18bf7919d12def0a9f?s=1600&d=identicon',
-    links: [
-      { icon: 'mdi:gitlab', link: 'https://gitlab.com/vkorogodin' }
-    ]
-  },
+  // {
+  //   // name: 'Andre',
+  //   // desc: '**Maintenir** les esprits connectés',
+  //   // country: 'Russie',
+  //   avatarLink: 'https://gitlab.com/uploads/-/system/user/avatar/2413541/avatar.png?width=800',
+  //   links: [
+  //     { icon: 'mdi:gitlab', link: 'https://gitlab.com/andrey.semashev' }
+  //   ]
+  // },
+  // {
+  //   name: 'Sfdev',
+  //   // desc: '**Faire** rester les utilisateurs — et sourire',
+  //   country: 'Portugal',
+  //   avatarLink: 'https://secure.gravatar.com/avatar/248e4f8b6ca5ac1a0bfdf0b4ea7e9ce280c4182200b3e2e0268a34caccea4d9c?s=384&d=identicon',
+  //   links: [
+  //     { icon: 'mdi:gitlab', link: 'https://gitlab.com/sergei.fomin.sfdev' }
+  //   ]
+  // },
+  // {
+  //   name: 'DMA',
+  //   // desc: '**Transformer** les réunions en sens',
+  //   // country: 'Mondial',
+  //   avatarLink: 'https://secure.gravatar.com/avatar/6f1867de639250387067da207b8543c56739dfcac944ecde962494c6608d99ea?s=1600&d=identicon',
+  //   links: [
+  //     { icon: 'mdi:gitlab', link: 'https://gitlab.com/petrov.dma' }
+  //   ]
+  // },
+  // {
+  //   // name: '👽',
+  //   // desc: 'Ingénierie',
+  //   // country: 'Mondial',
+  //   avatarLink: 'https://gitlab.com/uploads/-/system/user/avatar/27240326/avatar.png?width=800',
+  //   links: [
+  //     { icon: 'mdi:gitlab', link: 'https://gitlab.com/sergei.budko' }
+  //   ]
+  // },
+  // {
+  //   // name: '👽',
+  //   // desc: '**Alimenter** la collaboration active',
+  //   // country: 'Mondial',
+  //   avatarLink: 'https://secure.gravatar.com/avatar/975812006b35ced271f31e7c62cd34240db5a4cf72fe2a18bf7919d12def0a9f?s=1600&d=identicon',
+  //   links: [
+  //     { icon: 'mdi:gitlab', link: 'https://gitlab.com/vkorogodin' }
+  //   ]
+  // },
+  // {
+  //   // name: '👽',
+  //   // desc: 'Ingénierie',
+  //   // country: '🌎',
+  //   avatarLink: 'https://secure.gravatar.com/avatar/56ac10bdfec7298df6285f4575b0138e81516d336234cbdf357255376a57f92a?s=1600&d=identicon',
+  //   links: [
+  //     { icon: 'mdi:gitlab', link: 'https://gitlab.com/Komkovv' }
+  //   ]
+  // },
 ]" />
 
 ## Équipe IA [^1]
 
-[^1]: Les membres de l\'équipe IA ne sont pas humains, mais ils sont essentiels à nos opérations. Ils nous assistent dans diverses tâches, de la programmation à la recherche, et nous aident à surmonter les barrières linguistiques. [Comprendre notre cadre et nos politiques en matière d\'IA ...](./Legal-Regulations-for-AI-Services)
+[^1]: Les membres de l'équipe IA ne sont pas humains, mais ils sont essentiels à nos opérations. Ils assistent dans diverses tâches, du codage à la recherche, et nous aident à surmonter les barrières linguistiques. [Comprendre notre cadre et nos politiques IA ...](./Legal-Regulations-for-AI-Services)
 
 <TeamMembersGrid :members="[
   {
     name: 'Claude',
-    desc: '**Apporte** de la clarté aux conversations, États-Unis',
+    desc: '**Apporter** de la clarté aux conversations',
+    country: 'USA',
     avatarLink: 'vscode-icons:file-type-claude',
     links: [
       { icon: 'rivet-icons:link', link: 'https://claude.ai/' }
@@ -71,7 +105,8 @@ Ensemble, nous mélangeons créativité, code et compréhension pour effacer dé
   },
   {
     name: 'Gemini',
-    desc: '**Connecte** les connaissances aux intentions, États-Unis',
+    desc: '**Connecter** la connaissance avec l\'intention',
+    country: 'USA',
     avatarLink: 'material-icon-theme:gemini-ai',
     links: [
       { icon: 'rivet-icons:link', link: 'https://gemini.google.com/' }
@@ -79,7 +114,8 @@ Ensemble, nous mélangeons créativité, code et compréhension pour effacer dé
   },
   {
     name: 'ChatGPT',
-    desc: '**Interprète** avec nuance et mémoire, États-Unis',
+    desc: '**Interpréter** avec nuance et mémoire',
+    country: 'USA',
     avatarLink: 'streamline-logos:openai-logo',
     links: [
       { icon: 'rivet-icons:link', link: 'https://chatgpt.com/' }
@@ -87,7 +123,8 @@ Ensemble, nous mélangeons créativité, code et compréhension pour effacer dé
   },
   {
     name: 'DeepSeek',
-    desc: '**Réfléchit** en code et raisonne en contexte, Chine',
+    desc: '**Penser** en code et raisonner en contexte',
+    country: 'China',
     avatarLink: 'arcticons:deepseek',
     links: [
       { icon: 'rivet-icons:link', link: 'https://chat.deepseek.com/' }

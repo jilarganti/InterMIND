@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /api/
-Disallow: /company/team
 Sitemap: https://mind.com/sitemap.xml
