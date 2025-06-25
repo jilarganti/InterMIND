@@ -13,6 +13,7 @@ const UTM_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "
 
 // Определение констант для OAuth прямо в коде, так как это не закрытые данные
 const OAUTH_PROVIDER_URL = "https://dev.intermind.com/auth"
+const CHECKOUT_URL = "https://dev.intermind.com/checkout"
 const APP_BASE_URL = "https://dev.intermind.com"
 const OAUTH_CLIENT_ID = "vca"
 
@@ -85,6 +86,7 @@ export const shared = defineConfig({
       "import.meta.env.VITE_OAUTH_PROVIDER_URL": JSON.stringify(OAUTH_PROVIDER_URL),
       "import.meta.env.VITE_OAUTH_CLIENT_ID": JSON.stringify(OAUTH_CLIENT_ID),
       "import.meta.env.VITE_APP_BASE_URL": JSON.stringify(APP_BASE_URL),
+      "import.meta.env.VITE_CHECKOUT_URL": JSON.stringify(CHECKOUT_URL),
     },
 
     server: {

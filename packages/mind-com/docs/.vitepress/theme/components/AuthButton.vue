@@ -14,10 +14,12 @@ const isRealLead = import.meta.env.VITE_IS_PROD
 interface Props {
   text: string
   buttonClass?: "brand" | "alt" | "sponsor"
+  mode?: "auth" | "checkout" // новый проп
 }
 
 const props = withDefaults(defineProps<Props>(), {
   buttonClass: "brand",
+  mode: "auth",
 })
 
 const { page } = useData()
@@ -69,7 +71,7 @@ const login = (event: Event): void => {
   // Сохраняем текущий путь для возврата после авторизации
   localStorage.setItem(REDIRECT_AFTER_AUTH_URI_KEY, location.pathname + location.search)
 
-  // Формируем URL для авторизации
+  // Формируем базовые параметры для авторизации
   const authParams = new URLSearchParams({
     client_id: import.meta.env.VITE_OAUTH_CLIENT_ID,
     scope: "openid",
@@ -78,8 +80,13 @@ const login = (event: Event): void => {
     redirect_uri: import.meta.env.VITE_APP_BASE_URL + "/auth",
   })
 
-  // Перенаправляем пользователя на URL авторизации с правильной локалью
-  location.href = `${import.meta.env.VITE_OAUTH_PROVIDER_URL}?locale=${currentLocale}&${authParams.toString()}`
+  if (props.mode === "checkout") {
+    // Для checkout режима используем CHECKOUT_URL
+    location.href = `${import.meta.env.VITE_CHECKOUT_URL}?locale=${currentLocale}&planCode=pro&billingCycle=MONTHLY&${authParams.toString()}`
+  } else {
+    // Для auth режима используем OAUTH_PROVIDER_URL
+    location.href = `${import.meta.env.VITE_OAUTH_PROVIDER_URL}?locale=${currentLocale}&${authParams.toString()}`
+  }
 }
 </script>
 
@@ -87,6 +94,9 @@ const login = (event: Event): void => {
   <VPButton :text="text" :theme="props.buttonClass" href="#" @click="login" />
 </template>
 
+<style scoped>
+/* Нет необходимости в собственных стилях, так как VPButton предоставляет все необходимые стили */
+</style>
 <style scoped>
 /* Нет необходимости в собственных стилях, так как VPButton предоставляет все необходимые стили */
 </style>

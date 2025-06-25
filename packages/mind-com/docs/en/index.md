@@ -133,7 +133,7 @@ From first call to fluent conversations — at any scale.
   }
 ]">
 <AuthButton text="Try for free" buttonClass="alt"/>
-<AuthButton text="Buy now" buttonClass="brand"/>
+<AuthButton text="Buy now" buttonClass="brand" mode="checkout"/>
 <ContactFormModalNav buttonText="Talk to our team" buttonClass="alt"/>
 </PricingPlans>
 
