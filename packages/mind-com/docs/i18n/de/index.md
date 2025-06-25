@@ -133,7 +133,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
   }
 ]">
 <AuthButton text="Kostenlos testen" buttonClass="alt"/>
-<AuthButton text="Jetzt kaufen" buttonClass="brand"/>
+<AuthButton text="Jetzt kaufen" buttonClass="brand" mode="checkout"/>
 <ContactFormModalNav buttonText="Mit unserem Team sprechen" buttonClass="alt"/>
 </PricingPlans>
 

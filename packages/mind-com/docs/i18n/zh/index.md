@@ -83,7 +83,7 @@ isHome: true
 />
 
 > [!tip] 这适合谁？  
-> 专为**国际团队**构建，语言障碍会导致**延误**、**错失交易**或**代价高昂的误解**。[了解更多...](./product/overview/markets)
+> 专为**国际团队**打造，解决语言障碍导致的**延误**、**错失交易**或**代价高昂的误解**。[了解更多...](./product/overview/markets)
 
 <br>
 
@@ -99,7 +99,7 @@ isHome: true
     price: '**免费**',
     details: '无需信用卡',
     items: [
-      '**25** 场会议',
+      '**25** 次会议',
       '**100** 人视频会议 [💬](#3)',
       '每用户 **30** GB 共享存储',
       '搜索所有会议记录 [💬](#2)',
@@ -133,7 +133,7 @@ isHome: true
   }
 ]">
 <AuthButton text="免费试用" buttonClass="alt"/>
-<AuthButton text="立即购买" buttonClass="brand"/>
+<AuthButton text="立即购买" buttonClass="brand" mode="checkout"/>
 <ContactFormModalNav buttonText="联系我们的团队" buttonClass="alt"/>
 </PricingPlans>
 

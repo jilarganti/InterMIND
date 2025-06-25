@@ -109,7 +109,7 @@ isHome: true
   {
     title: '**プロ**  &nbsp 1-99ユーザー',
     price: '**$20** /月/ユーザー、年間請求',
-    details: 'または月額$25請求',
+    details: 'または月間請求$25',
     items: [
       '**無制限** 会議',
       '**150** 参加者ビデオ会議 [💬](#3)',
@@ -133,11 +133,11 @@ isHome: true
   }
 ]">
 <AuthButton text="無料で試す" buttonClass="alt"/>
-<AuthButton text="今すぐ購入" buttonClass="brand"/>
+<AuthButton text="今すぐ購入" buttonClass="brand" mode="checkout"/>
 <ContactFormModalNav buttonText="チームに相談" buttonClass="alt"/>
 </PricingPlans>
 
-> [!warning] 😱 あなたがすべての言語を話すか — それとも他の誰かがあなたの取引を成立させるか。
+> [!warning] 😱 あなたがすべての言語を話せるか — さもなければ他の誰かがあなたの取引を成約させるでしょう。
 
 <span id="Testimonials"></span>
 

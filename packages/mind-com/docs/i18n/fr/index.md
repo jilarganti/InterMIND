@@ -82,7 +82,7 @@ isHome: true
   }"
 />
 
-> [!tip] À qui s'adresse-t-il ?  
+> [!tip] Pour qui est-ce destiné ?  
 > Conçu pour les **équipes internationales** où les barrières linguistiques causent des **retards**, des **affaires perdues** ou des **malentendus coûteux**. [En savoir plus ...](./product/overview/markets)
 
 <br>
@@ -133,7 +133,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
   }
 ]">
 <AuthButton text="Essayer gratuitement" buttonClass="alt"/>
-<AuthButton text="Acheter maintenant" buttonClass="brand"/>
+<AuthButton text="Acheter maintenant" buttonClass="brand" mode="checkout"/>
 <ContactFormModalNav buttonText="Parler à notre équipe" buttonClass="alt"/>
 </PricingPlans>
 
@@ -171,7 +171,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
   },
   {
     q: 'Y a-t-il une limite sur le nombre de réunions que je peux organiser ?',
-    a: 'Le plan *Gratuit de base* inclut **25 réunions gratuites**. Les plans *Pro* et *Business* offrent des réunions illimitées avec plus de participants et de contrôle.'
+    a: 'Le plan *Free Basic* inclut **25 réunions gratuites**. Les plans *Pro* et *Business* offrent des réunions illimitées avec plus de participants et de contrôle.'
   },
   {
     q: 'Comment InterMind assure-t-il la confidentialité et la sécurité des données ?',
@@ -179,7 +179,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un plan ?',
-    a: 'Absolument. Le plan *Gratuit de base* vous donne un accès complet aux fonctionnalités principales avec **25 réunions gratuites** — incluant **l\'interprétation simultanée** et **la recherche de réunions**. Aucune carte de crédit requise. Mise à niveau à tout moment.'
+    a: 'Absolument. Le plan *Free Basic* vous donne un accès complet aux fonctionnalités principales avec **25 réunions gratuites** — incluant **l\'interprétation simultanée** et **la recherche de réunions**. Aucune carte de crédit requise. Mise à niveau à tout moment.'
   },
   {
     q: 'Que faire si j\'ai besoin d\'aide ou de support ?',
@@ -207,7 +207,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
       { text: 'Aperçu', link: './product/overview/what-is-intermind' },
       { text: 'Commencer', link: './product/guide/getting-started' },
       { text: 'Témoignages', link: '#testimonials' },
-      { text: 'Tarification', link: '#Pricing' },
+      { text: 'Tarifs', link: '#Pricing' },
     ]
   },
   {

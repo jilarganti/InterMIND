@@ -133,7 +133,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   }
 ]">
 <AuthButton text="Prueba gratis" buttonClass="alt"/>
-<AuthButton text="Comprar ahora" buttonClass="brand"/>
+<AuthButton text="Comprar ahora" buttonClass="brand" mode="checkout"/>
 <ContactFormModalNav buttonText="Habla con nuestro equipo" buttonClass="alt"/>
 </PricingPlans>
 
@@ -159,7 +159,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Qué es un usuario con licencia y qué es un participante?',
-    a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **gratis**.'
+    a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **de forma gratuita**.'
   },
   {
     q: '¿Cuántas personas pueden usar una licencia de InterMind?',
@@ -179,7 +179,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Puedo probar InterMind antes de comprar un plan?',
-    a: 'Absolutamente. El plan *Básico Gratuito* te da acceso completo a las funciones principales con **25 reuniones gratuitas** — incluyendo **interpretación simultánea** y **búsqueda de reuniones**. No se requiere tarjeta de crédito. Actualiza en cualquier momento.'
+    a: 'Por supuesto. El plan *Básico Gratuito* te da acceso completo a las funciones principales con **25 reuniones gratuitas** — incluyendo **interpretación simultánea** y **búsqueda de reuniones**. No se requiere tarjeta de crédito. Actualiza en cualquier momento.'
   },
   {
     q: '¿Qué pasa si necesito ayuda o soporte?',
