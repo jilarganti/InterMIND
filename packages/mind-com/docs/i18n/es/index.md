@@ -11,8 +11,7 @@ isHome: true
   title="Reúnete en **Cualquier** Idioma"
   text="Traducción de voz en vivo en videollamadas — **sin** retrasos, **sin** negocios perdidos, **sin** barreras idiomáticas.">
 
-  <!-- <AuthButton text="Escucha la diferencia" buttonClass="brand"/> -->
-  <AuthButton text="Pruébalo en tu idioma" buttonClass="brand"/>
+  <AuthButton text="Pruébalo en tu idioma" buttonClass="brand" eventName="try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -33,7 +32,7 @@ isHome: true
 
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: 'La Mente Dentro de Tus Reuniones',
+    title: 'La mente dentro de tus reuniones',
     details: 'InterMind convierte cada llamada multilingüe en conocimiento claro y consultable.',
     items: [
       '✧ **Pregunta cualquier cosa** — la IA encuentra respuestas **en todas tus reuniones**.',
@@ -50,7 +49,7 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Construido para Reuniones Serias — No Solo para Conversar',
+    title: 'Construido para reuniones serias — no solo para hablar',
     details: 'InterMind es una [plataforma de videorreuniones de grado profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
     items: [
       '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, **listo para usar**.',
@@ -66,11 +65,11 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Privacidad Donde Importa',
+    title: 'Privacidad donde importa',
     details:
       'InterMind está construido para conversaciones críticas de confianza — donde la privacidad y el control importan más.',
     items: [
-      '✧ [Zonas de Privacidad](./product/overview/privacy-architecture) — UE, EE.UU., Sudeste Asiático',
+      '✧ [Zonas de privacidad](./product/overview/privacy-architecture) — UE, EE.UU., Sudeste Asiático',
       '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
     ],
     link: './product/overview/privacy-architecture',
@@ -132,8 +131,8 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     ],
   }
 ]">
-<AuthButton text="Prueba gratis" buttonClass="alt"/>
-<AuthButton text="Comprar ahora" buttonClass="brand" mode="checkout"/>
+<AuthButton text="Prueba gratis" buttonClass="alt" eventName="try_it_attempt"/>
+<AuthButton text="Comprar ahora" buttonClass="brand" mode="checkout" eventName="buy_now_attempt"/>
 <ContactFormModalNav buttonText="Habla con nuestro equipo" buttonClass="alt"/>
 </PricingPlans>
 
@@ -159,7 +158,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Qué es un usuario con licencia y qué es un participante?',
-    a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **de forma gratuita**.'
+    a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **gratis**.'
   },
   {
     q: '¿Cuántas personas pueden usar una licencia de InterMind?',
@@ -179,7 +178,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Puedo probar InterMind antes de comprar un plan?',
-    a: 'Por supuesto. El plan *Básico Gratuito* te da acceso completo a las funciones principales con **25 reuniones gratuitas** — incluyendo **interpretación simultánea** y **búsqueda de reuniones**. No se requiere tarjeta de crédito. Actualiza en cualquier momento.'
+    a: 'Absolutamente. El plan *Básico Gratuito* te da acceso completo a las funciones principales con **25 reuniones gratuitas** — incluyendo **interpretación simultánea** y **búsqueda de reuniones**. No se requiere tarjeta de crédito. Actualiza en cualquier momento.'
   },
   {
     q: '¿Qué pasa si necesito ayuda o soporte?',

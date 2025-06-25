@@ -11,8 +11,7 @@ isHome: true
   title="Rencontrez-vous dans **N'importe Quelle** Langue"
   text="Traduction vocale en direct dans les appels vidéo — **aucun** délai, **aucune** affaire perdue, **aucune** barrière linguistique.">
 
-  <!-- <AuthButton text="Entendez la différence" buttonClass="brand"/> -->
-  <AuthButton text="Essayez dans votre langue" buttonClass="brand"/>
+  <AuthButton text="Essayez-le dans votre langue" buttonClass="brand" eventName="try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -33,7 +32,7 @@ isHome: true
 
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: 'L\'esprit au cœur de vos réunions',
+    title: 'L\'Esprit au Cœur de Vos Réunions',
     details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
     items: [
       '✧ **Demandez n\'importe quoi** — l\'IA trouve des réponses **dans toutes vos réunions**.',
@@ -50,7 +49,7 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Conçu pour les réunions sérieuses — pas seulement pour parler',
+    title: 'Conçu pour les Réunions Sérieuses — Pas Seulement pour Parler',
     details: 'InterMind est une [plateforme de réunion vidéo de qualité professionnelle](./product/overview/video-meeting-platform), pas un simple module complémentaire ou plugin léger.',
     items: [
       '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration du calendrier — tout intégré, **prêt à l\'emploi**.',
@@ -66,11 +65,11 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Confidentialité là où ça compte',
+    title: 'Confidentialité Là Où Cela Compte',
     details:
       'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle comptent le plus.',
     items: [
-      '✧ [Zones de confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
+      '✧ [Zones de Confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
       '✧ **Aucune formation de données**. Aucun accès tiers.'
     ],
     link: './product/overview/privacy-architecture',
@@ -95,7 +94,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
 
 <PricingPlans :plans="[
   {
-    title: '**Basic** &nbsp 1 utilisateur',
+    title: '**Basique** &nbsp 1 utilisateur',
     price: '**Gratuit**',
     details: 'aucune carte de crédit requise',
     items: [
@@ -132,12 +131,12 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
     ],
   }
 ]">
-<AuthButton text="Essayer gratuitement" buttonClass="alt"/>
-<AuthButton text="Acheter maintenant" buttonClass="brand" mode="checkout"/>
+<AuthButton text="Essayer gratuitement" buttonClass="alt" eventName="try_it_attempt"/>
+<AuthButton text="Acheter maintenant" buttonClass="brand" mode="checkout" eventName="buy_now_attempt"/>
 <ContactFormModalNav buttonText="Parler à notre équipe" buttonClass="alt"/>
 </PricingPlans>
 
-> [!warning] 😱 Soit vous parlez toutes les langues — soit quelqu\'un d\'autre conclut vos affaires.
+> [!warning] 😱 Soit vous parlez toutes les langues — soit quelqu'un d'autre conclut vos affaires.
 
 <span id="Testimonials"></span>
 

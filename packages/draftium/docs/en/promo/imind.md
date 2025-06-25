@@ -10,7 +10,8 @@ head:
 <HeroSection
   title="Video meetings reimagined <br>— now at **mind.com**"
   text="From iMind to InterMIND: voice-first video calls with live speech translation.">
-<AuthButton text="Start Now" buttonClass="brand"/>
+
+  <AuthButton text="Try it in your language" buttonClass="brand" eventName="try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -109,7 +110,7 @@ From first call to fluent conversations — at any scale.
     price: '**$20** /month/user, billed annually',
     details: 'or $25 billed monthly',
     items: [
-      '**unlimited** meetings',
+      '**Unlimited** meetings',
       '**150** participant video meetings [💬](#3)',
       '**2** TB pooled storage per user',
       'Search across all your meetings [💬](#2)',
@@ -121,7 +122,7 @@ From first call to fluent conversations — at any scale.
     price: '**Custom pricing**',
     details: 'Built for privacy',
     items: [
-      '**unlimited** meetings',
+      '**Unlimited** meetings',
       '**500** participant video meetings [💬](#3)',
       '**5** TB pooled storage per user',
       'Search across all your meetings [💬](#2)',
@@ -130,8 +131,8 @@ From first call to fluent conversations — at any scale.
     ],
   }
 ]">
-<AuthButton text="Try for free" buttonClass="alt"/>
-<AuthButton text="Buy now" buttonClass="brand"/>
+<AuthButton text="Try for free" buttonClass="alt" eventName="try_it_attempt"/>
+<AuthButton text="Buy now" buttonClass="brand" mode="checkout" eventName="buy_now_attempt"/>
 <ContactFormModalNav buttonText="Talk to our team" buttonClass="alt"/>
 </PricingPlans>
 

@@ -11,8 +11,7 @@ isHome: true
   title="Meet in **Any** Language"
   text="Live speech translation in video calls — **no** delays, **no** lost deals, **no** language barriers.">
 
-  <!-- <AuthButton text="Hear the difference" buttonClass="brand"/> -->
-  <AuthButton text="Try it in your language" buttonClass="brand"/>
+  <AuthButton text="Try it in your language" buttonClass="brand" eventName="try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -132,8 +131,8 @@ From first call to fluent conversations — at any scale.
     ],
   }
 ]">
-<AuthButton text="Try for free" buttonClass="alt"/>
-<AuthButton text="Buy now" buttonClass="brand" mode="checkout"/>
+<AuthButton text="Try for free" buttonClass="alt" eventName="try_it_attempt"/>
+<AuthButton text="Buy now" buttonClass="brand" mode="checkout" eventName="buy_now_attempt"/>
 <ContactFormModalNav buttonText="Talk to our team" buttonClass="alt"/>
 </PricingPlans>
 

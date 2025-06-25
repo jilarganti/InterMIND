@@ -11,13 +11,12 @@ isHome: true
   title="Treffen Sie sich in **jeder** Sprache"
   text="Live-Sprachübersetzung in Videoanrufen — **keine** Verzögerungen, **keine** verlorenen Geschäfte, **keine** Sprachbarrieren.">
 
-  <!-- <AuthButton text="Hören Sie den Unterschied" buttonClass="brand"/> -->
-  <AuthButton text="Probieren Sie es in Ihrer Sprache" buttonClass="brand"/>
+  <AuthButton text="Testen Sie es in Ihrer Sprache" buttonClass="brand" eventName="try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: 'Übersetzung ≠ Verstehen. Hier ist die Zukunft.',
+  title: 'Übersetzung ≠ Verstehen. Hier ist, was als nächstes kommt.',
   details: 'Unabhängig von der Sprache wird **Ihre Stimme gehört — und verstanden** — als würden Sie dieselbe Sprache sprechen.',
     items: [
       '✧ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
@@ -53,7 +52,7 @@ isHome: true
     title: 'Entwickelt für ernsthafte Meetings — nicht nur zum Reden',
     details: 'InterMind ist eine [professionelle Video-Meeting-Plattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
     items: [
-      '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
+      '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles eingebaut, **sofort einsatzbereit**.',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -66,12 +65,12 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Datenschutz wo es darauf ankommt',
+    title: 'Datenschutz, wo es darauf ankommt',
     details:
       'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Datenschutz und Kontrolle am wichtigsten sind.',
     items: [
       '✧ [Datenschutzzonen](./product/overview/privacy-architecture) — EU, USA, Südostasien',
-      '✧ **Kein Datentraining**. Kein Zugriff durch Dritte.'
+      '✧ **Null Datentraining**. Kein Zugriff durch Dritte.'
     ],
     link: './product/overview/privacy-architecture',
     src: {
@@ -132,8 +131,8 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
     ],
   }
 ]">
-<AuthButton text="Kostenlos testen" buttonClass="alt"/>
-<AuthButton text="Jetzt kaufen" buttonClass="brand" mode="checkout"/>
+<AuthButton text="Kostenlos testen" buttonClass="alt" eventName="try_it_attempt"/>
+<AuthButton text="Jetzt kaufen" buttonClass="brand" mode="checkout" eventName="buy_now_attempt"/>
 <ContactFormModalNav buttonText="Mit unserem Team sprechen" buttonClass="alt"/>
 </PricingPlans>
 

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "ビデオ通話のリアルタイム音声翻訳"
+title: "ビデオ通話のためのリアルタイム音声翻訳"
 isHome: true
 ---
 
@@ -11,8 +11,7 @@ isHome: true
   title="**どんな**言語でも会議を"
   text="ビデオ通話でのリアルタイム音声翻訳 — **遅延なし**、**商談の機会損失なし**、**言語の壁なし**。">
 
-  <!-- <AuthButton text="違いを体感してください" buttonClass="brand"/> -->
-  <AuthButton text="あなたの言語で試してみる" buttonClass="brand"/>
+  <AuthButton text="あなたの言語で試してみる" buttonClass="brand" eventName="try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -20,7 +19,7 @@ isHome: true
   title: '翻訳 ≠ 理解。次のレベルがここにあります。',
   details: '言語に関係なく、**あなたの声は聞こえ、理解される** — まるで同じ言語を話しているかのように。',
     items: [
-      '✧ [リアルタイム](./product/overview/how-it-works)で自然に、字幕や遅延なしで。',
+      '✧ 自然に、[リアルタイム](./product/overview/how-it-works)で、字幕や遅延なしで。',
       '✧ AI搭載の通訳がトーン、意図、業界固有の専門用語を捉えます。',
     ],
   link: './product/overview/what-is-intermind',
@@ -68,7 +67,7 @@ isHome: true
   :card="{
     title: '重要な場面でのプライバシー',
     details:
-      'InterMindは信頼性が重要な会話のために構築されています — プライバシーとコントロールが最も重要な場面で。',
+      'InterMindは信頼が重要な会話のために構築されています — プライバシーとコントロールが最も重要な場面で。',
     items: [
       '✧ [プライバシーゾーン](./product/overview/privacy-architecture) — EU、米国、東南アジア',
       '✧ **データ学習ゼロ**。第三者アクセスなし。'
@@ -132,8 +131,8 @@ isHome: true
     ],
   }
 ]">
-<AuthButton text="無料で試す" buttonClass="alt"/>
-<AuthButton text="今すぐ購入" buttonClass="brand" mode="checkout"/>
+<AuthButton text="無料で試す" buttonClass="alt" eventName="try_it_attempt"/>
+<AuthButton text="今すぐ購入" buttonClass="brand" mode="checkout" eventName="buy_now_attempt"/>
 <ContactFormModalNav buttonText="チームに相談" buttonClass="alt"/>
 </PricingPlans>
 
@@ -175,11 +174,11 @@ isHome: true
   },
   {
     q: 'InterMindはデータプライバシーとセキュリティをどのように確保していますか？',
-    a: 'InterMindは**プライバシー・バイ・デザイン**です。すべてのデータは選択した**プライバシーゾーン**（_EU_、_US_、または_アジア_）内で処理・保存されます。[**GDPR**](https://gdpr.eu)、[**CCPA**](https://oag.ca.gov/privacy/ccpa)、UAE PDPLに準拠し、**お客様のコンテンツを**トレーニングやサードパーティアクセスに**使用することはありません**。高度な[プライバシーゾーン制御](./product/overview/privacy-architecture)は**ビジネス**プランで利用可能です。'
+    a: 'InterMindは**プライバシー・バイ・デザイン**です。すべてのデータは選択した**プライバシーゾーン**（_EU_、_US_、または_アジア_）内で処理・保存されます。[**GDPR**](https://gdpr.eu)、[**CCPA**](https://oag.ca.gov/privacy/ccpa)、UAE PDPLに準拠し、**お客様のコンテンツを**トレーニングやサードパーティアクセスに**決して使用しません**。高度な[プライバシーゾーン制御](./product/overview/privacy-architecture)は**ビジネス**プランで利用可能です。'
   },
   {
     q: 'プランを購入する前にInterMindを試すことはできますか？',
-    a: 'もちろんです。*無料ベーシック*プランでは、**25回の無料ミーティング**を含む**同時通訳**と**ミーティング検索**を含むコア機能にフルアクセスできます。クレジットカードは不要です。いつでもアップグレードできます。'
+    a: 'もちろんです。*無料ベーシック*プランでは、**同時通訳**や**ミーティング検索**を含む**25回の無料ミーティング**でコア機能にフルアクセスできます。クレジットカードは不要です。いつでもアップグレード可能です。'
   },
   {
     q: 'ヘルプやサポートが必要な場合はどうすればよいですか？',
@@ -191,11 +190,11 @@ isHome: true
   },
   {
     q: 'InterMindはどの言語の通訳に対応していますか？',
-    a: 'リアルタイム通訳で**100以上の言語**をサポートしています。リストは継続的に拡大しており、更新情報については当社のウェブサイトをご確認ください。'
+    a: 'リアルタイム通訳で**100以上の言語**をサポートしています。リストは継続的に拡大しており、最新情報はウェブサイトでご確認ください。'
   },
   {
     q: 'InterMindをウェビナーや大規模イベントに使用できますか？',
-    a: 'はい。*プロ*および*ビジネス*プランは**大規模ミーティングとウェビナー**に最適で、*ビジネス*では最大**500人の参加者**をサポートします。'
+    a: 'はい。*プロ*および*ビジネス*プランは**大規模ミーティングやウェビナー**に最適で、*ビジネス*では最大**500人の参加者**をサポートします。'
   },
 ]
 "/>

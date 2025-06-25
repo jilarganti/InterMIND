@@ -14,7 +14,8 @@ const isRealLead = import.meta.env.VITE_IS_PROD
 interface Props {
   text: string
   buttonClass?: "brand" | "alt" | "sponsor"
-  mode?: "auth" | "checkout" // новый проп
+  mode?: "auth" | "checkout"
+  eventName: string
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -53,8 +54,7 @@ const login = (event: Event): void => {
 
   // GTM tracking
   window.dataLayer?.push({
-    // event: "app_event_sign_up",
-    event: "site_event_auth_attempt",
+    event: props.eventName, // используем новый проп
     // gclid: sessionStorage.getItem("gclid"),
     form_type: leadData.channel,
     form_service: leadData.channelId,

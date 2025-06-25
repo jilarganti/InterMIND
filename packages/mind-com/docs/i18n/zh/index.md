@@ -11,8 +11,7 @@ isHome: true
   title="用**任何**语言开会"
   text="视频通话中的实时语音翻译——**无**延迟，**无**错失交易，**无**语言障碍。">
 
-  <!-- <AuthButton text="听听区别" buttonClass="brand"/> -->
-  <AuthButton text="用您的语言试试" buttonClass="brand"/>
+  <AuthButton text="用您的语言试试" buttonClass="brand" eventName="try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -20,7 +19,7 @@ isHome: true
   title: '翻译 ≠ 理解。这就是下一步。',
   details: '无论什么语言，**您的声音都能被听到——并被理解**——就像您们说着同一种语言一样。',
     items: [
-      '✧ 自然地，[实时](./product/overview/how-it-works)进行，无需字幕或延迟。',
+      '✧ 自然地，[实时](./product/overview/how-it-works)进行，无字幕或延迟。',
       '✧ AI驱动的口译捕捉语调、意图和行业专业术语。',
     ],
   link: './product/overview/what-is-intermind',
@@ -50,7 +49,7 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: '为严肃会议而生——不只是聊天',
+    title: '为严肃会议而生——不仅仅是聊天',
     details: 'InterMind是一个[专业级视频会议平台](./product/overview/video-meeting-platform)，不是轻量级插件或附加组件。',
     items: [
       '✧ 1080p分辨率、智能降噪、日程安排、会议管理、屏幕共享、录制、字幕、参与者聊天和日历集成——全部内置，**即开即用**。',
@@ -99,7 +98,7 @@ isHome: true
     price: '**免费**',
     details: '无需信用卡',
     items: [
-      '**25** 次会议',
+      '**25** 场会议',
       '**100** 人视频会议 [💬](#3)',
       '每用户 **30** GB 共享存储',
       '搜索所有会议记录 [💬](#2)',
@@ -132,8 +131,8 @@ isHome: true
     ],
   }
 ]">
-<AuthButton text="免费试用" buttonClass="alt"/>
-<AuthButton text="立即购买" buttonClass="brand" mode="checkout"/>
+<AuthButton text="免费试用" buttonClass="alt" eventName="try_it_attempt"/>
+<AuthButton text="立即购买" buttonClass="brand" mode="checkout" eventName="buy_now_attempt"/>
 <ContactFormModalNav buttonText="联系我们的团队" buttonClass="alt"/>
 </PricingPlans>
 

@@ -11,8 +11,7 @@ isHome: true
   title="Встречайтесь на **любом** языке"
   text="Живой перевод речи в видеозвонках — **никаких** задержек, **никаких** упущенных сделок, **никаких** языковых барьеров.">
 
-  <!-- <AuthButton text="Услышьте разницу" buttonClass="brand"/> -->
-  <AuthButton text="Попробуйте на своём языке" buttonClass="brand"/>
+  <AuthButton text="Попробуйте на своём языке" buttonClass="brand" eventName="try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -132,9 +131,9 @@ isHome: true
     ],
   }
 ]">
-<AuthButton text="Попробовать бесплатно" buttonClass="alt"/>
-<AuthButton text="Купить сейчас" buttonClass="brand" mode="checkout"/>
-<ContactFormModalNav buttonText="Связаться с нашей командой" buttonClass="alt"/>
+<AuthButton text="Попробовать бесплатно" buttonClass="alt" eventName="try_it_attempt"/>
+<AuthButton text="Купить сейчас" buttonClass="brand" mode="checkout" eventName="buy_now_attempt"/>
+<ContactFormModalNav buttonText="Поговорить с нашей командой" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 😱 Либо вы говорите на всех языках — либо кто-то другой заключает ваши сделки.
