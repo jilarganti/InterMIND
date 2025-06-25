@@ -20,7 +20,7 @@ isHome: true
   title: 'Traduction ≠ Compréhension. Voici ce qui suit.',
   details: 'Peu importe la langue, **votre voix est entendue — et comprise** — comme si vous partagiez la même langue.',
     items: [
-      '⚡︎ Naturellement, en [temps réel](./product/overview/how-it-works), et sans sous-titres ni décalage.',
+      '✧ Naturellement, en [temps réel](./product/overview/how-it-works), et sans sous-titres ni décalage.',
       '✧ L\'interprétation alimentée par l\'IA capture le ton, l\'intention et la terminologie spécifique au secteur.',
     ],
   link: './product/overview/what-is-intermind',
@@ -33,10 +33,10 @@ isHome: true
 
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: 'L\'Esprit au Cœur de Vos Réunions',
+    title: 'L\'esprit au cœur de vos réunions',
     details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
     items: [
-      '🔍 **Demandez n\'importe quoi** — l\'IA trouve des réponses **dans toutes vos réunions**.',
+      '✧ **Demandez n\'importe quoi** — l\'IA trouve des réponses **dans toutes vos réunions**.',
       '✧ Extrait automatiquement les tâches, les responsables et les échéances.',
       '✧ Résume les points clés dans n\'importe quelle langue — instantanément.',
     ],
@@ -50,10 +50,10 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Conçu pour les Réunions Sérieuses — Pas Seulement pour Parler',
-    details: 'InterMind est une **plateforme de réunion vidéo de qualité professionnelle**, pas un simple module complémentaire ou plugin léger.',
+    title: 'Conçu pour les réunions sérieuses — pas seulement pour parler',
+    details: 'InterMind est une [plateforme de réunion vidéo de qualité professionnelle](./product/overview/video-meeting-platform), pas un simple module complémentaire ou plugin léger.',
     items: [
-      '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration du calendrier — tout intégré, prêt à l\'emploi.',
+      '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration du calendrier — tout intégré, **prêt à l\'emploi**.',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -66,12 +66,12 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Confidentialité Là Où Cela Compte',
+    title: 'Confidentialité là où ça compte',
     details:
       'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle comptent le plus.',
     items: [
-      '⚡︎ [Zones de Confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
-      '✧ **Zéro formation de données**. Aucun accès tiers.'
+      '✧ [Zones de confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
+      '✧ **Aucune formation de données**. Aucun accès tiers.'
     ],
     link: './product/overview/privacy-architecture',
     src: {
@@ -111,7 +111,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
     price: '**20 $** /mois/utilisateur, facturé annuellement',
     details: 'ou 25 $ facturé mensuellement',
     items: [
-      '**illimitées** réunions',
+      '**Illimitées** réunions',
       '**150** participants en visioconférence [💬](#3)',
       '**2** To de stockage partagé par utilisateur',
       'Recherche dans toutes vos réunions [💬](#2)',
@@ -123,7 +123,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
     price: '**Tarification personnalisée**',
     details: 'Conçu pour la confidentialité',
     items: [
-      '**illimitées** réunions',
+      '**Illimitées** réunions',
       '**500** participants en visioconférence [💬](#3)',
       '**5** To de stockage partagé par utilisateur',
       'Recherche dans toutes vos réunions [💬](#2)',
@@ -137,7 +137,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
 <ContactFormModalNav buttonText="Parler à notre équipe" buttonClass="alt"/>
 </PricingPlans>
 
-> [!warning] 😱 Soit vous parlez toutes les langues — soit quelqu'un d'autre conclut vos affaires.
+> [!warning] 😱 Soit vous parlez toutes les langues — soit quelqu\'un d\'autre conclut vos affaires.
 
 <span id="Testimonials"></span>
 
@@ -175,7 +175,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
   },
   {
     q: 'Comment InterMind assure-t-il la confidentialité et la sécurité des données ?',
-    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et au PDPL des EAU, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès par des tiers. Le contrôle avancé de la [Zone de confidentialité](./product/overview/privacy-architecture) est disponible sur le plan **Business**.'
+    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et au PDPL des EAU, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès de tiers. Le contrôle avancé de la [Zone de confidentialité](./product/overview/privacy-architecture) est disponible sur le plan **Business**.'
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un plan ?',

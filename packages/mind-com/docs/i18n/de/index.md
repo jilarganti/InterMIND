@@ -17,10 +17,10 @@ isHome: true
 
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: 'Übersetzung ≠ Verstehen. Hier ist, was als nächstes kommt.',
+  title: 'Übersetzung ≠ Verstehen. Hier ist die Zukunft.',
   details: 'Unabhängig von der Sprache wird **Ihre Stimme gehört — und verstanden** — als würden Sie dieselbe Sprache sprechen.',
     items: [
-      '⚡︎ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
+      '✧ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
       '✧ KI-gestützte Interpretation erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
     ],
   link: './product/overview/what-is-intermind',
@@ -36,7 +36,7 @@ isHome: true
     title: 'Der Verstand in Ihren Meetings',
     details: 'InterMind verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
     items: [
-      '🔍 **Fragen Sie alles** — KI findet Antworten **in all Ihren Meetings**.',
+      '✧ **Fragen Sie alles** — KI findet Antworten **in all Ihren Meetings**.',
       '✧ Extrahiert automatisch Aufgaben, Verantwortliche und Fristen.',
       '✧ Fasst wichtige Punkte in jeder Sprache zusammen — sofort.',
     ],
@@ -51,9 +51,9 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Entwickelt für ernsthafte Meetings — nicht nur zum Reden',
-    details: 'InterMind ist eine **professionelle Video-Meeting-Plattform**, kein leichtgewichtiges Add-on oder Plugin.',
+    details: 'InterMind ist eine [professionelle Video-Meeting-Plattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
     items: [
-      '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles eingebaut, sofort einsatzbereit.',
+      '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -66,12 +66,12 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Datenschutz, wo es darauf ankommt',
+    title: 'Datenschutz wo es darauf ankommt',
     details:
       'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Datenschutz und Kontrolle am wichtigsten sind.',
     items: [
-      '⚡︎ [Datenschutzzonen](./product/overview/privacy-architecture) — EU, USA, Südostasien',
-      '✧ **Null Datentraining**. Kein Zugriff durch Dritte.'
+      '✧ [Datenschutzzonen](./product/overview/privacy-architecture) — EU, USA, Südostasien',
+      '✧ **Kein Datentraining**. Kein Zugriff durch Dritte.'
     ],
     link: './product/overview/privacy-architecture',
     src: {
@@ -111,7 +111,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
     price: '**20 €** /Monat/Benutzer, jährlich abgerechnet',
     details: 'oder 25 € monatlich abgerechnet',
     items: [
-      '**unbegrenzte** Meetings',
+      '**Unbegrenzte** Meetings',
       '**150** Teilnehmer Video-Meetings [💬](#3)',
       '**2** TB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
@@ -123,7 +123,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
     price: '**Individuelle Preisgestaltung**',
     details: 'Entwickelt für Datenschutz',
     items: [
-      '**unbegrenzte** Meetings',
+      '**Unbegrenzte** Meetings',
       '**500** Teilnehmer Video-Meetings [💬](#3)',
       '**5** TB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
@@ -187,7 +187,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
   },
   {
     q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
-    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen treten **sofort** in Kraft. Bei Kündigungen werden *monatliche Pläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.'
+    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Bei Kündigungen werden *monatliche Pläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.'
   },
   {
     q: 'Welche Sprachen unterstützt InterMind für die Dolmetschung?',

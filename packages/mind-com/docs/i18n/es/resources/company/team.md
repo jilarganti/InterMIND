@@ -2,9 +2,27 @@
 
 Juntos, combinamos creatividad, código y comprensión para eliminar las barreras del idioma para siempre.
 
-## Equipo Humano
+## Equipo humano
 
 <TeamMembersGrid :members="[
+  {
+    name: 'El equipo de **Mind.com**',
+    desc: 'Eliminando las barreras del idioma para siempre',
+    avatarLink: '/logo.svg',
+    links: [
+      { icon: 'mdi:twitter', link: 'https://x.com/imindcom' },
+      { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/company/mind' },
+    ]
+  },
+  {
+    name: 'Windicted',
+    // desc: '**Turning** users into believers',
+    country: 'Portugal',
+    avatarLink: 'https://secure.gravatar.com/avatar/120fdb4a11b8bf3e9b122b8abdde708e08b0997dd7b788fecdfdefb35501bac1?s=1600&d=identicon',
+    links: [
+      { icon: 'mdi:gitlab', link: 'https://gitlab.com/alexander.strikhalev' }
+    ]
+  },
   {
     name: 'Jilarganti',
     desc: 'Trayendo **nuevas mentes** a InterMIND',
@@ -15,28 +33,10 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
       { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/in/aleksey-korolev' }
     ]
   },
-  {
-    name: 'Windicted',
-    // desc: '**Convirtiendo** usuarios en creyentes',
-    country: 'Portugal',
-    avatarLink: 'https://secure.gravatar.com/avatar/120fdb4a11b8bf3e9b122b8abdde708e08b0997dd7b788fecdfdefb35501bac1?s=1600&d=identicon',
-    links: [
-      { icon: 'mdi:gitlab', link: 'https://gitlab.com/alexander.strikhalev' }
-    ]
-  },
-  {
-    name: 'El Equipo de **Mind.com**',
-    desc: 'Eliminando las barreras del idioma para siempre',
-    avatarLink: '/logo.svg',
-    links: [
-      { icon: 'mdi:twitter', link: 'https://x.com/imindcom' },
-      { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/company/mind' },
-    ]
-  },
   // {
   //   // name: 'Andre',
-  //   // desc: '**Manteniendo** las mentes conectadas',
-  //   // country: 'Rusia',
+  //   // desc: '**Keeping** minds connected',
+  //   // country: 'Russia',
   //   avatarLink: 'https://gitlab.com/uploads/-/system/user/avatar/2413541/avatar.png?width=800',
   //   links: [
   //     { icon: 'mdi:gitlab', link: 'https://gitlab.com/andrey.semashev' }
@@ -44,7 +44,7 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   // },
   // {
   //   name: 'Sfdev',
-  //   // desc: '**Haciendo** que los usuarios se queden — y sonrían',
+  //   // desc: '**Making** users stay — and smile',
   //   country: 'Portugal',
   //   avatarLink: 'https://secure.gravatar.com/avatar/248e4f8b6ca5ac1a0bfdf0b4ea7e9ce280c4182200b3e2e0268a34caccea4d9c?s=384&d=identicon',
   //   links: [
@@ -53,8 +53,8 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   // },
   // {
   //   name: 'DMA',
-  //   // desc: '**Convirtiendo** reuniones en significado',
-  //   // country: 'Mundial',
+  //   // desc: '**Turning** meetings into meaning',
+  //   // country: 'Worldwide',
   //   avatarLink: 'https://secure.gravatar.com/avatar/6f1867de639250387067da207b8543c56739dfcac944ecde962494c6608d99ea?s=1600&d=identicon',
   //   links: [
   //     { icon: 'mdi:gitlab', link: 'https://gitlab.com/petrov.dma' }
@@ -62,8 +62,8 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   // },
   // {
   //   // name: '👽',
-  //   // desc: 'Ingeniería',
-  //   // country: 'Mundial',
+  //   // desc: 'Engineering',
+  //   // country: 'Worldwide',
   //   avatarLink: 'https://gitlab.com/uploads/-/system/user/avatar/27240326/avatar.png?width=800',
   //   links: [
   //     { icon: 'mdi:gitlab', link: 'https://gitlab.com/sergei.budko' }
@@ -71,8 +71,8 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   // },
   // {
   //   // name: '👽',
-  //   // desc: '**Impulsando** la colaboración activa',
-  //   // country: 'Mundial',
+  //   // desc: '**Fueling** active collaboration',
+  //   // country: 'Worldwide',
   //   avatarLink: 'https://secure.gravatar.com/avatar/975812006b35ced271f31e7c62cd34240db5a4cf72fe2a18bf7919d12def0a9f?s=1600&d=identicon',
   //   links: [
   //     { icon: 'mdi:gitlab', link: 'https://gitlab.com/vkorogodin' }
@@ -80,7 +80,7 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
   // },
   // {
   //   // name: '👽',
-  //   // desc: 'Ingeniería',
+  //   // desc: 'Engineering',
   //   // country: '🌎',
   //   avatarLink: 'https://secure.gravatar.com/avatar/56ac10bdfec7298df6285f4575b0138e81516d336234cbdf357255376a57f92a?s=1600&d=identicon',
   //   links: [

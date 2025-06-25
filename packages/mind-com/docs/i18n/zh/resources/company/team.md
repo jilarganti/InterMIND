@@ -2,17 +2,16 @@
 
 我们将创意、代码和理解融为一体，彻底消除语言障碍。
 
-## 人类团队
+## 人员团队
 
 <TeamMembersGrid :members="[
   {
-    name: 'Jilarganti',
-    desc: '为 InterMIND 带来**新思维**',
-    country: '阿联酋',
-    avatarLink: 'https://github.com/jilarganti.png',
+    name: 'The **Mind.com** 团队',
+    desc: '永久消除语言障碍',
+    avatarLink: '/logo.svg',
     links: [
-      { icon: 'mdi:github', link: 'https://github.com/jilarganti' },
-      { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/in/aleksey-korolev' }
+      { icon: 'mdi:twitter', link: 'https://x.com/imindcom' },
+      { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/company/mind' },
     ]
   },
   {
@@ -25,12 +24,13 @@
     ]
   },
   {
-    name: '**Mind.com** 团队',
-    desc: '彻底消除语言障碍',
-    avatarLink: '/logo.svg',
+    name: 'Jilarganti',
+    desc: '为 InterMIND 带来**新思维**',
+    country: '阿联酋',
+    avatarLink: 'https://github.com/jilarganti.png',
     links: [
-      { icon: 'mdi:twitter', link: 'https://x.com/imindcom' },
-      { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/company/mind' },
+      { icon: 'mdi:github', link: 'https://github.com/jilarganti' },
+      { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/in/aleksey-korolev' }
     ]
   },
   // {

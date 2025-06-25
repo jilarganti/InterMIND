@@ -20,7 +20,7 @@ isHome: true
   title: '翻译 ≠ 理解。这就是下一步。',
   details: '无论什么语言，**您的声音都能被听到——并被理解**——就像您们说着同一种语言一样。',
     items: [
-      '⚡︎ 自然地，[实时](./product/overview/how-it-works)进行，无字幕或延迟。',
+      '✧ 自然地，[实时](./product/overview/how-it-works)进行，无需字幕或延迟。',
       '✧ AI驱动的口译捕捉语调、意图和行业专业术语。',
     ],
   link: './product/overview/what-is-intermind',
@@ -34,11 +34,11 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock :card="{
     title: '会议中的智慧大脑',
-    details: 'InterMind将每次多语言通话转化为清晰、可搜索的知识。',
+    details: 'InterMind将每个多语言通话转化为清晰、可搜索的知识。',
     items: [
-      '🔍 **询问任何问题** — AI在**您的所有会议中**找到答案。',
+      '✧ **询问任何问题** — AI在**您的所有会议中**找到答案。',
       '✧ 自动提取任务、负责人和截止日期。',
-      '✧ 即时用任何语言总结要点。',
+      '✧ 用任何语言即时总结要点。',
     ],
     link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
     src: {
@@ -51,9 +51,9 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock :card="{
     title: '为严肃会议而生——不只是聊天',
-    details: 'InterMind是**专业级视频会议平台**，不是轻量级插件或附加组件。',
+    details: 'InterMind是一个[专业级视频会议平台](./product/overview/video-meeting-platform)，不是轻量级插件或附加组件。',
     items: [
-      '✧ 1080p分辨率、智能降噪、日程安排、会议管理、屏幕共享、录制、字幕、参与者聊天和日历集成——全部内置，即开即用。',
+      '✧ 1080p分辨率、智能降噪、日程安排、会议管理、屏幕共享、录制、字幕、参与者聊天和日历集成——全部内置，**即开即用**。',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -70,7 +70,7 @@ isHome: true
     details:
       'InterMind专为信任至关重要的对话而构建——隐私和控制最为重要的场合。',
     items: [
-      '⚡︎ [隐私区域](./product/overview/privacy-architecture) — 欧盟、美国、东南亚',
+      '✧ [隐私区域](./product/overview/privacy-architecture) — 欧盟、美国、东南亚',
       '✧ **零数据训练**。无第三方访问。'
     ],
     link: './product/overview/privacy-architecture',
@@ -102,7 +102,7 @@ isHome: true
       '**25** 场会议',
       '**100** 人视频会议 [💬](#3)',
       '每用户 **30** GB 共享存储',
-      '搜索所有会议 [💬](#2)',
+      '搜索所有会议记录 [💬](#2)',
       '同声传译 [💬](#1)',
     ],
   },
@@ -114,7 +114,7 @@ isHome: true
       '**无限** 会议',
       '**150** 人视频会议 [💬](#3)',
       '每用户 **2** TB 共享存储',
-      '搜索所有会议 [💬](#2)',
+      '搜索所有会议记录 [💬](#2)',
       '同声传译 [💬](#1)',
     ],
   },
@@ -126,7 +126,7 @@ isHome: true
       '**无限** 会议',
       '**500** 人视频会议 [💬](#3)',
       '每用户 **5** TB 共享存储',
-      '搜索所有会议 [💬](#2)',
+      '搜索所有会议记录 [💬](#2)',
       '同声传译 [💬](#1)',
       '**隐私区域** [💬](#4)',
     ],
