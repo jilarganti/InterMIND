@@ -66,17 +66,16 @@ const login = (event: Event): void => {
   localStorage.setItem(REDIRECT_AFTER_AUTH_URI_KEY, location.pathname + location.search)
 
   // Формируем URL для авторизации
-  const authUrl =
-    `${import.meta.env.VITE_OAUTH_PROVIDER_URL}` +
-    "/protocol/openid-connect/auth" +
-    `?client_id=${import.meta.env.VITE_OAUTH_CLIENT_ID}` +
-    "&scope=openid" +
-    "&response_type=code" +
-    `&state=${nanoid()}` +
-    `&redirect_uri=${encodeURIComponent(import.meta.env.VITE_APP_BASE_URL + "/auth")}`
+  const authParams = new URLSearchParams({
+    client_id: import.meta.env.VITE_OAUTH_CLIENT_ID,
+    scope: "openid",
+    response_type: "code",
+    state: nanoid(),
+    redirect_uri: import.meta.env.VITE_APP_BASE_URL + "/auth",
+  })
 
   // Перенаправляем пользователя на URL авторизации
-  location.href = authUrl
+  location.href = `${import.meta.env.VITE_OAUTH_PROVIDER_URL}/protocol/openid-connect/auth?${authParams.toString()}`
 }
 </script>
 
