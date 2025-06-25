@@ -6,13 +6,12 @@ Together, we blend creativity, code, and understanding to erase language barrier
 
 <TeamMembersGrid :members="[
   {
-    name: 'Jilarganti',
-    desc: 'Bringing **new minds** to InterMIND',
-    country: 'UAE',
-    avatarLink: 'https://github.com/jilarganti.png',
+    name: 'The **Mind.com** Team',
+    desc: 'Erasing language barriers for good',
+    avatarLink: '/logo.svg',
     links: [
-      { icon: 'mdi:github', link: 'https://github.com/jilarganti' },
-      { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/in/aleksey-korolev' }
+      { icon: 'mdi:twitter', link: 'https://x.com/imindcom' },
+      { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/company/mind' },
     ]
   },
   {
@@ -25,12 +24,13 @@ Together, we blend creativity, code, and understanding to erase language barrier
     ]
   },
   {
-    name: 'The **Mind.com** Team',
-    desc: 'Erasing language barriers for good',
-    avatarLink: '/logo.svg',
+    name: 'Jilarganti',
+    desc: 'Bringing **new minds** to InterMIND',
+    country: 'UAE',
+    avatarLink: 'https://github.com/jilarganti.png',
     links: [
-      { icon: 'mdi:twitter', link: 'https://x.com/imindcom' },
-      { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/company/mind' },
+      { icon: 'mdi:github', link: 'https://github.com/jilarganti' },
+      { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/in/aleksey-korolev' }
     ]
   },
   // {

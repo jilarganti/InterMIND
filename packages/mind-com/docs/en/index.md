@@ -20,7 +20,7 @@ isHome: true
   title: 'Translation ≠ Understanding. Here’s what’s next.',
   details: 'No matter the language, **your voice is heard — and understood** — as if you shared the same tongue.',
     items: [
-      '⚡︎ Naturally, in [real time](./product/overview/how-it-works), and without subtitles or lag.',
+      '✧ Naturally, in [real time](./product/overview/how-it-works), and without subtitles or lag.',
       '✧ AI-powered interpretation captures tone, intent, and industry-specific terminology.',
     ],
   link: './product/overview/what-is-intermind',
@@ -36,7 +36,7 @@ isHome: true
     title: 'The Mind Within Your Meetings',
     details: 'InterMind turns every multilingual call into clear, searchable knowledge.',
     items: [
-      '🔍 **Ask anything** — AI finds answers **across your meetings**.',
+      '✧ **Ask anything** — AI finds answers **across your meetings**.',
       '✧ Auto-extracts tasks, owners, and deadlines.',
       '✧ Summarizes key points in any language — instantly.',
     ],
@@ -51,9 +51,9 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Built for Serious Meetings — Not Just Talking',
-    details: 'InterMind is a **professional-grade video meeting platform**, not a lightweight add-on or plugin.',
+    details: 'InterMind is a [professional-grade video meeting platform](./product/overview/video-meeting-platform), not a lightweight add-on or plugin.',
     items: [
-      '✧ 1080p resolution, smart noise suppression, scheduling, moderation, screen sharing, recording, subtitling, participant chat and calendar integration — all built in, ready to go.',
+      '✧ 1080p resolution, smart noise suppression, scheduling, moderation, screen sharing, recording, subtitling, participant chat and calendar integration — all built in, **ready to go**.',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -70,7 +70,7 @@ isHome: true
     details:
       'InterMind is built for trust-critical conversations — where privacy and control matter most.',
     items: [
-      '⚡︎ [Privacy Zones](./product/overview/privacy-architecture) — EU, US, SE Asia',
+      '✧ [Privacy Zones](./product/overview/privacy-architecture) — EU, US, SE Asia',
       '✧ **Zero data training**. No third-party access.'
     ],
     link: './product/overview/privacy-architecture',
@@ -111,7 +111,7 @@ From first call to fluent conversations — at any scale.
     price: '**$20** /month/user, billed annually',
     details: 'or $25 billed monthly',
     items: [
-      '**unlimited** meetings',
+      '**Unlimited** meetings',
       '**150** participant video meetings [💬](#3)',
       '**2** TB pooled storage per user',
       'Search across all your meetings [💬](#2)',
@@ -123,7 +123,7 @@ From first call to fluent conversations — at any scale.
     price: '**Custom pricing**',
     details: 'Built for privacy',
     items: [
-      '**unlimited** meetings',
+      '**Unlimited** meetings',
       '**500** participant video meetings [💬](#3)',
       '**5** TB pooled storage per user',
       'Search across all your meetings [💬](#2)',
