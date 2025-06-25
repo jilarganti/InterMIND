@@ -34,7 +34,7 @@ const login = (event: Event): void => {
    */
   // Создаем анонимный лид в CRM параллельно с редиректом
   const leadData = {
-    name: "[Auth attempt]",
+    name: props.eventName,
     leadSource: isRealLead ? determineTrafficSource() : "[test]",
     channel: "Web visitors",
     channelId: props.text,
