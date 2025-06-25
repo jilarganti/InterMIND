@@ -81,10 +81,8 @@ const login = (event: Event): void => {
   })
 
   if (props.mode === "checkout") {
-    // Для checkout режима используем CHECKOUT_URL
     location.href = `${import.meta.env.VITE_CHECKOUT_URL}?locale=${currentLocale}&planCode=pro&billingCycle=MONTHLY&${authParams.toString()}`
   } else {
-    // Для auth режима используем OAUTH_PROVIDER_URL
     location.href = `${import.meta.env.VITE_OAUTH_PROVIDER_URL}?locale=${currentLocale}&${authParams.toString()}`
   }
 }

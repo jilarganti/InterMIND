@@ -4,6 +4,8 @@ import { fileURLToPath, URL } from "node:url"
 import { gtmHeadScript, gtmHeadNoScript } from "./gtm.config"
 import llmstxt from "vitepress-plugin-llms"
 
+const isProduction = process.env.VERCEL_ENV === "production"
+
 // Обновляем URL сайта документации
 const hostUrl = "https://mind.com"
 const NOINDEX_PAGES = ["exp", "chat", "/company/", "promo/imind"]
@@ -12,12 +14,15 @@ const RTL_LOCALES = ["ar", "fa", "ur"]
 const UTM_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "campaign_id"]
 
 // Определение констант для OAuth прямо в коде, так как это не закрытые данные
-const OAUTH_PROVIDER_URL = "https://dev.intermind.com/auth"
-const CHECKOUT_URL = "https://dev.intermind.com/checkout"
-const APP_BASE_URL = "https://dev.intermind.com"
+const APP_DOMAIN = "intermind.com"
+const APP_DOMAIN_DEV = "dev.intermind.com"
+const APP_BASE_URL = "https://" + (isProduction ? APP_DOMAIN : APP_DOMAIN_DEV)
+const OAUTH_PROVIDER_URL = APP_BASE_URL + "/auth"
+const CHECKOUT_URL = APP_BASE_URL + "/checkout"
+// const OAUTH_PROVIDER_URL = "https://dev.intermind.com/auth"
+// const CHECKOUT_URL = "https://dev.intermind.com/checkout"
+// const APP_BASE_URL = "https://dev.intermind.com"
 const OAUTH_CLIENT_ID = "vca"
-
-const isProduction = process.env.VERCEL_ENV === "production"
 
 const vercelUrl = process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL
 const baseUrl = vercelUrl ? `https://${vercelUrl}` : "http://localhost:3000"
