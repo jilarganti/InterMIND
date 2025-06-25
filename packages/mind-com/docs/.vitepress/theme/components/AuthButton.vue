@@ -62,6 +62,10 @@ const login = (event: Event): void => {
     lead_source: leadData.leadSource,
   })
 
+  // Определяем текущую локаль из URL браузера
+  const pathSegments = location.pathname.split("/").filter(Boolean)
+  const currentLocale = pathSegments[0] && pathSegments[0] !== "en" ? pathSegments[0] : "en"
+
   // Сохраняем текущий путь для возврата после авторизации
   localStorage.setItem(REDIRECT_AFTER_AUTH_URI_KEY, location.pathname + location.search)
 
@@ -74,8 +78,8 @@ const login = (event: Event): void => {
     redirect_uri: import.meta.env.VITE_APP_BASE_URL + "/auth",
   })
 
-  // Перенаправляем пользователя на URL авторизации
-  location.href = `${import.meta.env.VITE_OAUTH_PROVIDER_URL}/protocol/openid-connect/auth?${authParams.toString()}`
+  // Перенаправляем пользователя на URL авторизации с правильной локалью
+  location.href = `${import.meta.env.VITE_OAUTH_PROVIDER_URL}?locale=${currentLocale}&${authParams.toString()}`
 }
 </script>
 
