@@ -67,12 +67,12 @@ const { formData, formStatus, submitForm } = useFormSubmit()
 // Реф для модального контейнера
 const modalContainerRef = ref(null)
 
-// Инициализация отслеживания UTM-параметров при монтировании компонента
-onMounted(() => {
-  if (typeof window !== "undefined") {
-    initUtmTracking()
-  }
-})
+// // Инициализация отслеживания UTM-параметров при монтировании компонента
+// onMounted(() => {
+//   if (typeof window !== "undefined") {
+//     initUtmTracking()
+//   }
+// })
 
 // Настройка обработчика клика снаружи модального окна
 onClickOutside(modalContainerRef, () => {
