@@ -9,12 +9,25 @@
     <div class="time-display">{{ time }} • {{ weekday }}, {{ day }} {{ month }}</div>
 
     <div class="right-icons">
-      <button @click="goTo('/product/guide/getting-started')" title="Support">❔</button>
-      <button @click="goTo('/resources/help')" title="Report a problem">💬</button>
-      <button @click="goTo('/account/screens/settings')" title="Settings">⚙️</button>
-      <button @click="goTo('/account/upgrade')" title="Upgrade plan">📈</button>
-      <button @click="goTo('/account/screens/profile')" title="Profile">👤</button>
-      <button @click="goTo('/account')" title="Account">👦🏻</button>
+      <button @click="goTo('/product/guide/getting-started')" title="Support" class="nav-button">
+        <Icon icon="mdi:help-circle-outline" />
+      </button>
+      <button @click="goTo('/resources/help')" title="Report a problem" class="nav-button">
+        <Icon icon="mdi:message-outline" />
+      </button>
+      <button @click="goTo('/account/screens/settings')" title="Settings" class="nav-button">
+        <Icon icon="mdi:cog-outline" />
+      </button>
+      <button @click="goTo('/account/upgrade')" title="Upgrade plan" class="nav-button upgrade-btn">
+        <Icon icon="mdi:trending-up" />
+        <span class="upgrade-text">Upgrade</span>
+      </button>
+      <button @click="goTo('/account/screens/profile')" title="Profile" class="nav-button">
+        <Icon icon="mdi:account-outline" />
+      </button>
+      <button @click="goTo('/account')" title="Account" class="nav-button account-btn">
+        <Icon icon="mdi:account-circle-outline" />
+      </button>
     </div>
   </div>
 </template>
@@ -22,6 +35,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from "vue"
 import { useRouter } from "vitepress"
+import { Icon } from "@iconify/vue"
 
 const router = useRouter()
 const time = ref("")
@@ -78,6 +92,21 @@ onUnmounted(() => {
   align-items: center;
 }
 
+.logo-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.logo-btn:hover {
+  background: var(--vp-c-bg-soft);
+}
+
 .top-logo {
   height: 28px;
   width: auto;
@@ -87,38 +116,94 @@ onUnmounted(() => {
 .time-display {
   color: var(--vp-c-text-2);
   font-weight: 500;
+  font-size: 13px;
+  user-select: none;
 }
 
 .right-icons {
   display: flex;
   align-items: center;
+  gap: 4px;
 }
 
-.logo-btn {
+.nav-button {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0;
+  padding: 8px;
   display: flex;
   align-items: center;
-}
-
-.right-icons button {
-  background: none;
-  border: none;
-  text-decoration: none;
-  margin-left: 12px;
-  cursor: pointer;
-  font-size: 16px;
+  gap: 6px;
   color: var(--vp-c-text-2);
-  transition: color 0.2s;
-  padding: 4px;
-  border-radius: 4px;
+  transition: all 0.2s;
+  border-radius: 6px;
+  font-size: 16px;
+  position: relative;
 }
 
-.right-icons button:hover {
+.nav-button:hover {
   color: var(--vp-c-brand-1);
   background: var(--vp-c-bg-soft);
+}
+
+.upgrade-btn {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  font-weight: 500;
+}
+
+.upgrade-btn:hover {
+  background: var(--vp-c-brand-1);
+  color: white;
+}
+
+.upgrade-text {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.account-btn {
+  margin-left: 8px;
+  padding-left: 12px;
+  border-left: 1px solid var(--vp-c-border);
+}
+
+.account-btn:hover {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+}
+
+/* Tooltip improvements */
+.nav-button[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--vp-c-bg-elv);
+  color: var(--vp-c-text-1);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  white-space: nowrap;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.nav-button[title]:hover::before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid var(--vp-c-bg-elv);
+  z-index: 1000;
+  pointer-events: none;
 }
 
 @media (max-width: 768px) {
@@ -126,8 +211,31 @@ onUnmounted(() => {
     display: none;
   }
 
-  .right-icons button {
-    margin-left: 8px;
+  .right-icons {
+    gap: 2px;
+  }
+
+  .nav-button {
+    padding: 6px;
+  }
+
+  .upgrade-text {
+    display: none;
+  }
+
+  .account-btn {
+    margin-left: 4px;
+    padding-left: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-bar {
+    padding: 0 12px;
+  }
+
+  .nav-button {
+    padding: 4px;
   }
 }
 </style>

@@ -5,20 +5,18 @@
     <!-- Layout with sidebar support -->
     <div class="layout-container">
       <!-- Sidebar -->
-      <div v-if="hasSidebar" class="custom-sidebar">
-        <nav class="VPSidebarNav">
-          <div v-for="group in sidebarItems" :key="group.text" class="group">
-            <div class="VPSidebarGroup">
-              <h2 class="title">{{ group.text }}</h2>
-              <div class="items">
-                <div v-for="item in group.items" :key="item.link" class="VPSidebarItem">
-                  <a :href="item.link" class="link">{{ item.text }}</a>
-                </div>
-              </div>
-            </div>
+      <aside v-if="hasSidebar" class="sidebar">
+        <nav>
+          <div v-for="group in sidebarItems" :key="group.text" class="sidebar-group">
+            <h3 class="sidebar-title">{{ group.text }}</h3>
+            <ul class="sidebar-links">
+              <li v-for="item in group.items" :key="item.link">
+                <a :href="item.link" class="sidebar-link">{{ item.text }}</a>
+              </li>
+            </ul>
           </div>
         </nav>
-      </div>
+      </aside>
 
       <!-- Main Content -->
       <main class="main-content" :class="{ 'with-sidebar': hasSidebar }">
@@ -65,27 +63,8 @@
 import { useData } from "vitepress"
 import { computed } from "vue"
 import TopNavigation from "../components/TopNavigation.vue"
-import VPSidebar from "vitepress/dist/client/theme-default/components/VPSidebar.vue"
 
 const { page, frontmatter, theme } = useData()
-
-// Проверяем, нужен ли сайдбар для текущей страницы
-const hasSidebar = computed(() => {
-  const { sidebar } = theme.value
-  if (!sidebar) return false
-
-  const currentPath = page.value.relativePath
-
-  // Ищем подходящую конфигурацию sidebar
-  for (const key in sidebar) {
-    const normalizedKey = key.replace(/^\//, "").replace(/\/$/, "")
-    if (currentPath.startsWith(normalizedKey)) {
-      return true
-    }
-  }
-
-  return false
-})
 
 // Получаем данные сайдбара для текущей страницы
 const sidebarItems = computed(() => {
@@ -105,6 +84,8 @@ const sidebarItems = computed(() => {
 
   return []
 })
+
+const hasSidebar = computed(() => sidebarItems.value.length > 0)
 </script>
 
 <style>
@@ -124,7 +105,7 @@ const sidebarItems = computed(() => {
   min-height: 0;
 }
 
-.custom-sidebar {
+.sidebar {
   width: 272px;
   flex-shrink: 0;
   background: var(--vp-c-bg-soft);
@@ -133,29 +114,26 @@ const sidebarItems = computed(() => {
   overflow-y: auto;
 }
 
-.VPSidebarNav .group {
+.sidebar-group {
   margin-bottom: 24px;
 }
 
-.VPSidebarGroup .title {
+.sidebar-title {
   font-size: 13px;
   font-weight: 600;
   color: var(--vp-c-text-2);
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin: 0 0 8px 0;
+}
+
+.sidebar-links {
+  list-style: none;
+  margin: 0;
   padding: 0;
 }
 
-.VPSidebarGroup .items {
-  margin: 0;
-}
-
-.VPSidebarItem {
-  margin: 0;
-}
-
-.VPSidebarItem .link {
+.sidebar-link {
   display: block;
   padding: 6px 12px;
   font-size: 14px;
@@ -165,7 +143,7 @@ const sidebarItems = computed(() => {
   transition: all 0.2s;
 }
 
-.VPSidebarItem .link:hover {
+.sidebar-link:hover {
   background-color: var(--vp-c-default-soft);
   color: var(--vp-c-brand-1);
 }
