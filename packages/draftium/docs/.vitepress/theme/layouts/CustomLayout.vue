@@ -2,16 +2,25 @@
   <div class="meet-wrapper">
     <TopNavigation />
 
+    <!-- Mobile menu button -->
+    <button v-if="hasSidebar" @click="toggleSidebar" class="mobile-menu-btn" :class="{ active: sidebarOpen }">
+      <Icon icon="mdi:menu" />
+      <span>Menu</span>
+    </button>
+
+    <!-- Sidebar overlay for mobile -->
+    <div v-if="hasSidebar && sidebarOpen" @click="closeSidebar" class="sidebar-overlay"></div>
+
     <!-- Layout with sidebar support -->
     <div class="layout-container">
       <!-- Sidebar -->
-      <aside v-if="hasSidebar" class="sidebar">
+      <aside v-if="hasSidebar" class="sidebar" :class="{ 'sidebar-open': sidebarOpen }">
         <nav>
           <div v-for="group in sidebarItems" :key="group.text" class="sidebar-group">
             <h3 class="sidebar-title">{{ group.text }}</h3>
             <ul class="sidebar-links">
               <li v-for="item in group.items" :key="item.link">
-                <a :href="item.link" class="sidebar-link">{{ item.text }}</a>
+                <a :href="item.link" class="sidebar-link" @click="closeSidebar">{{ item.text }}</a>
               </li>
             </ul>
           </div>
@@ -52,7 +61,7 @@
     </div>
 
     <!-- Chat Footer -->
-    <footer class="chat-footer">
+    <footer class="chat-footer" :class="{ 'with-sidebar': hasSidebar }">
       <input class="chat-input" type="text" placeholder="Напишите сообщение…" />
       <button class="chat-send">➤</button>
     </footer>
@@ -61,10 +70,14 @@
 
 <script setup lang="ts">
 import { useData } from "vitepress"
-import { computed } from "vue"
+import { computed, ref } from "vue"
 import TopNavigation from "../components/TopNavigation.vue"
+import { Icon } from "@iconify/vue"
 
 const { page, frontmatter, theme } = useData()
+
+// Состояние сайдбара
+const sidebarOpen = ref(false)
 
 // Получаем данные сайдбара для текущей страницы
 const sidebarItems = computed(() => {
@@ -86,6 +99,15 @@ const sidebarItems = computed(() => {
 })
 
 const hasSidebar = computed(() => sidebarItems.value.length > 0)
+
+// Функции для управления сайдбаром
+const toggleSidebar = () => {
+  sidebarOpen.value = !sidebarOpen.value
+}
+
+const closeSidebar = () => {
+  sidebarOpen.value = false
+}
 </script>
 
 <style>
@@ -105,6 +127,49 @@ const hasSidebar = computed(() => sidebarItems.value.length > 0)
   min-height: 0;
 }
 
+/* Mobile menu button */
+.mobile-menu-btn {
+  display: none;
+  position: fixed;
+  top: 48px;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background: var(--vp-c-bg);
+  border: none;
+  border-bottom: 1px solid var(--vp-c-border);
+  padding: 0 16px;
+  font-size: 14px;
+  color: var(--vp-c-text-1);
+  cursor: pointer;
+  z-index: 30;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s;
+}
+
+.mobile-menu-btn:hover {
+  background: var(--vp-c-bg-soft);
+}
+
+.mobile-menu-btn.active {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+}
+
+/* Sidebar overlay */
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 25;
+}
+
 .sidebar {
   width: 272px;
   flex-shrink: 0;
@@ -117,6 +182,7 @@ const hasSidebar = computed(() => sidebarItems.value.length > 0)
   left: 0;
   bottom: 0; /* До самого низа экрана */
   z-index: 20; /* Выше чат-футера */
+  transition: transform 0.3s ease;
 }
 
 .sidebar-group {
@@ -280,7 +346,7 @@ const hasSidebar = computed(() => sidebarItems.value.length > 0)
 .chat-footer {
   position: fixed;
   bottom: 0;
-  left: 272px; /* Сдвигаем вправо на ширину сайдбара */
+  left: 0;
   right: 0;
   height: 56px;
   display: flex;
@@ -289,6 +355,11 @@ const hasSidebar = computed(() => sidebarItems.value.length > 0)
   background: var(--vp-c-bg);
   border-top: 1px solid var(--vp-c-border);
   z-index: 10;
+  transition: left 0.3s ease;
+}
+
+.chat-footer.with-sidebar {
+  left: 272px; /* Сдвигаем вправо на ширину сайдбара */
 }
 
 .chat-input {
@@ -322,20 +393,31 @@ const hasSidebar = computed(() => sidebarItems.value.length > 0)
 
 /* Responsive design */
 @media (max-width: 768px) {
-  .layout-container {
-    flex-direction: column;
+  .meet-wrapper {
+    padding-top: 96px; /* Место для топ-навигации + кнопка меню */
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+  }
+
+  .sidebar-overlay {
+    display: block;
   }
 
   .sidebar {
-    position: static;
-    width: 100%;
-    height: auto;
-    top: auto;
-    left: auto;
-    bottom: auto;
-    border-right: none;
-    border-bottom: 1px solid var(--vp-c-border);
-    padding: 16px;
+    transform: translateX(-100%);
+    top: 96px; /* Под топ-навигацией и кнопкой меню */
+    z-index: 30;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .sidebar.sidebar-open {
+    transform: translateX(0);
+  }
+
+  .layout-container {
+    flex-direction: column;
   }
 
   .main-content.with-sidebar {
@@ -350,7 +432,7 @@ const hasSidebar = computed(() => sidebarItems.value.length > 0)
     justify-content: center;
   }
 
-  .chat-footer {
+  .chat-footer.with-sidebar {
     left: 0; /* На мобильных возвращаем на всю ширину */
   }
 }
