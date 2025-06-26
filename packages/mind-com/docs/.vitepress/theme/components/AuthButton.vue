@@ -6,7 +6,6 @@ import { useData } from "vitepress"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 import { usePipedriveCRM } from "../composables/usePipedriveCRM"
 import { determineTrafficSource } from "../../../../../../shared/utils/utm"
-import { generateOriginId } from "../../../../../../shared/utils/path"
 
 const REDIRECT_AFTER_AUTH_URI_KEY = "redirect_after_auth"
 const inProduction = import.meta.env.VITE_IS_PROD
@@ -58,10 +57,10 @@ const login = (event: Event): void => {
     // gclid: sessionStorage.getItem("gclid"),
     // form_type: leadData.channel,
     // form_service: leadData.channelId,
-    form_URL: page.value.relativePath,
-    form_category: leadData.category,
+    // form_URL: page.value.relativePath,
+    // form_category: leadData.category,
     // is_real_lead: !!isRealLead,
-    lead_source: leadData.leadSource,
+    // lead_source: leadData.leadSource,
   })
 
   // Определяем текущую локаль из URL браузера
@@ -91,10 +90,3 @@ const login = (event: Event): void => {
 <template>
   <VPButton :text="text" :theme="props.buttonClass" href="#" @click="login" />
 </template>
-
-<style scoped>
-/* Нет необходимости в собственных стилях, так как VPButton предоставляет все необходимые стили */
-</style>
-<style scoped>
-/* Нет необходимости в собственных стилях, так как VPButton предоставляет все необходимые стили */
-</style>
