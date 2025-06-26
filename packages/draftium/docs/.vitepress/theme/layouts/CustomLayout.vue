@@ -2,37 +2,56 @@
   <div class="meet-wrapper">
     <TopNavigation />
 
-    <!-- Main Content -->
-    <main class="main-content">
-      <Content v-if="page.isNotFound" />
-      <template v-else>
-        <h1 v-if="frontmatter.title" class="headline">{{ frontmatter.title }}</h1>
-        <h3 v-if="frontmatter.description" class="subtext">{{ frontmatter.description }}</h3>
+    <!-- Layout with sidebar support -->
+    <div class="layout-container">
+      <!-- Sidebar -->
+      <aside v-if="hasSidebar" class="sidebar">
+        <nav class="sidebar-nav">
+          <div v-for="group in sidebarData" :key="group.text" class="sidebar-group">
+            <h3 v-if="group.text" class="sidebar-group-title">{{ group.text }}</h3>
+            <ul class="sidebar-links">
+              <li v-for="item in group.items" :key="item.link" class="sidebar-link">
+                <a :href="item.link" :class="{ active: isActiveLink(item.link) }" class="sidebar-link-text">
+                  {{ item.text }}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </aside>
 
-        <!-- Custom actions for home page -->
-        <div v-if="frontmatter.layout === 'home'" class="actions">
-          <button class="primary-btn">📹 Новая встреча</button>
-          <input class="code-input" placeholder="Введите код или псевдоним" />
-          <button class="join-btn">Присоединиться</button>
-        </div>
+      <!-- Main Content -->
+      <main class="main-content" :class="{ 'with-sidebar': hasSidebar }">
+        <Content v-if="page.isNotFound" />
+        <template v-else>
+          <h1 v-if="frontmatter.title" class="headline">{{ frontmatter.title }}</h1>
+          <h3 v-if="frontmatter.description" class="subtext">{{ frontmatter.description }}</h3>
 
-        <!-- Markdown content -->
-        <div class="content-wrapper">
-          <Content />
-        </div>
+          <!-- Custom actions for home page -->
+          <div v-if="frontmatter.layout === 'home'" class="actions">
+            <button class="primary-btn">📹 Новая встреча</button>
+            <input class="code-input" placeholder="Введите код или псевдоним" />
+            <button class="join-btn">Присоединиться</button>
+          </div>
 
-        <!-- Custom illustration for home page -->
-        <div v-if="frontmatter.layout === 'home'" class="illustration">
-          <p class="invite-title">Ссылка для приглашения</p>
-          <p class="invite-desc">
-            Нажмите <strong>Новая встреча</strong>, чтобы получить ссылку и<br />
-            отправить её тем, кого хотите пригласить.
-          </p>
-        </div>
+          <!-- Markdown content -->
+          <div class="content-wrapper">
+            <Content />
+          </div>
 
-        <a v-if="frontmatter.learnMore" :href="frontmatter.learnMore" target="_blank" class="learn-more"> Learn more about InterMIND </a>
-      </template>
-    </main>
+          <!-- Custom illustration for home page -->
+          <div v-if="frontmatter.layout === 'home'" class="illustration">
+            <p class="invite-title">Ссылка для приглашения</p>
+            <p class="invite-desc">
+              Нажмите <strong>Новая встреча</strong>, чтобы получить ссылку и<br />
+              отправить её тем, кого хотите пригласить.
+            </p>
+          </div>
+
+          <a v-if="frontmatter.learnMore" :href="frontmatter.learnMore" target="_blank" class="learn-more"> Learn more about InterMIND </a>
+        </template>
+      </main>
+    </div>
 
     <!-- Chat Footer -->
     <footer class="chat-footer">
@@ -44,9 +63,40 @@
 
 <script setup lang="ts">
 import { useData } from "vitepress"
+import { computed } from "vue"
 import TopNavigation from "../components/TopNavigation.vue"
 
-const { page, frontmatter } = useData()
+const { page, frontmatter, theme } = useData()
+
+// Проверяем, нужен ли сайдбар для текущей страницы и получаем данные сайдбара
+const sidebarData = computed(() => {
+  const { sidebar } = theme.value
+  if (!sidebar) return []
+
+  const currentPath = page.value.relativePath
+
+  // Ищем подходящую конфигурацию sidebar
+  for (const key in sidebar) {
+    const normalizedKey = key.replace(/^\//, "").replace(/\/$/, "")
+    if (currentPath.startsWith(normalizedKey)) {
+      const sidebarConfig = sidebar[key]
+      return sidebarConfig.items || sidebarConfig || []
+    }
+  }
+
+  return []
+})
+
+const hasSidebar = computed(() => sidebarData.value.length > 0)
+
+// Проверяем, является ли ссылка активной
+const isActiveLink = (link: string) => {
+  const currentPath = page.value.relativePath
+  const normalizedLink = link.replace(/^\//, "").replace(/\/$/, "")
+  const normalizedCurrent = currentPath.replace(/\.md$/, "").replace(/\/index$/, "")
+
+  return normalizedCurrent === normalizedLink || currentPath.includes(normalizedLink) || normalizedCurrent.endsWith(normalizedLink)
+}
 </script>
 
 <style scoped>
@@ -60,6 +110,72 @@ const { page, frontmatter } = useData()
   padding-bottom: 64px;
 }
 
+.layout-container {
+  flex: 1;
+  display: flex;
+  min-height: 0;
+}
+
+.sidebar {
+  width: 272px;
+  flex-shrink: 0;
+  background: var(--vp-c-bg-soft);
+  border-right: 1px solid var(--vp-c-border);
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  height: calc(100vh - 112px); /* Account for header and footer */
+}
+
+.sidebar-nav {
+  padding: 24px;
+}
+
+.sidebar-group {
+  margin-bottom: 24px;
+}
+
+.sidebar-group-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+.sidebar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-link {
+  margin-bottom: 4px;
+}
+
+.sidebar-link-text {
+  display: block;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.sidebar-link-text:hover {
+  background-color: var(--vp-c-default-soft);
+  color: var(--vp-c-brand-1);
+}
+
+.sidebar-link-text.active {
+  background-color: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  font-weight: 500;
+}
+
 .main-content {
   flex: 1;
   display: flex;
@@ -68,6 +184,14 @@ const { page, frontmatter } = useData()
   justify-content: center;
   padding: 32px 24px;
   text-align: center;
+  min-width: 0;
+}
+
+.main-content.with-sidebar {
+  padding-left: 48px;
+  align-items: flex-start;
+  text-align: left;
+  justify-content: flex-start;
 }
 
 .headline {
@@ -98,6 +222,10 @@ const { page, frontmatter } = useData()
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
+}
+
+.with-sidebar .actions {
+  justify-content: flex-start;
 }
 
 .primary-btn {
@@ -212,5 +340,31 @@ const { page, frontmatter } = useData()
 
 .chat-send:hover {
   color: var(--vp-c-brand-2);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .layout-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid var(--vp-c-border);
+  }
+
+  .main-content.with-sidebar {
+    padding-left: 24px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .with-sidebar .actions {
+    justify-content: center;
+  }
 }
 </style>
