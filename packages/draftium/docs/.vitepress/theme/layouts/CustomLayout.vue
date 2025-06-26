@@ -423,13 +423,13 @@ const closeSidebar = () => {
   .main-content.with-sidebar {
     margin-left: 0;
     padding: 24px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: flex-start;
   }
 
   .with-sidebar .actions {
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .chat-footer.with-sidebar {
