@@ -5,20 +5,20 @@
     <!-- Layout with sidebar support -->
     <div class="layout-container">
       <!-- Sidebar -->
-      <aside v-if="hasSidebar" class="sidebar">
-        <nav class="sidebar-nav">
-          <div v-for="group in sidebarData" :key="group.text" class="sidebar-group">
-            <h3 v-if="group.text" class="sidebar-group-title">{{ group.text }}</h3>
-            <ul class="sidebar-links">
-              <li v-for="item in group.items" :key="item.link" class="sidebar-link">
-                <a :href="item.link" :class="{ active: isActiveLink(item.link) }" class="sidebar-link-text">
-                  {{ item.text }}
-                </a>
-              </li>
-            </ul>
+      <div v-if="hasSidebar" class="custom-sidebar">
+        <nav class="VPSidebarNav">
+          <div v-for="group in sidebarItems" :key="group.text" class="group">
+            <div class="VPSidebarGroup">
+              <h2 class="title">{{ group.text }}</h2>
+              <div class="items">
+                <div v-for="item in group.items" :key="item.link" class="VPSidebarItem">
+                  <a :href="item.link" class="link">{{ item.text }}</a>
+                </div>
+              </div>
+            </div>
           </div>
         </nav>
-      </aside>
+      </div>
 
       <!-- Main Content -->
       <main class="main-content" :class="{ 'with-sidebar': hasSidebar }">
@@ -65,11 +65,30 @@
 import { useData } from "vitepress"
 import { computed } from "vue"
 import TopNavigation from "../components/TopNavigation.vue"
+import VPSidebar from "vitepress/dist/client/theme-default/components/VPSidebar.vue"
 
 const { page, frontmatter, theme } = useData()
 
-// Проверяем, нужен ли сайдбар для текущей страницы и получаем данные сайдбара
-const sidebarData = computed(() => {
+// Проверяем, нужен ли сайдбар для текущей страницы
+const hasSidebar = computed(() => {
+  const { sidebar } = theme.value
+  if (!sidebar) return false
+
+  const currentPath = page.value.relativePath
+
+  // Ищем подходящую конфигурацию sidebar
+  for (const key in sidebar) {
+    const normalizedKey = key.replace(/^\//, "").replace(/\/$/, "")
+    if (currentPath.startsWith(normalizedKey)) {
+      return true
+    }
+  }
+
+  return false
+})
+
+// Получаем данные сайдбара для текущей страницы
+const sidebarItems = computed(() => {
   const { sidebar } = theme.value
   if (!sidebar) return []
 
@@ -79,27 +98,16 @@ const sidebarData = computed(() => {
   for (const key in sidebar) {
     const normalizedKey = key.replace(/^\//, "").replace(/\/$/, "")
     if (currentPath.startsWith(normalizedKey)) {
-      const sidebarConfig = sidebar[key]
-      return sidebarConfig.items || sidebarConfig || []
+      const config = sidebar[key]
+      return config.items || []
     }
   }
 
   return []
 })
-
-const hasSidebar = computed(() => sidebarData.value.length > 0)
-
-// Проверяем, является ли ссылка активной
-const isActiveLink = (link: string) => {
-  const currentPath = page.value.relativePath
-  const normalizedLink = link.replace(/^\//, "").replace(/\/$/, "")
-  const normalizedCurrent = currentPath.replace(/\.md$/, "").replace(/\/index$/, "")
-
-  return normalizedCurrent === normalizedLink || currentPath.includes(normalizedLink) || normalizedCurrent.endsWith(normalizedLink)
-}
 </script>
 
-<style scoped>
+<style>
 .meet-wrapper {
   min-height: 100vh;
   display: flex;
@@ -116,26 +124,20 @@ const isActiveLink = (link: string) => {
   min-height: 0;
 }
 
-.sidebar {
+.custom-sidebar {
   width: 272px;
   flex-shrink: 0;
   background: var(--vp-c-bg-soft);
   border-right: 1px solid var(--vp-c-border);
+  padding: 32px 24px 0;
   overflow-y: auto;
-  position: sticky;
-  top: 0;
-  height: calc(100vh - 112px); /* Account for header and footer */
 }
 
-.sidebar-nav {
-  padding: 24px;
-}
-
-.sidebar-group {
+.VPSidebarNav .group {
   margin-bottom: 24px;
 }
 
-.sidebar-group-title {
+.VPSidebarGroup .title {
   font-size: 13px;
   font-weight: 600;
   color: var(--vp-c-text-2);
@@ -145,17 +147,15 @@ const isActiveLink = (link: string) => {
   padding: 0;
 }
 
-.sidebar-links {
-  list-style: none;
+.VPSidebarGroup .items {
   margin: 0;
-  padding: 0;
 }
 
-.sidebar-link {
-  margin-bottom: 4px;
+.VPSidebarItem {
+  margin: 0;
 }
 
-.sidebar-link-text {
+.VPSidebarItem .link {
   display: block;
   padding: 6px 12px;
   font-size: 14px;
@@ -165,15 +165,9 @@ const isActiveLink = (link: string) => {
   transition: all 0.2s;
 }
 
-.sidebar-link-text:hover {
+.VPSidebarItem .link:hover {
   background-color: var(--vp-c-default-soft);
   color: var(--vp-c-brand-1);
-}
-
-.sidebar-link-text.active {
-  background-color: var(--vp-c-brand-soft);
-  color: var(--vp-c-brand-1);
-  font-weight: 500;
 }
 
 .main-content {

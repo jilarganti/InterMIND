@@ -151,7 +151,23 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 
 function sidebarAccount(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Meetings", link: "/" },
-    { text: "History", link: "/" },
+    {
+      text: "ACCOUNT",
+      collapsed: false,
+      items: [
+        { text: "Dashboard", link: "index" },
+        { text: "Meetings", link: "meetings" },
+        { text: "History", link: "history" },
+        { text: "Upgrade", link: "upgrade" },
+      ],
+    },
+    {
+      text: "SETTINGS",
+      collapsed: false,
+      items: [
+        { text: "Profile", link: "screens/profile" },
+        { text: "Settings", link: "screens/settings" },
+      ],
+    },
   ]
 }
