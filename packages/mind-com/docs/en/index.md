@@ -9,6 +9,7 @@ isHome: true
 
 <HeroSection
   title="Meet in **Any** Language"
+  typingSpeed=5
   text="Live speech translation in video calls — **no** delays, **no** lost deals, **no** language barriers.">
 
   <AuthButton text="Try it in your language" buttonClass="brand" eventName="im_try_it_attempt"/>
