@@ -1,3 +1,5 @@
+import { fetch, Headers, Response } from "undici"
+
 export interface FieldOption {
   id: string | number
   label: string
@@ -24,7 +26,7 @@ export async function fetchLeadFields(): Promise<LeadFieldsMap> {
   }
 
   try {
-    const response = await fetch(`https://api.pipedrive.com/v1/leadFields?api_token=${apiToken}`)
+    const response: Response = await fetch(`https://api.pipedrive.com/v1/leadFields?api_token=${apiToken}`)
     let data: any = {}
 
     try {

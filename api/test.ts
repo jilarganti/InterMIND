@@ -1,6 +1,6 @@
-import type { ApiRequest, ApiResponse } from "./types/api"
+import { fetch, Response, Request } from "undici"
 
-export default function handler(req: ApiRequest, res: ApiResponse) {
+export default function handler(req: Request, res: Response) {
   try {
     res.status(200).json({ message: "Everything is fine" + req.method + req.body })
   } catch (error) {

@@ -1,7 +1,7 @@
 // api/mind-com/createContactAndLead.js
+import { Request, Response } from "undici"
 import { createContact, createLead } from "../lib/pipedriveClient.js"
 import { resolveCustomFieldId } from "../lib/fieldResolver.js"
-import type { ApiRequest, ApiResponse } from "../types/api"
 
 // export const runtime = "edge"
 
