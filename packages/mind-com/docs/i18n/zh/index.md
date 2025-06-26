@@ -11,7 +11,7 @@ isHome: true
   title="用**任何**语言开会"
   text="视频通话中的实时语音翻译——**无**延迟，**无**错失交易，**无**语言障碍。">
 
-  <AuthButton text="用您的语言试试" buttonClass="brand" eventName="try_it_attempt"/>
+  <AuthButton text="用您的语言试试" buttonClass="brand" eventName="im_try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -131,8 +131,8 @@ isHome: true
     ],
   }
 ]">
-<AuthButton text="免费试用" buttonClass="alt" eventName="try_it_attempt"/>
-<AuthButton text="立即购买" buttonClass="brand" mode="checkout" eventName="buy_now_attempt"/>
+<AuthButton text="免费试用" buttonClass="alt" eventName="im_try_it_attempt"/>
+<AuthButton text="立即购买" buttonClass="brand" mode="checkout" eventName="im_buy_now_attempt"/>
 <ContactFormModalNav buttonText="联系我们的团队" buttonClass="alt"/>
 </PricingPlans>
 

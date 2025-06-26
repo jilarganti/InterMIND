@@ -23,7 +23,7 @@ export default {
       // },
       "nav-bar-content-after": () =>
         h("div", { class: "auth-buttons-container" }, [
-          h(AuthButton, { text: useData().site.value.themeConfig.localization.buttonLabel4AuthButton, buttonClass: "alt", eventName: "sign_in_attempt" }),
+          h(AuthButton, { text: useData().site.value.themeConfig.localization.buttonLabel4AuthButton, buttonClass: "alt", eventName: "im_sign_in_attempt" }),
         ]),
     })
   },

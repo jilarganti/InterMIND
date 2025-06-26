@@ -11,7 +11,7 @@ isHome: true
   title="اجتمع بـ**أي** لغة"
   text="ترجمة الكلام المباشر في مكالمات الفيديو — **بدون** تأخير، **بدون** صفقات ضائعة، **بدون** حواجز لغوية.">
 
-  <AuthButton text="جربه بلغتك" buttonClass="brand" eventName="try_it_attempt"/>
+  <AuthButton text="جربه بلغتك" buttonClass="brand" eventName="im_try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -131,8 +131,8 @@ isHome: true
     ],
   }
 ]">
-<AuthButton text="جرب مجاناً" buttonClass="alt" eventName="try_it_attempt"/>
-<AuthButton text="اشتر الآن" buttonClass="brand" mode="checkout" eventName="buy_now_attempt"/>
+<AuthButton text="جرب مجاناً" buttonClass="alt" eventName="im_try_it_attempt"/>
+<AuthButton text="اشتر الآن" buttonClass="brand" mode="checkout" eventName="im_buy_now_attempt"/>
 <ContactFormModalNav buttonText="تحدث مع فريقنا" buttonClass="alt"/>
 </PricingPlans>
 

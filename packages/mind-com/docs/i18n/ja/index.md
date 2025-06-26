@@ -11,7 +11,7 @@ isHome: true
   title="**どんな**言語でも会議を"
   text="ビデオ通話でのリアルタイム音声翻訳 — **遅延なし**、**商談の機会損失なし**、**言語の壁なし**。">
 
-  <AuthButton text="あなたの言語で試してみる" buttonClass="brand" eventName="try_it_attempt"/>
+  <AuthButton text="あなたの言語で試してみる" buttonClass="brand" eventName="im_try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -131,8 +131,8 @@ isHome: true
     ],
   }
 ]">
-<AuthButton text="無料で試す" buttonClass="alt" eventName="try_it_attempt"/>
-<AuthButton text="今すぐ購入" buttonClass="brand" mode="checkout" eventName="buy_now_attempt"/>
+<AuthButton text="無料で試す" buttonClass="alt" eventName="im_try_it_attempt"/>
+<AuthButton text="今すぐ購入" buttonClass="brand" mode="checkout" eventName="im_buy_now_attempt"/>
 <ContactFormModalNav buttonText="チームに相談" buttonClass="alt"/>
 </PricingPlans>
 

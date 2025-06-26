@@ -11,7 +11,7 @@ isHome: true
   title="Встречайтесь на **любом** языке"
   text="Живой перевод речи в видеозвонках — **никаких** задержек, **никаких** упущенных сделок, **никаких** языковых барьеров.">
 
-  <AuthButton text="Попробуйте на своём языке" buttonClass="brand" eventName="try_it_attempt"/>
+  <AuthButton text="Попробуйте на своём языке" buttonClass="brand" eventName="im_try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -131,8 +131,8 @@ isHome: true
     ],
   }
 ]">
-<AuthButton text="Попробовать бесплатно" buttonClass="alt" eventName="try_it_attempt"/>
-<AuthButton text="Купить сейчас" buttonClass="brand" mode="checkout" eventName="buy_now_attempt"/>
+<AuthButton text="Попробовать бесплатно" buttonClass="alt" eventName="im_try_it_attempt"/>
+<AuthButton text="Купить сейчас" buttonClass="brand" mode="checkout" eventName="im_buy_now_attempt"/>
 <ContactFormModalNav buttonText="Поговорить с нашей командой" buttonClass="alt"/>
 </PricingPlans>
 

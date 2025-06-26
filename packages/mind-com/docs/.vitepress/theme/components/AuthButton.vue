@@ -9,7 +9,7 @@ import { determineTrafficSource } from "../../../../../../shared/utils/utm"
 import { generateOriginId } from "../../../../../../shared/utils/path"
 
 const REDIRECT_AFTER_AUTH_URI_KEY = "redirect_after_auth"
-const isRealLead = import.meta.env.VITE_IS_PROD
+const inProduction = import.meta.env.VITE_IS_PROD
 
 interface Props {
   text: string
@@ -35,7 +35,7 @@ const login = (event: Event): void => {
   // Создаем анонимный лид в CRM параллельно с редиректом
   const leadData = {
     name: props.eventName,
-    leadSource: isRealLead ? determineTrafficSource() : "[test]",
+    leadSource: inProduction ? determineTrafficSource() : "[test]",
     channel: "Web visitors",
     channelId: props.text,
     // originId: generateOriginId(page.value.relativePath),
@@ -56,11 +56,11 @@ const login = (event: Event): void => {
   window.dataLayer?.push({
     event: props.eventName, // используем новый проп
     // gclid: sessionStorage.getItem("gclid"),
-    form_type: leadData.channel,
-    form_service: leadData.channelId,
+    // form_type: leadData.channel,
+    // form_service: leadData.channelId,
     form_URL: page.value.relativePath,
     form_category: leadData.category,
-    is_real_lead: !!isRealLead,
+    // is_real_lead: !!isRealLead,
     lead_source: leadData.leadSource,
   })
 

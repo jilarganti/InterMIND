@@ -11,7 +11,7 @@ isHome: true
   title="Reúnete en **Cualquier** Idioma"
   text="Traducción de voz en vivo en videollamadas — **sin** retrasos, **sin** negocios perdidos, **sin** barreras idiomáticas.">
 
-  <AuthButton text="Pruébalo en tu idioma" buttonClass="brand" eventName="try_it_attempt"/>
+  <AuthButton text="Pruébalo en tu idioma" buttonClass="brand" eventName="im_try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -131,8 +131,8 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     ],
   }
 ]">
-<AuthButton text="Prueba gratis" buttonClass="alt" eventName="try_it_attempt"/>
-<AuthButton text="Comprar ahora" buttonClass="brand" mode="checkout" eventName="buy_now_attempt"/>
+<AuthButton text="Prueba gratis" buttonClass="alt" eventName="im_try_it_attempt"/>
+<AuthButton text="Comprar ahora" buttonClass="brand" mode="checkout" eventName="im_buy_now_attempt"/>
 <ContactFormModalNav buttonText="Habla con nuestro equipo" buttonClass="alt"/>
 </PricingPlans>
 
