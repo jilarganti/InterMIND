@@ -20,7 +20,7 @@
   </a>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   props: {
     title: {
@@ -50,7 +50,7 @@ export default {
     },
   },
   methods: {
-    truncateText(text, length) {
+    truncateText(text: string, length: number) {
       if (text.length > length) {
         return text.substring(0, length) + "..."
       }
