@@ -112,6 +112,11 @@ const hasSidebar = computed(() => sidebarItems.value.length > 0)
   border-right: 1px solid var(--vp-c-border);
   padding: 32px 24px 0;
   overflow-y: auto;
+  position: fixed;
+  top: 48px; /* Высота топ-навигации */
+  left: 0;
+  bottom: 0; /* До самого низа экрана */
+  z-index: 20; /* Выше чат-футера */
 }
 
 .sidebar-group {
@@ -160,7 +165,8 @@ const hasSidebar = computed(() => sidebarItems.value.length > 0)
 }
 
 .main-content.with-sidebar {
-  padding-left: 48px;
+  margin-left: 272px; /* Ширина сайдбара */
+  padding: 32px 48px;
   align-items: flex-start;
   text-align: left;
   justify-content: flex-start;
@@ -274,7 +280,7 @@ const hasSidebar = computed(() => sidebarItems.value.length > 0)
 .chat-footer {
   position: fixed;
   bottom: 0;
-  left: 0;
+  left: 272px; /* Сдвигаем вправо на ширину сайдбара */
   right: 0;
   height: 56px;
   display: flex;
@@ -321,15 +327,20 @@ const hasSidebar = computed(() => sidebarItems.value.length > 0)
   }
 
   .sidebar {
+    position: static;
     width: 100%;
     height: auto;
-    position: static;
+    top: auto;
+    left: auto;
+    bottom: auto;
     border-right: none;
     border-bottom: 1px solid var(--vp-c-border);
+    padding: 16px;
   }
 
   .main-content.with-sidebar {
-    padding-left: 24px;
+    margin-left: 0;
+    padding: 24px;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -337,6 +348,10 @@ const hasSidebar = computed(() => sidebarItems.value.length > 0)
 
   .with-sidebar .actions {
     justify-content: center;
+  }
+
+  .chat-footer {
+    left: 0; /* На мобильных возвращаем на всю ширину */
   }
 }
 </style>
