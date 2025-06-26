@@ -21,7 +21,7 @@ export default {
     const { frontmatter } = useData()
 
     // Если это кастомный макет (встречи), используем CustomLayout
-    if (frontmatter.value.layout === "custom" || frontmatter.value.layout === "home") {
+    if (frontmatter.value.layout === "custom") {
       return h(CustomLayout)
     }
 
