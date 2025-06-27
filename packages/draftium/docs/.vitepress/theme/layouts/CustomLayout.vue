@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { useData } from "vitepress"
+import { useData, useRouter } from "vitepress"
 import { computed, ref } from "vue"
 import TopNavigation from "../components/TopNavigation.vue"
 import { Icon } from "@iconify/vue"
 
 const { page, theme } = useData()
+const router = useRouter()
 
 // Состояние сайдбара
 const sidebarOpen = ref(false)
@@ -38,6 +39,12 @@ const toggleSidebar = () => {
 const closeSidebar = () => {
   sidebarOpen.value = false
 }
+
+// Функция для навигации
+const navigateTo = (link: string) => {
+  router.go(link)
+  closeSidebar()
+}
 </script>
 
 <template>
@@ -61,7 +68,7 @@ const closeSidebar = () => {
             <h3 class="sidebar-title">{{ group.text }}</h3>
             <ul class="sidebar-links">
               <li v-for="item in group.items" :key="item.link">
-                <a :href="item.link" class="sidebar-link" @click="closeSidebar">{{ item.text }}</a>
+                <button class="sidebar-link" @click="navigateTo(item.link)">{{ item.text }}</button>
               </li>
             </ul>
           </div>
@@ -185,11 +192,16 @@ const closeSidebar = () => {
 
 .sidebar-link {
   display: block;
+  width: 100%;
   padding: 6px 12px;
   font-size: 14px;
   color: var(--vp-c-text-1);
   text-decoration: none;
   border-radius: 6px;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
   transition: all 0.2s;
 }
 
