@@ -2,10 +2,9 @@
   <div class="meet-wrapper">
     <TopNavigation />
 
-    <!-- Mobile menu button -->
-    <button v-if="hasSidebar" @click="toggleSidebar" class="mobile-menu-btn" :class="{ active: sidebarOpen }">
-      <Icon icon="mdi:menu" />
-      <span>Menu</span>
+    <!-- Floating mobile menu button -->
+    <button v-if="hasSidebar" @click="toggleSidebar" class="floating-menu-btn" :class="{ active: sidebarOpen }">
+      <Icon :icon="sidebarOpen ? 'mdi:close' : 'mdi:menu'" />
     </button>
 
     <!-- Sidebar overlay for mobile -->
@@ -127,35 +126,36 @@ const closeSidebar = () => {
   min-height: 0;
 }
 
-/* Mobile menu button */
-.mobile-menu-btn {
+/* Floating mobile menu button */
+.floating-menu-btn {
   display: none;
   position: fixed;
-  top: 48px;
-  left: 0;
-  right: 0;
-  height: 48px;
-  background: var(--vp-c-bg);
+  bottom: 80px; /* Над чат-футером */
+  left: 16px;
+  width: 56px;
+  height: 56px;
+  background: var(--vp-c-brand-1);
+  color: white;
   border: none;
-  border-bottom: 1px solid var(--vp-c-border);
-  padding: 0 16px;
-  font-size: 14px;
-  color: var(--vp-c-text-1);
+  border-radius: 50%;
   cursor: pointer;
-  z-index: 30;
-  justify-content: flex-start;
+  z-index: 40;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
   align-items: center;
-  gap: 8px;
-  transition: all 0.2s;
+  justify-content: center;
+  font-size: 24px;
 }
 
-.mobile-menu-btn:hover {
-  background: var(--vp-c-bg-soft);
+.floating-menu-btn:hover {
+  background: var(--vp-c-brand-2);
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
-.mobile-menu-btn.active {
-  background: var(--vp-c-brand-soft);
-  color: var(--vp-c-brand-1);
+.floating-menu-btn.active {
+  background: var(--vp-c-red);
+  transform: rotate(90deg);
 }
 
 /* Sidebar overlay */
@@ -393,11 +393,7 @@ const closeSidebar = () => {
 
 /* Responsive design */
 @media (max-width: 768px) {
-  .meet-wrapper {
-    padding-top: 96px; /* Место для топ-навигации + кнопка меню */
-  }
-
-  .mobile-menu-btn {
+  .floating-menu-btn {
     display: flex;
   }
 
@@ -407,7 +403,7 @@ const closeSidebar = () => {
 
   .sidebar {
     transform: translateX(-100%);
-    top: 96px; /* Под топ-навигацией и кнопкой меню */
+    top: 48px; /* Только под топ-навигацией */
     z-index: 30;
     box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
   }
