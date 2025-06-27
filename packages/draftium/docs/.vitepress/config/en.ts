@@ -45,7 +45,7 @@ export const en = defineConfig({
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
-      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
+      [`${BASE_PATH}/`]: { base: `${BASE_PATH}/`, items: sidebarAccount() },
     },
 
     footer: {
@@ -156,17 +156,17 @@ function sidebarAccount(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         // { text: "Dashboard", link: "/" },
-        { text: "Meetings", link: "/meetings" },
-        { text: "History", link: "/history" },
-        { text: "Upgrade", link: "/upgrade" },
+        { text: "Meetings", link: "/account/meetings" },
+        { text: "History", link: "/account/history" },
+        { text: "Upgrade", link: "/account/upgrade" },
       ],
     },
     {
       text: "SETTINGS",
       collapsed: false,
       items: [
-        { text: "Profile", link: "/screens/profile" },
-        { text: "Settings", link: "/screens/settings" },
+        { text: "Profile", link: "/account/screens/profile" },
+        { text: "Settings", link: "/account/screens/settings" },
       ],
     },
   ]
