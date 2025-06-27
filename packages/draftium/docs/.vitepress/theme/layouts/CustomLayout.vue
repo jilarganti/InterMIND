@@ -1,79 +1,10 @@
-<template>
-  <div class="meet-wrapper">
-    <TopNavigation />
-
-    <!-- Floating mobile menu button -->
-    <button v-if="hasSidebar" @click="toggleSidebar" class="floating-menu-btn" :class="{ active: sidebarOpen }">
-      <Icon :icon="sidebarOpen ? 'mdi:close' : 'mdi:menu'" />
-    </button>
-
-    <!-- Sidebar overlay for mobile -->
-    <div v-if="hasSidebar && sidebarOpen" @click="closeSidebar" class="sidebar-overlay"></div>
-
-    <!-- Layout with sidebar support -->
-    <div class="layout-container">
-      <!-- Sidebar -->
-      <aside v-if="hasSidebar" class="sidebar" :class="{ 'sidebar-open': sidebarOpen }">
-        <nav>
-          <div v-for="group in sidebarItems" :key="group.text" class="sidebar-group">
-            <h3 class="sidebar-title">{{ group.text }}</h3>
-            <ul class="sidebar-links">
-              <li v-for="item in group.items" :key="item.link">
-                <a :href="item.link" class="sidebar-link" @click="closeSidebar">{{ item.text }}</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </aside>
-
-      <!-- Main Content -->
-      <main class="main-content" :class="{ 'with-sidebar': hasSidebar }">
-        <Content v-if="page.isNotFound" />
-        <template v-else>
-          <h1 v-if="frontmatter.title" class="headline">{{ frontmatter.title }}</h1>
-          <h3 v-if="frontmatter.description" class="subtext">{{ frontmatter.description }}</h3>
-
-          <!-- Custom actions for home page -->
-          <div v-if="frontmatter.layout === 'home'" class="actions">
-            <button class="primary-btn">📹 Новая встреча</button>
-            <input class="code-input" placeholder="Введите код или псевдоним" />
-            <button class="join-btn">Присоединиться</button>
-          </div>
-
-          <!-- Markdown content -->
-          <div class="content-wrapper">
-            <Content />
-          </div>
-
-          <!-- Custom illustration for home page -->
-          <div v-if="frontmatter.layout === 'home'" class="illustration">
-            <p class="invite-title">Ссылка для приглашения</p>
-            <p class="invite-desc">
-              Нажмите <strong>Новая встреча</strong>, чтобы получить ссылку и<br />
-              отправить её тем, кого хотите пригласить.
-            </p>
-          </div>
-
-          <a v-if="frontmatter.learnMore" :href="frontmatter.learnMore" target="_blank" class="learn-more"> Learn more about InterMIND </a>
-        </template>
-      </main>
-    </div>
-
-    <!-- Chat Footer -->
-    <footer class="chat-footer" :class="{ 'with-sidebar': hasSidebar }">
-      <input class="chat-input" type="text" placeholder="Напишите сообщение…" />
-      <button class="chat-send">➤</button>
-    </footer>
-  </div>
-</template>
-
 <script setup lang="ts">
 import { useData } from "vitepress"
 import { computed, ref } from "vue"
 import TopNavigation from "../components/TopNavigation.vue"
 import { Icon } from "@iconify/vue"
 
-const { page, frontmatter, theme } = useData()
+const { page, theme } = useData()
 
 // Состояние сайдбара
 const sidebarOpen = ref(false)
@@ -108,6 +39,54 @@ const closeSidebar = () => {
   sidebarOpen.value = false
 }
 </script>
+
+<template>
+  <div class="meet-wrapper">
+    <TopNavigation />
+
+    <!-- Floating mobile menu button -->
+    <button v-if="hasSidebar" @click="toggleSidebar" class="floating-menu-btn" :class="{ active: sidebarOpen }">
+      <Icon :icon="sidebarOpen ? 'mdi:close' : 'mdi:menu'" />
+    </button>
+
+    <!-- Sidebar overlay for mobile -->
+    <div v-if="hasSidebar && sidebarOpen" @click="closeSidebar" class="sidebar-overlay"></div>
+
+    <!-- Layout with sidebar support -->
+    <div class="layout-container">
+      <!-- Sidebar -->
+      <aside v-if="hasSidebar" class="sidebar" :class="{ 'sidebar-open': sidebarOpen }">
+        <nav>
+          <div v-for="group in sidebarItems" :key="group.text" class="sidebar-group">
+            <h3 class="sidebar-title">{{ group.text }}</h3>
+            <ul class="sidebar-links">
+              <li v-for="item in group.items" :key="item.link">
+                <a :href="item.link" class="sidebar-link" @click="closeSidebar">{{ item.text }}</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content" :class="{ 'with-sidebar': hasSidebar }">
+        <Content v-if="page.isNotFound" />
+        <template v-else>
+          <!-- Markdown content -->
+          <div class="content-wrapper">
+            <Content />
+          </div>
+        </template>
+      </main>
+    </div>
+
+    <!-- Chat Footer -->
+    <footer class="chat-footer" :class="{ 'with-sidebar': hasSidebar }">
+      <input class="chat-input" type="text" placeholder="Напишите сообщение…" />
+      <button class="chat-send">➤</button>
+    </footer>
+  </div>
+</template>
 
 <style>
 .meet-wrapper {
@@ -259,79 +238,6 @@ const closeSidebar = () => {
   margin: 24px 0;
 }
 
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 40px;
-}
-
-.with-sidebar .actions {
-  justify-content: flex-start;
-}
-
-.primary-btn {
-  background-color: var(--vp-c-brand-1);
-  color: white;
-  padding: 10px 18px;
-  font-size: 14px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.primary-btn:hover {
-  background-color: var(--vp-c-brand-2);
-}
-
-.code-input {
-  padding: 10px 14px;
-  border: 1px solid var(--vp-c-border);
-  border-radius: 20px;
-  font-size: 14px;
-  width: 230px;
-  background: var(--vp-c-bg);
-  color: var(--vp-c-text-1);
-}
-
-.code-input:focus {
-  outline: none;
-  border-color: var(--vp-c-brand-1);
-}
-
-.join-btn {
-  background: none;
-  border: none;
-  font-size: 14px;
-  color: var(--vp-c-brand-1);
-  cursor: pointer;
-}
-
-.join-btn:hover {
-  text-decoration: underline;
-}
-
-.illustration img {
-  width: 140px;
-  height: auto;
-  margin-bottom: 12px;
-}
-
-.invite-title {
-  font-size: 18px;
-  font-weight: 500;
-  color: var(--vp-c-text-1);
-  margin-bottom: 8px;
-}
-
-.invite-desc {
-  font-size: 14px;
-  color: var(--vp-c-text-2);
-}
-
 .learn-more {
   margin-top: 32px;
   font-size: 13px;
@@ -421,10 +327,6 @@ const closeSidebar = () => {
     padding: 24px;
     align-items: flex-start;
     text-align: left;
-    justify-content: flex-start;
-  }
-
-  .with-sidebar .actions {
     justify-content: flex-start;
   }
 

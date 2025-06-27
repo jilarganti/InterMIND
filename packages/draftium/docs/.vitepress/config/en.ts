@@ -155,18 +155,18 @@ function sidebarAccount(): DefaultTheme.SidebarItem[] {
       text: "ACCOUNT",
       collapsed: false,
       items: [
-        { text: "Dashboard", link: "index" },
-        { text: "Meetings", link: "meetings" },
-        { text: "History", link: "history" },
-        { text: "Upgrade", link: "upgrade" },
+        // { text: "Dashboard", link: "/" },
+        { text: "Meetings", link: "./meetings" },
+        { text: "History", link: "./history" },
+        { text: "Upgrade", link: "./upgrade" },
       ],
     },
     {
       text: "SETTINGS",
       collapsed: false,
       items: [
-        { text: "Profile", link: "screens/profile" },
-        { text: "Settings", link: "screens/settings" },
+        { text: "Profile", link: "./screens/profile" },
+        { text: "Settings", link: "./screens/settings" },
       ],
     },
   ]

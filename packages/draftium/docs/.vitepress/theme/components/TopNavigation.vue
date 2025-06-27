@@ -1,37 +1,3 @@
-<template>
-  <div class="top-bar">
-    <div class="logo-container">
-      <button @click="goTo('/')" class="logo-btn">
-        <img src="/logo.svg" alt="Logo" class="top-logo" />
-      </button>
-    </div>
-
-    <div class="time-display">{{ time }} • {{ weekday }}, {{ day }} {{ month }}</div>
-
-    <div class="right-icons">
-      <button @click="goTo('/product/guide/getting-started')" title="Support" class="nav-button">
-        <Icon icon="mdi:help-circle-outline" />
-      </button>
-      <button @click="goTo('/resources/help')" title="Report a problem" class="nav-button">
-        <Icon icon="mdi:message-outline" />
-      </button>
-      <button @click="goTo('/account/screens/settings')" title="Settings" class="nav-button">
-        <Icon icon="mdi:cog-outline" />
-      </button>
-      <button @click="goTo('/account/upgrade')" title="Upgrade plan" class="nav-button upgrade-btn">
-        <Icon icon="mdi:trending-up" />
-        <span class="upgrade-text">Upgrade</span>
-      </button>
-      <button @click="goTo('/account/screens/profile')" title="Profile" class="nav-button">
-        <Icon icon="mdi:account-outline" />
-      </button>
-      <button @click="goTo('/account')" title="Account" class="nav-button account-btn">
-        <Icon icon="mdi:account-circle-outline" />
-      </button>
-    </div>
-  </div>
-</template>
-
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from "vue"
 import { useRouter } from "vitepress"
@@ -68,6 +34,40 @@ onUnmounted(() => {
   }
 })
 </script>
+
+<template>
+  <div class="top-bar">
+    <div class="logo-container">
+      <button @click="goTo('/')" class="logo-btn">
+        <img src="/logo.svg" alt="Logo" class="top-logo" />
+      </button>
+    </div>
+
+    <div class="time-display">{{ time }} • {{ weekday }}, {{ day }} {{ month }}</div>
+
+    <div class="right-icons">
+      <button @click="goTo('/product/guide/getting-started')" title="Support" class="nav-button">
+        <Icon icon="mdi:help-circle-outline" />
+      </button>
+      <button @click="goTo('/resources/help')" title="Report a problem" class="nav-button">
+        <Icon icon="mdi:message-outline" />
+      </button>
+      <button @click="goTo('/account/screens/settings')" title="Settings" class="nav-button">
+        <Icon icon="mdi:cog-outline" />
+      </button>
+      <button @click="goTo('/account/upgrade')" title="Upgrade plan" class="nav-button upgrade-btn">
+        <Icon icon="mdi:trending-up" />
+        <span class="upgrade-text">Upgrade</span>
+      </button>
+      <button @click="goTo('/account/screens/profile')" title="Profile" class="nav-button">
+        <Icon icon="mdi:account-outline" />
+      </button>
+      <button @click="goTo('/account')" title="Account" class="nav-button account-btn">
+        <Icon icon="mdi:account-circle-outline" />
+      </button>
+    </div>
+  </div>
+</template>
 
 <style scoped>
 .top-bar {

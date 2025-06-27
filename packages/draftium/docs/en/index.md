@@ -12,7 +12,7 @@ isHome: true
   text="Iterate on UI, logic, and structure — before you write a single line of code.">
 
   <!-- <AuthButton text="Try it in your language" buttonClass="brand"/> -->
-  <NavButton buttonLabel="DRAFTIUM" buttonClass="brand" to="./account/index"/>
+  <NavButton buttonLabel="DRAFTIUM" buttonClass="brand" to="./account/"/>
 </HeroSection>
 
 <span id="1"></span>
