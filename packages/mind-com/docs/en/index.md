@@ -88,22 +88,21 @@ isHome: true
 
 <span id="HowItWorks"></span>
 
-## How It Works
+## Talk Naturally. Understand Instantly.
 
-> 🎯 If you’ve used **Google Meet**, you already know how InterMind works — just with **live interpretation** built-in.
-> \[!tip] No setup. No training. Just talk — InterMind handles the rest.
+If you’ve used **Google Meet**, you already know how InterMind works — just with **live interpretation** built-in. [Try it now](#Pricing) — feel the difference in your next call. No setup. No training. Just talk — InterMind handles the rest.
 
 <FeatureCards :features="[
   {
-    title: 'Sign up',
-    details: 'Create your free account in seconds. No credit card needed.',
+    title: '**Sign up for free**',
+    details: 'Get started in seconds — no credit card needed.',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
     }
   },
   {
-    title: 'Start a meeting',
+    title: '**Start a meeting**',
     details: 'Create a meeting or schedule in calendar. No downloads or installs required.',
     icon: {
       light: '/start.png',
@@ -111,8 +110,8 @@ isHome: true
     }
   },
   {
-    title: 'Invite your guests',
-    details: 'Send a meeting link. No language settings required.',
+    title: '**Invite your guests**',
+    details: 'Share a link — your guest just clicks and joins. No language settings required.',
     link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/invite.png',
@@ -120,10 +119,10 @@ isHome: true
     }
   },
   {
-    title: 'Speak your language',
+    title: '**Speak your language**',
     items: [
-      'Everyone talks in their **native language**', 
-      'Everyone hears the other side **instantly interpreted**'
+      'Everyone talks in their native language', 
+      'Everyone hears the other side instantly interpreted'
     ],
     icon: {
       light: '/meeting.png',
