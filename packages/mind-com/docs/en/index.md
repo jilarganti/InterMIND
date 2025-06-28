@@ -137,7 +137,7 @@ If you’ve used **Google Meet**, you already know how InterMind works — just 
 
 Let’s say:
 
-> 🔹 A user selects **Spanish** as their language in the product interface settings  
+> 🔹 The user uses **Spanish** as the **site localization language**  
 > 🔹 They host a meeting and invite two participants:
 >
 > - 🧑‍💼 Participant 1 uses the interface in **English**
