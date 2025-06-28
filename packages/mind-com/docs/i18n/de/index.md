@@ -12,7 +12,7 @@ isHome: true
   :typingSpeed="5"
   text="Live-Sprachübersetzung in **Videoanrufen** — schnelle, klare, grenzenlose Kommunikation.">
 
-  <NavButton buttonLabel="Wie es funktioniert" buttonClass="brand" to="#HowItWorks" />
+  <NavButton buttonLabel="Wie es funktioniert" buttonClass="brand" to="/#HowItWorks" />
   <AuthButton text="Jetzt starten" buttonClass="alt" eventName="im_try_it_attempt"/>
 </HeroSection>
 
@@ -152,11 +152,11 @@ Diese einzige Spracheinstellung gilt für:
 - Die **gesprochene Eingabe** (was Sie sagen)
 - Die **übersetzte Ausgabe** (was Sie hören)
 
-| Teilnehmer    | Gewählte Sprache | Spricht in | Hört in   |
-| ------------- | ---------------- | ---------- | --------- |
-| Gastgeber     | Spanisch         | Spanisch   | Spanisch  |
-| Teilnehmer 1  | Englisch         | Englisch   | Englisch  |
-| Teilnehmer 2  | Chinesisch       | Chinesisch | Chinesisch|
+| Teilnehmer   | Gewählte Sprache | Spricht in | Hört in    |
+| ------------ | ---------------- | ---------- | ---------- |
+| Gastgeber    | Spanisch         | Spanisch   | Spanisch   |
+| Teilnehmer 1 | Englisch         | Englisch   | Englisch   |
+| Teilnehmer 2 | Chinesisch       | Chinesisch | Chinesisch |
 
 Die Plattform interpretiert automatisch alle Sprache in Echtzeit — so kommuniziert jeder, als würden sie dieselbe Sprache sprechen.
 

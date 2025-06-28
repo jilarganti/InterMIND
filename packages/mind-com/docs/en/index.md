@@ -12,7 +12,7 @@ isHome: true
   :typingSpeed="5"
   text="Live speech translation in **video calls** — fast, clear, borderless communication.">
 
-  <NavButton buttonLabel="How it works" buttonClass="brand" to="#HowItWorks" />
+  <NavButton buttonLabel="How it works" buttonClass="brand" to="/#HowItWorks" />
   <AuthButton text="Get started" buttonClass="alt" eventName="im_try_it_attempt"/>
 </HeroSection>
 

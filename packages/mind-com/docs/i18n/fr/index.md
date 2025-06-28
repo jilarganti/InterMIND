@@ -12,7 +12,7 @@ isHome: true
   :typingSpeed="5"
   text="Traduction vocale en direct dans les **appels vidéo** — communication rapide, claire et sans frontières.">
 
-  <NavButton buttonLabel="Comment ça marche" buttonClass="brand" to="#HowItWorks" />
+  <NavButton buttonLabel="Comment ça marche" buttonClass="brand" to="/#HowItWorks" />
   <AuthButton text="Commencer" buttonClass="alt" eventName="im_try_it_attempt"/>
 </HeroSection>
 
@@ -152,11 +152,11 @@ Ce paramètre de langue unique s'applique à :
 - L'**entrée vocale** (ce que vous dites)
 - La **sortie traduite** (ce que vous entendez)
 
-| Participant   | Langue sélectionnée | Parle en  | Entend en |
-| ------------- | ------------------- | --------- | --------- |
-| Hôte          | Espagnol            | Espagnol  | Espagnol  |
-| Participant 1 | Anglais             | Anglais   | Anglais   |
-| Participant 2 | Chinois             | Chinois   | Chinois   |
+| Participant   | Langue sélectionnée | Parle en | Entend en |
+| ------------- | ------------------- | -------- | --------- |
+| Hôte          | Espagnol            | Espagnol | Espagnol  |
+| Participant 1 | Anglais             | Anglais  | Anglais   |
+| Participant 2 | Chinois             | Chinois  | Chinois   |
 
 La plateforme interprète automatiquement tous les discours en temps réel — ainsi tout le monde communique comme s'il parlait la même langue.
 

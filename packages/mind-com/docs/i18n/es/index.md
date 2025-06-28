@@ -12,7 +12,7 @@ isHome: true
   :typingSpeed="5"
   text="Traducción de voz en vivo en **videollamadas** — comunicación rápida, clara y sin fronteras.">
 
-  <NavButton buttonLabel="Cómo funciona" buttonClass="brand" to="#HowItWorks" />
+  <NavButton buttonLabel="Cómo funciona" buttonClass="brand" to="/#HowItWorks" />
   <AuthButton text="Comenzar" buttonClass="alt" eventName="im_try_it_attempt"/>
 </HeroSection>
 
@@ -152,11 +152,11 @@ Esta configuración de idioma único se aplica a:
 - La **entrada hablada** (lo que dices)
 - La **salida traducida** (lo que escuchas)
 
-| Participante  | Idioma Seleccionado | Habla En  | Escucha En |
-| ------------- | ------------------- | --------- | ---------- |
-| Anfitrión     | Español             | Español   | Español    |
-| Participante 1| Inglés              | Inglés    | Inglés     |
-| Participante 2| Chino               | Chino     | Chino      |
+| Participante   | Idioma Seleccionado | Habla En | Escucha En |
+| -------------- | ------------------- | -------- | ---------- |
+| Anfitrión      | Español             | Español  | Español    |
+| Participante 1 | Inglés              | Inglés   | Inglés     |
+| Participante 2 | Chino               | Chino    | Chino      |
 
 La plataforma interpreta automáticamente todo el habla en tiempo real, por lo que todos se comunican como si hablaran el mismo idioma.
 

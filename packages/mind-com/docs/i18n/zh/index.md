@@ -12,7 +12,7 @@ isHome: true
   :typingSpeed="5"
   text="**视频通话**中的实时语音翻译——快速、清晰、无界限的沟通。">
 
-  <NavButton buttonLabel="工作原理" buttonClass="brand" to="#HowItWorks" />
+  <NavButton buttonLabel="工作原理" buttonClass="brand" to="/#HowItWorks" />
   <AuthButton text="开始使用" buttonClass="alt" eventName="im_try_it_attempt"/>
 </HeroSection>
 
@@ -152,11 +152,11 @@ isHome: true
 - **语音输入**（您说的内容）
 - **翻译输出**（您听到的内容）
 
-| 参与者    | 选择的语言 | 说话语言 | 听取语言 |
-| --------- | ---------- | -------- | -------- |
-| 主持人    | 西班牙语   | 西班牙语 | 西班牙语 |
-| 参与者1   | 英语       | 英语     | 英语     |
-| 参与者2   | 中文       | 中文     | 中文     |
+| 参与者  | 选择的语言 | 说话语言 | 听取语言 |
+| ------- | ---------- | -------- | -------- |
+| 主持人  | 西班牙语   | 西班牙语 | 西班牙语 |
+| 参与者1 | 英语       | 英语     | 英语     |
+| 参与者2 | 中文       | 中文     | 中文     |
 
 平台自动实时解释所有语音——因此每个人都能像说同一种语言一样进行交流。
 
