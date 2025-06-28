@@ -1,25 +1,27 @@
 ---
 layout: home
-title: "ビデオ通話のためのリアルタイム音声翻訳"
+title: "ビデオ通話のリアルタイム音声翻訳"
 isHome: true
 ---
 
 <!-- title: "同時通訳によるビデオ通話" -->
-<!-- text="母国語で話し、他の人の声も母国語で聞こえる。" -->
+<!-- text="ビデオ通話でのリアルタイム音声翻訳 — **遅延なし**、**商談の機会損失なし**、**言語の壁なし**。" -->
 
 <HeroSection
-  title="**どんな**言語でも会議を"
-  text="ビデオ通話でのリアルタイム音声翻訳 — **遅延なし**、**商談の機会損失なし**、**言語の壁なし**。">
+  title="**あらゆる**言語で会議を"
+  :typingSpeed="5"
+  text="**ビデオ通話**でのリアルタイム音声翻訳 — 高速、明確、境界のないコミュニケーション。">
 
-  <AuthButton text="あなたの言語で試してみる" buttonClass="brand" eventName="im_try_it_attempt"/>
+  <NavButton buttonLabel="仕組みについて" buttonClass="brand" to="#HowItWorks" />
+  <AuthButton text="始める" buttonClass="alt" eventName="im_try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
 <FeatureBlock :card="{
   title: '翻訳 ≠ 理解。次のレベルがここにあります。',
-  details: '言語に関係なく、**あなたの声は聞こえ、理解される** — まるで同じ言語を話しているかのように。',
+  details: '言語に関係なく、あなたの声は同じ言語を話すかのように聞かれ、理解されます。',
     items: [
-      '✧ 自然に、[リアルタイム](./product/overview/how-it-works)で、字幕や遅延なしで。',
+      '✧ [リアルタイム](./product/overview/how-it-works)で自然に、字幕や遅延なしで。',
       '✧ AI搭載の通訳がトーン、意図、業界固有の専門用語を捉えます。',
     ],
   link: './product/overview/what-is-intermind',
@@ -37,7 +39,7 @@ isHome: true
     items: [
       '✧ **何でも質問** — AIが**会議全体から**答えを見つけます。',
       '✧ タスク、担当者、締切を自動抽出。',
-      '✧ 重要なポイントをどんな言語でも即座に要約。',
+      '✧ 重要なポイントをあらゆる言語で即座に要約。',
     ],
     link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
     src: {
@@ -49,7 +51,7 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: '本格的な会議のために構築 — 単なる会話ツールではありません',
+    title: '本格的な会議のために構築 — 単なる会話ではなく',
     details: 'InterMindは[プロフェッショナルグレードのビデオ会議プラットフォーム](./product/overview/video-meeting-platform)であり、軽量なアドオンやプラグインではありません。',
     items: [
       '✧ 1080p解像度、スマートノイズ抑制、スケジューリング、モデレーション、画面共有、録画、字幕、参加者チャット、カレンダー統合 — すべて内蔵、**すぐに使用可能**。',
@@ -84,6 +86,51 @@ isHome: true
 > [!tip] これは誰のためのものですか？  
 > 言語の壁が**遅延**、**商談の機会損失**、または**コストのかかる誤解**を引き起こす**国際チーム**のために構築されています。[詳細はこちら ...](./product/overview/markets)
 
+<span id="HowItWorks"></span>
+
+## 自然に話す。瞬時に理解する。
+
+**Google Meet**を使ったことがあるなら、InterMindの仕組みはすでにご存知でしょう — ただし**リアルタイム通訳**が組み込まれています。[今すぐ試す](#Pricing) — 次の通話でその違いを実感してください。設定不要。トレーニング不要。ただ話すだけ — InterMindが残りを処理します。
+
+<FeatureCards :features="[
+  {
+    title: '**無料でサインアップ**',
+    details: '数秒で開始 — クレジットカード不要。',
+    icon: {
+      light: '/signUp.png',
+      dark: '/signUp.png',
+    }
+  },
+  {
+    title: '**ミーティングを開始**',
+    details: 'ミーティングを作成するか、カレンダーでスケジュール。ダウンロードやインストールは不要。',
+    icon: {
+      light: '/start.png',
+      dark: '/start.png',
+    }
+  },
+  {
+    title: '**ゲストを招待**',
+    details: 'リンクを共有 — ゲストはクリックするだけで参加。言語設定は不要。',
+    link: '/uae-business/company-registration/accounting-legal',
+    icon: {
+      light: '/invite.png',
+      dark: '/invite.png',
+    }
+  },
+  {
+    title: '**あなたの言語で話す**',
+    items: [
+      '全員が母国語で話す', 
+      '全員が相手側の言葉を瞬時に通訳されて聞く'
+    ],
+    icon: {
+      light: '/meeting.png',
+      dark: '/meeting.png',
+    }
+  },
+]" />
+
 <br>
 
 <span id="Pricing"></span>
@@ -108,7 +155,7 @@ isHome: true
   {
     title: '**プロ**  &nbsp 1-99ユーザー',
     price: '**$20** /月/ユーザー、年間請求',
-    details: 'または月間請求$25',
+    details: 'または月額$25請求',
     items: [
       '**無制限** 会議',
       '**150** 参加者ビデオ会議 [💬](#3)',
@@ -131,12 +178,12 @@ isHome: true
     ],
   }
 ]">
-<AuthButton text="無料で試す" buttonClass="alt" eventName="im_try_it_attempt"/>
-<AuthButton text="今すぐ購入" buttonClass="brand" mode="checkout" eventName="im_buy_now_attempt"/>
+<AuthButton text="無料で試す" buttonClass="brand" eventName="im_try_it_attempt"/>
+<AuthButton text="今すぐ購入" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt"/>
 <ContactFormModalNav buttonText="チームに相談" buttonClass="alt"/>
 </PricingPlans>
 
-> [!warning] 😱 あなたがすべての言語を話せるか — さもなければ他の誰かがあなたの取引を成約させるでしょう。
+> [!warning] 😱 すべての言語を話すか — それとも他の誰かがあなたの取引を成立させるか。
 
 <span id="Testimonials"></span>
 

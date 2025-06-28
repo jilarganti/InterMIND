@@ -5,19 +5,21 @@ isHome: true
 ---
 
 <!-- title: "Videoanrufe mit simultaner Übersetzung" -->
-<!-- text="Sprechen Sie Ihre Muttersprache. Hören Sie alle anderen — als würden sie diese auch sprechen." -->
+<!-- text="Live-Sprachübersetzung in Videoanrufen — **keine** Verzögerungen, **keine** verlorenen Geschäfte, **keine** Sprachbarrieren." -->
 
 <HeroSection
   title="Treffen Sie sich in **jeder** Sprache"
-  text="Live-Sprachübersetzung in Videoanrufen — **keine** Verzögerungen, **keine** verlorenen Geschäfte, **keine** Sprachbarrieren.">
+  :typingSpeed="5"
+  text="Live-Sprachübersetzung in **Videoanrufen** — schnelle, klare, grenzenlose Kommunikation.">
 
-  <AuthButton text="Testen Sie es in Ihrer Sprache" buttonClass="brand" eventName="im_try_it_attempt"/>
+  <NavButton buttonLabel="Wie es funktioniert" buttonClass="brand" to="#HowItWorks" />
+  <AuthButton text="Jetzt starten" buttonClass="alt" eventName="im_try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: 'Übersetzung ≠ Verstehen. Hier ist, was als nächstes kommt.',
-  details: 'Unabhängig von der Sprache wird **Ihre Stimme gehört — und verstanden** — als würden Sie dieselbe Sprache sprechen.',
+  title: 'Übersetzung ≠ Verstehen. Hier ist die Zukunft.',
+  details: 'Unabhängig von der Sprache wird Ihre Stimme gehört — und verstanden — als würden Sie dieselbe Sprache sprechen.',
     items: [
       '✧ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
       '✧ KI-gestützte Interpretation erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
@@ -49,10 +51,10 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Entwickelt für ernsthafte Meetings — nicht nur zum Reden',
+    title: 'Für ernsthafte Meetings entwickelt — nicht nur zum Reden',
     details: 'InterMind ist eine [professionelle Video-Meeting-Plattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
     items: [
-      '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles eingebaut, **sofort einsatzbereit**.',
+      '✧ 1080p-Auflösung, intelligente Rauschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -65,12 +67,12 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Datenschutz, wo es darauf ankommt',
+    title: 'Datenschutz wo es darauf ankommt',
     details:
       'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Datenschutz und Kontrolle am wichtigsten sind.',
     items: [
       '✧ [Datenschutzzonen](./product/overview/privacy-architecture) — EU, USA, Südostasien',
-      '✧ **Null Datentraining**. Kein Zugriff durch Dritte.'
+      '✧ **Kein Datentraining**. Kein Zugriff durch Dritte.'
     ],
     link: './product/overview/privacy-architecture',
     src: {
@@ -83,6 +85,51 @@ isHome: true
 
 > [!tip] Für wen ist das gedacht?  
 > Entwickelt für **internationale Teams**, bei denen Sprachbarrieren **Verzögerungen**, **verlorene Geschäfte** oder **kostspielige Missverständnisse** verursachen. [Mehr erfahren ...](./product/overview/markets)
+
+<span id="HowItWorks"></span>
+
+## Sprechen Sie natürlich. Verstehen Sie sofort.
+
+Wenn Sie **Google Meet** bereits verwendet haben, wissen Sie schon, wie InterMind funktioniert — nur mit **Live-Dolmetschen** integriert. [Jetzt ausprobieren](#Pricing) — spüren Sie den Unterschied in Ihrem nächsten Anruf. Keine Einrichtung. Keine Schulung. Einfach sprechen — InterMind erledigt den Rest.
+
+<FeatureCards :features="[
+  {
+    title: '**Kostenlos anmelden**',
+    details: 'Starten Sie in Sekunden — keine Kreditkarte erforderlich.',
+    icon: {
+      light: '/signUp.png',
+      dark: '/signUp.png',
+    }
+  },
+  {
+    title: '**Meeting starten**',
+    details: 'Erstellen Sie ein Meeting oder planen Sie es im Kalender. Keine Downloads oder Installationen erforderlich.',
+    icon: {
+      light: '/start.png',
+      dark: '/start.png',
+    }
+  },
+  {
+    title: '**Gäste einladen**',
+    details: 'Teilen Sie einen Link — Ihr Gast klickt einfach und nimmt teil. Keine Spracheinstellungen erforderlich.',
+    link: '/uae-business/company-registration/accounting-legal',
+    icon: {
+      light: '/invite.png',
+      dark: '/invite.png',
+    }
+  },
+  {
+    title: '**Sprechen Sie Ihre Sprache**',
+    items: [
+      'Jeder spricht in seiner Muttersprache', 
+      'Jeder hört die andere Seite sofort gedolmetscht'
+    ],
+    icon: {
+      light: '/meeting.png',
+      dark: '/meeting.png',
+    }
+  },
+]" />
 
 <br>
 
@@ -99,7 +146,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
     details: 'keine Kreditkarte erforderlich',
     items: [
       '**25** Meetings',
-      '**100** Teilnehmer Video-Meetings [💬](#3)',
+      '**100** Teilnehmer Videomeetings [💬](#3)',
       '**30** GB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
       'Simultandolmetschen [💬](#1)',
@@ -111,7 +158,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
     details: 'oder 25 € monatlich abgerechnet',
     items: [
       '**Unbegrenzte** Meetings',
-      '**150** Teilnehmer Video-Meetings [💬](#3)',
+      '**150** Teilnehmer Videomeetings [💬](#3)',
       '**2** TB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
       'Simultandolmetschen [💬](#1)',
@@ -123,7 +170,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
     details: 'Entwickelt für Datenschutz',
     items: [
       '**Unbegrenzte** Meetings',
-      '**500** Teilnehmer Video-Meetings [💬](#3)',
+      '**500** Teilnehmer Videomeetings [💬](#3)',
       '**5** TB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
       'Simultandolmetschen [💬](#1)',
@@ -131,8 +178,8 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
     ],
   }
 ]">
-<AuthButton text="Kostenlos testen" buttonClass="alt" eventName="im_try_it_attempt"/>
-<AuthButton text="Jetzt kaufen" buttonClass="brand" mode="checkout" eventName="im_buy_now_attempt"/>
+<AuthButton text="Kostenlos testen" buttonClass="brand" eventName="im_try_it_attempt"/>
+<AuthButton text="Jetzt kaufen" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt"/>
 <ContactFormModalNav buttonText="Mit unserem Team sprechen" buttonClass="alt"/>
 </PricingPlans>
 

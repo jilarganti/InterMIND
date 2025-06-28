@@ -5,19 +5,21 @@ isHome: true
 ---
 
 <!-- title: "Videollamadas potenciadas por interpretación simultánea" -->
-<!-- text="Habla tu idioma nativo. Escucha a todos los demás — como si también lo hablaran." -->
+<!-- text="Traducción de voz en vivo en videollamadas — **sin** retrasos, **sin** negocios perdidos, **sin** barreras idiomáticas." -->
 
 <HeroSection
   title="Reúnete en **Cualquier** Idioma"
-  text="Traducción de voz en vivo en videollamadas — **sin** retrasos, **sin** negocios perdidos, **sin** barreras idiomáticas.">
+  :typingSpeed="5"
+  text="Traducción de voz en vivo en **videollamadas** — comunicación rápida, clara y sin fronteras.">
 
-  <AuthButton text="Pruébalo en tu idioma" buttonClass="brand" eventName="im_try_it_attempt"/>
+  <NavButton buttonLabel="Cómo funciona" buttonClass="brand" to="#HowItWorks" />
+  <AuthButton text="Comenzar" buttonClass="alt" eventName="im_try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Traducción ≠ Comprensión. Esto es lo que sigue.',
-  details: 'Sin importar el idioma, **tu voz es escuchada — y comprendida** — como si compartieras la misma lengua.',
+  details: 'Sin importar el idioma, tu voz es escuchada — y comprendida — como si compartieras la misma lengua.',
     items: [
       '✧ Naturalmente, en [tiempo real](./product/overview/how-it-works), y sin subtítulos o retrasos.',
       '✧ La interpretación impulsada por IA captura el tono, la intención y la terminología específica de la industria.',
@@ -84,6 +86,51 @@ isHome: true
 > [!tip] ¿Para quién es esto?  
 > Construido para **equipos internacionales** donde las barreras idiomáticas causan **retrasos**, **negocios perdidos** o **malentendidos costosos**. [Aprende más ...](./product/overview/markets)
 
+<span id="HowItWorks"></span>
+
+## Habla Naturalmente. Comprende al Instante.
+
+Si has usado **Google Meet**, ya sabes cómo funciona InterMind — solo que con **interpretación en vivo** integrada. [Pruébalo ahora](#Pricing) — siente la diferencia en tu próxima llamada. Sin configuración. Sin entrenamiento. Solo habla — InterMind se encarga del resto.
+
+<FeatureCards :features="[
+  {
+    title: '**Regístrate gratis**',
+    details: 'Comienza en segundos — no se necesita tarjeta de crédito.',
+    icon: {
+      light: '/signUp.png',
+      dark: '/signUp.png',
+    }
+  },
+  {
+    title: '**Inicia una reunión**',
+    details: 'Crea una reunión o programa en el calendario. No se requieren descargas o instalaciones.',
+    icon: {
+      light: '/start.png',
+      dark: '/start.png',
+    }
+  },
+  {
+    title: '**Invita a tus invitados**',
+    details: 'Comparte un enlace — tu invitado solo hace clic y se une. No se requiere configuración de idioma.',
+    link: '/uae-business/company-registration/accounting-legal',
+    icon: {
+      light: '/invite.png',
+      dark: '/invite.png',
+    }
+  },
+  {
+    title: '**Habla tu idioma**',
+    items: [
+      'Todos hablan en su idioma nativo', 
+      'Todos escuchan al otro lado interpretado al instante'
+    ],
+    icon: {
+      light: '/meeting.png',
+      dark: '/meeting.png',
+    }
+  },
+]" />
+
 <br>
 
 <span id="Pricing"></span>
@@ -119,7 +166,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     title: '**Empresarial** &nbsp 100+ usuarios',
-    price: '**Precios personalizados**',
+    price: '**Precio personalizado**',
     details: 'Diseñado para la privacidad',
     items: [
       '**Ilimitadas** reuniones',
@@ -131,8 +178,8 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     ],
   }
 ]">
-<AuthButton text="Prueba gratis" buttonClass="alt" eventName="im_try_it_attempt"/>
-<AuthButton text="Comprar ahora" buttonClass="brand" mode="checkout" eventName="im_buy_now_attempt"/>
+<AuthButton text="Prueba gratis" buttonClass="brand" eventName="im_try_it_attempt"/>
+<AuthButton text="Comprar ahora" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt"/>
 <ContactFormModalNav buttonText="Habla con nuestro equipo" buttonClass="alt"/>
 </PricingPlans>
 
@@ -158,7 +205,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Qué es un usuario con licencia y qué es un participante?',
-    a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **gratis**.'
+    a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **de forma gratuita**.'
   },
   {
     q: '¿Cuántas personas pueden usar una licencia de InterMind?',
@@ -178,7 +225,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Puedo probar InterMind antes de comprar un plan?',
-    a: 'Absolutamente. El plan *Básico Gratuito* te da acceso completo a las funciones principales con **25 reuniones gratuitas** — incluyendo **interpretación simultánea** y **búsqueda de reuniones**. No se requiere tarjeta de crédito. Actualiza en cualquier momento.'
+    a: 'Por supuesto. El plan *Básico Gratuito* te da acceso completo a las funciones principales con **25 reuniones gratuitas** — incluyendo **interpretación simultánea** y **búsqueda de reuniones**. No se requiere tarjeta de crédito. Actualiza en cualquier momento.'
   },
   {
     q: '¿Qué pasa si necesito ayuda o soporte?',

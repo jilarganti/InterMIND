@@ -5,21 +5,23 @@ isHome: true
 ---
 
 <!-- title: "由同声传译驱动的视频通话" -->
-<!-- text="说您的母语。听懂所有人——就像他们也在说您的语言一样。" -->
+<!-- text="视频通话中的实时语音翻译——**无**延迟，**无**错失交易，**无**语言障碍。" -->
 
 <HeroSection
-  title="用**任何**语言开会"
-  text="视频通话中的实时语音翻译——**无**延迟，**无**错失交易，**无**语言障碍。">
+  title="用**任何**语言会面"
+  :typingSpeed="5"
+  text="**视频通话**中的实时语音翻译——快速、清晰、无界限的沟通。">
 
-  <AuthButton text="用您的语言试试" buttonClass="brand" eventName="im_try_it_attempt"/>
+  <NavButton buttonLabel="工作原理" buttonClass="brand" to="#HowItWorks" />
+  <AuthButton text="开始使用" buttonClass="alt" eventName="im_try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
 <FeatureBlock :card="{
   title: '翻译 ≠ 理解。这就是下一步。',
-  details: '无论什么语言，**您的声音都能被听到——并被理解**——就像您们说着同一种语言一样。',
+  details: '无论使用何种语言，您的声音都能被听到——并被理解——就像您们说着同一种语言一样。',
     items: [
-      '✧ 自然地，[实时](./product/overview/how-it-works)进行，无字幕或延迟。',
+      '✧ 自然地，[实时](./product/overview/how-it-works)进行，无需字幕或延迟。',
       '✧ AI驱动的口译捕捉语调、意图和行业专业术语。',
     ],
   link: './product/overview/what-is-intermind',
@@ -33,11 +35,11 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock :card="{
     title: '会议中的智慧大脑',
-    details: 'InterMind将每个多语言通话转化为清晰、可搜索的知识。',
+    details: 'InterMind将每次多语言通话转化为清晰、可搜索的知识。',
     items: [
-      '✧ **询问任何问题** — AI在**您的所有会议中**找到答案。',
+      '✧ **询问任何问题**——AI在**您的所有会议中**找到答案。',
       '✧ 自动提取任务、负责人和截止日期。',
-      '✧ 用任何语言即时总结要点。',
+      '✧ 即时用任何语言总结要点。',
     ],
     link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
     src: {
@@ -50,7 +52,7 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock :card="{
     title: '为严肃会议而生——不仅仅是聊天',
-    details: 'InterMind是一个[专业级视频会议平台](./product/overview/video-meeting-platform)，不是轻量级插件或附加组件。',
+    details: 'InterMind是一个[专业级视频会议平台](./product/overview/video-meeting-platform)，而不是轻量级插件或附加组件。',
     items: [
       '✧ 1080p分辨率、智能降噪、日程安排、会议管理、屏幕共享、录制、字幕、参与者聊天和日历集成——全部内置，**即开即用**。',
     ],
@@ -69,7 +71,7 @@ isHome: true
     details:
       'InterMind专为信任至关重要的对话而构建——隐私和控制最为重要的场合。',
     items: [
-      '✧ [隐私区域](./product/overview/privacy-architecture) — 欧盟、美国、东南亚',
+      '✧ [隐私区域](./product/overview/privacy-architecture)——欧盟、美国、东南亚',
       '✧ **零数据训练**。无第三方访问。'
     ],
     link: './product/overview/privacy-architecture',
@@ -82,7 +84,52 @@ isHome: true
 />
 
 > [!tip] 这适合谁？  
-> 专为**国际团队**打造，解决语言障碍导致的**延误**、**错失交易**或**代价高昂的误解**。[了解更多...](./product/overview/markets)
+> 专为**国际团队**构建，解决语言障碍导致的**延迟**、**错失交易**或**代价高昂的误解**。[了解更多...](./product/overview/markets)
+
+<span id="HowItWorks"></span>
+
+## 自然对话。即时理解。
+
+如果您使用过 **Google Meet**，您就已经知道 InterMind 的工作原理——只是内置了**实时口译**功能。[立即试用](#Pricing)——在您的下一次通话中感受不同。无需设置。无需培训。只需说话——InterMind 处理其余一切。
+
+<FeatureCards :features="[
+  {
+    title: '**免费注册**',
+    details: '几秒钟即可开始——无需信用卡。',
+    icon: {
+      light: '/signUp.png',
+      dark: '/signUp.png',
+    }
+  },
+  {
+    title: '**开始会议**',
+    details: '创建会议或在日历中安排。无需下载或安装。',
+    icon: {
+      light: '/start.png',
+      dark: '/start.png',
+    }
+  },
+  {
+    title: '**邀请您的客人**',
+    details: '分享链接——您的客人只需点击即可加入。无需语言设置。',
+    link: '/uae-business/company-registration/accounting-legal',
+    icon: {
+      light: '/invite.png',
+      dark: '/invite.png',
+    }
+  },
+  {
+    title: '**说您的语言**',
+    items: [
+      '每个人都用母语交谈', 
+      '每个人都能即时听到对方的口译'
+    ],
+    icon: {
+      light: '/meeting.png',
+      dark: '/meeting.png',
+    }
+  },
+]" />
 
 <br>
 
@@ -98,7 +145,7 @@ isHome: true
     price: '**免费**',
     details: '无需信用卡',
     items: [
-      '**25** 场会议',
+      '**25** 次会议',
       '**100** 人视频会议 [💬](#3)',
       '每用户 **30** GB 共享存储',
       '搜索所有会议记录 [💬](#2)',
@@ -131,8 +178,8 @@ isHome: true
     ],
   }
 ]">
-<AuthButton text="免费试用" buttonClass="alt" eventName="im_try_it_attempt"/>
-<AuthButton text="立即购买" buttonClass="brand" mode="checkout" eventName="im_buy_now_attempt"/>
+<AuthButton text="免费试用" buttonClass="brand" eventName="im_try_it_attempt"/>
+<AuthButton text="立即购买" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt"/>
 <ContactFormModalNav buttonText="联系我们的团队" buttonClass="alt"/>
 </PricingPlans>
 
