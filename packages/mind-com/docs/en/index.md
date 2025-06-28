@@ -131,7 +131,50 @@ If you’ve used **Google Meet**, you already know how InterMind works — just 
   },
 ]" />
 
-<br>
+<span id="Example"></span>
+
+## 🗣️ Example: How real-time speech translation works in a meeting
+
+Let’s say:
+
+> 🔹 A user selects **Spanish** as their language in the product interface settings  
+> 🔹 They host a meeting and invite two participants:
+>
+> - 🧑‍💼 Participant 1 uses the interface in **English**
+> - 👩‍💻 Participant 2 uses the interface in **Chinese**
+
+### 🔄 What happens during the meeting?
+
+Each participant **speaks and hears** in the language they selected when entering the product.  
+This single language setting applies to:
+
+- The **interface language**
+- The **spoken input** (what you say)
+- The **translated output** (what you hear)
+
+| Participant   | Language Selected | Speaks In | Hears In |
+| ------------- | ----------------- | --------- | -------- |
+| Host          | Spanish           | Spanish   | Spanish  |
+| Participant 1 | English           | English   | English  |
+| Participant 2 | Chinese           | Chinese   | Chinese  |
+
+The platform automatically interprets all speech in real time — so everyone communicates as if they spoke the same language.
+
+### ⚙️ Can you change your language during the call?
+
+Yes. You can open the **Settings** and change the `Your Language` field:
+
+<img src="/settings.png" alt="settings-panel" width="300px" />
+
+Changing this means:
+
+- You will **speak in the new language**
+- You will **hear others in the new language**
+- The **interface will also switch** to this language
+
+> ⚠️ Note: “Your Language” is a **single unified setting**  
+> It controls **how you speak**, **what you hear**, and **what you see**.  
+> Speaking in one language and listening in another is **not supported** — by design, to keep the experience simple and predictable.
 
 <span id="Pricing"></span>
 
