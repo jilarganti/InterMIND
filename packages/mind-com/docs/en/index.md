@@ -170,9 +170,9 @@ Yes. You can open the **Settings** and change the `Your Language` field:
 
 Changing this means:
 
-- ✅ You will speak in the `new language`
-- ✅ You will hear others in the `new language`
-- ✅ The interface will also switch to `this language`
+- ✅ You should speak in the `chosen language` for accurate translation
+- ✅ You will hear others in the `chosen language`
+- ✅ The interface will automatically switch to the `chosen language`
 
 > 📌 Note: “Your Language” is a **single unified setting**  
 > It controls **how you speak**, **what you hear**, and **what you see**.  

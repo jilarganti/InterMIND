@@ -170,9 +170,9 @@ Sí. Puedes abrir la **Configuración** y cambiar el campo `Tu Idioma`:
 
 Cambiar esto significa:
 
-- ✅ Hablarás en el `nuevo idioma`
-- ✅ Escucharás a otros en el `nuevo idioma`
-- ✅ La interfaz también cambiará a `este idioma`
+- ✅ Debes hablar en el `idioma elegido` para una traducción precisa
+- ✅ Escucharás a otros en el `idioma elegido`
+- ✅ La interfaz cambiará automáticamente al `idioma elegido`
 
 > 📌 Nota: "Tu Idioma" es una **configuración única unificada**  
 > Controla **cómo hablas**, **qué escuchas** y **qué ves**.  
@@ -223,9 +223,9 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     ],
   }
 ]">
-<AuthButton text="Probar gratis" buttonClass="brand" eventName="im_try_it_attempt"/>
+<AuthButton text="Prueba gratis" buttonClass="brand" eventName="im_try_it_attempt"/>
 <AuthButton text="Comprar ahora" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt"/>
-<ContactFormModalNav buttonText="Hablar con nuestro equipo" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Habla con nuestro equipo" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 😱 O hablas todos los idiomas — o alguien más cierra tus negocios.
@@ -250,7 +250,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Qué es un usuario con licencia y qué es un participante?',
-    a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **gratis**.'
+    a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **de forma gratuita**.'
   },
   {
     q: '¿Cuántas personas pueden usar una licencia de InterMind?',

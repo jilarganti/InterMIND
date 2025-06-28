@@ -152,11 +152,11 @@ Diese einzige Spracheinstellung gilt für:
 - Die **gesprochene Eingabe** (was Sie sagen)
 - Die **übersetzte Ausgabe** (was Sie hören)
 
-| Teilnehmer    | Ausgewählte Sprache | Spricht in | Hört in  |
-| ------------- | ------------------- | ---------- | -------- |
-| Gastgeber     | Spanisch            | Spanisch   | Spanisch |
-| Teilnehmer 1  | Englisch            | Englisch   | Englisch |
-| Teilnehmer 2  | Chinesisch          | Chinesisch | Chinesisch |
+| Teilnehmer    | Gewählte Sprache | Spricht in | Hört in   |
+| ------------- | ---------------- | ---------- | --------- |
+| Gastgeber     | Spanisch         | Spanisch   | Spanisch  |
+| Teilnehmer 1  | Englisch         | Englisch   | Englisch  |
+| Teilnehmer 2  | Chinesisch       | Chinesisch | Chinesisch|
 
 Die Plattform interpretiert automatisch alle Sprache in Echtzeit — so kommuniziert jeder, als würden sie dieselbe Sprache sprechen.
 
@@ -165,14 +165,14 @@ Die Plattform interpretiert automatisch alle Sprache in Echtzeit — so kommuniz
 Ja. Sie können die **Einstellungen** öffnen und das Feld `Ihre Sprache` ändern:
 
 :::details Einstellungsbereich
-<img src="/settings.png" alt="einstellungsbereich" width="300px" />
+<img src="/settings.png" alt="settings-panel" width="300px" />
 :::
 
 Dies zu ändern bedeutet:
 
-- ✅ Sie werden in der `neuen Sprache` sprechen
-- ✅ Sie werden andere in der `neuen Sprache` hören
-- ✅ Die Benutzeroberfläche wird ebenfalls zu `dieser Sprache` wechseln
+- ✅ Sie sollten in der `gewählten Sprache` sprechen für eine genaue Übersetzung
+- ✅ Sie werden andere in der `gewählten Sprache` hören
+- ✅ Die Benutzeroberfläche wird automatisch zur `gewählten Sprache` wechseln
 
 > 📌 Hinweis: "Ihre Sprache" ist eine **einzige einheitliche Einstellung**  
 > Sie steuert **wie Sie sprechen**, **was Sie hören** und **was Sie sehen**.  

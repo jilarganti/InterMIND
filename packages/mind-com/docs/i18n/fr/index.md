@@ -158,7 +158,7 @@ Ce paramètre de langue unique s'applique à :
 | Participant 1 | Anglais             | Anglais   | Anglais   |
 | Participant 2 | Chinois             | Chinois   | Chinois   |
 
-La plateforme interprète automatiquement toute la parole en temps réel — ainsi tout le monde communique comme s'il parlait la même langue.
+La plateforme interprète automatiquement tous les discours en temps réel — ainsi tout le monde communique comme s'il parlait la même langue.
 
 ### ⚙️ Pouvez-vous changer votre langue pendant l'appel ?
 
@@ -170,9 +170,9 @@ Oui. Vous pouvez ouvrir les **Paramètres** et modifier le champ `Votre langue` 
 
 Changer cela signifie :
 
-- ✅ Vous parlerez dans la `nouvelle langue`
-- ✅ Vous entendrez les autres dans la `nouvelle langue`
-- ✅ L'interface basculera également vers `cette langue`
+- ✅ Vous devriez parler dans la `langue choisie` pour une traduction précise
+- ✅ Vous entendrez les autres dans la `langue choisie`
+- ✅ L'interface basculera automatiquement vers la `langue choisie`
 
 > 📌 Note : « Votre langue » est un **paramètre unifié unique**  
 > Il contrôle **comment vous parlez**, **ce que vous entendez**, et **ce que vous voyez**.  
@@ -266,7 +266,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
   },
   {
     q: 'Comment InterMind assure-t-il la confidentialité et la sécurité des données ?',
-    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et au PDPL des EAU, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès par des tiers. Le contrôle avancé de la [Zone de confidentialité](./product/overview/privacy-architecture) est disponible sur le plan **Business**.'
+    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et au PDPL des EAU, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès de tiers. Le contrôle avancé de la [Zone de confidentialité](./product/overview/privacy-architecture) est disponible sur le plan **Business**.'
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un plan ?',
