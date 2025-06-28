@@ -164,15 +164,17 @@ The platform automatically interprets all speech in real time — so everyone co
 
 Yes. You can open the **Settings** and change the `Your Language` field:
 
+:::details Settings Panel
 <img src="/settings.png" alt="settings-panel" width="300px" />
+:::
 
 Changing this means:
 
-- You will **speak in the new language**
-- You will **hear others in the new language**
-- The **interface will also switch** to this language
+- ✅ You will speak in the `new language`
+- ✅ You will hear others in the `new language`
+- ✅ The interface will also switch to `this language`
 
-> ⚠️ Note: “Your Language” is a **single unified setting**  
+> 📌 Note: “Your Language” is a **single unified setting**  
 > It controls **how you speak**, **what you hear**, and **what you see**.  
 > Speaking in one language and listening in another is **not supported** — by design, to keep the experience simple and predictable.
 
