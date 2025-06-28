@@ -137,11 +137,11 @@ Si has usado **Google Meet**, ya sabes cómo funciona InterMind — solo que con
 
 Supongamos que:
 
-> 🔹 Un usuario selecciona **español** como su idioma en la configuración de la interfaz del producto  
+> 🔹 El usuario utiliza **español** como **idioma de localización del sitio**  
 > 🔹 Organiza una reunión e invita a dos participantes:
 >
-> - 🧑‍💼 El participante 1 usa la interfaz en **inglés**
-> - 👩‍💻 El participante 2 usa la interfaz en **chino**
+> - 🧑‍💼 Participante 1 usa la interfaz en **inglés**
+> - 👩‍💻 Participante 2 usa la interfaz en **chino**
 
 ### 🔄 ¿Qué sucede durante la reunión?
 
@@ -152,19 +152,19 @@ Esta configuración de idioma único se aplica a:
 - La **entrada hablada** (lo que dices)
 - La **salida traducida** (lo que escuchas)
 
-| Participante  | Idioma seleccionado | Habla en | Escucha en |
-| ------------- | ------------------- | -------- | ---------- |
-| Anfitrión     | Español             | Español  | Español    |
-| Participante 1| Inglés              | Inglés   | Inglés     |
-| Participante 2| Chino               | Chino    | Chino      |
+| Participante  | Idioma Seleccionado | Habla En  | Escucha En |
+| ------------- | ------------------- | --------- | ---------- |
+| Anfitrión     | Español             | Español   | Español    |
+| Participante 1| Inglés              | Inglés    | Inglés     |
+| Participante 2| Chino               | Chino     | Chino      |
 
 La plataforma interpreta automáticamente todo el habla en tiempo real, por lo que todos se comunican como si hablaran el mismo idioma.
 
 ### ⚙️ ¿Puedes cambiar tu idioma durante la llamada?
 
-Sí. Puedes abrir la **Configuración** y cambiar el campo `Tu idioma`:
+Sí. Puedes abrir la **Configuración** y cambiar el campo `Tu Idioma`:
 
-:::details Panel de configuración
+:::details Panel de Configuración
 <img src="/settings.png" alt="panel-de-configuracion" width="300px" />
 :::
 
@@ -174,7 +174,7 @@ Cambiar esto significa:
 - ✅ Escucharás a otros en el `nuevo idioma`
 - ✅ La interfaz también cambiará a `este idioma`
 
-> 📌 Nota: "Tu idioma" es una **configuración única unificada**  
+> 📌 Nota: "Tu Idioma" es una **configuración única unificada**  
 > Controla **cómo hablas**, **qué escuchas** y **qué ves**.  
 > Hablar en un idioma y escuchar en otro **no está soportado** — por diseño, para mantener la experiencia simple y predecible.
 
@@ -223,9 +223,9 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     ],
   }
 ]">
-<AuthButton text="Prueba gratis" buttonClass="brand" eventName="im_try_it_attempt"/>
+<AuthButton text="Probar gratis" buttonClass="brand" eventName="im_try_it_attempt"/>
 <AuthButton text="Comprar ahora" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt"/>
-<ContactFormModalNav buttonText="Habla con nuestro equipo" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Hablar con nuestro equipo" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 😱 O hablas todos los idiomas — o alguien más cierra tus negocios.
@@ -250,7 +250,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Qué es un usuario con licencia y qué es un participante?',
-    a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **de forma gratuita**.'
+    a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **gratis**.'
   },
   {
     q: '¿Cuántas personas pueden usar una licencia de InterMind?',

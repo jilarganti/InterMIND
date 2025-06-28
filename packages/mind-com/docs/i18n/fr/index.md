@@ -137,7 +137,7 @@ Si vous avez utilisé **Google Meet**, vous savez déjà comment fonctionne Inte
 
 Supposons que :
 
-> 🔹 Un utilisateur sélectionne l'**espagnol** comme langue dans les paramètres de l'interface du produit  
+> 🔹 L'utilisateur utilise l'**espagnol** comme **langue de localisation du site**  
 > 🔹 Il organise une réunion et invite deux participants :
 >
 > - 🧑‍💼 Le participant 1 utilise l'interface en **anglais**
@@ -145,7 +145,7 @@ Supposons que :
 
 ### 🔄 Que se passe-t-il pendant la réunion ?
 
-Chaque participant **parle et entend** dans la langue qu'il a sélectionnée en entrant dans le produit.  
+Chaque participant **parle et entend** dans la langue qu'il a sélectionnée lors de l'accès au produit.  
 Ce paramètre de langue unique s'applique à :
 
 - La **langue de l'interface**
@@ -266,7 +266,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
   },
   {
     q: 'Comment InterMind assure-t-il la confidentialité et la sécurité des données ?',
-    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et au PDPL des EAU, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès de tiers. Le contrôle avancé de la [Zone de confidentialité](./product/overview/privacy-architecture) est disponible sur le plan **Business**.'
+    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et au PDPL des EAU, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès par des tiers. Le contrôle avancé de la [Zone de confidentialité](./product/overview/privacy-architecture) est disponible sur le plan **Business**.'
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un plan ?',

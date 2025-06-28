@@ -6,6 +6,7 @@ import { useData } from "vitepress"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 import { usePipedriveCRM } from "../composables/usePipedriveCRM"
 import { determineTrafficSource } from "../../../../../../shared/utils/utm"
+import { generateOriginId } from "../../../../../../shared/utils/path"
 
 const REDIRECT_AFTER_AUTH_URI_KEY = "redirect_after_auth"
 const inProduction = import.meta.env.VITE_IS_PROD
@@ -37,7 +38,7 @@ const login = (event: Event): void => {
     leadSource: inProduction ? determineTrafficSource() : "[test]",
     channel: "Web visitors",
     channelId: props.text,
-    // originId: generateOriginId(page.value.relativePath),
+    originId: generateOriginId(page.value.relativePath),
     category: page.value.relativePath,
     // email: "",
     // webSite: "",
