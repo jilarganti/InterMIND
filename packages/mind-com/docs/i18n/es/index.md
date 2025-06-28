@@ -131,7 +131,52 @@ Si has usado **Google Meet**, ya sabes cómo funciona InterMind — solo que con
   },
 ]" />
 
-<br>
+<span id="Example"></span>
+
+## 🗣️ Ejemplo: Cómo funciona la traducción de voz en tiempo real en una reunión
+
+Supongamos que:
+
+> 🔹 Un usuario selecciona **español** como su idioma en la configuración de la interfaz del producto  
+> 🔹 Organiza una reunión e invita a dos participantes:
+>
+> - 🧑‍💼 El participante 1 usa la interfaz en **inglés**
+> - 👩‍💻 El participante 2 usa la interfaz en **chino**
+
+### 🔄 ¿Qué sucede durante la reunión?
+
+Cada participante **habla y escucha** en el idioma que seleccionó al ingresar al producto.  
+Esta configuración de idioma único se aplica a:
+
+- El **idioma de la interfaz**
+- La **entrada hablada** (lo que dices)
+- La **salida traducida** (lo que escuchas)
+
+| Participante  | Idioma seleccionado | Habla en | Escucha en |
+| ------------- | ------------------- | -------- | ---------- |
+| Anfitrión     | Español             | Español  | Español    |
+| Participante 1| Inglés              | Inglés   | Inglés     |
+| Participante 2| Chino               | Chino    | Chino      |
+
+La plataforma interpreta automáticamente todo el habla en tiempo real, por lo que todos se comunican como si hablaran el mismo idioma.
+
+### ⚙️ ¿Puedes cambiar tu idioma durante la llamada?
+
+Sí. Puedes abrir la **Configuración** y cambiar el campo `Tu idioma`:
+
+:::details Panel de configuración
+<img src="/settings.png" alt="panel-de-configuracion" width="300px" />
+:::
+
+Cambiar esto significa:
+
+- ✅ Hablarás en el `nuevo idioma`
+- ✅ Escucharás a otros en el `nuevo idioma`
+- ✅ La interfaz también cambiará a `este idioma`
+
+> 📌 Nota: "Tu idioma" es una **configuración única unificada**  
+> Controla **cómo hablas**, **qué escuchas** y **qué ves**.  
+> Hablar en un idioma y escuchar en otro **no está soportado** — por diseño, para mantener la experiencia simple y predecible.
 
 <span id="Pricing"></span>
 
@@ -225,7 +270,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Puedo probar InterMind antes de comprar un plan?',
-    a: 'Por supuesto. El plan *Básico Gratuito* te da acceso completo a las funciones principales con **25 reuniones gratuitas** — incluyendo **interpretación simultánea** y **búsqueda de reuniones**. No se requiere tarjeta de crédito. Actualiza en cualquier momento.'
+    a: 'Absolutamente. El plan *Básico Gratuito* te da acceso completo a las funciones principales con **25 reuniones gratuitas** — incluyendo **interpretación simultánea** y **búsqueda de reuniones**. No se requiere tarjeta de crédito. Actualiza en cualquier momento.'
   },
   {
     q: '¿Qué pasa si necesito ayuda o soporte?',

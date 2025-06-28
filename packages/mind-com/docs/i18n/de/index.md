@@ -54,7 +54,7 @@ isHome: true
     title: 'Für ernsthafte Meetings entwickelt — nicht nur zum Reden',
     details: 'InterMind ist eine [professionelle Video-Meeting-Plattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
     items: [
-      '✧ 1080p-Auflösung, intelligente Rauschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
+      '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -90,7 +90,7 @@ isHome: true
 
 ## Sprechen Sie natürlich. Verstehen Sie sofort.
 
-Wenn Sie **Google Meet** bereits verwendet haben, wissen Sie schon, wie InterMind funktioniert — nur mit **Live-Dolmetschen** integriert. [Jetzt ausprobieren](#Pricing) — spüren Sie den Unterschied in Ihrem nächsten Anruf. Keine Einrichtung. Keine Schulung. Einfach sprechen — InterMind erledigt den Rest.
+Wenn Sie **Google Meet** verwendet haben, wissen Sie bereits, wie InterMind funktioniert — nur mit **Live-Dolmetschen** integriert. [Jetzt ausprobieren](#Pricing) — spüren Sie den Unterschied in Ihrem nächsten Anruf. Keine Einrichtung. Keine Schulung. Einfach sprechen — InterMind erledigt den Rest.
 
 <FeatureCards :features="[
   {
@@ -131,7 +131,52 @@ Wenn Sie **Google Meet** bereits verwendet haben, wissen Sie schon, wie InterMin
   },
 ]" />
 
-<br>
+<span id="Example"></span>
+
+## 🗣️ Beispiel: Wie Echtzeit-Sprachübersetzung in einem Meeting funktioniert
+
+Angenommen:
+
+> 🔹 Ein Benutzer wählt **Spanisch** als seine Sprache in den Produktoberflächen-Einstellungen  
+> 🔹 Er veranstaltet ein Meeting und lädt zwei Teilnehmer ein:
+>
+> - 🧑‍💼 Teilnehmer 1 verwendet die Oberfläche auf **Englisch**
+> - 👩‍💻 Teilnehmer 2 verwendet die Oberfläche auf **Chinesisch**
+
+### 🔄 Was passiert während des Meetings?
+
+Jeder Teilnehmer **spricht und hört** in der Sprache, die er beim Betreten des Produkts ausgewählt hat.  
+Diese einzige Spracheinstellung gilt für:
+
+- Die **Oberflächensprache**
+- Die **gesprochene Eingabe** (was Sie sagen)
+- Die **übersetzte Ausgabe** (was Sie hören)
+
+| Teilnehmer    | Gewählte Sprache | Spricht in | Hört in  |
+| ------------- | ---------------- | ---------- | -------- |
+| Gastgeber     | Spanisch         | Spanisch   | Spanisch |
+| Teilnehmer 1  | Englisch         | Englisch   | Englisch |
+| Teilnehmer 2  | Chinesisch       | Chinesisch | Chinesisch |
+
+Die Plattform interpretiert automatisch alle Sprache in Echtzeit — so kommuniziert jeder, als würden sie dieselbe Sprache sprechen.
+
+### ⚙️ Können Sie Ihre Sprache während des Anrufs ändern?
+
+Ja. Sie können die **Einstellungen** öffnen und das Feld `Ihre Sprache` ändern:
+
+:::details Einstellungsbereich
+<img src="/settings.png" alt="Einstellungsbereich" width="300px" />
+:::
+
+Dies zu ändern bedeutet:
+
+- ✅ Sie werden in der `neuen Sprache` sprechen
+- ✅ Sie werden andere in der `neuen Sprache` hören
+- ✅ Die Oberfläche wird ebenfalls zu `dieser Sprache` wechseln
+
+> 📌 Hinweis: "Ihre Sprache" ist eine **einzige einheitliche Einstellung**  
+> Sie steuert **wie Sie sprechen**, **was Sie hören** und **was Sie sehen**.  
+> In einer Sprache zu sprechen und in einer anderen zu hören wird **nicht unterstützt** — bewusst, um die Erfahrung einfach und vorhersagbar zu halten.
 
 <span id="Pricing"></span>
 
@@ -233,7 +278,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
   },
   {
     q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
-    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Bei Kündigungen werden *monatliche Pläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.'
+    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen treten **sofort** in Kraft. Bei Kündigungen werden *monatliche Pläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.'
   },
   {
     q: 'Welche Sprachen unterstützt InterMind für die Dolmetschung?',

@@ -131,7 +131,52 @@ Si vous avez utilisé **Google Meet**, vous savez déjà comment fonctionne Inte
   },
 ]" />
 
-<br>
+<span id="Example"></span>
+
+## 🗣️ Exemple : Comment fonctionne la traduction vocale en temps réel lors d'une réunion
+
+Supposons que :
+
+> 🔹 Un utilisateur sélectionne l'**espagnol** comme langue dans les paramètres de l'interface du produit  
+> 🔹 Il organise une réunion et invite deux participants :
+>
+> - 🧑‍💼 Le participant 1 utilise l'interface en **anglais**
+> - 👩‍💻 Le participant 2 utilise l'interface en **chinois**
+
+### 🔄 Que se passe-t-il pendant la réunion ?
+
+Chaque participant **parle et entend** dans la langue qu'il a sélectionnée en entrant dans le produit.  
+Ce paramètre de langue unique s'applique à :
+
+- La **langue de l'interface**
+- L'**entrée vocale** (ce que vous dites)
+- La **sortie traduite** (ce que vous entendez)
+
+| Participant   | Langue sélectionnée | Parle en  | Entend en |
+| ------------- | ------------------- | --------- | --------- |
+| Hôte          | Espagnol            | Espagnol  | Espagnol  |
+| Participant 1 | Anglais             | Anglais   | Anglais   |
+| Participant 2 | Chinois             | Chinois   | Chinois   |
+
+La plateforme interprète automatiquement toute la parole en temps réel — ainsi tout le monde communique comme s'il parlait la même langue.
+
+### ⚙️ Pouvez-vous changer votre langue pendant l'appel ?
+
+Oui. Vous pouvez ouvrir les **Paramètres** et modifier le champ `Votre langue` :
+
+:::details Panneau des paramètres
+<img src="/settings.png" alt="panneau-paramètres" width="300px" />
+:::
+
+Changer cela signifie :
+
+- ✅ Vous parlerez dans la `nouvelle langue`
+- ✅ Vous entendrez les autres dans la `nouvelle langue`
+- ✅ L'interface basculera également vers `cette langue`
+
+> 📌 Note : « Votre langue » est un **paramètre unifié unique**  
+> Il contrôle **comment vous parlez**, **ce que vous entendez**, et **ce que vous voyez**.  
+> Parler dans une langue et écouter dans une autre n'est **pas pris en charge** — par conception, pour garder l'expérience simple et prévisible.
 
 <span id="Pricing"></span>
 
@@ -221,7 +266,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
   },
   {
     q: 'Comment InterMind assure-t-il la confidentialité et la sécurité des données ?',
-    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et au PDPL des EAU, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès de tiers. Le [contrôle avancé de la Zone de confidentialité](./product/overview/privacy-architecture) est disponible sur le plan **Business**.'
+    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et au PDPL des EAU, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès de tiers. Le contrôle avancé de la [Zone de confidentialité](./product/overview/privacy-architecture) est disponible sur le plan **Business**.'
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un plan ?',
