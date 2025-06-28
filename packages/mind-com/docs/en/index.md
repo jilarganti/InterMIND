@@ -5,20 +5,21 @@ isHome: true
 ---
 
 <!-- title: "Video calls powered by simultaneous interpretation" -->
-<!-- text="Speak your native language. Hear everyone else — as if they spoke it too." -->
+<!-- text="Live speech translation in video calls — **no** delays, **no** lost deals, **no** language barriers." -->
 
 <HeroSection
   title="Meet in **Any** Language"
-  typingSpeed=5
-  text="Live speech translation in video calls — **no** delays, **no** lost deals, **no** language barriers.">
+  :typingSpeed="5"
+  text="Live speech translation in **video calls** — fast, clear, borderless communication.">
 
-  <AuthButton text="Try it in your language" buttonClass="brand" eventName="im_try_it_attempt"/>
+  <NavButton buttonLabel="How it works" buttonClass="brand" to="#how-it-works" />
+  <AuthButton text="Get started" buttonClass="alt" eventName="im_try_it_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Translation ≠ Understanding. Here’s what’s next.',
-  details: 'No matter the language, **your voice is heard — and understood** — as if you shared the same tongue.',
+  details: 'No matter the language, your voice is heard — and understood — as if you shared the same tongue.',
     items: [
       '✧ Naturally, in [real time](./product/overview/how-it-works), and without subtitles or lag.',
       '✧ AI-powered interpretation captures tone, intent, and industry-specific terminology.',
@@ -85,6 +86,52 @@ isHome: true
 > [!tip] Who is this for?  
 > Built for **international teams** where language barriers cause **delays**, **lost deals**, or **costly misunderstandings**. [Learn more ...](./product/overview/markets)
 
+<span id="HowItWorks"></span>
+
+## How It Works
+
+> 🎯 If you’ve used **Google Meet**, you already know how InterMind works — just with **live interpretation** built-in.
+> \[!tip] No setup. No training. Just talk — InterMind handles the rest.
+
+<FeatureCards :features="[
+  {
+    title: 'Sign up',
+    details: 'Create your free account in seconds. No credit card needed.',
+    icon: {
+      light: '/signUp.png',
+      dark: '/signUp.png',
+    }
+  },
+  {
+    title: 'Start a meeting',
+    details: 'Create a meeting or schedule in calendar. No downloads or installs required.',
+    icon: {
+      light: '/start.png',
+      dark: '/start.png',
+    }
+  },
+  {
+    title: 'Invite your guests',
+    details: 'Send a meeting link. No language settings required.',
+    link: '/uae-business/company-registration/accounting-legal',
+    icon: {
+      light: '/invite.png',
+      dark: '/invite.png',
+    }
+  },
+  {
+    title: 'Speak your language',
+    items: [
+      'Everyone talks in their **native language**', 
+      'Everyone hears the other side **instantly interpreted**'
+    ],
+    icon: {
+      light: '/meeting.png',
+      dark: '/meeting.png',
+    }
+  },
+]" />
+
 <br>
 
 <span id="Pricing"></span>
@@ -132,8 +179,8 @@ From first call to fluent conversations — at any scale.
     ],
   }
 ]">
-<AuthButton text="Try for free" buttonClass="alt" eventName="im_try_it_attempt"/>
-<AuthButton text="Buy now" buttonClass="brand" mode="checkout" eventName="im_buy_now_attempt"/>
+<AuthButton text="Try for free" buttonClass="brand" eventName="im_try_it_attempt"/>
+<AuthButton text="Buy now" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt"/>
 <ContactFormModalNav buttonText="Talk to our team" buttonClass="alt"/>
 </PricingPlans>
 

@@ -19,6 +19,9 @@ const props = defineProps<{
 
 const { navigateTo } = useLocalizedPath()
 
+const bulletStyle = computed(() => props.bullet || "•")
+const imageAlt = computed(() => props.images?.alt ?? props.title)
+
 // Add video detection computed property
 const isVideoLight = computed(() => props.images?.light?.toLowerCase().match(/\.(mp4|webm|ogg)$/))
 const isVideoDark = computed(() => props.images?.dark?.toLowerCase().match(/\.(mp4|webm|ogg)$/))
@@ -29,8 +32,8 @@ const renderedTitle = computed(() => {
 })
 
 const renderedDetails = computed(() => {
-  if (!props.details) return ""
-  return renderMarkdown(props.details)
+  // if (!props.details) return ""
+  return renderMarkdown(props.details ? props.details : "")
 })
 
 // Обработка маркдауна в элементах списка
@@ -44,8 +47,6 @@ const handleCardClick = () => {
     navigateTo(props.linkHref)
   }
 }
-
-const bulletStyle = computed(() => props.bullet || "•")
 </script>
 
 <template>
@@ -55,13 +56,13 @@ const bulletStyle = computed(() => props.bullet || "•")
       <video v-if="isVideoLight" autoplay muted playsinline class="feature-image light">
         <source :src="images.light" :type="`video/${images.light.split('.').pop()}`" />
       </video>
-      <img v-else :src="images.light" class="feature-image light" :alt="images.alt" />
+      <img v-else :src="images.light" class="feature-image light" :alt="imageAlt" />
 
       <!-- Dark theme media -->
       <video v-if="isVideoDark" autoplay muted playsinline class="feature-image dark">
         <source :src="images.dark" :type="`video/${images.dark.split('.').pop()}`" />
       </video>
-      <img v-else :src="images.dark" class="feature-image dark" :alt="images.alt" />
+      <img v-else :src="images.dark" class="feature-image dark" :alt="imageAlt" />
     </div>
 
     <h3 class="feature-title" v-html="renderedTitle"></h3>

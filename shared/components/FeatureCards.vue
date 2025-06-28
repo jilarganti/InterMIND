@@ -45,7 +45,7 @@ const columns = props.features.length
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
   gap: 24px;
-  margin: 32px 0;
+  margin-top: 32px;
 }
 
 @media (max-width: 640px) {
