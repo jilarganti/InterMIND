@@ -117,7 +117,7 @@ export const shared = defineConfig({
     ["link", { rel: "icon", type: "image/svg+xml", href: "/logo.svg" }],
     ["meta", { name: "theme-color", content: "#dd9144" }],
     ["meta", { property: "og:type", content: "website" }],
-    ["meta", { property: "og:site_name", content: "InterMIND" }],
+    ["meta", { property: "og:site_name", content: "mind.com" }],
     ["meta", { property: "og:url", content: hostUrl + "/" }],
     ...gtmHeadScript,
     ...gtmHeadNoScript,
