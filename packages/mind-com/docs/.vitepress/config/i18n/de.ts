@@ -3,10 +3,26 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/de"
 
 export const de = defineConfig({
-  description:
-    "InterMIND fügt Echtzeit-Sprachübersetzung zu jedem Videoanruf hinzu, damit internationale Teams niemals Geschäfte, Zeit oder Klarheit durch Sprachbarrieren verlieren.",
-  head: [["meta", { property: "og:title", content: "Videoanrufe mit simultaner Übersetzung | InterMIND" }]],
-
+  description: "InterMIND bietet Echtzeit-Sprachübersetzung für Videoanrufe — beseitigt Sprachbarrieren sofort. Entwickelt vom mind.com Team.",
+  head: [
+    [
+      "meta",
+      {
+        name: "description",
+        content: "InterMIND bietet Echtzeit-Sprachübersetzung für Videoanrufe — beseitigt Sprachbarrieren sofort. Entwickelt vom mind.com Team.",
+      },
+    ],
+    ["meta", { property: "og:title", content: "InterMIND | Echtzeit-Sprachübersetzung für globale Teams" }],
+    [
+      "meta",
+      {
+        property: "og:description",
+        content:
+          "InterMIND bietet sofortige Sprachübersetzung in Videoanrufen — klare, mehrsprachige Kommunikation ohne Barrieren. Entwickelt vom mind.com Team.",
+      },
+    ],
+    ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
+  ],
   themeConfig: {
     nav: [
       {
@@ -76,7 +92,7 @@ export const de = defineConfig({
       successTitle: "Vielen Dank!",
       successMessage: "Wir haben Ihre Nachricht erhalten — unser Team wird sich in Kürze bei Ihnen melden.",
       defaultCategories: [
-        "Sprachbarrieren in Meetings eliminieren",
+        "Sprachbarrieren in Meetings beseitigen",
         "Meetings durchsuchbar und umsetzbar machen",
         "Compliance & Datenresidenz sicherstellen (EU / US / Asien)",
         "Nur am Erkunden / Sonstiges",

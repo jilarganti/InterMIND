@@ -3,10 +3,26 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
-  description:
-    "InterMIND为每个视频通话添加实时语音翻译，让国际团队永远不会因为语言障碍而失去交易、时间或清晰度。",
-  head: [["meta", { property: "og:title", content: "由同声传译驱动的视频通话 | InterMIND" }]],
-
+  description: "InterMIND 为视频通话提供实时语音翻译——瞬间消除语言障碍。由 mind.com 团队提供技术支持。",
+  head: [
+    [
+      "meta",
+      {
+        name: "description",
+        content: "InterMIND 为视频通话提供实时语音翻译——瞬间消除语言障碍。由 mind.com 团队提供技术支持。",
+      },
+    ],
+    ["meta", { property: "og:title", content: "InterMIND | 全球团队实时语音翻译" }],
+    [
+      "meta",
+      {
+        property: "og:description",
+        content:
+          "InterMIND 在视频通话中提供即时语音翻译——清晰的多语言沟通，无障碍交流。由 mind.com 团队提供技术支持。",
+      },
+    ],
+    ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
+  ],
   themeConfig: {
     nav: [
       {
@@ -49,7 +65,7 @@ export const zh = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AI服务法律法规</a> | <a href="https://status.mind.com/">服务状态</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AI 服务法律法规</a> | <a href="https://status.mind.com/">服务状态</a>`,
     },
 
     localization: {
@@ -94,7 +110,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "概述",
       collapsed: false,
       items: [
-        { text: "什么是InterMIND？", link: "overview/what-is-intermind" },
+        { text: "什么是 InterMIND？", link: "overview/what-is-intermind" },
         { text: "工作原理", link: "overview/how-it-works" },
         { text: "视频会议平台", link: "overview/video-meeting-platform" },
         { text: "区域数据隐私", link: "overview/privacy-architecture" },
@@ -110,7 +126,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "创建会议", link: "guide/creating-meetings" },
         { text: "会议界面", link: "guide/meeting-interface" },
         { text: "用户角色", link: "guide/user-roles" },
-        { text: "AI功能", link: "guide/ai-features" },
+        { text: "AI 功能", link: "guide/ai-features" },
         { text: "会议历史", link: "guide/meeting-history" },
         { text: "常见问题", link: "guide/faq" },
         { text: "故障排除", link: "guide/troubleshooting" },

@@ -19,9 +19,6 @@ const APP_DOMAIN_DEV = "dev.intermind.com"
 const APP_BASE_URL = "https://" + (isProduction ? APP_DOMAIN : APP_DOMAIN_DEV)
 const OAUTH_PROVIDER_URL = APP_BASE_URL + "/auth"
 const CHECKOUT_URL = APP_BASE_URL + "/checkout"
-// const OAUTH_PROVIDER_URL = "https://dev.intermind.com/auth"
-// const CHECKOUT_URL = "https://dev.intermind.com/checkout"
-// const APP_BASE_URL = "https://dev.intermind.com"
 const OAUTH_CLIENT_ID = "vca"
 
 const vercelUrl = process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL

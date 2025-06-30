@@ -3,10 +3,26 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description:
-    "يضيف InterMIND ترجمة صوتية فورية لكل مكالمة فيديو، حتى لا تفقد الفرق الدولية أبداً الصفقات أو الوقت أو الوضوح بسبب حواجز اللغة.",
-  head: [["meta", { property: "og:title", content: "مكالمات الفيديو مدعومة بالترجمة الفورية | InterMIND" }]],
-
+  description: "InterMIND يوفر ترجمة فورية للكلام في مكالمات الفيديو — إزالة حواجز اللغة فوراً. مدعوم من فريق mind.com.",
+  head: [
+    [
+      "meta",
+      {
+        name: "description",
+        content: "InterMIND يوفر ترجمة فورية للكلام في مكالمات الفيديو — إزالة حواجز اللغة فوراً. مدعوم من فريق mind.com.",
+      },
+    ],
+    ["meta", { property: "og:title", content: "InterMIND | ترجمة فورية للكلام للفرق العالمية" }],
+    [
+      "meta",
+      {
+        property: "og:description",
+        content:
+          "InterMIND يقدم ترجمة فورية للكلام في مكالمات الفيديو — تواصل واضح ومتعدد اللغات بدون حواجز. مدعوم من فريق mind.com.",
+      },
+    ],
+    ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
+  ],
   themeConfig: {
     nav: [
       {

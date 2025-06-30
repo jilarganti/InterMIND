@@ -3,10 +3,26 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/es"
 
 export const es = defineConfig({
-  description:
-    "InterMIND añade traducción de voz en tiempo real a cada videollamada, para que los equipos internacionales nunca pierdan negocios, tiempo o claridad por las barreras del idioma.",
-  head: [["meta", { property: "og:title", content: "Videollamadas potenciadas por interpretación simultánea | InterMIND" }]],
-
+  description: "InterMIND proporciona traducción de voz en tiempo real para videollamadas — eliminando las barreras del idioma al instante. Desarrollado por el equipo de mind.com.",
+  head: [
+    [
+      "meta",
+      {
+        name: "description",
+        content: "InterMIND proporciona traducción de voz en tiempo real para videollamadas — eliminando las barreras del idioma al instante. Desarrollado por el equipo de mind.com.",
+      },
+    ],
+    ["meta", { property: "og:title", content: "InterMIND | Traducción de Voz en Tiempo Real para Equipos Globales" }],
+    [
+      "meta",
+      {
+        property: "og:description",
+        content:
+          "InterMIND ofrece traducción de voz instantánea en videollamadas — comunicación multilingüe clara sin barreras. Desarrollado por el equipo de mind.com.",
+      },
+    ],
+    ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
+  ],
   themeConfig: {
     nav: [
       {
@@ -32,7 +48,7 @@ export const es = defineConfig({
         //     text: "EXPLORAR",
         items: [
           // { text: "Precios", link: `${BASE_PATH}/#Pricing` },
-          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
+          { text: "Preguntas frecuentes", link: `${BASE_PATH}/#FAQ` },
           { text: "Testimonios", link: `${BASE_PATH}/#Testimonials` },
           // { text: "Equipo", link: `${BASE_PATH}/resources/team` },
           // { text: "Kit de medios", link: `${BASE_PATH}/resources/media-kit` },
@@ -62,8 +78,8 @@ export const es = defineConfig({
     contact_form: {
       name: "Nombre *",
       namePlaceholder: "tu nombre",
-      email: "Email *",
-      emailPlaceholder: "tu dirección de email",
+      email: "Correo electrónico *",
+      emailPlaceholder: "tu dirección de correo electrónico",
       webSite: "Sitio web de la empresa *",
       webSitePlaceholder: "ej. https://nombreempresa.com",
       webSiteError: "Por favor ingresa el sitio web",
@@ -76,7 +92,7 @@ export const es = defineConfig({
       successTitle: "¡Gracias!",
       successMessage: "Hemos recibido tu mensaje — nuestro equipo se pondrá en contacto contigo pronto.",
       defaultCategories: [
-        "Eliminar barreras de idioma en reuniones",
+        "Eliminar barreras del idioma en reuniones",
         "Hacer las reuniones buscables y accionables",
         "Asegurar cumplimiento y residencia de datos (UE / EE.UU. / Asia)",
         "Solo explorando / Otro",
@@ -112,7 +128,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Roles de usuario", link: "guide/user-roles" },
         { text: "Funciones de IA", link: "guide/ai-features" },
         { text: "Historial de reuniones", link: "guide/meeting-history" },
-        { text: "FAQ", link: "guide/faq" },
+        { text: "Preguntas frecuentes", link: "guide/faq" },
         { text: "Solución de problemas", link: "guide/troubleshooting" },
       ],
     },

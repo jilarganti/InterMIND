@@ -3,10 +3,26 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/fr"
 
 export const fr = defineConfig({
-  description:
-    "InterMIND ajoute la traduction vocale en temps réel à chaque appel vidéo, pour que les équipes internationales ne perdent jamais d'affaires, de temps ou de clarté à cause des barrières linguistiques.",
-  head: [["meta", { property: "og:title", content: "Appels vidéo alimentés par l'interprétation simultanée | InterMIND" }]],
-
+  description: "InterMIND fournit une traduction vocale en temps réel pour les appels vidéo — éliminant instantanément les barrières linguistiques. Propulsé par l'équipe mind.com.",
+  head: [
+    [
+      "meta",
+      {
+        name: "description",
+        content: "InterMIND fournit une traduction vocale en temps réel pour les appels vidéo — éliminant instantanément les barrières linguistiques. Propulsé par l'équipe mind.com.",
+      },
+    ],
+    ["meta", { property: "og:title", content: "InterMIND | Traduction vocale en temps réel pour les équipes mondiales" }],
+    [
+      "meta",
+      {
+        property: "og:description",
+        content:
+          "InterMIND offre une traduction vocale instantanée dans les appels vidéo — communication multilingue claire sans barrières. Propulsé par l'équipe mind.com.",
+      },
+    ],
+    ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
+  ],
   themeConfig: {
     nav: [
       {

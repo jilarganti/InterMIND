@@ -3,10 +3,26 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
-  description:
-    "InterMINDは、すべてのビデオ通話にリアルタイム音声翻訳を追加し、国際チームが言語の壁によって取引、時間、明確性を失うことがないようにします。",
-  head: [["meta", { property: "og:title", content: "同時通訳によるビデオ通話 | InterMIND" }]],
-
+  description: "InterMINDはビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームが開発。",
+  head: [
+    [
+      "meta",
+      {
+        name: "description",
+        content: "InterMINDはビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームが開発。",
+      },
+    ],
+    ["meta", { property: "og:title", content: "InterMIND | グローバルチーム向けリアルタイム音声翻訳" }],
+    [
+      "meta",
+      {
+        property: "og:description",
+        content:
+          "InterMINDはビデオ通話で瞬時の音声翻訳を提供 — 障壁のない明確で多言語コミュニケーション。mind.comチームが開発。",
+      },
+    ],
+    ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
+  ],
   themeConfig: {
     nav: [
       {
@@ -74,9 +90,9 @@ export const ja = defineConfig({
       submit: "リクエストを送信",
       sending: "送信中...",
       successTitle: "ありがとうございます！",
-      successMessage: "メッセージを受信いたしました。チームより間もなくご連絡いたします。",
+      successMessage: "メッセージを受信いたしました — チームより間もなくご連絡いたします。",
       defaultCategories: [
-        "会議での言語の壁を排除",
+        "会議での言語の壁を取り除く",
         "会議を検索可能で実行可能にする",
         "コンプライアンスとデータ居住性の確保（EU / US / アジア）",
         "探索中 / その他",

@@ -3,10 +3,26 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ru"
 
 export const ru = defineConfig({
-  description:
-    "InterMIND добавляет перевод речи в реальном времени к каждому видеозвонку, чтобы международные команды никогда не теряли сделки, время или ясность из-за языковых барьеров.",
-  head: [["meta", { property: "og:title", content: "Видеозвонки с синхронным переводом | InterMIND" }]],
-
+  description: "InterMIND обеспечивает перевод речи в реальном времени для видеозвонков — мгновенно устраняя языковые барьеры. Разработано командой mind.com.",
+  head: [
+    [
+      "meta",
+      {
+        name: "description",
+        content: "InterMIND обеспечивает перевод речи в реальном времени для видеозвонков — мгновенно устраняя языковые барьеры. Разработано командой mind.com.",
+      },
+    ],
+    ["meta", { property: "og:title", content: "InterMIND | Перевод речи в реальном времени для глобальных команд" }],
+    [
+      "meta",
+      {
+        property: "og:description",
+        content:
+          "InterMIND предлагает мгновенный перевод речи в видеозвонках — четкое многоязычное общение без барьеров. Разработано командой mind.com.",
+      },
+    ],
+    ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
+  ],
   themeConfig: {
     nav: [
       {
@@ -56,7 +72,7 @@ export const ru = defineConfig({
       placeholder4SearchInput: "Спросите что угодно...",
       placeholder4ChatFooter: "Спросите что угодно...",
       placeholder4ChatList: "Введите тему чата...",
-      buttonLabel4NavButton: "Мгновенный экспертный чат",
+      buttonLabel4NavButton: "Мгновенный чат с экспертом",
       buttonLabel4AuthButton: "Войти",
     },
     contact_form: {
