@@ -1,4 +1,4 @@
-# At InterMind, humans lead — AIs amplify
+# At Mind.com, humans lead, AI amplifies
 
 Together, we blend creativity, code, and understanding to erase language barriers for good.
 
