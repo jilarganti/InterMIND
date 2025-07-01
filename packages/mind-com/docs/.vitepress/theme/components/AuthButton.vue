@@ -46,7 +46,7 @@ const login = (event: Event): void => {
     channelId: props.text,
     // originId: generateOriginId(page.value.relativePath),
     // category: page.value.relativePath,
-    message: `gclid: "${gclid}" path: "${page.value.relativePath}" locale: "${currentLocale}"`,
+    message: `gclid: "${gclid}" | path: "${page.value.relativePath}" | locale: "${currentLocale}"`,
   }
 
   // Запускаем создание лида без ожидания результата
