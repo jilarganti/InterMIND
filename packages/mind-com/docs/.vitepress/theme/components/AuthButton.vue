@@ -71,17 +71,15 @@ const login = (event: Event): void => {
   // Сохраняем текущий путь для возврата после авторизации
   localStorage.setItem(REDIRECT_AFTER_AUTH_URI_KEY, location.pathname + location.search)
 
-  // Формируем базовые параметры для авторизации
+  const gclid = sessionStorage.getItem("gclid")
   const authParams = new URLSearchParams({
     client_id: import.meta.env.VITE_OAUTH_CLIENT_ID,
     scope: "openid",
     response_type: "code",
     state: nanoid(),
     redirect_uri: import.meta.env.VITE_APP_BASE_URL + "/auth",
+    ...(gclid && { gclid }),
   })
-
-  const gclid = sessionStorage.getItem("gclid")
-  if (gclid) authParams.set("gclid", gclid)
 
   if (props.mode === "checkout") {
     location.href = `${import.meta.env.VITE_CHECKOUT_URL}?locale=${currentLocale}&planCode=pro&billingCycle=MONTHLY&${authParams.toString()}`
