@@ -159,7 +159,7 @@ export function determineTrafficSource(): string {
  * Должен вызываться при загрузке приложения
  */
 export function initUtmTracking(): void {
-  if (typeof window === "undefined") return
+  // if (typeof window === "undefined") return
 
   // Извлекаем параметры из URL
   const urlParams = extractUtmFromUrl()
