@@ -29,6 +29,12 @@ const { submitToCRM } = usePipedriveCRM()
 const login = (event: Event): void => {
   event.preventDefault()
 
+  // Определяем текущую локаль из URL браузера
+  const pathSegments = location.pathname.split("/").filter(Boolean)
+  const currentLocale = pathSegments[0] && pathSegments[0] !== "en" ? pathSegments[0] : "en"
+
+  const gclid = sessionStorage.getItem("gclid")
+
   /**
    * TODO: Перенести или продублировать в продукте
    */
@@ -38,13 +44,9 @@ const login = (event: Event): void => {
     leadSource: inProduction ? determineTrafficSource() : "[test]",
     channel: "Web visitors",
     channelId: props.text,
-    originId: generateOriginId(page.value.relativePath),
-    category: page.value.relativePath,
-    // email: "",
-    // webSite: "",
-    // message: "",
-    // countryCode: "",
-    // countryName: "",
+    // originId: generateOriginId(page.value.relativePath),
+    // category: page.value.relativePath,
+    message: `gclid: "${gclid}" path: "${page.value.relativePath}" locale: "${currentLocale}"`,
   }
 
   // Запускаем создание лида без ожидания результата
@@ -55,7 +57,7 @@ const login = (event: Event): void => {
   // GTM tracking
   window.dataLayer?.push({
     event: props.eventName, // используем новый проп
-    // gclid: sessionStorage.getItem("gclid"),
+    gclid: gclid, // передаем gclid, если он есть
     // form_type: leadData.channel,
     // form_service: leadData.channelId,
     // form_URL: page.value.relativePath,
@@ -64,14 +66,9 @@ const login = (event: Event): void => {
     // lead_source: leadData.leadSource,
   })
 
-  // Определяем текущую локаль из URL браузера
-  const pathSegments = location.pathname.split("/").filter(Boolean)
-  const currentLocale = pathSegments[0] && pathSegments[0] !== "en" ? pathSegments[0] : "en"
-
   // Сохраняем текущий путь для возврата после авторизации
   localStorage.setItem(REDIRECT_AFTER_AUTH_URI_KEY, location.pathname + location.search)
 
-  const gclid = sessionStorage.getItem("gclid")
   const authParams = new URLSearchParams({
     client_id: import.meta.env.VITE_OAUTH_CLIENT_ID,
     scope: "openid",
