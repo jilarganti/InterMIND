@@ -80,6 +80,9 @@ const login = (event: Event): void => {
     redirect_uri: import.meta.env.VITE_APP_BASE_URL + "/auth",
   })
 
+  const gclid = sessionStorage.getItem("gclid")
+  if (gclid) authParams.set("gclid", gclid)
+
   if (props.mode === "checkout") {
     location.href = `${import.meta.env.VITE_CHECKOUT_URL}?locale=${currentLocale}&planCode=pro&billingCycle=MONTHLY&${authParams.toString()}`
   } else {

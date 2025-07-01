@@ -27,6 +27,10 @@ export default {
       app.component(name, component)
     })
 
+    // Сохраняем gclid в sessionStorage
+    const gclid = new URLSearchParams(location.search).get("gclid")
+    if (gclid) sessionStorage.setItem("gclid", gclid)
+
     // UTM-трекинг — только в браузере
     if (inBrowser) {
       initUtmTracking() // при первом визите
