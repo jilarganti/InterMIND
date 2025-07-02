@@ -6,4 +6,6 @@ layout: custom
 import MeetingInterface from "../../.vitepress/theme/components/MeetingInterface.vue"
 </script>
 
+# Account
+
 <MeetingInterface />

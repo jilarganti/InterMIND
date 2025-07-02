@@ -152,10 +152,13 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 function sidebarAccount(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "ACCOUNT",
+      text: "DASHBOARD",
+      link: "/account",
+    },
+    {
+      text: "MEETINGS",
       collapsed: false,
       items: [
-        // { text: "Dashboard", link: "/" },
         { text: "Meetings", link: "/account/meetings" },
         { text: "History", link: "/account/history" },
         { text: "Upgrade", link: "/account/upgrade" },

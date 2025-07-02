@@ -8,10 +8,14 @@ description: "Manage your meetings"
 
 Here you can manage all your meetings.
 
-## Active Meetings
-
-- No active meetings
-
 ## Scheduled Meetings
 
 - No scheduled meetings
+
+## Starred Meetings
+
+- No active meetings
+
+## Last Meetings
+
+- No active meetings
