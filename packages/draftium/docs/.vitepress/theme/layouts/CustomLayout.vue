@@ -65,12 +65,19 @@ const navigateTo = (link: string) => {
       <aside v-if="hasSidebar" class="sidebar" :class="{ 'sidebar-open': sidebarOpen }">
         <nav>
           <div v-for="group in sidebarItems" :key="group.text" class="sidebar-group">
-            <h3 class="sidebar-title">{{ group.text }}</h3>
-            <ul class="sidebar-links">
-              <li v-for="item in group.items" :key="item.link">
-                <button class="sidebar-link" @click="navigateTo(item.link)">{{ item.text }}</button>
-              </li>
-            </ul>
+            <!-- Если у группы есть прямая ссылка -->
+            <template v-if="group.link">
+              <button class="sidebar-title-link" @click="navigateTo(group.link)">{{ group.text }}</button>
+            </template>
+            <!-- Если у группы есть подэлементы -->
+            <template v-else>
+              <h3 class="sidebar-title">{{ group.text }}</h3>
+              <ul v-if="group.items" class="sidebar-links">
+                <li v-for="item in group.items" :key="item.link">
+                  <button class="sidebar-link" @click="navigateTo(item.link)">{{ item.text }}</button>
+                </li>
+              </ul>
+            </template>
           </div>
         </nav>
       </aside>
@@ -179,6 +186,29 @@ const navigateTo = (link: string) => {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin: 0 0 8px 0;
+}
+
+.sidebar-title-link {
+  display: block;
+  width: 100%;
+  /* padding: 8px 12px; */
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.sidebar-title-link:hover {
+  background-color: var(--vp-c-default-soft);
+  color: var(--vp-c-brand-1);
 }
 
 .sidebar-links {
