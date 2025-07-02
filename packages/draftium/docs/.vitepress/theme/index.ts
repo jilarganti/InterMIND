@@ -11,6 +11,7 @@ import { injectSpeedInsights } from "@vercel/speed-insights"
 import AuthButton from "./components/AuthButton.vue"
 import ContactFormModalNav from "./components/ContactFormModalNav.vue"
 import CustomLayout from "./layouts/CustomLayout.vue"
+import MeetingInterface from "./components/MeetingInterface.vue"
 
 const { SearchInput } = components
 
@@ -51,6 +52,7 @@ export default {
     app.component("AuthButton", AuthButton)
     app.component("ContactFormModalNav", ContactFormModalNav)
     app.component("CustomLayout", CustomLayout)
+    app.component("MeetingInterface", MeetingInterface)
 
     // Регистрация внешних компонентов пакета
     app.component("Icon", Icon)

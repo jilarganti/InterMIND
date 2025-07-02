@@ -77,13 +77,10 @@ const navigateTo = (link: string) => {
 
       <!-- Main Content -->
       <main class="main-content" :class="{ 'with-sidebar': hasSidebar }">
-        <Content v-if="page.isNotFound" />
-        <template v-else>
-          <!-- Markdown content -->
-          <div class="content-wrapper">
-            <Content />
-          </div>
-        </template>
+        <!-- Markdown content -->
+        <div class="content-wrapper">
+          <Content />
+        </div>
       </main>
     </div>
 
@@ -243,11 +240,71 @@ const navigateTo = (link: string) => {
   margin-bottom: 24px;
 }
 
-.content-wrapper {
-  max-width: 768px;
-  width: 100%;
-  text-align: left;
-  margin: 24px 0;
+/* Стили для Markdown контента */
+.content-wrapper h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 1rem 0;
+  color: var(--vp-c-text-1);
+}
+
+.content-wrapper h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 2rem 0 1rem 0;
+  color: var(--vp-c-text-1);
+}
+
+.content-wrapper h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 1.5rem 0 0.75rem 0;
+  color: var(--vp-c-text-1);
+}
+
+.content-wrapper p {
+  margin: 1rem 0;
+  color: var(--vp-c-text-1);
+  line-height: 1.6;
+}
+
+.content-wrapper ul,
+.content-wrapper ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+  color: var(--vp-c-text-1);
+}
+
+.content-wrapper li {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.content-wrapper code {
+  background: var(--vp-c-bg-soft);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.875em;
+  color: var(--vp-c-text-1);
+}
+
+.content-wrapper pre {
+  background: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+
+.content-wrapper blockquote {
+  border-left: 4px solid var(--vp-c-brand-1);
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: var(--vp-c-text-2);
+  font-style: italic;
 }
 
 .learn-more {
