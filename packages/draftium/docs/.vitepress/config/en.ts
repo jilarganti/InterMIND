@@ -40,13 +40,14 @@ export const en = defineConfig({
         //   },
         // ],
       },
+      { component: "TopNavigation" },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
-      ["/account/"]: { base: `${BASE_PATH}/`, items: sidebarAccount() },
-      ["/account/settings/"]: { base: `${BASE_PATH}/`, items: sidebarSettings() },
+      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
+      [`${BASE_PATH}/account/settings/`]: { base: `${BASE_PATH}/settings/`, items: sidebarSettings() },
     },
 
     footer: {
@@ -154,20 +155,20 @@ function sidebarAccount(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "DASHBOARD",
-      link: "/account",
+      link: "/",
     },
     {
       text: "MEETINGS",
       // link: "/account",
       items: [
-        { text: "Meetings", link: "/account/meetings" },
-        { text: "History", link: "/account/history" },
-        { text: "Upgrade", link: "/account/upgrade" },
+        { text: "Meetings", link: "/meetings" },
+        { text: "History", link: "/history" },
+        { text: "Upgrade", link: "/upgrade" },
       ],
     },
     {
       text: "SETTINGS",
-      link: "/account/settings/profile",
+      link: "/settings/profile",
     },
   ]
 }
@@ -177,8 +178,8 @@ function sidebarSettings(): DefaultTheme.SidebarItem[] {
       text: "SETTINGS",
       collapsed: false,
       items: [
-        { text: "Profile", link: "/account/settings/profile" },
-        { text: "Settings", link: "/account/settings/settings" },
+        { text: "Profile", link: "/settings/profile" },
+        { text: "Settings", link: "/settings/settings" },
       ],
     },
   ]

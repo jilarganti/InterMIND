@@ -10,8 +10,9 @@ import { inject } from "@vercel/analytics"
 import { injectSpeedInsights } from "@vercel/speed-insights"
 import AuthButton from "./components/AuthButton.vue"
 import ContactFormModalNav from "./components/ContactFormModalNav.vue"
-import CustomLayout from "./layouts/CustomLayout.vue"
-import MeetingInterface from "./components/MeetingInterface.vue"
+// import CustomLayout from "./layouts/CustomLayout.vue"
+// import MeetingInterface from "./components/MeetingInterface.vue"
+import TopNavigation from "./components/TopNavigation.vue"
 
 const { SearchInput } = components
 
@@ -22,9 +23,9 @@ export default {
     const { frontmatter } = useData()
 
     // Если это кастомный макет (встречи), используем CustomLayout
-    if (frontmatter.value.layout === "custom") {
-      return h(CustomLayout)
-    }
+    // if (frontmatter.value.layout === "custom") {
+    //   return h(CustomLayout)
+    // }
 
     // Иначе используем стандартный макет VitePress
     return h(DefaultTheme.Layout, null, {
@@ -51,8 +52,9 @@ export default {
     // Регистрация моих компонентов пакета
     app.component("AuthButton", AuthButton)
     app.component("ContactFormModalNav", ContactFormModalNav)
-    app.component("CustomLayout", CustomLayout)
-    app.component("MeetingInterface", MeetingInterface)
+    // app.component("CustomLayout", CustomLayout)
+    // app.component("MeetingInterface", MeetingInterface)
+    // app.component("TopNavigation", TopNavigation)
 
     // Регистрация внешних компонентов пакета
     app.component("Icon", Icon)

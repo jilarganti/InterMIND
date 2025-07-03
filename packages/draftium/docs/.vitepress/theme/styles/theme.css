@@ -21,6 +21,19 @@
   display: none !important;
 }
 
+/* Скрытие стандартных элементов VitePress только для кастомного макета */
+.VPNavBarAppearance .appearance {
+  display: none !important;
+}
+
+/* Скрытие переключателя темы */
+.VPSwitch {
+  display: none !important;
+}
+.VPNavBarTranslations {
+  display: none !important;
+}
+
 /* Для кастомного макета скрываем стандартную навигацию */
 body:has(.meet-wrapper) .VPNav,
 body:has(.meet-wrapper) .VPLocalNav,

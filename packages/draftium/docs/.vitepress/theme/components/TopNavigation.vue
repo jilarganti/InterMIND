@@ -3,6 +3,12 @@ import { ref, onMounted, onUnmounted } from "vue"
 import { useRouter } from "vitepress"
 import { Icon } from "@iconify/vue"
 
+import { useData } from "vitepress"
+import { computed } from "vue"
+
+const { frontmatter } = useData()
+const isAccount = computed(() => frontmatter.value.layout === "account")
+
 const router = useRouter()
 const time = ref("")
 const weekday = ref("")
@@ -36,7 +42,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="top-bar">
+  <div v-if="isAccount" class="top-bar">
     <div class="logo-container">
       <button @click="goTo('/')" class="logo-btn">
         <img src="/logo.svg" alt="Logo" class="top-logo" />
