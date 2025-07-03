@@ -1,5 +1,5 @@
 ---
-layout: custom
+layout: account
 title: "History"
 description: "Meeting history"
 ---

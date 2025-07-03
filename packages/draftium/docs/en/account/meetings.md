@@ -1,5 +1,5 @@
 ---
-layout: custom
+layout: account
 title: "Meetings"
 description: "Manage your meetings"
 ---
