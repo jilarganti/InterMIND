@@ -1,7 +1,5 @@
 ---
-layout: account
-title: "Meetings"
-description: "Manage your meetings"
+layout: AccountLayout
 ---
 
 # Meetings

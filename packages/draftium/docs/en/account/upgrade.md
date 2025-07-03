@@ -1,5 +1,5 @@
 ---
-layout: account
+layout: AccountLayout
 ---
 
 # Plans that grow with you

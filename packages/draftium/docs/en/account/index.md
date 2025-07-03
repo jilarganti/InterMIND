@@ -1,5 +1,5 @@
 ---
-layout: account
+layout: AccountLayout
 ---
 
 <!-- <script setup lang="ts">

@@ -1,7 +1,5 @@
 ---
-layout: account
-title: "History"
-description: "Meeting history"
+layout: AccountLayout
 ---
 
 # Meeting History

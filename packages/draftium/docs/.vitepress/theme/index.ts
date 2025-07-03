@@ -6,35 +6,14 @@ import "./styles/index.css"
 import { components } from "shared"
 import sharedTheme from "shared"
 import { Icon } from "@iconify/vue"
-import { inject } from "@vercel/analytics"
-import { injectSpeedInsights } from "@vercel/speed-insights"
 import AuthButton from "./components/AuthButton.vue"
 import ContactFormModalNav from "./components/ContactFormModalNav.vue"
-// import CustomLayout from "./layouts/CustomLayout.vue"
-// import MeetingInterface from "./components/MeetingInterface.vue"
-import TopNavigation from "./components/TopNavigation.vue"
+import AccountLayout from "./layouts/AccountLayout.vue"
 
-const { SearchInput } = components
-
-// Добавляем элементы в макет
 export default {
   ...sharedTheme,
   Layout() {
-    const { frontmatter } = useData()
-
-    // Если это кастомный макет (встречи), используем CustomLayout
-    // if (frontmatter.value.layout === "custom") {
-    //   return h(CustomLayout)
-    // }
-
-    // Иначе используем стандартный макет VitePress
     return h(DefaultTheme.Layout, null, {
-      // "nav-bar-content-before": () => {
-      //   return h(SearchInput)
-      // },
-
-      // Добавляем TopNavigation в начало nav-bar
-      "nav-bar-title-before": () => h(TopNavigation),
       "nav-bar-content-after": () =>
         h("div", { class: "auth-buttons-container" }, [
           h(AuthButton, {
@@ -55,17 +34,7 @@ export default {
     // Регистрация моих компонентов пакета
     app.component("AuthButton", AuthButton)
     app.component("ContactFormModalNav", ContactFormModalNav)
-    // app.component("CustomLayout", CustomLayout)
-    // app.component("MeetingInterface", MeetingInterface)
-    app.component("TopNavigation", TopNavigation)
-
-    // Регистрация внешних компонентов пакета
+    app.component("AccountLayout", AccountLayout)
     app.component("Icon", Icon)
-
-    // Vercel Analytics
-    if (typeof window !== "undefined") {
-      inject()
-      injectSpeedInsights()
-    }
   },
 }
