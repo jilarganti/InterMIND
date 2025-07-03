@@ -40,7 +40,7 @@ export const en = defineConfig({
         //   },
         // ],
       },
-      { component: "TopNavigation" },
+      // { component: "TopNavigation" },
     ],
 
     sidebar: {

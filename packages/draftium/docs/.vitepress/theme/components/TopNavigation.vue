@@ -1,15 +1,16 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from "vue"
-import { useRouter } from "vitepress"
+import { ref, onMounted, onUnmounted, computed } from "vue"
+import { useRouter, useData } from "vitepress"
 import { Icon } from "@iconify/vue"
 
-import { useData } from "vitepress"
-import { computed } from "vue"
-
-const { frontmatter } = useData()
-const isAccount = computed(() => frontmatter.value.layout === "account")
-
 const router = useRouter()
+const { page } = useData()
+
+// Проверяем через page.relativePath или напрямую через window.location
+const isAccount = computed(() => {
+  return page.value.relativePath.startsWith("account/")
+})
+
 const time = ref("")
 const weekday = ref("")
 const day = ref("")
@@ -81,7 +82,7 @@ onUnmounted(() => {
   top: 0;
   left: 0;
   right: 0;
-  height: 48px;
+  height: 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -32,6 +32,9 @@ export default {
       // "nav-bar-content-before": () => {
       //   return h(SearchInput)
       // },
+
+      // Добавляем TopNavigation в начало nav-bar
+      "nav-bar-title-before": () => h(TopNavigation),
       "nav-bar-content-after": () =>
         h("div", { class: "auth-buttons-container" }, [
           h(AuthButton, {
@@ -54,7 +57,7 @@ export default {
     app.component("ContactFormModalNav", ContactFormModalNav)
     // app.component("CustomLayout", CustomLayout)
     // app.component("MeetingInterface", MeetingInterface)
-    // app.component("TopNavigation", TopNavigation)
+    app.component("TopNavigation", TopNavigation)
 
     // Регистрация внешних компонентов пакета
     app.component("Icon", Icon)
