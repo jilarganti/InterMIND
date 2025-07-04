@@ -12,13 +12,13 @@ isHome: true
   :typingSpeed="5"
   text="Live-Sprachübersetzung in **Videoanrufen** — schnelle, klare, grenzenlose Kommunikation.">
 
-  <NavButton buttonLabel="Wie es funktioniert" buttonClass="brand" to="/#HowItWorks" />
-  <AuthButton text="Loslegen" buttonClass="alt" eventName="im_get_started_attempt"/>
+  <NavButton buttonLabel="So funktioniert es" buttonClass="brand" to="/#HowItWorks" />
+  <AuthButton text="Jetzt starten" buttonClass="alt" eventName="im_get_started_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: 'Übersetzung ≠ Verstehen. Hier ist, was als nächstes kommt.',
+  title: 'Übersetzung ≠ Verstehen. Hier ist die Zukunft.',
   details: 'Unabhängig von der Sprache wird Ihre Stimme gehört — und verstanden — als würden Sie dieselbe Sprache sprechen.',
     items: [
       '✧ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
@@ -51,10 +51,10 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Entwickelt für ernsthafte Meetings — nicht nur zum Reden',
+    title: 'Für ernsthafte Meetings entwickelt — nicht nur zum Reden',
     details: 'InterMind ist eine [professionelle Video-Meeting-Plattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
     items: [
-      '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles eingebaut, **sofort einsatzbereit**.',
+      '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -67,7 +67,7 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Datenschutz, wo es darauf ankommt',
+    title: 'Datenschutz wo es darauf ankommt',
     details:
       'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Datenschutz und Kontrolle am wichtigsten sind.',
     items: [
@@ -191,7 +191,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
     details: 'keine Kreditkarte erforderlich',
     items: [
       '**25** Meetings',
-      '**100** Teilnehmer Video-Meetings [💬](#3)',
+      '**100** Teilnehmer Videomeetings [💬](#3)',
       '**30** GB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
       'Simultandolmetschen [💬](#1)',
@@ -203,7 +203,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
     details: 'oder 25 € monatlich abgerechnet',
     items: [
       '**Unbegrenzte** Meetings',
-      '**150** Teilnehmer Video-Meetings [💬](#3)',
+      '**150** Teilnehmer Videomeetings [💬](#3)',
       '**2** TB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
       'Simultandolmetschen [💬](#1)',
@@ -215,7 +215,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
     details: 'Entwickelt für Datenschutz',
     items: [
       '**Unbegrenzte** Meetings',
-      '**500** Teilnehmer Video-Meetings [💬](#3)',
+      '**500** Teilnehmer Videomeetings [💬](#3)',
       '**5** TB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
       'Simultandolmetschen [💬](#1)',
@@ -225,7 +225,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
 ]">
 <AuthButton text="Kostenlos testen" buttonClass="brand" eventName="im_try_it_attempt"/>
 <AuthButton text="Jetzt kaufen" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt"/>
-<ContactFormModalNav buttonText="Mit unserem Team sprechen" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Sprechen Sie mit unserem Team" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 😱 Entweder Sie sprechen jede Sprache — oder jemand anderes schließt Ihre Geschäfte ab.
@@ -246,7 +246,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
 [
   {
     q: 'Welche Sprachen unterstützt InterMind für die Dolmetschung?',
-    a: 'InterMind unterstützt **Echtzeit-Dolmetschung** in den folgenden 19 Sprachen:<br><br>- العربية (ar) – Arabisch<br>- Čeština (cs) – Tschechisch<br>- Deutsch (de) – Deutsch<br>- English (en) – Englisch<br>- Español (es) – Spanisch<br>- Français (fr) – Französisch<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Ungarisch<br>- Italiano (it) – Italienisch<br>- 日本語 (ja) – Japanisch<br>- 한국어 (ko) – Koreanisch<br>- Nederlands (nl) – Niederländisch<br>- Polski (pl) – Polnisch<br>- Português (pt) – Portugiesisch<br>- Русский (ru) – Russisch<br>- Türkçe (tr) – Türkisch<br>- 中文 (zh) – Chinesisch<br>- עברית (he) – Hebräisch<br>- ไทย (th) – Thai<br><br>Wir erweitern diese Liste kontinuierlich — neue Sprachen werden mit jeder größeren Version hinzugefügt.'
+    a: 'InterMind unterstützt **Echtzeit-Dolmetschung** in den folgenden 19 Sprachen:<br><br>- العربية (ar) – Arabisch<br>- Čeština (cs) – Tschechisch<br>- Deutsch (de) – Deutsch<br>- English (en) – Englisch<br>- Español (es) – Spanisch<br>- Français (fr) – Französisch<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Ungarisch<br>- Italiano (it) – Italienisch<br>- 日本語 (ja) – Japanisch<br>- 한국어 (ko) – Koreanisch<br>- Nederlands (nl) – Niederländisch<br>- Polski (pl) – Polnisch<br>- Português (pt) – Portugiesisch<br>- Русский (ru) – Russisch<br>- Türkçe (tr) – Türkisch<br>- 中文 (zh) – Chinesisch<br><br>Wir erweitern diese Liste kontinuierlich — neue Sprachen werden mit jeder größeren Version hinzugefügt.'
   },
   {
     q: 'Was ist ein lizenzierter Benutzer und was ist ein Teilnehmer?',
@@ -254,19 +254,19 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
   },
   {
     q: 'Wie viele Personen können eine InterMind-Lizenz verwenden?',
-    a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt Meetings** veranstalten. Wenn mehrere Teammitglieder gleichzeitig Meetings veranstalten müssen, benötigt jeder seine eigene Lizenz.'
+    a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt Meetings** hosten. Wenn mehrere Teammitglieder gleichzeitig Meetings hosten müssen, benötigt jeder seine eigene Lizenz.'
   },
   {
     q: 'Wie lange kann ein Meeting maximal dauern?',
-    a: 'Meetings können in allen Plänen bis zu **24 Stunden** dauern.'
+    a: 'Meetings können in allen Plänen bis zu **24 Stunden** laufen.'
   },
   {
-    q: 'Gibt es eine Begrenzung für die Anzahl der Meetings, die ich veranstalten kann?',
+    q: 'Gibt es eine Begrenzung für die Anzahl der Meetings, die ich hosten kann?',
     a: 'Der *Free Basic*-Plan beinhaltet **25 kostenlose Meetings**. *Pro*- und *Business*-Pläne bieten unbegrenzte Meetings mit mehr Teilnehmern und Kontrolle.'
   },
   {
     q: 'Wie gewährleistet InterMind Datenschutz und Sicherheit?',
-    a: 'InterMind ist **standardmäßig privat**. Alle Daten werden in Ihrer ausgewählten **Datenschutzzone** verarbeitet und gespeichert — _EU_, _USA_ oder _Asien_. Wir entsprechen der [**DSGVO**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) und UAE PDPL und **verwenden niemals Ihre Inhalte** für Training oder Zugriff durch Dritte. Erweiterte [Datenschutzzonen-Kontrolle](./product/overview/privacy-architecture) ist im **Business**-Plan verfügbar.'
+    a: 'InterMind ist **standardmäßig privat**. Alle Daten werden in Ihrer ausgewählten **Datenschutzzone** verarbeitet und gespeichert — _EU_, _US_ oder _Asien_. Wir entsprechen der [**DSGVO**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) und UAE PDPL und **verwenden niemals Ihre Inhalte** für Training oder Zugriff durch Dritte. Erweiterte [Datenschutzzonen-Kontrolle](./product/overview/privacy-architecture) ist im **Business**-Plan verfügbar.'
   },
   {
     q: 'Kann ich InterMind vor dem Kauf eines Plans testen?',
@@ -278,7 +278,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
   },
   {
     q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
-    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Bei Kündigungen werden *Monatspläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.'
+    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Bei Kündigungen werden *monatliche Pläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.'
   },
   {
     q: 'Kann ich InterMind für Webinare oder große Veranstaltungen verwenden?',

@@ -84,7 +84,7 @@ isHome: true
 />
 
 > [!tip] 这适合谁？  
-> 专为**国际团队**构建，解决语言障碍导致的**延误**、**错失交易**或**代价高昂的误解**。[了解更多...](./product/overview/markets)
+> 专为**国际团队**构建，解决语言障碍导致的**延迟**、**错失交易**或**代价高昂的误解**。[了解更多...](./product/overview/markets)
 
 <span id="HowItWorks"></span>
 
@@ -246,7 +246,7 @@ isHome: true
 [
   {
     q: 'InterMind支持哪些语言的口译？',
-    a: 'InterMind支持以下19种语言的**实时口译**：<br><br>- العربية (ar) – 阿拉伯语<br>- Čeština (cs) – 捷克语<br>- Deutsch (de) – 德语<br>- English (en) – 英语<br>- Español (es) – 西班牙语<br>- Français (fr) – 法语<br>- हिन्दी (hi) – 印地语<br>- Magyar (hu) – 匈牙利语<br>- Italiano (it) – 意大利语<br>- 日本語 (ja) – 日语<br>- 한국어 (ko) – 韩语<br>- Nederlands (nl) – 荷兰语<br>- Polski (pl) – 波兰语<br>- Português (pt) – 葡萄牙语<br>- Русский (ru) – 俄语<br>- Türkçe (tr) – 土耳其语<br>- 中文 (zh) – 中文<br>- עברית (he) – 希伯来语<br>- ไทย (th) – 泰语<br><br>我们正在不断扩展这个列表——每个主要版本都会添加新语言。'
+    a: 'InterMind支持以下19种语言的**实时口译**：<br><br>- العربية (ar) – 阿拉伯语<br>- Čeština (cs) – 捷克语<br>- Deutsch (de) – 德语<br>- English (en) – 英语<br>- Español (es) – 西班牙语<br>- Français (fr) – 法语<br>- हिन्दी (hi) – 印地语<br>- Magyar (hu) – 匈牙利语<br>- Italiano (it) – 意大利语<br>- 日本語 (ja) – 日语<br>- 한국어 (ko) – 韩语<br>- Nederlands (nl) – 荷兰语<br>- Polski (pl) – 波兰语<br>- Português (pt) – 葡萄牙语<br>- Русский (ru) – 俄语<br>- Türkçe (tr) – 土耳其语<br>- 中文 (zh) – 中文<br><br>我们正在不断扩展这个列表——每个主要版本都会添加新语言。'
   },
   {
     q: '什么是许可用户和参与者？',
@@ -258,7 +258,7 @@ isHome: true
   },
   {
     q: '会议的最长持续时间是多少？',
-    a: '所有计划的会议都可以持续**24小时**。'
+    a: '所有计划的会议都可以运行长达**24小时**。'
   },
   {
     q: '我可以主持的会议数量有限制吗？',
