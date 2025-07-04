@@ -13,7 +13,7 @@ isHome: true
   text="**视频通话**中的实时语音翻译——快速、清晰、无界限的沟通。">
 
   <NavButton buttonLabel="工作原理" buttonClass="brand" to="/#HowItWorks" />
-  <AuthButton text="开始使用" buttonClass="alt" eventName="im_try_it_attempt"/>
+  <AuthButton text="开始使用" buttonClass="alt" eventName="im_get_started_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -84,7 +84,7 @@ isHome: true
 />
 
 > [!tip] 这适合谁？  
-> 专为**国际团队**构建，解决语言障碍导致的**延迟**、**错失交易**或**代价高昂的误解**。[了解更多...](./product/overview/markets)
+> 专为**国际团队**构建，解决语言障碍导致的**延误**、**错失交易**或**代价高昂的误解**。[了解更多...](./product/overview/markets)
 
 <span id="HowItWorks"></span>
 
@@ -149,14 +149,14 @@ isHome: true
 这个单一语言设置适用于：
 
 - **界面语言**
-- **语音输入**（您说的内容）
+- **语音输入**（您说的话）
 - **翻译输出**（您听到的内容）
 
-| 参与者  | 选择的语言 | 说话语言 | 听取语言 |
-| ------- | ---------- | -------- | -------- |
-| 主持人  | 西班牙语   | 西班牙语 | 西班牙语 |
-| 参与者1 | 英语       | 英语     | 英语     |
-| 参与者2 | 中文       | 中文     | 中文     |
+| 参与者    | 选择的语言 | 说话语言 | 听取语言 |
+| --------- | ---------- | -------- | -------- |
+| 主持人    | 西班牙语   | 西班牙语 | 西班牙语 |
+| 参与者1   | 英语       | 英语     | 英语     |
+| 参与者2   | 中文       | 中文     | 中文     |
 
 平台自动实时解释所有语音——因此每个人都能像说同一种语言一样进行交流。
 
@@ -245,8 +245,8 @@ isHome: true
 <AccordionGroup :items="
 [
   {
-    q: 'InterMind支持哪些语言的口译服务？',
-    a: 'InterMind支持以下19种语言的**实时口译**：<br><br>- العربية (ar) – 阿拉伯语<br>- Čeština (cs) – 捷克语<br>- Deutsch (de) – 德语<br>- English (en) – 英语<br>- Español (es) – 西班牙语<br>- Français (fr) – 法语<br>- हिन्दी (hi) – 印地语<br>- Magyar (hu) – 匈牙利语<br>- Italiano (it) – 意大利语<br>- 日本語 (ja) – 日语<br>- 한국어 (ko) – 韩语<br>- Nederlands (nl) – 荷兰语<br>- Polski (pl) – 波兰语<br>- Português (pt) – 葡萄牙语<br>- Русский (ru) – 俄语<br>- Türkçe (tr) – 土耳其语<br>- 中文 (zh) – 中文<br>- עברית (he) – 希伯来语<br>- ไทย (th) – 泰语<br><br>我们正在不断扩展这个列表——每次主要版本更新都会添加新语言。'
+    q: 'InterMind支持哪些语言的口译？',
+    a: 'InterMind支持以下19种语言的**实时口译**：<br><br>- العربية (ar) – 阿拉伯语<br>- Čeština (cs) – 捷克语<br>- Deutsch (de) – 德语<br>- English (en) – 英语<br>- Español (es) – 西班牙语<br>- Français (fr) – 法语<br>- हिन्दी (hi) – 印地语<br>- Magyar (hu) – 匈牙利语<br>- Italiano (it) – 意大利语<br>- 日本語 (ja) – 日语<br>- 한국어 (ko) – 韩语<br>- Nederlands (nl) – 荷兰语<br>- Polski (pl) – 波兰语<br>- Português (pt) – 葡萄牙语<br>- Русский (ru) – 俄语<br>- Türkçe (tr) – 土耳其语<br>- 中文 (zh) – 中文<br>- עברית (he) – 希伯来语<br>- ไทย (th) – 泰语<br><br>我们正在不断扩展这个列表——每个主要版本都会添加新语言。'
   },
   {
     q: '什么是许可用户和参与者？',
@@ -254,11 +254,11 @@ isHome: true
   },
   {
     q: '一个InterMind许可证可以供多少人使用？',
-    a: '每个*许可用户*可以主持**无限次会议**。如果多个团队成员需要同时主持会议，每人都需要自己的许可证。'
+    a: '每个*许可用户*可以主持**无限次会议**。如果多个团队成员需要同时主持会议，每个人都需要自己的许可证。'
   },
   {
     q: '会议的最长持续时间是多少？',
-    a: '所有计划的会议都可以持续长达**24小时**。'
+    a: '所有计划的会议都可以持续**24小时**。'
   },
   {
     q: '我可以主持的会议数量有限制吗？',
@@ -279,10 +279,6 @@ isHome: true
   {
     q: '如何管理我的订阅（升级、降级或取消）？',
     a: '您可以随时通过**账户设置**更改计划。更改**立即生效**。对于取消，*月度计划*在计费周期结束时取消。*年度计划*可以取消并获得**按比例退款**。'
-  },
-  {
-    q: 'InterMind支持哪些语言的口译服务？',
-    a: '我们支持**100多种语言**的实时口译。语言列表持续增长——请查看我们的网站获取更新。'
   },
   {
     q: '我可以使用InterMind进行网络研讨会或大型活动吗？',
@@ -326,7 +322,7 @@ isHome: true
       { text: '关于我们', link: './resources/company/about' },
       { text: '团队', link: './resources/company/team' },
       // { text: 'Careers', link: './resources/company/careers' },
-      { text: '联系方式', link: './resources/company/contacts' }
+      { text: '联系我们', link: './resources/company/contacts' }
     ]
   },
 ]" />

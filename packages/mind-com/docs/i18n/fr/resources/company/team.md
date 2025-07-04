@@ -1,6 +1,6 @@
-# Chez InterMind, les humains dirigent — les IA amplifient
+# Chez Mind.com, les humains dirigent, l'IA amplifie
 
-Ensemble, nous mélangeons créativité, code et compréhension pour éliminer définitivement les barrières linguistiques.
+Ensemble, nous mélangeons créativité, code et compréhension pour effacer définitivement les barrières linguistiques.
 
 ## Équipe humaine
 

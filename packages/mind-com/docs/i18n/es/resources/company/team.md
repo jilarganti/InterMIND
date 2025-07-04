@@ -1,4 +1,4 @@
-# En InterMind, los humanos lideran — las IAs amplifican
+# En Mind.com, los humanos lideran, la IA amplifica
 
 Juntos, combinamos creatividad, código y comprensión para eliminar las barreras del idioma para siempre.
 

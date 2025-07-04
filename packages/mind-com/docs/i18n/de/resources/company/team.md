@@ -1,4 +1,4 @@
-# Bei InterMind führen Menschen — KIs verstärken
+# Bei Mind.com führen Menschen, KI verstärkt
 
 Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren für immer zu beseitigen.
 
@@ -114,7 +114,7 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
   },
   {
     name: 'ChatGPT',
-    desc: 'Mit Nuancen und Gedächtnis interpretieren',
+    desc: 'Interpretieren mit Nuancen und Gedächtnis',
     country: 'USA',
     avatarLink: 'streamline-logos:openai-logo',
     links: [
@@ -123,7 +123,7 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
   },
   {
     name: 'DeepSeek',
-    desc: 'In Code denken und im Kontext schlussfolgern',
+    desc: 'In Code denken und im Kontext argumentieren',
     country: 'China',
     avatarLink: 'arcticons:deepseek',
     links: [

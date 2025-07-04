@@ -281,10 +281,6 @@ From first call to fluent conversations — at any scale.
     a: 'You can change your plan anytime through your **account settings**. Changes take effect **immediately**. For cancellations, *Monthly plans* cancel at the end of the billing cycle. *Annual plans* can be canceled for a **prorated refund**.'
   },
   {
-    q: 'What languages does InterMind support for interpretation?',
-    a: 'We support **100+ languages** with real-time interpretation. The list keeps growing — check our website for updates.'
-  },
-  {
     q: 'Can I use InterMind for webinars or large events?',
     a: 'Yes. *Pro* and *Business* plans are ideal for **large meetings and webinars** — with support for up to **500 participants** on *Business*.'
   },
