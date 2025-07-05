@@ -6,10 +6,13 @@ layout: AccountLayout
 import MeetingInterface from "../../.vitepress/theme/components/MeetingInterface.vue"
 </script>
 
-# Account
+# Admin Dashboard
 
 <MeetingInterface />
 
+# TEST
+
+:::details
 <TeamMembersGrid :members="[
   {
     name: 'Jilarganti',
@@ -45,13 +48,13 @@ import MeetingInterface from "../../.vitepress/theme/components/MeetingInterface
         title: '**Sign up for free**',
     details: 'Get started in seconds — no credit card needed.',
     icon: {
-        light: '/signUp.png',
+        light: '/account/calendar-icon-logo-free-vector.jpg',
       dark: '/signUp.png',
     }
   },
   {
       title: '**Start a meeting**',
-    details: 'Create a meeting or schedule in calendar. No downloads or installs required.',
+    details: 'Get started in seconds — no credit card needed.',
     icon: {
         light: '/start.png',
       dark: '/start.png',
@@ -59,7 +62,7 @@ import MeetingInterface from "../../.vitepress/theme/components/MeetingInterface
   },
   {
       title: '**Invite your guests**',
-    details: 'Share a link — your guest just clicks and joins. No language settings required.',
+    details: 'Get started in seconds — no credit card needed.',
     link: '/uae-business/company-registration/accounting-legal',
     icon: {
         light: '/invite.png',
@@ -69,16 +72,14 @@ import MeetingInterface from "../../.vitepress/theme/components/MeetingInterface
 ]" />
 
 </div>
-
+:::
 <style scoped>
 
-
 .feature-cards {
-  text-align: center;
-  margin: 0 auto;
-  max-width: 800px;
-  width: 100%;
-}   
-
+text-align: center;
+margin: 0 auto;
+max-width: 800px;
+width: 100%;
+}
 
 </style>

@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue"
-
-// Импорт вашего компонента кнопки
-// import Button from './Button.vue'
+import { Icon } from "@iconify/vue"
 
 interface Props {
   meetingId?: string
@@ -36,20 +34,26 @@ const copyMeetingId = async () => {
 <template>
   <div class="meeting-panel">
     <div class="buttons-container">
-      <div class="button-item">
-        <div class="button-icon schedule-icon">📅</div>
-        <Button :href="scheduleUrl" text="Schedule" />
-      </div>
+      <a :href="scheduleUrl" class="button-item">
+        <div class="button-icon schedule-icon">
+          <Icon icon="mdi:calendar" style="font-size: 24px" />
+        </div>
+        <span class="button-text">Schedule</span>
+      </a>
 
-      <div class="button-item">
-        <div class="button-icon join-icon">➕</div>
-        <Button :href="joinUrl" text="Join" />
-      </div>
+      <a :href="joinUrl" class="button-item">
+        <div class="button-icon join-icon">
+          <Icon icon="mdi:plus" style="font-size: 24px" />
+        </div>
+        <span class="button-text">Join</span>
+      </a>
 
-      <div class="button-item">
-        <div class="button-icon host-icon">📹</div>
-        <Button :href="hostUrl" text="Host" />
-      </div>
+      <a :href="hostUrl" class="button-item">
+        <div class="button-icon host-icon">
+          <Icon icon="mdi:video" style="font-size: 24px" />
+        </div>
+        <span class="button-text">Host</span>
+      </a>
     </div>
 
     <div class="meeting-id-section">
@@ -57,7 +61,7 @@ const copyMeetingId = async () => {
       <div class="meeting-id-container">
         <span class="meeting-id">{{ meetingId }}</span>
         <button @click="copyMeetingId" class="copy-button" :title="copied ? 'Скопировано!' : 'Копировать ID'">
-          {{ copied ? "✓" : "📋" }}
+          <Icon :icon="copied ? 'mdi:check' : 'mdi:content-copy'" style="font-size: 16px" />
         </button>
       </div>
     </div>
@@ -85,6 +89,18 @@ const copyMeetingId = async () => {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.button-item:hover {
+  transform: translateY(-2px);
+}
+
+.button-text {
+  color: var(--vp-c-text-1);
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .button-icon {
@@ -157,6 +173,15 @@ const copyMeetingId = async () => {
   .button-item {
     flex-direction: row;
     gap: 15px;
+    width: 100%;
+    max-width: 200px;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .button-item:hover {
+    background: var(--vp-c-bg-soft);
   }
 
   .button-icon {

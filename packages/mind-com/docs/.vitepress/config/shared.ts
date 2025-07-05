@@ -8,7 +8,8 @@ const isProduction = process.env.VERCEL_ENV === "production"
 
 // Обновляем URL сайта документации
 const hostUrl = "https://mind.com"
-const NOINDEX_PAGES = ["exp", "chat", "/company/", "promo/imind"]
+// const NOINDEX_PAGES = ["exp", "chat", "/company/", "promo/imind"]
+const NOINDEX_PAGES = ["exp", "chat"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
 // Список UTM-параметров для сохранения в параметрах страницы
 const UTM_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "campaign_id"]

@@ -1,0 +1,1 @@
+# Mind'da Kariyer Fırsatları <Badge type="danger" text="Draft" />

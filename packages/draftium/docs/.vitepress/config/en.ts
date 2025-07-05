@@ -140,7 +140,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 function sidebarAccount(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "DASHBOARD",
+      text: "HOME",
       link: "/",
     },
     {

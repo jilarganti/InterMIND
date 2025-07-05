@@ -1,0 +1,1 @@
+# Mind में करियर <Badge type="danger" text="Draft" />
