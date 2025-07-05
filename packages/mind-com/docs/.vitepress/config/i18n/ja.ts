@@ -48,7 +48,7 @@ export const ja = defineConfig({
         //     text: "探索",
         items: [
           // { text: "料金", link: `${BASE_PATH}/#Pricing` },
-          { text: "よくある質問", link: `${BASE_PATH}/#FAQ` },
+          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "お客様の声", link: `${BASE_PATH}/#Testimonials` },
           // { text: "チーム", link: `${BASE_PATH}/resources/team` },
           // { text: "メディアキット", link: `${BASE_PATH}/resources/media-kit` },
@@ -90,11 +90,11 @@ export const ja = defineConfig({
       submit: "リクエストを送信",
       sending: "送信中...",
       successTitle: "ありがとうございます！",
-      successMessage: "メッセージを受信いたしました — チームより間もなくご連絡いたします。",
+      successMessage: "メッセージを受信しました — チームより間もなくご連絡いたします。",
       defaultCategories: [
         "会議での言語の壁を取り除く",
         "会議を検索可能で実行可能にする",
-        "コンプライアンスとデータ居住性の確保（EU / US / アジア）",
+        "コンプライアンスとデータ居住性を確保（EU / US / アジア）",
         "探索中 / その他",
       ],
 
@@ -128,8 +128,10 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "ユーザーロール", link: "guide/user-roles" },
         { text: "AI機能", link: "guide/ai-features" },
         { text: "会議履歴", link: "guide/meeting-history" },
-        { text: "よくある質問", link: "guide/faq" },
+        { text: "FAQ", link: "guide/faq" },
         { text: "トラブルシューティング", link: "guide/troubleshooting" },
+        { text: "料金", link: "guide/pricing" },
+        { text: "ヘルプ＆サポート", link: "guide/help-support" },
       ],
     },
   ]

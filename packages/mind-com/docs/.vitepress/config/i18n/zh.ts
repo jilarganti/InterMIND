@@ -49,7 +49,7 @@ export const zh = defineConfig({
         items: [
           // { text: "定价", link: `${BASE_PATH}/#Pricing` },
           { text: "常见问题", link: `${BASE_PATH}/#FAQ` },
-          { text: "客户评价", link: `${BASE_PATH}/#Testimonials` },
+          { text: "用户评价", link: `${BASE_PATH}/#Testimonials` },
           // { text: "团队", link: `${BASE_PATH}/resources/team` },
           // { text: "媒体资料包", link: `${BASE_PATH}/resources/media-kit` },
         ],
@@ -130,6 +130,8 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "会议历史", link: "guide/meeting-history" },
         { text: "常见问题", link: "guide/faq" },
         { text: "故障排除", link: "guide/troubleshooting" },
+        { text: "定价", link: "guide/pricing" },
+        { text: "帮助与支持", link: "guide/help-support" },
       ],
     },
   ]

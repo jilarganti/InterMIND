@@ -1,58 +1,54 @@
 # Benutzerrollen
 
-iMind Meeting unterscheidet vier verschiedene Benutzerrollen, die jeweils sorgfältig entwickelt wurden, um sichere, kollaborative und anpassbare Meeting-Erlebnisse zu ermöglichen. Die Gastgeber-Rolle verfügt über die höchste Autoritätsstufe, während die anderen Rollen unterschiedliche Interaktionsmöglichkeiten bieten.
+InterMIND unterscheidet vier verschiedene Benutzerrollen, die jeweils sorgfältig entwickelt wurden, um sichere, kollaborative und anpassungsfähige Meeting-Erfahrungen zu verbessern. Die Host-Rolle ist mit der höchsten Autoritätsebene ausgestattet, während die anderen Rollen unterschiedliche Interaktionsebenen bieten.
 
 ## Gastgeber
 
-Der Gastgeber ist für die Einleitung des Meetings verantwortlich und verfügt über umfassende administrative Rechte.
+Der Gastgeber ist für die Initiierung des Meetings verantwortlich und verfügt über umfassende administrative Berechtigungen.
 
 **Hauptfunktionen:**
 
 - Meetings starten und beenden
 - Jeden Teilnehmer stummschalten
-- Moderatoren befördern oder zurückstufen
+- Moderatoren befördern oder degradieren
 - Aufzeichnungen starten und stoppen
   - Dies umfasst alle vom Moderator initiierten Aufzeichnungen
-- Beliebige Teilnehmer aus dem Gespräch entfernen
-- Sprachassistenten (Jarvis) aktivieren oder deaktivieren
+- Beliebige Teilnehmer aus dem Anruf entfernen
 - Gäste zulassen oder ablehnen
-- Zugriff auf Meeting-Verlauf
+- Auf Meeting-Verlauf zugreifen
 - Alle KI-Funktionen nutzen
-- Persönliche Einstellungen, Layout, Unschärfe und Ansichtsoptionen anpassen
+- Persönliche Einstellungen, Layout, Unschärfe und Anzeigeoptionen anpassen
 
 ## Moderator
 
-Moderatoren werden vom Host ernannt, um bei der effektiven Verwaltung der Sitzung zu unterstützen.
+Moderatoren werden vom Gastgeber bestimmt, um bei der effektiven Verwaltung der Sitzung zu helfen.
 
 **Hauptfunktionen:**
 
 - Jeden Teilnehmer stummschalten
-- Aufnahmen starten und stoppen
-  - Dies gilt auch für alle vom Host gestarteten Aufnahmen
-- Den Sprachassistenten (Jarvis) aktivieren oder deaktivieren
+- Aufzeichnungen starten und stoppen
+  - Dies umfasst alle vom Gastgeber initiierten Aufzeichnungen
 - Gäste zulassen oder ablehnen
-- Alle Teilnehmer außer dem Host aus dem Gespräch entfernen
-- Den Online-Sprachübersetzer nutzen und die Sprache ändern (für ihr eigenes Audio)
-- Den AI-Assistenten nutzen (für ihre eigene Ansicht)
+- Alle Teilnehmer aus dem Anruf entfernen, außer dem Gastgeber
+- Den Online-Sprachübersetzer verwenden und die Sprache ändern (für ihr eigenes Audio)
+- Den KI-Assistenten verwenden (für ihre eigene Ansicht)
 - Am Chat teilnehmen, Hände heben oder senken
-- Auf Transkripte und Meeting-Verlauf zugreifen
-- Andere Moderatoren befördern oder zurückstufen
+- Auf Transkripte und Besprechungsverlauf zugreifen
+- Andere Moderatoren befördern oder degradieren
 
 ## Teilnehmer (Autorisierter Benutzer)
 
-Autorisierte Teilnehmer sind eingeloggte Benutzer, die ohne besondere Privilegien an der Besprechung teilnehmen.
+Autorisierte Teilnehmer sind angemeldete Benutzer, die dem Meeting ohne besondere Berechtigungen beitreten.
 
-**Wichtige Funktionen:**
+**Hauptfunktionen:**
 
-- Eigenes Mikrofon stumm- oder freischalten
-- Eigene Kamera aktivieren oder deaktivieren
-- Bildschirm teilen (Desktop-Browser)
-- Mit dem KI-Sprachassistenten kommunizieren
-  - Sofern dies vom Host oder Moderator aktiviert wurde
-- KI-Assistent nutzen (für eigene Ansicht)
-- Online-Sprachübersetzer verwenden und Sprache ändern (für eigenen Ton)
+- Ihr eigenes Mikrofon stumm schalten oder aktivieren
+- Ihre eigene Kamera aktivieren oder deaktivieren
+- Ihren Bildschirm teilen (Desktop-Browser)
+- Den KI-Assistenten verwenden (für ihre eigene Ansicht)
+- Den Online-Sprachübersetzer verwenden und die Sprache ändern (für ihr eigenes Audio)
 - Persönliches Layout und Einstellungen anpassen
-- Zugriff auf Chat, Handzeichen, Transkripte und Besprechungsverlauf
+- Zugriff auf Chat, Hand heben, Transkripte und Meeting-Verlauf
 
 ## Gast (Anonymer Benutzer)
 
@@ -60,35 +56,33 @@ Gäste sind Benutzer, die an der Besprechung teilnehmen, ohne sich anzumelden.
 
 **Hauptfunktionen:**
 
-- Eigenes Mikrofon und Kamera verwenden
-- Bildschirm teilen (Desktop-Browser)
-- Online-Sprachübersetzer nutzen und Sprache ändern (für eigenen Ton)
-- Layout- und Anzeigeoptionen nutzen (nur persönlich)
-- Am Chat teilnehmen und Hand heben
+- Verwendung des eigenen Mikrofons und der Kamera
+- Bildschirmfreigabe (Desktop-Browser)
+- Verwendung des Online-Sprachübersetzers und Sprachwechsel (nur für eigenes Audio)
+- Nutzung von Layout- und Anzeigeoptionen (nur persönlich)
+- Teilnahme am Chat und Hand heben
 
 > [!WARNING]
-> Gäste haben keinen Zugriff auf KI-Funktionen, können keine Transkripte einsehen oder andere Teilnehmer verwalten.
+> Gäste können andere Teilnehmer nicht verwalten.
 
-## Übersicht der Rollenberechtigungen
+## Übersichtstabelle der Rollenberechtigung
 
-| Funktion                              | Gastgeber | Moderator | Teilnehmer | Gast  |
-| ------------------------------------- | --------- | --------- | ---------- | ----- |
-| Meeting starten                       | ✅        | ❌        | ❌         | ❌    |
-| Beliebigen Teilnehmer stummschalten   | ✅        | ✅        | ❌         | ❌    |
-| Beliebigen Teilnehmer entstummen      | ❌        | ❌        | ❌         | ❌    |
-| Eigenes Mikrofon stumm/entstummen     | ✅        | ✅        | ✅         | ✅    |
-| Eigene Kamera ein-/ausschalten        | ✅        | ✅        | ✅         | ✅    |
-| Aufnahme starten/stoppen              | ✅        | ✅        | ❌         | ❌    |
-| Bildschirm teilen (Desktop)           | ✅        | ✅        | ✅         | ✅    |
-| Sprachassistent ein-/ausschalten      | ✅        | ✅        | ❌         | ❌    |
-| KI-Assistent nutzen                   | ✅        | ✅        | ✅         | ❌    |
-| Online-Übersetzung nutzen             | ✅        | ✅        | ✅         | ✅    |
-| Übersetzungssprache ändern            | ✅        | ✅        | ✅         | ✅    |
-| Hand heben / senken                   | ✅/✅     | ✅/✅     | ✅/❌      | ✅/❌ |
-| Transkript ansehen                    | ✅        | ✅        | ✅         | ❌    |
-| Layout / Einstellungen ändern         | ✅        | ✅        | ✅         | ✅    |
-| Hintergrundunschärfe ein-/ausschalten | ✅        | ✅        | ✅         | ✅    |
-| Gast zulassen/ablehnen                | ✅        | ✅        | ❌         | ❌    |
-| Meeting-Verlauf einsehen              | ✅        | ✅        | ✅         | ❌    |
-| Teilnehmer entfernen                  | ✅        | ✅        | ❌         | ❌    |
-| Moderator befördern/zurückstufen      | ✅        | ✅        | ❌         | ❌    |
+| Funktion                       | Host  | Moderator | Teilnehmer  | Gast  |
+| ------------------------------ | ----- | --------- | ----------- | ----- |
+| Meeting starten                | ✅    | ❌        | ❌          | ❌    |
+| Beliebigen Teilnehmer stummschalten | ✅    | ✅        | ❌          | ❌    |
+| Beliebigen Teilnehmer entstummen | ❌    | ❌        | ❌          | ❌    |
+| Eigenes Mikrofon stumm-/entstummen | ✅    | ✅        | ✅          | ✅    |
+| Eigene Kamera ein-/ausschalten | ✅    | ✅        | ✅          | ✅    |
+| Aufzeichnung starten/stoppen   | ✅    | ✅        | ❌          | ❌    |
+| Bildschirm teilen (Desktop)    | ✅    | ✅        | ✅          | ✅    |
+| KI-Assistent verwenden         | ✅    | ✅        | ✅          | ❌    |
+| Online-Übersetzung verwenden   | ✅    | ✅        | ✅          | ✅    |
+| Übersetzungssprache ändern     | ✅    | ✅        | ✅          | ✅    |
+| Hand heben / senken            | ✅/✅ | ✅/✅     | ✅/❌       | ✅/❌ |
+| Layout / Einstellungen ändern  | ✅    | ✅        | ✅          | ✅    |
+| Hintergrundunschärfe ein-/ausschalten | ✅    | ✅        | ✅          | ✅    |
+| Gast zulassen/ablehnen         | ✅    | ✅        | ❌          | ❌    |
+| Zugriff auf Meeting-Verlauf    | ✅    | ✅        | ✅          | ❌    |
+| Teilnehmer entfernen           | ✅    | ✅        | ❌          | ❌    |
+| Moderator befördern/degradieren | ✅    | ✅        | ❌          | ❌    |

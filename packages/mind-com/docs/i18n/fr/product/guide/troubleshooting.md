@@ -1,22 +1,22 @@
 # Dépannage
 
-Cette section fournit des solutions aux problèmes courants rencontrés lors des réunions en ligne, notamment les problèmes de microphones, de caméras, de connexion aux réunions, d\'utilisation d\'assistants vocaux, de traducteurs, de partage d\'écran et d\'enregistrement.
+Cette section fournit des solutions pour les problèmes courants rencontrés lors des réunions en ligne, y compris les problèmes avec les microphones, les caméras, la participation aux réunions, l'utilisation d'assistants vocaux, les traducteurs, le partage d'écran et l'enregistrement. Elle décrit les causes potentielles de chaque problème et offre des solutions pratiques pour les résoudre, garantissant une expérience de réunion en ligne plus fluide.
 
-## Microphone ou Caméra Ne Fonctionne Pas
+## Microphone ou caméra ne fonctionne pas
 
 ### Causes :
 
-- Permissions du navigateur refusées
+- Autorisations du navigateur refusées
 - Appareil sélectionné incorrect
 - Applications en conflit
 
 ### Solutions :
 
-- Autoriser l\'accès lorsque demandé
-- Aller dans Paramètres > Microphone/Caméra et sélectionner l\'appareil correct
-- Fermer les applications comme Zoom, Skype, etc.
+- Autoriser l'accès lorsque demandé
+- Naviguer vers Paramètres > Microphone/Caméra et sélectionner le bon appareil
+- Fermer les applications telles que Zoom, Skype, etc.
 
-## Impossible de Rejoindre une Réunion
+## Impossible de rejoindre une réunion
 
 ### Causes :
 
@@ -24,46 +24,27 @@ Cette section fournit des solutions aux problèmes courants rencontrés lors des
 
 ### Solutions :
 
-- Vérifier l'exactitude du lien et confirmer avec l'Hôte
-- Actualiser votre navigateur et réessayer
+- Vérifiez l'exactitude du lien et confirmez avec l'hôte
+- Actualisez votre navigateur et réessayez
 
-## L'Assistant Vocal Jarvis Ne Répond Pas
+## Le traducteur ne fonctionne pas
 
-### Causes Courantes :
+### Causes courantes :
 
-- Jarvis est désactivé dans la réunion
-- Commande non reconnue
+- Tous les participants ont sélectionné la même langue
 - Microphone en sourdine
 - Microphone bloqué par les permissions du navigateur
 - Problèmes de réseau
 
 ### Solutions :
 
-- Assurez-vous que l'accès au microphone est accordé
-- Vérifiez que le microphone est activé
-- Utilisez des commandes prises en charge comme **"hey, jarvis résume les 10 dernières minutes"**
-- Le panneau d'Assistant IA ne fonctionne que pour les utilisateurs connectés
-
-## Traducteur Ne Fonctionne Pas
-
-### Causes Courantes :
-
-- Fonctionnalité désactivée
-- Microphone en sourdine
-- Microphone bloqué par les permissions du navigateur
-- Problèmes de réseau
-
-### Solutions :
-
-- Cliquez sur l'icône du Traducteur pour l'activer
 - Sélectionnez votre langue préférée dans Paramètres > Langue
-- Rejoignez ou actualisez si les sous-titres n'apparaissent pas
-- Assurez-vous que l'accès au microphone est autorisé
-- Assurez-vous que le microphone est activé
+- Rejoignez à nouveau ou actualisez la page de réunion
+- Assurez-vous que l'accès au microphone est accordé et activé
 
-## Écho ou Retour Audio
+## Écho ou retour audio
 
-### Causes Courantes :
+### Causes courantes :
 
 - Microphone ouvert combiné avec des haut-parleurs
 - Plusieurs utilisateurs dans la même pièce
@@ -71,53 +52,52 @@ Cette section fournit des solutions aux problèmes courants rencontrés lors des
 ### Solutions :
 
 - Utiliser des écouteurs
-- Mettre en sourdine les autres appareils/microphones
-- L\'hôte/modérateur peut mettre en sourdine tous les participants
+- Couper le son des autres appareils/microphones
+- L'hôte/modérateur peut couper le son de tous les participants
 
 ## "Vous avez été retiré de l'appel"
 
 ### Causes courantes :
 
 - L'hôte/modérateur vous a retiré
-- Déconnexion du réseau
+- Déconnexion réseau
 
 ### Solutions :
 
-- Rejoindre via le lien d'origine
-- Contacter l'hôte pour des éclaircissements
+- Contactez l'hôte ou le modérateur pour clarification
 
-## Partage d'Écran Ne Fonctionne Pas
+## Le partage d'écran ne fonctionne pas
 
-### Causes Courantes :
+### Causes courantes :
 
 - Appareil non pris en charge
 
 ### Solutions :
 
-- Utiliser un navigateur de bureau
-- Sur macOS : activer l'enregistrement d'écran dans Préférences Système > Sécurité et Confidentialité
+- Utilisez un navigateur de bureau
+- Sur macOS : activez l'enregistrement d'écran dans Préférences Système > Sécurité et confidentialité
 
-## Mauvaise Qualité Vidéo ou Audio
+## Qualité vidéo ou audio médiocre
 
 ### Causes :
 
-- Connexion Internet faible
+- Connexion internet faible
 - Trop de flux vidéo
 
 ### Solutions :
 
-- Passez à une connexion filaire ou un Wi-Fi stable
-- Désactivez votre caméra ou celles des autres si nécessaire
+- Passer à une connexion filaire ou à un Wi-Fi stable
+- Éteindre votre propre caméra ou les caméras des autres si nécessaire
 
-## L'Enregistrement Ne Démarre Pas
+## L'enregistrement ne démarre pas
 
-### Causes Courantes :
+### Causes courantes :
 
-- L'utilisateur n'est pas l'Hôte ou le Modérateur
+- L'utilisateur n'est pas l'hôte ou le modérateur
 
 ### Solutions :
 
-- Vérifier les permissions auprès de l'Hôte
+- Vérifiez les autorisations avec l'hôte
 
 > [!TIP]
 > Si vous continuez à rencontrer des problèmes, assurez-vous que votre navigateur est mis à jour vers la dernière version et que vous disposez d'une connexion Internet stable d'au moins 2 Mbps.

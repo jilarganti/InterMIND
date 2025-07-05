@@ -1,60 +1,41 @@
 # Funciones de IA
 
-Esta sección describe las funcionalidades del Asistente de Voz (Jarvis), la Traducción de Voz en Línea y el Asistente de IA disponibles durante las reuniones.
-
-## Asistente de Voz (Jarvis)
-
-El Asistente de Voz, conocido como Jarvis, puede ser activado por el Anfitrión o Moderador a través del panel de acciones de la reunión seleccionando la opción "Habilitar Asistente de Voz" en el menú de tres puntos.
-
-Esta activación introduce al Asistente de IA Jarvis como un participante adicional en la reunión, permitiendo que cualquier participante interactúe con el Asistente de Voz mediante comandos de voz.
-
-### Proveedores Disponibles
-
-El Asistente de Voz ofrece varios proveedores que se pueden elegir desde el menú de Configuración o a través de las acciones superpuestas (tres puntos) ubicadas en el avatar del participante Jarvis:
-
-- **Mind**
-- **OpenAI**
-- **Heygen** (que incluye un avatar visual)
-
-### Cómo Usar
-
-Para iniciar la interacción con Jarvis, los participantes deben comenzar sus comandos con **"oye, jarvis"**.
-
-**Ejemplos de comandos:**
-
-- "Oye, Jarvis, resume los últimos 10 minutos"
-- "Oye, Jarvis, ¿cuáles fueron los principales puntos de acción discutidos?"
-
-### Notas Importantes
-
-- El Asistente de Voz puede ser desactivado en cualquier momento por el Anfitrión o Moderador
-- Cualquier mensaje hablado generado por Jarvis será registrado en la transcripción de la reunión y estará accesible en el historial de la reunión
-- El Asistente de Voz admite interacción multilingüe, adaptándose al idioma utilizado durante la reunión
+Esta sección describe las funcionalidades del Asistente de Voz (Jarvis), Traducción de Voz en Línea y Asistente de IA disponibles durante las reuniones.
 
 ## Traducción de Voz en Línea
 
-Esta funcionalidad ofrece traducciones de subtítulos en tiempo real para el participante que la activa, sin afectar a otros participantes en la reunión.
+Esta funcionalidad proporciona traducciones en tiempo real para los participantes que la habiliten, asegurando que la experiencia permanezca sin afectar a otros asistentes en la reunión. Además, los usuarios poseen la flexibilidad de modificar el idioma de traducción en cualquier momento a través del panel de Configuración.
 
-### Características Principales
+El traductor de voz se activa automáticamente al ingresar a una reunión; sin embargo, el proceso de traducción solo comenzará si los idiomas de interfaz y traducción de los participantes difieren. En casos donde todos los participantes hayan elegido el mismo idioma, no ocurrirá traducción alguna.
 
-- Traducciones de subtítulos en tiempo real
-- Configuración personal de traducción (no afecta a otros participantes)
+Una vez que un participante modifica su idioma de interfaz y traducción, todos los demás participantes comenzarán a escuchar la traducción en el idioma que hayan seleccionado dentro de la configuración de la reunión.
+
+Adicionalmente, los participantes tienen la opción de ajustar el volumen del audio original de otros asistentes a través de la configuración de la reunión, permitiéndoles concentrarse únicamente en la traducción.
+
+### Características principales
+
+- Doblaje de voz en tiempo real en el idioma seleccionado
+- Configuración de traducción personal (no afecta a otros participantes)
 - Capacidad de cambiar el idioma de traducción en cualquier momento a través del panel de Configuración
 - Disponible para todos los tipos de participantes (Anfitrión, Moderador, Participante, Invitado)
 
-### Cómo Activar
+### Cómo habilitar
 
-Cualquier participante puede activar la Traducción de Voz en Línea seleccionando "Habilitar Traducción" desde el menú de tres puntos ubicado en el panel de acciones de la reunión.
+La traducción puede ser activada por cualquier participante ajustando su configuración de idioma en el panel de Configuración durante la reunión.
 
 ### Personalización
 
 - Cada participante puede establecer su propio idioma de traducción preferido
 - Las preferencias de traducción se guardan en la configuración del usuario para futuras reuniones
-- Los idiomas se pueden cambiar durante la reunión a través del panel de Configuración
+- Los idiomas pueden cambiarse durante la reunión a través del panel de Configuración
 
 ## Asistente de IA
 
-El Asistente de IA está disponible como una interfaz de chat privada dentro de las reuniones. Los usuarios pueden abrir el panel del Asistente de IA para interactuar con el asistente en formato de texto.
+El Asistente de IA es accesible como una interfaz de chat privada dentro de las reuniones. Los usuarios pueden abrir el panel del Asistente de IA para interactuar con el asistente en formato de texto, permitiendo consultas relacionadas con:
+
+- Resúmenes de reuniones
+- Búsquedas en transcripciones
+- Información del chat
 
 ### Capacidades
 
@@ -62,23 +43,23 @@ El Asistente de IA puede ayudar con:
 
 - **Resúmenes de reuniones**
 - **Búsquedas en transcripciones**
-- **Análisis de chat**
+- **Información del chat**
 - **Identificación de elementos de acción**
 - **Extracción de puntos clave**
 
-### Comandos Comunes
+### Comandos comunes
 
 Los usuarios pueden utilizar comandos como:
 
 - "Resume los últimos 10 minutos"
-- "¿Qué dijo Juan sobre el presupuesto?"
+- "¿Qué dijo John sobre el presupuesto?"
 - "¿Cuáles son los principales elementos de acción de esta reunión?"
 - "¿Quién mencionó la fecha límite del proyecto?"
 
-### Requisitos de Acceso
+### Requisitos de acceso
 
 > [!WARNING]
-> El Asistente de IA está disponible exclusivamente para usuarios que han iniciado sesión, incluyendo Anfitriones, Moderadores o Participantes. No participa públicamente en el chat y no está accesible para usuarios Invitados.
+> El Asistente de IA está disponible exclusivamente para usuarios registrados, incluyendo Anfitriones, Moderadores o Participantes. No participa públicamente en el chat y no es accesible para usuarios Invitados.
 
 ### Privacidad
 

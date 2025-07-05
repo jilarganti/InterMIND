@@ -1,231 +1,231 @@
-# Account Management
+# Управление аккаунтом
 
-## Sign Up
+## Регистрация
 
-Creating an account can be accomplished through three methods: utilizing your Google or Microsoft Accounts or registering with an External Email Address.
+Создание учетной записи может быть выполнено тремя способами: используя ваши аккаунты Google или Microsoft или регистрируясь с помощью внешнего адреса электронной почты.
 
-1. To begin, visit [https://intermind.com](https://intermind.com)
-2. Click on the **Sign In** button located in the top right corner of the homepage
-3. On the Sign in to your account page, you will encounter the following options:
-   - Google and Microsoft buttons, which facilitate access to the platform using your existing Google or Microsoft accounts
-   - 'Remember me' checkbox, which allows you to maintain your logged-in status on this device
-   - 'Forgot Password' link, which is available if you already possess an account but do not remember your password
-   - 'Or sign in with' text, followed by the Email and Password fields for logging in, if you already have an account
-   - 'Don't have an account?' text, followed by a 'Sign up' link, which enables you to register using your external email address
+1. Для начала посетите [https://intermind.com](https://intermind.com)
+2. Нажмите на кнопку **Войти** в правом верхнем углу главной страницы
+3. На странице входа в вашу учетную запись вы увидите следующие опции:
+   - Кнопки Google и Microsoft, которые обеспечивают доступ к платформе с использованием ваших существующих аккаунтов Google или Microsoft
+   - Флажок «Запомнить меня», который позволяет сохранить статус входа на этом устройстве
+   - Ссылка «Забыли пароль», которая доступна, если у вас уже есть учетная запись, но вы не помните свой пароль
+   - Текст «Или войти с помощью», за которым следуют поля Email и Password для входа, если у вас уже есть учетная запись
+   - Текст «Нет учетной записи?», за которым следует ссылка «Зарегистрироваться», которая позволяет зарегистрироваться, используя ваш внешний адрес электронной почты
 
-### Sign Up with Google Account
+### Регистрация с аккаунтом Google
 
-This method is advisable for efficient access through a Google Account, facilitating seamless synchronization with Google Calendar. The most effective experience can be achieved by employing the Google Chrome browser.
+Этот метод рекомендуется для эффективного доступа через аккаунт Google, обеспечивая бесшовную синхронизацию с Google Calendar. Наилучший опыт может быть достигнут при использовании браузера Google Chrome.
 
-1. Click the **Google** button
-2. A pop-up window will appear, prompting you to select your Google account
-3. Authorize access to your basic profile information by clicking the **Continue** button
-
-> [!WARNING]
-> If you prefer not to grant access to your basic profile information, click the **Cancel** button. You will be redirected back to the Sign in to your account page, where you can sign up using your external email address.
-
-4. You will be directed to your InterMIND main page; no further setup is necessary
-
-### Sign Up with Microsoft Account
-
-This method is advisable for obtaining rapid access using a Microsoft account. The optimal experience can be realized by utilizing the Microsoft Edge browser.
-
-1. Click the **Microsoft** button
-2. A pop-up window will appear, prompting you to select your Microsoft account
-3. Authorize access to your basic profile information by clicking the **Continue** button
+1. Нажмите кнопку **Google**
+2. Появится всплывающее окно с предложением выбрать ваш аккаунт Google
+3. Авторизуйте доступ к основной информации вашего профиля, нажав кнопку **Продолжить**
 
 > [!WARNING]
-> If you prefer not to grant access to your basic profile information, click the **Cancel** button. You will be redirected back to the Sign in to your account page, where you can sign up using your external email address.
+> Если вы предпочитаете не предоставлять доступ к основной информации вашего профиля, нажмите кнопку **Отмена**. Вы будете перенаправлены обратно на страницу входа в вашу учетную запись, где сможете зарегистрироваться, используя ваш внешний адрес электронной почты.
 
-4. You will be directed to your InterMIND main page; no further setup is necessary
+4. Вы будете перенаправлены на главную страницу InterMIND; дальнейшая настройка не требуется
 
-### Sign Up with an Email Address
+### Регистрация с аккаунтом Microsoft
 
-Use this method if you don't have a Google account or prefer to register with a separate email.
+Этот метод рекомендуется для получения быстрого доступа с использованием аккаунта Microsoft. Оптимальный опыт может быть достигнут при использовании браузера Microsoft Edge.
 
-1. Click the **Sign Up** link next to the "Don't have an account?" text beneath the login fields
-2. You will be directed to the Register form, which includes the following required fields:
+1. Нажмите кнопку **Microsoft**
+2. Появится всплывающее окно с предложением выбрать ваш аккаунт Microsoft
+3. Авторизуйте доступ к основной информации вашего профиля, нажав кнопку **Продолжить**
+
+> [!WARNING]
+> Если вы предпочитаете не предоставлять доступ к основной информации вашего профиля, нажмите кнопку **Отмена**. Вы будете перенаправлены обратно на страницу входа в вашу учетную запись, где сможете зарегистрироваться, используя ваш внешний адрес электронной почты.
+
+4. Вы будете перенаправлены на главную страницу InterMIND; дальнейшая настройка не требуется
+
+### Регистрация с адресом электронной почты
+
+Используйте этот метод, если у вас нет аккаунта Google или вы предпочитаете зарегистрироваться с отдельным адресом электронной почты.
+
+1. Нажмите ссылку **Зарегистрироваться** рядом с текстом «Нет учетной записи?» под полями входа
+2. Вы будете перенаправлены к форме регистрации, которая включает следующие обязательные поля:
    - **Email**
-   - **Password**
-     - A minimum of 8 characters
-     - At least 1 uppercase letter
-     - At least 1 numerical digit
-   - **Confirm Password**
-   - **First Name**
-   - **Last Name**
+   - **Пароль**
+     - Минимум 8 символов
+     - Как минимум 1 заглавная буква
+     - Как минимум 1 цифра
+   - **Подтвердить пароль**
+   - **Имя**
+   - **Фамилия**
 
 > [!TIP]
-> To ensure optimal account security, please create a password that meets the complex requirements listed above.
+> Для обеспечения оптимальной безопасности учетной записи, пожалуйста, создайте пароль, который соответствует сложным требованиям, перечисленным выше.
 
-3. After completing the form, click the **Register** button
-4. After successfully registering, you will receive an email verification message in your inbox. Once verified, you can log in using your email and password to access the features of InterMIND
+3. После заполнения формы нажмите кнопку **Зарегистрироваться**
+4. После успешной регистрации вы получите сообщение для подтверждения электронной почты в вашем почтовом ящике. После подтверждения вы сможете войти, используя ваш email и пароль, чтобы получить доступ к функциям InterMIND
 
-### Forgotten Password
+### Забытый пароль
 
-If you forgot your password, follow these steps:
+Если вы забыли свой пароль, выполните следующие шаги:
 
-1. Click the **Sign In** button on the homepage
-2. On the login page, click **Forgot Password?**
-3. Enter your registered email address
-4. You will receive an email with a link to reset your password
-5. Follow the instructions in the email to create a new password
+1. Нажмите кнопку **Войти** на главной странице
+2. На странице входа нажмите **Забыли пароль?**
+3. Введите ваш зарегистрированный адрес электронной почты
+4. Вы получите электронное письмо со ссылкой для сброса пароля
+5. Следуйте инструкциям в письме, чтобы создать новый пароль
 
 > [!TIP]
-> If you don't receive the email, check your spam folder or contact support.
+> Если вы не получили письмо, проверьте папку спама или обратитесь в службу поддержки.
 
-## Sign In
+## Вход в систему
 
-Upon the creation of your InterMIND account, you are afforded the opportunity to sign in at any time. This allows you to host or join meetings, manage settings, access AI functionality, and review previous meetings along with their transcripts. Furthermore, the AI Assistant can be utilized within the meeting history.
+После создания вашей учетной записи InterMIND вы можете войти в систему в любое время. Это позволяет вам проводить или присоединяться к встречам, управлять настройками, получать доступ к функциям ИИ и просматривать предыдущие встречи вместе с их расшифровками. Кроме того, ИИ-помощник может использоваться в истории встреч.
 
-### Accessing the Sign In page
+### Доступ к странице входа
 
-1. Navigate to [https://intermind.com](https://intermind.com)
-2. Click the **Sign In** button located in the top right corner of the homepage
-3. You will be directed to the **Sign in to your account** page
+1. Перейдите на [https://intermind.com](https://intermind.com)
+2. Нажмите кнопку **Войти**, расположенную в правом верхнем углу главной страницы
+3. Вы будете перенаправлены на страницу **Войти в вашу учетную запись**
 
-### Sign In with Google
+### Вход через Google
 
-If you register using your Google account:
+Если вы зарегистрировались с помощью учетной записи Google:
 
-1. Click the **Google** button
-   - If you have logged into your Google account in your Google Chrome (or any other) browser, you will be logged in automatically
-   - If the system cannot identify your Google account, you will be redirected to the Google sign-in page for further authorization
-2. Once authorization is complete, you will be redirected directly to the InterMIND main page
+1. Нажмите кнопку **Google**
+   - Если вы вошли в свою учетную запись Google в браузере Google Chrome (или любом другом), вы будете автоматически авторизованы
+   - Если система не может идентифицировать вашу учетную запись Google, вы будете перенаправлены на страницу входа Google для дальнейшей авторизации
+2. После завершения авторизации вы будете перенаправлены непосредственно на главную страницу InterMIND
 
-### Sign In with Microsoft
+### Вход через Microsoft
 
-If you register using your Microsoft account:
+Если вы зарегистрировались с помощью учетной записи Microsoft:
 
-1. Click the **Microsoft** button
-   - If you have logged into your Microsoft account in your Microsoft Edge (or any other) browser, you will be logged in automatically
-   - If the system cannot identify your Microsoft account, you will be redirected to the Microsoft sign-in page for further authorization
-2. Once authorization is complete, you will be redirected directly to the InterMIND main page
+1. Нажмите кнопку **Microsoft**
+   - Если вы вошли в свою учетную запись Microsoft в браузере Microsoft Edge (или любом другом), вы будете автоматически авторизованы
+   - Если система не может идентифицировать вашу учетную запись Microsoft, вы будете перенаправлены на страницу входа Microsoft для дальнейшей авторизации
+2. После завершения авторизации вы будете перенаправлены непосредственно на главную страницу InterMIND
 
-### Sign In with Email and Password
+### Вход с помощью email и пароля
 
-If you created your account using an external email address:
+Если вы создали свою учетную запись, используя внешний адрес электронной почты:
 
-1. Enter your registered email in the **Email** field
-2. Enter your password in the **Password** field
-3. (Optional) Check the **Remember me** box to stay signed in on this device
-4. Click **Sign In** to proceed
-5. Once authorization is complete, you will be redirected directly to the InterMIND main page
+1. Введите ваш зарегистрированный email в поле **Email**
+2. Введите ваш пароль в поле **Пароль**
+3. (Необязательно) Установите флажок **Запомнить меня**, чтобы оставаться в системе на этом устройстве
+4. Нажмите **Войти** для продолжения
+5. После завершения авторизации вы будете перенаправлены непосредственно на главную страницу InterMIND
 
 > [!WARNING]
-> Select "Remember me" only on trusted devices to prevent unauthorized access.
+> Выбирайте "Запомнить меня" только на доверенных устройствах, чтобы предотвратить несанкционированный доступ.
 
-## User Profile
+## Профиль пользователя
 
-The User Profile page in InterMIND offers users the opportunity to view and customize their personal settings, manage device preferences, set communication options, and execute essential account actions, including account deletion.
+Страница профиля пользователя в InterMIND предоставляет пользователям возможность просматривать и настраивать личные параметры, управлять настройками устройств, устанавливать параметры связи и выполнять важные действия с аккаунтом, включая удаление аккаунта.
 
-### Accessing the User Profile page
+### Доступ к странице профиля пользователя
 
-Users can access their profile through two methods:
+Пользователи могут получить доступ к своему профилю двумя способами:
 
-**From Any Page:**
+**С любой страницы:**
 
-1. Click on your user avatar icon located in the top-right corner of the page
-2. From the dropdown menu, select the **Profile** option
+1. Нажмите на иконку вашего аватара, расположенную в правом верхнем углу страницы
+2. В выпадающем меню выберите опцию **Профиль**
 
-**Direct URL:** Navigate to: [https://intermind.com/profile](https://intermind.com/profile)
+**Прямая ссылка:** Перейдите по адресу: [https://intermind.com/profile](https://intermind.com/profile)
 
-### Profile Overview
+### Обзор профиля
 
-The profile page is organized into four main tabs:
+Страница профиля организована в четыре основные вкладки:
 
-#### Profile
+#### Профиль
 
-**User Information**
+**Информация о пользователе**
 
-- Displays the user avatar, display name (e.g., John Smith), and registered email address
-- The display name can be edited using the pencil icon
+- Отображает аватар пользователя, отображаемое имя (например, Иван Иванов) и зарегистрированный адрес электронной почты
+- Отображаемое имя можно редактировать с помощью иконки карандаша
 
-**Current Plan**
+**Текущий план**
 
-- Shows the active subscription type (e.g., Basic, Pro) and its validity period
-- Basic users see an **Upgrade Plan** button
-- Pro users see a **Cancel Subscription** button
+- Показывает активный тип подписки (например, Базовый, Про) и период его действия
+- Пользователи базового плана видят кнопку **Обновить план**
+- Пользователи Pro видят кнопку **Отменить подписку**
 
-**Communication Preferences**
+**Настройки связи**
 
-- **Newsletter**: Receive updates about new features and improvements
-- **Promotions**: Receive special offers and promotional content
-
-> [!TIP]
-> Both options are toggleable with checkboxes.
-
-#### Billing
-
-Accessible via the Billing tab in the left sidebar.
-
-**Quota Usage**
-Displays usage limits and consumption of core features:
-
-- **File Storage**: 0.00 GB / 30 GB (or 2 TB for Pro users)
-- **Meetings**: 0 / 25 (or Unlimited for Pro users)
-- **Online Participants**: Up to 100 (or 150 for Pro users)
-- **Period Start** and **Period End** columns
-
-**Invoices**
-Shows a list of issued invoices with:
-
-- Invoice Number
-- Date
-- Amount
-- Payment Status (e.g., Paid)
+- **Рассылка**: Получать обновления о новых функциях и улучшениях
+- **Акции**: Получать специальные предложения и рекламный контент
 
 > [!TIP]
-> Invoices can be downloaded for reporting or records.
+> Обе опции переключаются с помощью флажков.
 
-**Payments**
-Displays payment transactions include:
+#### Биллинг
 
-- Payment ID
-- Date
-- Amount
-- Status (e.g., Succeeded)
+Доступно через вкладку Биллинг в левой боковой панели.
 
-This section ensures full transparency and traceability for paid users.
+**Использование квоты**
+Отображает лимиты использования и потребление основных функций:
+
+- **Хранилище файлов**: 0,00 ГБ / 30 ГБ (или 2 ТБ для пользователей Pro)
+- **Встречи**: 0 / 25 (или Неограниченно для пользователей Pro)
+- **Участники онлайн**: До 100 (или 150 для пользователей Pro)
+- Столбцы **Начало периода** и **Конец периода**
+
+**Счета**
+Показывает список выставленных счетов с:
+
+- Номер счета
+- Дата
+- Сумма
+- Статус платежа (например, Оплачено)
+
+> [!TIP]
+> Счета можно скачать для отчетности или ведения записей.
+
+**Платежи**
+Отображает платежные транзакции, включая:
+
+- ID платежа
+- Дата
+- Сумма
+- Статус (например, Успешно)
+
+Этот раздел обеспечивает полную прозрачность и отслеживаемость для платных пользователей.
 
 > [!INFO]
-> The Invoices and Payments sections may be empty if no transactions have occurred.
+> Разделы Счета и Платежи могут быть пустыми, если транзакции не происходили.
 
-#### Settings
+#### Настройки
 
-Accessible via the Settings tab in the left sidebar. This tab allows users to configure device and meeting preferences.
+Доступно через вкладку Настройки в левой боковой панели. Эта вкладка позволяет пользователям настраивать устройства и предпочтения встреч.
 
-**Devices**
-Select microphone, speaker, and camera, toggle background blur.
+**Устройства**
+Выберите микрофон, динамик и камеру, переключите размытие фона.
 
-- **Microphone**: Select preferred input device
-- **Speaker**: Select preferred output device
-- **Camera**: Choose active video device
-- **Background Blur**: Enable or disable visual background masking
+- **Микрофон**: Выберите предпочтительное устройство ввода
+- **Динамик**: Выберите предпочтительное устройство вывода
+- **Камера**: Выберите активное видеоустройство
+- **Размытие фона**: Включить или отключить визуальное маскирование фона
 
-**Translation**
-Choose default translation language and adjust original voice volume.
+**Перевод**
+Выберите язык перевода по умолчанию и отрегулируйте громкость оригинального голоса.
 
-- **Target Language**: Select default translation output and interface language
-- **Original Volume**: Adjust background voice volume while translated audio plays
+- **Целевой язык**: Выберите язык вывода перевода по умолчанию и язык интерфейса
+- **Громкость оригинала**: Отрегулируйте громкость фонового голоса во время воспроизведения переведенного аудио
 
-**Others**
-Set default layout (e.g., sidebar), assistant provider, and auto-leave option when alone.
+**Прочее**
+Установите макет по умолчанию (например, боковая панель), поставщика ассистента и опцию автоматического выхода при одиночестве.
 
-- **Layout**: Choose display layout (e.g., Sidebar, Grid)
-- **Leave Call Automatically When Alone**: Enable/disable auto-disconnect
+- **Макет**: Выберите макет отображения (например, Боковая панель, Сетка)
+- **Автоматически покидать звонок в одиночестве**: Включить/отключить автоотключение
 
 > [!TIP]
-> Changes are automatically saved and will apply to all future meetings.
+> Изменения сохраняются автоматически и будут применяться ко всем будущим встречам.
 
-#### Advanced
+#### Расширенные
 
-Accessible via the Advanced tab in the left sidebar. This section provides irreversible account actions.
+Доступно через вкладку Расширенные в левой боковой панели. Этот раздел предоставляет необратимые действия с аккаунтом.
 
-**Delete Account**
+**Удалить аккаунт**
 
-1. Click the **Delete Account** button
-2. Confirm the prompt (note: this action is irreversible)
-3. Your data, history, and preferences will be permanently erased
+1. Нажмите кнопку **Удалить аккаунт**
+2. Подтвердите запрос (примечание: это действие необратимо)
+3. Ваши данные, история и настройки будут безвозвратно удалены
 
 > [!DANGER]
-> Deleted accounts cannot be recovered. Your name will appear as Deleted User in meeting records.
+> Удаленные аккаунты не могут быть восстановлены. Ваше имя будет отображаться как Удаленный пользователь в записях встреч.

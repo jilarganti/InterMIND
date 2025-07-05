@@ -1,102 +1,98 @@
-# Besprechungsverlauf
+# Meeting-Verlauf
 
-Die Seite "Besprechungsverlauf" dient als persönliches Archiv für alle Besprechungen, die Sie als angemeldeter Benutzer geleitet oder an denen Sie teilgenommen haben. Sie bietet schnellen Zugriff auf Aufzeichnungen, Protokolle, KI-Assistenten-generierte Zusammenfassungen und wiederverwendbare Besprechungslinks - alles an einem übersichtlichen Ort zusammengefasst.
+Die Meeting-Verlauf-Seite fungiert als persönliches Archiv für alle Meetings, die Sie gehostet oder an denen Sie teilgenommen haben, während Sie angemeldet waren. Sie bietet schnellen Zugriff auf Aufzeichnungen, Transkripte, von der KI-Assistentin generierte Zusammenfassungen und wiederverwendbare Meeting-Links - alles an einem praktischen Ort zusammengefasst.
 
-## Zugriffsmöglichkeiten
+## Zugriff auf die Besprechungsverlauf-Seite
 
-Sie können auf zwei Arten auf die Besprechungsverlauf-Seite zugreifen:
+Sie können auf die Besprechungsverlauf-Seite über eine von drei praktischen Methoden zugreifen:
 
-- Klicken Sie auf Ihr Avatar-Symbol in der oberen rechten Ecke des Dashboards und wählen Sie dann **"History"** aus dem Dropdown-Menü
-- Alternativ können Sie direkt navigieren zu: [https://intermind.com/history](https://intermind.com/history)
+- Klicken Sie auf den 'Verlauf'-Link neben dem 'Problem melden'-Symbol im Seitenkopf-Menü
+- Alternativ klicken Sie auf Ihr Avatar-Symbol in der oberen rechten Ecke und wählen dann **Verlauf** aus dem Dropdown-Menü
+- Sie können auch direkt zu folgendem Link navigieren: [https://intermind.com/history](https://intermind.com/history)
 
 ## Besprechungsliste
 
-Jeder Eintrag in Ihrem Besprechungsverlauf enthält:
+Jeder Eintrag in Ihrem Besprechungsverlauf umfasst:
 
-- **Datum/Uhrzeit**
-- **Room ID**
+- **Datum** (einschließlich Uhrzeit)
+- **Raum-ID**
 - **Dauer**
-- **# Pax (Teilnehmer)**
+- **# Teilnehmer**
+- **Aufzeichnung**
 - **Titel**
 - **Aktionen**
-  - Eintrag löschen
-  - Besprechung teilen
-  - Konferenz beitreten
+  - Löschen
+  - Teilen
+  - Beitreten
 
-## Such- & Aktionsschaltflächen
+## Such- und Aktionsschaltflächen
 
-Zur effizienten Verwaltung Ihrer vergangenen Meetings bietet die Verlaufsseite:
+Um eine effiziente Verwaltung Ihrer vergangenen Meetings zu ermöglichen, enthält die Verlaufsseite:
 
 ### Suchleiste
 
-Diese Funktion ermöglicht es Ihnen, Meetings zu finden nach:
+Diese Funktion ermöglicht es Ihnen, Meetings anhand von Schlüsselwörtern im Titel oder Transkript oder anhand des exakten Raums oder Teilnehmers zu finden. Filter können für präzisere Ergebnisse kombiniert werden.
 
-- Schlüsselwörtern im Titel oder Transkript
-- Exakten Raum- oder Teilnehmernamen
-- Filter können für präzisere Ergebnisse kombiniert werden
+### Raum-ID
+
+Durch Klicken auf den Raum-ID-Link wird die Liste so organisiert, dass nur Meetings angezeigt werden, die mit derselben Raum-ID verknüpft sind.
+
+### # Pax (Teilnehmer)
+
+Durch Klicken hierauf öffnet sich ein Dropdown-Menü mit allen Teilnehmern.
+
+Einige Aktionsschaltflächen befinden sich versteckt unter dem Drei-Punkte-Menü auf der rechten Seite.
 
 ### Verfügbare Aktionen
 
-#### Room ID
+#### Löschen
 
-- Ein Klick auf den Room ID-Link organisiert die Liste so, dass nur Meetings mit derselben Room ID angezeigt werden
+Wenn diese Aktion angeklickt wird, erhalten Benutzer eine Benachrichtigung, die sie auffordert, das Löschen durch Klicken auf die Schaltfläche **Ja, löschen** zu bestätigen oder den Vorgang durch Klicken auf die Schaltfläche **Abbrechen** abzubrechen. Gelöschte Meetings sind für alle Teilnehmer nicht mehr sichtbar. Nur Hosts oder Moderatoren besitzen die Berechtigung, ein Meeting zu löschen.
 
-#### # Pax (Teilnehmer)
+#### Teilen
 
-- Ein Klick hierauf öffnet eine Dropdown-Liste aller Teilnehmer
+Benutzer erhalten eine Pop-up-Benachrichtigung mit dem Text **Link in die Zwischenablage kopiert!**, die es ihnen ermöglicht, diesen Link mit autorisierten Benutzern zu teilen.
 
-#### Aufzeichnung löschen
+#### Beitreten
 
-- Wenn diese Aktion angeklickt wird, erhalten Benutzer eine Benachrichtigung zur Bestätigung der Löschung
-- Klicken Sie auf **"Ja, löschen"** zur Bestätigung oder **"Abbrechen"** zum Abbruch
-- Gelöschte Meetings sind für keine Teilnehmer mehr sichtbar
-- Nur Gastgeber oder Moderatoren haben die Berechtigung, ein Meeting zu löschen
+Diese Aktion ermöglicht es jedem Benutzer mit dem Meeting-Datensatz auf der Verlaufsseite, dem Meeting beizutreten, was zur Erstellung eines neuen Datensatzes mit derselben Raum-ID führt.
 
-#### Meeting teilen
+## Meeting-Details
 
-- Benutzer erhalten eine Pop-up-Benachrichtigung mit dem Text **"Link in die Zwischenablage kopiert!"**
-- Dies ermöglicht ihnen, diesen Link mit allen autorisierten Benutzern zu teilen
-
-#### An der Konferenz teilnehmen
-
-- Diese Aktion erlaubt jedem Benutzer mit der Meeting-Aufzeichnung auf der Verlaufsseite, dem Meeting beizutreten
-- Führt zur Erstellung einer neuen Aufzeichnung mit derselber Room ID
-
-## Besprechungsdetails
-
-Jede Besprechungszeile enthält inhaltsbezogene Registerkarten:
+Jede Meeting-Zeile enthält inhaltsbezogene Registerkarten:
 
 ### Teilnehmer
 
-- Zeigt eine Liste aller Teilnehmer mit ihren jeweiligen Rollen an
+Diese Registerkarte zeigt eine Liste aller Teilnehmer zusammen mit ihren jeweiligen Rollen an.
 
 ### Aufzeichnung
 
-- Öffnet einen integrierten Mediaplayer zur Wiedergabe der Besprechungsaufzeichnung
-- Benutzer können die Wiedergabe starten oder stoppen, Audio stumm- oder einschalten und die Aufzeichnung im Vollbildmodus ansehen
-- Durch Klicken auf die drei Punkte öffnet sich ein zusätzliches Menü mit folgenden Optionen:
-  - **Download**: Startet den Download der spezifischen Besprechungsaufzeichnung
-  - **Wiedergabegeschwindigkeit**: Benutzer können Wiedergabegeschwindigkeiten von 0,25x bis 2x wählen
-  - **Bild-in-Bild**: Ermöglicht es Benutzern, während der Ansicht der Aufzeichnung in einem kleinen Fenster weiter durch die Besprechungsdetails zu navigieren
+Dies öffnet einen integrierten Media-Player zur Wiedergabe der Meeting-Aufzeichnung. Benutzer können die Wiedergabe starten oder stoppen, Audio stumm schalten oder die Stummschaltung aufheben und die Aufzeichnung im Vollbildmodus anzeigen. Durch Klicken auf die drei Punkte öffnet sich ein zusätzliches Menü mit den folgenden Optionen:
 
-### Nachrichten während des Anrufs
+- **Download**: Dies startet den Download der spezifischen Meeting-Aufzeichnung
+- **Wiedergabegeschwindigkeit**: Benutzer können Wiedergabegeschwindigkeiten von 0,25x bis 2x auswählen
+- **Bild-in-Bild**: Diese Funktion ermöglicht es Benutzern, weiterhin auf der Meeting-Details-Seite zu navigieren, während sie die Aufzeichnung in einem kleinen Fenster ansehen
 
-- Zeigt alle Chat-Kommunikationen zwischen Benutzern an
+### In-Call-Nachrichten
+
+Diese Registerkarte zeigt alle Chat-Kommunikationen zwischen Benutzern an.
 
 ### Transkript
 
-- Öffnet das Besprechungstranskript, das alle Sprachkommunikationen in Textformat protokolliert
-- Nachrichten vom Sprachassistenten (Jarvis) sind ebenfalls enthalten
+Dies öffnet das Meeting-Transkript, das alle Sprachkommunikationen in Textformat protokolliert. Nachrichten vom Sprachassistenten (Jarvis) sind ebenfalls enthalten.
 
 ### KI-Assistent
 
-- Ermöglicht Benutzern, eine Besprechungszusammenfassung vom KI-Assistenten im Chat-Format zu erhalten
-- Bietet interaktive KI-Unterstützung zur Analyse von Besprechungsinhalten
+Dies ermöglicht es Benutzern, eine Meeting-Zusammenfassung vom KI-Assistenten im Chat-Format zu erhalten.
+
+> [!INFO]
+> Die Registerkarte "Aufzeichnung" kann auf der Meeting-Details-Seite ausgeblendet sein, wenn das Meeting keine Aufzeichnungen enthält.
 
 ## Zugriffskontrolle
 
-- **Gastgeber, Moderatoren und angemeldete Teilnehmer** haben vollen Zugriff auf ihre eigene Meeting-Historie
-- **Gastbenutzer und anonyme Teilnehmer** haben keinen Zugriff auf die Verlaufsseite oder deren Inhalte
+- Gastgeber und Moderatoren haben vollständigen Zugriff auf ihre eigene Meeting-Historie
+- Angemeldete Teilnehmer können auf die Historie der besuchten Meetings zugreifen; sie können jedoch die Meeting-Aufzeichnungen nicht löschen
+- Gastbenutzer und anonyme Teilnehmer haben keinen Zugriff auf die Historien-Seite oder deren Inhalte
 
 > [!TIP]
-> Nutzen Sie die Meeting-Historie-Seite, um wichtige Diskussionen noch einmal abzuspielen, wichtige Notizen abzurufen und Aktionspunkte mithilfe von Zusammenfassungen und Protokollen nachzuverfolgen – ein unverzichtbares Werkzeug für Team-Dokumentation, Prüfungen oder Compliance-Workflows.
+> Nutzen Sie die Meeting-Historie-Seite, um wichtige Diskussionen zu wiederholen, wichtige Notizen abzurufen und Aktionspunkte mithilfe von Zusammenfassungen und Transkripten zu verfolgen—dies macht sie zu einem unverzichtbaren Werkzeug für Teamdokumentation, Audits oder Compliance-Workflows.

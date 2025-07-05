@@ -130,6 +130,8 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "تاريخ الاجتماعات", link: "guide/meeting-history" },
         { text: "الأسئلة الشائعة", link: "guide/faq" },
         { text: "استكشاف الأخطاء وإصلاحها", link: "guide/troubleshooting" },
+        { text: "الأسعار", link: "guide/pricing" },
+        { text: "المساعدة والدعم", link: "guide/help-support" },
       ],
     },
   ]

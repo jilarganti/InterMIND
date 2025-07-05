@@ -130,6 +130,8 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Meeting-Verlauf", link: "guide/meeting-history" },
         { text: "FAQ", link: "guide/faq" },
         { text: "Fehlerbehebung", link: "guide/troubleshooting" },
+        { text: "Preise", link: "guide/pricing" },
+        { text: "Hilfe & Support", link: "guide/help-support" },
       ],
     },
   ]

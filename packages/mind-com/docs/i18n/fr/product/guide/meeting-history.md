@@ -1,102 +1,98 @@
-# Historique des Réunions
+# Historique des réunions
 
-La page Historique des Réunions fonctionne comme une archive personnelle de toutes les réunions que vous avez organisées ou auxquelles vous avez participé pendant que vous étiez connecté. Elle offre un accès rapide aux enregistrements, aux transcriptions, aux résumés générés par l\'Assistant IA, et aux liens de réunion réutilisables - le tout regroupé en un seul endroit pratique.
+La page Historique des réunions fonctionne comme une archive personnelle pour toutes les réunions que vous avez organisées ou auxquelles vous avez participé en étant connecté. Elle offre un accès rapide aux enregistrements, transcriptions, résumés générés par l'Assistant IA et liens de réunion réutilisables - le tout consolidé en un seul endroit pratique.
 
-## Comment Accéder
+## Accéder à la page Historique des réunions
 
-Vous pouvez accéder à la page Historique des Réunions de deux manières :
+Vous pouvez accéder à la page Historique des réunions par l'une des trois méthodes pratiques suivantes :
 
-- Cliquez sur l\'icône de votre avatar dans le coin supérieur droit du tableau de bord, puis sélectionnez **"History"** dans le menu déroulant
-- Alternativement, accédez directement à : [https://intermind.com/history](https://intermind.com/history)
+- Cliquez sur le lien « Historique » situé à côté de l'icône « Signaler un problème » dans le menu d'en-tête de la page
+- Alternativement, cliquez sur votre icône d'avatar dans le coin supérieur droit, puis sélectionnez **Historique** dans le menu déroulant
+- Vous pouvez également naviguer directement vers le lien suivant : [https://intermind.com/history](https://intermind.com/history)
 
-## Liste des Réunions
+## Liste des réunions
 
-Chaque entrée dans votre historique de réunions comprend :
+Chaque entrée de votre historique de réunions comprend :
 
-- **Date/Heure**
-- **ID de Salle**
+- **Date** (incluant l'heure)
+- **ID de salle**
 - **Durée**
-- **Nbre Pax (Participants)**
+- **# Pax (Participants)**
+- **Enregistrement**
 - **Titre**
 - **Actions**
-  - Supprimer l'enregistrement
-  - Partager la réunion
-  - Rejoindre la conférence
+  - Supprimer
+  - Partager
+  - Rejoindre
 
-## Recherche et Boutons d'Action
+## Boutons de recherche et d'action
 
-Pour faciliter la gestion efficace de vos réunions passées, la page Historique comprend :
+Pour faciliter la gestion efficace de vos réunions passées, la page Historique intègre :
 
-### Barre de Recherche
+### Barre de recherche
 
-Cette fonctionnalité vous permet de trouver des réunions par :
+Cette fonctionnalité vous permet de trouver des réunions par mots-clés dans le Titre ou la Transcription, ou par la Salle ou le Participant exact. Les filtres peuvent être combinés pour des résultats plus précis.
 
-- Mots-clés dans le Titre ou la Transcription
-- Noms exacts de Salle ou de Participants
-- Les filtres peuvent être combinés pour des résultats plus précis
+### ID de salle
 
-### Actions Disponibles
+Cliquer sur le lien ID de salle organise la liste pour afficher uniquement les réunions associées au même ID de salle.
 
-#### Room ID
+### # Pax (Participants)
 
-- Cliquer sur le lien Room ID organise la liste pour n'afficher que les réunions associées au même Room ID
+Cliquer sur ceci ouvrira un menu déroulant listant tous les participants.
 
-#### # Pax (Participants)
+Certains boutons d'action peuvent être trouvés cachés sous le menu à trois points situé sur le côté droit.
 
-- Cliquer ici ouvrira une liste déroulante de tous les participants
+### Actions disponibles
 
-#### Supprimer l'Enregistrement
+#### Supprimer
 
-- Lorsque cette action est cliquée, les utilisateurs recevront une notification leur demandant de confirmer la suppression
-- Cliquez sur le bouton **"Oui, supprimer"** pour confirmer ou **"Annuler"** pour abandonner
-- Les réunions supprimées ne seront plus visibles pour aucun participant
-- Seuls les Hôtes ou les Modérateurs ont l'autorité de supprimer une réunion
+Lorsque cette action est cliquée, les utilisateurs recevront une notification les invitant à confirmer la suppression en cliquant sur le bouton **Oui, supprimer** ou à annuler l'opération en cliquant sur le bouton **Annuler**. Les réunions supprimées ne seront plus visibles pour aucun participant. Seuls les Hôtes ou Modérateurs possèdent l'autorité pour supprimer une réunion.
 
-#### Partager la Réunion
+#### Partager
 
-- Les utilisateurs recevront une notification pop-up indiquant **"Lien copié dans le presse-papiers !"**
-- Cela leur permet de partager ce lien avec tous les utilisateurs autorisés
+Les utilisateurs recevront une notification pop-up indiquant **Lien copié dans le presse-papiers !** qui leur permet de partager ce lien avec tous les utilisateurs autorisés.
 
-#### Rejoindre la Conférence
+#### Rejoindre
 
-- Cette action permet à tout utilisateur ayant l'enregistrement de la réunion sur la page Historique de rejoindre la réunion
-- Résulte en la création d'un nouvel enregistrement avec le même Room ID
+Cette action permet à tout utilisateur ayant l'enregistrement de la réunion sur la page Historique de rejoindre la réunion, résultant en la création d'un nouvel enregistrement avec le même ID de salle.
 
-## Détails de la Réunion
+## Détails de la réunion
 
-Chaque ligne de réunion comprend des onglets liés au contenu :
+Chaque ligne de réunion présente des onglets liés au contenu :
 
 ### Participants
 
-- Affiche une liste de tous les participants avec leurs rôles respectifs
+Cet onglet affiche une liste de tous les participants avec leurs rôles respectifs.
 
 ### Enregistrement
 
-- Ouvre un lecteur multimédia intégré pour la lecture de l\'enregistrement de la réunion
-- Les utilisateurs peuvent démarrer ou arrêter la lecture, activer ou désactiver le son, et visualiser l\'enregistrement en plein écran
-- En cliquant sur les trois points, un menu supplémentaire s\'ouvre avec les options suivantes :
-  - **Télécharger** : Lance le téléchargement de l\'enregistrement spécifique de la réunion
-  - **Vitesse de lecture** : Les utilisateurs peuvent sélectionner des vitesses de lecture allant de 0,25x à 2x
-  - **Image dans l\'image** : Permet aux utilisateurs de continuer à naviguer sur la page des détails de la réunion tout en regardant l\'enregistrement dans une petite fenêtre
+Ceci ouvre un lecteur multimédia intégré pour la lecture de l\'enregistrement de la réunion. Les utilisateurs peuvent démarrer ou arrêter la lecture, couper ou rétablir le son, et visionner l\'enregistrement en plein écran. Cliquer sur les trois points ouvre un menu supplémentaire avec les options suivantes :
 
-### Messages en Réunion
+- **Télécharger** : Ceci lance le téléchargement de l\'enregistrement de réunion spécifique
+- **Vitesse de lecture** : Les utilisateurs peuvent sélectionner des vitesses de lecture allant de 0,25x à 2x
+- **Image dans l\'image** : Cette fonctionnalité permet aux utilisateurs de continuer à naviguer sur la page des détails de la réunion tout en regardant l\'enregistrement dans une petite fenêtre
 
-- Affiche toutes les communications par chat entre les utilisateurs
+### Messages en cours d\'appel
+
+Cet onglet affiche toutes les communications de chat entre les utilisateurs.
 
 ### Transcription
 
-- Ouvre la transcription de la réunion qui enregistre toutes les communications vocales au format texte
-- Les messages de l\'Assistant Vocal (Jarvis) sont également inclus
+Ceci ouvre la transcription de la réunion qui enregistre toutes les communications vocales au format texte. Les messages de l\'Assistant Vocal (Jarvis) sont également inclus.
 
 ### Assistant IA
 
-- Permet aux utilisateurs d\'obtenir un résumé de la réunion de l\'Assistant IA au format chat
-- Fournit une assistance IA interactive pour analyser le contenu de la réunion
+Ceci permet aux utilisateurs d\'obtenir un résumé de la réunion de l\'Assistant IA au format chat.
 
-## Contrôle d\'Accès
+> [!INFO]
+> L\'onglet Enregistrement peut être masqué sur la page Détails de la réunion si la réunion n\'inclut aucun enregistrement.
 
-- Les **Hôtes, Modérateurs et Participants connectés** ont un accès complet à l\'historique de leurs réunions
-- Les **utilisateurs invités et participants anonymes** n\'ont pas accès à la page d\'historique ni à son contenu
+## Contrôle d'accès
+
+- Les hôtes et modérateurs ont un accès complet à leur propre historique de réunions
+- Les participants connectés peuvent accéder à l'historique des réunions auxquelles ils ont assisté ; cependant, ils ne peuvent pas supprimer l'enregistrement de la réunion
+- Les utilisateurs invités et les participants anonymes n'ont pas accès à la page d'historique ou à son contenu
 
 > [!TIP]
-> Utilisez la page d\'Historique des Réunions pour rejouer les discussions importantes, récupérer les notes essentielles et assurer le suivi des actions à partir des résumés et des transcriptions—en faisant ainsi un outil essentiel pour la documentation d\'équipe, les audits ou les processus de conformité.
+> Utilisez la page Historique des réunions pour rejouer les discussions clés, récupérer les notes importantes et assurer le suivi des éléments d'action en utilisant les résumés et transcriptions—en faisant un outil essentiel pour la documentation d'équipe, les audits ou les flux de travail de conformité.

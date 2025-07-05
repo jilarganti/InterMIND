@@ -1,23 +1,25 @@
-# Questions Fréquemment Posées (FAQ)
+# Foire aux questions (FAQ)
 
-## Comptes & Accès
+La section FAQ fournit des informations essentielles sur InterMIND, couvrant des sujets tels que les comptes et l'accès, la création et l'enregistrement de réunions, les capacités de l'assistant IA, les fonctionnalités de traduction, la participation au chat et les paramètres des appareils. Elle répond aux questions courantes concernant l'accès invité, la planification de réunions, l'utilisation de l'assistant IA, la traduction linguistique, les fonctionnalités de chat et la compatibilité des appareils.
 
-**Dois-je m\'inscrire pour participer à une réunion ?**
-Non, les invités peuvent rejoindre une réunion via un lien sans s\'inscrire ; cependant, leur accès sera limité (par exemple, pas d\'Assistant IA ni d\'historique des réunions).
+## Accès
 
-**Puis-je utiliser un compte Google pour m\'inscrire ?**
-Oui, vous pouvez facilement vous inscrire ou vous connecter en utilisant votre compte Google en un seul clic.
+**Dois-je m'inscrire pour participer à une réunion ?**
+Non, les invités peuvent rejoindre en utilisant un lien de réunion sans se connecter ; cependant, leur accès sera limité (par exemple, pas d'Assistant IA ou d'historique des réunions).
+
+**Puis-je utiliser un compte Google ou Microsoft pour m'inscrire ?**
+Oui, vous pouvez facilement vous inscrire ou vous connecter en utilisant vos comptes Google ou Microsoft en un seul clic.
 
 ## Réunions
 
 **Comment créer une réunion ?**
-Cliquez sur **"New Meeting"** depuis la page principale. Vous pouvez ensuite choisir de démarrer instantanément, planifier une réunion dans Google Calendar, ou créer un lien de réunion pour une utilisation ultérieure.
+Cliquez sur **Nouvelle réunion** depuis la page principale. Vous pouvez ensuite choisir de commencer instantanément, programmer une réunion dans Google Calendar, ou créer un lien de réunion pour une utilisation ultérieure.
 
 **Les réunions peuvent-elles être enregistrées ?**
-Oui, les Hôtes et les Modérateurs peuvent démarrer et arrêter les enregistrements. Tous les participants recevront une notification lorsqu'un enregistrement commence.
+Oui, les hôtes et modérateurs peuvent initier et terminer les enregistrements. Tous les participants recevront une notification lorsqu\'un enregistrement commence.
 
-**Puis-je planifier des réunions récurrentes ?**
-Pas actuellement. La fonction de planification actuelle s'intègre avec Google Calendar uniquement pour des événements ponctuels.
+**Puis-je programmer des réunions récurrentes ?**
+Oui, vous pouvez utiliser l\'option « Programmer une réunion dans Google Calendar ». Dans les paramètres de la réunion, vous pourrez choisir les options de récurrence sur une base quotidienne ou d\'autres options selon vos préférences.
 
 ## Assistant IA
 
@@ -32,49 +34,49 @@ Oui, l'Assistant IA peut analyser à la fois la Transcription et le Chat.
 
 ## Traducteur
 
-**Est-ce que le Traducteur modifie l'audio parlé ?**
+**Le Traducteur modifie-t-il l'audio parlé ?**
 Oui, il fournit un doublage vocal en temps réel dans la langue sélectionnée.
 
-**Puis-je changer de langue pendant la réunion ?**
-Oui, vous pouvez arrêter le Traducteur, aller dans Paramètres > Langue, puis redémarrer le Traducteur.
+**Puis-je changer de langue en cours de réunion ?**
+Oui, via l'option 'Paramètres > Votre langue'.
 
-**Les invités sont-ils traduits ?**
-Oui, les invités peuvent activer manuellement le Traducteur dans les Paramètres.
+**Les invités bénéficient-ils de la traduction ?**
+Oui, l'option Traducteur est également disponible pour les invités.
 
-## Chat & Participation
+## Participation
 
 **Puis-je envoyer des messages privés dans le chat ?**
-Pas pour le moment. Tous les messages du chat sont visibles par tous les participants.
+Pas actuellement. Tous les messages du chat sont visibles par tous les participants.
 
 **Comment lever la main ?**
-Cliquez sur le bouton **"Raise Hand"** dans la barre d\'outils en bas. Tous les participants en seront notifiés.
+Cliquez sur le bouton **Lever la main** dans la barre d'outils en bas. Tous les participants seront notifiés.
 
-## Paramètres et Appareils
+## Paramètres
 
 **Comment sélectionner un microphone ou une caméra spécifique ?**
-Allez dans le menu Paramètres et choisissez parmi les appareils disponibles.
+Accédez au menu Paramètres et choisissez parmi les appareils disponibles.
 
 **Comment flouter mon arrière-plan ?**
-Dans Paramètres, activez l\'option **"Flou d\'arrière-plan"**. Si votre vidéo est activée, vous verrez une icône superposée pour activer ou désactiver le Flou d\'arrière-plan.
+Dans les Paramètres, activez l'option **Flou d'arrière-plan**. Si votre vidéo est activée, vous verrez une icône de superposition pour activer ou désactiver le Flou d'arrière-plan.
 
-**Puis-je sauvegarder mes préférences de disposition ou de langue ?**
-Oui, ces préférences sont enregistrées dans votre profil et seront appliquées aux futures réunions.
+**Puis-je sauvegarder mes préférences de mise en page ou de langue ?**
+Oui, ces préférences sont sauvegardées dans votre profil et seront appliquées aux réunions futures.
 
-## Appareils & Navigateurs
+## Navigateurs
 
 **Quels appareils sont pris en charge ?**
-iMind Meeting fonctionne sur ordinateur de bureau (Windows/macOS) et mobile (iOS/Android) via tout navigateur moderne.
+InterMIND fonctionne sur ordinateur de bureau (Windows/macOS) et mobile (iOS/Android) via n'importe quel navigateur moderne.
 
-**Quel est le meilleur navigateur ?**
+**Quel navigateur est le meilleur ?**
 Chrome, Firefox, Safari, Edge et Opera sont entièrement pris en charge.
 
-## Historique des Réunions
+## Historique
 
-**Puis-je consulter les réunions passées auxquelles j\'ai participé ?**
-Oui, les utilisateurs connectés ont la possibilité d\'accéder aux réunions passées via la page Historique, qui comprend les enregistrements, les transcriptions et les résumés de ces réunions via l\'onglet Assistant IA.
+**Puis-je consulter les réunions passées auxquelles j'ai participé ?**
+Oui, les utilisateurs connectés ont la possibilité d'accéder aux réunions passées via la page Historique, qui inclut les enregistrements, les transcriptions et les résumés de ces réunions via l'onglet Assistant IA.
 
 **Puis-je supprimer une réunion de mon historique ?**
-Seuls les Hôtes et les Modérateurs ont l\'autorité pour supprimer l\'enregistrement d\'une réunion, ce qui la retire effectivement des historiques de tous les participants.
+Seuls les Hôtes et les Modérateurs possèdent l'autorité pour supprimer un enregistrement de réunion, ce qui l'efface effectivement des historiques de tous les participants.
 
-**Comment puis-je partager une réunion précédente ?**
-Pour partager une réunion précédente, utilisez le bouton **"Share"** situé sur la page Historique pour copier le lien de la réunion dans votre presse-papiers.
+**Comment partager une réunion précédente ?**
+Pour partager une réunion précédente, utilisez le bouton **Partager** situé sur la page Historique pour copier le lien de la réunion dans votre presse-papiers.

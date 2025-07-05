@@ -1,48 +1,46 @@
-# Descripción General de la Interfaz de Reuniones
+# Descripción general de la interfaz de reuniones
 
-La interfaz de reuniones de iMind está diseñada con una cuidadosa consideración por la limpieza, la intuitividad y la accesibilidad. Esta sección detalla los elementos clave visibles durante una reunión en vivo y proporciona orientación sobre cómo los usuarios pueden interactuar con ellos de manera efectiva.
+La interfaz de InterMIND está diseñada con una cuidadosa consideración hacia la limpieza, la intuitividad y la accesibilidad. Esta sección delinea los elementos clave visibles durante una reunión en vivo y proporciona orientación sobre cómo los usuarios pueden interactuar con ellos de manera efectiva.
 
-## Diseño de la Interfaz Principal
+## Diseño de la interfaz principal
 
-Al asistir a una reunión—ya sea como Anfitrión, Moderador, Participante o Invitado—el diseño de la pantalla varía según su rol. El diseño incluye:
+Al asistir a una reunión, ya sea como Anfitrión, Moderador, Participante o Invitado, el diseño de la pantalla varía según tu rol (consulta la sección Roles de usuario). El diseño incluye:
 
-- **Barra de Estado Superior**: Esta barra muestra el enlace de la reunión, el estado de seguridad, indicador de grabación y traductor, proporcionando información esencial de inmediato
-- **Área Central de Video**: Esta área muestra a los participantes en formato de cuadrícula o barra lateral, que se puede ajustar a través de la configuración
-- **Barra de Herramientas Inferior**: Esta barra contiene los controles principales de interacción vitales para gestionar la reunión
-- **Panel Lateral (opcional)**: Este panel incluye chat, lista de participantes y Asistente de IA, mejorando la interacción del usuario
+- **Barra de estado superior**: Esta barra muestra el enlace de la reunión, el estado de seguridad, el indicador de grabación y traductor, proporcionando información esencial de inmediato
+- **Área de video central**: Esta área muestra a los participantes en formato de cuadrícula o barra lateral, que se puede ajustar a través de la configuración
+- **Barra de herramientas inferior**: Esta barra de herramientas contiene los controles de interacción principales vitales para gestionar la reunión
+- **Panel lateral (opcional)**: Este panel incluye chat, lista de participantes y Asistente de IA, mejorando la interacción del usuario
 
-## Opciones de Personalización Rápida
+## Opciones de personalización rápida
 
 En la Configuración, los usuarios pueden:
 
-- Seleccionar sus dispositivos de micrófono, altavoz y cámara para garantizar una calidad óptima de audio y video
-- Alternar entre diseño de Cuadrícula o Barra lateral para adaptarse a sus preferencias
-- Activar o desactivar el Desenfoque de Fondo para mantener la privacidad durante la reunión
+- Seleccionar sus dispositivos de micrófono, altavoz y cámara para garantizar una calidad de audio y visual óptima
+- Alternar entre el diseño de Cuadrícula o Barra lateral para adaptarse a sus preferencias
+- Activar o desactivar el Desenfoque de fondo para mayor privacidad durante la reunión
 - Cambiar el idioma del Traductor para facilitar la comunicación entre participantes que hablan diferentes idiomas
 
-## Funciones de Interacción del Participante
+## Funciones de interacción de participantes
 
-Los participantes pueden participar activamente en la reunión utilizando varias herramientas disponibles en la interfaz:
+Los participantes pueden participar activamente en la reunión utilizando varias herramientas disponibles dentro de la interfaz:
 
-- **Levantar Mano**: Los participantes pueden hacer clic en esta opción para indicar su deseo de hablar. Aparecerá un ícono de mano junto a su nombre en la lista de participantes, señalando su solicitud
-- **Bajar Mano**: Los anfitriones y moderadores pueden bajar manualmente la mano levantada de un participante, manteniendo el orden durante las discusiones
+- **Levantar la mano**: Los participantes pueden hacer clic en esta opción para indicar su deseo de hablar. Aparecerá un icono de mano junto a su nombre en la lista de participantes, señalando su solicitud
+- **Bajar la mano**: Los anfitriones y moderadores pueden bajar manualmente la mano levantada de un participante, manteniendo el orden durante las discusiones
 - **Chat**: Los participantes pueden enviar mensajes a todos los asistentes durante la llamada utilizando el panel lateral, fomentando la comunicación y colaboración
-- **Fijar / No Ver**: Los usuarios pueden personalizar su vista fijando participantes específicos u ocultándolos de su diseño personal, adaptando su experiencia en la reunión
+- **Fijar / No ver**: Los usuarios pueden personalizar su vista fijando participantes específicos u ocultándolos de su diseño personal, adaptando su experiencia de reunión
 
-## Iconos y Funciones de la Barra de Herramientas Inferior
+## Iconos y funciones de la barra de herramientas inferior
 
-| Icono/Botón            | Descripción                                                                                                                                                                                                                         |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Micrófono**          | Haga clic para silenciar o activar su micrófono, permitiéndole controlar su entrada de audio durante la reunión                                                                                                                     |
-| **Cámara**             | Haga clic para iniciar o detener su cámara, habilitando o deshabilitando su transmisión de video para los participantes                                                                                                             |
-| **Compartir Pantalla** | Haga clic para iniciar o detener la compartición de pantalla. Esta función ofrece opciones para compartir toda su pantalla, una ventana específica o una pestaña del navegador, y solo está disponible en navegadores de escritorio |
-| **Grabación**          | Haga clic para iniciar o detener la grabación. Al iniciar, todos los participantes recibirán una notificación visible y audible. Esta función está disponible exclusivamente para el Anfitrión y el Moderador                       |
-| **Levantar la Mano**   | Haga clic para levantar o bajar su mano, indicando su intención de hablar. Aparecerá un icono de mano junto a su nombre en la lista de participantes cuando esté levantada                                                          |
-| **Configuración**      | Ajuste la configuración de audio, video, diseño y desenfoque del fondo. Los participantes también pueden seleccionar su proveedor de asistente predeterminado y elegir su idioma preferido para la traducción                       |
-| **Abandonar Reunión**  | Haga clic para salir de la reunión. Si bien los Anfitriones y Moderadores pueden eliminar participantes, no pueden finalizar la reunión para todos                                                                                  |
-| **Asistente de Voz**   | Haga clic para habilitar o deshabilitar el asistente de voz llamado Jarvis. Al activar esta función, se incorpora el Asistente AI Jarvis como un participante adicional en la reunión                                               |
-| **Traducción**         | Haga clic para habilitar o deshabilitar la traducción. La traducción de audio corresponderá al idioma seleccionado en la configuración, permitiendo que cada participante active sus propias preferencias de traducción             |
-| **Asistente AI**       | Abre el panel del Asistente AI, proporcionando a los usuarios la capacidad de interactuar para obtener resúmenes privados, preguntas y respuestas, y comandos inteligentes. Esta función está restringida a usuarios autorizados    |
-| **Participantes**      | Abre la lista de participantes, mostrando sus roles como Anfitrión, Moderador, etc.                                                                                                                                                 |
-| **Chat**               | Haga clic para mostrar u ocultar la función de chat, facilitando la interacción con otros participantes durante la reunión                                                                                                          |
-| **Enlace de Reunión**  | El enlace de la reunión se puede encontrar en la barra de direcciones del navegador o copiarse desde la esquina inferior izquierda haciendo clic en 'Copiar Enlace'                                                                 |
+| Icono/Botón           | Descripción                                                                                                                                                                                                         |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Micrófono**         | Haz clic para silenciar o activar tu micrófono, permitiéndote controlar tu entrada de audio durante la reunión                                                                                                     |
+| **Cámara**            | Haz clic para iniciar o detener tu cámara, habilitando o deshabilitando tu transmisión de video para los participantes                                                                                             |
+| **Compartir pantalla** | Haz clic para iniciar o detener el uso compartido de pantalla. Esta función proporciona opciones para compartir toda tu pantalla, una ventana específica o una pestaña del navegador, y solo está disponible en navegadores de escritorio |
+| **Grabación**         | Haz clic para iniciar o detener la grabación. Al iniciar, todos los participantes recibirán una notificación visible y audible. Esta función está disponible exclusivamente para el Anfitrión y el Moderador    |
+| **Levantar la mano**  | Haz clic para levantar o bajar tu mano, indicando tu intención de hablar. Un icono de mano aparecerá junto a tu nombre en la lista de participantes cuando esté levantada                                        |
+| **Configuración**     | Ajusta la configuración de audio, video, diseño y desenfoque de fondo. Los participantes también pueden seleccionar su proveedor de asistente predeterminado y elegir su idioma preferido para la traducción     |
+| **Salir de la reunión** | Haz clic para salir de la reunión. Aunque los Anfitriones y Moderadores pueden eliminar participantes, no pueden finalizar la reunión para todos                                                                 |
+| **Asistente de IA**   | Abre el panel del Asistente de IA, proporcionando a los usuarios la capacidad de interactuar para resúmenes privados, preguntas y respuestas, y comandos inteligentes. Esta función está restringida a usuarios autorizados |
+| **Participantes**     | Abre la lista de participantes, mostrando sus roles como Anfitrión, Moderador, etc.                                                                                                                                |
+| **Chat**              | Haz clic para mostrar u ocultar la función de chat, facilitando la interacción con otros participantes durante la reunión                                                                                          |
+| **Enlace de la reunión** | El enlace de la reunión es accesible en la barra de direcciones del navegador o se puede copiar desde la esquina inferior izquierda seleccionando el enlace 'Compartir'. Para usuarios móviles, este enlace se muestra bajo los elementos de la opción 'Mostrar menú' |

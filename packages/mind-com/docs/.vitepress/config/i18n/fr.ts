@@ -94,7 +94,7 @@ export const fr = defineConfig({
       defaultCategories: [
         "Éliminer les barrières linguistiques dans les réunions",
         "Rendre les réunions consultables et exploitables",
-        "Assurer la conformité et la résidence des données (UE / États-Unis / Asie)",
+        "Assurer la conformité et la résidence des données (UE / US / Asie)",
         "Juste en exploration / Autre",
       ],
 
@@ -130,6 +130,8 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Historique des réunions", link: "guide/meeting-history" },
         { text: "FAQ", link: "guide/faq" },
         { text: "Dépannage", link: "guide/troubleshooting" },
+        { text: "Tarifs", link: "guide/pricing" },
+        { text: "Aide et support", link: "guide/help-support" },
       ],
     },
   ]
