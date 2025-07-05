@@ -1,6 +1,6 @@
 # User Roles
 
-iMind Meeting delineates four distinct user roles, each meticulously crafted to enhance secure, collaborative, and adaptable meeting experiences. The Host role is endowed with the highest level of authority, while the other roles offer varying levels of interaction.
+InterMIND delineates four distinct user roles, each meticulously crafted to enhance secure, collaborative, and adaptable meeting experiences. The Host role is endowed with the highest level of authority, while the other roles offer varying levels of interaction.
 
 ## Host
 
@@ -14,7 +14,6 @@ The Host is responsible for initiating the meeting and possesses comprehensive a
 - Start and stop recordings
   - This encompasses any recordings initiated by the Moderator
 - Remove any participants from the call
-- Enable or disable the voice assistant (Jarvis)
 - Admit or deny guests
 - Access meeting history
 - Utilize any AI features
@@ -29,7 +28,6 @@ Moderators are designated by the Host to assist in managing the session effectiv
 - Mute any participant
 - Start and stop recordings
   - This includes any recordings initiated by the Host
-- Enable or disable the voice assistant (Jarvis)
 - Admit or deny guests
 - Remove any participants from the call, except for the Host
 - Use the Online Voice Translator and change language (for their own audio)
@@ -47,8 +45,6 @@ Authorized participants are logged-in users who join the meeting without special
 - Mute or unmute their own microphone
 - Enable or disable their own camera
 - Share their screen (desktop browser)
-- Communicate with the AI Voice Assistant
-  - Provided it has been enabled by the Host or Moderator
 - Use the AI Assistant (for their own view)
 - Use the Online Voice Translator and change language (for their own audio)
 - Modify personal layout and settings
@@ -67,9 +63,9 @@ Guests are users who join the meeting without signing in.
 - Engage in chat and raise hand
 
 > [!WARNING]
-> Guests cannot access any AI features, view transcripts, or manage other participants.
+> Guests cannot manage other participants.
 
-## Role Permissions Summary
+## Role Permissions Summary Table
 
 | Feature                        | Host  | Moderator | Participant | Guest |
 | ------------------------------ | ----- | --------- | ----------- | ----- |
@@ -80,12 +76,10 @@ Guests are users who join the meeting without signing in.
 | Enable/Disable Own Camera      | ✅    | ✅        | ✅          | ✅    |
 | Start/Stop Recording           | ✅    | ✅        | ❌          | ❌    |
 | Screen Share (Desktop)         | ✅    | ✅        | ✅          | ✅    |
-| Enable/Disable Voice Assistant | ✅    | ✅        | ❌          | ❌    |
 | Use AI Assistant               | ✅    | ✅        | ✅          | ❌    |
 | Use Online Translation         | ✅    | ✅        | ✅          | ✅    |
 | Change Translation Language    | ✅    | ✅        | ✅          | ✅    |
 | Raise / Lower Hand             | ✅/✅ | ✅/✅     | ✅/❌       | ✅/❌ |
-| See Transcript                 | ✅    | ✅        | ✅          | ❌    |
 | Change Layout / Settings       | ✅    | ✅        | ✅          | ✅    |
 | Enable/Disable Background Blur | ✅    | ✅        | ✅          | ✅    |
 | Admit/Deny Guest               | ✅    | ✅        | ❌          | ❌    |

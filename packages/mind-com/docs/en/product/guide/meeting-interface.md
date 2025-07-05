@@ -1,10 +1,10 @@
 # Meeting Interface Overview
 
-The iMind Meeting interface is designed with careful consideration for cleanliness, intuitiveness, and accessibility. This section delineates the key elements visible during a live meeting and provides guidance on how users can interact with them effectively.
+The InterMIND interface is designed with careful consideration for cleanliness, intuitiveness, and accessibility. This section delineates the key elements visible during a live meeting and provides guidance on how users can interact with them effectively.
 
 ## Main Interface Layout
 
-Upon attending a meeting—whether as a Host, Moderator, Participant, or Guest—the screen layout varies based on your role. The layout includes:
+Upon attending a meeting—whether as a Host, Moderator, Participant, or Guest—the screen layout varies based on your role (refer to the User Roles section). The layout includes:
 
 - **Top Status Bar**: This bar displays the meeting link, security status, recording and translator indicator, providing essential information immediately
 - **Central Video Area**: This area shows participants in either a grid or sidebar format, which can be adjusted via settings
@@ -31,18 +31,16 @@ Participants can engage actively in the meeting using several available tools wi
 
 ## Bottom Toolbar Icons & Functions
 
-| Icon/Button         | Description                                                                                                                                                                                   |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Microphone**      | Click to mute or unmute your microphone, allowing you to control your audio input during the meeting                                                                                          |
-| **Camera**          | Click to start or stop your camera, enabling or disabling your video feed for participants                                                                                                    |
-| **Screen Share**    | Click to start or stop screen sharing. This feature provides options to share your entire screen, a specific window, or a browser tab, and is only available on desktop browsers              |
-| **Recording**       | Click to start or stop recording. Upon initiation, all participants will receive a visible and audible notification. This feature is exclusively available to the Host and Moderator          |
-| **Raise Hand**      | Click to raise or lower your hand, indicating your intent to speak. A hand icon will appear next to your name in the participant list when raised                                             |
-| **Settings**        | Adjust audio, video, layout, and background blur settings. Participants can also select their default assistant provider and choose their preferred language for translation                  |
-| **Leave Meeting**   | Click to leave the meeting. While Hosts and Moderators can remove participants, they cannot end the meeting for everyone                                                                      |
-| **Voice Assistant** | Click to enable or disable the voice assistant named Jarvis. Activating this feature incorporates Jarvis AI Assistant as an additional participant in the meeting                             |
-| **Translation**     | Click to enable or disable translation. The audio translation will correspond to the language selected in the settings, allowing each participant to enable their own translation preferences |
-| **AI Assistant**    | Opens the AI Assistant panel, providing users with the capability to interact for private summaries, Q&A, and smart commands. This feature is restricted to authorized users                  |
-| **Participants**    | Opens the list of participants, showcasing their roles such as Host, Moderator, etc.                                                                                                          |
-| **Chat**            | Click to show or hide the chat feature, facilitating interaction with other participants during the meeting                                                                                   |
-| **Meeting Link**    | The meeting link can be found in the browser address bar or copied from the bottom-left corner by clicking 'Copy Link'                                                                        |
+| Icon/Button       | Description                                                                                                                                                                                                         |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Microphone**    | Click to mute or unmute your microphone, allowing you to control your audio input during the meeting                                                                                                                |
+| **Camera**        | Click to start or stop your camera, enabling or disabling your video feed for participants                                                                                                                          |
+| **Screen Share**  | Click to start or stop screen sharing. This feature provides options to share your entire screen, a specific window, or a browser tab, and is only available on desktop browsers                                    |
+| **Recording**     | Click to start or stop recording. Upon initiation, all participants will receive a visible and audible notification. This feature is exclusively available to the Host and Moderator                                |
+| **Raise Hand**    | Click to raise or lower your hand, indicating your intent to speak. A hand icon will appear next to your name in the participant list when raised                                                                   |
+| **Settings**      | Adjust audio, video, layout, and background blur settings. Participants can also select their default assistant provider and choose their preferred language for translation                                        |
+| **Leave Meeting** | Click to leave the meeting. While Hosts and Moderators can remove participants, they cannot end the meeting for everyone                                                                                            |
+| **AI Assistant**  | Opens the AI Assistant panel, providing users with the capability to interact for private summaries, Q&A, and smart commands. This feature is restricted to authorized users                                        |
+| **Participants**  | Opens the list of participants, showcasing their roles such as Host, Moderator, etc.                                                                                                                                |
+| **Chat**          | Click to show or hide the chat feature, facilitating interaction with other participants during the meeting                                                                                                         |
+| **Meeting Link**  | The meeting link is accessible in the browser's address bar or can be copied from the bottom-left corner by selecting the 'Share' link. For mobile users, this link is displayed under the 'Show Menu' option items |

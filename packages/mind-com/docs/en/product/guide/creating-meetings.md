@@ -1,8 +1,8 @@
 # Creating and Scheduling Meetings
 
-Upon signing into iMind Meeting, users can conveniently create and schedule meetings directly from the main interface by clicking the **New Meeting** button.
+Upon signing into InterMIND, users can conveniently create and schedule meetings directly from the main interface by clicking the **New Meeting** button.
 
-## Accessing Meeting Options
+## Accessing the Meeting Options
 
 On the home screen, locate the prominent blue **New Meeting** button situated at the center of the page. Clicking this button will unveil a dropdown menu with three distinct options:
 
@@ -59,3 +59,7 @@ Schedule a future meeting and seamlessly integrate it into your Google Calendar.
 
 > [!INFO]
 > This requires a connected Google Account and is particularly suitable for organized teams with integrated calendars.
+
+As soon as the meeting is scheduled and if Google Calendar is connected to InterMIND, this meeting will appear on the main page of InterMIND in the section with scheduled meetings.
+
+Also, as soon as the invited participants accept the invitation to the meeting, it will appear on their main page of InterMIND in the section with scheduled meetings, provided they are authorized and have synchronization with Google Calendar enabled.

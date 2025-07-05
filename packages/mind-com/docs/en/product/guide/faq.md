@@ -1,23 +1,25 @@
 # Frequently Asked Questions (FAQ)
 
-## Accounts & Access
+The FAQ section provides essential information about InterMIND, covering topics such as accounts and access, meeting creation and recording, the AI Assistant's capabilities, translation features, chat participation, and settings for devices. It addresses common questions regarding guest access, scheduling meetings, using the AI Assistant, language translation, chat functionalities, and device compatibility.
+
+## Access
 
 **Do I need to sign up to attend a meeting?**
 No, guests can join using a meeting link without signing in; however, their access will be limited (e.g., no AI Assistant or meeting history).
 
-**Can I use a Google account to sign up?**
-Yes, you can easily register or log in using your Google account with just one click.
+**Can I use a Google or Microsoft account to sign up?**
+Yes, you can easily register or log in using your Google or Microsoft accounts with just one click.
 
 ## Meetings
 
 **How do I create a meeting?**
-Click on **"New Meeting"** from the main page. You can then choose to start instantly, schedule a meeting in Google Calendar, or create a meeting link for later use.
+Click on **New Meeting** from the main page. You can then choose to start instantly, schedule a meeting in Google Calendar, or create a meeting link for later use.
 
 **Can meetings be recorded?**
 Yes, Hosts and Moderators can initiate and terminate recordings. All participants will receive a notification when a recording begins.
 
 **Can I schedule recurring meetings?**
-Not currently. The current scheduling feature integrates with Google Calendar for one-time events only.
+Yes, you can use the 'Schedule a meeting in Google Calendar' option. In the meeting settings, you will be able to choose recurrence options on a daily basis or other options according to your preferences.
 
 ## AI Assistant
 
@@ -36,45 +38,45 @@ Yes, the AI Assistant can analyze both the Transcript and Chat.
 Yes, it provides real-time voice dubbing in the selected language.
 
 **Can I change the language mid-meeting?**
-Yes, you can stop the Translator, navigate to Settings > Language, and then restart the Translator.
+Yes, through the 'Settings > Your Language' option.
 
 **Do guests get translated?**
-Yes, guests can manually enable the Translator through the Settings.
+Yes, the Translator option is also available for guests.
 
-## Chat & Participation
+## Participation
 
 **Can I send private messages in the chat?**
 Not currently. All chat messages are visible to all participants.
 
 **How do I raise my hand?**
-Click the **"Raise Hand"** button in the bottom toolbar. All participants will be notified.
+Click the **Raise Hand** button in the bottom toolbar. All participants will be notified.
 
-## Settings & Devices
+## Settings
 
 **How do I select a specific microphone or camera?**
 Go to the Settings menu and choose from the available devices.
 
 **How do I blur my background?**
-In Settings, toggle the **"Background Blur"** option. If your video is enabled, you will see an overlay icon to enable or disable Background Blur.
+In Settings, toggle the **Background Blur** option. If your video is enabled, you will see an overlay icon to enable or disable Background Blur.
 
 **Can I save layout or language preferences?**
 Yes, these preferences are saved in your profile and will be applied to future meetings.
 
-## Devices & Browsers
+## Browsers
 
 **What devices are supported?**
-iMind Meeting operates on desktop (Windows/macOS) and mobile (iOS/Android) through any modern browser.
+InterMIND operates on desktop (Windows/macOS) and mobile (iOS/Android) through any modern browser.
 
 **Which browser is best?**
 Chrome, Firefox, Safari, Edge, and Opera are fully supported.
 
-## Meeting History
+## History
 
 **Can I view past meetings I joined?**
-Yes, users who are signed in have the capability to access past meetings through the History page, which includes recordings, transcripts, and summaries of those meetings via AI Assistant tab.
+Yes, users who are signed in have the capability to access past meetings through the History page, which include recordings, transcripts, and summaries of those meetings via AI Assistant tab.
 
 **Can I delete a meeting from my history?**
 Only Hosts and Moderators possess the authority to delete a meeting record, which effectively removes it from the histories of all participants.
 
 **How do I share a previous meeting?**
-To share a previous meeting, utilize the **"Share"** button located on the History page to copy the meeting link to your clipboard.
+To share a previous meeting, utilize the **Share** button located on the History page to copy the meeting link to your clipboard.

@@ -1,48 +1,46 @@
-# Обзор интерфейса конференции
+# Meeting Interface Overview
 
-Интерфейс конференций iMind разработан с особым вниманием к чистоте, интуитивности и доступности. В этом разделе подробно описаны ключевые элементы, видимые во время активной конференции, и представлены рекомендации по эффективному взаимодействию пользователей с ними.
+The InterMIND interface is designed with careful consideration for cleanliness, intuitiveness, and accessibility. This section delineates the key elements visible during a live meeting and provides guidance on how users can interact with them effectively.
 
-## Расположение основного интерфейса
+## Main Interface Layout
 
-При посещении встречи — в качестве Организатора, Модератора, Участника или Гостя — расположение элементов экрана меняется в зависимости от вашей роли. Интерфейс включает:
+Upon attending a meeting—whether as a Host, Moderator, Participant, or Guest—the screen layout varies based on your role (refer to the User Roles section). The layout includes:
 
-- **Верхняя строка состояния**: Эта панель отображает ссылку на встречу, статус безопасности, индикатор записи и переводчика, предоставляя важную информацию мгновенно
-- **Центральная область видео**: Эта область показывает участников в формате сетки или боковой панели, который можно настроить через параметры
-- **Нижняя панель инструментов**: Эта панель содержит основные элементы управления, необходимые для управления встречей
-- **Боковая панель (опционально)**: Эта панель включает чат, список участников и AI-ассистента, улучшая взаимодействие пользователей
+- **Top Status Bar**: This bar displays the meeting link, security status, recording and translator indicator, providing essential information immediately
+- **Central Video Area**: This area shows participants in either a grid or sidebar format, which can be adjusted via settings
+- **Bottom Toolbar**: This toolbar contains the primary interaction controls vital for managing the meeting
+- **Side Panel (optional)**: This panel features chat, participant list, and AI Assistant, enhancing user interaction
 
-## Быстрые настройки персонализации
+## Quick Customization Options
 
-В Настройках пользователи могут:
+In the Settings, users can:
 
-- Выбрать устройства микрофона, динамиков и камеры для обеспечения оптимального качества звука и изображения
-- Переключаться между режимами отображения Сетка или Боковая панель в соответствии со своими предпочтениями
-- Включить или отключить Размытие фона для конфиденциальности во время встречи
-- Изменить язык Переводчика для облегчения общения между участниками, говорящими на разных языках
+- Select their microphone, speaker, and camera devices to ensure optimal audio and visual quality
+- Toggle between Grid or Sidebar layout to accommodate their preferences
+- Enable or disable Background Blur for privacy during the meeting
+- Change the Translator language to facilitate communication among participants speaking different languages
 
-## Функции взаимодействия участников
+## Participant Interaction Features
 
-Участники могут активно участвовать в собрании, используя несколько доступных инструментов в интерфейсе:
+Participants can engage actively in the meeting using several available tools within the interface:
 
-- **Поднять руку**: Участники могут нажать на эту опцию, чтобы обозначить желание высказаться. Рядом с их именем в списке участников появится значок руки, сигнализирующий о запросе
-- **Опустить руку**: Организаторы и модераторы могут вручную опустить поднятую руку участника, поддерживая порядок во время обсуждений
-- **Чат**: Участники могут отправлять сообщения всем присутствующим во время звонка, используя боковую панель, способствуя общению и совместной работе
-- **Закрепить / Не показывать**: Пользователи могут настроить свой вид, закрепляя определенных участников или скрывая их из своего персонального отображения, настраивая свой опыт участия в собрании
+- **Raise Hand**: Participants can click this option to indicate their desire to speak. A hand icon will appear next to their name in the participant list, signaling their request
+- **Lower Hand**: Hosts and Moderators can manually lower a participant's raised hand, maintaining order during discussions
+- **Chat**: Participants can send messages to all attendees during the call using the side panel, fostering communication and collaboration
+- **Pin / Don't Watch**: Users can customize their view by pinning specific participants or hiding them from their personal layout, tailoring their meeting experience
 
-## Значки и функции нижней панели инструментов
+## Bottom Toolbar Icons & Functions
 
-| Значок/Кнопка           | Описание                                                                                                                                                                                                       |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Микрофон**            | Нажмите, чтобы включить или выключить микрофон, позволяя контролировать ваш аудиовход во время встречи                                                                                                         |
-| **Камера**              | Нажмите, чтобы включить или выключить камеру, активируя или деактивируя вашу видеотрансляцию для участников                                                                                                    |
-| **Демонстрация экрана** | Нажмите, чтобы начать или остановить демонстрацию экрана. Эта функция предоставляет возможность поделиться всем экраном, определенным окном или вкладкой браузера и доступна только в настольных браузерах     |
-| **Запись**              | Нажмите, чтобы начать или остановить запись. При запуске все участники получат визуальное и звуковое уведомление. Эта функция доступна только Организатору и Модератору                                        |
-| **Поднять руку**        | Нажмите, чтобы поднять или опустить руку, сигнализируя о желании высказаться. Значок руки появится рядом с вашим именем в списке участников                                                                    |
-| **Настройки**           | Настройка параметров аудио, видео, макета и размытия фона. Участники также могут выбрать своего провайдера ассистента по умолчанию и предпочитаемый язык для перевода                                          |
-| **Покинуть встречу**    | Нажмите, чтобы покинуть встречу. Хотя Организаторы и Модераторы могут удалять участников, они не могут завершить встречу для всех                                                                              |
-| **Голосовой ассистент** | Нажмите, чтобы включить или выключить голосового ассистента Jarvis. Активация этой функции добавляет ИИ-ассистента Jarvis как дополнительного участника встречи                                                |
-| **Перевод**             | Нажмите, чтобы включить или выключить перевод. Аудиоперевод будет соответствовать языку, выбранному в настройках, позволяя каждому участнику включить свои предпочтения перевода                               |
-| **ИИ-ассистент**        | Открывает панель ИИ-ассистента, предоставляя пользователям возможность взаимодействия для получения личных сводок, вопросов и ответов и умных команд. Эта функция доступна только авторизованным пользователям |
-| **Участники**           | Открывает список участников, показывая их роли, такие как Организатор, Модератор и т.д.                                                                                                                        |
-| **Чат**                 | Нажмите, чтобы показать или скрыть функцию чата, облегчающую взаимодействие с другими участниками во время встречи                                                                                             |
-| **Ссылка на встречу**   | Ссылку на встречу можно найти в адресной строке браузера или скопировать из нижнего левого угла, нажав 'Копировать ссылку'                                                                                     |
+| Icon/Button       | Description                                                                                                                                                                                                         |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Microphone**    | Click to mute or unmute your microphone, allowing you to control your audio input during the meeting                                                                                                                |
+| **Camera**        | Click to start or stop your camera, enabling or disabling your video feed for participants                                                                                                                          |
+| **Screen Share**  | Click to start or stop screen sharing. This feature provides options to share your entire screen, a specific window, or a browser tab, and is only available on desktop browsers                                    |
+| **Recording**     | Click to start or stop recording. Upon initiation, all participants will receive a visible and audible notification. This feature is exclusively available to the Host and Moderator                                |
+| **Raise Hand**    | Click to raise or lower your hand, indicating your intent to speak. A hand icon will appear next to your name in the participant list when raised                                                                   |
+| **Settings**      | Adjust audio, video, layout, and background blur settings. Participants can also select their default assistant provider and choose their preferred language for translation                                        |
+| **Leave Meeting** | Click to leave the meeting. While Hosts and Moderators can remove participants, they cannot end the meeting for everyone                                                                                            |
+| **AI Assistant**  | Opens the AI Assistant panel, providing users with the capability to interact for private summaries, Q&A, and smart commands. This feature is restricted to authorized users                                        |
+| **Participants**  | Opens the list of participants, showcasing their roles such as Host, Moderator, etc.                                                                                                                                |
+| **Chat**          | Click to show or hide the chat feature, facilitating interaction with other participants during the meeting                                                                                                         |
+| **Meeting Link**  | The meeting link is accessible in the browser's address bar or can be copied from the bottom-left corner by selecting the 'Share' link. For mobile users, this link is displayed under the 'Show Menu' option items |

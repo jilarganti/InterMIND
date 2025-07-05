@@ -1,6 +1,6 @@
 # Troubleshooting
 
-This section provides solutions for common issues encountered during online meetings, including problems with microphones, cameras, joining meetings, using voice assistants, translators, screen sharing, and recording.
+This section provides solutions for common issues encountered during online meetings, including problems with microphones, cameras, joining meetings, using voice assistants, translators, screen sharing, and recording. It outlines potential causes for each issue and offers practical solutions to resolve them, ensuring a smoother online meeting experience.
 
 ## Microphone or Camera Not Working
 
@@ -27,39 +27,20 @@ This section provides solutions for common issues encountered during online meet
 - Verify the link's accuracy and confirm with the Host
 - Refresh your browser and try again
 
-## Jarvis Voice Assistant Not Responding
-
-### Common Causes:
-
-- Jarvis is disabled in the meeting
-- Unrecognized command
-- Microphone muted
-- Microphone blocked by browser permissions
-- Network issues
-
-### Solutions:
-
-- Ensure microphone access is granted
-- Ensure microphone is enabled
-- Use supported commands like **"hey, jarvis summarize last 10 minutes"**
-- The AI Assistant panel only works for logged-in users
-
 ## Translator Not Working
 
 ### Common Causes:
 
-- Feature disabled
+- All participants have selected the same language
 - Microphone muted
 - Microphone blocked by browser permissions
 - Network issues
 
 ### Solutions:
 
-- Click the Translator icon to enable it
 - Select your preferred language in Settings > Language
-- Rejoin or refresh if subtitles fail to appear
-- Ensure microphone access is granted
-- Ensure microphone is enabled
+- Rejoin or refresh the meeting page
+- Ensure microphone access is granted and enabled
 
 ## Echo or Audio Feedback
 
@@ -83,8 +64,7 @@ This section provides solutions for common issues encountered during online meet
 
 ### Solutions:
 
-- Rejoin via the original link
-- Contact the Host for clarification
+- Contact the Host or Moderator for clarification
 
 ## Screen Sharing Not Working
 

@@ -1,61 +1,65 @@
-# Создание и планирование встреч
+# Creating and Scheduling Meetings
 
-После входа в iMind Meeting пользователи могут удобно создавать и планировать встречи прямо из главного интерфейса, нажав кнопку **Новая встреча**.
+Upon signing into InterMIND, users can conveniently create and schedule meetings directly from the main interface by clicking the **New Meeting** button.
 
-## Доступ к настройкам встречи
+## Accessing the Meeting Options
 
-На главном экране найдите заметную синюю кнопку **Новая встреча**, расположенную в центре страницы. При нажатии на эту кнопку откроется выпадающее меню с тремя различными опциями:
+On the home screen, locate the prominent blue **New Meeting** button situated at the center of the page. Clicking this button will unveil a dropdown menu with three distinct options:
 
-1. Создать встречу на потом
-2. Начать мгновенную встречу
-3. Запланировать в Google Calendar
+1. Create a meeting for later
+2. Start an instant meeting
+3. Schedule in Google Calendar
 
-## Создание встречи на будущее
+## Create a Meeting for Later
 
-Эта опция позволяет пользователям создавать многоразовую ссылку на встречу без немедленного начала собрания.
+This option permits users to generate a reusable meeting link without initiating the meeting immediately.
 
-**Порядок действий:**
+**Steps:**
 
-1. Нажмите кнопку **New Meeting**
-2. Выберите опцию **Create a Meeting for Later**
-3. Будет создана уникальная ссылка на встречу
-4. Скопируйте ссылку и поделитесь ею с участниками
-5. Вы можете присоединиться к встрече в любое время, используя эту ссылку
-
-> [!TIP]
-> Эта опция особенно удобна для членов команды, которые будут присоединяться в разное время, или для планирования будущих встреч.
-
-## Начать мгновенную встречу
-
-Эта опция позволяет пользователям немедленно начать сеанс живой встречи.
-
-**Шаги:**
-
-1. Нажмите кнопку **Новая встреча**
-2. Выберите опцию **Начать мгновенную встречу**
-3. Комната для встречи откроется мгновенно в текущей вкладке
-4. Вы автоматически получите роль Организатора
-5. Используйте опцию 'Копировать ссылку', расположенную в нижнем левом углу, или скопируйте ссылку из адресной строки браузера
-6. Поделитесь ссылкой с другими участниками
+1. Click the **New Meeting** button
+2. Select the **Create a Meeting for Later** option
+3. A unique meeting link will be generated
+4. Copy the link and share it with participants
+5. You can join the meeting at any time using this link
 
 > [!TIP]
-> Этот вариант идеально подходит для быстрой синхронизации или спонтанного сотрудничества.
+> This option is particularly advantageous for team members who will join at different times or for future planning.
 
-## Планирование в Google Calendar
+## Start an Instant Meeting
 
-Запланируйте будущую встречу и легко интегрируйте её в ваш Google Calendar.
+This option empowers users to initiate a live meeting session immediately.
 
-**Действия:**
+**Steps:**
 
-1. Нажмите кнопку **Новая встреча**
-2. Выберите опцию **Запланировать в Google Calendar**
-3. Вы будете перенаправлены на страницу создания события в Google Calendar в новой вкладке
-4. Ссылка на встречу будет автоматически добавлена в поле местоположения или заметок
-5. Укажите:
-   - Дату и время
-   - Участников
-   - Напоминания
-6. Нажмите **Сохранить** и отправьте приглашения из Google Calendar
+1. Click the **New Meeting** button
+2. Select the **Start an instant meeting** option
+3. A meeting room will open instantly in the current tab
+4. You will automatically assume the role of Host
+5. Utilize the 'Copy Link' option located in the bottom left corner, or copy the link from the browser's address bar
+6. Share the link with other participants
+
+> [!TIP]
+> This option is ideal for quick synchronization or spontaneous collaboration.
+
+## Schedule in Google Calendar
+
+Schedule a future meeting and seamlessly integrate it into your Google Calendar.
+
+**Steps:**
+
+1. Click the **New Meeting** button
+2. Select the **Schedule in Google Calendar** option
+3. You will be redirected to a Google Calendar event creation page in a new tab
+4. The meeting link will be automatically populated in the location or notes section
+5. Set:
+   - Date and time
+   - Guests
+   - Notifications
+6. Click **Save** and send invites from Google Calendar
 
 > [!INFO]
-> Для этого требуется подключенный аккаунт Google. Особенно подходит для организованных команд с интегрированными календарями.
+> This requires a connected Google Account and is particularly suitable for organized teams with integrated calendars.
+
+As soon as the meeting is scheduled and if Google Calendar is connected to InterMIND, this meeting will appear on the main page of InterMIND in the section with scheduled meetings.
+
+Also, as soon as the invited participants accept the invitation to the meeting, it will appear on their main page of InterMIND in the section with scheduled meetings, provided they are authorized and have synchronization with Google Calendar enabled.
