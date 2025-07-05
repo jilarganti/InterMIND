@@ -1,13 +1,13 @@
 {
   "name": "mind",
-  "description": "Start efficiently 🌱 doing business in UAE!",
+  "description": "Monorepo for GoldenFishProject",
   "version": "0.3.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/jilarganti/GoldenFishProject"
   },
-  "author": "Jil Arganti",
-  "license": "CC BY-NC-SA 4.0",
+  "author": "Jilarganti",
+  "license": "Apache-2.0",
   "type": "module",
   "scripts": {
     "build": "pnpm -r build",

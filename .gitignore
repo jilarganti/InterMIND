@@ -4,6 +4,3 @@
 node_modules
 dist
 cache
-temp
-
-*.code-workspace

@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "path": "..",
+    },
+  ],
+  "settings": {
+    "files.exclude": {
+      "LICENSE": true,
+      "packages/mind-com": true,
+      "packages/draftium": true,
+    },
+    "search.exclude": {
+      "packages/mind-com": true,
+      "packages/draftium": true,
+    },
+    "files.watcherExclude": {
+      "**/packages/mind-com/**": true,
+      "**/packages/draftium/**": true,
+    },
+    "files.associations": {
+      "*.vue": "vue",
+    },
+  },
+}

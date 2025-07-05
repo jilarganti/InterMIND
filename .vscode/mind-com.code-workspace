@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": "..",
+    },
+    {
+      "path": "../../../Downloads",
+    },
+  ],
+  "settings": {
+    "files.exclude": {
+      "LICENSE": true,
+      "packages/golden-fish": true,
+      "packages/draftium": true,
+    },
+    "search.exclude": {
+      "packages/golden-fish": true,
+      "packages/draftium": true,
+    },
+    "files.watcherExclude": {
+      "**/packages/golden-fish/**": true,
+      "**/packages/draftium/**": true,
+    },
+    "files.associations": {
+      "*.vue": "vue",
+    },
+  },
+}
