@@ -1,6 +1,5 @@
 .DS_Store
 .vercel
-.vscode
 .env*
 
 node_modules
