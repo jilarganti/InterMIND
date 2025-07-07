@@ -3,32 +3,18 @@ import { ref } from "vue"
 import { Icon } from "@iconify/vue"
 
 interface Props {
-  meetingId?: string
   scheduleUrl?: string
   joinUrl?: string
   hostUrl?: string
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  meetingId: "685 782 7369",
   scheduleUrl: "#schedule",
   joinUrl: "#join",
   hostUrl: "#host",
 })
 
-const copied = ref(false)
-
-const copyMeetingId = async () => {
-  try {
-    await navigator.clipboard.writeText(props.meetingId.replace(/\s/g, ""))
-    copied.value = true
-    setTimeout(() => {
-      copied.value = false
-    }, 2000)
-  } catch (err) {
-    console.error("Не удалось скопировать:", err)
-  }
-}
+const searchQuery = ref("")
 </script>
 
 <template>
@@ -56,13 +42,10 @@ const copyMeetingId = async () => {
       </a>
     </div>
 
-    <div class="meeting-id-section">
-      <h3>Personal Meeting ID</h3>
-      <div class="meeting-id-container">
-        <span class="meeting-id">{{ meetingId }}</span>
-        <button @click="copyMeetingId" class="copy-button" :title="copied ? 'Скопировано!' : 'Копировать ID'">
-          <Icon :icon="copied ? 'mdi:check' : 'mdi:content-copy'" style="font-size: 16px" />
-        </button>
+    <div class="search-section">
+      <div class="search-container">
+        <Icon icon="mdi:magnify" class="search-icon" />
+        <input type="text" placeholder="Поиск..." class="search-input" v-model="searchQuery" />
       </div>
     </div>
   </div>
@@ -125,43 +108,46 @@ const copyMeetingId = async () => {
   color: white;
 }
 
-.meeting-id-section h3 {
-  color: var(--vp-c-text-1);
-  margin-bottom: 15px;
+.search-section {
+  margin-top: 30px;
+}
+
+.search-container {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--vp-c-text-3);
   font-size: 20px;
-  font-weight: 600;
+  pointer-events: none;
 }
 
-.meeting-id-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 10px;
-}
-
-.meeting-id {
-  font-size: 18px;
-  font-weight: 500;
-  color: var(--vp-c-text-1);
-  letter-spacing: 1px;
-}
-
-.copy-button {
-  background: transparent;
+.search-input {
+  width: 100%;
+  padding: 12px 12px 12px 45px;
   border: 1px solid var(--vp-c-border);
-  border-radius: 6px;
-  padding: 6px 10px;
-  cursor: pointer;
-  transition: all 0.2s;
-  color: var(--vp-c-text-2);
-  font-size: 14px;
+  border-radius: 8px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  font-size: 16px;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
 }
 
-.copy-button:hover {
-  background: var(--vp-c-bg-soft);
+.search-input:focus {
+  outline: none;
   border-color: var(--vp-c-brand-1);
-  color: var(--vp-c-brand-1);
+  box-shadow: 0 0 0 2px var(--vp-c-brand-soft);
+}
+
+.search-input::placeholder {
+  color: var(--vp-c-text-3);
 }
 
 @media (max-width: 768px) {
