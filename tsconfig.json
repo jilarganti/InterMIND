@@ -1,6 +1,7 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "exclude": ["node_modules", "**/i18n", "**/dist"],
+  "include": ["**/*.ts", "**/*.vue", "**/*.d.ts"],
+  "exclude": ["**/node_modules/**", "**/dist/**", "**/i18n/**"],
   "vueCompilerOptions": {
     "vitePressExtensions": [".md"]
   }
