@@ -90,40 +90,44 @@ isHome: true
 
 ## Talk Naturally. Understand Instantly.
 
-If you’ve used **Google Meet**, you already know how InterMind works — just with **live interpretation** built-in. [Try it now](#Pricing) — feel the difference in your next call. No setup. No training. Just talk — InterMind handles the rest.
+If you’ve used **Google Meet**, you already know how InterMind works — just with **live interpretation** built-in. No setup. No training. Just talk — InterMind handles the rest.
 
 <FeatureCards :features="[
   {
-    title: '**Sign up for free**',
-    details: 'Get started in seconds — no credit card needed.',
+    title: 'Sign up for free',
+    details: '[Register](#Pricing) or log in using your preferred language.',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
     }
   },
   {
-    title: '**Start a meeting**',
-    details: 'Create a meeting or schedule in calendar. No downloads or installs required.',
+    title: 'Start a meeting',
+    details: 'Create a meeting or schedule in your calendar.',
     icon: {
       light: '/start.png',
       dark: '/start.png',
     }
   },
+  // {
+  //   title: 'Invite your guests',
+  //   details: 'Share the link - your guest simply clicks on it and joins in their language.',
+  //   icon: {
+  //     light: '/invite.png',
+  //     dark: '/invite.png',
+  //   }
+  // },
   {
-    title: '**Invite your guests**',
-    details: 'Share a link — your guest just clicks and joins. No language settings required.',
-    link: '/uae-business/company-registration/accounting-legal',
+    title: 'Join the meeting',
+    details: 'Click on the invitation link, select a name, and join the meeting.',
     icon: {
-      light: '/invite.png',
-      dark: '/invite.png',
+      light: '/join.png',
+      dark: '/join.png',
     }
   },
   {
-    title: '**Speak your language**',
-    items: [
-      'Everyone talks in their native language', 
-      'Everyone hears the other side instantly interpreted'
-    ],
+    title: 'Speak your language',
+    details: 'Everyone speaks and hears in their own language.',
     icon: {
       light: '/meeting.png',
       dark: '/meeting.png',
@@ -158,7 +162,7 @@ This single language setting applies to:
 | Participant 1 | English           | English   | English  |
 | Participant 2 | Chinese           | Chinese   | Chinese  |
 
-The platform automatically interprets all speech in real time — so everyone communicates as if they spoke the same language.
+[The platform automatically interprets all speech in real time](./product/overview/how-it-works) — so everyone communicates as if they spoke the same language.
 
 ### ⚙️ Can you change your language during the call?
 
