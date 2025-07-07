@@ -4,7 +4,7 @@ title: Video meetings reimagined — now at mind.com
 description: "From iMind to InterMIND: voice-first video calls with real-time AI-powered interpretation."
 head:
   - [link, { rel: "canonical", href: "https://mind.com/" }]
-  - [meta, { name: "robots", content: "noindex, follow" }]
+  # - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
 <HeroSection

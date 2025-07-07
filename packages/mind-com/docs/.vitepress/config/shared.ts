@@ -61,21 +61,21 @@ export const shared = defineConfig({
 
     // Сохраняем UTM-параметры в метаданных страницы
     // Извлекаем параметры из URL текущего запроса (если он доступен)
-    if (typeof window !== "undefined" && window.location.search) {
-      try {
-        const urlParams = new URLSearchParams(window.location.search)
+    // if (typeof window !== "undefined" && window.location.search) {
+    //   try {
+    //     const urlParams = new URLSearchParams(window.location.search)
 
-        // Сохраняем все UTM-параметры в params
-        UTM_PARAMS.forEach((param) => {
-          const value = urlParams.get(param)
-          if (value) {
-            pageData.params![param] = value
-          }
-        })
-      } catch (e) {
-        console.error("Error extracting query parameters:", e)
-      }
-    }
+    //     // Сохраняем все UTM-параметры в params
+    //     UTM_PARAMS.forEach((param) => {
+    //       const value = urlParams.get(param)
+    //       if (value) {
+    //         pageData.params![param] = value
+    //       }
+    //     })
+    //   } catch (e) {
+    //     console.error("Error extracting query parameters:", e)
+    //   }
+    // }
   },
   markdown: {
     config: (md) => {
