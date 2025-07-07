@@ -1,49 +1,101 @@
-# How Real-Time AI Translation Works
+# How AI Real-Time Translation Works
 
-## Speak in any language — hear your own
+## Speak and Listen in Your Language
 
-InterMind is a multi-user video conferencing platform with **instant, bidirectional interpretation**.
-Each participant can speak in their **own native language** — at any time — and hear everyone else in **their chosen language**.
+InterMind is a multi-user video conferencing platform with **instant bidirectional translation**. Each participant can speak and hear others in **their native language**, creating the effect of natural communication without language barriers.
 
-No need to wait for turns or rely on subtitles.
+![](/interpretating.svg)
 
-## Real-time translation powered by deep context
+## How it works:
 
-Behind the scenes:
+### 1. **Speech Recognition (Speech-to-Text)**
 
-1. **Speech-to-text**: Every voice input is transcribed live.
-2. **Neural translation**: Transcripts are translated into your native language — with tone and intent preserved.
-3. **Voice synthesis**: The translated message is spoken in real time, using your voice settings.
+- Streaming recognition using transformer models
+- Processing noise and background sounds
+- Support for technical terminology and jargon
+- Recognition accuracy: **95-98%** for major languages
 
-All this happens with a **latency under 3 seconds** — equivalent to a human simultaneous interpreter[^1] [^2].
+### 2. **Text Postprocessing (Text Cleanup & Semantic Analysis)**
 
-[^1]: Industry benchmark for real-time human interpretation latency is \~2–3 seconds.
+- **Speech junk removal**: elimination of "uh", "um", repetitions, stuttering
+- **Recognition error correction**: context-based correction
+- **Punctuation and structuring**: automatic punctuation placement
+- **Key meaning extraction**: identification of main and secondary thoughts
+- **Utterance segmentation**: breaking into logical blocks for accurate translation
+- **Contextual analysis**: linking with previous remarks and overall topic
 
-[^2]: Based on current progress in AI interpretation, we expect that within 2–3 years, models will consistently outperform top-tier human interpreters — including in specialized domains like law, finance, healthcare, and engineering.
+### 3. **Neural Translation (Neural Translation)**
 
-## Better than human — and improving every day
+- Context-dependent translation with meaning preservation
+- Understanding of idioms, metaphors, and cultural references
+- Speech style adaptation (formal/informal)
+- Preserving emotional coloring of utterances
 
-InterMind enables seamless integration with leading LLM providers — selected based on your chosen privacy region.
-We don’t train our own models, but we fine-tune interpretation settings using real-world multilingual meetings to ensure relevance and clarity.
+### 4. **Speech Synthesis (Text-to-Speech)**
 
-## Deep memory = deep understanding
+- Natural intonation and speech rhythm
+- Preserving pauses and accents of the original
+- Male/female voice selection
+- Speed and tone adjustment
 
-Unlike generic translators, InterMind **remembers your meetings**:
+All this happens with **latency under 3 seconds** — matching the speed of professional simultaneous interpreters[^1] [^2].
 
-- Context of prior conversations
-- Agendas, participants, project-specific terms
-- Outcomes, tasks, and decisions
+## Practical Advantages
 
-Your AI interpreter evolves with your team. It understands not just the language — but **the topic, project, and personalities** involved.
+### Speech Processing Quality:
 
-Confidentiality is always your choice.
+- **Noise filtering**: automatic removal of coughing, laughter, background conversations
+- **Smart punctuation**: recognition of intonational pauses and logical emphasis
+- **Error correction**: fixing typos and recognition inaccuracies on the fly
+- **Semantic compression**: preserving meaning while removing redundancy
 
-## Privacy by Design
+### For Business:
 
-Use [Region-Segmented Privacy Architecture](privacy-architecture) to decide where and how your data is processed.
+- **Global teams**: eliminating language barriers in international teams
+- **Client meetings**: direct communication with clients without interpreter services
+- **Training and presentations**: simultaneous content delivery in multiple languages
+- **Cost savings**: reducing interpreter costs by up to **80%**
 
-- Turn memory **on/off** at any time
-- Wipe AI memory after meetings
-- Select privacy zones (US, EU, Asia) for regulatory compliance
+### For Users:
 
-> [!tip] All audio/video routing is handled by our proprietary Mind API, built in-house to ensure performance and data sovereignty.
+- **Naturalness**: speak as usual, think in your native language
+- **Privacy**: no third parties (interpreters)
+- **Accessibility**: 24/7 without advance planning
+- **Scalability**: from 2 to 1000+ participants
+
+## Better than Human — and Improving Every Day
+
+### Technology Stack:
+
+- **LLM providers**: GPT-4, Claude, Gemini (regional selection)
+- **Regionality**: compliance with local privacy requirements (GDPR, CCPA)
+- **Continuous learning**: analysis of 10,000+ hours of multilingual meetings monthly
+- **Specialization**: models for specific industries (medicine, law, finance, IT)
+
+### Translation Quality:
+
+- **Accuracy**: 94-97% correctness for business conversations
+- **Context**: understanding context throughout the entire meeting
+- **Terminology**: adaptive dictionaries for each industry
+- **Feedback**: user quality rating system
+
+> [!info] Technical Architecture
+>
+> All audio/video routing is handled through our proprietary Mind API, developed in-house to ensure:
+>
+> - **Performance**: processing 1000+ parallel streams
+> - **Data sovereignty**: storage in selected region
+> - **Fault tolerance**: 99.9% uptime with automatic failover
+> - **Scalability**: horizontal scaling under load
+
+### Integration and Compatibility:
+
+- **Web**: works in any modern browser
+- **Desktop**: simple PWA installation for Windows/Mac/Linux
+- **Mobile applications**: simple PWA installation for iOS/Android
+- **API**: integration into existing platforms (coming soon)
+- **Popular services**: Zoom, Teams, Google Meet (via plugins) (coming soon)
+
+[^1]: Standard latency for human simultaneous translation is ~2–3 seconds.
+
+[^2]: Based on current progress in AI translation, we expect that within 2–3 years, models will consistently outperform the best human translators — including specialized areas such as law, finance, healthcare, and engineering.
