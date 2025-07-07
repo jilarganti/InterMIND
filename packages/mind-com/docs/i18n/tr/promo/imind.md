@@ -4,7 +4,7 @@ title: "Video toplantılar yeniden tasarlandı — artık mind.com'da"
 description: "iMind'dan InterMIND'a: gerçek zamanlı AI destekli çeviri ile ses odaklı video aramalar."
 head:
   - [link, { rel: "canonical", href: "https://mind.com/" }]
-  - [meta, { name: "robots", content: "noindex, follow" }]
+  # - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
 <HeroSection
@@ -143,7 +143,7 @@ head:
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-> [!tip] 🥇 Zamanınızı dilbilgisi ezberlemek yerine sanatınızda ustalaşmaya harcamanız daha iyi.
+> [!tip] 🥇 Zamanınızı gramer ezberlemek yerine sanatınızda ustalaşmaya harcamanız daha iyi.
 
 <span id="FAQ"></span>
 
@@ -188,11 +188,11 @@ head:
     a: 'Planınızı **hesap ayarlarınız** üzerinden istediğiniz zaman değiştirebilirsiniz. Değişiklikler **anında** geçerli olur. İptaller için *Aylık planlar* fatura döngüsünün sonunda iptal olur. *Yıllık planlar* **orantılı geri ödeme** ile iptal edilebilir.'
   },
   {
-    q: 'InterMind çeviri için hangi dilleri destekliyor?',
+    q: 'InterMind hangi dillerde çeviri desteği sunuyor?',
     a: 'Gerçek zamanlı çeviri ile **100+ dili** destekliyoruz. Liste büyümeye devam ediyor — güncellemeler için web sitemizi kontrol edin.'
   },
   {
-    q: 'InterMind\'ı webinar veya büyük etkinlikler için kullanabilir miyim?',
+    q: 'InterMind\'ı webinarlar veya büyük etkinlikler için kullanabilir miyim?',
     a: 'Evet. *Pro* ve *İş* planları **büyük toplantılar ve webinarlar** için idealdir — *İş* planında **500 katılımcıya** kadar destek ile.'
   },
 ]

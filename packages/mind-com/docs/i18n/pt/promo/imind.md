@@ -4,7 +4,7 @@ title: "Reuniões por vídeo reimaginadas — agora em mind.com"
 description: "Do iMind ao InterMIND: chamadas de vídeo com foco na voz e interpretação em tempo real com IA."
 head:
   - [link, { rel: "canonical", href: "https://mind.com/" }]
-  - [meta, { name: "robots", content: "noindex, follow" }]
+  # - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
 <HeroSection
@@ -16,7 +16,7 @@ head:
 <span id="1"></span>
 <FeatureBlock :card="{
   title: 'Tradução ≠ Compreensão. Veja o que vem a seguir.',
-  details: 'Não importa o idioma, **sua voz é ouvida — e compreendida** — como se vocês compartilhassem a mesma língua.',
+  details: 'Independente do idioma, **sua voz é ouvida — e compreendida** — como se vocês compartilhassem a mesma língua.',
     items: [
       '⚡︎ Naturalmente, em [tempo real](../product/overview/how-it-works), e sem legendas ou atraso.',
       '✧ Interpretação com IA captura tom, intenção e terminologia específica do setor.',
@@ -32,7 +32,7 @@ head:
 <span id="2"></span>
 <FeatureBlock :card="{
     title: 'A mente dentro das suas reuniões',
-    details: 'O InterMIND transforma cada chamada multilíngue em conhecimento claro e pesquisável.',
+    details: 'InterMIND transforma cada chamada multilíngue em conhecimento claro e pesquisável.',
     items: [
       '🔍 **Pergunte qualquer coisa** — a IA encontra respostas **em todas as suas reuniões**.',
       '✧ Extrai automaticamente tarefas, responsáveis e prazos.',
@@ -49,7 +49,7 @@ head:
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Construído para reuniões sérias — não apenas para conversar',
-    details: 'O InterMIND é uma **plataforma de reuniões por vídeo de nível profissional**, não um complemento ou plugin leve.',
+    details: 'InterMIND é uma **plataforma de reuniões por vídeo de nível profissional**, não um complemento ou plugin leve.',
     items: [
       '✧ Resolução 1080p, supressão inteligente de ruído, agendamento, moderação, compartilhamento de tela, gravação, legendagem, chat de participantes e integração com calendário — tudo integrado, pronto para usar.',
     ],
@@ -66,7 +66,7 @@ head:
   :card="{
     title: 'Privacidade onde importa',
     details:
-      'O InterMIND é construído para conversas críticas de confiança — onde privacidade e controle são fundamentais.',
+      'InterMIND é construído para conversas críticas de confiança — onde privacidade e controle são fundamentais.',
     items: [
       '⚡︎ [Zonas de privacidade](../product/overview/privacy-architecture) — UE, EUA, Sudeste Asiático',
       '✧ **Zero treinamento de dados**. Sem acesso de terceiros.'
@@ -185,7 +185,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
   },
   {
     q: 'Como gerencio minha assinatura (upgrade, downgrade ou cancelamento)?',
-    a: 'Você pode alterar seu plano a qualquer momento através das **configurações da conta**. As alterações entram em vigor **imediatamente**. Para cancelamentos, *planos mensais* cancelam no final do ciclo de cobrança. *Planos anuais* podem ser cancelados para um **reembolso proporcional**.'
+    a: 'Você pode alterar seu plano a qualquer momento através das **configurações da conta**. As alterações entram em vigor **imediatamente**. Para cancelamentos, *planos mensais* são cancelados no final do ciclo de cobrança. *Planos anuais* podem ser cancelados com **reembolso proporcional**.'
   },
   {
     q: 'Quais idiomas o InterMind suporta para interpretação?',

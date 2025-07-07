@@ -1,49 +1,101 @@
-# Wie Echtzeit-KI-Übersetzung funktioniert
+# Wie KI-Echtzeitübersetzung funktioniert
 
-## Sprechen Sie in jeder Sprache — hören Sie in Ihrer eigenen
+## Sprechen und hören Sie in Ihrer Sprache
 
-InterMind ist eine Videokonferenzplattform für mehrere Nutzer mit **sofortiger, bidirektionaler Dolmetschung**.
-Jeder Teilnehmer kann in **seiner eigenen Muttersprache** sprechen — jederzeit — und alle anderen in **seiner gewählten Sprache** hören.
+InterMind ist eine Multi-User-Videokonferenzplattform mit **sofortiger bidirektionaler Übersetzung**. Jeder Teilnehmer kann sprechen und andere in **seiner Muttersprache** hören, wodurch der Effekt natürlicher Kommunikation ohne Sprachbarrieren entsteht.
 
-Kein Warten auf Redebeiträge oder Abhängigkeit von Untertiteln erforderlich.
+![](/interpretating.svg)
 
-## Echtzeit-Übersetzung durch tiefgreifenden Kontext
+## So funktioniert es:
 
-Hinter den Kulissen:
+### 1. **Spracherkennung (Speech-to-Text)**
 
-1. **Sprache-zu-Text**: Jede Spracheingabe wird live transkribiert.
-2. **Neuronale Übersetzung**: Transkripte werden in Ihre Muttersprache übersetzt — unter Beibehaltung von Ton und Absicht.
-3. **Sprachsynthese**: Die übersetzte Nachricht wird in Echtzeit gesprochen, unter Verwendung Ihrer Spracheinstellungen.
+- Streaming-Erkennung mit Transformer-Modellen
+- Verarbeitung von Rauschen und Hintergrundgeräuschen
+- Unterstützung für Fachterminologie und Jargon
+- Erkennungsgenauigkeit: **95-98%** für wichtige Sprachen
 
-All dies geschieht mit einer **Latenzzeit unter 3 Sekunden** — vergleichbar mit einem menschlichen Simultandolmetscher[^1] [^2].
+### 2. **Textverarbeitung (Textbereinigung & Semantische Analyse)**
 
-[^1]: Der Industriestandard für die Latenzzeit bei menschlicher Echtzeitdolmetschung liegt bei \~2-3 Sekunden.
+- **Entfernung von Sprachfehlern**: Eliminierung von "äh", "ähm", Wiederholungen, Stottern
+- **Korrektur von Erkennungsfehlern**: kontextbasierte Korrektur
+- **Zeichensetzung und Strukturierung**: automatische Platzierung von Satzzeichen
+- **Extraktion der Kernbedeutung**: Identifizierung von Haupt- und Nebengedanken
+- **Äußerungssegmentierung**: Aufteilung in logische Blöcke für präzise Übersetzung
+- **Kontextuelle Analyse**: Verknüpfung mit vorherigen Bemerkungen und dem Gesamtthema
 
-[^2]: Basierend auf den aktuellen Fortschritten in der KI-Dolmetschung erwarten wir, dass die Modelle innerhalb von 2-3 Jahren konstant bessere Leistungen als erstklassige menschliche Dolmetscher erbringen werden — einschließlich in spezialisierten Bereichen wie Recht, Finanzen, Gesundheitswesen und Ingenieurwesen.
+### 3. **Neuronale Übersetzung (Neural Translation)**
 
-## Besser als ein Mensch — und jeden Tag noch besser
+- Kontextabhängige Übersetzung mit Bedeutungserhaltung
+- Verständnis von Redewendungen, Metaphern und kulturellen Bezügen
+- Anpassung des Sprachstils (formal/informell)
+- Bewahrung der emotionalen Färbung von Äußerungen
 
-InterMind ermöglicht eine nahtlose Integration mit führenden LLM-Anbietern — ausgewählt auf Basis Ihrer gewählten Datenschutzregion.
-Wir trainieren keine eigenen Modelle, sondern optimieren die Interpretationseinstellungen mithilfe von mehrsprachigen Meetings aus der Praxis, um Relevanz und Klarheit sicherzustellen.
+### 4. **Sprachsynthese (Text-to-Speech)**
 
-## Tiefes Gedächtnis = tiefes Verständnis
+- Natürliche Intonation und Sprachrhythmus
+- Bewahrung von Pausen und Akzenten des Originals
+- Auswahl männlicher/weiblicher Stimme
+- Geschwindigkeits- und Tonanpassung
 
-Anders als herkömmliche Übersetzer **merkt sich InterMind Ihre Meetings**:
+All dies geschieht mit **Latenz unter 3 Sekunden** — entspricht der Geschwindigkeit professioneller Simultandolmetscher[^1] [^2].
 
-- Kontext vorheriger Gespräche
-- Tagesordnungen, Teilnehmer, projektspezifische Begriffe
-- Ergebnisse, Aufgaben und Entscheidungen
+## Praktische Vorteile
 
-Ihr KI-Dolmetscher entwickelt sich mit Ihrem Team weiter. Er versteht nicht nur die Sprache — sondern auch **das Thema, das Projekt und die beteiligten Persönlichkeiten**.
+### Sprachverarbeitungsqualität:
 
-Die Vertraulichkeit liegt immer in Ihrer Hand.
+- **Rauschfilterung**: automatische Entfernung von Husten, Lachen, Hintergrundgesprächen
+- **Intelligente Zeichensetzung**: Erkennung von intonatorischen Pausen und logischen Betonungen
+- **Fehlerkorrektur**: Behebung von Tippfehlern und Erkennungsungenauigkeiten in Echtzeit
+- **Semantische Komprimierung**: Bedeutungserhaltung bei gleichzeitiger Redundanzentfernung
 
-## Datenschutz durch Design
+### Für Unternehmen:
 
-Nutzen Sie die [Region-Segmented Privacy Architecture](privacy-architecture) um zu entscheiden, wo und wie Ihre Daten verarbeitet werden.
+- **Globale Teams**: Beseitigung von Sprachbarrieren in internationalen Teams
+- **Kundenmeetings**: direkte Kommunikation mit Kunden ohne Dolmetscherdienste
+- **Schulungen und Präsentationen**: gleichzeitige Inhaltsbereitstellung in mehreren Sprachen
+- **Kosteneinsparungen**: Reduzierung der Dolmetscherkosten um bis zu **80%**
 
-- Speicher jederzeit **ein-/ausschalten**
-- KI-Speicher nach Meetings löschen
-- Datenschutzzonen (US, EU, Asien) für regulatorische Compliance auswählen
+### Für Nutzer:
 
-> [!tip] Die gesamte Audio-/Videoübertragung wird durch unsere proprietäre Mind API gesteuert, die hausintern entwickelt wurde, um Leistung und Datensouveränität zu gewährleisten.
+- **Natürlichkeit**: sprechen Sie wie gewohnt, denken Sie in Ihrer Muttersprache
+- **Privatsphäre**: keine Dritten (Dolmetscher)
+- **Zugänglichkeit**: 24/7 ohne Vorausplanung
+- **Skalierbarkeit**: von 2 bis 1000+ Teilnehmern
+
+## Besser als Menschen — und wird jeden Tag besser
+
+### Technologie-Stack:
+
+- **LLM-Anbieter**: GPT-4, Claude, Gemini (regionale Auswahl)
+- **Regionalität**: Einhaltung lokaler Datenschutzbestimmungen (DSGVO, CCPA)
+- **Kontinuierliches Lernen**: Analyse von über 10.000 Stunden mehrsprachiger Meetings monatlich
+- **Spezialisierung**: Modelle für spezifische Branchen (Medizin, Recht, Finanzen, IT)
+
+### Übersetzungsqualität:
+
+- **Genauigkeit**: 94-97% Korrektheit bei Geschäftsgesprächen
+- **Kontext**: Kontextverständnis während des gesamten Meetings
+- **Terminologie**: adaptive Wörterbücher für jede Branche
+- **Feedback**: Benutzer-Qualitätsbewertungssystem
+
+> [!info] Technische Architektur
+>
+> Das gesamte Audio-/Video-Routing wird über unsere proprietäre Mind API abgewickelt, die intern entwickelt wurde, um Folgendes zu gewährleisten:
+>
+> - **Leistung**: Verarbeitung von über 1000 parallelen Streams
+> - **Datensouveränität**: Speicherung in der ausgewählten Region
+> - **Fehlertoleranz**: 99,9% Verfügbarkeit mit automatischem Failover
+> - **Skalierbarkeit**: horizontale Skalierung unter Last
+
+### Integration und Kompatibilität:
+
+- **Web**: funktioniert in jedem modernen Browser
+- **Desktop**: einfache PWA-Installation für Windows/Mac/Linux
+- **Mobile Anwendungen**: einfache PWA-Installation für iOS/Android
+- **API**: Integration in bestehende Plattformen (demnächst verfügbar)
+- **Beliebte Dienste**: Zoom, Teams, Google Meet (über Plugins) (demnächst verfügbar)
+
+[^1]: Standard-Latenz für menschliche Simultanübersetzung beträgt ~2–3 Sekunden.
+
+[^2]: Basierend auf dem aktuellen Fortschritt in der KI-Übersetzung erwarten wir, dass Modelle innerhalb von 2–3 Jahren durchgängig die besten menschlichen Übersetzer übertreffen werden — einschließlich spezialisierter Bereiche wie Recht, Finanzen, Gesundheitswesen und Ingenieurwesen.

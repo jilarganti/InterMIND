@@ -1,10 +1,10 @@
 ---
 layout: home
 title: "Réunions vidéo réinventées — maintenant sur mind.com"
-description: "D'iMind à InterMIND : appels vidéo axés sur la voix avec interprétation IA en temps réel."
+description: "D'iMind à InterMIND : appels vidéo axés sur la voix avec interprétation en temps réel alimentée par l'IA."
 head:
   - [link, { rel: "canonical", href: "https://mind.com/" }]
-  - [meta, { name: "robots", content: "noindex, follow" }]
+  # - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
 <HeroSection
@@ -98,7 +98,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
     details: 'aucune carte de crédit requise',
     items: [
       '**25** réunions',
-      '**100** participants en visioconférence [💬](#3)',
+      '**100** participants aux réunions vidéo [💬](#3)',
       '**30** Go de stockage partagé par utilisateur',
       'Recherche dans toutes vos réunions [💬](#2)',
       'Interprétation simultanée [💬](#1)',
@@ -110,7 +110,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
     details: 'ou 25 $ facturé mensuellement',
     items: [
       '**illimitées** réunions',
-      '**150** participants en visioconférence [💬](#3)',
+      '**150** participants aux réunions vidéo [💬](#3)',
       '**2** To de stockage partagé par utilisateur',
       'Recherche dans toutes vos réunions [💬](#2)',
       'Interprétation simultanée [💬](#1)',
@@ -122,7 +122,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
     details: 'Conçu pour la confidentialité',
     items: [
       '**illimitées** réunions',
-      '**500** participants en visioconférence [💬](#3)',
+      '**500** participants aux réunions vidéo [💬](#3)',
       '**5** To de stockage partagé par utilisateur',
       'Recherche dans toutes vos réunions [💬](#2)',
       'Interprétation simultanée [💬](#1)',
@@ -169,15 +169,15 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
   },
   {
     q: 'Y a-t-il une limite sur le nombre de réunions que je peux organiser ?',
-    a: 'Le plan *Free Basic* inclut **25 réunions gratuites**. Les plans *Pro* et *Business* offrent des réunions illimitées avec plus de participants et de contrôle.'
+    a: 'Le plan *Gratuit de base* inclut **25 réunions gratuites**. Les plans *Pro* et *Business* offrent des réunions illimitées avec plus de participants et de contrôle.'
   },
   {
     q: 'Comment InterMind assure-t-il la confidentialité et la sécurité des données ?',
-    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et au PDPL des EAU, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès par des tiers. Le contrôle avancé de la [Zone de confidentialité](../product/overview/privacy-architecture) est disponible sur le plan **Business**.'
+    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et au PDPL des EAU, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès de tiers. Le contrôle avancé de la [Zone de confidentialité](../product/overview/privacy-architecture) est disponible sur le plan **Business**.'
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un plan ?',
-    a: 'Absolument. Le plan *Free Basic* vous donne un accès complet aux fonctionnalités principales avec **25 réunions gratuites** — incluant **l\'interprétation simultanée** et **la recherche de réunions**. Aucune carte de crédit requise. Mise à niveau à tout moment.'
+    a: 'Absolument. Le plan *Gratuit de base* vous donne un accès complet aux fonctionnalités principales avec **25 réunions gratuites** — y compris **l\'interprétation simultanée** et **la recherche de réunions**. Aucune carte de crédit requise. Mise à niveau à tout moment.'
   },
   {
     q: 'Que faire si j\'ai besoin d\'aide ou de support ?',

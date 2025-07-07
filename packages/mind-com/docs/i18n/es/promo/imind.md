@@ -4,7 +4,7 @@ title: "Videollamadas reimaginadas — ahora en mind.com"
 description: "De iMind a InterMIND: videollamadas con voz como protagonista e interpretación con IA en tiempo real."
 head:
   - [link, { rel: "canonical", href: "https://mind.com/" }]
-  - [meta, { name: "robots", content: "noindex, follow" }]
+  # - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
 <HeroSection
@@ -118,7 +118,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     title: '**Empresarial** &nbsp 100+ usuarios',
-    price: '**Precios personalizados**',
+    price: '**Precio personalizado**',
     details: 'Diseñado para la privacidad',
     items: [
       '**ilimitadas** reuniones',

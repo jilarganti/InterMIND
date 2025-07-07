@@ -4,19 +4,19 @@ title: "重新定义视频会议 — 现在登陆 mind.com"
 description: "从 iMind 到 InterMIND：语音优先的视频通话，配备实时AI驱动的口译功能。"
 head:
   - [link, { rel: "canonical", href: "https://mind.com/" }]
-  - [meta, { name: "robots", content: "noindex, follow" }]
+  # - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
 <HeroSection
   title="重新定义视频会议 <br>— 现在登陆 **mind.com**"
-  text="从 iMind 到 InterMIND：语音优先的视频通话，配备实时语音翻译功能。">
+  text="从 iMind 到 InterMIND：语音优先的视频通话，配备实时语音翻译。">
 <AuthButton text="立即开始" buttonClass="brand"/>
 </HeroSection>
 
 <span id="1"></span>
 <FeatureBlock :card="{
   title: '翻译 ≠ 理解。这就是下一步。',
-  details: '无论使用何种语言，**您的声音都能被听到并理解** — 就像您们说着同一种语言一样。',
+  details: '无论使用何种语言，**您的声音都能被听到并理解** — 就像您们使用同一种语言一样。',
     items: [
       '⚡︎ 自然地，[实时](../product/overview/how-it-works)进行，无需字幕或延迟。',
       '✧ AI驱动的口译捕捉语调、意图和行业专业术语。',
@@ -36,7 +36,7 @@ head:
     items: [
       '🔍 **询问任何问题** — AI在**您的所有会议中**找到答案。',
       '✧ 自动提取任务、负责人和截止日期。',
-      '✧ 即时总结要点，支持任何语言。',
+      '✧ 即时用任何语言总结要点。',
     ],
     link: '../product/overview/how-it-works#🧩-deep-memory-deep-understanding',
     src: {
@@ -66,7 +66,7 @@ head:
   :card="{
     title: '重要场合的隐私保护',
     details:
-      'InterMIND 专为信任至关重要的对话而构建 — 在隐私和控制最重要的地方。',
+      'InterMIND 专为信任至关重要的对话而构建 — 隐私和控制最为重要的场合。',
     items: [
       '⚡︎ [隐私区域](../product/overview/privacy-architecture) — 欧盟、美国、东南亚',
       '✧ **零数据训练**。无第三方访问。'
@@ -81,7 +81,7 @@ head:
 />
 
 > [!tip] 这适合谁？  
-> 专为**国际团队**打造，解决语言障碍导致的**延误**、**失去交易**或**代价高昂的误解**问题。[了解更多...](../product/overview/markets)
+> 专为**国际团队**打造，解决语言障碍导致的**延误**、**失去交易**或**代价高昂的误解**。[了解更多...](../product/overview/markets)
 
 <br>
 
@@ -153,7 +153,7 @@ head:
 [
   {
     q: 'InterMind支持哪些语言的口译服务？',
-    a: 'InterMind支持以下19种语言的**实时口译**：<br><br>- العربية (ar) – 阿拉伯语<br>- Čeština (cs) – 捷克语<br>- Deutsch (de) – 德语<br>- English (en) – 英语<br>- Español (es) – 西班牙语<br>- Français (fr) – 法语<br>- हिन्दी (hi) – 印地语<br>- Magyar (hu) – 匈牙利语<br>- Italiano (it) – 意大利语<br>- 日本語 (ja) – 日语<br>- 한국어 (ko) – 韩语<br>- Nederlands (nl) – 荷兰语<br>- Polski (pl) – 波兰语<br>- Português (pt) – 葡萄牙语<br>- Русский (ru) – 俄语<br>- Türkçe (tr) – 土耳其语<br>- 中文 (zh) – 中文<br>- עברית (he) – 希伯来语<br>- ไทย (th) – 泰语<br><br>我们正在不断扩展这个列表——每次主要版本更新都会添加新语言。'
+    a: 'InterMind支持以下19种语言的**实时口译**：<br><br>- العربية (ar) – 阿拉伯语<br>- Čeština (cs) – 捷克语<br>- Deutsch (de) – 德语<br>- English (en) – 英语<br>- Español (es) – 西班牙语<br>- Français (fr) – 法语<br>- हिन्दी (hi) – 印地语<br>- Magyar (hu) – 匈牙利语<br>- Italiano (it) – 意大利语<br>- 日本語 (ja) – 日语<br>- 한국어 (ko) – 韩语<br>- Nederlands (nl) – 荷兰语<br>- Polski (pl) – 波兰语<br>- Português (pt) – 葡萄牙语<br>- Русский (ru) – 俄语<br>- Türkçe (tr) – 土耳其语<br>- 中文 (zh) – 中文<br>- עברית (he) – 希伯来语<br>- ไทย (th) – 泰语<br><br>我们正在不断扩展这个列表——每个主要版本发布都会添加新语言。'
   },
   {
     q: '什么是许可用户和参与者？',
@@ -161,11 +161,11 @@ head:
   },
   {
     q: '一个InterMind许可证可以供多少人使用？',
-    a: '每个*许可用户*可以主持**无限次会议**。如果多个团队成员需要同时主持会议，每人都需要自己的许可证。'
+    a: '每个*许可用户*可以主持**无限次会议**。如果多个团队成员需要同时主持会议，每个人都需要自己的许可证。'
   },
   {
     q: '会议的最长持续时间是多少？',
-    a: '所有计划的会议都可以持续长达**24小时**。'
+    a: '所有计划的会议都可以持续**24小时**。'
   },
   {
     q: '我可以主持的会议数量有限制吗？',
@@ -189,7 +189,7 @@ head:
   },
   {
     q: 'InterMind支持哪些语言的口译服务？',
-    a: '我们支持**100多种语言**的实时口译。语言列表持续增长——请查看我们的网站获取更新。'
+    a: '我们支持**100多种语言**的实时口译。列表持续增长——请查看我们的网站获取更新。'
   },
   {
     q: '我可以使用InterMind进行网络研讨会或大型活动吗？',

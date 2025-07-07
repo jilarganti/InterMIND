@@ -1,49 +1,101 @@
-# Gerçek Zamanlı AI Çevirisi Nasıl Çalışır
+# Yapay zeka gerçek zamanlı çevirisi nasıl çalışır
 
-## Herhangi bir dilde konuşun — kendi dilinizde duyun
+## Kendi Dilinizde Konuşun ve Dinleyin
 
-InterMind, **anlık, çift yönlü tercümanlık** özelliğine sahip çok kullanıcılı bir video konferans platformudur.
-Her katılımcı **kendi ana dilinde** konuşabilir — istediği zaman — ve diğer herkesi **seçtiği dilde** duyabilir.
+InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcılı bir video konferans platformudur. Her katılımcı **kendi ana dilinde** konuşabilir ve diğerlerini duyabilir, böylece dil engellerinin olmadığı doğal iletişim etkisi yaratılır.
 
-Sıra beklemeye veya altyazılara güvenmeye gerek yok.
+![](/interpretating.svg)
 
-## Derin bağlam ile desteklenen gerçek zamanlı çeviri
+## Nasıl çalışır:
 
-Perde arkasında:
+### 1. **Konuşma Tanıma (Konuşmadan Metne)**
 
-1. **Konuşmadan metne**: Her ses girişi canlı olarak yazıya dökülür.
-2. **Sinirsel çeviri**: Transkriptler ana dilinize çevrilir — ton ve niyet korunarak.
-3. **Ses sentezi**: Çevrilmiş mesaj, ses ayarlarınız kullanılarak gerçek zamanlı olarak seslendirilir.
+- Transformer modelleri kullanarak akış tanıma
+- Gürültü ve arka plan seslerini işleme
+- Teknik terminoloji ve jargon desteği
+- Tanıma doğruluğu: Ana diller için **%95-98**
 
-Tüm bunlar **3 saniyenin altında gecikme** ile gerçekleşir — bir insan eşzamanlı çevirmenine eşdeğer[^1] [^2].
+### 2. **Metin Son İşleme (Metin Temizleme ve Anlamsal Analiz)**
 
-[^1]: Gerçek zamanlı insan yorumlama gecikmesi için endüstri standardı ~2–3 saniyedir.
+- **Konuşma artıklarını kaldırma**: "ee", "şey", tekrarlar, kekelemeler
+- **Tanıma hatası düzeltme**: bağlam tabanlı düzeltme
+- **Noktalama ve yapılandırma**: otomatik noktalama yerleştirme
+- **Ana anlam çıkarma**: birincil ve ikincil düşüncelerin belirlenmesi
+- **Söylem segmentasyonu**: doğru çeviri için mantıksal bloklara ayırma
+- **Bağlamsal analiz**: önceki açıklamalar ve genel konu ile bağlantı kurma
 
-[^2]: AI yorumlamadaki mevcut ilerlemeye dayanarak, 2–3 yıl içinde modellerin hukuk, finans, sağlık ve mühendislik gibi uzmanlaşmış alanlar da dahil olmak üzere üst düzey insan çevirmenleri tutarlı bir şekilde geride bırakacağını bekliyoruz.
+### 3. **Sinirsel Çeviri (Neural Translation)**
 
-## İnsandan daha iyi — ve her gün gelişiyor
+- Anlam korunarak bağlama bağlı çeviri
+- Deyimler, metaforlar ve kültürel referansları anlama
+- Konuşma tarzı uyarlaması (resmi/gayri resmi)
+- Söylemlerin duygusal rengini koruma
 
-InterMind, seçtiğiniz gizlilik bölgesine göre belirlenen önde gelen LLM sağlayıcılarıyla sorunsuz entegrasyon sağlar.
-Kendi modellerimizi eğitmiyoruz, ancak alaka düzeyini ve netliği sağlamak için gerçek dünya çok dilli toplantılarını kullanarak yorumlama ayarlarını ince ayarlıyoruz.
+### 4. **Konuşma Sentezi (Metinden Konuşmaya)**
 
-## Derin hafıza = derin anlayış
+- Doğal tonlama ve konuşma ritmi
+- Orijinalin duraklamalarını ve vurgularını koruma
+- Erkek/kadın ses seçimi
+- Hız ve ton ayarlaması
 
-Genel çevirmenlerden farklı olarak, InterMind **toplantılarınızı hatırlar**:
+Tüm bunlar **3 saniyenin altında gecikme** ile gerçekleşir — profesyonel simultane tercümanların hızına eşdeğer[^1] [^2].
 
-- Önceki konuşmaların bağlamı
-- Gündemler, katılımcılar, projeye özel terimler
-- Sonuçlar, görevler ve kararlar
+## Pratik Avantajlar
 
-AI tercümanınız ekibinizle birlikte gelişir. Sadece dili değil — **konuyu, projeyi ve dahil olan kişilikleri** de anlar.
+### Konuşma İşleme Kalitesi:
 
-Gizlilik her zaman sizin tercihinizdir.
+- **Gürültü filtreleme**: öksürük, kahkaha, arka plan konuşmalarının otomatik olarak kaldırılması
+- **Akıllı noktalama**: tonlama durakları ve mantıksal vurguların tanınması
+- **Hata düzeltme**: yazım hatalarının ve tanıma yanlışlıklarının anında düzeltilmesi
+- **Anlamsal sıkıştırma**: gereksizlikleri kaldırırken anlamın korunması
 
-## Tasarım Gereği Gizlilik
+### İş Dünyası İçin:
 
-Verilerinizin nerede ve nasıl işlendiğine karar vermek için [Bölge Segmentli Gizlilik Mimarisi](privacy-architecture) kullanın.
+- **Küresel ekipler**: uluslararası ekiplerde dil engellerinin ortadan kaldırılması
+- **Müşteri toplantıları**: tercüman hizmetleri olmadan müşterilerle doğrudan iletişim
+- **Eğitim ve sunumlar**: içeriğin aynı anda birden fazla dilde sunulması
+- **Maliyet tasarrufu**: tercüman maliyetlerinde **%80**'e varan azalma
 
-- Hafızayı istediğiniz zaman **açın/kapatın**
-- Toplantılardan sonra AI hafızasını silin
-- Düzenleyici uyumluluk için gizlilik bölgelerini seçin (ABD, AB, Asya)
+### Kullanıcılar İçin:
 
-> [!tip] Tüm ses/video yönlendirmesi, performans ve veri egemenliğini sağlamak için şirket içinde geliştirilen özel Mind API'miz tarafından gerçekleştirilir.
+- **Doğallık**: her zamanki gibi konuşun, ana dilinizde düşünün
+- **Gizlilik**: üçüncü taraf yok (tercümanlar)
+- **Erişilebilirlik**: önceden planlama yapmadan 7/24
+- **Ölçeklenebilirlik**: 2'den 1000+ katılımcıya kadar
+
+## İnsandan Daha İyi — ve Her Gün Gelişiyor
+
+### Teknoloji Yığını:
+
+- **LLM sağlayıcıları**: GPT-4, Claude, Gemini (bölgesel seçim)
+- **Bölgesellik**: yerel gizlilik gereksinimlerine uyum (GDPR, CCPA)
+- **Sürekli öğrenme**: aylık 10.000+ saatlik çok dilli toplantı analizi
+- **Uzmanlaşma**: belirli endüstriler için modeller (tıp, hukuk, finans, BT)
+
+### Çeviri Kalitesi:
+
+- **Doğruluk**: iş konuşmaları için %94-97 doğruluk
+- **Bağlam**: tüm toplantı boyunca bağlamı anlama
+- **Terminoloji**: her endüstri için uyarlanabilir sözlükler
+- **Geri bildirim**: kullanıcı kalite değerlendirme sistemi
+
+> [!info] Teknik Mimari
+>
+> Tüm ses/video yönlendirmesi, şunları sağlamak için şirket içinde geliştirilen özel Mind API'miz aracılığıyla gerçekleştirilir:
+>
+> - **Performans**: 1000+ paralel akış işleme
+> - **Veri egemenliği**: seçilen bölgede depolama
+> - **Hata toleransı**: otomatik yük devretme ile %99.9 çalışma süresi
+> - **Ölçeklenebilirlik**: yük altında yatay ölçeklendirme
+
+### Entegrasyon ve Uyumluluk:
+
+- **Web**: herhangi bir modern tarayıcıda çalışır
+- **Masaüstü**: Windows/Mac/Linux için basit PWA kurulumu
+- **Mobil uygulamalar**: iOS/Android için basit PWA kurulumu
+- **API**: mevcut platformlara entegrasyon (yakında)
+- **Popüler hizmetler**: Zoom, Teams, Google Meet (eklentiler aracılığıyla) (yakında)
+
+[^1]: İnsan eşzamanlı çeviri için standart gecikme ~2–3 saniyedir.
+
+[^2]: AI çevirisindeki mevcut ilerlemeye dayanarak, 2–3 yıl içinde modellerin en iyi insan çevirmenleri tutarlı bir şekilde geride bırakacağını bekliyoruz — hukuk, finans, sağlık ve mühendislik gibi uzman alanlar dahil.
