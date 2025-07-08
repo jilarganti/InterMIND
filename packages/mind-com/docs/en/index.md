@@ -88,14 +88,14 @@ isHome: true
 
 <span id="HowItWorks"></span>
 
-## Talk Naturally. Understand Instantly.
+## Works Like Google Meet + Live Translation
 
-If you’ve used **Google Meet**, you already know how InterMind works — just with **live interpretation** built-in. No setup. No training. Just talk — InterMind handles the rest.
+Familiar interface. Universal communication. Same ease as Google Meet — with instant translation that makes language barriers disappear.
 
 <FeatureCards :features="[
   {
     title: 'Sign up for free',
-    details: '[Register](#Pricing) or log in using your preferred language.',
+    details: 'Choose your language and [create account](#Pricing)',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
@@ -103,7 +103,7 @@ If you’ve used **Google Meet**, you already know how InterMind works — just 
   },
   {
     title: 'Start a meeting',
-    details: 'Create a meeting or schedule in your calendar.',
+    details: 'Create instantly or schedule ahead',
     icon: {
       light: '/start.png',
       dark: '/start.png',
@@ -119,7 +119,7 @@ If you’ve used **Google Meet**, you already know how InterMind works — just 
   // },
   {
     title: 'Join the meeting',
-    details: 'Click on the invitation link, select a name, and join the meeting.',
+    details: 'Click link, enter name, join instantly.',
     icon: {
       light: '/join.png',
       dark: '/join.png',

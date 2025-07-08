@@ -4,9 +4,11 @@
 
 InterMind is a multi-user video conferencing platform with **instant bidirectional translation**. Each participant can speak and hear others in **their native language**, creating the effect of natural communication without language barriers.
 
-![](/interpretating.svg)
-
 ## How it works:
+
+:::details Show diagram of AI translation process
+![](/interpretating.svg)
+:::
 
 ### 1. **Speech Recognition (Speech-to-Text)**
 
