@@ -12,8 +12,8 @@ isHome: true
   :typingSpeed="5"
   text="Live-Sprachübersetzung in **Videoanrufen** — schnelle, klare, grenzenlose Kommunikation.">
 
-  <NavButton buttonLabel="So funktioniert es" buttonClass="brand" to="/#HowItWorks" />
-  <AuthButton text="Jetzt starten" buttonClass="alt" eventName="im_get_started_attempt"/>
+  <NavButton buttonLabel="Wie es funktioniert" buttonClass="brand" to="/#HowItWorks" />
+  <AuthButton text="Loslegen" buttonClass="alt" eventName="im_get_started_attempt"/>
 </HeroSection>
 
 <span id="1"></span>
@@ -54,7 +54,7 @@ isHome: true
     title: 'Für ernsthafte Meetings entwickelt — nicht nur zum Reden',
     details: 'InterMind ist eine [professionelle Video-Meeting-Plattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
     items: [
-      '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
+      '✧ 1080p-Auflösung, intelligente Rauschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -67,7 +67,7 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
   :card="{
-    title: 'Datenschutz wo es darauf ankommt',
+    title: 'Datenschutz, wo es darauf ankommt',
     details:
       'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Datenschutz und Kontrolle am wichtigsten sind.',
     items: [
@@ -90,40 +90,44 @@ isHome: true
 
 ## Sprechen Sie natürlich. Verstehen Sie sofort.
 
-Wenn Sie **Google Meet** verwendet haben, wissen Sie bereits, wie InterMind funktioniert — nur mit **Live-Dolmetschen** integriert. [Jetzt ausprobieren](#Pricing) — spüren Sie den Unterschied in Ihrem nächsten Anruf. Keine Einrichtung. Keine Schulung. Einfach sprechen — InterMind erledigt den Rest.
+Wenn Sie **Google Meet** bereits verwendet haben, wissen Sie bereits, wie InterMind funktioniert — nur mit **Live-Dolmetschen** integriert. Keine Einrichtung. Kein Training. Sprechen Sie einfach — InterMind übernimmt den Rest.
 
 <FeatureCards :features="[
   {
-    title: '**Kostenlos anmelden**',
-    details: 'Starten Sie in Sekunden — keine Kreditkarte erforderlich.',
+    title: 'Kostenlos anmelden',
+    details: '[Registrieren](#Pricing) oder melden Sie sich in Ihrer bevorzugten Sprache an.',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
     }
   },
   {
-    title: '**Meeting starten**',
-    details: 'Erstellen Sie ein Meeting oder planen Sie es im Kalender. Keine Downloads oder Installationen erforderlich.',
+    title: 'Meeting starten',
+    details: 'Erstellen Sie ein Meeting oder planen Sie es in Ihrem Kalender.',
     icon: {
       light: '/start.png',
       dark: '/start.png',
     }
   },
+  // {
+  //   title: 'Invite your guests',
+  //   details: 'Share the link - your guest simply clicks on it and joins in their language.',
+  //   icon: {
+  //     light: '/invite.png',
+  //     dark: '/invite.png',
+  //   }
+  // },
   {
-    title: '**Gäste einladen**',
-    details: 'Teilen Sie einen Link — Ihr Gast klickt einfach und nimmt teil. Keine Spracheinstellungen erforderlich.',
-    link: '/uae-business/company-registration/accounting-legal',
+    title: 'Am Meeting teilnehmen',
+    details: 'Klicken Sie auf den Einladungslink, wählen Sie einen Namen und nehmen Sie am Meeting teil.',
     icon: {
-      light: '/invite.png',
-      dark: '/invite.png',
+      light: '/join.png',
+      dark: '/join.png',
     }
   },
   {
-    title: '**Sprechen Sie Ihre Sprache**',
-    items: [
-      'Jeder spricht in seiner Muttersprache', 
-      'Jeder hört die andere Seite sofort gedolmetscht'
-    ],
+    title: 'Sprechen Sie Ihre Sprache',
+    details: 'Jeder spricht und hört in seiner eigenen Sprache.',
     icon: {
       light: '/meeting.png',
       dark: '/meeting.png',
@@ -158,7 +162,7 @@ Diese einzige Spracheinstellung gilt für:
 | Teilnehmer 1  | Englisch         | Englisch   | Englisch  |
 | Teilnehmer 2  | Chinesisch       | Chinesisch | Chinesisch|
 
-Die Plattform interpretiert automatisch alle Sprache in Echtzeit — so kommuniziert jeder, als würden sie dieselbe Sprache sprechen.
+[Die Plattform interpretiert automatisch alle Sprache in Echtzeit](./product/overview/how-it-works) — so kommuniziert jeder, als würde er dieselbe Sprache sprechen.
 
 ### ⚙️ Können Sie Ihre Sprache während des Anrufs ändern?
 
@@ -168,7 +172,7 @@ Ja. Sie können die **Einstellungen** öffnen und das Feld `Ihre Sprache` änder
 <img src="/settings.png" alt="settings-panel" width="300px" />
 :::
 
-Dies zu ändern bedeutet:
+Diese Änderung bedeutet:
 
 - ✅ Sie sollten in der `gewählten Sprache` sprechen für eine genaue Übersetzung
 - ✅ Sie werden andere in der `gewählten Sprache` hören
@@ -176,7 +180,7 @@ Dies zu ändern bedeutet:
 
 > 📌 Hinweis: "Ihre Sprache" ist eine **einzige einheitliche Einstellung**  
 > Sie steuert **wie Sie sprechen**, **was Sie hören** und **was Sie sehen**.  
-> In einer Sprache zu sprechen und in einer anderen zu hören wird **nicht unterstützt** — bewusst, um die Erfahrung einfach und vorhersagbar zu halten.
+> In einer Sprache sprechen und in einer anderen zuhören wird **nicht unterstützt** — bewusst, um die Erfahrung einfach und vorhersagbar zu halten.
 
 <span id="Pricing"></span>
 
@@ -191,7 +195,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
     details: 'keine Kreditkarte erforderlich',
     items: [
       '**25** Meetings',
-      '**100** Teilnehmer Videomeetings [💬](#3)',
+      '**100** Teilnehmer Video-Meetings [💬](#3)',
       '**30** GB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
       'Simultandolmetschen [💬](#1)',
@@ -203,7 +207,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
     details: 'oder 25 € monatlich abgerechnet',
     items: [
       '**Unbegrenzte** Meetings',
-      '**150** Teilnehmer Videomeetings [💬](#3)',
+      '**150** Teilnehmer Video-Meetings [💬](#3)',
       '**2** TB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
       'Simultandolmetschen [💬](#1)',
@@ -212,10 +216,10 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
   {
     title: '**Business** &nbsp 100+ Benutzer',
     price: '**Individuelle Preisgestaltung**',
-    details: 'Entwickelt für Datenschutz',
+    details: 'Für Datenschutz entwickelt',
     items: [
       '**Unbegrenzte** Meetings',
-      '**500** Teilnehmer Videomeetings [💬](#3)',
+      '**500** Teilnehmer Video-Meetings [💬](#3)',
       '**5** TB gemeinsamer Speicher pro Benutzer',
       'Suche in allen Ihren Meetings [💬](#2)',
       'Simultandolmetschen [💬](#1)',
@@ -225,7 +229,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
 ]">
 <AuthButton text="Kostenlos testen" buttonClass="brand" eventName="im_try_it_attempt"/>
 <AuthButton text="Jetzt kaufen" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt"/>
-<ContactFormModalNav buttonText="Sprechen Sie mit unserem Team" buttonClass="alt"/>
+<ContactFormModalNav buttonText="Mit unserem Team sprechen" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 😱 Entweder Sie sprechen jede Sprache — oder jemand anderes schließt Ihre Geschäfte ab.
@@ -254,19 +258,19 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
   },
   {
     q: 'Wie viele Personen können eine InterMind-Lizenz verwenden?',
-    a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt Meetings** hosten. Wenn mehrere Teammitglieder gleichzeitig Meetings hosten müssen, benötigt jeder seine eigene Lizenz.'
+    a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt Meetings** veranstalten. Wenn mehrere Teammitglieder gleichzeitig Meetings veranstalten müssen, benötigt jeder seine eigene Lizenz.'
   },
   {
     q: 'Wie lange kann ein Meeting maximal dauern?',
-    a: 'Meetings können in allen Plänen bis zu **24 Stunden** laufen.'
+    a: 'Meetings können in allen Plänen bis zu **24 Stunden** dauern.'
   },
   {
-    q: 'Gibt es eine Begrenzung für die Anzahl der Meetings, die ich hosten kann?',
+    q: 'Gibt es eine Begrenzung für die Anzahl der Meetings, die ich veranstalten kann?',
     a: 'Der *Free Basic*-Plan beinhaltet **25 kostenlose Meetings**. *Pro*- und *Business*-Pläne bieten unbegrenzte Meetings mit mehr Teilnehmern und Kontrolle.'
   },
   {
     q: 'Wie gewährleistet InterMind Datenschutz und Sicherheit?',
-    a: 'InterMind ist **standardmäßig privat**. Alle Daten werden in Ihrer ausgewählten **Datenschutzzone** verarbeitet und gespeichert — _EU_, _US_ oder _Asien_. Wir entsprechen der [**DSGVO**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) und UAE PDPL und **verwenden niemals Ihre Inhalte** für Training oder Zugriff durch Dritte. Erweiterte [Datenschutzzonen-Kontrolle](./product/overview/privacy-architecture) ist im **Business**-Plan verfügbar.'
+    a: 'InterMind ist **standardmäßig privat**. Alle Daten werden in Ihrer ausgewählten **Datenschutzzone** verarbeitet und gespeichert — _EU_, _USA_ oder _Asien_. Wir entsprechen der [**DSGVO**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) und UAE PDPL und **verwenden niemals Ihre Inhalte** für Training oder Zugriff durch Dritte. Erweiterte [Datenschutzzonenkontrolle](./product/overview/privacy-architecture) ist im **Business**-Plan verfügbar.'
   },
   {
     q: 'Kann ich InterMind vor dem Kauf eines Plans testen?',
@@ -274,7 +278,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
   },
   {
     q: 'Was ist, wenn ich Hilfe oder Support benötige?',
-    a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **Priority-Support** mit einem dedizierten Kontakt.'
+    a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **prioritären Support** mit einem dedizierten Kontakt.'
   },
   {
     q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',

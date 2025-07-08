@@ -90,40 +90,44 @@ isHome: true
 
 ## Doğal Konuşun. Anında Anlayın.
 
-**Google Meet** kullandıysanız, InterMind'ın nasıl çalıştığını zaten biliyorsunuz — sadece **canlı tercümanlık** özelliği dahil. [Şimdi deneyin](#Pricing) — bir sonraki aramanızda farkı hissedin. Kurulum yok. Eğitim yok. Sadece konuşun — gerisini InterMind halleder.
+**Google Meet** kullandıysanız, InterMind'ın nasıl çalıştığını zaten biliyorsunuz — sadece **canlı çeviri** özelliği dahil. Kurulum yok. Eğitim yok. Sadece konuşun — gerisini InterMind halleder.
 
 <FeatureCards :features="[
   {
-    title: '**Ücretsiz kaydolun**',
-    details: 'Saniyeler içinde başlayın — kredi kartı gerekmez.',
+    title: 'Ücretsiz kaydolun',
+    details: 'Tercih ettiğiniz dilde [kayıt olun](#Pricing) veya giriş yapın.',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
     }
   },
   {
-    title: '**Toplantı başlatın**',
-    details: 'Toplantı oluşturun veya takvimde planlayın. İndirme veya kurulum gerekmez.',
+    title: 'Toplantı başlatın',
+    details: 'Bir toplantı oluşturun veya takviminizde planlayın.',
     icon: {
       light: '/start.png',
       dark: '/start.png',
     }
   },
+  // {
+  //   title: 'Invite your guests',
+  //   details: 'Share the link - your guest simply clicks on it and joins in their language.',
+  //   icon: {
+  //     light: '/invite.png',
+  //     dark: '/invite.png',
+  //   }
+  // },
   {
-    title: '**Misafirlerinizi davet edin**',
-    details: 'Bir bağlantı paylaşın — misafiriniz sadece tıklayıp katılır. Dil ayarları gerekmez.',
-    link: '/uae-business/company-registration/accounting-legal',
+    title: 'Toplantıya katılın',
+    details: 'Davet bağlantısına tıklayın, bir isim seçin ve toplantıya katılın.',
     icon: {
-      light: '/invite.png',
-      dark: '/invite.png',
+      light: '/join.png',
+      dark: '/join.png',
     }
   },
   {
-    title: '**Kendi dilinizde konuşun**',
-    items: [
-      'Herkes kendi ana dilinde konuşur', 
-      'Herkes karşı tarafı anında tercüme edilmiş olarak duyar'
-    ],
+    title: 'Kendi dilinizde konuşun',
+    details: 'Herkes kendi dilinde konuşur ve duyar.',
     icon: {
       light: '/meeting.png',
       dark: '/meeting.png',
@@ -158,7 +162,7 @@ Bu tek dil ayarı şunları kapsar:
 | Katılımcı 1   | İngilizce   | İngilizce     | İngilizce   |
 | Katılımcı 2   | Çince       | Çince         | Çince       |
 
-Platform tüm konuşmaları gerçek zamanlı olarak otomatik yorumlar — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
+[Platform tüm konuşmaları gerçek zamanlı olarak otomatik yorumlar](./product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
 
 ### ⚙️ Arama sırasında dilinizi değiştirebilir misiniz?
 
@@ -250,7 +254,7 @@ Bunu değiştirmek şu anlama gelir:
   },
   {
     q: 'Lisanslı kullanıcı nedir ve Katılımcı nedir?',
-    a: '*Lisanslı kullanıcı* ücretsiz veya ücretli toplantı lisansına sahiptir ve planının sınırları dahilinde toplantı planlayabilir. *Katılımcılar* davetlilerdir — toplantıya katılmak için **hesap veya lisansa ihtiyaçları yoktur** ve herhangi bir cihazdan **ücretsiz** olarak bağlanabilirler.'
+    a: '*Lisanslı kullanıcı* ücretsiz veya ücretli toplantı lisansına sahiptir ve planının sınırları dahilinde toplantı planlayabilir. *Katılımcılar* davetlilerdir — toplantıya katılmak için **hesap veya lisansa ihtiyaçları yoktur** ve herhangi bir cihazdan **ücretsiz** bağlanabilirler.'
   },
   {
     q: 'Bir InterMind lisansını kaç kişi kullanabilir?',
@@ -278,7 +282,7 @@ Bunu değiştirmek şu anlama gelir:
   },
   {
     q: 'Aboneliğimi nasıl yönetirim (yükseltme, düşürme veya iptal)?',
-    a: 'Planınızı **hesap ayarlarınız** üzerinden istediğiniz zaman değiştirebilirsiniz. Değişiklikler **anında** geçerli olur. İptaller için, *Aylık planlar* fatura döneminin sonunda iptal olur. *Yıllık planlar* **orantılı geri ödeme** ile iptal edilebilir.'
+    a: 'Planınızı **hesap ayarlarınız** üzerinden istediğiniz zaman değiştirebilirsiniz. Değişiklikler **anında** geçerli olur. İptaller için *Aylık planlar* fatura döngüsünün sonunda iptal olur. *Yıllık planlar* **orantılı geri ödeme** ile iptal edilebilir.'
   },
   {
     q: 'InterMind\'ı webinar veya büyük etkinlikler için kullanabilir miyim?',

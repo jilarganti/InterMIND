@@ -2,9 +2,6 @@
 layout: home
 title: "Videollamadas reimaginadas — ahora en mind.com"
 description: "De iMind a InterMIND: videollamadas con voz como protagonista e interpretación con IA en tiempo real."
-head:
-  - [link, { rel: "canonical", href: "https://mind.com/" }]
-  # - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
 <HeroSection
@@ -48,7 +45,7 @@ head:
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Diseñado para reuniones serias — no solo para conversar',
+    title: 'Diseñado para reuniones serias — no solo para hablar',
     details: 'InterMIND es una **plataforma de videollamadas de nivel profesional**, no un complemento ligero o plugin.',
     items: [
       '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, listo para usar.',
@@ -81,7 +78,7 @@ head:
 />
 
 > [!tip] ¿Para quién es esto?  
-> Diseñado para **equipos internacionales** donde las barreras del idioma causan **retrasos**, **negocios perdidos** o **malentendidos costosos**. [Más información ...](../product/overview/markets)
+> Diseñado para **equipos internacionales** donde las barreras del idioma causan **retrasos**, **negocios perdidos** o **malentendidos costosos**. [Saber más ...](../product/overview/markets)
 
 <br>
 
@@ -157,7 +154,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Qué es un usuario con licencia y qué es un participante?',
-    a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **gratis**.'
+    a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **de forma gratuita**.'
   },
   {
     q: '¿Cuántas personas pueden usar una licencia de InterMind?',

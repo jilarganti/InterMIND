@@ -90,40 +90,44 @@ isHome: true
 
 ## 自然对话。即时理解。
 
-如果您使用过 **Google Meet**，您就已经知道 InterMind 的工作原理——只是内置了**实时口译**功能。[立即试用](#Pricing)——在您的下一次通话中感受不同。无需设置。无需培训。只需说话——InterMind 处理其余一切。
+如果您使用过 **Google Meet**，您就已经知道 InterMind 是如何工作的——只是内置了**实时口译**功能。无需设置。无需培训。只需说话——InterMind 处理其余的一切。
 
 <FeatureCards :features="[
   {
-    title: '**免费注册**',
-    details: '几秒钟即可开始——无需信用卡。',
+    title: '免费注册',
+    details: '[注册](#Pricing)或使用您的首选语言登录。',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
     }
   },
   {
-    title: '**开始会议**',
-    details: '创建会议或在日历中安排。无需下载或安装。',
+    title: '开始会议',
+    details: '创建会议或在您的日历中安排会议。',
     icon: {
       light: '/start.png',
       dark: '/start.png',
     }
   },
+  // {
+  //   title: 'Invite your guests',
+  //   details: 'Share the link - your guest simply clicks on it and joins in their language.',
+  //   icon: {
+  //     light: '/invite.png',
+  //     dark: '/invite.png',
+  //   }
+  // },
   {
-    title: '**邀请您的客人**',
-    details: '分享链接——您的客人只需点击即可加入。无需语言设置。',
-    link: '/uae-business/company-registration/accounting-legal',
+    title: '加入会议',
+    details: '点击邀请链接，选择姓名，然后加入会议。',
     icon: {
-      light: '/invite.png',
-      dark: '/invite.png',
+      light: '/join.png',
+      dark: '/join.png',
     }
   },
   {
-    title: '**说您的语言**',
-    items: [
-      '每个人都用母语交谈', 
-      '每个人都能即时听到对方的口译'
-    ],
+    title: '使用您的语言',
+    details: '每个人都用自己的语言说话和听取。',
     icon: {
       light: '/meeting.png',
       dark: '/meeting.png',
@@ -149,7 +153,7 @@ isHome: true
 这个单一语言设置适用于：
 
 - **界面语言**
-- **语音输入**（您说的话）
+- **语音输入**（您说的内容）
 - **翻译输出**（您听到的内容）
 
 | 参与者    | 选择的语言 | 说话语言 | 听取语言 |
@@ -158,7 +162,7 @@ isHome: true
 | 参与者1   | 英语       | 英语     | 英语     |
 | 参与者2   | 中文       | 中文     | 中文     |
 
-平台自动实时解释所有语音——因此每个人都能像说同一种语言一样进行交流。
+[平台自动实时解释所有语音](./product/overview/how-it-works) — 因此每个人都能像说同一种语言一样进行交流。
 
 ### ⚙️ 您可以在通话期间更改语言吗？
 
@@ -176,7 +180,7 @@ isHome: true
 
 > 📌 注意："您的语言"是一个**统一的单一设置**  
 > 它控制**您如何说话**、**您听到什么**和**您看到什么**。  
-> **不支持**用一种语言说话而用另一种语言听取——这是设计如此，以保持体验简单和可预测。
+> **不支持**用一种语言说话而用另一种语言听取 — 这是设计如此，以保持体验简单和可预测。
 
 <span id="Pricing"></span>
 

@@ -90,40 +90,44 @@ isHome: true
 
 ## 自然に話す。瞬時に理解する。
 
-**Google Meet**を使ったことがあるなら、InterMindの仕組みはすでにご存知でしょう — **リアルタイム通訳**が組み込まれているだけです。[今すぐ試す](#Pricing) — 次の通話で違いを実感してください。設定不要。トレーニング不要。ただ話すだけ — InterMindが残りを処理します。
+**Google Meet**を使ったことがあれば、InterMindの仕組みはすでにご存知でしょう — ただし**リアルタイム通訳**が組み込まれています。設定不要。トレーニング不要。話すだけ — InterMindが残りを処理します。
 
 <FeatureCards :features="[
   {
-    title: '**無料でサインアップ**',
-    details: '数秒で開始 — クレジットカード不要。',
+    title: '無料でサインアップ',
+    details: '[登録](#Pricing)するか、お好みの言語でログインしてください。',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
     }
   },
   {
-    title: '**ミーティングを開始**',
-    details: 'ミーティングを作成するか、カレンダーでスケジュール。ダウンロードやインストールは不要。',
+    title: 'ミーティングを開始',
+    details: 'ミーティングを作成するか、カレンダーでスケジュールを設定してください。',
     icon: {
       light: '/start.png',
       dark: '/start.png',
     }
   },
+  // {
+  //   title: 'Invite your guests',
+  //   details: 'Share the link - your guest simply clicks on it and joins in their language.',
+  //   icon: {
+  //     light: '/invite.png',
+  //     dark: '/invite.png',
+  //   }
+  // },
   {
-    title: '**ゲストを招待**',
-    details: 'リンクを共有 — ゲストはクリックして参加するだけ。言語設定は不要。',
-    link: '/uae-business/company-registration/accounting-legal',
+    title: 'ミーティングに参加',
+    details: '招待リンクをクリックし、名前を選択してミーティングに参加してください。',
     icon: {
-      light: '/invite.png',
-      dark: '/invite.png',
+      light: '/join.png',
+      dark: '/join.png',
     }
   },
   {
-    title: '**あなたの言語で話す**',
-    items: [
-      '全員が母国語で話す', 
-      '全員が相手側の発言を瞬時に通訳されて聞く'
-    ],
+    title: 'あなたの言語で話す',
+    details: '全員が自分の言語で話し、聞くことができます。',
     icon: {
       light: '/meeting.png',
       dark: '/meeting.png',
@@ -158,7 +162,7 @@ isHome: true
 | 参加者1   | 英語         | 英語        | 英語        |
 | 参加者2   | 中国語       | 中国語      | 中国語      |
 
-プラットフォームは自動的にすべての音声をリアルタイムで解釈するため、全員が同じ言語を話しているかのようにコミュニケーションできます。
+[プラットフォームはすべての音声をリアルタイムで自動的に解釈します](./product/overview/how-it-works) — そのため、全員が同じ言語を話しているかのようにコミュニケーションできます。
 
 ### ⚙️ 通話中に言語を変更できますか？
 
@@ -266,7 +270,7 @@ isHome: true
   },
   {
     q: 'InterMindはデータプライバシーとセキュリティをどのように確保していますか？',
-    a: 'InterMindは**プライバシー・バイ・デザイン**です。全てのデータは選択された**プライバシーゾーン**（_EU_、_US_、または_アジア_）内で処理・保存されます。[**GDPR**](https://gdpr.eu)、[**CCPA**](https://oag.ca.gov/privacy/ccpa)、UAE PDPLに準拠し、**お客様のコンテンツを**トレーニングやサードパーティアクセスに**使用することはありません**。高度な[プライバシーゾーン制御](./product/overview/privacy-architecture)は**ビジネス**プランで利用可能です。'
+    a: 'InterMindは**プライバシー・バイ・デザイン**です。全てのデータは選択された**プライバシーゾーン**（_EU_、_US_、または_アジア_）内で処理・保存されます。[**GDPR**](https://gdpr.eu)、[**CCPA**](https://oag.ca.gov/privacy/ccpa)、UAE PDPLに準拠し、**お客様のコンテンツを**トレーニングやサードパーティアクセスに**決して使用しません**。高度な[プライバシーゾーン制御](./product/overview/privacy-architecture)は**ビジネス**プランで利用可能です。'
   },
   {
     q: 'プランを購入する前にInterMindを試すことはできますか？',
@@ -274,7 +278,7 @@ isHome: true
   },
   {
     q: 'ヘルプやサポートが必要な場合はどうすればよいですか？',
-    a: '[ヘルプセンター](./resources/help)でサポートを利用できます。*ビジネス*ユーザーは専用の連絡先で**優先サポート**を受けられます。'
+    a: 'サポートは[ヘルプセンター](./resources/help)からご利用いただけます。*ビジネス*ユーザーは専用の連絡先で**優先サポート**を受けられます。'
   },
   {
     q: 'サブスクリプションの管理（アップグレード、ダウングレード、キャンセル）はどのように行いますか？',

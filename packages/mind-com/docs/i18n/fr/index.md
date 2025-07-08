@@ -34,7 +34,7 @@ isHome: true
 
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: 'L\'esprit au cœur de vos réunions',
+    title: 'L\'intelligence au cœur de vos réunions',
     details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
     items: [
       '✧ **Posez n\'importe quelle question** — l\'IA trouve des réponses **dans toutes vos réunions**.',
@@ -83,47 +83,51 @@ isHome: true
   }"
 />
 
-> [!tip] À qui s'adresse-t-il ?  
+> [!tip] Pour qui est-ce destiné ?  
 > Conçu pour les **équipes internationales** où les barrières linguistiques causent des **retards**, des **affaires perdues** ou des **malentendus coûteux**. [En savoir plus ...](./product/overview/markets)
 
 <span id="HowItWorks"></span>
 
 ## Parlez naturellement. Comprenez instantanément.
 
-Si vous avez utilisé **Google Meet**, vous savez déjà comment fonctionne InterMind — mais avec **l'interprétation en direct** intégrée. [Essayez maintenant](#Pricing) — ressentez la différence lors de votre prochain appel. Aucune configuration. Aucune formation. Parlez simplement — InterMind s'occupe du reste.
+Si vous avez utilisé **Google Meet**, vous savez déjà comment fonctionne InterMind — mais avec **l'interprétation en direct** intégrée. Aucune configuration. Aucune formation. Parlez simplement — InterMind s'occupe du reste.
 
 <FeatureCards :features="[
   {
-    title: '**Inscrivez-vous gratuitement**',
-    details: 'Commencez en quelques secondes — aucune carte de crédit nécessaire.',
+    title: 'Inscrivez-vous gratuitement',
+    details: '[Inscrivez-vous](#Pricing) ou connectez-vous dans votre langue préférée.',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
     }
   },
   {
-    title: '**Démarrez une réunion**',
-    details: 'Créez une réunion ou planifiez dans le calendrier. Aucun téléchargement ou installation requis.',
+    title: 'Démarrez une réunion',
+    details: 'Créez une réunion ou planifiez-la dans votre calendrier.',
     icon: {
       light: '/start.png',
       dark: '/start.png',
     }
   },
+  // {
+  //   title: 'Invite your guests',
+  //   details: 'Share the link - your guest simply clicks on it and joins in their language.',
+  //   icon: {
+  //     light: '/invite.png',
+  //     dark: '/invite.png',
+  //   }
+  // },
   {
-    title: '**Invitez vos invités**',
-    details: 'Partagez un lien — votre invité clique simplement et rejoint. Aucun paramètre de langue requis.',
-    link: '/uae-business/company-registration/accounting-legal',
+    title: 'Rejoignez la réunion',
+    details: 'Cliquez sur le lien d\'invitation, sélectionnez un nom et rejoignez la réunion.',
     icon: {
-      light: '/invite.png',
-      dark: '/invite.png',
+      light: '/join.png',
+      dark: '/join.png',
     }
   },
   {
-    title: '**Parlez votre langue**',
-    items: [
-      'Chacun parle dans sa langue maternelle', 
-      'Chacun entend l\'autre côté instantanément interprété'
-    ],
+    title: 'Parlez votre langue',
+    details: 'Chacun parle et entend dans sa propre langue.',
     icon: {
       light: '/meeting.png',
       dark: '/meeting.png',
@@ -158,7 +162,7 @@ Ce paramètre de langue unique s'applique à :
 | Participant 1 | Anglais             | Anglais   | Anglais   |
 | Participant 2 | Chinois             | Chinois   | Chinois   |
 
-La plateforme interprète automatiquement tous les discours en temps réel — ainsi tout le monde communique comme s'il parlait la même langue.
+[La plateforme interprète automatiquement tous les discours en temps réel](./product/overview/how-it-works) — ainsi tout le monde communique comme s'il parlait la même langue.
 
 ### ⚙️ Pouvez-vous changer votre langue pendant l'appel ?
 

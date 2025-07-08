@@ -2,9 +2,6 @@
 layout: home
 title: "Videomeetings neu gedacht — jetzt auf mind.com"
 description: "Von iMind zu InterMIND: sprachbasierte Videoanrufe mit KI-gestützter Echtzeitübersetzung."
-head:
-  - [link, { rel: "canonical", href: "https://mind.com/" }]
-  # - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
 <HeroSection
@@ -49,7 +46,7 @@ head:
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Für ernsthafte Meetings entwickelt — nicht nur zum Reden',
-    details: 'InterMIND ist eine **professionelle Videokonferenz-Plattform**, kein leichtgewichtiges Add-on oder Plugin.',
+    details: 'InterMIND ist eine **professionelle Videomeeting-Plattform**, kein leichtgewichtiges Add-on oder Plugin.',
     items: [
       '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, sofort einsatzbereit.',
     ],

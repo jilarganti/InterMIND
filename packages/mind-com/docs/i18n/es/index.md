@@ -88,42 +88,46 @@ isHome: true
 
 <span id="HowItWorks"></span>
 
-## Habla Naturalmente. Comprende al Instante.
+## Habla naturalmente. Comprende al instante.
 
-Si has usado **Google Meet**, ya sabes cómo funciona InterMind — solo que con **interpretación en vivo** integrada. [Pruébalo ahora](#Pricing) — siente la diferencia en tu próxima llamada. Sin configuración. Sin entrenamiento. Solo habla — InterMind se encarga del resto.
+Si has usado **Google Meet**, ya sabes cómo funciona InterMind — solo que con **interpretación en vivo** integrada. Sin configuración. Sin entrenamiento. Solo habla — InterMind se encarga del resto.
 
 <FeatureCards :features="[
   {
-    title: '**Regístrate gratis**',
-    details: 'Comienza en segundos — no se necesita tarjeta de crédito.',
+    title: 'Regístrate gratis',
+    details: '[Regístrate](#Pricing) o inicia sesión usando tu idioma preferido.',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
     }
   },
   {
-    title: '**Inicia una reunión**',
-    details: 'Crea una reunión o programa en el calendario. No se requieren descargas o instalaciones.',
+    title: 'Inicia una reunión',
+    details: 'Crea una reunión o programa en tu calendario.',
     icon: {
       light: '/start.png',
       dark: '/start.png',
     }
   },
+  // {
+  //   title: 'Invite your guests',
+  //   details: 'Share the link - your guest simply clicks on it and joins in their language.',
+  //   icon: {
+  //     light: '/invite.png',
+  //     dark: '/invite.png',
+  //   }
+  // },
   {
-    title: '**Invita a tus invitados**',
-    details: 'Comparte un enlace — tu invitado solo hace clic y se une. No se requiere configuración de idioma.',
-    link: '/uae-business/company-registration/accounting-legal',
+    title: 'Únete a la reunión',
+    details: 'Haz clic en el enlace de invitación, selecciona un nombre y únete a la reunión.',
     icon: {
-      light: '/invite.png',
-      dark: '/invite.png',
+      light: '/join.png',
+      dark: '/join.png',
     }
   },
   {
-    title: '**Habla tu idioma**',
-    items: [
-      'Todos hablan en su idioma nativo', 
-      'Todos escuchan al otro lado interpretado al instante'
-    ],
+    title: 'Habla tu idioma',
+    details: 'Todos hablan y escuchan en su propio idioma.',
     icon: {
       light: '/meeting.png',
       dark: '/meeting.png',
@@ -158,7 +162,7 @@ Esta configuración de idioma único se aplica a:
 | Participante 1| Inglés              | Inglés    | Inglés     |
 | Participante 2| Chino               | Chino     | Chino      |
 
-La plataforma interpreta automáticamente todo el habla en tiempo real, por lo que todos se comunican como si hablaran el mismo idioma.
+[La plataforma interpreta automáticamente todo el habla en tiempo real](./product/overview/how-it-works) — así que todos se comunican como si hablaran el mismo idioma.
 
 ### ⚙️ ¿Puedes cambiar tu idioma durante la llamada?
 

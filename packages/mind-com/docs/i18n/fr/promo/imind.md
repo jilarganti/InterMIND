@@ -2,9 +2,6 @@
 layout: home
 title: "Réunions vidéo réinventées — maintenant sur mind.com"
 description: "D'iMind à InterMIND : appels vidéo axés sur la voix avec interprétation en temps réel alimentée par l'IA."
-head:
-  - [link, { rel: "canonical", href: "https://mind.com/" }]
-  # - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
 <HeroSection
@@ -49,7 +46,7 @@ head:
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'Conçu pour les réunions sérieuses — pas seulement pour parler',
-    details: 'InterMIND est une **plateforme de réunion vidéo de qualité professionnelle**, pas un simple module complémentaire ou plugin léger.',
+    details: 'InterMIND est une **plateforme de réunion vidéo de qualité professionnelle**, pas un simple module complémentaire léger.',
     items: [
       '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration calendrier — tout intégré, prêt à l\'emploi.',
     ],
@@ -69,7 +66,7 @@ head:
       'InterMIND est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle sont primordiaux.',
     items: [
       '⚡︎ [Zones de confidentialité](../product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est',
-      '✧ **Aucune formation de données**. Aucun accès tiers.'
+      '✧ **Zéro formation de données**. Aucun accès tiers.'
     ],
     link: '../product/overview/privacy-architecture',
     src: {
@@ -173,11 +170,11 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
   },
   {
     q: 'Comment InterMind assure-t-il la confidentialité et la sécurité des données ?',
-    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et au PDPL des EAU, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès de tiers. Le contrôle avancé de la [Zone de confidentialité](../product/overview/privacy-architecture) est disponible sur le plan **Business**.'
+    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et à l\'UAE PDPL, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès de tiers. Le [contrôle avancé de la Zone de confidentialité](../product/overview/privacy-architecture) est disponible sur le plan **Business**.'
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un plan ?',
-    a: 'Absolument. Le plan *Gratuit de base* vous donne un accès complet aux fonctionnalités principales avec **25 réunions gratuites** — y compris **l\'interprétation simultanée** et **la recherche de réunions**. Aucune carte de crédit requise. Mise à niveau à tout moment.'
+    a: 'Absolument. Le plan *Gratuit de base* vous donne un accès complet aux fonctionnalités principales avec **25 réunions gratuites** — incluant **l\'interprétation simultanée** et **la recherche de réunions**. Aucune carte de crédit requise. Mise à niveau à tout moment.'
   },
   {
     q: 'Que faire si j\'ai besoin d\'aide ou de support ?',

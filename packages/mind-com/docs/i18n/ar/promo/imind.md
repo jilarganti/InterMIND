@@ -2,9 +2,6 @@
 layout: home
 title: "اجتماعات الفيديو المُعاد تصورها — الآن على mind.com"
 description: "من iMind إلى InterMIND: مكالمات فيديو تركز على الصوت مع ترجمة فورية مدعومة بالذكاء الاصطناعي."
-head:
-  - [link, { rel: "canonical", href: "https://mind.com/" }]
-  # - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
 <HeroSection
@@ -49,9 +46,9 @@ head:
 <span id="3"></span>
 <FeatureBlock :card="{
     title: 'مصمم للاجتماعات الجدية — وليس فقط للحديث',
-    details: 'InterMind هو **منصة اجتماعات فيديو احترافية**، وليس مجرد إضافة خفيفة أو ملحق.',
+    details: 'InterMind هو **منصة اجتماعات فيديو احترافية**، وليس مجرد إضافة خفيفة أو مكون إضافي.',
     items: [
-      '✧ دقة 1080p، وقمع الضوضاء الذكي، والجدولة، والإشراف، ومشاركة الشاشة، والتسجيل، والترجمة النصية، ودردشة المشاركين وتكامل التقويم — كلها مدمجة وجاهزة للاستخدام.',
+      '✧ دقة 1080p، وكبت الضوضاء الذكي، والجدولة، والإشراف، ومشاركة الشاشة، والتسجيل، والترجمة النصية، ودردشة المشاركين وتكامل التقويم — كلها مدمجة وجاهزة للاستخدام.',
     ],
     link: '../product/overview/video-meeting-platform',
     src: {
@@ -69,7 +66,7 @@ head:
       'InterMind مصمم للمحادثات الحساسة للثقة — حيث الخصوصية والتحكم أمران بالغا الأهمية.',
     items: [
       '⚡︎ [مناطق الخصوصية](../product/overview/privacy-architecture) — الاتحاد الأوروبي، الولايات المتحدة، جنوب شرق آسيا',
-      '✧ **صفر تدريب بيانات**. لا وصول لطرف ثالث.'
+      '✧ **صفر تدريب للبيانات**. لا وصول لطرف ثالث.'
     ],
     link: '../product/overview/privacy-architecture',
     src: {
@@ -81,7 +78,7 @@ head:
 />
 
 > [!tip] لمن هذا؟  
-> مصمم **للفرق الدولية** حيث حواجز اللغة تسبب **تأخيرات**، **صفقات ضائعة**، أو **سوء فهم مكلف**. [تعلم المزيد ...](../product/overview/markets)
+> مصمم **للفرق الدولية** حيث حواجز اللغة تسبب **تأخيرات**، **صفقات ضائعة**، أو **سوء فهم مكلف**. [تعرف على المزيد ...](../product/overview/markets)
 
 <br>
 
@@ -215,7 +212,7 @@ head:
       { text: 'الأسئلة الشائعة', link: '#FAQ' },
       { text: 'حالة الخدمة', link: 'https://status.mind.com/' },
       { text: 'سياسة الخصوصية', link: '../resources/company/Privacy-Policy' },
-      { text: 'دليل القانون للذكاء الاصطناعي', link: '../resources/company/Legal-Regulations-for-AI-Services' },
+      { text: 'دليل الذكاء الاصطناعي القانوني', link: '../resources/company/Legal-Regulations-for-AI-Services' },
       // { text: 'Privacy Settings', link: '#' },
     ]
   },
@@ -224,7 +221,7 @@ head:
     links: [
       // { text: 'Blog', link: './blog' },
       { text: 'أصول العلامة التجارية', link: '../resources/media-kit' },
-      { text: 'وثائق API للذكاء الاصطناعي / LLM', link: 'https://mind.com/llms-full.txt' },
+      { text: 'وثائق واجهة برمجة تطبيقات الذكاء الاصطناعي / LLM', link: 'https://mind.com/llms-full.txt' },
     ]
   },
   {

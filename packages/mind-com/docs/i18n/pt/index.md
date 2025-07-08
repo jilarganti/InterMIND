@@ -90,40 +90,44 @@ isHome: true
 
 ## Fale Naturalmente. Entenda Instantaneamente.
 
-Se você já usou o **Google Meet**, você já sabe como o InterMind funciona — só que com **interpretação ao vivo** integrada. [Experimente agora](#Pricing) — sinta a diferença na sua próxima chamada. Sem configuração. Sem treinamento. Apenas fale — o InterMind cuida do resto.
+Se você já usou o **Google Meet**, você já sabe como o InterMind funciona — apenas com **interpretação ao vivo** integrada. Sem configuração. Sem treinamento. Apenas fale — o InterMind cuida do resto.
 
 <FeatureCards :features="[
   {
-    title: '**Cadastre-se gratuitamente**',
-    details: 'Comece em segundos — não é necessário cartão de crédito.',
+    title: 'Cadastre-se gratuitamente',
+    details: '[Registre-se](#Pricing) ou faça login usando seu idioma preferido.',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
     }
   },
   {
-    title: '**Inicie uma reunião**',
-    details: 'Crie uma reunião ou agende no calendário. Não são necessários downloads ou instalações.',
+    title: 'Inicie uma reunião',
+    details: 'Crie uma reunião ou agende em seu calendário.',
     icon: {
       light: '/start.png',
       dark: '/start.png',
     }
   },
+  // {
+  //   title: 'Convide seus convidados',
+  //   details: 'Compartilhe o link - seu convidado simplesmente clica nele e entra em seu idioma.',
+  //   icon: {
+  //     light: '/invite.png',
+  //     dark: '/invite.png',
+  //   }
+  // },
   {
-    title: '**Convide seus convidados**',
-    details: 'Compartilhe um link — seu convidado apenas clica e entra. Não são necessárias configurações de idioma.',
-    link: '/uae-business/company-registration/accounting-legal',
+    title: 'Entre na reunião',
+    details: 'Clique no link do convite, selecione um nome e entre na reunião.',
     icon: {
-      light: '/invite.png',
-      dark: '/invite.png',
+      light: '/join.png',
+      dark: '/join.png',
     }
   },
   {
-    title: '**Fale seu idioma**',
-    items: [
-      'Todos falam em seu idioma nativo', 
-      'Todos ouvem o outro lado instantaneamente interpretado'
-    ],
+    title: 'Fale seu idioma',
+    details: 'Todos falam e ouvem em seu próprio idioma.',
     icon: {
       light: '/meeting.png',
       dark: '/meeting.png',
@@ -158,9 +162,9 @@ Esta configuração única de idioma se aplica a:
 | Participante 1| Inglês             | Inglês    | Inglês    |
 | Participante 2| Chinês             | Chinês    | Chinês    |
 
-A plataforma interpreta automaticamente toda a fala em tempo real — então todos se comunicam como se falassem o mesmo idioma.
+[A plataforma interpreta automaticamente toda a fala em tempo real](./product/overview/how-it-works) — então todos se comunicam como se falassem o mesmo idioma.
 
-### ⚙️ Você pode mudar seu idioma durante a chamada?
+### ⚙️ Você pode alterar seu idioma durante a chamada?
 
 Sim. Você pode abrir as **Configurações** e alterar o campo `Seu Idioma`:
 
@@ -246,7 +250,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
 [
   {
     q: 'Quais idiomas o InterMind suporta para interpretação?',
-    a: 'O InterMind suporta **interpretação em tempo real** nos seguintes 19 idiomas:<br><br>- العربية (ar) – Árabe<br>- Čeština (cs) – Tcheco<br>- Deutsch (de) – Alemão<br>- English (en) – Inglês<br>- Español (es) – Espanhol<br>- Français (fr) – Francês<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Húngaro<br>- Italiano (it) – Italiano<br>- 日本語 (ja) – Japonês<br>- 한국어 (ko) – Coreano<br>- Nederlands (nl) – Holandês<br>- Polski (pl) – Polonês<br>- Português (pt) – Português<br>- Русский (ru) – Russo<br>- Türkçe (tr) – Turco<br>- 中文 (zh) – Chinês<br><br>Estamos continuamente expandindo esta lista — novos idiomas são adicionados a cada lançamento principal.'
+    a: 'O InterMind suporta **interpretação em tempo real** nos seguintes 19 idiomas:<br><br>- العربية (ar) – Árabe<br>- Čeština (cs) – Tcheco<br>- Deutsch (de) – Alemão<br>- English (en) – Inglês<br>- Español (es) – Espanhol<br>- Français (fr) – Francês<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Húngaro<br>- Italiano (it) – Italiano<br>- 日本語 (ja) – Japonês<br>- 한국어 (ko) – Coreano<br>- Nederlands (nl) – Holandês<br>- Polski (pl) – Polonês<br>- Português (pt) – Português<br>- Русский (ru) – Russo<br>- Türkçe (tr) – Turco<br>- 中文 (zh) – Chinês<br><br>Estamos continuamente expandindo esta lista — novos idiomas são adicionados a cada versão principal.'
   },
   {
     q: 'O que é um usuário licenciado e o que é um participante?',
@@ -291,8 +295,8 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
   {
     title: 'PRODUTO',
     links: [
-      { text: 'Visão geral', link: './product/overview/what-is-intermind' },
-      { text: 'Primeiros passos', link: './product/guide/getting-started' },
+      { text: 'Visão Geral', link: './product/overview/what-is-intermind' },
+      { text: 'Primeiros Passos', link: './product/guide/getting-started' },
       { text: 'Depoimentos', link: '#testimonials' },
       { text: 'Preços', link: '#Pricing' },
     ]
@@ -300,11 +304,11 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
   {
     title: 'SUPORTE',
     links: [
-      { text: 'Obter suporte', link: './resources/help' },
+      { text: 'Obter Suporte', link: './resources/help' },
       { text: 'FAQ', link: '#FAQ' },
-      { text: 'Status do serviço', link: 'https://status.mind.com/' },
-      { text: 'Política de privacidade', link: './resources/company/Privacy-Policy' },
-      { text: 'Guia legal de IA', link: './resources/company/Legal-Regulations-for-AI-Services' },
+      { text: 'Status do Serviço', link: 'https://status.mind.com/' },
+      { text: 'Política de Privacidade', link: './resources/company/Privacy-Policy' },
+      { text: 'Guia Legal de IA', link: './resources/company/Legal-Regulations-for-AI-Services' },
       // { text: 'Privacy Settings', link: '#' },
     ]
   },
@@ -312,8 +316,8 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
     title: 'RECURSOS',
     links: [
       // { text: 'Blog', link: './blog' },
-      { text: 'Recursos da marca', link: './resources/media-kit' },
-      { text: 'Documentação da API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
+      { text: 'Recursos da Marca', link: './resources/media-kit' },
+      { text: 'Documentação API IA / LLM', link: 'https://mind.com/llms-full.txt' },
     ]
   },
   {

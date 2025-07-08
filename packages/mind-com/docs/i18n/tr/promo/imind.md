@@ -2,9 +2,6 @@
 layout: home
 title: "Video toplantılar yeniden tasarlandı — artık mind.com'da"
 description: "iMind'dan InterMIND'a: gerçek zamanlı AI destekli çeviri ile ses odaklı video aramalar."
-head:
-  - [link, { rel: "canonical", href: "https://mind.com/" }]
-  # - [meta, { name: "robots", content: "noindex, follow" }]
 ---
 
 <HeroSection
@@ -36,7 +33,7 @@ head:
     items: [
       '🔍 **Her şeyi sorun** — AI **toplantılarınız genelinde** cevaplar bulur.',
       '✧ Görevleri, sahiplerini ve son tarihleri otomatik çıkarır.',
-      '✧ Ana noktaları herhangi bir dilde özetler — anında.',
+      '✧ Önemli noktaları herhangi bir dilde özetler — anında.',
     ],
     link: '../product/overview/how-it-works#🧩-deep-memory-deep-understanding',
     src: {
@@ -48,10 +45,10 @@ head:
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Ciddi Toplantılar İçin Tasarlandı — Sadece Konuşmak İçin Değil',
+    title: 'Ciddi Toplantılar İçin Yapıldı — Sadece Konuşmak İçin Değil',
     details: 'InterMIND **profesyonel düzeyde bir video toplantı platformudur**, hafif bir eklenti veya plugin değil.',
     items: [
-      '✧ 1080p çözünürlük, akıllı gürültü bastırma, zamanlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, kullanıma hazır.',
+      '✧ 1080p çözünürlük, akıllı gürültü bastırma, planlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, kullanıma hazır.',
     ],
     link: '../product/overview/video-meeting-platform',
     src: {
@@ -66,7 +63,7 @@ head:
   :card="{
     title: 'Önemli Olan Yerde Gizlilik',
     details:
-      'InterMIND güven gerektiren konuşmalar için tasarlandı — gizlilik ve kontrolün en önemli olduğu yerde.',
+      'InterMIND güven gerektiren konuşmalar için yapıldı — gizlilik ve kontrolün en önemli olduğu yerde.',
     items: [
       '⚡︎ [Gizlilik Bölgeleri](../product/overview/privacy-architecture) — AB, ABD, Güneydoğu Asya',
       '✧ **Sıfır veri eğitimi**. Üçüncü taraf erişimi yok.'
@@ -81,7 +78,7 @@ head:
 />
 
 > [!tip] Bu kimler için?  
-> Dil engellerinin **gecikmelere**, **kaybedilen anlaşmalara** veya **maliyetli yanlış anlamalara** neden olduğu **uluslararası ekipler** için tasarlandı. [Daha fazla bilgi ...](../product/overview/markets)
+> Dil bariyerlerinin **gecikmelere**, **kaybedilen anlaşmalara** veya **maliyetli yanlış anlamalara** neden olduğu **uluslararası ekipler** için yapıldı. [Daha fazla bilgi ...](../product/overview/markets)
 
 <br>
 
