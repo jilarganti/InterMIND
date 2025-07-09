@@ -95,7 +95,7 @@ Familiar interface. Universal communication. Same ease as Google Meet — with i
 <FeatureCards :features="[
   {
     title: 'Sign up for free',
-    details: 'Choose your language and [create account](#Pricing)',
+    details: 'Choose your language and [create account](#Pricing).',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
@@ -103,7 +103,7 @@ Familiar interface. Universal communication. Same ease as Google Meet — with i
   },
   {
     title: 'Start a meeting',
-    details: 'Create instantly or schedule ahead',
+    details: 'Create instantly or schedule ahead.',
     icon: {
       light: '/start.png',
       dark: '/start.png',
