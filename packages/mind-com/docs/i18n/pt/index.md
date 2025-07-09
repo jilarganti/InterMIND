@@ -88,14 +88,14 @@ isHome: true
 
 <span id="HowItWorks"></span>
 
-## Fale Naturalmente. Entenda Instantaneamente.
+## Funciona Como Google Meet + Tradução Ao Vivo
 
-Se você já usou o **Google Meet**, você já sabe como o InterMind funciona — apenas com **interpretação ao vivo** integrada. Sem configuração. Sem treinamento. Apenas fale — o InterMind cuida do resto.
+Interface familiar. Comunicação universal. A mesma facilidade do Google Meet — com tradução instantânea que faz as barreiras linguísticas desaparecerem.
 
 <FeatureCards :features="[
   {
     title: 'Cadastre-se gratuitamente',
-    details: '[Registre-se](#Pricing) ou faça login usando seu idioma preferido.',
+    details: 'Escolha seu idioma e [crie uma conta](#Pricing)',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
@@ -103,15 +103,15 @@ Se você já usou o **Google Meet**, você já sabe como o InterMind funciona �
   },
   {
     title: 'Inicie uma reunião',
-    details: 'Crie uma reunião ou agende em seu calendário.',
+    details: 'Crie instantaneamente ou agende com antecedência',
     icon: {
       light: '/start.png',
       dark: '/start.png',
     }
   },
   // {
-  //   title: 'Convide seus convidados',
-  //   details: 'Compartilhe o link - seu convidado simplesmente clica nele e entra em seu idioma.',
+  //   title: 'Invite your guests',
+  //   details: 'Share the link - your guest simply clicks on it and joins in their language.',
   //   icon: {
   //     light: '/invite.png',
   //     dark: '/invite.png',
@@ -119,7 +119,7 @@ Se você já usou o **Google Meet**, você já sabe como o InterMind funciona �
   // },
   {
     title: 'Entre na reunião',
-    details: 'Clique no link do convite, selecione um nome e entre na reunião.',
+    details: 'Clique no link, digite o nome, entre instantaneamente.',
     icon: {
       light: '/join.png',
       dark: '/join.png',
@@ -195,7 +195,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
     details: 'cartão de crédito não necessário',
     items: [
       '**25** reuniões',
-      '**100** participantes em videochamadas [💬](#3)',
+      '**100** participantes em videorreuniões [💬](#3)',
       '**30** GB de armazenamento compartilhado por usuário',
       'Pesquise em todas as suas reuniões [💬](#2)',
       'Interpretação simultânea [💬](#1)',
@@ -206,20 +206,20 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
     price: '**$20** /mês/usuário, cobrado anualmente',
     details: 'ou $25 cobrado mensalmente',
     items: [
-      '**Reuniões ilimitadas**',
-      '**150** participantes em videochamadas [💬](#3)',
+      '**Ilimitadas** reuniões',
+      '**150** participantes em videorreuniões [💬](#3)',
       '**2** TB de armazenamento compartilhado por usuário',
       'Pesquise em todas as suas reuniões [💬](#2)',
       'Interpretação simultânea [💬](#1)',
     ],
   },
   {
-    title: '**Empresarial** &nbsp 100+ usuários',
+    title: '**Business** &nbsp 100+ usuários',
     price: '**Preço personalizado**',
     details: 'Construído para privacidade',
     items: [
-      '**Reuniões ilimitadas**',
-      '**500** participantes em videochamadas [💬](#3)',
+      '**Ilimitadas** reuniões',
+      '**500** participantes em videorreuniões [💬](#3)',
       '**5** TB de armazenamento compartilhado por usuário',
       'Pesquise em todas as suas reuniões [💬](#2)',
       'Interpretação simultânea [💬](#1)',
@@ -250,7 +250,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
 [
   {
     q: 'Quais idiomas o InterMind suporta para interpretação?',
-    a: 'O InterMind suporta **interpretação em tempo real** nos seguintes 19 idiomas:<br><br>- العربية (ar) – Árabe<br>- Čeština (cs) – Tcheco<br>- Deutsch (de) – Alemão<br>- English (en) – Inglês<br>- Español (es) – Espanhol<br>- Français (fr) – Francês<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Húngaro<br>- Italiano (it) – Italiano<br>- 日本語 (ja) – Japonês<br>- 한국어 (ko) – Coreano<br>- Nederlands (nl) – Holandês<br>- Polski (pl) – Polonês<br>- Português (pt) – Português<br>- Русский (ru) – Russo<br>- Türkçe (tr) – Turco<br>- 中文 (zh) – Chinês<br><br>Estamos continuamente expandindo esta lista — novos idiomas são adicionados a cada versão principal.'
+    a: 'O InterMind suporta **interpretação em tempo real** nos seguintes 19 idiomas:<br><br>- العربية (ar) – Árabe<br>- Čeština (cs) – Tcheco<br>- Deutsch (de) – Alemão<br>- English (en) – Inglês<br>- Español (es) – Espanhol<br>- Français (fr) – Francês<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Húngaro<br>- Italiano (it) – Italiano<br>- 日本語 (ja) – Japonês<br>- 한국어 (ko) – Coreano<br>- Nederlands (nl) – Holandês<br>- Polski (pl) – Polonês<br>- Português (pt) – Português<br>- Русский (ru) – Russo<br>- Türkçe (tr) – Turco<br>- 中文 (zh) – Chinês<br><br>Estamos continuamente expandindo esta lista — novos idiomas são adicionados a cada lançamento principal.'
   },
   {
     q: 'O que é um usuário licenciado e o que é um participante?',
@@ -282,7 +282,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
   },
   {
     q: 'Como gerencio minha assinatura (upgrade, downgrade ou cancelamento)?',
-    a: 'Você pode alterar seu plano a qualquer momento através das **configurações da conta**. As alterações entram em vigor **imediatamente**. Para cancelamentos, *Planos mensais* cancelam no final do ciclo de cobrança. *Planos anuais* podem ser cancelados para um **reembolso proporcional**.'
+    a: 'Você pode alterar seu plano a qualquer momento através das **configurações da conta**. As alterações entram em vigor **imediatamente**. Para cancelamentos, *planos mensais* cancelam no final do ciclo de cobrança. *Planos anuais* podem ser cancelados para **reembolso proporcional**.'
   },
   {
     q: 'Posso usar o InterMind para webinars ou grandes eventos?',
@@ -295,8 +295,8 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
   {
     title: 'PRODUTO',
     links: [
-      { text: 'Visão Geral', link: './product/overview/what-is-intermind' },
-      { text: 'Primeiros Passos', link: './product/guide/getting-started' },
+      { text: 'Visão geral', link: './product/overview/what-is-intermind' },
+      { text: 'Primeiros passos', link: './product/guide/getting-started' },
       { text: 'Depoimentos', link: '#testimonials' },
       { text: 'Preços', link: '#Pricing' },
     ]
@@ -304,11 +304,11 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
   {
     title: 'SUPORTE',
     links: [
-      { text: 'Obter Suporte', link: './resources/help' },
+      { text: 'Obter suporte', link: './resources/help' },
       { text: 'FAQ', link: '#FAQ' },
-      { text: 'Status do Serviço', link: 'https://status.mind.com/' },
-      { text: 'Política de Privacidade', link: './resources/company/Privacy-Policy' },
-      { text: 'Guia Legal de IA', link: './resources/company/Legal-Regulations-for-AI-Services' },
+      { text: 'Status do serviço', link: 'https://status.mind.com/' },
+      { text: 'Política de privacidade', link: './resources/company/Privacy-Policy' },
+      { text: 'Guia legal de IA', link: './resources/company/Legal-Regulations-for-AI-Services' },
       // { text: 'Privacy Settings', link: '#' },
     ]
   },
@@ -316,8 +316,8 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
     title: 'RECURSOS',
     links: [
       // { text: 'Blog', link: './blog' },
-      { text: 'Recursos da Marca', link: './resources/media-kit' },
-      { text: 'Documentação API IA / LLM', link: 'https://mind.com/llms-full.txt' },
+      { text: 'Recursos da marca', link: './resources/media-kit' },
+      { text: 'Documentação da API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
     ]
   },
   {

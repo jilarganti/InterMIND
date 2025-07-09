@@ -4,7 +4,7 @@ title: "Video aramalar için canlı konuşma çevirisi"
 isHome: true
 ---
 
-<!-- title: "Eşzamanlı tercümanlık ile güçlendirilmiş video aramalar" -->
+<!-- title: "Eşzamanlı tercümanlık ile desteklenen video aramalar" -->
 <!-- text="Video aramalarda canlı konuşma çevirisi — **hiç** gecikme yok, **hiç** kaybedilen anlaşma yok, **hiç** dil engeli yok." -->
 
 <HeroSection
@@ -51,10 +51,10 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Ciddi Toplantılar İçin Yapıldı — Sadece Konuşmak İçin Değil',
-    details: 'InterMind [profesyonel seviye video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
+    title: 'Ciddi Toplantılar İçin Tasarlandı — Sadece Konuşmak İçin Değil',
+    details: 'InterMind [profesyonel düzeyde bir video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
     items: [
-      '✧ 1080p çözünürlük, akıllı gürültü bastırma, zamanlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
+      '✧ 1080p çözünürlük, akıllı gürültü bastırma, planlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -69,7 +69,7 @@ isHome: true
   :card="{
     title: 'Önemli Olan Yerde Gizlilik',
     details:
-      'InterMind güven gerektiren konuşmalar için yapıldı — gizlilik ve kontrolün en önemli olduğu yerde.',
+      'InterMind güven gerektiren konuşmalar için tasarlandı — gizlilik ve kontrolün en önemli olduğu yerde.',
     items: [
       '✧ [Gizlilik Bölgeleri](./product/overview/privacy-architecture) — AB, ABD, Güneydoğu Asya',
       '✧ **Sıfır veri eğitimi**. Üçüncü taraf erişimi yok.'
@@ -84,18 +84,18 @@ isHome: true
 />
 
 > [!tip] Bu kimin için?  
-> Dil engellerinin **gecikmelere**, **kaybedilen anlaşmalara** veya **maliyetli yanlış anlamalara** neden olduğu **uluslararası ekipler** için yapıldı. [Daha fazla bilgi ...](./product/overview/markets)
+> Dil engellerinin **gecikmelere**, **kaybedilen anlaşmalara** veya **maliyetli yanlış anlamalara** neden olduğu **uluslararası ekipler** için tasarlandı. [Daha fazla bilgi ...](./product/overview/markets)
 
 <span id="HowItWorks"></span>
 
-## Doğal Konuşun. Anında Anlayın.
+## Google Meet + Canlı Çeviri Gibi Çalışır
 
-**Google Meet** kullandıysanız, InterMind'ın nasıl çalıştığını zaten biliyorsunuz — sadece **canlı çeviri** özelliği dahil. Kurulum yok. Eğitim yok. Sadece konuşun — gerisini InterMind halleder.
+Tanıdık arayüz. Evrensel iletişim. Google Meet kadar kolay — dil engellerini ortadan kaldıran anlık çeviri ile.
 
 <FeatureCards :features="[
   {
     title: 'Ücretsiz kaydolun',
-    details: 'Tercih ettiğiniz dilde [kayıt olun](#Pricing) veya giriş yapın.',
+    details: 'Dilinizi seçin ve [hesap oluşturun](#Pricing)',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
@@ -103,7 +103,7 @@ isHome: true
   },
   {
     title: 'Toplantı başlatın',
-    details: 'Bir toplantı oluşturun veya takviminizde planlayın.',
+    details: 'Anında oluşturun veya önceden planlayın',
     icon: {
       light: '/start.png',
       dark: '/start.png',
@@ -119,7 +119,7 @@ isHome: true
   // },
   {
     title: 'Toplantıya katılın',
-    details: 'Davet bağlantısına tıklayın, bir isim seçin ve toplantıya katılın.',
+    details: 'Bağlantıya tıklayın, adınızı girin, anında katılın.',
     icon: {
       light: '/join.png',
       dark: '/join.png',
@@ -153,7 +153,7 @@ Her katılımcı ürüne girerken seçtiği dilde **konuşuyor ve duyuyor**.
 Bu tek dil ayarı şunları kapsar:
 
 - **Arayüz dili**
-- **Konuşma girişi** (söyledikleriniz)
+- **Konuşulan girdi** (söyledikleriniz)
 - **Çevrilmiş çıktı** (duyduklarınız)
 
 | Katılımcı     | Seçilen Dil | Konuştuğu Dil | Duyduğu Dil |
@@ -240,7 +240,7 @@ Bunu değiştirmek şu anlama gelir:
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-> [!tip] 🥇 Zamanınızı gramer ezberlemek yerine sanatınızda ustalaşmaya harcamanız daha iyi.
+> [!tip] 🥇 Zamanınızı dilbilgisi ezberlemek yerine sanatınızda ustalaşmaya harcamanız daha iyi.
 
 <span id="FAQ"></span>
 
@@ -254,7 +254,7 @@ Bunu değiştirmek şu anlama gelir:
   },
   {
     q: 'Lisanslı kullanıcı nedir ve Katılımcı nedir?',
-    a: '*Lisanslı kullanıcı* ücretsiz veya ücretli toplantı lisansına sahiptir ve planının sınırları dahilinde toplantı planlayabilir. *Katılımcılar* davetlilerdir — toplantıya katılmak için **hesap veya lisansa ihtiyaçları yoktur** ve herhangi bir cihazdan **ücretsiz** bağlanabilirler.'
+    a: '*Lisanslı kullanıcı* ücretsiz veya ücretli toplantı lisansına sahiptir ve planının sınırları dahilinde toplantı planlayabilir. *Katılımcılar* davetlilerdir — toplantıya katılmak için **hesap veya lisansa ihtiyaçları yoktur** ve herhangi bir cihazdan **ücretsiz** olarak bağlanabilirler.'
   },
   {
     q: 'Bir InterMind lisansını kaç kişi kullanabilir?',
@@ -270,7 +270,7 @@ Bunu değiştirmek şu anlama gelir:
   },
   {
     q: 'InterMind veri gizliliği ve güvenliğini nasıl sağlıyor?',
-    a: 'InterMind **tasarım gereği gizlidir**. Tüm veriler seçtiğiniz **Gizlilik Bölgesi** içinde işlenir ve saklanır — _AB_, _ABD_ veya _Asya_. [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) ve BAE PDPL\'ye uygun çalışıyoruz ve **içeriğinizi asla** eğitim veya üçüncü taraf erişimi için kullanmıyoruz. Gelişmiş [Gizlilik Bölgesi kontrolü](./product/overview/privacy-architecture) **İş** planında mevcuttur.'
+    a: 'InterMind **tasarım gereği gizlidir**. Tüm veriler seçtiğiniz **Gizlilik Bölgesi** içinde işlenir ve saklanır — _AB_, _ABD_ veya _Asya_. [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) ve BAE PDPL\'ye uygun olarak çalışıyoruz ve **içeriğinizi asla** eğitim veya üçüncü taraf erişimi için kullanmıyoruz. Gelişmiş [Gizlilik Bölgesi kontrolü](./product/overview/privacy-architecture) **İş** planında mevcuttur.'
   },
   {
     q: 'Bir plan satın almadan önce InterMind\'ı deneyebilir miyim?',

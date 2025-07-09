@@ -4,9 +4,11 @@
 
 InterMind es una plataforma de videoconferencias multiusuario con **traducción bidireccional instantánea**. Cada participante puede hablar y escuchar a otros en **su idioma nativo**, creando el efecto de comunicación natural sin barreras idiomáticas.
 
-![](/interpretating.svg)
-
 ## Cómo funciona:
+
+:::details Mostrar diagrama del proceso de traducción con IA
+![](/interpretating.svg)
+:::
 
 ### 1. **Reconocimiento de voz (Speech-to-Text)**
 
@@ -77,7 +79,7 @@ Todo esto ocurre con **latencia menor a 3 segundos** — igualando la velocidad 
 - **Precisión**: 94-97% de exactitud para conversaciones de negocios
 - **Contexto**: comprensión del contexto durante toda la reunión
 - **Terminología**: diccionarios adaptativos para cada industria
-- **Retroalimentación**: sistema de calificación de calidad por parte del usuario
+- **Retroalimentación**: sistema de calificación de calidad por usuarios
 
 > [!info] Arquitectura técnica
 >

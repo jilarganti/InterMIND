@@ -18,7 +18,7 @@ isHome: true
 
 <span id="1"></span>
 <FeatureBlock :card="{
-  title: 'Übersetzung ≠ Verstehen. Hier ist die Zukunft.',
+  title: 'Übersetzung ≠ Verstehen. Hier ist, was als nächstes kommt.',
   details: 'Unabhängig von der Sprache wird Ihre Stimme gehört — und verstanden — als würden Sie dieselbe Sprache sprechen.',
     items: [
       '✧ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
@@ -51,10 +51,10 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Für ernsthafte Meetings entwickelt — nicht nur zum Reden',
+    title: 'Entwickelt für ernsthafte Meetings — nicht nur zum Reden',
     details: 'InterMind ist eine [professionelle Video-Meeting-Plattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
     items: [
-      '✧ 1080p-Auflösung, intelligente Rauschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
+      '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles eingebaut, **sofort einsatzbereit**.',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -88,14 +88,14 @@ isHome: true
 
 <span id="HowItWorks"></span>
 
-## Sprechen Sie natürlich. Verstehen Sie sofort.
+## Funktioniert wie Google Meet + Live-Übersetzung
 
-Wenn Sie **Google Meet** bereits verwendet haben, wissen Sie bereits, wie InterMind funktioniert — nur mit **Live-Dolmetschen** integriert. Keine Einrichtung. Kein Training. Sprechen Sie einfach — InterMind übernimmt den Rest.
+Vertraute Benutzeroberfläche. Universelle Kommunikation. Genauso einfach wie Google Meet — mit Sofortübersetzung, die Sprachbarrieren verschwinden lässt.
 
 <FeatureCards :features="[
   {
     title: 'Kostenlos anmelden',
-    details: '[Registrieren](#Pricing) oder melden Sie sich in Ihrer bevorzugten Sprache an.',
+    details: 'Wählen Sie Ihre Sprache und [erstellen Sie ein Konto](#Pricing)',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
@@ -103,7 +103,7 @@ Wenn Sie **Google Meet** bereits verwendet haben, wissen Sie bereits, wie InterM
   },
   {
     title: 'Meeting starten',
-    details: 'Erstellen Sie ein Meeting oder planen Sie es in Ihrem Kalender.',
+    details: 'Sofort erstellen oder im Voraus planen',
     icon: {
       light: '/start.png',
       dark: '/start.png',
@@ -119,14 +119,14 @@ Wenn Sie **Google Meet** bereits verwendet haben, wissen Sie bereits, wie InterM
   // },
   {
     title: 'Am Meeting teilnehmen',
-    details: 'Klicken Sie auf den Einladungslink, wählen Sie einen Namen und nehmen Sie am Meeting teil.',
+    details: 'Link klicken, Namen eingeben, sofort beitreten.',
     icon: {
       light: '/join.png',
       dark: '/join.png',
     }
   },
   {
-    title: 'Sprechen Sie Ihre Sprache',
+    title: 'In Ihrer Sprache sprechen',
     details: 'Jeder spricht und hört in seiner eigenen Sprache.',
     icon: {
       light: '/meeting.png',
@@ -169,10 +169,10 @@ Diese einzige Spracheinstellung gilt für:
 Ja. Sie können die **Einstellungen** öffnen und das Feld `Ihre Sprache` ändern:
 
 :::details Einstellungsbereich
-<img src="/settings.png" alt="settings-panel" width="300px" />
+<img src="/settings.png" alt="Einstellungsbereich" width="300px" />
 :::
 
-Diese Änderung bedeutet:
+Dies zu ändern bedeutet:
 
 - ✅ Sie sollten in der `gewählten Sprache` sprechen für eine genaue Übersetzung
 - ✅ Sie werden andere in der `gewählten Sprache` hören
@@ -180,7 +180,7 @@ Diese Änderung bedeutet:
 
 > 📌 Hinweis: "Ihre Sprache" ist eine **einzige einheitliche Einstellung**  
 > Sie steuert **wie Sie sprechen**, **was Sie hören** und **was Sie sehen**.  
-> In einer Sprache sprechen und in einer anderen zuhören wird **nicht unterstützt** — bewusst, um die Erfahrung einfach und vorhersagbar zu halten.
+> In einer Sprache zu sprechen und in einer anderen zu hören wird **nicht unterstützt** — bewusst, um die Erfahrung einfach und vorhersagbar zu halten.
 
 <span id="Pricing"></span>
 
@@ -216,7 +216,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
   {
     title: '**Business** &nbsp 100+ Benutzer',
     price: '**Individuelle Preisgestaltung**',
-    details: 'Für Datenschutz entwickelt',
+    details: 'Entwickelt für Datenschutz',
     items: [
       '**Unbegrenzte** Meetings',
       '**500** Teilnehmer Video-Meetings [💬](#3)',
@@ -258,19 +258,19 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
   },
   {
     q: 'Wie viele Personen können eine InterMind-Lizenz verwenden?',
-    a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt Meetings** veranstalten. Wenn mehrere Teammitglieder gleichzeitig Meetings veranstalten müssen, benötigt jeder seine eigene Lizenz.'
+    a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt Meetings** hosten. Wenn mehrere Teammitglieder gleichzeitig Meetings hosten müssen, benötigt jeder seine eigene Lizenz.'
   },
   {
     q: 'Wie lange kann ein Meeting maximal dauern?',
-    a: 'Meetings können in allen Plänen bis zu **24 Stunden** dauern.'
+    a: 'Meetings können in allen Plänen bis zu **24 Stunden** laufen.'
   },
   {
-    q: 'Gibt es eine Begrenzung für die Anzahl der Meetings, die ich veranstalten kann?',
+    q: 'Gibt es eine Begrenzung für die Anzahl der Meetings, die ich hosten kann?',
     a: 'Der *Free Basic*-Plan beinhaltet **25 kostenlose Meetings**. *Pro*- und *Business*-Pläne bieten unbegrenzte Meetings mit mehr Teilnehmern und Kontrolle.'
   },
   {
     q: 'Wie gewährleistet InterMind Datenschutz und Sicherheit?',
-    a: 'InterMind ist **standardmäßig privat**. Alle Daten werden in Ihrer ausgewählten **Datenschutzzone** verarbeitet und gespeichert — _EU_, _USA_ oder _Asien_. Wir entsprechen der [**DSGVO**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) und UAE PDPL und **verwenden niemals Ihre Inhalte** für Training oder Zugriff durch Dritte. Erweiterte [Datenschutzzonenkontrolle](./product/overview/privacy-architecture) ist im **Business**-Plan verfügbar.'
+    a: 'InterMind ist **standardmäßig privat**. Alle Daten werden in Ihrer ausgewählten **Privacy Zone** verarbeitet und gespeichert — _EU_, _US_ oder _Asien_. Wir entsprechen der [**DSGVO**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) und UAE PDPL und **verwenden niemals Ihre Inhalte** für Training oder Zugriff durch Dritte. Erweiterte [Privacy Zone-Kontrolle](./product/overview/privacy-architecture) ist im **Business**-Plan verfügbar.'
   },
   {
     q: 'Kann ich InterMind vor dem Kauf eines Plans testen?',
@@ -278,11 +278,11 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
   },
   {
     q: 'Was ist, wenn ich Hilfe oder Support benötige?',
-    a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **prioritären Support** mit einem dedizierten Kontakt.'
+    a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **Priority-Support** mit einem dedizierten Kontakt.'
   },
   {
     q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
-    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Bei Kündigungen werden *monatliche Pläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.'
+    a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Für Kündigungen werden *monatliche Pläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.'
   },
   {
     q: 'Kann ich InterMind für Webinare oder große Veranstaltungen verwenden?',
@@ -316,8 +316,8 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
     title: 'RESSOURCEN',
     links: [
       // { text: 'Blog', link: './blog' },
-      { text: 'Marken-Assets', link: './resources/media-kit' },
-      { text: 'KI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
+      { text: 'Brand Assets', link: './resources/media-kit' },
+      { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
     ]
   },
   {

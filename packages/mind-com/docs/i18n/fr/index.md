@@ -34,7 +34,7 @@ isHome: true
 
 <span id="2"></span>
 <FeatureBlock :card="{
-    title: 'L\'intelligence au cœur de vos réunions',
+    title: 'L\'esprit au cœur de vos réunions',
     details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
     items: [
       '✧ **Posez n\'importe quelle question** — l\'IA trouve des réponses **dans toutes vos réunions**.',
@@ -83,19 +83,19 @@ isHome: true
   }"
 />
 
-> [!tip] Pour qui est-ce destiné ?  
+> [!tip] À qui s'adresse-t-il ?  
 > Conçu pour les **équipes internationales** où les barrières linguistiques causent des **retards**, des **affaires perdues** ou des **malentendus coûteux**. [En savoir plus ...](./product/overview/markets)
 
 <span id="HowItWorks"></span>
 
-## Parlez naturellement. Comprenez instantanément.
+## Fonctionne comme Google Meet + traduction en direct
 
-Si vous avez utilisé **Google Meet**, vous savez déjà comment fonctionne InterMind — mais avec **l'interprétation en direct** intégrée. Aucune configuration. Aucune formation. Parlez simplement — InterMind s'occupe du reste.
+Interface familière. Communication universelle. Même facilité que Google Meet — avec une traduction instantanée qui fait disparaître les barrières linguistiques.
 
 <FeatureCards :features="[
   {
     title: 'Inscrivez-vous gratuitement',
-    details: '[Inscrivez-vous](#Pricing) ou connectez-vous dans votre langue préférée.',
+    details: 'Choisissez votre langue et [créez un compte](#Pricing)',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
@@ -103,7 +103,7 @@ Si vous avez utilisé **Google Meet**, vous savez déjà comment fonctionne Inte
   },
   {
     title: 'Démarrez une réunion',
-    details: 'Créez une réunion ou planifiez-la dans votre calendrier.',
+    details: 'Créez instantanément ou planifiez à l\'avance',
     icon: {
       light: '/start.png',
       dark: '/start.png',
@@ -119,7 +119,7 @@ Si vous avez utilisé **Google Meet**, vous savez déjà comment fonctionne Inte
   // },
   {
     title: 'Rejoignez la réunion',
-    details: 'Cliquez sur le lien d\'invitation, sélectionnez un nom et rejoignez la réunion.',
+    details: 'Cliquez sur le lien, entrez votre nom, rejoignez instantanément.',
     icon: {
       light: '/join.png',
       dark: '/join.png',
@@ -178,7 +178,7 @@ Changer cela signifie :
 - ✅ Vous entendrez les autres dans la `langue choisie`
 - ✅ L'interface basculera automatiquement vers la `langue choisie`
 
-> 📌 Note : « Votre langue » est un **paramètre unifié unique**  
+> 📌 Note : "Votre langue" est un **paramètre unifié unique**  
 > Il contrôle **comment vous parlez**, **ce que vous entendez**, et **ce que vous voyez**.  
 > Parler dans une langue et écouter dans une autre n'est **pas pris en charge** — par conception, pour garder l'expérience simple et prévisible.
 
@@ -195,8 +195,8 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
     details: 'aucune carte de crédit requise',
     items: [
       '**25** réunions',
-      '**100** participants en visioconférence [💬](#3)',
-      '**30** Go de stockage partagé par utilisateur',
+      '**100** participants aux réunions vidéo [💬](#3)',
+      '**30** GB de stockage partagé par utilisateur',
       'Recherche dans toutes vos réunions [💬](#2)',
       'Interprétation simultanée [💬](#1)',
     ],
@@ -207,8 +207,8 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
     details: 'ou 25 $ facturé mensuellement',
     items: [
       '**Illimitées** réunions',
-      '**150** participants en visioconférence [💬](#3)',
-      '**2** To de stockage partagé par utilisateur',
+      '**150** participants aux réunions vidéo [💬](#3)',
+      '**2** TB de stockage partagé par utilisateur',
       'Recherche dans toutes vos réunions [💬](#2)',
       'Interprétation simultanée [💬](#1)',
     ],
@@ -219,8 +219,8 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
     details: 'Conçu pour la confidentialité',
     items: [
       '**Illimitées** réunions',
-      '**500** participants en visioconférence [💬](#3)',
-      '**5** To de stockage partagé par utilisateur',
+      '**500** participants aux réunions vidéo [💬](#3)',
+      '**5** TB de stockage partagé par utilisateur',
       'Recherche dans toutes vos réunions [💬](#2)',
       'Interprétation simultanée [💬](#1)',
       '**Zones de confidentialité** [💬](#4)',
@@ -232,7 +232,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
 <ContactFormModalNav buttonText="Parler à notre équipe" buttonClass="alt"/>
 </PricingPlans>
 
-> [!warning] 😱 Soit vous parlez toutes les langues — soit quelqu'un d'autre conclut vos affaires.
+> [!warning] 😱 Soit vous parlez toutes les langues — soit quelqu\'un d\'autre conclut vos affaires.
 
 <span id="Testimonials"></span>
 
@@ -270,7 +270,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
   },
   {
     q: 'Comment InterMind assure-t-il la confidentialité et la sécurité des données ?',
-    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et au PDPL des EAU, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès de tiers. Le contrôle avancé de la [Zone de confidentialité](./product/overview/privacy-architecture) est disponible sur le plan **Business**.'
+    a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et au PDPL des EAU, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès par des tiers. Le contrôle avancé de la [Zone de confidentialité](./product/overview/privacy-architecture) est disponible sur le plan **Business**.'
   },
   {
     q: 'Puis-je essayer InterMind avant d\'acheter un plan ?',
@@ -298,7 +298,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
       { text: 'Aperçu', link: './product/overview/what-is-intermind' },
       { text: 'Commencer', link: './product/guide/getting-started' },
       { text: 'Témoignages', link: '#testimonials' },
-      { text: 'Tarifs', link: '#Pricing' },
+      { text: 'Tarification', link: '#Pricing' },
     ]
   },
   {

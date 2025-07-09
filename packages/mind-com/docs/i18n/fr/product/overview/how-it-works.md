@@ -4,15 +4,17 @@
 
 InterMind est une plateforme de visioconférence multi-utilisateurs avec **traduction bidirectionnelle instantanée**. Chaque participant peut parler et entendre les autres dans **sa langue maternelle**, créant l'effet d'une communication naturelle sans barrières linguistiques.
 
-![](/interpretating.svg)
-
 ## Comment ça fonctionne :
+
+:::details Afficher le diagramme du processus de traduction IA
+![](/interpretating.svg)
+:::
 
 ### 1. **Reconnaissance vocale (Speech-to-Text)**
 
 - Reconnaissance en streaming utilisant des modèles transformer
 - Traitement du bruit et des sons d'arrière-plan
-- Support de la terminologie technique et du jargon
+- Support pour la terminologie technique et le jargon
 - Précision de reconnaissance : **95-98%** pour les langues principales
 
 ### 2. **Post-traitement du texte (nettoyage du texte et analyse sémantique)**
@@ -20,7 +22,7 @@ InterMind est une plateforme de visioconférence multi-utilisateurs avec **tradu
 - **Suppression des parasites vocaux** : élimination des "euh", "hum", répétitions, bégaiements
 - **Correction des erreurs de reconnaissance** : correction basée sur le contexte
 - **Ponctuation et structuration** : placement automatique de la ponctuation
-- **Extraction du sens clé** : identification des idées principales et secondaires
+- **Extraction du sens clé** : identification des pensées principales et secondaires
 - **Segmentation des énoncés** : découpage en blocs logiques pour une traduction précise
 - **Analyse contextuelle** : liaison avec les remarques précédentes et le sujet global
 
@@ -46,7 +48,7 @@ Tout cela se produit avec une **latence inférieure à 3 secondes** — égalant
 
 - **Filtrage du bruit** : suppression automatique de la toux, des rires, des conversations en arrière-plan
 - **Ponctuation intelligente** : reconnaissance des pauses intonationnelles et de l'accent logique
-- **Correction d'erreurs** : correction à la volée des fautes de frappe et des inexactitudes de reconnaissance
+- **Correction d'erreurs** : correction des fautes de frappe et des inexactitudes de reconnaissance à la volée
 - **Compression sémantique** : préservation du sens tout en supprimant la redondance
 
 ### Pour les entreprises :
@@ -54,7 +56,7 @@ Tout cela se produit avec une **latence inférieure à 3 secondes** — égalant
 - **Équipes mondiales** : élimination des barrières linguistiques dans les équipes internationales
 - **Réunions clients** : communication directe avec les clients sans services d'interprète
 - **Formation et présentations** : diffusion simultanée de contenu en plusieurs langues
-- **Économies de coûts** : réduction des coûts d'interprétation jusqu'à **80%**
+- **Économies de coûts** : réduction des coûts d'interprète jusqu'à **80%**
 
 ### Pour les utilisateurs :
 
@@ -63,25 +65,25 @@ Tout cela se produit avec une **latence inférieure à 3 secondes** — égalant
 - **Accessibilité** : 24h/24 et 7j/7 sans planification préalable
 - **Évolutivité** : de 2 à plus de 1000 participants
 
-## Meilleur que l'humain — et s'améliore chaque jour
+## Mieux que l'humain — et s'améliore chaque jour
 
 ### Stack technologique :
 
 - **Fournisseurs LLM** : GPT-4, Claude, Gemini (sélection régionale)
 - **Régionalité** : conformité aux exigences locales de confidentialité (RGPD, CCPA)
 - **Apprentissage continu** : analyse de plus de 10 000 heures de réunions multilingues par mois
-- **Spécialisation** : modèles pour des secteurs spécifiques (médecine, droit, finance, IT)
+- **Spécialisation** : modèles pour des industries spécifiques (médecine, droit, finance, IT)
 
 ### Qualité de traduction :
 
 - **Précision** : 94-97% d'exactitude pour les conversations d'affaires
 - **Contexte** : compréhension du contexte tout au long de la réunion
-- **Terminologie** : dictionnaires adaptatifs pour chaque secteur
-- **Retours** : système d'évaluation de la qualité par les utilisateurs
+- **Terminologie** : dictionnaires adaptatifs pour chaque industrie
+- **Retour d'information** : système d'évaluation de la qualité par les utilisateurs
 
 > [!info] Architecture technique
 >
-> Tout le routage audio/vidéo est géré par notre API Mind propriétaire, développée en interne pour garantir :
+> Tout le routage audio/vidéo est géré par notre API Mind propriétaire, développée en interne pour assurer :
 >
 > - **Performance** : traitement de plus de 1000 flux parallèles
 > - **Souveraineté des données** : stockage dans la région sélectionnée

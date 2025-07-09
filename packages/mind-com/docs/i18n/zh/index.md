@@ -19,7 +19,7 @@ isHome: true
 <span id="1"></span>
 <FeatureBlock :card="{
   title: '翻译 ≠ 理解。这就是下一步。',
-  details: '无论使用何种语言，您的声音都能被听到——并被理解——就像您们说着同一种语言一样。',
+  details: '无论使用何种语言，您的声音都能被听到——并被理解——就像您们使用同一种语言一样。',
     items: [
       '✧ 自然地，[实时](./product/overview/how-it-works)进行，无需字幕或延迟。',
       '✧ AI驱动的口译捕捉语调、意图和行业专业术语。',
@@ -51,10 +51,10 @@ isHome: true
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: '为严肃会议而生——不仅仅是聊天',
+    title: '专为严肃会议而建——不仅仅是聊天',
     details: 'InterMind是一个[专业级视频会议平台](./product/overview/video-meeting-platform)，而不是轻量级插件或附加组件。',
     items: [
-      '✧ 1080p分辨率、智能降噪、日程安排、会议管理、屏幕共享、录制、字幕、参与者聊天和日历集成——全部内置，**即开即用**。',
+      '✧ 1080p分辨率、智能降噪、日程安排、会议管理、屏幕共享、录制、字幕、参与者聊天和日历集成——全部内置，**即用即开**。',
     ],
     link: './product/overview/video-meeting-platform',
     src: {
@@ -84,18 +84,18 @@ isHome: true
 />
 
 > [!tip] 这适合谁？  
-> 专为**国际团队**构建，解决语言障碍导致的**延迟**、**错失交易**或**代价高昂的误解**。[了解更多...](./product/overview/markets)
+> 专为**国际团队**构建，语言障碍会导致**延迟**、**错失交易**或**代价高昂的误解**。[了解更多...](./product/overview/markets)
 
 <span id="HowItWorks"></span>
 
-## 自然对话。即时理解。
+## 像 Google Meet + 实时翻译一样工作
 
-如果您使用过 **Google Meet**，您就已经知道 InterMind 是如何工作的——只是内置了**实时口译**功能。无需设置。无需培训。只需说话——InterMind 处理其余的一切。
+熟悉的界面。通用沟通。与 Google Meet 一样简单——配备即时翻译功能，让语言障碍消失。
 
 <FeatureCards :features="[
   {
     title: '免费注册',
-    details: '[注册](#Pricing)或使用您的首选语言登录。',
+    details: '选择您的语言并[创建账户](#Pricing)',
     icon: {
       light: '/signUp.png',
       dark: '/signUp.png',
@@ -103,7 +103,7 @@ isHome: true
   },
   {
     title: '开始会议',
-    details: '创建会议或在您的日历中安排会议。',
+    details: '立即创建或提前安排',
     icon: {
       light: '/start.png',
       dark: '/start.png',
@@ -119,14 +119,14 @@ isHome: true
   // },
   {
     title: '加入会议',
-    details: '点击邀请链接，选择姓名，然后加入会议。',
+    details: '点击链接，输入姓名，立即加入。',
     icon: {
       light: '/join.png',
       dark: '/join.png',
     }
   },
   {
-    title: '使用您的语言',
+    title: '说您的语言',
     details: '每个人都用自己的语言说话和听取。',
     icon: {
       light: '/meeting.png',
@@ -270,10 +270,10 @@ isHome: true
   },
   {
     q: 'InterMind如何确保数据隐私和安全？',
-    a: 'InterMind**从设计上保护隐私**。所有数据都在您选择的**隐私区域**内处理和存储——_欧盟_、_美国_或_亚洲_。我们遵守[**GDPR**](https://gdpr.eu)、[**CCPA**](https://oag.ca.gov/privacy/ccpa)和阿联酋PDPL，**绝不使用您的内容**进行训练或第三方访问。高级[隐私区域控制](./product/overview/privacy-architecture)在**商业版**计划中提供。'
+    a: 'InterMind**从设计上就注重隐私**。所有数据都在您选择的**隐私区域**内处理和存储——_欧盟_、_美国_或_亚洲_。我们遵守[**GDPR**](https://gdpr.eu)、[**CCPA**](https://oag.ca.gov/privacy/ccpa)和阿联酋PDPL，**绝不使用您的内容**进行训练或第三方访问。高级[隐私区域控制](./product/overview/privacy-architecture)在**商业版**计划中提供。'
   },
   {
-    q: '我可以在购买计划前试用InterMind吗？',
+    q: '我可以在购买计划之前试用InterMind吗？',
     a: '当然可以。*免费基础*计划让您完全访问核心功能，包含**25次免费会议**——包括**同声传译**和**会议搜索**。无需信用卡。随时升级。'
   },
   {
@@ -326,7 +326,7 @@ isHome: true
       { text: '关于我们', link: './resources/company/about' },
       { text: '团队', link: './resources/company/team' },
       // { text: 'Careers', link: './resources/company/careers' },
-      { text: '联系我们', link: './resources/company/contacts' }
+      { text: '联系方式', link: './resources/company/contacts' }
     ]
   },
 ]" />

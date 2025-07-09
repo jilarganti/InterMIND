@@ -4,23 +4,25 @@
 
 InterMind ist eine Multi-User-Videokonferenzplattform mit **sofortiger bidirektionaler Übersetzung**. Jeder Teilnehmer kann sprechen und andere in **seiner Muttersprache** hören, wodurch der Effekt natürlicher Kommunikation ohne Sprachbarrieren entsteht.
 
-![](/interpretating.svg)
-
 ## So funktioniert es:
+
+:::details Diagramm des KI-Übersetzungsprozesses anzeigen
+![](/interpretating.svg)
+:::
 
 ### 1. **Spracherkennung (Speech-to-Text)**
 
 - Streaming-Erkennung mit Transformer-Modellen
 - Verarbeitung von Rauschen und Hintergrundgeräuschen
 - Unterstützung für Fachterminologie und Jargon
-- Erkennungsgenauigkeit: **95-98%** für wichtige Sprachen
+- Erkennungsgenauigkeit: **95-98%** für Hauptsprachen
 
-### 2. **Textverarbeitung (Textbereinigung & Semantische Analyse)**
+### 2. **Textnachbearbeitung (Textbereinigung & semantische Analyse)**
 
 - **Entfernung von Sprachfehlern**: Eliminierung von "äh", "ähm", Wiederholungen, Stottern
 - **Korrektur von Erkennungsfehlern**: kontextbasierte Korrektur
-- **Zeichensetzung und Strukturierung**: automatische Platzierung von Satzzeichen
-- **Extraktion der Kernbedeutung**: Identifizierung von Haupt- und Nebengedanken
+- **Zeichensetzung und Strukturierung**: automatische Zeichensetzung
+- **Extraktion der Kernbedeutung**: Identifikation von Haupt- und Nebengedanken
 - **Äußerungssegmentierung**: Aufteilung in logische Blöcke für präzise Übersetzung
 - **Kontextuelle Analyse**: Verknüpfung mit vorherigen Bemerkungen und dem Gesamtthema
 
@@ -46,7 +48,7 @@ All dies geschieht mit **Latenz unter 3 Sekunden** — entspricht der Geschwindi
 
 - **Rauschfilterung**: automatische Entfernung von Husten, Lachen, Hintergrundgesprächen
 - **Intelligente Zeichensetzung**: Erkennung von intonatorischen Pausen und logischen Betonungen
-- **Fehlerkorrektur**: Behebung von Tippfehlern und Erkennungsungenauigkeiten in Echtzeit
+- **Fehlerkorrektur**: Behebung von Tippfehlern und Erkennungsungenauigkeiten im laufenden Betrieb
 - **Semantische Komprimierung**: Bedeutungserhaltung bei gleichzeitiger Redundanzentfernung
 
 ### Für Unternehmen:

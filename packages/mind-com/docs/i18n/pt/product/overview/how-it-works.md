@@ -1,12 +1,14 @@
 # Como funciona a tradução em tempo real com IA
 
-## Fale e Escute em Seu Idioma
+## Fale e escute em seu idioma
 
-InterMind é uma plataforma de videoconferência multiusuário com **tradução bidirecional instantânea**. Cada participante pode falar e ouvir os outros em **sua língua nativa**, criando o efeito de comunicação natural sem barreiras linguísticas.
-
-![](/interpretating.svg)
+InterMind é uma plataforma de videoconferência multiusuário com **tradução bidirecional instantânea**. Cada participante pode falar e ouvir os outros em **seu idioma nativo**, criando o efeito de comunicação natural sem barreiras linguísticas.
 
 ## Como funciona:
+
+:::details Mostrar diagrama do processo de tradução por IA
+![](/interpretating.svg)
+:::
 
 ### 1. **Reconhecimento de Fala (Speech-to-Text)**
 
@@ -17,7 +19,7 @@ InterMind é uma plataforma de videoconferência multiusuário com **tradução 
 
 ### 2. **Pós-processamento de Texto (Limpeza de Texto e Análise Semântica)**
 
-- **Remoção de vícios de linguagem**: eliminação de "ãh", "hum", repetições, gagueira
+- **Remoção de vícios de linguagem**: eliminação de "uh", "um", repetições, gagueira
 - **Correção de erros de reconhecimento**: correção baseada em contexto
 - **Pontuação e estruturação**: colocação automática de pontuação
 - **Extração de significado principal**: identificação de pensamentos principais e secundários
@@ -54,7 +56,7 @@ Tudo isso acontece com **latência inferior a 3 segundos** — correspondendo à
 - **Equipes globais**: eliminação de barreiras linguísticas em equipes internacionais
 - **Reuniões com clientes**: comunicação direta com clientes sem serviços de intérprete
 - **Treinamentos e apresentações**: entrega simultânea de conteúdo em múltiplos idiomas
-- **Economia de custos**: redução de custos com intérpretes em até **80%**
+- **Economia de custos**: redução dos custos de intérpretes em até **80%**
 
 ### Para Usuários:
 
@@ -74,7 +76,7 @@ Tudo isso acontece com **latência inferior a 3 segundos** — correspondendo à
 
 ### Qualidade da Tradução:
 
-- **Precisão**: 94-97% de correção para conversas de negócios
+- **Precisão**: 94-97% de correção para conversas empresariais
 - **Contexto**: compreensão do contexto durante toda a reunião
 - **Terminologia**: dicionários adaptativos para cada indústria
 - **Feedback**: sistema de avaliação de qualidade pelo usuário
