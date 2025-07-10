@@ -7,10 +7,10 @@ export const config = {
   languages: {
     ar: { code: "ar", name: "Gulf Arab & MSA" },
     zh: { code: "zh", name: "Mandarin" },
-    es: { code: "es", name: "Spanish" },
+    es: { code: "es", name: "Spanish (México)" },
     hi: { code: "hi", name: "Hindi" },
     ja: { code: "ja", name: "Japanese" },
-    pt: { code: "pt", name: "Brazilian Portuguese" },
+    pt: { code: "pt", name: "Portuguese (Brazil)" },
     ru: { code: "ru", name: "Russian" },
     de: { code: "de", name: "German" },
     fr: { code: "fr", name: "French" },

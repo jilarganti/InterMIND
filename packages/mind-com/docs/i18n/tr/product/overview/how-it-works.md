@@ -1,14 +1,15 @@
 # Yapay zeka gerçek zamanlı çevirisi nasıl çalışır
 
-## Kendi dilinizde konuşun ve dinleyin
+## Kendi Dilinizde Konuşun ve Dinleyin
 
 InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcılı bir video konferans platformudur. Her katılımcı **kendi ana dilinde** konuşabilir ve diğerlerini duyabilir, böylece dil engellerinin olmadığı doğal iletişim etkisi yaratılır.
 
 ## Nasıl çalışır:
 
-:::details AI çeviri sürecinin diyagramını göster
+<!-- :::details Show diagram of AI translation process
+::: -->
+
 ![](/interpretating.svg)
-:::
 
 ### 1. **Konuşma Tanıma (Konuşmadan Metne)**
 
@@ -19,24 +20,24 @@ InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcıl
 
 ### 2. **Metin Son İşleme (Metin Temizleme ve Anlamsal Analiz)**
 
-- **Konuşma artıklarının kaldırılması**: "ee", "şey", tekrarlar, kekelemeler
+- **Konuşma artıklarını kaldırma**: "ee", "şey", tekrarlar, kekelemeler
 - **Tanıma hatası düzeltme**: bağlam tabanlı düzeltme
 - **Noktalama ve yapılandırma**: otomatik noktalama yerleştirme
 - **Ana anlam çıkarma**: birincil ve ikincil düşüncelerin belirlenmesi
-- **Söylem segmentasyonu**: doğru çeviri için mantıksal bloklara ayırma
+- **Söylem segmentasyonu**: doğru çeviri için mantıklı bloklara ayırma
 - **Bağlamsal analiz**: önceki açıklamalar ve genel konu ile bağlantı kurma
 
-### 3. **Sinirsel Çeviri (Sinirsel Çeviri)**
+### 3. **Sinir Ağı Çevirisi**
 
 - Anlam korunarak bağlama bağlı çeviri
-- Deyimler, metaforlar ve kültürel referansların anlaşılması
+- Deyimler, metaforlar ve kültürel referansları anlama
 - Konuşma tarzı uyarlaması (resmi/gayri resmi)
-- Söylemlerin duygusal renginin korunması
+- Söylemlerin duygusal rengini koruma
 
 ### 4. **Konuşma Sentezi (Metinden Konuşmaya)**
 
 - Doğal tonlama ve konuşma ritmi
-- Orijinalin duraklamaları ve vurgularının korunması
+- Orijinalin duraklamalarını ve vurgularını koruma
 - Erkek/kadın ses seçimi
 - Hız ve ton ayarlaması
 
@@ -83,7 +84,7 @@ Tüm bunlar **3 saniyenin altında gecikme** ile gerçekleşir — profesyonel s
 
 > [!info] Teknik Mimari
 >
-> Tüm ses/video yönlendirmesi, şunları sağlamak için şirket içinde geliştirilen özel Mind API'miz aracılığıyla işlenir:
+> Tüm ses/video yönlendirmesi, şunları sağlamak için şirket içinde geliştirilen özel Mind API'miz aracılığıyla gerçekleştirilir:
 >
 > - **Performans**: 1000+ paralel akış işleme
 > - **Veri egemenliği**: seçilen bölgede depolama

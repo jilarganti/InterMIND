@@ -28,11 +28,11 @@ interface LocaleSpecificConfig {
 
 export const locales: Record<string, LocaleSpecificConfig> = {
   root: { name: "English", label: "English", lang: "en-US", ...en },
-  es: { name: "Spanish", label: "Español", lang: "es-ES", ...es },
+  es: { name: "Spanish (México)", label: "Español (México)", lang: "es-MX", ...es },
   zh: { name: "Chinese (Simplified)", label: "中文", lang: "zh-CN", ...zh },
   de: { name: "German", label: "Deutsch", lang: "de-DE", ...de },
   fr: { name: "French", label: "Français", lang: "fr-FR", ...fr },
-  pt: { name: "Portuguese (Brazil)", label: "Português", lang: "pt-BR", ...pt },
+  pt: { name: "Portuguese (Brazil)", label: "Português (Brasil)", lang: "pt-BR", ...pt },
   ja: { name: "Japanese", label: "日本語", lang: "ja-JP", ...ja },
   ar: { name: "Arabic (Gulf)", label: "اَلْعَرَبِيَّةُ", lang: "ar-AE", ...ar },
   hi: { name: "Hindi", label: "हिन्दी", lang: "hi-IN", ...hi },

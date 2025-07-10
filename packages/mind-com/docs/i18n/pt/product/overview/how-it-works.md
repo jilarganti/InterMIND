@@ -1,39 +1,40 @@
 # Como funciona a tradução em tempo real com IA
 
-## Fale e escute em seu idioma
+## Fale e Escute em Seu Idioma
 
-InterMind é uma plataforma de videoconferência multiusuário com **tradução bidirecional instantânea**. Cada participante pode falar e ouvir os outros em **seu idioma nativo**, criando o efeito de comunicação natural sem barreiras linguísticas.
+InterMind é uma plataforma de videoconferência multiusuário com **tradução bidirecional instantânea**. Cada participante pode falar e ouvir os outros em **sua língua nativa**, criando o efeito de comunicação natural sem barreiras linguísticas.
 
 ## Como funciona:
 
-:::details Mostrar diagrama do processo de tradução por IA
-![](/interpretating.svg)
-:::
+<!-- :::details Show diagram of AI translation process
+::: -->
 
-### 1. **Reconhecimento de Fala (Speech-to-Text)**
+![](/interpretating.svg)
+
+### 1. **Reconhecimento de fala (Speech-to-Text)**
 
 - Reconhecimento em streaming usando modelos transformer
 - Processamento de ruído e sons de fundo
 - Suporte para terminologia técnica e jargões
 - Precisão do reconhecimento: **95-98%** para idiomas principais
 
-### 2. **Pós-processamento de Texto (Limpeza de Texto e Análise Semântica)**
+### 2. **Pós-processamento de texto (Limpeza de texto e análise semântica)**
 
-- **Remoção de vícios de linguagem**: eliminação de "uh", "um", repetições, gagueira
+- **Remoção de vícios de linguagem**: eliminação de "ãh", "hum", repetições, gagueira
 - **Correção de erros de reconhecimento**: correção baseada em contexto
 - **Pontuação e estruturação**: colocação automática de pontuação
 - **Extração de significado principal**: identificação de pensamentos principais e secundários
 - **Segmentação de enunciados**: divisão em blocos lógicos para tradução precisa
 - **Análise contextual**: vinculação com observações anteriores e tópico geral
 
-### 3. **Tradução Neural (Neural Translation)**
+### 3. **Tradução neural**
 
 - Tradução dependente de contexto com preservação de significado
 - Compreensão de expressões idiomáticas, metáforas e referências culturais
 - Adaptação do estilo de fala (formal/informal)
 - Preservação da coloração emocional dos enunciados
 
-### 4. **Síntese de Fala (Text-to-Speech)**
+### 4. **Síntese de fala (Text-to-Speech)**
 
 - Entonação natural e ritmo de fala
 - Preservação de pausas e acentos do original
@@ -56,7 +57,7 @@ Tudo isso acontece com **latência inferior a 3 segundos** — correspondendo à
 - **Equipes globais**: eliminação de barreiras linguísticas em equipes internacionais
 - **Reuniões com clientes**: comunicação direta com clientes sem serviços de intérprete
 - **Treinamentos e apresentações**: entrega simultânea de conteúdo em múltiplos idiomas
-- **Economia de custos**: redução dos custos de intérpretes em até **80%**
+- **Economia de custos**: redução de custos com intérpretes em até **80%**
 
 ### Para Usuários:
 
@@ -76,7 +77,7 @@ Tudo isso acontece com **latência inferior a 3 segundos** — correspondendo à
 
 ### Qualidade da Tradução:
 
-- **Precisão**: 94-97% de correção para conversas empresariais
+- **Precisão**: 94-97% de correção para conversas de negócios
 - **Contexto**: compreensão do contexto durante toda a reunião
 - **Terminologia**: dicionários adaptativos para cada indústria
 - **Feedback**: sistema de avaliação de qualidade pelo usuário

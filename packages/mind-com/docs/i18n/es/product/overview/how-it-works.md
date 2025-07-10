@@ -6,9 +6,10 @@ InterMind es una plataforma de videoconferencias multiusuario con **traducción 
 
 ## Cómo funciona:
 
-:::details Mostrar diagrama del proceso de traducción con IA
+<!-- :::details Show diagram of AI translation process
+::: -->
+
 ![](/interpretating.svg)
-:::
 
 ### 1. **Reconocimiento de voz (Speech-to-Text)**
 
@@ -17,7 +18,7 @@ InterMind es una plataforma de videoconferencias multiusuario con **traducción 
 - Soporte para terminología técnica y jerga
 - Precisión de reconocimiento: **95-98%** para idiomas principales
 
-### 2. **Postprocesamiento de texto (Limpieza de texto y análisis semántico)**
+### 2. **Postprocesamiento de texto (limpieza de texto y análisis semántico)**
 
 - **Eliminación de muletillas**: eliminación de "eh", "mm", repeticiones, tartamudeo
 - **Corrección de errores de reconocimiento**: corrección basada en contexto
@@ -26,7 +27,7 @@ InterMind es una plataforma de videoconferencias multiusuario con **traducción 
 - **Segmentación de enunciados**: división en bloques lógicos para traducción precisa
 - **Análisis contextual**: vinculación con comentarios previos y tema general
 
-### 3. **Traducción neuronal (Neural Translation)**
+### 3. **Traducción neuronal**
 
 - Traducción dependiente del contexto con preservación del significado
 - Comprensión de modismos, metáforas y referencias culturales
@@ -79,7 +80,7 @@ Todo esto ocurre con **latencia menor a 3 segundos** — igualando la velocidad 
 - **Precisión**: 94-97% de exactitud para conversaciones de negocios
 - **Contexto**: comprensión del contexto durante toda la reunión
 - **Terminología**: diccionarios adaptativos para cada industria
-- **Retroalimentación**: sistema de calificación de calidad por usuarios
+- **Retroalimentación**: sistema de calificación de calidad por parte del usuario
 
 > [!info] Arquitectura técnica
 >

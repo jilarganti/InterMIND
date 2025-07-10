@@ -6,9 +6,10 @@ InterMind ist eine Multi-User-Videokonferenzplattform mit **sofortiger bidirekti
 
 ## So funktioniert es:
 
-:::details Diagramm des KI-Übersetzungsprozesses anzeigen
+<!-- :::details Show diagram of AI translation process
+::: -->
+
 ![](/interpretating.svg)
-:::
 
 ### 1. **Spracherkennung (Speech-to-Text)**
 
@@ -21,12 +22,12 @@ InterMind ist eine Multi-User-Videokonferenzplattform mit **sofortiger bidirekti
 
 - **Entfernung von Sprachfehlern**: Eliminierung von "äh", "ähm", Wiederholungen, Stottern
 - **Korrektur von Erkennungsfehlern**: kontextbasierte Korrektur
-- **Zeichensetzung und Strukturierung**: automatische Zeichensetzung
+- **Zeichensetzung und Strukturierung**: automatische Platzierung von Satzzeichen
 - **Extraktion der Kernbedeutung**: Identifikation von Haupt- und Nebengedanken
 - **Äußerungssegmentierung**: Aufteilung in logische Blöcke für präzise Übersetzung
 - **Kontextuelle Analyse**: Verknüpfung mit vorherigen Bemerkungen und dem Gesamtthema
 
-### 3. **Neuronale Übersetzung (Neural Translation)**
+### 3. **Neuronale Übersetzung**
 
 - Kontextabhängige Übersetzung mit Bedeutungserhaltung
 - Verständnis von Redewendungen, Metaphern und kulturellen Bezügen
@@ -48,7 +49,7 @@ All dies geschieht mit **Latenz unter 3 Sekunden** — entspricht der Geschwindi
 
 - **Rauschfilterung**: automatische Entfernung von Husten, Lachen, Hintergrundgesprächen
 - **Intelligente Zeichensetzung**: Erkennung von intonatorischen Pausen und logischen Betonungen
-- **Fehlerkorrektur**: Behebung von Tippfehlern und Erkennungsungenauigkeiten im laufenden Betrieb
+- **Fehlerkorrektur**: Behebung von Tippfehlern und Erkennungsungenauigkeiten in Echtzeit
 - **Semantische Komprimierung**: Bedeutungserhaltung bei gleichzeitiger Redundanzentfernung
 
 ### Für Unternehmen:

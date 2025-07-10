@@ -1,9 +1,9 @@
 ---
 layout: home
 hero:
-  name: "测试"
+  name: ТЕСТ
   actions:
     - theme: brand
-      text: "测试 1"
+      text: Тест 1
       link: https://mind.com/?gclid=TEST-123&utm_source=google_ads&utm_medium=cpc&utm_campaign=test-campaign
 ---
