@@ -13,7 +13,7 @@ Crear una cuenta se puede lograr a través de tres métodos: utilizando tus cuen
    - Texto 'O iniciar sesión con', seguido de los campos de Correo Electrónico y Contraseña para iniciar sesión, si ya tienes una cuenta
    - Texto '¿No tienes una cuenta?', seguido de un enlace 'Registrarse', que te permite registrarte usando tu dirección de correo electrónico externa
 
-### Registrarse con cuenta de Google
+### Registrarse con Cuenta de Google
 
 Este método es recomendable para un acceso eficiente a través de una cuenta de Google, facilitando la sincronización perfecta con Google Calendar. La experiencia más efectiva se puede lograr utilizando el navegador Google Chrome.
 
@@ -26,7 +26,7 @@ Este método es recomendable para un acceso eficiente a través de una cuenta de
 
 4. Serás dirigido a tu página principal de InterMIND; no es necesaria ninguna configuración adicional
 
-### Registrarse con cuenta de Microsoft
+### Registrarse con Cuenta de Microsoft
 
 Este método es recomendable para obtener acceso rápido usando una cuenta de Microsoft. La experiencia óptima se puede lograr utilizando el navegador Microsoft Edge.
 
@@ -39,12 +39,12 @@ Este método es recomendable para obtener acceso rápido usando una cuenta de Mi
 
 4. Serás dirigido a tu página principal de InterMIND; no es necesaria ninguna configuración adicional
 
-### Registrarse con una dirección de correo electrónico
+### Registrarse con una Dirección de Correo Electrónico
 
 Usa este método si no tienes una cuenta de Google o prefieres registrarte con un correo electrónico separado.
 
 1. Haz clic en el enlace **Registrarse** junto al texto "¿No tienes una cuenta?" debajo de los campos de inicio de sesión
-2. Serás dirigido al formulario de Registro, que incluye los siguientes campos obligatorios:
+2. Serás dirigido al formulario de Registro, que incluye los siguientes campos requeridos:
    - **Correo Electrónico**
    - **Contraseña**
      - Un mínimo de 8 caracteres
@@ -55,12 +55,12 @@ Usa este método si no tienes una cuenta de Google o prefieres registrarte con u
    - **Apellido**
 
 > [!TIP]
-> Para garantizar la seguridad óptima de la cuenta, por favor crea una contraseña que cumpla con los requisitos complejos listados arriba.
+> Para asegurar una seguridad óptima de la cuenta, por favor crea una contraseña que cumpla con los requisitos complejos listados arriba.
 
 3. Después de completar el formulario, haz clic en el botón **Registrar**
 4. Después de registrarte exitosamente, recibirás un mensaje de verificación por correo electrónico en tu bandeja de entrada. Una vez verificado, puedes iniciar sesión usando tu correo electrónico y contraseña para acceder a las funciones de InterMIND
 
-### Contraseña olvidada
+### Contraseña Olvidada
 
 Si olvidaste tu contraseña, sigue estos pasos:
 
@@ -114,39 +114,39 @@ Si creaste tu cuenta usando una dirección de correo electrónico externa:
 > [!WARNING]
 > Selecciona "Recordarme" solo en dispositivos de confianza para prevenir acceso no autorizado.
 
-## Perfil de Usuario
+## Perfil de usuario
 
-La página de Perfil de Usuario en InterMIND ofrece a los usuarios la oportunidad de ver y personalizar su configuración personal, gestionar las preferencias del dispositivo, establecer opciones de comunicación y ejecutar acciones esenciales de la cuenta, incluyendo la eliminación de la cuenta.
+La página de Perfil de Usuario en InterMIND ofrece a los usuarios la oportunidad de ver y personalizar su configuración personal, administrar las preferencias del dispositivo, establecer opciones de comunicación y ejecutar acciones esenciales de la cuenta, incluyendo la eliminación de la cuenta.
 
-### Acceder a la página de Perfil de Usuario
+### Acceder a la página de perfil de usuario
 
 Los usuarios pueden acceder a su perfil a través de dos métodos:
 
-**Desde Cualquier Página:**
+**Desde cualquier página:**
 
-1. Haz clic en el icono de tu avatar de usuario ubicado en la esquina superior derecha de la página
+1. Haz clic en el ícono de tu avatar de usuario ubicado en la esquina superior derecha de la página
 2. Desde el menú desplegable, selecciona la opción **Perfil**
 
-**URL Directa:** Navega a: [https://intermind.com/profile](https://intermind.com/profile)
+**URL directa:** Navega a: [https://intermind.com/profile](https://intermind.com/profile)
 
-### Resumen del Perfil
+### Resumen del perfil
 
 La página de perfil está organizada en cuatro pestañas principales:
 
 #### Perfil
 
-**Información del Usuario**
+**Información del usuario**
 
-- Muestra el avatar del usuario, nombre para mostrar (ej., John Smith) y dirección de correo electrónico registrada
-- El nombre para mostrar se puede editar usando el icono del lápiz
+- Muestra el avatar del usuario, nombre para mostrar (ej., Juan Pérez) y dirección de correo electrónico registrada
+- El nombre para mostrar se puede editar usando el ícono de lápiz
 
-**Plan Actual**
+**Plan actual**
 
 - Muestra el tipo de suscripción activa (ej., Básico, Pro) y su período de validez
-- Los usuarios Básicos ven un botón **Actualizar Plan**
-- Los usuarios Pro ven un botón **Cancelar Suscripción**
+- Los usuarios básicos ven un botón **Actualizar plan**
+- Los usuarios Pro ven un botón **Cancelar suscripción**
 
-**Preferencias de Comunicación**
+**Preferencias de comunicación**
 
 - **Boletín**: Recibir actualizaciones sobre nuevas funciones y mejoras
 - **Promociones**: Recibir ofertas especiales y contenido promocional
@@ -158,34 +158,34 @@ La página de perfil está organizada en cuatro pestañas principales:
 
 Accesible a través de la pestaña Facturación en la barra lateral izquierda.
 
-**Uso de Cuota**
+**Uso de cuota**
 Muestra los límites de uso y consumo de las funciones principales:
 
-- **Almacenamiento de Archivos**: 0.00 GB / 30 GB (o 2 TB para usuarios Pro)
+- **Almacenamiento de archivos**: 0.00 GB / 30 GB (o 2 TB para usuarios Pro)
 - **Reuniones**: 0 / 25 (o Ilimitado para usuarios Pro)
-- **Participantes en Línea**: Hasta 100 (o 150 para usuarios Pro)
-- Columnas **Inicio del Período** y **Fin del Período**
+- **Participantes en línea**: Hasta 100 (o 150 para usuarios Pro)
+- Columnas **Inicio del período** y **Fin del período**
 
 **Facturas**
 Muestra una lista de facturas emitidas con:
 
-- Número de Factura
+- Número de factura
 - Fecha
-- Cantidad
-- Estado del Pago (ej., Pagado)
+- Monto
+- Estado del pago (ej., Pagado)
 
 > [!TIP]
-> Las facturas se pueden descargar para informes o registros.
+> Las facturas se pueden descargar para reportes o registros.
 
 **Pagos**
 Muestra las transacciones de pago que incluyen:
 
-- ID de Pago
+- ID de pago
 - Fecha
-- Cantidad
+- Monto
 - Estado (ej., Exitoso)
 
-Esta sección asegura total transparencia y trazabilidad para los usuarios de pago.
+Esta sección garantiza total transparencia y trazabilidad para los usuarios de pago.
 
 > [!INFO]
 > Las secciones de Facturas y Pagos pueden estar vacías si no han ocurrido transacciones.
@@ -200,19 +200,19 @@ Seleccionar micrófono, altavoz y cámara, alternar desenfoque de fondo.
 - **Micrófono**: Seleccionar dispositivo de entrada preferido
 - **Altavoz**: Seleccionar dispositivo de salida preferido
 - **Cámara**: Elegir dispositivo de video activo
-- **Desenfoque de Fondo**: Habilitar o deshabilitar el enmascaramiento visual del fondo
+- **Desenfoque de fondo**: Habilitar o deshabilitar el enmascaramiento visual del fondo
 
 **Traducción**
 Elegir idioma de traducción predeterminado y ajustar el volumen de voz original.
 
-- **Idioma de Destino**: Seleccionar salida de traducción predeterminada e idioma de la interfaz
-- **Volumen Original**: Ajustar el volumen de voz de fondo mientras se reproduce el audio traducido
+- **Idioma de destino**: Seleccionar salida de traducción predeterminada e idioma de la interfaz
+- **Volumen original**: Ajustar el volumen de voz de fondo mientras se reproduce el audio traducido
 
 **Otros**
 Establecer diseño predeterminado (ej., barra lateral), proveedor de asistente y opción de salida automática cuando esté solo.
 
-- **Diseño**: Elegir diseño de pantalla (ej., Barra Lateral, Cuadrícula)
-- **Salir de la Llamada Automáticamente Cuando Esté Solo**: Habilitar/deshabilitar desconexión automática
+- **Diseño**: Elegir diseño de pantalla (ej., Barra lateral, Cuadrícula)
+- **Salir de la llamada automáticamente cuando esté solo**: Habilitar/deshabilitar desconexión automática
 
 > [!TIP]
 > Los cambios se guardan automáticamente y se aplicarán a todas las reuniones futuras.
@@ -221,9 +221,9 @@ Establecer diseño predeterminado (ej., barra lateral), proveedor de asistente y
 
 Accesible a través de la pestaña Avanzado en la barra lateral izquierda. Esta sección proporciona acciones de cuenta irreversibles.
 
-**Eliminar Cuenta**
+**Eliminar cuenta**
 
-1. Haz clic en el botón **Eliminar Cuenta**
+1. Haz clic en el botón **Eliminar cuenta**
 2. Confirma la solicitud (nota: esta acción es irreversible)
 3. Tus datos, historial y preferencias serán borrados permanentemente
 

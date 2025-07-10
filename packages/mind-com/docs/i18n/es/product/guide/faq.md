@@ -13,7 +13,7 @@ Sí, puedes registrarte o iniciar sesión fácilmente usando tus cuentas de Goog
 ## Reuniones
 
 **¿Cómo creo una reunión?**
-Haz clic en **Nueva Reunión** desde la página principal. Luego puedes elegir comenzar instantáneamente, programar una reunión en Google Calendar, o crear un enlace de reunión para usar más tarde.
+Haz clic en **Nueva Reunión** desde la página principal. Luego puedes elegir iniciar instantáneamente, programar una reunión en Google Calendar, o crear un enlace de reunión para usar más tarde.
 
 **¿Se pueden grabar las reuniones?**
 Sí, los Anfitriones y Moderadores pueden iniciar y terminar las grabaciones. Todos los participantes recibirán una notificación cuando comience una grabación.
@@ -53,11 +53,11 @@ Haz clic en el botón **Levantar la mano** en la barra de herramientas inferior.
 
 ## Configuración
 
-**¿Cómo selecciono un micrófono o cámara específicos?**
+**¿Cómo selecciono un micrófono o cámara específica?**
 Ve al menú de Configuración y elige entre los dispositivos disponibles.
 
 **¿Cómo difumino mi fondo?**
-En Configuración, activa la opción **Difuminado de fondo**. Si tu video está habilitado, verás un icono superpuesto para habilitar o deshabilitar el Difuminado de fondo.
+En Configuración, activa la opción **Difuminar fondo**. Si tu video está habilitado, verás un ícono superpuesto para habilitar o deshabilitar Difuminar fondo.
 
 **¿Puedo guardar las preferencias de diseño o idioma?**
 Sí, estas preferencias se guardan en tu perfil y se aplicarán a futuras reuniones.
@@ -67,7 +67,7 @@ Sí, estas preferencias se guardan en tu perfil y se aplicarán a futuras reunio
 **¿Qué dispositivos son compatibles?**
 InterMIND funciona en escritorio (Windows/macOS) y móvil (iOS/Android) a través de cualquier navegador moderno.
 
-**¿Cuál es el mejor navegador?**
+**¿Cuál navegador es mejor?**
 Chrome, Firefox, Safari, Edge y Opera son totalmente compatibles.
 
 ## Historial

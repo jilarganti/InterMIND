@@ -15,15 +15,15 @@
 ### Comunicación del Mercado México → Estados Unidos
 
 **1. como hablar ingles reuniones negocios**
-_"cómo hablar inglés reuniones de negocios"_
+_"cómo hablar inglés en reuniones de negocios"_
 
-- **Dolor:** CEO mexicano pierde clientes estadounidenses debido a barreras idiomáticas
+- **Dolor:** CEO mexicano pierde clientes estadounidenses debido a barreras del idioma
 - **Solución:** Habla español de forma nativa, los estadounidenses escuchan inglés perfecto
 - **Volumen de Búsqueda:** Alta intención, enfocado en B2B
 - **Estimación CPC:** $8-15 (software empresarial)
 
 **2. software traducir español ingles video llamadas**
-_"software traducir español inglés videollamadas"_
+_"software para traducir español inglés en videollamadas"_
 
 - **Dolor:** Gerente de exportación no puede realizar demostraciones de productos para compradores estadounidenses
 - **Solución:** Presenta en español, los clientes entienden en inglés
@@ -35,7 +35,7 @@ _"software traducir español inglés videollamadas"_
 **3. 如何用中文与美国客户开会**
 _"cómo reunirse con clientes estadounidenses en chino"_
 
-- **Dolor:** Fabricante chino pierde contratos importantes debido a la brecha idiomática
+- **Dolor:** Fabricante chino pierde contratos importantes debido a la brecha del idioma
 - **Solución:** Explica procesos de producción en chino, los estadounidenses entienden instantáneamente
 - **Plataforma:** Baidu Ads (80% de participación de búsqueda en China)
 - **Regulatorio:** Cumple con requisitos de soberanía de datos
@@ -43,7 +43,7 @@ _"cómo reunirse con clientes estadounidenses en chino"_
 **4. 中文英文实时翻译商务会议**
 _"traducción en tiempo real chino inglés reuniones de negocios"_
 
-- **Dolor:** Especificaciones técnicas perdidas en traducción → errores costosos
+- **Dolor:** Especificaciones técnicas se pierden en la traducción → errores costosos
 - **Solución:** Ingeniero explica detalles en chino, especificaciones transmitidas con precisión
 - **Tamaño del Mercado:** $2.4B mercado de traducción B2B en China
 - **Tasa de Crecimiento:** 35% interanual (adopción de IA)
@@ -55,7 +55,7 @@ _"traducción alemán inglés reuniones de negocios"_
 
 - **Dolor:** Empresas automotrices alemanas dependen de intérpretes costosos para expansión en Asia
 - **Solución:** CTO discute requisitos de ingeniería en alemán directamente
-- **Contexto del Mercado:** €890B exportaciones automotrices necesitan puente idiomático
+- **Contexto del Mercado:** €890B exportaciones automotrices necesitan puente de idiomas
 - **Estacionalidad:** Pico Q1-Q2 (ciclos de planificación)
 
 **6. wie spreche ich chinesisch lieferanten**
@@ -106,7 +106,7 @@ _"software reunión internacional español"_
 
 ### Estructura de campañas
 
-**Campaña 1: Corredor comercial México-EE.UU.**
+**Campaña 1: Corredor comercial México-Estados Unidos**
 
 - **Palabras clave:** 1-2
 - **Geografía:** México (centros manufactureros: Tijuana, Juárez, Guadalajara)
@@ -147,7 +147,7 @@ _"software reunión internacional español"_
 - **Estrategia de dispositivos:** Optimizado para móviles (70% búsquedas móviles)
 - **Pago:** JCB, transferencias bancarias locales
 
-**Campaña 5: Expansión UE España**
+**Campaña 5: Expansión España UE**
 
 - **Palabras clave:** 9-10
 - **Geografía:** Madrid, Barcelona, Valencia
@@ -183,7 +183,7 @@ _"software reunión internacional español"_
 
 **Optimización de Quality Score:**
 
-- **Velocidad de página de destino:** <3 segundos (crítico para mercados móviles)
+- **Velocidad de página de destino:** <3 segundos (crítico para mercados móviles primero)
 - **Coincidencia de idioma:** Alineación perfecta palabra clave-anuncio-página de destino
 - **Relevancia cultural:** Prácticas comerciales locales, métricas de éxito
 - **Experiencia móvil:** Diseño responsivo, métodos de pago locales
@@ -198,7 +198,7 @@ _"software reunión internacional español"_
 **Inteligencia competitiva:**
 
 - **Monitorear:** Expansión de Google Meet, Zoom, Microsoft Teams
-- **Oportunidad:** Cuando competidores añaden funciones básicas de traducción
+- **Oportunidad:** Cuando competidores agregan funciones básicas de traducción
 - **Diferenciación:** Interpretación IA en tiempo real vs subtítulos básicos
 - **Precios:** Posicionar como premium pero rentable vs intérpretes humanos
 
@@ -210,7 +210,7 @@ _"software reunión internacional español"_
 - **Tamaño promedio de trato:** $200/mes
 - **Tasa de conversión:** 2.5% (alta intención)
 - **Período de recuperación:** 8 meses
-- **Ratio LTV/CAC:** 4.2:1
+- **Relación LTV/CAC:** 4.2:1
 
 **Mercado chino:**
 
@@ -218,7 +218,7 @@ _"software reunión internacional español"_
 - **Tamaño promedio de trato:** $500/mes (empresarial)
 - **Tasa de conversión:** 1.8% (ciclo de ventas más largo)
 - **Período de recuperación:** 12 meses
-- **Ratio LTV/CAC:** 5.1:1
+- **Relación LTV/CAC:** 5.1:1
 
 **Métricas clave de éxito:**
 
@@ -232,7 +232,7 @@ _"software reunión internacional español"_
 
 - **Q1:** Aumento de presupuesto (temporada de planificación empresarial)
 - **Q4:** Reducir mercados no estadounidenses (desaceleración navideña)
-- **Ferias comerciales:** Campañas intensivas durante eventos industriales importantes
-- **Ciclos económicos:** Ajustar mensajería durante períodos de incertidumbre
+- **Ferias comerciales:** Campañas de impulso durante eventos importantes de la industria
+- **Ciclos económicos:** Ajustar mensajes durante períodos de incertidumbre
 
 Esta estrategia transforma InterMind de una herramienta de traducción en una **plataforma global de habilitación empresarial** — vendiendo el sueño de hablar tu idioma nativo a todo el mundo.

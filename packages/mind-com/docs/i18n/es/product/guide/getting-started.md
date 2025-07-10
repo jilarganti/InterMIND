@@ -2,7 +2,7 @@
 
 InterMIND es una plataforma avanzada de videoconferencias impulsada por IA diseñada para facilitar la comunicación fluida entre varios idiomas, dispositivos y equipos. Esta guía tiene como objetivo proporcionarte una comprensión integral de cómo utilizar eficazmente todas las funciones de InterMIND — desde unirte a tu primera reunión hasta configurar herramientas de IA y resolver problemas técnicos.
 
-Ya seas un usuario novato que busca orientación detallada o un participante experimentado que supervisa reuniones complejas, esta guía consolida toda la información necesaria en una ubicación accesible.
+Ya seas un usuario principiante que busca orientación detallada o un participante experimentado que supervisa reuniones complejas, esta guía consolida toda la información necesaria en una ubicación accesible.
 
 Dentro de esta guía, descubrirás:
 
@@ -16,10 +16,10 @@ Comencemos — el futuro de las reuniones inteligentes está listo para comenzar
 
 ## Lista de verificación de inicio rápido
 
-Si eres nuevo en InterMIND, sigue esta simple lista de verificación para comenzar tu experiencia:
+Si eres nuevo en InterMIND, sigue esta sencilla lista de verificación para comenzar tu experiencia:
 
 1. Visita https://intermind.com
-2. Haz clic en Iniciar Sesión y elige Google / Microsoft / Email
+2. Haz clic en Iniciar Sesión y elige Google / Microsoft / Correo electrónico
 3. Cuando se te solicite, permite el acceso a tu micrófono y cámara
 4. Haz clic en Nueva Reunión y selecciona Iniciar una Reunión Instantánea
 5. Comparte el enlace de la reunión con los participantes
@@ -32,9 +32,9 @@ Si eres nuevo en InterMIND, sigue esta simple lista de verificación para comenz
 
 ## Idiomas compatibles
 
-InterMIND es una plataforma multilingüe diseñada para admitir una variedad de idiomas en su interfaz de usuario, traductor de voz y asistente de IA. Los usuarios pueden modificar la configuración de idioma a través de varios métodos:
+InterMIND es una plataforma multilingüe diseñada para acomodar una variedad de idiomas para su interfaz de usuario, traductor de voz y asistente de IA. Los usuarios pueden modificar la configuración de idioma a través de varios métodos:
 
-- El selector de idioma se encuentra en el encabezado de la página, junto al botón de inicio de sesión para usuarios no autorizados, o cerca del icono de avatar del usuario para usuarios autorizados
+- El selector de idioma se encuentra en el encabezado de la página, junto al botón de inicio de sesión para usuarios no autorizados, o cerca del ícono de avatar del usuario para usuarios autorizados
 - El selector de idioma que se encuentra en el pie de página junto al texto '© Mind, 2025.'
 - Además, los usuarios pueden cambiar el idioma a través de la opción 'Perfil de usuario > Configuración > Tu idioma', o durante una reunión navegando a 'Mostrar menú > Configuración > Configuración > Tu idioma'
 
@@ -65,10 +65,10 @@ InterMIND está meticulosamente diseñado para proporcionar accesibilidad y flex
 
 InterMIND está optimizado tanto para uso de escritorio como móvil, permitiendo a los usuarios unirse o organizar reuniones mientras están en movimiento.
 
-- Portátiles y tabletas Windows
-- Portátiles macOS
-- Teléfonos inteligentes y tabletas Android
-- Teléfonos inteligentes y tabletas iOS
+- Laptops y tablets con Windows
+- Laptops con macOS
+- Smartphones y tablets Android
+- Smartphones y tablets iOS
 
 Los usuarios pueden acceder a la plataforma directamente a través de su navegador sin necesidad de instalar ningún software.
 
@@ -77,14 +77,14 @@ Los usuarios pueden acceder a la plataforma directamente a través de su navegad
 1. Abre tu navegador web
 2. Visita https://intermind.com
 3. Inicia sesión o únete directamente a un enlace de reunión como invitado
-4. Concede permisos de cámara y micrófono cuando se solicite
+4. Otorga permisos de cámara y micrófono cuando se te solicite
 
 > [!WARNING]
 > Algunas funciones avanzadas, como compartir pantalla, pueden estar restringidas a ciertos navegadores debido a limitaciones del sistema.
 
 ### Compatibilidad de navegadores
 
-InterMIND es compatible con todos los principales navegadores modernos en todas las plataformas. No es necesario instalar ninguna extensión o complemento.
+InterMIND es compatible con todos los principales navegadores modernos en todas las plataformas. No es necesario instalar extensiones o complementos.
 
 #### Navegadores recomendados
 
@@ -97,7 +97,7 @@ InterMIND es compatible con todos los principales navegadores modernos en todas 
 **Soporte limitado o no recomendado:**
 
 - Internet Explorer no es compatible
-- Legacy Edge (no-Chromium) tiene funciones limitadas
+- Edge heredado (no-Chromium) tiene funciones limitadas
 
 #### Requisitos del navegador
 
@@ -106,12 +106,12 @@ InterMIND es compatible con todos los principales navegadores modernos en todas 
 
 #### Funciones principales
 
-Disponible en todos los navegadores:
+Disponibles en todos los navegadores:
 
 - Traductor de audio en línea
 - Asistente de voz
 - Asistente de IA
-- Mensajes en llamada
+- Mensajes durante la llamada
 - Grabación de pantalla
 - Compartir pantalla (solo navegadores de escritorio)
 - Opciones de diseño y visualización
@@ -123,7 +123,7 @@ Disponible en todos los navegadores:
 
 Para asegurar una experiencia fluida:
 
-- Usa una conexión a internet estable (Wi-Fi o Ethernet es preferible)
+- Usa una conexión a internet estable (se prefiere Wi-Fi o Ethernet)
 - Mantén una velocidad mínima de subida/descarga de 2 Mbps
   - Se recomienda 5+ Mbps para videos HD
 - Cierra pestañas no utilizadas y aplicaciones en segundo plano

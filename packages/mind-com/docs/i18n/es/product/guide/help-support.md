@@ -1,10 +1,10 @@
 # Ayuda y soporte
 
-Si tienes algún problema o deseas solicitar una nueva funcionalidad, no dudes en contactar directamente al equipo de InterMIND a través del formulario de comentarios integrado. Esta función es rápida y fácil de usar, lo que nos permite mejorar InterMIND para todos.
+Si enfrentas algún problema o tienes una solicitud de función, no dudes en contactar al equipo de InterMIND directamente a través del formulario de comentarios integrado. Esta función es rápida y fácil de usar, lo que nos permite mejorar InterMIND para todos.
 
 ## Para enviar comentarios:
 
-1. Haz clic en el botón **Enviar Comentarios** (generalmente se encuentra en la esquina inferior derecha o en el Mostrar Menú)
+1. Haz clic en el botón **Enviar Comentarios** (generalmente se encuentra en la esquina inferior derecha o en el Menú Mostrar)
 2. Elige una de las siguientes opciones:
    - **Reportar un Problema**: Describe lo que estabas tratando de hacer y qué salió mal
    - **Sugerir una Idea**: Comparte una solicitud de función o mejora que te gustaría ver

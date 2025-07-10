@@ -1,20 +1,20 @@
 # Historial de reuniones
 
-La página de Historial de reuniones funciona como un archivo personal para todas las reuniones que has organizado o a las que has asistido mientras estabas conectado. Ofrece acceso rápido a grabaciones, transcripciones, resúmenes generados por el Asistente de IA y enlaces de reuniones reutilizables, todo consolidado en una ubicación conveniente.
+La página de Historial de reuniones funciona como un archivo personal para todas las reuniones que has organizado o a las que has asistido mientras estás conectado. Ofrece acceso rápido a grabaciones, transcripciones, resúmenes generados por el Asistente de IA y enlaces de reuniones reutilizables, todo consolidado en una ubicación conveniente.
 
-## Acceder a la página del Historial de reuniones
+## Acceder a la página de Historial de reuniones
 
-Puedes acceder a la página del Historial de reuniones a través de uno de estos tres métodos convenientes:
+Puedes acceder a la página de Historial de reuniones a través de uno de estos tres métodos convenientes:
 
-- Haz clic en el enlace 'Historial' situado junto al icono 'Reportar un problema' en el menú del encabezado de la página
-- Alternativamente, haz clic en tu icono de avatar en la esquina superior derecha, y luego selecciona **Historial** del menú desplegable
+- Haz clic en el enlace 'Historial' ubicado junto al ícono 'Reportar un problema' en el menú del encabezado de la página
+- Alternativamente, haz clic en tu ícono de avatar en la esquina superior derecha, y luego selecciona **Historial** del menú desplegable
 - También puedes navegar directamente al siguiente enlace: [https://intermind.com/history](https://intermind.com/history)
 
 ## Lista de reuniones
 
 Cada entrada en tu historial de reuniones incluye:
 
-- **Fecha** (incluyendo Hora)
+- **Fecha** (incluyendo hora)
 - **ID de sala**
 - **Duración**
 - **# Pax (Participantes)**
@@ -27,11 +27,11 @@ Cada entrada en tu historial de reuniones incluye:
 
 ## Botones de búsqueda y acción
 
-Para facilitar la gestión eficiente de sus reuniones pasadas, la página de Historial incorpora:
+Para facilitar la gestión eficiente de tus reuniones pasadas, la página de Historial incorpora:
 
 ### Barra de búsqueda
 
-Esta función le permite encontrar reuniones por palabras clave en el Título o Transcripción, o por la Sala o Participante exacto. Los filtros se pueden combinar para obtener resultados más precisos.
+Esta función te permite encontrar reuniones por palabras clave en el Título o Transcripción, o por la Sala o Participante exacto. Los filtros se pueden combinar para obtener resultados más precisos.
 
 ### ID de sala
 
@@ -90,9 +90,9 @@ Esto permite a los usuarios obtener un resumen de la reunión del Asistente de I
 
 ## Control de acceso
 
-- Los anfitriones y moderadores tienen acceso completo a su propio historial de reuniones
+- Los anfitriones y moderadores tienen acceso completo al historial de sus propias reuniones
 - Los participantes registrados pueden acceder al historial de las reuniones a las que asistieron; sin embargo, no pueden eliminar el registro de la reunión
 - Los usuarios invitados y asistentes anónimos no tienen acceso a la página de historial ni a su contenido
 
 > [!TIP]
-> Utiliza la página de Historial de reuniones para reproducir discusiones clave, recuperar notas importantes y hacer seguimiento de elementos de acción usando resúmenes y transcripciones—convirtiéndola en una herramienta esencial para documentación de equipos, auditorías o flujos de trabajo de cumplimiento.
+> Utiliza la página de Historial de reuniones para reproducir discusiones clave, recuperar notas importantes y dar seguimiento a elementos de acción usando resúmenes y transcripciones—convirtiéndola en una herramienta esencial para documentación de equipos, auditorías o flujos de trabajo de cumplimiento.

@@ -9,11 +9,11 @@ El Anfitrión es responsable de iniciar la reunión y posee privilegios administ
 **Capacidades principales:**
 
 - Iniciar y finalizar reuniones
-- Silenciar cualquier participante
+- Silenciar a cualquier participante
 - Promover o degradar moderadores
 - Iniciar y detener grabaciones
   - Esto incluye cualquier grabación iniciada por el Moderador
-- Eliminar cualquier participante de la llamada
+- Remover a cualquier participante de la llamada
 - Admitir o denegar invitados
 - Acceder al historial de reuniones
 - Utilizar cualquier función de IA
@@ -23,18 +23,18 @@ El Anfitrión es responsable de iniciar la reunión y posee privilegios administ
 
 Los moderadores son designados por el Anfitrión para ayudar a gestionar la sesión de manera efectiva.
 
-**Habilidades clave:**
+**Habilidades principales:**
 
-- Silenciar cualquier participante
+- Silenciar a cualquier participante
 - Iniciar y detener grabaciones
   - Esto incluye cualquier grabación iniciada por el Anfitrión
 - Admitir o denegar invitados
-- Remover cualquier participante de la llamada, excepto al Anfitrión
+- Remover a cualquier participante de la llamada, excepto al Anfitrión
 - Usar el Traductor de Voz en Línea y cambiar idioma (para su propio audio)
 - Usar el Asistente de IA (para su propia vista)
 - Participar en el chat, levantar o bajar las manos
 - Acceder a transcripciones e historial de reuniones
-- Promover o degradar otros moderadores
+- Promover o degradar a otros moderadores
 
 ## Participante (Usuario Autorizado)
 
@@ -65,7 +65,7 @@ Los invitados son usuarios que se unen a la reunión sin iniciar sesión.
 > [!WARNING]
 > Los invitados no pueden gestionar otros participantes.
 
-## Tabla resumen de permisos de roles
+## Tabla resumen de permisos por rol
 
 | Función                        | Anfitrión | Moderador | Participante | Invitado |
 | ------------------------------ | --------- | --------- | ------------ | -------- |
@@ -75,14 +75,14 @@ Los invitados son usuarios que se unen a la reunión sin iniciar sesión.
 | Silenciar/Activar propio micrófono | ✅        | ✅        | ✅           | ✅       |
 | Activar/Desactivar propia cámara | ✅        | ✅        | ✅           | ✅       |
 | Iniciar/Detener grabación      | ✅        | ✅        | ❌           | ❌       |
-| Compartir pantalla (Escritorio) | ✅        | ✅        | ✅           | ✅       |
+| Compartir pantalla (escritorio) | ✅        | ✅        | ✅           | ✅       |
 | Usar asistente de IA           | ✅        | ✅        | ✅           | ❌       |
 | Usar traducción en línea       | ✅        | ✅        | ✅           | ✅       |
 | Cambiar idioma de traducción   | ✅        | ✅        | ✅           | ✅       |
-| Levantar / Bajar mano          | ✅/✅     | ✅/✅     | ✅/❌        | ✅/❌    |
+| Levantar / Bajar la mano       | ✅/✅     | ✅/✅     | ✅/❌        | ✅/❌    |
 | Cambiar diseño / Configuración | ✅        | ✅        | ✅           | ✅       |
 | Activar/Desactivar desenfoque de fondo | ✅        | ✅        | ✅           | ✅       |
-| Admitir/Denegar invitado       | ✅        | ✅        | ❌           | ❌       |
+| Admitir/Rechazar invitado      | ✅        | ✅        | ❌           | ❌       |
 | Acceder al historial de reuniones | ✅        | ✅        | ✅           | ❌       |
-| Eliminar participantes         | ✅        | ✅        | ❌           | ❌       |
+| Remover participantes          | ✅        | ✅        | ❌           | ❌       |
 | Promover/Degradar moderador    | ✅        | ✅        | ❌           | ❌       |

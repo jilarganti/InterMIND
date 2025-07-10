@@ -4,7 +4,7 @@ Al iniciar sesión en InterMIND, los usuarios pueden crear y programar reuniones
 
 ## Acceder a las opciones de reunión
 
-En la pantalla de inicio, localiza el prominente botón azul **Nueva reunión** situado en el centro de la página. Al hacer clic en este botón se desplegará un menú desplegable con tres opciones distintas:
+En la pantalla de inicio, localiza el botón azul prominente **Nueva reunión** situado en el centro de la página. Al hacer clic en este botón se desplegará un menú con tres opciones distintas:
 
 1. Crear una reunión para más tarde
 2. Iniciar una reunión instantánea
@@ -27,7 +27,7 @@ Esta opción permite a los usuarios generar un enlace de reunión reutilizable s
 
 ## Iniciar una reunión instantánea
 
-Esta opción permite a los usuarios iniciar una sesión de reunión en vivo inmediatamente.
+Esta opción permite a los usuarios iniciar una sesión de reunión en vivo de inmediato.
 
 **Pasos:**
 

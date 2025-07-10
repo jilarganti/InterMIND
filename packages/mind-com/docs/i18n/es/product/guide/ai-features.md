@@ -4,7 +4,7 @@ Esta sección describe las funcionalidades del Asistente de Voz (Jarvis), Traduc
 
 ## Traducción de Voz en Línea
 
-Esta funcionalidad proporciona traducciones en tiempo real para los participantes que la habiliten, asegurando que la experiencia permanezca sin afectar a otros asistentes en la reunión. Además, los usuarios poseen la flexibilidad de modificar el idioma de traducción en cualquier momento a través del panel de Configuración.
+Esta funcionalidad proporciona traducciones en tiempo real para los participantes que la habiliten, asegurando que la experiencia permanezca sin afectaciones para otros asistentes en la reunión. Además, los usuarios poseen la flexibilidad de modificar el idioma de traducción en cualquier momento a través del panel de Configuración.
 
 El traductor de voz se activa automáticamente al ingresar a una reunión; sin embargo, el proceso de traducción solo comenzará si los idiomas de interfaz y traducción de los participantes difieren. En casos donde todos los participantes hayan elegido el mismo idioma, no ocurrirá traducción alguna.
 
@@ -52,7 +52,7 @@ El Asistente de IA puede ayudar con:
 Los usuarios pueden utilizar comandos como:
 
 - "Resume los últimos 10 minutos"
-- "¿Qué dijo John sobre el presupuesto?"
+- "¿Qué dijo Juan sobre el presupuesto?"
 - "¿Cuáles son los principales elementos de acción de esta reunión?"
 - "¿Quién mencionó la fecha límite del proyecto?"
 

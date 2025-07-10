@@ -86,7 +86,7 @@ export const es = defineConfig({
       category: "¿Cuál es tu objetivo principal? *",
       categoryPlaceholder: "Elige lo que más te importa",
       message: "Hablemos de tus objetivos (opcional)",
-      messagePlaceholder: "Por favor proporciona cualquier detalle adicional (opcional)",
+      messagePlaceholder: "Por favor proporciona detalles adicionales (opcional)",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",

@@ -1,36 +1,34 @@
 ---
-# footer: false
-# sidebar: false
-# aside: false
-# next: false
-hideComponents:
-  - NavButton
-
-description: "¿Tiene preguntas sobre interpretación de reuniones con IA, colaboración multilingüe o implementación empresarial? Contacte con InterMind para discutir su caso de uso, integración o incorporación de equipo."
+description: "¿Quieres asociarte con InterMind, invertir o contactar a nuestro equipo ejecutivo? Usa este formulario para consultas comerciales, solicitudes de medios o asuntos legales."
 ---
 
-# 🤝 ¿Necesita reuniones multilingües instantáneas? Hablemos.
+# 🤝 ¿Quieres contactar a InterMind? Conectemos.
 
-Ya sea que esté explorando InterMind para su equipo global o buscando integrar interpretación en su producto — estaremos encantados de ayudar.
+Usa este formulario para contactar directamente a nuestro equipo corporativo —  
+para asociaciones, inversiones, medios, cumplimiento u otros asuntos relacionados con el negocio.
+
+Nos aseguraremos de que tu mensaje llegue a la persona correcta.
 
 <br>
 
 <ContactFormModalNav  
   formStyle="margin: 1rem auto;"  
-  categoryLabel="¿De qué le gustaría hablar?"  
-  categoryPlaceholderText="Elija su enfoque..."  
+  categoryLabel="¿Cuál es tu motivo para contactarnos?"  
+  categoryPlaceholderText="Elige tu tema..."  
   messageLabel="Mensaje (opcional)"  
-  messagePlaceholderText="Puede incluir su caso de uso, cronograma o cualquier otra cosa que desee compartir."  
-  buttonText="Contactar a nuestro equipo"  
+  messagePlaceholderText="Comparte cualquier contexto relevante, cronogramas o información que te gustaría que consideremos."  
+  buttonText="Enviar tu mensaje"  
   :services="[
-    'Quiero explorar casos de uso para mi equipo',
-    'Me gustaría solicitar una demostración',
-    'Busco opciones de implementación empresarial',
-    'Tengo preguntas sobre precios o características',
-    'Otro asunto'
+    'Quiero explorar una asociación',
+    'Estoy interesado en invertir',
+    'Tengo una consulta de medios o relaciones públicas',
+    'Tengo un asunto legal o de cumplimiento',
+    'Quiero reportar abuso o mala conducta',
+    'Algo más'
   ]"
 />
 
 <br>
 
-> [!note] Normalmente respondemos dentro de un día hábil. Su solicitud será revisada por un humano real — no por un bot.
+> [!tip] ¿Necesitas ayuda relacionada con el producto?  
+> Visita nuestra [página de soporte](../help) para respuestas rápidas y asistencia del equipo de InterMind.

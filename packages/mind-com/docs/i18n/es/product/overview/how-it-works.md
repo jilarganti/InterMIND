@@ -15,15 +15,15 @@ InterMind es una plataforma de videoconferencias multiusuario con **traducción 
 
 - Reconocimiento en tiempo real usando modelos transformer
 - Procesamiento de ruido y sonidos de fondo
-- Soporte para terminología técnica y jerga
+- Soporte para terminología técnica y jerga especializada
 - Precisión de reconocimiento: **95-98%** para idiomas principales
 
-### 2. **Postprocesamiento de texto (limpieza de texto y análisis semántico)**
+### 2. **Postprocesamiento de texto (Limpieza de texto y análisis semántico)**
 
 - **Eliminación de muletillas**: eliminación de "eh", "mm", repeticiones, tartamudeo
 - **Corrección de errores de reconocimiento**: corrección basada en contexto
-- **Puntuación y estructuración**: colocación automática de puntuación
-- **Extracción de significado clave**: identificación de pensamientos principales y secundarios
+- **Puntuación y estructuración**: colocación automática de signos de puntuación
+- **Extracción de significado clave**: identificación de ideas principales y secundarias
 - **Segmentación de enunciados**: división en bloques lógicos para traducción precisa
 - **Análisis contextual**: vinculación con comentarios previos y tema general
 
@@ -36,7 +36,7 @@ InterMind es una plataforma de videoconferencias multiusuario con **traducción 
 
 ### 4. **Síntesis de voz (Text-to-Speech)**
 
-- Entonación natural y ritmo del habla
+- Entonación natural y ritmo de habla
 - Preservación de pausas y acentos del original
 - Selección de voz masculina/femenina
 - Ajuste de velocidad y tono
@@ -57,7 +57,7 @@ Todo esto ocurre con **latencia menor a 3 segundos** — igualando la velocidad 
 - **Equipos globales**: eliminación de barreras idiomáticas en equipos internacionales
 - **Reuniones con clientes**: comunicación directa con clientes sin servicios de intérprete
 - **Capacitación y presentaciones**: entrega simultánea de contenido en múltiples idiomas
-- **Ahorro de costos**: reducción de costos de intérpretes hasta un **80%**
+- **Ahorro de costos**: reducción de costos de intérpretes hasta en un **80%**
 
 ### Para usuarios:
 
@@ -94,11 +94,11 @@ Todo esto ocurre con **latencia menor a 3 segundos** — igualando la velocidad 
 ### Integración y compatibilidad:
 
 - **Web**: funciona en cualquier navegador moderno
-- **Escritorio**: instalación PWA simple para Windows/Mac/Linux
-- **Aplicaciones móviles**: instalación PWA simple para iOS/Android
+- **Escritorio**: instalación simple de PWA para Windows/Mac/Linux
+- **Aplicaciones móviles**: instalación simple de PWA para iOS/Android
 - **API**: integración en plataformas existentes (próximamente)
 - **Servicios populares**: Zoom, Teams, Google Meet (vía plugins) (próximamente)
 
 [^1]: La latencia estándar para traducción simultánea humana es de ~2–3 segundos.
 
-[^2]: Basado en el progreso actual en traducción con IA, esperamos que dentro de 2–3 años, los modelos superen consistentemente a los mejores traductores humanos — incluyendo áreas especializadas como derecho, finanzas, atención médica e ingeniería.
+[^2]: Basado en el progreso actual en traducción con IA, esperamos que dentro de 2–3 años, los modelos superen consistentemente a los mejores traductores humanos — incluyendo áreas especializadas como derecho, finanzas, salud e ingeniería.

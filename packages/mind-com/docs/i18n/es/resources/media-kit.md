@@ -1,22 +1,22 @@
-# Kit de Medios
+# Kit de medios
 
-¡Hola! Aquí hay una colección de recursos de marketing y pautas de identidad de InterMIND, incluyendo nuestro logo, contenido y marcas registradas.
+¡Hola! Aquí tienes una colección de recursos de marketing de InterMIND y directrices de identidad, incluyendo nuestro logo, contenido y marcas registradas.
 
-Para editar y descargar, haga clic derecho y seleccione Editar imagen
+Para editar y descargar, haz clic derecho y selecciona Editar imagen
 
 ## Metadata
 
 ### Title
 
-- Traducción simultánea de voz en videollamadas.
-- Traducción de voz en directo en videollamadas — **sin** retrasos, **sin** pérdida de negocios, **sin** barreras lingüísticas.
+- Traducción de voz en tiempo real en videollamadas.
+- Traducción de voz en vivo en videollamadas — **sin** retrasos, **sin** negocios perdidos, **sin** barreras idiomáticas.
 
 ### Description
 
-- Traducción de voz en directo en videollamadas para **equipos internacionales** donde las barreras lingüísticas causan **retrasos, pérdida de negocios o malentendidos costosos**.
-- InterMIND añade traducción de voz en tiempo real a cada videollamada, para que los equipos internacionales nunca pierdan negocios, tiempo o claridad debido a las barreras lingüísticas.
+- Traducción de voz en vivo en videollamadas para **equipos internacionales** donde las barreras idiomáticas causan **retrasos, negocios perdidos o malentendidos costosos**.
+- InterMIND añade traducción de voz en tiempo real a cada videollamada, para que los equipos internacionales nunca pierdan negocios, tiempo o claridad por las barreras idiomáticas.
 
-## Logotipo
+## Logo
 
 <br>
 <img src="/logo.png" class="transparency-grid" alt="logotipo" width="300" >
@@ -24,7 +24,7 @@ Para editar y descargar, haga clic derecho y seleccione Editar imagen
 <br>
 <img src="/logo.svg" class="transparency-grid" alt="logotipo" width="100">
 
-## Colores de Marca
+## Colores de marca
 
 <br>
 
@@ -32,7 +32,7 @@ Para editar y descargar, haga clic derecho y seleccione Editar imagen
 -webkit-linear-gradient(90deg, #994a11 0%, #cc833c 50%, #ffbb66 100%)
 ```
 
-## Imágenes Promocionales
+## Imágenes promocionales
 
 ### Interpretación simultánea
 

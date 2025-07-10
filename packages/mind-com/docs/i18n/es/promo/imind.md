@@ -1,12 +1,12 @@
 ---
 layout: home
 title: "Videollamadas reimaginadas — ahora en mind.com"
-description: "De iMind a InterMIND: videollamadas con voz como protagonista e interpretación con IA en tiempo real."
+description: "De iMind a InterMIND: videollamadas con voz prioritaria e interpretación con IA en tiempo real."
 ---
 
 <HeroSection
   title="Videollamadas reimaginadas <br>— ahora en **mind.com**"
-  text="De iMind a InterMIND: videollamadas con voz como protagonista y traducción de voz en vivo.">
+  text="De iMind a InterMIND: videollamadas con voz prioritaria y traducción de voz en vivo.">
 <AuthButton text="Comenzar ahora" buttonClass="brand"/>
 </HeroSection>
 
@@ -45,8 +45,8 @@ description: "De iMind a InterMIND: videollamadas con voz como protagonista e in
 
 <span id="3"></span>
 <FeatureBlock :card="{
-    title: 'Diseñado para reuniones serias — no solo para hablar',
-    details: 'InterMIND es una **plataforma de videollamadas de nivel profesional**, no un complemento ligero o plugin.',
+    title: 'Construido para reuniones serias — no solo para conversar',
+    details: 'InterMIND es una **plataforma de videollamadas de grado profesional**, no un complemento ligero o plugin.',
     items: [
       '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, listo para usar.',
     ],
@@ -63,7 +63,7 @@ description: "De iMind a InterMIND: videollamadas con voz como protagonista e in
   :card="{
     title: 'Privacidad donde importa',
     details:
-      'InterMIND está diseñado para conversaciones críticas de confianza — donde la privacidad y el control importan más.',
+      'InterMIND está construido para conversaciones críticas de confianza — donde la privacidad y el control importan más.',
     items: [
       '⚡︎ [Zonas de privacidad](../product/overview/privacy-architecture) — UE, EE.UU., Sudeste Asiático',
       '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'
@@ -78,13 +78,13 @@ description: "De iMind a InterMIND: videollamadas con voz como protagonista e in
 />
 
 > [!tip] ¿Para quién es esto?  
-> Diseñado para **equipos internacionales** donde las barreras del idioma causan **retrasos**, **negocios perdidos** o **malentendidos costosos**. [Saber más ...](../product/overview/markets)
+> Construido para **equipos internacionales** donde las barreras del idioma causan **retrasos**, **negocios perdidos** o **malentendidos costosos**. [Conoce más ...](../product/overview/markets)
 
 <br>
 
 <span id="Pricing"></span>
 
-## Precios claros y simples
+## Precios claros y sencillos
 
 Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 
@@ -154,7 +154,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Qué es un usuario con licencia y qué es un participante?',
-    a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **de forma gratuita**.'
+    a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **gratis**.'
   },
   {
     q: '¿Cuántas personas pueden usar una licencia de InterMind?',
@@ -174,7 +174,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
   },
   {
     q: '¿Puedo probar InterMind antes de comprar un plan?',
-    a: 'Absolutamente. El plan *Básico Gratuito* te da acceso completo a las funciones principales con **25 reuniones gratuitas** — incluyendo **interpretación simultánea** y **búsqueda de reuniones**. No se requiere tarjeta de crédito. Actualiza en cualquier momento.'
+    a: 'Por supuesto. El plan *Básico Gratuito* te da acceso completo a las funciones principales con **25 reuniones gratuitas** — incluyendo **interpretación simultánea** y **búsqueda de reuniones**. No se requiere tarjeta de crédito. Actualiza en cualquier momento.'
   },
   {
     q: '¿Qué pasa si necesito ayuda o soporte?',
@@ -209,7 +209,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     title: 'SOPORTE',
     links: [
       { text: 'Obtener soporte', link: '../resources/help' },
-      { text: 'FAQ', link: '#FAQ' },
+      { text: 'Preguntas frecuentes', link: '#FAQ' },
       { text: 'Estado del servicio', link: 'https://status.mind.com/' },
       { text: 'Política de privacidad', link: '../resources/company/Privacy-Policy' },
       { text: 'Guía legal de IA', link: '../resources/company/Legal-Regulations-for-AI-Services' },
@@ -221,7 +221,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     links: [
       // { text: 'Blog', link: './blog' },
       { text: 'Recursos de marca', link: '../resources/media-kit' },
-      { text: 'Documentación API IA / LLM', link: 'https://mind.com/llms-full.txt' },
+      { text: 'Documentación de API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
     ]
   },
   {
