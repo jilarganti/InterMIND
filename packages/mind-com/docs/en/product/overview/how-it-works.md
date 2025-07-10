@@ -6,9 +6,10 @@ InterMind is a multi-user video conferencing platform with **instant bidirection
 
 ## How it works:
 
-:::details Show diagram of AI translation process
+<!-- :::details Show diagram of AI translation process
+::: -->
+
 ![](/interpretating.svg)
-:::
 
 ### 1. **Speech Recognition (Speech-to-Text)**
 
@@ -26,7 +27,7 @@ InterMind is a multi-user video conferencing platform with **instant bidirection
 - **Utterance segmentation**: breaking into logical blocks for accurate translation
 - **Contextual analysis**: linking with previous remarks and overall topic
 
-### 3. **Neural Translation (Neural Translation)**
+### 3. **Neural Translation**
 
 - Context-dependent translation with meaning preservation
 - Understanding of idioms, metaphors, and cultural references
