@@ -9,7 +9,7 @@ const isProduction = process.env.VERCEL_ENV === "production"
 // Обновляем URL сайта документации
 const hostUrl = "https://mind.com"
 // const NOINDEX_PAGES = ["exp", "chat", "/company/", "promo/imind"]
-const NOINDEX_PAGES = ["exp", "chat"]
+const NOINDEX_PAGES = ["exp/", "chat"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
 // Список UTM-параметров для сохранения в параметрах страницы
 const UTM_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "campaign_id"]
@@ -58,24 +58,6 @@ export const shared = defineConfig({
 
     // canonical link
     // pageData.frontmatter.head.push(["link", { rel: "canonical", href: hostUrl + "/" + pagePath }])
-
-    // Сохраняем UTM-параметры в метаданных страницы
-    // Извлекаем параметры из URL текущего запроса (если он доступен)
-    // if (typeof window !== "undefined" && window.location.search) {
-    //   try {
-    //     const urlParams = new URLSearchParams(window.location.search)
-
-    //     // Сохраняем все UTM-параметры в params
-    //     UTM_PARAMS.forEach((param) => {
-    //       const value = urlParams.get(param)
-    //       if (value) {
-    //         pageData.params![param] = value
-    //       }
-    //     })
-    //   } catch (e) {
-    //     console.error("Error extracting query parameters:", e)
-    //   }
-    // }
   },
   markdown: {
     config: (md) => {
