@@ -28,7 +28,7 @@ interface LocaleSpecificConfig {
 
 export const locales: Record<string, LocaleSpecificConfig> = {
   root: { name: "English", label: "English", lang: "en-US", ...en },
-  es: { name: "Spanish (México)", label: "Español (México)", lang: "es-MX", ...es },
+  es: { name: "Spanish (Mexico)", label: "Español (México)", lang: "es-MX", ...es },
   zh: { name: "Chinese (Simplified)", label: "中文", lang: "zh-CN", ...zh },
   de: { name: "German", label: "Deutsch", lang: "de-DE", ...de },
   fr: { name: "French", label: "Français", lang: "fr-FR", ...fr },
