@@ -1,4 +1,4 @@
-# InterMind Executive Summary
+# InterMind Executive Summary <Badge type="warning" text="draft" />
 
 ## The Problem
 

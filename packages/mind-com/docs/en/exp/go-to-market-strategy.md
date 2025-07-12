@@ -1,4 +1,4 @@
-# Google Ads Keyword Strategy: Selling the Bridge, Not the Translator
+# Google Ads Keyword Strategy: Selling the Bridge, Not the Translator <Badge type="warning" text="draft" />
 
 ## CORE INSIGHT: Pain Points Target Non-English Speaking Markets
 

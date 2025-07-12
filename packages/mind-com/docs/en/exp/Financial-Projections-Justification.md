@@ -1,4 +1,4 @@
-# Financial Projections Justification (Yr 1–3)
+# Financial Projections Justification (Yr 1–3) <Badge type="warning" text="draft" />
 
 This document explains the assumptions behind InterMind's projected growth in users, revenue (ARR), and unit economics over the first three years.
 

@@ -1,4 +1,4 @@
-# InterMind Investor Pitch: Breaking the Language Barrier for Global Business
+# InterMind Investor Pitch: Breaking the Language Barrier for Global Business <Badge type="warning" text="draft" />
 
 ## Problem: Language Is Still a \$100B Barrier
 
