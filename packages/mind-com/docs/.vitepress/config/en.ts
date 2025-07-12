@@ -159,5 +159,6 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "Executive Summary", link: "/InterMind-Executive-Summary" },
     { text: "Go To Market Strategy", link: "/go-to-market-strategy" },
     { text: "Investor Pitch", link: "/InterMind-Investor-Pitch" },
+    { text: "Financial Projections Justification (Yr 1–3)", link: "/Financial-Projections-Justification" },
   ]
 }

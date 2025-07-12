@@ -10,8 +10,6 @@ Despite globalization and video conferencing tools, **language remains the singl
 
 **InterMind eliminates this friction** — not with subtitles or delayed translation, but through **real-time voice interpretation during video calls**.
 
----
-
 ## Solution: InterMind = Google Meet + AI Interpreter
 
 A professional-grade video platform that lets **every participant speak and hear in their own language** — instantly, accurately, and privately.
@@ -23,8 +21,6 @@ A professional-grade video platform that lets **every participant speak and hear
 - Secure global infrastructure with privacy zones (EU, US, Asia)
 - Enterprise-ready: 500+ participants, searchable transcripts, API integrations
 
----
-
 ## Market: Urgent Need in Global B2B Trade
 
 | Segment        | Countries          | Use Case                                 | Pain Point                          |
@@ -35,8 +31,6 @@ A professional-grade video platform that lets **every participant speak and hear
 | Enterprise HQs | US, UK, AU         | Global team meetings                     | Time lost switching languages       |
 
 Estimated TAM: **\$27B+** B2B communication enablement market (source: CSA Research, Gartner)
-
----
 
 ## How It Works (in 3 Seconds or Less)
 
@@ -50,8 +44,6 @@ Backed by a proprietary stack:
 - Latency: under 3 seconds
 - Accuracy: \~95% in 19 languages
 - Domain-specific adaptation (legal, technical, medical)
-
----
 
 ## Traction & Go-To-Market Strategy
 
@@ -75,8 +67,6 @@ Backed by a proprietary stack:
 - Pro: \$20/month/user
 - Business: Custom (privacy zones, priority support)
 
----
-
 ## Compliance & Privacy by Design
 
 - GDPR, CCPA, UAE PDPL compliant
@@ -85,8 +75,6 @@ Backed by a proprietary stack:
 - No AI training on client content
 
 InterMind is trusted by **enterprises where privacy is non-negotiable**.
-
----
 
 ## Why Invest Now
 
@@ -102,8 +90,6 @@ InterMind is trusted by **enterprises where privacy is non-negotiable**.
 - Proprietary tech, not wrappers around third-party APIs
 - Built-in differentiation: privacy, scalability, UX, latency
 
----
-
 ## Financial Projections (Yr 1–3)
 
 | Metric       | Year 1 | Year 2  | Year 3 |
@@ -116,15 +102,11 @@ InterMind is trusted by **enterprises where privacy is non-negotiable**.
 
 We are beginning go-to-market pilots in Mexico, Brazil, Turkey, Thailand, and Indonesia — targeting regions with high B2B trade volume and low English proficiency.
 
----
-
 ## Founding Team
 
 - **\[Name]** — CEO: ex-\[Big Tech], 10y+ in NLP
 - **\[Name]** — CTO: Built multilingual infrastructure at \[Company]
 - **\[Name]** — Growth: Former head of expansion at \[B2B SaaS Unicorn]
-
----
 
 ## Ask
 
