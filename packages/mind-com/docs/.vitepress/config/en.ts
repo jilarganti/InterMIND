@@ -30,38 +30,25 @@ export const en = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-      // {
-      //   text: "Company",
-      //   activeMatch: `${BASE_PATH}/company/`,
-      //   link: `${BASE_PATH}/company/about`,
-      // },
+
       {
         text: "Pricing",
-        // activeMatch: `${BASE_PATH}/company/`,
         link: `${BASE_PATH}/#Pricing`,
       },
       {
         text: "Resources",
         activeMatch: `${BASE_PATH}/product/`,
-        // items: [
-        //   {
-        //     text: "EXPLORE",
         items: [
-          // { text: "Pricing", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Testimonials", link: `${BASE_PATH}/#Testimonials` },
-          // { text: "Team", link: `${BASE_PATH}/resources/team` },
-          // { text: "Media Kit", link: `${BASE_PATH}/resources/media-kit` },
         ],
-        //   },
-        // ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      // [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
+      [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
     },
 
     footer: {
@@ -167,11 +154,10 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-// function sidebarResources(): DefaultTheme.SidebarItem[] {
-//   return [
-//     { text: "About", link: "/about" },
-//     { text: "Contacts", link: "/contacts" },
-//     { text: "Get Support", link: "/help" },
-//     { text: "Brand Assets", link: "/media-kit" },
-//   ]
-// }
+function sidebarExp(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "Executive Summary", link: "/InterMind-Executive-Summary" },
+    { text: "Go To Market Strategy", link: "/go-to-market-strategy" },
+    { text: "Investor Pitch", link: "/InterMind-Investor-Pitch" },
+  ]
+}
