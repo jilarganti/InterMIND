@@ -30,42 +30,29 @@ export const ko = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-      // {
-      //   text: "Company",
-      //   activeMatch: `${BASE_PATH}/company/`,
-      //   link: `${BASE_PATH}/company/about`,
-      // },
+
       {
         text: "가격",
-        // activeMatch: `${BASE_PATH}/company/`,
         link: `${BASE_PATH}/#Pricing`,
       },
       {
         text: "리소스",
         activeMatch: `${BASE_PATH}/product/`,
-        // items: [
-        //   {
-        //     text: "EXPLORE",
         items: [
-          // { text: "Pricing", link: `${BASE_PATH}/#Pricing` },
-          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
+          { text: "자주 묻는 질문", link: `${BASE_PATH}/#FAQ` },
           { text: "고객 후기", link: `${BASE_PATH}/#Testimonials` },
-          // { text: "Team", link: `${BASE_PATH}/resources/team` },
-          // { text: "Media Kit", link: `${BASE_PATH}/resources/media-kit` },
         ],
-        //   },
-        // ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      // [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
+      [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">개인정보 설정</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">개인정보 처리방침</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AI 서비스 법적 규정</a> | <a href="https://status.mind.com/">서비스 상태</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">개인정보 설정</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">개인정보 보호정책</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AI 서비스 법적 규정</a> | <a href="https://status.mind.com/">서비스 상태</a>`,
     },
 
     localization: {
@@ -99,7 +86,7 @@ export const ko = defineConfig({
       ],
 
       defaultButtonText: "메시지 보내기",
-      // defaultButtonText: "Get a free consultation",
+      // defaultButtonText: "무료 상담 받기",
     },
   } as DefaultTheme.Config,
 })
@@ -128,7 +115,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "사용자 역할", link: "guide/user-roles" },
         { text: "AI 기능", link: "guide/ai-features" },
         { text: "회의 기록", link: "guide/meeting-history" },
-        { text: "FAQ", link: "guide/faq" },
+        { text: "자주 묻는 질문", link: "guide/faq" },
         { text: "문제 해결", link: "guide/troubleshooting" },
         { text: "가격", link: "guide/pricing" },
         { text: "도움말 및 지원", link: "guide/help-support" },
@@ -144,7 +131,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "지원 받기", link: "/help" },
-        // { text: "How it Works", link: "overview/how-it-works" },
+        // { text: "작동 방식", link: "overview/how-it-works" },
       ],
     },
     {
@@ -152,7 +139,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "브랜드 자산", link: "/media-kit" },
-        // { text: "Account Management", link: "guide/account-management" },
+        // { text: "계정 관리", link: "guide/account-management" },
       ],
     },
     {
@@ -167,11 +154,11 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-// function sidebarResources(): DefaultTheme.SidebarItem[] {
-//   return [
-//     { text: "About", link: "/about" },
-//     { text: "Contacts", link: "/contacts" },
-//     { text: "Get Support", link: "/help" },
-//     { text: "Brand Assets", link: "/media-kit" },
-//   ]
-// }
+function sidebarExp(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "경영진 요약", link: "/InterMind-Executive-Summary" },
+    { text: "시장 진출 전략", link: "/go-to-market-strategy" },
+    { text: "투자자 피치", link: "/InterMind-Investor-Pitch" },
+    { text: "재무 예측 근거 (1-3년차)", link: "/Financial-Projections-Justification" },
+  ]
+}

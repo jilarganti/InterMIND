@@ -30,38 +30,25 @@ export const hi = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-      // {
-      //   text: "कंपनी",
-      //   activeMatch: `${BASE_PATH}/company/`,
-      //   link: `${BASE_PATH}/company/about`,
-      // },
+
       {
         text: "मूल्य निर्धारण",
-        // activeMatch: `${BASE_PATH}/company/`,
         link: `${BASE_PATH}/#Pricing`,
       },
       {
         text: "संसाधन",
         activeMatch: `${BASE_PATH}/product/`,
-        // items: [
-        //   {
-        //     text: "एक्सप्लोर",
         items: [
-          // { text: "मूल्य निर्धारण", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "प्रशंसापत्र", link: `${BASE_PATH}/#Testimonials` },
-          // { text: "टीम", link: `${BASE_PATH}/resources/team` },
-          // { text: "मीडिया किट", link: `${BASE_PATH}/resources/media-kit` },
         ],
-        //   },
-        // ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      // [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
+      [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
     },
 
     footer: {
@@ -82,12 +69,12 @@ export const hi = defineConfig({
       emailPlaceholder: "आपका ईमेल पता",
       webSite: "कंपनी वेबसाइट *",
       webSitePlaceholder: "जैसे https://companyname.com",
-      webSiteError: "कृपया वेबसाइट दर्ज करें",
+      webSiteError: "कृपया वेबसाइट नंबर दर्ज करें",
       category: "आपका मुख्य लक्ष्य क्या है? *",
-      categoryPlaceholder: "चुनें कि आपके लिए सबसे महत्वपूर्ण क्या है",
+      categoryPlaceholder: "चुनें कि क्या सबसे महत्वपूर्ण है",
       message: "आइए आपके लक्ष्यों पर चर्चा करें (वैकल्पिक)",
       messagePlaceholder: "कृपया कोई अतिरिक्त विवरण प्रदान करें (वैकल्पिक)",
-      submit: "अनुरोध भेजें",
+      submit: "अनुरोध सबमिट करें",
       sending: "भेजा जा रहा है...",
       successTitle: "धन्यवाद!",
       successMessage: "हमें आपका संदेश मिल गया है — हमारी टीम जल्द ही संपर्क करेगी।",
@@ -95,7 +82,7 @@ export const hi = defineConfig({
         "मीटिंग में भाषा की बाधाओं को समाप्त करें",
         "मीटिंग को खोजने योग्य और कार्यान्वित करने योग्य बनाएं",
         "अनुपालन और डेटा निवास सुनिश्चित करें (EU / US / Asia)",
-        "केवल एक्सप्लोर कर रहे हैं / अन्य",
+        "केवल खोज रहे हैं / अन्य",
       ],
 
       defaultButtonText: "हमें संदेश भेजें",
@@ -151,7 +138,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "संसाधन",
       collapsed: false,
       items: [
-        { text: "ब्रांड एसेट्स", link: "/media-kit" },
+        { text: "ब्रांड संपत्ति", link: "/media-kit" },
         // { text: "खाता प्रबंधन", link: "guide/account-management" },
       ],
     },
@@ -167,11 +154,11 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-// function sidebarResources(): DefaultTheme.SidebarItem[] {
-//   return [
-//     { text: "हमारे बारे में", link: "/about" },
-//     { text: "संपर्क", link: "/contacts" },
-//     { text: "समर्थन प्राप्त करें", link: "/help" },
-//     { text: "ब्रांड एसेट्स", link: "/media-kit" },
-//   ]
-// }
+function sidebarExp(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "कार्यकारी सारांश", link: "/InterMind-Executive-Summary" },
+    { text: "बाजार में जाने की रणनीति", link: "/go-to-market-strategy" },
+    { text: "निवेशक प्रस्तुति", link: "/InterMind-Investor-Pitch" },
+    { text: "वित्तीय अनुमान औचित्य (वर्ष 1–3)", link: "/Financial-Projections-Justification" },
+  ]
+}

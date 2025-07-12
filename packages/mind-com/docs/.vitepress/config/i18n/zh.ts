@@ -30,38 +30,25 @@ export const zh = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-      // {
-      //   text: "公司",
-      //   activeMatch: `${BASE_PATH}/company/`,
-      //   link: `${BASE_PATH}/company/about`,
-      // },
+
       {
         text: "定价",
-        // activeMatch: `${BASE_PATH}/company/`,
         link: `${BASE_PATH}/#Pricing`,
       },
       {
         text: "资源",
         activeMatch: `${BASE_PATH}/product/`,
-        // items: [
-        //   {
-        //     text: "探索",
         items: [
-          // { text: "定价", link: `${BASE_PATH}/#Pricing` },
           { text: "常见问题", link: `${BASE_PATH}/#FAQ` },
-          { text: "用户评价", link: `${BASE_PATH}/#Testimonials` },
-          // { text: "团队", link: `${BASE_PATH}/resources/team` },
-          // { text: "媒体资料包", link: `${BASE_PATH}/resources/media-kit` },
+          { text: "客户评价", link: `${BASE_PATH}/#Testimonials` },
         ],
-        //   },
-        // ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      // [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
+      [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
     },
 
     footer: {
@@ -95,10 +82,10 @@ export const zh = defineConfig({
         "消除会议中的语言障碍",
         "让会议可搜索且可操作",
         "确保合规性和数据驻留（欧盟/美国/亚洲）",
-        "只是探索/其他",
+        "仅仅探索/其他",
       ],
 
-      defaultButtonText: "给我们发消息",
+      defaultButtonText: "给我们发送消息",
       // defaultButtonText: "获取免费咨询",
     },
   } as DefaultTheme.Config,
@@ -167,11 +154,11 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-// function sidebarResources(): DefaultTheme.SidebarItem[] {
-//   return [
-//     { text: "关于我们", link: "/about" },
-//     { text: "联系方式", link: "/contacts" },
-//     { text: "获取支持", link: "/help" },
-//     { text: "品牌资产", link: "/media-kit" },
-//   ]
-// }
+function sidebarExp(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "执行摘要", link: "/InterMind-Executive-Summary" },
+    { text: "市场进入策略", link: "/go-to-market-strategy" },
+    { text: "投资者推介", link: "/InterMind-Investor-Pitch" },
+    { text: "财务预测说明（第1-3年）", link: "/Financial-Projections-Justification" },
+  ]
+}

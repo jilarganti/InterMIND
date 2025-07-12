@@ -30,38 +30,25 @@ export const fr = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-      // {
-      //   text: "Entreprise",
-      //   activeMatch: `${BASE_PATH}/company/`,
-      //   link: `${BASE_PATH}/company/about`,
-      // },
+
       {
         text: "Tarifs",
-        // activeMatch: `${BASE_PATH}/company/`,
         link: `${BASE_PATH}/#Pricing`,
       },
       {
         text: "Ressources",
         activeMatch: `${BASE_PATH}/product/`,
-        // items: [
-        //   {
-        //     text: "EXPLORER",
         items: [
-          // { text: "Tarifs", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Témoignages", link: `${BASE_PATH}/#Testimonials` },
-          // { text: "Équipe", link: `${BASE_PATH}/resources/team` },
-          // { text: "Kit média", link: `${BASE_PATH}/resources/media-kit` },
         ],
-        //   },
-        // ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      // [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
+      [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
     },
 
     footer: {
@@ -94,7 +81,7 @@ export const fr = defineConfig({
       defaultCategories: [
         "Éliminer les barrières linguistiques dans les réunions",
         "Rendre les réunions consultables et exploitables",
-        "Assurer la conformité et la résidence des données (UE / US / Asie)",
+        "Assurer la conformité et la résidence des données (UE / États-Unis / Asie)",
         "Juste en exploration / Autre",
       ],
 
@@ -167,11 +154,11 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-// function sidebarResources(): DefaultTheme.SidebarItem[] {
-//   return [
-//     { text: "À propos", link: "/about" },
-//     { text: "Contacts", link: "/contacts" },
-//     { text: "Obtenir de l'aide", link: "/help" },
-//     { text: "Ressources de marque", link: "/media-kit" },
-//   ]
-// }
+function sidebarExp(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "Résumé exécutif", link: "/InterMind-Executive-Summary" },
+    { text: "Stratégie de mise sur le marché", link: "/go-to-market-strategy" },
+    { text: "Présentation investisseur", link: "/InterMind-Investor-Pitch" },
+    { text: "Justification des projections financières (Année 1–3)", link: "/Financial-Projections-Justification" },
+  ]
+}

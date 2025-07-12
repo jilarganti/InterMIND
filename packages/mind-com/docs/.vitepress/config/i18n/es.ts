@@ -30,38 +30,25 @@ export const es = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-      // {
-      //   text: "Empresa",
-      //   activeMatch: `${BASE_PATH}/company/`,
-      //   link: `${BASE_PATH}/company/about`,
-      // },
+
       {
         text: "Precios",
-        // activeMatch: `${BASE_PATH}/company/`,
         link: `${BASE_PATH}/#Pricing`,
       },
       {
         text: "Recursos",
         activeMatch: `${BASE_PATH}/product/`,
-        // items: [
-        //   {
-        //     text: "EXPLORAR",
         items: [
-          // { text: "Precios", link: `${BASE_PATH}/#Pricing` },
           { text: "Preguntas frecuentes", link: `${BASE_PATH}/#FAQ` },
           { text: "Testimonios", link: `${BASE_PATH}/#Testimonials` },
-          // { text: "Equipo", link: `${BASE_PATH}/resources/team` },
-          // { text: "Kit de medios", link: `${BASE_PATH}/resources/media-kit` },
         ],
-        //   },
-        // ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      // [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
+      [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
     },
 
     footer: {
@@ -167,11 +154,11 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-// function sidebarResources(): DefaultTheme.SidebarItem[] {
-//   return [
-//     { text: "Acerca de", link: "/about" },
-//     { text: "Contactos", link: "/contacts" },
-//     { text: "Obtener soporte", link: "/help" },
-//     { text: "Recursos de marca", link: "/media-kit" },
-//   ]
-// }
+function sidebarExp(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "Resumen ejecutivo", link: "/InterMind-Executive-Summary" },
+    { text: "Estrategia de salida al mercado", link: "/go-to-market-strategy" },
+    { text: "Presentación para inversionistas", link: "/InterMind-Investor-Pitch" },
+    { text: "Justificación de proyecciones financieras (Año 1–3)", link: "/Financial-Projections-Justification" },
+  ]
+}

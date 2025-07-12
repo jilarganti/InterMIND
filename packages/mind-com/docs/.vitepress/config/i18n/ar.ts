@@ -30,38 +30,25 @@ export const ar = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-      // {
-      //   text: "الشركة",
-      //   activeMatch: `${BASE_PATH}/company/`,
-      //   link: `${BASE_PATH}/company/about`,
-      // },
+
       {
         text: "الأسعار",
-        // activeMatch: `${BASE_PATH}/company/`,
         link: `${BASE_PATH}/#Pricing`,
       },
       {
         text: "الموارد",
         activeMatch: `${BASE_PATH}/product/`,
-        // items: [
-        //   {
-        //     text: "استكشف",
         items: [
-          // { text: "الأسعار", link: `${BASE_PATH}/#Pricing` },
           { text: "الأسئلة الشائعة", link: `${BASE_PATH}/#FAQ` },
           { text: "شهادات العملاء", link: `${BASE_PATH}/#Testimonials` },
-          // { text: "الفريق", link: `${BASE_PATH}/resources/team` },
-          // { text: "حقيبة الإعلام", link: `${BASE_PATH}/resources/media-kit` },
         ],
-        //   },
-        // ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      // [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
+      [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
     },
 
     footer: {
@@ -167,11 +154,11 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-// function sidebarResources(): DefaultTheme.SidebarItem[] {
-//   return [
-//     { text: "حول", link: "/about" },
-//     { text: "جهات الاتصال", link: "/contacts" },
-//     { text: "الحصول على الدعم", link: "/help" },
-//     { text: "أصول العلامة التجارية", link: "/media-kit" },
-//   ]
-// }
+function sidebarExp(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "الملخص التنفيذي", link: "/InterMind-Executive-Summary" },
+    { text: "استراتيجية دخول السوق", link: "/go-to-market-strategy" },
+    { text: "عرض المستثمرين", link: "/InterMind-Investor-Pitch" },
+    { text: "مبررات التوقعات المالية (السنة 1-3)", link: "/Financial-Projections-Justification" },
+  ]
+}

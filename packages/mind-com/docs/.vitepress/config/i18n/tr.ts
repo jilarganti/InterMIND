@@ -30,38 +30,25 @@ export const tr = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-      // {
-      //   text: "Şirket",
-      //   activeMatch: `${BASE_PATH}/company/`,
-      //   link: `${BASE_PATH}/company/about`,
-      // },
+
       {
         text: "Fiyatlandırma",
-        // activeMatch: `${BASE_PATH}/company/`,
         link: `${BASE_PATH}/#Pricing`,
       },
       {
         text: "Kaynaklar",
         activeMatch: `${BASE_PATH}/product/`,
-        // items: [
-        //   {
-        //     text: "KEŞFET",
         items: [
-          // { text: "Fiyatlandırma", link: `${BASE_PATH}/#Pricing` },
           { text: "SSS", link: `${BASE_PATH}/#FAQ` },
           { text: "Referanslar", link: `${BASE_PATH}/#Testimonials` },
-          // { text: "Ekip", link: `${BASE_PATH}/resources/team` },
-          // { text: "Medya Kiti", link: `${BASE_PATH}/resources/media-kit` },
         ],
-        //   },
-        // ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      // [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
+      [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
     },
 
     footer: {
@@ -159,7 +146,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "ŞİRKET",
       collapsed: false,
       items: [
-        { text: "Hakkımızda", link: "/company/about" },
+        { text: "Hakkında", link: "/company/about" },
         { text: "Ekip", link: "/company/team" },
         { text: "İletişim", link: "/company/contacts" },
       ],
@@ -167,11 +154,11 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-// function sidebarResources(): DefaultTheme.SidebarItem[] {
-//   return [
-//     { text: "Hakkımızda", link: "/about" },
-//     { text: "İletişim", link: "/contacts" },
-//     { text: "Destek al", link: "/help" },
-//     { text: "Marka varlıkları", link: "/media-kit" },
-//   ]
-// }
+function sidebarExp(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "Yönetici özeti", link: "/InterMind-Executive-Summary" },
+    { text: "Pazara giriş stratejisi", link: "/go-to-market-strategy" },
+    { text: "Yatırımcı sunumu", link: "/InterMind-Investor-Pitch" },
+    { text: "Mali projeksiyonlar gerekçesi (1-3. yıl)", link: "/Financial-Projections-Justification" },
+  ]
+}

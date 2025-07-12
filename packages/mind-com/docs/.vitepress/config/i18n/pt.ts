@@ -12,7 +12,7 @@ export const pt = defineConfig({
         content: "InterMIND oferece tradução de fala em tempo real para videochamadas — eliminando barreiras linguísticas instantaneamente. Desenvolvido pela equipe mind.com.",
       },
     ],
-    ["meta", { property: "og:title", content: "InterMIND | Tradução de Fala em Tempo Real para Equipes Globais" }],
+    ["meta", { property: "og:title", content: "InterMIND | Tradução de fala em tempo real para equipes globais" }],
     [
       "meta",
       {
@@ -30,56 +30,43 @@ export const pt = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-      // {
-      //   text: "Empresa",
-      //   activeMatch: `${BASE_PATH}/company/`,
-      //   link: `${BASE_PATH}/company/about`,
-      // },
+
       {
         text: "Preços",
-        // activeMatch: `${BASE_PATH}/company/`,
         link: `${BASE_PATH}/#Pricing`,
       },
       {
         text: "Recursos",
         activeMatch: `${BASE_PATH}/product/`,
-        // items: [
-        //   {
-        //     text: "EXPLORAR",
         items: [
-          // { text: "Preços", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Depoimentos", link: `${BASE_PATH}/#Testimonials` },
-          // { text: "Equipe", link: `${BASE_PATH}/resources/team` },
-          // { text: "Kit de Mídia", link: `${BASE_PATH}/resources/media-kit` },
         ],
-        //   },
-        // ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      // [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
+      [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configurações de Privacidade</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Política de Privacidade</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Regulamentações Legais para Serviços de IA</a> | <a href="https://status.mind.com/">Status do serviço</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configurações de privacidade</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Política de privacidade</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Regulamentações legais para serviços de IA</a> | <a href="https://status.mind.com/">Status do serviço</a>`,
     },
 
     localization: {
       placeholder4SearchInput: "Pergunte qualquer coisa...",
       placeholder4ChatFooter: "Pergunte qualquer coisa...",
       placeholder4ChatList: "Digite o tópico do chat...",
-      buttonLabel4NavButton: "Chat especializado instantâneo",
+      buttonLabel4NavButton: "Chat instantâneo com especialista",
       buttonLabel4AuthButton: "Entrar",
     },
     contact_form: {
       name: "Nome *",
       namePlaceholder: "seu nome",
-      email: "Email *",
-      emailPlaceholder: "seu endereço de email",
+      email: "E-mail *",
+      emailPlaceholder: "seu endereço de e-mail",
       webSite: "Site da empresa *",
       webSitePlaceholder: "ex. https://nomedaempresa.com",
       webSiteError: "Por favor, insira o site",
@@ -124,8 +111,8 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Primeiros passos", link: "guide/getting-started" },
         { text: "Gerenciamento de conta", link: "guide/account-management" },
         { text: "Criando reuniões", link: "guide/creating-meetings" },
-        { text: "Interface da reunião", link: "guide/meeting-interface" },
-        { text: "Funções do usuário", link: "guide/user-roles" },
+        { text: "Interface de reunião", link: "guide/meeting-interface" },
+        { text: "Funções de usuário", link: "guide/user-roles" },
         { text: "Recursos de IA", link: "guide/ai-features" },
         { text: "Histórico de reuniões", link: "guide/meeting-history" },
         { text: "FAQ", link: "guide/faq" },
@@ -167,11 +154,11 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-// function sidebarResources(): DefaultTheme.SidebarItem[] {
-//   return [
-//     { text: "Sobre", link: "/about" },
-//     { text: "Contatos", link: "/contacts" },
-//     { text: "Obter suporte", link: "/help" },
-//     { text: "Recursos da marca", link: "/media-kit" },
-//   ]
-// }
+function sidebarExp(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "Resumo executivo", link: "/InterMind-Executive-Summary" },
+    { text: "Estratégia de entrada no mercado", link: "/go-to-market-strategy" },
+    { text: "Apresentação para investidores", link: "/InterMind-Investor-Pitch" },
+    { text: "Justificativa de projeções financeiras (Anos 1–3)", link: "/Financial-Projections-Justification" },
+  ]
+}

@@ -30,42 +30,29 @@ export const ru = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-      // {
-      //   text: "Компания",
-      //   activeMatch: `${BASE_PATH}/company/`,
-      //   link: `${BASE_PATH}/company/about`,
-      // },
+
       {
         text: "Цены",
-        // activeMatch: `${BASE_PATH}/company/`,
         link: `${BASE_PATH}/#Pricing`,
       },
       {
         text: "Ресурсы",
         activeMatch: `${BASE_PATH}/product/`,
-        // items: [
-        //   {
-        //     text: "ИЗУЧИТЬ",
         items: [
-          // { text: "Цены", link: `${BASE_PATH}/#Pricing` },
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Отзывы", link: `${BASE_PATH}/#Testimonials` },
-          // { text: "Команда", link: `${BASE_PATH}/resources/team` },
-          // { text: "Медиа-кит", link: `${BASE_PATH}/resources/media-kit` },
         ],
-        //   },
-        // ],
       },
     ],
 
     sidebar: {
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      // [`${BASE_PATH}/company/`]: { base: `${BASE_PATH}/company/`, items: sidebarCompany() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
+      [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Правовые нормы для ИИ-сервисов</a> | <a href="https://status.mind.com/">Статус сервиса</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Правовые нормы для AI-сервисов</a> | <a href="https://status.mind.com/">Статус сервиса</a>`,
     },
 
     localization: {
@@ -126,7 +113,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Создание встреч", link: "guide/creating-meetings" },
         { text: "Интерфейс встречи", link: "guide/meeting-interface" },
         { text: "Роли пользователей", link: "guide/user-roles" },
-        { text: "ИИ-функции", link: "guide/ai-features" },
+        { text: "AI функции", link: "guide/ai-features" },
         { text: "История встреч", link: "guide/meeting-history" },
         { text: "FAQ", link: "guide/faq" },
         { text: "Устранение неполадок", link: "guide/troubleshooting" },
@@ -167,11 +154,11 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-// function sidebarResources(): DefaultTheme.SidebarItem[] {
-//   return [
-//     { text: "О нас", link: "/about" },
-//     { text: "Контакты", link: "/contacts" },
-//     { text: "Получить поддержку", link: "/help" },
-//     { text: "Брендовые материалы", link: "/media-kit" },
-//   ]
-// }
+function sidebarExp(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "Краткое изложение для руководства", link: "/InterMind-Executive-Summary" },
+    { text: "Стратегия выхода на рынок", link: "/go-to-market-strategy" },
+    { text: "Презентация для инвесторов", link: "/InterMind-Investor-Pitch" },
+    { text: "Обоснование финансовых прогнозов (1-3 год)", link: "/Financial-Projections-Justification" },
+  ]
+}
