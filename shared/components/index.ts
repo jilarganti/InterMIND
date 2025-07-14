@@ -15,6 +15,7 @@ import AutoScrollTestimonials from "./AutoScrollTestimonials.vue"
 import ImageGrid from "./ImageGrid.vue"
 import TeamMembersGrid from "./TeamMembersGrid.vue"
 import HomeFooter from "./HomeFooter.vue"
+import ContactFormModalNav from "./CRM/ContactFormModalNav.vue"
 
 interface Components {
   [key: string]: Component
@@ -36,4 +37,5 @@ export const components: Components = {
   ImageGrid,
   TeamMembersGrid,
   HomeFooter,
+  ContactFormModalNav,
 }
