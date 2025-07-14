@@ -10,7 +10,7 @@ import { ref } from "vue"
 interface FormData {
   name: string
   email: string
-  webSite: string
+  phone: string
   category: string
   message: string
   channel: string
