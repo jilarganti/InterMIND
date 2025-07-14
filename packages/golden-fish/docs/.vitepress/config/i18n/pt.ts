@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/pt"
 
 export const pt = defineConfig({
-  description: "Especialistas em formação de empresas e serviços de apoio nos Emirados Árabes Unidos. Configuração de empresa, soluções bancárias, fiscais, legais e de vistos. Tornando seus sonhos empresariais em realidade!",
+  description: "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, serviços bancários, impostos, questões jurídicas e vistos. Transformando seus sonhos empresariais em realidade!",
   head: [
-    ["meta", { property: "og:title", content: "Especialistas em formação de empresas e serviços de apoio nos Emirados Árabes Unidos. Configuração de empresa, soluções bancárias, fiscais, legais e de vistos." }],
+    ["meta", { property: "og:title", content: "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, serviços bancários, impostos, questões jurídicas e vistos." }],
   ],
 
   themeConfig: {
@@ -29,46 +29,44 @@ export const pt = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      // [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configurações de Privacidade</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Política de Privacidade</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Regulamentações Legais para Serviços de IA</a>`,
+      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configurações de Privacidade</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">Termos e Condições</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Política de Privacidade</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Regulamentações Legais para Serviços de IA</a>`,
     },
 
     localization: {
       placeholder4SearchInput: "Pergunte qualquer coisa...",
       placeholder4ChatFooter: "Pergunte qualquer coisa...",
-      placeholder4ChatList: "Insira o tópico do chat...",
-      buttonLabel4NavButton: "Chat instantâneo com especialista",
+      placeholder4ChatList: "Digite o tópico do chat...",
+      buttonLabel4NavButton: "Chat com especialista instantâneo",
     },
     contact_form: {
       name: "Nome *",
       namePlaceholder: "seu nome",
-      email: "Email *",
-      emailPlaceholder: "seu endereço de email",
+      email: "E-mail *",
+      emailPlaceholder: "seu endereço de e-mail",
       phone: "Telefone *",
-      phonePlaceholder: "ex.: +55 123456789 ou (55) 123 456-7890",
+      phonePlaceholder: "ex., +1 1234567890 ou (1) 123 456-7890",
       phoneError: "Por favor, insira o número de telefone",
-      category: "Como podemos ajudá-lo? *",
+      category: "Como podemos ajudar? *",
       categoryPlaceholder: "selecione o tipo de serviço",
       message: "Vamos discutir seus objetivos (opcional)",
-      messagePlaceholder: "Por favor, compartilhe os detalhes do seu pedido para nos ajudar a preparar a melhor solução para suas necessidades",
-      submit: "Enviar pedido",
+      messagePlaceholder: "Por favor, compartilhe os detalhes da sua consulta para nos ajudar a preparar a melhor solução para suas necessidades",
+      submit: "Enviar solicitação",
       sending: "Enviando...",
       successTitle: "Obrigado!",
       successMessage: "Agradecemos muito seu interesse! Nossa equipe entrará em contato em breve para discutir suas necessidades.",
       defaultCategories: [
-        "Formação de nova empresa",
-        "Plano de expansão (ex.: nova filial ou franquia)",
-        "Relocação de empresa",
+        "Nova formação de empresa",
+        "Plano de expansão (ex. nova filial ou franquia)",
+        "Relocalização de empresa",
         "Golden Visa",
         "Apenas para fins de visto",
         "Abertura de contas bancárias",
         "Outros Serviços",
       ],
       defaultButtonText: "Envie-nos uma mensagem",
-      // defaultButtonText: "Obtenha uma consulta gratuita",
     },
   },
 })
@@ -76,32 +74,31 @@ export const pt = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Resumo de negócios nos Emirados Árabes Unidos",
-      // collapsed: false,
+      text: "Resumo de negócios nos EAU",
       items: [
         { text: "Registro de empresa", link: "company-registration/overview" },
-        { text: "Prós & contras", link: "company-registration/benefits-problems" },
+        { text: "Prós e contras", link: "company-registration/benefits-problems" },
         { text: "Soluções bancárias corporativas", link: "company-registration/banking" },
         { text: "Golden Visa", link: "company-registration//golden-visa" },
-        { text: "Vistos & EID", link: "company-registration/employment-visas" },
+        { text: "Vistos e EID", link: "company-registration/employment-visas" },
         { text: "Taxas e prazos", link: "company-registration/fees-timelines" },
-        { text: "Pague somente após o sucesso", link: "benefits/success-based-fees" },
+        { text: "Pague apenas após o sucesso", link: "benefits/success-based-fees" },
       ],
     },
     {
-      text: "Estruturas corporativas nos Emirados Árabes Unidos",
+      text: "Estruturas corporativas nos EAU",
       collapsed: false,
       items: [
-        { text: "Etapas para registro de empresa", link: "company-registration/insights/incorporation-steps" },
-        { text: "Zonas livres dos Emirados Árabes Unidos", link: "company-registration/free-zones" },
-        { text: "Continente dos Emirados Árabes Unidos", link: "company-registration/mainland" },
+        { text: "Etapas de registro de empresa", link: "company-registration/insights/incorporation-steps" },
+        { text: "UAE free zones", link: "company-registration/free-zones" },
+        { text: "UAE mainland", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "Conformidade empresarial garantida nos Emirados Árabes Unidos",
+      text: "Conformidade empresarial garantida nos EAU",
       collapsed: false,
       items: [
-        { text: "Aprovações garantidas de conta bancária corporativa", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "Aprovações garantidas de contas bancárias corporativas", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Contas bancárias para negócios de alto risco", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
         { text: "Mantenha seu negócio em conformidade e protegido", link: "company-registration/Protect-Your-Business" },
       ],
@@ -110,16 +107,16 @@ function sidebarServices(): DefaultTheme.SidebarItem[] {
       text: "Jurídico, contabilidade e impostos",
       collapsed: false,
       items: [
-        { text: "Considerações sobre contabilidade e impostos", link: "company-registration/accounting-legal" },
-        { text: "Registro de UBO", link: "company-registration/ubo" },
+        { text: "Considerações contábeis e fiscais", link: "company-registration/accounting-legal" },
+        { text: "Registro UBO", link: "company-registration/ubo" },
       ],
     },
     {
-      text: "Comparativos",
+      text: "Comparações",
       collapsed: false,
       items: [
-        { text: "Continente vs zonas livres", link: "comparison/mainland-vs-free-zones" },
-        { text: "Comparação de entidades dos Emirados Árabes Unidos", link: "comparison/entity-types" },
+        { text: "Mainland vs free zones", link: "comparison/mainland-vs-free-zones" },
+        { text: "Comparação de entidades nos EAU", link: "comparison/entity-types" },
       ],
     },
   ]
@@ -129,11 +126,8 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Sobre nós", link: "about" },
     { text: "Contatos", link: "contacts" },
+    { text: "Termos e Condições", link: "TERMS-CONDITIONS" },
     { text: "Política de Privacidade", link: "Privacy-Policy" },
     { text: "Regulamentações Legais para Serviços de IA", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
-
-// function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-//   return [{ text: "Contatos", link: `contacts` }]
-// }

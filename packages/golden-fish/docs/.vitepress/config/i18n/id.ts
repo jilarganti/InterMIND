@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/id"
 
 export const id = defineConfig({
-  description: "Layanan pembentukan perusahaan dan dukungan ahli di UEA. Penyiapan perusahaan, perbankan, pajak, solusi legal dan visa. Mewujudkan impian bisnis Anda!",
+  description: "Layanan pembentukan dan dukungan perusahaan UAE yang ahli. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa. Mewujudkan impian bisnis Anda!",
   head: [
-    ["meta", { property: "og:title", content: "Layanan pembentukan perusahaan dan dukungan ahli di UEA. Penyiapan perusahaan, perbankan, pajak, solusi legal dan visa." }],
+    ["meta", { property: "og:title", content: "Layanan pembentukan dan dukungan perusahaan UAE yang ahli. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa." }],
   ],
 
   themeConfig: {
@@ -29,16 +29,15 @@ export const id = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      // [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Pengaturan Privasi</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Kebijakan Privasi</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Regulasi Legal untuk Layanan AI</a>`,
+      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Pengaturan Privasi</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">Syarat & Ketentuan</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Kebijakan Privasi</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Peraturan Hukum untuk Layanan AI</a>`,
     },
 
     localization: {
-      placeholder4SearchInput: "Tanya apa saja...",
-      placeholder4ChatFooter: "Tanya apa saja...",
+      placeholder4SearchInput: "Tanyakan apa saja...",
+      placeholder4ChatFooter: "Tanyakan apa saja...",
       placeholder4ChatList: "Masukkan topik chat...",
       buttonLabel4NavButton: "Chat ahli instan",
     },
@@ -48,11 +47,11 @@ export const id = defineConfig({
       email: "Email *",
       emailPlaceholder: "alamat email Anda",
       phone: "Telepon *",
-      phonePlaceholder: "mis., +1 1234567890 atau (1) 123 456-7890",
+      phonePlaceholder: "contoh, +1 1234567890 atau (1) 123 456-7890",
       phoneError: "Silakan masukkan nomor telepon",
-      category: "Bagaimana kami bisa membantu Anda? *",
+      category: "Bagaimana kami dapat membantu Anda? *",
       categoryPlaceholder: "pilih jenis layanan",
-      message: "Mari kita bahas tujuan Anda (opsional)",
+      message: "Mari diskusikan tujuan Anda (opsional)",
       messagePlaceholder: "Silakan bagikan detail pertanyaan Anda untuk membantu kami menyiapkan solusi terbaik untuk kebutuhan Anda",
       submit: "Kirim permintaan",
       sending: "Mengirim...",
@@ -60,15 +59,14 @@ export const id = defineConfig({
       successMessage: "Kami sangat menghargai minat Anda! Tim kami akan segera menghubungi Anda untuk membahas kebutuhan Anda.",
       defaultCategories: [
         "Pembentukan perusahaan baru",
-        "Rencana ekspansi (mis. cabang atau waralaba baru)",
+        "Rencana ekspansi (cabang atau waralaba baru)",
         "Relokasi perusahaan",
         "Golden Visa",
         "Hanya untuk keperluan visa",
-        "Membuka rekening bank",
+        "Pembukaan rekening bank",
         "Layanan Lainnya",
       ],
       defaultButtonText: "Kirim pesan kepada kami",
-      // defaultButtonText: "Dapatkan konsultasi gratis",
     },
   },
 })
@@ -76,50 +74,49 @@ export const id = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Ringkasan bisnis UEA",
-      // collapsed: false,
+      text: "Ringkasan bisnis UAE",
       items: [
         { text: "Pendaftaran perusahaan", link: "company-registration/overview" },
         { text: "Kelebihan & kekurangan", link: "company-registration/benefits-problems" },
         { text: "Solusi perbankan korporat", link: "company-registration/banking" },
         { text: "Golden Visa", link: "company-registration//golden-visa" },
         { text: "Visa & EID", link: "company-registration/employment-visas" },
-        { text: "Biaya dan waktu", link: "company-registration/fees-timelines" },
-        { text: "Bayar setelah sukses", link: "benefits/success-based-fees" },
+        { text: "Biaya dan jadwal", link: "company-registration/fees-timelines" },
+        { text: "Bayar hanya setelah berhasil", link: "benefits/success-based-fees" },
       ],
     },
     {
-      text: "Struktur korporat UEA",
+      text: "Struktur korporat UAE",
       collapsed: false,
       items: [
-        { text: "Langkah pendaftaran perusahaan", link: "company-registration/insights/incorporation-steps" },
-        { text: "Zona bebas UEA", link: "company-registration/free-zones" },
-        { text: "Daratan UEA", link: "company-registration/mainland" },
+        { text: "Langkah-langkah pendaftaran perusahaan", link: "company-registration/insights/incorporation-steps" },
+        { text: "UAE free zones", link: "company-registration/free-zones" },
+        { text: "UAE mainland", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "Kepatuhan bisnis UEA terjamin",
+      text: "Kepatuhan bisnis UAE dijamin",
       collapsed: false,
       items: [
-        { text: "Persetujuan rekening bank korporat terjamin", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "Persetujuan rekening bank korporat dijamin", link: "corporate-banking-services/guaranteed-account-approvals" },
         { text: "Rekening bank untuk bisnis berisiko tinggi", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "Jaga bisnis Anda tetap patuh dan terlindungi", link: "company-registration/Protect-Your-Business" },
+        { text: "Jaga kepatuhan dan perlindungan bisnis Anda", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
-      text: "Legal, akuntansi dan pajak",
+      text: "Hukum, akuntansi dan pajak",
       collapsed: false,
       items: [
         { text: "Pertimbangan akuntansi dan pajak", link: "company-registration/accounting-legal" },
-        { text: "Daftar UBO", link: "company-registration/ubo" },
+        { text: "Register UBO", link: "company-registration/ubo" },
       ],
     },
     {
       text: "Perbandingan",
       collapsed: false,
       items: [
-        { text: "Daratan vs zona bebas", link: "comparison/mainland-vs-free-zones" },
-        { text: "Perbandingan entitas UEA", link: "comparison/entity-types" },
+        { text: "Mainland vs free zones", link: "comparison/mainland-vs-free-zones" },
+        { text: "Perbandingan entitas UAE", link: "comparison/entity-types" },
       ],
     },
   ]
@@ -129,11 +126,8 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Tentang kami", link: "about" },
     { text: "Kontak", link: "contacts" },
+    { text: "Syarat & Ketentuan", link: "TERMS-CONDITIONS" },
     { text: "Kebijakan Privasi", link: "Privacy-Policy" },
-    { text: "Regulasi Legal untuk Layanan AI", link: "Legal-Regulations-for-AI-Services" },
+    { text: "Peraturan Hukum untuk Layanan AI", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
-
-// function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-//   return [{ text: "Kontak", link: `contacts` }]
-// }

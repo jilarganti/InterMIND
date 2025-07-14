@@ -3,9 +3,9 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/hi"
 
 export const hi = defineConfig({
-  description: "विशेषज्ञ UAE कंपनी गठन और सहायता सेवाएं। कंपनी स्थापना, बैंकिंग, कर, कानूनी और वीजा समाधान। आपके व्यापार सपनों को साकार करना!",
+  description: "UAE में विशेषज्ञ कंपनी गठन और सहायता सेवाएं। कंपनी स्थापना, बैंकिंग, कर, कानूनी और वीजा समाधान। आपके व्यवसायिक सपनों को साकार करना!",
   head: [
-    ["meta", { property: "og:title", content: "विशेषज्ञ UAE कंपनी गठन और सहायता सेवाएं। कंपनी स्थापना, बैंकिंग, कर, कानूनी और वीजा समाधान।" }],
+    ["meta", { property: "og:title", content: "UAE में विशेषज्ञ कंपनी गठन और सहायता सेवाएं। कंपनी स्थापना, बैंकिंग, कर, कानूनी और वीजा समाधान।" }],
   ],
 
   themeConfig: {
@@ -16,7 +16,7 @@ export const hi = defineConfig({
         items: [
           { text: "कंपनी पंजीकरण", link: `${BASE_PATH}/uae-business/company-registration/overview` },
           { text: "बैंकिंग समाधान", link: `${BASE_PATH}/uae-business/company-registration/banking` },
-          { text: "प्रवासन", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
+          { text: "प्रवास", link: `${BASE_PATH}/uae-business/company-registration/employment-visas` },
         ],
       },
       {
@@ -29,11 +29,10 @@ export const hi = defineConfig({
     sidebar: {
       [`${BASE_PATH}/uae-business/`]: { base: `${BASE_PATH}/uae-business/`, items: sidebarServices() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarInsights() },
-      // [`${BASE_PATH}/contact-us/`]: { base: `${BASE_PATH}/contact-us/`, items: sidebarContactUs() },
     },
 
     footer: {
-      message: `©Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">गोपनीयता सेटिंग्स</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">गोपनीयता नीति</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI सेवाओं के लिए कानूनी विनियमन</a>`,
+      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">गोपनीयता सेटिंग्स</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">नियम और शर्तें</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">गोपनीयता नीति</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI सेवाओं के लिए कानूनी नियम</a>`,
     },
 
     localization: {
@@ -48,27 +47,26 @@ export const hi = defineConfig({
       email: "ईमेल *",
       emailPlaceholder: "आपका ईमेल पता",
       phone: "फोन *",
-      phonePlaceholder: "उदा., +1 1234567890 या (1) 123 456-7890",
+      phonePlaceholder: "उदाहरण, +1 1234567890 या (1) 123 456-7890",
       phoneError: "कृपया फोन नंबर दर्ज करें",
       category: "हम आपकी कैसे मदद कर सकते हैं? *",
       categoryPlaceholder: "सेवा प्रकार चुनें",
-      message: "आपके लक्ष्यों पर चर्चा करें (वैकल्पिक)",
+      message: "आइए आपके लक्ष्यों पर चर्चा करें (वैकल्पिक)",
       messagePlaceholder: "कृपया अपनी पूछताछ का विवरण साझा करें ताकि हम आपकी जरूरतों के लिए सर्वोत्तम समाधान तैयार कर सकें",
-      submit: "अनुरोध जमा करें",
-      sending: "भेजा जा रहा है...",
+      submit: "अनुरोध भेजें",
+      sending: "भेज रहे हैं...",
       successTitle: "धन्यवाद!",
-      successMessage: "हम आपकी रुचि की सराहना करते हैं! हमारी टीम जल्द ही आपसे संपर्क करेगी और आपकी जरूरतों पर चर्चा करेगी।",
+      successMessage: "आपकी रुचि के लिए हम बहुत आभारी हैं! हमारी टीम जल्द ही आपकी जरूरतों पर चर्चा करने के लिए आपसे संपर्क करेगी।",
       defaultCategories: [
         "नई कंपनी गठन",
         "विस्तार योजना (जैसे नई शाखा या फ्रेंचाइजी)",
         "कंपनी स्थानांतरण",
-        "गोल्डन वीजा",
+        "Golden Visa",
         "केवल वीजा उद्देश्य",
         "बैंक खाते खोलना",
         "अन्य सेवाएं",
       ],
       defaultButtonText: "हमें संदेश भेजें",
-      // defaultButtonText: "निःशुल्क परामर्श प्राप्त करें",
     },
   },
 })
@@ -76,50 +74,49 @@ export const hi = defineConfig({
 function sidebarServices(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "UAE व्यापार सारांश",
-      // collapsed: false,
+      text: "UAE व्यवसाय सारांश",
       items: [
         { text: "कंपनी पंजीकरण", link: "company-registration/overview" },
-        { text: "पेशेवर और विपक्ष", link: "company-registration/benefits-problems" },
+        { text: "फायदे और नुकसान", link: "company-registration/benefits-problems" },
         { text: "कॉर्पोरेट बैंकिंग समाधान", link: "company-registration/banking" },
-        { text: "गोल्डन वीजा", link: "company-registration//golden-visa" },
+        { text: "Golden Visa", link: "company-registration//golden-visa" },
         { text: "वीजा और EID", link: "company-registration/employment-visas" },
-        { text: "शुल्क और समयसीमा", link: "company-registration/fees-timelines" },
-        { text: "सफलता के बाद ही भुगतान करें", link: "benefits/success-based-fees" },
+        { text: "शुल्क और समय सीमा", link: "company-registration/fees-timelines" },
+        { text: "सफलता के बाद ही भुगतान", link: "benefits/success-based-fees" },
       ],
     },
     {
       text: "UAE कॉर्पोरेट संरचनाएं",
       collapsed: false,
       items: [
-        { text: "कंपनी पंजीकरण कदम", link: "company-registration/insights/incorporation-steps" },
-        { text: "UAE फ्री जोन्स", link: "company-registration/free-zones" },
-        { text: "UAE मेनलैंड", link: "company-registration/mainland" },
+        { text: "कंपनी पंजीकरण चरण", link: "company-registration/insights/incorporation-steps" },
+        { text: "UAE free zones", link: "company-registration/free-zones" },
+        { text: "UAE mainland", link: "company-registration/mainland" },
       ],
     },
     {
-      text: "UAE व्यापार अनुपालन गारंटीड",
+      text: "UAE व्यवसाय अनुपालन गारंटीकृत",
       collapsed: false,
       items: [
-        { text: "गारंटीड कॉर्पोरेट बैंक खाता अनुमोदन", link: "corporate-banking-services/guaranteed-account-approvals" },
-        { text: "उच्च-जोखिम व्यापार के लिए बैंक खाते", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
-        { text: "अपने व्यापार को अनुपालन और सुरक्षित रखें", link: "company-registration/Protect-Your-Business" },
+        { text: "गारंटीकृत कॉर्पोरेट बैंक खाता स्वीकृतियां", link: "corporate-banking-services/guaranteed-account-approvals" },
+        { text: "उच्च जोखिम वाले व्यवसाय के लिए बैंक खाते", link: "corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business" },
+        { text: "अपने व्यवसाय को अनुपालन और सुरक्षित रखें", link: "company-registration/Protect-Your-Business" },
       ],
     },
     {
-      text: "कानूनी, लेखांकन और कर",
+      text: "कानूनी, लेखा और कर",
       collapsed: false,
       items: [
-        { text: "लेखांकन और कर विचार", link: "company-registration/accounting-legal" },
+        { text: "लेखा और कर विचार", link: "company-registration/accounting-legal" },
         { text: "UBO रजिस्टर", link: "company-registration/ubo" },
       ],
     },
     {
-      text: "तुलनाएं",
+      text: "तुलना",
       collapsed: false,
       items: [
-        { text: "मेनलैंड बनाम फ्री जोन्स", link: "comparison/mainland-vs-free-zones" },
-        { text: "UAE संस्थाएं तुलना", link: "comparison/entity-types" },
+        { text: "Mainland बनाम free zones", link: "comparison/mainland-vs-free-zones" },
+        { text: "UAE संस्थाओं की तुलना", link: "comparison/entity-types" },
       ],
     },
   ]
@@ -129,11 +126,8 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
     { text: "हमारे बारे में", link: "about" },
     { text: "संपर्क", link: "contacts" },
+    { text: "नियम और शर्तें", link: "TERMS-CONDITIONS" },
     { text: "गोपनीयता नीति", link: "Privacy-Policy" },
-    { text: "AI सेवाओं के लिए कानूनी विनियमन", link: "Legal-Regulations-for-AI-Services" },
+    { text: "AI सेवाओं के लिए कानूनी नियम", link: "Legal-Regulations-for-AI-Services" },
   ]
 }
-
-// function sidebarContactUs(): DefaultTheme.SidebarItem[] {
-//   return [{ text: "संपर्क", link: `contacts` }]
-// }
