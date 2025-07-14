@@ -15,8 +15,8 @@ const RTL_LOCALES = ["ar", "fa", "ur"]
 const UTM_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "campaign_id"]
 
 // Определение констант для OAuth прямо в коде, так как это не закрытые данные
-const APP_DOMAIN = "intermind.com"
-const APP_DOMAIN_DEV = "dev.intermind.com"
+const APP_DOMAIN = "inter.mind.com"
+const APP_DOMAIN_DEV = "dev.inter.mind.com"
 const APP_BASE_URL = "https://" + (isProduction ? APP_DOMAIN : APP_DOMAIN_DEV)
 const OAUTH_PROVIDER_URL = APP_BASE_URL + "/auth"
 const CHECKOUT_URL = APP_BASE_URL + "/checkout"
