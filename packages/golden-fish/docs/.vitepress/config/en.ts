@@ -33,7 +33,7 @@ export const en = defineConfig({
     },
 
     footer: {
-      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Privacy Settings</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Privacy Policy</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Legal Regulations for AI Services</a>`,
+      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Privacy Settings</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">Terms & Conditions</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Privacy Policy</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Legal Regulations for AI Services</a>`,
     },
 
     localization: {
@@ -129,6 +129,7 @@ function sidebarInsights(): DefaultTheme.SidebarItem[] {
   return [
     { text: "About us", link: "about" },
     { text: "Contacts", link: "contacts" },
+    { text: "Terms & Conditions", link: "TERMS-CONDITIONS" },
     { text: "Privacy Policy", link: "Privacy-Policy" },
     { text: "Legal Regulations for AI Services", link: "Legal-Regulations-for-AI-Services" },
   ]
