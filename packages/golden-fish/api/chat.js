@@ -4,7 +4,7 @@ import { openai } from "@ai-sdk/openai"
 import { groq } from "@ai-sdk/groq"
 // import { deepseek } from "@ai-sdk/deepseek"
 import { streamText } from "ai"
-import { BUSINESS_PROMPT, FOLLOW_UP_PROMPT } from "../packages/golden-fish/docs/.vitepress/config/AIConfig.js"
+import { BUSINESS_PROMPT, FOLLOW_UP_PROMPT } from "../docs/.vitepress/config/AIConfig.js"
 import fs from "fs"
 import fetch from "node-fetch"
 
