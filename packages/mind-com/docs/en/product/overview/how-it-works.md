@@ -9,7 +9,7 @@ InterMind is a multi-user video conferencing platform with **instant bidirection
 <!-- :::details Show diagram of AI translation process
 ::: -->
 
-![](/interpretating.svg)
+![](./interpretating.svg)
 
 ### 1. **Speech Recognition (Speech-to-Text)**
 
