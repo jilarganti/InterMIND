@@ -140,7 +140,7 @@ function splitByH2(content) {
   return parts.map((part, i) => (i === 0 ? part.trim() : "## " + part.trim())).filter(Boolean)
 }
 
-async function getAllMarkdownFiles(dir) {
+async function getAllFiles(dir) {
   const files = []
   const items = fs.readdirSync(dir)
 
@@ -154,9 +154,13 @@ async function getAllMarkdownFiles(dir) {
     const stat = fs.statSync(fullPath)
 
     if (stat.isDirectory()) {
-      files.push(...(await getAllMarkdownFiles(fullPath)))
-    } else if (item.endsWith(".md")) {
-      files.push(fullPath)
+      files.push(...(await getAllFiles(fullPath)))
+    } else {
+      // Проверяем только файлы с разрешенными расширениями
+      const ext = path.extname(item)
+      if (config.allowedExtensions.includes(ext)) {
+        files.push(fullPath)
+      }
     }
   }
 
@@ -206,7 +210,7 @@ async function syncFileStructure() {
   }
 
   // Собираем все оригинальные пути
-  const files = await getAllMarkdownFiles(config.rootDir)
+  const files = await getAllFiles(config.rootDir)
   files.forEach(processOriginalPath)
 
   // Проверяем каждый язык
@@ -240,15 +244,18 @@ async function syncFileStructure() {
             fs.unlinkSync(fullPath)
             removedLogs++
             console.log(`🗑️  Удален лог файл: ${path.relative(langDir, fullPath)}`)
-          } else if (item.endsWith(".md")) {
-            // Проверяем markdown файлы
-            const relativePath = path.relative(langDir, fullPath)
-            const originalPath = path.join(config.rootDir, relativePath)
+          } else {
+            // Проверяем файлы с разрешенными расширениями
+            const ext = path.extname(item)
+            if (config.allowedExtensions.includes(ext)) {
+              const relativePath = path.relative(langDir, fullPath)
+              const originalPath = path.join(config.rootDir, relativePath)
 
-            if (!originalFiles.has(originalPath)) {
-              fs.unlinkSync(fullPath)
-              removedFiles++
-              console.log(`🗑️  Удален устаревший файл: ${relativePath}`)
+              if (!originalFiles.has(originalPath)) {
+                fs.unlinkSync(fullPath)
+                removedFiles++
+                console.log(`🗑️  Удален устаревший файл: ${relativePath}`)
+              }
             }
           }
         }
@@ -350,7 +357,7 @@ async function translateFile(file, targetPath, lang, firstModelKey) {
 
     // Сохраняем промежуточный результат в лог при ошибке
     if (translatedContent.trim()) {
-      const logPath = targetPath.replace(".md", ".log")
+      const logPath = targetPath.replace(path.extname(targetPath), ".log")
       fs.writeFileSync(logPath, translatedContent.trim())
     }
   }
@@ -408,8 +415,8 @@ async function translateFiles() {
       console.error(`❌ Ошибка чтения конфига:`, error.message)
     }
 
-    const files = await getAllMarkdownFiles(config.rootDir)
-    console.log(`📝 Найдено ${files.length} markdown файлов в ${config.rootDir}`)
+    const files = await getAllFiles(config.rootDir)
+    console.log(`📝 Найдено ${files.length} файлов для перевода в ${config.rootDir}`)
 
     const tasks = []
 

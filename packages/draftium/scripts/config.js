@@ -35,4 +35,5 @@ export const config = {
     grok: { name: "grok-2-latest" },
   },
   exclude: ["test"],
+  allowedExtensions: [".md", ".vue", ".svg"],
 }
