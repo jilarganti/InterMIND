@@ -129,7 +129,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
 ]">
 <AuthButton text="Experimente grátis" buttonClass="alt"/>
 <AuthButton text="Compre agora" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Fale com nossa equipe" buttonClass="alt"/>
+<ContactForm buttonText="Fale com nossa equipe" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 🔴 O serviço gratuito imind.com não é mais suportado.

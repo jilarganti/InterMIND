@@ -156,11 +156,11 @@ Diese einzige Spracheinstellung gilt für:
 - Die **gesprochene Eingabe** (was Sie sagen)
 - Die **übersetzte Ausgabe** (was Sie hören)
 
-| Teilnehmer    | Gewählte Sprache | Spricht in | Hört in   |
-| ------------- | ---------------- | ---------- | --------- |
-| Gastgeber     | Spanisch         | Spanisch   | Spanisch  |
-| Teilnehmer 1  | Englisch         | Englisch   | Englisch  |
-| Teilnehmer 2  | Chinesisch       | Chinesisch | Chinesisch|
+| Teilnehmer   | Gewählte Sprache | Spricht in | Hört in    |
+| ------------ | ---------------- | ---------- | ---------- |
+| Gastgeber    | Spanisch         | Spanisch   | Spanisch   |
+| Teilnehmer 1 | Englisch         | Englisch   | Englisch   |
+| Teilnehmer 2 | Chinesisch       | Chinesisch | Chinesisch |
 
 [Die Plattform interpretiert automatisch alle Sprache in Echtzeit](./product/overview/how-it-works) — so kommuniziert jeder, als würde er dieselbe Sprache sprechen.
 
@@ -229,7 +229,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
 ]">
 <AuthButton text="Kostenlos testen" buttonClass="brand" eventName="im_try_it_attempt"/>
 <AuthButton text="Jetzt kaufen" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt"/>
-<ContactFormModalNav buttonText="Mit unserem Team sprechen" buttonClass="alt"/>
+<ContactForm buttonText="Mit unserem Team sprechen" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 😱 Entweder Sie sprechen jede Sprache — oder jemand anderes schließt Ihre Geschäfte ab.

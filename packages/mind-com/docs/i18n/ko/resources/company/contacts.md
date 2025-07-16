@@ -11,7 +11,7 @@ description: "InterMind와 파트너십을 맺거나 투자하고 싶으시거�
 
 <br>
 
-<ContactFormModalNav  
+<ContactForm  
   formStyle="margin: 1rem auto;"  
   categoryLabel="저희에게 연락하시는 이유가 무엇인가요?"  
   categoryPlaceholderText="주제를 선택하세요..."  

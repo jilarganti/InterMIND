@@ -129,7 +129,7 @@ description: "iMind'dan InterMIND'a: gerçek zamanlı AI destekli çeviri ile se
 ]">
 <AuthButton text="Ücretsiz deneyin" buttonClass="alt"/>
 <AuthButton text="Şimdi satın alın" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Ekibimizle konuşun" buttonClass="alt"/>
+<ContactForm buttonText="Ekibimizle konuşun" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 🔴 Ücretsiz imind.com hizmeti artık desteklenmiyor.

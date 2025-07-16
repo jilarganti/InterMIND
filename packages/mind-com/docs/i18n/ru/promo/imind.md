@@ -129,7 +129,7 @@ description: "От iMind к InterMIND: голосовые видеозвонки
 ]">
 <AuthButton text="Попробовать бесплатно" buttonClass="alt"/>
 <AuthButton text="Купить сейчас" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Связаться с нашей командой" buttonClass="alt"/>
+<ContactForm buttonText="Связаться с нашей командой" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 🔴 Бесплатный сервис imind.com больше не поддерживается.

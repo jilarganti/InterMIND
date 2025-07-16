@@ -156,11 +156,11 @@ Bu tek dil ayarı şunları kapsar:
 - **Konuşulan girdi** (söyledikleriniz)
 - **Çevrilmiş çıktı** (duyduklarınız)
 
-| Katılımcı     | Seçilen Dil | Konuştuğu Dil | Duyduğu Dil |
-| ------------- | ----------- | ------------- | ----------- |
-| Ev sahibi     | İspanyolca  | İspanyolca    | İspanyolca  |
-| Katılımcı 1   | İngilizce   | İngilizce     | İngilizce   |
-| Katılımcı 2   | Çince       | Çince         | Çince       |
+| Katılımcı   | Seçilen Dil | Konuştuğu Dil | Duyduğu Dil |
+| ----------- | ----------- | ------------- | ----------- |
+| Ev sahibi   | İspanyolca  | İspanyolca    | İspanyolca  |
+| Katılımcı 1 | İngilizce   | İngilizce     | İngilizce   |
+| Katılımcı 2 | Çince       | Çince         | Çince       |
 
 [Platform tüm konuşmaları gerçek zamanlı olarak otomatik yorumlar](./product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
 
@@ -229,7 +229,7 @@ Bunu değiştirmek şu anlama gelir:
 ]">
 <AuthButton text="Ücretsiz deneyin" buttonClass="brand" eventName="im_try_it_attempt"/>
 <AuthButton text="Şimdi satın alın" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt"/>
-<ContactFormModalNav buttonText="Ekibimizle konuşun" buttonClass="alt"/>
+<ContactForm buttonText="Ekibimizle konuşun" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 😱 Ya her dili konuşursunuz — ya da başkası anlaşmalarınızı kapatır.

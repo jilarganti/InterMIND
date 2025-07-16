@@ -9,7 +9,7 @@ description: "Есть вопросы об ИИ-переводе встреч, �
 
 <br>
 
-<ContactFormModalNav   
+<ContactForm   
   formStyle="margin: 1rem auto;"  
   categoryLabel="Что привело вас в InterMind сегодня?"  
   categoryPlaceholderText="Выберите основную причину…"  

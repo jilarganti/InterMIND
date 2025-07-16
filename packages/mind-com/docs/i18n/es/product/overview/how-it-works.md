@@ -9,22 +9,22 @@ InterMind es una plataforma de videoconferencias multiusuario con **traducción 
 <!-- :::details Show diagram of AI translation process
 ::: -->
 
-![](/interpretating.svg)
+![](./interpretating.svg)
 
 ### 1. **Reconocimiento de voz (Speech-to-Text)**
 
 - Reconocimiento en tiempo real usando modelos transformer
 - Procesamiento de ruido y sonidos de fondo
-- Soporte para terminología técnica y jerga especializada
+- Soporte para terminología técnica y jerga
 - Precisión de reconocimiento: **95-98%** para idiomas principales
 
 ### 2. **Postprocesamiento de texto (Limpieza de texto y análisis semántico)**
 
 - **Eliminación de muletillas**: eliminación de "eh", "mm", repeticiones, tartamudeo
 - **Corrección de errores de reconocimiento**: corrección basada en contexto
-- **Puntuación y estructuración**: colocación automática de signos de puntuación
-- **Extracción de significado clave**: identificación de ideas principales y secundarias
-- **Segmentación de enunciados**: división en bloques lógicos para traducción precisa
+- **Puntuación y estructuración**: colocación automática de puntuación
+- **Extracción de significado clave**: identificación de pensamientos principales y secundarios
+- **Segmentación de expresiones**: división en bloques lógicos para traducción precisa
 - **Análisis contextual**: vinculación con comentarios previos y tema general
 
 ### 3. **Traducción neuronal**
@@ -32,7 +32,7 @@ InterMind es una plataforma de videoconferencias multiusuario con **traducción 
 - Traducción dependiente del contexto con preservación del significado
 - Comprensión de modismos, metáforas y referencias culturales
 - Adaptación del estilo de habla (formal/informal)
-- Preservación del matiz emocional de los enunciados
+- Preservación del matiz emocional de las expresiones
 
 ### 4. **Síntesis de voz (Text-to-Speech)**
 
@@ -80,7 +80,7 @@ Todo esto ocurre con **latencia menor a 3 segundos** — igualando la velocidad 
 - **Precisión**: 94-97% de exactitud para conversaciones de negocios
 - **Contexto**: comprensión del contexto durante toda la reunión
 - **Terminología**: diccionarios adaptativos para cada industria
-- **Retroalimentación**: sistema de calificación de calidad por parte del usuario
+- **Retroalimentación**: sistema de calificación de calidad por usuarios
 
 > [!info] Arquitectura técnica
 >

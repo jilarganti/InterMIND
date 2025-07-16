@@ -129,7 +129,7 @@ description: "من iMind إلى InterMIND: مكالمات فيديو تركز ع
 ]">
 <AuthButton text="جرب مجاناً" buttonClass="alt"/>
 <AuthButton text="اشتر الآن" buttonClass="brand"/>
-<ContactFormModalNav buttonText="تحدث مع فريقنا" buttonClass="alt"/>
+<ContactForm buttonText="تحدث مع فريقنا" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 🔴 الخدمة المجانية imind.com لم تعد مدعومة.

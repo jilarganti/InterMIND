@@ -11,7 +11,7 @@ We’ll make sure your message reaches the right person.
 
 <br>
 
-<ContactFormModalNav  
+<ContactForm
   formStyle="margin: 1rem auto;"  
   categoryLabel="What is your reason for contacting us?"  
   categoryPlaceholderText="Choose your topic..."  

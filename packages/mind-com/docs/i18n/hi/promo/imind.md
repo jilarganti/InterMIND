@@ -129,7 +129,7 @@ description: "iMind से InterMIND तक: रियल-टाइम AI-सं
 ]">
 <AuthButton text="निःशुल्क आज़माएं" buttonClass="alt"/>
 <AuthButton text="अभी खरीदें" buttonClass="brand"/>
-<ContactFormModalNav buttonText="हमारी टीम से बात करें" buttonClass="alt"/>
+<ContactForm buttonText="हमारी टीम से बात करें" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 🔴 निःशुल्क सेवा imind.com अब समर्थित नहीं है।

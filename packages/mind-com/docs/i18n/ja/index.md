@@ -156,11 +156,11 @@ isHome: true
 - **音声入力**（あなたが話すもの）
 - **翻訳出力**（あなたが聞くもの）
 
-| 参加者    | 選択した言語 | 話す言語   | 聞く言語   |
-| --------- | ------------ | ---------- | ---------- |
-| ホスト    | スペイン語   | スペイン語 | スペイン語 |
-| 参加者1   | 英語         | 英語       | 英語       |
-| 参加者2   | 中国語       | 中国語     | 中国語     |
+| 参加者  | 選択した言語 | 話す言語   | 聞く言語   |
+| ------- | ------------ | ---------- | ---------- |
+| ホスト  | スペイン語   | スペイン語 | スペイン語 |
+| 参加者1 | 英語         | 英語       | 英語       |
+| 参加者2 | 中国語       | 中国語     | 中国語     |
 
 [プラットフォームはすべての音声をリアルタイムで自動的に解釈します](./product/overview/how-it-works) — そのため、全員が同じ言語を話しているかのようにコミュニケーションできます。
 
@@ -229,7 +229,7 @@ isHome: true
 ]">
 <AuthButton text="無料で試す" buttonClass="brand" eventName="im_try_it_attempt"/>
 <AuthButton text="今すぐ購入" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt"/>
-<ContactFormModalNav buttonText="チームに相談" buttonClass="alt"/>
+<ContactForm buttonText="チームに相談" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 😱 すべての言語を話すか — それとも他の誰かがあなたの取引を成立させるか。

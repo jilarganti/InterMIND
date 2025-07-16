@@ -9,7 +9,7 @@ description: "AIを活用した会議通訳、多言語コミュニケーショ�
 
 <br>
 
-<ContactFormModalNav   
+<ContactForm   
   formStyle="margin: 1rem auto;"  
   categoryLabel="本日InterMindにご興味を持たれた理由をお聞かせください"  
   categoryPlaceholderText="主な理由をお選びください…"  

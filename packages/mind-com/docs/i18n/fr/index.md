@@ -156,11 +156,11 @@ Ce paramètre de langue unique s'applique à :
 - L'**entrée vocale** (ce que vous dites)
 - La **sortie traduite** (ce que vous entendez)
 
-| Participant   | Langue sélectionnée | Parle en  | Entend en |
-| ------------- | ------------------- | --------- | --------- |
-| Hôte          | Espagnol            | Espagnol  | Espagnol  |
-| Participant 1 | Anglais             | Anglais   | Anglais   |
-| Participant 2 | Chinois             | Chinois   | Chinois   |
+| Participant   | Langue sélectionnée | Parle en | Entend en |
+| ------------- | ------------------- | -------- | --------- |
+| Hôte          | Espagnol            | Espagnol | Espagnol  |
+| Participant 1 | Anglais             | Anglais  | Anglais   |
+| Participant 2 | Chinois             | Chinois  | Chinois   |
 
 [La plateforme interprète automatiquement tous les discours en temps réel](./product/overview/how-it-works) — ainsi tout le monde communique comme s'il parlait la même langue.
 
@@ -229,7 +229,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
 ]">
 <AuthButton text="Essayer gratuitement" buttonClass="brand" eventName="im_try_it_attempt"/>
 <AuthButton text="Acheter maintenant" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt"/>
-<ContactFormModalNav buttonText="Parler à notre équipe" buttonClass="alt"/>
+<ContactForm buttonText="Parler à notre équipe" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 😱 Soit vous parlez toutes les langues — soit quelqu\'un d\'autre conclut vos affaires.

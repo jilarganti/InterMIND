@@ -9,7 +9,7 @@ description: "对于AI驱动的会议口译、多语言交流或企业入职有�
 
 <br>
 
-<ContactFormModalNav   
+<ContactForm   
   formStyle="margin: 1rem auto;"  
   categoryLabel="今天是什么原因让您访问InterMind？"  
   categoryPlaceholderText="选择您的主要原因..."  

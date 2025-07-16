@@ -9,7 +9,7 @@ Schnell, fokussiert und mit einem echten Menschen am anderen Ende.
 
 <br>
 
-<ContactFormModalNav   
+<ContactForm   
   formStyle="margin: 1rem auto;"  
   categoryLabel="Was führt Sie heute zu InterMind?"  
   categoryPlaceholderText="Wählen Sie Ihren Hauptgrund..."  

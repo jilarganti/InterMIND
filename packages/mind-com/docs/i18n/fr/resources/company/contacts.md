@@ -15,7 +15,7 @@ Que vous exploriez InterMind pour votre équipe internationale ou que vous cherc
 
 <br>
 
-<ContactFormModalNav  
+<ContactForm  
   formStyle="margin: 1rem auto;"  
   categoryLabel="De quoi souhaitez-vous parler ?"  
   categoryPlaceholderText="Choisissez votre sujet..."  

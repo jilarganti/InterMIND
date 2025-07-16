@@ -156,11 +156,11 @@ isHome: true
 - **음성 입력** (당신이 말하는 것)
 - **번역된 출력** (당신이 듣는 것)
 
-| 참가자    | 선택한 언어 | 말하는 언어 | 듣는 언어 |
-| --------- | ----------- | ----------- | --------- |
-| 호스트    | 스페인어    | 스페인어    | 스페인어  |
-| 참가자 1  | 영어        | 영어        | 영어      |
-| 참가자 2  | 중국어      | 중국어      | 중국어    |
+| 참가자   | 선택한 언어 | 말하는 언어 | 듣는 언어 |
+| -------- | ----------- | ----------- | --------- |
+| 호스트   | 스페인어    | 스페인어    | 스페인어  |
+| 참가자 1 | 영어        | 영어        | 영어      |
+| 참가자 2 | 중국어      | 중국어      | 중국어    |
 
 [플랫폼은 모든 음성을 실시간으로 자동 해석합니다](./product/overview/how-it-works) — 따라서 모든 사람이 같은 언어를 사용하는 것처럼 소통할 수 있습니다.
 
@@ -229,7 +229,7 @@ isHome: true
 ]">
 <AuthButton text="무료로 체험하기" buttonClass="brand" eventName="im_try_it_attempt"/>
 <AuthButton text="지금 구매" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt"/>
-<ContactFormModalNav buttonText="팀과 상담하기" buttonClass="alt"/>
+<ContactForm buttonText="팀과 상담하기" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 😱 모든 언어를 구사하거나 — 아니면 다른 사람이 당신의 거래를 성사시킵니다.

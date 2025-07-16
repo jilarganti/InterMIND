@@ -15,7 +15,7 @@ description: "对AI会议口译、多语言协作或企业部署有疑问？联�
 
 <br>
 
-<ContactFormModalNav  
+<ContactForm  
   formStyle="margin: 1rem auto;"  
   categoryLabel="您想讨论什么？"  
   categoryPlaceholderText="选择您的重点..."  

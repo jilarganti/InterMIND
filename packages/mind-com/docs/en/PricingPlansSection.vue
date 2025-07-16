@@ -44,6 +44,6 @@
   >
     <AuthButton text="Try for free" buttonClass="brand" eventName="im_try_it_attempt" />
     <AuthButton text="Buy now" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt" />
-    <ContactFormModalNav buttonText="Talk to our team" buttonClass="alt" />
+    <ContactForm buttonText="Talk to our team" buttonClass="alt" />
   </PricingPlans>
 </template>

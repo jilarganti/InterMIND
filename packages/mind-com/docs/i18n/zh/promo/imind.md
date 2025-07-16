@@ -129,7 +129,7 @@ description: "从 iMind 到 InterMIND：语音优先的视频通话，配备实�
 ]">
 <AuthButton text="免费试用" buttonClass="alt"/>
 <AuthButton text="立即购买" buttonClass="brand"/>
-<ContactFormModalNav buttonText="联系我们的团队" buttonClass="alt"/>
+<ContactForm buttonText="联系我们的团队" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 🔴 免费服务 imind.com 不再受支持。

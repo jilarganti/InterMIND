@@ -8,6 +8,7 @@ import { Icon } from "@iconify/vue"
 import { inject } from "@vercel/analytics"
 import { injectSpeedInsights } from "@vercel/speed-insights"
 import AuthButton from "./components/AuthButton.vue"
+import ContactForm from "./components/ContactForm.vue"
 import ContactFormModalNav from "./components/ContactFormModalNav.vue"
 import "./styles/index.css"
 
@@ -33,6 +34,7 @@ export default {
     }
     // Регистрация моих компонентов пакета
     app.component("AuthButton", AuthButton)
+    app.component("ContactForm", ContactForm)
     app.component("ContactFormModalNav", ContactFormModalNav)
 
     // Регистрация внешних компонентов пакета

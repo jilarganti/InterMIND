@@ -9,7 +9,7 @@ Rapidement, avec précision, et avec un véritable humain à votre écoute.
 
 <br>
 
-<ContactFormModalNav   
+<ContactForm   
   formStyle="margin: 1rem auto;"  
   categoryLabel="Qu'est-ce qui vous amène chez InterMind aujourd'hui ?"  
   categoryPlaceholderText="Choisissez votre raison principale…"  

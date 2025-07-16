@@ -11,7 +11,7 @@ Mesajınızın doğru kişiye ulaşmasını sağlayacağız.
 
 <br>
 
-<ContactFormModalNav  
+<ContactForm  
   formStyle="margin: 1rem auto;"  
   categoryLabel="Bizimle iletişime geçme nedeniniz nedir?"  
   categoryPlaceholderText="Konunuzu seçin..."  

@@ -129,7 +129,7 @@ From first call to fluent conversations — at any scale.
 ]">
 <AuthButton text="Try for free" buttonClass="alt"/>
 <AuthButton text="Buy now" buttonClass="brand"/>
-<ContactFormModalNav buttonText="Talk to our team" buttonClass="alt"/>
+<ContactForm buttonText="Talk to our team" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 🔴 Free service imind.com is no longer supported.

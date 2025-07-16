@@ -1,0 +1,164 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="threadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="queueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D9488;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Input Audio Streams -->
+  <g>
+    <circle cx="80" cy="150" r="8" fill="#EF4444"/>
+    <circle cx="80" cy="200" r="8" fill="#EF4444"/>
+    <circle cx="80" cy="250" r="8" fill="#EF4444"/>
+    <text x="100" y="155" font-family="Arial" font-size="12" fill="#374151">ऑडियो स्ट्रीम 1</text>
+    <text x="100" y="205" font-family="Arial" font-size="12" fill="#374151">ऑडियो स्ट्रीम 2</text>
+    <text x="100" y="255" font-family="Arial" font-size="12" fill="#374151">ऑडियो स्ट्रीम N</text>
+  </g>
+
+  <!-- Stage 1: Speech-to-Text Pool -->
+  <rect x="250" y="120" width="150" height="160" rx="15" fill="url(#threadGrad)" opacity="0.9"/>
+  <text x="325" y="140" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">STT थ्रेड पूल</text>
+  
+  <rect x="260" y="150" width="130" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <text x="325" y="167" font-family="Arial" font-size="11" fill="white" text-anchor="middle">वर्कर 1</text>
+  
+  <rect x="260" y="180" width="130" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <text x="325" y="197" font-family="Arial" font-size="11" fill="white" text-anchor="middle">वर्कर 2</text>
+  
+  <rect x="260" y="210" width="130" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <text x="325" y="227" font-family="Arial" font-size="11" fill="white" text-anchor="middle">वर्कर N</text>
+  
+  <text x="325" y="255" font-family="Arial" font-size="10" fill="white" text-anchor="middle">95-98% सटीकता</text>
+
+  <!-- Queue 1 -->
+  <rect x="430" y="180" width="60" height="40" rx="8" fill="url(#queueGrad)"/>
+  <text x="460" y="195" font-family="Arial" font-size="10" fill="white" text-anchor="middle">टेक्स्ट</text>
+  <text x="460" y="210" font-family="Arial" font-size="10" fill="white" text-anchor="middle">क्यू</text>
+
+  <!-- Stage 2: Text Cleanup Pool -->
+  <rect x="520" y="120" width="150" height="160" rx="15" fill="url(#threadGrad)" opacity="0.9"/>
+  <text x="595" y="140" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">क्लीनअप पूल</text>
+  
+  <rect x="530" y="150" width="130" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <text x="595" y="167" font-family="Arial" font-size="11" fill="white" text-anchor="middle">प्रोसेसर 1</text>
+  
+  <rect x="530" y="180" width="130" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <text x="595" y="197" font-family="Arial" font-size="11" fill="white" text-anchor="middle">प्रोसेसर 2</text>
+  
+  <rect x="530" y="210" width="130" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <text x="595" y="227" font-family="Arial" font-size="11" fill="white" text-anchor="middle">प्रोसेसर N</text>
+  
+  <text x="595" y="255" font-family="Arial" font-size="10" fill="white" text-anchor="middle">क्लीनअप + निष्कर्षण</text>
+
+  <!-- Queue 2 -->
+  <rect x="700" y="180" width="60" height="40" rx="8" fill="url(#queueGrad)"/>
+  <text x="730" y="195" font-family="Arial" font-size="10" fill="white" text-anchor="middle">अनुवाद</text>
+  <text x="730" y="210" font-family="Arial" font-size="10" fill="white" text-anchor="middle">क्यू</text>
+
+  <!-- Stage 3: Translation Pool -->
+  <rect x="250" y="350" width="150" height="160" rx="15" fill="url(#threadGrad)" opacity="0.9"/>
+  <text x="325" y="370" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">अनुवाद पूल</text>
+  
+  <rect x="260" y="380" width="130" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <text x="325" y="397" font-family="Arial" font-size="11" fill="white" text-anchor="middle">अनुवादक 1</text>
+  
+  <rect x="260" y="410" width="130" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <text x="325" y="427" font-family="Arial" font-size="11" fill="white" text-anchor="middle">अनुवादक 2</text>
+  
+  <rect x="260" y="440" width="130" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <text x="325" y="457" font-family="Arial" font-size="11" fill="white" text-anchor="middle">अनुवादक N</text>
+  
+  <text x="325" y="485" font-family="Arial" font-size="10" fill="white" text-anchor="middle">94-97% सटीकता</text>
+
+  <!-- Queue 3 -->
+  <rect x="430" y="410" width="60" height="40" rx="8" fill="url(#queueGrad)"/>
+  <text x="460" y="425" font-family="Arial" font-size="10" fill="white" text-anchor="middle">स्पीच</text>
+  <text x="460" y="440" font-family="Arial" font-size="10" fill="white" text-anchor="middle">क्यू</text>
+
+  <!-- Stage 4: TTS Pool -->
+  <rect x="520" y="350" width="150" height="160" rx="15" fill="url(#threadGrad)" opacity="0.9"/>
+  <text x="595" y="370" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">TTS पूल</text>
+  
+  <rect x="530" y="380" width="130" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <text x="595" y="397" font-family="Arial" font-size="11" fill="white" text-anchor="middle">सिंथेसाइज़र 1</text>
+  
+  <rect x="530" y="410" width="130" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <text x="595" y="427" font-family="Arial" font-size="11" fill="white" text-anchor="middle">सिंथेसाइज़र 2</text>
+  
+  <rect x="530" y="440" width="130" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <text x="595" y="457" font-family="Arial" font-size="11" fill="white" text-anchor="middle">सिंथेसाइज़र N</text>
+  
+  <text x="595" y="485" font-family="Arial" font-size="10" fill="white" text-anchor="middle">प्राकृतिक भाषण</text>
+
+  <!-- Output -->
+  <g>
+    <circle cx="750" cy="380" r="8" fill="#10B981"/>
+    <circle cx="750" cy="430" r="8" fill="#10B981"/>
+    <circle cx="750" cy="480" r="8" fill="#10B981"/>
+    <text x="770" y="385" font-family="Arial" font-size="12" fill="#374151">आउटपुट स्पीच 1</text>
+    <text x="770" y="435" font-family="Arial" font-size="12" fill="#374151">आउटपुट स्पीच 2</text>
+    <text x="770" y="485" font-family="Arial" font-size="12" fill="#374151">आउटपुट स्पीच N</text>
+  </g>
+
+  <!-- Arrows -->
+  <!-- Input to STT -->
+  <path d="M 190 200 L 240 200" stroke="#6B7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- STT to Queue 1 -->
+  <path d="M 410 200 L 420 200" stroke="#6B7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Queue 1 to Cleanup -->
+  <path d="M 500 200 L 510 200" stroke="#6B7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Cleanup to Queue 2 -->
+  <path d="M 680 200 L 690 200" stroke="#6B7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Queue 2 to Translation (curved) -->
+  <path d="M 730 230 Q 730 290 325 340" stroke="#6B7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Translation to Queue 3 -->
+  <path d="M 410 430 L 420 430" stroke="#6B7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Queue 3 to TTS -->
+  <path d="M 500 430 L 510 430" stroke="#6B7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- TTS to Output -->
+  <path d="M 680 430 L 740 430" stroke="#6B7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6B7280" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial" font-size="18" font-weight="bold" fill="#1F2937" text-anchor="middle">मल्टीथ्रेडेड स्पीच प्रोसेसिंग पाइपलाइन</text>
+  
+  <!-- Subtitle -->
+  <text x="500" y="65" font-family="Arial" font-size="12" fill="#6B7280" text-anchor="middle">थ्रेड पूल और क्यू के साथ पाइपलाइन आर्किटेक्चर</text>
+
+  <!-- Key Features -->
+  <g>
+    <text x="50" y="580" font-family="Arial" font-size="14" font-weight="bold" fill="#1F2937">मुख्य विशेषताएं:</text>
+    <text x="50" y="605" font-family="Arial" font-size="12" fill="#374151">• प्रत्येक चरण के लिए थ्रेड पूल</text>
+    <text x="50" y="625" font-family="Arial" font-size="12" fill="#374151">• बफरिंग के लिए चरणों के बीच क्यू</text>
+    <text x="50" y="645" font-family="Arial" font-size="12" fill="#374151">• पाइपलाइन प्रोसेसिंग पैटर्न</text>
+    <text x="50" y="665" font-family="Arial" font-size="12" fill="#374151">• लोड के तहत स्केलेबिलिटी</text>
+    <text x="50" y="685" font-family="Arial" font-size="12" fill="#374151">• चरणों द्वारा विफलता अलगाव</text>
+  </g>
+
+  <!-- Performance Info -->
+  <g>
+    <text x="550" y="580" font-family="Arial" font-size="14" font-weight="bold" fill="#1F2937">प्रदर्शन:</text>
+    <text x="550" y="605" font-family="Arial" font-size="12" fill="#374151">• कई स्ट्रीम की समानांतर प्रोसेसिंग</text>
+    <text x="550" y="625" font-family="Arial" font-size="12" fill="#374151">• वर्कर्स के बीच लोड बैलेंसिंग</text>
+    <text x="550" y="645" font-family="Arial" font-size="12" fill="#374151">• क्यू के माध्यम से बैक प्रेशर</text>
+    <text x="550" y="665" font-family="Arial" font-size="12" fill="#374151">• प्रदर्शन निगरानी</text>
+  </g>
+</svg>

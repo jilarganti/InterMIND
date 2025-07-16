@@ -15,7 +15,7 @@ description: "هل لديك أسئلة حول الترجمة الفورية لل
 
 <br>
 
-<ContactFormModalNav  
+<ContactForm  
   formStyle="margin: 1rem auto;"  
   categoryLabel="عن ماذا تريد أن تتحدث؟"  
   categoryPlaceholderText="اختر موضوعك..."  

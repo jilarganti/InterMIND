@@ -11,7 +11,7 @@ Garantiremos que sua mensagem chegue à pessoa certa.
 
 <br>
 
-<ContactFormModalNav  
+<ContactForm  
   formStyle="margin: 1rem auto;"  
   categoryLabel="Qual é o motivo do seu contato?"  
   categoryPlaceholderText="Escolha seu tópico..."  

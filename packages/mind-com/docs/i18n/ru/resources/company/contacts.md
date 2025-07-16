@@ -15,7 +15,7 @@ description: "Есть вопросы о синхронном переводе �
 
 <br>
 
-<ContactFormModalNav  
+<ContactForm  
   formStyle="margin: 1rem auto;"  
   categoryLabel="О чем бы вы хотели поговорить?"  
   categoryPlaceholderText="Выберите тему..."  

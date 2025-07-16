@@ -156,11 +156,11 @@ Esta configuração única de idioma se aplica a:
 - A **entrada falada** (o que você fala)
 - A **saída traduzida** (o que você ouve)
 
-| Participante  | Idioma Selecionado | Fala Em   | Ouve Em   |
-| ------------- | ------------------ | --------- | --------- |
-| Anfitrião     | Espanhol           | Espanhol  | Espanhol  |
-| Participante 1| Inglês             | Inglês    | Inglês    |
-| Participante 2| Chinês             | Chinês    | Chinês    |
+| Participante   | Idioma Selecionado | Fala Em  | Ouve Em  |
+| -------------- | ------------------ | -------- | -------- |
+| Anfitrião      | Espanhol           | Espanhol | Espanhol |
+| Participante 1 | Inglês             | Inglês   | Inglês   |
+| Participante 2 | Chinês             | Chinês   | Chinês   |
 
 [A plataforma interpreta automaticamente toda a fala em tempo real](./product/overview/how-it-works) — então todos se comunicam como se falassem o mesmo idioma.
 
@@ -229,7 +229,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
 ]">
 <AuthButton text="Experimente grátis" buttonClass="brand" eventName="im_try_it_attempt"/>
 <AuthButton text="Comprar agora" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt"/>
-<ContactFormModalNav buttonText="Fale com nossa equipe" buttonClass="alt"/>
+<ContactForm buttonText="Fale com nossa equipe" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 😱 Ou você fala todos os idiomas — ou outra pessoa fecha seus negócios.

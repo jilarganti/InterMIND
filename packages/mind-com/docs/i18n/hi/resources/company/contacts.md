@@ -11,7 +11,7 @@ description: "InterMind के साथ साझेदारी करना �
 
 <br>
 
-<ContactFormModalNav  
+<ContactForm  
   formStyle="margin: 1rem auto;"  
   categoryLabel="आप हमसे संपर्क करने का क्या कारण है?"  
   categoryPlaceholderText="अपना विषय चुनें..."  

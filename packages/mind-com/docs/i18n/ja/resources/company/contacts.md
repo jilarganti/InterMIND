@@ -15,7 +15,7 @@ description: "AIによる会議通訳、多言語コラボレーション、企�
 
 <br>
 
-<ContactFormModalNav  
+<ContactForm  
   formStyle="margin: 1rem auto;"  
   categoryLabel="ご相談内容をお選びください"  
   categoryPlaceholderText="目的を選択してください..."  

@@ -129,7 +129,7 @@ description: "iMind에서 InterMIND로: 실시간 AI 기반 통역이 지원되�
 ]">
 <AuthButton text="무료로 체험하기" buttonClass="alt"/>
 <AuthButton text="지금 구매하기" buttonClass="brand"/>
-<ContactFormModalNav buttonText="팀과 상담하기" buttonClass="alt"/>
+<ContactForm buttonText="팀과 상담하기" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 🔴 무료 서비스 imind.com은 더 이상 지원되지 않습니다.

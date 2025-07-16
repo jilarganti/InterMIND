@@ -9,7 +9,7 @@ description: "AI-संचालित मीटिंग व्याख्य�
 
 <br>
 
-<ContactFormModalNav   
+<ContactForm   
   formStyle="margin: 1rem auto;"  
   categoryLabel="आज आपको InterMind तक क्या लेकर आया?"  
   categoryPlaceholderText="अपना मुख्य कारण चुनें…"  

@@ -9,7 +9,7 @@ description: "هل لديك أسئلة حول الترجمة الفورية لل
 
 <br>
 
-<ContactFormModalNav   
+<ContactForm   
   formStyle="margin: 1rem auto;"  
   categoryLabel="ما الذي يجلبك إلى InterMind اليوم؟"  
   categoryPlaceholderText="اختر السبب الرئيسي..."  

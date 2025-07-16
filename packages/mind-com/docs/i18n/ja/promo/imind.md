@@ -129,7 +129,7 @@ description: "iMindからInterMINDへ：リアルタイムAI通訳機能付き�
 ]">
 <AuthButton text="無料で試す" buttonClass="alt"/>
 <AuthButton text="今すぐ購入" buttonClass="brand"/>
-<ContactFormModalNav buttonText="チームに相談" buttonClass="alt"/>
+<ContactForm buttonText="チームに相談" buttonClass="alt"/>
 </PricingPlans>
 
 > [!warning] 🔴 無料サービス imind.com はサポートを終了しました。

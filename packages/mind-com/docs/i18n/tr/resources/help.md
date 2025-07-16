@@ -9,7 +9,7 @@ Hızlı, odaklı ve karşı tarafta gerçek bir insan ile.
 
 <br>
 
-<ContactFormModalNav   
+<ContactForm   
   formStyle="margin: 1rem auto;"  
   categoryLabel="Sizi bugün InterMind'a getiren nedir?"  
   categoryPlaceholderText="Ana nedeninizi seçin…"  
