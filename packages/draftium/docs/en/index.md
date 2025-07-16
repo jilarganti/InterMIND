@@ -34,7 +34,9 @@ From first call to fluent conversations — at any scale.
 
 ## Frequently Asked Questions
 
+<!-- <<< ./interpretating.svg -->
+
+<img src="./interpretating.svg" alt="Описание" width="auto" >
+
 <FAQSection />
 <HomeFooterSection />
-
-<<< ./FAQSection.vue
