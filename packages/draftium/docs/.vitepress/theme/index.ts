@@ -8,6 +8,7 @@ import sharedTheme from "shared"
 import { Icon } from "@iconify/vue"
 import AuthButton from "./components/AuthButton.vue"
 import ContactFormModalNav from "./components/ContactFormModalNav.vue"
+import MeetingInterface from "./components/MeetingInterface.vue"
 import AccountLayout from "./layouts/AccountLayout.vue"
 
 export default {
@@ -35,6 +36,7 @@ export default {
     app.component("AuthButton", AuthButton)
     app.component("ContactFormModalNav", ContactFormModalNav)
     app.component("AccountLayout", AccountLayout)
+    app.component("MeetingInterface", MeetingInterface)
     app.component("Icon", Icon)
   },
 }

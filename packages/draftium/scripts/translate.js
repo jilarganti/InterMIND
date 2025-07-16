@@ -156,11 +156,8 @@ async function getAllFiles(dir) {
     if (stat.isDirectory()) {
       files.push(...(await getAllFiles(fullPath)))
     } else {
-      // Проверяем только файлы с разрешенными расширениями
-      const ext = path.extname(item)
-      if (config.allowedExtensions.includes(ext)) {
-        files.push(fullPath)
-      }
+      // Возвращаем все файлы, не только с разрешенными расширениями
+      files.push(fullPath)
     }
   }
 
@@ -363,12 +360,28 @@ async function translateFile(file, targetPath, lang, firstModelKey) {
   }
 }
 
+async function copyAssetFile(sourceFile, targetPath) {
+  const startTime = Date.now()
+  
+  try {
+    fs.mkdirSync(path.dirname(targetPath), { recursive: true })
+    fs.copyFileSync(sourceFile, targetPath)
+    
+    const duration = ((Date.now() - startTime) / 1000).toFixed(1)
+    const relativePath = path.relative(config.rootDir, sourceFile)
+    console.log(`📄 ${relativePath} → copied (${duration}s)`)
+  } catch (error) {
+    const relativePath = path.relative(config.rootDir, sourceFile)
+    console.error(`❌ ${relativePath} → copy failed: ${error.message}`)
+  }
+}
+
 async function translateFiles() {
   try {
     const firstModelKey = Object.keys(config.models)[0]
     console.log(`💡 Начинаем перевод с модели: ${firstModelKey}`)
 
-    await syncFileStructure() // Добавляем сюда
+    await syncFileStructure()
     await cleanupTranslations()
 
     // Исходный конфиг берем из configDir
@@ -416,30 +429,47 @@ async function translateFiles() {
     }
 
     const files = await getAllFiles(config.rootDir)
-    console.log(`📝 Найдено ${files.length} файлов для перевода в ${config.rootDir}`)
+    console.log(`📝 Найдено ${files.length} файлов в ${config.rootDir}`)
 
-    const tasks = []
+    const translatableTasks = []
+    const assetTasks = []
 
     for (const [langCode, lang] of Object.entries(config.languages)) {
       for (const file of files) {
         const relativePath = path.relative(config.rootDir, file)
-
         const targetPath = path.join(config.rootTranslateDir, lang.code, relativePath)
+        const ext = path.extname(file)
 
-        if (await needsTranslation(file, targetPath)) {
-          tasks.push({ file, lang, targetPath })
+        if (config.allowedExtensions.includes(ext)) {
+          // Файл для перевода
+          if (await needsTranslation(file, targetPath)) {
+            translatableTasks.push({ file, lang, targetPath })
+          }
+        } else {
+          // Файл-ассет для копирования
+          if (await needsTranslation(file, targetPath)) {
+            assetTasks.push({ file, lang, targetPath })
+          }
         }
       }
     }
 
-    if (tasks.length === 0) {
-      console.log("✨ Все переводы актуальны!")
+    const totalTasks = translatableTasks.length + assetTasks.length
+
+    if (totalTasks === 0) {
+      console.log("✨ Все файлы актуальны!")
       return
     }
 
-    console.log(`⏳ Требуется перевести ${tasks.length} файлов`)
+    console.log(`⏳ Требуется обработать ${totalTasks} файлов (${translatableTasks.length} для перевода, ${assetTasks.length} для копирования)`)
 
-    for (const task of tasks) {
+    // Сначала копируем ассеты
+    for (const task of assetTasks) {
+      await copyAssetFile(task.file, task.targetPath)
+    }
+
+    // Затем переводим файлы
+    for (const task of translatableTasks) {
       await translateFile(task.file, task.targetPath, task.lang, firstModelKey)
     }
 

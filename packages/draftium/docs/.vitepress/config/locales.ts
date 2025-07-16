@@ -1,5 +1,5 @@
 import { en } from "./en"
-import { ar } from "./i18n/ar"
+// import { ar } from "./i18n/ar"
 // import { hi } from "./i18n/hi"
 // import { ur } from "./i18n/ur"
 // import { bn } from "./i18n/bn"
@@ -7,18 +7,18 @@ import { ar } from "./i18n/ar"
 // import { ta } from "./i18n/ta"
 // import { te } from "./i18n/te"
 // import { fa } from "./i18n/fa"
-import { zh } from "./i18n/zh"
-import { fr } from "./i18n/fr"
+// import { zh } from "./i18n/zh"
+// import { fr } from "./i18n/fr"
 import { ru } from "./i18n/ru"
 // import { uk } from "./i18n/uk"
 // import { tr } from "./i18n/tr"
 // import { ko } from "./i18n/ko"
-import { ja } from "./i18n/ja"
+// import { ja } from "./i18n/ja"
 // import { id } from "./i18n/id"
 // import { vi } from "./i18n/vi"
 // import { pt } from "./i18n/pt"
-import { es } from "./i18n/es"
-import { de } from "./i18n/de"
+// import { es } from "./i18n/es"
+// import { de } from "./i18n/de"
 
 interface LocaleSpecificConfig {
   name: string
@@ -28,13 +28,13 @@ interface LocaleSpecificConfig {
 
 export const locales: Record<string, LocaleSpecificConfig> = {
   root: { name: "English", label: "English", lang: "en-US", ...en },
-  es: { name: "Spanish", label: "Español", lang: "es-ES", ...es },
-  zh: { name: "Chinese (Simplified)", label: "中文", lang: "zh-CN", ...zh },
-  fr: { name: "French", label: "Français", lang: "fr-FR", ...fr },
-  ja: { name: "Japanese", label: "日本語", lang: "ja-JP", ...ja },
-  ar: { name: "Arabic (Gulf)", label: "اَلْعَرَبِيَّةُ", lang: "ar-AE", ...ar },
+  // es: { name: "Spanish", label: "Español", lang: "es-ES", ...es },
+  // zh: { name: "Chinese (Simplified)", label: "中文", lang: "zh-CN", ...zh },
+  // fr: { name: "French", label: "Français", lang: "fr-FR", ...fr },
+  // ja: { name: "Japanese", label: "日本語", lang: "ja-JP", ...ja },
+  // ar: { name: "Arabic (Gulf)", label: "اَلْعَرَبِيَّةُ", lang: "ar-AE", ...ar },
   ru: { name: "Russian", label: "Русский", lang: "ru-RU", ...ru },
-  de: { name: "German", label: "Deutsch", lang: "de-DE", ...de },
+  // de: { name: "German", label: "Deutsch", lang: "de-DE", ...de },
   // hi: { name: "Hindi", label: "हिन्दी", lang: "hi-IN", ...hi },
   // ur: { name: "Urdu", label: "اُردُو", lang: "ur-PK", ...ur },
   // bn: { name: "Bengali", label: "বাংলা", lang: "bn-BD", ...bn },
