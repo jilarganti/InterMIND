@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "translate": "node --no-deprecation scripts/translate",
+    "translate": "node --no-deprecation ../../scripts/translate.js ./scripts/translateConfig.js",
     "test:traffic-sources": "node --experimental-specifier-resolution=node --loader ts-node/esm __tests__/crm/test-traffic-sources.ts",
     "format": "prettier -w .",
     "lint": "pnpm eslint --cache ."

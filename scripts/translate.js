@@ -3,19 +3,29 @@ import OpenAI from "openai"
 import * as fs from "fs"
 import * as path from "path"
 import * as dotenv from "dotenv"
-import { config } from "./config.js"
-import { getPromptForTranslation } from "./prompt.js"
+import { fileURLToPath } from "url"
 
 dotenv.config()
 
-// let hasOpenAI = process.env.OPENAI_API_KEY
-// let hasAnthropic = process.env.ANTHROPIC_API_KEY
-// let hasXAI = process.env.XAI_API_KEY
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
-// if (!hasOpenAI && !hasAnthropic && !hasXAI) {
-//   console.error("❌ Добавьте API ключи в .env файл для LLM моделей")
-//   process.exit(1)
-// }
+// Получаем путь к конфигу из аргументов командной строки
+const configPath = process.argv[2] || "./config.js"
+const resolvedConfigPath = path.resolve(configPath)
+const { config } = await import(`file://${resolvedConfigPath}`)
+
+// Определяем базовую директорию конфига для правильного разрешения путей
+const configDir = path.dirname(resolvedConfigPath)
+
+// Функция для разрешения путей относительно конфига
+function resolveFromConfig(relativePath) {
+  return path.resolve(configDir, relativePath)
+}
+
+// Импорт prompt функции
+const promptModulePath = path.join(configDir, "translatePrompt.js")
+const { getPromptForTranslation } = await import(`file://${promptModulePath}`)
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
@@ -100,7 +110,12 @@ async function translateWithModel(model, content, targetLang, langCode) {
   }
 
   // Проверяем на неполный перевод
-  if (/\[[^[\]]+(\.\.\.|[?])\]/.test(translatedContent)) {
+  // if (/\[[^[\]]+(\.\.\.|[?])\]/.test(translatedContent)) {
+  //   throw new Error("Неполный перевод")
+  // }
+
+  // Проверяем что текст не заканчивается на неполный перевод
+  if (/\[[^<][^[\]]*?(\.\.\.|[?])\]\s*$/.test(translatedContent)) {
     throw new Error("Неполный перевод")
   }
 
@@ -135,7 +150,7 @@ function splitByH2(content) {
   return parts.map((part, i) => (i === 0 ? part.trim() : "## " + part.trim())).filter(Boolean)
 }
 
-async function getAllMarkdownFiles(dir) {
+async function getAllFiles(dir) {
   const files = []
   const items = fs.readdirSync(dir)
 
@@ -149,8 +164,9 @@ async function getAllMarkdownFiles(dir) {
     const stat = fs.statSync(fullPath)
 
     if (stat.isDirectory()) {
-      files.push(...(await getAllMarkdownFiles(fullPath)))
-    } else if (item.endsWith(".md")) {
+      files.push(...(await getAllFiles(fullPath)))
+    } else {
+      // Возвращаем все файлы, не только с разрешенными расширениями
       files.push(fullPath)
     }
   }
@@ -158,34 +174,35 @@ async function getAllMarkdownFiles(dir) {
   return files
 }
 
+/**
+ * @param {string} sourceFile
+ * @param {string} targetFile
+ * @returns {Promise<boolean>}
+ */
 async function needsTranslation(sourceFile, targetFile) {
   if (!fs.existsSync(targetFile)) {
-    console.log(`👻 Файл перевода не существует: ${targetFile}`)
     return true
   }
 
   const sourceStats = fs.statSync(sourceFile)
   const targetStats = fs.statSync(targetFile)
 
-  // Округляем до секунд для избежания проблем с миллисекундами
   const sourceTime = Math.floor(sourceStats.mtimeMs / 1000)
   const targetTime = Math.floor(targetStats.mtimeMs / 1000)
 
-  const needsUpdate = sourceTime > targetTime
-
-  if (needsUpdate) {
-    // console.log(`\n🔄 Требуется перевод:`)
-    // console.log(`Source: ${sourceFile}`)
-    // console.log(`- Modified: ${sourceStats.mtime.toLocaleString()}`)
-    // console.log(`Target: ${targetFile}`)
-    // console.log(`- Modified: ${targetStats.mtime.toLocaleString()}\n`)
-  }
-
-  return needsUpdate
+  return sourceTime > targetTime
 }
 
 async function syncFileStructure() {
   console.log("🔍 Синхронизация файловой структуры переводов...")
+
+  const rootDir = resolveFromConfig(config.rootDir)
+  const rootTranslateDir = resolveFromConfig(config.rootTranslateDir)
+
+  // Проверяем существование директорий
+  if (!fs.existsSync(rootDir)) {
+    throw new Error(`Исходная директория не найдена: ${rootDir}`)
+  }
 
   // Получаем структуру оригинальных файлов
   const originalFiles = new Set()
@@ -194,19 +211,19 @@ async function syncFileStructure() {
   function processOriginalPath(filePath) {
     originalFiles.add(filePath)
     let dir = path.dirname(filePath)
-    while (dir !== config.rootDir) {
+    while (dir !== rootDir) {
       originalDirs.add(dir)
       dir = path.dirname(dir)
     }
   }
 
   // Собираем все оригинальные пути
-  const files = await getAllMarkdownFiles(config.rootDir)
+  const files = await getAllFiles(rootDir)
   files.forEach(processOriginalPath)
 
   // Проверяем каждый язык
   for (const [langCode, lang] of Object.entries(config.languages)) {
-    const langDir = path.join(config.rootTranslateDir, lang.code) // добавляем lang.code
+    const langDir = path.join(rootTranslateDir, lang.code)
     if (!fs.existsSync(langDir)) continue
 
     console.log(`\n📂 Проверка структуры ${lang.name}...`)
@@ -222,7 +239,6 @@ async function syncFileStructure() {
         const fullPath = path.join(dir, item)
         const stat = fs.statSync(fullPath)
 
-        // Пропускаем исключенные пути
         if (config.exclude?.some((excluded) => fullPath.includes(excluded))) {
           continue
         }
@@ -231,26 +247,26 @@ async function syncFileStructure() {
           await checkTranslatedFiles(fullPath)
         } else {
           if (item.endsWith(".log")) {
-            // Удаляем .log файлы
             fs.unlinkSync(fullPath)
             removedLogs++
             console.log(`🗑️  Удален лог файл: ${path.relative(langDir, fullPath)}`)
-          } else if (item.endsWith(".md")) {
-            // Проверяем markdown файлы
-            const relativePath = path.relative(langDir, fullPath)
-            const originalPath = path.join(config.rootDir, relativePath)
+          } else {
+            const ext = path.extname(item)
+            if (config.allowedExtensions.includes(ext)) {
+              const relativePath = path.relative(langDir, fullPath)
+              const originalPath = path.join(rootDir, relativePath)
 
-            if (!originalFiles.has(originalPath)) {
-              fs.unlinkSync(fullPath)
-              removedFiles++
-              console.log(`🗑️  Удален устаревший файл: ${relativePath}`)
+              if (!originalFiles.has(originalPath)) {
+                fs.unlinkSync(fullPath)
+                removedFiles++
+                console.log(`🗑️  Удален устаревший файл: ${relativePath}`)
+              }
             }
           }
         }
       }
     }
 
-    // Сначала проверяем и удаляем файлы
     await checkTranslatedFiles(langDir)
 
     // Затем проверяем и удаляем пустые директории
@@ -261,7 +277,6 @@ async function syncFileStructure() {
         const fullPath = path.join(dir, item)
         if (fs.statSync(fullPath).isDirectory()) {
           removeEmptyDirs(fullPath)
-          // Проверяем, осталась ли директория пустой после рекурсии
           if (fs.readdirSync(fullPath).length === 0) {
             fs.rmdirSync(fullPath)
             removedDirs++
@@ -284,16 +299,16 @@ async function syncFileStructure() {
 async function cleanupTranslations() {
   console.log("🧹 Проверка устаревших конфигов...")
 
-  const configLangDir = path.join(config.configTranslateDir)
+  const configTranslateDir = resolveFromConfig(config.configTranslateDir)
 
-  if (!fs.existsSync(configLangDir)) {
+  if (!fs.existsSync(configTranslateDir)) {
     return
   }
 
   let totalRemoved = 0
   const removedFiles = []
 
-  const configFiles = fs.readdirSync(configLangDir)
+  const configFiles = fs.readdirSync(configTranslateDir)
   for (const file of configFiles) {
     if (!file.endsWith(".ts")) continue
     const langCode = file.replace(".ts", "")
@@ -302,7 +317,7 @@ async function cleanupTranslations() {
       continue
     }
 
-    const configPath = path.join(configLangDir, file)
+    const configPath = path.join(configTranslateDir, file)
     fs.unlinkSync(configPath)
     totalRemoved++
     removedFiles.push(configPath)
@@ -317,7 +332,14 @@ async function cleanupTranslations() {
   }
 }
 
-async function translateFile(file, targetPath, lang, firstModelKey) {
+/**
+ * @param {string} file
+ * @param {string} targetPath
+ * @param {Object} lang
+ * @param {string} firstModelKey
+ * @param {string} rootDir
+ */
+async function translateFile(file, targetPath, lang, firstModelKey, rootDir) {
   const startTime = Date.now()
   const content = fs.readFileSync(file, "utf8")
   let translatedContent = ""
@@ -330,24 +352,43 @@ async function translateFile(file, targetPath, lang, firstModelKey) {
       translatedContent += translatedPart + "\n\n"
     }
 
-    // Применяем все замены к переведенному контенту
     translatedContent = applyContentReplacements(translatedContent, lang.code)
 
     fs.mkdirSync(path.dirname(targetPath), { recursive: true })
     fs.writeFileSync(targetPath, translatedContent.trim())
 
     const duration = ((Date.now() - startTime) / 1000).toFixed(1)
-    const relativePath = path.relative(config.rootDir, file)
+    const relativePath = path.relative(rootDir, file)
     console.log(`✅ ${relativePath} → ${lang.name} (${duration}s)`)
   } catch (error) {
-    const relativePath = path.relative(config.rootDir, file)
+    const relativePath = path.relative(rootDir, file)
     console.error(`❌ ${relativePath} → ${lang.name}: ${error.message}`)
 
-    // Сохраняем промежуточный результат в лог при ошибке
     if (translatedContent.trim()) {
-      const logPath = targetPath.replace(".md", ".log")
+      const logPath = targetPath.replace(path.extname(targetPath), ".log")
       fs.writeFileSync(logPath, translatedContent.trim())
     }
+  }
+}
+
+/**
+ * @param {string} sourceFile
+ * @param {string} targetPath
+ * @param {string} rootDir
+ */
+async function copyAssetFile(sourceFile, targetPath, rootDir) {
+  const startTime = Date.now()
+
+  try {
+    fs.mkdirSync(path.dirname(targetPath), { recursive: true })
+    fs.copyFileSync(sourceFile, targetPath)
+
+    const duration = ((Date.now() - startTime) / 1000).toFixed(1)
+    const relativePath = path.relative(rootDir, sourceFile)
+    console.log(`📄 ${relativePath} → copied (${duration}s)`)
+  } catch (error) {
+    const relativePath = path.relative(rootDir, sourceFile)
+    console.error(`❌ ${relativePath} → copy failed: ${error.message}`)
   }
 }
 
@@ -356,11 +397,19 @@ async function translateFiles() {
     const firstModelKey = Object.keys(config.models)[0]
     console.log(`💡 Начинаем перевод с модели: ${firstModelKey}`)
 
-    await syncFileStructure() // Добавляем сюда
+    const rootDir = resolveFromConfig(config.rootDir)
+    const rootTranslateDir = resolveFromConfig(config.rootTranslateDir)
+    const configDirPath = resolveFromConfig(config.configDir)
+    const configTranslateDir = resolveFromConfig(config.configTranslateDir)
+
+    console.log(`📁 Исходная директория: ${rootDir}`)
+    console.log(`📁 Директория переводов: ${rootTranslateDir}`)
+
+    await syncFileStructure()
     await cleanupTranslations()
 
     // Исходный конфиг берем из configDir
-    const sourceConfigPath = path.join(config.configDir, "en.ts")
+    const sourceConfigPath = path.join(configDirPath, "en.ts")
     console.log(`📝 Переводим конфиги из ${sourceConfigPath}`)
 
     if (!fs.existsSync(sourceConfigPath)) {
@@ -371,7 +420,7 @@ async function translateFiles() {
       const sourceConfig = fs.readFileSync(sourceConfigPath, "utf8")
 
       for (const [langCode, lang] of Object.entries(config.languages)) {
-        const targetConfigPath = path.join(config.configTranslateDir, `${lang.code}.ts`)
+        const targetConfigPath = path.join(configTranslateDir, `${lang.code}.ts`)
 
         const startTime = Date.now()
 
@@ -382,13 +431,11 @@ async function translateFiles() {
 
         try {
           const translatedConfig = await translateMarkdown(sourceConfig, firstModelKey, lang.name, lang.code)
-
-          // Применяем все замены к переведенному конфигу
           const finalConfig = applyContentReplacements(translatedConfig, lang.code)
 
-          const configDir = path.dirname(targetConfigPath)
-          if (!fs.existsSync(configDir)) {
-            fs.mkdirSync(configDir, { recursive: true })
+          const configDirTarget = path.dirname(targetConfigPath)
+          if (!fs.existsSync(configDirTarget)) {
+            fs.mkdirSync(configDirTarget, { recursive: true })
           }
 
           fs.writeFileSync(targetConfigPath, finalConfig)
@@ -403,32 +450,45 @@ async function translateFiles() {
       console.error(`❌ Ошибка чтения конфига:`, error.message)
     }
 
-    const files = await getAllMarkdownFiles(config.rootDir)
-    console.log(`📝 Найдено ${files.length} markdown файлов в ${config.rootDir}`)
+    const files = await getAllFiles(rootDir)
+    console.log(`📝 Найдено ${files.length} файлов в ${rootDir}`)
 
-    const tasks = []
+    const translatableTasks = []
+    const assetTasks = []
 
     for (const [langCode, lang] of Object.entries(config.languages)) {
       for (const file of files) {
-        const relativePath = path.relative(config.rootDir, file)
+        const relativePath = path.relative(rootDir, file)
+        const targetPath = path.join(rootTranslateDir, lang.code, relativePath)
+        const ext = path.extname(file)
 
-        const targetPath = path.join(config.rootTranslateDir, lang.code, relativePath)
-
-        if (await needsTranslation(file, targetPath)) {
-          tasks.push({ file, lang, targetPath })
+        if (config.allowedExtensions.includes(ext)) {
+          if (await needsTranslation(file, targetPath)) {
+            translatableTasks.push({ file, lang, targetPath })
+          }
+        } else {
+          if (await needsTranslation(file, targetPath)) {
+            assetTasks.push({ file, lang, targetPath })
+          }
         }
       }
     }
 
-    if (tasks.length === 0) {
-      console.log("✨ Все переводы актуальны!")
+    const totalTasks = translatableTasks.length + assetTasks.length
+
+    if (totalTasks === 0) {
+      console.log("✨ Все файлы актуальны!")
       return
     }
 
-    console.log(`⏳ Требуется перевести ${tasks.length} файлов`)
+    console.log(`⏳ Требуется обработать ${totalTasks} файлов (${translatableTasks.length} для перевода, ${assetTasks.length} для копирования)`)
 
-    for (const task of tasks) {
-      await translateFile(task.file, task.targetPath, task.lang, firstModelKey)
+    for (const task of assetTasks) {
+      await copyAssetFile(task.file, task.targetPath, rootDir)
+    }
+
+    for (const task of translatableTasks) {
+      await translateFile(task.file, task.targetPath, task.lang, firstModelKey, rootDir)
     }
 
     console.log("\n✨ Готово!")
