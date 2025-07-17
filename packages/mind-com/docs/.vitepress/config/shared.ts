@@ -1,18 +1,14 @@
 import { defineConfig } from "vitepress"
 import markdownItFootnote from "markdown-it-footnote"
-import { fileURLToPath, URL } from "node:url"
 import { gtmHeadScript, gtmHeadNoScript } from "./gtm.config"
 import llmstxt from "vitepress-plugin-llms"
 
 const isProduction = process.env.VERCEL_ENV === "production"
 
 // Обновляем URL сайта документации
-const hostUrl = "https://mind.com"
-// const NOINDEX_PAGES = ["exp", "chat", "/company/", "promo/imind"]
+const SITE_URL = "https://mind.com"
 const NOINDEX_PAGES = ["exp/", "chat"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
-// Список UTM-параметров для сохранения в параметрах страницы
-const UTM_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "campaign_id"]
 
 // Определение констант для OAuth прямо в коде, так как это не закрытые данные
 const APP_DOMAIN = "inter.mind.com"
@@ -40,14 +36,8 @@ export const shared = defineConfig({
     const pagePath = pageData.relativePath.replace(/\.md$/, "").replace(/index$/, "")
     pageData.frontmatter.head ??= []
 
-    // Инициализируем params как пустой объект
-    pageData.params = {}
-
-    // Определяем язык из пути файла
-    const locale = pagePath.split("/")[0]
-
     // Добавляем dir: rtl для RTL языков
-    if (RTL_LOCALES.includes(locale)) {
+    if (RTL_LOCALES.includes(pagePath.split("/")[0])) {
       pageData.frontmatter.dir = "rtl"
     }
 
@@ -55,9 +45,6 @@ export const shared = defineConfig({
     if (NOINDEX_PAGES.some((path) => pagePath.includes(path)) || !isProduction) {
       pageData.frontmatter.head.push(["meta", { name: "robots", content: "noindex" }])
     }
-
-    // canonical link
-    // pageData.frontmatter.head.push(["link", { rel: "canonical", href: hostUrl + "/" + pagePath }])
   },
   markdown: {
     config: (md) => {
@@ -88,7 +75,7 @@ export const shared = defineConfig({
     ],
   },
   sitemap: {
-    hostname: hostUrl,
+    hostname: SITE_URL,
     // Убираем страницы noindex из sitemap.xml
     transformItems: (items) => items.filter((item) => !NOINDEX_PAGES.some((path) => item.url.includes(path))),
   },
@@ -98,7 +85,7 @@ export const shared = defineConfig({
     ["meta", { name: "theme-color", content: "#dd9144" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:site_name", content: "mind.com" }],
-    ["meta", { property: "og:url", content: hostUrl + "/" }],
+    ["meta", { property: "og:url", content: SITE_URL + "/" }],
     ...gtmHeadScript,
     ...gtmHeadNoScript,
   ],
