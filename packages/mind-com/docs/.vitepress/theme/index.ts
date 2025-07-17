@@ -2,17 +2,14 @@ import { h } from "vue"
 import { type App } from "vue"
 import DefaultTheme from "vitepress/theme"
 import { useData, inBrowser } from "vitepress"
-import { components } from "shared"
 import sharedTheme from "shared"
 import { Icon } from "@iconify/vue"
 import { inject } from "@vercel/analytics"
 import { injectSpeedInsights } from "@vercel/speed-insights"
 import AuthButton from "./components/AuthButton.vue"
 import ContactForm from "./components/ContactForm.vue"
-import ContactFormModalNav from "./components/ContactFormModalNav.vue"
-import "./styles/index.css"
 
-// const { SearchInput } = components
+import "./styles/index.css"
 
 // Добавляем элементы в макет
 export default {
@@ -35,7 +32,6 @@ export default {
     // Регистрация моих компонентов пакета
     app.component("AuthButton", AuthButton)
     app.component("ContactForm", ContactForm)
-    app.component("ContactFormModalNav", ContactFormModalNav)
 
     // Регистрация внешних компонентов пакета
     app.component("Icon", Icon)
