@@ -6,6 +6,7 @@ isHome: true
 
 <script setup>
 import HomeHeroSection from './HomeHeroSection.vue'
+import HomeUSPSection from './HomeUSPSection.vue'
 import HowItWorksSection from './HowItWorksSection.vue'
 import PricingPlansSection from './PricingPlansSection.vue'
 import FAQSection from './FAQSection.vue'
@@ -13,6 +14,7 @@ import HomeFooterSection from './HomeFooterSection.vue'
 </script>
 
 <HomeHeroSection />
+<HomeUSPSection />
 
 > [!tip] Who is this for?  
 > Built for **international teams** where language barriers cause **delays**, **lost deals**, or **costly misunderstandings**. [Learn more ...](./product/overview/markets)
