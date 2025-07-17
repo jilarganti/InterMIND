@@ -12,13 +12,12 @@ const RTL_LOCALES = ["ar", "fa", "ur"]
 const APP_DOMAIN = "inter.mind.com"
 const APP_DOMAIN_DEV = "dev.inter.mind.com"
 
-// Определение констант для OAuth прямо в коде, так как это не закрытые данные
+// Пути OAuth
 const isProduction = process.env.VERCEL_ENV === "production"
-
-const APP_BASE_URL = "https://" + (isProduction ? APP_DOMAIN : APP_DOMAIN_DEV)
-const OAUTH_PROVIDER_URL = APP_BASE_URL + "/auth"
-const CHECKOUT_URL = APP_BASE_URL + "/checkout"
-const OAUTH_CLIENT_ID = "vca"
+const appBaseUrl = "https://" + (isProduction ? APP_DOMAIN : APP_DOMAIN_DEV)
+const oauthProviderUrl = appBaseUrl + "/auth"
+const checkoutUrl = appBaseUrl + "/checkout"
+const oauthClientId = "vca"
 
 const vercelUrl = process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL
 const baseUrl = vercelUrl ? `https://${vercelUrl}` : "http://localhost:3000"
@@ -56,10 +55,10 @@ export default defineConfig({
     define: {
       "import.meta.env.VITE_IS_PROD": isProduction,
       "import.meta.env.VITE_BASE_URL": JSON.stringify(baseUrl),
-      "import.meta.env.VITE_OAUTH_PROVIDER_URL": JSON.stringify(OAUTH_PROVIDER_URL),
-      "import.meta.env.VITE_OAUTH_CLIENT_ID": JSON.stringify(OAUTH_CLIENT_ID),
-      "import.meta.env.VITE_APP_BASE_URL": JSON.stringify(APP_BASE_URL),
-      "import.meta.env.VITE_CHECKOUT_URL": JSON.stringify(CHECKOUT_URL),
+      "import.meta.env.VITE_OAUTH_PROVIDER_URL": JSON.stringify(oauthProviderUrl),
+      "import.meta.env.VITE_OAUTH_CLIENT_ID": JSON.stringify(oauthClientId),
+      "import.meta.env.VITE_APP_BASE_URL": JSON.stringify(appBaseUrl),
+      "import.meta.env.VITE_CHECKOUT_URL": JSON.stringify(checkoutUrl),
     },
 
     server: {
