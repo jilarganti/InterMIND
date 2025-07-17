@@ -1,12 +1,7 @@
 import type { HeadConfig } from "vitepress"
 
-const GTM_IDs = {
-  prod: "GTM-TV4L6B6W",
-  test: "GTM-5GGMB252",
-}
-
 // Use the production GTM ID if the environment is production, otherwise use the test GTM ID
-const GTM_ID_TO_USE = process.env.VERCEL_ENV === "production" ? GTM_IDs.prod : GTM_IDs.test
+const GTM_ID_TO_USE = process.env.GTM_ID
 
 export const gtmHeadScript: HeadConfig[] = [
   [
