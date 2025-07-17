@@ -21,7 +21,7 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 <HomeUSPSection />
 
 > [!tip] Who is this for?  
-> Built for **international teams** where language barriers cause **delays**, **lost deals**, or **costly misunderstandings**. [Learn more ...](./product/overview/markets)
+> Built for **international teams** where language barriers cause **delays**, **lost deals**, or **costly misunderstandings**. [Learn more ...](../product/overview/markets)
 
 ## Works Like Google Meet + Live Translation
 
@@ -55,7 +55,7 @@ This single language setting applies to:
 | Participant 1 | English           | English   | English  |
 | Participant 2 | Chinese           | Chinese   | Chinese  |
 
-[The platform automatically interprets all speech in real time](./product/overview/how-it-works) — so everyone communicates as if they spoke the same language.
+[The platform automatically interprets all speech in real time](../product/overview/how-it-works) — so everyone communicates as if they spoke the same language.
 
 ### Can you change your language during the call?
 
