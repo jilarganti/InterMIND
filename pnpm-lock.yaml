@@ -111,6 +111,9 @@ importers:
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
+      simple-git-hooks:
+        specifier: ^2.13.0
+        version: 2.13.0
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.15.31)(typescript@5.8.3)
@@ -144,10 +147,6 @@ importers:
       shared:
         specifier: workspace:*
         version: link:../../shared
-    devDependencies:
-      simple-git-hooks:
-        specifier: ^2.13.0
-        version: 2.13.0
 
   shared: {}
 
