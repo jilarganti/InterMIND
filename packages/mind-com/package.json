@@ -9,9 +9,16 @@
     "translate": "node ../../scripts/translate.js ./scripts/translateConfig.js",
     "test:traffic-sources": "node --experimental-specifier-resolution=node --loader ts-node/esm __tests__/test-traffic-sources.ts",
     "format": "prettier -w .",
-    "lint": "pnpm eslint --cache ."
+    "lint": "pnpm eslint --cache .",
+    "prepare": "simple-git-hooks"
   },
   "dependencies": {
     "shared": "workspace:*"
+  },
+  "devDependencies": {
+    "simple-git-hooks": "^2.13.0"
+  },
+  "simple-git-hooks": {
+    "pre-push": "pnpm --filter mind-com build"
   }
 }
