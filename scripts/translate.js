@@ -5,7 +5,7 @@ import * as path from "path"
 import * as dotenv from "dotenv"
 import { fileURLToPath } from "url"
 
-dotenv.config()
+dotenv.config({ path: [".env.local", ".env"] })
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
