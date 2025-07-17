@@ -5,7 +5,11 @@ import * as path from "path"
 import * as dotenv from "dotenv"
 import { fileURLToPath } from "url"
 
-dotenv.config({ path: [".env.local", ".env"] })
+/**
+ * Run "vercal pull" to load environment variables
+ * @see https://vercel.com/docs/cli/pull
+ */
+dotenv.config({ path: [".vercel/.env.development.local", ".env.local"] })
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
