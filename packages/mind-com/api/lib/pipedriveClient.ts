@@ -1,4 +1,3 @@
-// @ts-ignore
 import Pipedrive from "pipedrive"
 
 const getApiClient = () => {
