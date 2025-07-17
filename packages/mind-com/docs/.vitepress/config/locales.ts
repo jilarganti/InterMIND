@@ -10,15 +10,6 @@ import { ja } from "./i18n/ja"
 import { pt } from "./i18n/pt"
 import { es } from "./i18n/es"
 import { de } from "./i18n/de"
-// import { ur } from "./i18n/ur"
-// import { bn } from "./i18n/bn"
-// import { ml } from "./i18n/ml"
-// import { ta } from "./i18n/ta"
-// import { te } from "./i18n/te"
-// import { fa } from "./i18n/fa"
-// import { uk } from "./i18n/uk"
-// import { id } from "./i18n/id"
-// import { vi } from "./i18n/vi"
 
 interface LocaleSpecificConfig {
   name: string

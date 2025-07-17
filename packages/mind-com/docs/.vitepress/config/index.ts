@@ -1,8 +1,8 @@
 import { defineConfig } from "vitepress"
 import markdownItFootnote from "markdown-it-footnote"
-import { gtmHeadScript, gtmHeadNoScript } from "./gtm.config"
 import llmstxt from "vitepress-plugin-llms"
 import { locales } from "./locales"
+// import type { HeadConfig } from "vitepress"
 
 // Константы интеграции и настройки сайта
 // Эти данные не должны содержать секретов, так как они будут доступны в клиентском код
@@ -11,6 +11,7 @@ const NOINDEX_PAGES = ["exp/", "chat"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
 const APP_DOMAIN = "inter.mind.com"
 const APP_DOMAIN_DEV = "dev.inter.mind.com"
+const GTM_ID_TO_USE = process.env.GTM_ID
 
 // Пути OAuth
 const isProduction = process.env.VERCEL_ENV === "production"
@@ -28,10 +29,12 @@ export default defineConfig({
   cleanUrls: true,
   metaChunk: true,
   locales, // Используем локализацию из locales.ts
+
   rewrites: {
     "en/:rest*": ":rest*",
     "i18n/:locale/:rest*": ":locale/:rest*",
   },
+
   transformPageData(pageData, ctx) {
     const pagePath = pageData.relativePath.replace(/\.md$/, "").replace(/index$/, "")
     pageData.frontmatter.head ??= []
@@ -46,11 +49,13 @@ export default defineConfig({
       pageData.frontmatter.head.push(["meta", { name: "robots", content: "noindex" }])
     }
   },
+
   markdown: {
     config: (md) => {
       md.use(markdownItFootnote)
     },
   },
+
   vite: {
     define: {
       "import.meta.env.VITE_IS_PROD": isProduction,
@@ -60,7 +65,6 @@ export default defineConfig({
       "import.meta.env.VITE_APP_BASE_URL": JSON.stringify(appBaseUrl),
       "import.meta.env.VITE_CHECKOUT_URL": JSON.stringify(checkoutUrl),
     },
-
     server: {
       proxy: {
         "/api": { target: baseUrl, changeOrigin: true },
@@ -74,10 +78,15 @@ export default defineConfig({
         }),
     ],
   },
+
   sitemap: {
     hostname: SITE_URL,
     // Убираем страницы noindex из sitemap.xml
     transformItems: (items) => items.filter((item) => !NOINDEX_PAGES.some((path) => item.url.includes(path))),
+  },
+
+  themeConfig: {
+    logo: { light: "/logo.svg", dark: "/logo.svg" },
   },
 
   head: [
@@ -86,10 +95,24 @@ export default defineConfig({
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:site_name", content: "mind.com" }],
     ["meta", { property: "og:url", content: SITE_URL + "/" }],
-    ...gtmHeadScript,
-    ...gtmHeadNoScript,
+    [
+      "script",
+      {},
+      `
+      (function() {
+        // Google Tag Manager main script
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','${GTM_ID_TO_USE}');
+      })();
+      `,
+    ],
+    [
+      "noscript",
+      {},
+      `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID_TO_USE}" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
+    ],
   ],
-  themeConfig: {
-    logo: { light: "/logo.svg", dark: "/logo.svg" },
-  },
 })
