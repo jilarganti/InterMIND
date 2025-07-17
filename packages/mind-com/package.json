@@ -19,6 +19,7 @@
     "simple-git-hooks": "^2.13.0"
   },
   "simple-git-hooks": {
+    "pre-commit": "pnpm --filter mind-com format",
     "pre-push": "pnpm --filter mind-com build"
   }
 }
