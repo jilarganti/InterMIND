@@ -1,36 +1,34 @@
 ---
-# footer: false
-# sidebar: false
-# aside: false
-# next: false
-hideComponents:
-  - NavButton
-
-description: "Haben Sie Fragen zur KI-gestützten Meetingdolmetschung, mehrsprachiger Zusammenarbeit oder Unternehmensimplementierung? Kontaktieren Sie InterMind, um Ihren Anwendungsfall, Integration oder Team-Onboarding zu besprechen."
+description: "Möchten Sie mit InterMind zusammenarbeiten, investieren oder unser Führungsteam erreichen? Nutzen Sie dieses Formular für Geschäftsanfragen, Medienanfragen oder rechtliche Angelegenheiten."
 ---
 
-# 🤝 Benötigen Sie sofortige mehrsprachige Meetings? Sprechen wir darüber.
+# 🤝 Möchten Sie InterMind erreichen? Lassen Sie uns in Kontakt treten.
 
-Egal ob Sie InterMind für Ihr globales Team erkunden oder Dolmetschung in Ihr Produkt integrieren möchten — wir helfen Ihnen gerne weiter.
+Nutzen Sie dieses Formular, um unser Unternehmensteam direkt zu kontaktieren —  
+für Partnerschaften, Investitionen, Medien, Compliance oder andere geschäftsbezogene Angelegenheiten.
+
+Wir sorgen dafür, dass Ihre Nachricht die richtige Person erreicht.
 
 <br>
 
-<ContactFormModalNav  
+<ContactForm
   formStyle="margin: 1rem auto;"  
-  categoryLabel="Worüber möchten Sie sprechen?"  
-  categoryPlaceholderText="Wählen Sie Ihren Schwerpunkt..."  
+  categoryLabel="Was ist Ihr Grund für die Kontaktaufnahme?"  
+  categoryPlaceholderText="Wählen Sie Ihr Thema..."  
   messageLabel="Nachricht (optional)"  
-  messagePlaceholderText="Sie können gerne Ihren Anwendungsfall, Zeitplan oder andere relevante Informationen hinzufügen."  
-  buttonText="Kontaktieren Sie unser Team"  
+  messagePlaceholderText="Teilen Sie relevante Hintergrundinformationen, Zeitpläne oder Kontext mit, den wir berücksichtigen sollen."  
+  buttonText="Nachricht senden"  
   :services="[
-    'Ich möchte Anwendungsfälle für mein Team erkunden',
-    'Ich möchte eine Demo anfragen',
-    'Ich suche nach Optionen für die Unternehmenseinführung',
-    'Ich habe Fragen zu Preisen oder Funktionen',
+    'Ich möchte eine Partnerschaft erkunden',
+    'Ich bin an einer Investition interessiert',
+    'Ich habe eine Medien- oder PR-Anfrage',
+    'Ich habe eine rechtliche oder Compliance-Angelegenheit',
+    'Ich möchte Missbrauch oder Fehlverhalten melden',
     'Etwas anderes'
   ]"
 />
 
 <br>
 
-> [!note] Wir antworten in der Regel innerhalb eines Werktages. Ihre Anfrage wird von einem echten Menschen geprüft — nicht von einem Bot.
+> [!tip] Benötigen Sie produktbezogene Hilfe?  
+> Besuchen Sie unsere [Support-Seite](../help) für schnelle Antworten und Unterstützung vom InterMind-Team.

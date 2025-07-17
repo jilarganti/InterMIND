@@ -11,7 +11,7 @@ Garantiremos que sua mensagem chegue à pessoa certa.
 
 <br>
 
-<ContactForm  
+<ContactForm
   formStyle="margin: 1rem auto;"  
   categoryLabel="Qual é o motivo do seu contato?"  
   categoryPlaceholderText="Escolha seu tópico..."  
@@ -24,7 +24,7 @@ Garantiremos que sua mensagem chegue à pessoa certa.
     'Tenho uma consulta de mídia ou RP',
     'Tenho uma questão legal ou de conformidade',
     'Quero reportar abuso ou má conduta',
-    'Algo mais'
+    'Outra coisa'
   ]"
 />
 

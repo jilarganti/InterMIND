@@ -11,7 +11,7 @@ Nos aseguraremos de que tu mensaje llegue a la persona correcta.
 
 <br>
 
-<ContactForm  
+<ContactForm
   formStyle="margin: 1rem auto;"  
   categoryLabel="¿Cuál es tu motivo para contactarnos?"  
   categoryPlaceholderText="Elige tu tema..."  
@@ -31,4 +31,4 @@ Nos aseguraremos de que tu mensaje llegue a la persona correcta.
 <br>
 
 > [!tip] ¿Necesitas ayuda relacionada con el producto?  
-> Visita nuestra [página de soporte](../help) para respuestas rápidas y asistencia del equipo de InterMind.
+> Visita nuestra [Página de Soporte](../help) para respuestas rápidas y asistencia del equipo de InterMind.

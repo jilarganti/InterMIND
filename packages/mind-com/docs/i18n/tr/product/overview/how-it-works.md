@@ -1,6 +1,6 @@
 # Yapay zeka gerçek zamanlı çevirisi nasıl çalışır
 
-## Kendi Dilinizde Konuşun ve Dinleyin
+## Kendi dilinizde konuşun ve dinleyin
 
 InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcılı bir video konferans platformudur. Her katılımcı **kendi ana dilinde** konuşabilir ve diğerlerini duyabilir, böylece dil engellerinin olmadığı doğal iletişim etkisi yaratılır.
 
@@ -9,7 +9,7 @@ InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcıl
 <!-- :::details Show diagram of AI translation process
 ::: -->
 
-![](/interpretating.svg)
+![](./interpretating.svg)
 
 ### 1. **Konuşma Tanıma (Konuşmadan Metne)**
 
@@ -24,7 +24,7 @@ InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcıl
 - **Tanıma hatası düzeltme**: bağlam tabanlı düzeltme
 - **Noktalama ve yapılandırma**: otomatik noktalama yerleştirme
 - **Ana anlam çıkarma**: birincil ve ikincil düşüncelerin belirlenmesi
-- **Söylem segmentasyonu**: doğru çeviri için mantıklı bloklara ayırma
+- **Söylem segmentasyonu**: doğru çeviri için mantıksal bloklara ayırma
 - **Bağlamsal analiz**: önceki açıklamalar ve genel konu ile bağlantı kurma
 
 ### 3. **Sinir Ağı Çevirisi**
@@ -84,7 +84,7 @@ Tüm bunlar **3 saniyenin altında gecikme** ile gerçekleşir — profesyonel s
 
 > [!info] Teknik Mimari
 >
-> Tüm ses/video yönlendirmesi, şunları sağlamak için şirket içinde geliştirilen özel Mind API'miz aracılığıyla gerçekleştirilir:
+> Tüm ses/video yönlendirmesi, şunları sağlamak için şirket içinde geliştirilen özel Mind API'miz aracılığıyla işlenir:
 >
 > - **Performans**: 1000+ paralel akış işleme
 > - **Veri egemenliği**: seçilen bölgede depolama

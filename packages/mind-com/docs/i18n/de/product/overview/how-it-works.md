@@ -9,20 +9,20 @@ InterMind ist eine Multi-User-Videokonferenzplattform mit **sofortiger bidirekti
 <!-- :::details Show diagram of AI translation process
 ::: -->
 
-![](/interpretating.svg)
+![](./interpretating.svg)
 
 ### 1. **Spracherkennung (Speech-to-Text)**
 
 - Streaming-Erkennung mit Transformer-Modellen
 - Verarbeitung von Rauschen und Hintergrundgeräuschen
-- Unterstützung für Fachterminologie und Jargon
+- Unterstützung für technische Terminologie und Fachjargon
 - Erkennungsgenauigkeit: **95-98%** für Hauptsprachen
 
 ### 2. **Textnachbearbeitung (Textbereinigung & semantische Analyse)**
 
 - **Entfernung von Sprachfehlern**: Eliminierung von "äh", "ähm", Wiederholungen, Stottern
 - **Korrektur von Erkennungsfehlern**: kontextbasierte Korrektur
-- **Zeichensetzung und Strukturierung**: automatische Platzierung von Satzzeichen
+- **Zeichensetzung und Strukturierung**: automatische Zeichensetzung
 - **Extraktion der Kernbedeutung**: Identifikation von Haupt- und Nebengedanken
 - **Äußerungssegmentierung**: Aufteilung in logische Blöcke für präzise Übersetzung
 - **Kontextuelle Analyse**: Verknüpfung mit vorherigen Bemerkungen und dem Gesamtthema
@@ -49,7 +49,7 @@ All dies geschieht mit **Latenz unter 3 Sekunden** — entspricht der Geschwindi
 
 - **Rauschfilterung**: automatische Entfernung von Husten, Lachen, Hintergrundgesprächen
 - **Intelligente Zeichensetzung**: Erkennung von intonatorischen Pausen und logischen Betonungen
-- **Fehlerkorrektur**: Behebung von Tippfehlern und Erkennungsungenauigkeiten in Echtzeit
+- **Fehlerkorrektur**: Behebung von Tippfehlern und Erkennungsungenauigkeiten im laufenden Betrieb
 - **Semantische Komprimierung**: Bedeutungserhaltung bei gleichzeitiger Redundanzentfernung
 
 ### Für Unternehmen:
@@ -77,7 +77,7 @@ All dies geschieht mit **Latenz unter 3 Sekunden** — entspricht der Geschwindi
 
 ### Übersetzungsqualität:
 
-- **Genauigkeit**: 94-97% Korrektheit bei Geschäftsgesprächen
+- **Genauigkeit**: 94-97% Korrektheit für Geschäftsgespräche
 - **Kontext**: Kontextverständnis während des gesamten Meetings
 - **Terminologie**: adaptive Wörterbücher für jede Branche
 - **Feedback**: Benutzer-Qualitätsbewertungssystem

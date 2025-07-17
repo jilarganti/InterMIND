@@ -1,19 +1,19 @@
 ---
-description: "InterMind와 파트너십을 맺거나 투자하고 싶으시거나 경영진에게 연락하고 싶으신가요? 비즈니스 문의, 미디어 요청 또는 법적 사안을 위해 이 양식을 사용하세요."
+description: "InterMind와 파트너십을 맺거나 투자하고 싶으시거나 경영진에게 연락하고 싶으신가요? 비즈니스 문의, 미디어 요청 또는 법적 사안에 대해 이 양식을 사용하세요."
 ---
 
 # 🤝 InterMind에 연락하고 싶으신가요? 함께 소통해요.
 
 이 양식을 사용하여 저희 회사 팀에 직접 연락하세요 —  
-파트너십, 투자, 미디어, 컴플라이언스 또는 기타 비즈니스 관련 사안을 위해.
+파트너십, 투자, 미디어, 컴플라이언스 또는 기타 비즈니스 관련 사안에 대해.
 
 귀하의 메시지가 적절한 담당자에게 전달되도록 하겠습니다.
 
 <br>
 
-<ContactForm  
+<ContactForm
   formStyle="margin: 1rem auto;"  
-  categoryLabel="저희에게 연락하시는 이유가 무엇인가요?"  
+  categoryLabel="저희에게 연락하시는 이유는 무엇인가요?"  
   categoryPlaceholderText="주제를 선택하세요..."  
   messageLabel="메시지 (선택사항)"  
   messagePlaceholderText="저희가 고려했으면 하는 관련 배경, 일정 또는 상황을 공유해 주세요."  
@@ -31,4 +31,4 @@ description: "InterMind와 파트너십을 맺거나 투자하고 싶으시거�
 <br>
 
 > [!tip] 제품 관련 도움이 필요하신가요?  
-> 빠른 답변과 InterMind 팀의 지원을 위해 저희 [지원 페이지](../help)를 방문하세요.
+> InterMind 팀의 빠른 답변과 지원을 위해 저희 [지원 페이지](../help)를 방문하세요.

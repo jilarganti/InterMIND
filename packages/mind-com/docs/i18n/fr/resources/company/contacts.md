@@ -1,36 +1,34 @@
 ---
-# footer: false
-# sidebar: false
-# aside: false
-# next: false
-hideComponents:
-  - NavButton
-
-description: "Vous avez des questions sur l'interprétation de réunions par IA, la collaboration multilingue ou le déploiement en entreprise ? Contactez InterMind pour discuter de votre cas d'utilisation, de l'intégration ou de l'intégration de votre équipe."
+description: "Vous souhaitez vous associer avec InterMind, investir ou contacter notre équipe dirigeante ? Utilisez ce formulaire pour les demandes commerciales, les requêtes médias ou les questions juridiques."
 ---
 
-# 🤝 Besoin de réunions multilingues instantanées ? Parlons-en.
+# 🤝 Vous souhaitez contacter InterMind ? Connectons-nous.
 
-Que vous exploriez InterMind pour votre équipe internationale ou que vous cherchiez à intégrer l'interprétation dans votre produit — nous sommes là pour vous aider.
+Utilisez ce formulaire pour contacter directement notre équipe —  
+pour les partenariats, les investissements, les médias, la conformité ou d'autres questions liées aux affaires.
+
+Nous nous assurerons que votre message parvienne à la bonne personne.
 
 <br>
 
-<ContactForm  
+<ContactForm
   formStyle="margin: 1rem auto;"  
-  categoryLabel="De quoi souhaitez-vous parler ?"  
+  categoryLabel="Quelle est votre raison de nous contacter ?"  
   categoryPlaceholderText="Choisissez votre sujet..."  
-  messageLabel="Message (facultatif)"  
-  messagePlaceholderText="N\'hésitez pas à inclure votre cas d\'utilisation, le calendrier ou toute autre information que vous souhaitez partager."  
-  buttonText="Contactez notre équipe"  
+  messageLabel="Message (optionnel)"  
+  messagePlaceholderText="Partagez tout contexte pertinent, délais ou informations que vous aimeriez que nous considérions."  
+  buttonText="Envoyer votre message"  
   :services="[
-    'Je veux explorer les cas d\'utilisation pour mon équipe',
-    'Je souhaite demander une démonstration',
-    'Je recherche des options de déploiement entreprise',
-    'J\'ai des questions sur les prix ou les fonctionnalités',
+    'Je souhaite explorer un partenariat',
+    'Je suis intéressé(e) par un investissement',
+    'J\'ai une demande média ou RP',
+    'J\'ai une question juridique ou de conformité',
+    'Je veux signaler un abus ou une faute',
     'Autre chose'
   ]"
 />
 
 <br>
 
-> [!note] Nous répondons généralement sous un jour ouvrable. Votre demande sera examinée par un humain — pas par un robot.
+> [!tip] Besoin d'aide liée au produit ?  
+> Visitez notre [Page d'assistance](../help) pour des réponses rapides et l'aide de l'équipe InterMind.

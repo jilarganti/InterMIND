@@ -2,7 +2,7 @@
 description: "InterMind ile ortaklık kurmak, yatırım yapmak veya yönetim ekibimize ulaşmak mı istiyorsunuz? İş talepleri, medya istekleri veya hukuki konular için bu formu kullanın."
 ---
 
-# 🤝 InterMind'a Ulaşmak mı İstiyorsunuz? Hadi Bağlanalım.
+# 🤝 InterMind'e Ulaşmak mı İstiyorsunuz? Hadi Bağlanalım.
 
 Şirket ekibimizle doğrudan iletişim kurmak için bu formu kullanın —  
 ortaklıklar, yatırımlar, medya, uyumluluk veya diğer işle ilgili konular için.
@@ -11,7 +11,7 @@ Mesajınızın doğru kişiye ulaşmasını sağlayacağız.
 
 <br>
 
-<ContactForm  
+<ContactForm
   formStyle="margin: 1rem auto;"  
   categoryLabel="Bizimle iletişime geçme nedeniniz nedir?"  
   categoryPlaceholderText="Konunuzu seçin..."  
