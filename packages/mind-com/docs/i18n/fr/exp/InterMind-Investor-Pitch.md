@@ -1,4 +1,4 @@
-# Présentation investisseur InterMind : briser la barrière linguistique pour les entreprises mondiales
+# Présentation investisseur InterMind : Briser la barrière linguistique pour les entreprises mondiales <Badge type="warning" text="draft" />
 
 ## Problème : La langue reste un obstacle de 100 milliards de dollars
 
@@ -12,23 +12,23 @@ Malgré la mondialisation et les outils de visioconférence, **la langue demeure
 
 ## Solution : InterMind = Google Meet + Interprète IA
 
-Une plateforme vidéo de qualité professionnelle qui permet à **chaque participant de parler et d'entendre dans sa propre langue** — instantanément, avec précision et en toute confidentialité.
+Une plateforme vidéo de niveau professionnel qui permet à **chaque participant de parler et d'entendre dans sa propre langue** — instantanément, avec précision et en privé.
 
 ### Fonctionnalités clés
 
 - Interprétation simultanée alimentée par l'IA
-- Planification, modération et partage d'écran intégrés
+- Planification intégrée, modération et partage d'écran
 - Infrastructure mondiale sécurisée avec zones de confidentialité (UE, États-Unis, Asie)
 - Prêt pour l'entreprise : plus de 500 participants, transcriptions consultables, intégrations API
 
 ## Marché : Besoin urgent dans le commerce B2B mondial
 
-| Segment        | Pays               | Cas d'usage                              | Point de friction                   |
-| -------------- | ------------------ | ---------------------------------------- | ----------------------------------- |
-| Fabrication    | CN, IN, MX, TH, ID | Communication usine-client               | Spécifications perdues en traduction|
-| Exportations   | BR, CL, ES, CO     | Ventes et démos aux acheteurs anglophones| Affaires ratées par barrières linguistiques |
-| Automobile     | DE, JP, KR         | Négociations fournisseurs transfrontalières | Interprètes coûteux, cycles lents |
-| Sièges sociaux | US, UK, AU         | Réunions d'équipes mondiales             | Temps perdu à changer de langue     |
+| Segment        | Pays               | Cas d'usage                              | Point de friction                        |
+| -------------- | ------------------ | ---------------------------------------- | ---------------------------------------- |
+| Fabrication    | CN, IN, MX, TH, ID | Communication usine-client               | Spécifications perdues dans la traduction |
+| Exportations   | BR, CL, ES, CO     | Ventes et démos aux acheteurs anglophones | Affaires ratées à cause des barrières linguistiques |
+| Automobile     | DE, JP, KR         | Négociations fournisseurs transfrontalières | Interprètes coûteux, cycles lents       |
+| Sièges sociaux | US, UK, AU         | Réunions d'équipes mondiales             | Temps perdu à changer de langue          |
 
 TAM estimé : **27 Md$+** marché d'activation de la communication B2B (source : CSA Research, Gartner)
 
@@ -38,7 +38,7 @@ TAM estimé : **27 Md$+** marché d'activation de la communication B2B (source :
 2. **Rejoint ou démarre une réunion**
 3. **Parle naturellement** — les autres participants entendent le message **dans leur propre langue**
 
-Soutenu par une pile technologique propriétaire :
+Soutenu par une pile propriétaire :
 
 - Reconnaissance vocale → nettoyage sémantique → traduction basée sur LLM → synthèse vocale
 - Latence : moins de 3 secondes
@@ -55,7 +55,7 @@ Soutenu par une pile technologique propriétaire :
 - **Thaïlande → Fabrication mondiale et logistique**
 - **Indonésie → Exportations technologiques et industrielles en croissance**
 
-### Stratégie de mise sur le marché
+### Mise sur le marché
 
 - Recherche payante : requêtes localisées à forte intention ("como hablar ingles reuniones negocios")
 - Partenariats B2B : ERP, CRM, programmes d'aide à l'exportation
@@ -90,14 +90,14 @@ InterMind est approuvé par **les entreprises où la confidentialité n'est pas 
 - Technologie propriétaire, pas des surcouches d'APIs tierces
 - Différenciation intégrée : confidentialité, évolutivité, UX, latence
 
-## Projections financières (années 1–3)
+## Projections financières (années 1 à 3)
 
 | Métrique       | Année 1 | Année 2  | Année 3 |
 | -------------- | ------- | -------- | ------- |
 | Utilisateurs   | 20K     | 120K     | 400K    |
-| ARR            | 2,1M $  | 11,6M $  | 38M $   |
-| CAC (moyenne)  | 52 $    | 45 $     | 39 $    |
-| LTV            | 420 $   | 480 $    | 620 $   |
+| ARR            | \$2.1M  | \$11.6M  | \$38M   |
+| CAC (moyenne)  | \$52    | \$45     | \$39    |
+| LTV            | \$420   | \$480    | \$620   |
 | Marge brute    | 78%     | 82%      | 85%     |
 
 Nous commençons des pilotes de mise sur le marché au Mexique, au Brésil, en Turquie, en Thaïlande et en Indonésie — ciblant des régions avec un volume élevé de commerce B2B et une faible maîtrise de l'anglais.
@@ -110,7 +110,7 @@ Nous commençons des pilotes de mise sur le marché au Mexique, au Brésil, en T
 
 ## Demande
 
-- Levée de fonds **\$3,5M en amorçage** pour :
+- Levée de fonds **\$3,5M Seed** pour :
 
   - Élargir les équipes d'ingénierie et de conformité à la confidentialité
   - Localiser la plateforme pour 10 nouveaux marchés

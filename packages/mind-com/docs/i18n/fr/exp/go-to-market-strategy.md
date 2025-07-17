@@ -1,4 +1,4 @@
-# Stratégie de mots-clés Google Ads : vendre le pont, pas le traducteur
+# Stratégie de mots-clés Google Ads : vendre le pont, pas le traducteur <Badge type="warning" text="draft" />
 
 ## INSIGHT CLÉ : Les points de douleur ciblent les marchés non anglophones
 
@@ -18,7 +18,7 @@
 _"comment parler anglais réunions d'affaires"_
 
 - **Problème :** Un PDG mexicain perd des clients américains à cause des barrières linguistiques
-- **Solution :** Parler espagnol nativement, les Américains entendent un anglais parfait
+- **Solution :** Parlez espagnol nativement, les Américains entendent un anglais parfait
 - **Volume de recherche :** Intention élevée, axé B2B
 - **Estimation CPC :** 8-15 $ (logiciel d'entreprise)
 
@@ -26,7 +26,7 @@ _"comment parler anglais réunions d'affaires"_
 _"logiciel traduire espagnol anglais appels vidéo"_
 
 - **Problème :** Le responsable export ne peut pas effectuer de démonstrations produit pour les acheteurs américains
-- **Solution :** Présenter en espagnol, les clients comprennent en anglais
+- **Solution :** Présentez en espagnol, les clients comprennent en anglais
 - **Concurrence :** Faible, cas d'usage spécifique
 - **Intention de conversion :** Très élevée (prêt à acheter)
 
@@ -36,16 +36,16 @@ _"logiciel traduire espagnol anglais appels vidéo"_
 _"comment rencontrer des clients américains en chinois"_
 
 - **Problème :** Un fabricant chinois perd des contrats majeurs à cause du fossé linguistique
-- **Solution :** Expliquer les processus de production en chinois, les Américains comprennent instantanément
+- **Solution :** Expliquez les processus de production en chinois, les Américains comprennent instantanément
 - **Plateforme :** Baidu Ads (80% de part de recherche en Chine)
 - **Réglementaire :** Conforme aux exigences de souveraineté des données
 
 **4. 中文英文实时翻译商务会议**
 _"traduction temps réel chinois anglais réunions d'affaires"_
 
-- **Problème :** Spécifications techniques perdues dans la traduction → erreurs coûteuses
+- **Problème :** Les spécifications techniques perdues dans la traduction → erreurs coûteuses
 - **Solution :** L'ingénieur explique les détails en chinois, les spécifications sont transmises avec précision
-- **Taille du marché :** Marché de traduction B2B de 2,4 milliards $ en Chine
+- **Taille du marché :** Marché de la traduction B2B de 2,4 milliards $ en Chine
 - **Taux de croissance :** 35% en glissement annuel (adoption IA)
 
 ### Communication Marché Allemagne → Asie/États-Unis
@@ -80,7 +80,7 @@ _"comment rencontrer des clients étrangers en japonais"_
 _"interprétation temps réel réunions d'affaires"_
 
 - **Problème :** Les discussions techniques détaillées nécessitent des interprètes humains coûteux
-- **Solution :** Interprétation IA pour conversations d'ingénierie de précision
+- **Solution :** Interprétation IA pour les conversations d'ingénierie de précision
 - **Économie de coût :** 70% de réduction vs interprètes humains
 - **Avantage qualité :** Terminologie cohérente, pas de fatigue
 
@@ -90,9 +90,9 @@ _"interprétation temps réel réunions d'affaires"_
 _"parler avec des clients étrangers sans connaître les langues"_
 
 - **Problème :** Les exportateurs espagnols limités aux marchés hispanophones
-- **Solution :** S'étendre à n'importe quel pays, parler langue native
+- **Solution :** Étendez-vous à n'importe quel pays, parlez la langue native
 - **Contexte UE :** 125 milliards € de potentiel commercial intra-UE
-- **Accroche émotionnelle :** Indépendance de l'apprentissage linguistique
+- **Accroche émotionnelle :** Indépendance de l'apprentissage des langues
 
 **10. software reunion internacional español**
 _"logiciel réunion internationale espagnol"_
@@ -154,7 +154,7 @@ _"logiciel réunion internationale espagnol"_
 - **Audience :** Exportateurs PME, responsables commerce UE
 - **Allocation budgétaire :** 10% du total
 - **Avantage UE :** Positionnement marché unique
-- **Page de destination :** Interface espagnole, histoires de succès expansion UE
+- **Page de destination :** Interface espagnole, success stories expansion UE
 - **Conformité :** Conformité RGPD mise en avant
 
 ### Ciblage avancé et optimisation
@@ -193,7 +193,7 @@ _"logiciel réunion internationale espagnol"_
 - **Micro-conversions :** Demandes de démo, vues page tarification
 - **Macro-conversions :** Inscriptions essai, abonnements payants
 - **Attribution :** Fenêtre 30 jours (cycles de vente B2B plus longs)
-- **Cross-plateforme :** Suivi sur tous appareils, surtout mobile
+- **Cross-plateforme :** Suivi multi-appareils, surtout mobile
 
 **Intelligence concurrentielle :**
 
@@ -207,7 +207,7 @@ _"logiciel réunion internationale espagnol"_
 **Marché mexicain :**
 
 - **Portée potentielle :** 50K+ entreprises exportatrices
-- **Taille moyenne contrat :** 200$/mois
+- **Taille moyenne transaction :** 200$/mois
 - **Taux de conversion :** 2,5% (intention élevée)
 - **Période de récupération :** 8 mois
 - **Ratio LTV/CAC :** 4,2:1
@@ -215,7 +215,7 @@ _"logiciel réunion internationale espagnol"_
 **Marché chinois :**
 
 - **Portée potentielle :** 200K+ manufacturiers
-- **Taille moyenne contrat :** 500$/mois (entreprise)
+- **Taille moyenne transaction :** 500$/mois (entreprise)
 - **Taux de conversion :** 1,8% (cycle de vente plus long)
 - **Période de récupération :** 12 mois
 - **Ratio LTV/CAC :** 5,1:1

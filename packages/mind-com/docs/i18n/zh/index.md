@@ -6,6 +6,7 @@ isHome: true
 
 <script setup>
 import HomeHeroSection from './HomeHeroSection.vue'
+import HomeUSPSection from './HomeUSPSection.vue'
 import HowItWorksSection from './HowItWorksSection.vue'
 import PricingPlansSection from './PricingPlansSection.vue'
 import FAQSection from './FAQSection.vue'
@@ -13,8 +14,9 @@ import HomeFooterSection from './HomeFooterSection.vue'
 </script>
 
 <HomeHeroSection />
+<HomeUSPSection />
 
-> [!tip] 适用对象  
+> [!tip] 适用人群  
 > 专为**国际团队**打造，解决语言障碍导致的**延误**、**交易失败**或**代价高昂的误解**问题。[了解更多...](./product/overview/markets)
 
 ## 像 Google Meet + 实时翻译一样工作

@@ -1,4 +1,4 @@
-# Justificativa das projeções financeiras (anos 1–3)
+# Justificativa das projeções financeiras (anos 1–3) <Badge type="warning" text="draft" />
 
 Este documento explica as premissas por trás do crescimento projetado da InterMind em usuários, receita (ARR) e economia unitária nos primeiros três anos.
 
@@ -10,19 +10,19 @@ Este documento explica as premissas por trás do crescimento projetado da InterM
 | 2   | 120.000  | SEO localizado e campanhas pagas em mais de 10 países, efeitos de rede via reuniões com clientes e escalonamento do funil freemium. Integrações planejadas com Zoom/CRM impulsionam aquisição no mercado médio. |
 | 3   | 400.000  | Crescimento viral via UX "fale no seu idioma", integrações verticais mais profundas (ERP, onboarding, jurídico) e programas de revendedores na UE/MENA. |
 
-## Receita Recorrente Anual (ARR)
+## Receita recorrente anual (ARR)
 
-| Ano | ARR     | Premissas                                                                                                                           |
-| --- | ------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | \$2.1M  | Conversão conservadora de 20K usuários: 20% Pro (4K usuários), \$20/mês/usuário → \$960K ARR; 50 contratos empresariais a \$25K/ano = \$1.25M ARR. |
-| 2   | \$11.6M | Conversão freemium aprimorada + aquisição B2B: 30K usuários Pro (\$7.2M), 170 contas empresariais (\$25K/ano = \$4.25M).                 |
-| 3   | \$38M   | 60K usuários Pro (\$14.4M), 500 contas empresariais (\$48K ARR médio = \$24M), mais upsells (armazenamento, zonas de privacidade, suporte).             |
+| Ano | ARR     | Premissas                                                                                                                         |
+| --- | ------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | \$2,1M  | Conversão conservadora de 20K usuários: 20% Pro (4K usuários), \$20/mês/usuário → \$960K ARR; 50 negócios empresariais a \$25K/ano = \$1,25M ARR. |
+| 2   | \$11,6M | Conversão freemium aprimorada + aquisição B2B: 30K usuários Pro (\$7,2M), 170 contas empresariais (\$25K/ano = \$4,25M).                 |
+| 3   | \$38M   | 60K usuários Pro (\$14,4M), 500 contas empresariais (\$48K ARR médio = \$24M), além de upsells (armazenamento, zonas de privacidade, suporte).             |
 
 ## CAC (Custo de Aquisição de Cliente)
 
 | Ano | CAC Médio | Justificativa                                                                                                                                                    |
 | --- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | \$52      | Mix de busca paga, vendas lideradas pelo fundador e testes de baixo custo. Campanhas focadas em nível de país com palavras-chave de alta intenção (ex. "como hablar ingles reuniones"). |
+| 1   | \$52      | Mix de busca paga, vendas lideradas pelo fundador e testes de baixo custo. Campanhas focadas em nível de país com palavras-chave de alta intenção (ex: "como hablar ingles reuniones"). |
 | 2   | \$45      | CAC diminui com métricas de funil aprimoradas, onboarding localizado e marketing de conteúdo. Canais orgânicos e de indicação se fortalecem.                   |
 | 3   | \$39      | Eficiência do CAC através de programas de revendedores, integrações com parceiros e modelagem de atribuição madura.                                             |
 
@@ -44,8 +44,8 @@ Este documento explica as premissas por trás do crescimento projetado da InterM
 
 ## Observações
 
-- Todos os números são conservadores e excluem ganhos adicionais da monetização de API (planejada para o Ano 2) e licenciamento white-label empresarial.
+- Todos os números são conservadores e excluem ganhos potenciais da monetização de API (planejada para o Ano 2) e licenciamento white-label empresarial.
 - As projeções de custos consideram opções de pagamento localizadas, conformidade legal (LGPD/GDPR) e custos de suporte.
 - As premissas de preços são validadas contra ferramentas SaaS comparáveis (Zoom, DeepL Pro, Otter AI).
 
-> Essas projeções equilibram ambição de crescimento com economia SaaS disciplinada — visando relações sustentáveis de CAC/LTV (>5x até o Ano 3) e margens brutas de 80%+.
+> Essas projeções equilibram ambição de crescimento com economia disciplinada de SaaS — visando relações sustentáveis de CAC/LTV (>5x até o Ano 3) e margens brutas de 80%+.

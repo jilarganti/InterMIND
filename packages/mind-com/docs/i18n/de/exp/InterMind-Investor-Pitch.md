@@ -1,4 +1,4 @@
-# InterMind Investor Pitch: Sprachbarrieren für globale Geschäfte überwinden
+# InterMind Investor Pitch: Sprachbarrieren für globale Unternehmen überwinden <Badge type="warning" text="draft" />
 
 ## Problem: Sprache ist immer noch eine 100-Milliarden-Dollar-Barriere
 
@@ -25,7 +25,7 @@ Eine professionelle Videoplattform, die es **jedem Teilnehmer ermöglicht, in se
 
 | Segment        | Länder             | Anwendungsfall                           | Schmerzpunkt                        |
 | -------------- | ------------------ | ---------------------------------------- | ----------------------------------- |
-| Fertigung      | CN, IN, MX, TH, ID | Kommunikation zwischen Fabrik und Kunde  | Spezifikationen gehen in der Übersetzung verloren |
+| Fertigung      | CN, IN, MX, TH, ID | Kommunikation zwischen Fabrik und Kunde  | Spezifikationen gehen in Übersetzung verloren |
 | Export         | BR, CL, ES, CO     | Verkauf & Demos für englischsprachige Käufer | Verpasste Geschäfte durch Sprachbarrieren |
 | Automobilindustrie | DE, JP, KR     | Lieferantenverhandlungen über Grenzen hinweg | Teure Dolmetscher, langsame Zyklen |
 | Unternehmens-HQs | US, UK, AU       | Globale Teammeetings                     | Zeitverlust beim Sprachwechsel      |
@@ -58,14 +58,14 @@ Unterstützt durch einen proprietären Stack:
 ### Go-To-Market
 
 - Bezahlte Suche: hochintentionale lokalisierte Suchanfragen ("como hablar ingles reuniones negocios")
-- B2B-Partnerschaften: ERPs, CRMs, Exportunterstützungsprogramme
+- B2B-Partnerschaften: ERPs, CRMs, Exporthilfsprogramme
 - Zielgruppe: Vertriebsleiter, Supply Chain Leads, Exportteams
 
 ### Preisgestaltung (B2B SaaS)
 
 - Basic (kostenlos): 25 Meetings
 - Pro: \$20/Monat/Nutzer
-- Business: Individuell (Privatsphäre-Zonen, Priority Support)
+- Business: Individuell (Privacy-Zonen, Priority-Support)
 
 ## Compliance & Datenschutz by Design
 
@@ -115,6 +115,6 @@ Wir beginnen mit Go-to-Market-Pilotprojekten in Mexiko, Brasilien, der Türkei, 
   - Erweiterung der Engineering- und Datenschutz-Compliance-Teams
   - Lokalisierung der Plattform für 10 neue Märkte
   - Launch von Integrationen (Zoom, Teams)
-  - Finanzierung mehrsprachiger B2B-Akquisitionskampagnen
+  - Finanzierung multilingualer B2B-Akquisitionskampagnen
 
 Lassen Sie uns die Plattform aufbauen, die **Verständnis universell macht.**

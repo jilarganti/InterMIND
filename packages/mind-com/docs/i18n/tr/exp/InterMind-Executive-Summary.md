@@ -1,4 +1,4 @@
-# InterMind Yönetici Özeti
+# InterMind Yönetici Özeti <Badge type="warning" text="draft" />
 
 ## Sorun
 
@@ -16,7 +16,7 @@ Dil engelleri hala küresel iş anlaşmalarını engelliyor — özellikle imala
 
 ## Temel Pazarlar
 
-Pilot projeler başlatılıyor:
+Pilot projeler şu ülkelerde başlatılıyor:
 
 - **Meksika, Brezilya** — ABD ve AB'ye ihracat
 - **Türkiye, Tayland, Endonezya** — dil uyumsuzluğu olan endüstriyel merkezler
@@ -29,7 +29,7 @@ Pilot projeler başlatılıyor:
 
 ## Çekiş
 
-- İlk pilot projeler 3. çeyrekte başlıyor
+- Erken pilot projeler 3. çeyrekte başlıyor
 - 5 ülkede yerelleştirilmiş arama kampanyaları
 - İhracat ekipleri ve satın alma müdürlerinden güçlü gelen ilgi
 

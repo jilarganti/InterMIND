@@ -1,4 +1,4 @@
-# InterMind Zusammenfassung
+# InterMind Zusammenfassung <Badge type="warning" text="draft" />
 
 ## Das Problem
 
@@ -25,7 +25,7 @@ Pilotprojekte starten in:
 
 - **Kostenloser Plan** mit Kernfunktionen
 - **Pro:** \$20/Monat/Nutzer (SaaS)
-- **Enterprise:** Individuelle Preisgestaltung mit privaten Bereichen
+- **Enterprise:** Individuelle Preisgestaltung mit Privacy-Zonen
 
 ## Marktdurchdringung
 
@@ -37,7 +37,7 @@ Pilotprojekte starten in:
 
 - Integrierte Dolmetschfunktion — kein Plugin
 - Datenschutzorientierte Architektur (EU/US/Asien-Zonen)
-- Optimierte Benutzerführung für Geschäftsmeetings, nicht nur Videoanrufe
+- Optimierte Benutzerfreundlichkeit für Geschäftsmeetings, nicht nur Videoanrufe
 
 ## Team
 

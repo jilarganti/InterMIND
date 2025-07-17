@@ -1,6 +1,6 @@
-# Estratégia de palavras-chave do Google Ads: vendendo a ponte, não o tradutor
+# Estratégia de palavras-chave do Google Ads: vendendo a ponte, não o tradutor <Badge type="warning" text="draft" />
 
-## INSIGHT PRINCIPAL: Pontos de Dor Visam Mercados Não Anglófonos
+## INSIGHT PRINCIPAL: Pontos de dor visam mercados que não falam inglês
 
 **Falantes de inglês não precisam de tradução** — o mundo fala inglês com eles.
 
@@ -14,7 +14,7 @@
 
 ### Comunicação México → Mercado dos EUA
 
-**1. como hablar ingles reuniones negocios**
+**1. como falar ingles reunioes negocios**
 _"como falar inglês reuniões de negócios"_
 
 - **Dor:** CEO mexicano perde clientes americanos devido a barreiras linguísticas
@@ -22,7 +22,7 @@ _"como falar inglês reuniões de negócios"_
 - **Volume de Busca:** Alta intenção, foco B2B
 - **Estimativa CPC:** $8-15 (software empresarial)
 
-**2. software traducir español ingles video llamadas**
+**2. software traduzir espanhol ingles video chamadas**
 _"software traduzir espanhol inglês videochamadas"_
 
 - **Dor:** Gerente de exportação não consegue conduzir demonstrações de produto para compradores americanos
@@ -35,7 +35,7 @@ _"software traduzir espanhol inglês videochamadas"_
 **3. 如何用中文与美国客户开会**
 _"como se reunir com clientes americanos em chinês"_
 
-- **Dor:** Fabricante chinês perde contratos importantes devido à barreira linguística
+- **Dor:** Fabricante chinês perde contratos importantes devido à lacuna linguística
 - **Solução:** Explique processos de produção em chinês, americanos entendem instantaneamente
 - **Plataforma:** Baidu Ads (80% de participação de busca na China)
 - **Regulamentação:** Compatível com requisitos de soberania de dados
@@ -86,7 +86,7 @@ _"interpretação em tempo real reuniões de negócios"_
 
 ### Comunicação Espanha → Mercado UE/Global
 
-**9. hablar con clientes extranjeros sin saber idiomas**
+**9. falar com clientes estrangeiros sem saber idiomas**
 _"falar com clientes estrangeiros sem saber idiomas"_
 
 - **Dor:** Exportadores espanhóis limitados a mercados de língua espanhola
@@ -94,7 +94,7 @@ _"falar com clientes estrangeiros sem saber idiomas"_
 - **Contexto UE:** €125B potencial de comércio intra-UE
 - **Gancho Emocional:** Independência do aprendizado de idiomas
 
-**10. software reunion internacional español**
+**10. software reuniao internacional espanhol**
 _"software reunião internacional espanhol"_
 
 - **Dor:** Expansão na UE requer capacidades multilíngues
@@ -144,7 +144,7 @@ _"software reunião internacional espanhol"_
 - **Público:** Desenvolvimento de negócios internacionais, gerentes de TI
 - **Alocação de Orçamento:** 15% do total
 - **Adaptação Cultural:** Estilo de comunicação formal, tomada de decisão por consenso
-- **Estratégia de Dispositivo:** Otimizado para mobile (70% de busca mobile)
+- **Estratégia de Dispositivos:** Otimizado para mobile (70% de busca mobile)
 - **Pagamento:** JCB, transferências bancárias locais
 
 **Campanha 5: Expansão da Espanha na UE**
@@ -157,13 +157,13 @@ _"software reunião internacional espanhol"_
 - **Página de Destino:** Interface em espanhol, histórias de sucesso de expansão na UE
 - **Conformidade:** Conformidade GDPR em destaque
 
-### Segmentação e Otimização Avançadas
+### Segmentação Avançada e Otimização
 
 **Palavras-chave Negativas (Críticas):**
 
 - Aplicativos de tradução pessoal
 - Aprendizado educacional de idiomas
-- Tradução turística/de viagem
+- Tradução para turistas/viagens
 - Ferramentas de tradução gratuitas
 - Contextos acadêmicos/estudantis
 - Chamadas de vídeo para consumidores
@@ -181,7 +181,7 @@ _"software reunião internacional espanhol"_
 - **Alemanha/Japão:** ROAS alvo (maior LTV)
 - **China:** CPC manual (fase de teste de mercado)
 
-**Otimização do Índice de Qualidade:**
+**Otimização do Quality Score:**
 
 - **Velocidade da Página de Destino:** <3 segundos (crítico para mercados mobile-first)
 - **Correspondência de Idioma:** Alinhamento perfeito palavra-chave-anúncio-página de destino
@@ -210,22 +210,22 @@ _"software reunião internacional espanhol"_
 - **Valor Médio do Negócio:** $200/mês
 - **Taxa de Conversão:** 2,5% (alta intenção)
 - **Período de Payback:** 8 meses
-- **Proporção LTV/CAC:** 4,2:1
+- **Relação LTV/CAC:** 4,2:1
 
 **Mercado Chinês:**
 
 - **Alcance Potencial:** 200K+ fabricantes
-- **Valor Médio do Negócio:** $500/mês (empresarial)
+- **Valor Médio do Negócio:** $500/mês (enterprise)
 - **Taxa de Conversão:** 1,8% (ciclo de vendas mais longo)
 - **Período de Payback:** 12 meses
-- **Proporção LTV/CAC:** 5,1:1
+- **Relação LTV/CAC:** 5,1:1
 
 **Métricas-chave de Sucesso:**
 
-- **Índice de Qualidade:** >7/10 em todas as campanhas
+- **Quality Score:** >7/10 em todas as campanhas
 - **CTR:** >3% (indica forte relevância)
 - **Taxa de Conversão:** >2% (tráfego qualificado)
-- **LTV do Cliente:** >$5.000 (foco empresarial)
+- **LTV do Cliente:** >$5.000 (foco enterprise)
 - **Penetração de Mercado:** 0,5% do mercado endereçável em 18 meses
 
 **Otimização Sazonal:**
@@ -233,6 +233,6 @@ _"software reunião internacional espanhol"_
 - **T1:** Aumento de orçamento (temporada de planejamento empresarial)
 - **T4:** Reduzir mercados não-americanos (desaceleração de feriados)
 - **Feiras Comerciais:** Campanhas intensivas durante grandes eventos da indústria
-- **Ciclos Econômicos:** Ajustar mensagens durante períodos de incerteza
+- **Ciclos Econômicos:** Ajustar mensagem durante períodos de incerteza
 
 Esta estratégia transforma o InterMind de uma ferramenta de tradução em uma **plataforma global de capacitação empresarial** — vendendo o sonho de falar sua língua nativa para o mundo inteiro.

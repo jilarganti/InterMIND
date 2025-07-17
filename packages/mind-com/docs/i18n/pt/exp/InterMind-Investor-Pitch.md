@@ -1,4 +1,4 @@
-# Apresentação para investidores InterMind: Quebrando a barreira do idioma para negócios globais
+# Apresentação para investidores InterMind: Quebrando a barreira do idioma para negócios globais <Badge type="warning" text="draft" />
 
 ## Problema: O idioma ainda é uma barreira de US$ 100 bilhões
 
@@ -21,16 +21,16 @@ Uma plataforma de vídeo de nível profissional que permite que **cada participa
 - Infraestrutura global segura com zonas de privacidade (UE, EUA, Ásia)
 - Pronto para empresas: mais de 500 participantes, transcrições pesquisáveis, integrações de API
 
-## Mercado: Necessidade Urgente no Comércio B2B Global
+## Mercado: Necessidade urgente no comércio B2B global
 
-| Segmento       | Países             | Caso de Uso                              | Ponto de Dor                        |
+| Segmento       | Países             | Caso de uso                              | Ponto de dor                        |
 | -------------- | ------------------ | ---------------------------------------- | ----------------------------------- |
 | Manufatura     | CN, IN, MX, TH, ID | Comunicação fábrica-cliente              | Especificações perdidas na tradução |
 | Exportações    | BR, CL, ES, CO     | Vendas e demos para compradores anglófonos | Negócios perdidos por barreiras linguísticas |
 | Automotivo     | DE, JP, KR         | Negociações com fornecedores transfronteiriças | Intérpretes caros, ciclos lentos    |
-| Sedes Corporativas | US, UK, AU      | Reuniões de equipes globais              | Tempo perdido alternando idiomas    |
+| Sedes corporativas | US, UK, AU     | Reuniões de equipes globais              | Tempo perdido alternando idiomas    |
 
-TAM Estimado: **\$27B+** mercado de habilitação de comunicação B2B (fonte: CSA Research, Gartner)
+TAM estimado: **\$27B+** mercado de habilitação de comunicação B2B (fonte: CSA Research, Gartner)
 
 ## Como Funciona (em 3 Segundos ou Menos)
 
@@ -64,7 +64,7 @@ Apoiado por uma pilha proprietária:
 ### Preços (B2B SaaS)
 
 - Básico (gratuito): 25 reuniões
-- Pro: R$ 20/mês/usuário
+- Pro: $20/mês/usuário
 - Business: Personalizado (zonas de privacidade, suporte prioritário)
 
 ## Conformidade e privacidade por design
@@ -80,7 +80,7 @@ InterMind é confiado por **empresas onde a privacidade é inegociável**.
 
 ### Momento do Mercado
 
-- Tradução por IA alcançando precisão quase humana
+- Tradução por IA atingindo precisão quase humana
 - Reuniões remotas são permanentes (75% das vendas B2B ainda são virtuais — McKinsey)
 - Mercados multilíngues estão crescendo: África, LATAM, SEA
 
@@ -102,7 +102,7 @@ InterMind é confiado por **empresas onde a privacidade é inegociável**.
 
 Estamos iniciando pilotos de entrada no mercado no México, Brasil, Turquia, Tailândia e Indonésia — direcionando regiões com alto volume de comércio B2B e baixa proficiência em inglês.
 
-## Equipe fundadora
+## Equipe Fundadora
 
 - **\[Nome]** — CEO: ex-\[Big Tech], 10+ anos em PLN
 - **\[Nome]** — CTO: Construiu infraestrutura multilíngue na \[Empresa]

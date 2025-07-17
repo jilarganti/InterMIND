@@ -1,4 +1,4 @@
-# InterMind yatırımcı sunumu: Küresel iş dünyası için dil engelini aşmak
+# InterMind yatırımcı sunumu: küresel iş dünyası için dil engelini aşmak <Badge type="warning" text="draft" />
 
 ## Sorun: Dil Hâlâ 100 Milyar Dolarlık Bir Engel
 
@@ -12,7 +12,7 @@ Küreselleşme ve video konferans araçlarına rağmen, **dil uluslararası tica
 
 ## Çözüm: InterMind = Google Meet + AI Tercüman
 
-**Her katılımcının kendi dilinde konuşmasına ve duymasına** olanak tanıyan profesyonel düzeyde bir video platformu — anında, doğru ve gizli.
+**Her katılımcının kendi dilinde konuşmasına ve duymasına** olanak tanıyan profesyonel düzeyde bir video platformu — anında, doğru ve gizli bir şekilde.
 
 ### Temel özellikler
 
@@ -81,7 +81,7 @@ InterMind, **gizliliğin pazarlık konusu olmadığı kurumlar** tarafından gü
 ### Pazar Zamanlaması
 
 - AI çeviri insan seviyesinde doğruluğa ulaşıyor
-- Uzaktan toplantılar kalıcı hale geldi (B2B satışlarının %75'i hala sanal — McKinsey)
+- Uzaktan toplantılar kalıcı hale geldi (B2B satışların %75'i hala sanal — McKinsey)
 - Çok dilli pazarlar büyüyor: Afrika, LATAM, SEA
 
 ### Rekabet Avantajı
@@ -90,7 +90,7 @@ InterMind, **gizliliğin pazarlık konusu olmadığı kurumlar** tarafından gü
 - Tescilli teknoloji, üçüncü taraf API'lerin sarmalayıcısı değil
 - Yerleşik farklılaşma: gizlilik, ölçeklenebilirlik, UX, gecikme
 
-## Mali Projeksiyonlar (1-3. Yıl)
+## Mali projeksiyonlar (1-3. yıl)
 
 | Metrik       | 1. Yıl | 2. Yıl  | 3. Yıl |
 | ------------ | ------ | ------- | ------ |

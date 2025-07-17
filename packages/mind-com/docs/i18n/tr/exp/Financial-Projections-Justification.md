@@ -1,14 +1,14 @@
-# Mali Projeksiyonlar Gerekçesi (1-3. Yıl)
+# Mali Projeksiyonlar Gerekçesi (1-3. Yıl) <Badge type="warning" text="draft" />
 
 Bu belge, InterMind'ın ilk üç yıl boyunca kullanıcı, gelir (ARR) ve birim ekonomi alanlarındaki öngörülen büyümesinin arkasındaki varsayımları açıklamaktadır.
 
 ## Kullanıcı Büyümesi
 
-| Yıl | Kullanıcılar | Gerekçe                                                                                                                                                                                |
-| --- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | 20.000       | 5 gelişmekte olan pazarda (MX, BR, TR, TH, ID) ilk pazara giriş pilot uygulamaları, ihracat odaklı B2B kullanıcılarından erken benimsenme. İngilizce alternatiflere güçlü talep.    |
+| Yıl | Kullanıcılar | Gerekçe                                                                                                                                                                       |
+| --- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | 20.000       | 5 gelişmekte olan pazarda (MX, BR, TR, TH, ID) ilk pazara giriş pilot uygulamaları, ihracat odaklı B2B kullanıcılarından erken benimsenme. İngilizce alternatiflere güçlü talep. |
 | 2   | 120.000      | 10+ ülkede yerelleştirilmiş SEO ve ücretli kampanyalar, müşteri toplantıları yoluyla ağ etkileri ve freemium hunisinin ölçeklendirilmesi. Planlanan Zoom/CRM entegrasyonları orta pazar edinimini yönlendiriyor. |
-| 3   | 400.000      | "Kendi dilinizde konuşun" UX yoluyla viral büyüme, daha derin dikey entegrasyonlar (ERP, onboarding, hukuki) ve AB/MENA'da bayi programları.                                          |
+| 3   | 400.000      | "Kendi dilinizde konuşun" UX yoluyla viral büyüme, daha derin dikey entegrasyonlar (ERP, işe alım, hukuki) ve AB/MENA'da bayi programları.                                    |
 
 ## Yıllık Yinelenen Gelir (ARR)
 
@@ -37,15 +37,15 @@ Bu belge, InterMind'ın ilk üç yıl boyunca kullanıcı, gelir (ARR) ve birim 
 ## Brüt Kar Marjı
 
 | Yıl | Marj | Etkenler                                                                                                                 |
-| --- | ---- | ------------------------------------------------------------------------------------------------------------------------ |
+| --- | ---- | ----------------------------------------------------------------------------------------------------------------------- |
 | 1   | 78%  | Konuşma çevirisi yığınının hesaplama maliyeti (~0,08$/dk/kullanıcı), bant genişliği ve minimal altyapı. Geliştirme amorti edildi. |
-| 2   | 82%  | Model optimizasyonu, daha iyi GPU kullanımı, LLM satıcı indirimleri, hibrit altyapıya geçiş (kenar çıkarımı).          |
+| 2   | 82%  | Model optimizasyonu, daha iyi GPU kullanımı, LLM satıcı indirimleri, hibrit altyapıya geçiş (kenar çıkarımı).           |
 | 3   | 85%  | Şirket içi konuşma/LLM modelleri, otomatik ölçeklendirme altyapısı, kullanıcı başına sabit altyapı. B2B özellikleri düşük marjinal maliyetle daha yüksek fiyatlandırıldı. |
 
 ## Notlar
 
 - Tüm rakamlar muhafazakâr olup API monetizasyonundan (2. yıl planlanmış) ve kurumsal white-label lisanslamasından gelecek potansiyel gelirleri içermemektedir.
-- Maliyet projeksiyonları yerelleştirilmiş ödeme seçenekleri, yasal uyumluluk (PDPL/GDPR) ve destek maliyetlerini hesaba katmaktadır.
+- Maliyet projeksiyonları yerelleştirilmiş ödeme seçenekleri, yasal uyumluluk (PDPL/GDPR) ve destek maliyetlerini dikkate almaktadır.
 - Fiyatlandırma varsayımları karşılaştırılabilir SaaS araçlarına (Zoom, DeepL Pro, Otter AI) karşı doğrulanmıştır.
 
 > Bu projeksiyonlar büyüme hırsını disiplinli SaaS ekonomisi ile dengelemektedir — sürdürülebilir CAC/LTV oranlarını (3. yıla kadar >5x) ve %80+ brüt marjları hedeflemektedir.

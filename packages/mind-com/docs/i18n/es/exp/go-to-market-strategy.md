@@ -1,4 +1,4 @@
-# Estrategia de palabras clave en Google Ads: Vendiendo el puente, no el traductor
+# Estrategia de palabras clave en Google Ads: Vendiendo el puente, no el traductor <Badge type="warning" text="draft" />
 
 ## PERSPECTIVA CLAVE: Los puntos de dolor se enfocan en mercados que no hablan inglés
 
@@ -12,10 +12,10 @@
 
 ## 10 Palabras Clave Estratégicas: "Cómo Hablo con ELLOS"
 
-### Comunicación del Mercado México → Estados Unidos
+### Comunicación México → Mercado de EE.UU.
 
 **1. como hablar ingles reuniones negocios**
-_"cómo hablar inglés en reuniones de negocios"_
+_"cómo hablar inglés reuniones de negocios"_
 
 - **Dolor:** CEO mexicano pierde clientes estadounidenses debido a barreras del idioma
 - **Solución:** Habla español de forma nativa, los estadounidenses escuchan inglés perfecto
@@ -23,14 +23,14 @@ _"cómo hablar inglés en reuniones de negocios"_
 - **Estimación CPC:** $8-15 (software empresarial)
 
 **2. software traducir español ingles video llamadas**
-_"software para traducir español inglés en videollamadas"_
+_"software traducir español inglés videollamadas"_
 
 - **Dolor:** Gerente de exportación no puede realizar demostraciones de productos para compradores estadounidenses
 - **Solución:** Presenta en español, los clientes entienden en inglés
 - **Competencia:** Baja, caso de uso específico
 - **Intención de Conversión:** Muy alta (listo para comprar)
 
-### Comunicación del Mercado China → Estados Unidos/UE
+### Comunicación China → Mercado de EE.UU./UE
 
 **3. 如何用中文与美国客户开会**
 _"cómo reunirse con clientes estadounidenses en chino"_
@@ -48,14 +48,14 @@ _"traducción en tiempo real chino inglés reuniones de negocios"_
 - **Tamaño del Mercado:** $2.4B mercado de traducción B2B en China
 - **Tasa de Crecimiento:** 35% interanual (adopción de IA)
 
-### Comunicación del Mercado Alemania → Asia/Estados Unidos
+### Comunicación Alemania → Mercado de Asia/EE.UU.
 
 **5. deutsch englisch übersetzung geschäftsmeetings**
 _"traducción alemán inglés reuniones de negocios"_
 
 - **Dolor:** Empresas automotrices alemanas dependen de intérpretes costosos para expansión en Asia
 - **Solución:** CTO discute requisitos de ingeniería en alemán directamente
-- **Contexto del Mercado:** €890B exportaciones automotrices necesitan puente de idiomas
+- **Contexto del Mercado:** €890B exportaciones automotrices necesitan puente de idioma
 - **Estacionalidad:** Pico Q1-Q2 (ciclos de planificación)
 
 **6. wie spreche ich chinesisch lieferanten**
@@ -66,7 +66,7 @@ _"cómo hablo con proveedores chinos"_
 - **Urgencia:** Crítico para manufactura Just-In-Time
 - **Presupuesto:** Nivel empresarial (presupuestos de $500+/mes)
 
-### Comunicación del Mercado Japón → Global
+### Comunicación Japón → Mercado Global
 
 **7. 日本語で海外クライアントと会議する方法**
 _"cómo reunirse con clientes extranjeros en japonés"_
@@ -84,7 +84,7 @@ _"interpretación en tiempo real reuniones de negocios"_
 - **Ahorro de Costos:** 70% de reducción vs intérpretes humanos
 - **Ventaja de Calidad:** Terminología consistente, sin fatiga
 
-### Comunicación del Mercado España → UE/Global
+### Comunicación España → Mercado UE/Global
 
 **9. hablar con clientes extranjeros sin saber idiomas**
 _"hablar con clientes extranjeros sin saber idiomas"_
@@ -170,7 +170,7 @@ _"software reunión internacional español"_
 
 **Capas de audiencia:**
 
-- **En el mercado:** Compradores de software empresarial
+- **En mercado:** Compradores de software empresarial
 - **Intención personalizada:** Investigación de competidores, expansión internacional
 - **Afinidad:** Adoptantes de tecnología B2B, comercio internacional
 - **Eventos de vida:** Expansión empresarial, entrada a nuevos mercados
@@ -193,7 +193,7 @@ _"software reunión internacional español"_
 - **Micro-conversiones:** Solicitudes de demo, visualizaciones de página de precios
 - **Macro-conversiones:** Registros de prueba, suscripciones pagadas
 - **Atribución:** Ventana de 30 días (ciclos de ventas B2B más largos)
-- **Multiplataforma:** Seguimiento entre dispositivos, especialmente móviles
+- **Multiplataforma:** Seguimiento entre dispositivos, especialmente móvil
 
 **Inteligencia competitiva:**
 
@@ -210,15 +210,15 @@ _"software reunión internacional español"_
 - **Tamaño promedio de trato:** $200/mes
 - **Tasa de conversión:** 2.5% (alta intención)
 - **Período de recuperación:** 8 meses
-- **Relación LTV/CAC:** 4.2:1
+- **Ratio LTV/CAC:** 4.2:1
 
 **Mercado chino:**
 
-- **Alcance potencial:** 200K+ fabricantes
+- **Alcance potencial:** 200K+ manufactureros
 - **Tamaño promedio de trato:** $500/mes (empresarial)
 - **Tasa de conversión:** 1.8% (ciclo de ventas más largo)
 - **Período de recuperación:** 12 meses
-- **Relación LTV/CAC:** 5.1:1
+- **Ratio LTV/CAC:** 5.1:1
 
 **Métricas clave de éxito:**
 
@@ -232,7 +232,7 @@ _"software reunión internacional español"_
 
 - **Q1:** Aumento de presupuesto (temporada de planificación empresarial)
 - **Q4:** Reducir mercados no estadounidenses (desaceleración navideña)
-- **Ferias comerciales:** Campañas de impulso durante eventos importantes de la industria
-- **Ciclos económicos:** Ajustar mensajes durante períodos de incertidumbre
+- **Ferias comerciales:** Campañas de impulso durante eventos industriales importantes
+- **Ciclos económicos:** Ajustar mensajería durante períodos de incertidumbre
 
 Esta estrategia transforma InterMind de una herramienta de traducción en una **plataforma global de habilitación empresarial** — vendiendo el sueño de hablar tu idioma nativo a todo el mundo.

@@ -1,8 +1,8 @@
-# Résumé exécutif InterMind
+# Résumé exécutif InterMind <Badge type="warning" text="draft" />
 
 ## Le problème
 
-Les barrières linguistiques bloquent encore les accords commerciaux internationaux — en particulier dans la fabrication, les exportations et les chaînes d'approvisionnement. Embaucher des interprètes est coûteux, lent et non évolutif.
+Les barrières linguistiques bloquent encore les accords commerciaux mondiaux — en particulier dans la fabrication, les exportations et les chaînes d'approvisionnement. Embaucher des interprètes est coûteux, lent et non évolutif.
 
 ## La solution
 

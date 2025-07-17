@@ -1,4 +1,4 @@
-# Presentación para inversionistas de InterMind: Rompiendo la barrera del idioma para los negocios globales
+# Presentación para inversionistas de InterMind: Rompiendo la barrera del idioma para los negocios globales <Badge type="warning" text="draft" />
 
 ## Problema: El idioma sigue siendo una barrera de $100 mil millones
 
@@ -12,7 +12,7 @@ A pesar de la globalización y las herramientas de videoconferencia, **el idioma
 
 ## Solución: InterMind = Google Meet + Intérprete de IA
 
-Una plataforma de video de nivel profesional que permite a **cada participante hablar y escuchar en su propio idioma** — de forma instantánea, precisa y privada.
+Una plataforma de video de nivel profesional que permite a **cada participante hablar y escuchar en su propio idioma** — instantáneamente, con precisión y de forma privada.
 
 ### Características principales
 
@@ -26,11 +26,11 @@ Una plataforma de video de nivel profesional que permite a **cada participante h
 | Segmento       | Países             | Caso de uso                              | Punto de dolor                      |
 | -------------- | ------------------ | ---------------------------------------- | ----------------------------------- |
 | Manufactura    | CN, IN, MX, TH, ID | Comunicación fábrica-cliente             | Especificaciones perdidas en traducción |
-| Exportaciones  | BR, CL, ES, CO     | Ventas y demos a compradores angloparlantes | Negocios perdidos por barreras idiomáticas |
+| Exportaciones  | BR, CL, ES, CO     | Ventas y demos a compradores de habla inglesa | Negocios perdidos por barreras idiomáticas |
 | Automotriz     | DE, JP, KR         | Negociaciones con proveedores transfronterizas | Intérpretes costosos, ciclos lentos |
-| Sedes corporativas | US, UK, AU     | Reuniones de equipos globales            | Tiempo perdido cambiando idiomas    |
+| Oficinas centrales empresariales | US, UK, AU | Reuniones de equipos globales | Tiempo perdido cambiando idiomas |
 
-TAM estimado: **$27B+** mercado de habilitación de comunicación B2B (fuente: CSA Research, Gartner)
+TAM estimado: **\$27B+** mercado de habilitación de comunicación B2B (fuente: CSA Research, Gartner)
 
 ## Cómo funciona (en 3 segundos o menos)
 
@@ -64,7 +64,7 @@ Respaldado por una pila propietaria:
 ### Precios (B2B SaaS)
 
 - Básico (gratuito): 25 reuniones
-- Pro: $20/mes/usuario
+- Pro: \$20/mes/usuario
 - Empresarial: Personalizado (zonas privadas, soporte prioritario)
 
 ## Cumplimiento y privacidad por diseño
@@ -80,7 +80,7 @@ InterMind es confiable para **empresas donde la privacidad es innegociable**.
 
 ### Momento del mercado
 
-- La traducción con IA está alcanzando una precisión casi humana
+- La traducción con IA está alcanzando precisión casi humana
 - Las reuniones remotas son permanentes (75% de las ventas B2B siguen siendo virtuales — McKinsey)
 - Los mercados multilingües están creciendo: África, LATAM, SEA
 
@@ -92,13 +92,13 @@ InterMind es confiable para **empresas donde la privacidad es innegociable**.
 
 ## Proyecciones financieras (Año 1–3)
 
-| Métrica      | Año 1  | Año 2   | Año 3 |
-| ------------ | ------ | ------- | ----- |
-| Usuarios     | 20K    | 120K    | 400K  |
-| ARR          | \$2.1M | \$11.6M | \$38M |
-| CAC (prom)   | \$52   | \$45    | \$39  |
-| LTV          | \$420  | \$480   | \$620 |
-| Margen Bruto | 78%    | 82%     | 85%   |
+| Métrica      | Año 1  | Año 2   | Año 3  |
+| ------------ | ------ | ------- | ------ |
+| Usuarios     | 20K    | 120K    | 400K   |
+| ARR          | \$2.1M | \$11.6M | \$38M  |
+| CAC (prom)   | \$52   | \$45    | \$39   |
+| LTV          | \$420  | \$480   | \$620  |
+| Margen Bruto | 78%    | 82%     | 85%    |
 
 Estamos comenzando pilotos de comercialización en México, Brasil, Turquía, Tailandia e Indonesia — dirigiéndonos a regiones con alto volumen de comercio B2B y baja competencia en inglés.
 

@@ -6,6 +6,7 @@ isHome: true
 
 <script setup>
 import HomeHeroSection from './HomeHeroSection.vue'
+import HomeUSPSection from './HomeUSPSection.vue'
 import HowItWorksSection from './HowItWorksSection.vue'
 import PricingPlansSection from './PricingPlansSection.vue'
 import FAQSection from './FAQSection.vue'
@@ -13,6 +14,7 @@ import HomeFooterSection from './HomeFooterSection.vue'
 </script>
 
 <HomeHeroSection />
+<HomeUSPSection />
 
 > [!tip] لمن هذا المنتج؟  
 > مصمم **للفرق الدولية** حيث حواجز اللغة تسبب **تأخيرات**، **فقدان صفقات**، أو **سوء فهم مكلف**. [اعرف المزيد ...](./product/overview/markets)
@@ -43,11 +45,11 @@ import HomeFooterSection from './HomeFooterSection.vue'
 - **المدخل المنطوق** (ما تقوله)
 - **المخرج المترجم** (ما تسمعه)
 
-| المشارك      | اللغة المختارة | يتحدث بـ | يسمع بـ |
-| ------------ | --------------- | -------- | ------- |
-| المضيف       | الإسبانية       | الإسبانية | الإسبانية |
-| المشارك الأول | الإنجليزية      | الإنجليزية | الإنجليزية |
-| المشاركة الثانية | الصينية        | الصينية  | الصينية  |
+| المشارك      | اللغة المختارة | يتحدث بـ   | يسمع بـ     |
+| ------------ | --------------- | ---------- | ----------- |
+| المضيف       | الإسبانية      | الإسبانية | الإسبانية  |
+| المشارك الأول | الإنجليزية     | الإنجليزية | الإنجليزية |
+| المشاركة الثانية | الصينية       | الصينية   | الصينية    |
 
 [المنصة تفسر تلقائياً جميع الكلام في الوقت الفعلي](./product/overview/how-it-works) — لذا الجميع يتواصل كما لو كانوا يتحدثون نفس اللغة.
 

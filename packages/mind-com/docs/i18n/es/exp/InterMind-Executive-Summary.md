@@ -1,8 +1,8 @@
-# Resumen ejecutivo de InterMind
+# Resumen ejecutivo de InterMind <Badge type="warning" text="borrador" />
 
 ## El problema
 
-Las barreras del idioma siguen bloqueando los negocios globales — especialmente en manufactura, exportaciones y cadenas de suministro. Contratar intérpretes es costoso, lento y no escalable.
+Las barreras del idioma siguen bloqueando los negocios globales, especialmente en manufactura, exportaciones y cadenas de suministro. Contratar intérpretes es costoso, lento y no escalable.
 
 ## La solución
 
@@ -19,7 +19,7 @@ Las barreras del idioma siguen bloqueando los negocios globales — especialment
 Lanzando pilotos en:
 
 - **México, Brasil** — exportación a EE.UU. y UE
-- **Turquía, Tailandia, Indonesia** — centros industriales con desajuste de idiomas
+- **Turquía, Tailandia, Indonesia** — centros industriales con desajuste de idioma
 
 ## Modelo de negocio
 
@@ -41,7 +41,7 @@ Lanzando pilotos en:
 
 ## Equipo
 
-- Ex-ingenieros de PNL de Big Tech
+- Ingenieros de NLP ex-Big Tech
 - Líderes de crecimiento de SaaS empresarial
 - Experiencia en expansión global
 

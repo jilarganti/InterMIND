@@ -1,4 +1,4 @@
-# Google Ads Anahtar Kelime Stratejisi: Çevirmeni Değil, Köprüyü Satmak
+# Google Ads Anahtar Kelime Stratejisi: Çevirmeni Değil, Köprüyü Satmak <Badge type="warning" text="draft" />
 
 ## TEMEL GÖRÜŞ: Sorun Noktaları İngilizce Konuşmayan Pazarları Hedefliyor
 
@@ -7,7 +7,7 @@
 **Sorun noktaları şunlar için mevcut:**
 
 - ABD alıcılarıyla yanlış anlaşılma nedeniyle 50 bin dolarlık anlaşmaları kaybeden Meksikalı ihracatçılar
-- Alman müşterilere teknik özellikleri açıklayamayan Çinli üreticiler
+- Teknik özellikleri Alman müşterilere açıklayamayan Çinli üreticiler
 - Japon tedarikçi müzakereleri için pahalı tercümanlara bağımlı Alman otomobil üreticileri
 
 ## 10 Stratejik Anahtar Kelime: "ONLARLA Nasıl Konuşurum"
@@ -25,7 +25,7 @@ _"iş toplantılarında İngilizce nasıl konuşulur"_
 **2. software traducir español ingles video llamadas**
 _"video aramalarında İspanyolca İngilizce çeviri yazılımı"_
 
-- **Sorun:** İhracat müdürü ABD alıcıları için ürün demoları yapamıyor
+- **Sorun:** İhracat müdürü ABD alıcıları için ürün demolarını gerçekleştiremiyor
 - **Çözüm:** İspanyolca sunum yap, müşteriler İngilizce anlasın
 - **Rekabet:** Düşük, özel kullanım durumu
 - **Dönüşüm Niyeti:** Çok yüksek (satın almaya hazır)
@@ -33,7 +33,7 @@ _"video aramalarında İspanyolca İngilizce çeviri yazılımı"_
 ### Çin → ABD/AB Pazarı İletişimi
 
 **3. 如何用中文与美国客户开会**
-_"Amerikalı müşterilerle Çince nasıl toplantı yapılır"_
+_"Amerikalı müşterilerle Çince toplantı nasıl yapılır"_
 
 - **Sorun:** Çinli üretici dil açığı nedeniyle büyük sözleşmeleri kaybediyor
 - **Çözüm:** Üretim süreçlerini Çince açıkla, Amerikalılar anında anlasın
@@ -69,7 +69,7 @@ _"Çinli tedarikçilerle nasıl konuşurum"_
 ### Japonya → Küresel Pazar İletişimi
 
 **7. 日本語で海外クライアントと会議する方法**
-_"yurtdışı müşterilerle Japonca nasıl toplantı yapılır"_
+_"yurtdışı müşterilerle Japonca toplantı yapma yöntemi"_
 
 - **Sorun:** Japon teknoloji şirketleri İngilizce engeli nedeniyle küresel fırsatları kaybediyor
 - **Çözüm:** Ürün müdürü Japonca sunum yapar, dünya anlar
@@ -188,12 +188,12 @@ _"uluslararası toplantı yazılımı İspanyolca"_
 - **Kültürel İlgililik:** Yerel iş uygulamaları, başarı metrikleri
 - **Mobil Deneyim:** Duyarlı tasarım, yerel ödeme yöntemleri
 
-**Dönüşüm İzleme Kurulumu:**
+**Dönüşüm Takip Kurulumu:**
 
 - **Mikro-dönüşümler:** Demo talepleri, fiyatlandırma sayfası görüntülemeleri
 - **Makro-dönüşümler:** Deneme kayıtları, ücretli abonelikler
 - **Atıf:** 30 günlük pencere (daha uzun B2B satış döngüleri)
-- **Çapraz platform:** Cihazlar arası izleme, özellikle mobil
+- **Çapraz platform:** Cihazlar arası takip, özellikle mobil
 
 **Rekabet İstihbaratı:**
 

@@ -1,4 +1,4 @@
-# Google Ads Keyword-Strategie: Die Brücke verkaufen, nicht den Übersetzer
+# Google Ads Keyword-Strategie: Die Brücke verkaufen, nicht den Übersetzer <Badge type="warning" text="draft" />
 
 ## KERNAUSSAGE: Schmerzpunkte zielen auf nicht-englischsprachige Märkte ab
 
@@ -91,7 +91,7 @@ _"mit ausländischen Kunden sprechen ohne Sprachen zu können"_
 
 - **Problem:** Spanische Exporteure sind auf spanischsprachige Märkte beschränkt
 - **Lösung:** Expandieren Sie in jedes Land, sprechen Sie die Muttersprache
-- **EU-Kontext:** €125B intra-EU Handelspotential
+- **EU-Kontext:** €125B Intra-EU-Handelspotential
 - **Emotionaler Aufhänger:** Unabhängigkeit vom Sprachenlernen
 
 **10. software reunion internacional español**
@@ -99,7 +99,7 @@ _"internationale Meeting-Software Spanisch"_
 
 - **Problem:** EU-Expansion erfordert mehrsprachige Fähigkeiten
 - **Lösung:** Eine Plattform für alle EU-Märkte
-- **Compliance:** DSGVO-bereit, EU-Datenresidenz
+- **Compliance:** GDPR-bereit, EU-Datenresidenz
 - **Integration:** Spanische CRM/ERP-Systeme
 
 ## Vollständige Implementierungsstrategie
@@ -124,7 +124,7 @@ _"internationale Meeting-Software Spanisch"_
 - **Zielgruppe:** Fabrikbesitzer, internationale Vertriebsteams
 - **Budgetverteilung:** 30% des Gesamtbudgets
 - **Compliance:** ICP-Lizenz erforderlich, Datenlokalisierung
-- **Landing Page:** Vereinfachtes Chinesisch, Produktionsfallstudien
+- **Landing Page:** Vereinfachtes Chinesisch, Produktions-Fallstudien
 - **Zahlung:** Alipay, WeChat Pay, UnionPay
 
 **Kampagne 3: Deutscher Industriesektor**
@@ -143,7 +143,7 @@ _"internationale Meeting-Software Spanisch"_
 - **Geografie:** Geschäftsviertel Tokyo, Osaka, Nagoya
 - **Zielgruppe:** Internationale Geschäftsentwicklung, IT-Manager
 - **Budgetverteilung:** 15% des Gesamtbudgets
-- **Kulturelle Anpassung:** Formeller Kommunikationsstil, konsensbasierte Entscheidungsfindung
+- **Kulturelle Anpassung:** Formeller Kommunikationsstil, Konsens-Entscheidungsfindung
 - **Gerätestrategie:** Mobile-optimiert (70% mobile Suche)
 - **Zahlung:** JCB, lokale Banküberweisungen
 
@@ -170,7 +170,7 @@ _"internationale Meeting-Software Spanisch"_
 
 **Zielgruppen-Schichtung:**
 
-- **In-Market:** Käufer von Unternehmenssoftware
+- **In-Market:** Business-Software-Käufer
 - **Custom Intent:** Konkurrenzforschung, internationale Expansion
 - **Affinität:** B2B-Technologie-Adopter, internationaler Handel
 - **Lebensereignisse:** Geschäftserweiterung, neuer Markteintritt
@@ -184,8 +184,8 @@ _"internationale Meeting-Software Spanisch"_
 **Quality Score Optimierung:**
 
 - **Landing Page Geschwindigkeit:** <3 Sekunden (kritisch für Mobile-First-Märkte)
-- **Sprachabstimmung:** Perfekte Keyword-Anzeige-Landing Page Ausrichtung
-- **Kulturelle Relevanz:** Lokale Geschäftspraktiken, Erfolgskennzahlen
+- **Sprachanpassung:** Perfekte Keyword-Anzeige-Landing Page Abstimmung
+- **Kulturelle Relevanz:** Lokale Geschäftspraktiken, Erfolgsmetriken
 - **Mobile Erfahrung:** Responsive Design, lokale Zahlungsmethoden
 
 **Conversion Tracking Setup:**
@@ -199,7 +199,7 @@ _"internationale Meeting-Software Spanisch"_
 
 - **Überwachen:** Google Meet, Zoom, Microsoft Teams Expansion
 - **Gelegenheit:** Wenn Konkurrenten grundlegende Übersetzungsfunktionen hinzufügen
-- **Differenzierung:** Echtzeit-KI-Dolmetschen vs. grundlegende Untertitel
+- **Differenzierung:** Echtzeit-KI-Interpretation vs. grundlegende Untertitel
 - **Preisgestaltung:** Positionierung als Premium aber kosteneffektiv vs. menschliche Dolmetscher
 
 ### ROI-Prognosen nach Markt
@@ -220,7 +220,7 @@ _"internationale Meeting-Software Spanisch"_
 - **Amortisationszeit:** 12 Monate
 - **LTV/CAC-Verhältnis:** 5,1:1
 
-**Wichtige Erfolgskennzahlen:**
+**Wichtige Erfolgsmetriken:**
 
 - **Quality Score:** >7/10 über alle Kampagnen
 - **CTR:** >3% (zeigt starke Relevanz)
@@ -235,4 +235,4 @@ _"internationale Meeting-Software Spanisch"_
 - **Messen:** Surge-Kampagnen während großer Branchenveranstaltungen
 - **Wirtschaftszyklen:** Messaging-Anpassung während Unsicherheitsperioden
 
-Diese Strategie verwandelt InterMind von einem Übersetzungstool in eine **globale Geschäftsermöglichungsplattform** — verkauft den Traum, in der eigenen Muttersprache zur ganzen Welt zu sprechen.
+Diese Strategie verwandelt InterMind von einem Übersetzungstool in eine **globale Geschäfts-Enablement-Plattform** — verkauft den Traum, in der eigenen Muttersprache zur ganzen Welt zu sprechen.

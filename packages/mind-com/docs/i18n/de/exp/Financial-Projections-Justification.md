@@ -1,4 +1,4 @@
-# Begründung der Finanzprognosen (Jahr 1–3)
+# Begründung der Finanzprognosen (Jahr 1–3) <Badge type="warning" text="draft" />
 
 Dieses Dokument erklärt die Annahmen hinter InterMinds prognostiziertem Wachstum bei Nutzern, Umsatz (ARR) und Unit Economics in den ersten drei Jahren.
 
@@ -6,9 +6,9 @@ Dieses Dokument erklärt die Annahmen hinter InterMinds prognostiziertem Wachstu
 
 | Jahr | Nutzer  | Begründung                                                                                                                                                                                    |
 | ---- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | 20.000  | Erste Markteinführungspiloten in 5 Schwellenmärkten (MX, BR, TR, TH, ID), mit früher Akzeptanz von exportorientierten B2B-Nutzern. Starke Nachfrage nach englischsprachigen Alternativen. |
-| 2    | 120.000 | Lokalisierte SEO- und bezahlte Kampagnen in über 10 Ländern, Netzwerkeffekte über Kundenmeetings und Skalierung des Freemium-Trichters. Geplante Zoom/CRM-Integrationen fördern Mid-Market-Akquisition. |
-| 3    | 400.000 | Virales Wachstum durch "Sprechen Sie in Ihrer Sprache" UX, tiefere vertikale Integrationen (ERP, Onboarding, Legal) und Reseller-Programme in EU/MENA.                                     |
+| 1    | 20.000  | Erste Go-to-Market-Pilotprojekte in 5 Schwellenmärkten (MX, BR, TR, TH, ID), mit früher Akzeptanz von exportorientierten B2B-Nutzern. Starke Nachfrage nach englischsprachigen Alternativen. |
+| 2    | 120.000 | Lokalisierte SEO- und bezahlte Kampagnen in über 10 Ländern, Netzwerkeffekte durch Kundenmeetings und Skalierung des Freemium-Funnels. Geplante Zoom/CRM-Integrationen fördern Mid-Market-Akquisition. |
+| 3    | 400.000 | Virales Wachstum durch "Sprechen Sie in Ihrer Sprache"-UX, tiefere vertikale Integrationen (ERP, Onboarding, Recht) und Reseller-Programme in EU/MENA.                                      |
 
 ## Jährlich wiederkehrende Umsätze (ARR)
 

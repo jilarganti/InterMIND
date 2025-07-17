@@ -1,13 +1,13 @@
-# Justificación de proyecciones financieras (Año 1–3)
+# Justificación de proyecciones financieras (Año 1–3) <Badge type="warning" text="draft" />
 
-Este documento explica los supuestos detrás del crecimiento proyectado de InterMind en usuarios, ingresos (ARR) y economía unitaria durante los primeros tres años.
+Este documento explica las suposiciones detrás del crecimiento proyectado de InterMind en usuarios, ingresos (ARR) y economía unitaria durante los primeros tres años.
 
 ## Crecimiento de usuarios
 
 | Año | Usuarios | Justificación                                                                                                                                                                       |
 | --- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | 20,000   | Pilotos iniciales de lanzamiento al mercado en 5 mercados emergentes (MX, BR, TR, TH, ID), con adopción temprana de usuarios B2B enfocados en exportación. Fuerte demanda de alternativas en inglés. |
-| 2   | 120,000  | Campañas SEO localizadas y de pago en más de 10 países, efectos de red a través de reuniones con clientes, y escalamiento del embudo freemium. Las integraciones planificadas con Zoom/CRM impulsan la adquisición del mercado medio. |
+| 2   | 120,000  | SEO localizado y campañas pagadas en más de 10 países, efectos de red a través de reuniones con clientes, y escalamiento del embudo freemium. Las integraciones planificadas con Zoom/CRM impulsan la adquisición del mercado medio. |
 | 3   | 400,000  | Crecimiento viral a través de la UX "habla en tu idioma", integraciones verticales más profundas (ERP, incorporación, legal), y programas de revendedores en EU/MENA. |
 
 ## Ingresos recurrentes anuales (ARR)
@@ -40,7 +40,7 @@ Este documento explica los supuestos detrás del crecimiento proyectado de Inter
 | --- | ------ | ------------------------------------------------------------------------------------------------------------------------ |
 | 1   | 78%    | Costo de cómputo del stack de traducción de voz (\~\$0.08/min/usuario), ancho de banda e infraestructura mínima. Desarrollo amortizado. |
 | 2   | 82%    | Optimización de modelos, mejor utilización de GPU, descuentos de proveedores LLM, migración a infraestructura híbrida (inferencia en el borde). |
-| 3   | 85%    | Modelos de voz/LLM propios, infraestructura de escalado automático, infraestructura fija por usuario. Funciones B2B con precios más altos y bajo costo marginal. |
+| 3   | 85%    | Modelos de voz/LLM propios, infraestructura de escalado automático, infraestructura plana por usuario. Funciones B2B con precios más altos y bajo costo marginal. |
 
 ## Notas
 
