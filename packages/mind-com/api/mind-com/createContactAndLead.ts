@@ -1,5 +1,3 @@
-// api/mind-com/createContactAndLead.js
-import { Request, Response } from "undici"
 import { createContact, createLead } from "../lib/pipedriveClient.js"
 import { resolveCustomFieldId } from "../lib/fieldResolver.js"
 
@@ -7,7 +5,7 @@ import { resolveCustomFieldId } from "../lib/fieldResolver.js"
 
 export async function POST(request: Request) {
   const body = await request.json()
-  // Add type assertion to fix TS errors
+
   const { name, email, webSite, channel, channelId, originId, category, message, leadSource, countryCode, countryName } = body as {
     name: string
     email: string

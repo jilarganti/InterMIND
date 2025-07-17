@@ -4,12 +4,4 @@
       "path": "..",
     },
   ],
-  "settings": {
-    "files.exclude": {},
-    "search.exclude": {},
-    "files.watcherExclude": {},
-    "files.associations": {
-      "*.vue": "vue",
-    },
-  },
 }

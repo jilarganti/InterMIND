@@ -1,5 +1,3 @@
-import { fetch, Headers, Response } from "undici"
-
 export interface FieldOption {
   id: string | number
   label: string
