@@ -1,5 +1,3 @@
-import { fetch, Response, Request } from "undici"
-
 export async function GET(request: Request) {
   console.log("GET request" + request)
   const response: Response = await fetch("https://api.vercel.app/products")
