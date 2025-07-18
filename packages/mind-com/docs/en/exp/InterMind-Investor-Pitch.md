@@ -1,6 +1,6 @@
-# InterMind Investor Pitch: Breaking the Language Barrier for Global Business <Badge type="warning" text="draft" />
+# InterMind Investor Pitch: Breaking the Language Barrier for Global Business <Badge type="success" text="updated" />
 
-## Problem: Language Is Still a \$100B Barrier
+## Problem: Language Is Still a $100B Barrier
 
 Despite globalization and video conferencing tools, **language remains the single greatest bottleneck** in international business:
 
@@ -30,7 +30,7 @@ A professional-grade video platform that lets **every participant speak and hear
 | Automotive     | DE, JP, KR         | Supplier negotiations across borders     | Expensive interpreters, slow cycles |
 | Enterprise HQs | US, UK, AU         | Global team meetings                     | Time lost switching languages       |
 
-Estimated TAM: **\$27B+** B2B communication enablement market (source: CSA Research, Gartner)
+Estimated TAM: **$27B+** B2B communication enablement market (source: CSA Research, Gartner)
 
 ## How It Works (in 3 Seconds or Less)
 
@@ -42,7 +42,7 @@ Backed by a proprietary stack:
 
 - Speech-to-text → semantic cleanup → LLM-based translation → text-to-speech
 - Latency: under 3 seconds
-- Accuracy: \~95% in 19 languages
+- Accuracy: ~95% in 19 languages
 - Domain-specific adaptation (legal, technical, medical)
 
 ## Traction & Go-To-Market Strategy
@@ -64,7 +64,7 @@ Backed by a proprietary stack:
 ### Pricing (B2B SaaS)
 
 - Basic (free): 25 meetings
-- Pro: \$20/month/user
+- Pro: $20/month/user
 - Business: Custom (privacy zones, priority support)
 
 ## Compliance & Privacy by Design
@@ -86,35 +86,45 @@ InterMind is trusted by **enterprises where privacy is non-negotiable**.
 
 ### Competitive Edge
 
-- Unlike Zoom or Meet, InterMind isn’t a plugin — it’s **built around the language problem**
+- Unlike Zoom or Meet, InterMind isn't a plugin — it's **built around the language problem**
 - Proprietary tech, not wrappers around third-party APIs
 - Built-in differentiation: privacy, scalability, UX, latency
 
 ## Financial Projections (Yr 1–3)
 
-| Metric       | Year 1 | Year 2  | Year 3 |
-| ------------ | ------ | ------- | ------ |
-| Users        | 20K    | 120K    | 400K   |
-| ARR          | \$2.1M | \$11.6M | \$38M  |
-| CAC (avg)    | \$52   | \$45    | \$39   |
-| LTV          | \$420  | \$480   | \$620  |
-| Gross Margin | 78%    | 82%     | 85%    |
+| Metric          | Year 1 | Year 2 | Year 3 |
+| --------------- | ------ | ------ | ------ |
+| Paying Accounts | 1,600  | 15,600 | 72,000 |
+| ARR             | $706K  | $9.0M  | $50.8M |
+| CAC (avg)       | $95    | $90    | $85    |
+| LTV             | $179   | $308   | $470   |
+| LTV/CAC         | 1.9x   | 3.4x   | 5.5x   |
+| Gross Margin    | 73%    | 77%    | 80%    |
 
-We are beginning go-to-market pilots in Mexico, Brazil, Turkey, Thailand, and Indonesia — targeting regions with high B2B trade volume and low English proficiency.
+**Key Unit Economics:** We focus on **paying customers only** — no vanity metrics. Our model shows healthy B2B SaaS growth with strong LTV/CAC ratios improving from 1.9x to 5.5x by Year 3.
+
+### Customer Segmentation (Y3)
+
+- **80% Solo/Freelance:** 1 license per account
+- **15% Small Business:** 4 licenses per account
+- **5% Mid-Market:** 22 licenses per account
+- **Weighted Average:** 2.5 licenses per account
+
+We are beginning go-to-market pilots in Mexico, Brazil, Turkey, Thailand, and Indonesia — targeting regions with high B2B trade volume and strong demand for English-language business communication.
 
 ## Founding Team
 
-- **\[Name]** — CEO: ex-\[Big Tech], 10y+ in NLP
-- **\[Name]** — CTO: Built multilingual infrastructure at \[Company]
-- **\[Name]** — Growth: Former head of expansion at \[B2B SaaS Unicorn]
+- **[Name]** — CEO: ex-[Big Tech], 10y+ in NLP
+- **[Name]** — CTO: Built multilingual infrastructure at [Company]
+- **[Name]** — Growth: Former head of expansion at [B2B SaaS Unicorn]
 
 ## Ask
 
-- Raising **\$3.5M Seed** to:
+- Raising **$3.5M Seed** to:
 
   - Expand engineering & privacy compliance teams
   - Localize platform for 10 new markets
   - Launch integrations (Zoom, Teams)
   - Fund multilingual B2B acquisition campaigns
 
-Let’s build the platform that **makes understanding universal.**
+Let's build the platform that **makes understanding universal.**

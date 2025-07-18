@@ -1,4 +1,4 @@
-# InterMind yatırımcı sunumu: küresel iş dünyası için dil engelini aşmak <Badge type="warning" text="draft" />
+# InterMind yatırımcı sunumu: Küresel iş dünyası için dil engelini aşmak <Badge type="success" text="güncellendi" />
 
 ## Sorun: Dil Hâlâ 100 Milyar Dolarlık Bir Engel
 
@@ -8,11 +8,11 @@ Küreselleşme ve video konferans araçlarına rağmen, **dil uluslararası tica
 - Çinli fabrikalar Alman mühendislere teknik özellikleri açıklamakta zorlanıyor
 - Japon firmalar küresel pazarlara ulaşmak için pahalı insan tercümanlarına güveniyor
 
-**InterMind bu sürtünmeyi ortadan kaldırıyor** — altyazılar veya gecikmeli çeviri ile değil, **video aramalar sırasında gerçek zamanlı sesli tercümanlık** ile.
+**InterMind bu sürtünmeyi ortadan kaldırıyor** — altyazılar veya gecikmeli çeviri ile değil, **video görüşmeleri sırasında gerçek zamanlı sesli tercümanlık** ile.
 
 ## Çözüm: InterMind = Google Meet + AI Tercüman
 
-**Her katılımcının kendi dilinde konuşmasına ve duymasına** olanak tanıyan profesyonel düzeyde bir video platformu — anında, doğru ve gizli bir şekilde.
+**Her katılımcının kendi dilinde konuşmasına ve duymasına** olanak tanıyan profesyonel düzeyde bir video platformu — anında, doğru ve gizli.
 
 ### Temel özellikler
 
@@ -42,7 +42,7 @@ Tahmini TAM: **27 Milyar $+** B2B iletişim destekleme pazarı (kaynak: CSA Rese
 
 - Konuşmadan metne → anlamsal temizleme → LLM tabanlı çeviri → metinden konuşmaya
 - Gecikme: 3 saniyenin altında
-- Doğruluk: 19 dilde \~%95
+- Doğruluk: 19 dilde ~%95
 - Alana özel uyarlama (hukuki, teknik, tıbbi)
 
 ## Çekiş ve Pazara Giriş Stratejisi
@@ -64,7 +64,7 @@ Tahmini TAM: **27 Milyar $+** B2B iletişim destekleme pazarı (kaynak: CSA Rese
 ### Fiyatlandırma (B2B SaaS)
 
 - Temel (ücretsiz): 25 toplantı
-- Pro: \$20/ay/kullanıcı
+- Pro: $20/ay/kullanıcı
 - İş: Özel (gizlilik bölgeleri, öncelikli destek)
 
 ## Tasarım Gereği Uyumluluk ve Gizlilik
@@ -81,7 +81,7 @@ InterMind, **gizliliğin pazarlık konusu olmadığı kurumlar** tarafından gü
 ### Pazar Zamanlaması
 
 - AI çeviri insan seviyesinde doğruluğa ulaşıyor
-- Uzaktan toplantılar kalıcı hale geldi (B2B satışların %75'i hala sanal — McKinsey)
+- Uzaktan toplantılar kalıcı hale geldi (B2B satışlarının %75'i hala sanal — McKinsey)
 - Çok dilli pazarlar büyüyor: Afrika, LATAM, SEA
 
 ### Rekabet Avantajı
@@ -90,27 +90,37 @@ InterMind, **gizliliğin pazarlık konusu olmadığı kurumlar** tarafından gü
 - Tescilli teknoloji, üçüncü taraf API'lerin sarmalayıcısı değil
 - Yerleşik farklılaşma: gizlilik, ölçeklenebilirlik, UX, gecikme
 
-## Mali projeksiyonlar (1-3. yıl)
+## Mali Projeksiyonlar (1-3. Yıl)
 
-| Metrik       | 1. Yıl | 2. Yıl  | 3. Yıl |
-| ------------ | ------ | ------- | ------ |
-| Kullanıcılar | 20K    | 120K    | 400K   |
-| ARR          | \$2.1M | \$11.6M | \$38M  |
-| CAC (ort)    | \$52   | \$45    | \$39   |
-| LTV          | \$420  | \$480   | \$620  |
-| Brüt Marj    | 78%    | 82%     | 85%    |
+| Metrik          | 1. Yıl | 2. Yıl | 3. Yıl |
+| --------------- | ------ | ------ | ------ |
+| Ücretli Hesaplar | 1,600  | 15,600 | 72,000 |
+| ARR             | $706K  | $9.0M  | $50.8M |
+| CAC (ort)       | $95    | $90    | $85    |
+| LTV             | $179   | $308   | $470   |
+| LTV/CAC         | 1.9x   | 3.4x   | 5.5x   |
+| Brüt Kar Marjı  | 73%    | 77%    | 80%    |
 
-Yüksek B2B ticaret hacmi ve düşük İngilizce yeterliliği olan bölgeleri hedefleyerek Meksika, Brezilya, Türkiye, Tayland ve Endonezya'da pazara giriş pilot çalışmalarına başlıyoruz.
+**Temel Birim Ekonomisi:** Sadece **ücretli müşterilere** odaklanıyoruz — göstermelik metrikler yok. Modelimiz, 3. yıla kadar 1.9x\'den 5.5x\'e yükselen güçlü LTV/CAC oranları ile sağlıklı B2B SaaS büyümesi gösteriyor.
+
+### Müşteri Segmentasyonu (3. Yıl)
+
+- **%80 Bireysel/Serbest Çalışan:** Hesap başına 1 lisans
+- **%15 Küçük İşletme:** Hesap başına 4 lisans
+- **%5 Orta Ölçekli Pazar:** Hesap başına 22 lisans
+- **Ağırlıklı Ortalama:** Hesap başına 2.5 lisans
+
+Meksika, Brezilya, Türkiye, Tayland ve Endonezya\'da pazara giriş pilot çalışmalarına başlıyoruz — yüksek B2B ticaret hacmi ve İngilizce iş iletişimi için güçlü talep olan bölgeleri hedefliyoruz.
 
 ## Kurucu Ekip
 
-- **\[İsim]** — CEO: eski-\[Büyük Teknoloji], NLP'de 10y+ deneyim
-- **\[İsim]** — CTO: \[Şirket]'te çok dilli altyapı kurdu
-- **\[İsim]** — Büyüme: \[B2B SaaS Unicorn]'da eski genişleme başkanı
+- **[Name]** — CEO: eski [Big Tech], NLP alanında 10+ yıl deneyim
+- **[Name]** — CTO: [Company]'de çok dilli altyapı geliştirdi
+- **[Name]** — Büyüme: [B2B SaaS Unicorn]'da eski genişleme başkanı
 
 ## Talep
 
-- **3,5 Milyon $ Tohum Yatırımı** toplamak için:
+- **3,5 Milyon Dolar Tohum Yatırımı** toplamak için:
 
   - Mühendislik ve gizlilik uyumluluk ekiplerini genişletmek
   - Platformu 10 yeni pazar için yerelleştirmek

@@ -1,4 +1,4 @@
-# InterMind Investor Pitch: Sprachbarrieren für globale Unternehmen überwinden <Badge type="warning" text="draft" />
+# InterMind Investor Pitch: Sprachbarrieren für globale Geschäfte überwinden <Badge type="success" text="aktualisiert" />
 
 ## Problem: Sprache ist immer noch eine 100-Milliarden-Dollar-Barriere
 
@@ -25,12 +25,12 @@ Eine professionelle Videoplattform, die es **jedem Teilnehmer ermöglicht, in se
 
 | Segment        | Länder             | Anwendungsfall                           | Schmerzpunkt                        |
 | -------------- | ------------------ | ---------------------------------------- | ----------------------------------- |
-| Fertigung      | CN, IN, MX, TH, ID | Kommunikation zwischen Fabrik und Kunde  | Spezifikationen gehen in Übersetzung verloren |
+| Fertigung      | CN, IN, MX, TH, ID | Kommunikation zwischen Fabrik und Kunde  | Spezifikationen gehen in der Übersetzung verloren |
 | Export         | BR, CL, ES, CO     | Verkauf & Demos für englischsprachige Käufer | Verpasste Geschäfte durch Sprachbarrieren |
 | Automobilindustrie | DE, JP, KR     | Lieferantenverhandlungen über Grenzen hinweg | Teure Dolmetscher, langsame Zyklen |
 | Unternehmens-HQs | US, UK, AU       | Globale Teammeetings                     | Zeitverlust beim Sprachwechsel      |
 
-Geschätzter TAM: **27 Mrd. USD+** Markt für B2B-Kommunikationsunterstützung (Quelle: CSA Research, Gartner)
+Geschätzter TAM: **$27B+** B2B-Kommunikations-Enablement-Markt (Quelle: CSA Research, Gartner)
 
 ## So funktioniert es (in 3 Sekunden oder weniger)
 
@@ -42,7 +42,7 @@ Unterstützt durch einen proprietären Stack:
 
 - Sprache-zu-Text → semantische Bereinigung → LLM-basierte Übersetzung → Text-zu-Sprache
 - Latenz: unter 3 Sekunden
-- Genauigkeit: \~95% in 19 Sprachen
+- Genauigkeit: ~95% in 19 Sprachen
 - Domänenspezifische Anpassung (rechtlich, technisch, medizinisch)
 
 ## Traktion & Go-To-Market-Strategie
@@ -58,14 +58,14 @@ Unterstützt durch einen proprietären Stack:
 ### Go-To-Market
 
 - Bezahlte Suche: hochintentionale lokalisierte Suchanfragen ("como hablar ingles reuniones negocios")
-- B2B-Partnerschaften: ERPs, CRMs, Exporthilfsprogramme
+- B2B-Partnerschaften: ERPs, CRMs, Exportunterstützungsprogramme
 - Zielgruppe: Vertriebsleiter, Supply Chain Leads, Exportteams
 
 ### Preisgestaltung (B2B SaaS)
 
 - Basic (kostenlos): 25 Meetings
-- Pro: \$20/Monat/Nutzer
-- Business: Individuell (Privacy-Zonen, Priority-Support)
+- Pro: 20€/Monat/Nutzer
+- Business: Individuell (private Bereiche, prioritärer Support)
 
 ## Compliance & Datenschutz by Design
 
@@ -92,21 +92,31 @@ InterMind wird von **Unternehmen vertraut, bei denen Datenschutz nicht verhandel
 
 ## Finanzprognosen (Jahr 1–3)
 
-| Kennzahl     | Jahr 1 | Jahr 2  | Jahr 3 |
-| ------------ | ------ | ------- | ------ |
-| Nutzer       | 20K    | 120K    | 400K   |
-| ARR          | \$2.1M | \$11.6M | \$38M  |
-| CAC (Ø)     | \$52   | \$45    | \$39   |
-| LTV          | \$420  | \$480   | \$620  |
-| Bruttomarge  | 78%    | 82%     | 85%    |
+| Kennzahl        | Jahr 1 | Jahr 2 | Jahr 3 |
+| --------------- | ------ | ------ | ------ |
+| Zahlende Konten | 1.600  | 15.600 | 72.000 |
+| ARR             | $706K  | $9.0M  | $50.8M |
+| CAC (Durchschn.)| $95    | $90    | $85    |
+| LTV             | $179   | $308   | $470   |
+| LTV/CAC         | 1,9x   | 3,4x   | 5,5x   |
+| Bruttomarge     | 73%    | 77%    | 80%    |
 
-Wir beginnen mit Go-to-Market-Pilotprojekten in Mexiko, Brasilien, der Türkei, Thailand und Indonesien — mit Fokus auf Regionen mit hohem B2B-Handelsvolumen und geringen Englischkenntnissen.
+**Wichtige Unit Economics:** Wir konzentrieren uns auf **zahlende Kunden nur** — keine Eitelkeitsmetriken. Unser Modell zeigt gesundes B2B SaaS-Wachstum mit starken LTV/CAC-Verhältnissen, die sich von 1,9x auf 5,5x bis Jahr 3 verbessern.
+
+### Kundensegmentierung (J3)
+
+- **80% Solo/Freelancer:** 1 Lizenz pro Konto
+- **15% Kleinunternehmen:** 4 Lizenzen pro Konto
+- **5% Mittelmarkt:** 22 Lizenzen pro Konto
+- **Gewichteter Durchschnitt:** 2,5 Lizenzen pro Konto
+
+Wir beginnen mit Go-to-Market-Pilotprojekten in Mexiko, Brasilien, der Türkei, Thailand und Indonesien — mit dem Fokus auf Regionen mit hohem B2B-Handelsvolumen und starker Nachfrage nach englischsprachiger Geschäftskommunikation.
 
 ## Gründungsteam
 
-- **\[Name]** — CEO: ex-\[Big Tech], 10+ Jahre in NLP
-- **\[Name]** — CTO: Hat mehrsprachige Infrastruktur bei \[Company] aufgebaut
-- **\[Name]** — Wachstum: Ehemaliger Leiter der Expansion bei \[B2B SaaS Unicorn]
+- **[Name]** — CEO: ex-[Big Tech], 10+ Jahre in NLP
+- **[Name]** — CTO: Hat mehrsprachige Infrastruktur bei [Company] aufgebaut
+- **[Name]** — Growth: Ehemaliger Leiter der Expansion bei [B2B SaaS Unicorn]
 
 ## Anfrage
 
@@ -115,6 +125,6 @@ Wir beginnen mit Go-to-Market-Pilotprojekten in Mexiko, Brasilien, der Türkei, 
   - Erweiterung der Engineering- und Datenschutz-Compliance-Teams
   - Lokalisierung der Plattform für 10 neue Märkte
   - Launch von Integrationen (Zoom, Teams)
-  - Finanzierung multilingualer B2B-Akquisitionskampagnen
+  - Finanzierung mehrsprachiger B2B-Akquisitionskampagnen
 
 Lassen Sie uns die Plattform aufbauen, die **Verständnis universell macht.**

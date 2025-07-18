@@ -1,4 +1,4 @@
-# Presentación para inversionistas de InterMind: Rompiendo la barrera del idioma para los negocios globales <Badge type="warning" text="draft" />
+# Presentación para inversionistas de InterMind: Rompiendo la barrera del idioma para los negocios globales <Badge type="success" text="actualizado" />
 
 ## Problema: El idioma sigue siendo una barrera de $100 mil millones
 
@@ -12,7 +12,7 @@ A pesar de la globalización y las herramientas de videoconferencia, **el idioma
 
 ## Solución: InterMind = Google Meet + Intérprete de IA
 
-Una plataforma de video de nivel profesional que permite a **cada participante hablar y escuchar en su propio idioma** — instantáneamente, con precisión y de forma privada.
+Una plataforma de video de nivel profesional que permite a **cada participante hablar y escuchar en su propio idioma** — de forma instantánea, precisa y privada.
 
 ### Características principales
 
@@ -26,11 +26,11 @@ Una plataforma de video de nivel profesional que permite a **cada participante h
 | Segmento       | Países             | Caso de uso                              | Punto de dolor                      |
 | -------------- | ------------------ | ---------------------------------------- | ----------------------------------- |
 | Manufactura    | CN, IN, MX, TH, ID | Comunicación fábrica-cliente             | Especificaciones perdidas en traducción |
-| Exportaciones  | BR, CL, ES, CO     | Ventas y demos a compradores de habla inglesa | Negocios perdidos por barreras idiomáticas |
+| Exportaciones  | BR, CL, ES, CO     | Ventas y demos a compradores angloparlantes | Negocios perdidos por barreras idiomáticas |
 | Automotriz     | DE, JP, KR         | Negociaciones con proveedores transfronterizas | Intérpretes costosos, ciclos lentos |
 | Oficinas centrales empresariales | US, UK, AU | Reuniones de equipos globales | Tiempo perdido cambiando idiomas |
 
-TAM estimado: **\$27B+** mercado de habilitación de comunicación B2B (fuente: CSA Research, Gartner)
+TAM estimado: **$27B+** mercado de habilitación de comunicación B2B (fuente: CSA Research, Gartner)
 
 ## Cómo funciona (en 3 segundos o menos)
 
@@ -42,7 +42,7 @@ Respaldado por una pila propietaria:
 
 - Voz a texto → limpieza semántica → traducción basada en LLM → texto a voz
 - Latencia: menos de 3 segundos
-- Precisión: \~95% en 19 idiomas
+- Precisión: ~95% en 19 idiomas
 - Adaptación específica por dominio (legal, técnico, médico)
 
 ## Tracción y estrategia de salida al mercado
@@ -64,7 +64,7 @@ Respaldado por una pila propietaria:
 ### Precios (B2B SaaS)
 
 - Básico (gratuito): 25 reuniones
-- Pro: \$20/mes/usuario
+- Pro: $20/mes/usuario
 - Empresarial: Personalizado (zonas privadas, soporte prioritario)
 
 ## Cumplimiento y privacidad por diseño
@@ -80,7 +80,7 @@ InterMind es confiable para **empresas donde la privacidad es innegociable**.
 
 ### Momento del mercado
 
-- La traducción con IA está alcanzando precisión casi humana
+- La traducción con IA está alcanzando una precisión casi humana
 - Las reuniones remotas son permanentes (75% de las ventas B2B siguen siendo virtuales — McKinsey)
 - Los mercados multilingües están creciendo: África, LATAM, SEA
 
@@ -92,25 +92,35 @@ InterMind es confiable para **empresas donde la privacidad es innegociable**.
 
 ## Proyecciones financieras (Año 1–3)
 
-| Métrica      | Año 1  | Año 2   | Año 3  |
-| ------------ | ------ | ------- | ------ |
-| Usuarios     | 20K    | 120K    | 400K   |
-| ARR          | \$2.1M | \$11.6M | \$38M  |
-| CAC (prom)   | \$52   | \$45    | \$39   |
-| LTV          | \$420  | \$480   | \$620  |
-| Margen Bruto | 78%    | 82%     | 85%    |
+| Métrica         | Año 1  | Año 2  | Año 3  |
+| --------------- | ------ | ------ | ------ |
+| Cuentas de pago | 1,600  | 15,600 | 72,000 |
+| ARR             | $706K  | $9.0M  | $50.8M |
+| CAC (promedio)  | $95    | $90    | $85    |
+| LTV             | $179   | $308   | $470   |
+| LTV/CAC         | 1.9x   | 3.4x   | 5.5x   |
+| Margen bruto    | 73%    | 77%    | 80%    |
 
-Estamos comenzando pilotos de comercialización en México, Brasil, Turquía, Tailandia e Indonesia — dirigiéndonos a regiones con alto volumen de comercio B2B y baja competencia en inglés.
+**Economía unitaria clave:** Nos enfocamos en **clientes de pago únicamente** — sin métricas de vanidad. Nuestro modelo muestra un crecimiento saludable de B2B SaaS con ratios LTV/CAC sólidos que mejoran de 1.9x a 5.5x para el Año 3.
+
+### Segmentación de clientes (A3)
+
+- **80% Solo/Freelance:** 1 licencia por cuenta
+- **15% Pequeña empresa:** 4 licencias por cuenta
+- **5% Mercado medio:** 22 licencias por cuenta
+- **Promedio ponderado:** 2.5 licencias por cuenta
+
+Estamos comenzando pilotos de entrada al mercado en México, Brasil, Turquía, Tailandia e Indonesia — dirigiéndonos a regiones con alto volumen de comercio B2B y fuerte demanda de comunicación empresarial en inglés.
 
 ## Equipo fundador
 
-- **\[Nombre]** — CEO: ex-\[Big Tech], 10+ años en NLP
-- **\[Nombre]** — CTO: Construyó infraestructura multilingüe en \[Empresa]
-- **\[Nombre]** — Crecimiento: Ex-director de expansión en \[B2B SaaS Unicornio]
+- **[Name]** — CEO: ex-[Big Tech], 10+ años en NLP
+- **[Name]** — CTO: Construyó infraestructura multilingüe en [Company]
+- **[Name]** — Crecimiento: Ex director de expansión en [B2B SaaS Unicorn]
 
 ## Solicitud
 
-- Recaudando **\$3.5M en ronda Seed** para:
+- Recaudando **$3.5M en ronda Seed** para:
 
   - Expandir equipos de ingeniería y cumplimiento de privacidad
   - Localizar la plataforma para 10 nuevos mercados

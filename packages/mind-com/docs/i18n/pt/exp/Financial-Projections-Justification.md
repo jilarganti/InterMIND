@@ -1,51 +1,110 @@
-# Justificativa das projeções financeiras (anos 1–3) <Badge type="warning" text="draft" />
+# Justificativa das projeções financeiras (anos 1–3) <Badge type="success" text="atualizado" />
 
-Este documento explica as premissas por trás do crescimento projetado da InterMind em usuários, receita (ARR) e economia unitária nos primeiros três anos.
+Este documento explica as premissas por trás do modelo financeiro da InterMind para crescimento de usuários, receita (ARR) e economia unitária nos primeiros três anos.
 
-## Crescimento de usuários
+## Crescimento de Clientes
 
-| Ano | Usuários | Justificativa                                                                                                                                                                       |
-| --- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | 20.000   | Pilotos iniciais de entrada no mercado em 5 mercados emergentes (MX, BR, TR, TH, ID), com adoção inicial de usuários B2B focados em exportação. Forte demanda por alternativas em inglês. |
-| 2   | 120.000  | SEO localizado e campanhas pagas em mais de 10 países, efeitos de rede via reuniões com clientes e escalonamento do funil freemium. Integrações planejadas com Zoom/CRM impulsionam aquisição no mercado médio. |
-| 3   | 400.000  | Crescimento viral via UX "fale no seu idioma", integrações verticais mais profundas (ERP, onboarding, jurídico) e programas de revendedores na UE/MENA. |
+| Ano | Contas Pagantes | Justificativa                                                                                                                                                            |
+| --- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | 1.600           | Lançamento inicial em 5 mercados emergentes (MX, BR, TR, TH, ID), adoção inicial por usuários B2B focados em exportação. Alta demanda por alternativas em inglês.     |
+| 2   | 15.600          | SEO localizado e campanhas pagas em mais de 10 países, efeitos de rede através de reuniões com clientes, escalando funil freemium. Integrações Zoom/CRM impulsionam aquisição de médio mercado. |
+| 3   | 72.000          | Crescimento viral através da UX "fale no seu idioma", integrações verticais profundas (ERP, onboarding, jurídico), programas de revendedores na UE/MENA.              |
 
 ## Receita recorrente anual (ARR)
 
-| Ano | ARR     | Premissas                                                                                                                         |
-| --- | ------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | \$2,1M  | Conversão conservadora de 20K usuários: 20% Pro (4K usuários), \$20/mês/usuário → \$960K ARR; 50 negócios empresariais a \$25K/ano = \$1,25M ARR. |
-| 2   | \$11,6M | Conversão freemium aprimorada + aquisição B2B: 30K usuários Pro (\$7,2M), 170 contas empresariais (\$25K/ano = \$4,25M).                 |
-| 3   | \$38M   | 60K usuários Pro (\$14,4M), 500 contas empresariais (\$48K ARR médio = \$24M), além de upsells (armazenamento, zonas de privacidade, suporte).             |
+| Ano | ARR         | Premissas principais                                                                                                                    |
+| --- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | $705.600    | 1.600 contas pagantes × 1,5 licenças médias × $24,50/mês → conversão freemium conservadora + programas B2B piloto.                   |
+| 2   | $8.985.600  | 15.600 contas pagantes × 2,0 licenças médias × $24,00/mês → conversão freemium aprimorada + aquisição B2B ativa.                     |
+| 3   | $50.760.000 | 72.000 contas pagantes × 2,5 licenças médias × $23,50/mês → maturidade do produto, escalonamento mid-market, upsells (armazenamento, zonas de privacidade). |
+
+## Licenças por Conta: Segmentação Realista
+
+### **Insight Principal:** Mais de 80% permanecerão como usuário único, mas o crescimento do mercado médio cria uma média mais alta
+
+| Segmento             | Distribuição A1   | Distribuição A2     | Distribuição A3   |
+| -------------------- | ----------------- | ------------------- | ----------------- |
+| **Solo/Freelancer**  | 83% (1,0 lic/conta) | 81,5% (1,0 lic/conta) | 80% (1,0 lic/conta) |
+| **Pequena Empresa**  | 15% (2,0 lic/conta) | 15% (3,0 lic/conta)   | 15% (4,0 lic/conta) |
+| **Mercado Médio**    | 2% (18,5 lic/conta) | 3,5% (21,0 lic/conta) | 5% (22,0 lic/conta) |
+| **Média Ponderada** | **1,5 lic/conta**   | **2,0 lic/conta**     | **2,5 lic/conta**   |
+
+### **Lógica de crescimento de licenças:**
+
+**A1:** Adoção piloto — equipes mínimas testando o produto, principalmente usuários individuais  
+**A2:** Implementação departamental — expansão para departamentos de vendas/suporte dentro de contas existentes, penetração no mercado médio começa  
+**A3:** Adoção em toda a empresa — empresas de mercado médio escalam através de múltiplas equipes e departamentos
 
 ## CAC (Custo de Aquisição de Cliente)
 
-| Ano | CAC Médio | Justificativa                                                                                                                                                    |
-| --- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | \$52      | Mix de busca paga, vendas lideradas pelo fundador e testes de baixo custo. Campanhas focadas em nível de país com palavras-chave de alta intenção (ex: "como hablar ingles reuniones"). |
-| 2   | \$45      | CAC diminui com métricas de funil aprimoradas, onboarding localizado e marketing de conteúdo. Canais orgânicos e de indicação se fortalecem.                   |
-| 3   | \$39      | Eficiência do CAC através de programas de revendedores, integrações com parceiros e modelagem de atribuição madura.                                             |
+| Ano | CAC Médio | Justificativa                                                                                                                                             |
+| --- | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | $95       | Mix de busca paga, vendas lideradas pelo fundador e pilotos de baixo custo. Campanhas a nível nacional com palavras-chave de alta intenção (ex: "como hablar ingles reuniones"). |
+| 2   | $90       | CAC diminui devido a métricas de funil aprimoradas, onboarding localizado e marketing de conteúdo. Canais orgânicos e de indicação se fortalecem.      |
+| 3   | $85       | Eficiência do CAC através de programas de revendedores, integrações com parceiros e modelagem de atribuição madura.                                     |
 
 ## LTV (Valor do Tempo de Vida do Cliente)
 
-| Ano | LTV   | Base                                                                                           |
-| --- | ----- | ---------------------------------------------------------------------------------------------- |
-| 1   | \$420 | ARPU de \$20/mês × 21 meses de permanência média (early adopters fiéis, baixo churn em casos de uso B2B). |
-| 2   | \$480 | 80% dos usuários Pro expandem o número de assentos nas organizações → \$24/mês ARPU × 20 meses em média. |
-| 3   | \$620 | Contas empresariais dominam; maior ACV + renovações + upsells. Churn conservador (10–12%).    |
+| Ano | LTV    | Base de Cálculo                                                                                     |
+| --- | ------ | ---------------------------------------------------------------------------------------------------- |
+| 1   | $178.9 | ARPU $36.8/mês × 4,9 meses de permanência média (usuários iniciais, alta rotatividade no segmento freemium). |
+| 2   | $308.0 | ARPU $48.0/mês × 6,4 meses de permanência média (retenção melhorada, clientes B2B mais fiéis).      |
+| 3   | $470.0 | ARPU $58.8/mês × 8,0 meses de permanência média (mercado médio domina; maior ACV + renovações + upsells, 10% de rotatividade). |
 
 ## Margem Bruta
 
-| Ano | Margem | Fatores                                                                                                                 |
-| --- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
-| 1   | 78%    | Custo computacional da pilha de tradução de fala (\~\$0,08/min/usuário), largura de banda e infraestrutura mínima. Desenvolvimento amortizado. |
-| 2   | 82%    | Otimização de modelo, melhor utilização de GPU, descontos de fornecedores LLM, migração para infraestrutura híbrida (inferência de borda). |
-| 3   | 85%    | Modelos de fala/LLM próprios, infraestrutura de escalonamento automático, infraestrutura fixa por usuário. Recursos B2B precificados mais alto com baixo custo marginal. |
+| Ano | Margem | Fatores                                                                                                                  |
+| --- | ------ | ------------------------------------------------------------------------------------------------------------------------ |
+| 1   | 73%    | Custo computacional da pilha de tradução de fala (~$0,08/min/usuário), largura de banda, infraestrutura mínima. Dev amortizado. |
+| 2   | 77%    | Otimização de modelo, melhor utilização de GPU, descontos de fornecedores LLM, migração para infra híbrida (inferência edge). |
+| 3   | 80%    | Modelos de fala/LLM próprios, infra de auto-escalonamento, infra fixa por usuário. Recursos B2B precificados mais alto com baixos custos marginais. |
 
-## Observações
+## Principais métricas de economia unitária
 
-- Todos os números são conservadores e excluem ganhos potenciais da monetização de API (planejada para o Ano 2) e licenciamento white-label empresarial.
-- As projeções de custos consideram opções de pagamento localizadas, conformidade legal (LGPD/GDPR) e custos de suporte.
-- As premissas de preços são validadas contra ferramentas SaaS comparáveis (Zoom, DeepL Pro, Otter AI).
+| Métrica                           | A1     | A2     | A3     | Valor alvo   |
+| --------------------------------- | ------ | ------ | ------ | ------------ |
+| **LTV/CAC**                       | 1.9    | 3.4    | 5.5    | >3.0         |
+| **Período de payback**            | 8.5 me | 5.8 me | 4.2 me | <12 me       |
+| **Retenção bruta de receita**     | 85%    | 88%    | 90%    | >85%         |
+| **Retenção líquida de receita**   | 95%    | 115%   | 130%   | >110%        |
 
-> Essas projeções equilibram ambição de crescimento com economia disciplinada de SaaS — visando relações sustentáveis de CAC/LTV (>5x até o Ano 3) e margens brutas de 80%+.
+## Premissas críticas do modelo
+
+### **Estratégia de preços:**
+
+- Otimização gradual de preços ao longo dos anos para aumentar o LTV
+- Nível de mercado médio com recursos premium no A2-A3
+- Descontos por volume para contas com múltiplas licenças
+
+### **Evolução da segmentação de clientes:**
+
+- **A1:** Foco em adotantes iniciais de PMEs (alta rotatividade, adoção rápida)
+- **A2:** Expansão para o mercado médio através de integrações e parcerias
+- **A3:** Escalonamento do mercado médio com sucesso do cliente dedicado e implementações multidepartamentais
+
+### **Expansão geográfica:**
+
+- Mercados emergentes primeiro (CAC menor, maior taxa de crescimento)
+- Mercados desenvolvidos depois (LTV maior, aquisição mais complexa)
+
+## Riscos e Mitigação
+
+**Cenários positivos não incluídos:**
+
+- Monetização da API (planejada para o 2º ano)
+- Licenciamento white-label para clientes de médio porte
+- Integrações de marketplace (Zoom App Store, Microsoft Teams)
+
+**Premissas de custos consideram:**
+
+- Métodos de pagamento localizados e flutuações cambiais
+- Conformidade legal (LGPD/GDPR) e custos de suporte
+- Pressão competitiva sobre preços
+
+**Validação de preços:**
+
+- Comparado com ferramentas SaaS similares (Zoom, DeepL Pro, Otter AI)
+- Teste de sensibilidade de preços nos segmentos-alvo
+- Análise de disposição a pagar através de programas piloto
+
+> **Conclusão:** Essas projeções equilibram ambição de crescimento com economia SaaS disciplinada — visando proporções sustentáveis de LTV/CAC (>5x até o 3º ano) e margens brutas de 80%+ com segmentação realista da base de clientes.

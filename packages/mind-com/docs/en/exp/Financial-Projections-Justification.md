@@ -2,13 +2,13 @@
 
 This document explains the assumptions behind InterMind's financial model for user growth, revenue (ARR), and unit economics over the first three years.
 
-## User Growth
+## Customer Growth
 
-| Year | Users   | Justification                                                                                                                                                            |
-| ---- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1    | 20,000  | Initial rollout across 5 emerging markets (MX, BR, TR, TH, ID), early adoption by export-focused B2B users. High demand for English-language alternatives.               |
-| 2    | 120,000 | Localized SEO and paid campaigns in 10+ countries, network effects through client meetings, scaling freemium funnel. Zoom/CRM integrations drive mid-market acquisition. |
-| 3    | 400,000 | Viral growth through "speak in your language" UX, deep vertical integrations (ERP, onboarding, legal), reseller programs in EU/MENA.                                     |
+| Year | Paying Accounts | Justification                                                                                                                                                            |
+| ---- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1    | 1,600           | Initial rollout across 5 emerging markets (MX, BR, TR, TH, ID), early adoption by export-focused B2B users. High demand for English-language alternatives.               |
+| 2    | 15,600          | Localized SEO and paid campaigns in 10+ countries, network effects through client meetings, scaling freemium funnel. Zoom/CRM integrations drive mid-market acquisition. |
+| 3    | 72,000          | Viral growth through "speak in your language" UX, deep vertical integrations (ERP, onboarding, legal), reseller programs in EU/MENA.                                     |
 
 ## Annual Recurring Revenue (ARR)
 

@@ -1,51 +1,110 @@
-# Justification des projections financières (années 1–3) <Badge type="warning" text="draft" />
+# Justification des projections financières (années 1–3) <Badge type="success" text="updated" />
 
-Ce document explique les hypothèses sous-jacentes à la croissance projetée d'InterMind en termes d'utilisateurs, de revenus (ARR) et d'économie unitaire au cours des trois premières années.
+Ce document explique les hypothèses sous-jacentes au modèle financier d'InterMind pour la croissance des utilisateurs, les revenus (ARR) et l'économie unitaire au cours des trois premières années.
 
-## Croissance des utilisateurs
+## Croissance de la clientèle
 
-| Année | Utilisateurs | Justification                                                                                                                                                                                    |
-| ----- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1     | 20 000       | Pilotes initiaux de mise sur le marché dans 5 marchés émergents (MX, BR, TR, TH, ID), avec une adoption précoce d'utilisateurs B2B axés sur l'exportation. Forte demande d'alternatives en anglais. |
-| 2     | 120 000      | SEO localisé et campagnes payantes dans plus de 10 pays, effets de réseau via les réunions clients, et mise à l'échelle de l'entonnoir freemium. Les intégrations Zoom/CRM prévues stimulent l'acquisition du marché intermédiaire. |
-| 3     | 400 000      | Croissance virale via l'UX "parlez dans votre langue", intégrations verticales plus profondes (ERP, intégration, juridique), et programmes de revendeurs en UE/MENA.                              |
+| Année | Comptes payants | Justification                                                                                                                                                            |
+| ----- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1     | 1 600           | Déploiement initial sur 5 marchés émergents (MX, BR, TR, TH, ID), adoption précoce par les utilisateurs B2B axés sur l'export. Forte demande d'alternatives en anglais. |
+| 2     | 15 600          | SEO localisé et campagnes payantes dans plus de 10 pays, effets de réseau via les réunions clients, mise à l'échelle de l'entonnoir freemium. Les intégrations Zoom/CRM stimulent l'acquisition du marché intermédiaire. |
+| 3     | 72 000          | Croissance virale grâce à l'UX "parlez dans votre langue", intégrations verticales approfondies (ERP, onboarding, juridique), programmes de revendeurs en UE/MENA.      |
 
-## Revenus récurrents annuels (ARR)
+## Chiffre d'affaires récurrent annuel (ARR)
 
-| Année | ARR     | Hypothèses                                                                                                                                    |
-| ----- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1     | 2,1M\$  | Conversion conservatrice de 20K utilisateurs : 20% Pro (4K utilisateurs), 20\$/mois/utilisateur → 960K\$ ARR ; 50 contrats entreprise à 25K\$/an = 1,25M\$ ARR. |
-| 2     | 11,6M\$ | Amélioration de la conversion freemium + acquisition B2B : 30K utilisateurs Pro (7,2M\$), 170 comptes entreprise (25K\$/an = 4,25M\$).                          |
-| 3     | 38M\$   | 60K utilisateurs Pro (14,4M\$), 500 comptes entreprise (48K\$ ARR moyen = 24M\$), plus montées en gamme (stockage, zones de confidentialité, support).          |
+| Année | ARR         | Hypothèses principales                                                                                                                    |
+| ----- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | 705 600 $   | 1 600 comptes payants × 1,5 licences moy. × 24,50 $/mois → conversion freemium conservatrice + programmes pilotes B2B.                |
+| 2     | 8 985 600 $ | 15 600 comptes payants × 2,0 licences moy. × 24,00 $/mois → conversion freemium améliorée + acquisition B2B active.                   |
+| 3     | 50 760 000 $| 72 000 comptes payants × 2,5 licences moy. × 23,50 $/mois → maturité produit, montée en gamme marché intermédiaire, ventes (stockage, zones privées). |
+
+## Licences par compte : segmentation réaliste
+
+### **Insight clé :** Plus de 80 % resteront mono-utilisateur, mais la croissance du marché intermédiaire augmente la moyenne
+
+| Segment              | Distribution A1   | Distribution A2     | Distribution A3   |
+| -------------------- | ----------------- | ------------------- | ----------------- |
+| **Solo/Freelance**   | 83% (1,0 lic/cpt) | 81,5% (1,0 lic/cpt) | 80% (1,0 lic/cpt) |
+| **Petite entreprise**   | 15% (2,0 lic/cpt) | 15% (3,0 lic/cpt)   | 15% (4,0 lic/cpt) |
+| **Marché intermédiaire**       | 2% (18,5 lic/cpt) | 3,5% (21,0 lic/cpt) | 5% (22,0 lic/cpt) |
+| **Moyenne pondérée** | **1,5 lic/cpt**   | **2,0 lic/cpt**     | **2,5 lic/cpt**   |
+
+### **Logique de croissance des licences :**
+
+**A1 :** Adoption pilote — équipes minimales testant le produit, principalement des utilisateurs individuels  
+**A2 :** Déploiement départemental — expansion vers les départements ventes/support au sein des comptes existants, la pénétration du marché intermédiaire commence  
+**A3 :** Adoption à l\'échelle départementale — les entreprises du marché intermédiaire s\'étendent à plusieurs équipes et départements
 
 ## CAC (Coût d'acquisition client)
 
-| Année | CAC Moyen | Justification                                                                                                                                                    |
-| ----- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1     | 52 $      | Mélange de recherche payante, ventes dirigées par le fondateur et essais à faible coût. Campagnes ciblées par pays avec des mots-clés à forte intention (ex. "como hablar ingles reuniones"). |
-| 2     | 45 $      | Le CAC diminue grâce à l'amélioration des métriques d'entonnoir, l'intégration localisée et le marketing de contenu. Les canaux organiques et de parrainage se renforcent. |
-| 3     | 39 $      | Efficacité du CAC grâce aux programmes de revendeurs, aux intégrations partenaires et à la modélisation d'attribution mature.                                   |
+| Année | CAC Moyen | Justification                                                                                                                                                           |
+| ----- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | 95 $      | Combinaison de recherche payante, ventes dirigées par le fondateur et pilotes à faible coût. Campagnes au niveau national avec mots-clés à forte intention (ex : "como hablar ingles reuniones"). |
+| 2     | 90 $      | Le CAC diminue grâce à l'amélioration des métriques d'entonnoir, l'intégration localisée et le marketing de contenu. Les canaux organiques et de parrainage se renforcent.                        |
+| 3     | 85 $      | Efficacité du CAC grâce aux programmes de revendeurs, intégrations partenaires et modélisation d'attribution mature.                                                   |
 
-## LTV (valeur vie client)
+## LTV (Valeur vie client)
 
-| Année | LTV   | Base                                                                                           |
-| ----- | ----- | ---------------------------------------------------------------------------------------------- |
-| 1     | 420 $ | ARPU de 20 $/mois × 21 mois de durée moyenne (premiers adoptants fidèles, faible attrition sur les cas d'usage B2B). |
-| 2     | 480 $ | 80 % des utilisateurs Pro augmentent le nombre de sièges dans les organisations → 24 $/mois ARPU × 20 mois en moyenne. |
-| 3     | 620 $ | Les comptes entreprise dominent ; ACV plus élevé + renouvellements + montées en gamme. Attrition conservatrice (10–12 %). |
+| Année | LTV    | Base de calcul                                                                                           |
+| ----- | ------ | -------------------------------------------------------------------------------------------------------- |
+| 1     | 178,9$ | ARPU 36,8$/mois × 4,9 mois de durée moyenne (premiers utilisateurs, fort taux d'abandon en freemium).   |
+| 2     | 308,0$ | ARPU 48,0$/mois × 6,4 mois de durée moyenne (rétention améliorée, clients B2B plus fidèles).            |
+| 3     | 470,0$ | ARPU 58,8$/mois × 8,0 mois de durée moyenne (marché intermédiaire dominant ; ACV plus élevé + renouvellements + montées en gamme, 10% d'attrition). |
 
 ## Marge brute
 
-| Année | Marge | Facteurs                                                                                                                |
-| ----- | ----- | ----------------------------------------------------------------------------------------------------------------------- |
-| 1     | 78%   | Coût de calcul de la pile de traduction vocale (\~\$0,08/min/utilisateur), bande passante, et infra minimale. Dév amortie. |
-| 2     | 82%   | Optimisation du modèle, meilleure utilisation GPU, remises fournisseur LLM, migration vers infra hybride (inférence edge). |
-| 3     | 85%   | Modèles vocaux/LLM internes, infra auto-scaling, infra fixe par utilisateur. Fonctionnalités B2B tarifées plus cher avec faible coût marginal. |
+| Année | Marge | Facteurs                                                                                                                    |
+| ----- | ----- | --------------------------------------------------------------------------------------------------------------------------- |
+| 1     | 73%   | Coût de calcul de la pile de traduction vocale (~0,08$/min/utilisateur), bande passante, infrastructure minimale. Développement amorti. |
+| 2     | 77%   | Optimisation du modèle, meilleure utilisation GPU, remises fournisseur LLM, migration vers infra hybride (inférence edge). |
+| 3     | 80%   | Modèles vocaux/LLM internes, infra auto-scaling, infra fixe par utilisateur. Fonctionnalités B2B tarifées plus cher avec faibles coûts marginaux. |
 
-## Notes
+## Métriques clés de l'économie unitaire
 
-- Tous les chiffres sont conservateurs et excluent les revenus potentiels de la monétisation de l'API (prévue pour l'année 2) et des licences white-label entreprise.
-- Les projections de coûts tiennent compte des options de paiement localisées, de la conformité légale (PDPL/RGPD) et des coûts de support.
-- Les hypothèses de tarification sont validées par rapport aux outils SaaS comparables (Zoom, DeepL Pro, Otter AI).
+| Métrique                           | A1     | A2     | A3     | Valeur cible |
+| ---------------------------------- | ------ | ------ | ------ | ------------ |
+| **LTV/CAC**                        | 1,9    | 3,4    | 5,5    | >3,0         |
+| **Période de récupération**        | 8,5 mo | 5,8 mo | 4,2 mo | <12 mo       |
+| **Rétention brute des revenus**    | 85%    | 88%    | 90%    | >85%         |
+| **Rétention nette des revenus**    | 95%    | 115%   | 130%   | >110%        |
 
-> Ces projections équilibrent l'ambition de croissance avec une économie SaaS disciplinée — visant des ratios CAC/LTV durables (>5x d'ici l'année 3) et des marges brutes de 80%+.
+## Hypothèses critiques du modèle
+
+### **Stratégie de tarification :**
+
+- Optimisation légère des prix au fil des années pour augmenter la LTV
+- Niveau marché intermédiaire avec des fonctionnalités premium en A2-A3
+- Remises sur volume pour les comptes multi-utilisateurs
+
+### **Évolution de la segmentation client :**
+
+- **A1 :** Focus sur les PME early adopters (churn élevé, adoption rapide)
+- **A2 :** Expansion vers le marché intermédiaire via les intégrations et partenariats
+- **A3 :** Montée en puissance du marché intermédiaire avec customer success dédié et déploiements multi-départements
+
+### **Expansion géographique :**
+
+- Marchés émergents en premier (CAC plus faible, taux de croissance plus élevé)
+- Marchés développés plus tard (LTV plus élevée, acquisition plus complexe)
+
+## Risques et atténuation
+
+**Scénarios positifs non inclus :**
+
+- Monétisation de l'API (prévue en Y2)
+- Licences en marque blanche pour les clients du marché intermédiaire
+- Intégrations marketplace (Zoom App Store, Microsoft Teams)
+
+**Les hypothèses de coûts tiennent compte de :**
+
+- Méthodes de paiement localisées et fluctuations monétaires
+- Conformité légale (PDPL/RGPD) et coûts de support
+- Pression concurrentielle sur les prix
+
+**Validation tarifaire :**
+
+- Comparaison avec des outils SaaS comparables (Zoom, DeepL Pro, Otter AI)
+- Tests de sensibilité aux prix dans les segments cibles
+- Analyse de la disposition à payer via des programmes pilotes
+
+> **Conclusion :** Ces projections équilibrent l'ambition de croissance avec une économie SaaS disciplinée — visant des ratios LTV/CAC durables (>5x d'ici Y3) et des marges brutes de 80%+ avec une segmentation réaliste de la base client.
