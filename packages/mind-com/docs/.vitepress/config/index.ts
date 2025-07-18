@@ -2,10 +2,11 @@ import { defineConfig } from "vitepress"
 import markdownItFootnote from "markdown-it-footnote"
 import llmstxt from "vitepress-plugin-llms"
 import { locales } from "./locales"
-// import type { HeadConfig } from "vitepress"
 
-// Константы интеграции и настройки сайта
-// Эти данные не должны содержать секретов, так как они будут доступны в клиентском код
+/**
+ * * Константы интеграции и настройки сайта.
+ * ! Эти данные не должны содержать секретов, так как они будут доступны в клиентском кодe
+ */
 const SITE_URL = "https://mind.com"
 const NOINDEX_PAGES = ["exp/", "chat"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
