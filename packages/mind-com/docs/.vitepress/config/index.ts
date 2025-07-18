@@ -4,8 +4,8 @@ import llmstxt from "vitepress-plugin-llms"
 import { locales } from "./locales"
 
 /**
- * * Константы интеграции и настройки сайта.
- * ! Эти данные не должны содержать секретов, так как они будут доступны в клиентском кодe
+ * * Integration and site configuration constants.
+ * ! This data should not contain secrets, as it will be available in client code
  */
 const SITE_URL = "https://mind.com"
 const NOINDEX_PAGES = ["exp/", "chat"]
@@ -14,7 +14,7 @@ const APP_DOMAIN = "inter.mind.com"
 const APP_DOMAIN_DEV = "dev.inter.mind.com"
 const GTM_ID_TO_USE = process.env.GTM_ID
 
-// Пути OAuth
+// OAuth paths
 const isProduction = process.env.VERCEL_ENV === "production"
 const appBaseUrl = "https://" + (isProduction ? APP_DOMAIN : APP_DOMAIN_DEV)
 const oauthProviderUrl = appBaseUrl + "/auth"
@@ -29,7 +29,7 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   metaChunk: true,
-  locales, // Используем локализацию из locales.ts
+  locales, // Using localization from locales.ts
 
   rewrites: {
     "en/:rest*": ":rest*",
@@ -40,12 +40,12 @@ export default defineConfig({
     const pagePath = pageData.relativePath.replace(/\.md$/, "").replace(/index$/, "")
     pageData.frontmatter.head ??= []
 
-    // Добавляем dir: rtl для RTL языков
+    // Add dir: rtl for RTL languages
     if (RTL_LOCALES.includes(pagePath.split("/")[0])) {
       pageData.frontmatter.dir = "rtl"
     }
 
-    // noindex для не прода и исключенных страниц
+    // noindex for non-production and excluded pages
     if (NOINDEX_PAGES.some((path) => pagePath.includes(path)) || !isProduction) {
       pageData.frontmatter.head.push(["meta", { name: "robots", content: "noindex" }])
     }
@@ -82,7 +82,7 @@ export default defineConfig({
 
   sitemap: {
     hostname: SITE_URL,
-    // Убираем страницы noindex из sitemap.xml
+    // Remove noindex pages from sitemap.xml
     transformItems: (items) => items.filter((item) => !NOINDEX_PAGES.some((path) => item.url.includes(path))),
   },
 
