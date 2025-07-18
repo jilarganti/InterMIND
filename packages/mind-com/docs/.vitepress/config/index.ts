@@ -12,7 +12,7 @@ const NOINDEX_PAGES = ["exp/", "chat"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
 const APP_DOMAIN = "inter.mind.com"
 const APP_DOMAIN_DEV = "dev.inter.mind.com"
-const GTM_ID_TO_USE = process.env.GTM_ID
+const GTM_ID_TO_USE = process.env.GTM_ID // Google Tag Manager ID, set in Vercel environment variables
 
 // OAuth paths
 const isProduction = process.env.VERCEL_ENV === "production"

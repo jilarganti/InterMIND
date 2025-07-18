@@ -36,6 +36,98 @@ packages/mind-com/
 └── __tests__/                     # Tests
 ```
 
+## Configuration Constants
+
+The project uses configuration constants defined in `docs/.vitepress/config/index.ts`. These constants need to be properly configured for different environments:
+
+### Site Configuration
+
+```typescript
+// Site URL (production domain)
+const SITE_URL = "https://mind.com"
+
+// Pages to exclude from indexing and sitemap
+const NOINDEX_PAGES = ["exp/", "chat"]
+
+// Right-to-left languages
+const RTL_LOCALES = ["ar", "fa", "ur"]
+```
+
+### Domain Configuration
+
+```typescript
+// Main application domains
+const APP_DOMAIN = "inter.mind.com" // Production domain
+const APP_DOMAIN_DEV = "dev.inter.mind.com" // Development domain
+```
+
+### OAuth Configuration
+
+```typescript
+// OAuth client ID (public, safe to expose)
+const oauthClientId = "vca"
+
+// OAuth endpoints (auto-generated based on environment)
+const oauthProviderUrl = appBaseUrl + "/auth"
+const checkoutUrl = appBaseUrl + "/checkout"
+```
+
+### Environment Variables
+
+```typescript
+// Google Tag Manager ID
+const GTM_ID_TO_USE = process.env.GTM_ID
+
+// Production detection
+const isProduction = process.env.VERCEL_ENV === "production"
+```
+
+### Important Notes
+
+⚠️ **Security:** These constants are exposed in client-side code, so they should NOT contain sensitive information like API keys or secrets.
+
+✅ **Safe to expose:**
+
+- Domain names
+- OAuth client IDs
+- Public configuration flags
+- GTM IDs
+
+❌ **Never expose:**
+
+- API tokens
+- Private keys
+- Database credentials
+- Internal secrets
+
+### Customization
+
+To adapt the project for your domain:
+
+1. **Update domain constants:**
+
+   ```typescript
+   const APP_DOMAIN = "your-domain.com"
+   const APP_DOMAIN_DEV = "dev.your-domain.com"
+   ```
+
+2. **Update site URL:**
+
+   ```typescript
+   const SITE_URL = "https://your-docs-site.com"
+   ```
+
+3. **Configure OAuth client:**
+
+   ```typescript
+   const oauthClientId = "your-oauth-client-id"
+   ```
+
+4. **Set environment variables in Vercel:**
+   - `GTM_ID`: Your Google Tag Manager ID
+   - `VERCEL_ENV`: Set automatically by Vercel
+   - `PIPEDRIVE_API_TOKEN`: Your Pipedrive API token
+
 ## Vercel Integration
 
 The project is designed to run on Vercel, utilizing its serverless functions for API endpoints and static site generation for the documentation. The Vercel configuration is located in `packages/mind-com/vercel.json`.
