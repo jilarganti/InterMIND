@@ -1,6 +1,6 @@
 // packages/mind-com/api/leads/index.ts
 
-import { LeadService } from "./services/leadService"
+import { LeadService } from "./services/leadService.js"
 import { validateLeadData, createSuccessResponse, createErrorResponse, handleApiError } from "./utils/index.js"
 import type { LeadData } from "./types"
 

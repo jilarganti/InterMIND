@@ -1,6 +1,6 @@
 // packages/mind-com/api/services/contactService.ts
 
-import { pipedriveService } from "./pipedriveService"
+import { pipedriveService } from "./pipedriveService.js"
 import type { ContactData, Contact } from "../types"
 
 // Маппинг полей контакта для Pipedrive

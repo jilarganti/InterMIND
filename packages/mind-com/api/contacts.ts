@@ -1,6 +1,6 @@
 // packages/mind-com/api/contacts/index.ts
 
-import { ContactService } from "./services/contactService"
+import { ContactService } from "./services/contactService.js"
 import { validateContactData, createSuccessResponse, createErrorResponse, handleApiError } from "./utils/index.js"
 import type { ContactData } from "./types"
 
