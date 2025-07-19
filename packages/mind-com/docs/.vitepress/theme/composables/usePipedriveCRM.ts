@@ -1,5 +1,5 @@
-// composables/CRM/usePipedriveCRM.ts
 import { ref } from "vue"
+import type { FormSubmissionData } from "../../../../api/types/pipedriveFields.js"
 
 export interface CRMStatus {
   isSubmitting: boolean
@@ -14,7 +14,7 @@ export const usePipedriveCRM = (endpoint = "/api/mind-com/createContactAndLead")
     errorMessage: "",
   })
 
-  const submitToCRM = async (payload: Record<string, any>) => {
+  const submitToCRM = async (payload: FormSubmissionData) => {
     status.value.isSubmitting = true
     status.value.successMessage = ""
     status.value.errorMessage = ""
@@ -25,6 +25,7 @@ export const usePipedriveCRM = (endpoint = "/api/mind-com/createContactAndLead")
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       })
+
       const data = await response.json()
 
       if (response.ok && data.success) {

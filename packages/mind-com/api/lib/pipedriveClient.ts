@@ -1,27 +1,40 @@
 import Pipedrive from "pipedrive"
+import type { CreatePersonData, CreateLeadData } from "../types/pipedriveFields.js"
 
 const getApiClient = () => {
   const client = new Pipedrive.ApiClient()
   const apiKey = process.env.PIPEDRIVE_API_TOKEN
 
-  if (!apiKey) throw new Error("Pipedrive API token is not set")
+  if (!apiKey) {
+    throw new Error("Pipedrive API token is not set")
+  }
 
   client.authentications.api_key.apiKey = apiKey
   return client
 }
 
-export const createContact = async (personData: any) => {
+export const createContact = async (personData: CreatePersonData) => {
   const client = getApiClient()
   const personsApi = new Pipedrive.PersonsApi(client)
+
   const response = await personsApi.addPerson(personData)
-  if (!response.data.id) throw new Error("Failed to create contact")
+
+  if (!response.data.id) {
+    throw new Error("Failed to create contact")
+  }
+
   return response.data
 }
 
-export const createLead = async (leadData: any) => {
+export const createLead = async (leadData: CreateLeadData) => {
   const client = getApiClient()
   const leadsApi = new Pipedrive.LeadsApi(client)
+
   const response = await leadsApi.addLead(leadData)
-  if (!response.data.id) throw new Error("Failed to create lead")
+
+  if (!response.data.id) {
+    throw new Error("Failed to create lead")
+  }
+
   return response.data
 }

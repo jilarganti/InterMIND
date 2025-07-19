@@ -1,12 +1,12 @@
-// composables/CRM/useFormSubmit.ts
 import { ref } from "vue"
 import { usePipedriveCRM } from "./usePipedriveCRM"
 import { determineTrafficSource } from "../../../../../../shared/utils/utm"
 import { generateOriginId } from "../../../../../../shared/utils/path"
 import { useRoute } from "vitepress"
+import type { FormSubmissionData } from "../../../../api/types/pipedriveFields.js"
 
 export const useFormSubmit = (formName = "Unknown") => {
-  const formData = ref({
+  const formData = ref<FormSubmissionData>({
     name: "",
     email: "",
     webSite: "",
@@ -27,5 +27,9 @@ export const useFormSubmit = (formName = "Unknown") => {
     return success
   }
 
-  return { formData, formStatus: status, submitForm }
+  return {
+    formData,
+    formStatus: status,
+    submitForm,
+  }
 }
