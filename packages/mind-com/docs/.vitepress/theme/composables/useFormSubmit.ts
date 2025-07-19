@@ -3,10 +3,10 @@ import { usePipedriveCRM } from "./usePipedriveCRM"
 import { determineTrafficSource } from "../../../../../../shared/utils/utm"
 import { generateOriginId } from "../../../../../../shared/utils/path"
 import { useRoute } from "vitepress"
-import type { FormSubmissionData } from "../../../../api/types/pipedriveFields.js"
+import type { FormData } from "../../../../api/types/pipedriveFields.js"
 
 export const useFormSubmit = (formName = "Unknown") => {
-  const formData = ref<FormSubmissionData>({
+  const formData = ref<FormData>({
     name: "",
     email: "",
     webSite: "",

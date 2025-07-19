@@ -1,5 +1,5 @@
 import { ref } from "vue"
-import type { FormSubmissionData } from "../../../../api/types/pipedriveFields.js"
+import type { FormData } from "../../../../api/types/pipedriveFields.js"
 
 export interface CRMStatus {
   isSubmitting: boolean
@@ -14,7 +14,7 @@ export const usePipedriveCRM = (endpoint = "/api/mind-com/createContactAndLead")
     errorMessage: "",
   })
 
-  const submitToCRM = async (payload: FormSubmissionData) => {
+  const submitToCRM = async (payload: FormData) => {
     status.value.isSubmitting = true
     status.value.successMessage = ""
     status.value.errorMessage = ""

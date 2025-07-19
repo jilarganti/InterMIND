@@ -1,5 +1,4 @@
 import Pipedrive from "pipedrive"
-import type { CreatePersonData, CreateLeadData } from "../types/pipedriveFields.js"
 
 const getApiClient = () => {
   const client = new Pipedrive.ApiClient()
@@ -13,7 +12,7 @@ const getApiClient = () => {
   return client
 }
 
-export const createContact = async (personData: CreatePersonData) => {
+export const createContact = async (personData: any) => {
   const client = getApiClient()
   const personsApi = new Pipedrive.PersonsApi(client)
 
@@ -26,7 +25,7 @@ export const createContact = async (personData: CreatePersonData) => {
   return response.data
 }
 
-export const createLead = async (leadData: CreateLeadData) => {
+export const createLead = async (leadData: any) => {
   const client = getApiClient()
   const leadsApi = new Pipedrive.LeadsApi(client)
 
