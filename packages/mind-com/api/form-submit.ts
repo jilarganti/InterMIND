@@ -2,8 +2,8 @@
 
 import { ContactService } from "./services/contactService.js"
 import { LeadService } from "./services/leadService.js"
-import { validateFormData, extractContactData, extractLeadData, createSuccessResponse, createErrorResponse, handleApiError } from "./utils/index.js"
-import type { FormSubmissionData, FormSubmissionResponse } from "./types/index.js"
+import { validateFormData, extractContactData, extractLeadData, createSuccessResponse, createErrorResponse, handleApiError } from "./utils/pipedrive.js"
+import type { FormSubmissionData, FormSubmissionResponse } from "./types/pipedrive.js"
 
 const contactService = new ContactService()
 const leadService = new LeadService()

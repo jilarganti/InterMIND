@@ -1,8 +1,8 @@
 // packages/mind-com/api/contacts/index.ts
 
 import { ContactService } from "./services/contactService.js"
-import { validateContactData, createSuccessResponse, createErrorResponse, handleApiError } from "./utils/index.js"
-import type { ContactData } from "./types"
+import { validateContactData, createSuccessResponse, createErrorResponse, handleApiError } from "./utils/pipedrive.js"
+import type { ContactData } from "./types/pipedrive.js"
 
 const contactService = new ContactService()
 

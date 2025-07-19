@@ -4,7 +4,7 @@ import { ref } from "vue"
 import { determineTrafficSource } from "../../../../../../shared/utils/utm"
 import { generateOriginId } from "../../../../../../shared/utils/path"
 import { useRoute } from "vitepress"
-import type { FormSubmissionData, ApiResponse, FormSubmissionResponse } from "../../../../api/types"
+import type { FormSubmissionData, ApiResponse, FormSubmissionResponse } from "../../../../api/types/pipedrive"
 
 export interface CRMStatus {
   isSubmitting: boolean

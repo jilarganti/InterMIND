@@ -1,6 +1,6 @@
 // packages/mind-com/api/utils/index.ts
 
-import type { ApiResponse, ValidationError, ContactData, LeadData, FormSubmissionData } from "../types"
+import type { ApiResponse, ValidationError, ContactData, LeadData, FormSubmissionData } from "../types/pipedrive"
 
 // Утилита для создания успешного ответа
 export function createSuccessResponse<T>(data: T, message?: string): ApiResponse<T> {

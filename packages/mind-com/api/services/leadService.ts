@@ -1,7 +1,7 @@
 // packages/mind-com/api/services/leadService.ts
 
 import { pipedriveService } from "./pipedriveService.js"
-import type { LeadData, Lead } from "../types"
+import type { LeadData, Lead } from "../types/pipedrive.js"
 
 // Маппинг полей лида для Pipedrive
 const PIPEDRIVE_LEAD_MAPPING = {
