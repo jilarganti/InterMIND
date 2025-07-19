@@ -1,7 +1,7 @@
 // packages/mind-com/api/services/contactService.ts
 
-import { createContact as pipedriveCreateContact } from "../lib/pipedriveClient.js"
-import type { ContactData, Contact } from "../types/index.js"
+import { pipedriveService } from "./pipedriveService"
+import type { ContactData, Contact } from "../types"
 
 // Маппинг полей контакта для Pipedrive
 const PIPEDRIVE_CONTACT_MAPPING = {
@@ -21,7 +21,7 @@ export class ContactService {
       const pipedriveData = this.mapToPipedriveFormat(contactData)
 
       // Создаем контакт через Pipedrive API
-      const pipedriveContact = await pipedriveCreateContact(pipedriveData)
+      const pipedriveContact = await pipedriveService.createContact(pipedriveData)
 
       // Преобразуем ответ в наш формат
       return this.mapFromPipedriveFormat(pipedriveContact, contactData)

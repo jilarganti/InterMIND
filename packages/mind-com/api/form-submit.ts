@@ -1,9 +1,9 @@
 // packages/mind-com/api/form/submit/index.ts
 
-import { ContactService } from "../../services/contactService.js"
-import { LeadService } from "../../services/leadService.js"
-import { validateFormData, extractContactData, extractLeadData, createSuccessResponse, createErrorResponse, handleApiError } from "../../utils/index.js"
-import type { FormSubmissionData, FormSubmissionResponse } from "../../types/index.js"
+import { ContactService } from "./services/contactService"
+import { LeadService } from "./services/leadService"
+import { validateFormData, extractContactData, extractLeadData, createSuccessResponse, createErrorResponse, handleApiError } from "./utils/index.js"
+import type { FormSubmissionData, FormSubmissionResponse } from "./types/index.js"
 
 const contactService = new ContactService()
 const leadService = new LeadService()

@@ -1,8 +1,7 @@
 // packages/mind-com/api/services/leadService.ts
 
-import { createLead as pipedriveCreateLead } from "../lib/pipedriveClient.js"
-import { resolveCustomFieldId } from "../lib/fieldResolver.js"
-import type { LeadData, Lead } from "../types/index.js"
+import { pipedriveService } from "./pipedriveService"
+import type { LeadData, Lead } from "../types"
 
 // Маппинг полей лида для Pipedrive
 const PIPEDRIVE_LEAD_MAPPING = {
@@ -22,7 +21,7 @@ export class LeadService {
       const pipedriveData = await this.mapToPipedriveFormat(leadData)
 
       // Создаем лид через Pipedrive API
-      const pipedriveLead = await pipedriveCreateLead(pipedriveData)
+      const pipedriveLead = await pipedriveService.createLead(pipedriveData)
 
       // Преобразуем ответ в наш формат
       return this.mapFromPipedriveFormat(pipedriveLead, leadData)
@@ -49,7 +48,7 @@ export class LeadService {
     // Резолвим channel через API Pipedrive
     if (leadData.channel) {
       try {
-        const channelId = await resolveCustomFieldId("channel", leadData.channel)
+        const channelId = await pipedriveService.resolveCustomFieldId("channel", leadData.channel)
         pipedriveData.channel = channelId
       } catch (error) {
         console.warn(`Failed to resolve channel "${leadData.channel}":`, error)

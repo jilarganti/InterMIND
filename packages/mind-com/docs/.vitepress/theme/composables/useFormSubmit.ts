@@ -4,7 +4,7 @@ import { ref } from "vue"
 import { determineTrafficSource } from "../../../../../../shared/utils/utm"
 import { generateOriginId } from "../../../../../../shared/utils/path"
 import { useRoute } from "vitepress"
-import type { FormSubmissionData, ApiResponse, FormSubmissionResponse } from "../../../../api/types/index.js"
+import type { FormSubmissionData, ApiResponse, FormSubmissionResponse } from "../../../../api/types"
 
 export interface CRMStatus {
   isSubmitting: boolean
@@ -39,7 +39,7 @@ export const useFormSubmit = (formName = "Unknown") => {
     status.value.errorMessage = ""
 
     try {
-      const response = await fetch("/api/form/submit", {
+      const response = await fetch("/api/form-submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData.value),
