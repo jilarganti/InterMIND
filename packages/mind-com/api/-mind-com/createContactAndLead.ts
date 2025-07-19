@@ -1,5 +1,5 @@
-import { createContact, createLead } from "../lib/pipedriveClient.js"
-import { resolveCustomFieldId } from "../lib/fieldResolver.js"
+import { createContact, createLead } from "../-lib/pipedriveClient.js"
+import { resolveCustomFieldId } from "../-lib/fieldResolver.js"
 
 // export const runtime = "edge"
 
