@@ -134,11 +134,11 @@ The project is designed to run on Vercel, utilizing its serverless functions for
 
 ### Project Settings
 
-![alt text](vercel-project-settings.png)
+![alt text](docs/public/vercel-project-settings.png)
 
 ### Environment Variables
 
-![alt text](vercel-env-variables.png)
+![alt text](docs/public/vercel-env-variables.png)
 
 Environment variables are automatically loaded by `vercel pull` command into `packages/mind-com/.vercel/.env.development.local`:
 
