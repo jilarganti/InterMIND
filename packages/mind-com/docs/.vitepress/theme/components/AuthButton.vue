@@ -1,3 +1,4 @@
+// AuthButton.vue - в script setup добавляем endpoint
 <script setup lang="ts">
 /// <reference types="../types/global.d.ts" />
 
@@ -24,49 +25,33 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 const { page } = useData()
-const { submitToCRM } = usePipedriveCRM()
+const { submitToCRM } = usePipedriveCRM("/api/createContactAndLead") // явно передаем endpoint
 
 const login = (event: Event): void => {
   event.preventDefault()
 
-  // Определяем текущую локаль из URL браузера
   const pathSegments = location.pathname.split("/").filter(Boolean)
   const currentLocale = pathSegments[0] && pathSegments[0] !== "en" ? pathSegments[0] : "en"
 
   const gclid = sessionStorage.getItem("gclid")
 
-  /**
-   * TODO: Перенести или продублировать в продукте
-   */
-  // Создаем анонимный лид в CRM параллельно с редиректом
   const leadData = {
     name: props.eventName,
     leadSource: inProduction ? determineTrafficSource() : "[test]",
     channel: "Web visitors",
     channelId: props.text,
-    // originId: generateOriginId(page.value.relativePath),
-    // category: page.value.relativePath,
     message: `gclid: "${gclid}" | path: "${page.value.relativePath}" | locale: "${currentLocale}"`,
   }
 
-  // Запускаем создание лида без ожидания результата
   submitToCRM(leadData).catch((error) => {
     console.error("Failed to create lead:", error)
   })
 
-  // GTM tracking
   window.dataLayer?.push({
-    event: props.eventName, // используем новый проп
-    gclid: gclid, // передаем gclid, если он есть
-    // form_type: leadData.channel,
-    // form_service: leadData.channelId,
-    // form_URL: page.value.relativePath,
-    // form_category: leadData.category,
-    // is_real_lead: !!isRealLead,
-    // lead_source: leadData.leadSource,
+    event: props.eventName,
+    gclid: gclid,
   })
 
-  // Сохраняем текущий путь для возврата после авторизации
   localStorage.setItem(REDIRECT_AFTER_AUTH_URI_KEY, location.pathname + location.search)
 
   const authParams = new URLSearchParams({

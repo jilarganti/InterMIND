@@ -1,3 +1,4 @@
+// usePipedriveCRM.ts - убираем дефолтное значение
 import { ref } from "vue"
 import type { FormData } from "../../../../api/types/pipedriveFields.js"
 
@@ -7,7 +8,7 @@ export interface CRMStatus {
   errorMessage: string
 }
 
-export const usePipedriveCRM = (endpoint = "/api/createContactAndLead") => {
+export const usePipedriveCRM = (endpoint: string) => {
   const status = ref<CRMStatus>({
     isSubmitting: false,
     successMessage: "",

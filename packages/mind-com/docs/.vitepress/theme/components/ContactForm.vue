@@ -1,43 +1,12 @@
+// ContactForm.vue - упрощенная версия без useFormSubmit
 <script setup lang="ts">
-/**
- * @param formName - Название формы (опционально, по умолчанию генерируется из текущего пути страницы)
- * @param services - Выбор сервисов (по умолчанию:, ["Company registration", "Opening bank accounts", "EID & Golden Visa", "Other Services"])
- * @param style - Стили кнопки (по умолчанию: "display: block; margin: 0 auto;")
- * @param buttonText - Текст кнопки (по умолчанию: "Get a free consultation")
- * @param categoryLabel - Заголовок поля категорий (по умолчанию: берется из локализации site.value.themeConfig.contact_form.category)
- * @param categoryPlaceholderText - Плейсхолдер для поля категорий (по умолчанию: берется из локализации site.value.themeConfig.contact_form.categoryPlaceholder)
- * @param messageLabel - Заголовок поля сообщения (по умолчанию: берется из локализации site.value.themeConfig.contact_form.message)
- * @param messagePlaceholderText - Плейсхолдер для поля сообщения (по умолчанию: берется из локализации site.value.themeConfig.contact_form.messagePlaceholder)
- * @param success - Событие успешной отправки формы
- *
- * @usage
- * <ContactFormModal
- *   buttonText="Get consultation"
- *   formName="Golden Visa"
- *   services="["Global Visa ", "Other Services"]"
- *   categoryLabel="Выберите услугу"
- *   categoryPlaceholderText="Выберите из списка"
- *   messageLabel="Ваш запрос"
- *   messagePlaceholderText="Опишите ваш запрос подробнее..."
- *   @success="handleSuccess"
- * />
- *
- * // Или использовать без formName для автоматической генерации из пути страницы:
- * <ContactFormModal
- *   buttonText="Get consultation"
- *   buttonClass="sponsor"
- *   :services="['Global Visa', 'Other Services']"
- * />
- *
- * const handleSuccess = () => {}
- */
-import { useData, useRoute } from "vitepress"
-import { ref, computed, onMounted } from "vue"
+import { useData } from "vitepress"
+import { ref, computed } from "vue"
 import { onClickOutside } from "@vueuse/core"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
-import { useFormSubmit } from "../composables/useFormSubmit"
+import { usePipedriveCRM } from "../composables/usePipedriveCRM"
 import { generateOriginId } from "../../../../../../shared/utils/path"
-import { determineTrafficSource, initUtmTracking } from "../../../../../../shared/utils/utm"
+import { determineTrafficSource } from "../../../../../../shared/utils/utm"
 import { Channel, FormData } from "../../../../api/types/pipedriveFields.js"
 
 const { site, page } = useData()
@@ -54,13 +23,11 @@ const props = defineProps<{
   messagePlaceholderText?: string
 }>()
 
-// Автоматически генерируем formName из пути страницы, если не передан
 const formNameValue = computed(() => {
   if (props.formName) {
     return props.formName
   }
 
-  // Обрабатываем текущий путь страницы для использования как formName
   const path = page.value.relativePath
     .replace(/^(en|ar|hi|ur|bn|ml|ta|te|fa|zh|fr|ru|uk|tr|ko|ja|id|vi|pt|es|de)\//, "")
     .replace(/\.md$/i, "")
@@ -84,43 +51,44 @@ const messagePlaceholderValue = computed(() => props.messagePlaceholderText || s
 const emit = defineEmits(["success"])
 
 const isRealLead = import.meta.env.VITE_IS_PROD
-
 const showModal = ref(false)
-const { name, namePlaceholder, webSite, webSitePlaceholder, email, emailPlaceholder, submit, sending, successTitle, successMessage } =
-  site.value.themeConfig.contact_form
-const { formData, formStatus, submitForm } = useFormSubmit()
-
-// Реф для модального контейнера
 const modalContainerRef = ref(null)
 
-// Настройка обработчика клика снаружи модального окна
+// Прямое использование usePipedriveCRM
+const { status, submitToCRM } = usePipedriveCRM("/api/createContactAndLead")
+
+// Данные формы
+const formData = ref<FormData>({
+  name: "",
+  email: "",
+  webSite: "",
+  category: "",
+  message: "",
+  leadSource: determineTrafficSource(),
+  channel: Channel.WEB_VISITORS,
+  channelId: formNameValue.value,
+  originId: generateOriginId(page.value.relativePath),
+})
+
+const { name, namePlaceholder, webSite, webSitePlaceholder, email, emailPlaceholder, submit, sending, successTitle, successMessage } =
+  site.value.themeConfig.contact_form
+
 onClickOutside(modalContainerRef, () => {
   if (showModal.value) {
     closeModal()
   }
 })
 
-const route = useRoute()
-
-formData.value.leadSource = determineTrafficSource()
-formData.value.channel = Channel.WEB_VISITORS
-formData.value.channelId = formNameValue.value
-formData.value.originId = generateOriginId(page.value.relativePath)
-formData.value.category = ""
-
 const handleSubmit = async () => {
   if (!isRealLead) formData.value.name = "[test] " + formData.value.name
 
-  await submitForm()
+  const success = await submitToCRM(formData.value)
 
-  if (formStatus.value.successMessage) {
-    // showModal.value = false
+  if (success) {
     emit("success")
 
-    // window.dataLayer = window.dataLayer || []
     window.dataLayer?.push({
       event: "site_event_form_submit",
-      // gclid: sessionStorage.getItem("gclid"),
       form_type: formData.value.channel,
       form_service: formData.value.channelId,
       form_URL: page.value.relativePath,
@@ -133,7 +101,7 @@ const handleSubmit = async () => {
 
 const closeModal = () => {
   showModal.value = false
-  formStatus.value.errorMessage = ""
+  status.value.errorMessage = ""
 }
 </script>
 
@@ -151,7 +119,7 @@ const closeModal = () => {
             <button class="close-button" @click="closeModal">&times;</button>
           </div>
 
-          <div v-if="formStatus.successMessage" class="success-message">
+          <div v-if="status.successMessage" class="success-message">
             <h3 class="success-title">{{ successTitle }}</h3>
             <p class="success-text">{{ successMessage }}</p>
           </div>
@@ -187,13 +155,13 @@ const closeModal = () => {
               <textarea name="message" v-model="formData.message" :placeholder="messagePlaceholderValue"></textarea>
             </div>
 
-            <p v-if="formStatus.errorMessage" class="error">
-              {{ formStatus.errorMessage }}
+            <p v-if="status.errorMessage" class="error">
+              {{ status.errorMessage }}
             </p>
 
             <div class="modal-footer">
-              <button type="submit" class="submit-button" :disabled="formStatus.isSubmitting">
-                {{ formStatus.isSubmitting ? sending : submit }}
+              <button type="submit" class="submit-button" :disabled="status.isSubmitting">
+                {{ status.isSubmitting ? sending : submit }}
               </button>
             </div>
           </form>
