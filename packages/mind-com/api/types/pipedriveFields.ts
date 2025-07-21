@@ -17,13 +17,21 @@ export const LEAD_FIELDS = {
   LEAD_SOURCE: "da3aa18ff6128966544ff359f07aebedc047b2e2",
 }
 
+// Перечисление возможных каналов
+export enum Channel {
+  WEB_VISITORS = "Web visitors",
+  WEB_FORMS = "Web forms",
+  MESSAGING_INBOX = "Messaging Inbox",
+  CHATBOT = "Chatbot",
+}
+
 // Базовые типы
 export interface FormData {
   name?: string
   email: string
   phone?: string
   webSite?: string
-  channel?: string
+  channel?: Channel
   channelId?: string
   originId?: string
   category?: string

@@ -38,6 +38,7 @@ import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vu
 import { useFormSubmit } from "../composables/useFormSubmit"
 import { generateOriginId } from "../../../../../../shared/utils/path"
 import { determineTrafficSource, initUtmTracking } from "../../../../../../shared/utils/utm"
+import { Channel, FormData } from "../../../../api/types/pipedriveFields.js"
 
 const { site, page } = useData()
 
@@ -52,9 +53,6 @@ const props = defineProps<{
   messageLabel?: string
   messagePlaceholderText?: string
 }>()
-
-// Проверяем, нужно ли скрыть компонент
-const hide = computed(() => useData().frontmatter.value.hideComponents?.includes("ContactFormModal"))
 
 // Автоматически генерируем formName из пути страницы, если не передан
 const formNameValue = computed(() => {
@@ -95,13 +93,6 @@ const { formData, formStatus, submitForm } = useFormSubmit()
 // Реф для модального контейнера
 const modalContainerRef = ref(null)
 
-// // Инициализация отслеживания UTM-параметров при монтировании компонента
-// onMounted(() => {
-//   if (typeof window !== "undefined") {
-//     initUtmTracking()
-//   }
-// })
-
 // Настройка обработчика клика снаружи модального окна
 onClickOutside(modalContainerRef, () => {
   if (showModal.value) {
@@ -112,7 +103,7 @@ onClickOutside(modalContainerRef, () => {
 const route = useRoute()
 
 formData.value.leadSource = determineTrafficSource()
-formData.value.channel = "Web forms"
+formData.value.channel = Channel.WEB_VISITORS
 formData.value.channelId = formNameValue.value
 formData.value.originId = generateOriginId(page.value.relativePath)
 formData.value.category = ""
@@ -147,7 +138,7 @@ const closeModal = () => {
 </script>
 
 <template>
-  <div v-if="!hide" :style="styleValue">
+  <div :style="styleValue">
     <VPButton :text="buttonTextValue" :theme="buttonTheme" href="javascript:void(0);" @click.prevent="showModal = true" />
   </div>
 
