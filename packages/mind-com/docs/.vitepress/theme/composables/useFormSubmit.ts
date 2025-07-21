@@ -1,23 +1,17 @@
 import { ref } from "vue"
+import { useRoute } from "vitepress"
 import { usePipedriveCRM } from "./usePipedriveCRM"
 import { determineTrafficSource } from "../../../../../../shared/utils/utm"
 import { generateOriginId } from "../../../../../../shared/utils/path"
-import { useRoute } from "vitepress"
 import type { FormData } from "../../../../api/types/pipedriveFields.js"
 
 export const useFormSubmit = (formName = "Unknown") => {
   const formData = ref<FormData>({
-    name: "",
     email: "",
-    webSite: "",
-    message: "",
-    category: "",
     leadSource: determineTrafficSource(),
     channel: "Web forms",
     channelId: formName,
     originId: generateOriginId(useRoute().path),
-    countryCode: "",
-    countryName: "",
   })
 
   const { status, submitToCRM } = usePipedriveCRM()

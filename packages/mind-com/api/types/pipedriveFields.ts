@@ -19,15 +19,16 @@ export const LEAD_FIELDS = {
 
 // Базовые типы
 export interface FormData {
-  name: string
+  name?: string
   email: string
-  webSite: string
-  channel: string
-  channelId: string
-  originId: string
-  category: string
-  message: string
-  leadSource: string
+  phone?: string
+  webSite?: string
+  channel?: string
+  channelId?: string
+  originId?: string
+  category?: string
+  message?: string
+  leadSource?: string
   countryCode?: string
   countryName?: string
 }
