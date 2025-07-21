@@ -1,6 +1,6 @@
-import { createContact, createLead } from "../lib/pipedriveClient.js"
-import { resolveCustomFieldId } from "../lib/fieldResolver.js"
-import { PERSON_FIELDS, LEAD_FIELDS, type FormData } from "../types/pipedriveFields.js"
+import { createContact, createLead } from "./lib/pipedriveClient.js"
+import { resolveCustomFieldId } from "./lib/fieldResolver.js"
+import { PERSON_FIELDS, LEAD_FIELDS, type FormData } from "./types/pipedriveFields.js"
 
 export async function POST(request: Request) {
   const data = (await request.json()) as FormData
