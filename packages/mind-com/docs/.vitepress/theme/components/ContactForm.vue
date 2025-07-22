@@ -24,22 +24,6 @@ const props = defineProps<{
   messagePlaceholderText?: string
 }>()
 
-// const formNameValue = computed(() => {
-//   if (props.formName) {
-//     return props.formName
-//   }
-
-//   const path = page.value.relativePath
-//     .replace(/^(en|ar|hi|ur|bn|ml|ta|te|fa|zh|fr|ru|uk|tr|ko|ja|id|vi|pt|es|de)\//, "")
-//     .replace(/\.md$/i, "")
-//     .replace(/\//g, " > ")
-//     .replace(/-/g, " ")
-//     .toLowerCase()
-//     .replace(/\b\w/g, (c) => c.toUpperCase())
-
-//   return `Page: ${path}` || "Unknown Page"
-// })
-
 const buttonTextValue = computed(() => props.buttonText || site.value.themeConfig.contact_form.defaultButtonText)
 const categoriesValue = computed(() => props.services || site.value.themeConfig.contact_form.defaultCategories)
 const styleValue = computed(() => props.formStyle || "display: block;")

@@ -9,7 +9,7 @@ export interface ContactForm {
   webSite?: string
   kind: string
   message: string
-  buttonText?: string
+  // buttonText?: string
 }
 
 export interface ContactFormConfig {
