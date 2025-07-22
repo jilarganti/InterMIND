@@ -3,6 +3,7 @@ import { ref } from "vue"
 import { LeadData } from "../../../../api/types/pipedriveFields.js"
 import { LeadSignUpProps } from "../../../../api/types/signUp.js"
 import { SubmitFormLead } from "../../../../api/types/submitForm.js"
+import { ContactForm } from "../types/ContactForm.js"
 
 export interface CRMStatus {
   isSubmitting: boolean
@@ -17,7 +18,7 @@ export const usePipedriveCRM = (endpoint: string) => {
     errorMessage: "",
   })
 
-  const submitToCRM = async (payload: LeadData | LeadSignUpProps | SubmitFormLead) => {
+  const submitToCRM = async (payload: LeadData | LeadSignUpProps | SubmitFormLead | ContactForm) => {
     status.value.isSubmitting = true
     status.value.successMessage = ""
     status.value.errorMessage = ""

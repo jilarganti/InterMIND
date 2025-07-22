@@ -9,7 +9,6 @@ import { generateOriginId } from "../../../../../../shared/utils/path"
 import { determineTrafficSource } from "../../../../../../shared/utils/utm"
 import { Channel, LeadData } from "../../../../api/types/pipedriveFields.js"
 import { ContactForm } from "../types/ContactForm"
-import { SubmitFormLead } from "../../../../api/types/submitForm.js"
 
 const { site, page } = useData()
 
@@ -78,7 +77,7 @@ onClickOutside(modalContainerRef, () => {
 const handleSubmit = async () => {
   // if (!isRealLead) formData.value.name = "[test] " + formData.value.name
 
-  const success = await submitToCRM(formData.value as SubmitFormLead)
+  const success = await submitToCRM(formData.value)
 
   // if (success) {
   //   emit("success")
