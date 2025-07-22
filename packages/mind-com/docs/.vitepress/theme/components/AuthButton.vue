@@ -1,4 +1,3 @@
-// AuthButton.vue - в script setup добавляем endpoint
 <script setup lang="ts">
 /// <reference types="../types/global.d.ts" />
 
@@ -7,7 +6,8 @@ import { useData } from "vitepress"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 import { usePipedriveCRM } from "../composables/usePipedriveCRM"
 import { determineTrafficSource } from "../../../../../../shared/utils/utm"
-import { generateOriginId } from "../../../../../../shared/utils/path"
+import { LeadSignUpProps } from "../../../../api/types/signUp.js"
+import { LeadData } from "../../../../api/types/pipedriveFields.js"
 
 const REDIRECT_AFTER_AUTH_URI_KEY = "redirect_after_auth"
 const inProduction = import.meta.env.VITE_IS_PROD
@@ -25,7 +25,7 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 const { page } = useData()
-const { submitToCRM } = usePipedriveCRM("/api/createContactAndLead") // явно передаем endpoint
+const { submitToCRM } = usePipedriveCRM("/api/signUp")
 
 const login = (event: Event): void => {
   event.preventDefault()
@@ -33,25 +33,23 @@ const login = (event: Event): void => {
   const pathSegments = location.pathname.split("/").filter(Boolean)
   const currentLocale = pathSegments[0] && pathSegments[0] !== "en" ? pathSegments[0] : "en"
 
-  const gclid = sessionStorage.getItem("gclid")
-
-  const leadData = {
+  const leadData: LeadSignUpProps = {
+    email: "email@example.com", // анонимный лид без email
     name: props.eventName,
-    leadSource: inProduction ? determineTrafficSource() : "[test]",
-    channel: "Web visitors",
-    channelId: props.text,
-    message: `gclid: "${gclid}" | path: "${page.value.relativePath}" | locale: "${currentLocale}"`,
+    url: location.href,
+    // utm: { source: inProduction ? determineTrafficSource() : "[test]" },
+    params: {
+      method: "Google",
+      plan: "basic",
+    },
   }
 
+  // Запускаем создание лида
   submitToCRM(leadData).catch((error) => {
     console.error("Failed to create lead:", error)
   })
 
-  window.dataLayer?.push({
-    event: props.eventName,
-    gclid: gclid,
-  })
-
+  // Сохраняем текущий путь для возврата после авторизации
   localStorage.setItem(REDIRECT_AFTER_AUTH_URI_KEY, location.pathname + location.search)
 
   const authParams = new URLSearchParams({
@@ -60,7 +58,6 @@ const login = (event: Event): void => {
     response_type: "code",
     state: nanoid(),
     redirect_uri: import.meta.env.VITE_APP_BASE_URL + "/auth",
-    ...(gclid && { gclid }),
   })
 
   if (props.mode === "checkout") {

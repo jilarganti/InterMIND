@@ -7,7 +7,9 @@ import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vu
 import { usePipedriveCRM } from "../composables/usePipedriveCRM"
 import { generateOriginId } from "../../../../../../shared/utils/path"
 import { determineTrafficSource } from "../../../../../../shared/utils/utm"
-import { Channel, FormData } from "../../../../api/types/pipedriveFields.js"
+import { Channel, LeadData } from "../../../../api/types/pipedriveFields.js"
+import { ContactForm } from "../types/ContactForm"
+import { SubmitFormLead } from "../../../../api/types/submitForm.js"
 
 const { site, page } = useData()
 
@@ -23,21 +25,21 @@ const props = defineProps<{
   messagePlaceholderText?: string
 }>()
 
-const formNameValue = computed(() => {
-  if (props.formName) {
-    return props.formName
-  }
+// const formNameValue = computed(() => {
+//   if (props.formName) {
+//     return props.formName
+//   }
 
-  const path = page.value.relativePath
-    .replace(/^(en|ar|hi|ur|bn|ml|ta|te|fa|zh|fr|ru|uk|tr|ko|ja|id|vi|pt|es|de)\//, "")
-    .replace(/\.md$/i, "")
-    .replace(/\//g, " > ")
-    .replace(/-/g, " ")
-    .toLowerCase()
-    .replace(/\b\w/g, (c) => c.toUpperCase())
+//   const path = page.value.relativePath
+//     .replace(/^(en|ar|hi|ur|bn|ml|ta|te|fa|zh|fr|ru|uk|tr|ko|ja|id|vi|pt|es|de)\//, "")
+//     .replace(/\.md$/i, "")
+//     .replace(/\//g, " > ")
+//     .replace(/-/g, " ")
+//     .toLowerCase()
+//     .replace(/\b\w/g, (c) => c.toUpperCase())
 
-  return `Page: ${path}` || "Unknown Page"
-})
+//   return `Page: ${path}` || "Unknown Page"
+// })
 
 const buttonTextValue = computed(() => props.buttonText || site.value.themeConfig.contact_form.defaultButtonText)
 const categoriesValue = computed(() => props.services || site.value.themeConfig.contact_form.defaultCategories)
@@ -48,26 +50,20 @@ const categoryPlaceholderValue = computed(() => props.categoryPlaceholderText ||
 const messageLabelValue = computed(() => props.messageLabel || site.value.themeConfig.contact_form.message)
 const messagePlaceholderValue = computed(() => props.messagePlaceholderText || site.value.themeConfig.contact_form.messagePlaceholder)
 
-const emit = defineEmits(["success"])
+// const emit = defineEmits(["success"])
 
-const isRealLead = import.meta.env.VITE_IS_PROD
+// const isRealLead = import.meta.env.VITE_IS_PROD
 const showModal = ref(false)
 const modalContainerRef = ref(null)
 
 // Прямое использование usePipedriveCRM
-const { status, submitToCRM } = usePipedriveCRM("/api/createContactAndLead")
+const { status, submitToCRM } = usePipedriveCRM("/api/submitForm")
 
 // Данные формы
-const formData = ref<FormData>({
-  name: "",
+const formData = ref<ContactForm>({
   email: "",
-  webSite: "",
-  category: "",
+  kind: "",
   message: "",
-  leadSource: determineTrafficSource(),
-  channel: Channel.WEB_VISITORS,
-  channelId: formNameValue.value,
-  originId: generateOriginId(page.value.relativePath),
 })
 
 const { name, namePlaceholder, webSite, webSitePlaceholder, email, emailPlaceholder, submit, sending, successTitle, successMessage } =
@@ -80,23 +76,13 @@ onClickOutside(modalContainerRef, () => {
 })
 
 const handleSubmit = async () => {
-  if (!isRealLead) formData.value.name = "[test] " + formData.value.name
+  // if (!isRealLead) formData.value.name = "[test] " + formData.value.name
 
-  const success = await submitToCRM(formData.value)
+  const success = await submitToCRM(formData.value as SubmitFormLead)
 
-  if (success) {
-    emit("success")
-
-    window.dataLayer?.push({
-      event: "site_event_form_submit",
-      form_type: formData.value.channel,
-      form_service: formData.value.channelId,
-      form_URL: page.value.relativePath,
-      form_category: formData.value.category,
-      is_real_lead: !!isRealLead,
-      lead_source: formData.value.leadSource,
-    })
-  }
+  // if (success) {
+  //   emit("success")
+  // }
 }
 
 const closeModal = () => {
@@ -142,7 +128,7 @@ const closeModal = () => {
 
             <div>
               <label for="category">{{ categoryLabelValue }}</label>
-              <select name="category" v-model="formData.category" required>
+              <select name="category" v-model="formData.kind" required>
                 <option value="" disabled>{{ categoryPlaceholderValue }}</option>
                 <option v-for="category in categoriesValue" :key="category" :value="category">
                   {{ category }}

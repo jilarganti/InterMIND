@@ -3,18 +3,22 @@
  * Простые константы для замены хардкодных ID
  */
 
-// ID кастомных полей для контактов
-export const PERSON_FIELDS = {
-  WEBSITE: "0bcd0dbd7c022bcc908eecd87e72bd49f830e5a6",
-  COUNTRY_CODE: "08d290c3d972d735278898a71ad674b0ff698c66",
-  COUNTRY_NAME: "f64198e6b8654dd28a344f5831dbe547b960a17b",
+export interface SignUpDataLayerEvent {
+  event: "sign_up"
+  method: Params["method"] // Registration method (Google, Microsoft, email)
+  plan: Params["plan"] // Selected pricing plan
+}
+
+export interface SubmitFormDataLayerEvent {
+  event: "generate_lead" // Changed from "sign_up" to "generate_lead"
 }
 
 // ID кастомных полей для лидов
-export const LEAD_FIELDS = {
-  CATEGORY: "ec30e5d548a40d6588bf2e1f06ec07cca7b4cc77",
+export const CUSTOM_LEAD_FIELD = {
+  KIND: "ec30e5d548a40d6588bf2e1f06ec07cca7b4cc77",
   MESSAGE: "381414c380220bf1d26ce7b7bdc6e6ff08e20e04",
-  LEAD_SOURCE: "da3aa18ff6128966544ff359f07aebedc047b2e2",
+  URL: "da3aa18ff6128966544ff359f07aebedc047b2e2",
+  PARAMS: "5f55bbf5ed50e7a0952f7c7211de22e7ffcb70f5",
 }
 
 // Перечисление возможных каналов
@@ -23,23 +27,48 @@ export enum Channel {
   WEB_FORMS = "Web forms",
   MESSAGING_INBOX = "Messaging Inbox",
   CHATBOT = "Chatbot",
+  MANUAL_ENTRY = "Manual entry",
 }
 
-// Базовые типы
-export interface FormData {
-  name?: string
+// Типы полей лида Pipedrive
+export interface LeadFields {
+  title: string // Заголовок лида
+  url: string // Form submission page URL
+  utm?: UtmParams // UTM parameters object
+  kind: string // Категория лида, определяется селектором формы
+  params?: string // Параметры лида
+  message?: string // Сообщение или комментарий к лиду
+  sourceOrigin?: string // Источник лида, создается автоматически СРМ (API, manual entry и т.д.)
+  sourceOriginId?: string // ID источника
+  sourceChannel: Channel // Канал привлечения
+  sourceChannelId?: string // ID канала
+}
+// Типы полей контакта Pipedrive
+export interface ContactFields {
+  name: string
   email: string
   phone?: string
-  webSite?: string
-  channel?: Channel
-  channelId?: string
-  originId?: string
-  category?: string
-  message?: string
-  leadSource?: string
-  countryCode?: string
-  countryName?: string
 }
+// Базовые типы
+export interface LeadData {
+  lead: LeadFields // Поля лида
+  contact: ContactFields // Поля контакта
+}
+// Базовые типы
+// export interface FormData {
+//   name?: string
+//   email: string
+//   phone?: string
+//   webSite?: string
+//   channel?: Channel
+//   channelId?: string
+//   originId?: string
+//   category?: string
+//   message?: string
+//   leadSource?: string
+//   countryCode?: string
+//   countryName?: string
+// }
 
 export interface FieldOption {
   id: string | number
@@ -50,4 +79,17 @@ export interface Field {
   key: string
   name: string
   options?: FieldOption[]
+}
+
+export interface Params {
+  method: "Google" | "Microsoft" | "email" // Registration method
+  plan: "basic" | "pro" | "business" // Selected pricing plan
+}
+
+export interface UtmParams {
+  source?: string // Traffic source (e.g., google, linkedin)
+  medium?: string // Traffic channel (e.g., cpc, email)
+  campaign?: string // Marketing campaign name
+  term?: string // Keyword (if any)
+  content?: string // Banner or ad identifier
 }
