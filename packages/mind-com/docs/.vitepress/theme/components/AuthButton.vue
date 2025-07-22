@@ -36,7 +36,7 @@ const login = (event: Event): void => {
   const leadData: LeadSignUpProps = {
     email: "email@example.com", // анонимный лид без email
     name: props.eventName,
-    url: location.href,
+    // url: location.href,
     // utm: { source: inProduction ? determineTrafficSource() : "[test]" },
     params: {
       method: "Google",

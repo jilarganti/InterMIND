@@ -19,7 +19,7 @@ export interface SubmitFormDataLayerEvent {
 export interface LeadSignUpProps {
   email: string // User email (required)
   name: string // Name or full name (optional)
-  url: string // Form submission page URL
+  url?: string // Form submission page URL
   utm?: UtmParams // UTM parameters object (for CRM, not for dataLayer)
   params: {
     method: Params["method"] // Registration method (Google, Microsoft, email)

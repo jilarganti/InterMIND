@@ -14,7 +14,7 @@ export async function POST(request: Request) {
   const leadData: LeadData = {
     lead: {
       title: data.name,
-      url: "", // Поле website не используется в submitForm
+      url: request.headers.get("referer") || new URL(request.url).origin,
       kind: data.kind,
       message: data.message,
       params: "Site: " + data.webSite,

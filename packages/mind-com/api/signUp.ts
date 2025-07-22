@@ -13,7 +13,7 @@ export async function POST(request: Request) {
   const leadData: LeadData = {
     lead: {
       title: data.name,
-      url: data.url,
+      url: request.headers.get("referer") || new URL(request.url).origin,
       kind: "sign_up",
       params: "Plan: " + data.params.plan + ", Method: " + data.params.method,
       utm: data.utm,
