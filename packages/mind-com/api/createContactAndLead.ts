@@ -19,7 +19,7 @@ export async function POST(request: Request) {
       channel: await resolveCustomFieldId("channel", data.lead.sourceChannel),
       was_seen: true, // Устанавливаем флаг, что лид был просмотрен
 
-      title: data.contact.name + " lead",
+      title: data.lead.title,
       [CUSTOM_LEAD_FIELD.KIND]: data.lead.kind,
       [CUSTOM_LEAD_FIELD.MESSAGE]: data.lead.message,
       [CUSTOM_LEAD_FIELD.URL]: data.lead.url,

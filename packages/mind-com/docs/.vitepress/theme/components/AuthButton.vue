@@ -2,7 +2,7 @@
 /// <reference types="../types/global.d.ts" />
 
 import { nanoid } from "nanoid"
-import { useData } from "vitepress"
+// import { useData } from "vitepress"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 import { usePipedriveCRM } from "../composables/usePipedriveCRM"
 import { LeadSignUpProps } from "../../../../api/types/signUp.js"
@@ -50,13 +50,13 @@ const login = (event: Event): void => {
   }
 
   /**
-   * Создаем лид для CRM
-   * TODO: удалить после внедрения и иестирования в продукте
+   * Создаем лид для CRM и событие для аналитики
+   * TODO: удалить после внедрения и тестирования в продукте
    */
   const { submitToCRM } = usePipedriveCRM("/api/signUp")
 
   const leadData: LeadSignUpProps = {
-    email: props.text,
+    email: `[${props.text}]`,
     name: props.eventName,
     params: {
       method: undefined,
