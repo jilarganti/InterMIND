@@ -1,9 +1,19 @@
 /**
- * Конфигурация Pipedrive CRM
- * Настраиваемые константы и конфигурационные данные
+ * Pipedrive CRM Configuration
+ *
+ * Configuration constants and data structures for Pipedrive CRM integration.
+ * Contains custom field IDs, channel definitions, and type definitions
+ * for lead management and analytics tracking.
+ *
+ * Features:
+ * - Custom lead field mappings
+ * - Source channel enumeration
+ * - Registration method types
+ * - Pricing plan definitions
+ * - Analytics event types
  */
 
-// ID кастомных полей для лидов
+// Custom field IDs for leads
 export const CUSTOM_LEAD_FIELD = {
   KIND: "ec30e5d548a40d6588bf2e1f06ec07cca7b4cc77",
   MESSAGE: "381414c380220bf1d26ce7b7bdc6e6ff08e20e04",
@@ -11,7 +21,7 @@ export const CUSTOM_LEAD_FIELD = {
   PARAMS: "5f55bbf5ed50e7a0952f7c7211de22e7ffcb70f5",
 }
 
-// Перечисление возможных каналов
+// Enumeration of possible channels
 export enum Channel {
   WEB_VISITORS = "Web visitors",
   WEB_FORMS = "Web forms",
@@ -20,11 +30,11 @@ export enum Channel {
   MANUAL_ENTRY = "Manual entry",
 }
 
-// Доступные методы регистрации
+// Available registration methods
 export type RegistrationMethod = "Google" | "Microsoft" | "Email" | undefined
 
-// Доступные тарифные планы
+// Available pricing plans
 export type PricingPlan = "Basic" | "Pro" | "Business"
 
-// Типы событий для аналитики
+// Analytics event types
 export type AnalyticsEvent = "sign_up" | "generate_lead"

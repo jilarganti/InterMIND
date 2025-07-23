@@ -1,4 +1,22 @@
 <script setup lang="ts">
+/**
+ * AuthButton Component
+ *
+ * OAuth authentication button that handles user login/signup flow.
+ * Creates CRM leads in Pipedrive and tracks user events in Google Tag Manager
+ * DataLayer for analytics, conversion tracking, and marketing attribution.
+ *
+ * Features:
+ * - OAuth flow with state parameter
+ * - CRM lead creation in Pipedrive
+ * - GTM DataLayer event tracking
+ * - Analytics and conversion tracking
+ * - Marketing attribution support
+ * - Locale-aware redirects
+ * - Checkout mode support
+ * - Return URL preservation
+ */
+
 /// <reference types="../types/global.d.ts" />
 
 import { nanoid } from "nanoid"

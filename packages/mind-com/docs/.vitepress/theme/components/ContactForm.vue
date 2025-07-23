@@ -1,4 +1,25 @@
 <script setup lang="ts">
+/**
+ * ContactForm Component
+ *
+ * Modal contact form component for lead generation and customer inquiries.
+ * Integrates with Pipedrive CRM via API and tracks user interactions in
+ * Google Tag Manager DataLayer for analytics and conversion tracking.
+ *
+ * Features:
+ * - Modal-based form interface
+ * - CRM integration with submitForm API
+ * - GTM DataLayer event tracking
+ * - Analytics and conversion tracking
+ * - Customizable form fields and styling
+ * - Form validation and error handling
+ * - Success/error state management
+ * - Multilingual support
+ * - Category selection dropdown
+ * - Website URL validation
+ * - Click-outside-to-close functionality
+ */
+
 import { useData } from "vitepress"
 import { ref, computed } from "vue"
 import { onClickOutside } from "@vueuse/core"
@@ -31,12 +52,12 @@ const messagePlaceholderValue = computed(() => props.messagePlaceholderText || s
 const showModal = ref(false)
 const modalContainerRef = ref(null)
 
-// Простое состояние формы без композабла
+// Simple form state without composable
 const isSubmitting = ref(false)
 const formSuccessMessage = ref("")
 const formErrorMessage = ref("")
 
-// Данные формы
+// Form data
 const formData = ref<SubmitForm>({
   email: "",
   kind: "",
@@ -243,7 +264,7 @@ contact-form input:focus {
   margin: 0;
 }
 
-/* Анимации */
+/* Animations */
 .modal-enter-active,
 .modal-leave-active {
   transition: opacity 0.3s ease;
