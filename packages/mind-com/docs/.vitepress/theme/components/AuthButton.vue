@@ -5,12 +5,12 @@ import { nanoid } from "nanoid"
 import { useData } from "vitepress"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 import { usePipedriveCRM } from "../composables/usePipedriveCRM"
-import { determineTrafficSource } from "../../../../../../shared/utils/utm"
 import { LeadSignUpProps } from "../../../../api/types/signUp.js"
-import { LeadData } from "../../../../api/types/pipedriveFields.js"
+// import { determineTrafficSource } from "../../../../../../shared/utils/utm"
+// import { LeadData } from "../../../../api/types/pipedriveFields.js"
 
 const REDIRECT_AFTER_AUTH_URI_KEY = "redirect_after_auth"
-const inProduction = import.meta.env.VITE_IS_PROD
+// const inProduction = import.meta.env.VITE_IS_PROD
 
 interface Props {
   text: string
@@ -24,30 +24,13 @@ const props = withDefaults(defineProps<Props>(), {
   mode: "auth",
 })
 
-const { page } = useData()
-const { submitToCRM } = usePipedriveCRM("/api/signUp")
+// const { page } = useData()
 
 const login = (event: Event): void => {
   event.preventDefault()
 
   const pathSegments = location.pathname.split("/").filter(Boolean)
   const currentLocale = pathSegments[0] && pathSegments[0] !== "en" ? pathSegments[0] : "en"
-
-  const leadData: LeadSignUpProps = {
-    email: "email@example.com", // анонимный лид без email
-    name: props.eventName,
-    // url: location.href,
-    // utm: { source: inProduction ? determineTrafficSource() : "[test]" },
-    params: {
-      method: "Google",
-      plan: "basic",
-    },
-  }
-
-  // Запускаем создание лида
-  submitToCRM(leadData).catch((error) => {
-    console.error("Failed to create lead:", error)
-  })
 
   // Сохраняем текущий путь для возврата после авторизации
   localStorage.setItem(REDIRECT_AFTER_AUTH_URI_KEY, location.pathname + location.search)
@@ -65,6 +48,25 @@ const login = (event: Event): void => {
   } else {
     location.href = `${import.meta.env.VITE_OAUTH_PROVIDER_URL}?locale=${currentLocale}&${authParams.toString()}`
   }
+
+  /**
+   * Создаем лид для CRM
+   * TODO: удалить после внедрения и иестирования в продукте
+   */
+  const { submitToCRM } = usePipedriveCRM("/api/signUp")
+
+  const leadData: LeadSignUpProps = {
+    email: props.text,
+    name: props.eventName,
+    params: {
+      method: undefined,
+      plan: "basic",
+    },
+  }
+
+  submitToCRM(leadData).catch((error) => {
+    console.error("Failed to create lead:", error)
+  })
 }
 </script>
 

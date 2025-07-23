@@ -82,7 +82,7 @@ export interface Field {
 }
 
 export interface Params {
-  method: "Google" | "Microsoft" | "email" // Registration method
+  method: "Google" | "Microsoft" | "email" | undefined // Registration method
   plan: "basic" | "pro" | "business" // Selected pricing plan
 }
 

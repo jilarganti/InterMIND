@@ -12,9 +12,9 @@ export async function POST(request: Request) {
   // Преобразуем в LeadData для существующего API
   const leadData: LeadData = {
     lead: {
-      title: data.name,
+      title: "sign_up",
       url: request.headers.get("referer") || new URL(request.url).origin,
-      kind: "sign_up",
+      kind: data.name,
       params: "Plan: " + data.params.plan + ", Method: " + data.params.method,
       utm: data.utm,
       sourceChannel: Channel.WEB_VISITORS, // Используем канал "Web visitors" для sign-up
