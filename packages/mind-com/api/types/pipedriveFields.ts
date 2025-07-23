@@ -23,7 +23,7 @@ export enum Channel {
 // Типы полей лида Pipedrive
 interface LeadFields {
   title: string // Заголовок лида
-  url: string // Form submission page URL
+  url?: string // Form submission page URL
   utm?: UtmParams // UTM parameters object
   kind: string // Категория лида, определяется селектором формы
   params?: string // Параметры лида

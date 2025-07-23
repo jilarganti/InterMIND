@@ -3,8 +3,7 @@
  */
 
 import { POST as createContactAndLead } from "./createContactAndLead.js"
-import { SignUpLead } from "./types/-signUp.js"
-import { Channel, LeadData, DataLayerEvent } from "./types/pipedriveFields.js"
+import { Channel, LeadData, DataLayerEvent, SignUpLead } from "./types/pipedriveFields.js"
 
 export async function POST(request: Request) {
   const data = (await request.json()) as SignUpLead
@@ -13,7 +12,7 @@ export async function POST(request: Request) {
   const leadData: LeadData = {
     lead: {
       title: "sign_up",
-      url: request.headers.get("referer") || new URL(request.url).origin,
+      //   url: request.headers.get("referer") || new URL(request.url).origin,
       kind: data.name,
       params: "💳" + data.params.plan + " 📩" + data.params.method,
       utm: data.utm,
