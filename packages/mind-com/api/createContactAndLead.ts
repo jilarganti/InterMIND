@@ -19,7 +19,7 @@ export async function POST(request: Request) {
       title: data.lead.title,
       [CUSTOM_LEAD_FIELD.KIND]: data.lead.kind,
       [CUSTOM_LEAD_FIELD.MESSAGE]: data.lead.message,
-      [CUSTOM_LEAD_FIELD.URL]: data.lead.url,
+      [CUSTOM_LEAD_FIELD.URL]: request.headers.get("referer") || new URL(request.url).origin,
       [CUSTOM_LEAD_FIELD.PARAMS]: data.lead.params,
     })
 
