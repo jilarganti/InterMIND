@@ -3,7 +3,8 @@
  */
 
 import { createContactAndLead } from "./lib/pipedrive.js"
-import { Channel, LeadData, DataLayerEvent, SignUpLead } from "./types/pipedriveFields.js"
+import { Channel } from "./config/pipedriveConfig.js"
+import { LeadData, DataLayerEvent, SignUpLead } from "./types/pipedriveFields.js"
 
 export async function POST(request: Request) {
   const data = (await request.json()) as SignUpLead

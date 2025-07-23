@@ -3,7 +3,8 @@
  */
 
 import { createContactAndLead } from "./lib/pipedrive.js"
-import { Channel, LeadData, DataLayerEvent, SubmitForm } from "./types/pipedriveFields.js"
+import { Channel } from "./config/pipedriveConfig.js"
+import { LeadData, DataLayerEvent, SubmitForm } from "./types/pipedriveFields.js"
 // import { ContactForm } from "../docs/.vitepress/theme/types/ContactForm.js"
 
 export async function POST(request: Request) {

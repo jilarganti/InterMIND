@@ -1,23 +1,23 @@
 /**
- * Маппинг полей Pipedrive CRM
- * Простые константы для замены хардкодных ID
+ * Типы данных для Pipedrive CRM
+ * Интерфейсы и типы для работы с API
  */
 
-// ID кастомных полей для лидов
-export const CUSTOM_LEAD_FIELD = {
-  KIND: "ec30e5d548a40d6588bf2e1f06ec07cca7b4cc77",
-  MESSAGE: "381414c380220bf1d26ce7b7bdc6e6ff08e20e04",
-  URL: "da3aa18ff6128966544ff359f07aebedc047b2e2",
-  PARAMS: "5f55bbf5ed50e7a0952f7c7211de22e7ffcb70f5",
+import { Channel, RegistrationMethod, PricingPlan, AnalyticsEvent } from "../config/pipedriveConfig.js"
+
+// UTM параметры для отслеживания источников трафика
+interface UtmParams {
+  source?: string // Traffic source (e.g., google, linkedin)
+  medium?: string // Traffic channel (e.g., cpc, email)
+  campaign?: string // Marketing campaign name
+  term?: string // Keyword (if any)
+  content?: string // Banner or ad identifier
 }
 
-// Перечисление возможных каналов
-export enum Channel {
-  WEB_VISITORS = "Web visitors",
-  WEB_FORMS = "Web forms",
-  MESSAGING_INBOX = "Messaging Inbox",
-  CHATBOT = "Chatbot",
-  MANUAL_ENTRY = "Manual entry",
+// Параметры регистрации
+interface Params {
+  method: RegistrationMethod // Registration method
+  plan: PricingPlan // Selected pricing plan
 }
 
 // Типы полей лида Pipedrive
@@ -29,35 +29,24 @@ interface LeadFields {
   params?: string // Параметры лида
   message?: string // Сообщение или комментарий к лиду
 }
+
 // Типы полей контакта Pipedrive
 interface ContactFields {
   name: string
   email: string
   phone?: string
 }
+
 // Базовые типы
 export interface LeadData {
   lead: LeadFields & { sourceChannel: Channel } // Поля лида + канал для обработки
   contact: ContactFields // Поля контакта
 }
 
-interface Params {
-  method: "Google" | "Microsoft" | "Email" | undefined // Registration method
-  plan: "Basic" | "Pro" | "Business" // Selected pricing plan
-}
-
-interface UtmParams {
-  source?: string // Traffic source (e.g., google, linkedin)
-  medium?: string // Traffic channel (e.g., cpc, email)
-  campaign?: string // Marketing campaign name
-  term?: string // Keyword (if any)
-  content?: string // Banner or ad identifier
-}
-
 export interface DataLayerEvent {
-  event: "sign_up" | "generate_lead" // Event name
-  method?: Params["method"] // Registration method (Google, Microsoft, email)
-  plan?: Params["plan"] // Selected pricing plan
+  event: AnalyticsEvent // Event name
+  method?: RegistrationMethod // Registration method (Google, Microsoft, email)
+  plan?: PricingPlan // Selected pricing plan
   utm?: UtmParams // UTM parameters object (for CRM, not for dataLayer)
   kind: string // Category of the lead, determined by the form selector
 }
@@ -72,14 +61,14 @@ export interface SignUpLead {
   url?: string // Form submission page URL
   utm?: UtmParams // UTM parameters object (for CRM, not for dataLayer)
   params: {
-    method: Params["method"] // Registration method (Google, Microsoft, email)
-    plan: Params["plan"] // Selected pricing plan
+    method: RegistrationMethod // Registration method (Google, Microsoft, email)
+    plan: PricingPlan // Selected pricing plan
   }
 }
 
 /**
- * Represents the data structure for a lead sign-up.
- * This is used to create a new lead in the CRM.
+ * Represents the data structure for a form submission lead.
+ * This is used to create a new lead in the CRM from contact forms.
  */
 export interface SubmitForm {
   name?: string

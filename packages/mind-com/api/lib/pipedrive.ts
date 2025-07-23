@@ -6,7 +6,8 @@
  */
 
 import Pipedrive from "pipedrive"
-import { CUSTOM_LEAD_FIELD, LeadData } from "../types/pipedriveFields.js"
+import { CUSTOM_LEAD_FIELD } from "../config/pipedriveConfig.js"
+import { LeadData } from "../types/pipedriveFields.js"
 
 const getApiClient = () => {
   const client = new Pipedrive.ApiClient()
