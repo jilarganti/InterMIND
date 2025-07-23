@@ -1,8 +1,4 @@
-/**
- *
- */
-
-import { createContactAndLead } from "./lib/pipedrive.js"
+import { createContactAndLead } from "./lib/pipedriveLib.js"
 import { Channel } from "./config/pipedriveConfig.js"
 import { LeadData, DataLayerEvent, SignUpLead } from "./types/pipedriveFields.js"
 
@@ -13,7 +9,6 @@ export async function POST(request: Request) {
   const leadData: LeadData = {
     lead: {
       title: "sign_up",
-      //   url: request.headers.get("referer") || new URL(request.url).origin,
       kind: data.name,
       params: "💳" + data.params.plan + " 📩" + data.params.method,
       utm: data.utm,

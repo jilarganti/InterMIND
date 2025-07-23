@@ -1,11 +1,6 @@
-/**
- *
- */
-
-import { createContactAndLead } from "./lib/pipedrive.js"
+import { createContactAndLead } from "./lib/pipedriveLib.js"
 import { Channel } from "./config/pipedriveConfig.js"
 import { LeadData, DataLayerEvent, SubmitForm } from "./types/pipedriveFields.js"
-// import { ContactForm } from "../docs/.vitepress/theme/types/ContactForm.js"
 
 export async function POST(request: Request) {
   const data = (await request.json()) as SubmitForm
@@ -14,7 +9,6 @@ export async function POST(request: Request) {
   const leadData: LeadData = {
     lead: {
       title: data.name,
-      // url: request.headers.get("referer") || new URL(request.url).origin,
       kind: data.kind,
       message: data.message,
       params: "🌎 " + data.webSite,
