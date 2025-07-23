@@ -1,5 +1,5 @@
-import { fetchLeadFields } from "./fetchLeadFields.js"
-import { type LeadFieldsMap } from "./fetchLeadFields.js"
+import { fetchLeadFields } from "./-fetchLeadFields.js"
+import { type LeadFieldsMap } from "./-fetchLeadFields.js"
 
 let cachedFields: LeadFieldsMap | null = null
 
