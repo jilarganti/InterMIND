@@ -3,11 +3,11 @@
  */
 
 import { POST as createContactAndLead } from "./createContactAndLead.js"
-import { Channel, LeadData, DataLayerEvent } from "./types/pipedriveFields.js"
-import { ContactForm } from "../docs/.vitepress/theme/types/ContactForm.js"
+import { Channel, LeadData, DataLayerEvent, SubmitForm } from "./types/pipedriveFields.js"
+// import { ContactForm } from "../docs/.vitepress/theme/types/ContactForm.js"
 
 export async function POST(request: Request) {
-  const data = (await request.json()) as ContactForm
+  const data = (await request.json()) as SubmitForm
 
   // Преобразуем в LeadData для существующего API
   const leadData: LeadData = {

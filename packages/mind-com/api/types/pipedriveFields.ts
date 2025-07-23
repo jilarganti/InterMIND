@@ -95,13 +95,10 @@ export interface SignUpLead {
  * Represents the data structure for a lead sign-up.
  * This is used to create a new lead in the CRM.
  */
-export interface SubmitFormLead {
-  email: string // User email (required)
-  name: string // Name or full name (optional)
-  url?: string // Form submission page URL
-  utm?: UtmParams // UTM parameters object (for CRM, not for dataLayer)
-  params: {
-    method: Params["method"] // Registration method (Google, Microsoft, email)
-    plan: Params["plan"] // Selected pricing plan
-  }
+export interface SubmitForm {
+  name?: string
+  email: string
+  webSite?: string
+  kind: string
+  message: string
 }

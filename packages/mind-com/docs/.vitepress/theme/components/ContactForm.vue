@@ -5,10 +5,10 @@ import { ref, computed } from "vue"
 import { onClickOutside } from "@vueuse/core"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 import { usePipedriveCRM } from "../composables/usePipedriveCRM"
-import { generateOriginId } from "../../../../../../shared/utils/path"
-import { determineTrafficSource } from "../../../../../../shared/utils/utm"
-import { Channel, LeadData } from "../../../../api/types/pipedriveFields.js"
-import { ContactForm } from "../types/ContactForm"
+// import { generateOriginId } from "../../../../../../shared/utils/path"
+// import { determineTrafficSource } from "../../../../../../shared/utils/utm"
+import { SubmitForm } from "../../../../api/types/pipedriveFields.js"
+// import { ContactForm } from "../types/ContactForm"
 
 const { site, page } = useData()
 
@@ -43,7 +43,7 @@ const modalContainerRef = ref(null)
 const { status, submitToCRM } = usePipedriveCRM("/api/submitForm")
 
 // Данные формы
-const formData = ref<ContactForm>({
+const formData = ref<SubmitForm>({
   email: "",
   kind: "",
   message: "",

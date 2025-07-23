@@ -5,9 +5,9 @@ import { nanoid } from "nanoid"
 // import { useData } from "vitepress"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 import { usePipedriveCRM } from "../composables/usePipedriveCRM"
-import { SignUpLead } from "../../../../api/types/-signUp.js"
+// import { SignUpLead } from "../../../../api/types/-signUp.js"
 // import { determineTrafficSource } from "../../../../../../shared/utils/utm"
-// import { LeadData } from "../../../../api/types/pipedriveFields.js"
+import { SignUpLead } from "../../../../api/types/pipedriveFields.js"
 
 const REDIRECT_AFTER_AUTH_URI_KEY = "redirect_after_auth"
 // const inProduction = import.meta.env.VITE_IS_PROD

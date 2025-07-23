@@ -3,14 +3,14 @@
  * Type definitions for the contact form used in the Mind.com documentation site.
  */
 
-export interface ContactForm {
-  name?: string
-  email: string
-  webSite?: string
-  kind: string
-  message: string
-  // buttonText?: string
-}
+// export interface ContactForm {
+//   name?: string
+//   email: string
+//   webSite?: string
+//   kind: string
+//   message: string
+//   // buttonText?: string
+// }
 
 export interface ContactFormConfig {
   name: string
