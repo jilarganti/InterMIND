@@ -1,15 +1,11 @@
-// ContactForm.vue - упрощенная версия без useFormSubmit
 <script setup lang="ts">
 import { useData } from "vitepress"
 import { ref, computed } from "vue"
 import { onClickOutside } from "@vueuse/core"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
-// import { generateOriginId } from "../../../../../../shared/utils/path"
-// import { determineTrafficSource } from "../../../../../../shared/utils/utm"
-import { SubmitForm } from "../../../../api/types/pipedriveFields.js"
-// import { ContactForm } from "../types/ContactForm"
+import { SubmitForm } from "../../../../api/types/pipedriveFields"
 
-const { site, page } = useData()
+const { site } = useData()
 
 const props = defineProps<{
   formName?: string
@@ -32,9 +28,6 @@ const categoryPlaceholderValue = computed(() => props.categoryPlaceholderText ||
 const messageLabelValue = computed(() => props.messageLabel || site.value.themeConfig.contact_form.message)
 const messagePlaceholderValue = computed(() => props.messagePlaceholderText || site.value.themeConfig.contact_form.messagePlaceholder)
 
-// const emit = defineEmits(["success"])
-
-// const isRealLead = import.meta.env.VITE_IS_PROD
 const showModal = ref(false)
 const modalContainerRef = ref(null)
 
@@ -60,8 +53,6 @@ onClickOutside(modalContainerRef, () => {
 })
 
 const handleSubmit = async () => {
-  // if (!isRealLead) formData.value.name = "[test] " + formData.value.name
-
   isSubmitting.value = true
   formSuccessMessage.value = ""
   formErrorMessage.value = ""
