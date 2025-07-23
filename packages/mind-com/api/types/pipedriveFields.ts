@@ -3,16 +3,6 @@
  * Простые константы для замены хардкодных ID
  */
 
-// export interface SignUpDataLayerEvent {
-//   event: "sign_up"
-//   method: Params["method"] // Registration method (Google, Microsoft, email)
-//   plan: Params["plan"] // Selected pricing plan
-// }
-
-// export interface SubmitFormDataLayerEvent {
-//   event: "generate_lead" // Changed from "sign_up" to "generate_lead"
-// }
-
 // ID кастомных полей для лидов
 export const CUSTOM_LEAD_FIELD = {
   KIND: "ec30e5d548a40d6588bf2e1f06ec07cca7b4cc77",
@@ -31,7 +21,7 @@ export enum Channel {
 }
 
 // Типы полей лида Pipedrive
-export interface LeadFields {
+interface LeadFields {
   title: string // Заголовок лида
   url: string // Form submission page URL
   utm?: UtmParams // UTM parameters object
@@ -44,7 +34,7 @@ export interface LeadFields {
   // sourceChannelId?: string // ID канала
 }
 // Типы полей контакта Pipedrive
-export interface ContactFields {
+interface ContactFields {
   name: string
   email: string
   phone?: string
@@ -55,12 +45,12 @@ export interface LeadData {
   contact: ContactFields // Поля контакта
 }
 
-export interface Params {
+interface Params {
   method: "Google" | "Microsoft" | "Email" | undefined // Registration method
   plan: "Basic" | "Pro" | "Business" // Selected pricing plan
 }
 
-export interface UtmParams {
+interface UtmParams {
   source?: string // Traffic source (e.g., google, linkedin)
   medium?: string // Traffic channel (e.g., cpc, email)
   campaign?: string // Marketing campaign name
