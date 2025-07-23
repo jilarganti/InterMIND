@@ -5,7 +5,7 @@ import { nanoid } from "nanoid"
 // import { useData } from "vitepress"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 import { usePipedriveCRM } from "../composables/usePipedriveCRM"
-import { LeadSignUpProps } from "../../../../api/types/signUp.js"
+import { SignUpLead } from "../../../../api/types/-signUp.js"
 // import { determineTrafficSource } from "../../../../../../shared/utils/utm"
 // import { LeadData } from "../../../../api/types/pipedriveFields.js"
 
@@ -55,12 +55,12 @@ const login = (event: Event): void => {
    */
   const { submitToCRM } = usePipedriveCRM("/api/signUp")
 
-  const leadData: LeadSignUpProps = {
+  const leadData: SignUpLead = {
     email: `[${props.text}]`,
     name: props.eventName,
     params: {
       method: undefined,
-      plan: "basic",
+      plan: "Basic",
     },
   }
 

@@ -1,8 +1,8 @@
 // usePipedriveCRM.ts - убираем дефолтное значение
 import { ref } from "vue"
-import { LeadData } from "../../../../api/types/pipedriveFields.js"
-import { LeadSignUpProps } from "../../../../api/types/signUp.js"
-import { SubmitFormLead } from "../../../../api/types/submitForm.js"
+import { LeadData, SignUpLead, SubmitFormLead } from "../../../../api/types/pipedriveFields.js"
+// import { SignUpLead } from "../../../../api/types/signUp.js"
+// import { SubmitFormLead } from "../../../../api/types/submitForm.js"
 import { ContactForm } from "../types/ContactForm.js"
 
 export interface CRMStatus {
@@ -18,7 +18,7 @@ export const usePipedriveCRM = (endpoint: string) => {
     errorMessage: "",
   })
 
-  const submitToCRM = async (payload: LeadData | LeadSignUpProps | SubmitFormLead | ContactForm) => {
+  const submitToCRM = async (payload: LeadData | SignUpLead | SubmitFormLead | ContactForm) => {
     status.value.isSubmitting = true
     status.value.successMessage = ""
     status.value.errorMessage = ""

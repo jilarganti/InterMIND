@@ -3,9 +3,8 @@
  */
 
 import { POST as createContactAndLead } from "./createContactAndLead.js"
-import { SubmitFormLead, SubmitFormDataLayerEvent } from "./types/submitForm.js"
-import { Channel, type LeadData } from "./types/pipedriveFields.js"
-import type { ContactForm } from "../docs/.vitepress/theme/types/ContactForm.js"
+import { Channel, LeadData, DataLayerEvent } from "./types/pipedriveFields.js"
+import { ContactForm } from "../docs/.vitepress/theme/types/ContactForm.js"
 
 export async function POST(request: Request) {
   const data = (await request.json()) as ContactForm
@@ -17,7 +16,7 @@ export async function POST(request: Request) {
       url: request.headers.get("referer") || new URL(request.url).origin,
       kind: data.kind,
       message: data.message,
-      params: "Site: " + data.webSite,
+      params: "🌎 " + data.webSite,
       sourceChannel: Channel.WEB_FORMS,
     },
     contact: {
@@ -39,7 +38,7 @@ export async function POST(request: Request) {
 
   // Добавляем GTM данные к ответу
   if (result.success) {
-    const gtmData: SubmitFormDataLayerEvent = {
+    const gtmData: DataLayerEvent = {
       event: "generate_lead",
       kind: data.kind,
     }

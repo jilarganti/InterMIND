@@ -2,10 +2,10 @@ import { UtmParams, Params } from "./pipedriveFields.js"
 /**
  * Data layer event for sign up
  */
-export interface SubmitFormDataLayerEvent {
-  event: "generate_lead" // Changed from "sign_up" to "generate_lead"
-  kind?: string // Category of the lead, if applicable
-}
+// export interface SubmitFormDataLayerEvent {
+//   event: "generate_lead" // Changed from "sign_up" to "generate_lead"
+//   kind?: string // Category of the lead, if applicable
+// }
 
 /**
  * Represents the data structure for a lead sign-up.

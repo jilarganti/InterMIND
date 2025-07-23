@@ -3,11 +3,11 @@
  */
 
 import { POST as createContactAndLead } from "./createContactAndLead.js"
-import { LeadSignUpProps, SignUpDataLayerEvent } from "./types/signUp.js"
-import { Channel, type LeadData } from "./types/pipedriveFields.js"
+import { SignUpLead } from "./types/-signUp.js"
+import { Channel, LeadData, DataLayerEvent } from "./types/pipedriveFields.js"
 
 export async function POST(request: Request) {
-  const data = (await request.json()) as LeadSignUpProps
+  const data = (await request.json()) as SignUpLead
 
   // Преобразуем в LeadData для существующего API
   const leadData: LeadData = {
@@ -15,7 +15,7 @@ export async function POST(request: Request) {
       title: "sign_up",
       url: request.headers.get("referer") || new URL(request.url).origin,
       kind: data.name,
-      params: "Plan: " + data.params.plan + ", Method: " + data.params.method,
+      params: "💳" + data.params.plan + " 📩" + data.params.method,
       utm: data.utm,
       sourceChannel: Channel.WEB_VISITORS, // Используем канал "Web visitors" для sign-up
     },
@@ -38,10 +38,11 @@ export async function POST(request: Request) {
 
   // Добавляем GTM данные к ответу
   if (result.success) {
-    const gtmData: SignUpDataLayerEvent = {
+    const gtmData: DataLayerEvent = {
       event: "sign_up",
       method: data.params.method,
       plan: data.params.plan,
+      kind: data.name, // Используем имя как вид лида
     }
     result.gtmData = gtmData
   }

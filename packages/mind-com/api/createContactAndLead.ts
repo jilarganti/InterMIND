@@ -1,13 +1,10 @@
 import { createContact, createLead, resolveCustomFieldId } from "./lib/pipedriveClient.js"
-// import { resolveCustomFieldId } from "./lib/fieldResolver.js"
 import { CUSTOM_LEAD_FIELD, LeadData } from "./types/pipedriveFields.js"
 
 export async function POST(request: Request) {
   const data = (await request.json()) as LeadData
 
   try {
-    // const channelId = await resolveCustomFieldId("channel", data.lead.sourceChannel)
-
     const person = await createContact({
       name: data.contact.name,
       email: [{ value: data.contact.email, label: "other" }],

@@ -87,24 +87,23 @@ function extractErrorMessage(err: unknown): string {
   return String(err)
 }
 
-export interface FieldOption {
+/**
+ * Represents a selectable option for a custom field.
+ */
+interface FieldOption {
   id: string | number
   label: string
 }
 
-export interface Field {
+interface Field {
   key: string
   name: string
   options?: FieldOption[]
-  [key: string]: any // для гибкости
+  [key: string]: any
 }
 
-export type LeadFieldsMap = Record<string, Field>
+type LeadFieldsMap = Record<string, Field>
 
-/**
- * Получает кастомные поля для лидов из Pipedrive и возвращает мапу по ключу
- * @returns {Promise<LeadFieldsMap>}
- */
 async function fetchLeadFields(): Promise<LeadFieldsMap> {
   const apiToken = process.env.PIPEDRIVE_API_TOKEN
 

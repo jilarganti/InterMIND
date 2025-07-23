@@ -3,15 +3,15 @@
  * Простые константы для замены хардкодных ID
  */
 
-export interface SignUpDataLayerEvent {
-  event: "sign_up"
-  method: Params["method"] // Registration method (Google, Microsoft, email)
-  plan: Params["plan"] // Selected pricing plan
-}
+// export interface SignUpDataLayerEvent {
+//   event: "sign_up"
+//   method: Params["method"] // Registration method (Google, Microsoft, email)
+//   plan: Params["plan"] // Selected pricing plan
+// }
 
-export interface SubmitFormDataLayerEvent {
-  event: "generate_lead" // Changed from "sign_up" to "generate_lead"
-}
+// export interface SubmitFormDataLayerEvent {
+//   event: "generate_lead" // Changed from "sign_up" to "generate_lead"
+// }
 
 // ID кастомных полей для лидов
 export const CUSTOM_LEAD_FIELD = {
@@ -54,36 +54,10 @@ export interface LeadData {
   lead: LeadFields & { sourceChannel: Channel } // Поля лида + канал для обработки
   contact: ContactFields // Поля контакта
 }
-// Базовые типы
-// export interface FormData {
-//   name?: string
-//   email: string
-//   phone?: string
-//   webSite?: string
-//   channel?: Channel
-//   channelId?: string
-//   originId?: string
-//   category?: string
-//   message?: string
-//   leadSource?: string
-//   countryCode?: string
-//   countryName?: string
-// }
-
-export interface FieldOption {
-  id: string | number
-  label: string
-}
-
-export interface Field {
-  key: string
-  name: string
-  options?: FieldOption[]
-}
 
 export interface Params {
-  method: "Google" | "Microsoft" | "email" | undefined // Registration method
-  plan: "basic" | "pro" | "business" // Selected pricing plan
+  method: "Google" | "Microsoft" | "Email" | undefined // Registration method
+  plan: "Basic" | "Pro" | "Business" // Selected pricing plan
 }
 
 export interface UtmParams {
@@ -92,4 +66,42 @@ export interface UtmParams {
   campaign?: string // Marketing campaign name
   term?: string // Keyword (if any)
   content?: string // Banner or ad identifier
+}
+
+export interface DataLayerEvent {
+  event: "sign_up" | "generate_lead" // Event name
+  method?: Params["method"] // Registration method (Google, Microsoft, email)
+  plan?: Params["plan"] // Selected pricing plan
+  utm?: UtmParams // UTM parameters object (for CRM, not for dataLayer)
+  kind: string // Category of the lead, determined by the form selector
+}
+
+/**
+ * Represents the data structure for a lead sign-up.
+ * This is used to create a new lead in the CRM.
+ */
+export interface SignUpLead {
+  email: string // User email (required)
+  name: string // Name or full name (optional)
+  url?: string // Form submission page URL
+  utm?: UtmParams // UTM parameters object (for CRM, not for dataLayer)
+  params: {
+    method: Params["method"] // Registration method (Google, Microsoft, email)
+    plan: Params["plan"] // Selected pricing plan
+  }
+}
+
+/**
+ * Represents the data structure for a lead sign-up.
+ * This is used to create a new lead in the CRM.
+ */
+export interface SubmitFormLead {
+  email: string // User email (required)
+  name: string // Name or full name (optional)
+  url?: string // Form submission page URL
+  utm?: UtmParams // UTM parameters object (for CRM, not for dataLayer)
+  params: {
+    method: Params["method"] // Registration method (Google, Microsoft, email)
+    plan: Params["plan"] // Selected pricing plan
+  }
 }
