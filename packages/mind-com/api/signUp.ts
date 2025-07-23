@@ -2,7 +2,7 @@
  *
  */
 
-import { createContactAndLead } from "./lib/createContactAndLead.js"
+import { createContactAndLead } from "./lib/pipedrive.js"
 import { Channel, LeadData, DataLayerEvent, SignUpLead } from "./types/pipedriveFields.js"
 
 export async function POST(request: Request) {

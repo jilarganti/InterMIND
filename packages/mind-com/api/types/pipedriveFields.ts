@@ -28,10 +28,6 @@ interface LeadFields {
   kind: string // Категория лида, определяется селектором формы
   params?: string // Параметры лида
   message?: string // Сообщение или комментарий к лиду
-  // sourceOrigin?: string // Источник лида, создается автоматически СРМ (API, manual entry и т.д.)
-  // sourceOriginId?: string // ID источника
-  // sourceChannel: Channel // Канал привлечения - NOT a valid Pipedrive field, use 'channel' instead
-  // sourceChannelId?: string // ID канала
 }
 // Типы полей контакта Pipedrive
 interface ContactFields {
