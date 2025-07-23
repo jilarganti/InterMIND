@@ -2,7 +2,7 @@
  *
  */
 
-import { POST as createContactAndLead } from "./createContactAndLead.js"
+import { createContactAndLead } from "./lib/createContactAndLead.js"
 import { Channel, LeadData, DataLayerEvent, SubmitForm } from "./types/pipedriveFields.js"
 // import { ContactForm } from "../docs/.vitepress/theme/types/ContactForm.js"
 
@@ -25,16 +25,8 @@ export async function POST(request: Request) {
     },
   }
 
-  // Создаем новый Request с преобразованными данными
-  const newRequest = new Request(request.url, {
-    method: "POST",
-    headers: request.headers,
-    body: JSON.stringify(leadData),
-  })
-
-  // Вызываем готовый endpoint
-  const response = await createContactAndLead(newRequest)
-  const result = await response.json()
+  // Вызываем библиотечную функцию напрямую
+  const result = await createContactAndLead(leadData, request)
 
   // Добавляем GTM данные к ответу
   if (result.success) {
@@ -42,11 +34,11 @@ export async function POST(request: Request) {
       event: "generate_lead",
       kind: data.kind,
     }
-    result.gtmData = gtmData
+    ;(result as any).gtmData = gtmData
   }
 
   return new Response(JSON.stringify(result), {
-    status: response.status,
+    status: result.success ? 200 : 500,
     headers: { "Content-Type": "application/json" },
   })
 }
