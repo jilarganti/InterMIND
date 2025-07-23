@@ -20,14 +20,10 @@
 /// <reference types="../types/global.d.ts" />
 
 import { nanoid } from "nanoid"
-// import { useData } from "vitepress"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
-// import { SignUpLead } from "../../../../api/types/-signUp.js"
-// import { determineTrafficSource } from "../../../../../../shared/utils/utm"
 import { SignUpLead } from "../../../../api/types/pipedriveFields.js"
 
 const REDIRECT_AFTER_AUTH_URI_KEY = "redirect_after_auth"
-// const inProduction = import.meta.env.VITE_IS_PROD
 
 interface Props {
   text: string
@@ -40,8 +36,6 @@ const props = withDefaults(defineProps<Props>(), {
   buttonClass: "brand",
   mode: "auth",
 })
-
-// const { page } = useData()
 
 const login = (event: Event): void => {
   event.preventDefault()
