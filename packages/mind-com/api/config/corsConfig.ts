@@ -1,5 +1,5 @@
 // Разрешенные домены для API endpoints
-export const ALLOWED_DOMAINS = ["localhost", "mind.com", "inter.mind.com", "status.mind.com", "mind-com-intermind.vercel.app"]
+export const ALLOWED_DOMAINS = ["localhost", "mind.com", "inter.mind.com", "status.mind.com", "i14n.com"]
 
 // Функция для проверки разрешенного домена
 export function isAllowedDomain(request: Request): boolean {

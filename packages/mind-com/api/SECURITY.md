@@ -9,7 +9,7 @@ All API endpoints are protected by domain verification to prevent unauthorized a
 The list of allowed domains is located in the `config/corsConfig.ts` file:
 
 ```typescript
-export const ALLOWED_DOMAINS = ["localhost", "mind.com", "inter.mind.com", "status.mind.com", "mind-com-intermind.vercel.app"]
+export const ALLOWED_DOMAINS = ["localhost", "mind.com", "inter.mind.com", "status.mind.com"]
 ```
 
 ### How it works
