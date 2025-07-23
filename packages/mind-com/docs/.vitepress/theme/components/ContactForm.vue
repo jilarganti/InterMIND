@@ -4,7 +4,6 @@ import { useData } from "vitepress"
 import { ref, computed } from "vue"
 import { onClickOutside } from "@vueuse/core"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
-import { usePipedriveCRM } from "../composables/usePipedriveCRM"
 // import { generateOriginId } from "../../../../../../shared/utils/path"
 // import { determineTrafficSource } from "../../../../../../shared/utils/utm"
 import { SubmitForm } from "../../../../api/types/pipedriveFields.js"
@@ -39,8 +38,10 @@ const messagePlaceholderValue = computed(() => props.messagePlaceholderText || s
 const showModal = ref(false)
 const modalContainerRef = ref(null)
 
-// Прямое использование usePipedriveCRM
-const { status, submitToCRM } = usePipedriveCRM("/api/submitForm")
+// Простое состояние формы без композабла
+const isSubmitting = ref(false)
+const formSuccessMessage = ref("")
+const formErrorMessage = ref("")
 
 // Данные формы
 const formData = ref<SubmitForm>({
@@ -61,16 +62,35 @@ onClickOutside(modalContainerRef, () => {
 const handleSubmit = async () => {
   // if (!isRealLead) formData.value.name = "[test] " + formData.value.name
 
-  const success = await submitToCRM(formData.value)
+  isSubmitting.value = true
+  formSuccessMessage.value = ""
+  formErrorMessage.value = ""
 
-  // if (success) {
-  //   emit("success")
-  // }
+  try {
+    const response = await fetch("/api/submitForm", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData.value),
+    })
+
+    const data = await response.json()
+
+    if (response.ok && data.success) {
+      formSuccessMessage.value = data.message || "Lead created"
+    } else {
+      formErrorMessage.value = data.message || "CRM error"
+    }
+  } catch (e) {
+    formErrorMessage.value = "Network or server error"
+    console.error("CRM Error:", e)
+  } finally {
+    isSubmitting.value = false
+  }
 }
 
 const closeModal = () => {
   showModal.value = false
-  status.value.errorMessage = ""
+  formErrorMessage.value = ""
 }
 </script>
 
@@ -88,7 +108,7 @@ const closeModal = () => {
             <button class="close-button" @click="closeModal">&times;</button>
           </div>
 
-          <div v-if="status.successMessage" class="success-message">
+          <div v-if="formSuccessMessage" class="success-message">
             <h3 class="success-title">{{ successTitle }}</h3>
             <p class="success-text">{{ successMessage }}</p>
           </div>
@@ -124,13 +144,13 @@ const closeModal = () => {
               <textarea name="message" v-model="formData.message" :placeholder="messagePlaceholderValue"></textarea>
             </div>
 
-            <p v-if="status.errorMessage" class="error">
-              {{ status.errorMessage }}
+            <p v-if="formErrorMessage" class="error">
+              {{ formErrorMessage }}
             </p>
 
             <div class="modal-footer">
-              <button type="submit" class="submit-button" :disabled="status.isSubmitting">
-                {{ status.isSubmitting ? sending : submit }}
+              <button type="submit" class="submit-button" :disabled="isSubmitting">
+                {{ isSubmitting ? sending : submit }}
               </button>
             </div>
           </form>

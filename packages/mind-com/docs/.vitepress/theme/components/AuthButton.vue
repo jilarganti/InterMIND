@@ -4,7 +4,6 @@
 import { nanoid } from "nanoid"
 // import { useData } from "vitepress"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
-import { usePipedriveCRM } from "../composables/usePipedriveCRM"
 // import { SignUpLead } from "../../../../api/types/-signUp.js"
 // import { determineTrafficSource } from "../../../../../../shared/utils/utm"
 import { SignUpLead } from "../../../../api/types/pipedriveFields.js"
@@ -53,8 +52,6 @@ const login = (event: Event): void => {
    * Создаем лид для CRM и событие для аналитики
    * TODO: удалить после внедрения и тестирования в продукте
    */
-  const { submitToCRM } = usePipedriveCRM("/api/signUp")
-
   const leadData: SignUpLead = {
     email: `[${props.text}]`,
     name: props.eventName,
@@ -64,7 +61,12 @@ const login = (event: Event): void => {
     },
   }
 
-  submitToCRM(leadData).catch((error) => {
+  // Простая отправка без обработки состояния
+  fetch("/api/signUp", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(leadData),
+  }).catch((error) => {
     console.error("Failed to create lead:", error)
   })
 }
