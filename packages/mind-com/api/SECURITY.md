@@ -2,41 +2,33 @@
 
 ## Domain Access Control
 
-Все API endpoints защищены проверкой доменов для предотвращения несанкционированного доступа.
+All API endpoints are protected by domain verification to prevent unauthorized access.
 
-### Разрешенные домены
+### Allowed Domains
 
-Список разрешенных доменов находится в файле `config/pipedriveConfig.ts`:
+The list of allowed domains is located in the `config/corsConfig.ts` file:
 
 ```typescript
-export const ALLOWED_DOMAINS = [
-  "localhost",
-  "127.0.0.1",
-  "mind-com.vercel.app",
-  "draftium.vercel.app",
-  "golden-fish.vercel.app",
-  "intermind.com",
-  "www.intermind.com",
-]
+export const ALLOWED_DOMAINS = ["localhost", "mind.com", "inter.mind.com", "status.mind.com", "mind-com-intermind.vercel.app"]
 ```
 
-### Как это работает
+### How it works
 
-1. **Проверка origin/referer**: Функция `isAllowedDomain()` проверяет заголовки `origin` и `referer` входящих запросов
-2. **Автоматическая защита**: Все API endpoints автоматически проверяют домен перед обработкой запроса
-3. **Fallback логика**: Если `origin` недоступен, проверяется `referer`
-4. **Локальная разработка**: `localhost` и `127.0.0.1` разрешены для локальной разработки
+1. **Origin/referer check**: The `isAllowedDomain()` function checks the `origin` and `referer` headers of incoming requests
+2. **Automatic protection**: All API endpoints automatically verify the domain before processing the request
+3. **Fallback logic**: If `origin` is not available, `referer` is checked
+4. **Local development**: `localhost` is allowed for local development
 
-### Защищенные endpoints
+### Protected endpoints
 
-- `POST /api/signUp` - Регистрация пользователей
-- `POST /api/submitForm` - Отправка форм
-- `GET /api/demo/get` - Демо endpoint
-- `POST /api/demo/handler` - Демо handler
+- `POST /api/signUp` - User registration
+- `POST /api/submitForm` - Form submission
+- `GET /api/demo/get` - Demo endpoint
+- `POST /api/demo/handler` - Demo handler
 
-### Ошибка доступа
+### Access error
 
-При попытке доступа с неразрешенного домена возвращается:
+When attempting to access from a non-allowed domain, the following is returned:
 
 ```json
 {
@@ -45,20 +37,20 @@ export const ALLOWED_DOMAINS = [
 }
 ```
 
-Статус код: `403 Forbidden`
+Status code: `403 Forbidden`
 
-### Добавление новых доменов
+### Adding new domains
 
-Чтобы добавить новый разрешенный домен:
+To add a new allowed domain:
 
-1. Откройте `config/pipedriveConfig.ts`
-2. Добавьте домен в массив `ALLOWED_DOMAINS`
-3. Сохраните файл
+1. Open `config/corsConfig.ts`
+2. Add the domain to the `ALLOWED_DOMAINS` array
+3. Save the file
 
-**Важно**: Указывайте только hostname без протокола (например, `example.com`, а не `https://example.com`)
+**Important**: Specify only the hostname without protocol (e.g., `example.com`, not `https://example.com`)
 
-### Особенности
+### Features
 
-- **Прямые запросы**: Если нет `origin` и `referer` заголовков, запрос разрешается (для случаев серверных запросов)
-- **Логирование**: Невалидные URL в заголовках логируются как предупреждения
-- **Регистронезависимость**: Проверка доменов учитывает регистр
+- **Direct requests**: If there are no `origin` and `referer` headers, the request is allowed (for server-side request cases)
+- **Logging**: Unauthorized access attempts are logged with warnings showing the domain and header type
+- **Case sensitivity**: Domain verification is case-sensitive

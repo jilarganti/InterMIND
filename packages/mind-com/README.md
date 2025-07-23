@@ -284,20 +284,48 @@ The project uses:
 
 ## Integrations
 
+### API Security
+
+All API endpoints are protected by domain verification. See [SECURITY.md](api/SECURITY.md) for detailed security configuration and allowed domains.
+
 ### Pipedrive CRM
 
-API endpoint `/api/mind-com/createContactAndLead` creates contacts and leads:
+API endpoints for CRM integration. Configuration settings are defined in [pipedriveConfig.ts](api/config/pipedriveConfig.ts).
+
+**Available endpoints:**
+
+- `POST /api/signUp` - User registration with lead creation
+- `POST /api/submitForm` - Contact form submission with lead creation
 
 ```typescript
-// Usage example
-const response = await fetch("/api/mind-com/createContactAndLead", {
+// Sign up example
+const response = await fetch("/api/signUp", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({
     name: "John Doe",
     email: "john@example.com",
-    webSite: "https://example.com",
+    params: {
+      plan: "Pro",
+      method: "Google",
+    },
+    utm: {
+      source: "website",
+      medium: "organic",
+    },
+  }),
+})
+
+// Contact form example
+const response = await fetch("/api/submitForm", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({
+    name: "John Doe",
+    email: "john@example.com",
+    kind: "Demo Request",
     message: "Interested in your service",
+    webSite: "https://example.com",
   }),
 })
 ```
