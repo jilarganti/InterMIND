@@ -5,6 +5,22 @@ export default defineConfig({
   test: {
     globals: true,
     environment: "jsdom",
+    coverage: {
+      provider: "v8",
+      reporter: ["text", "html", "lcov"],
+      exclude: [
+        "coverage/**",
+        "dist/**",
+        "node_modules/**",
+        "__tests__/**",
+        "**/*.d.ts",
+        "docs/**",
+        "scripts/**",
+        "api/demo/**",
+        // Don't count mocked modules in coverage
+        "**/pipedriveLib.ts",
+      ],
+    },
   },
   resolve: {
     // alias: {
