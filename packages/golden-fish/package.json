@@ -4,14 +4,24 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vitepress dev docs",
+    "dev:FE": "vitepress dev docs",
+    "dev:BE": "vercel dev",
+    "dev": "pnpm dev:FE & pnpm dev:BE",
     "build": "vitepress build docs",
-    "translate": "node --no-deprecation ../../scripts/translate.js ./scripts/translateConfig.js",
+    "translate": "node ../../scripts/translate.js ./scripts/translateConfig.js",
+    "test": "vitest --run --coverage",
+    "test:unit": "vitest --run __tests__/unit",
+    "test:watch": "vitest",
     "test:traffic-sources": "node --experimental-specifier-resolution=node --loader ts-node/esm __tests__/test-traffic-sources.ts",
     "format": "prettier -w .",
-    "lint": "pnpm eslint --cache ."
+    "lint": "pnpm eslint --cache .",
+    "prepare": "simple-git-hooks"
   },
   "dependencies": {
     "shared": "workspace:*"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm --filter mind-com format",
+    "pre-push": "pnpm --filter mind-com test && pnpm --filter mind-com build"
   }
 }
