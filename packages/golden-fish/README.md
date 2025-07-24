@@ -1,39 +1,53 @@
-# Mind.com
+# Golden Fish
 
-Platform for real-time speech translation in video calls. Eliminates language barriers for international teams.
+Start efficiently 🌱 doing business in UAE! Expert company formation and support services with comprehensive multilingual documentation.
 
 ## Project Description
 
-Mind.com is a VitePress website with multilingual support, integrated with Pipedrive CRM and OAuth authorization. The project includes:
+Golden Fish is a VitePress website providing UAE business formation services, integrated with Pipedrive CRM and AI-powered chat support. The project includes:
 
-- 📄 VitePress documentation with support for 12+ languages
-- 🔗 API endpoints for CRM integration
-- 🚀 OAuth authorization through external service
-- 📝 Contact forms with lead submission to Pipedrive
+- 📄 VitePress documentation with support for 19+ languages
+- 🇦🇪 Complete UAE company formation guidance
+- 🔗 API endpoints for CRM integration and AI chat
+- � Contact forms with lead submission to Pipedrive
 - 📊 Google Analytics integration via GTM
+- 🤖 AI-powered business consultation chat
 
 ## Project Structure
 
 ```
-packages/mind-com/
+packages/golden-fish/
 ├── docs/                           # VitePress documentation
 │   ├── .vitepress/
 │   │   ├── config/                 # VitePress configuration
 │   │   │   ├── i18n/              # Localization configurations
-│   │   │   ├── en.ts              # English localization
-│   │   │   └── shared.ts          # Shared settings
+│   │   │   ├── index.ts           # Main config
+│   │   │   ├── shared.ts          # Shared settings
+│   │   │   ├── locales.ts         # Locale configurations
+│   │   │   └── gtm.config.ts      # Google Tag Manager
 │   │   └── theme/                 # Custom theme
 │   │       ├── components/        # Vue components
 │   │       ├── composables/       # Vue composables
 │   │       └── styles/           # CSS styles
 │   ├── en/                        # English content
-│   └── i18n/                      # Translations to other languages
+│   ├── i18n/                      # Translations to other languages
+│   └── public/                    # Static assets
 ├── api/                           # Vercel API endpoints
-│   ├── mind-com/
-│   │   └── createContactAndLead.ts # CRM integration
-│   └── lib/                       # API utilities
+│   ├── AIChat/                    # AI chat functionality
+│   ├── CRM/                       # CRM utilities
+│   ├── config/                    # API configuration
+│   ├── lib/                       # API utilities
+│   ├── types/                     # TypeScript definitions
+│   ├── createContactAndLead.js    # CRM integration
+│   ├── submitForm.ts              # Contact form handler
+│   ├── signUp.ts                  # User registration
+│   ├── chat.js                    # AI chat endpoint
+│   └── search-images.js           # Image search API
 ├── scripts/                       # Automation scripts
+│   └── translateConfig.js         # Translation configuration
 └── __tests__/                     # Tests
+    ├── unit/                      # Unit tests
+    └── README.md                  # Testing documentation
 ```
 
 ## Configuration Constants
@@ -44,33 +58,29 @@ The project uses configuration constants defined in `docs/.vitepress/config/inde
 
 ```typescript
 // Site URL (production domain)
-const SITE_URL = "https://mind.com"
+const SITE_URL = "https://goldenfish.ae"
 
 // Pages to exclude from indexing and sitemap
-const NOINDEX_PAGES = ["exp/", "chat"]
+const NOINDEX_PAGES = ["company-registration/fees-timelines", "include/recommended-banks", "test", "chat"]
 
 // Right-to-left languages
 const RTL_LOCALES = ["ar", "fa", "ur"]
+
+// UTM parameters to preserve
+const UTM_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "campaign_id"]
 ```
 
 ### Domain Configuration
 
 ```typescript
-// Main application domains
-const APP_DOMAIN = "inter.mind.com" // Production domain
-const APP_DOMAIN_DEV = "dev.inter.mind.com" // Development domain
+// Base URL configuration (auto-detected from Vercel environment)
+const hostUrl = "https://goldenfish.ae"
+const baseUrl = vercelUrl ? `https://${vercelUrl}` : "http://localhost:3000"
 ```
 
 ### OAuth Configuration
 
-```typescript
-// OAuth client ID (public, safe to expose)
-const oauthClientId = "vca"
-
-// OAuth endpoints (auto-generated based on environment)
-const oauthProviderUrl = appBaseUrl + "/auth"
-const checkoutUrl = appBaseUrl + "/checkout"
-```
+_Note: This project does not use OAuth authentication. Instead, it provides direct contact forms and AI chat consultation._
 
 ### Environment Variables
 
@@ -107,30 +117,24 @@ To adapt the project for your domain:
 1. **Update domain constants:**
 
    ```typescript
-   const APP_DOMAIN = "your-domain.com"
-   const APP_DOMAIN_DEV = "dev.your-domain.com"
+   const hostUrl = "https://your-domain.com"
    ```
 
-2. **Update site URL:**
+2. **Configure CRM integration:**
 
    ```typescript
-   const SITE_URL = "https://your-docs-site.com"
+   // Update in api/config/corsConfig.ts
+   export const ALLOWED_DOMAINS = ["localhost", "your-domain.com", "status.your-domain.com"]
    ```
 
-3. **Configure OAuth client:**
-
-   ```typescript
-   const oauthClientId = "your-oauth-client-id"
-   ```
-
-4. **Set environment variables in Vercel:**
+3. **Set environment variables in Vercel:**
    - `GTM_ID`: Your Google Tag Manager ID
    - `VERCEL_ENV`: Set automatically by Vercel
    - `PIPEDRIVE_API_TOKEN`: Your Pipedrive API token
 
 ## Vercel Integration
 
-The project is designed to run on Vercel, utilizing its serverless functions for API endpoints and static site generation for the documentation. The Vercel configuration is located in `packages/mind-com/vercel.json`.
+The project is designed to run on Vercel, utilizing its serverless functions for API endpoints and static site generation for the documentation. The Vercel configuration is located in `packages/golden-fish/vercel.json`.
 
 ### Project Settings
 
@@ -140,7 +144,7 @@ The project is designed to run on Vercel, utilizing its serverless functions for
 
 ![alt text](docs/public/vercel-env-variables.png)
 
-Environment variables are automatically loaded by `vercel pull` command into `packages/mind-com/.vercel/.env.development.local`:
+Environment variables are automatically loaded by `vercel pull` command into `packages/golden-fish/.vercel/.env.development.local`:
 
 ```bash
 # Pipedrive CRM
@@ -149,10 +153,11 @@ PIPEDRIVE_API_TOKEN=your_pipedrive_token
 # Vercel environment
 VERCEL_ENV=development|preview|production
 
-# OAuth settings (configured automatically through code)
-# Domains are determined from VERCEL_ENV:
-# - production: inter.mind.com
-# - development: dev.inter.mind.com
+# Google Tag Manager
+GTM_ID=your_gtm_id
+
+# AI Chat configuration (if applicable)
+# Additional environment variables for AI services
 ```
 
 ## Development
@@ -191,7 +196,7 @@ VERCEL_ENV=development|preview|production
 
    ```bash
    # Downloads variables from Vercel project
-   # Creates packages/mind-com/.vercel/.env.development.local
+   # Creates packages/golden-fish/.vercel/.env.development.local
    vercel pull
    ```
 
@@ -201,17 +206,29 @@ VERCEL_ENV=development|preview|production
 
 ```bash
 # Run frontend only (without API)
-pnpm dev
+pnpm dev:FE
 
 # Available at http://localhost:5173
 ```
 
+#### Mode 2: Full Vercel development
+
 ```bash
 # Run with API endpoints and full Vercel simulation
-vercel dev
+pnpm dev:BE
 
 # Available at http://localhost:3000
 # API endpoints work at /api/*
+```
+
+#### Mode 3: Combined development
+
+```bash
+# Run both frontend and backend simultaneously
+pnpm dev
+
+# Frontend: http://localhost:5173
+# Backend: http://localhost:3000
 ```
 
 Vercel dev provides:
@@ -225,10 +242,25 @@ Vercel dev provides:
 
 ```bash
 # Production build
-vercel [--prod]
+pnpm build
 
 # Translate content to all languages
 pnpm translate
+
+# Run tests
+pnpm test
+
+# Run tests in watch mode
+pnpm test:watch
+
+# Run specific test suites
+pnpm test:unit
+
+# Format code
+pnpm format
+
+# Lint code
+pnpm lint
 ```
 
 ## Deployment
@@ -253,7 +285,7 @@ The project uses:
 
 - **Build Command:** `pnpm build` (automatically detected)
 - **Output Directory:** `docs/.vitepress/dist`
-- **Root Directory:** `packages/mind-com`
+- **Root Directory:** `packages/golden-fish`
 - **Node.js Version:** 22.x (automatic)
 
 #### vercel.json settings:
@@ -296,6 +328,8 @@ API endpoints for CRM integration. Configuration settings are defined in [pipedr
 
 - `POST /api/signUp` - User registration with lead creation
 - `POST /api/submitForm` - Contact form submission with lead creation
+- `POST /api/chat` - AI-powered business consultation
+- `GET /api/search-images` - Image search functionality
 
 ```typescript
 // Sign up example
@@ -339,12 +373,13 @@ Comprehensive test suite for API endpoints and utilities. See [**tests**/README.
 - Integration tests for end-to-end traffic flow validation
 - Coverage reporting and CI/CD integration
 
-### OAuth Authorization
+### AI Chat Integration
 
-`AuthButton` component handles OAuth flow:
+`AI Chat` functionality provides business consultation:
 
-- **Development:** `https://dev.inter.mind.com/auth`
-- **Production:** `https://inter.mind.com/auth`
+- **UAE Business Expertise:** Specialized knowledge about UAE company formation
+- **Real-time Assistance:** Instant responses to business queries
+- **Multilingual Support:** Available in 19+ languages
 
 ### Google Analytics
 
@@ -360,15 +395,23 @@ Supported languages:
 - 🇺🇸 English (primary)
 - 🇪🇸 Español
 - 🇨🇳 中文
-- 🇩🇪 Deutsch
-- 🇫🇷 Français
-- 🇧🇷 Português
-- 🇯🇵 日本語
-- 🇦🇪 العربية
-- 🇮🇳 हिन्दी
-- 🇹🇷 Türkçe
-- 🇰🇷 한국어
-- 🇷🇺 Русский
+- �� বাংলা (Bengali)
+- �� العربية (Arabic)
+- 🇮🇳 हिन्दी (Hindi)
+- 🇯🇵 日本語 (Japanese)
+- 🇧🇷 Português (Portuguese)
+- �� Русский (Russian)
+- ��🇦 Українська (Ukrainian)
+- �🇰 اردو (Urdu)
+- 🇮🇳 മലയാളം (Malayalam)
+- 🇮🇳 தமிழ் (Tamil)
+- 🇮🇷 فارسی (Persian)
+- 🇫🇷 Français (French)
+- 🇹🇷 Türkçe (Turkish)
+- 🇰🇷 한국어 (Korean)
+- 🇮🇩 Indonesian
+- 🇻🇳 Vietnamese
+- �� తెలుగు (Telugu)
 
 Localization configuration is located in `docs/.vitepress/config/locales.ts`.
 
@@ -391,16 +434,24 @@ export const config = {
   // Supported languages
   languages: {
     ar: { code: "ar", name: "Gulf Arab & MSA" },
+    bn: { code: "bn", name: "Bengali" },
     zh: { code: "zh", name: "Mandarin" },
-    es: { code: "es", name: "Spanish (México)" },
+    es: { code: "es", name: "Spanish" },
     hi: { code: "hi", name: "Hindi" },
     ja: { code: "ja", name: "Japanese" },
-    pt: { code: "pt", name: "Portuguese (Brazil)" },
+    pt: { code: "pt", name: "Brazilian Portuguese" },
     ru: { code: "ru", name: "Russian" },
-    de: { code: "de", name: "German" },
+    uk: { code: "uk", name: "Ukrainian" },
+    ur: { code: "ur", name: "Urdu" },
+    ml: { code: "ml", name: "Malayalam" },
+    ta: { code: "ta", name: "Tamil" },
+    fa: { code: "fa", name: "Persian" },
     fr: { code: "fr", name: "French" },
     tr: { code: "tr", name: "Turkish" },
     ko: { code: "ko", name: "Korean" },
+    id: { code: "id", name: "Indonesian" },
+    vi: { code: "vi", name: "Vietnamese" },
+    te: { code: "te", name: "Telugu" },
   },
 
   // AI models for translation
@@ -439,8 +490,8 @@ The script can:
 
 **Not translated:**
 
-- Technical terms (API, OAuth, etc.)
-- Product names (InterMIND, Pipedrive)
+- Technical terms (API, CRM, UAE, etc.)
+- Company names (Golden Fish, Pipedrive)
 - Link anchors and URLs
 - Code and technical configuration
 
@@ -449,12 +500,13 @@ The script can:
 - All user-facing content
 - Meta tags for SEO
 - Image alt text
-- Tables and diagrams
+- Tables and business guides
+- UAE business terminology with cultural context
 
 ## Monitoring
 
 - **Analytics:** Vercel Analytics + Speed Insights
-- **Status page:** https://status.mind.com/
+- **Status page:** https://status.goldenfish.ae/ (if configured)
 - **Error tracking:** Built into Vercel
 
 ## Troubleshooting
@@ -484,9 +536,7 @@ cat docs/.vitepress/config/locales.ts
 
 ### OAuth Issues
 
-1. Check domain settings in code
-2. Ensure `VERCEL_ENV` is set correctly
-3. Verify redirect URI in OAuth provider
+_Note: This project does not use OAuth authentication. If you experience authentication issues, check the contact forms and AI chat functionality instead._
 
 ## License
 
