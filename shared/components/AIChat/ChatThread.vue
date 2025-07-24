@@ -59,7 +59,7 @@ const imageLoader = new ImageLoader((messageIndex, placeholder, imageHtml) => {
 
 // Создаем новый chat с помощью useChat
 const { messages, input, handleSubmit, status, error, stop, setMessages } = useChat({
-  api: "/api/chat",
+  api: "/api/AIChat/chat",
   id: chatSessionId.value,
   initialMessages: chatsStore.getMessages(props.chatId),
   body: {

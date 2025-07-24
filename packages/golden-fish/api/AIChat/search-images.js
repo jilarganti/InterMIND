@@ -1,5 +1,5 @@
 // api/search-images.js
-import { searchImages } from "./AIChat/image-service.js"
+import { searchImages } from "./image-service.js"
 
 /**
  * Нормализует поисковый запрос для стабильного кеширования

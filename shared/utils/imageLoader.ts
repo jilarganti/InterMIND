@@ -111,7 +111,7 @@ export class ImageLoader {
    */
   private loadImage(query: string, messageIndex: number) {
     // Запрашиваем сразу 5 изображений
-    const imagePromise = fetch(`/api/search-images?q=${encodeURIComponent(query)}&limit=5`)
+    const imagePromise = fetch(`/api/AIChat/search-images?q=${encodeURIComponent(query)}&limit=5`)
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Ошибка поиска изображения: ${response.status} ${response.statusText}`)
