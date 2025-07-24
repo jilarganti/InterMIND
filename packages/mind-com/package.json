@@ -20,11 +20,6 @@
   "dependencies": {
     "shared": "workspace:*"
   },
-  "devDependencies": {
-    "vitest": "^1.6.0",
-    "jsdom": "^24.1.0",
-    "@vitest/coverage-v8": "^1.6.0"
-  },
   "simple-git-hooks": {
     "pre-commit": "pnpm --filter mind-com format",
     "pre-push": "pnpm --filter mind-com test && pnpm --filter mind-com build"
