@@ -55,8 +55,8 @@ export interface DataLayerEvent {
 export interface SignUpLead {
   email: string // User email (required)
   name: string // Name or full name (optional)
-  url?: string // Form submission page URL
-  utm?: UtmParams // UTM parameters object (for CRM, not for dataLayer)
+  // url?: string // Form submission page URL
+  utm: UtmParams // UTM parameters object (for CRM, not for dataLayer)
   params: {
     method: RegistrationMethod // Registration method (Google, Microsoft, email)
     plan: PricingPlan // Selected pricing plan

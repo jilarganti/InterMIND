@@ -30,7 +30,7 @@ export async function POST(request: Request) {
       lead: {
         title: "sign_up",
         kind: data.name,
-        message: "Plan: " + data.params.plan + "; Method: " + data.params.method + "; Source: " + data.utm.source + "; Campaign: " + data.utm.campaign,
+        message: "Plan: " + data.params.plan + "; Method: " + data.params.method + "; Source: " + data.utm.source + "; Campaign: " + data.utm.campaign + ";",
         sourceChannel: Channel.WEB_VISITORS, // Use "Web visitors" channel for sign-up
       },
       contact: {

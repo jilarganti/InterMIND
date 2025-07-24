@@ -67,6 +67,10 @@ const login = (event: Event): void => {
   const leadData: SignUpLead = {
     email: `[${props.text}]`,
     name: props.eventName,
+    utm: {
+      source: "website",
+      campaign: "auth_button_click",
+    },
     params: {
       method: undefined,
       plan: "Basic",
