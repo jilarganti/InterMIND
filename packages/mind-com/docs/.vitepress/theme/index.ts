@@ -8,7 +8,6 @@ import { inject } from "@vercel/analytics"
 import { injectSpeedInsights } from "@vercel/speed-insights"
 import AuthButton from "./components/AuthButton.vue"
 import ContactForm from "./components/ContactForm.vue"
-
 import "./styles/index.css"
 
 // Добавляем элементы в макет

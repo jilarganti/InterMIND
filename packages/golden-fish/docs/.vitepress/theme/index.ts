@@ -1,8 +1,14 @@
 import { h } from "vue"
+import { type App } from "vue"
 import DefaultTheme from "vitepress/theme"
-import "./style.css"
+import { useData, inBrowser } from "vitepress"
 import { components } from "shared"
 import sharedTheme from "shared"
+import ContactForm from "./components/ContactForm.vue"
+import { Icon } from "@iconify/vue"
+import { inject } from "@vercel/analytics"
+import { injectSpeedInsights } from "@vercel/speed-insights"
+import "./style.css"
 
 const { ContactFormModalNav, NavButton, SearchInput } = components
 
@@ -45,5 +51,22 @@ export default {
       },
     })
   },
-  // <<< NO enhanceApp function is defined here >>>
+  // Расширяем тему из shared и регистрируем компоненты
+  enhanceApp({ app, router }: { app: App; router: any }) {
+    // Регистрация компонентов из shared
+    if (sharedTheme.enhanceApp) {
+      sharedTheme.enhanceApp({ app, router })
+    }
+    // Регистрация моих компонентов пакета
+    app.component("ContactForm", ContactForm)
+
+    // Регистрация внешних компонентов пакета
+    app.component("Icon", Icon)
+
+    // Vercel Analytics
+    if (inBrowser) {
+      inject()
+      injectSpeedInsights()
+    }
+  },
 }
