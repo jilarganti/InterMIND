@@ -325,7 +325,7 @@ const response = await fetch("/api/submitForm", {
     email: "john@example.com",
     kind: "Demo Request",
     message: "Interested in your service",
-    webSite: "https://example.com",
+    phone: "+1234567890",
   }),
 })
 ```

@@ -33,7 +33,7 @@ describe("submitForm API endpoint", () => {
     const formData: SubmitForm = {
       name: "John Doe",
       email: "john@example.com",
-      webSite: "https://example.com",
+      phone: "+1234567890",
       kind: "Contact Us",
       message: "I am interested in your services",
     }
@@ -70,7 +70,7 @@ describe("submitForm API endpoint", () => {
         lead: {
           title: "John Doe",
           kind: "Contact Us",
-          message: "I am interested in your services 🌎 https://example.com",
+          message: "I am interested in your services ☎️ +1234567890",
           sourceChannel: "Web forms",
         },
         contact: {
@@ -82,7 +82,7 @@ describe("submitForm API endpoint", () => {
     )
   })
 
-  it("should handle form data without website", async () => {
+  it("should handle form data without phone", async () => {
     // Arrange
     const formData: SubmitForm = {
       name: "Jane Smith",
@@ -265,12 +265,12 @@ describe("submitForm API endpoint", () => {
     expect(response.headers.get("Content-Type")).toBe("application/json")
   })
 
-  it("should append website URL to message with emoji", async () => {
+  it("should append phone number to message with emoji", async () => {
     // Arrange
     const formData: SubmitForm = {
-      name: "Website Test",
-      email: "website@example.com",
-      webSite: "https://mycompany.com",
+      name: "Phone Test",
+      email: "phone@example.com",
+      phone: "+1-555-123-4567",
       kind: "Business Inquiry",
       message: "Looking for partnership opportunities",
     }
@@ -293,7 +293,7 @@ describe("submitForm API endpoint", () => {
     expect(mockCreateContactAndLead).toHaveBeenCalledWith(
       expect.objectContaining({
         lead: expect.objectContaining({
-          message: "Looking for partnership opportunities 🌎 https://mycompany.com",
+          message: "Looking for partnership opportunities ☎️ +1-555-123-4567",
         }),
       }),
       request,

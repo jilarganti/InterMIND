@@ -15,10 +15,8 @@ describe("corsConfig", () => {
   describe("ALLOWED_DOMAINS", () => {
     it("should contain expected domains", () => {
       expect(ALLOWED_DOMAINS).toContain("localhost")
-      expect(ALLOWED_DOMAINS).toContain("mind.com")
-      expect(ALLOWED_DOMAINS).toContain("inter.mind.com")
-      expect(ALLOWED_DOMAINS).toContain("status.mind.com")
-      expect(ALLOWED_DOMAINS).toContain("i14n.com")
+      expect(ALLOWED_DOMAINS).toContain("goldenfish.ae")
+      expect(ALLOWED_DOMAINS).toContain("status.goldenfish.ae")
     })
 
     it("should be an array of strings", () => {
@@ -44,7 +42,7 @@ describe("corsConfig", () => {
     it("should allow requests from allowed origin domains", () => {
       const request = new Request("https://test.com", {
         headers: {
-          "origin": "https://mind.com",
+          "origin": "https://goldenfish.ae",
         },
       })
 
@@ -67,10 +65,10 @@ describe("corsConfig", () => {
       expect(consoleSpy).not.toHaveBeenCalled()
     })
 
-    it("should allow requests from inter.mind.com", () => {
+    it("should allow requests from status.goldenfish.ae", () => {
       const request = new Request("https://test.com", {
         headers: {
-          "origin": "https://inter.mind.com",
+          "origin": "https://status.goldenfish.ae",
         },
       })
 
@@ -109,7 +107,7 @@ describe("corsConfig", () => {
     it("should allow requests from allowed referer domains when no origin", () => {
       const request = new Request("https://test.com", {
         headers: {
-          "referer": "https://mind.com/page",
+          "referer": "https://goldenfish.ae/page",
         },
       })
 
@@ -161,7 +159,7 @@ describe("corsConfig", () => {
     it("should prefer origin over referer when both are present", () => {
       const request = new Request("https://test.com", {
         headers: {
-          "origin": "https://mind.com",
+          "origin": "https://goldenfish.ae",
           "referer": "https://evil.com/page",
         },
       })
@@ -176,7 +174,7 @@ describe("corsConfig", () => {
       const request = new Request("https://test.com", {
         headers: {
           "origin": "https://bad.com",
-          "referer": "https://mind.com/page",
+          "referer": "https://goldenfish.ae/page",
         },
       })
 
@@ -205,7 +203,7 @@ describe("corsConfig", () => {
     it("should handle subdomain scenarios correctly", () => {
       const request = new Request("https://test.com", {
         headers: {
-          "origin": "https://status.mind.com",
+          "origin": "https://status.goldenfish.ae",
         },
       })
 
@@ -231,13 +229,13 @@ describe("corsConfig", () => {
     it("should handle https vs http protocols correctly", () => {
       const httpsRequest = new Request("https://test.com", {
         headers: {
-          "origin": "https://mind.com",
+          "origin": "https://goldenfish.ae",
         },
       })
 
       const httpRequest = new Request("https://test.com", {
         headers: {
-          "origin": "http://mind.com",
+          "origin": "http://goldenfish.ae",
         },
       })
 
@@ -249,14 +247,14 @@ describe("corsConfig", () => {
     it("should deny unauthorized subdomains", () => {
       const request = new Request("https://test.com", {
         headers: {
-          "origin": "https://fake.mind.com",
+          "origin": "https://fake.goldenfish.ae",
         },
       })
 
       const result = isAllowedDomain(request)
 
       expect(result).toBe(false)
-      expect(consoleSpy).toHaveBeenCalledWith("🚫 Access denied from unauthorized domain: fake.mind.com (origin)")
+      expect(consoleSpy).toHaveBeenCalledWith("🚫 Access denied from unauthorized domain: fake.goldenfish.ae (origin)")
     })
   })
 })

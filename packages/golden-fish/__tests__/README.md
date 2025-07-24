@@ -113,7 +113,7 @@ pnpm test:traffic-sources
 
 - **submitForm.ts**: Tests for contact form endpoint (7 tests)
   - Form data processing
-  - Website URL handling
+  - Phone number handling
   - Lead generation
   - Error scenarios
 
