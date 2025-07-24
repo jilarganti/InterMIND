@@ -8,8 +8,7 @@ import fetch from "node-fetch"
 import { v4 as uuidv4 } from "uuid"
 
 // Конфигурация
-const API_ENDPOINT = process.env.API_ENDPOINT || "http://localhost:5173/api/createContactAndLead"
-const SITE_ORIGIN_ID = process.env.SITE_ORIGIN_ID || "test-origin-id"
+const API_ENDPOINT = process.env.API_ENDPOINT || "http://localhost:5173/api/signUp"
 
 // Интерфейсы для типизации данных
 interface TrafficSource {
@@ -19,18 +18,17 @@ interface TrafficSource {
   expectedSource: string
 }
 
-interface FormData {
-  name: string
+interface SignUpData {
   email: string
-  webSite: string
-  category: string
-  message: string
-  channel: string
-  channelId: string
-  originId: string
-  leadSource: string
-  countryCode: string
-  countryName: string
+  name: string
+  utm: {
+    source: string
+    campaign: string
+  }
+  params: {
+    method?: string
+    plan: string
+  }
 }
 
 interface ApiResponse {
@@ -52,37 +50,51 @@ const trafficSources: TrafficSource[] = [
   // Контекстная реклама
   {
     name: "Google Ads Search",
-    params: { utm_source: "google_ads", utm_medium: "cpc", utm_campaign: "winter_2025" },
-    expectedSource: "ADS[winter_2025]",
+    params: { utm_source: "google_ads", utm_campaign: "winter_2025" },
+    expectedSource: "google_ads[winter_2025]",
   },
   {
     name: "Google Ads Display",
-    params: { utm_source: "google_ads", utm_medium: "display", utm_campaign: "spring_promo" },
-    expectedSource: "ADS[spring_promo]",
+    params: { utm_source: "google_ads", utm_campaign: "spring_promo" },
+    expectedSource: "google_ads[spring_promo]",
   },
   {
     name: "Bing Ads",
-    params: { utm_source: "bing", utm_medium: "cpc", utm_campaign: "banking_uae" },
-    expectedSource: "ADS[banking_uae]",
+    params: { utm_source: "bing", utm_campaign: "banking_uae" },
+    expectedSource: "bing[banking_uae]",
   },
 
   // Социальные сети
   {
     name: "Facebook",
-    params: { utm_source: "facebook", utm_medium: "social", utm_campaign: "social_posts" },
-    expectedSource: "social_posts[social]",
+    params: { utm_source: "facebook", utm_campaign: "social_posts" },
+    expectedSource: "facebook[social_posts]",
   },
   {
     name: "Instagram",
-    params: { utm_source: "instagram", utm_medium: "social", utm_campaign: "stories" },
-    expectedSource: "stories[social]",
+    params: { utm_source: "instagram", utm_campaign: "stories" },
+    expectedSource: "instagram[stories]",
   },
 
   // Email маркетинг
   {
     name: "Newsletter",
-    params: { utm_source: "newsletter", utm_medium: "email", utm_campaign: "weekly_update" },
-    expectedSource: "weekly_update[email]",
+    params: { utm_source: "newsletter", utm_campaign: "weekly_update" },
+    expectedSource: "newsletter[weekly_update]",
+  },
+
+  // Только источник без кампании
+  {
+    name: "LinkedIn",
+    params: { utm_source: "linkedin" },
+    expectedSource: "linkedin",
+  },
+
+  // Только кампания без источника
+  {
+    name: "Campaign Only",
+    params: { utm_campaign: "promo_2025" },
+    expectedSource: "promo_2025",
   },
 
   // Органический поиск (через референсы)
@@ -116,19 +128,11 @@ const trafficSources: TrafficSource[] = [
  * @param sourceName - Название источника трафика
  * @returns Объект с данными формы
  */
-function createTestFormData(sourceName: string): Omit<FormData, "leadSource"> {
+function createTestSignUpData(sourceName: string): { email: string; name: string } {
   const testId = uuidv4().substring(0, 8)
   return {
     name: `[test] Traffic Source ${sourceName} - ${testId}`,
     email: `test.${testId}@example.com`,
-    webSite: "https://companyname.com/",
-    category: "Contacts",
-    message: `Автоматический тест источника трафика: ${sourceName}`,
-    channel: "Web forms",
-    channelId: "Test Script",
-    originId: SITE_ORIGIN_ID,
-    countryCode: "US",
-    countryName: "United States",
   }
 }
 
@@ -142,27 +146,34 @@ async function sendTestLead(source: TrafficSource): Promise<TestResult> {
     console.log(`🔵 Тестирование источника: ${source.name}`)
 
     // Создаем данные для формы
-    const formDataBase = createTestFormData(source.name)
-    let leadSource: string
+    const baseData = createTestSignUpData(source.name)
+    let expectedSource: string
 
     // Определяем источник на основе параметров или референса
     if (source.params) {
       // Имитируем UTM-параметры
-      leadSource = determineSourceFromUtm(source.params)
+      expectedSource = determineSourceFromUtm(source.params)
     } else if (source.referrer) {
       // Имитируем referrer
-      leadSource = determineSourceFromReferrer(source.referrer)
+      expectedSource = determineSourceFromReferrer(source.referrer)
     } else {
       // Прямой трафик
-      leadSource = "Direct"
+      expectedSource = "Direct"
     }
 
-    const formData: FormData = {
-      ...formDataBase,
-      leadSource,
+    const signUpData: SignUpData = {
+      ...baseData,
+      utm: {
+        source: source.params?.utm_source || expectedSource,
+        campaign: source.params?.utm_campaign || "direct",
+      },
+      params: {
+        method: undefined,
+        plan: "Basic",
+      },
     }
 
-    console.log(`📤 Отправка данных с источником: ${formData.leadSource}`)
+    console.log(`📤 Отправка данных с источником: ${signUpData.utm.source}[${signUpData.utm.campaign}]`)
 
     // Отправляем запрос к API
     const response = await fetch(API_ENDPOINT, {
@@ -170,18 +181,20 @@ async function sendTestLead(source: TrafficSource): Promise<TestResult> {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(formData),
+      body: JSON.stringify(signUpData),
     })
 
     const responseData = (await response.json()) as ApiResponse
 
     // Проверяем результат
+    const actualSource = `${signUpData.utm.source}${signUpData.utm.campaign !== "direct" ? `[${signUpData.utm.campaign}]` : ""}`
+
     if (responseData.success) {
-      console.log(`✅ Успешно: ${source.name} → ${formData.leadSource}`)
-      if (formData.leadSource === source.expectedSource) {
+      console.log(`✅ Успешно: ${source.name} → ${actualSource}`)
+      if (actualSource === source.expectedSource) {
         console.log(`✅ Ожидаемый источник совпадает: ${source.expectedSource}`)
       } else {
-        console.log(`⚠️ Ожидаемый источник НЕ совпадает: ожидался ${source.expectedSource}, получен ${formData.leadSource}`)
+        console.log(`⚠️ Ожидаемый источник НЕ совпадает: ожидался ${source.expectedSource}, получен ${actualSource}`)
       }
     } else {
       console.error(`❌ Ошибка: ${responseData.message}`)
@@ -190,9 +203,9 @@ async function sendTestLead(source: TrafficSource): Promise<TestResult> {
     return {
       source: source.name,
       success: responseData.success,
-      leadSource: formData.leadSource,
+      leadSource: actualSource,
       expectedSource: source.expectedSource,
-      match: formData.leadSource === source.expectedSource,
+      match: actualSource === source.expectedSource,
     }
   } catch (error) {
     const errorMessage = error instanceof Error ? error.message : String(error)
@@ -211,25 +224,21 @@ async function sendTestLead(source: TrafficSource): Promise<TestResult> {
  * @returns Источник трафика
  */
 function determineSourceFromUtm(params: Record<string, string>): string {
-  // Проверяем на контекстную рекламу
-  if (params.utm_source === "google_ads" || params.utm_medium === "cpc") {
-    if (params.utm_campaign) {
-      return `ADS[${params.utm_campaign}]`
-    }
-    return "ADS"
-  }
-
-  // Другие источники с кампаниями
-  if (params.utm_campaign) {
-    if (params.utm_medium) {
-      return `${params.utm_campaign}[${params.utm_medium}]`
-    }
-    return params.utm_campaign
-  }
-
-  // Если есть только utm_source
+  // Если есть utm_source, используем его
   if (params.utm_source) {
-    return params.utm_source
+    let source = params.utm_source
+
+    // Добавляем utm_campaign, если есть
+    if (params.utm_campaign) {
+      source += `[${params.utm_campaign}]`
+    }
+
+    return source
+  }
+
+  // Если есть только utm_campaign
+  if (params.utm_campaign) {
+    return params.utm_campaign
   }
 
   return "Unknown"

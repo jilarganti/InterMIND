@@ -4,14 +4,7 @@
  */
 
 // Список всех UTM-параметров для отслеживания
-const UTM_PARAMS = [
-  "utm_source",
-  "utm_medium",
-  "utm_campaign",
-  "utm_content",
-  "utm_term",
-  "campaign_id", // Дополнительный параметр из вашего URL
-]
+const UTM_PARAMS = ["utm_source", "utm_campaign"]
 
 // Префикс для ключей в локальном хранилище
 const STORAGE_PREFIX = "gf_utm_"
@@ -104,12 +97,12 @@ export function getSavedUtmParams(): Record<string, string> {
  * Определяет источник трафика на основе UTM-параметров и referrer
  */
 export function determineTrafficSource(): string {
-  // Сначала проверяем UTM-параметры
+  // Проверяем UTM-параметры
   const utmParams = getSavedUtmParams()
 
-  // Если есть utm_source и utm_medium для ADS
-  if (utmParams.utm_source === "google_ads" || utmParams.utm_medium === "cpc") {
-    let source = "ADS"
+  // Если есть utm_source, используем его
+  if (utmParams.utm_source) {
+    let source = utmParams.utm_source
 
     // Добавляем utm_campaign, если есть
     if (utmParams.utm_campaign) {
@@ -119,26 +112,9 @@ export function determineTrafficSource(): string {
     return source
   }
 
-  // Если есть utm_campaign, используем его в качестве основного источника
+  // Если есть только utm_campaign
   if (utmParams.utm_campaign) {
-    let source = utmParams.utm_campaign
-
-    // Добавляем utm_medium, если есть
-    if (utmParams.utm_medium) {
-      source += `[${utmParams.utm_medium}]`
-    }
-
-    // Добавляем utm_source, если есть и отличается от utm_medium
-    if (utmParams.utm_source && utmParams.utm_source !== utmParams.utm_medium) {
-      source += `[${utmParams.utm_source}]`
-    }
-
-    return source
-  }
-
-  // Если есть campaign_id, используем его
-  if (utmParams.campaign_id) {
-    return `campaign[${utmParams.campaign_id}]`
+    return utmParams.utm_campaign
   }
 
   // Если нет referrer - это прямой трафик
@@ -152,6 +128,18 @@ export function determineTrafficSource(): string {
   const isOrganic = searchEngines.some((engine) => referrer.includes(engine))
 
   return isOrganic ? "Organic" : "Referral"
+}
+
+/**
+ * Получает UTM-параметры в формате для API
+ */
+export function getUtmForApi(): { source: string; campaign: string } {
+  const utmParams = getSavedUtmParams()
+
+  return {
+    source: utmParams.utm_source || determineTrafficSource(),
+    campaign: utmParams.utm_campaign || "direct",
+  }
 }
 
 /**

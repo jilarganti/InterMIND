@@ -22,6 +22,7 @@
 import { nanoid } from "nanoid"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 import { SignUpLead } from "../../../../api/types/pipedriveFields.js"
+import { getUtmForApi } from "../../../../../../shared/utils/utm.js"
 
 const REDIRECT_AFTER_AUTH_URI_KEY = "redirect_after_auth"
 
@@ -64,13 +65,12 @@ const login = (event: Event): void => {
    * Создаем лид для CRM и событие для аналитики
    * TODO: удалить после внедрения и тестирования в продукте
    */
+  const utmParams = getUtmForApi()
+
   const leadData: SignUpLead = {
     email: `[${props.text}]`,
     name: props.eventName,
-    utm: {
-      source: "website",
-      campaign: "auth_button_click",
-    },
+    utm: utmParams,
     params: {
       method: undefined,
       plan: "Basic",
