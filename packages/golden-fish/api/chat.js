@@ -120,7 +120,7 @@ async function getContent(filePath, tag) {
   const baseUrl = "https://" + (process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL)
   let content
 
-  if (process.env.VERCEL_ENV === "dev") {
+  if (process.env.VERCEL_ENV === "development") {
     content = fs.readFileSync(filePath, "utf8")
   } else {
     // Находим в пути "/dist/" и отсекаем всё до и включая
