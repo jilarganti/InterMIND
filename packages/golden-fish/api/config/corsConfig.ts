@@ -13,7 +13,7 @@
  */
 
 // Allowed domains for API endpoints
-export const ALLOWED_DOMAINS = ["localhost", "mind.com", "inter.mind.com", "status.mind.com", "i14n.com"]
+export const ALLOWED_DOMAINS = ["localhost", "goldenfish.ae", "status.goldenfish.ae"]
 
 // Function to check allowed domain
 export function isAllowedDomain(request: Request): boolean {

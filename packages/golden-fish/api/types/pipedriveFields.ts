@@ -21,9 +21,7 @@ interface Params {
 interface LeadFields {
   title: string // Заголовок лида
   url?: string // Form submission page URL
-  // utm?: UtmParams // UTM parameters object
   kind: string // Категория лида, определяется селектором формы
-  // params?: string // Параметры лида
   message?: string // Сообщение или комментарий к лиду
 }
 
@@ -44,7 +42,6 @@ export interface DataLayerEvent {
   event: AnalyticsEvent // Event name
   method?: RegistrationMethod // Registration method (Google, Microsoft, email)
   plan?: PricingPlan // Selected pricing plan
-  // utm?: UtmParams // UTM parameters object (for CRM, not for dataLayer)
   kind: string // Category of the lead, determined by the form selector
 }
 
@@ -55,7 +52,6 @@ export interface DataLayerEvent {
 export interface SignUpLead {
   email: string // User email (required)
   name: string // Name or full name (optional)
-  // url?: string // Form submission page URL
   utm: UtmParams // UTM parameters object (for CRM, not for dataLayer)
   params: {
     method: RegistrationMethod // Registration method (Google, Microsoft, email)
@@ -70,7 +66,7 @@ export interface SignUpLead {
 export interface SubmitForm {
   name?: string
   email: string
-  webSite?: string
+  phone?: string
   kind: string
   message: string
 }

@@ -64,7 +64,7 @@ const formData = ref<SubmitForm>({
   message: "",
 })
 
-const { name, namePlaceholder, webSite, webSitePlaceholder, email, emailPlaceholder, submit, sending, successTitle, successMessage } =
+const { name, namePlaceholder, phone, phonePlaceholder, email, emailPlaceholder, submit, sending, successTitle, successMessage } =
   site.value.themeConfig.contact_form
 
 onClickOutside(modalContainerRef, () => {
@@ -137,8 +137,16 @@ const closeModal = () => {
             </div>
 
             <div>
-              <label for="webSite">{{ webSite }}</label>
-              <input name="webSite" type="url" v-model="formData.webSite" :placeholder="webSitePlaceholder" required pattern="https?://.+" maxlength="100" />
+              <label for="phone">{{ phone }}</label>
+              <input
+                name="phone"
+                type="tel"
+                v-model="formData.phone"
+                :placeholder="phonePlaceholder"
+                required
+                pattern="^(\+\d{1,4}[\s\-]?|\(\d{1,4}\)[\s\-]?|\d{1,4}[\s\-])[\d\s\-]{8,16}$"
+                maxlength="20"
+              />
             </div>
 
             <div>

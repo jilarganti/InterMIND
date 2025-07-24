@@ -10,7 +10,7 @@ import { inject } from "@vercel/analytics"
 import { injectSpeedInsights } from "@vercel/speed-insights"
 import "./style.css"
 
-const { ContactFormModalNav, NavButton, SearchInput } = components
+const { NavButton, SearchInput } = components
 
 // Расширяем тему из shared и регистрируем компоненты
 export default {

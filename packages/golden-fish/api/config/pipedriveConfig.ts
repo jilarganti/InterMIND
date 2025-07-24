@@ -15,10 +15,9 @@
 
 // Custom field IDs for leads
 export const CUSTOM_LEAD_FIELD = {
-  KIND: "ec30e5d548a40d6588bf2e1f06ec07cca7b4cc77",
-  MESSAGE: "381414c380220bf1d26ce7b7bdc6e6ff08e20e04",
-  URL: "da3aa18ff6128966544ff359f07aebedc047b2e2",
-  PARAMS: "5f55bbf5ed50e7a0952f7c7211de22e7ffcb70f5",
+  KIND: "8464d8373190f2251c5e1e8c035d75ddb8ef52e2",
+  MESSAGE: "baa8db361de3fa51e24c8e18c7d2271643635ba9",
+  URL: "bcf617c56c755e11604aea1ed230d695cd5c2735",
 }
 
 // Enumeration of possible channels

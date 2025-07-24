@@ -30,7 +30,7 @@ export async function POST(request: Request) {
       lead: {
         title: data.name,
         kind: data.kind,
-        message: data.message + (data.webSite ? " 🌎 " + data.webSite : ""),
+        message: data.message + (data.phone ? " ☎️ " + data.phone : ""),
         sourceChannel: Channel.WEB_FORMS,
       },
       contact: {
