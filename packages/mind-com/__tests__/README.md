@@ -1,5 +1,7 @@
 # Unit Tests
 
+[![Tests](https://github.com/jilarganti/GoldenFishProject/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/jilarganti/GoldenFishProject/actions/workflows/test.yml)
+
 This directory contains comprehensive unit tests for the Mind-Com API endpoints and utilities.
 
 ## Test Statistics
@@ -52,8 +54,8 @@ __tests__/
 
 The project includes git hooks that automatically run tests:
 
-- **Pre-commit**: Runs code formatting and all tests before each commit
-- **Pre-push**: Runs build process before pushing to remote
+- **Pre-commit**: Runs code formatting before each commit
+- **Pre-push**: Runs tests and build process before pushing to remote
 
 To set up git hooks, run:
 

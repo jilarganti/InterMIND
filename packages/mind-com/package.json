@@ -26,7 +26,7 @@
     "@vitest/coverage-v8": "^1.6.0"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm --filter mind-com format && pnpm --filter mind-com test",
-    "pre-push": "pnpm --filter mind-com build"
+    "pre-commit": "pnpm --filter mind-com format",
+    "pre-push": "pnpm --filter mind-com test && pnpm --filter mind-com build"
   }
 }
