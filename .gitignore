@@ -5,3 +5,8 @@
 node_modules
 dist
 cache
+coverage
+*.log
+.nyc_output
+junit.xml
+test-results.xml
