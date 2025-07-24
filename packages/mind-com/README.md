@@ -330,6 +330,15 @@ const response = await fetch("/api/submitForm", {
 })
 ```
 
+### Testing
+
+Comprehensive test suite for API endpoints and utilities. See [**tests**/README.md](__tests__/README.md) for detailed testing documentation including:
+
+- Unit tests for API endpoints with full mocking
+- UTM utility testing with browser API simulation
+- Integration tests for end-to-end traffic flow validation
+- Coverage reporting and CI/CD integration
+
 ### OAuth Authorization
 
 `AuthButton` component handles OAuth flow:
@@ -341,8 +350,8 @@ const response = await fetch("/api/submitForm", {
 
 Integration via Google Tag Manager:
 
-- **Production GTM ID:** `GTM-TV4L6B6W`
-- **Test GTM ID:** `GTM-5GGMB252`
+- **Production GTM ID:** `GTM-YOUR_PRODUCTION_ID`
+- **Test GTM ID:** `GTM-YOUR_TEST_ID`
 
 ## Localization
 

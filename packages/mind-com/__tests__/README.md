@@ -6,16 +6,37 @@ This directory contains unit tests for the Mind-Com API endpoints and utilities.
 
 ```
 __tests__/
-├── unit/                     # Unit tests
+├── unit/                     # Unit tests (isolated components)
 │   ├── signUp.test.ts       # Tests for signUp API endpoint
 │   ├── submitForm.test.ts   # Tests for submitForm API endpoint
-│   └── utm.test.ts          # Tests for UTM utilities
-├── test-traffic-sources.ts  # Integration tests for traffic sources
+│   └── utm.test.ts          # Tests for UTM utilities (isolated functions)
+├── test-traffic-sources.ts  # Integration tests (end-to-end traffic flow)
 ├── tsconfig.json            # TypeScript config for tests
 └── README.md               # This file
 ```
 
-## Running Tests
+## Test Types
+
+### Unit Tests (`unit/` directory)
+
+- **Isolation**: All dependencies are mocked
+- **Speed**: Fast execution without network requests
+- **Purpose**: Testing logic of individual functions/modules
+- **Examples**:
+  - `utm.test.ts` - tests only UTM utilities in isolation
+  - `signUp.test.ts` - tests only signUp endpoint with mocks
+
+### Integration Tests (root `__tests__/` directory)
+
+- **Reality**: Uses real API endpoints
+- **Complexity**: Tests component interactions
+- **Purpose**: End-to-end scenario validation
+- **Examples**:
+  - `test-traffic-sources.ts` - complete flow from UTM to CRM
+
+> **Important**: Both test types are needed! Unit tests find logic bugs, Integration tests find integration issues.
+
+## Setup
 
 ### Install Dependencies
 
