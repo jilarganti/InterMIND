@@ -94,11 +94,9 @@ const handleCardClick = () => {
   margin-bottom: 16px;
   border-radius: 8px;
   overflow: hidden;
-  /* Ensure consistent height for media container */
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .is-clickable {
@@ -119,7 +117,7 @@ const handleCardClick = () => {
 
 .feature-image {
   width: 100%;
-  height: 120px;
+  height: auto;
   border-radius: 8px;
   object-fit: cover;
   transition:
