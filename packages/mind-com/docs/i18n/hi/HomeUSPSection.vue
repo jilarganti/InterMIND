@@ -56,7 +56,7 @@
   <span id="4"></span>
   <FeatureBlock
     :card="{
-      title: 'जहां यह मायने रखती है वहां गोपनीयता',
+      title: 'जहां मायने रखती है वहां गोपनीयता',
       details: 'InterMind विश्वास-महत्वपूर्ण बातचीत के लिए बनाया गया है — जहां गोपनीयता और नियंत्रण सबसे महत्वपूर्ण है।',
       items: ['✧ [गोपनीयता क्षेत्र](./product/overview/privacy-architecture) — EU, US, SE Asia', '✧ **शून्य डेटा प्रशिक्षण**। कोई तृतीय-पक्ष पहुंच नहीं।'],
       link: './product/overview/privacy-architecture',

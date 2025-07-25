@@ -5,11 +5,11 @@ description: "De iMind a InterMIND: videollamadas con voz prioritaria e interpre
 ---
 
 <script setup>
-import HomeUSPSection from '../HomeUSPSection.vue'
-import HowItWorksSection from '../HowItWorksSection.vue'
-import PricingPlansSection from '../PricingPlansSection.vue'
-import FAQSection from '../FAQSection.vue'
-import HomeFooterSection from '../HomeFooterSection.vue'
+import HomeUSPSection from './HomeUSPSection.vue'
+import HowItWorksSection from './HowItWorksSection.vue'
+import PricingPlansSection from './PricingPlansSection.vue'
+import FAQSection from './FAQSection.vue'
+import HomeFooterSection from './HomeFooterSection.vue'
 </script>
 
 <HeroSection
@@ -21,7 +21,7 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 <HomeUSPSection />
 
 > [!tip] ¿Para quién es esto?  
-> Creado para **equipos internacionales** donde las barreras del idioma causan **retrasos**, **negocios perdidos** o **malentendidos costosos**. [Learn more ...](../product/overview/markets)
+> Creado para **equipos internacionales** donde las barreras del idioma causan **retrasos**, **negocios perdidos** o **malentendidos costosos**. [Learn more ...](./product/overview/markets)
 
 ## Funciona como Google Meet + traducción en vivo
 
@@ -37,8 +37,8 @@ Supongamos que:
 
 > El usuario utiliza **español** como **idioma de localización del sitio**. Organiza una reunión e invita a dos participantes:
 >
-> - 🧑‍💼 Participante 1 utiliza la interfaz en **inglés**
-> - 👩 Participante 2 utiliza la interfaz en **chino**
+> - 🧑‍💼 Participante 1 usa la interfaz en **inglés**
+> - 👩 Participante 2 usa la interfaz en **chino**
 
 ### ¿Qué sucede durante la reunión?
 
@@ -49,19 +49,19 @@ Esta configuración de idioma único se aplica a:
 - La **entrada hablada** (lo que dices)
 - La **salida traducida** (lo que escuchas)
 
-| Participante  | Idioma Seleccionado | Habla En  | Escucha En |
+| Participante  | Idioma seleccionado | Habla en  | Escucha en |
 | ------------- | ------------------- | --------- | ---------- |
 | Anfitrión     | Español             | Español   | Español    |
 | Participante 1| Inglés              | Inglés    | Inglés     |
 | Participante 2| Chino               | Chino     | Chino      |
 
-[La plataforma interpreta automáticamente todo el habla en tiempo real](../product/overview/how-it-works) — así que todos se comunican como si hablaran el mismo idioma.
+[La plataforma interpreta automáticamente todo el habla en tiempo real](./product/overview/how-it-works) — así que todos se comunican como si hablaran el mismo idioma.
 
 ### ¿Puedes cambiar tu idioma durante la llamada?
 
-Sí. Puedes abrir la **Configuración** y cambiar el campo `Tu Idioma`:
+Sí. Puedes abrir **Configuración** y cambiar el campo `Tu idioma`:
 
-:::details Panel de Configuración
+:::details Panel de configuración
 <img src="/settings.png" alt="panel-de-configuracion" width="300px" />
 :::
 
@@ -71,7 +71,7 @@ Cambiar esto significa:
 - Escucharás a otros en el `idioma elegido`
 - La interfaz cambiará automáticamente al `idioma elegido`
 
-> 📌 Nota: "Tu Idioma" es una **configuración única unificada**  
+> 📌 Nota: "Tu idioma" es una **configuración única unificada**  
 > Controla **cómo hablas**, **qué escuchas** y **qué ves**.  
 > Hablar en un idioma y escuchar en otro **no está soportado** — por diseño, para mantener la experiencia simple y predecible.
 

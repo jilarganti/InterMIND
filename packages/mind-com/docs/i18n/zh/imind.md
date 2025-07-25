@@ -5,11 +5,11 @@ description: "从 iMind 到 InterMIND：语音优先的视频通话，配备实�
 ---
 
 <script setup>
-import HomeUSPSection from '../HomeUSPSection.vue'
-import HowItWorksSection from '../HowItWorksSection.vue'
-import PricingPlansSection from '../PricingPlansSection.vue'
-import FAQSection from '../FAQSection.vue'
-import HomeFooterSection from '../HomeFooterSection.vue'
+import HomeUSPSection from './HomeUSPSection.vue'
+import HowItWorksSection from './HowItWorksSection.vue'
+import PricingPlansSection from './PricingPlansSection.vue'
+import FAQSection from './FAQSection.vue'
+import HomeFooterSection from './HomeFooterSection.vue'
 </script>
 
 <HeroSection
@@ -20,12 +20,12 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 
 <HomeUSPSection />
 
-> [!tip] 适用人群  
-> 专为**国际团队**打造，解决语言障碍导致的**延误**、**交易失败**或**代价高昂的误解**问题。[了解更多 ...](../product/overview/markets)
+> [!tip] 这适合谁？  
+> 专为**国际团队**打造，解决语言障碍导致的**延误**、**失单**或**代价高昂的误解**问题。[了解更多 ...](./product/overview/markets)
 
 ## 像 Google Meet + 实时翻译一样工作
 
-熟悉的界面。通用沟通。与 Google Meet 一样简单——配备即时翻译功能，让语言障碍消失。
+熟悉的界面。通用沟通。与 Google Meet 一样简单易用——配备即时翻译功能，让语言障碍消失无踪。
 
 <HowItWorksSection />
 
@@ -55,7 +55,7 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 | 参与者1  | 英语       | 英语     | 英语     |
 | 参与者2  | 中文       | 中文     | 中文     |
 
-[平台自动实时解释所有语音](../product/overview/how-it-works) — 因此每个人都能像说同一种语言一样进行交流。
+[平台自动实时解释所有语音](./product/overview/how-it-works) — 因此每个人都能像说同一种语言一样进行交流。
 
 ### 您可以在通话期间更改语言吗？
 
@@ -68,7 +68,7 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 更改此设置意味着：
 
 - 您应该用`选择的语言`说话以获得准确的翻译
-- 您将用`选择的语言`听到其他人的声音
+- 您将用`选择的语言`听取他人的话
 - 界面将自动切换到`选择的语言`
 
 > 📌 注意："您的语言"是一个**统一的单一设置**  
@@ -89,7 +89,7 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-> [!tip] 🥇 您的时间最好用来精进技艺——而不是死记硬背语法。
+> [!tip] 🥇 您的时间最好用来精进技艺——而不是死记语法。
 
 ## 常见问题
 

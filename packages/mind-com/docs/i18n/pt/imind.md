@@ -5,11 +5,11 @@ description: "Do iMind ao InterMIND: chamadas de vídeo com foco na voz e interp
 ---
 
 <script setup>
-import HomeUSPSection from '../HomeUSPSection.vue'
-import HowItWorksSection from '../HowItWorksSection.vue'
-import PricingPlansSection from '../PricingPlansSection.vue'
-import FAQSection from '../FAQSection.vue'
-import HomeFooterSection from '../HomeFooterSection.vue'
+import HomeUSPSection from './HomeUSPSection.vue'
+import HowItWorksSection from './HowItWorksSection.vue'
+import PricingPlansSection from './PricingPlansSection.vue'
+import FAQSection from './FAQSection.vue'
+import HomeFooterSection from './HomeFooterSection.vue'
 </script>
 
 <HeroSection
@@ -21,7 +21,7 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 <HomeUSPSection />
 
 > [!tip] Para quem é isso?  
-> Criado para **equipes internacionais** onde barreiras linguísticas causam **atrasos**, **negócios perdidos** ou **mal-entendidos custosos**. [Learn more ...](../product/overview/markets)
+> Criado para **equipes internacionais** onde barreiras linguísticas causam **atrasos**, **negócios perdidos** ou **mal-entendidos custosos**. [Learn more ...](./product/overview/markets)
 
 ## Funciona Como Google Meet + Tradução ao Vivo
 
@@ -46,16 +46,16 @@ Cada participante **fala e ouve** no idioma que selecionou ao entrar no produto.
 Esta configuração única de idioma se aplica a:
 
 - O **idioma da interface**
-- A **entrada falada** (o que você diz)
+- A **entrada falada** (o que você fala)
 - A **saída traduzida** (o que você ouve)
 
-| Participante   | Idioma Selecionado | Fala Em   | Ouve Em   |
-| -------------- | ------------------ | --------- | --------- |
-| Anfitrião      | Espanhol           | Espanhol  | Espanhol  |
-| Participante 1 | Inglês             | Inglês    | Inglês    |
-| Participante 2 | Chinês             | Chinês    | Chinês    |
+| Participante  | Idioma Selecionado | Fala Em   | Ouve Em   |
+| ------------- | ------------------ | --------- | --------- |
+| Anfitrião     | Espanhol           | Espanhol  | Espanhol  |
+| Participante 1| Inglês             | Inglês    | Inglês    |
+| Participante 2| Chinês             | Chinês    | Chinês    |
 
-[A plataforma interpreta automaticamente toda a fala em tempo real](../product/overview/how-it-works) — então todos se comunicam como se falassem o mesmo idioma.
+[A plataforma interpreta automaticamente toda a fala em tempo real](./product/overview/how-it-works) — então todos se comunicam como se falassem o mesmo idioma.
 
 ### Você pode mudar seu idioma durante a chamada?
 

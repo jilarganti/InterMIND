@@ -3,7 +3,7 @@
   <FeatureBlock
     :card="{
       title: '翻译 ≠ 理解。这就是下一步。',
-      details: '无论使用何种语言，您的声音都能被听到并理解——就像您说着同一种语言一样。',
+      details: '无论使用何种语言，您的声音都能被听到并理解——就像您们说着同一种语言一样。',
       items: [
         '✧ 自然地，[实时](./product/overview/how-it-works)进行，无需字幕或延迟。',
         '✧ AI驱动的口译捕捉语调、意图和行业专业术语。',
@@ -39,7 +39,7 @@
   <span id="3"></span>
   <FeatureBlock
     :card="{
-      title: '专为严肃会议而建——不仅仅是聊天',
+      title: '为严肃会议而生——不仅仅是聊天',
       details: 'InterMind是一个[专业级视频会议平台](./product/overview/video-meeting-platform)，而不是轻量级插件或附加组件。',
       items: [
         '✧ 1080p分辨率、智能降噪、日程安排、会议管理、屏幕共享、录制、字幕、参与者聊天和日历集成——全部内置，**即开即用**。',

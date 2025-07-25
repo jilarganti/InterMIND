@@ -5,11 +5,11 @@ description: "iMind에서 InterMIND로: 실시간 AI 기반 통역이 지원되�
 ---
 
 <script setup>
-import HomeUSPSection from '../HomeUSPSection.vue'
-import HowItWorksSection from '../HowItWorksSection.vue'
-import PricingPlansSection from '../PricingPlansSection.vue'
-import FAQSection from '../FAQSection.vue'
-import HomeFooterSection from '../HomeFooterSection.vue'
+import HomeUSPSection from './HomeUSPSection.vue'
+import HowItWorksSection from './HowItWorksSection.vue'
+import PricingPlansSection from './PricingPlansSection.vue'
+import FAQSection from './FAQSection.vue'
+import HomeFooterSection from './HomeFooterSection.vue'
 </script>
 
 <HeroSection
@@ -21,11 +21,11 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 <HomeUSPSection />
 
 > [!tip] 누구를 위한 서비스인가요?  
-> 언어 장벽으로 인해 **지연**, **거래 실패**, 또는 **비용이 많이 드는 오해**가 발생하는 **국제 팀**을 위해 구축되었습니다. [자세히 알아보기 ...](../product/overview/markets)
+> 언어 장벽으로 인해 **지연**, **거래 실패**, 또는 **비용이 많이 드는 오해**가 발생하는 **국제 팀**을 위해 구축되었습니다. [자세히 알아보기 ...](./product/overview/markets)
 
 ## Google Meet + 실시간 번역처럼 작동
 
-친숙한 인터페이스. 범용 커뮤니케이션. Google Meet과 같은 편리함 — 언어 장벽을 사라지게 하는 즉석 번역과 함께.
+친숙한 인터페이스. 범용 커뮤니케이션. Google Meet과 같은 편리함 — 언어 장벽을 사라지게 하는 즉석 번역 기능과 함께.
 
 <HowItWorksSection />
 
@@ -40,7 +40,7 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 > - 🧑‍💼 참가자 1은 **영어** 인터페이스를 사용합니다
 > - 👩 참가자 2는 **중국어** 인터페이스를 사용합니다
 
-### 회의 중에는 무엇이 일어나나요?
+### 회의 중에는 무슨 일이 일어날까요?
 
 각 참가자는 제품에 입장할 때 선택한 언어로 **말하고 듣습니다**.  
 이 단일 언어 설정은 다음에 적용됩니다:
@@ -55,7 +55,7 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 | 참가자 1  | 영어        | 영어        | 영어      |
 | 참가자 2  | 중국어      | 중국어      | 중국어    |
 
-[플랫폼은 모든 음성을 실시간으로 자동 해석합니다](../product/overview/how-it-works) — 따라서 모든 사람이 같은 언어를 사용하는 것처럼 소통할 수 있습니다.
+[플랫폼은 모든 음성을 실시간으로 자동 해석합니다](./product/overview/how-it-works) — 따라서 모든 사람이 같은 언어를 사용하는 것처럼 소통할 수 있습니다.
 
 ### 통화 중에 언어를 변경할 수 있나요?
 
@@ -77,7 +77,7 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 
 ## 명확하고 간단한 가격
 
-첫 통화부터 유창한 대화까지 — 모든 규모에서.
+첫 통화부터 유창한 대화까지 — 어떤 규모든지.
 
 <PricingPlansSection />
 

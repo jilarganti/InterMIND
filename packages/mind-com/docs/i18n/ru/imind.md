@@ -2,15 +2,14 @@
 layout: home
 title: "Видеовстречи переосмыслены — теперь на mind.com"
 description: "От iMind к InterMIND: голосовые видеозвонки с интерпретацией на основе ИИ в реальном времени."
-
 ---
 
 <script setup>
-import HomeUSPSection from '../HomeUSPSection.vue'
-import HowItWorksSection from '../HowItWorksSection.vue'
-import PricingPlansSection from '../PricingPlansSection.vue'
-import FAQSection from '../FAQSection.vue'
-import HomeFooterSection from '../HomeFooterSection.vue'
+import HomeUSPSection from './HomeUSPSection.vue'
+import HowItWorksSection from './HowItWorksSection.vue'
+import PricingPlansSection from './PricingPlansSection.vue'
+import FAQSection from './FAQSection.vue'
+import HomeFooterSection from './HomeFooterSection.vue'
 </script>
 
 <HeroSection
@@ -22,7 +21,7 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 <HomeUSPSection />
 
 > [!tip] Для кого это предназначено?  
-> Создано для **международных команд**, где языковые барьеры вызывают **задержки**, **потерянные сделки** или **дорогостоящие недоразумения**. [Learn more ...](../product/overview/markets)
+> Создано для **международных команд**, где языковые барьеры вызывают **задержки**, **потерянные сделки** или **дорогостоящие недоразумения**. [Learn more ...](./product/overview/markets)
 
 ## Работает как Google Meet + живой перевод
 
@@ -56,7 +55,7 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 | Участник 1  | Английский     | Английском | Английском |
 | Участник 2  | Китайский      | Китайском  | Китайском |
 
-[Платформа автоматически интерпретирует всю речь в реальном времени](../product/overview/how-it-works) — поэтому все общаются так, как будто говорят на одном языке.
+[Платформа автоматически интерпретирует всю речь в реальном времени](./product/overview/how-it-works) — поэтому все общаются так, как будто говорят на одном языке.
 
 ### Можно ли изменить язык во время звонка?
 

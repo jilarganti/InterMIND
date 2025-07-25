@@ -5,11 +5,11 @@ description: "D'iMind à InterMIND : appels vidéo axés sur la voix avec interp
 ---
 
 <script setup>
-import HomeUSPSection from '../HomeUSPSection.vue'
-import HowItWorksSection from '../HowItWorksSection.vue'
-import PricingPlansSection from '../PricingPlansSection.vue'
-import FAQSection from '../FAQSection.vue'
-import HomeFooterSection from '../HomeFooterSection.vue'
+import HomeUSPSection from './HomeUSPSection.vue'
+import HowItWorksSection from './HowItWorksSection.vue'
+import PricingPlansSection from './PricingPlansSection.vue'
+import FAQSection from './FAQSection.vue'
+import HomeFooterSection from './HomeFooterSection.vue'
 </script>
 
 <HeroSection
@@ -21,7 +21,7 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 <HomeUSPSection />
 
 > [!tip] À qui s'adresse-t-il ?  
-> Conçu pour les **équipes internationales** où les barrières linguistiques causent des **retards**, des **affaires perdues** ou des **malentendus coûteux**. [Learn more ...](../product/overview/markets)
+> Conçu pour les **équipes internationales** où les barrières linguistiques causent des **retards**, des **affaires perdues** ou des **malentendus coûteux**. [Learn more ...](./product/overview/markets)
 
 ## Fonctionne comme Google Meet + traduction en direct
 
@@ -55,7 +55,7 @@ Ce paramètre de langue unique s'applique à :
 | Participant 1 | Anglais             | Anglais   | Anglais   |
 | Participant 2 | Chinois             | Chinois   | Chinois   |
 
-[La plateforme interprète automatiquement tous les discours en temps réel](../product/overview/how-it-works) — ainsi tout le monde communique comme s'il parlait la même langue.
+[La plateforme interprète automatiquement tous les discours en temps réel](./product/overview/how-it-works) — ainsi tout le monde communique comme s'il parlait la même langue.
 
 ### Pouvez-vous changer votre langue pendant l'appel ?
 

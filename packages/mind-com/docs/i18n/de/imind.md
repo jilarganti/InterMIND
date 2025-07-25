@@ -5,11 +5,11 @@ description: "Von iMind zu InterMIND: sprachzentrierte Videoanrufe mit KI-gestü
 ---
 
 <script setup>
-import HomeUSPSection from '../HomeUSPSection.vue'
-import HowItWorksSection from '../HowItWorksSection.vue'
-import PricingPlansSection from '../PricingPlansSection.vue'
-import FAQSection from '../FAQSection.vue'
-import HomeFooterSection from '../HomeFooterSection.vue'
+import HomeUSPSection from './HomeUSPSection.vue'
+import HowItWorksSection from './HowItWorksSection.vue'
+import PricingPlansSection from './PricingPlansSection.vue'
+import FAQSection from './FAQSection.vue'
+import HomeFooterSection from './HomeFooterSection.vue'
 </script>
 
 <HeroSection
@@ -21,11 +21,11 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 <HomeUSPSection />
 
 > [!tip] Für wen ist das gedacht?  
-> Entwickelt für **internationale Teams**, bei denen Sprachbarrieren zu **Verzögerungen**, **verlorenen Geschäften** oder **kostspieligen Missverständnissen** führen. [Learn more ...](../product/overview/markets)
+> Entwickelt für **internationale Teams**, bei denen Sprachbarrieren zu **Verzögerungen**, **verlorenen Geschäften** oder **kostspieligen Missverständnissen** führen. [Learn more ...](./product/overview/markets)
 
 ## Funktioniert wie Google Meet + Live-Übersetzung
 
-Vertraute Benutzeroberfläche. Universelle Kommunikation. Dieselbe Einfachheit wie Google Meet — mit Sofortübersetzung, die Sprachbarrieren verschwinden lässt.
+Vertraute Benutzeroberfläche. Universelle Kommunikation. Dieselbe Einfachheit wie Google Meet — mit sofortiger Übersetzung, die Sprachbarrieren verschwinden lässt.
 
 <HowItWorksSection />
 
@@ -55,14 +55,14 @@ Diese einzige Spracheinstellung gilt für:
 | Teilnehmer 1  | Englisch         | Englisch   | Englisch |
 | Teilnehmer 2  | Chinesisch       | Chinesisch | Chinesisch |
 
-[Die Plattform interpretiert automatisch alle Sprache in Echtzeit](../product/overview/how-it-works) — so kommuniziert jeder, als würde er dieselbe Sprache sprechen.
+[Die Plattform interpretiert automatisch alle Sprache in Echtzeit](./product/overview/how-it-works) — so kommuniziert jeder, als würde er dieselbe Sprache sprechen.
 
 ### Können Sie Ihre Sprache während des Anrufs ändern?
 
 Ja. Sie können die **Einstellungen** öffnen und das Feld `Ihre Sprache` ändern:
 
 :::details Einstellungsbereich
-<img src="/settings.png" alt="settings-panel" width="300px" />
+<img src="/settings.png" alt="Einstellungsbereich" width="300px" />
 :::
 
 Diese Änderung bedeutet:
@@ -81,7 +81,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
 
 <PricingPlansSection />
 
-> [!warning] 😱 Entweder Sie sprechen jede Sprache — oder jemand anderes schließt Ihre Deals ab.
+> [!warning] 😱 Entweder Sie sprechen jede Sprache — oder jemand anderes schließt Ihre Geschäfte ab.
 
 <span id="Testimonials"></span>
 

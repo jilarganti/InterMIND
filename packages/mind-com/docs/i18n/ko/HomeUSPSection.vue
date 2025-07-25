@@ -39,10 +39,10 @@
   <span id="3"></span>
   <FeatureBlock
     :card="{
-      title: '단순한 대화가 아닌 진지한 회의를 위해 구축됨',
+      title: '진지한 회의를 위해 구축됨 — 단순한 대화가 아닌',
       details: 'InterMind는 가벼운 애드온이나 플러그인이 아닌 [전문급 화상 회의 플랫폼](./product/overview/video-meeting-platform)입니다.',
       items: [
-        '✧ 1080p 해상도, 스마트 노이즈 억제, 일정 관리, 중재, 화면 공유, 녹화, 자막, 참가자 채팅 및 캘린더 통합 — 모든 기능이 내장되어 **바로 사용 가능**합니다.',
+        '✧ 1080p 해상도, 스마트 노이즈 억제, 일정 관리, 중재, 화면 공유, 녹화, 자막, 참가자 채팅 및 캘린더 통합 — 모든 것이 내장되어 **바로 사용 가능**합니다.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {

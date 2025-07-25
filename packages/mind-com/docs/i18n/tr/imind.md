@@ -5,11 +5,11 @@ description: "iMind'dan InterMIND'a: gerçek zamanlı AI destekli çeviri ile se
 ---
 
 <script setup>
-import HomeUSPSection from '../HomeUSPSection.vue'
-import HowItWorksSection from '../HowItWorksSection.vue'
-import PricingPlansSection from '../PricingPlansSection.vue'
-import FAQSection from '../FAQSection.vue'
-import HomeFooterSection from '../HomeFooterSection.vue'
+import HomeUSPSection from './HomeUSPSection.vue'
+import HowItWorksSection from './HowItWorksSection.vue'
+import PricingPlansSection from './PricingPlansSection.vue'
+import FAQSection from './FAQSection.vue'
+import HomeFooterSection from './HomeFooterSection.vue'
 </script>
 
 <HeroSection
@@ -21,7 +21,7 @@ import HomeFooterSection from '../HomeFooterSection.vue'
 <HomeUSPSection />
 
 > [!tip] Bu kimler için?  
-> Dil engellerinin **gecikmelere**, **kaybedilen anlaşmalara** veya **maliyetli yanlış anlaşılmalara** neden olduğu **uluslararası ekipler** için geliştirildi. [Daha fazla bilgi ...](../product/overview/markets)
+> Dil engellerinin **gecikmelere**, **kaybedilen anlaşmalara** veya **maliyetli yanlış anlaşılmalara** neden olduğu **uluslararası ekipler** için geliştirildi. [Daha fazla bilgi ...](./product/overview/markets)
 
 ## Google Meet + Canlı Çeviri Gibi Çalışır
 
@@ -55,7 +55,7 @@ Bu tek dil ayarı şunları kapsar:
 | Katılımcı 1   | İngilizce   | İngilizce     | İngilizce   |
 | Katılımcı 2   | Çince       | Çince         | Çince       |
 
-[Platform tüm konuşmaları gerçek zamanlı olarak otomatik yorumlar](../product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
+[Platform tüm konuşmaları gerçek zamanlı olarak otomatik yorumlar](./product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
 
 ### Arama sırasında dilinizi değiştirebilir misiniz?
 
@@ -81,7 +81,7 @@ Bunu değiştirmek şu anlama gelir:
 
 <PricingPlansSection />
 
-> [!warning] 😱 Ya her dili konuşursunuz — ya da başkası anlaşmalarınızı kapatır.
+> [!warning] 😱 Ya her dili konuşursunuz — ya da başkası sizin anlaşmalarınızı kapatır.
 
 <span id="Testimonials"></span>
 

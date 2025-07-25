@@ -3,10 +3,10 @@
   <FeatureBlock
     :card="{
       title: 'Çeviri ≠ Anlama. İşte sırada olan.',
-      details: 'Hangi dil olursa olsun, sesiniz aynı dili paylaşıyormuşsunuz gibi duyulur ve anlaşılır.',
+      details: 'Dil ne olursa olsun, sesiniz duyulur — ve aynı dili paylaşıyormuşsunuz gibi anlaşılır.',
       items: [
         '✧ Doğal olarak, [gerçek zamanlı](./product/overview/how-it-works) ve altyazı veya gecikme olmadan.',
-        '✧ AI destekli yorumlama ton, niyet ve sektöre özgü terminolojiyi yakalar.',
+        '✧ AI destekli yorumlama ton, niyet ve sektöre özel terminolojiyi yakalar.',
       ],
       link: './product/overview/what-is-intermind',
       src: {
@@ -40,7 +40,7 @@
   <FeatureBlock
     :card="{
       title: 'Ciddi Toplantılar İçin Yapıldı — Sadece Konuşmak İçin Değil',
-      details: 'InterMind hafif bir eklenti veya plugin değil, [profesyonel düzeyde bir video toplantı platformudur](./product/overview/video-meeting-platform).',
+      details: 'InterMind bir [profesyonel seviye video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
       items: [
         '✧ 1080p çözünürlük, akıllı gürültü bastırma, planlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
       ],
@@ -57,8 +57,8 @@
   <FeatureBlock
     :card="{
       title: 'Önemli Olan Yerde Gizlilik',
-      details: 'InterMind güven açısından kritik konuşmalar için yapılmıştır — gizlilik ve kontrolün en önemli olduğu yerde.',
-      items: ['✧ [Gizlilik Bölgeleri](./product/overview/privacy-architecture) — AB, ABD, Güneydoğu Asya', '✧ **Sıfır veri eğitimi**. Üçüncü taraf erişimi yok.'],
+      details: 'InterMind güven-kritik konuşmalar için yapıldı — gizlilik ve kontrolün en önemli olduğu yerde.',
+      items: ['✧ [Gizlilik Bölgeleri](./product/overview/privacy-architecture) — AB, ABD, GD Asya', '✧ **Sıfır veri eğitimi**. Üçüncü taraf erişimi yok.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
