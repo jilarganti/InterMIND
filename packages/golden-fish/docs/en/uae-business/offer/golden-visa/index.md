@@ -111,7 +111,7 @@ hero:
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Speak to an expert" formStyle="display: block; margin: 1rem auto;"/>
+<ContactForm buttonText="Speak to an expert" />
 
 <!-- <ImageGrid :images="[
   { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAE Immigration' },
