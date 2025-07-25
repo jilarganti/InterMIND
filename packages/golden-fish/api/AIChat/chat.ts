@@ -1,23 +1,51 @@
-// api/chat.js
+/**
+ * AI Chat API Endpoint
+ *
+ * Handles AI chat interactions using Anthropic Claude models.
+ * Processes user messages, applies system prompts, and streams responses.
+ * Supports multiple chat modes and languages with content filtering.
+ *
+ * Features:
+ * - AI-powered conversation handling
+ * - Multiple language support
+ * - System prompt injection with business context
+ * - Message history processing
+ * - Content filtering (figure tags removal)
+ * - Streaming responses
+ * - Multiple chat modes (default, followup)
+ * - Development/production environment handling
+ */
+
 import { anthropic } from "@ai-sdk/anthropic"
 import { openai } from "@ai-sdk/openai"
 import { groq } from "@ai-sdk/groq"
-// import { deepseek } from "@ai-sdk/deepseek"
 import { streamText } from "ai"
 import { BUSINESS_PROMPT, FOLLOW_UP_PROMPT } from "../../docs/.vitepress/config/AIConfig.js"
-import fs from "fs"
+import * as fs from "fs"
 import fetch from "node-fetch"
+
+// Types
+interface ChatMessage {
+  role: "user" | "assistant" | "system"
+  content: string
+}
+
+interface ChatRequest {
+  messages: ChatMessage[]
+  mode?: "default" | "followup"
+  language?: string
+}
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30
-let llmsTxt
+let llmsTxt: string
 
 /**
  * Функция для удаления тегов figure из текста сообщения
- * @param {string} content - содержимое сообщения
- * @returns {string} - очищенное содержимое
+ * @param content - содержимое сообщения
+ * @returns очищенное содержимое
  */
-function removeFigureTags(content) {
+function removeFigureTags(content: string): string {
   if (typeof content !== "string") return content
 
   // Удаляем теги <figure> и </figure> и весь контент между ними
@@ -26,32 +54,25 @@ function removeFigureTags(content) {
 
 /**
  * Обработчик POST-запроса
- * @param {{ json: () => any; }} req
  */
-export async function POST(req) {
+export async function POST(request: Request): Promise<Response> {
   console.log("🔵 API: Получен запрос к /api/chat")
 
-  // Читаем содержимое основного файла с метаданными
-  llmsTxt = await getContent("docs/.vitepress/dist/llms.txt", "llmsTxt")
-  llmsTxt = llmsTxt.replace(/\.md/g, "")
-
   try {
-    const body = await req.json()
+    // Читаем содержимое основного файла с метаданными
+    llmsTxt = await getContent("docs/.vitepress/dist/llms.txt", "llmsTxt")
+    llmsTxt = llmsTxt.replace(/\.md/g, "")
+
+    const body = (await request.json()) as ChatRequest
     let messages = body.messages || []
-    const { mode, language } = body
-
-    // Получаем режим запроса из body (по умолчанию 'default')
-    // const mode = body.mode || "default"
-    // Получаем язык из body (по умолчанию 'ru')
-
-    // const language = body.language || "ru"
+    const { mode = "default", language = "ru" } = body
 
     console.log(`🔵 API: Получено ${messages.length} сообщений, режим: ${mode}, язык: ${language}`)
 
     /**
-     * Костыль для очистки сообщений от тегов figure. В норме теги не должны попадать в историю сообщений.
+     * Костыль для очистки сообщений от тегов figure. 
+     * В норме теги не должны попадать в историю сообщений.
      */
-    // @ts-ignore
     const cleanedMessages = messages.map((msg) => {
       if (msg.role === "assistant") {
         return {
@@ -106,8 +127,14 @@ export async function POST(req) {
   }
 }
 
-async function getContent(filePath, tag) {
-  let content
+/**
+ * Получение контента файла в зависимости от окружения
+ * @param filePath - путь к файлу
+ * @param tag - тег для обертки контента
+ * @returns содержимое файла с тегом
+ */
+async function getContent(filePath: string, tag: string): Promise<string> {
+  let content: string
 
   // В локальной разработке (vercel dev) читаем файл напрямую из файловой системы
   // VERCEL_ENV может быть 'development' при использовании vercel dev

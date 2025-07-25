@@ -1,12 +1,41 @@
-// api/search-images.js
+/**
+ * Search Images API Endpoint
+ *
+ * REST API endpoint for searching images using Google Custom Search.
+ * Handles query processing, normalization, caching, and response optimization.
+ * Provides efficient image search with memory caching and CDN optimization.
+ *
+ * Features:
+ * - Query parameter extraction and validation
+ * - Query normalization for consistent caching
+ * - In-memory caching with TTL
+ * - Configurable result limits (1-10)
+ * - CDN-optimized headers
+ * - Cache cleanup and management
+ * - Error handling and logging
+ */
+
 import { searchImages } from "./image-service.js"
+
+// Types
+interface SearchResult {
+  images: Array<{
+    url: string
+    title: string
+  }>
+}
+
+interface CacheEntry {
+  timestamp: number
+  data: SearchResult
+}
 
 /**
  * Нормализует поисковый запрос для стабильного кеширования
- * @param {string} query - Поисковый запрос
- * @returns {string} - Нормализованный запрос
+ * @param query - Поисковый запрос
+ * @returns Нормализованный запрос
  */
-function normalizeQuery(query) {
+function normalizeQuery(query: string): string {
   if (!query) return ""
   return query
     .trim()
@@ -17,19 +46,17 @@ function normalizeQuery(query) {
 
 /**
  * Кеш запросов к API (только для текущей сессии)
- * @type {Map<string, {timestamp: number, data: any}>}
  */
-const memoryCache = new Map()
+const memoryCache = new Map<string, CacheEntry>()
 
 // Время жизни кеша в памяти - 1 час (в миллисекундах)
 const CACHE_TTL = 60 * 60 * 1000
 
-// @ts-ignore
-export async function GET(req) {
+export async function GET(request: Request): Promise<Response> {
   console.log("🔵 SEARCH-API: Получен запрос на поиск изображений")
 
   // Извлекаем параметры запроса
-  const url = new URL(req.url)
+  const url = new URL(request.url)
   const query = url.searchParams.get("q")
   const limit = parseInt(url.searchParams.get("limit") || "1", 10)
 
@@ -70,7 +97,7 @@ export async function GET(req) {
     console.log(`🔵 SEARCH-API: Найдено ${images.length} изображений`)
 
     // Формируем результат
-    const result = { images }
+    const result: SearchResult = { images }
 
     // Сохраняем в кеше в памяти
     memoryCache.set(`${normalizedQuery}_${validLimit}`, {
@@ -80,13 +107,13 @@ export async function GET(req) {
 
     // Очищаем старые записи из кеша, если их больше 100
     if (memoryCache.size > 100) {
-      const keysToDelete = []
+      const keysToDelete: string[] = []
 
-      for (const [key, value] of memoryCache.entries()) {
+      memoryCache.forEach((value, key) => {
         if (now - value.timestamp > CACHE_TTL) {
           keysToDelete.push(key)
         }
-      }
+      })
 
       keysToDelete.forEach((key) => memoryCache.delete(key))
     }
