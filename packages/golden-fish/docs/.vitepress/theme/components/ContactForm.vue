@@ -23,7 +23,6 @@
 import { useData } from "vitepress"
 import { ref, computed } from "vue"
 import { onClickOutside } from "@vueuse/core"
-import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 import { SubmitForm } from "../../../../api/types/pipedriveFields"
 
 const { site } = useData()
@@ -32,7 +31,7 @@ const props = defineProps<{
   formName?: string
   services?: string[]
   buttonText?: string
-  formStyle?: string
+  buttonStyle?: string // CSS style for button, e.g., "text-align: left;"
   buttonClass?: "brand" | "alt" | "sponsor"
   categoryLabel?: string
   categoryPlaceholderText?: string
@@ -42,7 +41,7 @@ const props = defineProps<{
 
 const buttonTextValue = computed(() => props.buttonText || site.value.themeConfig.contact_form.defaultButtonText)
 const categoriesValue = computed(() => props.services || site.value.themeConfig.contact_form.defaultCategories)
-const styleValue = computed(() => props.formStyle || "display: block;")
+const styleValue = computed(() => props.buttonStyle || "display: block; text-align: center;")
 const buttonTheme = computed(() => props.buttonClass || "brand")
 const categoryLabelValue = computed(() => props.categoryLabel || site.value.themeConfig.contact_form.category)
 const categoryPlaceholderValue = computed(() => props.categoryPlaceholderText || site.value.themeConfig.contact_form.categoryPlaceholder)
@@ -107,8 +106,10 @@ const closeModal = () => {
 </script>
 
 <template>
-  <div :style="styleValue">
-    <VPButton :text="buttonTextValue" :theme="buttonTheme" href="javascript:void(0);" @click.prevent="showModal = true" />
+  <div :style="styleValue" class="contact-form-button-wrapper">
+    <button class="VPButton" :class="[`medium`, buttonTheme]" @click="showModal = true" type="button">
+      {{ buttonTextValue }}
+    </button>
   </div>
 
   <Teleport to="body">
@@ -358,5 +359,48 @@ contact-form input:focus {
 .submit-button:disabled {
   opacity: 0.6;
   cursor: not-allowed;
+}
+
+.contact-form-button-wrapper .VPButton {
+  display: inline-block;
+  border: 1px solid transparent;
+  /* text-align: center; */
+  font-weight: 600;
+  white-space: nowrap;
+  transition:
+    color 0.25s,
+    border-color 0.25s,
+    background-color 0.25s;
+  cursor: pointer;
+  background: none;
+  border-radius: 20px;
+  padding: 0 20px;
+  line-height: 38px;
+  font-size: 14px;
+  margin: 1.5rem auto;
+}
+
+.contact-form-button-wrapper .VPButton.brand {
+  border-color: var(--vp-button-brand-border);
+  color: var(--vp-button-brand-text);
+  background-color: var(--vp-button-brand-bg);
+}
+
+.contact-form-button-wrapper .VPButton.brand:hover {
+  border-color: var(--vp-button-brand-hover-border);
+  color: var(--vp-button-brand-hover-text);
+  background-color: var(--vp-button-brand-hover-bg);
+}
+
+.contact-form-button-wrapper .VPButton.alt {
+  border-color: var(--vp-button-alt-border);
+  color: var(--vp-button-alt-text);
+  background-color: var(--vp-button-alt-bg);
+}
+
+.contact-form-button-wrapper .VPButton.alt:hover {
+  border-color: var(--vp-button-alt-hover-border);
+  color: var(--vp-button-alt-hover-text);
+  background-color: var(--vp-button-alt-hover-bg);
 }
 </style>
