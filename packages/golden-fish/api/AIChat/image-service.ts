@@ -80,7 +80,7 @@ export async function searchImages(query: string, limit: number = 1): Promise<Se
       return []
     }
 
-    const data = await response.json() as GoogleSearchResponse
+    const data = (await response.json()) as GoogleSearchResponse
     console.log(`🟢 IMAGE-SERVICE: Данные успешно получены от API`)
 
     // Проверка структуры данных
@@ -103,9 +103,9 @@ export async function searchImages(query: string, limit: number = 1): Promise<Se
       return []
     }
 
-    const images: SearchImage[] = data.items.map(item => ({
+    const images: SearchImage[] = data.items.map((item) => ({
       url: item.link,
-      title: item.title || "Без названия"
+      title: item.title || "Без названия",
     }))
 
     console.log(`🟢 IMAGE-SERVICE: Найдено ${images.length} изображений`)
@@ -120,7 +120,6 @@ export async function searchImages(query: string, limit: number = 1): Promise<Se
     }
 
     return images
-
   } catch (error) {
     console.error("🔴 IMAGE-SERVICE: Ошибка при поиске изображений:", error)
     return []
