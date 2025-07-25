@@ -10,7 +10,7 @@ import fetch from "node-fetch"
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30
-let llmsTxt, llmsFullTxt
+let llmsTxt
 
 /**
  * Функция для удаления тегов figure из текста сообщения
@@ -31,13 +31,9 @@ function removeFigureTags(content) {
 export async function POST(req) {
   console.log("🔵 API: Получен запрос к /api/chat")
 
-  // Читаем содержимое файлов
-  // Загружаем свежие данные
-  llmsTxt = await getContent("packages/golden-fish/docs/.vitepress/dist/llms.txt", "llmsTxt")
+  // Читаем содержимое основного файла с метаданными
+  llmsTxt = await getContent("docs/.vitepress/dist/llms.txt", "llmsTxt")
   llmsTxt = llmsTxt.replace(/\.md/g, "")
-  llmsFullTxt = await getContent("packages/golden-fish/docs/.vitepress/dist/llms-full.txt", "llmsFullTxt")
-
-  // console.log("llms.txt content:", llmsTxt)
 
   try {
     const body = await req.json()
@@ -79,26 +75,21 @@ export async function POST(req) {
     }
 
     // Добавляем информацию о языке в системный промпт
-    systemPrompt = `${llmsTxt} \n ${llmsFullTxt} \n Пожалуйста, отвечай на языке: ${language}. \n` + systemPrompt
+    systemPrompt = `${llmsTxt} \n Пожалуйста, отвечай на языке: ${language}. \n` + systemPrompt
+
+    // Простая проверка размера промпта
+    const promptLength = systemPrompt.length
+    console.log(`🔍 Размер системного промпта: ${promptLength} символов`)
 
     // Отправляем запрос к ИИ с выбранным системным промптом
     const result = streamText({
-      // model: anthropic("claude-3-5-sonnet-20241022"),
-      // model: anthropic("claude-3-5-haiku-20241022"),
-      model: anthropic("claude-3-sonnet-20240229"),
-      // model: anthropic("claude-3-haiku-20240307"),
-      // model: groq("gemma2-9b-it"),
-      // model: openai("gpt-4-turbo"),
-      // model: openai("gpt-4o-mini"),
-      // model: deepseek('deepseek-chat'),
+      model: anthropic("claude-3-5-haiku-20241022"), // Быстрая и эффективная модель
       system: systemPrompt,
       messages,
-      // maxTokens: 4000,
+      maxTokens: 4000,
       temperature: 0.3,
       presencePenalty: 0.3,
       frequencyPenalty: 0.3,
-
-      // stop: ["<figure>", "</figure>"],
     })
 
     console.log("🔵 API: Получен ответ от AI, начинаем стриминг...")
@@ -116,13 +107,21 @@ export async function POST(req) {
 }
 
 async function getContent(filePath, tag) {
-  // Определяем окружение
-  const baseUrl = "https://" + (process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL)
   let content
 
-  if (process.env.VERCEL_ENV === "development") {
+  // В локальной разработке (vercel dev) читаем файл напрямую из файловой системы
+  // VERCEL_ENV может быть 'development' при использовании vercel dev
+  const isLocalDev =
+    process.env.VERCEL_ENV === "development" ||
+    process.env.NODE_ENV === "development" ||
+    !process.env.VERCEL_URL ||
+    process.env.VERCEL_URL?.includes("localhost")
+
+  if (isLocalDev) {
     content = fs.readFileSync(filePath, "utf8")
   } else {
+    // Определяем окружение для production/preview
+    const baseUrl = "https://" + (process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL)
     // Находим в пути "/dist/" и отсекаем всё до и включая
     let urlPath = filePath
     const distIndex = filePath.indexOf("/dist/")
