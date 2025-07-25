@@ -136,7 +136,7 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactForm buttonText="Speak to an expert" buttonStyle="text-align: left;"/>
+<ContactForm buttonText="Speak to an expert" />
 
 ## FAQ
 

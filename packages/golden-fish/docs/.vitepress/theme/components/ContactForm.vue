@@ -41,7 +41,7 @@ const props = defineProps<{
 
 const buttonTextValue = computed(() => props.buttonText || site.value.themeConfig.contact_form.defaultButtonText)
 const categoriesValue = computed(() => props.services || site.value.themeConfig.contact_form.defaultCategories)
-const styleValue = computed(() => props.buttonStyle || "display: block; text-align: center;")
+const styleValue = computed(() => props.buttonStyle || "text-align: center;")
 const buttonTheme = computed(() => props.buttonClass || "brand")
 const categoryLabelValue = computed(() => props.categoryLabel || site.value.themeConfig.contact_form.category)
 const categoryPlaceholderValue = computed(() => props.categoryPlaceholderText || site.value.themeConfig.contact_form.categoryPlaceholder)
