@@ -1,16 +1,16 @@
 ---
 layout: home
-title: "Negócios nos EAU Sem Risco | Sem Aprovação, Sem Pagamento"
-description: "Modelo revolucionário de formação de empresas nos EAU: você só paga após o sucesso. Orientação especializada em todas as etapas com taxa de sucesso superior a 90%."
+title: "Negócios nos Emirados Árabes Unidos sem Risco | Sem Aprovação, Sem Pagamento"
+description: "Modelo revolucionário de constituição de empresa nos EAU: você paga apenas após o sucesso. Orientação especializada em todas as etapas com taxa de sucesso de 90%+."
 showSponsors: false
 
 hero:
-  name: "Formação de Empresa nos EAU: Compartilhamos Seu Risco"
+  name: "Constituição de Empresa nos EAU: Compartilhamos Seu Risco"
   # text: Payment by results
-  tagline: "Invista em seu negócio com confiança: só recebemos após o registro bem-sucedido da empresa. <span class='hl'>Seu sucesso é nosso único objetivo</span>."
+  tagline: "Invista em seu negócio com confiança: só recebemos pagamento após o registro bem-sucedido da empresa. <span class='hl'>Seu sucesso é nosso único objetivo</span>."
   actions:
     - theme: brand
-      text: Chat com especialista
+      text: Chat instantâneo com especialista
       link: /chat
   image:
     light:
@@ -24,7 +24,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Suas Vantagens — Nossa Responsabilidade',
-  details: 'Os EAU oferecem numerosas vantagens para empreendedores e investidores internacionais que buscam um ambiente de negócios favorável. \n\n* Baixas Taxas: Apenas 9% de imposto corporativo e 5% de IVA sem imposto de renda pessoal\n* 100% de Propriedade Estrangeira: Controle total da sua empresa sem parceiros locais\n* Sem Controle Cambial: Repatriação de lucros e câmbio de moeda sem restrições\n\n[Mostrar lista completa](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  details: 'Os EAU oferecem inúmeras vantagens para empreendedores e investidores internacionais que buscam um ambiente de negócios favorável. \n\n* Baixas Taxas de Impostos: Apenas 9% de imposto corporativo e 5% de IVA sem imposto de renda pessoal\n* 100% de Propriedade Estrangeira: Controle completo de sua empresa sem parceiros locais\n* Sem Controles de Moeda: Repatriação de lucros e câmbio de moeda sem restrições\n\n[Mostrar lista completa](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-1331100622.jpg',
@@ -36,7 +36,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Desafios que Enfrentamos Juntos',
-  details: 'Embora os EAU ofereçam muitos benefícios, as empresas devem estar cientes dos possíveis desafios ao estabelecer operações. \n\n* Ambiente Regulatório Complexo: Diferentes regulamentações entre emirados e free zones\n* Requisitos de Substância Econômica: Funcionários locais e espaço físico necessários para certas atividades\n* Altos Custos Iniciais: Taxas de registro, documentação e aluguéis obrigatórios de escritório\n\n[Mostrar lista completa](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  details: 'Embora os EAU ofereçam muitos benefícios, as empresas devem estar cientes dos desafios potenciais ao estabelecer operações. \n\n* Ambiente Regulatório Complexo: Diferentes regulamentações entre emirados e Free Zones\n* Requisitos de Substância Econômica: Pessoal local e espaço de escritório físico necessários para certas atividades\n* Altos Custos Iniciais: Taxas de registro, documentação e aluguéis de escritório obrigatórios\n\n[Mostrar lista completa](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
       light: '/img/iStock-1299393716.avif',
@@ -48,7 +48,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Suporte Completo: Passo a Passo com Você',
-  details: 'Guia completo para estabelecer empresas na **free zone, offshore, mainland, branch**. \n\n* 100% de Propriedade Estrangeira disponível em Free Zones e Mainland\n* Baixas Taxas - apenas 9% de imposto corporativo\n* Sem Controle Cambial - fácil repatriação de capital\n\n[Saiba mais](/uae-business/company-registration/overview)',
+  details: 'Guia completo para constituir empresas na **Free Zone, offshore, Mainland, filial**. \n\n* 100% de Propriedade Estrangeira disponível em Free Zones e Mainland\n* Baixas Taxas de Impostos - apenas 9% de imposto corporativo\n* Sem Controles de Moeda - fácil repatriação de capital\n\n[Saiba mais](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -61,7 +61,7 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Abertura de Conta Bancária',
-    details: 'Abra facilmente contas bancárias empresariais ou pessoais com os bancos confiáveis dos EAU.',
+    details: 'Abra facilmente **contas bancárias** empresariais ou pessoais com os bancos confiáveis dos EAU.',
     items: [
       'Serviços PRO completos para aprovações governamentais',
       'Configuração completa do pacote bancário',
@@ -77,10 +77,10 @@ hero:
   },
   {
     title: 'Golden Visa e Residência',
-    details: 'Obtenha um **Golden Visa** dos EAU para residência de longo prazo com um processo de solicitação simplificado.',
+    details: 'Obtenha um **Golden Visa** dos EAU para residência de longo prazo com um processo de solicitação sem complicações.',
     items: [
-      '**Sem necessidade de entrar nos EAU a cada 6 meses**',
-      'Validade de 10 anos com opção de renovação mantendo as condições qualificadoras',
+      '**Não é necessário entrar nos EAU a cada 6 meses**',
+      'Validade de 10 anos com opção de renovação mediante manutenção das condições qualificatórias',
       '92% de taxa de sucesso'
     ],
     linkText: 'Saiba mais',
@@ -105,23 +105,23 @@ hero:
   }
 ]" />
 
-## Por que Escolher a Golden Fish
+## Por que escolher a Golden Fish
 
 <BenefitsList :features="[
   {
     icon: '🏢',
-    title: 'Expertise Local nos EAU',
+    title: 'Especialistas locais nos Emirados Árabes Unidos',
     text: 'Especialistas dedicados em Dubai oferecem orientação especializada em cada etapa do processo.'
   },
   {
     icon: '📊',
-    title: 'Taxa de Sucesso Comprovada',
-    text: 'Mais de 90% de taxa de aprovação com centenas de vistos, contas bancárias e registros de empresas emitidos através do nosso processamento premium.'
+    title: 'Taxa de sucesso comprovada',
+    text: 'Mais de 90% de aprovação com centenas de vistos, contas bancárias e registros de empresas emitidos através do nosso processamento premium.'
   },
   {
     icon: '💸',
-    title: '**Taxas Baseadas no Sucesso**',
-    text: '[Pague apenas após a aprovação](/uae-business/benefits/success-based-fees). Transparência total sem custos ocultos.'
+    title: '**Taxas baseadas no sucesso**',
+    text: '[Pague somente após a aprovação](/uae-business/benefits/success-based-fees). Transparência total, sem custos ocultos.'
   },
 ]" />
 
@@ -131,9 +131,9 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Fale com um especialista" formStyle="display: block; margin: 1rem auto;"/>
+<ContactForm buttonText="Fale com um especialista" />
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração para os EAU' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração para os EAU' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração nos Emirados Árabes Unidos' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Imigração nos Emirados Árabes Unidos' },
 ]"/> -->

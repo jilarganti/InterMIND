@@ -14,17 +14,17 @@ hideComponents:
 
 # Contactez-nous
 
-Vous souhaitez établir ou développer votre entreprise aux ÉAU ? Contactez Golden Fish Corporate Services Provider LLC - votre agent agréé pour la formation d'entreprise, les services PRO et l'assistance visa.
+Vous cherchez à établir ou développer votre entreprise aux Émirats arabes unis ? Contactez Golden Fish Corporate Services Provider LLC - votre agent enregistré pour la création d'entreprise, les services PRO et l'assistance visa.
 
 **Détails de la licence :**
 
-- Numéro de licence : 1414192
-- Numéro d'enregistrement : 2411728
+- N° de licence : 1414192
+- N° d'enregistrement : 2411728
 
-**Emplacement du bureau :**  
+**Localisation du bureau :**  
 City Avenue Building  
 Bureau 405-070, Port Saeed  
-Dubaï, ÉAU
+Dubaï, Émirats arabes unis
 
 **Contactez-nous :**
 
@@ -37,6 +37,6 @@ Dubaï, ÉAU
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
 > [!IMPORTANT] Pourquoi nous choisir ?
-> Avec une équipe de professionnels expérimentés et un engagement envers des services personnalisés, nous garantissons une expérience fluide et efficace pour nos clients, leur permettant de se concentrer sur l'essentiel : le développement de leur entreprise aux ÉAU.
+> Avec une équipe de professionnels compétents et un engagement envers des services personnalisés, nous garantissons une expérience fluide et efficace pour nos clients, leur permettant de se concentrer sur ce qui compte le plus – développer leur entreprise aux Émirats arabes unis.
 
-<ContactFormModalNav buttonText="Parler à un expert" formStyle="display: block; margin: 2rem auto;"/>
+<ContactForm buttonText="Parler à un expert" />

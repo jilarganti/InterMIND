@@ -1,15 +1,16 @@
 ---
 layout: home
-title: "Entreprise aux EAU Sans Risque | Pas d'Approbation, Pas de Paiement"
-description: "Modèle révolutionnaire de création d'entreprise aux EAU : vous ne payez qu'après le succès. Accompagnement expert à chaque étape avec un taux de réussite de 90%+"
+title: "Entreprise aux EAU sans risque | Pas d'approbation, pas de paiement"
+description: "Modèle révolutionnaire de création d'entreprise aux EAU : vous ne payez qu'après le succès. Accompagnement expert à chaque étape avec un taux de réussite de 90%+."
 showSponsors: false
 
 hero:
-  name: "Création d'Entreprise aux EAU : Nous Partageons Votre Risque"
-  tagline: "Investissez dans votre entreprise en toute confiance : nous ne sommes payés qu'après l'enregistrement réussi de votre société. <span class='hl'>Votre succès est notre seul objectif</span>."
+  name: "Création d'entreprise aux EAU : nous partageons votre risque"
+  # text: Payment by results
+  tagline: "Investissez dans votre entreprise en toute confiance : nous ne sommes payés qu'après l'enregistrement réussi de l'entreprise. <span class='hl'>Votre succès est notre seul objectif</span>."
   actions:
     - theme: brand
-      text: Discussion instantanée avec un expert
+      text: Chat expert instantané
       link: /chat
   image:
     light:
@@ -22,8 +23,8 @@ hero:
 ---
 
 <FeatureBlock :card="{
-  title: 'Vos Avantages — Notre Responsabilité',
-  details: 'Les EAU offrent de nombreux avantages aux entrepreneurs et investisseurs internationaux à la recherche d\'un environnement commercial favorable. \n\n* Taux d\'Imposition Bas : Seulement 9% d\'impôt sur les sociétés et 5% de TVA sans impôt sur le revenu\n* 100% de Propriété Étrangère : Contrôle total de votre entreprise sans partenaires locaux\n* Pas de Contrôle des Changes : Rapatriement des bénéfices et change de devises sans restriction\n\n[Afficher la liste complète](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
+  title: 'Vos avantages — notre responsabilité',
+  details: 'Les EAU offrent de nombreux avantages aux entrepreneurs et investisseurs internationaux recherchant un environnement commercial favorable. \n\n* Taux d\'imposition faibles : seulement 9% d\'impôt sur les sociétés et 5% de TVA sans impôt sur le revenu des particuliers\n* 100% de propriété étrangère : contrôle complet de votre entreprise sans partenaires locaux\n* Aucun contrôle des changes : rapatriement des bénéfices et change de devises sans restriction\n\n[Afficher la liste complète](/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#benefits-of-doing-business-in-the-uae',
   src: {
     light: '/img/iStock-1331100622.jpg',
@@ -34,20 +35,20 @@ hero:
 }" />
 
 <FeatureBlock :card="{
-  title: 'Défis que Nous Relevons Ensemble',
-  details: 'Bien que les EAU offrent de nombreux avantages, les entreprises doivent être conscientes des défis potentiels lors de l\'établissement de leurs activités. \n\n* Environnement Réglementaire Complexe : Différentes réglementations selon les émirats et les free zones\n* Exigences de Substance Économique : Personnel local et espace de bureau physique nécessaires pour certaines activités\n* Coûts Initiaux Élevés : Frais d\'enregistrement, documentation et locations de bureaux obligatoires\n\n[Afficher la liste complète](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
+  title: 'Défis que nous relevons ensemble',
+  details: 'Bien que les EAU offrent de nombreux avantages, les entreprises doivent être conscientes des défis potentiels lors de l\'établissement d\'opérations. \n\n* Environnement réglementaire complexe : différentes réglementations selon les émirats et les Free Zone\n* Exigences de substance économique : personnel local et espace de bureau physique nécessaires pour certaines activités\n* Coûts initiaux élevés : frais d\'enregistrement, documentation et locations de bureaux obligatoires\n\n[Afficher la liste complète](/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae)',
   link: '/uae-business/company-registration/benefits-problems#disadvantages-of-doing-business-in-the-uae',
   src: {
-    light: '/img/iStock-1299393716.avif',
-    dark: '/img/iStock-2149731304.avif',
+      light: '/img/iStock-1299393716.avif',
+      dark: '/img/iStock-2149731304.avif',
     width: '100%'
   },
   inversion: true
 }" />
 
 <FeatureBlock :card="{
-  title: 'Accompagnement Complet : Étape par Étape avec Vous',
-  details: 'Guide complet pour créer des entreprises en **free zone, offshore, mainland, branch**. \n\n* 100% de Propriété Étrangère disponible en Free Zones et Mainland\n* Taux d\'Imposition Bas - seulement 9% d\'impôt sur les sociétés\n* Pas de Contrôle des Changes - rapatriement facile des capitaux\n\n[En savoir plus](/uae-business/company-registration/overview)',
+  title: 'Accompagnement complet : étape par étape avec vous',
+  details: 'Guide complet pour créer des entreprises en **Free Zone, offshore, Mainland, succursale**. \n\n* 100% de propriété étrangère disponible dans les Free Zone et Mainland\n* Taux d\'imposition faibles - seulement 9% d\'impôt sur les sociétés\n* Aucun contrôle des changes - rapatriement facile des capitaux\n\n[En savoir plus](/uae-business/company-registration/overview)',
   link: '/uae-business/company-registration/overview',
   src: {
     light: '/video/iStock-1204982076.mp4',
@@ -59,39 +60,39 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Ouverture de Compte Bancaire',
-    details: 'Ouvrez facilement des **comptes bancaires** professionnels ou personnels auprès des banques de confiance des EAU.',
+    title: 'Ouverture de compte bancaire',
+    details: 'Ouvrez facilement des **comptes bancaires** professionnels ou personnels avec les banques de confiance des EAU.',
     items: [
-      'Services PRO complets pour les approbations gouvernementales',
+      'Services PRO de bout en bout pour les approbations gouvernementales',
       'Configuration complète du package bancaire',
-      'Taux de réussite de 96%'
+      '96% de taux de réussite'
     ],
     linkText: 'En savoir plus',
     link: '/uae-business/offer/banking/',
     icon: {
       light: '/img/iStock-2153786564.avif',
       dark: '/img/iStock-2166793628.avif',
-      alt: 'Services Bancaires'
+      alt: 'Services bancaires'
     }
   },
   {
-    title: 'Golden Visa & Résidence',
-    details: 'Obtenez un **Golden Visa** des EAU pour une résidence à long terme avec un processus de demande simplifié.',
+    title: 'Golden Visa et résidence',
+    details: 'Obtenez un **Golden Visa** des EAU pour une résidence à long terme avec un processus de demande fluide.',
     items: [
       '**Pas besoin d\'entrer aux EAU tous les 6 mois**',
-      'Validité de 10 ans avec option de renouvellement sous conditions',
-      'Taux de réussite de 92%'
+      'Validité de 10 ans avec option de renouvellement en maintenant les conditions qualifiantes',
+      '92% de taux de réussite'
     ],
     linkText: 'En savoir plus',
     link: '/uae-business/offer/golden-visa/',
     icon: {
       light: '/img/iStock-1312241253.avif',
       dark: '/img/ILONMASKID.webp',
-      alt: 'Services de Visa'
+      alt: 'Services de visa'
     }
   },
   {
-    title: 'Découvrez plus de nos services aux entreprises',
+    title: 'Explorez davantage nos services d\'entreprise',
     details: '',
     items: [],
     linkText: 'En savoir plus',
@@ -99,28 +100,28 @@ hero:
     icon: {
       light: '/img/iStock-473502112.avif',
       dark: '/img/iStock-1160827423.avif',
-      alt: 'Plus de Services'
+      alt: 'Plus de services'
     }
   }
 ]" />
 
-## Pourquoi Choisir Golden Fish
+## Pourquoi choisir Golden Fish
 
 <BenefitsList :features="[
   {
     icon: '🏢',
-    title: 'Expertise Locale aux EAU',
-    text: 'Des spécialistes dédiés à Dubai fournissent des conseils d\'experts à chaque étape du processus.'
+    title: 'Expertise locale aux EAU',
+    text: 'Des spécialistes dédiés à Dubaï fournissent des conseils d\'expert à chaque étape du processus.'
   },
   {
     icon: '📊',
-    title: 'Taux de Réussite Prouvé',
-    text: 'Plus de 90% de taux d\'approbation avec des centaines de visas, comptes bancaires et enregistrements d\'entreprises délivrés via notre traitement premium.'
+    title: 'Taux de réussite prouvé',
+    text: 'Plus de 90% de taux d\'approbation avec des centaines de visas, comptes bancaires et enregistrements d\'entreprises délivrés grâce à notre traitement premium.'
   },
   {
     icon: '💸',
-    title: '**Frais Basés sur le Succès**',
-    text: '[Payez uniquement après approbation](/uae-business/benefits/success-based-fees). Transparence totale sans frais cachés.'
+    title: '**Frais basés sur le succès**',
+    text: '[Payez seulement après approbation](/uae-business/benefits/success-based-fees). Transparence complète sans coûts cachés.'
   },
 ]" />
 
@@ -130,9 +131,9 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Parler à un expert" formStyle="display: block; margin: 1rem auto;"/>
+<ContactForm buttonText="Parler à un expert" />
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Immigration aux EAU' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Immigration aux EAU' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Immigration EAU' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'Immigration EAU' },
 ]"/> -->

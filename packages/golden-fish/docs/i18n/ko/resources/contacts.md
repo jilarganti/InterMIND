@@ -14,11 +14,11 @@ hideComponents:
 
 # 문의하기
 
-UAE에서 사업을 시작하거나 성장시키고 싶으신가요? 회사 설립, PRO 서비스, 비자 지원을 위한 등록 대리인인 Golden Fish Corporate Services Provider LLC에 문의하세요.
+UAE에서 사업을 시작하거나 확장하고 싶으신가요? Golden Fish Corporate Services Provider LLC에 연락하세요 - 회사 설립, PRO 서비스, 비자 지원을 위한 등록 대리인입니다.
 
-**라이센스 정보:**
+**라이선스 정보:**
 
-- 라이센스 번호: 1414192
+- 라이선스 번호: 1414192
 - 등록 번호: 2411728
 
 **사무실 위치:**  
@@ -37,6 +37,6 @@ Dubai, UAE
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
 > [!IMPORTANT] 왜 저희를 선택해야 할까요?
-> 전문 지식을 갖춘 팀과 맞춤형 서비스에 대한 헌신으로, 고객이 가장 중요한 것에 집중할 수 있도록 - UAE에서의 비즈니스 성장을 위해 원활하고 효율적인 경험을 보장합니다.
+> 지식이 풍부한 전문가 팀과 맞춤형 서비스에 대한 헌신으로, 고객이 가장 중요한 것에 집중할 수 있도록 원활하고 효율적인 경험을 보장합니다 – UAE에서 사업을 성장시키는 것입니다.
 
-<ContactFormModalNav buttonText="전문가와 상담하기" formStyle="display: block; margin: 2rem auto;"/>
+<ContactForm buttonText="전문가와 상담하기" />

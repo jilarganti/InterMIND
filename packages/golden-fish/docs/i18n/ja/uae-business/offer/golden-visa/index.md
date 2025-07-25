@@ -1,16 +1,16 @@
 ---
 layout: home
-title: "UAEゴールデンビザ | 成功報酬型サービス"
-description: "前払い手数料なしのプレミアム10年居住ビザ - 承認後のみ支払い。98％の成功率で申請を完全サポート。更新サービス無料、政府手数料のみ。"
+title: "UAEゴールデンビザ | 成功報酬制サービス"
+description: "前払い費用ゼロのプレミアム10年居住ビザ - 承認後のみお支払い。98%の成功率で完全な申請管理。無料更新サービス、政府手数料のみ。"
 showSponsors: false
 
 hero:
   name: "UAEゴールデンビザ"
-  text: 成功報酬制
-  tagline: 10年居住ビザ。<span class="hl">前払い手数料なし</span> - 承認後のみ支払い。98％の成功率。
+  text: 成果報酬制
+  tagline: 10年居住権。<span class="hl">前払い費用ゼロ</span> - 承認後のみお支払い。98%の成功率。
   actions:
     - theme: brand
-      text: 専門家とすぐチャット
+      text: 専門家とのインスタントチャット
       link: /chat
   image:
     light:
@@ -19,20 +19,20 @@ hero:
     dark:
       src: /img/Logo.avif
       width: 50%
-    alt: Golden Fish ロゴ
+    alt: Golden Fishロゴ
 ---
 
 <FeatureCards :features="[
   {
     title: 'UAEゴールデンビザの特典',
     items: [
-      '資格要件を維持することで10年間有効、更新可能',
-      '**6ヶ月ごとのUAE入国が不要**',
-      '100％事業所有権が許可',
-      '家族メンバーと無制限の家事労働者のスポンサーシップ可能',
+      '資格条件を維持することで更新可能な10年間の有効期間',
+      '**6ヶ月ごとにUAEに入国する必要なし**',
+      '100%事業所有権が認められる',
+      '家族および無制限の家事使用人のスポンサー',
       '25歳までの子供のスポンサーシップ',
-      '両親のスポンサーシップ含む',
-      'スポンサーや雇用主が不要'
+      '両親のスポンサーシップも含まれる',
+      'スポンサーや雇用主は不要'
     ],
     linkText: '詳細を見る',
     link: '../../company-registration/golden-visa#key-benefits-of-the-uae-golden-visa',
@@ -45,13 +45,14 @@ hero:
   },
   {
     title: 'UAEゴールデンビザの取得方法',
+    // details: 'Choose your qualification path:',
     items: [
-      'UAE不動産に200万AEDの投資',
-      'UAE投資ファンドに200万AEDの預金',
-      '200万AEDの資本を持つビジネス',
+      'UAE不動産への200万AED投資',
+      'UAE投資ファンドへの200万AED預金',
+      '200万AED資本の事業',
       '年間25万AEDのFTA貢献',
-      '熟練専門家',
-      '特別な才能の保持者'
+      '熟練専門職',
+      '才能の天才'
     ],
     linkText: '詳細を見る',
     link: '../../company-registration/golden-visa#uae-golden-visa-eligibility-and-requirements',
@@ -63,15 +64,15 @@ hero:
     }
   },
   {
-    title: 'ゴールデンビザの手続き',
+    title: 'ゴールデンビザプロセス',
     bullet: '✓',
     items: [
       '初期資格評価',
-      '書類準備と確認',
+      '書類準備と検証',
       '健康診断と生体認証',
       '申請提出と処理',
       'Emirates IDとビザ発行',
-      '家族ビザスポンサーシップ（任意）'
+      '家族ビザスポンサーシップ（オプション）'
     ],
     linkText: '詳細を見る',
     link: '../../company-registration/golden-visa#uae-golden-visa-application-process',
@@ -84,35 +85,35 @@ hero:
   }
 ]" />
 
-## なぜ Golden Fish を選ぶのか
+## Golden Fishを選ぶ理由
 
 <BenefitsList :features="[
   {
     icon: '🏢',
-    title: 'UAEでの現地専門知識',
-    text: 'ドバイの専門スタッフが、プロセスの各段階で専門的なガイダンスを提供します。'
+    title: 'UAE現地の専門知識',
+    text: 'ドバイの専門スペシャリストが、プロセスの各段階で専門的なガイダンスを提供します。'
   },
   {
     icon: '📊',
-    title: '実績ある成功率',
-    text: '当社のプレミアム処理サービスを通じて、90%以上の承認率を誇り、数百件のビザ、銀行口座開設、企業登録の実績があります。'
+    title: '実績のある成功率',
+    text: '90%以上の承認率で、当社のプレミアム処理により数百のビザ、銀行口座、会社登録を発行しています。'
   },
   {
     icon: '💸',
     title: '**成功報酬制**',
-    text: '[承認後のみの支払い](/uae-business/benefits/success-based-fees)。隠れた費用のない完全な透明性を提供します。'
+    text: '[承認後のみお支払い](/uae-business/benefits/success-based-fees)。隠れたコストなしの完全な透明性。'
   },
 ]" />
 
-## 無料相談で資格要件を確認し、オプションについて話し合いましょう。
+## 無料相談を予約して、あなたの資格を確認し、選択肢について話し合いましょう。
 
 <video  autoplay muted playsinline style="padding: 24px" >
   <source src="/img/iStock-2185912341.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="専門家に相談する" formStyle="display: block; margin: 1rem auto;"/>
+<ContactForm buttonText="専門家に相談する" />
 
 <!-- <ImageGrid :images="[
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAEの移民' },
-  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAEの移民' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAE移民' },
+  { src: '/img/ILONMASKID.webp', href: './immigration.md', alt: 'UAE移民' },
 ]"/> -->

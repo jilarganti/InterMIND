@@ -1,13 +1,17 @@
 ---
 layout: home
-title: "Perbankan Korporat UAE | Layanan Berbasis Success Fee"
-description: "Rekening korporat multi-mata uang premium tanpa biaya di muka - bayar hanya setelah persetujuan. Manajemen aplikasi lengkap dengan tingkat keberhasilan 96%. Pembukaan rekening dijamin."
+title: "Perbankan Korporat UAE | Layanan Berbasis Biaya Sukses"
+description: "Akun korporat multi-mata uang premium tanpa biaya di muka - bayar hanya setelah persetujuan. Manajemen aplikasi lengkap dengan tingkat keberhasilan 96%. Pembukaan akun terjamin."
 showSponsors: false
 
 hero:
   name: "Perbankan UAE: Pelabuhan Aman Anda"
-  # text: Zero upfront fees
-  tagline: Jaminan persetujuan rekening korporat di 2025. <span class="hl">Tanpa biaya di muka</span> - bayar hanya setelah persetujuan. Tingkat keberhasilan 96%.
+  # text: Tanpa biaya di muka
+  tagline: Persetujuan akun bank korporat terjamin di tahun 2025. <span class="hl">Tanpa biaya di muka</span> - bayar hanya setelah persetujuan. Tingkat keberhasilan 96%.
+  actions:
+    - theme: brand
+      text: Chat ahli instan
+      link: /chat
   image:
     light:
       src: /img/Logo.avif
@@ -20,17 +24,17 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Jaminan Persetujuan Rekening',
+    title: 'Persetujuan Akun Terjamin',
     bullet: '✓',
     items: [
-      'Jaminan dua bulan untuk persetujuan rekening pertama',
-      'Jaminan tiga bulan untuk rekening kedua',
-      'Penyusunan rencana bisnis berkualitas',
+      'Jaminan dua bulan untuk persetujuan akun pertama',
+      'Jaminan tiga bulan untuk akun kedua',
+      'Persiapan rencana bisnis berkualitas',
       'Dukungan uji tuntas komprehensif',
       'Strategi komunikasi langsung dengan bank',
       'Pengaturan paket perbankan lengkap'
     ],
-    linkText: 'Learn more',
+    linkText: 'Pelajari lebih lanjut',
     link: '../../corporate-banking-services/guaranteed-account-approvals',
     icon: {
       light: '/video/iStock-2186765808.mp4',
@@ -42,16 +46,16 @@ hero:
 
 <FeatureCards :features="[
   {
-    title: 'Rekening bank UAE untuk bisnis berisiko tinggi',
+    title: 'Akun bank UAE untuk bisnis berisiko tinggi',
     items: [
-      'Panduan ahli tentang enhanced due diligence (EDD)',
-      'Pemantauan transaksi dan manajemen risiko',
+      'Panduan ahli tentang uji tuntas yang ditingkatkan (EDD)',
+      'Pemantauan transaksi dan manajemen risiko', 
       'Pengaturan kebijakan dan prosedur kepatuhan',
       'Manajemen hubungan bank',
-      'Pembaruan dan audit kepatuhan rutin',
-      'Perencanaan kontingensi untuk keamanan rekening'
+      'Pembaruan kepatuhan dan audit berkala',
+      'Perencanaan kontinjensi untuk keamanan akun'
     ],
-    linkText: 'Learn more',
+    linkText: 'Pelajari lebih lanjut',
     link: '../../corporate-banking-services/UAE-Bank-Accounts-for-High-Risk-Business',
     icon: {
       light: '/img/iStock-1333000394.avif',
@@ -62,15 +66,15 @@ hero:
   {
     title: 'Tetap patuh: Lindungi bisnis UAE Anda',
     items: [
-      'Audit kepatuhan rutin untuk mengidentifikasi potensi risiko',
+      'Audit kepatuhan berkala untuk mengidentifikasi risiko potensial',
       'Layanan PRO end-to-end untuk persetujuan pemerintah',
-      'Manajemen pembaruan lisensi dan peringatan',
-      'Konsultasi perbankan dan pemeliharaan rekening',
+      'Manajemen perpanjangan lisensi dan peringatan',
+      'Konsultasi perbankan dan pemeliharaan akun',
       'Dukungan kepatuhan VAT dan ESR',
       'Visa karyawan dan kepatuhan hukum ketenagakerjaan',
-      'Lokakarya pelatihan tentang pembaruan regulasi'
+      'Workshop pelatihan tentang pembaruan regulasi'
     ],
-    linkText: 'Learn more',
+    linkText: 'Pelajari lebih lanjut',
     link: '../../company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1382278859.jpg',
@@ -81,7 +85,7 @@ hero:
   {
     title: 'Manfaat Perbankan Korporat UAE',
     items: [
-      'Sistem perbankan kuat dengan peringkat Moody\'s **Aa2**',
+      'Sistem perbankan yang kuat dengan rating **Aa2** Moody\'s',
       '**Nilai tukar USD tetap sejak 1980**',
       'Tidak ada pembatasan pergerakan modal',
       'Cadangan devisa lebih dari US$184 miliar',
@@ -89,7 +93,7 @@ hero:
       'Sistem perbankan yang didukung pemerintah',
       'Perbankan digital kelas dunia'
     ],
-    linkText: 'Learn more',
+    linkText: 'Pelajari lebih lanjut',
     link: '../../company-registration/banking',
     icon: {
       light: '/img/iStock-1032707788.jpg',
@@ -99,7 +103,7 @@ hero:
   }
 ]" />
 
-## Golden Fish merekomendasikan bank-bank berikut untuk klien kami:
+## Golden Fish merekomendasikan bank-bank berikut kepada klien kami:
 
 <!--@include: /../../include/recommended-banks.md-->
 
@@ -109,12 +113,12 @@ hero:
   {
     icon: '🏢',
     title: 'Keahlian Lokal UAE',
-    text: 'Spesialis berdedikasi di Dubai memberikan panduan ahli di setiap tahap proses.'
+    text: 'Spesialis berpengalaman di Dubai memberikan panduan ahli melalui setiap langkah proses.'
   },
   {
     icon: '📊',
     title: 'Tingkat Keberhasilan Terbukti',
-    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan pendaftaran perusahaan yang diproses melalui layanan premium kami.'
+    text: 'Tingkat persetujuan lebih dari 90% dengan ratusan visa, rekening bank, dan registrasi perusahaan yang dikeluarkan melalui pemrosesan premium kami.'
   },
   {
     icon: '💸',
@@ -123,6 +127,6 @@ hero:
   },
 ]" />
 
-## Jadwalkan konsultasi gratis untuk membahas kebutuhan perbankan korporat Anda
+## Pesan konsultasi gratis untuk membahas kebutuhan perbankan korporat Anda
 
-<ContactFormModalNav buttonText="Bicara dengan ahli" formStyle="display: block; margin: 3rem auto;"/>
+<ContactForm buttonText="Bicara dengan ahli" />

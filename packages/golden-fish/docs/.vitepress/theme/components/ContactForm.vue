@@ -107,7 +107,7 @@ const closeModal = () => {
 
 <template>
   <div :style="styleValue" class="contact-form-button-wrapper">
-    <button class="VPButton" :class="[`medium`, buttonTheme]" @click="showModal = true" type="button">
+    <button class="VPButton" :class="[buttonTheme]" @click="showModal = true" type="button">
       {{ buttonTextValue }}
     </button>
   </div>
@@ -255,7 +255,7 @@ const closeModal = () => {
   color: var(--vp-c-text-1);
 }
 
-contact-form input:focus {
+.contact-form input:focus {
   outline: none;
   border-color: var(--vp-c-brand);
 }

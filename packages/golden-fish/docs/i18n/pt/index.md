@@ -1,17 +1,17 @@
 ---
 layout: home
-title: "Serviços de Formação de Empresas nos EAU"
-description: "Serviços especializados de formação e suporte empresarial nos EAU. Constituição de empresas, soluções bancárias, fiscais, jurídicas e de vistos. Pagamento somente após aprovação."
+title: "Serviços de Constituição de Empresas nos Emirados Árabes Unidos"
+description: "Serviços especializados de constituição e suporte empresarial nos EAU. Abertura de empresas, serviços bancários, tributários, jurídicos e de visto. Pague apenas após aprovação."
 showSponsors: false
 
 hero:
   name: "EAU: Seu Porto Seguro Financeiro"
   # text: We speak your tongue
-  tagline: "Consulta especializada de 5 minutos: Descubra como abrir sua empresa nos EAU <span class='hl'>sem riscos</span>"
+  tagline: "Consulta especializada de 5 minutos: Descubra como estabelecer seu negócio nos EAU <span class='hl'>sem riscos</span>"
   # tagline: "5 minutes with our expert = Your complete UAE business roadmap"
   actions:
     - theme: brand
-      text: Chat com especialista
+      text: Chat instantâneo com especialista
       link: /chat
   image:
     light:
@@ -21,11 +21,12 @@ hero:
       src: /img/Logo.avif
       width: 40%
     alt: Logo Golden Fish
+
 ---
 
 <FeatureBlock :card="{
-  title: 'Guia de Abertura de Empresa',
-  details: 'Guia completo para abrir empresas na **free zone, offshore, mainland, branch**. \n\n* 100% de Propriedade Estrangeira disponível em Free Zones e Mainland\n* Baixas Taxas de Impostos - apenas 9% de imposto corporativo\n* Sem Controle Cambial - fácil repatriação de capital\n\n[Learn more](/uae-business/offer/company-registration/)',
+  title: 'Guia de Constituição de Empresas',
+  details: 'Guia completo para constituir empresas em **Free Zone, offshore, Mainland, filial**. \n\n* 100% de Propriedade Estrangeira disponível em Free Zones e Mainland\n* Baixas Taxas de Impostos - apenas 9% de imposto corporativo\n* Sem Controles Cambiais - fácil repatriação de capital\n\n[Saiba mais](/uae-business/offer/company-registration/)',
   link: '/uae-business/offer/company-registration/',
   src: {
     light: '/img/iStock-2051326997.avif',
@@ -37,7 +38,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Soluções Bancárias',
-  details: 'Abra facilmente contas bancárias empresariais ou pessoais com os bancos confiáveis dos EAU. \n\n* Serviços PRO completos para aprovações governamentais\n* Configuração completa do pacote bancário\n* **96% de taxa de sucesso**\n\n[Learn more](/uae-business/offer/banking/)',
+  details: 'Abra facilmente contas bancárias empresariais ou pessoais com os bancos confiáveis dos EAU. \n\n* Serviços PRO completos para aprovações governamentais\n* Configuração completa de pacote bancário\n* **96% de taxa de sucesso**\n\n[Saiba mais](/uae-business/offer/banking/)',
   link: '/uae-business/offer/banking/',
   src: {
     light: '/img/iStock-2153786564.avif',
@@ -49,7 +50,7 @@ hero:
 
 <FeatureBlock :card="{
   title: 'Golden Visa e Residência',
-  details: 'Obtenha um **Golden Visa** dos EAU para residência de longo prazo com um processo de solicitação simplificado. \n\n* **Sem necessidade de entrar nos EAU a cada 6 meses**\n* Validade de 10 anos com opção de renovação mantendo as condições qualificadoras\n* 92% de taxa de sucesso\n\n[Learn more](/uae-business/offer/golden-visa/)',
+  details: 'Obtenha um **Golden Visa** dos EAU para residência de longo prazo com um processo de solicitação simplificado. \n\n* **Não é necessário entrar nos EAU a cada 6 meses**\n* Validade de 10 anos com opção de renovação mediante manutenção das condições qualificatórias\n* 92% de taxa de sucesso\n\n[Saiba mais](/uae-business/offer/golden-visa/)',
   link: '/uae-business/offer/golden-visa/',
   src: {
     light: '/img/iStock-1312241253.avif',
@@ -62,9 +63,9 @@ hero:
 <FeatureCards :features="[
   {
     title: 'Serviços de Conformidade',
-    details: 'Nossos especialistas o guiam através dos complexos requisitos regulatórios dos EAU, incluindo relatórios ESR e registros UBO.',
+    details: 'Nossos especialistas orientam você através dos complexos requisitos regulatórios dos EAU, incluindo relatórios ESR e registros UBO.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Saiba mais',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-1299393716.avif',
@@ -74,21 +75,21 @@ hero:
   },
   {
     title: 'Imposto Corporativo e VAT',
-    details: 'Consultoria especializada garante conformidade com obrigações de Imposto Corporativo e VAT junto à Autoridade Federal Tributária (FTA).',
+    details: 'Consultoria especializada garante conformidade com as obrigações de Imposto Corporativo e VAT junto à Autoridade Tributária Federal (FTA).',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Saiba mais',
     link: '/uae-business/company-registration/accounting-legal',
     icon: {
       light: '/img/iStock-1018285934.avif',
       dark: '/img/iStock-584576538.avif',
-      alt: 'Serviços Fiscais'
+      alt: 'Serviços Tributários'
     }
   },
   {
     title: 'Serviços Jurídicos',
-    details: 'Equipe jurídica orienta sobre as leis dos EAU referentes a M&As, reestruturação corporativa, financiamento e resolução de disputas.',
+    details: 'Equipe jurídica aconselha sobre as leis dos EAU referentes a F&A, reestruturação corporativa, financiamento e resolução de disputas.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Saiba mais',
     link: '/uae-business/company-registration/Protect-Your-Business',
     icon: {
       light: '/img/iStock-650045508.avif',
@@ -98,25 +99,25 @@ hero:
   },
   {
     title: 'Contabilidade e Folha de Pagamento',
-    details: 'Nossos contadores gerenciam finanças, fornecendo contabilidade, reconciliação, folha de pagamento e suporte à auditoria, economizando custos de contratação.',
+    details: 'Nossos contadores gerenciam finanças, fornecendo escrituração, conciliação, folha de pagamento e suporte de auditoria, economizando custos de contratação.',
     items: [],
-    linkText: 'Learn more',
+    linkText: 'Saiba mais',
     link: '/resources/contacts',
     icon: {
       light: '/img/iStock-1022793868.avif',
       dark: '/img/iStock-1320130292.jpg',
-      alt: 'Serviços Contábeis'
+      alt: 'Serviços de Contabilidade'
     }
   },
 ]" />
 
-## Por que Escolher a Golden Fish
+## Por Que Escolher a Golden Fish
 
 <BenefitsList :features="[
   {
     icon: '🏢',
-    title: 'Expertise Local nos EAU',
-    text: 'Especialistas dedicados em Dubai oferecem orientação especializada em cada etapa do processo.'
+    title: 'Expertise Local dos Emirados Árabes Unidos',
+    text: 'Especialistas dedicados em Dubai fornecem orientação especializada em cada etapa do processo.'
   },
   {
     icon: '📊',
@@ -126,7 +127,7 @@ hero:
   {
     icon: '💸',
     title: '**Taxas Baseadas no Sucesso**',
-    text: '[Pague apenas após a aprovação](/uae-business/benefits/success-based-fees). Transparência total sem custos ocultos.'
+    text: '[Pague apenas após a aprovação](/uae-business/benefits/success-based-fees). Transparência completa sem custos ocultos.'
   },
 ]" />
 
@@ -136,56 +137,56 @@ hero:
   <source src="/img/iStock-2185906461.mp4" type="video/mp4">
 </video>
 
-<ContactFormModalNav buttonText="Fale com um especialista" formStyle="display: block; margin: 1rem auto;"/>
+<ContactForm buttonText="Falar com um especialista" />
 
-## Perguntas Frequentes
+## FAQ
 
-:::details Perguntas Frequentes sobre Abertura de Empresa nos EAU
+:::details Perguntas Frequentes sobre Abertura de Empresa nos Emirados Árabes Unidos
 
 ### Requisitos Gerais de Propriedade
 
-**Existem restrições de propriedade para estrangeiros que abrem uma empresa nos EAU?**
+**Haverá restrições de propriedade se estrangeiros abrirem uma empresa nos Emirados Árabes Unidos?**
 
-Certas entidades empresariais dos EAU, como aquelas envolvidas em setores estratégicos específicos, exigirão que os clientes nomeiem acionista(s) emiradense(s). Portanto, é essencial escolher a entidade empresarial ideal para atender às suas necessidades corporativas ao prosseguir com a abertura de uma empresa nos EAU.
+Certas entidades comerciais nos Emirados Árabes Unidos, como aquelas envolvidas em setores estratégicos específicos, exigirão que os clientes nomeiem acionistas Emiratis. Portanto, escolher a entidade empresarial ideal para atender às suas necessidades corporativas é essencial para prosseguir com a abertura de empresa nos EAU.
 
 **Minha empresa pode ser 100% de propriedade estrangeira?**
 
 Sim, a maioria das atividades comerciais permite 100% de propriedade estrangeira.
 
-### Registro de Empresa
+### Registro da Empresa
 
-**Como registrar uma empresa na free trade zone dos EAU?**
+**Como registrar uma empresa na Free Trade Zone dos Emirados Árabes Unidos?**
 
-Para incorporação de uma entidade na free zone nos EAU, a Golden Fish irá:
+Para a incorporação de uma entidade em free zone nos EAU, a Golden Fish irá:
 
-1. Obter as permissões necessárias das autoridades relevantes.
+1. Obter as permissões necessárias das autoridades competentes.
 2. Reservar o nome da empresa.
 3. Preparar os documentos de incorporação.
-4. Autenticar os documentos nos tribunais públicos.
+4. Reconhecer os documentos em cartório público.
 5. Solicitar a licença comercial.
 6. Registrar a empresa para VAT (se necessário).
 7. Obter vistos de trabalho para clientes e seus funcionários.
 
-**Quais são os benefícios de abrir uma entidade na free zone nos EAU?**
+**Quais são os benefícios de iniciar uma entidade em free zone nos Emirados Árabes Unidos?**
 
-As empresas da free zone nos EAU oferecem diversos benefícios, incluindo:
+As empresas em free zone nos EAU oferecem vários benefícios, incluindo:
 
-1. Sem necessidade de acionista residente, ou seja, uma empresa FZ pode ser 100% de propriedade estrangeira.
-2. Sem obrigação de contratar funcionários.
-3. Sem taxas alfandegárias para mercadorias entrando ou saindo da zona.
+1. Não há exigência de acionista residente, ou seja, uma empresa FZ pode ser 100% de propriedade estrangeira.
+2. Não há obrigação de contratar funcionários.
+3. Isenção de impostos alfandegários sobre mercadorias que entram ou saem da zona.
 4. Infraestrutura de alta qualidade.
 
 ### Diretores e Acionistas
 
-**Quantos diretores devem ser nomeados para registro em uma free trade zone nos EAU?**
+**Quantos diretores devem ser nomeados para registrar uma empresa em uma free trade zone dos Emirados Árabes Unidos?**
 
-Apenas um diretor é necessário para formar uma empresa na free zone dos EAU.
+Apenas um diretor é necessário para formar uma empresa em free zone nos EAU.
 
-**Quantos acionistas são necessários para incorporação em uma free trade zone nos EAU?**
+**Quantos acionistas são necessários para incorporar uma empresa em uma free trade zone dos Emirados Árabes Unidos?**
 
-Apenas um acionista é necessário para iniciar uma entidade na free zone nos EAU.
+Apenas um acionista é necessário para iniciar uma entidade em free zone nos EAU.
 
-**Quantos acionistas são necessários para uma empresa offshore nos EAU?**
+**Quantos acionistas são necessários para uma empresa offshore nos Emirados Árabes Unidos?**
 
 Apenas um acionista é necessário para iniciar uma empresa offshore nos EAU.
 
@@ -193,47 +194,47 @@ Apenas um acionista é necessário para iniciar uma empresa offshore nos EAU.
 
 Não.
 
-**Os detalhes dos acionistas/diretores estão disponíveis para visualização pública?**
+**Os dados de acionistas/diretores estão disponíveis para consulta pública?**
 
 Não.
 
 ### Logística e Instalações
 
-**Preciso visitar os EAU para incorporar uma empresa lá?**
+**É necessário visitar os Emirados Árabes Unidos para incorporar uma empresa lá?**
 
-Não, a Golden Fish pode legalmente incorporar sua empresa nos EAU sem necessidade de viagem.
+Não, a Golden Fish pode legalmente incorporar sua empresa nos EAU sem que você precise viajar.
 
-**Preciso alugar instalações para minha empresa?**
+**Preciso alugar um espaço para minha empresa?**
 
-Os requisitos variam com base no tipo de empresa:
+Os requisitos variam conforme o tipo de empresa:
 
-| Tipo de Empresa   | Requisito de Escritório                                                               |
-| ----------------- | ------------------------------------------------------------------------------------ |
-| Empresa Free Zone | Um contrato de aluguel para escritório ou flexi-desk é necessário antes da incorporação. |
-| Empresa Mainland  | Apenas um endereço virtual ou registrado é necessário.                                |
-| Empresa Offshore  | Apenas um endereço virtual ou registrado é necessário.                                |
+| Tipo de Empresa   | Requisito de Escritório                                                                 |
+| ----------------- | --------------------------------------------------------------------------------------- |
+| Free Zone Company | É necessário um contrato de locação para escritório ou um flexi-desk antes da incorporação. |
+| Mainland Company  | Apenas um endereço virtual ou registrado é necessário.                                  |
+| Offshore Company  | Apenas um endereço virtual ou registrado é necessário.                                  |
 
 Esta tabela comparativa ajuda a esclarecer as diferenças entre os requisitos para empresas free zone, mainland e offshore.
 
 ### Conformidade e Tributação
 
-**Precisarei fazer uma auditoria completa se abrir uma pequena empresa nos EAU?**
+**Será necessário realizar uma auditoria completa se eu abrir uma pequena empresa nos Emirados Árabes Unidos?**
 
 Sim, a maioria das entidades exigirá demonstrações financeiras auditadas.
 
-**Quais são as implicações fiscais de uma abertura de empresa nos EAU?**
+**Quais são as implicações fiscais da abertura de uma empresa nos Emirados Árabes Unidos?**
 
-O Imposto de Renda Corporativo (CIT) foi implementado nos EAU com uma taxa padrão de 9%. Além disso, dependendo do volume e natureza do negócio, algumas empresas estão sujeitas ao VAT (5%) e/ou taxas alfandegárias. Setores específicos, como petróleo e gás e filiais de bancos estrangeiros, podem ter considerações ou isenções fiscais especiais.
+O Imposto sobre a Renda Corporativa (CIT) foi implementado nos EAU com uma alíquota padrão de 9%. Além disso, dependendo do volume e da natureza do negócio, algumas empresas são obrigadas a pagar VAT (5%) e/ou impostos alfandegários. Indústrias específicas, como petróleo e gás e filiais de bancos estrangeiros, podem ter considerações fiscais especiais ou isenções.
 
-**Uma empresa dos EAU é obrigada a apresentar declaração fiscal anual e/ou demonstração financeira?**
+**Uma empresa nos Emirados Árabes Unidos é obrigada a apresentar declaração anual de imposto e/ou demonstração financeira?**
 
-Sim, todas as empresas nos EAU são obrigadas a apresentar contas auditadas anuais ao governo.
+Sim, todas as empresas nos EAU são obrigadas a apresentar contas anuais auditadas ao governo.
 
 ### Soluções Bancárias
 
-**Quais bancos são recomendados para soluções bancárias empresariais nos EAU?**
+**Quais bancos são recomendados para soluções bancárias empresariais nos Emirados Árabes Unidos?**
 
-A Golden Fish recomenda várias opções de bancos locais dos EAU, incluindo:
+A Golden Fish recomenda várias opções de bancos locais nos EAU, incluindo:
 
 1. Emirates NBD
 2. First Abu Dhabi Bank
@@ -241,20 +242,20 @@ A Golden Fish recomenda várias opções de bancos locais dos EAU, incluindo:
 4. Dubai Islamic Bank
 5. Mashreq Bank
 
-Estes bancos são conhecidos pelo bom atendimento ao cliente, essencial ao iniciar um novo negócio nos EAU.
+Esses bancos são conhecidos pelo bom atendimento ao cliente, essencial ao iniciar um novo negócio nos EAU.
 
-**Como abrir uma conta bancária offshore nos EAU?**
+**Como abrir uma conta bancária offshore nos Emirados Árabes Unidos?**
 
-Os clientes não precisarão registrar uma empresa local para abrir uma conta bancária offshore nos EAU. No entanto, os procedimentos KYC serão mais rigorosos do que para abrir uma conta bancária para uma empresa residente. Documentos de autenticação também serão necessários. Consulte [nosso guia de abertura de conta bancária para empresas dos EAU](./uae-business/company-registration/banking) para informações mais detalhadas.
+Os clientes não precisarão registrar uma empresa local para abrir uma conta bancária offshore nos EAU. No entanto, os procedimentos de KYC serão mais rigorosos do que para abrir uma conta para uma empresa residente. Documentos de atestação também serão exigidos. Consulte [nosso guia de abertura de conta bancária para empresas nos EAU](./uae-business/company-registration/banking) para informações mais detalhadas.
 
-**A Golden Fish pode auxiliar com serviços bancários islâmicos nos EAU?**
+**A Golden Fish pode ajudar com serviços de Banking Islâmico nos Emirados Árabes Unidos?**
 
-Sim, a Golden Fish pode auxiliar clientes com suas necessidades bancárias islâmicas.
+Sim, a Golden Fish pode auxiliar os clientes com suas necessidades de banking islâmico.
 
 ### Vistos e Residência
 
-**Por quanto tempo é emitido um visto de residência empresarial nos EAU?**
+**Por quanto tempo é emitido o visto de residência empresarial nos Emirados Árabes Unidos?**
 
-As permissões de residência empresarial nos EAU são tipicamente emitidas por 2 a 3 anos.
+Os vistos de residência empresarial nos EAU são normalmente emitidos por 2 a 3 anos.
 
 :::

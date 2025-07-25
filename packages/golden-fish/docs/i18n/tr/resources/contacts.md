@@ -14,19 +14,19 @@ hideComponents:
 
 # Bize Ulaşın
 
-BAE'de işinizi kurmak veya büyütmek mi istiyorsunuz? Şirket kuruluşu, PRO hizmetleri ve vize desteği konusunda kayıtlı temsilciniz Golden Fish Corporate Services Provider LLC ile iletişime geçin.
+BAE'de işinizi kurmak veya büyütmek mi istiyorsunuz? Golden Fish Corporate Services Provider LLC ile iletişime geçin - şirket kuruluşu, PRO hizmetleri ve vize yardımı için kayıtlı temsilciniz.
 
-**Lisans Bilgileri:**
+**Lisans Detayları:**
 
 - Lisans No: 1414192
-- Sicil No: 2411728
+- Kayıt No: 2411728
 
 **Ofis Konumu:**  
 City Avenue Building  
-Office 405-070, Port Saeed  
-Dubai, UAE
+Ofis 405-070, Port Saeed  
+Dubai, BAE
 
-**İletişim Bilgileri:**
+**İletişim:**
 
 - E-posta: info@goldenfish.ae
 - Telefon: +971 058 574 88 06
@@ -37,6 +37,6 @@ Dubai, UAE
 Telegram us at [@goldenfish_ae](https://t.me/goldenfish_ae) -->
 
 > [!IMPORTANT] Neden Bizi Seçmelisiniz?
-> Bilgili profesyonellerden oluşan ekibimiz ve kişiselleştirilmiş hizmet taahhüdümüz ile müşterilerimize sorunsuz ve verimli bir deneyim sunarak, onların en önemli konuya - BAE'de işlerini büyütmeye - odaklanmalarını sağlıyoruz.
+> Bilgili profesyonellerden oluşan ekibimiz ve kişiselleştirilmiş hizmetlere olan bağlılığımızla, müşteriler için sorunsuz ve verimli bir deneyim sağlıyor, onların en önemli konuya odaklanmalarına olanak tanıyoruz – BAE'de işlerini büyütmek.
 
-<ContactFormModalNav buttonText="Bir uzmana danışın" formStyle="display: block; margin: 2rem auto;"/>
+<ContactForm buttonText="Bir uzmanla konuşun" />
