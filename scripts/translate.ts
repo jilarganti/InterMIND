@@ -35,7 +35,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 // Получаем путь к конфигу из аргументов командной строки
-const configPath = process.argv[2] || "./config.js"
+const configPath = process.argv[2]
 const resolvedConfigPath = path.resolve(configPath)
 const { config } = (await import(`file://${resolvedConfigPath}`)) as { config: Config }
 
@@ -48,7 +48,7 @@ function resolveFromConfig(relativePath: string) {
 }
 
 // Импорт prompt функции
-const promptModulePath = path.resolve(configDir, "translatePrompt.js")
+const promptModulePath = path.resolve(configDir, "translatePrompt.ts")
 const { getPromptForTranslation } = await import(`file://${promptModulePath}`)
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
