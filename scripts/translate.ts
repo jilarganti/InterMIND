@@ -1,3 +1,27 @@
+/**
+ * Automated translation script for project documentation and files
+ *
+ * Description:
+ * - Translates Markdown, Vue, TypeScript and JavaScript files into multiple languages
+ * - Uses AI models (OpenAI GPT-4 and Anthropic Claude) for high-quality translations
+ * - Automatically switches between models on errors
+ * - Synchronizes file structure between originals and translations
+ * - Translates only modified files (incremental translation)
+ * - Optionally validates translated files for compilation errors
+ * - Automatically retranslates problematic files with alternative models when errors are detected
+ *
+ * Usage:
+ * tsx translate.ts <config-path>
+ *
+ * Example:
+ * tsx ../../scripts/translate.ts ./scripts/translateConfig.ts
+ *
+ * Requirements:
+ * - Environment variables: OPENAI_API_KEY, ANTHROPIC_API_KEY
+ * - Configuration file with translation settings
+ * - translatePrompt.ts file with getPromptForTranslation function
+ */
+
 import Anthropic from "@anthropic-ai/sdk"
 import OpenAI from "openai"
 import * as fs from "fs"
@@ -56,28 +80,35 @@ dotenv.config({ path: [".vercel/.env.development.local", ".env.local"] })
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-// Получаем путь к конфигу из аргументов командной строки
+// Get config path from command line arguments
 const configPath = process.argv[2]
 const resolvedConfigPath = path.resolve(configPath)
 const { config } = (await import(`file://${resolvedConfigPath}`)) as { config: Config }
 
-// Определяем базовую директорию конфига для правильного разрешения путей
+// Define base config directory for proper path resolution
 const configDir = path.dirname(resolvedConfigPath)
 
-// Функция для разрешения путей относительно конфига
+/**
+ * Resolves relative paths from the configuration file directory
+ * @param relativePath - Relative path
+ * @returns Absolute path
+ */
 function resolveFromConfig(relativePath: string) {
   return path.resolve(configDir, relativePath)
 }
 
-// Импорт prompt функции
+// Import prompt function
 const promptModulePath = config.promptModule ? resolveFromConfig(config.promptModule) : path.resolve(configDir, "translatePrompt.ts")
 const { getPromptForTranslation } = await import(`file://${promptModulePath}`)
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
-const xai = new OpenAI({ apiKey: process.env.XAI_API_KEY, baseURL: "https://api.x.ai/v1" })
 
-// Функция для получения следующей модели из конфига
+/**
+ * Gets the next model from configuration for fallback mechanism
+ * @param currentModel - Current model
+ * @returns Next model key or null if no more models available
+ */
 function getNextModel(currentModel: string) {
   const modelEntries = Object.entries(config.models)
   const currentIndex = modelEntries.findIndex(([key]) => key === currentModel)
@@ -89,14 +120,19 @@ function getNextModel(currentModel: string) {
   return modelEntries[currentIndex + 1][0]
 }
 
-// Функция для применения всех необходимых замен в контенте
+/**
+ * Applies necessary replacements to translated content
+ * @param content - Translated content
+ * @param langCode - Language code
+ * @returns Content with applied replacements
+ */
 function applyContentReplacements(content: string, langCode: string) {
   let modifiedContent = content
 
-  // Замена для конфигов
+  // Config replacement
   modifiedContent = modifiedContent.replace(/export const en =/, `export const ${langCode} =`)
 
-  // Замена BASE_PATH
+  // BASE_PATH replacement
   modifiedContent = modifiedContent.replace(/BASE_PATH = ""/, `BASE_PATH = "/${langCode}"`)
 
   return modifiedContent
@@ -128,18 +164,6 @@ async function translateWithClaude(content: string, targetLang: string, langCode
   return match ? match[1].trim() : result
 }
 
-async function translateWithGrok(content: string, targetLang: string, langCode: string) {
-  const completion = await xai.chat.completions.create({
-    model: config.models.grok.name,
-    temperature: 0,
-    messages: [{ role: "user", content: getPromptForTranslation(content, targetLang, langCode) }],
-  })
-
-  const result = completion.choices[0].message.content || ""
-  const match = result.match(/<translated_markdown>([\s\S]*)<\/translated_markdown>/)
-  return match ? match[1].trim() : result
-}
-
 async function translateWithModel(model: string, content: string, targetLang: string, langCode: string) {
   let translatedContent
   switch (model) {
@@ -149,21 +173,18 @@ async function translateWithModel(model: string, content: string, targetLang: st
     case "claude":
       translatedContent = await translateWithClaude(content, targetLang, langCode)
       break
-    case "grok":
-      translatedContent = await translateWithGrok(content, targetLang, langCode)
-      break
     default:
-      throw new Error(`Неизвестная модель: ${model}`)
+      throw new Error(`Unknown model: ${model}`)
   }
 
-  // Проверяем на неполный перевод
+  // Check for incomplete translation
   // if (/\[[^[\]]+(\.\.\.|[?])\]/.test(translatedContent)) {
-  //   throw new Error("Неполный перевод")
+  //   throw new Error("Incomplete translation")
   // }
 
-  // Проверяем что текст не заканчивается на неполный перевод
+  // Check if text ends with incomplete translation
   if (/\[[^<][^[\]]*?(\.\.\.|[?])\]\s*$/.test(translatedContent)) {
-    throw new Error("Неполный перевод")
+    throw new Error("Incomplete translation")
   }
 
   return translatedContent.trim()
@@ -176,18 +197,18 @@ async function translateMarkdown(content: string, currentModel: string, targetLa
     const translatedContent = await translateWithModel(currentModel, content, targetLang, langCode)
     return translatedContent
   } catch (error) {
-    // Получаем следующую модель
+    // Get next model
     const nextModel = getNextModel(currentModel)
 
     if (nextModel) {
-      console.log(`⚠️ Ошибка перевода с моделью ${currentModel}: ${error.message}`)
-      console.log(`↪️ Пробуем модель ${nextModel}...`)
-      // Рекурсивно вызываем перевод со следующей моделью
+      console.log(`⚠️ Translation error with model ${currentModel}: ${error.message}`)
+      console.log(`↪️ Trying model ${nextModel}...`)
+      // Recursively call translation with next model
       return await translateMarkdown(content, nextModel, targetLang, langCode)
     }
 
-    // Если следующей модели нет - пробрасываем ошибку
-    console.error(`❌ Все модели перевода исчерпаны. Последняя ошибка: ${error.message}`)
+    // If no more models - throw error
+    console.error(`❌ All translation models exhausted. Last error: ${error.message}`)
     throw error
   }
 }
@@ -213,7 +234,7 @@ async function getAllFiles(dir: string): Promise<string[]> {
     if (stat.isDirectory()) {
       files.push(...(await getAllFiles(fullPath)))
     } else {
-      // Возвращаем все файлы, не только с разрешенными расширениями
+      // Return all files, not just those with allowed extensions
       files.push(fullPath)
     }
   }
@@ -241,17 +262,17 @@ async function needsTranslation(sourceFile, targetFile) {
 }
 
 async function syncFileStructure() {
-  console.log("🔍 Синхронизация файловой структуры переводов...")
+  console.log("🔍 Synchronizing translation file structure...")
 
   const rootDir = resolveFromConfig(config.rootDir)
   const rootTranslateDir = resolveFromConfig(config.rootTranslateDir)
 
-  // Проверяем существование директорий
+  // Check directory existence
   if (!fs.existsSync(rootDir)) {
-    throw new Error(`Исходная директория не найдена: ${rootDir}`)
+    throw new Error(`Source directory not found: ${rootDir}`)
   }
 
-  // Получаем структуру оригинальных файлов
+  // Get original files structure
   const originalFiles = new Set()
   const originalDirs = new Set()
 
@@ -264,21 +285,21 @@ async function syncFileStructure() {
     }
   }
 
-  // Собираем все оригинальные пути
+  // Collect all original paths
   const files = await getAllFiles(rootDir)
   files.forEach(processOriginalPath)
 
-  // Проверяем каждый язык
+  // Check each language
   for (const [langCode, lang] of Object.entries(config.languages)) {
     const langDir = path.join(rootTranslateDir, lang.code)
     if (!fs.existsSync(langDir)) continue
 
-    console.log(`\n📂 Проверка структуры ${lang.name}...`)
+    console.log(`\n📂 Checking ${lang.name} structure...`)
     let removedFiles = 0
     let removedDirs = 0
     let removedLogs = 0
 
-    // Проверяем файлы перевода
+    // Check translated files
     async function checkTranslatedFiles(dir: string) {
       const items = fs.readdirSync(dir)
 
@@ -296,7 +317,7 @@ async function syncFileStructure() {
           if (item.endsWith(".log")) {
             fs.unlinkSync(fullPath)
             removedLogs++
-            console.log(`🗑️  Удален лог файл: ${path.relative(langDir, fullPath)}`)
+            console.log(`🗑️  Deleted log file: ${path.relative(langDir, fullPath)}`)
           } else {
             const ext = path.extname(item)
             if (config.allowedExtensions.includes(ext)) {
@@ -306,7 +327,7 @@ async function syncFileStructure() {
               if (!originalFiles.has(originalPath)) {
                 fs.unlinkSync(fullPath)
                 removedFiles++
-                console.log(`🗑️  Удален устаревший файл: ${relativePath}`)
+                console.log(`🗑️  Deleted outdated file: ${relativePath}`)
               }
             }
           }
@@ -316,7 +337,7 @@ async function syncFileStructure() {
 
     await checkTranslatedFiles(langDir)
 
-    // Затем проверяем и удаляем пустые директории
+    // Then check and remove empty directories
     function removeEmptyDirs(dir: string) {
       const items = fs.readdirSync(dir)
 
@@ -327,7 +348,7 @@ async function syncFileStructure() {
           if (fs.readdirSync(fullPath).length === 0) {
             fs.rmdirSync(fullPath)
             removedDirs++
-            console.log(`🗑️  Удалена пустая директория: ${path.relative(langDir, fullPath)}`)
+            console.log(`🗑️  Removed empty directory: ${path.relative(langDir, fullPath)}`)
           }
         }
       }
@@ -336,15 +357,15 @@ async function syncFileStructure() {
     removeEmptyDirs(langDir)
 
     if (removedFiles > 0 || removedDirs > 0 || removedLogs > 0) {
-      console.log(`✨ Очищено ${removedFiles} файлов, ${removedDirs} директорий и ${removedLogs} лог файлов`)
+      console.log(`✨ Cleaned ${removedFiles} files, ${removedDirs} directories and ${removedLogs} log files`)
     } else {
-      console.log(`✨ Структура актуальна`)
+      console.log(`✨ Structure is up to date`)
     }
   }
 }
 
 async function cleanupTranslations() {
-  console.log("🧹 Проверка устаревших конфигов...")
+  console.log("🧹 Checking for outdated configs...")
 
   const configTranslateDir = resolveFromConfig(config.configTranslateDir)
 
@@ -371,11 +392,11 @@ async function cleanupTranslations() {
   }
 
   if (totalRemoved > 0) {
-    console.log(`\n🗑️ Удалено ${totalRemoved} устаревших языковых конфигов:`)
+    console.log(`\n🗑️ Removed ${totalRemoved} outdated language configs:`)
     removedFiles.forEach((file) => console.log(`  - ${file}`))
     console.log("")
   } else {
-    console.log("✨ Устаревших языковых конфигов не найдено\n")
+    console.log("✨ No outdated language configs found\n")
   }
 }
 
@@ -419,19 +440,19 @@ async function translateFile(file: string, targetPath: string, lang: Language, f
 }
 
 /**
- * Запускает сборку проекта и возвращает файлы с ошибками компиляции
+ * Runs project build and returns files with compilation errors
  */
 async function checkBuildErrors(rootDir: string): Promise<FileWithError[]> {
-  console.log("\n🔍 Проверка ошибок компиляции...")
+  console.log("\n🔍 Checking compilation errors...")
 
   try {
-    // Получаем родительскую директорию (корень монорепозитория)
+    // Get parent directory (monorepo root)
     const monorepoRoot = path.resolve(rootDir, "../../../")
 
-    // Используем команду сборки из конфига или дефолтную
+    // Use build command from config or default
     const buildCommand = config.buildCommand || "pnpm build"
 
-    // Запускаем сборку
+    // Run build
     const { exec } = await import("child_process")
     const { promisify } = await import("util")
     const execAsync = promisify(exec)
@@ -441,23 +462,23 @@ async function checkBuildErrors(rootDir: string): Promise<FileWithError[]> {
         cwd: monorepoRoot,
         env: { ...process.env, NODE_ENV: "production" },
       })
-      console.log("✅ Сборка прошла успешно!")
+      console.log("✅ Build completed successfully!")
       return []
     } catch (buildError: any) {
-      // Парсим ошибки из вывода сборки
+      // Parse errors from build output
       const errorOutput = buildError.stdout + buildError.stderr
       const filesWithErrors: FileWithError[] = []
       const processedFiles = new Set<string>()
 
-      // Паттерны для поиска ошибок в файлах
+      // Patterns to search for errors in files
       const patterns = [
-        // TypeScript/JavaScript ошибки
+        // TypeScript/JavaScript errors
         /([^\s]+\.(ts|js|vue)):\d+:\d+.*?(?:error|Error)/gi,
-        // Markdown/VitePress ошибки
+        // Markdown/VitePress errors
         /(?:Error|error).*?([^\s]+\.md)/gi,
-        // Vue SFC ошибки
+        // Vue SFC errors
         /\[vue.*?\].*?([^\s]+\.vue)/gi,
-        // Общий паттерн
+        // General pattern
         /([^\s]+\.(md|vue|ts|js)).*?(?:error|Error)/gi,
       ]
 
@@ -467,11 +488,11 @@ async function checkBuildErrors(rootDir: string): Promise<FileWithError[]> {
         for (const match of matches) {
           const errorFile = match[1]
 
-          // Проверяем, что это файл из директории переводов
+          // Check if this is a file from translations directory
           if ((errorFile.includes("/i18n/") || errorFile.includes("\\i18n\\")) && !processedFiles.has(errorFile)) {
             processedFiles.add(errorFile)
 
-            // Извлекаем язык и оригинальный путь из пути к файлу с ошибкой
+            // Extract language and original path from error file path
             const langMatch = errorFile.match(/[\/\\]i18n[\/\\]([^\/\\]+)[\/\\](.+)/)
             if (langMatch) {
               const langCode = langMatch[1]
@@ -479,7 +500,7 @@ async function checkBuildErrors(rootDir: string): Promise<FileWithError[]> {
               const lang = Object.values(config.languages).find((l) => l.code === langCode)
 
               if (lang) {
-                // Извлекаем более подробную информацию об ошибке
+                // Extract more detailed error information
                 const errorContext = match[0]
                 const lineMatch = errorContext.match(/:(\d+):(\d+)/)
                 const errorDetails = lineMatch ? `Line ${lineMatch[1]}, Column ${lineMatch[2]}` : errorContext
@@ -497,62 +518,62 @@ async function checkBuildErrors(rootDir: string): Promise<FileWithError[]> {
       }
 
       if (filesWithErrors.length > 0) {
-        console.log(`⚠️ Найдено ${filesWithErrors.length} файлов с ошибками компиляции`)
+        console.log(`⚠️ Found ${filesWithErrors.length} files with compilation errors`)
         return filesWithErrors
       }
 
-      // Если специфичные ошибки не найдены, но сборка провалилась
-      console.log("⚠️ Сборка завершилась с ошибками, но конкретные файлы не определены")
+      // If no specific errors found but build failed
+      console.log("⚠️ Build failed with errors, but specific files could not be determined")
       return []
     }
   } catch (error: any) {
-    console.error("❌ Ошибка при проверке сборки:", error.message)
+    console.error("❌ Error checking build:", error.message)
     return []
   }
 }
 
 /**
- * Перевод файлов с ошибками компиляции с использованием альтернативных моделей
+ * Retranslates files with compilation errors using alternative models
  */
 async function retranslateFilesWithErrors(filesWithErrors: FileWithError[], rootDir: string) {
   if (filesWithErrors.length === 0) return
 
-  console.log("\n🔄 Повторный перевод файлов с ошибками...")
+  console.log("\n🔄 Retranslating files with errors...")
 
-  // Получаем список моделей для fallback
+  // Get list of models for fallback
   const modelKeys = Object.keys(config.models)
 
   for (const fileWithError of filesWithErrors) {
-    console.log(`\n📝 Переводим заново: ${path.relative(rootDir, fileWithError.file)} → ${fileWithError.lang.name}`)
-    console.log(`   Ошибка: ${fileWithError.error}`)
+    console.log(`\n📝 Retranslating: ${path.relative(rootDir, fileWithError.file)} → ${fileWithError.lang.name}`)
+    console.log(`   Error: ${fileWithError.error}`)
 
     let translated = false
 
-    // Пробуем все модели по очереди
+    // Try all models in sequence
     for (let i = 1; i < modelKeys.length && !translated; i++) {
       const modelKey = modelKeys[i]
-      console.log(`   Пробуем модель: ${modelKey}`)
+      console.log(`   Trying model: ${modelKey}`)
 
       try {
         await translateFile(fileWithError.file, fileWithError.targetPath, fileWithError.lang, modelKey, rootDir)
 
-        // Проверяем, исправлена ли ошибка
+        // Check if error is fixed
         const newErrors = await checkBuildErrors(rootDir)
         const stillHasError = newErrors.some((e) => e.targetPath === fileWithError.targetPath && e.lang.code === fileWithError.lang.code)
 
         if (!stillHasError) {
-          console.log(`   ✅ Успешно переведено с моделью ${modelKey}`)
+          console.log(`   ✅ Successfully translated with model ${modelKey}`)
           translated = true
         } else {
-          console.log(`   ⚠️ Ошибка компиляции сохраняется`)
+          console.log(`   ⚠️ Compilation error persists`)
         }
       } catch (error: any) {
-        console.log(`   ❌ Ошибка перевода: ${error.message}`)
+        console.log(`   ❌ Translation error: ${error.message}`)
       }
     }
 
     if (!translated) {
-      console.error(`   ❌ Не удалось исправить ошибку ни с одной моделью`)
+      console.error(`   ❌ Could not fix error with any model`)
     }
   }
 }
@@ -581,25 +602,25 @@ async function copyAssetFile(sourceFile: string, targetPath: string, rootDir: st
 async function translateFiles() {
   try {
     const firstModelKey = Object.keys(config.models)[0]
-    console.log(`💡 Начинаем перевод с модели: ${firstModelKey}`)
+    console.log(`💡 Starting translation with model: ${firstModelKey}`)
 
     const rootDir = resolveFromConfig(config.rootDir)
     const rootTranslateDir = resolveFromConfig(config.rootTranslateDir)
     const configDirPath = resolveFromConfig(config.configDir)
     const configTranslateDir = resolveFromConfig(config.configTranslateDir)
 
-    console.log(`📁 Исходная директория: ${rootDir}`)
-    console.log(`📁 Директория переводов: ${rootTranslateDir}`)
+    console.log(`📁 Source directory: ${rootDir}`)
+    console.log(`📁 Translation directory: ${rootTranslateDir}`)
 
     await syncFileStructure()
     await cleanupTranslations()
 
-    // Исходный конфиг берем из configDir
+    // Get source config from configDir
     const sourceConfigPath = path.join(configDirPath, "en.ts")
-    console.log(`📝 Переводим конфиги из ${sourceConfigPath}`)
+    console.log(`📝 Translating configs from ${sourceConfigPath}`)
 
     if (!fs.existsSync(sourceConfigPath)) {
-      throw new Error(`Не найден исходный конфиг: ${sourceConfigPath}`)
+      throw new Error(`Source config not found: ${sourceConfigPath}`)
     }
 
     try {
@@ -611,7 +632,7 @@ async function translateFiles() {
         const startTime = Date.now()
 
         if (!(await needsTranslation(sourceConfigPath, targetConfigPath))) {
-          console.log(`✨ Конфиг ${lang.name} актуален`)
+          console.log(`✨ Config ${lang.name} is up to date`)
           continue
         }
 
@@ -627,17 +648,17 @@ async function translateFiles() {
           fs.writeFileSync(targetConfigPath, finalConfig)
 
           const duration = ((Date.now() - startTime) / 1000).toFixed(1)
-          console.log(`✅ Конфиг → ${lang.name} (${duration}s)`)
+          console.log(`✅ Config → ${lang.name} (${duration}s)`)
         } catch (error) {
-          console.error(`❌ Конфиг → ${lang.name}: ${error.message}`)
+          console.error(`❌ Config → ${lang.name}: ${error.message}`)
         }
       }
     } catch (error) {
-      console.error(`❌ Ошибка чтения конфига:`, error.message)
+      console.error(`❌ Error reading config:`, error.message)
     }
 
     const files = await getAllFiles(rootDir)
-    console.log(`📝 Найдено ${files.length} файлов в ${rootDir}`)
+    console.log(`📝 Found ${files.length} files in ${rootDir}`)
 
     const translatableTasks: TranslateTask[] = []
     const assetTasks: AssetTask[] = []
@@ -663,11 +684,11 @@ async function translateFiles() {
     const totalTasks = translatableTasks.length + assetTasks.length
 
     if (totalTasks === 0) {
-      console.log("✨ Все файлы актуальны!")
+      console.log("✨ All files are up to date!")
       return
     }
 
-    console.log(`⏳ Требуется обработать ${totalTasks} файлов (${translatableTasks.length} для перевода, ${assetTasks.length} для копирования)`)
+    console.log(`⏳ Need to process ${totalTasks} files (${translatableTasks.length} for translation, ${assetTasks.length} for copying)`)
 
     for (const task of assetTasks) {
       await copyAssetFile(task.file, task.targetPath, rootDir)
@@ -677,18 +698,18 @@ async function translateFiles() {
       await translateFile(task.file, task.targetPath, task.lang, firstModelKey, rootDir)
     }
 
-    // Проверяем ошибки компиляции после перевода (если включено в конфиге)
+    // Check compilation errors after translation (if enabled in config)
     if (config.checkBuildErrors) {
       const filesWithErrors = await checkBuildErrors(rootDir)
 
       if (filesWithErrors.length > 0) {
-        // Повторно переводим файлы с ошибками
+        // Retranslate files with errors
         await retranslateFilesWithErrors(filesWithErrors, rootDir)
 
-        // Финальная проверка
+        // Final check
         const finalErrors = await checkBuildErrors(rootDir)
         if (finalErrors.length > 0) {
-          console.log("\n⚠️ Остались файлы с ошибками компиляции:")
+          console.log("\n⚠️ Files with compilation errors remain:")
           for (const error of finalErrors) {
             console.log(`  - ${path.relative(rootDir, error.file)} → ${error.lang.name}`)
           }
@@ -696,9 +717,9 @@ async function translateFiles() {
       }
     }
 
-    console.log("\n✨ Готово!")
+    console.log("\n✨ Done!")
   } catch (error) {
-    console.error(`❌ Ошибка:`, error.message)
+    console.error(`❌ Error:`, error.message)
   }
 }
 
