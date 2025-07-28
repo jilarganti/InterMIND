@@ -2,7 +2,18 @@
  * Automated translation script for project documentation and files
  *
  * Description:
- * - Translates Markdown, Vue, TypeScript and JavaScript files into multiple languages
+ * - Translates Markdown, Vue, TypeScript and JavaScript files intoasync function trasync function translateWithClaude(content: string, targetLang: string, langCode: string, modelIndex: number = 0) {
+  const message = await anthropic.messages.create({
+    model: getModelName('claude', modelIndex),
+    max_tokens: 4096,
+    temperature: 0,
+    messages: [{ role: "user", content: getPromptForTranslation(content, targetLang) }],
+  })WithOpenAI(content: string, targetLang: string, langCode: string, modelIndex: number = 0) {
+  const completion = await openai.chat.completions.create({
+    model: getModelName('gpt4', modelIndex),
+    temperature: 0,
+    messages: [{ role: "user", content: getPromptForTranslation(content, targetLang) }],
+  })ple languages
  * - Uses AI models (OpenAI GPT-4 and Anthropic Claude) for high-quality translations
  * - Automatically switches between models on errors
  * - Synchronizes file structure between originals and translations

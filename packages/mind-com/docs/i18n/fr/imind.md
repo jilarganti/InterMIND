@@ -56,10 +56,10 @@ Ce paramètre de langue unique s'applique à :
 - La **sortie traduite** (ce que vous entendez)
 
 | Participant   | Langue Sélectionnée | Parle En | Entend En |
-| ------------- | ------------------- | -------- | --------- |
-| Hôte          | Espagnol            | Espagnol | Espagnol  |
-| Participant 1 | Anglais             | Anglais  | Anglais   |
-| Participant 2 | Chinois             | Chinois  | Chinois   |
+| ------------- | ------------------- | -------- | -------- |
+| Hôte          | Espagnol            | Espagnol | Espagnol |
+| Participant 1 | Anglais             | Anglais  | Anglais  |
+| Participant 2 | Chinois             | Chinois  | Chinois  |
 
 [La plateforme interprète automatiquement tous les discours en temps réel](./product/overview/how-it-works) — ainsi, tout le monde communique comme s'il parlait la même langue.
 
@@ -83,7 +83,7 @@ Changer cela signifie :
 
 ## Tarification claire et simple
 
-De l'appel initial aux conversations fluides — à n'importe quelle échelle.
+De l'appel initial aux conversations fluides — à toute échelle.
 
 <PricingPlansSection />
 
@@ -95,13 +95,7 @@ De l'appel initial aux conversations fluides — à n'importe quelle échelle.
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-> [!tip] 🥇 Votre temps est mieux utilisé à maîtriser votre art — pas à mémoriser la grammaire.
-
----
-title: "Questions Fréquemment Posées"
-description: "Trouvez des réponses aux questions courantes sur nos services et produits."
-
----
+> [!tip] 🥇 Votre temps est mieux dépensé à maîtriser votre métier — pas à mémoriser la grammaire.
 
 ## Questions Fréquemment Posées
 
