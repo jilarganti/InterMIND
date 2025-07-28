@@ -112,6 +112,34 @@ function resolveFromConfig(relativePath: string) {
 const promptModulePath = config.promptModule ? resolveFromConfig(config.promptModule) : path.resolve(configDir, "translatePrompt.ts")
 const { getPromptForTranslation } = await import(`file://${promptModulePath}`)
 
+/**
+ * Validates that required API keys are available
+ */
+function validateApiKeys() {
+  const missingKeys: string[] = []
+
+  if (!process.env.OPENAI_API_KEY) {
+    missingKeys.push("OPENAI_API_KEY")
+  }
+
+  if (!process.env.ANTHROPIC_API_KEY) {
+    missingKeys.push("ANTHROPIC_API_KEY")
+  }
+
+  if (missingKeys.length > 0) {
+    console.error("❌ Missing required environment variables:")
+    missingKeys.forEach((key) => console.error(`   - ${key}`))
+    console.error("\n💡 To fix this:")
+    console.error("   1. Run: vercel pull")
+    console.error("   2. Or set the environment variables manually in .env.local")
+    console.error("")
+    process.exit(1)
+  }
+}
+
+// Validate API keys before creating clients
+validateApiKeys()
+
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 
