@@ -30,10 +30,8 @@ export const config = {
   },
 
   models: {
-    claude: { name: "claude-4-sonnet-20250514" },
-    gpt4: { name: "gpt-4.1-mini" },
-    // claude: { name: "claude-3-5-haiku-20241022" },
-    grok: { name: "grok-2-latest" },
+    gpt4: ["gpt-4o-mini"],
+    claude: ["claude-3-5-sonnet-20241022", "claude-4-sonnet-20250514"],
   },
   exclude: ["test"],
   allowedExtensions: [".md", ".vue", ".svg"],
