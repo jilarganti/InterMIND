@@ -5,6 +5,26 @@ import * as path from "path"
 import * as dotenv from "dotenv"
 import { fileURLToPath } from "url"
 
+interface Language {
+  code: string
+  name: string
+}
+
+interface Model {
+  name: string
+}
+
+interface Config {
+  rootDir: string
+  rootTranslateDir: string
+  configDir: string
+  configTranslateDir: string
+  languages: Record<string, Language>
+  models: Record<string, Model>
+  exclude?: string[]
+  allowedExtensions: string[]
+}
+
 /**
  * Run "vercal pull" to load environment variables
  * @see https://vercel.com/docs/cli/pull
@@ -17,13 +37,13 @@ const __dirname = path.dirname(__filename)
 // Получаем путь к конфигу из аргументов командной строки
 const configPath = process.argv[2] || "./config.js"
 const resolvedConfigPath = path.resolve(configPath)
-const { config } = await import(`file://${resolvedConfigPath}`)
+const { config } = (await import(`file://${resolvedConfigPath}`)) as { config: Config }
 
 // Определяем базовую директорию конфига для правильного разрешения путей
 const configDir = path.dirname(resolvedConfigPath)
 
 // Функция для разрешения путей относительно конфига
-function resolveFromConfig(relativePath) {
+function resolveFromConfig(relativePath: string) {
   return path.resolve(configDir, relativePath)
 }
 
@@ -36,7 +56,7 @@ const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 const xai = new OpenAI({ apiKey: process.env.XAI_API_KEY, baseURL: "https://api.x.ai/v1" })
 
 // Функция для получения следующей модели из конфига
-function getNextModel(currentModel) {
+function getNextModel(currentModel: string) {
   const modelEntries = Object.entries(config.models)
   const currentIndex = modelEntries.findIndex(([key]) => key === currentModel)
 
@@ -48,7 +68,7 @@ function getNextModel(currentModel) {
 }
 
 // Функция для применения всех необходимых замен в контенте
-function applyContentReplacements(content, langCode) {
+function applyContentReplacements(content: string, langCode: string) {
   let modifiedContent = content
 
   // Замена для конфигов
@@ -60,7 +80,7 @@ function applyContentReplacements(content, langCode) {
   return modifiedContent
 }
 
-async function translateWithOpenAI(content, targetLang, langCode) {
+async function translateWithOpenAI(content: string, targetLang: string, langCode: string) {
   const completion = await openai.chat.completions.create({
     model: config.models.gpt4.name,
     temperature: 0,
@@ -72,7 +92,7 @@ async function translateWithOpenAI(content, targetLang, langCode) {
   return match ? match[1].trim() : result
 }
 
-async function translateWithClaude(content, targetLang, langCode) {
+async function translateWithClaude(content: string, targetLang: string, langCode: string) {
   const message = await anthropic.messages.create({
     model: config.models.claude.name,
     max_tokens: 4096,
@@ -80,12 +100,13 @@ async function translateWithClaude(content, targetLang, langCode) {
     messages: [{ role: "user", content: getPromptForTranslation(content, targetLang, langCode) }],
   })
 
-  const result = message.content[0].text
+  const contentBlock = message.content[0]
+  const result = contentBlock.type === "text" ? contentBlock.text : ""
   const match = result.match(/<translated_markdown>([\s\S]*)<\/translated_markdown>/)
   return match ? match[1].trim() : result
 }
 
-async function translateWithGrok(content, targetLang, langCode) {
+async function translateWithGrok(content: string, targetLang: string, langCode: string) {
   const completion = await xai.chat.completions.create({
     model: config.models.grok.name,
     temperature: 0,
@@ -97,7 +118,7 @@ async function translateWithGrok(content, targetLang, langCode) {
   return match ? match[1].trim() : result
 }
 
-async function translateWithModel(model, content, targetLang, langCode) {
+async function translateWithModel(model: string, content: string, targetLang: string, langCode: string) {
   let translatedContent
   switch (model) {
     case "gpt4":
@@ -126,7 +147,7 @@ async function translateWithModel(model, content, targetLang, langCode) {
   return translatedContent.trim()
 }
 
-async function translateMarkdown(content, currentModel, targetLang, langCode) {
+async function translateMarkdown(content: string, currentModel: string, targetLang: string, langCode: string) {
   try {
     if (!content.trim()) return content
 
@@ -149,12 +170,12 @@ async function translateMarkdown(content, currentModel, targetLang, langCode) {
   }
 }
 
-function splitByH2(content) {
+function splitByH2(content: string) {
   const parts = content.split("\n## ")
   return parts.map((part, i) => (i === 0 ? part.trim() : "## " + part.trim())).filter(Boolean)
 }
 
-async function getAllFiles(dir) {
+async function getAllFiles(dir: string) {
   const files = []
   const items = fs.readdirSync(dir)
 
@@ -212,7 +233,7 @@ async function syncFileStructure() {
   const originalFiles = new Set()
   const originalDirs = new Set()
 
-  function processOriginalPath(filePath) {
+  function processOriginalPath(filePath: string) {
     originalFiles.add(filePath)
     let dir = path.dirname(filePath)
     while (dir !== rootDir) {
@@ -236,7 +257,7 @@ async function syncFileStructure() {
     let removedLogs = 0
 
     // Проверяем файлы перевода
-    async function checkTranslatedFiles(dir) {
+    async function checkTranslatedFiles(dir: string) {
       const items = fs.readdirSync(dir)
 
       for (const item of items) {
@@ -274,7 +295,7 @@ async function syncFileStructure() {
     await checkTranslatedFiles(langDir)
 
     // Затем проверяем и удаляем пустые директории
-    function removeEmptyDirs(dir) {
+    function removeEmptyDirs(dir: string) {
       const items = fs.readdirSync(dir)
 
       for (const item of items) {
@@ -343,7 +364,7 @@ async function cleanupTranslations() {
  * @param {string} firstModelKey
  * @param {string} rootDir
  */
-async function translateFile(file, targetPath, lang, firstModelKey, rootDir) {
+async function translateFile(file: string, targetPath: string, lang: Language, firstModelKey: string, rootDir: string) {
   const startTime = Date.now()
   const content = fs.readFileSync(file, "utf8")
   let translatedContent = ""
@@ -380,7 +401,7 @@ async function translateFile(file, targetPath, lang, firstModelKey, rootDir) {
  * @param {string} targetPath
  * @param {string} rootDir
  */
-async function copyAssetFile(sourceFile, targetPath, rootDir) {
+async function copyAssetFile(sourceFile: string, targetPath: string, rootDir: string) {
   const startTime = Date.now()
 
   try {
