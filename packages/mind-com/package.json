@@ -12,7 +12,7 @@
     "test": "vitest --run --coverage",
     "test:unit": "vitest --run __tests__/unit",
     "test:watch": "vitest",
-    "test:traffic-sources": "node --experimental-specifier-resolution=node --loader ts-node/esm __tests__/test-traffic-sources.ts",
+    "test:traffic-sources": "tsx __tests__/test-traffic-sources.ts",
     "format": "prettier -w .",
     "lint": "pnpm eslint --cache .",
     "prepare": "simple-git-hooks"
