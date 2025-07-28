@@ -32,8 +32,8 @@ export const config = {
   },
 
   models: {
-    claude: { name: "claude-4-sonnet-20250514" },
     gpt4: { name: "gpt-4.1-mini" },
+    claude: { name: "claude-4-sonnet-20250514" },
     // claude: { name: "claude-3-5-sonnet-20241022" },
     // gpt4: { name: "gpt-4-1106-preview" },
   },

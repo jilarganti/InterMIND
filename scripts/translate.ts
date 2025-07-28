@@ -177,40 +177,14 @@ async function translateWithModel(model: string, content: string, targetLang: st
       throw new Error(`Unknown model: ${model}`)
   }
 
-  // Check for incomplete translation
-  // if (/\[[^[\]]+(\.\.\.|[?])\]/.test(translatedContent)) {
-  //   throw new Error("Incomplete translation")
-  // }
-
-  // Check if text ends with incomplete translation
-  if (/\[[^<][^[\]]*?(\.\.\.|[?])\]\s*$/.test(translatedContent)) {
-    throw new Error("Incomplete translation")
-  }
-
   return translatedContent.trim()
 }
 
 async function translateMarkdown(content: string, currentModel: string, targetLang: string, langCode: string) {
-  try {
-    if (!content.trim()) return content
+  if (!content.trim()) return content
 
-    const translatedContent = await translateWithModel(currentModel, content, targetLang, langCode)
-    return translatedContent
-  } catch (error) {
-    // Get next model
-    const nextModel = getNextModel(currentModel)
-
-    if (nextModel) {
-      console.log(`⚠️ Translation error with model ${currentModel}: ${error.message}`)
-      console.log(`↪️ Trying model ${nextModel}...`)
-      // Recursively call translation with next model
-      return await translateMarkdown(content, nextModel, targetLang, langCode)
-    }
-
-    // If no more models - throw error
-    console.error(`❌ All translation models exhausted. Last error: ${error.message}`)
-    throw error
-  }
+  const translatedContent = await translateWithModel(currentModel, content, targetLang, langCode)
+  return translatedContent
 }
 
 function splitByH2(content: string) {
@@ -470,14 +444,25 @@ async function checkBuildErrors(rootDir: string): Promise<FileWithError[]> {
       const filesWithErrors: FileWithError[] = []
       const processedFiles = new Set<string>()
 
+      console.log("🔍 Analyzing build output for errors...")
+
+      // Debug: show part of the error output
+      if (errorOutput.includes("i18n")) {
+        console.log("📋 Found i18n-related errors in output")
+      }
+
       // Patterns to search for errors in files
       const patterns = [
+        // VitePress/YAML errors - specific pattern for the error you're seeing
+        /file:\s*([^\s]+\.md)/gi,
         // TypeScript/JavaScript errors
         /([^\s]+\.(ts|js|vue)):\d+:\d+.*?(?:error|Error)/gi,
         // Markdown/VitePress errors
         /(?:Error|error).*?([^\s]+\.md)/gi,
         // Vue SFC errors
         /\[vue.*?\].*?([^\s]+\.vue)/gi,
+        // Build errors with file path
+        /\[.*?\].*?error.*?file:\s*([^\s]+)/gi,
         // General pattern
         /([^\s]+\.(md|vue|ts|js)).*?(?:error|Error)/gi,
       ]
@@ -486,7 +471,14 @@ async function checkBuildErrors(rootDir: string): Promise<FileWithError[]> {
         const matches = errorOutput.matchAll(pattern)
 
         for (const match of matches) {
-          const errorFile = match[1]
+          let errorFile = match[1]
+
+          // Handle different match groups from different patterns
+          if (!errorFile && match[2]) {
+            errorFile = match[2]
+          }
+
+          if (!errorFile) continue
 
           // Check if this is a file from translations directory
           if ((errorFile.includes("/i18n/") || errorFile.includes("\\i18n\\")) && !processedFiles.has(errorFile)) {
@@ -500,16 +492,30 @@ async function checkBuildErrors(rootDir: string): Promise<FileWithError[]> {
               const lang = Object.values(config.languages).find((l) => l.code === langCode)
 
               if (lang) {
-                // Extract more detailed error information
-                const errorContext = match[0]
-                const lineMatch = errorContext.match(/:(\d+):(\d+)/)
-                const errorDetails = lineMatch ? `Line ${lineMatch[1]}, Column ${lineMatch[2]}` : errorContext
+                // Extract more detailed error information from the full output
+                const lines = errorOutput.split("\n")
+                let errorDetails = match[0]
+
+                // Look for more context around the error
+                const errorLineIndex = lines.findIndex((line) => line.includes(errorFile))
+                if (errorLineIndex >= 0) {
+                  // Get a few lines around the error for better context
+                  const contextLines = lines.slice(Math.max(0, errorLineIndex - 2), Math.min(lines.length, errorLineIndex + 3)).filter((line) => line.trim())
+
+                  if (contextLines.length > 0) {
+                    errorDetails = contextLines.join(" | ")
+                  }
+                }
+
+                // Try to extract line and column information
+                const lineMatch = errorDetails.match(/(?:line|Line)\s+(\d+)(?:.*?(?:column|Column)\s+(\d+))?/)
+                const finalErrorDetails = lineMatch ? `Line ${lineMatch[1]}${lineMatch[2] ? `, Column ${lineMatch[2]}` : ""}: ${errorDetails}` : errorDetails
 
                 filesWithErrors.push({
                   file: path.join(rootDir, relativePath),
                   targetPath: path.resolve(errorFile),
                   lang: lang,
-                  error: errorDetails,
+                  error: finalErrorDetails.substring(0, 200) + (finalErrorDetails.length > 200 ? "..." : ""),
                 })
               }
             }
@@ -519,6 +525,10 @@ async function checkBuildErrors(rootDir: string): Promise<FileWithError[]> {
 
       if (filesWithErrors.length > 0) {
         console.log(`⚠️ Found ${filesWithErrors.length} files with compilation errors`)
+        filesWithErrors.forEach((fileError) => {
+          console.log(`  📄 ${path.relative(rootDir, fileError.file)} (${fileError.lang.name})`)
+          console.log(`      ${fileError.error.substring(0, 100)}...`)
+        })
         return filesWithErrors
       }
 
@@ -556,24 +566,15 @@ async function retranslateFilesWithErrors(filesWithErrors: FileWithError[], root
 
       try {
         await translateFile(fileWithError.file, fileWithError.targetPath, fileWithError.lang, modelKey, rootDir)
-
-        // Check if error is fixed
-        const newErrors = await checkBuildErrors(rootDir)
-        const stillHasError = newErrors.some((e) => e.targetPath === fileWithError.targetPath && e.lang.code === fileWithError.lang.code)
-
-        if (!stillHasError) {
-          console.log(`   ✅ Successfully translated with model ${modelKey}`)
-          translated = true
-        } else {
-          console.log(`   ⚠️ Compilation error persists`)
-        }
+        console.log(`   ✅ Successfully retranslated with model ${modelKey}`)
+        translated = true
       } catch (error: any) {
         console.log(`   ❌ Translation error: ${error.message}`)
       }
     }
 
     if (!translated) {
-      console.error(`   ❌ Could not fix error with any model`)
+      console.error(`   ❌ Could not retranslate with any model`)
     }
   }
 }

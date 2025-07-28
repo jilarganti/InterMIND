@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Videomeetings neu gedacht — jetzt auf mind.com"
-description: "Von iMind zu InterMIND: sprachzentrierte Videoanrufe mit KI-gestützter Echtzeitübersetzung."
+description: "Von iMind zu InterMIND: Sprach-fokussierte Videoanrufe mit KI-gestützter Echtzeitübersetzung."
 ---
 
 <script setup>
@@ -14,28 +14,28 @@ import HomeFooterSection from './HomeFooterSection.vue'
 
 <HeroSection
   title="Videomeetings neu gedacht <br>— jetzt auf **mind.com**"
-  text="Von iMind zu InterMIND: sprachzentrierte Videoanrufe mit Live-Sprachübersetzung.">
-<AuthButton text="Jetzt starten" buttonClass="brand"/>
+  text="Von iMind zu InterMIND: Sprach-fokussierte Videoanrufe mit Live-Sprachübersetzung.">
+<AuthButton text="Jetzt Starten" buttonClass="brand"/>
 </HeroSection>
 
 <HomeUSPSection />
 
-> [!tip] Für wen ist das gedacht?  
+> [!tip] Für wen ist das geeignet?  
 > Entwickelt für **internationale Teams**, bei denen Sprachbarrieren zu **Verzögerungen**, **verlorenen Geschäften** oder **kostspieligen Missverständnissen** führen. [Learn more ...](./product/overview/markets)
 
 ## Funktioniert wie Google Meet + Live-Übersetzung
 
-Vertraute Benutzeroberfläche. Universelle Kommunikation. Dieselbe Einfachheit wie Google Meet — mit sofortiger Übersetzung, die Sprachbarrieren verschwinden lässt.
+Vertraute Benutzeroberfläche. Universelle Kommunikation. Genauso einfach wie Google Meet — mit sofortiger Übersetzung, die Sprachbarrieren verschwinden lässt.
 
 <HowItWorksSection />
 
 <span id="Example"></span>
 
-## Beispiel: Wie Echtzeit-Sprachübersetzung in einem Meeting funktioniert
+## Beispiel: So funktioniert Echtzeit-Sprachübersetzung in einem Meeting
 
 Nehmen wir an:
 
-> Der Benutzer verwendet **Spanisch** als **Website-Lokalisierungssprache**. Er veranstaltet ein Meeting und lädt zwei Teilnehmer ein:
+> Der Benutzer verwendet **Spanisch** als **Lokalisierungssprache der Website**. Sie hosten ein Meeting und laden zwei Teilnehmer ein:
 >
 > - 🧑‍💼 Teilnehmer 1 verwendet die Benutzeroberfläche auf **Englisch**
 > - 👩 Teilnehmer 2 verwendet die Benutzeroberfläche auf **Chinesisch**
@@ -43,29 +43,29 @@ Nehmen wir an:
 ### Was passiert während des Meetings?
 
 Jeder Teilnehmer **spricht und hört** in der Sprache, die er beim Betreten des Produkts ausgewählt hat.  
-Diese einzige Spracheinstellung gilt für:
+Diese einzelne Spracheinstellung gilt für:
 
 - Die **Oberflächensprache**
 - Die **gesprochene Eingabe** (was Sie sagen)
 - Die **übersetzte Ausgabe** (was Sie hören)
 
-| Teilnehmer    | Gewählte Sprache | Spricht in | Hört in  |
+| Teilnehmer    | Gewählte Sprache | Spricht In | Hört In  |
 | ------------- | ---------------- | ---------- | -------- |
 | Gastgeber     | Spanisch         | Spanisch   | Spanisch |
 | Teilnehmer 1  | Englisch         | Englisch   | Englisch |
 | Teilnehmer 2  | Chinesisch       | Chinesisch | Chinesisch |
 
-[Die Plattform interpretiert automatisch alle Sprache in Echtzeit](./product/overview/how-it-works) — so kommuniziert jeder, als würde er dieselbe Sprache sprechen.
+[Die Plattform interpretiert automatisch alle Sprache in Echtzeit](./product/overview/how-it-works) — sodass jeder kommuniziert, als würden alle dieselbe Sprache sprechen.
 
-### Können Sie Ihre Sprache während des Anrufs ändern?
+### Kann man die Sprache während des Anrufs ändern?
 
 Ja. Sie können die **Einstellungen** öffnen und das Feld `Ihre Sprache` ändern:
 
-:::details Einstellungsbereich
-<img src="/settings.png" alt="Einstellungsbereich" width="300px" />
+:::details Einstellungen-Panel
+<img src="/settings.png" alt="einstellungen-panel" width="300px" />
 :::
 
-Diese Änderung bedeutet:
+Eine Änderung bedeutet:
 
 - Sie sollten in der `gewählten Sprache` sprechen für eine genaue Übersetzung
 - Sie werden andere in der `gewählten Sprache` hören
@@ -73,11 +73,11 @@ Diese Änderung bedeutet:
 
 > 📌 Hinweis: "Ihre Sprache" ist eine **einzige einheitliche Einstellung**  
 > Sie steuert **wie Sie sprechen**, **was Sie hören** und **was Sie sehen**.  
-> In einer Sprache zu sprechen und in einer anderen zu hören wird **nicht unterstützt** — bewusst, um die Erfahrung einfach und vorhersagbar zu halten.
+> In einer Sprache zu sprechen und in einer anderen zu hören wird **nicht unterstützt** — bewusst, um die Erfahrung einfach und vorhersehbar zu halten.
 
-## Klare und einfache Preisgestaltung
+## Klare und einfache Preise
 
-Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
+Vom ersten Anruf bis zu fließenden Gesprächen — in jedem Umfang.
 
 <PricingPlansSection />
 
@@ -85,7 +85,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
 
 <span id="Testimonials"></span>
 
-## Was Kunden sagen
+## Was unsere Kunden sagen
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 

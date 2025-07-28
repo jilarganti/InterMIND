@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "Videollamadas reimaginadas — ahora en mind.com"
-description: "De iMind a InterMIND: videollamadas con voz prioritaria e interpretación en tiempo real con IA."
+title: "Videollamadas reinventadas — ahora en mind.com"
+description: "De iMind a InterMIND: videollamadas centradas en la voz con interpretación en tiempo real impulsada por IA."
 ---
 
 <script setup>
@@ -13,19 +13,19 @@ import HomeFooterSection from './HomeFooterSection.vue'
 </script>
 
 <HeroSection
-  title="Videollamadas reimaginadas <br>— ahora en **mind.com**"
-  text="De iMind a InterMIND: videollamadas con voz prioritaria y traducción de voz en vivo.">
-<AuthButton text="Comenzar ahora" buttonClass="brand"/>
+  title="Videollamadas reinventadas <br>— ahora en **mind.com**"
+  text="De iMind a InterMIND: videollamadas centradas en la voz con traducción simultánea del habla.">
+<AuthButton text="Comenzar Ahora" buttonClass="brand"/>
 </HeroSection>
 
 <HomeUSPSection />
 
 > [!tip] ¿Para quién es esto?  
-> Creado para **equipos internacionales** donde las barreras del idioma causan **retrasos**, **negocios perdidos** o **malentendidos costosos**. [Learn more ...](./product/overview/markets)
+> Diseñado para **equipos internacionales** donde las barreras del idioma causan **retrasos**, **pérdida de negocios** o **malentendidos costosos**. [Learn more ...](./product/overview/markets)
 
-## Funciona como Google Meet + traducción en vivo
+## Funciona Como Google Meet + Traducción en Vivo
 
-Interfaz familiar. Comunicación universal. La misma facilidad que Google Meet, con traducción instantánea que hace desaparecer las barreras del idioma.
+Interfaz familiar. Comunicación universal. La misma facilidad que Google Meet — con traducción instantánea que hace desaparecer las barreras del idioma.
 
 <HowItWorksSection />
 
@@ -49,49 +49,49 @@ Esta configuración de idioma único se aplica a:
 - La **entrada hablada** (lo que dices)
 - La **salida traducida** (lo que escuchas)
 
-| Participante  | Idioma seleccionado | Habla en  | Escucha en |
-| ------------- | ------------------- | --------- | ---------- |
-| Anfitrión     | Español             | Español   | Español    |
-| Participante 1| Inglés              | Inglés    | Inglés     |
-| Participante 2| Chino               | Chino     | Chino      |
+| Participante  | Idioma Seleccionado | Habla En | Escucha En |
+| ------------- | ------------------- | -------- | ---------- |
+| Anfitrión     | Español            | Español  | Español    |
+| Participante 1| Inglés             | Inglés   | Inglés     |
+| Participante 2| Chino              | Chino    | Chino      |
 
-[La plataforma interpreta automáticamente todo el habla en tiempo real](./product/overview/how-it-works) — así que todos se comunican como si hablaran el mismo idioma.
+[La plataforma interpreta automáticamente toda el habla en tiempo real](./product/overview/how-it-works) — por lo que todos se comunican como si hablaran el mismo idioma.
 
 ### ¿Puedes cambiar tu idioma durante la llamada?
 
-Sí. Puedes abrir **Configuración** y cambiar el campo `Tu idioma`:
+Sí. Puedes abrir **Configuración** y cambiar el campo `Tu Idioma`:
 
-:::details Panel de configuración
+:::details Panel de Configuración
 <img src="/settings.png" alt="panel-de-configuracion" width="300px" />
 :::
 
 Cambiar esto significa:
 
 - Debes hablar en el `idioma elegido` para una traducción precisa
-- Escucharás a otros en el `idioma elegido`
+- Escucharás a los demás en el `idioma elegido`
 - La interfaz cambiará automáticamente al `idioma elegido`
 
-> 📌 Nota: "Tu idioma" es una **configuración única unificada**  
-> Controla **cómo hablas**, **qué escuchas** y **qué ves**.  
+> 📌 Nota: "Tu Idioma" es una **configuración única unificada**  
+> Controla **cómo hablas**, **lo que escuchas** y **lo que ves**.  
 > Hablar en un idioma y escuchar en otro **no está soportado** — por diseño, para mantener la experiencia simple y predecible.
 
-## Precios claros y sencillos
+## Precios Claros y Sencillos
 
 Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 
 <PricingPlansSection />
 
-> [!warning] 😱 O hablas todos los idiomas — o alguien más cierra tus negocios.
+> [!warning] 😱 O hablas todos los idiomas — o alguien más cierra tus ventas.
 
 <span id="Testimonials"></span>
 
-## Lo que dicen nuestros clientes
+## Lo Que Dicen Nuestros Clientes
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-> [!tip] 🥇 Tu tiempo se aprovecha mejor dominando tu oficio, no memorizando gramática.
+> [!tip] 🥇 Tu tiempo es mejor invertido dominando tu oficio — no memorizando gramática.
 
-## Preguntas frecuentes
+## Preguntas Frecuentes
 
 <FAQSection />
 <HomeFooterSection />

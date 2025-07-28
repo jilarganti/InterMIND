@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "Reuniões por vídeo reimaginadas — agora em mind.com"
-description: "Do iMind ao InterMIND: chamadas de vídeo com foco na voz e interpretação em tempo real com IA."
+title: "Reuniões em vídeo reinventadas — agora em mind.com"
+description: "Do iMind ao InterMIND: videochamadas com foco em voz e interpretação em tempo real alimentada por IA."
 ---
 
 <script setup>
@@ -13,17 +13,17 @@ import HomeFooterSection from './HomeFooterSection.vue'
 </script>
 
 <HeroSection
-  title="Reuniões por vídeo reimaginadas <br>— agora em **mind.com**"
-  text="Do iMind ao InterMIND: chamadas de vídeo com foco na voz e tradução de fala ao vivo.">
-<AuthButton text="Começar agora" buttonClass="brand"/>
+  title="Reuniões em vídeo reinventadas <br>— agora em **mind.com**"
+  text="Do iMind ao InterMIND: videochamadas com foco em voz com tradução simultânea.">
+<AuthButton text="Começar Agora" buttonClass="brand"/>
 </HeroSection>
 
 <HomeUSPSection />
 
 > [!tip] Para quem é isso?  
-> Criado para **equipes internacionais** onde barreiras linguísticas causam **atrasos**, **negócios perdidos** ou **mal-entendidos custosos**. [Learn more ...](./product/overview/markets)
+> Desenvolvido para **equipes internacionais** onde barreiras linguísticas causam **atrasos**, **negócios perdidos** ou **mal-entendidos custosos**. [Learn more ...](./product/overview/markets)
 
-## Funciona Como Google Meet + Tradução ao Vivo
+## Funciona Como o Google Meet + Tradução em Tempo Real
 
 Interface familiar. Comunicação universal. A mesma facilidade do Google Meet — com tradução instantânea que faz as barreiras linguísticas desaparecerem.
 
@@ -31,14 +31,14 @@ Interface familiar. Comunicação universal. A mesma facilidade do Google Meet �
 
 <span id="Example"></span>
 
-## Exemplo: Como funciona a tradução de fala em tempo real em uma reunião
+## Exemplo: Como funciona a tradução simultânea de voz em uma reunião
 
-Vamos supor que:
+Vamos supor:
 
-> O usuário usa **espanhol** como **idioma de localização do site**. Ele hospeda uma reunião e convida dois participantes:
+> O usuário usa **Espanhol** como **idioma de localização do site**. Eles hospedam uma reunião e convidam dois participantes:
 >
-> - 🧑‍💼 Participante 1 usa a interface em **inglês**
-> - 👩 Participante 2 usa a interface em **chinês**
+> - 🧑‍💼 Participante 1 usa a interface em **Inglês**
+> - 👩 Participante 2 usa a interface em **Chinês**
 
 ### O que acontece durante a reunião?
 
@@ -46,26 +46,26 @@ Cada participante **fala e ouve** no idioma que selecionou ao entrar no produto.
 Esta configuração única de idioma se aplica a:
 
 - O **idioma da interface**
-- A **entrada falada** (o que você fala)
+- A **entrada de voz** (o que você fala)
 - A **saída traduzida** (o que você ouve)
 
-| Participante  | Idioma Selecionado | Fala Em   | Ouve Em   |
-| ------------- | ------------------ | --------- | --------- |
-| Anfitrião     | Espanhol           | Espanhol  | Espanhol  |
-| Participante 1| Inglês             | Inglês    | Inglês    |
-| Participante 2| Chinês             | Chinês    | Chinês    |
+| Participante  | Idioma Selecionado | Fala Em  | Ouve Em  |
+| ------------- | ------------------ | -------- | -------- |
+| Anfitrião     | Espanhol          | Espanhol | Espanhol |
+| Participante 1| Inglês            | Inglês   | Inglês   |
+| Participante 2| Chinês            | Chinês   | Chinês   |
 
-[A plataforma interpreta automaticamente toda a fala em tempo real](./product/overview/how-it-works) — então todos se comunicam como se falassem o mesmo idioma.
+[A plataforma interpreta automaticamente toda a fala em tempo real](./product/overview/how-it-works) — assim todos se comunicam como se falassem o mesmo idioma.
 
-### Você pode mudar seu idioma durante a chamada?
+### Posso mudar meu idioma durante a chamada?
 
 Sim. Você pode abrir as **Configurações** e alterar o campo `Seu Idioma`:
 
 :::details Painel de Configurações
-<img src="/settings.png" alt="painel-de-configurações" width="300px" />
+<img src="/settings.png" alt="painel-de-configuracoes" width="300px" />
 :::
 
-Alterar isso significa:
+Mudar isso significa:
 
 - Você deve falar no `idioma escolhido` para uma tradução precisa
 - Você ouvirá os outros no `idioma escolhido`
@@ -75,7 +75,7 @@ Alterar isso significa:
 > Ela controla **como você fala**, **o que você ouve** e **o que você vê**.  
 > Falar em um idioma e ouvir em outro **não é suportado** — por design, para manter a experiência simples e previsível.
 
-## Preços claros e simples
+## Preços Claros e Simples
 
 Da primeira ligação às conversas fluentes — em qualquer escala.
 
@@ -85,7 +85,7 @@ Da primeira ligação às conversas fluentes — em qualquer escala.
 
 <span id="Testimonials"></span>
 
-## O que os clientes estão dizendo
+## O Que Nossos Clientes Estão Dizendo
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
