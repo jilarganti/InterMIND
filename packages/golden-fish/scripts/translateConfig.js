@@ -3,6 +3,7 @@ export const config = {
   rootTranslateDir: "../docs/i18n",
   configDir: "../docs/.vitepress/config",
   configTranslateDir: "../docs/.vitepress/config/i18n",
+  promptModule: "translatePrompt.js",
 
   languages: {
     ar: { code: "ar", name: "Gulf Arab & MSA" },

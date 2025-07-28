@@ -19,10 +19,23 @@ interface Config {
   rootTranslateDir: string
   configDir: string
   configTranslateDir: string
+  promptModule?: string
   languages: Record<string, Language>
   models: Record<string, Model>
   exclude?: string[]
   allowedExtensions: string[]
+}
+
+interface TranslateTask {
+  file: string
+  lang: Language
+  targetPath: string
+}
+
+interface AssetTask {
+  file: string
+  lang: Language
+  targetPath: string
 }
 
 /**
@@ -48,7 +61,7 @@ function resolveFromConfig(relativePath: string) {
 }
 
 // Импорт prompt функции
-const promptModulePath = path.resolve(configDir, "translatePrompt.ts")
+const promptModulePath = config.promptModule ? resolveFromConfig(config.promptModule) : path.resolve(configDir, "translatePrompt.ts")
 const { getPromptForTranslation } = await import(`file://${promptModulePath}`)
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
@@ -87,7 +100,7 @@ async function translateWithOpenAI(content: string, targetLang: string, langCode
     messages: [{ role: "user", content: getPromptForTranslation(content, targetLang, langCode) }],
   })
 
-  const result = completion.choices[0].message.content
+  const result = completion.choices[0].message.content || ""
   const match = result.match(/<translated_markdown>([\s\S]*)<\/translated_markdown>/)
   return match ? match[1].trim() : result
 }
@@ -113,7 +126,7 @@ async function translateWithGrok(content: string, targetLang: string, langCode: 
     messages: [{ role: "user", content: getPromptForTranslation(content, targetLang, langCode) }],
   })
 
-  const result = completion.choices[0].message.content
+  const result = completion.choices[0].message.content || ""
   const match = result.match(/<translated_markdown>([\s\S]*)<\/translated_markdown>/)
   return match ? match[1].trim() : result
 }
@@ -175,8 +188,8 @@ function splitByH2(content: string) {
   return parts.map((part, i) => (i === 0 ? part.trim() : "## " + part.trim())).filter(Boolean)
 }
 
-async function getAllFiles(dir: string) {
-  const files = []
+async function getAllFiles(dir: string): Promise<string[]> {
+  const files: string[] = []
   const items = fs.readdirSync(dir)
 
   for (const item of items) {
@@ -331,7 +344,7 @@ async function cleanupTranslations() {
   }
 
   let totalRemoved = 0
-  const removedFiles = []
+  const removedFiles: string[] = []
 
   const configFiles = fs.readdirSync(configTranslateDir)
   for (const file of configFiles) {
@@ -478,8 +491,8 @@ async function translateFiles() {
     const files = await getAllFiles(rootDir)
     console.log(`📝 Найдено ${files.length} файлов в ${rootDir}`)
 
-    const translatableTasks = []
-    const assetTasks = []
+    const translatableTasks: TranslateTask[] = []
+    const assetTasks: AssetTask[] = []
 
     for (const [langCode, lang] of Object.entries(config.languages)) {
       for (const file of files) {

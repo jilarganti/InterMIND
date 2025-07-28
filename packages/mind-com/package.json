@@ -8,11 +8,11 @@
     "dev:BE": "vercel dev",
     "dev": "pnpm dev:FE & pnpm dev:BE",
     "build": "vitepress build docs",
-    "translate": "tsx ../../scripts/translate.ts ./scripts/translateConfig.ts",
     "test": "vitest --run --coverage",
     "test:unit": "vitest --run __tests__/unit",
     "test:watch": "vitest",
     "test:traffic-sources": "tsx __tests__/test-traffic-sources.ts",
+    "translate": "tsx ../../scripts/translate.ts ./scripts/translateConfig.ts",
     "format": "prettier -w .",
     "lint": "pnpm eslint --cache .",
     "prepare": "simple-git-hooks"
