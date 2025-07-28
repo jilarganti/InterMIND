@@ -4,6 +4,8 @@ export const config = {
   configDir: "../docs/.vitepress/config",
   configTranslateDir: "../docs/.vitepress/config/i18n",
   promptModule: "translatePrompt.ts",
+  checkBuildErrors: true,
+  buildCommand: "pnpm build",
 
   languages: {
     ar: { code: "ar", name: "Gulf Arab & MSA" },
@@ -17,6 +19,7 @@ export const config = {
     fr: { code: "fr", name: "French" },
     tr: { code: "tr", name: "Turkish" },
     ko: { code: "ko", name: "Korean" },
+    // ====================================
     // bn: { code: "bn", name: "Bengali" },
     // uk: { code: "uk", name: "Ukrainian" },
     // ur: { code: "ur", name: "Urdu" },

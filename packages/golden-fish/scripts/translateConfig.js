@@ -4,6 +4,8 @@ export const config = {
   configDir: "../docs/.vitepress/config",
   configTranslateDir: "../docs/.vitepress/config/i18n",
   promptModule: "translatePrompt.js",
+  checkBuildErrors: true,
+  buildCommand: "pnpm build",
 
   languages: {
     ar: { code: "ar", name: "Gulf Arab & MSA" },

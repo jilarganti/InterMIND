@@ -20,6 +20,8 @@ interface Config {
   configDir: string
   configTranslateDir: string
   promptModule?: string
+  checkBuildErrors?: boolean
+  buildCommand?: string
   languages: Record<string, Language>
   models: Record<string, Model>
   exclude?: string[]
@@ -36,6 +38,13 @@ interface AssetTask {
   file: string
   lang: Language
   targetPath: string
+}
+
+interface FileWithError {
+  file: string
+  targetPath: string
+  lang: Language
+  error: string
 }
 
 /**
@@ -410,6 +419,145 @@ async function translateFile(file: string, targetPath: string, lang: Language, f
 }
 
 /**
+ * Запускает сборку проекта и возвращает файлы с ошибками компиляции
+ */
+async function checkBuildErrors(rootDir: string): Promise<FileWithError[]> {
+  console.log("\n🔍 Проверка ошибок компиляции...")
+
+  try {
+    // Получаем родительскую директорию (корень монорепозитория)
+    const monorepoRoot = path.resolve(rootDir, "../../../")
+
+    // Используем команду сборки из конфига или дефолтную
+    const buildCommand = config.buildCommand || "pnpm build"
+
+    // Запускаем сборку
+    const { exec } = await import("child_process")
+    const { promisify } = await import("util")
+    const execAsync = promisify(exec)
+
+    try {
+      await execAsync(buildCommand, {
+        cwd: monorepoRoot,
+        env: { ...process.env, NODE_ENV: "production" },
+      })
+      console.log("✅ Сборка прошла успешно!")
+      return []
+    } catch (buildError: any) {
+      // Парсим ошибки из вывода сборки
+      const errorOutput = buildError.stdout + buildError.stderr
+      const filesWithErrors: FileWithError[] = []
+      const processedFiles = new Set<string>()
+
+      // Паттерны для поиска ошибок в файлах
+      const patterns = [
+        // TypeScript/JavaScript ошибки
+        /([^\s]+\.(ts|js|vue)):\d+:\d+.*?(?:error|Error)/gi,
+        // Markdown/VitePress ошибки
+        /(?:Error|error).*?([^\s]+\.md)/gi,
+        // Vue SFC ошибки
+        /\[vue.*?\].*?([^\s]+\.vue)/gi,
+        // Общий паттерн
+        /([^\s]+\.(md|vue|ts|js)).*?(?:error|Error)/gi,
+      ]
+
+      for (const pattern of patterns) {
+        const matches = errorOutput.matchAll(pattern)
+
+        for (const match of matches) {
+          const errorFile = match[1]
+
+          // Проверяем, что это файл из директории переводов
+          if ((errorFile.includes("/i18n/") || errorFile.includes("\\i18n\\")) && !processedFiles.has(errorFile)) {
+            processedFiles.add(errorFile)
+
+            // Извлекаем язык и оригинальный путь из пути к файлу с ошибкой
+            const langMatch = errorFile.match(/[\/\\]i18n[\/\\]([^\/\\]+)[\/\\](.+)/)
+            if (langMatch) {
+              const langCode = langMatch[1]
+              const relativePath = langMatch[2]
+              const lang = Object.values(config.languages).find((l) => l.code === langCode)
+
+              if (lang) {
+                // Извлекаем более подробную информацию об ошибке
+                const errorContext = match[0]
+                const lineMatch = errorContext.match(/:(\d+):(\d+)/)
+                const errorDetails = lineMatch ? `Line ${lineMatch[1]}, Column ${lineMatch[2]}` : errorContext
+
+                filesWithErrors.push({
+                  file: path.join(rootDir, relativePath),
+                  targetPath: path.resolve(errorFile),
+                  lang: lang,
+                  error: errorDetails,
+                })
+              }
+            }
+          }
+        }
+      }
+
+      if (filesWithErrors.length > 0) {
+        console.log(`⚠️ Найдено ${filesWithErrors.length} файлов с ошибками компиляции`)
+        return filesWithErrors
+      }
+
+      // Если специфичные ошибки не найдены, но сборка провалилась
+      console.log("⚠️ Сборка завершилась с ошибками, но конкретные файлы не определены")
+      return []
+    }
+  } catch (error: any) {
+    console.error("❌ Ошибка при проверке сборки:", error.message)
+    return []
+  }
+}
+
+/**
+ * Перевод файлов с ошибками компиляции с использованием альтернативных моделей
+ */
+async function retranslateFilesWithErrors(filesWithErrors: FileWithError[], rootDir: string) {
+  if (filesWithErrors.length === 0) return
+
+  console.log("\n🔄 Повторный перевод файлов с ошибками...")
+
+  // Получаем список моделей для fallback
+  const modelKeys = Object.keys(config.models)
+
+  for (const fileWithError of filesWithErrors) {
+    console.log(`\n📝 Переводим заново: ${path.relative(rootDir, fileWithError.file)} → ${fileWithError.lang.name}`)
+    console.log(`   Ошибка: ${fileWithError.error}`)
+
+    let translated = false
+
+    // Пробуем все модели по очереди
+    for (let i = 1; i < modelKeys.length && !translated; i++) {
+      const modelKey = modelKeys[i]
+      console.log(`   Пробуем модель: ${modelKey}`)
+
+      try {
+        await translateFile(fileWithError.file, fileWithError.targetPath, fileWithError.lang, modelKey, rootDir)
+
+        // Проверяем, исправлена ли ошибка
+        const newErrors = await checkBuildErrors(rootDir)
+        const stillHasError = newErrors.some((e) => e.targetPath === fileWithError.targetPath && e.lang.code === fileWithError.lang.code)
+
+        if (!stillHasError) {
+          console.log(`   ✅ Успешно переведено с моделью ${modelKey}`)
+          translated = true
+        } else {
+          console.log(`   ⚠️ Ошибка компиляции сохраняется`)
+        }
+      } catch (error: any) {
+        console.log(`   ❌ Ошибка перевода: ${error.message}`)
+      }
+    }
+
+    if (!translated) {
+      console.error(`   ❌ Не удалось исправить ошибку ни с одной моделью`)
+    }
+  }
+}
+
+/**
  * @param {string} sourceFile
  * @param {string} targetPath
  * @param {string} rootDir
@@ -527,6 +675,25 @@ async function translateFiles() {
 
     for (const task of translatableTasks) {
       await translateFile(task.file, task.targetPath, task.lang, firstModelKey, rootDir)
+    }
+
+    // Проверяем ошибки компиляции после перевода (если включено в конфиге)
+    if (config.checkBuildErrors) {
+      const filesWithErrors = await checkBuildErrors(rootDir)
+
+      if (filesWithErrors.length > 0) {
+        // Повторно переводим файлы с ошибками
+        await retranslateFilesWithErrors(filesWithErrors, rootDir)
+
+        // Финальная проверка
+        const finalErrors = await checkBuildErrors(rootDir)
+        if (finalErrors.length > 0) {
+          console.log("\n⚠️ Остались файлы с ошибками компиляции:")
+          for (const error of finalErrors) {
+            console.log(`  - ${path.relative(rootDir, error.file)} → ${error.lang.name}`)
+          }
+        }
+      }
     }
 
     console.log("\n✨ Готово!")
