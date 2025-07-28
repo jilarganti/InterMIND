@@ -1,5 +1,7 @@
 # Mind.com
 
+[![test](https://github.com/vuejs/vitepress/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/vuejs/vitepress/actions/workflows/test.yml)
+
 Platform for real-time speech translation in video calls. Eliminates language barriers for international teams.
 
 ## Project Description
