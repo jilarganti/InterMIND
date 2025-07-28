@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Réunions vidéo réinventées — maintenant sur mind.com"
-description: "D'iMind à InterMIND : appels vidéo axés sur la voix avec interprétation en temps réel alimentée par l'IA."
+description: "D'iMind à InterMIND : appels vidéo prioritaires à la voix avec interprétation en temps réel alimentée par l'IA."
 ---
 
 <script setup>
@@ -14,70 +14,76 @@ import HomeFooterSection from './HomeFooterSection.vue'
 
 <HeroSection
   title="Réunions vidéo réinventées <br>— maintenant sur **mind.com**"
-  text="D'iMind à InterMIND : appels vidéo axés sur la voix avec traduction vocale en direct.">
+  text="D'iMind à InterMIND : appels vidéo prioritaires à la voix avec traduction en direct.">
 <AuthButton text="Commencer maintenant" buttonClass="brand"/>
 </HeroSection>
 
 <HomeUSPSection />
 
-> [!tip] À qui s'adresse-t-il ?  
-> Conçu pour les **équipes internationales** où les barrières linguistiques causent des **retards**, des **affaires perdues** ou des **malentendus coûteux**. [Learn more ...](./product/overview/markets)
+> [!tip] Pour qui est-ce ?  
+> Conçu pour des **équipes internationales** où les barrières linguistiques causent des **retards**, des **pertes de contrats** ou des **malentendus coûteux**. [En savoir plus ...](./product/overview/markets)
 
-## Fonctionne comme Google Meet + traduction en direct
+## Fonctionne comme Google Meet + Traduction en Direct
 
-Interface familière. Communication universelle. Même simplicité que Google Meet — avec une traduction instantanée qui fait disparaître les barrières linguistiques.
+Interface familière. Communication universelle. La même facilité que Google Meet — avec une traduction instantanée qui fait disparaître les barrières linguistiques.
 
 <HowItWorksSection />
 
 <span id="Example"></span>
 
+---
+title: "Comment fonctionne la traduction vocale en temps réel lors d'une réunion"
+description: "Découvrez comment la traduction vocale en temps réel facilite la communication multilingue lors des réunions avec InterMIND."
+
+---
+
 ## Exemple : Comment fonctionne la traduction vocale en temps réel lors d'une réunion
 
-Supposons que :
+Disons que :
 
-> L'utilisateur utilise l'**espagnol** comme **langue de localisation du site**. Il organise une réunion et invite deux participants :
+> L'utilisateur utilise **l'espagnol** comme **langue de localisation du site**. Il organise une réunion et invite deux participants :
 >
 > - 🧑‍💼 Le participant 1 utilise l'interface en **anglais**
-> - 👩 Le participant 2 utilise l'interface en **chinois**
+> - 👩 La participante 2 utilise l'interface en **chinois**
 
 ### Que se passe-t-il pendant la réunion ?
 
-Chaque participant **parle et entend** dans la langue qu'il a sélectionnée lors de l'accès au produit.  
+Chaque participant **parle et entend** dans la langue qu'il a sélectionnée en entrant dans le produit.  
 Ce paramètre de langue unique s'applique à :
 
 - La **langue de l'interface**
 - L'**entrée vocale** (ce que vous dites)
 - La **sortie traduite** (ce que vous entendez)
 
-| Participant   | Langue sélectionnée | Parle en  | Entend en |
-| ------------- | ------------------- | --------- | --------- |
-| Hôte          | Espagnol            | Espagnol  | Espagnol  |
-| Participant 1 | Anglais             | Anglais   | Anglais   |
-| Participant 2 | Chinois             | Chinois   | Chinois   |
+| Participant   | Langue Sélectionnée | Parle En | Entend En |
+| ------------- | ------------------- | -------- | --------- |
+| Hôte          | Espagnol            | Espagnol | Espagnol  |
+| Participant 1 | Anglais             | Anglais  | Anglais   |
+| Participant 2 | Chinois             | Chinois  | Chinois   |
 
-[La plateforme interprète automatiquement tous les discours en temps réel](./product/overview/how-it-works) — ainsi tout le monde communique comme s'il parlait la même langue.
+[La plateforme interprète automatiquement tous les discours en temps réel](./product/overview/how-it-works) — ainsi, tout le monde communique comme s'il parlait la même langue.
 
 ### Pouvez-vous changer votre langue pendant l'appel ?
 
-Oui. Vous pouvez ouvrir les **Paramètres** et modifier le champ `Votre langue` :
+Oui. Vous pouvez ouvrir les **Paramètres** et changer le champ `Votre Langue` :
 
-:::details Panneau des paramètres
-<img src="/settings.png" alt="panneau-paramètres" width="300px" />
+:::details Panneau des Paramètres
+<img src="/settings.png" alt="panneau-des-paramètres" width="300px" />
 :::
 
 Changer cela signifie :
 
-- Vous devriez parler dans la `langue choisie` pour une traduction précise
+- Vous devez parler dans la `langue choisie` pour une traduction précise
 - Vous entendrez les autres dans la `langue choisie`
-- L'interface basculera automatiquement vers la `langue choisie`
+- L'interface passera automatiquement à la `langue choisie`
 
-> 📌 Note : « Votre langue » est un **paramètre unifié unique**  
+> 📌 Remarque : “Votre Langue” est un **paramètre unifié unique**  
 > Il contrôle **comment vous parlez**, **ce que vous entendez**, et **ce que vous voyez**.  
 > Parler dans une langue et écouter dans une autre n'est **pas pris en charge** — par conception, pour garder l'expérience simple et prévisible.
 
 ## Tarification claire et simple
 
-Du premier appel aux conversations fluides — à n'importe quelle échelle.
+De l'appel initial aux conversations fluides — à n'importe quelle échelle.
 
 <PricingPlansSection />
 
@@ -85,13 +91,19 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
 
 <span id="Testimonials"></span>
 
-## Ce que disent nos clients
+## Ce que disent les clients
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-> [!tip] 🥇 Votre temps est mieux utilisé à maîtriser votre métier — pas à mémoriser la grammaire.
+> [!tip] 🥇 Votre temps est mieux utilisé à maîtriser votre art — pas à mémoriser la grammaire.
 
-## Questions fréquemment posées
+---
+title: "Questions Fréquemment Posées"
+description: "Trouvez des réponses aux questions courantes sur nos services et produits."
+
+---
+
+## Questions Fréquemment Posées
 
 <FAQSection />
 <HomeFooterSection />

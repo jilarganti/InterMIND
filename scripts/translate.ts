@@ -35,7 +35,7 @@ interface Language {
 }
 
 interface Model {
-  name: string
+  name?: string // для обратной совместимости
 }
 
 interface Config {
@@ -47,7 +47,7 @@ interface Config {
   checkBuildErrors?: boolean
   buildCommand?: string
   languages: Record<string, Language>
-  models: Record<string, Model>
+  models: Record<string, Model | string[]>
   exclude?: string[]
   allowedExtensions: string[]
 }
@@ -105,6 +105,24 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 
 /**
+ * Gets model name from configuration (supports both old and new format)
+ * @param modelKey - Model key (e.g., 'gpt4', 'claude')
+ * @param modelIndex - Index for array format (default: 0)
+ * @returns Model name
+ */
+function getModelName(modelKey: string, modelIndex: number = 0): string {
+  const modelConfig = config.models[modelKey]
+
+  if (Array.isArray(modelConfig)) {
+    return modelConfig[modelIndex] || modelConfig[0]
+  } else if (modelConfig && "name" in modelConfig) {
+    return modelConfig.name!
+  }
+
+  throw new Error(`Invalid model configuration for ${modelKey}`)
+}
+
+/**
  * Gets the next model from configuration for fallback mechanism
  * @param currentModel - Current model
  * @returns Next model key or null if no more models available
@@ -138,9 +156,9 @@ function applyContentReplacements(content: string, langCode: string) {
   return modifiedContent
 }
 
-async function translateWithOpenAI(content: string, targetLang: string, langCode: string) {
+async function translateWithOpenAI(content: string, targetLang: string, langCode: string, modelIndex: number = 0) {
   const completion = await openai.chat.completions.create({
-    model: config.models.gpt4.name,
+    model: getModelName("gpt4", modelIndex),
     temperature: 0,
     messages: [{ role: "user", content: getPromptForTranslation(content, targetLang, langCode) }],
   })
@@ -150,9 +168,9 @@ async function translateWithOpenAI(content: string, targetLang: string, langCode
   return match ? match[1].trim() : result
 }
 
-async function translateWithClaude(content: string, targetLang: string, langCode: string) {
+async function translateWithClaude(content: string, targetLang: string, langCode: string, modelIndex: number = 0) {
   const message = await anthropic.messages.create({
-    model: config.models.claude.name,
+    model: getModelName("claude", modelIndex),
     max_tokens: 4096,
     temperature: 0,
     messages: [{ role: "user", content: getPromptForTranslation(content, targetLang, langCode) }],
@@ -164,14 +182,14 @@ async function translateWithClaude(content: string, targetLang: string, langCode
   return match ? match[1].trim() : result
 }
 
-async function translateWithModel(model: string, content: string, targetLang: string, langCode: string) {
+async function translateWithModel(model: string, content: string, targetLang: string, langCode: string, modelIndex: number = 0) {
   let translatedContent
   switch (model) {
     case "gpt4":
-      translatedContent = await translateWithOpenAI(content, targetLang, langCode)
+      translatedContent = await translateWithOpenAI(content, targetLang, langCode, modelIndex)
       break
     case "claude":
-      translatedContent = await translateWithClaude(content, targetLang, langCode)
+      translatedContent = await translateWithClaude(content, targetLang, langCode, modelIndex)
       break
     default:
       throw new Error(`Unknown model: ${model}`)
@@ -180,10 +198,10 @@ async function translateWithModel(model: string, content: string, targetLang: st
   return translatedContent.trim()
 }
 
-async function translateMarkdown(content: string, currentModel: string, targetLang: string, langCode: string) {
+async function translateMarkdown(content: string, currentModel: string, targetLang: string, langCode: string, modelIndex: number = 0) {
   if (!content.trim()) return content
 
-  const translatedContent = await translateWithModel(currentModel, content, targetLang, langCode)
+  const translatedContent = await translateWithModel(currentModel, content, targetLang, langCode, modelIndex)
   return translatedContent
 }
 
@@ -381,7 +399,7 @@ async function cleanupTranslations() {
  * @param {string} firstModelKey
  * @param {string} rootDir
  */
-async function translateFile(file: string, targetPath: string, lang: Language, firstModelKey: string, rootDir: string) {
+async function translateFile(file: string, targetPath: string, lang: Language, firstModelKey: string, rootDir: string, modelIndex: number = 0) {
   const startTime = Date.now()
   const content = fs.readFileSync(file, "utf8")
   let translatedContent = ""
@@ -390,7 +408,7 @@ async function translateFile(file: string, targetPath: string, lang: Language, f
     const parts = splitByH2(content)
 
     for (const part of parts) {
-      const translatedPart = await translateMarkdown(part, firstModelKey, lang.name, lang.code)
+      const translatedPart = await translateMarkdown(part, firstModelKey, lang.name, lang.code, modelIndex)
       translatedContent += translatedPart + "\n\n"
     }
 
@@ -559,17 +577,23 @@ async function retranslateFilesWithErrors(filesWithErrors: FileWithError[], root
 
     let translated = false
 
-    // Try all models in sequence
+    // Try all models and their variants in sequence
     for (let i = 1; i < modelKeys.length && !translated; i++) {
       const modelKey = modelKeys[i]
-      console.log(`   Trying model: ${modelKey}`)
+      const modelConfig = config.models[modelKey]
+      const modelVariants = Array.isArray(modelConfig) ? modelConfig : [modelConfig]
 
-      try {
-        await translateFile(fileWithError.file, fileWithError.targetPath, fileWithError.lang, modelKey, rootDir)
-        console.log(`   ✅ Successfully retranslated with model ${modelKey}`)
-        translated = true
-      } catch (error: any) {
-        console.log(`   ❌ Translation error: ${error.message}`)
+      for (let variantIndex = 0; variantIndex < modelVariants.length && !translated; variantIndex++) {
+        const modelName = Array.isArray(modelConfig) ? modelConfig[variantIndex] : modelConfig.name
+        console.log(`   Trying model: ${modelKey} (${modelName})`)
+
+        try {
+          await translateFile(fileWithError.file, fileWithError.targetPath, fileWithError.lang, modelKey, rootDir, variantIndex)
+          console.log(`   ✅ Successfully retranslated with model ${modelKey} (${modelName})`)
+          translated = true
+        } catch (error: any) {
+          console.log(`   ❌ Translation error: ${error.message}`)
+        }
       }
     }
 
@@ -638,7 +662,7 @@ async function translateFiles() {
         }
 
         try {
-          const translatedConfig = await translateMarkdown(sourceConfig, firstModelKey, lang.name, lang.code)
+          const translatedConfig = await translateMarkdown(sourceConfig, firstModelKey, lang.name, lang.code, 0)
           const finalConfig = applyContentReplacements(translatedConfig, lang.code)
 
           const configDirTarget = path.dirname(targetConfigPath)
