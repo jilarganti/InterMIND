@@ -42,8 +42,7 @@ export interface DataLayerEvent {
   event: AnalyticsEvent // Event name
   method?: RegistrationMethod // Registration method (Google, Microsoft, email)
   plan?: PricingPlan // Selected pricing plan
-  // utm?: UtmParams // UTM parameters object (for CRM, not for dataLayer)
-  // kind: string // Category of the lead, determined by the form selector
+  kind?: string // Category of the lead, determined by the form selector
 }
 
 /**
