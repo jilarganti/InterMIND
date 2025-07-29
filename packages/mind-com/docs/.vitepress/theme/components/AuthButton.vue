@@ -30,12 +30,13 @@ interface Props {
   text: string
   buttonClass?: "brand" | "alt" | "sponsor"
   mode?: "auth" | "checkout"
-  eventName: string
+  eventName: "sign_up" | "sign_in_attempt" | "try_it_attempt" | "get_started_attempt"
 }
 
 const props = withDefaults(defineProps<Props>(), {
   buttonClass: "brand",
   mode: "auth",
+  eventName: "sign_up",
 })
 
 const login = (event: Event): void => {

@@ -42,8 +42,8 @@
       },
     ]"
   >
-    <AuthButton text="جرب مجاناً" buttonClass="brand" eventName="im_try_it_attempt" />
-    <AuthButton text="اشتر الآن" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt" />
+    <AuthButton text="جرب مجاناً" buttonClass="brand" eventName="try_it_attempt" />
+    <AuthButton text="اشتر الآن" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
     <ContactForm buttonText="تحدث مع فريقنا" buttonClass="alt" />
   </PricingPlans>
 </template>

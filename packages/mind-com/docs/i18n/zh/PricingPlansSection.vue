@@ -30,8 +30,8 @@
       },
     ]"
   >
-    <AuthButton text="免费试用" buttonClass="brand" eventName="im_try_it_attempt" />
-    <AuthButton text="立即购买" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt" />
+    <AuthButton text="免费试用" buttonClass="brand" eventName="try_it_attempt" />
+    <AuthButton text="立即购买" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
     <ContactForm buttonText="联系我们的团队" buttonClass="alt" />
   </PricingPlans>
 </template>

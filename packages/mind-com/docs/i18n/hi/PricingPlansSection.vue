@@ -42,8 +42,8 @@
       },
     ]"
   >
-    <AuthButton text="निःशुल्क आज़माएं" buttonClass="brand" eventName="im_try_it_attempt" />
-    <AuthButton text="अभी खरीदें" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt" />
+    <AuthButton text="निःशुल्क आज़माएं" buttonClass="brand" eventName="try_it_attempt" />
+    <AuthButton text="अभी खरीदें" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
     <ContactForm buttonText="हमारी टीम से बात करें" buttonClass="alt" />
   </PricingPlans>
 </template>

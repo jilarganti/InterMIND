@@ -37,4 +37,4 @@ export type RegistrationMethod = "Google" | "Microsoft" | "Email" | undefined
 export type PricingPlan = "Basic" | "Pro" | "Business"
 
 // Analytics event types
-export type AnalyticsEvent = "sign_up" | "generate_lead"
+export type AnalyticsEvent = "sign_up" | "generate_lead" | "sign_in_attempt" | "try_it_attempt" | "get_started_attempt"

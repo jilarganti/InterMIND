@@ -42,8 +42,8 @@
       },
     ]"
   >
-    <AuthButton text="Experimente grátis" buttonClass="brand" eventName="im_try_it_attempt" />
-    <AuthButton text="Comprar agora" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt" />
+    <AuthButton text="Experimente grátis" buttonClass="brand" eventName="try_it_attempt" />
+    <AuthButton text="Comprar agora" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
     <ContactForm buttonText="Fale com nossa equipe" buttonClass="alt" />
   </PricingPlans>
 </template>

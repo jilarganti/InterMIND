@@ -17,7 +17,7 @@
  */
 
 import { createContactAndLead } from "./lib/pipedriveLib.js"
-import { Channel } from "./config/pipedriveConfig.js"
+import { Channel, AnalyticsEvent } from "./config/pipedriveConfig.js"
 import { LeadData, DataLayerEvent, SignUpLead } from "./types/pipedriveFields.js"
 import { withDomainCheck } from "./lib/domainMiddleware.js"
 
@@ -28,9 +28,9 @@ export async function POST(request: Request) {
     // Transform to LeadData for existing API
     const leadData: LeadData = {
       lead: {
-        title: "sign_up",
-        kind: data.name,
-        message: "Plan: " + data.params.plan + "; Method: " + data.params.method + "; Source: " + data.utm.source + "; Campaign: " + data.utm.campaign + ";",
+        title: data.name,
+        kind: data.params.plan, // Use plan as kind for lead categorization
+        message: "Source: " + data.utm.source + "; Campaign: " + data.utm.campaign + ";",
         sourceChannel: Channel.WEB_VISITORS, // Use "Web visitors" channel for sign-up
       },
       contact: {
@@ -45,10 +45,9 @@ export async function POST(request: Request) {
     // Add GTM data to response
     if (result.success) {
       const gtmData: DataLayerEvent = {
-        event: "sign_up",
+        event: data.name as AnalyticsEvent, // Use name as event type
         method: data.params.method,
         plan: data.params.plan,
-        kind: data.name, // Use name as lead type
       }
       ;(result as any).gtmData = gtmData
     }

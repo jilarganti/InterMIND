@@ -42,8 +42,8 @@
       },
     ]"
   >
-    <AuthButton text="Ücretsiz deneyin" buttonClass="brand" eventName="im_try_it_attempt" />
-    <AuthButton text="Şimdi satın alın" buttonClass="alt" mode="checkout" eventName="im_buy_now_attempt" />
+    <AuthButton text="Ücretsiz deneyin" buttonClass="brand" eventName="try_it_attempt" />
+    <AuthButton text="Şimdi satın alın" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
     <ContactForm buttonText="Ekibimizle konuşun" buttonClass="alt" />
   </PricingPlans>
 </template>

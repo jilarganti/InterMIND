@@ -21,9 +21,7 @@ interface Params {
 interface LeadFields {
   title: string // Заголовок лида
   url?: string // Form submission page URL
-  // utm?: UtmParams // UTM parameters object
   kind: string // Категория лида, определяется селектором формы
-  // params?: string // Параметры лида
   message?: string // Сообщение или комментарий к лиду
 }
 
@@ -45,7 +43,7 @@ export interface DataLayerEvent {
   method?: RegistrationMethod // Registration method (Google, Microsoft, email)
   plan?: PricingPlan // Selected pricing plan
   // utm?: UtmParams // UTM parameters object (for CRM, not for dataLayer)
-  kind: string // Category of the lead, determined by the form selector
+  // kind: string // Category of the lead, determined by the form selector
 }
 
 /**
