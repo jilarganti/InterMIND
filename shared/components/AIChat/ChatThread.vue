@@ -21,7 +21,7 @@ const initialMessage = inject<Ref<string | null>>("initialMessage", ref(null))
 
 // Получаем данные из VitePress, включая текущую локаль
 const { lang } = useData()
-console.log("Current locale:", lang.value)
+// console.log("Current locale:", lang.value)
 
 // Рефы для DOM-элементов
 const messagesContainerRef = ref<HTMLDivElement | null>(null)
