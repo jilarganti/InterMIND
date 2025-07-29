@@ -39,7 +39,7 @@ const props = withDefaults(defineProps<Props>(), {
   eventName: "sign_up",
 })
 
-const login = (event: Event): void => {
+const login = async (event: Event): Promise<void> => {
   event.preventDefault()
 
   const pathSegments = location.pathname.split("/").filter(Boolean)
@@ -78,14 +78,23 @@ const login = (event: Event): void => {
     },
   }
 
-  // Простая отправка без обработки состояния
-  fetch("/api/signUp", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(leadData),
-  }).catch((error) => {
+  // Send lead data and handle GTM tracking
+  try {
+    const response = await fetch("/api/signUp", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(leadData),
+    })
+
+    const data = await response.json()
+
+    // Send GTM data to DataLayer for analytics tracking
+    if (data.success) {
+      window.dataLayer?.push(data.gtmData)
+    }
+  } catch (error) {
     console.error("Failed to create lead:", error)
-  })
+  }
 }
 </script>
 

@@ -88,6 +88,9 @@ const handleSubmit = async () => {
 
     if (response.ok && data.success) {
       formSuccessMessage.value = data.message || "Lead created"
+
+      // Send GTM data to DataLayer for analytics tracking
+      window.dataLayer?.push(data.gtmData)
     } else {
       formErrorMessage.value = data.message || "CRM error"
     }
