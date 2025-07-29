@@ -17,7 +17,6 @@ interface Props {
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  // placeholder: "Quick search...",
   chatUrl: "/chat",
 })
 
