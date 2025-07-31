@@ -2,13 +2,30 @@ import "vitepress"
 
 declare module "vitepress" {
   namespace DefaultTheme {
+    interface PromptConfig {
+      name: string
+      model: string
+      maxTokens: number
+      temperature: number
+      presencePenalty: number
+      frequencyPenalty: number
+    }
+
     interface Config {
       localization?: {
         placeholder4SearchInput: string
         placeholder4ChatFooter: string
         placeholder4ChatList: string
         buttonLabel4NavButton: string
-        buttonLabel4AuthButton: string
+        buttonLabel4SignInButton: string
+        buttonLabel4GetStartedButton: string
+      }
+
+      prompts?: {
+        basic: PromptConfig
+        pro: PromptConfig
+        business: PromptConfig
+        followup: PromptConfig
       }
 
       contact_form?: {
