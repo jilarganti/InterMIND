@@ -138,11 +138,10 @@ async function getContent(filePath: string, tag: string): Promise<string> {
 
   // В локальной разработке (vercel dev) читаем файл напрямую из файловой системы
   // VERCEL_ENV может быть 'development' при использовании vercel dev
-  const isLocalDev =
-    process.env.VERCEL_ENV === "development" ||
-    process.env.NODE_ENV === "development" ||
-    !process.env.VERCEL_URL ||
-    process.env.VERCEL_URL?.includes("localhost")
+  const isLocalDev = process.env.VERCEL_URL?.includes("localhost")
+  // process.env.NODE_ENV === "development" ||
+  // !process.env.VERCEL_URL ||
+  // process.env.VERCEL_URL?.includes("localhost")
 
   if (isLocalDev) {
     content = fs.readFileSync(filePath, "utf8")
