@@ -30,11 +30,13 @@ const props = withDefaults(
   defineProps<{
     text: string
     buttonClass?: "brand" | "alt" | "sponsor"
+    buttonStyle?: string
     mode?: "auth" | "checkout"
     eventName: "sign_up" | "sign_in_attempt" | "try_it_attempt" | "get_started_attempt"
   }>(),
   {
     buttonClass: "brand",
+    buttonStyle: "display: flex; justify-content: center; padding: 15px;", // добавлены отступы
     mode: "auth",
     eventName: "sign_up",
   },
@@ -100,5 +102,7 @@ const login = async (event: Event): Promise<void> => {
 </script>
 
 <template>
-  <VPButton :text="text" :theme="props.buttonClass" href="#" @click="login" />
+  <div :style="props.buttonStyle">
+    <VPButton :text="text" :theme="props.buttonClass" href="#" @click="login" />
+  </div>
 </template>
