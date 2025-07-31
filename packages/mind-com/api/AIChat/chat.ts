@@ -18,13 +18,11 @@
 
 import { anthropic } from "@ai-sdk/anthropic"
 import { openai } from "@ai-sdk/openai"
-import { groq } from "@ai-sdk/groq"
 import { streamText } from "ai"
 import { BUSINESS_PROMPT, FOLLOW_UP_PROMPT } from "../../docs/.vitepress/config/AIConfig.js"
 import * as fs from "fs"
 import fetch from "node-fetch"
 
-// Types
 interface ChatMessage {
   role: "user" | "assistant" | "system"
   content: string
@@ -36,21 +34,7 @@ interface ChatRequest {
   language?: string
 }
 
-// Allow streaming responses up to 30 seconds
-export const maxDuration = 30
 let llmsTxt: string
-
-/**
- * Функция для удаления тегов figure из текста сообщения
- * @param content - содержимое сообщения
- * @returns очищенное содержимое
- */
-function removeFigureTags(content: string): string {
-  if (typeof content !== "string") return content
-
-  // Удаляем теги <figure> и </figure> и весь контент между ними
-  return content.replace(/<figure\b[^>]*>[\s\S]*?<\/figure>/gi, "")
-}
 
 /**
  * Обработчик POST-запроса
@@ -137,11 +121,7 @@ async function getContent(filePath: string, tag: string): Promise<string> {
   let content: string
 
   // В локальной разработке (vercel dev) читаем файл напрямую из файловой системы
-  // VERCEL_ENV может быть 'development' при использовании vercel dev
   const isLocalDev = process.env.VERCEL_URL?.includes("localhost")
-  // process.env.NODE_ENV === "development" ||
-  // !process.env.VERCEL_URL ||
-  // process.env.VERCEL_URL?.includes("localhost")
 
   if (isLocalDev) {
     content = fs.readFileSync(filePath, "utf8")
@@ -173,4 +153,16 @@ async function getContent(filePath: string, tag: string): Promise<string> {
 
   // Возвращаем контент с тегом
   return `<${tag}>\n${content}\n</${tag}>`
+}
+
+/**
+ * Функция для удаления тегов figure из текста сообщения
+ * @param content - содержимое сообщения
+ * @returns очищенное содержимое
+ */
+function removeFigureTags(content: string): string {
+  if (typeof content !== "string") return content
+
+  // Удаляем теги <figure> и </figure> и весь контент между ними
+  return content.replace(/<figure\b[^>]*>[\s\S]*?<\/figure>/gi, "")
 }
