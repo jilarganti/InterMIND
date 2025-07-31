@@ -8,7 +8,10 @@ import { inject } from "@vercel/analytics"
 import { injectSpeedInsights } from "@vercel/speed-insights"
 import AuthButton from "./components/AuthButton.vue"
 import ContactForm from "./components/ContactForm.vue"
+import { components } from "shared"
 import "./styles/index.css"
+
+const { NavButton, SearchInput } = components
 
 // Добавляем элементы в макет
 export default {
@@ -16,9 +19,10 @@ export default {
   Layout() {
     return h(DefaultTheme.Layout, null, {
       "nav-bar-content-after": () =>
-        h("div", { class: "auth-buttons-container" }, [
-          h(AuthButton, { text: useData().site.value.themeConfig.localization.buttonLabel4AuthButton, buttonClass: "alt", eventName: "sign_in_attempt" }),
-        ]),
+        h(AuthButton, { eventName: "sign_in_attempt", text: useData().site.value.themeConfig.localization.buttonLabel4SignInButton, buttonClass: "alt" }),
+
+      "doc-footer-before": () =>
+        h(AuthButton, { eventName: "get_started_attempt", text: useData().site.value.themeConfig.localization.buttonLabel4GetStartedButton }),
     })
   },
 

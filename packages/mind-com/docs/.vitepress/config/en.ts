@@ -60,7 +60,8 @@ export const en = defineConfig({
       placeholder4ChatFooter: "Ask anything...",
       placeholder4ChatList: "Enter chat topic...",
       buttonLabel4NavButton: "Instant expert chat",
-      buttonLabel4AuthButton: "Sign in",
+      buttonLabel4SignInButton: "Sign in",
+      buttonLabel4GetStartedButton: "Get started",
     },
     contact_form: {
       name: "Name *",
