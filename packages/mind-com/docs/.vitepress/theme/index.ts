@@ -1,6 +1,6 @@
 import { h } from "vue"
 import { type App } from "vue"
-import DefaultTheme from "vitepress/theme"
+import Theme from "vitepress/theme"
 import { useData, inBrowser } from "vitepress"
 import sharedTheme from "shared"
 import { Icon } from "@iconify/vue"
@@ -17,7 +17,7 @@ const { NavButton, SearchInput } = components
 export default {
   ...sharedTheme,
   Layout() {
-    return h(DefaultTheme.Layout, null, {
+    return h(Theme.Layout, null, {
       "nav-bar-content-after": () =>
         h(AuthButton, { eventName: "sign_in_attempt", text: useData().site.value.themeConfig.localization.buttonLabel4SignInButton, buttonClass: "alt" }),
 
