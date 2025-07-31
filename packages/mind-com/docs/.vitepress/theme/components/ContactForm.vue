@@ -28,22 +28,27 @@ import { SubmitForm } from "../../../../api/types/pipedriveFields"
 
 const { site } = useData()
 
-const props = defineProps<{
-  formName?: string
-  services?: string[]
-  buttonText?: string
-  formStyle?: string
-  buttonClass?: "brand" | "alt" | "sponsor"
-  categoryLabel?: string
-  categoryPlaceholderText?: string
-  messageLabel?: string
-  messagePlaceholderText?: string
-}>()
+const props = withDefaults(
+  defineProps<{
+    formName?: string
+    services?: string[]
+    buttonText?: string
+    formStyle?: string
+    buttonClass?: "brand" | "alt" | "sponsor"
+    categoryLabel?: string
+    categoryPlaceholderText?: string
+    messageLabel?: string
+    messagePlaceholderText?: string
+  }>(),
+  {
+    buttonClass: "brand",
+    formStyle: "display: block;",
+  },
+)
 
+// Только для динамических дефолтов из настроек темы
 const buttonTextValue = computed(() => props.buttonText || site.value.themeConfig.contact_form.defaultButtonText)
 const categoriesValue = computed(() => props.services || site.value.themeConfig.contact_form.defaultCategories)
-const styleValue = computed(() => props.formStyle || "display: block;")
-const buttonTheme = computed(() => props.buttonClass || "brand")
 const categoryLabelValue = computed(() => props.categoryLabel || site.value.themeConfig.contact_form.category)
 const categoryPlaceholderValue = computed(() => props.categoryPlaceholderText || site.value.themeConfig.contact_form.categoryPlaceholder)
 const messageLabelValue = computed(() => props.messageLabel || site.value.themeConfig.contact_form.message)
@@ -110,8 +115,8 @@ const closeModal = () => {
 </script>
 
 <template>
-  <div :style="styleValue">
-    <VPButton :text="buttonTextValue" :theme="buttonTheme" href="javascript:void(0);" @click.prevent="showModal = true" />
+  <div :style="props.formStyle">
+    <VPButton :text="buttonTextValue" :theme="props.buttonClass" href="javascript:void(0);" @click.prevent="showModal = true" />
   </div>
 
   <Teleport to="body">

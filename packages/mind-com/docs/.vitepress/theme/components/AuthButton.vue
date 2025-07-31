@@ -26,18 +26,19 @@ import { getUtmForApi } from "../../../../../../shared/utils/utm.js"
 
 const REDIRECT_AFTER_AUTH_URI_KEY = "redirect_after_auth"
 
-interface Props {
-  text: string
-  buttonClass?: "brand" | "alt" | "sponsor"
-  mode?: "auth" | "checkout"
-  eventName: "sign_up" | "sign_in_attempt" | "try_it_attempt" | "get_started_attempt"
-}
-
-const props = withDefaults(defineProps<Props>(), {
-  buttonClass: "brand",
-  mode: "auth",
-  eventName: "sign_up",
-})
+const props = withDefaults(
+  defineProps<{
+    text: string
+    buttonClass?: "brand" | "alt" | "sponsor"
+    mode?: "auth" | "checkout"
+    eventName: "sign_up" | "sign_in_attempt" | "try_it_attempt" | "get_started_attempt"
+  }>(),
+  {
+    buttonClass: "brand",
+    mode: "auth",
+    eventName: "sign_up",
+  },
+)
 
 const login = async (event: Event): Promise<void> => {
   event.preventDefault()
