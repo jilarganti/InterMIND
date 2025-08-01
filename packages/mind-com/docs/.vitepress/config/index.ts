@@ -88,12 +88,6 @@ export default defineConfig({
 
   themeConfig: {
     logo: { light: "/logo.svg", dark: "/logo.svg" },
-    prompts: {
-      basic: { name: "basic", model: "gpt-4o-mini", maxTokens: 4000, temperature: 0.3, presencePenalty: 0.3, frequencyPenalty: 0.3 },
-      pro: { name: "pro", model: "claude-3-5-haiku-20241022", maxTokens: 8000, temperature: 0.2, presencePenalty: 0.3, frequencyPenalty: 0.3 },
-      business: { name: "business", model: "claude-3-5-sonnet-20241022", maxTokens: 8000, temperature: 0.1, presencePenalty: 0.3, frequencyPenalty: 0.3 },
-      followup: { name: "followup", model: "claude-4-sonnet-20250514", maxTokens: 1000, temperature: 0.5, presencePenalty: 0.3, frequencyPenalty: 0.3 },
-    },
   },
 
   head: [

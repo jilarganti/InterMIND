@@ -1,6 +1,5 @@
 <script setup lang="ts">
 /// <reference types="vitepress/client" />
-/// <reference types="../../types/themeConfig" />
 
 import { ref, onMounted, watch, onUnmounted, computed, watchEffect, inject } from "vue"
 import type { Ref, ComputedRef } from "vue"
@@ -10,7 +9,6 @@ import { useChatsStore } from "../../stores/chatsStore"
 import { ImageLoader } from "../../utils/imageLoader"
 import ChatFooter from "./ChatFooter.vue"
 import { useData } from "vitepress" // Импортируем useData из VitePress
-import type { DefaultTheme } from "vitepress/theme"
 
 interface Props {
   chatId: string
@@ -24,10 +22,6 @@ const initialMessage = inject<Ref<string | null>>("initialMessage", ref(null))
 // Получаем данные из VitePress, включая текущую локаль
 const { lang, site } = useData()
 // console.log("Current locale:", lang.value)
-
-// Безопасный доступ к themeConfig с проверкой типов
-const themeConfig = computed(() => site.value.themeConfig as DefaultTheme.Config)
-console.log("Current site config:", themeConfig.value.prompts?.basic.model)
 
 // Рефы для DOM-элементов
 const messagesContainerRef = ref<HTMLDivElement | null>(null)
