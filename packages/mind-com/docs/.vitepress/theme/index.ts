@@ -10,6 +10,7 @@ import AuthButton from "./components/AuthButton.vue"
 import ContactForm from "./components/ContactForm.vue"
 import { components } from "shared"
 import "./styles/index.css"
+import AIChat from "./components/AIChat/AIChat.vue"
 
 const { NavButton, SearchInput } = components
 
@@ -35,6 +36,7 @@ export default {
     // Регистрация моих компонентов пакета
     app.component("AuthButton", AuthButton)
     app.component("ContactForm", ContactForm)
+    app.component("AIChat", AIChat)
 
     // Регистрация внешних компонентов пакета
     app.component("Icon", Icon)
