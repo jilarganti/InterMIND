@@ -20,6 +20,8 @@
  * - Click-outside-to-close functionality
  */
 
+/// <reference types="../types/global.d.ts" />
+
 import { useData } from "vitepress"
 import { ref, computed } from "vue"
 import { onClickOutside } from "@vueuse/core"

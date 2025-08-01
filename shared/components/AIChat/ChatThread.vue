@@ -1,5 +1,6 @@
-// shared/components/AIChat/ChatThread.vue
 <script setup lang="ts">
+/// <reference types="vitepress/client" />
+
 import { ref, onMounted, watch, onUnmounted, computed, watchEffect, inject } from "vue"
 import type { Ref } from "vue"
 import { useChat } from "@ai-sdk/vue"
@@ -7,7 +8,6 @@ import { useChatUi } from "../../composables/AIChat/useChatUi"
 import { useChatsStore } from "../../stores/chatsStore"
 import { ImageLoader } from "../../utils/imageLoader"
 import ChatFooter from "./ChatFooter.vue"
-import type { UIMessage } from "@ai-sdk/ui-utils"
 import { useData } from "vitepress" // Импортируем useData из VitePress
 
 interface Props {

@@ -1,23 +1,12 @@
 /// <reference types="vite/client" />
 
-// Vue типы
-declare module "*.vue" {
-  const component: any
-  export default component
-}
-
-// Расширение Vite env
-declare module "vite/client" {
-  interface ImportMetaEnv {
-    readonly VITE_OAUTH_PROVIDER_URL: string
-    readonly VITE_OAUTH_CLIENT_ID: string
-    readonly VITE_APP_BASE_URL: string
-  }
-}
-
-// GTM типы
+// Global types for the project
 declare global {
   interface Window {
+    /**
+     * Google Tag Manager dataLayer
+     * @see https://developers.google.com/tag-platform/tag-manager/web/devguide#datalayer
+     */
     dataLayer?: Array<{ event: string; [key: string]: any }>
   }
 }
