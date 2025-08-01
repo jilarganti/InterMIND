@@ -12,14 +12,14 @@
  * - Message history processing
  * - Content filtering (figure tags removal)
  * - Streaming responses
- * - Multiple chat modes (default, followup)
+ * - Multiple chat modes (basic, followup)
  * - Development/production environment handling
  */
 
 import { anthropic } from "@ai-sdk/anthropic"
 import { openai } from "@ai-sdk/openai"
 import { streamText } from "ai"
-import { BUSINESS_PROMPT, FOLLOW_UP_PROMPT } from "../../docs/.vitepress/config/AIConfig.js"
+import { prompts } from "../../docs/.vitepress/config/AIConfig.js"
 import * as fs from "fs"
 import fetch from "node-fetch"
 
@@ -30,7 +30,7 @@ interface ChatMessage {
 
 interface ChatRequest {
   messages: ChatMessage[]
-  mode?: "default" | "followup"
+  mode?: "basic" | "followup"
   language?: string
 }
 
@@ -49,7 +49,7 @@ export async function POST(request: Request): Promise<Response> {
 
     const body = (await request.json()) as ChatRequest
     let messages = body.messages || []
-    const { mode = "default", language = "ru" } = body
+    const { mode, language } = body
 
     console.log(`🔵 API: Получено ${messages.length} сообщений, режим: ${mode}, язык: ${language}`)
 
@@ -71,13 +71,12 @@ export async function POST(request: Request): Promise<Response> {
     messages = cleanedMessages
 
     // Выбираем системный промпт в зависимости от режима
-    let systemPrompt = BUSINESS_PROMPT // По умолчанию используем бизнес-промпт
+    let systemPromptConfig = mode === "followup" ? prompts.followup : prompts.basic
 
     console.log("🔵 API: Режим запроса: " + mode)
 
-    if (mode === "followup") {
-      systemPrompt = FOLLOW_UP_PROMPT
-    }
+    // Получаем текст промпта из конфигурации
+    let systemPrompt = systemPromptConfig.name
 
     // Добавляем информацию о языке в системный промпт
     systemPrompt = `${llmsTxt} \n Пожалуйста, отвечай на языке: ${language}. \n` + systemPrompt
@@ -88,13 +87,13 @@ export async function POST(request: Request): Promise<Response> {
 
     // Отправляем запрос к ИИ с выбранным системным промптом
     const result = streamText({
-      model: anthropic("claude-3-5-haiku-20241022"), // Быстрая и эффективная модель
+      model: anthropic(systemPromptConfig.model), // Используем модель из конфигурации
       system: systemPrompt,
       messages,
-      maxTokens: 4000,
-      temperature: 0.3,
-      presencePenalty: 0.3,
-      frequencyPenalty: 0.3,
+      maxTokens: systemPromptConfig.maxTokens,
+      temperature: systemPromptConfig.temperature,
+      presencePenalty: systemPromptConfig.presencePenalty,
+      frequencyPenalty: systemPromptConfig.frequencyPenalty,
     })
 
     console.log("🔵 API: Получен ответ от AI, начинаем стриминг...")

@@ -39,8 +39,8 @@ const isDevelopment = computed(() => !import.meta.env.VITE_IS_PROD)
 // Инициализируем хранилище чатов
 const chatsStore = useChatsStore()
 
-// Текущий режим запроса (по умолчанию "default")
-const currentMode = ref("default")
+// Текущий режим запроса (по умолчанию "basic")
+const currentMode = ref("basic")
 
 // ID для текущей сессии чата (используется для отслеживания изменений)
 const chatSessionId = ref(props.chatId)
@@ -89,7 +89,7 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
     if (chatSessionId.value !== props.chatId) return
 
     // Сбрасываем режим на стандартный после получения ответа
-    currentMode.value = "default"
+    currentMode.value = "basic"
 
     // Если есть сообщения и последнее от ассистента
     if (messages.value.length > 0) {
@@ -123,7 +123,7 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
   },
   onError: () => {
     // Сбрасываем режим на стандартный после ошибки
-    currentMode.value = "default"
+    currentMode.value = "basic"
     // Сбрасываем состояние загрузки изображений
     imageLoader.reset()
   },
@@ -202,7 +202,7 @@ const handleSubmitWithScroll = async (event?: Event) => {
 }
 
 // Функция для отправки текста напрямую (используется для быстрых ответов)
-const submitTextDirectly = (text: string, mode = "default") => {
+const submitTextDirectly = (text: string, mode = "basic") => {
   if (text.trim() && status.value !== "streaming") {
     // Устанавливаем режим запроса
     currentMode.value = mode
