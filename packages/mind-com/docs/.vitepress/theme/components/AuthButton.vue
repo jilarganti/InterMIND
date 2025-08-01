@@ -17,7 +17,7 @@
  * - Return URL preservation
  */
 
-/// <reference types="../types/global.d.ts" />
+/// <reference types="../types/global" />
 
 import { nanoid } from "nanoid"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
