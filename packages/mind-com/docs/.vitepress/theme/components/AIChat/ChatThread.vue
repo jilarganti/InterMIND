@@ -6,7 +6,6 @@ import type { Ref, ComputedRef } from "vue"
 import { useChat } from "@ai-sdk/vue"
 import { useChatUi } from "../../composables/AIChat/useChatUi"
 import { useChatsStore } from "../../stores/chatsStore"
-import { ImageLoader } from "../../utils/imageLoader"
 import ChatFooter from "./ChatFooter.vue"
 import { useData } from "vitepress" // Импортируем useData из VitePress
 
@@ -39,24 +38,6 @@ const currentMode = ref("basic")
 // ID для текущей сессии чата (используется для отслеживания изменений)
 const chatSessionId = ref(props.chatId)
 
-// Создаем экземпляр ImageLoader для обработки изображений
-const imageLoader = new ImageLoader((messageIndex, placeholder, imageHtml) => {
-  // Функция обратного вызова для обновления сообщения
-  if (messages.value[messageIndex]) {
-    // Создаем новый массив для реактивного обновления
-    const updatedMessages = [...messages.value]
-
-    // Заменяем плейсхолдер на HTML с изображением
-    updatedMessages[messageIndex] = {
-      ...updatedMessages[messageIndex],
-      content: updatedMessages[messageIndex].content.replace(placeholder, imageHtml),
-    }
-
-    // Обновляем сообщения
-    setMessages(updatedMessages)
-  }
-})
-
 // Создаем новый chat с помощью useChat
 const { messages, input, handleSubmit, status, error, stop, setMessages } = useChat({
   api: "/api/AIChat/chat",
@@ -77,40 +58,12 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
     // console.log("Received HTTP response from server:", response)
   },
   onToolCall({ toolCall }) {},
-  // experimental_prepareRequestBody(options) {},
-  onFinish: async () => {
+  onFinish: () => {
     // Проверяем, что chatId не изменился во время получения ответа
     if (chatSessionId.value !== props.chatId) return
 
     // Сбрасываем режим на стандартный после получения ответа
     currentMode.value = "basic"
-
-    // Если есть сообщения и последнее от ассистента
-    if (messages.value.length > 0) {
-      const lastIndex = messages.value.length - 1
-      const lastMessage = messages.value[lastIndex]
-
-      if (lastMessage.role === "assistant") {
-        // Обрабатываем маркеры изображений с финальной заменой
-        const processedContent = imageLoader.processImageMarkers(
-          lastMessage.content,
-          lastIndex,
-          true, // ответ завершен
-        )
-
-        // Финализируем сообщение - заменяем все плейсхолдеры на изображения
-        const finalMessage = await imageLoader.finalizeMessage({ ...lastMessage, content: processedContent }, lastIndex)
-
-        // Обновляем сообщение, если оно изменилось
-        if (finalMessage !== lastMessage) {
-          // Создаем новый массив для реактивного обновления
-          const updatedMessages = [...messages.value]
-          updatedMessages[lastIndex] = finalMessage
-
-          setMessages(updatedMessages)
-        }
-      }
-    }
 
     // Прокручиваем к последнему сообщению
     scrollToBottom()
@@ -118,50 +71,15 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
   onError: () => {
     // Сбрасываем режим на стандартный после ошибки
     currentMode.value = "basic"
-    // Сбрасываем состояние загрузки изображений
-    imageLoader.reset()
   },
 })
 
-// Наблюдаем за изменениями сообщений для обработки стриминга
-// Это альтернатива onStream, которой нет в @ai-sdk/vue
+// Наблюдаем за изменениями сообщений для прокрутки
 watch(
   messages,
-  (newMessages, oldMessages) => {
-    // Проверяем, что идет стриминг и появилось новое сообщение ассистента
-    if (status.value === "streaming" && newMessages.length > 0) {
-      const lastIndex = newMessages.length - 1
-      const lastMessage = newMessages[lastIndex]
-
-      // Обрабатываем только сообщения от ассистента
-      if (lastMessage.role === "assistant") {
-        // Если это новое сообщение ИЛИ контент изменился
-        const oldContent = oldMessages[lastIndex]?.content || ""
-        if (oldContent !== lastMessage.content) {
-          // Обрабатываем маркеры изображений в незавершенном ответе
-          const processedContent = imageLoader.processImageMarkers(
-            lastMessage.content,
-            lastIndex,
-            false, // ответ еще не завершен
-          )
-
-          // Если контент был изменен, обновляем сообщение
-          if (processedContent !== lastMessage.content) {
-            const updatedMessages = [...newMessages]
-            updatedMessages[lastIndex] = {
-              ...lastMessage,
-              content: processedContent,
-            }
-
-            // Обновляем сообщения, не вызывая рекурсивный вызов watch
-            // Используем setTimeout для отложенного обновления
-            setTimeout(() => {
-              setMessages(updatedMessages)
-            }, 0)
-          }
-        }
-      }
-    }
+  () => {
+    // Прокручиваем к последнему сообщению
+    scrollToBottom()
   },
   { deep: true },
 )
@@ -221,9 +139,6 @@ const { setupImageClicks, cleanupImageClicks } = setupImageClickHandler((text, m
 // Когда chatId меняется, обновляем chatSessionId и перезагружаем сообщения
 watchEffect(() => {
   if (props.chatId !== chatSessionId.value) {
-    // Сбрасываем состояние загрузчика при смене чата
-    imageLoader.reset()
-
     chatSessionId.value = props.chatId
 
     // Загружаем сообщения для нового чата
@@ -285,11 +200,23 @@ defineExpose({ insertText, submitTextDirectly })
             <span class="raw-role">{{ msg.role.toUpperCase() }}</span>
             <span class="raw-id">ID: {{ msg.id }}</span>
           </div>
-          <pre class="raw-content">{{ msg.content }}</pre>
+          <pre class="raw-content">{{ JSON.stringify(msg.parts, null, 2) }}</pre>
         </div>
 
         <!-- Formatted message display (Normal mode) -->
-        <div v-else class="message-content" v-html="renderMarkdown(msg.content)"></div>
+        <div v-else class="message-content">
+          <!-- Используем новый формат parts -->
+          <template v-for="(part, index) in msg.parts" :key="index">
+            <span v-if="part.type === 'text'" v-html="renderMarkdown(part.text)"></span>
+            <img
+              v-else-if="part.type === 'file' && (part as any).mediaType?.startsWith('image/')"
+              :src="(part as any).url"
+              :alt="(part as any).filename || 'Generated image'"
+              class="chat-interactive-image"
+              loading="lazy"
+            />
+          </template>
+        </div>
       </div>
     </div>
 
@@ -459,6 +386,8 @@ defineExpose({ insertText, submitTextDirectly })
   border-radius: 8px;
   transition: all 0.3s ease;
   border: 1px solid transparent;
+  max-width: 100%;
+  height: auto;
 }
 
 .message.assistant .message-content :deep(.chat-interactive-image:hover) {

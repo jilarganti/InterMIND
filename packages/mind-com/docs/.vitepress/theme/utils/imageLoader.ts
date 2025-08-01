@@ -23,17 +23,16 @@ interface ImageSearchResponse {
 export class ImageLoader {
   private imagePromises = new Map<string, Promise<string>>()
   private imagePlaceholders = new Map<string, string>()
-  private messageUpdater: (index: number, oldStr: string, newStr: string) => void
   private pendingQueries = new Set<string>()
 
   // Кеш для хранения уже использованных URL изображений
   private usedImageUrls = new Set<string>()
 
   /**
-   * @param messageUpdater Функция для обновления содержимого сообщения
+   * Конструктор ImageLoader
    */
-  constructor(messageUpdater: (index: number, oldStr: string, newStr: string) => void) {
-    this.messageUpdater = messageUpdater
+  constructor() {
+    // Больше не нужен callback для обновлений во время стриминга
   }
 
   /**
@@ -63,13 +62,13 @@ export class ImageLoader {
   }
 
   /**
-   * Обрабатывает маркеры изображений в содержимом сообщения
-   * @param content Содержимое сообщения
-   * @param messageIndex Индекс сообщения в массиве
-   * @param isComplete Флаг завершения ответа
-   * @returns Обновленное содержимое сообщения
+   * Обрабатывает маркеры изображений в тексте
+   * @param content Текст сообщения с маркерами
+   * @param messageIndex Индекс сообщения
+   * @param isComplete Флаг завершенности ответа (теперь всегда true, так как вызывается только в onFinish)
+   * @returns Текст с начатой загрузкой изображений
    */
-  processImageMarkers(content: string, messageIndex: number, isComplete = false): string {
+  processImageMarkers(content: string, messageIndex: number, isComplete = true): string {
     let modifiedContent = content
     let match: RegExpExecArray | null
 
@@ -89,10 +88,8 @@ export class ImageLoader {
       // Добавляем маркер для предотвращения повторной обработки
       this.pendingQueries.add(query)
 
-      // Во время стриминга сохраняем оригинальный маркер
-      const placeholder = fullMatch
-
       // Сохраняем плейсхолдер для данного запроса
+      const placeholder = fullMatch
       this.imagePlaceholders.set(query, placeholder)
 
       // Начинаем загрузку изображения, если его еще нет в кеше
