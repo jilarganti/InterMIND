@@ -1,10 +1,8 @@
+<!-- Appels intelligents pour les équipes internationales -->
 <template>
-  <HeroSection
-    title="Rencontrez-vous dans **N'importe Quelle** Langue"
-    :typingSpeed="5"
-    text="Traduction vocale en direct dans les **appels vidéo** — communication rapide, claire et sans frontières."
-  >
+  <HeroSection title="Communiquez dans **Toutes** les Langues" :typingSpeed="10" text="Traduction vocale en direct lors des **appels vidéo** — communication rapide, claire et sans frontières.">
     <NavButton buttonLabel="Comment ça marche" buttonClass="brand" to="/#HowItWorks" />
-    <AuthButton text="Commencer" buttonClass="alt" eventName="get_started_attempt" />
+    <NavButton buttonLabel="Chat IA instantané" buttonClass="alt" to="/chat" />
+    <!-- <AuthButton text="Commencer" buttonClass="alt" eventName="get_started_attempt" /> -->
   </HeroSection>
 </template>

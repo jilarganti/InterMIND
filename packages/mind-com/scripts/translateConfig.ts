@@ -32,8 +32,8 @@ export const config = {
   },
 
   models: {
-    gpt4: ["gpt-4o-mini"],
     claude: ["claude-3-5-sonnet-20241022", "claude-4-sonnet-20250514"],
+    gpt4: ["gpt-4o-mini"],
   },
   exclude: ["test"],
   allowedExtensions: [".md", ".vue", ".svg"],

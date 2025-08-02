@@ -40,7 +40,7 @@ export const de = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         items: [
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
-          { text: "Erfahrungsberichte", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Referenzen", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
     ],
@@ -52,27 +52,28 @@ export const de = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Datenschutz-Einstellungen</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Datenschutzrichtlinie</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Rechtliche Bestimmungen für KI-Dienste</a> | <a href="https://status.mind.com/">Service-Status</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Datenschutzeinstellungen</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Datenschutzerklärung</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Rechtliche Bestimmungen für KI-Dienste</a> | <a href="https://status.mind.com/">Servicestatus</a>`,
     },
 
     localization: {
       placeholder4SearchInput: "Fragen Sie alles...",
       placeholder4ChatFooter: "Fragen Sie alles...",
       placeholder4ChatList: "Chat-Thema eingeben...",
-      buttonLabel4NavButton: "Sofortiger Experten-Chat",
-      buttonLabel4AuthButton: "Anmelden",
+      buttonLabel4NavButton: "Sofort-Expertenchat",
+      buttonLabel4SignInButton: "Anmelden",
+      buttonLabel4GetStartedButton: "Loslegen",
     },
     contact_form: {
       name: "Name *",
       namePlaceholder: "Ihr Name",
       email: "E-Mail *",
       emailPlaceholder: "Ihre E-Mail-Adresse",
-      webSite: "Unternehmens-Website *",
+      webSite: "Firmenwebsite *",
       webSitePlaceholder: "z.B. https://firmenname.com",
       webSiteError: "Bitte geben Sie die Website ein",
       category: "Was ist Ihr Hauptziel? *",
       categoryPlaceholder: "Wählen Sie, was am wichtigsten ist",
-      message: "Lassen Sie uns Ihre Ziele besprechen (optional)",
+      message: "Lassen Sie uns über Ihre Ziele sprechen (optional)",
       messagePlaceholder: "Bitte geben Sie zusätzliche Details an (optional)",
       submit: "Anfrage senden",
       sending: "Wird gesendet...",
@@ -82,11 +83,10 @@ export const de = defineConfig({
         "Sprachbarrieren in Meetings beseitigen",
         "Meetings durchsuchbar und umsetzbar machen",
         "Compliance & Datenresidenz sicherstellen (EU / USA / Asien)",
-        "Nur am Erkunden / Sonstiges",
+        "Nur zur Information / Sonstiges",
       ],
 
       defaultButtonText: "Senden Sie uns eine Nachricht",
-      // defaultButtonText: "Kostenlose Beratung erhalten",
     },
   } as DefaultTheme.Config,
 })
@@ -98,7 +98,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Was ist InterMIND?", link: "overview/what-is-intermind" },
-        { text: "Wie es funktioniert", link: "overview/how-it-works" },
+        { text: "Funktionsweise", link: "overview/how-it-works" },
         { text: "Video-Meeting-Plattform", link: "overview/video-meeting-platform" },
         { text: "Regionaler Datenschutz", link: "overview/privacy-architecture" },
         { text: "Prioritätsmärkte", link: "overview/markets" },
@@ -131,15 +131,13 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Support erhalten", link: "/help" },
-        // { text: "Wie es funktioniert", link: "overview/how-it-works" },
       ],
     },
     {
       text: "RESSOURCEN",
       collapsed: false,
       items: [
-        { text: "Marken-Assets", link: "/media-kit" },
-        // { text: "Kontoverwaltung", link: "guide/account-management" },
+        { text: "Markenressourcen", link: "/media-kit" },
       ],
     },
     {
@@ -148,7 +146,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Über uns", link: "/company/about" },
         { text: "Team", link: "/company/team" },
-        { text: "Kontakte", link: "/company/contacts" },
+        { text: "Kontakt", link: "/company/contacts" },
       ],
     },
   ]
@@ -156,9 +154,9 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 
 function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Zusammenfassung für Führungskräfte", link: "/InterMind-Executive-Summary" },
-    { text: "Go-to-Market-Strategie", link: "/go-to-market-strategy" },
-    { text: "Investor Pitch", link: "/InterMind-Investor-Pitch" },
-    { text: "Begründung der Finanzprognosen (Jahr 1–3)", link: "/Financial-Projections-Justification" },
+    { text: "Zusammenfassung", link: "/InterMind-Executive-Summary" },
+    { text: "Go-To-Market-Strategie", link: "/go-to-market-strategy" },
+    { text: "Investorenpräsentation", link: "/InterMind-Investor-Pitch" },
+    { text: "Begründung der Finanzprognosen (Jahr 1-3)", link: "/Financial-Projections-Justification" },
   ]
 }

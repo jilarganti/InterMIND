@@ -1,6 +1,8 @@
+<!-- المكالمات الذكية للفرق العالمية -->
 <template>
-  <HeroSection title="التقِ بـ**أي** لغة" :typingSpeed="5" text="ترجمة الكلام المباشر في **مكالمات الفيديو** — تواصل سريع وواضح وبلا حدود.">
+  <HeroSection title="اجتمع بـ **أي** لغة" :typingSpeed="10" text="ترجمة فورية للكلام في **مكالمات الفيديو** — تواصل سريع، واضح، وبدون حدود.">
     <NavButton buttonLabel="كيف يعمل" buttonClass="brand" to="/#HowItWorks" />
-    <AuthButton text="ابدأ الآن" buttonClass="alt" eventName="get_started_attempt" />
+    <NavButton buttonLabel="دردشة ذكاء اصطناعي فورية" buttonClass="alt" to="/chat" />
+    <!-- <AuthButton text="ابدأ الآن" buttonClass="alt" eventName="get_started_attempt" /> -->
   </HeroSection>
 </template>

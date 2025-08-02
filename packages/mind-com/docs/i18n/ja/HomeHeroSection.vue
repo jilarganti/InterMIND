@@ -1,6 +1,8 @@
+<!-- グローバルチームのためのスマートな通話 -->
 <template>
-  <HeroSection title="**あらゆる**言語で会話" :typingSpeed="5" text="ビデオ通話での**リアルタイム音声翻訳** — 高速、明確、境界のないコミュニケーション。">
+  <HeroSection title="**どの**言語でも会話" :typingSpeed="10" text="**ビデオ通話**でのリアルタイム音声翻訳 — 迅速、クリア、そして境界のないコミュニケーション。">
     <NavButton buttonLabel="仕組みについて" buttonClass="brand" to="/#HowItWorks" />
-    <AuthButton text="始める" buttonClass="alt" eventName="get_started_attempt" />
+    <NavButton buttonLabel="AIチャットを始める" buttonClass="alt" to="/chat" />
+    <!-- <AuthButton text="始めましょう" buttonClass="alt" eventName="get_started_attempt" /> -->
   </HeroSection>
 </template>
