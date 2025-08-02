@@ -74,12 +74,15 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
   },
 })
 
-// Наблюдаем за изменениями сообщений для прокрутки
+// Наблюдаем за изменениями сообщений только для прокрутки
+// Больше НЕ обрабатываем изображения во время стриминга
 watch(
   messages,
   () => {
-    // Прокручиваем к последнему сообщению
-    scrollToBottom()
+    // Просто прокручиваем к последнему сообщению при любых изменениях
+    if (status.value === "streaming") {
+      scrollToBottom()
+    }
   },
   { deep: true },
 )
@@ -200,23 +203,11 @@ defineExpose({ insertText, submitTextDirectly })
             <span class="raw-role">{{ msg.role.toUpperCase() }}</span>
             <span class="raw-id">ID: {{ msg.id }}</span>
           </div>
-          <pre class="raw-content">{{ JSON.stringify(msg.parts, null, 2) }}</pre>
+          <pre class="raw-content">{{ msg.content }}</pre>
         </div>
 
         <!-- Formatted message display (Normal mode) -->
-        <div v-else class="message-content">
-          <!-- Используем новый формат parts -->
-          <template v-for="(part, index) in msg.parts" :key="index">
-            <span v-if="part.type === 'text'" v-html="renderMarkdown(part.text)"></span>
-            <img
-              v-else-if="part.type === 'file' && (part as any).mediaType?.startsWith('image/')"
-              :src="(part as any).url"
-              :alt="(part as any).filename || 'Generated image'"
-              class="chat-interactive-image"
-              loading="lazy"
-            />
-          </template>
-        </div>
+        <div v-else class="message-content" v-html="renderMarkdown(msg.content)"></div>
       </div>
     </div>
 
@@ -386,8 +377,6 @@ defineExpose({ insertText, submitTextDirectly })
   border-radius: 8px;
   transition: all 0.3s ease;
   border: 1px solid transparent;
-  max-width: 100%;
-  height: auto;
 }
 
 .message.assistant .message-content :deep(.chat-interactive-image:hover) {

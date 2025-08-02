@@ -2,11 +2,10 @@
 /// <reference types="vitepress/client" />
 
 import { ref, onMounted, watch, onUnmounted, computed, watchEffect, inject } from "vue"
-import type { Ref } from "vue"
+import type { Ref, ComputedRef } from "vue"
 import { useChat } from "@ai-sdk/vue"
 import { useChatUi } from "../../composables/AIChat/useChatUi"
 import { useChatsStore } from "../../stores/chatsStore"
-import { ImageLoader } from "../../utils/imageLoader"
 import ChatFooter from "./ChatFooter.vue"
 import { useData } from "vitepress" // Импортируем useData из VitePress
 
@@ -21,8 +20,7 @@ const initialMessage = inject<Ref<string | null>>("initialMessage", ref(null))
 
 // Получаем данные из VitePress, включая текущую локаль
 const { lang, site } = useData()
-console.log("Current locale:", lang.value)
-console.log("Current site config:", site.value.themeConfig.prompts?.basic)
+// console.log("Current locale:", lang.value)
 
 // Рефы для DOM-элементов
 const messagesContainerRef = ref<HTMLDivElement | null>(null)
@@ -34,29 +32,11 @@ const isDevelopment = computed(() => !import.meta.env.VITE_IS_PROD)
 // Инициализируем хранилище чатов
 const chatsStore = useChatsStore()
 
-// Текущий режим запроса (по умолчанию "default")
-const currentMode = ref("default")
+// Текущий режим запроса (по умолчанию "basic")
+const currentMode = ref("basic")
 
 // ID для текущей сессии чата (используется для отслеживания изменений)
 const chatSessionId = ref(props.chatId)
-
-// Создаем экземпляр ImageLoader для обработки изображений
-const imageLoader = new ImageLoader((messageIndex, placeholder, imageHtml) => {
-  // Функция обратного вызова для обновления сообщения
-  if (messages.value[messageIndex]) {
-    // Создаем новый массив для реактивного обновления
-    const updatedMessages = [...messages.value]
-
-    // Заменяем плейсхолдер на HTML с изображением
-    updatedMessages[messageIndex] = {
-      ...updatedMessages[messageIndex],
-      content: updatedMessages[messageIndex].content.replace(placeholder, imageHtml),
-    }
-
-    // Обновляем сообщения
-    setMessages(updatedMessages)
-  }
-})
 
 // Создаем новый chat с помощью useChat
 const { messages, input, handleSubmit, status, error, stop, setMessages } = useChat({
@@ -78,90 +58,30 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
     // console.log("Received HTTP response from server:", response)
   },
   onToolCall({ toolCall }) {},
-  // experimental_prepareRequestBody(options) {},
-  onFinish: async () => {
+  onFinish: () => {
     // Проверяем, что chatId не изменился во время получения ответа
     if (chatSessionId.value !== props.chatId) return
 
     // Сбрасываем режим на стандартный после получения ответа
-    currentMode.value = "default"
-
-    // Если есть сообщения и последнее от ассистента
-    if (messages.value.length > 0) {
-      const lastIndex = messages.value.length - 1
-      const lastMessage = messages.value[lastIndex]
-
-      if (lastMessage.role === "assistant") {
-        // Обрабатываем маркеры изображений с финальной заменой
-        const processedContent = imageLoader.processImageMarkers(
-          lastMessage.content,
-          lastIndex,
-          true, // ответ завершен
-        )
-
-        // Финализируем сообщение - заменяем все плейсхолдеры на изображения
-        const finalMessage = await imageLoader.finalizeMessage({ ...lastMessage, content: processedContent }, lastIndex)
-
-        // Обновляем сообщение, если оно изменилось
-        if (finalMessage !== lastMessage) {
-          // Создаем новый массив для реактивного обновления
-          const updatedMessages = [...messages.value]
-          updatedMessages[lastIndex] = finalMessage
-
-          setMessages(updatedMessages)
-        }
-      }
-    }
+    currentMode.value = "basic"
 
     // Прокручиваем к последнему сообщению
     scrollToBottom()
   },
   onError: () => {
     // Сбрасываем режим на стандартный после ошибки
-    currentMode.value = "default"
-    // Сбрасываем состояние загрузки изображений
-    imageLoader.reset()
+    currentMode.value = "basic"
   },
 })
 
-// Наблюдаем за изменениями сообщений для обработки стриминга
-// Это альтернатива onStream, которой нет в @ai-sdk/vue
+// Наблюдаем за изменениями сообщений только для прокрутки
+// Больше НЕ обрабатываем изображения во время стриминга
 watch(
   messages,
-  (newMessages, oldMessages) => {
-    // Проверяем, что идет стриминг и появилось новое сообщение ассистента
-    if (status.value === "streaming" && newMessages.length > 0) {
-      const lastIndex = newMessages.length - 1
-      const lastMessage = newMessages[lastIndex]
-
-      // Обрабатываем только сообщения от ассистента
-      if (lastMessage.role === "assistant") {
-        // Если это новое сообщение ИЛИ контент изменился
-        const oldContent = oldMessages[lastIndex]?.content || ""
-        if (oldContent !== lastMessage.content) {
-          // Обрабатываем маркеры изображений в незавершенном ответе
-          const processedContent = imageLoader.processImageMarkers(
-            lastMessage.content,
-            lastIndex,
-            false, // ответ еще не завершен
-          )
-
-          // Если контент был изменен, обновляем сообщение
-          if (processedContent !== lastMessage.content) {
-            const updatedMessages = [...newMessages]
-            updatedMessages[lastIndex] = {
-              ...lastMessage,
-              content: processedContent,
-            }
-
-            // Обновляем сообщения, не вызывая рекурсивный вызов watch
-            // Используем setTimeout для отложенного обновления
-            setTimeout(() => {
-              setMessages(updatedMessages)
-            }, 0)
-          }
-        }
-      }
+  () => {
+    // Просто прокручиваем к последнему сообщению при любых изменениях
+    if (status.value === "streaming") {
+      scrollToBottom()
     }
   },
   { deep: true },
@@ -197,7 +117,7 @@ const handleSubmitWithScroll = async (event?: Event) => {
 }
 
 // Функция для отправки текста напрямую (используется для быстрых ответов)
-const submitTextDirectly = (text: string, mode = "default") => {
+const submitTextDirectly = (text: string, mode = "basic") => {
   if (text.trim() && status.value !== "streaming") {
     // Устанавливаем режим запроса
     currentMode.value = mode
@@ -222,9 +142,6 @@ const { setupImageClicks, cleanupImageClicks } = setupImageClickHandler((text, m
 // Когда chatId меняется, обновляем chatSessionId и перезагружаем сообщения
 watchEffect(() => {
   if (props.chatId !== chatSessionId.value) {
-    // Сбрасываем состояние загрузчика при смене чата
-    imageLoader.reset()
-
     chatSessionId.value = props.chatId
 
     // Загружаем сообщения для нового чата
