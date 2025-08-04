@@ -48,6 +48,10 @@ GoldenFishProject/
 └── package.json           # Workspace configuration
 ```
 
+## Development
+
+For AI agent development instructions, see [📋 AI Agent Instructions](.github/copilot-instructions.md).
+
 ## License
 
 Apache License 2.0 - see individual packages for details.
