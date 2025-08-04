@@ -208,7 +208,7 @@ describe("signUp API endpoint", () => {
       expect.objectContaining({
         lead: expect.objectContaining({
           title: "Minimal User",
-          kind: "Basic", 
+          kind: "Basic",
           message: "Source: direct; Campaign: none;",
         }),
       }),
