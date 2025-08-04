@@ -66,18 +66,17 @@ describe("signUp API endpoint", () => {
     expect(response.status).toBe(200)
     expect(result.success).toBe(true)
     expect(result.gtmData).toEqual({
-      event: "sign_up",
+      event: "Test User",
       method: "Google",
       plan: "Pro",
-      kind: "Test User",
     })
 
     expect(mockCreateContactAndLead).toHaveBeenCalledWith(
       {
         lead: {
-          title: "sign_up",
-          kind: "Test User",
-          message: "Plan: Pro; Method: Google; Source: google_ads; Campaign: winter_2025;",
+          title: "Test User",
+          kind: "Pro",
+          message: "Source: google_ads; Campaign: winter_2025;",
           sourceChannel: "Web visitors",
         },
         contact: {
@@ -208,7 +207,9 @@ describe("signUp API endpoint", () => {
     expect(mockCreateContactAndLead).toHaveBeenCalledWith(
       expect.objectContaining({
         lead: expect.objectContaining({
-          message: "Plan: Basic; Method: undefined; Source: direct; Campaign: none;",
+          title: "Minimal User",
+          kind: "Basic", 
+          message: "Source: direct; Campaign: none;",
         }),
       }),
       request,
