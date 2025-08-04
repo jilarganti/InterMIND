@@ -19,7 +19,7 @@
 import { anthropic } from "@ai-sdk/anthropic"
 import { streamText } from "ai"
 import { prompts } from "../../docs/.vitepress/config/AIConfig.js"
-import { semanticSearchTool } from "./tools/semanticSearchSimple.js"
+import { semanticSearchTool } from "./semanticSearch.js"
 
 interface ChatMessage {
   role: "user" | "assistant" | "system"
