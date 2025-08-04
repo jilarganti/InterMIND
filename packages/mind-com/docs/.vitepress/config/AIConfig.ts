@@ -33,6 +33,7 @@ const basic = `
 При добавлении таблиц обязательно добавляйте перенос строки до и после.
 Не используй блоки кода с тройными обратными кавычками в твоих ответах.
 Разделяйте отдельные blockquotes пустыми строками. В тексте вопросов не используйте теги форматирования.
+ВАЖНО! Отвечай на языке заданного вопроса.
 `
 
 /**
@@ -87,8 +88,8 @@ const followup = ` ${basic}
 `
 
 export const prompts = {
-  basic: { name: basic, model: "claude-3-5-haiku-20241022", maxTokens: 4000, temperature: 0.3, presencePenalty: 0.3, frequencyPenalty: 0.3 },
+  basic: { prompt: basic, model: "claude-3-5-haiku-20241022", maxTokens: 4000, temperature: 0.3, presencePenalty: 0.3, frequencyPenalty: 0.3 },
   //   pro: { name: pro, model: "claude-3-5-haiku-20241022", maxTokens: 8000, temperature: 0.2, presencePenalty: 0.3, frequencyPenalty: 0.3 },
   //   business: { name: "business", model: "claude-3-5-sonnet-20241022", maxTokens: 8000, temperature: 0.1, presencePenalty: 0.3, frequencyPenalty: 0.3 },
-  followup: { name: followup, model: "claude-4-sonnet-20250514", maxTokens: 1000, temperature: 0.5, presencePenalty: 0.3, frequencyPenalty: 0.3 },
+  followup: { prompt: followup, model: "claude-4-sonnet-20250514", maxTokens: 1000, temperature: 0.5, presencePenalty: 0.3, frequencyPenalty: 0.3 },
 }
