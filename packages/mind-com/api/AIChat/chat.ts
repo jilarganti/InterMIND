@@ -17,11 +17,9 @@
  */
 
 import { anthropic } from "@ai-sdk/anthropic"
-import { openai } from "@ai-sdk/openai"
 import { streamText } from "ai"
 import { prompts } from "../../docs/.vitepress/config/AIConfig.js"
-import * as fs from "fs"
-import fetch from "node-fetch"
+import { semanticSearchTool } from "./tools/semanticSearchSimple.js"
 
 interface ChatMessage {
   role: "user" | "assistant" | "system"
@@ -34,8 +32,6 @@ interface ChatRequest {
   language?: string
 }
 
-let llmsTxt: string
-
 /**
  * Обработчик POST-запроса
  */
@@ -43,10 +39,6 @@ export async function POST(request: Request): Promise<Response> {
   console.log("🔵 API: Получен запрос к /api/chat")
 
   try {
-    // Читаем содержимое основного файла с метаданными
-    llmsTxt = await getContent("docs/.vitepress/dist/llms.txt", "llmsTxt")
-    llmsTxt = llmsTxt.replace(/\.md/g, "")
-
     const body = (await request.json()) as ChatRequest
     let messages = body.messages || []
     const { mode, language } = body
@@ -79,21 +71,26 @@ export async function POST(request: Request): Promise<Response> {
     let systemPrompt = systemPromptConfig.name
 
     // Добавляем информацию о языке в системный промпт
-    systemPrompt = `${llmsTxt} \n Пожалуйста, отвечай на языке: ${language}. \n` + systemPrompt
+    systemPrompt = `Пожалуйста, отвечай на языке: ${language}. \n` + systemPrompt
 
     // Простая проверка размера промпта
     const promptLength = systemPrompt.length
     console.log(`🔍 Размер системного промпта: ${promptLength} символов`)
 
-    // Отправляем запрос к ИИ с выбранным системным промптом
-    const result = streamText({
-      model: anthropic(systemPromptConfig.model), // Используем модель из конфигурации
+    // Отправляем запрос к ИИ с выбранным системным промптом и инструментами
+    const result = await streamText({
+      model: anthropic("claude-3-5-sonnet-20240620"),
+      messages: messages,
       system: systemPrompt,
-      messages,
       maxTokens: systemPromptConfig.maxTokens,
       temperature: systemPromptConfig.temperature,
       presencePenalty: systemPromptConfig.presencePenalty,
       frequencyPenalty: systemPromptConfig.frequencyPenalty,
+      tools: {
+        searchKnowledgeBase: semanticSearchTool,
+      },
+      toolChoice: "auto", // Позволяем модели решать, когда использовать инструмент
+      maxSteps: 5, // Позволяем несколько вызовов инструментов
     })
 
     console.log("🔵 API: Получен ответ от AI, начинаем стриминг...")
@@ -108,50 +105,6 @@ export async function POST(request: Request): Promise<Response> {
       headers: { "Content-Type": "application/json" },
     })
   }
-}
-
-/**
- * Получение контента файла в зависимости от окружения
- * @param filePath - путь к файлу
- * @param tag - тег для обертки контента
- * @returns содержимое файла с тегом
- */
-async function getContent(filePath: string, tag: string): Promise<string> {
-  let content: string
-
-  // В локальной разработке (vercel dev) читаем файл напрямую из файловой системы
-  const isLocalDev = process.env.VERCEL_URL?.includes("localhost")
-
-  if (isLocalDev) {
-    content = fs.readFileSync(filePath, "utf8")
-  } else {
-    // Определяем окружение для production/preview
-    const baseUrl = "https://" + (process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL)
-    // Находим в пути "/dist/" и отсекаем всё до и включая
-    let urlPath = filePath
-    const distIndex = filePath.indexOf("/dist/")
-
-    if (distIndex !== -1) {
-      urlPath = filePath.substring(distIndex + 6) // +6 чтобы отсечь и сам "/dist/"
-    }
-
-    const fullUrl = `${baseUrl}/${urlPath}`
-    console.log("🔵 API: Получаем контент по URL:", fullUrl)
-    const response = await fetch(fullUrl, {
-      headers: {
-        "x-vercel-protection-bypass": process.env.VERCEL_AUTOMATION_BYPASS_SECRET || "",
-      },
-    })
-
-    if (!response.ok) {
-      throw new Error(`Ошибка HTTP: ${response.status} при получении ${fullUrl}`)
-    }
-
-    content = await response.text()
-  }
-
-  // Возвращаем контент с тегом
-  return `<${tag}>\n${content}\n</${tag}>`
 }
 
 /**
