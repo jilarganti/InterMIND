@@ -2,7 +2,7 @@
 
 ## Domain Access Control
 
-All API endpoints are protected by domain verification to prevent unauthorized access.
+All API endpoints are protected by domain verification to prevent unauthorized access. This includes user registration, form submissions, AI chat interactions, and demo endpoints.
 
 ### Allowed Domains
 
@@ -23,6 +23,7 @@ export const ALLOWED_DOMAINS = ["localhost", "mind.com", "inter.mind.com", "stat
 
 - `POST /api/signUp` - User registration
 - `POST /api/submitForm` - Form submission
+- `POST /api/chat` - AI Chat API with semantic search integration
 - `GET /api/demo/get` - Demo endpoint
 - `POST /api/demo/handler` - Demo handler
 

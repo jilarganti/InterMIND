@@ -2,17 +2,19 @@
 
 [![test](https://github.com/vuejs/vitepress/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/vuejs/vitepress/actions/workflows/test.yml)
 
-Platform for real-time speech translation in video calls. Eliminates language barriers for international teams.
+Platform for real-time speech translation in video calls. Eliminates language barriers for international teams. Features AI-powered chat with semantic search capabilities.
 
 ## Project Description
 
-Mind.com is a VitePress website with multilingual support, integrated with Pipedrive CRM and OAuth authorization. The project includes:
+Mind.com is a VitePress website with multilingual support, integrated with Pipedrive CRM, OAuth authorization, and AI Chat powered by vector database. The project includes:
 
 - 📄 VitePress documentation with support for 12+ languages
 - 🔗 API endpoints for CRM integration
 - 🚀 OAuth authorization through external service
 - 📝 Contact forms with lead submission to Pipedrive
 - 📊 Google Analytics integration via GTM
+- 🤖 AI Chat with semantic search using Pinecone vector database
+- 🔍 Automatic language detection for multilingual responses
 
 ## Project Structure
 
@@ -31,9 +33,17 @@ packages/mind-com/
 │   ├── en/                        # English content
 │   └── i18n/                      # Translations to other languages
 ├── api/                           # Vercel API endpoints
-│   ├── mind-com/
-│   │   └── createContactAndLead.ts # CRM integration
-│   └── lib/                       # API utilities
+│   ├── config/                   # API configuration
+│   │   ├── corsConfig.ts         # CORS domain verification
+│   │   └── pipedriveConfig.ts    # Pipedrive CRM configuration
+│   ├── demo/                     # Demo endpoints
+│   ├── lib/                      # API utilities
+│   │   └── aiChatLib.ts          # Semantic search tool for AI Chat
+│   ├── types/                    # TypeScript type definitions
+│   ├── chat.ts                   # AI Chat endpoint
+│   ├── signUp.ts                 # User registration
+│   ├── submitForm.ts             # Form submission
+│   └── SECURITY.md               # API security documentation
 ├── scripts/                       # Automation scripts
 └── __tests__/                     # Tests
 ```
@@ -130,6 +140,65 @@ To adapt the project for your domain:
    - `VERCEL_ENV`: Set automatically by Vercel
    - `PIPEDRIVE_API_TOKEN`: Your Pipedrive API token
 
+## AI Chat with Vector Database
+
+The project includes an AI-powered chat system with semantic search capabilities using Pinecone vector database and OpenAI embeddings.
+
+### Features
+
+- 🤖 **AI-powered responses** using Anthropic Claude models
+- 🔍 **Semantic search** through InterMind documentation
+- 🌐 **Automatic language detection** from user questions
+- 📚 **Context-aware answers** using vector database
+- 🛡️ **Domain-protected** API endpoints
+
+### Architecture
+
+1. **Document Indexing**: Documentation is processed into chunks and stored in Pinecone
+2. **Semantic Search**: AI uses `semanticSearchTool` to find relevant information
+3. **Context Generation**: Retrieved information is used to generate accurate responses
+4. **Language Detection**: AI automatically responds in the user's question language
+
+### Required Environment Variables
+
+```env
+# AI Chat Configuration
+PINECONE_API_KEY=your_pinecone_api_key
+PINECONE_INDEX_NAME=intermind-docs
+OPENAI_API_KEY=your_openai_api_key
+ANTHROPIC_API_KEY=your_anthropic_api_key
+```
+
+### Setup and Usage
+
+1. **Create Pinecone Index:**
+   - Name: `intermind-docs`
+   - Dimensions: `1536` (for text-embedding-3-small)
+   - Metric: `cosine`
+
+2. **Index Documents:**
+
+   ```bash
+   # Build project to generate documentation
+   pnpm build
+
+   # Index documents to Pinecone
+   pnpm index:docs
+   ```
+
+3. **API Endpoint:**
+   - `POST /api/chat` - Main chat endpoint with semantic search integration
+
+### How It Works
+
+- User asks questions in any language
+- AI automatically detects language and responds accordingly
+- For InterMind-specific questions, semantic search finds relevant documentation
+- Responses include context from vector database for accuracy
+- All requests are domain-protected for security
+
+For detailed setup instructions, see [AIChat-VectorDB-Setup.md](docs/AIChat-VectorDB-Setup.md).
+
 ## Vercel Integration
 
 The project is designed to run on Vercel, utilizing its serverless functions for API endpoints and static site generation for the documentation. The Vercel configuration is located in `packages/mind-com/vercel.json`.
@@ -147,6 +216,12 @@ Environment variables are automatically loaded by `vercel pull` command into `pa
 ```bash
 # Pipedrive CRM
 PIPEDRIVE_API_TOKEN=your_pipedrive_token
+
+# AI Chat & Vector Database
+PINECONE_API_KEY=your_pinecone_api_key
+PINECONE_INDEX_NAME=intermind-docs
+OPENAI_API_KEY=your_openai_api_key
+ANTHROPIC_API_KEY=your_anthropic_api_key
 
 # Vercel environment
 VERCEL_ENV=development|preview|production
@@ -298,6 +373,7 @@ API endpoints for CRM integration. Configuration settings are defined in [pipedr
 
 - `POST /api/signUp` - User registration with lead creation
 - `POST /api/submitForm` - Contact form submission with lead creation
+- `POST /api/chat` - AI Chat with semantic search capabilities
 
 ```typescript
 // Sign up example
@@ -328,6 +404,16 @@ const response = await fetch("/api/submitForm", {
     kind: "Demo Request",
     message: "Interested in your service",
     webSite: "https://example.com",
+  }),
+})
+
+// AI Chat example
+const response = await fetch("/api/chat", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({
+    messages: [{ role: "user", content: "What are InterMind's pricing plans?" }],
+    mode: "basic", // or "followup"
   }),
 })
 ```
