@@ -17,8 +17,8 @@
 
 import { anthropic } from "@ai-sdk/anthropic"
 import { streamText } from "ai"
-import { prompts } from "../../docs/.vitepress/config/AIConfig.js"
-import { semanticSearchTool } from "./semanticSearch.js"
+import { prompts } from "../docs/.vitepress/config/AIConfig.js"
+import { semanticSearchTool } from "./lib/aiChatLib.js"
 
 interface ChatMessage {
   role: "user" | "assistant" | "system"

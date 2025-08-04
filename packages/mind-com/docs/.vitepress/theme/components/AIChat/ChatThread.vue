@@ -40,7 +40,7 @@ const chatSessionId = ref(props.chatId)
 
 // Создаем новый chat с помощью useChat
 const { messages, input, handleSubmit, status, error, stop, setMessages } = useChat({
-  api: "/api/AIChat/chat",
+  api: "/api/chat",
   id: chatSessionId.value,
   initialMessages: chatsStore.getMessages(props.chatId),
   body: {
