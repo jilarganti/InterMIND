@@ -35,7 +35,7 @@ const props = withDefaults(
     eventName: "sign_up" | "sign_in_attempt" | "try_it_attempt" | "get_started_attempt"
   }>(),
   {
-    buttonClass: "brand",
+    buttonClass: "alt",
     buttonStyle: "display: flex; justify-content: center; padding: 15px;", // добавлены отступы
     mode: "auth",
     eventName: "sign_up",

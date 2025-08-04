@@ -1,5 +1,4 @@
-import { h } from "vue"
-import { type App } from "vue"
+import { h, type App } from "vue"
 import Theme from "vitepress/theme"
 import { useData, inBrowser } from "vitepress"
 import sharedTheme from "shared"
@@ -20,10 +19,15 @@ export default {
   Layout() {
     return h(Theme.Layout, null, {
       "nav-bar-content-after": () =>
-        h(AuthButton, { eventName: "sign_in_attempt", text: useData().site.value.themeConfig.localization.buttonLabel4SignInButton, buttonClass: "alt" }),
-
+        h(AuthButton, { eventName: "sign_in_attempt", text: useData().site.value.themeConfig.localization.buttonLabel4SignInButton }),
+      "sidebar-nav-after": () =>
+        h(NavButton, { to: "/chat", buttonClass: "alt", buttonLabel: useData().site.value.themeConfig.localization.buttonLabel4NavButton }),
       "doc-footer-before": () =>
-        h(AuthButton, { eventName: "get_started_attempt", text: useData().site.value.themeConfig.localization.buttonLabel4GetStartedButton }),
+        h(AuthButton, {
+          eventName: "get_started_attempt",
+          buttonClass: "brand",
+          text: useData().site.value.themeConfig.localization.buttonLabel4GetStartedButton,
+        }),
     })
   },
 
