@@ -3,29 +3,23 @@
  * Использует Pinecone и OpenAI напрямую
  */
 
-import { CoreTool } from "ai"
+import { tool } from "ai"
 import { z } from "zod"
 import { Pinecone } from "@pinecone-database/pinecone"
 import OpenAI from "openai"
 
-// Проверяем переменные окружения при инициализации
-if (!process.env.PINECONE_API_KEY || !process.env.OPENAI_API_KEY) {
-  console.error("❌ Отсутствуют необходимые API ключи!")
-  console.error("Pinecone API Key:", process.env.PINECONE_API_KEY ? "✅" : "❌")
-  console.error("OpenAI API Key:", process.env.OPENAI_API_KEY ? "✅" : "❌")
-}
+if (!process.env.PINECONE_API_KEY || !process.env.OPENAI_API_KEY) console.error("❌ Отсутствуют API ключи!")
 
-// Инициализация клиентов
 const pinecone = new Pinecone({
-  apiKey: process.env.PINECONE_API_KEY!,
+  apiKey: process.env.PINECONE_API_KEY,
 })
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY!,
+  apiKey: process.env.OPENAI_API_KEY,
 })
 
 // Получаем индекс
-const index = pinecone.index(process.env.PINECONE_INDEX_NAME || "intermind-docs")
+const index = pinecone.index(process.env.PINECONE_INDEX_NAME)
 
 // Функция для создания эмбеддингов
 async function createEmbedding(text: string): Promise<number[]> {
@@ -37,7 +31,7 @@ async function createEmbedding(text: string): Promise<number[]> {
 }
 
 // Инструмент семантического поиска
-export const semanticSearchTool: CoreTool = {
+export const semanticSearchTool = tool({
   description: "Search for information in the InterMIND knowledge base about features, capabilities, pricing, and other documentation",
   parameters: z.object({
     query: z.string().describe("The search query to find relevant information"),
@@ -46,12 +40,6 @@ export const semanticSearchTool: CoreTool = {
   execute: async ({ query, limit = 5 }) => {
     try {
       console.log(`🔍 Searching for: "${query}"`)
-
-      // Проверяем наличие API ключей
-      if (!process.env.PINECONE_API_KEY || !process.env.OPENAI_API_KEY) {
-        console.error("❌ API ключи не загружены!")
-        return "Configuration error: API keys not loaded. Please check environment variables."
-      }
 
       // Создаем эмбеддинг для запроса
       const queryEmbedding = await createEmbedding(query)
@@ -97,4 +85,4 @@ export const semanticSearchTool: CoreTool = {
       return `Failed to search the knowledge base: ${errorMessage}`
     }
   },
-}
+})
