@@ -59,7 +59,7 @@ export const en = defineConfig({
       placeholder4SearchInput: "Ask anything...",
       placeholder4ChatFooter: "Ask anything...",
       placeholder4ChatList: "Enter chat topic...",
-      buttonLabel4NavButton: "Instant AI chat",
+      buttonLabel4NavButton: "Assistant",
       buttonLabel4SignInButton: "Sign in",
       buttonLabel4GetStartedButton: "Get started",
     },
