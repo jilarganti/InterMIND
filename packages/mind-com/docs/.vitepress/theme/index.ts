@@ -21,7 +21,7 @@ export default {
       "nav-bar-content-after": () =>
         h(AuthButton, { eventName: "sign_in_attempt", text: useData().site.value.themeConfig.localization.buttonLabel4SignInButton }),
       "sidebar-nav-after": () =>
-        h("div", { class: "auth-buttons-container" }, [
+        h("div", [
           h(NavButton, { to: "/chat", buttonClass: "alt", buttonLabel: useData().site.value.themeConfig.localization.buttonLabel4NavButton }),
           h(AuthButton, {
             eventName: "get_started_attempt",

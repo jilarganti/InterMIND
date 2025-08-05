@@ -5,38 +5,21 @@ import { useData } from "vitepress"
 import { useLocalizedPath } from "../utils/locale"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
 
-interface Props {
-  /**
-   * Текст кнопки
-   */
-  buttonLabel?: string
-
-  /**
-   * Класс для кнопки (используется для определения темы: 'alt' или 'brand')
-   */
-  buttonClass?: "brand" | "alt" | "sponsor"
-
-  /**
-   * Ссылка для перехода
-   */
-  to: string
-}
-
-const props = defineProps<Props>()
+const props = withDefaults(
+  defineProps<{
+    buttonLabel?: string
+    to: string
+    buttonClass?: "brand" | "alt" | "sponsor"
+    buttonStyle?: string
+  }>(),
+  {
+    buttonClass: "alt",
+    buttonStyle: "display: flex;",
+  },
+)
 
 const { navigateTo } = useLocalizedPath()
-const { site, frontmatter } = useData()
-
-const hide = computed(() => frontmatter.value.hideComponents?.includes("NavButton"))
-const label = computed(() => props.buttonLabel || site.value.themeConfig.localization.buttonLabel4NavButton)
-
-// Вычисляемая тема для VPButton
-const computedTheme = computed(() => {
-  if (props.buttonClass === "alt" || props.buttonClass === "sponsor" || props.buttonClass === "brand") {
-    return props.buttonClass
-  }
-  return "brand" // По умолчанию 'brand'
-})
+const label = computed(() => props.buttonLabel || useData().site.value.themeConfig.localization.buttonLabel4NavButton)
 
 /**
  * Обработчик клика по кнопке - переход по ссылке с учетом локали
@@ -48,9 +31,7 @@ const handleClick = (event: Event): void => {
 </script>
 
 <template>
-  <VPButton v-if="!hide" :text="label" :theme="computedTheme" :href="props.to" @click="handleClick" />
+  <div :style="props.buttonStyle">
+    <VPButton :text="label" :theme="buttonClass" :href="props.to" @click="handleClick" />
+  </div>
 </template>
-
-<style scoped>
-/* Стили удалены, так как VPButton имеет свои собственные стили */
-</style>
