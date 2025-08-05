@@ -11,7 +11,7 @@ import { components } from "shared"
 import "./styles/index.css"
 import AIChat from "./components/AIChat/AIChat.vue"
 
-const { NavButton, SearchInput } = components
+const { NavButton } = components
 
 // Добавляем элементы в макет
 export default {
@@ -21,13 +21,15 @@ export default {
       "nav-bar-content-after": () =>
         h(AuthButton, { eventName: "sign_in_attempt", text: useData().site.value.themeConfig.localization.buttonLabel4SignInButton }),
       "sidebar-nav-after": () =>
-        h(NavButton, { to: "/chat", buttonClass: "alt", buttonLabel: useData().site.value.themeConfig.localization.buttonLabel4NavButton }),
-      "doc-footer-before": () =>
-        h(AuthButton, {
-          eventName: "get_started_attempt",
-          buttonClass: "brand",
-          text: useData().site.value.themeConfig.localization.buttonLabel4GetStartedButton,
-        }),
+        h("div", { class: "auth-buttons-container" }, [
+          h(NavButton, { to: "/chat", buttonClass: "alt", buttonLabel: useData().site.value.themeConfig.localization.buttonLabel4NavButton }),
+          h(AuthButton, {
+            eventName: "get_started_attempt",
+            buttonClass: "brand",
+            buttonStyle: "display: flex; margin-top: 1rem;",
+            text: useData().site.value.themeConfig.localization.buttonLabel4GetStartedButton,
+          }),
+        ]),
     })
   },
 
