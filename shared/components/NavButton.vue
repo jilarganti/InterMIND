@@ -14,7 +14,7 @@ const props = withDefaults(
   }>(),
   {
     buttonClass: "alt",
-    buttonStyle: "display: flex;",
+    buttonStyle: "",
   },
 )
 

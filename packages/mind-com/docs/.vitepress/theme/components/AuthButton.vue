@@ -36,7 +36,7 @@ const props = withDefaults(
   }>(),
   {
     buttonClass: "alt",
-    buttonStyle: "display: flex; justify-content: center; padding: 15px;", // добавлены отступы
+    buttonStyle: "",
     mode: "auth",
     eventName: "sign_up",
   },

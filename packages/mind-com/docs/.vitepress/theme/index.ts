@@ -19,14 +19,18 @@ export default {
   Layout() {
     return h(Theme.Layout, null, {
       "nav-bar-content-after": () =>
-        h(AuthButton, { eventName: "sign_in_attempt", text: useData().site.value.themeConfig.localization.buttonLabel4SignInButton }),
+        h(AuthButton, {
+          eventName: "sign_in_attempt",
+          buttonStyle: "margin: 0 1rem;",
+          text: useData().site.value.themeConfig.localization.buttonLabel4SignInButton,
+        }),
       "sidebar-nav-after": () =>
         h("div", [
           h(NavButton, { to: "/chat", buttonClass: "alt", buttonLabel: useData().site.value.themeConfig.localization.buttonLabel4NavButton }),
           h(AuthButton, {
             eventName: "get_started_attempt",
             buttonClass: "brand",
-            buttonStyle: "display: flex; margin-top: 1rem;",
+            buttonStyle: "margin: 1rem 0;",
             text: useData().site.value.themeConfig.localization.buttonLabel4GetStartedButton,
           }),
         ]),
