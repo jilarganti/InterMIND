@@ -203,15 +203,19 @@ export function useChatUi(
   // Настройка открытия ссылок в новой вкладке
   const defaultRender = md.renderer.rules.link_open || ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options))
 
-  // Модификация для ссылок: добавляем атрибуты для безопасности для внешних ссылок
-  // и не трогаем внутренние якоря (# ссылки)
+  // Модификация для ссылок: добавляем атрибуты для безопасности только для внешних ссылок
   md.renderer.rules.link_open = (tokens, idx, options, env, self) => {
     const href = tokens[idx].attrGet("href") || ""
 
-    // Не добавляем target="_blank" для внутренних якорей (сносок)
-    if (!href.startsWith("#")) {
+    // Определяем, является ли ссылка внешней
+    const isExternalLink = href.startsWith("http://") || href.startsWith("https://") || href.startsWith("//")
+    const isAnchorLink = href.startsWith("#")
+
+    // Добавляем target="_blank" только для внешних ссылок
+    // Внутренние относительные ссылки и якоря остаются в той же вкладке
+    if (isExternalLink) {
       tokens[idx].attrSet("target", "_blank")
-      tokens[idx].attrSet("rel", "noopener")
+      tokens[idx].attrSet("rel", "noopener noreferrer")
     }
 
     return defaultRender(tokens, idx, options, env, self)
