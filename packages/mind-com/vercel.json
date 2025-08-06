@@ -2,14 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
 
-  "redirects": [
-    {
-      "source": "/promo/imind",
-      "destination": "/imind",
-      "permanent": true
-    }
-  ],
-
   "headers": [
     {
       "source": "/assets/(.*)",

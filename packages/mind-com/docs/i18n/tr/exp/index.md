@@ -2,11 +2,11 @@
 layout: home
 
 hero:
-  name: "Strateji ve Genişleme"
+  name: "Strateji & Genişleme"
   text: Küresel İletişim, Yerel Dil
   tagline: "InterMind: Küresel İletişim, Yerel Dil"
   actions:
     - theme: alt
-      text: Belgeler
+      text: Documents
       link: /exp/InterMind-Executive-Summary
 ---

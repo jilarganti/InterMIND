@@ -3,10 +3,10 @@ layout: home
 
 hero:
   name: "Strategie & Expansion"
-  text: Globale Kommunikation, lokale Sprache
-  tagline: "InterMind: Globale Kommunikation, lokale Sprache"
+  text: Globale Kommunikation, Lokale Sprache
+  tagline: "InterMind: Globale Kommunikation, Lokale Sprache"
   actions:
     - theme: alt
-      text: Dokumente
+      text: Documents
       link: /exp/InterMind-Executive-Summary
 ---
