@@ -3,13 +3,13 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/es"
 
 export const es = defineConfig({
-  description: "InterMIND proporciona traducción de voz en tiempo real para videollamadas — eliminando las barreras del idioma al instante. Desarrollado por el equipo de mind.com.",
+  description: "InterMIND proporciona traducción de voz en tiempo real para videollamadas — eliminando las barreras del idioma instantáneamente. Desarrollado por el equipo de mind.com.",
   head: [
     [
       "meta",
       {
         name: "description",
-        content: "InterMIND proporciona traducción de voz en tiempo real para videollamadas — eliminando las barreras del idioma al instante. Desarrollado por el equipo de mind.com.",
+        content: "InterMIND proporciona traducción de voz en tiempo real para videollamadas — eliminando las barreras del idioma instantáneamente. Desarrollado por el equipo de mind.com.",
       },
     ],
     ["meta", { property: "og:title", content: "InterMIND | Traducción de Voz en Tiempo Real para Equipos Globales" }],
@@ -18,7 +18,7 @@ export const es = defineConfig({
       {
         property: "og:description",
         content:
-          "InterMIND ofrece traducción de voz instantánea en videollamadas — comunicación multilingüe clara sin barreras. Desarrollado por el equipo de mind.com.",
+          "InterMIND ofrece traducción instantánea de voz en videollamadas — comunicación clara y multilingüe sin barreras. Desarrollado por el equipo de mind.com.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -39,7 +39,7 @@ export const es = defineConfig({
         text: "Recursos",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "Preguntas frecuentes", link: `${BASE_PATH}/#FAQ` },
+          { text: "Preguntas Frecuentes", link: `${BASE_PATH}/#FAQ` },
           { text: "Testimonios", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -52,15 +52,16 @@ export const es = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de privacidad</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Política de privacidad</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Regulaciones legales para servicios de IA</a> | <a href="https://status.mind.com/">Estado del servicio</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de Privacidad</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Política de Privacidad</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Regulaciones Legales para Servicios de IA</a> | <a href="https://status.mind.com/">Estado del servicio</a>`,
     },
 
     localization: {
-      placeholder4SearchInput: "Pregunta cualquier cosa...",
-      placeholder4ChatFooter: "Pregunta cualquier cosa...",
+      placeholder4SearchInput: "Pregunta lo que quieras...",
+      placeholder4ChatFooter: "Pregunta lo que quieras...",
       placeholder4ChatList: "Ingresa el tema del chat...",
-      buttonLabel4NavButton: "Chat experto instantáneo",
-      buttonLabel4AuthButton: "Iniciar sesión",
+      buttonLabel4NavButton: "Asistente",
+      buttonLabel4SignInButton: "Iniciar sesión",
+      buttonLabel4GetStartedButton: "Comenzar",
     },
     contact_form: {
       name: "Nombre *",
@@ -71,22 +72,21 @@ export const es = defineConfig({
       webSitePlaceholder: "ej. https://nombreempresa.com",
       webSiteError: "Por favor ingresa el sitio web",
       category: "¿Cuál es tu objetivo principal? *",
-      categoryPlaceholder: "Elige lo que más te importa",
+      categoryPlaceholder: "Elige lo más importante",
       message: "Hablemos de tus objetivos (opcional)",
-      messagePlaceholder: "Por favor proporciona detalles adicionales (opcional)",
+      messagePlaceholder: "Proporciona detalles adicionales (opcional)",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
-      successMessage: "Hemos recibido tu mensaje — nuestro equipo se pondrá en contacto contigo pronto.",
+      successMessage: "Hemos recibido tu mensaje — nuestro equipo se pondrá en contacto pronto.",
       defaultCategories: [
-        "Eliminar barreras del idioma en reuniones",
-        "Hacer las reuniones buscables y accionables",
-        "Asegurar cumplimiento y residencia de datos (UE / EE.UU. / Asia)",
+        "Eliminar barreras lingüísticas en reuniones",
+        "Hacer las reuniones rastreables y procesables",
+        "Garantizar cumplimiento y residencia de datos (UE / EE.UU. / Asia)",
         "Solo explorando / Otro",
       ],
 
       defaultButtonText: "Envíanos un mensaje",
-      // defaultButtonText: "Obtén una consulta gratuita",
     },
   } as DefaultTheme.Config,
 })
@@ -94,31 +94,31 @@ export const es = defineConfig({
 function sidebarProduct(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "RESUMEN",
+      text: "DESCRIPCIÓN GENERAL",
       collapsed: false,
       items: [
         { text: "¿Qué es InterMIND?", link: "overview/what-is-intermind" },
-        { text: "Cómo funciona", link: "overview/how-it-works" },
-        { text: "Plataforma de videorreuniones", link: "overview/video-meeting-platform" },
-        { text: "Privacidad de datos regional", link: "overview/privacy-architecture" },
-        { text: "Mercados prioritarios", link: "overview/markets" },
+        { text: "Cómo Funciona", link: "overview/how-it-works" },
+        { text: "Plataforma de Videollamadas", link: "overview/video-meeting-platform" },
+        { text: "Privacidad Regional de Datos", link: "overview/privacy-architecture" },
+        { text: "Mercados Prioritarios", link: "overview/markets" },
       ],
     },
     {
       text: "GUÍA",
       collapsed: false,
       items: [
-        { text: "Primeros pasos", link: "guide/getting-started" },
-        { text: "Gestión de cuenta", link: "guide/account-management" },
-        { text: "Crear reuniones", link: "guide/creating-meetings" },
-        { text: "Interfaz de reunión", link: "guide/meeting-interface" },
-        { text: "Roles de usuario", link: "guide/user-roles" },
+        { text: "Primeros Pasos", link: "guide/getting-started" },
+        { text: "Gestión de Cuenta", link: "guide/account-management" },
+        { text: "Crear Reuniones", link: "guide/creating-meetings" },
+        { text: "Interfaz de Reuniones", link: "guide/meeting-interface" },
+        { text: "Roles de Usuario", link: "guide/user-roles" },
         { text: "Funciones de IA", link: "guide/ai-features" },
-        { text: "Historial de reuniones", link: "guide/meeting-history" },
-        { text: "Preguntas frecuentes", link: "guide/faq" },
-        { text: "Solución de problemas", link: "guide/troubleshooting" },
+        { text: "Historial de Reuniones", link: "guide/meeting-history" },
+        { text: "Preguntas Frecuentes", link: "guide/faq" },
+        { text: "Solución de Problemas", link: "guide/troubleshooting" },
         { text: "Precios", link: "guide/pricing" },
-        { text: "Ayuda y soporte", link: "guide/help-support" },
+        { text: "Ayuda y Soporte", link: "guide/help-support" },
       ],
     },
   ]
@@ -130,16 +130,14 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "SOPORTE",
       collapsed: false,
       items: [
-        { text: "Obtener soporte", link: "/help" },
-        // { text: "Cómo funciona", link: "overview/how-it-works" },
+        { text: "Obtener Soporte", link: "/help" },
       ],
     },
     {
       text: "RECURSOS",
       collapsed: false,
       items: [
-        { text: "Recursos de marca", link: "/media-kit" },
-        // { text: "Gestión de cuenta", link: "guide/account-management" },
+        { text: "Recursos de Marca", link: "/media-kit" },
       ],
     },
     {
@@ -156,9 +154,9 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 
 function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Resumen ejecutivo", link: "/InterMind-Executive-Summary" },
-    { text: "Estrategia de salida al mercado", link: "/go-to-market-strategy" },
-    { text: "Presentación para inversionistas", link: "/InterMind-Investor-Pitch" },
-    { text: "Justificación de proyecciones financieras (Año 1–3)", link: "/Financial-Projections-Justification" },
+    { text: "Resumen Ejecutivo", link: "/InterMind-Executive-Summary" },
+    { text: "Estrategia de Comercialización", link: "/go-to-market-strategy" },
+    { text: "Presentación para Inversores", link: "/InterMind-Investor-Pitch" },
+    { text: "Justificación de Proyecciones Financieras (Año 1-3)", link: "/Financial-Projections-Justification" },
   ]
 }

@@ -59,7 +59,7 @@ export const pt = defineConfig({
       placeholder4SearchInput: "Pergunte qualquer coisa...",
       placeholder4ChatFooter: "Pergunte qualquer coisa...",
       placeholder4ChatList: "Digite o tópico do chat...",
-      buttonLabel4NavButton: "Chat com especialista instantâneo",
+      buttonLabel4NavButton: "Assistente",
       buttonLabel4SignInButton: "Entrar",
       buttonLabel4GetStartedButton: "Começar",
     },

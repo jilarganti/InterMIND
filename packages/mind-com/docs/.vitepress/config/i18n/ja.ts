@@ -59,7 +59,7 @@ export const ja = defineConfig({
       placeholder4SearchInput: "質問を入力してください...",
       placeholder4ChatFooter: "質問を入力してください...",
       placeholder4ChatList: "チャットトピックを入力...",
-      buttonLabel4NavButton: "インスタントエキスパートチャット",
+      buttonLabel4NavButton: "アシスタント",
       buttonLabel4SignInButton: "サインイン",
       buttonLabel4GetStartedButton: "はじめる",
     },
@@ -81,7 +81,7 @@ export const ja = defineConfig({
       successMessage: "メッセージを受け付けました — チームが早急にご連絡いたします。",
       defaultCategories: [
         "会議での言語の壁を解消",
-        "会議を検索可能かつアクション可能に",
+        "会議を検索可能でアクション可能に",
         "コンプライアンスとデータ所在地の確保（EU/US/アジア）",
         "情報収集/その他",
       ],

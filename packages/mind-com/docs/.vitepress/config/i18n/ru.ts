@@ -39,7 +39,7 @@ export const ru = defineConfig({
         text: "Ресурсы",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
+          { text: "Частые вопросы", link: `${BASE_PATH}/#FAQ` },
           { text: "Отзывы", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -59,7 +59,7 @@ export const ru = defineConfig({
       placeholder4SearchInput: "Спросите что угодно...",
       placeholder4ChatFooter: "Спросите что угодно...",
       placeholder4ChatList: "Введите тему чата...",
-      buttonLabel4NavButton: "Мгновенный чат с экспертом",
+      buttonLabel4NavButton: "Ассистент",
       buttonLabel4SignInButton: "Войти",
       buttonLabel4GetStartedButton: "Начать",
     },
@@ -81,12 +81,13 @@ export const ru = defineConfig({
       successMessage: "Мы получили ваше сообщение — наша команда скоро свяжется с вами.",
       defaultCategories: [
         "Устранить языковые барьеры на встречах",
-        "Сделать встречи доступными для поиска и выполнимыми",
-        "Обеспечить соответствие требованиям и локализацию данных (ЕС / США / Азия)",
+        "Сделать встречи доступными для поиска и действий",
+        "Обеспечить соответствие и локализацию данных (ЕС / США / Азия)",
         "Просто изучаю / Другое",
       ],
 
-      defaultButtonText: "Отправить нам сообщение",
+      defaultButtonText: "Отправить сообщение",
+      // defaultButtonText: "Получить бесплатную консультацию",
     },
   } as DefaultTheme.Config,
 })
@@ -115,7 +116,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Роли пользователей", link: "guide/user-roles" },
         { text: "AI функции", link: "guide/ai-features" },
         { text: "История встреч", link: "guide/meeting-history" },
-        { text: "FAQ", link: "guide/faq" },
+        { text: "Частые вопросы", link: "guide/faq" },
         { text: "Устранение неполадок", link: "guide/troubleshooting" },
         { text: "Цены", link: "guide/pricing" },
         { text: "Помощь и поддержка", link: "guide/help-support" },

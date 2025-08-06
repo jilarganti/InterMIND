@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Videollamadas reinventadas — ahora en mind.com"
-description: "De iMind a InterMIND: videollamadas centradas en la voz con interpretación en tiempo real impulsada por IA."
+description: "De iMind a InterMIND: videollamadas con prioridad de voz e interpretación en tiempo real impulsada por IA."
 ---
 
 <script setup>
@@ -14,7 +14,7 @@ import HomeFooterSection from './HomeFooterSection.vue'
 
 <HeroSection
   title="Videollamadas reinventadas <br>— ahora en **mind.com**"
-  text="De iMind a InterMIND: videollamadas centradas en la voz con traducción simultánea del habla.">
+  text="De iMind a InterMIND: videollamadas con prioridad de voz y traducción simultánea del habla.">
 <AuthButton text="Comenzar Ahora" buttonClass="brand"/>
 </HeroSection>
 
@@ -75,7 +75,7 @@ Cambiar esto significa:
 > Controla **cómo hablas**, **lo que escuchas** y **lo que ves**.  
 > Hablar en un idioma y escuchar en otro **no está soportado** — por diseño, para mantener la experiencia simple y predecible.
 
-## Precios Claros y Sencillos
+## Precios claros y sencillos
 
 Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 

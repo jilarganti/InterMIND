@@ -3,10 +3,10 @@ layout: home
 
 hero:
   name: "الاستراتيجية والتوسع"
-  text: التواصل العالمي، اللغة المحلية
-  tagline: "InterMind: التواصل العالمي، اللغة المحلية"
+  text: "التواصل العالمي باللغة المحلية"
+  tagline: "InterMind: التواصل العالمي باللغة المحلية"
   actions:
     - theme: alt
-      text: الوثائق
+      text: Documents
       link: /exp/InterMind-Executive-Summary
 ---

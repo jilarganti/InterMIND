@@ -1,8 +1,0 @@
-<!-- वैश्विक टीमों के लिए स्मार्ट कॉल्स -->
-<template>
-  <HeroSection title="**किसी भी** भाषा में मिलें" :typingSpeed="10" text="**वीडियो कॉल** में लाइव स्पीच ट्रांसलेशन — तेज़, स्पष्ट, सीमाहीन संचार।">
-    <NavButton buttonLabel="यह कैसे काम करता है" buttonClass="brand" to="/#HowItWorks" />
-    <NavButton buttonLabel="तत्काल AI चैट" buttonClass="alt" to="/chat" />
-    <!-- <AuthButton text="शुरू करें" buttonClass="alt" eventName="get_started_attempt" /> -->
-  </HeroSection>
-</template>

@@ -59,7 +59,7 @@ export const ko = defineConfig({
       placeholder4SearchInput: "무엇이든 물어보세요...",
       placeholder4ChatFooter: "무엇이든 물어보세요...",
       placeholder4ChatList: "채팅 주제를 입력하세요...",
-      buttonLabel4NavButton: "즉시 전문가 채팅",
+      buttonLabel4NavButton: "어시스턴트",
       buttonLabel4SignInButton: "로그인",
       buttonLabel4GetStartedButton: "시작하기",
     },

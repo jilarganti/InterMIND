@@ -56,10 +56,10 @@ export const fr = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Posez n\'importe quelle question...",
-      placeholder4ChatFooter: "Posez n\'importe quelle question...",
+      placeholder4SearchInput: "Posez n'importe quelle question...",
+      placeholder4ChatFooter: "Posez n'importe quelle question...",
       placeholder4ChatList: "Entrez le sujet de discussion...",
-      buttonLabel4NavButton: "Chat expert instantané",
+      buttonLabel4NavButton: "Assistant",
       buttonLabel4SignInButton: "Se connecter",
       buttonLabel4GetStartedButton: "Commencer",
     },
@@ -68,7 +68,7 @@ export const fr = defineConfig({
       namePlaceholder: "votre nom",
       email: "Email *",
       emailPlaceholder: "votre adresse email",
-      webSite: "Site web de l\'entreprise *",
+      webSite: "Site web de l'entreprise *",
       webSitePlaceholder: "ex. https://nomsociete.com",
       webSiteError: "Veuillez saisir le site web",
       category: "Quel est votre objectif principal ? *",
@@ -97,10 +97,10 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "APERÇU",
       collapsed: false,
       items: [
-        { text: "Qu\'est-ce qu\'InterMIND ?", link: "overview/what-is-intermind" },
+        { text: "Qu'est-ce qu'InterMIND ?", link: "overview/what-is-intermind" },
         { text: "Comment ça marche", link: "overview/how-it-works" },
         { text: "Plateforme de réunion vidéo", link: "overview/video-meeting-platform" },
-        { text: "Confidentialité régionale des données", link: "overview/privacy-architecture" },
+        { text: "Confidentialité des données régionales", link: "overview/privacy-architecture" },
         { text: "Marchés prioritaires", link: "overview/markets" },
       ],
     },
@@ -130,7 +130,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "SUPPORT",
       collapsed: false,
       items: [
-        { text: "Obtenir de l\'aide", link: "/help" },
+        { text: "Obtenir de l'aide", link: "/help" },
       ],
     },
     {

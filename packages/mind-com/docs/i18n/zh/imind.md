@@ -25,7 +25,7 @@ import HomeFooterSection from './HomeFooterSection.vue'
 
 ## 像 Google Meet 一样工作 + 实时翻译
 
-熟悉的界面。通用沟通。与 Google Meet 一样简单 — 配备即时翻译功能，让语言障碍消失。
+熟悉的界面。通用沟通。与 Google Meet 一样简单 — 通过即时翻译消除语言障碍。
 
 <HowItWorksSection />
 

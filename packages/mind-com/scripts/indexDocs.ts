@@ -44,6 +44,14 @@ interface DocumentChunk {
   sourceFile: string
   headingLevel: number
   lastModified: string
+  images?: ImageInfo[]
+}
+
+interface ImageInfo {
+  src: string
+  alt: string
+  context: string
+  relativeUrl: string
 }
 
 interface ProcessedFile {
@@ -182,6 +190,62 @@ function getCategoryFromPath(filePath: string, rootDir: string): string {
 }
 
 /**
+ * Extracts image references from markdown content
+ */
+function extractImages(content: string, filePath: string, rootDir: string): ImageInfo[] {
+  const images: ImageInfo[] = []
+  const fileDir = path.dirname(filePath)
+  
+  // Match markdown images: ![alt](src)
+  const imageRegex = /!\[([^\]]*)\]\(([^)]+)\)/g
+  let match
+  
+  while ((match = imageRegex.exec(content)) !== null) {
+    const [fullMatch, alt, src] = match
+    
+    // Skip external images (http/https URLs)
+    if (src.startsWith('http://') || src.startsWith('https://')) {
+      continue
+    }
+    
+    // Resolve relative path to absolute
+    const imagePath = path.resolve(fileDir, src)
+    
+    // Generate relative URL for the image (from site root)
+    let imageRelativeUrl = path.relative(rootDir, imagePath)
+    
+    // Normalize path separators and ensure it starts with relative path
+    imageRelativeUrl = imageRelativeUrl.replace(/\\/g, '/')
+    if (!imageRelativeUrl.startsWith('.')) {
+      imageRelativeUrl = './' + imageRelativeUrl
+    }
+    
+    // Get context (surrounding text)
+    const contentLines = content.split('\n')
+    let context = ''
+    
+    for (let i = 0; i < contentLines.length; i++) {
+      if (contentLines[i].includes(fullMatch)) {
+        // Get context from surrounding lines
+        const start = Math.max(0, i - 2)
+        const end = Math.min(contentLines.length, i + 3)
+        context = contentLines.slice(start, end).join(' ').replace(fullMatch, '').trim()
+        break
+      }
+    }
+    
+    images.push({
+      src: src,
+      alt: alt || 'Image',
+      context: context,
+      relativeUrl: imageRelativeUrl
+    })
+  }
+  
+  return images
+}
+
+/**
  * Converts heading text to URL-safe anchor
  */
 function headingToAnchor(heading: string): string {
@@ -230,6 +294,9 @@ function splitContentByHeadings(content: string, filePath: string, rootDir: stri
 
   const category = getCategoryFromPath(filePath, rootDir)
   const lastModified = fs.statSync(filePath).mtime.toISOString()
+  
+  // Extract all images from the file
+  const allImages = extractImages(content, filePath, rootDir)
 
   for (const line of lines) {
     const headingMatch = line.match(/^(#{2,3})\s+(.+)$/)
@@ -238,6 +305,12 @@ function splitContentByHeadings(content: string, filePath: string, rootDir: stri
       // Save previous chunk if it has content
       if (currentChunk.trim() && currentChunk.trim().length >= config.minTextLength) {
         const chunkId = `${path.relative(rootDir, filePath)}-${chunkIndex}`
+        
+        // Find images that appear in this chunk
+        const chunkImages = allImages.filter(image => 
+          currentChunk.includes(image.src) || 
+          (image.alt && currentChunk.toLowerCase().includes(image.alt.toLowerCase()))
+        )
 
         chunks.push({
           id: chunkId,
@@ -248,6 +321,7 @@ function splitContentByHeadings(content: string, filePath: string, rootDir: stri
           sourceFile: path.relative(rootDir, filePath),
           headingLevel,
           lastModified,
+          images: chunkImages.length > 0 ? chunkImages : undefined,
         })
 
         chunkIndex++
@@ -263,6 +337,12 @@ function splitContentByHeadings(content: string, filePath: string, rootDir: stri
       // Split large chunks
       if (currentChunk.length > config.maxChunkLength) {
         const chunkId = `${path.relative(rootDir, filePath)}-${chunkIndex}`
+        
+        // Find images that appear in this chunk
+        const chunkImages = allImages.filter(image => 
+          currentChunk.includes(image.src) || 
+          (image.alt && currentChunk.toLowerCase().includes(image.alt.toLowerCase()))
+        )
 
         chunks.push({
           id: chunkId,
@@ -273,6 +353,7 @@ function splitContentByHeadings(content: string, filePath: string, rootDir: stri
           sourceFile: path.relative(rootDir, filePath),
           headingLevel,
           lastModified,
+          images: chunkImages.length > 0 ? chunkImages : undefined,
         })
 
         chunkIndex++
@@ -284,6 +365,12 @@ function splitContentByHeadings(content: string, filePath: string, rootDir: stri
   // Add final chunk
   if (currentChunk.trim() && currentChunk.trim().length >= config.minTextLength) {
     const chunkId = `${path.relative(rootDir, filePath)}-${chunkIndex}`
+    
+    // Find images that appear in this chunk
+    const chunkImages = allImages.filter(image => 
+      currentChunk.includes(image.src) || 
+      (image.alt && currentChunk.toLowerCase().includes(image.alt.toLowerCase()))
+    )
 
     chunks.push({
       id: chunkId,
@@ -294,6 +381,7 @@ function splitContentByHeadings(content: string, filePath: string, rootDir: stri
       sourceFile: path.relative(rootDir, filePath),
       headingLevel,
       lastModified,
+      images: chunkImages.length > 0 ? chunkImages : undefined,
     })
   }
 
@@ -423,18 +511,31 @@ async function uploadToPinecone(allChunks: DocumentChunk[]) {
       try {
         const embedding = await createEmbedding(chunk.text)
 
+        const metadata: any = {
+          text: chunk.text,
+          url: chunk.url,
+          title: chunk.title,
+          category: chunk.category,
+          source_file: chunk.sourceFile,
+          heading_level: chunk.headingLevel,
+          last_modified: chunk.lastModified,
+        }
+
+        // Add image information if available
+        if (chunk.images && chunk.images.length > 0) {
+          metadata.images = JSON.stringify(chunk.images)
+          metadata.has_images = true
+          metadata.image_count = chunk.images.length
+          
+          // Add first image for quick reference
+          metadata.first_image_url = chunk.images[0].relativeUrl
+          metadata.first_image_alt = chunk.images[0].alt
+        }
+
         vectors.push({
           id: chunk.id,
           values: embedding,
-          metadata: {
-            text: chunk.text,
-            url: chunk.url,
-            title: chunk.title,
-            category: chunk.category,
-            source_file: chunk.sourceFile,
-            heading_level: chunk.headingLevel,
-            last_modified: chunk.lastModified,
-          },
+          metadata,
         })
       } catch (error) {
         console.error(`❌ Error processing chunk ${chunk.id}:`, error.message)
