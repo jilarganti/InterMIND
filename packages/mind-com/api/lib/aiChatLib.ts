@@ -78,6 +78,7 @@ export const semanticSearchTool = tool({
 
       // Возвращаем результаты в виде строки для AI
       console.log(`💬 Возвращаем ${relevantResults.length} результатов AI`)
+      console.log(`💬 ${formattedResults}`)
       return `Found ${relevantResults.length} relevant results from InterMIND documentation:\n\n${formattedResults}`
     } catch (error) {
       console.error("Search error:", error)
