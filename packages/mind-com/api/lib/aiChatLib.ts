@@ -60,7 +60,10 @@ export const semanticSearchTool = tool({
           ?.filter((match) => (match.score || 0) > 0.4)
           .map((match) => ({
             content: match.metadata?.text || "",
-            source: match.metadata?.source || "InterMIND Documentation",
+            url: match.metadata?.url || "",
+            title: match.metadata?.title || "",
+            category: match.metadata?.category || "",
+            source: match.metadata?.source_file || "InterMIND Documentation",
             score: match.score || 0,
           })) || []
 
@@ -71,9 +74,15 @@ export const semanticSearchTool = tool({
         return "No relevant information found for your query. The search did not return any results with sufficient relevance."
       }
 
-      // Форматируем результаты
+      // Форматируем результаты с URL-ссылками
       const formattedResults = relevantResults
-        .map((result, index) => `[${index + 1}] ${result.content}\n(Source: ${result.source}, Relevance: ${(result.score * 100).toFixed(0)}%)`)
+        .map((result, index) => {
+          const urlText = result.url ? `\nLink: ${result.url}` : ""
+          const titleText = result.title ? `\nTitle: ${result.title}` : ""
+          const categoryText = result.category ? `\nCategory: ${result.category}` : ""
+
+          return `[${index + 1}] ${result.content}${titleText}${urlText}${categoryText}\n(Source: ${result.source}, Relevance: ${(result.score * 100).toFixed(0)}%)`
+        })
         .join("\n\n---\n\n")
 
       // Возвращаем результаты в виде строки для AI

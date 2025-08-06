@@ -198,21 +198,21 @@ function headingToAnchor(heading: string): string {
  */
 function generateRelativeUrl(filePath: string, rootDir: string, heading?: string): string {
   const relativePath = path.relative(rootDir, filePath)
-  let url = "/" + relativePath.replace(/\.md$/, "").replace(/index$/, "")
-
-  // Ensure URL starts with /
-  if (!url.startsWith("/")) {
-    url = "/" + url
+  let url = relativePath.replace(/\.md$/, "").replace(/index$/, "")
+  
+  // Remove leading and trailing slashes to make it truly relative
+  url = url.replace(/^\/+|\/+$/g, "")
+  
+  // Handle root index case
+  if (!url || url === "") {
+    url = "."
   }
-
-  // Remove double slashes and trailing slashes
-  url = url.replace(/\/+/g, "/").replace(/\/$/, "") || "/"
-
+  
   // Add heading anchor if provided
   if (heading) {
     url += "#" + headingToAnchor(heading)
   }
-
+  
   return url
 }
 
