@@ -4,22 +4,10 @@ title: "Live speech translation for video calls"
 isHome: true
 ---
 
-<script setup>
-import HomeHeroSection from './HomeHeroSection.vue'
-import HomeUSPSection from './HomeUSPSection.vue'
-import HowItWorksSection from './HowItWorksSection.vue'
-import PricingPlansSection from './PricingPlansSection.vue'
-import FAQSection from './FAQSection.vue'
-import HomeFooterSection from './HomeFooterSection.vue'
-</script>
-
 <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in **video calls** — fast, clear, borderless communication.">
 <NavButton buttonLabel="How it works" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
-<!-- <AuthButton text="Get started" buttonClass="alt" eventName="get_started_attempt" /> -->
 </HeroSection>
-
-<!-- USP Section -->
 
 <span id="1"></span>
 <FeatureBlock
@@ -97,8 +85,6 @@ import HomeFooterSection from './HomeFooterSection.vue'
 
 Familiar interface. Universal communication. Same ease as Google Meet — with instant translation that makes language barriers disappear.
 
-<!-- How It Works -->
-
 <span id="HowItWorks"></span>
 
 <FeatureCards
@@ -137,8 +123,6 @@ Familiar interface. Universal communication. Same ease as Google Meet — with i
       },
     ]"
   />
-
-<!-- Example Section -->
 
 <span id="Example"></span>
 
@@ -190,8 +174,6 @@ Changing this means:
 
 From first call to fluent conversations — at any scale.
 
-<!-- Pricing Plans Section -->
-
 <span id="Pricing"></span>
 
 <PricingPlans
@@ -241,8 +223,6 @@ From first call to fluent conversations — at any scale.
 
 > [!warning] 😱 Either you speak every language — or someone else closes your deals.
 
-<!-- Testimonials Section -->
-
 <span id="Testimonials"></span>
 
 ## What Customers Are Saying
@@ -252,8 +232,6 @@ From first call to fluent conversations — at any scale.
 > [!tip] 🥇 Your time is better spent mastering your craft — not memorizing grammar.
 
 ## Frequently Asked Questions
-
-<!-- FAQ Section -->
 
 <span id="FAQ"></span>
 
@@ -300,8 +278,6 @@ From first call to fluent conversations — at any scale.
         a: 'Yes. *Pro* and *Business* plans are ideal for **large meetings and webinars** — with support for up to **500 participants** on *Business*.',
       },
     ]"/>
-
-<!-- Footer Section -->
 
 <HomeFooter
     :columns="[
