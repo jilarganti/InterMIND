@@ -60,29 +60,11 @@ export const semanticSearchTool = tool({
           ?.filter((match) => (match.score || 0) > 0.4)
           .map((match) => {
             const metadata = match.metadata || {}
-            
-            // Parse images if available
-            let images: any[] = []
-            if (metadata.images) {
-              try {
-                images = JSON.parse(metadata.images as string)
-              } catch (e) {
-                console.warn("Failed to parse images metadata:", e)
-              }
-            }
-            
+
             return {
               content: metadata.text || "",
               url: metadata.url || "",
-              title: metadata.title || "",
-              category: metadata.category || "",
-              source: metadata.source_file || "InterMIND Documentation",
               score: match.score || 0,
-              images: images,
-              hasImages: metadata.has_images === true,
-              imageCount: metadata.image_count || 0,
-              firstImageUrl: metadata.first_image_url || null,
-              firstImageAlt: metadata.first_image_alt || null,
             }
           }) || []
 
@@ -93,23 +75,11 @@ export const semanticSearchTool = tool({
         return "No relevant information found for your query. The search did not return any results with sufficient relevance."
       }
 
-      // Форматируем результаты с URL-ссылками и изображениями
+      // Форматируем результаты
       const formattedResults = relevantResults
         .map((result, index) => {
           const urlText = result.url ? `\nLink: ${result.url}` : ""
-          const titleText = result.title ? `\nTitle: ${result.title}` : ""
-          const categoryText = result.category ? `\nCategory: ${result.category}` : ""
-          
-          // Add image information if available
-          let imageText = ""
-          if (result.hasImages && result.images.length > 0) {
-            const imageList = result.images.map((img: any) => 
-              `![${img.alt || 'Diagram'}](${img.relativeUrl})`
-            ).join('\n')
-            imageText = `\nImages:\n${imageList}`
-          }
-
-          return `[${index + 1}] ${result.content}${titleText}${urlText}${categoryText}${imageText}\n(Source: ${result.source}, Relevance: ${(result.score * 100).toFixed(0)}%)`
+          return `[${index + 1}] ${result.content}${urlText}\n(Source: InterMIND Documentation, Relevance: ${(result.score * 100).toFixed(0)}%)`
         })
         .join("\n\n---\n\n")
 
