@@ -78,8 +78,9 @@ export const semanticSearchTool = tool({
       // Форматируем результаты
       const formattedResults = relevantResults
         .map((result, index) => {
-          const urlText = result.url ? `\nLink: ${result.url}` : ""
-          return `[${index + 1}] ${result.content}${urlText}\n(Source: InterMIND Documentation, Relevance: ${(result.score * 100).toFixed(0)}%)`
+          // const linkText = result.url ? `\nLink: ${result.url}` : ""
+          const sourceText = `[Source](${result.url})\nRelevance: ${(result.score * 100).toFixed(0)}%`
+          return `[${index + 1}] ${result.content}\n${sourceText}`
         })
         .join("\n\n---\n\n")
 
