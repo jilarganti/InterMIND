@@ -68,6 +68,11 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
 
     // Прокручиваем к последнему сообщению
     scrollToBottom()
+
+    // Возвращаем фокус в поле ввода с небольшой задержкой
+    setTimeout(() => {
+      chatFooterRef.value?.focusInput()
+    }, 100)
   },
   onError: () => {
     // Сбрасываем режим на стандартный после ошибки

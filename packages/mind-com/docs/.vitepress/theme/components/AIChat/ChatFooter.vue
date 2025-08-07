@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, computed, watch, nextTick } from "vue"
+import { ref, onMounted, onUnmounted, computed } from "vue"
 import { useData } from "vitepress"
 import { ArrowUp, Square, Bug, Loader2 } from "lucide-vue-next"
 
@@ -142,22 +142,19 @@ const handleKeyDown = (event: KeyboardEvent): void => {
   }
 }
 
-// Восстанавливаем фокус после завершения стрима
-watch(
-  () => props.status,
-  (newStatus, oldStatus) => {
-    if (oldStatus === "streaming" && newStatus !== "streaming") {
-      nextTick(() => {
-        if (textareaRef.value) {
-          textareaRef.value.focus()
-        }
-      })
-    }
-  },
-)
+// Метод для фокуса на поле ввода
+const focusInput = () => {
+  if (textareaRef.value) {
+    // Принудительно активируем поле
+    textareaRef.value.disabled = false
+    textareaRef.value.focus()
+    // Эмулируем клик для полной активации
+    textareaRef.value.click()
+  }
+}
 
-// Экспортируем textareaRef для родительского компонента
-defineExpose({ textareaRef })
+// Экспортируем textareaRef и метод фокуса для родительского компонента
+defineExpose({ textareaRef, focusInput })
 </script>
 
 <template>
