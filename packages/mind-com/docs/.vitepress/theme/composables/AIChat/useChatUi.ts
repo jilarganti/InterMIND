@@ -153,6 +153,27 @@ export function useChatUi(
           }, 300)
         }
       }
+
+      // Обработка клика по интерактивным вопросам
+      if (target?.classList.contains("interactive-question-text") || target?.closest(".interactive-question-text")) {
+        const element = target.classList.contains("interactive-question-text") ? target : target.closest(".interactive-question-text")
+        const query = element?.getAttribute("data-query")
+
+        if (query && element) {
+          // Создаем визуальный фидбек
+          const htmlElement = element as HTMLElement
+          htmlElement.style.color = "var(--chat-bg-mute)"
+
+          // Вставляем текст вопроса в поле ввода вместо отправки запроса
+          if (input && input.value !== undefined) {
+            input.value = query
+            // Фокус на поле ввода
+            if (textareaRef && textareaRef.value) {
+              textareaRef.value.focus()
+            }
+          }
+        }
+      }
     }
 
     // Добавление обработчика
@@ -240,6 +261,43 @@ export function useChatUi(
 
         // Вставляем интерактивный элемент в параграф
         firstParagraph.appendChild(interactiveText)
+      }
+    })
+
+    // Обработка списков вопросов с эмоджи ❓
+    const listItems = tempDiv.querySelectorAll("li")
+    listItems.forEach((listItem) => {
+      // Ищем элементы списка, которые содержат текст и следуют после заголовка с ❓
+      const text = listItem.textContent?.trim()
+      if (!text || text.length < 10) return
+
+      // Проверяем, находится ли этот элемент списка в секции с вопросами
+      let parent = listItem.parentElement
+      let isQuestionSection = false
+
+      // Ищем предыдущие элементы, чтобы найти заголовок с ❓
+      let prevSibling = parent?.previousElementSibling
+      while (prevSibling && !isQuestionSection) {
+        if (prevSibling.textContent?.includes("❓")) {
+          isQuestionSection = true
+          break
+        }
+        prevSibling = prevSibling.previousElementSibling
+      }
+
+      if (isQuestionSection) {
+        // Сохраняем оригинальное содержимое
+        const originalContent = listItem.innerHTML
+
+        // Создаем интерактивный элемент
+        listItem.innerHTML = ""
+        const interactiveText = document.createElement("span")
+        interactiveText.className = "interactive-question-text"
+        interactiveText.setAttribute("data-query", text)
+        interactiveText.innerHTML = originalContent
+
+        // Вставляем интерактивный элемент
+        listItem.appendChild(interactiveText)
       }
     })
 

@@ -348,7 +348,7 @@ defineExpose({ insertText, submitTextDirectly })
   /* background-color: var(--vp-c-bg-soft); */
 }
 
-/* Стили для интерактивных блоков и изображений */
+/* Стили для интерактивных блоков, вопросов и изображений */
 .message.assistant .message-content :deep(.interactive-blockquote-text) {
   color: var(--chat-brand-color);
   cursor: pointer;
@@ -357,6 +357,18 @@ defineExpose({ insertText, submitTextDirectly })
 }
 
 .message.assistant .message-content :deep(.interactive-blockquote-text:hover) {
+  opacity: 0.8;
+}
+
+.message.assistant .message-content :deep(.interactive-question-text) {
+  color: var(--chat-brand-color);
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  transition: opacity 0.2s ease;
+}
+
+.message.assistant .message-content :deep(.interactive-question-text:hover) {
   opacity: 0.8;
 }
 
