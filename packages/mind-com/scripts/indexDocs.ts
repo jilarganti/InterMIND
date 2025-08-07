@@ -1,15 +1,29 @@
 /**
  * Vector Database Indexing Script for InterMIND Documentation
  *
- * Парсит английскую документацию, разбивает по заголовкам H2/H3,
+ * Парсит markdown документацию, разбивает по заголовкам H2/H3,
  * создает векторные эмбеддинги и загружает в Pinecone для ИИ чата.
  *
  * Особенности:
- * - Обрабатывает .md, .vue, .svg файлы через ИИ
+ * - Обрабатывает только .md файлы
  * - Разбивает контент по заголовкам для точного поиска
- * - Генерирует относительные ссылки для мультиязычности
- * - Автоматически определяет категории по структуре папок
- * - Полная переиндексация (инкрементальное обновление на втором этапе)
+ * - Генерирует относительные ссыл    // Process all files
+    const allChunks: DocumentChunk[] = []
+
+    for (const file of files) {
+      try {
+        const chunks = processFile(file, rootDir)
+        allChunks.push(...chunks)
+      } catch (error) {
+        console.error(`❌ Error processing ${file}:`, error.message)
+      }
+    }
+
+    console.log(`\n📊 Processing Summary:`)
+    console.log(`   - Files processed: ${files.length}`)
+    console.log(`   - Total chunks generated: ${allChunks.length}`)ности
+ * - Простая структура без категоризации
+ * - Полная переиндексация
  *
  * Usage:
  * tsx indexDocs.ts ./scripts/indexConfig.ts
@@ -18,19 +32,15 @@
 import * as fs from "fs"
 import * as path from "path"
 import * as dotenv from "dotenv"
-import { fileURLToPath } from "url"
 import OpenAI from "openai"
 import { Pinecone } from "@pinecone-database/pinecone"
-import Anthropic from "@anthropic-ai/sdk"
 
 interface Config {
   rootDir: string
   pineconeIndex: string
   embeddingModel: string
-  embeddingDimensions: number
   exclude: string[]
   allowedExtensions: string[]
-  chunkStrategy: string
   minTextLength: number
   maxChunkLength: number
 }
@@ -39,32 +49,10 @@ interface DocumentChunk {
   id: string
   text: string
   url: string
-  title: string
-  category: string
-  sourceFile: string
-  headingLevel: number
-  lastModified: string
-  images?: ImageInfo[]
-}
-
-interface ImageInfo {
-  src: string
-  alt: string
-  context: string
-  relativeUrl: string
-}
-
-interface ProcessedFile {
-  path: string
-  category: string
-  chunks: DocumentChunk[]
 }
 
 // Load environment variables
 dotenv.config({ path: [".vercel/.env.development.local", ".env.local"] })
-
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
 
 // Get config path from command line arguments
 const configPath = process.argv[2]
@@ -87,197 +75,22 @@ function resolveFromConfig(relativePath: string) {
   return path.resolve(configDir, relativePath)
 }
 
-/**
- * Validates that required API keys are available
- */
-function validateApiKeys() {
-  const missingKeys: string[] = []
-
-  if (!process.env.OPENAI_API_KEY) {
-    missingKeys.push("OPENAI_API_KEY")
-  }
-
-  if (!process.env.PINECONE_API_KEY) {
-    missingKeys.push("PINECONE_API_KEY")
-  }
-
-  if (!process.env.ANTHROPIC_API_KEY) {
-    missingKeys.push("ANTHROPIC_API_KEY")
-  }
-
-  if (missingKeys.length > 0) {
-    console.error("❌ Missing required environment variables:")
-    missingKeys.forEach((key) => console.error(`   - ${key}`))
-    console.error("\n💡 To fix this:")
-    console.error("   1. Run: vercel pull")
-    console.error("   2. Or set the environment variables manually in .env.local")
-    process.exit(1)
-  }
-}
-
 // Validate API keys
-validateApiKeys()
+if (!process.env.OPENAI_API_KEY || !process.env.PINECONE_API_KEY) {
+  throw new Error("Missing required API keys: OPENAI_API_KEY, PINECONE_API_KEY")
+}
 
 // Initialize clients
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
 const pinecone = new Pinecone({ apiKey: process.env.PINECONE_API_KEY })
-const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 
 const index = pinecone.index(config.pineconeIndex)
 
 /**
- * Extracts text content from various file types using AI
+ * Generates relative URL for a file
  */
-async function extractTextWithAI(content: string, filePath: string, fileExtension: string): Promise<string> {
-  const prompt = `Extract all readable text content from this ${fileExtension} file for documentation indexing.
-
-Requirements:
-- Extract ALL readable text, including headings, paragraphs, lists, code comments
-- Preserve markdown formatting and structure
-- For Vue files: extract text from <template> and meaningful comments
-- For SVG files: extract title, description, and text elements
-- Remove only technical markup that doesn't contain readable content
-- Keep the original language (English)
-
-File path: ${filePath}
-File content:
-${content}
-
-Return only the extracted text content:`
-
-  try {
-    const message = await anthropic.messages.create({
-      model: "claude-3-5-haiku-20241022",
-      max_tokens: 4000,
-      temperature: 0,
-      messages: [{ role: "user", content: prompt }],
-    })
-
-    const contentBlock = message.content[0]
-    return contentBlock.type === "text" ? contentBlock.text.trim() : content
-  } catch (error) {
-    console.warn(`⚠️ AI extraction failed for ${filePath}, using raw content:`, error.message)
-    return content
-  }
-}
-
-/**
- * Determines category from file path structure
- */
-function getCategoryFromPath(filePath: string, rootDir: string): string {
-  const relativePath = path.relative(rootDir, filePath)
-  const pathParts = relativePath.split(path.sep)
-
-  if (pathParts.length <= 1) {
-    return "General"
-  }
-
-  // Convert folder structure to readable category
-  const categoryPath = pathParts.slice(0, -1).join("/")
-
-  // Transform common patterns to readable names
-  const categoryMap: Record<string, string> = {
-    "product/overview": "Product Overview",
-    "product/guide": "User Guide",
-    "product": "Product",
-    "resources/company": "Company Information",
-    "resources": "Resources & Support",
-    "blog": "Blog & News",
-    "examples": "Examples & Tutorials",
-  }
-
-  return categoryMap[categoryPath] || pathParts[0].charAt(0).toUpperCase() + pathParts[0].slice(1)
-}
-
-/**
- * Extracts image references from markdown content
- */
-function extractImages(content: string, filePath: string, rootDir: string): ImageInfo[] {
-  const images: ImageInfo[] = []
-  const fileDir = path.dirname(filePath)
-  
-  // Match markdown images: ![alt](src)
-  const imageRegex = /!\[([^\]]*)\]\(([^)]+)\)/g
-  let match
-  
-  while ((match = imageRegex.exec(content)) !== null) {
-    const [fullMatch, alt, src] = match
-    
-    // Skip external images (http/https URLs)
-    if (src.startsWith('http://') || src.startsWith('https://')) {
-      continue
-    }
-    
-    // Resolve relative path to absolute
-    const imagePath = path.resolve(fileDir, src)
-    
-    // Generate relative URL for the image (from site root)
-    let imageRelativeUrl = path.relative(rootDir, imagePath)
-    
-    // Normalize path separators and ensure it starts with relative path
-    imageRelativeUrl = imageRelativeUrl.replace(/\\/g, '/')
-    if (!imageRelativeUrl.startsWith('.')) {
-      imageRelativeUrl = './' + imageRelativeUrl
-    }
-    
-    // Get context (surrounding text)
-    const contentLines = content.split('\n')
-    let context = ''
-    
-    for (let i = 0; i < contentLines.length; i++) {
-      if (contentLines[i].includes(fullMatch)) {
-        // Get context from surrounding lines
-        const start = Math.max(0, i - 2)
-        const end = Math.min(contentLines.length, i + 3)
-        context = contentLines.slice(start, end).join(' ').replace(fullMatch, '').trim()
-        break
-      }
-    }
-    
-    images.push({
-      src: src,
-      alt: alt || 'Image',
-      context: context,
-      relativeUrl: imageRelativeUrl
-    })
-  }
-  
-  return images
-}
-
-/**
- * Converts heading text to URL-safe anchor
- */
-function headingToAnchor(heading: string): string {
-  return heading
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, "") // Remove special characters
-    .replace(/\s+/g, "-") // Replace spaces with hyphens
-    .replace(/-+/g, "-") // Replace multiple hyphens with single
-    .replace(/^-|-$/g, "") // Remove leading/trailing hyphens
-}
-
-/**
- * Generates relative URL for a file and optional heading
- */
-function generateRelativeUrl(filePath: string, rootDir: string, heading?: string): string {
-  const relativePath = path.relative(rootDir, filePath)
-  let url = relativePath.replace(/\.md$/, "").replace(/index$/, "")
-  
-  // Remove leading and trailing slashes to make it truly relative
-  url = url.replace(/^\/+|\/+$/g, "")
-  
-  // Handle root index case
-  if (!url || url === "") {
-    url = "."
-  }
-  
-  // Add heading anchor if provided
-  if (heading) {
-    url += "#" + headingToAnchor(heading)
-  }
-  
-  return url
+function generateRelativeUrl(filePath: string, rootDir: string): string {
+  return path.relative(rootDir, filePath).replace(/\.md$/, "") || "."
 }
 
 /**
@@ -288,15 +101,7 @@ function splitContentByHeadings(content: string, filePath: string, rootDir: stri
   const lines = content.split("\n")
 
   let currentChunk = ""
-  let currentHeading = ""
-  let headingLevel = 1
   let chunkIndex = 0
-
-  const category = getCategoryFromPath(filePath, rootDir)
-  const lastModified = fs.statSync(filePath).mtime.toISOString()
-  
-  // Extract all images from the file
-  const allImages = extractImages(content, filePath, rootDir)
 
   for (const line of lines) {
     const headingMatch = line.match(/^(#{2,3})\s+(.+)$/)
@@ -305,31 +110,17 @@ function splitContentByHeadings(content: string, filePath: string, rootDir: stri
       // Save previous chunk if it has content
       if (currentChunk.trim() && currentChunk.trim().length >= config.minTextLength) {
         const chunkId = `${path.relative(rootDir, filePath)}-${chunkIndex}`
-        
-        // Find images that appear in this chunk
-        const chunkImages = allImages.filter(image => 
-          currentChunk.includes(image.src) || 
-          (image.alt && currentChunk.toLowerCase().includes(image.alt.toLowerCase()))
-        )
 
         chunks.push({
           id: chunkId,
           text: currentChunk.trim(),
-          url: generateRelativeUrl(filePath, rootDir, currentHeading),
-          title: currentHeading || path.basename(filePath, path.extname(filePath)),
-          category,
-          sourceFile: path.relative(rootDir, filePath),
-          headingLevel,
-          lastModified,
-          images: chunkImages.length > 0 ? chunkImages : undefined,
+          url: generateRelativeUrl(filePath, rootDir),
         })
 
         chunkIndex++
       }
 
       // Start new chunk
-      headingLevel = headingMatch[1].length
-      currentHeading = headingMatch[2].trim()
       currentChunk = line + "\n"
     } else {
       currentChunk += line + "\n"
@@ -337,23 +128,11 @@ function splitContentByHeadings(content: string, filePath: string, rootDir: stri
       // Split large chunks
       if (currentChunk.length > config.maxChunkLength) {
         const chunkId = `${path.relative(rootDir, filePath)}-${chunkIndex}`
-        
-        // Find images that appear in this chunk
-        const chunkImages = allImages.filter(image => 
-          currentChunk.includes(image.src) || 
-          (image.alt && currentChunk.toLowerCase().includes(image.alt.toLowerCase()))
-        )
 
         chunks.push({
           id: chunkId,
           text: currentChunk.trim(),
-          url: generateRelativeUrl(filePath, rootDir, currentHeading),
-          title: currentHeading || path.basename(filePath, path.extname(filePath)),
-          category,
-          sourceFile: path.relative(rootDir, filePath),
-          headingLevel,
-          lastModified,
-          images: chunkImages.length > 0 ? chunkImages : undefined,
+          url: generateRelativeUrl(filePath, rootDir),
         })
 
         chunkIndex++
@@ -365,23 +144,11 @@ function splitContentByHeadings(content: string, filePath: string, rootDir: stri
   // Add final chunk
   if (currentChunk.trim() && currentChunk.trim().length >= config.minTextLength) {
     const chunkId = `${path.relative(rootDir, filePath)}-${chunkIndex}`
-    
-    // Find images that appear in this chunk
-    const chunkImages = allImages.filter(image => 
-      currentChunk.includes(image.src) || 
-      (image.alt && currentChunk.toLowerCase().includes(image.alt.toLowerCase()))
-    )
 
     chunks.push({
       id: chunkId,
       text: currentChunk.trim(),
-      url: generateRelativeUrl(filePath, rootDir, currentHeading),
-      title: currentHeading || path.basename(filePath, path.extname(filePath)),
-      category,
-      sourceFile: path.relative(rootDir, filePath),
-      headingLevel,
-      lastModified,
-      images: chunkImages.length > 0 ? chunkImages : undefined,
+      url: generateRelativeUrl(filePath, rootDir),
     })
   }
 
@@ -447,29 +214,14 @@ async function getAllFiles(dir: string): Promise<string[]> {
 /**
  * Processes a single file and returns chunks
  */
-async function processFile(filePath: string, rootDir: string): Promise<ProcessedFile> {
+function processFile(filePath: string, rootDir: string): DocumentChunk[] {
   console.log(`📄 Processing: ${path.relative(rootDir, filePath)}`)
 
   const content = fs.readFileSync(filePath, "utf8")
-  const fileExtension = path.extname(filePath)
-
-  let processedContent = content
-
-  // Extract text using AI for non-markdown files
-  if (fileExtension !== ".md") {
-    processedContent = await extractTextWithAI(content, filePath, fileExtension)
-  }
-
-  const chunks = splitContentByHeadings(processedContent, filePath, rootDir)
-  const category = getCategoryFromPath(filePath, rootDir)
+  const chunks = splitContentByHeadings(content, filePath, rootDir)
 
   console.log(`   ✅ Generated ${chunks.length} chunks`)
-
-  return {
-    path: filePath,
-    category,
-    chunks,
-  }
+  return chunks
 }
 
 /**
@@ -493,7 +245,7 @@ async function clearIndex() {
 async function uploadToPinecone(allChunks: DocumentChunk[]) {
   console.log(`📤 Uploading ${allChunks.length} chunks to Pinecone...`)
 
-  const batchSize = 100
+  const batchSize = 1000 // Increased batch size for better Pinecone performance
   const batches = []
 
   for (let i = 0; i < allChunks.length; i += batchSize) {
@@ -507,40 +259,26 @@ async function uploadToPinecone(allChunks: DocumentChunk[]) {
 
     const vectors = []
 
-    for (const chunk of batch) {
+    // Process chunks in parallel for faster embedding creation
+    const embeddingPromises = batch.map(async (chunk) => {
       try {
         const embedding = await createEmbedding(chunk.text)
-
-        const metadata: any = {
-          text: chunk.text,
-          url: chunk.url,
-          title: chunk.title,
-          category: chunk.category,
-          source_file: chunk.sourceFile,
-          heading_level: chunk.headingLevel,
-          last_modified: chunk.lastModified,
-        }
-
-        // Add image information if available
-        if (chunk.images && chunk.images.length > 0) {
-          metadata.images = JSON.stringify(chunk.images)
-          metadata.has_images = true
-          metadata.image_count = chunk.images.length
-          
-          // Add first image for quick reference
-          metadata.first_image_url = chunk.images[0].relativeUrl
-          metadata.first_image_alt = chunk.images[0].alt
-        }
-
-        vectors.push({
+        return {
           id: chunk.id,
           values: embedding,
-          metadata,
-        })
+          metadata: {
+            text: chunk.text,
+            url: chunk.url,
+          },
+        }
       } catch (error) {
         console.error(`❌ Error processing chunk ${chunk.id}:`, error.message)
+        return null
       }
-    }
+    })
+
+    const results = await Promise.all(embeddingPromises)
+    vectors.push(...results.filter(Boolean))
 
     if (vectors.length > 0) {
       try {
@@ -551,9 +289,9 @@ async function uploadToPinecone(allChunks: DocumentChunk[]) {
       }
     }
 
-    // Small delay between batches to avoid rate limits
+    // Reduce delay between batches for faster processing
     if (batchIndex < batches.length - 1) {
-      await new Promise((resolve) => setTimeout(resolve, 1000))
+      await new Promise((resolve) => setTimeout(resolve, 200)) // Reduced from 1000ms to 200ms
     }
   }
 }
@@ -582,35 +320,19 @@ async function indexDocumentation() {
 
     // Process all files
     const allChunks: DocumentChunk[] = []
-    const processedFiles: ProcessedFile[] = []
 
     for (const file of files) {
       try {
-        const processedFile = await processFile(file, rootDir)
-        processedFiles.push(processedFile)
-        allChunks.push(...processedFile.chunks)
+        const chunks = processFile(file, rootDir)
+        allChunks.push(...chunks)
       } catch (error) {
         console.error(`❌ Error processing ${file}:`, error.message)
       }
     }
 
     console.log(`\n📊 Processing Summary:`)
-    console.log(`   - Files processed: ${processedFiles.length}`)
+    console.log(`   - Files processed: ${files.length}`)
     console.log(`   - Total chunks generated: ${allChunks.length}`)
-
-    // Group by category for statistics
-    const categoryStats = allChunks.reduce(
-      (acc, chunk) => {
-        acc[chunk.category] = (acc[chunk.category] || 0) + 1
-        return acc
-      },
-      {} as Record<string, number>,
-    )
-
-    console.log(`   - Chunks by category:`)
-    Object.entries(categoryStats).forEach(([category, count]) => {
-      console.log(`     • ${category}: ${count}`)
-    })
 
     if (allChunks.length === 0) {
       console.log("⚠️ No chunks generated")
