@@ -348,18 +348,7 @@ defineExpose({ insertText, submitTextDirectly })
   /* background-color: var(--vp-c-bg-soft); */
 }
 
-/* Стили для интерактивных ссылок и блоков */
-.message.assistant .message-content :deep(.interactive-link-text) {
-  color: var(--chat-brand-color);
-  cursor: pointer;
-  /* text-decoration: underline; */
-  margin-right: 0.5em;
-}
-
-.message.assistant .message-content :deep(.interactive-link-text:hover) {
-  opacity: 0.8;
-}
-
+/* Стили для интерактивных блоков и изображений */
 .message.assistant .message-content :deep(.interactive-blockquote-text) {
   color: var(--chat-brand-color);
   cursor: pointer;

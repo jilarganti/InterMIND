@@ -137,25 +137,6 @@ export function useChatUi(
         }
       }
 
-      // Обработка клика по интерактивному тексту ссылки
-      if (target?.classList.contains("interactive-link-text")) {
-        const query = target.getAttribute("data-query")
-
-        if (query) {
-          // Создаем визуальный фидбек
-          const htmlTarget = target as HTMLElement
-          htmlTarget.style.color = "var(--chat-bg-mute)"
-
-          // Отправляем запрос после небольшой задержки
-          setTimeout(() => {
-            submitTextFn(query, "followup")
-          }, 300)
-
-          // Предотвращаем всплытие события, чтобы не срабатывал клик по ссылке
-          event.stopPropagation()
-        }
-      }
-
       // Обработка клика по blockquote
       if (target?.classList.contains("interactive-blockquote-text") || target?.closest(".interactive-blockquote-text")) {
         const element = target.classList.contains("interactive-blockquote-text") ? target : target.closest(".interactive-blockquote-text")
@@ -227,43 +208,8 @@ export function useChatUi(
     const tempDiv = document.createElement("div")
     tempDiv.innerHTML = html
 
-    // Обработка ссылок: делаем текст перед ссылкой интерактивным
-    const links = tempDiv.querySelectorAll("a")
-    links.forEach((link) => {
-      // Не обрабатываем пустые ссылки или ссылки с коротким текстом
-      if (!link.textContent || link.textContent.trim().length < 5) return
-
-      // Не обрабатываем ссылки для сносок
-      if (link.classList.contains("footnote-ref") || link.classList.contains("footnote-backref")) return
-
-      // Получаем текст ссылки и href
-      const linkText = link.textContent.trim()
-      const href = link.getAttribute("href") || ""
-
-      // Определяем, что использовать в запросе - текст до скобок или полный текст
-      const displayTextMatch = linkText.match(/(.*?)\s*\[.*?\]/)
-      const queryText = displayTextMatch ? displayTextMatch[1].trim() : linkText
-
-      // Создаем интерактивный элемент для текста перед ссылкой
-      const interactiveText = document.createElement("span")
-      interactiveText.className = "interactive-link-text"
-      interactiveText.setAttribute("data-query", queryText)
-      interactiveText.setAttribute("title", "Learn more: " + queryText)
-      interactiveText.textContent = queryText + ":"
-      // interactiveText.style.cursor = "pointer"
-      // interactiveText.style.color = "var(--chat-brand-color)"
-      // interactiveText.style.textDecoration = "underline"
-
-      // Изменяем текст ссылки на URL без https:// и без параметров после ?, и ограничиваем длину до 30 символов
-      let displayUrl = href.replace(/^https?:\/\//, "").replace(/\?.*$/, "")
-      if (displayUrl.length > 30) {
-        displayUrl = displayUrl.substring(0, 27) + "..."
-      }
-      link.textContent = displayUrl
-
-      // Вставляем интерактивный текст перед ссылкой
-      link.parentNode?.insertBefore(interactiveText, link)
-    })
+    // Обработка ссылок: оставляем как обычные markdown ссылки
+    // (код удален - ссылки теперь работают как обычные markdown ссылки)
 
     // Обработка blockquote: делаем весь текст интерактивным
     const blockquotes = tempDiv.querySelectorAll("blockquote")
