@@ -30,6 +30,26 @@ async function createEmbedding(text: string): Promise<number[]> {
   return response.data[0].embedding
 }
 
+// Функция для извлечения заголовка из чанка
+function extractHeadingFromChunk(text: string): string {
+  const lines = text.split("\n")
+
+  for (const line of lines) {
+    // Ищем H1 или H2 заголовок
+    const headingMatch = line.match(/^#{1,2}\s+(.+)$/)
+    if (headingMatch) {
+      return headingMatch[1].trim()
+    }
+  }
+
+  // Если заголовок не найден, возвращаем первые слова текста
+  const words = text
+    .replace(/[#*`\[\]()]/g, "")
+    .trim()
+    .split(/\s+/)
+  return words.slice(0, 4).join(" ") + (words.length > 4 ? "..." : "")
+}
+
 // Инструмент семантического поиска
 export const semanticSearchTool = tool({
   description: "Search for information in the InterMIND knowledge base about features, capabilities, pricing, and other documentation",
@@ -78,8 +98,8 @@ export const semanticSearchTool = tool({
       // Форматируем результаты
       const formattedResults = relevantResults
         .map((result, index) => {
-          // const linkText = result.url ? `\nLink: ${result.url}` : ""
-          const sourceText = `[Source](${result.url})\nRelevance: ${(result.score * 100).toFixed(0)}%`
+          const headingTitle = extractHeadingFromChunk(String(result.content))
+          const sourceText = `[${headingTitle}](${result.url})\nRelevance: ${(result.score * 100).toFixed(0)}%`
           return `[${index + 1}] ${result.content}\n${sourceText}`
         })
         .join("\n\n---\n\n")

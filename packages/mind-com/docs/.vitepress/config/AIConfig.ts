@@ -24,6 +24,9 @@ Relevance: 60%
 
 В ответ надо добавить изображение ![](/1d.png) и две ссылки: [Source](product/overview/what-is-intermind) и [Wiki](https://en.wikipedia.org/wiki/Language_interpretation)
 
+
+Не используй в ответе ссылки на изображения, которые уже ьыли использованы в предыдущих ответах. Используй внешние изображения с Unsplash или других источников.
+
 Для внешних изображений (только если нет изображений в результатах поиска):
 ✅ Правильно: ![Sales Growth](https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80)
 ❌ Неправильно: ![Business](https://images.unsplash.com/photo-1521737852567-6128665c4d1f)
