@@ -11,6 +11,7 @@ navbar: false
 <script setup>
   const chatPrompts = [
     // Pain-based search queries - Language barriers in business
+    { id: "9", text: "Alternative to expensive human interpreters", category: "cost-saving" },
     { id: "1", text: "How to communicate with foreign clients without knowing their language", category: "communication" },
     { id: "2", text: "Real time translation for business meetings", category: "translation" },
     { id: "3", text: "Video call interpreter software", category: "interpretation" },
@@ -23,7 +24,6 @@ navbar: false
     { id: "8", text: "Communicate with suppliers from different countries", category: "supply-chain" },
     
     // Solution-seeking queries
-    { id: "9", text: "Alternative to expensive human interpreters", category: "cost-saving" },
     { id: "10", text: "AI translation vs human translator comparison", category: "comparison" },
     { id: "11", text: "Instant language translation for business", category: "instant-translation" },
     { id: "12", text: "Multilingual team collaboration tools", category: "collaboration" },
