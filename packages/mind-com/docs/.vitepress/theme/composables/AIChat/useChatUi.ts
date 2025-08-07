@@ -264,28 +264,28 @@ export function useChatUi(
       }
     })
 
-    // Обработка списков вопросов с эмоджи ❓
+    // Обработка списков после заголовков h5
     const listItems = tempDiv.querySelectorAll("li")
     listItems.forEach((listItem) => {
-      // Ищем элементы списка, которые содержат текст и следуют после заголовка с ❓
       const text = listItem.textContent?.trim()
       if (!text || text.length < 10) return
 
-      // Проверяем, находится ли этот элемент списка в секции с вопросами
+      // Проверяем, что список идет сразу после заголовка h5
       let parent = listItem.parentElement
-      let isQuestionSection = false
-
-      // Ищем предыдущие элементы, чтобы найти заголовок с ❓
       let prevSibling = parent?.previousElementSibling
-      while (prevSibling && !isQuestionSection) {
-        if (prevSibling.textContent?.includes("❓")) {
-          isQuestionSection = true
+
+      // Ищем ближайший предыдущий элемент
+      while (prevSibling && prevSibling.tagName !== "H5") {
+        // Если встретили другой заголовок или блок, прерываем поиск
+        if (prevSibling.tagName && prevSibling.tagName.match(/^H[1-6]$/)) {
+          prevSibling = null
           break
         }
         prevSibling = prevSibling.previousElementSibling
       }
 
-      if (isQuestionSection) {
+      // Если нашли h5 прямо перед списком, делаем элементы интерактивными
+      if (prevSibling && prevSibling.tagName === "H5") {
         // Сохраняем оригинальное содержимое
         const originalContent = listItem.innerHTML
 
