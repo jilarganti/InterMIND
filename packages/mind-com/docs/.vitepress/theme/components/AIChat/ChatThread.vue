@@ -24,6 +24,7 @@ const { lang, site } = useData()
 
 // Рефы для DOM-элементов
 const messagesContainerRef = ref<HTMLDivElement | null>(null)
+const chatFooterRef = ref<InstanceType<typeof ChatFooter> | null>(null)
 const showRawMessages = ref(false)
 
 // Проверка на режим разработки
@@ -90,7 +91,7 @@ watch(
 // Инициализируем composable для UI элементов
 const { renderMarkdown, scrollToBottom, setupImageClickHandler } = useChatUi(
   messagesContainerRef,
-  undefined, // передаем undefined вместо null для типизации
+  computed(() => chatFooterRef.value?.textareaRef || null), // передаем textareaRef из ChatFooter
   input,
   // Добавляем функцию для изменения режима
   (mode: string) => {
@@ -213,6 +214,7 @@ defineExpose({ insertText, submitTextDirectly })
 
     <!-- Input area using ChatFooter component -->
     <ChatFooter
+      ref="chatFooterRef"
       v-model:inputValue="input"
       :status="status"
       :errorMessage="error?.message"
@@ -348,7 +350,7 @@ defineExpose({ insertText, submitTextDirectly })
   /* background-color: var(--vp-c-bg-soft); */
 }
 
-/* Стили для интерактивных блоков, вопросов и изображений */
+/* Стили для интерактивных блоков и изображений */
 .message.assistant .message-content :deep(.interactive-blockquote-text) {
   color: var(--chat-brand-color);
   cursor: pointer;

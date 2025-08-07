@@ -141,6 +141,9 @@ const handleKeyDown = (event: KeyboardEvent): void => {
     }
   }
 }
+
+// Экспортируем textareaRef для родительского компонента
+defineExpose({ textareaRef })
 </script>
 
 <template>

@@ -167,9 +167,18 @@ export function useChatUi(
           // Вставляем текст вопроса в поле ввода вместо отправки запроса
           if (input && input.value !== undefined) {
             input.value = query
-            // Фокус на поле ввода
-            if (textareaRef && textareaRef.value) {
-              textareaRef.value.focus()
+
+            // Если есть ссылка на textarea, обновляем его тоже
+            if (textareaRef?.value) {
+              const textarea = textareaRef.value
+              textarea.value = query
+
+              // Эмулируем событие input для автоматического изменения размера
+              const inputEvent = new Event("input", { bubbles: true })
+              textarea.dispatchEvent(inputEvent)
+
+              // Фокус на поле
+              textarea.focus()
             }
           }
         }
