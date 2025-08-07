@@ -94,7 +94,7 @@ function generateRelativeUrl(filePath: string, rootDir: string): string {
 }
 
 /**
- * Splits content by headings H2/H3 for better chunk granularity
+ * Splits content by H2 headings for better semantic chunks
  */
 function splitContentByHeadings(content: string, filePath: string, rootDir: string): DocumentChunk[] {
   const chunks: DocumentChunk[] = []
@@ -104,7 +104,8 @@ function splitContentByHeadings(content: string, filePath: string, rootDir: stri
   let chunkIndex = 0
 
   for (const line of lines) {
-    const headingMatch = line.match(/^(#{2,3})\s+(.+)$/)
+    // Only split on H2 headings (##), not H3 (###)
+    const headingMatch = line.match(/^(#{2})\s+(.+)$/)
 
     if (headingMatch) {
       // Save previous chunk if it has content
@@ -125,7 +126,7 @@ function splitContentByHeadings(content: string, filePath: string, rootDir: stri
     } else {
       currentChunk += line + "\n"
 
-      // Split large chunks
+      // Split large chunks if needed
       if (currentChunk.length > config.maxChunkLength) {
         const chunkId = `${path.relative(rootDir, filePath)}-${chunkIndex}`
 
