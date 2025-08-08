@@ -137,23 +137,6 @@ export function useChatUi(
         }
       }
 
-      // Обработка клика по blockquote
-      if (target?.classList.contains("interactive-blockquote-text") || target?.closest(".interactive-blockquote-text")) {
-        const element = target.classList.contains("interactive-blockquote-text") ? target : target.closest(".interactive-blockquote-text")
-        const query = element?.getAttribute("data-query")
-
-        if (query && element) {
-          // Создаем визуальный фидбек
-          const htmlElement = element as HTMLElement
-          htmlElement.style.color = "var(--chat-bg-mute)"
-
-          // Отправляем запрос после небольшой задержки
-          setTimeout(() => {
-            submitTextFn(query, "followup")
-          }, 300)
-        }
-      }
-
       // Обработка клика по интерактивным вопросам
       if (target?.classList.contains("interactive-question-text") || target?.closest(".interactive-question-text")) {
         const element = target.classList.contains("interactive-question-text") ? target : target.closest(".interactive-question-text")
@@ -240,38 +223,6 @@ export function useChatUi(
 
     // Обработка ссылок: оставляем как обычные markdown ссылки
     // (код удален - ссылки теперь работают как обычные markdown ссылки)
-
-    // Обработка blockquote: делаем весь текст интерактивным
-    const blockquotes = tempDiv.querySelectorAll("blockquote")
-    blockquotes.forEach((blockquote) => {
-      // Проверяем что в blockquote есть текст
-      if (!blockquote.textContent || blockquote.textContent.trim().length < 5) return
-
-      // Получаем текст и убираем эмодзи
-      const text = blockquote.textContent.trim()
-      const queryText = text.replace(/^[\p{Emoji}\s]+/u, "").trim()
-
-      // Ищем первый параграф
-      const firstParagraph = blockquote.querySelector("p:first-child")
-
-      if (firstParagraph) {
-        // Сохраняем оригинальное содержимое
-        const originalContent = firstParagraph.innerHTML
-
-        // Создаем интерактивный элемент с тем же содержимым
-        firstParagraph.innerHTML = ""
-        const interactiveText = document.createElement("span")
-        interactiveText.className = "interactive-blockquote-text"
-        interactiveText.setAttribute("data-query", queryText)
-        interactiveText.innerHTML = originalContent
-        // interactiveText.style.cursor = "pointer"
-        // interactiveText.style.color = "var(--chat-brand-color)"
-        // interactiveText.style.textDecoration = "underline"
-
-        // Вставляем интерактивный элемент в параграф
-        firstParagraph.appendChild(interactiveText)
-      }
-    })
 
     // Обработка списков после заголовков h5
     const listItems = tempDiv.querySelectorAll("li")
