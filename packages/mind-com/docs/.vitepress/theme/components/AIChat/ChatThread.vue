@@ -70,9 +70,7 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
     scrollToBottom()
 
     // Возвращаем фокус в поле ввода с небольшой задержкой
-    setTimeout(() => {
-      chatFooterRef.value?.focusInput()
-    }, 100)
+    focusInput()
   },
   onError: () => {
     // Сбрасываем режим на стандартный после ошибки
@@ -122,6 +120,13 @@ const handleSubmitWithScroll = async (event?: Event) => {
   scrollToBottom()
 }
 
+// Функция для установки фокуса на поле ввода с задержкой
+const focusInput = () => {
+  setTimeout(() => {
+    chatFooterRef.value?.focusInput()
+  }, 100)
+}
+
 // Функция для отправки текста напрямую (используется для быстрых ответов)
 const submitTextDirectly = (text: string, mode = "basic") => {
   if (text.trim() && status.value !== "streaming") {
@@ -153,6 +158,9 @@ watchEffect(() => {
     // Загружаем сообщения для нового чата
     const chatMessages = chatsStore.getMessages(props.chatId)
     setMessages(chatMessages)
+
+    // Устанавливаем фокус на поле ввода при смене чата
+    focusInput()
   }
 })
 
@@ -160,6 +168,9 @@ watchEffect(() => {
 onMounted(() => {
   setupImageClicks()
   scrollToBottom()
+
+  // Устанавливаем фокус на поле ввода при монтировании
+  focusInput()
 
   // Отправляем начальное сообщение, если оно есть
   if (initialMessage.value) {
