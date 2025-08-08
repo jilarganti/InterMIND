@@ -246,6 +246,49 @@ export function useChatUi(
       }
     })
 
+    // Обработка callout блоков (цитаты с типами [!INFO], [!WARNING] и т.д.)
+    const blockquotes = tempDiv.querySelectorAll("blockquote")
+    blockquotes.forEach((blockquote) => {
+      const firstParagraph = blockquote.querySelector("p:first-child")
+      if (!firstParagraph) return
+
+      const text = firstParagraph.textContent?.trim()
+      if (!text) return
+
+      // Проверяем на различные типы callout и применяем стандартные VitePress классы
+      const calloutTypes = {
+        "INFO": "info",
+        "WARNING": "warning",
+        "TIP": "tip",
+        "DANGER": "danger",
+        "ERROR": "danger",
+        "NOTE": "details",
+        "IMPORTANT": "important",
+      }
+
+      for (const [type, className] of Object.entries(calloutTypes)) {
+        const upperMarker = `[!${type}]`
+        const lowerMarker = `[!${type.toLowerCase()}]`
+
+        if (text.includes(upperMarker) || text.includes(lowerMarker)) {
+          // Создаем новый div элемент вместо blockquote
+          const div = document.createElement("div")
+          div.className = `custom-block ${className}`
+          div.innerHTML = blockquote.innerHTML
+
+          // Убираем маркер из первого параграфа
+          const newFirstParagraph = div.querySelector("p:first-child")
+          if (newFirstParagraph) {
+            newFirstParagraph.innerHTML = newFirstParagraph.innerHTML.replace(upperMarker, "").replace(lowerMarker, "")
+          }
+
+          // Заменяем blockquote на div
+          blockquote.parentNode?.replaceChild(div, blockquote)
+          break
+        }
+      }
+    })
+
     return tempDiv.innerHTML
   }
 
