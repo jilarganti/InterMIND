@@ -122,21 +122,6 @@ export function useChatUi(
         return
       }
 
-      // Обработка клика по изображению
-      if (target?.classList.contains("chat-interactive-image")) {
-        const query = target.getAttribute("data-query")
-        if (query) {
-          // Создаем визуальный фидбек
-          const htmlTarget = target as HTMLElement
-          htmlTarget.style.color = "var(--chat-bg-mute)"
-
-          // Отправляем запрос после небольшой задержки
-          setTimeout(() => {
-            submitTextFn(query, "followup")
-          }, 300)
-        }
-      }
-
       // Обработка клика по интерактивным вопросам
       if (target?.classList.contains("interactive-question-text") || target?.closest(".interactive-question-text")) {
         const element = target.classList.contains("interactive-question-text") ? target : target.closest(".interactive-question-text")

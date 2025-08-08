@@ -348,7 +348,7 @@ defineExpose({ insertText, submitTextDirectly })
   border-radius: 0.25rem;
 } */
 
-/* Стили для интерактивных вопросов и изображений */
+/* Стили для интерактивных вопросов */
 .message.assistant .message-content :deep(.interactive-question-text) {
   color: var(--chat-brand-color);
   cursor: pointer;
@@ -361,17 +361,11 @@ defineExpose({ insertText, submitTextDirectly })
   opacity: 0.8;
 }
 
-/* Стили для интерактивных изображений */
-.message.assistant .message-content :deep(.chat-interactive-image) {
-  cursor: pointer;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  border: 1px solid transparent;
-}
-
-.message.assistant .message-content :deep(.chat-interactive-image:hover) {
-  border-color: var(--chat-brand-color);
-  transform: scale(1.005);
+/* Стили для изображений в чате */
+.message.assistant .message-content :deep(img) {
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Стили для сносок */

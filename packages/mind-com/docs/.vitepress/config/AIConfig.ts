@@ -93,7 +93,7 @@ const followup = ` ${basic}
 `
 
 export const prompts = {
-  basic: { prompt: basic, model: "claude-3-5-haiku-20241022", maxTokens: 4000, temperature: 0.3, presencePenalty: 0.3, frequencyPenalty: 0.3 },
+  basic: { prompt: basic, model: "claude-3-5-sonnet-20241022", maxTokens: 4000, temperature: 0.3, presencePenalty: 0.3, frequencyPenalty: 0.3 },
   //   pro: { name: pro, model: "claude-3-5-haiku-20241022", maxTokens: 8000, temperature: 0.2, presencePenalty: 0.3, frequencyPenalty: 0.3 },
   //   business: { name: "business", model: "claude-3-5-sonnet-20241022", maxTokens: 8000, temperature: 0.1, presencePenalty: 0.3, frequencyPenalty: 0.3 },
   followup: { prompt: followup, model: "claude-4-sonnet-20250514", maxTokens: 4000, temperature: 0.2, presencePenalty: 0.3, frequencyPenalty: 0.3 },
