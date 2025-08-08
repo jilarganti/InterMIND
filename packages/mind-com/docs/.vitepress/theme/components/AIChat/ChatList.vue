@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { MessageSquare, Search, Plus, ArrowLeft } from "lucide-vue-next"
+import { Search, Plus, ArrowLeft } from "lucide-vue-next"
 import { computed } from "vue"
 import { useData } from "vitepress"
 
@@ -122,7 +122,6 @@ const updateSearchInput = (event: Event) => {
         <div class="month-header">{{ month }}</div>
 
         <div v-for="chatId in chatIds" :key="chatId" class="chat-item" :class="{ active: chatId === selectedChatId }" @click="emit('select-chat', chatId)">
-          <MessageSquare :size="18" class="chat-icon" />
           <!-- Используем слот для отображения заголовка чата -->
           <slot name="chat-title" :chat-id="chatId">
             <span class="chat-name">Чат {{ new Date(Number(chatId)).toLocaleString() }}</span>
@@ -253,10 +252,6 @@ const updateSearchInput = (event: Event) => {
 .chat-item.active {
   background-color: var(--vp-c-bg-alt);
   font-weight: 500;
-}
-
-.chat-icon {
-  color: var(--vp-c-text-3);
 }
 
 .chat-name {
