@@ -5,14 +5,13 @@ import ChatContainer from "./ChatContainer.vue"
 import { useChatManagement } from "../../composables/AIChat/useChatManagement"
 import { useQuickPrompts } from "../../composables/AIChat/useQuickPrompts"
 import type { ChatThreadMethods } from "../../types/ChatThread"
-import type { QuickPrompt } from "../../composables/AIChat/useQuickPrompts"
 
 // Определяем пропсы
 interface Props {
   /**
    * Быстрые подсказки для чата
    */
-  prompts: QuickPrompt[]
+  prompts: string[]
 }
 
 // Используем defineProps с типом Props

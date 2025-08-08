@@ -7,7 +7,6 @@ import { useChatTitle } from "../../composables/AIChat/useChatTitle"
 import { useQuickPrompts } from "../../composables/AIChat/useQuickPrompts"
 import { useChatsStore } from "../../stores/chatsStore"
 import type { ChatThreadMethods } from "../../types/ChatThread"
-import type { QuickPrompt } from "../../composables/AIChat/useQuickPrompts"
 
 const props = defineProps<{
   /**
@@ -43,7 +42,7 @@ const props = defineProps<{
   /**
    * Быстрые подсказки для чата
    */
-  prompts?: QuickPrompt[]
+  prompts?: string[]
 }>()
 
 const emit = defineEmits<{
@@ -150,8 +149,8 @@ defineExpose({
         <div v-if="!hasMessages && showPromptsWhenEmpty" class="empty-prompts-overlay">
           <div class="prompts-container">
             <div class="prompts-grid">
-              <button v-for="prompt in quickPrompts" :key="prompt.id" class="prompt-button" @click="handlePromptSelectInChat(prompt.text)">
-                {{ prompt.text }}
+              <button v-for="(prompt, index) in quickPrompts" :key="index" class="prompt-button" @click="handlePromptSelectInChat(prompt)">
+                {{ prompt }}
               </button>
             </div>
           </div>

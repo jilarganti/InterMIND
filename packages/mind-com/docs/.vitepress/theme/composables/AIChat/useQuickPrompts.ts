@@ -3,12 +3,6 @@ import { ref } from "vue"
 import type { Ref } from "vue"
 import type { ChatThreadMethods } from "../../types/ChatThread"
 
-export interface QuickPrompt {
-  id: string
-  text: string
-  category?: string
-}
-
 interface UseQuickPromptsOptions {
   /**
    * Специальная обработка для мобильного режима
@@ -20,18 +14,18 @@ interface UseQuickPromptsOptions {
 /**
  * Управление быстрыми подсказками для чата
  * @param chatInputRef - Ref на компонент чата
- * @param prompts - Массив быстрых подсказок
+ * @param prompts - Массив быстрых подсказок (простые строки)
  * @param mainInputRef - Ref на поле ввода в мобильном режиме
  * @param options - Дополнительные опции
  */
 export function useQuickPrompts(
   chatInputRef: Ref<ChatThreadMethods | null>,
-  prompts: Ref<QuickPrompt[]> | QuickPrompt[],
+  prompts: Ref<string[]> | string[],
   mainInputRef?: Ref<string>,
   options: UseQuickPromptsOptions = {},
 ) {
   // Список быстрых поисковых запросов, получаемый из пропса
-  const quickPrompts = ref<QuickPrompt[]>(Array.isArray(prompts) ? prompts : prompts.value)
+  const quickPrompts = ref<string[]>(Array.isArray(prompts) ? prompts : prompts.value)
 
   // Функция для использования быстрой подсказки в десктопном режиме
   const insertQuickPrompt = (text: string) => {

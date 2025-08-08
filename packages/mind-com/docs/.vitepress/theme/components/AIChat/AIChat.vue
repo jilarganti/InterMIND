@@ -5,14 +5,13 @@ import MobileChatLayout from "./MobileChatLayout.vue"
 import DesktopChatLayout from "./DesktopChatLayout.vue"
 import { useChatLayout } from "../../composables/AIChat/useChatLayout"
 import { useChatsStore } from "../../stores/chatsStore"
-import type { QuickPrompt } from "../../composables/AIChat/useQuickPrompts"
 
 // Определяем пропсы для компонента
 interface Props {
   /**
    * Массив быстрых подсказок для чата
    */
-  prompts?: QuickPrompt[]
+  prompts?: string[]
 }
 
 // Используем defineProps с типом Props
