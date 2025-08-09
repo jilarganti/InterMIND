@@ -3,7 +3,7 @@ export const config = {
   rootDir: "../docs/en",
 
   // Pinecone настройки
-  pineconeIndex: process.env.PINECONE_INDEX_NAME || "intermind-docs",
+  pineconeIndex: process.env.PINECONE_INDEX_NAME,
 
   // OpenAI модель для эмбеддингов
   embeddingModel: "text-embedding-3-small",
