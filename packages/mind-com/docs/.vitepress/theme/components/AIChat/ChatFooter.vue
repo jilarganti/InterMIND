@@ -1,4 +1,6 @@
 <script setup lang="ts">
+/// <reference types="../../types/global" />
+
 import { ref, onMounted, onUnmounted, computed } from "vue"
 import { useData } from "vitepress"
 import { ArrowUp, Square, Bug, Loader2 } from "lucide-vue-next"
