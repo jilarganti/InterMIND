@@ -196,41 +196,24 @@ export function useChatUi(
     // Обработка ссылок: оставляем как обычные markdown ссылки
     // (код удален - ссылки теперь работают как обычные markdown ссылки)
 
-    // Обработка списков после заголовков h5
+    // Обработка интерактивных элементов (теги <strong> от двойных подчеркиваний)
     const listItems = tempDiv.querySelectorAll("li")
     listItems.forEach((listItem) => {
-      const text = listItem.textContent?.trim()
-      if (!text || text.length < 10) return
+      const strongElements = listItem.querySelectorAll("code")
 
-      // Проверяем, что список идет сразу после заголовка h5
-      let parent = listItem.parentElement
-      let prevSibling = parent?.previousElementSibling
+      strongElements.forEach((strongElement) => {
+        const text = strongElement.textContent?.trim()
+        if (text && text.length > 5) {
+          // Создаем интерактивный элемент
+          const interactiveElement = document.createElement("span")
+          interactiveElement.className = "interactive-question-text"
+          interactiveElement.setAttribute("data-query", text)
+          interactiveElement.textContent = text
 
-      // Ищем ближайший предыдущий элемент
-      while (prevSibling && prevSibling.tagName !== "H5") {
-        // Если встретили другой заголовок или блок, прерываем поиск
-        if (prevSibling.tagName && prevSibling.tagName.match(/^H[1-6]$/)) {
-          prevSibling = null
-          break
+          // Заменяем strong элемент на интерактивный
+          strongElement.parentNode?.replaceChild(interactiveElement, strongElement)
         }
-        prevSibling = prevSibling.previousElementSibling
-      }
-
-      // Если нашли h5 прямо перед списком, делаем элементы интерактивными
-      if (prevSibling && prevSibling.tagName === "H5") {
-        // Сохраняем оригинальное содержимое
-        const originalContent = listItem.innerHTML
-
-        // Создаем интерактивный элемент
-        listItem.innerHTML = ""
-        const interactiveText = document.createElement("span")
-        interactiveText.className = "interactive-question-text"
-        interactiveText.setAttribute("data-query", text)
-        interactiveText.innerHTML = originalContent
-
-        // Вставляем интерактивный элемент
-        listItem.appendChild(interactiveText)
-      }
+      })
     })
 
     // Обработка callout блоков (цитаты с типами [!INFO], [!WARNING] и т.д.)

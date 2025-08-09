@@ -366,7 +366,7 @@ defineExpose({ insertText, submitTextDirectly })
   border: 1px solid var(--vp-c-border);
   border-radius: 8px;
   padding: 6px 12px;
-  margin: 2px;
+  margin: 4px 6px 4px 0;
   cursor: pointer;
   display: inline-block;
   width: auto;
@@ -376,7 +376,25 @@ defineExpose({ insertText, submitTextDirectly })
 }
 
 .message.assistant .message-content :deep(.interactive-question-text:hover) {
-  opacity: 0.8;
+  background-color: var(--chat-brand-color);
+  color: var(--vp-c-bg);
+  border-color: var(--chat-brand-color);
+}
+
+/* Горизонтальное расположение интерактивных вопросов */
+.message.assistant .message-content :deep(ul li:has(.interactive-question-text)) {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.message.assistant .message-content :deep(ul:has(.interactive-question-text)) {
+  margin: 8px 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
 }
 
 /* Компактные списки с интерактивными вопросами */
