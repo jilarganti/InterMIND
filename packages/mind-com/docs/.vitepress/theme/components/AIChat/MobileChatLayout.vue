@@ -1,4 +1,6 @@
 <script setup lang="ts">
+/// <reference types="../../types/global" />
+
 import { ref, computed } from "vue"
 import ChatList from "./ChatList.vue"
 import ChatContainer from "./ChatContainer.vue"
@@ -54,11 +56,12 @@ const chatContainerRef = ref<{
   submitTextDirectly: (text: string) => void
 } | null>(null)
 
-// Получаем быстрые подсказки из пропсов
+// Получаем список быстрых подсказок из props, передавая пропсы из родителя
 const { quickPrompts } = useQuickPrompts(chatContainerRef, props.prompts)
 
 // Обработчик использования подсказки
 const handleUsePrompt = (text: string) => {
+  window.dataLayer?.push({ event: "layout_prompt", prompt_text: text })
   if (!hasSelectedChat.value) {
     createNewChat()
   }

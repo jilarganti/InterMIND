@@ -1,4 +1,6 @@
 <script setup lang="ts">
+/// <reference types="../../types/global" />
+
 import { ref, computed } from "vue"
 import ChatThread from "./ChatThread.vue"
 import ChatHeader from "./ChatHeader.vue"
@@ -102,6 +104,7 @@ const handlePromptSelect = (text: string) => {
 
 // Обработчик выбора быстрой подсказки в существующем чате
 const handlePromptSelectInChat = (text: string) => {
+  window.dataLayer?.push({ event: "stream_prompt", prompt_text: text })
   if (chatThreadRef.value) {
     chatThreadRef.value.submitTextDirectly(text)
   }

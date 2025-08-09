@@ -1,4 +1,6 @@
 <script setup lang="ts">
+/// <reference types="../../types/global" />
+
 import { ref, computed } from "vue"
 import ChatList from "./ChatList.vue"
 import ChatContainer from "./ChatContainer.vue"
@@ -51,6 +53,7 @@ const { quickPrompts, submitQuickPrompt } = useQuickPrompts(chatContainerRef, pr
 
 // Обработчик использования подсказки на пустом экране
 const handleUsePromptFromEmpty = (text: string) => {
+  window.dataLayer?.push({ event: "layout_prompt", prompt_text: text })
   if (!hasSelectedChat.value) {
     createNewChat()
   }
