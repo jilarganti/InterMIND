@@ -47,7 +47,7 @@ const chatContainerRef = ref<{
 } | null>(null)
 
 // Инициализируем работу с быстрыми подсказками, передавая пропсы из родителя
-const { quickPrompts, insertQuickPrompt, submitQuickPrompt } = useQuickPrompts(chatContainerRef, props.prompts)
+const { quickPrompts, submitQuickPrompt } = useQuickPrompts(chatContainerRef, props.prompts)
 
 // Обработчик использования подсказки на пустом экране
 const handleUsePromptFromEmpty = (text: string) => {

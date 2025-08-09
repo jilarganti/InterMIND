@@ -58,8 +58,8 @@ export function useQuickPrompts(
       // В мобильном режиме добавляем текст в основное поле ввода
       addTagToMainInput(text)
     } else {
-      // В десктопном режиме вставляем в поле ввода чата
-      insertQuickPrompt(text)
+      // В десктопном режиме отправляем сообщение автоматически
+      submitQuickPrompt(text)
     }
   }
 

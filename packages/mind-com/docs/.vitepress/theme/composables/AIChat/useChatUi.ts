@@ -132,23 +132,10 @@ export function useChatUi(
           const htmlElement = element as HTMLElement
           htmlElement.style.color = "var(--chat-bg-mute)"
 
-          // Вставляем текст вопроса в поле ввода вместо отправки запроса
-          if (input && input.value !== undefined) {
-            input.value = query
-
-            // Если есть ссылка на textarea, обновляем его тоже
-            if (textareaRef?.value) {
-              const textarea = textareaRef.value
-              textarea.value = query
-
-              // Эмулируем событие input для автоматического изменения размера
-              const inputEvent = new Event("input", { bubbles: true })
-              textarea.dispatchEvent(inputEvent)
-
-              // Фокус на поле
-              textarea.focus()
-            }
-          }
+          // Отправляем запрос напрямую, как с другими интерактивными элементами
+          setTimeout(() => {
+            submitTextFn(query, "followup")
+          }, 300)
         }
       }
     }
@@ -173,7 +160,7 @@ export function useChatUi(
     html: true,
     linkify: true,
     typographer: true,
-    breaks: true,
+    breaks: false,
   })
 
   // Применяем плагин сносок (footnotes)
