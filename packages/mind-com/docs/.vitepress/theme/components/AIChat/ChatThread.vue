@@ -40,7 +40,7 @@ const currentMode = ref("basic")
 const chatSessionId = ref(props.chatId)
 
 // Создаем новый chat с помощью useChat
-const { messages, input, handleSubmit, status, error, stop, setMessages } = useChat({
+const { messages, input, handleSubmit, status, error, stop, setMessages, data } = useChat({
   api: "/api/chat",
   id: chatSessionId.value,
   initialMessages: chatsStore.getMessages(props.chatId),
@@ -71,6 +71,9 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
 
     // Возвращаем фокус в поле ввода с небольшой задержкой
     focusInput()
+
+    // Обрабатываем данные о токенах
+    handleTokenUsage()
   },
   onError: () => {
     // Сбрасываем режим на стандартный после ошибки
@@ -127,6 +130,19 @@ const focusInput = () => {
   setTimeout(() => {
     chatFooterRef.value?.focusInput()
   }, 100)
+}
+
+// Трекинг токенов
+const handleTokenUsage = () => {
+  const tokens = (data.value?.find((item: any) => item?.type === "completionTokens") as any)?.completionTokens
+  if (!tokens) return
+
+  const current = parseInt(localStorage.getItem("mind_com_token_usage") || "0")
+  const total = current + tokens
+  localStorage.setItem("mind_com_token_usage", total.toString())
+
+  const limit = site.value.themeConfig.llmTokenLimit
+  if (total > limit) console.warn(`🚨 ЛИМИТ: ${total}/${limit}`)
 }
 
 // Функция для отправки текста напрямую (используется для быстрых ответов)

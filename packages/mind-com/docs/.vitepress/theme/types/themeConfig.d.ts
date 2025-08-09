@@ -3,6 +3,8 @@ import "vitepress"
 declare module "vitepress" {
   namespace DefaultTheme {
     interface Config {
+      llmTokenLimit: number
+
       localization?: {
         placeholder4SearchInput: string
         placeholder4ChatFooter: string

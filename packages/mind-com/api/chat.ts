@@ -16,7 +16,7 @@
  */
 
 import { anthropic } from "@ai-sdk/anthropic"
-import { streamText } from "ai"
+import { streamText, StreamData } from "ai"
 import { prompts } from "../docs/.vitepress/config/AIConfig.js"
 import { semanticSearchTool } from "./lib/aiChatLib.js"
 
@@ -41,6 +41,9 @@ export async function POST(request: Request): Promise<Response> {
 
     console.log(`🔵 API: Получено ${messages.length} сообщений, режим: ${mode}`)
 
+    // Создаем stream data для передачи completionTokens
+    const data = new StreamData()
+
     // Отправляем запрос к ИИ с выбранным системным промптом и инструментами
     const result = streamText({
       model: anthropic(prompts[mode].model),
@@ -55,12 +58,20 @@ export async function POST(request: Request): Promise<Response> {
       },
       toolChoice: "auto", // Позволяем модели решать, когда использовать инструмент
       maxSteps: 5, // Позволяем несколько вызовов инструментов
+      onFinish: (result) => {
+        const completionTokens = result.usage.completionTokens
+        console.log("🔵 API: Использовано токенов:", completionTokens)
+
+        // Отправляем только completionTokens на фронтенд
+        data.append({ type: "completionTokens", completionTokens })
+        data.close()
+      },
     })
 
     console.log("🔵 API: Получен ответ от AI, начинаем стриминг...")
 
-    // Возвращаем стандартный ответ от streamText
-    return result.toDataStreamResponse()
+    // Возвращаем стандартный ответ от streamText с дополнительными данными
+    return result.toDataStreamResponse({ data })
   } catch (error) {
     console.error("🔴 API: Ошибка при обработке запроса:", error)
 
