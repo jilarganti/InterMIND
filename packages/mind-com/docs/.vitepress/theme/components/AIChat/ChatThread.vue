@@ -143,6 +143,7 @@ const handleTokenUsage = () => {
 
   const limit = site.value.themeConfig.llmTokenLimit
   if (total > limit) console.warn(`🚨 ЛИМИТ: ${total}/${limit}`)
+  console.log(`📊 Токены: ${total}/${limit} (${Math.round((total / limit) * 100)}%)`)
 }
 
 // Функция для отправки текста напрямую (используется для быстрых ответов)
