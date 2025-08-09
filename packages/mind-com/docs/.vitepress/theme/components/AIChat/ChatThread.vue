@@ -362,14 +362,33 @@ defineExpose({ insertText, submitTextDirectly })
 /* Стили для интерактивных вопросов */
 .message.assistant .message-content :deep(.interactive-question-text) {
   color: var(--chat-brand-color);
+  background-color: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 8px;
+  padding: 6px 12px;
+  margin: 2px;
   cursor: pointer;
   display: inline-block;
-  width: 100%;
-  transition: opacity 0.2s ease;
+  width: auto;
+  font-size: 14px;
+  line-height: 1.4;
+  transition: all 0.2s ease;
 }
 
 .message.assistant .message-content :deep(.interactive-question-text:hover) {
   opacity: 0.8;
+}
+
+/* Компактные списки с интерактивными вопросами */
+.message.assistant .message-content :deep(ul li:has(.interactive-question-text)) {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.message.assistant .message-content :deep(ul:has(.interactive-question-text)) {
+  margin: 8px 0;
+  padding: 0;
 }
 
 /* Стили для изображений в чате */
