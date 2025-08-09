@@ -173,7 +173,7 @@ export function useChatUi(
     html: true,
     linkify: true,
     typographer: true,
-    breaks: false,
+    breaks: true,
   })
 
   // Применяем плагин сносок (footnotes)

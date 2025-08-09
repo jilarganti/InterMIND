@@ -1,54 +1,44 @@
----
-footer: false
-# sidebar: false
-# aside: false
-next: false
-lastUpdated: false
-navbar: false
-# layout: doc
----
-
 <script setup>
   const chatPrompts = [
     // Recherches basées sur les difficultés - Barrières linguistiques en entreprise
-    { id: "1", text: "Comment communiquer avec des clients étrangers sans connaître leur langue", category: "communication" },
-    { id: "2", text: "Traduction en temps réel pour les réunions d\'affaires", category: "translation" },
-    { id: "3", text: "Logiciel d\'interprète pour appels vidéo", category: "interpretation" },
-    { id: "4", text: "Affaires perdues à cause des barrières linguistiques", category: "business-problems" },
+    "Alternative aux interprètes humains coûteux",
+    "Comment communiquer avec des clients étrangers sans connaître leur langue",
+    "Traduction en temps réel pour réunions d'affaires",
+    "Logiciel d'interprète pour appels vidéo",
+    "Affaires perdues à cause des barrières linguistiques",
     
-    // Scénarios d\'entreprise spécifiques
-    { id: "5", text: "Comment présenter à des clients internationaux", category: "presentations" },
-    { id: "6", text: "Réaliser des démonstrations de produits en différentes langues", category: "demos" },
-    { id: "7", text: "Meilleures pratiques pour les réunions commerciales internationales", category: "sales" },
-    { id: "8", text: "Communiquer avec des fournisseurs de différents pays", category: "supply-chain" },
+    // Scénarios d'entreprise spécifiques
+    "Comment présenter à des clients internationaux",
+    "Réaliser des démonstrations de produits en différentes langues",
+    "Meilleures pratiques pour les réunions commerciales internationales",
+    "Communiquer avec des fournisseurs de différents pays",
     
     // Recherches de solutions
-    { id: "9", text: "Alternative aux interprètes humains coûteux", category: "cost-saving" },
-    { id: "10", text: "Comparaison traduction IA vs traducteur humain", category: "comparison" },
-    { id: "11", text: "Traduction instantanée pour les entreprises", category: "instant-translation" },
-    { id: "12", text: "Outils de collaboration multilingue", category: "collaboration" },
+    "Comparaison traduction IA vs traducteur humain",
+    "Traduction instantanée pour les entreprises",
+    "Outils de collaboration multilingue",
     
-    // Recherches sur les exigences techniques
-    { id: "13", text: "Précision de traduction pour discussions techniques", category: "accuracy" },
-    { id: "14", text: "Logiciel de traduction sécurisé pour entreprise", category: "security" },
-    { id: "15", text: "Intégration avec la visioconférence existante", category: "integration" },
-    { id: "16", text: "Service de traduction conforme au RGPD", category: "compliance" },
+    // Recherches d'exigences techniques
+    "Précision de traduction pour discussions techniques",
+    "Logiciel de traduction sécurisé pour entreprise",
+    "Intégration avec la visioconférence existante",
+    "Service de traduction conforme au RGPD",
     
     // ROI et valeur commerciale
-    { id: "17", text: "Coût des erreurs de communication dans les affaires internationales", category: "roi" },
-    { id: "18", text: "Calculer les coûts d\'interprète vs solution IA", category: "cost-calculator" },
-    { id: "19", text: "Augmenter les taux de conversion des ventes internationales", category: "conversion" },
-    { id: "20", text: "Expansion mondiale sans formation linguistique", category: "expansion" },
+    "Coût des erreurs de communication dans les affaires internationales",
+    "Calculer coûts interprètes vs solution IA",
+    "Augmenter les taux de conversion des ventes internationales",
+    "Expansion mondiale sans formation linguistique",
     
     // Recherches comparatives des concurrents
-    { id: "21", text: "Limitations de traduction Google Meet", category: "google-meet" },
-    { id: "22", text: "Problèmes de traduction des sous-titres Zoom", category: "zoom" },
-    { id: "23", text: "Problèmes de qualité de traduction Microsoft Teams", category: "teams" },
+    "Limitations de traduction Google Meet",
+    "Problèmes de traduction des sous-titres Zoom",
+    "Problèmes de qualité de traduction Microsoft Teams",
     
-    // Recherches spécifiques à l\'industrie
-    { id: "24", text: "Communication industrielle avec les fournisseurs étrangers", category: "manufacturing" },
-    { id: "25", text: "Solution linguistique pour l\'export", category: "export" },
-]
+    // Recherches spécifiques à l'industrie
+    "Communication industrielle avec fournisseurs étrangers",
+    "Solution linguistique pour entreprise d'exportation",
+  ]
 </script>
 
 <AIChat :prompts="chatPrompts" />
