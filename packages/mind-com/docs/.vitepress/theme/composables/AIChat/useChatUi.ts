@@ -1,5 +1,5 @@
 // .vitepress/theme/composables/AIChat/useChatUi.ts
-import { nextTick, ref } from "vue"
+import { nextTick, ref, watch } from "vue"
 import type { Ref } from "vue"
 import MarkdownIt from "markdown-it"
 import footnote from "markdown-it-footnote" // Импортируем плагин для сносок
@@ -15,12 +15,14 @@ interface ImageClickHandlers {
  * @param textareaRef Ref на поле ввода (опциональный)
  * @param input Ref на значение поля ввода (опциональный)
  * @param setMode Функция для изменения режима чата (опциональный)
+ * @param isStreaming Ref на состояние стрима (опциональный)
  */
 export function useChatUi(
   messagesContainerRef: Ref<HTMLDivElement | null>,
   textareaRef?: Ref<HTMLTextAreaElement | null>,
   input?: Ref<string>,
   setMode?: (mode: string) => void,
+  isStreaming?: Ref<boolean>,
 ) {
   // Проверка на мобильное устройство
   const isMobile = ref(false)
@@ -32,6 +34,20 @@ export function useChatUi(
     // Обновляем флаг при изменении размера окна
     window.addEventListener("resize", () => {
       isMobile.value = window.innerWidth < 768
+    })
+  }
+
+  /**
+   * Простая функция для блокировки/разблокировки всех интерактивных кнопок
+   */
+  const setInteractiveButtonsDisabled = (disabled: boolean) => {
+    const interactiveElements = messagesContainerRef.value?.querySelectorAll(".interactive-question-text")
+    interactiveElements?.forEach((element) => {
+      if (disabled) {
+        element.classList.add("disabled")
+      } else {
+        element.classList.remove("disabled")
+      }
     })
   }
 
@@ -128,9 +144,13 @@ export function useChatUi(
         const query = element?.getAttribute("data-query")
 
         if (query && element) {
-          // Создаем визуальный фидбек
-          const htmlElement = element as HTMLElement
-          htmlElement.style.color = "var(--chat-bg-mute)"
+          // Проверяем, не идет ли стрим
+          if (isStreaming?.value) {
+            return
+          }
+
+          // Блокируем все интерактивные кнопки сразу после клика
+          setInteractiveButtonsDisabled(true)
 
           // Отправляем запрос напрямую, как с другими интерактивными элементами
           setTimeout(() => {
@@ -196,22 +216,26 @@ export function useChatUi(
     // Обработка ссылок: оставляем как обычные markdown ссылки
     // (код удален - ссылки теперь работают как обычные markdown ссылки)
 
-    // Обработка интерактивных элементов (теги <strong> от двойных подчеркиваний)
+    // Обработка интерактивных элементов (code элементы от backticks)
     const listItems = tempDiv.querySelectorAll("li")
     listItems.forEach((listItem) => {
-      const strongElements = listItem.querySelectorAll("code")
+      const codeElements = listItem.querySelectorAll("code")
 
-      strongElements.forEach((strongElement) => {
-        const text = strongElement.textContent?.trim()
+      codeElements.forEach((codeElement) => {
+        const text = codeElement.textContent?.trim()
         if (text && text.length > 5) {
           // Создаем интерактивный элемент
           const interactiveElement = document.createElement("span")
           interactiveElement.className = "interactive-question-text"
+          // Добавляем класс disabled если стрим активен
+          if (isStreaming?.value) {
+            interactiveElement.classList.add("disabled")
+          }
           interactiveElement.setAttribute("data-query", text)
           interactiveElement.textContent = text
 
-          // Заменяем strong элемент на интерактивный
-          strongElement.parentNode?.replaceChild(interactiveElement, strongElement)
+          // Заменяем code элемент на интерактивный
+          codeElement.parentNode?.replaceChild(interactiveElement, codeElement)
         }
       })
     })
@@ -266,6 +290,13 @@ export function useChatUi(
   const renderMarkdown = (content: string): string => {
     const renderedHtml = md.render(content)
     return addInteractiveButtons(renderedHtml)
+  }
+
+  // Watcher для обновления disabled класса интерактивных элементов при изменении состояния стрима
+  if (isStreaming) {
+    watch(isStreaming, (newValue) => {
+      setInteractiveButtonsDisabled(newValue)
+    })
   }
 
   return {

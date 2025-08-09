@@ -92,6 +92,7 @@ watch(
 )
 
 // Инициализируем composable для UI элементов
+const isStreaming = computed(() => status.value === "streaming")
 const { renderMarkdown, scrollToBottom, setupImageClickHandler } = useChatUi(
   messagesContainerRef,
   computed(() => chatFooterRef.value?.textareaRef || null), // передаем textareaRef из ChatFooter
@@ -100,6 +101,7 @@ const { renderMarkdown, scrollToBottom, setupImageClickHandler } = useChatUi(
   (mode: string) => {
     currentMode.value = mode
   },
+  isStreaming, // передаем состояние стрима
 )
 
 // Обработчик отправки сообщения с прокруткой
@@ -379,6 +381,19 @@ defineExpose({ insertText, submitTextDirectly })
   background-color: var(--chat-brand-color);
   color: var(--vp-c-bg);
   border-color: var(--chat-brand-color);
+}
+
+/* Стили для отключенных интерактивных вопросов во время стриминга */
+.message.assistant .message-content :deep(.interactive-question-text.disabled) {
+  color: var(--vp-c-text-2);
+  border-color: var(--vp-c-divider);
+  cursor: not-allowed;
+}
+
+.message.assistant .message-content :deep(.interactive-question-text.disabled:hover) {
+  color: var(--vp-c-text-3);
+  background-color: var(--vp-c-bg-mute);
+  border-color: var(--vp-c-divider);
 }
 
 /* Горизонтальное расположение интерактивных вопросов */
