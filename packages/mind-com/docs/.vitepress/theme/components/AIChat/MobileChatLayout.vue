@@ -61,7 +61,7 @@ const { quickPrompts } = useQuickPrompts(chatContainerRef, props.prompts)
 
 // Обработчик использования подсказки
 const handleUsePrompt = (text: string) => {
-  window.dataLayer?.push({ event: "layout_prompt", prompt_text: text })
+  window.dataLayer?.push({ event: "layout_prompt", value: text })
   if (!hasSelectedChat.value) {
     createNewChat()
   }

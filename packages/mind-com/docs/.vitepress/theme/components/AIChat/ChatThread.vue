@@ -1,5 +1,5 @@
 <script setup lang="ts">
-/// <reference types="vitepress/client" />
+/// <reference types="../../types/global" />
 
 import { ref, onMounted, watch, onUnmounted, computed, watchEffect, inject } from "vue"
 import type { Ref, ComputedRef } from "vue"
@@ -142,7 +142,10 @@ const handleTokenUsage = () => {
   localStorage.setItem("mind_com_token_usage", total.toString())
 
   const limit = site.value.themeConfig.llmTokenLimit
-  if (total > limit) console.warn(`🚨 ЛИМИТ: ${total}/${limit}`)
+  if (total > limit) {
+    window.dataLayer?.push({ event: "llm_token_limit_reached", value: limit })
+    console.warn(`🚨 ЛИМИТ: ${total}/${limit}`)
+  }
   console.log(`📊 Токены: ${total}/${limit} (${Math.round((total / limit) * 100)}%)`)
 }
 

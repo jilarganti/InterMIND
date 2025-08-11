@@ -104,7 +104,7 @@ const handlePromptSelect = (text: string) => {
 
 // Обработчик выбора быстрой подсказки в существующем чате
 const handlePromptSelectInChat = (text: string) => {
-  window.dataLayer?.push({ event: "stream_prompt", prompt_text: text })
+  window.dataLayer?.push({ event: "stream_prompt", value: text })
   if (chatThreadRef.value) {
     chatThreadRef.value.submitTextDirectly(text)
   }

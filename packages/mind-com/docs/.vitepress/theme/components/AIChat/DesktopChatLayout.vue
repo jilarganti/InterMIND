@@ -53,7 +53,7 @@ const { quickPrompts, submitQuickPrompt } = useQuickPrompts(chatContainerRef, pr
 
 // Обработчик использования подсказки на пустом экране
 const handleUsePromptFromEmpty = (text: string) => {
-  window.dataLayer?.push({ event: "layout_prompt", prompt_text: text })
+  window.dataLayer?.push({ event: "layout_prompt", value: text })
   if (!hasSelectedChat.value) {
     createNewChat()
   }
