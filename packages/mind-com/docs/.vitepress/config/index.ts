@@ -1,3 +1,5 @@
+/// <reference types="../theme/types/themeConfig" />
+
 import { defineConfig } from "vitepress"
 import markdownItFootnote from "markdown-it-footnote"
 import llmstxt from "vitepress-plugin-llms"

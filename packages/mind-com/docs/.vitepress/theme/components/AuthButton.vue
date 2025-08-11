@@ -45,26 +45,6 @@ const props = withDefaults(
 const login = async (event: Event): Promise<void> => {
   event.preventDefault()
 
-  const pathSegments = location.pathname.split("/").filter(Boolean)
-  const currentLocale = pathSegments[0] && pathSegments[0] !== "en" ? pathSegments[0] : "en"
-
-  // Сохраняем текущий путь для возврата после авторизации
-  localStorage.setItem(REDIRECT_AFTER_AUTH_URI_KEY, location.pathname + location.search)
-
-  const authParams = new URLSearchParams({
-    client_id: import.meta.env.VITE_OAUTH_CLIENT_ID,
-    scope: "openid",
-    response_type: "code",
-    state: nanoid(),
-    redirect_uri: import.meta.env.VITE_APP_BASE_URL + "/auth",
-  })
-
-  if (props.mode === "checkout") {
-    location.href = `${import.meta.env.VITE_CHECKOUT_URL}?locale=${currentLocale}&planCode=pro&billingCycle=MONTHLY&${authParams.toString()}`
-  } else {
-    location.href = `${import.meta.env.VITE_OAUTH_PROVIDER_URL}?locale=${currentLocale}&${authParams.toString()}`
-  }
-
   /**
    * Создаем лид для CRM и событие для аналитики
    * TODO: удалить после внедрения и тестирования в продукте
@@ -97,6 +77,26 @@ const login = async (event: Event): Promise<void> => {
     }
   } catch (error) {
     console.error("Failed to create lead:", error)
+  }
+
+  const pathSegments = location.pathname.split("/").filter(Boolean)
+  const currentLocale = pathSegments[0] && pathSegments[0] !== "en" ? pathSegments[0] : "en"
+
+  // Сохраняем текущий путь для возврата после авторизации
+  localStorage.setItem(REDIRECT_AFTER_AUTH_URI_KEY, location.pathname + location.search)
+
+  const authParams = new URLSearchParams({
+    client_id: import.meta.env.VITE_OAUTH_CLIENT_ID,
+    scope: "openid",
+    response_type: "code",
+    state: nanoid(),
+    redirect_uri: import.meta.env.VITE_APP_BASE_URL + "/auth",
+  })
+
+  if (props.mode === "checkout") {
+    location.href = `${import.meta.env.VITE_CHECKOUT_URL}?locale=${currentLocale}&planCode=pro&billingCycle=MONTHLY&${authParams.toString()}`
+  } else {
+    location.href = `${import.meta.env.VITE_OAUTH_PROVIDER_URL}?locale=${currentLocale}&${authParams.toString()}`
   }
 }
 </script>
