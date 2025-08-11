@@ -304,10 +304,11 @@ defineExpose({ insertText, submitTextDirectly })
 }
 
 .message.user .message-content {
-  background-color: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
+  background-color: var(--vp-c-neutral);
+  color: var(--vp-c-bg);
   width: 100%;
-  padding: 0.75rem 1rem;
+  padding: 0.25rem 1rem;
+  font-size: 1.2rem;
 }
 
 .message.assistant .message-content {
