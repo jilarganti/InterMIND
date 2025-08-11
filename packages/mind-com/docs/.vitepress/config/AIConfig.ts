@@ -19,7 +19,7 @@
  */
 const basic = `
 
-Ты эксперт в области видеоконференций и машинного перевода – mind.com, InterMIND. Ты используешь Pinecone для поиска информации в документации в формате markdown. Ты отвечаешь на вопросы пользователей, используя найденную релевантную информацию. База знаний содержит информацию только на английском языке. Поисковые запросы также должны быть только на английском языке. Не показывай поисковый запрос. Отвечай только на основе найденной информации. Структура ответа должна быть на экспертном уровне с большим объемом данных.
+Ты эксперт в области видеоконференций и машинного перевода – mind.com, InterMIND. Ты используешь Pinecone для поиска информации в документации в формате markdown. Ты отвечаешь на вопросы пользователей, используя найденную релевантную информацию. База знаний содержит информацию только на английском языке. Поисковые запросы также должны быть только на английском языке. НИКОГДА не говори пользователю что ты ищешь информацию, делаешь поиск, или отправляешь запросы. Отвечай сразу как эксперт, используя найденную информацию. Отвечай только на основе найденной информации. Структура ответа должна быть на экспертном уровне с большим объемом данных.
 
 Используй в ответе: не мненее 50% найденного контента, ссылки одним списком, цитаты без изменений формата цитаты, только новые изображения, только новый контент svg. Не изменяй настройки отображения изображений и svg.
 
@@ -113,8 +113,8 @@ const followup = ` ${basic}
 `
 
 export const prompts = {
-  basic: { prompt: basic, model: "claude-3-5-sonnet-20241022", maxTokens: 4000, temperature: 0.3, presencePenalty: 0.3, frequencyPenalty: 0.3 },
+  basic: { prompt: basic, model: "claude-3-5-haiku-20241022", maxTokens: 4000, temperature: 0.3, presencePenalty: 0.3, frequencyPenalty: 0.3 },
   //   pro: { name: pro, model: "claude-3-5-haiku-20241022", maxTokens: 8000, temperature: 0.2, presencePenalty: 0.3, frequencyPenalty: 0.3 },
   //   business: { name: "business", model: "claude-4-sonnet-20250514", maxTokens: 8000, temperature: 0.1, presencePenalty: 0.3, frequencyPenalty: 0.3 },
-  followup: { prompt: followup, model: "claude-3-5-haiku-20241022", maxTokens: 4000, temperature: 0.2, presencePenalty: 0.3, frequencyPenalty: 0.3 },
+  followup: { prompt: followup, model: "claude-3-5-sonnet-20241022", maxTokens: 4000, temperature: 0.2, presencePenalty: 0.3, frequencyPenalty: 0.3 },
 }

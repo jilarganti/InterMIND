@@ -74,24 +74,22 @@ export const semanticSearchTool = tool({
 
       console.log(`📊 Получено ${searchResponse.matches?.length || 0} результатов от Pinecone`)
 
-      // Фильтруем результаты по релевантности
+      // Берем все результаты без фильтрации
       const relevantResults =
-        searchResponse.matches
-          ?.filter((match) => (match.score || 0) > 0.4)
-          .map((match) => {
-            const metadata = match.metadata || {}
+        searchResponse.matches?.map((match) => {
+          const metadata = match.metadata || {}
 
-            return {
-              content: metadata.text || "",
-              url: metadata.url || "",
-              score: match.score || 0,
-            }
-          }) || []
+          return {
+            content: metadata.text || "",
+            url: metadata.url || "",
+            score: match.score || 0,
+          }
+        }) || []
 
-      console.log(`✅ После фильтрации (>40%): ${relevantResults.length} релевантных результатов`)
+      console.log(`✅ Возвращаем ${relevantResults.length} результатов`)
 
       if (relevantResults.length === 0) {
-        console.log("⚠️ Нет результатов с релевантностью выше 40%")
+        console.log("⚠️ Pinecone не вернул результатов")
         return "No relevant information found for your query. The search did not return any results with sufficient relevance."
       }
 
