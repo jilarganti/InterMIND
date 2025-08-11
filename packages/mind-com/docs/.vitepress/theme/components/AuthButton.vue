@@ -24,7 +24,7 @@ import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vu
 import { SignUpLead } from "../../../../api/types/pipedriveFields.js"
 import { getUtmForApi } from "../../../../../../shared/utils/utm.js"
 
-const REDIRECT_AFTER_AUTH_URI_KEY = "redirect_after_auth"
+// const REDIRECT_AFTER_AUTH_URI_KEY = "redirect_after_auth"
 
 const props = withDefaults(
   defineProps<{
@@ -83,7 +83,7 @@ const login = async (event: Event): Promise<void> => {
   const currentLocale = pathSegments[0] && pathSegments[0] !== "en" ? pathSegments[0] : "en"
 
   // Сохраняем текущий путь для возврата после авторизации
-  localStorage.setItem(REDIRECT_AFTER_AUTH_URI_KEY, location.pathname + location.search)
+  // localStorage.setItem(REDIRECT_AFTER_AUTH_URI_KEY, location.pathname + location.search)
 
   const authParams = new URLSearchParams({
     client_id: import.meta.env.VITE_OAUTH_CLIENT_ID,
