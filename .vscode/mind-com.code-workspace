@@ -21,6 +21,12 @@
       "**/packages/golden-fish/**": true,
       "**/packages/draftium/**": true,
     },
+    "files.readonlyInclude": {
+      "packages/golden-fish/**": true,
+      "packages/draftium/**": true,
+      "packages/shared/**": true,
+    },
+    "files.readonlyFromPermissions": true,
     "files.associations": {
       "*.vue": "vue",
     },
