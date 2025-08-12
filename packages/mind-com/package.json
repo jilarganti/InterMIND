@@ -13,8 +13,7 @@
     "test:watch": "vitest",
     "test:traffic-sources": "tsx __tests__/test-traffic-sources.ts",
     "translate": "tsx ../../scripts/translate.ts ./scripts/translateConfig.ts",
-    "index:docs": "tsx ./scripts/indexDocs.ts ./scripts/indexConfig.ts",
-    "index:docs:simple": "tsx ./scripts/indexDocumentsSimple.ts",
+    "index:docs": "tsx ./scripts/indexDocs.ts",
     "format": "prettier -w .",
     "lint": "pnpm eslint --cache .",
     "prepare": "simple-git-hooks"
