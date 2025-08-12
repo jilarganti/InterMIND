@@ -88,11 +88,11 @@ export const shared = defineConfig({
       },
     },
     plugins: [
-      // isProduction &&
-      llmstxt({
-        workDir: "en",
-        ignoreFiles: ["index.md"],
-      }),
+      isProduction &&
+        llmstxt({
+          workDir: "en",
+          ignoreFiles: ["index.md"],
+        }),
     ],
   },
   sitemap: {
