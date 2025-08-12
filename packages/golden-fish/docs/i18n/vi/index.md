@@ -207,11 +207,11 @@ Không, Golden Fish có thể hợp pháp thành lập công ty UAE của bạn 
 
 Các yêu cầu khác nhau dựa trên loại công ty:
 
-| Loại công ty      | Yêu cầu văn phòng                                                                       |
-| ----------------- | --------------------------------------------------------------------------------------- |
+| Loại công ty      | Yêu cầu văn phòng                                                                        |
+| ----------------- | ---------------------------------------------------------------------------------------- |
 | Công ty Free Zone | Cần có hợp đồng thuê địa điểm văn phòng hoặc bàn làm việc linh hoạt trước khi thành lập. |
-| Công ty Mainland  | Chỉ cần địa chỉ ảo hoặc địa chỉ đăng ký.                                               |
-| Công ty Offshore  | Chỉ cần địa chỉ ảo hoặc địa chỉ đăng ký.                                               |
+| Công ty Mainland  | Chỉ cần địa chỉ ảo hoặc địa chỉ đăng ký.                                                 |
+| Công ty Offshore  | Chỉ cần địa chỉ ảo hoặc địa chỉ đăng ký.                                                 |
 
 Bảng so sánh này giúp làm rõ sự khác biệt giữa các yêu cầu đối với các công ty khu tự do, đại lục và offshore.
 

@@ -20,7 +20,6 @@ hero:
       src: /img/Logo.avif
       width: 40%
     alt: Логотип Golden Fish
-
 ---
 
 <FeatureCards :features="[

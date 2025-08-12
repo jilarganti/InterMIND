@@ -25,7 +25,6 @@ Mevzuat şu amaçlarla getirilmiştir:
 ## Bu Yeni Düzenlemeler Hangi BAE Şirketlerine Uygulanır?
 
 - **Tümü**:
-
   - Mainland şirketleri
   - Commercial free zone şirketleri
   - Offshore şirketleri
@@ -45,7 +44,6 @@ Mevzuat şu amaçlarla getirilmiştir:
 ## Bu Kayıtlarda Hangi Bilgiler Yer Almalıdır?
 
 - **Kayıtlar** şunları içermelidir:
-
   - İsim
   - Uyruk
   - Pasaport bilgileri
@@ -54,14 +52,12 @@ Mevzuat şu amaçlarla getirilmiştir:
   - Kişinin UBO olduğu tarih ve/veya gerçek faydalanıcı olmaktan çıktığı tarih
 
 - **Hissedar Kayıtları** şunları içermelidir:
-
   - Her hissedarın sahip olduğu hisse sayısı
   - Hisselerin oy hakları
   - Hisselerin edinim tarihi
   - Tüm taraflar hakkında bilgiler
 
 - Şirketin ayrıca şunları yapması gerekmektedir:
-
   - Karar kapsamında gerekli şirket veri ve bilgilerini açıklamaya yetkili, BAE'de ikamet eden bir gerçek kişiyi (yetkili temsilci olarak bilinir) **atamak ve bilgilerini açıklamak**.
   - Sağlanan bilgilerde herhangi bir değişiklik veya düzeltme olması durumunda, değişiklik veya düzeltmeden sonraki 15 gün içinde **Sicil Memurluğuna bildirmek**.
 

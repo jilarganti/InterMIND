@@ -123,41 +123,41 @@ Un bureau de représentation est idéal pour promouvoir une société mère et m
 
 ## Comparaison des Types d'Entités aux EAU
 
-| Caractéristique                | LLC Résident            | LLC Zone Franche        | Bureau de Représentation| LLC Offshore       |
-| ------------------------------ | ----------------------- | ----------------------- | ---------------------- | ------------------ |
-| _**ACTIVITÉS PRINCIPALES**_    |                         |                         |                        |                    |
-| Portée des Activités          | Tous produits & services| Tous produits & services| Identique à la société mère | International uniquement |
-| Activité Locale Autorisée     | ✅ Accès complet        | ℹ️ Avec restrictions    | ✅ Oui                 | ❌ Non             |
-| Contrats Gouvernementaux      | ✅ Oui                  | ℹ️ Avec exceptions      | ✅ Oui                 | ❌ Non             |
-| Facturation Locale            | ✅ Oui                  | ℹ️ Avec restrictions    | ✅ Oui                 | ❌ Non             |
-| _**CONDITIONS DE CRÉATION**_   |                         |                         |                        |                    |
-| Capital Minimum               | 1 USD                   | Varie selon la zone     | Selon l'emplacement    | 1 USD              |
-| Délai de Création            | 5 semaines             | 6 semaines              | 6-8 semaines           | 2-4 semaines       |
-| Déplacement Requis           | ❌ Non                  | ❌ Non                  | ❌ Non                 | ❌ Non             |
-| Bureau Physique              | Requis                  | Requis                  | Requis                 | Non requis         |
-| Délai Compte Bancaire        | 8 semaines             | 8 semaines              | 8 semaines             | 10-12 semaines     |
-| Période Totale de Création   | 3,5 mois               | 3,5 mois                | 4 mois                 | 3-4 mois           |
-| _**STRUCTURE JURIDIQUE**_     |                         |                         |                        |                    |
-| Responsabilité Limitée       | ✅ Oui                  | ✅ Oui                  | ❌ Non                 | ✅ Oui             |
-| Propriété Étrangère         | ✅ 100%                 | ✅ 100%                 | ✅ 100%                | ✅ 100%            |
-| Registre Public             | ❌ Non                  | ❌ Non                  | ❌ Non                 | ❌ Non             |
-| Accès DTAA                  | ✅ Oui                  | ✅ Oui                  | ✅ Oui                 | ❌ Non             |
-| Reconnaissance Gouvernementale| Élevée                 | Élevée                  | Élevée                 | Limitée            |
-| _**OPÉRATIONS COMMERCIALES**_ |                         |                         |                        |                    |
-| Financement Commercial      | ✅ Disponible           | ✅ Disponible           | ✅ Disponible          | ✅ Disponible      |
-| Parrainage de Visa         | ✅ Oui                  | ✅ Oui                  | ✅ Oui                 | ❌ Non             |
-| Services Bancaires Locaux   | ✅ Accès complet        | ✅ Accès complet        | ✅ Accès complet       | ℹ️ Limité          |
-| Import/Export              | ✅ Sans restriction      | ✅ Via zone franche     | ℹ️ Limité              | ❌ Non             |
-| _**EXIGENCES ANNUELLES**_    |                         |                         |                        |                    |
-| Audit Requis               | ✅ Oui                  | ✅ Oui                  | ✅ Oui                 | ℹ️ Variable        |
-| Déclaration Fiscale       | ✅ Obligatoire          | ✅ Obligatoire          | ✅ Obligatoire         | ℹ️ Limitée         |
-| Renouvellement Licence    | Annuel                 | Annuel                  | Annuel                 | Annuel             |
-| Niveau de Conformité      | Élevé                  | Élevé                   | Élevé                  | Faible             |
-| _**ASPECTS FINANCIERS**_     |                         |                         |                        |                    |
-| Coûts de Création         | Modérés                | Élevés                  | Élevés                 | Faibles            |
-| Coûts de Maintenance      | Modérés                | Modérés-Élevés          | Élevés                 | Faibles            |
-| Garantie Bancaire         | Non                    | Non                     | 50 000 AED             | Non                |
-| Coûts de Bureau          | Flexibles              | Élevés                  | Requis                 | Non requis         |
+| Caractéristique                | LLC Résident             | LLC Zone Franche         | Bureau de Représentation    | LLC Offshore             |
+| ------------------------------ | ------------------------ | ------------------------ | --------------------------- | ------------------------ |
+| _**ACTIVITÉS PRINCIPALES**_    |                          |                          |                             |                          |
+| Portée des Activités           | Tous produits & services | Tous produits & services | Identique à la société mère | International uniquement |
+| Activité Locale Autorisée      | ✅ Accès complet         | ℹ️ Avec restrictions     | ✅ Oui                      | ❌ Non                   |
+| Contrats Gouvernementaux       | ✅ Oui                   | ℹ️ Avec exceptions       | ✅ Oui                      | ❌ Non                   |
+| Facturation Locale             | ✅ Oui                   | ℹ️ Avec restrictions     | ✅ Oui                      | ❌ Non                   |
+| _**CONDITIONS DE CRÉATION**_   |                          |                          |                             |                          |
+| Capital Minimum                | 1 USD                    | Varie selon la zone      | Selon l'emplacement         | 1 USD                    |
+| Délai de Création              | 5 semaines               | 6 semaines               | 6-8 semaines                | 2-4 semaines             |
+| Déplacement Requis             | ❌ Non                   | ❌ Non                   | ❌ Non                      | ❌ Non                   |
+| Bureau Physique                | Requis                   | Requis                   | Requis                      | Non requis               |
+| Délai Compte Bancaire          | 8 semaines               | 8 semaines               | 8 semaines                  | 10-12 semaines           |
+| Période Totale de Création     | 3,5 mois                 | 3,5 mois                 | 4 mois                      | 3-4 mois                 |
+| _**STRUCTURE JURIDIQUE**_      |                          |                          |                             |                          |
+| Responsabilité Limitée         | ✅ Oui                   | ✅ Oui                   | ❌ Non                      | ✅ Oui                   |
+| Propriété Étrangère            | ✅ 100%                  | ✅ 100%                  | ✅ 100%                     | ✅ 100%                  |
+| Registre Public                | ❌ Non                   | ❌ Non                   | ❌ Non                      | ❌ Non                   |
+| Accès DTAA                     | ✅ Oui                   | ✅ Oui                   | ✅ Oui                      | ❌ Non                   |
+| Reconnaissance Gouvernementale | Élevée                   | Élevée                   | Élevée                      | Limitée                  |
+| _**OPÉRATIONS COMMERCIALES**_  |                          |                          |                             |                          |
+| Financement Commercial         | ✅ Disponible            | ✅ Disponible            | ✅ Disponible               | ✅ Disponible            |
+| Parrainage de Visa             | ✅ Oui                   | ✅ Oui                   | ✅ Oui                      | ❌ Non                   |
+| Services Bancaires Locaux      | ✅ Accès complet         | ✅ Accès complet         | ✅ Accès complet            | ℹ️ Limité                |
+| Import/Export                  | ✅ Sans restriction      | ✅ Via zone franche      | ℹ️ Limité                   | ❌ Non                   |
+| _**EXIGENCES ANNUELLES**_      |                          |                          |                             |                          |
+| Audit Requis                   | ✅ Oui                   | ✅ Oui                   | ✅ Oui                      | ℹ️ Variable              |
+| Déclaration Fiscale            | ✅ Obligatoire           | ✅ Obligatoire           | ✅ Obligatoire              | ℹ️ Limitée               |
+| Renouvellement Licence         | Annuel                   | Annuel                   | Annuel                      | Annuel                   |
+| Niveau de Conformité           | Élevé                    | Élevé                    | Élevé                       | Faible                   |
+| _**ASPECTS FINANCIERS**_       |                          |                          |                             |                          |
+| Coûts de Création              | Modérés                  | Élevés                   | Élevés                      | Faibles                  |
+| Coûts de Maintenance           | Modérés                  | Modérés-Élevés           | Élevés                      | Faibles                  |
+| Garantie Bancaire              | Non                      | Non                      | 50 000 AED                  | Non                      |
+| Coûts de Bureau                | Flexibles                | Élevés                   | Requis                      | Non requis               |
 
 <Button href="../comparison/entity-types" text="See detailed comparison"/>
 
@@ -306,11 +306,11 @@ Non, Golden Fish peut légalement incorporer votre entreprise aux EAU sans que v
 
 Les exigences diffèrent selon le type d'entreprise :
 
-| Type d'entreprise | Exigence en matière de bureau |
-| ----------------- | ----------------------------- |
+| Type d'entreprise    | Exigence en matière de bureau                                                        |
+| -------------------- | ------------------------------------------------------------------------------------ |
 | Entreprise Free Zone | Un contrat de location de bureaux ou un flexi-desk est requis avant l'incorporation. |
-| Entreprise Mainland | Seule une adresse virtuelle ou enregistrée est nécessaire. |
-| Entreprise Offshore | Seule une adresse virtuelle ou enregistrée est nécessaire. |
+| Entreprise Mainland  | Seule une adresse virtuelle ou enregistrée est nécessaire.                           |
+| Entreprise Offshore  | Seule une adresse virtuelle ou enregistrée est nécessaire.                           |
 
 Ce tableau comparatif aide à clarifier les différences entre les exigences pour les entreprises Free Zone, Mainland et offshore.
 

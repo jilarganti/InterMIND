@@ -3,9 +3,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/vi"
 
 export const vi = defineConfig({
-  description: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thành lập công ty, ngân hàng, thuế, pháp lý và thị thực. Biến ước mơ kinh doanh của bạn thành hiện thực!",
+  description:
+    "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thành lập công ty, ngân hàng, thuế, pháp lý và thị thực. Biến ước mơ kinh doanh của bạn thành hiện thực!",
   head: [
-    ["meta", { property: "og:title", content: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thành lập công ty, ngân hàng, thuế, pháp lý và thị thực." }],
+    [
+      "meta",
+      {
+        property: "og:title",
+        content: "Dịch vụ thành lập và hỗ trợ công ty chuyên nghiệp tại UAE. Giải pháp thành lập công ty, ngân hàng, thuế, pháp lý và thị thực.",
+      },
+    ],
   ],
 
   themeConfig: {

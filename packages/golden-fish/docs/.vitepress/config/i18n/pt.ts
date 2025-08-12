@@ -3,9 +3,17 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/pt"
 
 export const pt = defineConfig({
-  description: "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, serviços bancários, impostos, questões jurídicas e vistos. Transformando seus sonhos empresariais em realidade!",
+  description:
+    "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, serviços bancários, impostos, questões jurídicas e vistos. Transformando seus sonhos empresariais em realidade!",
   head: [
-    ["meta", { property: "og:title", content: "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, serviços bancários, impostos, questões jurídicas e vistos." }],
+    [
+      "meta",
+      {
+        property: "og:title",
+        content:
+          "Serviços especializados de formação e suporte de empresas nos EAU. Soluções para constituição de empresas, serviços bancários, impostos, questões jurídicas e vistos.",
+      },
+    ],
   ],
 
   themeConfig: {

@@ -21,7 +21,6 @@ hero:
       src: /img/Logo.avif
       width: 40%
     alt: Logo Golden Fish
-
 ---
 
 <FeatureBlock :card="{
@@ -208,11 +207,11 @@ Não, a Golden Fish pode legalmente incorporar sua empresa nos EAU sem que você
 
 Os requisitos variam conforme o tipo de empresa:
 
-| Tipo de Empresa   | Requisito de Escritório                                                                 |
-| ----------------- | --------------------------------------------------------------------------------------- |
+| Tipo de Empresa   | Requisito de Escritório                                                                     |
+| ----------------- | ------------------------------------------------------------------------------------------- |
 | Free Zone Company | É necessário um contrato de locação para escritório ou um flexi-desk antes da incorporação. |
-| Mainland Company  | Apenas um endereço virtual ou registrado é necessário.                                  |
-| Offshore Company  | Apenas um endereço virtual ou registrado é necessário.                                  |
+| Mainland Company  | Apenas um endereço virtual ou registrado é necessário.                                      |
+| Offshore Company  | Apenas um endereço virtual ou registrado é necessário.                                      |
 
 Esta tabela comparativa ajuda a esclarecer as diferenças entre os requisitos para empresas free zone, mainland e offshore.
 

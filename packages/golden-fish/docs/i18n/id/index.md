@@ -207,11 +207,11 @@ Tidak, Golden Fish dapat secara legal mendirikan perusahaan UAE Anda tanpa Anda 
 
 Persyaratan berbeda berdasarkan jenis perusahaan:
 
-| Jenis Perusahaan      | Persyaratan Kantor                                                                      |
-| --------------------- | --------------------------------------------------------------------------------------- |
-| Free Zone Company     | Perjanjian sewa untuk tempat kantor atau flexi-desk diperlukan sebelum pendirian.      |
-| Mainland Company      | Hanya alamat virtual atau terdaftar yang diperlukan.                                   |
-| Offshore Company      | Hanya alamat virtual atau terdaftar yang diperlukan.                                   |
+| Jenis Perusahaan  | Persyaratan Kantor                                                                |
+| ----------------- | --------------------------------------------------------------------------------- |
+| Free Zone Company | Perjanjian sewa untuk tempat kantor atau flexi-desk diperlukan sebelum pendirian. |
+| Mainland Company  | Hanya alamat virtual atau terdaftar yang diperlukan.                              |
+| Offshore Company  | Hanya alamat virtual atau terdaftar yang diperlukan.                              |
 
 Tabel perbandingan ini membantu memperjelas perbedaan antara persyaratan untuk perusahaan zona bebas, mainland, dan offshore.
 

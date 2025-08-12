@@ -121,7 +121,6 @@ We are beginning go-to-market pilots in Mexico, Brazil, Turkey, Thailand, and In
 ## Ask
 
 - Raising **$3.5M Seed** to:
-
   - Expand engineering & privacy compliance teams
   - Localize platform for 10 new markets
   - Launch integrations (Zoom, Teams)

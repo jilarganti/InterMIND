@@ -25,7 +25,6 @@ Luật này được ban hành nhằm:
 ## Những Quy Định Mới Này Áp Dụng Cho Những Công Ty UAE Nào?
 
 - **Tất cả**:
-
   - Công ty Mainland
   - Công ty thương mại Free Zone
   - Công ty Offshore
@@ -45,7 +44,6 @@ Công ty phải duy trì:
 ## Những Thông Tin Nào Cần Được Đưa Vào Các Sổ Đăng Ký?
 
 - **Các Sổ Đăng Ký** phải bao gồm:
-
   - Tên
   - Quốc tịch
   - Chi tiết hộ chiếu
@@ -54,14 +52,12 @@ Công ty phải duy trì:
   - Ngày cá nhân trở thành UBO và/hoặc ngày cá nhân không còn là người thụ hưởng tự nhiên
 
 - **Sổ Đăng Ký Cổ Đông** phải bao gồm:
-
   - Số lượng cổ phần mỗi cổ đông nắm giữ
   - Quyền biểu quyết của cổ phần
   - Ngày mua cổ phần
   - Thông tin về tất cả các bên liên quan
 
 - Công ty cũng được yêu cầu:
-
   - **Bổ nhiệm và công bố thông tin** của một cá nhân (được gọi là đại diện được ủy quyền) cư trú tại UAE, người được ủy quyền tiết lộ dữ liệu và thông tin của công ty theo yêu cầu của nghị quyết.
   - **Thông báo cho Cơ quan Đăng ký** về bất kỳ thay đổi hoặc sửa đổi nào đối với thông tin đã cung cấp trong vòng 15 ngày kể từ ngày thay đổi hoặc sửa đổi.
 

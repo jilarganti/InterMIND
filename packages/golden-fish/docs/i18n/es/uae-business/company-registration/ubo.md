@@ -25,7 +25,6 @@ La legislación fue introducida para:
 ## ¿A qué empresas de EAU se aplican estas nuevas regulaciones?
 
 - **Todas**:
-
   - Empresas Mainland
   - Empresas comerciales de Free Zone
   - Empresas Offshore
@@ -45,7 +44,6 @@ La empresa debe mantener:
 ## ¿Qué Información Debe Incluirse en Estos Registros?
 
 - Los **Registros** deben incluir:
-
   - Nombre
   - Nacionalidad
   - Detalles del pasaporte
@@ -54,14 +52,12 @@ La empresa debe mantener:
   - Fecha en que la persona se convirtió en UBO y/o la fecha en que la persona deja de ser beneficiario natural
 
 - El **Registro de Accionistas** debe incluir:
-
   - Número de acciones que posee cada accionista
   - Derechos de voto de las acciones
   - Fecha de adquisición de las acciones
   - Información de todas las partes
 
 - La empresa también está obligada a:
-
   - **Nombrar y revelar los detalles** de una persona natural (conocida como agente autorizado) que resida en los UAE y esté autorizada para divulgar los datos e información de la empresa requeridos según la resolución.
   - **Notificar al Registrador** sobre cualquier cambio o modificación en la información proporcionada dentro de los 15 días posteriores al cambio o modificación.
 

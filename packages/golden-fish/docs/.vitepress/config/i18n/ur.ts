@@ -4,9 +4,7 @@ const BASE_PATH = "/ur"
 
 export const ur = defineConfig({
   description: "ماہر UAE کمپنی کی تشکیل اور سپورٹ سروسز۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔ آپ کے کاروباری خوابوں کو حقیقت بنانا!",
-  head: [
-    ["meta", { property: "og:title", content: "ماہر UAE کمپنی کی تشکیل اور سپورٹ سروسز۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔" }],
-  ],
+  head: [["meta", { property: "og:title", content: "ماہر UAE کمپنی کی تشکیل اور سپورٹ سروسز۔ کمپنی سیٹ اپ، بینکنگ، ٹیکس، قانونی اور ویزا حل۔" }]],
 
   themeConfig: {
     nav: [

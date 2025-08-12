@@ -7,14 +7,14 @@ description: "Aperçu expert de la fiscalité des entreprises, des normes compta
 
 ## Aperçu du Système Fiscal des EAU
 
-| Type d'Impôt            | Taux | Détails                                                           |
-| ----------------------- | ---- | ----------------------------------------------------------------- |
-| Corporate Tax           | `9%` | Applicable à partir du 1er juin 2023                              |
-| Impôt sur le Revenu    | `0%` | Pas d'impôt sur le revenu pour les résidents des EAU             |
-| Plus-Values            | `0%` | Pas d'impôt sur les plus-values                                   |
-| Withholding Taxes      | `0%` | Pas de retenue à la source pour les transactions internationales  |
-| VAT                    | `5%` | S'applique aux clients enregistrés à la TVA des EAU et aux services multinationaux |
-| DTAs                   | >110 | Plus de 110 Conventions de Double Imposition signées mondialement |
+| Type d'Impôt        | Taux | Détails                                                                            |
+| ------------------- | ---- | ---------------------------------------------------------------------------------- |
+| Corporate Tax       | `9%` | Applicable à partir du 1er juin 2023                                               |
+| Impôt sur le Revenu | `0%` | Pas d'impôt sur le revenu pour les résidents des EAU                               |
+| Plus-Values         | `0%` | Pas d'impôt sur les plus-values                                                    |
+| Withholding Taxes   | `0%` | Pas de retenue à la source pour les transactions internationales                   |
+| VAT                 | `5%` | S'applique aux clients enregistrés à la TVA des EAU et aux services multinationaux |
+| DTAs                | >110 | Plus de 110 Conventions de Double Imposition signées mondialement                  |
 
 ## Fiscalité aux EAU
 
@@ -97,13 +97,13 @@ Les entreprises doivent soumettre leurs états financiers dans les 90 jours suiv
 
 ### Pénalités pour Non-Soumission des Documents Fiscaux
 
-| Type de Pénalité | Montant de la Pénalité |
-|------------------|------------------------|
-| Non-conservation des registres requis et autres informations spécifiées dans les lois fiscales | `AED 10,000` pour chaque infraction, ou `AED 20,000` pour chaque cas de récidive |
-| Non-soumission des données, registres et documents relatifs à l'impôt en arabe à l'Autorité Fiscale Fédérale (FTA) | `AED 5,000` pour chaque infraction |
-| Non-dépôt d'une déclaration fiscale dans les délais spécifiés | `AED 500` pour chaque mois (ou partie de mois) pour les 12 premiers mois, et `AED 1,000` pour chaque mois (ou partie de mois) à partir du 13e mois |
-| Non-règlement de l'impôt exigible | Une pénalité mensuelle de `14%` par an, calculée sur le montant de l'impôt impayé à partir de la date d'échéance jusqu'au paiement |
-| Soumission d'une déclaration fiscale incorrecte | `AED 500` sauf si la déclaration fiscale est corrigée avant la date limite de soumission |
+| Type de Pénalité                                                                                                   | Montant de la Pénalité                                                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Non-conservation des registres requis et autres informations spécifiées dans les lois fiscales                     | `AED 10,000` pour chaque infraction, ou `AED 20,000` pour chaque cas de récidive                                                                   |
+| Non-soumission des données, registres et documents relatifs à l'impôt en arabe à l'Autorité Fiscale Fédérale (FTA) | `AED 5,000` pour chaque infraction                                                                                                                 |
+| Non-dépôt d'une déclaration fiscale dans les délais spécifiés                                                      | `AED 500` pour chaque mois (ou partie de mois) pour les 12 premiers mois, et `AED 1,000` pour chaque mois (ou partie de mois) à partir du 13e mois |
+| Non-règlement de l'impôt exigible                                                                                  | Une pénalité mensuelle de `14%` par an, calculée sur le montant de l'impôt impayé à partir de la date d'échéance jusqu'au paiement                 |
+| Soumission d'une déclaration fiscale incorrecte                                                                    | `AED 500` sauf si la déclaration fiscale est corrigée avant la date limite de soumission                                                           |
 
 ## Guide de la Fiscalité et de la Conformité des Entreprises aux EAU
 
@@ -162,6 +162,6 @@ Les entreprises doivent soumettre leurs états financiers dans les 90 jours suiv
 **Émirisation** : Les employeurs du Mainland ayant plus de `49 employés` doivent employer un certain pourcentage de ressortissants des EAU, augmentant annuellement de `2%` jusqu'en 2026. Le non-respect entraîne des amendes de `AED 6,000` par mois. Le gouvernement offre des initiatives de soutien, telles que des subventions salariales et des programmes de formation, pour aider les entreprises à répondre à ces exigences. De plus, les entreprises qui respectent les objectifs d'Émirisation peuvent recevoir la priorité dans les contrats gouvernementaux et des réductions de frais pour divers services gouvernementaux.
 
 | Nombre de travailleurs qualifiés | Nombre de ressortissants des EAU à embaucher chaque année |
-| ------------------------------- | ------------------------------------------------------ |
-| 0-49                           | Exempté                                                |
-| 50 et plus                     | Un ressortissant des EAU pour 50 travailleurs qualifiés |
+| -------------------------------- | --------------------------------------------------------- |
+| 0-49                             | Exempté                                                   |
+| 50 et plus                       | Un ressortissant des EAU pour 50 travailleurs qualifiés   |

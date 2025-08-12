@@ -111,13 +111,11 @@ Müşterimizin Golden Fish'e 12 aylık ofis kiralama sözleşmesi sağlaması ge
 ### Adım 4: Ticaret lisansı başvurusu
 
 1.  Ardından, Golden Fish müşterimizin iş faaliyeti için lisans başvurusunu hazırlayacaktır. BAE yasalarına göre, müşterimiz aşağıdakilerden birini için başvuracaktır:
-
     - Ticari lisans (ticaret işi yapmak için)
     - Sanayi lisansı (üretim işletmesi kurmak için)
     - Profesyonel lisans (muhasebe ve danışmanlık dahil hizmet sunmak için)
 
 1.  Lisans başvurusu sunulmadan önce ve sadece gerekirse, Golden Fish yerel bir BAE ortağı bulmaya ve DED'e aşağıdakilerle birlikte sunulacak bir hizmet sözleşmesi hazırlamaya yardımcı olacaktır:
-
     - Ana sözleşme
     - İsim onay belgesi
     - Kira sözleşmesi

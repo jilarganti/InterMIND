@@ -91,56 +91,56 @@ FZ 기업이 할 수 있는 것:
 
 ## 아랍에미리트(UAE) 자유 구역 디렉토리
 
-| 에미레이트 | 자유 구역                                      | 최적 활용 분야                                              | 웹사이트                                                      |
-| ------------ | --------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------ |
-| 두바이       | 두바이 멀티 커머디티 센터 (DMCC)              | 상품 거래, 귀금속, 다이아몬드, 차, 커피                   | [dmcc.ae](http://www.dmcc.ae)                                |
-| 두바이       | 두바이 국제 금융 센터 (DIFC)                  | 금융 서비스, 핀테크, 은행, 자산 관리                       | [difc.ae](https://www.difc.ae)                               |
-| 두바이       | 두바이 미디어 시티 (DMC)                       | 미디어, 방송, 출판, 광고                                   | [dmc.ae](http://www.dmc.ae)                                  |
-| 두바이       | 두바이 인터넷 시티 (DIC)                        | 기술, 소프트웨어 개발, IT 서비스                           | [dic.ae](http://www.dic.ae)                                  |
-| 두바이       | 두바이 헬스케어 시티                            | 의료, 의료 서비스, 제약                                     | [dhcc.ae](https://www.dhcc.ae)                               |
-| 두바이       | 제벨 알리 자유 구역 (JAFZA)                    | 제조, 물류, 무역                                            | [jafza.ae](http://www.jafza.ae)                              |
-| 두바이       | 두바이 실리콘 오아시스                          | 기술, 반도체, 전자                                          | [dsoa.ae](http://www.dsoa.ae)                                |
-| 두바이       | 두바이 디자인 디스트릭트 (d3)                   | 패션, 디자인, 예술, 럭셔리                                  | [dubaidesigndistrict.com](https://dubaidesigndistrict.com)   |
-| 두바이       | 두바이 프로덕션 시티                            | 인쇄, 출판, 포장                                            | [dubaiproductioncity.ae](https://www.dubaiproductioncity.ae) |
-| 두바이       | 두바이 스튜디오 시티                            | 영화 제작, 방송, 엔터테인먼트                               | [dubaistudiocity.ae](https://www.dubaistudiocity.ae)         |
-| 두바이       | 두바이 사이언스 파크                            | 생명 과학, 생명공학, 연구                                   | [dsp.ae](https://www.dsp.ae)                                 |
-| 두바이       | 두바이 골드 & 다이아몬드 파크                   | 보석 거래, 제조                                             | [goldanddiamondpark.com](https://www.goldanddiamondpark.com) |
-| 두바이       | 두바이 공항 자유 구역 (DAFZA)                  | 항공, 물류, 무역                                             | [dafz.ae](http://www.dafz.ae)                                |
-| 두바이       | 두바이 사우스 (DWC)                             | 항공, 물류, 전자 상거래                                     | [dubaisouth.ae](http://www.dubaisouth.ae)                    |
-| 두바이       | 국제 인도주의 도시                              | 인도주의 서비스, 비정부기구(NGO)                            | [ihc.ae](https://www.ihc.ae)                                 |
-| 두바이       | 두바이 산업 도시                                | 제조, 산업 운영                                             | [dubaiindustrialcity.ae](https://www.dubaiindustrialcity.ae) |
-| 두바이       | 두바이 해양 도시                                | 해양 서비스, 해운                                            | [dmca.ae](https://www.dmca.ae)                               |
-| 두바이       | 두바이 월드 트레이드 센터 자유 구역             | 이벤트, 회의, 무역                                           | [dwtc.com](https://www.dwtc.com)                             |
-| 두바이       | 두바이 아카데믹 시티                            | 교육, 훈련                                                  | [diac.ae](https://www.diac.ae)                               |
-| 두바이       | 두바이 아웃소스 시티                            | 비즈니스 프로세스 아웃소싱, 공유 서비스                     | [dubaioutsourcezone.ae](https://www.dubaioutsourcezone.ae)   |
-| 두바이       | 두바이 커머시티                                | 전자 상거래 허브                                             | [dubaicommercity.ae](https://www.dubaicommercity.ae)         |
-| 두바이       | 두바이 텍스타일 시티                            | 섬유 거래, 제조                                              | [texmas.com](https://www.texmas.com)                         |
-| 두바이       | 메이단 자유 구역                                | 일반 무역, 서비스                                            | [meydanfreezone.com](https://www.meydanfreezone.com)         |
-| 두바이       | 국제 미디어 프로덕션 존                        | 미디어 프로덕션, 창의 산업                                  | [impz.ae](https://www.impz.ae)                               |
-| 두바이       | 두바이 생명공학 및 연구 파크                    | 생명공학, 연구                                               | [dubiotech.ae](https://www.dubiotech.ae)                     |
-| 두바이       | 주메이라 레이크 타워스 자유 구역                | 일반 무역, 서비스                                            | [dmcc.ae/free-zone](https://www.dmcc.ae/free-zone)           |
-| 두바이       | DUQE 자유 구역                                  | 전략적 위치, 해운 및 무역                                    | [duqe.ae](https://www.duqe.ae)                               |
-| 아부다비     | 아부다비 글로벌 마켓 (ADGM)                    | 금융 서비스, 자산 관리                                       | [adgm.com](http://www.adgm.com)                              |
-| 아부다비     | 칼리파 산업 구역 (KIZAD)                       | 제조, 산업                                                   | [kizad.ae](http://www.kizad.ae)                              |
-| 아부다비     | twofour54                                     | 미디어, 엔터테인먼트, 게임                                  | [twofour54.com](https://www.twofour54.com)                   |
-| 아부다비     | 마스다르 시티 자유 구역                         | 재생 에너지, 클린테크                                        | [masdarcityfreezone.ae](https://www.masdarcityfreezone.ae)   |
-| 아부다비     | 아부다비 공항 자유 구역                         | 항공, 물류                                                   | [adafz.ae](https://www.adafz.ae)                             |
-| 아부다비     | KEZAD 그룹                                     | 산업, 물류                                                   | [kezadgroup.com](https://www.kezadgroup.com)                 |
-| 샤르자       | 샤르자 공항 자유 구역 (SAIF)                   | 제조, 무역, 서비스                                           | [saif-zone.com](http://www.saif-zone.com)                    |
-| 샤르자       | 함리야 자유 구역                                | 산업, 제조, 석유 및 가스                                     | [hfza.ae](http://www.hfza.ae)                                |
-| 샤르자       | 샤르자 출판 시티                                | 출판, 인쇄, 미디어                                           | [spcfz.com](https://www.spcfz.com)                           |
-| 샤르자       | 미국 지역 무역 센터                             | 미국-아랍에미리트 무역                                       | [usartc.org](https://www.usartc.org)                         |
-| 샤르자       | 샤르자 미디어 시티 (SHAMS)                     | 창의 산업, 미디어                                           | [shams.ae](https://www.shams.ae)                             |
-| 라스 알 카이마| 라스 알 카이마 경제 구역 (RAKEZ)               | 제조, 무역, 서비스                                           | [rakez.com](http://www.rakez.com)                            |
-| 라스 알 카이마| 라스 알 카이마 ICC                             | 홀딩 회사, 투자                                              | [rakicc.com](https://www.rakicc.com)                         |
-| 라스 알 카이마| 라스 알 카이마 해양 도시                        | 해양 산업                                                    | [rakez.com/en/rmc](https://www.rakez.com/en/rmc)             |
-| 아즈만       | 아즈만 자유 구역                                | 중소기업(SME), 무역, 서비스                                  | [afz.gov.ae](http://www.afz.gov.ae)                          |
-| 아즈만       | 아즈만 미디어 시티 자유 구역                    | 미디어, 창의 산업                                            | [amcfz.ae](https://www.amcfz.ae)                             |
-| 푸자이라     | 푸자이라 자유 구역                              | 무역, 경공업                                                  | [fujairahfreezone.ae](https://fujairahfreezone.ae)           |
-| 푸자이라     | 크리에이티브 시티                               | 미디어, 창의 산업                                            | [fujairahfreezone.com](http://www.fujairahfreezone.com)      |
-| 푸자이라     | 푸자이라 오일 산업 구역                          | 석유 및 가스                                                 | [foiz.gov.ae](https://foiz.gov.ae)                           |
-| 움 알 콰인   | 움 알 콰인 자유 무역 구역                       | 중소기업(SME), 무역                                           | [uaqftz.com](https://www.uaqftz.com)                         |
-| 움 알 콰인   | 아흐메드 빈 라시드 자유 구역                    | 제조, 산업                                                   | [auaqftz.gov.ae](https://www.auaqftz.gov.ae)                 |
+| 에미레이트     | 자유 구역                           | 최적 활용 분야                          | 웹사이트                                                     |
+| -------------- | ----------------------------------- | --------------------------------------- | ------------------------------------------------------------ |
+| 두바이         | 두바이 멀티 커머디티 센터 (DMCC)    | 상품 거래, 귀금속, 다이아몬드, 차, 커피 | [dmcc.ae](http://www.dmcc.ae)                                |
+| 두바이         | 두바이 국제 금융 센터 (DIFC)        | 금융 서비스, 핀테크, 은행, 자산 관리    | [difc.ae](https://www.difc.ae)                               |
+| 두바이         | 두바이 미디어 시티 (DMC)            | 미디어, 방송, 출판, 광고                | [dmc.ae](http://www.dmc.ae)                                  |
+| 두바이         | 두바이 인터넷 시티 (DIC)            | 기술, 소프트웨어 개발, IT 서비스        | [dic.ae](http://www.dic.ae)                                  |
+| 두바이         | 두바이 헬스케어 시티                | 의료, 의료 서비스, 제약                 | [dhcc.ae](https://www.dhcc.ae)                               |
+| 두바이         | 제벨 알리 자유 구역 (JAFZA)         | 제조, 물류, 무역                        | [jafza.ae](http://www.jafza.ae)                              |
+| 두바이         | 두바이 실리콘 오아시스              | 기술, 반도체, 전자                      | [dsoa.ae](http://www.dsoa.ae)                                |
+| 두바이         | 두바이 디자인 디스트릭트 (d3)       | 패션, 디자인, 예술, 럭셔리              | [dubaidesigndistrict.com](https://dubaidesigndistrict.com)   |
+| 두바이         | 두바이 프로덕션 시티                | 인쇄, 출판, 포장                        | [dubaiproductioncity.ae](https://www.dubaiproductioncity.ae) |
+| 두바이         | 두바이 스튜디오 시티                | 영화 제작, 방송, 엔터테인먼트           | [dubaistudiocity.ae](https://www.dubaistudiocity.ae)         |
+| 두바이         | 두바이 사이언스 파크                | 생명 과학, 생명공학, 연구               | [dsp.ae](https://www.dsp.ae)                                 |
+| 두바이         | 두바이 골드 & 다이아몬드 파크       | 보석 거래, 제조                         | [goldanddiamondpark.com](https://www.goldanddiamondpark.com) |
+| 두바이         | 두바이 공항 자유 구역 (DAFZA)       | 항공, 물류, 무역                        | [dafz.ae](http://www.dafz.ae)                                |
+| 두바이         | 두바이 사우스 (DWC)                 | 항공, 물류, 전자 상거래                 | [dubaisouth.ae](http://www.dubaisouth.ae)                    |
+| 두바이         | 국제 인도주의 도시                  | 인도주의 서비스, 비정부기구(NGO)        | [ihc.ae](https://www.ihc.ae)                                 |
+| 두바이         | 두바이 산업 도시                    | 제조, 산업 운영                         | [dubaiindustrialcity.ae](https://www.dubaiindustrialcity.ae) |
+| 두바이         | 두바이 해양 도시                    | 해양 서비스, 해운                       | [dmca.ae](https://www.dmca.ae)                               |
+| 두바이         | 두바이 월드 트레이드 센터 자유 구역 | 이벤트, 회의, 무역                      | [dwtc.com](https://www.dwtc.com)                             |
+| 두바이         | 두바이 아카데믹 시티                | 교육, 훈련                              | [diac.ae](https://www.diac.ae)                               |
+| 두바이         | 두바이 아웃소스 시티                | 비즈니스 프로세스 아웃소싱, 공유 서비스 | [dubaioutsourcezone.ae](https://www.dubaioutsourcezone.ae)   |
+| 두바이         | 두바이 커머시티                     | 전자 상거래 허브                        | [dubaicommercity.ae](https://www.dubaicommercity.ae)         |
+| 두바이         | 두바이 텍스타일 시티                | 섬유 거래, 제조                         | [texmas.com](https://www.texmas.com)                         |
+| 두바이         | 메이단 자유 구역                    | 일반 무역, 서비스                       | [meydanfreezone.com](https://www.meydanfreezone.com)         |
+| 두바이         | 국제 미디어 프로덕션 존             | 미디어 프로덕션, 창의 산업              | [impz.ae](https://www.impz.ae)                               |
+| 두바이         | 두바이 생명공학 및 연구 파크        | 생명공학, 연구                          | [dubiotech.ae](https://www.dubiotech.ae)                     |
+| 두바이         | 주메이라 레이크 타워스 자유 구역    | 일반 무역, 서비스                       | [dmcc.ae/free-zone](https://www.dmcc.ae/free-zone)           |
+| 두바이         | DUQE 자유 구역                      | 전략적 위치, 해운 및 무역               | [duqe.ae](https://www.duqe.ae)                               |
+| 아부다비       | 아부다비 글로벌 마켓 (ADGM)         | 금융 서비스, 자산 관리                  | [adgm.com](http://www.adgm.com)                              |
+| 아부다비       | 칼리파 산업 구역 (KIZAD)            | 제조, 산업                              | [kizad.ae](http://www.kizad.ae)                              |
+| 아부다비       | twofour54                           | 미디어, 엔터테인먼트, 게임              | [twofour54.com](https://www.twofour54.com)                   |
+| 아부다비       | 마스다르 시티 자유 구역             | 재생 에너지, 클린테크                   | [masdarcityfreezone.ae](https://www.masdarcityfreezone.ae)   |
+| 아부다비       | 아부다비 공항 자유 구역             | 항공, 물류                              | [adafz.ae](https://www.adafz.ae)                             |
+| 아부다비       | KEZAD 그룹                          | 산업, 물류                              | [kezadgroup.com](https://www.kezadgroup.com)                 |
+| 샤르자         | 샤르자 공항 자유 구역 (SAIF)        | 제조, 무역, 서비스                      | [saif-zone.com](http://www.saif-zone.com)                    |
+| 샤르자         | 함리야 자유 구역                    | 산업, 제조, 석유 및 가스                | [hfza.ae](http://www.hfza.ae)                                |
+| 샤르자         | 샤르자 출판 시티                    | 출판, 인쇄, 미디어                      | [spcfz.com](https://www.spcfz.com)                           |
+| 샤르자         | 미국 지역 무역 센터                 | 미국-아랍에미리트 무역                  | [usartc.org](https://www.usartc.org)                         |
+| 샤르자         | 샤르자 미디어 시티 (SHAMS)          | 창의 산업, 미디어                       | [shams.ae](https://www.shams.ae)                             |
+| 라스 알 카이마 | 라스 알 카이마 경제 구역 (RAKEZ)    | 제조, 무역, 서비스                      | [rakez.com](http://www.rakez.com)                            |
+| 라스 알 카이마 | 라스 알 카이마 ICC                  | 홀딩 회사, 투자                         | [rakicc.com](https://www.rakicc.com)                         |
+| 라스 알 카이마 | 라스 알 카이마 해양 도시            | 해양 산업                               | [rakez.com/en/rmc](https://www.rakez.com/en/rmc)             |
+| 아즈만         | 아즈만 자유 구역                    | 중소기업(SME), 무역, 서비스             | [afz.gov.ae](http://www.afz.gov.ae)                          |
+| 아즈만         | 아즈만 미디어 시티 자유 구역        | 미디어, 창의 산업                       | [amcfz.ae](https://www.amcfz.ae)                             |
+| 푸자이라       | 푸자이라 자유 구역                  | 무역, 경공업                            | [fujairahfreezone.ae](https://fujairahfreezone.ae)           |
+| 푸자이라       | 크리에이티브 시티                   | 미디어, 창의 산업                       | [fujairahfreezone.com](http://www.fujairahfreezone.com)      |
+| 푸자이라       | 푸자이라 오일 산업 구역             | 석유 및 가스                            | [foiz.gov.ae](https://foiz.gov.ae)                           |
+| 움 알 콰인     | 움 알 콰인 자유 무역 구역           | 중소기업(SME), 무역                     | [uaqftz.com](https://www.uaqftz.com)                         |
+| 움 알 콰인     | 아흐메드 빈 라시드 자유 구역        | 제조, 산업                              | [auaqftz.gov.ae](https://www.auaqftz.gov.ae)                 |
 
 :::
 
@@ -148,29 +148,29 @@ FZ 기업이 할 수 있는 것:
 
 ## UAE 자유무역지대 비교
 
-| 기준                                    | DMCC                                   | Meydan Free Zone                                                   | Jebel Ali Free Zone                    | RAKEZ Free Zone                         | Hamriyah Free Zone                      |
-| ------------------------------------------- | -------------------------------------- | ------------------------------------------------------------------ | -------------------------------------- | --------------------------------------- | --------------------------------------- |
-| 설립 소요 시간                          | 3.5개월                             | 3개월                                                           | 3개월                               | 3개월                                | 3개월                                |
-| 최저 연간 사무실 비용 (US$)           | 5,600                                  | 1,225                                                              | 10,000                                 | 2,000                                   | 2,500                                   |
-| 창고 비용                              | 이용 불가                          | 이용 불가                                                      | 25,000/년                            | AED 15-20/평방피트                         | AED 25-30/평방피트                         |
-| 납입자본금 - 회사 (US$)       | 14,000                                 | 0                                                                  | 0                                      | 0                                       | 0                                       |
-| 납입자본금 - 설립 (US$) | 14,000                                 | 0                                                                  | 0                                      | 0                                       | 0                                       |
-| 가상 사무실 허용                      | 아니오                                     | 아니오                                                                 | 아니오                                     | 아니오                                      | 아니오                                      |
-| 설립 시 방문 필요                   | 아니오                                     | 아니오                                                                 | 아니오                                     | 아니오                                      | 아니오                                      |
-| 최소 주주 수                        | 1                                      | 1                                                                  | 1                                      | 1                                       | 1                                       |
-| 최소 이사 수                           | 1                                      | 1                                                                  | 1                                      | 1                                       | 1                                       |
-| 법인 주주 허용              | 예                                    | 예                                                                | 예                                    | 예                                     | 예                                     |
-| 법인 이사 허용                 | 아니오                                     | 아니오                                                                 | 아니오                                     | 아니오                                      | 아니오                                      |
-| 100% 외국인 소유권                      | 예                                    | 예                                                                | 예                                    | 예                                     | 예                                     |
-| 주주 공개 등록부             | 아니오                                     | 아니오                                                                 | 아니오                                     | 아니오                                      | 아니오                                      |
-| 연간 세금 신고 필요                  | 예                                    | 예                                                                | 예                                    | 예                                     | 예                                     |
-| 법정 감사 필요                    | 예                                    | 예                                                                | 예                                    | 예                                     | 예                                     |
-| UAE 이중과세방지협약 적용           | 예                                    | 예                                                                | 예                                    | 예                                     | 예                                     |
-| 허용되는 사업 활동         | [문서 보기](https://added.gov.ae/) | [문서 보기](https://www.meydanfz.ae/business-activities-list/) | [문서 보기](https://www.jafza.ae/) | 무역, 산업, 물류, 서비스 | 무역, 산업, 물류, 서비스 |
-| 자유무역지대 외부 사무실                    | 아니오                                     | 예 (NOC 필요)                                                      | 아니오                                     | 아니오                                      | 아니오                                      |
-| 원자재 수입 허용                | 예                                    | 예                                                                | 예                                    | 예                                     | 예                                     |
-| 상품 수출 허용                        | 예                                    | 예                                                                | 예                                    | 예                                     | 예                                     |
-| 취업 허가 승인 소요 시간                   | 4주                                | 4주                                                            | 4주                                | 4주                                 | 4주                                 |
+| 기준                        | DMCC                               | Meydan Free Zone                                               | Jebel Ali Free Zone                | RAKEZ Free Zone          | Hamriyah Free Zone       |
+| --------------------------- | ---------------------------------- | -------------------------------------------------------------- | ---------------------------------- | ------------------------ | ------------------------ |
+| 설립 소요 시간              | 3.5개월                            | 3개월                                                          | 3개월                              | 3개월                    | 3개월                    |
+| 최저 연간 사무실 비용 (US$) | 5,600                              | 1,225                                                          | 10,000                             | 2,000                    | 2,500                    |
+| 창고 비용                   | 이용 불가                          | 이용 불가                                                      | 25,000/년                          | AED 15-20/평방피트       | AED 25-30/평방피트       |
+| 납입자본금 - 회사 (US$)     | 14,000                             | 0                                                              | 0                                  | 0                        | 0                        |
+| 납입자본금 - 설립 (US$)     | 14,000                             | 0                                                              | 0                                  | 0                        | 0                        |
+| 가상 사무실 허용            | 아니오                             | 아니오                                                         | 아니오                             | 아니오                   | 아니오                   |
+| 설립 시 방문 필요           | 아니오                             | 아니오                                                         | 아니오                             | 아니오                   | 아니오                   |
+| 최소 주주 수                | 1                                  | 1                                                              | 1                                  | 1                        | 1                        |
+| 최소 이사 수                | 1                                  | 1                                                              | 1                                  | 1                        | 1                        |
+| 법인 주주 허용              | 예                                 | 예                                                             | 예                                 | 예                       | 예                       |
+| 법인 이사 허용              | 아니오                             | 아니오                                                         | 아니오                             | 아니오                   | 아니오                   |
+| 100% 외국인 소유권          | 예                                 | 예                                                             | 예                                 | 예                       | 예                       |
+| 주주 공개 등록부            | 아니오                             | 아니오                                                         | 아니오                             | 아니오                   | 아니오                   |
+| 연간 세금 신고 필요         | 예                                 | 예                                                             | 예                                 | 예                       | 예                       |
+| 법정 감사 필요              | 예                                 | 예                                                             | 예                                 | 예                       | 예                       |
+| UAE 이중과세방지협약 적용   | 예                                 | 예                                                             | 예                                 | 예                       | 예                       |
+| 허용되는 사업 활동          | [문서 보기](https://added.gov.ae/) | [문서 보기](https://www.meydanfz.ae/business-activities-list/) | [문서 보기](https://www.jafza.ae/) | 무역, 산업, 물류, 서비스 | 무역, 산업, 물류, 서비스 |
+| 자유무역지대 외부 사무실    | 아니오                             | 예 (NOC 필요)                                                  | 아니오                             | 아니오                   | 아니오                   |
+| 원자재 수입 허용            | 예                                 | 예                                                             | 예                                 | 예                       | 예                       |
+| 상품 수출 허용              | 예                                 | 예                                                             | 예                                 | 예                       | 예                       |
+| 취업 허가 승인 소요 시간    | 4주                                | 4주                                                            | 4주                                | 4주                      | 4주                      |
 
 주요 차이점:
 

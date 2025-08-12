@@ -91,18 +91,19 @@ FZ公司可以：
 
 ## 阿联酋自由区名录
 
-| 酋长国 | 自由区 | 最佳用途 | 网站 |
-| -------------- | ------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------ |
-| 迪拜 | Dubai Multi Commodities Centre (DMCC) | 商品贸易、贵金属、钻石、茶叶、咖啡 | [dmcc.ae](http://www.dmcc.ae) |
-| 迪拜 | Dubai International Financial Centre (DIFC) | 金融服务、金融科技、银行、财富管理 | [difc.ae](https://www.difc.ae) |
-| 迪拜 | Dubai Media City (DMC) | 媒体、广播、出版、广告 | [dmc.ae](http://www.dmc.ae) |
-| 迪拜 | Dubai Internet City (DIC) | 科技、软件开发、IT服务 | [dic.ae](http://www.dic.ae) |
-| 迪拜 | Dubai Healthcare City | 医疗保健、医疗服务、制药 | [dhcc.ae](https://www.dhcc.ae) |
-| 迪拜 | Jebel Ali Free Zone (JAFZA) | 制造业、物流、贸易 | [jafza.ae](http://www.jafza.ae) |
-| 迪拜 | Dubai Silicon Oasis | 科技、半导体、电子产品 | [dsoa.ae](http://www.dsoa.ae) |
-| 迪拜 | Dubai Design District (d3) | 时尚、设计、艺术、奢侈品 | [dubaidesigndistrict.com](https://dubaidesigndistrict.com) |
-| 迪拜 | Dubai Production City | 印刷、出版、包装 | [dubaiproductioncity.ae](https://www.dubaiproductioncity.ae) |
-| 迪拜 | Dubai Studio City | 电影制作、广播、娱乐 | [dubaistudiocity.ae](https://www.dubaistudiocity.ae) |
+| 酋长国 | 自由区                                      | 最佳用途                           | 网站                                                         |
+| ------ | ------------------------------------------- | ---------------------------------- | ------------------------------------------------------------ |
+| 迪拜   | Dubai Multi Commodities Centre (DMCC)       | 商品贸易、贵金属、钻石、茶叶、咖啡 | [dmcc.ae](http://www.dmcc.ae)                                |
+| 迪拜   | Dubai International Financial Centre (DIFC) | 金融服务、金融科技、银行、财富管理 | [difc.ae](https://www.difc.ae)                               |
+| 迪拜   | Dubai Media City (DMC)                      | 媒体、广播、出版、广告             | [dmc.ae](http://www.dmc.ae)                                  |
+| 迪拜   | Dubai Internet City (DIC)                   | 科技、软件开发、IT服务             | [dic.ae](http://www.dic.ae)                                  |
+| 迪拜   | Dubai Healthcare City                       | 医疗保健、医疗服务、制药           | [dhcc.ae](https://www.dhcc.ae)                               |
+| 迪拜   | Jebel Ali Free Zone (JAFZA)                 | 制造业、物流、贸易                 | [jafza.ae](http://www.jafza.ae)                              |
+| 迪拜   | Dubai Silicon Oasis                         | 科技、半导体、电子产品             | [dsoa.ae](http://www.dsoa.ae)                                |
+| 迪拜   | Dubai Design District (d3)                  | 时尚、设计、艺术、奢侈品           | [dubaidesigndistrict.com](https://dubaidesigndistrict.com)   |
+| 迪拜   | Dubai Production City                       | 印刷、出版、包装                   | [dubaiproductioncity.ae](https://www.dubaiproductioncity.ae) |
+| 迪拜   | Dubai Studio City                           | 电影制作、广播、娱乐               | [dubaistudiocity.ae](https://www.dubaistudiocity.ae)         |
+
 [... 继续翻译剩余行，保持相同格式]
 
 :::
@@ -111,29 +112,29 @@ FZ公司可以：
 
 ## 阿联酋自由区对比
 
-| 标准                                    | DMCC                                   | Meydan Free Zone                                                   | Jebel Ali Free Zone                    | RAKEZ Free Zone                         | Hamriyah Free Zone                      |
-| ------------------------------------------- | -------------------------------------- | ------------------------------------------------------------------ | -------------------------------------- | --------------------------------------- | --------------------------------------- |
-| 注册时间                          | 3.5个月                             | 3个月                                                           | 3个月                               | 3个月                                | 3个月                                |
-| 最低年度办公室费用（美元）           | 5,600                                  | 1,225                                                              | 10,000                                 | 2,000                                   | 2,500                                   |
-| 仓库费用                              | 不提供                          | 不提供                                                      | 25,000/年                            | 15-20迪拉姆/平方英尺                         | 25-30迪拉姆/平方英尺                         |
-| 公司实收资本（美元）       | 14,000                                 | 0                                                                  | 0                                      | 0                                       | 0                                       |
-| 企业实收资本（美元） | 14,000                                 | 0                                                                  | 0                                      | 0                                       | 0                                       |
-| 允许虚拟办公室                      | 否                                     | 否                                                                 | 否                                     | 否                                      | 否                                      |
-| 设立需要亲访                   | 否                                     | 否                                                                 | 否                                     | 否                                      | 否                                      |
-| 最少股东人数                        | 1                                      | 1                                                                  | 1                                      | 1                                       | 1                                       |
-| 最少董事人数                           | 1                                      | 1                                                                  | 1                                      | 1                                       | 1                                       |
-| 允许公司股东              | 是                                    | 是                                                                | 是                                    | 是                                     | 是                                     |
-| 允许公司董事                 | 否                                     | 否                                                                 | 否                                     | 否                                      | 否                                      |
-| 允许100%外资                      | 是                                    | 是                                                                | 是                                    | 是                                     | 是                                     |
-| 股东信息公开登记             | 否                                     | 否                                                                 | 否                                     | 否                                      | 否                                      |
-| 需要年度纳税申报                  | 是                                    | 是                                                                | 是                                    | 是                                     | 是                                     |
-| 需要法定审计                    | 是                                    | 是                                                                | 是                                    | 是                                     | 是                                     |
-| 可享受阿联酋避免双重征税协定           | 是                                    | 是                                                                | 是                                    | 是                                     | 是                                     |
-| 允许的经营活动类型         | [查看文件](https://added.gov.ae/) | [查看文件](https://www.meydanfz.ae/business-activities-list/) | [查看文件](https://www.jafza.ae/) | 贸易、工业、物流、服务 | 贸易、工业、物流、服务 |
-| 自由区外办公室                    | 否                                     | 是，需要NOC                                                      | 否                                     | 否                                      | 否                                      |
-| 允许进口原材料                | 是                                    | 是                                                                | 是                                    | 是                                     | 是                                     |
-| 允许出口商品                        | 是                                    | 是                                                                | 是                                    | 是                                     | 是                                     |
-| 工作许可审批时间                   | 4周                                | 4周                                                            | 4周                                | 4周                                 | 4周                                 |
+| 标准                         | DMCC                              | Meydan Free Zone                                              | Jebel Ali Free Zone               | RAKEZ Free Zone        | Hamriyah Free Zone     |
+| ---------------------------- | --------------------------------- | ------------------------------------------------------------- | --------------------------------- | ---------------------- | ---------------------- |
+| 注册时间                     | 3.5个月                           | 3个月                                                         | 3个月                             | 3个月                  | 3个月                  |
+| 最低年度办公室费用（美元）   | 5,600                             | 1,225                                                         | 10,000                            | 2,000                  | 2,500                  |
+| 仓库费用                     | 不提供                            | 不提供                                                        | 25,000/年                         | 15-20迪拉姆/平方英尺   | 25-30迪拉姆/平方英尺   |
+| 公司实收资本（美元）         | 14,000                            | 0                                                             | 0                                 | 0                      | 0                      |
+| 企业实收资本（美元）         | 14,000                            | 0                                                             | 0                                 | 0                      | 0                      |
+| 允许虚拟办公室               | 否                                | 否                                                            | 否                                | 否                     | 否                     |
+| 设立需要亲访                 | 否                                | 否                                                            | 否                                | 否                     | 否                     |
+| 最少股东人数                 | 1                                 | 1                                                             | 1                                 | 1                      | 1                      |
+| 最少董事人数                 | 1                                 | 1                                                             | 1                                 | 1                      | 1                      |
+| 允许公司股东                 | 是                                | 是                                                            | 是                                | 是                     | 是                     |
+| 允许公司董事                 | 否                                | 否                                                            | 否                                | 否                     | 否                     |
+| 允许100%外资                 | 是                                | 是                                                            | 是                                | 是                     | 是                     |
+| 股东信息公开登记             | 否                                | 否                                                            | 否                                | 否                     | 否                     |
+| 需要年度纳税申报             | 是                                | 是                                                            | 是                                | 是                     | 是                     |
+| 需要法定审计                 | 是                                | 是                                                            | 是                                | 是                     | 是                     |
+| 可享受阿联酋避免双重征税协定 | 是                                | 是                                                            | 是                                | 是                     | 是                     |
+| 允许的经营活动类型           | [查看文件](https://added.gov.ae/) | [查看文件](https://www.meydanfz.ae/business-activities-list/) | [查看文件](https://www.jafza.ae/) | 贸易、工业、物流、服务 | 贸易、工业、物流、服务 |
+| 自由区外办公室               | 否                                | 是，需要NOC                                                   | 否                                | 否                     | 否                     |
+| 允许进口原材料               | 是                                | 是                                                            | 是                                | 是                     | 是                     |
+| 允许出口商品                 | 是                                | 是                                                            | 是                                | 是                     | 是                     |
+| 工作许可审批时间             | 4周                               | 4周                                                           | 4周                               | 4周                    | 4周                    |
 
 主要区别：
 

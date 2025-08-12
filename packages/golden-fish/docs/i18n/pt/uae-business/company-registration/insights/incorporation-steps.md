@@ -111,13 +111,11 @@ Nosso Cliente precisará fornecer à Golden Fish um contrato de aluguel de 12 me
 ### Etapa 4: Solicitação de licença comercial
 
 1. Em seguida, a Golden Fish preparará a solicitação de licença para a atividade comercial do nosso Cliente. Sob a lei dos EAU, nosso Cliente solicitará uma das seguintes:
-
    - Licença comercial (para envolvimento em negócios comerciais)
    - Licença industrial (para estabelecer um negócio de manufatura)
    - Licença profissional (para oferecer serviços incluindo contabilidade e consultoria)
 
 1. Antes que a solicitação de licença seja enviada e apenas se necessário, a Golden Fish auxiliará a garantir um parceiro local dos EAU e redigir um contrato de serviço para submeter ao DED junto com:
-
    - O MOA
    - O certificado de aprovação do nome
    - O contrato de aluguel

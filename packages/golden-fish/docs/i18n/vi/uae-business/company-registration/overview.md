@@ -123,41 +123,41 @@ Văn phòng đại diện là lựa chọn lý tưởng để quảng bá công 
 
 ## So sánh các loại hình doanh nghiệp tại UAE
 
-| Đặc điểm                          | Resident LLC            | Free Zone LLC           | Branch Office          | Offshore LLC       |
-| --------------------------------- | ----------------------- | ----------------------- | ---------------------- | ------------------ |
-| _**HOẠT ĐỘNG KINH DOANH CHÍNH**_ |                         |                         |                        |                    |
-| Phạm vi kinh doanh                | Mọi sản phẩm & dịch vụ | Mọi sản phẩm & dịch vụ | Giống công ty mẹ      | Chỉ quốc tế       |
-| Được phép kinh doanh nội địa      | ✅ Toàn quyền          | ℹ️ Có giới hạn         | ✅ Có                 | ❌ Không           |
-| Hợp đồng chính phủ                | ✅ Có                   | ℹ️ Có ngoại lệ         | ✅ Có                 | ❌ Không           |
-| Xuất hóa đơn nội địa              | ✅ Có                   | ℹ️ Có giới hạn         | ✅ Có                 | ❌ Không           |
-| _**YÊU CẦU THÀNH LẬP**_           |                         |                         |                        |                    |
-| Vốn tối thiểu                     | US$1                    | Tùy khu vực            | Tùy địa điểm          | US$1               |
-| Thời gian thành lập               | 5 tuần                  | 6 tuần                 | 6-8 tuần              | 2-4 tuần           |
-| Yêu cầu đi lại                    | ❌ Không                | ❌ Không                | ❌ Không              | ❌ Không           |
-| Văn phòng thực tế                 | Bắt buộc                | Bắt buộc               | Bắt buộc              | Không bắt buộc     |
-| Thời gian mở tài khoản ngân hàng  | 8 tuần                  | 8 tuần                 | 8 tuần                | 10-12 tuần         |
-| Tổng thời gian thành lập          | 3.5 tháng               | 3.5 tháng              | 4 tháng               | 3-4 tháng          |
-| _**CẤU TRÚC PHÁP LÝ**_            |                         |                         |                        |                    |
-| Trách nhiệm hữu hạn               | ✅ Có                   | ✅ Có                   | ❌ Không              | ✅ Có              |
-| Sở hữu nước ngoài                 | ✅ 100%                 | ✅ 100%                 | ✅ 100%               | ✅ 100%            |
-| Đăng ký công khai                 | ❌ Không                | ❌ Không                | ❌ Không              | ❌ Không           |
-| Tiếp cận DTAA                     | ✅ Có                   | ✅ Có                   | ✅ Có                 | ❌ Không           |
-| Công nhận của chính phủ           | Cao                     | Cao                    | Cao                   | Hạn chế            |
-| _**HOẠT ĐỘNG KINH DOANH**_        |                         |                         |                        |                    |
-| Tài chính thương mại              | ✅ Có sẵn               | ✅ Có sẵn              | ✅ Có sẵn             | ✅ Có sẵn          |
-| Bảo lãnh visa                     | ✅ Có                   | ✅ Có                   | ✅ Có                 | ❌ Không           |
-| Ngân hàng nội địa                 | ✅ Toàn quyền          | ✅ Toàn quyền          | ✅ Toàn quyền         | ℹ️ Hạn chế         |
-| Xuất/Nhập khẩu                    | ✅ Không giới hạn       | ✅ Qua free zone       | ℹ️ Hạn chế            | ❌ Không           |
-| _**YÊU CẦU HÀNG NĂM**_            |                         |                         |                        |                    |
-| Yêu cầu kiểm toán                 | ✅ Có                   | ✅ Có                   | ✅ Có                 | ℹ️ Tùy trường hợp  |
-| Khai thuế                         | ✅ Bắt buộc             | ✅ Bắt buộc            | ✅ Bắt buộc           | ℹ️ Hạn chế         |
-| Gia hạn giấy phép                 | Hàng năm                | Hàng năm               | Hàng năm              | Hàng năm           |
-| Mức độ tuân thủ                   | Cao                     | Cao                    | Cao                   | Thấp               |
-| _**KHÍA CẠNH TÀI CHÍNH**_         |                         |                         |                        |                    |
-| Chi phí thành lập                 | Trung bình              | Cao                    | Cao                   | Thấp               |
-| Chi phí duy trì                   | Trung bình              | Trung bình-Cao         | Cao                   | Thấp               |
-| Bảo lãnh ngân hàng                | Không                   | Không                  | AED 50,000            | Không              |
-| Chi phí văn phòng                 | Linh hoạt               | Cao                    | Bắt buộc              | Không bắt buộc     |
+| Đặc điểm                         | Resident LLC           | Free Zone LLC          | Branch Office    | Offshore LLC      |
+| -------------------------------- | ---------------------- | ---------------------- | ---------------- | ----------------- |
+| _**HOẠT ĐỘNG KINH DOANH CHÍNH**_ |                        |                        |                  |                   |
+| Phạm vi kinh doanh               | Mọi sản phẩm & dịch vụ | Mọi sản phẩm & dịch vụ | Giống công ty mẹ | Chỉ quốc tế       |
+| Được phép kinh doanh nội địa     | ✅ Toàn quyền          | ℹ️ Có giới hạn         | ✅ Có            | ❌ Không          |
+| Hợp đồng chính phủ               | ✅ Có                  | ℹ️ Có ngoại lệ         | ✅ Có            | ❌ Không          |
+| Xuất hóa đơn nội địa             | ✅ Có                  | ℹ️ Có giới hạn         | ✅ Có            | ❌ Không          |
+| _**YÊU CẦU THÀNH LẬP**_          |                        |                        |                  |                   |
+| Vốn tối thiểu                    | US$1                   | Tùy khu vực            | Tùy địa điểm     | US$1              |
+| Thời gian thành lập              | 5 tuần                 | 6 tuần                 | 6-8 tuần         | 2-4 tuần          |
+| Yêu cầu đi lại                   | ❌ Không               | ❌ Không               | ❌ Không         | ❌ Không          |
+| Văn phòng thực tế                | Bắt buộc               | Bắt buộc               | Bắt buộc         | Không bắt buộc    |
+| Thời gian mở tài khoản ngân hàng | 8 tuần                 | 8 tuần                 | 8 tuần           | 10-12 tuần        |
+| Tổng thời gian thành lập         | 3.5 tháng              | 3.5 tháng              | 4 tháng          | 3-4 tháng         |
+| _**CẤU TRÚC PHÁP LÝ**_           |                        |                        |                  |                   |
+| Trách nhiệm hữu hạn              | ✅ Có                  | ✅ Có                  | ❌ Không         | ✅ Có             |
+| Sở hữu nước ngoài                | ✅ 100%                | ✅ 100%                | ✅ 100%          | ✅ 100%           |
+| Đăng ký công khai                | ❌ Không               | ❌ Không               | ❌ Không         | ❌ Không          |
+| Tiếp cận DTAA                    | ✅ Có                  | ✅ Có                  | ✅ Có            | ❌ Không          |
+| Công nhận của chính phủ          | Cao                    | Cao                    | Cao              | Hạn chế           |
+| _**HOẠT ĐỘNG KINH DOANH**_       |                        |                        |                  |                   |
+| Tài chính thương mại             | ✅ Có sẵn              | ✅ Có sẵn              | ✅ Có sẵn        | ✅ Có sẵn         |
+| Bảo lãnh visa                    | ✅ Có                  | ✅ Có                  | ✅ Có            | ❌ Không          |
+| Ngân hàng nội địa                | ✅ Toàn quyền          | ✅ Toàn quyền          | ✅ Toàn quyền    | ℹ️ Hạn chế        |
+| Xuất/Nhập khẩu                   | ✅ Không giới hạn      | ✅ Qua free zone       | ℹ️ Hạn chế       | ❌ Không          |
+| _**YÊU CẦU HÀNG NĂM**_           |                        |                        |                  |                   |
+| Yêu cầu kiểm toán                | ✅ Có                  | ✅ Có                  | ✅ Có            | ℹ️ Tùy trường hợp |
+| Khai thuế                        | ✅ Bắt buộc            | ✅ Bắt buộc            | ✅ Bắt buộc      | ℹ️ Hạn chế        |
+| Gia hạn giấy phép                | Hàng năm               | Hàng năm               | Hàng năm         | Hàng năm          |
+| Mức độ tuân thủ                  | Cao                    | Cao                    | Cao              | Thấp              |
+| _**KHÍA CẠNH TÀI CHÍNH**_        |                        |                        |                  |                   |
+| Chi phí thành lập                | Trung bình             | Cao                    | Cao              | Thấp              |
+| Chi phí duy trì                  | Trung bình             | Trung bình-Cao         | Cao              | Thấp              |
+| Bảo lãnh ngân hàng               | Không                  | Không                  | AED 50,000       | Không             |
+| Chi phí văn phòng                | Linh hoạt              | Cao                    | Bắt buộc         | Không bắt buộc    |
 
 <Button href="../comparison/entity-types" text="See detailed comparison"/>
 
@@ -306,11 +306,11 @@ Không, Golden Fish có thể hợp pháp thành lập công ty UAE cho bạn m�
 
 Yêu cầu khác nhau tùy theo loại hình công ty:
 
-| Loại Công ty | Yêu cầu Văn phòng |
-| ----------------- | --------------------------------------------------------------------------------------- |
+| Loại Công ty      | Yêu cầu Văn phòng                                                   |
+| ----------------- | ------------------------------------------------------------------- |
 | Công ty Free Zone | Cần có hợp đồng thuê văn phòng hoặc flexi-desk trước khi thành lập. |
-| Công ty Mainland | Chỉ cần địa chỉ ảo hoặc địa chỉ đăng ký. |
-| Công ty Offshore | Chỉ cần địa chỉ ảo hoặc địa chỉ đăng ký. |
+| Công ty Mainland  | Chỉ cần địa chỉ ảo hoặc địa chỉ đăng ký.                            |
+| Công ty Offshore  | Chỉ cần địa chỉ ảo hoặc địa chỉ đăng ký.                            |
 
 Bảng so sánh này giúp làm rõ sự khác biệt về yêu cầu giữa các công ty free zone, mainland và offshore.
 

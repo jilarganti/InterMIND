@@ -91,56 +91,56 @@ description: "Порівняльний посібник з відкриття б
 
 ## Довідник вільних економічних зон ОАЕ
 
-| Емірат | Free Zone | Найкраще використання | Веб-сайт |
-| -------------- | ------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------ |
-| Dubai | Dubai Multi Commodities Centre (DMCC) | Торгівля товарами, дорогоцінними металами, діамантами, чаєм, кавою | [dmcc.ae](http://www.dmcc.ae) |
-| Dubai | Dubai International Financial Centre (DIFC) | Фінансові послуги, фінтех, банківська справа, управління капіталом | [difc.ae](https://www.difc.ae) |
-| Dubai | Dubai Media City (DMC) | Медіа, телерадіомовлення, видавнича справа, реклама | [dmc.ae](http://www.dmc.ae) |
-| Dubai | Dubai Internet City (DIC) | Технології, розробка програмного забезпечення, ІТ-послуги | [dic.ae](http://www.dic.ae) |
-| Dubai | Dubai Healthcare City | Охорона здоров'я, медичні послуги, фармацевтика | [dhcc.ae](https://www.dhcc.ae) |
-| Dubai | Jebel Ali Free Zone (JAFZA) | Виробництво, логістика, торгівля | [jafza.ae](http://www.jafza.ae) |
-| Dubai | Dubai Silicon Oasis | Технології, напівпровідники, електроніка | [dsoa.ae](http://www.dsoa.ae) |
-| Dubai | Dubai Design District (d3) | Мода, дизайн, мистецтво, люкс | [dubaidesigndistrict.com](https://dubaidesigndistrict.com) |
-| Dubai | Dubai Production City | Поліграфія, видавництво, упаковка | [dubaiproductioncity.ae](https://www.dubaiproductioncity.ae) |
-| Dubai | Dubai Studio City | Кіновиробництво, телерадіомовлення, розваги | [dubaistudiocity.ae](https://www.dubaistudiocity.ae) |
-| Dubai | Dubai Science Park | Науки про життя, біотехнології, дослідження | [dsp.ae](https://www.dsp.ae) |
-| Dubai | Dubai Gold & Diamond Park | Торгівля ювелірними виробами, виробництво | [goldanddiamondpark.com](https://www.goldanddiamondpark.com) |
-| Dubai | Dubai Airport Free Zone (DAFZA) | Авіація, логістика, торгівля | [dafz.ae](http://www.dafz.ae) |
-| Dubai | Dubai South (DWC) | Авіація, логістика, електронна комерція | [dubaisouth.ae](http://www.dubaisouth.ae) |
-| Dubai | International Humanitarian City | Гуманітарні послуги, НУО | [ihc.ae](https://www.ihc.ae) |
-| Dubai | Dubai Industrial City | Виробництво, промислові операції | [dubaiindustrialcity.ae](https://www.dubaiindustrialcity.ae) |
-| Dubai | Dubai Maritime City | Морські послуги, судноплавство | [dmca.ae](https://www.dmca.ae) |
-| Dubai | Dubai World Trade Centre Free Zone | Заходи, конференції, торгівля | [dwtc.com](https://www.dwtc.com) |
-| Dubai | Dubai Academic City | Освіта, навчання | [diac.ae](https://www.diac.ae) |
-| Dubai | Dubai Outsource City | Аутсорсинг бізнес-процесів, спільні послуги | [dubaioutsourcezone.ae](https://www.dubaioutsourcezone.ae) |
-| Dubai | Dubai CommerCity | Центр електронної комерції | [dubaicommercity.ae](https://www.dubaicommercity.ae) |
-| Dubai | Dubai Textile City | Торгівля текстилем, виробництво | [texmas.com](https://www.texmas.com) |
-| Dubai | Meydan Free Zone | Загальна торгівля, послуги | [meydanfreezone.com](https://www.meydanfreezone.com) |
-| Dubai | International Media Production Zone | Медіавиробництво, креативні індустрії | [impz.ae](https://www.impz.ae) |
-| Dubai | Dubai Biotechnology & Research Park | Біотехнології, дослідження | [dubiotech.ae](https://www.dubiotech.ae) |
-| Dubai | Jumeirah Lakes Towers Free Zone | Загальна торгівля, послуги | [dmcc.ae/free-zone](https://www.dmcc.ae/free-zone) |
-| Dubai | DUQE Free Zone | Стратегічне розташування, судноплавство та торгівля | [duqe.ae](https://www.duqe.ae) |
-| Abu Dhabi | Abu Dhabi Global Market (ADGM) | Фінансові послуги, управління капіталом | [adgm.com](http://www.adgm.com) |
-| Abu Dhabi | Khalifa Industrial Zone (KIZAD) | Виробництво, промисловість | [kizad.ae](http://www.kizad.ae) |
-| Abu Dhabi | twofour54 | Медіа, розваги, ігри | [twofour54.com](https://www.twofour54.com) |
-| Abu Dhabi | Masdar City Free Zone | Відновлювана енергетика, чисті технології | [masdarcityfreezone.ae](https://www.masdarcityfreezone.ae) |
-| Abu Dhabi | Abu Dhabi Airport Free Zone | Авіація, логістика | [adafz.ae](https://www.adafz.ae) |
-| Abu Dhabi | KEZAD Group | Промисловість, логістика | [kezadgroup.com](https://www.kezadgroup.com) |
-| Sharjah | Sharjah Airport Free Zone (SAIF) | Виробництво, торгівля, послуги | [saif-zone.com](http://www.saif-zone.com) |
-| Sharjah | Hamriyah Free Zone | Промисловість, виробництво, нафта і газ | [hfza.ae](http://www.hfza.ae) |
-| Sharjah | Sharjah Publishing City | Видавництво, поліграфія, медіа | [spcfz.com](https://www.spcfz.com) |
-| Sharjah | U.S.A. Regional Trade Center | Торгівля між США та ОАЕ | [usartc.org](https://www.usartc.org) |
-| Sharjah | Sharjah Media City (SHAMS) | Креативні індустрії, медіа | [shams.ae](https://www.shams.ae) |
-| Ras Al Khaimah | RAK Economic Zone (RAKEZ) | Виробництво, торгівля, послуги | [rakez.com](http://www.rakez.com) |
-| Ras Al Khaimah | RAK ICC | Холдингові компанії, інвестиції | [rakicc.com](https://www.rakicc.com) |
-| Ras Al Khaimah | RAK Maritime City | Морська індустрія | [rakez.com/en/rmc](https://www.rakez.com/en/rmc) |
-| Ajman | Ajman Free Zone | Малий та середній бізнес, торгівля, послуги | [afz.gov.ae](http://www.afz.gov.ae) |
-| Ajman | Ajman Media City Free Zone | Медіа, креативні індустрії | [amcfz.ae](https://www.amcfz.ae) |
-| Fujairah | Fujairah Free Zone | Торгівля, легка промисловість | [fujairahfreezone.ae](https://fujairahfreezone.ae) |
-| Fujairah | Creative City | Медіа, креативні індустрії | [fujairahfreezone.com](http://www.fujairahfreezone.com) |
-| Fujairah | Fujairah Oil Industry Zone | Нафта і газ | [foiz.gov.ae](https://foiz.gov.ae) |
-| Umm Al Quwain | UAQ Free Trade Zone | Малий та середній бізнес, торгівля | [uaqftz.com](https://www.uaqftz.com) |
-| Umm Al Quwain | Ahmed Bin Rashid Free Zone | Виробництво, промисловість | [auaqftz.gov.ae](https://www.auaqftz.gov.ae) |
+| Емірат         | Free Zone                                   | Найкраще використання                                              | Веб-сайт                                                     |
+| -------------- | ------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------ |
+| Dubai          | Dubai Multi Commodities Centre (DMCC)       | Торгівля товарами, дорогоцінними металами, діамантами, чаєм, кавою | [dmcc.ae](http://www.dmcc.ae)                                |
+| Dubai          | Dubai International Financial Centre (DIFC) | Фінансові послуги, фінтех, банківська справа, управління капіталом | [difc.ae](https://www.difc.ae)                               |
+| Dubai          | Dubai Media City (DMC)                      | Медіа, телерадіомовлення, видавнича справа, реклама                | [dmc.ae](http://www.dmc.ae)                                  |
+| Dubai          | Dubai Internet City (DIC)                   | Технології, розробка програмного забезпечення, ІТ-послуги          | [dic.ae](http://www.dic.ae)                                  |
+| Dubai          | Dubai Healthcare City                       | Охорона здоров'я, медичні послуги, фармацевтика                    | [dhcc.ae](https://www.dhcc.ae)                               |
+| Dubai          | Jebel Ali Free Zone (JAFZA)                 | Виробництво, логістика, торгівля                                   | [jafza.ae](http://www.jafza.ae)                              |
+| Dubai          | Dubai Silicon Oasis                         | Технології, напівпровідники, електроніка                           | [dsoa.ae](http://www.dsoa.ae)                                |
+| Dubai          | Dubai Design District (d3)                  | Мода, дизайн, мистецтво, люкс                                      | [dubaidesigndistrict.com](https://dubaidesigndistrict.com)   |
+| Dubai          | Dubai Production City                       | Поліграфія, видавництво, упаковка                                  | [dubaiproductioncity.ae](https://www.dubaiproductioncity.ae) |
+| Dubai          | Dubai Studio City                           | Кіновиробництво, телерадіомовлення, розваги                        | [dubaistudiocity.ae](https://www.dubaistudiocity.ae)         |
+| Dubai          | Dubai Science Park                          | Науки про життя, біотехнології, дослідження                        | [dsp.ae](https://www.dsp.ae)                                 |
+| Dubai          | Dubai Gold & Diamond Park                   | Торгівля ювелірними виробами, виробництво                          | [goldanddiamondpark.com](https://www.goldanddiamondpark.com) |
+| Dubai          | Dubai Airport Free Zone (DAFZA)             | Авіація, логістика, торгівля                                       | [dafz.ae](http://www.dafz.ae)                                |
+| Dubai          | Dubai South (DWC)                           | Авіація, логістика, електронна комерція                            | [dubaisouth.ae](http://www.dubaisouth.ae)                    |
+| Dubai          | International Humanitarian City             | Гуманітарні послуги, НУО                                           | [ihc.ae](https://www.ihc.ae)                                 |
+| Dubai          | Dubai Industrial City                       | Виробництво, промислові операції                                   | [dubaiindustrialcity.ae](https://www.dubaiindustrialcity.ae) |
+| Dubai          | Dubai Maritime City                         | Морські послуги, судноплавство                                     | [dmca.ae](https://www.dmca.ae)                               |
+| Dubai          | Dubai World Trade Centre Free Zone          | Заходи, конференції, торгівля                                      | [dwtc.com](https://www.dwtc.com)                             |
+| Dubai          | Dubai Academic City                         | Освіта, навчання                                                   | [diac.ae](https://www.diac.ae)                               |
+| Dubai          | Dubai Outsource City                        | Аутсорсинг бізнес-процесів, спільні послуги                        | [dubaioutsourcezone.ae](https://www.dubaioutsourcezone.ae)   |
+| Dubai          | Dubai CommerCity                            | Центр електронної комерції                                         | [dubaicommercity.ae](https://www.dubaicommercity.ae)         |
+| Dubai          | Dubai Textile City                          | Торгівля текстилем, виробництво                                    | [texmas.com](https://www.texmas.com)                         |
+| Dubai          | Meydan Free Zone                            | Загальна торгівля, послуги                                         | [meydanfreezone.com](https://www.meydanfreezone.com)         |
+| Dubai          | International Media Production Zone         | Медіавиробництво, креативні індустрії                              | [impz.ae](https://www.impz.ae)                               |
+| Dubai          | Dubai Biotechnology & Research Park         | Біотехнології, дослідження                                         | [dubiotech.ae](https://www.dubiotech.ae)                     |
+| Dubai          | Jumeirah Lakes Towers Free Zone             | Загальна торгівля, послуги                                         | [dmcc.ae/free-zone](https://www.dmcc.ae/free-zone)           |
+| Dubai          | DUQE Free Zone                              | Стратегічне розташування, судноплавство та торгівля                | [duqe.ae](https://www.duqe.ae)                               |
+| Abu Dhabi      | Abu Dhabi Global Market (ADGM)              | Фінансові послуги, управління капіталом                            | [adgm.com](http://www.adgm.com)                              |
+| Abu Dhabi      | Khalifa Industrial Zone (KIZAD)             | Виробництво, промисловість                                         | [kizad.ae](http://www.kizad.ae)                              |
+| Abu Dhabi      | twofour54                                   | Медіа, розваги, ігри                                               | [twofour54.com](https://www.twofour54.com)                   |
+| Abu Dhabi      | Masdar City Free Zone                       | Відновлювана енергетика, чисті технології                          | [masdarcityfreezone.ae](https://www.masdarcityfreezone.ae)   |
+| Abu Dhabi      | Abu Dhabi Airport Free Zone                 | Авіація, логістика                                                 | [adafz.ae](https://www.adafz.ae)                             |
+| Abu Dhabi      | KEZAD Group                                 | Промисловість, логістика                                           | [kezadgroup.com](https://www.kezadgroup.com)                 |
+| Sharjah        | Sharjah Airport Free Zone (SAIF)            | Виробництво, торгівля, послуги                                     | [saif-zone.com](http://www.saif-zone.com)                    |
+| Sharjah        | Hamriyah Free Zone                          | Промисловість, виробництво, нафта і газ                            | [hfza.ae](http://www.hfza.ae)                                |
+| Sharjah        | Sharjah Publishing City                     | Видавництво, поліграфія, медіа                                     | [spcfz.com](https://www.spcfz.com)                           |
+| Sharjah        | U.S.A. Regional Trade Center                | Торгівля між США та ОАЕ                                            | [usartc.org](https://www.usartc.org)                         |
+| Sharjah        | Sharjah Media City (SHAMS)                  | Креативні індустрії, медіа                                         | [shams.ae](https://www.shams.ae)                             |
+| Ras Al Khaimah | RAK Economic Zone (RAKEZ)                   | Виробництво, торгівля, послуги                                     | [rakez.com](http://www.rakez.com)                            |
+| Ras Al Khaimah | RAK ICC                                     | Холдингові компанії, інвестиції                                    | [rakicc.com](https://www.rakicc.com)                         |
+| Ras Al Khaimah | RAK Maritime City                           | Морська індустрія                                                  | [rakez.com/en/rmc](https://www.rakez.com/en/rmc)             |
+| Ajman          | Ajman Free Zone                             | Малий та середній бізнес, торгівля, послуги                        | [afz.gov.ae](http://www.afz.gov.ae)                          |
+| Ajman          | Ajman Media City Free Zone                  | Медіа, креативні індустрії                                         | [amcfz.ae](https://www.amcfz.ae)                             |
+| Fujairah       | Fujairah Free Zone                          | Торгівля, легка промисловість                                      | [fujairahfreezone.ae](https://fujairahfreezone.ae)           |
+| Fujairah       | Creative City                               | Медіа, креативні індустрії                                         | [fujairahfreezone.com](http://www.fujairahfreezone.com)      |
+| Fujairah       | Fujairah Oil Industry Zone                  | Нафта і газ                                                        | [foiz.gov.ae](https://foiz.gov.ae)                           |
+| Umm Al Quwain  | UAQ Free Trade Zone                         | Малий та середній бізнес, торгівля                                 | [uaqftz.com](https://www.uaqftz.com)                         |
+| Umm Al Quwain  | Ahmed Bin Rashid Free Zone                  | Виробництво, промисловість                                         | [auaqftz.gov.ae](https://www.auaqftz.gov.ae)                 |
 
 :::
 
@@ -148,29 +148,29 @@ description: "Порівняльний посібник з відкриття б
 
 ## Порівняння вільних економічних зон ОАЕ
 
-| Критерії                                    | DMCC                                   | Meydan Free Zone                                                   | Jebel Ali Free Zone                    | RAKEZ Free Zone                         | Hamriyah Free Zone                      |
-| ------------------------------------------- | -------------------------------------- | ------------------------------------------------------------------ | -------------------------------------- | --------------------------------------- | --------------------------------------- |
-| Час реєстрації                             | 3,5 місяці                            | 3 місяці                                                           | 3 місяці                               | 3 місяці                                | 3 місяці                                |
-| Мінімальна річна вартість офісу (US$)      | 5 600                                 | 1 225                                                              | 10 000                                 | 2 000                                   | 2 500                                   |
-| Вартість складу                            | Недоступно                            | Недоступно                                                         | 25 000/рік                             | 15-20 AED/кв.фт                         | 25-30 AED/кв.фт                         |
-| Сплачений статутний капітал - компанія (US$)| 14 000                               | 0                                                                  | 0                                      | 0                                       | 0                                       |
-| Сплачений статутний капітал - установа (US$)| 14 000                               | 0                                                                  | 0                                      | 0                                       | 0                                       |
-| Дозвіл на віртуальний офіс                 | Ні                                    | Ні                                                                 | Ні                                     | Ні                                      | Ні                                      |
-| Необхідність поїздки для реєстрації        | Ні                                    | Ні                                                                 | Ні                                     | Ні                                      | Ні                                      |
-| Мінімальна кількість акціонерів            | 1                                     | 1                                                                  | 1                                      | 1                                       | 1                                       |
-| Мінімальна кількість директорів            | 1                                     | 1                                                                  | 1                                      | 1                                       | 1                                       |
-| Дозвіл на корпоративних акціонерів         | Так                                   | Так                                                                | Так                                    | Так                                     | Так                                     |
-| Дозвіл на корпоративних директорів         | Ні                                    | Ні                                                                 | Ні                                     | Ні                                      | Ні                                      |
-| 100% іноземна власність                    | Так                                   | Так                                                                | Так                                    | Так                                     | Так                                     |
-| Публічний реєстр акціонерів                | Ні                                    | Ні                                                                 | Ні                                     | Ні                                      | Ні                                      |
-| Необхідність річної податкової звітності   | Так                                   | Так                                                                | Так                                    | Так                                     | Так                                     |
-| Необхідність статутного аудиту             | Так                                   | Так                                                                | Так                                    | Так                                     | Так                                     |
-| Доступ до договорів про уникнення подвійного оподаткування ОАЕ | Так              | Так                                                                | Так                                    | Так                                     | Так                                     |
-| Дозволені види діяльності                  | [View document](https://added.gov.ae/) | [View document](https://www.meydanfz.ae/business-activities-list/) | [View document](https://www.jafza.ae/) | Торгівля, Промисловість, Логістика, Послуги | Торгівля, Промисловість, Логістика, Послуги |
-| Офіс за межами вільної зони               | Ні                                    | Так, з NOC                                                         | Ні                                     | Ні                                      | Ні                                      |
-| Дозвіл на імпорт сировини                 | Так                                   | Так                                                                | Так                                    | Так                                     | Так                                     |
-| Дозвіл на експорт товарів                 | Так                                   | Так                                                                | Так                                    | Так                                     | Так                                     |
-| Час схвалення робочої візи                | 4 тижні                               | 4 тижні                                                            | 4 тижні                                | 4 тижні                                 | 4 тижні                                 |
+| Критерії                                                       | DMCC                                   | Meydan Free Zone                                                   | Jebel Ali Free Zone                    | RAKEZ Free Zone                             | Hamriyah Free Zone                          |
+| -------------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------------ | -------------------------------------- | ------------------------------------------- | ------------------------------------------- |
+| Час реєстрації                                                 | 3,5 місяці                             | 3 місяці                                                           | 3 місяці                               | 3 місяці                                    | 3 місяці                                    |
+| Мінімальна річна вартість офісу (US$)                          | 5 600                                  | 1 225                                                              | 10 000                                 | 2 000                                       | 2 500                                       |
+| Вартість складу                                                | Недоступно                             | Недоступно                                                         | 25 000/рік                             | 15-20 AED/кв.фт                             | 25-30 AED/кв.фт                             |
+| Сплачений статутний капітал - компанія (US$)                   | 14 000                                 | 0                                                                  | 0                                      | 0                                           | 0                                           |
+| Сплачений статутний капітал - установа (US$)                   | 14 000                                 | 0                                                                  | 0                                      | 0                                           | 0                                           |
+| Дозвіл на віртуальний офіс                                     | Ні                                     | Ні                                                                 | Ні                                     | Ні                                          | Ні                                          |
+| Необхідність поїздки для реєстрації                            | Ні                                     | Ні                                                                 | Ні                                     | Ні                                          | Ні                                          |
+| Мінімальна кількість акціонерів                                | 1                                      | 1                                                                  | 1                                      | 1                                           | 1                                           |
+| Мінімальна кількість директорів                                | 1                                      | 1                                                                  | 1                                      | 1                                           | 1                                           |
+| Дозвіл на корпоративних акціонерів                             | Так                                    | Так                                                                | Так                                    | Так                                         | Так                                         |
+| Дозвіл на корпоративних директорів                             | Ні                                     | Ні                                                                 | Ні                                     | Ні                                          | Ні                                          |
+| 100% іноземна власність                                        | Так                                    | Так                                                                | Так                                    | Так                                         | Так                                         |
+| Публічний реєстр акціонерів                                    | Ні                                     | Ні                                                                 | Ні                                     | Ні                                          | Ні                                          |
+| Необхідність річної податкової звітності                       | Так                                    | Так                                                                | Так                                    | Так                                         | Так                                         |
+| Необхідність статутного аудиту                                 | Так                                    | Так                                                                | Так                                    | Так                                         | Так                                         |
+| Доступ до договорів про уникнення подвійного оподаткування ОАЕ | Так                                    | Так                                                                | Так                                    | Так                                         | Так                                         |
+| Дозволені види діяльності                                      | [View document](https://added.gov.ae/) | [View document](https://www.meydanfz.ae/business-activities-list/) | [View document](https://www.jafza.ae/) | Торгівля, Промисловість, Логістика, Послуги | Торгівля, Промисловість, Логістика, Послуги |
+| Офіс за межами вільної зони                                    | Ні                                     | Так, з NOC                                                         | Ні                                     | Ні                                          | Ні                                          |
+| Дозвіл на імпорт сировини                                      | Так                                    | Так                                                                | Так                                    | Так                                         | Так                                         |
+| Дозвіл на експорт товарів                                      | Так                                    | Так                                                                | Так                                    | Так                                         | Так                                         |
+| Час схвалення робочої візи                                     | 4 тижні                                | 4 тижні                                                            | 4 тижні                                | 4 тижні                                     | 4 тижні                                     |
 
 Ключові відмінності:
 

@@ -111,13 +111,11 @@ Notre Client devra fournir à Golden Fish un contrat de location de 12 mois pour
 ### Étape 4 : Demande de licence commerciale
 
 1.  Ensuite, Golden Fish préparera la demande de licence pour l'activité commerciale de notre Client. Selon la loi des EAU, notre Client devra demander l'une des licences suivantes :
-
     - Licence commerciale (pour exercer une activité commerciale)
     - Licence industrielle (pour créer une entreprise manufacturière)
     - Licence professionnelle (pour offrir des services, y compris la comptabilité et le conseil)
 
 1.  Avant que la demande de licence ne soit soumise et uniquement si nécessaire, Golden Fish aidera à trouver un partenaire local des EAU et rédigera un accord de service à soumettre au DED avec :
-
     - Le MOA
     - Le certificat d'approbation du nom
     - Le contrat de location

@@ -4,9 +4,7 @@ const BASE_PATH = "/ko"
 
 export const ko = defineConfig({
   description: "UAE 전문 기업 설립 및 지원 서비스. 회사 설립, 은행업무, 세금, 법률 및 비자 솔루션. 귀하의 비즈니스 꿈을 현실로 만들어드립니다!",
-  head: [
-    ["meta", { property: "og:title", content: "UAE 전문 기업 설립 및 지원 서비스. 회사 설립, 은행업무, 세금, 법률 및 비자 솔루션." }],
-  ],
+  head: [["meta", { property: "og:title", content: "UAE 전문 기업 설립 및 지원 서비스. 회사 설립, 은행업무, 세금, 법률 및 비자 솔루션." }]],
 
   themeConfig: {
     nav: [

@@ -123,41 +123,41 @@ Temsilcilik ofisi, ana şirketi tanıtmak ve BAE'de pazar araştırması yapmak 
 
 ## BAE Kuruluş Türlerinin Karşılaştırması
 
-| Özellik                        | Resident LLC            | Free Zone LLC           | Branch Office          | Offshore LLC       |
-| ------------------------------ | ----------------------- | ----------------------- | ---------------------- | ------------------ |
-| _**TEMEL İŞ FAALİYETLERİ**_    |                         |                         |                        |                    |
-| İş Kapsamı                     | Tüm ürün ve hizmetler  | Tüm ürün ve hizmetler  | Ana şirketle aynı     | Sadece uluslararası|
-| Yerel İş İzni                  | ✅ Tam erişim          | ℹ️ Kısıtlamalarla      | ✅ Evet               | ❌ Hayır           |
-| Devlet Sözleşmeleri           | ✅ Evet                | ℹ️ İstisnalarla        | ✅ Evet               | ❌ Hayır           |
-| Yerel Faturalama              | ✅ Evet                | ℹ️ Kısıtlamalarla      | ✅ Evet               | ❌ Hayır           |
-| _**KURULUŞ GEREKSİNİMLERİ**_   |                         |                         |                        |                    |
-| Minimum Sermaye               | US$1                    | Bölgeye göre değişir    | Lokasyona bağlı       | US$1               |
-| Kuruluş Süresi               | 5 hafta                 | 6 hafta                 | 6-8 hafta             | 2-4 hafta          |
-| Seyahat Gerekli              | ❌ Hayır               | ❌ Hayır                | ❌ Hayır              | ❌ Hayır           |
-| Fiziksel Ofis                | Gerekli                 | Gerekli                 | Gerekli               | Gerekli değil      |
-| Banka Hesabı Süresi          | 8 hafta                 | 8 hafta                 | 8 hafta               | 10-12 hafta        |
-| Toplam Kuruluş Süresi        | 3.5 ay                  | 3.5 ay                  | 4 ay                  | 3-4 ay             |
-| _**YASAL YAPI**_              |                         |                         |                        |                    |
-| Sınırlı Sorumluluk           | ✅ Evet                | ✅ Evet                 | ❌ Hayır              | ✅ Evet            |
-| Yabancı Ortaklık             | ✅ %100                 | ✅ %100                 | ✅ %100               | ✅ %100            |
-| Kamu Sicili                  | ❌ Hayır               | ❌ Hayır                | ❌ Hayır              | ❌ Hayır           |
-| DTAA Erişimi                 | ✅ Evet                | ✅ Evet                 | ✅ Evet               | ❌ Hayır           |
-| Devlet Tanınırlığı          | Yüksek                  | Yüksek                  | Yüksek                | Sınırlı            |
-| _**İŞ FAALİYETLERİ**_         |                         |                         |                        |                    |
-| Ticari Finansman             | ✅ Mevcut               | ✅ Mevcut               | ✅ Mevcut             | ✅ Mevcut          |
-| Vize Sponsorluğu             | ✅ Evet                | ✅ Evet                 | ✅ Evet               | ❌ Hayır           |
-| Yerel Bankacılık             | ✅ Tam erişim          | ✅ Tam erişim          | ✅ Tam erişim         | ℹ️ Sınırlı         |
-| İthalat/İhracat             | ✅ Sınırsız            | ✅ Free zone üzerinden  | ℹ️ Sınırlı            | ❌ Hayır           |
-| _**YILLIK YÜKÜMLÜLÜKLER**_    |                         |                         |                        |                    |
-| Denetim Gerekli             | ✅ Evet                | ✅ Evet                 | ✅ Evet               | ℹ️ Değişken        |
-| Vergi Beyanı                | ✅ Gerekli             | ✅ Gerekli              | ✅ Gerekli            | ℹ️ Sınırlı         |
-| Lisans Yenileme             | Yıllık                  | Yıllık                  | Yıllık                | Yıllık             |
-| Uyum Seviyesi               | Yüksek                  | Yüksek                  | Yüksek                | Düşük              |
-| _**FİNANSAL YÖNLER**_         |                         |                         |                        |                    |
-| Kuruluş Maliyetleri         | Orta                    | Yüksek                  | Yüksek                | Düşük              |
-| Bakım Maliyetleri           | Orta                    | Orta-Yüksek             | Yüksek                | Düşük              |
-| Banka Teminatı              | Hayır                   | Hayır                   | AED 50,000            | Hayır              |
-| Ofis Maliyetleri            | Esnek                   | Yüksek                  | Gerekli               | Gerekli değil      |
+| Özellik                      | Resident LLC          | Free Zone LLC          | Branch Office     | Offshore LLC        |
+| ---------------------------- | --------------------- | ---------------------- | ----------------- | ------------------- |
+| _**TEMEL İŞ FAALİYETLERİ**_  |                       |                        |                   |                     |
+| İş Kapsamı                   | Tüm ürün ve hizmetler | Tüm ürün ve hizmetler  | Ana şirketle aynı | Sadece uluslararası |
+| Yerel İş İzni                | ✅ Tam erişim         | ℹ️ Kısıtlamalarla      | ✅ Evet           | ❌ Hayır            |
+| Devlet Sözleşmeleri          | ✅ Evet               | ℹ️ İstisnalarla        | ✅ Evet           | ❌ Hayır            |
+| Yerel Faturalama             | ✅ Evet               | ℹ️ Kısıtlamalarla      | ✅ Evet           | ❌ Hayır            |
+| _**KURULUŞ GEREKSİNİMLERİ**_ |                       |                        |                   |                     |
+| Minimum Sermaye              | US$1                  | Bölgeye göre değişir   | Lokasyona bağlı   | US$1                |
+| Kuruluş Süresi               | 5 hafta               | 6 hafta                | 6-8 hafta         | 2-4 hafta           |
+| Seyahat Gerekli              | ❌ Hayır              | ❌ Hayır               | ❌ Hayır          | ❌ Hayır            |
+| Fiziksel Ofis                | Gerekli               | Gerekli                | Gerekli           | Gerekli değil       |
+| Banka Hesabı Süresi          | 8 hafta               | 8 hafta                | 8 hafta           | 10-12 hafta         |
+| Toplam Kuruluş Süresi        | 3.5 ay                | 3.5 ay                 | 4 ay              | 3-4 ay              |
+| _**YASAL YAPI**_             |                       |                        |                   |                     |
+| Sınırlı Sorumluluk           | ✅ Evet               | ✅ Evet                | ❌ Hayır          | ✅ Evet             |
+| Yabancı Ortaklık             | ✅ %100               | ✅ %100                | ✅ %100           | ✅ %100             |
+| Kamu Sicili                  | ❌ Hayır              | ❌ Hayır               | ❌ Hayır          | ❌ Hayır            |
+| DTAA Erişimi                 | ✅ Evet               | ✅ Evet                | ✅ Evet           | ❌ Hayır            |
+| Devlet Tanınırlığı           | Yüksek                | Yüksek                 | Yüksek            | Sınırlı             |
+| _**İŞ FAALİYETLERİ**_        |                       |                        |                   |                     |
+| Ticari Finansman             | ✅ Mevcut             | ✅ Mevcut              | ✅ Mevcut         | ✅ Mevcut           |
+| Vize Sponsorluğu             | ✅ Evet               | ✅ Evet                | ✅ Evet           | ❌ Hayır            |
+| Yerel Bankacılık             | ✅ Tam erişim         | ✅ Tam erişim          | ✅ Tam erişim     | ℹ️ Sınırlı          |
+| İthalat/İhracat              | ✅ Sınırsız           | ✅ Free zone üzerinden | ℹ️ Sınırlı        | ❌ Hayır            |
+| _**YILLIK YÜKÜMLÜLÜKLER**_   |                       |                        |                   |                     |
+| Denetim Gerekli              | ✅ Evet               | ✅ Evet                | ✅ Evet           | ℹ️ Değişken         |
+| Vergi Beyanı                 | ✅ Gerekli            | ✅ Gerekli             | ✅ Gerekli        | ℹ️ Sınırlı          |
+| Lisans Yenileme              | Yıllık                | Yıllık                 | Yıllık            | Yıllık              |
+| Uyum Seviyesi                | Yüksek                | Yüksek                 | Yüksek            | Düşük               |
+| _**FİNANSAL YÖNLER**_        |                       |                        |                   |                     |
+| Kuruluş Maliyetleri          | Orta                  | Yüksek                 | Yüksek            | Düşük               |
+| Bakım Maliyetleri            | Orta                  | Orta-Yüksek            | Yüksek            | Düşük               |
+| Banka Teminatı               | Hayır                 | Hayır                  | AED 50,000        | Hayır               |
+| Ofis Maliyetleri             | Esnek                 | Yüksek                 | Gerekli           | Gerekli değil       |
 
 <Button href="../comparison/entity-types" text="See detailed comparison"/>
 
@@ -306,11 +306,11 @@ Hayır, Golden Fish yasal olarak seyahat etmenize gerek kalmadan BAE şirketiniz
 
 Gereksinimler şirket türüne göre değişir:
 
-| Şirket Türü      | Ofis Gerekliliği                                                                     |
-| ----------------- | ------------------------------------------------------------------------------------ |
+| Şirket Türü           | Ofis Gerekliliği                                                           |
+| --------------------- | -------------------------------------------------------------------------- |
 | Serbest Bölge Şirketi | Kuruluş öncesi ofis alanı veya flexi-desk için kira sözleşmesi gereklidir. |
-| Mainland Şirketi  | Sadece sanal veya kayıtlı adres gereklidir.                                         |
-| Offshore Şirketi  | Sadece sanal veya kayıtlı adres gereklidir.                                         |
+| Mainland Şirketi      | Sadece sanal veya kayıtlı adres gereklidir.                                |
+| Offshore Şirketi      | Sadece sanal veya kayıtlı adres gereklidir.                                |
 
 Bu karşılaştırma tablosu, serbest bölge, mainland ve offshore şirketleri için gereksinimleri açıkça göstermektedir.
 

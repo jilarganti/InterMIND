@@ -123,41 +123,41 @@ Kantor perwakilan ideal untuk mempromosikan perusahaan induk dan melakukan riset
 
 ## Perbandingan Jenis Badan Usaha UAE
 
-| Fitur                          | Resident LLC            | Free Zone LLC           | Branch Office          | Offshore LLC       |
-| ------------------------------ | ----------------------- | ----------------------- | ---------------------- | ------------------ |
-| _**AKTIVITAS BISNIS UTAMA**_   |                         |                         |                        |                    |
-| Lingkup Bisnis                 | Semua produk & layanan | Semua produk & layanan | Sama dengan perusahaan induk | Internasional saja |
-| Izin Bisnis Lokal              | ✅ Akses penuh         | ℹ️ Dengan batasan      | ✅ Ya                  | ❌ Tidak           |
-| Kontrak Pemerintah             | ✅ Ya                   | ℹ️ Dengan pengecualian | ✅ Ya                  | ❌ Tidak           |
-| Penagihan Lokal                | ✅ Ya                   | ℹ️ Dengan batasan      | ✅ Ya                  | ❌ Tidak           |
-| _**PERSYARATAN PENDIRIAN**_    |                         |                         |                        |                    |
-| Modal Minimum                   | US$1                    | Bervariasi per zona    | Tergantung lokasi      | US$1               |
-| Waktu Pendirian                | 5 minggu               | 6 minggu               | 6-8 minggu             | 2-4 minggu         |
-| Perlu Kunjungan                | ❌ Tidak                | ❌ Tidak                | ❌ Tidak               | ❌ Tidak           |
-| Kantor Fisik                   | Diperlukan             | Diperlukan             | Diperlukan             | Tidak diperlukan   |
-| Waktu Pembukaan Rekening Bank  | 8 minggu               | 8 minggu               | 8 minggu               | 10-12 minggu       |
-| Total Waktu Pendirian          | 3,5 bulan              | 3,5 bulan              | 4 bulan                | 3-4 bulan          |
-| _**STRUKTUR HUKUM**_           |                         |                         |                        |                    |
-| Tanggung Jawab Terbatas        | ✅ Ya                   | ✅ Ya                   | ❌ Tidak               | ✅ Ya              |
-| Kepemilikan Asing              | ✅ 100%                 | ✅ 100%                 | ✅ 100%                | ✅ 100%            |
-| Registrasi Publik              | ❌ Tidak                | ❌ Tidak                | ❌ Tidak               | ❌ Tidak           |
-| Akses DTAA                     | ✅ Ya                   | ✅ Ya                   | ✅ Ya                  | ❌ Tidak           |
-| Pengakuan Pemerintah           | Tinggi                 | Tinggi                 | Tinggi                 | Terbatas           |
-| _**OPERASI BISNIS**_           |                         |                         |                        |                    |
-| Pembiayaan Perdagangan         | ✅ Tersedia             | ✅ Tersedia             | ✅ Tersedia            | ✅ Tersedia        |
-| Sponsor Visa                   | ✅ Ya                   | ✅ Ya                   | ✅ Ya                  | ❌ Tidak           |
-| Perbankan Lokal                | ✅ Akses penuh         | ✅ Akses penuh         | ✅ Akses penuh         | ℹ️ Terbatas        |
-| Impor/Ekspor                   | ✅ Tidak terbatas      | ✅ Melalui free zone   | ℹ️ Terbatas            | ❌ Tidak           |
-| _**PERSYARATAN TAHUNAN**_      |                         |                         |                        |                    |
-| Audit Wajib                    | ✅ Ya                   | ✅ Ya                   | ✅ Ya                  | ℹ️ Bervariasi      |
-| Pelaporan Pajak                | ✅ Wajib               | ✅ Wajib               | ✅ Wajib               | ℹ️ Terbatas        |
-| Pembaruan Lisensi              | Tahunan                | Tahunan                | Tahunan                | Tahunan            |
-| Tingkat Kepatuhan              | Tinggi                 | Tinggi                 | Tinggi                 | Rendah             |
-| _**ASPEK KEUANGAN**_           |                         |                         |                        |                    |
-| Biaya Pendirian                | Menengah               | Tinggi                 | Tinggi                 | Rendah             |
-| Biaya Pemeliharaan             | Menengah               | Menengah-Tinggi        | Tinggi                 | Rendah             |
-| Jaminan Bank                   | Tidak                  | Tidak                  | AED 50,000             | Tidak              |
-| Biaya Kantor                   | Fleksibel              | Tinggi                 | Diperlukan             | Tidak diperlukan   |
+| Fitur                         | Resident LLC           | Free Zone LLC          | Branch Office                | Offshore LLC       |
+| ----------------------------- | ---------------------- | ---------------------- | ---------------------------- | ------------------ |
+| _**AKTIVITAS BISNIS UTAMA**_  |                        |                        |                              |                    |
+| Lingkup Bisnis                | Semua produk & layanan | Semua produk & layanan | Sama dengan perusahaan induk | Internasional saja |
+| Izin Bisnis Lokal             | ✅ Akses penuh         | ℹ️ Dengan batasan      | ✅ Ya                        | ❌ Tidak           |
+| Kontrak Pemerintah            | ✅ Ya                  | ℹ️ Dengan pengecualian | ✅ Ya                        | ❌ Tidak           |
+| Penagihan Lokal               | ✅ Ya                  | ℹ️ Dengan batasan      | ✅ Ya                        | ❌ Tidak           |
+| _**PERSYARATAN PENDIRIAN**_   |                        |                        |                              |                    |
+| Modal Minimum                 | US$1                   | Bervariasi per zona    | Tergantung lokasi            | US$1               |
+| Waktu Pendirian               | 5 minggu               | 6 minggu               | 6-8 minggu                   | 2-4 minggu         |
+| Perlu Kunjungan               | ❌ Tidak               | ❌ Tidak               | ❌ Tidak                     | ❌ Tidak           |
+| Kantor Fisik                  | Diperlukan             | Diperlukan             | Diperlukan                   | Tidak diperlukan   |
+| Waktu Pembukaan Rekening Bank | 8 minggu               | 8 minggu               | 8 minggu                     | 10-12 minggu       |
+| Total Waktu Pendirian         | 3,5 bulan              | 3,5 bulan              | 4 bulan                      | 3-4 bulan          |
+| _**STRUKTUR HUKUM**_          |                        |                        |                              |                    |
+| Tanggung Jawab Terbatas       | ✅ Ya                  | ✅ Ya                  | ❌ Tidak                     | ✅ Ya              |
+| Kepemilikan Asing             | ✅ 100%                | ✅ 100%                | ✅ 100%                      | ✅ 100%            |
+| Registrasi Publik             | ❌ Tidak               | ❌ Tidak               | ❌ Tidak                     | ❌ Tidak           |
+| Akses DTAA                    | ✅ Ya                  | ✅ Ya                  | ✅ Ya                        | ❌ Tidak           |
+| Pengakuan Pemerintah          | Tinggi                 | Tinggi                 | Tinggi                       | Terbatas           |
+| _**OPERASI BISNIS**_          |                        |                        |                              |                    |
+| Pembiayaan Perdagangan        | ✅ Tersedia            | ✅ Tersedia            | ✅ Tersedia                  | ✅ Tersedia        |
+| Sponsor Visa                  | ✅ Ya                  | ✅ Ya                  | ✅ Ya                        | ❌ Tidak           |
+| Perbankan Lokal               | ✅ Akses penuh         | ✅ Akses penuh         | ✅ Akses penuh               | ℹ️ Terbatas        |
+| Impor/Ekspor                  | ✅ Tidak terbatas      | ✅ Melalui free zone   | ℹ️ Terbatas                  | ❌ Tidak           |
+| _**PERSYARATAN TAHUNAN**_     |                        |                        |                              |                    |
+| Audit Wajib                   | ✅ Ya                  | ✅ Ya                  | ✅ Ya                        | ℹ️ Bervariasi      |
+| Pelaporan Pajak               | ✅ Wajib               | ✅ Wajib               | ✅ Wajib                     | ℹ️ Terbatas        |
+| Pembaruan Lisensi             | Tahunan                | Tahunan                | Tahunan                      | Tahunan            |
+| Tingkat Kepatuhan             | Tinggi                 | Tinggi                 | Tinggi                       | Rendah             |
+| _**ASPEK KEUANGAN**_          |                        |                        |                              |                    |
+| Biaya Pendirian               | Menengah               | Tinggi                 | Tinggi                       | Rendah             |
+| Biaya Pemeliharaan            | Menengah               | Menengah-Tinggi        | Tinggi                       | Rendah             |
+| Jaminan Bank                  | Tidak                  | Tidak                  | AED 50,000                   | Tidak              |
+| Biaya Kantor                  | Fleksibel              | Tinggi                 | Diperlukan                   | Tidak diperlukan   |
 
 <Button href="../comparison/entity-types" text="See detailed comparison"/>
 
@@ -306,11 +306,11 @@ Tidak, Golden Fish dapat secara legal mendirikan perusahaan UAE Anda tanpa Anda 
 
 Persyaratan berbeda berdasarkan jenis perusahaan:
 
-| Jenis Perusahaan | Persyaratan Kantor |
-| ----------------- | --------------------------------------------------------------------------------------- |
+| Jenis Perusahaan  | Persyaratan Kantor                                                                |
+| ----------------- | --------------------------------------------------------------------------------- |
 | Free Zone Company | Perjanjian sewa untuk tempat kantor atau flexi-desk diperlukan sebelum pendirian. |
-| Mainland Company | Hanya memerlukan alamat virtual atau terdaftar. |
-| Offshore Company | Hanya memerlukan alamat virtual atau terdaftar. |
+| Mainland Company  | Hanya memerlukan alamat virtual atau terdaftar.                                   |
+| Offshore Company  | Hanya memerlukan alamat virtual atau terdaftar.                                   |
 
 Tabel perbandingan ini membantu memperjelas perbedaan persyaratan antara perusahaan free zone, mainland, dan offshore.
 

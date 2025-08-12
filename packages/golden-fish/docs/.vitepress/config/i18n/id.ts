@@ -3,9 +3,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/id"
 
 export const id = defineConfig({
-  description: "Layanan pembentukan dan dukungan perusahaan UAE yang ahli. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa. Mewujudkan impian bisnis Anda!",
+  description:
+    "Layanan pembentukan dan dukungan perusahaan UAE yang ahli. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa. Mewujudkan impian bisnis Anda!",
   head: [
-    ["meta", { property: "og:title", content: "Layanan pembentukan dan dukungan perusahaan UAE yang ahli. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa." }],
+    [
+      "meta",
+      {
+        property: "og:title",
+        content: "Layanan pembentukan dan dukungan perusahaan UAE yang ahli. Solusi pendirian perusahaan, perbankan, pajak, hukum dan visa.",
+      },
+    ],
   ],
 
   themeConfig: {

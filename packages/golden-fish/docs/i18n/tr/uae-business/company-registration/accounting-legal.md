@@ -7,14 +7,14 @@ description: "BAE kurumsal vergilendirme, muhasebe standartları ve yasal uyum h
 
 ## BAE Vergi Sistemi Genel Bakışı
 
-| Vergi Türü           | Oran | Detaylar                                                         |
-| -------------------- | ---- | ---------------------------------------------------------------- |
-| Kurumlar Vergisi     | `9%` | 1 Haziran 2023'ten itibaren geçerli                             |
-| Gelir Vergisi        | `0%` | BAE mukimleri için gelir vergisi yok                            |
-| Sermaye Kazanç Vergisi| `0%` | Sermaye kazançları üzerinden vergi yok                          |
-| Stopaj Vergileri     | `0%` | Yurtdışı işlemler için stopaj vergisi yok                       |
-| VAT                  | `5%` | BAE VAT-kayıtlı müşteriler ve çok uluslu hizmetler için geçerli |
-| DTAs                 | >110 | Dünya çapında 110'dan fazla Çifte Vergilendirmeyi Önleme Anlaşması imzalandı |
+| Vergi Türü             | Oran | Detaylar                                                                     |
+| ---------------------- | ---- | ---------------------------------------------------------------------------- |
+| Kurumlar Vergisi       | `9%` | 1 Haziran 2023'ten itibaren geçerli                                          |
+| Gelir Vergisi          | `0%` | BAE mukimleri için gelir vergisi yok                                         |
+| Sermaye Kazanç Vergisi | `0%` | Sermaye kazançları üzerinden vergi yok                                       |
+| Stopaj Vergileri       | `0%` | Yurtdışı işlemler için stopaj vergisi yok                                    |
+| VAT                    | `5%` | BAE VAT-kayıtlı müşteriler ve çok uluslu hizmetler için geçerli              |
+| DTAs                   | >110 | Dünya çapında 110'dan fazla Çifte Vergilendirmeyi Önleme Anlaşması imzalandı |
 
 ## BAE Vergilendirme
 
@@ -97,13 +97,13 @@ BAE Kurumlar Vergisi Kanunu kapsamında, tüm vergi mükellefleri, ilgili vergi 
 
 ### Vergi Belgelerinin Sunulmaması Durumunda Ceza
 
-| Ceza Türü | Ceza Tutarı |
-|-----------|-------------|
-| Vergi kanunlarında belirtilen gerekli kayıtları ve diğer bilgileri tutmama | Her ihlal için `10.000 AED` veya tekrarlanan her ihlal durumunda `20.000 AED` |
-| Federal Vergi İdaresi'ne (FTA) vergiyle ilgili veri, kayıt ve belgeleri Arapça olarak sunmama | Her ihlal için `5.000 AED` |
-| Vergi Beyannamesini belirtilen süre içinde vermeme | İlk 12 ay için her ay (veya ay kesri) başına `500 AED`, 13. aydan itibaren her ay (veya ay kesri) başına `1.000 AED` |
-| Ödenecek Vergiyi ödememe | Ödeme yapılana kadar vade tarihinden itibaren ödenmemiş vergi tutarı üzerinden yıllık `%14` oranında aylık ceza |
-| Yanlış Vergi Beyannamesi verme | Vergi Beyannamesi son teslim tarihinden önce düzeltilmedikçe `500 AED` |
+| Ceza Türü                                                                                     | Ceza Tutarı                                                                                                          |
+| --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Vergi kanunlarında belirtilen gerekli kayıtları ve diğer bilgileri tutmama                    | Her ihlal için `10.000 AED` veya tekrarlanan her ihlal durumunda `20.000 AED`                                        |
+| Federal Vergi İdaresi'ne (FTA) vergiyle ilgili veri, kayıt ve belgeleri Arapça olarak sunmama | Her ihlal için `5.000 AED`                                                                                           |
+| Vergi Beyannamesini belirtilen süre içinde vermeme                                            | İlk 12 ay için her ay (veya ay kesri) başına `500 AED`, 13. aydan itibaren her ay (veya ay kesri) başına `1.000 AED` |
+| Ödenecek Vergiyi ödememe                                                                      | Ödeme yapılana kadar vade tarihinden itibaren ödenmemiş vergi tutarı üzerinden yıllık `%14` oranında aylık ceza      |
+| Yanlış Vergi Beyannamesi verme                                                                | Vergi Beyannamesi son teslim tarihinden önce düzeltilmedikçe `500 AED`                                               |
 
 ## BAE Şirket Vergilendirme ve Uyum Rehberi
 
@@ -161,7 +161,7 @@ BAE Kurumlar Vergisi Kanunu kapsamında, tüm vergi mükellefleri, ilgili vergi 
 
 **Emiratisation**: `49`'dan fazla çalışanı olan mainland işverenleri, 2026'ya kadar her yıl `%2` artacak şekilde belirli bir oranda BAE vatandaşı istihdam etmelidir. Uyumsuzluk durumunda aylık `6.000 AED` para cezası uygulanır. Hükümet, işletmelerin bu gereklilikleri karşılamasına yardımcı olmak için ücret sübvansiyonları ve eğitim programları gibi destek girişimleri sunar. Ayrıca, Emiratisation hedeflerine uyan şirketler devlet ihalelerinde öncelik ve çeşitli devlet hizmetlerinde indirimli ücretler alabilir.
 
-| Vasıflı işçi sayısı | Her yıl işe alınacak BAE vatandaşı sayısı |
-| ------------------------- | ---------------------------------------------- |
-| 0-49 | Muaf |
-| 50 ve üzeri | Her 50 vasıflı işçi için bir BAE vatandaşı |
+| Vasıflı işçi sayısı | Her yıl işe alınacak BAE vatandaşı sayısı  |
+| ------------------- | ------------------------------------------ |
+| 0-49                | Muaf                                       |
+| 50 ve üzeri         | Her 50 vasıflı işçi için bir BAE vatandaşı |

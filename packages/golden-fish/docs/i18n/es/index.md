@@ -207,11 +207,11 @@ No, Golden Fish puede constituir legalmente su empresa de EAU sin que usted nece
 
 Los requisitos difieren según el tipo de empresa:
 
-| Tipo de Empresa    | Requisito de Oficina                                                                           |
-| ------------------ | ---------------------------------------------------------------------------------------------- |
-| Empresa Free Zone  | Se requiere un contrato de arrendamiento para instalaciones de oficina o un flexi-desk antes de la constitución. |
-| Empresa Mainland   | Solo se necesita una dirección virtual o registrada.                                          |
-| Empresa Offshore   | Solo se necesita una dirección virtual o registrada.                                          |
+| Tipo de Empresa   | Requisito de Oficina                                                                                             |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Empresa Free Zone | Se requiere un contrato de arrendamiento para instalaciones de oficina o un flexi-desk antes de la constitución. |
+| Empresa Mainland  | Solo se necesita una dirección virtual o registrada.                                                             |
+| Empresa Offshore  | Solo se necesita una dirección virtual o registrada.                                                             |
 
 Esta tabla comparativa ayuda a aclarar las diferencias entre los requisitos para empresas de zona franca, mainland y offshore.
 

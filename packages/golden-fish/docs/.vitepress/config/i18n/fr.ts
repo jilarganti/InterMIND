@@ -3,9 +3,17 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/fr"
 
 export const fr = defineConfig({
-  description: "Services experts de création et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa. Réalisons vos rêves professionnels !",
+  description:
+    "Services experts de création et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa. Réalisons vos rêves professionnels !",
   head: [
-    ["meta", { property: "og:title", content: "Services experts de création et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa." }],
+    [
+      "meta",
+      {
+        property: "og:title",
+        content:
+          "Services experts de création et d'accompagnement d'entreprises aux EAU. Solutions de création d'entreprise, bancaires, fiscales, juridiques et de visa.",
+      },
+    ],
   ],
 
   themeConfig: {

@@ -123,41 +123,41 @@ Um escritório de representação é ideal para promover uma empresa matriz e re
 
 ## Comparação dos Tipos de Entidades nos EAU
 
-| Característica                      | LLC Residente           | LLC Free Zone           | Escritório Branch      | LLC Offshore       |
-| ---------------------------------- | ----------------------- | ----------------------- | ---------------------- | ------------------ |
-| _**ATIVIDADES PRINCIPAIS**_         |                         |                         |                        |                    |
-| Escopo do Negócio                  | Todos produtos/serviços | Todos produtos/serviços | Igual empresa matriz   | Somente internacional |
-| Negócios Locais Permitidos         | ✅ Acesso total         | ℹ️ Com restrições       | ✅ Sim                 | ❌ Não             |
-| Contratos Governamentais           | ✅ Sim                  | ℹ️ Com exceções         | ✅ Sim                 | ❌ Não             |
-| Faturamento Local                  | ✅ Sim                  | ℹ️ Com restrições       | ✅ Sim                 | ❌ Não             |
-| _**REQUISITOS DE ABERTURA**_       |                         |                         |                        |                    |
-| Capital Mínimo                     | US$1                    | Varia por zona          | Depende localização    | US$1               |
-| Prazo de Abertura                  | 5 semanas              | 6 semanas               | 6-8 semanas            | 2-4 semanas        |
-| Viagem Necessária                  | ❌ Não                  | ❌ Não                   | ❌ Não                 | ❌ Não             |
-| Escritório Físico                  | Obrigatório            | Obrigatório             | Obrigatório            | Não obrigatório    |
-| Prazo Conta Bancária               | 8 semanas              | 8 semanas               | 8 semanas              | 10-12 semanas      |
-| Período Total de Abertura          | 3,5 meses              | 3,5 meses               | 4 meses                | 3-4 meses          |
-| _**ESTRUTURA LEGAL**_              |                         |                         |                        |                    |
-| Responsabilidade Limitada          | ✅ Sim                  | ✅ Sim                   | ❌ Não                 | ✅ Sim             |
-| Propriedade Estrangeira           | ✅ 100%                 | ✅ 100%                  | ✅ 100%                | ✅ 100%            |
-| Registro Público                   | ❌ Não                  | ❌ Não                   | ❌ Não                 | ❌ Não             |
-| Acesso DTAA                        | ✅ Sim                  | ✅ Sim                   | ✅ Sim                 | ❌ Não             |
-| Reconhecimento Governamental       | Alto                    | Alto                    | Alto                   | Limitado           |
-| _**OPERAÇÕES COMERCIAIS**_         |                         |                         |                        |                    |
-| Financiamento Comercial            | ✅ Disponível           | ✅ Disponível            | ✅ Disponível          | ✅ Disponível      |
-| Patrocínio de Visto               | ✅ Sim                  | ✅ Sim                   | ✅ Sim                 | ❌ Não             |
-| Serviços Bancários Locais         | ✅ Acesso total         | ✅ Acesso total          | ✅ Acesso total        | ℹ️ Limitado        |
-| Importação/Exportação             | ✅ Sem restrições       | ✅ Via free zone         | ℹ️ Limitado            | ❌ Não             |
-| _**REQUISITOS ANUAIS**_            |                         |                         |                        |                    |
-| Auditoria Obrigatória             | ✅ Sim                  | ✅ Sim                   | ✅ Sim                 | ℹ️ Varia           |
-| Declaração Fiscal                  | ✅ Obrigatória          | ✅ Obrigatória           | ✅ Obrigatória         | ℹ️ Limitada        |
-| Renovação de Licença              | Anual                   | Anual                   | Anual                  | Anual              |
-| Nível de Conformidade             | Alto                    | Alto                    | Alto                   | Baixo              |
-| _**ASPECTOS FINANCEIROS**_         |                         |                         |                        |                    |
-| Custos de Abertura                | Moderado                | Alto                    | Alto                   | Baixo              |
-| Custos de Manutenção              | Moderado                | Moderado-Alto           | Alto                   | Baixo              |
-| Garantia Bancária                 | Não                     | Não                     | AED 50.000             | Não                |
-| Custos de Escritório              | Flexível                | Alto                    | Obrigatório            | Não obrigatório    |
+| Característica               | LLC Residente           | LLC Free Zone           | Escritório Branch    | LLC Offshore          |
+| ---------------------------- | ----------------------- | ----------------------- | -------------------- | --------------------- |
+| _**ATIVIDADES PRINCIPAIS**_  |                         |                         |                      |                       |
+| Escopo do Negócio            | Todos produtos/serviços | Todos produtos/serviços | Igual empresa matriz | Somente internacional |
+| Negócios Locais Permitidos   | ✅ Acesso total         | ℹ️ Com restrições       | ✅ Sim               | ❌ Não                |
+| Contratos Governamentais     | ✅ Sim                  | ℹ️ Com exceções         | ✅ Sim               | ❌ Não                |
+| Faturamento Local            | ✅ Sim                  | ℹ️ Com restrições       | ✅ Sim               | ❌ Não                |
+| _**REQUISITOS DE ABERTURA**_ |                         |                         |                      |                       |
+| Capital Mínimo               | US$1                    | Varia por zona          | Depende localização  | US$1                  |
+| Prazo de Abertura            | 5 semanas               | 6 semanas               | 6-8 semanas          | 2-4 semanas           |
+| Viagem Necessária            | ❌ Não                  | ❌ Não                  | ❌ Não               | ❌ Não                |
+| Escritório Físico            | Obrigatório             | Obrigatório             | Obrigatório          | Não obrigatório       |
+| Prazo Conta Bancária         | 8 semanas               | 8 semanas               | 8 semanas            | 10-12 semanas         |
+| Período Total de Abertura    | 3,5 meses               | 3,5 meses               | 4 meses              | 3-4 meses             |
+| _**ESTRUTURA LEGAL**_        |                         |                         |                      |                       |
+| Responsabilidade Limitada    | ✅ Sim                  | ✅ Sim                  | ❌ Não               | ✅ Sim                |
+| Propriedade Estrangeira      | ✅ 100%                 | ✅ 100%                 | ✅ 100%              | ✅ 100%               |
+| Registro Público             | ❌ Não                  | ❌ Não                  | ❌ Não               | ❌ Não                |
+| Acesso DTAA                  | ✅ Sim                  | ✅ Sim                  | ✅ Sim               | ❌ Não                |
+| Reconhecimento Governamental | Alto                    | Alto                    | Alto                 | Limitado              |
+| _**OPERAÇÕES COMERCIAIS**_   |                         |                         |                      |                       |
+| Financiamento Comercial      | ✅ Disponível           | ✅ Disponível           | ✅ Disponível        | ✅ Disponível         |
+| Patrocínio de Visto          | ✅ Sim                  | ✅ Sim                  | ✅ Sim               | ❌ Não                |
+| Serviços Bancários Locais    | ✅ Acesso total         | ✅ Acesso total         | ✅ Acesso total      | ℹ️ Limitado           |
+| Importação/Exportação        | ✅ Sem restrições       | ✅ Via free zone        | ℹ️ Limitado          | ❌ Não                |
+| _**REQUISITOS ANUAIS**_      |                         |                         |                      |                       |
+| Auditoria Obrigatória        | ✅ Sim                  | ✅ Sim                  | ✅ Sim               | ℹ️ Varia              |
+| Declaração Fiscal            | ✅ Obrigatória          | ✅ Obrigatória          | ✅ Obrigatória       | ℹ️ Limitada           |
+| Renovação de Licença         | Anual                   | Anual                   | Anual                | Anual                 |
+| Nível de Conformidade        | Alto                    | Alto                    | Alto                 | Baixo                 |
+| _**ASPECTOS FINANCEIROS**_   |                         |                         |                      |                       |
+| Custos de Abertura           | Moderado                | Alto                    | Alto                 | Baixo                 |
+| Custos de Manutenção         | Moderado                | Moderado-Alto           | Alto                 | Baixo                 |
+| Garantia Bancária            | Não                     | Não                     | AED 50.000           | Não                   |
+| Custos de Escritório         | Flexível                | Alto                    | Obrigatório          | Não obrigatório       |
 
 <Button href="../comparison/entity-types" text="Ver comparação detalhada"/>
 
@@ -306,11 +306,11 @@ Não, a Golden Fish pode legalmente incorporar sua empresa nos EAU sem necessida
 
 Os requisitos variam com base no tipo de empresa:
 
-| Tipo de Empresa   | Requisito de Escritório                                                                |
-| ----------------- | ------------------------------------------------------------------------------------- |
+| Tipo de Empresa   | Requisito de Escritório                                                                  |
+| ----------------- | ---------------------------------------------------------------------------------------- |
 | Empresa Free Zone | Um contrato de aluguel para escritório ou flexi-desk é necessário antes da incorporação. |
-| Empresa Mainland  | Apenas um endereço virtual ou registrado é necessário.                                 |
-| Empresa Offshore  | Apenas um endereço virtual ou registrado é necessário.                                 |
+| Empresa Mainland  | Apenas um endereço virtual ou registrado é necessário.                                   |
+| Empresa Offshore  | Apenas um endereço virtual ou registrado é necessário.                                   |
 
 Esta tabela comparativa ajuda a esclarecer as diferenças entre os requisitos para empresas free zone, mainland e offshore.
 

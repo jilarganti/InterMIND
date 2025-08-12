@@ -207,11 +207,11 @@ Non, Golden Fish peut légalement constituer votre entreprise des EAU sans que v
 
 Les exigences diffèrent selon le type d'entreprise :
 
-| Type d'entreprise     | Exigence de bureau                                                                           |
-| --------------------- | -------------------------------------------------------------------------------------------- |
-| Entreprise Free Zone  | Un contrat de bail pour des locaux de bureau ou un bureau flexible est requis avant la constitution. |
-| Entreprise Mainland   | Seule une adresse virtuelle ou enregistrée est nécessaire.                                  |
-| Entreprise Offshore   | Seule une adresse virtuelle ou enregistrée est nécessaire.                                  |
+| Type d'entreprise    | Exigence de bureau                                                                                   |
+| -------------------- | ---------------------------------------------------------------------------------------------------- |
+| Entreprise Free Zone | Un contrat de bail pour des locaux de bureau ou un bureau flexible est requis avant la constitution. |
+| Entreprise Mainland  | Seule une adresse virtuelle ou enregistrée est nécessaire.                                           |
+| Entreprise Offshore  | Seule une adresse virtuelle ou enregistrée est nécessaire.                                           |
 
 Ce tableau comparatif aide à clarifier les différences entre les exigences pour les entreprises de zone franche, continentales et offshore.
 

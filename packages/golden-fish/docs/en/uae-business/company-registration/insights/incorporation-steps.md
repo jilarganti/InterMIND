@@ -111,13 +111,11 @@ Our Client will need to supply Golden Fish with a 12 month lease agreement for t
 ### Step 4: Trade licence application
 
 1.  Next, Golden Fish will prepare the licence application for our Client's business activity. Under the UAE law, our Client will apply for one of the following:
-
     - Commercial licence (for engaging in trading business)
     - Industrial licence (for setting up a manufacturing business)
     - Professional licence (for offering services including accountancy and consultancy)
 
 1.  Before the licence application is submitted and only if required, Golden Fish will assist to secure a local UAE partner and draft a service agreement to submit to the DED along with:
-
     - The MOA
     - The name approval certificate
     - The lease agreement

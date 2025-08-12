@@ -7,14 +7,14 @@ description: "Resumen experto sobre tributación corporativa, estándares contab
 
 ## Resumen del Sistema Fiscal de EAU
 
-| Tipo de Impuesto            | Tasa  | Detalles                                                           |
-| --------------------------- | ----- | ------------------------------------------------------------------ |
-| Impuesto Corporativo       | `9%`  | Aplicable desde el 1 de junio de 2023                              |
-| Impuesto sobre la Renta    | `0%`  | Sin impuesto sobre la renta personal para residentes de EAU        |
-| Impuesto sobre Ganancias de Capital | `0%` | Sin impuestos sobre ganancias de capital                    |
-| Retención de Impuestos     | `0%`  | Sin retención de impuestos para transacciones extranjeras          |
-| VAT                        | `5%`  | Aplica a clientes registrados en VAT de EAU y servicios multinacionales |
-| DTAs                       | >110  | Más de 110 Acuerdos de Doble Imposición firmados globalmente       |
+| Tipo de Impuesto                    | Tasa | Detalles                                                                |
+| ----------------------------------- | ---- | ----------------------------------------------------------------------- |
+| Impuesto Corporativo                | `9%` | Aplicable desde el 1 de junio de 2023                                   |
+| Impuesto sobre la Renta             | `0%` | Sin impuesto sobre la renta personal para residentes de EAU             |
+| Impuesto sobre Ganancias de Capital | `0%` | Sin impuestos sobre ganancias de capital                                |
+| Retención de Impuestos              | `0%` | Sin retención de impuestos para transacciones extranjeras               |
+| VAT                                 | `5%` | Aplica a clientes registrados en VAT de EAU y servicios multinacionales |
+| DTAs                                | >110 | Más de 110 Acuerdos de Doble Imposición firmados globalmente            |
 
 ## Impuestos en los EAU
 
@@ -97,13 +97,13 @@ Las empresas deben presentar sus estados financieros dentro de los 90 días post
 
 ### Sanciones por No Presentación de Documentos Fiscales
 
-| Tipo de Sanción                                                                                            | Monto de la Sanción                                                                                                                             |
-| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Incumplimiento en mantener los registros requeridos y otra información especificada en las leyes fiscales | `AED 10,000` por cada infracción, o `AED 20,000` en cada caso de infracción reiterada                                                          |
-| Incumplimiento en presentar datos, registros y documentos relacionados con Impuestos en árabe a la FTA   | `AED 5,000` por cada infracción                                                                                                                 |
-| Incumplimiento en presentar la Declaración de Impuestos dentro de los plazos especificados               | `AED 500` por cada mes (o parte del mismo) durante los primeros 12 meses, y `AED 1,000` por cada mes (o parte del mismo) a partir del mes 13   |
+| Tipo de Sanción                                                                                           | Monto de la Sanción                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Incumplimiento en mantener los registros requeridos y otra información especificada en las leyes fiscales | `AED 10,000` por cada infracción, o `AED 20,000` en cada caso de infracción reiterada                                                           |
+| Incumplimiento en presentar datos, registros y documentos relacionados con Impuestos en árabe a la FTA    | `AED 5,000` por cada infracción                                                                                                                 |
+| Incumplimiento en presentar la Declaración de Impuestos dentro de los plazos especificados                | `AED 500` por cada mes (o parte del mismo) durante los primeros 12 meses, y `AED 1,000` por cada mes (o parte del mismo) a partir del mes 13    |
 | Incumplimiento en liquidar el Impuesto Pagadero                                                           | Una sanción mensual del `14%` anual, calculada sobre el monto del impuesto no pagado desde la fecha de vencimiento hasta que se realice el pago |
-| Presentación de una Declaración de Impuestos incorrecta                                                   | `AED 500` a menos que la Declaración de Impuestos se corrija antes de la fecha límite de presentación                                          |
+| Presentación de una Declaración de Impuestos incorrecta                                                   | `AED 500` a menos que la Declaración de Impuestos se corrija antes de la fecha límite de presentación                                           |
 
 ## Guía de Tributación y Cumplimiento para Empresas en EAU
 
@@ -161,7 +161,7 @@ Las empresas deben presentar sus estados financieros dentro de los 90 días post
 
 **Emiratización**: Los empleadores de Mainland con más de `49 empleados` deben emplear un cierto porcentaje de nacionales de EAU, aumentando anualmente en `2%` hasta 2026.
 
-| Número de trabajadores calificados | Número de nacionales de EAU a contratar cada año |
-| --------------------------------- | ---------------------------------------------- |
-| 0-49                              | Exento                                         |
-| 50 y más                          | Un nacional de EAU por cada 50 trabajadores calificados |
+| Número de trabajadores calificados | Número de nacionales de EAU a contratar cada año        |
+| ---------------------------------- | ------------------------------------------------------- |
+| 0-49                               | Exento                                                  |
+| 50 y más                           | Un nacional de EAU por cada 50 trabajadores calificados |

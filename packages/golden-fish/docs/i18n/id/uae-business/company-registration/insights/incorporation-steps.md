@@ -111,13 +111,11 @@ Klien kami perlu menyerahkan perjanjian sewa 12 bulan untuk tempat usaha mereka 
 ### Langkah 4: Pengajuan lisensi dagang
 
 1.  Selanjutnya, Golden Fish akan menyiapkan aplikasi lisensi untuk aktivitas bisnis Klien kami. Berdasarkan hukum UAE, Klien kami akan mengajukan salah satu dari berikut ini:
-
     - Lisensi komersial (untuk menjalankan bisnis perdagangan)
     - Lisensi industri (untuk mendirikan bisnis manufaktur)
     - Lisensi profesional (untuk menawarkan jasa termasuk akuntansi dan konsultasi)
 
 1.  Sebelum aplikasi lisensi diajukan dan hanya jika diperlukan, Golden Fish akan membantu mengamankan mitra lokal UAE dan menyusun perjanjian layanan untuk diajukan ke DED bersama dengan:
-
     - MOA
     - Sertifikat persetujuan nama
     - Perjanjian sewa

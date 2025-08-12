@@ -7,14 +7,14 @@ description: "Visão geral especializada sobre tributação corporativa, padrõe
 
 ## Visão Geral do Sistema Tributário dos EAU
 
-| Tipo de Imposto    | Taxa | Detalhes                                                         |
-| ------------------ | ---- | ---------------------------------------------------------------- |
-| Imposto Corporativo| `9%` | Aplicável a partir de 1 de junho de 2023                        |
-| Imposto de Renda   | `0%` | Sem imposto de renda pessoal para residentes dos EAU            |
-| Ganhos de Capital  | `0%` | Sem impostos sobre ganhos de capital                            |
-| Impostos Retidos   | `0%` | Sem retenção de impostos para transações internacionais         |
-| VAT               | `5%` | Aplica-se a clientes registrados no VAT dos EAU e serviços multinacionais |
-| DTAs              | >110 | Mais de 110 Acordos de Dupla Tributação assinados globalmente    |
+| Tipo de Imposto     | Taxa | Detalhes                                                                  |
+| ------------------- | ---- | ------------------------------------------------------------------------- |
+| Imposto Corporativo | `9%` | Aplicável a partir de 1 de junho de 2023                                  |
+| Imposto de Renda    | `0%` | Sem imposto de renda pessoal para residentes dos EAU                      |
+| Ganhos de Capital   | `0%` | Sem impostos sobre ganhos de capital                                      |
+| Impostos Retidos    | `0%` | Sem retenção de impostos para transações internacionais                   |
+| VAT                 | `5%` | Aplica-se a clientes registrados no VAT dos EAU e serviços multinacionais |
+| DTAs                | >110 | Mais de 110 Acordos de Dupla Tributação assinados globalmente             |
 
 ## Tributação nos EAU
 
@@ -97,13 +97,13 @@ As empresas devem apresentar suas demonstrações financeiras dentro de 90 dias 
 
 ### Penalidade por Não Apresentação de Documentos Fiscais
 
-| Tipo de Penalidade                                                                                        | Valor da Penalidade                                                                                                                             |
-| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Não manter os registros necessários e outras informações especificadas nas leis tributárias              | `AED 10.000` por cada violação, ou `AED 20.000` em cada caso de violação reincidente                                                           |
-| Não apresentar dados, registros e documentos relacionados a Impostos em árabe à Autoridade Fiscal Federal (FTA) | `AED 5.000` por cada violação                                                                                                                   |
-| Não apresentar a Declaração Fiscal dentro dos prazos especificados                                       | `AED 500` por cada mês (ou parte dele) pelos primeiros 12 meses, e `AED 1.000` por cada mês (ou parte dele) a partir do 13º mês               |
-| Não liquidar o Imposto a Pagar                                                                           | Uma penalidade mensal de `14%` ao ano, calculada com base no valor do imposto não pago desde a data de vencimento até o pagamento ser efetuado |
-| Apresentar uma Declaração Fiscal incorreta                                                               | `AED 500` a menos que a Declaração Fiscal seja corrigida antes do prazo de apresentação                                                         |
+| Tipo de Penalidade                                                                                              | Valor da Penalidade                                                                                                                            |
+| --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Não manter os registros necessários e outras informações especificadas nas leis tributárias                     | `AED 10.000` por cada violação, ou `AED 20.000` em cada caso de violação reincidente                                                           |
+| Não apresentar dados, registros e documentos relacionados a Impostos em árabe à Autoridade Fiscal Federal (FTA) | `AED 5.000` por cada violação                                                                                                                  |
+| Não apresentar a Declaração Fiscal dentro dos prazos especificados                                              | `AED 500` por cada mês (ou parte dele) pelos primeiros 12 meses, e `AED 1.000` por cada mês (ou parte dele) a partir do 13º mês                |
+| Não liquidar o Imposto a Pagar                                                                                  | Uma penalidade mensal de `14%` ao ano, calculada com base no valor do imposto não pago desde a data de vencimento até o pagamento ser efetuado |
+| Apresentar uma Declaração Fiscal incorreta                                                                      | `AED 500` a menos que a Declaração Fiscal seja corrigida antes do prazo de apresentação                                                        |
 
 ## Guia de Tributação e Conformidade para Empresas nos EAU
 
@@ -161,7 +161,7 @@ As empresas devem apresentar suas demonstrações financeiras dentro de 90 dias 
 
 **Emiratização**: Empregadores do Mainland com mais de `49 funcionários` devem empregar uma certa porcentagem de cidadãos dos EAU, aumentando anualmente em `2%` até 2026. O não cumprimento leva a multas de `AED 6.000` mensais. O governo oferece iniciativas de apoio, como subsídios salariais e programas de treinamento, para ajudar as empresas a atender a esses requisitos. Além disso, empresas que cumprem as metas de Emiratização podem receber prioridade em contratos governamentais e taxas reduzidas para vários serviços governamentais.
 
-| Número de trabalhadores qualificados | Número de cidadãos dos EAU a serem contratados anualmente |
-| ----------------------------------- | ------------------------------------------------------ |
-| 0-49                                | Isento                                                 |
-| 50 e acima                          | Um cidadão dos EAU para cada 50 trabalhadores qualificados |
+| Número de trabalhadores qualificados | Número de cidadãos dos EAU a serem contratados anualmente  |
+| ------------------------------------ | ---------------------------------------------------------- |
+| 0-49                                 | Isento                                                     |
+| 50 e acima                           | Um cidadão dos EAU para cada 50 trabalhadores qualificados |

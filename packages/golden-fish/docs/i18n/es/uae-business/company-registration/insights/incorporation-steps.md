@@ -111,13 +111,11 @@ Nuestro Cliente deberá proporcionar a Golden Fish un contrato de arrendamiento 
 ### Paso 4: Solicitud de licencia comercial
 
 1.  A continuación, Golden Fish preparará la solicitud de licencia para la actividad comercial de nuestro Cliente. Según la ley de EAU, nuestro Cliente solicitará una de las siguientes:
-
     - Licencia comercial (para participar en actividades comerciales)
     - Licencia industrial (para establecer un negocio de fabricación)
     - Licencia profesional (para ofrecer servicios, incluida contabilidad y consultoría)
 
 1.  Antes de presentar la solicitud de licencia y solo si es necesario, Golden Fish ayudará a conseguir un socio local de EAU y redactará un acuerdo de servicios para presentar al DED junto con:
-
     - El MOA
     - El certificado de aprobación del nombre
     - El contrato de arrendamiento

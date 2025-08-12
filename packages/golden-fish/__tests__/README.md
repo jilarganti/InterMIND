@@ -104,7 +104,6 @@ pnpm test:traffic-sources
 ### API Endpoints
 
 - **signUp.ts**: Tests for user registration endpoint (5 tests)
-
   - Valid sign-up data processing
   - UTM parameter handling
   - CRM integration
@@ -120,7 +119,6 @@ pnpm test:traffic-sources
 ### Security & Configuration
 
 - **corsConfig.ts**: Tests for CORS security configuration (19 tests)
-
   - Domain whitelist validation
   - Origin and referer header checking
   - Invalid URL handling

@@ -207,11 +207,11 @@ Hayır, Golden Fish BAE şirketinizi sizin seyahat etmenize gerek kalmadan yasal
 
 Gereksinimler şirket türüne göre değişir:
 
-| Şirket Türü       | Ofis Gereksinimi                                                                                  |
-| ----------------- | ------------------------------------------------------------------------------------------------ |
-| Serbest Bölge Şirketi | Kuruluş öncesi ofis alanı için kira sözleşmesi veya flexi-desk gereklidir.                      |
-| Mainland Şirketi  | Sadece sanal veya kayıtlı adres gereklidir.                                                      |
-| Offshore Şirketi  | Sadece sanal veya kayıtlı adres gereklidir.                                                      |
+| Şirket Türü           | Ofis Gereksinimi                                                           |
+| --------------------- | -------------------------------------------------------------------------- |
+| Serbest Bölge Şirketi | Kuruluş öncesi ofis alanı için kira sözleşmesi veya flexi-desk gereklidir. |
+| Mainland Şirketi      | Sadece sanal veya kayıtlı adres gereklidir.                                |
+| Offshore Şirketi      | Sadece sanal veya kayıtlı adres gereklidir.                                |
 
 Bu karşılaştırma tablosu, serbest bölge, mainland ve offshore şirketlerin gereksinimleri arasındaki farkları netleştirir.
 

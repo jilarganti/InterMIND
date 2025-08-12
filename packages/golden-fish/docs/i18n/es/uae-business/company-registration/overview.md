@@ -123,41 +123,41 @@ Una oficina de representación es ideal para promocionar una empresa matriz y re
 
 ## Comparación de Tipos de Entidades en UAE
 
-| Característica                      | LLC Residente           | LLC Free Zone           | Oficina Sucursal      | LLC Offshore       |
-| ---------------------------------- | ----------------------- | ----------------------- | --------------------- | ------------------ |
-| _**ACTIVIDADES COMERCIALES**_       |                         |                         |                       |                    |
-| Alcance del Negocio                | Todos los productos y servicios | Todos los productos y servicios | Igual que empresa matriz | Solo internacional |
-| Negocio Local Permitido            | ✅ Acceso completo      | ℹ️ Con restricciones    | ✅ Sí                 | ❌ No              |
-| Contratos Gubernamentales          | ✅ Sí                   | ℹ️ Con excepciones      | ✅ Sí                 | ❌ No              |
-| Facturación Local                  | ✅ Sí                   | ℹ️ Con restricciones    | ✅ Sí                 | ❌ No              |
-| _**REQUISITOS DE ESTABLECIMIENTO**_ |                         |                         |                       |                    |
-| Capital Mínimo                     | US$1                    | Varía según zona        | Según ubicación       | US$1               |
-| Tiempo de Establecimiento          | 5 semanas              | 6 semanas              | 6-8 semanas           | 2-4 semanas        |
-| Viaje Requerido                    | ❌ No                   | ❌ No                   | ❌ No                 | ❌ No              |
-| Oficina Física                     | Requerida              | Requerida              | Requerida             | No requerida       |
-| Tiempo Cuenta Bancaria             | 8 semanas              | 8 semanas              | 8 semanas             | 10-12 semanas      |
-| Período Total                      | 3.5 meses              | 3.5 meses              | 4 meses               | 3-4 meses          |
-| _**ESTRUCTURA LEGAL**_             |                         |                         |                       |                    |
-| Responsabilidad Limitada           | ✅ Sí                   | ✅ Sí                   | ❌ No                 | ✅ Sí              |
-| Propiedad Extranjera              | ✅ 100%                 | ✅ 100%                 | ✅ 100%               | ✅ 100%            |
-| Registro Público                   | ❌ No                   | ❌ No                   | ❌ No                 | ❌ No              |
-| Acceso DTAA                       | ✅ Sí                   | ✅ Sí                   | ✅ Sí                 | ❌ No              |
-| Reconocimiento Gubernamental       | Alto                   | Alto                   | Alto                  | Limitado           |
-| _**OPERACIONES COMERCIALES**_      |                         |                         |                       |                    |
-| Financiación Comercial            | ✅ Disponible           | ✅ Disponible           | ✅ Disponible         | ✅ Disponible      |
-| Patrocinio de Visas               | ✅ Sí                   | ✅ Sí                   | ✅ Sí                 | ❌ No              |
-| Banca Local                       | ✅ Acceso completo      | ✅ Acceso completo      | ✅ Acceso completo    | ℹ️ Limitado        |
-| Importación/Exportación           | ✅ Sin restricciones    | ✅ A través de free zone | ℹ️ Limitado          | ❌ No              |
-| _**REQUISITOS ANUALES**_          |                         |                         |                       |                    |
-| Auditoría Requerida               | ✅ Sí                   | ✅ Sí                   | ✅ Sí                 | ℹ️ Varía           |
-| Declaración de Impuestos          | ✅ Requerida            | ✅ Requerida            | ✅ Requerida          | ℹ️ Limitada        |
-| Renovación de Licencia            | Anual                  | Anual                  | Anual                 | Anual              |
-| Nivel de Cumplimiento             | Alto                   | Alto                   | Alto                  | Bajo               |
-| _**ASPECTOS FINANCIEROS**_        |                         |                         |                       |                    |
-| Costos de Establecimiento         | Moderados              | Altos                  | Altos                 | Bajos              |
-| Costos de Mantenimiento           | Moderados              | Moderados-Altos        | Altos                 | Bajos              |
-| Garantía Bancaria                 | No                     | No                     | AED 50,000            | No                 |
-| Costos de Oficina                 | Flexibles              | Altos                  | Requeridos            | No requeridos      |
+| Característica                      | LLC Residente                   | LLC Free Zone                   | Oficina Sucursal         | LLC Offshore       |
+| ----------------------------------- | ------------------------------- | ------------------------------- | ------------------------ | ------------------ |
+| _**ACTIVIDADES COMERCIALES**_       |                                 |                                 |                          |                    |
+| Alcance del Negocio                 | Todos los productos y servicios | Todos los productos y servicios | Igual que empresa matriz | Solo internacional |
+| Negocio Local Permitido             | ✅ Acceso completo              | ℹ️ Con restricciones            | ✅ Sí                    | ❌ No              |
+| Contratos Gubernamentales           | ✅ Sí                           | ℹ️ Con excepciones              | ✅ Sí                    | ❌ No              |
+| Facturación Local                   | ✅ Sí                           | ℹ️ Con restricciones            | ✅ Sí                    | ❌ No              |
+| _**REQUISITOS DE ESTABLECIMIENTO**_ |                                 |                                 |                          |                    |
+| Capital Mínimo                      | US$1                            | Varía según zona                | Según ubicación          | US$1               |
+| Tiempo de Establecimiento           | 5 semanas                       | 6 semanas                       | 6-8 semanas              | 2-4 semanas        |
+| Viaje Requerido                     | ❌ No                           | ❌ No                           | ❌ No                    | ❌ No              |
+| Oficina Física                      | Requerida                       | Requerida                       | Requerida                | No requerida       |
+| Tiempo Cuenta Bancaria              | 8 semanas                       | 8 semanas                       | 8 semanas                | 10-12 semanas      |
+| Período Total                       | 3.5 meses                       | 3.5 meses                       | 4 meses                  | 3-4 meses          |
+| _**ESTRUCTURA LEGAL**_              |                                 |                                 |                          |                    |
+| Responsabilidad Limitada            | ✅ Sí                           | ✅ Sí                           | ❌ No                    | ✅ Sí              |
+| Propiedad Extranjera                | ✅ 100%                         | ✅ 100%                         | ✅ 100%                  | ✅ 100%            |
+| Registro Público                    | ❌ No                           | ❌ No                           | ❌ No                    | ❌ No              |
+| Acceso DTAA                         | ✅ Sí                           | ✅ Sí                           | ✅ Sí                    | ❌ No              |
+| Reconocimiento Gubernamental        | Alto                            | Alto                            | Alto                     | Limitado           |
+| _**OPERACIONES COMERCIALES**_       |                                 |                                 |                          |                    |
+| Financiación Comercial              | ✅ Disponible                   | ✅ Disponible                   | ✅ Disponible            | ✅ Disponible      |
+| Patrocinio de Visas                 | ✅ Sí                           | ✅ Sí                           | ✅ Sí                    | ❌ No              |
+| Banca Local                         | ✅ Acceso completo              | ✅ Acceso completo              | ✅ Acceso completo       | ℹ️ Limitado        |
+| Importación/Exportación             | ✅ Sin restricciones            | ✅ A través de free zone        | ℹ️ Limitado              | ❌ No              |
+| _**REQUISITOS ANUALES**_            |                                 |                                 |                          |                    |
+| Auditoría Requerida                 | ✅ Sí                           | ✅ Sí                           | ✅ Sí                    | ℹ️ Varía           |
+| Declaración de Impuestos            | ✅ Requerida                    | ✅ Requerida                    | ✅ Requerida             | ℹ️ Limitada        |
+| Renovación de Licencia              | Anual                           | Anual                           | Anual                    | Anual              |
+| Nivel de Cumplimiento               | Alto                            | Alto                            | Alto                     | Bajo               |
+| _**ASPECTOS FINANCIEROS**_          |                                 |                                 |                          |                    |
+| Costos de Establecimiento           | Moderados                       | Altos                           | Altos                    | Bajos              |
+| Costos de Mantenimiento             | Moderados                       | Moderados-Altos                 | Altos                    | Bajos              |
+| Garantía Bancaria                   | No                              | No                              | AED 50,000               | No                 |
+| Costos de Oficina                   | Flexibles                       | Altos                           | Requeridos               | No requeridos      |
 
 <Button href="../comparison/entity-types" text="See detailed comparison"/>
 
@@ -306,11 +306,11 @@ No, Golden Fish puede constituir legalmente su empresa en EAU sin necesidad de v
 
 Los requisitos difieren según el tipo de empresa:
 
-| Tipo de Empresa    | Requisito de Oficina                                                                    |
-| ----------------- | --------------------------------------------------------------------------------------- |
+| Tipo de Empresa        | Requisito de Oficina                                                                       |
+| ---------------------- | ------------------------------------------------------------------------------------------ |
 | Empresa en Zona Franca | Se requiere un contrato de arrendamiento de oficina o flexi-desk antes de la constitución. |
-| Empresa Mainland  | Solo se necesita una dirección virtual o registrada.                                     |
-| Empresa Offshore  | Solo se necesita una dirección virtual o registrada.                                     |
+| Empresa Mainland       | Solo se necesita una dirección virtual o registrada.                                       |
+| Empresa Offshore       | Solo se necesita una dirección virtual o registrada.                                       |
 
 Esta tabla comparativa ayuda a aclarar las diferencias entre los requisitos para empresas en zona franca, mainland y offshore.
 

@@ -4,9 +4,7 @@ const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
   description: "专业的阿联酋公司成立和支持服务。公司设立、银行业务、税务、法律和签证解决方案。让您的商业梦想成为现实！",
-  head: [
-    ["meta", { property: "og:title", content: "专业的阿联酋公司成立和支持服务。公司设立、银行业务、税务、法律和签证解决方案。" }],
-  ],
+  head: [["meta", { property: "og:title", content: "专业的阿联酋公司成立和支持服务。公司设立、银行业务、税务、法律和签证解决方案。" }]],
 
   themeConfig: {
     nav: [
@@ -57,15 +55,7 @@ export const zh = defineConfig({
       sending: "发送中...",
       successTitle: "感谢您！",
       successMessage: "非常感谢您的关注！我们的团队将很快与您联系，讨论您的需求。",
-      defaultCategories: [
-        "新公司成立",
-        "扩张计划（如新分支机构或特许经营）",
-        "公司迁移",
-        "Golden Visa",
-        "仅签证目的",
-        "开立银行账户",
-        "其他服务",
-      ],
+      defaultCategories: ["新公司成立", "扩张计划（如新分支机构或特许经营）", "公司迁移", "Golden Visa", "仅签证目的", "开立银行账户", "其他服务"],
       defaultButtonText: "给我们发送消息",
     },
   },

@@ -7,14 +7,14 @@ description: "Tổng quan chuyên sâu về thuế doanh nghiệp, chuẩn mực
 
 ## Tổng Quan Hệ Thống Thuế UAE
 
-| Loại Thuế         | Tỷ Lệ | Chi Tiết                                                        |
-| ----------------- | ----- | --------------------------------------------------------------- |
-| Thuế Doanh Nghiệp | `9%`  | Áp dụng từ ngày 1 tháng 6 năm 2023                             |
-| Thuế Thu Nhập     | `0%`  | Không áp dụng thuế thu nhập cá nhân cho cư dân UAE             |
-| Thuế Lãi Vốn      | `0%`  | Không áp dụng thuế lãi vốn                                     |
-| Thuế Khấu Trừ     | `0%`  | Không áp dụng thuế khấu trừ cho giao dịch quốc tế             |
+| Loại Thuế         | Tỷ Lệ | Chi Tiết                                                         |
+| ----------------- | ----- | ---------------------------------------------------------------- |
+| Thuế Doanh Nghiệp | `9%`  | Áp dụng từ ngày 1 tháng 6 năm 2023                               |
+| Thuế Thu Nhập     | `0%`  | Không áp dụng thuế thu nhập cá nhân cho cư dân UAE               |
+| Thuế Lãi Vốn      | `0%`  | Không áp dụng thuế lãi vốn                                       |
+| Thuế Khấu Trừ     | `0%`  | Không áp dụng thuế khấu trừ cho giao dịch quốc tế                |
 | VAT               | `5%`  | Áp dụng cho khách hàng đã đăng ký VAT UAE và dịch vụ đa quốc gia |
-| DTAs              | >110  | Hơn 110 Hiệp Định Tránh Đánh Thuế Hai Lần được ký kết toàn cầu |
+| DTAs              | >110  | Hơn 110 Hiệp Định Tránh Đánh Thuế Hai Lần được ký kết toàn cầu   |
 
 ## Thuế tại UAE
 
@@ -97,13 +97,13 @@ Các công ty phải nộp báo cáo tài chính trong vòng 90 ngày sau khi k�
 
 ### Phạt Không Nộp Tài Liệu Thuế
 
-| Loại Vi Phạm                                                                                              | Mức Phạt                                                                                                                                        |
-| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Không lưu giữ hồ sơ theo yêu cầu và các thông tin khác được quy định trong luật thuế                    | `AED 10.000` cho mỗi vi phạm, hoặc `AED 20.000` trong trường hợp tái phạm                                                                      |
-| Không nộp dữ liệu, hồ sơ và tài liệu liên quan đến Thuế bằng tiếng Ả Rập cho Cơ quan Thuế Liên bang (FTA) | `AED 5.000` cho mỗi vi phạm                                                                                                                     |
-| Không nộp Tờ khai Thuế trong thời hạn quy định                                                           | `AED 500` cho mỗi tháng (hoặc một phần tháng) trong 12 tháng đầu, và `AED 1.000` cho mỗi tháng (hoặc một phần tháng) từ tháng thứ 13 trở đi |
-| Không thanh toán Thuế Phải Nộp                                                                           | Phạt hàng tháng `14%` mỗi năm, tính trên số thuế chưa nộp từ ngày đến hạn cho đến khi thanh toán                                             |
-| Nộp Tờ khai Thuế không chính xác                                                                         | `AED 500` trừ khi Tờ khai Thuế được sửa chữa trước thời hạn nộp                                                                               |
+| Loại Vi Phạm                                                                                              | Mức Phạt                                                                                                                                    |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Không lưu giữ hồ sơ theo yêu cầu và các thông tin khác được quy định trong luật thuế                      | `AED 10.000` cho mỗi vi phạm, hoặc `AED 20.000` trong trường hợp tái phạm                                                                   |
+| Không nộp dữ liệu, hồ sơ và tài liệu liên quan đến Thuế bằng tiếng Ả Rập cho Cơ quan Thuế Liên bang (FTA) | `AED 5.000` cho mỗi vi phạm                                                                                                                 |
+| Không nộp Tờ khai Thuế trong thời hạn quy định                                                            | `AED 500` cho mỗi tháng (hoặc một phần tháng) trong 12 tháng đầu, và `AED 1.000` cho mỗi tháng (hoặc một phần tháng) từ tháng thứ 13 trở đi |
+| Không thanh toán Thuế Phải Nộp                                                                            | Phạt hàng tháng `14%` mỗi năm, tính trên số thuế chưa nộp từ ngày đến hạn cho đến khi thanh toán                                            |
+| Nộp Tờ khai Thuế không chính xác                                                                          | `AED 500` trừ khi Tờ khai Thuế được sửa chữa trước thời hạn nộp                                                                             |
 
 ## Hướng dẫn về Thuế và Tuân thủ cho Công ty tại UAE
 
@@ -161,7 +161,7 @@ Các công ty phải nộp báo cáo tài chính trong vòng 90 ngày sau khi k�
 
 **Emiratisation**: Người sử dụng lao động mainland có trên `49 nhân viên` phải tuyển dụng một tỷ lệ nhất định công dân UAE, tăng `2%` hàng năm đến năm 2026. Không tuân thủ dẫn đến phạt `AED 6.000` hàng tháng. Chính phủ cung cấp các sáng kiến hỗ trợ như trợ cấp lương và chương trình đào tạo để giúp doanh nghiệp đáp ứng các yêu cầu này. Ngoài ra, các công ty tuân thủ mục tiêu Emiratisation có thể được ưu tiên trong hợp đồng chính phủ và giảm phí cho các dịch vụ chính phủ khác nhau.
 
-| Số lượng lao động có kỹ năng | Số lượng công dân UAE cần tuyển mỗi năm |
-| ---------------------------- | --------------------------------------- |
-| 0-49                         | Được miễn                               |
+| Số lượng lao động có kỹ năng | Số lượng công dân UAE cần tuyển mỗi năm         |
+| ---------------------------- | ----------------------------------------------- |
+| 0-49                         | Được miễn                                       |
 | 50 trở lên                   | Một công dân UAE cho mỗi 50 lao động có kỹ năng |

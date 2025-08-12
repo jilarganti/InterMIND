@@ -111,13 +111,11 @@ Khách hàng của chúng tôi cần cung cấp cho Golden Fish hợp đồng th
 ### Bước 4: Đăng ký giấy phép kinh doanh
 
 1. Tiếp theo, Golden Fish sẽ chuẩn bị đơn xin cấp phép cho hoạt động kinh doanh của Khách hàng. Theo luật UAE, Khách hàng sẽ đăng ký một trong các loại sau:
-
    - Giấy phép thương mại (cho hoạt động kinh doanh thương mại)
    - Giấy phép công nghiệp (cho việc thành lập doanh nghiệp sản xuất)
    - Giấy phép chuyên môn (cho việc cung cấp dịch vụ bao gồm kế toán và tư vấn)
 
 1. Trước khi nộp đơn xin cấp phép và chỉ khi cần thiết, Golden Fish sẽ hỗ trợ tìm đối tác địa phương UAE và soạn thảo thỏa thuận dịch vụ để nộp cho DED cùng với:
-
    - MOA
    - Giấy chứng nhận phê duyệt tên
    - Hợp đồng thuê

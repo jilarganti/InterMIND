@@ -4,9 +4,7 @@ const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
   description: "UAEの会社設立と支援サービスのエキスパート。会社設立、銀行取引、税務、法務、ビザソリューションを提供。ビジネスの夢を実現します！",
-  head: [
-    ["meta", { property: "og:title", content: "UAEの会社設立と支援サービスのエキスパート。会社設立、銀行取引、税務、法務、ビザソリューションを提供。" }],
-  ],
+  head: [["meta", { property: "og:title", content: "UAEの会社設立と支援サービスのエキスパート。会社設立、銀行取引、税務、法務、ビザソリューションを提供。" }]],
 
   themeConfig: {
     nav: [

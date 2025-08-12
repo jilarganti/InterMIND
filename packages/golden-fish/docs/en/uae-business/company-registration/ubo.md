@@ -25,7 +25,6 @@ The legislation was introduced to:
 ## What UAE Companies Do These New Regulations Apply To?
 
 - **All**:
-
   - Mainland companies
   - Commercial free zone companies
   - Offshore companies
@@ -45,7 +44,6 @@ The company must maintain:
 ## What Information Should Be Included in These Registers?
 
 - The **Registers** should include:
-
   - Name
   - Nationality
   - Passport details
@@ -54,14 +52,12 @@ The company must maintain:
   - Date when the individual became a UBO and/or the date upon which the individual ceases to be a natural beneficiary
 
 - The **Register of Shareholders** should include:
-
   - Number of shares held by each shareholder
   - Voting rights of the shares
   - Date of acquisition of shares
   - Information on all parties
 
 - The company is also required to:
-
   - **Appoint and disclose details** of a natural person (known as an authorized agent) residing in the UAE who is authorized to disclose the company’s data and information required under the resolution.
   - **Notify the Registrar** of any change or amendment to the information provided within 15 days of the change or amendment.
 

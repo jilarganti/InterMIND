@@ -18,7 +18,6 @@ Before setting up a corporate bank account for a UAE company, our Clients should
 
 - There are no foreign exchange controls in the UAE. Funds movement is unrestricted for several financial operations, including remittances of profits, dividends, debt service, capital, capital gains, branch profits, royalties, and returns on intellectual property or imports. Foreign individuals and companies can also open personal or corporate multicurrency bank accounts.
 - The UAE's economy and banking system are vulnerable to:
-
   - Regional conflict and uncertainty
   - International efforts to combat the financing of terror and money laundering
   - Low oil prices

@@ -7,14 +7,14 @@ description: "Tinjauan ahli tentang perpajakan korporat UAE, standar akuntansi, 
 
 ## Ikhtisar Sistem Perpajakan UEA
 
-| Jenis Pajak            | Tarif | Keterangan                                                      |
-| --------------------- | ----- | --------------------------------------------------------------- |
-| Corporate Tax         | `9%`  | Berlaku sejak 1 Juni 2023                                       |
-| Income Tax           | `0%`  | Tidak ada pajak penghasilan pribadi untuk penduduk UEA          |
-| Capital Gains Tax    | `0%`  | Tidak ada pajak atas keuntungan modal                           |
-| Withholding Taxes    | `0%`  | Tidak ada pemotongan pajak untuk transaksi luar negeri          |
-| VAT                  | `5%`  | Berlaku untuk klien terdaftar VAT UEA dan layanan multinasional |
-| DTAs                 | >110  | Lebih dari 110 Perjanjian Penghindaran Pajak Berganda ditandatangani secara global |
+| Jenis Pajak       | Tarif | Keterangan                                                                         |
+| ----------------- | ----- | ---------------------------------------------------------------------------------- |
+| Corporate Tax     | `9%`  | Berlaku sejak 1 Juni 2023                                                          |
+| Income Tax        | `0%`  | Tidak ada pajak penghasilan pribadi untuk penduduk UEA                             |
+| Capital Gains Tax | `0%`  | Tidak ada pajak atas keuntungan modal                                              |
+| Withholding Taxes | `0%`  | Tidak ada pemotongan pajak untuk transaksi luar negeri                             |
+| VAT               | `5%`  | Berlaku untuk klien terdaftar VAT UEA dan layanan multinasional                    |
+| DTAs              | >110  | Lebih dari 110 Perjanjian Penghindaran Pajak Berganda ditandatangani secara global |
 
 ## Perpajakan UAE
 
@@ -97,13 +97,13 @@ Perusahaan harus menyerahkan laporan keuangan mereka dalam waktu 90 hari setelah
 
 ### Denda untuk Tidak Menyerahkan Dokumen Pajak
 
-| Jenis Denda | Jumlah Denda |
-| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Gagal menyimpan catatan yang diperlukan dan informasi lain yang ditentukan dalam undang-undang perpajakan | `AED 10.000` untuk setiap pelanggaran, atau `AED 20.000` untuk setiap kasus pelanggaran berulang |
-| Gagal menyerahkan data, catatan, dan dokumen terkait Pajak dalam bahasa Arab kepada Federal Tax Authority (FTA) | `AED 5.000` untuk setiap pelanggaran |
-| Gagal mengajukan Laporan Pajak dalam jangka waktu yang ditentukan | `AED 500` untuk setiap bulan (atau bagiannya) selama 12 bulan pertama, dan `AED 1.000` untuk setiap bulan (atau bagiannya) mulai bulan ke-13 |
-| Gagal melunasi Pajak Terutang | Denda bulanan sebesar `14%` per tahun, dihitung berdasarkan jumlah pajak yang belum dibayar dari tanggal jatuh tempo sampai pembayaran dilakukan |
-| Menyerahkan Laporan Pajak yang tidak benar | `AED 500` kecuali Laporan Pajak dikoreksi sebelum batas waktu pengajuan |
+| Jenis Denda                                                                                                     | Jumlah Denda                                                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Gagal menyimpan catatan yang diperlukan dan informasi lain yang ditentukan dalam undang-undang perpajakan       | `AED 10.000` untuk setiap pelanggaran, atau `AED 20.000` untuk setiap kasus pelanggaran berulang                                                 |
+| Gagal menyerahkan data, catatan, dan dokumen terkait Pajak dalam bahasa Arab kepada Federal Tax Authority (FTA) | `AED 5.000` untuk setiap pelanggaran                                                                                                             |
+| Gagal mengajukan Laporan Pajak dalam jangka waktu yang ditentukan                                               | `AED 500` untuk setiap bulan (atau bagiannya) selama 12 bulan pertama, dan `AED 1.000` untuk setiap bulan (atau bagiannya) mulai bulan ke-13     |
+| Gagal melunasi Pajak Terutang                                                                                   | Denda bulanan sebesar `14%` per tahun, dihitung berdasarkan jumlah pajak yang belum dibayar dari tanggal jatuh tempo sampai pembayaran dilakukan |
+| Menyerahkan Laporan Pajak yang tidak benar                                                                      | `AED 500` kecuali Laporan Pajak dikoreksi sebelum batas waktu pengajuan                                                                          |
 
 ## Panduan Perpajakan dan Kepatuhan Perusahaan UAE
 
@@ -162,6 +162,6 @@ Perusahaan harus menyerahkan laporan keuangan mereka dalam waktu 90 hari setelah
 **Emiratisasi**: Pemberi kerja Mainland dengan lebih dari `49 karyawan` harus mempekerjakan persentase tertentu warga negara UAE, meningkat setiap tahun sebesar `2%` hingga 2026. Ketidakpatuhan mengakibatkan denda `AED 6.000` per bulan. Pemerintah menawarkan inisiatif dukungan, seperti subsidi upah dan program pelatihan, untuk membantu bisnis memenuhi persyaratan ini. Selain itu, perusahaan yang mematuhi target Emiratisasi dapat menerima prioritas dalam kontrak pemerintah dan pengurangan biaya untuk berbagai layanan pemerintah.
 
 | Jumlah pekerja terampil | Jumlah warga UAE yang harus dipekerjakan setiap tahun |
-| ------------------------- | ---------------------------------------------- |
-| 0-49                      | Dikecualikan                                   |
-| 50 ke atas                | Satu warga UAE untuk setiap 50 pekerja terampil |
+| ----------------------- | ----------------------------------------------------- |
+| 0-49                    | Dikecualikan                                          |
+| 50 ke atas              | Satu warga UAE untuk setiap 50 pekerja terampil       |

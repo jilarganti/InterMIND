@@ -25,7 +25,6 @@ Peraturan ini diperkenalkan untuk:
 ## Perusahaan UAE Mana yang Terkena Peraturan Baru Ini?
 
 - **Semua**:
-
   - Perusahaan Mainland
   - Perusahaan Free Zone komersial
   - Perusahaan Offshore
@@ -45,7 +44,6 @@ Perusahaan harus memelihara:
 ## Informasi Apa yang Harus Dicantumkan dalam Register Ini?
 
 - **Register** harus mencakup:
-
   - Nama
   - Kewarganegaraan
   - Detail paspor
@@ -54,14 +52,12 @@ Perusahaan harus memelihara:
   - Tanggal ketika individu menjadi UBO dan/atau tanggal ketika individu berhenti menjadi penerima manfaat alami
 
 - **Register Pemegang Saham** harus mencakup:
-
   - Jumlah saham yang dimiliki oleh setiap pemegang saham
   - Hak suara dari saham
   - Tanggal perolehan saham
   - Informasi tentang semua pihak
 
 - Perusahaan juga diwajibkan untuk:
-
   - **Menunjuk dan mengungkapkan detail** dari orang pribadi (dikenal sebagai agen yang berwenang) yang berdomisili di UAE yang diberi wewenang untuk mengungkapkan data dan informasi perusahaan yang diperlukan berdasarkan resolusi.
   - **Memberitahu Registrar** tentang setiap perubahan atau amandemen terhadap informasi yang diberikan dalam waktu 15 hari sejak perubahan atau amandemen tersebut.
 

@@ -104,7 +104,6 @@ In the unfortunate event Golden Fish fails to supply our Client at least one mul
 #### Major Banks (Tier 1) - Key Limitations:
 
 1. Reluctance to Work with International Clients
-
    - Prefer established businesses with substantial local presence
    - Focus on companies operating in the bank's home country
    - Less welcoming to non-resident SMEs and startups
