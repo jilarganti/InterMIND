@@ -15,13 +15,9 @@
     "translate": "tsx ../../scripts/translate.ts ./scripts/translateConfig.ts",
     "index:docs": "tsx ./scripts/indexDocs.ts",
     "format": "prettier --cache --cache-strategy content -w .",
-    "lint": "pnpm eslint --cache .",
-    "prepare": "simple-git-hooks"
+    "lint": "pnpm eslint --cache ."
   },
   "dependencies": {
     "shared": "workspace:*"
-  },
-  "simple-git-hooks": {
-    "pre-push": "pnpm --filter mind-com test:unit && pnpm --filter mind-com build"
   }
 }

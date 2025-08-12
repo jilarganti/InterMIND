@@ -10,7 +10,9 @@
   "author": "Jilarganti",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "pnpm -r build"
+    "build": "pnpm -r build",
+    "test": "pnpm -r test:unit",
+    "prepare": "simple-git-hooks"
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.32.1",
@@ -70,5 +72,8 @@
     "singleQuote": false,
     "jsxSingleQuote": false,
     "quoteProps": "preserve"
+  },
+  "simple-git-hooks": {
+    "pre-push": "pnpm test:unit && pnpm build"
   }
 }

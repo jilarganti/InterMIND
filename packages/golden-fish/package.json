@@ -14,14 +14,9 @@
     "test:traffic-sources": "tsx __tests__/test-traffic-sources.ts",
     "translate": "tsx ../../scripts/translate.ts ./scripts/translateConfig.ts",
     "format": "prettier -w .",
-    "lint": "pnpm eslint --cache .",
-    "prepare": "simple-git-hooks"
+    "lint": "pnpm eslint --cache ."
   },
   "dependencies": {
     "shared": "workspace:*"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "pnpm --filter golden-fish format",
-    "pre-push": "pnpm --filter golden-fish test && pnpm --filter golden-fish build"
   }
 }
