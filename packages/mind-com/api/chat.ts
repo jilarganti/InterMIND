@@ -59,10 +59,7 @@ export async function POST(request: Request): Promise<Response> {
       toolChoice: "auto", // Позволяем модели решать, когда использовать инструмент
       maxSteps: 5, // Позволяем несколько вызовов инструментов
       onFinish: (result) => {
-        const completionTokens = result.usage.completionTokens
-
-        // Отправляем только completionTokens на фронтенд
-        data.append({ type: "completionTokens", completionTokens })
+        data.append({ type: "completionTokens", value: result.usage.completionTokens })
         data.close()
       },
     })
