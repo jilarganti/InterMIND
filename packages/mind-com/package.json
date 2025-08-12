@@ -22,6 +22,7 @@
     "shared": "workspace:*"
   },
   "simple-git-hooks": {
+    "pre-commit": "pnpm --filter mind-com format",
     "pre-push": "pnpm --filter mind-com test:unit && pnpm --filter mind-com build"
   }
 }
