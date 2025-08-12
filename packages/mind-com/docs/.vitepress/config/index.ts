@@ -74,11 +74,11 @@ export default defineConfig({
       },
     },
     plugins: [
-      // isProduction &&
-      llmstxt({
-        workDir: "en",
-        ignoreFiles: ["exp/*", "chat.md"],
-      }),
+      isProduction &&
+        llmstxt({
+          workDir: "en",
+          ignoreFiles: ["exp/*", "chat.md"],
+        }),
     ],
   },
 
