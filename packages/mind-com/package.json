@@ -14,7 +14,7 @@
     "test:traffic-sources": "tsx __tests__/test-traffic-sources.ts",
     "translate": "tsx ../../scripts/translate.ts ./scripts/translateConfig.ts",
     "index:docs": "tsx ./scripts/indexDocs.ts",
-    "format": "prettier -w .",
+    "format": "prettier --cache --cache-strategy content -w .",
     "lint": "pnpm eslint --cache .",
     "prepare": "simple-git-hooks"
   },
