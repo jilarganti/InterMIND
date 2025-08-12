@@ -5,5 +5,5 @@ i18n/
 node_modules/
 .vscode/
 .vercel/
-.gitgub/
+.github/
 __tests__/
