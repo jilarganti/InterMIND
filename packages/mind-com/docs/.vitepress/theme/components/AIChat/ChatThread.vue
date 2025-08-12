@@ -307,8 +307,8 @@ defineExpose({ insertText, submitTextDirectly })
   background-color: var(--vp-c-neutral);
   color: var(--vp-c-bg);
   width: auto;
-  padding: 0.25rem 1rem;
-  font-size: 1.2rem;
+  padding: 0rem 1rem;
+  font-size: 1.1rem;
 }
 
 .message.assistant .message-content {
