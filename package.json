@@ -74,6 +74,6 @@
     "quoteProps": "preserve"
   },
   "simple-git-hooks": {
-    "pre-push": "pnpm test:unit && pnpm build"
+    "pre-push": "pnpm test && pnpm build"
   }
 }
