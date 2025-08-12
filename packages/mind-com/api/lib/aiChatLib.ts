@@ -1,31 +1,70 @@
 /**
- * Semantic Search Tool без LangChain
- * Использует Pinecone и OpenAI напрямую
+ * Semantic Search Tool с Upstash Vector
+ * Использует Upstash Vector и OpenAI напрямую
  */
 
 import { tool } from "ai"
 import { z } from "zod"
+import { Index } from "@upstash/vector"
 import { Pinecone } from "@pinecone-database/pinecone"
 import OpenAI from "openai"
 
-if (!process.env.PINECONE_API_KEY || !process.env.OPENAI_API_KEY) console.error("❌ Отсутствуют API ключи!")
+// Выбор векторной БД: можно поменять на "pinecone"
+const USE_VECTOR_DB = "upstash" as "upstash" | "pinecone"
 
-const pinecone = new Pinecone({
-  apiKey: process.env.PINECONE_API_KEY,
-})
+// Проверка переменных окружения
+if (!process.env.OPENAI_API_KEY) {
+  console.error("❌ Отсутствует OPENAI_API_KEY!")
+}
 
+if (USE_VECTOR_DB === "upstash" && (!process.env.UPSTASH_VECTOR_REST_URL || !process.env.UPSTASH_VECTOR_REST_TOKEN)) {
+  console.error("❌ Отсутствуют API ключи для Upstash!")
+}
+
+if (USE_VECTOR_DB === "pinecone" && (!process.env.PINECONE_API_KEY || !process.env.PINECONE_INDEX_NAME)) {
+  console.error("❌ Отсутствуют API ключи для Pinecone!")
+}
+
+// Инициализация OpenAI
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 })
 
-// Получаем индекс
-const index = pinecone.index(process.env.PINECONE_INDEX_NAME)
+// Инициализация Upstash Vector (только если используем)
+const upstashIndex =
+  USE_VECTOR_DB === "upstash"
+    ? new Index({
+        url: process.env.UPSTASH_VECTOR_REST_URL!,
+        token: process.env.UPSTASH_VECTOR_REST_TOKEN!,
+      })
+    : null
 
-// Функция для создания эмбеддингов
-async function createEmbedding(text: string): Promise<number[]> {
+// Инициализация Pinecone (только если используем)
+const pinecone =
+  USE_VECTOR_DB === "pinecone"
+    ? new Pinecone({
+        apiKey: process.env.PINECONE_API_KEY!,
+      })
+    : null
+
+const pineconeIndex = pinecone ? pinecone.index(process.env.PINECONE_INDEX_NAME!) : null
+
+// Функция создания эмбеддингов для Upstash Vector (384 измерения)
+async function createUpstashEmbedding(text: string): Promise<number[]> {
   const response = await openai.embeddings.create({
     model: "text-embedding-3-small",
     input: text,
+    dimensions: 384, // Upstash требует 384 размерности
+  })
+  return response.data[0].embedding
+}
+
+// Функция создания эмбеддингов для Pinecone (1536 измерений)
+async function createPineconeEmbedding(text: string): Promise<number[]> {
+  const response = await openai.embeddings.create({
+    model: "text-embedding-3-small",
+    input: text,
+    dimensions: 1536, // Pinecone использует 1536 измерений
   })
   return response.data[0].embedding
 }
@@ -59,37 +98,60 @@ export const semanticSearchTool = tool({
   }),
   execute: async ({ query, limit = 5 }) => {
     try {
-      console.log(`🔍 Searching for: "${query}"`)
+      console.log(`🔍 Searching for: "${query}" using ${USE_VECTOR_DB}`)
 
-      // Создаем эмбеддинг для запроса
-      const queryEmbedding = await createEmbedding(query)
+      let searchResponse: any[]
 
-      // Ищем в Pinecone
-      console.log(`📡 Отправляем запрос в Pinecone...`)
-      const searchResponse = await index.query({
-        vector: queryEmbedding,
-        topK: limit,
-        includeMetadata: true,
+      if (USE_VECTOR_DB === "upstash") {
+        // Используем Upstash Vector
+        const queryEmbedding = await createUpstashEmbedding(query)
+        console.log(`📡 Отправляем запрос в Upstash Vector...`)
+
+        if (!upstashIndex) {
+          throw new Error("Upstash index не инициализирован")
+        }
+
+        searchResponse = await upstashIndex.query({
+          vector: queryEmbedding,
+          topK: limit,
+          includeMetadata: true,
+        })
+
+        console.log(`📊 Получено ${searchResponse.length || 0} результатов от Upstash`)
+      } else {
+        // Используем Pinecone
+        const queryEmbedding = await createPineconeEmbedding(query)
+        console.log(`📡 Отправляем запрос в Pinecone...`)
+
+        if (!pineconeIndex) {
+          throw new Error("Pinecone index не инициализирован")
+        }
+
+        const pineconeResponse = await pineconeIndex.query({
+          vector: queryEmbedding,
+          topK: limit,
+          includeMetadata: true,
+        })
+
+        searchResponse = pineconeResponse.matches || []
+        console.log(`📊 Получено ${searchResponse.length || 0} результатов от Pinecone`)
+      }
+
+      // Обрабатываем результаты одинаково для обеих БД
+      const relevantResults = searchResponse.map((result) => {
+        const metadata = result.metadata || {}
+
+        return {
+          content: metadata.text || "",
+          url: metadata.url || "",
+          score: result.score || 0,
+        }
       })
-
-      console.log(`📊 Получено ${searchResponse.matches?.length || 0} результатов от Pinecone`)
-
-      // Берем все результаты без фильтрации
-      const relevantResults =
-        searchResponse.matches?.map((match) => {
-          const metadata = match.metadata || {}
-
-          return {
-            content: metadata.text || "",
-            url: metadata.url || "",
-            score: match.score || 0,
-          }
-        }) || []
 
       console.log(`✅ Возвращаем ${relevantResults.length} результатов`)
 
       if (relevantResults.length === 0) {
-        console.log("⚠️ Pinecone не вернул результатов")
+        console.log(`⚠️ ${USE_VECTOR_DB} не вернул результатов`)
         return "No relevant information found for your query. The search did not return any results with sufficient relevance."
       }
 
