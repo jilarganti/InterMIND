@@ -306,7 +306,7 @@ defineExpose({ insertText, submitTextDirectly })
 .message.user .message-content {
   background-color: var(--vp-c-neutral);
   color: var(--vp-c-bg);
-  width: 100%;
+  width: auto;
   padding: 0.25rem 1rem;
   font-size: 1.2rem;
 }
