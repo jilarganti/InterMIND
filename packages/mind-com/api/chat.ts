@@ -56,10 +56,10 @@ export async function POST(request: Request): Promise<Response> {
       tools: {
         searchKnowledgeBase: semanticSearchTool,
       },
-      toolChoice: "auto", // Позволяем модели решать, когда использовать инструмент
-      maxSteps: 5, // Позволяем несколько вызовов инструментов
+      toolChoice: "auto",
+      maxSteps: 5,
       onFinish: (result) => {
-        data.append({ type: "completionTokens", value: result.usage.completionTokens })
+        data.append({ type: "completionTokens", completionTokens: result.usage.completionTokens })
         data.close()
       },
     })
