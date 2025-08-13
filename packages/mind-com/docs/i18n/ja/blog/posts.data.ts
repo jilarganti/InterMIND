@@ -1,4 +1,5 @@
 import { createContentLoader } from "vitepress"
+// import path from "path"
 
 interface Post {
   title: string
@@ -13,7 +14,19 @@ interface Post {
 declare const data: Post[]
 export { data }
 
-export default createContentLoader("en/blog/posts/*.md", {
+// Автоматически определяем локаль из пути к текущему файлу
+function getCurrentLocale(): string {
+  const currentFile = __filename || import.meta.url
+
+  // Ищем паттерн /docs/{locale}/ в пути
+  const localeMatch = currentFile.match(/\/docs\/([a-z]{2})\//)
+
+  return localeMatch ? localeMatch[1] : "en" // fallback на 'en'
+}
+
+const currentLocale = getCurrentLocale()
+
+export default createContentLoader(`${currentLocale}/blog/posts/*.md`, {
   excerpt: true,
   transform(raw): Post[] {
     return raw

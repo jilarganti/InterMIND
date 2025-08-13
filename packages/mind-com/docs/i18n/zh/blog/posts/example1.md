@@ -1,5 +1,5 @@
 ---
-layout: BlogPost
+# layout: BlogPost
 title: "InterMIND 入门指南"
 date: 2025-01-15
 author: InterMIND Team
@@ -7,25 +7,25 @@ author: InterMIND Team
 
 # InterMIND 入门指南
 
-欢迎使用 InterMIND！本文将指导您了解我们这个人工智能驱动平台的基础知识。
+欢迎使用 InterMIND！本文将指导您了解我们AI驱动平台的基础知识。
 
 <!--more-->
 
-## 什么是 InterMIND？
+## 什么是InterMIND？
 
-InterMIND 是一个创新平台，将人工智能与人类专业知识相结合，以创造强大的商业解决方案。
+InterMIND是一个创新平台，将人工智能与人类专业知识相结合，创造强大的商业解决方案。
 
-## 主要特点
+## 核心功能
 
-- **AI 聊天集成**: 由 GPT-4 和 Claude 驱动
-- **向量搜索**: 通过 Upstash 实现语义搜索功能
-- **多语言支持**: 支持19种以上语言
-- **OAuth 集成**: 安全认证系统
+- **AI 聊天集成**: 由 GPT-4 和 Claude 提供支持
+- **向量搜索**: 基于 Upstash 的语义搜索功能
+- **多语言支持**: 支持 19+ 种语言
+- **OAuth 集成**: 安全的身份验证系统
 
 ## 开始使用
 
-1. 在 [inter.mind.com](https://inter.mind.com) 注册账号
+1. 在 [inter.mind.com](https://inter.mind.com) 注册账户
 2. 完成 OAuth 身份验证
-3. 开始探索我们的人工智能功能
+3. 开始探索我们的 AI 驱动功能
 
-请持续关注更多更新和教程！
+敬请关注更多更新和教程！

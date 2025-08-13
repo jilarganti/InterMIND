@@ -3,22 +3,22 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
-  description: "InterMINDはビデオ通話のリアルタイム音声翻訳を提供し、言語の壁を即座に解消します。mind.comチームが開発。",
+  description: "InterMINDは、ビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームによって開発されています。",
   head: [
     [
       "meta",
       {
         name: "description",
-        content: "InterMINDはビデオ通話のリアルタイム音声翻訳を提供し、言語の壁を即座に解消します。mind.comチームが開発。",
+        content: "InterMINDは、ビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームによって開発されています。",
       },
     ],
-    ["meta", { property: "og:title", content: "InterMIND | グローバルチームのためのリアルタイム音声翻訳" }],
+    ["meta", { property: "og:title", content: "InterMIND | グローバルチーム向けリアルタイム音声翻訳" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMINDはビデオ通話での即時音声翻訳を提供—クリアで多言語のコミュニケーションを実現。mind.comチームが開発。",
+          "InterMINDは、ビデオ通話で瞬時の音声翻訳を提供し、障壁のない明確で多言語コミュニケーションを実現します。mind.comチームによって開発されています。",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -51,12 +51,12 @@ export const ja = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">プライバシー設定</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">プライバシーポリシー</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AIサービスの法的規制</a> | <a href="https://status.mind.com/">サービスステータス</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">プライバシー設定</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">プライバシーポリシー</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AIサービスの法的規制</a> | <a href="https://status.mind.com/">サービス状況</a>`,
     },
 
     localization: {
-      placeholder4SearchInput: "質問を入力してください...",
-      placeholder4ChatFooter: "質問を入力してください...",
+      placeholder4SearchInput: "何でもお聞きください...",
+      placeholder4ChatFooter: "何でもお聞きください...",
       placeholder4ChatList: "チャットトピックを入力...",
       buttonLabel4NavButton: "アシスタント",
       buttonLabel4SignInButton: "サインイン",
@@ -64,28 +64,29 @@ export const ja = defineConfig({
     },
     contact_form: {
       name: "お名前 *",
-      namePlaceholder: "あなたのお名前",
+      namePlaceholder: "お名前",
       email: "メールアドレス *",
-      emailPlaceholder: "あなたのメールアドレス",
+      emailPlaceholder: "メールアドレス",
       webSite: "会社のウェブサイト *",
       webSitePlaceholder: "例：https://companyname.com",
       webSiteError: "ウェブサイトを入力してください",
-      category: "主な目的は何ですか？ *",
-      categoryPlaceholder: "最も重要な項目を選択してください",
-      message: "目標についてお聞かせください（任意）",
-      messagePlaceholder: "追加の詳細情報をご記入ください（任意）",
+      category: "主な目標は何ですか？ *",
+      categoryPlaceholder: "最も重要なものを選択してください",
+      message: "目標について話し合いましょう（任意）",
+      messagePlaceholder: "追加の詳細があればご記入ください（任意）",
       submit: "リクエストを送信",
       sending: "送信中...",
       successTitle: "ありがとうございます！",
-      successMessage: "メッセージを受け付けました — チームが早急にご連絡いたします。",
+      successMessage: "メッセージを受信いたしました。チームより間もなくご連絡いたします。",
       defaultCategories: [
-        "会議での言語の壁を解消",
-        "会議を検索可能でアクション可能に",
-        "コンプライアンスとデータ所在地の確保（EU/US/アジア）",
-        "情報収集/その他",
+        "会議での言語の壁を取り除く",
+        "会議を検索可能で実行可能にする",
+        "コンプライアンスとデータ居住性の確保（EU / US / アジア）",
+        "探索中 / その他",
       ],
 
       defaultButtonText: "メッセージを送信",
+      // defaultButtonText: "無料相談を受ける",
     },
   } as DefaultTheme.Config,
 })
@@ -100,7 +101,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "仕組み", link: "overview/how-it-works" },
         { text: "ビデオ会議プラットフォーム", link: "overview/video-meeting-platform" },
         { text: "地域データプライバシー", link: "overview/privacy-architecture" },
-        { text: "重点市場", link: "overview/markets" },
+        { text: "優先市場", link: "overview/markets" },
       ],
     },
     {
@@ -130,6 +131,8 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "サポートを受ける", link: "/help" },
+        { text: "プライバシーポリシー", link: "/company/Privacy-Policy" },
+        { text: "AI法的ガイド", link: "/resources/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
@@ -137,6 +140,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "ブランドアセット", link: "/media-kit" },
+        // { text: "アカウント管理", link: "guide/account-management" },
       ],
     },
     {
@@ -156,6 +160,6 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "エグゼクティブサマリー", link: "/InterMind-Executive-Summary" },
     { text: "市場参入戦略", link: "/go-to-market-strategy" },
     { text: "投資家向けピッチ", link: "/InterMind-Investor-Pitch" },
-    { text: "財務予測の根拠（1-3年目）", link: "/Financial-Projections-Justification" },
+    { text: "財務予測の根拠（1〜3年目）", link: "/Financial-Projections-Justification" },
   ]
 }

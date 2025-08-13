@@ -18,7 +18,7 @@ export const ko = defineConfig({
       {
         property: "og:description",
         content:
-          "InterMIND는 화상 통화에서 즉각적인 음성 번역을 제공합니다 — 장벽 없는 명확하고 다국어 커뮤니케이션. mind.com 팀이 제공합니다.",
+          "InterMIND는 화상 통화에서 즉시 음성 번역을 제공합니다 — 장벽 없는 명확한 다국어 커뮤니케이션. mind.com 팀이 제공합니다.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -69,23 +69,24 @@ export const ko = defineConfig({
       emailPlaceholder: "귀하의 이메일 주소",
       webSite: "회사 웹사이트 *",
       webSitePlaceholder: "예: https://companyname.com",
-      webSiteError: "웹사이트를 입력해주세요",
-      category: "귀하의 주요 목표는 무엇입니까? *",
+      webSiteError: "웹사이트를 입력해 주세요",
+      category: "주요 목표는 무엇인가요? *",
       categoryPlaceholder: "가장 중요한 것을 선택하세요",
-      message: "목표에 대해 논의해보세요 (선택사항)",
-      messagePlaceholder: "추가 세부사항을 입력해주세요 (선택사항)",
+      message: "목표에 대해 논의해 봅시다 (선택사항)",
+      messagePlaceholder: "추가 세부사항을 제공해 주세요 (선택사항)",
       submit: "요청 제출",
       sending: "전송 중...",
       successTitle: "감사합니다!",
-      successMessage: "메시지를 받았습니다 — 곧 저희 팀이 연락드리겠습니다.",
+      successMessage: "메시지를 받았습니다 — 저희 팀이 곧 연락드리겠습니다.",
       defaultCategories: [
         "회의에서 언어 장벽 제거",
         "회의를 검색 가능하고 실행 가능하게 만들기",
-        "규정 준수 및 데이터 상주 보장 (EU / US / 아시아)",
-        "탐색 중 / 기타",
+        "규정 준수 및 데이터 거주지 보장 (EU / US / 아시아)",
+        "단순 탐색 / 기타",
       ],
 
       defaultButtonText: "메시지 보내기",
+      // defaultButtonText: "무료 상담 받기",
     },
   } as DefaultTheme.Config,
 })
@@ -96,10 +97,10 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "개요",
       collapsed: false,
       items: [
-        { text: "InterMIND란?", link: "overview/what-is-intermind" },
+        { text: "InterMIND란 무엇인가요?", link: "overview/what-is-intermind" },
         { text: "작동 방식", link: "overview/how-it-works" },
         { text: "화상 회의 플랫폼", link: "overview/video-meeting-platform" },
-        { text: "지역별 데이터 프라이버시", link: "overview/privacy-architecture" },
+        { text: "지역별 데이터 개인정보 보호", link: "overview/privacy-architecture" },
         { text: "우선 시장", link: "overview/markets" },
       ],
     },
@@ -109,7 +110,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "시작하기", link: "guide/getting-started" },
         { text: "계정 관리", link: "guide/account-management" },
-        { text: "회의 만들기", link: "guide/creating-meetings" },
+        { text: "회의 생성", link: "guide/creating-meetings" },
         { text: "회의 인터페이스", link: "guide/meeting-interface" },
         { text: "사용자 역할", link: "guide/user-roles" },
         { text: "AI 기능", link: "guide/ai-features" },
@@ -129,7 +130,9 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "지원",
       collapsed: false,
       items: [
-        { text: "지원받기", link: "/help" },
+        { text: "지원 받기", link: "/help" },
+        { text: "개인정보 처리방침", link: "/company/Privacy-Policy" },
+        { text: "AI 법적 가이드", link: "/resources/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
@@ -137,6 +140,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "브랜드 자산", link: "/media-kit" },
+        // { text: "계정 관리", link: "guide/account-management" },
       ],
     },
     {
@@ -153,9 +157,9 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 
 function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "경영 요약", link: "/InterMind-Executive-Summary" },
+    { text: "경영진 요약", link: "/InterMind-Executive-Summary" },
     { text: "시장 진출 전략", link: "/go-to-market-strategy" },
     { text: "투자자 피치", link: "/InterMind-Investor-Pitch" },
-    { text: "재무 전망 근거 (1-3년차)", link: "/Financial-Projections-Justification" },
+    { text: "재무 예측 근거 (1-3년차)", link: "/Financial-Projections-Justification" },
   ]
 }

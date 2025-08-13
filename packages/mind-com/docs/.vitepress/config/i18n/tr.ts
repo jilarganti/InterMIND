@@ -3,22 +3,22 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/tr"
 
 export const tr = defineConfig({
-  description: "InterMIND, görüntülü aramalar için gerçek zamanlı konuşma çevirisi sağlar — dil engellerini anında ortadan kaldırır. Mind.com ekibi tarafından desteklenmektedir.",
+  description: "InterMIND video aramalar için gerçek zamanlı konuşma çevirisi sağlar — dil engellerini anında ortadan kaldırır. mind.com ekibi tarafından desteklenmektedir.",
   head: [
     [
       "meta",
       {
         name: "description",
-        content: "InterMIND, görüntülü aramalar için gerçek zamanlı konuşma çevirisi sağlar — dil engellerini anında ortadan kaldırır. Mind.com ekibi tarafından desteklenmektedir.",
+        content: "InterMIND video aramalar için gerçek zamanlı konuşma çevirisi sağlar — dil engellerini anında ortadan kaldırır. mind.com ekibi tarafından desteklenmektedir.",
       },
     ],
-    ["meta", { property: "og:title", content: "InterMIND | Global Ekipler için Gerçek Zamanlı Konuşma Çevirisi" }],
+    ["meta", { property: "og:title", content: "InterMIND | Küresel Ekipler için Gerçek Zamanlı Konuşma Çevirisi" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMIND görüntülü aramalarda anında konuşma çevirisi sunar — engelsiz, çok dilli, net iletişim. Mind.com ekibi tarafından desteklenmektedir.",
+          "InterMIND video aramalarda anlık konuşma çevirisi sunar — engelsiz net, çok dilli iletişim. mind.com ekibi tarafından desteklenmektedir.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -51,16 +51,16 @@ export const tr = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Gizlilik Ayarları</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Gizlilik Politikası</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Yapay Zeka Hizmetleri için Yasal Düzenlemeler</a> | <a href="https://status.mind.com/">Hizmet durumu</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Gizlilik Ayarları</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Gizlilik Politikası</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AI Hizmetleri için Yasal Düzenlemeler</a> | <a href="https://status.mind.com/">Hizmet durumu</a>`,
     },
 
     localization: {
       placeholder4SearchInput: "Herhangi bir şey sorun...",
       placeholder4ChatFooter: "Herhangi bir şey sorun...",
-      placeholder4ChatList: "Sohbet konusu girin...",
+      placeholder4ChatList: "Sohbet konusunu girin...",
       buttonLabel4NavButton: "Asistan",
       buttonLabel4SignInButton: "Giriş yap",
-      buttonLabel4GetStartedButton: "Başla",
+      buttonLabel4GetStartedButton: "Başlayın",
     },
     contact_form: {
       name: "İsim *",
@@ -69,23 +69,24 @@ export const tr = defineConfig({
       emailPlaceholder: "e-posta adresiniz",
       webSite: "Şirket web sitesi *",
       webSitePlaceholder: "örn. https://sirketadi.com",
-      webSiteError: "Lütfen web sitesi numarası girin",
-      category: "Öncelikli hedefiniz nedir? *",
+      webSiteError: "Lütfen web sitesi adresini girin",
+      category: "Birincil hedefiniz nedir? *",
       categoryPlaceholder: "En önemli olanı seçin",
       message: "Hedeflerinizi tartışalım (isteğe bağlı)",
       messagePlaceholder: "Lütfen ek detayları belirtin (isteğe bağlı)",
-      submit: "İsteği gönder",
+      submit: "Talep gönder",
       sending: "Gönderiliyor...",
       successTitle: "Teşekkürler!",
-      successMessage: "Mesajınızı aldık — ekibimiz yakında sizinle iletişime geçecek.",
+      successMessage: "Mesajınızı aldık — ekibimiz kısa süre içinde sizinle iletişime geçecek.",
       defaultCategories: [
-        "Toplantılardaki dil engellerini kaldırın",
-        "Toplantıları aranabilir ve uygulanabilir hale getirin",
-        "Uyumluluk ve veri yerleşimini sağlayın (AB / ABD / Asya)",
+        "Toplantılardaki dil engellerini ortadan kaldırın",
+        "Toplantıları aranabilir ve eyleme dönüştürülebilir hale getirin",
+        "Uyumluluk ve veri yerleşimi sağlayın (AB / ABD / Asya)",
         "Sadece keşfediyorum / Diğer",
       ],
 
       defaultButtonText: "Bize mesaj gönderin",
+      // defaultButtonText: "Ücretsiz danışmanlık alın",
     },
   } as DefaultTheme.Config,
 })
@@ -96,28 +97,28 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "GENEL BAKIŞ",
       collapsed: false,
       items: [
-        { text: "InterMIND Nedir?", link: "overview/what-is-intermind" },
-        { text: "Nasıl Çalışır", link: "overview/how-it-works" },
-        { text: "Video Toplantı Platformu", link: "overview/video-meeting-platform" },
-        { text: "Bölgesel Veri Gizliliği", link: "overview/privacy-architecture" },
-        { text: "Öncelikli Pazarlar", link: "overview/markets" },
+        { text: "InterMIND nedir?", link: "overview/what-is-intermind" },
+        { text: "Nasıl çalışır", link: "overview/how-it-works" },
+        { text: "Video toplantı platformu", link: "overview/video-meeting-platform" },
+        { text: "Bölgesel veri gizliliği", link: "overview/privacy-architecture" },
+        { text: "Öncelikli pazarlar", link: "overview/markets" },
       ],
     },
     {
-      text: "REHBER",
+      text: "KILAVUZ",
       collapsed: false,
       items: [
-        { text: "Başlarken", link: "guide/getting-started" },
-        { text: "Hesap Yönetimi", link: "guide/account-management" },
-        { text: "Toplantı Oluşturma", link: "guide/creating-meetings" },
-        { text: "Toplantı Arayüzü", link: "guide/meeting-interface" },
-        { text: "Kullanıcı Rolleri", link: "guide/user-roles" },
-        { text: "Yapay Zeka Özellikleri", link: "guide/ai-features" },
-        { text: "Toplantı Geçmişi", link: "guide/meeting-history" },
+        { text: "Başlangıç", link: "guide/getting-started" },
+        { text: "Hesap yönetimi", link: "guide/account-management" },
+        { text: "Toplantı oluşturma", link: "guide/creating-meetings" },
+        { text: "Toplantı arayüzü", link: "guide/meeting-interface" },
+        { text: "Kullanıcı rolleri", link: "guide/user-roles" },
+        { text: "AI özellikleri", link: "guide/ai-features" },
+        { text: "Toplantı geçmişi", link: "guide/meeting-history" },
         { text: "SSS", link: "guide/faq" },
-        { text: "Sorun Giderme", link: "guide/troubleshooting" },
+        { text: "Sorun giderme", link: "guide/troubleshooting" },
         { text: "Fiyatlandırma", link: "guide/pricing" },
-        { text: "Yardım & Destek", link: "guide/help-support" },
+        { text: "Yardım ve destek", link: "guide/help-support" },
       ],
     },
   ]
@@ -129,14 +130,17 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "DESTEK",
       collapsed: false,
       items: [
-        { text: "Destek Alın", link: "/help" },
+        { text: "Destek al", link: "/help" },
+        { text: "Gizlilik politikası", link: "/company/Privacy-Policy" },
+        { text: "AI yasal kılavuzu", link: "/resources/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
       text: "KAYNAKLAR",
       collapsed: false,
       items: [
-        { text: "Marka Varlıkları", link: "/media-kit" },
+        { text: "Marka varlıkları", link: "/media-kit" },
+        // { text: "Hesap yönetimi", link: "guide/account-management" },
       ],
     },
     {
@@ -153,9 +157,9 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 
 function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Yönetici Özeti", link: "/InterMind-Executive-Summary" },
-    { text: "Pazara Giriş Stratejisi", link: "/go-to-market-strategy" },
-    { text: "Yatırımcı Sunumu", link: "/InterMind-Investor-Pitch" },
-    { text: "Finansal Projeksiyonlar Gerekçelendirmesi (1-3 Yıl)", link: "/Financial-Projections-Justification" },
+    { text: "Yönetici özeti", link: "/InterMind-Executive-Summary" },
+    { text: "Pazara giriş stratejisi", link: "/go-to-market-strategy" },
+    { text: "Yatırımcı sunumu", link: "/InterMind-Investor-Pitch" },
+    { text: "Mali projeksiyonlar gerekçesi (1-3. yıl)", link: "/Financial-Projections-Justification" },
   ]
 }

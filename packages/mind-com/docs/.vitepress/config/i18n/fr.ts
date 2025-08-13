@@ -3,22 +3,22 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/fr"
 
 export const fr = defineConfig({
-  description: "InterMIND offre la traduction vocale en temps réel pour les appels vidéo — éliminant instantanément les barrières linguistiques. Propulsé par l'équipe mind.com.",
+  description: "InterMIND fournit une traduction vocale en temps réel pour les appels vidéo — éliminant instantanément les barrières linguistiques. Propulsé par l'équipe mind.com.",
   head: [
     [
       "meta",
       {
         name: "description",
-        content: "InterMIND offre la traduction vocale en temps réel pour les appels vidéo — éliminant instantanément les barrières linguistiques. Propulsé par l'équipe mind.com.",
+        content: "InterMIND fournit une traduction vocale en temps réel pour les appels vidéo — éliminant instantanément les barrières linguistiques. Propulsé par l'équipe mind.com.",
       },
     ],
-    ["meta", { property: "og:title", content: "InterMIND | Traduction Vocale en Temps Réel pour les Équipes Internationales" }],
+    ["meta", { property: "og:title", content: "InterMIND | Traduction vocale en temps réel pour les équipes mondiales" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMIND propose une traduction vocale instantanée lors des appels vidéo — une communication multilingue claire sans barrières. Propulsé par l'équipe mind.com.",
+          "InterMIND offre une traduction vocale instantanée dans les appels vidéo — communication multilingue claire sans barrières. Propulsé par l'équipe mind.com.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -51,12 +51,12 @@ export const fr = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Réglementations légales pour les services d\'IA</a> | <a href="https://status.mind.com/">État du service</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Réglementations légales pour les services IA</a> | <a href="https://status.mind.com/">Statut du service</a>`,
     },
 
     localization: {
-      placeholder4SearchInput: "Posez n\'importe quelle question...",
-      placeholder4ChatFooter: "Posez n\'importe quelle question...",
+      placeholder4SearchInput: "Demandez n'importe quoi...",
+      placeholder4ChatFooter: "Demandez n'importe quoi...",
       placeholder4ChatList: "Entrez le sujet de discussion...",
       buttonLabel4NavButton: "Assistant",
       buttonLabel4SignInButton: "Se connecter",
@@ -67,25 +67,26 @@ export const fr = defineConfig({
       namePlaceholder: "votre nom",
       email: "Email *",
       emailPlaceholder: "votre adresse email",
-      webSite: "Site web de l\'entreprise *",
-      webSitePlaceholder: "ex. https://nomsociete.com",
+      webSite: "Site web de l'entreprise *",
+      webSitePlaceholder: "ex. https://nomdelentreprise.com",
       webSiteError: "Veuillez saisir le site web",
       category: "Quel est votre objectif principal ? *",
       categoryPlaceholder: "Choisissez ce qui compte le plus",
-      message: "Discutons de vos objectifs (facultatif)",
-      messagePlaceholder: "Veuillez fournir des détails supplémentaires (facultatif)",
+      message: "Discutons de vos objectifs (optionnel)",
+      messagePlaceholder: "Veuillez fournir des détails supplémentaires (optionnel)",
       submit: "Envoyer la demande",
       sending: "Envoi en cours...",
       successTitle: "Merci !",
-      successMessage: "Nous avons reçu votre message — notre équipe vous contactera bientôt.",
+      successMessage: "Nous avons reçu votre message — notre équipe vous contactera sous peu.",
       defaultCategories: [
         "Éliminer les barrières linguistiques dans les réunions",
         "Rendre les réunions consultables et exploitables",
-        "Assurer la conformité et la résidence des données (UE / US / Asie)",
-        "Simple exploration / Autre",
+        "Assurer la conformité et la résidence des données (UE / États-Unis / Asie)",
+        "Juste en exploration / Autre",
       ],
 
       defaultButtonText: "Envoyez-nous un message",
+      // defaultButtonText: "Obtenez une consultation gratuite",
     },
   } as DefaultTheme.Config,
 })
@@ -96,10 +97,10 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "APERÇU",
       collapsed: false,
       items: [
-        { text: "Qu\'est-ce qu\'InterMIND ?", link: "overview/what-is-intermind" },
-        { text: "Comment ça marche", link: "overview/how-it-works" },
+        { text: "Qu'est-ce qu'InterMIND ?", link: "overview/what-is-intermind" },
+        { text: "Comment ça fonctionne", link: "overview/how-it-works" },
         { text: "Plateforme de réunion vidéo", link: "overview/video-meeting-platform" },
-        { text: "Confidentialité régionale des données", link: "overview/privacy-architecture" },
+        { text: "Confidentialité des données régionales", link: "overview/privacy-architecture" },
         { text: "Marchés prioritaires", link: "overview/markets" },
       ],
     },
@@ -108,16 +109,16 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Premiers pas", link: "guide/getting-started" },
-        { text: "Gestion du compte", link: "guide/account-management" },
+        { text: "Gestion de compte", link: "guide/account-management" },
         { text: "Création de réunions", link: "guide/creating-meetings" },
         { text: "Interface de réunion", link: "guide/meeting-interface" },
-        { text: "Rôles utilisateurs", link: "guide/user-roles" },
+        { text: "Rôles utilisateur", link: "guide/user-roles" },
         { text: "Fonctionnalités IA", link: "guide/ai-features" },
         { text: "Historique des réunions", link: "guide/meeting-history" },
         { text: "FAQ", link: "guide/faq" },
         { text: "Dépannage", link: "guide/troubleshooting" },
-        { text: "Tarification", link: "guide/pricing" },
-        { text: "Aide & Support", link: "guide/help-support" },
+        { text: "Tarifs", link: "guide/pricing" },
+        { text: "Aide et support", link: "guide/help-support" },
       ],
     },
   ]
@@ -129,7 +130,9 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "SUPPORT",
       collapsed: false,
       items: [
-        { text: "Obtenir de l\'aide", link: "/help" },
+        { text: "Obtenir de l'aide", link: "/help" },
+        { text: "Politique de confidentialité", link: "/company/Privacy-Policy" },
+        { text: "Guide juridique IA", link: "/resources/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
@@ -137,6 +140,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Ressources de marque", link: "/media-kit" },
+        // { text: "Gestion de compte", link: "guide/account-management" },
       ],
     },
     {
@@ -155,7 +159,7 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Résumé exécutif", link: "/InterMind-Executive-Summary" },
     { text: "Stratégie de mise sur le marché", link: "/go-to-market-strategy" },
-    { text: "Présentation aux investisseurs", link: "/InterMind-Investor-Pitch" },
-    { text: "Justification des projections financières (An 1-3)", link: "/Financial-Projections-Justification" },
+    { text: "Présentation investisseur", link: "/InterMind-Investor-Pitch" },
+    { text: "Justification des projections financières (Années 1–3)", link: "/Financial-Projections-Justification" },
   ]
 }

@@ -3,22 +3,22 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ru"
 
 export const ru = defineConfig({
-  description: "InterMIND обеспечивает синхронный перевод речи для видеозвонков — мгновенно устраняя языковые барьеры. Разработано командой mind.com.",
+  description: "InterMIND обеспечивает перевод речи в реальном времени для видеозвонков — мгновенно устраняя языковые барьеры. Разработано командой mind.com.",
   head: [
     [
       "meta",
       {
         name: "description",
-        content: "InterMIND обеспечивает синхронный перевод речи для видеозвонков — мгновенно устраняя языковые барьеры. Разработано командой mind.com.",
+        content: "InterMIND обеспечивает перевод речи в реальном времени для видеозвонков — мгновенно устраняя языковые барьеры. Разработано командой mind.com.",
       },
     ],
-    ["meta", { property: "og:title", content: "InterMIND | Синхронный перевод речи для международных команд" }],
+    ["meta", { property: "og:title", content: "InterMIND | Перевод речи в реальном времени для глобальных команд" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMIND предлагает мгновенный перевод речи в видеозвонках — четкое, многоязычное общение без барьеров. Разработано командой mind.com.",
+          "InterMIND предлагает мгновенный перевод речи в видеозвонках — четкое многоязычное общение без барьеров. Разработано командой mind.com.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -38,7 +38,7 @@ export const ru = defineConfig({
         text: "Ресурсы",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "Частые вопросы", link: `${BASE_PATH}/#FAQ` },
+          { text: "Часто задаваемые вопросы", link: `${BASE_PATH}/#FAQ` },
           { text: "Отзывы", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -51,7 +51,7 @@ export const ru = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Правовые нормы для AI-сервисов</a> | <a href="https://status.mind.com/">Статус сервиса</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Правовые нормы для ИИ-сервисов</a> | <a href="https://status.mind.com/">Статус сервиса</a>`,
     },
 
     localization: {
@@ -71,21 +71,21 @@ export const ru = defineConfig({
       webSitePlaceholder: "например, https://companyname.com",
       webSiteError: "Пожалуйста, введите адрес сайта",
       category: "Какова ваша основная цель? *",
-      categoryPlaceholder: "Выберите, что важнее всего",
-      message: "Обсудим ваши цели (необязательно)",
-      messagePlaceholder: "Укажите дополнительные детали (необязательно)",
+      categoryPlaceholder: "Выберите наиболее важное",
+      message: "Давайте обсудим ваши цели (необязательно)",
+      messagePlaceholder: "Пожалуйста, предоставьте любые дополнительные детали (необязательно)",
       submit: "Отправить запрос",
       sending: "Отправка...",
       successTitle: "Спасибо!",
-      successMessage: "Мы получили ваше сообщение — наша команда скоро свяжется с вами.",
+      successMessage: "Мы получили ваше сообщение — наша команда свяжется с вами в ближайшее время.",
       defaultCategories: [
         "Устранить языковые барьеры на встречах",
         "Сделать встречи доступными для поиска и действий",
-        "Обеспечить соответствие и локализацию данных (ЕС / США / Азия)",
+        "Обеспечить соответствие требованиям и резидентность данных (ЕС / США / Азия)",
         "Просто изучаю / Другое",
       ],
 
-      defaultButtonText: "Отправить сообщение",
+      defaultButtonText: "Отправьте нам сообщение",
       // defaultButtonText: "Получить бесплатную консультацию",
     },
   } as DefaultTheme.Config,
@@ -100,7 +100,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Что такое InterMIND?", link: "overview/what-is-intermind" },
         { text: "Как это работает", link: "overview/how-it-works" },
         { text: "Платформа видеовстреч", link: "overview/video-meeting-platform" },
-        { text: "Региональная защита данных", link: "overview/privacy-architecture" },
+        { text: "Региональная конфиденциальность данных", link: "overview/privacy-architecture" },
         { text: "Приоритетные рынки", link: "overview/markets" },
       ],
     },
@@ -111,11 +111,11 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Начало работы", link: "guide/getting-started" },
         { text: "Управление аккаунтом", link: "guide/account-management" },
         { text: "Создание встреч", link: "guide/creating-meetings" },
-        { text: "Интерфейс встреч", link: "guide/meeting-interface" },
+        { text: "Интерфейс встречи", link: "guide/meeting-interface" },
         { text: "Роли пользователей", link: "guide/user-roles" },
-        { text: "AI функции", link: "guide/ai-features" },
+        { text: "ИИ функции", link: "guide/ai-features" },
         { text: "История встреч", link: "guide/meeting-history" },
-        { text: "Частые вопросы", link: "guide/faq" },
+        { text: "Часто задаваемые вопросы", link: "guide/faq" },
         { text: "Устранение неполадок", link: "guide/troubleshooting" },
         { text: "Цены", link: "guide/pricing" },
         { text: "Помощь и поддержка", link: "guide/help-support" },
@@ -131,6 +131,8 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Получить поддержку", link: "/help" },
+        { text: "Политика конфиденциальности", link: "/company/Privacy-Policy" },
+        { text: "Правовое руководство по ИИ", link: "/resources/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
@@ -138,6 +140,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Брендовые материалы", link: "/media-kit" },
+        // { text: "Управление аккаунтом", link: "guide/account-management" },
       ],
     },
     {
@@ -154,7 +157,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 
 function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Краткое описание", link: "/InterMind-Executive-Summary" },
+    { text: "Краткое изложение для руководства", link: "/InterMind-Executive-Summary" },
     { text: "Стратегия выхода на рынок", link: "/go-to-market-strategy" },
     { text: "Презентация для инвесторов", link: "/InterMind-Investor-Pitch" },
     { text: "Обоснование финансовых прогнозов (1-3 год)", link: "/Financial-Projections-Justification" },
