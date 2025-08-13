@@ -30,7 +30,6 @@ export const ko = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-
       {
         text: "가격",
         link: `${BASE_PATH}/#Pricing`,

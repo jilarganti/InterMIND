@@ -1,7 +1,7 @@
 ---
-layout: page
+# layout: page
 title: Blog
-sidebar: false
+# sidebar: false
 ---
 
 <script setup>

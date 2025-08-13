@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Traducción de voz en vivo para videollamadas"
+title: "Traducción de voz en tiempo real para videollamadas"
 isHome: true
 ---
 
@@ -16,7 +16,7 @@ isHome: true
       details: 'Sin importar el idioma, tu voz es escuchada — y comprendida — como si compartieran la misma lengua.',
       items: [
         '✧ De forma natural, en [tiempo real](./product/overview/how-it-works), y sin subtítulos ni retrasos.',
-        '✧ Interpretación impulsada por IA que capta el tono, la intención y la terminología específica de la industria.',
+        '✧ Interpretación potenciada por IA que capta el tono, la intención y la terminología específica de la industria.',
       ],
       link: './product/overview/what-is-intermind',
       src: {
@@ -52,7 +52,7 @@ isHome: true
       title: 'Diseñado para Reuniones Serias — No Solo para Charlar',
       details: 'InterMind es una [plataforma profesional de videollamadas](./product/overview/video-meeting-platform), no un complemento o plugin ligero.',
       items: [
-        '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat entre participantes e integración de calendario — todo incluido, **listo para usar**.',
+        '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat entre participantes e integración con calendario — todo incluido, **listo para usar**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -146,9 +146,9 @@ Esta configuración de idioma único se aplica a:
 
 | Participante  | Idioma Seleccionado | Habla En | Escucha En |
 | ------------- | ------------------- | -------- | ---------- |
-| Anfitrión     | Español             | Español  | Español    |
-| Participante 1| Inglés              | Inglés   | Inglés     |
-| Participante 2| Chino               | Chino    | Chino      |
+| Anfitrión     | Español            | Español  | Español    |
+| Participante 1| Inglés             | Inglés   | Inglés     |
+| Participante 2| Chino              | Chino    | Chino      |
 
 [La plataforma interpreta automáticamente toda el habla en tiempo real](./product/overview/how-it-works) — por lo que todos se comunican como si hablaran el mismo idioma.
 
@@ -295,14 +295,15 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
         links: [
           { text: 'Get Support', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Service Status', link: 'https://status.mind.com/' },
           { text: 'Privacy Policy', link: './resources/company/Privacy-Policy' },
           { text: 'AI Legal Guide', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'Service Status', link: 'https://status.mind.com/' },
         ],
       },
       {
         title: 'RECURSOS',
         links: [
+          { text: 'Blog', link: './blog' },
           { text: 'Brand Assets', link: './resources/media-kit' },
           { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],

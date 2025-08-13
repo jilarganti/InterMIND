@@ -30,7 +30,6 @@ export const ar = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-
       {
         text: "الأسعار",
         link: `${BASE_PATH}/#Pricing`,
@@ -59,17 +58,18 @@ export const ar = defineConfig({
       placeholder4SearchInput: "اسأل عن أي شيء...",
       placeholder4ChatFooter: "اسأل عن أي شيء...",
       placeholder4ChatList: "أدخل موضوع المحادثة...",
-      buttonLabel4NavButton: "محادثة خبير فورية",
-      buttonLabel4AuthButton: "تسجيل الدخول",
+      buttonLabel4NavButton: "المساعد",
+      buttonLabel4SignInButton: "تسجيل الدخول",
+      buttonLabel4GetStartedButton: "ابدأ الآن",
     },
     contact_form: {
       name: "الاسم *",
       namePlaceholder: "اسمك",
       email: "البريد الإلكتروني *",
       emailPlaceholder: "عنوان بريدك الإلكتروني",
-      webSite: "موقع الشركة الإلكتروني *",
+      webSite: "موقع الشركة *",
       webSitePlaceholder: "مثال: https://companyname.com",
-      webSiteError: "يرجى إدخال الموقع الإلكتروني",
+      webSiteError: "يرجى إدخال رقم الموقع الإلكتروني",
       category: "ما هو هدفك الأساسي؟ *",
       categoryPlaceholder: "اختر ما يهمك أكثر",
       message: "دعنا نناقش أهدافك (اختياري)",
@@ -131,7 +131,8 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "الحصول على الدعم", link: "/help" },
-        // { text: "كيف يعمل", link: "overview/how-it-works" },
+        { text: "سياسة الخصوصية", link: "/company/Privacy-Policy" },
+        { text: "دليل القوانين للذكاء الاصطناعي", link: "/resources/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {

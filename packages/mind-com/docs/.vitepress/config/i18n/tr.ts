@@ -3,13 +3,13 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/tr"
 
 export const tr = defineConfig({
-  description: "InterMIND, görüntülü aramalar için gerçek zamanlı konuşma çevirisi sağlar — dil engellerini anında ortadan kaldırır. mind.com ekibi tarafından desteklenmektedir.",
+  description: "InterMIND, görüntülü aramalar için gerçek zamanlı konuşma çevirisi sağlar — dil engellerini anında ortadan kaldırır. Mind.com ekibi tarafından desteklenmektedir.",
   head: [
     [
       "meta",
       {
         name: "description",
-        content: "InterMIND, görüntülü aramalar için gerçek zamanlı konuşma çevirisi sağlar — dil engellerini anında ortadan kaldırır. mind.com ekibi tarafından desteklenmektedir.",
+        content: "InterMIND, görüntülü aramalar için gerçek zamanlı konuşma çevirisi sağlar — dil engellerini anında ortadan kaldırır. Mind.com ekibi tarafından desteklenmektedir.",
       },
     ],
     ["meta", { property: "og:title", content: "InterMIND | Global Ekipler için Gerçek Zamanlı Konuşma Çevirisi" }],
@@ -18,7 +18,7 @@ export const tr = defineConfig({
       {
         property: "og:description",
         content:
-          "InterMIND, görüntülü aramalarda anında konuşma çevirisi sunar — engelsiz, çok dilli, net iletişim. mind.com ekibi tarafından desteklenmektedir.",
+          "InterMIND görüntülü aramalarda anında konuşma çevirisi sunar — engelsiz, çok dilli, net iletişim. Mind.com ekibi tarafından desteklenmektedir.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -30,7 +30,6 @@ export const tr = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-
       {
         text: "Fiyatlandırma",
         link: `${BASE_PATH}/#Pricing`,
@@ -56,8 +55,8 @@ export const tr = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Herhangi bir şey sor...",
-      placeholder4ChatFooter: "Herhangi bir şey sor...",
+      placeholder4SearchInput: "Herhangi bir şey sorun...",
+      placeholder4ChatFooter: "Herhangi bir şey sorun...",
       placeholder4ChatList: "Sohbet konusu girin...",
       buttonLabel4NavButton: "Asistan",
       buttonLabel4SignInButton: "Giriş yap",
@@ -70,7 +69,7 @@ export const tr = defineConfig({
       emailPlaceholder: "e-posta adresiniz",
       webSite: "Şirket web sitesi *",
       webSitePlaceholder: "örn. https://sirketadi.com",
-      webSiteError: "Lütfen web sitesi numarasını girin",
+      webSiteError: "Lütfen web sitesi numarası girin",
       category: "Öncelikli hedefiniz nedir? *",
       categoryPlaceholder: "En önemli olanı seçin",
       message: "Hedeflerinizi tartışalım (isteğe bağlı)",
@@ -80,7 +79,7 @@ export const tr = defineConfig({
       successTitle: "Teşekkürler!",
       successMessage: "Mesajınızı aldık — ekibimiz yakında sizinle iletişime geçecek.",
       defaultCategories: [
-        "Toplantılardaki dil engellerini ortadan kaldırın",
+        "Toplantılardaki dil engellerini kaldırın",
         "Toplantıları aranabilir ve uygulanabilir hale getirin",
         "Uyumluluk ve veri yerleşimini sağlayın (AB / ABD / Asya)",
         "Sadece keşfediyorum / Diğer",
@@ -118,7 +117,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "SSS", link: "guide/faq" },
         { text: "Sorun Giderme", link: "guide/troubleshooting" },
         { text: "Fiyatlandırma", link: "guide/pricing" },
-        { text: "Yardım ve Destek", link: "guide/help-support" },
+        { text: "Yardım & Destek", link: "guide/help-support" },
       ],
     },
   ]

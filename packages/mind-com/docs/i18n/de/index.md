@@ -91,7 +91,7 @@ Vertraute Benutzeroberfläche. Universelle Kommunikation. Genauso einfach wie Go
     :features="[
       {
         title: 'Kostenlos registrieren',
-        details: 'Wählen Sie Ihre Sprache und [create account](#Pricing).',
+        details: 'Wählen Sie Ihre Sprache und [erstellen Sie ein Konto](#Pricing).',
         icon: {
           light: '/signUp.png',
           dark: '/signUp.png',
@@ -114,7 +114,7 @@ Vertraute Benutzeroberfläche. Universelle Kommunikation. Genauso einfach wie Go
         },
       },
       {
-        title: 'In Ihrer Sprache sprechen',
+        title: 'Sprechen Sie Ihre Sprache',
         details: 'Jeder spricht und hört in seiner eigenen Sprache.',
         icon: {
           light: '/meeting.png',
@@ -187,7 +187,7 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
           '**100** Teilnehmer Videomeetings [💬](#3)',
           '**30** GB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
-          'Simultanübersetzung [💬](#1)',
+          'Simultandolmetschen [💬](#1)',
         ],
       },
       {
@@ -199,7 +199,7 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
           '**150** Teilnehmer Videomeetings [💬](#3)',
           '**2** TB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
-          'Simultanübersetzung [💬](#1)',
+          'Simultandolmetschen [💬](#1)',
         ],
       },
       {
@@ -211,7 +211,7 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
           '**500** Teilnehmer Videomeetings [💬](#3)',
           '**5** TB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
-          'Simultanübersetzung [💬](#1)',
+          'Simultandolmetschen [💬](#1)',
           '**Datenschutzzonen** [💬](#4)',
         ],
       },
@@ -271,7 +271,7 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
       },
       {
         q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
-        a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen treten **sofort** in Kraft. Bei Kündigungen enden *Monatspläne* am Ende des Abrechnungszeitraums. *Jahrespläne* können gegen **anteilige Rückerstattung** gekündigt werden.',
+        a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Bei Kündigungen enden *Monatspläne* am Ende des Abrechnungszeitraums. *Jahrespläne* können gegen **anteilige Rückerstattung** gekündigt werden.',
       },
       {
         q: 'Kann ich InterMind für Webinare oder große Veranstaltungen nutzen?',
@@ -295,14 +295,15 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
         links: [
           { text: 'Get Support', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Service Status', link: 'https://status.mind.com/' },
           { text: 'Privacy Policy', link: './resources/company/Privacy-Policy' },
           { text: 'AI Legal Guide', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'Service Status', link: 'https://status.mind.com/' },
         ],
       },
       {
         title: 'RESSOURCEN',
         links: [
+          { text: 'Blog', link: './blog' },
           { text: 'Brand Assets', link: './resources/media-kit' },
           { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],

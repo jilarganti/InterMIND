@@ -30,7 +30,6 @@ export const pt = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-
       {
         text: "Preços",
         link: `${BASE_PATH}/#Pricing`,
@@ -87,6 +86,7 @@ export const pt = defineConfig({
       ],
 
       defaultButtonText: "Envie-nos uma mensagem",
+      // defaultButtonText: "Obtenha uma consulta gratuita",
     },
   } as DefaultTheme.Config,
 })

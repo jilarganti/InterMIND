@@ -1,3 +1,17 @@
+<script setup>
+import { useData } from "vitepress"
+const { frontmatter } = useData()
+
+function formatDate(dateString) {
+  const date = new Date(dateString)
+  return date.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  })
+}
+</script>
+
 <template>
   <article class="max-w-3xl mx-auto py-8">
     <header class="mb-8 text-center">
@@ -14,17 +28,3 @@
     </footer>
   </article>
 </template>
-
-<script setup>
-import { useData } from "vitepress"
-const { frontmatter } = useData()
-
-function formatDate(dateString) {
-  const date = new Date(dateString)
-  return date.toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  })
-}
-</script>

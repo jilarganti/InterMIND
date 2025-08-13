@@ -50,7 +50,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'مصمم للاجتماعات الاحترافية — وليس مجرد محادثات',
-      details: 'InterMind هو [منصة اجتماعات فيديو احترافية](./product/overview/video-meeting-platform)، وليس مجرد إضافة أو ملحق بسيط.',
+      details: 'InterMind هو [منصة احترافية للاجتماعات المرئية](./product/overview/video-meeting-platform)، وليس مجرد إضافة أو ملحق بسيط.',
       items: [
         '✧ دقة 1080p، إلغاء الضوضاء الذكي، جدولة، إدارة، مشاركة الشاشة، تسجيل، ترجمة نصية، دردشة المشاركين وتكامل التقويم — كل شيء مدمج، **جاهز للاستخدام**.',
       ],
@@ -67,7 +67,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'الخصوصية حيث تهم',
-      details: 'تم تصميم InterMind للمحادثات الحساسة — حيث تكون الخصوصية والتحكم أهم شيء.',
+      details: 'تم تصميم InterMind للمحادثات الحساسة — حيث تكون الخصوصية والتحكم في غاية الأهمية.',
       items: ['✧ [مناطق الخصوصية](./product/overview/privacy-architecture) — الاتحاد الأوروبي، الولايات المتحدة، جنوب شرق آسيا', '✧ **صفر تدريب للبيانات**. لا وصول لأطراف ثالثة.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -259,7 +259,7 @@ isHome: true
       },
       {
         q: 'كيف يضمن InterMind خصوصية وأمن البيانات؟',
-        a: 'InterMind **خاص بطبيعته**. تتم معالجة وتخزين جميع البيانات داخل **منطقة الخصوصية** المختارة — _الاتحاد الأوروبي_، _الولايات المتحدة_، أو _آسيا_. نحن نمتثل لـ [**GDPR**](https://gdpr.eu) و [**CCPA**](https://oag.ca.gov/privacy/ccpa) وقانون حماية البيانات الشخصية الإماراتي، و**لا نستخدم محتواك أبداً** للتدريب أو الوصول من طرف ثالث. يتوفر [التحكم المتقدم في منطقة الخصوصية](./product/overview/privacy-architecture) في خطة **Business**.',
+        a: 'InterMind **خاص بالتصميم**. تتم معالجة وتخزين جميع البيانات داخل **منطقة الخصوصية** المختارة — _الاتحاد الأوروبي_، _الولايات المتحدة_، أو _آسيا_. نحن نمتثل لـ [**GDPR**](https://gdpr.eu)، [**CCPA**](https://oag.ca.gov/privacy/ccpa)، وقانون حماية البيانات الشخصية الإماراتي، و**لا نستخدم محتواك أبداً** للتدريب أو الوصول من طرف ثالث. يتوفر [التحكم المتقدم في منطقة الخصوصية](./product/overview/privacy-architecture) في خطة **Business**.',
       },
       {
         q: 'هل يمكنني تجربة InterMind قبل شراء خطة؟',
@@ -267,7 +267,7 @@ isHome: true
       },
       {
         q: 'ماذا لو احتجت إلى مساعدة أو دعم؟',
-        a: 'الدعم متاح عبر [مركز المساعدة](./resources/help). يحصل مستخدمو *Business* على **دعم ذي أولوية** مع جهة اتصال مخصصة.',
+        a: 'الدعم متاح عبر [مركز المساعدة](./resources/help). يحصل مستخدمو *Business* على **دعم ذو أولوية** مع جهة اتصال مخصصة.',
       },
       {
         q: 'كيف يمكنني إدارة اشتراكي (الترقية، التخفيض، أو الإلغاء)؟',
@@ -295,14 +295,15 @@ isHome: true
         links: [
           { text: 'Get Support', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Service Status', link: 'https://status.mind.com/' },
           { text: 'Privacy Policy', link: './resources/company/Privacy-Policy' },
           { text: 'AI Legal Guide', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'Service Status', link: 'https://status.mind.com/' },
         ],
       },
       {
         title: 'الموارد',
         links: [
+          { text: 'Blog', link: './blog' },
           { text: 'Brand Assets', link: './resources/media-kit' },
           { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],

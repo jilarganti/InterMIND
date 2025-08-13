@@ -30,7 +30,6 @@ export const ja = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-
       {
         text: "料金",
         link: `${BASE_PATH}/#Pricing`,
@@ -61,7 +60,7 @@ export const ja = defineConfig({
       placeholder4ChatList: "チャットトピックを入力...",
       buttonLabel4NavButton: "アシスタント",
       buttonLabel4SignInButton: "サインイン",
-      buttonLabel4GetStartedButton: "はじめる",
+      buttonLabel4GetStartedButton: "始める",
     },
     contact_form: {
       name: "お名前 *",
@@ -141,7 +140,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "企業情報",
+      text: "会社情報",
       collapsed: false,
       items: [
         { text: "会社概要", link: "/company/about" },

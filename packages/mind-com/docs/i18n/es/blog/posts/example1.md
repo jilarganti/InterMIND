@@ -1,0 +1,31 @@
+---
+layout: BlogPost
+title: "Primeros pasos con InterMIND"
+date: 2025-01-15
+author: InterMIND Team
+---
+
+# Primeros pasos con InterMIND
+
+¡Bienvenido a InterMIND! Esta publicación te guiará a través de los conceptos básicos de nuestra plataforma impulsada por IA.
+
+<!--more-->
+
+## ¿Qué es InterMIND?
+
+InterMIND es una plataforma innovadora que combina la inteligencia artificial con la experiencia humana para crear soluciones empresariales poderosas.
+
+## Características Principales
+
+- **Integración de Chat con IA**: Impulsado por GPT-4 y Claude
+- **Búsqueda Vectorial**: Capacidades de búsqueda semántica con Upstash
+- **Soporte Multilingüe**: Disponible en más de 19 idiomas
+- **Integración OAuth**: Sistema de autenticación seguro
+
+## Primeros Pasos
+
+1. Regístrate para obtener una cuenta en [inter.mind.com](https://inter.mind.com)
+2. Completa la autenticación OAuth
+3. Comienza a explorar nuestras funciones impulsadas por IA
+
+¡Mantente atento para más actualizaciones y tutoriales!

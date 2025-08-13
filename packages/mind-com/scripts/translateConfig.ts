@@ -32,7 +32,7 @@ export const config = {
   },
 
   models: {
-    claude: ["claude-3-5-sonnet-20241022", "claude-4-sonnet-20250514"],
+    claude: ["claude-4-sonnet-20250514", "claude-3-5-sonnet-20241022"],
     gpt4: ["gpt-4o-mini"],
   },
   exclude: ["test", "/exp"],

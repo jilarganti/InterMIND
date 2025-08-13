@@ -131,7 +131,8 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Get Support", link: "/help" },
-        // { text: "How it Works", link: "overview/how-it-works" },
+        { text: "Privacy Policy", link: "/company/Privacy-Policy" },
+        { text: "AI Legal Guide", link: "/resources/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {

@@ -12,7 +12,7 @@ isHome: true
 <span id="1"></span>
 <FeatureBlock
     :card="{
-      title: 'Tradução ≠ Compreensão. Conheça o próximo nível.',
+      title: 'Tradução ≠ Compreensão. Conheça o próximo passo.',
       details: 'Independente do idioma, sua voz é ouvida — e compreendida — como se falassem a mesma língua.',
       items: [
         '✧ Naturalmente, em [tempo real](./product/overview/how-it-works), sem legendas ou atrasos.',
@@ -49,7 +49,7 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: 'Feito para Reuniões Sérias — Não Apenas Conversas',
+      title: 'Desenvolvido para Reuniões Sérias — Não Apenas Conversas',
       details: 'InterMind é uma [plataforma profissional de videochamadas](./product/overview/video-meeting-platform), não apenas um complemento ou plugin simples.',
       items: [
         '✧ Resolução 1080p, supressão inteligente de ruído, agendamento, moderação, compartilhamento de tela, gravação, legendas, chat entre participantes e integração com calendário — tudo integrado, **pronto para usar**.',
@@ -67,7 +67,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Privacidade Onde Importa',
-      details: 'InterMind é construído para conversas que exigem confiança — onde privacidade e controle são fundamentais.',
+      details: 'InterMind é desenvolvido para conversas que exigem confiança — onde privacidade e controle são fundamentais.',
       items: ['✧ [Zonas de Privacidade](./product/overview/privacy-architecture) — UE, EUA, Sudeste Asiático', '✧ **Zero treinamento de dados**. Sem acesso de terceiros.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -144,11 +144,11 @@ Esta configuração única de idioma se aplica a:
 - A **entrada de voz** (o que você fala)
 - A **saída traduzida** (o que você ouve)
 
-| Participante  | Idioma Selecionado | Fala Em  | Ouve Em  |
-| ------------- | ----------------- | --------- | -------- |
-| Anfitrião     | Espanhol          | Espanhol  | Espanhol |
-| Participante 1 | Inglês            | Inglês    | Inglês   |
-| Participante 2 | Chinês            | Chinês    | Chinês   |
+| Participante   | Idioma Selecionado | Fala Em  | Ouve Em  |
+| ------------- | ------------------ | -------- | -------- |
+| Anfitrião     | Espanhol          | Espanhol | Espanhol |
+| Participante 1 | Inglês            | Inglês   | Inglês   |
+| Participante 2 | Chinês            | Chinês   | Chinês   |
 
 [A plataforma interpreta automaticamente toda a fala em tempo real](./product/overview/how-it-works) — assim todos se comunicam como se falassem o mesmo idioma.
 
@@ -295,14 +295,15 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
         links: [
           { text: 'Get Support', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Service Status', link: 'https://status.mind.com/' },
           { text: 'Privacy Policy', link: './resources/company/Privacy-Policy' },
           { text: 'AI Legal Guide', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'Service Status', link: 'https://status.mind.com/' },
         ],
       },
       {
         title: 'RECURSOS',
         links: [
+          { text: 'Blog', link: './blog' },
           { text: 'Brand Assets', link: './resources/media-kit' },
           { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],

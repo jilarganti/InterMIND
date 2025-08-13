@@ -13,9 +13,9 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Çeviri ≠ Anlama. İşte sırada ne var.',
-      details: 'Hangi dili konuşursanız konuşun, sesiniz aynı dili konuşuyormuş gibi duyulur ve anlaşılır.',
+      details: 'Hangi dil olursa olsun, sesiniz aynı dili konuşuyormuş gibi duyulur ve anlaşılır.',
       items: [
-        '✧ Doğal olarak, [gerçek zamanlı](./product/overview/how-it-works), altyazısız ve gecikmesiz.',
+        '✧ Doğal bir şekilde, [gerçek zamanlı](./product/overview/how-it-works) olarak, altyazı veya gecikme olmadan.',
         '✧ Yapay zeka destekli çeviri, ton, niyet ve sektöre özgü terminolojiyi yakalar.',
       ],
       link: './product/overview/what-is-intermind',
@@ -33,7 +33,7 @@ isHome: true
       title: 'Toplantılarınızın İçindeki Akıl',
       details: 'InterMind her çok dilli görüşmeyi net, aranabilir bilgiye dönüştürür.',
       items: [
-        '✧ **Her şeyi sorun** — Yapay zeka **tüm toplantılarınız arasında** yanıtları bulur.',
+        '✧ **Her şeyi sorun** — Yapay zeka **tüm toplantılarınız boyunca** yanıtları bulur.',
         '✧ Görevleri, sorumluları ve son tarihleri otomatik çıkarır.',
         '✧ Önemli noktaları anında herhangi bir dilde özetler.',
       ],
@@ -81,9 +81,9 @@ isHome: true
 > [!tip] Bu kimler için?  
 > Dil engellerinin **gecikmelere**, **kaybedilen anlaşmalara** veya **maliyetli yanlış anlamalara** neden olduğu **uluslararası ekipler** için tasarlandı. [Daha fazla bilgi ...](./product/overview/markets)
 
-## Google Meet + Anlık Çeviri Gibi Çalışır
+## Google Meet + Canlı Çeviri Gibi Çalışır
 
-Tanıdık arayüz. Evrensel iletişim. Google Meet kadar kolay — dil engellerini ortadan kaldıran anlık çeviri ile.
+Tanıdık arayüz. Evrensel iletişim. Google Meet kadar kolay — dil engellerini ortadan kaldıran anlık çeviriyle.
 
 <span id="HowItWorks"></span>
 
@@ -186,19 +186,19 @@ Bu değişiklik şu anlama gelir:
           '**25** toplantı',
           '**100** katılımcılı video toplantıları [💬](#3)',
           'Kullanıcı başına **30** GB havuzlanmış depolama',
-          'Tüm toplantılarınızda arama [💬](#2)',
+          'Tüm toplantılarınızda arama yapın [💬](#2)',
           'Eşzamanlı tercüme [💬](#1)',
         ],
       },
       {
-        title: '**Pro**  &nbsp 1-99 kullanıcı',
+        title: '**Pro** &nbsp 1-99 kullanıcı',
         price: '**$20** /ay/kullanıcı, yıllık faturalandırma',
         details: 'veya aylık $25',
         items: [
           '**Sınırsız** toplantı',
           '**150** katılımcılı video toplantıları [💬](#3)',
           'Kullanıcı başına **2** TB havuzlanmış depolama',
-          'Tüm toplantılarınızda arama [💬](#2)',
+          'Tüm toplantılarınızda arama yapın [💬](#2)',
           'Eşzamanlı tercüme [💬](#1)',
         ],
       },
@@ -210,18 +210,18 @@ Bu değişiklik şu anlama gelir:
           '**Sınırsız** toplantı',
           '**500** katılımcılı video toplantıları [💬](#3)',
           'Kullanıcı başına **5** TB havuzlanmış depolama',
-          'Tüm toplantılarınızda arama [💬](#2)',
+          'Tüm toplantılarınızda arama yapın [💬](#2)',
           'Eşzamanlı tercüme [💬](#1)',
           '**Gizlilik Bölgeleri** [💬](#4)',
         ],
       },
     ]">
 <AuthButton text="Ücretsiz deneyin" buttonClass="brand" eventName="try_it_attempt" />
-<AuthButton text="Şimdi satın alın" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
+<AuthButton text="Hemen satın alın" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
 <ContactForm buttonText="Ekibimizle görüşün" buttonClass="alt" />
 </PricingPlans>
 
-> [!warning] 😱 Ya her dili konuşursunuz — ya da başkası sizin satışlarınızı kapatır.
+> [!warning] 😱 Ya her dili konuşursunuz — ya da başkaları sizin anlaşmalarınızı kapatır.
 
 <span id="Testimonials"></span>
 
@@ -295,14 +295,15 @@ Bu değişiklik şu anlama gelir:
         links: [
           { text: 'Get Support', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Service Status', link: 'https://status.mind.com/' },
           { text: 'Privacy Policy', link: './resources/company/Privacy-Policy' },
           { text: 'AI Legal Guide', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'Service Status', link: 'https://status.mind.com/' },
         ],
       },
       {
         title: 'KAYNAKLAR',
         links: [
+          { text: 'Blog', link: './blog' },
           { text: 'Brand Assets', link: './resources/media-kit' },
           { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],

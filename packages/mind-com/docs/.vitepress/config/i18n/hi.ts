@@ -30,7 +30,6 @@ export const hi = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-
       {
         text: "मूल्य निर्धारण",
         link: `${BASE_PATH}/#Pricing`,
@@ -101,7 +100,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "यह कैसे काम करता है", link: "overview/how-it-works" },
         { text: "वीडियो मीटिंग प्लेटफॉर्म", link: "overview/video-meeting-platform" },
         { text: "क्षेत्रीय डेटा गोपनीयता", link: "overview/privacy-architecture" },
-        { text: "प्राथमिकता वाले बाजार", link: "overview/markets" },
+        { text: "प्राथमिक बाजार", link: "overview/markets" },
       ],
     },
     {

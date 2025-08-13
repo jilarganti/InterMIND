@@ -30,7 +30,6 @@ export const ru = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
-
       {
         text: "Цены",
         link: `${BASE_PATH}/#Pricing`,

@@ -33,7 +33,7 @@ isHome: true
       title: '会议中的智慧大脑',
       details: 'InterMind将每个多语言会议转化为清晰、可搜索的知识。',
       items: [
-        '✧ **随时提问** — AI可以**跨会议**找到答案。',
+        '✧ **随时提问** — AI可以在**所有会议记录中**找到答案。',
         '✧ 自动提取任务、负责人和截止日期。',
         '✧ 即时用任何语言总结要点。',
       ],
@@ -141,7 +141,7 @@ isHome: true
 这个单一的语言设置适用于：
 
 - **界面语言**
-- **语音输入**（您说的内容）
+- **语音输入**（您说的话）
 - **翻译输出**（您听到的内容）
 
 | 参与者 | 选择的语言 | 说话语言 | 听取语言 |
@@ -172,7 +172,7 @@ isHome: true
 
 ## 清晰简单的价格方案
 
-从首次通话到流畅对话 — 任何规模都适用。
+从首次通话到流畅对话 — 满足任何规模需求。
 
 <span id="Pricing"></span>
 
@@ -295,14 +295,15 @@ isHome: true
         links: [
           { text: 'Get Support', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Service Status', link: 'https://status.mind.com/' },
           { text: 'Privacy Policy', link: './resources/company/Privacy-Policy' },
           { text: 'AI Legal Guide', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'Service Status', link: 'https://status.mind.com/' },
         ],
       },
       {
         title: '资源',
         links: [
+          { text: 'Blog', link: './blog' },
           { text: 'Brand Assets', link: './resources/media-kit' },
           { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],

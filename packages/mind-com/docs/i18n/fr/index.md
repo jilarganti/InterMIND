@@ -68,7 +68,7 @@ isHome: true
     :card="{
       title: 'La Confidentialité Là Où Elle Compte',
       details: 'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle sont essentiels.',
-      items: ['✧ [Zones de confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est', '✧ **Zéro entraînement de données**. Aucun accès tiers.'],
+      items: ['✧ [Zones de Confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est', '✧ **Zéro entraînement de données**. Aucun accès tiers.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -145,10 +145,10 @@ Ce paramètre de langue unique s'applique à :
 - **La sortie traduite** (ce que vous entendez)
 
 | Participant   | Langue Sélectionnée | Parle En | Entend En |
-| ------------- | ------------------- | -------- | --------- |
-| Hôte          | Espagnol            | Espagnol | Espagnol  |
-| Participant 1 | Anglais             | Anglais  | Anglais   |
-| Participant 2 | Chinois             | Chinois  | Chinois   |
+| ------------- | ------------------- | --------- | --------- |
+| Hôte          | Espagnol           | Espagnol  | Espagnol  |
+| Participant 1 | Anglais            | Anglais   | Anglais   |
+| Participant 2 | Chinois            | Chinois   | Chinois   |
 
 [La plateforme interprète automatiquement tous les discours en temps réel](./product/overview/how-it-works) — ainsi, tout le monde communique comme s'ils parlaient la même langue.
 
@@ -166,7 +166,7 @@ Changer cela signifie :
 - Vous entendrez les autres dans la `langue choisie`
 - L'interface basculera automatiquement vers la `langue choisie`
 
-> 📌 Note : "Votre Langue" est un **paramètre unifié unique**  
+> 📌 Remarque : "Votre Langue" est un **paramètre unifié unique**  
 > Il contrôle **comment vous parlez**, **ce que vous entendez** et **ce que vous voyez**.  
 > Parler dans une langue et écouter dans une autre n'est **pas pris en charge** — par conception, pour garder l'expérience simple et prévisible.
 
@@ -295,14 +295,15 @@ Du premier appel aux conversations fluides — à toute échelle.
         links: [
           { text: 'Get Support', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Service Status', link: 'https://status.mind.com/' },
           { text: 'Privacy Policy', link: './resources/company/Privacy-Policy' },
           { text: 'AI Legal Guide', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'Service Status', link: 'https://status.mind.com/' },
         ],
       },
       {
         title: 'RESSOURCES',
         links: [
+          { text: 'Blog', link: './blog' },
           { text: 'Brand Assets', link: './resources/media-kit' },
           { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],
