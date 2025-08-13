@@ -7,6 +7,7 @@ import { inject } from "@vercel/analytics"
 import { injectSpeedInsights } from "@vercel/speed-insights"
 import AuthButton from "./components/AuthButton.vue"
 import ContactForm from "./components/ContactForm.vue"
+import BlogPost from "./BlogPost.vue"
 import { components } from "shared"
 import "./styles/index.css"
 import AIChat from "./components/AIChat/AIChat.vue"
@@ -46,6 +47,7 @@ export default {
     app.component("AuthButton", AuthButton)
     app.component("ContactForm", ContactForm)
     app.component("AIChat", AIChat)
+    app.component("BlogPost", BlogPost)
 
     // Регистрация внешних компонентов пакета
     app.component("Icon", Icon)
