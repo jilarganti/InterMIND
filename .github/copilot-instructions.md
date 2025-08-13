@@ -67,12 +67,13 @@ export async function POST(request: Request) {
 
 ### AI Chat Integration
 
-- **mind-com**: Pinecone vector database + semantic search + auto language detection
-- **golden-fish**: Direct OpenAI integration for UAE business consulting
-- Shared UI: `shared/components/AIChat/` + `shared/composables/AIChat/`
+- **mind-com**: **Upstash Vector** database + semantic search + auto language detection
+- **golden-fish**: Direct OpenAI integration for UAE business consulting + Google Image Search
+- Full chat UI: `shared/components/AIChat/` (модульная архитектура для desktop/mobile)
 - State management: `shared/stores/chatsStore.ts` (Pinia)
-- Vector DB setup: Index docs with `text-embedding-3-small` (1536 dimensions)
-- AI models: Anthropic Claude + OpenAI GPT-4 with automatic fallback
+- Vector DB: Upstash Vector с `text-embedding-3-small` (384 dimensions)
+- AI models: Anthropic Claude 3.5 Haiku + GPT-4 с автоматическим переключением
+- **Развернут на сайте**: Полноценный чат-виджет с семантическим поиском по документации
 
 ### CRM Integration (Pipedrive)
 
@@ -111,9 +112,13 @@ OPENAI_API_KEY=your_openai_key
 ANTHROPIC_API_KEY=your_anthropic_key
 PIPEDRIVE_API_TOKEN=your_pipedrive_token
 
-# Vector Database (mind-com only)
-PINECONE_API_KEY=your_pinecone_key
-PINECONE_INDEX_NAME=intermind-docs
+# Vector Database (mind-com только)
+UPSTASH_VECTOR_REST_URL=your_upstash_vector_url
+UPSTASH_VECTOR_REST_TOKEN=your_upstash_vector_token
+
+# Image Search (golden-fish только)
+GOOGLE_API_KEY=your_google_api_key
+SEARCH_ENGINE_ID=your_search_engine_id
 
 # Analytics
 GTM_ID=your_gtm_id
@@ -169,10 +174,12 @@ Key constants in each package's `docs/.vitepress/config/index.ts`:
 
 ### Setting Up Vector Database (mind-com)
 
-1. Create Pinecone index: `intermind-docs`, 1536 dimensions, cosine metric
+1. Create Upstash Vector index: 384 dimensions, cosine metric
 2. Run `pnpm build` to generate documentation
-3. Index documents: `pnpm index:docs`
+3. Index documents: `pnpm index:docs` (uses ultra-fast batch processing)
 4. Test AI chat with semantic search at `/api/chat`
+5. **Live AI Chat Widget**: Integrated on website with real-time responses
+6. **Advanced Features**: Automatic language detection, context-aware answers, streaming responses
 
 ### Adding New Language
 
@@ -198,5 +205,7 @@ Key constants in each package's `docs/.vitepress/config/index.ts`:
 - **Analytics**: GTM + Google Analytics via environment variables
 - **CRM**: Pipedrive API with lead categorization and channel tracking
 - **AI**: OpenAI GPT-4 + Anthropic Claude with automatic fallback
-- **Search**: Pinecone vector database for semantic search (mind-com only)
+- **Search**: Upstash Vector database for semantic search (mind-com only)
+- **Image Search**: Google Custom Search Engine (golden-fish only)
 - **Deployment**: Vercel with environment-specific configurations
+- **Real-time Chat**: Full-featured AI chat widget deployed on production sites

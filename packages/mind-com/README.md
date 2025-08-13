@@ -2,18 +2,18 @@
 
 [![test](https://github.com/vuejs/vitepress/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/vuejs/vitepress/actions/workflows/test.yml)
 
-Platform for real-time speech translation in video calls. Eliminates language barriers for international teams. Features AI-powered chat with semantic search capabilities.
+Platform for real-time speech translation in video calls. Eliminates language barriers for international teams. Features AI-powered chat with semantic search capabilities using Upstash Vector database.
 
 ## Project Description
 
-Mind.com is a VitePress website with multilingual support, integrated with Pipedrive CRM, OAuth authorization, and AI Chat powered by vector database. The project includes:
+Mind.com is a VitePress website with multilingual support, integrated with Pipedrive CRM, OAuth authorization, and AI Chat powered by Upstash Vector database. The project includes:
 
 - 📄 VitePress documentation with support for 12+ languages
 - 🔗 API endpoints for CRM integration
 - 🚀 OAuth authorization through external service
 - 📝 Contact forms with lead submission to Pipedrive
 - 📊 Google Analytics integration via GTM
-- 🤖 AI Chat with semantic search using Pinecone vector database
+- 🤖 AI Chat with semantic search using Upstash Vector database
 - 🔍 Automatic language detection for multilingual responses
 
 ## Project Structure
@@ -140,21 +140,23 @@ To adapt the project for your domain:
    - `VERCEL_ENV`: Set automatically by Vercel
    - `PIPEDRIVE_API_TOKEN`: Your Pipedrive API token
 
-## AI Chat with Vector Database
+## AI Chat with Upstash Vector Database
 
-The project includes an AI-powered chat system with semantic search capabilities using Pinecone vector database and OpenAI embeddings.
+The project includes an AI-powered chat system with semantic search capabilities using Upstash Vector database and OpenAI embeddings.
 
 ### Features
 
 - 🤖 **AI-powered responses** using Anthropic Claude models
 - 🔍 **Semantic search** through InterMind documentation
 - 🌐 **Automatic language detection** from user questions
-- 📚 **Context-aware answers** using vector database
+- 📚 **Context-aware answers** using Upstash Vector database
 - 🛡️ **Domain-protected** API endpoints
+- ⚡ **Ultra-fast indexing** with batch processing
+- 💬 **Real-time chat widget** deployed on production sites
 
 ### Architecture
 
-1. **Document Indexing**: Documentation is processed into chunks and stored in Pinecone
+1. **Document Indexing**: Documentation is processed into chunks and stored in Upstash Vector
 2. **Semantic Search**: AI uses `semanticSearchTool` to find relevant information
 3. **Context Generation**: Retrieved information is used to generate accurate responses
 4. **Language Detection**: AI automatically responds in the user's question language
@@ -163,17 +165,16 @@ The project includes an AI-powered chat system with semantic search capabilities
 
 ```env
 # AI Chat Configuration
-PINECONE_API_KEY=your_pinecone_api_key
-PINECONE_INDEX_NAME=intermind-docs
+UPSTASH_VECTOR_REST_URL=your_upstash_vector_url
+UPSTASH_VECTOR_REST_TOKEN=your_upstash_vector_token
 OPENAI_API_KEY=your_openai_api_key
 ANTHROPIC_API_KEY=your_anthropic_api_key
 ```
 
 ### Setup and Usage
 
-1. **Create Pinecone Index:**
-   - Name: `intermind-docs`
-   - Dimensions: `1536` (for text-embedding-3-small)
+1. **Create Upstash Vector Index:**
+   - Dimensions: `384` (for text-embedding-3-small)
    - Metric: `cosine`
 
 2. **Index Documents:**
@@ -182,7 +183,7 @@ ANTHROPIC_API_KEY=your_anthropic_api_key
    # Build project to generate documentation
    pnpm build
 
-   # Index documents to Pinecone
+   # Index documents to Upstash Vector (ultra-fast batch processing)
    pnpm index:docs
    ```
 
@@ -193,9 +194,10 @@ ANTHROPIC_API_KEY=your_anthropic_api_key
 
 - User asks questions in any language
 - AI automatically detects language and responds accordingly
-- For InterMind-specific questions, semantic search finds relevant documentation
+- For InterMind-specific questions, semantic search finds relevant documentation in Upstash Vector
 - Responses include context from vector database for accuracy
 - All requests are domain-protected for security
+- Real-time streaming responses with interactive chat widget
 
 For detailed setup instructions, see [AIChat-VectorDB-Setup.md](docs/AIChat-VectorDB-Setup.md).
 
@@ -217,9 +219,9 @@ Environment variables are automatically loaded by `vercel pull` command into `pa
 # Pipedrive CRM
 PIPEDRIVE_API_TOKEN=your_pipedrive_token
 
-# AI Chat & Vector Database
-PINECONE_API_KEY=your_pinecone_api_key
-PINECONE_INDEX_NAME=intermind-docs
+# AI Chat & Upstash Vector Database
+UPSTASH_VECTOR_REST_URL=your_upstash_vector_url
+UPSTASH_VECTOR_REST_TOKEN=your_upstash_vector_token
 OPENAI_API_KEY=your_openai_api_key
 ANTHROPIC_API_KEY=your_anthropic_api_key
 
