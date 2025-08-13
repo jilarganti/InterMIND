@@ -1,2 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import "./style-guide.css";
 @import "./tables.css";
