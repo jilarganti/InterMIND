@@ -8,6 +8,7 @@ import { injectSpeedInsights } from "@vercel/speed-insights"
 import AuthButton from "./components/AuthButton.vue"
 import ContactForm from "./components/ContactForm.vue"
 import BlogPost from "./components/BlogPost.vue"
+import VideoPlayer from "./components/VideoPlayer.vue"
 import { components } from "shared"
 import "./styles/index.css"
 import AIChat from "./components/AIChat/AIChat.vue"
@@ -48,6 +49,7 @@ export default {
     app.component("ContactForm", ContactForm)
     app.component("AIChat", AIChat)
     app.component("BlogPost", BlogPost)
+    app.component("VideoPlayer", VideoPlayer)
 
     // Регистрация внешних компонентов пакета
     app.component("Icon", Icon)
