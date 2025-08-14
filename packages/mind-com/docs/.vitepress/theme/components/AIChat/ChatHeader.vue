@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue"
 import { ArrowLeft } from "lucide-vue-next"
+import AuthButton from "../AuthButton.vue"
 
 const props = defineProps<{
   /**
@@ -105,6 +106,11 @@ onMounted(() => {
         placeholder="Введите название чата..."
       />
     </div>
+
+    <!-- AuthButton в правой части заголовка -->
+    <div class="auth-section">
+      <AuthButton text="Sign In" :button-class="'alt'" event-name="sign_in_attempt" />
+    </div>
   </div>
 </template>
 
@@ -113,6 +119,7 @@ onMounted(() => {
   padding: 16px 20px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border-bottom: 1px solid var(--vp-c-divider);
   background-color: var(--vp-c-bg);
 }
@@ -134,12 +141,11 @@ onMounted(() => {
 }
 
 .chat-title-container {
-  max-width: 800px;
-  margin: 0 auto;
-  width: 100%;
+  flex: 1;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  text-align: left;
 }
 
 .chat-title {
@@ -218,6 +224,12 @@ onMounted(() => {
   box-shadow: 0 0 0 2px var(--vp-c-brand-light);
 }
 
+/* Секция авторизации */
+.auth-section {
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+
 /* Адаптация для мобильного режима */
 .mobile-header .chat-title {
   font-size: 1.125rem;
@@ -226,5 +238,9 @@ onMounted(() => {
 .mobile-header .title-input {
   font-size: 1.125rem;
   height: 34px;
+}
+
+.mobile-header .auth-section {
+  margin-left: 8px;
 }
 </style>
