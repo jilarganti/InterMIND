@@ -118,8 +118,7 @@ onMounted(() => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid var(--vp-c-divider);
-  /* background-color: var(--vp-c-bg-alt); */
+  /* border-bottom: 1px solid var(--vp-c-divider); */
 }
 
 .back-button {

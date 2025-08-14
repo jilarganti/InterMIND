@@ -221,9 +221,9 @@ defineExpose({ textareaRef, focusInput })
 /* Основной футер */
 .chat-footer {
   padding: 0;
-  background-color: var(--vp-c-bg);
+  /* background-color: var(--vp-c-bg); */
   margin-top: auto;
-  border-top: 1px solid var(--vp-c-divider);
+  /* border-top: 1px solid var(--vp-c-divider); */
 }
 
 /* Форма ввода */
