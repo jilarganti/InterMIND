@@ -2,7 +2,7 @@
 /**
  * Simple VideoPlayer with mute/unmute button
  */
-import { ref, onMounted } from "vue"
+import { ref } from "vue"
 import { Icon } from "@iconify/vue"
 
 interface Props {
@@ -28,25 +28,11 @@ const toggleMute = () => {
     videoRef.value.muted = isMuted.value
   }
 }
-
-const startVideo = async () => {
-  if (videoRef.value && props.autoplay) {
-    try {
-      await videoRef.value.play()
-    } catch {
-      // Браузер заблокировал автозапуск, ничего страшного
-    }
-  }
-}
-
-onMounted(() => {
-  setTimeout(startVideo, 100)
-})
 </script>
 
 <template>
   <div class="relative w-full group" @mouseenter="showButton = true" @mouseleave="showButton = false">
-    <video ref="videoRef" :autoplay="autoplay" :loop="loop" :muted="muted" playsinline class="w-full h-auto rounded-lg" @loadeddata="startVideo">
+    <video ref="videoRef" :autoplay="autoplay" :loop="loop" :muted="muted" playsinline class="w-full h-auto rounded-lg">
       <source :src="src" type="video/mp4" />
     </video>
 
