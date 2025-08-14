@@ -1,5 +1,4 @@
 import { createContentLoader } from "vitepress"
-// import path from "path"
 
 interface Post {
   title: string
@@ -14,25 +13,29 @@ interface Post {
 declare const data: Post[]
 export { data }
 
-// Автоматически определяем локаль из пути к текущему файлу
-function getCurrentLocale(): string {
+// Определяем путь для загрузки постов на основе расположения файла
+function getPostsPath(): string {
   const currentFile = __filename || import.meta.url
-
-  // Ищем паттерн /docs/{locale}/ в пути
-  const localeMatch = currentFile.match(/\/docs\/([a-z]{2})\//)
-
-  return localeMatch ? localeMatch[1] : "en" // fallback на 'en'
+  
+  // Если файл находится в папке i18n, то используем путь i18n/{locale}/
+  const i18nMatch = currentFile.match(/\/docs\/i18n\/([a-z]{2})\//)
+  if (i18nMatch) {
+    return `i18n/${i18nMatch[1]}/blog/posts/*.md`
+  }
+  
+  // Иначе используем основной путь {locale}/
+  const mainMatch = currentFile.match(/\/docs\/([a-z]{2})\//)
+  const locale = mainMatch ? mainMatch[1] : "en"
+  return `${locale}/blog/posts/*.md`
 }
 
-const currentLocale = getCurrentLocale()
-
-export default createContentLoader(`${currentLocale}/blog/posts/*.md`, {
+export default createContentLoader(getPostsPath(), {
   excerpt: true,
   transform(raw): Post[] {
     return raw
       .map(({ url, frontmatter, excerpt }) => ({
         title: frontmatter.title,
-        url,
+        url, // Убираем withBase - VitePress автоматически обработает базовый путь
         excerpt,
         date: formatDate(frontmatter.date),
       }))

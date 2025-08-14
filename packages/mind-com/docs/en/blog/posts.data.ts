@@ -13,26 +13,23 @@ interface Post {
 declare const data: Post[]
 export { data }
 
-// Определяем локаль из пути текущего файла
-const getCurrentLocale = (): string => {
-  // В Node.js окружении используем __filename
-  if (typeof __filename !== "undefined") {
-    const localeMatch = __filename.match(/\/docs\/([a-z]{2})\//)
-    return localeMatch ? localeMatch[1] : "en"
+// Определяем путь для загрузки постов на основе расположения файла
+function getPostsPath(): string {
+  const currentFile = __filename || import.meta.url
+
+  // Если файл находится в папке i18n, то используем путь i18n/{locale}/
+  const i18nMatch = currentFile.match(/\/docs\/i18n\/([a-z]{2})\//)
+  if (i18nMatch) {
+    return `i18n/${i18nMatch[1]}/blog/posts/*.md`
   }
 
-  // В ESM окружении используем import.meta.url
-  if (typeof import.meta !== "undefined" && import.meta.url) {
-    const localeMatch = import.meta.url.match(/\/docs\/([a-z]{2})\//)
-    return localeMatch ? localeMatch[1] : "en"
-  }
-
-  return "en"
+  // Иначе используем основной путь {locale}/
+  const mainMatch = currentFile.match(/\/docs\/([a-z]{2})\//)
+  const locale = mainMatch ? mainMatch[1] : "en"
+  return `${locale}/blog/posts/*.md`
 }
 
-const currentLocale = getCurrentLocale()
-
-export default createContentLoader(`${currentLocale}/blog/posts/*.md`, {
+export default createContentLoader(getPostsPath(), {
   excerpt: true,
   transform(raw): Post[] {
     return raw

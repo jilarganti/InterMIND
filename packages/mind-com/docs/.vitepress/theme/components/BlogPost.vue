@@ -24,7 +24,7 @@ function formatDate(dateString) {
       <Content />
     </div>
     <footer class="mt-16 pt-8 border-t border-[var(--vp-c-divider)]">
-      <a href="/en/blog/" class="text-[var(--vp-c-brand-1)] no-underline font-medium hover:underline">← Back to Blog</a>
+      <a href="../" class="text-[var(--vp-c-brand-1)] no-underline font-medium hover:underline">← Back to Blog</a>
     </footer>
   </article>
 </template>
