@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { MessageSquare, Search, Plus, ArrowLeft } from "lucide-vue-next"
 import { computed } from "vue"
-import { useData } from "vitepress"
+import { useData, useRouter } from "vitepress"
 
 interface GroupedChats {
   [year: string]: {
@@ -62,6 +62,18 @@ const emit = defineEmits<{
 
 const placeholder = computed(() => useData().site.value.themeConfig.localization.placeholder4ChatList)
 
+// Используем VitePress роутер для навигации
+const router = useRouter()
+
+// Функция для перехода на домашнюю страницу текущей локали
+const goToHome = () => {
+  const currentRoute = router.route
+  const localePrefix = currentRoute.path.match(/^\/([^\/]+)\//)?.[1]
+
+  // Переходим на домашнюю страницу локали или корневую
+  router.go(localePrefix ? `/${localePrefix}/` : "/")
+}
+
 // Преобразуем вложенную структуру в плоский список групп по месяцам
 const flattenedGroups = computed(() => {
   // Правильно типизируем результирующий объект
@@ -100,10 +112,10 @@ const updateSearchInput = (event: Event) => {
   <div class="chat-list-container" :class="{ 'mobile-chat-list': layout === 'mobile' }">
     <!-- Поисковая строка и кнопка нового чата -->
     <div class="search-toolbar">
-      <!-- Кнопка Back для перехода на предыдущую страницу -->
-      <a href="javascript:history.back()" class="toolbar-button neutral-button" title="Back to site">
+      <!-- Кнопка Back для перехода на главную страницу -->
+      <button @click="goToHome" class="toolbar-button neutral-button" title="Back to home">
         <ArrowLeft :size="20" />
-      </a>
+      </button>
 
       <div class="search-container">
         <Search :size="18" class="search-icon" />
