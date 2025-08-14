@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue"
+import { useData, inBrowser } from "vitepress"
 import { ArrowLeft } from "lucide-vue-next"
 import AuthButton from "../AuthButton.vue"
 
@@ -59,6 +60,7 @@ const emit = defineEmits<{
 
 // Ref для поля ввода заголовка
 const titleInputRef = ref<HTMLInputElement | null>(null)
+const { site } = useData()
 
 const vFocus = {
   mounted: (el: HTMLElement) => el.focus(),
@@ -103,14 +105,15 @@ onMounted(() => {
         @blur="emit('save-title')"
         @keydown.enter="emit('save-title')"
         class="title-input"
-        placeholder="Введите название чата..."
       />
     </div>
 
-    <!-- AuthButton в правой части заголовка -->
-    <div class="auth-section">
-      <AuthButton text="Sign In" :button-class="'alt'" event-name="sign_in_attempt" />
-    </div>
+    <AuthButton
+      button-class="brand"
+      event-name="get_started_attempt"
+      button-style="margin: 0 1rem;"
+      :text="site.themeConfig.localization.buttonLabel4GetStartedButton"
+    />
   </div>
 </template>
 
@@ -224,12 +227,6 @@ onMounted(() => {
   box-shadow: 0 0 0 2px var(--vp-c-brand-light);
 }
 
-/* Секция авторизации */
-.auth-section {
-  flex-shrink: 0;
-  margin-left: 16px;
-}
-
 /* Адаптация для мобильного режима */
 .mobile-header .chat-title {
   font-size: 1.125rem;
@@ -238,9 +235,5 @@ onMounted(() => {
 .mobile-header .title-input {
   font-size: 1.125rem;
   height: 34px;
-}
-
-.mobile-header .auth-section {
-  margin-left: 8px;
 }
 </style>
