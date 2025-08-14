@@ -14,7 +14,7 @@ interface Props {
 
 const props = withDefaults(defineProps<Props>(), {
   autoplay: true,
-  loop: true,
+  loop: false,
   muted: true,
 })
 
@@ -53,25 +53,18 @@ onMounted(() => {
     <button
       @click="toggleMute"
       :class="[
-        'absolute top-24 left-24 w-24 h-12',
-        'bg-white/90 text-black',
+        // Адаптивная позиция и размер через Tailwind
+        'absolute top-4 left-4 w-12 h-12',
+        'md:top-24 md:left-24 md:w-24 md:h-12',
+        'bg-white/90 text-black border-0 focus:outline-none',
         'flex items-center justify-center',
-        'rounded-full shadow-lg',
+        'rounded-full',
         showButton ? 'opacity-100' : 'opacity-0',
-        'md:group-hover:opacity-100',
+        'opacity-100 md:opacity-0 md:group-hover:opacity-100',
       ]"
     >
-      <Icon v-if="isMuted" icon="tabler:volume-off" class="text-2xl" />
-      <Icon v-else icon="tabler:volume" class="text-3xl" />
+      <Icon v-if="isMuted" icon="tabler:volume-off" class="text-xl md:text-3xl text-red-500" />
+      <Icon v-else icon="tabler:volume" class="text-xl md:text-3xl" />
     </button>
   </div>
 </template>
-
-<style scoped>
-/* На мобильных показываем кнопку всегда */
-@media (max-width: 768px) {
-  button {
-    opacity: 1 !important;
-  }
-}
-</style>

@@ -11,11 +11,5 @@ description: "From iMind to InterMIND: voice-first video calls with real-time AI
 <NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
 </HeroSection>
 
-<div style="margin-top: 24px">
-  <VideoPlayer 
-    src="/demo-en-mx.mp4"
-    :autoplay="true"
-    :loop="true"
-    :muted="true"
-  />
-</div>
+<br>
+<VideoPlayer src="/demo-en-mx.mp4" />
