@@ -1,5 +1,5 @@
 ---
-# layout: BlogPost
+layout: BlogPost
 title: "البدء مع InterMIND"
 date: 2025-01-15
 author: فريق InterMIND

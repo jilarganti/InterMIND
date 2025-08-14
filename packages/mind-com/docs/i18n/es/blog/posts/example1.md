@@ -1,8 +1,8 @@
 ---
-# layout: BlogPost
+layout: BlogPost
 title: "Comenzando con InterMIND"
 date: 2025-01-15
-author: Equipo InterMIND
+author: InterMIND Team
 ---
 
 # Comenzando con InterMIND

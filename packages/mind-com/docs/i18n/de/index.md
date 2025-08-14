@@ -12,8 +12,8 @@ isHome: true
 <span id="1"></span>
 <FeatureBlock
     :card="{
-      title: 'Übersetzung ≠ Verstehen. Das ist der nächste Schritt.',
-      details: 'Egal in welcher Sprache, Ihre Stimme wird gehört — und verstanden — als ob Sie die gleiche Sprache sprechen würden.',
+      title: 'Übersetzung ≠ Verstehen. Hier ist, was als nächstes kommt.',
+      details: 'Unabhängig von der Sprache wird Ihre Stimme gehört — und verstanden — als würden Sie dieselbe Sprache sprechen.',
       items: [
         '✧ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
         '✧ KI-gestützte Interpretation erfasst Tonfall, Absicht und branchenspezifische Terminologie.',
@@ -34,8 +34,8 @@ isHome: true
       details: 'InterMind verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
       items: [
         '✧ **Fragen Sie alles** — KI findet Antworten **in all Ihren Meetings**.',
-        '✧ Extrahiert automatisch Aufgaben, Verantwortliche und Termine.',
-        '✧ Fasst Kernpunkte in jeder Sprache sofort zusammen.',
+        '✧ Extrahiert automatisch Aufgaben, Verantwortliche und Fristen.',
+        '✧ Fasst wichtige Punkte in jeder Sprache zusammen — sofort.',
       ],
       link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
       src: {
@@ -49,10 +49,10 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: 'Entwickelt für professionelle Meetings — nicht nur zum Plaudern',
-      details: 'InterMind ist eine [professionelle Videomeeting-Plattform](./product/overview/video-meeting-platform), kein einfaches Add-on oder Plugin.',
+      title: 'Entwickelt für ernsthafte Meetings — nicht nur zum Reden',
+      details: 'InterMind ist eine [professionelle Video-Meeting-Plattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
       items: [
-        '✧ 1080p Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufnahme, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
+        '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles eingebaut, **sofort einsatzbereit**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -66,9 +66,9 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
     :card="{
-      title: 'Datenschutz wo er wichtig ist',
-      details: 'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Privatsphäre und Kontrolle am wichtigsten sind.',
-      items: ['✧ [Datenschutzzonen](./product/overview/privacy-architecture) — EU, USA, SO-Asien', '✧ **Kein Datentraining**. Kein Zugriff durch Dritte.'],
+      title: 'Datenschutz, wo es darauf ankommt',
+      details: 'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Datenschutz und Kontrolle am wichtigsten sind.',
+      items: ['✧ [Datenschutzzonen](./product/overview/privacy-architecture) — EU, USA, Südostasien', '✧ **Null Datentraining**. Kein Zugriff durch Dritte.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -78,12 +78,12 @@ isHome: true
     }"
   />
 
-> [!tip] Für wen ist das?  
-> Entwickelt für **internationale Teams**, bei denen Sprachbarrieren zu **Verzögerungen**, **verlorenen Geschäften** oder **kostspieligen Missverständnissen** führen. [Mehr erfahren ...](./product/overview/markets)
+> [!tip] Für wen ist das gedacht?  
+> Entwickelt für **internationale Teams**, bei denen Sprachbarrieren **Verzögerungen**, **verlorene Geschäfte** oder **kostspielige Missverständnisse** verursachen. [Mehr erfahren ...](./product/overview/markets)
 
 ## Funktioniert wie Google Meet + Live-Übersetzung
 
-Vertraute Benutzeroberfläche. Universelle Kommunikation. Genauso einfach wie Google Meet — mit sofortiger Übersetzung, die Sprachbarrieren verschwinden lässt.
+Vertraute Benutzeroberfläche. Universelle Kommunikation. Dieselbe Einfachheit wie Google Meet — mit sofortiger Übersetzung, die Sprachbarrieren verschwinden lässt.
 
 <span id="HowItWorks"></span>
 
@@ -107,14 +107,14 @@ Vertraute Benutzeroberfläche. Universelle Kommunikation. Genauso einfach wie Go
       },
       {
         title: 'Am Meeting teilnehmen',
-        details: 'Link anklicken, Namen eingeben, sofort teilnehmen.',
+        details: 'Link klicken, Namen eingeben, sofort beitreten.',
         icon: {
           light: '/join.png',
           dark: '/join.png',
         },
       },
       {
-        title: 'Sprechen Sie Ihre Sprache',
+        title: 'In Ihrer Sprache sprechen',
         details: 'Jeder spricht und hört in seiner eigenen Sprache.',
         icon: {
           light: '/meeting.png',
@@ -126,11 +126,11 @@ Vertraute Benutzeroberfläche. Universelle Kommunikation. Genauso einfach wie Go
 
 <span id="Example"></span>
 
-## Beispiel: So funktioniert Echtzeit-Sprachübersetzung in einem Meeting
+## Beispiel: Wie Echtzeit-Sprachübersetzung in einem Meeting funktioniert
 
 Nehmen wir an:
 
-> Der Benutzer verwendet **Spanisch** als **Lokalisierungssprache der Website**. Sie hosten ein Meeting und laden zwei Teilnehmer ein:
+> Der Benutzer verwendet **Spanisch** als **Website-Lokalisierungssprache**. Er veranstaltet ein Meeting und lädt zwei Teilnehmer ein:
 >
 > - 🧑‍💼 Teilnehmer 1 verwendet die Benutzeroberfläche auf **Englisch**
 > - 👩 Teilnehmer 2 verwendet die Benutzeroberfläche auf **Chinesisch**
@@ -138,7 +138,7 @@ Nehmen wir an:
 ### Was passiert während des Meetings?
 
 Jeder Teilnehmer **spricht und hört** in der Sprache, die er beim Betreten des Produkts ausgewählt hat.  
-Diese einzelne Spracheinstellung gilt für:
+Diese einzige Spracheinstellung gilt für:
 
 - Die **Oberflächensprache**
 - Die **gesprochene Eingabe** (was Sie sagen)
@@ -150,17 +150,17 @@ Diese einzelne Spracheinstellung gilt für:
 | Teilnehmer 1  | Englisch         | Englisch   | Englisch |
 | Teilnehmer 2  | Chinesisch       | Chinesisch | Chinesisch |
 
-[Die Plattform interpretiert automatisch alle Sprache in Echtzeit](./product/overview/how-it-works) — sodass jeder kommuniziert, als würden alle dieselbe Sprache sprechen.
+[Die Plattform interpretiert automatisch alle Sprache in Echtzeit](./product/overview/how-it-works) — so kommuniziert jeder, als würde er dieselbe Sprache sprechen.
 
-### Kann man die Sprache während des Anrufs ändern?
+### Können Sie Ihre Sprache während des Anrufs ändern?
 
 Ja. Sie können die **Einstellungen** öffnen und das Feld `Ihre Sprache` ändern:
 
-:::details Einstellungen-Panel
-<img src="/settings.png" alt="einstellungen-panel" width="300px" />
+:::details Einstellungsbereich
+<img src="/settings.png" alt="Einstellungsbereich" width="300px" />
 :::
 
-Eine Änderung bedeutet:
+Diese Änderung bedeutet:
 
 - Sie sollten in der `gewählten Sprache` sprechen für eine genaue Übersetzung
 - Sie werden andere in der `gewählten Sprache` hören
@@ -168,11 +168,11 @@ Eine Änderung bedeutet:
 
 > 📌 Hinweis: "Ihre Sprache" ist eine **einzige einheitliche Einstellung**  
 > Sie steuert **wie Sie sprechen**, **was Sie hören** und **was Sie sehen**.  
-> In einer Sprache zu sprechen und in einer anderen zu hören wird **nicht unterstützt** — bewusst, um die Erfahrung einfach und vorhersehbar zu halten.
+> In einer Sprache sprechen und in einer anderen zuhören wird **nicht unterstützt** — bewusst, um die Erfahrung einfach und vorhersagbar zu halten.
 
 ## Klare und einfache Preisgestaltung
 
-Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
+Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
 
 <span id="Pricing"></span>
 
@@ -184,19 +184,19 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
         details: 'keine Kreditkarte erforderlich',
         items: [
           '**25** Meetings',
-          '**100** Teilnehmer Videomeetings [💬](#3)',
+          '**100** Teilnehmer Video-Meetings [💬](#3)',
           '**30** GB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',
         ],
       },
       {
-        title: '**Pro** &nbsp 1-99 Benutzer',
-        price: '**20€** /Monat/Benutzer, jährlich abgerechnet',
-        details: 'oder 25€ monatlich abgerechnet',
+        title: '**Pro**  &nbsp 1-99 Benutzer',
+        price: '**20 €** /Monat/Benutzer, jährlich abgerechnet',
+        details: 'oder 25 € monatlich abgerechnet',
         items: [
           '**Unbegrenzte** Meetings',
-          '**150** Teilnehmer Videomeetings [💬](#3)',
+          '**150** Teilnehmer Video-Meetings [💬](#3)',
           '**2** TB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',
@@ -204,28 +204,28 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
       },
       {
         title: '**Business** &nbsp 100+ Benutzer',
-        price: '**Individueller Preis**',
-        details: 'Entwickelt für Datenschutz',
+        price: '**Individuelle Preisgestaltung**',
+        details: 'Für Datenschutz entwickelt',
         items: [
           '**Unbegrenzte** Meetings',
-          '**500** Teilnehmer Videomeetings [💬](#3)',
+          '**500** Teilnehmer Video-Meetings [💬](#3)',
           '**5** TB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',
-          '**Datenschutzzonen** [💬](#4)',
+          '**Privacy Zones** [💬](#4)',
         ],
       },
     ]">
 <AuthButton text="Kostenlos testen" buttonClass="brand" eventName="try_it_attempt" />
 <AuthButton text="Jetzt kaufen" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
-<ContactForm buttonText="Sprechen Sie mit unserem Team" buttonClass="alt" />
+<ContactForm buttonText="Mit unserem Team sprechen" buttonClass="alt" />
 </PricingPlans>
 
-> [!warning] 😱 Entweder Sie sprechen jede Sprache — oder jemand anders macht Ihre Geschäftsabschlüsse.
+> [!warning] 😱 Entweder Sie sprechen jede Sprache — oder jemand anderes schließt Ihre Geschäfte ab.
 
 <span id="Testimonials"></span>
 
-## Was unsere Kunden sagen
+## Was Kunden sagen
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
@@ -238,44 +238,44 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
 <AccordionGroup
     :items="[
       {
-        q: 'Welche Sprachen unterstützt InterMind für Dolmetschleistungen?',
-        a: 'InterMind unterstützt **Echtzeit-Dolmetschen** in den folgenden 19 Sprachen:<br><br>- العربية (ar) – Arabisch<br>- Čeština (cs) – Tschechisch<br>- Deutsch (de) – Deutsch<br>- English (en) – Englisch<br>- Español (es) – Spanisch<br>- Français (fr) – Französisch<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Ungarisch<br>- Italiano (it) – Italienisch<br>- 日本語 (ja) – Japanisch<br>- 한국어 (ko) – Koreanisch<br>- Nederlands (nl) – Niederländisch<br>- Polski (pl) – Polnisch<br>- Português (pt) – Portugiesisch<br>- Русский (ru) – Russisch<br>- Türkçe (tr) – Türkisch<br>- 中文 (zh) – Chinesisch<br><br>Wir erweitern diese Liste kontinuierlich — neue Sprachen werden mit jedem größeren Update hinzugefügt.',
+        q: 'Welche Sprachen unterstützt InterMind für die Dolmetschung?',
+        a: 'InterMind unterstützt **Echtzeit-Dolmetschung** in den folgenden 19 Sprachen:<br><br>- العربية (ar) – Arabisch<br>- Čeština (cs) – Tschechisch<br>- Deutsch (de) – Deutsch<br>- English (en) – Englisch<br>- Español (es) – Spanisch<br>- Français (fr) – Französisch<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Ungarisch<br>- Italiano (it) – Italienisch<br>- 日本語 (ja) – Japanisch<br>- 한국어 (ko) – Koreanisch<br>- Nederlands (nl) – Niederländisch<br>- Polski (pl) – Polnisch<br>- Português (pt) – Portugiesisch<br>- Русский (ru) – Russisch<br>- Türkçe (tr) – Türkisch<br>- 中文 (zh) – Chinesisch<br><br>Wir erweitern diese Liste kontinuierlich — neue Sprachen werden mit jeder größeren Version hinzugefügt.',
       },
       {
         q: 'Was ist ein lizenzierter Benutzer und was ist ein Teilnehmer?',
-        a: 'Ein *lizenzierter Benutzer* hat eine kostenlose oder bezahlte Meeting-Lizenz und kann Meetings innerhalb der Grenzen seines Plans planen. *Teilnehmer* sind Eingeladene — sie **benötigen kein Konto oder Lizenz** zum Beitreten und können sich von jedem Gerät aus **kostenlos** verbinden.',
+        a: 'Ein *lizenzierter Benutzer* hat eine kostenlose oder kostenpflichtige Meeting-Lizenz und kann Meetings innerhalb der Grenzen seines Plans planen. *Teilnehmer* sind Eingeladene — sie **benötigen kein Konto oder Lizenz** zum Beitreten und können sich von jedem Gerät **kostenlos** verbinden.',
       },
       {
-        q: 'Wie viele Personen können eine InterMind-Lizenz nutzen?',
-        a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt Meetings** hosten. Wenn mehrere Teammitglieder gleichzeitig Meetings hosten müssen, benötigt jeder seine eigene Lizenz.',
+        q: 'Wie viele Personen können eine InterMind-Lizenz verwenden?',
+        a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt viele Meetings** veranstalten. Wenn mehrere Teammitglieder gleichzeitig Meetings veranstalten müssen, benötigt jeder eine eigene Lizenz.',
       },
       {
         q: 'Wie lange kann ein Meeting maximal dauern?',
         a: 'Meetings können in allen Plänen bis zu **24 Stunden** dauern.',
       },
       {
-        q: 'Gibt es eine Begrenzung für die Anzahl der Meetings, die ich hosten kann?',
-        a: 'Der *Free Basic* Plan enthält **25 kostenlose Meetings**. *Pro* und *Business* Pläne bieten unbegrenzte Meetings mit mehr Teilnehmern und Kontrolle.',
+        q: 'Gibt es eine Begrenzung für die Anzahl der Meetings, die ich veranstalten kann?',
+        a: 'Der *Free Basic*-Plan beinhaltet **25 kostenlose Meetings**. *Pro*- und *Business*-Pläne bieten unbegrenzte Meetings mit mehr Teilnehmern und Kontrolle.',
       },
       {
         q: 'Wie gewährleistet InterMind Datenschutz und Sicherheit?',
-        a: 'InterMind ist **von Grund auf privat**. Alle Daten werden in Ihrer ausgewählten **Privacy Zone** verarbeitet und gespeichert — _EU_, _US_ oder _Asien_. Wir erfüllen die Anforderungen der [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) und UAE PDPL und **verwenden Ihre Inhalte niemals** für Training oder Zugriff durch Dritte. Erweiterte [Privacy Zone-Kontrolle](./product/overview/privacy-architecture) ist im **Business** Plan verfügbar.',
+        a: 'InterMind ist **standardmäßig privat**. Alle Daten werden in Ihrer ausgewählten **Datenschutzzone** verarbeitet und gespeichert — _EU_, _USA_ oder _Asien_. Wir entsprechen der [**DSGVO**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) und UAE PDPL und **verwenden niemals Ihre Inhalte** für Training oder Zugriff durch Dritte. Erweiterte [Datenschutzzonen-Kontrolle](./product/overview/privacy-architecture) ist im **Business**-Plan verfügbar.',
       },
       {
         q: 'Kann ich InterMind vor dem Kauf eines Plans testen?',
-        a: 'Absolut. Der *Free Basic* Plan gibt Ihnen vollen Zugriff auf Kernfunktionen mit **25 kostenlosen Meetings** — einschließlich **Simultandolmetschen** und **Meeting-Suche**. Keine Kreditkarte erforderlich. Upgrade jederzeit möglich.',
+        a: 'Absolut. Der *Free Basic*-Plan gibt Ihnen vollen Zugang zu den Kernfunktionen mit **25 kostenlosen Meetings** — einschließlich **Simultandolmetschung** und **Meeting-Suche**. Keine Kreditkarte erforderlich. Jederzeit upgraden.',
       },
       {
-        q: 'Was passiert, wenn ich Hilfe oder Support benötige?',
-        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Nutzer erhalten **Priority Support** mit einem persönlichen Ansprechpartner.',
+        q: 'Was ist, wenn ich Hilfe oder Support benötige?',
+        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **vorrangigen Support** mit einem dedizierten Ansprechpartner.',
       },
       {
         q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
-        a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Bei Kündigungen enden *Monatspläne* am Ende des Abrechnungszeitraums. *Jahrespläne* können gegen **anteilige Rückerstattung** gekündigt werden.',
+        a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Bei Kündigungen werden *monatliche Pläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.',
       },
       {
-        q: 'Kann ich InterMind für Webinare oder große Veranstaltungen nutzen?',
-        a: 'Ja. *Pro* und *Business* Pläne sind ideal für **große Meetings und Webinare** — mit Unterstützung für bis zu **500 Teilnehmer** im *Business* Plan.',
+        q: 'Kann ich InterMind für Webinare oder große Veranstaltungen verwenden?',
+        a: 'Ja. *Pro*- und *Business*-Pläne sind ideal für **große Meetings und Webinare** — mit Unterstützung für bis zu **500 Teilnehmer** im *Business*-Plan.',
       },
     ]"/>
 
@@ -284,36 +284,38 @@ Von ersten Gesprächen bis zu fließenden Unterhaltungen — in jedem Umfang.
       {
         title: 'PRODUKT',
         links: [
-          { text: 'Overview', link: './product/overview/what-is-intermind' },
-          { text: 'Getting Started', link: './product/guide/getting-started' },
-          { text: 'Testimonials', link: '#testimonials' },
-          { text: 'Pricing', link: '#Pricing' },
+          { text: 'Übersicht', link: './product/overview/what-is-intermind' },
+          { text: 'Erste Schritte', link: './product/guide/getting-started' },
+          { text: 'Testimonials', link: '#Testimonials' },
+          { text: 'Preise', link: '#Pricing' },
         ],
       },
       {
         title: 'SUPPORT',
         links: [
-          { text: 'Get Support', link: './resources/help' },
+          { text: 'Support erhalten', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Privacy Policy', link: './resources/company/Privacy-Policy' },
-          { text: 'AI Legal Guide', link: './resources/company/Legal-Regulations-for-AI-Services' },
-          { text: 'Service Status', link: 'https://status.mind.com/' },
+          { text: 'Datenschutzrichtlinie', link: './resources/company/Privacy-Policy' },
+          { text: 'KI-Rechtsleitfaden', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'Service-Status', link: 'https://status.mind.com/' },
+          // { text: 'Privacy Settings', link: '#' },
         ],
       },
       {
         title: 'RESSOURCEN',
         links: [
           { text: 'Blog', link: './blog' },
-          { text: 'Brand Assets', link: './resources/media-kit' },
-          { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
+          { text: 'Marken-Assets', link: './resources/media-kit' },
+          { text: 'KI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {
         title: 'UNTERNEHMEN',
         links: [
-          { text: 'About', link: './resources/company/about' },
+          { text: 'Über uns', link: './resources/company/about' },
           { text: 'Team', link: './resources/company/team' },
-          { text: 'Contacts', link: './resources/company/contacts' },
+          // { text: 'Careers', link: './resources/company/careers' },
+          { text: 'Kontakte', link: './resources/company/contacts' },
         ],
       },
     ]"/>

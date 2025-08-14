@@ -1,11 +1,11 @@
 ---
-# layout: BlogPost
-title: "Começando com o InterMIND"
+layout: BlogPost
+title: "Primeiros passos com InterMIND"
 date: 2025-01-15
-author: Equipe InterMIND
+author: InterMIND Team
 ---
 
-# Começando com o InterMIND
+# Primeiros passos com InterMIND
 
 Bem-vindo ao InterMIND! Este post irá guiá-lo através dos conceitos básicos da nossa plataforma alimentada por IA.
 

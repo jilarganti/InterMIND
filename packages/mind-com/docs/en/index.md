@@ -286,7 +286,7 @@ From first call to fluent conversations — at any scale.
         links: [
           { text: 'Overview', link: './product/overview/what-is-intermind' },
           { text: 'Getting Started', link: './product/guide/getting-started' },
-          { text: 'Testimonials', link: '#testimonials' },
+          { text: 'Testimonials', link: '#Testimonials' },
           { text: 'Pricing', link: '#Pricing' },
         ],
       },

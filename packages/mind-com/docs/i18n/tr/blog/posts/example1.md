@@ -1,5 +1,5 @@
 ---
-# layout: BlogPost
+layout: BlogPost
 title: "InterMIND ile Başlangıç"
 date: 2025-01-15
 author: InterMIND Team
@@ -7,25 +7,25 @@ author: InterMIND Team
 
 # InterMIND ile Başlangıç
 
-InterMIND\'e hoş geldiniz! Bu yazı, yapay zeka destekli platformumuzun temellerinde size rehberlik edecek.
+InterMIND'a hoş geldiniz! Bu yazı, AI destekli platformumuzun temellerini öğrenmenizde size rehberlik edecek.
 
 <!--more-->
 
 ## InterMIND nedir?
 
-InterMIND, yapay zekayı insan uzmanlığıyla birleştirerek güçlü iş çözümleri yaratan yenilikçi bir platformdur.
+InterMIND, güçlü iş çözümleri oluşturmak için yapay zekayı insan uzmanlığıyla birleştiren yenilikçi bir platformdur.
 
 ## Temel Özellikler
 
-- **AI Sohbet Entegrasyonu**: GPT-4 ve Claude ile güçlendirilmiş
-- **Vektör Arama**: Upstash ile anlamsal arama özellikleri
+- **AI Sohbet Entegrasyonu**: GPT-4 ve Claude ile desteklenir
+- **Vektör Arama**: Upstash ile semantik arama yetenekleri
 - **Çoklu Dil Desteği**: 19+ dilde kullanılabilir
 - **OAuth Entegrasyonu**: Güvenli kimlik doğrulama sistemi
 
 ## Başlangıç
 
-1. [inter.mind.com](https://inter.mind.com) adresinden bir hesap oluşturun
+1. [inter.mind.com](https://inter.mind.com) adresinden hesap oluşturun
 2. OAuth kimlik doğrulamasını tamamlayın
-3. Yapay zeka destekli özelliklerimizi keşfetmeye başlayın
+3. AI destekli özelliklerimizi keşfetmeye başlayın
 
-Daha fazla güncelleme ve eğitim için takipte kalın!
+Daha fazla güncelleme ve eğitim için bizi takip etmeye devam edin!

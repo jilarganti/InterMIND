@@ -1,10 +1,10 @@
 ---
 layout: home
-title: "Tradução simultânea de voz para videochamadas"
+title: "Tradução de fala ao vivo para videochamadas"
 isHome: true
 ---
 
-<HeroSection title="Reúna-se em **Qualquer** Idioma" :typingSpeed="10" text="Tradução simultânea de voz em **videochamadas** — comunicação rápida, clara e sem fronteiras.">
+<HeroSection title="Encontre-se em **Qualquer** Idioma" :typingSpeed="10" text="Tradução de fala ao vivo em **videochamadas** — comunicação rápida, clara e sem fronteiras.">
 <NavButton buttonLabel="Como funciona" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Assistente" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -12,11 +12,11 @@ isHome: true
 <span id="1"></span>
 <FeatureBlock
     :card="{
-      title: 'Tradução ≠ Compreensão. Conheça o próximo passo.',
-      details: 'Independente do idioma, sua voz é ouvida — e compreendida — como se falassem a mesma língua.',
+      title: 'Tradução ≠ Compreensão. Veja o que vem a seguir.',
+      details: 'Não importa o idioma, sua voz é ouvida — e compreendida — como se vocês compartilhassem a mesma língua.',
       items: [
-        '✧ Naturalmente, em [tempo real](./product/overview/how-it-works), sem legendas ou atrasos.',
-        '✧ Interpretação potencializada por IA captura tom, intenção e terminologia específica do setor.',
+        '✧ Naturalmente, em [tempo real](./product/overview/how-it-works), e sem legendas ou atraso.',
+        '✧ Interpretação alimentada por IA captura tom, intenção e terminologia específica do setor.',
       ],
       link: './product/overview/what-is-intermind',
       src: {
@@ -30,12 +30,12 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock
     :card="{
-      title: 'A Mente Dentro das Suas Reuniões',
+      title: 'A mente dentro das suas reuniões',
       details: 'InterMind transforma cada chamada multilíngue em conhecimento claro e pesquisável.',
       items: [
-        '✧ **Pergunte qualquer coisa** — a IA encontra respostas **em todas as suas reuniões**.',
+        '✧ **Pergunte qualquer coisa** — IA encontra respostas **em todas as suas reuniões**.',
         '✧ Extrai automaticamente tarefas, responsáveis e prazos.',
-        '✧ Resume os pontos principais em qualquer idioma — instantaneamente.',
+        '✧ Resume pontos-chave em qualquer idioma — instantaneamente.',
       ],
       link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
       src: {
@@ -49,10 +49,10 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: 'Desenvolvido para Reuniões Sérias — Não Apenas Conversas',
-      details: 'InterMind é uma [plataforma profissional de videochamadas](./product/overview/video-meeting-platform), não apenas um complemento ou plugin simples.',
+      title: 'Construído para reuniões sérias — não apenas para conversar',
+      details: 'InterMind é uma [plataforma de videoconferência de nível profissional](./product/overview/video-meeting-platform), não um complemento leve ou plugin.',
       items: [
-        '✧ Resolução 1080p, supressão inteligente de ruído, agendamento, moderação, compartilhamento de tela, gravação, legendas, chat entre participantes e integração com calendário — tudo integrado, **pronto para usar**.',
+        '✧ Resolução 1080p, supressão inteligente de ruído, agendamento, moderação, compartilhamento de tela, gravação, legendagem, chat de participantes e integração com calendário — tudo integrado, **pronto para usar**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -66,9 +66,9 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
     :card="{
-      title: 'Privacidade Onde Importa',
-      details: 'InterMind é desenvolvido para conversas que exigem confiança — onde privacidade e controle são fundamentais.',
-      items: ['✧ [Zonas de Privacidade](./product/overview/privacy-architecture) — UE, EUA, Sudeste Asiático', '✧ **Zero treinamento de dados**. Sem acesso de terceiros.'],
+      title: 'Privacidade onde importa',
+      details: 'InterMind é construído para conversas críticas de confiança — onde privacidade e controle são fundamentais.',
+      items: ['✧ [Zonas de privacidade](./product/overview/privacy-architecture) — UE, EUA, Sudeste Asiático', '✧ **Zero treinamento de dados**. Sem acesso de terceiros.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -79,9 +79,9 @@ isHome: true
   />
 
 > [!tip] Para quem é isso?  
-> Desenvolvido para **equipes internacionais** onde barreiras linguísticas causam **atrasos**, **negócios perdidos** ou **mal-entendidos custosos**. [Saiba mais ...](./product/overview/markets)
+> Construído para **equipes internacionais** onde barreiras linguísticas causam **atrasos**, **negócios perdidos** ou **mal-entendidos custosos**. [Saiba mais ...](./product/overview/markets)
 
-## Funciona Como o Google Meet + Tradução em Tempo Real
+## Funciona Como Google Meet + Tradução ao Vivo
 
 Interface familiar. Comunicação universal. A mesma facilidade do Google Meet — com tradução instantânea que faz as barreiras linguísticas desaparecerem.
 
@@ -91,7 +91,7 @@ Interface familiar. Comunicação universal. A mesma facilidade do Google Meet �
     :features="[
       {
         title: 'Cadastre-se gratuitamente',
-        details: 'Escolha seu idioma e [crie sua conta](#Pricing).',
+        details: 'Escolha seu idioma e [crie uma conta](#Pricing).',
         icon: {
           light: '/signUp.png',
           dark: '/signUp.png',
@@ -107,7 +107,7 @@ Interface familiar. Comunicação universal. A mesma facilidade do Google Meet �
       },
       {
         title: 'Entre na reunião',
-        details: 'Clique no link, digite seu nome, entre instantaneamente.',
+        details: 'Clique no link, digite o nome, entre instantaneamente.',
         icon: {
           light: '/join.png',
           dark: '/join.png',
@@ -126,14 +126,14 @@ Interface familiar. Comunicação universal. A mesma facilidade do Google Meet �
 
 <span id="Example"></span>
 
-## Exemplo: Como funciona a tradução simultânea de voz em uma reunião
+## Exemplo: Como funciona a tradução de fala em tempo real em uma reunião
 
-Vamos supor:
+Vamos supor que:
 
-> O usuário usa **Espanhol** como **idioma de localização do site**. Eles hospedam uma reunião e convidam dois participantes:
+> O usuário usa **espanhol** como **idioma de localização do site**. Ele hospeda uma reunião e convida dois participantes:
 >
-> - 🧑‍💼 Participante 1 usa a interface em **Inglês**
-> - 👩 Participante 2 usa a interface em **Chinês**
+> - 🧑‍💼 Participante 1 usa a interface em **inglês**
+> - 👩 Participante 2 usa a interface em **chinês**
 
 ### O que acontece durante a reunião?
 
@@ -141,26 +141,26 @@ Cada participante **fala e ouve** no idioma que selecionou ao entrar no produto.
 Esta configuração única de idioma se aplica a:
 
 - O **idioma da interface**
-- A **entrada de voz** (o que você fala)
+- A **entrada falada** (o que você fala)
 - A **saída traduzida** (o que você ouve)
 
-| Participante   | Idioma Selecionado | Fala Em  | Ouve Em  |
-| ------------- | ------------------ | -------- | -------- |
-| Anfitrião     | Espanhol          | Espanhol | Espanhol |
-| Participante 1 | Inglês            | Inglês   | Inglês   |
-| Participante 2 | Chinês            | Chinês   | Chinês   |
+| Participante  | Idioma Selecionado | Fala Em   | Ouve Em   |
+| ------------- | ------------------ | --------- | --------- |
+| Anfitrião     | Espanhol           | Espanhol  | Espanhol  |
+| Participante 1| Inglês             | Inglês    | Inglês    |
+| Participante 2| Chinês             | Chinês    | Chinês    |
 
-[A plataforma interpreta automaticamente toda a fala em tempo real](./product/overview/how-it-works) — assim todos se comunicam como se falassem o mesmo idioma.
+[A plataforma interpreta automaticamente toda a fala em tempo real](./product/overview/how-it-works) — então todos se comunicam como se falassem o mesmo idioma.
 
-### Posso mudar meu idioma durante a chamada?
+### Você pode mudar seu idioma durante a chamada?
 
 Sim. Você pode abrir as **Configurações** e alterar o campo `Seu Idioma`:
 
 :::details Painel de Configurações
-<img src="/settings.png" alt="painel-de-configuracoes" width="300px" />
+<img src="/settings.png" alt="painel-de-configurações" width="300px" />
 :::
 
-Mudar isso significa:
+Alterar isso significa:
 
 - Você deve falar no `idioma escolhido` para uma tradução precisa
 - Você ouvirá os outros no `idioma escolhido`
@@ -181,12 +181,12 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       {
         title: '**Básico** &nbsp 1 usuário',
         price: '**Grátis**',
-        details: 'sem necessidade de cartão de crédito',
+        details: 'cartão de crédito não necessário',
         items: [
           '**25** reuniões',
-          '**100** participantes em reuniões por vídeo [💬](#3)',
+          '**100** participantes em videochamadas [💬](#3)',
           '**30** GB de armazenamento compartilhado por usuário',
-          'Pesquisa em todas as suas reuniões [💬](#2)',
+          'Pesquise em todas as suas reuniões [💬](#2)',
           'Interpretação simultânea [💬](#1)',
         ],
       },
@@ -195,29 +195,29 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
         price: '**$20** /mês/usuário, cobrado anualmente',
         details: 'ou $25 cobrado mensalmente',
         items: [
-          'Reuniões **ilimitadas**',
-          '**150** participantes em reuniões por vídeo [💬](#3)',
+          '**Reuniões ilimitadas**',
+          '**150** participantes em videochamadas [💬](#3)',
           '**2** TB de armazenamento compartilhado por usuário',
-          'Pesquisa em todas as suas reuniões [💬](#2)',
+          'Pesquise em todas as suas reuniões [💬](#2)',
           'Interpretação simultânea [💬](#1)',
         ],
       },
       {
-        title: '**Business** &nbsp 100+ usuários',
+        title: '**Empresarial** &nbsp 100+ usuários',
         price: '**Preço personalizado**',
-        details: 'Desenvolvido para privacidade',
+        details: 'Construído para privacidade',
         items: [
-          'Reuniões **ilimitadas**',
-          '**500** participantes em reuniões por vídeo [💬](#3)',
+          '**Reuniões ilimitadas**',
+          '**500** participantes em videochamadas [💬](#3)',
           '**5** TB de armazenamento compartilhado por usuário',
-          'Pesquisa em todas as suas reuniões [💬](#2)',
+          'Pesquise em todas as suas reuniões [💬](#2)',
           'Interpretação simultânea [💬](#1)',
           '**Zonas de Privacidade** [💬](#4)',
         ],
       },
     ]">
 <AuthButton text="Experimente grátis" buttonClass="brand" eventName="try_it_attempt" />
-<AuthButton text="Compre agora" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
+<AuthButton text="Comprar agora" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
 <ContactForm buttonText="Fale com nossa equipe" buttonClass="alt" />
 </PricingPlans>
 
@@ -225,7 +225,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
 
 <span id="Testimonials"></span>
 
-## O Que Nossos Clientes Estão Dizendo
+## O que os clientes estão dizendo
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
@@ -239,14 +239,14 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
     :items="[
       {
         q: 'Quais idiomas o InterMind suporta para interpretação?',
-        a: 'O InterMind suporta **interpretação em tempo real** nos seguintes 19 idiomas:<br><br>- العربية (ar) – Árabe<br>- Čeština (cs) – Tcheco<br>- Deutsch (de) – Alemão<br>- English (en) – Inglês<br>- Español (es) – Espanhol<br>- Français (fr) – Francês<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Húngaro<br>- Italiano (it) – Italiano<br>- 日本語 (ja) – Japonês<br>- 한국어 (ko) – Coreano<br>- Nederlands (nl) – Holandês<br>- Polski (pl) – Polonês<br>- Português (pt) – Português<br>- Русский (ru) – Russo<br>- Türkçe (tr) – Turco<br>- 中文 (zh) – Chinês<br><br>Estamos continuamente expandindo esta lista — novos idiomas são adicionados a cada nova versão principal.',
+        a: 'O InterMind suporta **interpretação em tempo real** nos seguintes 19 idiomas:<br><br>- العربية (ar) – Árabe<br>- Čeština (cs) – Tcheco<br>- Deutsch (de) – Alemão<br>- English (en) – Inglês<br>- Español (es) – Espanhol<br>- Français (fr) – Francês<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Húngaro<br>- Italiano (it) – Italiano<br>- 日本語 (ja) – Japonês<br>- 한국어 (ko) – Coreano<br>- Nederlands (nl) – Holandês<br>- Polski (pl) – Polonês<br>- Português (pt) – Português<br>- Русский (ru) – Russo<br>- Türkçe (tr) – Turco<br>- 中文 (zh) – Chinês<br><br>Estamos continuamente expandindo esta lista — novos idiomas são adicionados a cada versão principal.',
       },
       {
-        q: 'O que é um usuário Licenciado e o que é um Participante?',
-        a: 'Um *usuário licenciado* possui uma licença gratuita ou paga e pode agendar reuniões dentro dos limites do seu plano. *Participantes* são convidados — eles **não precisam de uma conta ou licença** para participar e podem se conectar de qualquer dispositivo **gratuitamente**.',
+        q: 'O que é um usuário licenciado e o que é um participante?',
+        a: 'Um *usuário licenciado* possui uma licença de reunião gratuita ou paga e pode agendar reuniões dentro dos limites do seu plano. *Participantes* são convidados — eles **não precisam de uma conta ou licença** para participar e podem se conectar de qualquer dispositivo **gratuitamente**.',
       },
       {
-        q: 'Quantas pessoas podem usar uma licença InterMind?',
+        q: 'Quantas pessoas podem usar uma licença do InterMind?',
         a: 'Cada *usuário licenciado* pode hospedar **reuniões ilimitadas**. Se vários membros da equipe precisarem hospedar reuniões simultaneamente, cada um precisará de sua própria licença.',
       },
       {
@@ -254,16 +254,16 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
         a: 'As reuniões podem durar até **24 horas** em todos os planos.',
       },
       {
-        q: 'Existe um limite para o número de reuniões que posso hospedar?',
-        a: 'O plano *Free Basic* inclui **25 reuniões gratuitas**. Os planos *Pro* e *Business* oferecem reuniões ilimitadas com mais participantes e controle.',
+        q: 'Existe um limite no número de reuniões que posso hospedar?',
+        a: 'O plano *Básico Gratuito* inclui **25 reuniões gratuitas**. Os planos *Pro* e *Business* oferecem reuniões ilimitadas com mais participantes e controle.',
       },
       {
         q: 'Como o InterMind garante a privacidade e segurança dos dados?',
-        a: 'O InterMind é **privado por design**. Todos os dados são processados e armazenados dentro da sua **Zona de Privacidade** selecionada — _UE_, _EUA_ ou _Ásia_. Cumprimos com [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) e UAE PDPL, e **nunca usamos seu conteúdo** para treinamento ou acesso de terceiros. O controle avançado da [Zona de Privacidade](./product/overview/privacy-architecture) está disponível no plano **Business**.',
+        a: 'O InterMind é **privado por design**. Todos os dados são processados e armazenados dentro da sua **Zona de Privacidade** selecionada — _UE_, _EUA_ ou _Ásia_. Cumprimos com [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) e UAE PDPL, e **nunca usamos seu conteúdo** para treinamento ou acesso de terceiros. Controle avançado de [Zona de Privacidade](./product/overview/privacy-architecture) está disponível no plano **Business**.',
       },
       {
         q: 'Posso experimentar o InterMind antes de comprar um plano?',
-        a: 'Absolutamente. O plano *Free Basic* oferece acesso completo às funcionalidades principais com **25 reuniões gratuitas** — incluindo **interpretação simultânea** e **pesquisa de reuniões**. Não é necessário cartão de crédito. Faça upgrade quando quiser.',
+        a: 'Absolutamente. O plano *Básico Gratuito* oferece acesso completo aos recursos principais com **25 reuniões gratuitas** — incluindo **interpretação simultânea** e **busca de reuniões**. Não é necessário cartão de crédito. Faça upgrade a qualquer momento.',
       },
       {
         q: 'E se eu precisar de ajuda ou suporte?',
@@ -271,11 +271,11 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       },
       {
         q: 'Como gerencio minha assinatura (upgrade, downgrade ou cancelamento)?',
-        a: 'Você pode alterar seu plano a qualquer momento através das **configurações da conta**. As alterações têm efeito **imediato**. Para cancelamentos, *Planos Mensais* são cancelados no final do ciclo de faturamento. *Planos Anuais* podem ser cancelados com **reembolso proporcional**.',
+        a: 'Você pode alterar seu plano a qualquer momento através das **configurações da conta**. As alterações entram em vigor **imediatamente**. Para cancelamentos, *planos mensais* são cancelados no final do ciclo de cobrança. *Planos anuais* podem ser cancelados com **reembolso proporcional**.',
       },
       {
-        q: 'Posso usar o InterMind para webinars ou eventos grandes?',
-        a: 'Sim. Os planos *Pro* e *Business* são ideais para **grandes reuniões e webinars** — com suporte para até **500 participantes** no plano *Business*.',
+        q: 'Posso usar o InterMind para webinars ou grandes eventos?',
+        a: 'Sim. Os planos *Pro* e *Business* são ideais para **grandes reuniões e webinars** — com suporte para até **500 participantes** no *Business*.',
       },
     ]"/>
 
@@ -284,36 +284,38 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       {
         title: 'PRODUTO',
         links: [
-          { text: 'Overview', link: './product/overview/what-is-intermind' },
-          { text: 'Getting Started', link: './product/guide/getting-started' },
-          { text: 'Testimonials', link: '#testimonials' },
-          { text: 'Pricing', link: '#Pricing' },
+          { text: 'Visão geral', link: './product/overview/what-is-intermind' },
+          { text: 'Primeiros passos', link: './product/guide/getting-started' },
+          { text: 'Depoimentos', link: '#Testimonials' },
+          { text: 'Preços', link: '#Pricing' },
         ],
       },
       {
         title: 'SUPORTE',
         links: [
-          { text: 'Get Support', link: './resources/help' },
+          { text: 'Obter suporte', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Privacy Policy', link: './resources/company/Privacy-Policy' },
-          { text: 'AI Legal Guide', link: './resources/company/Legal-Regulations-for-AI-Services' },
-          { text: 'Service Status', link: 'https://status.mind.com/' },
+          { text: 'Política de privacidade', link: './resources/company/Privacy-Policy' },
+          { text: 'Guia legal de IA', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'Status do serviço', link: 'https://status.mind.com/' },
+          // { text: 'Privacy Settings', link: '#' },
         ],
       },
       {
         title: 'RECURSOS',
         links: [
           { text: 'Blog', link: './blog' },
-          { text: 'Brand Assets', link: './resources/media-kit' },
-          { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
+          { text: 'Recursos da marca', link: './resources/media-kit' },
+          { text: 'Documentação da API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {
         title: 'EMPRESA',
         links: [
-          { text: 'About', link: './resources/company/about' },
-          { text: 'Team', link: './resources/company/team' },
-          { text: 'Contacts', link: './resources/company/contacts' },
+          { text: 'Sobre', link: './resources/company/about' },
+          { text: 'Equipe', link: './resources/company/team' },
+          // { text: 'Careers', link: './resources/company/careers' },
+          { text: 'Contatos', link: './resources/company/contacts' },
         ],
       },
     ]"/>

@@ -16,13 +16,13 @@ export { data }
 // Определяем путь для загрузки постов на основе расположения файла
 function getPostsPath(): string {
   const currentFile = __filename || import.meta.url
-  
+
   // Если файл находится в папке i18n, то используем путь i18n/{locale}/
   const i18nMatch = currentFile.match(/\/docs\/i18n\/([a-z]{2})\//)
   if (i18nMatch) {
     return `i18n/${i18nMatch[1]}/blog/posts/*.md`
   }
-  
+
   // Иначе используем основной путь {locale}/
   const mainMatch = currentFile.match(/\/docs\/([a-z]{2})\//)
   const locale = mainMatch ? mainMatch[1] : "en"

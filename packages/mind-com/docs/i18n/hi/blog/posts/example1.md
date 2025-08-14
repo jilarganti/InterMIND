@@ -1,5 +1,5 @@
 ---
-# layout: BlogPost
+layout: BlogPost
 title: "InterMIND के साथ शुरुआत करना"
 date: 2025-01-15
 author: InterMIND Team
