@@ -83,7 +83,7 @@ isHome: true
 
 ## Google Meet + リアルタイム翻訳のように動作
 
-馴染みのあるインターフェース。ユニバーサルコミュニケーション。Google Meetと同じ使いやすさ — 言語の壁を消し去る瞬時翻訳付き。
+馴染みのあるインターフェース。ユニバーサルコミュニケーション。Google Meetと同じ使いやすさ — 言語の壁を消し去る瞬間翻訳付き。
 
 <span id="HowItWorks"></span>
 
@@ -99,7 +99,7 @@ isHome: true
       },
       {
         title: 'ミーティングを開始',
-        details: '即座に作成するか、事前にスケジュールします。',
+        details: '即座に作成するか、事前にスケジュールしてください。',
         icon: {
           light: '/start.png',
           dark: '/start.png',
@@ -107,14 +107,14 @@ isHome: true
       },
       {
         title: 'ミーティングに参加',
-        details: 'リンクをクリック、名前を入力、即座に参加。',
+        details: 'リンクをクリックし、名前を入力して、即座に参加してください。',
         icon: {
           light: '/join.png',
           dark: '/join.png',
         },
       },
       {
-        title: '自分の言語で話す',
+        title: 'あなたの言語で話す',
         details: '全員が自分の言語で話し、聞くことができます。',
         icon: {
           light: '/meeting.png',
@@ -193,7 +193,7 @@ isHome: true
       {
         title: '**プロ**  &nbsp 1-99ユーザー',
         price: '**$20** /月/ユーザー、年間請求',
-        details: 'または月額$25請求',
+        details: 'または月間請求$25',
         items: [
           '**無制限** 会議',
           '**150** 参加者ビデオ会議 [💬](#3)',
@@ -216,8 +216,9 @@ isHome: true
         ],
       },
     ]">
-<AuthButton text="無料で試す" buttonClass="brand" eventName="try_it_attempt" />
-<AuthButton text="今すぐ購入" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
+
+<AuthButton text="始める" button-class="brand" event-name="get_started_attempt"/>
+<AuthButton text="今すぐ購入" mode="checkout" eventName="buy_now_attempt" />
 <ContactForm buttonText="チームに相談" buttonClass="alt" />
 </PricingPlans>
 
@@ -243,7 +244,7 @@ isHome: true
       },
       {
         q: 'ライセンスユーザーと参加者の違いは何ですか？',
-        a: '*ライセンスユーザー*は無料または有料のミーティングライセンスを持ち、プランの制限内でミーティングをスケジュールできます。*参加者*は招待された方で、**アカウントやライセンスは不要**で、どのデバイスからでも**無料で**参加できます。',
+        a: '*ライセンスユーザー*は無料または有料のミーティングライセンスを持ち、プランの制限内でミーティングをスケジュールできます。*参加者*は招待された人で、**アカウントやライセンスは不要**で、どのデバイスからでも**無料で**参加できます。',
       },
       {
         q: '1つのInterMindライセンスで何人が使用できますか？',
@@ -255,7 +256,7 @@ isHome: true
       },
       {
         q: '主催できるミーティング数に制限はありますか？',
-        a: '*無料ベーシック*プランには**25回の無料ミーティング**が含まれています。*プロ*および*ビジネス*プランでは、より多くの参加者と制御機能で無制限のミーティングを提供します。',
+        a: '*無料ベーシック*プランには**25回の無料ミーティング**が含まれています。*プロ*および*ビジネス*プランでは、より多くの参加者と制御機能を備えた無制限のミーティングを提供します。',
       },
       {
         q: 'InterMindはデータプライバシーとセキュリティをどのように確保していますか？',

@@ -205,7 +205,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       {
         title: '**Empresarial** &nbsp 100+ usuários',
         price: '**Preço personalizado**',
-        details: 'Construído para privacidade',
+        details: 'Desenvolvido para privacidade',
         items: [
           '**Reuniões ilimitadas**',
           '**500** participantes em videochamadas [💬](#3)',
@@ -216,8 +216,9 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
         ],
       },
     ]">
-<AuthButton text="Experimente grátis" buttonClass="brand" eventName="try_it_attempt" />
-<AuthButton text="Comprar agora" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
+
+<AuthButton text="Começar" button-class="brand" event-name="get_started_attempt"/>
+<AuthButton text="Comprar agora" mode="checkout" eventName="buy_now_attempt" />
 <ContactForm buttonText="Fale com nossa equipe" buttonClass="alt" />
 </PricingPlans>
 

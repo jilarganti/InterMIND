@@ -3,13 +3,13 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description: "InterMIND يوفر ترجمة فورية للكلام في مكالمات الفيديو — إزالة حواجز اللغة فوراً. مدعوم من فريق mind.com.",
+  description: "InterMIND يوفر ترجمة فورية للكلام في مكالمات الفيديو — يزيل حواجز اللغة فوراً. مدعوم من فريق mind.com.",
   head: [
     [
       "meta",
       {
         name: "description",
-        content: "InterMIND يوفر ترجمة فورية للكلام في مكالمات الفيديو — إزالة حواجز اللغة فوراً. مدعوم من فريق mind.com.",
+        content: "InterMIND يوفر ترجمة فورية للكلام في مكالمات الفيديو — يزيل حواجز اللغة فوراً. مدعوم من فريق mind.com.",
       },
     ],
     ["meta", { property: "og:title", content: "InterMIND | ترجمة فورية للكلام للفرق العالمية" }],
@@ -61,6 +61,7 @@ export const ar = defineConfig({
       buttonLabel4NavButton: "المساعد",
       buttonLabel4SignInButton: "تسجيل الدخول",
       buttonLabel4GetStartedButton: "ابدأ الآن",
+      buttonLabel4TryItButton: "جرب مجاناً",
     },
     contact_form: {
       name: "الاسم *",
@@ -88,7 +89,7 @@ export const ar = defineConfig({
       defaultButtonText: "أرسل لنا رسالة",
       // defaultButtonText: "احصل على استشارة مجانية",
     },
-  } as DefaultTheme.Config,
+  },
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {

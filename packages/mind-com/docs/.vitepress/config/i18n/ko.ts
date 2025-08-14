@@ -38,7 +38,7 @@ export const ko = defineConfig({
         text: "리소스",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "자주 묻는 질문", link: `${BASE_PATH}/#FAQ` },
+          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "고객 후기", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -61,6 +61,7 @@ export const ko = defineConfig({
       buttonLabel4NavButton: "어시스턴트",
       buttonLabel4SignInButton: "로그인",
       buttonLabel4GetStartedButton: "시작하기",
+      buttonLabel4TryItButton: "무료로 체험하기",
     },
     contact_form: {
       name: "이름 *",
@@ -88,7 +89,7 @@ export const ko = defineConfig({
       defaultButtonText: "메시지 보내기",
       // defaultButtonText: "무료 상담 받기",
     },
-  } as DefaultTheme.Config,
+  },
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {
@@ -97,7 +98,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "개요",
       collapsed: false,
       items: [
-        { text: "InterMIND란 무엇인가요?", link: "overview/what-is-intermind" },
+        { text: "InterMIND란?", link: "overview/what-is-intermind" },
         { text: "작동 방식", link: "overview/how-it-works" },
         { text: "화상 회의 플랫폼", link: "overview/video-meeting-platform" },
         { text: "지역별 데이터 개인정보 보호", link: "overview/privacy-architecture" },
@@ -115,7 +116,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "사용자 역할", link: "guide/user-roles" },
         { text: "AI 기능", link: "guide/ai-features" },
         { text: "회의 기록", link: "guide/meeting-history" },
-        { text: "자주 묻는 질문", link: "guide/faq" },
+        { text: "FAQ", link: "guide/faq" },
         { text: "문제 해결", link: "guide/troubleshooting" },
         { text: "가격", link: "guide/pricing" },
         { text: "도움말 및 지원", link: "guide/help-support" },

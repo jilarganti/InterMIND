@@ -114,16 +114,12 @@ onMounted(() => {
 
 <style scoped>
 .chat-header {
-  padding: 16px 20px;
+  padding: 0.8rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid var(--vp-c-divider);
-  background-color: var(--vp-c-bg);
-}
-
-.mobile-header {
-  padding: 12px 16px;
+  /* background-color: var(--vp-c-bg-alt); */
 }
 
 .back-button {

@@ -61,6 +61,7 @@ export const ru = defineConfig({
       buttonLabel4NavButton: "Ассистент",
       buttonLabel4SignInButton: "Войти",
       buttonLabel4GetStartedButton: "Начать",
+      buttonLabel4TryItButton: "Попробовать бесплатно",
     },
     contact_form: {
       name: "Имя *",
@@ -85,10 +86,10 @@ export const ru = defineConfig({
         "Просто изучаю / Другое",
       ],
 
-      defaultButtonText: "Отправьте нам сообщение",
+      defaultButtonText: "Отправить нам сообщение",
       // defaultButtonText: "Получить бесплатную консультацию",
     },
-  } as DefaultTheme.Config,
+  },
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {

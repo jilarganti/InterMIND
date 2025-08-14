@@ -204,7 +204,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
       },
       {
         title: '**Empresarial** &nbsp 100+ usuarios',
-        price: '**Precio personalizado**',
+        price: '**Precios personalizados**',
         details: 'Diseñado para la privacidad',
         items: [
           '**Ilimitadas** reuniones',
@@ -216,9 +216,10 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
         ],
       },
     ]">
-<AuthButton text="Prueba gratis" buttonClass="brand" eventName="try_it_attempt" />
-<AuthButton text="Comprar ahora" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
-<ContactForm buttonText="Habla con nuestro equipo" buttonClass="alt" />
+
+<AuthButton text="Comenzar" button-class="brand" event-name="get_started_attempt"/>
+<AuthButton text="Comprar ahora" mode="checkout" eventName="buy_now_attempt" />
+<ContactForm buttonText="Hablar con nuestro equipo" buttonClass="alt" />
 </PricingPlans>
 
 > [!warning] 😱 O hablas todos los idiomas — o alguien más cierra tus negocios.

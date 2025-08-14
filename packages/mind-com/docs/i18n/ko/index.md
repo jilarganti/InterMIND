@@ -66,9 +66,9 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
     :card="{
-      title: '중요한 곳의 프라이버시',
-      details: 'InterMind는 프라이버시와 통제가 가장 중요한 신뢰가 중요한 대화를 위해 구축되었습니다.',
-      items: ['✧ [프라이버시 존](./product/overview/privacy-architecture) — EU, US, SE Asia', '✧ **데이터 훈련 제로**. 제3자 접근 없음.'],
+      title: '중요한 곳의 개인정보 보호',
+      details: 'InterMind는 개인정보 보호와 통제가 가장 중요한 신뢰가 중요한 대화를 위해 구축되었습니다.',
+      items: ['✧ [개인정보 보호 구역](./product/overview/privacy-architecture) — EU, 미국, 동남아시아', '✧ **데이터 훈련 제로**. 제3자 접근 없음.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -186,7 +186,7 @@ isHome: true
           '**25**개 회의',
           '**100**명 참가자 화상 회의 [💬](#3)',
           '사용자당 **30** GB 공유 저장소',
-          '모든 회의 검색 [💬](#2)',
+          '모든 회의에서 검색 [💬](#2)',
           '동시 통역 [💬](#1)',
         ],
       },
@@ -198,26 +198,27 @@ isHome: true
           '**무제한** 회의',
           '**150**명 참가자 화상 회의 [💬](#3)',
           '사용자당 **2** TB 공유 저장소',
-          '모든 회의 검색 [💬](#2)',
+          '모든 회의에서 검색 [💬](#2)',
           '동시 통역 [💬](#1)',
         ],
       },
       {
         title: '**비즈니스** &nbsp 100명 이상',
         price: '**맞춤형 가격**',
-        details: '개인정보 보호를 위해 설계',
+        details: '프라이버시를 위해 구축됨',
         items: [
           '**무제한** 회의',
           '**500**명 참가자 화상 회의 [💬](#3)',
           '사용자당 **5** TB 공유 저장소',
-          '모든 회의 검색 [💬](#2)',
+          '모든 회의에서 검색 [💬](#2)',
           '동시 통역 [💬](#1)',
           '**프라이버시 존** [💬](#4)',
         ],
       },
     ]">
-<AuthButton text="무료로 체험하기" buttonClass="brand" eventName="try_it_attempt" />
-<AuthButton text="지금 구매" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
+
+<AuthButton text="시작하기" button-class="brand" event-name="get_started_attempt"/>
+<AuthButton text="지금 구매" mode="checkout" eventName="buy_now_attempt" />
 <ContactForm buttonText="팀과 상담하기" buttonClass="alt" />
 </PricingPlans>
 
@@ -287,7 +288,7 @@ isHome: true
           { text: '개요', link: './product/overview/what-is-intermind' },
           { text: '시작하기', link: './product/guide/getting-started' },
           { text: '고객 후기', link: '#Testimonials' },
-          { text: '가격', link: '#Pricing' },
+          { text: '요금제', link: '#Pricing' },
         ],
       },
       {

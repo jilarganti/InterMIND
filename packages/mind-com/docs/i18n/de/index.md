@@ -216,8 +216,9 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         ],
       },
     ]">
-<AuthButton text="Kostenlos testen" buttonClass="brand" eventName="try_it_attempt" />
-<AuthButton text="Jetzt kaufen" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
+
+<AuthButton text="Loslegen" button-class="brand" event-name="get_started_attempt"/>
+<AuthButton text="Jetzt kaufen" mode="checkout" eventName="buy_now_attempt" />
 <ContactForm buttonText="Mit unserem Team sprechen" buttonClass="alt" />
 </PricingPlans>
 

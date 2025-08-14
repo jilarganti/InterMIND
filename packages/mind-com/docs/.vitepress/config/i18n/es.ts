@@ -61,6 +61,7 @@ export const es = defineConfig({
       buttonLabel4NavButton: "Asistente",
       buttonLabel4SignInButton: "Iniciar sesión",
       buttonLabel4GetStartedButton: "Comenzar",
+      buttonLabel4TryItButton: "Probar gratis",
     },
     contact_form: {
       name: "Nombre *",
@@ -73,7 +74,7 @@ export const es = defineConfig({
       category: "¿Cuál es tu objetivo principal? *",
       categoryPlaceholder: "Elige lo que más te importa",
       message: "Hablemos de tus objetivos (opcional)",
-      messagePlaceholder: "Por favor proporciona cualquier detalle adicional (opcional)",
+      messagePlaceholder: "Por favor proporciona detalles adicionales (opcional)",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
@@ -81,14 +82,14 @@ export const es = defineConfig({
       defaultCategories: [
         "Eliminar barreras del idioma en reuniones",
         "Hacer las reuniones buscables y accionables",
-        "Asegurar cumplimiento y residencia de datos (UE / EE.UU. / Asia)",
+        "Garantizar cumplimiento y residencia de datos (UE / EE.UU. / Asia)",
         "Solo explorando / Otro",
       ],
 
       defaultButtonText: "Envíanos un mensaje",
       // defaultButtonText: "Obtén una consulta gratuita",
     },
-  } as DefaultTheme.Config,
+  },
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {

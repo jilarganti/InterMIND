@@ -61,9 +61,10 @@ export const tr = defineConfig({
       buttonLabel4NavButton: "Asistan",
       buttonLabel4SignInButton: "Giriş yap",
       buttonLabel4GetStartedButton: "Başlayın",
+      buttonLabel4TryItButton: "Ücretsiz deneyin",
     },
     contact_form: {
-      name: "İsim *",
+      name: "Ad *",
       namePlaceholder: "adınız",
       email: "E-posta *",
       emailPlaceholder: "e-posta adresiniz",
@@ -88,7 +89,7 @@ export const tr = defineConfig({
       defaultButtonText: "Bize mesaj gönderin",
       // defaultButtonText: "Ücretsiz danışmanlık alın",
     },
-  } as DefaultTheme.Config,
+  },
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {

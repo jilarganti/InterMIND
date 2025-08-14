@@ -61,6 +61,7 @@ export const zh = defineConfig({
       buttonLabel4NavButton: "助手",
       buttonLabel4SignInButton: "登录",
       buttonLabel4GetStartedButton: "开始使用",
+      buttonLabel4TryItButton: "免费试用",
     },
     contact_form: {
       name: "姓名 *",
@@ -88,7 +89,7 @@ export const zh = defineConfig({
       defaultButtonText: "给我们发送消息",
       // defaultButtonText: "获取免费咨询",
     },
-  } as DefaultTheme.Config,
+  },
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {
@@ -108,7 +109,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "指南",
       collapsed: false,
       items: [
-        { text: "快速入门", link: "guide/getting-started" },
+        { text: "入门指南", link: "guide/getting-started" },
         { text: "账户管理", link: "guide/account-management" },
         { text: "创建会议", link: "guide/creating-meetings" },
         { text: "会议界面", link: "guide/meeting-interface" },

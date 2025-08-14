@@ -61,6 +61,7 @@ export const fr = defineConfig({
       buttonLabel4NavButton: "Assistant",
       buttonLabel4SignInButton: "Se connecter",
       buttonLabel4GetStartedButton: "Commencer",
+      buttonLabel4TryItButton: "Essayer gratuitement",
     },
     contact_form: {
       name: "Nom *",
@@ -81,14 +82,14 @@ export const fr = defineConfig({
       defaultCategories: [
         "Éliminer les barrières linguistiques dans les réunions",
         "Rendre les réunions consultables et exploitables",
-        "Assurer la conformité et la résidence des données (UE / États-Unis / Asie)",
+        "Assurer la conformité et la résidence des données (UE / US / Asie)",
         "Juste en exploration / Autre",
       ],
 
       defaultButtonText: "Envoyez-nous un message",
       // defaultButtonText: "Obtenez une consultation gratuite",
     },
-  } as DefaultTheme.Config,
+  },
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {
@@ -108,9 +109,9 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "GUIDE",
       collapsed: false,
       items: [
-        { text: "Premiers pas", link: "guide/getting-started" },
+        { text: "Commencer", link: "guide/getting-started" },
         { text: "Gestion de compte", link: "guide/account-management" },
-        { text: "Création de réunions", link: "guide/creating-meetings" },
+        { text: "Créer des réunions", link: "guide/creating-meetings" },
         { text: "Interface de réunion", link: "guide/meeting-interface" },
         { text: "Rôles utilisateur", link: "guide/user-roles" },
         { text: "Fonctionnalités IA", link: "guide/ai-features" },
@@ -160,6 +161,6 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "Résumé exécutif", link: "/InterMind-Executive-Summary" },
     { text: "Stratégie de mise sur le marché", link: "/go-to-market-strategy" },
     { text: "Présentation investisseur", link: "/InterMind-Investor-Pitch" },
-    { text: "Justification des projections financières (Années 1–3)", link: "/Financial-Projections-Justification" },
+    { text: "Justification des projections financières (Année 1–3)", link: "/Financial-Projections-Justification" },
   ]
 }

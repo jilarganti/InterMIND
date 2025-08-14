@@ -52,7 +52,7 @@ isHome: true
       title: 'Ciddi Toplantılar İçin Yapıldı — Sadece Konuşmak İçin Değil',
       details: 'InterMind [profesyonel seviye video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
       items: [
-        '✧ 1080p çözünürlük, akıllı gürültü bastırma, planlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
+        '✧ 1080p çözünürlük, akıllı gürültü bastırma, zamanlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -66,8 +66,8 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
     :card="{
-      title: 'Önemli Olan Yerde Gizlilik',
-      details: 'InterMind güven gerektiren konuşmalar için yapıldı — gizlilik ve kontrolün en önemli olduğu yerde.',
+      title: 'Önemli Yerlerde Gizlilik',
+      details: 'InterMind güven gerektiren konuşmalar için yapıldı — gizlilik ve kontrolün en önemli olduğu yerlerde.',
       items: ['✧ [Gizlilik Bölgeleri](./product/overview/privacy-architecture) — AB, ABD, Güneydoğu Asya', '✧ **Sıfır veri eğitimi**. Üçüncü taraf erişimi yok.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -78,7 +78,7 @@ isHome: true
     }"
   />
 
-> [!tip] Bu kimler için?  
+> [!tip] Bu kimin için?  
 > Dil engellerinin **gecikmelere**, **kaybedilen anlaşmalara** veya **maliyetli yanlış anlamalara** neden olduğu **uluslararası ekipler** için yapıldı. [Daha fazla bilgi ...](./product/overview/markets)
 
 ## Google Meet + Canlı Çeviri Gibi Çalışır
@@ -216,8 +216,9 @@ Bunu değiştirmek şu anlama gelir:
         ],
       },
     ]">
-<AuthButton text="Ücretsiz deneyin" buttonClass="brand" eventName="try_it_attempt" />
-<AuthButton text="Şimdi satın alın" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
+
+<AuthButton text="Başlayın" button-class="brand" event-name="get_started_attempt"/>
+<AuthButton text="Şimdi satın alın" mode="checkout" eventName="buy_now_attempt" />
 <ContactForm buttonText="Ekibimizle konuşun" buttonClass="alt" />
 </PricingPlans>
 

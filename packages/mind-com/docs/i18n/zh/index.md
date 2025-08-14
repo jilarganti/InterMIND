@@ -216,8 +216,9 @@ isHome: true
         ],
       },
     ]">
-<AuthButton text="免费试用" buttonClass="brand" eventName="try_it_attempt" />
-<AuthButton text="立即购买" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
+
+<AuthButton text="开始使用" button-class="brand" event-name="get_started_attempt"/>
+<AuthButton text="立即购买" mode="checkout" eventName="buy_now_attempt" />
 <ContactForm buttonText="联系我们的团队" buttonClass="alt" />
 </PricingPlans>
 

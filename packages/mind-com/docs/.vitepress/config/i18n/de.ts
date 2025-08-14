@@ -61,6 +61,7 @@ export const de = defineConfig({
       buttonLabel4NavButton: "Assistent",
       buttonLabel4SignInButton: "Anmelden",
       buttonLabel4GetStartedButton: "Loslegen",
+      buttonLabel4TryItButton: "Kostenlos testen",
     },
     contact_form: {
       name: "Name *",
@@ -81,14 +82,14 @@ export const de = defineConfig({
       defaultCategories: [
         "Sprachbarrieren in Meetings beseitigen",
         "Meetings durchsuchbar und umsetzbar machen",
-        "Compliance & Datenresidenz sicherstellen (EU / US / Asien)",
+        "Compliance & Datenresidenz sicherstellen (EU / USA / Asien)",
         "Nur am Erkunden / Sonstiges",
       ],
 
       defaultButtonText: "Senden Sie uns eine Nachricht",
       // defaultButtonText: "Kostenlose Beratung erhalten",
     },
-  } as DefaultTheme.Config,
+  },
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {
@@ -105,7 +106,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "LEITFADEN",
+      text: "ANLEITUNG",
       collapsed: false,
       items: [
         { text: "Erste Schritte", link: "guide/getting-started" },
@@ -158,8 +159,8 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Zusammenfassung für Führungskräfte", link: "/InterMind-Executive-Summary" },
-    { text: "Go-To-Market-Strategie", link: "/go-to-market-strategy" },
-    { text: "Investor Pitch", link: "/InterMind-Investor-Pitch" },
+    { text: "Go-to-Market-Strategie", link: "/go-to-market-strategy" },
+    { text: "Investor-Präsentation", link: "/InterMind-Investor-Pitch" },
     { text: "Begründung der Finanzprognosen (Jahr 1–3)", link: "/Financial-Projections-Justification" },
   ]
 }

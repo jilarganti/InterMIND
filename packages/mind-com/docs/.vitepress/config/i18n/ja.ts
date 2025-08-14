@@ -3,13 +3,13 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
-  description: "InterMINDは、ビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームによって開発されています。",
+  description: "InterMINDは、ビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームが開発。",
   head: [
     [
       "meta",
       {
         name: "description",
-        content: "InterMINDは、ビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームによって開発されています。",
+        content: "InterMINDは、ビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームが開発。",
       },
     ],
     ["meta", { property: "og:title", content: "InterMIND | グローバルチーム向けリアルタイム音声翻訳" }],
@@ -18,7 +18,7 @@ export const ja = defineConfig({
       {
         property: "og:description",
         content:
-          "InterMINDは、ビデオ通話で瞬時の音声翻訳を提供し、障壁のない明確で多言語コミュニケーションを実現します。mind.comチームによって開発されています。",
+          "InterMINDは、ビデオ通話で瞬時の音声翻訳を提供 — 障壁のない明確な多言語コミュニケーション。mind.comチームが開発。",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -61,6 +61,7 @@ export const ja = defineConfig({
       buttonLabel4NavButton: "アシスタント",
       buttonLabel4SignInButton: "サインイン",
       buttonLabel4GetStartedButton: "始める",
+      buttonLabel4TryItButton: "無料で試す",
     },
     contact_form: {
       name: "お名前 *",
@@ -71,13 +72,13 @@ export const ja = defineConfig({
       webSitePlaceholder: "例：https://companyname.com",
       webSiteError: "ウェブサイトを入力してください",
       category: "主な目標は何ですか？ *",
-      categoryPlaceholder: "最も重要なものを選択してください",
+      categoryPlaceholder: "最も重要なものを選択",
       message: "目標について話し合いましょう（任意）",
       messagePlaceholder: "追加の詳細があればご記入ください（任意）",
       submit: "リクエストを送信",
       sending: "送信中...",
       successTitle: "ありがとうございます！",
-      successMessage: "メッセージを受信いたしました。チームより間もなくご連絡いたします。",
+      successMessage: "メッセージを受信いたしました — チームより間もなくご連絡いたします。",
       defaultCategories: [
         "会議での言語の壁を取り除く",
         "会議を検索可能で実行可能にする",
@@ -85,10 +86,10 @@ export const ja = defineConfig({
         "探索中 / その他",
       ],
 
-      defaultButtonText: "メッセージを送信",
+      defaultButtonText: "メッセージを送る",
       // defaultButtonText: "無料相談を受ける",
     },
-  } as DefaultTheme.Config,
+  },
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {

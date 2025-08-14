@@ -52,7 +52,7 @@ isHome: true
       title: 'Conçu pour les réunions sérieuses — pas seulement pour parler',
       details: 'InterMind est une [plateforme de réunion vidéo de niveau professionnel](./product/overview/video-meeting-platform), pas un simple complément ou plugin léger.',
       items: [
-        '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration calendrier — tout intégré, **prêt à l\'emploi**.',
+        '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration du calendrier — tout intégré, **prêt à l\'emploi**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -68,7 +68,7 @@ isHome: true
     :card="{
       title: 'Confidentialité là où ça compte',
       details: 'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle sont primordiaux.',
-      items: ['✧ [Zones de confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est', '✧ **Zéro formation de données**. Aucun accès tiers.'],
+      items: ['✧ [Zones de confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est', '✧ **Aucune formation de données**. Aucun accès tiers.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -78,7 +78,7 @@ isHome: true
     }"
   />
 
-> [!tip] À qui s'adresse cette solution ?  
+> [!tip] À qui s'adresse-t-il ?  
 > Conçu pour les **équipes internationales** où les barrières linguistiques causent des **retards**, des **affaires perdues** ou des **malentendus coûteux**. [En savoir plus ...](./product/overview/markets)
 
 ## Fonctionne comme Google Meet + traduction en direct
@@ -166,7 +166,7 @@ Changer cela signifie :
 - Vous entendrez les autres dans la `langue choisie`
 - L'interface basculera automatiquement vers la `langue choisie`
 
-> 📌 Note : « Votre langue » est un **paramètre unifié unique**  
+> 📌 Note : "Votre langue" est un **paramètre unifié unique**  
 > Il contrôle **comment vous parlez**, **ce que vous entendez**, et **ce que vous voyez**.  
 > Parler dans une langue et écouter dans une autre n'est **pas pris en charge** — par conception, pour garder l'expérience simple et prévisible.
 
@@ -216,12 +216,13 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
         ],
       },
     ]">
-<AuthButton text="Essayer gratuitement" buttonClass="brand" eventName="try_it_attempt" />
-<AuthButton text="Acheter maintenant" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
+
+<AuthButton text="Commencer" button-class="brand" event-name="get_started_attempt"/>
+<AuthButton text="Acheter maintenant" mode="checkout" eventName="buy_now_attempt" />
 <ContactForm buttonText="Parler à notre équipe" buttonClass="alt" />
 </PricingPlans>
 
-> [!warning] 😱 Soit vous parlez toutes les langues — soit quelqu'un d'autre conclut vos affaires.
+> [!warning] 😱 Soit vous parlez toutes les langues — soit quelqu\'un d\'autre conclut vos affaires.
 
 <span id="Testimonials"></span>
 

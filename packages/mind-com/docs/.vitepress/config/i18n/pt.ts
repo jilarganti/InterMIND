@@ -61,12 +61,13 @@ export const pt = defineConfig({
       buttonLabel4NavButton: "Assistente",
       buttonLabel4SignInButton: "Entrar",
       buttonLabel4GetStartedButton: "Começar",
+      buttonLabel4TryItButton: "Experimente grátis",
     },
     contact_form: {
       name: "Nome *",
       namePlaceholder: "seu nome",
-      email: "E-mail *",
-      emailPlaceholder: "seu endereço de e-mail",
+      email: "Email *",
+      emailPlaceholder: "seu endereço de email",
       webSite: "Site da empresa *",
       webSitePlaceholder: "ex. https://nomedaempresa.com",
       webSiteError: "Por favor, insira o site",
@@ -88,7 +89,7 @@ export const pt = defineConfig({
       defaultButtonText: "Envie-nos uma mensagem",
       // defaultButtonText: "Obtenha uma consulta gratuita",
     },
-  } as DefaultTheme.Config,
+  },
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {
@@ -99,7 +100,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "O que é InterMIND?", link: "overview/what-is-intermind" },
         { text: "Como funciona", link: "overview/how-it-works" },
-        { text: "Plataforma de videorreunião", link: "overview/video-meeting-platform" },
+        { text: "Plataforma de videochamadas", link: "overview/video-meeting-platform" },
         { text: "Privacidade de dados regional", link: "overview/privacy-architecture" },
         { text: "Mercados prioritários", link: "overview/markets" },
       ],
