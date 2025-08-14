@@ -216,8 +216,9 @@ From first call to fluent conversations — at any scale.
         ],
       },
     ]">
-<AuthButton text="Try for free" buttonClass="brand" eventName="try_it_attempt" />
-<AuthButton text="Buy now" buttonClass="alt" mode="checkout" eventName="buy_now_attempt" />
+
+<AuthButton text="Get started" button-class="brand" event-name="get_started_attempt"/>
+<AuthButton text="Buy now" mode="checkout" eventName="buy_now_attempt" />
 <ContactForm buttonText="Talk to our team" buttonClass="alt" />
 </PricingPlans>
 

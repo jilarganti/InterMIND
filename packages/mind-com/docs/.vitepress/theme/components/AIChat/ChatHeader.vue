@@ -108,12 +108,7 @@ onMounted(() => {
       />
     </div>
 
-    <AuthButton
-      button-class="brand"
-      event-name="get_started_attempt"
-      button-style="margin: 0 1rem;"
-      :text="site.themeConfig.localization.buttonLabel4GetStartedButton"
-    />
+    <AuthButton buttonClass="brand" eventName="try_it_attempt" button-style="margin: 0 1rem;" :text="site.themeConfig.localization.buttonLabel4TryItButton" />
   </div>
 </template>
 

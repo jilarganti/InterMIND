@@ -3,7 +3,7 @@ import "vitepress"
 declare module "vitepress" {
   namespace DefaultTheme {
     interface Config {
-      llmTokenLimit: number
+      llmTokenLimit?: number
 
       localization?: {
         placeholder4SearchInput: string
@@ -12,6 +12,7 @@ declare module "vitepress" {
         buttonLabel4NavButton: string
         buttonLabel4SignInButton: string
         buttonLabel4GetStartedButton: string
+        buttonLabel4TryItButton?: string
       }
 
       contact_form?: {

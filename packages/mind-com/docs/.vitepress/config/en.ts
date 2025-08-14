@@ -61,6 +61,7 @@ export const en = defineConfig({
       buttonLabel4NavButton: "Assistant",
       buttonLabel4SignInButton: "Sign in",
       buttonLabel4GetStartedButton: "Get started",
+      buttonLabel4TryItButton: "Try for free",
     },
     contact_form: {
       name: "Name *",
@@ -88,7 +89,7 @@ export const en = defineConfig({
       defaultButtonText: "Send us a message",
       // defaultButtonText: "Get a free consultation",
     },
-  } as DefaultTheme.Config,
+  },
 })
 
 function sidebarProduct(): DefaultTheme.SidebarItem[] {
