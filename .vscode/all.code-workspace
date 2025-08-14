@@ -7,4 +7,10 @@
       "path": "../../../Downloads",
     },
   ],
+  "settings": {
+    // Переменные окружения для интегрированного терминала (macOS)
+    "terminal.integrated.env.osx": {
+      "PACKAGE_PATH": "",
+    },
+  },
 }
