@@ -7,6 +7,7 @@
     "dev:FE": "vitepress dev docs",
     "dev:BE": "vercel dev",
     "dev": "pnpm dev:FE & pnpm dev:BE",
+    "prebuild": "pnpm run test:unit",
     "build": "vitepress build docs",
     "test": "vitest --run --coverage",
     "test:unit": "vitest --run __tests__/unit",

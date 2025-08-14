@@ -122,9 +122,6 @@ importers:
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
-      simple-git-hooks:
-        specifier: ^2.13.1
-        version: 2.13.1
       tailwindcss:
         specifier: ^3.4.10
         version: 3.4.17(ts-node@10.9.2(@types/node@22.17.1)(typescript@5.9.2))
@@ -2742,10 +2739,6 @@ packages:
   signal-exit@4.1.0:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
     engines: {node: '>=14'}
-
-  simple-git-hooks@2.13.1:
-    resolution: {integrity: sha512-WszCLXwT4h2k1ufIXAgsbiTOazqqevFCIncOuUBZJ91DdvWcC5+OFkluWRQPrcuSYd8fjq+o2y1QfWqYMoAToQ==}
-    hasBin: true
 
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
@@ -5789,8 +5782,6 @@ snapshots:
   signal-exit@4.0.2: {}
 
   signal-exit@4.1.0: {}
-
-  simple-git-hooks@2.13.1: {}
 
   source-map-js@1.2.1: {}
 

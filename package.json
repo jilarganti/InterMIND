@@ -9,11 +9,7 @@
   },
   "author": "Jilarganti",
   "license": "Apache-2.0",
-  "scripts": {
-    "build": "pnpm -r build",
-    "test": "pnpm -r test:unit",
-    "prepare": "if [ \"$VERCEL\" != \"1\" ]; then simple-git-hooks; fi"
-  },
+  "scripts": {},
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.32.1",
     "@types/markdown-it": "^14.1.2",
@@ -32,7 +28,6 @@
     "markdown-it": "^14.1.0",
     "openai": "^4.104.0",
     "prettier": "^3.6.2",
-    "simple-git-hooks": "^2.13.1",
     "ts-node": "^10.9.2",
     "tsx": "^4.20.4",
     "typescript": "5.9.2",
@@ -73,8 +68,5 @@
     "singleQuote": false,
     "jsxSingleQuote": false,
     "quoteProps": "preserve"
-  },
-  "simple-git-hooks": {
-    "pre-push": "pnpm test && pnpm build"
   }
 }
