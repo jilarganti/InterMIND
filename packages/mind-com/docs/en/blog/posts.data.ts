@@ -1,5 +1,4 @@
 import { createContentLoader } from "vitepress"
-// import path from "path"
 
 interface Post {
   title: string
@@ -14,14 +13,21 @@ interface Post {
 declare const data: Post[]
 export { data }
 
-// Автоматически определяем локаль из пути к текущему файлу
-function getCurrentLocale(): string {
-  const currentFile = __filename || import.meta.url
+// Определяем локаль из пути текущего файла
+const getCurrentLocale = (): string => {
+  // В Node.js окружении используем __filename
+  if (typeof __filename !== "undefined") {
+    const localeMatch = __filename.match(/\/docs\/([a-z]{2})\//)
+    return localeMatch ? localeMatch[1] : "en"
+  }
 
-  // Ищем паттерн /docs/{locale}/ в пути
-  const localeMatch = currentFile.match(/\/docs\/([a-z]{2})\//)
+  // В ESM окружении используем import.meta.url
+  if (typeof import.meta !== "undefined" && import.meta.url) {
+    const localeMatch = import.meta.url.match(/\/docs\/([a-z]{2})\//)
+    return localeMatch ? localeMatch[1] : "en"
+  }
 
-  return localeMatch ? localeMatch[1] : "en" // fallback на 'en'
+  return "en"
 }
 
 const currentLocale = getCurrentLocale()
@@ -32,7 +38,7 @@ export default createContentLoader(`${currentLocale}/blog/posts/*.md`, {
     return raw
       .map(({ url, frontmatter, excerpt }) => ({
         title: frontmatter.title,
-        url,
+        url, // Убираем withBase - VitePress автоматически обработает базовый путь
         excerpt,
         date: formatDate(frontmatter.date),
       }))
