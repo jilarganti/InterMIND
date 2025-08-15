@@ -1,12 +1,15 @@
 ---
 layout: home
-title: "वीडियो मीटिंग्स का पुनर्कल्पना — अब mind.com पर"
-description: "iMind से InterMIND तक: AI-संचालित वास्तविक समय अनुवाद के साथ आवाज-प्रधान वीडियो कॉल।"
+title: "वीडियो मीटिंग्स को नया रूप दिया गया — अब mind.com पर"
+description: "iMind से InterMIND तक: रियल-टाइम AI-संचालित अनुवाद के साथ वॉयस-फर्स्ट वीडियो कॉल्स।"
 ---
 
 <HeroSection
-  title="वीडियो मीटिंग्स का पुनर्कल्पना <br>— अब **mind.com** पर"
-  text="iMind से InterMIND तक: लाइव स्पीच ट्रांसलेशन के साथ आवाज-प्रधान वीडियो कॉल।">
+  title="वीडियो मीटिंग्स को नया रूप दिया गया <br>— अब **mind.com** पर"
+  text="iMind से InterMIND तक: लाइव स्पीच ट्रांसलेशन के साथ वॉयस-फर्स्ट वीडियो कॉल्स।">
 <NavButton buttonLabel="और जानें" buttonClass="brand" to="/" />
-<NavButton buttonLabel="सहायक" buttonClass="alt" to="/chat" />
+<NavButton buttonLabel="असिस्टेंट" buttonClass="alt" to="/chat" />
 </HeroSection>
+
+<br>
+<VideoPlayer src="/demo-en-mx.mp4" />

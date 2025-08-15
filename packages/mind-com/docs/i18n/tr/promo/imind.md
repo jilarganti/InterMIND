@@ -1,12 +1,15 @@
 ---
 layout: home
-title: "Video görüşmeleri yeniden tasarlandı — şimdi mind.com'da"
-description: "iMind'dan InterMIND'a: yapay zeka destekli gerçek zamanlı çeviri ile ses öncelikli görüntülü görüşmeler."
+title: "Video toplantılar yeniden tasarlandı — artık mind.com'da"
+description: "iMind'dan InterMIND'a: gerçek zamanlı AI destekli çeviri ile ses odaklı video aramalar."
 ---
 
 <HeroSection
-  title="Video görüşmeleri yeniden tasarlandı <br>— şimdi **mind.com**\'da"
-  text="iMind\'dan InterMIND\'a: canlı konuşma çevirisi ile ses öncelikli görüntülü görüşmeler.">
-<NavButton buttonLabel="Learn More" buttonClass="brand" to="/" />
-<NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
+  title="Video toplantılar yeniden tasarlandı <br>— artık **mind.com**'da"
+  text="iMind'dan InterMIND'a: canlı konuşma çevirisi ile ses odaklı video aramalar.">
+<NavButton buttonLabel="Daha Fazla Bilgi" buttonClass="brand" to="/" />
+<NavButton buttonLabel="Asistan" buttonClass="alt" to="/chat" />
 </HeroSection>
+
+<br>
+<VideoPlayer src="/demo-en-mx.mp4" />

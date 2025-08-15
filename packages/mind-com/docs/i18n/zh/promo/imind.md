@@ -1,12 +1,15 @@
 ---
 layout: home
-title: "视频会议重新定义 — 现已登陆mind.com"
-description: "从iMind到InterMIND：以语音为先的视频通话，配备实时AI驱动的翻译功能。"
+title: "重新定义视频会议 — 现在访问 mind.com"
+description: "从 iMind 到 InterMIND：语音优先的视频通话，配备实时AI驱动的口译功能。"
 ---
 
 <HeroSection
-  title="视频会议重新定义 <br>— 现已登陆 **mind.com**"
-  text="从iMind到InterMIND：以语音为先的视频通话，配备实时语音翻译。">
+  title="重新定义视频会议 <br>— 现在访问 **mind.com**"
+  text="从 iMind 到 InterMIND：语音优先的视频通话，配备实时语音翻译。">
 <NavButton buttonLabel="了解更多" buttonClass="brand" to="/" />
 <NavButton buttonLabel="助手" buttonClass="alt" to="/chat" />
 </HeroSection>
+
+<br>
+<VideoPlayer src="/demo-en-mx.mp4" />
