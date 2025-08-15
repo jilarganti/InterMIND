@@ -3,6 +3,7 @@ layout: BlogPost
 title: "InterMIND 시작하기"
 date: 2025-01-15
 author: InterMIND Team
+footer: false
 ---
 
 # InterMIND 시작하기

@@ -2,7 +2,8 @@
 layout: BlogPost
 title: "Начало работы с InterMIND"
 date: 2025-01-15
-author: "Команда InterMIND"
+author: InterMIND Team
+footer: false
 ---
 
 # Начало работы с InterMIND

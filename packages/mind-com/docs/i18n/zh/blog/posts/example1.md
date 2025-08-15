@@ -3,11 +3,12 @@ layout: BlogPost
 title: "InterMIND 入门指南"
 date: 2025-01-15
 author: InterMIND Team
+footer: false
 ---
 
 # InterMIND 入门指南
 
-欢迎使用 InterMIND！本文将指导您了解我们AI驱动平台的基础知识。
+欢迎使用 InterMIND！本文将指导您了解我们 AI 驱动平台的基础知识。
 
 ## 什么是InterMIND？
 

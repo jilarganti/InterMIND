@@ -3,6 +3,7 @@ layout: BlogPost
 title: "Erste Schritte mit InterMIND"
 date: 2025-01-15
 author: InterMIND Team
+footer: false
 ---
 
 # Erste Schritte mit InterMIND

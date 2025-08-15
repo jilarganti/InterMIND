@@ -3,11 +3,12 @@ layout: BlogPost
 title: "Commencer avec InterMIND"
 date: 2025-01-15
 author: InterMIND Team
+footer: false
 ---
 
 # Commencer avec InterMIND
 
-Bienvenue sur InterMIND ! Cet article vous guidera à travers les bases de notre plateforme alimentée par l\'IA.
+Bienvenue sur InterMIND ! Cet article vous guidera à travers les bases de notre plateforme alimentée par l'IA.
 
 ## Qu'est-ce qu'InterMIND ?
 

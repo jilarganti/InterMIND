@@ -3,6 +3,7 @@ layout: BlogPost
 title: "InterMINDを始める"
 date: 2025-01-15
 author: InterMIND Team
+footer: false
 ---
 
 # InterMINDを始める

@@ -3,6 +3,7 @@ layout: BlogPost
 title: "InterMIND ile Başlangıç"
 date: 2025-01-15
 author: InterMIND Team
+footer: false
 ---
 
 # InterMIND ile Başlangıç

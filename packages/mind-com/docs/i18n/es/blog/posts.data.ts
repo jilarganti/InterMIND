@@ -9,6 +9,7 @@ interface Post {
   }
   excerpt: string | undefined
   description: string
+  author: string | undefined
 }
 
 declare const data: Post[]
@@ -40,6 +41,7 @@ export default createContentLoader(getPostsPath(), {
         url, // Убираем withBase - VitePress автоматически обработает базовый путь
         excerpt,
         description: src.match(/#[^\n]*\n(.*?)(?=\n##|$)/s)?.[1],
+        author: frontmatter.author,
         date: formatDate(frontmatter.date),
       }))
       .sort((a, b) => b.date.time - a.date.time)
