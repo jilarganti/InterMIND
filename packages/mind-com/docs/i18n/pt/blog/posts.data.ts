@@ -8,6 +8,7 @@ interface Post {
     string: string
   }
   excerpt: string | undefined
+  description: string
 }
 
 declare const data: Post[]
@@ -31,12 +32,14 @@ function getPostsPath(): string {
 
 export default createContentLoader(getPostsPath(), {
   excerpt: true,
+  includeSrc: true,
   transform(raw): Post[] {
     return raw
-      .map(({ url, frontmatter, excerpt }) => ({
+      .map(({ url, frontmatter, excerpt, src }) => ({
         title: frontmatter.title,
         url, // Убираем withBase - VitePress автоматически обработает базовый путь
         excerpt,
+        description: src.match(/#[^\n]*\n(.*?)(?=\n##|$)/s)?.[1],
         date: formatDate(frontmatter.date),
       }))
       .sort((a, b) => b.date.time - a.date.time)

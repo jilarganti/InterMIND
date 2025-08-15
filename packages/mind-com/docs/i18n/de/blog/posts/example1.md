@@ -9,8 +9,6 @@ author: InterMIND Team
 
 Willkommen bei InterMIND! Dieser Beitrag führt Sie durch die Grundlagen unserer KI-gestützten Plattform.
 
-<!--more-->
-
 ## Was ist InterMIND?
 
 InterMIND ist eine innovative Plattform, die künstliche Intelligenz mit menschlicher Expertise kombiniert, um leistungsstarke Geschäftslösungen zu schaffen.

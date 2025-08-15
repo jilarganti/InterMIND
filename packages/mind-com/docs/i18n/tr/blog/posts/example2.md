@@ -1,38 +1,36 @@
 ---
 layout: BlogPost
-title: "InterMIND'deki Yapay Zeka Destekli Özellikler"
+title: "InterMIND'de Yapay Zeka Destekli Özellikler"
 date: 2025-02-10
 author: AI Team
 ---
 
-# InterMIND'deki Yapay Zeka Destekli Özellikler
+# InterMIND'de Yapay Zeka Destekli Özellikler
 
-InterMIND'de yapay zekanın iş akışınızı nasıl dönüştürdüğünü keşfedin.
+Yapay zekanın InterMIND'de iş akışınızı nasıl dönüştürdüğünü keşfedin.
 
-<!--more-->
+## Gelişmiş AI Entegrasyonu
 
-## Gelişmiş Yapay Zeka Entegrasyonu
+Platformumuz aşağıdakiler dahil olmak üzere en son AI modellerini kullanır:
 
-Platformumuz aşağıdaki en son yapay zeka modellerini kullanmaktadır:
+- **GPT-4**: Karmaşık mantık yürütme ve içerik üretimi için
+- **Claude 3.5 Haiku**: Hızlı, verimli yanıtlar için
+- **Otomatik Yedekleme**: Modeller arasında kesintisiz geçiş
 
-- **GPT-4**: Karmaşık muhakeme ve içerik üretimi için
-- **Claude 3.5 Haiku**: Hızlı ve verimli yanıtlar için
-- **Otomatik Yedekleme**: Modeller arası kesintisiz geçiş
-
-## Vektör Arama Özellikleri
+## Vektör Arama Yetenekleri
 
 Upstash Vector veritabanı entegrasyonu ile InterMIND şunları sağlar:
 
-- Tüm dokümantasyon boyunca anlamsal arama
-- Bağlam-duyarlı yanıtlar
+- Tüm dokümantasyon genelinde semantik arama
+- Bağlam farkında yanıtlar
 - Yıldırım hızında sorgu işleme
 
-## Gerçek Zamanlı Sohbet Widgetı
+## Gerçek Zamanlı Sohbet Widget'ı
 
-Tam donanımlı AI sohbetimizi deneyimleyin:
+Tam özellikli AI sohbetimizi deneyimleyin:
 
 - Dilinizi otomatik olarak algılar
-- Bağlama duyarlı yanıtlar sunar
-- Yanıtları gerçek zamanlı olarak akıtır
+- Bağlama uygun yanıtlar sağlar
+- Yanıtları gerçek zamanlı olarak akışa alır
 
-Web sitemizde deneyin ve yapay zekanın gücünü görün!
+Web sitemizde deneyin ve AI'nın gücünü iş başında görün!

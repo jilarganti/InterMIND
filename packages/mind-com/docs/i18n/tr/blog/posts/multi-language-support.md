@@ -1,49 +1,47 @@
 ---
 layout: BlogPost
-title: "InterMIND'de Çoklu Dil Desteği"
+title: "InterMIND'de Çok Dilli Destek"
 date: 2025-03-05
-author: Yerelleştirme Ekibi
+author: Localization Team
 ---
 
-# InterMIND'de Çoklu Dil Desteği
+# InterMIND'de Çok Dilli Destek
 
-InterMIND, platformumuzu dünya çapındaki kullanıcılara erişilebilir kılarak kapsamlı çoklu dil desteği sunmaktan gurur duyar.
-
-<!--more-->
+InterMIND, platformumuzu dünya çapındaki kullanıcılar için erişilebilir kılan kapsamlı çok dilli destek sunmaktan gurur duyar.
 
 ## Desteklenen Diller
 
-InterMIND şu anda **19+ dili** desteklemektedir:
+Şu anda InterMIND **19+ dil** desteklemektedir:
 
 - İngilizce, İspanyolca, Fransızca, Almanca
 - Çince (Basitleştirilmiş ve Geleneksel)
 - Japonca, Korece
 - Arapça, İbranice
 - Rusça, Lehçe
-- Ve daha fazlası!
+- Ve daha birçoğu!
 
 ## Nasıl Çalışır
 
 Çeviri sistemimiz şunları kullanır:
 
-1. **Yapay zeka destekli çeviriler**: OpenAI ve Anthropic modellerini kullanarak
-2. **Otomatik yedekleme**: Bir servis başarısız olursa, diğerine geçiş yaparız
+1. **AI destekli çeviriler**: OpenAI ve Anthropic modellerini kullanarak
+2. **Otomatik yedekleme**: Bir hizmet başarısız olursa, diğerine geçeriz
 3. **RTL desteği**: Sağdan sola yazılan diller için tam destek
 
-## Çevirilerle Başlarken
+## Çevirilerle Başlangıç
 
 InterMIND'a kendi dilinizde erişmek için:
 
 1. Dilinize özel URL'yi ziyaret edin (örn. `/es/`, `/fr/`, `/ar/`)
-2. Yapay zeka sohbeti otomatik olarak dilinizi algılar ve yanıt verir
+2. AI sohbet otomatik olarak dilinizi algılar ve dilinizde yanıt verir
 3. Tüm dokümantasyon tercih ettiğiniz dilde mevcuttur
 
 ## Geliştiriciler İçin
 
-Yeni bir dil eklemek çok basit:
+Yeni bir dil eklemek basittir:
 
 ```javascript
-// In translateConfig.ts
+// translateConfig.ts dosyasında
 languages: {
   "pt": "Portuguese",
   // Dilinizi buraya ekleyin
@@ -52,4 +50,4 @@ languages: {
 
 Ardından şunu çalıştırın: `pnpm translate`
 
-Dilden bağımsız olarak InterMIND'ı herkese erişilebilir kılma çabamıza katılın!
+InterMIND'ı dilden bağımsız olarak herkese erişilebilir kılma konusunda bize katılın!

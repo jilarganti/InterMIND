@@ -9,8 +9,6 @@ author: InterMIND Team
 
 InterMIND에 오신 것을 환영합니다! 이 게시물은 저희 AI 기반 플랫폼의 기본 사항을 안내해 드립니다.
 
-<!--more-->
-
 ## InterMIND란 무엇인가요?
 
 InterMIND는 인공지능과 인간의 전문성을 결합하여 강력한 비즈니스 솔루션을 만드는 혁신적인 플랫폼입니다.

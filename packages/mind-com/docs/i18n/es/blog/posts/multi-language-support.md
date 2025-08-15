@@ -1,28 +1,26 @@
 ---
 layout: BlogPost
-title: "Soporte Multilingüe en InterMIND"
+title: "Soporte multiidioma en InterMIND"
 date: 2025-03-05
 author: Equipo de Localización
 ---
 
-# Soporte Multilingüe en InterMIND
+# Soporte multiidioma en InterMIND
 
-InterMIND se enorgullece de ofrecer un soporte multilingüe integral, haciendo nuestra plataforma accesible para usuarios en todo el mundo.
+InterMIND se enorgullece de ofrecer soporte multiidioma integral, haciendo que nuestra plataforma sea accesible para usuarios de todo el mundo.
 
-<!--more-->
-
-## Idiomas disponibles
+## Idiomas compatibles
 
 Actualmente, InterMIND es compatible con **más de 19 idiomas** incluyendo:
 
-- Inglés, Español, Francés, Alemán
-- Chino (Simplificado y Tradicional)
-- Japonés, Coreano
-- Árabe, Hebreo
-- Ruso, Polaco
+- Inglés, español, francés, alemán
+- Chino (simplificado y tradicional)
+- Japonés, coreano
+- Árabe, hebreo
+- Ruso, polaco
 - ¡Y muchos más!
 
-## Cómo Funciona
+## Cómo funciona
 
 Nuestro sistema de traducción utiliza:
 
@@ -30,17 +28,17 @@ Nuestro sistema de traducción utiliza:
 2. **Respaldo automático**: Si un servicio falla, cambiamos a otro
 3. **Soporte RTL**: Soporte completo para idiomas de derecha a izquierda
 
-## Comenzando con las Traducciones
+## Comenzando con las traducciones
 
 Para acceder a InterMIND en tu idioma:
 
-1. Visita la URL específica de tu idioma (p. ej., `/es/`, `/fr/`, `/ar/`)
+1. Visita la URL específica de tu idioma (por ejemplo, `/es/`, `/fr/`, `/ar/`)
 2. El chat de IA detecta automáticamente y responde en tu idioma
 3. Toda la documentación está disponible en tu idioma preferido
 
 ## Para Desarrolladores
 
-Agregar un nuevo idioma es sencillo:
+Agregar un nuevo idioma es simple:
 
 ```javascript
 // En translateConfig.ts
@@ -52,4 +50,4 @@ languages: {
 
 Luego ejecuta: `pnpm translate`
 
-¡Únete a nosotros para hacer InterMIND accesible a todos, sin importar el idioma!
+¡Únete a nosotros para hacer InterMIND accesible para todos, sin importar el idioma!

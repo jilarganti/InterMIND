@@ -1,46 +1,44 @@
 ---
 layout: BlogPost
-title: "Support Multi-langues dans InterMIND"
+title: "Support multilingue dans InterMIND"
 date: 2025-03-05
-author: Équipe de Localisation
+author: "Équipe de localisation"
 ---
 
-# Support Multi-langues dans InterMIND
+# Support multilingue dans InterMIND
 
-InterMIND est fier d'offrir un support multi-langues complet, rendant notre plateforme accessible aux utilisateurs du monde entier.
-
-<!--more-->
+InterMIND est fier d'offrir un support multilingue complet, rendant notre plateforme accessible aux utilisateurs du monde entier.
 
 ## Langues prises en charge
 
-Actuellement, InterMIND prend en charge **plus de 19 langues**, notamment :
+Actuellement, InterMIND prend en charge **plus de 19 langues** notamment :
 
-- Anglais, Espagnol, Français, Allemand
-- Chinois (Simplifié & Traditionnel)
-- Japonais, Coréen
-- Arabe, Hébreu
-- Russe, Polonais
+- Anglais, espagnol, français, allemand
+- Chinois (simplifié et traditionnel)
+- Japonais, coréen
+- Arabe, hébreu
+- Russe, polonais
 - Et bien d'autres !
 
-## Comment Ça Fonctionne
+## Comment ça fonctionne
 
 Notre système de traduction utilise :
 
-1. **Traductions alimentées par l'IA** : Utilisation des modèles OpenAI et Anthropic
-2. **Basculement automatique** : Si un service échoue, nous passons à un autre
-3. **Support RTL** : Prise en charge complète des langues de droite à gauche
+1. **Traductions alimentées par l'IA** : Utilisant les modèles OpenAI et Anthropic
+2. **Basculement automatique** : Si un service échoue, nous basculons vers un autre
+3. **Support RTL** : Support complet pour les langues de droite à gauche
 
-## Premiers pas avec les traductions
+## Commencer avec les traductions
 
 Pour accéder à InterMIND dans votre langue :
 
-1. Visitez l'URL spécifique à votre langue (par ex. `/es/`, `/fr/`, `/ar/`)
-2. L'IA de chat détecte automatiquement et répond dans votre langue
+1. Visitez l'URL spécifique à votre langue (par exemple, `/es/`, `/fr/`, `/ar/`)
+2. Le chat IA détecte automatiquement et répond dans votre langue
 3. Toute la documentation est disponible dans votre langue préférée
 
-## Pour les Développeurs
+## Pour les développeurs
 
-L'ajout d'une nouvelle langue est simple :
+Ajouter une nouvelle langue est simple :
 
 ```javascript
 // Dans translateConfig.ts

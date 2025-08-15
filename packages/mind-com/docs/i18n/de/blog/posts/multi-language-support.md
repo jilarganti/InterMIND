@@ -2,18 +2,16 @@
 layout: BlogPost
 title: "Mehrsprachige Unterstützung in InterMIND"
 date: 2025-03-05
-author: Lokalisierungsteam
+author: Localization Team
 ---
 
 # Mehrsprachige Unterstützung in InterMIND
 
-InterMIND ist stolz darauf, umfassende mehrsprachige Unterstützung anzubieten, die unsere Plattform Nutzern weltweit zugänglich macht.
-
-<!--more-->
+InterMIND ist stolz darauf, umfassende mehrsprachige Unterstützung anzubieten und unsere Plattform für Benutzer weltweit zugänglich zu machen.
 
 ## Unterstützte Sprachen
 
-Derzeit unterstützt InterMIND **19+ Sprachen** einschließlich:
+Derzeit unterstützt InterMIND **über 19 Sprachen**, darunter:
 
 - Englisch, Spanisch, Französisch, Deutsch
 - Chinesisch (Vereinfacht & Traditionell)
@@ -22,17 +20,17 @@ Derzeit unterstützt InterMIND **19+ Sprachen** einschließlich:
 - Russisch, Polnisch
 - Und viele mehr!
 
-## Wie es funktioniert
+## So funktioniert es
 
 Unser Übersetzungssystem verwendet:
 
-1. **KI-gestützte Übersetzungen**: Nutzung von OpenAI und Anthropic Modellen
-2. **Automatische Ausfallsicherung**: Bei Ausfall eines Dienstes wird automatisch auf einen anderen umgeschaltet
+1. **KI-gestützte Übersetzungen**: Mit OpenAI und Anthropic Modellen
+2. **Automatische Fallback-Funktion**: Wenn ein Service ausfällt, wechseln wir zu einem anderen
 3. **RTL-Unterstützung**: Vollständige Unterstützung für Rechts-nach-Links-Sprachen
 
 ## Erste Schritte mit Übersetzungen
 
-So greifen Sie auf InterMIND in Ihrer Sprache zu:
+Um auf InterMIND in Ihrer Sprache zuzugreifen:
 
 1. Besuchen Sie Ihre sprachspezifische URL (z.B. `/es/`, `/fr/`, `/ar/`)
 2. Der KI-Chat erkennt automatisch Ihre Sprache und antwortet entsprechend
@@ -40,16 +38,16 @@ So greifen Sie auf InterMIND in Ihrer Sprache zu:
 
 ## Für Entwickler
 
-Das Hinzufügen einer neuen Sprache ist einfach:
+Eine neue Sprache hinzuzufügen ist einfach:
 
 ```javascript
 // In translateConfig.ts
 languages: {
   "pt": "Portuguese",
-  // Fügen Sie hier Ihre Sprache hinzu
+  // Fügen Sie Ihre Sprache hier hinzu
 }
 ```
 
-Dann führen Sie aus: `pnpm translate`
+Dann ausführen: `pnpm translate`
 
-Helfen Sie uns dabei, InterMIND für jeden zugänglich zu machen, unabhängig von der Sprache!
+Helfen Sie uns dabei, InterMIND für alle zugänglich zu machen, unabhängig von der Sprache!

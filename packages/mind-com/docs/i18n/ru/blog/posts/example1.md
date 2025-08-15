@@ -2,14 +2,12 @@
 layout: BlogPost
 title: "Начало работы с InterMIND"
 date: 2025-01-15
-author: InterMIND Team
+author: "Команда InterMIND"
 ---
 
 # Начало работы с InterMIND
 
 Добро пожаловать в InterMIND! Этот пост проведет вас через основы нашей платформы на базе искусственного интеллекта.
-
-<!--more-->
 
 ## Что такое InterMIND?
 

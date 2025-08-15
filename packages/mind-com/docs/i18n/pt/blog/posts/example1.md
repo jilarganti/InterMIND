@@ -9,8 +9,6 @@ author: InterMIND Team
 
 Bem-vindo ao InterMIND! Este post irá guiá-lo através dos conceitos básicos da nossa plataforma alimentada por IA.
 
-<!--more-->
-
 ## O que é o InterMIND?
 
 O InterMIND é uma plataforma inovadora que combina inteligência artificial com expertise humana para criar soluções empresariais poderosas.

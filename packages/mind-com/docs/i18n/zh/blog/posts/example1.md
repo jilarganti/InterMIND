@@ -9,8 +9,6 @@ author: InterMIND Team
 
 欢迎使用 InterMIND！本文将指导您了解我们AI驱动平台的基础知识。
 
-<!--more-->
-
 ## 什么是InterMIND？
 
 InterMIND是一个创新平台，将人工智能与人类专业知识相结合，创造强大的商业解决方案。

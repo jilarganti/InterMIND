@@ -1,6 +1,6 @@
 ---
 # layout: page
-title: Blog
+title: "Blog"
 # sidebar: false
 ---
 
@@ -16,9 +16,9 @@ import { data as posts } from './posts.data'
       <a :href="post.url" class="text-[var(--vp-c-brand-1)] no-underline text-2xl font-semibold transition-colors duration-250 hover:text-[var(--vp-c-brand-2)]">{{ post.title }}</a>
     </h2>
     <p class="text-[var(--vp-c-text-2)] text-sm mt-2">{{ post.date.string }}</p>
-    <p class="text-[var(--vp-c-text-1)] mt-4 leading-relaxed" v-if="post.excerpt">{{ post.excerpt }}</p>
+    <p class="text-[var(--vp-c-text-1)] mt-4 leading-relaxed" v-if="post.description">{{ post.description }}</p>
     <p class="mt-4">
-      <a :href="post.url" class="text-[var(--vp-c-brand-1)] no-underline font-medium hover:underline">Devamını Oku →</a>
+      <a :href="post.url" class="text-[var(--vp-c-brand-1)] no-underline font-medium hover:underline">Devamını oku →</a>
     </p>
   </article>
 </div>

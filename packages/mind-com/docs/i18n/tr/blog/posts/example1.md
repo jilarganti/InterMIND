@@ -9,8 +9,6 @@ author: InterMIND Team
 
 InterMIND'a hoş geldiniz! Bu yazı, AI destekli platformumuzun temellerini öğrenmenizde size rehberlik edecek.
 
-<!--more-->
-
 ## InterMIND nedir?
 
 InterMIND, güçlü iş çözümleri oluşturmak için yapay zekayı insan uzmanlığıyla birleştiren yenilikçi bir platformdur.
