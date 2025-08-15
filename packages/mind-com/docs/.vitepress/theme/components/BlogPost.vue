@@ -23,8 +23,7 @@ function formatDate(dateString) {
     <div class="vp-doc">
       <Content />
     </div>
-    <footer class="mt-16 pt-8 border-t border-[var(--vp-c-divider)]">
-      <a href="../" class="text-[var(--vp-c-brand-1)] no-underline font-medium hover:underline">← Back to Blog</a>
-    </footer>
+    <a href="../" class="fixed top-32 right-20 text-[var(--vp-c-brand-1)] hover:text-[var(--vp-c-brand-2)] z-50">← Back to the blog</a>
+    <!-- <footer class="mt-16 pt-8 border-t border-[var(--vp-c-divider)]"></footer> -->
   </article>
 </template>
