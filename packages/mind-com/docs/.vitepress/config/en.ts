@@ -133,7 +133,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Get Support", link: "/help" },
         { text: "Privacy Policy", link: "/company/Privacy-Policy" },
-        { text: "AI Legal Guide", link: "/resources/company/Legal-Regulations-for-AI-Services" },
+        { text: "AI Legal Guide", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
