@@ -9,8 +9,6 @@ author: Localization Team
 
 InterMIND is proud to offer comprehensive multi-language support, making our platform accessible to users worldwide.
 
-<!--more-->
-
 ## Supported Languages
 
 Currently, InterMIND supports **19+ languages** including:

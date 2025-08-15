@@ -9,8 +9,6 @@ author: AI Team
 
 Discover how artificial intelligence transforms your workflow in InterMIND.
 
-<!--more-->
-
 ## Advanced AI Integration
 
 Our platform leverages cutting-edge AI models including:
