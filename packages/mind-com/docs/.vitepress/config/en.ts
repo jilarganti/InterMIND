@@ -150,6 +150,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "About", link: "/company/about" },
         { text: "Team", link: "/company/team" },
+        { text: "Careers", link: "/company/careers" },
         { text: "Contacts", link: "/company/contacts" },
       ],
     },
