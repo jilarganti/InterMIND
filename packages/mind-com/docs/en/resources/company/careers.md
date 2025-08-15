@@ -94,7 +94,32 @@ If you've already built something meaningful and you're ready to build technolog
 
 Show us what you've done. Tell us what you want to build next.
 
-**Contact:** careers@mind.com
+<!-- **Contact:** careers@mind.com -->
+
+<br>
+
+<ContactForm
+  formStyle="margin: 1rem auto;"  
+  categoryLabel="What's your specialty? *"  
+  categoryPlaceholderText="Choose your area..."  
+  messageLabel="Show us your work *"  
+  messagePlaceholderText="Share links to your projects, GitHub, portfolio, or describe the impact you've made. What problem are you excited to solve next?"  
+  buttonText="Send your application"
+  webSiteLabel="Git / Blog / Site / ... *"
+  webSitePlaceholderText="e.g. github.com/yourname"
+  :services="[
+    'Engineer who builds the impossible',
+    'Researcher who advances the science',
+    'Designer who solves human problems', 
+    'Marketer who creates demand',
+    'Leader who builds the future',
+    'Sales & Business Development',
+    'Operations & Finance',
+    'Something else'
+  ]"
+/>
+
+<br>
 
 ---
 

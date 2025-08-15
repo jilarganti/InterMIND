@@ -41,6 +41,8 @@ const props = withDefaults(
     categoryPlaceholderText?: string
     messageLabel?: string
     messagePlaceholderText?: string
+    webSiteLabel?: string
+    webSitePlaceholderText?: string
   }>(),
   {
     buttonClass: "brand",
@@ -55,6 +57,8 @@ const categoryLabelValue = computed(() => props.categoryLabel || site.value.them
 const categoryPlaceholderValue = computed(() => props.categoryPlaceholderText || site.value.themeConfig.contact_form.categoryPlaceholder)
 const messageLabelValue = computed(() => props.messageLabel || site.value.themeConfig.contact_form.message)
 const messagePlaceholderValue = computed(() => props.messagePlaceholderText || site.value.themeConfig.contact_form.messagePlaceholder)
+const webSiteLabelValue = computed(() => props.webSiteLabel || site.value.themeConfig.contact_form.webSite)
+const webSitePlaceholderValue = computed(() => props.webSitePlaceholderText || site.value.themeConfig.contact_form.webSitePlaceholder)
 
 const showModal = ref(false)
 const modalContainerRef = ref(null)
@@ -147,8 +151,16 @@ const closeModal = () => {
             </div>
 
             <div>
-              <label for="webSite">{{ webSite }}</label>
-              <input name="webSite" type="url" v-model="formData.webSite" :placeholder="webSitePlaceholder" required pattern="https?://.+" maxlength="100" />
+              <label for="webSite">{{ webSiteLabelValue }}</label>
+              <input
+                name="webSite"
+                type="url"
+                v-model="formData.webSite"
+                :placeholder="webSitePlaceholderValue"
+                required
+                pattern="https?://.+"
+                maxlength="100"
+              />
             </div>
 
             <div>
