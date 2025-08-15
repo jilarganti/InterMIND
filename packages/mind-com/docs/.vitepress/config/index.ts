@@ -47,6 +47,11 @@ export default defineConfig({
       pageData.frontmatter.dir = "rtl"
     }
 
+    // Disable footer for all blog pages
+    if (pagePath.includes("/posts/")) {
+      pageData.frontmatter.footer = false
+    }
+
     // noindex for non-production and excluded pages
     if (NOINDEX_PAGES.some((path) => pagePath.includes(path)) || !isProduction) {
       pageData.frontmatter.head.push(["meta", { name: "robots", content: "noindex" }])
