@@ -133,7 +133,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Destek al", link: "/help" },
         { text: "Gizlilik politikası", link: "/company/Privacy-Policy" },
-        { text: "AI yasal kılavuzu", link: "/resources/company/Legal-Regulations-for-AI-Services" },
+        { text: "AI yasal kılavuzu", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
@@ -150,6 +150,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Hakkında", link: "/company/about" },
         { text: "Ekip", link: "/company/team" },
+        { text: "Kariyer", link: "/company/careers" },
         { text: "İletişim", link: "/company/contacts" },
       ],
     },

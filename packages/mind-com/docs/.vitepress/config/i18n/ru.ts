@@ -133,7 +133,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Получить поддержку", link: "/help" },
         { text: "Политика конфиденциальности", link: "/company/Privacy-Policy" },
-        { text: "Правовое руководство по ИИ", link: "/resources/company/Legal-Regulations-for-AI-Services" },
+        { text: "Правовое руководство по ИИ", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
@@ -150,6 +150,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "О нас", link: "/company/about" },
         { text: "Команда", link: "/company/team" },
+        { text: "Карьера", link: "/company/careers" },
         { text: "Контакты", link: "/company/contacts" },
       ],
     },

@@ -3,13 +3,13 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
-  description: "InterMINDは、ビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームが開発。",
+  description: "InterMINDは、ビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームによって開発されています。",
   head: [
     [
       "meta",
       {
         name: "description",
-        content: "InterMINDは、ビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームが開発。",
+        content: "InterMINDは、ビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームによって開発されています。",
       },
     ],
     ["meta", { property: "og:title", content: "InterMIND | グローバルチーム向けリアルタイム音声翻訳" }],
@@ -18,7 +18,7 @@ export const ja = defineConfig({
       {
         property: "og:description",
         content:
-          "InterMINDは、ビデオ通話で瞬時の音声翻訳を提供 — 障壁のない明確な多言語コミュニケーション。mind.comチームが開発。",
+          "InterMINDは、ビデオ通話で瞬時の音声翻訳を提供し、障壁のない明確で多言語コミュニケーションを実現します。mind.comチームによって開発されています。",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -72,13 +72,13 @@ export const ja = defineConfig({
       webSitePlaceholder: "例：https://companyname.com",
       webSiteError: "ウェブサイトを入力してください",
       category: "主な目標は何ですか？ *",
-      categoryPlaceholder: "最も重要なものを選択",
+      categoryPlaceholder: "最も重要なものを選択してください",
       message: "目標について話し合いましょう（任意）",
       messagePlaceholder: "追加の詳細があればご記入ください（任意）",
       submit: "リクエストを送信",
       sending: "送信中...",
       successTitle: "ありがとうございます！",
-      successMessage: "メッセージを受信いたしました — チームより間もなくご連絡いたします。",
+      successMessage: "メッセージを受信いたしました。チームより間もなくご連絡いたします。",
       defaultCategories: [
         "会議での言語の壁を取り除く",
         "会議を検索可能で実行可能にする",
@@ -133,7 +133,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "サポートを受ける", link: "/help" },
         { text: "プライバシーポリシー", link: "/company/Privacy-Policy" },
-        { text: "AI法的ガイド", link: "/resources/company/Legal-Regulations-for-AI-Services" },
+        { text: "AI法的ガイド", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
@@ -150,6 +150,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "会社概要", link: "/company/about" },
         { text: "チーム", link: "/company/team" },
+        { text: "採用情報", link: "/company/careers" },
         { text: "お問い合わせ", link: "/company/contacts" },
       ],
     },

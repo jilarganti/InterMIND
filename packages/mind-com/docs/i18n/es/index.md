@@ -315,7 +315,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
         links: [
           { text: 'Acerca de', link: './resources/company/about' },
           { text: 'Equipo', link: './resources/company/team' },
-          // { text: 'Careers', link: './resources/company/careers' },
+          { text: 'Carreras', link: './resources/company/careers' },
           { text: 'Contactos', link: './resources/company/contacts' },
         ],
       },

@@ -82,7 +82,7 @@ export const de = defineConfig({
       defaultCategories: [
         "Sprachbarrieren in Meetings beseitigen",
         "Meetings durchsuchbar und umsetzbar machen",
-        "Compliance & Datenresidenz sicherstellen (EU / USA / Asien)",
+        "Compliance & Datenresidenz sicherstellen (EU / US / Asien)",
         "Nur am Erkunden / Sonstiges",
       ],
 
@@ -106,7 +106,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "ANLEITUNG",
+      text: "LEITFADEN",
       collapsed: false,
       items: [
         { text: "Erste Schritte", link: "guide/getting-started" },
@@ -133,7 +133,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Support erhalten", link: "/help" },
         { text: "Datenschutzrichtlinie", link: "/company/Privacy-Policy" },
-        { text: "KI-Rechtsleitfaden", link: "/resources/company/Legal-Regulations-for-AI-Services" },
+        { text: "KI-Rechtsleitfaden", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
@@ -150,6 +150,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Über uns", link: "/company/about" },
         { text: "Team", link: "/company/team" },
+        { text: "Karriere", link: "/company/careers" },
         { text: "Kontakte", link: "/company/contacts" },
       ],
     },
@@ -160,7 +161,7 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Zusammenfassung für Führungskräfte", link: "/InterMind-Executive-Summary" },
     { text: "Go-to-Market-Strategie", link: "/go-to-market-strategy" },
-    { text: "Investor-Präsentation", link: "/InterMind-Investor-Pitch" },
+    { text: "Investor Pitch", link: "/InterMind-Investor-Pitch" },
     { text: "Begründung der Finanzprognosen (Jahr 1–3)", link: "/Financial-Projections-Justification" },
   ]
 }

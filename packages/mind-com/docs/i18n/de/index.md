@@ -248,7 +248,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         q: 'Wie viele Personen können eine InterMind-Lizenz verwenden?',
-        a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt viele Meetings** veranstalten. Wenn mehrere Teammitglieder gleichzeitig Meetings veranstalten müssen, benötigt jeder eine eigene Lizenz.',
+        a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt Meetings** veranstalten. Wenn mehrere Teammitglieder gleichzeitig Meetings veranstalten müssen, benötigt jeder eine eigene Lizenz.',
       },
       {
         q: 'Wie lange kann ein Meeting maximal dauern?',
@@ -268,11 +268,11 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         q: 'Was ist, wenn ich Hilfe oder Support benötige?',
-        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **vorrangigen Support** mit einem dedizierten Ansprechpartner.',
+        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **Priority-Support** mit einem dedizierten Ansprechpartner.',
       },
       {
         q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
-        a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Bei Kündigungen werden *monatliche Pläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.',
+        a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Bei Kündigungen werden *Monatspläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.',
       },
       {
         q: 'Kann ich InterMind für Webinare oder große Veranstaltungen verwenden?',
@@ -307,7 +307,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         links: [
           { text: 'Blog', link: './blog' },
           { text: 'Marken-Assets', link: './resources/media-kit' },
-          { text: 'KI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
+          { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {
@@ -315,7 +315,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         links: [
           { text: 'Über uns', link: './resources/company/about' },
           { text: 'Team', link: './resources/company/team' },
-          // { text: 'Careers', link: './resources/company/careers' },
+          { text: 'Karriere', link: './resources/company/careers' },
           { text: 'Kontakte', link: './resources/company/contacts' },
         ],
       },

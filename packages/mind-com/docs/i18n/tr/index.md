@@ -52,7 +52,7 @@ isHome: true
       title: 'Ciddi Toplantılar İçin Yapıldı — Sadece Konuşmak İçin Değil',
       details: 'InterMind [profesyonel seviye video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
       items: [
-        '✧ 1080p çözünürlük, akıllı gürültü bastırma, zamanlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
+        '✧ 1080p çözünürlük, akıllı gürültü bastırma, planlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -66,8 +66,8 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
     :card="{
-      title: 'Önemli Yerlerde Gizlilik',
-      details: 'InterMind güven gerektiren konuşmalar için yapıldı — gizlilik ve kontrolün en önemli olduğu yerlerde.',
+      title: 'Önemli Olan Yerde Gizlilik',
+      details: 'InterMind güven gerektiren konuşmalar için yapıldı — gizlilik ve kontrolün en önemli olduğu yerde.',
       items: ['✧ [Gizlilik Bölgeleri](./product/overview/privacy-architecture) — AB, ABD, Güneydoğu Asya', '✧ **Sıfır veri eğitimi**. Üçüncü taraf erişimi yok.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -315,7 +315,7 @@ Bunu değiştirmek şu anlama gelir:
         links: [
           { text: 'Hakkımızda', link: './resources/company/about' },
           { text: 'Ekip', link: './resources/company/team' },
-          // { text: 'Careers', link: './resources/company/careers' },
+          { text: 'Kariyer', link: './resources/company/careers' },
           { text: 'İletişim', link: './resources/company/contacts' },
         ],
       },

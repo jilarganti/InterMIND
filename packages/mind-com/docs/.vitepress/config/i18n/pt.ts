@@ -66,8 +66,8 @@ export const pt = defineConfig({
     contact_form: {
       name: "Nome *",
       namePlaceholder: "seu nome",
-      email: "Email *",
-      emailPlaceholder: "seu endereço de email",
+      email: "E-mail *",
+      emailPlaceholder: "seu endereço de e-mail",
       webSite: "Site da empresa *",
       webSitePlaceholder: "ex. https://nomedaempresa.com",
       webSiteError: "Por favor, insira o site",
@@ -133,7 +133,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Obter suporte", link: "/help" },
         { text: "Política de privacidade", link: "/company/Privacy-Policy" },
-        { text: "Guia legal de IA", link: "/resources/company/Legal-Regulations-for-AI-Services" },
+        { text: "Guia legal de IA", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
@@ -150,6 +150,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Sobre", link: "/company/about" },
         { text: "Equipe", link: "/company/team" },
+        { text: "Carreiras", link: "/company/careers" },
         { text: "Contatos", link: "/company/contacts" },
       ],
     },

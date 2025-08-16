@@ -222,7 +222,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
 <ContactForm buttonText="Parler à notre équipe" buttonClass="alt" />
 </PricingPlans>
 
-> [!warning] 😱 Soit vous parlez toutes les langues — soit quelqu\'un d\'autre conclut vos affaires.
+> [!warning] 😱 Soit vous parlez toutes les langues — soit quelqu'un d'autre conclut vos affaires.
 
 <span id="Testimonials"></span>
 
@@ -315,7 +315,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
         links: [
           { text: 'À propos', link: './resources/company/about' },
           { text: 'Équipe', link: './resources/company/team' },
-          // { text: 'Careers', link: './resources/company/careers' },
+          { text: 'Carrières', link: './resources/company/careers' },
           { text: 'Contacts', link: './resources/company/contacts' },
         ],
       },

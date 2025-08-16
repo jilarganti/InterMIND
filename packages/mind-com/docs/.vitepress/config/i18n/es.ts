@@ -12,13 +12,13 @@ export const es = defineConfig({
         content: "InterMIND proporciona traducción de voz en tiempo real para videollamadas — eliminando las barreras del idioma al instante. Desarrollado por el equipo de mind.com.",
       },
     ],
-    ["meta", { property: "og:title", content: "InterMIND | Traducción de voz en tiempo real para equipos globales" }],
+    ["meta", { property: "og:title", content: "InterMIND | Traducción de Voz en Tiempo Real para Equipos Globales" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMIND ofrece traducción de voz instantánea en videollamadas — comunicación clara y multilingüe sin barreras. Desarrollado por el equipo de mind.com.",
+          "InterMIND ofrece traducción de voz instantánea en videollamadas — comunicación multilingüe clara sin barreras. Desarrollado por el equipo de mind.com.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -133,7 +133,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Obtener soporte", link: "/help" },
         { text: "Política de privacidad", link: "/company/Privacy-Policy" },
-        { text: "Guía legal de IA", link: "/resources/company/Legal-Regulations-for-AI-Services" },
+        { text: "Guía legal de IA", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
@@ -150,6 +150,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Acerca de", link: "/company/about" },
         { text: "Equipo", link: "/company/team" },
+        { text: "Carreras", link: "/company/careers" },
         { text: "Contactos", link: "/company/contacts" },
       ],
     },

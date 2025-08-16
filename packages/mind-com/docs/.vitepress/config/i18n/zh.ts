@@ -133,7 +133,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "获取支持", link: "/help" },
         { text: "隐私政策", link: "/company/Privacy-Policy" },
-        { text: "AI 法律指南", link: "/resources/company/Legal-Regulations-for-AI-Services" },
+        { text: "AI 法律指南", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
@@ -150,6 +150,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "关于我们", link: "/company/about" },
         { text: "团队", link: "/company/team" },
+        { text: "招聘", link: "/company/careers" },
         { text: "联系方式", link: "/company/contacts" },
       ],
     },

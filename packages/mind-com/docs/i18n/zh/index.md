@@ -252,7 +252,7 @@ isHome: true
       },
       {
         q: '会议的最长持续时间是多少？',
-        a: '所有计划的会议最长可持续**24小时**。',
+        a: '所有计划的会议都可以运行长达**24小时**。',
       },
       {
         q: '我可以主持的会议数量有限制吗？',
@@ -276,7 +276,7 @@ isHome: true
       },
       {
         q: '我可以使用InterMind进行网络研讨会或大型活动吗？',
-        a: '可以。*专业版*和*商业版*计划非常适合**大型会议和网络研讨会**——*商业版*最多支持**500名参与者**。',
+        a: '可以。*专业版*和*商业版*计划非常适合**大型会议和网络研讨会**——*商业版*支持多达**500名参与者**。',
       },
     ]"/>
 
@@ -315,7 +315,7 @@ isHome: true
         links: [
           { text: '关于我们', link: './resources/company/about' },
           { text: '团队', link: './resources/company/team' },
-          // { text: 'Careers', link: './resources/company/careers' },
+          { text: '招聘', link: './resources/company/careers' },
           { text: '联系我们', link: './resources/company/contacts' },
         ],
       },

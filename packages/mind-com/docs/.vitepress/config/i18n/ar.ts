@@ -133,7 +133,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "الحصول على الدعم", link: "/help" },
         { text: "سياسة الخصوصية", link: "/company/Privacy-Policy" },
-        { text: "دليل القوانين للذكاء الاصطناعي", link: "/resources/company/Legal-Regulations-for-AI-Services" },
+        { text: "دليل القوانين للذكاء الاصطناعي", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
@@ -150,6 +150,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "حول", link: "/company/about" },
         { text: "الفريق", link: "/company/team" },
+        { text: "الوظائف", link: "/company/careers" },
         { text: "جهات الاتصال", link: "/company/contacts" },
       ],
     },

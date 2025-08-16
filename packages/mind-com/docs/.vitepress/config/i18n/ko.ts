@@ -38,7 +38,7 @@ export const ko = defineConfig({
         text: "리소스",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
+          { text: "자주 묻는 질문", link: `${BASE_PATH}/#FAQ` },
           { text: "고객 후기", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -98,7 +98,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "개요",
       collapsed: false,
       items: [
-        { text: "InterMIND란?", link: "overview/what-is-intermind" },
+        { text: "InterMIND란 무엇인가요?", link: "overview/what-is-intermind" },
         { text: "작동 방식", link: "overview/how-it-works" },
         { text: "화상 회의 플랫폼", link: "overview/video-meeting-platform" },
         { text: "지역별 데이터 개인정보 보호", link: "overview/privacy-architecture" },
@@ -116,7 +116,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "사용자 역할", link: "guide/user-roles" },
         { text: "AI 기능", link: "guide/ai-features" },
         { text: "회의 기록", link: "guide/meeting-history" },
-        { text: "FAQ", link: "guide/faq" },
+        { text: "자주 묻는 질문", link: "guide/faq" },
         { text: "문제 해결", link: "guide/troubleshooting" },
         { text: "가격", link: "guide/pricing" },
         { text: "도움말 및 지원", link: "guide/help-support" },
@@ -133,7 +133,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "지원 받기", link: "/help" },
         { text: "개인정보 처리방침", link: "/company/Privacy-Policy" },
-        { text: "AI 법적 가이드", link: "/resources/company/Legal-Regulations-for-AI-Services" },
+        { text: "AI 법적 가이드", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
@@ -150,6 +150,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "소개", link: "/company/about" },
         { text: "팀", link: "/company/team" },
+        { text: "채용", link: "/company/careers" },
         { text: "연락처", link: "/company/contacts" },
       ],
     },

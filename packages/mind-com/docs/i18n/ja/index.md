@@ -260,11 +260,11 @@ isHome: true
       },
       {
         q: 'InterMindはデータプライバシーとセキュリティをどのように確保していますか？',
-        a: 'InterMindは**プライバシー・バイ・デザイン**です。すべてのデータは選択した**プライバシーゾーン**（_EU_、_US_、または_アジア_）内で処理・保存されます。[**GDPR**](https://gdpr.eu)、[**CCPA**](https://oag.ca.gov/privacy/ccpa)、UAE PDPLに準拠し、**お客様のコンテンツを**トレーニングやサードパーティアクセスに**使用することはありません**。高度な[プライバシーゾーン制御](./product/overview/privacy-architecture)は**ビジネス**プランで利用可能です。',
+        a: 'InterMindは**プライバシー・バイ・デザイン**です。すべてのデータは選択した**プライバシーゾーン**（_EU_、_US_、または_アジア_）内で処理・保存されます。[**GDPR**](https://gdpr.eu)、[**CCPA**](https://oag.ca.gov/privacy/ccpa)、UAE PDPLに準拠し、**お客様のコンテンツを**トレーニングやサードパーティアクセスに**使用することはありません**。高度な[プライバシーゾーン制御](./product/overview/privacy-architecture)は**ビジネス**プランで利用できます。',
       },
       {
         q: 'プランを購入する前にInterMindを試すことはできますか？',
-        a: 'もちろんです。*無料ベーシック*プランでは、**同時通訳**や**ミーティング検索**を含む**25回の無料ミーティング**でコア機能にフルアクセスできます。クレジットカードは不要です。いつでもアップグレード可能です。',
+        a: 'もちろんです。*無料ベーシック*プランでは、**同時通訳**や**ミーティング検索**を含む**25回の無料ミーティング**でコア機能にフルアクセスできます。クレジットカードは不要です。いつでもアップグレードできます。',
       },
       {
         q: 'ヘルプやサポートが必要な場合はどうすればよいですか？',
@@ -315,7 +315,7 @@ isHome: true
         links: [
           { text: '会社概要', link: './resources/company/about' },
           { text: 'チーム', link: './resources/company/team' },
-          // { text: 'Careers', link: './resources/company/careers' },
+          { text: '採用情報', link: './resources/company/careers' },
           { text: 'お問い合わせ', link: './resources/company/contacts' },
         ],
       },

@@ -82,7 +82,7 @@ export const fr = defineConfig({
       defaultCategories: [
         "Éliminer les barrières linguistiques dans les réunions",
         "Rendre les réunions consultables et exploitables",
-        "Assurer la conformité et la résidence des données (UE / US / Asie)",
+        "Assurer la conformité et la résidence des données (UE / États-Unis / Asie)",
         "Juste en exploration / Autre",
       ],
 
@@ -133,7 +133,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Obtenir de l'aide", link: "/help" },
         { text: "Politique de confidentialité", link: "/company/Privacy-Policy" },
-        { text: "Guide juridique IA", link: "/resources/company/Legal-Regulations-for-AI-Services" },
+        { text: "Guide juridique IA", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     {
@@ -150,6 +150,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "À propos", link: "/company/about" },
         { text: "Équipe", link: "/company/team" },
+        { text: "Carrières", link: "/company/careers" },
         { text: "Contacts", link: "/company/contacts" },
       ],
     },
