@@ -353,8 +353,6 @@ code {
 .vp-doc .custom-block {
   border: none;
   border-radius: 0;
-  /* padding: 16px 20px; */
-  /* margin: 16px 0; */
   background-color: transparent;
 }
 
@@ -364,23 +362,23 @@ code {
 }
 
 .vp-doc .custom-block.tip {
-  border-left: 4px solid var(--vp-custom-block-tip-border) !important;
+  border-left: 4px solid var(--vp-custom-block-tip-border);
 }
 
 .vp-doc .custom-block.warning {
-  border-left: 4px solid var(--vp-custom-block-warning-border) !important;
+  border-left: 4px solid var(--vp-custom-block-warning-border);
 }
 
 .vp-doc .custom-block.danger {
-  border-left: 4px solid var(--vp-custom-block-danger-border) !important;
+  border-left: 4px solid var(--vp-custom-block-danger-border);
 }
 
 .vp-doc .custom-block.important {
-  border-left: 4px solid var(--vp-custom-block-important-border) !important;
+  border-left: 4px solid var(--vp-custom-block-important-border);
 }
 
 .vp-doc .custom-block.caution {
-  border-left: 4px solid var(--vp-custom-block-caution-border) !important;
+  border-left: 4px solid var(--vp-custom-block-caution-border);
 }
 
 /* Базовое предотвращение горизонтальной прокрутки сайта */
