@@ -1,6 +1,7 @@
 ---
 layout: BlogPost
 title: Getting Started with InterMIND
+description: A Comprehensive Guide to InterMIND's Features and Capabilities
 date: 2025-08-16
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
