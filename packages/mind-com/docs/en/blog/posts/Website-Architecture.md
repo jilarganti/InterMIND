@@ -2,8 +2,8 @@
 layout: BlogPost
 title: Mind.com Website Architecture
 description: Technical Research of a Modern JAMstack Solution with AI Integration
-date: 2025-02-10
-author: AI Team
+date: 2025-08-15
+author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
 # Mind.com Website Architecture: Technical Research of a Modern JAMstack Solution with AI Integration
