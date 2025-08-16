@@ -1,3 +1,5 @@
+/// <reference types="../theme/types/themeConfig" />
+
 import { defineConfig, type DefaultTheme } from "vitepress"
 
 const BASE_PATH = "/hi"
@@ -38,7 +40,7 @@ export const hi = defineConfig({
         text: "संसाधन",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
+          { text: "अक्सर पूछे जाने वाले प्रश्न", link: `${BASE_PATH}/#FAQ` },
           { text: "प्रशंसापत्र", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -72,13 +74,13 @@ export const hi = defineConfig({
       webSitePlaceholder: "जैसे https://companyname.com",
       webSiteError: "कृपया वेबसाइट नंबर दर्ज करें",
       category: "आपका मुख्य लक्ष्य क्या है? *",
-      categoryPlaceholder: "चुनें कि क्या सबसे महत्वपूर्ण है",
+      categoryPlaceholder: "चुनें कि आपके लिए सबसे महत्वपूर्ण क्या है",
       message: "आइए आपके लक्ष्यों पर चर्चा करें (वैकल्पिक)",
       messagePlaceholder: "कृपया कोई अतिरिक्त विवरण प्रदान करें (वैकल्पिक)",
       submit: "अनुरोध भेजें",
       sending: "भेजा जा रहा है...",
       successTitle: "धन्यवाद!",
-      successMessage: "हमें आपका संदेश मिल गया है — हमारी टीम जल्द ही संपर्क करेगी।",
+      successMessage: "हमें आपका संदेश मिल गया है — हमारी टीम जल्द ही आपसे संपर्क करेगी।",
       defaultCategories: [
         "मीटिंग में भाषा की बाधाओं को समाप्त करें",
         "मीटिंग को खोजने योग्य और कार्यान्वित करने योग्य बनाएं",
@@ -116,7 +118,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "उपयोगकर्ता भूमिकाएं", link: "guide/user-roles" },
         { text: "AI सुविधाएं", link: "guide/ai-features" },
         { text: "मीटिंग इतिहास", link: "guide/meeting-history" },
-        { text: "FAQ", link: "guide/faq" },
+        { text: "अक्सर पूछे जाने वाले प्रश्न", link: "guide/faq" },
         { text: "समस्या निवारण", link: "guide/troubleshooting" },
         { text: "मूल्य निर्धारण", link: "guide/pricing" },
         { text: "सहायता और समर्थन", link: "guide/help-support" },

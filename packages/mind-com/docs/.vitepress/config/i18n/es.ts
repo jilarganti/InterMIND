@@ -1,3 +1,5 @@
+/// <reference types="../theme/types/themeConfig" />
+
 import { defineConfig, type DefaultTheme } from "vitepress"
 
 const BASE_PATH = "/es"
@@ -74,7 +76,7 @@ export const es = defineConfig({
       category: "¿Cuál es tu objetivo principal? *",
       categoryPlaceholder: "Elige lo que más te importa",
       message: "Hablemos de tus objetivos (opcional)",
-      messagePlaceholder: "Por favor proporciona detalles adicionales (opcional)",
+      messagePlaceholder: "Por favor proporciona cualquier detalle adicional (opcional)",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
@@ -82,7 +84,7 @@ export const es = defineConfig({
       defaultCategories: [
         "Eliminar barreras del idioma en reuniones",
         "Hacer las reuniones buscables y accionables",
-        "Garantizar cumplimiento y residencia de datos (UE / EE.UU. / Asia)",
+        "Asegurar cumplimiento y residencia de datos (UE / EE.UU. / Asia)",
         "Solo explorando / Otro",
       ],
 

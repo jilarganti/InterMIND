@@ -1,3 +1,5 @@
+/// <reference types="../theme/types/themeConfig" />
+
 import { defineConfig, type DefaultTheme } from "vitepress"
 
 const BASE_PATH = "/fr"
@@ -109,9 +111,9 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "GUIDE",
       collapsed: false,
       items: [
-        { text: "Commencer", link: "guide/getting-started" },
+        { text: "Premiers pas", link: "guide/getting-started" },
         { text: "Gestion de compte", link: "guide/account-management" },
-        { text: "Créer des réunions", link: "guide/creating-meetings" },
+        { text: "Création de réunions", link: "guide/creating-meetings" },
         { text: "Interface de réunion", link: "guide/meeting-interface" },
         { text: "Rôles utilisateur", link: "guide/user-roles" },
         { text: "Fonctionnalités IA", link: "guide/ai-features" },
@@ -162,6 +164,6 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "Résumé exécutif", link: "/InterMind-Executive-Summary" },
     { text: "Stratégie de mise sur le marché", link: "/go-to-market-strategy" },
     { text: "Présentation investisseur", link: "/InterMind-Investor-Pitch" },
-    { text: "Justification des projections financières (Année 1–3)", link: "/Financial-Projections-Justification" },
+    { text: "Justification des projections financières (Années 1–3)", link: "/Financial-Projections-Justification" },
   ]
 }

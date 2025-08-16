@@ -1,3 +1,5 @@
+/// <reference types="../theme/types/themeConfig" />
+
 import { defineConfig, type DefaultTheme } from "vitepress"
 
 const BASE_PATH = "/de"
@@ -73,7 +75,7 @@ export const de = defineConfig({
       webSiteError: "Bitte geben Sie die Website ein",
       category: "Was ist Ihr Hauptziel? *",
       categoryPlaceholder: "Wählen Sie, was am wichtigsten ist",
-      message: "Lassen Sie uns über Ihre Ziele sprechen (optional)",
+      message: "Lassen Sie uns Ihre Ziele besprechen (optional)",
       messagePlaceholder: "Bitte geben Sie zusätzliche Details an (optional)",
       submit: "Anfrage senden",
       sending: "Wird gesendet...",
@@ -82,7 +84,7 @@ export const de = defineConfig({
       defaultCategories: [
         "Sprachbarrieren in Meetings beseitigen",
         "Meetings durchsuchbar und umsetzbar machen",
-        "Compliance & Datenresidenz sicherstellen (EU / US / Asien)",
+        "Compliance & Datenresidenz sicherstellen (EU / USA / Asien)",
         "Nur am Erkunden / Sonstiges",
       ],
 
@@ -161,7 +163,7 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Zusammenfassung für Führungskräfte", link: "/InterMind-Executive-Summary" },
     { text: "Go-to-Market-Strategie", link: "/go-to-market-strategy" },
-    { text: "Investor Pitch", link: "/InterMind-Investor-Pitch" },
+    { text: "Investor-Präsentation", link: "/InterMind-Investor-Pitch" },
     { text: "Begründung der Finanzprognosen (Jahr 1–3)", link: "/Financial-Projections-Justification" },
   ]
 }

@@ -2,6 +2,7 @@
   "name": "shared",
   "type": "module",
   "exports": {
-    ".": "./index.ts"
+    ".": "./index.ts",
+    "./utils/*": "./utils/*"
   }
 }

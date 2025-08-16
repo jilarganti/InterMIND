@@ -1,3 +1,5 @@
+/// <reference types="../theme/types/themeConfig" />
+
 import { defineConfig, type DefaultTheme } from "vitepress"
 
 const BASE_PATH = "/tr"

@@ -1,3 +1,5 @@
+/// <reference types="../theme/types/themeConfig" />
+
 import { defineConfig, type DefaultTheme } from "vitepress"
 
 const BASE_PATH = "/zh"
@@ -83,7 +85,7 @@ export const zh = defineConfig({
         "消除会议中的语言障碍",
         "让会议可搜索且可操作",
         "确保合规性和数据驻留（欧盟/美国/亚洲）",
-        "仅仅探索/其他",
+        "只是探索/其他",
       ],
 
       defaultButtonText: "给我们发送消息",
