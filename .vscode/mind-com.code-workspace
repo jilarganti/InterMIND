@@ -9,7 +9,7 @@
   ],
   "settings": {
     "files.exclude": {
-      "LICENSE": true,
+      "**/.git": false, // 👈 делаем папку .git видимой
       "packages/golden-fish": true,
       "packages/draftium": true,
     },
