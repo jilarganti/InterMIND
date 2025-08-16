@@ -349,6 +349,40 @@ code {
   }
 } */
 
+/* Стили для GitHub-style callouts (custom blocks) */
+.vp-doc .custom-block {
+  border: none;
+  border-radius: 0;
+  /* padding: 16px 20px; */
+  /* margin: 16px 0; */
+  background-color: transparent;
+}
+
+.vp-doc .custom-block.note,
+.vp-doc .custom-block.info {
+  border-left: 4px solid var(--vp-custom-block-note-border);
+}
+
+.vp-doc .custom-block.tip {
+  border-left: 4px solid var(--vp-custom-block-tip-border) !important;
+}
+
+.vp-doc .custom-block.warning {
+  border-left: 4px solid var(--vp-custom-block-warning-border) !important;
+}
+
+.vp-doc .custom-block.danger {
+  border-left: 4px solid var(--vp-custom-block-danger-border) !important;
+}
+
+.vp-doc .custom-block.important {
+  border-left: 4px solid var(--vp-custom-block-important-border) !important;
+}
+
+.vp-doc .custom-block.caution {
+  border-left: 4px solid var(--vp-custom-block-caution-border) !important;
+}
+
 /* Базовое предотвращение горизонтальной прокрутки сайта */
 html,
 body {

@@ -22,9 +22,9 @@ Throughout history, humans have consistently adopted technologies that optimize 
 
 Language learning represents one of the last inefficient allocations of human cognitive potential. The average person spends 600–1000 hours to reach basic proficiency in a new language, with fluency requiring 2000+ hours of dedicated study. These are hours that could be invested in developing specialized expertise in your actual field.
 
-> [!note] ✅ Your time is better spent mastering your craft — not memorizing grammar.
+> [!note] 💡 Your time is better spent mastering your craft — not memorizing grammar.
 
-> [!warning] 🛑 Either you speak every language — or someone else closes your deals.
+> [!note] 💡 Real partnerships start with real conversations — in their language.
 
 ## The InterMIND Philosophy
 
