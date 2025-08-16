@@ -381,6 +381,12 @@ code {
   border-left: 4px solid var(--vp-custom-block-caution-border);
 }
 
+/* Стили для текста в custom blocks */
+.vp-doc .custom-block p {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
 /* Базовое предотвращение горизонтальной прокрутки сайта */
 html,
 body {
