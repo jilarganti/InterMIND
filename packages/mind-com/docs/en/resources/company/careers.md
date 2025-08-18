@@ -1,5 +1,8 @@
 # Breaking Down Barriers Between Cultures
 
+<img src="/resources/iStock-1492917260.jpg" alt="UAE dirham" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/resources/iStock-1130023029.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+
 We're building technology that removes language barriers between people. Our product lets people from different countries speak their native language and understand each other naturally.
 
 This isn't a translator. This is a new paradigm for global communication.
@@ -79,6 +82,9 @@ We don't just translate words—we preserve meaning, tone, cultural context. In 
 4. **Work with us.** A short real project so everyone understands how we work together.
 
 ## What We Offer
+
+<img src="/resources/iStock-2218979526.jpg" alt="UAE dirham" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/resources/iStock-2227445862.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 **World-scale challenges.** You'll solve problems that affect billions of people.
 
