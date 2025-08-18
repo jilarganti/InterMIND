@@ -134,14 +134,14 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "AI Legal Guide", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
-    {
-      text: "RESOURCES",
-      collapsed: false,
-      items: [
-        { text: "Brand Assets", link: "/media-kit" },
-        // { text: "Account Management", link: "guide/account-management" },
-      ],
-    },
+    // {
+    //   text: "RESOURCES",
+    //   collapsed: false,
+    //   items: [
+    //     { text: "Brand Assets", link: "/media-kit" },
+    //     // { text: "Account Management", link: "guide/account-management" },
+    //   ],
+    // },
     {
       text: "COMPANY",
       collapsed: false,
