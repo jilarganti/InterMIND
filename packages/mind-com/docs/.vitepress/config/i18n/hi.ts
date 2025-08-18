@@ -40,7 +40,7 @@ export const hi = defineConfig({
         text: "संसाधन",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "अक्सर पूछे जाने वाले प्रश्न", link: `${BASE_PATH}/#FAQ` },
+          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "प्रशंसापत्र", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -70,9 +70,9 @@ export const hi = defineConfig({
       namePlaceholder: "आपका नाम",
       email: "ईमेल *",
       emailPlaceholder: "आपका ईमेल पता",
-      webSite: "कंपनी वेबसाइट *",
+      webSite: "कंपनी वेबसाइट",
       webSitePlaceholder: "जैसे https://companyname.com",
-      webSiteError: "कृपया वेबसाइट नंबर दर्ज करें",
+      webSiteError: "कृपया वेबसाइट दर्ज करें",
       category: "आपका मुख्य लक्ष्य क्या है? *",
       categoryPlaceholder: "चुनें कि आपके लिए सबसे महत्वपूर्ण क्या है",
       message: "आइए आपके लक्ष्यों पर चर्चा करें (वैकल्पिक)",
@@ -81,12 +81,7 @@ export const hi = defineConfig({
       sending: "भेजा जा रहा है...",
       successTitle: "धन्यवाद!",
       successMessage: "हमें आपका संदेश मिल गया है — हमारी टीम जल्द ही आपसे संपर्क करेगी।",
-      defaultCategories: [
-        "मीटिंग में भाषा की बाधाओं को समाप्त करें",
-        "मीटिंग को खोजने योग्य और कार्यान्वित करने योग्य बनाएं",
-        "अनुपालन और डेटा निवास सुनिश्चित करें (EU / US / Asia)",
-        "केवल खोज रहे हैं / अन्य",
-      ],
+      defaultCategories: [],
 
       defaultButtonText: "हमें संदेश भेजें",
       // defaultButtonText: "मुफ्त परामर्श प्राप्त करें",
@@ -104,7 +99,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "यह कैसे काम करता है", link: "overview/how-it-works" },
         { text: "वीडियो मीटिंग प्लेटफॉर्म", link: "overview/video-meeting-platform" },
         { text: "क्षेत्रीय डेटा गोपनीयता", link: "overview/privacy-architecture" },
-        { text: "प्राथमिकता बाजार", link: "overview/markets" },
+        { text: "प्राथमिकता बाज़ार", link: "overview/markets" },
       ],
     },
     {
@@ -118,7 +113,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "उपयोगकर्ता भूमिकाएं", link: "guide/user-roles" },
         { text: "AI सुविधाएं", link: "guide/ai-features" },
         { text: "मीटिंग इतिहास", link: "guide/meeting-history" },
-        { text: "अक्सर पूछे जाने वाले प्रश्न", link: "guide/faq" },
+        { text: "FAQ", link: "guide/faq" },
         { text: "समस्या निवारण", link: "guide/troubleshooting" },
         { text: "मूल्य निर्धारण", link: "guide/pricing" },
         { text: "सहायता और समर्थन", link: "guide/help-support" },
@@ -142,7 +137,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "संसाधन",
       collapsed: false,
       items: [
-        { text: "ब्रांड संपत्ति", link: "/media-kit" },
+        { text: "ब्रांड एसेट्स", link: "/media-kit" },
         // { text: "खाता प्रबंधन", link: "guide/account-management" },
       ],
     },
@@ -162,8 +157,8 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
     { text: "कार्यकारी सारांश", link: "/InterMind-Executive-Summary" },
-    { text: "बाजार में जाने की रणनीति", link: "/go-to-market-strategy" },
-    { text: "निवेशक प्रस्तुति", link: "/InterMind-Investor-Pitch" },
+    { text: "गो टू मार्केट रणनीति", link: "/go-to-market-strategy" },
+    { text: "निवेशक पिच", link: "/InterMind-Investor-Pitch" },
     { text: "वित्तीय अनुमान औचित्य (वर्ष 1–3)", link: "/Financial-Projections-Justification" },
   ]
 }

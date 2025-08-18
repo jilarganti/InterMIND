@@ -1,4 +1,7 @@
-# Quebrando barreiras entre culturas
+# Derrubando barreiras entre culturas
+
+<img src="/resources/iStock-1492917260.jpg" alt="Dirham dos Emirados Árabes Unidos" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/resources/iStock-1130023029.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 Estamos construindo tecnologia que remove barreiras linguísticas entre pessoas. Nosso produto permite que pessoas de diferentes países falem sua língua nativa e se entendam naturalmente.
 
@@ -80,6 +83,9 @@ Não apenas traduzimos palavras—preservamos significado, tom, contexto cultura
 
 ## O Que Oferecemos
 
+<img src="/resources/iStock-2218979526.jpg" alt="Dirham dos Emirados Árabes Unidos" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/resources/iStock-2227445862.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+
 **Desafios de escala mundial.** Você resolverá problemas que afetam bilhões de pessoas.
 
 **Equipe de classe mundial.** Trabalhe com os melhores especialistas em IA, sistemas em tempo real e comunicação global.
@@ -105,17 +111,17 @@ Mostre-nos o que você fez. Conte-nos o que você quer construir a seguir.
   messageLabel="Mostre-nos seu trabalho *"  
   messagePlaceholderText="Compartilhe links para seus projetos, GitHub, portfólio, ou descreva o impacto que você causou. Que problema você está animado para resolver a seguir?"  
   buttonText="Enviar sua candidatura"
-  webSiteLabel="Git / Blog / Site / ... *"
+  webSiteLabel="Git / Blog / Site / ..."
   webSitePlaceholderText="ex: github.com/seunome"
   :services="[
+    'Líder que constrói o futuro',
+    'Profissional de marketing que cria demanda',
     'Engenheiro que constrói o impossível',
     'Pesquisador que avança a ciência',
+    'Vendedor que impulsiona o crescimento',
     'Designer que resolve problemas humanos', 
-    'Profissional de marketing que cria demanda',
-    'Líder que constrói o futuro',
-    'Vendas e Desenvolvimento de Negócios',
-    'Operações e Finanças',
-    'Algo mais'
+    'Operador que otimiza sistemas',
+    'Especialista que pensa diferente'
   ]"
 />
 

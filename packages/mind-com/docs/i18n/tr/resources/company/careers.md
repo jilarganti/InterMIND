@@ -1,5 +1,8 @@
 # Kültürler Arasındaki Engelleri Yıkmak
 
+<img src="/resources/iStock-1492917260.jpg" alt="BAE dirhemi" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/resources/iStock-1130023029.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+
 İnsanlar arasındaki dil engellerini ortadan kaldıran teknoloji geliştiriyoruz. Ürünümüz, farklı ülkelerden insanların kendi ana dillerini konuşmalarına ve birbirlerini doğal olarak anlamalarına olanak tanıyor.
 
 Bu bir çevirmen değil. Bu, küresel iletişim için yeni bir paradigma.
@@ -16,7 +19,7 @@ Aradığımız kişiler:
 
 **Zaten bir şeyler inşa etmiş olanlar.** Binlerce kişinin kullandığı kod. Gerçek bir sorunu çözen bir ürün. Bozulmadan çalışan bir sistem. Sonuç veren bir ekip.
 
-**Değerlerini sonuçlarla ölçenler.** Çalışmanız sayesinde kaç kişinin hayatı iyileşti? İyileştirmelerinizden sonra süreçler ne kadar hızlandı? Çözümlerinizden sonra hangi sorunlar ortadan kalktı?
+**Değerlerini sonuçlarla ölçenler.** Çalışmanız sayesinde kaç kişinin hayatı iyileşti? Geliştirmelerinizden sonra süreçler ne kadar hızlandı? Çözümlerinizden sonra hangi sorunlar ortadan kalktı?
 
 **Küresel düşünenler.** Farklı ülkelerden insanlarla çalıştınız mı? Çok kültürlü ortamlarda sorunlar çözdünüz mü? Uluslararası kitleler için ürünler geliştirdiniz mi?
 
@@ -80,11 +83,14 @@ Sadece kelimeleri çevirmiyoruz—anlamı, tonu, kültürel bağlamı koruyoruz.
 
 ## Neler Sunuyoruz
 
+<img src="/resources/iStock-2218979526.jpg" alt="BAE dirhemi" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/resources/iStock-2227445862.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+
 **Dünya çapında zorluklar.** Milyarlarca insanı etkileyen sorunları çözeceksiniz.
 
-**Dünya standartlarında ekip.** Yapay zeka, gerçek zamanlı sistemler ve küresel iletişim alanlarında en iyi uzmanlarla çalışın.
+**Dünya standartlarında ekip.** Yapay zeka, gerçek zamanlı sistemler ve küresel iletişim alanlarında uzman kişilerle çalışın.
 
-**Sınırsız kaynaklar.** Kategorinin en iyi ürününü geliştirmek için ihtiyacınız olan her şey.
+**Sınırsız kaynaklar.** Kategorideki en iyi ürünü geliştirmek için ihtiyacınız olan her şey.
 
 **Küresel etki.** Çalışmanız insanlığın dil sınırları ötesinde iletişim kurma şeklini değiştirecek.
 
@@ -105,17 +111,17 @@ Yaptıklarınızı gösterin. Bundan sonra ne inşa etmek istediğinizi anlatın
   messageLabel="Çalışmalarınızı gösterin *"  
   messagePlaceholderText="Projelerinizin linklerini, GitHub\'ınızı, portföyünüzü paylaşın veya yarattığınız etkiyi anlatın. Çözmeyi heyecanla beklediğiniz problem nedir?"  
   buttonText="Başvurunuzu gönderin"
-  webSiteLabel="Git / Blog / Site / ... *"
+  webSiteLabel="Git / Blog / Site / ..."
   webSitePlaceholderText="örn. github.com/kullaniciadi"
   :services="[
+    'Geleceği inşa eden lider',
+    'Talep yaratan pazarlamacı',
     'İmkansızı inşa eden mühendis',
     'Bilimi ileriye taşıyan araştırmacı',
+    'Büyümeyi yönlendiren satış uzmanı',
     'İnsan problemlerini çözen tasarımcı', 
-    'Talep yaratan pazarlamacı',
-    'Geleceği inşa eden lider',
-    'Satış ve İş Geliştirme',
-    'Operasyon ve Finans',
-    'Başka bir şey'
+    'Sistemleri optimize eden operatör',
+    'Farklı düşünen uzman'
   ]"
 />
 

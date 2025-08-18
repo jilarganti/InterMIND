@@ -1,5 +1,8 @@
 # Derribando barreras entre culturas
 
+<img src="/resources/iStock-1492917260.jpg" alt="Dirham de los EAU" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/resources/iStock-1130023029.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+
 Estamos construyendo tecnología que elimina las barreras del idioma entre las personas. Nuestro producto permite que personas de diferentes países hablen en su idioma nativo y se entiendan entre sí de manera natural.
 
 Esto no es un traductor. Este es un nuevo paradigma para la comunicación global.
@@ -80,9 +83,12 @@ No solo traducimos palabras—preservamos el significado, el tono, el contexto c
 
 ## Lo que ofrecemos
 
+<img src="/resources/iStock-2218979526.jpg" alt="Dirham de los EAU" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/resources/iStock-2227445862.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+
 **Desafíos a escala mundial.** Resolverás problemas que afectan a miles de millones de personas.
 
-**Equipo de clase mundial.** Trabaja con especialistas de primer nivel en IA, sistemas en tiempo real y comunicación global.
+**Equipo de clase mundial.** Trabaja con los mejores especialistas en IA, sistemas en tiempo real y comunicación global.
 
 **Recursos ilimitados.** Todo lo que necesitas para construir el mejor producto de la categoría.
 
@@ -105,17 +111,17 @@ Muéstranos lo que has hecho. Cuéntanos qué quieres construir después.
   messageLabel="Muéstranos tu trabajo *"  
   messagePlaceholderText="Comparte enlaces a tus proyectos, GitHub, portafolio, o describe el impacto que has generado. ¿Qué problema te emociona resolver después?"  
   buttonText="Enviar tu solicitud"
-  webSiteLabel="Git / Blog / Sitio / ... *"
+  webSiteLabel="Git / Blog / Sitio / ..."
   webSitePlaceholderText="ej. github.com/tunombre"
   :services="[
+    'Líder que construye el futuro',
+    'Mercadólogo que crea demanda',
     'Ingeniero que construye lo imposible',
     'Investigador que avanza la ciencia',
+    'Vendedor que impulsa el crecimiento',
     'Diseñador que resuelve problemas humanos', 
-    'Mercadólogo que crea demanda',
-    'Líder que construye el futuro',
-    'Ventas y desarrollo de negocios',
-    'Operaciones y finanzas',
-    'Algo más'
+    'Operador que optimiza sistemas',
+    'Especialista que piensa diferente'
   ]"
 />
 

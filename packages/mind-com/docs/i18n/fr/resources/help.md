@@ -1,30 +1,34 @@
 ---
-description: "Vous avez des questions sur l'interprétation de réunions assistée par l'IA, la communication multilingue ou l'intégration d'entreprise ? Nous sommes là pour vous aider — rapidement, humainement et sans confusion."
+description: "Vous avez des questions sur l'interprétation de réunions alimentée par l'IA, la communication multilingue ou l'intégration d'entreprise ? Nous sommes là pour vous aider — rapidement, humainement et sans confusion."
 ---
 
-# 💬 Besoin d'aide ? Sans délais, sans confusion — juste des réponses.
+# 💬 Besoin d'assistance ? Aucun délai, aucune confusion — juste des réponses.
 
-Dites-nous ce que vous souhaitez accomplir — et nous vous aiderons à avancer.  
-Rapidement, avec précision, et avec un véritable humain à votre écoute.
+Faites-nous savoir ce que vous essayez d'accomplir — et nous vous aiderons à avancer.  
+Rapidement, de manière ciblée, et avec un vrai humain à l'autre bout.
 
 <br>
 
 <ContactForm   
   formStyle="margin: 1rem auto;"  
-  categoryLabel="Qu'est-ce qui vous amène chez InterMind aujourd'hui ?"  
+  categoryLabel="Qu\'est-ce qui vous amène chez InterMind aujourd\'hui ? *"  
   categoryPlaceholderText="Choisissez votre raison principale…"  
-  messageLabel="Dites-nous en plus (facultatif)"  
-  messagePlaceholderText="Tout ce que vous souhaitez partager — objectifs, contexte ou détails techniques."  
-  buttonText="Obtenir l'aide d'un expert maintenant"  
+  messageLabel="Dites-nous en plus *"  
+  messagePlaceholderText="Tout ce que vous aimeriez partager — objectifs, contexte ou détails techniques."  
+  buttonText="Obtenir de l\'aide d\'expert maintenant"  
   :services="[
-    'Je veux essayer InterMind dans ma langue', 
-    'J\'aimerais une démonstration',
-    'Je signale un problème technique',
-    'Je suis intéressé par un partenariat',
-    'Autre chose'
+    'J\'ai besoin d\'aide pour commencer',
+    'Je veux programmer une démonstration',
+    'J\'ai un problème technique ou un bug',
+    'J\'ai besoin d\'aide avec l\'intégration de réunions',
+    'J\'ai des questions sur la qualité de traduction',
+    'J\'ai besoin d\'assistance pour l\'intégration d\'équipe',
+    'J\'ai des questions de facturation ou d\'abonnement',
+    'Je veux explorer les fonctionnalités d\'entreprise',
+    'Question générale ou commentaire'
   ]" />
 
 <br>
 
-> [!note] Nous répondons généralement sous un jour ouvrable.  
-> Votre demande sera examinée par un humain — pas un robot.
+> [!note] Nous répondons généralement dans un délai d'un jour ouvrable.  
+> Votre demande sera examinée par un vrai humain — pas un bot.

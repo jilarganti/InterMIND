@@ -70,7 +70,7 @@ export const fr = defineConfig({
       namePlaceholder: "votre nom",
       email: "Email *",
       emailPlaceholder: "votre adresse email",
-      webSite: "Site web de l'entreprise *",
+      webSite: "Site web de l'entreprise",
       webSitePlaceholder: "ex. https://nomdelentreprise.com",
       webSiteError: "Veuillez saisir le site web",
       category: "Quel est votre objectif principal ? *",
@@ -81,12 +81,7 @@ export const fr = defineConfig({
       sending: "Envoi en cours...",
       successTitle: "Merci !",
       successMessage: "Nous avons reçu votre message — notre équipe vous contactera sous peu.",
-      defaultCategories: [
-        "Éliminer les barrières linguistiques dans les réunions",
-        "Rendre les réunions consultables et exploitables",
-        "Assurer la conformité et la résidence des données (UE / États-Unis / Asie)",
-        "Juste en exploration / Autre",
-      ],
+      defaultCategories: [],
 
       defaultButtonText: "Envoyez-nous un message",
       // defaultButtonText: "Obtenez une consultation gratuite",

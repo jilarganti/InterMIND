@@ -8,6 +8,9 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # Arquitetura do Website Mind.com: Pesquisa Técnica de uma Solução JAMstack Moderna com Integração de IA
 
+<img src="/blog/iStock-681469612.jpg" alt="dirham dos Emirados Árabes Unidos" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+
 O website mind.com representa um exemplo excepcional de arquitetura moderna para sites de marketing, combinando as melhores práticas de desenvolvimento JAMstack com tecnologias de IA de ponta. Nesta análise técnica, examinaremos em detalhes as decisões arquiteturais subjacentes a este projeto, que faz parte do monorepo InterMIND, mas funciona como uma plataforma estática independente com capacidades dinâmicas.
 
 **As principais inovações arquiteturais** incluem várias soluções técnicas que distinguem o projeto de sites de marketing típicos.
@@ -102,7 +105,7 @@ O Mind.com suporta mais de 20 idiomas com suporte completo à direção de texto
 
 **Script de Tradução** representa uma **inovação tecnológica chave** que muda fundamentalmente a abordagem para internacionalização de websites. Diferente dos sistemas i18n tradicionais que requerem criação e manutenção constante de dicionários de tradução, este sistema **elimina completamente a necessidade de gerenciamento manual de traduções**. Ao analisar o conteúdo fonte no diretório `docs/en/`, o sistema cria automaticamente traduções em `docs/i18n/{lang}/`, suportando qualquer número de idiomas especificados na configuração. A execução é acionada por um simples comando `pnpm translate` do diretório do pacote.
 
-**Suporte universal de formatos** é uma vantagem crítica: o sistema processa Markdown, componentes Vue, TypeScript, JavaScript e qualquer outro formato de texto sem adaptação especial. Isso significa que **todo o conteúdo do site — desde documentação até componentes de UI — é traduzido automaticamente**, preservando estrutura, formatação e funcionalidade.
+**Suporte universal de formatos** é uma vantagem crítica: o sistema processa Markdown, componentes Vue, TypeScript, JavaScript e quaisquer outros formatos de texto sem adaptação especial. Isso significa que **todo o conteúdo do site — desde documentação até componentes de UI — é traduzido automaticamente**, preservando estrutura, formatação e funcionalidade.
 
 **Otimização SEO de classe mundial** é alcançada criando páginas estáticas completas para cada idioma. Diferente das soluções i18n do lado do cliente que carregam conteúdo dinamicamente, cada versão de idioma existe como uma página estática separada, garantindo **indexação perfeita pelos motores de busca** e carregamento instantâneo de conteúdo. Os bots de busca veem HTML completamente traduzido sem dependências JavaScript.
 

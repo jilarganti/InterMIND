@@ -13,18 +13,20 @@ Mesajınızın doğru kişiye ulaşmasını sağlayacağız.
 
 <ContactForm
   formStyle="margin: 1rem auto;"  
-  categoryLabel="Bizimle iletişime geçme nedeniniz nedir?"  
+  categoryLabel="Bizimle iletişime geçme nedeniniz nedir? *"  
   categoryPlaceholderText="Konunuzu seçin..."  
-  messageLabel="Mesaj (isteğe bağlı)"  
-  messagePlaceholderText="Dikkate almamızı istediğiniz ilgili geçmiş bilgileri, zaman çizelgelerini veya bağlamı paylaşın."  
+  messageLabel="Mesaj *"  
+  messagePlaceholderText="Değerlendirmemizi istediğiniz ilgili geçmiş bilgileri, zaman çizelgelerini veya bağlamı paylaşın."  
   buttonText="Mesajınızı gönderin"  
   :services="[
-    'Bir ortaklık keşfetmek istiyorum',
-    'Yatırım yapmakla ilgileniyorum',
-    'Medya veya PR sorgulamam var',
-    'Hukuki veya uyumluluk konularım var',
-    'Kötüye kullanım veya suistimal bildirmek istiyorum',
-    'Başka bir şey'
+    'Stratejik ortaklık fırsatı',
+    'Yatırım veya finansman görüşmesi',
+    'Kurumsal çözüm talebi',
+    'Medya ve basın talebi',
+    'Hukuki veya uyumluluk konusu',
+    'Güvenlik endişesi veya raporu',
+    'İş geliştirme teklifi',
+    'Genel iş talebi'
   ]"
 />
 

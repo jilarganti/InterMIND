@@ -70,7 +70,7 @@ export const de = defineConfig({
       namePlaceholder: "Ihr Name",
       email: "E-Mail *",
       emailPlaceholder: "Ihre E-Mail-Adresse",
-      webSite: "Unternehmens-Website *",
+      webSite: "Unternehmens-Website",
       webSitePlaceholder: "z.B. https://firmenname.com",
       webSiteError: "Bitte geben Sie die Website ein",
       category: "Was ist Ihr Hauptziel? *",
@@ -81,12 +81,7 @@ export const de = defineConfig({
       sending: "Wird gesendet...",
       successTitle: "Vielen Dank!",
       successMessage: "Wir haben Ihre Nachricht erhalten — unser Team wird sich in Kürze bei Ihnen melden.",
-      defaultCategories: [
-        "Sprachbarrieren in Meetings beseitigen",
-        "Meetings durchsuchbar und umsetzbar machen",
-        "Compliance & Datenresidenz sicherstellen (EU / USA / Asien)",
-        "Nur am Erkunden / Sonstiges",
-      ],
+      defaultCategories: [],
 
       defaultButtonText: "Senden Sie uns eine Nachricht",
       // defaultButtonText: "Kostenlose Beratung erhalten",
@@ -108,7 +103,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "LEITFADEN",
+      text: "ANLEITUNG",
       collapsed: false,
       items: [
         { text: "Erste Schritte", link: "guide/getting-started" },

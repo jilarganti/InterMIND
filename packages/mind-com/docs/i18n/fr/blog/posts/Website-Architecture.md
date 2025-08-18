@@ -8,6 +8,9 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # Architecture du site web Mind.com : recherche technique d'une solution JAMstack moderne avec intégration IA
 
+<img src="/blog/iStock-681469612.jpg" alt="dirham des EAU" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+
 Le site web mind.com représente un exemple remarquable d'architecture moderne pour les sites marketing, combinant les meilleures pratiques de développement JAMstack avec des technologies IA de pointe. Dans cette analyse technique, nous examinerons en détail les décisions architecturales qui sous-tendent ce projet, qui fait partie du monorepo InterMIND mais fonctionne comme une plateforme statique indépendante avec des capacités dynamiques.
 
 **Les innovations architecturales clés** incluent plusieurs solutions techniques qui distinguent le projet des sites marketing typiques.
@@ -108,7 +111,7 @@ Mind.com prend en charge plus de 20 langues avec un support complet de la direct
 
 **L'architecture IA double** utilise OpenAI GPT-4 et Anthropic Claude avec commutation automatique de modèle en cas d'erreurs. Le système inclut la traduction incrémentale (seulement les fichiers modifiés), la synchronisation automatique de la structure des fichiers, et la vérification optionnelle de compilation des fichiers traduits via `checkBuildErrors: true`.
 
-**L'ingénierie de prompts intelligente** assure la préservation du formatage markdown, l'immutabilité des blocs de code, le maintien de tous les liens et références, et la traduction uniquement du texte en langage naturel. Le système divise automatiquement les gros fichiers en sections pour un traitement optimal par les modèles IA.
+**L'ingénierie de prompt intelligente** assure la préservation du formatage markdown, l'immutabilité des blocs de code, le maintien de tous les liens et références, et la traduction uniquement du texte en langage naturel. Le système divise automatiquement les gros fichiers en sections pour un traitement optimal par les modèles IA.
 
 **La gestion d'erreurs et la correction automatique** inclut la commutation automatique vers le modèle suivant en cas d'erreurs de traduction, la sauvegarde de fichiers partiellement traduits avec l'extension `.log`, la retraduction de fichiers problématiques utilisant tous les modèles disponibles, et le rapport final des fichiers qui n'ont pas pu être corrigés.
 

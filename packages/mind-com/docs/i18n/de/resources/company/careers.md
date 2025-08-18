@@ -1,6 +1,9 @@
 # Barrieren zwischen Kulturen abbauen
 
-Wir entwickeln Technologie, die Sprachbarrieren zwischen Menschen beseitigt. Unser Produkt ermöglicht es Menschen aus verschiedenen Ländern, in ihrer Muttersprache zu sprechen und sich natürlich zu verstehen.
+<img src="/resources/iStock-1492917260.jpg" alt="VAE-Dirham" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/resources/iStock-1130023029.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+
+Wir entwickeln Technologie, die Sprachbarrieren zwischen Menschen beseitigt. Unser Produkt ermöglicht es Menschen aus verschiedenen Ländern, ihre Muttersprache zu sprechen und sich gegenseitig natürlich zu verstehen.
 
 Das ist kein Übersetzer. Das ist ein neues Paradigma für globale Kommunikation.
 
@@ -80,9 +83,12 @@ Wir übersetzen nicht nur Wörter—wir bewahren Bedeutung, Tonfall und kulturel
 
 ## Was wir bieten
 
+<img src="/resources/iStock-2218979526.jpg" alt="VAE-Dirham" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/resources/iStock-2227445862.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+
 **Herausforderungen von Weltrang.** Sie lösen Probleme, die Milliarden von Menschen betreffen.
 
-**Weltklasse-Team.** Arbeiten Sie mit Top-Spezialisten in KI, Echtzeitsystemen und globaler Kommunikation.
+**Weltklasse-Team.** Arbeiten Sie mit Top-Spezialisten in den Bereichen KI, Echtzeitsysteme und globale Kommunikation.
 
 **Unbegrenzte Ressourcen.** Alles, was Sie brauchen, um das beste Produkt in der Kategorie zu entwickeln.
 
@@ -105,17 +111,17 @@ Zeigen Sie uns, was Sie getan haben. Erzählen Sie uns, was Sie als nächstes au
   messageLabel="Zeigen Sie uns Ihre Arbeit *"  
   messagePlaceholderText="Teilen Sie Links zu Ihren Projekten, GitHub, Portfolio oder beschreiben Sie die Wirkung, die Sie erzielt haben. Welches Problem möchten Sie als nächstes lösen?"  
   buttonText="Bewerbung senden"
-  webSiteLabel="Git / Blog / Website / ... *"
+  webSiteLabel="Git / Blog / Website / ..."
   webSitePlaceholderText="z.B. github.com/ihrname"
   :services="[
+    'Führungskraft, die die Zukunft gestaltet',
+    'Marketer, der Nachfrage schafft',
     'Ingenieur, der das Unmögliche baut',
     'Forscher, der die Wissenschaft vorantreibt',
+    'Verkäufer, der Wachstum vorantreibt',
     'Designer, der menschliche Probleme löst', 
-    'Marketer, der Nachfrage schafft',
-    'Führungskraft, die die Zukunft gestaltet',
-    'Vertrieb & Geschäftsentwicklung',
-    'Operations & Finanzen',
-    'Etwas anderes'
+    'Operator, der Systeme optimiert',
+    'Spezialist, der anders denkt'
   ]"
 />
 

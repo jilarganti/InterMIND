@@ -13,18 +13,20 @@ Garantiremos que sua mensagem chegue à pessoa certa.
 
 <ContactForm
   formStyle="margin: 1rem auto;"  
-  categoryLabel="Qual é o motivo do seu contato?"  
+  categoryLabel="Qual é o motivo do seu contato? *"  
   categoryPlaceholderText="Escolha seu tópico..."  
-  messageLabel="Mensagem (opcional)"  
+  messageLabel="Mensagem *"  
   messagePlaceholderText="Compartilhe qualquer contexto relevante, cronogramas ou informações que gostaria que considerássemos."  
   buttonText="Enviar sua mensagem"  
   :services="[
-    'Quero explorar uma parceria',
-    'Estou interessado em investir',
-    'Tenho uma consulta de mídia ou RP',
-    'Tenho uma questão legal ou de conformidade',
-    'Quero reportar abuso ou má conduta',
-    'Outra coisa'
+    'Oportunidade de parceria estratégica',
+    'Discussão sobre investimento ou financiamento',
+    'Consulta sobre solução empresarial',
+    'Solicitação de mídia e imprensa',
+    'Questão legal ou de conformidade',
+    'Preocupação ou relatório de segurança',
+    'Proposta de desenvolvimento de negócios',
+    'Consulta comercial geral'
   ]"
 />
 

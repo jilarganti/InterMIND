@@ -8,7 +8,10 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # Mind.com 网站架构：现代 JAMstack 解决方案与 AI 集成的技术研究
 
-mind.com 网站代表了营销网站现代架构的杰出典范，将 JAMstack 开发最佳实践与前沿 AI 技术相结合。在这项技术分析中，我们将详细研究该项目的架构决策，该项目是 InterMIND 单体仓库的一部分，但作为具有动态功能的独立静态平台运行。
+<img src="/blog/iStock-681469612.jpg" alt="阿联酋迪拉姆" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/iStock-681469612.jpg" alt="阿联酋国民银行" width="500" align="right" style="padding: 1.5rem" class="light-only">
+
+mind.com 网站代表了营销网站现代架构的杰出典范，将 JAMstack 开发最佳实践与前沿 AI 技术相结合。在这项技术分析中，我们将详细研究该项目背后的架构决策，该项目是 InterMIND 单体仓库的一部分，但作为具有动态功能的独立静态平台运行。
 
 **关键架构创新**包括几个技术解决方案，使该项目区别于典型的营销网站。
 
@@ -134,7 +137,7 @@ Mind.com 使用 **Pinia** 作为 Vue 3 应用程序状态管理的现代解决�
 
 ### UTM 跟踪集成
 
-**分析 store**自动从 URL 捕获 UTM 参数，将其保存在 sessionStorage 中进行会话跟踪，并与 Google Analytics 集成进行归因跟踪。
+**分析 store** 自动从 URL 捕获 UTM 参数，将其保存在 sessionStorage 中进行会话跟踪，并与 Google Analytics 集成进行归因跟踪。
 
 ## 分析集成
 

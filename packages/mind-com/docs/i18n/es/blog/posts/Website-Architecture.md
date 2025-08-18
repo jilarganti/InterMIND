@@ -8,7 +8,10 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # Arquitectura del sitio web Mind.com: investigación técnica de una solución JAMstack moderna con integración de IA
 
-El sitio web mind.com representa un ejemplo sobresaliente de arquitectura moderna para sitios de marketing, combinando las mejores prácticas de desarrollo JAMstack con tecnologías de IA de vanguardia. En este análisis técnico, examinaremos en detalle las decisiones arquitectónicas que subyacen a este proyecto, que forma parte del monorepo InterMIND pero funciona como una plataforma estática independiente con capacidades dinámicas.
+<img src="/blog/iStock-681469612.jpg" alt="Dirham de los EAU" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+
+El sitio web mind.com representa un ejemplo sobresaliente de arquitectura moderna para sitios de marketing, combinando las mejores prácticas de desarrollo JAMstack con tecnologías de IA de vanguardia. En este análisis técnico, examinaremos en detalle las decisiones arquitectónicas que sustentan este proyecto, que forma parte del monorepo InterMIND pero funciona como una plataforma estática independiente con capacidades dinámicas.
 
 **Las innovaciones arquitectónicas clave** incluyen varias soluciones técnicas que distinguen al proyecto de los sitios de marketing típicos.
 

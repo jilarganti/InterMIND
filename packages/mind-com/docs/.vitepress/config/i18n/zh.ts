@@ -70,7 +70,7 @@ export const zh = defineConfig({
       namePlaceholder: "您的姓名",
       email: "邮箱 *",
       emailPlaceholder: "您的邮箱地址",
-      webSite: "公司网站 *",
+      webSite: "公司网站",
       webSitePlaceholder: "例如：https://companyname.com",
       webSiteError: "请输入网站地址",
       category: "您的主要目标是什么？*",
@@ -81,12 +81,7 @@ export const zh = defineConfig({
       sending: "发送中...",
       successTitle: "谢谢您！",
       successMessage: "我们已收到您的消息——我们的团队将很快与您联系。",
-      defaultCategories: [
-        "消除会议中的语言障碍",
-        "让会议可搜索且可操作",
-        "确保合规性和数据驻留（欧盟/美国/亚洲）",
-        "只是探索/其他",
-      ],
+      defaultCategories: [],
 
       defaultButtonText: "给我们发送消息",
       // defaultButtonText: "获取免费咨询",
@@ -111,7 +106,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "指南",
       collapsed: false,
       items: [
-        { text: "入门指南", link: "guide/getting-started" },
+        { text: "快速入门", link: "guide/getting-started" },
         { text: "账户管理", link: "guide/account-management" },
         { text: "创建会议", link: "guide/creating-meetings" },
         { text: "会议界面", link: "guide/meeting-interface" },

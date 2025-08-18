@@ -8,6 +8,9 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # Mind.com Website-Architektur: Technische Forschung einer modernen JAMstack-Lösung mit KI-Integration
 
+<img src="/blog/iStock-681469612.jpg" alt="VAE-Dirham" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+
 Die mind.com-Website stellt ein herausragendes Beispiel moderner Architektur für Marketing-Websites dar und kombiniert JAMstack-Entwicklungs-Best-Practices mit modernsten KI-Technologien. In dieser technischen Analyse werden wir die architektonischen Entscheidungen, die diesem Projekt zugrunde liegen, detailliert untersuchen. Das Projekt ist Teil des InterMIND-Monorepos, funktioniert aber als unabhängige statische Plattform mit dynamischen Fähigkeiten.
 
 **Wichtige architektonische Innovationen** umfassen mehrere technische Lösungen, die das Projekt von typischen Marketing-Websites unterscheiden.

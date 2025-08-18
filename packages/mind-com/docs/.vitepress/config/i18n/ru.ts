@@ -40,7 +40,7 @@ export const ru = defineConfig({
         text: "Ресурсы",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "Часто задаваемые вопросы", link: `${BASE_PATH}/#FAQ` },
+          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Отзывы", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -70,9 +70,9 @@ export const ru = defineConfig({
       namePlaceholder: "ваше имя",
       email: "Email *",
       emailPlaceholder: "ваш email адрес",
-      webSite: "Сайт компании *",
+      webSite: "Сайт компании",
       webSitePlaceholder: "например, https://companyname.com",
-      webSiteError: "Пожалуйста, введите адрес сайта",
+      webSiteError: "Пожалуйста, введите сайт",
       category: "Какова ваша основная цель? *",
       categoryPlaceholder: "Выберите наиболее важное",
       message: "Давайте обсудим ваши цели (необязательно)",
@@ -81,12 +81,7 @@ export const ru = defineConfig({
       sending: "Отправка...",
       successTitle: "Спасибо!",
       successMessage: "Мы получили ваше сообщение — наша команда свяжется с вами в ближайшее время.",
-      defaultCategories: [
-        "Устранить языковые барьеры на встречах",
-        "Сделать встречи доступными для поиска и действий",
-        "Обеспечить соответствие требованиям и резидентность данных (ЕС / США / Азия)",
-        "Просто изучаю / Другое",
-      ],
+      defaultCategories: [],
 
       defaultButtonText: "Отправить нам сообщение",
       // defaultButtonText: "Получить бесплатную консультацию",
@@ -118,7 +113,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Роли пользователей", link: "guide/user-roles" },
         { text: "ИИ функции", link: "guide/ai-features" },
         { text: "История встреч", link: "guide/meeting-history" },
-        { text: "Часто задаваемые вопросы", link: "guide/faq" },
+        { text: "FAQ", link: "guide/faq" },
         { text: "Устранение неполадок", link: "guide/troubleshooting" },
         { text: "Цены", link: "guide/pricing" },
         { text: "Помощь и поддержка", link: "guide/help-support" },
@@ -161,7 +156,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 
 function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Краткое изложение для руководства", link: "/InterMind-Executive-Summary" },
+    { text: "Краткое резюме", link: "/InterMind-Executive-Summary" },
     { text: "Стратегия выхода на рынок", link: "/go-to-market-strategy" },
     { text: "Презентация для инвесторов", link: "/InterMind-Investor-Pitch" },
     { text: "Обоснование финансовых прогнозов (1-3 год)", link: "/Financial-Projections-Justification" },

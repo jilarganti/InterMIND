@@ -14,13 +14,13 @@ export const tr = defineConfig({
         content: "InterMIND video aramalar için gerçek zamanlı konuşma çevirisi sağlar — dil engellerini anında ortadan kaldırır. mind.com ekibi tarafından desteklenmektedir.",
       },
     ],
-    ["meta", { property: "og:title", content: "InterMIND | Küresel Ekipler için Gerçek Zamanlı Konuşma Çevirisi" }],
+    ["meta", { property: "og:title", content: "InterMIND | Küresel ekipler için gerçek zamanlı konuşma çevirisi" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMIND video aramalarda anlık konuşma çevirisi sunar — engelsiz net, çok dilli iletişim. mind.com ekibi tarafından desteklenmektedir.",
+          "InterMIND video aramalarda anlık konuşma çevirisi sunar — engelsiz, net, çok dilli iletişim. mind.com ekibi tarafından desteklenmektedir.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -70,9 +70,9 @@ export const tr = defineConfig({
       namePlaceholder: "adınız",
       email: "E-posta *",
       emailPlaceholder: "e-posta adresiniz",
-      webSite: "Şirket web sitesi *",
+      webSite: "Şirket web sitesi",
       webSitePlaceholder: "örn. https://sirketadi.com",
-      webSiteError: "Lütfen web sitesi adresini girin",
+      webSiteError: "Lütfen web sitesini girin",
       category: "Birincil hedefiniz nedir? *",
       categoryPlaceholder: "En önemli olanı seçin",
       message: "Hedeflerinizi tartışalım (isteğe bağlı)",
@@ -81,12 +81,7 @@ export const tr = defineConfig({
       sending: "Gönderiliyor...",
       successTitle: "Teşekkürler!",
       successMessage: "Mesajınızı aldık — ekibimiz kısa süre içinde sizinle iletişime geçecek.",
-      defaultCategories: [
-        "Toplantılardaki dil engellerini ortadan kaldırın",
-        "Toplantıları aranabilir ve eyleme dönüştürülebilir hale getirin",
-        "Uyumluluk ve veri yerleşimi sağlayın (AB / ABD / Asya)",
-        "Sadece keşfediyorum / Diğer",
-      ],
+      defaultCategories: [],
 
       defaultButtonText: "Bize mesaj gönderin",
       // defaultButtonText: "Ücretsiz danışmanlık alın",
@@ -150,7 +145,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "ŞİRKET",
       collapsed: false,
       items: [
-        { text: "Hakkında", link: "/company/about" },
+        { text: "Hakkımızda", link: "/company/about" },
         { text: "Ekip", link: "/company/team" },
         { text: "Kariyer", link: "/company/careers" },
         { text: "İletişim", link: "/company/contacts" },

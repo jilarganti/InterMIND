@@ -1,8 +1,8 @@
 ---
-description: "¿Tienes preguntas sobre interpretación de reuniones con IA, comunicación multilingüe o implementación empresarial? Estamos aquí para ayudarte — rápido, humano y sin confusiones."
+description: "¿Tienes preguntas sobre interpretación de reuniones con IA, comunicación multilingüe o incorporación empresarial? Estamos aquí para ayudarte — rápido, humano y sin confusiones."
 ---
 
-# 💬 ¿Necesitas asistencia? Sin demoras, sin confusiones — solo respuestas.
+# 💬 ¿Necesitas asistencia? Sin retrasos, sin confusiones — solo respuestas.
 
 Cuéntanos qué estás tratando de lograr — y te ayudaremos a avanzar.  
 Rápido, enfocado, y con una persona real del otro lado.
@@ -11,16 +11,21 @@ Rápido, enfocado, y con una persona real del otro lado.
 
 <ContactForm   
   formStyle="margin: 1rem auto;"  
-  categoryLabel="¿Qué te trae a InterMind hoy?"  
+  categoryLabel="¿Qué te trae a InterMind hoy? *"  
   categoryPlaceholderText="Elige tu razón principal…"  
-  messageLabel="Cuéntanos más (opcional)"  
+  messageLabel="Cuéntanos más *"  
   messagePlaceholderText="Cualquier cosa que te gustaría compartir — objetivos, contexto o detalles técnicos."  
   buttonText="Obtener ayuda experta ahora"  
   :services="[
-    'Quiero probar InterMind en mi idioma', 
-    'Me gustaría una demostración',
-    'Estoy reportando un problema técnico',
-    'Algo más'
+    'Necesito ayuda para comenzar',
+    'Quiero programar una demostración',
+    'Tengo un problema técnico o error',
+    'Necesito ayuda con la integración de reuniones',
+    'Tengo preguntas sobre la calidad de traducción',
+    'Necesito asistencia con la incorporación del equipo',
+    'Tengo preguntas sobre facturación o suscripción',
+    'Quiero explorar las funciones empresariales',
+    'Pregunta general o comentario'
   ]" />
 
 <br>

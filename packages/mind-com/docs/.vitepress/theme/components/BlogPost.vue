@@ -1,5 +1,8 @@
 <script setup>
+import { useData } from "vitepress"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
+
+const { site } = useData()
 </script>
 
 <template>

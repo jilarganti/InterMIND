@@ -70,7 +70,7 @@ export const pt = defineConfig({
       namePlaceholder: "seu nome",
       email: "E-mail *",
       emailPlaceholder: "seu endereço de e-mail",
-      webSite: "Site da empresa *",
+      webSite: "Site da empresa",
       webSitePlaceholder: "ex. https://nomedaempresa.com",
       webSiteError: "Por favor, insira o site",
       category: "Qual é seu objetivo principal? *",
@@ -81,12 +81,7 @@ export const pt = defineConfig({
       sending: "Enviando...",
       successTitle: "Obrigado!",
       successMessage: "Recebemos sua mensagem — nossa equipe entrará em contato em breve.",
-      defaultCategories: [
-        "Eliminar barreiras linguísticas em reuniões",
-        "Tornar reuniões pesquisáveis e acionáveis",
-        "Garantir conformidade e residência de dados (UE / EUA / Ásia)",
-        "Apenas explorando / Outro",
-      ],
+      defaultCategories: [],
 
       defaultButtonText: "Envie-nos uma mensagem",
       // defaultButtonText: "Obtenha uma consulta gratuita",
@@ -102,7 +97,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "O que é InterMIND?", link: "overview/what-is-intermind" },
         { text: "Como funciona", link: "overview/how-it-works" },
-        { text: "Plataforma de videochamadas", link: "overview/video-meeting-platform" },
+        { text: "Plataforma de videoconferência", link: "overview/video-meeting-platform" },
         { text: "Privacidade de dados regional", link: "overview/privacy-architecture" },
         { text: "Mercados prioritários", link: "overview/markets" },
       ],

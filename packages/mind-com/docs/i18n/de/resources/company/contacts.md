@@ -13,18 +13,20 @@ Wir sorgen dafür, dass Ihre Nachricht die richtige Person erreicht.
 
 <ContactForm
   formStyle="margin: 1rem auto;"  
-  categoryLabel="Was ist Ihr Grund für die Kontaktaufnahme?"  
+  categoryLabel="Was ist Ihr Grund für die Kontaktaufnahme? *"  
   categoryPlaceholderText="Wählen Sie Ihr Thema..."  
-  messageLabel="Nachricht (optional)"  
+  messageLabel="Nachricht *"  
   messagePlaceholderText="Teilen Sie relevante Hintergrundinformationen, Zeitpläne oder Kontext mit, den wir berücksichtigen sollen."  
   buttonText="Nachricht senden"  
   :services="[
-    'Ich möchte eine Partnerschaft erkunden',
-    'Ich bin an einer Investition interessiert',
-    'Ich habe eine Medien- oder PR-Anfrage',
-    'Ich habe eine rechtliche oder Compliance-Angelegenheit',
-    'Ich möchte Missbrauch oder Fehlverhalten melden',
-    'Etwas anderes'
+    'Strategische Partnerschaftsmöglichkeit',
+    'Investment- oder Finanzierungsgespräch',
+    'Anfrage zu Unternehmenslösungen',
+    'Medien- & Presseanfrage',
+    'Rechtliche oder Compliance-Angelegenheit',
+    'Sicherheitsbedenken oder Meldung',
+    'Geschäftsentwicklungsvorschlag',
+    'Allgemeine Geschäftsanfrage'
   ]"
 />
 

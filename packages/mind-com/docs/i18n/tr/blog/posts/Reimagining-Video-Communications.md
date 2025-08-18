@@ -8,9 +8,12 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # InterMIND'ın Teknik Devrimi: Video İletişimini Yapay Zeka ile Yeniden Tasarlamak
 
-Küresel ekipler dil engellerinden dolayı anlaşmaları kaybettiğinde ve uluslararası müzakereler yanlış anlaşılmaların maratonu haline geldiğinde, teknoloji endüstrisi nihayet layık olduğu bir cevap aldı. **InterMIND, video iletişiminde mimari bir atılım sunuyor**, son teknoloji WebRTC çözümlerini bağlam farkında yapay zeka ile birleştirerek ilk gerçekten doğal gerçek zamanlı çeviri platformunu yaratıyor. Yaklaşımları büyük teknoloji devlerinin yüzeysel çözümlerinden köklü şekilde farklılaşarak, küresel ölçek ve mikrosaniye gecikme süresi için sıfırdan inşa edilmiş bir kurumsal çözüm sunuyor.
+<img src="/blog/iStock-1448152453.jpg" alt="BAE dirhemi" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/iStock-1448152453.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-InterMIND'ın teknoloji yığınının analizi **üç temel mimari yeniliği** ortaya çıkarıyor: optimize edilmiş SFU sunucusu ile yerel WebRTC uygulaması, gecikme süresini minimize etmek için hibrit kenar-bulut mimarisi ve tonlama ve niyeti koruyarak bağlam farkında çeviri sağlayan devrimci LLM motor entegrasyonu. Pahalı eklentiler gerektiren Microsoft Teams'ten veya mobil cihazlarla sınırlı Google Translate'ten farklı olarak, InterMIND **saniyenin altında gecikme süresiyle 100+ dili eşzamanlı işleyebilen birleşik bir platform** yarattı. Bu, geleneksel konuşma işleme hattını temelden yeniden tasarlayan yenilikçi mimari aracılığıyla başarılıyor.
+Küresel ekipler dil engellerinden dolayı anlaşmaları kaybettiğinde ve uluslararası müzakereler yanlış anlaşılmaların maratonu haline geldiğinde, teknoloji endüstrisi nihayet layık bir cevap aldı. **InterMIND, video iletişiminde mimari bir atılım sunuyor**, son teknoloji WebRTC çözümlerini bağlam farkında yapay zeka ile birleştirerek ilk gerçekten doğal gerçek zamanlı çeviri platformunu yaratıyor. Onların yaklaşımı büyük teknoloji devlerinin yüzeysel çözümlerinden radikal şekilde farklılaşıyor ve küresel ölçek ve mikrosaniye gecikme süresi için sıfırdan inşa edilmiş bir kurumsal çözüm sunuyor.
+
+InterMIND'ın teknoloji yığınının analizi **üç temel mimari yeniliği** ortaya çıkarıyor: optimize edilmiş SFU sunucusu ile yerel WebRTC uygulaması, gecikme süresini minimize etmek için hibrit kenar-bulut mimarisi ve tonlama ve niyeti korurken bağlam farkında çeviri sağlayan devrimci LLM motor entegrasyonu. Pahalı eklentiler gerektiren Microsoft Teams\'ten veya mobil cihazlarla sınırlı Google Translate\'ten farklı olarak, InterMIND **saniyenin altında gecikme süresiyle 100+ dili eşzamanlı işleyebilen birleşik bir platform** yarattı. Bu, geleneksel konuşma işleme hattını temelden yeniden tasarlayan yenilikçi mimari aracılığıyla başarılıyor.
 
 ## WebRTC Platform Mimari Üstünlüğü
 

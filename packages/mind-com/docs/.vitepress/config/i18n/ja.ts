@@ -5,13 +5,13 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
-  description: "InterMINDはビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームが開発。",
+  description: "InterMINDは、ビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームが開発。",
   head: [
     [
       "meta",
       {
         name: "description",
-        content: "InterMINDはビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームが開発。",
+        content: "InterMINDは、ビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームが開発。",
       },
     ],
     ["meta", { property: "og:title", content: "InterMIND | グローバルチーム向けリアルタイム音声翻訳" }],
@@ -20,7 +20,7 @@ export const ja = defineConfig({
       {
         property: "og:description",
         content:
-          "InterMINDはビデオ通話で瞬時の音声翻訳を提供 — 障壁のない明確で多言語コミュニケーション。mind.comチームが開発。",
+          "InterMINDは、ビデオ通話で瞬時の音声翻訳を提供 — 障壁のない明確で多言語コミュニケーション。mind.comチームが開発。",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -70,7 +70,7 @@ export const ja = defineConfig({
       namePlaceholder: "お名前",
       email: "メールアドレス *",
       emailPlaceholder: "メールアドレス",
-      webSite: "会社のウェブサイト *",
+      webSite: "会社のウェブサイト",
       webSitePlaceholder: "例：https://companyname.com",
       webSiteError: "ウェブサイトを入力してください",
       category: "主な目標は何ですか？ *",
@@ -81,12 +81,7 @@ export const ja = defineConfig({
       sending: "送信中...",
       successTitle: "ありがとうございます！",
       successMessage: "メッセージを受信いたしました — チームより間もなくご連絡いたします。",
-      defaultCategories: [
-        "会議での言語の壁を取り除く",
-        "会議を検索可能で実行可能にする",
-        "コンプライアンスとデータ居住性の確保（EU / US / アジア）",
-        "探索中 / その他",
-      ],
+      defaultCategories: [],
 
       defaultButtonText: "メッセージを送る",
       // defaultButtonText: "無料相談を受ける",
