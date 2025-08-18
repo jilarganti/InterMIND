@@ -12,4 +12,4 @@ description: "iMind'dan InterMIND'a: gerçek zamanlı AI destekli çeviri ile se
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

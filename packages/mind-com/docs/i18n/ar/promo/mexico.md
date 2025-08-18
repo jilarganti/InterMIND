@@ -2,7 +2,6 @@
 layout: home
 title: "وسع أعمالك إلى الولايات المتحدة وكندا — InterMIND Mexico"
 description: "تحدث بالإسبانية، يسمعون الإنجليزية. ترجمة فورية للشركات المكسيكية للتواصل مع الشركاء في أمريكا الشمالية."
-
 ---
 
 <HeroSection
@@ -13,4 +12,4 @@ description: "تحدث بالإسبانية، يسمعون الإنجليزية.
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

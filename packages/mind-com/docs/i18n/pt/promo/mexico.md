@@ -12,4 +12,4 @@ description: "Fale português, eles ouvem inglês. Tradução em tempo real para
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

@@ -12,4 +12,4 @@ description: "De iMind à InterMIND : appels vidéo axés sur la voix avec inter
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

@@ -2,7 +2,6 @@
 layout: home
 title: "اجتماعات الفيديو المُعاد تصورها — الآن على mind.com"
 description: "من iMind إلى InterMIND: مكالمات فيديو تعتمد على الصوت مع ترجمة فورية مدعومة بالذكاء الاصطناعي."
-
 ---
 
 <HeroSection
@@ -13,4 +12,4 @@ description: "من iMind إلى InterMIND: مكالمات فيديو تعتمد 
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

@@ -12,4 +12,4 @@ description: "스페인어로 말하면 영어로 들립니다. 북미 파트너
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

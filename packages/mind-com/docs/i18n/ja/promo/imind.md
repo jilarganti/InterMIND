@@ -12,4 +12,4 @@ description: "iMindからInterMINDへ：リアルタイムAI通訳機能付き�
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

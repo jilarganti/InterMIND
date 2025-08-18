@@ -12,4 +12,4 @@ description: "从 iMind 到 InterMIND：语音优先的视频通话，配备实�
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

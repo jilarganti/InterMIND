@@ -12,4 +12,4 @@ description: "İspanyolca konuşun, onlar İngilizce duysun. Kuzey Amerika ortak
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

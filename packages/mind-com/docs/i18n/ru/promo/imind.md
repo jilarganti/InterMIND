@@ -2,7 +2,6 @@
 layout: home
 title: "Видеовстречи переосмыслены — теперь на mind.com"
 description: "От iMind к InterMIND: голосовые видеозвонки с интерпретацией на основе ИИ в реальном времени."
-
 ---
 
 <HeroSection
@@ -13,4 +12,4 @@ description: "От iMind к InterMIND: голосовые видеозвонки
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

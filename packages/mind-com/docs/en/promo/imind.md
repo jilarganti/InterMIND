@@ -12,4 +12,4 @@ description: "From iMind to InterMIND: voice-first video calls with real-time AI
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

@@ -2,7 +2,6 @@
 layout: home
 title: "Développez votre entreprise aux États-Unis et au Canada — InterMIND Mexico"
 description: "Parlez espagnol, ils entendent anglais. Traduction en temps réel pour les entreprises mexicaines qui se connectent avec des partenaires nord-américains."
-
 ---
 
 <HeroSection
@@ -13,4 +12,4 @@ description: "Parlez espagnol, ils entendent anglais. Traduction en temps réel 
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

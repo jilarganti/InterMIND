@@ -12,4 +12,4 @@ description: "Speak Spanish, they hear English. Real-time translation for Mexica
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

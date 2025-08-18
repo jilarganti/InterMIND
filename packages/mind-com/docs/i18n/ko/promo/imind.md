@@ -12,4 +12,4 @@ description: "iMind에서 InterMIND로: 실시간 AI 기반 통역이 지원되�
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

@@ -12,4 +12,4 @@ description: "说西班牙语，他们听到英语。为墨西哥企业与北美
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

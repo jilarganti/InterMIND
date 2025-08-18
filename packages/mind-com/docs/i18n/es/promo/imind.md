@@ -12,4 +12,4 @@ description: "De iMind a InterMIND: videollamadas con voz como prioridad e inter
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

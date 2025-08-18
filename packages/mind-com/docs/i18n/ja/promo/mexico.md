@@ -12,4 +12,4 @@ description: "スペイン語で話し、英語で伝わる。メキシコ企業
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />

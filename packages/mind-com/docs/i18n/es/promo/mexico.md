@@ -12,4 +12,4 @@ description: "Habla en español, ellos escuchan en inglés. Traducción en tiemp
 </HeroSection>
 
 <br>
-<VideoPlayer src="/demo-en-mx.mp4" />
+<VideoPlayer src="/promo/demo-en-mx.mp4" />
