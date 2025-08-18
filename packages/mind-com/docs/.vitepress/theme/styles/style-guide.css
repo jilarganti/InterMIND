@@ -336,6 +336,11 @@ body {
   animation: none;
 }
 
+/* Стили для блока с кодом */
+code {
+  color: var(--vp-hl-color) !important;
+}
+
 @keyframes shrinkText {
   to {
     font-size: 4rem;
