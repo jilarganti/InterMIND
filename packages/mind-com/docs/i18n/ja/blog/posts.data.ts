@@ -36,14 +36,30 @@ export default createContentLoader(getPostsPath(), {
   includeSrc: true,
   transform(raw): Post[] {
     return raw
-      .map(({ url, frontmatter, excerpt, src }) => ({
-        title: frontmatter.title,
-        url, // Убираем withBase - VitePress автоматически обработает базовый путь
-        excerpt,
-        description: src.match(/#[^\n]*\n(.*?)(?=\n##|$)/s)?.[1],
-        author: frontmatter.author,
-        date: formatDate(frontmatter.date),
-      }))
+      .map(({ url, frontmatter, excerpt, src }) => {
+        // Применяем правила rewrite для корректных URL
+        let transformedUrl = url
+
+        // Для файлов в en/ убираем префикс /en
+        if (transformedUrl.startsWith("/en/")) {
+          transformedUrl = transformedUrl.replace("/en/", "/")
+        }
+
+        // Для файлов в i18n/{locale}/ заменяем на /{locale}/
+        const i18nMatch = transformedUrl.match(/^\/i18n\/([a-z]{2})\/(.*)$/)
+        if (i18nMatch) {
+          transformedUrl = `/${i18nMatch[1]}/${i18nMatch[2]}`
+        }
+
+        return {
+          title: frontmatter.title,
+          url: transformedUrl,
+          excerpt,
+          description: src.match(/#[^\n]*\n(.*?)(?=\n##|$)/s)?.[1],
+          author: frontmatter.author,
+          date: formatDate(frontmatter.date),
+        }
+      })
       .sort((a, b) => b.date.time - a.date.time)
   },
 })
