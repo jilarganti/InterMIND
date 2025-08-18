@@ -256,57 +256,6 @@ h1.name {
   }
 }
 
-/* Базовые стили для контейнера кнопок */
-/* .auth-buttons-container {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-} */
-
-/* Стили для отображения в навбаре */
-/* .VPNavBar .auth-buttons-container {
-  margin-left: 16px;
-} */
-
-/* Стили для выпадающего меню на мобильных */
-/* .VPNavScreen .auth-buttons-container.mobile-buttons {
-  flex-direction: column;
-  gap: 8px;
-  margin-top: 20px;
-  padding: 0 24px;
-  width: 100%;
-} */
-
-/* Кнопки на всю ширину в мобильном меню */
-/* .VPNavScreen .auth-buttons-container.mobile-buttons button {
-  width: 100%;
-  justify-content: center;
-} */
-
-/* Контейнер для кнопок в футере документа */
-/* .VPDocFooter .auth-buttons-container {
-  display: flex;
-  justify-content: center; 
-  gap: 16px;
-  margin-bottom: 30px; 
-  width: 100%; 
-  margin-top: 20px;
-} */
-
-/* Альтернативный вариант для футера, если первый не сработает */
-/* div[class^="VPDocFooter"] .auth-buttons-container {
-  position: absolute;
-  right: 0;
-  top: 0;
-} */
-
-/* Скрытие десктопных кнопок на мобильных устройствах */
-/* @media (max-width: 768px) {
-  .VPNavBar .auth-buttons-container {
-    display: none;
-  }
-} */
-
 /* Стили для GitHub-style callouts (custom blocks) */
 .vp-doc .custom-block {
   border: none;
