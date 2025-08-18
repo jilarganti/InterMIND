@@ -2,7 +2,7 @@
 
 ## A barreira do idioma termina aqui
 
-InterMIND é a primeira plataforma de videoconferência do mundo que torna o aprendizado de idiomas obsoleto. Nossa tecnologia de **interpretação**[^1] simultânea quebra instantaneamente as barreiras linguísticas, permitindo que todos falem seu idioma nativo enquanto compreendem os outros perfeitamente. Assim como as calculadoras eliminaram a necessidade de aritmética mental, InterMIND elimina a necessidade de passar anos dominando idiomas estrangeiros para comunicação prática.
+InterMIND é a primeira plataforma de videoconferência do mundo que torna o aprendizado de idiomas obsoleto. Nossa tecnologia de **interpretação**[^1] simultânea quebra instantaneamente as barreiras linguísticas, permitindo que todos falem seu idioma nativo enquanto entendem os outros perfeitamente. Assim como as calculadoras eliminaram a necessidade de aritmética mental, InterMIND elimina a necessidade de passar anos dominando idiomas estrangeiros para comunicação prática.
 
 Enquanto abordagens tradicionais forçam você a investir milhares de horas aprendendo idiomas ou pagando intérpretes caros, InterMIND oferece comunicação imediata e perfeita entre qualquer par de idiomas com precisão quase humana e latência mínima. Permite que os participantes falem seu idioma nativo enquanto instantaneamente ouvem os outros no seu — preservando nuances, intenção e fluxo natural da fala. O resultado? Economia dramática de tempo, redução de custos e oportunidades de colaboração global sem precedentes.
 
@@ -20,11 +20,11 @@ Ao longo da história, os humanos têm consistentemente adotado tecnologias que 
 - Abandonamos os cálculos manuais quando as calculadoras se tornaram onipresentes
 - Não memorizamos mais direções desde que os sistemas de navegação GPS surgiram
 
-O aprendizado de idiomas representa uma das últimas alocações ineficientes do potencial cognitivo humano. A pessoa média gasta 600–1000 horas para alcançar proficiência básica em um novo idioma, com a fluência exigindo mais de 2000 horas de estudo dedicado. Essas são horas que poderiam ser investidas no desenvolvimento de expertise especializada em sua área real de atuação.
+O aprendizado de idiomas representa uma das últimas alocações ineficientes do potencial cognitivo humano. A pessoa média gasta 600–1000 horas para alcançar proficiência básica em um novo idioma, com a fluência exigindo mais de 2000 horas de estudo dedicado. Essas são horas que poderiam ser investidas no desenvolvimento de expertise especializada na sua área de atuação.
 
-> [!note] ✅ Seu tempo é melhor gasto dominando seu ofício — não memorizando gramática.
+> [!note] 💡 Seu tempo é melhor aproveitado dominando seu ofício — não memorizando gramática.
 
-> [!warning] 🛑 Ou você fala todos os idiomas — ou outra pessoa fecha seus negócios.
+> [!note] 💡 Parcerias reais começam com conversas reais — no idioma deles.
 
 ## A Filosofia InterMIND
 

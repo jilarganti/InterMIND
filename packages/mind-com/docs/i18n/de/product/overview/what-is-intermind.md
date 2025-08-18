@@ -2,9 +2,9 @@
 
 ## Die Sprachbarriere endet hier
 
-InterMIND ist die weltweit erste Videokonferenz-Plattform, die das Sprachenlernen überflüssig macht. Unsere simultane **Dolmetsch**[^1]-Technologie durchbricht Sprachbarrieren sofort und ermöglicht es jedem, in seiner Muttersprache zu sprechen, während er andere perfekt versteht. Genau wie Taschenrechner die Notwendigkeit des Kopfrechnens eliminierten, eliminiert InterMIND die Notwendigkeit, Jahre damit zu verbringen, Fremdsprachen für die praktische Kommunikation zu meistern.
+InterMIND ist die weltweit erste Videokonferenz-Plattform, die das Erlernen von Sprachen überflüssig macht. Unsere simultane **Dolmetsch**[^1]-Technologie durchbricht Sprachbarrieren sofort und ermöglicht es jedem, in seiner Muttersprache zu sprechen, während er andere perfekt versteht. Genau wie Taschenrechner die Notwendigkeit des Kopfrechnens eliminierten, eliminiert InterMIND die Notwendigkeit, Jahre damit zu verbringen, Fremdsprachen für die praktische Kommunikation zu meistern.
 
-Während traditionelle Ansätze Sie dazu zwingen, Tausende von Stunden in das Erlernen von Sprachen zu investieren oder teure Dolmetscher zu bezahlen, liefert InterMIND sofortige, nahtlose Kommunikation zwischen beliebigen Sprachpaaren mit nahezu menschlicher Genauigkeit und minimaler Latenz. Es ermöglicht den Teilnehmern, in ihrer Muttersprache zu sprechen, während sie andere sofort in ihrer eigenen hören — unter Beibehaltung von Nuancen, Absicht und natürlichem Sprachfluss. Das Ergebnis? Dramatische Zeitersparnis, Kostenreduzierung und beispiellose Möglichkeiten für globale Zusammenarbeit.
+Während traditionelle Ansätze Sie dazu zwingen, Tausende von Stunden in das Erlernen von Sprachen zu investieren oder teure Dolmetscher zu bezahlen, liefert InterMIND sofortige, nahtlose Kommunikation zwischen beliebigen Sprachpaaren mit nahezu menschlicher Genauigkeit und minimaler Latenz. Es ermöglicht Teilnehmern, in ihrer Muttersprache zu sprechen, während sie andere sofort in ihrer eigenen hören — unter Beibehaltung von Nuancen, Absicht und natürlichem Sprachfluss. Das Ergebnis? Dramatische Zeitersparnis, Kostenreduzierung und beispiellose Möglichkeiten für globale Zusammenarbeit.
 
 Im Gegensatz zu herkömmlichen Übersetzungstools konvertiert InterMIND nicht nur Wörter — es interpretiert Bedeutung, passt den Ton an und ermöglicht nahtlosen mehrsprachigen Dialog, als ob die Sprachbarriere nicht existierte.
 
@@ -20,11 +20,11 @@ Im Laufe der Geschichte haben Menschen konsequent Technologien übernommen, die 
 - Wir haben manuelle Berechnungen aufgegeben, als Taschenrechner allgegenwärtig wurden
 - Wir merken uns keine Wegbeschreibungen mehr, seit GPS-Navigationssysteme entstanden sind
 
-Das Erlernen von Sprachen stellt eine der letzten ineffizienten Zuweisungen menschlichen kognitiven Potentials dar. Die durchschnittliche Person verbringt 600–1000 Stunden, um grundlegende Kenntnisse in einer neuen Sprache zu erreichen, wobei fließende Sprachkenntnisse 2000+ Stunden intensiven Studiums erfordern. Das sind Stunden, die in die Entwicklung spezialisierter Expertise in Ihrem tatsächlichen Fachgebiet investiert werden könnten.
+Das Erlernen von Sprachen stellt eine der letzten ineffizienten Zuweisungen menschlichen kognitiven Potentials dar. Der Durchschnittsmensch verbringt 600–1000 Stunden, um grundlegende Kenntnisse in einer neuen Sprache zu erreichen, wobei fließende Sprachbeherrschung 2000+ Stunden intensiven Studiums erfordert. Das sind Stunden, die in die Entwicklung spezialisierter Expertise in Ihrem tatsächlichen Fachgebiet investiert werden könnten.
 
-> [!note] ✅ Ihre Zeit ist besser damit verbracht, Ihr Handwerk zu meistern — nicht Grammatik auswendig zu lernen.
+> [!note] 💡 Ihre Zeit ist besser damit verbracht, Ihr Handwerk zu meistern — nicht Grammatik auswendig zu lernen.
 
-> [!warning] 🛑 Entweder Sie sprechen jede Sprache — oder jemand anderes schließt Ihre Geschäfte ab.
+> [!note] 💡 Echte Partnerschaften beginnen mit echten Gesprächen — in ihrer Sprache.
 
 ## Die InterMIND-Philosophie
 
@@ -33,6 +33,6 @@ InterMIND ist nicht nur ein Videokonferenz-Tool mit Übersetzungsfunktionen — 
 1. Technologie sich an Menschen anpassen sollte, nicht Menschen an Technologie
 2. Wahre Kommunikation bedeutet Verstehen — nicht nur Worte austauschen
 
-Mit InterMIND haben wir ein System geschaffen, in dem die Sprachbarriere sofort verschwindet. Unsere Plattform übersetzt nicht nur — sie interpretiert Nuancen, Kontext und Bedeutung sprachübergreifend in Echtzeit und liefert eine Erfahrung, die auf natürlichem Weg jahrzehntelanges Sprachstudium erfordern würde.
+Mit InterMIND haben wir ein System geschaffen, in dem Sprachbarrieren sofort verschwinden. Unsere Plattform übersetzt nicht nur — sie interpretiert Nuancen, Kontext und Bedeutung sprachübergreifend in Echtzeit und liefert eine Erfahrung, die natürlich jahrzehntelanges Sprachstudium erfordern würde.
 
-> Es geht hier nicht nur ums Verstehen — es geht darum, Zusammenarbeit, Vertrauen und Entscheidungsfindung in einem globalen Kontext zu beschleunigen.
+> Es geht nicht nur ums Verstehen — es geht darum, Zusammenarbeit, Vertrauen und Entscheidungsfindung in einem globalen Kontext zu beschleunigen.
