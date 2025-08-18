@@ -64,6 +64,7 @@ export const en = defineConfig({
       buttonLabel4SignInButton: "Sign in",
       buttonLabel4GetStartedButton: "Get started",
       buttonLabel4TryItButton: "Try for free",
+      buttonLabel4BackToBlog: "← Back to the blog",
     },
     contact_form: {
       name: "Name *",

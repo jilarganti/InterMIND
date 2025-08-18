@@ -13,6 +13,7 @@ declare module "vitepress" {
         buttonLabel4SignInButton: string
         buttonLabel4GetStartedButton: string
         buttonLabel4TryItButton: string
+        buttonLabel4BackToBlog?: string
       }
 
       contact_form?: {

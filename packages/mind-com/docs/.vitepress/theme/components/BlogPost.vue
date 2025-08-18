@@ -1,7 +1,6 @@
 <script setup>
 import { useData } from "vitepress"
 import VPButton from "vitepress/dist/client/theme-default/components/VPButton.vue"
-
 const { site } = useData()
 </script>
 
@@ -10,6 +9,11 @@ const { site } = useData()
     <div class="vp-doc">
       <Content />
     </div>
-    <VPButton text="← Back to the blog" theme="brand" href="../" class="fixed left-4 bottom-4 z-50 shadow-md hover:shadow-lg transition-shadow" />
+    <VPButton
+      :text="site.themeConfig.localization.buttonLabel4BackToBlog"
+      theme="brand"
+      href="../"
+      class="fixed left-4 bottom-4 z-50 shadow-md hover:shadow-lg transition-shadow"
+    />
   </article>
 </template>
