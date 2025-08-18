@@ -256,48 +256,6 @@ h1.name {
   }
 }
 
-/* Стили для блока с кодом */
-code {
-  color: var(--vp-hl-color) !important;
-  font-size: 1.02em !important;
-}
-
-/* Стилизация :::details */
-.vp-doc details p {
-  font-size: 16px;
-}
-
-.vp-doc details[open] > :not(summary) {
-  margin-top: 1.5em;
-}
-
-/* Скрываем заголовки */
-.vp-doc .details > :is(h2, h3):first-of-type {
-  display: none;
-}
-
-/* Размеры для summary */
-.vp-doc details:has(> h2) summary {
-  font-size: 1.2em;
-}
-
-.vp-doc details:has(> h3) summary {
-  font-size: 1em;
-}
-
-/* Стилизация символов раскрытия details */
-.vp-doc details > summary::marker {
-  content: "＋ ";
-  /* Fullwidth Plus Sign (U+FF0B)  */
-  color: var(--vp-hl-color);
-}
-
-.vp-doc details[open] > summary::marker {
-  content: "－ ";
-  /* Fullwidth Hyphen-Minus (U+FF0D) */
-  color: var(--vp-hl-color);
-}
-
 /* Базовые стили для контейнера кнопок */
 /* .auth-buttons-container {
   display: flex;
