@@ -152,15 +152,7 @@ const closeModal = () => {
 
             <div>
               <label for="webSite">{{ webSiteLabelValue }}</label>
-              <input
-                name="webSite"
-                type="url"
-                v-model="formData.webSite"
-                :placeholder="webSitePlaceholderValue"
-                required
-                pattern="https?://.+"
-                maxlength="100"
-              />
+              <input name="webSite" type="url" v-model="formData.webSite" :placeholder="webSitePlaceholderValue" pattern="https?://.+" maxlength="100" />
             </div>
 
             <div>
@@ -175,7 +167,7 @@ const closeModal = () => {
 
             <div>
               <label for="message">{{ messageLabelValue }}</label>
-              <textarea name="message" v-model="formData.message" :placeholder="messagePlaceholderValue"></textarea>
+              <textarea name="message" v-model="formData.message" :placeholder="messagePlaceholderValue" required></textarea>
             </div>
 
             <p v-if="formErrorMessage" class="error">

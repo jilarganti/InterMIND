@@ -11,16 +11,21 @@ Fast, focused, and with a real human on the other end.
 
 <ContactForm   
   formStyle="margin: 1rem auto;"  
-  categoryLabel="What brings you to InterMind today?"  
+  categoryLabel="What brings you to InterMind today? *"  
   categoryPlaceholderText="Choose your main reason…"  
-  messageLabel="Tell us more (optional)"  
+  messageLabel="Tell us more *"  
   messagePlaceholderText="Anything you'd like to share — goals, context, or technical details."  
   buttonText="Get expert help now"  
   :services="[
-    'I want to try InterMind in my language', 
-    'I’d like a demo',
-    'I’m reporting a technical issue',
-    'Something else'
+    'I need help getting started',
+    'I want to schedule a demo',
+    'I have a technical issue or bug',
+    'I need help with meeting integration',
+    'I have questions about translation quality',
+    'I need assistance with team onboarding',
+    'I have billing or subscription questions',
+    'I want to explore enterprise features',
+    'General question or feedback'
   ]" />
 
 <br>

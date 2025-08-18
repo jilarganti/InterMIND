@@ -111,17 +111,17 @@ Show us what you've done. Tell us what you want to build next.
   messageLabel="Show us your work *"  
   messagePlaceholderText="Share links to your projects, GitHub, portfolio, or describe the impact you've made. What problem are you excited to solve next?"  
   buttonText="Send your application"
-  webSiteLabel="Git / Blog / Site / ... *"
+  webSiteLabel="Git / Blog / Site / ..."
   webSitePlaceholderText="e.g. github.com/yourname"
   :services="[
+    'Leader who builds the future',
+    'Marketer who creates demand',
     'Engineer who builds the impossible',
     'Researcher who advances the science',
+    'Seller who drives growth',
     'Designer who solves human problems', 
-    'Marketer who creates demand',
-    'Leader who builds the future',
-    'Sales & Business Development',
-    'Operations & Finance',
-    'Something else'
+    'Operator who optimizes systems',
+    'Specialist who thinks differently'
   ]"
 />
 

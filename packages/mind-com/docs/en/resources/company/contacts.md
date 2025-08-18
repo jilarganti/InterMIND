@@ -13,18 +13,20 @@ We’ll make sure your message reaches the right person.
 
 <ContactForm
   formStyle="margin: 1rem auto;"  
-  categoryLabel="What is your reason for contacting us?"  
+  categoryLabel="What is your reason for contacting us? *"  
   categoryPlaceholderText="Choose your topic..."  
-  messageLabel="Message (optional)"  
+  messageLabel="Message *"  
   messagePlaceholderText="Share any relevant background, timelines, or context you'd like us to consider."  
   buttonText="Send your message"  
   :services="[
-    'I want to explore a partnership',
-    'I’m interested in investing',
-    'I have a media or PR inquiry',
-    'I have a legal or compliance matter',
-    'I want to report abuse or misconduct',
-    'Something else'
+    'Strategic partnership opportunity',
+    'Investment or funding discussion',
+    'Enterprise solution inquiry',
+    'Media & press request',
+    'Legal or compliance matter',
+    'Security concern or report',
+    'Business development proposal',
+    'General business inquiry'
   ]"
 />
 
