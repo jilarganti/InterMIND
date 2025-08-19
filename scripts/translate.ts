@@ -2,30 +2,24 @@
  * Automated translation script for project documentation and files
  *
  * Description:
- * - Translates Markdown, Vue, TypeScript and JavaScript files intoasync function trasync function translateWithClaude(content: string, targetLang: string, langCode: string, modelIndex: number = 0) {
-  const message = await anthropic.messages.create({
-    model: getModelName('claude', modelIndex),
-    max_tokens: 4096,
-    temperature: 0,
-    messages: [{ role: "user", content: getPromptForTranslation(content, targetLang) }],
-  })WithOpenAI(content: string, targetLang: string, langCode: string, modelIndex: number = 0) {
-  const completion = await openai.chat.completions.create({
-    model: getModelName('gpt4', modelIndex),
-    temperature: 0,
-    messages: [{ role: "user", content: getPromptForTranslation(content, targetLang) }],
-  })ple languages
+ * - Translates Markdown, Vue, TypeScript and JavaScript files into multiple languages
  * - Uses AI models (OpenAI GPT-4 and Anthropic Claude) for high-quality translations
  * - Automatically switches between models on errors
  * - Synchronizes file structure between originals and translations
- * - Translates only modified files (incremental translation)
+ * - Translates only modified files (incremental translation) by default
  * - Optionally validates translated files for compilation errors
  * - Automatically retranslates problematic files with alternative models when errors are detected
+ * - Supports translation to a specific locale with --locale parameter
+ * - Supports unconditional translation of all files with --all parameter
  *
  * Usage:
- * tsx translate.ts <config-path>
+ * tsx translate.ts <config-path> [--locale <locale-code>] [--all]
  *
- * Example:
+ * Examples:
  * tsx ../../scripts/translate.ts ./scripts/translateConfig.ts
+ * tsx ../../scripts/translate.ts ./scripts/translateConfig.ts --locale ru
+ * tsx ../../scripts/translate.ts ./scripts/translateConfig.ts --all
+ * tsx ../../scripts/translate.ts ./scripts/translateConfig.ts --locale es --all
  *
  * Requirements:
  * - Environment variables: OPENAI_API_KEY, ANTHROPIC_API_KEY
@@ -91,13 +85,56 @@ dotenv.config({ path: [".vercel/.env.development.local", ".env.local"] })
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-// Get config path from command line arguments
-const configPath = process.argv[2]
+// Parse command line arguments
+const args = process.argv.slice(2)
+const configPath = args[0]
+
+// Parse optional parameters
+const targetLocale = args.includes("--locale") ? args[args.indexOf("--locale") + 1] : null
+const translateAll = args.includes("--all")
+
+if (!configPath) {
+  console.error("❌ Usage: tsx translate.ts <config-path> [--locale <locale-code>] [--all]")
+  process.exit(1)
+}
+
 const resolvedConfigPath = path.resolve(configPath)
 const { config } = (await import(`file://${resolvedConfigPath}`)) as { config: Config }
 
 // Define base config directory for proper path resolution
 const configDir = path.dirname(resolvedConfigPath)
+
+// Validate target locale if provided
+if (targetLocale) {
+  const availableLocales = Object.values(config.languages).map((lang) => lang.code)
+  if (!availableLocales.includes(targetLocale)) {
+    console.error(`❌ Invalid locale: ${targetLocale}`)
+    console.error(`Available locales: ${availableLocales.join(", ")}`)
+    process.exit(1)
+  }
+  console.log(`🎯 Target locale: ${targetLocale}`)
+}
+
+if (translateAll) {
+  console.log(`🔄 Mode: Translate all files unconditionally`)
+} else {
+  console.log(`⚡ Mode: Translate only modified files`)
+}
+
+/**
+ * Filters languages based on target locale parameter
+ * @returns Filtered languages object
+ */
+function getFilteredLanguages(): Record<string, Language> {
+  if (targetLocale) {
+    const targetLang = Object.entries(config.languages).find(([_, lang]) => lang.code === targetLocale)
+    if (targetLang) {
+      return { [targetLang[0]]: targetLang[1] }
+    }
+    return {}
+  }
+  return config.languages
+}
 
 /**
  * Resolves relative paths from the configuration file directory
@@ -279,6 +316,11 @@ async function getAllFiles(dir: string): Promise<string[]> {
  * @returns {Promise<boolean>}
  */
 async function needsTranslation(sourceFile, targetFile) {
+  // If --all flag is set, always translate
+  if (translateAll) {
+    return true
+  }
+
   if (!fs.existsSync(targetFile)) {
     return true
   }
@@ -321,7 +363,8 @@ async function syncFileStructure() {
   files.forEach(processOriginalPath)
 
   // Check each language
-  for (const [langCode, lang] of Object.entries(config.languages)) {
+  const filteredLanguages = getFilteredLanguages()
+  for (const [langCode, lang] of Object.entries(filteredLanguages)) {
     const langDir = path.join(rootTranslateDir, lang.code)
     if (!fs.existsSync(langDir)) continue
 
@@ -412,6 +455,8 @@ async function cleanupTranslations() {
     if (!file.endsWith(".ts")) continue
     const langCode = file.replace(".ts", "")
 
+    // Only remove configs for languages that don't exist in the main config
+    // Don't filter by current selection (targetLocale)
     if (langCode === "en" || Object.values(config.languages).some((l) => l.code === langCode)) {
       continue
     }
@@ -676,6 +721,12 @@ async function translateFiles() {
     console.log(`📁 Source directory: ${rootDir}`)
     console.log(`📁 Translation directory: ${rootTranslateDir}`)
 
+    const filteredLanguages = getFilteredLanguages()
+    const languageNames = Object.values(filteredLanguages)
+      .map((lang) => lang.name)
+      .join(", ")
+    console.log(`🌍 Target languages: ${languageNames} (${Object.keys(filteredLanguages).length} languages)`)
+
     await syncFileStructure()
     await cleanupTranslations()
 
@@ -690,7 +741,7 @@ async function translateFiles() {
     try {
       const sourceConfig = fs.readFileSync(sourceConfigPath, "utf8")
 
-      for (const [langCode, lang] of Object.entries(config.languages)) {
+      for (const [langCode, lang] of Object.entries(filteredLanguages)) {
         const targetConfigPath = path.join(configTranslateDir, `${lang.code}.ts`)
 
         const startTime = Date.now()
@@ -727,7 +778,7 @@ async function translateFiles() {
     const translatableTasks: TranslateTask[] = []
     const assetTasks: AssetTask[] = []
 
-    for (const [langCode, lang] of Object.entries(config.languages)) {
+    for (const [langCode, lang] of Object.entries(filteredLanguages)) {
       for (const file of files) {
         const relativePath = path.relative(rootDir, file)
         const targetPath = path.join(rootTranslateDir, lang.code, relativePath)
