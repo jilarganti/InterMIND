@@ -2,84 +2,84 @@
 
 ## Einführung
 
-Diese Datenschutzerklärung beschreibt, wie Golden Fish Corporate Services Provider LLC („wir", „uns" oder „unser") personenbezogene Daten erhebt, verwendet, schützt und offenlegt, wenn Sie unsere Website und Rechtsdienstleistungen nutzen. Als globaler Anbieter von Rechtsdienstleistungen sind wir verpflichtet, Ihre Privatsphäre zu schützen und die Einhaltung der weltweit geltenden Datenschutzgesetze zu gewährleisten.
+Diese Datenschutzrichtlinie beschreibt, wie Golden Fish Corporate Services Provider LLC („wir", „uns" oder „unser") personenbezogene Daten sammelt, verwendet, schützt und offenlegt, wenn Sie unsere Website und Rechtsdienstleistungen nutzen. Als globaler Anbieter von Rechtsdienstleistungen sind wir dem Schutz Ihrer Privatsphäre verpflichtet und stellen die Einhaltung der weltweit geltenden Datenschutzgesetze sicher.
 
-## Regulatorische Compliance
+## Einhaltung gesetzlicher Bestimmungen
 
 Unsere Datenschutzpraktiken entsprechen den wichtigsten globalen Datenschutzbestimmungen, einschließlich:
 
-- Datenschutz-Grundverordnung (GDPR) - Europäische Union
+- Datenschutz-Grundverordnung (DSGVO) - Europäische Union
 - California Consumer Privacy Act (CCPA) und California Privacy Rights Act (CPRA) - Vereinigte Staaten
-- Personal Information Protection Law (PIPL) - China
+- Gesetz zum Schutz personenbezogener Daten (PIPL) - China
 - Bundesgesetz Nr. 45 von 2021 zum Schutz personenbezogener Daten (PDPL) - Vereinigte Arabische Emirate
 - Health Insurance Portability and Accountability Act (HIPAA) - Vereinigte Staaten
-- Children\'s Online Privacy Protection Act (COPPA) - Vereinigte Staaten
+- Children's Online Privacy Protection Act (COPPA) - Vereinigte Staaten
 
 ## Informationen, die wir sammeln
 
-Wir können folgende Arten von Informationen erheben:
+Wir können die folgenden Arten von Informationen sammeln:
 
-- Persönliche Daten: Name, Kontaktdaten, Ausweisdokumente und andere Informationen, die zur Erbringung von Rechtsdienstleistungen erforderlich sind.
-- Servicedaten: Informationen zu rechtlichen Angelegenheiten, Falldetails und Korrespondenz.
+- Persönliche Informationen: Name, Kontaktdaten, Ausweisdokumente und andere Informationen, die zur Erbringung von Rechtsdienstleistungen erforderlich sind.
+- Servicedaten: Informationen zu Rechtsangelegenheiten, Falldetails und Korrespondenz.
 - Technische Daten: IP-Adresse, Browsertyp, Geräteinformationen, Cookies und Nutzungsdaten.
 
 ## Wie wir Ihre Informationen verwenden
 
-Wir verwenden Ihre Informationen für:
+Wir verwenden Ihre Informationen, um:
 
-- Bereitstellung und Verbesserung unserer Rechtsdienstleistungen
-- Kommunikation mit Ihnen bezüglich Ihrer rechtlichen Angelegenheiten
-- Zahlungsabwicklung und Führung von Finanzunterlagen
-- Einhaltung gesetzlicher und regulatorischer Verpflichtungen
-- Schutz unserer legitimen Geschäftsinteressen
+- Unsere Rechtsdienstleistungen bereitzustellen und zu verbessern
+- Mit Ihnen bezüglich Ihrer Rechtsangelegenheiten zu kommunizieren
+- Zahlungen zu verarbeiten und Finanzunterlagen zu führen
+- Rechtliche und regulatorische Verpflichtungen zu erfüllen
+- Unsere berechtigten Geschäftsinteressen zu schützen
 
 ## KI-Technologie und Datenverarbeitung
 
-### Einsatz von KI-Modellen
+### Verwendung von KI-Modellen
 
-Unsere Website nutzt künstliche Intelligenz (KI)-Modelle zur Verbesserung unserer Servicebereitstellung. So verarbeiten wir Ihre Daten bei der Interaktion mit unseren KI-gestützten Funktionen:
+Unsere Website nutzt Modelle der künstlichen Intelligenz (KI), um unsere Serviceleistungen zu verbessern. So verarbeiten wir Ihre Daten, wenn Sie mit unseren KI-gestützten Funktionen interagieren:
 
 #### Datenerfassung
 
-Wenn Sie mit unseren KI-Tools interagieren, erfassen wir möglicherweise Informationen, die Sie während dieser Interaktionen bereitstellen, einschließlich Anfragen, hochgeladener Dokumente und Gesprächsverlauf.
+Wenn Sie mit unseren KI-Tools interagieren, können wir Informationen sammeln, die Sie während dieser Interaktionen bereitstellen, einschließlich Anfragen, hochgeladener Dokumente und Gesprächsverläufe.
 
 #### Verarbeitungszweck
 
-Wir setzen KI für juristische Recherchen, Dokumentenprüfung, Vertragsanalyse und die Bereitstellung vorläufiger rechtlicher Informationen ein.
+Wir nutzen KI zur Unterstützung bei der Rechtsrecherche, Dokumentenprüfung, Vertragsanalyse und zur Bereitstellung vorläufiger Rechtsinformationen.
 
 #### Datenspeicherung
 
-Ihre Interaktionen mit unseren KI-Systemen werden sicher in verschlüsselter Form gespeichert. Diese Interaktionen können für einen begrenzten Zeitraum aufbewahrt werden, um unsere KI-Dienste zu verbessern und die Qualitätskontrolle zu gewährleisten.
+Ihre Interaktionen mit unseren KI-Systemen werden sicher in verschlüsseltem Format gespeichert. Diese Interaktionen können für einen begrenzten Zeitraum aufbewahrt werden, um unsere KI-Services zu verbessern und die Qualitätskontrolle sicherzustellen.
 
-#### KI-Dienstleister von Drittanbietern
+#### Externe KI-Anbieter
 
-In einigen Fällen nutzen wir möglicherweise KI-Dienstleister von Drittanbietern. In solchen Fällen stellen wir durch vertragliche Schutzmaßnahmen sicher, dass diese die entsprechenden Datenschutzstandards einhalten.
+In einigen Fällen können wir externe KI-Serviceanbieter nutzen. Wenn wir dies tun, stellen wir durch vertragliche Schutzmaßnahmen sicher, dass sie angemessene Datenschutzstandards einhalten.
 
 #### Menschliche Überprüfung
 
-Während unsere KI-Systeme autonom arbeiten, können bestimmte Interaktionen von unseren Rechtsexperten überprüft werden, um die Genauigkeit und Qualität der Dienstleistung sicherzustellen.
+Obwohl unsere KI-Systeme autonom arbeiten, können bestimmte Interaktionen von unseren Rechtsexperten überprüft werden, um Genauigkeit und Servicequalität sicherzustellen.
 
 #### KI-Training
 
-Wir verwenden möglicherweise anonymisierte und aggregierte Daten aus KI-Interaktionen, um unsere Systeme zu verbessern. Persönliche Identifikatoren werden entfernt, bevor Daten für Trainingszwecke verwendet werden.
+Wir können anonymisierte und aggregierte Daten aus KI-Interaktionen verwenden, um unsere Systeme zu verbessern. Persönliche Identifikatoren werden entfernt, bevor Daten für Trainingszwecke verwendet werden.
 
-## Datenaustausch und -übermittlung
+## Datenweitergabe und Datenübertragungen
 
-Wir können Ihre Daten mit folgenden Parteien teilen:
+Wir können Ihre Informationen weitergeben an:
 
-- Verbundene juristische Einheiten innerhalb unseres globalen Netzwerks
-- Externe Dienstleister, die unsere Geschäftstätigkeit unterstützen
-- Aufsichtsbehörden und staatliche Stellen, soweit gesetzlich erforderlich
+- Verbundene Rechtseinheiten innerhalb unseres globalen Netzwerks
+- Drittanbieter-Dienstleister, die uns bei unseren Geschäftstätigkeiten unterstützen
+- Aufsichtsbehörden und Regierungsstellen, soweit gesetzlich vorgeschrieben
 - Professionelle Berater und Consultants
 
-Bei der internationalen Datenübermittlung implementieren wir gemäß den geltenden Gesetzen angemessene Schutzmaßnahmen, einschließlich Standardvertragsklauseln, verbindlicher Unternehmensregeln und anderer rechtlich anerkannter Übermittlungsmechanismen.
+Bei der internationalen Übertragung von Daten setzen wir angemessene Schutzmaßnahmen in Übereinstimmung mit den geltenden Gesetzen um, einschließlich Standardvertragsklauseln, verbindlicher Unternehmensregeln und anderer rechtlich anerkannter Übertragungsmechanismen.
 
 ## Ihre Rechte
 
-Je nach Ihrer Gerichtsbarkeit haben Sie möglicherweise das Recht auf:
+Je nach Ihrer Rechtsordnung haben Sie möglicherweise das Recht auf:
 
-- Zugriff auf Ihre personenbezogenen Daten
-- Korrektur ungenauer Informationen
+- Zugang zu Ihren personenbezogenen Daten
+- Berichtigung unrichtiger Informationen
 - Löschung Ihrer personenbezogenen Daten
 - Einschränkung oder Widerspruch gegen die Verarbeitung
 - Datenübertragbarkeit
@@ -88,19 +88,19 @@ Je nach Ihrer Gerichtsbarkeit haben Sie möglicherweise das Recht auf:
 
 ## Datensicherheit
 
-Wir setzen geeignete technische und organisatorische Maßnahmen um, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Vernichtung zu schützen.
+Wir setzen angemessene technische und organisatorische Maßnahmen um, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen.
 
 ## Datenspeicherung
 
-Wir speichern Ihre personenbezogenen Daten so lange, wie es zur Erfüllung der in dieser Datenschutzerklärung dargelegten Zwecke erforderlich ist, es sei denn, eine längere Aufbewahrungsfrist ist gesetzlich vorgeschrieben oder zulässig.
+Wir bewahren Ihre personenbezogenen Daten so lange auf, wie es zur Erfüllung der in dieser Datenschutzerklärung dargelegten Zwecke erforderlich ist, es sei denn, eine längere Aufbewahrungsfrist ist gesetzlich vorgeschrieben oder zulässig.
 
-## Änderungen dieser Richtlinie
+## Änderungen an dieser Richtlinie
 
-Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Die aktualisierte Version wird durch ein überarbeitetes Datum gekennzeichnet und ist auf unserer Website zugänglich.
+Wir können diese Datenschutzrichtlinie regelmäßig aktualisieren. Die aktualisierte Version wird durch ein überarbeitetes Datum gekennzeichnet und auf unserer Website zugänglich sein.
 
-## Kontakt
+## Kontaktieren Sie uns
 
-Wenn Sie Fragen zu dieser Datenschutzerklärung oder unseren Datenpraktiken haben, kontaktieren Sie bitte unseren Datenschutzbeauftragten unter:
+Wenn Sie Fragen zu dieser Datenschutzrichtlinie oder unseren Datenpraktiken haben, wenden Sie sich bitte an unseren Datenschutzbeauftragten unter:
 
 - **E-Mail:** support@mind.com
 - **Adresse:** City Avenue Building, Büro 405-070, Port Saeed, Dubai, VAE
@@ -110,4 +110,4 @@ Wenn Sie Fragen zu dieser Datenschutzerklärung oder unseren Datenpraktiken habe
 ## Unternehmensinformationen
 
 - **Lizenznummer:** 1414192
-- **Registernummer:** 2411728
+- **Registrierungsnummer:** 2411728

@@ -1,4 +1,4 @@
-# Política de Privacidade
+# Política de privacidade
 
 ## Introdução
 
@@ -20,7 +20,7 @@ Nossas práticas de privacidade estão em conformidade com os principais regulam
 Podemos coletar os seguintes tipos de informações:
 
 - Informações pessoais: Nome, dados de contato, documentos de identificação e outras informações necessárias para fornecer serviços jurídicos.
-- Dados do serviço: Informações relacionadas a questões legais, detalhes de casos e correspondências.
+- Dados do serviço: Informações relacionadas a questões jurídicas, detalhes de casos e correspondências.
 - Dados técnicos: Endereço IP, tipo de navegador, informações do dispositivo, cookies e dados de uso.
 
 ## Como usamos suas informações
@@ -37,7 +37,7 @@ Usamos suas informações para:
 
 ### Uso de Modelos de IA
 
-Nosso site utiliza modelos de inteligência artificial (IA) para aprimorar a prestação de nossos serviços. Veja como processamos seus dados quando você interage com nossos recursos alimentados por IA:
+Nosso site utiliza modelos de inteligência artificial (IA) para aprimorar a entrega de nossos serviços. Veja como processamos seus dados quando você interage com nossos recursos alimentados por IA:
 
 #### Coleta de Dados
 
@@ -45,15 +45,15 @@ Quando você interage com nossas ferramentas de IA, podemos coletar informaçõe
 
 #### Finalidade do Processamento
 
-Utilizamos IA para auxiliar com pesquisa jurídica, revisão de documentos, análise de contratos e fornecimento de informações jurídicas preliminares.
+Usamos IA para auxiliar com pesquisa jurídica, revisão de documentos, análise de contratos e fornecimento de informações jurídicas preliminares.
 
 #### Armazenamento de Dados
 
 Suas interações com nossos sistemas de IA são armazenadas de forma segura em formato criptografado. Essas interações podem ser mantidas por um período limitado para melhorar nossos serviços de IA e garantir controle de qualidade.
 
-#### Provedores de IA Terceirizados
+#### Provedores de IA de Terceiros
 
-Em alguns casos, podemos utilizar provedores de serviços de IA terceirizados. Quando fazemos isso, garantimos que eles sigam padrões apropriados de proteção de dados através de salvaguardas contratuais.
+Em alguns casos, podemos utilizar provedores de serviços de IA de terceiros. Quando fazemos isso, garantimos que eles sigam padrões apropriados de proteção de dados através de salvaguardas contratuais.
 
 #### Revisão Humana
 
@@ -83,10 +83,10 @@ Dependendo da sua jurisdição, você pode ter o direito de:
 - Excluir suas informações pessoais
 - Restringir ou se opor ao processamento
 - Portabilidade de dados
-- Retirar consentimento
+- Retirar o consentimento
 - Apresentar uma reclamação junto a uma autoridade supervisora
 
-## Segurança de Dados
+## Segurança de dados
 
 Implementamos medidas técnicas e organizacionais apropriadas para proteger suas informações pessoais contra acesso não autorizado, alteração, divulgação ou destruição.
 

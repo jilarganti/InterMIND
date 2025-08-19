@@ -374,3 +374,8 @@ code {
     }
   }
 }
+
+/* Стили для blockquote */
+.vp-doc blockquote {
+  border-left: 2px solid var(--vp-hl-color) !important;
+}

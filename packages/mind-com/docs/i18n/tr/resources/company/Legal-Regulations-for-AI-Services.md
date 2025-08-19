@@ -6,7 +6,7 @@ Bu feragatname kapsamında, aşağıdaki terimler aşağıda belirtilen anlamlar
 
 "AI" veya "Yapay Zeka", öğrenme, akıl yürütme, problem çözme, doğal dili anlama ve içerik üretme dahil olmak üzere tipik olarak insan zekası gerektiren görevleri yerine getirebilen bilgisayar sistemleri veya algoritmaları ifade eder.
 
-"Şirket", Golden Fish Corporate Services Provider LLC (Sicil No: 2411728, Lisans No: 1414192, Adres: City Avenue Building, Office 405-070, Port Saeed, Dubai, UAE), yan kuruluşları, bağlı ortaklıkları, memurları, çalışanları, temsilcileri ve vekilleri ifade eder.
+"Şirket", Golden Fish Corporate Services Provider LLC (Sicil No: 2411728, Lisans No: 1414192, Adres: City Avenue Building, Office 405-070, Port Saeed, Dubai, BAE), yan kuruluşları, bağlı ortaklıkları, memurları, çalışanları, temsilcileri ve vekilleri ifade eder.
 
 "AI tarafından üretilen içerik", kullanıcı girdileri veya sorgularına yanıt olarak AI sistemlerimiz tarafından oluşturulan, üretilen veya formüle edilen herhangi bir metin, görüntü, öneri, tavsiye, cevap veya diğer içerikleri ifade eder.
 
@@ -18,7 +18,7 @@ Bu feragatname kapsamında, aşağıdaki terimler aşağıda belirtilen anlamlar
 
 "AI Geliştiricileri", Şirket tarafından kullanılan yapay zeka teknolojilerini oluşturmak, eğitmek, sürdürmek ve güncellemekten sorumlu üçüncü taraf kuruluşları, organizasyonları veya kişileri ifade eder. AI Geliştiricileri Şirketten ayrı ve farklıdır ve uygulanan AI sistemlerinin temel işlevselliği, yetenekleri ve sınırlamaları için bağımsız sorumluluk taşır.
 
-## Yapay Zeka Fonksiyonalitesi
+## Yapay Zeka İşlevselliği
 
 Bu web sitesi, otomatik yanıtlar, içerik üretimi ve kişiselleştirilmiş öneriler aracılığıyla kullanıcı deneyimini geliştirmek için tasarlanmış yapay zeka ("AI") özelliklerini içermektedir. Bu AI özelliklerini kullanarak, aşağıdaki şart ve koşulları kabul ettiğinizi beyan ve kabul edersiniz:
 
@@ -28,7 +28,7 @@ Bu web sitesi, otomatik yanıtlar, içerik üretimi ve kişiselleştirilmiş ön
 
 ## Bilgi Doğruluğu
 
-AI sistemlerimiz tarafından üretilen bilgiler, içerik ve yanıtlar yalnızca genel bilgilendirme amaçları için sağlanmaktadır. AI tarafından üretilen içeriğin doğruluğunu ve güvenilirliğini sağlamaya çalışsak da, bu tür içerikler hatalar, yanlışlıklar veya güncel olmayan bilgiler içerebilir. Şirket, AI tarafından üretilen herhangi bir içeriğin tamlığını, doğruluğunu, güvenilirliğini, uygunluğunu veya erişilebilirliğini garanti etmez veya taahhüt vermez.
+AI sistemlerimiz tarafından üretilen bilgiler, içerik ve yanıtlar yalnızca genel bilgilendirme amaçları için sağlanmaktadır. AI tarafından üretilen içeriğin doğruluğunu ve güvenilirliğini sağlamaya çalışsak da, bu tür içerikler hatalar, yanlışlıklar veya güncel olmayan bilgiler içerebilir. Şirket, AI tarafından üretilen herhangi bir içeriğin tamlığı, doğruluğu, güvenilirliği, uygunluğu veya erişilebilirliği konusunda garanti vermez veya güvence sağlamaz.
 
 ## Sorumluluk Sınırlaması
 
@@ -40,15 +40,15 @@ AI tarafından üretilen içerik ve yanıtlar profesyonel tavsiye, görüş veya
 
 ## Garanti Verilmez
 
-AI özellikleri, açık veya zımni herhangi bir garanti olmaksızın "olduğu gibi" ve "mevcut olduğu şekliyle" sunulmaktadır. Şirket, AI özelliklerinin kesintisiz, zamanında, güvenli veya hatasız olacağını garanti etmez. Teknik sorunların veya üçüncü taraf sistemlerindeki değişikliklerin AI özelliklerine erişim veya kullanım yeteneğinizi geçici veya kalıcı olarak sınırlayabileceğini kabul edersiniz.
+AI özellikleri "olduğu gibi" ve "mevcut olduğu şekilde" temelinde, açık veya zımni herhangi bir garanti olmaksızın sağlanmaktadır. Şirket, AI özelliklerinin kesintisiz, zamanında, güvenli veya hatasız olacağını garanti etmez. Teknik sorunların veya üçüncü taraf sistemlerdeki değişikliklerin AI özelliklerine erişim veya kullanım yeteneğinizi geçici veya kalıcı olarak sınırlayabileceğini kabul edersiniz.
 
 ## Veri Toplama ve Kullanımı
 
-AI özelliklerimizle olan etkileşimleriniz, hizmetlerimizi geliştirmek amacıyla toplanabilir, saklanabilir ve analiz edilebilir. Bu bilgiler, kullanıcı deneyimini geliştirmek için AI sistemlerimizi eğitmek ve iyileştirmek amacıyla kullanılır. AI özelliklerimizi kullanarak, etkileşim verilerinizin Gizlilik Politikamız doğrultusunda toplanması, saklanması ve işlenmesine onay vermiş olursunuz.
+AI özelliklerimizle olan etkileşimleriniz, hizmetlerimizi geliştirmek amacıyla toplanabilir, saklanabilir ve analiz edilebilir. Bu bilgiler, kullanıcı deneyimini geliştirmek için AI sistemlerimizi eğitmek ve iyileştirmek amacıyla kullanılır. AI özelliklerimizi kullanarak, etkileşim verilerinizin Gizlilik Politikamız doğrultusunda toplanması, saklanması ve işlenmesi konusunda onay vermiş olursunuz.
 
 ## Kullanıcı Girdi Onayı
 
-AI hizmetlerimizle etkileşime geçerek, AI modelinin etkileşimleriniz sırasında sağladığınız bilgileri işlemesi, analiz etmesi ve kullanması konusunda açık bir şekilde kabul ediyor ve onay veriyorsunuz. Girdiğiniz herhangi bir metin, sorgu veya verinin AI sistemi tarafından yanıt oluşturmak, işlevselliğini geliştirmek ve yeteneklerini artırmak için kullanılabileceğini kabul ediyorsunuz. Bu onay, modellerini daha da eğitmek ve geliştirmek için anonimleştirilmiş etkileşimleri kullanabilecek AI Geliştiricilerini de kapsar. Girdinizin AI sistemlerimiz tarafından işlenmesini istemiyorsanız, bu web sitesinde bulunan AI özelliklerini kullanmaktan kaçınmalısınız.
+AI hizmetlerimizle etkileşime geçerek, AI modelinin etkileşimleriniz sırasında sağladığınız bilgileri işlemesi, analiz etmesi ve kullanması konusunda açık bir şekilde kabul ediyor ve onay veriyorsunuz. Girdiğiniz herhangi bir metin, sorgu veya verinin AI sistemi tarafından yanıt üretmek, işlevselliğini geliştirmek ve yeteneklerini artırmak için kullanılabileceğini kabul ediyorsunuz. Bu onay, modellerini daha da eğitmek ve geliştirmek için anonimleştirilmiş etkileşimleri kullanabilecek AI Geliştiricilerini de kapsar. Girdinizin AI sistemlerimiz tarafından işlenmesini istemiyorsanız, bu web sitesinde bulunan AI özelliklerini kullanmaktan kaçınmalısınız.
 
 ## Kişisel Veri Koruma
 
@@ -60,7 +60,7 @@ AI sistemlerimiz, eğitim verilerinden öğrenilen kalıplara dayalı olarak iç
 
 ## Kültürel Saygı ve Sorumluluk Beyanı
 
-Şirket, faaliyet gösterdiğimiz tüm ülkelerin geleneklerine, dinlerine ve yönetim şekillerine derin saygı duymaktadır. AI sistemimiz tarafından üretilen ve saldırgan, kültürel açıdan duyarsız veya ahlaki açıdan uygunsuz olarak değerlendirilebilecek herhangi bir içerik tamamen AI hatasının sonucudur ve Şirketin görüşlerini, fikirlerini veya değerlerini temsil etmez. Bu tür içeriklerden sorumluluk AI teknolojisinin geliştiricilerine aittir, Şirkete değil. Mevcut AI sistemlerinin teknik sınırlarını kabul ederken kapsayıcı ve saygılı dijital ortamları teşvik etmeye kararlıyız. Bu tür uygunsuz içeriklerle karşılaşan kullanıcıların, uygun önlemlerin alınabilmesi için durumu derhal bildirmeleri önerilir.
+Şirket, faaliyet gösterdiği tüm ülkelerin geleneklerine, dinlerine ve yönetim şekillerine derin saygı duymaktadır. AI sistemimiz tarafından üretilen ve saldırgan, kültürel açıdan duyarsız veya ahlaki açıdan uygunsuz olarak değerlendirilebilecek herhangi bir içerik tamamen AI hatasının sonucudur ve Şirketin görüşlerini, fikirlerini veya değerlerini temsil etmez. Bu tür içeriklerden sorumluluk AI teknolojisinin geliştiricilerine aittir, Şirkete değil. Mevcut AI sistemlerinin teknik sınırlarını kabul ederken, kapsayıcı ve saygılı dijital ortamları teşvik etmeye kararlıyız. Bu tür uygunsuz içeriklerle karşılaşan kullanıcıların, uygun önlemlerin alınabilmesi için durumu derhal bildirmeleri teşvik edilmektedir.
 
 ## AI Özelliklerinde Değişiklikler
 
@@ -68,6 +68,6 @@ AI sistemlerimiz, eğitim verilerinden öğrenilen kalıplara dayalı olarak iç
 
 ## Kullanıcı Sorumluluğu
 
-AI tarafından üretilen tüm içeriği güvenmeden veya herhangi bir öneriyi uygulamadan önce gözden geçirmek ve değerlendirmek sizin sorumluluğunuzdadır. AI sistemlerimiz tarafından üretilen bilgi veya içeriği kullanmayla ilgili tüm riskleri üstlendiğinizi kabul ediyorsunuz.
+AI tarafından üretilen tüm içeriği güvenmeden veya herhangi bir öneriyi uygulamadan önce gözden geçirmek ve değerlendirmek sizin sorumluluğunuzdadır. AI sistemlerimiz tarafından üretilen bilgi veya içeriği kullanmayla ilişkili tüm riskleri üstlendiğinizi kabul etmektesiniz.
 
-Bu web sitesindeki AI özelliklerini kullanmaya devam ederek, bu AI Özellikleri Sorumluluk Reddi Beyanını okuduğunuzu, anladığınızı ve buna bağlı kalmayı kabul ettiğinizi beyan ediyorsunuz.
+Bu web sitesindeki AI özelliklerini kullanmaya devam ederek, bu AI Özellikleri Sorumluluk Reddi Beyanını okuduğunuzu, anladığınızı ve buna bağlı kalmayı kabul ettiğinizi beyan etmektesiniz.

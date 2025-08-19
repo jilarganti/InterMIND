@@ -4,14 +4,14 @@
 
 Bu Gizlilik Politikası, Golden Fish Corporate Services Provider LLC ("biz," "bizim," veya "şirketimiz") tarafından web sitemizi ve hukuki hizmetlerimizi kullandığınızda kişisel bilgilerin nasıl toplandığı, kullanıldığı, korunduğu ve açıklandığını açıklamaktadır. Küresel bir hukuki hizmet sağlayıcısı olarak, gizliliğinizi korumaya ve dünya çapında geçerli veri koruma yasalarına uygunluğu sağlamaya kararlıyız.
 
-## Mevzuat Uyumluluğu
+## Mevzuata Uygunluk
 
 Gizlilik uygulamalarımız aşağıdakiler dahil olmak üzere başlıca küresel gizlilik düzenlemelerine uygundur:
 
 - Genel Veri Koruma Tüzüğü (GDPR) - Avrupa Birliği
 - Kaliforniya Tüketici Gizlilik Yasası (CCPA) ve Kaliforniya Gizlilik Hakları Yasası (CPRA) - Amerika Birleşik Devletleri
-- Kişisel Bilgi Koruma Yasası (PIPL) - Çin
-- Kişisel Veri Koruma Hakkında 45 Sayılı Federal Yasa 2021 (PDPL) - Birleşik Arap Emirlikleri
+- Kişisel Bilgi Koruma Kanunu (PIPL) - Çin
+- Kişisel Verilerin Korunması Hakkında 45 Sayılı Federal Kanun (PDPL) - Birleşik Arap Emirlikleri
 - Sağlık Sigortası Taşınabilirlik ve Hesap Verebilirlik Yasası (HIPAA) - Amerika Birleşik Devletleri
 - Çocukların Çevrimiçi Gizlilik Koruma Yasası (COPPA) - Amerika Birleşik Devletleri
 
@@ -33,35 +33,35 @@ Bilgilerinizi şu amaçlarla kullanırız:
 - Yasal ve düzenleyici yükümlülüklere uymak
 - Meşru ticari çıkarlarımızı korumak
 
-## Yapay Zeka Teknolojisi ve Veri İşleme
+## AI Teknolojisi ve Veri İşleme
 
-### Yapay Zeka Modellerinin Kullanımı
+### AI Modellerinin Kullanımı
 
-Web sitemiz, hizmet sunumumuzu geliştirmek için yapay zeka (AI) modellerini kullanmaktadır. Yapay zeka destekli özelliklerimizle etkileşime girdiğinizde verilerinizi nasıl işlediğimiz aşağıda açıklanmıştır:
+Web sitemiz, hizmet sunumumuzu geliştirmek için yapay zeka (AI) modellerini kullanmaktadır. AI destekli özelliklerimizle etkileşime girdiğinizde verilerinizi nasıl işlediğimiz aşağıda açıklanmıştır:
 
 #### Veri Toplama
 
-Yapay zeka araçlarımızla etkileşime girdiğinizde, bu etkileşimler sırasında sağladığınız bilgileri toplayabiliriz; bunlar arasında sorgular, yüklenen belgeler ve konuşma geçmişi yer alır.
+AI araçlarımızla etkileşime girdiğinizde, bu etkileşimler sırasında sağladığınız bilgileri toplayabiliriz; bunlar arasında sorgular, yüklenen belgeler ve konuşma geçmişi yer alır.
 
 #### İşleme Amacı
 
-Yapay zekayı hukuki araştırma, belge inceleme, sözleşme analizi ve ön hukuki bilgi sağlama konularında yardımcı olması için kullanırız.
+Hukuki araştırma, belge inceleme, sözleşme analizi ve ön hukuki bilgi sağlama konularında yardımcı olmak için AI kullanırız.
 
 #### Veri Depolama
 
-Yapay zeka sistemlerimizle olan etkileşimleriniz şifreli formatta güvenli bir şekilde depolanır. Bu etkileşimler, yapay zeka hizmetlerimizi geliştirmek ve kalite kontrolü sağlamak için sınırlı bir süre boyunca saklanabilir.
+AI sistemlerimizle olan etkileşimleriniz şifrelenmiş formatta güvenli bir şekilde depolanır. Bu etkileşimler, AI hizmetlerimizi geliştirmek ve kalite kontrolü sağlamak için sınırlı bir süre boyunca saklanabilir.
 
-#### Üçüncü Taraf Yapay Zeka Sağlayıcıları
+#### Üçüncü Taraf AI Sağlayıcıları
 
-Bazı durumlarda üçüncü taraf yapay zeka hizmet sağlayıcılarını kullanabiliriz. Bunu yaptığımızda, sözleşmeli güvenceler aracılığıyla uygun veri koruma standartlarına uyduklarından emin oluruz.
+Bazı durumlarda üçüncü taraf AI hizmet sağlayıcılarını kullanabiliriz. Bunu yaptığımızda, sözleşmeli güvenceler aracılığıyla uygun veri koruma standartlarına uyduklarından emin oluruz.
 
 #### İnsan İncelemesi
 
-Yapay zeka sistemlerimiz özerk olarak çalışsa da, hizmetin doğruluğunu ve kalitesini sağlamak için belirli etkileşimler hukuk uzmanlarımız tarafından incelenebilir.
+AI sistemlerimiz özerk olarak çalışsa da, hizmetin doğruluğunu ve kalitesini sağlamak için belirli etkileşimler hukuk uzmanlarımız tarafından incelenebilir.
 
-#### Yapay Zeka Eğitimi
+#### AI Eğitimi
 
-Sistemlerimizi geliştirmek için yapay zeka etkileşimlerinden elde edilen anonimleştirilmiş ve toplu verileri kullanabiliriz. Herhangi bir veri eğitim amaçları için kullanılmadan önce kişisel tanımlayıcılar kaldırılır.
+Sistemlerimizi geliştirmek için AI etkileşimlerinden elde edilen anonimleştirilmiş ve toplu verileri kullanabiliriz. Herhangi bir veri eğitim amaçları için kullanılmadan önce kişisel tanımlayıcılar kaldırılır.
 
 ## Veri Paylaşımı ve Transferleri
 

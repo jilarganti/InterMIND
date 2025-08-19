@@ -32,7 +32,7 @@ As informações, conteúdo e respostas geradas por nossos sistemas de IA são f
 
 ## Limitação de Responsabilidade
 
-Sob nenhuma circunstância a Empresa será responsável por quaisquer danos diretos, indiretos, incidentais, especiais, consequenciais ou exemplares decorrentes ou de qualquer forma conectados com o seu uso dos recursos de IA neste website. Isso inclui, mas não se limita a, quaisquer perdas, custos ou danos de qualquer tipo incorridos como resultado da sua dependência de informações ou conteúdo gerado pelos nossos sistemas de IA.
+Sob nenhuma circunstância a Empresa será responsável por quaisquer danos diretos, indiretos, incidentais, especiais, consequenciais ou exemplares decorrentes ou de qualquer forma conectados ao seu uso dos recursos de IA neste website. Isso inclui, mas não se limita a, quaisquer perdas, custos ou danos de qualquer tipo incorridos como resultado de sua dependência de informações ou conteúdo gerado por nossos sistemas de IA.
 
 ## Nenhum Conselho Profissional
 
@@ -42,9 +42,9 @@ O conteúdo e as respostas geradas por IA não constituem aconselhamento, opini�
 
 Os recursos de IA são fornecidos "como estão" e "conforme disponíveis", sem garantias de qualquer tipo, sejam expressas ou implícitas. A Empresa não garante que os recursos de IA serão ininterruptos, oportunos, seguros ou livres de erros. Você reconhece que problemas técnicos ou mudanças em sistemas de terceiros podem limitar temporária ou permanentemente sua capacidade de acessar ou usar os recursos de IA.
 
-## Coleta e Uso de Dados
+## Coleta e uso de dados
 
-Suas interações com nossos recursos de IA podem ser coletadas, armazenadas e analisadas para melhorar nossos serviços. Essas informações ajudam a treinar e aperfeiçoar nossos sistemas de IA para aprimorar a experiência do usuário. Ao usar nossos recursos de IA, você consente com a coleta, armazenamento e processamento dos dados de suas interações de acordo com nossa Política de Privacidade.
+Suas interações com nossos recursos de IA podem ser coletadas, armazenadas e analisadas para melhorar nossos serviços. Essas informações ajudam a treinar e aprimorar nossos sistemas de IA para melhorar a experiência do usuário. Ao usar nossos recursos de IA, você consente com a coleta, armazenamento e processamento dos dados de suas interações de acordo com nossa Política de Privacidade.
 
 ## Consentimento para entrada de dados do usuário
 
