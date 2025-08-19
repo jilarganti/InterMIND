@@ -4,7 +4,7 @@ title: "Traducción de voz en vivo para videollamadas"
 isHome: true
 ---
 
-<HeroSection title="Reúnete en **Cualquier** Idioma" :typingSpeed="10" text="Traducción de voz en vivo en **videollamadas** — comunicación rápida, clara y sin fronteras.">
+<HeroSection title="Reúnete en **Cualquier** Idioma" :typingSpeed="10" text="Traducción de voz en vivo en videollamadas. Comprensión instantánea, sin barreras.">
 <NavButton buttonLabel="Cómo funciona" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Asistente" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -49,8 +49,8 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: 'Diseñado para Reuniones Serias — No Solo para Conversar',
-      details: 'InterMind es una [plataforma de videoconferencias de nivel profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
+      title: 'Construido para Reuniones Serias — No Solo para Conversar',
+      details: 'InterMind es una [plataforma de videorreuniones de grado profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
       items: [
         '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, **listo para usar**.',
       ],
@@ -67,7 +67,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Privacidad Donde Importa',
-      details: 'InterMind está diseñado para conversaciones críticas de confianza — donde la privacidad y el control importan más.',
+      details: 'InterMind está construido para conversaciones críticas de confianza — donde la privacidad y el control importan más.',
       items: ['✧ [Zonas de Privacidad](./product/overview/privacy-architecture) — UE, EE.UU., Sudeste Asiático', '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -78,14 +78,14 @@ isHome: true
     }"
   />
 
-> [!tip] ¿Para quién es esto?  
-> Diseñado para **equipos internacionales** donde las barreras del idioma causan **retrasos**, **negocios perdidos** o **malentendidos costosos**. [Aprende más ...](./product/overview/markets)
-
-## Funciona como Google Meet + Traducción en vivo
-
-Interfaz familiar. Comunicación universal. La misma facilidad que Google Meet — con traducción instantánea que hace desaparecer las barreras del idioma.
+> **¿Para quién es esto?**  
+> _Construido para equipos internacionales donde las barreras del idioma causan retrasos, negocios perdidos o malentendidos costosos._ [Aprende más ...](./product/overview/markets)
 
 <span id="HowItWorks"></span>
+
+## Funciona como Google Meet + traducción en vivo
+
+Interfaz familiar. Comunicación universal. La misma facilidad que Google Meet, con traducción instantánea que hace desaparecer las barreras del idioma.
 
 <FeatureCards
     :features="[
@@ -99,7 +99,7 @@ Interfaz familiar. Comunicación universal. La misma facilidad que Google Meet �
       },
       {
         title: 'Inicia una reunión',
-        details: 'Crea instantáneamente o programa con anticipación.',
+        details: 'Crea al instante o programa con anticipación.',
         icon: {
           light: '/start.png',
           dark: '/start.png',
@@ -130,10 +130,10 @@ Interfaz familiar. Comunicación universal. La misma facilidad que Google Meet �
 
 Supongamos que:
 
-> El usuario utiliza **español** como **idioma de localización del sitio**. Organiza una reunión e invita a dos participantes:
->
-> - 🧑‍💼 Participante 1 usa la interfaz en **inglés**
-> - 👩 Participante 2 usa la interfaz en **chino**
+El usuario utiliza **español** como **idioma de localización del sitio**. Organiza una reunión e invita a dos participantes:
+
+- 🧑‍💼 Participante 1 usa la interfaz en **inglés**
+- 👩 Participante 2 usa la interfaz en **chino**
 
 ### ¿Qué sucede durante la reunión?
 
@@ -166,15 +166,25 @@ Cambiar esto significa:
 - Escucharás a otros en el `idioma elegido`
 - La interfaz cambiará automáticamente al `idioma elegido`
 
-> 📌 Nota: "Tu idioma" es una **configuración única unificada**  
+> ✨ "Tu idioma" es una **configuración única unificada**  
 > Controla **cómo hablas**, **qué escuchas** y **qué ves**.  
 > Hablar en un idioma y escuchar en otro **no está soportado** — por diseño, para mantener la experiencia simple y predecible.
+
+<br>
+<span id="VideoDemo"></span>
+<VideoPlayer src="/promo/demo-en-mx.mp4" />
+
+<span id="Testimonials"></span>
+
+## Lo que dicen nuestros clientes
+
+<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
+
+<span id="Pricing"></span>
 
 ## Precios claros y sencillos
 
 Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
-
-<span id="Pricing"></span>
 
 <PricingPlans
     :plans="[
@@ -204,7 +214,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
       },
       {
         title: '**Empresarial** &nbsp 100+ usuarios',
-        price: '**Precios personalizados**',
+        price: '**Precio personalizado**',
         details: 'Diseñado para la privacidad',
         items: [
           '**Ilimitadas** reuniones',
@@ -222,15 +232,8 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 <ContactForm buttonText="Hablar con nuestro equipo" buttonClass="alt" />
 </PricingPlans>
 
-> [!warning] 😱 O hablas todos los idiomas — o alguien más cierra tus negocios.
-
-<span id="Testimonials"></span>
-
-## Lo que dicen nuestros clientes
-
-<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
-
-> [!tip] 🥇 Tu tiempo se aprovecha mejor dominando tu oficio, no memorizando gramática.
+> 💡 **_Tu tiempo se aprovecha mejor dominando tu oficio — no memorizando gramática._**  
+> 💡 **_Las verdaderas alianzas comienzan con conversaciones reales — en su idioma._**
 
 ## Preguntas Frecuentes
 

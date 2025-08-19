@@ -8,10 +8,10 @@ Kesintisiz bir deneyim sunmak için InterMind, video, ses, bulut depolama, gerç
 
 **Vaatler yerine şeffaflığa** inanıyoruz. Sadece doğrudan kontrolümüz altındaki bileşenler için gizlilik ve güvenlik garanti edebiliriz — yazılımımız, arayüz mantığımız ve verileri nasıl yönlendirdiğimiz. Diğer her şey için size **seçim gücü** sunuyoruz.
 
-Bu nedenle InterMind'ı **bölge tabanlı gizlilik** ile tasarladık: verilerinizin nerede işlendiğini, hangi yasal çerçevenin onu yönettiğini ve hangi AI modellerinin kullanıldığını — seçtiğiniz gizlilik bölgesine göre siz seçiyorsunuz.
+Bu nedenle InterMind'ı **bölge tabanlı gizlilik** ile tasarladık: verilerinizin nerede işlendiğini, hangi yasal çerçevenin onu yönettiğini ve hangi AI modellerinin kullanıldığını — seçtiğiniz gizlilik bölgesine göre siz seçersiniz.
 
-> [!tip] Gizlilik Bölgesi Nedir?
-> Verilerinizin nerede işlendiğini ve hangi yasal çerçeve altında olduğunu yöneten yapılandırılabilir bir bölge (AB, ABD, Asya).
+> **Gizlilik Bölgesi Nedir?**  
+> _Verilerinizin nerede işlendiğini ve hangi yasal çerçeve altında olduğunu yöneten yapılandırılabilir bir bölge (AB, ABD, Asya)._
 
 ## Temel Gizlilik İlkeleri
 
@@ -23,7 +23,7 @@ Bu nedenle InterMind'ı **bölge tabanlı gizlilik** ile tasarladık: verilerini
 
 ### 2. **Mimari Şeffaflık**
 
-- Oturumunuz için hangi bölgenin aktif olduğunu ve hangi yasaların geçerli olduğunu açıkça görebilirsiniz (örn. Avrupa'da GDPR, ABD'de CCPA, BAE'de PDPL).
+- Oturumunuz için hangi bölgenin aktif olduğunu ve hangi yasaların geçerli olduğunu açıkça görebilirsiniz (örneğin Avrupa'da GDPR, ABD'de CCPA, BAE'de PDPL).
 - Her oturum belirlenmiş bir **uyumluluk modunda** çalışır ve bu yapılandırma görünür ve denetlenebilir.
 
 ### 3. **Varsayılan Olarak Gizlilik**
@@ -78,13 +78,13 @@ InterMind aşağıdakilerle tam uyumluluk sağlar:
 - **GDPR** — Erişim, silme, dışa aktarma ve işleme kısıtlama hakkı. AI profilleme yapılmaz.
 - **CCPA** — Kişisel veri satışı yapılmaz, vazgeçme seçenekleri ve şeffaf toplama uygulamaları.
 - **UAE PDPL** — Talep edilirse yerel depolama, sıkı erişim kontrolleri, izin olmadan uluslararası transfer yapılmaz.
-- **China DSL/PIPL** — Yalnızca bölge içi işleme, Çin seçilirse yabancı yönlendirme yapılmaz.
+- **China DSL/PIPL** — Sadece bölge içi işleme, Çin seçilirse yabancı yönlendirme yapılmaz.
 
-## Neyi Garanti Edebilir ve Edemeyiz
+## Neleri Garanti Edebilir ve Edemeyiz
 
 Sadece hukuki jargon değil, tam dürüstlüğe kararlıyız.
 
-> InterMind, veriler kontrolümüzden çıktıktan sonra üçüncü taraf LLM'lerin veya altyapı sağlayıcılarının verileri nasıl işlediğini **garanti edemez**.
+> InterMind, veriler kontrolümüzden çıktıktan sonra üçüncü taraf LLM'lerin veya altyapı sağlayıcılarının verileri nasıl işlediğini garanti edemez.
 
 ### Garanti ETMEDİĞİMİZ durumlar:
 
@@ -96,7 +96,7 @@ Sadece hukuki jargon değil, tam dürüstlüğe kararlıyız.
 
 - Verilerinizin **nerede ve nasıl** işlendiğini her zaman bilirsiniz.
 - Bölgenizi ve uyumluluk modunuzu seçerek **riski kontrol etme** araçlarına sahipsiniz.
-- InterMind, rızanız olmadan içeriğinizi **asla** saklamaz veya istismar etmez — geçici olarak bile.
+- InterMind içeriğinizi rızanız olmadan **asla** saklamaz veya istismar etmez — geçici olarak bile.
 
 ## Güven Modları ve Gizlilik Seviyeleri
 
@@ -106,7 +106,7 @@ Oturumunuzu gizlilik ihtiyaçlarınıza uyacak şekilde özelleştirebilirsiniz:
 | ---------------- | --------- | ----------------------- | ------------------ | ----------------------------------- |
 | 🔒 Yalnızca Yerel | ❌        | ❌                      | ❌                 | Hukuk, devlet, dahili incelemeler   |
 | 🔐 Bölge Kilitli  | ✅        | ✅ (yalnızca bölge içi) | ❌ veya oturum-sadece | Sağlık, finans, İK               |
-| 🌐 Küresel Esnek  | ✅        | ✅ (çok bölgeli)        | ✅                 | Destek, satış, çok uluslu takımlar  |
+| 🌐 Küresel Esnek  | ✅        | ✅ (çok bölgeli)        | ✅                 | Destek, satış, çok uluslu ekipler   |
 
 ## Kutunun İçinden Çıkanlar
 
@@ -118,12 +118,12 @@ Oturumunuzu gizlilik ihtiyaçlarınıza uyacak şekilde özelleştirebilirsiniz:
 
 ## Sonuç
 
-> [!note] Gizlilik bir söz değil — bir mimaridir.
+> Gizlilik bir söz değil — bir mimaridir.
 
-InterMind belirsiz güvenceler arkasına saklanmaz. Bunun yerine size **seçenekler**, **görünürlük** ve **kontrol** sunarız.
+InterMind belirsiz güvenceler arkasına saklanmaz. Bunun yerine size **seçenekler**, **görünürlük** ve **kontrol** sunar.
 
 - Bölgenizi siz seçersiniz.
 - Yorumlama seviyenizi siz seçersiniz.
 - Kabul etmeye istekli olduğunuz riski siz belirlersiniz — ve her seviyede uyumlu kalmanızda size yardımcı oluruz.
 
-**InterMind — profesyoneller için inşa edildi, uyumluluk tarafından desteklendi, güven tarafından yönetildi.**
+**InterMind — profesyoneller için inşa edildi, uyumluluk ile desteklendi, güven ile yönetildi.**

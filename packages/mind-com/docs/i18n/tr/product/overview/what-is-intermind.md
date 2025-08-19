@@ -22,9 +22,9 @@ Tarih boyunca insanlar, bilişsel kapasiteyi optimize eden teknolojileri tutarl�
 
 Dil öğrenimi, insan bilişsel potansiyelinin son verimsiz tahsislerinden birini temsil ediyor. Ortalama bir kişi yeni bir dilde temel yeterliliğe ulaşmak için 600-1000 saat harcar, akıcılık ise 2000+ saat özel çalışma gerektirir. Bunlar, gerçek alanınızda uzman bilgi geliştirmeye yatırılabilecek saatlerdir.
 
-> [!note] 💡 Zamanınızı dilbilgisi ezberlemek yerine sanatınızda ustalaşmaya harcamanız daha iyidir.
+> 💡 **_Zamanınız dilbilgisi ezberlemek yerine mesleğinizde ustalaşmak için daha iyi harcanır._**
 
-> [!note] 💡 Gerçek ortaklıklar gerçek konuşmalarla başlar — onların dilinde.
+> 💡 **_Gerçek ortaklıklar gerçek konuşmalarla başlar — onların dilinde._**
 
 ## InterMIND Felsefesi
 
@@ -33,6 +33,6 @@ InterMIND sadece çeviri özelliklerine sahip bir video konferans aracı değil 
 1. Teknoloji insanlara uyum sağlamalı, insanlar teknolojiye değil
 2. Gerçek iletişim anlayış ile ilgilidir — sadece kelime alışverişi değil
 
-InterMIND ile dil bariyerinin anında eridiği bir sistem yarattık. Platformumuz sadece çeviri yapmaz — gerçek zamanlı olarak diller arasında nüansları, bağlamı ve anlamı yorumlar, doğal olarak elde etmek için onlarca yıl dil çalışması gerektirecek bir deneyim sunar.
+InterMIND ile dil bariyerinin anında çözüldüğü bir sistem yarattık. Platformumuz sadece çeviri yapmaz — gerçek zamanlı olarak diller arası nüansları, bağlamı ve anlamı yorumlar, doğal olarak elde etmek için onlarca yıl dil çalışması gerektirecek bir deneyim sunar.
 
 > Bu sadece anlayış ile ilgili değil — küresel bağlamda işbirliği, güven ve karar verme süreçlerini hızlandırmakla ilgilidir.

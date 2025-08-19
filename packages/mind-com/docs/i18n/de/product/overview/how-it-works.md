@@ -15,7 +15,7 @@ InterMind ist eine Multi-User-Videokonferenzplattform mit **sofortiger bidirekti
 
 - Streaming-Erkennung mit Transformer-Modellen
 - Verarbeitung von Rauschen und Hintergrundgeräuschen
-- Unterstützung für technische Terminologie und Fachjargon
+- Unterstützung für Fachterminologie und Jargon
 - Erkennungsgenauigkeit: **95-98%** für Hauptsprachen
 
 ### 2. **Textnachbearbeitung (Textbereinigung & semantische Analyse)**
@@ -49,7 +49,7 @@ All dies geschieht mit **Latenz unter 3 Sekunden** — entspricht der Geschwindi
 
 - **Rauschfilterung**: automatische Entfernung von Husten, Lachen, Hintergrundgesprächen
 - **Intelligente Zeichensetzung**: Erkennung von intonatorischen Pausen und logischen Betonungen
-- **Fehlerkorrektur**: Behebung von Tippfehlern und Erkennungsungenauigkeiten im laufenden Betrieb
+- **Fehlerkorrektur**: Behebung von Tippfehlern und Erkennungsungenauigkeiten in Echtzeit
 - **Semantische Komprimierung**: Bedeutungserhaltung bei gleichzeitiger Redundanzentfernung
 
 ### Für Unternehmen:
@@ -82,14 +82,14 @@ All dies geschieht mit **Latenz unter 3 Sekunden** — entspricht der Geschwindi
 - **Terminologie**: adaptive Wörterbücher für jede Branche
 - **Feedback**: Benutzer-Qualitätsbewertungssystem
 
-> [!info] Technische Architektur
->
-> Das gesamte Audio-/Video-Routing wird über unsere proprietäre Mind API abgewickelt, die intern entwickelt wurde, um Folgendes zu gewährleisten:
->
-> - **Leistung**: Verarbeitung von über 1000 parallelen Streams
-> - **Datensouveränität**: Speicherung in der ausgewählten Region
-> - **Fehlertoleranz**: 99,9% Verfügbarkeit mit automatischem Failover
-> - **Skalierbarkeit**: horizontale Skalierung unter Last
+### Technische Architektur
+
+Das gesamte Audio-/Video-Routing wird über unsere proprietäre Mind API abgewickelt, die intern entwickelt wurde, um Folgendes zu gewährleisten:
+
+- **Leistung**: Verarbeitung von über 1000 parallelen Streams
+- **Datensouveränität**: Speicherung in der ausgewählten Region
+- **Fehlertoleranz**: 99,9% Verfügbarkeit mit automatischem Failover
+- **Skalierbarkeit**: horizontale Skalierung unter Last
 
 ### Integration und Kompatibilität:
 

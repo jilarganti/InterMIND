@@ -20,11 +20,11 @@ Im Laufe der Geschichte haben Menschen konsequent Technologien übernommen, die 
 - Wir haben manuelle Berechnungen aufgegeben, als Taschenrechner allgegenwärtig wurden
 - Wir merken uns keine Wegbeschreibungen mehr, seit GPS-Navigationssysteme entstanden sind
 
-Das Erlernen von Sprachen stellt eine der letzten ineffizienten Zuweisungen menschlichen kognitiven Potentials dar. Der Durchschnittsmensch verbringt 600–1000 Stunden, um grundlegende Kenntnisse in einer neuen Sprache zu erreichen, wobei fließende Sprachbeherrschung 2000+ Stunden intensiven Studiums erfordert. Das sind Stunden, die in die Entwicklung spezialisierter Expertise in Ihrem tatsächlichen Fachgebiet investiert werden könnten.
+Das Erlernen von Sprachen stellt eine der letzten ineffizienten Zuweisungen menschlichen kognitiven Potentials dar. Die durchschnittliche Person verbringt 600–1000 Stunden, um grundlegende Kenntnisse in einer neuen Sprache zu erreichen, wobei fließende Sprachbeherrschung 2000+ Stunden intensiven Studiums erfordert. Das sind Stunden, die in die Entwicklung spezialisierter Expertise in Ihrem tatsächlichen Fachgebiet investiert werden könnten.
 
-> [!note] 💡 Ihre Zeit ist besser damit verbracht, Ihr Handwerk zu meistern — nicht Grammatik auswendig zu lernen.
+> 💡 **_Ihre Zeit ist besser damit verbracht, Ihr Handwerk zu meistern — nicht Grammatik auswendig zu lernen._**
 
-> [!note] 💡 Echte Partnerschaften beginnen mit echten Gesprächen — in ihrer Sprache.
+> 💡 **_Echte Partnerschaften beginnen mit echten Gesprächen — in ihrer Sprache._**
 
 ## Die InterMIND-Philosophie
 

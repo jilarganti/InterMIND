@@ -18,9 +18,9 @@ InterMind est une plateforme de visioconférence multi-utilisateurs avec **tradu
 - Support de la terminologie technique et du jargon
 - Précision de reconnaissance : **95-98%** pour les langues principales
 
-### 2. **Post-traitement du texte (Nettoyage du texte et analyse sémantique)**
+### 2. **Post-traitement du texte (nettoyage du texte et analyse sémantique)**
 
-- **Suppression des parasites vocaux** : élimination des "euh", "hum", répétitions, bégaiements
+- **Suppression des parasites vocaux** : élimination des « euh », « hum », répétitions, bégaiements
 - **Correction des erreurs de reconnaissance** : correction basée sur le contexte
 - **Ponctuation et structuration** : placement automatique de la ponctuation
 - **Extraction du sens clé** : identification des pensées principales et secondaires
@@ -48,16 +48,16 @@ Tout cela se produit avec une **latence inférieure à 3 secondes** — égalant
 ### Qualité du traitement vocal :
 
 - **Filtrage du bruit** : suppression automatique de la toux, des rires, des conversations en arrière-plan
-- **Ponctuation intelligente** : reconnaissance des pauses intonationnelles et de l'accent logique
-- **Correction d'erreurs** : correction des fautes de frappe et des inexactitudes de reconnaissance à la volée
+- **Ponctuation intelligente** : reconnaissance des pauses intonationnelles et de l'accentuation logique
+- **Correction d'erreurs** : correction à la volée des fautes de frappe et des inexactitudes de reconnaissance
 - **Compression sémantique** : préservation du sens tout en supprimant la redondance
 
 ### Pour les entreprises :
 
 - **Équipes mondiales** : élimination des barrières linguistiques dans les équipes internationales
-- **Réunions clients** : communication directe avec les clients sans services d'interprète
+- **Réunions clients** : communication directe avec les clients sans services d'interprétariat
 - **Formation et présentations** : diffusion simultanée de contenu en plusieurs langues
-- **Économies de coûts** : réduction des coûts d'interprète jusqu'à **80%**
+- **Économies de coûts** : réduction des coûts d'interprétariat jusqu'à **80 %**
 
 ### Pour les utilisateurs :
 
@@ -66,7 +66,7 @@ Tout cela se produit avec une **latence inférieure à 3 secondes** — égalant
 - **Accessibilité** : 24h/24 et 7j/7 sans planification préalable
 - **Évolutivité** : de 2 à plus de 1000 participants
 
-## Mieux que l'humain — et s'améliore chaque jour
+## Meilleur que l'humain — et s'améliore chaque jour
 
 ### Stack technologique :
 
@@ -80,16 +80,16 @@ Tout cela se produit avec une **latence inférieure à 3 secondes** — égalant
 - **Précision** : 94-97% d'exactitude pour les conversations d'affaires
 - **Contexte** : compréhension du contexte tout au long de la réunion
 - **Terminologie** : dictionnaires adaptatifs pour chaque industrie
-- **Retour d'information** : système d'évaluation de la qualité par les utilisateurs
+- **Retours** : système d'évaluation de la qualité par les utilisateurs
 
-> [!info] Architecture technique
->
-> Tout le routage audio/vidéo est géré par notre API Mind propriétaire, développée en interne pour assurer :
->
-> - **Performance** : traitement de plus de 1000 flux parallèles
-> - **Souveraineté des données** : stockage dans la région sélectionnée
-> - **Tolérance aux pannes** : 99,9% de disponibilité avec basculement automatique
-> - **Évolutivité** : mise à l'échelle horizontale sous charge
+### Architecture technique
+
+Tout le routage audio/vidéo est géré par notre API propriétaire Mind, développée en interne pour assurer :
+
+- **Performance** : traitement de plus de 1000 flux parallèles
+- **Souveraineté des données** : stockage dans la région sélectionnée
+- **Tolérance aux pannes** : 99,9% de disponibilité avec basculement automatique
+- **Évolutivité** : mise à l'échelle horizontale sous charge
 
 ### Intégration et compatibilité :
 

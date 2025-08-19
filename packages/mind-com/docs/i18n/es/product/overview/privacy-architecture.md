@@ -10,8 +10,8 @@ Creemos en la **transparencia sobre las promesas**. Solo podemos garantizar la p
 
 Por eso diseñamos InterMind con **confidencialidad basada en regiones**: tú eliges dónde se procesan tus datos, qué marco legal los rige y qué modelos de IA se utilizan — basado en tu zona de privacidad seleccionada.
 
-> [!tip] ¿Qué es una Zona de Privacidad?
-> Una región configurable (UE, EE.UU., Asia) que determina dónde se procesan tus datos y bajo qué marco legal.
+> **¿Qué es una Zona de Privacidad?**  
+> _Una región configurable (UE, EE.UU., Asia) que determina dónde se procesan tus datos y bajo qué marco legal._
 
 ## Principios fundamentales de privacidad
 
@@ -29,10 +29,10 @@ Por eso diseñamos InterMind con **confidencialidad basada en regiones**: tú el
 ### 3. **Privacidad por defecto**
 
 - InterMind **nunca** almacena o reutiliza tu contenido para entrenamiento, perfilado o análisis comercial.
-- No conservamos transcripciones o archivos multimedia a menos que lo solicites explícitamente.
-- Si desactivas la interpretación, **ningún dato del usuario sale de tu dispositivo en absoluto**.
+- No conservamos transcripciones o multimedia a menos que lo solicites explícitamente.
+- Si desactivas la interpretación, **ningún dato de usuario sale de tu dispositivo en absoluto**.
 
-## Confidencialidad basada en regiones: Cómo funciona
+## Confidencialidad basada en regiones: cómo funciona
 
 Al inicio de cada sesión, o como parte de la configuración de la cuenta de tu organización, puedes seleccionar una zona de privacidad preferida:
 
@@ -51,25 +51,25 @@ Puedes:
 - **Anular la región por sesión**
 - **Incluir ciertas regiones en lista negra** completamente
 
-## Lo que InterMind Garantiza
+## Lo que InterMind garantiza
 
 Implementamos salvaguardas técnicas y legales estrictas dentro de nuestro dominio de control:
 
-### 1. **Ejecución Local Primero**
+### 1. **Ejecución local primero**
 
 Las funciones del lado del cliente como la captura de voz y la renderización de la interfaz de usuario se manejan localmente siempre que sea posible.
 
-### 2. **Minimización de Datos**
+### 2. **Minimización de datos**
 
 Solo se transmite la cantidad mínima de datos necesaria para la tarea actual.
 
-### 3. **Cifrado de Extremo a Extremo**
+### 3. **Cifrado de extremo a extremo**
 
-Todos los datos de audio/video se transmiten a través de canales cifrados. Las solicitudes de interpretación se envían a través de proxies seguros, evitando la exposición pública.
+Todos los datos de audio/video se transmiten a través de canales cifrados. Las solicitudes de interpretación se tunelean a través de proxies seguros, evitando la exposición pública.
 
-### 4. **Sin Almacenamiento por Defecto**
+### 4. **Sin almacenamiento por defecto**
 
-No almacenamos sus reuniones, transcripciones o conversaciones a menos que usted lo elija. Todo el almacenamiento está limitado por región.
+No almacenamos tus reuniones, transcripciones o conversaciones a menos que decidas participar. Todo el almacenamiento está vinculado a la región.
 
 ## Cumplimiento Legal y Regulatorio
 
@@ -84,7 +84,7 @@ InterMind ofrece compatibilidad completa con:
 
 Estamos comprometidos con la honestidad total, no solo con jerga legal.
 
-> InterMind **no puede garantizar** cómo los LLM de terceros o los proveedores de infraestructura procesan los datos una vez que salen de nuestro control.
+> InterMind no puede garantizar cómo los LLM de terceros o los proveedores de infraestructura procesan los datos una vez que salen de nuestro control.
 
 ### NO garantizamos:
 
@@ -118,7 +118,7 @@ Puedes personalizar tu sesión para que coincida con tus necesidades de confiden
 
 ## Conclusión
 
-> [!note] La privacidad no es una promesa — es una arquitectura.
+> La privacidad no es una promesa — es una arquitectura.
 
 InterMind no se esconde detrás de garantías vagas. En su lugar, te damos **opciones**, **visibilidad** y **control**.
 

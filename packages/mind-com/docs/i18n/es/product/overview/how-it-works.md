@@ -15,15 +15,15 @@ InterMind es una plataforma de videoconferencias multiusuario con **traducción 
 
 - Reconocimiento en tiempo real usando modelos transformer
 - Procesamiento de ruido y sonidos de fondo
-- Soporte para terminología técnica y jerga
+- Soporte para terminología técnica y jerga especializada
 - Precisión de reconocimiento: **95-98%** para idiomas principales
 
-### 2. **Postprocesamiento de texto (Limpieza de texto y análisis semántico)**
+### 2. **Postprocesamiento de texto (limpieza de texto y análisis semántico)**
 
 - **Eliminación de muletillas**: eliminación de "eh", "mm", repeticiones, tartamudeo
 - **Corrección de errores de reconocimiento**: corrección basada en contexto
-- **Puntuación y estructuración**: colocación automática de puntuación
-- **Extracción de significado clave**: identificación de pensamientos principales y secundarios
+- **Puntuación y estructuración**: colocación automática de signos de puntuación
+- **Extracción de significado clave**: identificación de ideas principales y secundarias
 - **Segmentación de expresiones**: división en bloques lógicos para traducción precisa
 - **Análisis contextual**: vinculación con comentarios previos y tema general
 
@@ -80,16 +80,16 @@ Todo esto ocurre con **latencia menor a 3 segundos** — igualando la velocidad 
 - **Precisión**: 94-97% de exactitud para conversaciones de negocios
 - **Contexto**: comprensión del contexto durante toda la reunión
 - **Terminología**: diccionarios adaptativos para cada industria
-- **Retroalimentación**: sistema de calificación de calidad por usuarios
+- **Retroalimentación**: sistema de calificación de calidad por parte del usuario
 
-> [!info] Arquitectura técnica
->
-> Todo el enrutamiento de audio/video se maneja a través de nuestra API Mind propietaria, desarrollada internamente para garantizar:
->
-> - **Rendimiento**: procesamiento de más de 1000 transmisiones paralelas
-> - **Soberanía de datos**: almacenamiento en la región seleccionada
-> - **Tolerancia a fallos**: 99.9% de tiempo de actividad con conmutación automática por error
-> - **Escalabilidad**: escalado horizontal bajo carga
+### Arquitectura técnica
+
+Todo el enrutamiento de audio/video se maneja a través de nuestra API Mind propietaria, desarrollada internamente para garantizar:
+
+- **Rendimiento**: procesamiento de más de 1000 transmisiones paralelas
+- **Soberanía de datos**: almacenamiento en la región seleccionada
+- **Tolerancia a fallos**: 99.9% de tiempo de actividad con conmutación automática por error
+- **Escalabilidad**: escalado horizontal bajo carga
 
 ### Integración y compatibilidad:
 
@@ -101,4 +101,4 @@ Todo esto ocurre con **latencia menor a 3 segundos** — igualando la velocidad 
 
 [^1]: La latencia estándar para traducción simultánea humana es de ~2–3 segundos.
 
-[^2]: Basado en el progreso actual en traducción con IA, esperamos que dentro de 2–3 años, los modelos superen consistentemente a los mejores traductores humanos — incluyendo áreas especializadas como derecho, finanzas, salud e ingeniería.
+[^2]: Basado en el progreso actual en traducción con IA, esperamos que dentro de 2–3 años, los modelos superen consistentemente a los mejores traductores humanos — incluyendo áreas especializadas como derecho, finanzas, atención médica e ingeniería.

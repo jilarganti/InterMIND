@@ -22,9 +22,9 @@ Tout au long de l'histoire, les humains ont constamment adopté des technologies
 
 L'apprentissage des langues représente l'une des dernières allocations inefficaces du potentiel cognitif humain. Une personne moyenne consacre 600 à 1000 heures pour atteindre une maîtrise de base d'une nouvelle langue, la fluidité nécessitant plus de 2000 heures d'étude dédiée. Ce sont des heures qui pourraient être investies dans le développement d'une expertise spécialisée dans votre domaine réel.
 
-> [!note] 💡 Votre temps est mieux utilisé à maîtriser votre métier — pas à mémoriser la grammaire.
+> 💡 **_Votre temps est mieux utilisé à maîtriser votre métier — pas à mémoriser la grammaire._**
 
-> [!note] 💡 Les vrais partenariats commencent par de vraies conversations — dans leur langue.
+> 💡 **_Les vrais partenariats commencent par de vraies conversations — dans leur langue._**
 
 ## La philosophie InterMIND
 

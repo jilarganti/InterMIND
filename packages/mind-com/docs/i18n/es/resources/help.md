@@ -30,5 +30,5 @@ Rápido, enfocado, y con una persona real del otro lado.
 
 <br>
 
-> [!note] Usualmente respondemos dentro de un día hábil.  
-> Tu solicitud será revisada por una persona real — no un bot.
+> **Usualmente respondemos dentro de un día hábil.**
+> _Tu solicitud será revisada por una persona real — no un bot._

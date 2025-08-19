@@ -4,7 +4,7 @@ title: "Live-Sprachübersetzung für Videoanrufe"
 isHome: true
 ---
 
-<HeroSection title="Treffen Sie sich in **jeder** Sprache" :typingSpeed="10" text="Live-Sprachübersetzung in **Videoanrufen** — schnelle, klare, grenzenlose Kommunikation.">
+<HeroSection title="Treffen Sie sich in **jeder** Sprache" :typingSpeed="10" text="Live-Sprachübersetzung in Videoanrufen. Sofortiges Verstehen, keine Barrieren.">
 <NavButton buttonLabel="Wie es funktioniert" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Assistent" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -78,19 +78,19 @@ isHome: true
     }"
   />
 
-> [!tip] Für wen ist das gedacht?  
-> Entwickelt für **internationale Teams**, bei denen Sprachbarrieren **Verzögerungen**, **verlorene Geschäfte** oder **kostspielige Missverständnisse** verursachen. [Mehr erfahren ...](./product/overview/markets)
+> **Für wen ist das gedacht?**  
+> _Entwickelt für internationale Teams, bei denen Sprachbarrieren zu Verzögerungen, verlorenen Geschäften oder kostspieligen Missverständnissen führen._ [Mehr erfahren ...](./product/overview/markets)
+
+<span id="HowItWorks"></span>
 
 ## Funktioniert wie Google Meet + Live-Übersetzung
 
-Vertraute Benutzeroberfläche. Universelle Kommunikation. Dieselbe Einfachheit wie Google Meet — mit sofortiger Übersetzung, die Sprachbarrieren verschwinden lässt.
-
-<span id="HowItWorks"></span>
+Vertraute Benutzeroberfläche. Universelle Kommunikation. Dieselbe Einfachheit wie Google Meet — mit Sofortübersetzung, die Sprachbarrieren verschwinden lässt.
 
 <FeatureCards
     :features="[
       {
-        title: 'Kostenlos registrieren',
+        title: 'Kostenlos anmelden',
         details: 'Wählen Sie Ihre Sprache und [erstellen Sie ein Konto](#Pricing).',
         icon: {
           light: '/signUp.png',
@@ -130,10 +130,10 @@ Vertraute Benutzeroberfläche. Universelle Kommunikation. Dieselbe Einfachheit w
 
 Nehmen wir an:
 
-> Der Benutzer verwendet **Spanisch** als **Website-Lokalisierungssprache**. Er veranstaltet ein Meeting und lädt zwei Teilnehmer ein:
->
-> - 🧑‍💼 Teilnehmer 1 verwendet die Benutzeroberfläche auf **Englisch**
-> - 👩 Teilnehmer 2 verwendet die Benutzeroberfläche auf **Chinesisch**
+Der Benutzer verwendet **Spanisch** als **Website-Lokalisierungssprache**. Er veranstaltet ein Meeting und lädt zwei Teilnehmer ein:
+
+- 🧑‍💼 Teilnehmer 1 verwendet die Benutzeroberfläche auf **Englisch**
+- 👩 Teilnehmer 2 verwendet die Benutzeroberfläche auf **Chinesisch**
 
 ### Was passiert während des Meetings?
 
@@ -166,15 +166,25 @@ Diese Änderung bedeutet:
 - Sie werden andere in der `gewählten Sprache` hören
 - Die Benutzeroberfläche wird automatisch zur `gewählten Sprache` wechseln
 
-> 📌 Hinweis: "Ihre Sprache" ist eine **einzige einheitliche Einstellung**  
+> ✨ "Ihre Sprache" ist eine **einzige einheitliche Einstellung**  
 > Sie steuert **wie Sie sprechen**, **was Sie hören** und **was Sie sehen**.  
-> In einer Sprache sprechen und in einer anderen zuhören wird **nicht unterstützt** — bewusst, um die Erfahrung einfach und vorhersagbar zu halten.
+> In einer Sprache zu sprechen und in einer anderen zu hören wird **nicht unterstützt** — bewusst, um die Erfahrung einfach und vorhersagbar zu halten.
 
-## Klare und einfache Preisgestaltung
+<br>
+<span id="VideoDemo"></span>
+<VideoPlayer src="/promo/demo-en-mx.mp4" />
 
-Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
+<span id="Testimonials"></span>
+
+## Was Kunden sagen
+
+<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
 <span id="Pricing"></span>
+
+## Klare und einfache Preise
+
+Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
 
 <PricingPlans
     :plans="[
@@ -184,7 +194,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         details: 'keine Kreditkarte erforderlich',
         items: [
           '**25** Meetings',
-          '**100** Teilnehmer Video-Meetings [💬](#3)',
+          '**100** Teilnehmer Videomeetings [💬](#3)',
           '**30** GB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',
@@ -196,7 +206,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         details: 'oder 25 € monatlich abgerechnet',
         items: [
           '**Unbegrenzte** Meetings',
-          '**150** Teilnehmer Video-Meetings [💬](#3)',
+          '**150** Teilnehmer Videomeetings [💬](#3)',
           '**2** TB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',
@@ -204,11 +214,11 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         title: '**Business** &nbsp 100+ Benutzer',
-        price: '**Individuelle Preisgestaltung**',
+        price: '**Individuelle Preise**',
         details: 'Für Datenschutz entwickelt',
         items: [
           '**Unbegrenzte** Meetings',
-          '**500** Teilnehmer Video-Meetings [💬](#3)',
+          '**500** Teilnehmer Videomeetings [💬](#3)',
           '**5** TB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',
@@ -222,15 +232,8 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
 <ContactForm buttonText="Mit unserem Team sprechen" buttonClass="alt" />
 </PricingPlans>
 
-> [!warning] 😱 Entweder Sie sprechen jede Sprache — oder jemand anderes schließt Ihre Geschäfte ab.
-
-<span id="Testimonials"></span>
-
-## Was Kunden sagen
-
-<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
-
-> [!tip] 🥇 Ihre Zeit ist besser damit verbracht, Ihr Handwerk zu meistern — nicht Grammatik auswendig zu lernen.
+> 💡 **_Ihre Zeit ist besser damit verbracht, Ihr Handwerk zu meistern — nicht Grammatik auswendig zu lernen._**  
+> 💡 **_Echte Partnerschaften beginnen mit echten Gesprächen — in ihrer Sprache._**
 
 ## Häufig gestellte Fragen
 
@@ -248,7 +251,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         q: 'Wie viele Personen können eine InterMind-Lizenz verwenden?',
-        a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt Meetings** veranstalten. Wenn mehrere Teammitglieder gleichzeitig Meetings veranstalten müssen, benötigt jeder eine eigene Lizenz.',
+        a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt viele Meetings** veranstalten. Wenn mehrere Teammitglieder gleichzeitig Meetings veranstalten müssen, benötigt jeder eine eigene Lizenz.',
       },
       {
         q: 'Wie lange kann ein Meeting maximal dauern?',
@@ -268,11 +271,11 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         q: 'Was ist, wenn ich Hilfe oder Support benötige?',
-        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **Priority-Support** mit einem dedizierten Ansprechpartner.',
+        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **vorrangigen Support** mit einem dedizierten Ansprechpartner.',
       },
       {
         q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
-        a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Bei Kündigungen werden *Monatspläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.',
+        a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Bei Kündigungen werden *monatliche Pläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.',
       },
       {
         q: 'Kann ich InterMind für Webinare oder große Veranstaltungen verwenden?',
@@ -307,7 +310,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         links: [
           { text: 'Blog', link: './blog' },
           { text: 'Marken-Assets', link: './resources/media-kit' },
-          { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
+          { text: 'KI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

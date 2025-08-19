@@ -2,7 +2,7 @@
 description: "Vous avez des questions sur l'interprétation de réunions alimentée par l'IA, la communication multilingue ou l'intégration d'entreprise ? Nous sommes là pour vous aider — rapidement, humainement et sans confusion."
 ---
 
-# 💬 Besoin d'assistance ? Aucun délai, aucune confusion — juste des réponses.
+# 💬 Besoin d'aide ? Aucun délai, aucune confusion — juste des réponses.
 
 Faites-nous savoir ce que vous essayez d'accomplir — et nous vous aiderons à avancer.  
 Rapidement, de manière ciblée, et avec un vrai humain à l'autre bout.
@@ -30,5 +30,5 @@ Rapidement, de manière ciblée, et avec un vrai humain à l'autre bout.
 
 <br>
 
-> [!note] Nous répondons généralement dans un délai d'un jour ouvrable.  
-> Votre demande sera examinée par un vrai humain — pas un bot.
+> **Nous répondons généralement dans un délai d'un jour ouvrable.**
+> _Votre demande sera examinée par un vrai humain — pas un bot._

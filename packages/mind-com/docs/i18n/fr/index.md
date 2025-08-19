@@ -4,7 +4,7 @@ title: "Traduction vocale en direct pour les appels vidéo"
 isHome: true
 ---
 
-<HeroSection title="Rencontrez-vous dans **n'importe quelle** langue" :typingSpeed="10" text="Traduction vocale en direct dans les **appels vidéo** — communication rapide, claire et sans frontières.">
+<HeroSection title="Rencontrez-vous dans **N'importe Quelle** Langue" :typingSpeed="10" text="Traduction vocale en direct dans les appels vidéo. Compréhension instantanée, sans barrières.">
 <NavButton buttonLabel="Comment ça marche" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -30,7 +30,7 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock
     :card="{
-      title: 'L\'esprit au cœur de vos réunions',
+      title: 'L\'Esprit au Cœur de Vos Réunions',
       details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
       items: [
         '✧ **Posez n\'importe quelle question** — l\'IA trouve des réponses **dans toutes vos réunions**.',
@@ -49,10 +49,10 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: 'Conçu pour les réunions sérieuses — pas seulement pour parler',
+      title: 'Conçu pour les Réunions Sérieuses — Pas Seulement pour Parler',
       details: 'InterMind est une [plateforme de réunion vidéo de niveau professionnel](./product/overview/video-meeting-platform), pas un simple complément ou plugin léger.',
       items: [
-        '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration du calendrier — tout intégré, **prêt à l\'emploi**.',
+        '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration calendrier — tout intégré, **prêt à l\'emploi**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -66,9 +66,9 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
     :card="{
-      title: 'Confidentialité là où ça compte',
-      details: 'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle sont primordiaux.',
-      items: ['✧ [Zones de confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est', '✧ **Aucune formation de données**. Aucun accès tiers.'],
+      title: 'Confidentialité Là Où Ça Compte',
+      details: 'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle comptent le plus.',
+      items: ['✧ [Zones de Confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est', '✧ **Zéro formation de données**. Aucun accès tiers.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -78,14 +78,14 @@ isHome: true
     }"
   />
 
-> [!tip] À qui s'adresse-t-il ?  
-> Conçu pour les **équipes internationales** où les barrières linguistiques causent des **retards**, des **affaires perdues** ou des **malentendus coûteux**. [En savoir plus ...](./product/overview/markets)
+> **Pour qui est-ce destiné ?**  
+> _Conçu pour les équipes internationales où les barrières linguistiques causent des retards, des affaires perdues ou des malentendus coûteux._ [En savoir plus ...](./product/overview/markets)
+
+<span id="HowItWorks"></span>
 
 ## Fonctionne comme Google Meet + traduction en direct
 
 Interface familière. Communication universelle. Même simplicité que Google Meet — avec une traduction instantanée qui fait disparaître les barrières linguistiques.
-
-<span id="HowItWorks"></span>
 
 <FeatureCards
     :features="[
@@ -107,7 +107,7 @@ Interface familière. Communication universelle. Même simplicité que Google Me
       },
       {
         title: 'Rejoignez la réunion',
-        details: 'Cliquez sur le lien, entrez votre nom, rejoignez instantanément.',
+        details: 'Cliquez sur le lien, saisissez votre nom, rejoignez instantanément.',
         icon: {
           light: '/join.png',
           dark: '/join.png',
@@ -130,14 +130,14 @@ Interface familière. Communication universelle. Même simplicité que Google Me
 
 Supposons que :
 
-> L'utilisateur utilise l'**espagnol** comme **langue de localisation du site**. Il organise une réunion et invite deux participants :
->
-> - 🧑‍💼 Le participant 1 utilise l'interface en **anglais**
-> - 👩 Le participant 2 utilise l'interface en **chinois**
+L'utilisateur utilise l'**espagnol** comme **langue de localisation du site**. Il organise une réunion et invite deux participants :
+
+- 🧑‍💼 Le participant 1 utilise l'interface en **anglais**
+- 👩 Le participant 2 utilise l'interface en **chinois**
 
 ### Que se passe-t-il pendant la réunion ?
 
-Chaque participant **parle et entend** dans la langue qu'il a sélectionnée lors de l'accès au produit.  
+Chaque participant **parle et entend** dans la langue qu'il a sélectionnée en entrant dans le produit.  
 Ce paramètre de langue unique s'applique à :
 
 - La **langue de l'interface**
@@ -166,15 +166,25 @@ Changer cela signifie :
 - Vous entendrez les autres dans la `langue choisie`
 - L'interface basculera automatiquement vers la `langue choisie`
 
-> 📌 Note : "Votre langue" est un **paramètre unifié unique**  
+> ✨ « Votre langue » est un **paramètre unifié unique**  
 > Il contrôle **comment vous parlez**, **ce que vous entendez**, et **ce que vous voyez**.  
 > Parler dans une langue et écouter dans une autre n'est **pas pris en charge** — par conception, pour garder l'expérience simple et prévisible.
+
+<br>
+<span id="VideoDemo"></span>
+<VideoPlayer src="/promo/demo-en-mx.mp4" />
+
+<span id="Testimonials"></span>
+
+## Ce que disent nos clients
+
+<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
+
+<span id="Pricing"></span>
 
 ## Tarification claire et simple
 
 Du premier appel aux conversations fluides — à n'importe quelle échelle.
-
-<span id="Pricing"></span>
 
 <PricingPlans
     :plans="[
@@ -185,7 +195,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
         items: [
           '**25** réunions',
           '**100** participants en visioconférence [💬](#3)',
-          '**30** GB de stockage partagé par utilisateur',
+          '**30** Go de stockage partagé par utilisateur',
           'Recherche dans toutes vos réunions [💬](#2)',
           'Interprétation simultanée [💬](#1)',
         ],
@@ -197,7 +207,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
         items: [
           '**Illimitées** réunions',
           '**150** participants en visioconférence [💬](#3)',
-          '**2** TB de stockage partagé par utilisateur',
+          '**2** To de stockage partagé par utilisateur',
           'Recherche dans toutes vos réunions [💬](#2)',
           'Interprétation simultanée [💬](#1)',
         ],
@@ -209,7 +219,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
         items: [
           '**Illimitées** réunions',
           '**500** participants en visioconférence [💬](#3)',
-          '**5** TB de stockage partagé par utilisateur',
+          '**5** To de stockage partagé par utilisateur',
           'Recherche dans toutes vos réunions [💬](#2)',
           'Interprétation simultanée [💬](#1)',
           '**Zones de confidentialité** [💬](#4)',
@@ -222,15 +232,8 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
 <ContactForm buttonText="Parler à notre équipe" buttonClass="alt" />
 </PricingPlans>
 
-> [!warning] 😱 Soit vous parlez toutes les langues — soit quelqu'un d'autre conclut vos affaires.
-
-<span id="Testimonials"></span>
-
-## Ce que disent nos clients
-
-<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
-
-> [!tip] 🥇 Votre temps est mieux utilisé à maîtriser votre métier — pas à mémoriser la grammaire.
+> 💡 **_Votre temps est mieux employé à maîtriser votre métier — pas à mémoriser la grammaire._**  
+> 💡 **_Les vrais partenariats commencent par de vraies conversations — dans leur langue._**
 
 ## Questions Fréquemment Posées
 

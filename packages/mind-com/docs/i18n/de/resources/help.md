@@ -30,5 +30,5 @@ Schnell, fokussiert und mit einem echten Menschen am anderen Ende.
 
 <br>
 
-> [!note] Wir antworten normalerweise innerhalb eines Werktages.  
-> Ihre Anfrage wird von einem echten Menschen bearbeitet — nicht von einem Bot.
+> **Wir antworten normalerweise innerhalb eines Werktages.**
+> _Ihre Anfrage wird von einem echten Menschen bearbeitet — nicht von einem Bot._

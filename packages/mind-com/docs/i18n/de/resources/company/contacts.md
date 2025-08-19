@@ -22,7 +22,7 @@ Wir sorgen dafür, dass Ihre Nachricht die richtige Person erreicht.
     'Strategische Partnerschaftsmöglichkeit',
     'Investment- oder Finanzierungsgespräch',
     'Anfrage zu Unternehmenslösungen',
-    'Medien- & Presseanfrage',
+    'Medien- und Presseanfrage',
     'Rechtliche oder Compliance-Angelegenheit',
     'Sicherheitsbedenken oder Meldung',
     'Geschäftsentwicklungsvorschlag',
@@ -32,5 +32,5 @@ Wir sorgen dafür, dass Ihre Nachricht die richtige Person erreicht.
 
 <br>
 
-> [!tip] Benötigen Sie produktbezogene Hilfe?  
-> Besuchen Sie unsere [Support-Seite](../help) für schnelle Antworten und Unterstützung vom InterMind-Team.
+> **Benötigen Sie produktbezogene Hilfe?**  
+> _Besuchen Sie unsere [Support Page](../help) für schnelle Antworten und Unterstützung vom InterMind-Team._

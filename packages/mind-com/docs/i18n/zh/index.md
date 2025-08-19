@@ -4,7 +4,7 @@ title: "视频通话实时语音翻译"
 isHome: true
 ---
 
-<HeroSection title="用**任何**语言会面" :typingSpeed="10" text="**视频通话**中的实时语音翻译——快速、清晰、无界限的沟通。">
+<HeroSection title="用**任何**语言会面" :typingSpeed="10" text="视频通话中的实时语音翻译。即时理解，无障碍沟通。">
 <NavButton buttonLabel="工作原理" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="助手" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -13,7 +13,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: '翻译 ≠ 理解。这就是下一步。',
-      details: '无论使用什么语言，您的声音都能被听到——并被理解——就像您们说着同一种语言一样。',
+      details: '无论使用何种语言，您的声音都能被听到并理解——就像您们说着同一种语言一样。',
       items: [
         '✧ 自然地，[实时](./product/overview/how-it-works)进行，无需字幕或延迟。',
         '✧ AI驱动的口译捕捉语调、意图和行业专业术语。',
@@ -33,9 +33,9 @@ isHome: true
       title: '会议中的智慧大脑',
       details: 'InterMind将每次多语言通话转化为清晰、可搜索的知识。',
       items: [
-        '✧ **询问任何问题**——AI在**您的所有会议中**找到答案。',
+        '✧ **询问任何问题** — AI在**您的所有会议中**找到答案。',
         '✧ 自动提取任务、负责人和截止日期。',
-        '✧ 用任何语言即时总结要点。',
+        '✧ 即时总结任何语言的要点。',
       ],
       link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
       src: {
@@ -49,7 +49,7 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: '专为严肃会议而建——不仅仅是聊天',
+      title: '为严肃会议而生——不仅仅是聊天',
       details: 'InterMind是一个[专业级视频会议平台](./product/overview/video-meeting-platform)，而不是轻量级插件或附加组件。',
       items: [
         '✧ 1080p分辨率、智能降噪、日程安排、会议管理、屏幕共享、录制、字幕、参与者聊天和日历集成——全部内置，**即开即用**。',
@@ -66,9 +66,9 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
     :card="{
-      title: '重要的隐私保护',
-      details: 'InterMind专为信任至关重要的对话而构建——隐私和控制最为重要的地方。',
-      items: ['✧ [隐私区域](./product/overview/privacy-architecture)——欧盟、美国、东南亚', '✧ **零数据训练**。无第三方访问。'],
+      title: '重要场合的隐私保护',
+      details: 'InterMind专为信任至关重要的对话而构建——隐私和控制最为重要的场合。',
+      items: ['✧ [隐私区域](./product/overview/privacy-architecture) — 欧盟、美国、东南亚', '✧ **零数据训练**。无第三方访问。'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -78,14 +78,14 @@ isHome: true
     }"
   />
 
-> [!tip] 这适合谁？  
-> 专为**国际团队**构建，语言障碍会导致**延误**、**失去交易**或**代价高昂的误解**。[了解更多...](./product/overview/markets)
+> **这适合谁？**  
+> _专为因语言障碍导致延误、失去交易或代价高昂的误解的国际团队而构建。_ [了解更多...](./product/overview/markets)
+
+<span id="HowItWorks"></span>
 
 ## 像 Google Meet + 实时翻译一样工作
 
 熟悉的界面。通用沟通。与 Google Meet 一样简单——配备即时翻译功能，让语言障碍消失。
-
-<span id="HowItWorks"></span>
 
 <FeatureCards
     :features="[
@@ -130,25 +130,25 @@ isHome: true
 
 假设：
 
-> 用户使用**西班牙语**作为**网站本地化语言**。他们主持会议并邀请两名参与者：
->
-> - 🧑‍💼 参与者1使用**英语**界面
-> - 👩 参与者2使用**中文**界面
+用户使用**西班牙语**作为**网站本地化语言**。他们主持会议并邀请两名参与者：
+
+- 🧑‍💼 参与者1使用**英语**界面
+- 👩 参与者2使用**中文**界面
 
 ### 会议期间会发生什么？
 
-每个参与者都用他们进入产品时选择的语言**说话和听取**。  
+每个参与者都使用他们进入产品时选择的语言**说话和听取**。  
 这个单一语言设置适用于：
 
 - **界面语言**
-- **语音输入**（您说的话）
+- **语音输入**（您说的内容）
 - **翻译输出**（您听到的内容）
 
-| 参与者   | 选择的语言 | 说话语言 | 听取语言 |
-| -------- | ---------- | -------- | -------- |
-| 主持人   | 西班牙语   | 西班牙语 | 西班牙语 |
-| 参与者1  | 英语       | 英语     | 英语     |
-| 参与者2  | 中文       | 中文     | 中文     |
+| 参与者    | 选择的语言 | 说话语言 | 听取语言 |
+| --------- | ---------- | -------- | -------- |
+| 主持人    | 西班牙语   | 西班牙语 | 西班牙语 |
+| 参与者1   | 英语       | 英语     | 英语     |
+| 参与者2   | 中文       | 中文     | 中文     |
 
 [平台自动实时解释所有语音](./product/overview/how-it-works) — 因此每个人都能像说同一种语言一样进行交流。
 
@@ -162,19 +162,29 @@ isHome: true
 
 更改此设置意味着：
 
-- 您应该用`选择的语言`说话以获得准确的翻译
-- 您将用`选择的语言`听取他人的话
+- 您应该使用`选择的语言`说话以获得准确的翻译
+- 您将使用`选择的语言`听取他人的话
 - 界面将自动切换到`选择的语言`
 
-> 📌 注意："您的语言"是一个**统一的单一设置**  
+> ✨ "您的语言"是一个**统一的单一设置**  
 > 它控制**您如何说话**、**您听到什么**和**您看到什么**。  
-> 用一种语言说话而用另一种语言听取是**不支持的** — 这是设计如此，以保持体验简单和可预测。
+> 不支持用一种语言说话而用另一种语言听取 — 这是设计如此，以保持体验简单和可预测。
+
+<br>
+<span id="VideoDemo"></span>
+<VideoPlayer src="/promo/demo-en-mx.mp4" />
+
+<span id="Testimonials"></span>
+
+## 客户评价
+
+<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
+
+<span id="Pricing"></span>
 
 ## 清晰简单的定价
 
 从首次通话到流利对话——适用于任何规模。
-
-<span id="Pricing"></span>
 
 <PricingPlans
     :plans="[
@@ -222,15 +232,8 @@ isHome: true
 <ContactForm buttonText="联系我们的团队" buttonClass="alt" />
 </PricingPlans>
 
-> [!warning] 😱 要么你会说每种语言——要么别人抢走你的生意。
-
-<span id="Testimonials"></span>
-
-## 客户评价
-
-<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
-
-> [!tip] 🥇 您的时间最好用来精进技艺——而不是死记语法。
+> 💡 **_您的时间应该花在精进技艺上——而不是记忆语法。_**  
+> 💡 **_真正的合作始于真正的对话——用他们的语言。_**
 
 ## 常见问题
 
@@ -239,7 +242,7 @@ isHome: true
 <AccordionGroup
     :items="[
       {
-        q: 'InterMind支持哪些语言的口译？',
+        q: 'InterMind支持哪些语言的口译服务？',
         a: 'InterMind支持以下19种语言的**实时口译**：<br><br>- العربية (ar) – 阿拉伯语<br>- Čeština (cs) – 捷克语<br>- Deutsch (de) – 德语<br>- English (en) – 英语<br>- Español (es) – 西班牙语<br>- Français (fr) – 法语<br>- हिन्दी (hi) – 印地语<br>- Magyar (hu) – 匈牙利语<br>- Italiano (it) – 意大利语<br>- 日本語 (ja) – 日语<br>- 한국어 (ko) – 韩语<br>- Nederlands (nl) – 荷兰语<br>- Polski (pl) – 波兰语<br>- Português (pt) – 葡萄牙语<br>- Русский (ru) – 俄语<br>- Türkçe (tr) – 土耳其语<br>- 中文 (zh) – 中文<br><br>我们正在不断扩展这个列表——每个主要版本都会添加新语言。',
       },
       {
@@ -252,7 +255,7 @@ isHome: true
       },
       {
         q: '会议的最长持续时间是多少？',
-        a: '所有计划的会议都可以运行长达**24小时**。',
+        a: '所有计划的会议都可以持续**24小时**。',
       },
       {
         q: '我可以主持的会议数量有限制吗？',

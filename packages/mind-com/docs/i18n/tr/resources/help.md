@@ -22,7 +22,7 @@ Hızlı, odaklı ve karşı tarafta gerçek bir insan ile.
     'Teknik bir sorunum veya hata var',
     'Toplantı entegrasyonu konusunda yardıma ihtiyacım var',
     'Çeviri kalitesi hakkında sorularım var',
-    'Takım onboarding konusunda yardıma ihtiyacım var',
+    'Ekip onboarding konusunda yardıma ihtiyacım var',
     'Faturalandırma veya abonelik sorularım var',
     'Kurumsal özellikleri keşfetmek istiyorum',
     'Genel soru veya geri bildirim'
@@ -30,5 +30,5 @@ Hızlı, odaklı ve karşı tarafta gerçek bir insan ile.
 
 <br>
 
-> [!note] Genellikle bir iş günü içinde yanıt veriyoruz.  
-> Talebiniz gerçek bir insan tarafından incelenecek — bot tarafından değil.
+> **Genellikle bir iş günü içinde yanıt veriyoruz.**
+> _Talebiniz gerçek bir insan tarafından incelenecek — bot tarafından değil._

@@ -18,9 +18,9 @@ InterMind é uma plataforma de videoconferência multiusuário com **tradução 
 - Suporte para terminologia técnica e jargões
 - Precisão do reconhecimento: **95-98%** para idiomas principais
 
-### 2. **Pós-processamento de texto (Limpeza de texto e análise semântica)**
+### 2. **Pós-processamento de texto (limpeza de texto e análise semântica)**
 
-- **Remoção de vícios de linguagem**: eliminação de "uh", "um", repetições, gagueira
+- **Remoção de vícios de linguagem**: eliminação de "ãh", "hum", repetições, gagueira
 - **Correção de erros de reconhecimento**: correção baseada em contexto
 - **Pontuação e estruturação**: colocação automática de pontuação
 - **Extração de significado principal**: identificação de pensamentos principais e secundários
@@ -82,14 +82,14 @@ Tudo isso acontece com **latência inferior a 3 segundos** — correspondendo à
 - **Terminologia**: dicionários adaptativos para cada indústria
 - **Feedback**: sistema de avaliação de qualidade pelo usuário
 
-> [!info] Arquitetura Técnica
->
-> Todo o roteamento de áudio/vídeo é gerenciado através da nossa API Mind proprietária, desenvolvida internamente para garantir:
->
-> - **Performance**: processamento de mais de 1000 streams paralelos
-> - **Soberania de dados**: armazenamento na região selecionada
-> - **Tolerância a falhas**: 99,9% de uptime com failover automático
-> - **Escalabilidade**: escalonamento horizontal sob carga
+### Arquitetura Técnica
+
+Todo o roteamento de áudio/vídeo é gerenciado através da nossa API Mind proprietária, desenvolvida internamente para garantir:
+
+- **Performance**: processamento de mais de 1000 streams paralelos
+- **Soberania de dados**: armazenamento na região selecionada
+- **Tolerância a falhas**: 99,9% de uptime com failover automático
+- **Escalabilidade**: escalonamento horizontal sob carga
 
 ### Integração e Compatibilidade:
 

@@ -1,8 +1,8 @@
 # Yapay zeka gerçek zamanlı çevirisi nasıl çalışır
 
-## Kendi dilinizde konuşun ve dinleyin
+## Kendi Dilinizde Konuşun ve Dinleyin
 
-InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcılı bir video konferans platformudur. Her katılımcı **kendi ana dilinde** konuşabilir ve diğerlerini duyabilir, böylece dil engellerinin olmadığı doğal iletişim etkisi yaratılır.
+InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcılı bir video konferans platformudur. Her katılımcı **kendi ana dilinde** konuşabilir ve diğerlerini duyabilir, böylece dil engellerinin olmadığı doğal iletişim etkisi yaratır.
 
 ## Nasıl çalışır:
 
@@ -11,14 +11,14 @@ InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcıl
 
 ![](./interpretating.svg)
 
-### 1. **Konuşma Tanıma (Konuşmadan Metne)**
+### 1. **Konuşma tanıma (konuşmadan metne)**
 
 - Transformer modelleri kullanarak akış tanıma
 - Gürültü ve arka plan seslerini işleme
 - Teknik terminoloji ve jargon desteği
-- Tanıma doğruluğu: Ana diller için **%95-98**
+- Tanıma doğruluğu: ana diller için **%95-98**
 
-### 2. **Metin Son İşleme (Metin Temizleme ve Anlamsal Analiz)**
+### 2. **Metin son işleme (metin temizleme ve anlamsal analiz)**
 
 - **Konuşma artıklarını kaldırma**: "ee", "şey", tekrarlar, kekelemeler
 - **Tanıma hatası düzeltme**: bağlam tabanlı düzeltme
@@ -27,14 +27,14 @@ InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcıl
 - **Söylem segmentasyonu**: doğru çeviri için mantıksal bloklara ayırma
 - **Bağlamsal analiz**: önceki açıklamalar ve genel konu ile bağlantı kurma
 
-### 3. **Sinir Ağı Çevirisi**
+### 3. **Sinir ağı çevirisi**
 
 - Anlam korunarak bağlama bağlı çeviri
 - Deyimler, metaforlar ve kültürel referansları anlama
 - Konuşma tarzı uyarlaması (resmi/gayri resmi)
 - Söylemlerin duygusal rengini koruma
 
-### 4. **Konuşma Sentezi (Metinden Konuşmaya)**
+### 4. **Konuşma sentezi (metinden konuşmaya)**
 
 - Doğal tonlama ve konuşma ritmi
 - Orijinalin duraklamalarını ve vurgularını koruma
@@ -82,14 +82,14 @@ Tüm bunlar **3 saniyenin altında gecikme** ile gerçekleşir — profesyonel s
 - **Terminoloji**: her endüstri için uyarlanabilir sözlükler
 - **Geri bildirim**: kullanıcı kalite değerlendirme sistemi
 
-> [!info] Teknik Mimari
->
-> Tüm ses/video yönlendirmesi, şunları sağlamak için şirket içinde geliştirilen özel Mind API'miz aracılığıyla işlenir:
->
-> - **Performans**: 1000+ paralel akış işleme
-> - **Veri egemenliği**: seçilen bölgede depolama
-> - **Hata toleransı**: otomatik yük devretme ile %99.9 çalışma süresi
-> - **Ölçeklenebilirlik**: yük altında yatay ölçeklendirme
+### Teknik Mimari
+
+Tüm ses/video yönlendirmesi, şunları sağlamak için şirket içinde geliştirilen özel Mind API'miz aracılığıyla gerçekleştirilir:
+
+- **Performans**: 1000+ paralel akış işleme
+- **Veri egemenliği**: seçilen bölgede depolama
+- **Hata toleransı**: otomatik yük devretme ile %99.9 çalışma süresi
+- **Ölçeklenebilirlik**: yük altında yatay ölçeklendirme
 
 ### Entegrasyon ve Uyumluluk:
 

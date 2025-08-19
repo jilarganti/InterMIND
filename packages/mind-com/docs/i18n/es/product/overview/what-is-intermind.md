@@ -22,9 +22,9 @@ A lo largo de la historia, los humanos han adoptado consistentemente tecnología
 
 El aprendizaje de idiomas representa una de las últimas asignaciones ineficientes del potencial cognitivo humano. La persona promedio invierte 600–1000 horas para alcanzar competencia básica en un nuevo idioma, y la fluidez requiere más de 2000 horas de estudio dedicado. Estas son horas que podrían invertirse en desarrollar experiencia especializada en tu campo real.
 
-> [!note] 💡 Tu tiempo se aprovecha mejor dominando tu oficio — no memorizando gramática.
+> 💡 **_Tu tiempo se aprovecha mejor dominando tu oficio — no memorizando gramática._**
 
-> [!note] 💡 Las verdaderas alianzas comienzan con conversaciones reales — en su idioma.
+> 💡 **_Las verdaderas alianzas comienzan con conversaciones reales — en su idioma._**
 
 ## La filosofía de InterMIND
 

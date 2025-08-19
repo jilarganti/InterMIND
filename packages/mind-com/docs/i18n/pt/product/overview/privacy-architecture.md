@@ -10,8 +10,8 @@ Acreditamos na **transparência sobre promessas**. Só podemos garantir privacid
 
 É por isso que projetamos o InterMind com **confidencialidade baseada em região**: você escolhe onde seus dados são processados, qual estrutura legal os governa e quais modelos de IA são usados — baseado na sua zona de privacidade selecionada.
 
-> [!tip] O que é uma Zona de Privacidade?
-> Uma região configurável (UE, EUA, Ásia) que governa onde seus dados são processados e sob qual estrutura legal.
+> **O que é uma Zona de Privacidade?**  
+> _Uma região configurável (UE, EUA, Ásia) que governa onde seus dados são processados e sob qual estrutura legal._
 
 ## Princípios Fundamentais de Privacidade
 
@@ -23,13 +23,13 @@ Acreditamos na **transparência sobre promessas**. Só podemos garantir privacid
 
 ### 2. **Transparência Arquitetural**
 
-- Você pode ver explicitamente qual região está ativa para sua sessão e quais leis se aplicam (ex: GDPR na Europa, CCPA nos EUA, PDPL nos Emirados Árabes Unidos).
-- Cada sessão executa em um **modo de conformidade** designado, e essa configuração é visível e auditável.
+- Você pode ver explicitamente qual região está ativa para sua sessão e quais leis se aplicam (por exemplo, GDPR na Europa, CCPA nos EUA, PDPL nos Emirados Árabes Unidos).
+- Cada sessão é executada em um **modo de conformidade** designado, e essa configuração é visível e auditável.
 
 ### 3. **Privacidade por Padrão**
 
 - A InterMind **nunca** armazena ou reutiliza seu conteúdo para treinamento, criação de perfis ou análise comercial.
-- Não retemos transcrições ou mídia a menos que você solicite explicitamente.
+- Não retemos transcrições ou mídia, a menos que você solicite explicitamente.
 - Se você desabilitar a interpretação, **nenhum dado do usuário sai do seu dispositivo**.
 
 ## Confidencialidade Baseada em Região: Como Funciona
@@ -76,7 +76,7 @@ Não armazenamos suas reuniões, transcrições ou conversas, a menos que você 
 O InterMind oferece compatibilidade total com:
 
 - **GDPR** — Direito de acesso, exclusão, exportação e restrição de processamento. Sem perfilagem por IA.
-- **CCPA** — Sem venda de dados pessoais, opções de opt-out e práticas transparentes de coleta.
+- **CCPA** — Não venda de dados pessoais, opções de opt-out e práticas transparentes de coleta.
 - **UAE PDPL** — Armazenamento local se solicitado, controles de acesso rigorosos, sem transferências internacionais sem consentimento.
 - **China DSL/PIPL** — Processamento apenas na região, sem roteamento estrangeiro se a China for selecionada.
 
@@ -84,12 +84,12 @@ O InterMind oferece compatibilidade total com:
 
 Estamos comprometidos com total honestidade, não apenas jargão jurídico.
 
-> A InterMind **não pode garantir** como LLMs de terceiros ou provedores de infraestrutura processam dados uma vez que saem do nosso controle.
+> A InterMind não pode garantir como LLMs de terceiros ou provedores de infraestrutura processam dados uma vez que saem do nosso controle.
 
-### NÓS NÃO garantimos:
+### NÃO garantimos:
 
 - Que OpenAI, Anthropic ou outros provedores de LLM não registrem ou retenham dados de entrada.
-- Que hosts em nuvem não tenham acesso a mídia transmitida através de seus sistemas (a menos que você esteja usando um enclave seguro ou implantação empresarial).
+- Que hospedeiros em nuvem não tenham acesso a mídia transmitida através de seus sistemas (a menos que você esteja usando um enclave seguro ou implantação empresarial).
 - Que conteúdo passado para um modelo de terceiros esteja fora do escopo de treinamento deles (a menos que sob contrato privado).
 
 ### NÓS garantimos:
@@ -102,11 +102,11 @@ Estamos comprometidos com total honestidade, não apenas jargão jurídico.
 
 Você pode personalizar sua sessão para atender às suas necessidades de confidencialidade:
 
-| Modo de Confiança | Interpretação | Transferência Entre Regiões | Armazenamento      | Melhor Para                                    |
-| ----------------- | ------------- | --------------------------- | ------------------ | ---------------------------------------------- |
-| 🔒 Apenas Local   | ❌            | ❌                          | ❌                 | Jurídico, governo, revisões internas          |
-| 🔐 Bloqueado por Região | ✅      | ✅ (apenas dentro da zona)  | ❌ ou apenas sessão | Saúde, finanças, RH                           |
-| 🌐 Flexibilidade Global | ✅      | ✅ (multi-região)           | ✅                 | Suporte, vendas, equipes multinacionais       |
+| Modo de Confiança | Interpretação | Transferência Entre Regiões | Armazenamento      | Melhor Para                              |
+| ----------------- | ------------- | --------------------------- | ------------------ | ---------------------------------------- |
+| 🔒 Apenas Local   | ❌             | ❌                          | ❌                 | Jurídico, governo, revisões internas     |
+| 🔐 Bloqueado por Região | ✅       | ✅ (apenas dentro da zona)  | ❌ ou apenas sessão | Saúde, finanças, RH                     |
+| 🌐 Flexibilidade Global | ✅       | ✅ (multi-região)           | ✅                 | Suporte, vendas, equipes multinacionais |
 
 ## O que você obtém pronto para uso
 
@@ -118,7 +118,7 @@ Você pode personalizar sua sessão para atender às suas necessidades de confid
 
 ## Conclusão
 
-> [!note] Privacidade não é uma promessa — é uma arquitetura.
+> Privacidade não é uma promessa — é uma arquitetura.
 
 O InterMind não se esconde atrás de garantias vagas. Em vez disso, oferecemos **escolhas**, **visibilidade** e **controle**.
 

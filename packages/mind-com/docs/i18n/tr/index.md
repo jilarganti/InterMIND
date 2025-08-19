@@ -1,10 +1,10 @@
 ---
 layout: home
-title: "Video aramalar için canlı konuşma çevirisi"
+title: "Video görüşmeler için canlı konuşma çevirisi"
 isHome: true
 ---
 
-<HeroSection title="**Her** Dilde Buluşun" :typingSpeed="10" text="**Video aramalarda** canlı konuşma çevirisi — hızlı, net, sınırsız iletişim.">
+<HeroSection title="**Herhangi** Bir Dilde Buluşun" :typingSpeed="10" text="Video görüşmelerde canlı konuşma çevirisi. Anında anlayış, engel yok.">
 <NavButton buttonLabel="Nasıl çalışır" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Asistan" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -12,7 +12,7 @@ isHome: true
 <span id="1"></span>
 <FeatureBlock
     :card="{
-      title: 'Çeviri ≠ Anlama. İşte sıradaki adım.',
+      title: 'Çeviri ≠ Anlayış. İşte sıradaki adım.',
       details: 'Dil ne olursa olsun, sesiniz duyulur — ve anlaşılır — sanki aynı dili konuşuyormuşsunuz gibi.',
       items: [
         '✧ Doğal olarak, [gerçek zamanlı](./product/overview/how-it-works) ve altyazı veya gecikme olmadan.',
@@ -30,8 +30,8 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock
     :card="{
-      title: 'Toplantılarınızdaki Akıl',
-      details: 'InterMind her çok dilli aramayı net, aranabilir bilgiye dönüştürür.',
+      title: 'Toplantılarınızdaki Zihin',
+      details: 'InterMind her çok dilli görüşmeyi net, aranabilir bilgiye dönüştürür.',
       items: [
         '✧ **Her şeyi sorun** — AI **toplantılarınız genelinde** cevaplar bulur.',
         '✧ Görevleri, sahiplerini ve son tarihleri otomatik çıkarır.',
@@ -49,10 +49,10 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: 'Ciddi Toplantılar İçin Yapıldı — Sadece Konuşmak İçin Değil',
+      title: 'Ciddi Toplantılar İçin Tasarlandı — Sadece Konuşmak İçin Değil',
       details: 'InterMind [profesyonel seviye video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
       items: [
-        '✧ 1080p çözünürlük, akıllı gürültü bastırma, planlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
+        '✧ 1080p çözünürlük, akıllı gürültü bastırma, zamanlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -67,7 +67,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Önemli Olan Yerde Gizlilik',
-      details: 'InterMind güven gerektiren konuşmalar için yapıldı — gizlilik ve kontrolün en önemli olduğu yerde.',
+      details: 'InterMind güven gerektiren konuşmalar için tasarlandı — gizlilik ve kontrolün en önemli olduğu yerde.',
       items: ['✧ [Gizlilik Bölgeleri](./product/overview/privacy-architecture) — AB, ABD, Güneydoğu Asya', '✧ **Sıfır veri eğitimi**. Üçüncü taraf erişimi yok.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -78,14 +78,14 @@ isHome: true
     }"
   />
 
-> [!tip] Bu kimin için?  
-> Dil engellerinin **gecikmelere**, **kaybedilen anlaşmalara** veya **maliyetli yanlış anlamalara** neden olduğu **uluslararası ekipler** için yapıldı. [Daha fazla bilgi ...](./product/overview/markets)
+> **Bu kimler için?**  
+> _Dil engellerinin gecikmelere, kaybedilen anlaşmalara veya maliyetli yanlış anlaşılmalara neden olduğu uluslararası ekipler için tasarlandı._ [Daha fazla bilgi ...](./product/overview/markets)
+
+<span id="HowItWorks"></span>
 
 ## Google Meet + Canlı Çeviri Gibi Çalışır
 
 Tanıdık arayüz. Evrensel iletişim. Google Meet kadar kolay — dil engellerini ortadan kaldıran anlık çeviri ile.
-
-<span id="HowItWorks"></span>
 
 <FeatureCards
     :features="[
@@ -130,10 +130,10 @@ Tanıdık arayüz. Evrensel iletişim. Google Meet kadar kolay — dil engelleri
 
 Diyelim ki:
 
-> Kullanıcı **site yerelleştirme dili** olarak **İspanyolca** kullanıyor. Bir toplantı düzenliyor ve iki katılımcı davet ediyor:
->
-> - 🧑‍💼 Katılımcı 1 arayüzü **İngilizce** kullanıyor
-> - 👩 Katılımcı 2 arayüzü **Çince** kullanıyor
+Kullanıcı **site yerelleştirme dili** olarak **İspanyolca** kullanıyor. Bir toplantı düzenliyor ve iki katılımcı davet ediyor:
+
+- 🧑‍💼 Katılımcı 1 arayüzü **İngilizce** kullanıyor
+- 👩 Katılımcı 2 arayüzü **Çince** kullanıyor
 
 ### Toplantı sırasında ne olur?
 
@@ -150,7 +150,7 @@ Bu tek dil ayarı şunları kapsar:
 | Katılımcı 1   | İngilizce   | İngilizce     | İngilizce   |
 | Katılımcı 2   | Çince       | Çince         | Çince       |
 
-[Platform tüm konuşmaları gerçek zamanlı olarak otomatik yorumlar](./product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
+[Platform tüm konuşmaları gerçek zamanlı olarak otomatik olarak yorumlar](./product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
 
 ### Arama sırasında dilinizi değiştirebilir misiniz?
 
@@ -166,15 +166,25 @@ Bunu değiştirmek şu anlama gelir:
 - Diğerlerini `seçilen dilde` duyacaksınız
 - Arayüz otomatik olarak `seçilen dile` geçecek
 
-> 📌 Not: "Diliniz" **tek birleşik bir ayardır**  
+> ✨ "Diliniz" **tek birleşik bir ayardır**  
 > **Nasıl konuştuğunuzu**, **ne duyduğunuzu** ve **ne gördüğünüzü** kontrol eder.  
-> Bir dilde konuşup başka bir dilde dinlemek **desteklenmez** — tasarım gereği, deneyimi basit ve öngörülebilir tutmak için.
+> Bir dilde konuşup başka bir dilde dinlemek **desteklenmez** — deneyimi basit ve öngörülebilir tutmak için tasarım gereği.
+
+<br>
+<span id="VideoDemo"></span>
+<VideoPlayer src="/promo/demo-en-mx.mp4" />
+
+<span id="Testimonials"></span>
+
+## Müşterilerimiz Ne Diyor
+
+<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
+
+<span id="Pricing"></span>
 
 ## Açık ve Basit Fiyatlandırma
 
 İlk aramadan akıcı konuşmalara — her ölçekte.
-
-<span id="Pricing"></span>
 
 <PricingPlans
     :plans="[
@@ -222,15 +232,8 @@ Bunu değiştirmek şu anlama gelir:
 <ContactForm buttonText="Ekibimizle konuşun" buttonClass="alt" />
 </PricingPlans>
 
-> [!warning] 😱 Ya her dili konuşursunuz — ya da başkası anlaşmalarınızı kapatır.
-
-<span id="Testimonials"></span>
-
-## Müşterilerimiz Ne Diyor
-
-<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
-
-> [!tip] 🥇 Zamanınızı dilbilgisi ezberlemek yerine sanatınızda ustalaşmaya harcamanız daha iyi.
+> 💡 **_Zamanınızı gramer ezberlemek yerine uzmanlığınızı geliştirmek için harcamanız daha iyi._**  
+> 💡 **_Gerçek ortaklıklar gerçek konuşmalarla başlar — onların dilinde._**
 
 ## Sık Sorulan Sorular
 

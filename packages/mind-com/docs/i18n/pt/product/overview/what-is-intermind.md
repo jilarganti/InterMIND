@@ -22,9 +22,9 @@ Ao longo da história, os humanos têm consistentemente adotado tecnologias que 
 
 O aprendizado de idiomas representa uma das últimas alocações ineficientes do potencial cognitivo humano. A pessoa média gasta 600–1000 horas para alcançar proficiência básica em um novo idioma, com a fluência exigindo mais de 2000 horas de estudo dedicado. Essas são horas que poderiam ser investidas no desenvolvimento de expertise especializada na sua área de atuação.
 
-> [!note] 💡 Seu tempo é melhor aproveitado dominando seu ofício — não memorizando gramática.
+> 💡 **_Seu tempo é melhor gasto dominando seu ofício — não memorizando gramática._**
 
-> [!note] 💡 Parcerias reais começam com conversas reais — no idioma deles.
+> 💡 **_Parcerias reais começam com conversas reais — no idioma deles._**
 
 ## A Filosofia InterMIND
 

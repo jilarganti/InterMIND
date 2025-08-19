@@ -4,7 +4,7 @@ title: "Tradução de fala ao vivo para videochamadas"
 isHome: true
 ---
 
-<HeroSection title="Encontre-se em **Qualquer** Idioma" :typingSpeed="10" text="Tradução de fala ao vivo em **videochamadas** — comunicação rápida, clara e sem fronteiras.">
+<HeroSection title="Encontre-se em **Qualquer** Idioma" :typingSpeed="10" text="Tradução de fala ao vivo em videochamadas. Compreensão instantânea, sem barreiras.">
 <NavButton buttonLabel="Como funciona" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Assistente" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -78,14 +78,14 @@ isHome: true
     }"
   />
 
-> [!tip] Para quem é isso?  
-> Construído para **equipes internacionais** onde barreiras linguísticas causam **atrasos**, **negócios perdidos** ou **mal-entendidos custosos**. [Saiba mais ...](./product/overview/markets)
+> **Para quem é isso?**  
+> _Construído para equipes internacionais onde barreiras linguísticas causam atrasos, negócios perdidos ou mal-entendidos custosos._ [Saiba mais ...](./product/overview/markets)
+
+<span id="HowItWorks"></span>
 
 ## Funciona Como Google Meet + Tradução ao Vivo
 
 Interface familiar. Comunicação universal. A mesma facilidade do Google Meet — com tradução instantânea que faz as barreiras linguísticas desaparecerem.
-
-<span id="HowItWorks"></span>
 
 <FeatureCards
     :features="[
@@ -130,10 +130,10 @@ Interface familiar. Comunicação universal. A mesma facilidade do Google Meet �
 
 Vamos supor que:
 
-> O usuário usa **espanhol** como **idioma de localização do site**. Ele hospeda uma reunião e convida dois participantes:
->
-> - 🧑‍💼 Participante 1 usa a interface em **inglês**
-> - 👩 Participante 2 usa a interface em **chinês**
+O usuário usa **Espanhol** como **idioma de localização do site**. Ele hospeda uma reunião e convida dois participantes:
+
+- 🧑‍💼 Participante 1 usa a interface em **Inglês**
+- 👩 Participante 2 usa a interface em **Chinês**
 
 ### O que acontece durante a reunião?
 
@@ -144,11 +144,11 @@ Esta configuração única de idioma se aplica a:
 - A **entrada falada** (o que você fala)
 - A **saída traduzida** (o que você ouve)
 
-| Participante  | Idioma Selecionado | Fala Em   | Ouve Em   |
-| ------------- | ------------------ | --------- | --------- |
-| Anfitrião     | Espanhol           | Espanhol  | Espanhol  |
-| Participante 1| Inglês             | Inglês    | Inglês    |
-| Participante 2| Chinês             | Chinês    | Chinês    |
+| Participante   | Idioma Selecionado | Fala Em   | Ouve Em   |
+| -------------- | ------------------ | --------- | --------- |
+| Anfitrião      | Espanhol           | Espanhol  | Espanhol  |
+| Participante 1 | Inglês             | Inglês    | Inglês    |
+| Participante 2 | Chinês             | Chinês    | Chinês    |
 
 [A plataforma interpreta automaticamente toda a fala em tempo real](./product/overview/how-it-works) — então todos se comunicam como se falassem o mesmo idioma.
 
@@ -166,15 +166,25 @@ Alterar isso significa:
 - Você ouvirá os outros no `idioma escolhido`
 - A interface mudará automaticamente para o `idioma escolhido`
 
-> 📌 Nota: "Seu Idioma" é uma **configuração única unificada**  
+> ✨ "Seu Idioma" é uma **configuração única unificada**  
 > Ela controla **como você fala**, **o que você ouve** e **o que você vê**.  
 > Falar em um idioma e ouvir em outro **não é suportado** — por design, para manter a experiência simples e previsível.
 
-## Preços Claros e Simples
+<br>
+<span id="VideoDemo"></span>
+<VideoPlayer src="/promo/demo-en-mx.mp4" />
 
-Da primeira chamada às conversas fluentes — em qualquer escala.
+<span id="Testimonials"></span>
+
+## O que os clientes estão dizendo
+
+<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
 <span id="Pricing"></span>
+
+## Preços Claros e Simples
+
+Da primeira ligação às conversas fluentes — em qualquer escala.
 
 <PricingPlans
     :plans="[
@@ -195,7 +205,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
         price: '**$20** /mês/usuário, cobrado anualmente',
         details: 'ou $25 cobrado mensalmente',
         items: [
-          '**Reuniões ilimitadas**',
+          '**Ilimitadas** reuniões',
           '**150** participantes em videochamadas [💬](#3)',
           '**2** TB de armazenamento compartilhado por usuário',
           'Pesquise em todas as suas reuniões [💬](#2)',
@@ -205,9 +215,9 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       {
         title: '**Empresarial** &nbsp 100+ usuários',
         price: '**Preço personalizado**',
-        details: 'Desenvolvido para privacidade',
+        details: 'Construído para privacidade',
         items: [
-          '**Reuniões ilimitadas**',
+          '**Ilimitadas** reuniões',
           '**500** participantes em videochamadas [💬](#3)',
           '**5** TB de armazenamento compartilhado por usuário',
           'Pesquise em todas as suas reuniões [💬](#2)',
@@ -222,15 +232,8 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
 <ContactForm buttonText="Fale com nossa equipe" buttonClass="alt" />
 </PricingPlans>
 
-> [!warning] 😱 Ou você fala todos os idiomas — ou outra pessoa fecha seus negócios.
-
-<span id="Testimonials"></span>
-
-## O que os clientes estão dizendo
-
-<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
-
-> [!tip] 🥇 Seu tempo é melhor aproveitado dominando sua arte — não memorizando gramática.
+> 💡 **_Seu tempo é melhor gasto dominando sua profissão — não memorizando gramática._**  
+> 💡 **_Parcerias reais começam com conversas reais — no idioma deles._**
 
 ## Perguntas Frequentes
 
@@ -260,7 +263,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       },
       {
         q: 'Como o InterMind garante a privacidade e segurança dos dados?',
-        a: 'O InterMind é **privado por design**. Todos os dados são processados e armazenados dentro da sua **Zona de Privacidade** selecionada — _UE_, _EUA_ ou _Ásia_. Cumprimos com [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) e UAE PDPL, e **nunca usamos seu conteúdo** para treinamento ou acesso de terceiros. Controle avançado de [Zona de Privacidade](./product/overview/privacy-architecture) está disponível no plano **Business**.',
+        a: 'O InterMind é **privado por design**. Todos os dados são processados e armazenados dentro da sua **Zona de Privacidade** selecionada — _UE_, _EUA_, ou _Ásia_. Cumprimos com [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), e UAE PDPL, e **nunca usamos seu conteúdo** para treinamento ou acesso de terceiros. Controle avançado de [Zona de Privacidade](./product/overview/privacy-architecture) está disponível no plano **Business**.',
       },
       {
         q: 'Posso experimentar o InterMind antes de comprar um plano?',
@@ -272,7 +275,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       },
       {
         q: 'Como gerencio minha assinatura (upgrade, downgrade ou cancelamento)?',
-        a: 'Você pode alterar seu plano a qualquer momento através das **configurações da conta**. As alterações entram em vigor **imediatamente**. Para cancelamentos, *planos mensais* são cancelados no final do ciclo de cobrança. *Planos anuais* podem ser cancelados com **reembolso proporcional**.',
+        a: 'Você pode alterar seu plano a qualquer momento através das **configurações da conta**. As alterações entram em vigor **imediatamente**. Para cancelamentos, *Planos mensais* cancelam no final do ciclo de cobrança. *Planos anuais* podem ser cancelados para um **reembolso proporcional**.',
       },
       {
         q: 'Posso usar o InterMind para webinars ou grandes eventos?',
@@ -307,7 +310,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
         links: [
           { text: 'Blog', link: './blog' },
           { text: 'Recursos da marca', link: './resources/media-kit' },
-          { text: 'Documentação da API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
+          { text: 'Documentação AI API / LLM', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

@@ -4,7 +4,7 @@ title: "화상 통화를 위한 실시간 음성 번역"
 isHome: true
 ---
 
-<HeroSection title="**모든** 언어로 만나세요" :typingSpeed="10" text="**화상 통화**에서 실시간 음성 번역 — 빠르고, 명확하며, 경계 없는 소통.">
+<HeroSection title="**모든** 언어로 만나세요" :typingSpeed="10" text="화상 통화에서 실시간 음성 번역. 즉시 이해, 장벽 없음.">
 <NavButton buttonLabel="작동 방식" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="어시스턴트" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -66,9 +66,9 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
     :card="{
-      title: '중요한 곳의 프라이버시',
-      details: 'InterMind는 프라이버시와 통제가 가장 중요한 신뢰가 중요한 대화를 위해 구축되었습니다.',
-      items: ['✧ [프라이버시 존](./product/overview/privacy-architecture) — EU, US, 동남아시아', '✧ **데이터 훈련 제로**. 제3자 접근 없음.'],
+      title: '중요한 곳의 개인정보 보호',
+      details: 'InterMind는 개인정보 보호와 통제가 가장 중요한 신뢰가 중요한 대화를 위해 구축되었습니다.',
+      items: ['✧ [개인정보 보호 구역](./product/overview/privacy-architecture) — EU, US, SE Asia', '✧ **데이터 훈련 제로**. 제3자 접근 없음.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -78,14 +78,14 @@ isHome: true
     }"
   />
 
-> [!tip] 누구를 위한 것인가요?  
-> 언어 장벽이 **지연**, **거래 손실**, 또는 **비용이 많이 드는 오해**를 야기하는 **국제 팀**을 위해 구축되었습니다. [더 알아보기 ...](./product/overview/markets)
+> **누구를 위한 것인가요?**  
+> _언어 장벽으로 인해 지연, 거래 손실 또는 비용이 많이 드는 오해가 발생하는 국제 팀을 위해 구축되었습니다._ [더 알아보기 ...](./product/overview/markets)
+
+<span id="HowItWorks"></span>
 
 ## Google Meet + 실시간 번역처럼 작동
 
 친숙한 인터페이스. 범용 커뮤니케이션. Google Meet과 같은 편리함 — 언어 장벽을 사라지게 하는 즉석 번역 기능과 함께.
-
-<span id="HowItWorks"></span>
 
 <FeatureCards
     :features="[
@@ -130,10 +130,10 @@ isHome: true
 
 다음과 같은 상황을 가정해 보겠습니다:
 
-> 사용자가 **스페인어**를 **사이트 현지화 언어**로 사용합니다. 그들이 회의를 주최하고 두 명의 참가자를 초대합니다:
->
-> - 🧑‍💼 참가자 1은 **영어** 인터페이스를 사용합니다
-> - 👩 참가자 2는 **중국어** 인터페이스를 사용합니다
+사용자가 **스페인어**를 **사이트 현지화 언어**로 사용합니다. 그들이 회의를 주최하고 두 명의 참가자를 초대합니다:
+
+- 🧑‍💼 참가자 1은 **영어** 인터페이스를 사용합니다
+- 👩 참가자 2는 **중국어** 인터페이스를 사용합니다
 
 ### 회의 중에는 무슨 일이 일어날까요?
 
@@ -157,7 +157,7 @@ isHome: true
 네. **설정**을 열고 `내 언어` 필드를 변경할 수 있습니다:
 
 :::details 설정 패널
-<img src="/settings.png" alt="설정 패널" width="300px" />
+<img src="/settings.png" alt="설정-패널" width="300px" />
 :::
 
 이를 변경하면:
@@ -166,15 +166,25 @@ isHome: true
 - 다른 사람들의 말을 `선택한 언어`로 듣게 됩니다
 - 인터페이스가 자동으로 `선택한 언어`로 전환됩니다
 
-> 📌 참고: "내 언어"는 **단일 통합 설정**입니다  
+> ✨ "내 언어"는 **단일 통합 설정**입니다  
 > 이는 **말하는 방식**, **듣는 내용**, **보는 내용**을 제어합니다.  
 > 한 언어로 말하고 다른 언어로 듣는 것은 **지원되지 않습니다** — 경험을 단순하고 예측 가능하게 유지하기 위한 의도적인 설계입니다.
+
+<br>
+<span id="VideoDemo"></span>
+<VideoPlayer src="/promo/demo-en-mx.mp4" />
+
+<span id="Testimonials"></span>
+
+## 고객들의 후기
+
+<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
+
+<span id="Pricing"></span>
 
 ## 명확하고 간단한 가격
 
 첫 통화부터 유창한 대화까지 — 모든 규모에서.
-
-<span id="Pricing"></span>
 
 <PricingPlans
     :plans="[
@@ -183,7 +193,7 @@ isHome: true
         price: '**무료**',
         details: '신용카드 불필요',
         items: [
-          '**25**회 회의',
+          '**25**개 회의',
           '**100**명 참가자 화상 회의 [💬](#3)',
           '사용자당 **30** GB 공유 저장소',
           '모든 회의 검색 [💬](#2)',
@@ -222,15 +232,8 @@ isHome: true
 <ContactForm buttonText="팀과 상담하기" buttonClass="alt" />
 </PricingPlans>
 
-> [!warning] 😱 모든 언어를 구사하거나 — 아니면 다른 사람이 당신의 거래를 성사시킵니다.
-
-<span id="Testimonials"></span>
-
-## 고객들의 후기
-
-<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
-
-> [!tip] 🥇 당신의 시간은 문법을 암기하는 것보다 기술을 익히는 데 더 잘 활용됩니다.
+> 💡 **_당신의 시간은 문법을 암기하는 것보다 기술을 익히는 데 더 잘 쓰여야 합니다._**  
+> 💡 **_진정한 파트너십은 진정한 대화에서 시작됩니다 — 그들의 언어로._**
 
 ## 자주 묻는 질문
 
@@ -271,7 +274,7 @@ isHome: true
         a: '[도움말 센터](./resources/help)를 통해 지원을 받을 수 있습니다. *Business* 사용자는 전담 연락처를 통한 **우선 지원**을 받습니다.',
       },
       {
-        q: '구독을 어떻게 관리하나요(업그레이드, 다운그레이드 또는 취소)?',
+        q: '구독을 어떻게 관리하나요 (업그레이드, 다운그레이드 또는 취소)?',
         a: '**계정 설정**을 통해 언제든지 플랜을 변경할 수 있습니다. 변경사항은 **즉시** 적용됩니다. 취소의 경우, *월간 플랜*은 청구 주기 말에 취소됩니다. *연간 플랜*은 **비례 환불**로 취소할 수 있습니다.',
       },
       {
