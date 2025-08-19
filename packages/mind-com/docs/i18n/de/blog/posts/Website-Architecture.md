@@ -13,7 +13,7 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 Die mind.com-Website stellt ein herausragendes Beispiel moderner Architektur für Marketing-Websites dar und kombiniert JAMstack-Entwicklungs-Best-Practices mit modernsten KI-Technologien. In dieser technischen Analyse werden wir die architektonischen Entscheidungen, die diesem Projekt zugrunde liegen, detailliert untersuchen. Das Projekt ist Teil des InterMIND-Monorepos, funktioniert aber als unabhängige statische Plattform mit dynamischen Fähigkeiten.
 
-**Wichtige architektonische Innovationen** umfassen mehrere technische Lösungen, die das Projekt von typischen Marketing-Websites unterscheiden.
+> **Wichtige architektonische Innovationen** umfassen mehrere technische Lösungen, die das Projekt von typischen Marketing-Websites unterscheiden.
 
 ## KI-gestütztes automatisches Übersetzungssystem
 

@@ -13,7 +13,7 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 Le site web mind.com représente un exemple remarquable d'architecture moderne pour les sites marketing, combinant les meilleures pratiques de développement JAMstack avec des technologies IA de pointe. Dans cette analyse technique, nous examinerons en détail les décisions architecturales qui sous-tendent ce projet, qui fait partie du monorepo InterMIND mais fonctionne comme une plateforme statique indépendante avec des capacités dynamiques.
 
-**Les innovations architecturales clés** incluent plusieurs solutions techniques qui distinguent le projet des sites marketing typiques.
+> **Les innovations architecturales clés** incluent plusieurs solutions techniques qui distinguent le projet des sites marketing typiques.
 
 ## Système de traduction automatique alimenté par l'IA
 
@@ -21,7 +21,7 @@ Le système traduit automatiquement tout le contenu du site en plus de 20 langue
 
 ## Chat IA de recherche avec contenu indexé
 
-Le chat IA fonctionne avec du contenu de site pré-indexé, éliminant la génération d'informations inexactes. Pendant le processus de construction (`pnpm build`), tout le contenu est converti en embeddings vectoriels et téléchargé vers Upstash Vector — une base de données vectorielle serverless. La recherche utilise la correspondance sémantique via la similarité cosinus pour trouver les fragments de documentation pertinents. L'architecture RAG permet au modèle IA (Claude 3.5 Haiku ou GPT-4) de générer des réponses basées exclusivement sur les fragments trouvés dans la base de connaissances. Le chat détecte automatiquement la langue de la requête et répond dans la même langue, supportant plus de 100 langues sans configuration manuelle.
+Le chat IA fonctionne avec du contenu de site pré-indexé, éliminant la génération d'informations inexactes. Pendant le processus de construction (`pnpm build`), tout le contenu est converti en embeddings vectoriels et téléchargé vers Upstash Vector — une base de données vectorielle serverless. La recherche utilise la correspondance sémantique via la similarité cosinus pour trouver les fragments de documentation pertinents. L'architecture RAG permet au modèle IA (Claude 3.5 Haiku ou GPT-4) de générer des réponses basées exclusivement sur les fragments trouvés dans la base de connaissances. Le chat détecte automatiquement la langue de la requête et répond dans la même langue, prenant en charge plus de 100 langues sans configuration manuelle.
 
 ## Architecture fondamentale : VitePress + Vue.js
 
@@ -111,7 +111,7 @@ Mind.com prend en charge plus de 20 langues avec un support complet de la direct
 
 **L'architecture IA double** utilise OpenAI GPT-4 et Anthropic Claude avec commutation automatique de modèle en cas d'erreurs. Le système inclut la traduction incrémentale (seulement les fichiers modifiés), la synchronisation automatique de la structure des fichiers, et la vérification optionnelle de compilation des fichiers traduits via `checkBuildErrors: true`.
 
-**L'ingénierie de prompt intelligente** assure la préservation du formatage markdown, l'immutabilité des blocs de code, le maintien de tous les liens et références, et la traduction uniquement du texte en langage naturel. Le système divise automatiquement les gros fichiers en sections pour un traitement optimal par les modèles IA.
+**L'ingénierie de prompts intelligente** assure la préservation du formatage markdown, l'immutabilité des blocs de code, le maintien de tous les liens et références, et la traduction uniquement du texte en langage naturel. Le système divise automatiquement les gros fichiers en sections pour un traitement optimal par les modèles IA.
 
 **La gestion d'erreurs et la correction automatique** inclut la commutation automatique vers le modèle suivant en cas d'erreurs de traduction, la sauvegarde de fichiers partiellement traduits avec l'extension `.log`, la retraduction de fichiers problématiques utilisant tous les modèles disponibles, et le rapport final des fichiers qui n'ont pas pu être corrigés.
 
@@ -167,13 +167,13 @@ Les **événements dataLayer personnalisés** pour le suivi des expérimentation
 
 L'architecture de Mind.com offre une **amélioration des performances de 35 à 60%** par rapport aux approches traditionnelles. Les sites JAMstack se chargent 35% plus rapidement, avec 50% atteignant le First Contentful Paint en moins d'1 seconde.
 
-**La gestion du trafic** est améliorée de 10x par rapport aux architectures traditionnelles rendues côté serveur à des coûts considérablement réduits grâce à la distribution CDN et à la mise à l'échelle serverless.
+La **gestion du trafic** est améliorée de 10 fois par rapport aux architectures traditionnelles rendues côté serveur, à des coûts considérablement réduits grâce à la distribution CDN et à la mise à l'échelle serverless.
 
 ### Expérience développeur
 
-**Monorepo avec pnpm** offre une vitesse d'installation supérieure : npm (~45s), yarn (~35s), pnpm (~22s), avec 85MB d'espace disque partagé total au lieu de 130MB par projet pour npm.
+Le **monorepo avec pnpm** offre une vitesse d'installation supérieure : npm (~45s), yarn (~35s), pnpm (~22s), avec 85MB d'espace disque partagé total au lieu de 130MB par projet pour npm.
 
-**L'optimisation CI/CD** inclut la création dynamique de tâches parallèles pour chaque package affecté, les builds incrémentaux, et les déclencheurs de déploiement automatique avec synchronisation du contenu.
+L'**optimisation CI/CD** inclut la création dynamique de tâches parallèles pour chaque package affecté, les builds incrémentaux, et les déclencheurs de déploiement automatique avec synchronisation du contenu.
 
 ## Avantages concurrentiels
 

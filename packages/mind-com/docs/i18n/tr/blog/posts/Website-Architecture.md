@@ -11,9 +11,9 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 <img src="/blog/iStock-681469612.jpg" alt="BAE dirhemi" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-mind.com web sitesi, JAMstack geliştirme en iyi uygulamalarını son teknoloji AI teknolojileriyle birleştiren pazarlama siteleri için modern mimarinin mükemmel bir örneğini temsil ediyor. Bu teknik analizde, InterMIND monorepo\'sunun bir parçası olan ancak dinamik yeteneklere sahip bağımsız bir statik platform olarak işlev gören bu projenin altında yatan mimari kararları ayrıntılı olarak inceleyeceğiz.
+Mind.com web sitesi, JAMstack geliştirme en iyi uygulamalarını son teknoloji AI teknolojileriyle birleştirerek pazarlama siteleri için modern mimarinin mükemmel bir örneğini temsil ediyor. Bu teknik analizde, InterMIND monorepo\'sunun bir parçası olan ancak dinamik yeteneklere sahip bağımsız bir statik platform olarak işlev gören bu projenin altında yatan mimari kararları ayrıntılı olarak inceleyeceğiz.
 
-**Temel mimari yenilikler**, projeyi tipik pazarlama sitelerinden ayıran çeşitli teknik çözümler içeriyor.
+> **Temel mimari yenilikler**, projeyi tipik pazarlama sitelerinden ayıran çeşitli teknik çözümler içeriyor.
 
 ## Yapay Zeka Destekli Otomatik Çeviri Sistemi
 

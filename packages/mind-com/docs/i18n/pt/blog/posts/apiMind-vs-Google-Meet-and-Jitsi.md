@@ -95,9 +95,9 @@ Não vamos parar por aqui. Nosso roadmap para 2025 inclui:
 2. **Selective Forward Unit (SFU) 2.0** — Arquitetura revolucionária para escalar até mais de 1000 participantes
 3. **Integração com edge computing** — Latência reduzida através de infraestrutura distribuída
 
-## Experimente Você Mesmo
+## Experimente a Diferença Você Mesmo
 
-Números são bons, mas experiência pessoal é melhor. Convidamos você a:
+Os dados contam uma história, mas sua própria experiência escreve o capítulo final. Não acredite apenas na nossa palavra:
 
 - [Download the full test report - 2024](/Presentation-TDL-2024.pdf) (90 páginas de métricas detalhadas)
 - [Download the full test report - 2023](/Presentation-TDL-2023.pdf) (85 páginas de métricas detalhadas)
@@ -110,11 +110,11 @@ O benchmark independente confirmou: apiMind não é apenas "mais uma plataforma 
 - Os dispositivos são diversos
 - Mas a comunicação deve sempre funcionar
 
-Não somos perfeitos, mas somos honestos. Conhecemos nossos pontos fortes e trabalhamos abertamente nas melhorias. Mais importante ainda — **somos otimizados para suas condições reais de trabalho, não para testes de laboratório**.
+> Não somos perfeitos, mas somos honestos. Conhecemos nossos pontos fortes e trabalhamos abertamente nas melhorias. Mais importante — **somos otimizados para suas condições reais de trabalho, não para testes de laboratório**.
 
 ---
 
-_Pesquisa conduzida pela TestDevLab (Letônia) em julho de 2024. Metodologia: 3 participantes, Windows/Chrome, testando sob condições variáveis de largura de banda (Ilimitada→2M→500K→200K), perda de pacotes (0→10%→20%), e jitter/latência (0/0→100/30→500/90→1500/270ms)._
+_Pesquisa conduzida pela TestDevLab (Letônia) em julho de 2024. Metodologia: 3 participantes, Windows/Chrome, testando sob condições de largura de banda variáveis (Ilimitada→2M→500K→200K), perda de pacotes (0→10%→20%), e jitter/latência (0/0→100/30→500/90→1500/270ms)._
 
 ---
 

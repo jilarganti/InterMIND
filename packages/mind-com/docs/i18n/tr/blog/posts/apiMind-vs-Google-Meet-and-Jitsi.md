@@ -45,7 +45,7 @@ Paket kaybı senaryolarında (tipik Wi-Fi ağ sorunları):
 
 ## Geliştirilmesi Gereken Alanlar: Üzerinde Çalışıyoruz
 
-Çalışmaya ihtiyaç duyan alanları açıkça kabul ediyoruz:
+Çalışılması gereken alanları açıkça kabul ediyoruz:
 
 1. **Aşırı düşük bant genişliğine uyum (200kbps)** — Video yerine sesi önceliklendiren gelişmiş algoritma zaten geliştiriliyor
 2. **Ağ iyileştirmesi sonrası kalite kurtarma** — Yeni dinamik uyum mekanizması 2025 Q1'de geliyor
@@ -95,9 +95,9 @@ Burada durmuyoruz. 2025 yol haritamız şunları içeriyor:
 2. **Selective Forward Unit (SFU) 2.0** — 1000+ katılımcıya ölçeklendirme için devrim niteliğinde mimari
 3. **Edge Computing Entegrasyonu** — Dağıtık altyapı ile azaltılmış gecikme
 
-## Kendiniz Deneyin
+## Farkı Kendiniz Deneyimleyin
 
-Sayılar iyidir, ancak kişisel deneyim daha iyidir. Sizi şunlara davet ediyoruz:
+Veriler bir hikaye anlatır, ancak kendi deneyiminiz son bölümü yazar. Sadece bizim sözümüze güvenmeyin:
 
 - [Tam test raporunu indirin - 2024](/Presentation-TDL-2024.pdf) (90 sayfa detaylı metrik)
 - [Tam test raporunu indirin - 2023](/Presentation-TDL-2023.pdf) (85 sayfa detaylı metrik)
@@ -110,7 +110,7 @@ Bağımsız kıyaslama doğruladı: apiMind sadece "başka bir görüntülü ara
 - Cihazlar çeşitli
 - Ama iletişim her zaman çalışmalı
 
-Mükemmel değiliz, ama dürüstüz. Güçlü yönlerimizi biliyoruz ve açıkça iyileştirmeler üzerinde çalışıyoruz. En önemlisi — **laboratuvar testleri için değil, gerçek çalışma koşullarınız için optimize edilmişiz**.
+> Mükemmel değiliz, ama dürüstüz. Güçlü yönlerimizi biliyoruz ve iyileştirmeler üzerinde açık bir şekilde çalışıyoruz. En önemlisi — **laboratuvar testleri için değil, gerçek çalışma koşullarınız için optimize edilmişiz**.
 
 ---
 

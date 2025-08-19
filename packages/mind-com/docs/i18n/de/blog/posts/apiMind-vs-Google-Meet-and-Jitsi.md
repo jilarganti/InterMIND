@@ -95,22 +95,22 @@ Wir hören hier nicht auf. Unsere Roadmap für 2025 umfasst:
 2. **Selective Forward Unit (SFU) 2.0** — Revolutionäre Architektur für die Skalierung auf über 1000 Teilnehmer
 3. **Edge Computing Integration** — Reduzierte Latenz durch verteilte Infrastruktur
 
-## Probieren Sie es selbst aus
+## Erleben Sie den Unterschied selbst
 
-Zahlen sind gut, aber persönliche Erfahrung ist besser. Wir laden Sie ein:
+Daten erzählen eine Geschichte, aber Ihre eigene Erfahrung schreibt das Schlusskapitel. Verlassen Sie sich nicht nur auf unser Wort:
 
-- [Vollständigen Testbericht herunterladen - 2024](/Presentation-TDL-2024.pdf) (90 Seiten detaillierte Metriken)
-- [Vollständigen Testbericht herunterladen - 2023](/Presentation-TDL-2023.pdf) (85 Seiten detaillierte Metriken)
+- [Download the full test report - 2024](/Presentation-TDL-2024.pdf) (90 Seiten detaillierter Metriken)
+- [Download the full test report - 2023](/Presentation-TDL-2023.pdf) (85 Seiten detaillierter Metriken)
 
 ## Fazit
 
-Der unabhängige Benchmark bestätigte: apiMind ist nicht nur „eine weitere Videokonferenz-Plattform". Es ist eine Lösung, die für die reale Welt entwickelt wurde, in der:
+Der unabhängige Benchmark bestätigte: apiMind ist nicht nur „eine weitere Videokonferenz-Plattform." Es ist eine Lösung, die für die reale Welt entwickelt wurde, in der:
 
 - Netzwerke unvollkommen sind
 - Geräte vielfältig sind
 - Aber Kommunikation immer funktionieren muss
 
-Wir sind nicht perfekt, aber wir sind ehrlich. Wir kennen unsere Stärken und arbeiten offen an Verbesserungen. Am wichtigsten ist — **wir sind für Ihre realen Arbeitsbedingungen optimiert, nicht für Labortests**.
+> Wir sind nicht perfekt, aber wir sind ehrlich. Wir kennen unsere Stärken und arbeiten offen an Verbesserungen. Am wichtigsten — **wir sind für Ihre realen Arbeitsbedingungen optimiert, nicht für Labortests**.
 
 ---
 

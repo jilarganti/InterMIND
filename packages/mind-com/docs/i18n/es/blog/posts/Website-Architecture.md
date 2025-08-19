@@ -13,7 +13,7 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 El sitio web mind.com representa un ejemplo sobresaliente de arquitectura moderna para sitios de marketing, combinando las mejores prácticas de desarrollo JAMstack con tecnologías de IA de vanguardia. En este análisis técnico, examinaremos en detalle las decisiones arquitectónicas que sustentan este proyecto, que forma parte del monorepo InterMIND pero funciona como una plataforma estática independiente con capacidades dinámicas.
 
-**Las innovaciones arquitectónicas clave** incluyen varias soluciones técnicas que distinguen al proyecto de los sitios de marketing típicos.
+> **Las innovaciones arquitectónicas clave** incluyen varias soluciones técnicas que distinguen al proyecto de los sitios de marketing típicos.
 
 ## Sistema de traducción automática impulsado por IA
 
@@ -111,7 +111,7 @@ La **optimización SEO de clase mundial** se logra creando páginas estáticas c
 
 La **arquitectura dual de IA** utiliza OpenAI GPT-4 y Anthropic Claude con cambio automático de modelo en caso de errores. El sistema incluye traducción incremental (solo archivos modificados), sincronización automática de estructura de archivos y verificación opcional de compilación de archivos traducidos mediante `checkBuildErrors: true`.
 
-La **ingeniería inteligente de prompts** asegura la preservación del formato markdown, inmutabilidad de bloques de código, mantenimiento de todos los enlaces y referencias, y traducción únicamente de texto en lenguaje natural. El sistema divide automáticamente archivos grandes en secciones para procesamiento óptimo por modelos de IA.
+La **ingeniería inteligente de prompts** asegura la preservación del formato markdown, inmutabilidad de bloques de código, mantenimiento de todos los enlaces y referencias, y traducción solo de texto en lenguaje natural. El sistema divide automáticamente archivos grandes en secciones para procesamiento óptimo por modelos de IA.
 
 El **manejo de errores y corrección automática** incluye cambio automático al siguiente modelo en errores de traducción, guardado de archivos parcialmente traducidos con extensión `.log`, retraducción de archivos problemáticos usando todos los modelos disponibles, y reporte final de archivos que no pudieron ser corregidos.
 

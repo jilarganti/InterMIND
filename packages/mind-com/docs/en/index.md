@@ -5,7 +5,7 @@ isHome: true
 ---
 
 <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers.">
-<NavButton buttonLabel="How it works" buttonClass="brand" to="/#HowItWorks" />
+<NavButton buttonLabel="Watch demo" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
 </HeroSection>
 
@@ -124,6 +124,11 @@ Familiar interface. Universal communication. Same ease as Google Meet — with i
     ]"
   />
 
+<!-- <br> -->
+
+<span id="VideoDemo"></span>
+<VideoPlayer src="/promo/demo-en-mx.mp4" />
+
 <span id="Example"></span>
 
 ## Example: How real-time speech translation works in a meeting
@@ -169,10 +174,6 @@ Changing this means:
 > ✨ “Your Language” is a **single unified setting**  
 > It controls **how you speak**, **what you hear**, and **what you see**.  
 > Speaking in one language and listening in another is **not supported** — by design, to keep the experience simple and predictable.
-
-<br>
-<span id="VideoDemo"></span>
-<VideoPlayer src="/promo/demo-en-mx.mp4" />
 
 <span id="Testimonials"></span>
 

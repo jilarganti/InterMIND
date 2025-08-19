@@ -42,7 +42,3 @@ Culture shouldn't be a competitive disadvantage.
 The future belongs to those who can collaborate globally — instantly, naturally, intelligently.
 
 — _The Mind.com Team_
-
----
-
-_Making the world truly borderless, one conversation at a time._

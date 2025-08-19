@@ -1,19 +1,19 @@
 ---
 layout: BlogPost
-title: "Arquitetura do Website Mind.com"
+title: "Arquitetura do Site Mind.com"
 description: "Pesquisa Técnica de uma Solução JAMstack Moderna com Integração de IA"
 date: 2025-08-15
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
-# Arquitetura do Website Mind.com: Pesquisa Técnica de uma Solução JAMstack Moderna com Integração de IA
+# Arquitetura do Site Mind.com: Pesquisa Técnica de uma Solução JAMstack Moderna com Integração de IA
 
 <img src="/blog/iStock-681469612.jpg" alt="dirham dos Emirados Árabes Unidos" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-O website mind.com representa um exemplo excepcional de arquitetura moderna para sites de marketing, combinando as melhores práticas de desenvolvimento JAMstack com tecnologias de IA de ponta. Nesta análise técnica, examinaremos em detalhes as decisões arquiteturais subjacentes a este projeto, que faz parte do monorepo InterMIND, mas funciona como uma plataforma estática independente com capacidades dinâmicas.
+O site mind.com representa um exemplo excepcional de arquitetura moderna para sites de marketing, combinando as melhores práticas de desenvolvimento JAMstack com tecnologias de IA de ponta. Nesta análise técnica, examinaremos em detalhes as decisões arquiteturais subjacentes a este projeto, que faz parte do monorepo InterMIND, mas funciona como uma plataforma estática independente com capacidades dinâmicas.
 
-**As principais inovações arquiteturais** incluem várias soluções técnicas que distinguem o projeto de sites de marketing típicos.
+> **Inovações arquiteturais principais** incluem várias soluções técnicas que distinguem o projeto de sites de marketing típicos.
 
 ## Sistema de tradução automática com IA
 
@@ -53,19 +53,19 @@ Uma das funcionalidades mais inovadoras do mind.com é a integração de capacid
 
 O **Upstash Vector** funciona como um banco de dados vetorial serverless usando o algoritmo DiskANN para busca eficiente de vizinhos mais próximos entre embeddings de até 1536 dimensões. A integração com o Vercel AI SDK fornece chatbots RAG (Retrieval-Augmented Generation) com latência mínima.
 
-As **estratégias de embedding** incluem divisão inteligente de documentos em fragmentos por períodos ou parágrafos antes da vetorização, usando modelos modernos como `text-embedding-3-small` para criar vetores de 1536 dimensões, e inserção de dados em lote em grupos de 1000 registros para desempenho otimizado.
+As **estratégias de embedding** incluem divisão inteligente de documentos em fragmentos por pontos ou parágrafos antes da vetorização, usando modelos modernos como `text-embedding-3-small` para criar vetores de 1536 dimensões, e inserção de dados em lote em grupos de 1000 registros para desempenho otimizado.
 
 ### Arquitetura Dual de IA
 
 O Mind.com implementa uma estratégia avançada usando **dois provedores de IA**: OpenAI GPT-4 e Anthropic Claude. Esta arquitetura oferece várias vantagens críticas.
 
-O **roteamento inteligente de solicitações** permite usar GPT-4 para tarefas que requerem capacidades multimodais e processamento em tempo real, enquanto o Claude é aplicado para raciocínio complexo e tarefas translinguísticas, onde demonstra desempenho de 85%+ em relação ao inglês em mais de 14 idiomas.
+O **roteamento inteligente de solicitações** permite usar GPT-4 para tarefas que requerem capacidades multimodais e processamento em tempo real, enquanto o Claude é aplicado para raciocínio complexo e tarefas multilíngues, onde demonstra desempenho de 85%+ em relação ao inglês em mais de 14 idiomas.
 
 As **estratégias de failover** incluem alternância baseada em cota (transição para Anthropic quando a cota da OpenAI é esgotada), roteamento específico por modelo e seleção dinâmica de provedor para otimização de custos.
 
 ### Detecção Automática de Idioma
 
-O sistema detecta automaticamente o idioma das solicitações recebidas sem especificação manual, suportando mais de 100 idiomas. O Claude demonstra capacidades translinguísticas superiores, suportando alternância perfeita de idiomas dentro de diálogos e compreensão de contexto cultural.
+O sistema detecta automaticamente o idioma das solicitações recebidas sem especificação manual, suportando mais de 100 idiomas. O Claude demonstra capacidades multilíngues superiores, suportando alternância perfeita de idiomas dentro de diálogos e compreensão de contexto cultural.
 
 ## Arquitetura Serverless no Vercel
 
@@ -105,7 +105,7 @@ O Mind.com suporta mais de 20 idiomas com suporte completo à direção de texto
 
 **Script de Tradução** representa uma **inovação tecnológica chave** que muda fundamentalmente a abordagem para internacionalização de websites. Diferente dos sistemas i18n tradicionais que requerem criação e manutenção constante de dicionários de tradução, este sistema **elimina completamente a necessidade de gerenciamento manual de traduções**. Ao analisar o conteúdo fonte no diretório `docs/en/`, o sistema cria automaticamente traduções em `docs/i18n/{lang}/`, suportando qualquer número de idiomas especificados na configuração. A execução é acionada por um simples comando `pnpm translate` do diretório do pacote.
 
-**Suporte universal de formatos** é uma vantagem crítica: o sistema processa Markdown, componentes Vue, TypeScript, JavaScript e quaisquer outros formatos de texto sem adaptação especial. Isso significa que **todo o conteúdo do site — desde documentação até componentes de UI — é traduzido automaticamente**, preservando estrutura, formatação e funcionalidade.
+**Suporte universal de formatos** é uma vantagem crítica: o sistema processa Markdown, componentes Vue, TypeScript, JavaScript e qualquer outro formato de texto sem adaptação especial. Isso significa que **todo o conteúdo do site — desde documentação até componentes de UI — é traduzido automaticamente**, preservando estrutura, formatação e funcionalidade.
 
 **Otimização SEO de classe mundial** é alcançada criando páginas estáticas completas para cada idioma. Diferente das soluções i18n do lado do cliente que carregam conteúdo dinamicamente, cada versão de idioma existe como uma página estática separada, garantindo **indexação perfeita pelos motores de busca** e carregamento instantâneo de conteúdo. Os bots de busca veem HTML completamente traduzido sem dependências JavaScript.
 
