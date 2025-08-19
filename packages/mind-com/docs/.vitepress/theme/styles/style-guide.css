@@ -378,6 +378,4 @@ code {
 /* Стили для blockquote */
 .vp-doc blockquote {
   border-left: 2px solid var(--vp-hl-color) !important;
-  /* border-right: 1px solid var(--vp-hl-color) !important; */
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; */
 }
