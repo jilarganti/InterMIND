@@ -13,7 +13,7 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 The mind.com website represents an outstanding example of modern architecture for marketing sites, combining JAMstack development best practices with cutting-edge AI technologies. In this technical analysis, we'll examine in detail the architectural decisions underlying this project, which is part of the InterMIND monorepo but functions as an independent static platform with dynamic capabilities.
 
-**Key architectural innovations** include several technical solutions that distinguish the project from typical marketing sites.
+> **Key architectural innovations** include several technical solutions that distinguish the project from typical marketing sites.
 
 ## AI-Powered Automatic Translation System
 

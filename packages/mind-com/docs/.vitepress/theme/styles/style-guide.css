@@ -183,11 +183,6 @@
   font-weight: bold;
 }
 
-h1.name {
-  /* font-size: 2.5rem !important; */
-  /* Adjust this value as needed */
-}
-
 .dark-only {
   display: none !important;
 }
@@ -378,4 +373,5 @@ code {
 /* Стили для blockquote */
 .vp-doc blockquote {
   border-left: 2px solid var(--vp-hl-color) !important;
+  color: inherit;
 }

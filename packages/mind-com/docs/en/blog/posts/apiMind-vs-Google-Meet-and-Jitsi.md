@@ -95,9 +95,9 @@ We're not stopping here. Our 2025 roadmap includes:
 2. **Selective Forward Unit (SFU) 2.0** — Revolutionary architecture for scaling to 1000+ participants
 3. **Edge Computing Integration** — Reduced latency through distributed infrastructure
 
-## Try It Yourself
+## Experience the Difference Yourself
 
-Numbers are good, but personal experience is better. We invite you to:
+Data tells a story, but your own experience writes the final chapter. Don't just take our word for it:
 
 - [Download the full test report - 2024](/Presentation-TDL-2024.pdf) (90 pages of detailed metrics)
 - [Download the full test report - 2023](/Presentation-TDL-2023.pdf) (85 pages of detailed metrics)
@@ -110,7 +110,7 @@ The independent benchmark confirmed: apiMind isn't just "another video calling p
 - Devices are diverse
 - But communication must always work
 
-We're not perfect, but we're honest. We know our strengths and openly work on improvements. Most importantly — **we're optimized for your real working conditions, not laboratory tests**.
+> We're not perfect, but we're honest. We know our strengths and openly work on improvements. Most importantly — **we're optimized for your real working conditions, not laboratory tests**.
 
 ---
 
