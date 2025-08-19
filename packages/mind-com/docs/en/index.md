@@ -4,7 +4,7 @@ title: "Live speech translation for video calls"
 isHome: true
 ---
 
-<HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in **video calls** — fast, clear, borderless communication.">
+<HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers.">
 <NavButton buttonLabel="How it works" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -81,11 +81,11 @@ isHome: true
 > **Who is this for?**  
 > _Built for international teams where language barriers cause delays, lost deals, or costly misunderstandings._ [Learn more ...](./product/overview/markets)
 
+<span id="HowItWorks"></span>
+
 ## Works Like Google Meet + Live Translation
 
 Familiar interface. Universal communication. Same ease as Google Meet — with instant translation that makes language barriers disappear.
-
-<span id="HowItWorks"></span>
 
 <FeatureCards
     :features="[
@@ -170,11 +170,21 @@ Changing this means:
 > It controls **how you speak**, **what you hear**, and **what you see**.  
 > Speaking in one language and listening in another is **not supported** — by design, to keep the experience simple and predictable.
 
+<br>
+<span id="VideoDemo"></span>
+<VideoPlayer src="/promo/demo-en-mx.mp4" />
+
+<span id="Testimonials"></span>
+
+## What Customers Are Saying
+
+<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
+
+<span id="Pricing"></span>
+
 ## Clear and Simple Pricing
 
 From first call to fluent conversations — at any scale.
-
-<span id="Pricing"></span>
 
 <PricingPlans
     :plans="[
@@ -224,12 +234,6 @@ From first call to fluent conversations — at any scale.
 
 > 💡 **_Your time is better spent mastering your craft — not memorizing grammar._**  
 > 💡 **_Real partnerships start with real conversations — in their language._**
-
-<span id="Testimonials"></span>
-
-## What Customers Are Saying
-
-<AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
 ## Frequently Asked Questions
 
