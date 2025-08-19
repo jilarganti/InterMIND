@@ -8,8 +8,8 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # apiMind vs Google Meet ve Jitsi: Bağımsız 2024 Kıyaslaması Avantajlarımızı Gösteriyor
 
-<img src="/blog/Screenshot 2025-08-18 at 18.54.27.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.54.10.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.54.27.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.54.10.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 > Şeffaflık ve Dürüstlük — Büyümeye Yaklaşımımız
 
@@ -52,8 +52,8 @@ Paket kaybı senaryolarında (tipik Wi-Fi ağ sorunları):
 
 ## Yıldan Yıla İlerleme: Rakamlar Kendileri İçin Konuşuyor
 
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 2023 sonuçlarıyla karşılaştırıldığında şunları başardık:
 

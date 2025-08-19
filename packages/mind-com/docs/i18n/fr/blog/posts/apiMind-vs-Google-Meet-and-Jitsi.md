@@ -8,8 +8,8 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # apiMind vs Google Meet et Jitsi : Un benchmark indépendant de 2024 montre nos avantages
 
-<img src="/blog/Screenshot 2025-08-18 at 18.54.27.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.54.10.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.54.27.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.54.10.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 > Transparence et Honnêteté — Notre approche de la croissance
 
@@ -52,8 +52,8 @@ Nous reconnaissons ouvertement les domaines qui nécessitent des améliorations 
 
 ## Progrès Annuel : Les Chiffres Parlent d'Eux-Mêmes
 
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind contre Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind contre Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind contre Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind contre Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 Comparé aux résultats de 2023, nous avons atteint :
 
@@ -63,6 +63,7 @@ Comparé aux résultats de 2023, nous avons atteint :
 - Une consommation de ressources optimisée
 
 ---
+
 title: "Pourquoi cela compte pour nos utilisateurs"
 description: "Découvrez comment apiMind améliore la fiabilité et l'efficacité pour les entreprises, l'éducation et les équipes à distance."
 
@@ -86,6 +87,7 @@ description: "Découvrez comment apiMind améliore la fiabilité et l'efficacit�
 - **Sessions prolongées sans surchauffe** : Planification de marathons et de sessions de brainstorming sans problèmes techniques
 
 ---
+
 title: "Notre approche : Axée sur des scénarios réels"
 description: "Découvrez comment apiMind se distingue par son optimisation pour des conditions réelles, garantissant une communication efficace même dans des environnements difficiles."
 
@@ -100,6 +102,7 @@ Contrairement à nos concurrents, nous optimisons apiMind pour **des conditions 
 - **apiMind** est conçu pour le monde réel — où les réseaux sont instables, les appareils sont divers et la communication est essentielle
 
 ---
+
 title: "Qu'est-ce qui vient ensuite ?"
 description: "Découvrez notre feuille de route 2025 avec des innovations comme l'adaptation réseau alimentée par l'IA et l'intégration de l'informatique en périphérie."
 

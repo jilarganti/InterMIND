@@ -8,8 +8,8 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # apiMind vs Google Meet 및 Jitsi: 2024년 독립 벤치마크에서 입증된 우리의 장점
 
-<img src="/blog/Screenshot 2025-08-18 at 18.54.27.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.54.10.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.54.27.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.54.10.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 > 투명성과 정직성 — 성장을 위한 우리의 접근 방식
 
@@ -52,8 +52,8 @@ apiMind는 테스트된 모든 플랫폼 중에서 **가장 낮은 CPU 및 GPU �
 
 ## 전년 대비 진전: 숫자가 모든 것을 말해줍니다
 
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind 대 Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind 대 Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind 대 Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind 대 Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 2023년 결과와 비교하여 다음과 같은 성과를 달성했습니다:
 

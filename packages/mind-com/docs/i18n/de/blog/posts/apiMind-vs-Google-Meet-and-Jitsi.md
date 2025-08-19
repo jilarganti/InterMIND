@@ -8,8 +8,8 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # apiMind vs Google Meet und Jitsi: Unabhängiger 2024 Benchmark zeigt unsere Vorteile
 
-<img src="/blog/Screenshot 2025-08-18 at 18.54.27.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.54.10.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.54.27.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.54.10.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 > Transparenz und Ehrlichkeit — Unser Ansatz für Wachstum
 
@@ -52,8 +52,8 @@ Wir erkennen offen Bereiche an, die Arbeit benötigen:
 
 ## Fortschritt im Jahresvergleich: Die Zahlen sprechen für sich
 
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 Im Vergleich zu den Ergebnissen von 2023 haben wir erreicht:
 

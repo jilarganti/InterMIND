@@ -8,8 +8,8 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # apiMind बनाम Google Meet और Jitsi: स्वतंत्र 2024 बेंचमार्क हमारे फायदे दिखाता है
 
-<img src="/blog/Screenshot 2025-08-18 at 18.54.27.png" alt="apiMind बनाम Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.54.10.png" alt="apiMind बनाम Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.54.27.png" alt="apiMind बनाम Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.54.10.png" alt="apiMind बनाम Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 > पारदर्शिता और ईमानदारी — विकास के लिए हमारा दृष्टिकोण
 
@@ -52,8 +52,8 @@ apiMind ने सभी परीक्षित प्लेटफॉर्म
 
 ## साल-दर-साल प्रगति: आंकड़े खुद बोलते हैं
 
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind बनाम Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind बनाम Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind बनाम Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind बनाम Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 2023 के परिणामों की तुलना में, हमने हासिल किया है:
 

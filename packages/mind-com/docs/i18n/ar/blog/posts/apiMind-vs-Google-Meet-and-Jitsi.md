@@ -8,8 +8,8 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # apiMind مقابل Google Meet و Jitsi: معيار مستقل لعام 2024 يُظهر مزايانا
 
-<img src="/blog/Screenshot 2025-08-18 at 18.54.27.png" alt="apiMind مقابل Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.54.10.png" alt="apiMind مقابل Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.54.27.png" alt="apiMind مقابل Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.54.10.png" alt="apiMind مقابل Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 > الشفافية والصدق — نهجنا في النمو
 
@@ -52,8 +52,8 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 ## التقدم المحرز على أساس سنوي: الأرقام تتحدث عن نفسها
 
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind مقابل Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind مقابل Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind مقابل Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind مقابل Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 بالمقارنة مع نتائج عام 2023، حققنا:
 
@@ -118,4 +118,4 @@ _البحث أجرته TestDevLab (لاتفيا) في يوليو 2024. المن�
 
 ---
 
-**#apiMind #مؤتمرات_الفيديو #المعايير #العمل_عن_بعد #الابتكار_التقني**
+**#apiMind #مؤتمرات*الفيديو #المعايير #العمل*عن*بعد #الابتكار*التقني**

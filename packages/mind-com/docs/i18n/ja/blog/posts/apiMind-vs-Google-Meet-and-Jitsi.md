@@ -4,13 +4,12 @@ title: "apiMind vs Google Meet と Jitsi"
 description: "独立したテストに基づくapiMindのGoogle MeetとJitsiに対するパフォーマンスの包括的比較。"
 date: 2025-08-18
 author: "[Jilarganti](https://github.com/jilarganti)"
-
 ---
 
 # apiMind vs Google Meet と Jitsi: 2024年独立ベンチマークが示す我々の優位性
 
-<img src="/blog/Screenshot 2025-08-18 at 18.54.27.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.54.10.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.54.27.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.54.10.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 > 透明性と誠実性 — 成長への我々のアプローチ
 
@@ -53,8 +52,8 @@ apiMindは、テストされた全プラットフォームの中で**最低のCP
 
 ## 前年比の進歩：数字が物語る成果
 
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 2023年の結果と比較して、以下の成果を達成しました：
 

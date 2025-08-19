@@ -8,8 +8,8 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # apiMind 与 Google Meet 和 Jitsi 对比：2024年独立基准测试显示我们的优势
 
-<img src="/blog/Screenshot 2025-08-18 at 18.54.27.png" alt="apiMind 与 Google Meet 对比" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.54.10.png" alt="apiMind 与 Jitsi 对比" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.54.27.png" alt="apiMind 与 Google Meet 对比" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.54.10.png" alt="apiMind 与 Jitsi 对比" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 > 透明与诚信——我们的发展理念
 
@@ -52,8 +52,8 @@ apiMind在所有测试平台中显示出**最低的CPU和GPU消耗**。这意味
 
 ## 年度进展对比：数据说明一切
 
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind 对比 Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/Screenshot 2025-08-18 at 18.49.39.png" alt="apiMind 对比 Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind 对比 Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind 对比 Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 与2023年的结果相比，我们已经实现了：
 
