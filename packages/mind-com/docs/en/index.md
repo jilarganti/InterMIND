@@ -78,8 +78,8 @@ isHome: true
     }"
   />
 
-> [!tip] Who is this for?  
-> Built for **international teams** where language barriers cause **delays**, **lost deals**, or **costly misunderstandings**. [Learn more ...](./product/overview/markets)
+> **Who is this for?**  
+> _Built for international teams where language barriers cause delays, lost deals, or costly misunderstandings._ [Learn more ...](./product/overview/markets)
 
 ## Works Like Google Meet + Live Translation
 
@@ -130,10 +130,10 @@ Familiar interface. Universal communication. Same ease as Google Meet — with i
 
 Let’s say:
 
-> The user uses **Spanish** as the **site localization language**. They host a meeting and invite two participants:
->
-> - 🧑‍💼 Participant 1 uses the interface in **English**
-> - 👩 Participant 2 uses the interface in **Chinese**
+The user uses **Spanish** as the **site localization language**. They host a meeting and invite two participants:
+
+- 🧑‍💼 Participant 1 uses the interface in **English**
+- 👩 Participant 2 uses the interface in **Chinese**
 
 ### What happens during the meeting?
 
@@ -166,7 +166,7 @@ Changing this means:
 - You will hear others in the `chosen language`
 - The interface will automatically switch to the `chosen language`
 
-> 📌 Note: “Your Language” is a **single unified setting**  
+> ✨ “Your Language” is a **single unified setting**  
 > It controls **how you speak**, **what you hear**, and **what you see**.  
 > Speaking in one language and listening in another is **not supported** — by design, to keep the experience simple and predictable.
 
@@ -222,15 +222,14 @@ From first call to fluent conversations — at any scale.
 <ContactForm buttonText="Talk to our team" buttonClass="alt" />
 </PricingPlans>
 
-> [!warning] 😱 Either you speak every language — or someone else closes your deals.
+> 💡 _Your time is better spent mastering your craft — not memorizing grammar._  
+> 💡 _Real partnerships start with real conversations — in their language._
 
 <span id="Testimonials"></span>
 
 ## What Customers Are Saying
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
-
-> [!tip] 🥇 Your time is better spent mastering your craft — not memorizing grammar.
 
 ## Frequently Asked Questions
 

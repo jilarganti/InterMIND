@@ -10,8 +10,8 @@ We believe in **transparency over promises**. We can only guarantee privacy and 
 
 This is why we designed InterMind with **region-based confidentiality**: you choose where your data is processed, which legal framework governs it, and which AI models are used — based on your selected privacy zone.
 
-> [!tip] What is a Privacy Zone?
-> A configurable region (EU, US, Asia) that governs where your data is processed and under which legal framework.
+> **What is a Privacy Zone?**  
+> _A configurable region (EU, US, Asia) that governs where your data is processed and under which legal framework._
 
 ## Core Privacy Principles
 
@@ -84,7 +84,7 @@ InterMind supports full compatibility with:
 
 We are committed to full honesty, not just legalese.
 
-> InterMind **cannot guarantee** how third-party LLMs or infrastructure providers process data once it leaves our control.
+> InterMind cannot guarantee how third-party LLMs or infrastructure providers process data once it leaves our control.
 
 ### We DO NOT guarantee:
 
@@ -118,7 +118,7 @@ You can customize your session to match your confidentiality needs:
 
 ## Conclusion
 
-> [!note] Privacy is not a promise — it’s an architecture.
+> Privacy is not a promise — it’s an architecture.
 
 InterMind doesn’t hide behind vague assurances. Instead, we give you **choices**, **visibility**, and **control**.
 

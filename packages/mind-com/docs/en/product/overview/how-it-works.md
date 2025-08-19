@@ -82,14 +82,14 @@ All this happens with **latency under 3 seconds** — matching the speed of prof
 - **Terminology**: adaptive dictionaries for each industry
 - **Feedback**: user quality rating system
 
-> [!info] Technical Architecture
->
-> All audio/video routing is handled through our proprietary Mind API, developed in-house to ensure:
->
-> - **Performance**: processing 1000+ parallel streams
-> - **Data sovereignty**: storage in selected region
-> - **Fault tolerance**: 99.9% uptime with automatic failover
-> - **Scalability**: horizontal scaling under load
+### Technical Architecture
+
+All audio/video routing is handled through our proprietary Mind API, developed in-house to ensure:
+
+- **Performance**: processing 1000+ parallel streams
+- **Data sovereignty**: storage in selected region
+- **Fault tolerance**: 99.9% uptime with automatic failover
+- **Scalability**: horizontal scaling under load
 
 ### Integration and Compatibility:
 
