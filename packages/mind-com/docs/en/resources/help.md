@@ -30,5 +30,5 @@ Fast, focused, and with a real human on the other end.
 
 <br>
 
-> [!note] We usually respond within one business day.  
-> Your request will be reviewed by a real human — not a bot.
+> **We usually respond within one business day.**
+> _Your request will be reviewed by a real human — not a bot._

@@ -222,8 +222,8 @@ From first call to fluent conversations — at any scale.
 <ContactForm buttonText="Talk to our team" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 _Your time is better spent mastering your craft — not memorizing grammar._  
-> 💡 _Real partnerships start with real conversations — in their language._
+> 💡 **_Your time is better spent mastering your craft — not memorizing grammar._**  
+> 💡 **_Real partnerships start with real conversations — in their language._**
 
 <span id="Testimonials"></span>
 

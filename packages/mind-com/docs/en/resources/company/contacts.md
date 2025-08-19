@@ -32,5 +32,5 @@ We’ll make sure your message reaches the right person.
 
 <br>
 
-> [!tip] Need product-related help?  
-> Visit our [Support Page](../help) for fast answers and assistance from the InterMind team.
+> **Need product-related help?**  
+> _Visit our [Support Page](../help) for fast answers and assistance from the InterMind team._
