@@ -64,6 +64,7 @@ export const de = defineConfig({
       buttonLabel4SignInButton: "Anmelden",
       buttonLabel4GetStartedButton: "Loslegen",
       buttonLabel4TryItButton: "Kostenlos testen",
+      buttonLabel4BackToBlog: "← Zurück zum Blog",
     },
     contact_form: {
       name: "Name *",
@@ -133,14 +134,14 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "KI-Rechtsleitfaden", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
-    {
-      text: "RESSOURCEN",
-      collapsed: false,
-      items: [
-        { text: "Marken-Assets", link: "/media-kit" },
-        // { text: "Kontoverwaltung", link: "guide/account-management" },
-      ],
-    },
+    // {
+    //   text: "RESSOURCEN",
+    //   collapsed: false,
+    //   items: [
+    //     { text: "Marken-Assets", link: "/media-kit" },
+    //     // { text: "Kontoverwaltung", link: "guide/account-management" },
+    //   ],
+    // },
     {
       text: "UNTERNEHMEN",
       collapsed: false,
@@ -148,7 +149,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "Über uns", link: "/company/about" },
         { text: "Team", link: "/company/team" },
         { text: "Karriere", link: "/company/careers" },
-        { text: "Kontakte", link: "/company/contacts" },
+        { text: "Kontakt", link: "/company/contacts" },
       ],
     },
   ]

@@ -64,6 +64,7 @@ export const ja = defineConfig({
       buttonLabel4SignInButton: "サインイン",
       buttonLabel4GetStartedButton: "始める",
       buttonLabel4TryItButton: "無料で試す",
+      buttonLabel4BackToBlog: "← ブログに戻る",
     },
     contact_form: {
       name: "お名前 *",
@@ -133,14 +134,14 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "AI法的ガイド", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
-    {
-      text: "リソース",
-      collapsed: false,
-      items: [
-        { text: "ブランドアセット", link: "/media-kit" },
-        // { text: "アカウント管理", link: "guide/account-management" },
-      ],
-    },
+    // {
+    //   text: "リソース",
+    //   collapsed: false,
+    //   items: [
+    //     { text: "ブランドアセット", link: "/media-kit" },
+    //     // { text: "アカウント管理", link: "guide/account-management" },
+    //   ],
+    // },
     {
       text: "会社情報",
       collapsed: false,

@@ -14,13 +14,13 @@ export const tr = defineConfig({
         content: "InterMIND video aramalar için gerçek zamanlı konuşma çevirisi sağlar — dil engellerini anında ortadan kaldırır. mind.com ekibi tarafından desteklenmektedir.",
       },
     ],
-    ["meta", { property: "og:title", content: "InterMIND | Küresel ekipler için gerçek zamanlı konuşma çevirisi" }],
+    ["meta", { property: "og:title", content: "InterMIND | Küresel Ekipler için Gerçek Zamanlı Konuşma Çevirisi" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMIND video aramalarda anlık konuşma çevirisi sunar — engelsiz, net, çok dilli iletişim. mind.com ekibi tarafından desteklenmektedir.",
+          "InterMIND video aramalarda anlık konuşma çevirisi sunar — engelsiz net, çok dilli iletişim. mind.com ekibi tarafından desteklenmektedir.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -64,9 +64,10 @@ export const tr = defineConfig({
       buttonLabel4SignInButton: "Giriş yap",
       buttonLabel4GetStartedButton: "Başlayın",
       buttonLabel4TryItButton: "Ücretsiz deneyin",
+      buttonLabel4BackToBlog: "← Bloga geri dön",
     },
     contact_form: {
-      name: "Ad *",
+      name: "İsim *",
       namePlaceholder: "adınız",
       email: "E-posta *",
       emailPlaceholder: "e-posta adresiniz",
@@ -133,19 +134,19 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "AI yasal kılavuzu", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
-    {
-      text: "KAYNAKLAR",
-      collapsed: false,
-      items: [
-        { text: "Marka varlıkları", link: "/media-kit" },
-        // { text: "Hesap yönetimi", link: "guide/account-management" },
-      ],
-    },
+    // {
+    //   text: "KAYNAKLAR",
+    //   collapsed: false,
+    //   items: [
+    //     { text: "Marka varlıkları", link: "/media-kit" },
+    //     // { text: "Hesap yönetimi", link: "guide/account-management" },
+    //   ],
+    // },
     {
       text: "ŞİRKET",
       collapsed: false,
       items: [
-        { text: "Hakkımızda", link: "/company/about" },
+        { text: "Hakkında", link: "/company/about" },
         { text: "Ekip", link: "/company/team" },
         { text: "Kariyer", link: "/company/careers" },
         { text: "İletişim", link: "/company/contacts" },

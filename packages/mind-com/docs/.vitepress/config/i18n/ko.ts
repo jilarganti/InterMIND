@@ -64,6 +64,7 @@ export const ko = defineConfig({
       buttonLabel4SignInButton: "로그인",
       buttonLabel4GetStartedButton: "시작하기",
       buttonLabel4TryItButton: "무료로 체험하기",
+      buttonLabel4BackToBlog: "← 블로그로 돌아가기",
     },
     contact_form: {
       name: "이름 *",
@@ -75,7 +76,7 @@ export const ko = defineConfig({
       webSiteError: "웹사이트를 입력해 주세요",
       category: "주요 목표는 무엇인가요? *",
       categoryPlaceholder: "가장 중요한 것을 선택하세요",
-      message: "목표에 대해 논의해 봅시다 (선택사항)",
+      message: "목표에 대해 논의해 보겠습니다 (선택사항)",
       messagePlaceholder: "추가 세부사항을 제공해 주세요 (선택사항)",
       submit: "요청 제출",
       sending: "전송 중...",
@@ -133,14 +134,14 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "AI 법적 가이드", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
-    {
-      text: "리소스",
-      collapsed: false,
-      items: [
-        { text: "브랜드 자료", link: "/media-kit" },
-        // { text: "계정 관리", link: "guide/account-management" },
-      ],
-    },
+    // {
+    //   text: "리소스",
+    //   collapsed: false,
+    //   items: [
+    //     { text: "브랜드 자산", link: "/media-kit" },
+    //     // { text: "계정 관리", link: "guide/account-management" },
+    //   ],
+    // },
     {
       text: "회사",
       collapsed: false,

@@ -14,13 +14,13 @@ export const es = defineConfig({
         content: "InterMIND proporciona traducción de voz en tiempo real para videollamadas — eliminando las barreras del idioma al instante. Desarrollado por el equipo de mind.com.",
       },
     ],
-    ["meta", { property: "og:title", content: "InterMIND | Traducción de voz en tiempo real para equipos globales" }],
+    ["meta", { property: "og:title", content: "InterMIND | Traducción de Voz en Tiempo Real para Equipos Globales" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMIND ofrece traducción de voz instantánea en videollamadas — comunicación clara y multilingüe sin barreras. Desarrollado por el equipo de mind.com.",
+          "InterMIND ofrece traducción de voz instantánea en videollamadas — comunicación multilingüe clara sin barreras. Desarrollado por el equipo de mind.com.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -64,6 +64,7 @@ export const es = defineConfig({
       buttonLabel4SignInButton: "Iniciar sesión",
       buttonLabel4GetStartedButton: "Comenzar",
       buttonLabel4TryItButton: "Probar gratis",
+      buttonLabel4BackToBlog: "← Volver al blog",
     },
     contact_form: {
       name: "Nombre *",
@@ -76,7 +77,7 @@ export const es = defineConfig({
       category: "¿Cuál es tu objetivo principal? *",
       categoryPlaceholder: "Elige lo que más te importa",
       message: "Hablemos de tus objetivos (opcional)",
-      messagePlaceholder: "Por favor proporciona detalles adicionales (opcional)",
+      messagePlaceholder: "Por favor proporciona cualquier detalle adicional (opcional)",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
@@ -97,7 +98,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "¿Qué es InterMIND?", link: "overview/what-is-intermind" },
         { text: "Cómo funciona", link: "overview/how-it-works" },
-        { text: "Plataforma de videollamadas", link: "overview/video-meeting-platform" },
+        { text: "Plataforma de videorreuniones", link: "overview/video-meeting-platform" },
         { text: "Privacidad de datos regional", link: "overview/privacy-architecture" },
         { text: "Mercados prioritarios", link: "overview/markets" },
       ],
@@ -133,14 +134,14 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "Guía legal de IA", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
-    {
-      text: "RECURSOS",
-      collapsed: false,
-      items: [
-        { text: "Recursos de marca", link: "/media-kit" },
-        // { text: "Gestión de cuenta", link: "guide/account-management" },
-      ],
-    },
+    // {
+    //   text: "RECURSOS",
+    //   collapsed: false,
+    //   items: [
+    //     { text: "Recursos de marca", link: "/media-kit" },
+    //     // { text: "Gestión de cuenta", link: "guide/account-management" },
+    //   ],
+    // },
     {
       text: "EMPRESA",
       collapsed: false,

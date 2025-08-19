@@ -64,6 +64,7 @@ export const ar = defineConfig({
       buttonLabel4SignInButton: "تسجيل الدخول",
       buttonLabel4GetStartedButton: "ابدأ الآن",
       buttonLabel4TryItButton: "جرب مجاناً",
+      buttonLabel4BackToBlog: "← العودة إلى المدونة",
     },
     contact_form: {
       name: "الاسم *",
@@ -130,17 +131,17 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "الحصول على الدعم", link: "/help" },
         { text: "سياسة الخصوصية", link: "/company/Privacy-Policy" },
-        { text: "دليل القوانين للذكاء الاصطناعي", link: "/company/Legal-Regulations-for-AI-Services" },
+        { text: "الدليل القانوني للذكاء الاصطناعي", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
-    {
-      text: "الموارد",
-      collapsed: false,
-      items: [
-        { text: "أصول العلامة التجارية", link: "/media-kit" },
-        // { text: "إدارة الحساب", link: "guide/account-management" },
-      ],
-    },
+    // {
+    //   text: "الموارد",
+    //   collapsed: false,
+    //   items: [
+    //     { text: "أصول العلامة التجارية", link: "/media-kit" },
+    //     // { text: "إدارة الحساب", link: "guide/account-management" },
+    //   ],
+    // },
     {
       text: "الشركة",
       collapsed: false,

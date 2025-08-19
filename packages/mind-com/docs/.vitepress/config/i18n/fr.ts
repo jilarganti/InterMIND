@@ -64,6 +64,7 @@ export const fr = defineConfig({
       buttonLabel4SignInButton: "Se connecter",
       buttonLabel4GetStartedButton: "Commencer",
       buttonLabel4TryItButton: "Essayer gratuitement",
+      buttonLabel4BackToBlog: "← Retour au blog",
     },
     contact_form: {
       name: "Nom *",
@@ -133,14 +134,14 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "Guide juridique IA", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
-    {
-      text: "RESSOURCES",
-      collapsed: false,
-      items: [
-        { text: "Ressources de marque", link: "/media-kit" },
-        // { text: "Gestion de compte", link: "guide/account-management" },
-      ],
-    },
+    // {
+    //   text: "RESSOURCES",
+    //   collapsed: false,
+    //   items: [
+    //     { text: "Ressources de marque", link: "/media-kit" },
+    //     // { text: "Gestion de compte", link: "guide/account-management" },
+    //   ],
+    // },
     {
       text: "ENTREPRISE",
       collapsed: false,

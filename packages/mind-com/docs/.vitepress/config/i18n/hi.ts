@@ -64,6 +64,7 @@ export const hi = defineConfig({
       buttonLabel4SignInButton: "साइन इन करें",
       buttonLabel4GetStartedButton: "शुरू करें",
       buttonLabel4TryItButton: "मुफ्त में आज़माएं",
+      buttonLabel4BackToBlog: "← ब्लॉग पर वापस जाएं",
     },
     contact_form: {
       name: "नाम *",
@@ -133,14 +134,14 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "AI कानूनी गाइड", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
-    {
-      text: "संसाधन",
-      collapsed: false,
-      items: [
-        { text: "ब्रांड एसेट्स", link: "/media-kit" },
-        // { text: "खाता प्रबंधन", link: "guide/account-management" },
-      ],
-    },
+    // {
+    //   text: "संसाधन",
+    //   collapsed: false,
+    //   items: [
+    //     { text: "ब्रांड एसेट्स", link: "/media-kit" },
+    //     // { text: "खाता प्रबंधन", link: "guide/account-management" },
+    //   ],
+    // },
     {
       text: "कंपनी",
       collapsed: false,

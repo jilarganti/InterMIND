@@ -5,13 +5,13 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
-  description: "InterMIND 为视频通话提供实时语音翻译——瞬间消除语言障碍。由 mind.com 团队提供技术支持。",
+  description: "InterMIND 为视频通话提供实时语音翻译——即时消除语言障碍。由 mind.com 团队提供技术支持。",
   head: [
     [
       "meta",
       {
         name: "description",
-        content: "InterMIND 为视频通话提供实时语音翻译——瞬间消除语言障碍。由 mind.com 团队提供技术支持。",
+        content: "InterMIND 为视频通话提供实时语音翻译——即时消除语言障碍。由 mind.com 团队提供技术支持。",
       },
     ],
     ["meta", { property: "og:title", content: "InterMIND | 全球团队实时语音翻译" }],
@@ -64,6 +64,7 @@ export const zh = defineConfig({
       buttonLabel4SignInButton: "登录",
       buttonLabel4GetStartedButton: "开始使用",
       buttonLabel4TryItButton: "免费试用",
+      buttonLabel4BackToBlog: "← 返回博客",
     },
     contact_form: {
       name: "姓名 *",
@@ -133,14 +134,14 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "AI 法律指南", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
-    {
-      text: "资源",
-      collapsed: false,
-      items: [
-        { text: "品牌资产", link: "/media-kit" },
-        // { text: "账户管理", link: "guide/account-management" },
-      ],
-    },
+    // {
+    //   text: "资源",
+    //   collapsed: false,
+    //   items: [
+    //     { text: "品牌资产", link: "/media-kit" },
+    //     // { text: "账户管理", link: "guide/account-management" },
+    //   ],
+    // },
     {
       text: "公司",
       collapsed: false,
@@ -148,7 +149,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "关于我们", link: "/company/about" },
         { text: "团队", link: "/company/team" },
         { text: "招聘", link: "/company/careers" },
-        { text: "联系方式", link: "/company/contacts" },
+        { text: "联系我们", link: "/company/contacts" },
       ],
     },
   ]

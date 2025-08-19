@@ -64,12 +64,13 @@ export const pt = defineConfig({
       buttonLabel4SignInButton: "Entrar",
       buttonLabel4GetStartedButton: "Começar",
       buttonLabel4TryItButton: "Experimente grátis",
+      buttonLabel4BackToBlog: "← Voltar ao blog",
     },
     contact_form: {
       name: "Nome *",
       namePlaceholder: "seu nome",
-      email: "E-mail *",
-      emailPlaceholder: "seu endereço de e-mail",
+      email: "Email *",
+      emailPlaceholder: "seu endereço de email",
       webSite: "Site da empresa",
       webSitePlaceholder: "ex. https://nomedaempresa.com",
       webSiteError: "Por favor, insira o site",
@@ -133,14 +134,14 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "Guia legal de IA", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
-    {
-      text: "RECURSOS",
-      collapsed: false,
-      items: [
-        { text: "Recursos da marca", link: "/media-kit" },
-        // { text: "Gerenciamento de conta", link: "guide/account-management" },
-      ],
-    },
+    // {
+    //   text: "RECURSOS",
+    //   collapsed: false,
+    //   items: [
+    //     { text: "Recursos da marca", link: "/media-kit" },
+    //     // { text: "Gerenciamento de conta", link: "guide/account-management" },
+    //   ],
+    // },
     {
       text: "EMPRESA",
       collapsed: false,

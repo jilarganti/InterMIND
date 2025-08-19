@@ -53,7 +53,7 @@ export const ru = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Правовые нормы для ИИ-сервисов</a> | <a href="https://status.mind.com/">Статус сервиса</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Правовое регулирование ИИ-сервисов</a> | <a href="https://status.mind.com/">Статус сервиса</a>`,
     },
 
     localization: {
@@ -64,6 +64,7 @@ export const ru = defineConfig({
       buttonLabel4SignInButton: "Войти",
       buttonLabel4GetStartedButton: "Начать",
       buttonLabel4TryItButton: "Попробовать бесплатно",
+      buttonLabel4BackToBlog: "← Вернуться к блогу",
     },
     contact_form: {
       name: "Имя *",
@@ -76,7 +77,7 @@ export const ru = defineConfig({
       category: "Какова ваша основная цель? *",
       categoryPlaceholder: "Выберите наиболее важное",
       message: "Давайте обсудим ваши цели (необязательно)",
-      messagePlaceholder: "Пожалуйста, предоставьте любые дополнительные детали (необязательно)",
+      messagePlaceholder: "Пожалуйста, предоставьте дополнительные детали (необязательно)",
       submit: "Отправить запрос",
       sending: "Отправка...",
       successTitle: "Спасибо!",
@@ -97,7 +98,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Что такое InterMIND?", link: "overview/what-is-intermind" },
         { text: "Как это работает", link: "overview/how-it-works" },
-        { text: "Платформа видеовстреч", link: "overview/video-meeting-platform" },
+        { text: "Платформа видеоконференций", link: "overview/video-meeting-platform" },
         { text: "Региональная конфиденциальность данных", link: "overview/privacy-architecture" },
         { text: "Приоритетные рынки", link: "overview/markets" },
       ],
@@ -133,14 +134,14 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "Правовое руководство по ИИ", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
-    {
-      text: "РЕСУРСЫ",
-      collapsed: false,
-      items: [
-        { text: "Брендовые материалы", link: "/media-kit" },
-        // { text: "Управление аккаунтом", link: "guide/account-management" },
-      ],
-    },
+    // {
+    //   text: "РЕСУРСЫ",
+    //   collapsed: false,
+    //   items: [
+    //     { text: "Брендовые материалы", link: "/media-kit" },
+    //     // { text: "Управление аккаунтом", link: "guide/account-management" },
+    //   ],
+    // },
     {
       text: "КОМПАНИЯ",
       collapsed: false,
@@ -156,7 +157,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 
 function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Краткое резюме", link: "/InterMind-Executive-Summary" },
+    { text: "Краткое изложение для руководства", link: "/InterMind-Executive-Summary" },
     { text: "Стратегия выхода на рынок", link: "/go-to-market-strategy" },
     { text: "Презентация для инвесторов", link: "/InterMind-Investor-Pitch" },
     { text: "Обоснование финансовых прогнозов (1-3 год)", link: "/Financial-Projections-Justification" },
