@@ -6,7 +6,7 @@ Platform for real-time speech translation in video calls. Eliminates language ba
 
 ## Project Description
 
-Mind.com is a VitePress website with multilingual support, integrated with Pipedrive CRM, OAuth authorization, and AI Chat powered by Upstash Vector database. The project includes:
+Mind.com is a VitePress website with multilingual support, integrated with Pipedrive CRM, and AI Chat powered by Upstash Vector database. The project includes:
 
 - 📄 VitePress documentation with support for 12+ languages
 - 🔗 API endpoints for CRM integration

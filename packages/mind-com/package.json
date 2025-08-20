@@ -1,7 +1,7 @@
 {
   "name": "mind-com",
   "description": "Live speech translation in video calls",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "type": "module",
   "scripts": {
     "dev:FE": "vitepress dev docs",
