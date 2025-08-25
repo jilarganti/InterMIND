@@ -6,7 +6,7 @@ date: 2025-08-18
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
-# apiMind vs Google Meet y Jitsi: Benchmark independiente 2024 muestra nuestras ventajas
+# apiMind vs Google Meet y Jitsi: Análisis de benchmarks independientes 2024
 
 <img src="/blog/2025-08-18_18.54.27.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/2025-08-18_18.54.10.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
@@ -15,107 +15,106 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 Creemos que el progreso real viene a través de la comparación abierta con las mejores soluciones del mercado. Por eso encargamos pruebas independientes a TestDevLab — una empresa con 10 años de experiencia y 500 especialistas que prueban productos utilizados por 4.5 mil millones de personas en todo el mundo.
 
-## Las victorias clave de apiMind
+## Fortalezas clave de apiMind
 
-### Líder en condiciones de red extremas
+### Rendimiento superior en condiciones de jitter/latencia
 
-Cuando se trata de condiciones de conectividad verdaderamente desafiantes — alta fluctuación y latencia — **apiMind demuestra superioridad**:
+Cuando las redes experimentan alto jitter y latencia, **apiMind muestra ventajas notables**:
 
-- **+83% mejor FPS que Google Meet** bajo alta fluctuación/latencia
-- **+165% mejor FPS que Jitsi** en las mismas condiciones
-- Mantiene el video donde Jitsi lo apaga completamente
+- **Mantiene video funcional** cuando Google Meet baja a 0.24 FPS y Jitsi desactiva el video completamente
+- **+165% mejor FPS que Jitsi** bajo condiciones de alto jitter/latencia
+- Mejor continuidad de video comparado con competidores en escenarios sensibles al tiempo
 
-Esto es crítico para usuarios con internet inestable, trabajando desde ubicaciones remotas, o dependiendo de conexiones móviles.
+Esto es crítico para usuarios con conexiones inestables o aquellos que trabajan a través de VPNs y ubicaciones remotas.
 
-### Uso de recursos más eficiente
+### Manejo sólido de pérdida de paquetes
 
-apiMind mostró el **menor consumo de CPU y GPU** entre todas las plataformas probadas. Esto significa:
-
-- Mayor duración de batería en laptops
-- Capacidad de ejecutar aplicaciones demandantes simultáneamente
-- Rendimiento cómodo en dispositivos de gama media
-
-### Estabilidad bajo pérdida de paquetes
-
-En escenarios de pérdida de paquetes (problemas típicos de redes Wi-Fi):
+En escenarios de pérdida de paquetes (común en redes Wi-Fi):
 
 - **+48% mejor FPS que Jitsi**
-- **+33% mejor calidad de video (VMAF)**
-- Congelamiento mínimo de video
+- **+33% mejor calidad de video (VMAF) que Jitsi**
+- Rendimiento comparable a Google Meet con congelamiento mínimo
 
-## Áreas de mejora: Estamos trabajando en ello
+### Utilización optimizada de red
+
+apiMind demuestra:
+
+- Mayor bitrate del receptor en redes ilimitadas (optimizado para calidad cuando el ancho de banda lo permite)
+- Estrategias de adaptación eficientes en entornos restringidos
+- Asignación equilibrada de recursos entre audio y video
+
+## Áreas de mejora: Somos transparentes
 
 Reconocemos abiertamente las áreas que necesitan trabajo:
 
-1. **Adaptación a ancho de banda extremadamente bajo (200kbps)** — Algoritmo mejorado que prioriza audio sobre video ya en desarrollo
-2. **Recuperación de calidad después de mejora de red** — Nuevo mecanismo de adaptación dinámica llegando en Q1 2025
+1. **Adaptación a ancho de banda bajo (200kbps)** — Actualmente experimentamos caídas de audio y degradación de FPS a ~5 FPS (Google Meet mantiene ~17 FPS)
+2. **Recuperación de calidad después de mejora de red** — El sistema no regresa consistentemente a la calidad original (50% de tasa de recuperación en pruebas)
+3. **Retrasos de línea base** — Mayores retrasos de audio/video comparado con competidores en condiciones óptimas
 
-## Progreso año tras año: Los números hablan por sí solos
+## Progreso año tras año: mejoras medibles
 
 <img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 Comparando con los resultados de 2023, hemos logrado:
 
-- Mejor estabilidad bajo pérdida de paquetes
-- Calidad de video mejorada en condiciones desafiantes
+- Mayor estabilidad durante condiciones de pérdida de paquetes
+- Mejor calidad de video con 20% de pérdida de paquetes
 - Reducción del retraso de audio base
-- Consumo de recursos optimizado
+- Mantenimiento más consistente de la velocidad de fotogramas
 
 ## Por qué esto importa para nuestros usuarios
 
 ### Para clientes empresariales
 
-- **Confiabilidad en condiciones críticas**: Cuando el CEO llama desde un aeropuerto con Wi-Fi deficiente, apiMind mantiene la conexión activa
-- **Eficiencia de recursos**: Menos carga en las laptops corporativas = mayor productividad
+- **Resistencia en condiciones desafiantes**: Mantiene la calidad de conexión cuando el tiempo de red es inconsistente
+- **Rendimiento predecible**: Comportamiento consistente en diferentes escenarios de red
 
 ### Para educación
 
-- **Funciona en dispositivos de gama baja**: Los estudiantes con laptops económicas pueden participar cómodamente en las clases
-- **Resistente a redes inestables**: Las escuelas rurales con internet deficiente se mantienen conectadas
+- **Maneja la inestabilidad de red**: Mejor rendimiento con jitter/latencia común en redes institucionales
+- **Mantiene la conexión**: Mantiene el video activo cuando otros podrían desconectarse
 
 ### Para equipos remotos
 
-- **Máxima accesibilidad**: Trabaja desde cualquier lugar del mundo, incluso con datos móviles
-- **Sesiones extendidas sin sobrecalentamiento**: Maratones de planificación y sesiones de lluvia de ideas sin problemas técnicos
+- **Compatible con VPN**: Manejo superior de la latencia introducida por conexiones seguras
+- **Llamadas internacionales**: Mejor rendimiento en conexiones de larga distancia con latencia natural
 
-## Nuestro enfoque: enfoque en escenarios del mundo real
+## Contexto de rendimiento en el mundo real
 
-A diferencia de la competencia, optimizamos apiMind para **condiciones reales, no ideales**:
+Nuestras prioridades de optimización reflejan los patrones de uso reales:
 
-- **Google Meet** funciona muy bien con buena conexión a internet, pero ¿cuántos de nosotros siempre tenemos conectividad perfecta?
-- **Jitsi** simplemente desactiva el video cuando surgen problemas — creemos que mostrar video de menor calidad es mejor que no mostrar ninguno
-- **apiMind** está construido para el mundo real — donde las redes son inestables, los dispositivos son diversos, y la comunicación es crítica
+- **apiMind** sobresale cuando el tiempo de red es inconsistente (jitter/latencia)
+- **Google Meet** funciona mejor con conexiones estables de alto ancho de banda
+- **Jitsi** ofrece flexibilidad de código abierto pero puede deshabilitar el video bajo estrés
 
-## ¿Qué sigue?
+Cada plataforma tiene sus fortalezas — nos enfocamos en mantener la comunicación cuando las condiciones de red son impredecibles.
 
-No nos detenemos aquí. Nuestra hoja de ruta 2025 incluye:
+## Nuestra hoja de ruta de desarrollo
 
-1. **Adaptación de red impulsada por IA** — Aprendizaje automático para predecir y prevenir problemas de red
-2. **Selective Forward Unit (SFU) 2.0** — Arquitectura revolucionaria para escalar a más de 1000 participantes
-3. **Integración de edge computing** — Latencia reducida a través de infraestructura distribuida
+Estamos trabajando activamente en:
 
-## Experimenta la Diferencia por Ti Mismo
+1. **Adaptación mejorada del ancho de banda** — Priorización de audio mejorada y gestión de velocidad de fotogramas en ancho de banda bajo
+2. **Recuperación dinámica de calidad** — Restauración más rápida a la calidad óptima cuando las condiciones de red mejoran
+3. **Optimización de latencia** — Reducción de retrasos de línea base mientras se mantiene la estabilidad
 
-Los datos cuentan una historia, pero tu propia experiencia escribe el capítulo final. No solo confíes en nuestra palabra:
+## Experimenta la diferencia por ti mismo
+
+Los datos cuentan una historia, pero tu propia experiencia escribe el capítulo final:
 
 - [Download the full test report - 2024](/Presentation-TDL-2024.pdf) (90 páginas de métricas detalladas)
 - [Download the full test report - 2023](/Presentation-TDL-2023.pdf) (85 páginas de métricas detalladas)
 
 ## Conclusión
 
-La evaluación independiente confirmó: apiMind no es solo "otra plataforma de videollamadas más". Es una solución construida para el mundo real donde:
+El benchmark independiente proporciona información valiosa sobre el rendimiento en condiciones del mundo real. apiMind muestra **un rendimiento sólido en condiciones desafiantes de temporización de red** y manejo competitivo de pérdida de paquetes, mientras continuamos mejorando los mecanismos de adaptación de ancho de banda y recuperación.
 
-- Las redes son imperfectas
-- Los dispositivos son diversos
-- Pero la comunicación siempre debe funcionar
-
-> No somos perfectos, pero somos honestos. Conocemos nuestras fortalezas y trabajamos abiertamente en las mejoras. Lo más importante — **estamos optimizados para tus condiciones reales de trabajo, no para pruebas de laboratorio**.
+> Estamos comprometidos con la transparencia sobre nuestras fortalezas y áreas de mejora. Estos resultados guían nuestras prioridades de desarrollo mientras construimos para condiciones del mundo real.
 
 ---
 
-_Investigación realizada por TestDevLab (Letonia) en julio de 2024. Metodología: 3 participantes, Windows/Chrome, pruebas bajo condiciones cambiantes de ancho de banda (Ilimitado→2M→500K→200K), pérdida de paquetes (0→10%→20%), y jitter/latencia (0/0→100/30→500/90→1500/270ms)._
+_Investigación realizada por TestDevLab (Letonia) en julio de 2024. Metodología: 3 participantes, Windows/Chrome, pruebas bajo condiciones dinámicas de red con cada fase durando 60 segundos — ancho de banda (Ilimitado→2M→500K→200K→500K→2M→Ilimitado), pérdida de paquetes (0%→10%→20%→20%→20%→10%→0%), y jitter/latencia (0/0→100/30→500/90→1500/270→500/90→100/30→0/0 ms)._
 
 ---
 
-**#apiMind #Videoconferencias #Benchmarking #TrabajoRemoto #InnovaciónTecnológica**
+**#apiMind #VideoConferencias #Benchmarking #TrabajoRemoto #InnovaciónTecnológica**
