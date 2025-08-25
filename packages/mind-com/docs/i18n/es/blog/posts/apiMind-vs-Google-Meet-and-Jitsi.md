@@ -84,7 +84,7 @@ Comparando con los resultados de 2023, hemos logrado:
 A diferencia de la competencia, optimizamos apiMind para **condiciones reales, no ideales**:
 
 - **Google Meet** funciona muy bien con buena conexión a internet, pero ¿cuántos de nosotros siempre tenemos conectividad perfecta?
-- **Jitsi** simplemente desactiva el video cuando surgen problemas — nosotros creemos que mostrar video de menor calidad es mejor que no mostrar nada
+- **Jitsi** simplemente desactiva el video cuando surgen problemas — creemos que mostrar video de menor calidad es mejor que no mostrar ninguno
 - **apiMind** está construido para el mundo real — donde las redes son inestables, los dispositivos son diversos, y la comunicación es crítica
 
 ## ¿Qué sigue?

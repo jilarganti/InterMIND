@@ -83,9 +83,9 @@ Im Vergleich zu den Ergebnissen von 2023 haben wir erreicht:
 
 Im Gegensatz zu Mitbewerbern optimieren wir apiMind für **reale, nicht ideale Bedingungen**:
 
-- **Google Meet** funktioniert großartig mit gutem Internet, aber wie viele von uns haben immer perfekte Konnektivität?
-- **Jitsi** deaktiviert einfach das Video, wenn Probleme auftreten — wir glauben, dass das Zeigen von Video in niedrigerer Qualität besser ist als gar kein Video zu zeigen
-- **apiMind** ist für die reale Welt gebaut — wo Netzwerke instabil sind, Geräte vielfältig sind und Kommunikation kritisch ist
+- **Google Meet** funktioniert großartig mit guter Internetverbindung, aber wie viele von uns haben immer perfekte Konnektivität?
+- **Jitsi** deaktiviert einfach das Video, wenn Probleme auftreten — wir glauben, dass das Zeigen von Video in geringerer Qualität besser ist als gar kein Video zu zeigen
+- **apiMind** ist für die reale Welt entwickelt — wo Netzwerke instabil sind, Geräte vielfältig sind und Kommunikation entscheidend ist
 
 ## Was kommt als Nächstes?
 
@@ -97,7 +97,7 @@ Wir hören hier nicht auf. Unsere Roadmap für 2025 umfasst:
 
 ## Erleben Sie den Unterschied selbst
 
-Daten erzählen eine Geschichte, aber Ihre eigene Erfahrung schreibt das Schlusskapitel. Verlassen Sie sich nicht nur auf unser Wort:
+Daten erzählen eine Geschichte, aber Ihre eigene Erfahrung schreibt das letzte Kapitel. Verlassen Sie sich nicht nur auf unser Wort:
 
 - [Download the full test report - 2024](/Presentation-TDL-2024.pdf) (90 Seiten detaillierter Metriken)
 - [Download the full test report - 2023](/Presentation-TDL-2023.pdf) (85 Seiten detaillierter Metriken)

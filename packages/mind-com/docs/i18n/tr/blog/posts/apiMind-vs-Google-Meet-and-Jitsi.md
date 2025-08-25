@@ -45,7 +45,7 @@ Paket kaybı senaryolarında (tipik Wi-Fi ağ sorunları):
 
 ## Geliştirilmesi Gereken Alanlar: Üzerinde Çalışıyoruz
 
-Çalışılması gereken alanları açıkça kabul ediyoruz:
+Çalışmaya ihtiyaç duyan alanları açıkça kabul ediyoruz:
 
 1. **Aşırı düşük bant genişliğine uyum (200kbps)** — Video yerine sesi önceliklendiren gelişmiş algoritma zaten geliştiriliyor
 2. **Ağ iyileştirmesi sonrası kalite kurtarma** — Yeni dinamik uyum mekanizması 2025 Q1'de geliyor
@@ -76,7 +76,7 @@ Paket kaybı senaryolarında (tipik Wi-Fi ağ sorunları):
 
 ### Uzaktan Çalışan Ekipler İçin
 
-- **Maksimum erişilebilirlik**: Dünyanın her yerinden, hatta mobil veri ile çalışın
+- **Maksimum erişilebilirlik**: Dünyanın herhangi bir yerinden, hatta mobil veri ile çalışın
 - **Aşırı ısınma olmadan uzun oturumlar**: Teknik sorunlar yaşamadan planlama maratonları ve beyin fırtınası oturumları
 
 ## Yaklaşımımız: Gerçek Dünya Senaryolarına Odaklanma
@@ -110,7 +110,7 @@ Bağımsız kıyaslama doğruladı: apiMind sadece "başka bir görüntülü ara
 - Cihazlar çeşitli
 - Ama iletişim her zaman çalışmalı
 
-> Mükemmel değiliz, ama dürüstüz. Güçlü yönlerimizi biliyoruz ve iyileştirmeler üzerinde açık bir şekilde çalışıyoruz. En önemlisi — **laboratuvar testleri için değil, gerçek çalışma koşullarınız için optimize edilmişiz**.
+> Mükemmel değiliz, ama dürüstüz. Güçlü yönlerimizi biliyoruz ve açıkça iyileştirmeler üzerinde çalışıyoruz. En önemlisi — **laboratuvar testleri için değil, gerçek çalışma koşullarınız için optimize edilmişiz**.
 
 ---
 

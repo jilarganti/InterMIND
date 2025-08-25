@@ -50,7 +50,7 @@ Reconhecemos abertamente as áreas que precisam de trabalho:
 1. **Adaptação para largura de banda extremamente baixa (200kbps)** — Algoritmo aprimorado priorizando áudio sobre vídeo já em desenvolvimento
 2. **Recuperação de qualidade após melhoria da rede** — Novo mecanismo de adaptação dinâmica chegando no Q1 2025
 
-## Progresso ano a ano: Os números falam por si só
+## Progresso ano a ano: os números falam por si só
 
 <img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">

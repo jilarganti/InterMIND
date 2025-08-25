@@ -1,6 +1,6 @@
 ---
 layout: BlogPost
-title: "apiMind 与 Google Meet 和 Jitsi 的对比"
+title: "apiMind 与 Google Meet 和 Jitsi 对比"
 description: "基于独立测试的 apiMind 与 Google Meet 和 Jitsi 性能综合对比分析。"
 date: 2025-08-18
 author: "[Jilarganti](https://github.com/jilarganti)"
@@ -13,7 +13,7 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 > 透明与诚信——我们的发展理念
 
-我们相信真正的进步来自于与市场上最佳解决方案的公开比较。因此，我们委托 TestDevLab 进行独立测试——这是一家拥有10年经验和500名专家的公司，他们测试的产品被全球45亿人使用。
+我们相信真正的进步来自于与市场上最佳解决方案的公开比较。这就是为什么我们委托 TestDevLab 进行独立测试——这是一家拥有10年经验和500名专家的公司，他们测试的产品被全球45亿人使用。
 
 ## apiMind的关键优势
 
@@ -23,7 +23,7 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 - **比Google Meet高出83%的FPS**，在高抖动/延迟条件下
 - **比Jitsi高出165%的FPS**，在相同条件下
-- 在Jitsi完全关闭视频的情况下仍能保持视频传输
+- 在Jitsi完全关闭视频的情况下仍能维持视频传输
 
 这对于网络不稳定的用户、在偏远地区工作或依赖移动连接的用户来说至关重要。
 
@@ -52,8 +52,8 @@ apiMind在所有测试平台中显示出**最低的CPU和GPU消耗**。这意味
 
 ## 年度进展对比：数据说明一切
 
-<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind 对比 Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind 对比 Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 与2023年的结果相比，我们已经实现了：
 
@@ -83,7 +83,7 @@ apiMind在所有测试平台中显示出**最低的CPU和GPU消耗**。这意味
 
 与竞争对手不同，我们针对**真实而非理想条件**优化apiMind：
 
-- **Google Meet** 在网络良好时表现出色，但我们中有多少人总是拥有完美的连接？
+- **Google Meet** 在网络良好时表现出色，但我们中有多少人总是拥有完美的网络连接？
 - **Jitsi** 在出现问题时简单地禁用视频——我们认为显示较低质量的视频比不显示任何视频更好
 - **apiMind** 为真实世界而构建——网络不稳定、设备多样化、沟通至关重要的世界
 

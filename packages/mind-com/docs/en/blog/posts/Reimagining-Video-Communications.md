@@ -8,7 +8,7 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # InterMIND's Technical Revolution: Reimagining Video Communications with AI
 
-<img src="/blog/iStock-1448152453.jpg" alt="UAE dirham" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/iStock-1448152453.jpg" alt="UAE dirham" width="500" align="left" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/iStock-1448152453.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 When global teams lose deals due to language barriers, and international negotiations become marathons of miscommunication, the technology industry has finally received a worthy answer. **InterMIND presents an architectural breakthrough in video communications**, combining cutting-edge WebRTC solutions with context-aware artificial intelligence to create the first truly natural real-time translation platform. Their approach radically differs from the superficial solutions of major tech giants, offering an enterprise solution built from the ground up for global scale and microsecond latency.
