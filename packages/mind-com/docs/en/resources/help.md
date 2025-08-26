@@ -25,6 +25,7 @@ Fast, focused, and with a real human on the other end.
     'I need assistance with team onboarding',
     'I have billing or subscription questions',
     'I want to explore enterprise features',
+    'I want to get Mind API application ID and token without restrictions',
     'General question or feedback'
   ]" />
 
