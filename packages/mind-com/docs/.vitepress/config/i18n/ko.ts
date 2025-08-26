@@ -5,22 +5,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ko"
 
 export const ko = defineConfig({
-  description: "InterMIND는 화상 통화를 위한 실시간 음성 번역을 제공하여 언어 장벽을 즉시 제거합니다. mind.com 팀이 제공합니다.",
+  description:
+    "19개 이상의 언어로 동시 통역을 제공하는 전문 화상 회의. 글로벌 팀을 위해 톤, 의도, 맥락을 파악하는 AI 기반 번역.",
   head: [
-    [
-      "meta",
-      {
-        name: "description",
-        content: "InterMIND는 화상 통화를 위한 실시간 음성 번역을 제공하여 언어 장벽을 즉시 제거합니다. mind.com 팀이 제공합니다.",
-      },
-    ],
     ["meta", { property: "og:title", content: "InterMIND | 글로벌 팀을 위한 실시간 음성 번역" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMIND는 화상 통화에서 즉시 음성 번역을 제공합니다 — 장벽 없는 명확한 다국어 커뮤니케이션. mind.com 팀이 제공합니다.",
+          "19개 이상의 언어로 동시 음성 통역을 제공하는 전문 화상 회의. AI 기반 번역으로 전 세계적으로 만나고 자연스럽게 소통하세요.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -40,7 +34,7 @@ export const ko = defineConfig({
         text: "리소스",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "자주 묻는 질문", link: `${BASE_PATH}/#FAQ` },
+          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "고객 후기", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -68,9 +62,9 @@ export const ko = defineConfig({
     },
     contact_form: {
       name: "이름 *",
-      namePlaceholder: "귀하의 이름",
+      namePlaceholder: "성함을 입력하세요",
       email: "이메일 *",
-      emailPlaceholder: "귀하의 이메일 주소",
+      emailPlaceholder: "이메일 주소를 입력하세요",
       webSite: "회사 웹사이트",
       webSitePlaceholder: "예: https://companyname.com",
       webSiteError: "웹사이트를 입력해 주세요",
@@ -81,7 +75,7 @@ export const ko = defineConfig({
       submit: "요청 제출",
       sending: "전송 중...",
       successTitle: "감사합니다!",
-      successMessage: "메시지를 받았습니다 — 저희 팀이 곧 연락드리겠습니다.",
+      successMessage: "메시지를 받았습니다. 저희 팀이 곧 연락드리겠습니다.",
       defaultCategories: [],
 
       defaultButtonText: "메시지 보내기",
@@ -96,7 +90,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "개요",
       collapsed: false,
       items: [
-        { text: "InterMIND란 무엇인가요?", link: "overview/what-is-intermind" },
+        { text: "InterMIND란?", link: "overview/what-is-intermind" },
         { text: "작동 방식", link: "overview/how-it-works" },
         { text: "화상 회의 플랫폼", link: "overview/video-meeting-platform" },
         { text: "지역별 데이터 개인정보 보호", link: "overview/privacy-architecture" },
@@ -114,7 +108,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "사용자 역할", link: "guide/user-roles" },
         { text: "AI 기능", link: "guide/ai-features" },
         { text: "회의 기록", link: "guide/meeting-history" },
-        { text: "자주 묻는 질문", link: "guide/faq" },
+        { text: "FAQ", link: "guide/faq" },
         { text: "문제 해결", link: "guide/troubleshooting" },
         { text: "가격", link: "guide/pricing" },
         { text: "도움말 및 지원", link: "guide/help-support" },
@@ -146,7 +140,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "회사",
       collapsed: false,
       items: [
-        { text: "소개", link: "/company/about" },
+        { text: "회사 소개", link: "/company/about" },
         { text: "팀", link: "/company/team" },
         { text: "채용", link: "/company/careers" },
         { text: "연락처", link: "/company/contacts" },

@@ -2,7 +2,7 @@
 description: "¿Tienes preguntas sobre interpretación de reuniones con IA, comunicación multilingüe o incorporación empresarial? Estamos aquí para ayudarte — rápido, humano y sin confusiones."
 ---
 
-# 💬 ¿Necesitas asistencia? Sin retrasos, sin confusiones — solo respuestas.
+# 💬 ¿Necesitas asistencia? Sin demoras, sin confusiones — solo respuestas.
 
 Cuéntanos qué estás tratando de lograr — y te ayudaremos a avanzar.  
 Rápido, enfocado, y con una persona real del otro lado.
@@ -25,6 +25,7 @@ Rápido, enfocado, y con una persona real del otro lado.
     'Necesito asistencia con la incorporación del equipo',
     'Tengo preguntas sobre facturación o suscripción',
     'Quiero explorar las funciones empresariales',
+    'Quiero obtener el ID de aplicación y token de Mind API sin restricciones',
     'Pregunta general o comentario'
   ]" />
 

@@ -1,11 +1,13 @@
 ---
 layout: home
-title: "Traduction vocale en direct pour les appels vidéo"
+title: "InterMIND : Traduction vocale en temps réel pour les réunions vidéo"
+description: "Visioconférence professionnelle avec interprétation simultanée en plus de 19 langues. Traduction alimentée par l'IA qui capture le ton, l'intention et le contexte. Rencontrez-vous mondialement, communiquez naturellement."
 isHome: true
 ---
 
-<HeroSection title="Rencontrez-vous dans **N'importe Quelle** Langue" :typingSpeed="10" text="Traduction vocale en direct dans les appels vidéo. Compréhension instantanée, sans barrières.">
-<NavButton buttonLabel="Comment ça marche" buttonClass="brand" to="/#HowItWorks" />
+<!-- <HeroSection title="Rencontrez-vous dans **N'importe Quelle** Langue" :typingSpeed="10" text="Traduction vocale en direct dans les appels vidéo. Compréhension instantanée, aucune barrière."> -->
+<HeroSection title="Rencontrez-vous dans **N'importe Quelle** Langue" :typingSpeed="20" text="Interprétation simultanée pendant les appels vidéo. Clarté à travers les cultures.">
+<NavButton buttonLabel="Voir la démo" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
 </HeroSection>
 
@@ -30,8 +32,8 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock
     :card="{
-      title: 'L\'Esprit au Cœur de Vos Réunions',
-      details: 'InterMind transforme chaque appel multilingue en connaissances claires et consultables.',
+      title: 'L\'esprit au cœur de vos réunions',
+      details: 'InterMIND transforme chaque appel multilingue en connaissances claires et consultables.',
       items: [
         '✧ **Posez n\'importe quelle question** — l\'IA trouve des réponses **dans toutes vos réunions**.',
         '✧ Extrait automatiquement les tâches, les responsables et les échéances.',
@@ -49,8 +51,8 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: 'Conçu pour les Réunions Sérieuses — Pas Seulement pour Parler',
-      details: 'InterMind est une [plateforme de réunion vidéo de niveau professionnel](./product/overview/video-meeting-platform), pas un simple complément ou plugin léger.',
+      title: 'Conçu pour les réunions sérieuses — pas seulement pour parler',
+      details: 'InterMIND est une [plateforme de réunion vidéo de niveau professionnel](./product/overview/video-meeting-platform), pas un simple complément ou plugin léger.',
       items: [
         '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration calendrier — tout intégré, **prêt à l\'emploi**.',
       ],
@@ -66,9 +68,9 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
     :card="{
-      title: 'Confidentialité Là Où Ça Compte',
-      details: 'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle comptent le plus.',
-      items: ['✧ [Zones de Confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est', '✧ **Zéro formation de données**. Aucun accès tiers.'],
+      title: 'Confidentialité là où ça compte',
+      details: 'InterMIND est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle comptent le plus.',
+      items: ['✧ [Zones de confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est', '✧ **Aucune formation de données**. Aucun accès tiers.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -83,7 +85,7 @@ isHome: true
 
 <span id="HowItWorks"></span>
 
-## Fonctionne comme Google Meet + traduction en direct
+## Fonctionne comme Google Meet + Traduction en direct
 
 Interface familière. Communication universelle. Même simplicité que Google Meet — avec une traduction instantanée qui fait disparaître les barrières linguistiques.
 
@@ -107,7 +109,7 @@ Interface familière. Communication universelle. Même simplicité que Google Me
       },
       {
         title: 'Rejoignez la réunion',
-        details: 'Cliquez sur le lien, saisissez votre nom, rejoignez instantanément.',
+        details: 'Cliquez sur le lien, entrez votre nom, rejoignez instantanément.',
         icon: {
           light: '/join.png',
           dark: '/join.png',
@@ -124,6 +126,11 @@ Interface familière. Communication universelle. Même simplicité que Google Me
     ]"
   />
 
+<!-- <br> -->
+
+<span id="VideoDemo"></span>
+<VideoPlayer src="/promo/demo-en-mx.mp4" />
+
 <span id="Example"></span>
 
 ## Exemple : Comment fonctionne la traduction vocale en temps réel lors d'une réunion
@@ -137,7 +144,7 @@ L'utilisateur utilise l'**espagnol** comme **langue de localisation du site**. I
 
 ### Que se passe-t-il pendant la réunion ?
 
-Chaque participant **parle et entend** dans la langue qu'il a sélectionnée en entrant dans le produit.  
+Chaque participant **parle et entend** dans la langue qu'il a sélectionnée lors de l'accès au produit.  
 Ce paramètre de langue unique s'applique à :
 
 - La **langue de l'interface**
@@ -170,10 +177,6 @@ Changer cela signifie :
 > Il contrôle **comment vous parlez**, **ce que vous entendez**, et **ce que vous voyez**.  
 > Parler dans une langue et écouter dans une autre n'est **pas pris en charge** — par conception, pour garder l'expérience simple et prévisible.
 
-<br>
-<span id="VideoDemo"></span>
-<VideoPlayer src="/promo/demo-en-mx.mp4" />
-
 <span id="Testimonials"></span>
 
 ## Ce que disent nos clients
@@ -194,7 +197,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
         details: 'aucune carte de crédit requise',
         items: [
           '**25** réunions',
-          '**100** participants en visioconférence [💬](#3)',
+          '**100** participants aux réunions vidéo [💬](#3)',
           '**30** Go de stockage partagé par utilisateur',
           'Recherche dans toutes vos réunions [💬](#2)',
           'Interprétation simultanée [💬](#1)',
@@ -206,7 +209,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
         details: 'ou 25 $ facturé mensuellement',
         items: [
           '**Illimitées** réunions',
-          '**150** participants en visioconférence [💬](#3)',
+          '**150** participants aux réunions vidéo [💬](#3)',
           '**2** To de stockage partagé par utilisateur',
           'Recherche dans toutes vos réunions [💬](#2)',
           'Interprétation simultanée [💬](#1)',
@@ -218,7 +221,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
         details: 'Conçu pour la confidentialité',
         items: [
           '**Illimitées** réunions',
-          '**500** participants en visioconférence [💬](#3)',
+          '**500** participants aux réunions vidéo [💬](#3)',
           '**5** To de stockage partagé par utilisateur',
           'Recherche dans toutes vos réunions [💬](#2)',
           'Interprétation simultanée [💬](#1)',
@@ -232,10 +235,10 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
 <ContactForm buttonText="Parler à notre équipe" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_Votre temps est mieux employé à maîtriser votre métier — pas à mémoriser la grammaire._**  
+> 💡 **_Votre temps est mieux utilisé à maîtriser votre métier — pas à mémoriser la grammaire._**  
 > 💡 **_Les vrais partenariats commencent par de vraies conversations — dans leur langue._**
 
-## Questions Fréquemment Posées
+## Questions fréquemment posées
 
 <span id="FAQ"></span>
 
@@ -263,7 +266,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
       },
       {
         q: 'Comment InterMind assure-t-il la confidentialité et la sécurité des données ?',
-        a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de Confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et à l\'UAE PDPL, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès par des tiers. Le contrôle avancé de la [Zone de Confidentialité](./product/overview/privacy-architecture) est disponible sur le plan **Business**.',
+        a: 'InterMind est **privé par conception**. Toutes les données sont traitées et stockées dans votre **Zone de confidentialité** sélectionnée — _UE_, _États-Unis_, ou _Asie_. Nous nous conformons au [**RGPD**](https://gdpr.eu), au [**CCPA**](https://oag.ca.gov/privacy/ccpa), et à l\'UAE PDPL, et **n\'utilisons jamais votre contenu** pour l\'entraînement ou l\'accès par des tiers. Le contrôle avancé de la [Zone de confidentialité](./product/overview/privacy-architecture) est disponible sur le plan **Business**.',
       },
       {
         q: 'Puis-je essayer InterMind avant d\'acheter un plan ?',

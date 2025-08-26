@@ -5,22 +5,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ru"
 
 export const ru = defineConfig({
-  description: "InterMIND обеспечивает перевод речи в реальном времени для видеозвонков — мгновенно устраняя языковые барьеры. Разработано командой mind.com.",
+  description:
+    "Профессиональные видеоконференции с синхронным переводом на 19+ языков. ИИ-перевод, который передает тон, намерения и контекст для глобальных команд.",
   head: [
-    [
-      "meta",
-      {
-        name: "description",
-        content: "InterMIND обеспечивает перевод речи в реальном времени для видеозвонков — мгновенно устраняя языковые барьеры. Разработано командой mind.com.",
-      },
-    ],
     ["meta", { property: "og:title", content: "InterMIND | Перевод речи в реальном времени для глобальных команд" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMIND предлагает мгновенный перевод речи в видеозвонках — четкое многоязычное общение без барьеров. Разработано командой mind.com.",
+          "Профессиональные видеоконференции с синхронным голосовым переводом на 19+ языков. Встречайтесь глобально, общайтесь естественно с ИИ-переводом.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -40,7 +34,7 @@ export const ru = defineConfig({
         text: "Ресурсы",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
+          { text: "Часто задаваемые вопросы", link: `${BASE_PATH}/#FAQ` },
           { text: "Отзывы", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -53,7 +47,7 @@ export const ru = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Правовое регулирование ИИ-сервисов</a> | <a href="https://status.mind.com/">Статус сервиса</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Правовые нормы для ИИ-сервисов</a> | <a href="https://status.mind.com/">Статус сервиса</a>`,
     },
 
     localization: {
@@ -75,9 +69,9 @@ export const ru = defineConfig({
       webSitePlaceholder: "например, https://companyname.com",
       webSiteError: "Пожалуйста, введите сайт",
       category: "Какова ваша основная цель? *",
-      categoryPlaceholder: "Выберите наиболее важное",
+      categoryPlaceholder: "Выберите, что важнее всего",
       message: "Давайте обсудим ваши цели (необязательно)",
-      messagePlaceholder: "Пожалуйста, предоставьте дополнительные детали (необязательно)",
+      messagePlaceholder: "Пожалуйста, предоставьте любые дополнительные детали (необязательно)",
       submit: "Отправить запрос",
       sending: "Отправка...",
       successTitle: "Спасибо!",
@@ -98,7 +92,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Что такое InterMIND?", link: "overview/what-is-intermind" },
         { text: "Как это работает", link: "overview/how-it-works" },
-        { text: "Платформа видеоконференций", link: "overview/video-meeting-platform" },
+        { text: "Платформа видеовстреч", link: "overview/video-meeting-platform" },
         { text: "Региональная конфиденциальность данных", link: "overview/privacy-architecture" },
         { text: "Приоритетные рынки", link: "overview/markets" },
       ],
@@ -114,7 +108,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Роли пользователей", link: "guide/user-roles" },
         { text: "ИИ функции", link: "guide/ai-features" },
         { text: "История встреч", link: "guide/meeting-history" },
-        { text: "FAQ", link: "guide/faq" },
+        { text: "Часто задаваемые вопросы", link: "guide/faq" },
         { text: "Устранение неполадок", link: "guide/troubleshooting" },
         { text: "Цены", link: "guide/pricing" },
         { text: "Помощь и поддержка", link: "guide/help-support" },

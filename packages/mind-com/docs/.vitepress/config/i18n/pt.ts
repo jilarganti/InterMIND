@@ -5,22 +5,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/pt"
 
 export const pt = defineConfig({
-  description: "InterMIND oferece tradução de fala em tempo real para videochamadas — eliminando barreiras linguísticas instantaneamente. Desenvolvido pela equipe mind.com.",
+  description:
+    "Videoconferência profissional com interpretação simultânea em mais de 19 idiomas. Tradução com IA que captura tom, intenção e contexto para equipes globais.",
   head: [
-    [
-      "meta",
-      {
-        name: "description",
-        content: "InterMIND oferece tradução de fala em tempo real para videochamadas — eliminando barreiras linguísticas instantaneamente. Desenvolvido pela equipe mind.com.",
-      },
-    ],
-    ["meta", { property: "og:title", content: "InterMIND | Tradução de fala em tempo real para equipes globais" }],
+    ["meta", { property: "og:title", content: "InterMIND | Tradução de Fala em Tempo Real para Equipes Globais" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMIND oferece tradução instantânea de fala em videochamadas — comunicação multilíngue clara sem barreiras. Desenvolvido pela equipe mind.com.",
+          "Videoconferência profissional com interpretação de voz simultânea em mais de 19 idiomas. Reúna-se globalmente, comunique-se naturalmente com tradução com IA.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -53,7 +47,7 @@ export const pt = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configurações de privacidade</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Política de privacidade</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Regulamentações legais para serviços de IA</a> | <a href="https://status.mind.com/">Status do serviço</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configurações de Privacidade</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Política de Privacidade</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Regulamentações Legais para Serviços de IA</a> | <a href="https://status.mind.com/">Status do serviço</a>`,
     },
 
     localization: {
@@ -74,7 +68,7 @@ export const pt = defineConfig({
       webSite: "Site da empresa",
       webSitePlaceholder: "ex. https://nomedaempresa.com",
       webSiteError: "Por favor, insira o site",
-      category: "Qual é seu objetivo principal? *",
+      category: "Qual é o seu objetivo principal? *",
       categoryPlaceholder: "Escolha o que mais importa",
       message: "Vamos discutir seus objetivos (opcional)",
       messagePlaceholder: "Por favor, forneça detalhes adicionais (opcional)",
@@ -96,7 +90,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "VISÃO GERAL",
       collapsed: false,
       items: [
-        { text: "O que é InterMIND?", link: "overview/what-is-intermind" },
+        { text: "O que é o InterMIND?", link: "overview/what-is-intermind" },
         { text: "Como funciona", link: "overview/how-it-works" },
         { text: "Plataforma de videoconferência", link: "overview/video-meeting-platform" },
         { text: "Privacidade de dados regional", link: "overview/privacy-architecture" },

@@ -19,12 +19,13 @@ Hızlı, odaklı ve karşı tarafta gerçek bir insan ile.
   :services="[
     'Başlamak için yardıma ihtiyacım var',
     'Bir demo planlamak istiyorum',
-    'Teknik bir sorunum veya hata var',
+    'Teknik bir sorunum veya hatam var',
     'Toplantı entegrasyonu konusunda yardıma ihtiyacım var',
     'Çeviri kalitesi hakkında sorularım var',
-    'Ekip onboarding konusunda yardıma ihtiyacım var',
+    'Takım onboarding konusunda yardıma ihtiyacım var',
     'Faturalandırma veya abonelik sorularım var',
     'Kurumsal özellikleri keşfetmek istiyorum',
+    'Kısıtlama olmadan Mind API uygulama kimliği ve token almak istiyorum',
     'Genel soru veya geri bildirim'
   ]" />
 

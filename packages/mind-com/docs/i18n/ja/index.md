@@ -1,11 +1,13 @@
 ---
 layout: home
-title: "ビデオ通話のリアルタイム音声翻訳"
+title: "InterMIND: ビデオ会議のためのリアルタイム音声翻訳"
+description: "19以上の言語での同時通訳機能を備えたプロフェッショナルなビデオ会議。トーン、意図、文脈を捉えるAI搭載翻訳。グローバルに会議し、自然にコミュニケーション。"
 isHome: true
 ---
 
-<HeroSection title="**どんな**言語でも会議を" :typingSpeed="10" text="ビデオ通話でのリアルタイム音声翻訳。瞬時の理解、障壁なし。">
-<NavButton buttonLabel="仕組み" buttonClass="brand" to="/#HowItWorks" />
+<!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
+<HeroSection title="**あらゆる**言語で会議" :typingSpeed="20" text="ビデオ通話中の同時通訳。文化を超えた明確性。">
+<NavButton buttonLabel="デモを見る" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="アシスタント" buttonClass="alt" to="/chat" />
 </HeroSection>
 
@@ -30,12 +32,12 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock
     :card="{
-      title: '会議の中の知性',
-      details: 'InterMindは多言語通話を明確で検索可能な知識に変換します。',
+      title: '会議内のマインド',
+      details: 'InterMindはすべての多言語通話を明確で検索可能な知識に変換します。',
       items: [
         '✧ **何でも質問** — AIが**会議全体から**答えを見つけます。',
         '✧ タスク、担当者、締切を自動抽出。',
-        '✧ 重要なポイントをどんな言語でも瞬時に要約。',
+        '✧ 重要なポイントをあらゆる言語で即座に要約。',
       ],
       link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
       src: {
@@ -49,8 +51,8 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: '本格的な会議のために構築 — 単なる会話ではなく',
-      details: 'InterMindは[プロフェッショナルグレードのビデオ会議プラットフォーム](./product/overview/video-meeting-platform)であり、軽量なアドオンやプラグインではありません。',
+      title: '真剣な会議のために構築 — 単なる会話ではなく',
+      details: 'InterMindは軽量なアドオンやプラグインではなく、[プロフェッショナルグレードのビデオ会議プラットフォーム](./product/overview/video-meeting-platform)です。',
       items: [
         '✧ 1080p解像度、スマートノイズ抑制、スケジューリング、モデレーション、画面共有、録画、字幕、参加者チャット、カレンダー統合 — すべて内蔵、**すぐに使用可能**。',
       ],
@@ -68,7 +70,7 @@ isHome: true
     :card="{
       title: '重要な場面でのプライバシー',
       details: 'InterMindは信頼が重要な会話のために構築されています — プライバシーとコントロールが最も重要な場面で。',
-      items: ['✧ [プライバシーゾーン](./product/overview/privacy-architecture) — EU、米国、東南アジア', '✧ **データ学習ゼロ**。第三者アクセスなし。'],
+      items: ['✧ [プライバシーゾーン](./product/overview/privacy-architecture) — EU、米国、東南アジア', '✧ **データトレーニングゼロ**。第三者アクセスなし。'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -79,13 +81,13 @@ isHome: true
   />
 
 > **これは誰のためのものですか？**  
-> _言語の壁が遅延、失注、または高コストな誤解を引き起こす国際チーム向けに構築されています。_ [詳細はこちら ...](./product/overview/markets)
+> _言語の壁が遅延、失注、または高コストな誤解を引き起こす国際チーム向けに構築されています。_ [詳細を見る ...](./product/overview/markets)
 
 <span id="HowItWorks"></span>
 
-## Google Meetのように動作 + リアルタイム翻訳
+## Google Meetのような使いやすさ + リアルタイム翻訳
 
-馴染みのあるインターフェース。ユニバーサルコミュニケーション。Google Meetと同じ使いやすさ — 言語の壁を消し去る瞬時翻訳付き。
+馴染みのあるインターフェース。ユニバーサルコミュニケーション。Google Meetと同じ使いやすさで、言語の壁を瞬時に取り除くリアルタイム翻訳機能付き。
 
 <FeatureCards
     :features="[
@@ -99,7 +101,7 @@ isHome: true
       },
       {
         title: 'ミーティングを開始',
-        details: '即座に作成するか、事前にスケジュールします。',
+        details: '即座に作成するか、事前にスケジュールを設定できます。',
         icon: {
           light: '/start.png',
           dark: '/start.png',
@@ -107,7 +109,7 @@ isHome: true
       },
       {
         title: 'ミーティングに参加',
-        details: 'リンクをクリック、名前を入力、即座に参加。',
+        details: 'リンクをクリックし、名前を入力して即座に参加できます。',
         icon: {
           light: '/join.png',
           dark: '/join.png',
@@ -124,25 +126,30 @@ isHome: true
     ]"
   />
 
+<!-- <br> -->
+
+<span id="VideoDemo"></span>
+<VideoPlayer src="/promo/demo-en-mx.mp4" />
+
 <span id="Example"></span>
 
 ## 例：会議でのリアルタイム音声翻訳の仕組み
 
 例えば：
 
-ユーザーは**サイトのローカライゼーション言語**として**スペイン語**を使用しています。会議を主催し、2人の参加者を招待します：
+ユーザーが**サイトのローカライゼーション言語**として**スペイン語**を使用しているとします。彼らが会議を主催し、2人の参加者を招待します：
 
 - 🧑‍💼 参加者1は**英語**でインターフェースを使用
 - 👩 参加者2は**中国語**でインターフェースを使用
 
 ### 会議中に何が起こるか？
 
-各参加者は、製品に入る際に選択した言語で**話し、聞き**ます。  
+各参加者は、製品に入る際に選択した言語で**話し、聞く**ことができます。  
 この単一の言語設定は以下に適用されます：
 
 - **インターフェース言語**
-- **音声入力**（あなたが話すもの）
-- **翻訳出力**（あなたが聞くもの）
+- **音声入力**（あなたが話すこと）
+- **翻訳出力**（あなたが聞くこと）
 
 | 参加者   | 選択した言語 | 話す言語 | 聞く言語 |
 | -------- | ------------ | -------- | -------- |
@@ -150,7 +157,7 @@ isHome: true
 | 参加者1  | 英語         | 英語     | 英語     |
 | 参加者2  | 中国語       | 中国語   | 中国語   |
 
-[プラットフォームはすべての音声をリアルタイムで自動的に解釈します](./product/overview/how-it-works) — そのため、全員が同じ言語を話しているかのようにコミュニケーションできます。
+[プラットフォームはすべての音声をリアルタイムで自動的に解釈します](./product/overview/how-it-works) — そのため、全員が同じ言語を話しているかのようにコミュニケーションを取ることができます。
 
 ### 通話中に言語を変更できますか？
 
@@ -167,12 +174,8 @@ isHome: true
 - インターフェースが自動的に`選択した言語`に切り替わります
 
 > ✨ 「あなたの言語」は**単一の統合設定**です  
-> **話し方**、**聞くもの**、**見るもの**を制御します。  
+> これは**あなたの話し方**、**あなたが聞くもの**、**あなたが見るもの**を制御します。  
 > 一つの言語で話して別の言語で聞くことは**サポートされていません** — 体験をシンプルで予測可能に保つための設計です。
-
-<br>
-<span id="VideoDemo"></span>
-<VideoPlayer src="/promo/demo-en-mx.mp4" />
 
 <span id="Testimonials"></span>
 
@@ -203,7 +206,7 @@ isHome: true
       {
         title: '**プロ**  &nbsp 1-99ユーザー',
         price: '**$20** /月/ユーザー、年間請求',
-        details: 'または月間請求$25',
+        details: 'または月額$25請求',
         items: [
           '**無制限** 会議',
           '**150** 参加者ビデオ会議 [💬](#3)',
@@ -247,7 +250,7 @@ isHome: true
       },
       {
         q: 'ライセンスユーザーと参加者の違いは何ですか？',
-        a: '*ライセンスユーザー*は無料または有料のミーティングライセンスを持ち、プランの制限内でミーティングをスケジュールできます。*参加者*は招待された方で、**アカウントやライセンスは不要**で、どのデバイスからでも**無料で**参加できます。',
+        a: '*ライセンスユーザー*は無料または有料のミーティングライセンスを持ち、プランの制限内でミーティングをスケジュールできます。*参加者*は招待された人で、**アカウントやライセンスは不要**で、どのデバイスからでも**無料で**参加できます。',
       },
       {
         q: '1つのInterMindライセンスで何人が使用できますか？',
@@ -263,7 +266,7 @@ isHome: true
       },
       {
         q: 'InterMindはデータプライバシーとセキュリティをどのように確保していますか？',
-        a: 'InterMindは**プライバシー・バイ・デザイン**です。すべてのデータは選択した**プライバシーゾーン**（_EU_、_US_、または_アジア_）内で処理・保存されます。[**GDPR**](https://gdpr.eu)、[**CCPA**](https://oag.ca.gov/privacy/ccpa)、UAE PDPLに準拠し、**お客様のコンテンツを**トレーニングやサードパーティアクセスに**使用することはありません**。高度な[プライバシーゾーン制御](./product/overview/privacy-architecture)は**ビジネス**プランで利用可能です。',
+        a: 'InterMindは**プライバシー・バイ・デザイン**です。すべてのデータは選択した**プライバシーゾーン**（_EU_、_US_、または_アジア_）内で処理・保存されます。[**GDPR**](https://gdpr.eu)、[**CCPA**](https://oag.ca.gov/privacy/ccpa)、UAE PDPLに準拠し、**お客様のコンテンツを**トレーニングやサードパーティアクセスに**決して使用しません**。高度な[プライバシーゾーン制御](./product/overview/privacy-architecture)は**ビジネス**プランで利用可能です。',
       },
       {
         q: 'プランを購入する前にInterMindを試すことはできますか？',

@@ -5,22 +5,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/de"
 
 export const de = defineConfig({
-  description: "InterMIND bietet Echtzeit-Sprachübersetzung für Videoanrufe — beseitigt Sprachbarrieren sofort. Entwickelt vom mind.com Team.",
+  description:
+    "Professionelle Videokonferenzen mit Simultandolmetschen in über 19 Sprachen. KI-gestützte Übersetzung, die Tonfall, Absicht und Kontext für globale Teams erfasst.",
   head: [
-    [
-      "meta",
-      {
-        name: "description",
-        content: "InterMIND bietet Echtzeit-Sprachübersetzung für Videoanrufe — beseitigt Sprachbarrieren sofort. Entwickelt vom mind.com Team.",
-      },
-    ],
     ["meta", { property: "og:title", content: "InterMIND | Echtzeit-Sprachübersetzung für globale Teams" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMIND bietet sofortige Sprachübersetzung in Videoanrufen — klare, mehrsprachige Kommunikation ohne Barrieren. Entwickelt vom mind.com Team.",
+          "Professionelle Videokonferenzen mit simultaner Sprachdolmetschung in über 19 Sprachen. Global treffen, natürlich kommunizieren mit KI-gestützter Übersetzung.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -41,7 +35,7 @@ export const de = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         items: [
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
-          { text: "Erfahrungsberichte", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Testimonials", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
     ],
@@ -53,7 +47,7 @@ export const de = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Datenschutz-Einstellungen</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Datenschutzrichtlinie</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Rechtliche Bestimmungen für KI-Dienste</a> | <a href="https://status.mind.com/">Service-Status</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Datenschutz-Einstellungen</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Datenschutzrichtlinie</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Rechtliche Bestimmungen für KI-Services</a> | <a href="https://status.mind.com/">Service-Status</a>`,
     },
 
     localization: {
@@ -76,7 +70,7 @@ export const de = defineConfig({
       webSiteError: "Bitte geben Sie die Website ein",
       category: "Was ist Ihr Hauptziel? *",
       categoryPlaceholder: "Wählen Sie, was am wichtigsten ist",
-      message: "Lassen Sie uns Ihre Ziele besprechen (optional)",
+      message: "Lassen Sie uns über Ihre Ziele sprechen (optional)",
       messagePlaceholder: "Bitte geben Sie zusätzliche Details an (optional)",
       submit: "Anfrage senden",
       sending: "Wird gesendet...",
@@ -104,7 +98,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "ANLEITUNG",
+      text: "LEITFADEN",
       collapsed: false,
       items: [
         { text: "Erste Schritte", link: "guide/getting-started" },
@@ -138,8 +132,8 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
     //   text: "RESSOURCEN",
     //   collapsed: false,
     //   items: [
-    //     { text: "Marken-Assets", link: "/media-kit" },
-    //     // { text: "Kontoverwaltung", link: "guide/account-management" },
+    //     { text: "Brand Assets", link: "/media-kit" },
+    //     // { text: "Account Management", link: "guide/account-management" },
     //   ],
     // },
     {
@@ -159,7 +153,7 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Zusammenfassung für Führungskräfte", link: "/InterMind-Executive-Summary" },
     { text: "Go-to-Market-Strategie", link: "/go-to-market-strategy" },
-    { text: "Investor-Präsentation", link: "/InterMind-Investor-Pitch" },
+    { text: "Investor Pitch", link: "/InterMind-Investor-Pitch" },
     { text: "Begründung der Finanzprognosen (Jahr 1–3)", link: "/Financial-Projections-Justification" },
   ]
 }

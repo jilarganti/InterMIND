@@ -5,22 +5,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
-  description: "InterMINDは、ビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームが開発。",
+  description:
+    "19以上の言語での同時通訳機能を備えたプロフェッショナルなビデオ会議。グローバルチーム向けに、トーン、意図、文脈を捉えるAI搭載翻訳。",
   head: [
-    [
-      "meta",
-      {
-        name: "description",
-        content: "InterMINDは、ビデオ通話でリアルタイム音声翻訳を提供し、言語の壁を瞬時に取り除きます。mind.comチームが開発。",
-      },
-    ],
     ["meta", { property: "og:title", content: "InterMIND | グローバルチーム向けリアルタイム音声翻訳" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMINDは、ビデオ通話で瞬時の音声翻訳を提供 — 障壁のない明確で多言語コミュニケーション。mind.comチームが開発。",
+          "19以上の言語での同時音声通訳機能を備えたプロフェッショナルなビデオ会議。グローバルに会議し、AI搭載翻訳で自然にコミュニケーション。",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -40,7 +34,7 @@ export const ja = defineConfig({
         text: "リソース",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "よくある質問", link: `${BASE_PATH}/#FAQ` },
+          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "お客様の声", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -81,7 +75,7 @@ export const ja = defineConfig({
       submit: "リクエストを送信",
       sending: "送信中...",
       successTitle: "ありがとうございます！",
-      successMessage: "メッセージを受信いたしました — チームより間もなくご連絡いたします。",
+      successMessage: "メッセージを受信いたしました。チームより間もなくご連絡いたします。",
       defaultCategories: [],
 
       defaultButtonText: "メッセージを送る",
@@ -114,7 +108,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "ユーザーロール", link: "guide/user-roles" },
         { text: "AI機能", link: "guide/ai-features" },
         { text: "会議履歴", link: "guide/meeting-history" },
-        { text: "よくある質問", link: "guide/faq" },
+        { text: "FAQ", link: "guide/faq" },
         { text: "トラブルシューティング", link: "guide/troubleshooting" },
         { text: "料金", link: "guide/pricing" },
         { text: "ヘルプ＆サポート", link: "guide/help-support" },

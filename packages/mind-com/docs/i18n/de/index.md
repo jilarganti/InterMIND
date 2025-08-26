@@ -1,18 +1,20 @@
 ---
 layout: home
-title: "Live-Sprachübersetzung für Videoanrufe"
+title: "InterMIND: Echtzeit-Sprachübersetzung für Videobesprechungen"
+description: "Professionelle Videokonferenzen mit Simultandolmetschen in über 19 Sprachen. KI-gestützte Übersetzung, die Tonfall, Absicht und Kontext erfasst. Global treffen, natürlich kommunizieren."
 isHome: true
 ---
 
-<HeroSection title="Treffen Sie sich in **jeder** Sprache" :typingSpeed="10" text="Live-Sprachübersetzung in Videoanrufen. Sofortiges Verstehen, keine Barrieren.">
-<NavButton buttonLabel="Wie es funktioniert" buttonClass="brand" to="/#HowItWorks" />
+<!-- <HeroSection title="Treffen Sie sich in **jeder** Sprache" :typingSpeed="10" text="Live-Sprachübersetzung in Videoanrufen. Sofortiges Verstehen, keine Barrieren."> -->
+<HeroSection title="Treffen Sie sich in **jeder** Sprache" :typingSpeed="20" text="Simultandolmetschen während Videoanrufen. Klarheit über Kulturen hinweg.">
+<NavButton buttonLabel="Demo ansehen" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Assistent" buttonClass="alt" to="/chat" />
 </HeroSection>
 
 <span id="1"></span>
 <FeatureBlock
     :card="{
-      title: 'Übersetzung ≠ Verstehen. Hier ist, was als nächstes kommt.',
+      title: 'Übersetzung ≠ Verstehen. Hier ist die Zukunft.',
       details: 'Unabhängig von der Sprache wird Ihre Stimme gehört — und verstanden — als würden Sie dieselbe Sprache sprechen.',
       items: [
         '✧ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
@@ -30,10 +32,10 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock
     :card="{
-      title: 'Der Verstand in Ihren Meetings',
-      details: 'InterMind verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
+      title: 'Der Verstand in Ihren Besprechungen',
+      details: 'InterMIND verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
       items: [
-        '✧ **Fragen Sie alles** — KI findet Antworten **in all Ihren Meetings**.',
+        '✧ **Fragen Sie alles** — KI findet Antworten **in all Ihren Besprechungen**.',
         '✧ Extrahiert automatisch Aufgaben, Verantwortliche und Fristen.',
         '✧ Fasst wichtige Punkte in jeder Sprache zusammen — sofort.',
       ],
@@ -49,10 +51,10 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: 'Entwickelt für ernsthafte Meetings — nicht nur zum Reden',
-      details: 'InterMind ist eine [professionelle Video-Meeting-Plattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
+      title: 'Für ernsthafte Besprechungen entwickelt — nicht nur zum Reden',
+      details: 'InterMIND ist eine [professionelle Videobesprechungsplattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
       items: [
-        '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles eingebaut, **sofort einsatzbereit**.',
+        '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -67,8 +69,8 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Datenschutz, wo es darauf ankommt',
-      details: 'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Datenschutz und Kontrolle am wichtigsten sind.',
-      items: ['✧ [Datenschutzzonen](./product/overview/privacy-architecture) — EU, USA, Südostasien', '✧ **Null Datentraining**. Kein Zugriff durch Dritte.'],
+      details: 'InterMIND ist für vertrauenskritische Gespräche entwickelt — wo Datenschutz und Kontrolle am wichtigsten sind.',
+      items: ['✧ [Datenschutzzonen](./product/overview/privacy-architecture) — EU, USA, Südostasien', '✧ **Keine Datennutzung für Training**. Kein Zugriff durch Dritte.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -124,6 +126,11 @@ Vertraute Benutzeroberfläche. Universelle Kommunikation. Dieselbe Einfachheit w
     ]"
   />
 
+<!-- <br> -->
+
+<span id="VideoDemo"></span>
+<VideoPlayer src="/promo/demo-en-mx.mp4" />
+
 <span id="Example"></span>
 
 ## Beispiel: Wie Echtzeit-Sprachübersetzung in einem Meeting funktioniert
@@ -144,11 +151,11 @@ Diese einzige Spracheinstellung gilt für:
 - Die **gesprochene Eingabe** (was Sie sagen)
 - Die **übersetzte Ausgabe** (was Sie hören)
 
-| Teilnehmer    | Gewählte Sprache | Spricht in | Hört in  |
-| ------------- | ---------------- | ---------- | -------- |
-| Gastgeber     | Spanisch         | Spanisch   | Spanisch |
-| Teilnehmer 1  | Englisch         | Englisch   | Englisch |
-| Teilnehmer 2  | Chinesisch       | Chinesisch | Chinesisch |
+| Teilnehmer    | Ausgewählte Sprache | Spricht in | Hört in  |
+| ------------- | ------------------- | ---------- | -------- |
+| Gastgeber     | Spanisch            | Spanisch   | Spanisch |
+| Teilnehmer 1  | Englisch            | Englisch   | Englisch |
+| Teilnehmer 2  | Chinesisch          | Chinesisch | Chinesisch |
 
 [Die Plattform interpretiert automatisch alle Sprache in Echtzeit](./product/overview/how-it-works) — so kommuniziert jeder, als würde er dieselbe Sprache sprechen.
 
@@ -169,10 +176,6 @@ Diese Änderung bedeutet:
 > ✨ "Ihre Sprache" ist eine **einzige einheitliche Einstellung**  
 > Sie steuert **wie Sie sprechen**, **was Sie hören** und **was Sie sehen**.  
 > In einer Sprache zu sprechen und in einer anderen zu hören wird **nicht unterstützt** — bewusst, um die Erfahrung einfach und vorhersagbar zu halten.
-
-<br>
-<span id="VideoDemo"></span>
-<VideoPlayer src="/promo/demo-en-mx.mp4" />
 
 <span id="Testimonials"></span>
 
@@ -271,7 +274,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         q: 'Was ist, wenn ich Hilfe oder Support benötige?',
-        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **vorrangigen Support** mit einem dedizierten Ansprechpartner.',
+        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **prioritären Support** mit einem dedizierten Ansprechpartner.',
       },
       {
         q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
@@ -310,7 +313,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         links: [
           { text: 'Blog', link: './blog' },
           { text: 'Marken-Assets', link: './resources/media-kit' },
-          { text: 'KI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
+          { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

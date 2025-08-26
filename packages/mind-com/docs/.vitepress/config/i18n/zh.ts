@@ -5,22 +5,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
-  description: "InterMIND 为视频通话提供实时语音翻译——即时消除语言障碍。由 mind.com 团队提供技术支持。",
+  description:
+    "专业视频会议平台，支持19+种语言的同声传译。AI驱动的翻译技术，准确捕捉语调、意图和语境，助力全球团队沟通。",
   head: [
-    [
-      "meta",
-      {
-        name: "description",
-        content: "InterMIND 为视频通话提供实时语音翻译——即时消除语言障碍。由 mind.com 团队提供技术支持。",
-      },
-    ],
     ["meta", { property: "og:title", content: "InterMIND | 全球团队实时语音翻译" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMIND 在视频通话中提供即时语音翻译——清晰的多语言沟通，无障碍交流。由 mind.com 团队提供技术支持。",
+          "专业视频会议平台，支持19+种语言的同声语音传译。全球会议，自然沟通，AI驱动的翻译技术。",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -41,7 +35,7 @@ export const zh = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         items: [
           { text: "常见问题", link: `${BASE_PATH}/#FAQ` },
-          { text: "用户评价", link: `${BASE_PATH}/#Testimonials` },
+          { text: "客户评价", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
     ],
@@ -53,7 +47,7 @@ export const zh = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AI 服务法律法规</a> | <a href="https://status.mind.com/">服务状态</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AI服务法律法规</a> | <a href="https://status.mind.com/">服务状态</a>`,
     },
 
     localization: {
@@ -84,7 +78,7 @@ export const zh = defineConfig({
       successMessage: "我们已收到您的消息——我们的团队将很快与您联系。",
       defaultCategories: [],
 
-      defaultButtonText: "给我们发送消息",
+      defaultButtonText: "给我们发消息",
       // defaultButtonText: "获取免费咨询",
     },
   },
@@ -96,7 +90,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "概述",
       collapsed: false,
       items: [
-        { text: "什么是 InterMIND？", link: "overview/what-is-intermind" },
+        { text: "什么是InterMIND？", link: "overview/what-is-intermind" },
         { text: "工作原理", link: "overview/how-it-works" },
         { text: "视频会议平台", link: "overview/video-meeting-platform" },
         { text: "区域数据隐私", link: "overview/privacy-architecture" },
@@ -112,7 +106,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "创建会议", link: "guide/creating-meetings" },
         { text: "会议界面", link: "guide/meeting-interface" },
         { text: "用户角色", link: "guide/user-roles" },
-        { text: "AI 功能", link: "guide/ai-features" },
+        { text: "AI功能", link: "guide/ai-features" },
         { text: "会议历史", link: "guide/meeting-history" },
         { text: "常见问题", link: "guide/faq" },
         { text: "故障排除", link: "guide/troubleshooting" },
@@ -131,7 +125,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "获取支持", link: "/help" },
         { text: "隐私政策", link: "/company/Privacy-Policy" },
-        { text: "AI 法律指南", link: "/company/Legal-Regulations-for-AI-Services" },
+        { text: "AI法律指南", link: "/company/Legal-Regulations-for-AI-Services" },
       ],
     },
     // {

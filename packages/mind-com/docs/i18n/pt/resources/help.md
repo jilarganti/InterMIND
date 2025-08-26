@@ -25,6 +25,7 @@ Rápido, focado e com uma pessoa real do outro lado.
     'Preciso de assistência com integração da equipe',
     'Tenho dúvidas sobre cobrança ou assinatura',
     'Quero explorar recursos empresariais',
+    'Quero obter ID de aplicação e token da Mind API sem restrições',
     'Pergunta geral ou feedback'
   ]" />
 

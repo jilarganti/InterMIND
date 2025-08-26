@@ -1,11 +1,13 @@
 ---
 layout: home
-title: "Traducción de voz en vivo para videollamadas"
+title: "InterMIND: Traducción de voz en tiempo real para videollamadas"
+description: "Videoconferencias profesionales con interpretación simultánea en más de 19 idiomas. Traducción impulsada por IA que captura el tono, la intención y el contexto. Reúnete globalmente, comunícate naturalmente."
 isHome: true
 ---
 
-<HeroSection title="Reúnete en **Cualquier** Idioma" :typingSpeed="10" text="Traducción de voz en vivo en videollamadas. Comprensión instantánea, sin barreras.">
-<NavButton buttonLabel="Cómo funciona" buttonClass="brand" to="/#HowItWorks" />
+<!-- <HeroSection title="Reúnete en **Cualquier** Idioma" :typingSpeed="10" text="Traducción de voz en vivo en videollamadas. Comprensión instantánea, sin barreras."> -->
+<HeroSection title="Reúnete en **Cualquier** Idioma" :typingSpeed="20" text="Interpretación simultánea durante videollamadas. Claridad a través de culturas.">
+<NavButton buttonLabel="Ver demo" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Asistente" buttonClass="alt" to="/chat" />
 </HeroSection>
 
@@ -30,8 +32,8 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock
     :card="{
-      title: 'La Mente Dentro de Tus Reuniones',
-      details: 'InterMind convierte cada llamada multilingüe en conocimiento claro y consultable.',
+      title: 'La mente dentro de tus reuniones',
+      details: 'InterMIND convierte cada llamada multilingüe en conocimiento claro y consultable.',
       items: [
         '✧ **Pregunta cualquier cosa** — la IA encuentra respuestas **en todas tus reuniones**.',
         '✧ Extrae automáticamente tareas, responsables y fechas límite.',
@@ -49,8 +51,8 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: 'Construido para Reuniones Serias — No Solo para Conversar',
-      details: 'InterMind es una [plataforma de videorreuniones de grado profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
+      title: 'Construido para reuniones serias — no solo para conversar',
+      details: 'InterMIND es una [plataforma de videoconferencias de nivel profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
       items: [
         '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, **listo para usar**.',
       ],
@@ -66,9 +68,9 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
     :card="{
-      title: 'Privacidad Donde Importa',
-      details: 'InterMind está construido para conversaciones críticas de confianza — donde la privacidad y el control importan más.',
-      items: ['✧ [Zonas de Privacidad](./product/overview/privacy-architecture) — UE, EE.UU., Sudeste Asiático', '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'],
+      title: 'Privacidad donde importa',
+      details: 'InterMIND está construido para conversaciones críticas de confianza — donde la privacidad y el control importan más.',
+      items: ['✧ [Zonas de privacidad](./product/overview/privacy-architecture) — UE, EE.UU., Sudeste Asiático', '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -83,9 +85,9 @@ isHome: true
 
 <span id="HowItWorks"></span>
 
-## Funciona como Google Meet + traducción en vivo
+## Funciona como Google Meet + Traducción en vivo
 
-Interfaz familiar. Comunicación universal. La misma facilidad que Google Meet, con traducción instantánea que hace desaparecer las barreras del idioma.
+Interfaz familiar. Comunicación universal. La misma facilidad que Google Meet — con traducción instantánea que hace desaparecer las barreras del idioma.
 
 <FeatureCards
     :features="[
@@ -124,6 +126,11 @@ Interfaz familiar. Comunicación universal. La misma facilidad que Google Meet, 
     ]"
   />
 
+<!-- <br> -->
+
+<span id="VideoDemo"></span>
+<VideoPlayer src="/promo/demo-en-mx.mp4" />
+
 <span id="Example"></span>
 
 ## Ejemplo: Cómo funciona la traducción de voz en tiempo real en una reunión
@@ -132,8 +139,8 @@ Supongamos que:
 
 El usuario utiliza **español** como **idioma de localización del sitio**. Organiza una reunión e invita a dos participantes:
 
-- 🧑‍💼 Participante 1 usa la interfaz en **inglés**
-- 👩 Participante 2 usa la interfaz en **chino**
+- 🧑‍💼 El participante 1 usa la interfaz en **inglés**
+- 👩 La participante 2 usa la interfaz en **chino**
 
 ### ¿Qué sucede durante la reunión?
 
@@ -144,11 +151,11 @@ Esta configuración de idioma único se aplica a:
 - La **entrada hablada** (lo que dices)
 - La **salida traducida** (lo que escuchas)
 
-| Participante  | Idioma seleccionado | Habla en  | Escucha en |
-| ------------- | ------------------- | --------- | ---------- |
-| Anfitrión     | Español             | Español   | Español    |
-| Participante 1| Inglés              | Inglés    | Inglés     |
-| Participante 2| Chino               | Chino     | Chino      |
+| Participante   | Idioma seleccionado | Habla en  | Escucha en |
+| -------------- | ------------------- | --------- | ---------- |
+| Anfitrión      | Español             | Español   | Español    |
+| Participante 1 | Inglés              | Inglés    | Inglés     |
+| Participante 2 | Chino               | Chino     | Chino      |
 
 [La plataforma interpreta automáticamente todo el habla en tiempo real](./product/overview/how-it-works) — así que todos se comunican como si hablaran el mismo idioma.
 
@@ -168,11 +175,7 @@ Cambiar esto significa:
 
 > ✨ "Tu idioma" es una **configuración única unificada**  
 > Controla **cómo hablas**, **qué escuchas** y **qué ves**.  
-> Hablar en un idioma y escuchar en otro **no está soportado** — por diseño, para mantener la experiencia simple y predecible.
-
-<br>
-<span id="VideoDemo"></span>
-<VideoPlayer src="/promo/demo-en-mx.mp4" />
+> Hablar en un idioma y escuchar en otro **no es compatible** — por diseño, para mantener la experiencia simple y predecible.
 
 <span id="Testimonials"></span>
 

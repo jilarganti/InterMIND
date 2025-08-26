@@ -5,22 +5,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/es"
 
 export const es = defineConfig({
-  description: "InterMIND proporciona traducción de voz en tiempo real para videollamadas — eliminando las barreras del idioma al instante. Desarrollado por el equipo de mind.com.",
+  description:
+    "Videoconferencias profesionales con interpretación simultánea en más de 19 idiomas. Traducción impulsada por IA que captura el tono, la intención y el contexto para equipos globales.",
   head: [
-    [
-      "meta",
-      {
-        name: "description",
-        content: "InterMIND proporciona traducción de voz en tiempo real para videollamadas — eliminando las barreras del idioma al instante. Desarrollado por el equipo de mind.com.",
-      },
-    ],
-    ["meta", { property: "og:title", content: "InterMIND | Traducción de Voz en Tiempo Real para Equipos Globales" }],
+    ["meta", { property: "og:title", content: "InterMIND | Traducción de voz en tiempo real para equipos globales" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMIND ofrece traducción de voz instantánea en videollamadas — comunicación multilingüe clara sin barreras. Desarrollado por el equipo de mind.com.",
+          "Videoconferencias profesionales con interpretación de voz simultánea en más de 19 idiomas. Reúnete globalmente, comunícate naturalmente con traducción impulsada por IA.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -98,7 +92,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "¿Qué es InterMIND?", link: "overview/what-is-intermind" },
         { text: "Cómo funciona", link: "overview/how-it-works" },
-        { text: "Plataforma de videorreuniones", link: "overview/video-meeting-platform" },
+        { text: "Plataforma de videollamadas", link: "overview/video-meeting-platform" },
         { text: "Privacidad de datos regional", link: "overview/privacy-architecture" },
         { text: "Mercados prioritarios", link: "overview/markets" },
       ],
