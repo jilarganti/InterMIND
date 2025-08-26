@@ -1,11 +1,12 @@
 ---
 layout: home
-title: "Live speech translation for video calls"
+title: "InterMIND: Real-Time Speech Translation for Video Meetings"
+description: "Professional video conferencing with simultaneous interpretation in 19+ languages. AI-powered translation that captures tone, intent, and context. Meet globally, communicate naturally."
 isHome: true
 ---
 
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
-<HeroSection title="Meet in **Any** Language" :typingSpeed="20" text="Simultaneous voice interpretation during video calls. Clarity across culture.">
+<HeroSection title="Meet in **Any** Language" :typingSpeed="20" text="Simultaneous interpretation during video calls. Clarity across culture.">
 <NavButton buttonLabel="Watch demo" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
 </HeroSection>

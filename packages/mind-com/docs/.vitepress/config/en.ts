@@ -5,22 +5,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = ""
 
 export const en = defineConfig({
-  description: "InterMIND provides real-time speech translation for video calls — eliminating language barriers instantly. Powered by the mind.com team.",
+  description:
+    "Professional video conferencing with simultaneous interpretation in 19+ languages. AI-powered translation that captures tone, intent, and context for global teams.",
   head: [
-    [
-      "meta",
-      {
-        name: "description",
-        content: "InterMIND provides real-time speech translation for video calls — eliminating language barriers instantly. Powered by the mind.com team.",
-      },
-    ],
     ["meta", { property: "og:title", content: "InterMIND | Real-time Speech Translation for Global Teams" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "InterMIND offers instant speech translation in video calls — clear, multilingual communication without barriers. Powered by the mind.com team.",
+          "Professional video conferencing with simultaneous voice interpretation in 19+ languages. Meet globally, communicate naturally with AI-powered translation.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
