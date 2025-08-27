@@ -5,8 +5,9 @@ description: "19以上の言語での同時通訳機能を備えたプロフェ�
 isHome: true
 ---
 
-<!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
-<HeroSection title="**あらゆる**言語で会議" :typingSpeed="20" text="ビデオ通話中の同時通訳。文化を超えた明確性。">
+<!-- <HeroSection title="**あらゆる**言語で会議" :typingSpeed="10" text="ビデオ通話でのライブ音声翻訳。瞬時の理解、障壁なし。"> -->
+
+<HeroSection title="**あらゆる**言語を理解" :typingSpeed="20" text="ビデオ通話中の同時通訳。言語の壁を瞬時に打破。">
 <NavButton buttonLabel="デモを見る" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="アシスタント" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -17,7 +18,7 @@ isHome: true
       title: '翻訳 ≠ 理解。次のステップがここにあります。',
       details: '言語に関係なく、あなたの声は同じ言語を話すかのように聞かれ、理解されます。',
       items: [
-        '✧ [リアルタイム](./product/overview/how-it-works)で自然に、字幕や遅延なしで。',
+        '✧ 自然に、[リアルタイム](./product/overview/how-it-works)で、字幕や遅延なしに。',
         '✧ AI搭載の通訳がトーン、意図、業界固有の専門用語を捉えます。',
       ],
       link: './product/overview/what-is-intermind',
@@ -37,7 +38,7 @@ isHome: true
       items: [
         '✧ **何でも質問** — AIが**会議全体から**答えを見つけます。',
         '✧ タスク、担当者、締切を自動抽出。',
-        '✧ 重要なポイントをあらゆる言語で即座に要約。',
+        '✧ 重要なポイントをあらゆる言語で瞬時に要約。',
       ],
       link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
       src: {
@@ -70,7 +71,7 @@ isHome: true
     :card="{
       title: '重要な場面でのプライバシー',
       details: 'InterMindは信頼が重要な会話のために構築されています — プライバシーとコントロールが最も重要な場面で。',
-      items: ['✧ [プライバシーゾーン](./product/overview/privacy-architecture) — EU、米国、東南アジア', '✧ **データトレーニングゼロ**。第三者アクセスなし。'],
+      items: ['✧ [プライバシーゾーン](./product/overview/privacy-architecture) — EU、米国、東南アジア', '✧ **データ学習ゼロ**。第三者アクセスなし。'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -81,7 +82,7 @@ isHome: true
   />
 
 > **これは誰のためのものですか？**  
-> _言語の壁が遅延、失注、または高コストな誤解を引き起こす国際チーム向けに構築されています。_ [詳細を見る ...](./product/overview/markets)
+> _言語の壁が遅延、失注、または高コストな誤解を引き起こす国際チームのために構築されています。_ [詳細を見る ...](./product/overview/markets)
 
 <span id="HowItWorks"></span>
 

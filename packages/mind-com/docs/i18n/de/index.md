@@ -5,8 +5,9 @@ description: "Professionelle Videokonferenzen mit Simultandolmetschen in über 1
 isHome: true
 ---
 
-<!-- <HeroSection title="Treffen Sie sich in **jeder** Sprache" :typingSpeed="10" text="Live-Sprachübersetzung in Videoanrufen. Sofortiges Verstehen, keine Barrieren."> -->
-<HeroSection title="Treffen Sie sich in **jeder** Sprache" :typingSpeed="20" text="Simultandolmetschen während Videoanrufen. Klarheit über Kulturen hinweg.">
+<!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
+
+<HeroSection title="Verstehen Sie **jede** Sprache" :typingSpeed="20" text="Simultandolmetschen während Videoanrufen. Sprachbarrieren sofort überwinden.">
 <NavButton buttonLabel="Demo ansehen" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Assistent" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -52,7 +53,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Für ernsthafte Besprechungen entwickelt — nicht nur zum Reden',
-      details: 'InterMIND ist eine [professionelle Videobesprechungsplattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
+      details: 'InterMIND ist eine [professionelle Video-Meeting-Plattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
       items: [
         '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
       ],
@@ -151,11 +152,11 @@ Diese einzige Spracheinstellung gilt für:
 - Die **gesprochene Eingabe** (was Sie sagen)
 - Die **übersetzte Ausgabe** (was Sie hören)
 
-| Teilnehmer    | Ausgewählte Sprache | Spricht in | Hört in  |
-| ------------- | ------------------- | ---------- | -------- |
-| Gastgeber     | Spanisch            | Spanisch   | Spanisch |
-| Teilnehmer 1  | Englisch            | Englisch   | Englisch |
-| Teilnehmer 2  | Chinesisch          | Chinesisch | Chinesisch |
+| Teilnehmer    | Gewählte Sprache | Spricht in | Hört in  |
+| ------------- | ---------------- | ---------- | -------- |
+| Gastgeber     | Spanisch         | Spanisch   | Spanisch |
+| Teilnehmer 1  | Englisch         | Englisch   | Englisch |
+| Teilnehmer 2  | Chinesisch       | Chinesisch | Chinesisch |
 
 [Die Plattform interpretiert automatisch alle Sprache in Echtzeit](./product/overview/how-it-works) — so kommuniziert jeder, als würde er dieselbe Sprache sprechen.
 
@@ -274,7 +275,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         q: 'Was ist, wenn ich Hilfe oder Support benötige?',
-        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **prioritären Support** mit einem dedizierten Ansprechpartner.',
+        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **vorrangigen Support** mit einem dedizierten Ansprechpartner.',
       },
       {
         q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
@@ -313,7 +314,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         links: [
           { text: 'Blog', link: './blog' },
           { text: 'Marken-Assets', link: './resources/media-kit' },
-          { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
+          { text: 'KI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

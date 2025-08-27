@@ -6,7 +6,8 @@ isHome: true
 ---
 
 <!-- <HeroSection title="Reúna-se em **Qualquer** Idioma" :typingSpeed="10" text="Tradução de fala ao vivo em videochamadas. Compreensão instantânea, sem barreiras."> -->
-<HeroSection title="Reúna-se em **Qualquer** Idioma" :typingSpeed="20" text="Interpretação simultânea durante videochamadas. Clareza através das culturas.">
+
+<HeroSection title="Entenda **Qualquer** Idioma" :typingSpeed="20" text="Interpretação simultânea durante videochamadas. Quebre barreiras linguísticas instantaneamente.">
 <NavButton buttonLabel="Assistir demo" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Assistente" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -14,7 +15,7 @@ isHome: true
 <span id="1"></span>
 <FeatureBlock
     :card="{
-      title: 'Tradução ≠ Compreensão. Aqui está o que vem a seguir.',
+      title: 'Tradução ≠ Compreensão. Veja o que vem a seguir.',
       details: 'Não importa o idioma, sua voz é ouvida — e compreendida — como se vocês compartilhassem a mesma língua.',
       items: [
         '✧ Naturalmente, em [tempo real](./product/overview/how-it-works), e sem legendas ou atraso.',
@@ -52,7 +53,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Construído para reuniões sérias — não apenas para conversar',
-      details: 'InterMIND é uma [plataforma de videoconferência de nível profissional](./product/overview/video-meeting-platform), não um complemento leve ou plugin.',
+      details: 'InterMIND é uma [plataforma de videoconferência de nível profissional](./product/overview/video-meeting-platform), não um complemento ou plugin leve.',
       items: [
         '✧ Resolução 1080p, supressão inteligente de ruído, agendamento, moderação, compartilhamento de tela, gravação, legendagem, chat de participantes e integração com calendário — tudo integrado, **pronto para usar**.',
       ],

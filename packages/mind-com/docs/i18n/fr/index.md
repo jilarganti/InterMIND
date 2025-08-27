@@ -5,8 +5,9 @@ description: "Visioconférence professionnelle avec interprétation simultanée 
 isHome: true
 ---
 
-<!-- <HeroSection title="Rencontrez-vous dans **N'importe Quelle** Langue" :typingSpeed="10" text="Traduction vocale en direct dans les appels vidéo. Compréhension instantanée, aucune barrière."> -->
-<HeroSection title="Rencontrez-vous dans **N'importe Quelle** Langue" :typingSpeed="20" text="Interprétation simultanée pendant les appels vidéo. Clarté à travers les cultures.">
+<!-- <HeroSection title="Rencontrez-vous dans **N'importe Quelle** Langue" :typingSpeed="10" text="Traduction vocale en direct dans les appels vidéo. Compréhension instantanée, sans barrières."> -->
+
+<HeroSection title="Comprenez **N'importe Quelle** Langue" :typingSpeed="20" text="Interprétation simultanée pendant les appels vidéo. Brisez les barrières linguistiques instantanément.">
 <NavButton buttonLabel="Voir la démo" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -52,7 +53,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Conçu pour les réunions sérieuses — pas seulement pour parler',
-      details: 'InterMIND est une [plateforme de réunion vidéo de niveau professionnel](./product/overview/video-meeting-platform), pas un simple complément ou plugin léger.',
+      details: 'InterMIND est une [plateforme de réunion vidéo de qualité professionnelle](./product/overview/video-meeting-platform), pas un simple module complémentaire ou plugin léger.',
       items: [
         '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration calendrier — tout intégré, **prêt à l\'emploi**.',
       ],
@@ -70,7 +71,7 @@ isHome: true
     :card="{
       title: 'Confidentialité là où ça compte',
       details: 'InterMIND est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle comptent le plus.',
-      items: ['✧ [Zones de confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est', '✧ **Aucune formation de données**. Aucun accès tiers.'],
+      items: ['✧ [Zones de confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est', '✧ **Zéro formation de données**. Aucun accès tiers.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',

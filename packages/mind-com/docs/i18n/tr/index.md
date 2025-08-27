@@ -6,7 +6,8 @@ isHome: true
 ---
 
 <!-- <HeroSection title="**Herhangi** Bir Dilde Buluşun" :typingSpeed="10" text="Video aramalarında canlı konuşma çevirisi. Anında anlayış, engel yok."> -->
-<HeroSection title="**Herhangi** Bir Dilde Buluşun" :typingSpeed="20" text="Video aramalarında eşzamanlı tercümanlık. Kültürler arası netlik.">
+
+<HeroSection title="**Herhangi** Bir Dili Anlayın" :typingSpeed="20" text="Video aramaları sırasında eşzamanlı tercümanlık. Dil engellerini anında aşın.">
 <NavButton buttonLabel="Demo izle" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Asistan" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -15,7 +16,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Çeviri ≠ Anlayış. İşte sıradaki adım.',
-      details: 'Dil ne olursa olsun, sesiniz duyulur — ve anlaşılır — sanki aynı dili paylaşıyormuşsunuz gibi.',
+      details: 'Dil ne olursa olsun, sesiniz duyulur — ve aynı dili paylaşıyormuşsunuz gibi anlaşılır.',
       items: [
         '✧ Doğal olarak, [gerçek zamanlı](./product/overview/how-it-works) ve altyazı veya gecikme olmadan.',
         '✧ AI destekli tercümanlık ton, niyet ve sektöre özel terminolojiyi yakalar.',
@@ -32,7 +33,7 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock
     :card="{
-      title: 'Toplantılarınızdaki zihin',
+      title: 'Toplantılarınızın İçindeki Akıl',
       details: 'InterMIND her çok dilli aramayı net, aranabilir bilgiye dönüştürür.',
       items: [
         '✧ **Her şeyi sorun** — AI **toplantılarınız genelinde** cevaplar bulur.',
@@ -52,7 +53,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Ciddi toplantılar için tasarlandı — sadece konuşmak için değil',
-      details: 'InterMIND [profesyonel seviye bir video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
+      details: 'InterMIND [profesyonel düzeyde bir video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
       items: [
         '✧ 1080p çözünürlük, akıllı gürültü bastırma, planlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
       ],
@@ -80,7 +81,7 @@ isHome: true
     }"
   />
 
-> **Bu kimler için?**  
+> **Bu kimin için?**  
 > _Dil engellerinin gecikmelere, kaybedilen anlaşmalara veya maliyetli yanlış anlamalara neden olduğu uluslararası ekipler için tasarlandı._ [Daha fazla bilgi ...](./product/overview/markets)
 
 <span id="HowItWorks"></span>
@@ -157,7 +158,7 @@ Bu tek dil ayarı şunları kapsar:
 | Katılımcı 1   | İngilizce   | İngilizce     | İngilizce   |
 | Katılımcı 2   | Çince       | Çince         | Çince       |
 
-[Platform tüm konuşmaları gerçek zamanlı olarak otomatik olarak yorumlar](./product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
+[Platform tüm konuşmaları gerçek zamanlı olarak otomatik yorumlar](./product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
 
 ### Arama sırasında dilinizi değiştirebilir misiniz?
 
@@ -266,7 +267,7 @@ Bunu değiştirmek şu anlama gelir:
       },
       {
         q: 'InterMind veri gizliliği ve güvenliğini nasıl sağlıyor?',
-        a: 'InterMind **tasarım gereği gizlidir**. Tüm veriler seçtiğiniz **Gizlilik Bölgesi** içinde işlenir ve saklanır — _AB_, _ABD_ veya _Asya_. [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) ve BAE PDPL\'ye uygun olarak çalışıyoruz ve **içeriğinizi asla** eğitim veya üçüncü taraf erişimi için kullanmayız. Gelişmiş [Gizlilik Bölgesi kontrolü](./product/overview/privacy-architecture) **İş** planında mevcuttur.',
+        a: 'InterMind **tasarım gereği gizlidir**. Tüm veriler seçtiğiniz **Gizlilik Bölgesi** içinde işlenir ve saklanır — _AB_, _ABD_ veya _Asya_. [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) ve BAE PDPL\'ye uygun çalışıyoruz ve **içeriğinizi asla** eğitim veya üçüncü taraf erişimi için kullanmıyoruz. Gelişmiş [Gizlilik Bölgesi kontrolü](./product/overview/privacy-architecture) **İş** planında mevcuttur.',
       },
       {
         q: 'Bir plan satın almadan önce InterMind\'ı deneyebilir miyim?',
@@ -278,7 +279,7 @@ Bunu değiştirmek şu anlama gelir:
       },
       {
         q: 'Aboneliğimi nasıl yönetirim (yükseltme, düşürme veya iptal)?',
-        a: 'Planınızı **hesap ayarlarınız** üzerinden istediğiniz zaman değiştirebilirsiniz. Değişiklikler **anında** geçerli olur. İptaller için *Aylık planlar* fatura döneminin sonunda iptal olur. *Yıllık planlar* **orantılı geri ödeme** ile iptal edilebilir.',
+        a: 'Planınızı **hesap ayarlarınız** üzerinden istediğiniz zaman değiştirebilirsiniz. Değişiklikler **anında** geçerli olur. İptaller için, *Aylık planlar* fatura döneminin sonunda iptal olur. *Yıllık planlar* **orantılı geri ödeme** ile iptal edilebilir.',
       },
       {
         q: 'InterMind\'ı webinarlar veya büyük etkinlikler için kullanabilir miyim?',

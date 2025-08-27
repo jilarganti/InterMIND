@@ -6,7 +6,8 @@ isHome: true
 ---
 
 <!-- <HeroSection title="Reúnete en **Cualquier** Idioma" :typingSpeed="10" text="Traducción de voz en vivo en videollamadas. Comprensión instantánea, sin barreras."> -->
-<HeroSection title="Reúnete en **Cualquier** Idioma" :typingSpeed="20" text="Interpretación simultánea durante videollamadas. Claridad a través de culturas.">
+
+<HeroSection title="Entiende **Cualquier** Idioma" :typingSpeed="20" text="Interpretación simultánea durante videollamadas. Rompe las barreras del idioma al instante.">
 <NavButton buttonLabel="Ver demo" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Asistente" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -15,7 +16,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Traducción ≠ Comprensión. Esto es lo que sigue.',
-      details: 'Sin importar el idioma, tu voz es escuchada — y comprendida — como si compartieras la misma lengua.',
+      details: 'Sin importar el idioma, tu voz es escuchada — y entendida — como si compartieras la misma lengua.',
       items: [
         '✧ Naturalmente, en [tiempo real](./product/overview/how-it-works), y sin subtítulos o retrasos.',
         '✧ La interpretación impulsada por IA captura el tono, la intención y la terminología específica de la industria.',
@@ -51,8 +52,8 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: 'Construido para reuniones serias — no solo para conversar',
-      details: 'InterMIND es una [plataforma de videoconferencias de nivel profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
+      title: 'Construido para reuniones serias — no solo para hablar',
+      details: 'InterMIND es una [plataforma de videoconferencias de grado profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
       items: [
         '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, **listo para usar**.',
       ],
@@ -235,7 +236,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 <ContactForm buttonText="Hablar con nuestro equipo" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_Tu tiempo se aprovecha mejor dominando tu oficio — no memorizando gramática._**  
+> 💡 **_Tu tiempo es mejor invertido dominando tu oficio — no memorizando gramática._**  
 > 💡 **_Las verdaderas alianzas comienzan con conversaciones reales — en su idioma._**
 
 ## Preguntas Frecuentes

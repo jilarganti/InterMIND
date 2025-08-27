@@ -5,8 +5,9 @@ description: "专业视频会议平台，支持19+种语言同声传译。AI驱�
 isHome: true
 ---
 
-<!-- <HeroSection title="用**任何**语言开会" :typingSpeed="10" text="视频通话中的实时语音翻译。即时理解，无障碍沟通。"> -->
-<HeroSection title="用**任何**语言开会" :typingSpeed="20" text="视频通话中的同声传译。跨越文化的清晰沟通。">
+<!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
+
+<HeroSection title="理解**任何**语言" :typingSpeed="20" text="视频通话中的同声传译。瞬间打破语言障碍。">
 <NavButton buttonLabel="观看演示" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="助手" buttonClass="alt" to="/chat" />
 </HeroSection>
@@ -15,7 +16,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: '翻译 ≠ 理解。这就是下一步。',
-      details: '无论使用何种语言，您的声音都能被听到——并被理解——就像您们说着同一种语言一样。',
+      details: '无论使用何种语言，您的声音都能被听到——并被理解——就像您们使用同一种语言一样。',
       items: [
         '✧ 自然地，[实时](./product/overview/how-it-works)进行，无需字幕或延迟。',
         '✧ AI驱动的口译捕捉语调、意图和行业专业术语。',
@@ -81,7 +82,7 @@ isHome: true
   />
 
 > **这适合谁？**  
-> _专为因语言障碍导致延误、失去交易或代价高昂的误解的国际团队而构建。_ [了解更多...](./product/overview/markets)
+> _专为国际团队打造，解决因语言障碍导致的延误、失去交易或代价高昂的误解。_ [了解更多...](./product/overview/markets)
 
 <span id="HowItWorks"></span>
 
