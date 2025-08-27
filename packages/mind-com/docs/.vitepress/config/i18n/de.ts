@@ -44,10 +44,11 @@ export const de = defineConfig({
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
       [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
+      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Datenschutz-Einstellungen</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Datenschutzrichtlinie</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Rechtliche Bestimmungen für KI-Services</a> | <a href="https://status.mind.com/">Service-Status</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Datenschutz-Einstellungen</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Datenschutzrichtlinie</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Rechtliche Bestimmungen für KI-Dienste</a> | <a href="https://status.mind.com/">Service-Status</a>`,
     },
 
     localization: {
@@ -132,8 +133,8 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
     //   text: "RESSOURCEN",
     //   collapsed: false,
     //   items: [
-    //     { text: "Brand Assets", link: "/media-kit" },
-    //     // { text: "Account Management", link: "guide/account-management" },
+    //     { text: "Marken-Assets", link: "/media-kit" },
+    //     // { text: "Kontoverwaltung", link: "guide/account-management" },
     //   ],
     // },
     {
@@ -143,7 +144,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "Über uns", link: "/company/about" },
         { text: "Team", link: "/company/team" },
         { text: "Karriere", link: "/company/careers" },
-        { text: "Kontakt", link: "/company/contacts" },
+        { text: "Kontakte", link: "/company/contacts" },
       ],
     },
   ]
@@ -155,5 +156,33 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "Go-to-Market-Strategie", link: "/go-to-market-strategy" },
     { text: "Investor Pitch", link: "/InterMind-Investor-Pitch" },
     { text: "Begründung der Finanzprognosen (Jahr 1–3)", link: "/Financial-Projections-Justification" },
+  ]
+}
+
+function sidebarAccount(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "STARTSEITE",
+      link: "/",
+    },
+    {
+      text: "MEETINGS",
+      collapsed: false,
+      items: [
+        { text: "Meetings", link: "/meetings" },
+        { text: "Verlauf", link: "/history" },
+        { text: "Upgrade", link: "/upgrade" },
+      ],
+    },
+
+    {
+      text: "EINSTELLUNGEN",
+      collapsed: true,
+      items: [
+        { text: "Profil", link: "/settings/profile" },
+        { text: "Einstellungen", link: "/settings/settings" },
+        { text: "Einstellungen", link: "/settings/upgrade" },
+      ],
+    },
   ]
 }

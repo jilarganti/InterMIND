@@ -6,7 +6,7 @@ const BASE_PATH = "/fr"
 
 export const fr = defineConfig({
   description:
-    "Visioconférence professionnelle avec interprétation simultanée en plus de 19 langues. Traduction alimentée par l'IA qui capture le ton, l'intention et le contexte pour les équipes mondiales.",
+    "Visioconférence professionnelle avec interprétation simultanée dans plus de 19 langues. Traduction alimentée par l'IA qui capture le ton, l'intention et le contexte pour les équipes mondiales.",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | Traduction vocale en temps réel pour les équipes mondiales" }],
     [
@@ -14,7 +14,7 @@ export const fr = defineConfig({
       {
         property: "og:description",
         content:
-          "Visioconférence professionnelle avec interprétation vocale simultanée en plus de 19 langues. Rencontrez-vous mondialement, communiquez naturellement avec la traduction alimentée par l'IA.",
+          "Visioconférence professionnelle avec interprétation vocale simultanée dans plus de 19 langues. Rencontrez-vous mondialement, communiquez naturellement avec la traduction alimentée par l'IA.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -44,10 +44,11 @@ export const fr = defineConfig({
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
       [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
+      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Réglementations légales pour les services d'IA</a> | <a href="https://status.mind.com/">Statut du service</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Réglementations légales pour les services IA</a> | <a href="https://status.mind.com/">Statut du service</a>`,
     },
 
     localization: {
@@ -154,6 +155,34 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "Résumé exécutif", link: "/InterMind-Executive-Summary" },
     { text: "Stratégie de mise sur le marché", link: "/go-to-market-strategy" },
     { text: "Présentation investisseur", link: "/InterMind-Investor-Pitch" },
-    { text: "Justification des projections financières (Année 1–3)", link: "/Financial-Projections-Justification" },
+    { text: "Justification des projections financières (Années 1–3)", link: "/Financial-Projections-Justification" },
+  ]
+}
+
+function sidebarAccount(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "ACCUEIL",
+      link: "/",
+    },
+    {
+      text: "RÉUNIONS",
+      collapsed: false,
+      items: [
+        { text: "Réunions", link: "/meetings" },
+        { text: "Historique", link: "/history" },
+        { text: "Mise à niveau", link: "/upgrade" },
+      ],
+    },
+
+    {
+      text: "PARAMÈTRES",
+      collapsed: true,
+      items: [
+        { text: "Profil", link: "/settings/profile" },
+        { text: "Paramètres", link: "/settings/settings" },
+        { text: "Paramètres", link: "/settings/upgrade" },
+      ],
+    },
   ]
 }

@@ -8,13 +8,13 @@ export const hi = defineConfig({
   description:
     "19+ भाषाओं में समकालिक अनुवाद के साथ पेशेवर वीडियो कॉन्फ्रेंसिंग। वैश्विक टीमों के लिए टोन, इरादा और संदर्भ को समझने वाला AI-संचालित अनुवाद।",
   head: [
-    ["meta", { property: "og:title", content: "InterMIND | वैश्विक टीमों के लिए रियल-टाइम स्पीच अनुवाद" }],
+    ["meta", { property: "og:title", content: "InterMIND | वैश्विक टीमों के लिए रियल-टाइम स्पीच ट्रांसलेशन" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "19+ भाषाओं में समकालिक आवाज़ अनुवाद के साथ पेशेवर वीडियो कॉन्फ्रेंसिंग। वैश्विक स्तर पर मिलें, AI-संचालित अनुवाद के साथ प्राकृतिक रूप से संवाद करें।",
+          "19+ भाषाओं में समकालिक वॉयस इंटरप्रिटेशन के साथ पेशेवर वीडियो कॉन्फ्रेंसिंग। वैश्विक स्तर पर मिलें, AI-संचालित अनुवाद के साथ प्राकृतिक रूप से संवाद करें।",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -44,6 +44,7 @@ export const hi = defineConfig({
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
       [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
+      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
     },
 
     footer: {
@@ -69,13 +70,13 @@ export const hi = defineConfig({
       webSitePlaceholder: "जैसे https://companyname.com",
       webSiteError: "कृपया वेबसाइट दर्ज करें",
       category: "आपका मुख्य लक्ष्य क्या है? *",
-      categoryPlaceholder: "चुनें कि क्या सबसे महत्वपूर्ण है",
+      categoryPlaceholder: "चुनें कि आपके लिए सबसे महत्वपूर्ण क्या है",
       message: "आइए आपके लक्ष्यों पर चर्चा करें (वैकल्पिक)",
       messagePlaceholder: "कृपया कोई अतिरिक्त विवरण प्रदान करें (वैकल्पिक)",
       submit: "अनुरोध भेजें",
       sending: "भेजा जा रहा है...",
       successTitle: "धन्यवाद!",
-      successMessage: "हमें आपका संदेश मिल गया है — हमारी टीम जल्द ही संपर्क करेगी।",
+      successMessage: "हमें आपका संदेश मिल गया है — हमारी टीम जल्द ही आपसे संपर्क करेगी।",
       defaultCategories: [],
 
       defaultButtonText: "हमें संदेश भेजें",
@@ -152,8 +153,36 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
     { text: "कार्यकारी सारांश", link: "/InterMind-Executive-Summary" },
-    { text: "बाज़ार रणनीति", link: "/go-to-market-strategy" },
-    { text: "निवेशक प्रस्तुति", link: "/InterMind-Investor-Pitch" },
+    { text: "गो टू मार्केट रणनीति", link: "/go-to-market-strategy" },
+    { text: "निवेशक पिच", link: "/InterMind-Investor-Pitch" },
     { text: "वित्तीय अनुमान औचित्य (वर्ष 1–3)", link: "/Financial-Projections-Justification" },
+  ]
+}
+
+function sidebarAccount(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "होम",
+      link: "/",
+    },
+    {
+      text: "मीटिंग्स",
+      collapsed: false,
+      items: [
+        { text: "मीटिंग्स", link: "/meetings" },
+        { text: "इतिहास", link: "/history" },
+        { text: "अपग्रेड", link: "/upgrade" },
+      ],
+    },
+
+    {
+      text: "सेटिंग्स",
+      collapsed: true,
+      items: [
+        { text: "प्रोफाइल", link: "/settings/profile" },
+        { text: "सेटिंग्स", link: "/settings/settings" },
+        { text: "सेटिंग्स", link: "/settings/upgrade" },
+      ],
+    },
   ]
 }

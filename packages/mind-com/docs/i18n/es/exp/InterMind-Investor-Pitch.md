@@ -80,7 +80,7 @@ InterMind es confiable para **empresas donde la privacidad es innegociable**.
 
 ### Momento del mercado
 
-- La traducción con IA está alcanzando una precisión casi humana
+- La traducción con IA está alcanzando precisión casi humana
 - Las reuniones remotas son permanentes (75% de las ventas B2B siguen siendo virtuales — McKinsey)
 - Los mercados multilingües están creciendo: África, LATAM, SEA
 
@@ -116,15 +116,14 @@ Estamos comenzando pilotos de entrada al mercado en México, Brasil, Turquía, T
 
 - **[Name]** — CEO: ex-[Big Tech], 10+ años en NLP
 - **[Name]** — CTO: Construyó infraestructura multilingüe en [Company]
-- **[Name]** — Crecimiento: Ex director de expansión en [B2B SaaS Unicorn]
+- **[Name]** — Crecimiento: Ex-director de expansión en [B2B SaaS Unicorn]
 
 ## Solicitud
 
 - Recaudando **$3.5M en ronda Seed** para:
-
   - Expandir equipos de ingeniería y cumplimiento de privacidad
   - Localizar la plataforma para 10 nuevos mercados
   - Lanzar integraciones (Zoom, Teams)
   - Financiar campañas de adquisición B2B multilingües
 
-Construyamos la plataforma que **hace que la comprensión sea universal.**
+Construyamos la plataforma que **hace universal la comprensión.**

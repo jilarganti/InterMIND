@@ -95,13 +95,13 @@ InterMind wird von **Unternehmen vertraut, bei denen Datenschutz nicht verhandel
 | Kennzahl        | Jahr 1 | Jahr 2 | Jahr 3 |
 | --------------- | ------ | ------ | ------ |
 | Zahlende Konten | 1.600  | 15.600 | 72.000 |
-| ARR             | $706K  | $9.0M  | $50.8M |
-| CAC (Durchschn.)| $95    | $90    | $85    |
-| LTV             | $179   | $308   | $470   |
+| ARR             | 706K $ | 9,0M $ | 50,8M $ |
+| CAC (Durchschn.)| 95 $   | 90 $   | 85 $   |
+| LTV             | 179 $  | 308 $  | 470 $  |
 | LTV/CAC         | 1,9x   | 3,4x   | 5,5x   |
 | Bruttomarge     | 73%    | 77%    | 80%    |
 
-**Wichtige Unit Economics:** Wir konzentrieren uns auf **zahlende Kunden nur** — keine Eitelkeitsmetriken. Unser Modell zeigt gesundes B2B SaaS-Wachstum mit starken LTV/CAC-Verhältnissen, die sich von 1,9x auf 5,5x bis Jahr 3 verbessern.
+**Wichtige Unit Economics:** Wir konzentrieren uns auf **zahlende Kunden nur** — keine Eitelkeitsmetriken. Unser Modell zeigt gesundes B2B-SaaS-Wachstum mit starken LTV/CAC-Verhältnissen, die sich von 1,9x auf 5,5x bis Jahr 3 verbessern.
 
 ### Kundensegmentierung (J3)
 
@@ -110,7 +110,7 @@ InterMind wird von **Unternehmen vertraut, bei denen Datenschutz nicht verhandel
 - **5% Mittelmarkt:** 22 Lizenzen pro Konto
 - **Gewichteter Durchschnitt:** 2,5 Lizenzen pro Konto
 
-Wir beginnen mit Go-to-Market-Pilotprojekten in Mexiko, Brasilien, der Türkei, Thailand und Indonesien — mit dem Fokus auf Regionen mit hohem B2B-Handelsvolumen und starker Nachfrage nach englischsprachiger Geschäftskommunikation.
+Wir beginnen mit Go-to-Market-Pilotprojekten in Mexiko, Brasilien, der Türkei, Thailand und Indonesien — mit Fokus auf Regionen mit hohem B2B-Handelsvolumen und starker Nachfrage nach englischsprachiger Geschäftskommunikation.
 
 ## Gründungsteam
 
@@ -121,7 +121,6 @@ Wir beginnen mit Go-to-Market-Pilotprojekten in Mexiko, Brasilien, der Türkei, 
 ## Anfrage
 
 - Aufbringung von **3,5 Mio. $ Seed-Finanzierung** für:
-
   - Erweiterung der Engineering- und Datenschutz-Compliance-Teams
   - Lokalisierung der Plattform für 10 neue Märkte
   - Launch von Integrationen (Zoom, Teams)

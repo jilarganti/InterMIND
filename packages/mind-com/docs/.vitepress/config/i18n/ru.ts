@@ -34,7 +34,7 @@ export const ru = defineConfig({
         text: "Ресурсы",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "Часто задаваемые вопросы", link: `${BASE_PATH}/#FAQ` },
+          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Отзывы", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -44,6 +44,7 @@ export const ru = defineConfig({
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
       [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
+      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
     },
 
     footer: {
@@ -108,7 +109,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Роли пользователей", link: "guide/user-roles" },
         { text: "ИИ функции", link: "guide/ai-features" },
         { text: "История встреч", link: "guide/meeting-history" },
-        { text: "Часто задаваемые вопросы", link: "guide/faq" },
+        { text: "FAQ", link: "guide/faq" },
         { text: "Устранение неполадок", link: "guide/troubleshooting" },
         { text: "Цены", link: "guide/pricing" },
         { text: "Помощь и поддержка", link: "guide/help-support" },
@@ -151,9 +152,37 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 
 function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Краткое изложение для руководства", link: "/InterMind-Executive-Summary" },
+    { text: "Краткое резюме", link: "/InterMind-Executive-Summary" },
     { text: "Стратегия выхода на рынок", link: "/go-to-market-strategy" },
     { text: "Презентация для инвесторов", link: "/InterMind-Investor-Pitch" },
     { text: "Обоснование финансовых прогнозов (1-3 год)", link: "/Financial-Projections-Justification" },
+  ]
+}
+
+function sidebarAccount(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "ГЛАВНАЯ",
+      link: "/",
+    },
+    {
+      text: "ВСТРЕЧИ",
+      collapsed: false,
+      items: [
+        { text: "Встречи", link: "/meetings" },
+        { text: "История", link: "/history" },
+        { text: "Обновить", link: "/upgrade" },
+      ],
+    },
+
+    {
+      text: "НАСТРОЙКИ",
+      collapsed: true,
+      items: [
+        { text: "Профиль", link: "/settings/profile" },
+        { text: "Настройки", link: "/settings/settings" },
+        { text: "Настройки", link: "/settings/upgrade" },
+      ],
+    },
   ]
 }

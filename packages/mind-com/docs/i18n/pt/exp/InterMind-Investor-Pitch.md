@@ -38,33 +38,33 @@ TAM Estimado: **$27B+** mercado de habilitação de comunicação B2B (fonte: CS
 2. **Entra ou inicia uma reunião**
 3. **Fala naturalmente** — outros participantes ouvem a mensagem **em seu próprio idioma**
 
-Apoiado por uma pilha proprietária:
+Suportado por uma pilha proprietária:
 
 - Fala-para-texto → limpeza semântica → tradução baseada em LLM → texto-para-fala
 - Latência: menos de 3 segundos
 - Precisão: ~95% em 19 idiomas
 - Adaptação específica por domínio (jurídico, técnico, médico)
 
-## Tração e Estratégia de Go-To-Market
+## Tração e estratégia de entrada no mercado
 
-### Mercados de Lançamento Inicial (Alto ROI)
+### Mercados de lançamento inicial (alto ROI)
 
 - **Corredor comercial México → EUA**
-- **Brasil → Exportações para América do Norte e UE**
-- **Turquia → Hub comercial UE e MENA**
+- **Exportações Brasil → América do Norte e UE**
+- **Hub comercial Turquia → UE e MENA**
 - **Tailândia → Manufatura global e logística**
 - **Indonésia → Exportações tecnológicas e industriais em crescimento**
 
-### Go-To-Market
+### Estratégia de entrada no mercado
 
-- Busca paga: consultas localizadas de alta intenção ("como falar inglês reuniões negócios")
+- Busca paga: consultas localizadas de alta intenção ("como hablar ingles reuniones negocios")
 - Parcerias B2B: ERPs, CRMs, programas de assistência à exportação
 - Segmentação: gerentes de vendas, líderes de cadeia de suprimentos, equipes de exportação
 
 ### Preços (B2B SaaS)
 
 - Básico (gratuito): 25 reuniões
-- Pro: R$ 100/mês/usuário
+- Pro: $20/mês/usuário
 - Business: Personalizado (zonas de privacidade, suporte prioritário)
 
 ## Conformidade e privacidade por design
@@ -80,9 +80,9 @@ InterMind é confiado por **empresas onde a privacidade é inegociável**.
 
 ### Momento do Mercado
 
-- Tradução por IA alcançando precisão quase humana
+- Tradução por IA atingindo precisão quase humana
 - Reuniões remotas são permanentes (75% das vendas B2B ainda são virtuais — McKinsey)
-- Mercados multilíngues estão crescendo: África, LATAM, SEA
+- Mercados multilíngues estão crescendo: África, América Latina, Sudeste Asiático
 
 ### Vantagem Competitiva
 
@@ -121,7 +121,6 @@ Estamos iniciando pilotos de entrada no mercado no México, Brasil, Turquia, Tai
 ## Solicitação
 
 - Captando **$3,5M em Seed** para:
-
   - Expandir equipes de engenharia e conformidade de privacidade
   - Localizar plataforma para 10 novos mercados
   - Lançar integrações (Zoom, Teams)

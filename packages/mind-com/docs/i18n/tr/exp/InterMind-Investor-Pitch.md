@@ -121,10 +121,9 @@ Meksika, Brezilya, Türkiye, Tayland ve Endonezya\'da pazara giriş pilot çalı
 ## Talep
 
 - **3,5 Milyon Dolar Tohum Yatırımı** toplamak için:
-
   - Mühendislik ve gizlilik uyumluluk ekiplerini genişletmek
   - Platformu 10 yeni pazar için yerelleştirmek
   - Entegrasyonları başlatmak (Zoom, Teams)
   - Çok dilli B2B edinim kampanyalarını finanse etmek
 
-**Anlamayı evrensel kılan** platformu birlikte inşa edelim.
+**Anlayışı evrensel kılan** platformu birlikte inşa edelim.

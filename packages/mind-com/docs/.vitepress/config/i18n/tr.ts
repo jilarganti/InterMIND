@@ -44,6 +44,7 @@ export const tr = defineConfig({
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
       [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
+      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
     },
 
     footer: {
@@ -101,7 +102,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "KILAVUZ",
       collapsed: false,
       items: [
-        { text: "Başlarken", link: "guide/getting-started" },
+        { text: "Başlangıç", link: "guide/getting-started" },
         { text: "Hesap yönetimi", link: "guide/account-management" },
         { text: "Toplantı oluşturma", link: "guide/creating-meetings" },
         { text: "Toplantı arayüzü", link: "guide/meeting-interface" },
@@ -140,7 +141,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "ŞİRKET",
       collapsed: false,
       items: [
-        { text: "Hakkında", link: "/company/about" },
+        { text: "Hakkımızda", link: "/company/about" },
         { text: "Ekip", link: "/company/team" },
         { text: "Kariyer", link: "/company/careers" },
         { text: "İletişim", link: "/company/contacts" },
@@ -155,5 +156,33 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "Pazara giriş stratejisi", link: "/go-to-market-strategy" },
     { text: "Yatırımcı sunumu", link: "/InterMind-Investor-Pitch" },
     { text: "Mali projeksiyonlar gerekçesi (1-3. yıl)", link: "/Financial-Projections-Justification" },
+  ]
+}
+
+function sidebarAccount(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "ANA SAYFA",
+      link: "/",
+    },
+    {
+      text: "TOPLANTILAR",
+      collapsed: false,
+      items: [
+        { text: "Toplantılar", link: "/meetings" },
+        { text: "Geçmiş", link: "/history" },
+        { text: "Yükselt", link: "/upgrade" },
+      ],
+    },
+
+    {
+      text: "AYARLAR",
+      collapsed: true,
+      items: [
+        { text: "Profil", link: "/settings/profile" },
+        { text: "Ayarlar", link: "/settings/settings" },
+        { text: "Yükseltme", link: "/settings/upgrade" },
+      ],
+    },
   ]
 }

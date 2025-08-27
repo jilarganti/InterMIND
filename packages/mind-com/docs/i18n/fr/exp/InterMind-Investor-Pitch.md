@@ -17,18 +17,18 @@ Une plateforme vidéo de qualité professionnelle qui permet à **chaque partici
 ### Fonctionnalités clés
 
 - Interprétation simultanée alimentée par l'IA
-- Planification, modération et partage d'écran intégrés
+- Planification intégrée, modération et partage d'écran
 - Infrastructure mondiale sécurisée avec zones de confidentialité (UE, États-Unis, Asie)
 - Prêt pour l'entreprise : plus de 500 participants, transcriptions consultables, intégrations API
 
 ## Marché : Besoin urgent dans le commerce B2B mondial
 
-| Segment        | Pays               | Cas d'usage                              | Point de friction                   |
-| -------------- | ------------------ | ---------------------------------------- | ----------------------------------- |
-| Fabrication    | CN, IN, MX, TH, ID | Communication usine-client               | Spécifications perdues en traduction|
-| Exportations   | BR, CL, ES, CO     | Ventes et démos aux acheteurs anglophones| Affaires ratées par barrières linguistiques |
-| Automobile     | DE, JP, KR         | Négociations fournisseurs transfrontalières | Interprètes coûteux, cycles lents |
-| Sièges sociaux | US, UK, AU         | Réunions d'équipes mondiales             | Temps perdu à changer de langue     |
+| Segment        | Pays               | Cas d'usage                              | Point de friction                        |
+| -------------- | ------------------ | ---------------------------------------- | ---------------------------------------- |
+| Fabrication    | CN, IN, MX, TH, ID | Communication usine-client               | Spécifications perdues dans la traduction |
+| Exportations   | BR, CL, ES, CO     | Ventes et démos aux acheteurs anglophones | Affaires ratées à cause des barrières linguistiques |
+| Automobile     | DE, JP, KR         | Négociations fournisseurs transfrontalières | Interprètes coûteux, cycles lents       |
+| Sièges sociaux | US, UK, AU         | Réunions d'équipes mondiales             | Temps perdu à changer de langue          |
 
 TAM estimé : **27 Md$+** marché d'activation de la communication B2B (source : CSA Research, Gartner)
 
@@ -115,13 +115,12 @@ Nous commençons des pilotes de mise sur le marché au Mexique, au Brésil, en T
 ## Équipe fondatrice
 
 - **[Name]** — PDG : ex-[Big Tech], 10+ ans en NLP
-- **[Name]** — CTO : A construit l'infrastructure multilingue chez [Company]
+- **[Name]** — CTO : A construit une infrastructure multilingue chez [Company]
 - **[Name]** — Croissance : Ancien responsable de l'expansion chez [B2B SaaS Unicorn]
 
 ## Demande
 
-- Levée de fonds **Seed de 3,5 M$** pour :
-
+- Levée de fonds **3,5M$ en amorçage** pour :
   - Élargir les équipes d'ingénierie et de conformité à la confidentialité
   - Localiser la plateforme pour 10 nouveaux marchés
   - Lancer les intégrations (Zoom, Teams)

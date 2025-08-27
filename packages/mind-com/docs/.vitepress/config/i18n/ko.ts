@@ -44,6 +44,7 @@ export const ko = defineConfig({
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
       [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
+      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
     },
 
     footer: {
@@ -75,7 +76,7 @@ export const ko = defineConfig({
       submit: "요청 제출",
       sending: "전송 중...",
       successTitle: "감사합니다!",
-      successMessage: "메시지를 받았습니다. 저희 팀이 곧 연락드리겠습니다.",
+      successMessage: "메시지를 받았습니다 — 저희 팀이 곧 연락드리겠습니다.",
       defaultCategories: [],
 
       defaultButtonText: "메시지 보내기",
@@ -140,7 +141,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "회사",
       collapsed: false,
       items: [
-        { text: "회사 소개", link: "/company/about" },
+        { text: "소개", link: "/company/about" },
         { text: "팀", link: "/company/team" },
         { text: "채용", link: "/company/careers" },
         { text: "연락처", link: "/company/contacts" },
@@ -155,5 +156,33 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "시장 진출 전략", link: "/go-to-market-strategy" },
     { text: "투자자 피치", link: "/InterMind-Investor-Pitch" },
     { text: "재무 예측 근거 (1-3년차)", link: "/Financial-Projections-Justification" },
+  ]
+}
+
+function sidebarAccount(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "홈",
+      link: "/",
+    },
+    {
+      text: "회의",
+      collapsed: false,
+      items: [
+        { text: "회의", link: "/meetings" },
+        { text: "기록", link: "/history" },
+        { text: "업그레이드", link: "/upgrade" },
+      ],
+    },
+
+    {
+      text: "설정",
+      collapsed: true,
+      items: [
+        { text: "프로필", link: "/settings/profile" },
+        { text: "설정", link: "/settings/settings" },
+        { text: "설정", link: "/settings/upgrade" },
+      ],
+    },
   ]
 }

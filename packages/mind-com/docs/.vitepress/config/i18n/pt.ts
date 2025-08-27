@@ -44,6 +44,7 @@ export const pt = defineConfig({
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
       [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
+      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
     },
 
     footer: {
@@ -90,7 +91,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "VISÃO GERAL",
       collapsed: false,
       items: [
-        { text: "O que é o InterMIND?", link: "overview/what-is-intermind" },
+        { text: "O que é InterMIND?", link: "overview/what-is-intermind" },
         { text: "Como funciona", link: "overview/how-it-works" },
         { text: "Plataforma de videoconferência", link: "overview/video-meeting-platform" },
         { text: "Privacidade de dados regional", link: "overview/privacy-architecture" },
@@ -155,5 +156,33 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "Estratégia de entrada no mercado", link: "/go-to-market-strategy" },
     { text: "Apresentação para investidores", link: "/InterMind-Investor-Pitch" },
     { text: "Justificativa das projeções financeiras (Anos 1–3)", link: "/Financial-Projections-Justification" },
+  ]
+}
+
+function sidebarAccount(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "INÍCIO",
+      link: "/",
+    },
+    {
+      text: "REUNIÕES",
+      collapsed: false,
+      items: [
+        { text: "Reuniões", link: "/meetings" },
+        { text: "Histórico", link: "/history" },
+        { text: "Upgrade", link: "/upgrade" },
+      ],
+    },
+
+    {
+      text: "CONFIGURAÇÕES",
+      collapsed: true,
+      items: [
+        { text: "Perfil", link: "/settings/profile" },
+        { text: "Configurações", link: "/settings/settings" },
+        { text: "Configurações", link: "/settings/upgrade" },
+      ],
+    },
   ]
 }

@@ -6,7 +6,7 @@ const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
   description:
-    "专业视频会议平台，支持19+种语言的同声传译。AI驱动的翻译技术，准确捕捉语调、意图和语境，助力全球团队沟通。",
+    "专业视频会议，支持19+种语言的同声传译。AI驱动的翻译技术，准确捕捉语调、意图和语境，为全球团队提供服务。",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | 全球团队实时语音翻译" }],
     [
@@ -14,7 +14,7 @@ export const zh = defineConfig({
       {
         property: "og:description",
         content:
-          "专业视频会议平台，支持19+种语言的同声语音传译。全球会议，自然沟通，AI驱动的翻译技术。",
+          "专业视频会议，支持19+种语言的同声语音传译。全球会议，自然沟通，AI驱动的翻译技术。",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -44,6 +44,7 @@ export const zh = defineConfig({
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
       [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
+      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
     },
 
     footer: {
@@ -155,5 +156,33 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "市场进入策略", link: "/go-to-market-strategy" },
     { text: "投资者推介", link: "/InterMind-Investor-Pitch" },
     { text: "财务预测说明（第1-3年）", link: "/Financial-Projections-Justification" },
+  ]
+}
+
+function sidebarAccount(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "首页",
+      link: "/",
+    },
+    {
+      text: "会议",
+      collapsed: false,
+      items: [
+        { text: "会议", link: "/meetings" },
+        { text: "历史记录", link: "/history" },
+        { text: "升级", link: "/upgrade" },
+      ],
+    },
+
+    {
+      text: "设置",
+      collapsed: true,
+      items: [
+        { text: "个人资料", link: "/settings/profile" },
+        { text: "设置", link: "/settings/settings" },
+        { text: "升级", link: "/settings/upgrade" },
+      ],
+    },
   ]
 }

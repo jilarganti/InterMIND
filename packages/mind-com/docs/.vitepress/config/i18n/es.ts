@@ -44,6 +44,7 @@ export const es = defineConfig({
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
       [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
+      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
     },
 
     footer: {
@@ -57,7 +58,7 @@ export const es = defineConfig({
       buttonLabel4NavButton: "Asistente",
       buttonLabel4SignInButton: "Iniciar sesión",
       buttonLabel4GetStartedButton: "Comenzar",
-      buttonLabel4TryItButton: "Probar gratis",
+      buttonLabel4TryItButton: "Prueba gratis",
       buttonLabel4BackToBlog: "← Volver al blog",
     },
     contact_form: {
@@ -71,7 +72,7 @@ export const es = defineConfig({
       category: "¿Cuál es tu objetivo principal? *",
       categoryPlaceholder: "Elige lo que más te importa",
       message: "Hablemos de tus objetivos (opcional)",
-      messagePlaceholder: "Por favor proporciona cualquier detalle adicional (opcional)",
+      messagePlaceholder: "Por favor proporciona detalles adicionales (opcional)",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
@@ -155,5 +156,33 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "Estrategia de salida al mercado", link: "/go-to-market-strategy" },
     { text: "Presentación para inversionistas", link: "/InterMind-Investor-Pitch" },
     { text: "Justificación de proyecciones financieras (Año 1–3)", link: "/Financial-Projections-Justification" },
+  ]
+}
+
+function sidebarAccount(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "INICIO",
+      link: "/",
+    },
+    {
+      text: "REUNIONES",
+      collapsed: false,
+      items: [
+        { text: "Reuniones", link: "/meetings" },
+        { text: "Historial", link: "/history" },
+        { text: "Actualizar", link: "/upgrade" },
+      ],
+    },
+
+    {
+      text: "CONFIGURACIÓN",
+      collapsed: true,
+      items: [
+        { text: "Perfil", link: "/settings/profile" },
+        { text: "Configuración", link: "/settings/settings" },
+        { text: "Configuración", link: "/settings/upgrade" },
+      ],
+    },
   ]
 }

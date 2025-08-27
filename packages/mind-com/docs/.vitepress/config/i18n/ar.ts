@@ -35,7 +35,7 @@ export const ar = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         items: [
           { text: "الأسئلة الشائعة", link: `${BASE_PATH}/#FAQ` },
-          { text: "شهادات العملاء", link: `${BASE_PATH}/#Testimonials` },
+          { text: "الشهادات", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
     ],
@@ -44,6 +44,7 @@ export const ar = defineConfig({
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
       [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
+      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
     },
 
     footer: {
@@ -155,5 +156,33 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "استراتيجية دخول السوق", link: "/go-to-market-strategy" },
     { text: "عرض المستثمرين", link: "/InterMind-Investor-Pitch" },
     { text: "مبررات التوقعات المالية (السنة 1-3)", link: "/Financial-Projections-Justification" },
+  ]
+}
+
+function sidebarAccount(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "الرئيسية",
+      link: "/",
+    },
+    {
+      text: "الاجتماعات",
+      collapsed: false,
+      items: [
+        { text: "الاجتماعات", link: "/meetings" },
+        { text: "التاريخ", link: "/history" },
+        { text: "الترقية", link: "/upgrade" },
+      ],
+    },
+
+    {
+      text: "الإعدادات",
+      collapsed: true,
+      items: [
+        { text: "الملف الشخصي", link: "/settings/profile" },
+        { text: "الإعدادات", link: "/settings/settings" },
+        { text: "الإعدادات", link: "/settings/upgrade" },
+      ],
+    },
   ]
 }

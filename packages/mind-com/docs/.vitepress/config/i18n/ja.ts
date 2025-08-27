@@ -14,7 +14,7 @@ export const ja = defineConfig({
       {
         property: "og:description",
         content:
-          "19以上の言語での同時音声通訳機能を備えたプロフェッショナルなビデオ会議。グローバルに会議し、AI搭載翻訳で自然にコミュニケーション。",
+          "19以上の言語での同時音声通訳機能を備えたプロフェッショナルなビデオ会議。AI搭載翻訳でグローバルに会議し、自然にコミュニケーション。",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -34,7 +34,7 @@ export const ja = defineConfig({
         text: "リソース",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
+          { text: "よくある質問", link: `${BASE_PATH}/#FAQ` },
           { text: "お客様の声", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -44,6 +44,7 @@ export const ja = defineConfig({
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
       [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
+      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
     },
 
     footer: {
@@ -108,7 +109,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "ユーザーロール", link: "guide/user-roles" },
         { text: "AI機能", link: "guide/ai-features" },
         { text: "会議履歴", link: "guide/meeting-history" },
-        { text: "FAQ", link: "guide/faq" },
+        { text: "よくある質問", link: "guide/faq" },
         { text: "トラブルシューティング", link: "guide/troubleshooting" },
         { text: "料金", link: "guide/pricing" },
         { text: "ヘルプ＆サポート", link: "guide/help-support" },
@@ -154,6 +155,34 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "エグゼクティブサマリー", link: "/InterMind-Executive-Summary" },
     { text: "市場参入戦略", link: "/go-to-market-strategy" },
     { text: "投資家向けピッチ", link: "/InterMind-Investor-Pitch" },
-    { text: "財務予測の根拠（1〜3年目）", link: "/Financial-Projections-Justification" },
+    { text: "財務予測の根拠（1-3年目）", link: "/Financial-Projections-Justification" },
+  ]
+}
+
+function sidebarAccount(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "ホーム",
+      link: "/",
+    },
+    {
+      text: "会議",
+      collapsed: false,
+      items: [
+        { text: "会議", link: "/meetings" },
+        { text: "履歴", link: "/history" },
+        { text: "アップグレード", link: "/upgrade" },
+      ],
+    },
+
+    {
+      text: "設定",
+      collapsed: true,
+      items: [
+        { text: "プロフィール", link: "/settings/profile" },
+        { text: "設定", link: "/settings/settings" },
+        { text: "設定", link: "/settings/upgrade" },
+      ],
+    },
   ]
 }
