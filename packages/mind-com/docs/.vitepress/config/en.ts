@@ -44,6 +44,7 @@ export const en = defineConfig({
       [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
       [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
       [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
+      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
     },
 
     footer: {
@@ -155,5 +156,33 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "Go To Market Strategy", link: "/go-to-market-strategy" },
     { text: "Investor Pitch", link: "/InterMind-Investor-Pitch" },
     { text: "Financial Projections Justification (Yr 1–3)", link: "/Financial-Projections-Justification" },
+  ]
+}
+
+function sidebarAccount(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "HOME",
+      link: "/",
+    },
+    {
+      text: "MEETINGS",
+      collapsed: false,
+      items: [
+        { text: "Meetings", link: "/meetings" },
+        { text: "History", link: "/history" },
+        { text: "Upgrade", link: "/upgrade" },
+      ],
+    },
+
+    {
+      text: "SETTINGS",
+      collapsed: true,
+      items: [
+        { text: "Profile", link: "/settings/profile" },
+        { text: "Settings", link: "/settings/settings" },
+        { text: "Settings", link: "/settings/upgrade" },
+      ],
+    },
   ]
 }

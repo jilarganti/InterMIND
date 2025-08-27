@@ -35,6 +35,6 @@ export const config = {
     claude: ["claude-4-sonnet-20250514", "claude-3-5-sonnet-20241022"],
     gpt4: ["gpt-4o-mini"],
   },
-  exclude: ["test", "/exp"],
+  exclude: ["test", "account/"],
   allowedExtensions: [".md", ".vue", ".svg"],
 }

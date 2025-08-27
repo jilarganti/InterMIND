@@ -12,6 +12,8 @@ import VideoPlayer from "./components/VideoPlayer.vue"
 import { components } from "shared"
 import "./styles/index.css"
 import AIChat from "./components/AIChat/AIChat.vue"
+import AccountLayout from "./layouts/AccountLayout.vue"
+import MeetingInterface from "./components/MeetingInterface.vue"
 
 const { NavButton } = components
 
@@ -50,6 +52,8 @@ export default {
     app.component("AIChat", AIChat)
     app.component("BlogPost", BlogPost)
     app.component("VideoPlayer", VideoPlayer)
+    app.component("AccountLayout", AccountLayout)
+    app.component("MeetingInterface", MeetingInterface)
 
     // Регистрация внешних компонентов пакета
     app.component("Icon", Icon)

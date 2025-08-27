@@ -10,7 +10,7 @@ import { locales } from "./locales"
  * ! This data should not contain secrets, as it will be available in client code
  */
 const SITE_URL = "https://mind.com"
-const NOINDEX_PAGES = ["exp/", "chat"]
+const NOINDEX_PAGES = ["exp/", "account/", "chat"]
 const RTL_LOCALES = ["ar", "fa", "ur"]
 const APP_DOMAIN = "inter.mind.com"
 const APP_DOMAIN_DEV = "dev.inter.mind.com"
