@@ -7,7 +7,7 @@ isHome: true
 
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="Understand **Any** Language" :typingSpeed="20" text="Simultaneous interpretation during video calls. Break language barriers instantly.">
+<HeroSection title="**Mind Wiki**" :typingSpeed="20" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
 <NavButton buttonLabel="Watch demo" buttonClass="brand" to="/#HowItWorks" />
 <NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
 </HeroSection>
