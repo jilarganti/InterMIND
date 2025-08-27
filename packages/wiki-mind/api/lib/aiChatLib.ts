@@ -1,0 +1,115 @@
+/**
+ * Semantic Search Tool с Upstash Vector
+ * Использует Upstash Vector и OpenAI напрямую
+ */
+
+import { tool } from "ai"
+import { z } from "zod"
+import { Index } from "@upstash/vector"
+import OpenAI from "openai"
+
+if (!process.env.UPSTASH_VECTOR_REST_URL || !process.env.UPSTASH_VECTOR_REST_TOKEN || !process.env.OPENAI_API_KEY) {
+  console.error("❌ Отсутствуют API ключи для Upstash или OpenAI!")
+}
+
+const index = new Index({
+  url: process.env.UPSTASH_VECTOR_REST_URL,
+  token: process.env.UPSTASH_VECTOR_REST_TOKEN,
+})
+
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+})
+
+// Функция для создания эмбеддингов
+async function createEmbedding(text: string): Promise<number[]> {
+  const response = await openai.embeddings.create({
+    model: "text-embedding-3-small",
+    input: text,
+    dimensions: 384,
+  })
+  return response.data[0].embedding
+}
+
+// Функция для извлечения заголовка из чанка
+function extractHeadingFromChunk(text: string): string {
+  const lines = text.split("\n")
+
+  for (const line of lines) {
+    // Ищем H1 или H2 заголовок
+    const headingMatch = line.match(/^#{1,2}\s+(.+)$/)
+    if (headingMatch) {
+      return headingMatch[1].trim()
+    }
+  }
+
+  // Если заголовок не найден, возвращаем первые слова текста
+  const words = text
+    .replace(/[#*`\[\]()]/g, "")
+    .trim()
+    .split(/\s+/)
+  return words.slice(0, 4).join(" ") + (words.length > 4 ? "..." : "")
+}
+
+// Инструмент семантического поиска
+export const semanticSearchTool = tool({
+  description: "Search for information in the InterMIND knowledge base about features, capabilities, pricing, and other documentation",
+  parameters: z.object({
+    query: z.string().describe("The search query to find relevant information"),
+    limit: z.number().optional().default(5).describe("Maximum number of results to return"),
+  }),
+  execute: async ({ query, limit = 5 }) => {
+    try {
+      console.log(`🔍 Searching for: "${query}"`)
+
+      // Создаем эмбеддинг для запроса
+      const queryEmbedding = await createEmbedding(query)
+
+      // Ищем в Upstash Vector
+      console.log(`📡 Отправляем запрос в Upstash Vector...`)
+      const searchResponse = await index.query({
+        vector: queryEmbedding,
+        topK: limit,
+        includeMetadata: true,
+      })
+
+      console.log(`📊 Получено ${searchResponse.length || 0} результатов от Upstash`)
+
+      // Берем все результаты без фильтрации
+      const relevantResults = searchResponse.map((result) => {
+        const metadata = result.metadata || {}
+
+        return {
+          content: metadata.text || "",
+          url: metadata.url || "",
+          score: result.score || 0,
+        }
+      })
+
+      console.log(`✅ Возвращаем ${relevantResults.length} результатов`)
+
+      if (relevantResults.length === 0) {
+        console.log("⚠️ Upstash не вернул результатов")
+        return "No relevant information found for your query. The search did not return any results with sufficient relevance."
+      }
+
+      // Форматируем результаты
+      const formattedResults = relevantResults
+        .map((result, index) => {
+          const headingTitle = extractHeadingFromChunk(String(result.content))
+          const sourceText = `[${headingTitle}](${result.url})\nRelevance: ${(result.score * 100).toFixed(0)}%`
+          return `[${index + 1}] ${result.content}\n${sourceText}`
+        })
+        .join("\n\n---\n\n")
+
+      // Возвращаем результаты в виде строки для AI
+      console.log(`💬 Возвращаем ${relevantResults.length} результатов AI`)
+      console.log(`💬 ${formattedResults}`)
+      return `Found ${relevantResults.length} relevant results from InterMIND documentation:\n\n${formattedResults}`
+    } catch (error) {
+      console.error("Search error:", error)
+      const errorMessage = error instanceof Error ? error.message : "Unknown error"
+      return `Failed to search the knowledge base: ${errorMessage}`
+    }
+  },
+})

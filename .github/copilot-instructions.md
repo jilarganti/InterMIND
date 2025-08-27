@@ -6,7 +6,7 @@ This is a **pnpm monorepo** for InterMIND platform with 3 main packages:
 
 - `mind-com`: Main website with OAuth, AI Chat, and Pinecone vector search
 - `golden-fish`: UAE business formation services with multilingual support
-- `draftium`: Content management system
+- `wiki-mind`: Content management system
 
 **Important**: These are **independent packages** - changes to one package should NOT be automatically applied to others unless explicitly requested. Each package has its own domain, configuration, and business logic.
 

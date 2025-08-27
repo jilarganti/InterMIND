@@ -1,0 +1,377 @@
+/*
+ * Customize default theme styling by overriding CSS variables:
+ * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+ */
+
+/*
+ Раскоммтировать ниже для отображения всех контейнеров
+ */
+/* * {
+  outline: 1px solid red !important; 
+} */
+
+:root {
+  --vp-c-main-1: #444444;
+  --vp-c-main-2: #222222;
+  --vp-c-main-3: #000000;
+  --vp-c-main-soft: rgba(2, 9, 27, 0.14);
+
+  --vp-c-indigo-bg: #f1effd;
+  --vp-c-indigo-border: #d9d1fa;
+
+  --vp-c-blue-bg: #edf8fe;
+  --vp-c-blue-border: #c4d9fa;
+
+  --vp-c-yellow-bg: #fdf5d5;
+  --vp-c-yellow-border: #f9e2a4;
+
+  --vp-c-green-bg: #e6faee;
+  --vp-c-green-border: #bff0d0;
+
+  --vp-c-gray-bg: #fdfdfe;
+  --vp-c-gray-border: #d2d8e0;
+
+  --vp-c-red-border: #fbe6e9;
+
+  --vp-hl-color: #994a11;
+}
+
+.dark {
+  --vp-c-main-1: #bbbbbb;
+  --vp-c-main-2: #dddddd;
+  --vp-c-main-3: #ffffff;
+  --vp-c-main-soft: rgba(252, 253, 255, 0.14);
+
+  --vp-c-indigo-bg: #241257;
+  --vp-c-indigo-border: #743ee4;
+
+  --vp-c-blue-bg: #1b2966;
+  --vp-c-blue-border: #3662e3;
+
+  --vp-c-yellow-bg: #45251e;
+  --vp-c-yellow-border: #b16b2a;
+
+  --vp-c-green-bg: #1a3a2d;
+  --vp-c-green-border: #479f5d;
+
+  --vp-c-gray-bg: #191b1f;
+  --vp-c-gray-border: #303b4e;
+
+  --vp-c-red-border: #d2d8e0;
+
+  --vp-hl-color: #ffb36b;
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-button-brand-text: var(--vp-c-neutral-inverse);
+  --vp-button-brand-bg: var(--vp-hl-color);
+  --vp-button-brand-border: var(--vp-hl-color);
+  --vp-button-brand-hover-text: var(--vp-c-neutral-inverse);
+  --vp-button-brand-hover-bg: color-mix(in srgb, var(--vp-hl-color) 85%, var(--vp-c-black) 15%);
+  --vp-button-brand-hover-border: color-mix(in srgb, var(--vp-hl-color) 85%, var(--vp-c-black) 15%);
+  --vp-button-brand-active-text: var(--vp-c-neutral-inverse);
+  --vp-button-brand-active-bg: color-mix(in srgb, var(--vp-hl-color) 70%, var(--vp-c-black) 30%);
+  --vp-button-brand-active-border: color-mix(in srgb, var(--vp-hl-color) 70%, var(--vp-c-black) 30%);
+
+  /* --vp-button-brand-bg: var(--vp-c-main-3);
+  --vp-button-brand-hover-border: var(--vp-c-neutral);
+  --vp-button-brand-hover-text: var(--vp-c-neutral);
+  --vp-button-brand-hover-bg: var(--vp-c-neutral-inverse);
+  --vp-button-brand-active-text: var(--vp-c-neutral);
+  --vp-button-brand-active-bg: var(--vp-c-default-1); */
+
+  /* New styles for alt buttons */
+  --vp-button-alt-border: var(--vp-hl-color);
+  --vp-button-alt-text: var(--vp-hl-color);
+  --vp-button-alt-bg: transparent;
+  --vp-button-alt-hover-border: var(--vp-hl-color);
+  --vp-button-alt-hover-text: var(--vp-c-neutral-inverse);
+  --vp-button-alt-hover-bg: var(--vp-hl-color);
+  --vp-button-alt-active-border: var(--vp-hl-color);
+  --vp-button-alt-active-text: var(--vp-c-neutral-inverse);
+  --vp-button-alt-active-bg: color-mix(in srgb, var(--vp-hl-color) 85%, var(--vp-c-black) 15%);
+}
+
+/* Remove underline from all VPButtons */
+.VPButton {
+  text-decoration: none !important; /* Use !important to ensure override if necessary */
+}
+
+/**
+ * Component: Custom block
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-custom-block-info-border: var(--vp-c-gray-border);
+
+  --vp-custom-block-note-bg: var(--vp-c-green-bg);
+  --vp-custom-block-note-border: var(--vp-c-green-border);
+
+  --vp-custom-block-tip-bg: var(--vp-c-blue-bg);
+  --vp-custom-block-tip-border: var(--vp-c-blue-border);
+
+  --vp-custom-block-warning-bg: var(--vp-c-yellow-bg);
+  --vp-custom-block-warning-border: var(--vp-c-yellow-border);
+
+  --vp-custom-block-important-bg: var(--vp-c-indigo-bg);
+  --vp-custom-block-important-border: var(--vp-c-indigo-border);
+
+  --vp-custom-block-danger-bg: var(--vp-c-gray-bg);
+  --vp-custom-block-danger-border: var(--vp-c-red-3);
+
+  --vp-custom-block-caution-bg: var(--vp-c-gray-bg);
+  --vp-custom-block-caution-border: var(--vp-c-gray-border);
+  /* --vp-custom-block-caution-text: var(--vp-c-neutral-inverse); */
+
+  --vp-badge-info-bg: var(--vp-custom-block-note-bg);
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(90deg, #994a11 0%, #cc833c 50%, #ffbb66 100%);
+
+  /* --vp-home-hero-name-color: transparent; */
+  /* --vp-home-hero-name-background: -webkit-linear-gradient(0deg,
+      rgb(16, 15, 16) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%); */
+}
+
+/**
+ * Component: Algolia
+ * -------------------------------------------------------------------------- */
+
+/* .DocSearch {
+	--docsearch-primary-color: var(--vp-c-brand-1) !important;
+} */
+
+:root h2 {
+  border-top: none;
+  margin: 0;
+}
+
+/* .hl {
+  color: #ae6040;
+  font-weight: bold;
+} */
+
+.link-text {
+  color: var(--vp-c-brand-1);
+  text-decoration: underline;
+}
+
+.link-text:hover {
+  color: var(--vp-c-brand-2);
+}
+
+/* Highlight color for both light and dark themes */
+
+.hl {
+  color: var(--vp-hl-color);
+  font-weight: bold;
+}
+
+.dark .hl {
+  color: var(--vp-hl-color);
+  font-weight: bold;
+}
+
+.dark-only {
+  display: none !important;
+}
+
+.light-only {
+  display: inline-block;
+}
+
+.dark .dark-only {
+  display: inline-block !important;
+}
+
+.dark .light-only {
+  display: none !important;
+}
+
+.VPDoc.has-aside .content-container {
+  max-width: 100% !important;
+}
+
+/* Стили для контейнера логотипов */
+.my-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 40px 0;
+}
+
+/* Стили для каждого логотипа */
+.my-logo {
+  max-height: 100px;
+  width: auto;
+  filter: grayscale(100%);
+  cursor: pointer;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+/* Эффект при наведении на ссылку (логотип) */
+.my-logo-link:hover .my-logo {
+  filter: grayscale(0%);
+  transform: scale(1.02);
+}
+
+/* Инверсия цвета логотипов в темной теме */
+.dark .my-logo.invert-on-dark {
+  filter: invert(1) grayscale(100%);
+}
+
+/* Изменение фильтра при наведении в темной теме */
+.dark .my-logo-link:hover .my-logo.invert-on-dark {
+  filter: grayscale(0%);
+}
+
+/* Адаптивность: изменение расположения на маленьких экранах */
+@media (max-width: 600px) {
+  .my-logo-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .my-logo {
+    max-height: 80px;
+    margin: 10px 0;
+  }
+}
+
+/* Стили для GitHub-style callouts (custom blocks) */
+.vp-doc .custom-block {
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.vp-doc .custom-block.note,
+.vp-doc .custom-block.info {
+  border-left: 4px solid var(--vp-custom-block-note-border);
+}
+
+.vp-doc .custom-block.tip {
+  border-left: 4px solid var(--vp-custom-block-tip-border);
+}
+
+.vp-doc .custom-block.warning {
+  border-left: 4px solid var(--vp-custom-block-warning-border);
+}
+
+.vp-doc .custom-block.danger {
+  border-left: 4px solid var(--vp-custom-block-danger-border);
+}
+
+.vp-doc .custom-block.important {
+  border-left: 4px solid var(--vp-custom-block-important-border);
+}
+
+.vp-doc .custom-block.caution {
+  border-left: 4px solid var(--vp-custom-block-caution-border);
+}
+
+/* Стили для текста в custom blocks */
+.vp-doc .custom-block p {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/* Базовое предотвращение горизонтальной прокрутки сайта */
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* Навигация и основные контейнеры */
+#app,
+.VPNav,
+.VPNavBar,
+.VPContent {
+  max-width: 100vw;
+}
+
+:root {
+  --vp-layout-max-width: 100%;
+}
+
+/* :root {
+  --vp-home-hero-image-background-image: none;
+  --vp-home-hero-image-filter: none;
+} */
+
+.VPHomeHero :is(.name, .text, .tagline) {
+  max-width: 100%;
+  margin: 3rem auto;
+}
+
+/* CSS с анимацией */
+.VPHomeHero .text {
+  font-size: 8rem;
+  animation: shrinkText 1s ease-out 1s forwards;
+  animation-delay: 20s;
+}
+
+.VPHomeHero .text.no-animation {
+  font-size: 4rem;
+  margin: 2rem auto;
+  animation: none;
+}
+
+/* Стили для блока с кодом */
+code {
+  color: var(--vp-hl-color) !important;
+}
+
+@keyframes shrinkText {
+  to {
+    font-size: 4rem;
+    margin: 2rem auto;
+  }
+}
+
+/* Мобильная версия */
+@media (max-width: 640px) {
+  .VPHomeHero :is(.name, .text, .tagline) {
+    max-width: 100%;
+    margin: 0 auto 1.5rem;
+  }
+
+  .VPHomeHero .text {
+    font-size: 4.5rem;
+    animation: shrinkTextMobile 1s ease-out 1s forwards;
+    animation-delay: 20s;
+  }
+
+  .VPHomeHero .text.no-animation {
+    font-size: 3rem;
+    margin: 0 auto 1rem;
+    animation: none;
+  }
+
+  @keyframes shrinkTextMobile {
+    to {
+      font-size: 3rem;
+      margin: 0 auto 1rem;
+    }
+  }
+}
+
+/* Стили для blockquote */
+.vp-doc blockquote {
+  border-left: 3px solid var(--vp-hl-color) !important;
+  color: inherit;
+}

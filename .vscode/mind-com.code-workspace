@@ -11,15 +11,15 @@
     "files.exclude": {
       "**/.git": false, // 👈 делаем папку .git видимой
       "packages/golden-fish": true,
-      "packages/draftium": true,
+      "packages/wiki-mind": true,
     },
     "search.exclude": {
       "packages/golden-fish": true,
-      "packages/draftium": true,
+      "packages/wiki-mind": true,
     },
     "files.watcherExclude": {
       "**/packages/golden-fish/**": true,
-      "**/packages/draftium/**": true,
+      "**/packages/wiki-mind/**": true,
     },
     "files.associations": {
       "*.vue": "vue",

@@ -1,0 +1,24 @@
+{
+  "name": "mind-com",
+  "description": "Live speech translation in video calls",
+  "version": "0.5.0",
+  "type": "module",
+  "scripts": {
+    "dev:FE": "vitepress dev docs",
+    "dev:BE": "vercel dev",
+    "dev": "pnpm dev:FE & pnpm dev:BE",
+    "prebuild": "pnpm run index:docs && pnpm run test:unit",
+    "build": "vitepress build docs",
+    "test": "vitest --run --coverage",
+    "test:unit": "vitest --run __tests__/unit",
+    "test:watch": "vitest",
+    "test:traffic-sources": "tsx __tests__/test-traffic-sources.ts",
+    "translate": "tsx ../../scripts/translate.ts ./scripts/translateConfig.ts",
+    "index:docs": "tsx ./scripts/indexDocs.ts",
+    "format": "prettier --cache --cache-strategy content -w .",
+    "lint": "pnpm eslint --cache ."
+  },
+  "dependencies": {
+    "shared": "workspace:*"
+  }
+}

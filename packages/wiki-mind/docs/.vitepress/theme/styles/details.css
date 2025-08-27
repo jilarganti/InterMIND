@@ -1,0 +1,23 @@
+/* Стилизация :::details */
+.vp-doc details p {
+  font-size: 16px;
+}
+
+.vp-doc details[open] > :not(summary) {
+  margin-top: 1.5em;
+}
+
+/* Убираем отступ от левого края для заголовка */
+.vp-doc details > summary {
+  font-size: 1.125rem; /* размер как у h4 */
+  font-weight: 600; /* жирный как у h4 */
+}
+
+/* Стилизация символов раскрытия details */
+.vp-doc details > summary::marker {
+  content: "⬇️ ";
+}
+
+.vp-doc details[open] > summary::marker {
+  content: "⬆️ ";
+}

@@ -1,0 +1,29 @@
+{
+  "folders": [
+    {
+      "path": "..",
+    },
+  ],
+  "settings": {
+    "files.exclude": {
+      "LICENSE": true,
+      "packages/golden-fish": true,
+      "packages/mind-com": true,
+    },
+    "search.exclude": {
+      "packages/golden-fish": true,
+      "packages/mind-com": true,
+    },
+    "files.watcherExclude": {
+      "**/packages/golden-fish/**": true,
+      "**/packages/mind-com/**": true,
+    },
+    "files.associations": {
+      "*.vue": "vue",
+    },
+    // Переменные окружения для интегрированного терминала (macOS)
+    "terminal.integrated.env.osx": {
+      "PACKAGE_PATH": "packages/wiki-mind/",
+    },
+  },
+}

@@ -1,0 +1,40 @@
+export const config = {
+  rootDir: "../docs/en",
+  rootTranslateDir: "../docs/i18n",
+  configDir: "../docs/.vitepress/config",
+  configTranslateDir: "../docs/.vitepress/config/i18n",
+  promptModule: "translatePrompt.ts",
+  checkBuildErrors: true,
+  buildCommand: "pnpm build",
+
+  languages: {
+    ar: { code: "ar", name: "Gulf Arab & MSA" },
+    zh: { code: "zh", name: "Mandarin" },
+    es: { code: "es", name: "Spanish (México)" },
+    hi: { code: "hi", name: "Hindi" },
+    ja: { code: "ja", name: "Japanese" },
+    pt: { code: "pt", name: "Portuguese (Brazil)" },
+    ru: { code: "ru", name: "Russian" },
+    de: { code: "de", name: "German" },
+    fr: { code: "fr", name: "French" },
+    tr: { code: "tr", name: "Turkish" },
+    ko: { code: "ko", name: "Korean" },
+    // ====================================
+    // bn: { code: "bn", name: "Bengali" },
+    // uk: { code: "uk", name: "Ukrainian" },
+    // ur: { code: "ur", name: "Urdu" },
+    // ml: { code: "ml", name: "Malayalam" },
+    // ta: { code: "ta", name: "Tamil" },
+    // fa: { code: "fa", name: "Persian" },
+    // id: { code: "id", name: "Indonesian" },
+    // vi: { code: "vi", name: "Vietnamese" },
+    // te: { code: "te", name: "Telugu" },
+  },
+
+  models: {
+    claude: ["claude-4-sonnet-20250514", "claude-3-5-sonnet-20241022"],
+    gpt4: ["gpt-4o-mini"],
+  },
+  exclude: ["test", "account/"],
+  allowedExtensions: [".md", ".vue", ".svg"],
+}

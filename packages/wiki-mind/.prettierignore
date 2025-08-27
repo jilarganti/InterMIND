@@ -1,0 +1,9 @@
+dist/
+cache/
+scripts/
+i18n/
+node_modules/
+.vscode/
+.vercel/
+.github/
+__tests__/
