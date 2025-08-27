@@ -372,6 +372,6 @@ code {
 
 /* Стили для blockquote */
 .vp-doc blockquote {
-  border-left: 2px solid var(--vp-hl-color) !important;
+  border-left: 3px solid var(--vp-hl-color) !important;
   color: inherit;
 }
