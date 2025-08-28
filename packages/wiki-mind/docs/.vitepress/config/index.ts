@@ -36,6 +36,8 @@ export default defineConfig({
   rewrites: {
     "en/:rest*": ":rest*",
     "i18n/:locale/:rest*": ":locale/:rest*",
+    // Remove numeric prefixes from markdown files
+    // ":path+/:number([0-9]{2}\\.)(.+)": ":path+/:2",
   },
 
   transformPageData(pageData, ctx) {
