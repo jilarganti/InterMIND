@@ -33,11 +33,22 @@ export default defineConfig({
   metaChunk: true,
   locales, // Using localization from locales.ts
 
-  rewrites: {
-    "en/:rest*": ":rest*",
-    "i18n/:locale/:rest*": ":locale/:rest*",
-    // Remove numeric prefixes from markdown files
-    // ":path+/:number([0-9]{2}\\.)(.+)": ":path+/:2",
+  rewrites(id) {
+    // Remove numeric prefixes from both folders and files
+    // e.g., 1.getting-started/02.installation.md -> getting-started/installation.md
+    let result = id
+      .replace(/\/(\d+\.)/g, "/") // Remove folder prefixes like 1. 2. 3.
+      .replace(/(\d{2}\.)/g, "") // Remove file prefixes like 01. 02. 03.
+
+    // Apply other rewrites
+    if (result.startsWith("en/")) {
+      result = result.replace(/^en\//, "")
+    }
+    if (result.startsWith("i18n/")) {
+      result = result.replace(/^i18n\/([^/]+)\//, "$1/")
+    }
+
+    return result
   },
 
   transformPageData(pageData, ctx) {
