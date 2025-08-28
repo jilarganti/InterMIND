@@ -3,6 +3,9 @@
     {
       "path": "..",
     },
+    {
+      "path": "../../../Downloads",
+    },
   ],
   "settings": {
     "files.exclude": {
