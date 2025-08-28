@@ -75,7 +75,11 @@ export const en = defineConfig({
 
 // Function to automatically generate sidebar from file structure
 function generateSidebar(): DefaultTheme.SidebarItem[] {
-  const nuxtPath = path.resolve(__dirname, "../../en/nuxt")
+  // Determine the correct path based on BASE_PATH
+  const basePath = BASE_PATH as string
+  const isLocalized = basePath && basePath !== ""
+  const langPath = isLocalized ? basePath.replace("/", "") : "en"
+  const nuxtPath = isLocalized ? path.resolve(__dirname, `../../../i18n/${langPath}/nuxt`) : path.resolve(__dirname, "../../en/nuxt")
 
   if (!fs.existsSync(nuxtPath)) {
     return []
@@ -99,11 +103,6 @@ function generateSidebar(): DefaultTheme.SidebarItem[] {
       .split("-")
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ")
-
-    // Special cases for section titles
-    if (folderName === "getting-started") sectionTitle = "GETTING STARTED"
-    if (folderName === "guide") sectionTitle = "GUIDE"
-    if (folderName === "api") sectionTitle = "API"
 
     // Helper function to process files and subdirectories
     function processDirectory(dirPath: string, basePath: string): DefaultTheme.SidebarItem[] {
@@ -131,7 +130,7 @@ function generateSidebar(): DefaultTheme.SidebarItem[] {
               items: subItems,
             })
           }
-        } else if (entry.endsWith(".md") && entry !== "index.md") {
+        } else if (entry.endsWith(".md") && !entry.match(/(\d+\.)?index\.md$/)) {
           // Process markdown file
           const fileName = entry.replace(/\.md$/, "").replace(/^\d+\./, "")
 
@@ -140,14 +139,6 @@ function generateSidebar(): DefaultTheme.SidebarItem[] {
             .split("-")
             .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
             .join(" ")
-
-          // Special cases for titles
-          if (fileName === "introduction") title = "What is InterMIND?"
-          if (fileName === "seo-meta") title = "SEO & Meta"
-          if (fileName === "state-management") title = "State Management"
-          if (fileName === "error-handling") title = "Error Handling"
-          if (fileName === "data-fetching") title = "Data Fetching"
-          if (fileName === "nuxt-config") title = "Nuxt Config"
 
           dirItems.push({
             text: title,

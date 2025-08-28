@@ -1,6 +1,8 @@
 /// <reference types="../theme/types/themeConfig" />
 
 import { defineConfig, type DefaultTheme } from "vitepress"
+import fs from "fs"
+import path from "path"
 
 const BASE_PATH = "/ru"
 
@@ -22,29 +24,15 @@ export const ru = defineConfig({
   themeConfig: {
     nav: [
       {
-        text: "Продукт",
-        activeMatch: `${BASE_PATH}/product/`,
-        link: `${BASE_PATH}/product/overview/what-is-intermind`,
-      },
-      {
-        text: "Цены",
-        link: `${BASE_PATH}/#Pricing`,
-      },
-      {
-        text: "Ресурсы",
-        activeMatch: `${BASE_PATH}/product/`,
-        items: [
-          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
-          { text: "Отзывы", link: `${BASE_PATH}/#Testimonials` },
-        ],
+        text: "Документация",
+        activeMatch: `${BASE_PATH}/nuxt/`,
+        link: `${BASE_PATH}/nuxt/getting-started/introduction`,
       },
     ],
 
     sidebar: {
-      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
-      [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
-      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
+      // [`${BASE_PATH}/nuxt/`]: { base: `${BASE_PATH}/nuxt/`, items: sidebarDocs() },
+      [`${BASE_PATH}/nuxt/`]: { base: `${BASE_PATH}/nuxt/`, items: generateSidebar() },
     },
 
     footer: {
@@ -70,7 +58,7 @@ export const ru = defineConfig({
       webSitePlaceholder: "например, https://companyname.com",
       webSiteError: "Пожалуйста, введите сайт",
       category: "Какова ваша основная цель? *",
-      categoryPlaceholder: "Выберите, что важнее всего",
+      categoryPlaceholder: "Выберите то, что важнее всего",
       message: "Давайте обсудим ваши цели (необязательно)",
       messagePlaceholder: "Пожалуйста, предоставьте любые дополнительные детали (необязательно)",
       submit: "Отправить запрос",
@@ -79,110 +67,99 @@ export const ru = defineConfig({
       successMessage: "Мы получили ваше сообщение — наша команда свяжется с вами в ближайшее время.",
       defaultCategories: [],
 
-      defaultButtonText: "Отправить нам сообщение",
+      defaultButtonText: "Отправьте нам сообщение",
       // defaultButtonText: "Получить бесплатную консультацию",
     },
   },
 })
 
-function sidebarProduct(): DefaultTheme.SidebarItem[] {
-  return [
-    {
-      text: "ОБЗОР",
-      collapsed: false,
-      items: [
-        { text: "Что такое InterMIND?", link: "overview/what-is-intermind" },
-        { text: "Как это работает", link: "overview/how-it-works" },
-        { text: "Платформа видеовстреч", link: "overview/video-meeting-platform" },
-        { text: "Региональная конфиденциальность данных", link: "overview/privacy-architecture" },
-        { text: "Приоритетные рынки", link: "overview/markets" },
-      ],
-    },
-    {
-      text: "РУКОВОДСТВО",
-      collapsed: false,
-      items: [
-        { text: "Начало работы", link: "guide/getting-started" },
-        { text: "Управление аккаунтом", link: "guide/account-management" },
-        { text: "Создание встреч", link: "guide/creating-meetings" },
-        { text: "Интерфейс встречи", link: "guide/meeting-interface" },
-        { text: "Роли пользователей", link: "guide/user-roles" },
-        { text: "ИИ функции", link: "guide/ai-features" },
-        { text: "История встреч", link: "guide/meeting-history" },
-        { text: "FAQ", link: "guide/faq" },
-        { text: "Устранение неполадок", link: "guide/troubleshooting" },
-        { text: "Цены", link: "guide/pricing" },
-        { text: "Помощь и поддержка", link: "guide/help-support" },
-      ],
-    },
-  ]
-}
+// Функция для автоматической генерации боковой панели из структуры файлов
+function generateSidebar(): DefaultTheme.SidebarItem[] {
+  // Определяем правильный путь на основе BASE_PATH
+  const basePath = BASE_PATH as string
+  const isLocalized = basePath && basePath !== ""
+  const langPath = isLocalized ? basePath.replace("/", "") : "en"
+  const nuxtPath = isLocalized ? path.resolve(__dirname, `../../../i18n/${langPath}/nuxt`) : path.resolve(__dirname, "../../en/nuxt")
 
-function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [
-    {
-      text: "ПОДДЕРЖКА",
-      collapsed: false,
-      items: [
-        { text: "Получить поддержку", link: "/help" },
-        { text: "Политика конфиденциальности", link: "/company/Privacy-Policy" },
-        { text: "Правовое руководство по ИИ", link: "/company/Legal-Regulations-for-AI-Services" },
-      ],
-    },
-    // {
-    //   text: "РЕСУРСЫ",
-    //   collapsed: false,
-    //   items: [
-    //     { text: "Брендовые материалы", link: "/media-kit" },
-    //     // { text: "Управление аккаунтом", link: "guide/account-management" },
-    //   ],
-    // },
-    {
-      text: "КОМПАНИЯ",
-      collapsed: false,
-      items: [
-        { text: "О нас", link: "/company/about" },
-        { text: "Команда", link: "/company/team" },
-        { text: "Карьера", link: "/company/careers" },
-        { text: "Контакты", link: "/company/contacts" },
-      ],
-    },
-  ]
-}
+  if (!fs.existsSync(nuxtPath)) {
+    return []
+  }
 
-function sidebarExp(): DefaultTheme.SidebarItem[] {
-  return [
-    { text: "Краткое резюме", link: "/InterMind-Executive-Summary" },
-    { text: "Стратегия выхода на рынок", link: "/go-to-market-strategy" },
-    { text: "Презентация для инвесторов", link: "/InterMind-Investor-Pitch" },
-    { text: "Обоснование финансовых прогнозов (1-3 год)", link: "/Financial-Projections-Justification" },
-  ]
-}
+  const sections: DefaultTheme.SidebarItem[] = []
+  const folders = fs
+    .readdirSync(nuxtPath)
+    .filter((name) => {
+      const fullPath = path.join(nuxtPath, name)
+      return fs.statSync(fullPath).isDirectory()
+    })
+    .sort()
 
-function sidebarAccount(): DefaultTheme.SidebarItem[] {
-  return [
-    {
-      text: "ГЛАВНАЯ",
-      link: "/",
-    },
-    {
-      text: "ВСТРЕЧИ",
-      collapsed: false,
-      items: [
-        { text: "Встречи", link: "/meetings" },
-        { text: "История", link: "/history" },
-        { text: "Обновить", link: "/upgrade" },
-      ],
-    },
+  for (const folder of folders) {
+    const folderPath = path.join(nuxtPath, folder)
+    const folderName = folder.replace(/^\d+\./, "") // Удаляем числовой префикс
 
-    {
-      text: "НАСТРОЙКИ",
-      collapsed: true,
-      items: [
-        { text: "Профиль", link: "/settings/profile" },
-        { text: "Настройки", link: "/settings/settings" },
-        { text: "Настройки", link: "/settings/upgrade" },
-      ],
-    },
-  ]
+    // Получаем заголовок раздела из имени папки
+    let sectionTitle = folderName
+      .split("-")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ")
+
+    // Вспомогательная функция для обработки файлов и подкаталогов
+    function processDirectory(dirPath: string, basePath: string): DefaultTheme.SidebarItem[] {
+      const dirItems: DefaultTheme.SidebarItem[] = []
+      const entries = fs.readdirSync(dirPath).sort()
+
+      for (const entry of entries) {
+        const entryPath = path.join(dirPath, entry)
+        const stat = fs.statSync(entryPath)
+
+        if (stat.isDirectory() && !entry.startsWith(".")) {
+          // Обрабатываем подкаталог
+          const subDirName = entry.replace(/^\d+\./, "")
+          const subDirTitle = subDirName
+            .split("-")
+            .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(" ")
+
+          const subItems = processDirectory(entryPath, `${basePath}/${subDirName}`)
+
+          if (subItems.length > 0) {
+            dirItems.push({
+              text: subDirTitle,
+              collapsed: true,
+              items: subItems,
+            })
+          }
+        } else if (entry.endsWith(".md") && !entry.match(/(\d+\.)?index\.md$/)) {
+          // Обрабатываем markdown файл
+          const fileName = entry.replace(/\.md$/, "").replace(/^\d+\./, "")
+
+          // Преобразуем имя файла в читаемый заголовок
+          let title = fileName
+            .split("-")
+            .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(" ")
+
+          dirItems.push({
+            text: title,
+            link: `${basePath}/${fileName}`,
+          })
+        }
+      }
+
+      return dirItems
+    }
+
+    const sectionItems = processDirectory(folderPath, folderName)
+
+    if (sectionItems.length > 0) {
+      sections.push({
+        text: sectionTitle,
+        collapsed: false,
+        items: sectionItems,
+      })
+    }
+  }
+
+  return sections
 }
