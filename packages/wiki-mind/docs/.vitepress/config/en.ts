@@ -73,29 +73,9 @@ export const en = defineConfig({
   },
 })
 
-function sidebarDocs(): DefaultTheme.SidebarItem[] {
-  return [
-    {
-      text: "GETTING STARTED",
-      collapsed: false,
-      items: [{ text: "Getting Started", link: "getting-started/introduction" }],
-    },
-    {
-      text: "GUIDE",
-      collapsed: false,
-      items: [{ text: "Getting Started", link: "getting-started/introduction" }],
-    },
-    {
-      text: "API",
-      collapsed: false,
-      items: [{ text: "Getting Started", link: "guide/getting-started" }],
-    },
-  ]
-}
-
 // Function to automatically generate sidebar from file structure
 function generateSidebar(): DefaultTheme.SidebarItem[] {
-  const nuxtPath = path.resolve(__dirname, "../../../en/nuxt")
+  const nuxtPath = path.resolve(__dirname, "../../en/nuxt")
 
   if (!fs.existsSync(nuxtPath)) {
     return []
@@ -179,7 +159,7 @@ function generateSidebar(): DefaultTheme.SidebarItem[] {
       return dirItems
     }
 
-    const sectionItems = processDirectory(folderPath, `nuxt/${folderName}`)
+    const sectionItems = processDirectory(folderPath, folderName)
 
     if (sectionItems.length > 0) {
       sections.push({
