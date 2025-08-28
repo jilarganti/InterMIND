@@ -209,3 +209,10 @@ Key constants in each package's `docs/.vitepress/config/index.ts`:
 - **Image Search**: Google Custom Search Engine (golden-fish only)
 - **Deployment**: Vercel with environment-specific configurations
 - **Real-time Chat**: Full-featured AI chat widget deployed on production sites
+
+## Code Editing Rules
+
+- NEVER delete existing user code when making edits
+- Always preserve all existing lines in transformPageData, rewrites, and other user functions
+- Read the full context before making any changes
+- Use precise replacements with 5+ lines of context

@@ -74,6 +74,25 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use(markdownItFootnote)
+
+      // Custom read-more transformation
+      const originalRender = md.render
+      md.render = function (src, env) {
+        // Transform :read-more tags before markdown processing
+        const readMoreRegex = /:read-more\{title="([^"]+)"\s+to="([^"]+)"\}/g
+
+        const transformedSrc = src.replace(readMoreRegex, (match, title, to) => {
+          const href = to.startsWith("/") ? to : `/${to}`
+          return `<div class="read-more-link">
+                    <a href="${href}" class="read-more-button">
+                      <span class="read-more-text">${title}</span>
+                      <span class="read-more-arrow">→</span>
+                    </a>
+                  </div>`
+        })
+
+        return originalRender.call(this, transformedSrc, env)
+      }
     },
   },
 
