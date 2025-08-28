@@ -22,29 +22,14 @@ export const en = defineConfig({
   themeConfig: {
     nav: [
       {
-        text: "Product",
-        activeMatch: `${BASE_PATH}/product/`,
-        link: `${BASE_PATH}/product/overview/what-is-intermind`,
-      },
-      {
-        text: "Pricing",
-        link: `${BASE_PATH}/#Pricing`,
-      },
-      {
-        text: "Resources",
-        activeMatch: `${BASE_PATH}/product/`,
-        items: [
-          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
-          { text: "Testimonials", link: `${BASE_PATH}/#Testimonials` },
-        ],
+        text: "Docs",
+        activeMatch: `${BASE_PATH}/docs/`,
+        link: `${BASE_PATH}/nuxt/getting-started/introduction`,
       },
     ],
 
     sidebar: {
-      [`${BASE_PATH}/product/`]: { base: `${BASE_PATH}/product/`, items: sidebarProduct() },
-      [`${BASE_PATH}/resources/`]: { base: `${BASE_PATH}/resources/`, items: sidebarResources() },
-      [`${BASE_PATH}/exp/`]: { base: `${BASE_PATH}/exp/`, items: sidebarExp() },
-      [`${BASE_PATH}/account/`]: { base: `${BASE_PATH}/account/`, items: sidebarAccount() },
+      [`${BASE_PATH}/docs/`]: { base: `${BASE_PATH}/docs/`, items: sidebarDocs() },
     },
 
     footer: {
@@ -85,10 +70,10 @@ export const en = defineConfig({
   },
 })
 
-function sidebarProduct(): DefaultTheme.SidebarItem[] {
+function sidebarDocs(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "OVERVIEW",
+      text: "GETTING STARTED",
       collapsed: false,
       items: [
         { text: "What is InterMIND?", link: "overview/what-is-intermind" },
@@ -115,73 +100,21 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Help & Support", link: "guide/help-support" },
       ],
     },
-  ]
-}
-
-function sidebarResources(): DefaultTheme.SidebarItem[] {
-  return [
     {
-      text: "SUPPORT",
+      text: "API",
       collapsed: false,
       items: [
-        { text: "Get Support", link: "/help" },
-        { text: "Privacy Policy", link: "/company/Privacy-Policy" },
-        { text: "AI Legal Guide", link: "/company/Legal-Regulations-for-AI-Services" },
-      ],
-    },
-    // {
-    //   text: "RESOURCES",
-    //   collapsed: false,
-    //   items: [
-    //     { text: "Brand Assets", link: "/media-kit" },
-    //     // { text: "Account Management", link: "guide/account-management" },
-    //   ],
-    // },
-    {
-      text: "COMPANY",
-      collapsed: false,
-      items: [
-        { text: "About", link: "/company/about" },
-        { text: "Team", link: "/company/team" },
-        { text: "Careers", link: "/company/careers" },
-        { text: "Contacts", link: "/company/contacts" },
-      ],
-    },
-  ]
-}
-
-function sidebarExp(): DefaultTheme.SidebarItem[] {
-  return [
-    { text: "Executive Summary", link: "/InterMind-Executive-Summary" },
-    { text: "Go To Market Strategy", link: "/go-to-market-strategy" },
-    { text: "Investor Pitch", link: "/InterMind-Investor-Pitch" },
-    { text: "Financial Projections Justification (Yr 1–3)", link: "/Financial-Projections-Justification" },
-  ]
-}
-
-function sidebarAccount(): DefaultTheme.SidebarItem[] {
-  return [
-    {
-      text: "HOME",
-      link: "/",
-    },
-    {
-      text: "MEETINGS",
-      collapsed: false,
-      items: [
-        { text: "Meetings", link: "/meetings" },
-        { text: "History", link: "/history" },
-        { text: "Upgrade", link: "/upgrade" },
-      ],
-    },
-
-    {
-      text: "SETTINGS",
-      collapsed: true,
-      items: [
-        { text: "Profile", link: "/settings/profile" },
-        { text: "Settings", link: "/settings/settings" },
-        { text: "Settings", link: "/settings/upgrade" },
+        { text: "Getting Started", link: "guide/getting-started" },
+        { text: "Account Management", link: "guide/account-management" },
+        { text: "Creating Meetings", link: "guide/creating-meetings" },
+        { text: "Meeting Interface", link: "guide/meeting-interface" },
+        { text: "User Roles", link: "guide/user-roles" },
+        { text: "AI Features", link: "guide/ai-features" },
+        { text: "Meeting History", link: "guide/meeting-history" },
+        { text: "FAQ", link: "guide/faq" },
+        { text: "Troubleshooting", link: "guide/troubleshooting" },
+        { text: "Pricing", link: "guide/pricing" },
+        { text: "Help & Support", link: "guide/help-support" },
       ],
     },
   ]
