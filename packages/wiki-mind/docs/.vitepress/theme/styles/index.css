@@ -1,66 +1,8 @@
 @import "./style-guide.css";
 @import "./tables.css";
 @import "./details.css";
+@import "./nuxt.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Read more button styles */
-.read-more-link {
-  margin: 1.5rem 0;
-  text-align: left;
-}
-
-.read-more-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1.5rem;
-  background: linear-gradient(135deg, var(--vp-c-brand) 0%, var(--vp-c-brand-darker) 100%);
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  border: 2px solid transparent;
-  font-size: 0.95rem;
-}
-
-.read-more-button:hover {
-  background: linear-gradient(135deg, var(--vp-c-brand-darker) 0%, var(--vp-c-brand) 100%);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(var(--vp-c-brand-rgb), 0.3);
-  border-color: var(--vp-c-brand-light);
-}
-
-.read-more-text {
-  flex: 1;
-}
-
-.read-more-arrow {
-  font-size: 1.1rem;
-  transition: transform 0.3s ease;
-}
-
-.read-more-button:hover .read-more-arrow {
-  transform: translateX(4px);
-}
-
-/* Dark mode support */
-.dark .read-more-button {
-  background: linear-gradient(135deg, var(--vp-c-brand-darker) 0%, var(--vp-c-brand) 100%);
-}
-
-.dark .read-more-button:hover {
-  background: linear-gradient(135deg, var(--vp-c-brand) 0%, var(--vp-c-brand-light) 100%);
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-  .read-more-button {
-    width: 100%;
-    justify-content: center;
-    padding: 1rem 1.5rem;
-  }
-}
