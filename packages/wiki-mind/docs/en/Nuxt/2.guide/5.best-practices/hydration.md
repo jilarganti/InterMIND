@@ -1,5 +1,5 @@
 ---
-navigation.title: 'Nuxt and hydration'
+navigation.title: "Nuxt and hydration"
 title: Nuxt and hydration
 description: Why fixing hydration issues is important
 ---
@@ -41,9 +41,9 @@ Vue will log hydration mismatch warnings in the browser console during developme
 </template>
 
 <script setup>
-// This will cause hydration mismatch!
-// localStorage doesn't exist on the server!
-const userTheme = localStorage.getItem('theme') || 'light'
+  // This will cause hydration mismatch!
+  // localStorage doesn't exist on the server!
+  const userTheme = localStorage.getItem("theme") || "light"
 </script>
 ```
 
@@ -55,8 +55,8 @@ const userTheme = localStorage.getItem('theme') || 'light'
 </template>
 
 <script setup>
-// This works on both server and client
-const userTheme = useCookie('theme', { default: () => 'light' })
+  // This works on both server and client
+  const userTheme = useCookie("theme", { default: () => "light" })
 </script>
 ```
 
@@ -78,7 +78,7 @@ const userTheme = useCookie('theme', { default: () => 'light' })
 </template>
 
 <script setup>
-const state = useState('random', () => Math.random())
+  const state = useState("random", () => Math.random())
 </script>
 ```
 
@@ -88,9 +88,7 @@ const state = useState('random', () => Math.random())
 
 ```html
 <template>
-  <div v-if="window?.innerWidth > 768">
-    Desktop content
-  </div>
+  <div v-if="window?.innerWidth > 768">Desktop content</div>
 </template>
 ```
 
@@ -111,10 +109,10 @@ const state = useState('random', () => Math.random())
 
 ```html
 <script setup>
-if (import.meta.client) {
-    const { default: SomeBrowserLibrary } = await import('browser-only-lib')
-    SomeBrowserLibrary.init()
-}
+  if (import.meta.client) {
+      const { default: SomeBrowserLibrary } = await import('browser-only-lib')
+      SomeBrowserLibrary.init()
+  }
 </script>
 ```
 
@@ -122,10 +120,10 @@ if (import.meta.client) {
 
 ```html
 <script setup>
-onMounted(async () => {
-  const { default: SomeBrowserLibrary } = await import('browser-only-lib')
-  SomeBrowserLibrary.init()
-})
+  onMounted(async () => {
+    const { default: SomeBrowserLibrary } = await import("browser-only-lib")
+    SomeBrowserLibrary.init()
+  })
 </script>
 ```
 
@@ -139,8 +137,8 @@ onMounted(async () => {
 </template>
 
 <script setup>
-const hour = new Date().getHours()
-const greeting = hour < 12 ? 'Good morning' : 'Good afternoon'
+  const hour = new Date().getHours()
+  const greeting = hour < 12 ? "Good morning" : "Good afternoon"
 </script>
 ```
 
@@ -159,20 +157,18 @@ const greeting = hour < 12 ? 'Good morning' : 'Good afternoon'
   <div>
     <ClientOnly>
       {{ greeting }}
-      <template #fallback>
-        Hello!
-      </template>
+      <template #fallback> Hello! </template>
     </ClientOnly>
   </div>
 </template>
 
 <script setup>
-const greeting = ref('Hello!')
+  const greeting = ref("Hello!")
 
-onMounted(() => {
-  const hour = new Date().getHours()
-  greeting.value = hour < 12 ? 'Good morning' : 'Good afternoon'
-})
+  onMounted(() => {
+    const hour = new Date().getHours()
+    greeting.value = hour < 12 ? "Good morning" : "Good afternoon"
+  })
 </script>
 ```
 
