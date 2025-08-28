@@ -1,6 +1,8 @@
 /// <reference types="../theme/types/themeConfig" />
 
 import { defineConfig, type DefaultTheme } from "vitepress"
+import fs from "fs"
+import path from "path"
 
 const BASE_PATH = ""
 
@@ -23,13 +25,14 @@ export const en = defineConfig({
     nav: [
       {
         text: "Docs",
-        activeMatch: `${BASE_PATH}/docs/`,
+        activeMatch: `${BASE_PATH}/nuxt/`,
         link: `${BASE_PATH}/nuxt/getting-started/introduction`,
       },
     ],
 
     sidebar: {
-      [`${BASE_PATH}/docs/`]: { base: `${BASE_PATH}/docs/`, items: sidebarDocs() },
+      // [`${BASE_PATH}/nuxt/`]: { base: `${BASE_PATH}/nuxt/`, items: sidebarDocs() },
+      [`${BASE_PATH}/nuxt/`]: { base: `${BASE_PATH}/nuxt/`, items: generateSidebar() },
     },
 
     footer: {
@@ -75,47 +78,117 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
     {
       text: "GETTING STARTED",
       collapsed: false,
-      items: [
-        { text: "What is InterMIND?", link: "overview/what-is-intermind" },
-        { text: "How it Works", link: "overview/how-it-works" },
-        { text: "Video Meeting Platform", link: "overview/video-meeting-platform" },
-        { text: "Regional Data Privacy", link: "overview/privacy-architecture" },
-        { text: "Priority Markets", link: "overview/markets" },
-      ],
+      items: [{ text: "Getting Started", link: "getting-started/introduction" }],
     },
     {
       text: "GUIDE",
       collapsed: false,
-      items: [
-        { text: "Getting Started", link: "guide/getting-started" },
-        { text: "Account Management", link: "guide/account-management" },
-        { text: "Creating Meetings", link: "guide/creating-meetings" },
-        { text: "Meeting Interface", link: "guide/meeting-interface" },
-        { text: "User Roles", link: "guide/user-roles" },
-        { text: "AI Features", link: "guide/ai-features" },
-        { text: "Meeting History", link: "guide/meeting-history" },
-        { text: "FAQ", link: "guide/faq" },
-        { text: "Troubleshooting", link: "guide/troubleshooting" },
-        { text: "Pricing", link: "guide/pricing" },
-        { text: "Help & Support", link: "guide/help-support" },
-      ],
+      items: [{ text: "Getting Started", link: "getting-started/introduction" }],
     },
     {
       text: "API",
       collapsed: false,
-      items: [
-        { text: "Getting Started", link: "guide/getting-started" },
-        { text: "Account Management", link: "guide/account-management" },
-        { text: "Creating Meetings", link: "guide/creating-meetings" },
-        { text: "Meeting Interface", link: "guide/meeting-interface" },
-        { text: "User Roles", link: "guide/user-roles" },
-        { text: "AI Features", link: "guide/ai-features" },
-        { text: "Meeting History", link: "guide/meeting-history" },
-        { text: "FAQ", link: "guide/faq" },
-        { text: "Troubleshooting", link: "guide/troubleshooting" },
-        { text: "Pricing", link: "guide/pricing" },
-        { text: "Help & Support", link: "guide/help-support" },
-      ],
+      items: [{ text: "Getting Started", link: "guide/getting-started" }],
     },
   ]
+}
+
+// Function to automatically generate sidebar from file structure
+function generateSidebar(): DefaultTheme.SidebarItem[] {
+  const nuxtPath = path.resolve(__dirname, "../../../en/nuxt")
+
+  if (!fs.existsSync(nuxtPath)) {
+    return []
+  }
+
+  const sections: DefaultTheme.SidebarItem[] = []
+  const folders = fs
+    .readdirSync(nuxtPath)
+    .filter((name) => {
+      const fullPath = path.join(nuxtPath, name)
+      return fs.statSync(fullPath).isDirectory()
+    })
+    .sort()
+
+  for (const folder of folders) {
+    const folderPath = path.join(nuxtPath, folder)
+    const folderName = folder.replace(/^\d+\./, "") // Remove numeric prefix
+
+    // Get section title from folder name
+    let sectionTitle = folderName
+      .split("-")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ")
+
+    // Special cases for section titles
+    if (folderName === "getting-started") sectionTitle = "GETTING STARTED"
+    if (folderName === "guide") sectionTitle = "GUIDE"
+    if (folderName === "api") sectionTitle = "API"
+
+    // Helper function to process files and subdirectories
+    function processDirectory(dirPath: string, basePath: string): DefaultTheme.SidebarItem[] {
+      const dirItems: DefaultTheme.SidebarItem[] = []
+      const entries = fs.readdirSync(dirPath).sort()
+
+      for (const entry of entries) {
+        const entryPath = path.join(dirPath, entry)
+        const stat = fs.statSync(entryPath)
+
+        if (stat.isDirectory() && !entry.startsWith(".")) {
+          // Process subdirectory
+          const subDirName = entry.replace(/^\d+\./, "")
+          const subDirTitle = subDirName
+            .split("-")
+            .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(" ")
+
+          const subItems = processDirectory(entryPath, `${basePath}/${subDirName}`)
+
+          if (subItems.length > 0) {
+            dirItems.push({
+              text: subDirTitle,
+              collapsed: true,
+              items: subItems,
+            })
+          }
+        } else if (entry.endsWith(".md") && entry !== "index.md") {
+          // Process markdown file
+          const fileName = entry.replace(/\.md$/, "").replace(/^\d+\./, "")
+
+          // Convert filename to readable title
+          let title = fileName
+            .split("-")
+            .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(" ")
+
+          // Special cases for titles
+          if (fileName === "introduction") title = "What is InterMIND?"
+          if (fileName === "seo-meta") title = "SEO & Meta"
+          if (fileName === "state-management") title = "State Management"
+          if (fileName === "error-handling") title = "Error Handling"
+          if (fileName === "data-fetching") title = "Data Fetching"
+          if (fileName === "nuxt-config") title = "Nuxt Config"
+
+          dirItems.push({
+            text: title,
+            link: `${basePath}/${fileName}`,
+          })
+        }
+      }
+
+      return dirItems
+    }
+
+    const sectionItems = processDirectory(folderPath, `nuxt/${folderName}`)
+
+    if (sectionItems.length > 0) {
+      sections.push({
+        text: sectionTitle,
+        collapsed: false,
+        items: sectionItems,
+      })
+    }
+  }
+
+  return sections
 }
