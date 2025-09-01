@@ -10,6 +10,9 @@ import { ja } from "./i18n/ja"
 import { pt } from "./i18n/pt"
 import { es } from "./i18n/es"
 import { de } from "./i18n/de"
+import { id } from "./i18n/id"
+import { ta } from "./i18n/ta"
+import { vi } from "./i18n/vi"
 
 interface LocaleSpecificConfig {
   name: string
@@ -30,13 +33,13 @@ export const locales: Record<string, LocaleSpecificConfig> = {
   tr: { name: "Turkish", label: "Türkçe", lang: "tr-TR", ...tr },
   ko: { name: "Korean", label: "한국어", lang: "ko-KR", ...ko },
   ru: { name: "Russian", label: "Русский", lang: "ru-RU", ...ru },
+  id: { name: "Indonesian", label: "Bahasa Indonesia", lang: "id-ID", ...id },
+  ta: { name: "Tamil", label: "தமிழ்", lang: "ta-IN", ...ta },
+  vi: { name: "Vietnamese", label: "Tiếng Việt", lang: "vi-VN", ...vi },
   // ur: { name: "Urdu", label: "اُردُو", lang: "ur-PK", ...ur },
   // bn: { name: "Bengali", label: "বাংলা", lang: "bn-BD", ...bn },
   // ml: { name: "Malayalam", label: "മലയാളം", lang: "ml-IN", ...ml },
-  // ta: { name: "Tamil", label: "தமிழ்", lang: "ta-IN", ...ta },
   // te: { name: "Telugu", label: "తెలుగు", lang: "te-IN", ...te },
-  // fa: { name: "Persian/Farsi", label: "فارسی", lang: "fa-IR", ...fa },
   // uk: { name: "Ukrainian", label: "Українська", lang: "uk-UA", ...uk },
-  // id: { name: "Indonesian", label: "Bahasa Indonesia", lang: "id-ID", ...id },
-  // vi: { name: "Vietnamese", label: "Tiếng Việt", lang: "vi-VN", ...vi },
+  // fa: { name: "Persian/Farsi", label: "فارسی", lang: "fa-IR", ...fa },
 } as const

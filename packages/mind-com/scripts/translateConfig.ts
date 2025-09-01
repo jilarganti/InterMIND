@@ -19,15 +19,15 @@ export const config = {
     fr: { code: "fr", name: "French" },
     tr: { code: "tr", name: "Turkish" },
     ko: { code: "ko", name: "Korean" },
+    id: { code: "id", name: "Indonesian" },
+    ta: { code: "ta", name: "Tamil" },
+    vi: { code: "vi", name: "Vietnamese" },
     // ====================================
     // bn: { code: "bn", name: "Bengali" },
     // uk: { code: "uk", name: "Ukrainian" },
     // ur: { code: "ur", name: "Urdu" },
     // ml: { code: "ml", name: "Malayalam" },
-    // ta: { code: "ta", name: "Tamil" },
     // fa: { code: "fa", name: "Persian" },
-    // id: { code: "id", name: "Indonesian" },
-    // vi: { code: "vi", name: "Vietnamese" },
     // te: { code: "te", name: "Telugu" },
   },
 
