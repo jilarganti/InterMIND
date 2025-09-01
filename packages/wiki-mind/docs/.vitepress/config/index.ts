@@ -35,21 +35,11 @@ export default defineConfig({
   ignoreDeadLinks: true, // Temporarily disable dead link checking
 
   rewrites(id) {
-    // Remove numeric prefixes from both folders and files
-    // e.g., 1.getting-started/02.installation.md -> getting-started/installation.md
-    let result = id
-      .replace(/\/(\d+\.)/g, "/") // Remove folder prefixes like 1. 2. 3.
-      .replace(/(\d{2}\.)/g, "") // Remove file prefixes like 01. 02. 03.
-
-    // Apply other rewrites
-    if (result.startsWith("en/")) {
-      result = result.replace(/^en\//, "")
-    }
-    if (result.startsWith("i18n/")) {
-      result = result.replace(/^i18n\/([^/]+)\//, "$1/")
-    }
-
-    return result
+    return id
+      .replace(/\/(\d+\.)/g, "/")
+      .replace(/(\d{2}\.)/g, "")
+      .replace(/^en\//, "")
+      .replace(/^i18n\/([^/]+)\//, "$1/")
   },
 
   transformPageData(pageData, ctx) {
