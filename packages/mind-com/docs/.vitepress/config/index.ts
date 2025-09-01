@@ -95,7 +95,7 @@ export default defineConfig({
 
   themeConfig: {
     logo: { light: "/logo.svg", dark: "/logo.svg" },
-    llmTokenLimit: 1000, // Token limit for LLMs (1k tokens)
+    llmTokenLimit: 100000, // Token limit for LLMs (100k tokens)
   },
 
   head: [
