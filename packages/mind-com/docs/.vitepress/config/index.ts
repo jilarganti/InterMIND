@@ -24,7 +24,7 @@ const checkoutUrl = appBaseUrl + "/checkout"
 const oauthClientId = "vca"
 
 const vercelUrl = process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL
-const baseUrl = vercelUrl ? `https://${vercelUrl}` : "http://localhost:3000"
+const baseUrl = vercelUrl ? `https://${vercelUrl}` : "http://localhost:3100"
 
 export default defineConfig({
   title: "InterMIND",

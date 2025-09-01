@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev:FE": "vitepress dev docs",
-    "dev:BE": "vercel dev",
+    "dev:BE": "vercel dev --listen 3100",
     "dev": "pnpm dev:FE & pnpm dev:BE",
     "prebuild": "pnpm run index:docs && pnpm run test:unit",
     "build": "vitepress build docs",
