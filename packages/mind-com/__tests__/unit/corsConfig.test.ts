@@ -237,7 +237,7 @@ describe("corsConfig", () => {
 
       const httpRequest = new Request("https://test.com", {
         headers: {
-          "origin": "http://mind.com",
+          "origin": "https://mind.com",
         },
       })
 
