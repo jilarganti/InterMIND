@@ -8,7 +8,7 @@ description: "From iMind to InterMIND: voice-first video calls with real-time AI
   title="Video meetings reimagined <br>— now at **mind.com**"
   text="From iMind to InterMIND: voice-first video calls with live speech translation.">
 <NavButton buttonLabel="Learn More" buttonClass="brand" to="/" />
-<NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
+<NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <br>

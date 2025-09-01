@@ -8,7 +8,7 @@ description: "De iMind à InterMIND : appels vidéo axés sur la voix avec inter
   title="Réunions vidéo réinventées <br>— maintenant sur **mind.com**"
   text="De iMind à InterMIND : appels vidéo axés sur la voix avec traduction vocale en direct.">
 <NavButton buttonLabel="En savoir plus" buttonClass="brand" to="/" />
-<NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
+<NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <br>

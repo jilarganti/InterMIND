@@ -8,8 +8,8 @@ isHome: true
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
 <HeroSection title="Understand **Any** Language" :typingSpeed="20" text="Simultaneous interpretation during video meetings. Break language barriers instantly.">
-<NavButton buttonLabel="Watch demo" buttonClass="brand" to="/#HowItWorks" />
-<NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
+<NavButton buttonLabel="Watch demo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <span id="1"></span>

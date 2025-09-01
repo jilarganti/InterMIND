@@ -8,7 +8,7 @@ description: "Parlez espagnol, ils entendent anglais. Traduction en temps réel 
   title="Parlez **espagnol**. <br>Ils entendent **anglais**. <br>Concluez plus d\'affaires."
   text="Connectez les entreprises mexicaines avec les partenaires américains et canadiens grâce à la traduction vocale en temps réel.">
 <NavButton buttonLabel="En savoir plus" buttonClass="brand" to="/" />
-<NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
+<NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <br>

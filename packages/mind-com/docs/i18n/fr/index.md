@@ -9,7 +9,7 @@ isHome: true
 
 <HeroSection title="Comprenez **N'importe Quelle** Langue" :typingSpeed="20" text="Interprétation simultanée pendant les appels vidéo. Brisez les barrières linguistiques instantanément.">
 <NavButton buttonLabel="Voir la démo" buttonClass="brand" to="/#HowItWorks" />
-<NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
+<NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <span id="1"></span>
@@ -152,11 +152,11 @@ Ce paramètre de langue unique s'applique à :
 - L'**entrée vocale** (ce que vous dites)
 - La **sortie traduite** (ce que vous entendez)
 
-| Participant   | Langue sélectionnée | Parle en  | Entend en |
-| ------------- | ------------------- | --------- | --------- |
-| Hôte          | Espagnol            | Espagnol  | Espagnol  |
-| Participant 1 | Anglais             | Anglais   | Anglais   |
-| Participant 2 | Chinois             | Chinois   | Chinois   |
+| Participant   | Langue sélectionnée | Parle en | Entend en |
+| ------------- | ------------------- | -------- | --------- |
+| Hôte          | Espagnol            | Espagnol | Espagnol  |
+| Participant 1 | Anglais             | Anglais  | Anglais   |
+| Participant 2 | Chinois             | Chinois  | Chinois   |
 
 [La plateforme interprète automatiquement tous les discours en temps réel](./product/overview/how-it-works) — ainsi tout le monde communique comme s'il parlait la même langue.
 

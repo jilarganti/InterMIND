@@ -8,7 +8,7 @@ description: "Speak Spanish, they hear English. Real-time translation for Mexica
   title="Speak **Spanish**. <br>They Hear **English**. <br>Close More Deals."
   text="Connect Mexican businesses with US and Canadian partners through real-time speech translation.">
 <NavButton buttonLabel="Learn More" buttonClass="brand" to="/" />
-<NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" />
+<NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <br>

@@ -11,6 +11,7 @@ const props = withDefaults(
     to: string
     buttonClass?: "brand" | "alt" | "sponsor"
     buttonStyle?: string
+    eventName?: string
   }>(),
   {
     buttonClass: "alt",
@@ -26,6 +27,7 @@ const label = computed(() => props.buttonLabel || useData().site.value.themeConf
  */
 const handleClick = (event: Event): void => {
   event.preventDefault()
+  window.dataLayer?.push({ event: props.eventName || "nav_button_click" })
   navigateTo(props.to)
 }
 </script>
