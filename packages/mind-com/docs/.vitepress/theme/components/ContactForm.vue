@@ -2,12 +2,14 @@
 /**
  * ContactForm Component
  *
- * Modal contact form component for lead generation and customer inquiries.
+ * Flexible contact form component for lead generation and customer inquiries.
+ * Supports both modal and inline display modes.
  * Integrates with Pipedrive CRM via API and tracks user interactions in
  * Google Tag Manager DataLayer for analytics and conversion tracking.
  *
  * Features:
- * - Modal-based form interface
+ * - Modal-based form interface (default)
+ * - Inline form display (with `inline` prop)
  * - CRM integration with submitForm API
  * - GTM DataLayer event tracking
  * - Analytics and conversion tracking
@@ -17,7 +19,27 @@
  * - Multilingual support
  * - Category selection dropdown
  * - Website URL validation
- * - Click-outside-to-close functionality
+ * - Click-outside-to-close functionality (modal mode)
+ *
+ * @prop {boolean} inline - Display form inline instead of modal
+ * @prop {string} formName - Name identifier for the form
+ * @prop {string[]} services - Array of service options for category dropdown
+ * @prop {string} buttonText - Text for the modal trigger button
+ * @prop {string} formStyle - CSS styles for the form container
+ * @prop {"brand" | "alt" | "sponsor"} buttonClass - Button theme class
+ * @prop {string} categoryLabel - Label for category field
+ * @prop {string} categoryPlaceholderText - Placeholder for category field
+ * @prop {string} messageLabel - Label for message field
+ * @prop {string} messagePlaceholderText - Placeholder for message field
+ * @prop {string} webSiteLabel - Label for website field
+ * @prop {string} webSitePlaceholderText - Placeholder for website field
+ *
+ * @usage
+ * // Modal form (default)
+ * <ContactForm buttonText="Contact Us" />
+ *
+ * // Inline form
+ * <ContactForm :inline="true" />
  */
 
 /// <reference types="../types/global" />
@@ -43,10 +65,12 @@ const props = withDefaults(
     messagePlaceholderText?: string
     webSiteLabel?: string
     webSitePlaceholderText?: string
+    inline?: boolean
   }>(),
   {
     buttonClass: "brand",
     formStyle: "display: block;",
+    inline: false,
   },
 )
 
@@ -70,9 +94,11 @@ const formErrorMessage = ref("")
 
 // Form data
 const formData = ref<SubmitForm>({
+  name: "",
   email: "",
   kind: "",
   message: "",
+  webSite: "",
 })
 
 const { name, namePlaceholder, webSite, webSitePlaceholder, email, emailPlaceholder, submit, sending, successTitle, successMessage } =
@@ -121,72 +147,155 @@ const closeModal = () => {
 </script>
 
 <template>
-  <div :style="props.formStyle">
-    <VPButton :text="buttonTextValue" :theme="props.buttonClass" href="javascript:void(0);" @click.prevent="showModal = true" />
+  <!-- Inline form mode -->
+  <div v-if="props.inline" :style="props.formStyle" class="inline-form-container">
+    <div v-if="formSuccessMessage" class="success-message">
+      <h3 class="success-title">{{ successTitle }}</h3>
+      <p class="success-text">{{ successMessage }}</p>
+    </div>
+
+    <form v-else @submit.prevent="handleSubmit" class="contact-form inline-form">
+      <div>
+        <label for="name">{{ name }}</label>
+        <input name="name" type="text" v-model="formData.name" :placeholder="namePlaceholder" required />
+      </div>
+
+      <div>
+        <label for="email">{{ email }}</label>
+        <input name="email" type="email" v-model="formData.email" :placeholder="emailPlaceholder" required />
+      </div>
+
+      <div>
+        <label for="webSite">{{ webSiteLabelValue }}</label>
+        <input name="webSite" type="url" v-model="formData.webSite" :placeholder="webSitePlaceholderValue" pattern="https?://.+" maxlength="100" />
+      </div>
+
+      <div>
+        <label for="category">{{ categoryLabelValue }}</label>
+        <select name="category" v-model="formData.kind" required>
+          <option value="" disabled>{{ categoryPlaceholderValue }}</option>
+          <option v-for="category in categoriesValue" :key="category" :value="category">
+            {{ category }}
+          </option>
+        </select>
+      </div>
+
+      <div>
+        <label for="message">{{ messageLabelValue }}</label>
+        <textarea name="message" v-model="formData.message" :placeholder="messagePlaceholderValue" required></textarea>
+      </div>
+
+      <p v-if="formErrorMessage" class="error">
+        {{ formErrorMessage }}
+      </p>
+
+      <div class="form-footer">
+        <button type="submit" class="submit-button" :disabled="isSubmitting">
+          {{ isSubmitting ? sending : submit }}
+        </button>
+      </div>
+    </form>
   </div>
 
-  <Teleport to="body">
-    <Transition name="modal">
-      <div v-show="showModal" class="modal-mask">
-        <div ref="modalContainerRef" class="modal-container">
-          <div class="modal-header">
-            <h3>{{ buttonTextValue }}</h3>
-            <button class="close-button" @click="closeModal">&times;</button>
+  <!-- Modal form mode (default) -->
+  <template v-else>
+    <div :style="props.formStyle">
+      <VPButton :text="buttonTextValue" :theme="props.buttonClass" href="javascript:void(0);" @click.prevent="showModal = true" />
+    </div>
+
+    <Teleport to="body">
+      <Transition name="modal">
+        <div v-show="showModal" class="modal-mask">
+          <div ref="modalContainerRef" class="modal-container">
+            <div class="modal-header">
+              <h3>{{ buttonTextValue }}</h3>
+              <button class="close-button" @click="closeModal">&times;</button>
+            </div>
+
+            <div v-if="formSuccessMessage" class="success-message">
+              <h3 class="success-title">{{ successTitle }}</h3>
+              <p class="success-text">{{ successMessage }}</p>
+            </div>
+
+            <form v-else @submit.prevent="handleSubmit" class="contact-form">
+              <div>
+                <label for="name">{{ name }}</label>
+                <input name="name" type="text" v-model="formData.name" :placeholder="namePlaceholder" required />
+              </div>
+
+              <div>
+                <label for="email">{{ email }}</label>
+                <input name="email" type="email" v-model="formData.email" :placeholder="emailPlaceholder" required />
+              </div>
+
+              <div>
+                <label for="webSite">{{ webSiteLabelValue }}</label>
+                <input name="webSite" type="url" v-model="formData.webSite" :placeholder="webSitePlaceholderValue" pattern="https?://.+" maxlength="100" />
+              </div>
+
+              <div>
+                <label for="category">{{ categoryLabelValue }}</label>
+                <select name="category" v-model="formData.kind" required>
+                  <option value="" disabled>{{ categoryPlaceholderValue }}</option>
+                  <option v-for="category in categoriesValue" :key="category" :value="category">
+                    {{ category }}
+                  </option>
+                </select>
+              </div>
+
+              <div>
+                <label for="message">{{ messageLabelValue }}</label>
+                <textarea name="message" v-model="formData.message" :placeholder="messagePlaceholderValue" required></textarea>
+              </div>
+
+              <p v-if="formErrorMessage" class="error">
+                {{ formErrorMessage }}
+              </p>
+
+              <div class="modal-footer">
+                <button type="submit" class="submit-button" :disabled="isSubmitting">
+                  {{ isSubmitting ? sending : submit }}
+                </button>
+              </div>
+            </form>
           </div>
-
-          <div v-if="formSuccessMessage" class="success-message">
-            <h3 class="success-title">{{ successTitle }}</h3>
-            <p class="success-text">{{ successMessage }}</p>
-          </div>
-
-          <form v-else @submit.prevent="handleSubmit" class="contact-form">
-            <div>
-              <label for="name">{{ name }}</label>
-              <input name="name" type="text" v-model="formData.name" :placeholder="namePlaceholder" required />
-            </div>
-
-            <div>
-              <label for="email">{{ email }}</label>
-              <input name="email" type="email" v-model="formData.email" :placeholder="emailPlaceholder" required />
-            </div>
-
-            <div>
-              <label for="webSite">{{ webSiteLabelValue }}</label>
-              <input name="webSite" type="url" v-model="formData.webSite" :placeholder="webSitePlaceholderValue" pattern="https?://.+" maxlength="100" />
-            </div>
-
-            <div>
-              <label for="category">{{ categoryLabelValue }}</label>
-              <select name="category" v-model="formData.kind" required>
-                <option value="" disabled>{{ categoryPlaceholderValue }}</option>
-                <option v-for="category in categoriesValue" :key="category" :value="category">
-                  {{ category }}
-                </option>
-              </select>
-            </div>
-
-            <div>
-              <label for="message">{{ messageLabelValue }}</label>
-              <textarea name="message" v-model="formData.message" :placeholder="messagePlaceholderValue" required></textarea>
-            </div>
-
-            <p v-if="formErrorMessage" class="error">
-              {{ formErrorMessage }}
-            </p>
-
-            <div class="modal-footer">
-              <button type="submit" class="submit-button" :disabled="isSubmitting">
-                {{ isSubmitting ? sending : submit }}
-              </button>
-            </div>
-          </form>
         </div>
-      </div>
-    </Transition>
-  </Teleport>
+      </Transition>
+    </Teleport>
+  </template>
 </template>
 
 <style scoped>
+/* Inline form styles */
+.inline-form-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.inline-form {
+  padding: 1.5rem;
+  background-color: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+/* Inline form specific styles */
+.inline-form input,
+.inline-form select,
+.inline-form textarea {
+  background: var(--vp-c-bg) !important;
+}
+
+/* Modal styles */
 .modal-mask {
   position: fixed;
   z-index: 200;
