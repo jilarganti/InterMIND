@@ -94,6 +94,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "What is InterMIND?", link: "overview/what-is-intermind" },
         { text: "How it Works", link: "overview/how-it-works" },
         { text: "Video Meeting Platform", link: "overview/video-meeting-platform" },
+        { text: "Translation vs Interpretation: What's the Difference?", link: "overview/translation-vs-interpretation-whats-the-difference" },
         { text: "Regional Data Privacy", link: "overview/privacy-architecture" },
         { text: "Priority Markets", link: "overview/markets" },
       ],
