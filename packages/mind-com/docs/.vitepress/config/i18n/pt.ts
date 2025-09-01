@@ -48,7 +48,7 @@ export const pt = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configurações de Privacidade</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Política de Privacidade</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Regulamentações Legais para Serviços de IA</a> | <a href="https://status.mind.com/">Status do serviço</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configurações de Privacidade</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Política de Privacidade</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">Regulamentações Legais para Serviços de IA</a> | <a href="https://status.mind.com/">Status do serviço</a>`,
     },
 
     localization: {
@@ -91,9 +91,10 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "VISÃO GERAL",
       collapsed: false,
       items: [
-        { text: "O que é InterMIND?", link: "overview/what-is-intermind" },
+        { text: "O que é o InterMIND?", link: "overview/what-is-intermind" },
         { text: "Como funciona", link: "overview/how-it-works" },
         { text: "Plataforma de videoconferência", link: "overview/video-meeting-platform" },
+        { text: "Tradução vs interpretação: qual é a diferença?", link: "overview/translation-vs-interpretation-whats-the-difference" },
         { text: "Privacidade de dados regional", link: "overview/privacy-architecture" },
         { text: "Mercados prioritários", link: "overview/markets" },
       ],
@@ -126,7 +127,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Obter suporte", link: "/help" },
         { text: "Política de privacidade", link: "/company/Privacy-Policy" },
-        { text: "Guia legal de IA", link: "/company/Legal-Regulations-for-AI-Services" },
+        { text: "Guia legal de IA", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
     // {
@@ -155,7 +156,7 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "Resumo executivo", link: "/InterMind-Executive-Summary" },
     { text: "Estratégia de entrada no mercado", link: "/go-to-market-strategy" },
     { text: "Apresentação para investidores", link: "/InterMind-Investor-Pitch" },
-    { text: "Justificativa das projeções financeiras (Anos 1–3)", link: "/Financial-Projections-Justification" },
+    { text: "Justificativa das projeções financeiras (anos 1–3)", link: "/Financial-Projections-Justification" },
   ]
 }
 

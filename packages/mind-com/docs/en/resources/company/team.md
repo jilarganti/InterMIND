@@ -91,7 +91,7 @@ Together, we blend creativity, code, and understanding to erase language barrier
 
 ## AI Team [^1]
 
-[^1]: AI team members are not human, but they are integral to our operations. They assist in various tasks, from coding to research, and help us break down language barriers. [Understand our AI framework and policies ...](./Legal-Regulations-for-AI-Services)
+[^1]: AI team members are not human, but they are integral to our operations. They assist in various tasks, from coding to research, and help us break down language barriers. [Understand our AI framework and policies ...](./legal-regulations-for-ai-services)
 
 <TeamMembersGrid :members="[
   {

@@ -91,7 +91,7 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
 
 ## KI-Team [^1]
 
-[^1]: KI-Teammitglieder sind nicht menschlich, aber sie sind integraler Bestandteil unserer Abläufe. Sie unterstützen bei verschiedenen Aufgaben, vom Programmieren bis zur Forschung, und helfen uns dabei, Sprachbarrieren zu überwinden. [Verstehen Sie unser KI-Framework und unsere Richtlinien ...](./Legal-Regulations-for-AI-Services)
+[^1]: KI-Teammitglieder sind nicht menschlich, aber sie sind integraler Bestandteil unserer Abläufe. Sie unterstützen bei verschiedenen Aufgaben, vom Programmieren bis zur Forschung, und helfen uns dabei, Sprachbarrieren zu überwinden. [Verstehen Sie unser KI-Framework und unsere Richtlinien ...](./legal-regulations-for-ai-services)
 
 <TeamMembersGrid :members="[
   {

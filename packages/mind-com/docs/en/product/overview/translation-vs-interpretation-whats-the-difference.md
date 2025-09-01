@@ -6,8 +6,8 @@ Understanding the difference between translation and interpretation isn't just a
 
 ## The Fundamental Difference: Written vs. Spoken
 
-<img src="/product/iStock-1006678326.jpg" alt="apiMind vs Google Meet" width="700" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/product/iStock-491618768.jpg" alt="apiMind vs Jitsi" width="700" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/product/iStock-1006678326.jpg" width="700" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/product/iStock-491618768.jpg"  width="700" align="right" style="padding: 1.5rem" class="light-only">
 
 At its core, the distinction is straightforward: **translation deals with written text**, while **interpretation handles spoken language**. Think of it this way: when you're reading a novel originally written in French but now available in English, that's translation. When you're watching a UN assembly where delegates speak different languages but everyone understands through real-time conversion, that's interpretation.
 
@@ -327,8 +327,8 @@ The digital revolution has transformed both translation and interpretation, thou
 
 ## When to Choose Translation vs. Interpretation: Hybrid Scenarios
 
-<img src="/product/iStock-2204770115.jpg" alt="apiMind vs Google Meet" width="700" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/product/iStock-965097108.jpg" alt="apiMind vs Jitsi" width="700" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/product/iStock-2204770115.jpg"  width="700" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/product/iStock-965097108.jpg" width="700" align="right" style="padding: 1.5rem" class="light-only">
 
 Making the right choice depends on your specific needs, and increasingly, many situations require both services working in tandem:
 

@@ -48,7 +48,7 @@ export const es = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de privacidad</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Política de privacidad</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Regulaciones legales para servicios de IA</a> | <a href="https://status.mind.com/">Estado del servicio</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configuración de privacidad</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Política de privacidad</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">Regulaciones legales para servicios de IA</a> | <a href="https://status.mind.com/">Estado del servicio</a>`,
     },
 
     localization: {
@@ -93,7 +93,8 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "¿Qué es InterMIND?", link: "overview/what-is-intermind" },
         { text: "Cómo funciona", link: "overview/how-it-works" },
-        { text: "Plataforma de videollamadas", link: "overview/video-meeting-platform" },
+        { text: "Plataforma de videorreuniones", link: "overview/video-meeting-platform" },
+        { text: "Traducción vs interpretación: ¿cuál es la diferencia?", link: "overview/translation-vs-interpretation-whats-the-difference" },
         { text: "Privacidad de datos regional", link: "overview/privacy-architecture" },
         { text: "Mercados prioritarios", link: "overview/markets" },
       ],
@@ -126,7 +127,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Obtener soporte", link: "/help" },
         { text: "Política de privacidad", link: "/company/Privacy-Policy" },
-        { text: "Guía legal de IA", link: "/company/Legal-Regulations-for-AI-Services" },
+        { text: "Guía legal de IA", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
     // {

@@ -48,7 +48,7 @@ export const ru = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Правовые нормы для ИИ-сервисов</a> | <a href="https://status.mind.com/">Статус сервиса</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">Правовые нормы для ИИ-сервисов</a> | <a href="https://status.mind.com/">Статус сервиса</a>`,
     },
 
     localization: {
@@ -79,7 +79,7 @@ export const ru = defineConfig({
       successMessage: "Мы получили ваше сообщение — наша команда свяжется с вами в ближайшее время.",
       defaultCategories: [],
 
-      defaultButtonText: "Отправить нам сообщение",
+      defaultButtonText: "Отправьте нам сообщение",
       // defaultButtonText: "Получить бесплатную консультацию",
     },
   },
@@ -94,6 +94,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Что такое InterMIND?", link: "overview/what-is-intermind" },
         { text: "Как это работает", link: "overview/how-it-works" },
         { text: "Платформа видеовстреч", link: "overview/video-meeting-platform" },
+        { text: "Перевод против интерпретации: в чем разница?", link: "overview/translation-vs-interpretation-whats-the-difference" },
         { text: "Региональная конфиденциальность данных", link: "overview/privacy-architecture" },
         { text: "Приоритетные рынки", link: "overview/markets" },
       ],
@@ -126,7 +127,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Получить поддержку", link: "/help" },
         { text: "Политика конфиденциальности", link: "/company/Privacy-Policy" },
-        { text: "Правовое руководство по ИИ", link: "/company/Legal-Regulations-for-AI-Services" },
+        { text: "Правовое руководство по ИИ", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
     // {
@@ -152,7 +153,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 
 function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Краткое резюме", link: "/InterMind-Executive-Summary" },
+    { text: "Краткое изложение для руководства", link: "/InterMind-Executive-Summary" },
     { text: "Стратегия выхода на рынок", link: "/go-to-market-strategy" },
     { text: "Презентация для инвесторов", link: "/InterMind-Investor-Pitch" },
     { text: "Обоснование финансовых прогнозов (1-3 год)", link: "/Financial-Projections-Justification" },

@@ -5,16 +5,14 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/tr"
 
 export const tr = defineConfig({
-  description:
-    "19+ dilde eşzamanlı çeviri ile profesyonel video konferans. Küresel ekipler için ton, niyet ve bağlamı yakalayan AI destekli çeviri.",
+  description: "19+ dilde eşzamanlı çeviri ile profesyonel video konferans. Küresel ekipler için ton, niyet ve bağlamı yakalayan AI destekli çeviri.",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | Küresel Ekipler için Gerçek Zamanlı Konuşma Çevirisi" }],
     [
       "meta",
       {
         property: "og:description",
-        content:
-          "19+ dilde eşzamanlı sesli çeviri ile profesyonel video konferans. Küresel olarak buluşun, AI destekli çeviri ile doğal iletişim kurun.",
+        content: "19+ dilde eşzamanlı sesli çeviri ile profesyonel video konferans. Küresel olarak buluşun, AI destekli çeviri ile doğal iletişim kurun.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -48,7 +46,7 @@ export const tr = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Gizlilik Ayarları</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Gizlilik Politikası</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AI Hizmetleri için Yasal Düzenlemeler</a> | <a href="https://status.mind.com/">Hizmet durumu</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Gizlilik Ayarları</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Gizlilik Politikası</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">AI Hizmetleri için Yasal Düzenlemeler</a> | <a href="https://status.mind.com/">Hizmet durumu</a>`,
     },
 
     localization: {
@@ -94,6 +92,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "InterMIND nedir?", link: "overview/what-is-intermind" },
         { text: "Nasıl çalışır", link: "overview/how-it-works" },
         { text: "Video toplantı platformu", link: "overview/video-meeting-platform" },
+        { text: "Çeviri ve tercümanlık: Fark nedir?", link: "overview/translation-vs-interpretation-whats-the-difference" },
         { text: "Bölgesel veri gizliliği", link: "overview/privacy-architecture" },
         { text: "Öncelikli pazarlar", link: "overview/markets" },
       ],
@@ -126,7 +125,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Destek al", link: "/help" },
         { text: "Gizlilik politikası", link: "/company/Privacy-Policy" },
-        { text: "AI yasal kılavuzu", link: "/company/Legal-Regulations-for-AI-Services" },
+        { text: "AI yasal kılavuzu", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
     // {
@@ -181,7 +180,7 @@ function sidebarAccount(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Profil", link: "/settings/profile" },
         { text: "Ayarlar", link: "/settings/settings" },
-        { text: "Yükseltme", link: "/settings/upgrade" },
+        { text: "Ayarlar", link: "/settings/upgrade" },
       ],
     },
   ]

@@ -5,16 +5,14 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
-  description:
-    "专业视频会议，支持19+种语言的同声传译。AI驱动的翻译技术，准确捕捉语调、意图和语境，为全球团队提供服务。",
+  description: "专业视频会议，支持19+种语言的同声传译。AI驱动的翻译技术，准确捕捉语调、意图和语境，助力全球团队沟通。",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | 全球团队实时语音翻译" }],
     [
       "meta",
       {
         property: "og:description",
-        content:
-          "专业视频会议，支持19+种语言的同声语音传译。全球会议，自然沟通，AI驱动的翻译技术。",
+        content: "专业视频会议，支持19+种语言的同声语音传译。全球会议，自然沟通，AI驱动的翻译技术。",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -48,7 +46,7 @@ export const zh = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AI服务法律法规</a> | <a href="https://status.mind.com/">服务状态</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">AI服务法律法规</a> | <a href="https://status.mind.com/">服务状态</a>`,
     },
 
     localization: {
@@ -79,7 +77,7 @@ export const zh = defineConfig({
       successMessage: "我们已收到您的消息——我们的团队将很快与您联系。",
       defaultCategories: [],
 
-      defaultButtonText: "给我们发消息",
+      defaultButtonText: "发送消息",
       // defaultButtonText: "获取免费咨询",
     },
   },
@@ -94,6 +92,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "什么是InterMIND？", link: "overview/what-is-intermind" },
         { text: "工作原理", link: "overview/how-it-works" },
         { text: "视频会议平台", link: "overview/video-meeting-platform" },
+        { text: "翻译与传译：有什么区别？", link: "overview/translation-vs-interpretation-whats-the-difference" },
         { text: "区域数据隐私", link: "overview/privacy-architecture" },
         { text: "重点市场", link: "overview/markets" },
       ],
@@ -126,7 +125,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "获取支持", link: "/help" },
         { text: "隐私政策", link: "/company/Privacy-Policy" },
-        { text: "AI法律指南", link: "/company/Legal-Regulations-for-AI-Services" },
+        { text: "AI法律指南", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
     // {

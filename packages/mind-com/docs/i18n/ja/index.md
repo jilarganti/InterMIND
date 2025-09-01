@@ -152,11 +152,11 @@ isHome: true
 - **音声入力**（あなたが話すこと）
 - **翻訳出力**（あなたが聞くこと）
 
-| 参加者   | 選択した言語 | 話す言語 | 聞く言語 |
-| -------- | ------------ | -------- | -------- |
-| ホスト   | スペイン語   | スペイン語 | スペイン語 |
-| 参加者1  | 英語         | 英語     | 英語     |
-| 参加者2  | 中国語       | 中国語   | 中国語   |
+| 参加者  | 選択した言語 | 話す言語   | 聞く言語   |
+| ------- | ------------ | ---------- | ---------- |
+| ホスト  | スペイン語   | スペイン語 | スペイン語 |
+| 参加者1 | 英語         | 英語       | 英語       |
+| 参加者2 | 中国語       | 中国語     | 中国語     |
 
 [プラットフォームはすべての音声をリアルタイムで自動的に解釈します](./product/overview/how-it-works) — そのため、全員が同じ言語を話しているかのようにコミュニケーションを取ることができます。
 
@@ -304,7 +304,7 @@ isHome: true
           { text: 'サポートを受ける', link: './resources/help' },
           { text: 'よくある質問', link: '#FAQ' },
           { text: 'プライバシーポリシー', link: './resources/company/Privacy-Policy' },
-          { text: 'AI法的ガイド', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'AI法的ガイド', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'サービス状況', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },
         ],

@@ -91,7 +91,7 @@
 
 ## AI 团队 [^1]
 
-[^1]: AI 团队成员不是人类，但他们是我们运营不可或缺的一部分。他们协助完成各种任务，从编程到研究，并帮助我们打破语言障碍。[了解我们的 AI 框架和政策...](./Legal-Regulations-for-AI-Services)
+[^1]: AI 团队成员不是人类，但他们是我们运营不可或缺的一部分。他们协助完成各种任务，从编程到研究，并帮助我们打破语言障碍。[了解我们的 AI 框架和政策...](./legal-regulations-for-ai-services)
 
 <TeamMembersGrid :members="[
   {

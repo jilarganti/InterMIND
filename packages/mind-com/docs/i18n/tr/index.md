@@ -152,11 +152,11 @@ Bu tek dil ayarı şunları kapsar:
 - **Konuşma girişi** (söyledikleriniz)
 - **Çevrilmiş çıktı** (duyduklarınız)
 
-| Katılımcı     | Seçilen Dil | Konuştuğu Dil | Duyduğu Dil |
-| ------------- | ----------- | ------------- | ----------- |
-| Ev sahibi     | İspanyolca  | İspanyolca    | İspanyolca  |
-| Katılımcı 1   | İngilizce   | İngilizce     | İngilizce   |
-| Katılımcı 2   | Çince       | Çince         | Çince       |
+| Katılımcı   | Seçilen Dil | Konuştuğu Dil | Duyduğu Dil |
+| ----------- | ----------- | ------------- | ----------- |
+| Ev sahibi   | İspanyolca  | İspanyolca    | İspanyolca  |
+| Katılımcı 1 | İngilizce   | İngilizce     | İngilizce   |
+| Katılımcı 2 | Çince       | Çince         | Çince       |
 
 [Platform tüm konuşmaları gerçek zamanlı olarak otomatik olarak yorumlar](./product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
 
@@ -304,7 +304,7 @@ Bunu değiştirmek şu anlama gelir:
           { text: 'Destek Al', link: './resources/help' },
           { text: 'SSS', link: '#FAQ' },
           { text: 'Gizlilik Politikası', link: './resources/company/Privacy-Policy' },
-          { text: 'AI Hukuki Rehberi', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'AI Hukuki Rehberi', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Servis Durumu', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },
         ],

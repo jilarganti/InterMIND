@@ -152,11 +152,11 @@ isHome: true
 - **语音输入**（您说的话）
 - **翻译输出**（您听到的内容）
 
-| 参与者   | 选择的语言 | 说话语言 | 听取语言 |
-| -------- | ---------- | -------- | -------- |
-| 主持人   | 西班牙语   | 西班牙语 | 西班牙语 |
-| 参与者1  | 英语       | 英语     | 英语     |
-| 参与者2  | 中文       | 中文     | 中文     |
+| 参与者  | 选择的语言 | 说话语言 | 听取语言 |
+| ------- | ---------- | -------- | -------- |
+| 主持人  | 西班牙语   | 西班牙语 | 西班牙语 |
+| 参与者1 | 英语       | 英语     | 英语     |
+| 参与者2 | 中文       | 中文     | 中文     |
 
 [平台自动实时解释所有语音](./product/overview/how-it-works) — 因此每个人都能像说同一种语言一样进行交流。
 
@@ -304,7 +304,7 @@ isHome: true
           { text: '获取支持', link: './resources/help' },
           { text: '常见问题', link: '#FAQ' },
           { text: '隐私政策', link: './resources/company/Privacy-Policy' },
-          { text: 'AI法律指南', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'AI法律指南', link: './resources/company/legal-regulations-for-ai-services' },
           { text: '服务状态', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },
         ],

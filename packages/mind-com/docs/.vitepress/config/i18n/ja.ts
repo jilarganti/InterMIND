@@ -5,16 +5,14 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
-  description:
-    "19以上の言語での同時通訳機能を備えたプロフェッショナルなビデオ会議。グローバルチーム向けに、トーン、意図、文脈を捉えるAI搭載翻訳。",
+  description: "19以上の言語での同時通訳機能を備えたプロフェッショナルなビデオ会議。グローバルチーム向けに、トーン、意図、文脈を捉えるAI搭載翻訳。",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | グローバルチーム向けリアルタイム音声翻訳" }],
     [
       "meta",
       {
         property: "og:description",
-        content:
-          "19以上の言語での同時音声通訳機能を備えたプロフェッショナルなビデオ会議。AI搭載翻訳でグローバルに会議し、自然にコミュニケーション。",
+        content: "19以上の言語での同時音声通訳機能を備えたプロフェッショナルなビデオ会議。AI搭載翻訳でグローバルに会議し、自然にコミュニケーション。",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -48,7 +46,7 @@ export const ja = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">プライバシー設定</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">プライバシーポリシー</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AIサービスの法的規制</a> | <a href="https://status.mind.com/">サービス状況</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">プライバシー設定</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">プライバシーポリシー</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">AIサービスの法的規制</a> | <a href="https://status.mind.com/">サービス状況</a>`,
     },
 
     localization: {
@@ -94,6 +92,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "InterMINDとは？", link: "overview/what-is-intermind" },
         { text: "仕組み", link: "overview/how-it-works" },
         { text: "ビデオ会議プラットフォーム", link: "overview/video-meeting-platform" },
+        { text: "翻訳と通訳：違いは何ですか？", link: "overview/translation-vs-interpretation-whats-the-difference" },
         { text: "地域データプライバシー", link: "overview/privacy-architecture" },
         { text: "優先市場", link: "overview/markets" },
       ],
@@ -126,7 +125,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "サポートを受ける", link: "/help" },
         { text: "プライバシーポリシー", link: "/company/Privacy-Policy" },
-        { text: "AI法的ガイド", link: "/company/Legal-Regulations-for-AI-Services" },
+        { text: "AI法的ガイド", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
     // {
@@ -155,7 +154,7 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "エグゼクティブサマリー", link: "/InterMind-Executive-Summary" },
     { text: "市場参入戦略", link: "/go-to-market-strategy" },
     { text: "投資家向けピッチ", link: "/InterMind-Investor-Pitch" },
-    { text: "財務予測の根拠（1-3年目）", link: "/Financial-Projections-Justification" },
+    { text: "財務予測の根拠（1〜3年目）", link: "/Financial-Projections-Justification" },
   ]
 }
 

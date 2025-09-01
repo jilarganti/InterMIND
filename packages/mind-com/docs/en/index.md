@@ -304,7 +304,7 @@ From first call to fluent conversations — at any scale.
           { text: 'Get Support', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
           { text: 'Privacy Policy', link: './resources/company/Privacy-Policy' },
-          { text: 'AI Legal Guide', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'AI Legal Guide', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Service Status', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },
         ],

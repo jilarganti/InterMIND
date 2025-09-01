@@ -91,7 +91,7 @@ Ensemble, nous mélangeons créativité, code et compréhension pour effacer dé
 
 ## Équipe IA [^1]
 
-[^1]: Les membres de l'équipe IA ne sont pas humains, mais ils sont essentiels à nos opérations. Ils assistent dans diverses tâches, du codage à la recherche, et nous aident à surmonter les barrières linguistiques. [Comprendre notre cadre et nos politiques IA ...](./Legal-Regulations-for-AI-Services)
+[^1]: Les membres de l'équipe IA ne sont pas humains, mais ils sont essentiels à nos opérations. Ils assistent dans diverses tâches, du codage à la recherche, et nous aident à surmonter les barrières linguistiques. [Comprendre notre cadre et nos politiques IA ...](./legal-regulations-for-ai-services)
 
 <TeamMembersGrid :members="[
   {

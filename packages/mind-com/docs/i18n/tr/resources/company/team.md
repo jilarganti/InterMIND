@@ -91,7 +91,7 @@ Birlikte, dil engellerini tamamen ortadan kaldırmak için yaratıcılığı, ko
 
 ## AI Ekibi [^1]
 
-[^1]: AI ekip üyeleri insan değildir, ancak operasyonlarımızın ayrılmaz bir parçasıdır. Kodlamadan araştırmaya kadar çeşitli görevlerde yardımcı olur ve dil engellerini aşmamıza yardımcı olurlar. [AI çerçevemizi ve politikalarımızı anlayın ...](./Legal-Regulations-for-AI-Services)
+[^1]: AI ekip üyeleri insan değildir, ancak operasyonlarımızın ayrılmaz bir parçasıdır. Kodlamadan araştırmaya kadar çeşitli görevlerde yardımcı olur ve dil engellerini aşmamıza yardımcı olurlar. [AI çerçevemizi ve politikalarımızı anlayın ...](./legal-regulations-for-ai-services)
 
 <TeamMembersGrid :members="[
   {

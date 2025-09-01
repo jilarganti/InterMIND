@@ -1,5 +1,5 @@
 ---
-description: "Vous souhaitez vous associer avec InterMind, investir ou contacter notre équipe dirigeante ? Utilisez ce formulaire pour les demandes commerciales, médias ou juridiques."
+description: "Vous souhaitez vous associer avec InterMind, investir ou contacter notre équipe dirigeante ? Utilisez ce formulaire pour les demandes commerciales, médiatiques ou juridiques."
 ---
 
 # 🤝 Vous souhaitez contacter InterMind ? Connectons-nous.
@@ -12,11 +12,12 @@ Nous nous assurerons que votre message parvienne à la bonne personne.
 <br>
 
 <ContactForm
-  formStyle="margin: 1rem auto;"  
-  categoryLabel="Quelle est la raison de votre contact ? *"  
-  categoryPlaceholderText="Choisissez votre sujet..."  
-  messageLabel="Message *"  
-  messagePlaceholderText="Partagez tout contexte pertinent, délais ou informations que vous souhaitez que nous considérions."  
+  :inline="true"
+  formStyle="margin: 1rem auto;"
+  categoryLabel="Quelle est la raison de votre contact ? *"
+  categoryPlaceholderText="Choisissez votre sujet..."
+  messageLabel="Message *"
+  messagePlaceholderText="Partagez tout contexte pertinent, délais ou informations que vous aimeriez que nous considérions."
   buttonText="Envoyer votre message"  
   :services="[
     'Opportunité de partenariat stratégique',
@@ -33,4 +34,4 @@ Nous nous assurerons que votre message parvienne à la bonne personne.
 <br>
 
 > **Besoin d'aide liée au produit ?**  
-> _Visitez notre [Support Page](../help) pour des réponses rapides et l'assistance de l'équipe InterMind._
+> _Visitez notre [page d'assistance](../help) pour des réponses rapides et l'aide de l'équipe InterMind._

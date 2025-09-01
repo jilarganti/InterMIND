@@ -48,7 +48,7 @@ export const fr = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Réglementations légales pour les services IA</a> | <a href="https://status.mind.com/">Statut du service</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">Réglementations légales pour les services IA</a> | <a href="https://status.mind.com/">Statut du service</a>`,
     },
 
     localization: {
@@ -94,6 +94,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Qu'est-ce qu'InterMIND ?", link: "overview/what-is-intermind" },
         { text: "Comment ça fonctionne", link: "overview/how-it-works" },
         { text: "Plateforme de visioconférence", link: "overview/video-meeting-platform" },
+        { text: "Traduction vs interprétation : quelle est la différence ?", link: "overview/translation-vs-interpretation-whats-the-difference" },
         { text: "Confidentialité des données régionales", link: "overview/privacy-architecture" },
         { text: "Marchés prioritaires", link: "overview/markets" },
       ],
@@ -104,7 +105,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Premiers pas", link: "guide/getting-started" },
         { text: "Gestion de compte", link: "guide/account-management" },
-        { text: "Création de réunions", link: "guide/creating-meetings" },
+        { text: "Créer des réunions", link: "guide/creating-meetings" },
         { text: "Interface de réunion", link: "guide/meeting-interface" },
         { text: "Rôles utilisateur", link: "guide/user-roles" },
         { text: "Fonctionnalités IA", link: "guide/ai-features" },
@@ -126,7 +127,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Obtenir de l'aide", link: "/help" },
         { text: "Politique de confidentialité", link: "/company/Privacy-Policy" },
-        { text: "Guide juridique IA", link: "/company/Legal-Regulations-for-AI-Services" },
+        { text: "Guide juridique IA", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
     // {

@@ -14,7 +14,7 @@ export const de = defineConfig({
       {
         property: "og:description",
         content:
-          "Professionelle Videokonferenzen mit simultaner Sprachdolmetschung in über 19 Sprachen. Global treffen, natürlich kommunizieren mit KI-gestützter Übersetzung.",
+          "Professionelle Videokonferenzen mit simultaner Sprachdolmetschung in über 19 Sprachen. Treffen Sie sich global, kommunizieren Sie natürlich mit KI-gestützter Übersetzung.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -48,7 +48,7 @@ export const de = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Datenschutz-Einstellungen</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Datenschutzrichtlinie</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">Rechtliche Bestimmungen für KI-Dienste</a> | <a href="https://status.mind.com/">Service-Status</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Datenschutz-Einstellungen</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Datenschutzrichtlinie</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">Rechtliche Bestimmungen für KI-Dienste</a> | <a href="https://status.mind.com/">Service-Status</a>`,
     },
 
     localization: {
@@ -94,6 +94,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Was ist InterMIND?", link: "overview/what-is-intermind" },
         { text: "Wie es funktioniert", link: "overview/how-it-works" },
         { text: "Video-Meeting-Plattform", link: "overview/video-meeting-platform" },
+        { text: "Übersetzung vs. Dolmetschen: Was ist der Unterschied?", link: "overview/translation-vs-interpretation-whats-the-difference" },
         { text: "Regionaler Datenschutz", link: "overview/privacy-architecture" },
         { text: "Prioritätsmärkte", link: "overview/markets" },
       ],
@@ -126,7 +127,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Support erhalten", link: "/help" },
         { text: "Datenschutzrichtlinie", link: "/company/Privacy-Policy" },
-        { text: "KI-Rechtsleitfaden", link: "/company/Legal-Regulations-for-AI-Services" },
+        { text: "KI-Rechtsleitfaden", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
     // {
@@ -154,7 +155,7 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Zusammenfassung für Führungskräfte", link: "/InterMind-Executive-Summary" },
     { text: "Go-to-Market-Strategie", link: "/go-to-market-strategy" },
-    { text: "Investor Pitch", link: "/InterMind-Investor-Pitch" },
+    { text: "Investor-Pitch", link: "/InterMind-Investor-Pitch" },
     { text: "Begründung der Finanzprognosen (Jahr 1–3)", link: "/Financial-Projections-Justification" },
   ]
 }

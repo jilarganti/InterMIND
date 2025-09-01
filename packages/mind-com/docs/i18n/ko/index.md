@@ -152,11 +152,11 @@ isHome: true
 - **음성 입력** (당신이 말하는 것)
 - **번역된 출력** (당신이 듣는 것)
 
-| 참가자    | 선택한 언어 | 말하는 언어 | 듣는 언어 |
-| --------- | ----------- | ----------- | --------- |
-| 호스트    | 스페인어    | 스페인어    | 스페인어  |
-| 참가자 1  | 영어        | 영어        | 영어      |
-| 참가자 2  | 중국어      | 중국어      | 중국어    |
+| 참가자   | 선택한 언어 | 말하는 언어 | 듣는 언어 |
+| -------- | ----------- | ----------- | --------- |
+| 호스트   | 스페인어    | 스페인어    | 스페인어  |
+| 참가자 1 | 영어        | 영어        | 영어      |
+| 참가자 2 | 중국어      | 중국어      | 중국어    |
 
 [플랫폼은 모든 음성을 실시간으로 자동 해석합니다](./product/overview/how-it-works) — 따라서 모든 사람이 같은 언어를 사용하는 것처럼 소통할 수 있습니다.
 
@@ -304,7 +304,7 @@ isHome: true
           { text: '지원 받기', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
           { text: '개인정보 처리방침', link: './resources/company/Privacy-Policy' },
-          { text: 'AI 법적 가이드', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'AI 법적 가이드', link: './resources/company/legal-regulations-for-ai-services' },
           { text: '서비스 상태', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },
         ],

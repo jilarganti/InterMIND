@@ -152,11 +152,11 @@ Esta configuração única de idioma se aplica a:
 - A **entrada falada** (o que você fala)
 - A **saída traduzida** (o que você ouve)
 
-| Participante   | Idioma Selecionado | Fala Em   | Ouve Em   |
-| -------------- | ------------------ | --------- | --------- |
-| Anfitrião      | Espanhol           | Espanhol  | Espanhol  |
-| Participante 1 | Inglês             | Inglês    | Inglês    |
-| Participante 2 | Chinês             | Chinês    | Chinês    |
+| Participante   | Idioma Selecionado | Fala Em  | Ouve Em  |
+| -------------- | ------------------ | -------- | -------- |
+| Anfitrião      | Espanhol           | Espanhol | Espanhol |
+| Participante 1 | Inglês             | Inglês   | Inglês   |
+| Participante 2 | Chinês             | Chinês   | Chinês   |
 
 [A plataforma interpreta automaticamente toda a fala em tempo real](./product/overview/how-it-works) — então todos se comunicam como se falassem o mesmo idioma.
 
@@ -304,7 +304,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
           { text: 'Obter suporte', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
           { text: 'Política de privacidade', link: './resources/company/Privacy-Policy' },
-          { text: 'Guia legal de IA', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'Guia legal de IA', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Status do serviço', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },
         ],

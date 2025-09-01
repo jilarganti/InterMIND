@@ -12,11 +12,12 @@ description: "هل تريد الشراكة مع InterMind أو الاستثما�
 <br>
 
 <ContactForm
-  formStyle="margin: 1rem auto;"  
-  categoryLabel="ما هو سبب تواصلك معنا؟ *"  
-  categoryPlaceholderText="اختر موضوعك..."  
-  messageLabel="الرسالة *"  
-  messagePlaceholderText="شارك أي خلفية ذات صلة أو جداول زمنية أو سياق تريد منا أخذه في الاعتبار."  
+  :inline="true"
+  formStyle="margin: 1rem auto;"
+  categoryLabel="ما هو سبب تواصلك معنا؟ *"
+  categoryPlaceholderText="اختر موضوعك..."
+  messageLabel="الرسالة *"
+  messagePlaceholderText="شارك أي خلفية ذات صلة أو جداول زمنية أو سياق تود منا أخذه في الاعتبار."
   buttonText="إرسال رسالتك"  
   :services="[
     'فرصة شراكة استراتيجية',

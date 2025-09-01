@@ -5,16 +5,14 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description:
-    "مؤتمرات فيديو احترافية مع ترجمة فورية بأكثر من 19 لغة. ترجمة مدعومة بالذكاء الاصطناعي تلتقط النبرة والقصد والسياق للفرق العالمية.",
+  description: "مؤتمرات فيديو احترافية مع ترجمة فورية بأكثر من 19 لغة. ترجمة مدعومة بالذكاء الاصطناعي تلتقط النبرة والقصد والسياق للفرق العالمية.",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | ترجمة الكلام الفورية للفرق العالمية" }],
     [
       "meta",
       {
         property: "og:description",
-        content:
-          "مؤتمرات فيديو احترافية مع ترجمة صوتية فورية بأكثر من 19 لغة. اجتمع عالمياً، تواصل بطبيعية مع الترجمة المدعومة بالذكاء الاصطناعي.",
+        content: "مؤتمرات فيديو احترافية مع ترجمة صوتية فورية بأكثر من 19 لغة. اجتمع عالمياً، تواصل بطبيعية مع الترجمة المدعومة بالذكاء الاصطناعي.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -48,7 +46,7 @@ export const ar = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">إعدادات الخصوصية</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">سياسة الخصوصية</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">اللوائح القانونية لخدمات الذكاء الاصطناعي</a> | <a href="https://status.mind.com/">حالة الخدمة</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">إعدادات الخصوصية</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">سياسة الخصوصية</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">اللوائح القانونية لخدمات الذكاء الاصطناعي</a> | <a href="https://status.mind.com/">حالة الخدمة</a>`,
     },
 
     localization: {
@@ -94,6 +92,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "ما هو InterMIND؟", link: "overview/what-is-intermind" },
         { text: "كيف يعمل", link: "overview/how-it-works" },
         { text: "منصة اجتماعات الفيديو", link: "overview/video-meeting-platform" },
+        { text: "الترجمة مقابل التفسير: ما الفرق؟", link: "overview/translation-vs-interpretation-whats-the-difference" },
         { text: "خصوصية البيانات الإقليمية", link: "overview/privacy-architecture" },
         { text: "الأسواق ذات الأولوية", link: "overview/markets" },
       ],
@@ -126,7 +125,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "الحصول على الدعم", link: "/help" },
         { text: "سياسة الخصوصية", link: "/company/Privacy-Policy" },
-        { text: "الدليل القانوني للذكاء الاصطناعي", link: "/company/Legal-Regulations-for-AI-Services" },
+        { text: "دليل القوانين للذكاء الاصطناعي", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
     // {

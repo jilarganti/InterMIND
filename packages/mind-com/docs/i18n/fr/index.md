@@ -152,11 +152,11 @@ Ce paramètre de langue unique s'applique à :
 - L'**entrée vocale** (ce que vous dites)
 - La **sortie traduite** (ce que vous entendez)
 
-| Participant   | Langue sélectionnée | Parle en  | Entend en |
-| ------------- | ------------------- | --------- | --------- |
-| Hôte          | Espagnol            | Espagnol  | Espagnol  |
-| Participant 1 | Anglais             | Anglais   | Anglais   |
-| Participant 2 | Chinois             | Chinois   | Chinois   |
+| Participant   | Langue sélectionnée | Parle en | Entend en |
+| ------------- | ------------------- | -------- | --------- |
+| Hôte          | Espagnol            | Espagnol | Espagnol  |
+| Participant 1 | Anglais             | Anglais  | Anglais   |
+| Participant 2 | Chinois             | Chinois  | Chinois   |
 
 [La plateforme interprète automatiquement tous les discours en temps réel](./product/overview/how-it-works) — ainsi tout le monde communique comme s'il parlait la même langue.
 
@@ -304,7 +304,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
           { text: 'Obtenir de l\'aide', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
           { text: 'Politique de confidentialité', link: './resources/company/Privacy-Policy' },
-          { text: 'Guide juridique IA', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'Guide juridique IA', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'État du service', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },
         ],

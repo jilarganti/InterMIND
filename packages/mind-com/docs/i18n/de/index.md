@@ -152,11 +152,11 @@ Diese einzige Spracheinstellung gilt für:
 - Die **gesprochene Eingabe** (was Sie sagen)
 - Die **übersetzte Ausgabe** (was Sie hören)
 
-| Teilnehmer    | Gewählte Sprache | Spricht in | Hört in  |
-| ------------- | ---------------- | ---------- | -------- |
-| Gastgeber     | Spanisch         | Spanisch   | Spanisch |
-| Teilnehmer 1  | Englisch         | Englisch   | Englisch |
-| Teilnehmer 2  | Chinesisch       | Chinesisch | Chinesisch |
+| Teilnehmer   | Gewählte Sprache | Spricht in | Hört in    |
+| ------------ | ---------------- | ---------- | ---------- |
+| Gastgeber    | Spanisch         | Spanisch   | Spanisch   |
+| Teilnehmer 1 | Englisch         | Englisch   | Englisch   |
+| Teilnehmer 2 | Chinesisch       | Chinesisch | Chinesisch |
 
 [Die Plattform interpretiert automatisch alle Sprache in Echtzeit](./product/overview/how-it-works) — so kommuniziert jeder, als würde er dieselbe Sprache sprechen.
 
@@ -304,7 +304,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
           { text: 'Support erhalten', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
           { text: 'Datenschutzrichtlinie', link: './resources/company/Privacy-Policy' },
-          { text: 'KI-Rechtsleitfaden', link: './resources/company/Legal-Regulations-for-AI-Services' },
+          { text: 'KI-Rechtsleitfaden', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Service-Status', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },
         ],

@@ -5,16 +5,14 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ko"
 
 export const ko = defineConfig({
-  description:
-    "19개 이상의 언어로 동시 통역을 제공하는 전문 화상 회의. 글로벌 팀을 위해 톤, 의도, 맥락을 파악하는 AI 기반 번역.",
+  description: "19개 이상의 언어로 동시 통역을 제공하는 전문 화상 회의. 글로벌 팀을 위한 톤, 의도, 맥락을 파악하는 AI 기반 번역.",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | 글로벌 팀을 위한 실시간 음성 번역" }],
     [
       "meta",
       {
         property: "og:description",
-        content:
-          "19개 이상의 언어로 동시 음성 통역을 제공하는 전문 화상 회의. AI 기반 번역으로 전 세계적으로 만나고 자연스럽게 소통하세요.",
+        content: "19개 이상의 언어로 동시 음성 통역을 제공하는 전문 화상 회의. AI 기반 번역으로 전 세계적으로 만나고 자연스럽게 소통하세요.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -48,7 +46,7 @@ export const ko = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">개인정보 설정</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">개인정보 처리방침</a> | <a href="${BASE_PATH}/resources/company/Legal-Regulations-for-AI-Services">AI 서비스 법적 규정</a> | <a href="https://status.mind.com/">서비스 상태</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">개인정보 설정</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">개인정보 처리방침</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">AI 서비스 법적 규정</a> | <a href="https://status.mind.com/">서비스 상태</a>`,
     },
 
     localization: {
@@ -91,9 +89,10 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "개요",
       collapsed: false,
       items: [
-        { text: "InterMIND란?", link: "overview/what-is-intermind" },
+        { text: "InterMIND란 무엇인가요?", link: "overview/what-is-intermind" },
         { text: "작동 방식", link: "overview/how-it-works" },
         { text: "화상 회의 플랫폼", link: "overview/video-meeting-platform" },
+        { text: "번역 vs 통역: 차이점은 무엇인가요?", link: "overview/translation-vs-interpretation-whats-the-difference" },
         { text: "지역별 데이터 개인정보 보호", link: "overview/privacy-architecture" },
         { text: "우선 시장", link: "overview/markets" },
       ],
@@ -126,7 +125,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "지원 받기", link: "/help" },
         { text: "개인정보 처리방침", link: "/company/Privacy-Policy" },
-        { text: "AI 법적 가이드", link: "/company/Legal-Regulations-for-AI-Services" },
+        { text: "AI 법적 가이드", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
     // {
