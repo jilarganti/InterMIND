@@ -11,7 +11,7 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 <img src="/blog/iStock-681469612.jpg" alt="VAE-Dirham" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-Die mind.com-Website stellt ein herausragendes Beispiel moderner Architektur für Marketing-Websites dar und kombiniert JAMstack-Entwicklungs-Best-Practices mit modernsten KI-Technologien. In dieser technischen Analyse werden wir die architektonischen Entscheidungen, die diesem Projekt zugrunde liegen, detailliert untersuchen. Das Projekt ist Teil des InterMIND-Monorepos, funktioniert aber als unabhängige statische Plattform mit dynamischen Fähigkeiten.
+Die [mind.com](https://mind.com) Website stellt ein herausragendes Beispiel moderner Architektur für Marketing-Websites dar und kombiniert JAMstack-Entwicklungs-Best-Practices mit modernsten KI-Technologien. In dieser technischen Analyse werden wir die architektonischen Entscheidungen, die diesem Projekt zugrunde liegen, detailliert untersuchen. Das Projekt ist Teil des InterMIND-Monorepos, funktioniert aber als unabhängige statische Plattform mit dynamischen Fähigkeiten.
 
 > **Wichtige architektonische Innovationen** umfassen mehrere technische Lösungen, die das Projekt von typischen Marketing-Websites unterscheiden.
 
@@ -119,11 +119,11 @@ Das **Übersetzungsskript** stellt eine **wichtige technologische Innovation** d
 
 Die Pipedrive CRM-Integration zeigt, wie moderne Marketing-Websites Leads effektiv innerhalb einer serverlosen Architektur verwalten.
 
-### Automatisierung der Lead-Verwaltung
+### Lead-Management-Automatisierung
 
-**Ereignisgesteuerte Architektur** nutzt S3/EventBridge-Trigger für die Lead-Verarbeitung, serverlose Funktionen für die Normalisierung von Lead-Daten und Synchronisation zwischen Pipedrive und Marketing-Automatisierungsplattformen.
+**Ereignisgesteuerte Architektur** verwendet S3/EventBridge-Trigger für die Lead-Verarbeitung, serverlose Funktionen für die Lead-Datennormalisierung und Synchronisation zwischen Pipedrive und Marketing-Automatisierungsplattformen.
 
-**Analytics-Pipeline** wird durch Step Functions für die Orchestrierung von Datenpipelines, Lambda-Funktionen für ETL-Operationen und optimierte Speicherung im Parquet-Format für effiziente langfristige Datenspeicherung implementiert.
+**Analytics-Pipeline** wird durch Step Functions für die Daten-Pipeline-Orchestrierung, Lambda-Funktionen für ETL-Operationen und optimierte Speicherung im Parquet-Format für effiziente langfristige Datenspeicherung implementiert.
 
 ## State Management mit Pinia
 
@@ -167,7 +167,7 @@ Mind.com verwendet einen modernen Ansatz für Analytics durch **Google Tag Manag
 
 Die Architektur von Mind.com bietet **35-60% Leistungsverbesserung** im Vergleich zu herkömmlichen Ansätzen. JAMstack-Sites laden 35% schneller, wobei 50% den First Contentful Paint in unter 1 Sekunde erreichen.
 
-Die **Traffic-Verarbeitung** ist 10x besser im Vergleich zu herkömmlichen server-gerenderten Architekturen bei deutlich niedrigeren Kosten dank CDN-Verteilung und serverless Skalierung.
+**Traffic-Verarbeitung** ist 10x verbessert im Vergleich zu herkömmlichen server-gerenderten Architekturen bei deutlich niedrigeren Kosten dank CDN-Verteilung und serverless Skalierung.
 
 ### Entwicklererfahrung
 

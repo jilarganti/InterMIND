@@ -8,7 +8,7 @@ description: "От iMind к InterMIND: голосовые видеозвонки
   title="Видеовстречи переосмыслены <br>— теперь на **mind.com**"
   text="От iMind к InterMIND: голосовые видеозвонки с переводом речи в реальном времени.">
 <NavButton buttonLabel="Узнать больше" buttonClass="brand" to="/" />
-<NavButton buttonLabel="Ассистент" buttonClass="alt" to="/chat" />
+<NavButton buttonLabel="Ассистент" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <br>

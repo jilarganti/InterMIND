@@ -7,9 +7,9 @@ isHome: true
 
 <!-- <HeroSection title="**Herhangi** Bir Dilde Buluşun" :typingSpeed="10" text="Video aramalarında canlı konuşma çevirisi. Anında anlayış, engel yok."> -->
 
-<HeroSection title="**Herhangi** Bir Dili Anlayın" :typingSpeed="20" text="Video aramaları sırasında eşzamanlı tercümanlık. Dil engellerini anında aşın.">
-<NavButton buttonLabel="Demo izle" buttonClass="brand" to="/#HowItWorks" />
-<NavButton buttonLabel="Asistan" buttonClass="alt" to="/chat" />
+<HeroSection title="**Herhangi** Bir Dili Anlayın" :typingSpeed="20" text="Video toplantıları sırasında eşzamanlı tercümanlık. Dil engellerini anında aşın.">
+<NavButton buttonLabel="Demo izle" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="Asistan" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <span id="1"></span>
@@ -53,7 +53,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Ciddi toplantılar için tasarlandı — sadece konuşmak için değil',
-      details: 'InterMIND [profesyonel düzeyde bir video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
+      details: 'InterMIND hafif bir eklenti veya plugin değil, [profesyonel düzeyde bir video toplantı platformudur](./product/overview/video-meeting-platform).',
       items: [
         '✧ 1080p çözünürlük, akıllı gürültü bastırma, planlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
       ],
@@ -81,7 +81,7 @@ isHome: true
     }"
   />
 
-> **Bu kimin için?**  
+> **Bu kimler için?**  
 > _Dil engellerinin gecikmelere, kaybedilen anlaşmalara veya maliyetli yanlış anlamalara neden olduğu uluslararası ekipler için tasarlandı._ [Daha fazla bilgi ...](./product/overview/markets)
 
 <span id="HowItWorks"></span>
@@ -236,7 +236,7 @@ Bunu değiştirmek şu anlama gelir:
 <ContactForm buttonText="Ekibimizle konuşun" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_Zamanınızı gramer ezberlemek yerine uzmanlığınızı geliştirmek için harcamanız daha iyi._**  
+> 💡 **_Zamanınızı gramer ezberlemek yerine sanatınızda ustalaşmaya harcamanız daha iyi._**  
 > 💡 **_Gerçek ortaklıklar gerçek konuşmalarla başlar — onların dilinde._**
 
 ## Sık Sorulan Sorular
@@ -246,8 +246,8 @@ Bunu değiştirmek şu anlama gelir:
 <AccordionGroup
     :items="[
       {
-        q: 'InterMind hangi dillerde tercümanlık desteği sunuyor?',
-        a: 'InterMind aşağıdaki 19 dilde **gerçek zamanlı tercümanlık** desteği sunmaktadır:<br><br>- العربية (ar) – Arapça<br>- Čeština (cs) – Çekçe<br>- Deutsch (de) – Almanca<br>- English (en) – İngilizce<br>- Español (es) – İspanyolca<br>- Français (fr) – Fransızca<br>- हिन्दी (hi) – Hintçe<br>- Magyar (hu) – Macarca<br>- Italiano (it) – İtalyanca<br>- 日本語 (ja) – Japonca<br>- 한국어 (ko) – Korece<br>- Nederlands (nl) – Hollandaca<br>- Polski (pl) – Lehçe<br>- Português (pt) – Portekizce<br>- Русский (ru) – Rusça<br>- Türkçe (tr) – Türkçe<br>- 中文 (zh) – Çince<br><br>Bu listeyi sürekli genişletiyoruz — her büyük sürümle birlikte yeni diller eklenmektedir.',
+        q: 'InterMind hangi dillerde çeviri desteği sunuyor?',
+        a: 'InterMind aşağıdaki 19 dilde **gerçek zamanlı çeviri** desteği sunmaktadır:<br><br>- العربية (ar) – Arapça<br>- Čeština (cs) – Çekçe<br>- Deutsch (de) – Almanca<br>- English (en) – İngilizce<br>- Español (es) – İspanyolca<br>- Français (fr) – Fransızca<br>- हिन्दी (hi) – Hintçe<br>- Magyar (hu) – Macarca<br>- Italiano (it) – İtalyanca<br>- 日本語 (ja) – Japonca<br>- 한국어 (ko) – Korece<br>- Nederlands (nl) – Hollandaca<br>- Polski (pl) – Lehçe<br>- Português (pt) – Portekizce<br>- Русский (ru) – Rusça<br>- Türkçe (tr) – Türkçe<br>- 中文 (zh) – Çince<br><br>Bu listeyi sürekli genişletiyoruz — her büyük sürümle birlikte yeni diller eklenmektedir.',
       },
       {
         q: 'Lisanslı kullanıcı nedir ve Katılımcı nedir?',
@@ -271,7 +271,7 @@ Bunu değiştirmek şu anlama gelir:
       },
       {
         q: 'Bir plan satın almadan önce InterMind\'ı deneyebilir miyim?',
-        a: 'Kesinlikle. *Ücretsiz Temel* plan size **25 ücretsiz toplantı** ile temel özelliklere tam erişim sağlar — **eşzamanlı tercümanlık** ve **toplantı arama** dahil. Kredi kartı gerekmez. İstediğiniz zaman yükseltebilirsiniz.',
+        a: 'Kesinlikle. *Ücretsiz Temel* plan size **25 ücretsiz toplantı** ile temel özelliklere tam erişim sağlar — **eşzamanlı çeviri** ve **toplantı arama** dahil. Kredi kartı gerekmez. İstediğiniz zaman yükseltebilirsiniz.',
       },
       {
         q: 'Yardım veya desteğe ihtiyacım olursa ne yapmalıyım?',
@@ -279,10 +279,10 @@ Bunu değiştirmek şu anlama gelir:
       },
       {
         q: 'Aboneliğimi nasıl yönetirim (yükseltme, düşürme veya iptal)?',
-        a: 'Planınızı **hesap ayarlarınız** üzerinden istediğiniz zaman değiştirebilirsiniz. Değişiklikler **anında** geçerli olur. İptaller için, *Aylık planlar* fatura döneminin sonunda iptal olur. *Yıllık planlar* **orantılı geri ödeme** ile iptal edilebilir.',
+        a: 'Planınızı **hesap ayarlarınız** üzerinden istediğiniz zaman değiştirebilirsiniz. Değişiklikler **anında** geçerli olur. İptaller için *Aylık planlar* fatura döneminin sonunda iptal olur. *Yıllık planlar* **orantılı geri ödeme** ile iptal edilebilir.',
       },
       {
-        q: 'InterMind\'ı webinarlar veya büyük etkinlikler için kullanabilir miyim?',
+        q: 'InterMind\'ı webinar veya büyük etkinlikler için kullanabilir miyim?',
         a: 'Evet. *Pro* ve *İş* planları **büyük toplantılar ve webinarlar** için idealdir — *İş* planında **500 katılımcıya** kadar destek ile.',
       },
     ]"/>

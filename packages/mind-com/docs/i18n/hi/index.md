@@ -1,15 +1,15 @@
 ---
 layout: home
 title: "InterMIND: वीडियो मीटिंग के लिए रियल-टाइम स्पीच ट्रांसलेशन"
-description: "19+ भाषाओं में साथ-साथ अनुवाद के साथ पेशेवर वीडियो कॉन्फ्रेंसिंग। AI-संचालित अनुवाद जो टोन, इरादा और संदर्भ को समझता है। विश्वव्यापी मीटिंग करें, प्राकृतिक रूप से संवाद करें।"
+description: "19+ भाषाओं में साथ-साथ अनुवाद के साथ पेशेवर वीडियो कॉन्फ्रेंसिंग। AI-संचालित अनुवाद जो टोन, इरादा और संदर्भ को समझता है। विश्वव्यापी मिलें, प्राकृतिक रूप से संवाद करें।"
 isHome: true
 ---
 
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="**किसी भी** भाषा को समझें" :typingSpeed="20" text="वीडियो कॉल के दौरान साथ-साथ अनुवाद। भाषा की बाधाओं को तुरंत तोड़ें।">
-<NavButton buttonLabel="डेमो देखें" buttonClass="brand" to="/#HowItWorks" />
-<NavButton buttonLabel="असिस्टेंट" buttonClass="alt" to="/chat" />
+<HeroSection title="**किसी भी** भाषा को समझें" :typingSpeed="20" text="वीडियो मीटिंग के दौरान साथ-साथ अनुवाद। भाषा की बाधाओं को तुरंत तोड़ें।">
+<NavButton buttonLabel="डेमो देखें" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="असिस्टेंट" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <span id="1"></span>
@@ -36,7 +36,7 @@ isHome: true
       title: 'आपकी मीटिंग्स के भीतर का दिमाग',
       details: 'InterMIND हर बहुभाषी कॉल को स्पष्ट, खोजने योग्य ज्ञान में बदल देता है।',
       items: [
-        '✧ **कुछ भी पूछें** — AI **आपकी सभी मीटिंग्स में** उत्तर ढूंढता है।',
+        '✧ **कुछ भी पूछें** — AI **आपकी सभी मीटिंग्स में** उत्तर खोजता है।',
         '✧ कार्य, मालिक और समय सीमा को अपने आप निकालता है।',
         '✧ मुख्य बिंदुओं को किसी भी भाषा में सारांशित करता है — तुरंत।',
       ],
@@ -69,8 +69,8 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
     :card="{
-      title: 'गोपनीयता जहाँ यह मायने रखती है',
-      details: 'InterMIND विश्वास-महत्वपूर्ण बातचीत के लिए बनाया गया है — जहाँ गोपनीयता और नियंत्रण सबसे महत्वपूर्ण है।',
+      title: 'प्राइवेसी जहाँ यह मायने रखती है',
+      details: 'InterMIND विश्वास-महत्वपूर्ण बातचीत के लिए बनाया गया है — जहाँ प्राइवेसी और नियंत्रण सबसे महत्वपूर्ण है।',
       items: ['✧ [प्राइवेसी ज़ोन](./product/overview/privacy-architecture) — EU, US, SE Asia', '✧ **शून्य डेटा ट्रेनिंग**। कोई तीसरे पक्ष की पहुंच नहीं।'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -145,7 +145,7 @@ isHome: true
 
 ### मीटिंग के दौरान क्या होता है?
 
-प्रत्येक प्रतिभागी उस भाषा में **बोलता और सुनता है** जिसे उन्होंने उत्पाد में प्रवेश करते समय चुना था।  
+प्रत्येक प्रतिभागी उस भाषा में **बोलता और सुनता है** जिसे उन्होंने उत्पाद में प्रवेश करते समय चुना था।  
 यह एकल भाषा सेटिंग निम्नलिखित पर लागू होती है:
 
 - **इंटरफेस भाषा**
@@ -302,7 +302,7 @@ isHome: true
         title: 'समर्थन',
         links: [
           { text: 'समर्थन प्राप्त करें', link: './resources/help' },
-          { text: 'FAQ', link: '#FAQ' },
+          { text: 'अक्सर पूछे जाने वाले प्रश्न', link: '#FAQ' },
           { text: 'गोपनीयता नीति', link: './resources/company/Privacy-Policy' },
           { text: 'AI कानूनी गाइड', link: './resources/company/Legal-Regulations-for-AI-Services' },
           { text: 'सेवा स्थिति', link: 'https://status.mind.com/' },
@@ -314,13 +314,13 @@ isHome: true
         links: [
           { text: 'ब्लॉग', link: './blog' },
           { text: 'ब्रांड संपत्ति', link: './resources/media-kit' },
-          { text: 'AI API / LLM डॉक्स', link: 'https://mind.com/llms-full.txt' },
+          { text: 'AI API / LLM दस्तावेज़', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {
         title: 'कंपनी',
         links: [
-          { text: 'के बारे में', link: './resources/company/about' },
+          { text: 'हमारे बारे में', link: './resources/company/about' },
           { text: 'टीम', link: './resources/company/team' },
           { text: 'करियर', link: './resources/company/careers' },
           { text: 'संपर्क', link: './resources/company/contacts' },

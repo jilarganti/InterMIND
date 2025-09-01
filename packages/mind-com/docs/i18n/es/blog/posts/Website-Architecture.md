@@ -11,7 +11,7 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 <img src="/blog/iStock-681469612.jpg" alt="Dirham de los EAU" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-El sitio web mind.com representa un ejemplo sobresaliente de arquitectura moderna para sitios de marketing, combinando las mejores prácticas de desarrollo JAMstack con tecnologías de IA de vanguardia. En este análisis técnico, examinaremos en detalle las decisiones arquitectónicas que sustentan este proyecto, que forma parte del monorepo InterMIND pero funciona como una plataforma estática independiente con capacidades dinámicas.
+El sitio web [mind.com](https://mind.com) representa un ejemplo sobresaliente de arquitectura moderna para sitios de marketing, combinando las mejores prácticas de desarrollo JAMstack con tecnologías de IA de vanguardia. En este análisis técnico, examinaremos en detalle las decisiones arquitectónicas que sustentan este proyecto, que forma parte del monorepo InterMIND pero funciona como una plataforma estática independiente con capacidades dinámicas.
 
 > **Las innovaciones arquitectónicas clave** incluyen varias soluciones técnicas que distinguen al proyecto de los sitios de marketing típicos.
 
@@ -61,7 +61,7 @@ Mind.com implementa una estrategia avanzada utilizando **dos proveedores de IA**
 
 **El enrutamiento inteligente de solicitudes** permite usar GPT-4 para tareas que requieren capacidades multimodales y procesamiento en tiempo real, mientras que Claude se aplica para razonamiento complejo y tareas translingüísticas, donde demuestra un rendimiento del 85%+ relativo al inglés en más de 14 idiomas.
 
-**Las estrategias de conmutación por error** incluyen el cambio basado en cuotas (transición a Anthropic cuando se agota la cuota de OpenAI), enrutamiento específico por modelo y selección dinámica de proveedor para optimización de costos.
+**Las estrategias de respaldo** incluyen el cambio basado en cuotas (transición a Anthropic cuando se agota la cuota de OpenAI), enrutamiento específico por modelo y selección dinámica de proveedor para optimización de costos.
 
 ### Detección automática de idioma
 
@@ -87,11 +87,11 @@ El sistema de autenticación de Mind.com se integra con un **servicio OAuth exte
 
 ### Integración OAuth externa
 
-**El componente AuthButton** maneja el flujo OAuth completo, dirigiendo a los usuarios al servicio de autenticación externo con URLs basadas en el entorno (`dev.inter.mind.com/auth` vs `inter.mind.com/auth`).
+El **componente AuthButton** maneja el flujo OAuth completo, dirigiendo a los usuarios al servicio de autenticación externo con URLs basadas en el entorno (`dev.inter.mind.com/auth` vs `inter.mind.com/auth`).
 
-**La configuración del ID de cliente** utiliza un identificador seguro para uso público `oauthClientId = "vca"`, permitiendo la integración correcta del frontend con el sistema de autenticación externo.
+La **configuración del ID de cliente** utiliza un identificador seguro para uso público `oauthClientId = "vca"`, permitiendo la integración correcta del frontend con el sistema de autenticación externo.
 
-**El enfoque sin estado** en el lado del sitio significa que mind.com no almacena sesiones de usuario localmente, dependiendo del sistema externo para la gestión del estado de autenticación del usuario.
+El **enfoque sin estado** en el lado del sitio significa que mind.com no almacena sesiones de usuario localmente, dependiendo del sistema externo para la gestión del estado de autenticación del usuario.
 
 ## Soporte multilingüe: más de 20 idiomas
 
@@ -111,7 +111,7 @@ La **optimización SEO de clase mundial** se logra creando páginas estáticas c
 
 La **arquitectura dual de IA** utiliza OpenAI GPT-4 y Anthropic Claude con cambio automático de modelo en caso de errores. El sistema incluye traducción incremental (solo archivos modificados), sincronización automática de estructura de archivos y verificación opcional de compilación de archivos traducidos mediante `checkBuildErrors: true`.
 
-La **ingeniería inteligente de prompts** asegura la preservación del formato markdown, inmutabilidad de bloques de código, mantenimiento de todos los enlaces y referencias, y traducción solo de texto en lenguaje natural. El sistema divide automáticamente archivos grandes en secciones para procesamiento óptimo por modelos de IA.
+La **ingeniería inteligente de prompts** asegura la preservación del formato markdown, inmutabilidad de bloques de código, mantenimiento de todos los enlaces y referencias, y traducción únicamente de texto en lenguaje natural. El sistema divide automáticamente archivos grandes en secciones para procesamiento óptimo por modelos de IA.
 
 El **manejo de errores y corrección automática** incluye cambio automático al siguiente modelo en errores de traducción, guardado de archivos parcialmente traducidos con extensión `.log`, retraducción de archivos problemáticos usando todos los modelos disponibles, y reporte final de archivos que no pudieron ser corregidos.
 
@@ -181,7 +181,7 @@ Mind.com demuestra cómo la arquitectura JAMstack moderna con integración de IA
 
 **Superficie de ataque reducida** sin vulnerabilidades de servidor en tiempo de ejecución o base de datos, los archivos estáticos eliminan la inyección SQL y los vectores de ataque del lado del servidor, la distribución basada en CDN proporciona protección DDoS y redundancia global.
 
-**Rentabilidad** se logra a través del alojamiento en CDN, significativamente más barato que el alojamiento tradicional en servidor, costos operativos reducidos sin plugins y gestión de servidor, escalado automático a través de la distribución CDN, y el uso de funciones serverless reduce la sobrecarga de mantenimiento del backend.
+**Rentabilidad** se logra a través del alojamiento CDN, significativamente más barato que el alojamiento tradicional de servidores, costos operativos reducidos sin plugins y gestión de servidores, escalado automático a través de la distribución CDN, y el uso de funciones serverless reduce la sobrecarga de mantenimiento del backend.
 
 ## Conclusión
 

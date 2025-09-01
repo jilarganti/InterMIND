@@ -1,17 +1,17 @@
 ---
 layout: BlogPost
-title: "Arquitetura do Site Mind.com"
+title: "Arquitetura do Website Mind.com"
 description: "Pesquisa Técnica de uma Solução JAMstack Moderna com Integração de IA"
 date: 2025-08-15
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
-# Arquitetura do Site Mind.com: Pesquisa Técnica de uma Solução JAMstack Moderna com Integração de IA
+# Arquitetura do Website Mind.com: Pesquisa Técnica de uma Solução JAMstack Moderna com Integração de IA
 
 <img src="/blog/iStock-681469612.jpg" alt="dirham dos Emirados Árabes Unidos" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-O site mind.com representa um exemplo excepcional de arquitetura moderna para sites de marketing, combinando as melhores práticas de desenvolvimento JAMstack com tecnologias de IA de ponta. Nesta análise técnica, examinaremos em detalhes as decisões arquiteturais subjacentes a este projeto, que faz parte do monorepo InterMIND, mas funciona como uma plataforma estática independente com capacidades dinâmicas.
+O website [mind.com](https://mind.com) representa um exemplo excepcional de arquitetura moderna para sites de marketing, combinando as melhores práticas de desenvolvimento JAMstack com tecnologias de IA de ponta. Nesta análise técnica, examinaremos em detalhes as decisões arquiteturais subjacentes a este projeto, que faz parte do monorepo InterMIND, mas funciona como uma plataforma estática independente com capacidades dinâmicas.
 
 > **Inovações arquiteturais principais** incluem várias soluções técnicas que distinguem o projeto de sites de marketing típicos.
 
@@ -95,7 +95,7 @@ A **abordagem stateless** no lado do site significa que o mind.com não armazena
 
 ## Suporte Multilíngue: Mais de 20 Idiomas
 
-O Mind.com suporta mais de 20 idiomas com suporte completo à direção de texto RTL (direita para esquerda), demonstrando uma abordagem séria para expansão internacional.
+O Mind.com oferece suporte a mais de 20 idiomas com suporte completo à direção de texto RTL (direita para esquerda), demonstrando uma abordagem séria para expansão internacional.
 
 ### Suporte RTL e LTR
 
@@ -103,11 +103,11 @@ O Mind.com suporta mais de 20 idiomas com suporte completo à direção de texto
 
 ### Sistema Revolucionário de Tradução Alimentado por IA
 
-**Script de Tradução** representa uma **inovação tecnológica chave** que muda fundamentalmente a abordagem para internacionalização de websites. Diferente dos sistemas i18n tradicionais que requerem criação e manutenção constante de dicionários de tradução, este sistema **elimina completamente a necessidade de gerenciamento manual de traduções**. Ao analisar o conteúdo fonte no diretório `docs/en/`, o sistema cria automaticamente traduções em `docs/i18n/{lang}/`, suportando qualquer número de idiomas especificados na configuração. A execução é acionada por um simples comando `pnpm translate` do diretório do pacote.
+**Script de Tradução** representa uma **inovação tecnológica chave** que muda fundamentalmente a abordagem para internacionalização de websites. Ao contrário dos sistemas i18n tradicionais que requerem criação e manutenção constante de dicionários de tradução, este sistema **elimina completamente a necessidade de gerenciamento manual de traduções**. Ao analisar o conteúdo fonte no diretório `docs/en/`, o sistema cria automaticamente traduções em `docs/i18n/{lang}/`, suportando qualquer número de idiomas especificados na configuração. A execução é acionada por um simples comando `pnpm translate` do diretório do pacote.
 
-**Suporte universal de formatos** é uma vantagem crítica: o sistema processa Markdown, componentes Vue, TypeScript, JavaScript e qualquer outro formato de texto sem adaptação especial. Isso significa que **todo o conteúdo do site — desde documentação até componentes de UI — é traduzido automaticamente**, preservando estrutura, formatação e funcionalidade.
+**Suporte universal a formatos** é uma vantagem crítica: o sistema processa Markdown, componentes Vue, TypeScript, JavaScript e quaisquer outros formatos de texto sem adaptação especial. Isso significa que **todo o conteúdo do site — desde documentação até componentes de UI — é traduzido automaticamente**, preservando estrutura, formatação e funcionalidade.
 
-**Otimização SEO de classe mundial** é alcançada criando páginas estáticas completas para cada idioma. Diferente das soluções i18n do lado do cliente que carregam conteúdo dinamicamente, cada versão de idioma existe como uma página estática separada, garantindo **indexação perfeita pelos motores de busca** e carregamento instantâneo de conteúdo. Os bots de busca veem HTML completamente traduzido sem dependências JavaScript.
+**Otimização SEO de classe mundial** é alcançada criando páginas estáticas completas para cada idioma. Ao contrário das soluções i18n do lado do cliente que carregam conteúdo dinamicamente, cada versão de idioma existe como uma página estática separada, garantindo **indexação perfeita pelos motores de busca** e carregamento instantâneo de conteúdo. Os bots de busca veem HTML totalmente traduzido sem dependências JavaScript.
 
 **Arquitetura dual de IA** usa OpenAI GPT-4 e Anthropic Claude com troca automática de modelo em caso de erros. O sistema inclui tradução incremental (apenas arquivos alterados), sincronização automática da estrutura de arquivos e verificação opcional de compilação de arquivos traduzidos através de `checkBuildErrors: true`.
 
@@ -153,9 +153,9 @@ O Mind.com usa uma abordagem moderna para analytics através do **Google Tag Man
 
 ### Abordagem de Segurança em Múltiplas Camadas
 
-**Limitação do API Gateway** fornece limitação de taxa no nível do método, AWS WAF com regras baseadas em taxa para proteção DDoS, e políticas CORS com lista de permissões de domínios específicos em vez de configurações com caracteres curinga.
+**Limitação do API Gateway** fornece limitação de taxa no nível do método, AWS WAF com regras baseadas em taxa para proteção DDoS, e políticas CORS com lista de permissão de domínios específicos em vez de configurações com caracteres curinga.
 
-**Gerenciamento de segredos** é implementado através de variáveis de ambiente e armazenamentos de parâmetros para dados sensíveis, validação de entrada no nível do API Gateway antes da execução da função, e formatação estruturada de resposta com tratamento adequado de erros.
+**Gerenciamento de segredos** é implementado através de variáveis de ambiente e armazenamentos de parâmetros para dados sensíveis, validação de entrada no nível do API Gateway antes da execução da função, e formatação de resposta estruturada com tratamento adequado de erros.
 
 ### Considerações de Privacidade de Dados
 

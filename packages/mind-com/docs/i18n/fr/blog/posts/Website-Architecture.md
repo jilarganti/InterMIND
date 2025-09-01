@@ -8,10 +8,10 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # Architecture du site web Mind.com : recherche technique d'une solution JAMstack moderne avec intégration IA
 
-<img src="/blog/iStock-681469612.jpg" alt="dirham des EAU" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/iStock-681469612.jpg" alt="dirham des Émirats arabes unis" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-Le site web mind.com représente un exemple remarquable d'architecture moderne pour les sites marketing, combinant les meilleures pratiques de développement JAMstack avec des technologies IA de pointe. Dans cette analyse technique, nous examinerons en détail les décisions architecturales qui sous-tendent ce projet, qui fait partie du monorepo InterMIND mais fonctionne comme une plateforme statique indépendante avec des capacités dynamiques.
+Le site web [mind.com](https://mind.com) représente un exemple remarquable d'architecture moderne pour les sites marketing, combinant les meilleures pratiques de développement JAMstack avec des technologies IA de pointe. Dans cette analyse technique, nous examinerons en détail les décisions architecturales qui sous-tendent ce projet, qui fait partie du monorepo InterMIND mais fonctionne comme une plateforme statique indépendante avec des capacités dynamiques.
 
 > **Les innovations architecturales clés** incluent plusieurs solutions techniques qui distinguent le projet des sites marketing typiques.
 
@@ -21,7 +21,7 @@ Le système traduit automatiquement tout le contenu du site en plus de 20 langue
 
 ## Chat IA de recherche avec contenu indexé
 
-Le chat IA fonctionne avec du contenu de site pré-indexé, éliminant la génération d'informations inexactes. Pendant le processus de construction (`pnpm build`), tout le contenu est converti en embeddings vectoriels et téléchargé vers Upstash Vector — une base de données vectorielle serverless. La recherche utilise la correspondance sémantique via la similarité cosinus pour trouver les fragments de documentation pertinents. L'architecture RAG permet au modèle IA (Claude 3.5 Haiku ou GPT-4) de générer des réponses basées exclusivement sur les fragments trouvés dans la base de connaissances. Le chat détecte automatiquement la langue de la requête et répond dans la même langue, prenant en charge plus de 100 langues sans configuration manuelle.
+Le chat IA fonctionne avec du contenu de site pré-indexé, éliminant la génération d'informations inexactes. Pendant le processus de construction (`pnpm build`), tout le contenu est converti en embeddings vectoriels et téléchargé vers Upstash Vector — une base de données vectorielle serverless. La recherche utilise la correspondance sémantique via la similarité cosinus pour trouver les fragments de documentation pertinents. L'architecture RAG permet au modèle IA (Claude 3.5 Haiku ou GPT-4) de générer des réponses basées exclusivement sur les fragments trouvés dans la base de connaissances. Le chat détecte automatiquement la langue de la requête et répond dans la même langue, supportant plus de 100 langues sans configuration manuelle.
 
 ## Architecture fondamentale : VitePress + Vue.js
 
@@ -29,7 +29,7 @@ Mind.com est construit sur **VitePress** — un générateur de site statique mo
 
 ### Avantages architecturaux clés
 
-Le **modèle de rendu hybride** de VitePress fournit un chargement de contenu en deux phases : le chargement initial se fait sous forme de HTML statique pour un affichage rapide et un SEO optimal, après quoi le site se transforme en SPA Vue avec navigation côté client et préchargement de pages. Cette architecture atteint des **scores Core Web Vitals presque parfaits**, ce qui est d'une importance critique pour un site marketing.
+Le **modèle de rendu hybride** de VitePress fournit un chargement de contenu en deux phases : le chargement initial se fait sous forme de HTML statique pour un affichage rapide et un SEO optimal, après quoi le site se transforme en SPA Vue avec navigation côté client et préchargement de pages. Cette architecture atteint des **scores Core Web Vitals quasi parfaits**, ce qui est d'une importance critique pour un site marketing.
 
 L'**intégration de Vue 3 et de l'API Composition** fournit aux développeurs de mind.com des outils puissants pour créer des composants dynamiques au sein d'une architecture statique. Le support TypeScript de première classe assure la sécurité des types à tous les niveaux de l'application, des composants aux intégrations API.
 
@@ -77,7 +77,7 @@ Les **Fonctions Vercel** en 2025 fournissent un modèle de concurrence amélior�
 
 L'**intégration TypeScript** inclut le nouveau package @vercel/sdk avec un support TypeScript complet et des schémas Zod pour la validation, des réponses d'erreur structurées avec des informations de type détaillées, et des objets NextResponse étendus pour la gestion des paramètres dans les environnements serverless.
 
-### Middleware de protection de domaine
+### Middleware de Protection de Domaine
 
 L'**implémentation de la protection de domaine** inclut la configuration CORS via Serverless Framework avec `cors: true` pour la gestion automatique des en-têtes CORS, des Autorisateurs Personnalisés pour API Gateway avec mise en cache des capacités d'authentification, et le moteur de middleware Middy pour les fonctions Lambda incluant CORS, authentification et gestion d'erreurs.
 
@@ -99,21 +99,21 @@ Mind.com prend en charge plus de 20 langues avec un support complet de la direct
 
 ### Support RTL et LTR
 
-**Les propriétés logiques CSS** sont utilisées au lieu des traditionnelles `left/right` pour la gestion automatique de la direction du texte. Les mixins Sass fournissent une génération automatisée de styles RTL/LTR, et des caractères Unicode spéciaux (LRE, PDF) gèrent correctement les crochets et guillemets dans le contexte RTL.
+**Les propriétés logiques CSS** sont utilisées au lieu des propriétés traditionnelles `left/right` pour la gestion automatique de la direction du texte. Les mixins Sass fournissent une génération automatisée de styles RTL/LTR, et des caractères Unicode spéciaux (LRE, PDF) gèrent correctement les crochets et guillemets dans le contexte RTL.
 
 ### Système de traduction révolutionnaire alimenté par l'IA
 
 **Le script de traduction** représente une **innovation technologique clé** qui change fondamentalement l'approche de l'internationalisation des sites web. Contrairement aux systèmes i18n traditionnels nécessitant la création et la maintenance constante de dictionnaires de traduction, ce système **élimine complètement le besoin de gestion manuelle des traductions**. En analysant le contenu source dans le répertoire `docs/en/`, le système crée automatiquement des traductions dans `docs/i18n/{lang}/`, supportant n'importe quel nombre de langues spécifiées dans la configuration. L'exécution est déclenchée par une simple commande `pnpm translate` depuis le répertoire du package.
 
-**Le support universel de formats** est un avantage critique : le système traite Markdown, les composants Vue, TypeScript, JavaScript, et tout autre format de texte sans adaptation spéciale. Cela signifie que **tout le contenu du site — de la documentation aux composants UI — est traduit automatiquement**, préservant la structure, le formatage et la fonctionnalité.
+**Le support universel des formats** est un avantage critique : le système traite Markdown, les composants Vue, TypeScript, JavaScript, et tout autre format de texte sans adaptation spéciale. Cela signifie que **tout le contenu du site — de la documentation aux composants UI — est traduit automatiquement**, préservant la structure, le formatage et la fonctionnalité.
 
 **L'optimisation SEO de classe mondiale** est obtenue en créant des pages statiques complètes pour chaque langue. Contrairement aux solutions i18n côté client qui chargent le contenu dynamiquement, chaque version linguistique existe comme une page statique séparée, garantissant **une indexation parfaite par les moteurs de recherche** et un chargement instantané du contenu. Les robots de recherche voient du HTML entièrement traduit sans dépendances JavaScript.
 
 **L'architecture IA double** utilise OpenAI GPT-4 et Anthropic Claude avec commutation automatique de modèle en cas d'erreurs. Le système inclut la traduction incrémentale (seulement les fichiers modifiés), la synchronisation automatique de la structure des fichiers, et la vérification optionnelle de compilation des fichiers traduits via `checkBuildErrors: true`.
 
-**L'ingénierie de prompts intelligente** assure la préservation du formatage markdown, l'immutabilité des blocs de code, le maintien de tous les liens et références, et la traduction uniquement du texte en langage naturel. Le système divise automatiquement les gros fichiers en sections pour un traitement optimal par les modèles IA.
+**L'ingénierie de prompt intelligente** assure la préservation du formatage markdown, l'immutabilité des blocs de code, le maintien de tous les liens et références, et la traduction uniquement du texte en langage naturel. Le système divise automatiquement les gros fichiers en sections pour un traitement optimal par les modèles IA.
 
-**La gestion d'erreurs et la correction automatique** inclut la commutation automatique vers le modèle suivant en cas d'erreurs de traduction, la sauvegarde de fichiers partiellement traduits avec l'extension `.log`, la retraduction de fichiers problématiques utilisant tous les modèles disponibles, et le rapport final des fichiers qui n'ont pas pu être corrigés.
+**La gestion d'erreurs et la correction automatique** inclut la commutation automatique vers le modèle suivant en cas d'erreurs de traduction, la sauvegarde des fichiers partiellement traduits avec l'extension `.log`, la retraduction des fichiers problématiques en utilisant tous les modèles disponibles, et le rapport final des fichiers qui n'ont pas pu être corrigés.
 
 ## Intégration CRM avec Pipedrive
 
@@ -187,6 +187,6 @@ Mind.com démontre comment l'architecture JAMstack moderne avec intégration de 
 
 L'architecture de Mind.com représente une implémentation exemplaire des principes modernes de développement web, combinant avec succès les performances statiques avec les capacités dynamiques de l'IA. La combinaison de VitePress + Vue.js + Serverless Functions + intégration IA crée une plateforme puissante et évolutive qui offre une expérience utilisateur supérieure à des coûts opérationnels minimaux.
 
-Cette approche de l'architecture de site marketing démontre la maturité de l'écosystème JAMstack en 2025 et indique la direction de développement pour les solutions de niveau entreprise. L'intégration des technologies IA de pointe dans l'architecture statique ouvre de nouvelles possibilités pour la personnalisation et l'automatisation de l'expérience client, tout en conservant tous les avantages de performance et de sécurité de l'approche JAMstack.
+Cette approche de l'architecture de site marketing démontre la maturité de l'écosystème JAMstack en 2025 et indique la direction de développement pour les solutions de niveau entreprise. L'intégration des technologies IA de pointe dans l'architecture statique ouvre de nouvelles possibilités pour la personnalisation et l'automatisation de l'expérience client, tout en maintenant tous les avantages de performance et de sécurité de l'approche JAMstack.
 
 Mind.com sert d'exemple de la façon dont les solutions technologiques modernes peuvent créer des effets synergiques, dépassant la somme des composants individuels et établissant de nouveaux standards pour l'industrie des technologies marketing.

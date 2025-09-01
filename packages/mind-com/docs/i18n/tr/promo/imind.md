@@ -8,7 +8,7 @@ description: "iMind'dan InterMIND'a: gerçek zamanlı AI destekli çeviri ile se
   title="Video toplantılar yeniden tasarlandı <br>— artık **mind.com**'da"
   text="iMind'dan InterMIND'a: canlı konuşma çevirisi ile ses odaklı video aramalar.">
 <NavButton buttonLabel="Daha Fazla Bilgi" buttonClass="brand" to="/" />
-<NavButton buttonLabel="Asistan" buttonClass="alt" to="/chat" />
+<NavButton buttonLabel="Asistan" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <br>

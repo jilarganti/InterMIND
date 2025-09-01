@@ -5,11 +5,11 @@ description: "Videoconferência profissional com interpretação simultânea em 
 isHome: true
 ---
 
-<!-- <HeroSection title="Reúna-se em **Qualquer** Idioma" :typingSpeed="10" text="Tradução de fala ao vivo em videochamadas. Compreensão instantânea, sem barreiras."> -->
+<!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="Entenda **Qualquer** Idioma" :typingSpeed="20" text="Interpretação simultânea durante videochamadas. Quebre barreiras linguísticas instantaneamente.">
-<NavButton buttonLabel="Assistir demo" buttonClass="brand" to="/#HowItWorks" />
-<NavButton buttonLabel="Assistente" buttonClass="alt" to="/chat" />
+<HeroSection title="Entenda **Qualquer** Idioma" :typingSpeed="20" text="Interpretação simultânea durante videoconferências. Quebre barreiras linguísticas instantaneamente.">
+<NavButton buttonLabel="Assistir demo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="Assistente" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <span id="1"></span>
@@ -52,7 +52,7 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: 'Construído para reuniões sérias — não apenas para conversar',
+      title: 'Construído para reuniões sérias — não apenas conversas',
       details: 'InterMIND é uma [plataforma de videoconferência de nível profissional](./product/overview/video-meeting-platform), não um complemento ou plugin leve.',
       items: [
         '✧ Resolução 1080p, supressão inteligente de ruído, agendamento, moderação, compartilhamento de tela, gravação, legendagem, chat de participantes e integração com calendário — tudo integrado, **pronto para usar**.',
@@ -217,7 +217,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
         ],
       },
       {
-        title: '**Business** &nbsp 100+ usuários',
+        title: '**Empresarial** &nbsp 100+ usuários',
         price: '**Preço personalizado**',
         details: 'Construído para privacidade',
         items: [
@@ -314,7 +314,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
         links: [
           { text: 'Blog', link: './blog' },
           { text: 'Recursos da marca', link: './resources/media-kit' },
-          { text: 'Documentação da API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
+          { text: 'API de IA / Docs LLM', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

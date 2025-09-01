@@ -8,7 +8,7 @@ description: "Von iMind zu InterMIND: sprachbasierte Videoanrufe mit KI-gestütz
   title="Videomeetings neu gedacht <br>— jetzt auf **mind.com**"
   text="Von iMind zu InterMIND: sprachbasierte Videoanrufe mit Live-Sprachübersetzung.">
 <NavButton buttonLabel="Mehr erfahren" buttonClass="brand" to="/" />
-<NavButton buttonLabel="Assistent" buttonClass="alt" to="/chat" />
+<NavButton buttonLabel="Assistent" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <br>

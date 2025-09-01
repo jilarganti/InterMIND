@@ -5,11 +5,11 @@ description: "19以上の言語での同時通訳機能を備えたプロフェ�
 isHome: true
 ---
 
-<!-- <HeroSection title="**あらゆる**言語で会議" :typingSpeed="10" text="ビデオ通話でのライブ音声翻訳。瞬時の理解、障壁なし。"> -->
+<!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="**あらゆる**言語を理解" :typingSpeed="20" text="ビデオ通話中の同時通訳。言語の壁を瞬時に打破。">
-<NavButton buttonLabel="デモを見る" buttonClass="brand" to="/#HowItWorks" />
-<NavButton buttonLabel="アシスタント" buttonClass="alt" to="/chat" />
+<HeroSection title="**あらゆる**言語を理解" :typingSpeed="20" text="ビデオ会議中の同時通訳。言語の壁を瞬時に打破。">
+<NavButton buttonLabel="デモを見る" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="アシスタント" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <span id="1"></span>
@@ -86,9 +86,9 @@ isHome: true
 
 <span id="HowItWorks"></span>
 
-## Google Meetのような使いやすさ + リアルタイム翻訳
+## Google Meetのように動作 + リアルタイム翻訳
 
-馴染みのあるインターフェース。ユニバーサルコミュニケーション。Google Meetと同じ使いやすさで、言語の壁を瞬時に取り除くリアルタイム翻訳機能付き。
+馴染みのあるインターフェース。ユニバーサルコミュニケーション。Google Meetと同じ使いやすさ — 言語の壁を消し去る瞬間翻訳付き。
 
 <FeatureCards
     :features="[
@@ -102,7 +102,7 @@ isHome: true
       },
       {
         title: 'ミーティングを開始',
-        details: '即座に作成するか、事前にスケジュールを設定できます。',
+        details: '即座に作成するか、事前にスケジュールします。',
         icon: {
           light: '/start.png',
           dark: '/start.png',
@@ -110,14 +110,14 @@ isHome: true
       },
       {
         title: 'ミーティングに参加',
-        details: 'リンクをクリックし、名前を入力して即座に参加できます。',
+        details: 'リンクをクリック、名前を入力、即座に参加。',
         icon: {
           light: '/join.png',
           dark: '/join.png',
         },
       },
       {
-        title: '母国語で話す',
+        title: 'あなたの言語で話す',
         details: '全員が自分の言語で話し、聞くことができます。',
         icon: {
           light: '/meeting.png',
@@ -199,7 +199,7 @@ isHome: true
         items: [
           '**25** 会議',
           '**100** 参加者ビデオ会議 [💬](#3)',
-          'ユーザーあたり **30** GB プール型ストレージ',
+          'ユーザーあたり **30** GB プール共有ストレージ',
           'すべての会議を横断検索 [💬](#2)',
           '同時通訳 [💬](#1)',
         ],
@@ -211,7 +211,7 @@ isHome: true
         items: [
           '**無制限** 会議',
           '**150** 参加者ビデオ会議 [💬](#3)',
-          'ユーザーあたり **2** TB プール型ストレージ',
+          'ユーザーあたり **2** TB プール共有ストレージ',
           'すべての会議を横断検索 [💬](#2)',
           '同時通訳 [💬](#1)',
         ],
@@ -223,7 +223,7 @@ isHome: true
         items: [
           '**無制限** 会議',
           '**500** 参加者ビデオ会議 [💬](#3)',
-          'ユーザーあたり **5** TB プール型ストレージ',
+          'ユーザーあたり **5** TB プール共有ストレージ',
           'すべての会議を横断検索 [💬](#2)',
           '同時通訳 [💬](#1)',
           '**プライバシーゾーン** [💬](#4)',
@@ -236,7 +236,7 @@ isHome: true
 <ContactForm buttonText="チームに相談" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_あなたの時間は文法の暗記ではなく、技術の習得に使うべきです。_**  
+> 💡 **_あなたの時間は文法の暗記ではなく、技術の習得により良く使われるべきです。_**  
 > 💡 **_真のパートナーシップは、相手の言語での真の会話から始まります。_**
 
 ## よくある質問
@@ -251,7 +251,7 @@ isHome: true
       },
       {
         q: 'ライセンスユーザーと参加者の違いは何ですか？',
-        a: '*ライセンスユーザー*は無料または有料のミーティングライセンスを持ち、プランの制限内でミーティングをスケジュールできます。*参加者*は招待された人で、**アカウントやライセンスは不要**で、どのデバイスからでも**無料で**参加できます。',
+        a: '*ライセンスユーザー*は無料または有料のミーティングライセンスを持ち、プランの制限内でミーティングをスケジュールできます。*参加者*は招待された方で、**アカウントやライセンスは不要**で、どのデバイスからでも**無料で**参加できます。',
       },
       {
         q: '1つのInterMindライセンスで何人が使用できますか？',
@@ -263,11 +263,11 @@ isHome: true
       },
       {
         q: '主催できるミーティング数に制限はありますか？',
-        a: '*無料ベーシック*プランには**25回の無料ミーティング**が含まれています。*プロ*および*ビジネス*プランでは、より多くの参加者と制御機能を備えた無制限のミーティングを提供します。',
+        a: '*無料ベーシック*プランには**25回の無料ミーティング**が含まれています。*プロ*および*ビジネス*プランでは、より多くの参加者と制御機能で無制限のミーティングを提供します。',
       },
       {
         q: 'InterMindはデータプライバシーとセキュリティをどのように確保していますか？',
-        a: 'InterMindは**プライバシー・バイ・デザイン**です。すべてのデータは選択した**プライバシーゾーン**（_EU_、_US_、または_アジア_）内で処理・保存されます。[**GDPR**](https://gdpr.eu)、[**CCPA**](https://oag.ca.gov/privacy/ccpa)、UAE PDPLに準拠し、**お客様のコンテンツを**トレーニングやサードパーティアクセスに**決して使用しません**。高度な[プライバシーゾーン制御](./product/overview/privacy-architecture)は**ビジネス**プランで利用可能です。',
+        a: 'InterMindは**プライバシー・バイ・デザイン**です。すべてのデータは選択した**プライバシーゾーン**（_EU_、_US_、または_アジア_）内で処理・保存されます。[**GDPR**](https://gdpr.eu)、[**CCPA**](https://oag.ca.gov/privacy/ccpa)、UAE PDPLに準拠し、**お客様のコンテンツを**トレーニングやサードパーティアクセスに**使用することはありません**。高度な[プライバシーゾーン制御](./product/overview/privacy-architecture)は**ビジネス**プランで利用可能です。',
       },
       {
         q: 'プランを購入する前にInterMindを試すことはできますか？',

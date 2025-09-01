@@ -7,9 +7,9 @@ isHome: true
 
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="Verstehen Sie **jede** Sprache" :typingSpeed="20" text="Simultandolmetschen während Videoanrufen. Sprachbarrieren sofort überwinden.">
-<NavButton buttonLabel="Demo ansehen" buttonClass="brand" to="/#HowItWorks" />
-<NavButton buttonLabel="Assistent" buttonClass="alt" to="/chat" />
+<HeroSection title="Verstehen Sie **jede** Sprache" :typingSpeed="20" text="Simultandolmetschen während Videobesprechungen. Sprachbarrieren sofort überwinden.">
+<NavButton buttonLabel="Demo ansehen" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="Assistent" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <span id="1"></span>
@@ -53,7 +53,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Für ernsthafte Besprechungen entwickelt — nicht nur zum Reden',
-      details: 'InterMIND ist eine [professionelle Video-Meeting-Plattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
+      details: 'InterMIND ist eine [professionelle Videobesprechungsplattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
       items: [
         '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
       ],
@@ -88,12 +88,12 @@ isHome: true
 
 ## Funktioniert wie Google Meet + Live-Übersetzung
 
-Vertraute Benutzeroberfläche. Universelle Kommunikation. Dieselbe Einfachheit wie Google Meet — mit Sofortübersetzung, die Sprachbarrieren verschwinden lässt.
+Vertraute Benutzeroberfläche. Universelle Kommunikation. Genauso einfach wie Google Meet — mit sofortiger Übersetzung, die Sprachbarrieren verschwinden lässt.
 
 <FeatureCards
     :features="[
       {
-        title: 'Kostenlos anmelden',
+        title: 'Kostenlos registrieren',
         details: 'Wählen Sie Ihre Sprache und [erstellen Sie ein Konto](#Pricing).',
         icon: {
           light: '/signUp.png',

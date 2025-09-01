@@ -7,15 +7,15 @@ isHome: true
 
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="理解**任何**语言" :typingSpeed="20" text="视频通话中的同声传译。瞬间打破语言障碍。">
-<NavButton buttonLabel="观看演示" buttonClass="brand" to="/#HowItWorks" />
-<NavButton buttonLabel="助手" buttonClass="alt" to="/chat" />
+<HeroSection title="理解**任何**语言" :typingSpeed="20" text="视频会议中的同声传译。瞬间打破语言障碍。">
+<NavButton buttonLabel="观看演示" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="助手" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <span id="1"></span>
 <FeatureBlock
     :card="{
-      title: '翻译 ≠ 理解。这就是下一步。',
+      title: '翻译 ≠ 理解。这就是未来。',
       details: '无论使用何种语言，您的声音都能被听到——并被理解——就像您们使用同一种语言一样。',
       items: [
         '✧ 自然地，[实时](./product/overview/how-it-works)进行，无需字幕或延迟。',
@@ -82,7 +82,7 @@ isHome: true
   />
 
 > **这适合谁？**  
-> _专为国际团队打造，解决因语言障碍导致的延误、失去交易或代价高昂的误解。_ [了解更多...](./product/overview/markets)
+> _专为因语言障碍导致延误、失去交易或代价高昂的误解的国际团队而构建。_ [了解更多...](./product/overview/markets)
 
 <span id="HowItWorks"></span>
 
@@ -149,7 +149,7 @@ isHome: true
 这个单一语言设置适用于：
 
 - **界面语言**
-- **语音输入**（您说的内容）
+- **语音输入**（您说的话）
 - **翻译输出**（您听到的内容）
 
 | 参与者   | 选择的语言 | 说话语言 | 听取语言 |
@@ -236,7 +236,7 @@ isHome: true
 <ContactForm buttonText="联系我们的团队" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_您的时间应该花在精进技艺上——而不是记忆语法。_**  
+> 💡 **_您的时间应该用来精进技艺——而不是死记语法。_**  
 > 💡 **_真正的合作始于真正的对话——用他们的语言。_**
 
 ## 常见问题

@@ -7,9 +7,9 @@ isHome: true
 
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="**모든** 언어를 이해하세요" :typingSpeed="20" text="화상 통화 중 동시 통역. 언어 장벽을 즉시 해결합니다.">
-<NavButton buttonLabel="데모 보기" buttonClass="brand" to="/#HowItWorks" />
-<NavButton buttonLabel="어시스턴트" buttonClass="alt" to="/chat" />
+<HeroSection title="**모든** 언어를 이해하세요" :typingSpeed="20" text="화상 회의 중 동시 통역. 언어 장벽을 즉시 해결합니다.">
+<NavButton buttonLabel="데모 보기" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="어시스턴트" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <span id="1"></span>
@@ -18,7 +18,7 @@ isHome: true
       title: '번역 ≠ 이해. 다음 단계를 소개합니다.',
       details: '언어에 관계없이 같은 언어를 사용하는 것처럼 당신의 목소리가 들리고 이해됩니다.',
       items: [
-        '✧ 자연스럽게, [실시간으로](./product/overview/how-it-works), 자막이나 지연 없이.',
+        '✧ [실시간으로](./product/overview/how-it-works) 자연스럽게, 자막이나 지연 없이.',
         '✧ AI 기반 통역이 톤, 의도, 업계별 전문 용어를 파악합니다.',
       ],
       link: './product/overview/what-is-intermind',
@@ -82,7 +82,7 @@ isHome: true
   />
 
 > **누구를 위한 것인가요?**  
-> _언어 장벽으로 인해 지연, 거래 실패, 비용이 많이 드는 오해가 발생하는 국제 팀을 위해 구축되었습니다._ [더 알아보기 ...](./product/overview/markets)
+> _언어 장벽으로 인해 지연, 거래 실패 또는 비용이 많이 드는 오해가 발생하는 국제 팀을 위해 구축되었습니다._ [더 알아보기 ...](./product/overview/markets)
 
 <span id="HowItWorks"></span>
 
@@ -143,9 +143,9 @@ isHome: true
 - 🧑‍💼 참가자 1은 **영어** 인터페이스를 사용합니다
 - 👩 참가자 2는 **중국어** 인터페이스를 사용합니다
 
-### 회의 중에는 무슨 일이 일어날까요?
+### 회의 중에는 어떤 일이 일어날까요?
 
-각 참가자는 제품에 입장할 때 선택한 언어로 **말하고 듣습니다**.  
+각 참가자는 제품에 접속할 때 선택한 언어로 **말하고 듣습니다**.  
 이 단일 언어 설정은 다음에 적용됩니다:
 
 - **인터페이스 언어**
@@ -219,7 +219,7 @@ isHome: true
       {
         title: '**비즈니스** &nbsp 100명 이상',
         price: '**맞춤형 가격**',
-        details: '프라이버시를 위해 구축',
+        details: '프라이버시를 위해 구축됨',
         items: [
           '**무제한** 회의',
           '**500**명 참가자 화상 회의 [💬](#3)',
@@ -275,7 +275,7 @@ isHome: true
       },
       {
         q: '도움이나 지원이 필요하면 어떻게 하나요?',
-        a: '[도움말 센터](./resources/help)를 통해 지원을 받을 수 있습니다. *Business* 사용자는 전담 연락처와 함께 **우선 지원**을 받습니다.',
+        a: '[도움말 센터](./resources/help)를 통해 지원을 받을 수 있습니다. *Business* 사용자는 전담 연락처를 통한 **우선 지원**을 받습니다.',
       },
       {
         q: '구독을 어떻게 관리하나요 (업그레이드, 다운그레이드 또는 취소)?',

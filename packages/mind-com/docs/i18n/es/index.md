@@ -1,15 +1,15 @@
 ---
 layout: home
 title: "InterMIND: Traducción de voz en tiempo real para videollamadas"
-description: "Videoconferencias profesionales con interpretación simultánea en más de 19 idiomas. Traducción impulsada por IA que captura el tono, la intención y el contexto. Reúnete globalmente, comunícate naturalmente."
+description: "Videoconferencias profesionales con interpretación simultánea en más de 19 idiomas. Traducción impulsada por IA que captura tono, intención y contexto. Reúnete globalmente, comunícate naturalmente."
 isHome: true
 ---
 
 <!-- <HeroSection title="Reúnete en **Cualquier** Idioma" :typingSpeed="10" text="Traducción de voz en vivo en videollamadas. Comprensión instantánea, sin barreras."> -->
 
-<HeroSection title="Entiende **Cualquier** Idioma" :typingSpeed="20" text="Interpretación simultánea durante videollamadas. Rompe las barreras del idioma al instante.">
-<NavButton buttonLabel="Ver demo" buttonClass="brand" to="/#HowItWorks" />
-<NavButton buttonLabel="Asistente" buttonClass="alt" to="/chat" />
+<HeroSection title="Entiende **Cualquier** Idioma" :typingSpeed="20" text="Interpretación simultánea durante videorreuniones. Rompe las barreras del idioma al instante.">
+<NavButton buttonLabel="Ver demo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="Asistente" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
 <span id="1"></span>
@@ -19,7 +19,7 @@ isHome: true
       details: 'Sin importar el idioma, tu voz es escuchada — y entendida — como si compartieras la misma lengua.',
       items: [
         '✧ Naturalmente, en [tiempo real](./product/overview/how-it-works), y sin subtítulos o retrasos.',
-        '✧ La interpretación impulsada por IA captura el tono, la intención y la terminología específica de la industria.',
+        '✧ La interpretación impulsada por IA captura tono, intención y terminología específica de la industria.',
       ],
       link: './product/overview/what-is-intermind',
       src: {
@@ -53,7 +53,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Construido para reuniones serias — no solo para hablar',
-      details: 'InterMIND es una [plataforma de videoconferencias de grado profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
+      details: 'InterMIND es una [plataforma de videorreuniones de grado profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
       items: [
         '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, **listo para usar**.',
       ],
@@ -152,17 +152,17 @@ Esta configuración de idioma único se aplica a:
 - La **entrada hablada** (lo que dices)
 - La **salida traducida** (lo que escuchas)
 
-| Participante   | Idioma seleccionado | Habla en  | Escucha en |
-| -------------- | ------------------- | --------- | ---------- |
-| Anfitrión      | Español             | Español   | Español    |
-| Participante 1 | Inglés              | Inglés    | Inglés     |
-| Participante 2 | Chino               | Chino     | Chino      |
+| Participante  | Idioma seleccionado | Habla en  | Escucha en |
+| ------------- | ------------------- | --------- | ---------- |
+| Anfitrión     | Español             | Español   | Español    |
+| Participante 1| Inglés              | Inglés    | Inglés     |
+| Participante 2| Chino               | Chino     | Chino      |
 
 [La plataforma interpreta automáticamente todo el habla en tiempo real](./product/overview/how-it-works) — así que todos se comunican como si hablaran el mismo idioma.
 
 ### ¿Puedes cambiar tu idioma durante la llamada?
 
-Sí. Puedes abrir **Configuración** y cambiar el campo `Tu idioma`:
+Sí. Puedes abrir la **Configuración** y cambiar el campo `Tu idioma`:
 
 :::details Panel de configuración
 <img src="/settings.png" alt="panel-de-configuracion" width="300px" />
@@ -176,7 +176,7 @@ Cambiar esto significa:
 
 > ✨ "Tu idioma" es una **configuración única unificada**  
 > Controla **cómo hablas**, **qué escuchas** y **qué ves**.  
-> Hablar en un idioma y escuchar en otro **no es compatible** — por diseño, para mantener la experiencia simple y predecible.
+> Hablar en un idioma y escuchar en otro **no está soportado** — por diseño, para mantener la experiencia simple y predecible.
 
 <span id="Testimonials"></span>
 
@@ -236,7 +236,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 <ContactForm buttonText="Hablar con nuestro equipo" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_Tu tiempo es mejor invertido dominando tu oficio — no memorizando gramática._**  
+> 💡 **_Tu tiempo se aprovecha mejor dominando tu oficio — no memorizando gramática._**  
 > 💡 **_Las verdaderas alianzas comienzan con conversaciones reales — en su idioma._**
 
 ## Preguntas Frecuentes

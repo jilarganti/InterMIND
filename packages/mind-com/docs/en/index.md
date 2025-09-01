@@ -312,7 +312,7 @@ From first call to fluent conversations — at any scale.
       {
         title: 'RESOURCES',
         links: [
-          { text: 'Blog', link: './blog' },
+          { text: 'Blog', link: './blog/' },
           { text: 'Brand Assets', link: './resources/media-kit' },
           { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],
