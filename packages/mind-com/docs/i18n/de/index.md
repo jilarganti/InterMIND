@@ -275,7 +275,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         q: 'Was ist, wenn ich Hilfe oder Support benötige?',
-        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **vorrangigen Support** mit einem dedizierten Ansprechpartner.',
+        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **prioritären Support** mit einem dedizierten Ansprechpartner.',
       },
       {
         q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
@@ -312,9 +312,9 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       {
         title: 'RESSOURCEN',
         links: [
-          { text: 'Blog', link: './blog' },
+          { text: 'Blog', link: './blog/' },
           { text: 'Marken-Assets', link: './resources/media-kit' },
-          { text: 'KI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
+          { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

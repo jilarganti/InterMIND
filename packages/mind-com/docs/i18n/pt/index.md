@@ -312,9 +312,9 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       {
         title: 'RECURSOS',
         links: [
-          { text: 'Blog', link: './blog' },
+          { text: 'Blog', link: './blog/' },
           { text: 'Recursos da marca', link: './resources/media-kit' },
-          { text: 'API de IA / Docs LLM', link: 'https://mind.com/llms-full.txt' },
+          { text: 'Documentação AI API / LLM', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

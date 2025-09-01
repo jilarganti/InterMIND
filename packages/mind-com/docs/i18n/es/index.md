@@ -53,7 +53,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Construido para reuniones serias — no solo para hablar',
-      details: 'InterMIND es una [plataforma de videorreuniones de grado profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
+      details: 'InterMIND es una [plataforma de videorreuniones de nivel profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
       items: [
         '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, **listo para usar**.',
       ],
@@ -176,7 +176,7 @@ Cambiar esto significa:
 
 > ✨ "Tu idioma" es una **configuración única unificada**  
 > Controla **cómo hablas**, **qué escuchas** y **qué ves**.  
-> Hablar en un idioma y escuchar en otro **no está soportado** — por diseño, para mantener la experiencia simple y predecible.
+> Hablar en un idioma y escuchar en otro **no es compatible** — por diseño, para mantener la experiencia simple y predecible.
 
 <span id="Testimonials"></span>
 
@@ -236,7 +236,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 <ContactForm buttonText="Hablar con nuestro equipo" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_Tu tiempo se aprovecha mejor dominando tu oficio — no memorizando gramática._**  
+> 💡 **_Tu tiempo es mejor invertido dominando tu oficio — no memorizando gramática._**  
 > 💡 **_Las verdaderas alianzas comienzan con conversaciones reales — en su idioma._**
 
 ## Preguntas Frecuentes
@@ -312,7 +312,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
       {
         title: 'RECURSOS',
         links: [
-          { text: 'Blog', link: './blog' },
+          { text: 'Blog', link: './blog/' },
           { text: 'Recursos de marca', link: './resources/media-kit' },
           { text: 'Documentos de API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
         ],

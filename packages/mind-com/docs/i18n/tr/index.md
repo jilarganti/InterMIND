@@ -158,7 +158,7 @@ Bu tek dil ayarı şunları kapsar:
 | Katılımcı 1   | İngilizce   | İngilizce     | İngilizce   |
 | Katılımcı 2   | Çince       | Çince         | Çince       |
 
-[Platform tüm konuşmaları gerçek zamanlı olarak otomatik yorumlar](./product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
+[Platform tüm konuşmaları gerçek zamanlı olarak otomatik olarak yorumlar](./product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
 
 ### Arama sırasında dilinizi değiştirebilir misiniz?
 
@@ -267,7 +267,7 @@ Bunu değiştirmek şu anlama gelir:
       },
       {
         q: 'InterMind veri gizliliği ve güvenliğini nasıl sağlıyor?',
-        a: 'InterMind **tasarım gereği gizlidir**. Tüm veriler seçtiğiniz **Gizlilik Bölgesi** içinde işlenir ve saklanır — _AB_, _ABD_ veya _Asya_. [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) ve BAE PDPL\'ye uygun çalışıyoruz ve **içeriğinizi asla** eğitim veya üçüncü taraf erişimi için kullanmıyoruz. Gelişmiş [Gizlilik Bölgesi kontrolü](./product/overview/privacy-architecture) **İş** planında mevcuttur.',
+        a: 'InterMind **tasarım gereği gizlidir**. Tüm veriler seçtiğiniz **Gizlilik Bölgesi** içinde işlenir ve saklanır — _AB_, _ABD_ veya _Asya_. [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) ve BAE PDPL\'ye uygun olarak çalışıyoruz ve **içeriğinizi asla** eğitim veya üçüncü taraf erişimi için kullanmayız. Gelişmiş [Gizlilik Bölgesi kontrolü](./product/overview/privacy-architecture) **İş** planında mevcuttur.',
       },
       {
         q: 'Bir plan satın almadan önce InterMind\'ı deneyebilir miyim?',
@@ -312,7 +312,7 @@ Bunu değiştirmek şu anlama gelir:
       {
         title: 'KAYNAKLAR',
         links: [
-          { text: 'Blog', link: './blog' },
+          { text: 'Blog', link: './blog/' },
           { text: 'Marka Varlıkları', link: './resources/media-kit' },
           { text: 'AI API / LLM Dokümanları', link: 'https://mind.com/llms-full.txt' },
         ],
