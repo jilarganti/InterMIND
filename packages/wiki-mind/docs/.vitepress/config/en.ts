@@ -25,14 +25,14 @@ export const en = defineConfig({
     nav: [
       {
         text: "Docs",
-        activeMatch: `${BASE_PATH}/nuxt/`,
-        link: `${BASE_PATH}/nuxt/getting-started/introduction`,
+        activeMatch: `${BASE_PATH}/nuxt/docs/`,
+        link: `${BASE_PATH}/nuxt/docs/getting-started/introduction`,
       },
     ],
 
     sidebar: {
       // [`${BASE_PATH}/nuxt/`]: { base: `${BASE_PATH}/nuxt/`, items: sidebarDocs() },
-      [`${BASE_PATH}/nuxt/`]: { base: `${BASE_PATH}/nuxt/`, items: generateSidebar() },
+      [`${BASE_PATH}/nuxt/docs/`]: { base: `${BASE_PATH}/nuxt/docs/`, items: generateSidebar() },
     },
 
     footer: {
