@@ -22,7 +22,7 @@ function toggle(index: number) {
   <div class="accordion-group">
     <div v-for="(item, index) in props.items" :key="index" class="accordion-item">
       <button class="accordion-header" @click="toggle(index as number)">
-        <span>{{ (item as AccordionItem).q }}</span>
+        <h4>{{ (item as AccordionItem).q }}</h4>
         <span class="accordion-emoji">
           {{ openStates[index as number] ? "↑" : "↓" }}
         </span>
@@ -47,11 +47,8 @@ function toggle(index: number) {
 
 .accordion-header {
   width: 100%;
-  text-align: left;
-  padding: 1rem;
-  font-size: 1.1rem;
+  padding: 0.5rem;
   cursor: pointer;
-  font-weight: 600;
   color: var(--vp-c-text-1);
   display: flex;
   justify-content: space-between;

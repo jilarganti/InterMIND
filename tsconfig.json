@@ -1,5 +1,4 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": ["**/*.{ts,vue}", "**/types/*.d.ts"],
-  "exclude": ["node_modules", "dist", "i18n"]
+  "files": []
 }
