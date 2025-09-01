@@ -11,15 +11,15 @@
     "files.exclude": {
       "LICENSE": true,
       "packages/mind-com": true,
-      "packages/draftium": true,
+      "packages/wiki-mind": true,
     },
     "search.exclude": {
       "packages/mind-com": true,
-      "packages/draftium": true,
+      "packages/wiki-mind": true,
     },
     "files.watcherExclude": {
       "**/packages/mind-com/**": true,
-      "**/packages/draftium/**": true,
+      "**/packages/wiki-mind/**": true,
     },
     "files.associations": {
       "*.vue": "vue",

@@ -23,7 +23,7 @@
     },
     // Переменные окружения для интегрированного терминала (macOS)
     "terminal.integrated.env.osx": {
-      "PACKAGE_PATH": "packages/draftium/",
+      "PACKAGE_PATH": "packages/wiki-mind/",
     },
   },
 }

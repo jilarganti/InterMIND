@@ -8,7 +8,7 @@ Monorepo for InterMIND platform and related services.
 | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [mind-com](./packages/mind-com)       | https://mind.com/ is a VitePress website with multilingual support, integrated with Pipedrive CRM, and AI Chat powered by Upstash Vector database. |
 | [golden-fish](./packages/golden-fish) | https://goldenfish.ae/ – UAE business formation services with AI chat and CRM integration                                                          |
-| [draftium](./packages/draftium)       | Draftium package for content management                                                                                                            |
+| [wiki-mind](./packages/wiki-mind)     | Draftium package for content management                                                                                                            |
 
 ## Quick Start
 
@@ -26,7 +26,7 @@ pnpm dev
 cd packages/mind-com     # Main website
 pnpm dev
 
-cd packages/draftium    # Content management
+cd packages/wiki-mind    # Content management
 pnpm dev
 ```
 
@@ -43,7 +43,7 @@ GoldenFishProject/
 ├── packages/
 │   ├── golden-fish/       # UAE business formation services
 │   ├── mind-com/          # Main website
-│   └── draftium/          # Content management
+│   └── wiki-mind/          # Content management
 ├── shared/                # Shared utilities
 ├── scripts/               # Build and automation scripts
 └── package.json           # Workspace configuration

@@ -1,1 +1,0 @@
-# Carrières chez Mind <Badge type="danger" text="Draft" />
