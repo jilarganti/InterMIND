@@ -48,7 +48,7 @@ export const ta = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">தனியுரிமை அமைப்புகள்</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">தனியுரிமை கொள்கை</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">AI சேவைகளுக்கான சட்ட விதிமுறைகள்</a> | <a href="https://status.mind.com/">சேவை நிலை</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">தனியுரிமை அமைப்புகள்</a> | <a href="${BASE_PATH}/resources/company/privacy-policy">தனியுரிமை கொள்கை</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">AI சேவைகளுக்கான சட்ட விதிமுறைகள்</a> | <a href="https://status.mind.com/">சேவை நிலை</a>`,
     },
 
     localization: {
@@ -126,7 +126,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "ஆதரவு பெறுங்கள்", link: "/help" },
-        { text: "தனியுரிமை கொள்கை", link: "/company/Privacy-Policy" },
+        { text: "தனியுரிமை கொள்கை", link: "/company/privacy-policy" },
         { text: "AI சட்ட வழிகாட்டி", link: "/company/legal-regulations-for-ai-services" },
       ],
     },

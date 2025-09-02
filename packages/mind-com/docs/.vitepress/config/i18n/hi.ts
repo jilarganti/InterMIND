@@ -47,7 +47,7 @@ export const hi = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">गोपनीयता सेटिंग्स</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">गोपनीयता नीति</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">AI सेवाओं के लिए कानूनी नियम</a> | <a href="https://status.mind.com/">सेवा स्थिति</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">गोपनीयता सेटिंग्स</a> | <a href="${BASE_PATH}/resources/company/privacy-policy">गोपनीयता नीति</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">AI सेवाओं के लिए कानूनी नियम</a> | <a href="https://status.mind.com/">सेवा स्थिति</a>`,
     },
 
     localization: {
@@ -125,7 +125,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "समर्थन प्राप्त करें", link: "/help" },
-        { text: "गोपनीयता नीति", link: "/company/Privacy-Policy" },
+        { text: "गोपनीयता नीति", link: "/company/privacy-policy" },
         { text: "AI कानूनी गाइड", link: "/company/legal-regulations-for-ai-services" },
       ],
     },

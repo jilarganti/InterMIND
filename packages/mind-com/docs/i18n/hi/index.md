@@ -303,7 +303,7 @@ isHome: true
         links: [
           { text: 'समर्थन प्राप्त करें', link: './resources/help' },
           { text: 'अक्सर पूछे जाने वाले प्रश्न', link: '#FAQ' },
-          { text: 'गोपनीयता नीति', link: './resources/company/Privacy-Policy' },
+          { text: 'गोपनीयता नीति', link: './resources/company/privacy-policy' },
           { text: 'AI कानूनी गाइड', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'सेवा स्थिति', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },

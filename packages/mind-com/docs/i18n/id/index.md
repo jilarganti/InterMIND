@@ -303,7 +303,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
         links: [
           { text: 'Dapatkan Dukungan', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Kebijakan Privasi', link: './resources/company/Privacy-Policy' },
+          { text: 'Kebijakan Privasi', link: './resources/company/privacy-policy' },
           { text: 'Panduan Hukum AI', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Status Layanan', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },

@@ -303,7 +303,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
         links: [
           { text: 'Obtener soporte', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Política de privacidad', link: './resources/company/Privacy-Policy' },
+          { text: 'Política de privacidad', link: './resources/company/privacy-policy' },
           { text: 'Guía legal de IA', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Estado del servicio', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },

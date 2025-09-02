@@ -48,7 +48,7 @@ export const id = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Pengaturan Privasi</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Kebijakan Privasi</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">Regulasi Hukum untuk Layanan AI</a> | <a href="https://status.mind.com/">Status layanan</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Pengaturan Privasi</a> | <a href="${BASE_PATH}/resources/company/privacy-policy">Kebijakan Privasi</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">Regulasi Hukum untuk Layanan AI</a> | <a href="https://status.mind.com/">Status layanan</a>`,
     },
 
     localization: {
@@ -126,7 +126,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Dapatkan dukungan", link: "/help" },
-        { text: "Kebijakan privasi", link: "/company/Privacy-Policy" },
+        { text: "Kebijakan privasi", link: "/company/privacy-policy" },
         { text: "Panduan hukum AI", link: "/company/legal-regulations-for-ai-services" },
       ],
     },

@@ -48,7 +48,7 @@ export const vi = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Cài đặt quyền riêng tư</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Chính sách bảo mật</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">Quy định pháp lý cho dịch vụ AI</a> | <a href="https://status.mind.com/">Trạng thái dịch vụ</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Cài đặt quyền riêng tư</a> | <a href="${BASE_PATH}/resources/company/privacy-policy">Chính sách bảo mật</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">Quy định pháp lý cho dịch vụ AI</a> | <a href="https://status.mind.com/">Trạng thái dịch vụ</a>`,
     },
 
     localization: {
@@ -126,7 +126,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Nhận hỗ trợ", link: "/help" },
-        { text: "Chính sách bảo mật", link: "/company/Privacy-Policy" },
+        { text: "Chính sách bảo mật", link: "/company/privacy-policy" },
         { text: "Hướng dẫn pháp lý AI", link: "/company/legal-regulations-for-ai-services" },
       ],
     },

@@ -48,7 +48,7 @@ export const fr = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">Réglementations légales pour les services IA</a> | <a href="https://status.mind.com/">Statut du service</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Paramètres de confidentialité</a> | <a href="${BASE_PATH}/resources/company/privacy-policy">Politique de confidentialité</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">Réglementations légales pour les services IA</a> | <a href="https://status.mind.com/">Statut du service</a>`,
     },
 
     localization: {
@@ -126,7 +126,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Obtenir de l'aide", link: "/help" },
-        { text: "Politique de confidentialité", link: "/company/Privacy-Policy" },
+        { text: "Politique de confidentialité", link: "/company/privacy-policy" },
         { text: "Guide juridique IA", link: "/company/legal-regulations-for-ai-services" },
       ],
     },

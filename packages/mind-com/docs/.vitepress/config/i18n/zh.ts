@@ -46,7 +46,7 @@ export const zh = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">隐私政策</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">AI服务法律法规</a> | <a href="https://status.mind.com/">服务状态</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">隐私设置</a> | <a href="${BASE_PATH}/resources/company/privacy-policy">隐私政策</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">AI服务法律法规</a> | <a href="https://status.mind.com/">服务状态</a>`,
     },
 
     localization: {
@@ -124,7 +124,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "获取支持", link: "/help" },
-        { text: "隐私政策", link: "/company/Privacy-Policy" },
+        { text: "隐私政策", link: "/company/privacy-policy" },
         { text: "AI法律指南", link: "/company/legal-regulations-for-ai-services" },
       ],
     },

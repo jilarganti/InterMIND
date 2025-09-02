@@ -303,7 +303,7 @@ isHome: true
         links: [
           { text: '지원 받기', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: '개인정보 처리방침', link: './resources/company/Privacy-Policy' },
+          { text: '개인정보 처리방침', link: './resources/company/privacy-policy' },
           { text: 'AI 법적 가이드', link: './resources/company/legal-regulations-for-ai-services' },
           { text: '서비스 상태', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },

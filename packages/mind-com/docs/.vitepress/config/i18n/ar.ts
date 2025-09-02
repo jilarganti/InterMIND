@@ -46,7 +46,7 @@ export const ar = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">إعدادات الخصوصية</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">سياسة الخصوصية</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">اللوائح القانونية لخدمات الذكاء الاصطناعي</a> | <a href="https://status.mind.com/">حالة الخدمة</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">إعدادات الخصوصية</a> | <a href="${BASE_PATH}/resources/company/privacy-policy">سياسة الخصوصية</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">اللوائح القانونية لخدمات الذكاء الاصطناعي</a> | <a href="https://status.mind.com/">حالة الخدمة</a>`,
     },
 
     localization: {
@@ -124,7 +124,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "الحصول على الدعم", link: "/help" },
-        { text: "سياسة الخصوصية", link: "/company/Privacy-Policy" },
+        { text: "سياسة الخصوصية", link: "/company/privacy-policy" },
         { text: "دليل القوانين للذكاء الاصطناعي", link: "/company/legal-regulations-for-ai-services" },
       ],
     },

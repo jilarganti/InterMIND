@@ -303,7 +303,7 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
         links: [
           { text: 'Obtenir de l\'aide', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Politique de confidentialité', link: './resources/company/Privacy-Policy' },
+          { text: 'Politique de confidentialité', link: './resources/company/privacy-policy' },
           { text: 'Guide juridique IA', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'État du service', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },

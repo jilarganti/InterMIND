@@ -303,7 +303,7 @@ isHome: true
         links: [
           { text: 'الحصول على الدعم', link: './resources/help' },
           { text: 'الأسئلة الشائعة', link: '#FAQ' },
-          { text: 'سياسة الخصوصية', link: './resources/company/Privacy-Policy' },
+          { text: 'سياسة الخصوصية', link: './resources/company/privacy-policy' },
           { text: 'دليل القانون للذكاء الاصطناعي', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'حالة الخدمة', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },

@@ -303,7 +303,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         links: [
           { text: 'Support erhalten', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Datenschutzrichtlinie', link: './resources/company/Privacy-Policy' },
+          { text: 'Datenschutzrichtlinie', link: './resources/company/privacy-policy' },
           { text: 'KI-Rechtsleitfaden', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Service-Status', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },

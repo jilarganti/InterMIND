@@ -303,7 +303,7 @@ isHome: true
         links: [
           { text: '获取支持', link: './resources/help' },
           { text: '常见问题', link: '#FAQ' },
-          { text: '隐私政策', link: './resources/company/Privacy-Policy' },
+          { text: '隐私政策', link: './resources/company/privacy-policy' },
           { text: 'AI法律指南', link: './resources/company/legal-regulations-for-ai-services' },
           { text: '服务状态', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },

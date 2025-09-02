@@ -46,7 +46,7 @@ export const ja = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">プライバシー設定</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">プライバシーポリシー</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">AIサービスの法的規制</a> | <a href="https://status.mind.com/">サービス状況</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">プライバシー設定</a> | <a href="${BASE_PATH}/resources/company/privacy-policy">プライバシーポリシー</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">AIサービスの法的規制</a> | <a href="https://status.mind.com/">サービス状況</a>`,
     },
 
     localization: {
@@ -124,7 +124,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "サポートを受ける", link: "/help" },
-        { text: "プライバシーポリシー", link: "/company/Privacy-Policy" },
+        { text: "プライバシーポリシー", link: "/company/privacy-policy" },
         { text: "AI法的ガイド", link: "/company/legal-regulations-for-ai-services" },
       ],
     },

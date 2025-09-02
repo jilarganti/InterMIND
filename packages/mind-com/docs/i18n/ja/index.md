@@ -303,7 +303,7 @@ isHome: true
         links: [
           { text: 'サポートを受ける', link: './resources/help' },
           { text: 'よくある質問', link: '#FAQ' },
-          { text: 'プライバシーポリシー', link: './resources/company/Privacy-Policy' },
+          { text: 'プライバシーポリシー', link: './resources/company/privacy-policy' },
           { text: 'AI法的ガイド', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'サービス状況', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },

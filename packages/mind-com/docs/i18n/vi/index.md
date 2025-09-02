@@ -152,11 +152,11 @@ Cài đặt ngôn ngữ duy nhất này áp dụng cho:
 - **Đầu vào giọng nói** (những gì bạn nói)
 - **Đầu ra đã dịch** (những gì bạn nghe)
 
-| Người tham gia | Ngôn ngữ đã chọn | Nói bằng | Nghe bằng |
-| -------------- | ---------------- | -------- | --------- |
-| Chủ trì        | Tiếng Tây Ban Nha| Tiếng Tây Ban Nha | Tiếng Tây Ban Nha |
-| Người tham gia 1| Tiếng Anh       | Tiếng Anh| Tiếng Anh |
-| Người tham gia 2| Tiếng Trung     | Tiếng Trung | Tiếng Trung |
+| Người tham gia   | Ngôn ngữ đã chọn  | Nói bằng          | Nghe bằng         |
+| ---------------- | ----------------- | ----------------- | ----------------- |
+| Chủ trì          | Tiếng Tây Ban Nha | Tiếng Tây Ban Nha | Tiếng Tây Ban Nha |
+| Người tham gia 1 | Tiếng Anh         | Tiếng Anh         | Tiếng Anh         |
+| Người tham gia 2 | Tiếng Trung       | Tiếng Trung       | Tiếng Trung       |
 
 [Nền tảng tự động diễn giải tất cả lời nói theo thời gian thực](./product/overview/how-it-works) — vì vậy mọi người giao tiếp như thể họ nói cùng một ngôn ngữ.
 
@@ -303,7 +303,7 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
         links: [
           { text: 'Nhận hỗ trợ', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Chính sách bảo mật', link: './resources/company/Privacy-Policy' },
+          { text: 'Chính sách bảo mật', link: './resources/company/privacy-policy' },
           { text: 'Hướng dẫn pháp lý AI', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Trạng thái dịch vụ', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },

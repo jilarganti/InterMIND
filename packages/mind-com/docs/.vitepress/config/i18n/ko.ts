@@ -46,7 +46,7 @@ export const ko = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">개인정보 설정</a> | <a href="${BASE_PATH}/resources/company/Privacy-Policy">개인정보 처리방침</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">AI 서비스 법적 규정</a> | <a href="https://status.mind.com/">서비스 상태</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">개인정보 설정</a> | <a href="${BASE_PATH}/resources/company/privacy-policy">개인정보 처리방침</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">AI 서비스 법적 규정</a> | <a href="https://status.mind.com/">서비스 상태</a>`,
     },
 
     localization: {
@@ -124,7 +124,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "지원 받기", link: "/help" },
-        { text: "개인정보 처리방침", link: "/company/Privacy-Policy" },
+        { text: "개인정보 처리방침", link: "/company/privacy-policy" },
         { text: "AI 법적 가이드", link: "/company/legal-regulations-for-ai-services" },
       ],
     },

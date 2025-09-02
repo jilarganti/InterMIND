@@ -303,7 +303,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
         links: [
           { text: 'Obter suporte', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Política de privacidade', link: './resources/company/Privacy-Policy' },
+          { text: 'Política de privacidade', link: './resources/company/privacy-policy' },
           { text: 'Guia legal de IA', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Status do serviço', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },

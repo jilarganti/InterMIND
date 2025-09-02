@@ -303,7 +303,7 @@ isHome: true
         links: [
           { text: 'Получить поддержку', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Политика конфиденциальности', link: './resources/company/Privacy-Policy' },
+          { text: 'Политика конфиденциальности', link: './resources/company/privacy-policy' },
           { text: 'Правовое руководство по ИИ', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Статус сервиса', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },

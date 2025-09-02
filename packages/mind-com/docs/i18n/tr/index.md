@@ -303,7 +303,7 @@ Bunu değiştirmek şu anlama gelir:
         links: [
           { text: 'Destek Al', link: './resources/help' },
           { text: 'SSS', link: '#FAQ' },
-          { text: 'Gizlilik Politikası', link: './resources/company/Privacy-Policy' },
+          { text: 'Gizlilik Politikası', link: './resources/company/privacy-policy' },
           { text: 'AI Hukuki Rehberi', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Servis Durumu', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },
