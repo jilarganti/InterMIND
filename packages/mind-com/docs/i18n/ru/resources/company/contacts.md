@@ -12,11 +12,12 @@ description: "Хотите стать партнером InterMind, инвест
 <br>
 
 <ContactForm
-  formStyle="margin: 1rem auto;"  
-  categoryLabel="По какой причине вы обращаетесь к нам? *"  
-  categoryPlaceholderText="Выберите вашу тему..."  
-  messageLabel="Сообщение *"  
-  messagePlaceholderText="Поделитесь любой релевантной информацией, временными рамками или контекстом, который вы хотели бы, чтобы мы рассмотрели."  
+  :inline="true"
+  formStyle="margin: 1rem auto;"
+  categoryLabel="По какой причине вы обращаетесь к нам? *"
+  categoryPlaceholderText="Выберите вашу тему..."
+  messageLabel="Сообщение *"
+  messagePlaceholderText="Поделитесь любой релевантной информацией, временными рамками или контекстом, который вы хотели бы, чтобы мы рассмотрели."
   buttonText="Отправить сообщение"  
   :services="[
     'Возможность стратегического партнерства',

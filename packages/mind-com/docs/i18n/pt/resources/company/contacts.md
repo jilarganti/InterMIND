@@ -12,11 +12,12 @@ Garantiremos que sua mensagem chegue à pessoa certa.
 <br>
 
 <ContactForm
-  formStyle="margin: 1rem auto;"  
-  categoryLabel="Qual é o motivo do seu contato? *"  
-  categoryPlaceholderText="Escolha seu tópico..."  
-  messageLabel="Mensagem *"  
-  messagePlaceholderText="Compartilhe qualquer contexto relevante, cronogramas ou informações que gostaria que considerássemos."  
+  :inline="true"
+  formStyle="margin: 1rem auto;"
+  categoryLabel="Qual é o motivo do seu contato? *"
+  categoryPlaceholderText="Escolha seu tópico..."
+  messageLabel="Mensagem *"
+  messagePlaceholderText="Compartilhe qualquer contexto relevante, cronogramas ou informações que gostaria que considerássemos."
   buttonText="Enviar sua mensagem"  
   :services="[
     'Oportunidade de parceria estratégica',

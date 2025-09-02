@@ -7,15 +7,39 @@ description: "Haben Sie Fragen zur KI-gestützten Meeting-Dolmetschung, mehrspra
 Lassen Sie uns wissen, was Sie erreichen möchten — und wir helfen Ihnen dabei, voranzukommen.  
 Schnell, fokussiert und mit einem echten Menschen am anderen Ende.
 
+<!-- <br>
+
+<ContactForm
+  formStyle="margin: 1rem auto;"
+  categoryLabel="Was führt Sie heute zu InterMind? *"
+  categoryPlaceholderText="Wählen Sie Ihren Hauptgrund…"
+  messageLabel="Erzählen Sie uns mehr *"
+  messagePlaceholderText="Alles, was Sie teilen möchten — Ziele, Kontext oder technische Details."
+  buttonText="Jetzt Expertenunterstützung erhalten"
+  :services="[
+    'Ich benötige Hilfe beim Einstieg',
+    'Ich möchte eine Demo vereinbaren',
+    'Ich habe ein technisches Problem oder einen Bug',
+    'Ich benötige Hilfe bei der Meeting-Integration',
+    'Ich habe Fragen zur Übersetzungsqualität',
+    'Ich benötige Unterstützung beim Team-Onboarding',
+    'Ich habe Fragen zur Abrechnung oder zum Abonnement',
+    'Ich möchte Enterprise-Funktionen erkunden',
+    'Ich möchte Mind API Anwendungs-ID und Token ohne Einschränkungen erhalten',
+    'Allgemeine Frage oder Feedback'
+  ]" /> -->
+
 <br>
 
-<ContactForm   
+<!-- ## Or use the inline form: -->
+
+<ContactForm 
+  :inline="true"
   formStyle="margin: 1rem auto;"  
   categoryLabel="Was führt Sie heute zu InterMind? *"  
   categoryPlaceholderText="Wählen Sie Ihren Hauptgrund…"  
   messageLabel="Erzählen Sie uns mehr *"  
   messagePlaceholderText="Alles, was Sie teilen möchten — Ziele, Kontext oder technische Details."  
-  buttonText="Jetzt Expertenunterstützung erhalten"  
   :services="[
     'Ich benötige Hilfe beim Einstieg',
     'Ich möchte eine Demo vereinbaren',

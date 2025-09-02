@@ -7,15 +7,39 @@ description: "对AI驱动的会议口译、多语言沟通或企业入门有疑�
 告诉我们您想要实现什么——我们将帮助您向前推进。  
 快速、专注，并且有真人为您服务。
 
+<!-- <br>
+
+<ContactForm
+  formStyle="margin: 1rem auto;"
+  categoryLabel="今天是什么让您来到InterMind？*"
+  categoryPlaceholderText="选择您的主要原因…"
+  messageLabel="告诉我们更多 *"
+  messagePlaceholderText="您想分享的任何内容——目标、背景或技术细节。"
+  buttonText="立即获得专家帮助"
+  :services="[
+    '我需要入门帮助',
+    '我想安排演示',
+    '我遇到技术问题或错误',
+    '我需要会议集成帮助',
+    '我对翻译质量有疑问',
+    '我需要团队入门协助',
+    '我有账单或订阅问题',
+    '我想了解企业功能',
+    '我想获得Mind API应用程序ID和令牌，无限制',
+    '一般问题或反馈'
+  ]" /> -->
+
 <br>
 
-<ContactForm   
+<!-- ## Or use the inline form: -->
+
+<ContactForm 
+  :inline="true"
   formStyle="margin: 1rem auto;"  
   categoryLabel="今天是什么让您来到InterMind？*"  
   categoryPlaceholderText="选择您的主要原因…"  
-  messageLabel="告诉我们更多信息 *"  
+  messageLabel="告诉我们更多 *"  
   messagePlaceholderText="您想分享的任何内容——目标、背景或技术细节。"  
-  buttonText="立即获得专家帮助"  
   :services="[
     '我需要入门帮助',
     '我想安排演示',

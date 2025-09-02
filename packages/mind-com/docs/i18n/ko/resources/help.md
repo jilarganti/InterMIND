@@ -7,15 +7,39 @@ description: "AI 기반 회의 통역, 다국어 커뮤니케이션 또는 기�
 달성하고자 하는 목표를 알려주시면 — 앞으로 나아갈 수 있도록 도와드리겠습니다.  
 빠르고 집중적이며, 실제 사람이 응답합니다.
 
+<!-- <br>
+
+<ContactForm
+  formStyle="margin: 1rem auto;"
+  categoryLabel="오늘 InterMind를 찾아주신 이유는 무엇인가요? *"
+  categoryPlaceholderText="주요 이유를 선택해주세요…"
+  messageLabel="자세히 알려주세요 *"
+  messagePlaceholderText="목표, 상황 또는 기술적 세부사항 등 공유하고 싶은 내용이 있으시면 무엇이든 말씀해주세요."
+  buttonText="지금 전문가 도움 받기"
+  :services="[
+    '시작하는 데 도움이 필요합니다',
+    '데모 일정을 잡고 싶습니다',
+    '기술적 문제나 버그가 있습니다',
+    '회의 통합에 도움이 필요합니다',
+    '번역 품질에 대한 질문이 있습니다',
+    '팀 온보딩 지원이 필요합니다',
+    '결제나 구독에 대한 질문이 있습니다',
+    '기업용 기능을 알아보고 싶습니다',
+    '제한 없이 Mind API 애플리케이션 ID와 토큰을 받고 싶습니다',
+    '일반적인 질문이나 피드백'
+  ]" /> -->
+
 <br>
 
-<ContactForm   
+<!-- ## Or use the inline form: -->
+
+<ContactForm 
+  :inline="true"
   formStyle="margin: 1rem auto;"  
   categoryLabel="오늘 InterMind를 찾아주신 이유는 무엇인가요? *"  
   categoryPlaceholderText="주요 이유를 선택해주세요…"  
   messageLabel="자세히 알려주세요 *"  
   messagePlaceholderText="목표, 상황 또는 기술적 세부사항 등 공유하고 싶은 내용이 있으시면 무엇이든 말씀해주세요."  
-  buttonText="지금 전문가 도움 받기"  
   :services="[
     '시작하는 데 도움이 필요합니다',
     '데모 일정을 잡고 싶습니다',

@@ -5,18 +5,19 @@ description: "¿Quieres asociarte con InterMind, invertir o contactar a nuestro 
 # 🤝 ¿Quieres contactar a InterMind? Conectemos.
 
 Usa este formulario para contactar directamente a nuestro equipo corporativo —  
-para asociaciones, inversiones, medios, cumplimiento u otros asuntos relacionados con negocios.
+para asociaciones, inversiones, medios, cumplimiento u otros asuntos relacionados con el negocio.
 
 Nos aseguraremos de que tu mensaje llegue a la persona correcta.
 
 <br>
 
 <ContactForm
-  formStyle="margin: 1rem auto;"  
-  categoryLabel="¿Cuál es tu motivo para contactarnos? *"  
-  categoryPlaceholderText="Elige tu tema..."  
-  messageLabel="Mensaje *"  
-  messagePlaceholderText="Comparte cualquier contexto relevante, cronogramas o información que te gustaría que consideremos."  
+  :inline="true"
+  formStyle="margin: 1rem auto;"
+  categoryLabel="¿Cuál es tu motivo para contactarnos? *"
+  categoryPlaceholderText="Elige tu tema..."
+  messageLabel="Mensaje *"
+  messagePlaceholderText="Comparte cualquier contexto relevante, cronogramas o información que te gustaría que consideremos."
   buttonText="Enviar tu mensaje"  
   :services="[
     'Oportunidad de asociación estratégica',

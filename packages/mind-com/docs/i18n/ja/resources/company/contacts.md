@@ -2,21 +2,22 @@
 description: "InterMindとのパートナーシップ、投資、または経営陣へのご連絡をお考えですか？ビジネスに関するお問い合わせ、メディア関係者の方、法的事項についてはこちらのフォームをご利用ください。"
 ---
 
-# 🤝 InterMindにご連絡をお考えですか？お気軽にお声がけください。
+# 🤝 InterMindにご連絡をお考えですか？お気軽にお問い合わせください。
 
 こちらのフォームから弊社チームに直接ご連絡いただけます —  
-パートナーシップ、投資、メディア、コンプライアンス、その他ビジネス関連のご相談について。
+パートナーシップ、投資、メディア、コンプライアンス、その他ビジネス関連のお問い合わせに対応いたします。
 
 お客様のメッセージを適切な担当者にお届けいたします。
 
 <br>
 
 <ContactForm
-  formStyle="margin: 1rem auto;"  
-  categoryLabel="お問い合わせの理由をお聞かせください *"  
-  categoryPlaceholderText="トピックを選択してください..."  
-  messageLabel="メッセージ *"  
-  messagePlaceholderText="関連する背景情報、スケジュール、またはご検討いただきたい内容をお聞かせください。"  
+  :inline="true"
+  formStyle="margin: 1rem auto;"
+  categoryLabel="お問い合わせの理由をお聞かせください *"
+  categoryPlaceholderText="トピックを選択してください..."
+  messageLabel="メッセージ *"
+  messagePlaceholderText="関連する背景情報、スケジュール、またはご検討いただきたい内容をお聞かせください。"
   buttonText="メッセージを送信"  
   :services="[
     '戦略的パートナーシップの機会',

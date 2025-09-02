@@ -7,25 +7,49 @@ description: "AI destekli toplantı çevirisi, çok dilli iletişim veya kurumsa
 Neyi başarmaya çalıştığınızı bize bildirin — ve ilerlemenize yardımcı olalım.  
 Hızlı, odaklı ve karşı tarafta gerçek bir insan ile.
 
-<br>
+<!-- <br>
 
-<ContactForm   
-  formStyle="margin: 1rem auto;"  
-  categoryLabel="Sizi bugün InterMind'a getiren nedir? *"  
-  categoryPlaceholderText="Ana nedeninizi seçin…"  
-  messageLabel="Bize daha fazla bilgi verin *"  
-  messagePlaceholderText="Paylaşmak istediğiniz herhangi bir şey — hedefler, bağlam veya teknik detaylar."  
-  buttonText="Şimdi uzman yardımı alın"  
+<ContactForm
+  formStyle="margin: 1rem auto;"
+  categoryLabel="Sizi bugün InterMind'a getiren nedir? *"
+  categoryPlaceholderText="Ana nedeninizi seçin…"
+  messageLabel="Bize daha fazla bilgi verin *"
+  messagePlaceholderText="Paylaşmak istediğiniz herhangi bir şey — hedefler, bağlam veya teknik detaylar."
+  buttonText="Şimdi uzman yardımı alın"
   :services="[
     'Başlamak için yardıma ihtiyacım var',
     'Bir demo planlamak istiyorum',
-    'Teknik bir sorunum veya hatam var',
+    'Teknik bir sorunum veya hata var',
     'Toplantı entegrasyonu konusunda yardıma ihtiyacım var',
     'Çeviri kalitesi hakkında sorularım var',
     'Takım onboarding konusunda yardıma ihtiyacım var',
     'Faturalandırma veya abonelik sorularım var',
     'Kurumsal özellikleri keşfetmek istiyorum',
-    'Kısıtlama olmadan Mind API uygulama kimliği ve token almak istiyorum',
+    'Kısıtlama olmadan Mind API uygulama ID\'si ve token\'ı almak istiyorum',
+    'Genel soru veya geri bildirim'
+  ]" /> -->
+
+<br>
+
+<!-- ## Or use the inline form: -->
+
+<ContactForm 
+  :inline="true"
+  formStyle="margin: 1rem auto;"  
+  categoryLabel="Sizi bugün InterMind'a getiren nedir? *"  
+  categoryPlaceholderText="Ana nedeninizi seçin…"  
+  messageLabel="Bize daha fazla bilgi verin *"  
+  messagePlaceholderText="Paylaşmak istediğiniz herhangi bir şey — hedefler, bağlam veya teknik detaylar."  
+  :services="[
+    'Başlamak için yardıma ihtiyacım var',
+    'Bir demo planlamak istiyorum',
+    'Teknik bir sorunum veya hata var',
+    'Toplantı entegrasyonu konusunda yardıma ihtiyacım var',
+    'Çeviri kalitesi hakkında sorularım var',
+    'Takım onboarding konusunda yardıma ihtiyacım var',
+    'Faturalandırma veya abonelik sorularım var',
+    'Kurumsal özellikleri keşfetmek istiyorum',
+    'Kısıtlama olmadan Mind API uygulama ID\'si ve token\'ı almak istiyorum',
     'Genel soru veya geri bildirim'
   ]" />
 

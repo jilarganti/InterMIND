@@ -7,15 +7,15 @@ description: "¿Tienes preguntas sobre interpretación de reuniones con IA, comu
 Cuéntanos qué estás tratando de lograr — y te ayudaremos a avanzar.  
 Rápido, enfocado, y con una persona real del otro lado.
 
-<br>
+<!-- <br>
 
-<ContactForm   
-  formStyle="margin: 1rem auto;"  
-  categoryLabel="¿Qué te trae a InterMind hoy? *"  
-  categoryPlaceholderText="Elige tu razón principal…"  
-  messageLabel="Cuéntanos más *"  
-  messagePlaceholderText="Cualquier cosa que te gustaría compartir — objetivos, contexto o detalles técnicos."  
-  buttonText="Obtener ayuda experta ahora"  
+<ContactForm
+  formStyle="margin: 1rem auto;"
+  categoryLabel="¿Qué te trae a InterMind hoy? *"
+  categoryPlaceholderText="Elige tu razón principal…"
+  messageLabel="Cuéntanos más *"
+  messagePlaceholderText="Cualquier cosa que te gustaría compartir — objetivos, contexto o detalles técnicos."
+  buttonText="Obtener ayuda experta ahora"
   :services="[
     'Necesito ayuda para comenzar',
     'Quiero programar una demostración',
@@ -25,11 +25,35 @@ Rápido, enfocado, y con una persona real del otro lado.
     'Necesito asistencia con la incorporación del equipo',
     'Tengo preguntas sobre facturación o suscripción',
     'Quiero explorar las funciones empresariales',
-    'Quiero obtener el ID de aplicación y token de Mind API sin restricciones',
+    'Quiero obtener ID de aplicación y token de Mind API sin restricciones',
+    'Pregunta general o comentario'
+  ]" /> -->
+
+<br>
+
+<!-- ## Or use the inline form: -->
+
+<ContactForm 
+  :inline="true"
+  formStyle="margin: 1rem auto;"  
+  categoryLabel="¿Qué te trae a InterMind hoy? *"  
+  categoryPlaceholderText="Elige tu razón principal…"  
+  messageLabel="Cuéntanos más *"  
+  messagePlaceholderText="Cualquier cosa que te gustaría compartir — objetivos, contexto o detalles técnicos."  
+  :services="[
+    'Necesito ayuda para comenzar',
+    'Quiero programar una demostración',
+    'Tengo un problema técnico o error',
+    'Necesito ayuda con la integración de reuniones',
+    'Tengo preguntas sobre la calidad de traducción',
+    'Necesito asistencia con la incorporación del equipo',
+    'Tengo preguntas sobre facturación o suscripción',
+    'Quiero explorar las funciones empresariales',
+    'Quiero obtener ID de aplicación y token de Mind API sin restricciones',
     'Pregunta general o comentario'
   ]" />
 
 <br>
 
-> **Usualmente respondemos dentro de un día hábil.**
+> **Normalmente respondemos dentro de un día hábil.**
 > _Tu solicitud será revisada por una persona real — no un bot._
