@@ -82,7 +82,7 @@ export default defineConfig({
       isProduction &&
         llmstxt({
           workDir: "en",
-          ignoreFiles: ["exp/*", "chat.md"],
+          ignoreFiles: ["exp/*", "resources/*", "account/*", "promo/*", "chat.md"],
         }),
     ],
   },
