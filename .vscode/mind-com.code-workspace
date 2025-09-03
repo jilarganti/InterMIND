@@ -9,7 +9,7 @@
   ],
   "settings": {
     "files.exclude": {
-      "**/.git": false, // 👈 делаем папку .git видимой
+      "**/.git": true,
       "packages/golden-fish": true,
       "packages/wiki-mind": true,
     },
