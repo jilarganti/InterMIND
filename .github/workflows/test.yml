@@ -2,36 +2,36 @@ name: Tests
 
 on:
   push:
-    branches: [ main, dangerous-tarantula ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   test:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        
-    - name: Setup pnpm
-      uses: pnpm/action-setup@v4
-      with:
-        version: 8
-        
-    - name: Install dependencies
-      run: pnpm install
-      
-    - name: Run tests for mind-com
-      run: pnpm --filter mind-com test
-      
-    - name: Upload coverage reports
-      uses: codecov/codecov-action@v3
-      with:
-        directory: ./packages/mind-com/coverage
-        flags: mind-com
-        name: mind-com-coverage
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Run tests for mind-com
+        run: pnpm --filter mind-com test
+
+      - name: Upload coverage reports
+        uses: codecov/codecov-action@v3
+        with:
+          directory: ./packages/mind-com/coverage
+          flags: mind-com
+          name: mind-com-coverage
