@@ -55,5 +55,6 @@ Nhanh chóng, tập trung, và với một con người thật ở đầu bên k
 
 <br>
 
-> **Chúng tôi thường phản hồi trong vòng một ngày làm việc.**
+> _Chúng tôi thường phản hồi trong vòng một ngày làm việc._
+
 > _Yêu cầu của bạn sẽ được xem xét bởi một con người thật — không phải bot._

@@ -55,5 +55,6 @@ Cepat, fokus, dan dengan manusia sungguhan di ujung sana.
 
 <br>
 
-> **Kami biasanya merespons dalam satu hari kerja.**
+> _Kami biasanya merespons dalam satu hari kerja._
+
 > _Permintaan Anda akan ditinjau oleh manusia sungguhan — bukan bot._

@@ -55,5 +55,6 @@ Rápido, focado e com uma pessoa real do outro lado.
 
 <br>
 
-> **Geralmente respondemos em até um dia útil.**
+> _Geralmente respondemos em até um dia útil._
+
 > _Sua solicitação será analisada por uma pessoa real — não por um bot._

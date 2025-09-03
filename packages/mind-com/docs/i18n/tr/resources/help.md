@@ -11,7 +11,7 @@ Hızlı, odaklı ve karşı tarafta gerçek bir insan ile.
 
 <ContactForm
   formStyle="margin: 1rem auto;"
-  categoryLabel="Sizi bugün InterMind'a getiren nedir? *"
+  categoryLabel="Bugün sizi InterMind'a getiren nedir? *"
   categoryPlaceholderText="Ana nedeninizi seçin…"
   messageLabel="Bize daha fazla bilgi verin *"
   messagePlaceholderText="Paylaşmak istediğiniz herhangi bir şey — hedefler, bağlam veya teknik detaylar."
@@ -25,7 +25,7 @@ Hızlı, odaklı ve karşı tarafta gerçek bir insan ile.
     'Takım onboarding konusunda yardıma ihtiyacım var',
     'Faturalandırma veya abonelik sorularım var',
     'Kurumsal özellikleri keşfetmek istiyorum',
-    'Kısıtlama olmadan Mind API uygulama ID\'si ve token\'ı almak istiyorum',
+    'Kısıtlama olmadan Mind API uygulama kimliği ve token almak istiyorum',
     'Genel soru veya geri bildirim'
   ]" /> -->
 
@@ -36,7 +36,7 @@ Hızlı, odaklı ve karşı tarafta gerçek bir insan ile.
 <ContactForm 
   :inline="true"
   formStyle="margin: 1rem auto;"  
-  categoryLabel="Sizi bugün InterMind'a getiren nedir? *"  
+  categoryLabel="Bugün sizi InterMind'a getiren nedir? *"  
   categoryPlaceholderText="Ana nedeninizi seçin…"  
   messageLabel="Bize daha fazla bilgi verin *"  
   messagePlaceholderText="Paylaşmak istediğiniz herhangi bir şey — hedefler, bağlam veya teknik detaylar."  
@@ -49,11 +49,12 @@ Hızlı, odaklı ve karşı tarafta gerçek bir insan ile.
     'Takım onboarding konusunda yardıma ihtiyacım var',
     'Faturalandırma veya abonelik sorularım var',
     'Kurumsal özellikleri keşfetmek istiyorum',
-    'Kısıtlama olmadan Mind API uygulama ID\'si ve token\'ı almak istiyorum',
+    'Kısıtlama olmadan Mind API uygulama kimliği ve token almak istiyorum',
     'Genel soru veya geri bildirim'
   ]" />
 
 <br>
 
-> **Genellikle bir iş günü içinde yanıt veriyoruz.**
-> _Talebiniz gerçek bir insan tarafından incelenecek — bot tarafından değil._
+> _Genellikle bir iş günü içinde yanıt veriyoruz._
+
+> _Talebiniz bir bot tarafından değil, gerçek bir insan tarafından incelenecek._
