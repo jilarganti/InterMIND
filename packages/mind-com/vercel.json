@@ -21,5 +21,12 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/company/about/",
+      "destination": "/resources/company/about/",
+      "permanent": true
+    }
   ]
 }
