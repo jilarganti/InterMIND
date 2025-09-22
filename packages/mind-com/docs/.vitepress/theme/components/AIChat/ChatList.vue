@@ -142,9 +142,9 @@ const updateSearchInput = (event: Event) => {
       </div>
 
       <!-- Если список пуст, показываем сообщение -->
-      <div v-if="Object.keys(flattenedGroups).length === 0" class="empty-list-message">
+      <!-- <div v-if="Object.keys(flattenedGroups).length === 0" class="empty-list-message">
         <p>Нет чатов, соответствующих поиску</p>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
