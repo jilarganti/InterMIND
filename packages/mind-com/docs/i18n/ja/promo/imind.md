@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "ビデオ会議の再構築 — mind.comで新登場"
-description: "iMindからInterMINDへ：リアルタイムAI搭載通訳機能付きの音声優先ビデオ通話。"
+description: "iMindからInterMINDへ：リアルタイムAI通訳機能付きの音声優先ビデオ通話。"
 ---
 
 <HeroSection

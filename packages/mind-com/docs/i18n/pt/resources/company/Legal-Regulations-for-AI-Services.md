@@ -10,7 +10,7 @@ Para os fins desta isenção de responsabilidade, os seguintes termos terão os 
 
 "Conteúdo gerado por IA" refere-se a qualquer texto, imagem, recomendação, sugestão, resposta ou outro conteúdo criado, produzido ou formulado por nossos sistemas de IA em resposta a entradas ou consultas do usuário.
 
-"Usuário" refere-se a qualquer indivíduo ou entidade que acessa, usa ou interage com os recursos de IA disponíveis em nosso site ou serviços.
+"Usuário" refere-se a qualquer indivíduo ou entidade que acesse, use ou interaja com os recursos de IA disponíveis em nosso site ou serviços.
 
 "Aconselhamento profissional" refere-se à orientação especializada normalmente fornecida por profissionais qualificados em áreas como direito, medicina, finanças, engenharia ou outras profissões regulamentadas que requerem conhecimento específico, certificações ou licenças.
 
@@ -22,17 +22,17 @@ Para os fins desta isenção de responsabilidade, os seguintes termos terão os 
 
 Este site incorpora recursos de inteligência artificial ("IA") projetados para aprimorar a experiência do usuário através de respostas automatizadas, geração de conteúdo e recomendações personalizadas. Ao usar esses recursos de IA, você reconhece e concorda com os seguintes termos e condições:
 
-## Declaração de conformidade de licenciamento
+## Declaração de Conformidade de Licenciamento
 
 A Empresa cumpre integralmente todos os termos de uso e mantém acordos de licenciamento apropriados com os desenvolvedores dos modelos de IA utilizados neste website. Todas as tecnologias de IA implementadas pela Empresa são devidamente licenciadas e utilizadas de acordo com os termos contratuais estabelecidos pelos respectivos Desenvolvedores de IA. Nossa conformidade com esses acordos de licenciamento garante o uso legal e autorizado das tecnologias de IA dentro de nossos serviços.
 
-## Precisão das informações
+## Precisão das Informações
 
 As informações, conteúdo e respostas geradas por nossos sistemas de IA são fornecidas apenas para fins informativos gerais. Embora nos esforcemos para garantir a precisão e confiabilidade do conteúdo gerado por IA, tal conteúdo pode conter erros, imprecisões ou informações desatualizadas. A Empresa não garante ou assegura a completude, precisão, confiabilidade, adequação ou disponibilidade de qualquer conteúdo gerado por IA.
 
 ## Limitação de Responsabilidade
 
-Sob nenhuma circunstância a Empresa será responsável por quaisquer danos diretos, indiretos, incidentais, especiais, consequenciais ou exemplares decorrentes ou de qualquer forma conectados ao seu uso dos recursos de IA neste website. Isso inclui, mas não se limita a, quaisquer perdas, custos ou danos de qualquer tipo incorridos como resultado de sua dependência de informações ou conteúdo gerado por nossos sistemas de IA.
+Sob nenhuma circunstância a Empresa será responsável por quaisquer danos diretos, indiretos, incidentais, especiais, consequenciais ou exemplares decorrentes ou de qualquer forma conectados com o seu uso dos recursos de IA neste website. Isso inclui, mas não se limita a, quaisquer perdas, custos ou danos de qualquer tipo incorridos como resultado da sua dependência de informações ou conteúdo gerado pelos nossos sistemas de IA.
 
 ## Nenhum Conselho Profissional
 
@@ -42,29 +42,29 @@ O conteúdo e as respostas geradas por IA não constituem aconselhamento, opini�
 
 Os recursos de IA são fornecidos "como estão" e "conforme disponíveis", sem garantias de qualquer tipo, sejam expressas ou implícitas. A Empresa não garante que os recursos de IA serão ininterruptos, oportunos, seguros ou livres de erros. Você reconhece que problemas técnicos ou mudanças em sistemas de terceiros podem limitar temporária ou permanentemente sua capacidade de acessar ou usar os recursos de IA.
 
-## Coleta e uso de dados
+## Coleta e Uso de Dados
 
-Suas interações com nossos recursos de IA podem ser coletadas, armazenadas e analisadas para melhorar nossos serviços. Essas informações ajudam a treinar e aprimorar nossos sistemas de IA para melhorar a experiência do usuário. Ao usar nossos recursos de IA, você consente com a coleta, armazenamento e processamento dos dados de suas interações de acordo com nossa Política de Privacidade.
+Suas interações com nossos recursos de IA podem ser coletadas, armazenadas e analisadas para melhorar nossos serviços. Essas informações ajudam a treinar e aperfeiçoar nossos sistemas de IA para aprimorar a experiência do usuário. Ao usar nossos recursos de IA, você consente com a coleta, armazenamento e processamento dos dados de suas interações de acordo com nossa Política de Privacidade.
 
-## Consentimento para entrada de dados do usuário
+## Consentimento para Entrada de Dados do Usuário
 
-Ao interagir com nossos serviços de IA, você concorda explicitamente e consente que o modelo de IA processe, analise e utilize as informações que você fornece durante suas interações. Você reconhece que qualquer texto, consulta ou dados que você inserir podem ser usados pelo sistema de IA para gerar respostas, melhorar sua funcionalidade e aprimorar suas capacidades. Este consentimento se estende aos desenvolvedores de IA que podem usar interações anonimizadas para treinar e refinar ainda mais seus modelos. Se você não deseja que sua entrada seja processada por nossos sistemas de IA, deve evitar usar os recursos de IA disponíveis neste site.
+Ao interagir com nossos serviços de IA, você concorda explicitamente e consente que o modelo de IA processe, analise e utilize as informações que você fornece durante suas interações. Você reconhece que qualquer texto, consulta ou dados que você inserir podem ser usados pelo sistema de IA para gerar respostas, melhorar sua funcionalidade e aprimorar suas capacidades. Este consentimento se estende aos Desenvolvedores de IA que podem usar interações anonimizadas para treinar e refinar ainda mais seus modelos. Se você não deseja que sua entrada seja processada por nossos sistemas de IA, deve abster-se de usar os recursos de IA disponíveis neste site.
 
 ## Proteção de Dados Pessoais
 
 Quaisquer dados pessoais ou informações sensíveis compartilhadas durante suas comunicações com nossos sistemas de IA estão sujeitas aos nossos protocolos robustos de proteção de dados. No entanto, recomendamos fortemente que não compartilhe informações pessoais sensíveis (como números de CPF, detalhes de contas financeiras ou registros médicos) durante interações com nossos recursos de IA. Embora implementemos medidas de segurança padrão da indústria para proteger dados transmitidos aos nossos sistemas, não podemos garantir segurança absoluta das informações compartilhadas com nossos recursos de IA. A Empresa não será responsabilizada por qualquer violação, divulgação, perda ou uso indevido de dados pessoais resultante de sua divulgação voluntária de tais informações durante interações com IA.
 
-## Aviso de isenção de responsabilidade sobre conteúdo
+## Aviso de Isenção de Responsabilidade sobre Conteúdo
 
 Nossos sistemas de IA geram conteúdo baseado em padrões aprendidos a partir de dados de treinamento e podem ocasionalmente produzir conteúdo que não se alinha com os valores ou políticas da Empresa. A Empresa não endossa todo o conteúdo gerado por seus sistemas de IA. Fazemos esforços razoáveis para prevenir conteúdo inadequado, mas não podemos garantir que todo o conteúdo gerado por IA será apropriado, preciso ou alinhado com nossos valores.
 
-## Declaração de respeito cultural e responsabilidade
+## Declaração de Respeito Cultural e Responsabilidade
 
-A Empresa respeita profundamente as tradições, religiões e governança de todos os países onde operamos. Qualquer conteúdo que possa ser gerado pelo nosso sistema de IA que possa ser considerado ofensivo, culturalmente insensível ou moralmente inadequado é exclusivamente resultado de erro da IA e não representa as opiniões, pontos de vista ou valores da Empresa. A responsabilidade por tal conteúdo recai sobre os desenvolvedores da tecnologia de IA e não sobre a Empresa. Estamos comprometidos em promover ambientes digitais inclusivos e respeitosos, reconhecendo as limitações técnicas dos sistemas de IA atuais. Usuários que encontrarem qualquer conteúdo inadequado são encorajados a reportá-lo imediatamente para que medidas apropriadas possam ser tomadas.
+A Empresa respeita profundamente as tradições, religiões e governança de todos os países onde operamos. Qualquer conteúdo que possa ser gerado pelo nosso sistema de IA que possa ser considerado ofensivo, culturalmente insensível ou moralmente inadequado é exclusivamente resultado de erro da IA e não representa as visões, opiniões ou valores da Empresa. A responsabilidade por tal conteúdo recai sobre os desenvolvedores da tecnologia de IA e não sobre a Empresa. Estamos comprometidos em promover ambientes digitais inclusivos e respeitosos, reconhecendo as limitações técnicas dos sistemas de IA atuais. Usuários que encontrarem qualquer conteúdo inadequado são encorajados a reportá-lo imediatamente para que medidas apropriadas possam ser tomadas.
 
-## Modificações nos recursos de IA
+## Modificações nos Recursos de IA
 
-A Empresa reserva-se o direito de modificar, suspender ou descontinuar qualquer parte dos recursos de IA sem aviso prévio. Podemos atualizar ou alterar as capacidades, funcionalidades ou limitações dos nossos sistemas de IA a qualquer momento, a nosso exclusivo critério.
+A Empresa reserva-se o direito de modificar, suspender ou descontinuar qualquer parte dos recursos de IA sem aviso prévio. Podemos atualizar ou alterar as capacidades, funcionalidades ou limitações de nossos sistemas de IA a qualquer momento, a nosso exclusivo critério.
 
 ## Responsabilidade do Usuário
 

@@ -1,6 +1,6 @@
 # Medya Kiti
 
-Merhaba! Burada logomuz, içeriklerimiz ve ticari markalarımız dahil olmak üzere InterMIND pazarlama kaynaklarımız ve kimlik yönergelerimizin bir koleksiyonu bulunmaktadır.
+Merhaba! Burada logomuz, içeriklerimiz ve ticari markalarımız dahil olmak üzere InterMIND pazarlama kaynakları ve kimlik yönergelerinin bir koleksiyonu bulunmaktadır.
 
 Düzenlemek ve indirmek için sağ tıklayın ve Resmi düzenle seçeneğini seçin
 

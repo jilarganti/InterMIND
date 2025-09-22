@@ -1,4 +1,4 @@
-# Datenschutzerklärung
+# Datenschutzrichtlinie
 
 ## Einführung
 
@@ -57,7 +57,7 @@ In einigen Fällen können wir externe KI-Serviceanbieter nutzen. Wenn wir dies 
 
 #### Menschliche Überprüfung
 
-Obwohl unsere KI-Systeme autonom arbeiten, können bestimmte Interaktionen von unseren Rechtsexperten überprüft werden, um Genauigkeit und Servicequalität sicherzustellen.
+Obwohl unsere KI-Systeme autonom arbeiten, können bestimmte Interaktionen von unseren Rechtsexperten überprüft werden, um die Genauigkeit und Qualität der Dienstleistung sicherzustellen.
 
 #### KI-Training
 
@@ -69,7 +69,7 @@ Wir können Ihre Informationen weitergeben an:
 
 - Verbundene Rechtseinheiten innerhalb unseres globalen Netzwerks
 - Drittanbieter-Dienstleister, die uns bei unseren Geschäftstätigkeiten unterstützen
-- Aufsichtsbehörden und Regierungsstellen, soweit gesetzlich vorgeschrieben
+- Aufsichtsbehörden und Regierungsstellen, sofern gesetzlich vorgeschrieben
 - Professionelle Berater und Consultants
 
 Bei der internationalen Übertragung von Daten setzen wir angemessene Schutzmaßnahmen in Übereinstimmung mit den geltenden Gesetzen um, einschließlich Standardvertragsklauseln, verbindlicher Unternehmensregeln und anderer rechtlich anerkannter Übertragungsmechanismen.
@@ -88,11 +88,11 @@ Je nach Ihrer Rechtsordnung haben Sie möglicherweise das Recht auf:
 
 ## Datensicherheit
 
-Wir setzen angemessene technische und organisatorische Maßnahmen um, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen.
+Wir setzen angemessene technische und organisatorische Maßnahmen um, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Veränderung, Offenlegung oder Zerstörung zu schützen.
 
 ## Datenspeicherung
 
-Wir bewahren Ihre personenbezogenen Daten so lange auf, wie es zur Erfüllung der in dieser Datenschutzerklärung dargelegten Zwecke erforderlich ist, es sei denn, eine längere Aufbewahrungsfrist ist gesetzlich vorgeschrieben oder zulässig.
+Wir speichern Ihre personenbezogenen Daten so lange, wie es zur Erfüllung der in dieser Datenschutzerklärung dargelegten Zwecke erforderlich ist, es sei denn, eine längere Aufbewahrungsfrist ist gesetzlich vorgeschrieben oder zulässig.
 
 ## Änderungen an dieser Richtlinie
 

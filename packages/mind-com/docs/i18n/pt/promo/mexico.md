@@ -2,7 +2,6 @@
 layout: home
 title: "Expanda Seus Negócios para os EUA e Canadá — InterMIND Mexico"
 description: "Fale português, eles ouvem inglês. Tradução em tempo real para empresas mexicanas se conectando com parceiros norte-americanos."
-
 ---
 
 <HeroSection

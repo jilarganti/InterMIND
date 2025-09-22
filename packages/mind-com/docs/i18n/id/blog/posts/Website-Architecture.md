@@ -37,9 +37,9 @@ Mind.com dibangun di atas **VitePress** — generator situs statis modern yang m
 
 ### Optimisasi performa
 
-Mind.com menggunakan beberapa strategi optimisasi performa:
+Mind.com menggunakan berbagai strategi optimisasi performa:
 
-**Smart hydration** memastikan pemuatan hanya bagian halaman yang dinamis, sementara konten statis tetap tidak terpengaruh oleh proses hidrasi. Ini secara radikal mengurangi waktu hingga halaman interaktif.
+**Smart hydration** memastikan pemuatan hanya bagian halaman yang dinamis, sementara konten statis tetap tidak terpengaruh oleh proses hidrasi. Ini secara radikal mengurangi waktu hingga halaman menjadi interaktif.
 
 **Automatic code splitting** membuat chunk terpisah untuk setiap halaman dengan preloading cerdas dari link dalam viewport pengguna, memastikan navigasi instan.
 
@@ -51,7 +51,7 @@ Salah satu fitur paling inovatif dari mind.com adalah integrasi kemampuan AI ke 
 
 ### Arsitektur Pencarian Vektor
 
-**Upstash Vector** berfungsi sebagai database vektor serverless menggunakan algoritma DiskANN untuk pencarian tetangga terdekat yang efisien di antara embedding hingga 1536 dimensi. Integrasi dengan Vercel AI SDK menyediakan chatbot RAG (Retrieval-Augmented Generation) dengan latensi minimal.
+**Upstash Vector** berfungsi sebagai database vektor serverless menggunakan algoritma DiskANN untuk pencarian nearest neighbor yang efisien di antara embedding hingga 1536 dimensi. Integrasi dengan Vercel AI SDK menyediakan chatbot RAG (Retrieval-Augmented Generation) dengan latensi minimal.
 
 **Strategi embedding** mencakup pemisahan dokumen yang cerdas menjadi fragmen berdasarkan titik atau paragraf sebelum vektorisasi, menggunakan model modern seperti `text-embedding-3-small` untuk membuat vektor 1536 dimensi, dan penyisipan data massal dalam batch 1000 record untuk performa optimal.
 
@@ -59,9 +59,9 @@ Salah satu fitur paling inovatif dari mind.com adalah integrasi kemampuan AI ke 
 
 Mind.com mengimplementasikan strategi canggih menggunakan **dua penyedia AI**: OpenAI GPT-4 dan Anthropic Claude. Arsitektur ini memberikan beberapa keunggulan kritis.
 
-**Perutean permintaan cerdas** memungkinkan penggunaan GPT-4 untuk tugas yang memerlukan kemampuan multimodal dan pemrosesan real-time, sementara Claude diterapkan untuk penalaran kompleks dan tugas lintas bahasa, di mana ia menunjukkan performa 85%+ relatif terhadap bahasa Inggris dalam 14+ bahasa.
+**Routing permintaan cerdas** memungkinkan penggunaan GPT-4 untuk tugas yang memerlukan kemampuan multimodal dan pemrosesan real-time, sementara Claude diterapkan untuk penalaran kompleks dan tugas lintas bahasa, di mana ia menunjukkan performa 85%+ relatif terhadap bahasa Inggris dalam 14+ bahasa.
 
-**Strategi failover** mencakup perpindahan berbasis kuota (transisi ke Anthropic ketika kuota OpenAI habis), perutean spesifik model, dan pemilihan penyedia dinamis untuk optimasi biaya.
+**Strategi failover** mencakup switching berbasis kuota (transisi ke Anthropic ketika kuota OpenAI habis), routing spesifik model, dan pemilihan penyedia dinamis untuk optimasi biaya.
 
 ### Deteksi Bahasa Otomatis
 
@@ -75,7 +75,7 @@ Mind.com menggunakan **Vercel Serverless Functions** sebagai fondasi untuk backe
 
 **Vercel Functions** di tahun 2025 menyediakan model konkurensi yang ditingkatkan melalui Fluid Compute, yang mengurangi cold start dengan menggunakan kembali instance fungsi dan memungkinkan eksekusi bersamaan dalam satu instance.
 
-**Integrasi TypeScript** mencakup paket @vercel/sdk yang baru dengan dukungan TypeScript penuh dan skema Zod untuk validasi, respons error terstruktur dengan informasi tipe yang detail, dan objek NextResponse yang diperluas untuk penanganan parameter dalam lingkungan serverless.
+**Integrasi TypeScript** mencakup paket @vercel/sdk baru dengan dukungan TypeScript penuh dan skema Zod untuk validasi, respons error terstruktur dengan informasi tipe yang detail, dan objek NextResponse yang diperluas untuk penanganan parameter dalam lingkungan serverless.
 
 ### Middleware Perlindungan Domain
 
@@ -161,7 +161,7 @@ Mind.com menggunakan pendekatan modern untuk analytics melalui **Google Tag Mana
 
 **Arsitektur yang mengutamakan privasi** mencakup enkripsi end-to-end tanpa penyimpanan data di sisi server, cookie autentikasi yang aman dengan masa berlaku yang tepat, logging komprehensif untuk persyaratan kepatuhan, dan minimisasi data melalui token JWT yang hanya berisi informasi pengguna yang esensial.
 
-## Keunggulan arsitektur Mind.com
+## Keunggulan Arsitektur Mind.com
 
 ### Performa
 
@@ -169,7 +169,7 @@ Arsitektur Mind.com memberikan **peningkatan performa 35-60%** dibandingkan deng
 
 **Penanganan traffic** meningkat 10x dibandingkan arsitektur server-rendered tradisional dengan biaya yang jauh lebih rendah berkat distribusi CDN dan penskalaan serverless.
 
-### Pengalaman developer
+### Pengalaman Developer
 
 **Monorepo dengan pnpm** memberikan kecepatan instalasi yang superior: npm (~45s), yarn (~35s), pnpm (~22s), dengan total 85MB ruang disk bersama dibandingkan 130MB per proyek untuk npm.
 
@@ -177,7 +177,7 @@ Arsitektur Mind.com memberikan **peningkatan performa 35-60%** dibandingkan deng
 
 ## Keunggulan Kompetitif
 
-Mind.com menunjukkan bagaimana arsitektur JAMstack modern dengan integrasi AI menciptakan keunggulan kompetitif yang signifikan:
+Mind.com mendemonstrasikan bagaimana arsitektur JAMstack modern dengan integrasi AI menciptakan keunggulan kompetitif yang signifikan:
 
 **Permukaan serangan yang berkurang** tanpa server runtime atau kerentanan database, file statis menghilangkan injeksi SQL dan vektor serangan sisi server, distribusi berbasis CDN menyediakan perlindungan DDoS dan redundansi global.
 

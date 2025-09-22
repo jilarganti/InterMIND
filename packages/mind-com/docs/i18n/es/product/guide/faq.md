@@ -67,7 +67,7 @@ Sí, estas preferencias se guardan en tu perfil y se aplicarán a futuras reunio
 **¿Qué dispositivos son compatibles?**
 InterMIND funciona en escritorio (Windows/macOS) y móvil (iOS/Android) a través de cualquier navegador moderno.
 
-**¿Cuál navegador es mejor?**
+**¿Cuál navegador es el mejor?**
 Chrome, Firefox, Safari, Edge y Opera son totalmente compatibles.
 
 ## Historial

@@ -7,7 +7,7 @@ Este documento explica los supuestos detrás del modelo financiero de InterMind 
 | Año | Cuentas de pago | Justificación                                                                                                                                                            |
 | --- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1   | 1,600           | Lanzamiento inicial en 5 mercados emergentes (MX, BR, TR, TH, ID), adopción temprana por usuarios B2B enfocados en exportación. Alta demanda de alternativas en inglés. |
-| 2   | 15,600          | SEO localizado y campañas pagadas en más de 10 países, efectos de red a través de reuniones con clientes, escalamiento del embudo freemium. Las integraciones Zoom/CRM impulsan la adquisición del mercado medio. |
+| 2   | 15,600          | SEO localizado y campañas pagadas en más de 10 países, efectos de red a través de reuniones con clientes, escalamiento del embudo freemium. Las integraciones con Zoom/CRM impulsan la adquisición del mercado medio. |
 | 3   | 72,000          | Crecimiento viral a través de UX "habla en tu idioma", integraciones verticales profundas (ERP, incorporación, legal), programas de revendedores en EU/MENA.           |
 
 ## Ingresos recurrentes anuales (ARR)
@@ -18,18 +18,18 @@ Este documento explica los supuestos detrás del modelo financiero de InterMind 
 | 2   | $8,985,600  | 15,600 cuentas de pago × 2.0 licencias promedio × $24.00/mes → conversión freemium mejorada + adquisición B2B activa.                 |
 | 3   | $50,760,000 | 72,000 cuentas de pago × 2.5 licencias promedio × $23.50/mes → madurez del producto, escalamiento de mercado medio, ventas adicionales (almacenamiento, zonas de privacidad). |
 
-## Licencias por cuenta: segmentación realista
+## Licencias por Cuenta: Segmentación Realista
 
-### **Información clave:** Más del 80% permanecerá como usuario único, pero el crecimiento del mercado medio crea un promedio más alto
+### **Perspectiva Clave:** Más del 80% permanecerá como usuario único, pero el crecimiento del mercado medio crea un promedio más alto
 
 | Segmento             | Distribución A1   | Distribución A2     | Distribución A3   |
 | -------------------- | ----------------- | ------------------- | ----------------- |
 | **Solo/Freelance**   | 83% (1.0 lic/cta) | 81.5% (1.0 lic/cta) | 80% (1.0 lic/cta) |
-| **Pequeña empresa**  | 15% (2.0 lic/cta) | 15% (3.0 lic/cta)   | 15% (4.0 lic/cta) |
-| **Mercado medio**    | 2% (18.5 lic/cta) | 3.5% (21.0 lic/cta) | 5% (22.0 lic/cta) |
-| **Promedio ponderado** | **1.5 lic/cta**   | **2.0 lic/cta**     | **2.5 lic/cta**   |
+| **Pequeña Empresa**  | 15% (2.0 lic/cta) | 15% (3.0 lic/cta)   | 15% (4.0 lic/cta) |
+| **Mercado Medio**    | 2% (18.5 lic/cta) | 3.5% (21.0 lic/cta) | 5% (22.0 lic/cta) |
+| **Promedio Ponderado** | **1.5 lic/cta**   | **2.0 lic/cta**     | **2.5 lic/cta**   |
 
-### **Lógica de crecimiento de licencias:**
+### **Lógica de Crecimiento de Licencias:**
 
 **A1:** Adopción piloto — equipos mínimos probando el producto, principalmente usuarios individuales  
 **A2:** Implementación departamental — expansión a departamentos de ventas/soporte dentro de cuentas existentes, comienza la penetración del mercado medio  
@@ -40,8 +40,8 @@ Este documento explica los supuestos detrás del modelo financiero de InterMind 
 | Año | CAC Promedio | Justificación                                                                                                                                             |
 | --- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | $95          | Combinación de búsqueda pagada, ventas dirigidas por fundadores y pilotos de bajo costo. Campañas a nivel país con palabras clave de alta intención (ej., "como hablar ingles reuniones"). |
-| 2   | $90          | CAC disminuye debido a métricas de embudo mejoradas, incorporación localizada y marketing de contenidos. Los canales orgánicos y de referidos se fortalecen. |
-| 3   | $85          | Eficiencia de CAC por programas de revendedores, integraciones con socios y modelado de atribución maduro.                                               |
+| 2   | $90          | CAC disminuye debido a mejores métricas de embudo, incorporación localizada y marketing de contenidos. Los canales orgánicos y de referidos se fortalecen.                  |
+| 3   | $85          | Eficiencia de CAC por programas de revendedores, integraciones con socios y modelado de atribución maduro.                                                         |
 
 ## LTV (Valor de vida del cliente)
 
@@ -51,17 +51,17 @@ Este documento explica los supuestos detrás del modelo financiero de InterMind 
 | 2   | $308.0 | ARPU $48.0/mes × 6.4 meses de permanencia promedio (mejor retención, clientes B2B más fieles).     |
 | 3   | $470.0 | ARPU $58.8/mes × 8.0 meses de permanencia promedio (domina mercado medio; mayor ACV + renovaciones + ventas adicionales, 10% rotación). |
 
-## Margen bruto
+## Margen Bruto
 
 | Año | Margen | Factores                                                                                                                  |
 | --- | ------ | ------------------------------------------------------------------------------------------------------------------------- |
-| 1   | 73%    | Costo de cómputo del stack de traducción de voz (~$0.08/min/usuario), ancho de banda, infraestructura mínima. Desarrollo amortizado. |
-| 2   | 77%    | Optimización de modelos, mejor utilización de GPU, descuentos de proveedores LLM, migración a infraestructura híbrida (inferencia en el borde). |
-| 3   | 80%    | Modelos de voz/LLM propios, infraestructura de auto-escalado, infraestructura fija por usuario. Funciones B2B con precios más altos y bajos costos marginales. |
+| 1   | 73%    | Costo de cómputo del stack de traducción de voz (~$0.08/min/usuario), ancho de banda, infraestructura mínima. Dev amortizado. |
+| 2   | 77%    | Optimización de modelos, mejor utilización de GPU, descuentos de proveedores LLM, migración a infra híbrida (inferencia edge). |
+| 3   | 80%    | Modelos de voz/LLM propios, infra de auto-escalado, infra plana por usuario. Funciones B2B con precios más altos y bajos costos marginales. |
 
 ## Métricas clave de economía unitaria
 
-| Métrica                           | Año 1  | Año 2  | Año 3  | Valor objetivo |
+| Métrica                           | A1     | A2     | A3     | Valor objetivo |
 | --------------------------------- | ------ | ------ | ------ | -------------- |
 | **LTV/CAC**                       | 1.9    | 3.4    | 5.5    | >3.0           |
 | **Período de recuperación**       | 8.5 me | 5.8 me | 4.2 me | <12 me         |

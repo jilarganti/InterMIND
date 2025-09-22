@@ -38,7 +38,7 @@ Moderatoren werden vom Gastgeber bestimmt, um bei der effektiven Verwaltung der 
 
 ## Teilnehmer (Autorisierter Benutzer)
 
-Autorisierte Teilnehmer sind angemeldete Benutzer, die dem Meeting ohne besondere Berechtigungen beitreten.
+Autorisierte Teilnehmer sind angemeldete Benutzer, die dem Meeting ohne besondere Privilegien beitreten.
 
 **Hauptfunktionen:**
 
@@ -60,7 +60,7 @@ Gäste sind Benutzer, die an der Besprechung teilnehmen, ohne sich anzumelden.
 - Bildschirmfreigabe (Desktop-Browser)
 - Verwendung des Online-Sprachübersetzers und Sprachwechsel (nur für eigenes Audio)
 - Nutzung von Layout- und Anzeigeoptionen (nur persönlich)
-- Teilnahme am Chat und Hand heben
+- Teilnahme am Chat und Handheben
 
 > [!WARNING]
 > Gäste können andere Teilnehmer nicht verwalten.
@@ -70,10 +70,10 @@ Gäste sind Benutzer, die an der Besprechung teilnehmen, ohne sich anzumelden.
 | Funktion                       | Host  | Moderator | Teilnehmer  | Gast  |
 | ------------------------------ | ----- | --------- | ----------- | ----- |
 | Meeting starten                | ✅    | ❌        | ❌          | ❌    |
-| Beliebigen Teilnehmer stummschalten | ✅    | ✅        | ❌          | ❌    |
+| Beliebigen Teilnehmer stumm schalten | ✅    | ✅        | ❌          | ❌    |
 | Beliebigen Teilnehmer entstummen | ❌    | ❌        | ❌          | ❌    |
-| Eigenes Mikrofon stumm-/entstummen | ✅    | ✅        | ✅          | ✅    |
-| Eigene Kamera ein-/ausschalten | ✅    | ✅        | ✅          | ✅    |
+| Eigenes Mikrofon stumm schalten/entstummen | ✅    | ✅        | ✅          | ✅    |
+| Eigene Kamera aktivieren/deaktivieren | ✅    | ✅        | ✅          | ✅    |
 | Aufzeichnung starten/stoppen   | ✅    | ✅        | ❌          | ❌    |
 | Bildschirm teilen (Desktop)    | ✅    | ✅        | ✅          | ✅    |
 | KI-Assistent verwenden         | ✅    | ✅        | ✅          | ❌    |
@@ -81,7 +81,7 @@ Gäste sind Benutzer, die an der Besprechung teilnehmen, ohne sich anzumelden.
 | Übersetzungssprache ändern     | ✅    | ✅        | ✅          | ✅    |
 | Hand heben / senken            | ✅/✅ | ✅/✅     | ✅/❌       | ✅/❌ |
 | Layout / Einstellungen ändern  | ✅    | ✅        | ✅          | ✅    |
-| Hintergrundunschärfe ein-/ausschalten | ✅    | ✅        | ✅          | ✅    |
+| Hintergrundunschärfe aktivieren/deaktivieren | ✅    | ✅        | ✅          | ✅    |
 | Gast zulassen/ablehnen         | ✅    | ✅        | ❌          | ❌    |
 | Zugriff auf Meeting-Verlauf    | ✅    | ✅        | ✅          | ❌    |
 | Teilnehmer entfernen           | ✅    | ✅        | ❌          | ❌    |

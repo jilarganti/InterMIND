@@ -1,6 +1,6 @@
 ---
 title: "InterMIND 博客 - AI翻译与视频通信洞察"
-description: "了解InterMIND的最新资讯、技术洞察和产品更新 - 专为视频通信打造的AI实时翻译平台。"
+description: "了解InterMIND的最新动态、技术洞察和产品更新 - 专为视频通信打造的AI驱动实时翻译平台。"
 lastUpdated: false
 ---
 

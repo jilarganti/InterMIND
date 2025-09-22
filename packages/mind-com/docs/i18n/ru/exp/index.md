@@ -2,11 +2,11 @@
 layout: home
 
 hero:
-  name: "Стратегия и развитие"
-  text: "Глобальная коммуникация на локальном языке"
-  tagline: "InterMind: Глобальная коммуникация на локальном языке"
+  name: "Стратегия и расширение"
+  text: Глобальная коммуникация, локальный язык
+  tagline: "InterMind: Глобальная коммуникация, локальный язык"
   actions:
     - theme: alt
-      text: Documents
+      text: Документы
       link: /exp/InterMind-Executive-Summary
 ---

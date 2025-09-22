@@ -1,4 +1,4 @@
-# Primeiros passos
+# Primeiros Passos
 
 InterMIND é uma plataforma avançada de videoconferência com inteligência artificial projetada para facilitar a comunicação perfeita entre vários idiomas, dispositivos e equipes. Este guia tem como objetivo fornecer uma compreensão abrangente de como utilizar efetivamente todos os recursos do InterMIND — desde participar da sua primeira reunião até configurar ferramentas de IA e resolver problemas técnicos.
 
@@ -9,7 +9,7 @@ Neste guia, você descobrirá:
 - Instruções sobre como se registrar, fazer login e personalizar seu perfil
 - Diretrizes para criar e agendar reuniões
 - Informações sobre funções de usuário, permissões e recursos de tradução em tempo real
-- Uma visão geral dos recursos com IA, como o Assistente de IA e o Tradutor de Voz
+- Uma visão geral dos recursos com inteligência artificial, como o Assistente de IA e o Tradutor de Voz
 - Dicas de solução de problemas e respostas para perguntas frequentes
 
 Vamos começar — o futuro das reuniões inteligentes está prestes a começar agora.
@@ -70,7 +70,7 @@ O InterMIND é otimizado para uso tanto em desktop quanto em dispositivos móvei
 - Smartphones e tablets Android
 - Smartphones e tablets iOS
 
-Os usuários podem acessar a plataforma diretamente através do navegador sem a necessidade de instalação de software.
+Os usuários podem acessar a plataforma diretamente através do seu navegador sem a necessidade de instalação de qualquer software.
 
 ### Como Acessar
 

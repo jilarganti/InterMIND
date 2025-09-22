@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "InterMIND: Dịch thuật giọng nói thời gian thực cho cuộc họp video"
-description: "Hội nghị truyền hình chuyên nghiệp với phiên dịch đồng thời bằng hơn 19 ngôn ngữ. Dịch thuật được hỗ trợ bởi AI nắm bắt giọng điệu, ý định và ngữ cảnh. Gặp gỡ toàn cầu, giao tiếp tự nhiên."
+description: "Hội nghị truyền hình chuyên nghiệp với phiên dịch đồng thời bằng hơn 19 ngôn ngữ. Dịch thuật được hỗ trợ bởi AI nắm bắt được giọng điệu, ý định và ngữ cảnh. Gặp gỡ toàn cầu, giao tiếp tự nhiên."
 isHome: true
 ---
 
@@ -16,7 +16,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Dịch thuật ≠ Hiểu biết. Đây là bước tiếp theo.',
-      details: 'Bất kể ngôn ngữ nào, giọng nói của bạn được nghe — và hiểu — như thể bạn cùng chung một tiếng.',
+      details: 'Bất kể ngôn ngữ nào, giọng nói của bạn được nghe thấy — và hiểu — như thể bạn cùng chung một tiếng.',
       items: [
         '✧ Tự nhiên, [thời gian thực](./product/overview/how-it-works), và không có phụ đề hay độ trễ.',
         '✧ Phiên dịch được hỗ trợ bởi AI nắm bắt giọng điệu, ý định và thuật ngữ chuyên ngành.',
@@ -52,10 +52,10 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: 'Được xây dựng cho cuộc họp nghiêm túc — không chỉ để nói chuyện',
+      title: 'Được xây dựng cho cuộc họp nghiêm túc — Không chỉ để nói chuyện',
       details: 'InterMIND là một [nền tảng cuộc họp video cấp chuyên nghiệp](./product/overview/video-meeting-platform), không phải là một tiện ích bổ sung hay plugin nhẹ.',
       items: [
-        '✧ Độ phân giải 1080p, khử tiếng ồn thông minh, lên lịch, kiểm duyệt, chia sẻ màn hình, ghi âm, phụ đề, trò chuyện người tham gia và tích hợp lịch — tất cả được tích hợp sẵn, **sẵn sàng sử dụng**.',
+        '✧ Độ phân giải 1080p, khử tiếng ồn thông minh, lên lịch, kiểm duyệt, chia sẻ màn hình, ghi âm, phụ đề, trò chuyện của người tham gia và tích hợp lịch — tất cả được tích hợp sẵn, **sẵn sàng sử dụng**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -82,7 +82,7 @@ isHome: true
   />
 
 > **Dành cho ai?**  
-> _Được xây dựng cho các nhóm quốc tế nơi rào cản ngôn ngữ gây ra chậm trễ, mất cơ hội kinh doanh hoặc hiểu lầm tốn kém._ [Tìm hiểu thêm ...](./product/overview/markets)
+> _Được xây dựng cho các nhóm quốc tế nơi rào cản ngôn ngữ gây ra sự chậm trễ, mất cơ hội kinh doanh hoặc hiểu lầm tốn kém._ [Tìm hiểu thêm ...](./product/overview/markets)
 
 <span id="HowItWorks"></span>
 
@@ -117,7 +117,7 @@ Giao diện quen thuộc. Giao tiếp toàn cầu. Dễ sử dụng như Google 
         },
       },
       {
-        title: 'Nói bằng ngôn ngữ của bạn',
+        title: 'Nói ngôn ngữ của bạn',
         details: 'Mọi người đều nói và nghe bằng ngôn ngữ riêng của họ.',
         icon: {
           light: '/meeting.png',
@@ -152,11 +152,11 @@ Cài đặt ngôn ngữ duy nhất này áp dụng cho:
 - **Đầu vào giọng nói** (những gì bạn nói)
 - **Đầu ra đã dịch** (những gì bạn nghe)
 
-| Người tham gia   | Ngôn ngữ đã chọn  | Nói bằng          | Nghe bằng         |
-| ---------------- | ----------------- | ----------------- | ----------------- |
-| Chủ trì          | Tiếng Tây Ban Nha | Tiếng Tây Ban Nha | Tiếng Tây Ban Nha |
-| Người tham gia 1 | Tiếng Anh         | Tiếng Anh         | Tiếng Anh         |
-| Người tham gia 2 | Tiếng Trung       | Tiếng Trung       | Tiếng Trung       |
+| Người tham gia | Ngôn ngữ đã chọn | Nói bằng  | Nghe bằng |
+| -------------- | ---------------- | --------- | --------- |
+| Chủ trì        | Tiếng Tây Ban Nha| Tiếng Tây Ban Nha | Tiếng Tây Ban Nha |
+| Người tham gia 1| Tiếng Anh       | Tiếng Anh | Tiếng Anh |
+| Người tham gia 2| Tiếng Trung     | Tiếng Trung | Tiếng Trung |
 
 [Nền tảng tự động diễn giải tất cả lời nói theo thời gian thực](./product/overview/how-it-works) — vì vậy mọi người giao tiếp như thể họ nói cùng một ngôn ngữ.
 
@@ -236,7 +236,7 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
 <ContactForm buttonText="Nói chuyện với đội ngũ của chúng tôi" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_Thời gian của bạn nên dành để thành thạo nghề nghiệp — không phải ghi nhớ ngữ pháp._**  
+> 💡 **_Thời gian của bạn nên dành để thành thạo nghề nghiệp — không phải để ghi nhớ ngữ pháp._**  
 > 💡 **_Quan hệ đối tác thực sự bắt đầu bằng những cuộc trò chuyện thực sự — bằng ngôn ngữ của họ._**
 
 ## Câu hỏi thường gặp
@@ -251,19 +251,19 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
       },
       {
         q: 'Người dùng có giấy phép và Người tham gia là gì?',
-        a: 'Một *người dùng có giấy phép* có giấy phép họp miễn phí hoặc trả phí và có thể lên lịch họp trong giới hạn gói của họ. *Người tham gia* là những người được mời — họ **không cần tài khoản hoặc giấy phép** để tham gia và có thể kết nối từ bất kỳ thiết bị nào **miễn phí**.',
+        a: 'Một *người dùng có giấy phép* có giấy phép cuộc họp miễn phí hoặc trả phí và có thể lên lịch cuộc họp trong giới hạn gói của họ. *Người tham gia* là những người được mời — họ **không cần tài khoản hoặc giấy phép** để tham gia và có thể kết nối từ bất kỳ thiết bị nào **miễn phí**.',
       },
       {
-        q: 'Có bao nhiều người có thể sử dụng một giấy phép InterMind?',
-        a: 'Mỗi *người dùng có giấy phép* có thể tổ chức **số cuộc họp không giới hạn**. Nếu nhiều thành viên trong nhóm cần tổ chức họp đồng thời, mỗi người sẽ cần giấy phép riêng.',
+        q: 'Có bao nhiêu người có thể sử dụng một giấy phép InterMind?',
+        a: 'Mỗi *người dùng có giấy phép* có thể tổ chức **cuộc họp không giới hạn**. Nếu nhiều thành viên trong nhóm cần tổ chức cuộc họp đồng thời, mỗi người sẽ cần giấy phép riêng.',
       },
       {
         q: 'Thời gian tối đa của một cuộc họp là bao lâu?',
-        a: 'Các cuộc họp có thể kéo dài tới **24 giờ** trên tất cả các gói.',
+        a: 'Cuộc họp có thể kéo dài tới **24 giờ** trên tất cả các gói.',
       },
       {
         q: 'Có giới hạn số lượng cuộc họp tôi có thể tổ chức không?',
-        a: 'Gói *Free Basic* bao gồm **25 cuộc họp miễn phí**. Các gói *Pro* và *Business* cung cấp số cuộc họp không giới hạn với nhiều người tham gia và quyền kiểm soát hơn.',
+        a: 'Gói *Free Basic* bao gồm **25 cuộc họp miễn phí**. Các gói *Pro* và *Business* cung cấp cuộc họp không giới hạn với nhiều người tham gia và quyền kiểm soát hơn.',
       },
       {
         q: 'InterMind đảm bảo quyền riêng tư và bảo mật dữ liệu như thế nào?',
@@ -279,11 +279,11 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
       },
       {
         q: 'Làm thế nào để quản lý đăng ký của tôi (nâng cấp, hạ cấp, hoặc hủy)?',
-        a: 'Bạn có thể thay đổi gói bất cứ lúc nào thông qua **cài đặt tài khoản**. Các thay đổi có hiệu lực **ngay lập tức**. Đối với việc hủy, *Gói hàng tháng* hủy vào cuối chu kỳ thanh toán. *Gói hàng năm* có thể được hủy để **hoàn tiền theo tỷ lệ**.',
+        a: 'Bạn có thể thay đổi gói bất cứ lúc nào thông qua **cài đặt tài khoản**. Thay đổi có hiệu lực **ngay lập tức**. Đối với việc hủy, *Gói hàng tháng* hủy vào cuối chu kỳ thanh toán. *Gói hàng năm* có thể được hủy để **hoàn tiền theo tỷ lệ**.',
       },
       {
         q: 'Tôi có thể sử dụng InterMind cho webinar hoặc sự kiện lớn không?',
-        a: 'Có. Các gói *Pro* và *Business* lý tưởng cho **các cuộc họp lớn và webinar** — với hỗ trợ lên tới **500 người tham gia** trên *Business*.',
+        a: 'Có. Các gói *Pro* và *Business* lý tưởng cho **cuộc họp lớn và webinar** — với hỗ trợ lên tới **500 người tham gia** trên *Business*.',
       },
     ]"/>
 

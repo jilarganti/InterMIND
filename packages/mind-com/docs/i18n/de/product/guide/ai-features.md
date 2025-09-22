@@ -6,9 +6,9 @@ Dieser Abschnitt beschreibt die Funktionalitäten des Sprachassistenten (Jarvis)
 
 Diese Funktionalität bietet Echtzeitübersetzungen für Teilnehmer, die sie aktivieren, und stellt sicher, dass das Erlebnis für andere Besprechungsteilnehmer unbeeinträchtigt bleibt. Darüber hinaus haben Benutzer die Flexibilität, die Übersetzungssprache jederzeit über das Einstellungsfeld zu ändern.
 
-Der Sprachübersetzer wird beim Betreten einer Besprechung automatisch aktiviert; der Übersetzungsprozess beginnt jedoch nur, wenn sich die Benutzeroberflächen- und Übersetzungssprachen der Teilnehmer unterscheiden. In Fällen, in denen alle Teilnehmer dieselbe Sprache gewählt haben, findet keine Übersetzung statt.
+Der Sprachübersetzer wird automatisch beim Betreten einer Besprechung aktiviert; der Übersetzungsprozess beginnt jedoch nur, wenn sich die Benutzeroberflächen- und Übersetzungssprachen der Teilnehmer unterscheiden. In Fällen, in denen alle Teilnehmer dieselbe Sprache gewählt haben, findet keine Übersetzung statt.
 
-Sobald ein Teilnehmer seine Benutzeroberflächen- und Übersetzungssprache ändert, beginnen alle anderen Teilnehmer die Übersetzung in der Sprache zu hören, die sie in den Besprechungseinstellungen ausgewählt haben.
+Sobald ein Teilnehmer seine Benutzeroberflächen- und Übersetzungssprache ändert, werden alle anderen Teilnehmer die Übersetzung in der Sprache hören, die sie in den Besprechungseinstellungen ausgewählt haben.
 
 Zusätzlich haben Teilnehmer die Möglichkeit, die Lautstärke des ursprünglichen Audios von anderen Teilnehmern über die Besprechungseinstellungen anzupassen, wodurch sie sich ausschließlich auf die Übersetzung konzentrieren können.
 
@@ -17,7 +17,7 @@ Zusätzlich haben Teilnehmer die Möglichkeit, die Lautstärke des ursprünglich
 - Echtzeit-Sprachsynchronisation in der ausgewählten Sprache
 - Persönliche Übersetzungseinstellungen (beeinträchtigt andere Teilnehmer nicht)
 - Möglichkeit, die Übersetzungssprache jederzeit über das Einstellungsfeld zu ändern
-- Verfügbar für alle Teilnehmertypen (Gastgeber, Moderator, Teilnehmer, Gast)
+- Verfügbar für alle Teilnehmertypen (Host, Moderator, Teilnehmer, Gast)
 
 ### Aktivierung
 

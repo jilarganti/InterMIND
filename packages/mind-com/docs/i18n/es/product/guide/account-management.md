@@ -1,6 +1,6 @@
 # Gestión de cuenta
 
-## Registrarse
+## Registro
 
 Crear una cuenta se puede lograr a través de tres métodos: utilizando tus cuentas de Google o Microsoft o registrándote con una dirección de correo electrónico externa.
 
@@ -114,39 +114,39 @@ Si creaste tu cuenta usando una dirección de correo electrónico externa:
 > [!WARNING]
 > Selecciona "Recordarme" solo en dispositivos de confianza para prevenir acceso no autorizado.
 
-## Perfil de usuario
+## Perfil de Usuario
 
 La página de Perfil de Usuario en InterMIND ofrece a los usuarios la oportunidad de ver y personalizar su configuración personal, administrar las preferencias del dispositivo, establecer opciones de comunicación y ejecutar acciones esenciales de la cuenta, incluyendo la eliminación de la cuenta.
 
-### Acceder a la página de perfil de usuario
+### Acceder a la página de Perfil de Usuario
 
 Los usuarios pueden acceder a su perfil a través de dos métodos:
 
-**Desde cualquier página:**
+**Desde Cualquier Página:**
 
 1. Haz clic en el ícono de tu avatar de usuario ubicado en la esquina superior derecha de la página
 2. Desde el menú desplegable, selecciona la opción **Perfil**
 
-**URL directa:** Navega a: [https://intermind.com/profile](https://intermind.com/profile)
+**URL Directa:** Navega a: [https://intermind.com/profile](https://intermind.com/profile)
 
-### Resumen del perfil
+### Resumen del Perfil
 
 La página de perfil está organizada en cuatro pestañas principales:
 
 #### Perfil
 
-**Información del usuario**
+**Información del Usuario**
 
 - Muestra el avatar del usuario, nombre para mostrar (ej., Juan Pérez) y dirección de correo electrónico registrada
 - El nombre para mostrar se puede editar usando el ícono de lápiz
 
-**Plan actual**
+**Plan Actual**
 
 - Muestra el tipo de suscripción activa (ej., Básico, Pro) y su período de validez
-- Los usuarios básicos ven un botón **Actualizar plan**
-- Los usuarios Pro ven un botón **Cancelar suscripción**
+- Los usuarios Básicos ven un botón **Actualizar Plan**
+- Los usuarios Pro ven un botón **Cancelar Suscripción**
 
-**Preferencias de comunicación**
+**Preferencias de Comunicación**
 
 - **Boletín**: Recibir actualizaciones sobre nuevas funciones y mejoras
 - **Promociones**: Recibir ofertas especiales y contenido promocional
@@ -158,21 +158,21 @@ La página de perfil está organizada en cuatro pestañas principales:
 
 Accesible a través de la pestaña Facturación en la barra lateral izquierda.
 
-**Uso de cuota**
+**Uso de Cuota**
 Muestra los límites de uso y consumo de las funciones principales:
 
-- **Almacenamiento de archivos**: 0.00 GB / 30 GB (o 2 TB para usuarios Pro)
+- **Almacenamiento de Archivos**: 0.00 GB / 30 GB (o 2 TB para usuarios Pro)
 - **Reuniones**: 0 / 25 (o Ilimitado para usuarios Pro)
-- **Participantes en línea**: Hasta 100 (o 150 para usuarios Pro)
-- Columnas **Inicio del período** y **Fin del período**
+- **Participantes en Línea**: Hasta 100 (o 150 para usuarios Pro)
+- Columnas **Inicio del Período** y **Fin del Período**
 
 **Facturas**
 Muestra una lista de facturas emitidas con:
 
-- Número de factura
+- Número de Factura
 - Fecha
 - Monto
-- Estado del pago (ej., Pagado)
+- Estado de Pago (ej., Pagado)
 
 > [!TIP]
 > Las facturas se pueden descargar para reportes o registros.
@@ -180,19 +180,19 @@ Muestra una lista de facturas emitidas con:
 **Pagos**
 Muestra las transacciones de pago que incluyen:
 
-- ID de pago
+- ID de Pago
 - Fecha
 - Monto
 - Estado (ej., Exitoso)
 
-Esta sección garantiza total transparencia y trazabilidad para los usuarios de pago.
+Esta sección asegura total transparencia y trazabilidad para los usuarios de pago.
 
 > [!INFO]
 > Las secciones de Facturas y Pagos pueden estar vacías si no han ocurrido transacciones.
 
 #### Configuración
 
-Accesible a través de la pestaña Configuración en la barra lateral izquierda. Esta pestaña permite a los usuarios configurar las preferencias del dispositivo y de las reuniones.
+Accesible a través de la pestaña Configuración en la barra lateral izquierda. Esta pestaña permite a los usuarios configurar las preferencias del dispositivo y de reuniones.
 
 **Dispositivos**
 Seleccionar micrófono, altavoz y cámara, alternar desenfoque de fondo.
@@ -200,19 +200,19 @@ Seleccionar micrófono, altavoz y cámara, alternar desenfoque de fondo.
 - **Micrófono**: Seleccionar dispositivo de entrada preferido
 - **Altavoz**: Seleccionar dispositivo de salida preferido
 - **Cámara**: Elegir dispositivo de video activo
-- **Desenfoque de fondo**: Habilitar o deshabilitar el enmascaramiento visual del fondo
+- **Desenfoque de Fondo**: Habilitar o deshabilitar el enmascaramiento visual del fondo
 
 **Traducción**
 Elegir idioma de traducción predeterminado y ajustar el volumen de voz original.
 
-- **Idioma de destino**: Seleccionar salida de traducción predeterminada e idioma de la interfaz
-- **Volumen original**: Ajustar el volumen de voz de fondo mientras se reproduce el audio traducido
+- **Idioma de Destino**: Seleccionar salida de traducción predeterminada e idioma de interfaz
+- **Volumen Original**: Ajustar el volumen de voz de fondo mientras se reproduce el audio traducido
 
 **Otros**
 Establecer diseño predeterminado (ej., barra lateral), proveedor de asistente y opción de salida automática cuando esté solo.
 
-- **Diseño**: Elegir diseño de pantalla (ej., Barra lateral, Cuadrícula)
-- **Salir de la llamada automáticamente cuando esté solo**: Habilitar/deshabilitar desconexión automática
+- **Diseño**: Elegir diseño de pantalla (ej., Barra Lateral, Cuadrícula)
+- **Salir de la Llamada Automáticamente Cuando Esté Solo**: Habilitar/deshabilitar desconexión automática
 
 > [!TIP]
 > Los cambios se guardan automáticamente y se aplicarán a todas las reuniones futuras.
@@ -221,9 +221,9 @@ Establecer diseño predeterminado (ej., barra lateral), proveedor de asistente y
 
 Accesible a través de la pestaña Avanzado en la barra lateral izquierda. Esta sección proporciona acciones de cuenta irreversibles.
 
-**Eliminar cuenta**
+**Eliminar Cuenta**
 
-1. Haz clic en el botón **Eliminar cuenta**
+1. Haz clic en el botón **Eliminar Cuenta**
 2. Confirma la solicitud (nota: esta acción es irreversible)
 3. Tus datos, historial y preferencias serán borrados permanentemente
 

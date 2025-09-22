@@ -14,7 +14,7 @@ export const de = defineConfig({
       {
         property: "og:description",
         content:
-          "Professionelle Videokonferenzen mit simultaner Sprachdolmetschung in über 19 Sprachen. Treffen Sie sich global, kommunizieren Sie natürlich mit KI-gestützter Übersetzung.",
+          "Professionelle Videokonferenzen mit simultaner Sprachdolmetschung in über 19 Sprachen. Global treffen, natürlich kommunizieren mit KI-gestützter Übersetzung.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -100,7 +100,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "LEITFADEN",
+      text: "ANLEITUNG",
       collapsed: false,
       items: [
         { text: "Erste Schritte", link: "guide/getting-started" },
@@ -155,7 +155,7 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Zusammenfassung für Führungskräfte", link: "/InterMind-Executive-Summary" },
     { text: "Go-to-Market-Strategie", link: "/go-to-market-strategy" },
-    { text: "Investor-Pitch", link: "/InterMind-Investor-Pitch" },
+    { text: "Investor Pitch", link: "/InterMind-Investor-Pitch" },
     { text: "Begründung der Finanzprognosen (Jahr 1–3)", link: "/Financial-Projections-Justification" },
   ]
 }

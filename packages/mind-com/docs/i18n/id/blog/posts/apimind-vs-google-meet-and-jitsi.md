@@ -1,12 +1,12 @@
 ---
 layout: BlogPost
 title: "apiMind vs Google Meet dan Jitsi"
-description: "Perbandingan komprehensif kinerja apiMind terhadap Google Meet dan Jitsi berdasarkan pengujian independen."
+description: "Perbandingan komprehensif kinerja apiMind dengan Google Meet dan Jitsi berdasarkan pengujian independen."
 date: 2025-08-18
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
-# apiMind vs Google Meet dan Jitsi: Analisis Benchmark Independen 2024
+# apiMind vs Google Meet dan Jitsi: Analisis benchmark independen 2024
 
 <img src="/blog/2025-08-18_18.54.27.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/2025-08-18_18.54.10.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
@@ -39,7 +39,7 @@ Dalam skenario packet loss (umum terjadi di jaringan Wi-Fi):
 
 apiMind mendemonstrasikan:
 
-- Bitrate receiver yang lebih tinggi pada jaringan unlimited (dioptimalkan untuk kualitas ketika bandwidth memungkinkan)
+- Bitrate penerima yang lebih tinggi pada jaringan unlimited (dioptimalkan untuk kualitas ketika bandwidth memungkinkan)
 - Strategi adaptasi yang efisien dalam lingkungan terbatas
 - Alokasi sumber daya yang seimbang antara audio dan video
 

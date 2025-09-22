@@ -5,7 +5,7 @@ description: "¿Quieres asociarte con InterMind, invertir o contactar a nuestro 
 # 🤝 ¿Quieres contactar a InterMind? Conectemos.
 
 Usa este formulario para contactar directamente a nuestro equipo corporativo —  
-para asociaciones, inversiones, medios, cumplimiento u otros asuntos relacionados con el negocio.
+para asociaciones, inversiones, medios, cumplimiento u otros asuntos relacionados con negocios.
 
 Nos aseguraremos de que tu mensaje llegue a la persona correcta.
 

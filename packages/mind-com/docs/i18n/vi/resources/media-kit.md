@@ -1,6 +1,6 @@
 # Bộ tài liệu truyền thông
 
-Xin chào! Đây là bộ sưu tập các tài nguyên marketing và hướng dẫn nhận diện thương hiệu của InterMIND, bao gồm logo, nội dung và nhãn hiệu của chúng tôi.
+Xin chào! Đây là bộ sưu tập các tài nguyên tiếp thị và hướng dẫn nhận diện thương hiệu của InterMIND, bao gồm logo, nội dung và nhãn hiệu của chúng tôi.
 
 Để chỉnh sửa và tải xuống, nhấp chuột phải và chọn Chỉnh sửa hình ảnh
 
@@ -13,8 +13,8 @@ Xin chào! Đây là bộ sưu tập các tài nguyên marketing và hướng d�
 
 ### Description
 
-- Dịch thuật giọng nói trực tiếp trong cuộc gọi video cho **các nhóm quốc tế** nơi rào cản ngôn ngữ gây ra **chậm trễ, mất thỏa thuận hoặc hiểu lầm tốn kém**.
-- InterMIND bổ sung dịch thuật giọng nói thời gian thực vào mọi cuộc gọi video, để các nhóm quốc tế không bao giờ mất thỏa thuận, thời gian hoặc sự rõ ràng vì rào cản ngôn ngữ.
+- Dịch thuật giọng nói trực tiếp trong cuộc gọi video cho **các nhóm quốc tế** nơi rào cản ngôn ngữ gây ra **chậm trễ, mất thỏa thuận, hoặc hiểu lầm tốn kém**.
+- InterMIND bổ sung dịch thuật giọng nói thời gian thực vào mọi cuộc gọi video, để các nhóm quốc tế không bao giờ mất thỏa thuận, thời gian, hoặc sự rõ ràng vì rào cản ngôn ngữ.
 
 ## Logo
 

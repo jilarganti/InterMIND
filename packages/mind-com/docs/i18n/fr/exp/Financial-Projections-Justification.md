@@ -1,14 +1,14 @@
 # Justification des projections financières (années 1–3) <Badge type="success" text="updated" />
 
-Ce document explique les hypothèses sous-jacentes au modèle financier d'InterMind pour la croissance des utilisateurs, les revenus (ARR) et l'économie unitaire au cours des trois premières années.
+Ce document explique les hypothèses sous-jacentes au modèle financier d\'InterMind pour la croissance des utilisateurs, les revenus (ARR) et l\'économie unitaire au cours des trois premières années.
 
 ## Croissance de la clientèle
 
 | Année | Comptes payants | Justification                                                                                                                                                            |
 | ----- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1     | 1 600           | Déploiement initial sur 5 marchés émergents (MX, BR, TR, TH, ID), adoption précoce par les utilisateurs B2B axés sur l'export. Forte demande d'alternatives en anglais. |
-| 2     | 15 600          | SEO localisé et campagnes payantes dans plus de 10 pays, effets de réseau via les réunions clients, mise à l'échelle de l'entonnoir freemium. Les intégrations Zoom/CRM stimulent l'acquisition du marché intermédiaire. |
-| 3     | 72 000          | Croissance virale grâce à l'UX "parlez dans votre langue", intégrations verticales approfondies (ERP, onboarding, juridique), programmes de revendeurs en UE/MENA.      |
+| 1     | 1 600           | Déploiement initial dans 5 marchés émergents (MX, BR, TR, TH, ID), adoption précoce par les utilisateurs B2B axés sur l\'exportation. Forte demande d\'alternatives en langue anglaise. |
+| 2     | 15 600          | SEO localisé et campagnes payantes dans plus de 10 pays, effets de réseau grâce aux réunions clients, mise à l\'échelle de l\'entonnoir freemium. Les intégrations Zoom/CRM stimulent l\'acquisition du marché intermédiaire. |
+| 3     | 72 000          | Croissance virale grâce à l\'UX « parlez dans votre langue », intégrations verticales approfondies (ERP, intégration, juridique), programmes de revendeurs en UE/MENA. |
 
 ## Chiffre d'affaires récurrent annuel (ARR)
 
@@ -20,7 +20,7 @@ Ce document explique les hypothèses sous-jacentes au modèle financier d'InterM
 
 ## Licences par compte : segmentation réaliste
 
-### **Insight clé :** Plus de 80 % resteront mono-utilisateur, mais la croissance du marché intermédiaire augmente la moyenne
+### **Insight clé :** Plus de 80 % resteront mono-utilisateur, mais la croissance du marché intermédiaire crée une moyenne plus élevée
 
 | Segment              | Distribution A1   | Distribution A2     | Distribution A3   |
 | -------------------- | ----------------- | ------------------- | ----------------- |
@@ -33,23 +33,23 @@ Ce document explique les hypothèses sous-jacentes au modèle financier d'InterM
 
 **A1 :** Adoption pilote — équipes minimales testant le produit, principalement des utilisateurs individuels  
 **A2 :** Déploiement départemental — expansion vers les départements ventes/support au sein des comptes existants, la pénétration du marché intermédiaire commence  
-**A3 :** Adoption à l\'échelle départementale — les entreprises du marché intermédiaire s\'étendent à plusieurs équipes et départements
+**A3 :** Adoption à l\'échelle départementale — les entreprises du marché intermédiaire s\'étendent à travers plusieurs équipes et départements
 
 ## CAC (Coût d'acquisition client)
 
 | Année | CAC Moyen | Justification                                                                                                                                                           |
 | ----- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1     | 95 $      | Combinaison de recherche payante, ventes dirigées par le fondateur et pilotes à faible coût. Campagnes au niveau national avec mots-clés à forte intention (ex : "como hablar ingles reuniones"). |
-| 2     | 90 $      | Le CAC diminue grâce à l'amélioration des métriques d'entonnoir, l'intégration localisée et le marketing de contenu. Les canaux organiques et de parrainage se renforcent.                        |
-| 3     | 85 $      | Efficacité du CAC grâce aux programmes de revendeurs, intégrations partenaires et modélisation d'attribution mature.                                                   |
+| 1     | 95 $      | Combinaison de recherche payante, ventes menées par le fondateur et pilotes à faible coût. Campagnes au niveau national avec mots-clés à forte intention (ex : "como hablar ingles reuniones"). |
+| 2     | 90 $      | Le CAC diminue grâce à l\'amélioration des métriques d\'entonnoir, à l\'intégration localisée et au marketing de contenu. Les canaux organiques et de parrainage se renforcent.                  |
+| 3     | 85 $      | Efficacité du CAC grâce aux programmes de revendeurs, aux intégrations partenaires et à la modélisation d\'attribution mature.                                         |
 
 ## LTV (Valeur vie client)
 
 | Année | LTV    | Base de calcul                                                                                           |
 | ----- | ------ | -------------------------------------------------------------------------------------------------------- |
-| 1     | 178,9$ | ARPU 36,8$/mois × 4,9 mois de durée moyenne (premiers utilisateurs, fort taux d'abandon en freemium).   |
-| 2     | 308,0$ | ARPU 48,0$/mois × 6,4 mois de durée moyenne (rétention améliorée, clients B2B plus fidèles).            |
-| 3     | 470,0$ | ARPU 58,8$/mois × 8,0 mois de durée moyenne (marché intermédiaire dominant ; ACV plus élevé + renouvellements + montées en gamme, 10% d'attrition). |
+| 1     | 178,9$ | ARPU 36,8$/mois × 4,9 mois de durée moyenne (utilisateurs précoces, fort taux d\'abandon en freemium). |
+| 2     | 308,0$ | ARPU 48,0$/mois × 6,4 mois de durée moyenne (rétention améliorée, clients B2B plus fidèles).           |
+| 3     | 470,0$ | ARPU 58,8$/mois × 8,0 mois de durée moyenne (domination du marché intermédiaire ; ACV plus élevé + renouvellements + montées en gamme, 10% d\'abandon). |
 
 ## Marge brute
 
@@ -64,9 +64,9 @@ Ce document explique les hypothèses sous-jacentes au modèle financier d'InterM
 | Métrique                           | A1     | A2     | A3     | Valeur cible |
 | ---------------------------------- | ------ | ------ | ------ | ------------ |
 | **LTV/CAC**                        | 1,9    | 3,4    | 5,5    | >3,0         |
-| **Période de récupération**        | 8,5 mo | 5,8 mo | 4,2 mo | <12 mo       |
-| **Rétention brute des revenus**    | 85%    | 88%    | 90%    | >85%         |
-| **Rétention nette des revenus**    | 95%    | 115%   | 130%   | >110%        |
+| **Période de remboursement**       | 8,5 mo | 5,8 mo | 4,2 mo | <12 mo       |
+| **Rétention du chiffre d\'affaires brut** | 85%    | 88%    | 90%    | >85%         |
+| **Rétention du chiffre d\'affaires net**  | 95%    | 115%   | 130%   | >110%        |
 
 ## Hypothèses critiques du modèle
 
@@ -78,9 +78,9 @@ Ce document explique les hypothèses sous-jacentes au modèle financier d'InterM
 
 ### **Évolution de la segmentation client :**
 
-- **A1 :** Focus sur les PME early adopters (churn élevé, adoption rapide)
+- **A1 :** Focus sur les PME adopteurs précoces (taux d\'attrition élevé, adoption rapide)
 - **A2 :** Expansion vers le marché intermédiaire via les intégrations et partenariats
-- **A3 :** Montée en puissance du marché intermédiaire avec customer success dédié et déploiements multi-départements
+- **A3 :** Montée en puissance du marché intermédiaire avec succès client dédié et déploiements multi-départements
 
 ### **Expansion géographique :**
 
@@ -91,7 +91,7 @@ Ce document explique les hypothèses sous-jacentes au modèle financier d'InterM
 
 **Scénarios positifs non inclus :**
 
-- Monétisation de l'API (prévue en Y2)
+- Monétisation de l\'API (prévue en Y2)
 - Licences en marque blanche pour les clients du marché intermédiaire
 - Intégrations marketplace (Zoom App Store, Microsoft Teams)
 
@@ -107,4 +107,4 @@ Ce document explique les hypothèses sous-jacentes au modèle financier d'InterM
 - Tests de sensibilité aux prix dans les segments cibles
 - Analyse de la disposition à payer via des programmes pilotes
 
-> **Conclusion :** Ces projections équilibrent l'ambition de croissance avec une économie SaaS disciplinée — visant des ratios LTV/CAC durables (>5x d'ici Y3) et des marges brutes de 80%+ avec une segmentation réaliste de la base client.
+> **Conclusion :** Ces projections équilibrent l\'ambition de croissance avec une économie SaaS disciplinée — visant des ratios LTV/CAC durables (>5x d\'ici Y3) et des marges brutes de 80%+ avec une segmentation réaliste de la base client.

@@ -145,9 +145,9 @@
 
   <!-- Key Features -->
   <g>
-    <text x="50" y="580" font-family="Arial" font-size="14" font-weight="bold" fill="#1F2937">Características principais:</text>
+    <text x="50" y="580" font-family="Arial" font-size="14" font-weight="bold" fill="#1F2937">Principais recursos:</text>
     <text x="50" y="605" font-family="Arial" font-size="12" fill="#374151">• Pools de threads para cada estágio</text>
-    <text x="50" y="625" font-family="Arial" font-size="12" fill="#374151">• Filas entre estágios para buffering</text>
+    <text x="50" y="625" font-family="Arial" font-size="12" fill="#374151">• Filas entre estágios para buffer</text>
     <text x="50" y="645" font-family="Arial" font-size="12" fill="#374151">• Padrão de processamento em pipeline</text>
     <text x="50" y="665" font-family="Arial" font-size="12" fill="#374151">• Escalabilidade sob carga</text>
     <text x="50" y="685" font-family="Arial" font-size="12" fill="#374151">• Isolamento de falhas por estágios</text>

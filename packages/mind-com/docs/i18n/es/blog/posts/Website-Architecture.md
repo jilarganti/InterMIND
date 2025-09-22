@@ -15,9 +15,9 @@ El sitio web [mind.com](https://mind.com) representa un ejemplo sobresaliente de
 
 > **Las innovaciones arquitectónicas clave** incluyen varias soluciones técnicas que distinguen al proyecto de los sitios de marketing típicos.
 
-## Sistema de traducción automática impulsado por IA
+## Sistema de traducción automática con inteligencia artificial
 
-El sistema traduce automáticamente todo el contenido del sitio a más de 20 idiomas sin usar archivos i18n tradicionales ni diccionarios. Al ejecutar el comando `pnpm translate`, el script analiza los archivos en el directorio `docs/en/` y crea versiones traducidas en `docs/i18n/{lang}/`. Es compatible con cualquier formato de texto: Markdown, componentes Vue, TypeScript, JavaScript. El sistema utiliza dos modelos de IA (OpenAI GPT-4 y Anthropic Claude) con respaldo automático en caso de errores. Cada versión de idioma se crea como una página estática separada, asegurando la indexación completa en motores de búsqueda sin dependencias de JavaScript.
+El sistema traduce automáticamente todo el contenido del sitio a más de 20 idiomas sin usar archivos i18n tradicionales ni diccionarios. Al ejecutar el comando `pnpm translate`, el script analiza los archivos en el directorio `docs/en/` y crea versiones traducidas en `docs/i18n/{lang}/`. Es compatible con cualquier formato de texto: Markdown, componentes Vue, TypeScript, JavaScript. El sistema utiliza dos modelos de IA (OpenAI GPT-4 y Anthropic Claude) con respaldo automático en caso de errores. Cada versión de idioma se crea como una página estática separada, garantizando la indexación completa en motores de búsqueda sin dependencias de JavaScript.
 
 ## Chat de IA de búsqueda con contenido indexado
 
@@ -53,7 +53,7 @@ Una de las características más innovadoras de mind.com es la integración de c
 
 **Upstash Vector** funciona como una base de datos vectorial sin servidor que utiliza el algoritmo DiskANN para la búsqueda eficiente del vecino más cercano entre embeddings de hasta 1536 dimensiones. La integración con Vercel AI SDK proporciona chatbots RAG (Generación Aumentada por Recuperación) con latencia mínima.
 
-**Las estrategias de embedding** incluyen la división inteligente de documentos en fragmentos por puntos o párrafos antes de la vectorización, el uso de modelos modernos como `text-embedding-3-small` para crear vectores de 1536 dimensiones, y la inserción masiva de datos en lotes de 1000 registros para un rendimiento óptimo.
+**Las estrategias de embedding** incluyen la división inteligente de documentos en fragmentos por puntos o párrafos antes de la vectorización, utilizando modelos modernos como `text-embedding-3-small` para crear vectores de 1536 dimensiones, e inserción masiva de datos en lotes de 1000 registros para un rendimiento óptimo.
 
 ### Arquitectura dual de IA
 
@@ -61,11 +61,11 @@ Mind.com implementa una estrategia avanzada utilizando **dos proveedores de IA**
 
 **El enrutamiento inteligente de solicitudes** permite usar GPT-4 para tareas que requieren capacidades multimodales y procesamiento en tiempo real, mientras que Claude se aplica para razonamiento complejo y tareas translingüísticas, donde demuestra un rendimiento del 85%+ relativo al inglés en más de 14 idiomas.
 
-**Las estrategias de respaldo** incluyen el cambio basado en cuotas (transición a Anthropic cuando se agota la cuota de OpenAI), enrutamiento específico por modelo y selección dinámica de proveedor para optimización de costos.
+**Las estrategias de respaldo** incluyen cambio basado en cuotas (transición a Anthropic cuando se agota la cuota de OpenAI), enrutamiento específico por modelo y selección dinámica de proveedor para optimización de costos.
 
 ### Detección automática de idioma
 
-El sistema detecta automáticamente el idioma de las solicitudes entrantes sin especificación manual, soportando más de 100 idiomas. Claude demuestra capacidades translingüísticas superiores, soportando el cambio fluido de idioma dentro de los diálogos y la comprensión del contexto cultural.
+El sistema detecta automáticamente el idioma de las solicitudes entrantes sin especificación manual, soportando más de 100 idiomas. Claude demuestra capacidades translingüísticas superiores, soportando cambio fluido de idioma dentro de los diálogos y comprensión del contexto cultural.
 
 ## Arquitectura Serverless en Vercel
 
@@ -83,7 +83,7 @@ Mind.com utiliza **Vercel Serverless Functions** como la base para su backend de
 
 ## OAuth y autenticación de usuarios
 
-El sistema de autenticación de Mind.com se integra con un **servicio OAuth externo** implementado en el lado del producto InterMIND. Esta decisión arquitectónica asegura la separación de responsabilidades entre la plataforma de marketing y el producto principal.
+El sistema de autenticación de Mind.com se integra con un **servicio OAuth externo** implementado en el lado del producto InterMIND. Esta decisión arquitectónica garantiza la separación de responsabilidades entre la plataforma de marketing y el producto principal.
 
 ### Integración OAuth externa
 
@@ -93,7 +93,7 @@ La **configuración del ID de cliente** utiliza un identificador seguro para uso
 
 El **enfoque sin estado** en el lado del sitio significa que mind.com no almacena sesiones de usuario localmente, dependiendo del sistema externo para la gestión del estado de autenticación del usuario.
 
-## Soporte multilingüe: más de 20 idiomas
+## Soporte multiidioma: más de 20 idiomas
 
 Mind.com admite más de 20 idiomas con soporte completo para dirección de texto RTL (derecha a izquierda), demostrando un enfoque serio hacia la expansión internacional.
 
@@ -139,15 +139,15 @@ Mind.com utiliza **Pinia** como una solución moderna para la gestión de estado
 
 **Store de analytics** captura automáticamente parámetros UTM de la URL, los guarda en sessionStorage para seguimiento de sesión, e integra con Google Analytics para seguimiento de atribución.
 
-## Integración de analíticas
+## Integración de Analytics
 
-Mind.com utiliza un enfoque moderno para las analíticas a través de **Google Tag Manager** y **Google Analytics 4**.
+Mind.com utiliza un enfoque moderno para analytics a través de **Google Tag Manager** y **Google Analytics 4**.
 
 ### Integración GTM
 
-Las **pruebas A/B del lado del servidor** se implementan a través de funciones edge para mantener el rendimiento, evitando las herramientas tradicionales de pruebas A/B del lado del cliente que pueden reducir las puntuaciones de Lighthouse en 10 puntos.
+**Las pruebas A/B del lado del servidor** se implementan a través de edge functions para mantener el rendimiento, evitando las herramientas tradicionales de pruebas A/B del lado del cliente que pueden reducir las puntuaciones de Lighthouse en 10 puntos.
 
-Los **eventos personalizados de dataLayer** para el seguimiento de experimentos utilizan la estructura `{'experimentId': 'id', 'variationId': 'id'}`, asegurando un seguimiento preciso de las variantes de prueba sin impacto en el rendimiento.
+**Los eventos personalizados de dataLayer** para el seguimiento de experimentos utilizan la estructura `{'experimentId': 'id', 'variationId': 'id'}`, asegurando un seguimiento preciso de las variantes de prueba sin impacto en el rendimiento.
 
 ## Seguridad y escalabilidad
 

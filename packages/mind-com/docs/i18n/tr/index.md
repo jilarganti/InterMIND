@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "InterMIND: Video toplantılar için gerçek zamanlı konuşma çevirisi"
+title: "InterMIND: Video Toplantılar için Gerçek Zamanlı Konuşma Çevirisi"
 description: "19+ dilde eşzamanlı tercümanlık ile profesyonel video konferans. Ton, niyet ve bağlamı yakalayan AI destekli çeviri. Küresel olarak buluşun, doğal iletişim kurun."
 isHome: true
 ---
@@ -52,8 +52,8 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: 'Ciddi toplantılar için tasarlandı — sadece konuşmak için değil',
-      details: 'InterMIND hafif bir eklenti veya plugin değil, [profesyonel düzeyde bir video toplantı platformudur](./product/overview/video-meeting-platform).',
+      title: 'Ciddi Toplantılar İçin Tasarlandı — Sadece Konuşmak İçin Değil',
+      details: 'InterMIND [profesyonel düzeyde bir video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
       items: [
         '✧ 1080p çözünürlük, akıllı gürültü bastırma, planlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
       ],
@@ -69,9 +69,9 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
     :card="{
-      title: 'Önemli olan yerde gizlilik',
+      title: 'Önemli Olan Yerde Gizlilik',
       details: 'InterMIND güven gerektiren konuşmalar için tasarlandı — gizlilik ve kontrolün en önemli olduğu yerde.',
-      items: ['✧ [Gizlilik bölgeleri](./product/overview/privacy-architecture) — AB, ABD, Güneydoğu Asya', '✧ **Sıfır veri eğitimi**. Üçüncü taraf erişimi yok.'],
+      items: ['✧ [Gizlilik Bölgeleri](./product/overview/privacy-architecture) — AB, ABD, Güneydoğu Asya', '✧ **Sıfır veri eğitimi**. Üçüncü taraf erişimi yok.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -152,11 +152,11 @@ Bu tek dil ayarı şunları kapsar:
 - **Konuşma girişi** (söyledikleriniz)
 - **Çevrilmiş çıktı** (duyduklarınız)
 
-| Katılımcı   | Seçilen Dil | Konuştuğu Dil | Duyduğu Dil |
-| ----------- | ----------- | ------------- | ----------- |
-| Ev sahibi   | İspanyolca  | İspanyolca    | İspanyolca  |
-| Katılımcı 1 | İngilizce   | İngilizce     | İngilizce   |
-| Katılımcı 2 | Çince       | Çince         | Çince       |
+| Katılımcı     | Seçilen Dil | Konuştuğu Dil | Duyduğu Dil |
+| ------------- | ----------- | ------------- | ----------- |
+| Ev sahibi     | İspanyolca  | İspanyolca    | İspanyolca  |
+| Katılımcı 1   | İngilizce   | İngilizce     | İngilizce   |
+| Katılımcı 2   | Çince       | Çince         | Çince       |
 
 [Platform tüm konuşmaları gerçek zamanlı olarak otomatik olarak yorumlar](./product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
 
@@ -176,7 +176,7 @@ Bunu değiştirmek şu anlama gelir:
 
 > ✨ "Diliniz" **tek birleşik bir ayardır**  
 > **Nasıl konuştuğunuzu**, **ne duyduğunuzu** ve **ne gördüğünüzü** kontrol eder.  
-> Bir dilde konuşup başka bir dilde dinlemek **desteklenmez** — deneyimi basit ve öngörülebilir tutmak için tasarım gereği.
+> Bir dilde konuşup başka bir dilde dinlemek **desteklenmez** — tasarım gereği, deneyimi basit ve öngörülebilir tutmak için.
 
 <span id="Testimonials"></span>
 
@@ -236,7 +236,7 @@ Bunu değiştirmek şu anlama gelir:
 <ContactForm buttonText="Ekibimizle konuşun" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_Zamanınızı gramer ezberlemek yerine sanatınızda ustalaşmaya harcamanız daha iyi._**  
+> 💡 **_Zamanınızı dilbilgisi ezberlemek yerine uzmanlığınızı geliştirmeye harcamanız daha iyi._**  
 > 💡 **_Gerçek ortaklıklar gerçek konuşmalarla başlar — onların dilinde._**
 
 ## Sık Sorulan Sorular
@@ -246,8 +246,8 @@ Bunu değiştirmek şu anlama gelir:
 <AccordionGroup
     :items="[
       {
-        q: 'InterMind hangi dillerde çeviri desteği sunuyor?',
-        a: 'InterMind aşağıdaki 19 dilde **gerçek zamanlı çeviri** desteği sunmaktadır:<br><br>- العربية (ar) – Arapça<br>- Čeština (cs) – Çekçe<br>- Deutsch (de) – Almanca<br>- English (en) – İngilizce<br>- Español (es) – İspanyolca<br>- Français (fr) – Fransızca<br>- हिन्दी (hi) – Hintçe<br>- Magyar (hu) – Macarca<br>- Italiano (it) – İtalyanca<br>- 日本語 (ja) – Japonca<br>- 한국어 (ko) – Korece<br>- Nederlands (nl) – Hollandaca<br>- Polski (pl) – Lehçe<br>- Português (pt) – Portekizce<br>- Русский (ru) – Rusça<br>- Türkçe (tr) – Türkçe<br>- 中文 (zh) – Çince<br><br>Bu listeyi sürekli genişletiyoruz — her büyük sürümle birlikte yeni diller eklenmektedir.',
+        q: 'InterMind hangi dillerde tercümanlık desteği sunuyor?',
+        a: 'InterMind aşağıdaki 19 dilde **gerçek zamanlı tercümanlık** desteği sunmaktadır:<br><br>- العربية (ar) – Arapça<br>- Čeština (cs) – Çekçe<br>- Deutsch (de) – Almanca<br>- English (en) – İngilizce<br>- Español (es) – İspanyolca<br>- Français (fr) – Fransızca<br>- हिन्दी (hi) – Hintçe<br>- Magyar (hu) – Macarca<br>- Italiano (it) – İtalyanca<br>- 日本語 (ja) – Japonca<br>- 한국어 (ko) – Korece<br>- Nederlands (nl) – Hollandaca<br>- Polski (pl) – Lehçe<br>- Português (pt) – Portekizce<br>- Русский (ru) – Rusça<br>- Türkçe (tr) – Türkçe<br>- 中文 (zh) – Çince<br><br>Bu listeyi sürekli genişletiyoruz — her büyük sürümle birlikte yeni diller eklenmektedir.',
       },
       {
         q: 'Lisanslı kullanıcı nedir ve Katılımcı nedir?',
@@ -267,11 +267,11 @@ Bunu değiştirmek şu anlama gelir:
       },
       {
         q: 'InterMind veri gizliliği ve güvenliğini nasıl sağlıyor?',
-        a: 'InterMind **tasarım gereği gizlidir**. Tüm veriler seçtiğiniz **Gizlilik Bölgesi** içinde işlenir ve saklanır — _AB_, _ABD_ veya _Asya_. [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) ve BAE PDPL\'ye uygun olarak çalışıyoruz ve **içeriğinizi asla** eğitim veya üçüncü taraf erişimi için kullanmayız. Gelişmiş [Gizlilik Bölgesi kontrolü](./product/overview/privacy-architecture) **İş** planında mevcuttur.',
+        a: 'InterMind **tasarım gereği gizlidir**. Tüm veriler seçtiğiniz **Gizlilik Bölgesi** içinde işlenir ve saklanır — _AB_, _ABD_ veya _Asya_. [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) ve BAE PDPL\'ye uygun çalışıyoruz ve **içeriğinizi asla** eğitim veya üçüncü taraf erişimi için kullanmayız. Gelişmiş [Gizlilik Bölgesi kontrolü](./product/overview/privacy-architecture) **İş** planında mevcuttur.',
       },
       {
         q: 'Bir plan satın almadan önce InterMind\'ı deneyebilir miyim?',
-        a: 'Kesinlikle. *Ücretsiz Temel* plan size **25 ücretsiz toplantı** ile temel özelliklere tam erişim sağlar — **eşzamanlı çeviri** ve **toplantı arama** dahil. Kredi kartı gerekmez. İstediğiniz zaman yükseltebilirsiniz.',
+        a: 'Kesinlikle. *Ücretsiz Temel* plan size **25 ücretsiz toplantı** ile temel özelliklere tam erişim sağlar — **eşzamanlı tercümanlık** ve **toplantı arama** dahil. Kredi kartı gerekmez. İstediğiniz zaman yükseltebilirsiniz.',
       },
       {
         q: 'Yardım veya desteğe ihtiyacım olursa ne yapmalıyım?',
@@ -279,10 +279,10 @@ Bunu değiştirmek şu anlama gelir:
       },
       {
         q: 'Aboneliğimi nasıl yönetirim (yükseltme, düşürme veya iptal)?',
-        a: 'Planınızı **hesap ayarlarınız** üzerinden istediğiniz zaman değiştirebilirsiniz. Değişiklikler **anında** geçerli olur. İptaller için *Aylık planlar* fatura döneminin sonunda iptal olur. *Yıllık planlar* **orantılı geri ödeme** ile iptal edilebilir.',
+        a: 'Planınızı **hesap ayarlarınız** üzerinden istediğiniz zaman değiştirebilirsiniz. Değişiklikler **anında** geçerli olur. İptaller için, *Aylık planlar* fatura döneminin sonunda iptal olur. *Yıllık planlar* **orantılı geri ödeme** ile iptal edilebilir.',
       },
       {
-        q: 'InterMind\'ı webinar veya büyük etkinlikler için kullanabilir miyim?',
+        q: 'InterMind\'ı webinarlar veya büyük etkinlikler için kullanabilir miyim?',
         a: 'Evet. *Pro* ve *İş* planları **büyük toplantılar ve webinarlar** için idealdir — *İş* planında **500 katılımcıya** kadar destek ile.',
       },
     ]"/>

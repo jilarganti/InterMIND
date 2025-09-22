@@ -2,7 +2,7 @@
 
 Giderek daha fazla birbirine bağlanan dünyamızda, dil engellerini aşmak hiç bu kadar kritik olmamıştı. İşinizi küresel olarak genişletiyor, uluslararası konferanslara katılıyor veya sadece kültürler arası iletişim kurmaya çalışıyor olun, muhtemelen hem çeviri hem de tercümanlık hizmetleriyle karşılaştınız. Ancak şu gerçek var: birçok kişi bu terimleri birbirinin yerine kullanırken, bunlar aslında tamamen farklı beceri setleri, araçlar ve yaklaşımlar gerektiren farklı mesleklerdir.
 
-Çeviri ve tercümanlık arasındaki farkı anlamak sadece akademik bir merak değildir—uluslararası iş dünyası, sağlık, hukuk veya çok dilli iletişimin önemli olduğu herhangi bir alanda çalışan herkes için temel bir bilgidir. Bu iki dil hizmetini birbirinden ayıran unsurları derinlemesine inceleyelim ve doğru seçimi yapmanın iletişim çabalarınızı nasıl başarıya ulaştırabileceğini veya başarısızlığa sürükleyebileceğini görelim.
+Çeviri ve tercümanlık arasındaki farkı anlamak sadece akademik bir merak değildir—uluslararası iş, sağlık, hukuk veya çok dilli iletişimin önemli olduğu herhangi bir alanda çalışan herkes için temel bir bilgidir. Bu iki dil hizmetini birbirinden ayıran unsurları derinlemesine inceleyelim ve doğru seçimi yapmanın iletişim çabalarınızı nasıl başarıya ulaştırabileceğini veya başarısızlığa sürükleyebileceğini görelim.
 
 ## Temel Fark: Yazılı ve Sözlü
 
@@ -11,18 +11,18 @@ Giderek daha fazla birbirine bağlanan dünyamızda, dil engellerini aşmak hiç
 
 Özünde, ayrım oldukça basittir: **çeviri yazılı metinlerle ilgilenir**, **tercümanlık ise sözlü dille ilgilenir**. Şöyle düşünün: Orijinali Fransızca yazılmış ancak şimdi İngilizce olarak mevcut olan bir roman okuyorsanız, bu çeviridir. Delegelerin farklı diller konuştuğu ancak herkesin gerçek zamanlı dönüştürme yoluyla anladığı bir BM toplantısını izliyorsanız, bu tercümanlıktır.
 
-Bu temel fark basit görünebilir, ancak bu profesyonellerin nasıl çalıştığı, ihtiyaç duydukları beceriler ve karşılaştıkları zorluklar konusunda sayısız farklılığa yol açar.
+Bu temel fark basit görünebilir, ancak bu profesyonellerin nasıl çalıştıkları, ihtiyaç duydukları beceriler ve karşılaştıkları zorluklar konusunda sayısız farklılığa yol açar.
 
 ## Çeviri Nedir? Yazılı Dil Dönüştürme Sanatı
 
-Çeviri, yazılı içeriği bir dilden (kaynak) diğerine (hedef) anlam, ton, stil ve kültürel nüansları koruyarak dönüştürme sürecidir. Araştırma, revizyon ve iyileştirme imkanı sağlayan metodolojik bir süreçtir.
+Çeviri, yazılı içeriği bir dilden (kaynak) diğerine (hedef) anlam, ton, stil ve kültürel nüansları koruyarak dönüştürme sürecidir. Araştırma, revizyon ve iyileştirmeye olanak tanıyan metodolojik bir süreçtir.
 
 ### Çevirinin Temel Özellikleri
 
-**Mükemmellik İçin Zaman**: Çevirmenler genellikle saniyelerle değil, günler veya haftalarla ölçülen son teslim tarihleriyle çalışırlar. Bu onlara şu imkanları sağlar:
+**Mükemmellik İçin Zaman**: Çevirmenler genellikle saniyelerle değil, günler veya haftalarla ölçülen son teslim tarihleriyle çalışırlar. Bu onlara şunları yapma imkanı verir:
 
 - Özel terminolojiyi araştırma
-- Referans materyalleri ve sözlüklere başvurma
+- Referans materyalleri ve sözlüklere danışma
 - Çalışmalarını birden çok kez gözden geçirme ve revize etme
 - Editörler ve düzeltmenlerle işbirliği yapma
 - Büyük belgelerde tutarlılığı sağlama
@@ -58,7 +58,7 @@ Bu temel fark basit görünebilir, ancak bu profesyonellerin nasıl çalıştı�
 
 **Tıbbi Çeviri**
 
-- Klinik deneyler, hasta kayıtları, farmasötik dokümantasyon
+- Klinik çalışmalar, hasta kayıtları, farmasötik dokümantasyon
 - Tıbbi uzmanlığı dilbilimsel becerilerle birleştirir
 - Sıkı düzenleyici gereksinimlere tabidir
 - Hasta güvenliğini doğrudan etkileyebilir
@@ -79,7 +79,7 @@ Bu temel fark basit görünebilir, ancak bu profesyonellerin nasıl çalıştı�
 
 ## Tercümanlık Nedir? Gerçek Zamanlı Dil Dönüşümünün Zorluğu
 
-Tercümanlık, konuşulan dilin gerçek zamanlı veya gerçek zamana yakın sözlü çevirisidir. Tercümanların mesajları anında işlemesi, anlaması ve iletmesi gerekir; sözlük kullanma lüksü veya ikinci şans yoktur. Simultane tercümanlığın bilişsel yükü hava trafik kontrolörlerininki ile karşılaştırılmıştır—sürekli yoğun konsantrasyon ve olağanüstü çoklu görev yetenekleri gerektirir.
+Tercümanlık, konuşulan dilin gerçek zamanlı veya gerçek zamana yakın sözlü çevirisidir. Tercümanların mesajları anında işlemesi, anlaması ve iletmesi gerekir; sözlük kullanma veya ikinci şans lüksü yoktur. Simultane tercümanlığın bilişsel yükü hava trafik kontrolörlerininki ile karşılaştırılmıştır—sürekli yoğun konsantrasyon ve olağanüstü çoklu görev yetenekleri gerektirir.
 
 ### Tercümanlığın Temel Özellikleri
 
@@ -149,7 +149,7 @@ Farklı durumlar farklı tercümanlık yaklaşımları gerektirir:
 
 Çevirmenler ve tercümanlar için eğitim yolları, bazı alanlarda örtüşse de, her mesleğin gerektirdiği özel becerilere göre genellikle farklılaşır.
 
-### Çevirmenler İçin Eğitim
+### Çevirmenler için Eğitim
 
 Birçok çevirmen çeviri çalışmaları, dilbilim veya modern diller alanında dereceye sahiptir. Ancak, konu alanı uzmanlığı da eşit derecede değerlidir—tıbbi metinlerde uzmanlaşan bir çevirmen tıp veya yaşam bilimleri geçmişine sahip olabilirken, hukuki çevirmen hukuk okumuş olabilir.
 
@@ -158,24 +158,24 @@ Birçok çevirmen çeviri çalışmaları, dilbilim veya modern diller alanında
 - Çeviri teorisi ve karşılaştırmalı üslupbilim
 - Terminoloji yönetimi ve CAT araçları
 - Çeşitli metin türleri ve türler
-- Serbest çeviri işinin ticari yönleri
+- Serbest çevirmenliğin iş yönleri
 - Makine çevirisi sonrası düzenleme teknikleri
 
-### Tercümanlar İçin Eğitim
+### Tercümanlar için Eğitim
 
-Tercümanlık eğitimi programları, yoğun alıştırmalar yoluyla pratik beceri geliştirmeye ağırlık verir:
+Tercüman eğitimi programları, yoğun alıştırmalar yoluyla pratik beceri geliştirmeye ağırlık verir:
 
-- **Konuşma gölgeleme**: Bölünmüş dikkat geliştirmek için konuşmacıların söylediklerini aynı dilde tekrarlama
+- **Konuşma gölgeleme**: Bölünmüş dikkat geliştirmek için konuşmacıların aynı dilde söylediklerini tekrarlama
 - **Görsel çeviri**: Yazılı metinleri anında sözlü olarak çevirme
 - **Hafıza alıştırmaları**: Büyük bilgi parçalarını tutma ve hatırlama kapasitesi geliştirme
-- **Not alma sistemleri**: Ardışık tercümanlık için kişisel stenografi geliştirme
+- **Not alma sistemleri**: Ardışık tercüme için kişisel stenografi geliştirme
 - **Sahte konferanslar**: Simüle edilmiş profesyonel ortamlarda pratik yapma
 
-Öğrenciler tercümanlık laboratuvarlarında sayısız saat geçirerek dayanıklılık kazanır ve gerçek zamanlı dil dönüşümü için gerekli benzersiz bilişsel yetenekleri geliştirir.
+Öğrenciler tercüme laboratuvarlarında sayısız saat geçirerek dayanıklılık kazanır ve gerçek zamanlı dil dönüşümü için gerekli benzersiz bilişsel yetenekleri geliştirir.
 
 ## Profesyonel Standartlar ve Sertifikasyon
 
-Hem çeviri hem de sözlü çeviri, hizmet mükemmelliğini sağlayan yerleşik kalite standartları ve profesyonel sertifikasyonlara sahiptir:
+Hem çeviri hem de tercümanlık, hizmet mükemmelliğini sağlayan yerleşik kalite standartları ve profesyonel sertifikasyonlara sahiptir:
 
 ### Çeviri Kalite Standartları
 
@@ -187,8 +187,8 @@ Hem çeviri hem de sözlü çeviri, hizmet mükemmelliğini sağlayan yerleşik 
 **Kalite Metrikleri**
 Profesyonel çeviri kalitesi beş temel boyut üzerinden ölçülür:
 
-- **Doğruluk**: Eksiklik veya ekleme olmaksızın bilginin doğru aktarımı
-- **Akıcılık**: Akıcı okunan doğal hedef dil ifadesi
+- **Doğruluk**: Eksiltme veya ekleme olmaksızın bilginin doğru aktarımı
+- **Akıcılık**: Pürüzsüz okunan doğal hedef dil ifadesi
 - **Terminoloji**: Uygun teknik terimlerin tutarlı kullanımı
 - **Stil**: Uygun register, ton ve stil kılavuzlarına uygunluk
 - **Biçimlendirme**: Korunan düzen, yapı ve görsel sunum
@@ -207,7 +207,7 @@ Kaliteli çeviri genellikle birden fazla aşama içerir:
 | **Standart**       | **Tam Adı**                                                | **Uygulama Alanı**                                       | **Temel Gereksinimler**                                                                                                                             | **Kimler İhtiyaç Duyar**                                                                                     |
 | ------------------ | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
 | **ISO 17100:2015** | Çeviri hizmetleri — Çeviri hizmetleri için gereksinimler | Tüm çeviri projeleri                              | • Nitelikli çevirmenler<br>• Tanımlanmış üretim süreci<br>• İkinci dilbilimci tarafından inceleme<br>• Son düzeltme<br>• Proje yönetimi protokolleri | Çeviri ajansları, Kurumsal çeviri departmanları, Sertifikasyon arayan serbest çevirmenler |
-| **ISO 18587:2017** | Makine çevirisi çıktısının düzenlenmesi                   | MT + İnsan düzenleme projeleri                      | • Düzenleyici nitelikleri<br>• Tam ve hafif düzenleme tanımları<br>• Kalite değerlendirme kriterleri<br>• MT kullanımı için müşteri anlaşması       | MT kullanan şirketler, PEMT hizmetleri sunan LSP\'ler, MT iş akışları olan teknoloji şirketleri                    |
+| **ISO 18587:2017** | Makine çevirisi çıktısının son düzenlemesi                   | MT + İnsan son düzenleme projeleri                      | • Son düzenleyici nitelikleri<br>• Tam ve hafif son düzenleme tanımları<br>• Kalite değerlendirme kriterleri<br>• MT kullanımı için müşteri anlaşması       | MT kullanan şirketler, PEMT hizmetleri sunan LSP'ler, MT iş akışları olan teknoloji şirketleri                    |
 | **ISO 20771:2020** | Hukuki çeviri — Gereksinimler                             | Hukuki belge çevirisi                            | • Hukuki bilgi gereksinimleri<br>• Hukuk uzmanı tarafından revizyon<br>• Gizlilik protokolleri<br>• Sertifikasyon prosedürleri                        | Hukuki çevirmenler, Hukuk büroları, Mahkemeler ve tribunaller, Devlet kurumları                              |
 | **ISO 13611:2014** | Sözlü çeviri — Toplum çevirmenliği için kılavuzlar         | Sağlık, sosyal hizmetler, hukuki toplum ortamları | • Çevirmen yetkinlikleri<br>• Etik kurallar<br>• Kültürel arabuluculuk kılavuzları<br>• Çalışma koşulları                                        | Hastaneler ve klinikler, Sosyal hizmet kurumları, Toplum kuruluşları, Mahkeme sistemleri               |
 | **ISO 23155:2022** | Konferans çevirmenliği — Gereksinimler ve öneriler   | Konferans ve simultane çeviri            | • Takım kompozisyonu<br>• Kabin özellikleri<br>• Ekipman standartları<br>• Çalışma süresi sınırları                                                   | Konferans organizatörleri, Uluslararası kuruluşlar, Çeviri hizmeti sağlayıcıları                 |
@@ -275,7 +275,7 @@ Her iki meslek de dil uzmanlığı gerektirse de, ihtiyaç duyulan spesifik bece
 
 ### Tercüman Becerileri
 
-**Bölünmüş Dikkat**: Aynı anda dinleme, işleme ve konuşma bilişsel yeteneği—kafanızı okşarken karnınızı ovmak gibi, ancak sonsuz kat daha karmaşık.
+**Bölünmüş Dikkat**: Aynı anda dinleme, işleme ve konuşma bilişsel yeteneği—başınızı okşarken karnınızı ovmak gibi, ancak sonsuz kat daha karmaşık.
 
 **Stres Yönetimi**: Yüksek baskı altındaki durumlarda sakin ve odaklanmış kalma, hatalardan zarif bir şekilde kurtulma.
 
@@ -283,7 +283,7 @@ Her iki meslek de dil uzmanlığı gerektirse de, ihtiyaç duyulan spesifik bece
 
 **Fiziksel Dayanıklılık**: Tercümanlık fiziksel olarak zorludur, sürekli konsantrasyon gerektirir ve genellikle uzun süreler boyunca ayakta durma veya rahatsız pozisyonlarda oturma gerektirir.
 
-**Doğaçlama**: Beklenmedik durumları ele alma, teknik arızalar veya hazırlanmış metinlerden sapan konuşmacılarla başa çıkma.
+**Doğaçlama**: Beklenmedik durumları, teknik arızaları veya hazırlanmış metinlerden sapan konuşmacıları idare etme.
 
 ## Teknolojinin Devrimsel Etkisi
 
@@ -291,7 +291,7 @@ Dijital devrim hem çeviri hem de sözlü çeviri alanlarını farklı şekiller
 
 ### Yapay Zeka ve Makine Çevirisi
 
-**Sinirsel Makine Çevirisi (NMT)**
+**Sinir Ağı Makine Çevirisi (NMT)**
 
 - Google Translate, DeepL ve GPT-4 tabanlı çözümler gibi sistemler
 - Son yıllarda kalitede dramatik iyileşme
@@ -346,7 +346,7 @@ Doğru seçimi yapmak özel ihtiyaçlarınıza bağlıdır ve giderek artan bir 
 
 - Uluslararası konferans veya zirveler düzenlerken
 - Çok dilli iş müzakereleri yürütürken
-- Ana dili farklı olan kişilere sağlık hizmeti verirken
+- Ana dili farklı olan hastalara sağlık hizmeti verirken
 - Çok dilli eğitim oturumları veya atölye çalışmaları yürütürken
 - Yabancı dil konuşanlarla yasal işlemleri kolaylaştırırken
 - Canlı etkinlikleri uluslararası kitleye yayınlarken
@@ -467,7 +467,7 @@ Bu organizasyonlar şunları sağlar:
 
 - Mesleki sertifikasyon programları
 - Sürekli eğitim fırsatları
-- Etik kılavuzlar ve davranış kuralları
+- Etik kurallar ve davranış kodları
 - Adil çalışma koşulları için savunuculuk
 - Ağ kurma ve mentorluk fırsatları
 
@@ -494,7 +494,7 @@ Teknoloji geliştikçe, ilginç gelişmeler görüyoruz:
 - AI destekli hizmetlerde veri gizliliği
 - Dil hizmetlerine eşit erişimin sağlanması
 - Gig ekonomisinde profesyonel standartların korunması
-- Makine çeviri sistemlerindeki önyargının ele alınması
+- Makine çeviri sistemlerindeki önyargıların ele alınması
 
 ## Dil Uzmanlarıyla Çalışmak İçin En İyi Uygulamalar
 
@@ -552,7 +552,7 @@ Teknoloji geliştikçe, ilginç gelişmeler görüyoruz:
 **Gelecek İçin Planlayın**
 
 - Ölçeklenebilirlik ihtiyaçları
-- Sürekli ve tek seferlik gereksinimler
+- Sürekli vs. tek seferlik gereksinimler
 - Mevcut sistemlerle entegrasyon
 - Uzun vadeli ortaklık potansiyeli
 
@@ -560,8 +560,8 @@ Teknoloji geliştikçe, ilginç gelişmeler görüyoruz:
 
 Çeviri ve tercümanlık aynı asil amaca hizmet eder: dil engellerini aşarak iletişimi mümkün kılmak. Ancak bunu temelden farklı yöntemlerle başarırlar ve farklı beceriler, araçlar ve yaklaşımlar gerektirir. Bu farklılıkları anlamak sadece akademik değildir—ihtiyaçlarınız için doğru hizmeti seçmenize, uygun beklentiler belirlemenize ve daha iyi iletişim sonuçları elde etmenize yardımcı olabilecek pratik bir bilgidir.
 
-Dünyamız giderek daha fazla birbirine bağlandıkça, hem çeviri hem de tercümanlık hizmetlerine olan talep artmaya devam ediyor. Teknoloji bu hizmetleri daha erişilebilir ve uygun fiyatlı hale getiriyor, ancak insan uzmanlığı nüanslı, yüksek riskli iletişim için hala çok önemli. İşinizi küresel olarak genişletiyor, çeşitli topluluklara hizmet veriyor veya kültürler arası köprüler kuruyorsanız, ne zaman çeviri ne zaman tercümanlık yapılacağını bilmek ve dil uzmanlarıyla etkili bir şekilde çalışmak paha biçilmez bir beceridir.
+Dünyamız giderek daha fazla birbirine bağlandıkça, hem çeviri hem de tercümanlık hizmetlerine olan talep artmaya devam ediyor. Teknoloji bu hizmetleri daha erişilebilir ve uygun fiyatlı hale getiriyor, ancak incelikli, yüksek riskli iletişim için insan uzmanlığı hala çok önemli. İşinizi küresel olarak genişletiyor, çeşitli topluluklara hizmet veriyor veya kültürler arası köprüler kuruyorsanız, ne zaman çeviri ne zaman tercümanlık yapılacağını bilmek ve dil uzmanlarıyla etkili bir şekilde çalışmak paha biçilmez bir beceridir.
 
-Gelecek, bu hizmetler arasında daha da fazla entegrasyon vaat ediyor; AI ve insan uzmanlar dil engellerini her zamankinden daha etkili bir şekilde yıkmak için birlikte çalışıyor. Özel dernekler ve sertifikasyon kuruluşları tarafından sürdürülen profesyonel standartlar, her iki alanda da kalite ve etik değerleri garanti ediyor. Hem çeviri hem de tercümanlığın benzersiz değerini anlayarak, profesyonel sertifikasyonun önemini kavrayarak ve hibrit projelerin karmaşıklığını takdir ederek, çok dilli dünyamızda daha iyi yön bulabilir ve etkili kültürlerarası iletişimin gücünden yararlanabilirsiniz.
+Gelecek, bu hizmetler arasında daha da fazla entegrasyon vaat ediyor; yapay zeka ve insan uzmanlar, dil engellerini her zamankinden daha etkili bir şekilde yıkmak için birlikte çalışıyor. Özel dernekler ve sertifikasyon kuruluşları tarafından sürdürülen profesyonel standartlar, her iki alanda da kalite ve etiği garanti ediyor. Hem çeviri hem de tercümanlığın benzersiz değerini anlayarak, profesyonel sertifikasyonun önemini kavrayarak ve hibrit projelerin karmaşıklığını takdir ederek, çok dilli dünyamızda daha iyi yön bulabilir ve etkili kültürlerarası iletişimin gücünden yararlanabilirsiniz.
 
 Unutmayın: çeviri ve tercümanlık sadece kelimeleri dönüştürmekle ilgili değildir—insanları birbirine bağlamak, fikirleri paylaşmak ve insan dillerinin güzel çeşitliliği boyunca anlayış inşa etmekle ilgilidir. Akıllıca seçin, kaliteye yatırım yapın ve küresel iletişimin tüm potansiyelini açığa çıkarın.

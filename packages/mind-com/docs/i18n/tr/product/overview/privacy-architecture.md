@@ -6,11 +6,11 @@ InterMind, canlı AI destekli çeviri ile çok dilli video toplantılar için bi
 
 Kesintisiz bir deneyim sunmak için InterMind, video, ses, bulut depolama, gerçek zamanlı çeviri ve analitik için üçüncü taraf hizmetleri entegre eder. Bu üçüncü taraf sağlayıcılar performans ve ölçeklenebilirlik sağlamamıza yardımcı olur — ancak aynı zamanda doğrudan kontrol edemediğimiz bir katman da sunarlar.
 
-**Vaatler yerine şeffaflığa** inanıyoruz. Sadece doğrudan kontrolümüz altındaki bileşenler için gizlilik ve güvenlik garanti edebiliriz — yazılımımız, arayüz mantığımız ve verileri nasıl yönlendirdiğimiz. Diğer her şey için size **seçim gücü** sunuyoruz.
+**Vaatler yerine şeffaflığa** inanıyoruz. Sadece doğrudan kontrolümüz altındaki bileşenler için gizlilik ve güvenliği garanti edebiliriz — yazılımımız, arayüz mantığımız ve verileri nasıl yönlendirdiğimiz. Diğer her şey için size **seçim gücü** sunuyoruz.
 
-Bu nedenle InterMind'ı **bölge tabanlı gizlilik** ile tasarladık: verilerinizin nerede işlendiğini, hangi yasal çerçevenin onu yönettiğini ve hangi AI modellerinin kullanıldığını — seçtiğiniz gizlilik bölgesine göre siz seçersiniz.
+Bu nedenle InterMind'ı **bölge tabanlı gizlilik** ile tasarladık: verilerinizin nerede işlendiğini, hangi yasal çerçevenin onu yönettiğini ve hangi AI modellerinin kullanıldığını — seçtiğiniz gizlilik bölgesine göre siz seçiyorsunuz.
 
-> **Gizlilik Bölgesi Nedir?**  
+> **Gizlilik Bölgesi nedir?**  
 > _Verilerinizin nerede işlendiğini ve hangi yasal çerçeve altında olduğunu yöneten yapılandırılabilir bir bölge (AB, ABD, Asya)._
 
 ## Temel Gizlilik İlkeleri
@@ -23,7 +23,7 @@ Bu nedenle InterMind'ı **bölge tabanlı gizlilik** ile tasarladık: verilerini
 
 ### 2. **Mimari Şeffaflık**
 
-- Oturumunuz için hangi bölgenin aktif olduğunu ve hangi yasaların geçerli olduğunu açıkça görebilirsiniz (örneğin Avrupa'da GDPR, ABD'de CCPA, BAE'de PDPL).
+- Oturumunuz için hangi bölgenin aktif olduğunu ve hangi yasaların geçerli olduğunu açıkça görebilirsiniz (örn. Avrupa'da GDPR, ABD'de CCPA, BAE'de PDPL).
 - Her oturum belirlenmiş bir **uyumluluk modunda** çalışır ve bu yapılandırma görünür ve denetlenebilir.
 
 ### 3. **Varsayılan Olarak Gizlilik**
@@ -39,9 +39,9 @@ Her oturumun başında veya kuruluşunuzun hesap ayarlarının bir parçası ola
 | Bölge         | Geçerli Yasalar                                                                               | Altyapı                        | LLM Sağlayıcıları          |
 | ------------- | --------------------------------------------------------------------------------------------- | ------------------------------ | -------------------------- |
 | Avrupa        | [GDPR](https://gdpr.eu)                                                                       | Yalnızca AB veri merkezleri    | AB\'de barındırılan veya AB uyumlu  |
-| Amerika Birleşik Devletleri | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (ABD)        | OpenAI US / Anthropic US   |
+| Amerika Birleşik Devletleri | [CCPA](https://oag.ca.gov/privacy/ccpa)                                           | AWS / GCP / Azure (ABD)        | OpenAI US / Anthropic US   |
 | BAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | BAE veya Bahreyn bulutu        | Bölgesel veya uyumlu LLM\'ler |
-| Asya / Çin    | Yerel Çin gizlilik yasaları                                                                  | Alibaba, Huawei, Tencent Cloud | Yalnızca Çin merkezli LLM\'ler      |
+| Asya / Çin    | Yerel Çin gizlilik yasaları                                                                  | Alibaba, Huawei, Tencent Cloud | Yalnızca Çin tabanlı LLM\'ler      |
 
 Bu seçim, video, ses ve yorumlanan içeriğinizin nasıl işlendiğini ve hangi yargı yetkisi altında olduğunu belirler.
 
@@ -77,10 +77,10 @@ InterMind aşağıdakilerle tam uyumluluk sağlar:
 
 - **GDPR** — Erişim, silme, dışa aktarma ve işleme kısıtlama hakkı. AI profilleme yapılmaz.
 - **CCPA** — Kişisel veri satışı yapılmaz, vazgeçme seçenekleri ve şeffaf toplama uygulamaları.
-- **UAE PDPL** — Talep edilirse yerel depolama, sıkı erişim kontrolleri, izin olmadan uluslararası transfer yapılmaz.
-- **China DSL/PIPL** — Sadece bölge içi işleme, Çin seçilirse yabancı yönlendirme yapılmaz.
+- **UAE PDPL** — Talep edildiğinde yerel depolama, sıkı erişim kontrolleri, izin olmadan uluslararası transfer yapılmaz.
+- **China DSL/PIPL** — Yalnızca bölge içi işleme, Çin seçildiğinde yabancı yönlendirme yapılmaz.
 
-## Neleri Garanti Edebilir ve Edemeyiz
+## Neyi Garanti Edebilir ve Edemeyiz
 
 Sadece hukuki jargon değil, tam dürüstlüğe kararlıyız.
 
@@ -96,17 +96,17 @@ Sadece hukuki jargon değil, tam dürüstlüğe kararlıyız.
 
 - Verilerinizin **nerede ve nasıl** işlendiğini her zaman bilirsiniz.
 - Bölgenizi ve uyumluluk modunuzu seçerek **riski kontrol etme** araçlarına sahipsiniz.
-- InterMind içeriğinizi rızanız olmadan **asla** saklamaz veya istismar etmez — geçici olarak bile.
+- InterMind, rızanız olmadan içeriğinizi **asla** saklamaz veya istismar etmez — geçici olarak bile.
 
 ## Güven Modları ve Gizlilik Seviyeleri
 
 Oturumunuzu gizlilik ihtiyaçlarınıza uyacak şekilde özelleştirebilirsiniz:
 
-| Güven Modu       | Yorumlama | Bölgeler Arası Transfer | Depolama           | En İyi Kullanım Alanı               |
-| ---------------- | --------- | ----------------------- | ------------------ | ----------------------------------- |
-| 🔒 Yalnızca Yerel | ❌        | ❌                      | ❌                 | Hukuk, devlet, dahili incelemeler   |
-| 🔐 Bölge Kilitli  | ✅        | ✅ (yalnızca bölge içi) | ❌ veya oturum-sadece | Sağlık, finans, İK               |
-| 🌐 Küresel Esnek  | ✅        | ✅ (çok bölgeli)        | ✅                 | Destek, satış, çok uluslu ekipler   |
+| Güven Modu       | Yorumlama | Bölgeler Arası Transfer | Depolama           | En İyi Kullanım Alanı                    |
+| ---------------- | --------- | ----------------------- | ------------------ | ---------------------------------------- |
+| 🔒 Yalnızca Yerel | ❌        | ❌                      | ❌                 | Hukuk, devlet, dahili incelemeler        |
+| 🔐 Bölge Kilitli  | ✅        | ✅ (yalnızca bölge içi) | ❌ veya oturum-sadece | Sağlık, finans, İK                    |
+| 🌐 Küresel Esnek  | ✅        | ✅ (çok bölgeli)        | ✅                 | Destek, satış, çok uluslu ekipler        |
 
 ## Kutunun İçinden Çıkanlar
 

@@ -1,4 +1,4 @@
-# Ringkasan Eksekutif InterMind <Badge type="warning" text="draft" />
+# Ringkasan eksekutif InterMind <Badge type="warning" text="draft" />
 
 ## Masalah
 
@@ -10,9 +10,9 @@ Hambatan bahasa masih menghalangi kesepakatan bisnis global — terutama dalam m
 
 ## Mengapa Sekarang
 
-- Kerja jarak jauh bersifat permanen (75% penjualan B2B secara online)
+- Kerja jarak jauh bersifat permanen (75% penjualan B2B online)
 - Terjemahan AI kini mencapai akurasi mendekati manusia
-- Pasar berkembang (LATAM, SEA, MENA) memiliki kemampuan bahasa Inggris yang rendah namun volume perdagangan yang tinggi
+- Pasar berkembang (LATAM, SEA, MENA) memiliki kemampuan bahasa Inggris rendah namun volume perdagangan tinggi
 
 ## Pasar Inti
 

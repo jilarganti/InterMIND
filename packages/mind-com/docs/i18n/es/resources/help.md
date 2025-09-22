@@ -25,7 +25,7 @@ Rápido, enfocado, y con una persona real del otro lado.
     'Necesito asistencia con la incorporación del equipo',
     'Tengo preguntas sobre facturación o suscripción',
     'Quiero explorar las funciones empresariales',
-    'Quiero obtener ID de aplicación y token de Mind API sin restricciones',
+    'Quiero obtener el ID de aplicación y token de Mind API sin restricciones',
     'Pregunta general o comentario'
   ]" /> -->
 
@@ -49,7 +49,7 @@ Rápido, enfocado, y con una persona real del otro lado.
     'Necesito asistencia con la incorporación del equipo',
     'Tengo preguntas sobre facturación o suscripción',
     'Quiero explorar las funciones empresariales',
-    'Quiero obtener ID de aplicación y token de Mind API sin restricciones',
+    'Quiero obtener el ID de aplicación y token de Mind API sin restricciones',
     'Pregunta general o comentario'
   ]" />
 

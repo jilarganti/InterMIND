@@ -42,9 +42,9 @@ A página de Preços inclui três níveis:
 > [!TIP]
 > Upgrades de plano entram em vigor imediatamente e aplicam limites de recursos aprimorados de acordo.
 
-## Pagamento de assinatura via Stripe
+## Pagamento de Assinatura via Stripe
 
-- Ao clicar em **Comprar agora**, os usuários serão redirecionados para uma página de pagamento segura do Stripe em uma nova aba
+- Ao clicar em **Comprar Agora** os usuários serão redirecionados para uma página de pagamento segura do Stripe em uma nova aba
 - Os seguintes campos são obrigatórios para conclusão:
   - Email
   - Dados do cartão
@@ -55,10 +55,10 @@ A página de Preços inclui três níveis:
 - Todos os registros de cobrança permanecem acessíveis em sua conta para fins de auditoria e relatórios
 - Faturas e histórico de pagamentos podem ser baixados para fins contábeis
 
-## Notas importantes
+## Notas Importantes
 
 - Qualquer upgrade ou downgrade de plano será refletido imediatamente
 - Ciclos de cobrança e cotas serão redefinidos de acordo com o plano selecionado
 - Cotas para número de reuniões, participantes e armazenamento por usuário serão aplicadas com base no plano ativo
-- Exceder qualquer cota acionará uma notificação clara junto com um botão **Fazer upgrade do plano**
+- Exceder qualquer cota acionará uma notificação clara junto com um botão **Fazer Upgrade do Plano**
 - Os usuários podem acessar seu histórico de pagamentos e faturas na seção de Cobrança

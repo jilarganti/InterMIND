@@ -2,11 +2,11 @@
 layout: home
 
 hero:
-  name: "Estratégia & Expansão"
+  name: "Estratégia e Expansão"
   text: Comunicação Global, Idioma Local
   tagline: "InterMind: Comunicação Global, Idioma Local"
   actions:
     - theme: alt
-      text: Documents
+      text: Documentos
       link: /exp/InterMind-Executive-Summary
 ---

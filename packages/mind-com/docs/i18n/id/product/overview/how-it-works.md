@@ -32,7 +32,7 @@ InterMind adalah platform konferensi video multi-pengguna dengan **terjemahan du
 - Terjemahan yang bergantung pada konteks dengan pelestarian makna
 - Pemahaman idiom, metafora, dan referensi budaya
 - Adaptasi gaya bicara (formal/informal)
-- Mempertahankan pewarnaan emosional dari ucapan
+- Mempertahankan pewarnaan emosional ucapan
 
 ### 4. **Sintesis Suara (Text-to-Speech)**
 

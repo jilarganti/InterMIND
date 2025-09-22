@@ -1,4 +1,4 @@
-# Kullanıcı Rolleri
+# Kullanıcı rolleri
 
 InterMIND, güvenli, işbirlikçi ve uyarlanabilir toplantı deneyimlerini geliştirmek için titizlikle tasarlanmış dört farklı kullanıcı rolü tanımlar. Host rolü en yüksek yetki düzeyine sahipken, diğer roller değişen düzeylerde etkileşim sunar.
 
@@ -23,7 +23,7 @@ Ev Sahibi toplantıyı başlatmaktan sorumludur ve kapsamlı yönetici ayrıcal�
 
 Moderatörler, oturumu etkili bir şekilde yönetmeye yardımcı olmak için Ana Bilgisayar tarafından atanır.
 
-**Temel Yetkiler:**
+**Temel Yetenekler:**
 
 - Herhangi bir katılımcıyı sessize alma
 - Kayıtları başlatma ve durdurma
@@ -67,22 +67,22 @@ Misafirler, toplantıya giriş yapmadan katılan kullanıcılardır.
 
 ## Rol İzinleri Özet Tablosu
 
-| Özellik                        | Ev Sahibi | Moderatör | Katılımcı | Misafir |
-| ------------------------------ | --------- | --------- | --------- | ------- |
-| Toplantı Başlatma              | ✅        | ❌        | ❌        | ❌      |
-| Herhangi Bir Katılımcıyı Susturma | ✅    | ✅        | ❌        | ❌      |
-| Herhangi Bir Katılımcının Sesini Açma | ❌ | ❌        | ❌        | ❌      |
-| Kendi Mikrofonunu Susturma/Açma | ✅       | ✅        | ✅        | ✅      |
-| Kendi Kamerasını Açma/Kapatma  | ✅        | ✅        | ✅        | ✅      |
-| Kayıt Başlatma/Durdurma        | ✅        | ✅        | ❌        | ❌      |
-| Ekran Paylaşımı (Masaüstü)     | ✅        | ✅        | ✅        | ✅      |
-| AI Asistanı Kullanma           | ✅        | ✅        | ✅        | ❌      |
-| Çevrimiçi Çeviri Kullanma      | ✅        | ✅        | ✅        | ✅      |
-| Çeviri Dilini Değiştirme       | ✅        | ✅        | ✅        | ✅      |
-| El Kaldırma / İndirme          | ✅/✅     | ✅/✅     | ✅/❌     | ✅/❌   |
-| Düzen / Ayarları Değiştirme    | ✅        | ✅        | ✅        | ✅      |
-| Arka Plan Bulanıklığını Açma/Kapatma | ✅ | ✅        | ✅        | ✅      |
-| Misafir Kabul Etme/Reddetme    | ✅        | ✅        | ❌        | ❌      |
-| Toplantı Geçmişine Erişim      | ✅        | ✅        | ✅        | ❌      |
-| Katılımcıları Çıkarma          | ✅        | ✅        | ❌        | ❌      |
-| Moderatör Yükseltme/İndirme    | ✅        | ✅        | ❌        | ❌      |
+| Özellik                        | Sunucu | Moderatör | Katılımcı | Misafir |
+| ------------------------------ | ------ | --------- | --------- | ------- |
+| Toplantı Başlatma              | ✅     | ❌        | ❌        | ❌      |
+| Herhangi Bir Katılımcıyı Susturma | ✅  | ✅        | ❌        | ❌      |
+| Herhangi Bir Katılımcının Sesini Açma | ❌ | ❌     | ❌        | ❌      |
+| Kendi Mikrofonunu Susturma/Açma | ✅    | ✅        | ✅        | ✅      |
+| Kendi Kamerasını Etkinleştirme/Devre Dışı Bırakma | ✅ | ✅ | ✅ | ✅ |
+| Kayıt Başlatma/Durdurma        | ✅     | ✅        | ❌        | ❌      |
+| Ekran Paylaşımı (Masaüstü)     | ✅     | ✅        | ✅        | ✅      |
+| AI Asistanı Kullanma           | ✅     | ✅        | ✅        | ❌      |
+| Çevrimiçi Çeviri Kullanma      | ✅     | ✅        | ✅        | ✅      |
+| Çeviri Dilini Değiştirme       | ✅     | ✅        | ✅        | ✅      |
+| El Kaldırma / İndirme          | ✅/✅  | ✅/✅     | ✅/❌     | ✅/❌   |
+| Düzen / Ayarları Değiştirme    | ✅     | ✅        | ✅        | ✅      |
+| Arka Plan Bulanıklığını Etkinleştirme/Devre Dışı Bırakma | ✅ | ✅ | ✅ | ✅ |
+| Misafir Kabul Etme/Reddetme    | ✅     | ✅        | ❌        | ❌      |
+| Toplantı Geçmişine Erişim      | ✅     | ✅        | ✅        | ❌      |
+| Katılımcıları Çıkarma          | ✅     | ✅        | ❌        | ❌      |
+| Moderatör Yükseltme/Düşürme    | ✅     | ✅        | ❌        | ❌      |

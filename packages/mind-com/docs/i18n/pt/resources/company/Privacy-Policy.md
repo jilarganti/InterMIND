@@ -1,4 +1,4 @@
-# Política de privacidade
+# Política de Privacidade
 
 ## Introdução
 
@@ -15,22 +15,22 @@ Nossas práticas de privacidade estão em conformidade com os principais regulam
 - Lei de Portabilidade e Responsabilidade do Seguro de Saúde (HIPAA) - Estados Unidos
 - Lei de Proteção da Privacidade Online de Crianças (COPPA) - Estados Unidos
 
-## Informações que coletamos
+## Informações que Coletamos
 
 Podemos coletar os seguintes tipos de informações:
 
-- Informações pessoais: Nome, dados de contato, documentos de identificação e outras informações necessárias para fornecer serviços jurídicos.
-- Dados do serviço: Informações relacionadas a questões jurídicas, detalhes de casos e correspondências.
-- Dados técnicos: Endereço IP, tipo de navegador, informações do dispositivo, cookies e dados de uso.
+- Informações Pessoais: Nome, dados de contato, documentos de identificação e outras informações necessárias para fornecer serviços jurídicos.
+- Dados de Serviços: Informações relacionadas a questões legais, detalhes de casos e correspondências.
+- Dados Técnicos: Endereço IP, tipo de navegador, informações do dispositivo, cookies e dados de uso.
 
-## Como usamos suas informações
+## Como Utilizamos Suas Informações
 
-Usamos suas informações para:
+Utilizamos suas informações para:
 
-- Fornecer e melhorar nossos serviços jurídicos
+- Fornecer e aprimorar nossos serviços jurídicos
 - Comunicar com você sobre seus assuntos legais
 - Processar pagamentos e manter registros financeiros
-- Cumprir obrigações legais e regulamentares
+- Cumprir com obrigações legais e regulamentares
 - Proteger nossos interesses comerciais legítimos
 
 ## Tecnologia de IA e Processamento de Dados
@@ -86,7 +86,7 @@ Dependendo da sua jurisdição, você pode ter o direito de:
 - Retirar o consentimento
 - Apresentar uma reclamação junto a uma autoridade supervisora
 
-## Segurança de dados
+## Segurança de Dados
 
 Implementamos medidas técnicas e organizacionais apropriadas para proteger suas informações pessoais contra acesso não autorizado, alteração, divulgação ou destruição.
 
@@ -98,7 +98,7 @@ Retemos suas informações pessoais pelo tempo necessário para cumprir os prop�
 
 Podemos atualizar esta Política de Privacidade periodicamente. A versão atualizada será indicada por uma data revisada e estará acessível em nosso site.
 
-## Entre em contato conosco
+## Entre em Contato
 
 Se você tiver alguma dúvida sobre esta Política de Privacidade ou nossas práticas de dados, entre em contato com nosso Encarregado de Proteção de Dados em:
 

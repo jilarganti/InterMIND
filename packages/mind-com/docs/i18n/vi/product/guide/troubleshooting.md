@@ -89,7 +89,7 @@ Phần này cung cấp các giải pháp cho những vấn đề thường gặp
 - Chuyển sang kết nối có dây hoặc Wi-Fi ổn định
 - Tắt camera của bạn hoặc camera của người khác nếu cần thiết
 
-## Không Thể Bắt Đầu Ghi Âm
+## Không thể bắt đầu ghi âm
 
 ### Nguyên nhân phổ biến:
 

@@ -15,7 +15,7 @@ Adicionalmente, los participantes tienen la opción de ajustar el volumen del au
 ### Características principales
 
 - Doblaje de voz en tiempo real en el idioma seleccionado
-- Configuración de traducción personal (no afecta a otros participantes)
+- Configuración personal de traducción (no afecta a otros participantes)
 - Capacidad de cambiar el idioma de traducción en cualquier momento a través del panel de Configuración
 - Disponible para todos los tipos de participantes (Anfitrión, Moderador, Participante, Invitado)
 

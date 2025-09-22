@@ -1,6 +1,6 @@
 # Bài thuyết trình nhà đầu tư InterMind: Phá vỡ rào cản ngôn ngữ cho kinh doanh toàn cầu <Badge type="success" text="updated" />
 
-## Vấn đề: Ngôn ngữ vẫn là rào cản trị giá 100 tỷ đô la
+## Vấn đề: Ngôn ngữ vẫn là rào cản trị giá 100 tỷ USD
 
 Bất chấp toàn cầu hóa và các công cụ hội nghị truyền hình, **ngôn ngữ vẫn là rào cản lớn nhất** trong kinh doanh quốc tế:
 
@@ -32,13 +32,13 @@ Một nền tảng video chuyên nghiệp cho phép **mọi người tham gia n�
 
 TAM ước tính: **$27B+** thị trường hỗ trợ giao tiếp B2B (nguồn: CSA Research, Gartner)
 
-## Cách thức hoạt động (trong 3 giây hoặc ít hơn)
+## Cách Thức Hoạt Động (Trong Vòng 3 Giây Hoặc Ít Hơn)
 
 1. **Người dùng chọn ngôn ngữ của họ**
 2. **Tham gia hoặc bắt đầu cuộc họp**
-3. **Nói tự nhiên** — những người tham gia khác nghe thấy tin nhắn **bằng ngôn ngữ của họ**
+3. **Nói tự nhiên** — những người tham gia khác nghe được tin nhắn **bằng ngôn ngữ của riêng họ**
 
-Được hỗ trợ bởi một ngăn xếp công nghệ độc quyền:
+Được hỗ trợ bởi một hệ thống độc quyền:
 
 - Chuyển giọng nói thành văn bản → làm sạch ngữ nghĩa → dịch thuật dựa trên LLM → chuyển văn bản thành giọng nói
 - Độ trễ: dưới 3 giây
@@ -58,7 +58,7 @@ TAM ước tính: **$27B+** thị trường hỗ trợ giao tiếp B2B (nguồn:
 ### Tiếp cận thị trường
 
 - Tìm kiếm trả phí: các truy vấn địa phương có ý định cao ("como hablar ingles reuniones negocios")
-- Đối tác B2B: ERP, CRM, chương trình hỗ trợ xuất khẩu
+- Đối tác B2B: ERPs, CRMs, chương trình hỗ trợ xuất khẩu
 - Nhắm mục tiêu: quản lý bán hàng, trưởng chuỗi cung ứng, đội ngũ xuất khẩu
 
 ### Bảng giá (B2B SaaS)
@@ -67,7 +67,7 @@ TAM ước tính: **$27B+** thị trường hỗ trợ giao tiếp B2B (nguồn:
 - Pro: $20/tháng/người dùng
 - Doanh nghiệp: Tùy chỉnh (vùng riêng tư, hỗ trợ ưu tiên)
 
-## Tuân thủ & Bảo mật theo thiết kế
+## Tuân thủ & Bảo mật theo Thiết kế
 
 - Tuân thủ GDPR, CCPA, UAE PDPL
 - Không có bên thứ ba truy cập dữ liệu
@@ -101,7 +101,7 @@ InterMind được tin tưởng bởi **các doanh nghiệp nơi quyền riêng 
 | LTV/CAC         | 1.9x   | 3.4x   | 5.5x   |
 | Biên lợi nhuận gộp | 73%    | 77%    | 80%    |
 
-**Kinh tế đơn vị chính:** Chúng tôi tập trung vào **khách hàng trả phí** — không có chỉ số ảo tưởng. Mô hình của chúng tôi cho thấy tăng trưởng B2B SaaS lành mạnh với tỷ lệ LTV/CAC mạnh mẽ cải thiện từ 1.9x lên 5.5x vào Năm 3.
+**Kinh tế đơn vị chính:** Chúng tôi tập trung vào **khách hàng trả phí** — không có chỉ số ảo tưởng. Mô hình của chúng tôi cho thấy tăng trưởng B2B SaaS lành mạnh với tỷ lệ LTV/CAC mạnh mẽ cải thiện từ 1.9x lên 5.5x vào năm thứ 3.
 
 ### Phân khúc khách hàng (Năm 3)
 
@@ -110,7 +110,7 @@ InterMind được tin tưởng bởi **các doanh nghiệp nơi quyền riêng 
 - **5% Thị trường trung bình:** 22 giấy phép mỗi tài khoản
 - **Trung bình có trọng số:** 2.5 giấy phép mỗi tài khoản
 
-Chúng tôi đang bắt đầu các chương trình thí điểm go-to-market tại Mexico, Brazil, Thổ Nhĩ Kỳ, Thái Lan và Indonesia — nhắm mục tiêu các khu vực có khối lượng thương mại B2B cao và nhu cầu mạnh mẽ về giao tiếp kinh doanh bằng tiếng Anh.
+Chúng tôi đang bắt đầu các chương trình thí điểm go-to-market tại Mexico, Brazil, Thổ Nhĩ Kỳ, Thái Lan và Indonesia — nhắm mục tiêu các khu vực có khối lượng thương mại B2B cao và nhu cầu mạnh về giao tiếp kinh doanh bằng tiếng Anh.
 
 ## Đội ngũ sáng lập
 
@@ -120,10 +120,10 @@ Chúng tôi đang bắt đầu các chương trình thí điểm go-to-market t�
 
 ## Yêu cầu
 
-- Gọi vốn **3,5 triệu USD vòng Seed** để:
+- Gọi vốn **$3.5M Seed** để:
   - Mở rộng đội ngũ kỹ thuật & tuân thủ quyền riêng tư
   - Bản địa hóa nền tảng cho 10 thị trường mới
   - Ra mắt các tích hợp (Zoom, Teams)
-  - Tài trợ chiến dịch thu hút khách hàng B2B đa ngôn ngữ
+  - Tài trợ cho các chiến dịch thu hút khách hàng B2B đa ngôn ngữ
 
 Hãy cùng xây dựng nền tảng **làm cho sự hiểu biết trở nên phổ quát.**

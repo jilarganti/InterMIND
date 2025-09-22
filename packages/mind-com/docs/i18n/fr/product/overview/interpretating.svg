@@ -38,7 +38,7 @@
   <!-- Queue 1 -->
   <rect x="430" y="180" width="60" height="40" rx="8" fill="url(#queueGrad)"/>
   <text x="460" y="195" font-family="Arial" font-size="10" fill="white" text-anchor="middle">File</text>
-  <text x="460" y="210" font-family="Arial" font-size="10" fill="white" text-anchor="middle">texte</text>
+  <text x="460" y="210" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Texte</text>
 
   <!-- Stage 2: Text Cleanup Pool -->
   <rect x="520" y="120" width="150" height="160" rx="15" fill="url(#threadGrad)" opacity="0.9"/>
@@ -58,7 +58,7 @@
   <!-- Queue 2 -->
   <rect x="700" y="180" width="60" height="40" rx="8" fill="url(#queueGrad)"/>
   <text x="730" y="195" font-family="Arial" font-size="10" fill="white" text-anchor="middle">File</text>
-  <text x="730" y="210" font-family="Arial" font-size="10" fill="white" text-anchor="middle">traduction</text>
+  <text x="730" y="210" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Traduction</text>
 
   <!-- Stage 3: Translation Pool -->
   <rect x="250" y="350" width="150" height="160" rx="15" fill="url(#threadGrad)" opacity="0.9"/>
@@ -78,7 +78,7 @@
   <!-- Queue 3 -->
   <rect x="430" y="410" width="60" height="40" rx="8" fill="url(#queueGrad)"/>
   <text x="460" y="425" font-family="Arial" font-size="10" fill="white" text-anchor="middle">File</text>
-  <text x="460" y="440" font-family="Arial" font-size="10" fill="white" text-anchor="middle">parole</text>
+  <text x="460" y="440" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Parole</text>
 
   <!-- Stage 4: TTS Pool -->
   <rect x="520" y="350" width="150" height="160" rx="15" fill="url(#threadGrad)" opacity="0.9"/>

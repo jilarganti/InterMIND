@@ -1,11 +1,11 @@
 ---
-description: "Muốn hợp tác với InterMind, đầu tư, hoặc liên hệ với đội ngũ điều hành của chúng tôi? Sử dụng biểu mẫu này cho các yêu cầu kinh doanh, truyền thông, hoặc vấn đề pháp lý."
+description: "Muốn hợp tác với InterMind, đầu tư, hoặc liên hệ với đội ngũ điều hành của chúng tôi? Sử dụng biểu mẫu này cho các yêu cầu kinh doanh, truyền thông, hoặc pháp lý."
 ---
 
 # 🤝 Muốn liên hệ với InterMind? Hãy kết nối với chúng tôi.
 
 Sử dụng biểu mẫu này để liên hệ trực tiếp với đội ngũ công ty của chúng tôi —  
-cho các mối quan hệ đối tác, đầu tư, truyền thông, tuân thủ, hoặc các vấn đề kinh doanh khác.
+cho các vấn đề về hợp tác, đầu tư, truyền thông, tuân thủ, hoặc các vấn đề kinh doanh khác.
 
 Chúng tôi sẽ đảm bảo tin nhắn của bạn đến đúng người.
 
@@ -25,7 +25,7 @@ Chúng tôi sẽ đảm bảo tin nhắn của bạn đến đúng người.
     'Yêu cầu giải pháp doanh nghiệp',
     'Yêu cầu truyền thông & báo chí',
     'Vấn đề pháp lý hoặc tuân thủ',
-    'Báo cáo mối quan tâm hoặc vấn đề bảo mật',
+    'Báo cáo mối quan ngại hoặc vấn đề bảo mật',
     'Đề xuất phát triển kinh doanh',
     'Yêu cầu kinh doanh chung'
   ]"
@@ -33,5 +33,5 @@ Chúng tôi sẽ đảm bảo tin nhắn của bạn đến đúng người.
 
 <br>
 
-> **Cần trợ giúp liên quan đến sản phẩm?**  
+> **Cần hỗ trợ liên quan đến sản phẩm?**  
 > _Truy cập [Trang hỗ trợ](../help) của chúng tôi để nhận câu trả lời nhanh chóng và hỗ trợ từ đội ngũ InterMind._

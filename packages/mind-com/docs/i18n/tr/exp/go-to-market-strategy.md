@@ -14,18 +14,18 @@
 
 ### Meksika → ABD Pazarı İletişimi
 
-**1. como hablar ingles reuniones negocios**
-_"iş toplantılarında İngilizce nasıl konuşulur"_
+**1. iş toplantılarında ingilizce nasıl konuşulur**
+_"iş toplantılarında ingilizce nasıl konuşulur"_
 
 - **Sorun:** Meksikalı CEO dil engelleri nedeniyle ABD müşterilerini kaybediyor
-- **Çözüm:** Ana dilde İspanyolca konuş, Amerikalılar mükemmel İngilizce duyar
+- **Çözüm:** Ana dilde İspanyolca konuş, Amerikalılar mükemmel İngilizce duysun
 - **Arama Hacmi:** Yüksek niyet, B2B odaklı
 - **CPC Tahmini:** $8-15 (iş yazılımı)
 
-**2. software traducir español ingles video llamadas**
-_"video aramalarında İspanyolca İngilizce çeviri yazılımı"_
+**2. video aramalarında ispanyolca ingilizce çeviri yazılımı**
+_"video aramalarında ispanyolca ingilizce çeviri yazılımı"_
 
-- **Sorun:** İhracat müdürü ABD alıcıları için ürün demolarını gerçekleştiremiyor
+- **Sorun:** İhracat müdürü ABD alıcıları için ürün demoları yapamıyor
 - **Çözüm:** İspanyolca sunum yap, müşteriler İngilizce anlasın
 - **Rekabet:** Düşük, özel kullanım durumu
 - **Dönüşüm Niyeti:** Çok yüksek (satın almaya hazır)
@@ -33,7 +33,7 @@ _"video aramalarında İspanyolca İngilizce çeviri yazılımı"_
 ### Çin → ABD/AB Pazarı İletişimi
 
 **3. 如何用中文与美国客户开会**
-_"Amerikalı müşterilerle Çince toplantı nasıl yapılır"_
+_"Amerikalı müşterilerle Çince nasıl toplantı yapılır"_
 
 - **Sorun:** Çinli üretici dil açığı nedeniyle büyük sözleşmeleri kaybediyor
 - **Çözüm:** Üretim süreçlerini Çince açıkla, Amerikalılar anında anlasın
@@ -44,25 +44,25 @@ _"Amerikalı müşterilerle Çince toplantı nasıl yapılır"_
 _"Çince İngilizce gerçek zamanlı çeviri iş toplantıları"_
 
 - **Sorun:** Teknik özellikler çeviride kaybolur → maliyetli hatalar
-- **Çözüm:** Mühendis detayları Çince açıklar, özellikler doğru şekilde iletilir
+- **Çözüm:** Mühendis detayları Çince açıklasın, özellikler doğru aktarılsın
 - **Pazar Büyüklüğü:** Çin'de 2,4 milyar $ B2B çeviri pazarı
 - **Büyüme Oranı:** Yıllık %35 (AI benimsenme)
 
 ### Almanya → Asya/ABD Pazarı İletişimi
 
-**5. deutsch englisch übersetzung geschäftsmeetings**
-_"Almanca İngilizce çeviri iş toplantıları"_
+**5. almanca ingilizce çeviri iş toplantıları**
+_"almanca ingilizce çeviri iş toplantıları"_
 
 - **Sorun:** Alman otomotiv şirketleri Asya genişlemesi için pahalı tercümanlara bağımlı
-- **Çözüm:** CTO mühendislik gereksinimlerini doğrudan Almanca tartışır
+- **Çözüm:** CTO mühendislik gereksinimlerini doğrudan Almanca tartışsın
 - **Pazar Bağlamı:** 890 milyar € otomotiv ihracatı dil köprüsüne ihtiyaç duyuyor
 - **Mevsimsellik:** Q1-Q2 zirvesi (planlama döngüleri)
 
-**6. wie spreche ich chinesisch lieferanten**
-_"Çinli tedarikçilerle nasıl konuşurum"_
+**6. çinli tedarikçilerle nasıl konuşurum**
+_"çinli tedarikçilerle nasıl konuşurum"_
 
 - **Sorun:** Tedarik zinciri yanlış iletişimi → üretim gecikmeleri
-- **Çözüm:** Alman satın alma müdürü Çinli fabrikalarla Almanca konuşur
+- **Çözüm:** Alman satın alma müdürü Çin fabrikalarıyla Almanca konuşsun
 - **Aciliyet:** Tam Zamanında üretim için kritik
 - **Bütçe:** Kurumsal seviye (aylık $500+ bütçeler)
 
@@ -72,7 +72,7 @@ _"Çinli tedarikçilerle nasıl konuşurum"_
 _"yurtdışı müşterilerle Japonca toplantı yapma yöntemi"_
 
 - **Sorun:** Japon teknoloji şirketleri İngilizce engeli nedeniyle küresel fırsatları kaybediyor
-- **Çözüm:** Ürün müdürü Japonca sunum yapar, dünya anlar
+- **Çözüm:** Ürün müdürü Japonca sunum yapsın, dünya anlasın
 - **Kültürel Not:** Japonya'da yüksek bağlamlı iletişim çok önemli
 - **Cihaz Tercihi:** Mobil öncelikli arama davranışı
 
@@ -86,7 +86,7 @@ _"gerçek zamanlı tercümanlık iş toplantıları"_
 
 ### İspanya → AB/Küresel Pazar İletişimi
 
-**9. hablar con clientes extranjeros sin saber idiomas**
+**9. dil bilmeden yabancı müşterilerle konuşmak**
 _"dil bilmeden yabancı müşterilerle konuşmak"_
 
 - **Sorun:** İspanyol ihracatçılar İspanyolca konuşulan pazarlarla sınırlı
@@ -94,8 +94,8 @@ _"dil bilmeden yabancı müşterilerle konuşmak"_
 - **AB Bağlamı:** 125 milyar € AB içi ticaret potansiyeli
 - **Duygusal Çekicilik:** Dil öğreniminden bağımsızlık
 
-**10. software reunion internacional español**
-_"uluslararası toplantı yazılımı İspanyolca"_
+**10. uluslararası toplantı yazılımı ispanyolca**
+_"uluslararası toplantı yazılımı ispanyolca"_
 
 - **Sorun:** AB genişlemesi çok dilli yetenekler gerektiriyor
 - **Çözüm:** Tüm AB pazarları için tek platform
@@ -150,7 +150,7 @@ _"uluslararası toplantı yazılımı İspanyolca"_
 **Kampanya 5: İspanya AB Genişlemesi**
 
 - **Anahtar Kelimeler:** 9-10
-- **Coğrafya:** Madrid, Barcelona, Valencia
+- **Coğrafya:** Madrid, Barselona, Valencia
 - **Hedef Kitle:** KOBİ ihracatçıları, AB ticaret müdürleri
 - **Bütçe Dağılımı:** Toplam bütçenin %10'u
 - **AB Avantajı:** Tek pazar konumlandırması
@@ -188,12 +188,12 @@ _"uluslararası toplantı yazılımı İspanyolca"_
 - **Kültürel İlgililik:** Yerel iş uygulamaları, başarı metrikleri
 - **Mobil Deneyim:** Duyarlı tasarım, yerel ödeme yöntemleri
 
-**Dönüşüm Takip Kurulumu:**
+**Dönüşüm İzleme Kurulumu:**
 
 - **Mikro-dönüşümler:** Demo talepleri, fiyatlandırma sayfası görüntülemeleri
 - **Makro-dönüşümler:** Deneme kayıtları, ücretli abonelikler
 - **Atıf:** 30 günlük pencere (daha uzun B2B satış döngüleri)
-- **Çapraz platform:** Cihazlar arası takip, özellikle mobil
+- **Çapraz platform:** Cihazlar arası izleme, özellikle mobil
 
 **Rekabet İstihbaratı:**
 

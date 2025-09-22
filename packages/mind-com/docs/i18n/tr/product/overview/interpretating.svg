@@ -25,13 +25,13 @@
   <text x="325" y="140" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">STT İş Parçacığı Havuzu</text>
   
   <rect x="260" y="150" width="130" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
-  <text x="325" y="167" font-family="Arial" font-size="11" fill="white" text-anchor="middle">İşçi 1</text>
+  <text x="325" y="167" font-family="Arial" font-size="11" fill="white" text-anchor="middle">Çalışan 1</text>
   
   <rect x="260" y="180" width="130" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
-  <text x="325" y="197" font-family="Arial" font-size="11" fill="white" text-anchor="middle">İşçi 2</text>
+  <text x="325" y="197" font-family="Arial" font-size="11" fill="white" text-anchor="middle">Çalışan 2</text>
   
   <rect x="260" y="210" width="130" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
-  <text x="325" y="227" font-family="Arial" font-size="11" fill="white" text-anchor="middle">İşçi N</text>
+  <text x="325" y="227" font-family="Arial" font-size="11" fill="white" text-anchor="middle">Çalışan N</text>
   
   <text x="325" y="255" font-family="Arial" font-size="10" fill="white" text-anchor="middle">%95-98 doğruluk</text>
 
@@ -157,7 +157,7 @@
   <g>
     <text x="550" y="580" font-family="Arial" font-size="14" font-weight="bold" fill="#1F2937">Performans:</text>
     <text x="550" y="605" font-family="Arial" font-size="12" fill="#374151">• Birden fazla akışın paralel işlenmesi</text>
-    <text x="550" y="625" font-family="Arial" font-size="12" fill="#374151">• İşçiler arasında yük dengeleme</text>
+    <text x="550" y="625" font-family="Arial" font-size="12" fill="#374151">• Çalışanlar arasında yük dengeleme</text>
     <text x="550" y="645" font-family="Arial" font-size="12" fill="#374151">• Kuyruklar aracılığıyla geri basınç</text>
     <text x="550" y="665" font-family="Arial" font-size="12" fill="#374151">• Performans izleme</text>
   </g>

@@ -77,7 +77,7 @@ All dies geschieht mit **Latenz unter 3 Sekunden** — entspricht der Geschwindi
 
 ### Übersetzungsqualität:
 
-- **Genauigkeit**: 94-97% Korrektheit für Geschäftsgespräche
+- **Genauigkeit**: 94-97% Korrektheit bei Geschäftsgesprächen
 - **Kontext**: Kontextverständnis während des gesamten Meetings
 - **Terminologie**: adaptive Wörterbücher für jede Branche
 - **Feedback**: Benutzer-Qualitätsbewertungssystem

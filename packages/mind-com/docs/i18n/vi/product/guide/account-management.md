@@ -1,19 +1,19 @@
 # Quản lý tài khoản
 
-## Đăng ký
+## Đăng Ký
 
 Việc tạo tài khoản có thể được thực hiện thông qua ba phương pháp: sử dụng tài khoản Google hoặc Microsoft của bạn hoặc đăng ký bằng địa chỉ email bên ngoài.
 
 1. Để bắt đầu, truy cập [https://intermind.com](https://intermind.com)
-2. Nhấp vào nút **Đăng nhập** ở góc trên bên phải của trang chủ
+2. Nhấp vào nút **Đăng Nhập** ở góc trên bên phải của trang chủ
 3. Trên trang Đăng nhập vào tài khoản của bạn, bạn sẽ gặp các tùy chọn sau:
    - Nút Google và Microsoft, giúp truy cập nền tảng bằng tài khoản Google hoặc Microsoft hiện có của bạn
-   - Hộp kiểm 'Ghi nhớ tôi', cho phép bạn duy trì trạng thái đã đăng nhập trên thiết bị này
-   - Liên kết 'Quên mật khẩu', có sẵn nếu bạn đã có tài khoản nhưng không nhớ mật khẩu
+   - Hộp kiểm 'Ghi nhớ tôi', cho phép bạn duy trì trạng thái đăng nhập trên thiết bị này
+   - Liên kết 'Quên Mật khẩu', có sẵn nếu bạn đã có tài khoản nhưng không nhớ mật khẩu
    - Văn bản 'Hoặc đăng nhập bằng', theo sau là các trường Email và Mật khẩu để đăng nhập, nếu bạn đã có tài khoản
    - Văn bản 'Chưa có tài khoản?', theo sau là liên kết 'Đăng ký', cho phép bạn đăng ký bằng địa chỉ email bên ngoài
 
-### Đăng ký bằng tài khoản Google
+### Đăng Ký bằng Tài Khoản Google
 
 Phương pháp này được khuyến nghị để truy cập hiệu quả thông qua tài khoản Google, tạo điều kiện đồng bộ hóa liền mạch với Google Calendar. Trải nghiệm hiệu quả nhất có thể đạt được bằng cách sử dụng trình duyệt Google Chrome.
 
@@ -26,7 +26,7 @@ Phương pháp này được khuyến nghị để truy cập hiệu quả thôn
 
 4. Bạn sẽ được chuyển đến trang chính InterMIND của mình; không cần thiết lập thêm
 
-### Đăng ký bằng tài khoản Microsoft
+### Đăng Ký bằng Tài Khoản Microsoft
 
 Phương pháp này được khuyến nghị để có được quyền truy cập nhanh chóng bằng tài khoản Microsoft. Trải nghiệm tối ưu có thể đạt được bằng cách sử dụng trình duyệt Microsoft Edge.
 
@@ -39,39 +39,39 @@ Phương pháp này được khuyến nghị để có được quyền truy c�
 
 4. Bạn sẽ được chuyển đến trang chính InterMIND của mình; không cần thiết lập thêm
 
-### Đăng ký bằng địa chỉ email
+### Đăng Ký bằng Địa Chỉ Email
 
-Sử dụng phương pháp này nếu bạn không có tài khoản Google hoặc muốn đăng ký bằng email riêng.
+Sử dụng phương pháp này nếu bạn không có tài khoản Google hoặc muốn đăng ký bằng email riêng biệt.
 
-1. Nhấp vào liên kết **Đăng ký** bên cạnh văn bản "Chưa có tài khoản?" bên dưới các trường đăng nhập
+1. Nhấp vào liên kết **Đăng Ký** bên cạnh văn bản "Chưa có tài khoản?" bên dưới các trường đăng nhập
 2. Bạn sẽ được chuyển đến biểu mẫu Đăng ký, bao gồm các trường bắt buộc sau:
    - **Email**
    - **Mật khẩu**
      - Tối thiểu 8 ký tự
      - Ít nhất 1 chữ cái viết hoa
      - Ít nhất 1 chữ số
-   - **Xác nhận mật khẩu**
+   - **Xác nhận Mật khẩu**
    - **Tên**
    - **Họ**
 
 > [!TIP]
 > Để đảm bảo bảo mật tài khoản tối ưu, vui lòng tạo mật khẩu đáp ứng các yêu cầu phức tạp được liệt kê ở trên.
 
-3. Sau khi hoàn thành biểu mẫu, nhấp vào nút **Đăng ký**
+3. Sau khi hoàn thành biểu mẫu, nhấp vào nút **Đăng Ký**
 4. Sau khi đăng ký thành công, bạn sẽ nhận được email xác minh trong hộp thư đến của mình. Sau khi xác minh, bạn có thể đăng nhập bằng email và mật khẩu để truy cập các tính năng của InterMIND
 
-### Quên mật khẩu
+### Quên Mật Khẩu
 
 Nếu bạn quên mật khẩu, hãy làm theo các bước sau:
 
-1. Nhấp vào nút **Đăng nhập** trên trang chủ
-2. Trên trang đăng nhập, nhấp vào **Quên mật khẩu?**
+1. Nhấp vào nút **Đăng Nhập** trên trang chủ
+2. Trên trang đăng nhập, nhấp vào **Quên Mật khẩu?**
 3. Nhập địa chỉ email đã đăng ký của bạn
 4. Bạn sẽ nhận được email với liên kết để đặt lại mật khẩu
 5. Làm theo hướng dẫn trong email để tạo mật khẩu mới
 
 > [!TIP]
-> Nếu bạn không nhận được email, hãy kiểm tra thư mục spam hoặc liên hệ với bộ phận hỗ trợ.
+> Nếu bạn không nhận được email, hãy kiểm tra thư mục spam hoặc liên hệ hỗ trợ.
 
 ## Đăng nhập
 
@@ -142,8 +142,8 @@ Trang hồ sơ được tổ chức thành bốn tab chính:
 
 **Gói hiện tại**
 
-- Hiển thị loại đăng ký đang hoạt động (ví dụ: Cơ bản, Pro) và thời hạn hiệu lực
-- Người dùng Cơ bản thấy nút **Nâng cấp gói**
+- Hiển thị loại đăng ký đang hoạt động (ví dụ: Basic, Pro) và thời hạn hiệu lực
+- Người dùng Basic thấy nút **Nâng cấp gói**
 - Người dùng Pro thấy nút **Hủy đăng ký**
 
 **Tùy chọn giao tiếp**
@@ -159,7 +159,7 @@ Trang hồ sơ được tổ chức thành bốn tab chính:
 Có thể truy cập qua tab Thanh toán trong thanh bên trái.
 
 **Sử dụng hạn mức**
-Hiển thị giới hạn sử dụng và tiêu thụ các tính năng cốt lõi:
+Hiển thị giới hạn sử dụng và mức tiêu thụ của các tính năng cốt lõi:
 
 - **Lưu trữ tệp**: 0.00 GB / 30 GB (hoặc 2 TB cho người dùng Pro)
 - **Cuộc họp**: 0 / 25 (hoặc Không giới hạn cho người dùng Pro)
@@ -175,7 +175,7 @@ Hiển thị danh sách các hóa đơn đã phát hành với:
 - Trạng thái thanh toán (ví dụ: Đã thanh toán)
 
 > [!TIP]
-> Hóa đơn có thể được tải xuống để báo cáo hoặc lưu trữ.
+> Hóa đơn có thể được tải xuống để báo cáo hoặc lưu trữ hồ sơ.
 
 **Thanh toán**
 Hiển thị các giao dịch thanh toán bao gồm:

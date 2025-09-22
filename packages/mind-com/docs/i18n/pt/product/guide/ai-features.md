@@ -34,16 +34,16 @@ A tradução pode ser ativada por qualquer participante ajustando suas configura
 O Assistente de IA é acessível como uma interface de chat privada dentro das reuniões. Os usuários podem abrir o painel do Assistente de IA para interagir com o assistente em formato de texto, permitindo consultas relacionadas a:
 
 - Resumos de reuniões
-- Consultas de transcrições
-- Insights do chat
+- Pesquisas de transcrições
+- Insights de chat
 
 ### Capacidades
 
 O Assistente de IA pode ajudar com:
 
 - **Resumos de reuniões**
-- **Consultas de transcrições**
-- **Insights do chat**
+- **Pesquisas de transcrições**
+- **Insights de chat**
 - **Identificação de itens de ação**
 - **Extração de pontos-chave**
 

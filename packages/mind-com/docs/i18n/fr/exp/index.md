@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: "Stratégie & Expansion"
-  text: Communication Mondiale, Langue Locale
-  tagline: "InterMind: Communication Mondiale, Langue Locale"
+  name: "Stratégie et Expansion"
+  text: Communication mondiale, langue locale
+  tagline: "InterMind : Communication mondiale, langue locale"
   actions:
     - theme: alt
       text: Documents

@@ -19,7 +19,7 @@ Semua rapat ditayangkan dalam **full HD 1080p**, memberikan visual yang sangat j
 - Mengurangi kelelahan kognitif dari video yang berpiksel atau berkualitas rendah.
 - Meningkatkan kepercayaan dan keterlibatan dalam pengaturan virtual.
 
-### 🔇 Penekan Kebisingan Cerdas
+### 🔇 Penekan kebisingan pintar
 
 Pembatalan kebisingan berbasis AI kami menyaring suara latar belakang — mengetik, lalu lintas, gema, atau obrolan jauh — sehingga hanya suara pembicara yang terdengar.
 
@@ -27,7 +27,7 @@ Pembatalan kebisingan berbasis AI kami menyaring suara latar belakang — menget
 - Bekerja secara otomatis tanpa kontrol manual.
 - Ideal untuk pekerja jarak jauh di lingkungan yang tidak kedap suara.
 
-### 📅 Penjadwalan Rapat Lanjutan
+### 📅 Penjadwalan rapat lanjutan
 
 InterMind terintegrasi dengan mulus dengan **Google Calendar, Outlook, dan iCal**, memudahkan perencanaan, mengundang, dan mengingatkan peserta.
 
@@ -35,9 +35,9 @@ InterMind terintegrasi dengan mulus dengan **Google Calendar, Outlook, dan iCal*
 - Tautan bergabung sekali klik.
 - Pembaruan otomatis untuk rapat yang dijadwal ulang.
 
-### 🧑‍⚖️ Alat Moderasi Profesional
+### 🧑‍⚖️ Alat moderasi profesional
 
-Hosting dengan percaya diri menggunakan **kontrol moderasi** bawaan:
+Menjadi host dengan percaya diri menggunakan **kontrol moderasi** bawaan:
 
 - Bisukan/buka bisu peserta.
 - Kontrol berbagi layar dan akses kamera.
@@ -46,7 +46,7 @@ Hosting dengan percaya diri menggunakan **kontrol moderasi** bawaan:
 
 Sempurna untuk mengelola rapat besar, sesi pelatihan, atau briefing sensitif.
 
-### 🖥️ Berbagi Layar
+### 🖥️ Berbagi layar
 
 Mudah berbagi seluruh layar, jendela aplikasi, atau tab browser Anda dengan peserta — tidak perlu instalasi.
 
@@ -54,7 +54,7 @@ Mudah berbagi seluruh layar, jendela aplikasi, atau tab browser Anda dengan pese
 - Tampilkan spreadsheet, slide, atau alat perangkat lunak secara real time.
 - Mendukung presenter multi-layar.
 
-### 🎙️ Perekaman Rapat
+### 🎙️ Perekaman rapat
 
 Rekam rapat dengan sekali klik. Video disimpan dengan aman di cloud dan tersedia segera setelah sesi.
 
@@ -62,7 +62,7 @@ Rekam rapat dengan sekali klik. Video disimpan dengan aman di cloud dan tersedia
 - Gunakan untuk catatan pelatihan atau kepatuhan.
 - Dapat dikombinasikan dengan transkripsi otomatis.
 
-### ✏️ Subtitle Real-Time
+### ✏️ Subtitle real-time
 
 Untuk aksesibilitas tambahan, InterMind menyediakan **subtitle real-time** opsional dalam berbagai bahasa, bahkan ketika interpretasi suara langsung aktif.
 
@@ -70,15 +70,15 @@ Untuk aksesibilitas tambahan, InterMind menyediakan **subtitle real-time** opsio
 - Membantu memperjelas ucapan teknis atau beraksen.
 - Disinkronkan dengan suara pembicara secara real time.
 
-### 💬 Chat dalam Rapat
+### 💬 Chat dalam rapat
 
 Peserta dapat mengirim **pesan teks**, tautan, atau catatan pribadi tanpa mengganggu pembicara.
 
 - Opsi chat publik dan pribadi.
-- Ideal untuk pertanyaan sampingan, sumber daya bersama, atau Q&A diam.
+- Ideal untuk pertanyaan sampingan, sumber daya bersama, atau tanya jawab diam.
 - Semua riwayat chat dapat diekspor setelah rapat.
 
-### 📆 Integrasi Kalender
+### 📆 Integrasi kalender
 
 Rapat, rekaman, dan sesi mendatang secara otomatis dicatat dan disinkronkan dengan kalender Anda.
 
@@ -86,7 +86,7 @@ Rapat, rekaman, dan sesi mendatang secara otomatis dicatat dan disinkronkan deng
 - Mudah melacak siapa bertemu kapan — dan mengapa.
 - Mendukung rapat berulang dan lampiran agenda.
 
-### ✅ All-in-One, Tidak Perlu Plugin
+### ✅ Semua-dalam-satu, tidak perlu plugin
 
 Tidak seperti banyak solusi yang bergantung pada add-on pihak ketiga, InterMind **terintegrasi penuh** dan bekerja langsung dari kotak.
 

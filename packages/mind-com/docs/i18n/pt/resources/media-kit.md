@@ -24,7 +24,7 @@ Para editar e baixar, clique com o botão direito e selecione Editar imagem
 <br>
 <img src="/logo.svg" class="transparency-grid" alt="logotipo" width="100">
 
-## Cores da marca
+## Cores da Marca
 
 <br>
 

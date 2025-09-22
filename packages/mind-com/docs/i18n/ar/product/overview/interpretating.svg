@@ -38,7 +38,7 @@
   <!-- Queue 1 -->
   <rect x="430" y="180" width="60" height="40" rx="8" fill="url(#queueGrad)"/>
   <text x="460" y="195" font-family="Arial" font-size="10" fill="white" text-anchor="middle">طابور</text>
-  <text x="460" y="210" font-family="Arial" font-size="10" fill="white" text-anchor="middle">النص</text>
+  <text x="460" y="210" font-family="Arial" font-size="10" fill="white" text-anchor="middle">النصوص</text>
 
   <!-- Stage 2: Text Cleanup Pool -->
   <rect x="520" y="120" width="150" height="160" rx="15" fill="url(#threadGrad)" opacity="0.9"/>
@@ -100,9 +100,9 @@
     <circle cx="750" cy="380" r="8" fill="#10B981"/>
     <circle cx="750" cy="430" r="8" fill="#10B981"/>
     <circle cx="750" cy="480" r="8" fill="#10B981"/>
-    <text x="770" y="385" font-family="Arial" font-size="12" fill="#374151">كلام الإخراج 1</text>
-    <text x="770" y="435" font-family="Arial" font-size="12" fill="#374151">كلام الإخراج 2</text>
-    <text x="770" y="485" font-family="Arial" font-size="12" fill="#374151">كلام الإخراج N</text>
+    <text x="770" y="385" font-family="Arial" font-size="12" fill="#374151">كلام مُخرَج 1</text>
+    <text x="770" y="435" font-family="Arial" font-size="12" fill="#374151">كلام مُخرَج 2</text>
+    <text x="770" y="485" font-family="Arial" font-size="12" fill="#374151">كلام مُخرَج N</text>
   </g>
 
   <!-- Arrows -->

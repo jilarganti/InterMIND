@@ -2,7 +2,6 @@
 layout: home
 title: "Cuộc họp video được tái tưởng tượng — hiện tại tại mind.com"
 description: "Từ iMind đến InterMIND: cuộc gọi video ưu tiên giọng nói với tính năng phiên dịch thời gian thực được hỗ trợ bởi AI."
-
 ---
 
 <HeroSection

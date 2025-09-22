@@ -47,7 +47,7 @@ Unterstützt durch einen proprietären Stack:
 
 ## Traktion & Go-To-Market-Strategie
 
-### Erste Einführungsmärkte (Hoher ROI)
+### Erste Einführungsmärkte (hoher ROI)
 
 - **Mexiko → USA Handelskorridor**
 - **Brasilien → Nordamerika und EU Exporte**
@@ -67,12 +67,12 @@ Unterstützt durch einen proprietären Stack:
 - Pro: 20€/Monat/Nutzer
 - Business: Individuell (private Bereiche, prioritärer Support)
 
-## Compliance & Datenschutz by Design
+## Compliance & Privacy by Design
 
 - GDPR, CCPA, UAE PDPL konform
 - Kein Datenzugriff durch Dritte
 - Speicherung in regionalen Datenschutzzonen
-- Kein KI-Training mit Kundeninhalten
+- Keine KI-Schulung mit Kundeninhalten
 
 InterMind wird von **Unternehmen vertraut, bei denen Datenschutz nicht verhandelbar ist**.
 
@@ -95,13 +95,13 @@ InterMind wird von **Unternehmen vertraut, bei denen Datenschutz nicht verhandel
 | Kennzahl        | Jahr 1 | Jahr 2 | Jahr 3 |
 | --------------- | ------ | ------ | ------ |
 | Zahlende Konten | 1.600  | 15.600 | 72.000 |
-| ARR             | 706K $ | 9,0M $ | 50,8M $ |
-| CAC (Durchschn.)| 95 $   | 90 $   | 85 $   |
-| LTV             | 179 $  | 308 $  | 470 $  |
+| ARR             | $706K  | $9.0M  | $50.8M |
+| CAC (Durchschn.)| $95    | $90    | $85    |
+| LTV             | $179   | $308   | $470   |
 | LTV/CAC         | 1,9x   | 3,4x   | 5,5x   |
 | Bruttomarge     | 73%    | 77%    | 80%    |
 
-**Wichtige Unit Economics:** Wir konzentrieren uns auf **zahlende Kunden nur** — keine Eitelkeitsmetriken. Unser Modell zeigt gesundes B2B-SaaS-Wachstum mit starken LTV/CAC-Verhältnissen, die sich von 1,9x auf 5,5x bis Jahr 3 verbessern.
+**Wichtige Unit Economics:** Wir konzentrieren uns auf **zahlende Kunden nur** — keine Eitelkeitskennzahlen. Unser Modell zeigt gesundes B2B SaaS-Wachstum mit starken LTV/CAC-Verhältnissen, die sich von 1,9x auf 5,5x bis Jahr 3 verbessern.
 
 ### Kundensegmentierung (J3)
 

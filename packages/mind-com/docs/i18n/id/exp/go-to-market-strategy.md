@@ -45,7 +45,7 @@ _"terjemahan real-time Tiongkok Inggris rapat bisnis"_
 
 - **Masalah:** Spesifikasi teknis hilang dalam terjemahan → kesalahan yang merugikan
 - **Solusi:** Insinyur menjelaskan detail dalam bahasa Tiongkok, spesifikasi ditransmisikan dengan akurat
-- **Ukuran Pasar:** Pasar terjemahan B2B $2,4B di Tiongkok
+- **Ukuran Pasar:** Pasar terjemahan B2B $2,4 miliar di Tiongkok
 - **Tingkat Pertumbuhan:** 35% YoY (adopsi AI)
 
 ### Komunikasi Pasar Jerman → Asia/AS
@@ -55,7 +55,7 @@ _"terjemahan Jerman Inggris rapat bisnis"_
 
 - **Masalah:** Perusahaan otomotif Jerman bergantung pada penerjemah mahal untuk ekspansi Asia
 - **Solusi:** CTO membahas persyaratan teknik dalam bahasa Jerman secara langsung
-- **Konteks Pasar:** Ekspor otomotif €890B membutuhkan jembatan bahasa
+- **Konteks Pasar:** Ekspor otomotif €890 miliar membutuhkan jembatan bahasa
 - **Musiman:** Puncak Q1-Q2 (siklus perencanaan)
 
 **6. wie spreche ich chinesisch lieferanten**
@@ -91,7 +91,7 @@ _"berbicara dengan klien asing tanpa mengetahui bahasa"_
 
 - **Masalah:** Eksportir Spanyol terbatas pada pasar berbahasa Spanyol
 - **Solusi:** Ekspansi ke negara mana pun, berbicara bahasa asli
-- **Konteks UE:** Potensi perdagangan intra-UE €125B
+- **Konteks UE:** Potensi perdagangan intra-UE €125 miliar
 - **Daya Tarik Emosional:** Independensi dari pembelajaran bahasa
 
 **10. software reunion internacional español**
@@ -113,7 +113,7 @@ _"perangkat lunak rapat internasional Spanyol"_
 - **Audiens:** Manajer ekspor, direktur penjualan
 - **Alokasi Anggaran:** 25% dari total
 - **Rentang CPC:** $5-12
-- **Landing Page:** Antarmuka bahasa Spanyol, testimoni klien AS
+- **Halaman Landing:** Antarmuka bahasa Spanyol, testimoni klien AS
 - **Pembayaran:** Metode lokal (OXXO, transfer bank)
 
 **Kampanye 2: Hub Manufaktur China**
@@ -124,7 +124,7 @@ _"perangkat lunak rapat internasional Spanyol"_
 - **Audiens:** Pemilik pabrik, tim penjualan internasional
 - **Alokasi Anggaran:** 30% dari total
 - **Kepatuhan:** Lisensi ICP diperlukan, lokalisasi data
-- **Landing Page:** Bahasa China Sederhana, studi kasus manufaktur
+- **Halaman Landing:** Bahasa China Sederhana, studi kasus manufaktur
 - **Pembayaran:** Alipay, WeChat Pay, UnionPay
 
 **Kampanye 3: Sektor Industri Jerman**
@@ -134,7 +134,7 @@ _"perangkat lunak rapat internasional Spanyol"_
 - **Audiens:** Manajer teknik, direktur rantai pasokan
 - **Alokasi Anggaran:** 20% dari total
 - **Musiman:** Kurangi pengeluaran Desember-Januari (periode liburan)
-- **Landing Page:** Antarmuka bahasa Jerman, studi kasus otomotif
+- **Halaman Landing:** Antarmuka bahasa Jerman, studi kasus otomotif
 - **Integrasi:** SAP, perangkat lunak akuntansi Jerman
 
 **Kampanye 4: Pasar Enterprise Jepang**
@@ -154,7 +154,7 @@ _"perangkat lunak rapat internasional Spanyol"_
 - **Audiens:** Eksportir UKM, manajer perdagangan UE
 - **Alokasi Anggaran:** 10% dari total
 - **Keunggulan UE:** Posisi pasar tunggal
-- **Landing Page:** Antarmuka bahasa Spanyol, kisah sukses ekspansi UE
+- **Halaman Landing:** Antarmuka bahasa Spanyol, kisah sukses ekspansi UE
 - **Kepatuhan:** Kepatuhan GDPR yang menonjol
 
 ### Penargetan & Optimisasi Lanjutan
@@ -183,8 +183,8 @@ _"perangkat lunak rapat internasional Spanyol"_
 
 **Optimisasi Quality Score:**
 
-- **Kecepatan Landing Page:** <3 detik (kritis untuk pasar mobile-first)
-- **Pencocokan Bahasa:** Keselarasan kata kunci-iklan-landing page yang sempurna
+- **Kecepatan Halaman Landing:** <3 detik (kritis untuk pasar mobile-first)
+- **Pencocokan Bahasa:** Keselarasan kata kunci-iklan-halaman landing yang sempurna
 - **Relevansi Budaya:** Praktik bisnis lokal, metrik kesuksesan
 - **Pengalaman Mobile:** Desain responsif, metode pembayaran lokal
 
@@ -224,7 +224,7 @@ _"perangkat lunak rapat internasional Spanyol"_
 
 - **Quality Score:** >7/10 di semua kampanye
 - **CTR:** >3% (menunjukkan relevansi yang kuat)
-- **Tingkat Konversi:** >2% (traffic berkualitas)
+- **Tingkat Konversi:** >2% (lalu lintas berkualitas)
 - **LTV Pelanggan:** >$5.000 (fokus enterprise)
 - **Penetrasi Pasar:** 0,5% dari pasar yang dapat dialamatkan dalam 18 bulan
 

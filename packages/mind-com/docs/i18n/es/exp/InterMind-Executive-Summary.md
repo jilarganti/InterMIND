@@ -1,4 +1,4 @@
-# Resumen ejecutivo de InterMind <Badge type="warning" text="borrador" />
+# Resumen ejecutivo de InterMind <Badge type="warning" text="draft" />
 
 ## El problema
 
@@ -41,13 +41,13 @@ Lanzando pilotos en:
 
 ## Equipo
 
-- Ingenieros de NLP ex-Big Tech
+- Ex-ingenieros de NLP de Big Tech
 - Líderes de crecimiento de SaaS empresarial
 - Experiencia en expansión global
 
-## Solicitud de financiamiento
+## Solicitud de Financiamiento
 
-Recaudando **\$3.5M Seed** para:
+Recaudando **\$3.5M Ronda Semilla** para:
 
 - Localizar en 10 idiomas
 - Construir integraciones (Zoom, Teams, CRM)

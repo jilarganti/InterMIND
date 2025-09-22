@@ -42,18 +42,18 @@ Esta sección proporciona soluciones para problemas comunes encontrados durante 
 - Vuelve a unirte o actualiza la página de la reunión
 - Asegúrate de que el acceso al micrófono esté otorgado y habilitado
 
-## Eco o retroalimentación de audio
+## Eco o Retroalimentación de Audio
 
-### Causas comunes:
+### Causas Comunes:
 
-- Micrófono abierto combinado con altavoces
+- Micrófono abierto combinado with altavoces
 - Múltiples usuarios en la misma habitación
 
 ### Soluciones:
 
 - Usar audífonos
 - Silenciar otros dispositivos/micrófonos
-- El anfitrión/moderador puede silenciar a todos los participantes
+- El Anfitrión/Moderador puede silenciar a todos los participantes
 
 ## "Has sido removido de la llamada"
 

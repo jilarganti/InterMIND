@@ -13,7 +13,7 @@ Bir toplantıya katılırken—ister Ev Sahibi, Moderatör, Katılımcı veya Mi
 
 ## Hızlı Özelleştirme Seçenekleri
 
-Ayarlar bölümünde kullanıcılar şunları yapabilir:
+Ayarlar'da kullanıcılar şunları yapabilir:
 
 - Optimal ses ve görüntü kalitesi sağlamak için mikrofon, hoparlör ve kamera cihazlarını seçebilir
 - Tercihlerine uygun olarak Izgara veya Kenar Çubuğu düzeni arasında geçiş yapabilir
@@ -32,15 +32,15 @@ Katılımcılar, arayüzde bulunan çeşitli araçları kullanarak toplantıya a
 ## Alt Araç Çubuğu Simgeleri ve İşlevleri
 
 | Simge/Düğme       | Açıklama                                                                                                                                                                                                         |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Mikrofon**    | Mikrofonunuzu sessize almak veya sesini açmak için tıklayın, toplantı sırasında ses girişinizi kontrol etmenizi sağlar                                                                                                                |
-| **Kamera**        | Kameranızı başlatmak veya durdurmak için tıklayın, katılımcılar için video akışınızı etkinleştirir veya devre dışı bırakır                                                                                                                          |
-| **Ekran Paylaşımı**  | Ekran paylaşımını başlatmak veya durdurmak için tıklayın. Bu özellik tüm ekranınızı, belirli bir pencereyi veya tarayıcı sekmesini paylaşma seçenekleri sunar ve yalnızca masaüstü tarayıcılarda kullanılabilir                                    |
-| **Kayıt**     | Kaydı başlatmak veya durdurmak için tıklayın. Başlatıldığında, tüm katılımcılar görsel ve sesli bildirim alacaktır. Bu özellik yalnızca Ev Sahibi ve Moderatör için kullanılabilir                                |
-| **El Kaldır**    | Konuşma niyetinizi belirtmek için elinizi kaldırmak veya indirmek için tıklayın. Kaldırıldığında katılımcı listesinde adınızın yanında bir el simgesi görünecektir                                                                   |
-| **Ayarlar**      | Ses, video, düzen ve arka plan bulanıklaştırma ayarlarını düzenleyin. Katılımcılar ayrıca varsayılan asistan sağlayıcılarını seçebilir ve çeviri için tercih ettikleri dili seçebilirler                                        |
-| **Toplantıdan Ayrıl** | Toplantıdan ayrılmak için tıklayın. Ev Sahipleri ve Moderatörler katılımcıları çıkarabilirken, herkes için toplantıyı sonlandıramazlar                                                                                            |
-| **AI Asistan**  | AI Asistan panelini açar, kullanıcılara özel özetler, soru-cevap ve akıllı komutlar için etkileşim kurma yeteneği sağlar. Bu özellik yetkili kullanıcılarla sınırlıdır                                        |
-| **Katılımcılar**  | Katılımcı listesini açar, Ev Sahibi, Moderatör gibi rollerini gösterir                                                                                                                                |
-| **Sohbet**          | Toplantı sırasında diğer katılımcılarla etkileşimi kolaylaştıran sohbet özelliğini göstermek veya gizlemek için tıklayın                                                                                                         |
-| **Toplantı Bağlantısı**  | Toplantı bağlantısına tarayıcının adres çubuğundan erişilebilir veya sol alt köşeden 'Paylaş' bağlantısını seçerek kopyalanabilir. Mobil kullanıcılar için bu bağlantı 'Menüyü Göster' seçenek öğeleri altında görüntülenir |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Mikrofon**      | Mikrofonunuzu sessize almak veya sesini açmak için tıklayın, toplantı sırasında ses girişinizi kontrol etmenizi sağlar                                                                                         |
+| **Kamera**        | Kameranızı başlatmak veya durdurmak için tıklayın, katılımcılar için video akışınızı etkinleştirir veya devre dışı bırakır                                                                                     |
+| **Ekran Paylaşımı** | Ekran paylaşımını başlatmak veya durdurmak için tıklayın. Bu özellik tüm ekranınızı, belirli bir pencereyi veya tarayıcı sekmesini paylaşma seçenekleri sunar ve yalnızca masaüstü tarayıcılarda kullanılabilir |
+| **Kayıt**         | Kaydı başlatmak veya durdurmak için tıklayın. Başlatıldığında, tüm katılımcılar görsel ve sesli bildirim alacaktır. Bu özellik yalnızca Ev Sahibi ve Moderatör için kullanılabilir                            |
+| **El Kaldır**     | Konuşma niyetinizi belirtmek için elinizi kaldırmak veya indirmek için tıklayın. Kaldırıldığında katılımcı listesinde adınızın yanında bir el simgesi görünecektir                                           |
+| **Ayarlar**       | Ses, video, düzen ve arka plan bulanıklığı ayarlarını düzenleyin. Katılımcılar ayrıca varsayılan asistan sağlayıcılarını seçebilir ve çeviri için tercih ettikleri dili seçebilirler                        |
+| **Toplantıdan Ayrıl** | Toplantıdan ayrılmak için tıklayın. Ev Sahipleri ve Moderatörler katılımcıları çıkarabilirken, herkes için toplantıyı sonlandıramazlar                                                                     |
+| **AI Asistan**    | AI Asistan panelini açar, kullanıcılara özel özetler, soru-cevap ve akıllı komutlar için etkileşim kurma yeteneği sağlar. Bu özellik yetkili kullanıcılarla sınırlıdır                                       |
+| **Katılımcılar**  | Ev Sahibi, Moderatör gibi rollerini gösteren katılımcı listesini açar                                                                                                                                           |
+| **Sohbet**        | Toplantı sırasında diğer katılımcılarla etkileşimi kolaylaştıran sohbet özelliğini göstermek veya gizlemek için tıklayın                                                                                       |
+| **Toplantı Bağlantısı** | Toplantı bağlantısına tarayıcının adres çubuğundan erişilebilir veya sol alt köşedeki 'Paylaş' bağlantısını seçerek kopyalanabilir. Mobil kullanıcılar için bu bağlantı 'Menüyü Göster' seçenek öğeleri altında görüntülenir |

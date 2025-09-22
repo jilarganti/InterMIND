@@ -1,6 +1,6 @@
 # Ikhtisar antarmuka pertemuan
 
-Antarmuka InterMIND dirancang dengan pertimbangan yang cermat untuk kebersihan, intuisi, dan aksesibilitas. Bagian ini menguraikan elemen-elemen kunci yang terlihat selama pertemuan langsung dan memberikan panduan tentang bagaimana pengguna dapat berinteraksi dengan mereka secara efektif.
+Antarmuka InterMIND dirancang dengan pertimbangan yang cermat untuk kebersihan, intuisi, dan aksesibilitas. Bagian ini menjelaskan elemen-elemen kunci yang terlihat selama pertemuan langsung dan memberikan panduan tentang bagaimana pengguna dapat berinteraksi dengan mereka secara efektif.
 
 ## Tata Letak Antarmuka Utama
 
@@ -29,7 +29,7 @@ Peserta dapat berpartisipasi secara aktif dalam rapat menggunakan beberapa alat 
 - **Chat**: Peserta dapat mengirim pesan kepada semua peserta selama panggilan menggunakan panel samping, mendorong komunikasi dan kolaborasi
 - **Pin / Jangan Tonton**: Pengguna dapat menyesuaikan tampilan mereka dengan menyematkan peserta tertentu atau menyembunyikan mereka dari tata letak pribadi mereka, menyesuaikan pengalaman rapat mereka
 
-## Ikon dan Fungsi Toolbar Bawah
+## Ikon & Fungsi Toolbar Bawah
 
 | Ikon/Tombol       | Deskripsi                                                                                                                                                                                                         |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

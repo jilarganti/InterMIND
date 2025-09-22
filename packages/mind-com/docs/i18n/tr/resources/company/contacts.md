@@ -1,8 +1,8 @@
 ---
-description: "InterMind ile ortaklık kurmak, yatırım yapmak veya yönetim ekibimize ulaşmak mı istiyorsunuz? İş sorguları, medya talepleri veya hukuki konular için bu formu kullanın."
+description: "InterMind ile ortaklık kurmak, yatırım yapmak veya yönetim ekibimize ulaşmak mı istiyorsunuz? İş talepleri, medya istekleri veya hukuki konular için bu formu kullanın."
 ---
 
-# 🤝 InterMind'e Ulaşmak mı İstiyorsunuz? Hadi Bağlanalım.
+# 🤝 InterMind'e ulaşmak mı istiyorsunuz? Hadi bağlanalım.
 
 Şirket ekibimizle doğrudan iletişim kurmak için bu formu kullanın —  
 ortaklıklar, yatırımlar, medya, uyumluluk veya diğer işle ilgili konular için.
@@ -17,17 +17,17 @@ Mesajınızın doğru kişiye ulaşmasını sağlayacağız.
   categoryLabel="Bizimle iletişime geçme nedeniniz nedir? *"
   categoryPlaceholderText="Konunuzu seçin..."
   messageLabel="Mesaj *"
-  messagePlaceholderText="Değerlendirmemizi istediğiniz ilgili geçmiş bilgileri, zaman çizelgelerini veya bağlamı paylaşın."
+  messagePlaceholderText="Dikkate almamızı istediğiniz ilgili geçmiş bilgileri, zaman çizelgelerini veya bağlamı paylaşın."
   buttonText="Mesajınızı gönderin"  
   :services="[
     'Stratejik ortaklık fırsatı',
     'Yatırım veya finansman görüşmesi',
-    'Kurumsal çözüm sorgusu',
+    'Kurumsal çözüm talebi',
     'Medya ve basın talebi',
     'Hukuki veya uyumluluk konusu',
     'Güvenlik endişesi veya raporu',
     'İş geliştirme teklifi',
-    'Genel iş sorgusu'
+    'Genel iş talebi'
   ]"
 />
 

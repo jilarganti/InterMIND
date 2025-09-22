@@ -19,7 +19,7 @@ Klicken Sie auf **Neues Meeting** von der Hauptseite. Sie können dann wählen, 
 Ja, Hosts und Moderatoren können Aufzeichnungen starten und beenden. Alle Teilnehmer erhalten eine Benachrichtigung, wenn eine Aufzeichnung beginnt.
 
 **Kann ich wiederkehrende Meetings planen?**
-Ja, Sie können die Option \'Meeting in Google Calendar planen\' verwenden. In den Meeting-Einstellungen können Sie Wiederholungsoptionen auf täglicher Basis oder andere Optionen nach Ihren Wünschen auswählen.
+Ja, Sie können die Option 'Meeting in Google Calendar planen' verwenden. In den Meeting-Einstellungen können Sie Wiederholungsoptionen auf täglicher Basis oder andere Optionen nach Ihren Wünschen auswählen.
 
 ## KI-Assistent
 
@@ -57,7 +57,7 @@ Klicken Sie auf die Schaltfläche **Hand heben** in der unteren Symbolleiste. Al
 Gehen Sie zum Einstellungsmenü und wählen Sie aus den verfügbaren Geräten aus.
 
 **Wie kann ich meinen Hintergrund unscharf machen?**
-Aktivieren Sie in den Einstellungen die Option **Hintergrund unscharf machen**. Wenn Ihr Video aktiviert ist, sehen Sie ein Overlay-Symbol, um die Hintergrundunschärfe zu aktivieren oder zu deaktivieren.
+Aktivieren Sie in den Einstellungen die Option **Hintergrund-Unschärfe**. Wenn Ihr Video aktiviert ist, sehen Sie ein Overlay-Symbol, um die Hintergrund-Unschärfe zu aktivieren oder zu deaktivieren.
 
 **Kann ich Layout- oder Spracheinstellungen speichern?**
 Ja, diese Einstellungen werden in Ihrem Profil gespeichert und auf zukünftige Meetings angewendet.

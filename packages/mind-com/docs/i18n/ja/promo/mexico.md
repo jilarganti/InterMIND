@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "アメリカ・カナダへのビジネス展開 — InterMIND Mexico"
+title: "アメリカ・カナダへのビジネス拡大 — InterMIND Mexico"
 description: "スペイン語で話し、英語で伝わる。メキシコ企業と北米パートナーを結ぶリアルタイム翻訳。"
 ---
 

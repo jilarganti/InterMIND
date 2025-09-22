@@ -53,7 +53,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Construido para reuniones serias — no solo para hablar',
-      details: 'InterMIND es una [plataforma de videorreuniones de nivel profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
+      details: 'InterMIND es una [plataforma de videorreuniones de grado profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
       items: [
         '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, **listo para usar**.',
       ],
@@ -152,17 +152,17 @@ Esta configuración de idioma único se aplica a:
 - La **entrada hablada** (lo que dices)
 - La **salida traducida** (lo que escuchas)
 
-| Participante   | Idioma seleccionado | Habla en | Escucha en |
-| -------------- | ------------------- | -------- | ---------- |
-| Anfitrión      | Español             | Español  | Español    |
-| Participante 1 | Inglés              | Inglés   | Inglés     |
-| Participante 2 | Chino               | Chino    | Chino      |
+| Participante   | Idioma seleccionado | Habla en  | Escucha en |
+| -------------- | ------------------- | --------- | ---------- |
+| Anfitrión      | Español             | Español   | Español    |
+| Participante 1 | Inglés              | Inglés    | Inglés     |
+| Participante 2 | Chino               | Chino     | Chino      |
 
 [La plataforma interpreta automáticamente todo el habla en tiempo real](./product/overview/how-it-works) — así que todos se comunican como si hablaran el mismo idioma.
 
 ### ¿Puedes cambiar tu idioma durante la llamada?
 
-Sí. Puedes abrir la **Configuración** y cambiar el campo `Tu idioma`:
+Sí. Puedes abrir **Configuración** y cambiar el campo `Tu idioma`:
 
 :::details Panel de configuración
 <img src="/settings.png" alt="panel-de-configuracion" width="300px" />
@@ -176,7 +176,7 @@ Cambiar esto significa:
 
 > ✨ "Tu idioma" es una **configuración única unificada**  
 > Controla **cómo hablas**, **qué escuchas** y **qué ves**.  
-> Hablar en un idioma y escuchar en otro **no es compatible** — por diseño, para mantener la experiencia simple y predecible.
+> Hablar en un idioma y escuchar en otro **no está soportado** — por diseño, para mantener la experiencia simple y predecible.
 
 <span id="Testimonials"></span>
 
@@ -236,7 +236,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 <ContactForm buttonText="Hablar con nuestro equipo" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_Tu tiempo es mejor invertido dominando tu oficio — no memorizando gramática._**  
+> 💡 **_Tu tiempo se aprovecha mejor dominando tu oficio — no memorizando gramática._**  
 > 💡 **_Las verdaderas alianzas comienzan con conversaciones reales — en su idioma._**
 
 ## Preguntas Frecuentes

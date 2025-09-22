@@ -12,12 +12,12 @@ Die Preisseite bietet einen klaren Vergleich aller verfügbaren Tarife—Basic, 
 ### Von der Profilseite (für Basic-Plan-Benutzer)
 
 - Navigieren Sie zu Profil > Profil-Tab
-- Klicken Sie auf die Schaltfläche **Plan upgraden**, die sich unter Ihrem aktuellen Plan befindet
+- Klicken Sie auf die Schaltfläche **Plan upgraden** unter Ihrem aktuellen Plan
 
 ### Über die Seitenkopfzeile
 
 - Autorisierte Benutzer sollten auf den Link **Preise** klicken, der sich neben dem Verlauf-Link befindet
-- Nicht autorisierte Benutzer finden den Link **Preise** in der Nähe des Symbols "Problem melden"
+- Nicht autorisierte Benutzer finden den Link **Preise** in der Nähe des 'Problem melden'-Symbols
 
 ### Direkte URL
 
@@ -30,7 +30,7 @@ Die Preisseite umfasst drei Tarife:
 | Plan         | Preis                                        | Hauptfunktionen                                                                    |
 | ------------ | -------------------------------------------- | ---------------------------------------------------------------------------------- |
 | **Basic**    | Kostenlos                                    | 25 Meetings, 100 Teilnehmer, 30 GB Speicher, begrenzte Übersetzung              |
-| **Pro**      | 25€/Monat (oder 20€/Monat bei jährlicher Abrechnung) | Unbegrenzte Meetings, 150 Teilnehmer, 2 TB Speicher, alle KI-Funktionen         |
+| **Pro**      | 25 €/Monat (oder 20 €/Monat bei jährlicher Abrechnung) | Unbegrenzte Meetings, 150 Teilnehmer, 2 TB Speicher, alle KI-Funktionen         |
 | **Business** | Individuell (Vertrieb kontaktieren)         | 500 Teilnehmer, 5 TB Speicher, KI-Kollege (Alpha), Unternehmensfunktionen       |
 
 ### Weitere Highlights
@@ -61,4 +61,4 @@ Die Preisseite umfasst drei Tarife:
 - Abrechnungszyklen und Kontingente werden entsprechend dem gewählten Plan zurückgesetzt
 - Kontingente für die Anzahl der Meetings, Teilnehmer und Speicherplatz pro Benutzer werden basierend auf dem aktiven Plan durchgesetzt
 - Das Überschreiten eines Kontingents löst eine deutliche Benachrichtigung zusammen mit einer **Plan upgraden**-Schaltfläche aus
-- Benutzer können auf ihre Zahlungshistorie und Rechnungen im Abrechnungsbereich zugreifen
+- Benutzer können auf ihren Zahlungsverlauf und Rechnungen im Abrechnungsbereich zugreifen

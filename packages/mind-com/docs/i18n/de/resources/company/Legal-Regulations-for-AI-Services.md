@@ -36,11 +36,11 @@ Unter keinen Umständen haftet das Unternehmen für direkte, indirekte, zufälli
 
 ## Keine professionelle Beratung
 
-KI-generierte Inhalte und Antworten stellen keine professionelle Beratung, Meinung oder Empfehlung dar. Unsere KI-Systeme sind nicht qualifiziert, rechtliche, medizinische, finanzielle, psychologische oder andere professionelle Dienstleistungen zu erbringen. Sie sollten sich nicht auf KI-generierte Inhalte als Ersatz für professionelles Urteilsvermögen oder Beratung durch qualifizierte Experten im entsprechenden Bereich verlassen. Suchen Sie immer den Rat qualifizierter Fachkräfte bei spezifischen Fragen oder Anliegen bezüglich Ihrer besonderen Umstände.
+KI-generierte Inhalte und Antworten stellen keine professionelle Beratung, Meinung oder Empfehlung dar. Unsere KI-Systeme sind nicht qualifiziert, rechtliche, medizinische, finanzielle, psychologische oder andere professionelle Dienstleistungen zu erbringen. Sie sollten sich nicht auf KI-generierte Inhalte als Ersatz für professionelles Urteilsvermögen oder Beratung durch qualifizierte Experten im jeweiligen Bereich verlassen. Suchen Sie immer den Rat qualifizierter Fachkräfte bei spezifischen Fragen oder Anliegen bezüglich Ihrer besonderen Umstände.
 
-## Keine Gewährleistung
+## Keine Gewährleistungen
 
-Die KI-Funktionen werden auf einer "wie besehen" und "wie verfügbar" Basis ohne jegliche Gewährleistung bereitgestellt, weder ausdrücklich noch stillschweigend. Das Unternehmen garantiert nicht, dass die KI-Funktionen unterbrechungsfrei, zeitgerecht, sicher oder fehlerfrei funktionieren. Sie erkennen an, dass technische Probleme oder Änderungen in Drittanbietersystemen Ihre Möglichkeit, auf die KI-Funktionen zuzugreifen oder diese zu nutzen, vorübergehend oder dauerhaft einschränken können.
+Die KI-Funktionen werden auf einer "wie besehen" und "wie verfügbar" Basis ohne jegliche Gewährleistungen bereitgestellt, weder ausdrücklich noch stillschweigend. Das Unternehmen garantiert nicht, dass die KI-Funktionen unterbrechungsfrei, zeitgerecht, sicher oder fehlerfrei funktionieren. Sie erkennen an, dass technische Probleme oder Änderungen in Drittanbietersystemen Ihre Möglichkeit, auf die KI-Funktionen zuzugreifen oder diese zu nutzen, vorübergehend oder dauerhaft einschränken können.
 
 ## Datenerfassung und -verwendung
 
@@ -56,7 +56,7 @@ Alle personenbezogenen Daten oder sensiblen Informationen, die während Ihrer Ko
 
 ## Haftungsausschluss für Inhalte
 
-Unsere KI-Systeme generieren Inhalte basierend auf Mustern, die aus Trainingsdaten erlernt wurden, und können gelegentlich Inhalte produzieren, die nicht mit den Werten oder Richtlinien des Unternehmens übereinstimmen. Das Unternehmen befürwortet nicht alle von seinen KI-Systemen generierten Inhalte. Wir unternehmen angemessene Anstrengungen, um unangemessene Inhalte zu verhindern, können jedoch nicht garantieren, dass alle KI-generierten Inhalte angemessen, genau oder mit unseren Werten vereinbar sind.
+Unsere KI-Systeme generieren Inhalte basierend auf Mustern, die aus Trainingsdaten gelernt wurden, und können gelegentlich Inhalte produzieren, die nicht mit den Werten oder Richtlinien des Unternehmens übereinstimmen. Das Unternehmen befürwortet nicht alle von seinen KI-Systemen generierten Inhalte. Wir unternehmen angemessene Anstrengungen, um unangemessene Inhalte zu verhindern, können jedoch nicht garantieren, dass alle KI-generierten Inhalte angemessen, genau oder mit unseren Werten übereinstimmend sind.
 
 ## Erklärung zu kulturellem Respekt und Verantwortung
 

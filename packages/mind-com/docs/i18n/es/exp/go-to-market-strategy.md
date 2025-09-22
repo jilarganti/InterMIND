@@ -17,7 +17,7 @@
 **1. como hablar ingles reuniones negocios**
 _"cómo hablar inglés reuniones de negocios"_
 
-- **Dolor:** CEO mexicano pierde clientes estadounidenses debido a barreras del idioma
+- **Dolor:** CEO mexicano pierde clientes estadounidenses por barreras del idioma
 - **Solución:** Habla español de forma nativa, los estadounidenses escuchan inglés perfecto
 - **Volumen de Búsqueda:** Alta intención, enfocado en B2B
 - **Estimación CPC:** $8-15 (software empresarial)
@@ -35,7 +35,7 @@ _"software traducir español inglés videollamadas"_
 **3. 如何用中文与美国客户开会**
 _"cómo reunirse con clientes estadounidenses en chino"_
 
-- **Dolor:** Fabricante chino pierde contratos importantes debido a la brecha del idioma
+- **Dolor:** Fabricante chino pierde contratos importantes por la brecha del idioma
 - **Solución:** Explica procesos de producción en chino, los estadounidenses entienden instantáneamente
 - **Plataforma:** Baidu Ads (80% de participación de búsqueda en China)
 - **Regulatorio:** Cumple con requisitos de soberanía de datos
@@ -55,7 +55,7 @@ _"traducción alemán inglés reuniones de negocios"_
 
 - **Dolor:** Empresas automotrices alemanas dependen de intérpretes costosos para expansión en Asia
 - **Solución:** CTO discute requisitos de ingeniería en alemán directamente
-- **Contexto del Mercado:** €890B exportaciones automotrices necesitan puente de idioma
+- **Contexto del Mercado:** €890B exportaciones automotrices necesitan puente de idiomas
 - **Estacionalidad:** Pico Q1-Q2 (ciclos de planificación)
 
 **6. wie spreche ich chinesisch lieferanten**
@@ -71,7 +71,7 @@ _"cómo hablo con proveedores chinos"_
 **7. 日本語で海外クライアントと会議する方法**
 _"cómo reunirse con clientes extranjeros en japonés"_
 
-- **Dolor:** Empresas tecnológicas japonesas pierden oportunidades globales debido a barrera del inglés
+- **Dolor:** Empresas tecnológicas japonesas pierden oportunidades globales por barrera del inglés
 - **Solución:** Gerente de producto presenta en japonés, el mundo entiende
 - **Nota Cultural:** Comunicación de alto contexto crucial en Japón
 - **Preferencia de Dispositivo:** Comportamiento de búsqueda móvil primero
@@ -80,7 +80,7 @@ _"cómo reunirse con clientes extranjeros en japonés"_
 _"interpretación en tiempo real reuniones de negocios"_
 
 - **Dolor:** Discusiones técnicas detalladas requieren intérpretes humanos costosos
-- **Solución:** Interpretación IA para conversaciones de ingeniería de precisión
+- **Solución:** Interpretación con IA para conversaciones de ingeniería de precisión
 - **Ahorro de Costos:** 70% de reducción vs intérpretes humanos
 - **Ventaja de Calidad:** Terminología consistente, sin fatiga
 
@@ -90,16 +90,16 @@ _"interpretación en tiempo real reuniones de negocios"_
 _"hablar con clientes extranjeros sin saber idiomas"_
 
 - **Dolor:** Exportadores españoles limitados a mercados de habla hispana
-- **Solución:** Expande a cualquier país, habla idioma nativo
+- **Solución:** Expándete a cualquier país, habla tu idioma nativo
 - **Contexto UE:** €125B potencial de comercio intra-UE
 - **Gancho Emocional:** Independencia del aprendizaje de idiomas
 
 **10. software reunion internacional español**
 _"software reunión internacional español"_
 
-- **Dolor:** Expansión UE requiere capacidades multilingües
+- **Dolor:** Expansión en UE requiere capacidades multilingües
 - **Solución:** Una plataforma para todos los mercados de la UE
-- **Cumplimiento:** Listo para GDPR, residencia de datos UE
+- **Cumplimiento:** Listo para GDPR, residencia de datos en UE
 - **Integración:** Sistemas CRM/ERP españoles
 
 ## Estrategia de implementación completa
@@ -170,7 +170,7 @@ _"software reunión internacional español"_
 
 **Capas de audiencia:**
 
-- **En mercado:** Compradores de software empresarial
+- **En el mercado:** Compradores de software empresarial
 - **Intención personalizada:** Investigación de competidores, expansión internacional
 - **Afinidad:** Adoptantes de tecnología B2B, comercio internacional
 - **Eventos de vida:** Expansión empresarial, entrada a nuevos mercados
@@ -193,7 +193,7 @@ _"software reunión internacional español"_
 - **Micro-conversiones:** Solicitudes de demo, visualizaciones de página de precios
 - **Macro-conversiones:** Registros de prueba, suscripciones pagadas
 - **Atribución:** Ventana de 30 días (ciclos de ventas B2B más largos)
-- **Multiplataforma:** Seguimiento entre dispositivos, especialmente móvil
+- **Multiplataforma:** Seguimiento entre dispositivos, especialmente móviles
 
 **Inteligencia competitiva:**
 
@@ -210,15 +210,15 @@ _"software reunión internacional español"_
 - **Tamaño promedio de trato:** $200/mes
 - **Tasa de conversión:** 2.5% (alta intención)
 - **Período de recuperación:** 8 meses
-- **Ratio LTV/CAC:** 4.2:1
+- **Relación LTV/CAC:** 4.2:1
 
 **Mercado chino:**
 
-- **Alcance potencial:** 200K+ manufactureros
+- **Alcance potencial:** 200K+ fabricantes
 - **Tamaño promedio de trato:** $500/mes (empresarial)
 - **Tasa de conversión:** 1.8% (ciclo de ventas más largo)
 - **Período de recuperación:** 12 meses
-- **Ratio LTV/CAC:** 5.1:1
+- **Relación LTV/CAC:** 5.1:1
 
 **Métricas clave de éxito:**
 

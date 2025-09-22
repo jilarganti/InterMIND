@@ -1,20 +1,20 @@
 # Bảng giá
 
-Trang Bảng giá cung cấp so sánh rõ ràng về tất cả các gói có sẵn—Cơ bản, Pro và Doanh nghiệp—giúp người dùng chọn lựa tùy chọn tốt nhất cho nhu cầu giao tiếp của họ. Trang bao gồm chi tiết về giá cả, giới hạn cuộc họp, sức chứa người tham gia, dung lượng lưu trữ và quyền truy cập các tính năng cao cấp như Voice Assistant, AI Assistant và dịch vụ phiên dịch.
+Trang Bảng giá cung cấp so sánh rõ ràng về tất cả các gói có sẵn—Cơ bản, Pro và Doanh nghiệp—giúp người dùng chọn lựa tùy chọn tốt nhất cho nhu cầu giao tiếp của họ. Trang bao gồm chi tiết về giá cả, giới hạn cuộc họp, sức chứa người tham gia, dung lượng lưu trữ và quyền truy cập vào các tính năng cao cấp như Voice Assistant, AI Assistant và dịch vụ phiên dịch.
 
-## Truy cập trang định giá
+## Truy cập trang Bảng giá
 
-### Từ menu người dùng
+### Từ Menu người dùng
 
 - Nhấp vào biểu tượng avatar ở góc trên bên phải
 - Chọn **Pricing** từ menu thả xuống
 
-### Từ trang hồ sơ (dành cho người dùng gói Basic)
+### Từ trang Hồ sơ (dành cho người dùng gói Basic)
 
 - Điều hướng đến Profile > tab Profile
 - Nhấp vào nút **Upgrade Plan** nằm dưới gói hiện tại của bạn
 
-### Từ header trang
+### Từ Header trang
 
 - Người dùng đã được ủy quyền nên nhấp vào liên kết **Pricing** nằm cạnh liên kết History
 - Người dùng chưa được ủy quyền có thể tìm thấy liên kết **Pricing** gần biểu tượng 'Report a Problem'
@@ -29,15 +29,15 @@ Trang Bảng giá bao gồm ba cấp độ:
 
 | Gói dịch vụ  | Giá                                      | Tính năng chính                                                           |
 | ------------ | ---------------------------------------- | ------------------------------------------------------------------------- |
-| **Cơ bản**   | Miễn phí                                 | 25 cuộc họp, 100 người tham gia, 30 GB lưu trữ, phiên dịch có giới hạn   |
+| **Cơ bản**   | Miễn phí                                 | 25 cuộc họp, 100 người tham gia, 30 GB lưu trữ, phiên dịch có giới hạn    |
 | **Pro**      | $25/tháng (hoặc $20/tháng thanh toán hàng năm) | Cuộc họp không giới hạn, 150 người tham gia, 2 TB lưu trữ, tất cả tính năng AI |
-| **Doanh nghiệp** | Tùy chỉnh (Liên hệ bán hàng)        | 500 người tham gia, 5 TB lưu trữ, đồng nghiệp AI (alpha), tính năng doanh nghiệp |
+| **Doanh nghiệp** | Tùy chỉnh (Liên hệ bán hàng)            | 500 người tham gia, 5 TB lưu trữ, đồng nghiệp AI (alpha), tính năng doanh nghiệp |
 
 ### Điểm nổi bật khác
 
 - Chuyển đổi giữa **Hàng tháng** và **Hàng năm** để bật giá ưu đãi cho gói Pro
 - Nút **Gói hiện tại** hiển thị gói đang hoạt động
-- Nút **Liên hệ chúng tôi** cho phép khách hàng Doanh nghiệp yêu cầu giải pháp phù hợp
+- Nút **Liên hệ với chúng tôi** cho phép khách hàng Doanh nghiệp yêu cầu giải pháp phù hợp
 
 > [!TIP]
 > Nâng cấp gói có hiệu lực ngay lập tức và áp dụng giới hạn tính năng nâng cao tương ứng.

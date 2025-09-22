@@ -49,33 +49,33 @@ Reconocemos abiertamente las áreas que necesitan trabajo:
 
 1. **Adaptación a ancho de banda bajo (200kbps)** — Actualmente experimentamos caídas de audio y degradación de FPS a ~5 FPS (Google Meet mantiene ~17 FPS)
 2. **Recuperación de calidad después de mejora de red** — El sistema no regresa consistentemente a la calidad original (50% de tasa de recuperación en pruebas)
-3. **Retrasos de línea base** — Mayores retrasos de audio/video comparado con competidores en condiciones óptimas
+3. **Retrasos base** — Mayores retrasos de audio/video comparado con competidores en condiciones óptimas
 
-## Progreso año tras año: mejoras medibles
+## Progreso año tras año: Mejoras medibles
 
 <img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 Comparando con los resultados de 2023, hemos logrado:
 
-- Mayor estabilidad durante condiciones de pérdida de paquetes
-- Mejor calidad de video con 20% de pérdida de paquetes
+- Mejor estabilidad durante condiciones de pérdida de paquetes
+- Calidad de video mejorada con 20% de pérdida de paquetes
 - Reducción del retraso de audio base
 - Mantenimiento más consistente de la velocidad de fotogramas
 
-## Por qué esto importa para nuestros usuarios
+## Por Qué Esto Importa para Nuestros Usuarios
 
-### Para clientes empresariales
+### Para Clientes Empresariales
 
 - **Resistencia en condiciones desafiantes**: Mantiene la calidad de conexión cuando el tiempo de red es inconsistente
 - **Rendimiento predecible**: Comportamiento consistente en diferentes escenarios de red
 
-### Para educación
+### Para Educación
 
 - **Maneja la inestabilidad de red**: Mejor rendimiento con jitter/latencia común en redes institucionales
 - **Mantiene la conexión**: Mantiene el video activo cuando otros podrían desconectarse
 
-### Para equipos remotos
+### Para Equipos Remotos
 
 - **Compatible con VPN**: Manejo superior de la latencia introducida por conexiones seguras
 - **Llamadas internacionales**: Mejor rendimiento en conexiones de larga distancia con latencia natural
@@ -98,7 +98,7 @@ Estamos trabajando activamente en:
 2. **Recuperación dinámica de calidad** — Restauración más rápida a la calidad óptima cuando las condiciones de red mejoran
 3. **Optimización de latencia** — Reducción de retrasos de línea base mientras se mantiene la estabilidad
 
-## Experimenta la diferencia por ti mismo
+## Experimenta la Diferencia por Ti Mismo
 
 Los datos cuentan una historia, pero tu propia experiencia escribe el capítulo final:
 
@@ -117,4 +117,4 @@ _Investigación realizada por TestDevLab (Letonia) en julio de 2024. Metodologí
 
 ---
 
-**#apiMind #VideoConferencias #Benchmarking #TrabajoRemoto #InnovaciónTecnológica**
+**#apiMind #Videoconferencias #Benchmarking #TrabajoRemoto #InnovaciónTecnológica**

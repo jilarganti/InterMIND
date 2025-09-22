@@ -1,6 +1,6 @@
 # Regulasi Hukum untuk Layanan AI
 
-## Istilah dan Definisi
+## Syarat dan Definisi
 
 Untuk tujuan penafian ini, istilah-istilah berikut memiliki arti sebagaimana ditetapkan di bawah ini:
 
@@ -32,7 +32,7 @@ Informasi, konten, dan respons yang dihasilkan oleh sistem AI kami disediakan ha
 
 ## Pembatasan Tanggung Jawab
 
-Dalam keadaan apa pun, Perusahaan tidak akan bertanggung jawab atas segala kerusakan langsung, tidak langsung, insidental, khusus, konsekuensial, atau teladan yang timbul dari atau dengan cara apa pun terkait dengan penggunaan Anda atas fitur AI di situs web ini. Ini termasuk, namun tidak terbatas pada, segala kerugian, biaya, atau kerusakan dalam bentuk apa pun yang timbul sebagai akibat dari ketergantungan Anda pada informasi atau konten yang dihasilkan oleh sistem AI kami.
+Dalam keadaan apa pun, Perusahaan tidak akan bertanggung jawab atas segala kerusakan langsung, tidak langsung, insidental, khusus, konsekuensial, atau teladan yang timbul dari atau dengan cara apa pun terkait dengan penggunaan Anda atas fitur AI di situs web ini. Ini termasuk, namun tidak terbatas pada, segala kerugian, biaya, atau kerusakan dalam bentuk apa pun yang terjadi sebagai akibat dari ketergantungan Anda pada informasi atau konten yang dihasilkan oleh sistem AI kami.
 
 ## Bukan Nasihat Profesional
 

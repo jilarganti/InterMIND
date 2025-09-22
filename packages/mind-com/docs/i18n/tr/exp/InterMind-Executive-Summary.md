@@ -16,7 +16,7 @@ Dil engelleri hala küresel iş anlaşmalarını engelliyor — özellikle imala
 
 ## Temel Pazarlar
 
-Pilot projeler şu ülkelerde başlatılıyor:
+Pilot projeler başlatılıyor:
 
 - **Meksika, Brezilya** — ABD ve AB'ye ihracat
 - **Türkiye, Tayland, Endonezya** — dil uyumsuzluğu olan endüstriyel merkezler
@@ -27,17 +27,17 @@ Pilot projeler şu ülkelerde başlatılıyor:
 - **Pro:** $20/ay/kullanıcı (SaaS)
 - **Enterprise:** Gizlilik bölgeleri ile özel fiyatlandırma
 
-## Çekiş
+## Çekiş Gücü
 
-- Erken pilot projeler 3. çeyrekte başlıyor
+- İlk pilot projeler 3. çeyrekte başlıyor
 - 5 ülkede yerelleştirilmiş arama kampanyaları
-- İhracat ekipleri ve satın alma müdürlerinden güçlü gelen ilgi
+- İhracat ekipleri ve satın alma müdürlerinden güçlü gelen talep
 
 ## Rekabet Avantajı
 
 - Yerleşik çeviri — eklenti değil
 - Gizlilik odaklı mimari (AB/ABD/Asya bölgeleri)
-- Video aramalar için değil, iş toplantıları için optimize edilmiş kullanıcı deneyimi
+- İş toplantıları için optimize edilmiş kullanıcı deneyimi, sadece görüntülü aramalar için değil
 
 ## Ekip
 

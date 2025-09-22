@@ -148,13 +148,13 @@
   <g>
     <text x="50" y="580" font-family="Arial" font-size="14" font-weight="bold" fill="#1F2937">முக்கிய அம்சங்கள்:</text>
     <text x="50" y="605" font-family="Arial" font-size="12" fill="#374151">• ஒவ்வொரு நிலைக்கும் த்ரெட் பூல்கள்</text>
-    <text x="50" y="625" font-family="Arial" font-size="12" fill="#374151">• பஃபரிங்கிற்காக நிலைகளுக்கிடையே க்யூக்கள்</text>
+    <text x="50" y="625" font-family="Arial" font-size="12" fill="#374151">• பஃபரிங்கிற்காக நிலைகளுக்கு இடையே க்யூக்கள்</text>
     <text x="50" y="645" font-family="Arial" font-size="12" fill="#374151">• பைப்லைன் செயலாக்க முறை</text>
     <text x="50" y="665" font-family="Arial" font-size="12" fill="#374151">• சுமையின் கீழ் அளவிடுதல்</text>
-    <text x="50" y="685" font-family="Arial" font-size="12" fill="#374151">• நிலைகள் மூலம் தோல்வி தனிமைப்படுத்தல்</text>
+    <text x="50" y="685" font-family="Arial" font-size="12" fill="#374151">• நிலைகளால் தோல்வி தனிமைப்படுத்தல்</text>
   </g>
 
   <!-- Performance Info -->
   <g>
     <text x="550" y="580" font-family="Arial" font-size="14" font-weight="bold" fill="#1F2937">செயல்திறன்:</text>
-    <text x="550" y="605" font-family="Arial" font-size="12" fill="#374151">• பல ஸ்ட்ரீம்களின் இணையான செயலாக்கம
+    <text x="550" y="605" font-family="Arial" font-size="12" fill="#374151">• பல ஸ்ட்ரீம்களின் இணையான செயலாக்கம்</text

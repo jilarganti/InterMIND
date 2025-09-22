@@ -1,6 +1,6 @@
 # Vai trò người dùng
 
-InterMIND phân định bốn vai trò người dùng riêng biệt, mỗi vai trò được thiết kế tỉ mỉ để nâng cao trải nghiệm cuộc họp an toàn, hợp tác và linh hoạt. Vai trò Host được trao quyền hạn cao nhất, trong khi các vai trò khác cung cấp các mức độ tương tác khác nhau.
+InterMIND phân định bốn vai trò người dùng riêng biệt, mỗi vai trò được thiết kế tỉ mỉ để nâng cao trải nghiệm cuộc họp an toàn, hợp tác và linh hoạt. Vai trò Chủ trì được trao quyền hạn cao nhất, trong khi các vai trò khác cung cấp các mức độ tương tác khác nhau.
 
 ## Chủ trì
 
@@ -27,7 +27,7 @@ Người điều hành được Chủ phòng chỉ định để hỗ trợ qu�
 
 - Tắt tiếng bất kỳ người tham gia nào
 - Bắt đầu và dừng ghi âm
-  - Bao gồm bất kỳ bản ghi âm nào được khởi tạo bởi Chủ phòng
+  - Bao gồm bất kỳ bản ghi âm nào được Chủ phòng khởi tạo
 - Chấp nhận hoặc từ chối khách
 - Loại bỏ bất kỳ người tham gia nào khỏi cuộc gọi, ngoại trừ Chủ phòng
 - Sử dụng Trình dịch giọng nói trực tuyến và thay đổi ngôn ngữ (cho âm thanh của chính họ)
@@ -70,8 +70,8 @@ Khách là những người dùng tham gia cuộc họp mà không cần đăng 
 | Tính năng                      | Chủ trì | Điều hành | Người tham gia | Khách |
 | ------------------------------ | ------- | --------- | -------------- | ----- |
 | Khởi tạo cuộc họp             | ✅      | ❌        | ❌             | ❌    |
-| Tắt tiếng bất kỳ người tham gia| ✅      | ✅        | ❌             | ❌    |
-| Bật tiếng bất kỳ người tham gia| ❌      | ❌        | ❌             | ❌    |
+| Tắt tiếng bất kỳ người tham gia | ✅      | ✅        | ❌             | ❌    |
+| Bật tiếng bất kỳ người tham gia | ❌      | ❌        | ❌             | ❌    |
 | Tắt/Bật micro của mình         | ✅      | ✅        | ✅             | ✅    |
 | Bật/Tắt camera của mình        | ✅      | ✅        | ✅             | ✅    |
 | Bắt đầu/Dừng ghi âm            | ✅      | ✅        | ❌             | ❌    |

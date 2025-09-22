@@ -43,7 +43,7 @@ O apiMind demonstra:
 - Estratégias de adaptação eficientes em ambientes restritivos
 - Alocação equilibrada de recursos entre áudio e vídeo
 
-## Áreas para melhoria: somos transparentes
+## Áreas para Melhoria: Somos Transparentes
 
 Reconhecemos abertamente as áreas que precisam de trabalho:
 
@@ -80,13 +80,13 @@ Comparando com os resultados de 2023, alcançamos:
 - **Compatível com VPN**: Manuseio superior de latência introduzida por conexões seguras
 - **Chamadas internacionais**: Melhor desempenho em conexões de longa distância com latência natural
 
-## Contexto de desempenho no mundo real
+## Contexto de Performance no Mundo Real
 
 Nossas prioridades de otimização refletem padrões de uso reais:
 
 - **apiMind** se destaca quando o tempo de rede é inconsistente (jitter/latência)
 - **Google Meet** tem melhor desempenho com conexões estáveis e de alta largura de banda
-- **Jitsi** oferece flexibilidade de código aberto, mas pode desabilitar o vídeo sob estresse
+- **Jitsi** oferece flexibilidade de código aberto, mas pode desabilitar vídeo sob estresse
 
 Cada plataforma tem seus pontos fortes — focamos em manter a comunicação quando as condições de rede são imprevisíveis.
 

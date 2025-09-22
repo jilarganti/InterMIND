@@ -15,7 +15,7 @@ Las reuniones virtuales se han convertido en la base de los negocios globales, c
 
 ## La revolución de la traducción con IA cambia las reglas del juego
 
-Microsoft logró un avance revolucionario en la comunicación multilingüe al introducir la característica revolucionaria **Agente Intérprete de IA** en Ignite 2024. Esta tecnología, que estará disponible a principios de 2025, no solo traduce el habla sino que **imita la voz del hablante en otro idioma**, preservando la entonación y el matiz emocional. Imagínate: hablas en inglés y tus colegas en Tokio escuchan tu propia voz hablando japonés mientras mantiene todos los matices de tu discurso.
+Microsoft logró un avance revolucionario en la comunicación multilingüe al introducir la innovadora función **Agente Intérprete de IA** en Ignite 2024. Esta tecnología, que estará disponible a principios de 2025, no solo traduce el habla sino que **imita la voz del hablante en otro idioma**, preservando la entonación y el matiz emocional. Imagínate: hablas en inglés y tus colegas en Tokio escuchan tu propia voz hablando japonés mientras mantiene todos los matices de tu discurso.
 
 La tecnología soporta **9 idiomas en su lanzamiento** — chino, inglés, francés, alemán, italiano, japonés, coreano, portugués y español — con planes de expandirse a 50 idiomas para fin de año. Cada usuario con una licencia de Microsoft 365 Copilot recibe **2 horas de traducción síncrona mensual**, lo cual cubre las necesidades de la mayoría de reuniones internacionales para empresas medianas.
 

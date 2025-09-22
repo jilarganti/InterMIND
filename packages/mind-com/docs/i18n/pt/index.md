@@ -1,11 +1,11 @@
 ---
 layout: home
-title: "InterMIND: Tradução de fala em tempo real para videoconferências"
+title: "InterMIND: Tradução de Fala em Tempo Real para Videoconferências"
 description: "Videoconferência profissional com interpretação simultânea em mais de 19 idiomas. Tradução com IA que captura tom, intenção e contexto. Reúna-se globalmente, comunique-se naturalmente."
 isHome: true
 ---
 
-<!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
+<!-- <HeroSection title="Reúna-se em **Qualquer** Idioma" :typingSpeed="10" text="Tradução de fala ao vivo em videochamadas. Compreensão instantânea, sem barreiras."> -->
 
 <HeroSection title="Entenda **Qualquer** Idioma" :typingSpeed="20" text="Interpretação simultânea durante videoconferências. Quebre barreiras linguísticas instantaneamente.">
 <NavButton buttonLabel="Assistir demo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
@@ -33,7 +33,7 @@ isHome: true
 <span id="2"></span>
 <FeatureBlock
     :card="{
-      title: 'A mente dentro das suas reuniões',
+      title: 'A Mente Dentro das Suas Reuniões',
       details: 'InterMIND transforma cada chamada multilíngue em conhecimento claro e pesquisável.',
       items: [
         '✧ **Pergunte qualquer coisa** — IA encontra respostas **em todas as suas reuniões**.',
@@ -52,8 +52,8 @@ isHome: true
 <span id="3"></span>
 <FeatureBlock
     :card="{
-      title: 'Construído para reuniões sérias — não apenas conversas',
-      details: 'InterMIND é uma [plataforma de videoconferência de nível profissional](./product/overview/video-meeting-platform), não um complemento ou plugin leve.',
+      title: 'Construído para Reuniões Sérias — Não Apenas Conversas',
+      details: 'InterMIND é uma [plataforma de videoconferência de nível profissional](./product/overview/video-meeting-platform), não um complemento leve ou plugin.',
       items: [
         '✧ Resolução 1080p, supressão inteligente de ruído, agendamento, moderação, compartilhamento de tela, gravação, legendagem, chat de participantes e integração com calendário — tudo integrado, **pronto para usar**.',
       ],
@@ -69,9 +69,9 @@ isHome: true
 <span id="4"></span>
 <FeatureBlock
     :card="{
-      title: 'Privacidade onde importa',
+      title: 'Privacidade Onde Importa',
       details: 'InterMIND é construído para conversas críticas de confiança — onde privacidade e controle são fundamentais.',
-      items: ['✧ [Zonas de privacidade](./product/overview/privacy-architecture) — UE, EUA, Sudeste Asiático', '✧ **Zero treinamento de dados**. Sem acesso de terceiros.'],
+      items: ['✧ [Zonas de Privacidade](./product/overview/privacy-architecture) — UE, EUA, Sudeste Asiático', '✧ **Zero treinamento de dados**. Sem acesso de terceiros.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -152,11 +152,11 @@ Esta configuração única de idioma se aplica a:
 - A **entrada falada** (o que você fala)
 - A **saída traduzida** (o que você ouve)
 
-| Participante   | Idioma Selecionado | Fala Em  | Ouve Em  |
-| -------------- | ------------------ | -------- | -------- |
-| Anfitrião      | Espanhol           | Espanhol | Espanhol |
-| Participante 1 | Inglês             | Inglês   | Inglês   |
-| Participante 2 | Chinês             | Chinês   | Chinês   |
+| Participante   | Idioma Selecionado | Fala Em   | Ouve Em   |
+| -------------- | ------------------ | --------- | --------- |
+| Anfitrião      | Espanhol           | Espanhol  | Espanhol  |
+| Participante 1 | Inglês             | Inglês    | Inglês    |
+| Participante 2 | Chinês             | Chinês    | Chinês    |
 
 [A plataforma interpreta automaticamente toda a fala em tempo real](./product/overview/how-it-works) — então todos se comunicam como se falassem o mesmo idioma.
 
@@ -180,7 +180,7 @@ Alterar isso significa:
 
 <span id="Testimonials"></span>
 
-## O que os clientes estão dizendo
+## O Que Os Clientes Estão Dizendo
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
@@ -188,7 +188,7 @@ Alterar isso significa:
 
 ## Preços Claros e Simples
 
-Da primeira chamada às conversas fluentes — em qualquer escala.
+Da primeira ligação às conversas fluentes — em qualquer escala.
 
 <PricingPlans
     :plans="[
@@ -279,7 +279,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       },
       {
         q: 'Como gerencio minha assinatura (upgrade, downgrade ou cancelamento)?',
-        a: 'Você pode alterar seu plano a qualquer momento através das **configurações da conta**. As alterações entram em vigor **imediatamente**. Para cancelamentos, *Planos mensais* cancelam no final do ciclo de cobrança. *Planos anuais* podem ser cancelados para um **reembolso proporcional**.',
+        a: 'Você pode alterar seu plano a qualquer momento através das **configurações da conta**. As alterações entram em vigor **imediatamente**. Para cancelamentos, *planos mensais* cancelam no final do ciclo de cobrança. *Planos anuais* podem ser cancelados para **reembolso proporcional**.',
       },
       {
         q: 'Posso usar o InterMind para webinars ou grandes eventos?',

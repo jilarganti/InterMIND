@@ -32,13 +32,13 @@ Chúng tôi tin vào **tính minh bạch hơn là lời hứa**. Chúng tôi ch�
 - Chúng tôi không giữ lại bản ghi hoặc phương tiện trừ khi bạn yêu cầu rõ ràng.
 - Nếu bạn tắt tính năng thông dịch, **không có dữ liệu người dùng nào rời khỏi thiết bị của bạn**.
 
-## Bảo mật theo khu vực: Cách thức hoạt động
+## Bảo mật theo vùng: Cách thức hoạt động
 
 Khi bắt đầu mỗi phiên làm việc, hoặc như một phần trong cài đặt tài khoản tổ chức của bạn, bạn có thể chọn vùng bảo mật ưu tiên:
 
-| Khu vực       | Luật áp dụng                                                                                  | Cơ sở hạ tầng                  | Nhà cung cấp LLM           |
+| Vùng          | Luật áp dụng                                                                                  | Cơ sở hạ tầng                  | Nhà cung cấp LLM           |
 | ------------- | --------------------------------------------------------------------------------------------- | ------------------------------ | -------------------------- |
-| Châu Âu       | [GDPR](https://gdpr.eu)                                                                       | Chỉ trung tâm dữ liệu EU       | Được lưu trữ tại EU hoặc tuân thủ EU |
+| Châu Âu       | [GDPR](https://gdpr.eu)                                                                       | Chỉ trung tâm dữ liệu EU       | Lưu trữ tại EU hoặc tuân thủ EU |
 | Hoa Kỳ        | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (US)         | OpenAI US / Anthropic US   |
 | UAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | Đám mây UAE hoặc Bahrain       | LLM khu vực hoặc tuân thủ  |
 | Châu Á / Trung Quốc | Luật bảo mật địa phương của Trung Quốc                                                  | Alibaba, Huawei, Tencent Cloud | Chỉ LLM có trụ sở tại Trung Quốc |
@@ -47,9 +47,9 @@ Lựa chọn này quyết định cách video, âm thanh và nội dung được
 
 Bạn có thể:
 
-- **Đặt khu vực mặc định** cho tổ chức của bạn
-- **Ghi đè khu vực cho mỗi phiên**
-- **Đưa một số khu vực vào danh sách đen** hoàn toàn
+- **Đặt vùng mặc định** cho tổ chức của bạn
+- **Ghi đè vùng cho mỗi phiên**
+- **Đưa một số vùng nhất định vào danh sách đen** hoàn toàn
 
 ## Những gì InterMind đảm bảo
 
@@ -80,11 +80,11 @@ InterMind hỗ trợ tương thích đầy đủ với:
 - **UAE PDPL** — Lưu trữ cục bộ nếu được yêu cầu, kiểm soát truy cập nghiêm ngặt, không chuyển giao quốc tế mà không có sự đồng ý.
 - **China DSL/PIPL** — Chỉ xử lý trong khu vực, không định tuyến nước ngoài nếu chọn Trung Quốc.
 
-## Những gì chúng tôi có thể và không thể đảm bảo
+## Những Gì Chúng Tôi Có Thể và Không Thể Đảm Bảo
 
 Chúng tôi cam kết minh bạch hoàn toàn, không chỉ là ngôn ngữ pháp lý.
 
-> InterMind không thể đảm bảo cách các nhà cung cấp LLM hoặc hạ tầng bên thứ ba xử lý dữ liệu sau khi nó rời khỏi tầm kiểm soát của chúng tôi.
+> InterMind không thể đảm bảo cách thức các nhà cung cấp LLM hoặc hạ tầng bên thứ ba xử lý dữ liệu sau khi dữ liệu rời khỏi tầm kiểm soát của chúng tôi.
 
 ### Chúng tôi KHÔNG đảm bảo:
 
@@ -98,15 +98,15 @@ Chúng tôi cam kết minh bạch hoàn toàn, không chỉ là ngôn ngữ phá
 - Bạn có các công cụ để **kiểm soát rủi ro** bằng cách chọn khu vực và chế độ tuân thủ của mình.
 - InterMind **không bao giờ** lưu trữ hoặc khai thác nội dung của bạn — ngay cả tạm thời — mà không có sự đồng ý của bạn.
 
-## Chế độ tin cậy & Mức độ riêng tư
+## Chế Độ Tin Cậy & Mức Độ Riêng Tư
 
 Bạn có thể tùy chỉnh phiên làm việc để phù hợp với nhu cầu bảo mật của mình:
 
-| Chế độ tin cậy   | Diễn giải      | Chuyển giao liên vùng | Lưu trữ            | Phù hợp nhất cho                    |
+| Chế Độ Tin Cậy   | Diễn Giải      | Chuyển Giao Liên Vùng | Lưu Trữ            | Phù Hợp Nhất Cho                    |
 | ---------------- | -------------- | --------------------- | ------------------ | ----------------------------------- |
-| 🔒 Chỉ cục bộ    | ❌             | ❌                    | ❌                 | Pháp lý, chính phủ, đánh giá nội bộ |
-| 🔐 Khóa theo vùng| ✅             | ✅ (chỉ trong khu vực)| ❌ hoặc chỉ phiên  | Y tế, tài chính, nhân sự            |
-| 🌐 Linh hoạt toàn cầu | ✅        | ✅ (đa vùng)          | ✅                 | Hỗ trợ, bán hàng, nhóm đa quốc gia  |
+| 🔒 Chỉ Cục Bộ    | ❌             | ❌                    | ❌                 | Pháp lý, chính phủ, đánh giá nội bộ |
+| 🔐 Khóa Theo Vùng | ✅             | ✅ (chỉ trong khu vực) | ❌ hoặc chỉ trong phiên | Y tế, tài chính, nhân sự             |
+| 🌐 Linh Hoạt Toàn Cầu | ✅             | ✅ (đa vùng)     | ✅                 | Hỗ trợ, bán hàng, nhóm đa quốc gia |
 
 ## Những gì bạn nhận được ngay từ đầu
 

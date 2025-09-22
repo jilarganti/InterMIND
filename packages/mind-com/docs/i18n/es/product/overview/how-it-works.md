@@ -11,19 +11,19 @@ InterMind es una plataforma de videoconferencias multiusuario con **traducción 
 
 ![](./interpretating.svg)
 
-### 1. **Reconocimiento de voz (Speech-to-Text)**
+### 1. **Reconocimiento de voz (voz a texto)**
 
 - Reconocimiento en tiempo real usando modelos transformer
 - Procesamiento de ruido y sonidos de fondo
-- Soporte para terminología técnica y jerga especializada
+- Soporte para terminología técnica y jerga
 - Precisión de reconocimiento: **95-98%** para idiomas principales
 
 ### 2. **Postprocesamiento de texto (limpieza de texto y análisis semántico)**
 
 - **Eliminación de muletillas**: eliminación de "eh", "mm", repeticiones, tartamudeo
 - **Corrección de errores de reconocimiento**: corrección basada en contexto
-- **Puntuación y estructuración**: colocación automática de signos de puntuación
-- **Extracción de significado clave**: identificación de ideas principales y secundarias
+- **Puntuación y estructuración**: colocación automática de puntuación
+- **Extracción de significado clave**: identificación de pensamientos principales y secundarios
 - **Segmentación de expresiones**: división en bloques lógicos para traducción precisa
 - **Análisis contextual**: vinculación con comentarios previos y tema general
 
@@ -34,7 +34,7 @@ InterMind es una plataforma de videoconferencias multiusuario con **traducción 
 - Adaptación del estilo de habla (formal/informal)
 - Preservación del matiz emocional de las expresiones
 
-### 4. **Síntesis de voz (Text-to-Speech)**
+### 4. **Síntesis de voz (texto a voz)**
 
 - Entonación natural y ritmo de habla
 - Preservación de pausas y acentos del original
@@ -43,7 +43,7 @@ InterMind es una plataforma de videoconferencias multiusuario con **traducción 
 
 Todo esto ocurre con **latencia menor a 3 segundos** — igualando la velocidad de intérpretes simultáneos profesionales[^1] [^2].
 
-## Ventajas prácticas
+## Ventajas Prácticas
 
 ### Calidad del procesamiento de voz:
 
@@ -57,7 +57,7 @@ Todo esto ocurre con **latencia menor a 3 segundos** — igualando la velocidad 
 - **Equipos globales**: eliminación de barreras idiomáticas en equipos internacionales
 - **Reuniones con clientes**: comunicación directa con clientes sin servicios de intérprete
 - **Capacitación y presentaciones**: entrega simultánea de contenido en múltiples idiomas
-- **Ahorro de costos**: reducción de costos de intérpretes hasta en un **80%**
+- **Ahorro de costos**: reducción de costos de intérpretes hasta un **80%**
 
 ### Para usuarios:
 

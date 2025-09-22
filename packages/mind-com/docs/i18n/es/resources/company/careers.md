@@ -1,6 +1,6 @@
-# Derribando barreras entre culturas
+# Derribando Barreras Entre Culturas
 
-<img src="/resources/iStock-1492917260.jpg" alt="Dirham de los EAU" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/resources/iStock-1492917260.jpg" alt="dirham de los EAU" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/resources/iStock-1130023029.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 Estamos construyendo tecnología que elimina las barreras del idioma entre las personas. Nuestro producto permite que personas de diferentes países hablen en su idioma nativo y se entiendan entre sí de manera natural.
@@ -23,15 +23,15 @@ Buscamos personas que:
 
 **Piensen globalmente.** ¿Has trabajado con personas de diferentes países? ¿Resolviste problemas en entornos multiculturales? ¿Construiste productos para audiencias internacionales?
 
-**Aborden problemas difíciles.** ¿Te hiciste cargo de proyectos donde no existía solución? ¿Construiste algo desde cero? ¿Hiciste que lo imposible pareciera obvio?
+**Aborden problemas difíciles.** ¿Tomaste proyectos donde no existía solución? ¿Construiste algo desde cero? ¿Hiciste que lo imposible pareciera obvio?
 
-## Lo que estamos construyendo
+## Lo Que Estamos Construyendo
 
 Una plataforma que hace opcional el dominio de idiomas extranjeros para el éxito profesional. Imagínate esto: un ingeniero japonés, un gerente alemán y un diseñador brasileño discutiendo un proyecto—cada uno hablando en su idioma nativo, todos entendiendo perfectamente.
 
 No solo traducimos palabras—preservamos el significado, el tono, el contexto cultural. En tiempo real. Sin retrasos. Con precisión a nivel humano.
 
-## A quién estamos buscando
+## A Quién Estamos Buscando
 
 ### Ingenieros que construyen lo imposible
 
@@ -71,7 +71,7 @@ No solo traducimos palabras—preservamos el significado, el tono, el contexto c
 
 **La capacidad de aprendizaje supera al conocimiento actual.** Estamos construyendo lo que aún no existe. Tu disposición para aprender y adaptarte es fundamental.
 
-## El proceso
+## El Proceso
 
 1. **Envía enlaces.** No un currículum—enlaces a lo que has construido. GitHub, productos, artículos, videos, cualquier cosa que muestre tu trabajo.
 
@@ -88,7 +88,7 @@ No solo traducimos palabras—preservamos el significado, el tono, el contexto c
 
 **Desafíos a escala mundial.** Resolverás problemas que afectan a miles de millones de personas.
 
-**Equipo de clase mundial.** Trabaja con los mejores especialistas en IA, sistemas en tiempo real y comunicación global.
+**Equipo de clase mundial.** Trabaja con especialistas de primer nivel en IA, sistemas en tiempo real y comunicación global.
 
 **Recursos ilimitados.** Todo lo que necesitas para construir el mejor producto de la categoría.
 
@@ -100,7 +100,7 @@ Si ya has construido algo significativo y estás listo para crear tecnología qu
 
 Muéstranos lo que has hecho. Cuéntanos qué quieres construir después.
 
-<!-- **Contact:** careers@mind.com -->
+<!-- **Contacto:** careers@mind.com -->
 
 <br>
 

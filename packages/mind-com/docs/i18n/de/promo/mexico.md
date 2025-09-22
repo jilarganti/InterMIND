@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Erweitern Sie Ihr Geschäft in die USA und Kanada — InterMIND Mexico"
-description: "Sprechen Sie Spanisch, sie hören Englisch. Echtzeit-Übersetzung für mexikanische Unternehmen, die sich mit nordamerikanischen Partnern vernetzen."
+description: "Sprechen Sie Spanisch, sie hören Englisch. Echtzeit-Übersetzung für mexikanische Unternehmen, die sich mit nordamerikanischen Partnern verbinden."
 ---
 
 <HeroSection

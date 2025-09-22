@@ -6,7 +6,7 @@ const BASE_PATH = "/fr"
 
 export const fr = defineConfig({
   description:
-    "Visioconférence professionnelle avec interprétation simultanée dans plus de 19 langues. Traduction alimentée par l'IA qui capture le ton, l'intention et le contexte pour les équipes mondiales.",
+    "Visioconférence professionnelle avec interprétation simultanée dans plus de 19 langues. Traduction alimentée par l\\'IA qui capture le ton, l\\'intention et le contexte pour les équipes mondiales.",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | Traduction vocale en temps réel pour les équipes mondiales" }],
     [
@@ -14,7 +14,7 @@ export const fr = defineConfig({
       {
         property: "og:description",
         content:
-          "Visioconférence professionnelle avec interprétation vocale simultanée dans plus de 19 langues. Rencontrez-vous mondialement, communiquez naturellement avec la traduction alimentée par l'IA.",
+          "Visioconférence professionnelle avec interprétation vocale simultanée dans plus de 19 langues. Rencontrez-vous mondialement, communiquez naturellement avec la traduction alimentée par l\\'IA.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -52,8 +52,8 @@ export const fr = defineConfig({
     },
 
     localization: {
-      placeholder4SearchInput: "Demandez n'importe quoi...",
-      placeholder4ChatFooter: "Demandez n'importe quoi...",
+      placeholder4SearchInput: "Demandez n\\'importe quoi...",
+      placeholder4ChatFooter: "Demandez n\\'importe quoi...",
       placeholder4ChatList: "Entrez le sujet de discussion...",
       buttonLabel4NavButton: "Assistant",
       buttonLabel4SignInButton: "Se connecter",
@@ -66,7 +66,7 @@ export const fr = defineConfig({
       namePlaceholder: "votre nom",
       email: "Email *",
       emailPlaceholder: "votre adresse email",
-      webSite: "Site web de l'entreprise",
+      webSite: "Site web de l\\'entreprise",
       webSitePlaceholder: "ex. https://nomdelentreprise.com",
       webSiteError: "Veuillez saisir le site web",
       category: "Quel est votre objectif principal ? *",
@@ -91,7 +91,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "APERÇU",
       collapsed: false,
       items: [
-        { text: "Qu'est-ce qu'InterMIND ?", link: "overview/what-is-intermind" },
+        { text: "Qu\\'est-ce qu\\'InterMIND ?", link: "overview/what-is-intermind" },
         { text: "Comment ça fonctionne", link: "overview/how-it-works" },
         { text: "Plateforme de visioconférence", link: "overview/video-meeting-platform" },
         { text: "Traduction vs interprétation : quelle est la différence ?", link: "overview/translation-vs-interpretation-whats-the-difference" },
@@ -125,7 +125,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "SUPPORT",
       collapsed: false,
       items: [
-        { text: "Obtenir de l'aide", link: "/help" },
+        { text: "Obtenir de l\\'aide", link: "/help" },
         { text: "Politique de confidentialité", link: "/company/privacy-policy" },
         { text: "Guide juridique IA", link: "/company/legal-regulations-for-ai-services" },
       ],

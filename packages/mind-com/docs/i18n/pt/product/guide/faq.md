@@ -73,7 +73,7 @@ Chrome, Firefox, Safari, Edge e Opera são totalmente suportados.
 ## Histórico
 
 **Posso visualizar reuniões passadas das quais participei?**
-Sim, usuários que estão logados têm a capacidade de acessar reuniões passadas através da página de Histórico, que inclui gravações, transcrições e resumos dessas reuniões via aba do Assistente de IA.
+Sim, usuários que estão conectados têm a capacidade de acessar reuniões passadas através da página de Histórico, que inclui gravações, transcrições e resumos dessas reuniões via aba do Assistente de IA.
 
 **Posso excluir uma reunião do meu histórico?**
 Apenas Anfitriões e Moderadores possuem a autoridade para excluir um registro de reunião, o que efetivamente o remove dos históricos de todos os participantes.

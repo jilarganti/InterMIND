@@ -152,11 +152,11 @@ Diese einzige Spracheinstellung gilt für:
 - Die **gesprochene Eingabe** (was Sie sagen)
 - Die **übersetzte Ausgabe** (was Sie hören)
 
-| Teilnehmer   | Gewählte Sprache | Spricht in | Hört in    |
-| ------------ | ---------------- | ---------- | ---------- |
-| Gastgeber    | Spanisch         | Spanisch   | Spanisch   |
-| Teilnehmer 1 | Englisch         | Englisch   | Englisch   |
-| Teilnehmer 2 | Chinesisch       | Chinesisch | Chinesisch |
+| Teilnehmer    | Gewählte Sprache | Spricht in | Hört in  |
+| ------------- | ---------------- | ---------- | -------- |
+| Gastgeber     | Spanisch         | Spanisch   | Spanisch |
+| Teilnehmer 1  | Englisch         | Englisch   | Englisch |
+| Teilnehmer 2  | Chinesisch       | Chinesisch | Chinesisch |
 
 [Die Plattform interpretiert automatisch alle Sprache in Echtzeit](./product/overview/how-it-works) — so kommuniziert jeder, als würde er dieselbe Sprache sprechen.
 
@@ -186,7 +186,7 @@ Diese Änderung bedeutet:
 
 <span id="Pricing"></span>
 
-## Klare und einfache Preise
+## Klare und einfache Preisgestaltung
 
 Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
 
@@ -198,7 +198,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         details: 'keine Kreditkarte erforderlich',
         items: [
           '**25** Meetings',
-          '**100** Teilnehmer Videomeetings [💬](#3)',
+          '**100** Teilnehmer Video-Meetings [💬](#3)',
           '**30** GB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',
@@ -210,7 +210,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         details: 'oder 25 € monatlich abgerechnet',
         items: [
           '**Unbegrenzte** Meetings',
-          '**150** Teilnehmer Videomeetings [💬](#3)',
+          '**150** Teilnehmer Video-Meetings [💬](#3)',
           '**2** TB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',
@@ -218,11 +218,11 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         title: '**Business** &nbsp 100+ Benutzer',
-        price: '**Individuelle Preise**',
+        price: '**Individuelle Preisgestaltung**',
         details: 'Für Datenschutz entwickelt',
         items: [
           '**Unbegrenzte** Meetings',
-          '**500** Teilnehmer Videomeetings [💬](#3)',
+          '**500** Teilnehmer Video-Meetings [💬](#3)',
           '**5** TB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',

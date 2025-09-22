@@ -5,15 +5,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/hi"
 
 export const hi = defineConfig({
-  description: "19+ भाषाओं में समकालिक अनुवाद के साथ पेशेवर वीडियो कॉन्फ्रेंसिंग। वैश्विक टीमों के लिए टोन, इरादा और संदर्भ को समझने वाला AI-संचालित अनुवाद।",
+  description:
+    "19+ भाषाओं में समकालिक अनुवाद के साथ पेशेवर वीडियो कॉन्फ्रेंसिंग। वैश्विक टीमों के लिए टोन, इरादा और संदर्भ को समझने वाला AI-संचालित अनुवाद।",
   head: [
-    ["meta", { property: "og:title", content: "InterMIND | वैश्विक टीमों के लिए रियल-टाइम स्पीच अनुवाد" }],
+    ["meta", { property: "og:title", content: "InterMIND | वैश्विक टीमों के लिए रियल-टाइम स्पीच अनुवाद" }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "19+ भाषाओं में समकालिक आवाज अनुवाद के साथ पेशेवर वीडियो कॉन्फ्रेंसिंग। वैश्विक स्तर पर मिलें, AI-संचालित अनुवाद के साथ प्राकृतिक रूप से संवाद करें।",
+          "19+ भाषाओं में समकालिक आवाज़ अनुवाद के साथ पेशेवर वीडियो कॉन्फ्रेंसिंग। वैश्विक स्तर पर मिलें, AI-संचालित अनुवाद के साथ प्राकृतिक रूप से संवाद करें।",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -33,7 +34,7 @@ export const hi = defineConfig({
         text: "संसाधन",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
+          { text: "अक्सर पूछे जाने वाले प्रश्न", link: `${BASE_PATH}/#FAQ` },
           { text: "प्रशंसापत्र", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -69,13 +70,13 @@ export const hi = defineConfig({
       webSitePlaceholder: "जैसे https://companyname.com",
       webSiteError: "कृपया वेबसाइट दर्ज करें",
       category: "आपका मुख्य लक्ष्य क्या है? *",
-      categoryPlaceholder: "चुनें कि क्या सबसे महत्वपूर्ण है",
+      categoryPlaceholder: "चुनें कि आपके लिए सबसे महत्वपूर्ण क्या है",
       message: "आइए आपके लक्ष्यों पर चर्चा करें (वैकल्पिक)",
       messagePlaceholder: "कृपया कोई अतिरिक्त विवरण प्रदान करें (वैकल्पिक)",
       submit: "अनुरोध भेजें",
       sending: "भेजा जा रहा है...",
       successTitle: "धन्यवाद!",
-      successMessage: "हमें आपका संदेश मिल गया है — हमारी टीम जल्द ही संपर्क करेगी।",
+      successMessage: "हमें आपका संदेश मिल गया है — हमारी टीम जल्द ही आपसे संपर्क करेगी।",
       defaultCategories: [],
 
       defaultButtonText: "हमें संदेश भेजें",
@@ -109,7 +110,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "उपयोगकर्ता भूमिकाएं", link: "guide/user-roles" },
         { text: "AI सुविधाएं", link: "guide/ai-features" },
         { text: "मीटिंग इतिहास", link: "guide/meeting-history" },
-        { text: "FAQ", link: "guide/faq" },
+        { text: "अक्सर पूछे जाने वाले प्रश्न", link: "guide/faq" },
         { text: "समस्या निवारण", link: "guide/troubleshooting" },
         { text: "मूल्य निर्धारण", link: "guide/pricing" },
         { text: "सहायता और समर्थन", link: "guide/help-support" },
@@ -133,7 +134,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
     //   text: "संसाधन",
     //   collapsed: false,
     //   items: [
-    //     { text: "ब्रांड एसेट्स", link: "/media-kit" },
+    //     { text: "ब्रांड संपत्ति", link: "/media-kit" },
     //     // { text: "खाता प्रबंधन", link: "guide/account-management" },
     //   ],
     // },

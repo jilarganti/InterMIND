@@ -17,7 +17,7 @@ En la Configuración, los usuarios pueden:
 
 - Seleccionar sus dispositivos de micrófono, altavoz y cámara para garantizar una calidad de audio y video óptima
 - Alternar entre el diseño de Cuadrícula o Barra lateral para adaptarse a sus preferencias
-- Habilitar o deshabilitar el Desenfoque de fondo para mayor privacidad durante la reunión
+- Habilitar o deshabilitar el Desenfoque de fondo para privacidad durante la reunión
 - Cambiar el idioma del Traductor para facilitar la comunicación entre participantes que hablan diferentes idiomas
 
 ## Funciones de interacción de participantes

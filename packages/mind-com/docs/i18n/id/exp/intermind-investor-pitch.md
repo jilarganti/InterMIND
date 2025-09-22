@@ -1,4 +1,4 @@
-# Presentasi investor InterMind: mendobrak hambatan bahasa untuk bisnis global <Badge type="success" text="updated" />
+# Presentasi Investor InterMind: Mengatasi Hambatan Bahasa untuk Bisnis Global <Badge type="success" text="diperbarui" />
 
 ## Masalah: Bahasa Masih Menjadi Hambatan Senilai $100 Miliar
 
@@ -18,8 +18,8 @@ Platform video profesional yang memungkinkan **setiap peserta berbicara dan mend
 
 - Interpretasi simultan bertenaga AI
 - Penjadwalan terintegrasi, moderasi, dan berbagi layar
-- Infrastruktur global aman dengan zona privasi (EU, US, Asia)
-- Siap enterprise: 500+ peserta, transkrip yang dapat dicari, integrasi API
+- Infrastruktur global yang aman dengan zona privasi (EU, US, Asia)
+- Siap untuk enterprise: 500+ peserta, transkrip yang dapat dicari, integrasi API
 
 ## Pasar: Kebutuhan Mendesak dalam Perdagangan B2B Global
 
@@ -28,7 +28,7 @@ Platform video profesional yang memungkinkan **setiap peserta berbicara dan mend
 | Manufaktur     | CN, IN, MX, TH, ID | Komunikasi pabrik-ke-klien               | Spesifikasi hilang dalam terjemahan |
 | Ekspor         | BR, CL, ES, CO     | Penjualan & demo ke pembeli berbahasa Inggris | Kehilangan kesepakatan karena hambatan bahasa |
 | Otomotif       | DE, JP, KR         | Negosiasi pemasok lintas batas           | Penerjemah mahal, siklus lambat     |
-| Kantor Pusat Perusahaan | US, UK, AU | Rapat tim global                         | Waktu terbuang saat berganti bahasa |
+| Kantor Pusat Perusahaan | US, UK, AU | Rapat tim global                         | Waktu terbuang untuk berganti bahasa |
 
 Estimasi TAM: **$27B+** pasar enablement komunikasi B2B (sumber: CSA Research, Gartner)
 
@@ -107,7 +107,7 @@ InterMind dipercaya oleh **perusahaan di mana privasi tidak dapat ditawar-tawar*
 
 - **80% Solo/Freelance:** 1 lisensi per akun
 - **15% Bisnis Kecil:** 4 lisensi per akun
-- **5% Pasar Menengah:** 22 lisensi per akun
+- **5% Mid-Market:** 22 lisensi per akun
 - **Rata-rata Tertimbang:** 2.5 lisensi per akun
 
 Kami mulai melakukan pilot go-to-market di Meksiko, Brasil, Turki, Thailand, dan Indonesia — menargetkan wilayah dengan volume perdagangan B2B yang tinggi dan permintaan yang kuat untuk komunikasi bisnis berbahasa Inggris.

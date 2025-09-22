@@ -1,6 +1,6 @@
 # Übersetzung vs. Dolmetschen: Was ist der Unterschied?
 
-In unserer zunehmend vernetzten Welt war es noch nie so wichtig, Sprachbarrieren zu überwinden. Ob Sie Ihr Unternehmen global erweitern, an internationalen Konferenzen teilnehmen oder einfach versuchen, über Kulturen hinweg zu kommunizieren – Sie sind wahrscheinlich bereits auf Übersetzungs- und Dolmetscherdienste gestoßen. Aber hier ist die Sache: Während viele Menschen diese Begriffe synonym verwenden, handelt es sich tatsächlich um unterschiedliche Berufe, die völlig verschiedene Fähigkeiten, Werkzeuge und Ansätze erfordern.
+In unserer zunehmend vernetzten Welt war es noch nie so wichtig, Sprachbarrieren abzubauen. Ob Sie Ihr Unternehmen global erweitern, an internationalen Konferenzen teilnehmen oder einfach versuchen, über Kulturen hinweg zu kommunizieren – Sie sind wahrscheinlich bereits auf Übersetzungs- und Dolmetscherdienste gestoßen. Aber hier ist die Sache: Während viele Menschen diese Begriffe synonym verwenden, handelt es sich tatsächlich um unterschiedliche Berufe, die völlig verschiedene Fähigkeiten, Werkzeuge und Ansätze erfordern.
 
 Das Verständnis des Unterschieds zwischen Übersetzung und Dolmetschen ist nicht nur akademische Neugier – es ist wesentliches Wissen für jeden, der in der internationalen Wirtschaft, im Gesundheitswesen, im Rechtswesen oder in jedem anderen Bereich arbeitet, in dem mehrsprachige Kommunikation wichtig ist. Lassen Sie uns tief in das eintauchen, was diese beiden Sprachdienstleistungen unterscheidet und warum die Wahl der richtigen Option über Erfolg oder Misserfolg Ihrer Kommunikationsbemühungen entscheiden kann.
 
@@ -13,9 +13,9 @@ Im Kern ist die Unterscheidung eindeutig: **Übersetzung befasst sich mit geschr
 
 Dieser grundlegende Unterschied mag einfach erscheinen, aber er führt zu zahlreichen Variationen in der Arbeitsweise dieser Fachkräfte, den Fähigkeiten, die sie benötigen, und den Herausforderungen, denen sie gegenüberstehen.
 
-## Was ist Übersetzung? Die Kunst der schriftlichen Sprachkonversion
+## Was ist Übersetzung? Die Kunst der schriftlichen Sprachkonvertierung
 
-Übersetzung ist der Prozess der Umwandlung schriftlicher Inhalte von einer Sprache (der Ausgangssprache) in eine andere (die Zielsprache), wobei Bedeutung, Tonfall, Stil und kulturelle Nuancen erhalten bleiben. Es ist ein methodischer Prozess, der Recherche, Überarbeitung und Verfeinerung ermöglicht.
+Übersetzung ist der Prozess der Umwandlung schriftlicher Inhalte von einer Sprache (der Ausgangssprache) in eine andere (die Zielsprache) unter Beibehaltung von Bedeutung, Tonfall, Stil und kulturellen Nuancen. Es ist ein methodischer Prozess, der Recherche, Überarbeitung und Verfeinerung ermöglicht.
 
 ### Hauptmerkmale der Übersetzung
 
@@ -29,7 +29,7 @@ Dieser grundlegende Unterschied mag einfach erscheinen, aber er führt zu zahlre
 
 **Präzision und Perfektion**: Da das Endprodukt dauerhaft und oft veröffentlicht ist, müssen Übersetzungen akribisch genau sein. Eine einzige Fehlübersetzung in einem Rechtsvertrag oder medizinischen Dokument kann schwerwiegende Folgen haben.
 
-**Kulturelle Anpassung**: Übersetzer konvertieren nicht nur Wörter; sie passen Inhalte für verschiedene kulturelle Kontexte an. Dies umfasst die Anpassung von Redewendungen, Metaphern, Humor und kulturellen Bezügen, um bei der Zielgruppe Anklang zu finden.
+**Kulturelle Anpassung**: Übersetzer konvertieren nicht nur Wörter; sie passen Inhalte an verschiedene kulturelle Kontexte an. Dies umfasst die Anpassung von Redewendungen, Metaphern, Humor und kulturellen Bezügen, um bei der Zielgruppe Anklang zu finden.
 
 ### Arten von Übersetzungsdienstleistungen
 
@@ -61,12 +61,12 @@ Die Übersetzungsbranche umfasst verschiedene Spezialisierungen, jede mit einzig
 - Klinische Studien, Patientenakten, pharmazeutische Dokumentation
 - Kombiniert medizinische Expertise mit sprachlichen Fähigkeiten
 - Unterliegt strengen regulatorischen Anforderungen
-- Kann direkte Auswirkungen auf die Patientensicherheit haben
+- Kann die Patientensicherheit direkt beeinflussen
 
 **Marketing-Übersetzung (Transcreation)**
 
 - Werbekampagnen, Markenbotschaften, Slogans
-- Geht über wörtliche Übersetzung hinaus, um emotionale Wirkung zu recreieren
+- Geht über wörtliche Übersetzung hinaus, um emotionale Wirkung zu reproduzieren
 - Kann Inhalte für lokale Märkte völlig neu konzipieren
 - Fokussiert auf Überzeugungskraft und Markenkonsistenz
 
@@ -93,7 +93,7 @@ Dolmetschen ist die mündliche Übersetzung gesprochener Sprache in Echtzeit ode
 
 **Aktives Zuhören und Gedächtnis**: Dolmetscher verwenden ausgeklügelte Zuhörtechniken und Gedächtnisstrategien, um nicht nur Worte, sondern auch Absichten, Emotionen und nonverbale Signale zu erfassen.
 
-**Fähigkeiten im öffentlichen Sprechen**: Im Gegensatz zu Übersetzern, die im Hintergrund arbeiten, treten Dolmetscher oft in stressigen öffentlichen Situationen auf, was Selbstvertrauen, klare Artikulation und professionelle Ausstrahlung erfordert.
+**Fähigkeiten im öffentlichen Sprechen**: Im Gegensatz zu Übersetzern, die im Hintergrund arbeiten, treten Dolmetscher oft in stressigen öffentlichen Situationen auf, was Selbstvertrauen, klare Artikulation und professionelle Präsenz erfordert.
 
 **Körperliche Ausdauer**: Dolmetschen ist körperlich anspruchsvoll und erfordert anhaltende Konzentration sowie oft stundenlanges Stehen oder Sitzen in unbequemen Positionen. Die geistige Erschöpfung durch die Aufrechterhaltung einer so intensiven Konzentration ist der Grund, warum Simultandolmetscher normalerweise paarweise arbeiten und alle 20-30 Minuten wechseln.
 
@@ -204,10 +204,10 @@ Qualitätsübersetzungen umfassen typischerweise mehrere Stufen:
 
 ## ISO-Standards Schnellreferenz-Leitfaden
 
-| **Standard**       | **Vollständiger Name**                                                | **Anwendung**                                       | **Hauptanforderungen**                                                                                                                             | **Wer benötigt es**                                                                                     |
+| **Standard**       | **Vollständiger Name**                                                | **Anwendung**                                       | **Hauptanforderungen**                                                                                                                             | **Wer braucht es**                                                                                     |
 | ------------------ | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
-| **ISO 17100:2015** | Übersetzungsdienstleistungen — Anforderungen für Übersetzungsdienstleistungen | Alle Übersetzungsprojekte                              | • Qualifizierte Übersetzer<br>• Definierter Produktionsprozess<br>• Überprüfung durch zweiten Linguisten<br>• Abschließendes Korrekturlesen<br>• Projektmanagement-Protokolle | Übersetzungsagenturen, Unternehmensübersetzungsabteilungen, Freiberufliche Übersetzer mit Zertifizierungsanspruch |
-| **ISO 18587:2017** | Nachbearbeitung von maschineller Übersetzungsausgabe                   | MT + Menschliche Nachbearbeitungsprojekte                      | • Qualifikationen des Nachbearbeiters<br>• Definitionen für vollständige vs. leichte Nachbearbeitung<br>• Qualitätsbewertungskriterien<br>• Kundenvereinbarung über MT-Nutzung       | Unternehmen mit MT-Nutzung, LSPs mit PEMT-Dienstleistungen, Technologieunternehmen mit MT-Arbeitsabläufen                    |
+| **ISO 17100:2015** | Übersetzungsdienstleistungen — Anforderungen für Übersetzungsdienstleistungen | Alle Übersetzungsprojekte                              | • Qualifizierte Übersetzer<br>• Definierter Produktionsprozess<br>• Überprüfung durch zweiten Linguisten<br>• Abschließendes Korrekturlesen<br>• Projektmanagement-Protokolle | Übersetzungsagenturen, Unternehmens-Übersetzungsabteilungen, Freiberufliche Übersetzer mit Zertifizierungsanspruch |
+| **ISO 18587:2017** | Nachbearbeitung von maschineller Übersetzungsausgabe                   | MT + Menschliche Nachbearbeitungsprojekte                      | • Qualifikationen des Nachbearbeiters<br>• Definitionen für vollständige vs. leichte Nachbearbeitung<br>• Qualitätsbewertungskriterien<br>• Kundenvereinbarung über MT-Nutzung       | Unternehmen mit MT-Nutzung, LSPs mit PEMT-Dienstleistungen, Technologieunternehmen mit MT-Workflows                    |
 | **ISO 20771:2020** | Rechtsübersetzung — Anforderungen                             | Übersetzung von Rechtsdokumenten                            | • Anforderungen an Rechtskenntnisse<br>• Überprüfung durch Rechtsexperten<br>• Vertraulichkeitsprotokolle<br>• Zertifizierungsverfahren                        | Rechtsübersetzer, Anwaltskanzleien, Gerichte und Tribunale, Regierungsbehörden                              |
 | **ISO 13611:2014** | Dolmetschen — Richtlinien für Gemeindedolmetschen         | Gesundheitswesen, Sozialdienste, rechtliche Gemeinschaftseinstellungen | • Dolmetscherkompetenzen<br>• Ethikkodex<br>• Richtlinien für kulturelle Vermittlung<br>• Arbeitsbedingungen                                        | Krankenhäuser und Kliniken, Sozialdienste, Gemeinschaftsorganisationen, Gerichtssysteme               |
 | **ISO 23155:2022** | Konferenzdolmetschen — Anforderungen und Empfehlungen   | Konferenz- und Simultandolmetschen            | • Teamzusammensetzung<br>• Kabinen-Spezifikationen<br>• Ausrüstungsstandards<br>• Arbeitszeitbegrenzungen                                                   | Konferenzorganisatoren, Internationale Organisationen, Dolmetschdienstleister                 |
@@ -215,13 +215,13 @@ Qualitätsübersetzungen umfassen typischerweise mehrere Stufen:
 | **ISO 21998:2020** | Medizinisches/Gesundheitsdolmetschen                              | Medizinische und Gesundheitseinstellungen                       | • Kenntnisse medizinischer Terminologie<br>• Patientensicherheitsprotokolle<br>• Vertraulichkeit (HIPAA)<br>• Kulturelle Kompetenz                              | Gesundheitseinrichtungen, Medizinische Dolmetscher, Telemedizin-Anbieter                                    |
 | **ISO 20539:2017** | Übersetzungstechnologie — Vokabular                          | Technologie und Werkzeuge                                  | • Standardisierte Terminologie<br>• Werkzeugklassifikationen<br>• Prozessdefinitionen                                                                    | CAT-Tool-Entwickler, Übersetzungstechnologen, LSP-IT-Abteilungen                                   |
 
-### Verwendung dieser Tabelle:
+### Wie Sie diese Tabelle verwenden:
 
 **Für Kunden:**
 
 - Prüfen Sie, ob Ihr Sprachdienstleister relevante ISO-Zertifizierungen besitzt
 - Verstehen Sie, welche Qualitätsgarantien jeder Standard bietet
-- Ordnen Sie Ihre Projektanforderungen den entsprechenden Standards zu
+- Passen Sie Ihre Projektanforderungen an entsprechende Standards an
 
 **Für Sprachdienstleister:**
 
@@ -233,7 +233,7 @@ Qualitätsübersetzungen umfassen typischerweise mehrere Stufen:
 
 - Wissen Sie, welche Standards für Ihre Spezialisierung gelten
 - Verstehen Sie die Qualitätserwartungen in Ihrem Bereich
-- Nutzen Sie Standards als Leitfäden für die berufliche Entwicklung
+- Nutzen Sie Standards als Leitfäden für berufliche Entwicklung
 
 ### Wichtige Hinweise:
 
@@ -263,31 +263,31 @@ Obwohl beide Berufe Sprachkompetenz erfordern, unterscheiden sich die benötigte
 
 ### Übersetzer-Fähigkeiten
 
-**Schriftliche Exzellenz**: Übersetzer müssen in ihrer Zielsprache hervorragend schreiben können, mit perfekter Grammatik, angemessenem Stil und natürlichem Fluss. Sie sind im Wesentlichen Schriftsteller, die zufällig mit Ausgangstexten arbeiten.
+**Schriftliche Exzellenz**: Übersetzer müssen wunderschön in ihrer Zielsprache schreiben, mit perfekter Grammatik, angemessenem Stil und natürlichem Fluss. Sie sind im Wesentlichen Schriftsteller, die zufällig mit Ausgangstexten arbeiten.
 
-**Recherche-Kompetenz**: Die Fähigkeit, schnell Terminologie zu finden und zu verifizieren, kulturelle Bezüge zu untersuchen und sich zu Mini-Experten in Fachgebieten zu entwickeln.
+**Recherche-Kompetenz**: Die Fähigkeit, schnell Terminologie zu finden und zu verifizieren, kulturelle Bezüge zu untersuchen und Mini-Experten in spezialisierten Bereichen zu werden.
 
-**Aufmerksamkeit für Details**: Jede Nuance erfassen, jeden Fakt überprüfen, Konsistenz über hunderte von Seiten sicherstellen.
+**Aufmerksamkeit für Details**: Jede Nuance erfassen, jeden Fakt überprüfen, Konsistenz über Hunderte von Seiten sicherstellen.
 
 **Zeitmanagement**: Qualität mit Fristen in Einklang bringen, große Projekte verwalten, mit Teams koordinieren.
 
-**Technische Versiertheit**: Kompetenz im Umgang mit CAT-Tools, Translation Memories, Terminologiedatenbanken und Dateiformatkonvertierungen.
+**Technologie-Versiertheit**: Kompetenz mit CAT-Tools, Translation Memories, Terminologie-Datenbanken und Dateiformatkonvertierungen.
 
 ### Dolmetscher-Fähigkeiten
 
-**Geteilte Aufmerksamkeit**: Die kognitive Fähigkeit, gleichzeitig zu hören, zu verarbeiten und zu sprechen – wie den Kopf zu tätscheln während man den Bauch reibt, aber unendlich komplexer.
+**Geteilte Aufmerksamkeit**: Die kognitive Fähigkeit, gleichzeitig zu hören, zu verarbeiten und zu sprechen—wie den Kopf zu tätscheln während man den Bauch reibt, aber unendlich komplexer.
 
-**Stressmanagement**: In Hochdrucksituationen ruhig und fokussiert bleiben, sich elegant von Fehlern erholen.
+**Stressmanagement**: Ruhig und fokussiert in Hochdrucksituationen bleiben, sich elegant von Fehlern erholen.
 
-**Kulturelle Intelligenz**: Die Stimmung im Raum erfassen, nonverbale Kommunikation verstehen, kulturelle Missverständnisse vermitteln.
+**Kulturelle Intelligenz**: Die Stimmung lesen, nonverbale Kommunikation verstehen, kulturelle Missverständnisse vermitteln.
 
-**Körperliche Ausdauer**: Dolmetschen ist körperlich anspruchsvoll und erfordert anhaltende Konzentration sowie oft stundenlanges Stehen oder Sitzen in unbequemen Positionen.
+**Körperliche Ausdauer**: Dolmetschen ist körperlich anspruchsvoll und erfordert anhaltende Konzentration und oft stundenlanges Stehen oder Sitzen in unbequemen Positionen.
 
-**Improvisation**: Unerwartete Situationen bewältigen, technische Ausfälle oder Redner handhaben, die von vorbereiteten Texten abweichen.
+**Improvisation**: Unerwartete Situationen bewältigen, technische Ausfälle oder Redner, die von vorbereiteten Texten abweichen.
 
-## Der revolutionäre Einfluss der Technologie
+## Revolutionäre Auswirkungen der Technologie
 
-Die digitale Revolution hat sowohl die Übersetzung als auch das Dolmetschen verändert, jedoch auf unterschiedliche Weise:
+Die digitale Revolution hat sowohl die Übersetzung als auch das Dolmetschen transformiert, jedoch auf unterschiedliche Weise:
 
 ### KI und maschinelle Übersetzung
 
@@ -350,7 +350,7 @@ Die richtige Wahl zu treffen hängt von Ihren spezifischen Bedürfnissen ab, und
 - Sie mehrsprachige Schulungen oder Workshops durchführen
 - Sie Gerichtsverfahren mit fremdsprachigen Sprechern begleiten
 - Sie Live-Events für internationale Zielgruppen übertragen
-- Sie diplomatische Treffen oder Friedensverhandlungen führen
+- Sie diplomatische Treffen oder Friedensverhandlungen durchführen
 
 ### Hybride Situationen, die beide Dienstleistungen erfordern
 
@@ -368,7 +368,7 @@ Die richtige Wahl zu treffen hängt von Ihren spezifischen Bedürfnissen ab, und
 
 **Medizinische Forschungskooperationen**
 
-- Übersetzung: Forschungsarbeiten, Protokolle, Zulassungsanträge
+- Übersetzung: Forschungsarbeiten, Protokolle, behördliche Einreichungen
 - Dolmetschen: Teambesprechungen, Patientengespräche, Konferenzpräsentationen
 - Herausforderung: Technische Genauigkeit in beiden Formaten aufrechterhalten
 
@@ -380,7 +380,7 @@ Die richtige Wahl zu treffen hängt von Ihren spezifischen Bedürfnissen ab, und
 
 **Multinationale Fusionen und Übernahmen**
 
-- Übersetzung: Due-Diligence-Dokumente, Verträge, Zulassungsunterlagen
+- Übersetzung: Due-Diligence-Dokumente, Verträge, behördliche Einreichungen
 - Dolmetschen: Verhandlungen, Vorstandssitzungen, Mitarbeiterkommunikation
 - Koordination unerlässlich: Rechtliche Präzision in schriftlicher und mündlicher Kommunikation
 
@@ -398,7 +398,7 @@ Realität: Obwohl sich maschinelle Übersetzung dramatisch verbessert hat, kann 
 Realität: Dolmetschen umfasst komplexe kognitive Prozesse, kulturelle Vermittlung und sekundenschnelle Entscheidungsfindung, die weit über einfache Wortsubstitution hinausgeht.
 
 **"Übersetzer und Dolmetscher sind wandelnde Wörterbücher"**
-Realität: Diese Fachkräfte sind Kommunikationsspezialisten, die nicht nur Sprachen verstehen, sondern auch Kulturen, Kontexte und Fachbereiche. Sie sind eher kulturelle Brücken als Wörterbücher.
+Realität: Diese Fachkräfte sind Kommunikationsspezialisten, die nicht nur Sprachen verstehen, sondern auch Kulturen, Kontexte und Fachbereiche. Sie sind eher wie kulturelle Brücken als Wörterbücher.
 
 **"Übersetzung und Dolmetschen werden bald vollständig automatisiert sein"**
 Realität: Während KI weiter voranschreitet, bleiben menschliche Kreativität, kulturelles Verständnis und kontextuelle Urteilsfähigkeit für wichtige Kommunikation unersetzlich.
@@ -407,7 +407,7 @@ Realität: Während KI weiter voranschreitet, bleiben menschliche Kreativität, 
 
 Übersetzung und Dolmetschen werden aufgrund ihrer unterschiedlichen Natur unterschiedlich bepreist:
 
-### Preise für Übersetzungen
+### Preisgestaltung für Übersetzungen
 
 - Normalerweise pro Wort, Seite oder Projekt abgerechnet
 - Preise variieren je nach Sprachkombination, Spezialisierung und Dringlichkeit
@@ -416,7 +416,7 @@ Realität: Während KI weiter voranschreitet, bleiben menschliche Kreativität, 
 - Mengenrabatte sind bei großen Projekten üblich
 - ISO-zertifizierte Agenturen können Aufschläge für garantierte Qualität verlangen
 
-### Preise für Dolmetschen
+### Preisgestaltung für Dolmetschen
 
 - Normalerweise stunden- oder tageweise abgerechnet
 - Mindestgebühren sind üblich (halber oder ganzer Tag)
@@ -444,7 +444,7 @@ Die Gewährleistung von Qualität erfordert verschiedene Strategien:
 - Vorbereitungsmaterialien und Briefings
 - Team-Dolmetschen für lange Veranstaltungen
 - Feedback und Bewertung nach der Veranstaltung
-- Anforderungen zur kontinuierlichen beruflichen Weiterbildung
+- Anforderungen zur kontinuierlichen beruflichen Weiterentwicklung
 - Peer-Assessment und Mentoring-Programme
 
 ## Berufsverbände und ihre Rollen
@@ -519,14 +519,14 @@ Um die besten Ergebnisse bei Übersetzungs- oder Dolmetscherdiensten zu erzielen
 3. Dolmetscher über Fachterminologie informieren
 4. Ordnungsgemäße Ausrüstung und Einrichtung sicherstellen
 5. Klar und in moderatem Tempo sprechen
-6. Zeit für Verdolmetschung im Konsekutivmodus einräumen
+6. Zeit für Dolmetschen im Konsekutivmodus einräumen
 7. Pausen für Simultandolmetscher vorsehen
 8. Technische Vorabprüfungen für Remote-Dolmetschen durchführen
 9. Ansprechpartner für Dolmetscherfragen bestimmen
 
 ## Die richtige Wahl für Ihr Unternehmen treffen
 
-Die Entscheidung zwischen Übersetzung und Dolmetschen—oder wann beide verwendet werden sollten—hängt von mehreren Faktoren ab:
+Die Entscheidung zwischen Übersetzung und Dolmetschen – oder wann beide verwendet werden sollten – hängt von mehreren Faktoren ab:
 
 **Berücksichtigen Sie Ihre Zielgruppe**
 

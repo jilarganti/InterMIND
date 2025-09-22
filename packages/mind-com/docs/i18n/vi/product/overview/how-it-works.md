@@ -2,7 +2,7 @@
 
 ## Nói và nghe bằng ngôn ngữ của bạn
 
-InterMind là một nền tảng hội nghị truyền hình đa người dùng với **dịch thuật hai chiều tức thì**. Mỗi người tham gia có thể nói và nghe người khác bằng **ngôn ngữ mẹ đẻ của họ**, tạo ra hiệu ứng giao tiếp tự nhiên không có rào cản ngôn ngữ.
+InterMind là một nền tảng hội nghị truyền hình đa người dùng với **tính năng dịch thuật hai chiều tức thì**. Mỗi người tham gia có thể nói và nghe người khác bằng **ngôn ngữ mẹ đẻ của họ**, tạo ra hiệu ứng giao tiếp tự nhiên không có rào cản ngôn ngữ.
 
 ## Cách thức hoạt động:
 
@@ -20,7 +20,7 @@ InterMind là một nền tảng hội nghị truyền hình đa người dùng 
 
 ### 2. **Xử lý hậu kỳ văn bản (Làm sạch văn bản & Phân tích ngữ nghĩa)**
 
-- **Loại bỏ rác trong lời nói**: loại trừ "ừm", "à", lặp lại, nói lắp
+- **Loại bỏ rác giọng nói**: loại trừ "ừm", "à", lặp lại, nói lắp
 - **Sửa lỗi nhận dạng**: sửa chữa dựa trên ngữ cảnh
 - **Dấu câu và cấu trúc**: đặt dấu câu tự động
 - **Trích xuất ý nghĩa chính**: xác định ý chính và ý phụ
@@ -84,7 +84,7 @@ Tất cả điều này xảy ra với **độ trễ dưới 3 giây** — phù 
 
 ### Kiến trúc kỹ thuật
 
-Tất cả định tuyến âm thanh/video được xử lý thông qua Mind API độc quyền của chúng tôi, được phát triển nội bộ để đảm bảo:
+Tất cả việc định tuyến âm thanh/video được xử lý thông qua Mind API độc quyền của chúng tôi, được phát triển nội bộ để đảm bảo:
 
 - **Hiệu suất**: xử lý hơn 1000 luồng song song
 - **Chủ quyền dữ liệu**: lưu trữ tại khu vực được chọn
@@ -97,7 +97,7 @@ Tất cả định tuyến âm thanh/video được xử lý thông qua Mind API
 - **Desktop**: cài đặt PWA đơn giản cho Windows/Mac/Linux
 - **Ứng dụng di động**: cài đặt PWA đơn giản cho iOS/Android
 - **API**: tích hợp vào các nền tảng hiện có (sắp ra mắt)
-- **Dịch vụ phổ biến**: Zoom, Teams, Google Meet (qua plugin) (sắp ra mắt)
+- **Dịch vụ phổ biến**: Zoom, Teams, Google Meet (thông qua plugin) (sắp ra mắt)
 
 [^1]: Độ trễ tiêu chuẩn cho dịch thuật đồng thời của con người là ~2–3 giây.
 

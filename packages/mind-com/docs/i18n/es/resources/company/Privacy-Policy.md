@@ -4,7 +4,7 @@
 
 Esta Política de Privacidad describe cómo Golden Fish Corporate Services Provider LLC ("nosotros," "nos," o "nuestro") recopila, utiliza, protege y divulga información personal cuando usted utiliza nuestro sitio web y servicios legales. Como proveedor global de servicios legales, estamos comprometidos a proteger su privacidad y garantizar el cumplimiento de las leyes de protección de datos aplicables en todo el mundo.
 
-## Cumplimiento normativo
+## Cumplimiento Normativo
 
 Nuestras prácticas de privacidad cumplen con las principales regulaciones globales de privacidad, incluyendo:
 
@@ -15,20 +15,20 @@ Nuestras prácticas de privacidad cumplen con las principales regulaciones globa
 - Ley de Portabilidad y Responsabilidad del Seguro Médico (HIPAA) - Estados Unidos
 - Ley de Protección de la Privacidad Infantil en Línea (COPPA) - Estados Unidos
 
-## Información que recopilamos
+## Información que Recopilamos
 
 Podemos recopilar los siguientes tipos de información:
 
-- Información personal: Nombre, datos de contacto, documentos de identificación y otra información necesaria para brindar servicios legales.
-- Datos del servicio: Información relacionada con asuntos legales, detalles de casos y correspondencia.
-- Datos técnicos: Dirección IP, tipo de navegador, información del dispositivo, cookies y datos de uso.
+- Información Personal: Nombre, datos de contacto, documentos de identificación y otra información necesaria para proporcionar servicios legales.
+- Datos del Servicio: Información relacionada con asuntos legales, detalles de casos y correspondencia.
+- Datos Técnicos: Dirección IP, tipo de navegador, información del dispositivo, cookies y datos de uso.
 
-## Cómo utilizamos su información
+## Cómo Utilizamos Su Información
 
 Utilizamos su información para:
 
 - Proporcionar y mejorar nuestros servicios legales
-- Comunicarnos con usted sobre sus asuntos legales
+- Comunicarnos con usted respecto a sus asuntos legales
 - Procesar pagos y mantener registros financieros
 - Cumplir con obligaciones legales y regulatorias
 - Proteger nuestros intereses comerciales legítimos
@@ -41,7 +41,7 @@ Nuestro sitio web utiliza modelos de inteligencia artificial (IA) para mejorar l
 
 #### Recopilación de Datos
 
-Cuando interactúa con nuestras herramientas de IA, podemos recopilar información que proporcione durante estas interacciones, incluyendo consultas, documentos cargados e historial de conversaciones.
+Cuando interactúa con nuestras herramientas de IA, podemos recopilar información que usted proporciona durante estas interacciones, incluyendo consultas, documentos cargados e historial de conversaciones.
 
 #### Propósito del Procesamiento
 
@@ -68,20 +68,20 @@ Podemos usar datos anonimizados y agregados de las interacciones con IA para mej
 Podemos compartir su información con:
 
 - Entidades legales afiliadas dentro de nuestra red global
-- Proveedores de servicios de terceros que nos asisten en nuestras operaciones
+- Proveedores de servicios externos que nos asisten en nuestras operaciones
 - Autoridades regulatorias y organismos gubernamentales cuando sea requerido por ley
 - Asesores profesionales y consultores
 
 Al transferir datos internacionalmente, implementamos las salvaguardas apropiadas de acuerdo con las leyes aplicables, incluyendo Cláusulas Contractuales Estándar, Reglas Corporativas Vinculantes y otros mecanismos de transferencia legalmente reconocidos.
 
-## Tus derechos
+## Tus Derechos
 
 Dependiendo de tu jurisdicción, puedes tener derecho a:
 
 - Acceder a tu información personal
 - Corregir información inexacta
 - Eliminar tu información personal
-- Restringir u oponerte al procesamiento
+- Restringir u objetar el procesamiento
 - Portabilidad de datos
 - Retirar el consentimiento
 - Presentar una queja ante una autoridad supervisora
@@ -109,5 +109,5 @@ Si tienes alguna pregunta sobre esta Política de Privacidad o nuestras práctic
 
 ## Información de la empresa
 
-- **No. de licencia:** 1414192
-- **No. de registro:** 2411728
+- **No. de Licencia:** 1414192
+- **No. de Registro:** 2411728

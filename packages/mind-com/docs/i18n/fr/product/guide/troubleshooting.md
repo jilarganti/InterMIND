@@ -1,19 +1,19 @@
 # Dépannage
 
-Cette section fournit des solutions pour les problèmes courants rencontrés lors des réunions en ligne, y compris les problèmes avec les microphones, les caméras, la participation aux réunions, l'utilisation d'assistants vocaux, les traducteurs, le partage d'écran et l'enregistrement. Elle décrit les causes potentielles de chaque problème et offre des solutions pratiques pour les résoudre, garantissant une expérience de réunion en ligne plus fluide.
+Cette section fournit des solutions pour les problèmes courants rencontrés lors des réunions en ligne, y compris les problèmes avec les microphones, les caméras, la participation aux réunions, l\'utilisation d\'assistants vocaux, de traducteurs, le partage d\'écran et l\'enregistrement. Elle décrit les causes potentielles de chaque problème et offre des solutions pratiques pour les résoudre, garantissant une expérience de réunion en ligne plus fluide.
 
 ## Microphone ou caméra ne fonctionne pas
 
 ### Causes :
 
 - Autorisations du navigateur refusées
-- Appareil sélectionné incorrect
+- Périphérique sélectionné incorrect
 - Applications en conflit
 
 ### Solutions :
 
-- Autoriser l'accès lorsque demandé
-- Naviguer vers Paramètres > Microphone/Caméra et sélectionner le bon appareil
+- Autoriser l\'accès lorsque demandé
+- Naviguer vers Paramètres > Microphone/Caméra et sélectionner le bon périphérique
 - Fermer les applications telles que Zoom, Skype, etc.
 
 ## Impossible de rejoindre une réunion
@@ -24,7 +24,7 @@ Cette section fournit des solutions pour les problèmes courants rencontrés lor
 
 ### Solutions :
 
-- Vérifiez l'exactitude du lien et confirmez avec l'hôte
+- Vérifiez l\'exactitude du lien et confirmez avec l\'hôte
 - Actualisez votre navigateur et réessayez
 
 ## Le traducteur ne fonctionne pas
@@ -40,7 +40,7 @@ Cette section fournit des solutions pour les problèmes courants rencontrés lor
 
 - Sélectionnez votre langue préférée dans Paramètres > Langue
 - Rejoignez à nouveau ou actualisez la page de réunion
-- Assurez-vous que l'accès au microphone est accordé et activé
+- Assurez-vous que l\'accès au microphone est accordé et activé
 
 ## Écho ou retour audio
 
@@ -53,18 +53,18 @@ Cette section fournit des solutions pour les problèmes courants rencontrés lor
 
 - Utiliser des écouteurs
 - Couper le son des autres appareils/microphones
-- L'hôte/modérateur peut couper le son de tous les participants
+- L\'hôte/modérateur peut couper le son de tous les participants
 
-## "Vous avez été retiré de l'appel"
+## "Vous avez été retiré de l\'appel"
 
 ### Causes courantes :
 
-- L'hôte/modérateur vous a retiré
+- L\'hôte/modérateur vous a retiré
 - Déconnexion réseau
 
 ### Solutions :
 
-- Contactez l'hôte ou le modérateur pour clarification
+- Contactez l\'hôte ou le modérateur pour clarification
 
 ## Le partage d'écran ne fonctionne pas
 
@@ -86,8 +86,8 @@ Cette section fournit des solutions pour les problèmes courants rencontrés lor
 
 ### Solutions :
 
-- Passer à une connexion filaire ou à un Wi-Fi stable
-- Éteindre votre propre caméra ou les caméras des autres si nécessaire
+- Passer à une connexion filaire ou Wi-Fi stable
+- Éteindre votre propre caméra ou les caméras d\'autres participants si nécessaire
 
 ## L'enregistrement ne démarre pas
 

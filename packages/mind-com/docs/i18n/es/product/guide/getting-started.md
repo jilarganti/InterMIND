@@ -2,7 +2,7 @@
 
 InterMIND es una plataforma avanzada de videoconferencias impulsada por IA diseñada para facilitar la comunicación fluida entre varios idiomas, dispositivos y equipos. Esta guía tiene como objetivo proporcionarte una comprensión integral de cómo utilizar eficazmente todas las funciones de InterMIND — desde unirte a tu primera reunión hasta configurar herramientas de IA y resolver problemas técnicos.
 
-Ya seas un usuario principiante que busca orientación detallada o un participante experimentado que supervisa reuniones complejas, esta guía consolida toda la información necesaria en una ubicación accesible.
+Ya seas un usuario novato que busca orientación detallada o un participante experimentado que supervisa reuniones complejas, esta guía consolida toda la información necesaria en una ubicación accesible.
 
 Dentro de esta guía, descubrirás:
 
@@ -32,7 +32,7 @@ Si eres nuevo en InterMIND, sigue esta sencilla lista de verificación para come
 
 ## Idiomas compatibles
 
-InterMIND es una plataforma multilingüe diseñada para acomodar una variedad de idiomas para su interfaz de usuario, traductor de voz y asistente de IA. Los usuarios pueden modificar la configuración de idioma a través de varios métodos:
+InterMIND es una plataforma multilingüe diseñada para admitir una variedad de idiomas en su interfaz de usuario, traductor de voz y asistente de IA. Los usuarios pueden modificar la configuración de idioma a través de varios métodos:
 
 - El selector de idioma se encuentra en el encabezado de la página, junto al botón de inicio de sesión para usuarios no autorizados, o cerca del ícono de avatar del usuario para usuarios autorizados
 - El selector de idioma que se encuentra en el pie de página junto al texto '© Mind, 2025.'

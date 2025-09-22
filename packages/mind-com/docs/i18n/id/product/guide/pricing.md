@@ -31,7 +31,7 @@ Halaman Harga mencakup tiga tingkatan:
 | ------------ | ---------------------------------------- | ------------------------------------------------------------------------- |
 | **Basic**    | Gratis                                   | 25 rapat, 100 peserta, penyimpanan 30 GB, interpretasi terbatas          |
 | **Pro**      | $25/bulan (atau $20/bulan ditagih tahunan) | Rapat tak terbatas, 150 peserta, penyimpanan 2 TB, semua fitur AI        |
-| **Business** | Kustom (Hubungi Sales)                   | 500 peserta, penyimpanan 5 TB, kolega AI (alpha), fitur enterprise       |
+| **Business** | Kustom (Hubungi Sales)                   | 500 peserta, penyimpanan 5 TB, AI colleague (alpha), fitur enterprise    |
 
 ### Sorotan Lainnya
 

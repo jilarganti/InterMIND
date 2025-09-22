@@ -5,12 +5,12 @@
 **Mind.com** développe **InterMIND** — la première plateforme au monde qui rend les conversations multilingues naturelles.  
 Nous éliminons la dernière barrière à une collaboration véritablement mondiale.
 
-## Notre mission
+## Notre Mission
 
-**Rendre l'apprentissage des langues obsolète pour les entreprises.**  
-Chaque conversation. Chaque réunion. Chaque accord — dans n'importe quelle langue, compris parfaitement.
+**Rendre l\'apprentissage des langues obsolète pour les entreprises.**  
+Chaque conversation. Chaque réunion. Chaque accord — dans n\'importe quelle langue, compris parfaitement.
 
-Pas de sous-titres. Pas de délais. Pas d'affaires perdues à cause de la langue.
+Pas de sous-titres. Pas de délais. Pas d\'affaires perdues à cause de la langue.
 
 ## Qu'est-ce qu'InterMIND ?
 
@@ -23,15 +23,15 @@ Il capture le **contexte**, le **sous-texte culturel**, l'**intention commercial
 
 > Parlez naturellement. Soyez compris parfaitement. Concluez plus d'affaires.
 
-## La technologie
+## La Technologie
 
-Là où d'autres traduisent des mots, nous transférons le **sens**.  
-Là où d'autres ajoutent des délais, nous permettons un **flux en temps réel**.  
-Là où d'autres créent des barrières, nous créons de la **connexion**.
+Là où d\'autres traduisent des mots, nous transférons le **sens**.  
+Là où d\'autres ajoutent des délais, nous permettons un **flux en temps réel**.  
+Là où d\'autres créent des barrières, nous créons de la **connexion**.
 
 **Plus de 20 langues. Zéro charge cognitive. Impact maximum.**
 
-## Notre Philosophie
+## Notre philosophie
 
 La langue ne devrait pas déterminer avec qui vous pouvez travailler.  
 La géographie ne devrait pas limiter vos ambitions.  
@@ -39,10 +39,6 @@ La culture ne devrait pas être un désavantage concurrentiel.
 
 > **Nous ne construisons pas un traducteur. Nous construisons un pont entre les mondes.**
 
-L'avenir appartient à ceux qui peuvent collaborer mondialement — instantanément, naturellement, intelligemment.
+L\'avenir appartient à ceux qui peuvent collaborer mondialement — instantanément, naturellement, intelligemment.
 
-— _L'équipe Mind.com_
-
----
-
-_Rendre le monde vraiment sans frontières, une conversation à la fois._
+— _L\'équipe Mind.com_

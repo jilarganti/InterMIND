@@ -20,14 +20,14 @@ Nas Configurações, os usuários podem:
 - Ativar ou desativar o Desfoque de fundo para privacidade durante a reunião
 - Alterar o idioma do Tradutor para facilitar a comunicação entre participantes que falam idiomas diferentes
 
-## Recursos de interação dos participantes
+## Recursos de Interação dos Participantes
 
 Os participantes podem se envolver ativamente na reunião usando várias ferramentas disponíveis na interface:
 
-- **Levantar a mão**: Os participantes podem clicar nesta opção para indicar seu desejo de falar. Um ícone de mão aparecerá ao lado de seu nome na lista de participantes, sinalizando sua solicitação
-- **Baixar a mão**: Anfitriões e moderadores podem baixar manualmente a mão levantada de um participante, mantendo a ordem durante as discussões
-- **Chat**: Os participantes podem enviar mensagens para todos os participantes durante a chamada usando o painel lateral, promovendo comunicação e colaboração
-- **Fixar / Não assistir**: Os usuários podem personalizar sua visualização fixando participantes específicos ou ocultando-os de seu layout pessoal, adaptando sua experiência de reunião
+- **Levantar a Mão**: Os participantes podem clicar nesta opção para indicar seu desejo de falar. Um ícone de mão aparecerá ao lado de seu nome na lista de participantes, sinalizando sua solicitação
+- **Baixar a Mão**: Anfitriões e Moderadores podem baixar manualmente a mão levantada de um participante, mantendo a ordem durante as discussões
+- **Chat**: Os participantes podem enviar mensagens para todos os presentes durante a chamada usando o painel lateral, promovendo comunicação e colaboração
+- **Fixar / Não Assistir**: Os usuários podem personalizar sua visualização fixando participantes específicos ou ocultando-os de seu layout pessoal, adaptando sua experiência de reunião
 
 ## Ícones e funções da barra de ferramentas inferior
 
@@ -43,4 +43,4 @@ Os participantes podem se envolver ativamente na reunião usando várias ferrame
 | **Assistente de IA**  | Abre o painel do Assistente de IA, fornecendo aos usuários a capacidade de interagir para resumos privados, perguntas e respostas, e comandos inteligentes. Este recurso é restrito a usuários autorizados       |
 | **Participantes**     | Abre a lista de participantes, mostrando seus papéis como Anfitrião, Moderador, etc.                                                                                                                               |
 | **Chat**              | Clique para mostrar ou ocultar o recurso de chat, facilitando a interação com outros participantes durante a reunião                                                                                               |
-| **Link da Reunião**   | O link da reunião está acessível na barra de endereços do navegador ou pode ser copiado do canto inferior esquerdo selecionando o link \'Compartilhar\'. Para usuários móveis, este link é exibido sob os itens da opção \'Mostrar Menu\' |
+| **Link da Reunião**   | O link da reunião está acessível na barra de endereços do navegador ou pode ser copiado do canto inferior esquerdo selecionando o link 'Compartilhar'. Para usuários móveis, este link é exibido sob os itens da opção 'Mostrar Menu' |

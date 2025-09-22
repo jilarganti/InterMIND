@@ -37,7 +37,7 @@ Pilotprojekte starten in:
 
 - Integrierte Dolmetschfunktion — kein Plugin
 - Datenschutzorientierte Architektur (EU/US/Asien-Zonen)
-- Optimierte Benutzerfreundlichkeit für Geschäftsmeetings, nicht nur Videoanrufe
+- Optimierte Benutzerführung für Geschäftsmeetings, nicht nur Videoanrufe
 
 ## Team
 

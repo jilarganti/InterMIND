@@ -25,15 +25,15 @@ Mỗi mục trong lịch sử cuộc họp của bạn bao gồm:
   - Chia sẻ
   - Tham gia
 
-## Nút Tìm Kiếm & Hành Động
+## Nút Tìm kiếm & Hành động
 
 Để hỗ trợ quản lý hiệu quả các cuộc họp đã qua, trang Lịch sử bao gồm:
 
-### Thanh Tìm Kiếm
+### Thanh tìm kiếm
 
-Tính năng này cho phép bạn tìm kiếm cuộc họp bằng từ khóa trong Tiêu đề hoặc Bản ghi, hoặc theo Phòng hoặc Người tham gia chính xác. Các bộ lọc có thể được kết hợp để có kết quả chính xác hơn.
+Tính năng này cho phép bạn tìm kiếm cuộc họp bằng từ khóa trong Tiêu đề hoặc Bản ghi, hoặc bằng Phòng hoặc Người tham gia chính xác. Các bộ lọc có thể được kết hợp để có kết quả chính xác hơn.
 
-### ID Phòng
+### ID phòng
 
 Nhấp vào liên kết ID Phòng sẽ sắp xếp danh sách để chỉ hiển thị các cuộc họp liên quan đến cùng một ID Phòng.
 
@@ -43,15 +43,15 @@ Nhấp vào đây sẽ mở một menu thả xuống liệt kê tất cả ngư�
 
 Một số Nút Hành động có thể được tìm thấy ẩn dưới menu ba chấm nằm ở phía bên phải.
 
-### Các Hành Động Có Sẵn
+### Các hành động có sẵn
 
 #### Xóa
 
-Khi hành động này được nhấp, người dùng sẽ nhận được thông báo nhắc họ xác nhận xóa bằng cách nhấp nút **Có, xóa** hoặc hủy thao tác bằng cách nhấp nút **Hủy**. Các cuộc họp đã xóa sẽ không còn hiển thị với bất kỳ người tham gia nào. Chỉ Chủ phòng hoặc Người điều hành mới có quyền xóa cuộc họp.
+Khi hành động này được nhấp, người dùng sẽ nhận được thông báo nhắc họ xác nhận xóa bằng cách nhấp vào nút **Có, xóa** hoặc hủy thao tác bằng cách nhấp vào nút **Hủy**. Các cuộc họp đã xóa sẽ không còn hiển thị với bất kỳ người tham gia nào. Chỉ có Chủ phòng hoặc Người điều hành mới có quyền xóa cuộc họp.
 
 #### Chia sẻ
 
-Người dùng sẽ nhận được thông báo pop-up hiển thị **Liên kết đã được sao chép vào clipboard!** cho phép họ chia sẻ liên kết này với bất kỳ người dùng được ủy quyền nào.
+Người dùng sẽ nhận được thông báo pop-up có nội dung **Liên kết đã được sao chép vào clipboard!** cho phép họ chia sẻ liên kết này với bất kỳ người dùng được ủy quyền nào.
 
 #### Tham gia
 

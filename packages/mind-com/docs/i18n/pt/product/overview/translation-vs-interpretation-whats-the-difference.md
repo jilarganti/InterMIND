@@ -13,64 +13,64 @@ Em sua essência, a distinção é direta: **a tradução lida com texto escrito
 
 Esta diferença básica pode parecer simples, mas ela se desdobra em inúmeras variações na forma como esses profissionais trabalham, nas habilidades que precisam e nos desafios que enfrentam.
 
-## O que é tradução? A arte da conversão de linguagem escrita
+## O Que É Tradução? A Arte da Conversão de Linguagem Escrita
 
-A tradução é o processo de converter conteúdo escrito de um idioma (o idioma de origem) para outro (o idioma de destino), preservando o significado, tom, estilo e nuances culturais. É um processo metódico que permite pesquisa, revisão e refinamento.
+Tradução é o processo de converter conteúdo escrito de um idioma (o idioma de origem) para outro (o idioma de destino) preservando o significado, tom, estilo e nuances culturais. É um processo metódico que permite pesquisa, revisão e refinamento.
 
-### Características principais da tradução
+### Características Principais da Tradução
 
-**Tempo para a perfeição**: Os tradutores normalmente trabalham com prazos medidos em dias ou semanas, não em segundos. Isso permite que eles:
+**Tempo para a Perfeição**: Tradutores normalmente trabalham com prazos medidos em dias ou semanas, não segundos. Isso permite que eles:
 
 - Pesquisem terminologia especializada
 - Consultem materiais de referência e dicionários
-- Revisem e refinem seu trabalho várias vezes
+- Revisem e refinem seu trabalho múltiplas vezes
 - Colaborem com editores e revisores
 - Garantam consistência em documentos extensos
 
-**Precisão e polimento**: Como o produto final é permanente e frequentemente publicado, as traduções devem ser meticulosamente precisas. Uma única tradução incorreta em um contrato legal ou documento médico pode ter consequências graves.
+**Precisão e Polimento**: Como o produto final é permanente e frequentemente publicado, as traduções devem ser meticulosamente precisas. Uma única tradução incorreta em um contrato legal ou documento médico pode ter consequências sérias.
 
-**Adaptação cultural**: Os tradutores não apenas convertem palavras; eles adaptam o conteúdo para diferentes contextos culturais. Isso inclui ajustar expressões idiomáticas, metáforas, humor e referências culturais para ressoar com o público-alvo.
+**Adaptação Cultural**: Tradutores não apenas convertem palavras; eles adaptam conteúdo para diferentes contextos culturais. Isso inclui ajustar expressões idiomáticas, metáforas, humor e referências culturais para ressoar com o público-alvo.
 
-### Tipos de serviços de tradução
+### Tipos de Serviços de Tradução
 
 A indústria de tradução abrange várias especializações, cada uma com requisitos únicos:
 
-**Tradução literária**
+**Tradução Literária**
 
 - Romances, poesia, peças teatrais e obras criativas
 - Requer sensibilidade artística para preservar a voz do autor
 - Equilibra precisão literal com expressão criativa
 - Pode levar meses ou anos para um único livro
 
-**Tradução técnica**
+**Tradução Técnica**
 
 - Manuais do usuário, especificações de engenharia, artigos científicos
 - Exige expertise no assunto
 - Prioriza precisão e clareza sobre estilo
 - Frequentemente usa bancos de dados de terminologia especializada
 
-**Tradução jurídica**
+**Tradução Jurídica**
 
 - Contratos, patentes, documentos judiciais, legislação
-- Requer conhecimento jurídico nas jurisdições de origem e destino
+- Requer conhecimento legal nas jurisdições de origem e destino
 - Tolerância zero para ambiguidade ou erro
 - Frequentemente requer tradutores certificados
 
-**Tradução médica**
+**Tradução Médica**
 
 - Ensaios clínicos, prontuários de pacientes, documentação farmacêutica
 - Combina expertise médica com habilidades linguísticas
-- Sujeita a requisitos regulamentares rigorosos
+- Sujeita a requisitos regulatórios rigorosos
 - Pode impactar diretamente a segurança do paciente
 
-**Tradução de marketing (transcriação)**
+**Tradução de Marketing (Transcriação)**
 
 - Campanhas publicitárias, mensagens de marca, slogans
 - Vai além da tradução literal para recriar impacto emocional
 - Pode reimaginar completamente o conteúdo para mercados locais
-- Foca na persuasão e consistência da marca
+- Foca em persuasão e consistência da marca
 
-**Localização de websites e software**
+**Localização de Sites e Software**
 
 - Interfaces de usuário, documentação de ajuda, conteúdo web
 - Adapta-se às convenções locais (datas, moedas, medidas)
@@ -95,7 +95,7 @@ A interpretação é a tradução oral da linguagem falada em tempo real ou quas
 
 **Habilidades de falar em público**: Diferentemente dos tradutores que trabalham nos bastidores, os intérpretes frequentemente atuam em ambientes públicos de alta pressão, exigindo confiança, articulação clara e presença profissional.
 
-**Resistência física**: A interpretação é fisicamente exigente, requerendo concentração sustentada e frequentemente ficar em pé ou sentado em posições desconfortáveis por períodos prolongados. O esgotamento mental de manter esse foco intenso é por isso que intérpretes simultâneos tipicamente trabalham em pares, alternando a cada 20-30 minutos.
+**Resistência física**: A interpretação é fisicamente exigente, requerendo concentração sustentada e frequentemente ficar em pé ou sentado em posições desconfortáveis por períodos prolongados. O esgotamento mental de manter tal foco intenso é por isso que intérpretes simultâneos tipicamente trabalham em pares, alternando a cada 20-30 minutos.
 
 ### Tipos de serviços de interpretação
 
@@ -145,33 +145,33 @@ Diferentes situações exigem diferentes abordagens de interpretação:
 - Requer habilidades de mediação cultural
 - Intérpretes podem precisar explicar diferenças culturais
 
-## Caminhos educacionais e desenvolvimento profissional
+## Caminhos Educacionais e Desenvolvimento Profissional
 
 Os caminhos educacionais para tradutores e intérpretes, embora se sobreponham em algumas áreas, frequentemente divergem com base nas habilidades específicas que cada profissão exige.
 
-### Formação para tradutores
+### Formação para Tradutores
 
-Muitos tradutores possuem diplomas em estudos da tradução, linguística ou línguas modernas. No entanto, a expertise em áreas específicas é igualmente valiosa—um tradutor especializado em textos médicos pode ter formação em medicina ou ciências da vida, enquanto um tradutor jurídico pode ter estudado direito.
+Muitos tradutores possuem diplomas em estudos de tradução, linguística ou línguas modernas. No entanto, a expertise em áreas específicas é igualmente valiosa—um tradutor especializado em textos médicos pode ter formação em medicina ou ciências da vida, enquanto um tradutor jurídico pode ter estudado direito.
 
-Os programas de tradução normalmente focam em:
+Os programas de tradução tipicamente focam em:
 
 - Teoria da tradução e estilística comparada
-- Gestão de terminologia e ferramentas CAT
+- Gerenciamento de terminologia e ferramentas CAT
 - Vários tipos e gêneros de texto
 - Aspectos comerciais da tradução freelance
 - Técnicas de pós-edição de tradução automática
 
-### Formação para intérpretes
+### Formação para Intérpretes
 
 Os programas de formação de intérpretes focam intensamente no desenvolvimento de habilidades práticas através de exercícios intensivos:
 
 - **Shadowing**: Repetir o que os falantes dizem no mesmo idioma para desenvolver atenção dividida
 - **Tradução à vista**: Traduzir oralmente textos escritos na hora
-- **Exercícios de memória**: Desenvolver capacidade para reter e recordar grandes blocos de informação
+- **Exercícios de memória**: Construir capacidade para reter e recordar grandes blocos de informação
 - **Sistemas de anotação**: Desenvolver taquigrafia pessoal para interpretação consecutiva
 - **Conferências simuladas**: Praticar em ambientes profissionais simulados
 
-Os estudantes passam inúmeras horas em laboratórios de interpretação, desenvolvendo resistência e as habilidades cognitivas únicas necessárias para conversão de idiomas em tempo real.
+Os estudantes passam inúmeras horas em laboratórios de interpretação, construindo resistência e desenvolvendo as habilidades cognitivas únicas necessárias para conversão de idiomas em tempo real.
 
 ## Padrões Profissionais e Certificação
 
@@ -206,7 +206,7 @@ A tradução de qualidade tipicamente envolve múltiplas etapas:
 
 | **Padrão**         | **Nome Completo**                                            | **Aplicação**                                         | **Requisitos Principais**                                                                                                                       | **Quem Precisa**                                                                                    |
 | ------------------ | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
-| **ISO 17100:2015** | Serviços de tradução — Requisitos para serviços de tradução | Todos os projetos de tradução                        | • Tradutores qualificados<br>• Processo de produção definido<br>• Revisão por segundo linguista<br>• Revisão final<br>• Protocolos de gerenciamento de projetos | Agências de tradução, Departamentos corporativos de tradução, Tradutores freelancers buscando certificação |
+| **ISO 17100:2015** | Serviços de tradução — Requisitos para serviços de tradução | Todos os projetos de tradução                        | • Tradutores qualificados<br>• Processo de produção definido<br>• Revisão por segundo linguista<br>• Revisão final<br>• Protocolos de gestão de projetos | Agências de tradução, Departamentos corporativos de tradução, Tradutores freelancers buscando certificação |
 | **ISO 18587:2017** | Pós-edição de saída de tradução automática                  | Projetos de TA + Pós-edição humana                   | • Qualificações do pós-editor<br>• Definições de pós-edição completa vs. ligeira<br>• Critérios de avaliação de qualidade<br>• Acordo do cliente sobre uso de TA | Empresas usando TA, LSPs oferecendo serviços PEMT, Empresas de tecnologia com fluxos de trabalho de TA |
 | **ISO 20771:2020** | Tradução jurídica — Requisitos                              | Tradução de documentos jurídicos                     | • Requisitos de conhecimento jurídico<br>• Revisão por especialista jurídico<br>• Protocolos de confidencialidade<br>• Procedimentos de certificação | Tradutores jurídicos, Escritórios de advocacia, Tribunais e cortes, Agências governamentais        |
 | **ISO 13611:2014** | Interpretação — Diretrizes para interpretação comunitária   | Saúde, serviços sociais, ambientes jurídicos comunitários | • Competências do intérprete<br>• Código de ética<br>• Diretrizes de mediação cultural<br>• Condições de trabalho | Hospitais e clínicas, Agências de serviços sociais, Organizações comunitárias, Sistemas judiciais |
@@ -240,10 +240,10 @@ A tradução de qualidade tipicamente envolve múltiplas etapas:
 - **A certificação ISO é voluntária** mas cada vez mais esperada para serviços profissionais
 - **Os custos variam** de $5.000-50.000 dependendo do tamanho da organização e padrão
 - **Auditorias anuais** são necessárias para manter a certificação
-- **Nem todos os padrões estão disponíveis em todos os países** - consulte seu órgão nacional de padrões
+- **Nem todos os padrões estão disponíveis em todos os países** - consulte seu órgão nacional de normas
 - **Combinar padrões** (ex: 17100 + 18587) fornece cobertura de qualidade abrangente
 
-### Programas de Certificação de Interpretação
+### Programas de Certificação em Interpretação
 
 **Estados Unidos**
 
@@ -257,7 +257,7 @@ A tradução de qualidade tipicamente envolve múltiplas etapas:
 - **AIIC (International Association of Conference Interpreters)**: Estabelece padrões globais para interpretação de conferência, incluindo condições de trabalho, composição de equipe e ética profissional
 - **Sistemas nacionais de credenciamento**: Muitos países têm seus próprios programas de certificação para intérpretes comunitários e de serviço público
 
-## A lacuna de habilidades: por que tradutores e intérpretes não são intercambiáveis
+## A lacuna de habilidades: Por que tradutores e intérpretes não são intercambiáveis
 
 Embora ambas as profissões exijam expertise em idiomas, as habilidades específicas necessárias diferem significativamente:
 
@@ -269,7 +269,7 @@ Embora ambas as profissões exijam expertise em idiomas, as habilidades específ
 
 **Atenção aos detalhes**: Captar cada nuance, verificar cada fato, garantir consistência ao longo de centenas de páginas.
 
-**Gestão de tempo**: Equilibrar qualidade com prazos, gerenciar grandes projetos, coordenar com equipes.
+**Gestão do tempo**: Equilibrar qualidade com prazos, gerenciar grandes projetos, coordenar com equipes.
 
 **Conhecimento tecnológico**: Proficiência com ferramentas CAT, memórias de tradução, bancos de dados terminológicos e conversões de formato de arquivo.
 
@@ -277,9 +277,9 @@ Embora ambas as profissões exijam expertise em idiomas, as habilidades específ
 
 **Atenção dividida**: A capacidade cognitiva de ouvir, processar e falar simultaneamente—como dar tapinhas na cabeça enquanto esfrega a barriga, mas infinitamente mais complexo.
 
-**Gestão de estresse**: Manter-se calmo e focado em situações de alta pressão, recuperar-se graciosamente dos erros.
+**Gestão do estresse**: Manter-se calmo e focado em situações de alta pressão, recuperar-se graciosamente dos erros.
 
-**Inteligência cultural**: Ler o ambiente, entender comunicação não-verbal, mediar mal-entendidos culturais.
+**Inteligência cultural**: Ler o ambiente, entender a comunicação não-verbal, mediar mal-entendidos culturais.
 
 **Resistência física**: A interpretação é fisicamente exigente, requerendo concentração sustentada e frequentemente ficar em pé ou sentado em posições desconfortáveis por períodos prolongados.
 
@@ -325,14 +325,14 @@ A revolução digital transformou tanto a tradução quanto a interpretação, e
 - Permite serviços em mais combinações de idiomas
 - Escala para atender demanda crescente
 
-## Quando escolher tradução vs. interpretação: cenários híbridos
+## Quando Escolher Tradução vs. Interpretação: Cenários Híbridos
 
 <img src="/product/iStock-2204770115.jpg"  width="700" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/product/iStock-965097108.jpg" width="700" align="right" style="padding: 1.5rem" class="light-only">
 
 Fazer a escolha certa depende das suas necessidades específicas, e cada vez mais, muitas situações exigem ambos os serviços trabalhando em conjunto:
 
-### Você precisa de tradução quando:
+### Você Precisa de Tradução Quando:
 
 - Criar sites ou aplicativos multilíngues
 - Publicar livros, artigos ou relatórios internacionalmente
@@ -342,49 +342,49 @@ Fazer a escolha certa depende das suas necessidades específicas, e cada vez mai
 - Adaptar cursos de e-learning para audiências globais
 - Converter documentos históricos ou arquivos
 
-### Você precisa de interpretação quando:
+### Você Precisa de Interpretação Quando:
 
 - Hospedar conferências ou cúpulas internacionais
 - Conduzir negociações comerciais multilíngues
 - Fornecer cuidados de saúde para falantes não nativos
 - Realizar sessões de treinamento ou workshops multilíngues
-- Facilitar procedimentos legais com falantes de idiomas estrangeiros
+- Facilitar procedimentos legais com falantes de línguas estrangeiras
 - Transmitir eventos ao vivo para audiências internacionais
 - Conduzir reuniões diplomáticas ou negociações de paz
 
-### Situações híbridas que exigem ambos os serviços
+### Situações Híbridas que Requerem Ambos os Serviços
 
-**Conferências internacionais**
+**Conferências Internacionais**
 
 - Tradução: Materiais da conferência, apresentações, anais e folhetos
 - Interpretação: Sessões ao vivo, períodos de perguntas e respostas, eventos de networking
 - Coordenação necessária: Terminologia consistente em todos os materiais e interpretações
 
-**Casos legais com elementos internacionais**
+**Casos Legais com Elementos Internacionais**
 
 - Tradução: Contratos, documentos de evidência, testemunhos escritos
 - Interpretação: Procedimentos judiciais, depoimentos, consultas com clientes
 - Requisito crítico: Profissionais certificados para ambos os serviços
 
-**Colaborações de pesquisa médica**
+**Colaborações em Pesquisa Médica**
 
 - Tradução: Artigos de pesquisa, protocolos, submissões regulatórias
 - Interpretação: Reuniões de equipe, consultas com pacientes, apresentações em conferências
 - Desafio: Manter precisão técnica em ambos os formatos
 
-**Lançamentos globais de produtos**
+**Lançamentos Globais de Produtos**
 
 - Tradução: Documentação, materiais de marketing, interfaces de usuário
 - Interpretação: Coletivas de imprensa, sessões de treinamento, suporte ao cliente
 - Fator de sucesso: Consistência da marca em todas as comunicações
 
-**Fusões e aquisições multinacionais**
+**Fusões e Aquisições Multinacionais**
 
 - Tradução: Documentos de due diligence, contratos, arquivamentos regulatórios
 - Interpretação: Negociações, reuniões do conselho, comunicações com funcionários
 - Coordenação essencial: Precisão legal em comunicações escritas e faladas
 
-## Mitos comuns desmascarados
+## Mitos Comuns Desmascarados
 
 Vamos abordar alguns mitos persistentes sobre tradução e interpretação:
 
@@ -392,7 +392,7 @@ Vamos abordar alguns mitos persistentes sobre tradução e interpretação:
 Realidade: A fluência no idioma é apenas o ponto de partida. Tradutores e intérpretes profissionais passam por anos de treinamento especializado, adquirindo expertise em assuntos específicos e desenvolvendo habilidades técnicas particulares.
 
 **"Google Translate é suficiente"**
-Realidade: Embora a tradução automática tenha melhorado drasticamente, ainda não consegue igualar a compreensão humana de contexto, cultura e nuances. Para qualquer coisa além da comunicação básica, a supervisão humana profissional continua essencial.
+Realidade: Embora a tradução automática tenha melhorado drasticamente, ainda não consegue igualar a compreensão humana de contexto, cultura e nuances. Para qualquer coisa além da comunicação básica, a supervisão humana profissional continua sendo essencial.
 
 **"Interpretação é apenas tradução verbal"**
 Realidade: A interpretação envolve processos cognitivos complexos, mediação cultural e tomada de decisões em frações de segundo que vão muito além da simples substituição de palavras.
@@ -403,11 +403,11 @@ Realidade: Esses profissionais são especialistas em comunicação que entendem 
 **"Tradução e interpretação serão totalmente automatizadas em breve"**
 Realidade: Embora a IA continue avançando, a criatividade humana, a compreensão cultural e o julgamento contextual permanecem insubstituíveis para comunicações de alta importância.
 
-## O fator custo: entendendo as diferenças de preços
+## O Fator Custo: Entendendo as Diferenças de Preços
 
 Tradução e interpretação têm preços diferentes devido às suas naturezas distintas:
 
-### Preços de tradução
+### Preços de Tradução
 
 - Geralmente cobrada por palavra, página ou projeto
 - As tarifas variam por par de idiomas, especialização e urgência
@@ -416,29 +416,29 @@ Tradução e interpretação têm preços diferentes devido às suas naturezas d
 - Descontos por volume são comuns para projetos grandes
 - Agências certificadas ISO podem cobrar tarifas premium por qualidade garantida
 
-### Preços de interpretação
+### Preços de Interpretação
 
 - Normalmente cobrada por hora ou diária
 - Taxas mínimas são comuns (meio período ou período integral)
 - Aluguel de equipamentos pode ser adicional
-- Despesas de viagem para interpretação presencial
+- Despesas de viagem para interpretação no local
 - Tarifas premium para áreas especializadas ou idiomas raros
 - Tarifas padrão AIIC para interpretação de conferência
 
-## Garantia de qualidade: diferentes abordagens
+## Garantia de Qualidade: Diferentes Abordagens
 
 Garantir a qualidade requer diferentes estratégias:
 
-### Controle de qualidade da tradução
+### Controle de Qualidade da Tradução
 
 - Múltiplas etapas de revisão (tradução, edição, revisão final)
 - Retrotradução para documentos críticos
 - Verificações de consistência terminológica
 - Ciclos de revisão e feedback do cliente
 - Certificação ISO para agências de tradução
-- Ferramentas de QA automatizadas para projetos grandes
+- Ferramentas automatizadas de controle de qualidade para projetos grandes
 
-### Garantia de qualidade da interpretação
+### Garantia de Qualidade da Interpretação
 
 - Certificação e credenciamento de intérpretes
 - Materiais de preparação e briefings
@@ -471,40 +471,40 @@ Essas organizações oferecem:
 - Advocacia por condições de trabalho justas
 - Oportunidades de networking e mentoria
 
-## O futuro: convergência e especialização
+## O Futuro: Convergência e Especialização
 
 À medida que a tecnologia evolui, estamos vendo desenvolvimentos interessantes:
 
-**Convergência de serviços**
+**Convergência de Serviços**
 
 - Comunicação multimodal exigindo tanto tradução quanto interpretação
 - Tradução em tempo real de texto escrito em videoconferências
 - Aplicações de realidade aumentada combinando ambos os serviços
-- Sistemas de IA que podem alternar entre modos de forma contínua
+- Sistemas de IA que podem alternar entre modos perfeitamente
 
-**Especialização crescente**
+**Especialização Crescente**
 
 - Campos ultra-especializados exigindo conhecimento profundo
 - Demanda crescente por combinações de idiomas raros
 - Consultoria cultural além de serviços puramente linguísticos
 - Serviços de acessibilidade para comunidades surdas e com deficiência auditiva
 
-**Considerações éticas**
+**Considerações Éticas**
 
 - Privacidade de dados em serviços alimentados por IA
-- Garantir acesso equitativo a serviços linguísticos
+- Garantir acesso equitativo aos serviços linguísticos
 - Manter padrões profissionais na economia de trabalho freelance
 - Abordar preconceitos em sistemas de tradução automática
 
-## Melhores práticas para trabalhar com profissionais de idiomas
+## Melhores Práticas para Trabalhar com Profissionais de Idiomas
 
 Para obter os melhores resultados dos serviços de tradução ou interpretação:
 
-### Para projetos de tradução:
+### Para Projetos de Tradução:
 
 1. Forneça contexto e materiais de referência
 2. Esclareça seu público-alvo e propósito
-3. Reserve tempo adequado para um trabalho de qualidade
+3. Permita tempo adequado para trabalho de qualidade
 4. Mantenha consistência terminológica
 5. Esteja disponível para perguntas
 6. Planeje ciclos de revisão
@@ -512,15 +512,15 @@ Para obter os melhores resultados dos serviços de tradução ou interpretação
 8. Solicite amostras de tradutores em potencial
 9. Estabeleça guias de estilo e glossários desde o início
 
-### Para trabalhos de interpretação:
+### Para Trabalhos de Interpretação:
 
 1. Compartilhe agenda e materiais com antecedência
-2. Forneça nomes dos palestrantes e suas pronúncias
-3. Oriente os intérpretes sobre terminologia técnica
+2. Forneça nomes dos palestrantes e pronúncias
+3. Instrua os intérpretes sobre terminologia técnica
 4. Garanta equipamentos e configuração adequados
 5. Fale claramente e em ritmo moderado
 6. Reserve tempo para interpretação no modo consecutivo
-7. Forneça intervalos para intérpretes simultâneos
+7. Forneça pausas para intérpretes simultâneos
 8. Realize verificações técnicas pré-evento para interpretação remota
 9. Designe uma pessoa de contato para perguntas dos intérpretes
 

@@ -2,7 +2,7 @@
 
 ## Kendi Dilinizde Konuşun ve Dinleyin
 
-InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcılı bir video konferans platformudur. Her katılımcı **kendi ana dilinde** konuşabilir ve diğerlerini duyabilir, böylece dil engellerinin olmadığı doğal iletişim etkisi yaratır.
+InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcılı bir video konferans platformudur. Her katılımcı **kendi ana dilinde** konuşabilir ve diğerlerini duyabilir, böylece dil engellerinin olmadığı doğal iletişim etkisi yaratılır.
 
 ## Nasıl çalışır:
 
@@ -11,14 +11,14 @@ InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcıl
 
 ![](./interpretating.svg)
 
-### 1. **Konuşma tanıma (konuşmadan metne)**
+### 1. **Konuşma Tanıma (Konuşmadan Metne)**
 
-- Transformer modelleri kullanarak akış tanıma
+- Transformer modelleri kullanarak akış halinde tanıma
 - Gürültü ve arka plan seslerini işleme
 - Teknik terminoloji ve jargon desteği
-- Tanıma doğruluğu: ana diller için **%95-98**
+- Tanıma doğruluğu: Ana diller için **%95-98**
 
-### 2. **Metin son işleme (metin temizleme ve anlamsal analiz)**
+### 2. **Metin Son İşleme (Metin Temizleme ve Anlamsal Analiz)**
 
 - **Konuşma artıklarını kaldırma**: "ee", "şey", tekrarlar, kekelemeler
 - **Tanıma hatası düzeltme**: bağlam tabanlı düzeltme
@@ -27,14 +27,14 @@ InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcıl
 - **Söylem segmentasyonu**: doğru çeviri için mantıksal bloklara ayırma
 - **Bağlamsal analiz**: önceki açıklamalar ve genel konu ile bağlantı kurma
 
-### 3. **Sinir ağı çevirisi**
+### 3. **Sinir Ağı Çevirisi**
 
 - Anlam korunarak bağlama bağlı çeviri
 - Deyimler, metaforlar ve kültürel referansları anlama
 - Konuşma tarzı uyarlaması (resmi/gayri resmi)
 - Söylemlerin duygusal rengini koruma
 
-### 4. **Konuşma sentezi (metinden konuşmaya)**
+### 4. **Konuşma Sentezi (Metinden Konuşmaya)**
 
 - Doğal tonlama ve konuşma ritmi
 - Orijinalin duraklamalarını ve vurgularını koruma
@@ -99,6 +99,6 @@ Tüm ses/video yönlendirmesi, şunları sağlamak için şirket içinde gelişt
 - **API**: mevcut platformlara entegrasyon (yakında)
 - **Popüler hizmetler**: Zoom, Teams, Google Meet (eklentiler aracılığıyla) (yakında)
 
-[^1]: İnsan eşzamanlı çeviri için standart gecikme ~2–3 saniyedir.
+[^1]: İnsan eşzamanlı çevirisi için standart gecikme ~2–3 saniyedir.
 
 [^2]: AI çevirisindeki mevcut ilerlemeye dayanarak, 2–3 yıl içinde modellerin en iyi insan çevirmenleri tutarlı bir şekilde geride bırakacağını bekliyoruz — hukuk, finans, sağlık ve mühendislik gibi uzman alanlar dahil.

@@ -7,7 +7,7 @@ Halaman Riwayat Pertemuan berfungsi sebagai arsip pribadi untuk semua pertemuan 
 Anda dapat mengakses halaman Riwayat Rapat melalui salah satu dari tiga metode yang mudah:
 
 - Klik tautan 'History' yang terletak di sebelah ikon 'Report a Problem' di menu header halaman
-- Alternatifnya, klik ikon avatar Anda di pojok kanan atas, kemudian pilih **History** dari menu dropdown
+- Alternatif lain, klik ikon avatar Anda di pojok kanan atas, kemudian pilih **History** dari menu dropdown
 - Anda juga dapat menavigasi langsung ke tautan berikut: [https://intermind.com/history](https://intermind.com/history)
 
 ## Daftar Rapat
@@ -57,9 +57,9 @@ Pengguna akan menerima notifikasi pop-up yang menyatakan **Tautan disalin ke cli
 
 Aksi ini memungkinkan pengguna mana pun dengan catatan rapat di halaman Riwayat untuk bergabung dengan rapat, menghasilkan pembuatan catatan baru dengan ID Ruang yang sama.
 
-## Detail Rapat
+## Detail Pertemuan
 
-Setiap baris rapat menampilkan tab terkait konten:
+Setiap baris pertemuan menampilkan tab terkait konten:
 
 ### Peserta
 
@@ -67,11 +67,11 @@ Tab ini menampilkan daftar semua peserta beserta peran masing-masing.
 
 ### Rekaman
 
-Ini membuka pemutar media bawaan untuk memutar rekaman rapat. Pengguna dapat memulai atau menghentikan pemutaran, mematikan atau menyalakan audio, dan menonton rekaman dalam layar penuh. Mengklik tiga titik membuka menu tambahan dengan opsi berikut:
+Ini membuka pemutar media bawaan untuk memutar rekaman pertemuan. Pengguna dapat memulai atau menghentikan pemutaran, mematikan atau menyalakan audio, dan melihat rekaman dalam layar penuh. Mengklik tiga titik membuka menu tambahan dengan opsi berikut:
 
-- **Unduh**: Ini memulai pengunduhan rekaman rapat tertentu
+- **Unduh**: Ini memulai pengunduhan rekaman pertemuan tertentu
 - **Kecepatan pemutaran**: Pengguna dapat memilih kecepatan pemutaran mulai dari 0,25x hingga 2x
-- **Picture in picture**: Fitur ini memungkinkan pengguna untuk terus menavigasi halaman detail rapat sambil menonton rekaman dalam jendela kecil
+- **Picture in picture**: Fitur ini memungkinkan pengguna untuk terus menavigasi halaman detail pertemuan sambil menonton rekaman dalam jendela kecil
 
 ### Pesan dalam panggilan
 
@@ -79,14 +79,14 @@ Tab ini menampilkan semua komunikasi chat antara pengguna.
 
 ### Transkrip
 
-Ini membuka transkrip rapat yang mencatat semua komunikasi suara dalam format teks. Pesan dari Voice Assistant (Jarvis) juga disertakan.
+Ini membuka transkrip pertemuan yang mencatat semua komunikasi suara dalam format teks. Pesan dari Voice Assistant (Jarvis) juga disertakan.
 
 ### AI Assistant
 
-Ini memungkinkan pengguna untuk mendapatkan ringkasan rapat dari AI Assistant dalam format chat.
+Ini memungkinkan pengguna untuk mendapatkan ringkasan pertemuan dari AI Assistant dalam format chat.
 
 > [!INFO]
-> Tab Rekaman mungkin disembunyikan pada halaman Detail Rapat jika rapat tidak menyertakan rekaman apa pun.
+> Tab Rekaman mungkin disembunyikan pada halaman Detail Pertemuan jika pertemuan tidak menyertakan rekaman apa pun.
 
 ## Kontrol Akses
 

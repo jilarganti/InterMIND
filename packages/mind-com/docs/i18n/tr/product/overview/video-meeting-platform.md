@@ -21,18 +21,18 @@ Tüm toplantılar **tam HD 1080p** kalitesinde yayınlanır ve her katılımcı 
 
 ### 🔇 Akıllı Gürültü Bastırma
 
-AI destekli gürültü engelleme özelliğimiz arka plan seslerini — klavye sesleri, trafik, yankı veya uzaktan gelen konuşmaları — filtreler, böylece sadece konuşmacının sesi duyulur.
+AI destekli gürültü engelleme sistemi arka plan seslerini — yazma, trafik, yankı veya uzaktan gelen konuşmaları — filtreler, böylece sadece konuşmacının sesi duyulur.
 
 - Toplantıları profesyonel ve odaklı tutar.
-- Manuel kontrol gerektirmeden otomatik olarak çalışır.
-- Ses geçirmez olmayan ortamlarda çalışan uzaktan çalışanlar için ideal.
+- Manuel kontrol gerektirmeden otomatik çalışır.
+- Ses geçirmez olmayan ortamlardaki uzaktan çalışanlar için ideal.
 
 ### 📅 Gelişmiş Toplantı Planlama
 
-InterMind **Google Calendar, Outlook ve iCal** ile sorunsuz entegre olur, planlama, davet etme ve katılımcıları hatırlatmayı kolaylaştırır.
+InterMind **Google Calendar, Outlook ve iCal** ile sorunsuz entegrasyon sağlar, planlama, davet etme ve katılımcıları hatırlatmayı kolaylaştırır.
 
 - Saat dilimi farkında planlama.
-- Tek tıkla katılım bağlantıları.
+- Tek tıkla katılım linkleri.
 - Yeniden planlanmış toplantılar için otomatik güncellemeler.
 
 ### 🧑‍⚖️ Profesyonel Moderasyon Araçları
@@ -56,7 +56,7 @@ Tüm ekranınızı, uygulama pencerenizi veya tarayıcı sekmesini katılımcıl
 
 ### 🎙️ Toplantı Kaydı
 
-Tek tıkla toplantıları kaydedin. Videolar bulutta güvenli bir şekilde saklanır ve oturum sonrasında hemen kullanılabilir.
+Tek tıkla toplantıları kaydedin. Videolar bulutta güvenli şekilde saklanır ve oturum sonrasında hemen kullanılabilir.
 
 - Katılamayan katılımcılarla paylaşın.
 - Eğitim veya uyumluluk kayıtları için kullanın.
@@ -72,7 +72,7 @@ Ek erişilebilirlik için InterMind, canlı sesli çeviri aktif olduğunda bile 
 
 ### 💬 Toplantı İçi Sohbet
 
-Katılımcılar konuşmacıyı kesintiye uğratmadan **metin mesajları**, bağlantılar veya özel notlar gönderebilir.
+Katılımcılar konuşmacıyı kesintiye uğratmadan **metin mesajları**, linkler veya özel notlar gönderebilir.
 
 - Genel ve özel sohbet seçenekleri.
 - Yan sorular, paylaşılan kaynaklar veya sessiz soru-cevap için ideal.
@@ -88,8 +88,8 @@ Toplantılar, kayıtlar ve yaklaşan oturumlar otomatik olarak kaydedilir ve tak
 
 ### ✅ Hepsi Bir Arada, Eklenti Gerektirmez
 
-Üçüncü taraf eklentilere bağımlı olan birçok çözümün aksine, InterMind **tamamen entegre** edilmiştir ve kutudan çıktığı gibi çalışır.
+Üçüncü taraf eklentilere bağımlı birçok çözümün aksine, InterMind **tamamen entegre** edilmiştir ve kutudan çıktığı gibi çalışır.
 
 - Kurulum veya tarayıcı uzantısı gerekmez.
 - Web, masaüstü ve mobil genelinde birleşik deneyim.
-- Tek güvenli platform — ölçek için inşa edilmiş.
+- Tek güvenli platform — ölçek için tasarlandı.

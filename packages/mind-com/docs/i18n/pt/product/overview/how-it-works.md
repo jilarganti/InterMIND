@@ -1,6 +1,6 @@
 # Como funciona a tradução em tempo real com IA
 
-## Fale e escute em seu idioma
+## Fale e Escute em Seu Idioma
 
 InterMind é uma plataforma de videoconferência multiusuário com **tradução bidirecional instantânea**. Cada participante pode falar e ouvir os outros em **seu idioma nativo**, criando o efeito de comunicação natural sem barreiras linguísticas.
 
@@ -18,7 +18,7 @@ InterMind é uma plataforma de videoconferência multiusuário com **tradução 
 - Suporte para terminologia técnica e jargões
 - Precisão do reconhecimento: **95-98%** para idiomas principais
 
-### 2. **Pós-processamento de texto (limpeza de texto e análise semântica)**
+### 2. **Pós-processamento de texto (Limpeza de texto e análise semântica)**
 
 - **Remoção de vícios de linguagem**: eliminação de "ãh", "hum", repetições, gagueira
 - **Correção de erros de reconhecimento**: correção baseada em contexto
@@ -57,7 +57,7 @@ Tudo isso acontece com **latência inferior a 3 segundos** — correspondendo à
 - **Equipes globais**: eliminação de barreiras linguísticas em equipes internacionais
 - **Reuniões com clientes**: comunicação direta com clientes sem serviços de intérprete
 - **Treinamentos e apresentações**: entrega simultânea de conteúdo em múltiplos idiomas
-- **Economia de custos**: redução de custos com intérpretes em até **80%**
+- **Economia de custos**: redução dos custos de intérpretes em até **80%**
 
 ### Para Usuários:
 
@@ -84,7 +84,7 @@ Tudo isso acontece com **latência inferior a 3 segundos** — correspondendo à
 
 ### Arquitetura Técnica
 
-Todo o roteamento de áudio/vídeo é gerenciado através da nossa API Mind proprietária, desenvolvida internamente para garantir:
+Todo o roteamento de áudio/vídeo é gerenciado através da nossa Mind API proprietária, desenvolvida internamente para garantir:
 
 - **Performance**: processamento de mais de 1000 streams paralelos
 - **Soberania de dados**: armazenamento na região selecionada

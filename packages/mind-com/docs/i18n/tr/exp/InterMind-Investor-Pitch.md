@@ -1,8 +1,8 @@
-# InterMind yatırımcı sunumu: Küresel iş dünyası için dil engelini aşmak <Badge type="success" text="güncellendi" />
+# InterMind Yatırımcı Sunumu: Küresel İş Dünyası İçin Dil Engelini Kırmak <Badge type="success" text="güncellendi" />
 
 ## Sorun: Dil Hâlâ 100 Milyar Dolarlık Bir Engel
 
-Küreselleşme ve video konferans araçlarına rağmen, **dil uluslararası ticaretteki en büyük darboğaz olmaya devam ediyor**:
+Küreselleşme ve video konferans araçlarına rağmen, **dil uluslararası ticarette hâlâ en büyük darboğaz olmaya devam ediyor**:
 
 - Meksikalı ihracatçılar ABD müşterileriyle kötü iletişim nedeniyle anlaşmaları kaybediyor
 - Çinli fabrikalar Alman mühendislere teknik özellikleri açıklamakta zorlanıyor
@@ -14,12 +14,12 @@ Küreselleşme ve video konferans araçlarına rağmen, **dil uluslararası tica
 
 **Her katılımcının kendi dilinde konuşmasına ve duymasına** olanak tanıyan profesyonel düzeyde bir video platformu — anında, doğru ve gizli.
 
-### Temel özellikler
+### Temel Özellikler
 
 - AI destekli eşzamanlı tercümanlık
 - Dahili planlama, moderasyon ve ekran paylaşımı
 - Gizlilik bölgeleri ile güvenli küresel altyapı (AB, ABD, Asya)
-- Kurumsal kullanıma hazır: 500+ katılımcı, aranabilir transkriptler, API entegrasyonları
+- Kurumsal hazır: 500+ katılımcı, aranabilir transkriptler, API entegrasyonları
 
 ## Pazar: Küresel B2B Ticaretinde Acil İhtiyaç
 
@@ -101,16 +101,16 @@ InterMind, **gizliliğin pazarlık konusu olmadığı kurumlar** tarafından gü
 | LTV/CAC         | 1.9x   | 3.4x   | 5.5x   |
 | Brüt Kar Marjı  | 73%    | 77%    | 80%    |
 
-**Temel Birim Ekonomisi:** Sadece **ücretli müşterilere** odaklanıyoruz — göstermelik metrikler yok. Modelimiz, 3. yıla kadar 1.9x\'den 5.5x\'e yükselen güçlü LTV/CAC oranları ile sağlıklı B2B SaaS büyümesi gösteriyor.
+**Temel Birim Ekonomisi:** Sadece **ücretli müşterilere** odaklanıyoruz — gösterişli metrikler yok. Modelimiz, 3. yıla kadar 1.9x'ten 5.5x'e yükselen güçlü LTV/CAC oranları ile sağlıklı B2B SaaS büyümesi gösteriyor.
 
 ### Müşteri Segmentasyonu (3. Yıl)
 
-- **%80 Bireysel/Serbest Çalışan:** Hesap başına 1 lisans
+- **%80 Solo/Serbest Çalışan:** Hesap başına 1 lisans
 - **%15 Küçük İşletme:** Hesap başına 4 lisans
 - **%5 Orta Ölçekli Pazar:** Hesap başına 22 lisans
 - **Ağırlıklı Ortalama:** Hesap başına 2.5 lisans
 
-Meksika, Brezilya, Türkiye, Tayland ve Endonezya\'da pazara giriş pilot çalışmalarına başlıyoruz — yüksek B2B ticaret hacmi ve İngilizce iş iletişimi için güçlü talep olan bölgeleri hedefliyoruz.
+Meksika, Brezilya, Türkiye, Tayland ve Endonezya'da pazara giriş pilot çalışmalarına başlıyoruz — yüksek B2B ticaret hacmi ve İngilizce iş iletişimi için güçlü talep olan bölgeleri hedefliyoruz.
 
 ## Kurucu Ekip
 
@@ -120,9 +120,9 @@ Meksika, Brezilya, Türkiye, Tayland ve Endonezya\'da pazara giriş pilot çalı
 
 ## Talep
 
-- **3,5 Milyon Dolar Tohum Yatırımı** toplamak için:
+- **3,5 Milyon Dolar Tohum Yatırımı** topluyoruz:
   - Mühendislik ve gizlilik uyumluluk ekiplerini genişletmek
-  - Platformu 10 yeni pazar için yerelleştirmek
+  - Platformu 10 yeni pazara yerelleştirmek
   - Entegrasyonları başlatmak (Zoom, Teams)
   - Çok dilli B2B edinim kampanyalarını finanse etmek
 

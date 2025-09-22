@@ -17,7 +17,7 @@ Ngoài ra, những người tham gia có thể điều chỉnh âm lượng củ
 - Lồng tiếng theo thời gian thực bằng ngôn ngữ đã chọn
 - Cài đặt dịch thuật cá nhân (không ảnh hưởng đến những người tham gia khác)
 - Khả năng thay đổi ngôn ngữ dịch thuật bất cứ lúc nào thông qua bảng Cài đặt
-- Có sẵn cho tất cả các loại người tham gia (Chủ trì, Điều hành viên, Người tham gia, Khách)
+- Có sẵn cho tất cả các loại người tham gia (Chủ trì, Điều hành, Người tham gia, Khách)
 
 ### Cách kích hoạt
 
@@ -44,7 +44,7 @@ Trợ lý AI có thể hỗ trợ với:
 - **Tóm tắt cuộc họp**
 - **Tra cứu bản ghi**
 - **Thông tin chi tiết về chat**
-- **Xác định các mục công việc**
+- **Xác định các mục hành động**
 - **Trích xuất các điểm chính**
 
 ### Lời nhắc thông dụng
@@ -53,7 +53,7 @@ Người dùng có thể sử dụng các lời nhắc như:
 
 - "Tóm tắt 10 phút cuối"
 - "John đã nói gì về ngân sách?"
-- "Các mục công việc chính từ cuộc họp này là gì?"
+- "Các mục hành động chính từ cuộc họp này là gì?"
 - "Ai đã đề cập đến thời hạn của dự án?"
 
 ### Yêu cầu truy cập

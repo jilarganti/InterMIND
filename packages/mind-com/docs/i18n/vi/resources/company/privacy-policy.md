@@ -23,7 +23,7 @@ Chúng tôi có thể thu thập các loại thông tin sau:
 - Dữ liệu dịch vụ: Thông tin liên quan đến các vấn đề pháp lý, chi tiết vụ việc và thư từ trao đổi.
 - Dữ liệu kỹ thuật: Địa chỉ IP, loại trình duyệt, thông tin thiết bị, cookies và dữ liệu sử dụng.
 
-## Cách chúng tôi sử dụng thông tin của bạn
+## Cách Chúng Tôi Sử Dụng Thông Tin Của Bạn
 
 Chúng tôi sử dụng thông tin của bạn để:
 
@@ -37,7 +37,7 @@ Chúng tôi sử dụng thông tin của bạn để:
 
 ### Sử dụng Mô hình AI
 
-Website của chúng tôi sử dụng các mô hình trí tuệ nhân tạo (AI) để nâng cao chất lượng cung cấp dịch vụ. Dưới đây là cách chúng tôi xử lý dữ liệu của bạn khi bạn tương tác với các tính năng được hỗ trợ bởi AI:
+Trang web của chúng tôi sử dụng các mô hình trí tuệ nhân tạo (AI) để nâng cao chất lượng cung cấp dịch vụ. Dưới đây là cách chúng tôi xử lý dữ liệu của bạn khi bạn tương tác với các tính năng được hỗ trợ bởi AI:
 
 #### Thu thập Dữ liệu
 
@@ -57,7 +57,7 @@ Trong một số trường hợp, chúng tôi có thể sử dụng các nhà cu
 
 #### Xem xét của Con người
 
-Mặc dù hệ thống AI của chúng tôi hoạt động tự động, một số tương tác nhất định có thể được xem xét bởi các chuyên gia pháp lý của chúng tôi để đảm bảo tính chính xác và chất lượng dịch vụ.
+Mặc dù các hệ thống AI của chúng tôi hoạt động tự động, một số tương tác nhất định có thể được xem xét bởi các chuyên gia pháp lý của chúng tôi để đảm bảo tính chính xác và chất lượng dịch vụ.
 
 #### Đào tạo AI
 

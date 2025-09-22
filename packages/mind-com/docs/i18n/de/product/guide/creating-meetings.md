@@ -34,12 +34,12 @@ Diese Option ermöglicht es Benutzern, sofort eine Live-Meeting-Sitzung zu initi
 1. Klicken Sie auf die Schaltfläche **Neues Meeting**
 2. Wählen Sie die Option **Ein Sofortmeeting starten**
 3. Ein Meetingraum wird sofort im aktuellen Tab geöffnet
-4. Sie übernehmen automatisch die Rolle des Hosts
+4. Sie übernehmen automatisch die Rolle des Gastgebers
 5. Nutzen Sie die Option 'Link kopieren' in der unteren linken Ecke oder kopieren Sie den Link aus der Adressleiste des Browsers
 6. Teilen Sie den Link mit anderen Teilnehmern
 
 > [!TIP]
-> Diese Option ist ideal für schnelle Synchronisation oder spontane Zusammenarbeit.
+> Diese Option ist ideal für schnelle Abstimmungen oder spontane Zusammenarbeit.
 
 ## Terminplanung in Google Calendar
 
@@ -62,4 +62,4 @@ Planen Sie ein zukünftiges Meeting und integrieren Sie es nahtlos in Ihren Goog
 
 Sobald das Meeting geplant ist und Google Calendar mit InterMIND verbunden ist, wird dieses Meeting auf der Hauptseite von InterMIND im Bereich mit geplanten Meetings angezeigt.
 
-Sobald die eingeladenen Teilnehmer die Einladung zum Meeting annehmen, wird es auch auf ihrer Hauptseite von InterMIND im Bereich mit geplanten Meetings angezeigt, vorausgesetzt sie sind autorisiert und haben die Synchronisation mit Google Calendar aktiviert.
+Sobald die eingeladenen Teilnehmer die Meeting-Einladung annehmen, wird es auch auf ihrer Hauptseite von InterMIND im Bereich mit geplanten Meetings angezeigt, vorausgesetzt sie sind autorisiert und haben die Synchronisation mit Google Calendar aktiviert.

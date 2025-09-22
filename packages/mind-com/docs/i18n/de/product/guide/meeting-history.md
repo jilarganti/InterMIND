@@ -6,7 +6,7 @@ Die Meeting-Verlauf-Seite fungiert als persönliches Archiv für alle Meetings, 
 
 Sie können auf die Besprechungsverlauf-Seite über eine von drei praktischen Methoden zugreifen:
 
-- Klicken Sie auf den 'Verlauf'-Link neben dem 'Problem melden'-Symbol im Seitenkopf-Menü
+- Klicken Sie auf den 'Verlauf'-Link, der sich neben dem 'Problem melden'-Symbol im Seitenkopf-Menü befindet
 - Alternativ klicken Sie auf Ihr Avatar-Symbol in der oberen rechten Ecke und wählen dann **Verlauf** aus dem Dropdown-Menü
 - Sie können auch direkt zu folgendem Link navigieren: [https://intermind.com/history](https://intermind.com/history)
 
@@ -17,7 +17,7 @@ Jeder Eintrag in Ihrem Besprechungsverlauf umfasst:
 - **Datum** (einschließlich Uhrzeit)
 - **Raum-ID**
 - **Dauer**
-- **# Teilnehmer**
+- **# Pax (Teilnehmer)**
 - **Aufzeichnung**
 - **Titel**
 - **Aktionen**
@@ -35,13 +35,13 @@ Diese Funktion ermöglicht es Ihnen, Meetings anhand von Schlüsselwörtern im T
 
 ### Raum-ID
 
-Durch Klicken auf den Raum-ID-Link wird die Liste so organisiert, dass nur Meetings angezeigt werden, die mit derselben Raum-ID verknüpft sind.
+Durch Klicken auf den Raum-ID-Link wird die Liste so organisiert, dass nur Meetings angezeigt werden, die derselben Raum-ID zugeordnet sind.
 
 ### # Pax (Teilnehmer)
 
 Durch Klicken hierauf öffnet sich ein Dropdown-Menü mit allen Teilnehmern.
 
-Einige Aktionsschaltflächen befinden sich versteckt unter dem Drei-Punkte-Menü auf der rechten Seite.
+Einige Aktionsschaltflächen sind unter dem Drei-Punkte-Menü auf der rechten Seite versteckt.
 
 ### Verfügbare Aktionen
 
@@ -73,7 +73,7 @@ Dies öffnet einen integrierten Media-Player zur Wiedergabe der Meeting-Aufzeich
 - **Wiedergabegeschwindigkeit**: Benutzer können Wiedergabegeschwindigkeiten von 0,25x bis 2x auswählen
 - **Bild-in-Bild**: Diese Funktion ermöglicht es Benutzern, weiterhin auf der Meeting-Details-Seite zu navigieren, während sie die Aufzeichnung in einem kleinen Fenster ansehen
 
-### In-Call-Nachrichten
+### Nachrichten während des Anrufs
 
 Diese Registerkarte zeigt alle Chat-Kommunikationen zwischen Benutzern an.
 

@@ -1,5 +1,5 @@
 ---
-description: "Vous souhaitez vous associer avec InterMind, investir ou contacter notre équipe dirigeante ? Utilisez ce formulaire pour les demandes commerciales, médiatiques ou juridiques."
+description: "Vous souhaitez vous associer avec InterMind, investir ou contacter notre équipe dirigeante ? Utilisez ce formulaire pour les demandes commerciales, les requêtes médias ou les questions juridiques."
 ---
 
 # 🤝 Vous souhaitez contacter InterMind ? Connectons-nous.
@@ -23,7 +23,7 @@ Nous nous assurerons que votre message parvienne à la bonne personne.
     'Opportunité de partenariat stratégique',
     'Discussion d\'investissement ou de financement',
     'Demande de solution d\'entreprise',
-    'Demande média et presse',
+    'Demande médias et presse',
     'Question juridique ou de conformité',
     'Préoccupation de sécurité ou signalement',
     'Proposition de développement commercial',
@@ -33,5 +33,5 @@ Nous nous assurerons que votre message parvienne à la bonne personne.
 
 <br>
 
-> **Besoin d'aide liée au produit ?**  
-> _Visitez notre [page d'assistance](../help) pour des réponses rapides et l'aide de l'équipe InterMind._
+> **Besoin d\'aide liée au produit ?**  
+> _Visitez notre [page d\'assistance](../help) pour des réponses rapides et l\'aide de l\'équipe InterMind._

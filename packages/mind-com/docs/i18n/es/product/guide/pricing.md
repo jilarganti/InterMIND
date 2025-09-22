@@ -27,20 +27,20 @@ La página de Precios proporciona una comparación clara de todos los planes dis
 
 La página de Precios incluye tres niveles:
 
-| Plan         | Precio                                   | Características principales                                               |
-| ------------ | ---------------------------------------- | ------------------------------------------------------------------------- |
-| **Básico**   | Gratis                                   | 25 reuniones, 100 participantes, 30 GB almacenamiento, interpretación limitada |
-| **Pro**      | $25/mes (o $20/mes facturado anualmente) | Reuniones ilimitadas, 150 participantes, 2 TB almacenamiento, todas las funciones de IA |
-| **Empresarial** | Personalizado (Contactar Ventas)      | 500 participantes, 5 TB almacenamiento, colega de IA (alfa), funciones empresariales |
+| Plan         | Precio                                      | Características principales                                                    |
+| ------------ | ------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Básico**   | Gratis                                      | 25 reuniones, 100 participantes, 30 GB almacenamiento, interpretación limitada |
+| **Pro**      | $25/mes (o $20/mes facturado anualmente)   | Reuniones ilimitadas, 150 participantes, 2 TB almacenamiento, todas las funciones de IA |
+| **Business** | Personalizado (Contactar Ventas)           | 500 participantes, 5 TB almacenamiento, colega de IA (alpha), funciones empresariales |
 
 ### Otros aspectos destacados
 
 - Cambiar entre **Mensual** y **Anual** activa precios con descuento para el plan Pro
-- El botón **Plan actual** muestra qué plan está activo
-- El botón **Contáctanos** permite a los clientes Empresariales solicitar soluciones personalizadas
+- El botón **Plan Actual** muestra qué plan está activo
+- El botón **Contáctanos** permite a los clientes Business solicitar soluciones personalizadas
 
 > [!TIP]
-> Las actualizaciones de plan toman efecto inmediatamente y aplican límites de funciones mejoradas en consecuencia.
+> Las actualizaciones de plan toman efecto inmediatamente y aplican los límites de funciones mejoradas en consecuencia.
 
 ## Pago de suscripción a través de Stripe
 
@@ -60,5 +60,5 @@ La página de Precios incluye tres niveles:
 - Cualquier actualización o degradación de plan se reflejará inmediatamente
 - Los ciclos de facturación y las cuotas se restablecerán de acuerdo al plan seleccionado
 - Las cuotas para el número de reuniones, participantes y almacenamiento por usuario se aplicarán según el plan activo
-- Exceder cualquier cuota activará una notificación clara junto con un botón de **Actualizar plan**
+- Exceder cualquier cuota activará una notificación clara junto con un botón **Actualizar plan**
 - Los usuarios pueden acceder a su historial de pagos y facturas en la sección de Facturación

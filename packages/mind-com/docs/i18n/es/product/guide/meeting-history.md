@@ -1,6 +1,6 @@
 # Historial de reuniones
 
-La página de Historial de reuniones funciona como un archivo personal para todas las reuniones que has organizado o a las que has asistido mientras estás conectado. Ofrece acceso rápido a grabaciones, transcripciones, resúmenes generados por el Asistente de IA y enlaces de reuniones reutilizables, todo consolidado en una ubicación conveniente.
+La página de Historial de Reuniones funciona como un archivo personal para todas las reuniones que has organizado o a las que has asistido mientras estás conectado. Ofrece acceso rápido a grabaciones, transcripciones, resúmenes generados por el Asistente de IA y enlaces de reuniones reutilizables, todo consolidado en una ubicación conveniente.
 
 ## Acceder a la página de Historial de reuniones
 
@@ -39,7 +39,7 @@ Al hacer clic en el enlace del ID de Sala se organiza la lista para mostrar solo
 
 ### # Pax (Participantes)
 
-Al hacer clic en esto se abrirá un menú desplegable que enumera todos los participantes.
+Al hacer clic en esto se abrirá un menú desplegable que lista todos los participantes.
 
 Algunos Botones de Acción se pueden encontrar ocultos bajo el menú de tres puntos ubicado en el lado derecho.
 
@@ -47,19 +47,19 @@ Algunos Botones de Acción se pueden encontrar ocultos bajo el menú de tres pun
 
 #### Eliminar
 
-Cuando se hace clic en esta acción, los usuarios recibirán una notificación que les solicita confirmar la eliminación haciendo clic en el botón **Sí, eliminar** o cancelar la operación haciendo clic en el botón **Cancelar**. Las reuniones eliminadas ya no serán visibles para ningún participante. Solo los Anfitriones o Moderadores poseen la autoridad para eliminar una reunión.
+Cuando se hace clic en esta acción, los usuarios recibirán una notificación solicitándoles confirmar la eliminación haciendo clic en el botón **Sí, eliminar** o cancelar la operación haciendo clic en el botón **Cancelar**. Las reuniones eliminadas ya no serán visibles para ningún participante. Solo los Anfitriones o Moderadores poseen la autoridad para eliminar una reunión.
 
 #### Compartir
 
-Los usuarios recibirán una notificación emergente que indica **¡Enlace copiado al portapapeles!** que les permite compartir este enlace con cualquier usuario autorizado.
+Los usuarios recibirán una notificación emergente que dice **¡Enlace copiado al portapapeles!** que les permite compartir este enlace con cualquier usuario autorizado.
 
 #### Unirse
 
-Esta acción permite a cualquier usuario con el registro de la reunión en la página de Historial unirse a la reunión, lo que resulta en la creación de un nuevo registro con el mismo ID de Sala.
+Esta acción permite a cualquier usuario con el registro de la reunión en la página de Historial unirse a la reunión, resultando en la creación de un nuevo registro con el mismo ID de Sala.
 
 ## Detalles de la reunión
 
-Cada fila de reunión presenta pestañas relacionadas con el contenido:
+Cada fila de reunión incluye pestañas relacionadas con el contenido:
 
 ### Participantes
 

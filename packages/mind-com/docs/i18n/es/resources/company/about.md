@@ -31,7 +31,7 @@ Donde otros crean barreras, nosotros creamos **conexión**.
 
 **Más de 20 idiomas. Cero carga cognitiva. Máximo impacto.**
 
-## Nuestra filosofía
+## Nuestra Filosofía
 
 El idioma no debería determinar con quién puedes trabajar.  
 La geografía no debería limitar tus ambiciones.  
@@ -41,8 +41,4 @@ La cultura no debería ser una desventaja competitiva.
 
 El futuro pertenece a quienes pueden colaborar globalmente — instantáneamente, naturalmente, inteligentemente.
 
-— _El equipo de Mind.com_
-
----
-
-_Haciendo el mundo verdaderamente sin fronteras, una conversación a la vez._
+— _El Equipo de Mind.com_

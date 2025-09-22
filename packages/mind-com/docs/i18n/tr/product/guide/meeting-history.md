@@ -1,10 +1,10 @@
 # Toplantı Geçmişi
 
-Toplantı Geçmişi sayfası, oturum açtığınız sırada ev sahipliği yaptığınız veya katıldığınız tüm toplantılar için kişisel bir arşiv işlevi görür. Kayıtlar, transkriptler, AI Asistan tarafından oluşturulan özetler ve yeniden kullanılabilir toplantı bağlantılarına hızlı erişim sunar - hepsi tek bir kullanışlı konumda birleştirilmiştir.
+Toplantı Geçmişi sayfası, oturum açtığınız sırada düzenlediğiniz veya katıldığınız tüm toplantılar için kişisel bir arşiv işlevi görür. Kayıtlara, transkriptlere, AI Asistanı tarafından oluşturulan özetlere ve yeniden kullanılabilir toplantı bağlantılarına hızlı erişim sunar - hepsi tek bir kullanışlı konumda birleştirilmiştir.
 
 ## Toplantı Geçmişi sayfasına erişim
 
-Toplantı Geçmişi sayfasına üç kolay yöntemden biriyle erişebilirsiniz:
+Toplantı Geçmişi sayfasına üç kolay yöntemden biri ile erişebilirsiniz:
 
 - Sayfa başlığı menüsünde 'Sorun Bildir' simgesinin yanında bulunan 'Geçmiş' bağlantısına tıklayın
 - Alternatif olarak, sağ üst köşedeki avatar simgenize tıklayın ve açılır menüden **Geçmiş**'i seçin
@@ -12,7 +12,7 @@ Toplantı Geçmişi sayfasına üç kolay yöntemden biriyle erişebilirsiniz:
 
 ## Toplantı Listesi
 
-Toplantı geçmişinizdeki her kayıt şunları içerir:
+Toplantı geçmişinizdeki her giriş şunları içerir:
 
 - **Tarih** (Saat dahil)
 - **Oda ID**
@@ -70,7 +70,7 @@ Bu sekme, tüm katılımcıların listesini ve ilgili rollerini görüntüler.
 Bu, toplantı kaydının oynatılması için yerleşik bir medya oynatıcı açar. Kullanıcılar oynatmayı başlatabilir veya durdurabilir, sesi kapatabilir veya açabilir ve kaydı tam ekranda görüntüleyebilir. Üç noktaya tıklamak aşağıdaki seçenekleri içeren ek bir menü açar:
 
 - **İndir**: Bu, belirli toplantı kaydının indirilmesini başlatır
-- **Oynatma hızı**: Kullanıcılar 0.25x ile 2x arasında değişen oynatma hızlarını seçebilir
+- **Oynatma hızı**: Kullanıcılar 0.25x ile 2x arasında değişen oynatma hızları seçebilir
 - **Resim içinde resim**: Bu özellik, kullanıcıların kaydı küçük bir pencerede izlerken toplantı detayları sayfasında gezinmeye devam etmelerini sağlar
 
 ### Arama içi mesajlar
@@ -81,9 +81,9 @@ Bu sekme, kullanıcılar arasındaki tüm sohbet iletişimlerini görüntüler.
 
 Bu, tüm sesli iletişimleri metin formatında kaydeden toplantı transkriptini açar. Ses Asistanı'ndan (Jarvis) gelen mesajlar da dahil edilir.
 
-### AI Asistanı
+### AI Asistan
 
-Bu, kullanıcıların AI Asistanı'ndan sohbet formatında toplantı özeti almalarını sağlar.
+Bu, kullanıcıların AI Asistan'dan sohbet formatında toplantı özeti almalarını sağlar.
 
 > [!INFO]
 > Toplantı herhangi bir kayıt içermiyorsa, Toplantı Detayları sayfasında Kayıt sekmesi gizli olabilir.
@@ -95,4 +95,4 @@ Bu, kullanıcıların AI Asistanı'ndan sohbet formatında toplantı özeti alma
 - Misafir kullanıcılar ve anonim katılımcılar geçmiş sayfasına veya içeriğine erişemezler
 
 > [!TIP]
-> Toplantı Geçmişi sayfasını önemli tartışmaları tekrar oynatmak, önemli notları almak ve özetler ile transkriptler kullanarak eylem maddelerini takip etmek için kullanın—bu sayfa ekip dokümantasyonu, denetimler veya uyumluluk iş akışları için vazgeçilmez bir araç haline gelir.
+> Önemli tartışmaları tekrar oynatmak, önemli notları almak ve özetler ile transkriptleri kullanarak eylem maddelerini takip etmek için Toplantı Geçmişi sayfasını kullanın—bu sayfa ekip dokümantasyonu, denetimler veya uyumluluk iş akışları için vazgeçilmez bir araç haline gelir.

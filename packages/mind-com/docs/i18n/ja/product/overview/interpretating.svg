@@ -146,11 +146,11 @@
   <!-- Key Features -->
   <g>
     <text x="50" y="580" font-family="Arial" font-size="14" font-weight="bold" fill="#1F2937">主な機能：</text>
-    <text x="50" y="605" font-family="Arial" font-size="12" fill="#374151">• 各段階のスレッドプール</text>
-    <text x="50" y="625" font-family="Arial" font-size="12" fill="#374151">• バッファリング用の段階間キュー</text>
+    <text x="50" y="605" font-family="Arial" font-size="12" fill="#374151">• 各ステージのスレッドプール</text>
+    <text x="50" y="625" font-family="Arial" font-size="12" fill="#374151">• バッファリング用のステージ間キュー</text>
     <text x="50" y="645" font-family="Arial" font-size="12" fill="#374151">• パイプライン処理パターン</text>
     <text x="50" y="665" font-family="Arial" font-size="12" fill="#374151">• 負荷下でのスケーラビリティ</text>
-    <text x="50" y="685" font-family="Arial" font-size="12" fill="#374151">• 段階別の障害分離</text>
+    <text x="50" y="685" font-family="Arial" font-size="12" fill="#374151">• ステージ別の障害分離</text>
   </g>
 
   <!-- Performance Info -->

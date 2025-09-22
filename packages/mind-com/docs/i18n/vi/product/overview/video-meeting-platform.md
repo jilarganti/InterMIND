@@ -21,7 +21,7 @@ Tất cả các cuộc họp đều được phát trực tuyến ở **độ n�
 
 ### 🔇 Khử Tiếng Ồn Thông Minh
 
-Công nghệ khử tiếng ồn được hỗ trợ bởi AI của chúng tôi lọc bỏ các âm thanh nền — tiếng gõ phím, tiếng xe cộ, tiếng vọng hoặc tiếng nói chuyện xa — để chỉ có giọng nói của người nói được truyền đi.
+Công nghệ khử tiếng ồn được điều khiển bởi AI của chúng tôi lọc bỏ các âm thanh nền — tiếng gõ phím, tiếng xe cộ, tiếng vang hoặc tiếng nói chuyện xa — để chỉ có giọng nói của người nói được truyền đi.
 
 - Giữ cho các cuộc họp chuyên nghiệp và tập trung.
 - Hoạt động tự động mà không cần điều khiển thủ công.
@@ -37,7 +37,7 @@ InterMind tích hợp liền mạch với **Google Calendar, Outlook và iCal**,
 
 ### 🧑‍⚖️ Công Cụ Điều Hành Chuyên Nghiệp
 
-Chủ trì với sự tự tin bằng cách sử dụng **các điều khiển điều hành** tích hợp:
+Chủ trì với sự tự tin bằng cách sử dụng **các điều khiển điều hành** tích hợp sẵn:
 
 - Tắt/bật tiếng người tham gia.
 - Kiểm soát chia sẻ màn hình và quyền truy cập camera.
@@ -64,7 +64,7 @@ Ghi lại các cuộc họp chỉ với một cú nhấp chuột. Video được
 
 ### ✏️ Phụ Đề Thời Gian Thực
 
-Để tăng khả năng tiếp cận, InterMind cung cấp **phụ đề thời gian thực** tùy chọn bằng nhiều ngôn ngữ, ngay cả khi có phiên dịch giọng nói trực tiếp đang hoạt động.
+Để tăng thêm khả năng tiếp cận, InterMind cung cấp **phụ đề thời gian thực** tùy chọn bằng nhiều ngôn ngữ, ngay cả khi có phiên dịch giọng nói trực tiếp đang hoạt động.
 
 - Hỗ trợ người dùng khiếm thính.
 - Giúp làm rõ lời nói kỹ thuật hoặc có giọng địa phương.
@@ -80,7 +80,7 @@ Người tham gia có thể gửi **tin nhắn văn bản**, liên kết hoặc 
 
 ### 📆 Tích Hợp Lịch
 
-Các cuộc họp, bản ghi và phiên sắp tới được tự động ghi lại và đồng bộ với lịch của bạn.
+Các cuộc họp, bản ghi âm và phiên sắp tới được tự động ghi lại và đồng bộ với lịch của bạn.
 
 - Nhận lời nhắc trước các cuộc họp quan trọng.
 - Dễ dàng theo dõi ai đã gặp khi nào — và tại sao.

@@ -28,17 +28,17 @@ Una plataforma de video de nivel profesional que permite a **cada participante h
 | Manufactura    | CN, IN, MX, TH, ID | Comunicación fábrica-cliente             | Especificaciones perdidas en traducción |
 | Exportaciones  | BR, CL, ES, CO     | Ventas y demos a compradores angloparlantes | Negocios perdidos por barreras idiomáticas |
 | Automotriz     | DE, JP, KR         | Negociaciones con proveedores transfronterizas | Intérpretes costosos, ciclos lentos |
-| Oficinas centrales empresariales | US, UK, AU | Reuniones de equipos globales | Tiempo perdido cambiando idiomas |
+| Sedes corporativas | US, UK, AU      | Reuniones de equipos globales            | Tiempo perdido cambiando idiomas    |
 
 TAM estimado: **$27B+** mercado de habilitación de comunicación B2B (fuente: CSA Research, Gartner)
 
-## Cómo funciona (en 3 segundos o menos)
+## Cómo Funciona (en 3 Segundos o Menos)
 
 1. **El usuario selecciona su idioma**
 2. **Se une o inicia una reunión**
 3. **Habla naturalmente** — otros participantes escuchan el mensaje **en su propio idioma**
 
-Respaldado por una pila propietaria:
+Respaldado por una pila tecnológica propietaria:
 
 - Voz a texto → limpieza semántica → traducción basada en LLM → texto a voz
 - Latencia: menos de 3 segundos
@@ -80,7 +80,7 @@ InterMind es confiable para **empresas donde la privacidad es innegociable**.
 
 ### Momento del mercado
 
-- La traducción con IA está alcanzando precisión casi humana
+- La traducción con IA está alcanzando una precisión casi humana
 - Las reuniones remotas son permanentes (75% de las ventas B2B siguen siendo virtuales — McKinsey)
 - Los mercados multilingües están creciendo: África, LATAM, SEA
 
@@ -90,25 +90,25 @@ InterMind es confiable para **empresas donde la privacidad es innegociable**.
 - Tecnología propietaria, no envolturas de APIs de terceros
 - Diferenciación integrada: privacidad, escalabilidad, UX, latencia
 
-## Proyecciones financieras (Año 1–3)
+## Proyecciones Financieras (Año 1–3)
 
 | Métrica         | Año 1  | Año 2  | Año 3  |
 | --------------- | ------ | ------ | ------ |
-| Cuentas de pago | 1,600  | 15,600 | 72,000 |
+| Cuentas de Pago | 1,600  | 15,600 | 72,000 |
 | ARR             | $706K  | $9.0M  | $50.8M |
 | CAC (promedio)  | $95    | $90    | $85    |
 | LTV             | $179   | $308   | $470   |
 | LTV/CAC         | 1.9x   | 3.4x   | 5.5x   |
-| Margen bruto    | 73%    | 77%    | 80%    |
+| Margen Bruto    | 73%    | 77%    | 80%    |
 
-**Economía unitaria clave:** Nos enfocamos en **clientes de pago únicamente** — sin métricas de vanidad. Nuestro modelo muestra un crecimiento saludable de B2B SaaS con ratios LTV/CAC sólidos que mejoran de 1.9x a 5.5x para el Año 3.
+**Economía Unitaria Clave:** Nos enfocamos en **clientes de pago únicamente** — sin métricas de vanidad. Nuestro modelo muestra un crecimiento saludable de B2B SaaS con ratios LTV/CAC sólidos que mejoran de 1.9x a 5.5x para el Año 3.
 
-### Segmentación de clientes (A3)
+### Segmentación de Clientes (A3)
 
 - **80% Solo/Freelance:** 1 licencia por cuenta
-- **15% Pequeña empresa:** 4 licencias por cuenta
-- **5% Mercado medio:** 22 licencias por cuenta
-- **Promedio ponderado:** 2.5 licencias por cuenta
+- **15% Pequeña Empresa:** 4 licencias por cuenta
+- **5% Mercado Medio:** 22 licencias por cuenta
+- **Promedio Ponderado:** 2.5 licencias por cuenta
 
 Estamos comenzando pilotos de entrada al mercado en México, Brasil, Turquía, Tailandia e Indonesia — dirigiéndonos a regiones con alto volumen de comercio B2B y fuerte demanda de comunicación empresarial en inglés.
 
@@ -120,10 +120,10 @@ Estamos comenzando pilotos de entrada al mercado en México, Brasil, Turquía, T
 
 ## Solicitud
 
-- Recaudando **$3.5M en ronda Seed** para:
+- Recaudando **$3.5M en Ronda Semilla** para:
   - Expandir equipos de ingeniería y cumplimiento de privacidad
   - Localizar la plataforma para 10 nuevos mercados
   - Lanzar integraciones (Zoom, Teams)
   - Financiar campañas de adquisición B2B multilingües
 
-Construyamos la plataforma que **hace universal la comprensión.**
+Construyamos la plataforma que **hace que la comprensión sea universal.**

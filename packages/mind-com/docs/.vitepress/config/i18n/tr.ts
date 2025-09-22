@@ -5,14 +5,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/tr"
 
 export const tr = defineConfig({
-  description: "19+ dilde eşzamanlı çeviri ile profesyonel video konferans. Küresel ekipler için ton, niyet ve bağlamı yakalayan AI destekli çeviri.",
+  description:
+    "19+ dilde eşzamanlı çeviri ile profesyonel video konferans. Küresel ekipler için ton, niyet ve bağlamı yakalayan AI destekli çeviri.",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | Küresel Ekipler için Gerçek Zamanlı Konuşma Çevirisi" }],
     [
       "meta",
       {
         property: "og:description",
-        content: "19+ dilde eşzamanlı sesli çeviri ile profesyonel video konferans. Küresel olarak buluşun, AI destekli çeviri ile doğal iletişim kurun.",
+        content:
+          "19+ dilde eşzamanlı sesli çeviri ile profesyonel video konferans. Küresel olarak buluşun, AI destekli çeviri ile doğal iletişim kurun.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -140,7 +142,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "ŞİRKET",
       collapsed: false,
       items: [
-        { text: "Hakkımızda", link: "/company/about" },
+        { text: "Hakkında", link: "/company/about" },
         { text: "Ekip", link: "/company/team" },
         { text: "Kariyer", link: "/company/careers" },
         { text: "İletişim", link: "/company/contacts" },

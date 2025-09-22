@@ -21,11 +21,11 @@ Rápido, focado e com uma pessoa real do outro lado.
     'Quero agendar uma demonstração',
     'Tenho um problema técnico ou bug',
     'Preciso de ajuda com integração de reuniões',
-    'Tenho dúvidas sobre qualidade de tradução',
+    'Tenho dúvidas sobre a qualidade da tradução',
     'Preciso de assistência com integração da equipe',
     'Tenho dúvidas sobre cobrança ou assinatura',
     'Quero explorar recursos empresariais',
-    'Quero obter ID de aplicação e token da Mind API sem restrições',
+    'Quero obter ID da aplicação e token da Mind API sem restrições',
     'Pergunta geral ou feedback'
   ]" /> -->
 
@@ -45,11 +45,11 @@ Rápido, focado e com uma pessoa real do outro lado.
     'Quero agendar uma demonstração',
     'Tenho um problema técnico ou bug',
     'Preciso de ajuda com integração de reuniões',
-    'Tenho dúvidas sobre qualidade de tradução',
+    'Tenho dúvidas sobre a qualidade da tradução',
     'Preciso de assistência com integração da equipe',
     'Tenho dúvidas sobre cobrança ou assinatura',
     'Quero explorar recursos empresariais',
-    'Quero obter ID de aplicação e token da Mind API sem restrições',
+    'Quero obter ID da aplicação e token da Mind API sem restrições',
     'Pergunta geral ou feedback'
   ]" />
 

@@ -4,11 +4,11 @@
 
 InterMind é uma plataforma para reuniões de vídeo multilíngues com interpretação ao vivo alimentada por IA. Somos construídos para profissionais — onde não apenas a mensagem importa, mas também a privacidade dessa mensagem.
 
-Para oferecer uma experiência perfeita, o InterMind integra serviços de terceiros para vídeo, áudio, armazenamento em nuvem, interpretação em tempo real e análises. Esses provedores terceirizados nos ajudam a garantir desempenho e escalabilidade — mas também introduzem uma camada que não podemos controlar diretamente.
+Para oferecer uma experiência perfeita, InterMind integra serviços de terceiros para vídeo, áudio, armazenamento em nuvem, interpretação em tempo real e análises. Esses provedores terceirizados nos ajudam a garantir desempenho e escalabilidade — mas também introduzem uma camada que não podemos controlar diretamente.
 
 Acreditamos na **transparência sobre promessas**. Só podemos garantir privacidade e segurança para componentes sob nosso controle direto — nosso software, lógica de interface e como roteamos dados. Para todo o resto, oferecemos a você **o poder da escolha**.
 
-É por isso que projetamos o InterMind com **confidencialidade baseada em região**: você escolhe onde seus dados são processados, qual estrutura legal os governa e quais modelos de IA são usados — baseado na sua zona de privacidade selecionada.
+É por isso que projetamos InterMind com **confidencialidade baseada em região**: você escolhe onde seus dados são processados, qual estrutura legal os governa e quais modelos de IA são usados — baseado na sua zona de privacidade selecionada.
 
 > **O que é uma Zona de Privacidade?**  
 > _Uma região configurável (UE, EUA, Ásia) que governa onde seus dados são processados e sob qual estrutura legal._
@@ -23,13 +23,13 @@ Acreditamos na **transparência sobre promessas**. Só podemos garantir privacid
 
 ### 2. **Transparência Arquitetural**
 
-- Você pode ver explicitamente qual região está ativa para sua sessão e quais leis se aplicam (por exemplo, GDPR na Europa, CCPA nos EUA, PDPL nos Emirados Árabes Unidos).
-- Cada sessão é executada em um **modo de conformidade** designado, e essa configuração é visível e auditável.
+- Você pode ver explicitamente qual região está ativa para sua sessão e quais leis se aplicam (ex: GDPR na Europa, CCPA nos EUA, PDPL nos Emirados Árabes Unidos).
+- Cada sessão executa em um **modo de conformidade** designado, e essa configuração é visível e auditável.
 
 ### 3. **Privacidade por Padrão**
 
 - A InterMind **nunca** armazena ou reutiliza seu conteúdo para treinamento, criação de perfis ou análise comercial.
-- Não retemos transcrições ou mídia, a menos que você solicite explicitamente.
+- Não retemos transcrições ou mídia a menos que você solicite explicitamente.
 - Se você desabilitar a interpretação, **nenhum dado do usuário sai do seu dispositivo**.
 
 ## Confidencialidade Baseada em Região: Como Funciona
@@ -38,18 +38,18 @@ No início de cada sessão, ou como parte das configurações da conta da sua or
 
 | Região        | Leis Aplicáveis                                                                               | Infraestrutura                 | Provedores de LLM          |
 | ------------- | --------------------------------------------------------------------------------------------- | ------------------------------ | -------------------------- |
-| Europa        | [GDPR](https://gdpr.eu)                                                                       | Apenas data centers da UE      | Hospedados na UE ou compatíveis com UE  |
-| Estados Unidos | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (EUA)        | OpenAI EUA / Anthropic EUA   |
-| EAU / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | Nuvem dos EAU ou Bahrein       | LLMs regionais ou compatíveis |
-| Ásia / China  | Leis locais de privacidade chinesas                                                          | Alibaba, Huawei, Tencent Cloud | Apenas LLMs baseados na China      |
+| Europa        | [GDPR](https://gdpr.eu)                                                                       | Apenas data centers da UE      | Hospedados na UE ou compatíveis com UE |
+| Estados Unidos | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                      | AWS / GCP / Azure (EUA)        | OpenAI US / Anthropic US   |
+| EAU / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | Nuvem dos EAU ou Bahrein      | LLMs regionais ou compatíveis |
+| Ásia / China  | Leis locais de privacidade chinesas                                                          | Alibaba, Huawei, Tencent Cloud | Apenas LLMs baseados na China |
 
-Esta escolha governa como seu vídeo, áudio e conteúdo interpretado é processado e através de qual jurisdição.
+Esta escolha determina como seu vídeo, áudio e conteúdo interpretado são processados e através de qual jurisdição.
 
 Você pode:
 
 - **Definir uma região padrão** para sua organização
 - **Substituir a região por sessão**
-- **Colocar certas regiões na lista negra** inteiramente
+- **Bloquear certas regiões** completamente
 
 ## O que a InterMind Garante
 
@@ -76,7 +76,7 @@ Não armazenamos suas reuniões, transcrições ou conversas, a menos que você 
 O InterMind oferece compatibilidade total com:
 
 - **GDPR** — Direito de acesso, exclusão, exportação e restrição de processamento. Sem perfilagem por IA.
-- **CCPA** — Não venda de dados pessoais, opções de opt-out e práticas transparentes de coleta.
+- **CCPA** — Sem venda de dados pessoais, opções de opt-out e práticas transparentes de coleta.
 - **UAE PDPL** — Armazenamento local se solicitado, controles de acesso rigorosos, sem transferências internacionais sem consentimento.
 - **China DSL/PIPL** — Processamento apenas na região, sem roteamento estrangeiro se a China for selecionada.
 
@@ -89,7 +89,7 @@ Estamos comprometidos com total honestidade, não apenas jargão jurídico.
 ### NÃO garantimos:
 
 - Que OpenAI, Anthropic ou outros provedores de LLM não registrem ou retenham dados de entrada.
-- Que hospedeiros em nuvem não tenham acesso a mídia transmitida através de seus sistemas (a menos que você esteja usando um enclave seguro ou implantação empresarial).
+- Que hospedagens em nuvem não tenham acesso a mídia transmitida através de seus sistemas (a menos que você esteja usando um enclave seguro ou implantação empresarial).
 - Que conteúdo passado para um modelo de terceiros esteja fora do escopo de treinamento deles (a menos que sob contrato privado).
 
 ### NÓS garantimos:
@@ -102,13 +102,13 @@ Estamos comprometidos com total honestidade, não apenas jargão jurídico.
 
 Você pode personalizar sua sessão para atender às suas necessidades de confidencialidade:
 
-| Modo de Confiança | Interpretação | Transferência Entre Regiões | Armazenamento      | Melhor Para                              |
-| ----------------- | ------------- | --------------------------- | ------------------ | ---------------------------------------- |
-| 🔒 Apenas Local   | ❌             | ❌                          | ❌                 | Jurídico, governo, revisões internas     |
-| 🔐 Bloqueado por Região | ✅       | ✅ (apenas dentro da zona)  | ❌ ou apenas sessão | Saúde, finanças, RH                     |
-| 🌐 Flexibilidade Global | ✅       | ✅ (multi-região)           | ✅                 | Suporte, vendas, equipes multinacionais |
+| Modo de Confiança | Interpretação | Transferência Entre Regiões | Armazenamento      | Melhor Para                                |
+| ----------------- | ------------- | --------------------------- | ------------------ | ------------------------------------------ |
+| 🔒 Apenas Local   | ❌            | ❌                          | ❌                 | Jurídico, governo, revisões internas      |
+| 🔐 Bloqueado por Região | ✅      | ✅ (apenas dentro da zona)  | ❌ ou apenas sessão | Saúde, finanças, RH                      |
+| 🌐 Flexibilidade Global | ✅      | ✅ (multi-região)           | ✅                 | Suporte, vendas, equipes multinacionais   |
 
-## O que você obtém pronto para uso
+## O Que Você Obtém Imediatamente
 
 - Uso de LLM específico por região, com transparência em tempo real.
 - Nenhum treinamento ou criação de perfil do seu conteúdo — nunca.

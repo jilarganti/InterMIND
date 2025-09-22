@@ -16,7 +16,6 @@
   },
   {
     name: 'Windicted',
-    // desc: '**Turning** users into believers',
     country: 'Португалия',
     avatarLink: 'https://secure.gravatar.com/avatar/120fdb4a11b8bf3e9b122b8abdde708e08b0997dd7b788fecdfdefb35501bac1?s=1600&d=identicon',
     links: [

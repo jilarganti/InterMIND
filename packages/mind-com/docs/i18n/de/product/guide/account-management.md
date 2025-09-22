@@ -112,7 +112,7 @@ Wenn Sie Ihr Konto mit einer externen E-Mail-Adresse erstellt haben:
 5. Nach Abschluss der Autorisierung werden Sie direkt zur InterMIND-Hauptseite weitergeleitet
 
 > [!WARNING]
-> Wählen Sie "Angemeldet bleiben" nur auf vertrauenswürdigen Geräten aus, um unbefugten Zugriff zu verhindern.
+> Wählen Sie „Angemeldet bleiben" nur auf vertrauenswürdigen Geräten aus, um unbefugten Zugriff zu verhindern.
 
 ## Benutzerprofil
 
@@ -143,8 +143,8 @@ Die Profilseite ist in vier Hauptregisterkarten unterteilt:
 **Aktueller Plan**
 
 - Zeigt den aktiven Abonnementtyp (z.B. Basic, Pro) und dessen Gültigkeitsdauer an
-- Basic-Benutzer sehen eine **Plan upgraden**-Schaltfläche
-- Pro-Benutzer sehen eine **Abonnement kündigen**-Schaltfläche
+- Basic-Benutzer sehen eine Schaltfläche **Plan upgraden**
+- Pro-Benutzer sehen eine Schaltfläche **Abonnement kündigen**
 
 **Kommunikationspräferenzen**
 
@@ -206,7 +206,7 @@ Wählen Sie Mikrofon, Lautsprecher und Kamera aus, schalten Sie Hintergrundunsch
 Wählen Sie die Standard-Übersetzungssprache und passen Sie die ursprüngliche Stimmlautstärke an.
 
 - **Zielsprache**: Standard-Übersetzungsausgabe und Oberflächensprache auswählen
-- **Ursprüngliche Lautstärke**: Hintergrund-Stimmlautstärke anpassen, während übersetztes Audio abgespielt wird
+- **Ursprüngliche Lautstärke**: Hintergrundstimmlautstärke anpassen, während übersetztes Audio abgespielt wird
 
 **Sonstiges**
 Legen Sie das Standard-Layout (z.B. Seitenleiste), den Assistenten-Anbieter und die automatische Verlassen-Option fest, wenn Sie allein sind.

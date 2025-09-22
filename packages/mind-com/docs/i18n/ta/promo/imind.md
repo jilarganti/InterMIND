@@ -2,7 +2,6 @@
 layout: home
 title: "வீடியோ கூட்டங்கள் மறுவடிவமைப்பு — இப்போது mind.com இல்"
 description: "iMind இலிருந்து InterMIND வரை: நேரடி AI-இயங்கும் மொழிபெயர்ப்புடன் குரல்-முதல் வீடியோ அழைப்புகள்."
-
 ---
 
 <HeroSection

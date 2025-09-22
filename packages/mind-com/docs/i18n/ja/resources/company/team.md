@@ -2,7 +2,7 @@
 
 私たちは創造性、コード、そして理解を融合させ、言語の壁を永久に取り除きます。
 
-## 人材チーム
+## 人間チーム
 
 <TeamMembersGrid :members="[
   {
@@ -16,7 +16,6 @@
   },
   {
     name: 'Windicted',
-    // desc: '**Turning** users into believers',
     country: 'ポルトガル',
     avatarLink: 'https://secure.gravatar.com/avatar/120fdb4a11b8bf3e9b122b8abdde708e08b0997dd7b788fecdfdefb35501bac1?s=1600&d=identicon',
     links: [
@@ -25,7 +24,7 @@
   },
   {
     name: 'Jilarganti',
-    desc: '**新しい才能**をInterMINDに導く',
+    desc: '**新しい心**をInterMINDに',
     country: 'UAE',
     avatarLink: 'https://github.com/jilarganti.png',
     links: [

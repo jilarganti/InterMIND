@@ -1,6 +1,6 @@
 # Manajemen Akun
 
-## Daftar
+## Daftar Akun
 
 Membuat akun dapat dilakukan melalui tiga metode: menggunakan Akun Google atau Microsoft Anda atau mendaftar dengan Alamat Email Eksternal.
 
@@ -22,7 +22,7 @@ Metode ini disarankan untuk akses yang efisien melalui Akun Google, memfasilitas
 3. Berikan otorisasi akses ke informasi profil dasar Anda dengan mengklik tombol **Lanjutkan**
 
 > [!WARNING]
-> Jika Anda lebih memilih untuk tidak memberikan akses ke informasi profil dasar Anda, klik tombol **Batal**. Anda akan diarahkan kembali ke halaman Masuk ke akun Anda, di mana Anda dapat mendaftar menggunakan alamat email eksternal.
+> Jika Anda tidak ingin memberikan akses ke informasi profil dasar Anda, klik tombol **Batal**. Anda akan diarahkan kembali ke halaman Masuk ke akun Anda, di mana Anda dapat mendaftar menggunakan alamat email eksternal.
 
 4. Anda akan diarahkan ke halaman utama InterMIND Anda; tidak diperlukan pengaturan lebih lanjut
 
@@ -35,13 +35,13 @@ Metode ini disarankan untuk mendapatkan akses cepat menggunakan akun Microsoft. 
 3. Berikan otorisasi akses ke informasi profil dasar Anda dengan mengklik tombol **Lanjutkan**
 
 > [!WARNING]
-> Jika Anda lebih memilih untuk tidak memberikan akses ke informasi profil dasar Anda, klik tombol **Batal**. Anda akan diarahkan kembali ke halaman Masuk ke akun Anda, di mana Anda dapat mendaftar menggunakan alamat email eksternal.
+> Jika Anda tidak ingin memberikan akses ke informasi profil dasar Anda, klik tombol **Batal**. Anda akan diarahkan kembali ke halaman Masuk ke akun Anda, di mana Anda dapat mendaftar menggunakan alamat email eksternal.
 
 4. Anda akan diarahkan ke halaman utama InterMIND Anda; tidak diperlukan pengaturan lebih lanjut
 
 ### Daftar dengan Alamat Email
 
-Gunakan metode ini jika Anda tidak memiliki akun Google atau lebih memilih untuk mendaftar dengan email terpisah.
+Gunakan metode ini jika Anda tidak memiliki akun Google atau lebih suka mendaftar dengan email terpisah.
 
 1. Klik tautan **Daftar** di sebelah teks "Tidak punya akun?" di bawah kolom login
 2. Anda akan diarahkan ke formulir Daftar, yang mencakup kolom wajib berikut:
@@ -55,7 +55,7 @@ Gunakan metode ini jika Anda tidak memiliki akun Google atau lebih memilih untuk
    - **Nama Belakang**
 
 > [!TIP]
-> Untuk memastikan keamanan akun yang optimal, silakan buat kata sandi yang memenuhi persyaratan kompleks yang tercantum di atas.
+> Untuk memastikan keamanan akun yang optimal, harap buat kata sandi yang memenuhi persyaratan kompleks yang tercantum di atas.
 
 3. Setelah melengkapi formulir, klik tombol **Daftar**
 4. Setelah berhasil mendaftar, Anda akan menerima pesan verifikasi email di kotak masuk Anda. Setelah diverifikasi, Anda dapat masuk menggunakan email dan kata sandi Anda untuk mengakses fitur-fitur InterMIND
@@ -148,8 +148,8 @@ Halaman profil diorganisir ke dalam empat tab utama:
 
 **Preferensi Komunikasi**
 
-- **Newsletter**: Terima pembaruan tentang fitur dan peningkatan baru
-- **Promosi**: Terima penawaran khusus dan konten promosi
+- **Newsletter**: Menerima pembaruan tentang fitur dan peningkatan baru
+- **Promosi**: Menerima penawaran khusus dan konten promosi
 
 > [!TIP]
 > Kedua opsi dapat diaktifkan/nonaktifkan dengan kotak centang.
@@ -200,7 +200,7 @@ Pilih mikrofon, speaker, dan kamera, aktifkan blur latar belakang.
 - **Mikrofon**: Pilih perangkat input yang diinginkan
 - **Speaker**: Pilih perangkat output yang diinginkan
 - **Kamera**: Pilih perangkat video aktif
-- **Blur Latar Belakang**: Aktifkan atau nonaktifkan penyamaran latar belakang visual
+- **Blur Latar Belakang**: Aktifkan atau nonaktifkan masking latar belakang visual
 
 **Terjemahan**
 Pilih bahasa terjemahan default dan sesuaikan volume suara asli.
@@ -215,7 +215,7 @@ Atur tata letak default (misalnya, sidebar), penyedia asisten, dan opsi keluar o
 - **Keluar Panggilan Otomatis Saat Sendirian**: Aktifkan/nonaktifkan pemutusan otomatis
 
 > [!TIP]
-> Perubahan disimpan secara otomatis dan akan berlaku untuk semua rapat mendatang.
+> Perubahan disimpan secara otomatis dan akan berlaku untuk semua rapat di masa mendatang.
 
 #### Lanjutan
 

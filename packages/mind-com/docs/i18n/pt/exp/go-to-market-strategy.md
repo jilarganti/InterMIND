@@ -1,6 +1,6 @@
 # Estratégia de palavras-chave do Google Ads: vendendo a ponte, não o tradutor <Badge type="warning" text="draft" />
 
-## INSIGHT PRINCIPAL: Pontos de dor visam mercados que não falam inglês
+## INSIGHT PRINCIPAL: Pontos de Dor Visam Mercados Não Falantes de Inglês
 
 **Falantes de inglês não precisam de tradução** — o mundo fala inglês com eles.
 
@@ -25,7 +25,7 @@ _"como falar inglês reuniões de negócios"_
 **2. software traduzir espanhol ingles video chamadas**
 _"software traduzir espanhol inglês videochamadas"_
 
-- **Dor:** Gerente de exportação não consegue conduzir demonstrações de produto para compradores americanos
+- **Dor:** Gerente de exportação não consegue fazer demonstrações de produtos para compradores americanos
 - **Solução:** Apresente em espanhol, clientes entendem em inglês
 - **Concorrência:** Baixa, caso de uso específico
 - **Intenção de Conversão:** Muito alta (pronto para comprar)
@@ -35,7 +35,7 @@ _"software traduzir espanhol inglês videochamadas"_
 **3. 如何用中文与美国客户开会**
 _"como se reunir com clientes americanos em chinês"_
 
-- **Dor:** Fabricante chinês perde contratos importantes devido à lacuna linguística
+- **Dor:** Fabricante chinês perde contratos importantes devido à barreira linguística
 - **Solução:** Explique processos de produção em chinês, americanos entendem instantaneamente
 - **Plataforma:** Baidu Ads (80% de participação de busca na China)
 - **Regulamentação:** Compatível com requisitos de soberania de dados
@@ -55,7 +55,7 @@ _"tradução alemão inglês reuniões de negócios"_
 
 - **Dor:** Empresas automotivas alemãs dependem de intérpretes caros para expansão na Ásia
 - **Solução:** CTO discute requisitos de engenharia em alemão diretamente
-- **Contexto de Mercado:** €890B exportações automotivas precisam de ponte linguística
+- **Contexto do Mercado:** €890B exportações automotivas precisam de ponte linguística
 - **Sazonalidade:** Pico Q1-Q2 (ciclos de planejamento)
 
 **6. wie spreche ich chinesisch lieferanten**
@@ -144,7 +144,7 @@ _"software reunião internacional espanhol"_
 - **Público:** Desenvolvimento de negócios internacionais, gerentes de TI
 - **Alocação de Orçamento:** 15% do total
 - **Adaptação Cultural:** Estilo de comunicação formal, tomada de decisão por consenso
-- **Estratégia de Dispositivos:** Otimizado para mobile (70% de busca mobile)
+- **Estratégia de Dispositivo:** Otimizado para mobile (70% de busca mobile)
 - **Pagamento:** JCB, transferências bancárias locais
 
 **Campanha 5: Expansão da Espanha na UE**
@@ -157,13 +157,13 @@ _"software reunião internacional espanhol"_
 - **Página de Destino:** Interface em espanhol, histórias de sucesso de expansão na UE
 - **Conformidade:** Conformidade GDPR em destaque
 
-### Segmentação Avançada e Otimização
+### Segmentação e Otimização Avançadas
 
 **Palavras-chave Negativas (Críticas):**
 
 - Aplicativos de tradução pessoal
 - Aprendizado educacional de idiomas
-- Tradução para turistas/viagens
+- Tradução turística/de viagem
 - Ferramentas de tradução gratuitas
 - Contextos acadêmicos/estudantis
 - Chamadas de vídeo para consumidores
@@ -181,7 +181,7 @@ _"software reunião internacional espanhol"_
 - **Alemanha/Japão:** ROAS alvo (maior LTV)
 - **China:** CPC manual (fase de teste de mercado)
 
-**Otimização do Quality Score:**
+**Otimização do Índice de Qualidade:**
 
 - **Velocidade da Página de Destino:** <3 segundos (crítico para mercados mobile-first)
 - **Correspondência de Idioma:** Alinhamento perfeito palavra-chave-anúncio-página de destino
@@ -199,7 +199,7 @@ _"software reunião internacional espanhol"_
 
 - **Monitorar:** Expansão do Google Meet, Zoom, Microsoft Teams
 - **Oportunidade:** Quando concorrentes adicionam recursos básicos de tradução
-- **Diferenciação:** Interpretação AI em tempo real vs legendas básicas
+- **Diferenciação:** Interpretação IA em tempo real vs legendas básicas
 - **Preços:** Posicionar como premium mas custo-efetivo vs intérpretes humanos
 
 ### Projeções de ROI por Mercado
@@ -210,7 +210,7 @@ _"software reunião internacional espanhol"_
 - **Valor Médio do Negócio:** $200/mês
 - **Taxa de Conversão:** 2,5% (alta intenção)
 - **Período de Payback:** 8 meses
-- **Relação LTV/CAC:** 4,2:1
+- **Proporção LTV/CAC:** 4,2:1
 
 **Mercado Chinês:**
 
@@ -218,11 +218,11 @@ _"software reunião internacional espanhol"_
 - **Valor Médio do Negócio:** $500/mês (enterprise)
 - **Taxa de Conversão:** 1,8% (ciclo de vendas mais longo)
 - **Período de Payback:** 12 meses
-- **Relação LTV/CAC:** 5,1:1
+- **Proporção LTV/CAC:** 5,1:1
 
 **Métricas-chave de Sucesso:**
 
-- **Quality Score:** >7/10 em todas as campanhas
+- **Índice de Qualidade:** >7/10 em todas as campanhas
 - **CTR:** >3% (indica forte relevância)
 - **Taxa de Conversão:** >2% (tráfego qualificado)
 - **LTV do Cliente:** >$5.000 (foco enterprise)
@@ -233,6 +233,6 @@ _"software reunião internacional espanhol"_
 - **T1:** Aumento de orçamento (temporada de planejamento empresarial)
 - **T4:** Reduzir mercados não-americanos (desaceleração de feriados)
 - **Feiras Comerciais:** Campanhas intensivas durante grandes eventos da indústria
-- **Ciclos Econômicos:** Ajustar mensagem durante períodos de incerteza
+- **Ciclos Econômicos:** Ajustar mensagens durante períodos de incerteza
 
-Esta estratégia transforma o InterMind de uma ferramenta de tradução em uma **plataforma global de capacitação empresarial** — vendendo o sonho de falar sua língua nativa para o mundo inteiro.
+Esta estratégia transforma o InterMind de uma ferramenta de tradução em uma **plataforma global de capacitação empresarial** — vendendo o sonho de falar seu idioma nativo para o mundo inteiro.

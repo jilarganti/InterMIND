@@ -1,8 +1,8 @@
-# Toplantı oluşturma ve planlama
+# Toplantı Oluşturma ve Planlama
 
-InterMIND'a giriş yaptıktan sonra, kullanıcılar **Yeni Toplantı** düğmesine tıklayarak doğrudan ana arayüzden kolayca toplantı oluşturabilir ve planlayabilir.
+InterMIND'a giriş yaptıktan sonra, kullanıcılar **Yeni Toplantı** düğmesine tıklayarak ana arayüzden doğrudan toplantı oluşturabilir ve planlayabilir.
 
-## Toplantı seçeneklerine erişim
+## Toplantı Seçeneklerine Erişim
 
 Ana ekranda, sayfanın merkezinde yer alan belirgin mavi **Yeni Toplantı** düğmesini bulun. Bu düğmeye tıklamak, üç farklı seçenek içeren bir açılır menüyü ortaya çıkaracaktır:
 

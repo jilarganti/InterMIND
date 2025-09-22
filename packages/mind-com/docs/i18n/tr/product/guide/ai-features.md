@@ -29,9 +29,9 @@ Ek olarak, katılımcılar toplantı ayarları aracılığıyla diğer katılım
 - Çeviri tercihleri gelecekteki toplantılar için kullanıcı ayarlarında kaydedilir
 - Diller toplantı ortasında Ayarlar paneli aracılığıyla değiştirilebilir
 
-## AI Asistan
+## AI Asistanı
 
-AI Asistan, toplantılar içinde özel bir sohbet arayüzü olarak erişilebilir. Kullanıcılar AI Asistan panelini açarak asistanla metin formatında etkileşime geçebilir ve şu konularla ilgili sorular sorabilir:
+AI Asistanı, toplantılar içinde özel bir sohbet arayüzü olarak erişilebilir. Kullanıcılar AI Asistanı panelini açarak asistanla metin formatında etkileşime geçebilir ve şunlarla ilgili sorular sorabilir:
 
 - Toplantı özetleri
 - Transkript aramaları
@@ -39,13 +39,13 @@ AI Asistan, toplantılar içinde özel bir sohbet arayüzü olarak erişilebilir
 
 ### Yetenekler
 
-AI Asistan şu konularda yardımcı olabilir:
+AI Asistanı şunlarda yardımcı olabilir:
 
 - **Toplantı özetleri**
 - **Transkript aramaları**
 - **Sohbet içgörüleri**
-- **Eylem maddesi belirleme**
-- **Ana nokta çıkarma**
+- **Eylem öğesi tanımlama**
+- **Anahtar nokta çıkarma**
 
 ### Yaygın İstemler
 
@@ -53,16 +53,16 @@ Kullanıcılar şu gibi istemler kullanabilir:
 
 - "Son 10 dakikayı özetle"
 - "John bütçe hakkında ne dedi?"
-- "Bu toplantıdan çıkan ana eylem maddeleri neler?"
-- "Proje için son tarihi kim belirtti?"
+- "Bu toplantıdan çıkan ana eylem öğeleri neler?"
+- "Proje için son teslim tarihini kim belirtti?"
 
 ### Erişim Gereksinimleri
 
 > [!WARNING]
-> AI Asistan yalnızca Ev Sahipleri, Moderatörler veya Katılımcılar dahil olmak üzere oturum açmış kullanıcılar tarafından kullanılabilir. Sohbette herkese açık olarak etkileşime girmez ve Misafir kullanıcılar tarafından erişilemez.
+> AI Asistanı yalnızca Ev Sahipleri, Moderatörler veya Katılımcılar dahil olmak üzere oturum açmış kullanıcılar tarafından kullanılabilir. Sohbette herkese açık olarak etkileşime girmez ve Misafir kullanıcılar tarafından erişilemez.
 
 ### Gizlilik
 
-- AI Asistan etkileşimleri her kullanıcı için özeldir
+- AI Asistanı etkileşimleri her kullanıcı için özeldir
 - Yanıtlar diğer toplantı katılımcıları tarafından görülemez
-- Her katılımcı kendi ayrı AI Asistan konuşmalarına sahip olabilir
+- Her katılımcı kendi ayrı AI Asistanı konuşmalarına sahip olabilir

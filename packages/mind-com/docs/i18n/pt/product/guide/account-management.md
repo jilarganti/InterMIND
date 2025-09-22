@@ -8,14 +8,14 @@ Criar uma conta pode ser realizado através de três métodos: utilizando suas c
 2. Clique no botão **Entrar** localizado no canto superior direito da página inicial
 3. Na página Entrar na sua conta, você encontrará as seguintes opções:
    - Botões do Google e Microsoft, que facilitam o acesso à plataforma usando suas contas existentes do Google ou Microsoft
-   - Caixa de seleção \'Lembrar de mim\', que permite manter seu status de logado neste dispositivo
-   - Link \'Esqueci a Senha\', que está disponível se você já possui uma conta mas não lembra sua senha
-   - Texto \'Ou entre com\', seguido pelos campos de E-mail e Senha para fazer login, se você já tem uma conta
-   - Texto \'Não tem uma conta?\', seguido por um link \'Cadastre-se\', que permite registrar-se usando seu endereço de e-mail externo
+   - Caixa de seleção 'Lembrar de mim', que permite manter seu status de logado neste dispositivo
+   - Link 'Esqueci a Senha', que está disponível se você já possui uma conta mas não lembra sua senha
+   - Texto 'Ou entre com', seguido pelos campos de E-mail e Senha para fazer login, se você já tem uma conta
+   - Texto 'Não tem uma conta?', seguido por um link 'Cadastre-se', que permite registrar-se usando seu endereço de e-mail externo
 
 ### Cadastro com conta do Google
 
-Este método é recomendável para acesso eficiente através de uma conta do Google, facilitando a sincronização perfeita com o Google Calendar. A experiência mais eficaz pode ser alcançada utilizando o navegador Google Chrome.
+Este método é recomendado para acesso eficiente através de uma conta do Google, facilitando a sincronização perfeita com o Google Calendar. A experiência mais eficaz pode ser alcançada utilizando o navegador Google Chrome.
 
 1. Clique no botão **Google**
 2. Uma janela pop-up aparecerá, solicitando que você selecione sua conta do Google
@@ -28,7 +28,7 @@ Este método é recomendável para acesso eficiente através de uma conta do Goo
 
 ### Cadastro com conta da Microsoft
 
-Este método é recomendável para obter acesso rápido usando uma conta da Microsoft. A experiência ideal pode ser realizada utilizando o navegador Microsoft Edge.
+Este método é recomendado para obter acesso rápido usando uma conta da Microsoft. A experiência ideal pode ser realizada utilizando o navegador Microsoft Edge.
 
 1. Clique no botão **Microsoft**
 2. Uma janela pop-up aparecerá, solicitando que você selecione sua conta da Microsoft
@@ -118,7 +118,7 @@ Se você criou sua conta usando um endereço de email externo:
 
 A página de Perfil do Usuário no InterMIND oferece aos usuários a oportunidade de visualizar e personalizar suas configurações pessoais, gerenciar preferências de dispositivos, definir opções de comunicação e executar ações essenciais da conta, incluindo exclusão da conta.
 
-### Acessando a página de perfil do usuário
+### Acessando a página de Perfil do Usuário
 
 Os usuários podem acessar seu perfil através de dois métodos:
 
@@ -129,7 +129,7 @@ Os usuários podem acessar seu perfil através de dois métodos:
 
 **URL Direto:** Navegue para: [https://intermind.com/profile](https://intermind.com/profile)
 
-### Visão geral do perfil
+### Visão Geral do Perfil
 
 A página de perfil está organizada em quatro abas principais:
 
@@ -143,7 +143,7 @@ A página de perfil está organizada em quatro abas principais:
 **Plano Atual**
 
 - Mostra o tipo de assinatura ativa (ex.: Básico, Pro) e seu período de validade
-- Usuários básicos veem um botão **Atualizar Plano**
+- Usuários Básicos veem um botão **Atualizar Plano**
 - Usuários Pro veem um botão **Cancelar Assinatura**
 
 **Preferências de Comunicação**

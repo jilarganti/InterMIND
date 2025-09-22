@@ -34,7 +34,7 @@ Inilah mengapa kami merancang InterMind dengan **kerahasiaan berbasis wilayah**:
 
 ## Kerahasiaan Berbasis Wilayah: Cara Kerjanya
 
-Di awal setiap sesi, atau sebagai bagian dari pengaturan akun organisasi Anda, Anda dapat memilih zona privasi yang diinginkan:
+Pada awal setiap sesi, atau sebagai bagian dari pengaturan akun organisasi Anda, Anda dapat memilih zona privasi yang diinginkan:
 
 | Wilayah       | Hukum yang Berlaku                                                                            | Infrastruktur                  | Penyedia LLM               |
 | ------------- | --------------------------------------------------------------------------------------------- | ------------------------------ | -------------------------- |
@@ -110,7 +110,7 @@ Anda dapat menyesuaikan sesi Anda agar sesuai dengan kebutuhan kerahasiaan Anda:
 
 ## Apa yang Anda Dapatkan Secara Langsung
 
-- Penggunaan LLM spesifik wilayah, dengan transparansi real-time.
+- Penggunaan LLM khusus wilayah, dengan transparansi real-time.
 - Tidak ada pelatihan atau profiling konten Anda — selamanya.
 - Nol transmisi data jika interpretasi dimatikan.
 - Penyimpanan data opsional, selalu terikat wilayah.
@@ -118,12 +118,12 @@ Anda dapat menyesuaikan sesi Anda agar sesuai dengan kebutuhan kerahasiaan Anda:
 
 ## Kesimpulan
 
-> Privasi bukanlah janji — ini adalah arsitektur.
+> Privasi bukanlah janji — melainkan sebuah arsitektur.
 
-InterMind tidak bersembunyi di balik jaminan yang samar. Sebaliknya, kami memberi Anda **pilihan**, **visibilitas**, dan **kontrol**.
+InterMind tidak bersembunyi di balik jaminan yang samar. Sebaliknya, kami memberikan Anda **pilihan**, **transparansi**, dan **kontrol**.
 
 - Anda memilih wilayah Anda.
 - Anda memilih tingkat interpretasi Anda.
-- Anda memutuskan risiko apa yang bersedia Anda terima — dan kami membantu Anda tetap patuh di setiap tingkat.
+- Anda memutuskan risiko apa yang bersedia Anda terima — dan kami membantu Anda tetap patuh di setiap tingkatan.
 
 **InterMind — dibangun untuk profesional, didukung oleh kepatuhan, diatur oleh kepercayaan.**

@@ -24,12 +24,12 @@ Esta seção fornece soluções para problemas comuns encontrados durante reuni�
 
 ### Soluções:
 
-- Verifique a precisão do link e confirme com o anfitrião
+- Verifique a precisão do link e confirme com o Anfitrião
 - Atualize seu navegador e tente novamente
 
-## Tradutor não está funcionando
+## Tradutor Não Está Funcionando
 
-### Causas comuns:
+### Causas Comuns:
 
 - Todos os participantes selecionaram o mesmo idioma
 - Microfone silenciado
@@ -40,7 +40,7 @@ Esta seção fornece soluções para problemas comuns encontrados durante reuni�
 
 - Selecione seu idioma preferido em Configurações > Idioma
 - Reingresse ou atualize a página da reunião
-- Certifique-se de que o acesso ao microfone está concedido e habilitado
+- Certifique-se de que o acesso ao microfone foi concedido e está habilitado
 
 ## Eco ou Feedback de Áudio
 
@@ -87,7 +87,7 @@ Esta seção fornece soluções para problemas comuns encontrados durante reuni�
 ### Soluções:
 
 - Mude para uma conexão com fio ou Wi-Fi estável
-- Desligue sua própria câmera ou as câmeras de outros se necessário
+- Desligue sua própria câmera ou as câmeras de outros, se necessário
 
 ## A Gravação Não Inicia
 

@@ -5,14 +5,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
-  description: "专业视频会议，支持19+种语言的同声传译。AI驱动的翻译技术，准确捕捉语调、意图和语境，助力全球团队沟通。",
+  description:
+    "专业视频会议，支持19+种语言的同声传译。AI驱动的翻译技术，准确捕捉语调、意图和语境，助力全球团队沟通。",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | 全球团队实时语音翻译" }],
     [
       "meta",
       {
         property: "og:description",
-        content: "专业视频会议，支持19+种语言的同声语音传译。全球会议，自然沟通，AI驱动的翻译技术。",
+        content:
+          "专业视频会议，支持19+种语言的同声语音传译。全球会议，自然沟通，AI驱动的翻译技术。",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -77,7 +79,7 @@ export const zh = defineConfig({
       successMessage: "我们已收到您的消息——我们的团队将很快与您联系。",
       defaultCategories: [],
 
-      defaultButtonText: "发送消息",
+      defaultButtonText: "给我们发消息",
       // defaultButtonText: "获取免费咨询",
     },
   },
@@ -101,7 +103,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "指南",
       collapsed: false,
       items: [
-        { text: "快速入门", link: "guide/getting-started" },
+        { text: "入门指南", link: "guide/getting-started" },
         { text: "账户管理", link: "guide/account-management" },
         { text: "创建会议", link: "guide/creating-meetings" },
         { text: "会议界面", link: "guide/meeting-interface" },
@@ -143,7 +145,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "关于我们", link: "/company/about" },
         { text: "团队", link: "/company/team" },
         { text: "招聘", link: "/company/careers" },
-        { text: "联系我们", link: "/company/contacts" },
+        { text: "联系方式", link: "/company/contacts" },
       ],
     },
   ]

@@ -1,6 +1,6 @@
 # Menghancurkan Hambatan Antar Budaya
 
-<img src="/resources/iStock-1492917260.jpg" alt="dirham UEA" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/resources/iStock-1492917260.jpg" alt="Dirham UEA" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/resources/iStock-1130023029.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 Kami membangun teknologi yang menghilangkan hambatan bahasa antar manusia. Produk kami memungkinkan orang-orang dari berbagai negara berbicara dalam bahasa asli mereka dan saling memahami secara alami.
@@ -29,7 +29,7 @@ Kami mencari orang yang:
 
 Sebuah platform yang membuat kemahiran bahasa asing menjadi opsional untuk kesuksesan profesional. Bayangkan ini: seorang insinyur Jepang, manajer Jerman, dan desainer Brasil mendiskusikan sebuah proyek—masing-masing berbicara dalam bahasa ibu mereka, semua orang memahami dengan sempurna.
 
-Kami tidak hanya menerjemahkan kata-kata—kami mempertahankan makna, nada, konteks budaya. Secara real-time. Tanpa penundaan. Dengan akurasi setingkat manusia.
+Kami tidak hanya menerjemahkan kata-kata—kami melestarikan makna, nada, konteks budaya. Secara real-time. Tanpa penundaan. Dengan akurasi setingkat manusia.
 
 ## Siapa yang Kami Cari
 
@@ -65,7 +65,7 @@ Kami tidak hanya menerjemahkan kata-kata—kami mempertahankan makna, nada, kont
 
 **Portofolio mengalahkan resume.** Tunjukkan kepada kami GitHub, demo, tautan produk. Ceritakan kepada kami kisah masalah yang Anda selesaikan dan hasil yang Anda capai.
 
-**Proyek nyata mengalahkan tes coding.** Kami ingin melihat bagaimana Anda bekerja di bawah kendala nyata dengan tenggat waktu nyata.
+**Proyek nyata mengalahkan tes coding.** Kami ingin melihat bagaimana Anda bekerja di bawah kendala nyata dengan tenggat waktu yang nyata.
 
 **Dampak mengalahkan aktivitas.** Satu proyek yang mengubah ribuan kehidupan mengalahkan sepuluh latihan teknis.
 
@@ -79,7 +79,7 @@ Kami tidak hanya menerjemahkan kata-kata—kami mempertahankan makna, nada, kont
 
 3. **Berbicara dengan tim.** Jika pengalaman Anda menarik bagi kami, Anda akan mengobrol dengan anggota tim. Tidak ada wawancara formal—hanya percakapan tentang apa dan bagaimana Anda membangun.
 
-4. **Bekerja dengan kami.** Proyek nyata singkat agar semua orang memahami bagaimana kami bekerja sama.
+4. **Bekerja dengan kami.** Proyek nyata singkat sehingga semua orang memahami bagaimana kami bekerja sama.
 
 ## Apa yang Kami Tawarkan
 
@@ -92,7 +92,7 @@ Kami tidak hanya menerjemahkan kata-kata—kami mempertahankan makna, nada, kont
 
 **Sumber daya tak terbatas.** Segala yang Anda butuhkan untuk membangun produk terbaik di kategorinya.
 
-**Dampak global.** Karya Anda akan mengubah cara manusia berkomunikasi lintas batas bahasa.
+**Dampak global.** Pekerjaan Anda akan mengubah cara manusia berkomunikasi lintas batas bahasa.
 
 ## Bergabunglah dengan Kami
 

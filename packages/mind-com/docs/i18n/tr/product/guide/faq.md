@@ -1,6 +1,6 @@
 # Sık Sorulan Sorular (SSS)
 
-SSS bölümü, hesaplar ve erişim, toplantı oluşturma ve kaydetme, AI Asistanı'nın yetenekleri, çeviri özellikleri, sohbet katılımı ve cihaz ayarları gibi konuları kapsayan InterMIND hakkında temel bilgiler sağlar. Misafir erişimi, toplantı planlama, AI Asistanı kullanımı, dil çevirisi, sohbet işlevleri ve cihaz uyumluluğu ile ilgili yaygın soruları ele alır.
+SSS bölümü, hesaplar ve erişim, toplantı oluşturma ve kaydetme, AI Asistanının yetenekleri, çeviri özellikleri, sohbet katılımı ve cihaz ayarları gibi konuları kapsayan InterMIND hakkında temel bilgiler sağlar. Misafir erişimi, toplantı planlama, AI Asistanını kullanma, dil çevirisi, sohbet işlevleri ve cihaz uyumluluğu ile ilgili yaygın soruları ele alır.
 
 ## Erişim
 
@@ -18,8 +18,8 @@ Ana sayfadan **Yeni Toplantı**'ya tıklayın. Ardından anında başlatmayı, G
 **Toplantılar kaydedilebilir mi?**
 Evet, Ev Sahipleri ve Moderatörler kayıt başlatabilir ve sonlandırabilir. Kayıt başladığında tüm katılımcılar bildirim alacaktır.
 
-**Yinelenen toplantılar planlayabilir miyim?**
-Evet, 'Google Takvim'de toplantı planla' seçeneğini kullanabilirsiniz. Toplantı ayarlarında, tercihlerinize göre günlük bazda veya diğer seçeneklerde yineleme seçeneklerini seçebileceksiniz.
+**Tekrarlayan toplantılar planlayabilir miyim?**
+Evet, 'Google Takvim'de toplantı planla' seçeneğini kullanabilirsiniz. Toplantı ayarlarında, tercihlerinize göre günlük bazda veya diğer seçeneklerde tekrarlama seçeneklerini seçebileceksiniz.
 
 ## AI Asistanı
 
@@ -40,15 +40,15 @@ Evet, seçilen dilde gerçek zamanlı ses dublajı sağlar.
 **Toplantı sırasında dili değiştirebilir miyim?**
 Evet, 'Ayarlar > Diliniz' seçeneği aracılığıyla.
 
-**Konuklar çevrilir mi?**
-Evet, Çevirmen seçeneği konuklar için de mevcuttur.
+**Misafirler çevrilir mi?**
+Evet, Çevirmen seçeneği misafirler için de mevcuttur.
 
 ## Katılım
 
 **Sohbette özel mesaj gönderebilir miyim?**
 Şu anda hayır. Tüm sohbet mesajları tüm katılımcılar tarafından görülebilir.
 
-**Nasıl el kaldırırım?**
+**Elimi nasıl kaldırırım?**
 Alt araç çubuğundaki **El Kaldır** düğmesine tıklayın. Tüm katılımcılar bilgilendirilecektir.
 
 ## Ayarlar

@@ -33,6 +33,6 @@ InterMIND không chỉ là một công cụ hội nghị truyền hình có tín
 1. Công nghệ nên thích ứng với con người, chứ không phải con người thích ứng với công nghệ
 2. Giao tiếp thực sự là về sự hiểu biết — không chỉ là trao đổi từ ngữ
 
-Với InterMIND, chúng tôi đã tạo ra một hệ thống nơi rào cản ngôn ngữ tan biến ngay lập tức. Nền tảng của chúng tôi không chỉ dịch thuật — nó diễn giải sắc thái, ngữ cảnh và ý nghĩa qua các ngôn ngữ trong thời gian thực, mang lại trải nghiệm mà cần hàng thập kỷ học ngôn ngữ mới có thể đạt được một cách tự nhiên.
+Với InterMIND, chúng tôi đã tạo ra một hệ thống nơi rào cản ngôn ngữ tan biến ngay lập tức. Nền tảng của chúng tôi không chỉ dịch thuật — nó diễn giải sắc thái, ngữ cảnh và ý nghĩa qua các ngôn ngữ trong thời gian thực, mang lại trải nghiệm mà cần phải mất hàng thập kỷ học ngôn ngữ mới có thể đạt được một cách tự nhiên.
 
 > Đây không chỉ là về sự hiểu biết — mà là về việc thúc đẩy sự hợp tác, tin tưởng và ra quyết định trong bối cảnh toàn cầu.

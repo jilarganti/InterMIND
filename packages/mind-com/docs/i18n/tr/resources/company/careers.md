@@ -57,7 +57,7 @@ Sadece kelimeleri çevirmiyoruz—anlamı, tonu, kültürel bağlamı koruyoruz.
 ### Geleceği inşa eden liderler
 
 - Sıfırdan uluslararası pazar genişlemesi
-- Belirsizlik içinde ekip kurma
+- Belirsizlik içinde takım kurma
 - "Dünyanın ilk" kategorisinde ürünler geliştirme
 - Yeni endüstri standartları oluşturma
 
@@ -109,7 +109,7 @@ Yaptıklarınızı gösterin. Bundan sonra ne inşa etmek istediğinizi anlatın
   categoryLabel="Uzmanlık alanınız nedir? *"  
   categoryPlaceholderText="Alanınızı seçin..."  
   messageLabel="Çalışmalarınızı gösterin *"  
-  messagePlaceholderText="Projelerinizin linklerini, GitHub\'ınızı, portföyünüzü paylaşın veya yarattığınız etkiyi anlatın. Çözmeyi heyecanla beklediğiniz problem nedir?"  
+  messagePlaceholderText="Projelerinizin linklerini, GitHub'ınızı, portföyünüzü paylaşın veya yarattığınız etkiyi anlatın. Çözmeyi heyecanla beklediğiniz problem nedir?"  
   buttonText="Başvurunuzu gönderin"
   webSiteLabel="Git / Blog / Site / ..."
   webSitePlaceholderText="örn. github.com/kullaniciadi"

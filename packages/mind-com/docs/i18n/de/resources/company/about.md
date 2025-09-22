@@ -16,7 +16,7 @@ Keine Untertitel. Keine Verzögerungen. Keine verlorenen Geschäfte wegen Sprach
 
 **Keine Übersetzung. Keine Dolmetschung. Etwas völlig Neues.**
 
-InterMIND ist **gesprächige Telepathie** — Sie denken auf Englisch, sie hören perfektes Mandarin. Sie antworten auf Japanisch, Sie verstehen jede Nuance.
+InterMIND ist **konversationelle Telepathie** — Sie denken auf Englisch, sie hören perfektes Mandarin. Sie antworten auf Japanisch, Sie verstehen jede Nuance.
 
 Es bewahrt **Ihre Stimme**, **Ihren Ton**, **Ihre Persönlichkeit** — in jeder Sprache.  
 Es erfasst **Kontext**, **kulturellen Subtext**, **Geschäftsabsicht**.
@@ -33,16 +33,12 @@ Wo andere Barrieren schaffen, schaffen wir **Verbindung**.
 
 ## Unsere Philosophie
 
-Die Sprache sollte nicht bestimmen, mit wem Sie arbeiten können.  
-Die Geografie sollte Ihre Ambitionen nicht begrenzen.  
-Die Kultur sollte kein Wettbewerbsnachteil sein.
+Sprache sollte nicht bestimmen, mit wem Sie arbeiten können.  
+Geografie sollte Ihre Ambitionen nicht begrenzen.  
+Kultur sollte kein Wettbewerbsnachteil sein.
 
-> **Wir entwickeln keinen Übersetzer. Wir bauen eine Brücke zwischen Welten.**
+> **Wir bauen keinen Übersetzer. Wir bauen eine Brücke zwischen Welten.**
 
 Die Zukunft gehört denen, die global zusammenarbeiten können — sofort, natürlich, intelligent.
 
 — _Das Mind.com Team_
-
----
-
-_Die Welt wirklich grenzenlos machen, ein Gespräch nach dem anderen._

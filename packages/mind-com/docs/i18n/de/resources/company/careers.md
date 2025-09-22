@@ -27,9 +27,9 @@ Wir suchen Menschen, die:
 
 ## Was wir entwickeln
 
-Eine Plattform, die Fremdsprachenkenntnisse für beruflichen Erfolg optional macht. Stellen Sie sich vor: Ein japanischer Ingenieur, ein deutscher Manager und ein brasilianischer Designer diskutieren über ein Projekt—jeder spricht seine Muttersprache, alle verstehen sich perfekt.
+Eine Plattform, die Fremdsprachenkenntnisse für beruflichen Erfolg optional macht. Stellen Sie sich vor: Ein japanischer Ingenieur, ein deutscher Manager und ein brasilianischer Designer diskutieren über ein Projekt – jeder spricht in seiner Muttersprache, alle verstehen sich perfekt.
 
-Wir übersetzen nicht nur Wörter—wir bewahren Bedeutung, Tonfall und kulturellen Kontext. In Echtzeit. Ohne Verzögerungen. Mit menschlicher Genauigkeit.
+Wir übersetzen nicht nur Wörter – wir bewahren Bedeutung, Tonfall und kulturellen Kontext. In Echtzeit. Ohne Verzögerungen. Mit menschlicher Genauigkeit.
 
 ## Wen wir suchen
 
@@ -88,19 +88,19 @@ Wir übersetzen nicht nur Wörter—wir bewahren Bedeutung, Tonfall und kulturel
 
 **Herausforderungen von Weltrang.** Sie lösen Probleme, die Milliarden von Menschen betreffen.
 
-**Weltklasse-Team.** Arbeiten Sie mit Top-Spezialisten in den Bereichen KI, Echtzeitsysteme und globale Kommunikation.
+**Weltklasse-Team.** Arbeiten Sie mit Top-Spezialisten in KI, Echtzeitsystemen und globaler Kommunikation.
 
 **Unbegrenzte Ressourcen.** Alles, was Sie brauchen, um das beste Produkt in der Kategorie zu entwickeln.
 
-**Globale Wirkung.** Ihre Arbeit wird verändern, wie die Menschheit über Sprachgrenzen hinweg kommuniziert.
+**Globale Auswirkungen.** Ihre Arbeit wird verändern, wie die Menschheit über Sprachgrenzen hinweg kommuniziert.
 
 ## Werden Sie Teil unseres Teams
 
-Wenn Sie bereits etwas Bedeutsames aufgebaut haben und bereit sind, Technologie zu entwickeln, die die Welt verändert—schreiben Sie uns.
+Wenn Sie bereits etwas Bedeutsames aufgebaut haben und bereit sind, Technologie zu entwickeln, die die Welt verändert – schreiben Sie uns.
 
 Zeigen Sie uns, was Sie getan haben. Erzählen Sie uns, was Sie als nächstes aufbauen möchten.
 
-<!-- **Contact:** careers@mind.com -->
+<!-- **Kontakt:** careers@mind.com -->
 
 <br>
 

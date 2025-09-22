@@ -10,7 +10,7 @@ Bu kılavuzda şunları keşfedeceksiniz:
 - Toplantı oluşturma ve planlama yönergeleri
 - Kullanıcı rolleri, izinler ve gerçek zamanlı çeviri yetenekleri hakkında bilgiler
 - Yapay Zeka Asistanı ve Ses Çevirici gibi yapay zeka destekli özelliklerin genel bakışı
-- Sorun giderme ipuçları ve sık sorulan soruların cevapları
+- Sorun giderme ipuçları ve sık sorulan soruların yanıtları
 
 Başlayalım — akıllı toplantıların geleceği şimdi başlamaya hazır.
 
@@ -70,13 +70,13 @@ InterMIND hem masaüstü hem de mobil kullanım için optimize edilmiş olup, ku
 - Android akıllı telefonlar ve tabletler
 - iOS akıllı telefonlar ve tabletler
 
-Kullanıcılar herhangi bir yazılım kurulumu gerektirmeden platformu doğrudan tarayıcıları üzerinden erişebilirler.
+Kullanıcılar herhangi bir yazılım kurulumu gerektirmeden doğrudan tarayıcıları üzerinden platforma erişebilirler.
 
 ### Nasıl Erişilir
 
 1. Web tarayıcınızı açın
 2. https://intermind.com adresini ziyaret edin
-3. Giriş yapın veya doğrudan misafir olarak toplantı bağlantısına katılın
+3. Giriş yapın veya misafir olarak doğrudan toplantı bağlantısına katılın
 4. İstendiğinde kamera ve mikrofon izinlerini verin
 
 > [!WARNING]
@@ -84,15 +84,15 @@ Kullanıcılar herhangi bir yazılım kurulumu gerektirmeden platformu doğrudan
 
 ### Tarayıcı Uyumluluğu
 
-InterMIND tüm platformlarda büyük modern tarayıcıların tümü ile uyumludur. Herhangi bir uzantı veya eklenti kurulumu gerekmez.
+InterMIND, platformlar arası tüm büyük modern tarayıcılarla uyumludur. Herhangi bir uzantı veya eklenti kurulumu gerekmez.
 
 #### Önerilen Tarayıcılar
 
 **Optimal Performans:**
 
-- Chrome (Google'ın resmi web tarayıcısı)
-- Edge (Microsoft'un resmi web tarayıcısı)
-- Safari (Apple'ın resmi web tarayıcısı)
+- Chrome (Google\'un resmi web tarayıcısı)
+- Edge (Microsoft\'un resmi web tarayıcısı)
+- Safari (Apple\'ın resmi web tarayıcısı)
 
 **Sınırlı Destek veya Önerilmeyen:**
 
@@ -113,7 +113,7 @@ Tüm Tarayıcılarda Mevcut:
 - AI Asistanı
 - Arama içi mesajlar
 - Ekran kaydı
-- Ekran paylaşımı (yalnızca masaüstü tarayıcılar)
+- Ekran paylaşımı (yalnızca masaüstü tarayıcıları)
 - Düzen ve görüntüleme seçenekleri
 
 > [!TIP]

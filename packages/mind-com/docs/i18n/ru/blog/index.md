@@ -18,7 +18,7 @@ import { renderMarkdown } from 'shared/utils/markdown'
     </h1>
     <div class="text-[var(--vp-c-text-2)] text-sm mt-2 flex items-center flex-nowrap">
       <span>{{ post.date.string }}</span>
-      <span v-if="post.author" class="ml-2 flex items-center flex-nowrap">автор:&nbsp;<span v-html="renderMarkdown(post.author)"></span></span>
+      <span v-if="post.author" class="ml-2 flex items-center flex-nowrap">автор&nbsp;<span v-html="renderMarkdown(post.author)"></span></span>
     </div>
     <div class="text-[var(--vp-c-text-1)] mt-4 leading-relaxed" v-if="post.description" v-html="renderMarkdown(post.description)">
     </div>

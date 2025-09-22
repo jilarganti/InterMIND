@@ -1,4 +1,4 @@
-# Plataforma de videollamadas InterMind
+# Plataforma de Videollamadas InterMind
 
 <video  autoplay muted playsinline style="margin-top: 24px" class="light-only">
   <source src="/video-meeting-platform-1d.mp4" type="video/mp4">
@@ -7,9 +7,9 @@
   <source src="/video-meeting-platform-1l.mp4" type="video/mp4">
 </video>
 
-## Diseñado para reuniones serias — No solo para conversar
+## Diseñado para Reuniones Serias — No Solo para Conversar
 
-InterMind no es solo otro plugin o herramienta básica — es una plataforma de videollamadas completa y de nivel empresarial diseñada para comunicación profesional, colaboración de alto nivel y operaciones a escala global. Esto es lo que la hace diferente:
+InterMind no es solo otro plugin o herramienta básica — es una plataforma de videorreuniones completa y de nivel empresarial diseñada para comunicación profesional, colaboración de alto nivel y operaciones a escala global. Esto es lo que la hace diferente:
 
 ### 🎥 Video de alta definición 1080p
 
@@ -40,7 +40,7 @@ InterMind se integra perfectamente con **Google Calendar, Outlook e iCal**, faci
 Modera con confianza usando **controles de moderación** integrados:
 
 - Silenciar/activar audio de participantes.
-- Controlar el uso compartido de pantalla y acceso a cámara.
+- Controlar el acceso a compartir pantalla y cámara.
 - Asignar co-anfitriones o moderadores.
 - Bloquear o proteger reuniones con contraseña.
 
@@ -67,7 +67,7 @@ Graba reuniones con un solo clic. Los videos se guardan de forma segura en la nu
 Para mayor accesibilidad, InterMind proporciona **subtítulos en tiempo real** opcionales en múltiples idiomas, incluso cuando la interpretación de voz en vivo está activa.
 
 - Compatible con usuarios con discapacidad auditiva.
-- Ayuda a aclarar el habla técnica o con acento.
+- Ayuda a aclarar discursos técnicos o con acento.
 - Sincronizado con la voz del orador en tiempo real.
 
 ### 💬 Chat durante la reunión

@@ -1,6 +1,6 @@
 # Câu hỏi thường gặp (FAQ)
 
-Phần FAQ cung cấp thông tin cần thiết về InterMIND, bao gồm các chủ đề như tài khoản và quyền truy cập, tạo và ghi âm cuộc họp, khả năng của trợ lý AI, tính năng dịch thuật, tham gia chat và cài đặt thiết bị. Phần này giải đáp các câu hỏi phổ biến về quyền truy cập khách, lên lịch cuộc họp, sử dụng trợ lý AI, dịch ngôn ngữ, chức năng chat và khả năng tương thích thiết bị.
+Phần FAQ cung cấp thông tin cần thiết về InterMIND, bao gồm các chủ đề như tài khoản và quyền truy cập, tạo và ghi âm cuộc họp, khả năng của trợ lý AI, tính năng dịch thuật, tham gia chat, và cài đặt cho các thiết bị. Phần này giải đáp các câu hỏi phổ biến về quyền truy cập khách, lên lịch cuộc họp, sử dụng trợ lý AI, dịch ngôn ngữ, chức năng chat, và khả năng tương thích thiết bị.
 
 ## Truy cập
 
@@ -13,13 +13,13 @@ Có, bạn có thể dễ dàng đăng ký hoặc đăng nhập bằng tài kho�
 ## Cuộc họp
 
 **Làm thế nào để tạo một cuộc họp?**
-Nhấp vào **New Meeting** từ trang chính. Sau đó bạn có thể chọn bắt đầu ngay lập tức, lên lịch cuộc họp trong Google Calendar, hoặc tạo liên kết cuộc họp để sử dụng sau.
+Nhấp vào **Cuộc họp mới** từ trang chính. Sau đó bạn có thể chọn bắt đầu ngay lập tức, lên lịch cuộc họp trong Google Calendar, hoặc tạo liên kết cuộc họp để sử dụng sau.
 
 **Cuộc họp có thể được ghi lại không?**
 Có, Chủ trì và Người điều hành có thể bắt đầu và kết thúc việc ghi âm. Tất cả người tham gia sẽ nhận được thông báo khi việc ghi âm bắt đầu.
 
 **Tôi có thể lên lịch các cuộc họp định kỳ không?**
-Có, bạn có thể sử dụng tùy chọn 'Schedule a meeting in Google Calendar'. Trong cài đặt cuộc họp, bạn sẽ có thể chọn các tùy chọn lặp lại hàng ngày hoặc các tùy chọn khác theo sở thích của bạn.
+Có, bạn có thể sử dụng tùy chọn 'Lên lịch cuộc họp trong Google Calendar'. Trong cài đặt cuộc họp, bạn sẽ có thể chọn các tùy chọn lặp lại hàng ngày hoặc các tùy chọn khác theo sở thích của bạn.
 
 ## Trợ lý AI
 
@@ -40,8 +40,8 @@ Có, nó cung cấp lồng tiếng theo thời gian thực bằng ngôn ngữ đ
 **Tôi có thể thay đổi ngôn ngữ giữa cuộc họp không?**
 Có, thông qua tùy chọn 'Cài đặt > Ngôn ngữ của bạn'.
 
-**Khách mời có được dịch không?**
-Có, tùy chọn Trình dịch cũng có sẵn cho khách mời.
+**Khách có được dịch không?**
+Có, tùy chọn Trình dịch cũng có sẵn cho khách.
 
 ## Tham gia
 

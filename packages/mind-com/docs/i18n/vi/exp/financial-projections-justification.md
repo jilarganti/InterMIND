@@ -6,8 +6,8 @@ Tài liệu này giải thích các giả định đằng sau mô hình tài ch�
 
 | Năm | Tài khoản trả phí | Lý do                                                                                                                                                            |
 | ---- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1    | 1,600           | Triển khai ban đầu trên 5 thị trường mới nổi (MX, BR, TR, TH, ID), được chấp nhận sớm bởi người dùng B2B tập trung xuất khẩu. Nhu cầu cao đối với các giải pháp thay thế bằng tiếng Anh.               |
-| 2    | 15,600          | SEO địa phương hóa và chiến dịch trả phí tại hơn 10 quốc gia, hiệu ứng mạng lưới thông qua các cuộc họp khách hàng, mở rộng quy trình freemium. Tích hợp Zoom/CRM thúc đẩy việc thu hút thị trường tầm trung. |
+| 1    | 1,600           | Triển khai ban đầu trên 5 thị trường mới nổi (MX, BR, TR, TH, ID), được chấp nhận sớm bởi người dùng B2B tập trung xuất khẩu. Nhu cầu cao đối với các lựa chọn thay thế bằng tiếng Anh.               |
+| 2    | 15,600          | SEO địa phương hóa và chiến dịch trả phí tại hơn 10 quốc gia, hiệu ứng mạng lưới thông qua các cuộc họp khách hàng, mở rộng quy mô phễu freemium. Tích hợp Zoom/CRM thúc đẩy việc thu hút thị trường tầm trung. |
 | 3    | 72,000          | Tăng trưởng lan truyền thông qua UX "nói bằng ngôn ngữ của bạn", tích hợp sâu theo ngành dọc (ERP, onboarding, pháp lý), chương trình đại lý tại EU/MENA.                                     |
 
 ## Doanh thu định kỳ hàng năm (ARR)
@@ -16,7 +16,7 @@ Tài liệu này giải thích các giả định đằng sau mô hình tài ch�
 | --- | ----------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | $705,600    | 1,600 tài khoản trả phí × 1.5 giấy phép trung bình × $24.50/tháng → chuyển đổi freemium thận trọng + chương trình B2B thí điểm. |
 | 2   | $8,985,600  | 15,600 tài khoản trả phí × 2.0 giấy phép trung bình × $24.00/tháng → cải thiện chuyển đổi freemium + thu hút B2B tích cực.      |
-| 3   | $50,760,000 | 72,000 tài khoản trả phí × 2.5 giấy phép trung bình × $23.50/tháng → sản phẩm trưởng thành, mở rộng thị trường trung bình, bán thêm (lưu trữ, vùng riêng tư). |
+| 3   | $50,760,000 | 72,000 tài khoản trả phí × 2.5 giấy phép trung bình × $23.50/tháng → sản phẩm trưởng thành, mở rộng thị trường trung cấp, bán thêm (lưu trữ, vùng riêng tư). |
 
 ## Giấy phép trên mỗi tài khoản: Phân khúc thực tế
 
@@ -40,16 +40,16 @@ Tài liệu này giải thích các giả định đằng sau mô hình tài ch�
 | Năm | CAC Trung bình | Lý do                                                                                                                                                 |
 | --- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | $95            | Kết hợp tìm kiếm trả phí, bán hàng do người sáng lập dẫn dắt và các chương trình thí điểm chi phí thấp. Các chiến dịch cấp quốc gia với từ khóa có ý định cao (ví dụ: "como hablar ingles reuniones"). |
-| 2   | $90            | CAC giảm do cải thiện các chỉ số phễu bán hàng, hướng dẫn địa phương hóa và tiếp thị nội dung. Các kênh tự nhiên và giới thiệu được củng cố.        |
+| 2   | $90            | CAC giảm do cải thiện các chỉ số phễu bán hàng, onboarding được bản địa hóa và tiếp thị nội dung. Các kênh tự nhiên và giới thiệu được củng cố.      |
 | 3   | $85            | Hiệu quả CAC từ các chương trình đại lý, tích hợp đối tác và mô hình phân bổ trưởng thành.                                                           |
 
 ## LTV (Giá trị trọn đời khách hàng)
 
 | Năm | LTV    | Cơ sở tính toán                                                                                     |
-| ---- | ------ | ----------------------------------------------------------------------------------------------------- |
-| 1    | $178.9 | ARPU $36.8/tháng × 4.9 tháng thời gian lưu trú trung bình (người dùng ban đầu, tỷ lệ rời bỏ cao trong phân khúc freemium).                      |
-| 2    | $308.0 | ARPU $48.0/tháng × 6.4 tháng thời gian lưu trú trung bình (cải thiện khả năng giữ chân, khách hàng B2B trung thành hơn).                      |
-| 3    | $470.0 | ARPU $58.8/tháng × 8.0 tháng thời gian lưu trú trung bình (thị trường tầm trung chiếm ưu thế; ACV cao hơn + gia hạn + nâng cấp, tỷ lệ rời bỏ 10%). |
+| --- | ------ | --------------------------------------------------------------------------------------------------- |
+| 1   | $178.9 | ARPU $36.8/tháng × 4.9 tháng thời gian sử dụng trung bình (người dùng ban đầu, tỷ lệ rời bỏ cao trong phân khúc freemium). |
+| 2   | $308.0 | ARPU $48.0/tháng × 6.4 tháng thời gian sử dụng trung bình (cải thiện khả năng giữ chân, khách hàng B2B trung thành hơn). |
+| 3   | $470.0 | ARPU $58.8/tháng × 8.0 tháng thời gian sử dụng trung bình (thị trường tầm trung chiếm ưu thế; ACV cao hơn + gia hạn + nâng cấp, tỷ lệ rời bỏ 10%). |
 
 ## Tỷ suất lợi nhuận gộp
 
@@ -73,21 +73,21 @@ Tài liệu này giải thích các giả định đằng sau mô hình tài ch�
 ### **Chiến lược định giá:**
 
 - Tối ưu hóa giá nhẹ qua các năm để tăng LTV
-- Phân khúc thị trường trung với các tính năng cao cấp trong năm 2-3
+- Phân khúc thị trường trung với các tính năng cao cấp trong Y2-Y3
 - Giảm giá theo khối lượng cho các tài khoản nhiều chỗ ngồi
 
 ### **Sự phát triển phân khúc khách hàng:**
 
-- **Năm 1:** Tập trung vào những người áp dụng sớm SMB (tỷ lệ rời bỏ cao, áp dụng nhanh)
-- **Năm 2:** Mở rộng vào thị trường trung thông qua tích hợp và đối tác
-- **Năm 3:** Mở rộng quy mô thị trường trung với thành công khách hàng chuyên dụng và triển khai đa phòng ban
+- **Y1:** Tập trung vào những người chấp nhận sớm SMB (tỷ lệ rời bỏ cao, chấp nhận nhanh)
+- **Y2:** Mở rộng vào thị trường trung thông qua tích hợp và đối tác
+- **Y3:** Mở rộng quy mô thị trường trung với thành công khách hàng chuyên dụng và triển khai đa phòng ban
 
 ### **Mở rộng địa lý:**
 
 - Các thị trường mới nổi trước (CAC thấp hơn, tỷ lệ tăng trưởng cao hơn)
 - Các thị trường phát triển sau (LTV cao hơn, thu hút phức tạp hơn)
 
-## Rủi ro và biện pháp giảm thiểu
+## Rủi ro và Biện pháp Giảm thiểu
 
 **Các kịch bản tích cực chưa được bao gồm:**
 

@@ -70,16 +70,16 @@ export const ru = defineConfig({
       webSitePlaceholder: "например, https://companyname.com",
       webSiteError: "Пожалуйста, введите сайт",
       category: "Какова ваша основная цель? *",
-      categoryPlaceholder: "Выберите, что важнее всего",
+      categoryPlaceholder: "Выберите наиболее важное",
       message: "Давайте обсудим ваши цели (необязательно)",
-      messagePlaceholder: "Пожалуйста, предоставьте любые дополнительные детали (необязательно)",
+      messagePlaceholder: "Пожалуйста, предоставьте дополнительные детали (необязательно)",
       submit: "Отправить запрос",
       sending: "Отправка...",
       successTitle: "Спасибо!",
       successMessage: "Мы получили ваше сообщение — наша команда свяжется с вами в ближайшее время.",
       defaultCategories: [],
 
-      defaultButtonText: "Отправьте нам сообщение",
+      defaultButtonText: "Отправить нам сообщение",
       // defaultButtonText: "Получить бесплатную консультацию",
     },
   },
@@ -153,7 +153,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 
 function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Краткое изложение для руководства", link: "/InterMind-Executive-Summary" },
+    { text: "Краткое резюме", link: "/InterMind-Executive-Summary" },
     { text: "Стратегия выхода на рынок", link: "/go-to-market-strategy" },
     { text: "Презентация для инвесторов", link: "/InterMind-Investor-Pitch" },
     { text: "Обоснование финансовых прогнозов (1-3 год)", link: "/Financial-Projections-Justification" },

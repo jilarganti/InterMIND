@@ -1,4 +1,4 @@
-# Phá bỏ rào cản giữa các nền văn hóa
+# Phá Bỏ Rào Cản Giữa Các Nền Văn Hóa
 
 <img src="/resources/iStock-1492917260.jpg" alt="Đồng dirham UAE" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/resources/iStock-1130023029.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
@@ -25,39 +25,39 @@ Chúng tôi đang tìm kiếm những người:
 
 **Giải quyết những vấn đề khó.** Đảm nhận các dự án mà chưa có giải pháp nào tồn tại? Xây dựng thứ gì đó từ con số không? Làm cho điều không thể trở nên hiển nhiên?
 
-## Chúng tôi đang xây dựng gì
+## Chúng Tôi Đang Xây Dựng Gì
 
-Một nền tảng giúp việc thành thạo ngoại ngữ không còn là yêu cầu bắt buộc để thành công trong công việc. Hãy tưởng tượng: một kỹ sư Nhật Bản, một quản lý Đức và một nhà thiết kế Brazil thảo luận về một dự án—mỗi người nói tiếng mẹ đẻ của mình, nhưng tất cả đều hiểu nhau một cách hoàn hảo.
+Một nền tảng giúp việc thành thạo ngoại ngữ không còn là yêu cầu bắt buộc cho thành công nghề nghiệp. Hãy tưởng tượng: một kỹ sư Nhật Bản, một quản lý Đức, và một nhà thiết kế Brazil thảo luận về một dự án—mỗi người nói tiếng mẹ đẻ của mình, nhưng tất cả đều hiểu nhau một cách hoàn hảo.
 
 Chúng tôi không chỉ dịch từ ngữ—chúng tôi bảo tồn ý nghĩa, ngữ điệu, bối cảnh văn hóa. Trong thời gian thực. Không có độ trễ. Với độ chính xác ở mức con người.
 
 ## Chúng tôi đang tìm kiếm ai
 
-### Kỹ sư xây dựng những điều không thể
+### Các kỹ sư xây dựng những điều không thể
 
 - Hệ thống thời gian thực với độ trễ micro giây
 - Mô hình AI cho xử lý giọng nói trực tiếp
 - Cơ sở hạ tầng có thể mở rộng cho hàng triệu cuộc gọi đồng thời
 - Tối ưu hóa WebRTC cho mạng lưới toàn cầu
 
-### Nhà nghiên cứu thúc đẩy khoa học
+### Các nhà nghiên cứu thúc đẩy khoa học
 
-- Kiến trúc neural cho hiểu biết đa ngôn ngữ
+- Kiến trúc mạng nơ-ron cho hiểu biết đa ngôn ngữ
 - Thuật toán bảo tồn sắc thái cảm xúc trong dịch thuật
 - Phương pháp thích ứng với phương ngữ và giọng địa phương
 - Hệ thống học không giám sát cho dữ liệu đa ngôn ngữ
 
-### Nhà thiết kế giải quyết vấn đề con người
+### Các nhà thiết kế giải quyết vấn đề con người
 
 - UX cho việc chuyển đổi ngôn ngữ liền mạch
 - Giao diện hoạt động trên mọi nền văn hóa
 - Hệ thống trực quan giao tiếp không cần từ ngữ
-- Giải pháp sản phẩm cho các nhóm toàn cầu
+- Giải pháp sản phẩm cho các đội nhóm toàn cầu
 
-### Nhà lãnh đạo xây dựng tương lai
+### Các nhà lãnh đạo xây dựng tương lai
 
 - Mở rộng thị trường quốc tế từ con số không
-- Xây dựng đội ngũ trong bất định
+- Xây dựng đội nhóm trong bất định
 - Phát triển sản phẩm hạng mục "đầu tiên trên thế giới"
 - Tạo ra các tiêu chuẩn ngành mới
 
@@ -65,7 +65,7 @@ Chúng tôi không chỉ dịch từ ngữ—chúng tôi bảo tồn ý nghĩa, 
 
 **Portfolio quan trọng hơn CV.** Hãy cho chúng tôi xem GitHub, demo, liên kết sản phẩm. Kể cho chúng tôi câu chuyện về một vấn đề bạn đã giải quyết và kết quả bạn đã đạt được.
 
-**Dự án thực tế quan trọng hơn bài test code.** Chúng tôi muốn thấy cách bạn làm việc dưới những ràng buộc thực tế với deadline thực tế.
+**Dự án thực tế quan trọng hơn bài kiểm tra lập trình.** Chúng tôi muốn thấy cách bạn làm việc dưới những ràng buộc thực tế với thời hạn thực tế.
 
 **Tác động quan trọng hơn hoạt động.** Một dự án thay đổi cuộc sống của hàng nghìn người quan trọng hơn mười bài tập kỹ thuật.
 
@@ -79,9 +79,9 @@ Chúng tôi không chỉ dịch từ ngữ—chúng tôi bảo tồn ý nghĩa, 
 
 3. **Trò chuyện với đội ngũ.** Nếu kinh nghiệm của bạn khiến chúng tôi quan tâm, bạn sẽ trò chuyện với các thành viên trong đội. Không có phỏng vấn chính thức—chỉ là những cuộc trò chuyện về những gì và cách bạn xây dựng.
 
-4. **Làm việc với chúng tôi.** Một dự án thực tế ngắn để mọi người hiểu cách chúng ta làm việc cùng nhau.
+4. **Làm việc cùng chúng tôi.** Một dự án thực tế ngắn để mọi người hiểu cách chúng ta làm việc cùng nhau.
 
-## Những gì chúng tôi cung cấp
+## Những Gì Chúng Tôi Cung Cấp
 
 <img src="/resources/iStock-2218979526.jpg" alt="Dirham UAE" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/resources/iStock-2227445862.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">

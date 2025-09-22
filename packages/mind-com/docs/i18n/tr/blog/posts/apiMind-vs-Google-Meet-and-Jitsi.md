@@ -15,13 +15,13 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 Gerçek ilerlemenin piyasadaki en iyi çözümlerle açık karşılaştırma yoluyla geldiğine inanıyoruz. Bu nedenle 10 yıllık deneyime sahip ve dünya çapında 4,5 milyar kişi tarafından kullanılan ürünleri test eden 500 uzmanı bulunan TestDevLab şirketinden bağımsız test yaptırdık.
 
-## apiMind'ın Temel Güçlü Yanları
+## apiMind'ın Temel Güçlü Yönleri
 
 ### Jitter/Gecikme Koşullarında Üstün Performans
 
 Ağlarda yüksek jitter ve gecikme yaşandığında, **apiMind kayda değer avantajlar gösterir**:
 
-- **Google Meet 0,24 FPS'ye düştüğünde ve Jitsi videoyu tamamen devre dışı bıraktığında işlevsel videoyu korur**
+- **Google Meet 0.24 FPS'ye düştüğünde ve Jitsi videoyu tamamen devre dışı bıraktığında işlevsel videoyu korur**
 - **Yüksek jitter/gecikme koşullarında Jitsi'den %165 daha iyi FPS**
 - Zamanlama açısından hassas senaryolarda rakiplere kıyasla daha iyi video sürekliliği
 
@@ -73,7 +73,7 @@ apiMind şunları gösterir:
 ### Eğitim İçin
 
 - **Ağ kararsızlığını yönetir**: Kurumsal ağlarda yaygın olan jitter/gecikme ile daha iyi performans
-- **Bağlantıyı korur**: Diğerleri bağlantıyı kesebilirken videoyu aktif tutar
+- **Bağlantıyı korur**: Diğerleri bağlantıyı kesebilecekken videoyu aktif tutar
 
 ### Uzaktan Çalışan Ekipler İçin
 
@@ -94,9 +94,9 @@ Her platformun kendine özgü güçlü yanları vardır — biz ağ koşulları 
 
 Aktif olarak üzerinde çalıştığımız konular:
 
-1. **Gelişmiş Bant Genişliği Adaptasyonu** — Düşük bant genişliğinde gelişmiş ses önceliklendirme ve kare hızı yönetimi
+1. **Gelişmiş Bant Genişliği Adaptasyonu** — Düşük bant genişliğinde geliştirilmiş ses önceliklendirmesi ve kare hızı yönetimi
 2. **Dinamik Kalite Kurtarma** — Ağ koşulları iyileştiğinde optimal kaliteye daha hızlı geri dönüş
-3. **Gecikme Optimizasyonu** — Kararlılığı korurken temel gecikmeleri azaltma
+3. **Gecikme Optimizasyonu** — Kararlılığı korurken temel gecikmelerin azaltılması
 
 ## Farkı Kendiniz Deneyimleyin
 
@@ -107,13 +107,13 @@ Veriler bir hikaye anlatır, ancak kendi deneyiminiz son bölümü yazar:
 
 ## Sonuç
 
-Bağımsız kıyaslama, gerçek dünya performansı hakkında değerli içgörüler sağlıyor. apiMind **zorlu ağ zamanlama koşullarında güçlü performans** ve rekabetçi paket kaybı yönetimi gösteriyor, biz de bant genişliği adaptasyonu ve kurtarma mekanizmalarını geliştirmeye devam ediyoruz.
+Bağımsız kıyaslama, gerçek dünya performansı hakkında değerli içgörüler sağlar. apiMind **zorlu ağ zamanlama koşullarında güçlü performans** ve rekabetçi paket kaybı yönetimi gösterirken, bant genişliği adaptasyonu ve kurtarma mekanizmalarını geliştirmeye devam ediyoruz.
 
-> Hem güçlü yönlerimiz hem de gelişim alanlarımız konusunda şeffaflığa kararlıyız. Bu sonuçlar, gerçek dünya koşulları için geliştirme yaparken önceliklerimizi belirliyor.
+> Hem güçlü yönlerimiz hem de gelişim alanlarımız konusunda şeffaflığa kararlıyız. Bu sonuçlar, gerçek dünya koşulları için geliştirme yaparken önceliklerimizi belirlemektedir.
 
 ---
 
-_Araştırma TestDevLab (Letonya) tarafından Temmuz 2024'te gerçekleştirildi. Metodoloji: 3 katılımcı, Windows/Chrome, her aşama 60 saniye süren dinamik ağ koşulları altında test — bant genişliği (Sınırsız→2M→500K→200K→500K→2M→Sınırsız), paket kaybı (0%→10%→20%→20%→20%→10%→0%), ve jitter/gecikme (0/0→100/30→500/90→1500/270→500/90→100/30→0/0 ms)._
+_Araştırma TestDevLab (Letonya) tarafından Temmuz 2024'te gerçekleştirilmiştir. Metodoloji: 3 katılımcı, Windows/Chrome, her aşama 60 saniye süren dinamik ağ koşulları altında test — bant genişliği (Sınırsız→2M→500K→200K→500K→2M→Sınırsız), paket kaybı (0%→10%→20%→20%→20%→10%→0%), ve jitter/gecikme (0/0→100/30→500/90→1500/270→500/90→100/30→0/0 ms)._
 
 ---
 

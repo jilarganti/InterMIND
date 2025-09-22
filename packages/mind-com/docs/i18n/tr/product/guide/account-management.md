@@ -11,31 +11,31 @@ Hesap oluşturma işlemi üç yöntemle gerçekleştirilebilir: Google veya Micr
    - Bu cihazda giriş yapmış durumunuzu korumanızı sağlayan 'Beni hatırla' onay kutusu
    - Zaten bir hesabınız varsa ancak şifrenizi hatırlamıyorsanız kullanabileceğiniz 'Şifremi Unuttum' bağlantısı
    - Zaten bir hesabınız varsa giriş yapmak için E-posta ve Şifre alanlarının bulunduğu 'Veya şununla giriş yap' metni
-   - Harici e-posta adresinizi kullanarak kayıt olmanızı sağlayan 'Kayıt ol' bağlantısının takip ettiği 'Hesabınız yok mu?' metni
+   - Harici e-posta adresinizle kayıt olmanızı sağlayan 'Kayıt ol' bağlantısının bulunduğu 'Hesabınız yok mu?' metni
 
 ### Google Hesabı ile Kayıt Ol
 
-Bu yöntem, Google Hesabı aracılığıyla verimli erişim için tavsiye edilir ve Google Takvim ile sorunsuz senkronizasyonu kolaylaştırır. En etkili deneyim Google Chrome tarayıcısı kullanılarak elde edilebilir.
+Bu yöntem, Google Hesabı aracılığıyla verimli erişim için önerilir ve Google Takvim ile sorunsuz senkronizasyon sağlar. En etkili deneyim Google Chrome tarayıcısı kullanılarak elde edilebilir.
 
 1. **Google** düğmesine tıklayın
 2. Google hesabınızı seçmenizi isteyen bir açılır pencere görünecektir
-3. **Devam** düğmesine tıklayarak temel profil bilgilerinize erişim yetkisi verin
+3. **Devam Et** düğmesine tıklayarak temel profil bilgilerinize erişim yetkisi verin
 
 > [!WARNING]
-> Temel profil bilgilerinize erişim vermemeyi tercih ederseniz, **İptal** düğmesine tıklayın. Harici e-posta adresinizi kullanarak kayıt olabileceğiniz Hesabınıza giriş yapın sayfasına yönlendirileceksiniz.
+> Temel profil bilgilerinize erişim vermek istemiyorsanız, **İptal** düğmesine tıklayın. Harici e-posta adresinizi kullanarak kayıt olabileceğiniz Hesabınıza giriş yapın sayfasına yönlendirileceksiniz.
 
 4. InterMIND ana sayfanıza yönlendirileceksiniz; başka bir kurulum gerekli değildir
 
 ### Microsoft Hesabı ile Kayıt Ol
 
-Bu yöntem, Microsoft hesabı kullanarak hızlı erişim elde etmek için tavsiye edilir. Optimal deneyim Microsoft Edge tarayıcısı kullanılarak gerçekleştirilebilir.
+Bu yöntem, Microsoft hesabı kullanarak hızlı erişim elde etmek için önerilir. En iyi deneyim Microsoft Edge tarayıcısı kullanılarak gerçekleştirilebilir.
 
 1. **Microsoft** düğmesine tıklayın
 2. Microsoft hesabınızı seçmenizi isteyen bir açılır pencere görünecektir
-3. **Devam** düğmesine tıklayarak temel profil bilgilerinize erişim yetkisi verin
+3. **Devam Et** düğmesine tıklayarak temel profil bilgilerinize erişim yetkisi verin
 
 > [!WARNING]
-> Temel profil bilgilerinize erişim vermemeyi tercih ederseniz, **İptal** düğmesine tıklayın. Harici e-posta adresinizi kullanarak kayıt olabileceğiniz Hesabınıza giriş yapın sayfasına yönlendirileceksiniz.
+> Temel profil bilgilerinize erişim vermek istemiyorsanız, **İptal** düğmesine tıklayın. Harici e-posta adresinizi kullanarak kayıt olabileceğiniz Hesabınıza giriş yapın sayfasına yönlendirileceksiniz.
 
 4. InterMIND ana sayfanıza yönlendirileceksiniz; başka bir kurulum gerekli değildir
 
@@ -47,7 +47,7 @@ Google hesabınız yoksa veya ayrı bir e-posta ile kayıt olmayı tercih ediyor
 2. Aşağıdaki zorunlu alanları içeren Kayıt formuna yönlendirileceksiniz:
    - **E-posta**
    - **Şifre**
-     - Minimum 8 karakter
+     - En az 8 karakter
      - En az 1 büyük harf
      - En az 1 sayısal rakam
    - **Şifreyi Onayla**
@@ -108,17 +108,17 @@ Hesabınızı harici bir e-posta adresi kullanarak oluşturduysanız:
 1. Kayıtlı e-postanızı **E-posta** alanına girin
 2. Şifrenizi **Şifre** alanına girin
 3. (İsteğe bağlı) Bu cihazda giriş yapmış olarak kalmak için **Beni hatırla** kutusunu işaretleyin
-4. Devam etmek için **Giriş Yap**\'a tıklayın
+4. Devam etmek için **Giriş Yap**'a tıklayın
 5. Yetkilendirme tamamlandıktan sonra, doğrudan InterMIND ana sayfasına yönlendirileceksiniz
 
 > [!WARNING]
-> Yetkisiz erişimi önlemek için "Beni hatırla"yı yalnızca güvenilir cihazlarda seçin.
+> Yetkisiz erişimi önlemek için "Beni hatırla" seçeneğini yalnızca güvenilir cihazlarda seçin.
 
 ## Kullanıcı Profili
 
 InterMIND'daki Kullanıcı Profili sayfası, kullanıcılara kişisel ayarlarını görüntüleme ve özelleştirme, cihaz tercihlerini yönetme, iletişim seçeneklerini ayarlama ve hesap silme dahil olmak üzere temel hesap işlemlerini gerçekleştirme fırsatı sunar.
 
-### Kullanıcı Profili sayfasına erişim
+### Kullanıcı profili sayfasına erişim
 
 Kullanıcılar profillerine iki yöntemle erişebilir:
 
@@ -205,14 +205,14 @@ Mikrofon, hoparlör ve kamera seçin, arka plan bulanıklığını açın/kapat�
 **Çeviri**
 Varsayılan çeviri dilini seçin ve orijinal ses seviyesini ayarlayın.
 
-- **Hedef Dil**: Varsayılan çeviri çıkışını ve arayüz dilini seçin
+- **Hedef Dil**: Varsayılan çeviri çıktısını ve arayüz dilini seçin
 - **Orijinal Ses Seviyesi**: Çevrilmiş ses çalarken arka plan ses seviyesini ayarlayın
 
 **Diğerleri**
-Varsayılan düzeni (örn. kenar çubuğu), asistan sağlayıcısını ve yalnız kalındığında otomatik ayrılma seçeneğini ayarlayın.
+Varsayılan düzeni (örn. kenar çubuğu), asistan sağlayıcısını ve yalnızken otomatik ayrılma seçeneğini ayarlayın.
 
 - **Düzen**: Görüntü düzenini seçin (örn. Kenar Çubuğu, Izgara)
-- **Yalnız Kalındığında Aramayı Otomatik Terk Et**: Otomatik bağlantı kesmeyi etkinleştirin/devre dışı bırakın
+- **Yalnızken Aramayı Otomatik Olarak Terk Et**: Otomatik bağlantı kesmeyi etkinleştirin/devre dışı bırakın
 
 > [!TIP]
 > Değişiklikler otomatik olarak kaydedilir ve gelecekteki tüm toplantılara uygulanır.

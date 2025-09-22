@@ -5,14 +5,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ar"
 
 export const ar = defineConfig({
-  description: "مؤتمرات فيديو احترافية مع ترجمة فورية بأكثر من 19 لغة. ترجمة مدعومة بالذكاء الاصطناعي تلتقط النبرة والقصد والسياق للفرق العالمية.",
+  description:
+    "مؤتمرات فيديو احترافية مع ترجمة فورية بأكثر من 19 لغة. ترجمة مدعومة بالذكاء الاصطناعي تلتقط النبرة والقصد والسياق للفرق العالمية.",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | ترجمة الكلام الفورية للفرق العالمية" }],
     [
       "meta",
       {
         property: "og:description",
-        content: "مؤتمرات فيديو احترافية مع ترجمة صوتية فورية بأكثر من 19 لغة. اجتمع عالمياً، تواصل بطبيعية مع الترجمة المدعومة بالذكاء الاصطناعي.",
+        content:
+          "مؤتمرات فيديو احترافية مع ترجمة صوتية فورية بأكثر من 19 لغة. اجتمع عالمياً، تواصل بطبيعية مع الترجمة المدعومة بالذكاء الاصطناعي.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -125,7 +127,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "الحصول على الدعم", link: "/help" },
         { text: "سياسة الخصوصية", link: "/company/privacy-policy" },
-        { text: "دليل القوانين للذكاء الاصطناعي", link: "/company/legal-regulations-for-ai-services" },
+        { text: "الدليل القانوني للذكاء الاصطناعي", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
     // {

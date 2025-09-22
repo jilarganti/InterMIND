@@ -45,7 +45,7 @@ Ketika Anda berinteraksi dengan alat AI kami, kami dapat mengumpulkan informasi 
 
 #### Tujuan Pemrosesan
 
-Kami menggunakan AI untuk membantu riset hukum, tinjauan dokumen, analisis kontrak, dan menyediakan informasi hukum awal.
+Kami menggunakan AI untuk membantu penelitian hukum, tinjauan dokumen, analisis kontrak, dan menyediakan informasi hukum awal.
 
 #### Penyimpanan Data
 
@@ -74,7 +74,7 @@ Kami dapat membagikan informasi Anda dengan:
 
 Ketika mentransfer data secara internasional, kami menerapkan perlindungan yang sesuai sesuai dengan hukum yang berlaku, termasuk Standard Contractual Clauses, Binding Corporate Rules, dan mekanisme transfer lain yang diakui secara hukum.
 
-## Hak Anda
+## Hak-Hak Anda
 
 Tergantung pada yurisdiksi Anda, Anda mungkin memiliki hak untuk:
 

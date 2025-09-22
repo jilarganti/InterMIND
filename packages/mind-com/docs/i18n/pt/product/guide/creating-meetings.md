@@ -2,7 +2,7 @@
 
 Após fazer login no InterMIND, os usuários podem convenientemente criar e agendar reuniões diretamente da interface principal clicando no botão **Nova Reunião**.
 
-## Acessando as opções de reunião
+## Acessando as Opções de Reunião
 
 Na tela inicial, localize o botão azul proeminente **Nova Reunião** situado no centro da página. Clicar neste botão revelará um menu suspenso com três opções distintas:
 

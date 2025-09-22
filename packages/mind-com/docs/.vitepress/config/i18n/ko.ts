@@ -5,14 +5,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ko"
 
 export const ko = defineConfig({
-  description: "19개 이상의 언어로 동시 통역을 제공하는 전문 화상 회의. 글로벌 팀을 위한 톤, 의도, 맥락을 파악하는 AI 기반 번역.",
+  description:
+    "19개 이상의 언어로 동시 통역을 제공하는 전문 화상 회의. 글로벌 팀을 위해 톤, 의도, 맥락을 파악하는 AI 기반 번역.",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | 글로벌 팀을 위한 실시간 음성 번역" }],
     [
       "meta",
       {
         property: "og:description",
-        content: "19개 이상의 언어로 동시 음성 통역을 제공하는 전문 화상 회의. AI 기반 번역으로 전 세계적으로 만나고 자연스럽게 소통하세요.",
+        content:
+          "19개 이상의 언어로 동시 음성 통역을 제공하는 전문 화상 회의. AI 기반 번역으로 전 세계적으로 만나고 자연스럽게 소통하세요.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -32,7 +34,7 @@ export const ko = defineConfig({
         text: "리소스",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
+          { text: "자주 묻는 질문", link: `${BASE_PATH}/#FAQ` },
           { text: "고객 후기", link: `${BASE_PATH}/#Testimonials` },
         ],
       },
@@ -108,7 +110,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "사용자 역할", link: "guide/user-roles" },
         { text: "AI 기능", link: "guide/ai-features" },
         { text: "회의 기록", link: "guide/meeting-history" },
-        { text: "FAQ", link: "guide/faq" },
+        { text: "자주 묻는 질문", link: "guide/faq" },
         { text: "문제 해결", link: "guide/troubleshooting" },
         { text: "가격", link: "guide/pricing" },
         { text: "도움말 및 지원", link: "guide/help-support" },
@@ -140,7 +142,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "회사",
       collapsed: false,
       items: [
-        { text: "소개", link: "/company/about" },
+        { text: "회사 소개", link: "/company/about" },
         { text: "팀", link: "/company/team" },
         { text: "채용", link: "/company/careers" },
         { text: "연락처", link: "/company/contacts" },

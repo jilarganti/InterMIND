@@ -138,17 +138,17 @@
   </defs>
 
   <!-- Title -->
-  <text x="500" y="40" font-family="Arial" font-size="18" font-weight="bold" fill="#1F2937" text-anchor="middle">Pipeline xử lý giọng nói đa luồng</text>
+  <text x="500" y="40" font-family="Arial" font-size="18" font-weight="bold" fill="#1F2937" text-anchor="middle">Đường ống xử lý giọng nói đa luồng</text>
   
   <!-- Subtitle -->
-  <text x="500" y="65" font-family="Arial" font-size="12" fill="#6B7280" text-anchor="middle">Kiến trúc pipeline với nhóm luồng và hàng đợi</text>
+  <text x="500" y="65" font-family="Arial" font-size="12" fill="#6B7280" text-anchor="middle">Kiến trúc đường ống với nhóm luồng và hàng đợi</text>
 
   <!-- Key Features -->
   <g>
     <text x="50" y="580" font-family="Arial" font-size="14" font-weight="bold" fill="#1F2937">Tính năng chính:</text>
     <text x="50" y="605" font-family="Arial" font-size="12" fill="#374151">• Nhóm luồng cho từng giai đoạn</text>
     <text x="50" y="625" font-family="Arial" font-size="12" fill="#374151">• Hàng đợi giữa các giai đoạn để đệm</text>
-    <text x="50" y="645" font-family="Arial" font-size="12" fill="#374151">• Mô hình xử lý pipeline</text>
+    <text x="50" y="645" font-family="Arial" font-size="12" fill="#374151">• Mô hình xử lý đường ống</text>
     <text x="50" y="665" font-family="Arial" font-size="12" fill="#374151">• Khả năng mở rộng dưới tải</text>
     <text x="50" y="685" font-family="Arial" font-size="12" fill="#374151">• Cách ly lỗi theo giai đoạn</text>
   </g>

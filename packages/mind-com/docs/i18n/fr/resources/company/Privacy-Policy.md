@@ -13,15 +13,15 @@ Nos pratiques de confidentialité sont conformes aux principales réglementation
 - Loi sur la protection des informations personnelles (PIPL) - Chine
 - Loi fédérale n° 45 de 2021 sur la protection des données personnelles (PDPL) - Émirats arabes unis
 - Health Insurance Portability and Accountability Act (HIPAA) - États-Unis
-- Children's Online Privacy Protection Act (COPPA) - États-Unis
+- Children\'s Online Privacy Protection Act (COPPA) - États-Unis
 
 ## Informations que nous collectons
 
-Nous pouvons collecter les types d'informations suivants :
+Nous pouvons collecter les types d\'informations suivants :
 
-- Informations personnelles : Nom, coordonnées, documents d'identité et autres informations nécessaires pour fournir des services juridiques.
+- Informations personnelles : Nom, coordonnées, documents d\'identité et autres informations nécessaires pour fournir des services juridiques.
 - Données de service : Informations relatives aux affaires juridiques, détails des dossiers et correspondance.
-- Données techniques : Adresse IP, type de navigateur, informations sur l'appareil, cookies et données d'utilisation.
+- Données techniques : Adresse IP, type de navigateur, informations sur l\'appareil, cookies et données d\'utilisation.
 
 ## Comment nous utilisons vos informations
 
@@ -35,33 +35,33 @@ Nous utilisons vos informations pour :
 
 ## Technologie IA et traitement des données
 
-### Utilisation des modèles d'IA
+### Utilisation des modèles d\'IA
 
-Notre site web utilise des modèles d'intelligence artificielle (IA) pour améliorer la prestation de nos services. Voici comment nous traitons vos données lorsque vous interagissez avec nos fonctionnalités alimentées par l'IA :
+Notre site web utilise des modèles d\'intelligence artificielle (IA) pour améliorer la prestation de nos services. Voici comment nous traitons vos données lorsque vous interagissez avec nos fonctionnalités alimentées par l\'IA :
 
 #### Collecte de données
 
-Lorsque vous interagissez avec nos outils d'IA, nous pouvons collecter les informations que vous fournissez lors de ces interactions, y compris les requêtes, les documents téléchargés et l'historique des conversations.
+Lorsque vous interagissez avec nos outils d\'IA, nous pouvons collecter les informations que vous fournissez lors de ces interactions, y compris les requêtes, les documents téléchargés et l\'historique des conversations.
 
 #### Objectif du traitement
 
-Nous utilisons l'IA pour assister la recherche juridique, l'examen de documents, l'analyse de contrats et fournir des informations juridiques préliminaires.
+Nous utilisons l\'IA pour assister la recherche juridique, l\'examen de documents, l\'analyse de contrats et fournir des informations juridiques préliminaires.
 
 #### Stockage des données
 
-Vos interactions avec nos systèmes d'IA sont stockées de manière sécurisée sous format crypté. Ces interactions peuvent être conservées pendant une période limitée pour améliorer nos services d'IA et assurer le contrôle qualité.
+Vos interactions avec nos systèmes d\'IA sont stockées de manière sécurisée sous format crypté. Ces interactions peuvent être conservées pendant une période limitée pour améliorer nos services d\'IA et assurer le contrôle qualité.
 
-#### Fournisseurs d'IA tiers
+#### Fournisseurs d\'IA tiers
 
-Dans certains cas, nous pouvons utiliser des fournisseurs de services d'IA tiers. Lorsque nous le faisons, nous nous assurons qu'ils respectent les normes appropriées de protection des données grâce à des garanties contractuelles.
+Dans certains cas, nous pouvons utiliser des fournisseurs de services d\'IA tiers. Lorsque nous le faisons, nous nous assurons qu\'ils respectent les normes appropriées de protection des données grâce à des garanties contractuelles.
 
 #### Révision humaine
 
-Bien que nos systèmes d'IA fonctionnent de manière autonome, certaines interactions peuvent être examinées par nos professionnels juridiques pour assurer l'exactitude et la qualité du service.
+Bien que nos systèmes d\'IA fonctionnent de manière autonome, certaines interactions peuvent être examinées par nos professionnels juridiques pour assurer l\'exactitude et la qualité du service.
 
-#### Entraînement de l'IA
+#### Entraînement de l\'IA
 
-Nous pouvons utiliser des données anonymisées et agrégées provenant des interactions avec l'IA pour améliorer nos systèmes. Les identifiants personnels sont supprimés avant que toute donnée ne soit utilisée à des fins d'entraînement.
+Nous pouvons utiliser des données anonymisées et agrégées provenant des interactions avec l\'IA pour améliorer nos systèmes. Les identifiants personnels sont supprimés avant que toute donnée ne soit utilisée à des fins d\'entraînement.
 
 ## Partage et transferts de données
 
@@ -72,7 +72,7 @@ Nous pouvons partager vos informations avec :
 - Les autorités réglementaires et organismes gouvernementaux lorsque requis par la loi
 - Les conseillers professionnels et consultants
 
-Lors du transfert de données à l'international, nous mettons en place des garanties appropriées conformément aux lois applicables, y compris les Clauses Contractuelles Types, les Règles d'Entreprise Contraignantes et autres mécanismes de transfert légalement reconnus.
+Lors du transfert de données à l\'international, nous mettons en place des garanties appropriées conformément aux lois applicables, y compris les Clauses Contractuelles Types, les Règles d\'Entreprise Contraignantes et autres mécanismes de transfert légalement reconnus.
 
 ## Vos droits
 
@@ -88,11 +88,11 @@ Selon votre juridiction, vous pouvez avoir le droit de :
 
 ## Sécurité des données
 
-Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos informations personnelles contre l'accès non autorisé, la modification, la divulgation ou la destruction.
+Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos informations personnelles contre l\'accès non autorisé, la modification, la divulgation ou la destruction.
 
 ## Conservation des données
 
-Nous conservons vos informations personnelles aussi longtemps que nécessaire pour accomplir les objectifs décrits dans cette Politique de confidentialité, sauf si une période de conservation plus longue est requise ou autorisée par la loi.
+Nous conservons vos informations personnelles aussi longtemps que nécessaire pour remplir les objectifs décrits dans cette politique de confidentialité, sauf si une période de conservation plus longue est requise ou autorisée par la loi.
 
 ## Modifications de cette politique
 
@@ -100,7 +100,7 @@ Nous pouvons mettre à jour cette politique de confidentialité périodiquement.
 
 ## Nous contacter
 
-Si vous avez des questions concernant cette politique de confidentialité ou nos pratiques de données, veuillez contacter notre délégué à la protection des données à :
+Si vous avez des questions concernant cette Politique de confidentialité ou nos pratiques de données, veuillez contacter notre Délégué à la protection des données à :
 
 - **E-mail :** support@mind.com
 - **Adresse :** City Avenue Building, Bureau 405-070, Port Saeed, Dubaï, EAU

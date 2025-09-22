@@ -54,7 +54,7 @@ Participantes autorizados são usuários logados que ingressam na reunião sem p
 
 Convidados são usuários que participam da reunião sem fazer login.
 
-**Principais Capacidades:**
+**Principais Funcionalidades:**
 
 - Usar seu próprio microfone e câmera
 - Compartilhar sua tela (navegador desktop)
@@ -65,24 +65,24 @@ Convidados são usuários que participam da reunião sem fazer login.
 > [!WARNING]
 > Convidados não podem gerenciar outros participantes.
 
-## Tabela resumo de permissões de função
+## Tabela Resumo de Permissões de Função
 
 | Recurso                        | Anfitrião | Moderador | Participante | Convidado |
 | ------------------------------ | --------- | --------- | ------------ | --------- |
-| Iniciar reunião                | ✅        | ❌        | ❌           | ❌        |
-| Silenciar qualquer participante| ✅        | ✅        | ❌           | ❌        |
-| Reativar áudio de qualquer participante | ❌ | ❌   | ❌           | ❌        |
-| Silenciar/reativar próprio microfone | ✅   | ✅        | ✅           | ✅        |
-| Ativar/desativar própria câmera | ✅       | ✅        | ✅           | ✅        |
-| Iniciar/parar gravação         | ✅        | ✅        | ❌           | ❌        |
-| Compartilhar tela (desktop)    | ✅        | ✅        | ✅           | ✅        |
-| Usar assistente de IA          | ✅        | ✅        | ✅           | ❌        |
-| Usar tradução online           | ✅        | ✅        | ✅           | ✅        |
-| Alterar idioma de tradução     | ✅        | ✅        | ✅           | ✅        |
-| Levantar / abaixar mão         | ✅/✅     | ✅/✅     | ✅/❌        | ✅/❌     |
-| Alterar layout / configurações | ✅        | ✅        | ✅           | ✅        |
-| Ativar/desativar desfoque de fundo | ✅    | ✅        | ✅           | ✅        |
-| Admitir/negar convidado        | ✅        | ✅        | ❌           | ❌        |
-| Acessar histórico de reuniões  | ✅        | ✅        | ✅           | ❌        |
-| Remover participantes          | ✅        | ✅        | ❌           | ❌        |
-| Promover/rebaixar moderador    | ✅        | ✅        | ❌           | ❌        |
+| Iniciar Reunião                | ✅        | ❌        | ❌           | ❌        |
+| Silenciar Qualquer Participante| ✅        | ✅        | ❌           | ❌        |
+| Reativar Áudio de Qualquer Participante | ❌ | ❌   | ❌           | ❌        |
+| Silenciar/Reativar Próprio Microfone | ✅   | ✅        | ✅           | ✅        |
+| Ativar/Desativar Própria Câmera | ✅       | ✅        | ✅           | ✅        |
+| Iniciar/Parar Gravação         | ✅        | ✅        | ❌           | ❌        |
+| Compartilhar Tela (Desktop)    | ✅        | ✅        | ✅           | ✅        |
+| Usar Assistente IA             | ✅        | ✅        | ✅           | ❌        |
+| Usar Tradução Online           | ✅        | ✅        | ✅           | ✅        |
+| Alterar Idioma da Tradução     | ✅        | ✅        | ✅           | ✅        |
+| Levantar / Baixar Mão          | ✅/✅     | ✅/✅     | ✅/❌        | ✅/❌     |
+| Alterar Layout / Configurações | ✅        | ✅        | ✅           | ✅        |
+| Ativar/Desativar Desfoque de Fundo | ✅    | ✅        | ✅           | ✅        |
+| Admitir/Negar Convidado        | ✅        | ✅        | ❌           | ❌        |
+| Acessar Histórico da Reunião   | ✅        | ✅        | ✅           | ❌        |
+| Remover Participantes          | ✅        | ✅        | ❌           | ❌        |
+| Promover/Rebaixar Moderador    | ✅        | ✅        | ❌           | ❌        |

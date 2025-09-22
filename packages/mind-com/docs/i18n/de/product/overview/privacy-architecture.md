@@ -4,7 +4,7 @@
 
 InterMind ist eine Plattform für mehrsprachige Videobesprechungen mit KI-gestützter Live-Dolmetschung. Wir sind für Fachleute entwickelt — wo nicht nur die Nachricht wichtig ist, sondern auch die Privatsphäre dieser Nachricht.
 
-Um eine nahtlose Erfahrung zu bieten, integriert InterMind Drittanbieterdienste für Video, Audio, Cloud-Speicher, Echtzeit-Dolmetschung und Analytik. Diese Drittanbieter helfen uns dabei, Leistung und Skalierbarkeit sicherzustellen — aber sie führen auch eine Ebene ein, die wir nicht direkt kontrollieren können.
+Um eine nahtlose Erfahrung zu bieten, integriert InterMind Drittanbieter-Services für Video, Audio, Cloud-Speicher, Echtzeit-Dolmetschung und Analytik. Diese Drittanbieter helfen uns dabei, Leistung und Skalierbarkeit sicherzustellen — aber sie führen auch eine Ebene ein, die wir nicht direkt kontrollieren können.
 
 Wir glauben an **Transparenz statt Versprechen**. Wir können nur Privatsphäre und Sicherheit für Komponenten garantieren, die unter unserer direkten Kontrolle stehen — unsere Software, Schnittstellenlogik und wie wir Daten weiterleiten. Für alles andere bieten wir Ihnen **die Macht der Wahl**.
 
@@ -36,12 +36,12 @@ Deshalb haben wir InterMind mit **regionsbasierter Vertraulichkeit** entwickelt:
 
 Zu Beginn jeder Sitzung oder als Teil der Kontoeinstellungen Ihrer Organisation können Sie eine bevorzugte Datenschutzzone auswählen:
 
-| Region            | Anwendbare Gesetze                                                                            | Infrastruktur                  | LLM-Anbieter               |
-| ----------------- | --------------------------------------------------------------------------------------------- | ------------------------------ | -------------------------- |
-| Europa            | [DSGVO](https://gdpr.eu)                                                                      | Nur EU-Rechenzentren           | EU-gehostet oder EU-konform |
-| Vereinigte Staaten| [CCPA](https://oag.ca.gov/privacy/ccpa)                                                      | AWS / GCP / Azure (US)         | OpenAI US / Anthropic US   |
-| VAE / MENA        | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | VAE oder Bahrain Cloud         | Regionale oder konforme LLMs |
-| Asien / China     | Lokale chinesische Datenschutzgesetze                                                        | Alibaba, Huawei, Tencent Cloud | Nur China-basierte LLMs    |
+| Region        | Anwendbare Gesetze                                                                               | Infrastruktur                 | LLM-Anbieter              |
+| ------------- | --------------------------------------------------------------------------------------------- | ------------------------------ | -------------------------- |
+| Europa        | [DSGVO](https://gdpr.eu)                                                                       | Nur EU-Rechenzentren           | EU-gehostet oder EU-konform  |
+| Vereinigte Staaten | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (US)         | OpenAI US / Anthropic US   |
+| VAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | VAE oder Bahrain Cloud           | Regionale oder konforme LLMs |
+| Asien / China  | Lokale chinesische Datenschutzgesetze                                                                    | Alibaba, Huawei, Tencent Cloud | Nur China-basierte LLMs      |
 
 Diese Auswahl bestimmt, wie Ihre Video-, Audio- und interpretierten Inhalte verarbeitet werden und unter welcher Gerichtsbarkeit.
 
@@ -65,7 +65,7 @@ Nur die für die aktuelle Aufgabe notwendigen Mindestdaten werden übertragen.
 
 ### 3. **Ende-zu-Ende-Verschlüsselung**
 
-Alle Audio-/Videodaten werden über verschlüsselte Kanäle übertragen. Dolmetschanfragen werden über sichere Proxys geleitet und vermeiden so eine öffentliche Exposition.
+Alle Audio-/Videodaten werden über verschlüsselte Kanäle übertragen. Dolmetschanfragen werden über sichere Proxys geleitet und vermeiden so öffentliche Exposition.
 
 ### 4. **Keine standardmäßige Speicherung**
 
@@ -78,7 +78,7 @@ InterMind unterstützt vollständige Kompatibilität mit:
 - **DSGVO** — Recht auf Zugang, Löschung, Export und Einschränkung der Verarbeitung. Kein KI-Profiling.
 - **CCPA** — Kein Verkauf personenbezogener Daten, Opt-out-Optionen und transparente Erhebungspraktiken.
 - **UAE PDPL** — Lokale Speicherung auf Anfrage, strenge Zugangskontrollen, keine internationalen Übertragungen ohne Zustimmung.
-- **China DSL/PIPL** — Nur regionale Verarbeitung, keine ausländische Weiterleitung bei Auswahl von China.
+- **China DSL/PIPL** — Nur regionale Verarbeitung, kein ausländisches Routing bei Auswahl von China.
 
 ## Was wir garantieren können und was nicht
 
@@ -113,7 +113,7 @@ Sie können Ihre Sitzung an Ihre Vertraulichkeitsanforderungen anpassen:
 - Regionsspezifische LLM-Nutzung mit Transparenz in Echtzeit.
 - Keine Schulung oder Profilerstellung Ihrer Inhalte — niemals.
 - Null Datenübertragung, wenn die Interpretation deaktiviert ist.
-- Optionale Datenspeicherung, immer regionsgebunden.
+- Optionale Datenspeicherung, immer regional gebunden.
 - Vollständige Audit- und Export-Tools für Unternehmenskunden.
 
 ## Fazit

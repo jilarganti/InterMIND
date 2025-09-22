@@ -113,7 +113,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "அடிக்கடி கேட்கப்படும் கேள்விகள்", link: "guide/faq" },
         { text: "சிக்கல் தீர்த்தல்", link: "guide/troubleshooting" },
         { text: "விலை நிர்ணயம்", link: "guide/pricing" },
-        { text: "உதவி & ஆதரவு", link: "guide/help-support" },
+        { text: "உதவி மற்றும் ஆதரவு", link: "guide/help-support" },
       ],
     },
   ]

@@ -11,9 +11,9 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 <img src="/blog/iStock-1448152453.jpg" alt="BAE dirhemi" width="500" align="left" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/iStock-1448152453.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-Küresel ekipler dil engellerinden dolayı anlaşmaları kaybettiğinde ve uluslararası müzakereler yanlış anlaşılmaların maratonu haline geldiğinde, teknoloji endüstrisi nihayet layık bir cevap aldı. **InterMIND, video iletişiminde mimari bir atılım sunuyor**, son teknoloji WebRTC çözümlerini bağlam farkında yapay zeka ile birleştirerek ilk gerçekten doğal gerçek zamanlı çeviri platformunu yaratıyor. Onların yaklaşımı büyük teknoloji devlerinin yüzeysel çözümlerinden radikal şekilde farklılaşıyor ve küresel ölçek ve mikrosaniye gecikme süresi için sıfırdan inşa edilmiş bir kurumsal çözüm sunuyor.
+Küresel ekipler dil engellerinden dolayı anlaşmaları kaybettiğinde ve uluslararası müzakereler yanlış anlaşılmaların maratonu haline geldiğinde, teknoloji endüstrisi nihayet layık bir cevap aldı. **InterMIND, video iletişiminde mimari bir atılım sunuyor**, son teknoloji WebRTC çözümlerini bağlam farkında yapay zeka ile birleştirerek ilk gerçekten doğal gerçek zamanlı çeviri platformunu yaratıyor. Onların yaklaşımı büyük teknoloji devlerinin yüzeysel çözümlerinden radikal şekilde farklılaşarak, küresel ölçek ve mikrosaniye gecikme süresi için sıfırdan inşa edilmiş bir kurumsal çözüm sunuyor.
 
-> InterMIND'ın teknoloji yığınının analizi **üç temel mimari yeniliği** ortaya çıkarıyor: optimize edilmiş SFU sunucusu ile yerel WebRTC uygulaması, gecikme süresini minimize etmek için hibrit kenar-bulut mimarisi ve tonlama ve niyeti korurken bağlam farkında çeviri sağlayan devrimci LLM motor entegrasyonu.
+> InterMIND'ın teknoloji yığınının analizi **üç temel mimari yeniliği** ortaya çıkarıyor: optimize edilmiş SFU sunucusu ile yerel WebRTC uygulaması, gecikme süresini minimize etmek için hibrit kenar-bulut mimarisi ve tonlama ve niyeti koruyarak bağlam farkında çeviri sağlayan devrimci LLM motor entegrasyonu.
 
 Pahalı eklentiler gerektiren Microsoft Teams'ten veya mobil cihazlarla sınırlı Google Translate'ten farklı olarak, InterMIND **saniyenin altında gecikme süresiyle 100+ dili eş zamanlı işleyebilen birleşik bir platform** yarattı. Bu, geleneksel konuşma işleme hattını temelden yeniden tasarlayan yenilikçi mimari aracılığıyla başarılıyor.
 
@@ -42,37 +42,37 @@ InterMIND'ın teknolojik atılımı **Büyük Dil Modellerinin (LLM) sektörde i
 
 Temel çeviri yetenekleri için kullanıcı başına 5-10 dolar Premium abonelik gerektiren Microsoft Teams'ten veya Pixel cihazlarla sınırlı Google Translate'ten farklı olarak, **InterMIND kurumsal düzeyde yetenekleri yerleşik platform işlevselliği olarak sunar**.
 
-## Edge-Cloud mimarisi ile küresel ölçeklenebilirlik
+## Edge-Cloud mimarisi ile küresel ölçeklenebillik
 
 Küresel ölçekte saniyenin altında gecikme süresi sağlamak için InterMIND, **bölgesel veri işleme bölgeleri ile hibrit edge-cloud mimarisi** uyguladı. Sistem üç ana bölgede konuşlandırılmıştır: **AB (Avrupa Birliği), ABD (Amerika Birleşik Devletleri) ve GDA (Güneydoğu Asya)**, yerel gizlilik gereksinimlerine uygunluk ve minimum ağ gecikmesi sağlanmaktadır.
 
-**Yenilikçi röle mekanizması mimarisi**, farklı bölgelerden kullanıcıların aynı konferansa optimal performansla katılmasına olanak tanır. Bölgeler arası gecikme ile mücadele eden geleneksel SFU çözümlerinin aksine, InterMIND **RTP röle mekanizmaları ile akıllı paket yönlendirme** kullanarak bölgeler arası iletişimde gecikmeleri minimize eder.
+**Yenilikçi röle mekanizması mimarisi**, farklı bölgelerden kullanıcıların optimal performansla aynı konferansa katılmasına olanak tanır. Bölgeler arası gecikme ile mücadele eden geleneksel SFU çözümlerinin aksine, InterMIND **RTP röle mekanizmaları ile akıllı paket yönlendirme** kullanarak bölgeler arası iletişimde gecikmeleri minimize eder.
 
-**Kubernetes tabanlı otomatik ölçeklendirme sistemi**, yüke dayalı dinamik kaynak tahsisine olanak tanır. Kritik yenilik, **kullanım desenlerine dayalı öngörülü ölçeklendirme** içerir ve sistemin yoğun yükleri önceden tahmin edip kaynakları önceden hazırlamasını sağlar.
+**Kubernetes tabanlı otomatik ölçeklendirme sistemi**, yüke dayalı dinamik kaynak tahsisine olanak tanır. Kritik yenilik, **kullanım kalıplarına dayalı öngörülü ölçeklendirme** içerir ve sistemin yoğun yükleri önceden tahmin edip kaynakları önceden hazırlamasını sağlar.
 
-**AI modellerinin edge işlemesi**, özelleşmiş çeviri motorlarını kullanıcılara daha yakın yerleştirerek kritik konuşma işleme için gidiş-dönüş süresini azaltır. Bu, **bulut tabanlı ağır LLM modelleri** ile birleşerek yanıt hızını korurken maksimum doğruluk sağlar.
+**AI modellerinin edge işlemesi**, özel çeviri motorlarını kullanıcılara daha yakın yerleştirerek kritik konuşma işleme için gidiş-dönüş süresini azaltır. Bu, maksimum doğruluk sağlarken yanıt hızını korumak için **bulut tabanlı ağır LLM modelleri** ile birleşir.
 
 ## Teknoloji Devlerine Karşı Rekabet Avantajları
 
-Rekabet ortamı analizi, **InterMIND'ın temel mimari avantajlarını** büyük teknoloji şirketi çözümlerine karşı ortaya koymaktadır. Google Translate öncelikle mobil cihazlara yöneliktir ve cihaz üzerinde işleme gerektirir, bu da kurumsal video platformlarıyla entegrasyonu sınırlar. Microsoft Teams yalnızca **pahalı eklentiler olarak temel çeviri yetenekleri** sunar ve eşzamanlı çok dilli iletişimin temel problemini çözmez.
+Rekabet ortamı analizi, **InterMIND'ın temel mimari avantajlarını** büyük teknoloji şirketi çözümlerine karşı ortaya koymaktadır. Google Translate öncelikle mobil cihazlara yönelik olup cihaz üzerinde işleme gerektirmekte ve kurumsal video platformlarıyla entegrasyonu sınırlamaktadır. Microsoft Teams yalnızca **pahalı eklentiler olarak temel çeviri yetenekleri** sunmakta ve eşzamanlı çok dilli iletişimin temel problemini çözmemektedir.
 
-**Zoom'un çevrilmiş altyazılarla yaklaşımı** arayüze görsel gürültü ekler ve doğal konuşma akışı sağlamaz. Üstelik, onların çözümü **İngilizce'den tek yönlü çeviriyle sınırlıdır**, bu da farklı dil tercihlerine sahip küresel ekipler için kabul edilemezdir.
+**Zoom'un çevrilmiş altyazılarla yaklaşımı** arayüze görsel gürültü eklemekte ve doğal konuşma akışı sağlamamaktadır. Üstelik, onların çözümü **İngilizce'den tek yönlü çeviriyle sınırlıdır** ve bu durum farklı dil tercihlerine sahip küresel ekipler için kabul edilemezdir.
 
-InterMIND **üç kritik endüstri problemini eşzamanlı olarak** çözer:
+InterMIND **üç kritik endüstri problemini eşzamanlı olarak** çözmektedir:
 
-> **Gecikme problemi**: Endüstri standardı, gerçek zamanlı ASR sistemlerinde nihai transkriptler için **0,7-4 saniye gecikme**dir. InterMIND, kenar işleme ve optimize edilmiş çeviri hatları aracılığıyla **saniye altı uçtan uca gecikme** elde eder.
+> **Gecikme problemi**: Endüstri standardı gerçek zamanlı ASR sistemlerinde nihai transkriptler için **0,7-4 saniye gecikme**dir. InterMIND, kenar işleme ve optimize edilmiş çeviri hatları aracılığıyla **saniye altı uçtan uca gecikme** elde etmektedir.
 
-> **Eşzamanlı çok dilli problemi**: Mevcut çözümler yalnızca çift çeviriyle (bire bir) etkili çalışır. InterMIND, gelişmiş konuşmacı ayrımı ve akıllı ses kanalı yönetimi kullanarak **3+ dille gerçekten çok dilli oturumları eşzamanlı olarak** destekler.
+> **Eşzamanlı çok dilli problemi**: Mevcut çözümler yalnızca çift çeviriyle (bire bir) etkili çalışmaktadır. InterMIND, gelişmiş konuşmacı ayrımı ve akıllı ses kanalı yönetimi kullanarak **3+ dille gerçekten çok dilli oturumları eşzamanlı olarak** desteklemektedir.
 
-> **WebRTC entegrasyon problemi**: Çoğu çözüm platforma özel eklentilerdir. InterMIND, belirli istemciler veya eklentiler gerektirmeden herhangi bir video platformuyla sorunsuz çalışan **WebRTC-yerel uygulama** oluşturdu.
+> **WebRTC entegrasyon problemi**: Çoğu çözüm platforma özel eklentilerdir. InterMIND, belirli istemciler veya eklentiler gerektirmeden herhangi bir video platformuyla sorunsuz çalışan **WebRTC-yerel implementasyon** oluşturmuştur.
 
 ## Medya Akışı İşleme İnovasyonları
 
-InterMIND'ın medya akışı işleme alanındaki teknik inovasyonları arasında **patlama farkında paket işleme özellikli gelişmiş jitter buffer algoritmaları** bulunmaktadır. Sistem, ağ modellemesine dayalı akıllı ayarlama ile **15-120ms aralığında uyarlanabilir tamponlama** kullanır ve bu, AI işleme katmanları eklenirken ses kalitesini korumak için kritik öneme sahiptir.
+InterMIND'ın medya akışı işlemede teknik inovasyonları **patlama farkında paket işleme ile gelişmiş jitter tampon algoritmalarını** içerir. Sistem, ağ modellemesine dayalı akıllı ayarlama ile **15-120ms aralığında uyarlanabilir tamponlama** kullanır ve AI işleme katmanları eklenirken ses kalitesini korumak için kritik öneme sahiptir.
 
-**İleri Hata Düzeltme (FEC)** ve **seçici onaylar (SACK)**, özellikle çeviri için kritik ses verisi iletilirken proaktif paket kaybı azaltma sağlar. Sistem, AI işleme için ses akışlarının öncelikli ağ işleme almasını sağlayan Hizmet Kalitesi (QoS) trafik önceliklendirmesi uygular.
+**İleri Hata Düzeltme (FEC)** ve **seçici onaylar (SACK)** proaktif paket kaybı azaltma sağlar, özellikle çeviri için kritik ses verisi iletilirken önemlidir. Sistem, AI işleme için ses akışlarının öncelikli ağ işleme almasını sağlayan Hizmet Kalitesi (QoS) trafik önceliklendirmesi uygular.
 
-**Codec inovasyonları** arasında ekran paylaşım içeriği için **Ölçeklenebilir Video Kodlama (SVC) ile AV1** desteği yer alır ve H.264'e kıyasla **%81,25 BD-rate tasarrufu** sağlar. Bu, özellikle ekran içeriğinin paylaşılan medyanın önemli bir bölümünü oluşturduğu uluslararası sunumlar ve işbirlikçi oturumlar için önemlidir.
+**Codec inovasyonları** ekran paylaşım içeriği için **Ölçeklenebilir Video Kodlama (SVC) ile AV1** desteğini içerir ve H.264'e kıyasla **%81.25 BD-oran tasarrufu** elde eder. Bu, ekran içeriğinin paylaşılan medyanın önemli bir bölümünü oluşturduğu uluslararası sunumlar ve işbirlikçi oturumlar için özellikle önemlidir.
 
 ## Mimari Temel Olarak Gizlilik ve Güvenlik
 
@@ -96,7 +96,7 @@ InterMIND'ın mimari kararları, şirketi birkaç gelişmekte olan teknolojinin 
 
 **Çok modlu yapay zeka entegrasyonu** bir sonraki sınırı temsil ediyor; burada **görsel ipuçları, jest tanıma ve bağlamsal anlayış**, daha da doğal ve doğru bir iletişim deneyimi için entegre edilebilir.
 
-## Sonuç: Eylemde Teknik Liderlik
+## Sonuç: Eylemde teknik liderlik
 
 InterMIND, düşünceli mimari kararların ve derin teknik inovasyonun **rekabetçi bir pazarda gerçekten farklılaştırılmış bir çözüm** nasıl yaratabileceğini göstermektedir. WebRTC-native gerçek zamanlı çeviri yaklaşımları, sofistike LLM entegrasyonu ve küresel edge-cloud dağıtımı ile birleşerek, kurumsal video iletişim platformları için yeni bir standart belirlemektedir.
 

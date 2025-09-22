@@ -7,7 +7,7 @@ La tabla a continuación destaca los mercados donde la falta de comunicación es
 
 | Segmento                                | Países estrella (ISO‑2)                                                               | Por qué es importante                                                                                                  |
 | -------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| Centros de manufactura globales              | China (CN), India (IN), Vietnam (VN), Bangladesh (BD), Indonesia (ID), Tailandia (TH) | Comercio B2B masivo con EE.UU. y la UE; el nivel promedio de inglés es moderado                                     |
+| Centros de manufactura globales              | China (CN), India (IN), Vietnam (VN), Bangladesh (BD), Indonesia (ID), Tailandia (TH) | Comercio B2B masivo con EE.UU. y la UE; el dominio promedio del inglés es moderado                                     |
 | Socios industriales de EE.UU.                 | México (MX), Canadá (CA)                                                             | El T-MEC¹ impulsó las cadenas de suministro transfronterizas de automóviles y electrónicos; un canal confiable EN–ES es crítico |
 | Asia de alta tecnología                         | Japón (JP), Corea del Sur (KR), Taiwán (TW)                                            | Reuniones de ingeniería donde los matices en la terminología valen millones                                              |
 | UE multilingüe                        | Alemania (DE), Francia (FR), Italia (IT), España (ES), Polonia (PL), Países Bajos (NL)     | 24 idiomas oficiales dentro de un solo mercado; contratar intérpretes para cada negocio es costoso                      |
@@ -17,15 +17,15 @@ La tabla a continuación destaca los mercados donde la falta de comunicación es
 
 ¹ **T-MEC** — Tratado entre México, Estados Unidos y Canadá que reemplazó al TLCAN; impone reglas estrictas de origen en el sector automotriz.
 
-## Criterios de selección
+## Criterios de Selección
 
-1. **Volumen de comercio** — mientras mayor sea el volumen de negocios, mayor será el costo de los errores.
-2. **Dominio del inglés** — los países con baja proporción de nivel C1–C2 dependen de soluciones de interpretación.
-3. **Escasez de intérpretes** — las llamadas diarias de Zoom rara vez justifican un intérprete humano de tiempo completo.
+1. **Volumen de Comercio** — mientras mayor sea el volumen de negocios, mayor es el costo de los errores.
+2. **Dominio del Inglés** — países con baja participación de niveles C1–C2 dependen de soluciones de interpretación.
+3. **Escasez de Intérpretes** — las llamadas diarias de Zoom rara vez justifican un intérprete humano de tiempo completo.
 
 ## Conclusiones estratégicas
 
-- **Máxima prioridad** — Socios de EE.UU. y el clúster de "fábrica del mundo"; ROI más rápido.
+- **Máxima prioridad** — Socios estadounidenses y el clúster de la "fábrica del mundo"; ROI más rápido.
 - **Segundo nivel** — UE y MENA; la precisión técnica y el riesgo regulatorio dominan.
-- **Localización de UI** — ocho idiomas (EN, ES, PT, ZH, JA, KO, AR, HI) cubren ~85% de los mercados objetivo.
-- **Cumplimiento** — considerar los regímenes de control de exportaciones (EAR, EU Dual‑Use). InterMind purga los datos de reuniones después de la ventana de retención.
+- **Localización de UI** — ocho idiomas (EN, ES, PT, ZH, JA, KO, AR, HI) cubren \~85 % de los mercados objetivo.
+- **Cumplimiento normativo** — considerar los regímenes de control de exportaciones (EAR, EU Dual‑Use). InterMind purga los datos de reuniones después de la ventana de retención.

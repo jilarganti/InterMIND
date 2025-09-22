@@ -1,6 +1,6 @@
 # Mind.com'da insanlar yönetir, yapay zeka güçlendirir
 
-Birlikte, dil engellerini tamamen ortadan kaldırmak için yaratıcılığı, kodu ve anlayışı harmanlıyoruz.
+Birlikte, yaratıcılığı, kodu ve anlayışı harmanlayarak dil engellerini sonsuza dek ortadan kaldırıyoruz.
 
 ## İnsan Ekibi
 
@@ -16,7 +16,6 @@ Birlikte, dil engellerini tamamen ortadan kaldırmak için yaratıcılığı, ko
   },
   {
     name: 'Windicted',
-    // desc: '**Turning** users into believers',
     country: 'Portekiz',
     avatarLink: 'https://secure.gravatar.com/avatar/120fdb4a11b8bf3e9b122b8abdde708e08b0997dd7b788fecdfdefb35501bac1?s=1600&d=identicon',
     links: [
@@ -69,7 +68,7 @@ Birlikte, dil engellerini tamamen ortadan kaldırmak için yaratıcılığı, ko
   },
   {
     name: 'DeepSeek',
-    desc: 'Kodla düşünüyor ve bağlamda akıl yürütüyor',
+    desc: 'Kodla düşünüyor ve bağlamda mantık yürütüyor',
     country: 'China',
     avatarLink: 'arcticons:deepseek',
     links: [

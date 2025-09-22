@@ -2,7 +2,7 @@
 
 Halo! Berikut adalah kumpulan sumber daya pemasaran InterMIND dan panduan identitas, termasuk logo, konten, dan merek dagang kami.
 
-Untuk mengedit dan mengunduh, klik kanan dan pilih Edit image
+Untuk mengedit dan mengunduh, klik kanan dan pilih Edit gambar
 
 ## Metadata
 
@@ -24,7 +24,7 @@ Untuk mengedit dan mengunduh, klik kanan dan pilih Edit image
 <br>
 <img src="/logo.svg" class="transparency-grid" alt="logo" width="100">
 
-## Warna Brand
+## Warna Merek
 
 <br>
 

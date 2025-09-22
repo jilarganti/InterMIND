@@ -1,6 +1,6 @@
 # Bắt đầu
 
-InterMIND là một nền tảng hội nghị truyền hình tiên tiến được hỗ trợ bởi AI, được thiết kế để tạo điều kiện giao tiếp liền mạch qua nhiều ngôn ngữ, thiết bị và nhóm khác nhau. Hướng dẫn này nhằm cung cấp cho bạn hiểu biết toàn diện về cách sử dụng hiệu quả tất cả các tính năng của InterMIND — từ tham gia cuộc họp đầu tiên đến cấu hình các công cụ AI và giải quyết các vấn đề kỹ thuật.
+InterMIND là một nền tảng hội nghị truyền hình được hỗ trợ bởi AI tiên tiến, được thiết kế để tạo điều kiện giao tiếp liền mạch qua nhiều ngôn ngữ, thiết bị và nhóm khác nhau. Hướng dẫn này nhằm cung cấp cho bạn sự hiểu biết toàn diện về cách sử dụng hiệu quả tất cả các tính năng của InterMIND — từ việc tham gia cuộc họp đầu tiên đến cấu hình các công cụ AI và giải quyết các vấn đề kỹ thuật.
 
 Cho dù bạn là người dùng mới tìm kiếm hướng dẫn chi tiết hay là người tham gia có kinh nghiệm giám sát các cuộc họp phức tạp, hướng dẫn này tổng hợp tất cả thông tin cần thiết tại một vị trí dễ tiếp cận.
 
@@ -34,8 +34,8 @@ Nếu bạn mới sử dụng InterMIND, hãy làm theo danh sách kiểm tra đ
 
 InterMIND là một nền tảng đa ngôn ngữ được thiết kế để hỗ trợ nhiều ngôn ngữ khác nhau cho giao diện người dùng, trình dịch giọng nói và trợ lý AI. Người dùng có thể thay đổi cài đặt ngôn ngữ thông qua nhiều cách:
 
-- Bộ chuyển đổi ngôn ngữ được đặt ở đầu trang, bên cạnh nút đăng nhập cho người dùng chưa được ủy quyền, hoặc gần biểu tượng avatar của người dùng cho người dùng đã được ủy quyền
-- Bộ chuyển đổi ngôn ngữ được tìm thấy ở chân trang bên cạnh văn bản '© Mind, 2025.'
+- Bộ chuyển đổi ngôn ngữ được đặt ở đầu trang, bên cạnh nút đăng nhập cho người dùng chưa được ủy quyền, hoặc gần biểu tượng avatar của người dùng cho những người dùng đã được ủy quyền
+- Bộ chuyển đổi ngôn ngữ có thể tìm thấy ở chân trang bên cạnh văn bản '© Mind, 2025.'
 - Hơn nữa, người dùng có thể thay đổi ngôn ngữ thông qua tùy chọn 'Hồ sơ người dùng > Cài đặt > Ngôn ngữ của bạn', hoặc trong cuộc họp bằng cách điều hướng đến 'Hiển thị menu > Cài đặt > Cài đặt > Ngôn ngữ của bạn'
 
 Dưới đây là danh sách các ngôn ngữ hiện có trong InterMIND:

@@ -31,13 +31,13 @@ Fiyatlandırma sayfası üç katman içerir:
 | ------------ | ---------------------------------------- | ------------------------------------------------------------------------- |
 | **Temel**    | Ücretsiz                                 | 25 toplantı, 100 katılımcı, 30 GB depolama, sınırlı çeviri              |
 | **Pro**      | $25/ay (veya yıllık faturalandırmada $20/ay) | Sınırsız toplantı, 150 katılımcı, 2 TB depolama, tüm AI özellikleri       |
-| **İş**       | Özel (Satış ile İletişime Geçin)        | 500 katılımcı, 5 TB depolama, AI meslektaşı (alfa), kurumsal özellikler |
+| **İş**       | Özel (Satış Ekibiyle İletişime Geçin)   | 500 katılımcı, 5 TB depolama, AI meslektaşı (alfa), kurumsal özellikler |
 
 ### Diğer Öne Çıkanlar
 
 - **Aylık** ve **Yıllık** arasında geçiş yapmak Pro planı için indirimli fiyatlandırmayı değiştirir
 - **Mevcut Plan** düğmesi hangi planın aktif olduğunu gösterir
-- **Bize Ulaşın** düğmesi İş müşterilerinin özel çözümler talep etmesine olanak tanır
+- **Bize Ulaşın** düğmesi İş müşterilerinin özelleştirilmiş çözümler talep etmesine olanak tanır
 
 > [!TIP]
 > Plan yükseltmeleri hemen etkili olur ve gelişmiş özellik limitlerini buna göre uygular.
@@ -50,7 +50,7 @@ Fiyatlandırma sayfası üç katman içerir:
   - Kart bilgileri
   - Kart sahibinin adı
   - Ülke/bölge
-- Stripe güvenli ödeme işlemi garantisi verir
+- Stripe güvenli ödeme işlemini garanti eder
 - Kullanıcılar ayrıca Link aracılığıyla ödeme bilgilerini kaydetme seçeneğine sahiptir
 - Tüm fatura kayıtları denetim ve raporlama amaçları için hesabınızda erişilebilir durumda kalır
 - Faturalar ve ödeme geçmişi muhasebe amaçları için indirilebilir

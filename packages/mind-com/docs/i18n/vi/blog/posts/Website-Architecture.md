@@ -11,7 +11,7 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 <img src="/blog/iStock-681469612.jpg" alt="dirham UAE" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-Website [mind.com](https://mind.com) đại diện cho một ví dụ xuất sắc về kiến trúc hiện đại cho các trang web marketing, kết hợp các thực tiễn tốt nhất của phát triển JAMstack với các công nghệ AI tiên tiến. Trong phân tích kỹ thuật này, chúng tôi sẽ xem xét chi tiết các quyết định kiến trúc làm nền tảng cho dự án này, là một phần của monorepo InterMIND nhưng hoạt động như một nền tảng tĩnh độc lập với khả năng động.
+Website [mind.com](https://mind.com) đại diện cho một ví dụ xuất sắc về kiến trúc hiện đại cho các trang web marketing, kết hợp các thực tiễn tốt nhất trong phát triển JAMstack với các công nghệ AI tiên tiến. Trong phân tích kỹ thuật này, chúng ta sẽ xem xét chi tiết các quyết định kiến trúc làm nền tảng cho dự án này, là một phần của monorepo InterMIND nhưng hoạt động như một nền tảng tĩnh độc lập với khả năng động.
 
 > **Các đổi mới kiến trúc chính** bao gồm một số giải pháp kỹ thuật phân biệt dự án này với các trang web marketing thông thường.
 
@@ -99,21 +99,21 @@ Mind.com hỗ trợ hơn 20 ngôn ngữ với khả năng hỗ trợ đầy đ�
 
 ### Hỗ trợ RTL và LTR
 
-**Thuộc tính logic CSS** được sử dụng thay vì `left/right` truyền thống để quản lý hướng văn bản tự động. Sass mixins cung cấp tạo style RTL/LTR tự động, và các ký tự Unicode đặc biệt (LRE, PDF) xử lý đúng cách dấu ngoặc và dấu nháy trong ngữ cảnh RTL.
+**Thuộc tính logic CSS** được sử dụng thay vì `left/right` truyền thống để quản lý hướng văn bản tự động. Các mixin Sass cung cấp tạo kiểu RTL/LTR tự động, và các ký tự Unicode đặc biệt (LRE, PDF) xử lý đúng cách dấu ngoặc và dấu nháy trong ngữ cảnh RTL.
 
 ### Hệ thống dịch thuật AI cách mạng
 
-**Script dịch thuật** đại diện cho một **đổi mới công nghệ quan trọng** thay đổi căn bản cách tiếp cận quốc tế hóa trang web. Không giống như các hệ thống i18n truyền thống yêu cầu tạo và bảo trì liên tục từ điển dịch thuật, hệ thống này **hoàn toàn loại bỏ nhu cầu quản lý dịch thuật thủ công**. Bằng cách phân tích nội dung nguồn trong thư mục `docs/en/`, hệ thống tự động tạo bản dịch trong `docs/i18n/{lang}/`, hỗ trợ bất kỳ số lượng ngôn ngữ nào được chỉ định trong cấu hình. Việc thực thi được kích hoạt bằng lệnh đơn giản `pnpm translate` từ thư mục package.
+**Script dịch thuật** đại diện cho một **đổi mới công nghệ quan trọng** thay đổi căn bản cách tiếp cận quốc tế hóa trang web. Không giống như các hệ thống i18n truyền thống yêu cầu tạo và bảo trì liên tục từ điển dịch thuật, hệ thống này **hoàn toàn loại bỏ nhu cầu quản lý dịch thuật thủ công**. Bằng cách phân tích nội dung nguồn trong thư mục `docs/en/`, hệ thống tự động tạo bản dịch trong `docs/i18n/{lang}/`, hỗ trợ bất kỳ số lượng ngôn ngữ nào được chỉ định trong cấu hình. Việc thực thi được kích hoạt bằng lệnh đơn giản `pnpm translate` từ thư mục gói.
 
-**Hỗ trợ định dạng toàn cầu** là một lợi thế quan trọng: hệ thống xử lý Markdown, Vue components, TypeScript, JavaScript và bất kỳ định dạng văn bản nào khác mà không cần thích ứng đặc biệt. Điều này có nghĩa là **tất cả nội dung trang web — từ tài liệu đến UI components — được dịch tự động**, bảo toàn cấu trúc, định dạng và chức năng.
+**Hỗ trợ định dạng toàn cầu** là một lợi thế quan trọng: hệ thống xử lý Markdown, các component Vue, TypeScript, JavaScript và bất kỳ định dạng văn bản nào khác mà không cần thích ứng đặc biệt. Điều này có nghĩa là **tất cả nội dung trang web — từ tài liệu đến các component UI — được dịch tự động**, bảo toàn cấu trúc, định dạng và chức năng.
 
-**Tối ưu hóa SEO đẳng cấp thế giới** được đạt được bằng cách tạo các trang tĩnh hoàn chỉnh cho mỗi ngôn ngữ. Không giống như các giải pháp i18n phía client tải nội dung động, mỗi phiên bản ngôn ngữ tồn tại như một trang tĩnh riêng biệt, đảm bảo **lập chỉ mục công cụ tìm kiếm hoàn hảo** và tải nội dung tức thì. Bot tìm kiếm thấy HTML được dịch đầy đủ mà không phụ thuộc JavaScript.
+**Tối ưu hóa SEO đẳng cấp thế giới** được đạt được bằng cách tạo các trang tĩnh hoàn chỉnh cho mỗi ngôn ngữ. Không giống như các giải pháp i18n phía client tải nội dung động, mỗi phiên bản ngôn ngữ tồn tại như một trang tĩnh riêng biệt, đảm bảo **lập chỉ mục công cụ tìm kiếm hoàn hảo** và tải nội dung tức thì. Các bot tìm kiếm thấy HTML được dịch đầy đủ mà không phụ thuộc JavaScript.
 
-**Kiến trúc AI kép** sử dụng OpenAI GPT-4 và Anthropic Claude với chuyển đổi model tự động khi có lỗi. Hệ thống bao gồm dịch thuật tăng dần (chỉ các file đã thay đổi), đồng bộ hóa cấu trúc file tự động, và kiểm tra biên dịch tùy chọn của các file đã dịch thông qua `checkBuildErrors: true`.
+**Kiến trúc AI kép** sử dụng OpenAI GPT-4 và Anthropic Claude với chuyển đổi mô hình tự động khi có lỗi. Hệ thống bao gồm dịch thuật tăng dần (chỉ các tệp đã thay đổi), đồng bộ hóa cấu trúc tệp tự động và kiểm tra biên dịch tùy chọn của các tệp đã dịch thông qua `checkBuildErrors: true`.
 
-**Kỹ thuật prompt thông minh** đảm bảo bảo toàn định dạng markdown, tính bất biến của các khối code, duy trì tất cả liên kết và tham chiếu, và dịch chỉ văn bản ngôn ngữ tự nhiên. Hệ thống tự động chia các file lớn thành các phần để xử lý tối ưu bởi các model AI.
+**Kỹ thuật prompt thông minh** đảm bảo bảo toàn định dạng markdown, tính bất biến của các khối mã, duy trì tất cả liên kết và tham chiếu, và chỉ dịch văn bản ngôn ngữ tự nhiên. Hệ thống tự động chia các tệp lớn thành các phần để xử lý tối ưu bởi các mô hình AI.
 
-**Xử lý lỗi và tự động sửa** bao gồm chuyển đổi tự động sang model tiếp theo khi có lỗi dịch thuật, lưu các file dịch một phần với phần mở rộng `.log`, dịch lại các file có vấn đề sử dụng tất cả model có sẵn, và báo cáo cuối cùng về các file không thể sửa được.
+**Xử lý lỗi và tự động sửa** bao gồm chuyển đổi tự động sang mô hình tiếp theo khi có lỗi dịch thuật, lưu các tệp dịch một phần với phần mở rộng `.log`, dịch lại các tệp có vấn đề sử dụng tất cả các mô hình có sẵn, và báo cáo cuối cùng về các tệp không thể sửa được.
 
 ## Tích hợp CRM với Pipedrive
 
@@ -121,9 +121,9 @@ Tích hợp CRM Pipedrive minh họa cách các trang web marketing hiện đạ
 
 ### Tự động hóa quản lý leads
 
-**Kiến trúc hướng sự kiện** sử dụng triggers S3/EventBridge để xử lý leads, các hàm serverless để chuẩn hóa dữ liệu leads, và đồng bộ hóa giữa Pipedrive và các nền tảng tự động hóa marketing.
+**Kiến trúc hướng sự kiện** sử dụng S3/EventBridge triggers để xử lý leads, serverless functions để chuẩn hóa dữ liệu leads, và đồng bộ hóa giữa Pipedrive và các nền tảng tự động hóa marketing.
 
-**Pipeline phân tích** được triển khai thông qua Step Functions để điều phối pipeline dữ liệu, các hàm Lambda cho các hoạt động ETL, và lưu trữ tối ưu hóa ở định dạng Parquet để lưu trữ dữ liệu dài hạn hiệu quả.
+**Pipeline phân tích** được triển khai thông qua Step Functions để điều phối pipeline dữ liệu, Lambda functions cho các hoạt động ETL, và lưu trữ tối ưu hóa ở định dạng Parquet để lưu trữ dữ liệu dài hạn hiệu quả.
 
 ## Quản lý trạng thái với Pinia
 
@@ -145,9 +145,9 @@ Mind.com sử dụng phương pháp hiện đại để phân tích thông qua *
 
 ### Tích hợp GTM
 
-**Kiểm thử A/B phía máy chủ** được triển khai thông qua các hàm edge để duy trì hiệu suất, tránh các công cụ kiểm thử A/B phía client truyền thống có thể làm giảm điểm Lighthouse xuống 10 điểm.
+**A/B testing phía máy chủ** được triển khai thông qua các edge functions để duy trì hiệu suất, tránh các công cụ A/B testing phía client truyền thống có thể làm giảm điểm Lighthouse xuống 10 điểm.
 
-**Sự kiện dataLayer tùy chỉnh** để theo dõi thí nghiệm sử dụng cấu trúc `{'experimentId': 'id', 'variationId': 'id'}`, đảm bảo theo dõi biến thể kiểm thử chính xác mà không ảnh hưởng đến hiệu suất.
+**Sự kiện dataLayer tùy chỉnh** cho việc theo dõi thử nghiệm sử dụng cấu trúc `{'experimentId': 'id', 'variationId': 'id'}`, đảm bảo theo dõi chính xác các biến thể thử nghiệm mà không ảnh hưởng đến hiệu suất.
 
 ## Bảo mật và khả năng mở rộng
 
@@ -167,13 +167,13 @@ Mind.com sử dụng phương pháp hiện đại để phân tích thông qua *
 
 Kiến trúc của Mind.com cung cấp **cải thiện hiệu suất 35-60%** so với các phương pháp truyền thống. Các trang JAMstack tải nhanh hơn 35%, với 50% đạt được First Contentful Paint trong vòng dưới 1 giây.
 
-**Xử lý lưu lượng truy cập** được cải thiện gấp 10 lần so với kiến trúc render phía máy chủ truyền thống với chi phí thấp hơn đáng kể nhờ vào phân phối CDN và mở rộng serverless.
+**Xử lý lưu lượng truy cập** được cải thiện gấp 10 lần so với kiến trúc render phía server truyền thống với chi phí thấp hơn đáng kể nhờ vào phân phối CDN và mở rộng serverless.
 
 ### Trải nghiệm nhà phát triển
 
 **Monorepo với pnpm** cung cấp tốc độ cài đặt vượt trội: npm (~45s), yarn (~35s), pnpm (~22s), với tổng cộng 85MB không gian đĩa chia sẻ thay vì 130MB cho mỗi dự án với npm.
 
-**Tối ưu hóa CI/CD** bao gồm tạo động các công việc song song cho từng gói bị ảnh hưởng, xây dựng tăng dần, và kích hoạt triển khai tự động với đồng bộ hóa nội dung.
+**Tối ưu hóa CI/CD** bao gồm tạo động các job song song cho từng package bị ảnh hưởng, build tăng dần, và trigger triển khai tự động với đồng bộ hóa nội dung.
 
 ## Lợi thế cạnh tranh
 
@@ -181,7 +181,7 @@ Mind.com chứng minh cách kiến trúc JAMstack hiện đại với tích hợ
 
 **Giảm bề mặt tấn công** với không có máy chủ runtime hoặc lỗ hổng cơ sở dữ liệu, các tệp tĩnh loại bỏ SQL injection và các vector tấn công phía máy chủ, phân phối dựa trên CDN cung cấp bảo vệ DDoS và dự phòng toàn cầu.
 
-**Hiệu quả chi phí** đạt được thông qua hosting CDN, rẻ hơn đáng kể so với hosting máy chủ truyền thống, giảm chi phí vận hành mà không cần plugin và quản lý máy chủ, tự động mở rộng quy mô thông qua phân phối CDN, và việc sử dụng serverless function giảm overhead bảo trì backend.
+**Hiệu quả chi phí** đạt được thông qua hosting CDN, rẻ hơn đáng kể so với hosting máy chủ truyền thống, giảm chi phí vận hành mà không cần plugins và quản lý máy chủ, tự động mở rộng quy mô thông qua phân phối CDN, và việc sử dụng serverless function giảm overhead bảo trì backend.
 
 ## Kết luận
 

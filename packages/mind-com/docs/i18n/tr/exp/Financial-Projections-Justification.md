@@ -1,14 +1,14 @@
-# Mali Projeksiyonlar Gerekçesi (1-3. Yıl) <Badge type="success" text="updated" />
+# Finansal Projeksiyonlar Gerekçesi (1-3. Yıl) <Badge type="success" text="updated" />
 
-Bu belge, InterMind'ın ilk üç yıl boyunca kullanıcı büyümesi, gelir (ARR) ve birim ekonomisi için mali modelinin arkasındaki varsayımları açıklamaktadır.
+Bu belge, InterMind'ın ilk üç yıl boyunca kullanıcı büyümesi, gelir (ARR) ve birim ekonomisi için finansal modelinin arkasındaki varsayımları açıklamaktadır.
 
 ## Müşteri Büyümesi
 
 | Yıl | Ücretli Hesaplar | Gerekçe                                                                                                                                                            |
 | --- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1   | 1,600            | 5 gelişmekte olan pazarda (MX, BR, TR, TH, ID) ilk kullanıma sunma, ihracat odaklı B2B kullanıcılar tarafından erken benimsenme. İngilizce alternatiflere yüksek talep. |
-| 2   | 15,600           | 10+ ülkede yerelleştirilmiş SEO ve ücretli kampanyalar, müşteri toplantıları yoluyla ağ etkileri, freemium hunisinin ölçeklendirilmesi. Zoom/CRM entegrasyonları orta pazar edinimini yönlendiriyor. |
-| 3   | 72,000           | "Kendi dilinizde konuşun" UX aracılığıyla viral büyüme, derin dikey entegrasyonlar (ERP, onboarding, hukuki), AB/MENA'da bayi programları.                        |
+| 2   | 15,600           | 10+ ülkede yerelleştirilmiş SEO ve ücretli kampanyalar, müşteri toplantıları yoluyla ağ etkileri, freemium hunisini ölçeklendirme. Zoom/CRM entegrasyonları orta pazar edinimini yönlendiriyor. |
+| 3   | 72,000           | "Kendi dilinizde konuşun" UX aracılığıyla viral büyüme, derin dikey entegrasyonlar (ERP, onboarding, hukuki), AB/MENA\'da bayi programları.                        |
 
 ## Yıllık Yinelenen Gelir (ARR)
 
@@ -24,10 +24,10 @@ Bu belge, InterMind'ın ilk üç yıl boyunca kullanıcı büyümesi, gelir (ARR
 
 | Segment              | Y1 Dağılımı       | Y2 Dağılımı         | Y3 Dağılımı       |
 | -------------------- | ----------------- | ------------------- | ----------------- |
-| **Solo/Serbest**     | %83 (1.0 lis/hes) | %81.5 (1.0 lis/hes) | %80 (1.0 lis/hes) |
-| **Küçük İşletme**    | %15 (2.0 lis/hes) | %15 (3.0 lis/hes)   | %15 (4.0 lis/hes) |
-| **Orta Pazar**       | %2 (18.5 lis/hes) | %3.5 (21.0 lis/hes) | %5 (22.0 lis/hes) |
-| **Ağırlıklı Ortalama** | **1.5 lis/hes**   | **2.0 lis/hes**     | **2.5 lis/hes**   |
+| **Solo/Serbest**     | %83 (1,0 lis/hes) | %81,5 (1,0 lis/hes) | %80 (1,0 lis/hes) |
+| **Küçük İşletme**    | %15 (2,0 lis/hes) | %15 (3,0 lis/hes)   | %15 (4,0 lis/hes) |
+| **Orta Pazar**       | %2 (18,5 lis/hes) | %3,5 (21,0 lis/hes) | %5 (22,0 lis/hes) |
+| **Ağırlıklı Ortalama** | **1,5 lis/hes**   | **2,0 lis/hes**     | **2,5 lis/hes**   |
 
 ### **Lisans Büyüme Mantığı:**
 
@@ -37,11 +37,11 @@ Bu belge, InterMind'ın ilk üç yıl boyunca kullanıcı büyümesi, gelir (ARR
 
 ## CAC (Müşteri Edinme Maliyeti)
 
-| Yıl | CAC Ort | Gerekçe                                                                                                                                                    |
-| --- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Yıl | CAC Ort | Gerekçe                                                                                                                                                     |
+| --- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | $95     | Ücretli arama, kurucu liderliğindeki satışlar ve düşük maliyetli pilot projeler karışımı. Yüksek niyetli anahtar kelimelerle ülke düzeyinde kampanyalar (örn. "como hablar ingles reuniones"). |
 | 2   | $90     | Geliştirilmiş huni metrikleri, yerelleştirilmiş onboarding ve içerik pazarlaması sayesinde CAC azalır. Organik ve yönlendirme kanalları güçlenir.        |
-| 3   | $85     | Bayi programları, partner entegrasyonları ve olgun atıf modellemesinden CAC verimliliği.                                                                  |
+| 3   | $85     | Bayi programları, partner entegrasyonları ve olgun atıf modellemesinden CAC verimliliği.                                                                   |
 
 ## LTV (Müşteri Yaşam Boyu Değeri)
 
@@ -91,9 +91,9 @@ Bu belge, InterMind'ın ilk üç yıl boyunca kullanıcı büyümesi, gelir (ARR
 
 **Dahil edilmeyen olumlu senaryolar:**
 
-- API monetizasyonu (Y2 yılında planlanmış)
-- Orta ölçekli müşteriler için beyaz etiket lisanslama
-- Pazar yeri entegrasyonları (Zoom App Store, Microsoft Teams)
+- API monetizasyonu (Y2'de planlanmış)
+- Orta ölçekli müşteriler için white-label lisanslama
+- Marketplace entegrasyonları (Zoom App Store, Microsoft Teams)
 
 **Maliyet varsayımları şunları hesaba katar:**
 
@@ -103,8 +103,8 @@ Bu belge, InterMind'ın ilk üç yıl boyunca kullanıcı büyümesi, gelir (ARR
 
 **Fiyatlandırma doğrulaması:**
 
-- Karşılaştırılabilir SaaS araçlarına karşı kıyaslama (Zoom, DeepL Pro, Otter AI)
-- Hedef segmentlerde fiyat hassasiyeti testi
+- Karşılaştırılabilir SaaS araçlarına karşı benchmark yapıldı (Zoom, DeepL Pro, Otter AI)
+- Hedef segmentlerde fiyat hassasiyeti testleri
 - Pilot programlar aracılığıyla ödeme istekliliği analizi
 
-> **Sonuç:** Bu projeksiyonlar büyüme hırsını disiplinli SaaS ekonomisi ile dengelemektedir — sürdürülebilir LTV/CAC oranlarını (Y3'e kadar >5x) ve gerçekçi müşteri tabanı segmentasyonu ile %80+ brüt marjları hedeflemektedir.
+> **Sonuç:** Bu projeksiyonlar, büyüme hırsını disiplinli SaaS ekonomisi ile dengelemektedir — sürdürülebilir LTV/CAC oranlarını (Y3'e kadar >5x) ve gerçekçi müşteri tabanı segmentasyonu ile %80+ brüt marjları hedeflemektedir.

@@ -91,8 +91,8 @@ Isso permite que os usuários obtenham um resumo da reunião do Assistente de IA
 ## Controle de Acesso
 
 - Anfitriões e Moderadores têm acesso completo ao seu próprio histórico de reuniões
-- Participantes Conectados podem acessar o histórico das reuniões que participaram; no entanto, eles não conseguem excluir o registro da reunião
+- Participantes conectados podem acessar o histórico das reuniões que participaram; no entanto, eles não podem excluir o registro da reunião
 - Usuários convidados e participantes anônimos não têm acesso à página de histórico ou ao seu conteúdo
 
 > [!TIP]
-> Utilize a página de Histórico de Reuniões para reproduzir discussões importantes, recuperar anotações essenciais e acompanhar itens de ação usando resumos e transcrições—tornando-a uma ferramenta essencial para documentação de equipe, auditorias ou fluxos de trabalho de conformidade.
+> Utilize a página de Histórico de Reuniões para reproduzir discussões importantes, recuperar anotações relevantes e acompanhar itens de ação usando resumos e transcrições—tornando-a uma ferramenta essencial para documentação de equipe, auditorias ou fluxos de trabalho de conformidade.

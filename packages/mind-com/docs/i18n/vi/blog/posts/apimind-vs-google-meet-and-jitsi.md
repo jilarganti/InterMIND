@@ -47,8 +47,8 @@ apiMind thể hiện:
 
 Chúng tôi thẳng thắn thừa nhận những lĩnh vực cần được cải thiện:
 
-1. **Thích ứng băng thông thấp (200kbps)** — Hiện đang gặp tình trạng âm thanh bị gián đoạn và FPS giảm xuống ~5 FPS (Google Meet duy trì ~17 FPS)
-2. **Khôi phục chất lượng sau khi mạng được cải thiện** — Hệ thống không ổn định trong việc trở lại chất lượng ban đầu (tỷ lệ khôi phục 50% trong các bài kiểm tra)
+1. **Thích ứng băng thông thấp (200kbps)** — Hiện đang gặp phải tình trạng âm thanh bị gián đoạn và FPS giảm xuống ~5 FPS (Google Meet duy trì ~17 FPS)
+2. **Khôi phục chất lượng sau khi mạng được cải thiện** — Hệ thống không nhất quán trong việc trở lại chất lượng ban đầu (tỷ lệ khôi phục 50% trong các bài kiểm tra)
 3. **Độ trễ cơ bản** — Độ trễ âm thanh/video cao hơn so với đối thủ cạnh tranh trong điều kiện tối ưu
 
 ## Tiến bộ theo năm: Những cải thiện có thể đo lường được
@@ -63,19 +63,19 @@ So với kết quả năm 2023, chúng tôi đã đạt được:
 - Giảm độ trễ âm thanh cơ bản
 - Duy trì tốc độ khung hình ổn định hơn
 
-## Tại sao điều này quan trọng đối với người dùng của chúng tôi
+## Tại Sao Điều Này Quan Trọng Đối Với Người Dùng Của Chúng Tôi
 
-### Đối với khách hàng doanh nghiệp
+### Đối Với Khách Hàng Doanh Nghiệp
 
 - **Khả năng phục hồi trong điều kiện khó khăn**: Duy trì chất lượng kết nối khi thời gian mạng không ổn định
-- **Hiệu suất có thể dự đoán**: Hành vi nhất quán trên các tình huống mạng khác nhau
+- **Hiệu suất có thể dự đoán**: Hoạt động nhất quán trên các tình huống mạng khác nhau
 
-### Đối với giáo dục
+### Đối Với Giáo Dục
 
 - **Xử lý sự bất ổn của mạng**: Hiệu suất tốt hơn với jitter/độ trễ phổ biến trong mạng tổ chức
-- **Duy trì kết nối**: Giữ video hoạt động khi những người khác có thể bị ngắt kết nối
+- **Duy trì kết nối**: Giữ video hoạt động khi các ứng dụng khác có thể bị ngắt kết nối
 
-### Đối với nhóm làm việc từ xa
+### Đối Với Nhóm Làm Việc Từ Xa
 
 - **Thân thiện với VPN**: Xử lý vượt trội độ trễ do kết nối bảo mật gây ra
 - **Cuộc gọi quốc tế**: Hiệu suất tốt hơn trên các kết nối đường dài với độ trễ tự nhiên

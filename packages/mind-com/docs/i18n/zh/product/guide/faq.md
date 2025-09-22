@@ -65,10 +65,10 @@ AI助手仅供已登录用户（主持人、协调员和参与者）使用。访
 ## 浏览器
 
 **支持哪些设备？**
-InterMIND 可在桌面端（Windows/macOS）和移动端（iOS/Android）上通过任何现代浏览器运行。
+InterMIND可在桌面端（Windows/macOS）和移动端（iOS/Android）上通过任何现代浏览器运行。
 
 **哪个浏览器最好？**
-Chrome、Firefox、Safari、Edge 和 Opera 均完全支持。
+Chrome、Firefox、Safari、Edge和Opera均完全支持。
 
 ## 历史记录
 

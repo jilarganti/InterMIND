@@ -1,6 +1,6 @@
-# Resumo executivo do InterMind <Badge type="warning" text="draft" />
+# Resumo executivo InterMind <Badge type="warning" text="draft" />
 
-## O problema
+## O Problema
 
 As barreiras linguísticas ainda bloqueiam negócios globais — especialmente na manufatura, exportações e cadeias de suprimentos. Contratar intérpretes é caro, lento e não escalável.
 
@@ -12,9 +12,9 @@ As barreiras linguísticas ainda bloqueiam negócios globais — especialmente n
 
 - O trabalho remoto é permanente (75% das vendas B2B online)
 - A tradução por IA agora atinge precisão quase humana
-- Mercados emergentes (LATAM, SEA, MENA) têm baixa proficiência em inglês, mas alto volume comercial
+- Mercados emergentes (LATAM, SEA, MENA) têm baixa proficiência em inglês, mas alto volume de negócios
 
-## Mercados principais
+## Mercados Principais
 
 Lançando pilotos em:
 
@@ -33,10 +33,10 @@ Lançando pilotos em:
 - Campanhas de busca localizadas em 5 países
 - Forte interesse inbound de equipes de exportação e gerentes de compras
 
-## Vantagem competitiva
+## Vantagem Competitiva
 
 - Interpretação integrada — não é um plugin
-- Arquitetura com foco na privacidade (zonas UE/EUA/Ásia)
+- Arquitetura com foco na privacidade (zonas EU/EUA/Ásia)
 - UX otimizada para reuniões de negócios, não apenas videochamadas
 
 ## Equipe

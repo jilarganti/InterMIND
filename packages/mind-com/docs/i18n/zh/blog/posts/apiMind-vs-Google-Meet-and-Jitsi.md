@@ -1,6 +1,6 @@
 ---
 layout: BlogPost
-title: "apiMind 与 Google Meet 和 Jitsi 对比"
+title: "apiMind 与 Google Meet 和 Jitsi 的对比"
 description: "基于独立测试的 apiMind 与 Google Meet 和 Jitsi 性能综合对比分析。"
 date: 2025-08-18
 author: "[Jilarganti](https://github.com/jilarganti)"
@@ -11,7 +11,7 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 <img src="/blog/2025-08-18_18.54.27.png" alt="apiMind 与 Google Meet 对比" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/2025-08-18_18.54.10.png" alt="apiMind 与 Jitsi 对比" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-> 透明与诚信——我们的发展理念
+> 透明与诚信 — 我们的发展理念
 
 我们相信真正的进步来自于与市场上最佳解决方案的公开比较。因此，我们委托拥有10年经验和500名专家的 TestDevLab 进行独立测试，该公司测试的产品被全球45亿用户使用。
 
@@ -47,14 +47,14 @@ apiMind展现出：
 
 我们公开承认需要改进的领域：
 
-1. **低带宽适应（200kbps）** — 目前出现音频丢失和帧率降至约5 FPS（Google Meet维持约17 FPS）
+1. **低带宽适应（200kbps）** — 目前出现音频丢失和FPS降至约5 FPS（Google Meet维持约17 FPS）
 2. **网络改善后的质量恢复** — 系统无法持续恢复到原始质量（测试中恢复率为50%）
-3. **基线延迟** — 在最佳条件下，音频/视频延迟高于竞争对手
+3. **基线延迟** — 在最佳条件下，音频/视频延迟比竞争对手更高
 
 ## 年度进展：可衡量的改进
 
-<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind 对比 Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.49.39.png" alt="apiMind 对比 Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 与2023年的结果相比，我们已经实现了：
 
@@ -84,7 +84,7 @@ apiMind展现出：
 
 我们的优化重点反映了真实的使用模式：
 
-- **apiMind** 在网络时序不一致时表现出色（抖动/延迟）
+- **apiMind** 在网络时序不一致（抖动/延迟）时表现出色
 - **Google Meet** 在稳定、高带宽连接下性能最佳
 - **Jitsi** 提供开源灵活性，但在压力下可能会禁用视频
 
@@ -107,13 +107,13 @@ apiMind展现出：
 
 ## 结论
 
-独立基准测试为真实世界的性能表现提供了宝贵的见解。apiMind在**具有挑战性的网络时序条件下表现出色**，在丢包处理方面具有竞争力，同时我们持续改进带宽适应和恢复机制。
+独立基准测试为实际性能表现提供了宝贵的见解。apiMind在**具有挑战性的网络时序条件下表现出色**，在丢包处理方面具有竞争优势，同时我们持续改进带宽适应和恢复机制。
 
 > 我们致力于透明地展示我们的优势和需要改进的领域。这些结果指导着我们的开发重点，帮助我们为真实世界的条件而构建。
 
 ---
 
-_研究由TestDevLab（拉脱维亚）于2024年7月进行。方法：3名参与者，Windows/Chrome，在动态网络条件下测试，每个阶段持续60秒——带宽（无限制→2M→500K→200K→500K→2M→无限制），丢包率（0%→10%→20%→20%→20%→10%→0%），抖动/延迟（0/0→100/30→500/90→1500/270→500/90→100/30→0/0毫秒）。_
+_研究由TestDevLab（拉脱维亚）于2024年7月进行。方法：3名参与者，Windows/Chrome环境，在动态网络条件下测试，每个阶段持续60秒——带宽（无限制→2M→500K→200K→500K→2M→无限制），丢包率（0%→10%→20%→20%→20%→10%→0%），抖动/延迟（0/0→100/30→500/90→1500/270→500/90→100/30→0/0毫秒）。_
 
 ---
 

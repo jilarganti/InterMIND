@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "InterMIND: Terjemahan Ucapan Real-Time untuk Rapat Video"
+title: "InterMIND: Terjemahan Suara Real-Time untuk Rapat Video"
 description: "Konferensi video profesional dengan interpretasi simultan dalam 19+ bahasa. Terjemahan bertenaga AI yang menangkap nada, maksud, dan konteks. Bertemu secara global, berkomunikasi secara alami."
 isHome: true
 ---
@@ -55,7 +55,7 @@ isHome: true
       title: 'Dibangun untuk Rapat Serius — Bukan Hanya Berbicara',
       details: 'InterMIND adalah [platform rapat video tingkat profesional](./product/overview/video-meeting-platform), bukan add-on atau plugin ringan.',
       items: [
-        '✧ Resolusi 1080p, penekan kebisingan pintar, penjadwalan, moderasi, berbagi layar, perekaman, subtitle, chat peserta dan integrasi kalender — semua terintegrasi, **siap digunakan**.',
+        '✧ Resolusi 1080p, penekan suara pintar, penjadwalan, moderasi, berbagi layar, perekaman, subtitle, chat peserta dan integrasi kalender — semua terintegrasi, **siap digunakan**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -118,7 +118,7 @@ Antarmuka yang familiar. Komunikasi universal. Kemudahan yang sama seperti Googl
       },
       {
         title: 'Berbicara dalam bahasa Anda',
-        details: 'Setiap orang berbicara dan mendengar dalam bahasa mereka sendiri.',
+        details: 'Semua orang berbicara dan mendengar dalam bahasa mereka sendiri.',
         icon: {
           light: '/meeting.png',
           dark: '/meeting.png',
@@ -198,7 +198,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
         details: 'tidak perlu kartu kredit',
         items: [
           '**25** pertemuan',
-          '**100** peserta pertemuan video [💬](#3)',
+          '**100** pertemuan video peserta [💬](#3)',
           '**30** GB penyimpanan gabungan per pengguna',
           'Pencarian di semua pertemuan Anda [💬](#2)',
           'Interpretasi simultan [💬](#1)',
@@ -210,7 +210,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
         details: 'atau $25 ditagih bulanan',
         items: [
           '**Tidak terbatas** pertemuan',
-          '**150** peserta pertemuan video [💬](#3)',
+          '**150** pertemuan video peserta [💬](#3)',
           '**2** TB penyimpanan gabungan per pengguna',
           'Pencarian di semua pertemuan Anda [💬](#2)',
           'Interpretasi simultan [💬](#1)',
@@ -222,7 +222,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
         details: 'Dibuat untuk privasi',
         items: [
           '**Tidak terbatas** pertemuan',
-          '**500** peserta pertemuan video [💬](#3)',
+          '**500** pertemuan video peserta [💬](#3)',
           '**5** TB penyimpanan gabungan per pengguna',
           'Pencarian di semua pertemuan Anda [💬](#2)',
           'Interpretasi simultan [💬](#1)',
@@ -231,7 +231,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
       },
     ]">
 
-<AuthButton text="Mulai sekarang" button-class="brand" event-name="get_started_attempt"/>
+<AuthButton text="Mulai" button-class="brand" event-name="get_started_attempt"/>
 <AuthButton text="Beli sekarang" mode="checkout" eventName="buy_now_attempt" />
 <ContactForm buttonText="Bicara dengan tim kami" buttonClass="alt" />
 </PricingPlans>
@@ -250,7 +250,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
         a: 'InterMind mendukung **interpretasi real-time** dalam 19 bahasa berikut:<br><br>- العربية (ar) – Arab<br>- Čeština (cs) – Ceko<br>- Deutsch (de) – Jerman<br>- English (en) – Inggris<br>- Español (es) – Spanyol<br>- Français (fr) – Prancis<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Hungaria<br>- Italiano (it) – Italia<br>- 日本語 (ja) – Jepang<br>- 한국어 (ko) – Korea<br>- Nederlands (nl) – Belanda<br>- Polski (pl) – Polandia<br>- Português (pt) – Portugis<br>- Русский (ru) – Rusia<br>- Türkçe (tr) – Turki<br>- 中文 (zh) – Mandarin<br><br>Kami terus memperluas daftar ini — bahasa baru ditambahkan pada setiap rilis utama.',
       },
       {
-        q: 'Apa itu pengguna berlisensi dan apa itu peserta?',
+        q: 'Apa itu pengguna Berlisensi dan apa itu Peserta?',
         a: 'Seorang *pengguna berlisensi* memiliki lisensi meeting gratis atau berbayar dan dapat menjadwalkan meeting dalam batas paket mereka. *Peserta* adalah undangan — mereka **tidak memerlukan akun atau lisensi** untuk bergabung dan dapat terhubung dari perangkat apa pun **secara gratis**.',
       },
       {
@@ -267,7 +267,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
       },
       {
         q: 'Bagaimana InterMind memastikan privasi dan keamanan data?',
-        a: 'InterMind **privat berdasarkan desain**. Semua data diproses dan disimpan dalam **Zona Privasi** yang Anda pilih — _EU_, _US_, atau _Asia_. Kami mematuhi [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), dan UAE PDPL, dan **tidak pernah menggunakan konten Anda** untuk pelatihan atau akses pihak ketiga. Kontrol [Zona Privasi](./product/overview/privacy-architecture) lanjutan tersedia pada paket **Business**.',
+        a: 'InterMind **privat by design**. Semua data diproses dan disimpan dalam **Privacy Zone** yang Anda pilih — _EU_, _US_, atau _Asia_. Kami mematuhi [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), dan UAE PDPL, dan **tidak pernah menggunakan konten Anda** untuk pelatihan atau akses pihak ketiga. Kontrol [Privacy Zone](./product/overview/privacy-architecture) lanjutan tersedia pada paket **Business**.',
       },
       {
         q: 'Bisakah saya mencoba InterMind sebelum membeli paket?',
@@ -306,14 +306,14 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
           { text: 'Kebijakan Privasi', link: './resources/company/privacy-policy' },
           { text: 'Panduan Hukum AI', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Status Layanan', link: 'https://status.mind.com/' },
-          // { text: 'Privacy Settings', link: '#' },
+          // { text: 'Pengaturan Privasi', link: '#' },
         ],
       },
       {
         title: 'SUMBER DAYA',
         links: [
           { text: 'Blog', link: './blog/' },
-          { text: 'Aset Merek', link: './resources/media-kit' },
+          { text: 'Aset Brand', link: './resources/media-kit' },
           { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],
       },

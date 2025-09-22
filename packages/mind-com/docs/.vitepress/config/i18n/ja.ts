@@ -5,14 +5,16 @@ import { defineConfig, type DefaultTheme } from "vitepress"
 const BASE_PATH = "/ja"
 
 export const ja = defineConfig({
-  description: "19以上の言語での同時通訳機能を備えたプロフェッショナルなビデオ会議。グローバルチーム向けに、トーン、意図、文脈を捉えるAI搭載翻訳。",
+  description:
+    "19以上の言語での同時通訳機能を備えたプロフェッショナルなビデオ会議。グローバルチーム向けに、トーン、意図、文脈を捉えるAI搭載翻訳。",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | グローバルチーム向けリアルタイム音声翻訳" }],
     [
       "meta",
       {
         property: "og:description",
-        content: "19以上の言語での同時音声通訳機能を備えたプロフェッショナルなビデオ会議。AI搭載翻訳でグローバルに会議し、自然にコミュニケーション。",
+        content:
+          "19以上の言語での同時音声通訳機能を備えたプロフェッショナルなビデオ会議。AI搭載翻訳でグローバルに会議し、自然にコミュニケーション。",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],

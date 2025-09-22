@@ -2,13 +2,13 @@
 
 ## INSIGHT CLÉ : Les points de douleur ciblent les marchés non anglophones
 
-**Les anglophones n'ont pas besoin de traduction** — le monde parle anglais avec eux.
+**Les anglophones n\'ont pas besoin de traduction** — le monde parle anglais avec eux.
 
 **Les points de douleur existent pour :**
 
 - Les exportateurs mexicains perdant des contrats de 50 000 $ à cause de malentendus avec les acheteurs américains
-- Les fabricants chinois incapables d'expliquer les spécifications techniques aux clients allemands
-- Les constructeurs automobiles allemands dépendants d'interprètes coûteux pour les négociations avec les fournisseurs japonais
+- Les fabricants chinois incapables d\'expliquer les spécifications techniques aux clients allemands
+- Les constructeurs automobiles allemands dépendants d\'interprètes coûteux pour les négociations avec les fournisseurs japonais
 
 ## 10 Mots-clés stratégiques : "Comment parler avec EUX"
 
@@ -18,15 +18,15 @@
 _"comment parler anglais réunions d'affaires"_
 
 - **Problème :** Un PDG mexicain perd des clients américains à cause des barrières linguistiques
-- **Solution :** Parlez espagnol nativement, les Américains entendent un anglais parfait
+- **Solution :** Parler espagnol nativement, les Américains entendent un anglais parfait
 - **Volume de recherche :** Intention élevée, axé B2B
-- **Estimation CPC :** 8-15 $ (logiciel d'entreprise)
+- **Estimation CPC :** 8-15$ (logiciel d'entreprise)
 
 **2. software traducir español ingles video llamadas**
 _"logiciel traduire espagnol anglais appels vidéo"_
 
 - **Problème :** Le responsable export ne peut pas effectuer de démonstrations produit pour les acheteurs américains
-- **Solution :** Présentez en espagnol, les clients comprennent en anglais
+- **Solution :** Présenter en espagnol, les clients comprennent en anglais
 - **Concurrence :** Faible, cas d'usage spécifique
 - **Intention de conversion :** Très élevée (prêt à acheter)
 
@@ -36,16 +36,16 @@ _"logiciel traduire espagnol anglais appels vidéo"_
 _"comment rencontrer des clients américains en chinois"_
 
 - **Problème :** Un fabricant chinois perd des contrats majeurs à cause du fossé linguistique
-- **Solution :** Expliquez les processus de production en chinois, les Américains comprennent instantanément
-- **Plateforme :** Baidu Ads (80% de part de recherche en Chine)
+- **Solution :** Expliquer les processus de production en chinois, les Américains comprennent instantanément
+- **Plateforme :** Baidu Ads (80% de part de marché de recherche en Chine)
 - **Réglementaire :** Conforme aux exigences de souveraineté des données
 
 **4. 中文英文实时翻译商务会议**
 _"traduction temps réel chinois anglais réunions d'affaires"_
 
-- **Problème :** Les spécifications techniques perdues dans la traduction → erreurs coûteuses
+- **Problème :** Spécifications techniques perdues dans la traduction → erreurs coûteuses
 - **Solution :** L'ingénieur explique les détails en chinois, les spécifications sont transmises avec précision
-- **Taille du marché :** Marché de la traduction B2B de 2,4 milliards $ en Chine
+- **Taille du marché :** 2,4 milliards$ marché de traduction B2B en Chine
 - **Taux de croissance :** 35% en glissement annuel (adoption IA)
 
 ### Communication Marché Allemagne → Asie/États-Unis
@@ -54,8 +54,8 @@ _"traduction temps réel chinois anglais réunions d'affaires"_
 _"traduction allemand anglais réunions d'affaires"_
 
 - **Problème :** Les entreprises automobiles allemandes dépendent d'interprètes coûteux pour l'expansion en Asie
-- **Solution :** Le CTO discute directement des exigences d'ingénierie en allemand
-- **Contexte marché :** 890 milliards € d'exportations automobiles nécessitent un pont linguistique
+- **Solution :** Le directeur technique discute directement des exigences d'ingénierie en allemand
+- **Contexte marché :** 890 milliards€ d'exportations automobiles nécessitent un pont linguistique
 - **Saisonnalité :** Pic T1-T2 (cycles de planification)
 
 **6. wie spreche ich chinesisch lieferanten**
@@ -64,7 +64,7 @@ _"comment parler avec les fournisseurs chinois"_
 - **Problème :** Mauvaise communication chaîne d'approvisionnement → retards de production
 - **Solution :** Le responsable achats allemand parle allemand avec les usines chinoises
 - **Urgence :** Critique pour la fabrication Juste-à-Temps
-- **Budget :** Niveau entreprise (budgets 500+$/mois)
+- **Budget :** Niveau entreprise (budgets 500$+/mois)
 
 ### Communication Marché Japon → Global
 
@@ -80,19 +80,19 @@ _"comment rencontrer des clients étrangers en japonais"_
 _"interprétation temps réel réunions d'affaires"_
 
 - **Problème :** Les discussions techniques détaillées nécessitent des interprètes humains coûteux
-- **Solution :** Interprétation IA pour les conversations d'ingénierie de précision
+- **Solution :** Interprétation IA pour conversations d'ingénierie de précision
 - **Économie de coût :** 70% de réduction vs interprètes humains
 - **Avantage qualité :** Terminologie cohérente, pas de fatigue
 
 ### Communication Marché Espagne → UE/Global
 
 **9. hablar con clientes extranjeros sin saber idiomas**
-_"parler avec des clients étrangers sans connaître les langues"_
+_"parler avec clients étrangers sans connaître les langues"_
 
 - **Problème :** Les exportateurs espagnols limités aux marchés hispanophones
-- **Solution :** Étendez-vous à n'importe quel pays, parlez la langue native
-- **Contexte UE :** 125 milliards € de potentiel commercial intra-UE
-- **Accroche émotionnelle :** Indépendance de l'apprentissage des langues
+- **Solution :** S'étendre à n'importe quel pays, parler langue native
+- **Contexte UE :** 125 milliards€ de potentiel commercial intra-UE
+- **Accroche émotionnelle :** Indépendance de l'apprentissage linguistique
 
 **10. software reunion internacional español**
 _"logiciel réunion internationale espagnol"_
@@ -154,7 +154,7 @@ _"logiciel réunion internationale espagnol"_
 - **Audience :** Exportateurs PME, responsables commerce UE
 - **Allocation budgétaire :** 10% du total
 - **Avantage UE :** Positionnement marché unique
-- **Page de destination :** Interface espagnole, success stories expansion UE
+- **Page de destination :** Interface espagnole, histoires de succès expansion UE
 - **Conformité :** Conformité RGPD mise en avant
 
 ### Ciblage avancé et optimisation
@@ -193,7 +193,7 @@ _"logiciel réunion internationale espagnol"_
 - **Micro-conversions :** Demandes de démo, vues page tarification
 - **Macro-conversions :** Inscriptions essai, abonnements payants
 - **Attribution :** Fenêtre 30 jours (cycles de vente B2B plus longs)
-- **Cross-plateforme :** Suivi multi-appareils, surtout mobile
+- **Cross-plateforme :** Suivi sur tous appareils, surtout mobile
 
 **Intelligence concurrentielle :**
 
@@ -207,7 +207,7 @@ _"logiciel réunion internationale espagnol"_
 **Marché mexicain :**
 
 - **Portée potentielle :** 50K+ entreprises exportatrices
-- **Taille moyenne transaction :** 200$/mois
+- **Taille moyenne contrat :** 200$/mois
 - **Taux de conversion :** 2,5% (intention élevée)
 - **Période de récupération :** 8 mois
 - **Ratio LTV/CAC :** 4,2:1
@@ -215,7 +215,7 @@ _"logiciel réunion internationale espagnol"_
 **Marché chinois :**
 
 - **Portée potentielle :** 200K+ manufacturiers
-- **Taille moyenne transaction :** 500$/mois (entreprise)
+- **Taille moyenne contrat :** 500$/mois (entreprise)
 - **Taux de conversion :** 1,8% (cycle de vente plus long)
 - **Période de récupération :** 12 mois
 - **Ratio LTV/CAC :** 5,1:1

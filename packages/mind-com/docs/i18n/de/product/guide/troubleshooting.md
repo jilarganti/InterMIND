@@ -39,8 +39,8 @@ Dieser Abschnitt bietet Lösungen für häufige Probleme, die während Online-Me
 ### Lösungen:
 
 - Wählen Sie Ihre bevorzugte Sprache in Einstellungen > Sprache
-- Treten Sie dem Meeting erneut bei oder aktualisieren Sie die Meeting-Seite
-- Stellen Sie sicher, dass der Mikrofonzugriff gewährt und aktiviert ist
+- Meeting-Seite erneut beitreten oder aktualisieren
+- Sicherstellen, dass Mikrofonzugriff gewährt und aktiviert ist
 
 ## Echo oder Audio-Feedback
 

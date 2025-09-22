@@ -12,27 +12,27 @@ Geleneksel çeviri araçlarının aksine, InterMIND sadece kelimeleri dönüşt�
 
 ![](/1d.png)
 
-## İletişim verimliliğinin evrimi
+## İletişim Verimliliğinin Evrimi
 
-Tarih boyunca insanlar, bilişsel kapasiteyi optimize eden teknolojileri tutarlı bir şekilde benimsemeleri:
+Tarih boyunca insanlar, bilişsel kapasiteyi optimize eden teknolojileri tutarlı bir şekilde benimsemediler:
 
 - Akıllı telefonlar gereksiz hale getirdiğinde telefon numaralarını ezberlemekten vazgeçtik
 - Hesap makineleri yaygınlaştığında manuel hesaplamalardan vazgeçtik
 - GPS navigasyon sistemleri ortaya çıktığından beri artık yol tariflerini ezberlemiyoruz
 
-Dil öğrenimi, insan bilişsel potansiyelinin son verimsiz tahsislerinden birini temsil ediyor. Ortalama bir kişi yeni bir dilde temel yeterliliğe ulaşmak için 600-1000 saat harcar, akıcılık ise 2000+ saat özel çalışma gerektirir. Bunlar, gerçek alanınızda uzman bilgi geliştirmeye yatırılabilecek saatlerdir.
+Dil öğrenimi, insan bilişsel potansiyelinin son verimsiz tahsislerinden birini temsil ediyor. Ortalama bir kişi yeni bir dilde temel yeterliliğe ulaşmak için 600-1000 saat harcar, akıcılık ise 2000+ saat özel çalışma gerektirir. Bu saatler, gerçek alanınızda uzman bilgi geliştirmeye yatırılabilecek saatlerdir.
 
-> 💡 **_Zamanınız dilbilgisi ezberlemek yerine mesleğinizde ustalaşmak için daha iyi harcanır._**
+> 💡 **_Zamanınız dilbilgisi ezberlemekle değil, mesleğinizde ustalaşmakla geçirmek daha iyidir._**
 
 > 💡 **_Gerçek ortaklıklar gerçek konuşmalarla başlar — onların dilinde._**
 
 ## InterMIND Felsefesi
 
-InterMIND sadece çeviri özelliklerine sahip bir video konferans aracı değil — küresel iletişimin nasıl çalışması gerektiğine dair temel bir yeniden düşünmedir. Yaklaşımımız şunu kabul eder:
+InterMIND sadece çeviri özelliklerine sahip bir video konferans aracı değildir — küresel iletişimin nasıl çalışması gerektiğine dair temel bir yeniden düşünmedir. Yaklaşımımız şunları kabul eder:
 
-1. Teknoloji insanlara uyum sağlamalı, insanlar teknolojiye değil
+1. Teknoloji insanlara uyum sağlamalıdır, insanlar teknolojiye değil
 2. Gerçek iletişim anlayış ile ilgilidir — sadece kelime alışverişi değil
 
-InterMIND ile dil bariyerinin anında çözüldüğü bir sistem yarattık. Platformumuz sadece çeviri yapmaz — gerçek zamanlı olarak diller arası nüansları, bağlamı ve anlamı yorumlar, doğal olarak elde etmek için onlarca yıl dil çalışması gerektirecek bir deneyim sunar.
+InterMIND ile dil bariyerinin anında çözüldüğü bir sistem yarattık. Platformumuz sadece çeviri yapmaz — gerçek zamanlı olarak diller arasında nüansları, bağlamı ve anlamı yorumlar, doğal olarak elde etmek için onlarca yıl dil çalışması gerektirecek bir deneyim sunar.
 
-> Bu sadece anlayış ile ilgili değil — küresel bağlamda işbirliği, güven ve karar verme süreçlerini hızlandırmakla ilgilidir.
+> Bu sadece anlayış ile ilgili değildir — küresel bağlamda işbirliğini, güveni ve karar vermeyi hızlandırmakla ilgilidir.

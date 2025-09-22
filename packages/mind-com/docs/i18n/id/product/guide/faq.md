@@ -1,6 +1,6 @@
 # Pertanyaan yang Sering Diajukan (FAQ)
 
-Bagian FAQ menyediakan informasi penting tentang InterMIND, mencakup topik seperti akun dan akses, pembuatan dan perekaman rapat, kemampuan AI Assistant, fitur terjemahan, partisipasi chat, dan pengaturan untuk perangkat. Bagian ini membahas pertanyaan umum mengenai akses tamu, penjadwalan rapat, penggunaan AI Assistant, terjemahan bahasa, fungsi chat, dan kompatibilitas perangkat.
+Bagian FAQ menyediakan informasi penting tentang InterMIND, mencakup topik seperti akun dan akses, pembuatan dan perekaman rapat, kemampuan AI Assistant, fitur terjemahan, partisipasi chat, dan pengaturan untuk perangkat. Bagian ini menjawab pertanyaan umum mengenai akses tamu, penjadwalan rapat, penggunaan AI Assistant, terjemahan bahasa, fungsi chat, dan kompatibilitas perangkat.
 
 ## Akses
 
@@ -46,7 +46,7 @@ Ya, opsi Penerjemah juga tersedia untuk tamu.
 ## Partisipasi
 
 **Bisakah saya mengirim pesan pribadi di chat?**
-Saat ini tidak bisa. Semua pesan chat terlihat oleh semua peserta.
+Saat ini belum bisa. Semua pesan chat terlihat oleh semua peserta.
 
 **Bagaimana cara mengangkat tangan?**
 Klik tombol **Raise Hand** di toolbar bawah. Semua peserta akan mendapat notifikasi.

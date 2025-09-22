@@ -1,6 +1,6 @@
 ---
-title: "Blog InterMIND - Insights sur la traduction IA et la communication vidéo"
-description: "Restez informé des dernières actualités, insights techniques et mises à jour produit d'InterMIND - la plateforme de traduction en temps réel alimentée par l'IA pour les communications vidéo."
+title: "Blog InterMIND - Traduction IA et perspectives de communication vidéo"
+description: "Restez informé des dernières actualités, des insights techniques et des mises à jour produit d'InterMIND - la plateforme de traduction en temps réel alimentée par l'IA pour les communications vidéo."
 lastUpdated: false
 ---
 

@@ -1,4 +1,4 @@
-# Derrubando barreiras entre culturas
+# Derrubando Barreiras Entre Culturas
 
 <img src="/resources/iStock-1492917260.jpg" alt="Dirham dos Emirados Árabes Unidos" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/resources/iStock-1130023029.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
@@ -25,7 +25,7 @@ Estamos procurando pessoas que:
 
 **Enfrentam problemas difíceis.** Assumiu projetos onde não existia solução? Construiu algo do zero? Fez o impossível parecer óbvio?
 
-## O que estamos construindo
+## O Que Estamos Construindo
 
 Uma plataforma que torna a fluência em idiomas estrangeiros opcional para o sucesso profissional. Imagine isso: um engenheiro japonês, um gerente alemão e um designer brasileiro discutindo um projeto—cada um falando sua língua nativa, todos entendendo perfeitamente.
 

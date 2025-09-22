@@ -1,6 +1,6 @@
 # Fitur AI
 
-Bagian ini menjelaskan fungsionalitas Asisten Suara (Jarvis), Terjemahan Suara Online, dan Asisten AI yang tersedia selama rapat.
+Bagian ini menguraikan fungsionalitas Asisten Suara (Jarvis), Terjemahan Suara Online, dan Asisten AI yang tersedia selama rapat.
 
 ## Terjemahan Suara Online
 
@@ -12,14 +12,14 @@ Setelah seorang peserta mengubah bahasa antarmuka dan terjemahan mereka, semua p
 
 Selain itu, peserta memiliki opsi untuk menyesuaikan volume audio asli dari peserta lain melalui pengaturan rapat, memungkinkan mereka untuk berkonsentrasi hanya pada terjemahan.
 
-### Fitur Utama
+### Fitur utama
 
 - Dubbing suara real-time dalam bahasa yang dipilih
 - Pengaturan terjemahan personal (tidak mempengaruhi peserta lain)
 - Kemampuan untuk mengubah bahasa terjemahan kapan saja melalui panel Pengaturan
 - Tersedia untuk semua jenis peserta (Host, Moderator, Peserta, Tamu)
 
-### Cara Mengaktifkan
+### Cara mengaktifkan
 
 Terjemahan dapat diaktifkan oleh peserta mana pun dengan menyesuaikan pengaturan bahasa mereka di panel Pengaturan selama rapat.
 

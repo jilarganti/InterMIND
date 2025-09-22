@@ -1,6 +1,6 @@
 # Tarification
 
-La page Tarification fournit une comparaison claire de tous les plans disponibles—Basique, Pro et Business—aidant les utilisateurs à choisir la meilleure option pour leurs besoins de communication. Elle inclut des détails sur les prix, les limites de réunions, la capacité de participants, le stockage, et l'accès aux fonctionnalités premium comme l'Assistant Vocal, l'Assistant IA, et les services d'interprétation.
+La page Tarification fournit une comparaison claire de tous les plans disponibles—Basique, Pro et Business—aidant les utilisateurs à choisir la meilleure option pour leurs besoins de communication. Elle inclut des détails sur les prix, les limites de réunions, la capacité de participants, le stockage, et l\'accès aux fonctionnalités premium comme l\'Assistant Vocal, l\'Assistant IA, et les services d\'interprétation.
 
 ## Accéder à la page de tarification
 
@@ -27,13 +27,13 @@ La page Tarification fournit une comparaison claire de tous les plans disponible
 
 La page Tarification comprend trois niveaux :
 
-| Plan         | Prix                                     | Fonctionnalités clés                                                      |
-| ------------ | ---------------------------------------- | ------------------------------------------------------------------------- |
-| **Basic**    | Gratuit                                  | 25 réunions, 100 participants, 30 Go de stockage, interprétation limitée |
-| **Pro**      | 25 $/mois (ou 20 $/mois facturé annuellement) | Réunions illimitées, 150 participants, 2 To de stockage, toutes les fonctionnalités IA |
-| **Business** | Personnalisé (Contacter les ventes)     | 500 participants, 5 To de stockage, collègue IA (alpha), fonctionnalités entreprise |
+| Plan         | Prix                                      | Fonctionnalités clés                                                        |
+| ------------ | ----------------------------------------- | --------------------------------------------------------------------------- |
+| **Basic**    | Gratuit                                   | 25 réunions, 100 participants, 30 GB stockage, interprétation limitée     |
+| **Pro**      | 25$/mois (ou 20$/mois facturé annuellement) | Réunions illimitées, 150 participants, 2 TB stockage, toutes les fonctionnalités IA |
+| **Business** | Personnalisé (Contacter les ventes)      | 500 participants, 5 TB stockage, collègue IA (alpha), fonctionnalités entreprise |
 
-### Autres points forts
+### Autres points saillants
 
 - Basculer entre **Mensuel** et **Annuel** active la tarification réduite pour le plan Pro
 - Le bouton **Plan actuel** indique quel plan est actif
@@ -57,8 +57,8 @@ La page Tarification comprend trois niveaux :
 
 ## Notes importantes
 
-- Toute mise à niveau ou rétrogradation de plan sera reflétée immédiatement
+- Toutes les mises à niveau et rétrogradations de plan seront reflétées immédiatement
 - Les cycles de facturation et les quotas seront réinitialisés selon le plan sélectionné
 - Les quotas pour le nombre de réunions, de participants et de stockage par utilisateur seront appliqués en fonction du plan actif
-- Le dépassement de tout quota déclenchera une notification claire accompagnée d'un bouton **Mettre à niveau le plan**
+- Le dépassement de tout quota déclenchera une notification claire accompagnée d\'un bouton **Mettre à niveau le plan**
 - Les utilisateurs peuvent accéder à leur historique de paiement et à leurs factures dans la section Facturation

@@ -1,6 +1,6 @@
 # Crear y programar reuniones
 
-Al iniciar sesión en InterMIND, los usuarios pueden crear y programar reuniones de manera conveniente directamente desde la interfaz principal haciendo clic en el botón **Nueva reunión**.
+Al iniciar sesión en InterMIND, los usuarios pueden crear y programar reuniones de manera conveniente directamente desde la interfaz principal haciendo clic en el botón **Nueva Reunión**.
 
 ## Acceder a las opciones de reunión
 
@@ -47,7 +47,7 @@ Programa una reunión futura e intégrala sin problemas en tu Google Calendar.
 
 **Pasos:**
 
-1. Haz clic en el botón **Nueva reunión**
+1. Haz clic en el botón **Nueva Reunión**
 2. Selecciona la opción **Programar en Google Calendar**
 3. Serás redirigido a una página de creación de eventos de Google Calendar en una nueva pestaña
 4. El enlace de la reunión se completará automáticamente en la sección de ubicación o notas

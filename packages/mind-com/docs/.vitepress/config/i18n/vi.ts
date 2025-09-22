@@ -48,7 +48,7 @@ export const vi = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Cài đặt quyền riêng tư</a> | <a href="${BASE_PATH}/resources/company/privacy-policy">Chính sách bảo mật</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">Quy định pháp lý cho dịch vụ AI</a> | <a href="https://status.mind.com/">Trạng thái dịch vụ</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Cài đặt quyền riêng tư</a> | <a href="${BASE_PATH}/resources/company/privacy-policy">Chính sách quyền riêng tư</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">Quy định pháp lý cho dịch vụ AI</a> | <a href="https://status.mind.com/">Trạng thái dịch vụ</a>`,
     },
 
     localization: {
@@ -67,7 +67,7 @@ export const vi = defineConfig({
       email: "Email *",
       emailPlaceholder: "địa chỉ email của bạn",
       webSite: "Website công ty",
-      webSitePlaceholder: "ví dụ: https://tencongty.com",
+      webSitePlaceholder: "ví dụ: https://tenconty.com",
       webSiteError: "Vui lòng nhập website",
       category: "Mục tiêu chính của bạn là gì? *",
       categoryPlaceholder: "Chọn điều quan trọng nhất",
@@ -95,7 +95,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Cách hoạt động", link: "overview/how-it-works" },
         { text: "Nền tảng họp video", link: "overview/video-meeting-platform" },
         { text: "Dịch thuật vs Phiên dịch: Sự khác biệt là gì?", link: "overview/translation-vs-interpretation-whats-the-difference" },
-        { text: "Bảo mật dữ liệu khu vực", link: "overview/privacy-architecture" },
+        { text: "Bảo mật dữ liệu theo khu vực", link: "overview/privacy-architecture" },
         { text: "Thị trường ưu tiên", link: "overview/markets" },
       ],
     },
@@ -126,7 +126,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Nhận hỗ trợ", link: "/help" },
-        { text: "Chính sách bảo mật", link: "/company/privacy-policy" },
+        { text: "Chính sách quyền riêng tư", link: "/company/privacy-policy" },
         { text: "Hướng dẫn pháp lý AI", link: "/company/legal-regulations-for-ai-services" },
       ],
     },

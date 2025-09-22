@@ -1,6 +1,6 @@
 # Mind.com: Eliminando barreiras linguísticas para sempre
 
-## Quem somos
+## Quem Somos
 
 **Mind.com** desenvolve **InterMIND** — a primeira plataforma do mundo que torna conversas multilíngues naturais.  
 Estamos eliminando a última barreira para uma colaboração verdadeiramente global.
@@ -42,7 +42,3 @@ A cultura não deveria ser uma desvantagem competitiva.
 O futuro pertence àqueles que podem colaborar globalmente — instantaneamente, naturalmente, inteligentemente.
 
 — _Equipe Mind.com_
-
----
-
-_Tornando o mundo verdadeiramente sem fronteiras, uma conversa de cada vez._

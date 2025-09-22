@@ -1,6 +1,6 @@
 # Sorun Giderme
 
-Bu bölüm, çevrimiçi toplantılar sırasında karşılaşılan yaygın sorunlara çözümler sunmaktadır; mikrofonlar, kameralar, toplantılara katılma, sesli asistanları kullanma, çevirmenler, ekran paylaşımı ve kayıt ile ilgili sorunları içermektedir. Her sorun için olası nedenleri açıklar ve bunları çözmek için pratik çözümler sunar, böylece daha sorunsuz bir çevrimiçi toplantı deneyimi sağlar.
+Bu bölüm, çevrimiçi toplantılar sırasında karşılaşılan yaygın sorunlara çözümler sunar; mikrofonlar, kameralar, toplantılara katılma, sesli asistanları kullanma, çevirmenler, ekran paylaşımı ve kayıt ile ilgili sorunları içerir. Her sorun için olası nedenleri açıklar ve bunları çözmek için pratik çözümler sunar, böylece daha sorunsuz bir çevrimiçi toplantı deneyimi sağlar.
 
 ## Mikrofon veya Kamera Çalışmıyor
 
@@ -59,12 +59,12 @@ Bu bölüm, çevrimiçi toplantılar sırasında karşılaşılan yaygın sorunl
 
 ### Yaygın Nedenler:
 
-- Moderatör/Yönetici sizi çıkardı
+- Ev sahibi/Moderatör sizi çıkardı
 - Ağ bağlantısı kesildi
 
 ### Çözümler:
 
-- Açıklama için Moderatör veya Yönetici ile iletişime geçin
+- Açıklama için Ev Sahibi veya Moderatör ile iletişime geçin
 
 ## Ekran Paylaşımı Çalışmıyor
 
@@ -100,4 +100,4 @@ Bu bölüm, çevrimiçi toplantılar sırasında karşılaşılan yaygın sorunl
 - Ana Bilgisayar ile izinleri doğrulayın
 
 > [!TIP]
-> Sorunları yaşamaya devam ediyorsanız, tarayıcınızın en son sürüme güncellendiğinden ve en az 2 Mbps'lik kararlı bir internet bağlantınızın olduğundan emin olun.
+> Sorunları yaşamaya devam ediyorsanız, tarayıcınızın en son sürüme güncellendiğinden ve en az 2 Mbps hızında kararlı bir internet bağlantınızın olduğundan emin olun.

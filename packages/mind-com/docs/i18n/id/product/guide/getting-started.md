@@ -10,7 +10,7 @@ Dalam panduan ini, Anda akan menemukan:
 - Pedoman untuk membuat dan menjadwalkan rapat
 - Informasi mengenai peran pengguna, izin, dan kemampuan terjemahan real-time
 - Gambaran umum fitur bertenaga AI seperti AI Assistant dan Voice Translator
-- Tips pemecahan masalah dan jawaban untuk pertanyaan yang sering diajukan
+- Tips pemecahan masalah dan jawaban atas pertanyaan yang sering diajukan
 
 Mari kita mulai — masa depan rapat cerdas akan dimulai sekarang.
 
@@ -22,10 +22,10 @@ Jika Anda baru mengenal InterMIND, ikuti daftar periksa sederhana ini untuk memu
 2. Klik Sign In dan pilih Google / Microsoft / Email
 3. Ketika diminta, izinkan akses ke mikrofon dan kamera Anda
 4. Klik New Meeting dan pilih Start an Instant Meeting
-5. Bagikan tautan meeting dengan peserta
+5. Bagikan tautan rapat dengan peserta
 6. Buka Settings untuk memilih bahasa dan perangkat yang Anda inginkan
 7. Gunakan AI Assistant untuk mencatat dan membuat ringkasan selama panggilan Anda
-8. Akses meeting sebelumnya melalui tab History untuk rekaman dan transkrip
+8. Akses rapat sebelumnya melalui tab History untuk rekaman dan transkrip
 
 > [!TIP]
 > Untuk performa terbaik, disarankan menggunakan browser Chrome atau Edge.
@@ -63,28 +63,28 @@ InterMIND dirancang dengan cermat untuk memberikan aksesibilitas dan fleksibilit
 
 ### Dukungan Perangkat
 
-InterMIND dioptimalkan untuk penggunaan desktop dan mobile, memungkinkan pengguna untuk bergabung atau mengadakan rapat saat bepergian.
+InterMIND dioptimalkan untuk penggunaan desktop dan mobile, memungkinkan pengguna untuk bergabung atau mengadakan meeting saat bepergian.
 
 - Laptop dan tablet Windows
 - Laptop macOS
 - Smartphone dan tablet Android
 - Smartphone dan tablet iOS
 
-Pengguna dapat mengakses platform langsung melalui browser mereka tanpa perlu instalasi perangkat lunak apa pun.
+Pengguna dapat mengakses platform langsung melalui browser mereka tanpa perlu instalasi perangkat lunak apapun.
 
 ### Cara Mengakses
 
 1. Buka browser web Anda
 2. Kunjungi https://intermind.com
-3. Masuk atau bergabung dengan tautan rapat langsung sebagai tamu
-4. Berikan izin kamera dan mikrofon saat diminta
+3. Masuk atau bergabung dengan link meeting langsung sebagai tamu
+4. Berikan izin kamera dan mikrofon ketika diminta
 
 > [!WARNING]
 > Beberapa fitur lanjutan, seperti berbagi layar, mungkin dibatasi pada browser tertentu karena keterbatasan sistem.
 
 ### Kompatibilitas Browser
 
-InterMIND kompatibel dengan semua browser modern utama di berbagai platform. Tidak perlu menginstal ekstensi atau plugin apa pun.
+InterMIND kompatibel dengan semua browser modern utama di berbagai platform. Tidak perlu menginstal ekstensi atau plugin apapun.
 
 #### Browser yang Direkomendasikan
 
@@ -117,7 +117,7 @@ Tersedia di Semua Browser:
 - Opsi tata letak dan tampilan
 
 > [!TIP]
-> Pastikan browser Anda telah mengaktifkan izin untuk kamera, mikrofon, dan pop-up.
+> Pastikan browser Anda memiliki izin yang diaktifkan untuk kamera, mikrofon, dan pop-up.
 
 ### Tips Jaringan & Performa
 

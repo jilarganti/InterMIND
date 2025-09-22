@@ -1,20 +1,20 @@
-# Kit Média
+# Kit média
 
-Bonjour ! Voici une collection de ressources marketing et de directives d'identité d'InterMIND, comprenant notre logo, contenu et marques déposées.
+Bonjour ! Voici une collection de ressources marketing InterMIND et de directives d\'identité, incluant notre logo, contenu et marques déposées.
 
-Pour modifier et télécharger, faites un clic droit et sélectionnez Modifier l'image
+Pour modifier et télécharger, faites un clic droit et sélectionnez Modifier l\'image
 
 ## Metadata
 
 ### Title
 
-- Traduction vocale en temps réel lors des appels vidéo.
-- Traduction vocale en direct lors des appels vidéo — **pas** de retards, **pas** d\'affaires perdues, **pas** de barrières linguistiques.
+- Traduction vocale en temps réel dans les appels vidéo.
+- Traduction vocale en direct dans les appels vidéo — **aucun** délai, **aucune** affaire perdue, **aucune** barrière linguistique.
 
 ### Description
 
-- Traduction vocale en direct lors des appels vidéo pour les **équipes internationales** où les barrières linguistiques causent des **retards, des affaires perdues ou des malentendus coûteux**.
-- InterMIND ajoute la traduction vocale en temps réel à chaque appel vidéo, ainsi les équipes internationales ne perdent jamais d\'affaires, de temps ou de clarté à cause des barrières linguistiques.
+- Traduction vocale en direct dans les appels vidéo pour les **équipes internationales** où les barrières linguistiques causent des **délais, des affaires perdues ou des malentendus coûteux**.
+- InterMIND ajoute la traduction vocale en temps réel à chaque appel vidéo, afin que les équipes internationales ne perdent jamais d\'affaires, de temps ou de clarté à cause des barrières linguistiques.
 
 ## Logo
 
@@ -24,7 +24,7 @@ Pour modifier et télécharger, faites un clic droit et sélectionnez Modifier l
 <br>
 <img src="/logo.svg" class="transparency-grid" alt="logo" width="100">
 
-## Couleurs de la Marque
+## Couleurs de marque
 
 <br>
 
@@ -32,7 +32,7 @@ Pour modifier et télécharger, faites un clic droit et sélectionnez Modifier l
 -webkit-linear-gradient(90deg, #994a11 0%, #cc833c 50%, #ffbb66 100%)
 ```
 
-## Images Promotionnelles
+## Images promotionnelles
 
 ### Interprétation simultanée
 
@@ -44,7 +44,7 @@ Pour modifier et télécharger, faites un clic droit et sélectionnez Modifier l
   { src: '/media-kit/animals-5-4.png', alt: 'Interprétation simultanée' },
 ]"/>
 
-### Recherchez dans toutes vos réunions
+### Recherche dans toutes vos réunions
 
 <ImageGrid :images="[
   { src: '/2d.png', alt: 'Interprétation simultanée' },

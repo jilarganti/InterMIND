@@ -1,6 +1,6 @@
 # Tạo và lên lịch cuộc họp
 
-Sau khi đăng nhập vào InterMIND, người dùng có thể dễ dàng tạo và lên lịch cuộc họp trực tiếp từ giao diện chính bằng cách nhấp vào nút **Cuộc họp mới**.
+Sau khi đăng nhập vào InterMIND, người dùng có thể dễ dàng tạo và lên lịch cuộc họp trực tiếp từ giao diện chính bằng cách nhấp vào nút **New Meeting**.
 
 ## Truy cập các tùy chọn cuộc họp
 
@@ -16,8 +16,8 @@ Tùy chọn này cho phép người dùng tạo liên kết cuộc họp có th�
 
 **Các bước:**
 
-1. Nhấp vào nút **New Meeting**
-2. Chọn tùy chọn **Create a Meeting for Later**
+1. Nhấp vào nút **Cuộc họp mới**
+2. Chọn tùy chọn **Tạo cuộc họp cho sau**
 3. Một liên kết cuộc họp duy nhất sẽ được tạo
 4. Sao chép liên kết và chia sẻ với những người tham gia
 5. Bạn có thể tham gia cuộc họp bất cứ lúc nào bằng liên kết này
@@ -34,7 +34,7 @@ Tùy chọn này cho phép người dùng khởi tạo phiên họp trực tiế
 1. Nhấp vào nút **New Meeting**
 2. Chọn tùy chọn **Start an instant meeting**
 3. Phòng họp sẽ mở ngay lập tức trong tab hiện tại
-4. Bạn sẽ tự động đảm nhận vai trò Chủ trì
+4. Bạn sẽ tự động đảm nhận vai trò Host
 5. Sử dụng tùy chọn 'Copy Link' nằm ở góc dưới bên trái, hoặc sao chép liên kết từ thanh địa chỉ của trình duyệt
 6. Chia sẻ liên kết với những người tham gia khác
 

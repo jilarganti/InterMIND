@@ -1,6 +1,6 @@
 # Roles de usuario
 
-InterMIND delinea cuatro roles de usuario distintos, cada uno meticulosamente diseñado para mejorar las experiencias de reuniones seguras, colaborativas y adaptables. El rol de Anfitrión está dotado del más alto nivel de autoridad, mientras que los otros roles ofrecen diferentes niveles de interacción.
+InterMIND define cuatro roles de usuario distintos, cada uno meticulosamente diseñado para mejorar las experiencias de reuniones seguras, colaborativas y adaptables. El rol de Anfitrión cuenta con el más alto nivel de autoridad, mientras que los otros roles ofrecen diferentes niveles de interacción.
 
 ## Anfitrión
 
@@ -32,15 +32,15 @@ Los moderadores son designados por el Anfitrión para ayudar a gestionar la sesi
 - Remover a cualquier participante de la llamada, excepto al Anfitrión
 - Usar el Traductor de Voz en Línea y cambiar idioma (para su propio audio)
 - Usar el Asistente de IA (para su propia vista)
-- Participar en el chat, levantar o bajar las manos
+- Participar en el chat, levantar o bajar la mano
 - Acceder a transcripciones e historial de reuniones
 - Promover o degradar a otros moderadores
 
 ## Participante (Usuario Autorizado)
 
-Los participantes autorizados son usuarios que han iniciado sesión y se unen a la reunión sin privilegios especiales.
+Los participantes autorizados son usuarios con sesión iniciada que se unen a la reunión sin privilegios especiales.
 
-**Capacidades principales:**
+**Capacidades Principales:**
 
 - Silenciar o activar su propio micrófono
 - Habilitar o deshabilitar su propia cámara
@@ -54,7 +54,7 @@ Los participantes autorizados son usuarios que han iniciado sesión y se unen a 
 
 Los invitados son usuarios que se unen a la reunión sin iniciar sesión.
 
-**Capacidades Principales:**
+**Capacidades principales:**
 
 - Usar su propio micrófono y cámara
 - Compartir su pantalla (navegador de escritorio)

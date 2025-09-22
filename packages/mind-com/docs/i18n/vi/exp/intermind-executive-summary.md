@@ -19,7 +19,7 @@ Rào cản ngôn ngữ vẫn cản trở các thỏa thuận kinh doanh toàn c�
 Triển khai thí điểm tại:
 
 - **Mexico, Brazil** — xuất khẩu sang Mỹ và EU
-- **Thổ Nhĩ Kỳ, Thái Lan, Indonesia** — các trung tâm công nghiệp với sự không khớp về ngôn ngữ
+- **Turkey, Thailand, Indonesia** — các trung tâm công nghiệp với sự không khớp về ngôn ngữ
 
 ## Mô hình kinh doanh
 
@@ -31,9 +31,9 @@ Triển khai thí điểm tại:
 
 - Các dự án thí điểm đầu tiên ra mắt trong quý 3
 - Chiến dịch tìm kiếm địa phương tại 5 quốc gia
-- Sự quan tâm mạnh mẽ từ các đội xuất khẩu và quản lý mua sắm
+- Sự quan tâm mạnh mẽ từ các nhóm xuất khẩu và quản lý mua sắm
 
-## Lợi thế cạnh tranh
+## Lợi thế c경쟁tranh
 
 - Tích hợp sẵn tính năng phiên dịch — không phải plugin
 - Kiến trúc ưu tiên quyền riêng tư (các khu vực EU/US/Châu Á)
@@ -43,11 +43,11 @@ Triển khai thí điểm tại:
 
 - Kỹ sư NLP cựu Big Tech
 - Trưởng phòng tăng trưởng SaaS doanh nghiệp
-- Có kinh nghiệm mở rộng toàn cầu
+- Có kinh nghiệm trong mở rộng toàn cầu
 
 ## Yêu cầu tài trợ
 
-Gây quỹ **\$3.5M Seed** để:
+Gọi vốn **\$3.5M Seed** để:
 
 - Bản địa hóa sang 10 ngôn ngữ
 - Xây dựng tích hợp (Zoom, Teams, CRM)
