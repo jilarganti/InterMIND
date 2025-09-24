@@ -116,7 +116,7 @@ Estamos comenzando pilotos de entrada al mercado en México, Brasil, Turquía, T
 
 - **[Name]** — CEO: ex-[Big Tech], 10+ años en NLP
 - **[Name]** — CTO: Construyó infraestructura multilingüe en [Company]
-- **[Name]** — Crecimiento: Ex-director de expansión en [B2B SaaS Unicorn]
+- **[Name]** — Crecimiento: Ex director de expansión en [B2B SaaS Unicorn]
 
 ## Solicitud
 
@@ -126,4 +126,4 @@ Estamos comenzando pilotos de entrada al mercado en México, Brasil, Turquía, T
   - Lanzar integraciones (Zoom, Teams)
   - Financiar campañas de adquisición B2B multilingües
 
-Construyamos la plataforma que **hace que la comprensión sea universal.**
+Construyamos la plataforma que **hace universal la comprensión.**

@@ -110,7 +110,7 @@ InterMind est approuvé par **les entreprises où la confidentialité n\'est pas
 - **5% Marché intermédiaire :** 22 licences par compte
 - **Moyenne pondérée :** 2,5 licences par compte
 
-Nous commençons des pilotes de mise sur le marché au Mexique, au Brésil, en Turquie, en Thaïlande et en Indonésie — ciblant des régions avec un volume élevé de commerce B2B et une forte demande pour la communication d\'affaires en anglais.
+Nous commençons des pilotes de mise sur le marché au Mexique, au Brésil, en Turquie, en Thaïlande et en Indonésie — ciblant les régions avec un volume élevé de commerce B2B et une forte demande pour la communication d\'affaires en anglais.
 
 ## Équipe fondatrice
 

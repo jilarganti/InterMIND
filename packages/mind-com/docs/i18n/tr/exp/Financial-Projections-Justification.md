@@ -8,7 +8,7 @@ Bu belge, InterMind'ın ilk üç yıl boyunca kullanıcı büyümesi, gelir (ARR
 | --- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1   | 1,600            | 5 gelişmekte olan pazarda (MX, BR, TR, TH, ID) ilk kullanıma sunma, ihracat odaklı B2B kullanıcılar tarafından erken benimsenme. İngilizce alternatiflere yüksek talep. |
 | 2   | 15,600           | 10+ ülkede yerelleştirilmiş SEO ve ücretli kampanyalar, müşteri toplantıları yoluyla ağ etkileri, freemium hunisini ölçeklendirme. Zoom/CRM entegrasyonları orta pazar edinimini yönlendiriyor. |
-| 3   | 72,000           | "Kendi dilinizde konuşun" UX aracılığıyla viral büyüme, derin dikey entegrasyonlar (ERP, onboarding, hukuki), AB/MENA\'da bayi programları.                        |
+| 3   | 72,000           | "Kendi dilinizde konuşun" UX aracılığıyla viral büyüme, derin dikey entegrasyonlar (ERP, onboarding, hukuki), AB/MENA'da bayi programları.                        |
 
 ## Yıllık Yinelenen Gelir (ARR)
 

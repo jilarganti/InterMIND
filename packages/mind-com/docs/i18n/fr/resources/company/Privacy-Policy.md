@@ -59,9 +59,9 @@ Dans certains cas, nous pouvons utiliser des fournisseurs de services d\'IA tier
 
 Bien que nos systèmes d\'IA fonctionnent de manière autonome, certaines interactions peuvent être examinées par nos professionnels juridiques pour assurer l\'exactitude et la qualité du service.
 
-#### Entraînement de l\'IA
+#### Formation de l\'IA
 
-Nous pouvons utiliser des données anonymisées et agrégées provenant des interactions avec l\'IA pour améliorer nos systèmes. Les identifiants personnels sont supprimés avant que toute donnée ne soit utilisée à des fins d\'entraînement.
+Nous pouvons utiliser des données anonymisées et agrégées provenant des interactions avec l\'IA pour améliorer nos systèmes. Les identifiants personnels sont supprimés avant que toute donnée ne soit utilisée à des fins de formation.
 
 ## Partage et transferts de données
 

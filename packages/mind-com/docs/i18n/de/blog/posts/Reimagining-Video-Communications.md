@@ -60,7 +60,7 @@ Die Analyse der Wettbewerbslandschaft zeigt **grundlegende architektonische Vort
 
 InterMIND löst **drei kritische Branchenprobleme gleichzeitig**:
 
-> **Latenzproblem**: Der Industriestandard liegt bei **0,7-4 Sekunden Verzögerung** für finale Transkripte in Echtzeit-ASR-Systemen. InterMIND erreicht **Sub-Sekunden End-to-End-Latenz** durch Edge-Processing und optimierte Übersetzungspipelines.
+> **Latenzproblem**: Der Industriestandard liegt bei **0,7-4 Sekunden Verzögerung** für finale Transkripte in Echtzeit-ASR-Systemen. InterMIND erreicht **sub-sekündliche End-to-End-Latenz** durch Edge-Processing und optimierte Übersetzungspipelines.
 
 > **Simultanes mehrsprachiges Problem**: Bestehende Lösungen funktionieren effektiv nur mit Paarübersetzung (eins-zu-eins). InterMIND unterstützt **wirklich mehrsprachige Sitzungen mit 3+ Sprachen gleichzeitig**, unter Verwendung fortschrittlicher Sprecherdiarisierung und intelligenter Audio-Kanal-Verwaltung.
 

@@ -57,16 +57,16 @@ Este documento explica as premissas por trás do modelo financeiro da InterMind 
 | --- | ------ | ------------------------------------------------------------------------------------------------------------------------ |
 | 1   | 73%    | Custo computacional da pilha de tradução de fala (~$0,08/min/usuário), largura de banda, infraestrutura mínima. Desenvolvimento amortizado. |
 | 2   | 77%    | Otimização de modelo, melhor utilização de GPU, descontos de fornecedores LLM, migração para infraestrutura híbrida (inferência de borda). |
-| 3   | 80%    | Modelos de fala/LLM próprios, infraestrutura de escalonamento automático, infraestrutura fixa por usuário. Recursos B2B precificados mais alto com baixos custos marginais. |
+| 3   | 80%    | Modelos de fala/LLM próprios, infraestrutura de auto-escalonamento, infraestrutura fixa por usuário. Recursos B2B precificados mais alto com baixos custos marginais. |
 
-## Principais métricas de economia unitária
+## Principais Métricas de Unit Economics
 
-| Métrica                           | A1     | A2     | A3     | Valor alvo   |
-| --------------------------------- | ------ | ------ | ------ | ------------ |
-| **LTV/CAC**                       | 1.9    | 3.4    | 5.5    | >3.0         |
-| **Período de payback**            | 8.5 m  | 5.8 m  | 4.2 m  | <12 m        |
-| **Retenção bruta de receita**     | 85%    | 88%    | 90%    | >85%         |
-| **Retenção líquida de receita**   | 95%    | 115%   | 130%   | >110%        |
+| Métrica                           | Ano 1    | Ano 2    | Ano 3    | Valor Alvo   |
+| --------------------------------- | -------- | -------- | -------- | ------------ |
+| **LTV/CAC**                       | 1,9      | 3,4      | 5,5      | >3,0         |
+| **Período de Payback**            | 8,5 mês  | 5,8 mês  | 4,2 mês  | <12 mês      |
+| **Retenção Bruta de Receita**     | 85%      | 88%      | 90%      | >85%         |
+| **Retenção Líquida de Receita**   | 95%      | 115%     | 130%     | >110%        |
 
 ## Premissas Críticas do Modelo
 

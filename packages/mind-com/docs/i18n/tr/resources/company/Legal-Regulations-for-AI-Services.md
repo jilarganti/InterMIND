@@ -10,7 +10,7 @@ Bu feragatname kapsamında, aşağıdaki terimler aşağıda belirtilen anlamlar
 
 "AI tarafından üretilen içerik", kullanıcı girdileri veya sorgularına yanıt olarak AI sistemlerimiz tarafından oluşturulan, üretilen veya formüle edilen herhangi bir metin, görüntü, öneri, tavsiye, cevap veya diğer içerikleri ifade eder.
 
-"Kullanıcı", web sitemizde veya hizmetlerimizde mevcut olan AI özelliklerine erişen, bunları kullanan veya bunlarla etkileşime giren herhangi bir kişi veya kuruluşu ifade eder.
+"Kullanıcı", web sitemizde veya hizmetlerimizde mevcut olan AI özelliklerine erişen, bunları kullanan veya bunlarla etkileşimde bulunan herhangi bir kişi veya kuruluşu ifade eder.
 
 "Profesyonel tavsiye", hukuk, tıp, finans, mühendislik veya belirli uzmanlık, sertifika veya lisans gerektiren diğer düzenlenmiş meslekler gibi alanlarda nitelikli profesyoneller tarafından tipik olarak sağlanan uzman rehberliği ifade eder.
 
@@ -48,7 +48,7 @@ AI özelliklerimizle olan etkileşimleriniz, hizmetlerimizi geliştirmek amacıy
 
 ## Kullanıcı Girdi Onayı
 
-AI hizmetlerimizle etkileşime geçerek, etkileşimleriniz sırasında sağladığınız bilgilerin AI modeli tarafından işlenmesi, analiz edilmesi ve kullanılması konusunda açık bir şekilde kabul ediyor ve onay veriyorsunuz. Girdiğiniz herhangi bir metin, sorgu veya verinin AI sistemi tarafından yanıt oluşturmak, işlevselliğini geliştirmek ve yeteneklerini artırmak için kullanılabileceğini kabul ediyorsunuz. Bu onay, modellerini daha da eğitmek ve geliştirmek için anonimleştirilmiş etkileşimleri kullanabilecek AI Geliştiricilerini de kapsamaktadır. Girdilerinizin AI sistemlerimiz tarafından işlenmesini istemiyorsanız, bu web sitesinde bulunan AI özelliklerini kullanmaktan kaçınmalısınız.
+AI hizmetlerimizle etkileşime geçerek, AI modelinin etkileşimleriniz sırasında sağladığınız bilgileri işlemesi, analiz etmesi ve kullanması konusunda açık bir şekilde kabul ediyor ve onay veriyorsunuz. Girdiğiniz herhangi bir metin, sorgu veya verinin AI sistemi tarafından yanıt oluşturmak, işlevselliğini geliştirmek ve yeteneklerini artırmak için kullanılabileceğini kabul ediyorsunuz. Bu onay, modellerini daha da eğitmek ve geliştirmek için anonimleştirilmiş etkileşimleri kullanabilecek AI Geliştiricilerini de kapsar. Girdinizin AI sistemlerimiz tarafından işlenmesini istemiyorsanız, bu web sitesinde bulunan AI özelliklerini kullanmaktan kaçınmalısınız.
 
 ## Kişisel Veri Koruma
 
@@ -60,7 +60,7 @@ AI sistemlerimiz, eğitim verilerinden öğrenilen kalıplara dayalı olarak iç
 
 ## Kültürel Saygı ve Sorumluluk Beyanı
 
-Şirket, faaliyet gösterdiği tüm ülkelerin geleneklerine, dinlerine ve yönetim şekillerine derin saygı duymaktadır. AI sistemimiz tarafından üretilen ve saldırgan, kültürel açıdan duyarsız veya ahlaki açıdan uygunsuz olarak değerlendirilebilecek herhangi bir içerik, yalnızca AI hatasının sonucudur ve Şirketin görüşlerini, fikirlerini veya değerlerini temsil etmez. Bu tür içeriklerden sorumluluk AI teknolojisinin geliştiricilerine aittir, Şirkete değil. Mevcut AI sistemlerinin teknik sınırlarını kabul ederken, kapsayıcı ve saygılı dijital ortamları teşvik etmeye kararlıyız. Bu tür uygunsuz içeriklerle karşılaşan kullanıcıların, uygun önlemlerin alınabilmesi için durumu derhal bildirmeleri teşvik edilmektedir.
+Şirket, faaliyet gösterdiği tüm ülkelerin geleneklerine, dinlerine ve yönetim şekillerine derin saygı duymaktadır. AI sistemimiz tarafından üretilen ve saldırgan, kültürel açıdan duyarsız veya ahlaki açıdan uygunsuz olarak değerlendirilebilecek herhangi bir içerik tamamen AI hatasının sonucudur ve Şirketin görüşlerini, fikirlerini veya değerlerini temsil etmez. Bu tür içeriklerden sorumluluk AI teknolojisinin geliştiricilerine aittir, Şirkete değil. Mevcut AI sistemlerinin teknik sınırlarını kabul ederken, kapsayıcı ve saygılı dijital ortamları teşvik etmeye kararlıyız. Bu tür uygunsuz içeriklerle karşılaşan kullanıcıların, uygun önlemlerin alınabilmesi için durumu derhal bildirmeleri önerilir.
 
 ## AI Özelliklerinde Değişiklikler
 
@@ -68,6 +68,6 @@ AI sistemlerimiz, eğitim verilerinden öğrenilen kalıplara dayalı olarak iç
 
 ## Kullanıcı Sorumluluğu
 
-AI tarafından üretilen tüm içeriği güvenmeden veya herhangi bir öneriyi uygulamadan önce gözden geçirmek ve değerlendirmek sizin sorumluluğunuzdadır. AI sistemlerimiz tarafından üretilen bilgi veya içeriği kullanmayla ilgili tüm riskleri üstlendiğinizi kabul ediyorsunuz.
+AI tarafından üretilen tüm içeriği güvenmeden veya herhangi bir öneriyi uygulamadan önce gözden geçirmek ve değerlendirmek sizin sorumluluğunuzdadır. AI sistemlerimiz tarafından üretilen bilgi veya içeriği kullanmayla ilgili tüm riskleri üstlendiğinizi kabul etmektesiniz.
 
-Bu web sitesindeki AI özelliklerini kullanmaya devam ederek, bu AI Özellikleri Sorumluluk Reddi Beyanını okuduğunuzu, anladığınızı ve buna bağlı kalmayı kabul ettiğinizi beyan edersiniz.
+Bu web sitesindeki AI özelliklerini kullanmaya devam ederek, bu AI Özellikleri Sorumluluk Reddi Beyanını okuduğunuzu, anladığınızı ve buna bağlı kalmayı kabul ettiğinizi beyan etmektesiniz.

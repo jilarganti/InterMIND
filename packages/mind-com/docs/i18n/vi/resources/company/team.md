@@ -36,7 +36,7 @@ Cùng nhau, chúng tôi kết hợp sáng tạo, mã code và sự hiểu biết
 
 ## Đội ngũ AI [^1]
 
-[^1]: Các thành viên trong đội ngũ AI không phải là con người, nhưng họ là một phần không thể thiếu trong hoạt động của chúng tôi. Họ hỗ trợ trong nhiều nhiệm vụ khác nhau, từ lập trình đến nghiên cứu, và giúp chúng tôi phá vỡ rào cản ngôn ngữ. [Tìm hiểu về khung làm việc và chính sách AI của chúng tôi ...](./legal-regulations-for-ai-services)
+[^1]: Các thành viên trong đội ngũ AI không phải là con người, nhưng họ là một phần không thể thiếu trong hoạt động của chúng tôi. Họ hỗ trợ trong nhiều nhiệm vụ khác nhau, từ lập trình đến nghiên cứu, và giúp chúng tôi phá vỡ rào cản ngôn ngữ.
 
 <TeamMembersGrid :members="[
   {

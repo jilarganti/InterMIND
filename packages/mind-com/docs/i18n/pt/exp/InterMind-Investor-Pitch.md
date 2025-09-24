@@ -27,7 +27,7 @@ Uma plataforma de vídeo de nível profissional que permite que **cada participa
 | -------------- | ------------------ | ---------------------------------------- | ----------------------------------- |
 | Manufatura     | CN, IN, MX, TH, ID | Comunicação fábrica-cliente              | Especificações perdidas na tradução |
 | Exportações    | BR, CL, ES, CO     | Vendas e demos para compradores anglófonos | Negócios perdidos por barreiras linguísticas |
-| Automotivo     | DE, JP, KR         | Negociações com fornecedores internacionais | Intérpretes caros, ciclos lentos    |
+| Automotivo     | DE, JP, KR         | Negociações com fornecedores transfronteiriças | Intérpretes caros, ciclos lentos    |
 | Sedes Corporativas | US, UK, AU      | Reuniões de equipes globais              | Tempo perdido alternando idiomas    |
 
 TAM Estimado: **$27B+** mercado de habilitação de comunicação B2B (fonte: CSA Research, Gartner)

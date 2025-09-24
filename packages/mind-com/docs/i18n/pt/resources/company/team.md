@@ -36,13 +36,13 @@ Juntos, combinamos criatividade, código e compreensão para eliminar barreiras 
 
 ## Equipe de IA [^1]
 
-[^1]: Os membros da equipe de IA não são humanos, mas são fundamentais para nossas operações. Eles auxiliam em várias tarefas, desde programação até pesquisa, e nos ajudam a quebrar barreiras linguísticas. [Entenda nossa estrutura e políticas de IA ...](./legal-regulations-for-ai-services)
+[^1]: Os membros da equipe de IA não são humanos, mas são fundamentais para nossas operações. Eles auxiliam em várias tarefas, desde programação até pesquisa, e nos ajudam a quebrar barreiras linguísticas.
 
 <TeamMembersGrid :members="[
   {
     name: 'Claude',
     desc: 'Trazendo clareza às conversas',
-    country: 'EUA',
+    country: 'USA',
     avatarLink: 'vscode-icons:file-type-claude',
     links: [
       { icon: 'rivet-icons:link', link: 'https://claude.ai/' }
@@ -51,7 +51,7 @@ Juntos, combinamos criatividade, código e compreensão para eliminar barreiras 
   {
     name: 'Gemini',
     desc: 'Conectando conhecimento com intenção',
-    country: 'EUA',
+    country: 'USA',
     avatarLink: 'material-icon-theme:gemini-ai',
     links: [
       { icon: 'rivet-icons:link', link: 'https://gemini.google.com/' }
@@ -60,7 +60,7 @@ Juntos, combinamos criatividade, código e compreensão para eliminar barreiras 
   {
     name: 'ChatGPT',
     desc: 'Interpretando com nuance e memória',
-    country: 'EUA',
+    country: 'USA',
     avatarLink: 'streamline-logos:openai-logo',
     links: [
       { icon: 'rivet-icons:link', link: 'https://chatgpt.com/' }

@@ -46,11 +46,11 @@ A diferencia de Microsoft Teams, que requiere suscripciones Premium de $5-10 por
 
 Para garantizar latencia de menos de un segundo a escala global, InterMIND implementó **arquitectura híbrida edge-cloud con zonas regionales de procesamiento de datos**. El sistema está desplegado en tres regiones clave: **UE (Unión Europea), EE.UU. (Estados Unidos) y SE Asia (Sudeste Asiático)**, asegurando el cumplimiento de los requisitos locales de privacidad y latencia mínima de red.
 
-La **arquitectura innovadora de mecanismo de retransmisión** permite a usuarios de diferentes regiones participar en la misma conferencia con rendimiento óptimo. A diferencia de las soluciones SFU tradicionales que tienen dificultades con la latencia entre regiones, InterMIND utiliza **reenvío inteligente de paquetes con mecanismos de retransmisión RTP**, minimizando los retrasos en la comunicación interregional.
+**Arquitectura innovadora de mecanismo de retransmisión** permite a usuarios de diferentes regiones participar en la misma conferencia con rendimiento óptimo. A diferencia de las soluciones SFU tradicionales que tienen dificultades con la latencia entre regiones, InterMIND utiliza **reenvío inteligente de paquetes con mecanismos de retransmisión RTP**, minimizando los retrasos en la comunicación interregional.
 
-El **sistema de escalado automático basado en Kubernetes** permite la asignación dinámica de recursos según la carga. La innovación crítica incluye **escalado predictivo basado en patrones de uso**, permitiendo al sistema anticipar cargas pico y preparar recursos con anticipación.
+**Sistema de escalado automático basado en Kubernetes** permite la asignación dinámica de recursos según la carga. La innovación crítica incluye **escalado predictivo basado en patrones de uso**, permitiendo al sistema anticipar cargas pico y preparar recursos con anticipación.
 
-El **procesamiento edge de modelos de IA** coloca motores de traducción especializados más cerca de los usuarios, reduciendo el tiempo de ida y vuelta para el procesamiento crítico del habla. Esto se combina con **modelos LLM pesados basados en la nube** para asegurar máxima precisión mientras se mantiene la velocidad de respuesta.
+**Procesamiento edge de modelos de IA** coloca motores de traducción especializados más cerca de los usuarios, reduciendo el tiempo de ida y vuelta para el procesamiento crítico del habla. Esto se combina con **modelos LLM pesados basados en la nube** para asegurar máxima precisión mientras se mantiene la velocidad de respuesta.
 
 ## Ventajas competitivas frente a los gigantes tecnológicos
 
@@ -64,7 +64,7 @@ InterMIND resuelve **tres problemas críticos de la industria simultáneamente**
 
 > **Problema multilingüe simultáneo**: Las soluciones existentes funcionan efectivamente solo con traducción por pares (uno a uno). InterMIND soporta **sesiones verdaderamente multilingües con 3+ idiomas simultáneamente**, utilizando diarización avanzada de hablantes y gestión inteligente de canales de audio.
 
-> **Problema de integración WebRTC**: La mayoría de las soluciones son complementos específicos de plataforma. InterMIND creó **implementación nativa de WebRTC** que funciona sin problemas con cualquier plataforma de video sin requerir clientes específicos o plugins.
+> **Problema de integración WebRTC**: La mayoría de las soluciones son complementos específicos de plataforma. InterMIND creó una **implementación nativa de WebRTC** que funciona sin problemas con cualquier plataforma de video sin requerir clientes específicos o plugins.
 
 ## Innovaciones en procesamiento de flujos de medios
 

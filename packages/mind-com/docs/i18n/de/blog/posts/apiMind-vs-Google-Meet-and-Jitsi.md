@@ -47,7 +47,7 @@ apiMind demonstriert:
 
 Wir erkennen offen Bereiche an, die Arbeit benötigen:
 
-1. **Anpassung bei niedriger Bandbreite (200kbps)** — Derzeit treten Audioausfälle und FPS-Verschlechterung auf ~5 FPS auf (Google Meet hält ~17 FPS)
+1. **Anpassung bei geringer Bandbreite (200kbps)** — Derzeit treten Audioausfälle und FPS-Verschlechterung auf ~5 FPS auf (Google Meet hält ~17 FPS)
 2. **Qualitätswiederherstellung nach Netzwerkverbesserung** — Das System kehrt nicht konsistent zur ursprünglichen Qualität zurück (50% Wiederherstellungsrate in Tests)
 3. **Grundverzögerungen** — Höhere Audio-/Videoverzögerungen im Vergleich zu Konkurrenten unter optimalen Bedingungen
 

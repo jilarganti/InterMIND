@@ -57,7 +57,7 @@ In einigen Fällen können wir externe KI-Serviceanbieter nutzen. Wenn wir dies 
 
 #### Menschliche Überprüfung
 
-Obwohl unsere KI-Systeme autonom arbeiten, können bestimmte Interaktionen von unseren Rechtsexperten überprüft werden, um die Genauigkeit und Qualität der Dienstleistung sicherzustellen.
+Obwohl unsere KI-Systeme autonom arbeiten, können bestimmte Interaktionen von unseren Rechtsexperten überprüft werden, um Genauigkeit und Servicequalität sicherzustellen.
 
 #### KI-Training
 

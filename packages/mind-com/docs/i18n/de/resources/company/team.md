@@ -36,12 +36,12 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
 
 ## KI-Team [^1]
 
-[^1]: KI-Teammitglieder sind nicht menschlich, aber sie sind integraler Bestandteil unserer Abläufe. Sie unterstützen bei verschiedenen Aufgaben, vom Programmieren bis zur Forschung, und helfen uns dabei, Sprachbarrieren zu überwinden. [Verstehen Sie unser KI-Framework und unsere Richtlinien ...](./legal-regulations-for-ai-services)
+[^1]: KI-Teammitglieder sind nicht menschlich, aber sie sind ein wesentlicher Bestandteil unserer Abläufe. Sie unterstützen bei verschiedenen Aufgaben, vom Programmieren bis zur Forschung, und helfen uns dabei, Sprachbarrieren zu überwinden.
 
 <TeamMembersGrid :members="[
   {
     name: 'Claude',
-    desc: 'Klarheit in Gespräche bringen',
+    desc: 'Bringt Klarheit in Gespräche',
     country: 'USA',
     avatarLink: 'vscode-icons:file-type-claude',
     links: [
@@ -50,7 +50,7 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
   },
   {
     name: 'Gemini',
-    desc: 'Wissen mit Absicht verbinden',
+    desc: 'Verbindet Wissen mit Absicht',
     country: 'USA',
     avatarLink: 'material-icon-theme:gemini-ai',
     links: [
@@ -59,7 +59,7 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
   },
   {
     name: 'ChatGPT',
-    desc: 'Interpretieren mit Nuancen und Gedächtnis',
+    desc: 'Interpretiert mit Nuancen und Gedächtnis',
     country: 'USA',
     avatarLink: 'streamline-logos:openai-logo',
     links: [
@@ -68,7 +68,7 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
   },
   {
     name: 'DeepSeek',
-    desc: 'In Code denken und im Kontext argumentieren',
+    desc: 'Denkt in Code und argumentiert im Kontext',
     country: 'China',
     avatarLink: 'arcticons:deepseek',
     links: [

@@ -36,7 +36,7 @@ Bersama-sama, kami memadukan kreativitas, kode, dan pemahaman untuk menghapus ha
 
 ## Tim AI [^1]
 
-[^1]: Anggota tim AI bukanlah manusia, tetapi mereka merupakan bagian integral dari operasi kami. Mereka membantu dalam berbagai tugas, mulai dari coding hingga penelitian, dan membantu kami mengatasi hambatan bahasa. [Pahami kerangka kerja dan kebijakan AI kami ...](./legal-regulations-for-ai-services)
+[^1]: Anggota tim AI bukanlah manusia, tetapi mereka merupakan bagian integral dari operasi kami. Mereka membantu dalam berbagai tugas, mulai dari coding hingga penelitian, dan membantu kami mengatasi hambatan bahasa.
 
 <TeamMembersGrid :members="[
   {

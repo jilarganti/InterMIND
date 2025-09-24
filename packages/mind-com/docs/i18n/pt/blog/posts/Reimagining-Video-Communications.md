@@ -31,7 +31,7 @@ SDKs multiplataforma para Web, Android e iOS fornecem **API unificada em todas a
 
 ## Integração Revolucionária de LLM para Tradução Contextual
 
-O avanço tecnológico da InterMIND reside na **primeira integração da indústria de Modelos de Linguagem de Grande Escala (LLM) diretamente no pipeline de comunicação por vídeo**. As soluções tradicionais usam uma abordagem em cascata: fala-para-texto → tradução → texto-para-fala, criando latência cumulativa e perda de contexto. A InterMIND desenvolveu **integração direta do motor de IA com streams WebRTC**, garantindo a preservação da coloração emocional, entonação e terminologia da indústria.
+O avanço tecnológico da InterMIND reside na **primeira integração da indústria de Modelos de Linguagem de Grande Escala (LLM) diretamente no pipeline de comunicação por vídeo**. As soluções tradicionais usam uma abordagem em cascata: fala-para-texto → tradução → texto-para-fala, criando latência cumulativa and perda de contexto. A InterMIND desenvolveu **integração direta do motor de IA com streams WebRTC**, garantindo a preservação da coloração emocional, entonação e terminologia da indústria.
 
 **Inovação principal**: O sistema não apenas traduz palavras, mas **analisa o contexto da conversa, terminologia profissional e intenções do falante**. Isso é alcançado através de engenharia sofisticada de prompts e modelos especializados para várias indústrias. O motor LLM mantém a memória da conversa, permitindo que a precisão da tradução melhore conforme a conversa se desenvolve.
 

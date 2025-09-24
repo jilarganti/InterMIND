@@ -50,7 +50,7 @@ Küresel ölçekte saniyenin altında gecikme süresi sağlamak için InterMIND,
 
 **Kubernetes tabanlı otomatik ölçeklendirme sistemi**, yüke dayalı dinamik kaynak tahsisine olanak tanır. Kritik yenilik, **kullanım kalıplarına dayalı öngörülü ölçeklendirme** içerir ve sistemin yoğun yükleri önceden tahmin edip kaynakları önceden hazırlamasını sağlar.
 
-**AI modellerinin edge işlemesi**, özel çeviri motorlarını kullanıcılara daha yakın yerleştirerek kritik konuşma işleme için gidiş-dönüş süresini azaltır. Bu, maksimum doğruluk sağlarken yanıt hızını korumak için **bulut tabanlı ağır LLM modelleri** ile birleşir.
+**AI modellerinin edge işlemesi**, özel çeviri motorlarını kullanıcılara daha yakın yerleştirerek kritik konuşma işleme için gidiş-dönüş süresini azaltır. Bu, **bulut tabanlı ağır LLM modelleri** ile birleşerek yanıt hızını korurken maksimum doğruluk sağlar.
 
 ## Teknoloji Devlerine Karşı Rekabet Avantajları
 
@@ -64,7 +64,7 @@ InterMIND **üç kritik endüstri problemini eşzamanlı olarak** çözmektedir:
 
 > **Eşzamanlı çok dilli problemi**: Mevcut çözümler yalnızca çift çeviriyle (bire bir) etkili çalışmaktadır. InterMIND, gelişmiş konuşmacı ayrımı ve akıllı ses kanalı yönetimi kullanarak **3+ dille gerçekten çok dilli oturumları eşzamanlı olarak** desteklemektedir.
 
-> **WebRTC entegrasyon problemi**: Çoğu çözüm platforma özel eklentilerdir. InterMIND, belirli istemciler veya eklentiler gerektirmeden herhangi bir video platformuyla sorunsuz çalışan **WebRTC-yerel implementasyon** oluşturmuştur.
+> **WebRTC entegrasyon problemi**: Çoğu çözüm platforma özgü eklentilerdir. InterMIND, belirli istemciler veya eklentiler gerektirmeden herhangi bir video platformuyla sorunsuz çalışan **WebRTC-yerel uygulama** oluşturmuştur.
 
 ## Medya Akışı İşleme İnovasyonları
 

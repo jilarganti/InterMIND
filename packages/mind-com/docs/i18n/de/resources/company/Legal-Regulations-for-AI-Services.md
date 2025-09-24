@@ -40,7 +40,7 @@ KI-generierte Inhalte und Antworten stellen keine professionelle Beratung, Meinu
 
 ## Keine Gewährleistungen
 
-Die KI-Funktionen werden auf einer "wie besehen" und "wie verfügbar" Basis ohne jegliche Gewährleistungen bereitgestellt, weder ausdrücklich noch stillschweigend. Das Unternehmen garantiert nicht, dass die KI-Funktionen unterbrechungsfrei, zeitgerecht, sicher oder fehlerfrei funktionieren. Sie erkennen an, dass technische Probleme oder Änderungen in Drittanbietersystemen Ihre Möglichkeit, auf die KI-Funktionen zuzugreifen oder diese zu nutzen, vorübergehend oder dauerhaft einschränken können.
+Die KI-Funktionen werden auf einer "wie besehen" und "wie verfügbar" Basis ohne jegliche Gewährleistungen bereitgestellt, weder ausdrücklich noch stillschweigend. Das Unternehmen garantiert nicht, dass die KI-Funktionen unterbrechungsfrei, zeitgerecht, sicher oder fehlerfrei sein werden. Sie erkennen an, dass technische Probleme oder Änderungen in Drittanbietersystemen Ihre Möglichkeit, auf die KI-Funktionen zuzugreifen oder diese zu nutzen, vorübergehend oder dauerhaft einschränken können.
 
 ## Datenerfassung und -verwendung
 

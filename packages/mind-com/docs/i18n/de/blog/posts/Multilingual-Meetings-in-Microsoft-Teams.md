@@ -95,9 +95,9 @@ InterMIND behauptet "nahezu menschliche Genauigkeit" dank spezialisierter Modell
 
 Alle überprüften Plattformen entsprechen der **DSGVO** und verwenden Ende-zu-Ende-Verschlüsselung zum Datenschutz. Microsoft Teams erbt die Microsoft 365 Enterprise-Sicherheit mit **ISO 27001, SOC 2 und HIPAA**-Compliance.
 
-**Interactio** und **KUDO** haben spezielle Zertifizierungen für die Arbeit mit Regierungsorganisationen, einschließlich Freigaben für Dolmetscher bei der Arbeit mit vertraulichen Informationen. Dies macht sie zur bevorzugten Wahl für diplomatische Verhandlungen und Verteidigungsverträge.
+**Interactio** und **KUDO** haben spezielle Zertifizierungen für die Arbeit mit Regierungsorganisationen, einschließlich Sicherheitsfreigaben für Dolmetscher bei der Arbeit mit vertraulichen Informationen. Dies macht sie zur bevorzugten Wahl für diplomatische Verhandlungen und Verteidigungsverträge.
 
-**InterMIND** zeichnet sich durch seine "Null-Training-auf-Daten"-Politik aus — Benutzergespräche werden niemals zur Verbesserung von KI-Modellen verwendet, kritisch für Organisationen mit strengen Datenschutzanforderungen. Die Plattform bietet regionale Datenzonen für die Einhaltung lokaler Datenresidenz-Anforderungen.
+**InterMIND** zeichnet sich durch seine "Zero-Training-on-Data"-Politik aus — Benutzergespräche werden niemals zur Verbesserung von KI-Modellen verwendet, was für Organisationen mit strengen Datenschutzanforderungen kritisch ist. Die Plattform bietet regionale Datenzonen für die Einhaltung lokaler Datenresidenz-Anforderungen.
 
 ## Praktische Empfehlungen für die Lösungsauswahl
 
