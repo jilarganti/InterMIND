@@ -15,10 +15,17 @@
     "test:traffic-sources": "tsx __tests__/test-traffic-sources.ts",
     "translate": "tsx ../../scripts/translate.ts ./scripts/translateConfig.ts",
     "index:docs": "tsx ./scripts/indexDocs.ts",
+    "medium-scraper": "tsx ./scripts/medium-to-markdown.ts",
     "format": "prettier --cache --cache-strategy content -w .",
     "lint": "pnpm eslint --cache ."
   },
   "dependencies": {
     "shared": "workspace:*"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.22.3",
+    "turndown": "^7.2.1",
+    "axios": "^1.12.2",
+    "@types/turndown": "^5.0.5"
   }
 }

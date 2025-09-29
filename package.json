@@ -12,7 +12,8 @@
     "dev": "cd $PACKAGE_PATH && pnpm run dev",
     "build": "cd $PACKAGE_PATH && pnpm run build",
     "test": "cd $PACKAGE_PATH && pnpm run test",
-    "translate": "cd $PACKAGE_PATH && pnpm run translate"
+    "translate": "cd $PACKAGE_PATH && pnpm run translate",
+    "medium-scraper": "cd packages/mind-com && tsx scripts/medium-to-markdown.ts"
   },
   "devDependencies": {
     "@ai-sdk/anthropic": "^1.2.12",
