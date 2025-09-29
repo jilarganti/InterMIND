@@ -47,23 +47,84 @@ class MediumScraper {
         timeout: this.config.timeouts.pageLoad,
       })
 
-      await page.waitForSelector("article", { timeout: this.config.timeouts.elementWait })
+      // Проверяем что загрузилось и даем понятные ошибки
+      const pageTitle = await page.title()
+      console.log(`Page title: ${pageTitle}`)
 
-      const article = await page.evaluate(() => {
+      // Проверка на paywall/login
+      const isPaywall = await page.$('.paywall, [data-testid="paywall"], .js-signInModal, [class*="member-preview"], [class*="upgrade-"]')
+      if (isPaywall) {
+        throw new Error(`❌ Article requires Medium membership or login: ${pageTitle}`)
+      }
+
+      // Проверка на 404
+      if (pageTitle.includes("Page not found") || pageTitle.includes("404")) {
+        throw new Error(`❌ Page not found (404): ${url}`)
+      }
+
+      // Ждем статью с понятной ошибкой
+      try {
+        await page.waitForSelector("article, [role='main'], main", { timeout: 10000 })
+      } catch (error) {
+        // Проверим что вообще есть на странице
+        const bodyText = await page.evaluate(() => document.body?.textContent?.slice(0, 200) || "")
+        throw new Error(`❌ Article content not found. Page shows: "${bodyText}..."`)
+      }
+
+      const article = await page.evaluate((configData) => {
         const titleElement = document.querySelector("h1")
-        const authorElement = document.querySelector('[data-testid="authorName"] a')
+        const authorElement = document.querySelector('a[data-testid="authorName"]')
         const timeElement = document.querySelector("time")
-        const articleElement = document.querySelector("article")
+        const articleElement = document.querySelector("article") || document.querySelector("[role='main']") || document.querySelector("main")
 
         if (!titleElement || !articleElement) {
           throw new Error("Required elements not found")
         }
 
+        // Клонируем статью для очистки
+        const cleanArticle = articleElement.cloneNode(true) as Element
+
+        // Удаляем элементы из конфига
+        configData.contentCleaning.removeElements.forEach((selector: string) => {
+          try {
+            const elements = cleanArticle.querySelectorAll(selector)
+            elements.forEach((el) => el.remove())
+          } catch (e) {
+            // Игнорируем ошибки селекторов
+          }
+        })
+
+        // Получаем HTML контент
+        let contentHTML = cleanArticle.innerHTML
+
+        // Обрезаем контент после фраз из конфига (простой поиск по тексту)
+        for (const phrase of configData.contentCleaning.cutoffPhrases) {
+          const cutoffIndex = contentHTML.indexOf(phrase)
+          if (cutoffIndex !== -1) {
+            contentHTML = contentHTML.substring(0, cutoffIndex)
+            break
+          }
+        }
+
         const title = titleElement.textContent?.trim() || "Untitled"
-        const author = authorElement?.textContent?.trim() || "Unknown Author"
+
+        // Извлекаем автора как ссылку в markdown формате
+        let author = "Unknown Author"
+        if (authorElement) {
+          const authorName = authorElement.textContent?.trim() || "Unknown Author"
+          const authorUrl = authorElement.getAttribute("href")
+          if (authorUrl) {
+            // Создаем полную ссылку если это относительный путь
+            const fullUrl = authorUrl.startsWith("http") ? authorUrl : `https://medium.com${authorUrl}`
+            author = `[${authorName}](${fullUrl})`
+          } else {
+            author = authorName
+          }
+        }
+
         const publishDate = timeElement?.getAttribute("datetime") || new Date().toISOString()
 
-        const images = Array.from(articleElement.querySelectorAll("img")).map((img, index) => ({
+        const images = Array.from(cleanArticle.querySelectorAll("img")).map((img, index) => ({
           src: img.src,
           alt: img.alt || `Image ${index + 1}`,
         }))
@@ -72,26 +133,34 @@ class MediumScraper {
           title,
           author,
           publishDate,
-          content: articleElement.innerHTML,
-          images: images.slice(0, 20), // Limit to 20 images
+          content: contentHTML,
+          images: images, // No limit on images
         }
-      })
+      }, this.config)
 
-      console.log(`Found article: "${article.title}" by ${article.author}`)
-      console.log(`Found images: ${article.images.length}`)
+      const typedArticle = article as {
+        title: string
+        author: string
+        publishDate: string
+        content: string
+        images: { src: string; alt: string }[]
+      }
+
+      console.log(`Found article: "${typedArticle.title}" by ${typedArticle.author}`)
+      console.log(`Found images: ${typedArticle.images.length}`)
 
       const turndown = new TurndownService({
         headingStyle: "atx",
         bulletListMarker: "-",
       })
 
-      const markdown = turndown.turndown(article.content)
-      const processedImages = await this.downloadImages(article.images, article.title)
+      const markdown = turndown.turndown(typedArticle.content)
+      const processedImages = await this.downloadImages(typedArticle.images, typedArticle.title)
 
       await browser.close()
 
       return {
-        ...article,
+        ...typedArticle,
         content: markdown,
         images: processedImages,
       }
@@ -123,6 +192,11 @@ class MediumScraper {
         const response = await axios.get(img.src, {
           responseType: "stream",
           timeout: this.config.timeouts.imageDownload,
+          headers: {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://medium.com/",
+            "Accept": "image/*,*/*;q=0.8",
+          },
         })
 
         const extension = path.extname(new URL(img.src).pathname) || ".jpg"
@@ -163,7 +237,7 @@ class MediumScraper {
     let frontmatter = `---
 layout: ${config.layout}
 title: "${article.title}"
-author: "${config.author}"
+author: "${article.author}"
 date: ${article.publishDate.split("T")[0]}
 `
 

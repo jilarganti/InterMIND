@@ -7,7 +7,7 @@ export const mediumScraperConfig = {
   // Директории для вывода (относительно packages/mind-com/)
   output: {
     defaultDir: "./docs/en/blog/posts",
-    imagesDir: "../../../public/blog/images", // относительно posts/
+    imagesDir: "./docs/public/blog/images", // абсолютно относительно packages/mind-com/
     scriptsOutputDir: "./docs/en/blog/posts",
   },
 
@@ -27,7 +27,6 @@ export const mediumScraperConfig = {
 
   // Настройки обработки изображений
   images: {
-    maxImages: 20, // Максимальное количество изображений для скачивания
     allowedExtensions: [".jpg", ".jpeg", ".png", ".webp", ".gif"],
     defaultExtension: ".jpg",
     maxFileNameLength: 50, // Максимальная длина имени файла
@@ -42,8 +41,8 @@ export const mediumScraperConfig = {
     strongDelimiter: "**" as "**" | "__", // **жирный**
   },
 
-  // Поддерживаемые домены
-  supportedDomains: ["medium.com"],
+  // Поддерживаемые домены (включая поддомены Medium)
+  supportedDomains: ["medium.com", "towardsdatascience.com", "javascript.plainenglish.io", "levelup.gitconnected.com", "betterprogramming.pub"],
 
   // Селекторы для извлечения контента
   selectors: {
@@ -91,5 +90,13 @@ export const mediumScraperConfig = {
       description: "A comprehensive analysis from Medium content", // Описание по умолчанию
       // tags: ["medium", "article"], // Можно добавить теги
     },
+  },
+
+  // Настройки очистки контента
+  contentCleaning: {
+    // Элементы для удаления
+    removeElements: [".speechify-ignore", "div.speechify-ignore"],
+    // Фразы для обрезки контента (простой поиск по тексту)
+    cutoffPhrases: ["If you found this article useful, here’s another one you might enjoy:"],
   },
 }
