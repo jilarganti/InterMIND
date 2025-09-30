@@ -33,12 +33,17 @@ export const mediumScraperConfig = {
   },
 
   // Настройки Turndown для конвертации HTML в Markdown
-  markdown: {
-    headingStyle: "atx" as "atx" | "setext", // # ## ### стиль заголовков
-    bulletListMarker: "-" as "-" | "*" | "+", // Маркер для списков
-    codeBlockStyle: "fenced" as "fenced" | "indented", // ``` стиль блоков кода
-    emDelimiter: "*" as "*" | "_", // *курсив*
-    strongDelimiter: "**" as "**" | "__", // **жирный**
+  turndown: {
+    headingStyle: "atx",
+    bulletListMarker: "-",
+  },
+
+  // Настройки обработки ссылок
+  linkProcessing: {
+    // Преобразовать относительные Medium ссылки в абсолютные
+    convertRelativeLinks: true,
+    // Удалить внутренние Medium ссылки, которые не работают вне Medium
+    removeInternalMediumLinks: true,
   },
 
   // Поддерживаемые домены (включая поддомены Medium)

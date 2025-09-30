@@ -20,12 +20,13 @@
     "lint": "pnpm eslint --cache ."
   },
   "dependencies": {
-    "shared": "workspace:*"
+    "shared": "workspace:*",
+    "turndown-plugin-gfm": "^1.0.2"
   },
   "devDependencies": {
-    "puppeteer": "^24.22.3",
-    "turndown": "^7.2.1",
+    "@types/turndown": "^5.0.5",
     "axios": "^1.12.2",
-    "@types/turndown": "^5.0.5"
+    "puppeteer": "^24.22.3",
+    "turndown": "^7.2.1"
   }
 }

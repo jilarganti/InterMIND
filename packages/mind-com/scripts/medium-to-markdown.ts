@@ -3,6 +3,7 @@
 import puppeteer from "puppeteer"
 // @ts-ignore
 import TurndownService from "turndown"
+import { gfm } from "turndown-plugin-gfm"
 import axios from "axios"
 import { promises as fs, createWriteStream, existsSync } from "fs"
 import * as path from "path"
@@ -149,19 +150,47 @@ class MediumScraper {
       console.log(`Found article: "${typedArticle.title}" by ${typedArticle.author}`)
       console.log(`Found images: ${typedArticle.images.length}`)
 
-      const turndown = new TurndownService({
+      // Remove old turndown instance - we'll use turndownService with GFM plugin
+
+      // Configure turndown service with GFM plugin for tables
+      const turndownService = new TurndownService({
         headingStyle: "atx",
-        bulletListMarker: "-",
+        codeBlockStyle: "fenced",
       })
 
-      const markdown = turndown.turndown(typedArticle.content)
+      // Use GitHub Flavored Markdown plugin for tables
+      turndownService.use(gfm)
+
+      // Debug: Check what's actually in the content
+      console.log("Content sample:", typedArticle.content.substring(0, 1000))
+
+      // Look for table-related elements
+      const tableMatches = typedArticle.content.match(/<table[^>]*>/gi)
+      const divMatches = typedArticle.content.match(/class="[^"]*table[^"]*"/gi)
+      const accessibilityTable = typedArticle.content.match(/markdown-accessibility-table/gi)
+
+      console.log("Table matches:", tableMatches?.length || 0)
+      console.log("Div with table class:", divMatches?.length || 0)
+      console.log("Accessibility table:", accessibilityTable?.length || 0)
+
+      const markdown = turndownService.turndown(typedArticle.content)
+
+      // Convert relative Medium links to absolute ones
+      const processedMarkdown = this.config.linkProcessing?.convertRelativeLinks
+        ? markdown.replace(/\[([^\]]+)\]\(\/([^)]+)\)/g, (match, text, path) => {
+            if (path.startsWith("http") || path.startsWith("#")) return match
+            console.log(`Converting: /${path} -> https://medium.com/${path}`)
+            return `[${text}](https://medium.com/${path})`
+          })
+        : markdown
+
       const processedImages = await this.downloadImages(typedArticle.images, typedArticle.title)
 
       await browser.close()
 
       return {
         ...typedArticle,
-        content: markdown,
+        content: processedMarkdown,
         images: processedImages,
       }
     } catch (error) {
