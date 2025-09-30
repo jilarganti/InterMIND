@@ -315,7 +315,7 @@ async function getAllFiles(dir: string): Promise<string[]> {
  * @param {string} targetFile
  * @returns {Promise<boolean>}
  */
-async function needsTranslation(sourceFile, targetFile) {
+async function needsTranslation(sourceFile: string, targetFile: string) {
   // If --all flag is set, always translate
   if (translateAll) {
     return true
@@ -504,7 +504,7 @@ async function translateFile(file: string, targetPath: string, lang: Language, f
     const duration = ((Date.now() - startTime) / 1000).toFixed(1)
     const relativePath = path.relative(rootDir, file)
     console.log(`✅ ${relativePath} → ${lang.name} (${duration}s)`)
-  } catch (error) {
+  } catch (error: any) {
     const relativePath = path.relative(rootDir, file)
     console.error(`❌ ${relativePath} → ${lang.name}: ${error.message}`)
 
@@ -599,10 +599,12 @@ async function checkBuildErrors(rootDir: string): Promise<FileWithError[]> {
                 let errorDetails = match[0]
 
                 // Look for more context around the error
-                const errorLineIndex = lines.findIndex((line) => line.includes(errorFile))
+                const errorLineIndex = lines.findIndex((line: string) => line.includes(errorFile))
                 if (errorLineIndex >= 0) {
                   // Get a few lines around the error for better context
-                  const contextLines = lines.slice(Math.max(0, errorLineIndex - 2), Math.min(lines.length, errorLineIndex + 3)).filter((line) => line.trim())
+                  const contextLines = lines
+                    .slice(Math.max(0, errorLineIndex - 2), Math.min(lines.length, errorLineIndex + 3))
+                    .filter((line: string) => line.trim())
 
                   if (contextLines.length > 0) {
                     errorDetails = contextLines.join(" | ")
@@ -702,7 +704,7 @@ async function copyAssetFile(sourceFile: string, targetPath: string, rootDir: st
     const duration = ((Date.now() - startTime) / 1000).toFixed(1)
     const relativePath = path.relative(rootDir, sourceFile)
     console.log(`📄 ${relativePath} → copied (${duration}s)`)
-  } catch (error) {
+  } catch (error: any) {
     const relativePath = path.relative(rootDir, sourceFile)
     console.error(`❌ ${relativePath} → copy failed: ${error.message}`)
   }
@@ -764,11 +766,11 @@ async function translateFiles() {
 
           const duration = ((Date.now() - startTime) / 1000).toFixed(1)
           console.log(`✅ Config → ${lang.name} (${duration}s)`)
-        } catch (error) {
+        } catch (error: any) {
           console.error(`❌ Config → ${lang.name}: ${error.message}`)
         }
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error(`❌ Error reading config:`, error.message)
     }
 
@@ -833,7 +835,7 @@ async function translateFiles() {
     }
 
     console.log("\n✨ Done!")
-  } catch (error) {
+  } catch (error: any) {
     console.error(`❌ Error:`, error.message)
   }
 }
