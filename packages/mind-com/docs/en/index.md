@@ -12,7 +12,8 @@ isHome: true
 <NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
-<span id="1"></span>
+## Translation ≠ Understanding {#1}
+
 <FeatureBlock
     :card="{
       title: 'Translation ≠ Understanding. Here’s what’s next.',
@@ -30,7 +31,8 @@ isHome: true
     }"
   />
 
-<span id="2"></span>
+## The Mind Within Your Meetings {#2}
+
 <FeatureBlock
     :card="{
       title: 'The Mind Within Your Meetings',
@@ -49,7 +51,8 @@ isHome: true
     }"
   />
 
-<span id="3"></span>
+## Built for Serious Meetings {#3}
+
 <FeatureBlock
     :card="{
       title: 'Built for Serious Meetings — Not Just Talking',
@@ -66,7 +69,8 @@ isHome: true
     }"
   />
 
-<span id="4"></span>
+## Privacy Where It Matters {#4}
+
 <FeatureBlock
     :card="{
       title: 'Privacy Where It Matters',
@@ -84,9 +88,7 @@ isHome: true
 > **Who is this for?**  
 > _Built for international teams where language barriers cause delays, lost deals, or costly misunderstandings._ [Learn more ...](./product/overview/markets)
 
-<span id="HowItWorks"></span>
-
-## Works Like Google Meet + Live Translation
+## Works Like Google Meet + Live Translation {#HowItWorks}
 
 Familiar interface. Universal communication. Same ease as Google Meet — with instant translation that makes language barriers disappear.
 
@@ -129,12 +131,11 @@ Familiar interface. Universal communication. Same ease as Google Meet — with i
 
 <!-- <br> -->
 
-<span id="VideoDemo"></span>
+## Video Demo {#VideoDemo}
+
 <VideoPlayer src="/promo/demo-en-mx.mp4" />
 
-<span id="Example"></span>
-
-## Example: How real-time speech translation works in a meeting
+## Example: How real-time speech translation works in a meeting {#Example}
 
 Let’s say:
 
@@ -178,15 +179,11 @@ Changing this means:
 > It controls **how you speak**, **what you hear**, and **what you see**.  
 > Speaking in one language and listening in another is **not supported** — by design, to keep the experience simple and predictable.
 
-<span id="Testimonials"></span>
-
-## What Customers Are Saying
+## What Customers Are Saying {#Testimonials}
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-<span id="Pricing"></span>
-
-## Clear and Simple Pricing
+## Clear and Simple Pricing {#Pricing}
 
 From first call to fluent conversations — at any scale.
 
@@ -240,8 +237,6 @@ From first call to fluent conversations — at any scale.
 > 💡 **_Real partnerships start with real conversations — in their language._**
 
 ## Frequently Asked Questions
-
-<span id="FAQ"></span>
 
 <AccordionGroup
     :items="[

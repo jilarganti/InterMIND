@@ -1,5 +1,3 @@
-#!/usr/bin/env tsx
-
 import puppeteer from "puppeteer"
 // @ts-ignore
 import TurndownService from "turndown"
@@ -160,6 +158,28 @@ class MediumScraper {
 
       // Use GitHub Flavored Markdown plugin for tables
       turndownService.use(gfm)
+
+      // Add custom rule to preserve heading IDs using markdown-it-anchor syntax
+      turndownService.addRule("headingWithId", {
+        filter: ["h1", "h2", "h3", "h4", "h5", "h6"],
+        replacement: function (content, node) {
+          const element = node as Element
+          const level = parseInt(element.tagName.charAt(1))
+          const hashes = "#".repeat(level)
+          const id = element.getAttribute("id")
+
+          // Get clean text content instead of markdown-converted content
+          const cleanText = element.textContent?.trim() || content.trim()
+
+          if (id) {
+            console.log(`Found heading with ID: ${cleanText} -> #${id}`)
+            // Use markdown-it-anchor compatible syntax
+            return `\n\n${hashes} ${cleanText} {#${id}}\n\n`
+          }
+
+          return `\n\n${hashes} ${cleanText}\n\n`
+        },
+      })
 
       // Debug: Check what's actually in the content
       console.log("Content sample:", typedArticle.content.substring(0, 1000))

@@ -93,6 +93,7 @@ export const mediumScraperConfig = {
     // Дополнительные поля (будут добавлены если указаны)
     additionalFields: {
       description: "A comprehensive analysis from Medium content", // Описание по умолчанию
+      noindex: true,
       // tags: ["medium", "article"], // Можно добавить теги
     },
   },
@@ -102,6 +103,9 @@ export const mediumScraperConfig = {
     // Элементы для удаления
     removeElements: [".speechify-ignore", "div.speechify-ignore"],
     // Фразы для обрезки контента (простой поиск по тексту)
-    cutoffPhrases: ["If you found this article useful, here’s another one you might enjoy:"],
+    cutoffPhrases: [
+      "If you found this article useful, here’s another one you might enjoy:",
+      "I’ve been experimenting with AI tools these days. If you found this article useful, here’s another one you might enjoy",
+    ],
   },
 }
