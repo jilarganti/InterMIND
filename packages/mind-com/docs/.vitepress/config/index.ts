@@ -49,11 +49,11 @@ export default defineConfig({
 
     // Disable footer for all blog pages
     if (pagePath.includes("/posts/")) {
-      pageData.frontmatter.footer = false
+      // pageData.frontmatter.footer = false
     }
 
-    // noindex for non-production and excluded pages
-    if (NOINDEX_PAGES.some((path) => pagePath.includes(path)) || !isProduction) {
+    // noindex for non-production, excluded pages, and pages with noindex frontmatter
+    if (NOINDEX_PAGES.some((path) => pagePath.includes(path)) || pageData.frontmatter.noindex || !isProduction) {
       pageData.frontmatter.head.push(["meta", { name: "robots", content: "noindex" }])
     }
   },
