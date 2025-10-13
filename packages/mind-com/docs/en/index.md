@@ -236,7 +236,7 @@ From first call to fluent conversations — at any scale.
 > 💡 **_Your time is better spent mastering your craft — not memorizing grammar._**  
 > 💡 **_Real partnerships start with real conversations — in their language._**
 
-## Frequently Asked Questions
+## Frequently Asked Questions {#FAQ}
 
 <AccordionGroup
     :items="[
@@ -308,6 +308,7 @@ From first call to fluent conversations — at any scale.
         title: 'RESOURCES',
         links: [
           { text: 'Blog', link: './blog/' },
+          { text: 'Global Language Access Compliance', link: './blog/posts/global-language-access-compliance' },
           { text: 'Brand Assets', link: './resources/media-kit' },
           { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],
