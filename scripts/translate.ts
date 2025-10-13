@@ -243,12 +243,10 @@ function removeTranslationTags(content: string): string {
   if (match) {
     return match[1].trim()
   }
-  
+
   // Fallback: remove any stray tags if regex didn't match
-  let cleaned = content
-    .replace(/<translated_markdown>/gi, "")
-    .replace(/<\/translated_markdown>/gi, "")
-  
+  let cleaned = content.replace(/<translated_markdown>/gi, "").replace(/<\/translated_markdown>/gi, "")
+
   return cleaned.trim()
 }
 

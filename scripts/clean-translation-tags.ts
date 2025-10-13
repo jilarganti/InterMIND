@@ -1,6 +1,6 @@
 /**
  * Clean translation tags from all translated markdown files
- * 
+ *
  * This script removes stray <translated_markdown> and </translated_markdown> tags
  * that may have been left in translated files.
  */
@@ -17,24 +17,24 @@ const __dirname = path.dirname(__filename)
  */
 function findMarkdownFiles(dir: string): string[] {
   const files: string[] = []
-  
+
   if (!fs.existsSync(dir)) {
     return files
   }
-  
+
   const items = fs.readdirSync(dir)
-  
+
   for (const item of items) {
     const fullPath = path.join(dir, item)
     const stat = fs.statSync(fullPath)
-    
+
     if (stat.isDirectory()) {
       files.push(...findMarkdownFiles(fullPath))
     } else if (item.endsWith(".md")) {
       files.push(fullPath)
     }
   }
-  
+
   return files
 }
 
@@ -43,9 +43,7 @@ function findMarkdownFiles(dir: string): string[] {
  */
 function cleanTranslationTags(content: string): string {
   // Remove opening and closing tags
-  return content
-    .replace(/<translated_markdown>\s*/gi, "")
-    .replace(/<\/translated_markdown>\s*/gi, "")
+  return content.replace(/<translated_markdown>\s*/gi, "").replace(/<\/translated_markdown>\s*/gi, "")
 }
 
 /**
@@ -53,13 +51,13 @@ function cleanTranslationTags(content: string): string {
  */
 function processFile(filePath: string): boolean {
   const content = fs.readFileSync(filePath, "utf8")
-  
+
   if (content.includes("<translated_markdown>") || content.includes("</translated_markdown>")) {
     const cleaned = cleanTranslationTags(content)
     fs.writeFileSync(filePath, cleaned, "utf8")
     return true
   }
-  
+
   return false
 }
 
@@ -73,15 +71,15 @@ console.log("🧹 Cleaning translation tags from markdown files...\n")
 
 for (const pkg of packages) {
   const i18nDir = path.join(packagesDir, pkg, "docs/i18n")
-  
+
   if (!fs.existsSync(i18nDir)) {
     console.log(`⚠️  Package ${pkg}: i18n directory not found, skipping`)
     continue
   }
-  
+
   const files = findMarkdownFiles(i18nDir)
   let pkgCleaned = 0
-  
+
   for (const file of files) {
     if (processFile(file)) {
       const relativePath = path.relative(packagesDir, file)
@@ -89,13 +87,13 @@ for (const pkg of packages) {
       pkgCleaned++
     }
   }
-  
+
   if (pkgCleaned > 0) {
     console.log(`📦 Package ${pkg}: cleaned ${pkgCleaned} files\n`)
   } else {
     console.log(`✨ Package ${pkg}: no tags found\n`)
   }
-  
+
   totalCleaned += pkgCleaned
 }
 

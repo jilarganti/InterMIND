@@ -25,12 +25,10 @@ function removeTranslationTags(content: string): string {
   if (match) {
     return match[1].trim()
   }
-  
+
   // Резервная очистка: удаление отдельных тегов
-  let cleaned = content
-    .replace(/<translated_markdown>/gi, "")
-    .replace(/<\/translated_markdown>/gi, "")
-  
+  let cleaned = content.replace(/<translated_markdown>/gi, "").replace(/<\/translated_markdown>/gi, "")
+
   return cleaned.trim()
 }
 ```
@@ -62,24 +60,28 @@ npx tsx scripts/clean-translation-tags.ts
 ## Использование
 
 ### Обычный перевод
+
 ```bash
 cd packages/mind-com
 pnpm translate
 ```
 
 ### Перевод на конкретный язык
+
 ```bash
 cd packages/mind-com
 pnpm translate --locale ru
 ```
 
 ### Полный перевод всех файлов
+
 ```bash
 cd packages/mind-com
 pnpm translate --all
 ```
 
 ### Очистка тегов в существующих файлах
+
 ```bash
 npx tsx scripts/clean-translation-tags.ts
 ```
@@ -95,9 +97,11 @@ npx tsx scripts/clean-translation-tags.ts
 ## Технические детали
 
 **Измененные файлы:**
+
 - `scripts/translate.ts` - добавлена функция `removeTranslationTags()` и улучшена обработка
 - `scripts/clean-translation-tags.ts` - новый утилитарный скрипт
 
 **Затронутые пакеты:**
+
 - `mind-com` - 11 файлов очищено
 - `golden-fish` - 21 файл очищено
