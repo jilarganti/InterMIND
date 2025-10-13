@@ -52,8 +52,6 @@ head:
 |                      | **South Korea - KWCAG** | WCAG 2.1 AA        | ✅ Active | Ongoing         |
 |                      | **India - RPwD Act**    | National standards | ✅ Active | Ongoing         |
 
----
-
 ## 📍 Regional Breakdown
 
 ### 🇺🇸 United States
@@ -498,6 +496,9 @@ head:
 
 ## ⏰ Critical Deadlines Timeline
 
+<img src="/blog/iStock-2203725394.jpg" alt="UAE dirham" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/iStock-2206387857.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+
 <div class="timeline">
   <div class="timeline-item past">
     <div class="timeline-date">June 2025</div>
@@ -731,6 +732,9 @@ Include:
 ---
 
 ## 🔗 Official Resources
+
+<img src="/blog/iStock-491619000.jpg" alt="UAE dirham" width="700" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/iStock-501821118.jpg" alt="Emirates NBD" width="700" align="right" style="padding: 1.5rem" class="light-only">
 
 ### International Standards
 
