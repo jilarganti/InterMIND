@@ -1,3 +1,8 @@
+---
+title: How AI Real-Time Translation Works
+description: Learn how InterMIND's instant bidirectional translation works with speech recognition, neural translation, and voice synthesis for seamless communication.
+---
+
 # How AI Real-Time Translation Works
 
 ## Speak and Listen in Your Language

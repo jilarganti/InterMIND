@@ -1,3 +1,8 @@
+---
+title: The Fastest Way to Speak Every Language
+description: InterMIND makes language learning obsolete with simultaneous AI interpretation. Break language barriers instantly and speak your native language in meetings.
+---
+
 # The Fastest Way to Speak Every Language — Without Learning It
 
 ## The language barrier ends here

@@ -1,3 +1,8 @@
+---
+title: Troubleshooting
+description: Fix common InterMIND issues with microphone, camera, translator, screen sharing, and recording. Solutions for smooth online meetings.
+---
+
 # Troubleshooting
 
 This section provides solutions for common issues encountered during online meetings, including problems with microphones, cameras, joining meetings, using voice assistants, translators, screen sharing, and recording. It outlines potential causes for each issue and offers practical solutions to resolve them, ensuring a smoother online meeting experience.

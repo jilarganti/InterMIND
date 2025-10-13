@@ -1,3 +1,8 @@
+---
+title: AI Features
+description: Discover InterMIND's AI-powered features including Voice Assistant (Jarvis), real-time voice translation, and AI Assistant for meeting notes and summaries.
+---
+
 # AI Features
 
 This section outlines the functionalities of the Voice Assistant (Jarvis), Online Voice Translation, and AI Assistant available during meetings.

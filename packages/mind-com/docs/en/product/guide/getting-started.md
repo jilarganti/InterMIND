@@ -1,3 +1,8 @@
+---
+title: Getting Started
+description: Learn how to use InterMIND AI-powered video conferencing platform. Complete guide for registration, meeting creation, AI features, and troubleshooting.
+---
+
 # Getting Started
 
 InterMIND is an advanced AI-powered video conferencing platform designed to facilitate seamless communication across various languages, devices, and teams. This guide aims to provide you with a comprehensive understanding of how to effectively utilize all the features of InterMIND — from joining your initial meeting to configuring AI tools and addressing technical issues.

@@ -1,3 +1,8 @@
+---
+title: Help & Support
+description: Get help with InterMIND. Report issues, suggest features, and contact our support team through the built-in feedback form.
+---
+
 # Help & Support
 
 Should you face any issues or have a feature request, feel free to reach out to the InterMIND team directly through the built-in feedback form. This feature is quick and user-friendly, allowing us to enhance InterMIND for everyone.

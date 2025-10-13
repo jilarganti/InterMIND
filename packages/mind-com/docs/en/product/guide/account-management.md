@@ -1,3 +1,8 @@
+---
+title: Account Management
+description: Sign up and manage your InterMIND account. Learn how to register with Google, Microsoft, or email, update profile settings, and manage security.
+---
+
 # Account Management
 
 ## Sign Up

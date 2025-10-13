@@ -1,3 +1,8 @@
+---
+title: Pricing
+description: Compare InterMIND plans - Basic, Pro, and Business. Find the right plan with meeting limits, participant capacity, AI features, and storage options.
+---
+
 # Pricing
 
 The Pricing page provides a clear comparison of all available plans—Basic, Pro, and Business—helping users choose the best option for their communication needs. It includes details on pricing, meeting limits, participant capacity, storage, and access to premium features like Voice Assistant, AI Assistant, and interpretation services.

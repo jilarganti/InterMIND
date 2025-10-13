@@ -1,3 +1,8 @@
+---
+title: Video Meeting Platform
+description: Enterprise-grade video conferencing with HD quality, screen sharing, recording, AI assistant, and professional features for global collaboration.
+---
+
 # InterMind Video Meeting Platform
 
 ## Built for Serious Meetings — Not Just Talking

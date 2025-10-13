@@ -1,3 +1,8 @@
+---
+title: Data Privacy for AI Meetings
+description: InterMIND's transparent privacy architecture with region-based confidentiality, GDPR compliance, and user choice for data processing locations.
+---
+
 # Data Privacy for AI Meetings
 
 ## Introduction

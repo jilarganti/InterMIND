@@ -1,3 +1,8 @@
+---
+title: Meetings History
+description: Access your InterMIND meeting archive with recordings, transcripts, AI-generated summaries, and reusable meeting links in one place.
+---
+
 # Meetings History
 
 The Meeting History page functions as a personal archive for all meetings you have hosted or attended while signed in. It offers quick access to recordings, transcripts, AI Assistant-generated summaries, and reusable meeting links - all consolidated in one convenient location.

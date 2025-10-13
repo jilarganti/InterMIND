@@ -1,3 +1,8 @@
+---
+title: Creating and Scheduling Meetings
+description: Learn how to create instant meetings, schedule in Google Calendar, and generate reusable meeting links in InterMIND video conferencing platform.
+---
+
 # Creating and Scheduling Meetings
 
 Upon signing into InterMIND, users can conveniently create and schedule meetings directly from the main interface by clicking the **New Meeting** button.

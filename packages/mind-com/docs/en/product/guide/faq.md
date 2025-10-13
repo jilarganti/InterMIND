@@ -1,3 +1,8 @@
+---
+title: Frequently Asked Questions (FAQ)
+description: Get answers to common questions about InterMIND. Learn about accounts, meetings, AI Assistant, translation features, and device compatibility.
+---
+
 # Frequently Asked Questions (FAQ)
 
 The FAQ section provides essential information about InterMIND, covering topics such as accounts and access, meeting creation and recording, the AI Assistant's capabilities, translation features, chat participation, and settings for devices. It addresses common questions regarding guest access, scheduling meetings, using the AI Assistant, language translation, chat functionalities, and device compatibility.

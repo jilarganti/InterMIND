@@ -1,3 +1,8 @@
+---
+title: Meeting Interface Overview
+description: Explore InterMIND's intuitive meeting interface. Learn about video layout, toolbar controls, participant interactions, and customization options.
+---
+
 # Meeting Interface Overview
 
 The InterMIND interface is designed with careful consideration for cleanliness, intuitiveness, and accessibility. This section delineates the key elements visible during a live meeting and provides guidance on how users can interact with them effectively.

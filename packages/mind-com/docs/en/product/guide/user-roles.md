@@ -1,3 +1,8 @@
+---
+title: User Roles
+description: Understand InterMIND user roles - Host, Moderator, Participant, and Guest. Learn about permissions and capabilities for each role.
+---
+
 # User Roles
 
 InterMIND delineates four distinct user roles, each meticulously crafted to enhance secure, collaborative, and adaptable meeting experiences. The Host role is endowed with the highest level of authority, while the other roles offer varying levels of interaction.
