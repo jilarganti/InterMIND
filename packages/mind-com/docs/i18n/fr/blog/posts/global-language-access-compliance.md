@@ -52,7 +52,6 @@ head:
 |                      | **Corée du Sud - KWCAG** | WCAG 2.1 AA        | ✅ Actif | En cours         |
 |                      | **Inde - RPwD Act**    | Standards nationaux | ✅ Actif | En cours         |
 
-<translated_markdown>
 ## 📍 Répartition régionale
 
 ### 🇺🇸 États-Unis

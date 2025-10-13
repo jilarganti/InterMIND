@@ -52,7 +52,6 @@ head:
 |                      | **韓国 - KWCAG** | WCAG 2.1 AA        | ✅ 有効 | 継続中         |
 |                      | **インド - RPwD Act**    | 国内標準 | ✅ 有効 | 継続中         |
 
-<translated_markdown>
 ## 📍 地域別詳細
 
 ### 🇺🇸 アメリカ合衆国

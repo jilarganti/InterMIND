@@ -53,7 +53,6 @@ head:
 |                      | **Korea Selatan - KWCAG** | WCAG 2.1 AA      | ✅ Aktif  | Berkelanjutan   |
 |                      | **India - RPwD Act**    | Standar nasional   | ✅ Aktif  | Berkelanjutan   |
 
-<translated_markdown>
 ## 📍 Rincian Regional
 
 ### 🇺🇸 Amerika Serikat

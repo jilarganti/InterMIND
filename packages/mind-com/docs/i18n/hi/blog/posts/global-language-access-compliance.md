@@ -53,7 +53,6 @@ head:
 |                      | **South Korea - KWCAG** | WCAG 2.1 AA        | ✅ सक्रिय | चालू         |
 |                      | **India - RPwD Act**    | राष्ट्रीय मानक | ✅ सक्रिय | चालू         |
 
-<translated_markdown>
 ## 📍 क्षेत्रीय विवरण
 
 ### 🇺🇸 संयुक्त राज्य अमेरिका

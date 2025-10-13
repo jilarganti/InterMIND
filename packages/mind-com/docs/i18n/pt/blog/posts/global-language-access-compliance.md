@@ -52,7 +52,6 @@ head:
 |                      | **Coreia do Sul - KWCAG** | WCAG 2.1 AA      | ✅ Ativo | Contínuo        |
 |                      | **Índia - RPwD Act**    | Padrões nacionais  | ✅ Ativo | Contínuo        |
 
-<translated_markdown>
 ## 📍 Divisão Regional
 
 ### 🇺🇸 Estados Unidos

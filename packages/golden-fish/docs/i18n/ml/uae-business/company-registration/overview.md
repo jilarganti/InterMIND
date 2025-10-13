@@ -237,8 +237,6 @@ UAE യോഗ്യരായ നിക്ഷേപകർക്കും, സം�
 
 :::details UAE Business Setup FAQ
 
-<translated_markdown>
-
 ## യു.എ.ഇ ബിസിനസ് സ്ഥാപന ചോദ്യോത്തരങ്ങൾ
 
 ### പൊതു ഉടമസ്ഥത ആവശ്യകതകൾ

@@ -235,8 +235,6 @@ UAE అర్హత కలిగిన ఇన్వెస్టర్లు, వ
 
 :::details UAE Business Setup FAQ
 
-<translated_markdown>
-
 ## UAE బిజినెస్ సెటప్ FAQ
 
 ### సాధారణ యజమాన్య అవసరాలు

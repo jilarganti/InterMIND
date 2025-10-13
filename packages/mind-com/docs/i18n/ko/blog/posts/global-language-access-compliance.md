@@ -53,7 +53,6 @@ head:
 |                      | **한국 - KWCAG** | WCAG 2.1 AA        | ✅ 활성 | 지속적         |
 |                      | **인도 - RPwD Act**    | 국가 표준 | ✅ 활성 | 지속적         |
 
-<translated_markdown>
 ## 📍 지역별 분석
 
 ### 🇺🇸 미국

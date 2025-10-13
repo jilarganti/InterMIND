@@ -53,7 +53,6 @@ head:
 |                      | **Corea del Sur - KWCAG** | WCAG 2.1 AA        | ✅ Activo | En curso         |
 |                      | **India - Ley RPwD**    | Estándares nacionales | ✅ Activo | En curso         |
 
-<translated_markdown>
 ## 📍 Desglose Regional
 
 ### 🇺🇸 Estados Unidos

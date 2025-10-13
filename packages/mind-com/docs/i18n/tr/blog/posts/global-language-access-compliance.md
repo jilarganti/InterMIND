@@ -52,7 +52,6 @@ head:
 |                      | **Güney Kore - KWCAG** | WCAG 2.1 AA        | ✅ Aktif | Devam ediyor    |
 |                      | **Hindistan - RPwD Act** | Ulusal standartlar | ✅ Aktif | Devam ediyor    |
 
-<translated_markdown>
 ## 📍 Bölgesel Dağılım
 
 ### 🇺🇸 Amerika Birleşik Devletleri

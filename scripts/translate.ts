@@ -232,6 +232,26 @@ function applyContentReplacements(content: string, langCode: string) {
   return modifiedContent
 }
 
+/**
+ * Removes translation wrapper tags from the content
+ * @param content - Content that may contain translation tags
+ * @returns Cleaned content without tags
+ */
+function removeTranslationTags(content: string): string {
+  // Remove opening and closing tags with any content between them
+  const match = content.match(/<translated_markdown>([\s\S]*)<\/translated_markdown>/)
+  if (match) {
+    return match[1].trim()
+  }
+  
+  // Fallback: remove any stray tags if regex didn't match
+  let cleaned = content
+    .replace(/<translated_markdown>/gi, "")
+    .replace(/<\/translated_markdown>/gi, "")
+  
+  return cleaned.trim()
+}
+
 async function translateWithOpenAI(content: string, targetLang: string, langCode: string, modelIndex: number = 0) {
   const completion = await openai.chat.completions.create({
     model: getModelName("gpt4", modelIndex),
@@ -240,8 +260,7 @@ async function translateWithOpenAI(content: string, targetLang: string, langCode
   })
 
   const result = completion.choices[0].message.content || ""
-  const match = result.match(/<translated_markdown>([\s\S]*)<\/translated_markdown>/)
-  return match ? match[1].trim() : result
+  return removeTranslationTags(result)
 }
 
 async function translateWithClaude(content: string, targetLang: string, langCode: string, modelIndex: number = 0) {
@@ -254,8 +273,7 @@ async function translateWithClaude(content: string, targetLang: string, langCode
 
   const contentBlock = message.content[0]
   const result = contentBlock.type === "text" ? contentBlock.text : ""
-  const match = result.match(/<translated_markdown>([\s\S]*)<\/translated_markdown>/)
-  return match ? match[1].trim() : result
+  return removeTranslationTags(result)
 }
 
 async function translateWithModel(model: string, content: string, targetLang: string, langCode: string, modelIndex: number = 0) {
@@ -271,14 +289,16 @@ async function translateWithModel(model: string, content: string, targetLang: st
       throw new Error(`Unknown model: ${model}`)
   }
 
-  return translatedContent.trim()
+  // Additional safety check to remove any remaining tags
+  return removeTranslationTags(translatedContent.trim())
 }
 
 async function translateMarkdown(content: string, currentModel: string, targetLang: string, langCode: string, modelIndex: number = 0) {
   if (!content.trim()) return content
 
   const translatedContent = await translateWithModel(currentModel, content, targetLang, langCode, modelIndex)
-  return translatedContent
+  // Final safety check before returning
+  return removeTranslationTags(translatedContent)
 }
 
 function splitByH2(content: string) {

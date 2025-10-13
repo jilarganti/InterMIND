@@ -138,8 +138,6 @@ hero:
 
 <ContactForm buttonText="ഒരു വിദഗ്ധനുമായി സംസാരിക്കുക" />
 
-<translated_markdown>
-
 ## പതിവുചോദ്യങ്ങൾ
 
 :::details UAE ബിസിനസ് സ്ഥാപന പതിവുചോദ്യങ്ങൾ
