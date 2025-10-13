@@ -22,7 +22,7 @@ Key rules:
   - table contents
   - diagram text elements
 
-4.  Заключай Title, Description frontmatter в двойные кавычки. Например, title: "Регистрация компании в Дубае".
+4.  Заключай Title, Description frontmatter в кавычки. Закрывай HTML теги!
 
 5. Экранируй языковые апострофы в строках (французский, украинский и другие).
 

@@ -496,8 +496,8 @@ head:
 
 ## ⏰ Critical Deadlines Timeline
 
-<img src="/blog/iStock-2203725394.jpg" alt="UAE dirham" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/iStock-2206387857.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/iStock-2203725394.jpg" alt="UAE dirham" width="500" align="right" style="padding: 1.5rem" class="dark-only"/>
+<img src="/blog/iStock-2206387857.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only"/>
 
 <div class="timeline">
   <div class="timeline-item past">
@@ -733,8 +733,8 @@ Include:
 
 ## 🔗 Official Resources
 
-<img src="/blog/iStock-491619000.jpg" alt="UAE dirham" width="700" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/iStock-501821118.jpg" alt="Emirates NBD" width="700" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/iStock-491619000.jpg" alt="UAE dirham" width="700" align="right" style="padding: 1.5rem" class="dark-only"/>
+<img src="/blog/iStock-501821118.jpg" alt="Emirates NBD" width="700" align="right" style="padding: 1.5rem" class="light-only"/>
 
 ### International Standards
 
@@ -770,8 +770,6 @@ Include:
 - [Japan WAIC](https://waic.jp/en/)
 - [New Zealand Digital Government](https://www.digital.govt.nz/standards-and-guidance/design-and-ux/accessibility/)
 
----
-
 ## 🚀 Next Steps
 
 <div class="cta-section">
@@ -785,13 +783,11 @@ Include:
 5. **Test thoroughly** with automated tools and real users
 6. **Document and maintain** your accessibility program
 
+</div>
+
 ::: tip Remember
 Accessibility is an ongoing commitment, not a one-time project. Laws evolve, technology changes, and user needs grow. Build accessibility into your culture and processes for long-term success.
 :::
-
-</div>
-
----
 
 <style scoped>
 .subtitle {
