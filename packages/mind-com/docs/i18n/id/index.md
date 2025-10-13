@@ -1,18 +1,19 @@
 ---
 layout: home
-title: "InterMIND: Terjemahan Suara Real-Time untuk Rapat Video"
+title: "InterMIND: Terjemahan Ucapan Real-Time untuk Rapat Video"
 description: "Konferensi video profesional dengan interpretasi simultan dalam 19+ bahasa. Terjemahan bertenaga AI yang menangkap nada, maksud, dan konteks. Bertemu secara global, berkomunikasi secara alami."
 isHome: true
 ---
 
-<!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
+<!-- <HeroSection title="Bertemu dalam Bahasa **Apa Pun**" :typingSpeed="10" text="Terjemahan ucapan langsung dalam panggilan video. Pemahaman instan, tanpa hambatan."> -->
 
 <HeroSection title="Pahami Bahasa **Apa Pun**" :typingSpeed="20" text="Interpretasi simultan selama rapat video. Hancurkan hambatan bahasa secara instan.">
 <NavButton buttonLabel="Tonton demo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="Asisten" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
-<span id="1"></span>
+## Terjemahan ≠ Pemahaman {#1}
+
 <FeatureBlock
     :card="{
       title: 'Terjemahan ≠ Pemahaman. Inilah yang selanjutnya.',
@@ -30,13 +31,14 @@ isHome: true
     }"
   />
 
-<span id="2"></span>
+## Pikiran dalam Rapat Anda {#2}
+
 <FeatureBlock
     :card="{
       title: 'Pikiran dalam Rapat Anda',
-      details: 'InterMIND mengubah setiap panggilan multibahasa menjadi pengetahuan yang jelas dan dapat dicari.',
+      details: 'InterMind mengubah setiap panggilan multibahasa menjadi pengetahuan yang jelas dan dapat dicari.',
       items: [
-        '✧ **Tanyakan apa saja** — AI menemukan jawaban **di seluruh rapat Anda**.',
+        '✧ **Tanya apa saja** — AI menemukan jawaban **di seluruh rapat Anda**.',
         '✧ Otomatis mengekstrak tugas, pemilik, dan tenggat waktu.',
         '✧ Merangkum poin-poin kunci dalam bahasa apa pun — secara instan.',
       ],
@@ -49,13 +51,14 @@ isHome: true
     }"
   />
 
-<span id="3"></span>
+## Dibangun untuk Rapat Serius {#3}
+
 <FeatureBlock
     :card="{
-      title: 'Dibangun untuk Rapat Serius — Bukan Hanya Berbicara',
-      details: 'InterMIND adalah [platform rapat video tingkat profesional](./product/overview/video-meeting-platform), bukan add-on atau plugin ringan.',
+      title: 'Dibangun untuk Rapat Serius — Bukan Hanya untuk Berbicara',
+      details: 'InterMind adalah [platform rapat video tingkat profesional](./product/overview/video-meeting-platform), bukan add-on ringan atau plugin.',
       items: [
-        '✧ Resolusi 1080p, penekan suara pintar, penjadwalan, moderasi, berbagi layar, perekaman, subtitle, chat peserta dan integrasi kalender — semua terintegrasi, **siap digunakan**.',
+        '✧ Resolusi 1080p, penekan suara pintar, penjadwalan, moderasi, berbagi layar, perekaman, subtitle, chat peserta dan integrasi kalender — semua sudah terintegrasi, **siap digunakan**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -66,12 +69,13 @@ isHome: true
     }"
   />
 
-<span id="4"></span>
+## Privasi di Tempat yang Penting {#4}
+
 <FeatureBlock
     :card="{
       title: 'Privasi di Tempat yang Penting',
-      details: 'InterMIND dibangun untuk percakapan kritis kepercayaan — di mana privasi dan kontrol paling penting.',
-      items: ['✧ [Zona Privasi](./product/overview/privacy-architecture) — EU, US, Asia Tenggara', '✧ **Nol pelatihan data**. Tidak ada akses pihak ketiga.'],
+      details: 'InterMind dibangun untuk percakapan yang memerlukan kepercayaan tinggi — di mana privasi dan kontrol sangat penting.',
+      items: ['✧ [Zona Privasi](./product/overview/privacy-architecture) — EU, US, Asia Tenggara', '✧ **Tanpa pelatihan data**. Tidak ada akses pihak ketiga.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -82,11 +86,9 @@ isHome: true
   />
 
 > **Untuk siapa ini?**  
-> _Dibangun untuk tim internasional di mana hambatan bahasa menyebabkan penundaan, kesepakatan yang hilang, atau kesalahpahaman yang mahal._ [Pelajari lebih lanjut ...](./product/overview/markets)
+> _Dibangun untuk tim internasional di mana hambatan bahasa menyebabkan keterlambatan, kehilangan kesepakatan, atau kesalahpahaman yang merugikan._ [Pelajari lebih lanjut ...](./product/overview/markets)
 
-<span id="HowItWorks"></span>
-
-## Bekerja Seperti Google Meet + Terjemahan Langsung
+## Bekerja Seperti Google Meet + Terjemahan Langsung {#HowItWorks}
 
 Antarmuka yang familiar. Komunikasi universal. Kemudahan yang sama seperti Google Meet — dengan terjemahan instan yang membuat hambatan bahasa menghilang.
 
@@ -118,7 +120,7 @@ Antarmuka yang familiar. Komunikasi universal. Kemudahan yang sama seperti Googl
       },
       {
         title: 'Berbicara dalam bahasa Anda',
-        details: 'Semua orang berbicara dan mendengar dalam bahasa mereka sendiri.',
+        details: 'Setiap orang berbicara dan mendengar dalam bahasa mereka sendiri.',
         icon: {
           light: '/meeting.png',
           dark: '/meeting.png',
@@ -129,12 +131,11 @@ Antarmuka yang familiar. Komunikasi universal. Kemudahan yang sama seperti Googl
 
 <!-- <br> -->
 
-<span id="VideoDemo"></span>
+## Demo Video {#VideoDemo}
+
 <VideoPlayer src="/promo/demo-en-mx.mp4" />
 
-<span id="Example"></span>
-
-## Contoh: Bagaimana terjemahan suara real-time bekerja dalam rapat
+## Contoh: Bagaimana terjemahan suara real-time bekerja dalam rapat {#Example}
 
 Katakanlah:
 
@@ -149,7 +150,7 @@ Setiap peserta **berbicara dan mendengar** dalam bahasa yang mereka pilih saat m
 Pengaturan bahasa tunggal ini berlaku untuk:
 
 - **Bahasa antarmuka**
-- **Input lisan** (apa yang Anda katakan)
+- **Input suara** (apa yang Anda katakan)
 - **Output terjemahan** (apa yang Anda dengar)
 
 | Peserta   | Bahasa yang Dipilih | Berbicara Dalam | Mendengar Dalam |
@@ -178,15 +179,11 @@ Mengubah ini berarti:
 > Ini mengontrol **bagaimana Anda berbicara**, **apa yang Anda dengar**, dan **apa yang Anda lihat**.  
 > Berbicara dalam satu bahasa dan mendengarkan dalam bahasa lain **tidak didukung** — secara desain, untuk menjaga pengalaman tetap sederhana dan dapat diprediksi.
 
-<span id="Testimonials"></span>
-
-## Apa Kata Pelanggan
+## Apa Kata Pelanggan {#Testimonials}
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-<span id="Pricing"></span>
-
-## Harga yang Jelas dan Sederhana
+## Harga yang Jelas dan Sederhana {#Pricing}
 
 Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
 
@@ -239,9 +236,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
 > 💡 **_Waktu Anda lebih baik digunakan untuk menguasai keahlian Anda — bukan menghafal tata bahasa._**  
 > 💡 **_Kemitraan sejati dimulai dengan percakapan yang nyata — dalam bahasa mereka._**
 
-## Pertanyaan yang Sering Diajukan
-
-<span id="FAQ"></span>
+## Pertanyaan yang Sering Diajukan {#FAQ}
 
 <AccordionGroup
     :items="[
@@ -250,7 +245,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
         a: 'InterMind mendukung **interpretasi real-time** dalam 19 bahasa berikut:<br><br>- العربية (ar) – Arab<br>- Čeština (cs) – Ceko<br>- Deutsch (de) – Jerman<br>- English (en) – Inggris<br>- Español (es) – Spanyol<br>- Français (fr) – Prancis<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Hungaria<br>- Italiano (it) – Italia<br>- 日本語 (ja) – Jepang<br>- 한국어 (ko) – Korea<br>- Nederlands (nl) – Belanda<br>- Polski (pl) – Polandia<br>- Português (pt) – Portugis<br>- Русский (ru) – Rusia<br>- Türkçe (tr) – Turki<br>- 中文 (zh) – Mandarin<br><br>Kami terus memperluas daftar ini — bahasa baru ditambahkan pada setiap rilis utama.',
       },
       {
-        q: 'Apa itu pengguna Berlisensi dan apa itu Peserta?',
+        q: 'Apa itu pengguna berlisensi dan apa itu peserta?',
         a: 'Seorang *pengguna berlisensi* memiliki lisensi meeting gratis atau berbayar dan dapat menjadwalkan meeting dalam batas paket mereka. *Peserta* adalah undangan — mereka **tidak memerlukan akun atau lisensi** untuk bergabung dan dapat terhubung dari perangkat apa pun **secara gratis**.',
       },
       {
@@ -267,7 +262,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
       },
       {
         q: 'Bagaimana InterMind memastikan privasi dan keamanan data?',
-        a: 'InterMind **privat by design**. Semua data diproses dan disimpan dalam **Privacy Zone** yang Anda pilih — _EU_, _US_, atau _Asia_. Kami mematuhi [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), dan UAE PDPL, dan **tidak pernah menggunakan konten Anda** untuk pelatihan atau akses pihak ketiga. Kontrol [Privacy Zone](./product/overview/privacy-architecture) lanjutan tersedia pada paket **Business**.',
+        a: 'InterMind **privat berdasarkan desain**. Semua data diproses dan disimpan dalam **Zona Privasi** yang Anda pilih — _EU_, _US_, atau _Asia_. Kami mematuhi [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), dan UAE PDPL, dan **tidak pernah menggunakan konten Anda** untuk pelatihan atau akses pihak ketiga. [Kontrol Zona Privasi](./product/overview/privacy-architecture) lanjutan tersedia pada paket **Business**.',
       },
       {
         q: 'Bisakah saya mencoba InterMind sebelum membeli paket?',
@@ -292,7 +287,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
       {
         title: 'PRODUK',
         links: [
-          { text: 'Gambaran Umum', link: './product/overview/what-is-intermind' },
+          { text: 'Ikhtisar', link: './product/overview/what-is-intermind' },
           { text: 'Memulai', link: './product/guide/getting-started' },
           { text: 'Testimoni', link: '#Testimonials' },
           { text: 'Harga', link: '#Pricing' },
@@ -306,14 +301,15 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
           { text: 'Kebijakan Privasi', link: './resources/company/privacy-policy' },
           { text: 'Panduan Hukum AI', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Status Layanan', link: 'https://status.mind.com/' },
-          // { text: 'Pengaturan Privasi', link: '#' },
+          // { text: 'Privacy Settings', link: '#' },
         ],
       },
       {
         title: 'SUMBER DAYA',
         links: [
           { text: 'Blog', link: './blog/' },
-          { text: 'Aset Brand', link: './resources/media-kit' },
+          { text: 'Kepatuhan Akses Bahasa Global', link: './blog/posts/global-language-access-compliance' },
+          { text: 'Aset Merek', link: './resources/media-kit' },
           { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],
       },

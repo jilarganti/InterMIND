@@ -5,21 +5,22 @@ description: "19개 이상 언어로 동시 통역이 가능한 전문 화상 �
 isHome: true
 ---
 
-<!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
+<!-- <HeroSection title="**모든** 언어로 만나세요" :typingSpeed="10" text="화상 통화에서 실시간 음성 번역. 즉시 이해, 장벽 없음."> -->
 
-<HeroSection title="**모든** 언어를 이해하세요" :typingSpeed="20" text="화상 회의 중 동시 통역. 언어 장벽을 즉시 해결합니다.">
+<HeroSection title="**모든** 언어를 이해하세요" :typingSpeed="20" text="화상 회의 중 동시 통역. 언어 장벽을 즉시 해결하세요.">
 <NavButton buttonLabel="데모 보기" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="어시스턴트" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
-<span id="1"></span>
+## 번역 ≠ 이해 {#1}
+
 <FeatureBlock
     :card="{
-      title: '번역 ≠ 이해. 다음 단계를 소개합니다.',
-      details: '언어에 관계없이 같은 언어를 사용하는 것처럼 당신의 목소리가 들리고 이해됩니다.',
+      title: '번역 ≠ 이해. 다음 단계는 무엇일까요.',
+      details: '언어에 관계없이, 마치 같은 언어를 사용하는 것처럼 당신의 목소리가 들리고 이해됩니다.',
       items: [
         '✧ 자연스럽게, [실시간으로](./product/overview/how-it-works), 자막이나 지연 없이.',
-        '✧ AI 기반 통역이 톤, 의도, 업계별 전문 용어를 파악합니다.',
+        '✧ AI 기반 통역이 어조, 의도, 업계별 전문 용어를 포착합니다.',
       ],
       link: './product/overview/what-is-intermind',
       src: {
@@ -30,15 +31,16 @@ isHome: true
     }"
   />
 
-<span id="2"></span>
+## 회의 속 마음 {#2}
+
 <FeatureBlock
     :card="{
-      title: '회의 속 지능',
-      details: 'InterMIND는 모든 다국어 통화를 명확하고 검색 가능한 지식으로 변환합니다.',
+      title: '회의 속 마음',
+      details: 'InterMind는 모든 다국어 통화를 명확하고 검색 가능한 지식으로 변환합니다.',
       items: [
-        '✧ **무엇이든 질문하세요** — AI가 **회의 전반에서** 답변을 찾습니다.',
+        '✧ **무엇이든 질문하세요** — AI가 **모든 회의에서** 답변을 찾아드립니다.',
         '✧ 작업, 담당자, 마감일을 자동으로 추출합니다.',
-        '✧ 핵심 사항을 모든 언어로 즉시 요약합니다.',
+        '✧ 핵심 포인트를 어떤 언어로든 즉시 요약합니다.',
       ],
       link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
       src: {
@@ -49,13 +51,14 @@ isHome: true
     }"
   />
 
-<span id="3"></span>
+## 진지한 회의를 위한 설계 {#3}
+
 <FeatureBlock
     :card="{
-      title: '진지한 회의를 위해 구축됨 — 단순한 대화가 아닌',
-      details: 'InterMIND는 가벼운 애드온이나 플러그인이 아닌 [전문급 화상 회의 플랫폼](./product/overview/video-meeting-platform)입니다.',
+      title: '진지한 회의를 위한 설계 — 단순한 대화가 아닌',
+      details: 'InterMind는 [전문급 화상 회의 플랫폼](./product/overview/video-meeting-platform)으로, 가벼운 애드온이나 플러그인이 아닙니다.',
       items: [
-        '✧ 1080p 해상도, 스마트 노이즈 억제, 일정 관리, 중재, 화면 공유, 녹화, 자막, 참가자 채팅 및 캘린더 통합 — 모든 기능이 내장되어 **바로 사용 가능**합니다.',
+        '✧ 1080p 해상도, 스마트 노이즈 억제, 일정 관리, 중재 기능, 화면 공유, 녹화, 자막, 참가자 채팅 및 캘린더 통합 — 모든 기능이 내장되어 **바로 사용 가능**합니다.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -66,12 +69,13 @@ isHome: true
     }"
   />
 
-<span id="4"></span>
+## 중요한 곳에서의 프라이버시 {#4}
+
 <FeatureBlock
     :card="{
-      title: '중요한 곳의 개인정보 보호',
-      details: 'InterMIND는 개인정보 보호와 통제가 가장 중요한 신뢰가 중요한 대화를 위해 구축되었습니다.',
-      items: ['✧ [프라이버시 존](./product/overview/privacy-architecture) — EU, US, 동남아시아', '✧ **데이터 학습 제로**. 제3자 접근 없음.'],
+      title: '중요한 곳에서의 프라이버시',
+      details: 'InterMind는 신뢰가 중요한 대화를 위해 구축되었습니다 — 프라이버시와 제어가 가장 중요한 곳에서.',
+      items: ['✧ [프라이버시 존](./product/overview/privacy-architecture) — EU, US, SE Asia', '✧ **데이터 훈련 제로**. 제3자 접근 없음.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -82,13 +86,11 @@ isHome: true
   />
 
 > **누구를 위한 것인가요?**  
-> _언어 장벽으로 인해 지연, 거래 실패, 비용이 많이 드는 오해가 발생하는 국제 팀을 위해 구축되었습니다._ [더 알아보기 ...](./product/overview/markets)
+> _언어 장벽으로 인해 지연, 거래 손실 또는 비용이 많이 드는 오해가 발생하는 국제 팀을 위해 구축되었습니다._ [더 알아보기 ...](./product/overview/markets)
 
-<span id="HowItWorks"></span>
+## Google Meet + 실시간 번역처럼 작동 {#HowItWorks}
 
-## Google Meet + 실시간 번역처럼 작동
-
-친숙한 인터페이스. 범용 커뮤니케이션. Google Meet과 같은 편리함 — 언어 장벽을 사라지게 하는 즉석 번역 기능과 함께.
+친숙한 인터페이스. 범용 커뮤니케이션. Google Meet과 같은 편리함 — 언어 장벽을 사라지게 하는 즉석 번역과 함께.
 
 <FeatureCards
     :features="[
@@ -109,8 +111,8 @@ isHome: true
         },
       },
       {
-        title: '회의 참여',
-        details: '링크를 클릭하고, 이름을 입력하고, 즉시 참여하세요.',
+        title: '회의 참가',
+        details: '링크를 클릭하고, 이름을 입력하고, 즉시 참가하세요.',
         icon: {
           light: '/join.png',
           dark: '/join.png',
@@ -129,12 +131,11 @@ isHome: true
 
 <!-- <br> -->
 
-<span id="VideoDemo"></span>
+## 비디오 데모 {#VideoDemo}
+
 <VideoPlayer src="/promo/demo-en-mx.mp4" />
 
-<span id="Example"></span>
-
-## 예시: 회의에서 실시간 음성 번역이 작동하는 방식
+## 예시: 회의에서 실시간 음성 번역이 작동하는 방식 {#Example}
 
 다음과 같은 상황을 가정해 보겠습니다:
 
@@ -178,15 +179,11 @@ isHome: true
 > 이는 **말하는 방식**, **듣는 내용**, **보는 내용**을 제어합니다.  
 > 한 언어로 말하고 다른 언어로 듣는 것은 **지원되지 않습니다** — 경험을 단순하고 예측 가능하게 유지하기 위한 의도적인 설계입니다.
 
-<span id="Testimonials"></span>
-
-## 고객들의 후기
+## 고객들의 후기 {#Testimonials}
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-<span id="Pricing"></span>
-
-## 명확하고 간단한 가격
+## 명확하고 간단한 가격 {#Pricing}
 
 첫 통화부터 유창한 대화까지 — 모든 규모에서.
 
@@ -197,7 +194,7 @@ isHome: true
         price: '**무료**',
         details: '신용카드 불필요',
         items: [
-          '**25**개 회의',
+          '**25**회 회의',
           '**100**명 참가자 화상 회의 [💬](#3)',
           '사용자당 **30** GB 공유 저장소',
           '모든 회의 검색 [💬](#2)',
@@ -219,7 +216,7 @@ isHome: true
       {
         title: '**비즈니스** &nbsp 100명 이상',
         price: '**맞춤형 가격**',
-        details: '개인정보 보호를 위해 설계',
+        details: '프라이버시를 위해 구축됨',
         items: [
           '**무제한** 회의',
           '**500**명 참가자 화상 회의 [💬](#3)',
@@ -236,26 +233,24 @@ isHome: true
 <ContactForm buttonText="팀과 상담하기" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_당신의 시간은 문법을 암기하는 것보다 전문 기술을 익히는 데 더 잘 쓰여야 합니다._**  
+> 💡 **_당신의 시간은 문법을 암기하는 것보다 기술을 익히는 데 더 잘 쓰여야 합니다._**  
 > 💡 **_진정한 파트너십은 진정한 대화에서 시작됩니다 — 그들의 언어로._**
 
-## 자주 묻는 질문
-
-<span id="FAQ"></span>
+## 자주 묻는 질문 {#FAQ}
 
 <AccordionGroup
     :items="[
       {
-        q: 'InterMind는 통역을 위해 어떤 언어를 지원하나요?',
-        a: 'InterMind는 다음 19개 언어로 **실시간 통역**을 지원합니다:<br><br>- العربية (ar) – 아랍어<br>- Čeština (cs) – 체코어<br>- Deutsch (de) – 독일어<br>- English (en) – 영어<br>- Español (es) – 스페인어<br>- Français (fr) – 프랑스어<br>- हिन्दी (hi) – 힌디어<br>- Magyar (hu) – 헝가리어<br>- Italiano (it) – 이탈리아어<br>- 日本語 (ja) – 일본어<br>- 한국어 (ko) – 한국어<br>- Nederlands (nl) – 네덜란드어<br>- Polski (pl) – 폴란드어<br>- Português (pt) – 포르투갈어<br>- Русский (ru) – 러시아어<br>- Türkçe (tr) – 터키어<br>- 中文 (zh) – 중국어<br><br>저희는 지속적으로 이 목록을 확장하고 있으며, 모든 주요 릴리스마다 새로운 언어가 추가됩니다.',
+        q: 'InterMind는 어떤 언어의 통역을 지원하나요?',
+        a: 'InterMind는 다음 19개 언어로 **실시간 통역**을 지원합니다:<br><br>- العربية (ar) – 아랍어<br>- Čeština (cs) – 체코어<br>- Deutsch (de) – 독일어<br>- English (en) – 영어<br>- Español (es) – 스페인어<br>- Français (fr) – 프랑스어<br>- हिन्दी (hi) – 힌디어<br>- Magyar (hu) – 헝가리어<br>- Italiano (it) – 이탈리아어<br>- 日本語 (ja) – 일본어<br>- 한국어 (ko) – 한국어<br>- Nederlands (nl) – 네덜란드어<br>- Polski (pl) – 폴란드어<br>- Português (pt) – 포르투갈어<br>- Русский (ru) – 러시아어<br>- Türkçe (tr) – 터키어<br>- 中文 (zh) – 중국어<br><br>저희는 지속적으로 이 목록을 확장하고 있으며, 주요 릴리스마다 새로운 언어가 추가됩니다.',
       },
       {
-        q: '라이선스 사용자와 참가자는 무엇인가요?',
-        a: '*라이선스 사용자*는 무료 또는 유료 회의 라이선스를 보유하고 있으며 플랜 한도 내에서 회의를 예약할 수 있습니다. *참가자*는 초대받은 사람들로, 참여하기 위해 **계정이나 라이선스가 필요하지 않으며** 어떤 기기에서든 **무료로** 연결할 수 있습니다.',
+        q: '라이선스 사용자와 참가자의 차이점은 무엇인가요?',
+        a: '*라이선스 사용자*는 무료 또는 유료 회의 라이선스를 보유하고 있으며 플랜 한도 내에서 회의를 예약할 수 있습니다. *참가자*는 초대받은 사람들로, 회의에 참여하기 위해 **계정이나 라이선스가 필요하지 않으며** 어떤 기기에서든 **무료로** 연결할 수 있습니다.',
       },
       {
         q: '한 개의 InterMind 라이선스로 몇 명이 사용할 수 있나요?',
-        a: '각 *라이선스 사용자*는 **무제한 회의**를 주최할 수 있습니다. 여러 팀원이 동시에 회의를 주최해야 하는 경우, 각자 자신만의 라이선스가 필요합니다.',
+        a: '각 *라이선스 사용자*는 **무제한 회의**를 주최할 수 있습니다. 여러 팀원이 동시에 회의를 주최해야 하는 경우, 각자 고유한 라이선스가 필요합니다.',
       },
       {
         q: '회의의 최대 지속 시간은 얼마나 되나요?',
@@ -271,11 +266,11 @@ isHome: true
       },
       {
         q: '플랜을 구매하기 전에 InterMind를 체험해볼 수 있나요?',
-        a: '물론입니다. *Free Basic* 플랜은 **25회의 무료 회의**와 함께 **동시 통역** 및 **회의 검색**을 포함한 핵심 기능에 대한 완전한 액세스를 제공합니다. 신용카드는 필요하지 않습니다. 언제든지 업그레이드할 수 있습니다.',
+        a: '물론입니다. *Free Basic* 플랜으로 **25회의 무료 회의**를 포함하여 **동시 통역** 및 **회의 검색** 등 핵심 기능에 완전히 액세스할 수 있습니다. 신용카드는 필요하지 않습니다. 언제든지 업그레이드할 수 있습니다.',
       },
       {
         q: '도움이나 지원이 필요하면 어떻게 하나요?',
-        a: '[도움말 센터](./resources/help)를 통해 지원을 받을 수 있습니다. *Business* 사용자는 전담 연락처를 통한 **우선 지원**을 받습니다.',
+        a: '[도움말 센터](./resources/help)를 통해 지원을 받을 수 있습니다. *Business* 사용자는 전담 연락처를 통해 **우선 지원**을 받습니다.',
       },
       {
         q: '구독을 어떻게 관리하나요(업그레이드, 다운그레이드 또는 취소)?',
@@ -313,6 +308,7 @@ isHome: true
         title: '리소스',
         links: [
           { text: '블로그', link: './blog/' },
+          { text: '글로벌 언어 접근성 규정 준수', link: './blog/posts/global-language-access-compliance' },
           { text: '브랜드 자료', link: './resources/media-kit' },
           { text: 'AI API / LLM 문서', link: 'https://mind.com/llms-full.txt' },
         ],

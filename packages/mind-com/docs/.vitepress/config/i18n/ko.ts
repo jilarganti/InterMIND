@@ -6,7 +6,7 @@ const BASE_PATH = "/ko"
 
 export const ko = defineConfig({
   description:
-    "19개 이상의 언어로 동시 통역을 제공하는 전문 화상 회의. 글로벌 팀을 위해 톤, 의도, 맥락을 파악하는 AI 기반 번역.",
+    "19개 이상의 언어로 동시 통역을 제공하는 전문 화상 회의. 글로벌 팀을 위한 톤, 의도, 맥락을 파악하는 AI 기반 번역.",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | 글로벌 팀을 위한 실시간 음성 번역" }],
     [
@@ -36,6 +36,7 @@ export const ko = defineConfig({
         items: [
           { text: "자주 묻는 질문", link: `${BASE_PATH}/#FAQ` },
           { text: "고객 후기", link: `${BASE_PATH}/#Testimonials` },
+          { text: "회사 소개", link: `${BASE_PATH}/resources/company/about` },
         ],
       },
     ],
@@ -130,14 +131,6 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "AI 법적 가이드", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
-    // {
-    //   text: "리소스",
-    //   collapsed: false,
-    //   items: [
-    //     { text: "브랜드 자산", link: "/media-kit" },
-    //     // { text: "계정 관리", link: "guide/account-management" },
-    //   ],
-    // },
     {
       text: "회사",
       collapsed: false,

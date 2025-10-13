@@ -1,567 +1,783 @@
-# Traduction vs Interprétation : Quelle est la différence ?
+---
+title: "Traduction vs interprétation : quelle est la différence ?"
+description: Un guide clair et visuel pour comprendre quand vous avez besoin de services de traduction par rapport aux services d\'interprétation pour vos besoins de communication multilingue.
+head:
+  - - meta
+    - name: keywords
+      content: traduction, interprétation, services linguistiques, communication multilingue
+---
+
+# Traduction vs interprétation : quelle est la différence ?
+
+<p class="subtitle">Choisir le bon service linguistique pour vos besoins</p>
+
+> **La différence fondamentale :**  
+> **La traduction** travaille avec le texte écrit. **L\'interprétation** traite la langue parlée en temps réel.
+
+## Comparaison rapide
+
+<div class="comparison-hero">
+  <div class="hero-card translation">
+    <div class="hero-icon">📄</div>
+    <h3>Traduction</h3>
+    <p class="hero-tagline">Écrite • Réfléchie • Peaufinée</p>
+    <ul class="hero-features">
+      <li>Travaille avec le texte</li>
+      <li>Temps pour la recherche</li>
+      <li>Révisions multiples</li>
+      <li>Résultat permanent</li>
+    </ul>
+  </div>
+  
+  <div class="vs-divider">VS</div>
+  
+  <div class="hero-card interpretation">
+    <div class="hero-icon">🗣️</div>
+    <h3>Interprétation</h3>
+    <p class="hero-tagline">Parlée • Temps réel • Dynamique</p>
+    <ul class="hero-features">
+      <li>Traite la parole</li>
+      <li>Livraison instantanée</li>
+      <li>Pas de seconde chance</li>
+      <li>Performance en direct</li>
+    </ul>
+  </div>
+</div>
+
+## Traduction : Le Mot Écrit
+
+<div class="service-section">
+
+### Qu'est-ce que la Traduction ?
+
+Convertir du contenu écrit d'une langue à une autre tout en préservant le sens, le ton et les nuances culturelles. Pensez : documents, sites web, livres.
+
+### Caractéristiques Clés
+
+<div class="features-grid">
+  <div class="feature-box">
+    <strong>⏱️ Temps de Perfection</strong>
+    <p>Des jours ou des semaines pour rechercher, réviser et peaufiner</p>
+  </div>
+  <div class="feature-box">
+    <strong>🎯 Précision Requise</strong>
+    <p>Tolérance zéro pour les erreurs dans les contextes juridiques/médicaux</p>
+  </div>
+  <div class="feature-box">
+    <strong>🌍 Adaptation Culturelle</strong>
+    <p>Ajuste les expressions idiomatiques, l'humour et les références culturelles</p>
+  </div>
+  <div class="feature-box">
+    <strong>💻 Assistée par la Technologie</strong>
+    <p>Utilise les outils TAO, mémoires de traduction, glossaires</p>
+  </div>
+</div>
+
+### Types de Traduction Courants
+
+| Type               | Exemples                              | Priorité           |
+| ------------------ | ------------------------------------- | ------------------ |
+| **Littéraire**     | Livres, poésie, pièces de théâtre     | Voix artistique    |
+| **Technique**      | Manuels, spécifications               | Précision          |
+| **Juridique**      | Contrats, brevets                     | Zéro ambiguïté     |
+| **Médicale**       | Essais cliniques, dossiers patients   | Sécurité du patient|
+| **Marketing**      | Publicités, slogans, campagnes        | Impact émotionnel  |
+| **Localisation**   | Sites web, logiciels, applications    | Adaptation culturelle |
+
+</div>
+
+## Interprétation : La parole en direct
+
+<div class="service-section">
+
+### Qu'est-ce que l'interprétation ?
+
+Conversion orale en temps réel de la langue parlée. Pensez : conférences, consultations médicales, réunions d'affaires.
+
+### Caractéristiques principales
+
+<div class="features-grid">
+  <div class="feature-box">
+    <strong>⚡ Livraison instantanée</strong>
+    <p>Pas de pause, pas de recherche, pas de révisions</p>
+  </div>
+  <div class="feature-box">
+    <strong>🧠 Charge cognitive</strong>
+    <p>Attention partagée : écouter, traiter, parler simultanément</p>
+  </div>
+  <div class="feature-box">
+    <strong>🎤 Performance publique</strong>
+    <p>Articulation claire, confiance, endurance</p>
+  </div>
+  <div class="feature-box">
+    <strong>👥 Approche d'équipe</strong>
+    <p>Les interprètes alternent toutes les 20-30 minutes</p>
+  </div>
+</div>
 
-Dans notre monde de plus en plus interconnecté, abattre les barrières linguistiques n\'a jamais été aussi crucial. Que vous développiez votre entreprise à l\'échelle mondiale, assistiez à des conférences internationales, ou essayiez simplement de communiquer à travers les cultures, vous avez probablement rencontré des services de traduction et d\'interprétation. Mais voici le point important : bien que de nombreuses personnes utilisent ces termes de manière interchangeable, ce sont en réalité des professions distinctes nécessitant des compétences, des outils et des approches entièrement différents.
+### Méthodes d'interprétation
 
-Comprendre la différence entre la traduction et l\'interprétation n\'est pas seulement de la curiosité académique—c\'est une connaissance essentielle pour quiconque travaille dans les affaires internationales, la santé, le droit, ou tout domaine où la communication multilingue compte. Plongeons en profondeur dans ce qui distingue ces deux services linguistiques et pourquoi choisir le bon peut faire ou défaire vos efforts de communication.
+<div class="methods-grid">
 
-## La différence fondamentale : écrit vs. oral
+<div class="method-card simultaneous">
+  <h4>🎧 Simultanée</h4>
+  <p><strong>Quand :</strong> Grandes conférences, réunions de l'ONU</p>
+  <p><strong>Comment :</strong> L'interprète parle pendant que la source continue</p>
+  <p><strong>Besoins :</strong> Cabines, casques, équipement</p>
+</div>
 
-<img src="/product/iStock-1006678326.jpg" width="700" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/product/iStock-491618768.jpg"  width="700" align="right" style="padding: 1.5rem" class="light-only">
+<div class="method-card consecutive">
+  <h4>✋ Consécutive</h4>
+  <p><strong>Quand :</strong> Réunions d'affaires, procédures judiciaires</p>
+  <p><strong>Comment :</strong> L'orateur fait une pause pour l'interprétation</p>
+  <p><strong>Besoins :</strong> Système de prise de notes, plus de temps</p>
+</div>
 
-Au fond, la distinction est simple : **la traduction traite du texte écrit**, tandis que **l\'interprétation gère la langue parlée**. Pensez-y de cette façon : lorsque vous lisez un roman écrit à l\'origine en français mais maintenant disponible en anglais, c\'est de la traduction. Lorsque vous regardez une assemblée de l\'ONU où les délégués parlent différentes langues mais où tout le monde comprend grâce à la conversion en temps réel, c\'est de l\'interprétation.
+<div class="method-card whispered">
+  <h4>🤫 Chuchotée (Chuchotage)</h4>
+  <p><strong>Quand :</strong> 1-2 auditeurs seulement</p>
+  <p><strong>Comment :</strong> Chuchote la traduction aux individus</p>
+  <p><strong>Besoins :</strong> Pas d'équipement, physiquement exigeant</p>
+</div>
 
-Cette différence de base peut sembler simple, mais elle entraîne de nombreuses variations dans la façon dont ces professionnels travaillent, les compétences dont ils ont besoin et les défis auxquels ils font face.
+<div class="method-card remote">
+  <h4>💻 À distance (Vidéo/Téléphone)</h4>
+  <p><strong>Quand :</strong> Santé, juridique, distance</p>
+  <p><strong>Comment :</strong> Interprétation par vidéo/téléphone</p>
+  <p><strong>Besoins :</strong> Technologie stable, audio clair</p>
+</div>
 
-## Qu'est-ce que la traduction ? L'art de la conversion du langage écrit
+</div>
 
-La traduction est le processus de conversion d'un contenu écrit d'une langue (la source) vers une autre (la cible) tout en préservant le sens, le ton, le style et les nuances culturelles. C'est un processus méthodique qui permet la recherche, la révision et le perfectionnement.
+</div>
 
-### Caractéristiques clés de la traduction
+## Compétences : Non interchangeables
 
-**Le temps pour la perfection** : Les traducteurs travaillent généralement avec des délais mesurés en jours ou en semaines, pas en secondes. Cela leur permet de :
+<div class="skills-comparison">
 
-- Rechercher la terminologie spécialisée
-- Consulter des matériaux de référence et des dictionnaires
-- Réviser et corriger leur travail plusieurs fois
-- Collaborer avec des éditeurs et des correcteurs
-- Assurer la cohérence dans de longs documents
+<div class="skills-column translator-skills">
 
-**Précision et finition** : Puisque le produit final est permanent et souvent publié, les traductions doivent être méticuleusement précises. Une seule erreur de traduction dans un contrat légal ou un document médical peut avoir des conséquences graves.
+### 📝 Compétences du traducteur
 
-**Adaptation culturelle** : Les traducteurs ne convertissent pas seulement les mots ; ils adaptent le contenu pour différents contextes culturels. Cela inclut l'ajustement des idiomes, métaphores, humour et références culturelles pour résonner avec le public cible.
+- Excellente capacité rédactionnelle
+- Maîtrise de la recherche
+- Attention aux détails
+- Gestion du temps
+- Expertise des outils TAO
+- Connaissance du domaine d\'expertise
 
-### Types de services de traduction
+</div>
 
-L'industrie de la traduction englobe diverses spécialisations, chacune avec des exigences uniques :
+<div class="skills-column interpreter-skills">
 
-**Traduction littéraire**
+### 🎯 Compétences de l\'interprète
 
-- Romans, poésie, pièces de théâtre et œuvres créatives
-- Nécessite une sensibilité artistique pour préserver la voix de l'auteur
-- Équilibre la précision littérale avec l'expression créative
-- Peut prendre des mois ou des années pour un seul livre
+- Capacité d\'attention partagée
+- Gestion du stress
+- Intelligence culturelle
+- Endurance physique
+- Improvisation rapide
+- Techniques de mémorisation
 
-**Traduction technique**
+</div>
 
-- Manuels d'utilisation, spécifications d'ingénierie, articles scientifiques
-- Exige une expertise du domaine
-- Privilégie la précision et la clarté plutôt que le style
-- Utilise souvent des bases de données terminologiques spécialisées
+</div>
 
-**Traduction juridique**
+## Impact technologique
 
-- Contrats, brevets, documents judiciaires, législation
-- Nécessite des connaissances juridiques dans les juridictions source et cible
-- Tolérance zéro pour l'ambiguïté ou l'erreur
-- Nécessite souvent des traducteurs certifiés
+<div class="tech-section">
 
-**Traduction médicale**
+### 🤖 Pour la traduction
 
-- Essais cliniques, dossiers patients, documentation pharmaceutique
-- Combine l'expertise médicale avec les compétences linguistiques
-- Soumise à des exigences réglementaires strictes
-- Peut directement impacter la sécurité des patients
+<img src="/product/iStock-491618768.jpg" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/product/iStock-491618768.jpg"  width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-**Traduction marketing (transcréation)**
+**Traduction automatique (TA)**
 
-- Campagnes publicitaires, messages de marque, slogans
-- Va au-delà de la traduction littérale pour recréer l'impact émotionnel
-- Peut complètement réinventer le contenu pour les marchés locaux
-- Se concentre sur la persuasion et la cohérence de marque
+- Google Translate, DeepL, GPT-4
+- Idéale pour la compréhension générale, l\'usage informel
+- Nécessite une post-édition humaine professionnelle
+- Difficultés avec le contexte et les nuances
 
-**Localisation de sites web et logiciels**
+**Outils de TAO**
 
-- Interfaces utilisateur, documentation d'aide, contenu web
-- S'adapte aux conventions locales (dates, devises, mesures)
-- Considère les contraintes techniques (expansion du texte, encodage des caractères)
-- Inclut l'adaptation culturelle des images et couleurs
+- Mémoires de traduction pour la cohérence
+- Gestion terminologique
+- Contrôles d\'assurance qualité
+- Collaboration d\'équipe
 
-## Qu'est-ce que l'interprétation ? Le défi de la conversion linguistique en temps réel
+### 🎙️ Pour l'interprétation
 
-L'interprétation est la traduction orale d'une langue parlée en temps réel ou quasi temps réel. Elle exige des interprètes qu'ils traitent, comprennent et transmettent des messages instantanément, sans le luxe des dictionnaires ou d'une seconde chance. La charge cognitive de l'interprétation simultanée a été comparée à celle des contrôleurs aériens—nécessitant une concentration intense soutenue et des capacités multitâches extraordinaires.
-
-### Caractéristiques clés de l'interprétation
-
-**Livraison immédiate** : Les interprètes travaillent dans l'instant, sans possibilité de faire une pause, de rechercher ou de réviser. Ils doivent :
-
-- Traiter l'information tout en écoutant un nouveau contenu
-- Prendre des décisions instantanées sur le choix des mots
-- Maintenir le rythme et le flux de l'orateur
-- Gérer les accents, dialectes et variations de parole
-- Gérer les difficultés techniques ou la mauvaise qualité audio
-
-**Écoute active et mémoire** : Les interprètes emploient des techniques d'écoute sophistiquées et des stratégies de mémorisation pour capturer non seulement les mots mais les intentions, émotions et signaux non verbaux.
-
-**Compétences en prise de parole publique** : Contrairement aux traducteurs qui travaillent dans l'ombre, les interprètes performent souvent dans des environnements publics à haute pression, nécessitant confiance, articulation claire et présence professionnelle.
-
-**Endurance physique** : L'interprétation est physiquement exigeante, nécessitant une concentration soutenue et souvent de rester debout ou assis dans des positions inconfortables pendant de longues périodes. L'épuisement mental dû au maintien d'une concentration si intense explique pourquoi les interprètes simultanés travaillent généralement en binômes, alternant toutes les 20-30 minutes.
-
-### Types de services d'interprétation
-
-Différentes situations appellent différentes approches d'interprétation :
-
-**Interprétation simultanée**
-
-- L'interprète parle pendant que l'orateur source continue
-- Courante lors de grandes conférences, réunions de l'ONU, Parlement européen
-- Nécessite un équipement spécialisé (cabines, casques, transmetteurs)
-- Les interprètes travaillent généralement en binômes, alternant toutes les 20-30 minutes
-- Exige une concentration extraordinaire et des capacités multitâches
-
-**Interprétation consécutive**
-
-- L'orateur fait des pauses après des segments pour l'interprétation
-- Utilisée dans les réunions d'affaires, procédures légales, consultations médicales
-- L'interprète prend des notes en utilisant des systèmes de notation spécialisés
-- Permet la clarification et une plus grande précision
-- Plus chronophage mais souvent plus précise
-
-**Interprétation chuchotée (Chuchotage)**
-
-- L'interprète chuchote la traduction à un ou deux auditeurs
-- Utilisée quand seuls quelques participants ont besoin d'interprétation
-- Aucun équipement requis mais physiquement exigeante
-- Limitée aux petits groupes en raison des contraintes de volume
-
-**Interprétation relais**
-
-- Utilisée quand aucun interprète direct n'existe entre deux langues
-- L'interprétation passe par une langue intermédiaire
-- Courante dans les environnements multilingues avec des combinaisons de langues rares
-- Nécessite une coordination exceptionnelle entre interprètes
-
-**Interprétation à distance (Vidéo/Téléphone)**
-
-- De plus en plus populaire post-pandémie
-- Utilisée dans les environnements de santé, juridiques et d'affaires
-- Présente des défis uniques (problèmes technologiques, manque de signaux visuels)
-- Permet l'accès aux interprètes pour les langues rares
-
-**Interprétation communautaire**
-
-- Sert les communautés locales dans les hôpitaux, écoles, services sociaux
-- Implique souvent des populations vulnérables
-- Nécessite des compétences de médiation culturelle
-- Les interprètes peuvent avoir besoin d'expliquer les différences culturelles
-
-## Parcours éducatifs et développement professionnel
-
-Les parcours éducatifs pour les traducteurs et les interprètes, bien qu\'ils se chevauchent dans certains domaines, divergent souvent en fonction des compétences spécifiques que chaque profession exige.
-
-### Formation pour les traducteurs
-
-De nombreux traducteurs détiennent des diplômes en études de traduction, en linguistique ou en langues modernes. Cependant, l\'expertise dans un domaine spécialisé est tout aussi précieuse—un traducteur spécialisé dans les textes médicaux pourrait avoir une formation en médecine ou en sciences de la vie, tandis qu\'un traducteur juridique pourrait avoir étudié le droit.
-
-Les programmes de traduction se concentrent généralement sur :
-
-- La théorie de la traduction et la stylistique comparée
-- La gestion terminologique et les outils de TAO
-- Divers types et genres de textes
-- Les aspects commerciaux de la traduction freelance
-- Les techniques de post-édition de traduction automatique
-
-### Formation pour les interprètes
-
-Les programmes de formation d\'interprètes se concentrent fortement sur le développement de compétences pratiques à travers des exercices intensifs :
-
-- **Shadowing vocal** : Répéter ce que disent les orateurs dans la même langue pour développer l\'attention partagée
-- **Traduction à vue** : Traduire oralement des textes écrits sur le moment
-- **Exercices de mémoire** : Développer la capacité à retenir et rappeler de grandes quantités d\'informations
-- **Systèmes de prise de notes** : Développer une sténographie personnelle pour l\'interprétation consécutive
-- **Conférences simulées** : S\'exercer dans des environnements professionnels simulés
-
-Les étudiants passent d\'innombrables heures dans les laboratoires d\'interprétation, développant leur endurance et les capacités cognitives uniques requises pour la conversion linguistique en temps réel.
-
-## Normes professionnelles et certification
-
-La traduction et l\'interprétation ont établi des normes de qualité et des certifications professionnelles qui garantissent l\'excellence du service :
-
-### Normes de qualité de traduction
-
-**Certifications ISO**
-
-- **ISO 17100:2015** : Spécifie les exigences pour les prestataires de services de traduction, incluant la compétence du traducteur, le processus de production et l\'assurance qualité
-- **ISO 18587:2017** : Couvre la post-édition de la traduction automatique, établissant des normes pour ce domaine de service en croissance
-
-**Métriques de qualité**
-La qualité de traduction professionnelle est mesurée à travers cinq dimensions clés :
-
-- **Exactitude** : Transfert correct de l\'information sans omissions ni ajouts
-- **Fluidité** : Expression naturelle dans la langue cible qui se lit de manière fluide
-- **Terminologie** : Utilisation cohérente de termes techniques appropriés
-- **Style** : Registre approprié, ton et respect des guides de style
-- **Formatage** : Maintien de la mise en page, structure et présentation visuelle
-
-**Processus de révision**
-Une traduction de qualité implique généralement plusieurs étapes :
-
-1. Traduction initiale par un traducteur qualifié
-2. Révision par un second linguiste comparant source et cible
-3. Relecture du texte cible final
-4. Révision par un expert du domaine pour le contenu spécialisé
-5. Contrôles finaux d\'assurance qualité
-
-## Guide de référence rapide des normes ISO
-
-| **Norme**          | **Nom complet**                                              | **Application**                                       | **Exigences clés**                                                                                                                              | **Qui en a besoin**                                                                                 |
-| ------------------ | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
-| **ISO 17100:2015** | Services de traduction — Exigences relatives aux services de traduction | Tous les projets de traduction                       | • Traducteurs qualifiés<br>• Processus de production défini<br>• Révision par un second linguiste<br>• Relecture finale<br>• Protocoles de gestion de projet | Agences de traduction, Départements de traduction d\'entreprise, Traducteurs indépendants cherchant une certification |
-| **ISO 18587:2017** | Post-édition de la traduction automatique                   | Projets TA + Post-édition humaine                    | • Qualifications du post-éditeur<br>• Définitions de la post-édition complète vs. légère<br>• Critères d\'évaluation de la qualité<br>• Accord client sur l\'utilisation de la TA | Entreprises utilisant la TA, PSL offrant des services PEMT, Entreprises technologiques avec flux de travail TA |
-| **ISO 20771:2020** | Traduction juridique — Exigences                            | Traduction de documents juridiques                   | • Exigences de connaissances juridiques<br>• Révision par un expert juridique<br>• Protocoles de confidentialité<br>• Procédures de certification | Traducteurs juridiques, Cabinets d\'avocats, Cours et tribunaux, Agences gouvernementales         |
-| **ISO 13611:2014** | Interprétation — Lignes directrices pour l\'interprétation communautaire | Contextes de santé, services sociaux, communauté juridique | • Compétences de l\'interprète<br>• Code de déontologie<br>• Lignes directrices de médiation culturelle<br>• Conditions de travail | Hôpitaux et cliniques, Agences de services sociaux, Organisations communautaires, Systèmes judiciaires |
-| **ISO 23155:2022** | Interprétation de conférence — Exigences et recommandations | Interprétation de conférence et simultanée           | • Composition de l\'équipe<br>• Spécifications des cabines<br>• Normes d\'équipement<br>• Limites de temps de travail | Organisateurs de conférences, Organisations internationales, Prestataires de services d\'interprétation |
-| **ISO 20228:2019** | Interprétation juridique — Exigences                        | Procédures judiciaires et juridiques                 | • Connaissances juridiques<br>• Exigences d\'impartialité<br>• Normes de précision<br>• Conduite professionnelle | Interprètes judiciaires, Services d\'interprétation juridique, Départements de la justice         |
-| **ISO 21998:2020** | Interprétation médicale/de santé                            | Contextes médicaux et de santé                       | • Connaissance de la terminologie médicale<br>• Protocoles de sécurité des patients<br>• Confidentialité (HIPAA)<br>• Compétence culturelle | Établissements de santé, Interprètes médicaux, Prestataires de télésanté                           |
-| **ISO 20539:2017** | Technologie de traduction — Vocabulaire                     | Technologie et outils                                | • Terminologie standardisée<br>• Classifications d\'outils<br>• Définitions de processus                                                      | Développeurs d\'outils TAO, Technologues de traduction, Départements informatiques PSL             |
-
-### Comment utiliser ce tableau :
-
-**Pour les clients :**
-
-- Vérifiez si votre prestataire de services linguistiques détient les certifications ISO pertinentes
-- Comprenez quelles garanties de qualité chaque norme fournit
-- Faites correspondre les besoins de votre projet avec les normes appropriées
-
-**Pour les prestataires de services linguistiques :**
-
-- Identifiez quelles certifications s\'alignent avec vos offres de services
-- Comprenez les exigences de conformité pour chaque norme
-- Utilisez les certifications comme différenciateurs concurrentiels
-
-**Pour les professionnels individuels :**
-
-- Sachez quelles normes s\'appliquent à votre spécialisation
-- Comprenez les attentes de qualité dans votre domaine
-- Utilisez les normes comme guides de développement professionnel
-
-### Notes importantes :
-
-- **La certification ISO est volontaire** mais de plus en plus attendue pour les services professionnels
-- **Les coûts varient** de 5 000 à 50 000 $ selon la taille de l\'organisation et la norme
-- **Des audits annuels** sont requis pour maintenir la certification
-- **Toutes les normes ne sont pas disponibles dans tous les pays** - vérifiez auprès de votre organisme national de normalisation
-- **La combinaison de normes** (par ex., 17100 + 18587) fournit une couverture qualité complète
-
-### Programmes de certification en interprétation
-
-**États-Unis**
-
-- **Certification des tribunaux fédéraux** : Pour les interprètes espagnols dans les tribunaux fédéraux
-- **Certification des tribunaux d\'État** : Varie selon l\'État, couvrant plusieurs langues
-- **CCHI (Commission de certification pour les interprètes de santé)** : Certification nationale d\'interprétation de santé
-- **NBCMI (Conseil national de certification pour les interprètes médicaux)** : Accréditation alternative d\'interprétation médicale
-
-**International**
-
-- **AIIC (Association internationale des interprètes de conférence)** : Établit les normes mondiales pour l\'interprétation de conférence, y compris les conditions de travail, la composition des équipes et l\'éthique professionnelle
-- **Systèmes d\'accréditation nationaux** : De nombreux pays ont leurs propres programmes de certification pour les interprètes communautaires et de service public
-
-## L'écart de compétences : pourquoi les traducteurs et les interprètes ne sont pas interchangeables
-
-Bien que les deux professions exigent une expertise linguistique, les compétences spécifiques nécessaires diffèrent considérablement :
-
-### Compétences du traducteur
-
-**Excellence rédactionnelle** : Les traducteurs doivent écrire magnifiquement dans leur langue cible, avec une grammaire parfaite, un style approprié et un flux naturel. Ce sont essentiellement des écrivains qui travaillent à partir de textes sources.
-
-**Maîtrise de la recherche** : La capacité de trouver et vérifier rapidement la terminologie, d\'enquêter sur les références culturelles et de devenir des mini-experts dans des domaines spécialisés.
-
-**Attention aux détails** : Saisir chaque nuance, vérifier chaque fait, assurer la cohérence sur des centaines de pages.
-
-**Gestion du temps** : Équilibrer la qualité avec les délais, gérer de grands projets, coordonner avec les équipes.
-
-**Compétences technologiques** : Maîtrise des outils de TAO, des mémoires de traduction, des bases de données terminologiques et des conversions de formats de fichiers.
-
-### Compétences de l'interprète
-
-**Attention partagée** : La capacité cognitive d\'écouter, traiter et parler simultanément—comme se tapoter la tête tout en se frotter le ventre, mais infiniment plus complexe.
-
-**Gestion du stress** : Rester calme et concentré dans des situations de haute pression, récupérer avec grâce des erreurs.
-
-**Intelligence culturelle** : Lire l\'atmosphère, comprendre la communication non verbale, médier les malentendus culturels.
-
-**Endurance physique** : L\'interprétation est physiquement exigeante, nécessitant une concentration soutenue et souvent de rester debout ou assis dans des positions inconfortables pendant de longues périodes.
-
-**Improvisation** : Gérer les situations inattendues, les pannes techniques ou les orateurs qui s\'écartent des textes préparés.
-
-## L'impact révolutionnaire de la technologie
-
-La révolution numérique a transformé à la fois la traduction et l'interprétation, mais de manières différentes :
-
-### IA et traduction automatique
-
-**Traduction automatique neuronale (NMT)**
-
-- Systèmes comme Google Translate, DeepL et les solutions basées sur GPT-4
-- Qualité considérablement améliorée ces dernières années
-- Excellente pour la compréhension générale et la communication informelle
-- Nécessite encore une post-édition humaine pour un usage professionnel
-- Difficultés avec le contexte, l'humour et les nuances culturelles
-
-**Outils de traduction assistée par ordinateur (CAT)**
-
-- Logiciels qui aident les traducteurs humains à travailler plus efficacement
-- Les mémoires de traduction stockent les traductions précédentes pour réutilisation
-- La gestion terminologique assure la cohérence
-- Les outils d'assurance qualité détectent les erreurs et incohérences
-- Permet la collaboration entre équipes distribuées
-
-### Interprétation assistée par IA
+<img src="/product/iStock-1006678326.jpg" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/product/iStock-1006678326.jpg"  width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 **Interprétation IA en temps réel**
 
-- Reconnaissance vocale automatique combinée à la traduction automatique
-- Fournit des sous-titres et traductions instantanés
-- Précision croissante pour les paires de langues courantes
-- Rentable pour les événements à grande échelle
-- Encore défié par les accents, le jargon technique et la mauvaise qualité audio
+- Reconnaissance vocale automatique + TA
+- Sous-titres et traductions instantanés
+- Rentable pour les grands événements
+- Encore défié par les accents, le jargon
 
 **Solutions hybrides**
 
-- Combinaison de l'expertise humaine avec l'assistance IA
-- L'IA fournit un premier brouillon ; les humains assurent la qualité
-- Réduit les coûts tout en maintenant la précision
-- Permet des services dans plus de combinaisons linguistiques
-- S'adapte pour répondre à la demande croissante
+- Premier jet IA + raffinement humain
+- Réduit les coûts, maintient la qualité
+- Permet plus de paires de langues
 
-## Quand choisir la traduction ou l'interprétation : scénarios hybrides
+</div>
 
-<img src="/product/iStock-2204770115.jpg"  width="700" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/product/iStock-965097108.jpg" width="700" align="right" style="padding: 1.5rem" class="light-only">
+## Quand utiliser chaque service
 
-Faire le bon choix dépend de vos besoins spécifiques, et de plus en plus, de nombreuses situations nécessitent les deux services travaillant en tandem :
+<div class="usage-grid">
 
-### Vous avez besoin de traduction quand :
+<div class="usage-card">
+  <h3>✅ Choisir la traduction</h3>
+  <ul>
+    <li>Sites web/applications multilingues</li>
+    <li>Livres publiés, rapports</li>
+    <li>Documents juridiques</li>
+    <li>Supports marketing</li>
+    <li>Documentation technique</li>
+    <li>Cours d\'e-learning</li>
+  </ul>
+</div>
 
-- Vous créez des sites web ou applications multilingues
-- Vous publiez des livres, articles ou rapports à l\'international
-- Vous préparez des documents juridiques pour des juridictions étrangères
-- Vous localisez du matériel marketing pour de nouveaux marchés
-- Vous traduisez de la documentation technique ou des manuels d\'utilisation
-- Vous adaptez des cours d\'e-learning pour des audiences mondiales
-- Vous convertissez des documents historiques ou des archives
+<div class="usage-card">
+  <h3>✅ Choisir l\'interprétation</h3>
+  <ul>
+    <li>Conférences internationales</li>
+    <li>Négociations commerciales</li>
+    <li>Consultations médicales</li>
+    <li>Sessions de formation</li>
+    <li>Procédures judiciaires</li>
+    <li>Diffusions en direct</li>
+  </ul>
+</div>
 
-### Vous avez besoin d'interprétation quand :
+<div class="usage-card hybrid">
+  <h3>🔄 Utiliser les deux (hybride)</h3>
+  <ul>
+    <li>Conférences internationales</li>
+    <li>Affaires juridiques (documents + tribunal)</li>
+    <li>Collaborations de recherche médicale</li>
+    <li>Lancements de produits mondiaux</li>
+    <li>Transactions de fusions-acquisitions</li>
+  </ul>
+</div>
 
-- Vous organisez des conférences ou sommets internationaux
-- Vous menez des négociations commerciales multilingues
-- Vous fournissez des soins de santé à des locuteurs non natifs
-- Vous dirigez des sessions de formation ou ateliers multilingues
-- Vous facilitez des procédures judiciaires avec des locuteurs de langues étrangères
-- Vous diffusez des événements en direct pour des audiences internationales
-- Vous menez des réunions diplomatiques ou négociations de paix
+</div>
 
-### Situations hybrides nécessitant les deux services
+## Normes professionnelles
 
-**Conférences internationales**
+<div class="standards-section">
 
-- Traduction : Matériaux de conférence, présentations, actes et documents distribués
-- Interprétation : Sessions en direct, périodes de questions-réponses, événements de réseautage
-- Coordination nécessaire : Terminologie cohérente dans tous les matériaux et interprétations
+### Certifications ISO pour la traduction
 
-**Affaires juridiques avec éléments internationaux**
+| Norme              | Ce qu\'elle couvre                        | Qui en a besoin                          |
+| ------------------ | ----------------------------------------- | ---------------------------------------- |
+| **ISO 17100:2015** | Exigences des services de traduction     | Agences, départements d\'entreprise      |
+| **ISO 18587:2017** | Post-édition de traduction automatique   | Entreprises utilisant des flux de travail TA |
+| **ISO 20771:2020** | Traduction juridique                     | Cabinets d\'avocats, tribunaux, gouvernement |
 
-- Traduction : Contrats, documents de preuve, témoignages écrits
-- Interprétation : Procédures judiciaires, dépositions, consultations clients
-- Exigence critique : Professionnels certifiés pour les deux services
+### Certifications pour l\'interprétation
 
-**Collaborations de recherche médicale**
+| Programme         | Domaine d\'expertise          | Région                |
+| ----------------- | ----------------------------- | --------------------- |
+| **AIIC**          | Interprétation de conférence  | International         |
+| **CCHI**          | Interprétation médicale       | États-Unis            |
+| **Federal Court** | Interprétation juridique      | États-Unis (espagnol) |
+| **State Court**   | Interprétation juridique      | États-Unis (varie selon l\'État) |
 
-- Traduction : Articles de recherche, protocoles, soumissions réglementaires
-- Interprétation : Réunions d\'équipe, consultations patients, présentations de conférence
-- Défi : Maintenir la précision technique dans les deux formats
+</div>
 
-**Lancements de produits mondiaux**
+## Différences de tarification
 
-- Traduction : Documentation, matériaux marketing, interfaces utilisateur
-- Interprétation : Conférences de presse, sessions de formation, support client
-- Facteur de succès : Cohérence de marque dans toutes les communications
+<div class="pricing-comparison">
 
-**Fusions et acquisitions multinationales**
+<div class="pricing-card">
+  <h4>Tarification de la traduction</h4>
+  <ul>
+    <li>Par mot, page ou projet</li>
+    <li>Travaux urgents = tarifs majorés</li>
+    <li>Remises sur volume disponibles</li>
+    <li>Les étapes de révision ajoutent des coûts</li>
+  </ul>
+</div>
 
-- Traduction : Documents de due diligence, contrats, dépôts réglementaires
-- Interprétation : Négociations, réunions du conseil d\'administration, communications employés
-- Coordination essentielle : Précision juridique dans les communications écrites et orales
+<div class="pricing-card">
+  <h4>Tarification de l\'interprétation</h4>
+  <ul>
+    <li>Tarifs horaires ou journaliers</li>
+    <li>Frais minimums (demi/journée complète)</li>
+    <li>Location d\'équipement en supplément</li>
+    <li>Frais de déplacement ajoutés</li>
+  </ul>
+</div>
 
-## Idées reçues démystifiées
+</div>
 
-Abordons quelques mythes persistants sur la traduction et l\'interprétation :
+## Mythes courants démystifiés
 
-**« Toute personne bilingue peut traduire ou interpréter »**
-Réalité : La maîtrise linguistique n\'est que le point de départ. Les traducteurs et interprètes professionnels suivent des années de formation spécialisée, acquièrent une expertise thématique et développent des compétences techniques spécifiques.
+::: danger Mythe : « Toute personne bilingue peut traduire ou interpréter »
+**Réalité :** Les services linguistiques professionnels nécessitent des années de formation, des compétences spécialisées et une expertise thématique qui vont bien au-delà de la simple maîtrise d\'une langue.
+:::
 
-**« Google Translate suffit amplement »**
-Réalité : Bien que la traduction automatique se soit considérablement améliorée, elle ne peut toujours pas égaler la compréhension humaine du contexte, de la culture et des nuances. Pour tout ce qui dépasse la communication de base, la supervision humaine professionnelle reste essentielle.
+::: danger Mythe : « Google Translate suffit amplement »
+**Réalité :** La traduction automatique fonctionne pour une compréhension de base, mais la supervision humaine professionnelle est essentielle pour l\'exactitude, le contexte et les nuances culturelles.
+:::
 
-**« L\'interprétation n\'est que de la traduction orale »**
-Réalité : L\'interprétation implique des processus cognitifs complexes, une médiation culturelle et une prise de décision instantanée qui va bien au-delà de la simple substitution de mots.
+::: danger Mythe : « L\'interprétation n\'est que de la traduction orale »
+**Réalité :** L\'interprétation implique des processus cognitifs complexes, une médiation culturelle et des décisions prises en une fraction de seconde qui vont bien au-delà de la simple substitution de mots.
+:::
 
-**« Les traducteurs et interprètes sont des dictionnaires ambulants »**
-Réalité : Ces professionnels sont des spécialistes de la communication qui comprennent non seulement les langues mais aussi les cultures, les contextes et les domaines spécialisés. Ils sont davantage des ponts culturels que des dictionnaires.
+::: danger Mythe : « L\'automatisation complète arrive bientôt »
+**Réalité :** Bien que l\'IA progresse rapidement, la créativité humaine, la compréhension culturelle et le jugement contextuel restent irremplaçables pour les communications à enjeux élevés.
+:::
 
-**« La traduction et l\'interprétation seront bientôt entièrement automatisées »**
-Réalité : Bien que l\'IA continue de progresser, la créativité humaine, la compréhension culturelle et le jugement contextuel restent irremplaçables pour les communications à enjeux élevés.
+## Meilleures pratiques
 
-## Le facteur coût : comprendre les différences de tarification
+<div class="practices-grid">
 
-La traduction et l\'interprétation sont tarifées différemment en raison de leurs natures distinctes :
+<div class="practice-card">
 
-### Tarification de la traduction
+### 📄 Travailler avec les traducteurs
 
-- Généralement facturée au mot, à la page ou au projet
-- Les tarifs varient selon la paire de langues, la spécialisation et l\'urgence
-- Les travaux urgents commandent des tarifs premium
-- Les services de révision et d\'édition s\'ajoutent aux coûts
-- Remises sur volume courantes pour les grands projets
-- Les agences certifiées ISO peuvent facturer des tarifs premium pour une qualité garantie
-
-### Tarification de l\'interprétation
-
-- Généralement facturée à l\'heure ou à la journée
-- Tarifs minimums courants (demi-journée ou journée complète)
-- La location d\'équipement peut être supplémentaire
-- Frais de déplacement pour l\'interprétation sur site
-- Tarifs premium pour les domaines spécialisés ou les langues rares
-- Tarifs standard AIIC pour l\'interprétation de conférence
-
-## Assurance qualité : différentes approches
-
-Garantir la qualité nécessite différentes stratégies :
-
-### Contrôle qualité de la traduction
-
-- Étapes de révision multiples (traduction, édition, relecture)
-- Retraduction pour les documents critiques
-- Vérifications de cohérence terminologique
-- Cycles de révision et de commentaires clients
-- Certification ISO pour les agences de traduction
-- Outils d\'assurance qualité automatisés pour les grands projets
-
-### Assurance qualité de l\'interprétation
-
-- Certification et accréditation des interprètes
-- Matériaux de préparation et briefings
-- Interprétation en équipe pour les événements longs
-- Évaluation et commentaires post-événement
-- Exigences de développement professionnel continu
-- Programmes d\'évaluation par les pairs et de mentorat
-
-## Associations professionnelles et leurs rôles
-
-Les associations professionnelles jouent des rôles cruciaux dans le maintien des normes et l\'avancement des deux professions :
-
-### Principales associations de traduction
-
-- **ATA (American Translators Association)** : Offre la certification, le développement professionnel et la défense des intérêts
-- **ITI (Institute of Translation and Interpreting)** : Organisation basée au Royaume-Uni établissant les normes professionnelles
-- **FIT (International Federation of Translators)** : Organisation faîtière mondiale pour les associations de traducteurs
-
-### Principales organisations d\'interprétation
-
-- **AIIC** : Établit les normes mondiales pour l\'interprétation de conférence
-- **NAJIT (National Association of Judiciary Interpreters and Translators)** : Se concentre sur l\'interprétation juridique
-- **IMIA (International Medical Interpreters Association)** : Fait progresser les normes d\'interprétation médicale
-
-Ces organisations fournissent :
-
-- Des programmes de certification professionnelle
-- Des opportunités de formation continue
-- Des directives éthiques et codes de conduite
-- La défense de conditions de travail équitables
-- Des opportunités de réseautage et de mentorat
-
-## L'avenir : convergence et spécialisation
-
-À mesure que la technologie évolue, nous observons des développements intéressants :
-
-**Convergence des services**
-
-- Communication multimodale nécessitant à la fois traduction et interprétation
-- Traduction en temps réel de texte écrit dans les visioconférences
-- Applications de réalité augmentée combinant les deux services
-- Systèmes d'IA capables de basculer entre les modes de manière transparente
-
-**Spécialisation accrue**
-
-- Domaines ultra-spécialisés nécessitant une expertise approfondie
-- Demande croissante pour des combinaisons de langues rares
-- Conseil culturel au-delà des services linguistiques purs
-- Services d'accessibilité pour les communautés sourdes et malentendantes
-
-**Considérations éthiques**
-
-- Confidentialité des données dans les services alimentés par l'IA
-- Garantir un accès équitable aux services linguistiques
-- Maintenir les standards professionnels dans l'économie des petits boulots
-- Traiter les biais dans les systèmes de traduction automatique
-
-## Meilleures pratiques pour travailler avec des professionnels de la langue
-
-Pour obtenir les meilleurs résultats des services de traduction ou d\'interprétation :
-
-### Pour les projets de traduction :
-
-1. Fournir le contexte et les documents de référence
-2. Clarifier votre public cible et l\'objectif
-3. Allouer suffisamment de temps pour un travail de qualité
-4. Maintenir la cohérence terminologique
-5. Être disponible pour répondre aux questions
+1. Fournir le contexte et les informations de base
+2. Clarifier le public cible
+3. Accorder un délai suffisant
+4. Partager les glossaires terminologiques
+5. Être disponible pour les questions
 6. Planifier les cycles de révision
-7. Considérer les besoins d\'adaptation culturelle
-8. Demander des échantillons aux traducteurs potentiels
-9. Établir des guides de style et des glossaires dès le début
 
-### Pour les missions d\'interprétation :
+</div>
 
-1. Partager l\'ordre du jour et les documents à l\'avance
-2. Fournir les noms des intervenants et leur prononciation
-3. Informer les interprètes sur la terminologie technique
-4. Assurer un équipement et une installation appropriés
-5. Parler clairement et à un rythme modéré
-6. Prévoir du temps pour l\'interprétation en mode consécutif
-7. Prévoir des pauses pour les interprètes simultanés
-8. Effectuer des vérifications techniques avant l\'événement pour l\'interprétation à distance
-9. Désigner une personne de contact pour les questions des interprètes
+<div class="practice-card">
 
-## Faire le bon choix pour votre organisation
+### 🗣️ Travailler avec les interprètes
 
-La décision entre traduction et interprétation—ou quand utiliser les deux—dépend de plusieurs facteurs :
+1. Partager l\'ordre du jour à l\'avance
+2. Briefer sur les termes techniques
+3. Fournir les noms des intervenants
+4. S\'assurer du bon équipement
+5. Parler clairement, à un rythme modéré
+6. Laisser le temps pour l\'interprétation
 
-**Considérez votre public**
+</div>
 
-- Taille et diversité linguistique
-- Sophistication technique
-- Attentes culturelles
-- Besoins d\'accessibilité
+</div>
 
-**Évaluez votre contenu**
+## Conclusion
 
-- Complexité et spécialisation
-- Permanence et réutilisabilité
-- Exigences légales ou réglementaires
-- Sensibilité émotionnelle et culturelle
+<div class="conclusion-box">
 
-**Évaluez vos ressources**
+**La traduction** et **l'interprétation** éliminent toutes deux les barrières linguistiques, mais par des moyens différents :
 
-- Contraintes budgétaires
-- Exigences de délais
-- Technologie disponible
-- Capacités internes
+- **Traduction** = Soigneuse, écrite, révisée, permanente
+- **Interprétation** = Instantanée, orale, sans révisions, éphémère
 
-**Planifiez pour l\'avenir**
+Choisissez en fonction de votre **type de contenu** (écrit vs oral), **délai** (jours vs temps réel), et besoins de **permanence** (publié vs en direct).
 
-- Besoins d\'évolutivité
-- Exigences continues vs ponctuelles
-- Intégration avec les systèmes existants
-- Potentiel de partenariat à long terme
+Pour les projets complexes—comme les conférences internationales ou les affaires juridiques—vous aurez souvent besoin des **deux services travaillant ensemble** avec une terminologie et un message cohérents.
 
-## Conclusion : Deux faces d'une même pièce
+::: tip À retenir
+Les services linguistiques de qualité sont un investissement dans une communication précise, la compréhension culturelle et l'établissement de la confiance entre les langues. Choisissez des professionnels certifiés et accordez suffisamment de temps et de ressources pour obtenir les meilleurs résultats.
+:::
 
-La traduction et l'interprétation servent le même noble objectif : permettre la communication au-delà des barrières linguistiques. Pourtant, elles y parviennent par des moyens fondamentalement différents, nécessitant des compétences, des outils et des approches distincts. Comprendre ces différences n'est pas seulement académique—c'est une connaissance pratique qui peut vous aider à choisir le bon service pour vos besoins, à établir des attentes appropriées et à obtenir de meilleurs résultats de communication.
+</div>
 
-Alors que notre monde devient de plus en plus interconnecté, la demande pour la traduction et l'interprétation continue de croître. La technologie rend ces services plus accessibles et abordables, mais l'expertise humaine reste cruciale pour une communication nuancée et à enjeux élevés. Que vous développiez votre entreprise à l'échelle mondiale, que vous serviez des communautés diverses, ou que vous construisiez des ponts entre les cultures, savoir quand traduire et quand interpréter—et comment travailler efficacement avec des professionnels de la langue—est une compétence inestimable.
+<style scoped>
+.subtitle {
+  color: var(--vp-c-text-2);
+  font-size: 1.2em;
+  margin-bottom: 2em;
+  text-align: center;
+}
 
-L'avenir promet encore plus d'intégration entre ces services, avec l'IA et les professionnels humains travaillant ensemble pour briser les barrières linguistiques plus efficacement que jamais auparavant. Les normes professionnelles, maintenues par des associations dédiées et des organismes de certification, garantissent la qualité et l'éthique dans les deux domaines. En comprenant la valeur unique de la traduction et de l'interprétation, en reconnaissant l'importance de la certification professionnelle, et en appréciant la complexité des projets hybrides, vous êtes mieux équipé pour naviguer dans notre monde multilingue et exploiter le pouvoir d'une communication interculturelle efficace.
+.comparison-hero {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 2em;
+  margin: 3em 0;
+  align-items: center;
+}
 
-Rappelez-vous : la traduction et l'interprétation ne consistent pas seulement à convertir des mots—elles consistent à connecter les gens, à partager des idées et à construire la compréhension à travers la belle diversité des langues humaines. Choisissez judicieusement, investissez dans la qualité, et vous débloquerez tout le potentiel de la communication mondiale.
+.hero-card {
+  background: linear-gradient(135deg, var(--vp-c-bg-soft) 0%, var(--vp-c-bg-mute) 100%);
+  padding: 2em;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px solid var(--vp-c-divider);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hero-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.hero-card.translation {
+  border-color: #3498db;
+}
+
+.hero-card.interpretation {
+  border-color: #e74c3c;
+}
+
+.hero-icon {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.hero-card h3 {
+  margin: 0.5em 0;
+  color: var(--vp-c-text-1);
+}
+
+.hero-tagline {
+  color: var(--vp-c-text-2);
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.hero-features {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 1.5em;
+}
+
+.hero-features li {
+  padding: 0.5em 0;
+  padding-left: 1.5em;
+  position: relative;
+  color: var(--vp-c-text-1);
+}
+
+.hero-features li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.vs-divider {
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--vp-c-brand);
+  text-align: center;
+}
+
+.service-section {
+  background: var(--vp-c-bg-soft);
+  padding: 2em;
+  border-radius: 12px;
+  margin: 2em 0;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+  margin: 2em 0;
+}
+
+.feature-box {
+  background: var(--vp-c-bg);
+  padding: 1.5em;
+  border-radius: 8px;
+  border-left: 4px solid var(--vp-c-brand);
+}
+
+.feature-box strong {
+  display: block;
+  margin-bottom: 0.5em;
+  color: var(--vp-c-text-1);
+}
+
+.feature-box p {
+  margin: 0;
+  color: var(--vp-c-text-2);
+  font-size: 0.95em;
+}
+
+.methods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5em;
+  margin: 2em 0;
+}
+
+.method-card {
+  background: var(--vp-c-bg);
+  padding: 1.5em;
+  border-radius: 8px;
+  border-top: 4px solid;
+}
+
+.method-card.simultaneous {
+  border-top-color: #e74c3c;
+}
+
+.method-card.consecutive {
+  border-top-color: #f39c12;
+}
+
+.method-card.whispered {
+  border-top-color: #9b59b6;
+}
+
+.method-card.remote {
+  border-top-color: #3498db;
+}
+
+.method-card h4 {
+  margin-top: 0;
+  color: var(--vp-c-text-1);
+}
+
+.method-card p {
+  margin: 0.5em 0;
+  font-size: 0.9em;
+  color: var(--vp-c-text-2);
+}
+
+.method-card strong {
+  color: var(--vp-c-text-1);
+}
+
+.skills-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  margin: 2em 0;
+}
+
+.skills-column {
+  background: var(--vp-c-bg-soft);
+  padding: 2em;
+  border-radius: 8px;
+}
+
+.skills-column h3 {
+  margin-top: 0;
+  color: var(--vp-c-text-1);
+}
+
+.skills-column ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-column li {
+  padding: 0.5em 0;
+  padding-left: 1.5em;
+  position: relative;
+  color: var(--vp-c-text-1);
+}
+
+.skills-column li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--vp-c-brand);
+  font-size: 1.5em;
+  line-height: 0.8;
+}
+
+.translator-skills {
+  border-left: 4px solid #3498db;
+}
+
+.interpreter-skills {
+  border-left: 4px solid #e74c3c;
+}
+
+.tech-section {
+  background: var(--vp-c-bg-soft);
+  padding: 2em;
+  border-radius: 12px;
+  margin: 2em 0;
+}
+
+.tech-section h3 {
+  color: var(--vp-c-brand);
+  margin-top: 1.5em;
+}
+
+.tech-section h3:first-of-type {
+  margin-top: 0;
+}
+
+.usage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5em;
+  margin: 2em 0;
+}
+
+.usage-card {
+  background: var(--vp-c-bg-soft);
+  padding: 1.5em;
+  border-radius: 8px;
+  border-top: 4px solid var(--vp-c-brand);
+}
+
+.usage-card.hybrid {
+  border-top-color: #9b59b6;
+  grid-column: span 1;
+}
+
+.usage-card h3 {
+  margin-top: 0;
+  color: var(--vp-c-text-1);
+}
+
+.usage-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.usage-card li {
+  padding: 0.5em 0;
+  padding-left: 1.5em;
+  position: relative;
+  color: var(--vp-c-text-1);
+}
+
+.usage-card li:before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--vp-c-brand);
+}
+
+.standards-section {
+  background: var(--vp-c-bg-soft);
+  padding: 2em;
+  border-radius: 12px;
+  margin: 2em 0;
+}
+
+.standards-section h3 {
+  color: var(--vp-c-brand);
+  margin-top: 1.5em;
+}
+
+.standards-section h3:first-of-type {
+  margin-top: 0;
+}
+
+.pricing-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  margin: 2em 0;
+}
+
+.pricing-card {
+  background: var(--vp-c-bg-soft);
+  padding: 1.5em;
+  border-radius: 8px;
+  border-left: 4px solid var(--vp-c-brand);
+}
+
+.pricing-card h4 {
+  margin-top: 0;
+  color: var(--vp-c-text-1);
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pricing-card li {
+  padding: 0.5em 0;
+  padding-left: 1.5em;
+  position: relative;
+  color: var(--vp-c-text-1);
+}
+
+.pricing-card li:before {
+  content: "💰";
+  position: absolute;
+  left: 0;
+}
+
+.practices-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  margin: 2em 0;
+}
+
+.practice-card {
+  background: var(--vp-c-bg-soft);
+  padding: 2em;
+  border-radius: 8px;
+  border-left: 4px solid var(--vp-c-brand);
+}
+
+.practice-card h3 {
+  margin-top: 0;
+  color: var(--vp-c-text-1);
+}
+
+.practice-card ol {
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+.practice-card li {
+  margin: 0.5em 0;
+  color: var(--vp-c-text-1);
+}
+
+.conclusion-box {
+  background: linear-gradient(135deg, var(--vp-c-brand-soft) 0%, var(--vp-c-brand-softer) 100%);
+  padding: 2em;
+  border-radius: 12px;
+  margin: 3em 0;
+  border: 2px solid var(--vp-c-brand);
+}
+
+.conclusion-box p {
+  color: var(--vp-c-text-1);
+  margin: 1em 0;
+}
+
+.conclusion-box ul {
+  margin: 1em 0;
+}
+
+.conclusion-box li {
+  color: var(--vp-c-text-1);
+  margin: 0.5em 0;
+}
+
+@media (max-width: 768px) {
+  .comparison-hero {
+    grid-template-columns: 1fr;
+  }
+  
+  .vs-divider {
+    transform: rotate(90deg);
+    margin: 1em 0;
+  }
+  
+  .skills-comparison,
+  .pricing-comparison,
+  .practices-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .methods-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .usage-card.hybrid {
+    grid-column: span 1;
+  }
+}
+</style>

@@ -1,22 +1,23 @@
 ---
 layout: home
 title: "InterMIND：视频会议实时语音翻译"
-description: "专业视频会议平台，支持19+种语言同声传译。AI驱动的翻译技术，准确捕捉语调、意图和语境。全球会议，自然沟通。"
+description: "专业视频会议配备19+种语言同声传译。AI驱动的翻译技术，准确捕捉语调、意图和语境。全球会议，自然沟通。"
 isHome: true
 ---
 
-<!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
+<!-- <HeroSection title="用**任何**语言会议" :typingSpeed="10" text="视频通话中的实时语音翻译。即时理解，无障碍沟通。"> -->
 
-<HeroSection title="理解**任何**语言" :typingSpeed="20" text="视频会议中的同声传译。瞬间打破语言障碍。">
+<HeroSection title="理解**任何**语言" :typingSpeed="20" text="视频会议中的同声传译。即时打破语言障碍。">
 <NavButton buttonLabel="观看演示" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="助手" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
-<span id="1"></span>
+## 翻译 ≠ 理解 {#1}
+
 <FeatureBlock
     :card="{
-      title: '翻译 ≠ 理解。这就是未来。',
-      details: '无论使用何种语言，您的声音都能被听到——并被理解——就像您们使用同一种语言一样。',
+      title: '翻译 ≠ 理解。下一步是什么。',
+      details: '无论使用何种语言，您的声音都能被听到并理解——就像您们说着同一种语言一样。',
       items: [
         '✧ 自然地，[实时](./product/overview/how-it-works)进行，无需字幕或延迟。',
         '✧ AI驱动的口译捕捉语调、意图和行业专业术语。',
@@ -30,15 +31,16 @@ isHome: true
     }"
   />
 
-<span id="2"></span>
+## 会议中的智能助手 {#2}
+
 <FeatureBlock
     :card="{
-      title: '会议中的智慧大脑',
-      details: 'InterMIND将每次多语言通话转化为清晰、可搜索的知识。',
+      title: '会议中的智能助手',
+      details: 'InterMind将每次多语言通话转化为清晰、可搜索的知识。',
       items: [
-        '✧ **询问任何问题** — AI在**您的所有会议中**找到答案。',
+        '✧ **询问任何问题** — AI在**您的所有会议中**查找答案。',
         '✧ 自动提取任务、负责人和截止日期。',
-        '✧ 即时总结任何语言的要点。',
+        '✧ 即时用任何语言总结要点。',
       ],
       link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
       src: {
@@ -49,11 +51,12 @@ isHome: true
     }"
   />
 
-<span id="3"></span>
+## 专为严肃会议而构建 {#3}
+
 <FeatureBlock
     :card="{
-      title: '为严肃会议而生——不仅仅是聊天',
-      details: 'InterMIND是一个[专业级视频会议平台](./product/overview/video-meeting-platform)，而不是轻量级插件或附加组件。',
+      title: '专为严肃会议而构建——不仅仅是聊天',
+      details: 'InterMind是一个[专业级视频会议平台](./product/overview/video-meeting-platform)，而不是轻量级附加组件或插件。',
       items: [
         '✧ 1080p分辨率、智能降噪、日程安排、会议管理、屏幕共享、录制、字幕、参与者聊天和日历集成——全部内置，**即开即用**。',
       ],
@@ -66,11 +69,12 @@ isHome: true
     }"
   />
 
-<span id="4"></span>
+## 隐私保护至关重要 {#4}
+
 <FeatureBlock
     :card="{
-      title: '重要场合的隐私保护',
-      details: 'InterMIND专为信任至关重要的对话而构建——隐私和控制最为重要的场合。',
+      title: '隐私保护至关重要',
+      details: 'InterMind专为信任至关重要的对话而构建——在隐私和控制最为重要的场合。',
       items: ['✧ [隐私区域](./product/overview/privacy-architecture) — 欧盟、美国、东南亚', '✧ **零数据训练**。无第三方访问。'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -84,11 +88,9 @@ isHome: true
 > **这适合谁？**  
 > _专为因语言障碍导致延误、失去交易或代价高昂的误解的国际团队而构建。_ [了解更多...](./product/overview/markets)
 
-<span id="HowItWorks"></span>
+## 像Google Meet一样工作 + 实时翻译 {#HowItWorks}
 
-## 像 Google Meet + 实时翻译一样工作
-
-熟悉的界面。通用沟通。与 Google Meet 一样简单——配备即时翻译功能，让语言障碍消失。
+熟悉的界面。通用的沟通。与Google Meet一样简单——配备即时翻译功能，让语言障碍消失无踪。
 
 <FeatureCards
     :features="[
@@ -129,12 +131,11 @@ isHome: true
 
 <!-- <br> -->
 
-<span id="VideoDemo"></span>
+## 视频演示 {#VideoDemo}
+
 <VideoPlayer src="/promo/demo-en-mx.mp4" />
 
-<span id="Example"></span>
-
-## 示例：会议中实时语音翻译的工作原理
+## 示例：会议中实时语音翻译的工作原理 {#Example}
 
 假设：
 
@@ -152,11 +153,11 @@ isHome: true
 - **语音输入**（您说的话）
 - **翻译输出**（您听到的内容）
 
-| 参与者    | 选择的语言 | 说话语言 | 听取语言 |
-| --------- | ---------- | -------- | -------- |
-| 主持人    | 西班牙语   | 西班牙语 | 西班牙语 |
-| 参与者1   | 英语       | 英语     | 英语     |
-| 参与者2   | 中文       | 中文     | 中文     |
+| 参与者   | 选择的语言 | 说话语言 | 听取语言 |
+| -------- | ---------- | -------- | -------- |
+| 主持人   | 西班牙语   | 西班牙语 | 西班牙语 |
+| 参与者1  | 英语       | 英语     | 英语     |
+| 参与者2  | 中文       | 中文     | 中文     |
 
 [平台自动实时解释所有语音](./product/overview/how-it-works) — 因此每个人都能像说同一种语言一样进行交流。
 
@@ -178,15 +179,11 @@ isHome: true
 > 它控制**您如何说话**、**您听到什么**和**您看到什么**。  
 > 不支持用一种语言说话而用另一种语言听取 — 这是设计如此，以保持体验简单和可预测。
 
-<span id="Testimonials"></span>
-
-## 客户评价
+## 客户评价 {#Testimonials}
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-<span id="Pricing"></span>
-
-## 清晰简单的定价
+## 清晰简单的定价 {#Pricing}
 
 从首次通话到流利对话——适用于任何规模。
 
@@ -239,15 +236,13 @@ isHome: true
 > 💡 **_您的时间应该花在精进技艺上——而不是记忆语法。_**  
 > 💡 **_真正的合作始于真正的对话——用他们的语言。_**
 
-## 常见问题
-
-<span id="FAQ"></span>
+## 常见问题 {#FAQ}
 
 <AccordionGroup
     :items="[
       {
-        q: 'InterMind支持哪些语言的口译？',
-        a: 'InterMind支持以下19种语言的**实时口译**：<br><br>- العربية (ar) – 阿拉伯语<br>- Čeština (cs) – 捷克语<br>- Deutsch (de) – 德语<br>- English (en) – 英语<br>- Español (es) – 西班牙语<br>- Français (fr) – 法语<br>- हिन्दी (hi) – 印地语<br>- Magyar (hu) – 匈牙利语<br>- Italiano (it) – 意大利语<br>- 日本語 (ja) – 日语<br>- 한국어 (ko) – 韩语<br>- Nederlands (nl) – 荷兰语<br>- Polski (pl) – 波兰语<br>- Português (pt) – 葡萄牙语<br>- Русский (ru) – 俄语<br>- Türkçe (tr) – 土耳其语<br>- 中文 (zh) – 中文<br><br>我们正在不断扩展这个列表——每个主要版本都会添加新语言。',
+        q: 'InterMind支持哪些语言的口译服务？',
+        a: 'InterMind支持以下19种语言的**实时口译**：<br><br>- العربية (ar) – 阿拉伯语<br>- Čeština (cs) – 捷克语<br>- Deutsch (de) – 德语<br>- English (en) – 英语<br>- Español (es) – 西班牙语<br>- Français (fr) – 法语<br>- हिन्दी (hi) – 印地语<br>- Magyar (hu) – 匈牙利语<br>- Italiano (it) – 意大利语<br>- 日本語 (ja) – 日语<br>- 한국어 (ko) – 韩语<br>- Nederlands (nl) – 荷兰语<br>- Polski (pl) – 波兰语<br>- Português (pt) – 葡萄牙语<br>- Русский (ru) – 俄语<br>- Türkçe (tr) – 土耳其语<br>- 中文 (zh) – 中文<br><br>我们正在不断扩展这个列表——每次主要版本更新都会添加新语言。',
       },
       {
         q: '什么是许可用户和参与者？',
@@ -255,11 +250,11 @@ isHome: true
       },
       {
         q: '一个InterMind许可证可以供多少人使用？',
-        a: '每个*许可用户*可以主持**无限次会议**。如果多个团队成员需要同时主持会议，每个人都需要自己的许可证。',
+        a: '每个*许可用户*可以主持**无限次会议**。如果多个团队成员需要同时主持会议，每人都需要自己的许可证。',
       },
       {
         q: '会议的最长持续时间是多少？',
-        a: '所有计划的会议都可以运行长达**24小时**。',
+        a: '所有计划的会议都可以持续**24小时**。',
       },
       {
         q: '我可以主持的会议数量有限制吗？',
@@ -270,7 +265,7 @@ isHome: true
         a: 'InterMind**从设计上保护隐私**。所有数据都在您选择的**隐私区域**内处理和存储——_欧盟_、_美国_或_亚洲_。我们遵守[**GDPR**](https://gdpr.eu)、[**CCPA**](https://oag.ca.gov/privacy/ccpa)和阿联酋PDPL，**绝不使用您的内容**进行训练或第三方访问。高级[隐私区域控制](./product/overview/privacy-architecture)在**商业版**计划中提供。',
       },
       {
-        q: '我可以在购买计划之前试用InterMind吗？',
+        q: '我可以在购买计划前试用InterMind吗？',
         a: '当然可以。*免费基础*计划让您完全访问核心功能，包含**25次免费会议**——包括**同声传译**和**会议搜索**。无需信用卡。随时升级。',
       },
       {
@@ -313,6 +308,7 @@ isHome: true
         title: '资源',
         links: [
           { text: '博客', link: './blog/' },
+          { text: '全球语言访问合规', link: './blog/posts/global-language-access-compliance' },
           { text: '品牌资产', link: './resources/media-kit' },
           { text: 'AI API / LLM文档', link: 'https://mind.com/llms-full.txt' },
         ],

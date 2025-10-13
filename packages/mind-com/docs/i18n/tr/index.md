@@ -12,14 +12,15 @@ isHome: true
 <NavButton buttonLabel="Asistan" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
-<span id="1"></span>
+## Çeviri ≠ Anlama {#1}
+
 <FeatureBlock
     :card="{
-      title: 'Çeviri ≠ Anlayış. İşte sıradaki adım.',
-      details: 'Dil ne olursa olsun, sesiniz duyulur — ve aynı dili paylaşıyormuşsunuz gibi anlaşılır.',
+      title: 'Çeviri ≠ Anlama. Sırada ne var?',
+      details: 'Hangi dil olursa olsun, sesiniz aynı dili paylaşıyormuşsunuz gibi duyulur ve anlaşılır.',
       items: [
         '✧ Doğal olarak, [gerçek zamanlı](./product/overview/how-it-works) ve altyazı veya gecikme olmadan.',
-        '✧ AI destekli tercümanlık ton, niyet ve sektöre özel terminolojiyi yakalar.',
+        '✧ AI destekli yorumlama ton, niyet ve sektöre özgü terminolojiyi yakalar.',
       ],
       link: './product/overview/what-is-intermind',
       src: {
@@ -30,13 +31,14 @@ isHome: true
     }"
   />
 
-<span id="2"></span>
+## Toplantılarınızın İçindeki Akıl {#2}
+
 <FeatureBlock
     :card="{
       title: 'Toplantılarınızın İçindeki Akıl',
-      details: 'InterMIND her çok dilli aramayı net, aranabilir bilgiye dönüştürür.',
+      details: 'InterMind her çok dilli aramayı net, aranabilir bilgiye dönüştürür.',
       items: [
-        '✧ **Her şeyi sorun** — AI **toplantılarınız genelinde** cevaplar bulur.',
+        '✧ **Her şeyi sorun** — AI **toplantılarınız genelinde** cevapları bulur.',
         '✧ Görevleri, sahiplerini ve son tarihleri otomatik çıkarır.',
         '✧ Anahtar noktaları herhangi bir dilde özetler — anında.',
       ],
@@ -49,13 +51,14 @@ isHome: true
     }"
   />
 
-<span id="3"></span>
+## Ciddi Toplantılar İçin Tasarlandı {#3}
+
 <FeatureBlock
     :card="{
       title: 'Ciddi Toplantılar İçin Tasarlandı — Sadece Konuşmak İçin Değil',
-      details: 'InterMIND [profesyonel düzeyde bir video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
+      details: 'InterMind, hafif bir eklenti veya plugin değil, [profesyonel düzeyde bir video toplantı platformudur](./product/overview/video-meeting-platform).',
       items: [
-        '✧ 1080p çözünürlük, akıllı gürültü bastırma, planlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
+        '✧ 1080p çözünürlük, akıllı gürültü bastırma, zamanlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -66,11 +69,12 @@ isHome: true
     }"
   />
 
-<span id="4"></span>
+## Önemli Olan Yerde Gizlilik {#4}
+
 <FeatureBlock
     :card="{
       title: 'Önemli Olan Yerde Gizlilik',
-      details: 'InterMIND güven gerektiren konuşmalar için tasarlandı — gizlilik ve kontrolün en önemli olduğu yerde.',
+      details: 'InterMind, güven açısından kritik konuşmalar için tasarlanmıştır — gizlilik ve kontrolün en önemli olduğu yerlerde.',
       items: ['✧ [Gizlilik Bölgeleri](./product/overview/privacy-architecture) — AB, ABD, Güneydoğu Asya', '✧ **Sıfır veri eğitimi**. Üçüncü taraf erişimi yok.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -82,11 +86,9 @@ isHome: true
   />
 
 > **Bu kimler için?**  
-> _Dil engellerinin gecikmelere, kaybedilen anlaşmalara veya maliyetli yanlış anlamalara neden olduğu uluslararası ekipler için tasarlandı._ [Daha fazla bilgi ...](./product/overview/markets)
+> _Dil engellerinin gecikmelere, kaybedilen anlaşmalara veya maliyetli yanlış anlamalara neden olduğu uluslararası ekipler için tasarlanmıştır._ [Daha fazla bilgi ...](./product/overview/markets)
 
-<span id="HowItWorks"></span>
-
-## Google Meet + Canlı Çeviri Gibi Çalışır
+## Google Meet + Canlı Çeviri Gibi Çalışır {#HowItWorks}
 
 Tanıdık arayüz. Evrensel iletişim. Google Meet kadar kolay — dil engellerini ortadan kaldıran anlık çeviri ile.
 
@@ -129,12 +131,11 @@ Tanıdık arayüz. Evrensel iletişim. Google Meet kadar kolay — dil engelleri
 
 <!-- <br> -->
 
-<span id="VideoDemo"></span>
+## Video Demo {#VideoDemo}
+
 <VideoPlayer src="/promo/demo-en-mx.mp4" />
 
-<span id="Example"></span>
-
-## Örnek: Toplantıda gerçek zamanlı konuşma çevirisinin nasıl çalıştığı
+## Örnek: Toplantıda gerçek zamanlı konuşma çevirisinin nasıl çalıştığı {#Example}
 
 Diyelim ki:
 
@@ -143,9 +144,9 @@ Kullanıcı **site yerelleştirme dili** olarak **İspanyolca** kullanıyor. Bir
 - 🧑‍💼 Katılımcı 1 arayüzü **İngilizce** kullanıyor
 - 👩 Katılımcı 2 arayüzü **Çince** kullanıyor
 
-### Toplantı sırasında ne olur?
+### Toplantı sırasında ne oluyor?
 
-Her katılımcı ürüne girerken seçtiği dilde **konuşur ve duyar**.  
+Her katılımcı ürüne girerken seçtiği dilde **konuşuyor ve duyuyor**.  
 Bu tek dil ayarı şunları kapsar:
 
 - **Arayüz dili**
@@ -176,17 +177,13 @@ Bunu değiştirmek şu anlama gelir:
 
 > ✨ "Diliniz" **tek birleşik bir ayardır**  
 > **Nasıl konuştuğunuzu**, **ne duyduğunuzu** ve **ne gördüğünüzü** kontrol eder.  
-> Bir dilde konuşup başka bir dilde dinlemek **desteklenmez** — tasarım gereği, deneyimi basit ve öngörülebilir tutmak için.
+> Bir dilde konuşup başka bir dilde dinlemek **desteklenmez** — deneyimi basit ve öngörülebilir tutmak için tasarım gereği.
 
-<span id="Testimonials"></span>
-
-## Müşterilerimiz Ne Diyor
+## Müşterilerimiz Ne Diyor {#Testimonials}
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-<span id="Pricing"></span>
-
-## Açık ve Basit Fiyatlandırma
+## Açık ve Basit Fiyatlandırma {#Pricing}
 
 İlk aramadan akıcı konuşmalara — her ölçekte.
 
@@ -236,18 +233,16 @@ Bunu değiştirmek şu anlama gelir:
 <ContactForm buttonText="Ekibimizle konuşun" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_Zamanınızı dilbilgisi ezberlemek yerine uzmanlığınızı geliştirmeye harcamanız daha iyi._**  
+> 💡 **_Zamanınızı dilbilgisi ezberlemek yerine sanatınızda ustalaşmaya harcamanız daha iyi._**  
 > 💡 **_Gerçek ortaklıklar gerçek konuşmalarla başlar — onların dilinde._**
 
-## Sık Sorulan Sorular
-
-<span id="FAQ"></span>
+## Sık Sorulan Sorular {#FAQ}
 
 <AccordionGroup
     :items="[
       {
-        q: 'InterMind hangi dillerde tercümanlık desteği sunuyor?',
-        a: 'InterMind aşağıdaki 19 dilde **gerçek zamanlı tercümanlık** desteği sunmaktadır:<br><br>- العربية (ar) – Arapça<br>- Čeština (cs) – Çekçe<br>- Deutsch (de) – Almanca<br>- English (en) – İngilizce<br>- Español (es) – İspanyolca<br>- Français (fr) – Fransızca<br>- हिन्दी (hi) – Hintçe<br>- Magyar (hu) – Macarca<br>- Italiano (it) – İtalyanca<br>- 日本語 (ja) – Japonca<br>- 한국어 (ko) – Korece<br>- Nederlands (nl) – Hollandaca<br>- Polski (pl) – Lehçe<br>- Português (pt) – Portekizce<br>- Русский (ru) – Rusça<br>- Türkçe (tr) – Türkçe<br>- 中文 (zh) – Çince<br><br>Bu listeyi sürekli genişletiyoruz — her büyük sürümle birlikte yeni diller eklenmektedir.',
+        q: 'InterMind hangi dillerde çeviri desteği sunuyor?',
+        a: 'InterMind aşağıdaki 19 dilde **gerçek zamanlı çeviri** desteği sunmaktadır:<br><br>- العربية (ar) – Arapça<br>- Čeština (cs) – Çekçe<br>- Deutsch (de) – Almanca<br>- English (en) – İngilizce<br>- Español (es) – İspanyolca<br>- Français (fr) – Fransızca<br>- हिन्दी (hi) – Hintçe<br>- Magyar (hu) – Macarca<br>- Italiano (it) – İtalyanca<br>- 日本語 (ja) – Japonca<br>- 한국어 (ko) – Korece<br>- Nederlands (nl) – Hollandaca<br>- Polski (pl) – Lehçe<br>- Português (pt) – Portekizce<br>- Русский (ru) – Rusça<br>- Türkçe (tr) – Türkçe<br>- 中文 (zh) – Çince<br><br>Bu listeyi sürekli genişletiyoruz — her büyük sürümle birlikte yeni diller eklenmektedir.',
       },
       {
         q: 'Lisanslı kullanıcı nedir ve Katılımcı nedir?',
@@ -267,11 +262,11 @@ Bunu değiştirmek şu anlama gelir:
       },
       {
         q: 'InterMind veri gizliliği ve güvenliğini nasıl sağlıyor?',
-        a: 'InterMind **tasarım gereği gizlidir**. Tüm veriler seçtiğiniz **Gizlilik Bölgesi** içinde işlenir ve saklanır — _AB_, _ABD_ veya _Asya_. [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) ve BAE PDPL\'ye uygun çalışıyoruz ve **içeriğinizi asla** eğitim veya üçüncü taraf erişimi için kullanmayız. Gelişmiş [Gizlilik Bölgesi kontrolü](./product/overview/privacy-architecture) **İş** planında mevcuttur.',
+        a: 'InterMind **tasarım gereği gizlidir**. Tüm veriler seçtiğiniz **Gizlilik Bölgesi** içinde işlenir ve saklanır — _AB_, _ABD_ veya _Asya_. [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) ve BAE PDPL\'ye uygun çalışıyoruz ve **içeriğinizi asla** eğitim veya üçüncü taraf erişimi için kullanmıyoruz. Gelişmiş [Gizlilik Bölgesi kontrolü](./product/overview/privacy-architecture) **İş** planında mevcuttur.',
       },
       {
         q: 'Bir plan satın almadan önce InterMind\'ı deneyebilir miyim?',
-        a: 'Kesinlikle. *Ücretsiz Temel* plan size **25 ücretsiz toplantı** ile temel özelliklere tam erişim sağlar — **eşzamanlı tercümanlık** ve **toplantı arama** dahil. Kredi kartı gerekmez. İstediğiniz zaman yükseltebilirsiniz.',
+        a: 'Kesinlikle. *Ücretsiz Temel* plan size **25 ücretsiz toplantı** ile temel özelliklere tam erişim sağlar — **eşzamanlı çeviri** ve **toplantı arama** dahil. Kredi kartı gerekmez. İstediğiniz zaman yükseltebilirsiniz.',
       },
       {
         q: 'Yardım veya desteğe ihtiyacım olursa ne yapmalıyım?',
@@ -279,10 +274,10 @@ Bunu değiştirmek şu anlama gelir:
       },
       {
         q: 'Aboneliğimi nasıl yönetirim (yükseltme, düşürme veya iptal)?',
-        a: 'Planınızı **hesap ayarlarınız** üzerinden istediğiniz zaman değiştirebilirsiniz. Değişiklikler **anında** geçerli olur. İptaller için, *Aylık planlar* fatura döneminin sonunda iptal olur. *Yıllık planlar* **orantılı geri ödeme** ile iptal edilebilir.',
+        a: 'Planınızı **hesap ayarlarınız** üzerinden istediğiniz zaman değiştirebilirsiniz. Değişiklikler **anında** geçerli olur. İptaller için *Aylık planlar* fatura döneminin sonunda iptal olur. *Yıllık planlar* **orantılı geri ödeme** ile iptal edilebilir.',
       },
       {
-        q: 'InterMind\'ı webinarlar veya büyük etkinlikler için kullanabilir miyim?',
+        q: 'InterMind\'ı webinar veya büyük etkinlikler için kullanabilir miyim?',
         a: 'Evet. *Pro* ve *İş* planları **büyük toplantılar ve webinarlar** için idealdir — *İş* planında **500 katılımcıya** kadar destek ile.',
       },
     ]"/>
@@ -313,6 +308,7 @@ Bunu değiştirmek şu anlama gelir:
         title: 'KAYNAKLAR',
         links: [
           { text: 'Blog', link: './blog/' },
+          { text: 'Küresel Dil Erişimi Uyumluluğu', link: './blog/posts/global-language-access-compliance' },
           { text: 'Marka Varlıkları', link: './resources/media-kit' },
           { text: 'AI API / LLM Dokümanları', link: 'https://mind.com/llms-full.txt' },
         ],
@@ -320,7 +316,7 @@ Bunu değiştirmek şu anlama gelir:
       {
         title: 'ŞİRKET',
         links: [
-          { text: 'Hakkımızda', link: './resources/company/about' },
+          { text: 'Hakkında', link: './resources/company/about' },
           { text: 'Ekip', link: './resources/company/team' },
           { text: 'Kariyer', link: './resources/company/careers' },
           { text: 'İletişim', link: './resources/company/contacts' },

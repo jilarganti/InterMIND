@@ -5,17 +5,18 @@ description: "Professionelle Videokonferenzen mit Simultandolmetschen in über 1
 isHome: true
 ---
 
-<!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
+<!-- <HeroSection title="Treffen Sie sich in **jeder** Sprache" :typingSpeed="10" text="Live-Sprachübersetzung in Videoanrufen. Sofortiges Verstehen, keine Barrieren."> -->
 
 <HeroSection title="Verstehen Sie **jede** Sprache" :typingSpeed="20" text="Simultandolmetschen während Videobesprechungen. Sprachbarrieren sofort überwinden.">
 <NavButton buttonLabel="Demo ansehen" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="Assistent" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
-<span id="1"></span>
+## Übersetzung ≠ Verstehen {#1}
+
 <FeatureBlock
     :card="{
-      title: 'Übersetzung ≠ Verstehen. Hier ist die Zukunft.',
+      title: 'Übersetzung ≠ Verstehen. Das kommt als nächstes.',
       details: 'Unabhängig von der Sprache wird Ihre Stimme gehört — und verstanden — als würden Sie dieselbe Sprache sprechen.',
       items: [
         '✧ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
@@ -30,13 +31,14 @@ isHome: true
     }"
   />
 
-<span id="2"></span>
+## Der Verstand in Ihren Meetings {#2}
+
 <FeatureBlock
     :card="{
-      title: 'Der Verstand in Ihren Besprechungen',
-      details: 'InterMIND verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
+      title: 'Der Verstand in Ihren Meetings',
+      details: 'InterMind verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
       items: [
-        '✧ **Fragen Sie alles** — KI findet Antworten **in all Ihren Besprechungen**.',
+        '✧ **Fragen Sie alles** — KI findet Antworten **in all Ihren Meetings**.',
         '✧ Extrahiert automatisch Aufgaben, Verantwortliche und Fristen.',
         '✧ Fasst wichtige Punkte in jeder Sprache zusammen — sofort.',
       ],
@@ -49,11 +51,12 @@ isHome: true
     }"
   />
 
-<span id="3"></span>
+## Entwickelt für ernsthafte Meetings {#3}
+
 <FeatureBlock
     :card="{
-      title: 'Für ernsthafte Besprechungen entwickelt — nicht nur zum Reden',
-      details: 'InterMIND ist eine [professionelle Videobesprechungsplattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
+      title: 'Entwickelt für ernsthafte Meetings — nicht nur zum Reden',
+      details: 'InterMind ist eine [professionelle Video-Meeting-Plattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
       items: [
         '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
       ],
@@ -66,11 +69,12 @@ isHome: true
     }"
   />
 
-<span id="4"></span>
+## Datenschutz wo es darauf ankommt {#4}
+
 <FeatureBlock
     :card="{
-      title: 'Datenschutz, wo es darauf ankommt',
-      details: 'InterMIND ist für vertrauenskritische Gespräche entwickelt — wo Datenschutz und Kontrolle am wichtigsten sind.',
+      title: 'Datenschutz wo es darauf ankommt',
+      details: 'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Datenschutz und Kontrolle am wichtigsten sind.',
       items: ['✧ [Datenschutzzonen](./product/overview/privacy-architecture) — EU, USA, Südostasien', '✧ **Keine Datennutzung für Training**. Kein Zugriff durch Dritte.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -84,11 +88,9 @@ isHome: true
 > **Für wen ist das gedacht?**  
 > _Entwickelt für internationale Teams, bei denen Sprachbarrieren zu Verzögerungen, verlorenen Geschäften oder kostspieligen Missverständnissen führen._ [Mehr erfahren ...](./product/overview/markets)
 
-<span id="HowItWorks"></span>
+## Funktioniert wie Google Meet + Live-Übersetzung {#HowItWorks}
 
-## Funktioniert wie Google Meet + Live-Übersetzung
-
-Vertraute Benutzeroberfläche. Universelle Kommunikation. Genauso einfach wie Google Meet — mit sofortiger Übersetzung, die Sprachbarrieren verschwinden lässt.
+Vertraute Benutzeroberfläche. Universelle Kommunikation. Genauso einfach wie Google Meet — mit Sofortübersetzung, die Sprachbarrieren verschwinden lässt.
 
 <FeatureCards
     :features="[
@@ -129,12 +131,11 @@ Vertraute Benutzeroberfläche. Universelle Kommunikation. Genauso einfach wie Go
 
 <!-- <br> -->
 
-<span id="VideoDemo"></span>
+## Video-Demo {#VideoDemo}
+
 <VideoPlayer src="/promo/demo-en-mx.mp4" />
 
-<span id="Example"></span>
-
-## Beispiel: Wie Echtzeit-Sprachübersetzung in einem Meeting funktioniert
+## Beispiel: Wie Echtzeit-Sprachübersetzung in einem Meeting funktioniert {#Example}
 
 Nehmen wir an:
 
@@ -174,19 +175,15 @@ Diese Änderung bedeutet:
 - Sie werden andere in der `gewählten Sprache` hören
 - Die Benutzeroberfläche wird automatisch zur `gewählten Sprache` wechseln
 
-> ✨ "Ihre Sprache" ist eine **einzige einheitliche Einstellung**  
+> ✨ „Ihre Sprache" ist eine **einzige einheitliche Einstellung**  
 > Sie steuert **wie Sie sprechen**, **was Sie hören** und **was Sie sehen**.  
 > In einer Sprache zu sprechen und in einer anderen zu hören wird **nicht unterstützt** — bewusst, um die Erfahrung einfach und vorhersagbar zu halten.
 
-<span id="Testimonials"></span>
-
-## Was Kunden sagen
+## Was Kunden sagen {#Testimonials}
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-<span id="Pricing"></span>
-
-## Klare und einfache Preisgestaltung
+## Klare und einfache Preise {#Pricing}
 
 Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
 
@@ -198,7 +195,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         details: 'keine Kreditkarte erforderlich',
         items: [
           '**25** Meetings',
-          '**100** Teilnehmer Video-Meetings [💬](#3)',
+          '**100** Teilnehmer Videomeetings [💬](#3)',
           '**30** GB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',
@@ -210,7 +207,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         details: 'oder 25 € monatlich abgerechnet',
         items: [
           '**Unbegrenzte** Meetings',
-          '**150** Teilnehmer Video-Meetings [💬](#3)',
+          '**150** Teilnehmer Videomeetings [💬](#3)',
           '**2** TB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',
@@ -218,11 +215,11 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         title: '**Business** &nbsp 100+ Benutzer',
-        price: '**Individuelle Preisgestaltung**',
+        price: '**Individuelle Preise**',
         details: 'Für Datenschutz entwickelt',
         items: [
           '**Unbegrenzte** Meetings',
-          '**500** Teilnehmer Video-Meetings [💬](#3)',
+          '**500** Teilnehmer Videomeetings [💬](#3)',
           '**5** TB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',
@@ -239,9 +236,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
 > 💡 **_Ihre Zeit ist besser damit verbracht, Ihr Handwerk zu meistern — nicht Grammatik auswendig zu lernen._**  
 > 💡 **_Echte Partnerschaften beginnen mit echten Gesprächen — in ihrer Sprache._**
 
-## Häufig gestellte Fragen
-
-<span id="FAQ"></span>
+## Häufig gestellte Fragen {#FAQ}
 
 <AccordionGroup
     :items="[
@@ -255,7 +250,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         q: 'Wie viele Personen können eine InterMind-Lizenz verwenden?',
-        a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt viele Meetings** veranstalten. Wenn mehrere Teammitglieder gleichzeitig Meetings veranstalten müssen, benötigt jeder eine eigene Lizenz.',
+        a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt Meetings** veranstalten. Wenn mehrere Teammitglieder gleichzeitig Meetings veranstalten müssen, benötigt jeder seine eigene Lizenz.',
       },
       {
         q: 'Wie lange kann ein Meeting maximal dauern?',
@@ -275,7 +270,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         q: 'Was ist, wenn ich Hilfe oder Support benötige?',
-        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **prioritären Support** mit einem dedizierten Ansprechpartner.',
+        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **vorrangigen Support** mit einem dedizierten Kontakt.',
       },
       {
         q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
@@ -313,8 +308,9 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         title: 'RESSOURCEN',
         links: [
           { text: 'Blog', link: './blog/' },
+          { text: 'Globale Sprachzugangs-Compliance', link: './blog/posts/global-language-access-compliance' },
           { text: 'Marken-Assets', link: './resources/media-kit' },
-          { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
+          { text: 'KI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

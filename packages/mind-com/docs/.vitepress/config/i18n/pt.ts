@@ -36,6 +36,7 @@ export const pt = defineConfig({
         items: [
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Depoimentos", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Sobre", link: `${BASE_PATH}/resources/company/about` },
         ],
       },
     ],
@@ -130,14 +131,6 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "Guia legal de IA", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
-    // {
-    //   text: "RECURSOS",
-    //   collapsed: false,
-    //   items: [
-    //     { text: "Recursos da marca", link: "/media-kit" },
-    //     // { text: "Gerenciamento de conta", link: "guide/account-management" },
-    //   ],
-    // },
     {
       text: "EMPRESA",
       collapsed: false,

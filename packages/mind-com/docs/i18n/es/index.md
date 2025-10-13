@@ -1,25 +1,26 @@
 ---
 layout: home
 title: "InterMIND: Traducción de voz en tiempo real para videollamadas"
-description: "Videoconferencias profesionales con interpretación simultánea en más de 19 idiomas. Traducción impulsada por IA que captura tono, intención y contexto. Reúnete globalmente, comunícate naturalmente."
+description: "Videoconferencias profesionales con interpretación simultánea en más de 19 idiomas. Traducción con IA que captura el tono, la intención y el contexto. Reúnete globalmente, comunícate naturalmente."
 isHome: true
 ---
 
-<!-- <HeroSection title="Reúnete en **Cualquier** Idioma" :typingSpeed="10" text="Traducción de voz en vivo en videollamadas. Comprensión instantánea, sin barreras."> -->
+<!-- <HeroSection title="Reúnete en **cualquier** idioma" :typingSpeed="10" text="Traducción de voz en vivo en videollamadas. Comprensión instantánea, sin barreras."> -->
 
-<HeroSection title="Entiende **Cualquier** Idioma" :typingSpeed="20" text="Interpretación simultánea durante videorreuniones. Rompe las barreras del idioma al instante.">
+<HeroSection title="Entiende **cualquier** idioma" :typingSpeed="20" text="Interpretación simultánea durante videollamadas. Rompe las barreras del idioma al instante.">
 <NavButton buttonLabel="Ver demo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="Asistente" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
-<span id="1"></span>
+## Traducción ≠ Comprensión {#1}
+
 <FeatureBlock
     :card="{
       title: 'Traducción ≠ Comprensión. Esto es lo que sigue.',
-      details: 'Sin importar el idioma, tu voz es escuchada — y entendida — como si compartieras la misma lengua.',
+      details: 'Sin importar el idioma, tu voz es escuchada — y comprendida — como si compartieras la misma lengua.',
       items: [
         '✧ Naturalmente, en [tiempo real](./product/overview/how-it-works), y sin subtítulos o retrasos.',
-        '✧ La interpretación impulsada por IA captura tono, intención y terminología específica de la industria.',
+        '✧ La interpretación impulsada por IA captura el tono, la intención y la terminología específica de la industria.',
       ],
       link: './product/overview/what-is-intermind',
       src: {
@@ -30,11 +31,12 @@ isHome: true
     }"
   />
 
-<span id="2"></span>
+## La mente dentro de tus reuniones {#2}
+
 <FeatureBlock
     :card="{
       title: 'La mente dentro de tus reuniones',
-      details: 'InterMIND convierte cada llamada multilingüe en conocimiento claro y consultable.',
+      details: 'InterMind convierte cada llamada multilingüe en conocimiento claro y consultable.',
       items: [
         '✧ **Pregunta cualquier cosa** — la IA encuentra respuestas **en todas tus reuniones**.',
         '✧ Extrae automáticamente tareas, responsables y fechas límite.',
@@ -49,13 +51,14 @@ isHome: true
     }"
   />
 
-<span id="3"></span>
+## Diseñado para reuniones serias {#3}
+
 <FeatureBlock
     :card="{
-      title: 'Construido para reuniones serias — no solo para hablar',
-      details: 'InterMIND es una [plataforma de videorreuniones de grado profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
+      title: 'Diseñado para reuniones serias — No solo para conversar',
+      details: 'InterMind es una [plataforma de videoconferencias de nivel profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
       items: [
-        '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, **listo para usar**.',
+        '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtítulos, chat de participantes e integración de calendario — todo integrado, **listo para usar**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -66,11 +69,12 @@ isHome: true
     }"
   />
 
-<span id="4"></span>
+## Privacidad donde importa {#4}
+
 <FeatureBlock
     :card="{
       title: 'Privacidad donde importa',
-      details: 'InterMIND está construido para conversaciones críticas de confianza — donde la privacidad y el control importan más.',
+      details: 'InterMind está construido para conversaciones críticas de confianza — donde la privacidad y el control importan más.',
       items: ['✧ [Zonas de privacidad](./product/overview/privacy-architecture) — UE, EE.UU., Sudeste Asiático', '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -84,9 +88,7 @@ isHome: true
 > **¿Para quién es esto?**  
 > _Construido para equipos internacionales donde las barreras del idioma causan retrasos, negocios perdidos o malentendidos costosos._ [Aprende más ...](./product/overview/markets)
 
-<span id="HowItWorks"></span>
-
-## Funciona como Google Meet + Traducción en vivo
+## Funciona como Google Meet + Traducción en vivo {#HowItWorks}
 
 Interfaz familiar. Comunicación universal. La misma facilidad que Google Meet — con traducción instantánea que hace desaparecer las barreras del idioma.
 
@@ -129,19 +131,18 @@ Interfaz familiar. Comunicación universal. La misma facilidad que Google Meet �
 
 <!-- <br> -->
 
-<span id="VideoDemo"></span>
+## Demostración en video {#VideoDemo}
+
 <VideoPlayer src="/promo/demo-en-mx.mp4" />
 
-<span id="Example"></span>
-
-## Ejemplo: Cómo funciona la traducción de voz en tiempo real en una reunión
+## Ejemplo: Cómo funciona la traducción de voz en tiempo real en una reunión {#Example}
 
 Supongamos que:
 
 El usuario utiliza **español** como **idioma de localización del sitio**. Organiza una reunión e invita a dos participantes:
 
-- 🧑‍💼 El participante 1 usa la interfaz en **inglés**
-- 👩 La participante 2 usa la interfaz en **chino**
+- 🧑‍💼 Participante 1 usa la interfaz en **inglés**
+- 👩 Participante 2 usa la interfaz en **chino**
 
 ### ¿Qué sucede durante la reunión?
 
@@ -152,11 +153,11 @@ Esta configuración de idioma único se aplica a:
 - La **entrada hablada** (lo que dices)
 - La **salida traducida** (lo que escuchas)
 
-| Participante   | Idioma seleccionado | Habla en  | Escucha en |
-| -------------- | ------------------- | --------- | ---------- |
-| Anfitrión      | Español             | Español   | Español    |
-| Participante 1 | Inglés              | Inglés    | Inglés     |
-| Participante 2 | Chino               | Chino     | Chino      |
+| Participante  | Idioma seleccionado | Habla en  | Escucha en |
+| ------------- | ------------------- | --------- | ---------- |
+| Anfitrión     | Español             | Español   | Español    |
+| Participante 1| Inglés              | Inglés    | Inglés     |
+| Participante 2| Chino               | Chino     | Chino      |
 
 [La plataforma interpreta automáticamente todo el habla en tiempo real](./product/overview/how-it-works) — así que todos se comunican como si hablaran el mismo idioma.
 
@@ -178,15 +179,11 @@ Cambiar esto significa:
 > Controla **cómo hablas**, **qué escuchas** y **qué ves**.  
 > Hablar en un idioma y escuchar en otro **no está soportado** — por diseño, para mantener la experiencia simple y predecible.
 
-<span id="Testimonials"></span>
-
-## Lo que dicen nuestros clientes
+## Lo que dicen nuestros clientes {#Testimonials}
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-<span id="Pricing"></span>
-
-## Precios claros y sencillos
+## Precios claros y sencillos {#Pricing}
 
 Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 
@@ -218,7 +215,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
       },
       {
         title: '**Empresarial** &nbsp 100+ usuarios',
-        price: '**Precio personalizado**',
+        price: '**Precios personalizados**',
         details: 'Diseñado para la privacidad',
         items: [
           '**Ilimitadas** reuniones',
@@ -236,12 +233,10 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 <ContactForm buttonText="Hablar con nuestro equipo" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_Tu tiempo se aprovecha mejor dominando tu oficio — no memorizando gramática._**  
+> 💡 **_Tu tiempo es mejor invertido dominando tu oficio — no memorizando gramática._**  
 > 💡 **_Las verdaderas alianzas comienzan con conversaciones reales — en su idioma._**
 
-## Preguntas Frecuentes
-
-<span id="FAQ"></span>
+## Preguntas Frecuentes {#FAQ}
 
 <AccordionGroup
     :items="[
@@ -302,7 +297,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
         title: 'SOPORTE',
         links: [
           { text: 'Obtener soporte', link: './resources/help' },
-          { text: 'FAQ', link: '#FAQ' },
+          { text: 'Preguntas frecuentes', link: '#FAQ' },
           { text: 'Política de privacidad', link: './resources/company/privacy-policy' },
           { text: 'Guía legal de IA', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Estado del servicio', link: 'https://status.mind.com/' },
@@ -313,8 +308,9 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
         title: 'RECURSOS',
         links: [
           { text: 'Blog', link: './blog/' },
+          { text: 'Cumplimiento de acceso global a idiomas', link: './blog/posts/global-language-access-compliance' },
           { text: 'Recursos de marca', link: './resources/media-kit' },
-          { text: 'Documentos de API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
+          { text: 'Documentación de API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

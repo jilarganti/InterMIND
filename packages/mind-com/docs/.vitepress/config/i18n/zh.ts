@@ -6,7 +6,7 @@ const BASE_PATH = "/zh"
 
 export const zh = defineConfig({
   description:
-    "专业视频会议，支持19+种语言的同声传译。AI驱动的翻译技术，准确捕捉语调、意图和语境，助力全球团队沟通。",
+    "专业视频会议，支持19+种语言的同声传译。AI驱动的翻译技术，准确捕捉语调、意图和语境，为全球团队提供服务。",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | 全球团队实时语音翻译" }],
     [
@@ -36,6 +36,7 @@ export const zh = defineConfig({
         items: [
           { text: "常见问题", link: `${BASE_PATH}/#FAQ` },
           { text: "客户评价", link: `${BASE_PATH}/#Testimonials` },
+          { text: "关于我们", link: `${BASE_PATH}/resources/company/about` },
         ],
       },
     ],
@@ -79,7 +80,7 @@ export const zh = defineConfig({
       successMessage: "我们已收到您的消息——我们的团队将很快与您联系。",
       defaultCategories: [],
 
-      defaultButtonText: "给我们发消息",
+      defaultButtonText: "给我们发送消息",
       // defaultButtonText: "获取免费咨询",
     },
   },
@@ -130,14 +131,6 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "AI法律指南", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
-    // {
-    //   text: "资源",
-    //   collapsed: false,
-    //   items: [
-    //     { text: "品牌资产", link: "/media-kit" },
-    //     // { text: "账户管理", link: "guide/account-management" },
-    //   ],
-    // },
     {
       text: "公司",
       collapsed: false,

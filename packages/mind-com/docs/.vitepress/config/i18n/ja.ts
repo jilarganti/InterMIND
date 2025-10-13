@@ -36,6 +36,7 @@ export const ja = defineConfig({
         items: [
           { text: "よくある質問", link: `${BASE_PATH}/#FAQ` },
           { text: "お客様の声", link: `${BASE_PATH}/#Testimonials` },
+          { text: "会社概要", link: `${BASE_PATH}/resources/company/about` },
         ],
       },
     ],
@@ -130,16 +131,8 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "AI法的ガイド", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
-    // {
-    //   text: "リソース",
-    //   collapsed: false,
-    //   items: [
-    //     { text: "ブランドアセット", link: "/media-kit" },
-    //     // { text: "アカウント管理", link: "guide/account-management" },
-    //   ],
-    // },
     {
-      text: "会社情報",
+      text: "会社",
       collapsed: false,
       items: [
         { text: "会社概要", link: "/company/about" },

@@ -1,567 +1,783 @@
+---
+title: "Çeviri ve Tercümanlık Arasındaki Fark Nedir?"
+description: Çok dilli iletişim ihtiyaçlarınız için ne zaman çeviri hizmetlerine, ne zaman tercümanlık hizmetlerine ihtiyaç duyduğunuzu anlamak için açık ve görsel bir rehber.
+head:
+  - - meta
+    - name: keywords
+      content: çeviri, tercümanlık, dil hizmetleri, çok dilli iletişim
+---
+
 # Çeviri ve Tercümanlık Arasındaki Fark Nedir?
 
-Giderek daha fazla birbirine bağlanan dünyamızda, dil engellerini aşmak hiç bu kadar kritik olmamıştı. İşinizi küresel olarak genişletiyor, uluslararası konferanslara katılıyor veya sadece kültürler arası iletişim kurmaya çalışıyor olun, muhtemelen hem çeviri hem de tercümanlık hizmetleriyle karşılaştınız. Ancak şu gerçek var: birçok kişi bu terimleri birbirinin yerine kullanırken, bunlar aslında tamamen farklı beceri setleri, araçlar ve yaklaşımlar gerektiren farklı mesleklerdir.
+<p class="subtitle">İhtiyaçlarınız için doğru dil hizmetini seçmek</p>
+
+> **Temel Fark:**  
+> **Çeviri** yazılı metinlerle çalışır. **Tercümanlık** konuşulan dili gerçek zamanlı olarak işler.
+
+## Hızlı Karşılaştırma
+
+<div class="comparison-hero">
+  <div class="hero-card translation">
+    <div class="hero-icon">📄</div>
+    <h3>Çeviri</h3>
+    <p class="hero-tagline">Yazılı • Düşünülmüş • Cilalı</p>
+    <ul class="hero-features">
+      <li>Metin ile çalışır</li>
+      <li>Araştırma için zaman</li>
+      <li>Çoklu revizyonlar</li>
+      <li>Kalıcı çıktı</li>
+    </ul>
+  </div>
+  
+  <div class="vs-divider">KARŞI</div>
+  
+  <div class="hero-card interpretation">
+    <div class="hero-icon">🗣️</div>
+    <h3>Tercümanlık</h3>
+    <p class="hero-tagline">Sözlü • Gerçek zamanlı • Dinamik</p>
+    <ul class="hero-features">
+      <li>Konuşmayı işler</li>
+      <li>Anında teslimat</li>
+      <li>İkinci şans yok</li>
+      <li>Canlı performans</li>
+    </ul>
+  </div>
+</div>
+
+## Çeviri: Yazılı Kelime
+
+<div class="service-section">
+
+### Çeviri Nedir?
+
+Yazılı içeriği bir dilden diğerine anlam, ton ve kültürel nüansları koruyarak dönüştürme. Düşünün: belgeler, web siteleri, kitaplar.
+
+### Temel Özellikler
+
+<div class="features-grid">
+  <div class="feature-box">
+    <strong>⏱️ Mükemmelleştirme Zamanı</strong>
+    <p>Araştırma, revizyon ve cilalama için günler veya haftalar</p>
+  </div>
+  <div class="feature-box">
+    <strong>🎯 Hassasiyet Gerekli</strong>
+    <p>Hukuki/tıbbi bağlamlarda hata toleransı sıfır</p>
+  </div>
+  <div class="feature-box">
+    <strong>🌍 Kültürel Uyarlama</strong>
+    <p>Deyimleri, mizahı ve kültürel referansları ayarlar</p>
+  </div>
+  <div class="feature-box">
+    <strong>💻 Teknoloji Destekli</strong>
+    <p>CAT araçları, çeviri bellekleri, sözlükler kullanır</p>
+  </div>
+</div>
+
+### Yaygın Çeviri Türleri
+
+| Tür              | Örnekler                         | Öncelik          |
+| ---------------- | -------------------------------- | ---------------- |
+| **Edebi**        | Kitaplar, şiir, oyunlar          | Sanatsal ses     |
+| **Teknik**       | Kılavuzlar, şartnameler          | Doğruluk         |
+| **Hukuki**       | Sözleşmeler, patentler           | Sıfır belirsizlik |
+| **Tıbbi**        | Klinik denemeler, hasta kayıtları | Hasta güvenliği  |
+| **Pazarlama**    | Reklamlar, sloganlar, kampanyalar | Duygusal etki    |
+| **Yerelleştirme** | Web siteleri, yazılım, uygulamalar | Kültürel uyum   |
+
+</div>
+
+## Sözlü Çeviri: Konuşulan Kelime
+
+<div class="service-section">
+
+### Sözlü Çeviri Nedir?
+
+Konuşulan dilin gerçek zamanlı sözlü dönüştürülmesi. Düşünün: konferanslar, tıbbi konsültasyonlar, iş toplantıları.
+
+### Temel Özellikler
+
+<div class="features-grid">
+  <div class="feature-box">
+    <strong>⚡ Anında Teslimat</strong>
+    <p>Duraklama yok, araştırma yok, revizyon yok</p>
+  </div>
+  <div class="feature-box">
+    <strong>🧠 Bilişsel Yük</strong>
+    <p>Bölünmüş dikkat: aynı anda dinle, işle, konuş</p>
+  </div>
+  <div class="feature-box">
+    <strong>🎤 Halka Açık Performans</strong>
+    <p>Net telaffuz, güven, dayanıklılık</p>
+  </div>
+  <div class="feature-box">
+    <strong>👥 Takım Yaklaşımı</strong>
+    <p>Çevirmenler her 20-30 dakikada bir değişir</p>
+  </div>
+</div>
 
-Çeviri ve tercümanlık arasındaki farkı anlamak sadece akademik bir merak değildir—uluslararası iş, sağlık, hukuk veya çok dilli iletişimin önemli olduğu herhangi bir alanda çalışan herkes için temel bir bilgidir. Bu iki dil hizmetini birbirinden ayıran unsurları derinlemesine inceleyelim ve doğru seçimi yapmanın iletişim çabalarınızı nasıl başarıya ulaştırabileceğini veya başarısızlığa sürükleyebileceğini görelim.
+### Sözlü Çeviri Yöntemleri
 
-## Temel Fark: Yazılı ve Sözlü
+<div class="methods-grid">
 
-<img src="/product/iStock-1006678326.jpg" width="700" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/product/iStock-491618768.jpg"  width="700" align="right" style="padding: 1.5rem" class="light-only">
+<div class="method-card simultaneous">
+  <h4>🎧 Eşzamanlı</h4>
+  <p><strong>Ne Zaman:</strong> Büyük konferanslar, BM toplantıları</p>
+  <p><strong>Nasıl:</strong> Kaynak konuşmaya devam ederken çevirmen konuşur</p>
+  <p><strong>İhtiyaçlar:</strong> Kabinler, kulaklıklar, ekipman</p>
+</div>
 
-Özünde, ayrım oldukça basittir: **çeviri yazılı metinlerle ilgilenir**, **tercümanlık ise sözlü dille ilgilenir**. Şöyle düşünün: Orijinali Fransızca yazılmış ancak şimdi İngilizce olarak mevcut olan bir roman okuyorsanız, bu çeviridir. Delegelerin farklı diller konuştuğu ancak herkesin gerçek zamanlı dönüştürme yoluyla anladığı bir BM toplantısını izliyorsanız, bu tercümanlıktır.
+<div class="method-card consecutive">
+  <h4>✋ Ardışık</h4>
+  <p><strong>Ne Zaman:</strong> İş toplantıları, hukuki işlemler</p>
+  <p><strong>Nasıl:</strong> Konuşmacı çeviri için durur</p>
+  <p><strong>İhtiyaçlar:</strong> Not alma sistemi, daha fazla zaman</p>
+</div>
 
-Bu temel fark basit görünebilir, ancak bu profesyonellerin nasıl çalıştıkları, ihtiyaç duydukları beceriler ve karşılaştıkları zorluklar konusunda sayısız farklılığa yol açar.
+<div class="method-card whispered">
+  <h4>🤫 Fısıltılı (Chuchotage)</h4>
+  <p><strong>Ne Zaman:</strong> Sadece 1-2 dinleyici</p>
+  <p><strong>Nasıl:</strong> Bireylere çeviriyi fısıldar</p>
+  <p><strong>İhtiyaçlar:</strong> Ekipman yok, fiziksel olarak yorucu</p>
+</div>
 
-## Çeviri Nedir? Yazılı Dil Dönüştürme Sanatı
+<div class="method-card remote">
+  <h4>💻 Uzaktan (Video/Telefon)</h4>
+  <p><strong>Ne Zaman:</strong> Sağlık, hukuk, mesafe</p>
+  <p><strong>Nasıl:</strong> Video/telefon ile çeviri</p>
+  <p><strong>İhtiyaçlar:</strong> Kararlı teknoloji, net ses</p>
+</div>
 
-Çeviri, yazılı içeriği bir dilden (kaynak) diğerine (hedef) anlam, ton, stil ve kültürel nüansları koruyarak dönüştürme sürecidir. Araştırma, revizyon ve iyileştirmeye olanak tanıyan metodolojik bir süreçtir.
+</div>
 
-### Çevirinin Temel Özellikleri
+</div>
 
-**Mükemmellik İçin Zaman**: Çevirmenler genellikle saniyelerle değil, günler veya haftalarla ölçülen son teslim tarihleriyle çalışırlar. Bu onlara şunları yapma imkanı verir:
+## Beceriler: Birbirinin Yerine Geçemez
 
-- Özel terminolojiyi araştırma
-- Referans materyalleri ve sözlüklere danışma
-- Çalışmalarını birden çok kez gözden geçirme ve revize etme
-- Editörler ve düzeltmenlerle işbirliği yapma
-- Büyük belgelerde tutarlılığı sağlama
+<div class="skills-comparison">
 
-**Hassasiyet ve Cilalama**: Nihai ürün kalıcı olduğu ve genellikle yayımlandığı için, çeviriler titizlikle doğru olmalıdır. Yasal bir sözleşme veya tıbbi belgede tek bir yanlış çeviri ciddi sonuçlara yol açabilir.
+<div class="skills-column translator-skills">
 
-**Kültürel Uyarlama**: Çevirmenler sadece kelimeleri dönüştürmezler; içeriği farklı kültürel bağlamlara uyarlarlar. Bu, deyimleri, metaforları, mizahı ve kültürel referansları hedef kitleyle rezonansa girecek şekilde ayarlamayı içerir.
+### 📝 Çevirmen Becerileri
 
-### Çeviri Hizmetleri Türleri
+- Mükemmel yazma yeteneği
+- Araştırma yeterliliği
+- Detaylara dikkat
+- Zaman yönetimi
+- CAT araç uzmanlığı
+- Konu alanı bilgisi
 
-Çeviri endüstrisi, her biri benzersiz gereksinimlere sahip çeşitli uzmanlık alanlarını kapsar:
+</div>
 
-**Edebi Çeviri**
+<div class="skills-column interpreter-skills">
 
-- Romanlar, şiir, oyunlar ve yaratıcı eserler
-- Yazarın sesini korumak için sanatsal duyarlılık gerektirir
-- Kelimesi kelimesine doğruluk ile yaratıcı ifade arasında denge kurar
-- Tek bir kitap için aylar veya yıllar sürebilir
+### 🎯 Tercüman Becerileri
 
-**Teknik Çeviri**
+- Bölünmüş dikkat yeteneği
+- Stres yönetimi
+- Kültürel zeka
+- Fiziksel dayanıklılık
+- Hızlı doğaçlama
+- Hafıza teknikleri
 
-- Kullanım kılavuzları, mühendislik spesifikasyonları, bilimsel makaleler
-- Konu alanı uzmanlığı gerektirir
-- Stilden ziyade doğruluk ve netliği öncelendirir
-- Genellikle özel terminoloji veritabanları kullanır
+</div>
 
-**Hukuki Çeviri**
+</div>
 
-- Sözleşmeler, patentler, mahkeme belgeleri, mevzuat
-- Hem kaynak hem de hedef yargı alanlarında hukuki bilgi gerektirir
-- Belirsizlik veya hataya sıfır tolerans
-- Genellikle sertifikalı çevirmenler gerektirir
+## Teknoloji Etkisi
 
-**Tıbbi Çeviri**
+<div class="tech-section">
 
-- Klinik çalışmalar, hasta kayıtları, farmasötik dokümantasyon
-- Tıbbi uzmanlığı dilbilimsel becerilerle birleştirir
-- Sıkı düzenleyici gereksinimlere tabidir
-- Hasta güvenliğini doğrudan etkileyebilir
+### 🤖 Çeviri İçin
 
-**Pazarlama Çevirisi (Transkrıasyon)**
+<img src="/product/iStock-491618768.jpg" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/product/iStock-491618768.jpg"  width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-- Reklam kampanyaları, marka mesajları, sloganlar
-- Duygusal etkiyi yeniden yaratmak için kelimesi kelimesine çevirinin ötesine geçer
-- Yerel pazarlar için içeriği tamamen yeniden tasarlayabilir
-- İkna ve marka tutarlılığına odaklanır
+**Makine Çevirisi (MT)**
 
-**Web Sitesi ve Yazılım Yerelleştirmesi**
+- Google Translate, DeepL, GPT-4
+- Özet çıkarma ve gayri resmi kullanım için harika
+- Profesyonel kullanımda insan düzenlemesi gerektirir
+- Bağlam ve nüanslarla zorlanır
 
-- Kullanıcı arayüzleri, yardım dokümantasyonu, web içeriği
-- Yerel konvansiyonlara uyarlar (tarihler, para birimleri, ölçümler)
-- Teknik kısıtlamaları dikkate alır (metin genişlemesi, karakter kodlaması)
-- Görsellerin ve renklerin kültürel uyarlamasını içerir
+**CAT Araçları**
 
-## Tercümanlık Nedir? Gerçek Zamanlı Dil Dönüşümünün Zorluğu
+- Tutarlılık için çeviri bellekleri
+- Terminoloji yönetimi
+- Kalite güvence kontrolleri
+- Takım işbirliği
 
-Tercümanlık, konuşulan dilin gerçek zamanlı veya gerçek zamana yakın sözlü çevirisidir. Tercümanların mesajları anında işlemesi, anlaması ve iletmesi gerekir; sözlük kullanma veya ikinci şans lüksü yoktur. Simultane tercümanlığın bilişsel yükü hava trafik kontrolörlerininki ile karşılaştırılmıştır—sürekli yoğun konsantrasyon ve olağanüstü çoklu görev yetenekleri gerektirir.
+### 🎙️ Sözlü Çeviri İçin
 
-### Tercümanlığın Temel Özellikleri
+<img src="/product/iStock-1006678326.jpg" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/product/iStock-1006678326.jpg"  width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-**Anında Teslimat**: Tercümanlar o anda çalışır, duraklamak, araştırma yapmak veya revize etmek için fırsatları yoktur. Şunları yapmalıdırlar:
+**AI Gerçek Zamanlı Sözlü Çeviri**
 
-- Yeni içeriği dinlerken bilgiyi işlemek
-- Kelime seçimi konusunda anlık kararlar vermek
-- Konuşmacının hızını ve akışını korumak
-- Aksanlar, lehçeler ve konuşma varyasyonlarıyla başa çıkmak
-- Teknik zorlukları veya kötü ses kalitesini yönetmek
-
-**Aktif Dinleme ve Hafıza**: Tercümanlar sadece kelimeleri değil, niyetleri, duyguları ve sözsüz ipuçlarını yakalamak için sofistike dinleme teknikleri ve hafıza stratejileri kullanır.
-
-**Topluluk Önünde Konuşma Becerileri**: Perde arkasında çalışan çevirmenlerden farklı olarak, tercümanlar genellikle yüksek baskılı kamusal ortamlarda performans sergiler, bu da güven, net artikülasyon ve profesyonel duruş gerektirir.
-
-**Fiziksel Dayanıklılık**: Tercümanlık fiziksel olarak zorludur, sürekli konsantrasyon gerektirir ve genellikle uzun süreler boyunca ayakta durmayı veya rahatsız pozisyonlarda oturmayı gerektirir. Bu kadar yoğun odaklanmayı sürdürmekten kaynaklanan zihinsel yorgunluk nedeniyle simultane tercümanlar genellikle çiftler halinde çalışır ve her 20-30 dakikada bir değişir.
-
-### Tercümanlık Hizmet Türleri
-
-Farklı durumlar farklı tercümanlık yaklaşımları gerektirir:
-
-**Simultane Tercümanlık**
-
-- Tercüman, kaynak konuşmacı konuşmaya devam ederken konuşur
-- Büyük konferanslarda, BM toplantılarında, AB Parlamentosu'nda yaygındır
-- Özel ekipman gerektirir (kabinler, kulaklıklar, vericiler)
-- Tercümanlar genellikle çiftler halinde çalışır, her 20-30 dakikada bir değişir
-- Olağanüstü konsantrasyon ve çoklu görev yeteneği gerektirir
-
-**Ardışık Tercümanlık**
-
-- Konuşmacı tercümanlık için bölümler halinde durur
-- İş toplantılarında, hukuki işlemlerde, tıbbi konsültasyonlarda kullanılır
-- Tercüman özel notasyon sistemleri kullanarak not alır
-- Açıklama ve daha fazla doğruluk sağlar
-- Daha zaman alıcı ancak genellikle daha kesin
-
-**Fısıltılı Tercümanlık (Chuchotage)**
-
-- Tercüman bir veya iki dinleyiciye çeviriyi fısıldar
-- Sadece birkaç katılımcının tercümanlığa ihtiyacı olduğunda kullanılır
-- Ekipman gerektirmez ancak fiziksel olarak zorludur
-- Ses kısıtlamaları nedeniyle küçük gruplarla sınırlıdır
-
-**Röle Tercümanlık**
-
-- İki dil arasında doğrudan tercüman bulunmadığında kullanılır
-- Tercümanlık ara bir dil üzerinden geçer
-- Nadir dil kombinasyonlarının olduğu çok dilli ortamlarda yaygındır
-- Tercümanlar arasında olağanüstü koordinasyon gerektirir
-
-**Uzaktan Tercümanlık (Video/Telefon)**
-
-- Pandemi sonrası giderek popüler
-- Sağlık, hukuk ve iş ortamlarında kullanılır
-- Benzersiz zorluklar sunar (teknoloji sorunları, görsel ipuçlarının eksikliği)
-- Nadir diller için tercümanlara erişim sağlar
-
-**Toplum Tercümanlığı**
-
-- Hastaneler, okullar, sosyal hizmetlerde yerel topluluklara hizmet verir
-- Genellikle savunmasız popülasyonları içerir
-- Kültürel arabuluculuk becerileri gerektirir
-- Tercümanların kültürel farklılıkları açıklaması gerekebilir
-
-## Eğitim Yolları ve Mesleki Gelişim
-
-Çevirmenler ve tercümanlar için eğitim yolları, bazı alanlarda örtüşse de, her mesleğin gerektirdiği özel becerilere göre genellikle farklılaşır.
-
-### Çevirmenler için Eğitim
-
-Birçok çevirmen çeviri çalışmaları, dilbilim veya modern diller alanında dereceye sahiptir. Ancak, konu alanı uzmanlığı da eşit derecede değerlidir—tıbbi metinlerde uzmanlaşan bir çevirmen tıp veya yaşam bilimleri geçmişine sahip olabilirken, hukuki çevirmen hukuk okumuş olabilir.
-
-Çeviri programları genellikle şunlara odaklanır:
-
-- Çeviri teorisi ve karşılaştırmalı üslupbilim
-- Terminoloji yönetimi ve CAT araçları
-- Çeşitli metin türleri ve türler
-- Serbest çevirmenliğin iş yönleri
-- Makine çevirisi sonrası düzenleme teknikleri
-
-### Tercümanlar için Eğitim
-
-Tercüman eğitimi programları, yoğun alıştırmalar yoluyla pratik beceri geliştirmeye ağırlık verir:
-
-- **Konuşma gölgeleme**: Bölünmüş dikkat geliştirmek için konuşmacıların aynı dilde söylediklerini tekrarlama
-- **Görsel çeviri**: Yazılı metinleri anında sözlü olarak çevirme
-- **Hafıza alıştırmaları**: Büyük bilgi parçalarını tutma ve hatırlama kapasitesi geliştirme
-- **Not alma sistemleri**: Ardışık tercüme için kişisel stenografi geliştirme
-- **Sahte konferanslar**: Simüle edilmiş profesyonel ortamlarda pratik yapma
-
-Öğrenciler tercüme laboratuvarlarında sayısız saat geçirerek dayanıklılık kazanır ve gerçek zamanlı dil dönüşümü için gerekli benzersiz bilişsel yetenekleri geliştirir.
-
-## Profesyonel Standartlar ve Sertifikasyon
-
-Hem çeviri hem de tercümanlık, hizmet mükemmelliğini sağlayan yerleşik kalite standartları ve profesyonel sertifikasyonlara sahiptir:
-
-### Çeviri Kalite Standartları
-
-**ISO Sertifikaları**
-
-- **ISO 17100:2015**: Çevirmen yeterliliği, üretim süreci ve kalite güvencesi dahil olmak üzere çeviri hizmeti sağlayıcıları için gereksinimleri belirtir
-- **ISO 18587:2017**: Makine çevirisi çıktısının düzenlenmesini kapsar ve bu büyüyen hizmet alanı için standartlar oluşturur
-
-**Kalite Metrikleri**
-Profesyonel çeviri kalitesi beş temel boyut üzerinden ölçülür:
-
-- **Doğruluk**: Eksiltme veya ekleme olmaksızın bilginin doğru aktarımı
-- **Akıcılık**: Pürüzsüz okunan doğal hedef dil ifadesi
-- **Terminoloji**: Uygun teknik terimlerin tutarlı kullanımı
-- **Stil**: Uygun register, ton ve stil kılavuzlarına uygunluk
-- **Biçimlendirme**: Korunan düzen, yapı ve görsel sunum
-
-**İnceleme Süreci**
-Kaliteli çeviri genellikle birden fazla aşama içerir:
-
-1. Nitelikli çevirmen tarafından ilk çeviri
-2. Kaynak ve hedef metni karşılaştıran ikinci dilbilimci tarafından revizyon
-3. Nihai hedef metnin düzeltmesi
-4. Uzmanlaşmış içerik için konu uzmanı incelemesi
-5. Son kalite güvence kontrolleri
-
-## ISO Standartları Hızlı Referans Kılavuzu
-
-| **Standart**       | **Tam Adı**                                                | **Uygulama Alanı**                                       | **Temel Gereksinimler**                                                                                                                             | **Kimler İhtiyaç Duyar**                                                                                     |
-| ------------------ | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
-| **ISO 17100:2015** | Çeviri hizmetleri — Çeviri hizmetleri için gereksinimler | Tüm çeviri projeleri                              | • Nitelikli çevirmenler<br>• Tanımlanmış üretim süreci<br>• İkinci dilbilimci tarafından inceleme<br>• Son düzeltme<br>• Proje yönetimi protokolleri | Çeviri ajansları, Kurumsal çeviri departmanları, Sertifikasyon arayan serbest çevirmenler |
-| **ISO 18587:2017** | Makine çevirisi çıktısının son düzenlemesi                   | MT + İnsan son düzenleme projeleri                      | • Son düzenleyici nitelikleri<br>• Tam ve hafif son düzenleme tanımları<br>• Kalite değerlendirme kriterleri<br>• MT kullanımı için müşteri anlaşması       | MT kullanan şirketler, PEMT hizmetleri sunan LSP'ler, MT iş akışları olan teknoloji şirketleri                    |
-| **ISO 20771:2020** | Hukuki çeviri — Gereksinimler                             | Hukuki belge çevirisi                            | • Hukuki bilgi gereksinimleri<br>• Hukuk uzmanı tarafından revizyon<br>• Gizlilik protokolleri<br>• Sertifikasyon prosedürleri                        | Hukuki çevirmenler, Hukuk büroları, Mahkemeler ve tribunaller, Devlet kurumları                              |
-| **ISO 13611:2014** | Sözlü çeviri — Toplum çevirmenliği için kılavuzlar         | Sağlık, sosyal hizmetler, hukuki toplum ortamları | • Çevirmen yetkinlikleri<br>• Etik kurallar<br>• Kültürel arabuluculuk kılavuzları<br>• Çalışma koşulları                                        | Hastaneler ve klinikler, Sosyal hizmet kurumları, Toplum kuruluşları, Mahkeme sistemleri               |
-| **ISO 23155:2022** | Konferans çevirmenliği — Gereksinimler ve öneriler   | Konferans ve simultane çeviri            | • Takım kompozisyonu<br>• Kabin özellikleri<br>• Ekipman standartları<br>• Çalışma süresi sınırları                                                   | Konferans organizatörleri, Uluslararası kuruluşlar, Çeviri hizmeti sağlayıcıları                 |
-| **ISO 20228:2019** | Hukuki sözlü çeviri — Gereksinimler                            | Mahkeme ve hukuki işlemler                           | • Hukuki bilgi<br>• Tarafsızlık gereksinimleri<br>• Doğruluk standartları<br>• Mesleki davranış                                               | Mahkeme çevirmenleri, Hukuki çeviri hizmetleri, Adalet bakanlıkları                               |
-| **ISO 21998:2020** | Tıbbi/Sağlık çevirmenliği                              | Tıbbi ve sağlık ortamları                       | • Tıbbi terminoloji bilgisi<br>• Hasta güvenliği protokolleri<br>• Gizlilik (HIPAA)<br>• Kültürel yetkinlik                              | Sağlık tesisleri, Tıbbi çevirmenler, Telesağlık sağlayıcıları                                    |
-| **ISO 20539:2017** | Çeviri teknolojisi — Kelime dağarcığı                          | Teknoloji ve araçlar                                  | • Standartlaştırılmış terminoloji<br>• Araç sınıflandırmaları<br>• Süreç tanımları                                                                    | CAT araç geliştiricileri, Çeviri teknolojistleri, LSP IT departmanları                                   |
-
-### Bu Tabloyu Nasıl Kullanmalı:
-
-**Müşteriler İçin:**
-
-- Dil hizmeti sağlayıcınızın ilgili ISO sertifikalarına sahip olup olmadığını kontrol edin
-- Her standardın sağladığı kalite garantilerini anlayın
-- Proje ihtiyaçlarınızı uygun standartlarla eşleştirin
-
-**Dil Hizmeti Sağlayıcıları İçin:**
-
-- Hangi sertifikaların hizmet tekliflerinizle uyumlu olduğunu belirleyin
-- Her standart için uyumluluk gereksinimlerini anlayın
-- Sertifikaları rekabet avantajı olarak kullanın
-
-**Bireysel Profesyoneller İçin:**
-
-- Hangi standartların uzmanlık alanınıza uygulandığını bilin
-- Alanınızdaki kalite beklentilerini anlayın
-- Standartları mesleki gelişim kılavuzu olarak kullanın
-
-### Önemli Notlar:
-
-- **ISO sertifikasyonu isteğe bağlıdır** ancak profesyonel hizmetler için giderek daha fazla beklenmektedir
-- **Maliyetler** kuruluş büyüklüğü ve standarda bağlı olarak 5.000-50.000 dolar arasında değişir
-- **Yıllık denetimler** sertifikasyonu sürdürmek için gereklidir
-- **Tüm standartlar tüm ülkelerde mevcut değildir** - ulusal standartlar kurumunuzla kontrol edin
-- **Standartları birleştirmek** (örn. 17100 + 18587) kapsamlı kalite kapsamı sağlar
-
-### Sözlü Çeviri Sertifikasyon Programları
-
-**Amerika Birleşik Devletleri**
-
-- **Federal Mahkeme Sertifikasyonu**: Federal mahkemelerde İspanyolca çevirmenler için
-- **Eyalet Mahkemesi Sertifikasyonu**: Eyalete göre değişir, birden fazla dili kapsar
-- **CCHI (Sağlık Çevirmenleri Sertifikasyon Komisyonu)**: Ulusal sağlık çevirmenliği sertifikasyonu
-- **NBCMI (Tıbbi Çevirmenler Ulusal Sertifikasyon Kurulu)**: Alternatif tıbbi çeviri sertifikası
-
-**Uluslararası**
-
-- **AIIC (Uluslararası Konferans Çevirmenleri Derneği)**: Çalışma koşulları, takım kompozisyonu ve mesleki etik dahil olmak üzere konferans çevirmenliği için küresel standartlar belirler
-- **Ulusal akreditasyon sistemleri**: Birçok ülkenin toplum ve kamu hizmeti çevirmenleri için kendi sertifikasyon programları vardır
-
-## Beceri Açığı: Çevirmenler ve Tercümanlar Neden Birbirinin Yerine Geçemez
-
-Her iki meslek de dil uzmanlığı gerektirse de, ihtiyaç duyulan spesifik beceriler önemli ölçüde farklılık gösterir:
-
-### Çevirmen Becerileri
-
-**Yazılı Mükemmellik**: Çevirmenler hedef dillerinde mükemmel dilbilgisi, uygun üslup ve doğal akış ile güzel yazabilmelidir. Özünde kaynak metinlerden çalışan yazarlardır.
-
-**Araştırma Yeterliliği**: Terminolojiyi hızlıca bulup doğrulama, kültürel referansları araştırma ve uzmanlaşmış alanlarda mini uzman olma yeteneği.
-
-**Detaylara Dikkat**: Her nüansı yakalama, her gerçeği kontrol etme, yüzlerce sayfa boyunca tutarlılığı sağlama.
-
-**Zaman Yönetimi**: Kaliteyi son teslim tarihleriyle dengeleme, büyük projeleri yönetme, ekiplerle koordinasyon kurma.
-
-**Teknoloji Bilgisi**: CAT araçları, çeviri bellekleri, terminoloji veritabanları ve dosya formatı dönüşümlerinde yeterlilik.
-
-### Tercüman Becerileri
-
-**Bölünmüş Dikkat**: Aynı anda dinleme, işleme ve konuşma bilişsel yeteneği—başınızı okşarken karnınızı ovmak gibi, ancak sonsuz kat daha karmaşık.
-
-**Stres Yönetimi**: Yüksek baskı altındaki durumlarda sakin ve odaklanmış kalma, hatalardan zarif bir şekilde kurtulma.
-
-**Kültürel Zeka**: Ortamı okuma, sözsüz iletişimi anlama, kültürel yanlış anlamaları arabuluculuk etme.
-
-**Fiziksel Dayanıklılık**: Tercümanlık fiziksel olarak zorludur, sürekli konsantrasyon gerektirir ve genellikle uzun süreler boyunca ayakta durma veya rahatsız pozisyonlarda oturma gerektirir.
-
-**Doğaçlama**: Beklenmedik durumları, teknik arızaları veya hazırlanmış metinlerden sapan konuşmacıları idare etme.
-
-## Teknolojinin Devrimsel Etkisi
-
-Dijital devrim hem çeviri hem de sözlü çeviri alanlarını farklı şekillerde dönüştürdü:
-
-### Yapay Zeka ve Makine Çevirisi
-
-**Sinir Ağı Makine Çevirisi (NMT)**
-
-- Google Translate, DeepL ve GPT-4 tabanlı çözümler gibi sistemler
-- Son yıllarda kalitede dramatik iyileşme
-- Özet çıkarma ve gayri resmi iletişim için mükemmel
-- Profesyonel kullanım için hala insan düzenlemesi gerektiriyor
-- Bağlam, mizah ve kültürel nüanslarla zorlanıyor
-
-**Bilgisayar Destekli Çeviri (CAT) Araçları**
-
-- İnsan çevirmenlerin daha verimli çalışmasına yardımcı olan yazılım
-- Çeviri bellekleri önceki çevirileri yeniden kullanım için saklar
-- Terminoloji yönetimi tutarlılığı sağlar
-- Kalite güvence araçları hataları ve tutarsızlıkları yakalar
-- Dağıtık ekipler arasında işbirliğini mümkün kılar
-
-### Yapay Zeka Destekli Sözlü Çeviri
-
-**Gerçek Zamanlı Yapay Zeka Sözlü Çevirisi**
-
-- Makine çevirisi ile birleştirilmiş otomatik konuşma tanıma
-- Anlık altyazı ve çeviriler sağlar
-- Yaygın dil çiftleri için giderek daha doğru
-- Büyük ölçekli etkinlikler için maliyet etkin
-- Aksanlar, teknik jargon ve kötü ses kalitesi ile hala zorlanıyor
+- Otomatik konuşma tanıma + MT
+- Anlık altyazılar ve çeviriler
+- Büyük etkinlikler için maliyet etkin
+- Aksanlar ve jargonla hala zorlanıyor
 
 **Hibrit Çözümler**
 
-- İnsan uzmanlığını yapay zeka desteği ile birleştirme
-- Yapay zeka ilk taslağı sağlar; insanlar kaliteyi garanti eder
-- Doğruluğu korurken maliyetleri düşürür
-- Daha fazla dil kombinasyonunda hizmetleri mümkün kılar
-- Artan talebi karşılamak için ölçeklenir
+- AI ilk taslak + insan iyileştirmesi
+- Maliyetleri düşürür, kaliteyi korur
+- Daha fazla dil çiftini mümkün kılar
 
-## Çeviri ve Tercümanlık Arasında Ne Zaman Hangisini Seçmeli: Hibrit Senaryolar
+</div>
 
-<img src="/product/iStock-2204770115.jpg"  width="700" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/product/iStock-965097108.jpg" width="700" align="right" style="padding: 1.5rem" class="light-only">
+## Ne Zaman Hangisini Kullanmalı
 
-Doğru seçimi yapmak özel ihtiyaçlarınıza bağlıdır ve giderek artan bir şekilde, birçok durum her iki hizmetin birlikte çalışmasını gerektirir:
+<div class="usage-grid">
 
-### Çeviriye İhtiyacınız Olduğu Durumlar:
+<div class="usage-card">
+  <h3>✅ Çeviri Seçin</h3>
+  <ul>
+    <li>Çok dilli web siteleri/uygulamalar</li>
+    <li>Yayınlanmış kitaplar, raporlar</li>
+    <li>Hukuki belgeler</li>
+    <li>Pazarlama materyalleri</li>
+    <li>Teknik dokümantasyon</li>
+    <li>E-öğrenme kursları</li>
+  </ul>
+</div>
 
-- Çok dilli web siteleri veya uygulamalar oluştururken
-- Kitap, makale veya raporları uluslararası düzeyde yayınlarken
-- Yabancı yargı alanları için yasal belgeler hazırlarken
-- Yeni pazarlar için pazarlama materyallerini yerelleştirirken
-- Teknik dokümantasyon veya kullanım kılavuzlarını çevirirken
-- E-öğrenme kurslarını küresel kitleler için uyarlarken
-- Tarihi belgeleri veya arşivleri dönüştürürken
+<div class="usage-card">
+  <h3>✅ Tercümanlık Seçin</h3>
+  <ul>
+    <li>Uluslararası konferanslar</li>
+    <li>İş müzakereleri</li>
+    <li>Tıbbi konsültasyonlar</li>
+    <li>Eğitim oturumları</li>
+    <li>Hukuki işlemler</li>
+    <li>Canlı yayınlar</li>
+  </ul>
+</div>
 
-### Tercümanlığa İhtiyacınız Olduğu Durumlar:
+<div class="usage-card hybrid">
+  <h3>🔄 Her İkisini Kullanın (Hibrit)</h3>
+  <ul>
+    <li>Uluslararası konferanslar</li>
+    <li>Hukuki davalar (belgeler + mahkeme)</li>
+    <li>Tıbbi araştırma işbirlikleri</li>
+    <li>Küresel ürün lansmanları</li>
+    <li>Birleşme ve satın alma işlemleri</li>
+  </ul>
+</div>
 
-- Uluslararası konferans veya zirveler düzenlerken
-- Çok dilli iş müzakereleri yürütürken
-- Ana dili farklı olan hastalara sağlık hizmeti verirken
-- Çok dilli eğitim oturumları veya atölye çalışmaları yürütürken
-- Yabancı dil konuşanlarla yasal işlemleri kolaylaştırırken
-- Canlı etkinlikleri uluslararası kitleye yayınlarken
-- Diplomatik toplantılar veya barış müzakereleri yürütürken
+</div>
 
-### Her İki Hizmeti de Gerektiren Hibrit Durumlar
+## Profesyonel Standartlar
 
-**Uluslararası Konferanslar**
+<div class="standards-section">
 
-- Çeviri: Konferans materyalleri, sunumlar, tutanaklar ve el broşürleri
-- Tercümanlık: Canlı oturumlar, soru-cevap dönemleri, ağ oluşturma etkinlikleri
-- Koordinasyon gereksinimi: Tüm materyaller ve tercümanlıklar arasında tutarlı terminoloji
+### Çeviri için ISO Sertifikaları
 
-**Uluslararası Unsurlu Yasal Davalar**
+| Standart           | Kapsadığı Alan                   | Kimler İhtiyaç Duyar            |
+| ------------------ | -------------------------------- | ------------------------------- |
+| **ISO 17100:2015** | Çeviri hizmeti gereksinimleri    | Ajanslar, kurumsal departmanlar |
+| **ISO 18587:2017** | Makine çevirisi sonrası düzenleme | MT iş akışları kullanan şirketler |
+| **ISO 20771:2020** | Hukuki çeviri                    | Hukuk büroları, mahkemeler, devlet |
 
-- Çeviri: Sözleşmeler, kanıt belgeleri, yazılı tanıklıklar
-- Tercümanlık: Mahkeme işlemleri, ifade alma, müvekkil görüşmeleri
-- Kritik gereksinim: Her iki hizmet için de sertifikalı profesyoneller
+### Sözlü Çeviri Sertifikaları
 
-**Tıbbi Araştırma İş Birlikleri**
+| Program           | Odak Alanı               | Bölge                 |
+| ----------------- | ------------------------ | --------------------- |
+| **AIIC**          | Konferans sözlü çevirisi | Uluslararası          |
+| **CCHI**          | Sağlık sözlü çevirisi    | ABD                   |
+| **Federal Court** | Hukuki sözlü çeviri      | ABD (İspanyolca)      |
+| **State Court**   | Hukuki sözlü çeviri      | ABD (eyalete göre değişir) |
 
-- Çeviri: Araştırma makaleleri, protokoller, düzenleyici başvurular
-- Tercümanlık: Ekip toplantıları, hasta görüşmeleri, konferans sunumları
-- Zorluk: Her iki formatta da teknik doğruluğu korumak
+</div>
 
-**Küresel Ürün Lansmanları**
+## Fiyatlandırma Farklılıkları
 
-- Çeviri: Dokümantasyon, pazarlama materyalleri, kullanıcı arayüzleri
-- Tercümanlık: Basın konferansları, eğitim oturumları, müşteri desteği
-- Başarı faktörü: Tüm iletişimlerde marka tutarlılığı
+<div class="pricing-comparison">
 
-**Çok Uluslu Birleşme ve Satın Almalar**
+<div class="pricing-card">
+  <h4>Çeviri Fiyatlandırması</h4>
+  <ul>
+    <li>Kelime, sayfa veya proje başına</li>
+    <li>Acil işler = prim oranları</li>
+    <li>Hacim indirimleri mevcut</li>
+    <li>İnceleme aşamaları maliyet ekler</li>
+  </ul>
+</div>
 
-- Çeviri: Durum tespiti belgeleri, sözleşmeler, düzenleyici dosyalamalar
-- Tercümanlık: Müzakereler, yönetim kurulu toplantıları, çalışan iletişimi
-- Koordinasyon esastır: Hem yazılı hem de sözlü iletişimlerde yasal hassasiyet
+<div class="pricing-card">
+  <h4>Tercümanlık Fiyatlandırması</h4>
+  <ul>
+    <li>Saatlik veya günlük oranlar</li>
+    <li>Minimum ücretler (yarım/tam gün)</li>
+    <li>Ekipman kiralama ayrı</li>
+    <li>Seyahat masrafları eklenir</li>
+  </ul>
+</div>
 
-## Yaygın Yanlış Anlaşılmaların Çürütülmesi
+</div>
 
-Çeviri ve tercümanlık hakkındaki kalıcı mitleri ele alalım:
+## Yaygın Efsaneler Çürütüldü
 
-**"İki dilli olan herkes çeviri yapabilir veya tercümanlık edebilir"**
-Gerçek: Dil akıcılığı sadece başlangıç noktasıdır. Profesyonel çevirmenler ve tercümanlar yıllarca özel eğitim alır, konu uzmanlığı kazanır ve belirli teknik beceriler geliştirir.
+::: danger Efsane: "İki dilli olan herkes çeviri veya tercümanlık yapabilir"
+**Gerçek:** Profesyonel dil hizmetleri, basit akıcılığın ötesinde yıllarca eğitim, özel beceriler ve konu uzmanlığı gerektirir.
+:::
 
-**"Google Translate yeterince iyi"**
-Gerçek: Makine çevirisi önemli ölçüde gelişmiş olsa da, hala bağlam, kültür ve nüansların insan anlayışıyla eşleşemez. Temel iletişimin ötesindeki her şey için profesyonel insan denetimi hala gereklidir.
+::: danger Efsane: "Google Translate yeterince iyi"
+**Gerçek:** MT temel anlama için işe yarar, ancak doğruluk, bağlam ve kültürel nüanslar için profesyonel insan denetimi şarttır.
+:::
 
-**"Tercümanlık sadece sözlü çeviridir"**
-Gerçek: Tercümanlık, basit kelime değişiminin çok ötesinde karmaşık bilişsel süreçler, kültürel arabuluculuk ve anlık karar verme içerir.
+::: danger Efsane: "Tercümanlık sadece sözlü çeviridir"
+**Gerçek:** Tercümanlık, kelime değiştirmenin çok ötesinde karmaşık bilişsel süreçler, kültürel arabuluculuk ve anlık kararlar içerir.
+:::
 
-**"Çevirmenler ve tercümanlar yürüyen sözlüklerdir"**
-Gerçek: Bu profesyoneller sadece dilleri değil, kültürleri, bağlamları ve uzman alanları anlayan iletişim uzmanlarıdır. Sözlükten çok kültürel köprüler gibidirler.
+::: danger Efsane: "Tam otomasyon yakında geliyor"
+**Gerçek:** AI hızla gelişse de, yüksek riskli iletişimde insan yaratıcılığı, kültürel anlayış ve bağlamsal yargı vazgeçilmez olmaya devam ediyor.
+:::
 
-**"Çeviri ve tercümanlık yakında tamamen otomatikleşecek"**
-Gerçek: Yapay zeka gelişmeye devam etse de, insan yaratıcılığı, kültürel anlayış ve bağlamsal yargı, yüksek riskli iletişim için hala vazgeçilmezdir.
+## En İyi Uygulamalar
 
-## Maliyet Faktörü: Fiyatlandırma Farklarını Anlamak
+<div class="practices-grid">
 
-Çeviri ve tercümanlık, farklı doğaları nedeniyle farklı şekilde fiyatlandırılır:
+<div class="practice-card">
 
-### Çeviri Fiyatlandırması
+### 📄 Çevirmenlerle Çalışma
 
-- Genellikle kelime, sayfa veya proje başına ücretlendirilir
-- Oranlar dil çifti, uzmanlık alanı ve aciliyet durumuna göre değişir
-- Acil işler prim oranları gerektirir
-- İnceleme ve düzenleme hizmetleri maliyetlere eklenir
-- Büyük projeler için hacim indirimleri yaygındır
-- ISO sertifikalı ajanslar garantili kalite için prim oranları uygulayabilir
-
-### Tercümanlık Fiyatlandırması
-
-- Genellikle saatlik veya günlük ücretlendirilir
-- Minimum ücretler yaygındır (yarım gün veya tam gün)
-- Ekipman kiralama ek ücret olabilir
-- Yerinde tercümanlık için seyahat masrafları
-- Uzman alanlar veya nadir diller için prim oranları
-- Konferans tercümanlığı için AIIC standart oranları
-
-## Kalite Güvencesi: Farklı Yaklaşımlar
-
-Kaliteyi sağlamak farklı stratejiler gerektirir:
-
-### Çeviri Kalite Kontrolü
-
-- Çoklu inceleme aşamaları (çeviri, düzenleme, düzeltme)
-- Kritik belgeler için geri çeviri
-- Terminoloji tutarlılık kontrolleri
-- Müşteri inceleme ve geri bildirim döngüleri
-- Çeviri ajansları için ISO sertifikasyonu
-- Büyük projeler için otomatik kalite güvencesi araçları
-
-### Sözlü Çeviri Kalite Güvencesi
-
-- Tercüman sertifikasyonu ve akreditasyonu
-- Hazırlık materyalleri ve brifingleri
-- Uzun etkinlikler için takım tercümanlığı
-- Etkinlik sonrası geri bildirim ve değerlendirme
-- Sürekli mesleki gelişim gereksinimleri
-- Meslektaş değerlendirmesi ve mentorluk programları
-
-## Meslek Birlikleri ve Rolleri
-
-Meslek birlikleri, standartları koruma ve her iki mesleği de geliştirmede önemli roller oynamaktadır:
-
-### Başlıca Çeviri Birlikleri
-
-- **ATA (American Translators Association)**: Sertifikasyon, mesleki gelişim ve savunuculuk hizmetleri sunar
-- **ITI (Institute of Translation and Interpreting)**: İngiltere merkezli, mesleki standartları belirleyen organizasyon
-- **FIT (International Federation of Translators)**: Çevirmen birliklerinin küresel çatı organizasyonu
-
-### Başlıca Tercümanlık Organizasyonları
-
-- **AIIC**: Konferans tercümanlığı için küresel standartlar belirler
-- **NAJIT (National Association of Judiciary Interpreters and Translators)**: Hukuki tercümanlığa odaklanır
-- **IMIA (International Medical Interpreters Association)**: Tıbbi tercümanlık standartlarını geliştirir
-
-Bu organizasyonlar şunları sağlar:
-
-- Mesleki sertifikasyon programları
-- Sürekli eğitim fırsatları
-- Etik kurallar ve davranış kodları
-- Adil çalışma koşulları için savunuculuk
-- Ağ kurma ve mentorluk fırsatları
-
-## Gelecek: Yakınsama ve Uzmanlaşma
-
-Teknoloji geliştikçe, ilginç gelişmeler görüyoruz:
-
-**Hizmetlerin Yakınsaması**
-
-- Hem çeviri hem de tercümanlık gerektiren çok modlu iletişim
-- Video konferanslarda yazılı metnin gerçek zamanlı çevirisi
-- Her iki hizmeti birleştiren artırılmış gerçeklik uygulamaları
-- Modlar arasında sorunsuz geçiş yapabilen AI sistemleri
-
-**Artan Uzmanlaşma**
-
-- Derin uzmanlık gerektiren ultra-uzmanlaşmış alanlar
-- Nadir dil kombinasyonlarına artan talep
-- Saf dil hizmetlerinin ötesinde kültürel danışmanlık
-- Sağır ve işitme engelli topluluklar için erişilebilirlik hizmetleri
-
-**Etik Değerlendirmeler**
-
-- AI destekli hizmetlerde veri gizliliği
-- Dil hizmetlerine eşit erişimin sağlanması
-- Gig ekonomisinde profesyonel standartların korunması
-- Makine çeviri sistemlerindeki önyargıların ele alınması
-
-## Dil Uzmanlarıyla Çalışmak İçin En İyi Uygulamalar
-
-Çeviri veya tercümanlık hizmetlerinden en iyi sonuçları almak için:
-
-### Çeviri Projeleri İçin:
-
-1. Bağlam ve arka plan materyalleri sağlayın
-2. Hedef kitlenizi ve amacınızı netleştirin
-3. Kaliteli çalışma için yeterli zaman tanıyın
-4. Terminoloji tutarlılığını koruyun
+1. Bağlam ve arka plan bilgisi sağlayın
+2. Hedef kitleyi netleştirin
+3. Yeterli zaman tanıyın
+4. Terminoloji sözlüklerini paylaşın
 5. Sorular için ulaşılabilir olun
-6. İnceleme döngüleri için plan yapın
-7. Kültürel uyarlama ihtiyaçlarını göz önünde bulundurun
-8. Potansiyel çevirmenlerden örnekler isteyin
-9. Stil kılavuzları ve sözlükleri erken aşamada oluşturun
+6. İnceleme döngülerini planlayın
 
-### Tercümanlık Görevleri İçin:
+</div>
 
-1. Gündem ve materyalleri önceden paylaşın
-2. Konuşmacı isimlerini ve telaffuzlarını sağlayın
-3. Tercümanlara teknik terminoloji hakkında bilgi verin
-4. Uygun ekipman ve kurulumu sağlayın
-5. Net ve orta tempoda konuşun
-6. Ardışık modda tercümanlık zamanına izin verin
-7. Eşzamanlı tercümanlar için molalar sağlayın
-8. Uzaktan tercümanlık için etkinlik öncesi teknik kontroller yapın
-9. Tercüman soruları için bir iletişim sorumlusu belirleyin
+<div class="practice-card">
 
-## Kuruluşunuz İçin Doğru Seçimi Yapmak
+### 🗣️ Tercümanlarla Çalışma
 
-Çeviri ve tercümanlık arasındaki karar—veya her ikisinin ne zaman kullanılacağı—birkaç faktöre bağlıdır:
+1. Gündem önceden paylaşın
+2. Teknik terimler hakkında bilgi verin
+3. Konuşmacı isimlerini sağlayın
+4. Uygun ekipmanı temin edin
+5. Net konuşun, ılımlı tempo tutun
+6. Tercüme için zaman tanıyın
 
-**Hedef Kitlenizi Değerlendirin**
+</div>
 
-- Büyüklük ve dil çeşitliliği
-- Teknik gelişmişlik
-- Kültürel beklentiler
-- Erişilebilirlik ihtiyaçları
+</div>
 
-**İçeriğinizi Değerlendirin**
+## Sonuç
 
-- Karmaşıklık ve uzmanlık
-- Kalıcılık ve yeniden kullanılabilirlik
-- Yasal veya düzenleyici gereksinimler
-- Duygusal ve kültürel hassasiyet
+<div class="conclusion-box">
 
-**Kaynaklarınızı Değerlendirin**
+**Çeviri** ve **tercümanlık** her ikisi de dil engellerini kaldırır, ancak farklı yöntemlerle:
 
-- Bütçe kısıtlamaları
-- Zaman çizelgesi gereksinimleri
-- Mevcut teknoloji
-- İç yetenekler
+- **Çeviri** = Dikkatli, yazılı, revize edilmiş, kalıcı
+- **Tercümanlık** = Anlık, sözlü, revizyon yok, geçici
 
-**Gelecek İçin Planlayın**
+**İçerik türünüze** (yazılı vs sözlü), **zaman çizelgenize** (günler vs gerçek zamanlı) ve **kalıcılık** ihtiyaçlarınıza (yayınlanmış vs canlı) göre seçim yapın.
 
-- Ölçeklenebilirlik ihtiyaçları
-- Sürekli vs. tek seferlik gereksinimler
-- Mevcut sistemlerle entegrasyon
-- Uzun vadeli ortaklık potansiyeli
+Karmaşık projeler için—uluslararası konferanslar veya hukuki davalar gibi—genellikle tutarlı terminoloji ve mesajlaşma ile **her iki hizmetin birlikte çalışmasına** ihtiyacınız olacak.
 
-## Sonuç: Aynı Madalyonun İki Yüzü
+::: tip Unutmayın
+Kaliteli dil hizmetleri, doğru iletişim, kültürel anlayış ve diller arası güven inşa etme konusunda bir yatırımdır. Sertifikalı profesyonelleri seçin ve en iyi sonuçlar için yeterli zaman ve kaynak ayırın.
+:::
 
-Çeviri ve tercümanlık aynı asil amaca hizmet eder: dil engellerini aşarak iletişimi mümkün kılmak. Ancak bunu temelden farklı yöntemlerle başarırlar ve farklı beceriler, araçlar ve yaklaşımlar gerektirir. Bu farklılıkları anlamak sadece akademik değildir—ihtiyaçlarınız için doğru hizmeti seçmenize, uygun beklentiler belirlemenize ve daha iyi iletişim sonuçları elde etmenize yardımcı olabilecek pratik bir bilgidir.
+</div>
 
-Dünyamız giderek daha fazla birbirine bağlandıkça, hem çeviri hem de tercümanlık hizmetlerine olan talep artmaya devam ediyor. Teknoloji bu hizmetleri daha erişilebilir ve uygun fiyatlı hale getiriyor, ancak incelikli, yüksek riskli iletişim için insan uzmanlığı hala çok önemli. İşinizi küresel olarak genişletiyor, çeşitli topluluklara hizmet veriyor veya kültürler arası köprüler kuruyorsanız, ne zaman çeviri ne zaman tercümanlık yapılacağını bilmek ve dil uzmanlarıyla etkili bir şekilde çalışmak paha biçilmez bir beceridir.
+<style scoped>
+.subtitle {
+  color: var(--vp-c-text-2);
+  font-size: 1.2em;
+  margin-bottom: 2em;
+  text-align: center;
+}
 
-Gelecek, bu hizmetler arasında daha da fazla entegrasyon vaat ediyor; yapay zeka ve insan uzmanlar, dil engellerini her zamankinden daha etkili bir şekilde yıkmak için birlikte çalışıyor. Özel dernekler ve sertifikasyon kuruluşları tarafından sürdürülen profesyonel standartlar, her iki alanda da kalite ve etiği garanti ediyor. Hem çeviri hem de tercümanlığın benzersiz değerini anlayarak, profesyonel sertifikasyonun önemini kavrayarak ve hibrit projelerin karmaşıklığını takdir ederek, çok dilli dünyamızda daha iyi yön bulabilir ve etkili kültürlerarası iletişimin gücünden yararlanabilirsiniz.
+.comparison-hero {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 2em;
+  margin: 3em 0;
+  align-items: center;
+}
 
-Unutmayın: çeviri ve tercümanlık sadece kelimeleri dönüştürmekle ilgili değildir—insanları birbirine bağlamak, fikirleri paylaşmak ve insan dillerinin güzel çeşitliliği boyunca anlayış inşa etmekle ilgilidir. Akıllıca seçin, kaliteye yatırım yapın ve küresel iletişimin tüm potansiyelini açığa çıkarın.
+.hero-card {
+  background: linear-gradient(135deg, var(--vp-c-bg-soft) 0%, var(--vp-c-bg-mute) 100%);
+  padding: 2em;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px solid var(--vp-c-divider);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hero-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.hero-card.translation {
+  border-color: #3498db;
+}
+
+.hero-card.interpretation {
+  border-color: #e74c3c;
+}
+
+.hero-icon {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.hero-card h3 {
+  margin: 0.5em 0;
+  color: var(--vp-c-text-1);
+}
+
+.hero-tagline {
+  color: var(--vp-c-text-2);
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.hero-features {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 1.5em;
+}
+
+.hero-features li {
+  padding: 0.5em 0;
+  padding-left: 1.5em;
+  position: relative;
+  color: var(--vp-c-text-1);
+}
+
+.hero-features li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.vs-divider {
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--vp-c-brand);
+  text-align: center;
+}
+
+.service-section {
+  background: var(--vp-c-bg-soft);
+  padding: 2em;
+  border-radius: 12px;
+  margin: 2em 0;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+  margin: 2em 0;
+}
+
+.feature-box {
+  background: var(--vp-c-bg);
+  padding: 1.5em;
+  border-radius: 8px;
+  border-left: 4px solid var(--vp-c-brand);
+}
+
+.feature-box strong {
+  display: block;
+  margin-bottom: 0.5em;
+  color: var(--vp-c-text-1);
+}
+
+.feature-box p {
+  margin: 0;
+  color: var(--vp-c-text-2);
+  font-size: 0.95em;
+}
+
+.methods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5em;
+  margin: 2em 0;
+}
+
+.method-card {
+  background: var(--vp-c-bg);
+  padding: 1.5em;
+  border-radius: 8px;
+  border-top: 4px solid;
+}
+
+.method-card.simultaneous {
+  border-top-color: #e74c3c;
+}
+
+.method-card.consecutive {
+  border-top-color: #f39c12;
+}
+
+.method-card.whispered {
+  border-top-color: #9b59b6;
+}
+
+.method-card.remote {
+  border-top-color: #3498db;
+}
+
+.method-card h4 {
+  margin-top: 0;
+  color: var(--vp-c-text-1);
+}
+
+.method-card p {
+  margin: 0.5em 0;
+  font-size: 0.9em;
+  color: var(--vp-c-text-2);
+}
+
+.method-card strong {
+  color: var(--vp-c-text-1);
+}
+
+.skills-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  margin: 2em 0;
+}
+
+.skills-column {
+  background: var(--vp-c-bg-soft);
+  padding: 2em;
+  border-radius: 8px;
+}
+
+.skills-column h3 {
+  margin-top: 0;
+  color: var(--vp-c-text-1);
+}
+
+.skills-column ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-column li {
+  padding: 0.5em 0;
+  padding-left: 1.5em;
+  position: relative;
+  color: var(--vp-c-text-1);
+}
+
+.skills-column li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--vp-c-brand);
+  font-size: 1.5em;
+  line-height: 0.8;
+}
+
+.translator-skills {
+  border-left: 4px solid #3498db;
+}
+
+.interpreter-skills {
+  border-left: 4px solid #e74c3c;
+}
+
+.tech-section {
+  background: var(--vp-c-bg-soft);
+  padding: 2em;
+  border-radius: 12px;
+  margin: 2em 0;
+}
+
+.tech-section h3 {
+  color: var(--vp-c-brand);
+  margin-top: 1.5em;
+}
+
+.tech-section h3:first-of-type {
+  margin-top: 0;
+}
+
+.usage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5em;
+  margin: 2em 0;
+}
+
+.usage-card {
+  background: var(--vp-c-bg-soft);
+  padding: 1.5em;
+  border-radius: 8px;
+  border-top: 4px solid var(--vp-c-brand);
+}
+
+.usage-card.hybrid {
+  border-top-color: #9b59b6;
+  grid-column: span 1;
+}
+
+.usage-card h3 {
+  margin-top: 0;
+  color: var(--vp-c-text-1);
+}
+
+.usage-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.usage-card li {
+  padding: 0.5em 0;
+  padding-left: 1.5em;
+  position: relative;
+  color: var(--vp-c-text-1);
+}
+
+.usage-card li:before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--vp-c-brand);
+}
+
+.standards-section {
+  background: var(--vp-c-bg-soft);
+  padding: 2em;
+  border-radius: 12px;
+  margin: 2em 0;
+}
+
+.standards-section h3 {
+  color: var(--vp-c-brand);
+  margin-top: 1.5em;
+}
+
+.standards-section h3:first-of-type {
+  margin-top: 0;
+}
+
+.pricing-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  margin: 2em 0;
+}
+
+.pricing-card {
+  background: var(--vp-c-bg-soft);
+  padding: 1.5em;
+  border-radius: 8px;
+  border-left: 4px solid var(--vp-c-brand);
+}
+
+.pricing-card h4 {
+  margin-top: 0;
+  color: var(--vp-c-text-1);
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pricing-card li {
+  padding: 0.5em 0;
+  padding-left: 1.5em;
+  position: relative;
+  color: var(--vp-c-text-1);
+}
+
+.pricing-card li:before {
+  content: "💰";
+  position: absolute;
+  left: 0;
+}
+
+.practices-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  margin: 2em 0;
+}
+
+.practice-card {
+  background: var(--vp-c-bg-soft);
+  padding: 2em;
+  border-radius: 8px;
+  border-left: 4px solid var(--vp-c-brand);
+}
+
+.practice-card h3 {
+  margin-top: 0;
+  color: var(--vp-c-text-1);
+}
+
+.practice-card ol {
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+.practice-card li {
+  margin: 0.5em 0;
+  color: var(--vp-c-text-1);
+}
+
+.conclusion-box {
+  background: linear-gradient(135deg, var(--vp-c-brand-soft) 0%, var(--vp-c-brand-softer) 100%);
+  padding: 2em;
+  border-radius: 12px;
+  margin: 3em 0;
+  border: 2px solid var(--vp-c-brand);
+}
+
+.conclusion-box p {
+  color: var(--vp-c-text-1);
+  margin: 1em 0;
+}
+
+.conclusion-box ul {
+  margin: 1em 0;
+}
+
+.conclusion-box li {
+  color: var(--vp-c-text-1);
+  margin: 0.5em 0;
+}
+
+@media (max-width: 768px) {
+  .comparison-hero {
+    grid-template-columns: 1fr;
+  }
+  
+  .vs-divider {
+    transform: rotate(90deg);
+    margin: 1em 0;
+  }
+  
+  .skills-comparison,
+  .pricing-comparison,
+  .practices-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .methods-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .usage-card.hybrid {
+    grid-column: span 1;
+  }
+}
+</style>

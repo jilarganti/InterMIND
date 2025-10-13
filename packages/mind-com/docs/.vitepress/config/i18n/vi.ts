@@ -36,6 +36,7 @@ export const vi = defineConfig({
         items: [
           { text: "Câu hỏi thường gặp", link: `${BASE_PATH}/#FAQ` },
           { text: "Lời chứng thực", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Giới thiệu", link: `${BASE_PATH}/resources/company/about` },
         ],
       },
     ],
@@ -76,7 +77,7 @@ export const vi = defineConfig({
       submit: "Gửi yêu cầu",
       sending: "Đang gửi...",
       successTitle: "Cảm ơn bạn!",
-      successMessage: "Chúng tôi đã nhận được tin nhắn của bạn — nhóm của chúng tôi sẽ liên hệ sớm.",
+      successMessage: "Chúng tôi đã nhận được tin nhắn của bạn — đội ngũ của chúng tôi sẽ liên hệ sớm.",
       defaultCategories: [],
 
       defaultButtonText: "Gửi tin nhắn cho chúng tôi",
@@ -94,8 +95,8 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "InterMIND là gì?", link: "overview/what-is-intermind" },
         { text: "Cách hoạt động", link: "overview/how-it-works" },
         { text: "Nền tảng họp video", link: "overview/video-meeting-platform" },
-        { text: "Dịch thuật vs Phiên dịch: Sự khác biệt là gì?", link: "overview/translation-vs-interpretation-whats-the-difference" },
-        { text: "Bảo mật dữ liệu theo khu vực", link: "overview/privacy-architecture" },
+        { text: "Dịch thuật và phiên dịch: Sự khác biệt là gì?", link: "overview/translation-vs-interpretation-whats-the-difference" },
+        { text: "Bảo mật dữ liệu khu vực", link: "overview/privacy-architecture" },
         { text: "Thị trường ưu tiên", link: "overview/markets" },
       ],
     },
@@ -113,7 +114,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "Câu hỏi thường gặp", link: "guide/faq" },
         { text: "Khắc phục sự cố", link: "guide/troubleshooting" },
         { text: "Bảng giá", link: "guide/pricing" },
-        { text: "Trợ giúp & Hỗ trợ", link: "guide/help-support" },
+        { text: "Trợ giúp & hỗ trợ", link: "guide/help-support" },
       ],
     },
   ]
@@ -130,14 +131,6 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "Hướng dẫn pháp lý AI", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
-    // {
-    //   text: "TÀI NGUYÊN",
-    //   collapsed: false,
-    //   items: [
-    //     { text: "Tài sản thương hiệu", link: "/media-kit" },
-    //     // { text: "Quản lý tài khoản", link: "guide/account-management" },
-    //   ],
-    // },
     {
       text: "CÔNG TY",
       collapsed: false,

@@ -6,7 +6,7 @@ const BASE_PATH = "/fr"
 
 export const fr = defineConfig({
   description:
-    "Visioconférence professionnelle avec interprétation simultanée dans plus de 19 langues. Traduction alimentée par l\\'IA qui capture le ton, l\\'intention et le contexte pour les équipes mondiales.",
+    "Visioconférence professionnelle avec interprétation simultanée en plus de 19 langues. Traduction alimentée par l\\'IA qui capture le ton, l\\'intention et le contexte pour les équipes mondiales.",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | Traduction vocale en temps réel pour les équipes mondiales" }],
     [
@@ -14,7 +14,7 @@ export const fr = defineConfig({
       {
         property: "og:description",
         content:
-          "Visioconférence professionnelle avec interprétation vocale simultanée dans plus de 19 langues. Rencontrez-vous mondialement, communiquez naturellement avec la traduction alimentée par l\\'IA.",
+          "Visioconférence professionnelle avec interprétation vocale simultanée en plus de 19 langues. Rencontrez-vous mondialement, communiquez naturellement avec la traduction alimentée par l\\'IA.",
       },
     ],
     ["meta", { property: "og:url", content: `https://mind.com${BASE_PATH}` }],
@@ -36,6 +36,7 @@ export const fr = defineConfig({
         items: [
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Témoignages", link: `${BASE_PATH}/#Testimonials` },
+          { text: "À propos", link: `${BASE_PATH}/resources/company/about` },
         ],
       },
     ],
@@ -105,7 +106,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Premiers pas", link: "guide/getting-started" },
         { text: "Gestion de compte", link: "guide/account-management" },
-        { text: "Créer des réunions", link: "guide/creating-meetings" },
+        { text: "Création de réunions", link: "guide/creating-meetings" },
         { text: "Interface de réunion", link: "guide/meeting-interface" },
         { text: "Rôles utilisateur", link: "guide/user-roles" },
         { text: "Fonctionnalités IA", link: "guide/ai-features" },
@@ -130,14 +131,6 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "Guide juridique IA", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
-    // {
-    //   text: "RESSOURCES",
-    //   collapsed: false,
-    //   items: [
-    //     { text: "Ressources de marque", link: "/media-kit" },
-    //     // { text: "Gestion de compte", link: "guide/account-management" },
-    //   ],
-    // },
     {
       text: "ENTREPRISE",
       collapsed: false,
@@ -156,7 +149,7 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
     { text: "Résumé exécutif", link: "/InterMind-Executive-Summary" },
     { text: "Stratégie de mise sur le marché", link: "/go-to-market-strategy" },
     { text: "Présentation investisseur", link: "/InterMind-Investor-Pitch" },
-    { text: "Justification des projections financières (Années 1–3)", link: "/Financial-Projections-Justification" },
+    { text: "Justification des projections financières (Année 1–3)", link: "/Financial-Projections-Justification" },
   ]
 }
 

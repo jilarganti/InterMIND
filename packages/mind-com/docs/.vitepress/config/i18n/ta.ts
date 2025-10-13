@@ -36,6 +36,7 @@ export const ta = defineConfig({
         items: [
           { text: "அடிக்கடி கேட்கப்படும் கேள்விகள்", link: `${BASE_PATH}/#FAQ` },
           { text: "சான்றுகள்", link: `${BASE_PATH}/#Testimonials` },
+          { text: "எங்களைப் பற்றி", link: `${BASE_PATH}/resources/company/about` },
         ],
       },
     ],
@@ -130,19 +131,11 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "AI சட்ட வழிகாட்டி", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
-    // {
-    //   text: "வளங்கள்",
-    //   collapsed: false,
-    //   items: [
-    //     { text: "பிராண்ட் சொத்துக்கள்", link: "/media-kit" },
-    //     // { text: "கணக்கு மேலாண்மை", link: "guide/account-management" },
-    //   ],
-    // },
     {
       text: "நிறுவனம்",
       collapsed: false,
       items: [
-        { text: "பற்றி", link: "/company/about" },
+        { text: "எங்களைப் பற்றி", link: "/company/about" },
         { text: "குழு", link: "/company/team" },
         { text: "வேலைவாய்ப்புகள்", link: "/company/careers" },
         { text: "தொடர்புகள்", link: "/company/contacts" },

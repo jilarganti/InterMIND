@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "InterMIND: Tradução de Fala em Tempo Real para Videoconferências"
+title: "InterMIND: Tradução de fala em tempo real para videoconferências"
 description: "Videoconferência profissional com interpretação simultânea em mais de 19 idiomas. Tradução com IA que captura tom, intenção e contexto. Reúna-se globalmente, comunique-se naturalmente."
 isHome: true
 ---
@@ -12,14 +12,15 @@ isHome: true
 <NavButton buttonLabel="Assistente" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
-<span id="1"></span>
+## Tradução ≠ Compreensão {#1}
+
 <FeatureBlock
     :card="{
       title: 'Tradução ≠ Compreensão. Veja o que vem a seguir.',
-      details: 'Não importa o idioma, sua voz é ouvida — e compreendida — como se vocês compartilhassem a mesma língua.',
+      details: 'Independentemente do idioma, sua voz é ouvida — e compreendida — como se vocês compartilhassem a mesma língua.',
       items: [
         '✧ Naturalmente, em [tempo real](./product/overview/how-it-works), e sem legendas ou atraso.',
-        '✧ Interpretação com IA captura tom, intenção e terminologia específica do setor.',
+        '✧ Interpretação alimentada por IA captura tom, intenção e terminologia específica do setor.',
       ],
       link: './product/overview/what-is-intermind',
       src: {
@@ -30,13 +31,14 @@ isHome: true
     }"
   />
 
-<span id="2"></span>
+## A Mente Dentro das Suas Reuniões {#2}
+
 <FeatureBlock
     :card="{
       title: 'A Mente Dentro das Suas Reuniões',
-      details: 'InterMIND transforma cada chamada multilíngue em conhecimento claro e pesquisável.',
+      details: 'O InterMind transforma cada chamada multilíngue em conhecimento claro e pesquisável.',
       items: [
-        '✧ **Pergunte qualquer coisa** — IA encontra respostas **em todas as suas reuniões**.',
+        '✧ **Pergunte qualquer coisa** — a IA encontra respostas **em todas as suas reuniões**.',
         '✧ Extrai automaticamente tarefas, responsáveis e prazos.',
         '✧ Resume pontos-chave em qualquer idioma — instantaneamente.',
       ],
@@ -49,11 +51,12 @@ isHome: true
     }"
   />
 
-<span id="3"></span>
+## Construído para Reuniões Sérias {#3}
+
 <FeatureBlock
     :card="{
-      title: 'Construído para Reuniões Sérias — Não Apenas Conversas',
-      details: 'InterMIND é uma [plataforma de videoconferência de nível profissional](./product/overview/video-meeting-platform), não um complemento leve ou plugin.',
+      title: 'Construído para Reuniões Sérias — Não Apenas para Conversar',
+      details: 'InterMind é uma [plataforma de videoconferência de nível profissional](./product/overview/video-meeting-platform), não um complemento leve ou plugin.',
       items: [
         '✧ Resolução 1080p, supressão inteligente de ruído, agendamento, moderação, compartilhamento de tela, gravação, legendagem, chat de participantes e integração com calendário — tudo integrado, **pronto para usar**.',
       ],
@@ -66,11 +69,12 @@ isHome: true
     }"
   />
 
-<span id="4"></span>
+## Privacidade Onde Importa {#4}
+
 <FeatureBlock
     :card="{
       title: 'Privacidade Onde Importa',
-      details: 'InterMIND é construído para conversas críticas de confiança — onde privacidade e controle são fundamentais.',
+      details: 'O InterMind é construído para conversas críticas de confiança — onde privacidade e controle são fundamentais.',
       items: ['✧ [Zonas de Privacidade](./product/overview/privacy-architecture) — UE, EUA, Sudeste Asiático', '✧ **Zero treinamento de dados**. Sem acesso de terceiros.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -84,9 +88,7 @@ isHome: true
 > **Para quem é isso?**  
 > _Construído para equipes internacionais onde barreiras linguísticas causam atrasos, negócios perdidos ou mal-entendidos custosos._ [Saiba mais ...](./product/overview/markets)
 
-<span id="HowItWorks"></span>
-
-## Funciona Como Google Meet + Tradução Ao Vivo
+## Funciona Como Google Meet + Tradução Ao Vivo {#HowItWorks}
 
 Interface familiar. Comunicação universal. A mesma facilidade do Google Meet — com tradução instantânea que faz as barreiras linguísticas desaparecerem.
 
@@ -129,12 +131,11 @@ Interface familiar. Comunicação universal. A mesma facilidade do Google Meet �
 
 <!-- <br> -->
 
-<span id="VideoDemo"></span>
+## Demonstração em vídeo {#VideoDemo}
+
 <VideoPlayer src="/promo/demo-en-mx.mp4" />
 
-<span id="Example"></span>
-
-## Exemplo: Como funciona a tradução de fala em tempo real em uma reunião
+## Exemplo: Como funciona a tradução de fala em tempo real em uma reunião {#Example}
 
 Vamos supor que:
 
@@ -149,7 +150,7 @@ Cada participante **fala e ouve** no idioma que selecionou ao entrar no produto.
 Esta configuração única de idioma se aplica a:
 
 - O **idioma da interface**
-- A **entrada falada** (o que você fala)
+- A **entrada falada** (o que você diz)
 - A **saída traduzida** (o que você ouve)
 
 | Participante   | Idioma Selecionado | Fala Em   | Ouve Em   |
@@ -178,17 +179,13 @@ Alterar isso significa:
 > Ela controla **como você fala**, **o que você ouve** e **o que você vê**.  
 > Falar em um idioma e ouvir em outro **não é suportado** — por design, para manter a experiência simples e previsível.
 
-<span id="Testimonials"></span>
-
-## O Que Os Clientes Estão Dizendo
+## O Que Os Clientes Estão Dizendo {#Testimonials}
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-<span id="Pricing"></span>
+## Preços Claros e Simples {#Pricing}
 
-## Preços Claros e Simples
-
-Da primeira ligação às conversas fluentes — em qualquer escala.
+Da primeira chamada às conversas fluentes — em qualquer escala.
 
 <PricingPlans
     :plans="[
@@ -209,7 +206,7 @@ Da primeira ligação às conversas fluentes — em qualquer escala.
         price: '**$20** /mês/usuário, cobrado anualmente',
         details: 'ou $25 cobrado mensalmente',
         items: [
-          '**Ilimitadas** reuniões',
+          '**Reuniões ilimitadas**',
           '**150** participantes em videochamadas [💬](#3)',
           '**2** TB de armazenamento compartilhado por usuário',
           'Pesquise em todas as suas reuniões [💬](#2)',
@@ -219,9 +216,9 @@ Da primeira ligação às conversas fluentes — em qualquer escala.
       {
         title: '**Empresarial** &nbsp 100+ usuários',
         price: '**Preço personalizado**',
-        details: 'Construído para privacidade',
+        details: 'Desenvolvido para privacidade',
         items: [
-          '**Ilimitadas** reuniões',
+          '**Reuniões ilimitadas**',
           '**500** participantes em videochamadas [💬](#3)',
           '**5** TB de armazenamento compartilhado por usuário',
           'Pesquise em todas as suas reuniões [💬](#2)',
@@ -236,12 +233,10 @@ Da primeira ligação às conversas fluentes — em qualquer escala.
 <ContactForm buttonText="Fale com nossa equipe" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_Seu tempo é melhor gasto dominando sua profissão — não memorizando gramática._**  
+> 💡 **_Seu tempo é melhor aproveitado dominando sua área — não memorizando gramática._**  
 > 💡 **_Parcerias reais começam com conversas reais — no idioma deles._**
 
-## Perguntas Frequentes
-
-<span id="FAQ"></span>
+## Perguntas Frequentes {#FAQ}
 
 <AccordionGroup
     :items="[
@@ -292,8 +287,8 @@ Da primeira ligação às conversas fluentes — em qualquer escala.
       {
         title: 'PRODUTO',
         links: [
-          { text: 'Visão geral', link: './product/overview/what-is-intermind' },
-          { text: 'Primeiros passos', link: './product/guide/getting-started' },
+          { text: 'Visão Geral', link: './product/overview/what-is-intermind' },
+          { text: 'Primeiros Passos', link: './product/guide/getting-started' },
           { text: 'Depoimentos', link: '#Testimonials' },
           { text: 'Preços', link: '#Pricing' },
         ],
@@ -301,11 +296,11 @@ Da primeira ligação às conversas fluentes — em qualquer escala.
       {
         title: 'SUPORTE',
         links: [
-          { text: 'Obter suporte', link: './resources/help' },
+          { text: 'Obter Suporte', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Política de privacidade', link: './resources/company/privacy-policy' },
-          { text: 'Guia legal de IA', link: './resources/company/legal-regulations-for-ai-services' },
-          { text: 'Status do serviço', link: 'https://status.mind.com/' },
+          { text: 'Política de Privacidade', link: './resources/company/privacy-policy' },
+          { text: 'Guia Legal de IA', link: './resources/company/legal-regulations-for-ai-services' },
+          { text: 'Status do Serviço', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },
         ],
       },
@@ -313,8 +308,9 @@ Da primeira ligação às conversas fluentes — em qualquer escala.
         title: 'RECURSOS',
         links: [
           { text: 'Blog', link: './blog/' },
-          { text: 'Recursos da marca', link: './resources/media-kit' },
-          { text: 'Documentação AI API / LLM', link: 'https://mind.com/llms-full.txt' },
+          { text: 'Conformidade Global de Acesso a Idiomas', link: './blog/posts/global-language-access-compliance' },
+          { text: 'Recursos da Marca', link: './resources/media-kit' },
+          { text: 'Documentação da API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

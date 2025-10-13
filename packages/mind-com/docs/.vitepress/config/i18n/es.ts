@@ -36,6 +36,7 @@ export const es = defineConfig({
         items: [
           { text: "Preguntas frecuentes", link: `${BASE_PATH}/#FAQ` },
           { text: "Testimonios", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Acerca de", link: `${BASE_PATH}/resources/company/about` },
         ],
       },
     ],
@@ -54,7 +55,7 @@ export const es = defineConfig({
     localization: {
       placeholder4SearchInput: "Pregunta cualquier cosa...",
       placeholder4ChatFooter: "Pregunta cualquier cosa...",
-      placeholder4ChatList: "Ingresa el tema de conversación...",
+      placeholder4ChatList: "Ingresa el tema del chat...",
       buttonLabel4NavButton: "Asistente",
       buttonLabel4SignInButton: "Iniciar sesión",
       buttonLabel4GetStartedButton: "Comenzar",
@@ -72,7 +73,7 @@ export const es = defineConfig({
       category: "¿Cuál es tu objetivo principal? *",
       categoryPlaceholder: "Elige lo que más te importa",
       message: "Hablemos de tus objetivos (opcional)",
-      messagePlaceholder: "Por favor proporciona detalles adicionales (opcional)",
+      messagePlaceholder: "Por favor proporciona cualquier detalle adicional (opcional)",
       submit: "Enviar solicitud",
       sending: "Enviando...",
       successTitle: "¡Gracias!",
@@ -93,7 +94,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "¿Qué es InterMIND?", link: "overview/what-is-intermind" },
         { text: "Cómo funciona", link: "overview/how-it-works" },
-        { text: "Plataforma de videollamadas", link: "overview/video-meeting-platform" },
+        { text: "Plataforma de videorreuniones", link: "overview/video-meeting-platform" },
         { text: "Traducción vs interpretación: ¿cuál es la diferencia?", link: "overview/translation-vs-interpretation-whats-the-difference" },
         { text: "Privacidad de datos regional", link: "overview/privacy-architecture" },
         { text: "Mercados prioritarios", link: "overview/markets" },
@@ -130,14 +131,6 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "Guía legal de IA", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
-    // {
-    //   text: "RECURSOS",
-    //   collapsed: false,
-    //   items: [
-    //     { text: "Recursos de marca", link: "/media-kit" },
-    //     // { text: "Gestión de cuenta", link: "guide/account-management" },
-    //   ],
-    // },
     {
       text: "EMPRESA",
       collapsed: false,

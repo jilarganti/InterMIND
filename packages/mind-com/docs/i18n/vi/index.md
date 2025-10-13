@@ -1,25 +1,26 @@
 ---
 layout: home
 title: "InterMIND: Dịch thuật giọng nói thời gian thực cho cuộc họp video"
-description: "Hội nghị truyền hình chuyên nghiệp với phiên dịch đồng thời bằng hơn 19 ngôn ngữ. Dịch thuật được hỗ trợ bởi AI nắm bắt được giọng điệu, ý định và ngữ cảnh. Gặp gỡ toàn cầu, giao tiếp tự nhiên."
+description: "Hội nghị truyền hình chuyên nghiệp với phiên dịch đồng thời bằng hơn 19 ngôn ngữ. Công nghệ dịch thuật AI nắm bắt giọng điệu, ý định và ngữ cảnh. Gặp gỡ toàn cầu, giao tiếp tự nhiên."
 isHome: true
 ---
 
-<!-- <HeroSection title="Gặp gỡ bằng **Bất kỳ** Ngôn ngữ nào" :typingSpeed="10" text="Dịch thuật giọng nói trực tiếp trong cuộc gọi video. Hiểu ngay lập tức, không có rào cản."> -->
+<!-- <HeroSection title="Gặp gỡ bằng **Bất kỳ** ngôn ngữ nào" :typingSpeed="10" text="Dịch thuật giọng nói trực tiếp trong cuộc gọi video. Hiểu ngay lập tức, không có rào cản."> -->
 
-<HeroSection title="Hiểu **Bất kỳ** Ngôn ngữ nào" :typingSpeed="20" text="Phiên dịch đồng thời trong cuộc họp video. Phá vỡ rào cản ngôn ngữ ngay lập tức.">
+<HeroSection title="Hiểu **Bất kỳ** ngôn ngữ nào" :typingSpeed="20" text="Phiên dịch đồng thời trong cuộc họp video. Phá vỡ rào cản ngôn ngữ ngay lập tức.">
 <NavButton buttonLabel="Xem demo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="Trợ lý" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
-<span id="1"></span>
+## Dịch thuật ≠ Hiểu biết {#1}
+
 <FeatureBlock
     :card="{
-      title: 'Dịch thuật ≠ Hiểu biết. Đây là bước tiếp theo.',
-      details: 'Bất kể ngôn ngữ nào, giọng nói của bạn được nghe thấy — và hiểu — như thể bạn cùng chung một tiếng.',
+      title: 'Dịch thuật ≠ Hiểu biết. Đây là điều tiếp theo.',
+      details: 'Bất kể ngôn ngữ nào, giọng nói của bạn được nghe thấy — và hiểu — như thể bạn cùng chung một thứ tiếng.',
       items: [
-        '✧ Tự nhiên, [thời gian thực](./product/overview/how-it-works), và không có phụ đề hay độ trễ.',
-        '✧ Phiên dịch được hỗ trợ bởi AI nắm bắt giọng điệu, ý định và thuật ngữ chuyên ngành.',
+        '✧ Tự nhiên, trong [thời gian thực](./product/overview/how-it-works), và không có phụ đề hay độ trễ.',
+        '✧ Diễn giải được hỗ trợ bởi AI nắm bắt được giọng điệu, ý định và thuật ngữ chuyên ngành.',
       ],
       link: './product/overview/what-is-intermind',
       src: {
@@ -30,13 +31,14 @@ isHome: true
     }"
   />
 
-<span id="2"></span>
+## Trí tuệ trong các cuộc họp của bạn {#2}
+
 <FeatureBlock
     :card="{
-      title: 'Trí tuệ trong cuộc họp của bạn',
-      details: 'InterMIND biến mọi cuộc gọi đa ngôn ngữ thành kiến thức rõ ràng, có thể tìm kiếm.',
+      title: 'Trí tuệ trong các cuộc họp của bạn',
+      details: 'InterMind biến mọi cuộc gọi đa ngôn ngữ thành kiến thức rõ ràng, có thể tìm kiếm.',
       items: [
-        '✧ **Hỏi bất cứ điều gì** — AI tìm câu trả lời **trong tất cả cuộc họp của bạn**.',
+        '✧ **Hỏi bất cứ điều gì** — AI tìm câu trả lời **trong tất cả các cuộc họp của bạn**.',
         '✧ Tự động trích xuất nhiệm vụ, người phụ trách và thời hạn.',
         '✧ Tóm tắt các điểm chính bằng bất kỳ ngôn ngữ nào — ngay lập tức.',
       ],
@@ -49,13 +51,14 @@ isHome: true
     }"
   />
 
-<span id="3"></span>
+## Được xây dựng cho các cuộc họp nghiêm túc {#3}
+
 <FeatureBlock
     :card="{
-      title: 'Được xây dựng cho cuộc họp nghiêm túc — Không chỉ để nói chuyện',
-      details: 'InterMIND là một [nền tảng cuộc họp video cấp chuyên nghiệp](./product/overview/video-meeting-platform), không phải là một tiện ích bổ sung hay plugin nhẹ.',
+      title: 'Được xây dựng cho các cuộc họp nghiêm túc — Không chỉ để trò chuyện',
+      details: 'InterMind là một [nền tảng họp video chuyên nghiệp](./product/overview/video-meeting-platform), không phải là một tiện ích bổ sung hay plugin nhẹ.',
       items: [
-        '✧ Độ phân giải 1080p, khử tiếng ồn thông minh, lên lịch, kiểm duyệt, chia sẻ màn hình, ghi âm, phụ đề, trò chuyện của người tham gia và tích hợp lịch — tất cả được tích hợp sẵn, **sẵn sàng sử dụng**.',
+        '✧ Độ phân giải 1080p, khử tiếng ồn thông minh, lập lịch, kiểm duyệt, chia sẻ màn hình, ghi âm, phụ đề, trò chuyện của người tham gia và tích hợp lịch — tất cả đều được tích hợp sẵn, **sẵn sàng sử dụng**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -66,12 +69,13 @@ isHome: true
     }"
   />
 
-<span id="4"></span>
+## Quyền riêng tư ở nơi quan trọng {#4}
+
 <FeatureBlock
     :card="{
-      title: 'Bảo mật ở nơi quan trọng',
-      details: 'InterMIND được xây dựng cho các cuộc trò chuyện quan trọng về mặt tin cậy — nơi quyền riêng tư và kiểm soát quan trọng nhất.',
-      items: ['✧ [Vùng bảo mật](./product/overview/privacy-architecture) — EU, US, Đông Nam Á', '✧ **Không đào tạo dữ liệu**. Không có quyền truy cập bên thứ ba.'],
+      title: 'Quyền riêng tư ở nơi quan trọng',
+      details: 'InterMind được xây dựng cho các cuộc trò chuyện đòi hỏi độ tin cậy cao — nơi quyền riêng tư và kiểm soát quan trọng nhất.',
+      items: ['✧ [Vùng riêng tư](./product/overview/privacy-architecture) — EU, US, SE Asia', '✧ **Không đào tạo dữ liệu**. Không có quyền truy cập bên thứ ba.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -82,11 +86,9 @@ isHome: true
   />
 
 > **Dành cho ai?**  
-> _Được xây dựng cho các nhóm quốc tế nơi rào cản ngôn ngữ gây ra sự chậm trễ, mất cơ hội kinh doanh hoặc hiểu lầm tốn kém._ [Tìm hiểu thêm ...](./product/overview/markets)
+> _Được xây dựng cho các nhóm quốc tế nơi rào cản ngôn ngữ gây ra chậm trễ, mất cơ hội kinh doanh hoặc hiểu lầm tốn kém._ [Tìm hiểu thêm ...](./product/overview/markets)
 
-<span id="HowItWorks"></span>
-
-## Hoạt động như Google Meet + Dịch thuật trực tiếp
+## Hoạt động như Google Meet + Dịch thuật trực tiếp {#HowItWorks}
 
 Giao diện quen thuộc. Giao tiếp toàn cầu. Dễ sử dụng như Google Meet — với tính năng dịch thuật tức thì giúp xóa bỏ rào cản ngôn ngữ.
 
@@ -117,7 +119,7 @@ Giao diện quen thuộc. Giao tiếp toàn cầu. Dễ sử dụng như Google 
         },
       },
       {
-        title: 'Nói ngôn ngữ của bạn',
+        title: 'Nói bằng ngôn ngữ của bạn',
         details: 'Mọi người đều nói và nghe bằng ngôn ngữ riêng của họ.',
         icon: {
           light: '/meeting.png',
@@ -129,16 +131,15 @@ Giao diện quen thuộc. Giao tiếp toàn cầu. Dễ sử dụng như Google 
 
 <!-- <br> -->
 
-<span id="VideoDemo"></span>
+## Video Demo {#VideoDemo}
+
 <VideoPlayer src="/promo/demo-en-mx.mp4" />
 
-<span id="Example"></span>
-
-## Ví dụ: Cách dịch giọng nói thời gian thực hoạt động trong cuộc họp
+## Ví dụ: Cách dịch giọng nói thời gian thực hoạt động trong cuộc họp {#Example}
 
 Giả sử:
 
-Người dùng sử dụng **tiếng Tây Ban Nha** làm **ngôn ngữ bản địa hóa trang web**. Họ tổ chức cuộc họp và mời hai người tham gia:
+Người dùng sử dụng **tiếng Tây Ban Nha** làm **ngôn ngữ bản địa hóa trang web**. Họ tổ chức một cuộc họp và mời hai người tham gia:
 
 - 🧑‍💼 Người tham gia 1 sử dụng giao diện bằng **tiếng Anh**
 - 👩 Người tham gia 2 sử dụng giao diện bằng **tiếng Trung**
@@ -152,10 +153,10 @@ Cài đặt ngôn ngữ duy nhất này áp dụng cho:
 - **Đầu vào giọng nói** (những gì bạn nói)
 - **Đầu ra đã dịch** (những gì bạn nghe)
 
-| Người tham gia | Ngôn ngữ đã chọn | Nói bằng  | Nghe bằng |
-| -------------- | ---------------- | --------- | --------- |
+| Người tham gia | Ngôn ngữ đã chọn | Nói bằng | Nghe bằng |
+| -------------- | ---------------- | -------- | --------- |
 | Chủ trì        | Tiếng Tây Ban Nha| Tiếng Tây Ban Nha | Tiếng Tây Ban Nha |
-| Người tham gia 1| Tiếng Anh       | Tiếng Anh | Tiếng Anh |
+| Người tham gia 1| Tiếng Anh       | Tiếng Anh| Tiếng Anh |
 | Người tham gia 2| Tiếng Trung     | Tiếng Trung | Tiếng Trung |
 
 [Nền tảng tự động diễn giải tất cả lời nói theo thời gian thực](./product/overview/how-it-works) — vì vậy mọi người giao tiếp như thể họ nói cùng một ngôn ngữ.
@@ -178,17 +179,13 @@ Thay đổi này có nghĩa là:
 > Nó kiểm soát **cách bạn nói**, **những gì bạn nghe**, và **những gì bạn thấy**.  
 > Nói bằng một ngôn ngữ và nghe bằng ngôn ngữ khác **không được hỗ trợ** — theo thiết kế, để giữ trải nghiệm đơn giản và có thể dự đoán được.
 
-<span id="Testimonials"></span>
-
-## Khách hàng nói gì về chúng tôi
+## Khách hàng nói gì về chúng tôi {#Testimonials}
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-<span id="Pricing"></span>
+## Bảng giá rõ ràng và đơn giản {#Pricing}
 
-## Giá cả rõ ràng và đơn giản
-
-Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo — ở bất kỳ quy mô nào.
+Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo — ở mọi quy mô.
 
 <PricingPlans
     :plans="[
@@ -198,7 +195,7 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
         details: 'không cần thẻ tín dụng',
         items: [
           '**25** cuộc họp',
-          '**100** cuộc họp video người tham gia [💬](#3)',
+          '**100** cuộc họp video tham gia [💬](#3)',
           '**30** GB lưu trữ chung mỗi người dùng',
           'Tìm kiếm trên tất cả cuộc họp của bạn [💬](#2)',
           'Phiên dịch đồng thời [💬](#1)',
@@ -210,7 +207,7 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
         details: 'hoặc $25 thanh toán hàng tháng',
         items: [
           '**Không giới hạn** cuộc họp',
-          '**150** cuộc họp video người tham gia [💬](#3)',
+          '**150** cuộc họp video tham gia [💬](#3)',
           '**2** TB lưu trữ chung mỗi người dùng',
           'Tìm kiếm trên tất cả cuộc họp của bạn [💬](#2)',
           'Phiên dịch đồng thời [💬](#1)',
@@ -222,7 +219,7 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
         details: 'Được xây dựng cho quyền riêng tư',
         items: [
           '**Không giới hạn** cuộc họp',
-          '**500** cuộc họp video người tham gia [💬](#3)',
+          '**500** cuộc họp video tham gia [💬](#3)',
           '**5** TB lưu trữ chung mỗi người dùng',
           'Tìm kiếm trên tất cả cuộc họp của bạn [💬](#2)',
           'Phiên dịch đồng thời [💬](#1)',
@@ -239,9 +236,7 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
 > 💡 **_Thời gian của bạn nên dành để thành thạo nghề nghiệp — không phải để ghi nhớ ngữ pháp._**  
 > 💡 **_Quan hệ đối tác thực sự bắt đầu bằng những cuộc trò chuyện thực sự — bằng ngôn ngữ của họ._**
 
-## Câu hỏi thường gặp
-
-<span id="FAQ"></span>
+## Câu hỏi thường gặp {#FAQ}
 
 <AccordionGroup
     :items="[
@@ -254,8 +249,8 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
         a: 'Một *người dùng có giấy phép* có giấy phép cuộc họp miễn phí hoặc trả phí và có thể lên lịch cuộc họp trong giới hạn gói của họ. *Người tham gia* là những người được mời — họ **không cần tài khoản hoặc giấy phép** để tham gia và có thể kết nối từ bất kỳ thiết bị nào **miễn phí**.',
       },
       {
-        q: 'Có bao nhiêu người có thể sử dụng một giấy phép InterMind?',
-        a: 'Mỗi *người dùng có giấy phép* có thể tổ chức **cuộc họp không giới hạn**. Nếu nhiều thành viên trong nhóm cần tổ chức cuộc họp đồng thời, mỗi người sẽ cần giấy phép riêng.',
+        q: 'Có bao nhiều người có thể sử dụng một giấy phép InterMind?',
+        a: 'Mỗi *người dùng có giấy phép* có thể tổ chức **không giới hạn cuộc họp**. Nếu nhiều thành viên trong nhóm cần tổ chức cuộc họp đồng thời, mỗi người sẽ cần giấy phép riêng.',
       },
       {
         q: 'Thời gian tối đa của một cuộc họp là bao lâu?',
@@ -313,6 +308,7 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
         title: 'TÀI NGUYÊN',
         links: [
           { text: 'Blog', link: './blog/' },
+          { text: 'Tuân thủ truy cập ngôn ngữ toàn cầu', link: './blog/posts/global-language-access-compliance' },
           { text: 'Tài sản thương hiệu', link: './resources/media-kit' },
           { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],

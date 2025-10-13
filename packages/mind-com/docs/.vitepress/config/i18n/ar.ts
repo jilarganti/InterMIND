@@ -36,6 +36,7 @@ export const ar = defineConfig({
         items: [
           { text: "الأسئلة الشائعة", link: `${BASE_PATH}/#FAQ` },
           { text: "الشهادات", link: `${BASE_PATH}/#Testimonials` },
+          { text: "حول", link: `${BASE_PATH}/resources/company/about` },
         ],
       },
     ],
@@ -130,14 +131,6 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "الدليل القانوني للذكاء الاصطناعي", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
-    // {
-    //   text: "الموارد",
-    //   collapsed: false,
-    //   items: [
-    //     { text: "أصول العلامة التجارية", link: "/media-kit" },
-    //     // { text: "إدارة الحساب", link: "guide/account-management" },
-    //   ],
-    // },
     {
       text: "الشركة",
       collapsed: false,

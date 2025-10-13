@@ -36,6 +36,7 @@ export const tr = defineConfig({
         items: [
           { text: "SSS", link: `${BASE_PATH}/#FAQ` },
           { text: "Referanslar", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Hakkımızda", link: `${BASE_PATH}/resources/company/about` },
         ],
       },
     ],
@@ -62,7 +63,7 @@ export const tr = defineConfig({
       buttonLabel4BackToBlog: "← Bloga geri dön",
     },
     contact_form: {
-      name: "İsim *",
+      name: "Ad *",
       namePlaceholder: "adınız",
       email: "E-posta *",
       emailPlaceholder: "e-posta adresiniz",
@@ -103,7 +104,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       text: "KILAVUZ",
       collapsed: false,
       items: [
-        { text: "Başlangıç", link: "guide/getting-started" },
+        { text: "Başlarken", link: "guide/getting-started" },
         { text: "Hesap yönetimi", link: "guide/account-management" },
         { text: "Toplantı oluşturma", link: "guide/creating-meetings" },
         { text: "Toplantı arayüzü", link: "guide/meeting-interface" },
@@ -130,19 +131,11 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "AI yasal kılavuzu", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
-    // {
-    //   text: "KAYNAKLAR",
-    //   collapsed: false,
-    //   items: [
-    //     { text: "Marka varlıkları", link: "/media-kit" },
-    //     // { text: "Hesap yönetimi", link: "guide/account-management" },
-    //   ],
-    // },
     {
       text: "ŞİRKET",
       collapsed: false,
       items: [
-        { text: "Hakkında", link: "/company/about" },
+        { text: "Hakkımızda", link: "/company/about" },
         { text: "Ekip", link: "/company/team" },
         { text: "Kariyer", link: "/company/careers" },
         { text: "İletişim", link: "/company/contacts" },

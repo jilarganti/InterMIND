@@ -36,6 +36,7 @@ export const id = defineConfig({
         items: [
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Testimoni", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Tentang", link: `${BASE_PATH}/resources/company/about` },
         ],
       },
     ],
@@ -92,11 +93,11 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Apa itu InterMIND?", link: "overview/what-is-intermind" },
-        { text: "Cara kerjanya", link: "overview/how-it-works" },
-        { text: "Platform rapat video", link: "overview/video-meeting-platform" },
-        { text: "Terjemahan vs interpretasi: apa bedanya?", link: "overview/translation-vs-interpretation-whats-the-difference" },
-        { text: "Privasi data regional", link: "overview/privacy-architecture" },
-        { text: "Pasar prioritas", link: "overview/markets" },
+        { text: "Cara Kerja", link: "overview/how-it-works" },
+        { text: "Platform Rapat Video", link: "overview/video-meeting-platform" },
+        { text: "Terjemahan vs Interpretasi: Apa Perbedaannya?", link: "overview/translation-vs-interpretation-whats-the-difference" },
+        { text: "Privasi Data Regional", link: "overview/privacy-architecture" },
+        { text: "Pasar Prioritas", link: "overview/markets" },
       ],
     },
     {
@@ -104,16 +105,16 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Memulai", link: "guide/getting-started" },
-        { text: "Manajemen akun", link: "guide/account-management" },
-        { text: "Membuat rapat", link: "guide/creating-meetings" },
-        { text: "Antarmuka rapat", link: "guide/meeting-interface" },
-        { text: "Peran pengguna", link: "guide/user-roles" },
+        { text: "Manajemen Akun", link: "guide/account-management" },
+        { text: "Membuat Rapat", link: "guide/creating-meetings" },
+        { text: "Antarmuka Rapat", link: "guide/meeting-interface" },
+        { text: "Peran Pengguna", link: "guide/user-roles" },
         { text: "Fitur AI", link: "guide/ai-features" },
-        { text: "Riwayat rapat", link: "guide/meeting-history" },
+        { text: "Riwayat Rapat", link: "guide/meeting-history" },
         { text: "FAQ", link: "guide/faq" },
-        { text: "Pemecahan masalah", link: "guide/troubleshooting" },
+        { text: "Pemecahan Masalah", link: "guide/troubleshooting" },
         { text: "Harga", link: "guide/pricing" },
-        { text: "Bantuan & dukungan", link: "guide/help-support" },
+        { text: "Bantuan & Dukungan", link: "guide/help-support" },
       ],
     },
   ]
@@ -125,19 +126,11 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "DUKUNGAN",
       collapsed: false,
       items: [
-        { text: "Dapatkan dukungan", link: "/help" },
-        { text: "Kebijakan privasi", link: "/company/privacy-policy" },
-        { text: "Panduan hukum AI", link: "/company/legal-regulations-for-ai-services" },
+        { text: "Dapatkan Dukungan", link: "/help" },
+        { text: "Kebijakan Privasi", link: "/company/privacy-policy" },
+        { text: "Panduan Hukum AI", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
-    // {
-    //   text: "SUMBER DAYA",
-    //   collapsed: false,
-    //   items: [
-    //     { text: "Aset merek", link: "/media-kit" },
-    //     // { text: "Manajemen akun", link: "guide/account-management" },
-    //   ],
-    // },
     {
       text: "PERUSAHAAN",
       collapsed: false,
@@ -153,10 +146,10 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
 
 function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "Ringkasan eksekutif", link: "/InterMind-Executive-Summary" },
-    { text: "Strategi go to market", link: "/go-to-market-strategy" },
-    { text: "Pitch investor", link: "/InterMind-Investor-Pitch" },
-    { text: "Justifikasi proyeksi keuangan (tahun 1–3)", link: "/Financial-Projections-Justification" },
+    { text: "Ringkasan Eksekutif", link: "/InterMind-Executive-Summary" },
+    { text: "Strategi Go To Market", link: "/go-to-market-strategy" },
+    { text: "Pitch Investor", link: "/InterMind-Investor-Pitch" },
+    { text: "Justifikasi Proyeksi Keuangan (Tahun 1–3)", link: "/Financial-Projections-Justification" },
   ]
 }
 

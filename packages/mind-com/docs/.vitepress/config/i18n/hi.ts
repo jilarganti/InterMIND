@@ -34,8 +34,9 @@ export const hi = defineConfig({
         text: "संसाधन",
         activeMatch: `${BASE_PATH}/product/`,
         items: [
-          { text: "अक्सर पूछे जाने वाले प्रश्न", link: `${BASE_PATH}/#FAQ` },
+          { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "प्रशंसापत्र", link: `${BASE_PATH}/#Testimonials` },
+          { text: "हमारे बारे में", link: `${BASE_PATH}/resources/company/about` },
         ],
       },
     ],
@@ -110,7 +111,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "उपयोगकर्ता भूमिकाएं", link: "guide/user-roles" },
         { text: "AI सुविधाएं", link: "guide/ai-features" },
         { text: "मीटिंग इतिहास", link: "guide/meeting-history" },
-        { text: "अक्सर पूछे जाने वाले प्रश्न", link: "guide/faq" },
+        { text: "FAQ", link: "guide/faq" },
         { text: "समस्या निवारण", link: "guide/troubleshooting" },
         { text: "मूल्य निर्धारण", link: "guide/pricing" },
         { text: "सहायता और समर्थन", link: "guide/help-support" },
@@ -130,14 +131,6 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "AI कानूनी गाइड", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
-    // {
-    //   text: "संसाधन",
-    //   collapsed: false,
-    //   items: [
-    //     { text: "ब्रांड संपत्ति", link: "/media-kit" },
-    //     // { text: "खाता प्रबंधन", link: "guide/account-management" },
-    //   ],
-    // },
     {
       text: "कंपनी",
       collapsed: false,
