@@ -26,6 +26,17 @@ const oauthClientId = "vca"
 const vercelUrl = process.env.VERCEL_URL || process.env.VERCEL_BRANCH_URL
 const baseUrl = vercelUrl ? `https://${vercelUrl}` : "http://localhost:3100"
 
+const i18nLocales = Object.keys(locales).filter((localeKey) => localeKey !== "root")
+
+const rewriteRules = i18nLocales.reduce(
+  (rules, localeKey) => {
+    rules[`${localeKey}/:rest*`] = `i18n/${localeKey}/:rest*`
+    rules[`i18n/${localeKey}/:rest*`] = `${localeKey}/:rest*`
+    return rules
+  },
+  { "en/:rest*": ":rest*" } as Record<string, string>,
+)
+
 export default defineConfig({
   title: "InterMIND",
   lastUpdated: true,
@@ -33,13 +44,12 @@ export default defineConfig({
   metaChunk: true,
   locales, // Using localization from locales.ts
 
-  rewrites: {
-    "en/:rest*": ":rest*",
-    "i18n/:locale/:rest*": ":locale/:rest*",
-  },
+  rewrites: rewriteRules,
 
   transformPageData(pageData, ctx) {
-    const pagePath = pageData.relativePath.replace(/\.md$/, "").replace(/index$/, "")
+    const normalizedRelativePath = pageData.relativePath.replace(/^en\//, "").replace(/^i18n\/([a-z]{2})\//, "$1/")
+
+    const pagePath = normalizedRelativePath.replace(/\.md$/, "").replace(/index$/, "")
     pageData.frontmatter.head ??= []
 
     // Add dir: rtl for RTL languages
