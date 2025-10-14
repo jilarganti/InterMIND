@@ -1,6 +1,11 @@
+---
+title: "Fiyatlandırma"
+description: "InterMIND planlarını karşılaştırın - Temel, Pro ve İşletme. Toplantı limitleri, katılımcı kapasitesi, AI özellikleri ve depolama seçenekleri ile doğru planı bulun."
+---
+
 # Fiyatlandırma
 
-Fiyatlandırma sayfası, mevcut tüm planların—Temel, Pro ve İş—net bir karşılaştırmasını sunarak kullanıcıların iletişim ihtiyaçları için en iyi seçeneği seçmelerine yardımcı olur. Fiyatlandırma, toplantı limitleri, katılımcı kapasitesi, depolama alanı ve Ses Asistanı, AI Asistanı ve tercümanlık hizmetleri gibi premium özelliklere erişim hakkında ayrıntıları içerir.
+Fiyatlandırma sayfası, mevcut tüm planların—Temel, Pro ve İşletme—net bir karşılaştırmasını sunarak kullanıcıların iletişim ihtiyaçları için en iyi seçeneği seçmelerine yardımcı olur. Fiyatlandırma, toplantı limitleri, katılımcı kapasitesi, depolama ve Ses Asistanı, AI Asistanı ve tercümanlık hizmetleri gibi premium özelliklere erişim hakkında ayrıntıları içerir.
 
 ## Fiyatlandırma Sayfasına Erişim
 
@@ -50,7 +55,7 @@ Fiyatlandırma sayfası üç katman içerir:
   - Kart bilgileri
   - Kart sahibinin adı
   - Ülke/bölge
-- Stripe güvenli ödeme işlemini garanti eder
+- Stripe güvenli ödeme işleme garantisi verir
 - Kullanıcılar ayrıca Link aracılığıyla ödeme bilgilerini kaydetme seçeneğine sahiptir
 - Tüm fatura kayıtları denetim ve raporlama amaçları için hesabınızda erişilebilir durumda kalır
 - Faturalar ve ödeme geçmişi muhasebe amaçları için indirilebilir

@@ -1,10 +1,15 @@
+---
+title: "Toplantı Geçmişi"
+description: "InterMIND toplantı arşivinize kayıtlar, transkriptler, AI tarafından oluşturulan özetler ve yeniden kullanılabilir toplantı bağlantıları ile tek yerden erişin."
+---
+
 # Toplantı Geçmişi
 
-Toplantı Geçmişi sayfası, oturum açtığınız sırada düzenlediğiniz veya katıldığınız tüm toplantılar için kişisel bir arşiv işlevi görür. Kayıtlara, transkriptlere, AI Asistanı tarafından oluşturulan özetlere ve yeniden kullanılabilir toplantı bağlantılarına hızlı erişim sunar - hepsi tek bir kullanışlı konumda birleştirilmiştir.
+Toplantı Geçmişi sayfası, oturum açtığınız sırada ev sahipliği yaptığınız veya katıldığınız tüm toplantılar için kişisel bir arşiv işlevi görür. Kayıtlar, transkriptler, AI Asistanı tarafından oluşturulan özetler ve yeniden kullanılabilir toplantı bağlantılarına hızlı erişim sunar - hepsi tek bir kullanışlı konumda birleştirilmiştir.
 
 ## Toplantı Geçmişi sayfasına erişim
 
-Toplantı Geçmişi sayfasına üç kolay yöntemden biri ile erişebilirsiniz:
+Toplantı Geçmişi sayfasına üç kolay yöntemden biriyle erişebilirsiniz:
 
 - Sayfa başlığı menüsünde 'Sorun Bildir' simgesinin yanında bulunan 'Geçmiş' bağlantısına tıklayın
 - Alternatif olarak, sağ üst köşedeki avatar simgenize tıklayın ve açılır menüden **Geçmiş**'i seçin
@@ -12,7 +17,7 @@ Toplantı Geçmişi sayfasına üç kolay yöntemden biri ile erişebilirsiniz:
 
 ## Toplantı Listesi
 
-Toplantı geçmişinizdeki her giriş şunları içerir:
+Toplantı geçmişinizdeki her kayıt şunları içerir:
 
 - **Tarih** (Saat dahil)
 - **Oda ID**
@@ -81,9 +86,9 @@ Bu sekme, kullanıcılar arasındaki tüm sohbet iletişimlerini görüntüler.
 
 Bu, tüm sesli iletişimleri metin formatında kaydeden toplantı transkriptini açar. Ses Asistanı'ndan (Jarvis) gelen mesajlar da dahil edilir.
 
-### AI Asistan
+### AI Asistanı
 
-Bu, kullanıcıların AI Asistan'dan sohbet formatında toplantı özeti almalarını sağlar.
+Bu, kullanıcıların AI Asistanı'ndan sohbet formatında toplantı özeti almalarını sağlar.
 
 > [!INFO]
 > Toplantı herhangi bir kayıt içermiyorsa, Toplantı Detayları sayfasında Kayıt sekmesi gizli olabilir.

@@ -1,6 +1,11 @@
+---
+title: "Historial de reuniones"
+description: "Accede a tu archivo de reuniones de InterMIND con grabaciones, transcripciones, resúmenes generados por IA y enlaces de reunión reutilizables en un solo lugar."
+---
+
 # Historial de reuniones
 
-La página de Historial de Reuniones funciona como un archivo personal para todas las reuniones que has organizado o a las que has asistido mientras estás conectado. Ofrece acceso rápido a grabaciones, transcripciones, resúmenes generados por el Asistente de IA y enlaces de reuniones reutilizables, todo consolidado en una ubicación conveniente.
+La página de Historial de reuniones funciona como un archivo personal para todas las reuniones que has organizado o a las que has asistido mientras estás conectado. Ofrece acceso rápido a grabaciones, transcripciones, resúmenes generados por el Asistente de IA y enlaces de reunión reutilizables, todo consolidado en una ubicación conveniente.
 
 ## Acceder a la página de Historial de reuniones
 
@@ -88,11 +93,11 @@ Esto permite a los usuarios obtener un resumen de la reunión del Asistente de I
 > [!INFO]
 > La pestaña de Grabación puede estar oculta en la página de Detalles de la reunión si la reunión no incluye ninguna grabación.
 
-## Control de acceso
+## Control de Acceso
 
-- Los anfitriones y moderadores tienen acceso completo al historial de sus propias reuniones
-- Los participantes registrados pueden acceder al historial de las reuniones a las que asistieron; sin embargo, no pueden eliminar el registro de la reunión
+- Los Anfitriones y Moderadores tienen acceso completo a su propio historial de reuniones
+- Los Participantes con sesión iniciada pueden acceder al historial de las reuniones a las que asistieron; sin embargo, no pueden eliminar el registro de la reunión
 - Los usuarios invitados y asistentes anónimos no tienen acceso a la página de historial ni a su contenido
 
 > [!TIP]
-> Utiliza la página de Historial de reuniones para reproducir discusiones clave, recuperar notas importantes y dar seguimiento a elementos de acción usando resúmenes y transcripciones—convirtiéndola en una herramienta esencial para documentación de equipos, auditorías o flujos de trabajo de cumplimiento.
+> Utiliza la página de Historial de Reuniones para reproducir discusiones clave, recuperar notas importantes y dar seguimiento a elementos de acción usando resúmenes y transcripciones—convirtiéndola en una herramienta esencial para documentación de equipos, auditorías o flujos de trabajo de cumplimiento.

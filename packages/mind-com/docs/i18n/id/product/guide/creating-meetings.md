@@ -1,6 +1,11 @@
+---
+title: "Membuat dan Menjadwalkan Rapat"
+description: "Pelajari cara membuat rapat instan, menjadwalkan di Google Calendar, dan menghasilkan tautan rapat yang dapat digunakan kembali di platform konferensi video InterMIND."
+---
+
 # Membuat dan Menjadwalkan Rapat
 
-Setelah masuk ke InterMIND, pengguna dapat dengan mudah membuat dan menjadwalkan rapat langsung dari antarmuka utama dengan mengklik tombol **New Meeting**.
+Setelah masuk ke InterMIND, pengguna dapat dengan mudah membuat dan menjadwalkan rapat langsung dari antarmuka utama dengan mengklik tombol **Rapat Baru**.
 
 ## Mengakses Opsi Rapat
 
@@ -12,13 +17,13 @@ Di layar beranda, temukan tombol biru yang menonjol **Rapat Baru** yang terletak
 
 ## Membuat Rapat untuk Nanti
 
-Opsi ini memungkinkan pengguna untuk membuat tautan rapat yang dapat digunakan kembali tanpa memulai rapat secara langsung.
+Opsi ini memungkinkan pengguna untuk menghasilkan tautan rapat yang dapat digunakan kembali tanpa memulai rapat secara langsung.
 
 **Langkah-langkah:**
 
 1. Klik tombol **Rapat Baru**
 2. Pilih opsi **Membuat Rapat untuk Nanti**
-3. Tautan rapat unik akan dibuat
+3. Tautan rapat unik akan dihasilkan
 4. Salin tautan dan bagikan kepada peserta
 5. Anda dapat bergabung ke rapat kapan saja menggunakan tautan ini
 
@@ -34,9 +39,9 @@ Opsi ini memungkinkan pengguna untuk memulai sesi rapat langsung secara instan.
 1. Klik tombol **New Meeting**
 2. Pilih opsi **Start an instant meeting**
 3. Ruang rapat akan terbuka secara instan di tab saat ini
-4. Anda akan secara otomatis berperan sebagai Host
+4. Anda akan otomatis berperan sebagai Host
 5. Gunakan opsi 'Copy Link' yang terletak di sudut kiri bawah, atau salin tautan dari bilah alamat browser
-6. Bagikan tautan tersebut dengan peserta lain
+6. Bagikan tautan tersebut kepada peserta lain
 
 > [!TIP]
 > Opsi ini ideal untuk sinkronisasi cepat atau kolaborasi spontan.

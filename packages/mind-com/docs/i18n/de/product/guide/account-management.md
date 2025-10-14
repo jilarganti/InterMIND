@@ -1,8 +1,13 @@
+---
+title: "Kontoverwaltung"
+description: "Registrieren Sie sich und verwalten Sie Ihr InterMIND-Konto. Erfahren Sie, wie Sie sich mit Google, Microsoft oder E-Mail registrieren, Profileinstellungen aktualisieren und die Sicherheit verwalten."
+---
+
 # Kontoverwaltung
 
 ## Registrierung
 
-Die Erstellung eines Kontos kann über drei Methoden erfolgen: über Ihre Google- oder Microsoft-Konten oder durch Registrierung mit einer externen E-Mail-Adresse.
+Die Erstellung eines Kontos kann über drei Methoden erfolgen: durch die Nutzung Ihrer Google- oder Microsoft-Konten oder durch die Registrierung mit einer externen E-Mail-Adresse.
 
 1. Besuchen Sie zunächst [https://intermind.com](https://intermind.com)
 2. Klicken Sie auf die Schaltfläche **Anmelden** in der oberen rechten Ecke der Startseite
@@ -28,7 +33,7 @@ Diese Methode ist für einen effizienten Zugang über ein Google-Konto empfehlen
 
 ### Registrierung mit Microsoft-Konto
 
-Diese Methode ist für einen schnellen Zugang über ein Microsoft-Konto empfehlenswert. Die optimale Erfahrung kann durch die Verwendung des Microsoft Edge-Browsers erreicht werden.
+Diese Methode ist für einen schnellen Zugang über ein Microsoft-Konto empfehlenswert. Die optimale Erfahrung kann durch die Nutzung des Microsoft Edge-Browsers erreicht werden.
 
 1. Klicken Sie auf die Schaltfläche **Microsoft**
 2. Ein Pop-up-Fenster erscheint und fordert Sie auf, Ihr Microsoft-Konto auszuwählen
@@ -75,7 +80,7 @@ Wenn Sie Ihr Passwort vergessen haben, befolgen Sie diese Schritte:
 
 ## Anmelden
 
-Nach der Erstellung Ihres InterMIND-Kontos haben Sie jederzeit die Möglichkeit, sich anzumelden. Dies ermöglicht es Ihnen, Meetings zu veranstalten oder daran teilzunehmen, Einstellungen zu verwalten, auf KI-Funktionen zuzugreifen und frühere Meetings samt deren Transkripte zu überprüfen. Darüber hinaus kann der KI-Assistent innerhalb der Meeting-Historie genutzt werden.
+Nach der Erstellung Ihres InterMIND-Kontos haben Sie jederzeit die Möglichkeit, sich anzumelden. Dies ermöglicht es Ihnen, Meetings zu veranstalten oder daran teilzunehmen, Einstellungen zu verwalten, auf KI-Funktionen zuzugreifen und vorherige Meetings samt deren Transkripte zu überprüfen. Darüber hinaus kann der KI-Assistent innerhalb der Meeting-Historie genutzt werden.
 
 ### Zugriff auf die Anmeldeseite
 
@@ -206,7 +211,7 @@ Wählen Sie Mikrofon, Lautsprecher und Kamera aus, schalten Sie Hintergrundunsch
 Wählen Sie die Standard-Übersetzungssprache und passen Sie die ursprüngliche Stimmlautstärke an.
 
 - **Zielsprache**: Standard-Übersetzungsausgabe und Oberflächensprache auswählen
-- **Ursprüngliche Lautstärke**: Hintergrundstimmlautstärke anpassen, während übersetztes Audio abgespielt wird
+- **Ursprüngliche Lautstärke**: Hintergrund-Stimmlautstärke anpassen, während übersetztes Audio abgespielt wird
 
 **Sonstiges**
 Legen Sie das Standard-Layout (z.B. Seitenleiste), den Assistenten-Anbieter und die automatische Verlassen-Option fest, wenn Sie allein sind.

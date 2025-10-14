@@ -1,6 +1,11 @@
+---
+title: "Tarification"
+description: "Comparez les forfaits InterMIND - Basic, Pro et Business. Trouvez le forfait adapté avec les limites de réunions, la capacité de participants, les fonctionnalités IA et les options de stockage."
+---
+
 # Tarification
 
-La page Tarification fournit une comparaison claire de tous les plans disponibles—Basique, Pro et Business—aidant les utilisateurs à choisir la meilleure option pour leurs besoins de communication. Elle inclut des détails sur les prix, les limites de réunions, la capacité de participants, le stockage, et l\'accès aux fonctionnalités premium comme l\'Assistant Vocal, l\'Assistant IA, et les services d\'interprétation.
+La page Tarification fournit une comparaison claire de tous les forfaits disponibles—Basic, Pro et Business—aidant les utilisateurs à choisir la meilleure option pour leurs besoins de communication. Elle inclut les détails sur la tarification, les limites de réunions, la capacité de participants, le stockage, et l\'accès aux fonctionnalités premium comme l\'Assistant Vocal, l\'Assistant IA, et les services d\'interprétation.
 
 ## Accéder à la page de tarification
 
@@ -29,9 +34,9 @@ La page Tarification comprend trois niveaux :
 
 | Plan         | Prix                                      | Fonctionnalités clés                                                        |
 | ------------ | ----------------------------------------- | --------------------------------------------------------------------------- |
-| **Basic**    | Gratuit                                   | 25 réunions, 100 participants, 30 GB stockage, interprétation limitée     |
-| **Pro**      | 25$/mois (ou 20$/mois facturé annuellement) | Réunions illimitées, 150 participants, 2 TB stockage, toutes les fonctionnalités IA |
-| **Business** | Personnalisé (Contacter les ventes)      | 500 participants, 5 TB stockage, collègue IA (alpha), fonctionnalités entreprise |
+| **Basic**    | Gratuit                                   | 25 réunions, 100 participants, 30 Go de stockage, interprétation limitée   |
+| **Pro**      | 25 $/mois (ou 20 $/mois facturé annuellement) | Réunions illimitées, 150 participants, 2 To de stockage, toutes les fonctionnalités IA |
+| **Business** | Personnalisé (Contacter les ventes)      | 500 participants, 5 To de stockage, collègue IA (alpha), fonctionnalités d\'entreprise |
 
 ### Autres points saillants
 

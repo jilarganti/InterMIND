@@ -1,4 +1,9 @@
-# Toplantı Oluşturma ve Planlama
+---
+title: "Toplantı oluşturma ve planlama"
+description: "InterMIND video konferans platformunda anlık toplantılar oluşturmayı, Google Takvim'de planlamayı ve yeniden kullanılabilir toplantı bağlantıları oluşturmayı öğrenin."
+---
+
+# Toplantı oluşturma ve planlama
 
 InterMIND'a giriş yaptıktan sonra, kullanıcılar **Yeni Toplantı** düğmesine tıklayarak ana arayüzden doğrudan toplantı oluşturabilir ve planlayabilir.
 
@@ -39,7 +44,7 @@ Bu seçenek, kullanıcıların hemen canlı bir toplantı oturumu başlatmasın�
 6. Bağlantıyı diğer katılımcılarla paylaşın
 
 > [!TIP]
-> Bu seçenek hızlı senkronizasyon veya spontane işbirliği için idealdir.
+> Bu seçenek hızlı senkronizasyon veya spontan işbirliği için idealdir.
 
 ## Google Takvim'de Zamanlama
 

@@ -1,3 +1,8 @@
+---
+title: "KI-Funktionen"
+description: "Entdecken Sie InterMINDs KI-gestützte Funktionen einschließlich Sprachassistent (Jarvis), Echtzeit-Sprachübersetzung und KI-Assistent für Meeting-Notizen und Zusammenfassungen."
+---
+
 # KI-Funktionen
 
 Dieser Abschnitt beschreibt die Funktionalitäten des Sprachassistenten (Jarvis), der Online-Sprachübersetzung und des KI-Assistenten, die während Meetings verfügbar sind.

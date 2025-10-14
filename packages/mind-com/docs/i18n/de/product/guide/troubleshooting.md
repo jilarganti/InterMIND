@@ -1,3 +1,8 @@
+---
+title: "Fehlerbehebung"
+description: "Beheben Sie häufige InterMIND-Probleme mit Mikrofon, Kamera, Übersetzer, Bildschirmfreigabe und Aufzeichnung. Lösungen für reibungslose Online-Meetings."
+---
+
 # Fehlerbehebung
 
 Dieser Abschnitt bietet Lösungen für häufige Probleme, die während Online-Meetings auftreten können, einschließlich Problemen mit Mikrofonen, Kameras, dem Beitritt zu Meetings, der Verwendung von Sprachassistenten, Übersetzern, Bildschirmfreigabe und Aufzeichnung. Er beschreibt mögliche Ursachen für jedes Problem und bietet praktische Lösungen zu deren Behebung, um eine reibungslosere Online-Meeting-Erfahrung zu gewährleisten.

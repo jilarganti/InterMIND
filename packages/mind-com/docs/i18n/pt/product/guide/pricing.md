@@ -1,6 +1,11 @@
+---
+title: "Preços"
+description: "Compare os planos InterMIND - Básico, Pro e Business. Encontre o plano ideal com limites de reunião, capacidade de participantes, recursos de IA e opções de armazenamento."
+---
+
 # Preços
 
-A página de Preços oferece uma comparação clara de todos os planos disponíveis—Básico, Pro e Business—ajudando os usuários a escolher a melhor opção para suas necessidades de comunicação. Inclui detalhes sobre preços, limites de reuniões, capacidade de participantes, armazenamento e acesso a recursos premium como Assistente de Voz, Assistente de IA e serviços de interpretação.
+A página de Preços oferece uma comparação clara de todos os planos disponíveis—Básico, Pro e Business—ajudando os usuários a escolher a melhor opção para suas necessidades de comunicação. Inclui detalhes sobre preços, limites de reunião, capacidade de participantes, armazenamento e acesso a recursos premium como Assistente de Voz, Assistente de IA e serviços de interpretação.
 
 ## Acessando a Página de Preços
 

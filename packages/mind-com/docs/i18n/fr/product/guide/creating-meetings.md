@@ -1,4 +1,9 @@
-# Création et planification de réunions
+---
+title: "Créer et planifier des réunions"
+description: "Apprenez à créer des réunions instantanées, planifier dans Google Calendar et générer des liens de réunion réutilisables dans la plateforme de visioconférence InterMIND."
+---
+
+# Créer et planifier des réunions
 
 Après s\'être connecté à InterMIND, les utilisateurs peuvent facilement créer et planifier des réunions directement depuis l\'interface principale en cliquant sur le bouton **Nouvelle réunion**.
 
@@ -23,7 +28,7 @@ Cette option permet aux utilisateurs de générer un lien de réunion réutilisa
 5. Vous pouvez rejoindre la réunion à tout moment en utilisant ce lien
 
 > [!TIP]
-> Cette option est particulièrement avantageuse pour les membres d\'équipe qui rejoindront à des moments différents ou pour la planification future.
+> Cette option est particulièrement avantageuse pour les membres de l\'équipe qui rejoindront à des moments différents ou pour la planification future.
 
 ## Démarrer une réunion instantanée
 

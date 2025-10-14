@@ -1,12 +1,17 @@
-# Meeting-Verlauf
+---
+title: "Besprechungsverlauf"
+description: "Greifen Sie auf Ihr InterMIND-Besprechungsarchiv mit Aufzeichnungen, Transkripten, KI-generierten Zusammenfassungen und wiederverwendbaren Besprechungslinks an einem Ort zu."
+---
 
-Die Meeting-Verlauf-Seite fungiert als persönliches Archiv für alle Meetings, die Sie gehostet oder an denen Sie teilgenommen haben, während Sie angemeldet waren. Sie bietet schnellen Zugriff auf Aufzeichnungen, Transkripte, von der KI-Assistentin generierte Zusammenfassungen und wiederverwendbare Meeting-Links - alles an einem praktischen Ort zusammengefasst.
+# Besprechungsverlauf
+
+Die Besprechungsverlauf-Seite fungiert als persönliches Archiv für alle Besprechungen, die Sie gehostet oder an denen Sie teilgenommen haben, während Sie angemeldet waren. Sie bietet schnellen Zugriff auf Aufzeichnungen, Transkripte, von der KI-Assistentin generierte Zusammenfassungen und wiederverwendbare Besprechungslinks - alles an einem praktischen Ort zusammengefasst.
 
 ## Zugriff auf die Besprechungsverlauf-Seite
 
 Sie können auf die Besprechungsverlauf-Seite über eine von drei praktischen Methoden zugreifen:
 
-- Klicken Sie auf den 'Verlauf'-Link, der sich neben dem 'Problem melden'-Symbol im Seitenkopf-Menü befindet
+- Klicken Sie auf den 'Verlauf'-Link neben dem 'Problem melden'-Symbol im Seitenkopf-Menü
 - Alternativ klicken Sie auf Ihr Avatar-Symbol in der oberen rechten Ecke und wählen dann **Verlauf** aus dem Dropdown-Menü
 - Sie können auch direkt zu folgendem Link navigieren: [https://intermind.com/history](https://intermind.com/history)
 
@@ -35,7 +40,7 @@ Diese Funktion ermöglicht es Ihnen, Meetings anhand von Schlüsselwörtern im T
 
 ### Raum-ID
 
-Durch Klicken auf den Raum-ID-Link wird die Liste so organisiert, dass nur Meetings angezeigt werden, die derselben Raum-ID zugeordnet sind.
+Durch Klicken auf den Raum-ID-Link wird die Liste so organisiert, dass nur Meetings angezeigt werden, die mit derselben Raum-ID verknüpft sind.
 
 ### # Pax (Teilnehmer)
 
@@ -47,7 +52,7 @@ Einige Aktionsschaltflächen sind unter dem Drei-Punkte-Menü auf der rechten Se
 
 #### Löschen
 
-Wenn diese Aktion angeklickt wird, erhalten Benutzer eine Benachrichtigung, die sie auffordert, das Löschen durch Klicken auf die Schaltfläche **Ja, löschen** zu bestätigen oder den Vorgang durch Klicken auf die Schaltfläche **Abbrechen** abzubrechen. Gelöschte Meetings sind für alle Teilnehmer nicht mehr sichtbar. Nur Hosts oder Moderatoren besitzen die Berechtigung, ein Meeting zu löschen.
+Wenn diese Aktion angeklickt wird, erhalten Benutzer eine Benachrichtigung, die sie auffordert, das Löschen durch Klicken auf die Schaltfläche **Ja, löschen** zu bestätigen oder den Vorgang durch Klicken auf die Schaltfläche **Abbrechen** abzubrechen. Gelöschte Meetings sind für alle Teilnehmer nicht mehr sichtbar. Nur Hosts oder Moderatoren haben die Berechtigung, ein Meeting zu löschen.
 
 #### Teilen
 
@@ -90,9 +95,9 @@ Dies ermöglicht es Benutzern, eine Meeting-Zusammenfassung vom KI-Assistenten i
 
 ## Zugriffskontrolle
 
-- Gastgeber und Moderatoren haben vollständigen Zugriff auf ihre eigene Meeting-Historie
-- Angemeldete Teilnehmer können auf die Historie der besuchten Meetings zugreifen; sie können jedoch die Meeting-Aufzeichnungen nicht löschen
-- Gastbenutzer und anonyme Teilnehmer haben keinen Zugriff auf die Historien-Seite oder deren Inhalte
+- Gastgeber und Moderatoren haben vollständigen Zugriff auf ihren eigenen Besprechungsverlauf
+- Angemeldete Teilnehmer können auf den Verlauf der besuchten Besprechungen zugreifen; sie können jedoch den Besprechungsdatensatz nicht löschen
+- Gastbenutzer und anonyme Teilnehmer haben keinen Zugriff auf die Verlaufsseite oder deren Inhalte
 
 > [!TIP]
-> Nutzen Sie die Meeting-Historie-Seite, um wichtige Diskussionen zu wiederholen, wichtige Notizen abzurufen und Aktionspunkte mithilfe von Zusammenfassungen und Transkripten zu verfolgen—dies macht sie zu einem unverzichtbaren Werkzeug für Teamdokumentation, Audits oder Compliance-Workflows.
+> Nutzen Sie die Besprechungsverlauf-Seite, um wichtige Diskussionen zu wiederholen, wichtige Notizen abzurufen und Aktionspunkte mithilfe von Zusammenfassungen und Transkripten zu verfolgen—was sie zu einem unverzichtbaren Werkzeug für Teamdokumentation, Audits oder Compliance-Workflows macht.

@@ -1,6 +1,11 @@
+---
+title: "Historique des réunions"
+description: "Accédez à vos archives de réunions InterMIND avec enregistrements, transcriptions, résumés générés par l'IA et liens de réunion réutilisables en un seul endroit."
+---
+
 # Historique des réunions
 
-La page Historique des réunions fonctionne comme une archive personnelle pour toutes les réunions que vous avez organisées ou auxquelles vous avez participé en étant connecté. Elle offre un accès rapide aux enregistrements, transcriptions, résumés générés par l\'Assistant IA, et liens de réunion réutilisables - le tout consolidé en un seul endroit pratique.
+La page Historique des réunions fonctionne comme une archive personnelle pour toutes les réunions que vous avez organisées ou auxquelles vous avez participé en étant connecté. Elle offre un accès rapide aux enregistrements, transcriptions, résumés générés par l\'Assistant IA et liens de réunion réutilisables - le tout consolidé en un seul endroit pratique.
 
 ## Accéder à la page Historique des réunions
 
@@ -47,7 +52,7 @@ Certains boutons d'action peuvent être trouvés cachés sous le menu à trois p
 
 #### Supprimer
 
-Lorsque cette action est cliquée, les utilisateurs recevront une notification les invitant à confirmer la suppression en cliquant sur le bouton **Oui, supprimer** ou à annuler l'opération en cliquant sur le bouton **Annuler**. Les réunions supprimées ne seront plus visibles pour aucun participant. Seuls les Hôtes ou les Modérateurs possèdent l'autorité pour supprimer une réunion.
+Lorsque cette action est cliquée, les utilisateurs recevront une notification les invitant à confirmer la suppression en cliquant sur le bouton **Oui, supprimer** ou à annuler l'opération en cliquant sur le bouton **Annuler**. Les réunions supprimées ne seront plus visibles pour aucun participant. Seuls les Hôtes ou Modérateurs possèdent l'autorité pour supprimer une réunion.
 
 #### Partager
 
@@ -83,16 +88,16 @@ Ceci ouvre la transcription de la réunion qui enregistre toutes les communicati
 
 ### Assistant IA
 
-Ceci permet aux utilisateurs d\'obtenir un résumé de réunion de l\'Assistant IA au format chat.
+Ceci permet aux utilisateurs d\'obtenir un résumé de la réunion de l\'Assistant IA au format chat.
 
 > [!INFO]
 > L\'onglet Enregistrement peut être masqué sur la page Détails de la réunion si la réunion n\'inclut aucun enregistrement.
 
-## Contrôle d\'accès
+## Contrôle d'accès
 
 - Les hôtes et modérateurs ont un accès complet à leur propre historique de réunions
-- Les participants connectés peuvent accéder à l\'historique des réunions auxquelles ils ont assisté ; cependant, ils ne peuvent pas supprimer l\'enregistrement de la réunion
-- Les utilisateurs invités et les participants anonymes n\'ont pas accès à la page d\'historique ou à son contenu
+- Les participants connectés peuvent accéder à l'historique des réunions auxquelles ils ont assisté ; cependant, ils ne peuvent pas supprimer l'enregistrement de la réunion
+- Les utilisateurs invités et les participants anonymes n'ont pas accès à la page d'historique ou à son contenu
 
 > [!TIP]
-> Utilisez la page Historique des réunions pour rejouer les discussions clés, récupérer les notes importantes et assurer le suivi des éléments d\'action en utilisant les résumés et transcriptions—en faisant un outil essentiel pour la documentation d\'équipe, les audits ou les flux de travail de conformité.
+> Utilisez la page Historique des réunions pour rejouer les discussions clés, récupérer les notes importantes et assurer le suivi des éléments d'action en utilisant les résumés et transcriptions—en faisant un outil essentiel pour la documentation d'équipe, les audits ou les flux de travail de conformité.

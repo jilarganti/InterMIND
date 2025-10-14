@@ -1,6 +1,11 @@
-# Primeiros Passos
+---
+title: "Primeiros passos"
+description: "Aprenda como usar a plataforma de videoconferência com IA InterMIND. Guia completo para registro, criação de reuniões, recursos de IA e solução de problemas."
+---
 
-InterMIND é uma plataforma avançada de videoconferência com inteligência artificial projetada para facilitar a comunicação perfeita entre vários idiomas, dispositivos e equipes. Este guia tem como objetivo fornecer uma compreensão abrangente de como utilizar efetivamente todos os recursos do InterMIND — desde participar da sua primeira reunião até configurar ferramentas de IA e resolver problemas técnicos.
+# Primeiros passos
+
+InterMIND é uma plataforma avançada de videoconferência com IA projetada para facilitar a comunicação perfeita entre vários idiomas, dispositivos e equipes. Este guia tem como objetivo fornecer uma compreensão abrangente de como utilizar efetivamente todos os recursos do InterMIND — desde participar da sua primeira reunião até configurar ferramentas de IA e resolver problemas técnicos.
 
 Seja você um usuário iniciante buscando orientação detalhada ou um participante experiente supervisionando reuniões complexas, este guia consolida todas as informações necessárias em um local acessível.
 
@@ -9,12 +14,12 @@ Neste guia, você descobrirá:
 - Instruções sobre como se registrar, fazer login e personalizar seu perfil
 - Diretrizes para criar e agendar reuniões
 - Informações sobre funções de usuário, permissões e recursos de tradução em tempo real
-- Uma visão geral dos recursos com inteligência artificial, como o Assistente de IA e o Tradutor de Voz
+- Uma visão geral dos recursos com IA, como o Assistente de IA e o Tradutor de Voz
 - Dicas de solução de problemas e respostas para perguntas frequentes
 
 Vamos começar — o futuro das reuniões inteligentes está prestes a começar agora.
 
-## Lista de verificação para início rápido
+## Lista de Verificação para Início Rápido
 
 Se você é novo no InterMIND, siga esta lista de verificação simples para começar sua experiência:
 
@@ -70,13 +75,13 @@ O InterMIND é otimizado para uso tanto em desktop quanto em dispositivos móvei
 - Smartphones e tablets Android
 - Smartphones e tablets iOS
 
-Os usuários podem acessar a plataforma diretamente através do seu navegador sem a necessidade de instalação de qualquer software.
+Os usuários podem acessar a plataforma diretamente através do navegador sem a necessidade de instalação de software.
 
 ### Como Acessar
 
 1. Abra seu navegador web
 2. Visite https://intermind.com
-3. Faça login ou participe de um link de reunião diretamente como convidado
+3. Faça login ou entre diretamente em um link de reunião como convidado
 4. Conceda permissões de câmera e microfone quando solicitado
 
 > [!WARNING]

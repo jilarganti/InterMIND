@@ -1,3 +1,8 @@
+---
+title: "Harga"
+description: "Bandingkan paket InterMIND - Basic, Pro, dan Business. Temukan paket yang tepat dengan batas meeting, kapasitas peserta, fitur AI, dan opsi penyimpanan."
+---
+
 # Harga
 
 Halaman Harga menyediakan perbandingan yang jelas dari semua paket yang tersedia—Basic, Pro, dan Business—membantu pengguna memilih opsi terbaik untuk kebutuhan komunikasi mereka. Halaman ini mencakup detail tentang harga, batas meeting, kapasitas peserta, penyimpanan, dan akses ke fitur premium seperti Voice Assistant, AI Assistant, dan layanan interpretasi.
@@ -31,7 +36,7 @@ Halaman Harga mencakup tiga tingkatan:
 | ------------ | ---------------------------------------- | ------------------------------------------------------------------------- |
 | **Basic**    | Gratis                                   | 25 rapat, 100 peserta, penyimpanan 30 GB, interpretasi terbatas          |
 | **Pro**      | $25/bulan (atau $20/bulan ditagih tahunan) | Rapat tak terbatas, 150 peserta, penyimpanan 2 TB, semua fitur AI        |
-| **Business** | Kustom (Hubungi Sales)                   | 500 peserta, penyimpanan 5 TB, AI colleague (alpha), fitur enterprise    |
+| **Business** | Kustom (Hubungi Sales)                   | 500 peserta, penyimpanan 5 TB, kolega AI (alpha), fitur enterprise       |
 
 ### Sorotan Lainnya
 
@@ -40,7 +45,7 @@ Halaman Harga mencakup tiga tingkatan:
 - Tombol **Hubungi Kami** memungkinkan klien Business untuk meminta solusi yang disesuaikan
 
 > [!TIP]
-> Upgrade paket berlaku segera dan menerapkan batas fitur yang ditingkatkan sesuai dengan itu.
+> Peningkatan paket berlaku segera dan menerapkan batas fitur yang ditingkatkan sesuai.
 
 ## Pembayaran Berlangganan melalui Stripe
 

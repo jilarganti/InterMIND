@@ -1,50 +1,55 @@
+---
+title: "Gestion de compte"
+description: "Inscrivez-vous et gérez votre compte InterMIND. Apprenez à vous inscrire avec Google, Microsoft ou par e-mail, mettre à jour les paramètres de profil et gérer la sécurité."
+---
+
 # Gestion de compte
 
 ## Inscription
 
-La création d\'un compte peut être accomplie par trois méthodes : en utilisant vos comptes Google ou Microsoft ou en vous inscrivant avec une adresse e-mail externe.
+La création d'un compte peut être accomplie par trois méthodes : en utilisant vos comptes Google ou Microsoft ou en vous inscrivant avec une adresse e-mail externe.
 
 1. Pour commencer, visitez [https://intermind.com](https://intermind.com)
-2. Cliquez sur le bouton **Se connecter** situé dans le coin supérieur droit de la page d\'accueil
+2. Cliquez sur le bouton **Se connecter** situé dans le coin supérieur droit de la page d'accueil
 3. Sur la page de connexion à votre compte, vous rencontrerez les options suivantes :
-   - Boutons Google et Microsoft, qui facilitent l\'accès à la plateforme en utilisant vos comptes Google ou Microsoft existants
-   - Case à cocher « Se souvenir de moi », qui vous permet de maintenir votre statut de connexion sur cet appareil
-   - Lien « Mot de passe oublié », qui est disponible si vous possédez déjà un compte mais ne vous souvenez pas de votre mot de passe
-   - Texte « Ou se connecter avec », suivi des champs E-mail et Mot de passe pour la connexion, si vous avez déjà un compte
-   - Texte « Vous n\'avez pas de compte ? », suivi d\'un lien « S\'inscrire », qui vous permet de vous inscrire en utilisant votre adresse e-mail externe
+   - Les boutons Google et Microsoft, qui facilitent l'accès à la plateforme en utilisant vos comptes Google ou Microsoft existants
+   - La case à cocher « Se souvenir de moi », qui vous permet de maintenir votre statut de connexion sur cet appareil
+   - Le lien « Mot de passe oublié », qui est disponible si vous possédez déjà un compte mais ne vous souvenez pas de votre mot de passe
+   - Le texte « Ou se connecter avec », suivi des champs E-mail et Mot de passe pour la connexion, si vous avez déjà un compte
+   - Le texte « Vous n'avez pas de compte ? », suivi d'un lien « S'inscrire », qui vous permet de vous inscrire en utilisant votre adresse e-mail externe
 
-### Inscription avec un compte Google
+### S'inscrire avec un compte Google
 
-Cette méthode est conseillée pour un accès efficace via un compte Google, facilitant la synchronisation transparente avec Google Calendar. L\'expérience la plus efficace peut être obtenue en utilisant le navigateur Google Chrome.
+Cette méthode est conseillée pour un accès efficace via un compte Google, facilitant la synchronisation transparente avec Google Calendar. L'expérience la plus efficace peut être obtenue en utilisant le navigateur Google Chrome.
 
 1. Cliquez sur le bouton **Google**
 2. Une fenêtre contextuelle apparaîtra, vous invitant à sélectionner votre compte Google
-3. Autorisez l\'accès à vos informations de profil de base en cliquant sur le bouton **Continuer**
+3. Autorisez l'accès à vos informations de profil de base en cliquant sur le bouton **Continuer**
 
 > [!WARNING]
-> Si vous préférez ne pas accorder l\'accès à vos informations de profil de base, cliquez sur le bouton **Annuler**. Vous serez redirigé vers la page de connexion à votre compte, où vous pourrez vous inscrire en utilisant votre adresse e-mail externe.
+> Si vous préférez ne pas accorder l'accès à vos informations de profil de base, cliquez sur le bouton **Annuler**. Vous serez redirigé vers la page de connexion à votre compte, où vous pourrez vous inscrire en utilisant votre adresse e-mail externe.
 
-4. Vous serez dirigé vers votre page principale InterMIND ; aucune configuration supplémentaire n\'est nécessaire
+4. Vous serez dirigé vers votre page principale InterMIND ; aucune configuration supplémentaire n'est nécessaire
 
-### Inscription avec un compte Microsoft
+### S'inscrire avec un compte Microsoft
 
-Cette méthode est conseillée pour obtenir un accès rapide en utilisant un compte Microsoft. L\'expérience optimale peut être réalisée en utilisant le navigateur Microsoft Edge.
+Cette méthode est conseillée pour obtenir un accès rapide en utilisant un compte Microsoft. L'expérience optimale peut être réalisée en utilisant le navigateur Microsoft Edge.
 
 1. Cliquez sur le bouton **Microsoft**
 2. Une fenêtre contextuelle apparaîtra, vous invitant à sélectionner votre compte Microsoft
-3. Autorisez l\'accès à vos informations de profil de base en cliquant sur le bouton **Continuer**
+3. Autorisez l'accès à vos informations de profil de base en cliquant sur le bouton **Continuer**
 
 > [!WARNING]
-> Si vous préférez ne pas accorder l\'accès à vos informations de profil de base, cliquez sur le bouton **Annuler**. Vous serez redirigé vers la page de connexion à votre compte, où vous pourrez vous inscrire en utilisant votre adresse e-mail externe.
+> Si vous préférez ne pas accorder l'accès à vos informations de profil de base, cliquez sur le bouton **Annuler**. Vous serez redirigé vers la page de connexion à votre compte, où vous pourrez vous inscrire en utilisant votre adresse e-mail externe.
 
-4. Vous serez dirigé vers votre page principale InterMIND ; aucune configuration supplémentaire n\'est nécessaire
+4. Vous serez dirigé vers votre page principale InterMIND ; aucune configuration supplémentaire n'est nécessaire
 
-### Inscription avec une adresse e-mail
+### S'inscrire avec une adresse e-mail
 
-Utilisez cette méthode si vous n\'avez pas de compte Google ou préférez vous inscrire avec un e-mail séparé.
+Utilisez cette méthode si vous n'avez pas de compte Google ou préférez vous inscrire avec un e-mail séparé.
 
-1. Cliquez sur le lien **S\'inscrire** à côté du texte « Vous n\'avez pas de compte ? » sous les champs de connexion
-2. Vous serez dirigé vers le formulaire d\'inscription, qui comprend les champs obligatoires suivants :
+1. Cliquez sur le lien **S'inscrire** à côté du texte « Vous n'avez pas de compte ? » sous les champs de connexion
+2. Vous serez dirigé vers le formulaire d'inscription, qui comprend les champs obligatoires suivants :
    - **E-mail**
    - **Mot de passe**
      - Un minimum de 8 caractères
@@ -57,33 +62,33 @@ Utilisez cette méthode si vous n\'avez pas de compte Google ou préférez vous 
 > [!TIP]
 > Pour assurer une sécurité optimale du compte, veuillez créer un mot de passe qui répond aux exigences complexes énumérées ci-dessus.
 
-3. Après avoir complété le formulaire, cliquez sur le bouton **S\'inscrire**
-4. Après vous être inscrit avec succès, vous recevrez un message de vérification par e-mail dans votre boîte de réception. Une fois vérifié, vous pouvez vous connecter en utilisant votre e-mail et mot de passe pour accéder aux fonctionnalités d\'InterMIND
+3. Après avoir complété le formulaire, cliquez sur le bouton **S'inscrire**
+4. Après vous être inscrit avec succès, vous recevrez un message de vérification par e-mail dans votre boîte de réception. Une fois vérifié, vous pouvez vous connecter en utilisant votre e-mail et mot de passe pour accéder aux fonctionnalités d'InterMIND
 
 ### Mot de passe oublié
 
 Si vous avez oublié votre mot de passe, suivez ces étapes :
 
-1. Cliquez sur le bouton **Se connecter** sur la page d\'accueil
+1. Cliquez sur le bouton **Se connecter** sur la page d'accueil
 2. Sur la page de connexion, cliquez sur **Mot de passe oublié ?**
 3. Entrez votre adresse e-mail enregistrée
 4. Vous recevrez un e-mail avec un lien pour réinitialiser votre mot de passe
-5. Suivez les instructions dans l\'e-mail pour créer un nouveau mot de passe
+5. Suivez les instructions dans l'e-mail pour créer un nouveau mot de passe
 
 > [!TIP]
-> Si vous ne recevez pas l\'e-mail, vérifiez votre dossier de spam ou contactez le support.
+> Si vous ne recevez pas l'e-mail, vérifiez votre dossier de spam ou contactez le support.
 
-## Connexion
+## Se connecter
 
-Après la création de votre compte InterMIND, vous avez la possibilité de vous connecter à tout moment. Cela vous permet d\'organiser ou de rejoindre des réunions, de gérer les paramètres, d\'accéder aux fonctionnalités IA, et de consulter les réunions précédentes ainsi que leurs transcriptions. De plus, l\'Assistant IA peut être utilisé dans l\'historique des réunions.
+Lors de la création de votre compte InterMIND, vous avez la possibilité de vous connecter à tout moment. Cela vous permet d\'organiser ou de rejoindre des réunions, de gérer les paramètres, d\'accéder aux fonctionnalités IA, et de consulter les réunions précédentes ainsi que leurs transcriptions. De plus, l\'Assistant IA peut être utilisé dans l\'historique des réunions.
 
 ### Accéder à la page de connexion
 
 1. Naviguez vers [https://intermind.com](https://intermind.com)
-2. Cliquez sur le bouton **Connexion** situé dans le coin supérieur droit de la page d\'accueil
+2. Cliquez sur le bouton **Se connecter** situé dans le coin supérieur droit de la page d\'accueil
 3. Vous serez dirigé vers la page **Connectez-vous à votre compte**
 
-### Connexion avec Google
+### Se connecter avec Google
 
 Si vous vous êtes inscrit en utilisant votre compte Google :
 
@@ -92,7 +97,7 @@ Si vous vous êtes inscrit en utilisant votre compte Google :
    - Si le système ne peut pas identifier votre compte Google, vous serez redirigé vers la page de connexion Google pour une autorisation supplémentaire
 2. Une fois l\'autorisation terminée, vous serez redirigé directement vers la page principale d\'InterMIND
 
-### Connexion avec Microsoft
+### Se connecter avec Microsoft
 
 Si vous vous êtes inscrit en utilisant votre compte Microsoft :
 
@@ -101,14 +106,14 @@ Si vous vous êtes inscrit en utilisant votre compte Microsoft :
    - Si le système ne peut pas identifier votre compte Microsoft, vous serez redirigé vers la page de connexion Microsoft pour une autorisation supplémentaire
 2. Une fois l\'autorisation terminée, vous serez redirigé directement vers la page principale d\'InterMIND
 
-### Connexion avec email et mot de passe
+### Se connecter avec email et mot de passe
 
 Si vous avez créé votre compte en utilisant une adresse email externe :
 
 1. Saisissez votre email enregistré dans le champ **Email**
 2. Saisissez votre mot de passe dans le champ **Mot de passe**
 3. (Optionnel) Cochez la case **Se souvenir de moi** pour rester connecté sur cet appareil
-4. Cliquez sur **Connexion** pour continuer
+4. Cliquez sur **Se connecter** pour continuer
 5. Une fois l\'autorisation terminée, vous serez redirigé directement vers la page principale d\'InterMIND
 
 > [!WARNING]

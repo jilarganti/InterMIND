@@ -1,10 +1,15 @@
+---
+title: "Histórico de reuniões"
+description: "Acesse seu arquivo de reuniões InterMIND com gravações, transcrições, resumos gerados por IA e links de reunião reutilizáveis em um só lugar."
+---
+
 # Histórico de reuniões
 
-A página Histórico de reuniões funciona como um arquivo pessoal para todas as reuniões que você hospedou ou participou enquanto estava conectado. Ela oferece acesso rápido a gravações, transcrições, resumos gerados pelo Assistente de IA e links de reunião reutilizáveis - tudo consolidado em um local conveniente.
+A página de Histórico de Reuniões funciona como um arquivo pessoal para todas as reuniões que você hospedou ou participou enquanto estava conectado. Ela oferece acesso rápido a gravações, transcrições, resumos gerados pelo Assistente de IA e links de reunião reutilizáveis - tudo consolidado em um local conveniente.
 
-## Acessando a página do Histórico de Reuniões
+## Acessando a página de Histórico de Reuniões
 
-Você pode acessar a página do Histórico de Reuniões através de um dos três métodos convenientes:
+Você pode acessar a página de Histórico de Reuniões através de um dos três métodos convenientes:
 
 - Clique no link 'Histórico' localizado ao lado do ícone 'Reportar um Problema' no menu do cabeçalho da página
 - Alternativamente, clique no ícone do seu avatar no canto superior direito e, em seguida, selecione **Histórico** no menu suspenso
@@ -91,7 +96,7 @@ Isso permite que os usuários obtenham um resumo da reunião do Assistente de IA
 ## Controle de Acesso
 
 - Anfitriões e Moderadores têm acesso completo ao seu próprio histórico de reuniões
-- Participantes conectados podem acessar o histórico das reuniões que participaram; no entanto, eles não podem excluir o registro da reunião
+- Participantes conectados podem acessar o histórico das reuniões que participaram; no entanto, eles não conseguem excluir o registro da reunião
 - Usuários convidados e participantes anônimos não têm acesso à página de histórico ou ao seu conteúdo
 
 > [!TIP]

@@ -1,6 +1,11 @@
-# Ikhtisar antarmuka pertemuan
+---
+title: "Ikhtisar Antarmuka Rapat"
+description: "Jelajahi antarmuka rapat InterMIND yang intuitif. Pelajari tentang tata letak video, kontrol toolbar, interaksi peserta, dan opsi kustomisasi."
+---
 
-Antarmuka InterMIND dirancang dengan pertimbangan yang cermat untuk kebersihan, intuisi, dan aksesibilitas. Bagian ini menjelaskan elemen-elemen kunci yang terlihat selama pertemuan langsung dan memberikan panduan tentang bagaimana pengguna dapat berinteraksi dengan mereka secara efektif.
+# Ikhtisar Antarmuka Rapat
+
+Antarmuka InterMIND dirancang dengan pertimbangan yang cermat untuk kebersihan, intuitivitas, dan aksesibilitas. Bagian ini menjelaskan elemen-elemen kunci yang terlihat selama rapat langsung dan memberikan panduan tentang bagaimana pengguna dapat berinteraksi dengan mereka secara efektif.
 
 ## Tata Letak Antarmuka Utama
 
@@ -39,7 +44,7 @@ Peserta dapat berpartisipasi secara aktif dalam rapat menggunakan beberapa alat 
 | **Perekaman**     | Klik untuk memulai atau menghentikan perekaman. Setelah dimulai, semua peserta akan menerima notifikasi visual dan audio. Fitur ini hanya tersedia untuk Host dan Moderator                                |
 | **Angkat Tangan**    | Klik untuk mengangkat atau menurunkan tangan Anda, menunjukkan niat Anda untuk berbicara. Ikon tangan akan muncul di sebelah nama Anda dalam daftar peserta ketika diangkat                                                                   |
 | **Pengaturan**      | Sesuaikan pengaturan audio, video, tata letak, dan blur latar belakang. Peserta juga dapat memilih penyedia asisten default mereka dan memilih bahasa yang diinginkan untuk terjemahan                                        |
-| **Tinggalkan Rapat** | Klik untuk meninggalkan rapat. Meskipun Host dan Moderator dapat mengeluarkan peserta, mereka tidak dapat mengakhiri rapat untuk semua orang                                                                                            |
+| **Keluar dari Rapat** | Klik untuk keluar dari rapat. Meskipun Host dan Moderator dapat mengeluarkan peserta, mereka tidak dapat mengakhiri rapat untuk semua orang                                                                                            |
 | **Asisten AI**  | Membuka panel Asisten AI, memberikan pengguna kemampuan untuk berinteraksi untuk ringkasan pribadi, tanya jawab, dan perintah pintar. Fitur ini terbatas untuk pengguna yang berwenang                                        |
 | **Peserta**  | Membuka daftar peserta, menampilkan peran mereka seperti Host, Moderator, dll.                                                                                                                                |
 | **Chat**          | Klik untuk menampilkan atau menyembunyikan fitur chat, memfasilitasi interaksi dengan peserta lain selama rapat                                                                                                         |

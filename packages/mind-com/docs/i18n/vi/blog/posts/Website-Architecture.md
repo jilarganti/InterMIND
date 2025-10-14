@@ -8,10 +8,10 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # Kiến trúc website Mind.com: Nghiên cứu kỹ thuật về giải pháp JAMstack hiện đại với tích hợp AI
 
-<img src="/blog/iStock-681469612.jpg" alt="dirham UAE" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/iStock-681469612.jpg" alt="dirham UAE" width="500" align="right" style="padding: 1.5rem" class="dark-only"/>
+<img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only"/>
 
-Website [mind.com](https://mind.com) đại diện cho một ví dụ xuất sắc về kiến trúc hiện đại cho các trang web marketing, kết hợp các thực tiễn tốt nhất trong phát triển JAMstack với các công nghệ AI tiên tiến. Trong phân tích kỹ thuật này, chúng ta sẽ xem xét chi tiết các quyết định kiến trúc làm nền tảng cho dự án này, là một phần của monorepo InterMIND nhưng hoạt động như một nền tảng tĩnh độc lập với khả năng động.
+Website [mind.com](https://mind.com) đại diện cho một ví dụ xuất sắc về kiến trúc hiện đại cho các trang web marketing, kết hợp các thực tiễn tốt nhất trong phát triển JAMstack với các công nghệ AI tiên tiến. Trong phân tích kỹ thuật này, chúng tôi sẽ xem xét chi tiết các quyết định kiến trúc làm nền tảng cho dự án này, là một phần của monorepo InterMIND nhưng hoạt động như một nền tảng tĩnh độc lập với khả năng động.
 
 > **Các đổi mới kiến trúc chính** bao gồm một số giải pháp kỹ thuật phân biệt dự án này với các trang web marketing thông thường.
 
@@ -25,31 +25,31 @@ AI chat hoạt động với nội dung trang web được lập chỉ mục tr�
 
 ## Kiến trúc cơ bản: VitePress + Vue.js
 
-Mind.com được xây dựng trên **VitePress** — một trình tạo trang web tĩnh hiện đại đại diện cho bước tiến hóa trong phát triển kiến trúc JAMstack. VitePress triển khai **mô hình hybrid SSR/SSG** độc đáo, đảm bảo sự cân bằng tối ưu giữa hiệu suất và chức năng.
+Mind.com được xây dựng trên **VitePress** — một trình tạo trang web tĩnh hiện đại đại diện cho bước tiến hóa trong phát triển kiến trúc JAMstack. VitePress triển khai một **mô hình SSR/SSG lai** độc đáo, đảm bảo sự cân bằng tối ưu giữa hiệu suất và chức năng.
 
 ### Ưu điểm kiến trúc chính
 
-**Mô hình rendering hybrid** của VitePress cung cấp tải nội dung hai giai đoạn: tải ban đầu diễn ra dưới dạng HTML tĩnh để hiển thị nhanh và SEO tối ưu, sau đó trang web chuyển đổi thành Vue SPA với điều hướng phía client và preloading trang. Kiến trúc này đạt được **điểm số Core Web Vitals gần như hoàn hảo**, điều này cực kỳ quan trọng đối với một trang web marketing.
+**Mô hình kết xuất lai** của VitePress cung cấp tải nội dung hai giai đoạn: tải ban đầu diễn ra dưới dạng HTML tĩnh để hiển thị nhanh và SEO tối ưu, sau đó trang web chuyển đổi thành Vue SPA với điều hướng phía máy khách và tải trước trang. Kiến trúc này đạt được **điểm số Core Web Vitals gần như hoàn hảo**, điều này cực kỳ quan trọng đối với một trang web tiếp thị.
 
-**Tích hợp Vue 3 và Composition API** cung cấp cho các nhà phát triển mind.com những công cụ mạnh mẽ để tạo các component động trong kiến trúc tĩnh. Hỗ trợ TypeScript hạng nhất đảm bảo type safety ở tất cả các cấp độ ứng dụng, từ component đến tích hợp API.
+**Tích hợp Vue 3 và Composition API** cung cấp cho các nhà phát triển mind.com những công cụ mạnh mẽ để tạo các thành phần động trong kiến trúc tĩnh. Hỗ trợ TypeScript hạng nhất đảm bảo an toàn kiểu ở tất cả các cấp độ ứng dụng, từ thành phần đến tích hợp API.
 
-**Phát triển được hỗ trợ bởi Vite** đảm bảo khởi động dev server tức thì với các cập nhật dưới 100ms thông qua Hot Module Replacement, cực kỳ quan trọng cho các team làm việc với lượng lớn nội dung.
+**Phát triển được hỗ trợ bởi Vite** đảm bảo khởi động máy chủ dev tức thì với các cập nhật dưới 100ms thông qua Hot Module Replacement, cực kỳ quan trọng đối với các nhóm làm việc với lượng lớn nội dung.
 
 ### Tối ưu hóa hiệu suất
 
 Mind.com sử dụng nhiều chiến lược tối ưu hóa hiệu suất:
 
-**Smart hydration** đảm bảo chỉ tải các phần trang động, trong khi nội dung tĩnh không bị ảnh hưởng bởi quá trình hydration. Điều này giảm đáng kể thời gian để trang có thể tương tác.
+**Hydration thông minh** đảm bảo chỉ tải các phần trang động, trong khi nội dung tĩnh không bị ảnh hưởng bởi quá trình hydration. Điều này giảm đáng kể thời gian để trang có thể tương tác.
 
-**Automatic code splitting** tạo ra các chunk riêng biệt cho mỗi trang với preloading thông minh các liên kết trong viewport của người dùng, đảm bảo điều hướng tức thì.
+**Tách mã tự động** tạo các chunk riêng biệt cho mỗi trang với tải trước thông minh các liên kết trong khung nhìn của người dùng, đảm bảo điều hướng tức thì.
 
-**Tối ưu hóa tài nguyên** bao gồm tự động tạo static assets được hash với optimal caching headers, hỗ trợ các định dạng hình ảnh hiện đại WebP/AVIF với lazy loading.
+**Tối ưu hóa tài nguyên** bao gồm tự động tạo tài sản tĩnh được băm với tiêu đề bộ nhớ đệm tối ưu, hỗ trợ các định dạng hình ảnh WebP/AVIF hiện đại với lazy loading.
 
-## Tích hợp AI: Cơ sở dữ liệu vector và tìm kiếm ngữ nghĩa
+## Tích hợp AI: Cơ sở dữ liệu Vector và Tìm kiếm ngữ nghĩa
 
 Một trong những tính năng sáng tạo nhất của mind.com là việc tích hợp khả năng AI vào kiến trúc tĩnh. Nền tảng sử dụng **Upstash Vector** làm nền tảng cho tìm kiếm ngữ nghĩa và chat AI.
 
-### Kiến trúc tìm kiếm vector
+### Kiến trúc tìm kiếm Vector
 
 **Upstash Vector** hoạt động như một cơ sở dữ liệu vector serverless sử dụng thuật toán DiskANN để tìm kiếm láng giềng gần nhất hiệu quả giữa các embedding lên đến 1536 chiều. Tích hợp với Vercel AI SDK cung cấp chatbot RAG (Retrieval-Augmented Generation) với độ trễ tối thiểu.
 
@@ -77,9 +77,9 @@ Mind.com sử dụng **Vercel Serverless Functions** làm nền tảng cho API b
 
 **Tích hợp TypeScript** bao gồm gói @vercel/sdk mới với hỗ trợ TypeScript đầy đủ và Zod schemas để xác thực, phản hồi lỗi có cấu trúc với thông tin kiểu chi tiết, và các đối tượng NextResponse mở rộng để xử lý tham số trong môi trường serverless.
 
-### Middleware bảo vệ tên miền
+### Middleware bảo vệ domain
 
-**Triển khai bảo vệ tên miền** bao gồm cấu hình CORS thông qua Serverless Framework với `cors: true` để quản lý header CORS tự động, Custom Authorizers cho API Gateway với khả năng cache xác thực, và engine middleware Middy cho các Lambda functions bao gồm CORS, xác thực và xử lý lỗi.
+**Triển khai bảo vệ domain** bao gồm cấu hình CORS thông qua Serverless Framework với `cors: true` để quản lý header CORS tự động, Custom Authorizers cho API Gateway với khả năng cache xác thực, và engine middleware Middy cho các Lambda functions bao gồm CORS, xác thực và xử lý lỗi.
 
 ## OAuth và Xác thực Người dùng
 
@@ -99,21 +99,21 @@ Mind.com hỗ trợ hơn 20 ngôn ngữ với khả năng hỗ trợ đầy đ�
 
 ### Hỗ trợ RTL và LTR
 
-**Thuộc tính logic CSS** được sử dụng thay vì `left/right` truyền thống để quản lý hướng văn bản tự động. Các mixin Sass cung cấp tạo kiểu RTL/LTR tự động, và các ký tự Unicode đặc biệt (LRE, PDF) xử lý đúng cách dấu ngoặc và dấu nháy trong ngữ cảnh RTL.
+**CSS Logical Properties** được sử dụng thay vì `left/right` truyền thống để quản lý hướng văn bản tự động. Sass mixins cung cấp tạo style RTL/LTR tự động, và các ký tự Unicode đặc biệt (LRE, PDF) xử lý đúng cách dấu ngoặc và dấu nháy trong ngữ cảnh RTL.
 
 ### Hệ thống dịch thuật AI cách mạng
 
-**Script dịch thuật** đại diện cho một **đổi mới công nghệ quan trọng** thay đổi căn bản cách tiếp cận quốc tế hóa trang web. Không giống như các hệ thống i18n truyền thống yêu cầu tạo và bảo trì liên tục từ điển dịch thuật, hệ thống này **hoàn toàn loại bỏ nhu cầu quản lý dịch thuật thủ công**. Bằng cách phân tích nội dung nguồn trong thư mục `docs/en/`, hệ thống tự động tạo bản dịch trong `docs/i18n/{lang}/`, hỗ trợ bất kỳ số lượng ngôn ngữ nào được chỉ định trong cấu hình. Việc thực thi được kích hoạt bằng lệnh đơn giản `pnpm translate` từ thư mục gói.
+**Translation Script** đại diện cho một **đổi mới công nghệ quan trọng** thay đổi căn bản cách tiếp cận quốc tế hóa trang web. Không giống như các hệ thống i18n truyền thống yêu cầu tạo và duy trì liên tục từ điển dịch thuật, hệ thống này **hoàn toàn loại bỏ nhu cầu quản lý dịch thuật thủ công**. Bằng cách phân tích nội dung nguồn trong thư mục `docs/en/`, hệ thống tự động tạo bản dịch trong `docs/i18n/{lang}/`, hỗ trợ bất kỳ số lượng ngôn ngữ nào được chỉ định trong cấu hình. Việc thực thi được kích hoạt bằng lệnh đơn giản `pnpm translate` từ thư mục package.
 
-**Hỗ trợ định dạng toàn cầu** là một lợi thế quan trọng: hệ thống xử lý Markdown, các component Vue, TypeScript, JavaScript và bất kỳ định dạng văn bản nào khác mà không cần thích ứng đặc biệt. Điều này có nghĩa là **tất cả nội dung trang web — từ tài liệu đến các component UI — được dịch tự động**, bảo toàn cấu trúc, định dạng và chức năng.
+**Hỗ trợ định dạng toàn cầu** là một lợi thế quan trọng: hệ thống xử lý Markdown, Vue components, TypeScript, JavaScript và bất kỳ định dạng văn bản nào khác mà không cần thích ứng đặc biệt. Điều này có nghĩa là **tất cả nội dung trang web — từ tài liệu đến UI components — được dịch tự động**, bảo toàn cấu trúc, định dạng và chức năng.
 
-**Tối ưu hóa SEO đẳng cấp thế giới** được đạt được bằng cách tạo các trang tĩnh hoàn chỉnh cho mỗi ngôn ngữ. Không giống như các giải pháp i18n phía client tải nội dung động, mỗi phiên bản ngôn ngữ tồn tại như một trang tĩnh riêng biệt, đảm bảo **lập chỉ mục công cụ tìm kiếm hoàn hảo** và tải nội dung tức thì. Các bot tìm kiếm thấy HTML được dịch đầy đủ mà không phụ thuộc JavaScript.
+**Tối ưu hóa SEO đẳng cấp thế giới** được đạt được bằng cách tạo các trang tĩnh hoàn chỉnh cho mỗi ngôn ngữ. Không giống như các giải pháp i18n phía client tải nội dung động, mỗi phiên bản ngôn ngữ tồn tại như một trang tĩnh riêng biệt, đảm bảo **lập chỉ mục công cụ tìm kiếm hoàn hảo** và tải nội dung tức thì. Bot tìm kiếm thấy HTML được dịch đầy đủ mà không phụ thuộc JavaScript.
 
-**Kiến trúc AI kép** sử dụng OpenAI GPT-4 và Anthropic Claude với chuyển đổi mô hình tự động khi có lỗi. Hệ thống bao gồm dịch thuật tăng dần (chỉ các tệp đã thay đổi), đồng bộ hóa cấu trúc tệp tự động và kiểm tra biên dịch tùy chọn của các tệp đã dịch thông qua `checkBuildErrors: true`.
+**Kiến trúc AI kép** sử dụng OpenAI GPT-4 và Anthropic Claude với chuyển đổi model tự động khi có lỗi. Hệ thống bao gồm dịch thuật tăng dần (chỉ các file đã thay đổi), đồng bộ hóa cấu trúc file tự động, và kiểm tra biên dịch tùy chọn của các file đã dịch thông qua `checkBuildErrors: true`.
 
-**Kỹ thuật prompt thông minh** đảm bảo bảo toàn định dạng markdown, tính bất biến của các khối mã, duy trì tất cả liên kết và tham chiếu, và chỉ dịch văn bản ngôn ngữ tự nhiên. Hệ thống tự động chia các tệp lớn thành các phần để xử lý tối ưu bởi các mô hình AI.
+**Kỹ thuật prompt thông minh** đảm bảo bảo toàn định dạng markdown, tính bất biến của các khối code, duy trì tất cả liên kết và tham chiếu, và dịch chỉ văn bản ngôn ngữ tự nhiên. Hệ thống tự động chia các file lớn thành các phần để xử lý tối ưu bởi các model AI.
 
-**Xử lý lỗi và tự động sửa** bao gồm chuyển đổi tự động sang mô hình tiếp theo khi có lỗi dịch thuật, lưu các tệp dịch một phần với phần mở rộng `.log`, dịch lại các tệp có vấn đề sử dụng tất cả các mô hình có sẵn, và báo cáo cuối cùng về các tệp không thể sửa được.
+**Xử lý lỗi và tự động sửa** bao gồm chuyển đổi tự động sang model tiếp theo khi có lỗi dịch thuật, lưu các file dịch một phần với phần mở rộng `.log`, dịch lại các file có vấn đề sử dụng tất cả model có sẵn, và báo cáo cuối cùng về các file không thể sửa được.
 
 ## Tích hợp CRM với Pipedrive
 
@@ -139,15 +139,15 @@ Mind.com sử dụng **Pinia** như một giải pháp hiện đại cho quản 
 
 **Analytics store** tự động thu thập các tham số UTM từ URL, lưu chúng trong sessionStorage để theo dõi phiên, và tích hợp với Google Analytics để theo dõi nguồn gốc.
 
-## Tích hợp phân tích
+## Tích hợp Analytics
 
-Mind.com sử dụng phương pháp hiện đại để phân tích thông qua **Google Tag Manager** và **Google Analytics 4**.
+Mind.com sử dụng phương pháp hiện đại cho analytics thông qua **Google Tag Manager** và **Google Analytics 4**.
 
 ### Tích hợp GTM
 
-**A/B testing phía máy chủ** được triển khai thông qua các edge functions để duy trì hiệu suất, tránh các công cụ A/B testing phía client truyền thống có thể làm giảm điểm Lighthouse xuống 10 điểm.
+**A/B testing phía server** được triển khai thông qua edge functions để duy trì hiệu suất, tránh các công cụ A/B testing phía client truyền thống có thể làm giảm điểm Lighthouse xuống 10 điểm.
 
-**Sự kiện dataLayer tùy chỉnh** cho việc theo dõi thử nghiệm sử dụng cấu trúc `{'experimentId': 'id', 'variationId': 'id'}`, đảm bảo theo dõi chính xác các biến thể thử nghiệm mà không ảnh hưởng đến hiệu suất.
+**Sự kiện dataLayer tùy chỉnh** cho việc theo dõi thử nghiệm sử dụng cấu trúc `{'experimentId': 'id', 'variationId': 'id'}`, đảm bảo theo dõi biến thể thử nghiệm chính xác mà không ảnh hưởng đến hiệu suất.
 
 ## Bảo mật và khả năng mở rộng
 
@@ -159,7 +159,7 @@ Mind.com sử dụng phương pháp hiện đại để phân tích thông qua *
 
 ### Các cân nhắc về quyền riêng tư dữ liệu
 
-**Kiến trúc ưu tiên quyền riêng tư** bao gồm mã hóa đầu cuối đến đầu cuối mà không lưu trữ dữ liệu phía máy chủ, cookie xác thực an toàn với thời hạn phù hợp, ghi nhật ký toàn diện cho các yêu cầu tuân thủ, và giảm thiểu dữ liệu thông qua JWT token chỉ chứa thông tin người dùng thiết yếu.
+**Kiến trúc ưu tiên quyền riêng tư** bao gồm mã hóa đầu cuối đến đầu cuối mà không lưu trữ dữ liệu phía máy chủ, cookie xác thực an toàn với thời hạn phù hợp, ghi nhật ký toàn diện cho các yêu cầu tuân thủ, và giảm thiểu dữ liệu thông qua token JWT chỉ chứa thông tin người dùng thiết yếu.
 
 ## Ưu điểm kiến trúc Mind.com
 

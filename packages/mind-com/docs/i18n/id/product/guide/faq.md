@@ -1,6 +1,11 @@
+---
+title: "Pertanyaan yang Sering Diajukan (FAQ)"
+description: "Dapatkan jawaban untuk pertanyaan umum tentang InterMIND. Pelajari tentang akun, rapat, AI Assistant, fitur terjemahan, dan kompatibilitas perangkat."
+---
+
 # Pertanyaan yang Sering Diajukan (FAQ)
 
-Bagian FAQ menyediakan informasi penting tentang InterMIND, mencakup topik seperti akun dan akses, pembuatan dan perekaman rapat, kemampuan AI Assistant, fitur terjemahan, partisipasi chat, dan pengaturan untuk perangkat. Bagian ini menjawab pertanyaan umum mengenai akses tamu, penjadwalan rapat, penggunaan AI Assistant, terjemahan bahasa, fungsi chat, dan kompatibilitas perangkat.
+Bagian FAQ menyediakan informasi penting tentang InterMIND, mencakup topik seperti akun dan akses, pembuatan dan perekaman rapat, kemampuan AI Assistant, fitur terjemahan, partisipasi chat, dan pengaturan untuk perangkat. Bagian ini membahas pertanyaan umum mengenai akses tamu, penjadwalan rapat, penggunaan AI Assistant, terjemahan bahasa, fungsi chat, dan kompatibilitas perangkat.
 
 ## Akses
 
@@ -72,8 +77,8 @@ Chrome, Firefox, Safari, Edge, dan Opera didukung sepenuhnya.
 
 ## Riwayat
 
-**Bisakah saya melihat rapat-rapat yang pernah saya ikuti?**
-Ya, pengguna yang sudah masuk memiliki kemampuan untuk mengakses rapat-rapat sebelumnya melalui halaman Riwayat, yang mencakup rekaman, transkrip, dan ringkasan rapat-rapat tersebut melalui tab AI Assistant.
+**Bisakah saya melihat rapat yang telah saya ikuti sebelumnya?**
+Ya, pengguna yang telah masuk memiliki kemampuan untuk mengakses rapat sebelumnya melalui halaman Riwayat, yang mencakup rekaman, transkrip, dan ringkasan rapat tersebut melalui tab AI Assistant.
 
 **Bisakah saya menghapus rapat dari riwayat saya?**
 Hanya Host dan Moderator yang memiliki wewenang untuk menghapus catatan rapat, yang secara efektif menghapusnya dari riwayat semua peserta.

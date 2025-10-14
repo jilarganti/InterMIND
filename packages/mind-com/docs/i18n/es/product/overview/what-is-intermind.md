@@ -1,3 +1,8 @@
+---
+title: "La forma más rápida de hablar cualquier idioma"
+description: "InterMIND hace obsoleto el aprendizaje de idiomas con interpretación simultánea de IA. Rompe las barreras del idioma al instante y habla tu lengua nativa en reuniones."
+---
+
 # La forma más rápida de hablar cualquier idioma — sin aprenderlo
 
 ## La barrera del idioma termina aquí

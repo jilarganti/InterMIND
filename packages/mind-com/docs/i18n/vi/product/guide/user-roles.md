@@ -1,3 +1,8 @@
+---
+title: "Vai trò người dùng"
+description: "Tìm hiểu về các vai trò người dùng InterMIND - Chủ trì, Điều hành viên, Người tham gia và Khách. Học về quyền hạn và khả năng của từng vai trò."
+---
+
 # Vai trò người dùng
 
 InterMIND phân định bốn vai trò người dùng riêng biệt, mỗi vai trò được thiết kế tỉ mỉ để nâng cao trải nghiệm cuộc họp an toàn, hợp tác và linh hoạt. Vai trò Chủ trì được trao quyền hạn cao nhất, trong khi các vai trò khác cung cấp các mức độ tương tác khác nhau.
@@ -21,13 +26,13 @@ Chủ trì chịu trách nhiệm khởi tạo cuộc họp và sở hữu các q
 
 ## Người điều hành
 
-Người điều hành được Chủ phòng chỉ định để hỗ trợ quản lý phiên họp một cách hiệu quả.
+Người điều hành được chỉ định bởi Chủ phòng để hỗ trợ quản lý phiên họp một cách hiệu quả.
 
 **Khả năng chính:**
 
 - Tắt tiếng bất kỳ người tham gia nào
 - Bắt đầu và dừng ghi âm
-  - Bao gồm bất kỳ bản ghi âm nào được Chủ phòng khởi tạo
+  - Bao gồm bất kỳ bản ghi âm nào được khởi tạo bởi Chủ phòng
 - Chấp nhận hoặc từ chối khách
 - Loại bỏ bất kỳ người tham gia nào khỏi cuộc gọi, ngoại trừ Chủ phòng
 - Sử dụng Trình dịch giọng nói trực tuyến và thay đổi ngôn ngữ (cho âm thanh của chính họ)
@@ -74,7 +79,7 @@ Khách là những người dùng tham gia cuộc họp mà không cần đăng 
 | Bật tiếng bất kỳ người tham gia | ❌      | ❌        | ❌             | ❌    |
 | Tắt/Bật micro của mình         | ✅      | ✅        | ✅             | ✅    |
 | Bật/Tắt camera của mình        | ✅      | ✅        | ✅             | ✅    |
-| Bắt đầu/Dừng ghi âm            | ✅      | ✅        | ❌             | ❌    |
+| Bắt đầu/Dừng ghi hình          | ✅      | ✅        | ❌             | ❌    |
 | Chia sẻ màn hình (Desktop)     | ✅      | ✅        | ✅             | ✅    |
 | Sử dụng trợ lý AI             | ✅      | ✅        | ✅             | ❌    |
 | Sử dụng dịch thuật trực tuyến  | ✅      | ✅        | ✅             | ✅    |

@@ -1,18 +1,23 @@
+---
+title: "Commencer"
+description: "Apprenez à utiliser la plateforme de visioconférence alimentée par l'IA InterMIND. Guide complet pour l'inscription, la création de réunions, les fonctionnalités IA et le dépannage."
+---
+
 # Commencer
 
-InterMIND est une plateforme de visioconférence avancée alimentée par l\'IA, conçue pour faciliter une communication fluide à travers diverses langues, appareils et équipes. Ce guide vise à vous fournir une compréhension complète de la façon d\'utiliser efficacement toutes les fonctionnalités d\'InterMIND — de la participation à votre première réunion à la configuration des outils IA et à la résolution des problèmes techniques.
+InterMIND est une plateforme de visioconférence avancée alimentée par l'IA, conçue pour faciliter une communication fluide à travers diverses langues, appareils et équipes. Ce guide vise à vous fournir une compréhension complète de la façon d'utiliser efficacement toutes les fonctionnalités d'InterMIND — de la participation à votre première réunion à la configuration des outils IA et à la résolution des problèmes techniques.
 
 Que vous soyez un utilisateur novice cherchant des conseils détaillés ou un participant expérimenté supervisant des réunions complexes, ce guide consolide toutes les informations nécessaires en un seul endroit accessible.
 
 Dans ce guide, vous découvrirez :
 
-- Instructions sur la façon de s\'inscrire, se connecter et personnaliser votre profil
+- Instructions sur la façon de s'inscrire, se connecter et personnaliser votre profil
 - Directives pour créer et planifier des réunions
-- Informations concernant les rôles d\'utilisateur, les permissions et les capacités de traduction en temps réel
-- Un aperçu des fonctionnalités alimentées par l\'IA telles que l\'Assistant IA et le Traducteur vocal
+- Informations concernant les rôles d'utilisateur, les permissions et les capacités de traduction en temps réel
+- Un aperçu des fonctionnalités alimentées par l'IA telles que l'Assistant IA et le Traducteur Vocal
 - Conseils de dépannage et réponses aux questions fréquemment posées
 
-Commençons — l\'avenir des réunions intelligentes est sur le point de commencer maintenant.
+Commençons — l'avenir des réunions intelligentes est sur le point de commencer maintenant.
 
 ## Liste de contrôle de démarrage rapide
 
@@ -124,7 +129,7 @@ Disponibles dans tous les navigateurs :
 Pour garantir une expérience fluide :
 
 - Utilisez une connexion internet stable (Wi-Fi ou Ethernet est préférable)
-- Maintenez une vitesse minimale de téléchargement/upload de 2 Mbps
+- Maintenez une vitesse minimale de téléchargement/téléversement de 2 Mbps
   - 5+ Mbps est recommandé pour les vidéos HD
 - Fermez les onglets inutilisés et les applications en arrière-plan
 

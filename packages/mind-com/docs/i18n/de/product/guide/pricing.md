@@ -1,6 +1,11 @@
+---
+title: "Preise"
+description: "Vergleichen Sie InterMIND-Tarife - Basic, Pro und Business. Finden Sie den richtigen Tarif mit Meeting-Limits, Teilnehmerkapazität, KI-Features und Speicheroptionen."
+---
+
 # Preise
 
-Die Preisseite bietet einen klaren Vergleich aller verfügbaren Tarife—Basic, Pro und Business—und hilft Nutzern dabei, die beste Option für ihre Kommunikationsbedürfnisse zu wählen. Sie enthält Details zu Preisen, Meeting-Limits, Teilnehmerkapazität, Speicherplatz und Zugang zu Premium-Funktionen wie Voice Assistant, AI Assistant und Dolmetscherdiensten.
+Die Preisseite bietet einen klaren Vergleich aller verfügbaren Tarife—Basic, Pro und Business—und hilft Nutzern dabei, die beste Option für ihre Kommunikationsbedürfnisse zu wählen. Sie enthält Details zu Preisen, Meeting-Limits, Teilnehmerkapazität, Speicher und Zugang zu Premium-Features wie Voice Assistant, AI Assistant und Dolmetscherdiensten.
 
 ## Zugriff auf die Preisseite
 
@@ -35,7 +40,7 @@ Die Preisseite umfasst drei Tarife:
 
 ### Weitere Highlights
 
-- Das Umschalten zwischen **Monatlich** und **Jährlich** aktiviert Rabattpreise für den Pro-Plan
+- Das Umschalten zwischen **Monatlich** und **Jährlich** aktiviert vergünstigte Preise für den Pro-Plan
 - Die Schaltfläche **Aktueller Plan** zeigt an, welcher Plan aktiv ist
 - Die Schaltfläche **Kontaktieren Sie uns** ermöglicht es Business-Kunden, maßgeschneiderte Lösungen anzufordern
 
@@ -61,4 +66,4 @@ Die Preisseite umfasst drei Tarife:
 - Abrechnungszyklen und Kontingente werden entsprechend dem gewählten Plan zurückgesetzt
 - Kontingente für die Anzahl der Meetings, Teilnehmer und Speicherplatz pro Benutzer werden basierend auf dem aktiven Plan durchgesetzt
 - Das Überschreiten eines Kontingents löst eine deutliche Benachrichtigung zusammen mit einer **Plan upgraden**-Schaltfläche aus
-- Benutzer können auf ihren Zahlungsverlauf und Rechnungen im Abrechnungsbereich zugreifen
+- Benutzer können auf ihre Zahlungshistorie und Rechnungen im Abrechnungsbereich zugreifen

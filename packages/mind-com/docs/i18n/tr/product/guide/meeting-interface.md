@@ -1,4 +1,9 @@
-# Toplantı arayüzüne genel bakış
+---
+title: "Toplantı Arayüzü Genel Bakış"
+description: "InterMIND'ın sezgisel toplantı arayüzünü keşfedin. Video düzeni, araç çubuğu kontrolleri, katılımcı etkileşimleri ve özelleştirme seçenekleri hakkında bilgi edinin."
+---
+
+# Toplantı Arayüzü Genel Bakış
 
 InterMIND arayüzü, temizlik, sezgisellik ve erişilebilirlik açısından dikkatli bir şekilde tasarlanmıştır. Bu bölüm, canlı bir toplantı sırasında görünen temel öğeleri açıklar ve kullanıcıların bunlarla nasıl etkili bir şekilde etkileşim kurabileceği konusunda rehberlik sağlar.
 
@@ -25,7 +30,7 @@ Ayarlar'da kullanıcılar şunları yapabilir:
 Katılımcılar, arayüzde bulunan çeşitli araçları kullanarak toplantıya aktif olarak katılabilirler:
 
 - **El Kaldır**: Katılımcılar konuşma isteklerini belirtmek için bu seçeneğe tıklayabilirler. Katılımcı listesinde isimlerinin yanında bir el simgesi görünecek ve taleplerini işaret edecektir
-- **El İndir**: Moderatörler ve Yöneticiler, tartışmalar sırasında düzeni korumak için katılımcının kaldırılmış elini manuel olarak indirebilirler
+- **El İndir**: Ev sahipleri ve Moderatörler, tartışmalar sırasında düzeni korumak için bir katılımcının kaldırılmış elini manuel olarak indirebilirler
 - **Sohbet**: Katılımcılar yan paneli kullanarak çağrı sırasında tüm katılımcılara mesaj gönderebilir, iletişimi ve işbirliğini teşvik edebilirler
 - **Sabitle / İzleme**: Kullanıcılar belirli katılımcıları sabitleyerek veya kişisel düzenlerinden gizleyerek görünümlerini özelleştirebilir, toplantı deneyimlerini kişiselleştirebilirler
 
@@ -38,7 +43,7 @@ Katılımcılar, arayüzde bulunan çeşitli araçları kullanarak toplantıya a
 | **Ekran Paylaşımı** | Ekran paylaşımını başlatmak veya durdurmak için tıklayın. Bu özellik tüm ekranınızı, belirli bir pencereyi veya tarayıcı sekmesini paylaşma seçenekleri sunar ve yalnızca masaüstü tarayıcılarda kullanılabilir |
 | **Kayıt**         | Kaydı başlatmak veya durdurmak için tıklayın. Başlatıldığında, tüm katılımcılar görsel ve sesli bildirim alacaktır. Bu özellik yalnızca Ev Sahibi ve Moderatör için kullanılabilir                            |
 | **El Kaldır**     | Konuşma niyetinizi belirtmek için elinizi kaldırmak veya indirmek için tıklayın. Kaldırıldığında katılımcı listesinde adınızın yanında bir el simgesi görünecektir                                           |
-| **Ayarlar**       | Ses, video, düzen ve arka plan bulanıklığı ayarlarını düzenleyin. Katılımcılar ayrıca varsayılan asistan sağlayıcılarını seçebilir ve çeviri için tercih ettikleri dili seçebilirler                        |
+| **Ayarlar**       | Ses, video, düzen ve arka plan bulanıklaştırma ayarlarını düzenleyin. Katılımcılar ayrıca varsayılan asistan sağlayıcılarını seçebilir ve çeviri için tercih ettikleri dili seçebilirler                     |
 | **Toplantıdan Ayrıl** | Toplantıdan ayrılmak için tıklayın. Ev Sahipleri ve Moderatörler katılımcıları çıkarabilirken, herkes için toplantıyı sonlandıramazlar                                                                     |
 | **AI Asistan**    | AI Asistan panelini açar, kullanıcılara özel özetler, soru-cevap ve akıllı komutlar için etkileşim kurma yeteneği sağlar. Bu özellik yetkili kullanıcılarla sınırlıdır                                       |
 | **Katılımcılar**  | Ev Sahibi, Moderatör gibi rollerini gösteren katılımcı listesini açar                                                                                                                                           |

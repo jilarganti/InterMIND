@@ -1,6 +1,11 @@
-# Kullanıcı rolleri
+---
+title: "Kullanıcı Rolleri"
+description: "InterMIND kullanıcı rollerini anlayın - Ana Bilgisayar, Moderatör, Katılımcı ve Misafir. Her rol için izinler ve yetenekler hakkında bilgi edinin."
+---
 
-InterMIND, güvenli, işbirlikçi ve uyarlanabilir toplantı deneyimlerini geliştirmek için titizlikle tasarlanmış dört farklı kullanıcı rolü tanımlar. Host rolü en yüksek yetki düzeyine sahipken, diğer roller değişen düzeylerde etkileşim sunar.
+# Kullanıcı Rolleri
+
+InterMIND, güvenli, işbirlikçi ve uyarlanabilir toplantı deneyimlerini geliştirmek için titizlikle tasarlanmış dört farklı kullanıcı rolü tanımlar. Ana Bilgisayar rolü en yüksek yetki düzeyine sahipken, diğer roller değişen düzeylerde etkileşim sunar.
 
 ## Ev Sahibi
 
@@ -85,4 +90,4 @@ Misafirler, toplantıya giriş yapmadan katılan kullanıcılardır.
 | Misafir Kabul Etme/Reddetme    | ✅     | ✅        | ❌        | ❌      |
 | Toplantı Geçmişine Erişim      | ✅     | ✅        | ✅        | ❌      |
 | Katılımcıları Çıkarma          | ✅     | ✅        | ❌        | ❌      |
-| Moderatör Yükseltme/Düşürme    | ✅     | ✅        | ❌        | ❌      |
+| Moderatör Yükseltme/İndirme    | ✅     | ✅        | ❌        | ❌      |

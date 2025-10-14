@@ -1,3 +1,8 @@
+---
+title: "Solución de problemas"
+description: "Soluciona problemas comunes de InterMIND con micrófono, cámara, traductor, compartir pantalla y grabación. Soluciones para reuniones en línea fluidas."
+---
+
 # Solución de problemas
 
 Esta sección proporciona soluciones para problemas comunes encontrados durante reuniones en línea, incluyendo problemas con micrófonos, cámaras, unirse a reuniones, usar asistentes de voz, traductores, compartir pantalla y grabación. Describe las causas potenciales de cada problema y ofrece soluciones prácticas para resolverlos, asegurando una experiencia de reunión en línea más fluida.
@@ -42,9 +47,9 @@ Esta sección proporciona soluciones para problemas comunes encontrados durante 
 - Vuelve a unirte o actualiza la página de la reunión
 - Asegúrate de que el acceso al micrófono esté otorgado y habilitado
 
-## Eco o Retroalimentación de Audio
+## Eco o retroalimentación de audio
 
-### Causas Comunes:
+### Causas comunes:
 
 - Micrófono abierto combinado with altavoces
 - Múltiples usuarios en la misma habitación
@@ -53,7 +58,7 @@ Esta sección proporciona soluciones para problemas comunes encontrados durante 
 
 - Usar audífonos
 - Silenciar otros dispositivos/micrófonos
-- El Anfitrión/Moderador puede silenciar a todos los participantes
+- El anfitrión/moderador puede silenciar a todos los participantes
 
 ## "Has sido removido de la llamada"
 

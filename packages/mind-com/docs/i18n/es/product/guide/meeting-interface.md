@@ -1,3 +1,8 @@
+---
+title: "Descripción general de la interfaz de reuniones"
+description: "Explora la interfaz intuitiva de reuniones de InterMIND. Aprende sobre el diseño de video, controles de la barra de herramientas, interacciones de participantes y opciones de personalización."
+---
+
 # Descripción general de la interfaz de reuniones
 
 La interfaz de InterMIND está diseñada con una cuidadosa consideración hacia la limpieza, intuitividad y accesibilidad. Esta sección delinea los elementos clave visibles durante una reunión en vivo y proporciona orientación sobre cómo los usuarios pueden interactuar con ellos de manera efectiva.
@@ -6,7 +11,7 @@ La interfaz de InterMIND está diseñada con una cuidadosa consideración hacia 
 
 Al asistir a una reunión, ya sea como Anfitrión, Moderador, Participante o Invitado, el diseño de la pantalla varía según tu rol (consulta la sección Roles de usuario). El diseño incluye:
 
-- **Barra de estado superior**: Esta barra muestra el enlace de la reunión, estado de seguridad, indicador de grabación y traductor, proporcionando información esencial de inmediato
+- **Barra de estado superior**: Esta barra muestra el enlace de la reunión, el estado de seguridad, el indicador de grabación y traductor, proporcionando información esencial de inmediato
 - **Área de video central**: Esta área muestra a los participantes en formato de cuadrícula o barra lateral, que se puede ajustar a través de la configuración
 - **Barra de herramientas inferior**: Esta barra de herramientas contiene los controles de interacción principales vitales para gestionar la reunión
 - **Panel lateral (opcional)**: Este panel incluye chat, lista de participantes y Asistente de IA, mejorando la interacción del usuario
@@ -17,7 +22,7 @@ En la Configuración, los usuarios pueden:
 
 - Seleccionar sus dispositivos de micrófono, altavoz y cámara para garantizar una calidad de audio y video óptima
 - Alternar entre el diseño de Cuadrícula o Barra lateral para adaptarse a sus preferencias
-- Habilitar o deshabilitar el Desenfoque de fondo para privacidad durante la reunión
+- Habilitar o deshabilitar el Desenfoque de fondo para mayor privacidad durante la reunión
 - Cambiar el idioma del Traductor para facilitar la comunicación entre participantes que hablan diferentes idiomas
 
 ## Funciones de interacción de participantes

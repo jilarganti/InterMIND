@@ -1,95 +1,201 @@
-# Plataforma de Videoconferência InterMind
+---
+title: "Plataforma de Videoconferência"
+description: "Videoconferência empresarial com qualidade HD, compartilhamento de tela, gravação, assistente de IA e recursos profissionais para colaboração global."
+---
 
-<video  autoplay muted playsinline style="margin-top: 24px" class="light-only">
+# Plataforma de videoconferência InterMind
+
+## Construído para Reuniões Sérias — Não Apenas para Conversar
+
+InterMind não é apenas mais um plugin ou ferramenta simples — é uma plataforma de videoconferência completa e de nível empresarial, projetada para comunicação profissional, colaboração de alto nível e operações em escala global.
+
+<video autoplay muted playsinline style="margin-top: 24px" class="light-only">
   <source src="/video-meeting-platform-1d.mp4" type="video/mp4">
 </video>
-<video  autoplay muted playsinline style="margin-top: 24px" class="dark-only">
+<video autoplay muted playsinline style="margin-top: 24px" class="dark-only">
   <source src="/video-meeting-platform-1l.mp4" type="video/mp4">
 </video>
 
-## Construído para Reuniões Sérias — Não Apenas Conversas
+## Qualidade Profissional
 
-InterMind não é apenas mais um plugin ou ferramenta simples — é uma plataforma de videoconferência completa e de nível empresarial, projetada para comunicação profissional, colaboração de alto nível e operações em escala global. Veja o que a torna diferente:
+<FeatureCards
+  :features="[
+    {
+      title: '🎥 Vídeo em Alta Definição 1080p',
+      details: 'Todas as reuniões transmitidas em **Full HD 1080p** com visuais cristalinos para cada participante.',
+      items: [
+        'Ideal para apresentações para investidores, demonstrações de produtos ou discussões jurídicas',
+        'Reduz a fadiga cognitiva causada por vídeo pixelizado ou de baixa qualidade',
+        'Aumenta a confiança e o engajamento em ambientes virtuais'
+      ],
+      images: {
+        light: '/video-hd.png',
+        dark: '/video-hd.png',
+      },
+    },
+    {
+      title: '🔇 Supressão Inteligente de Ruído',
+      details: 'Cancelamento de ruído baseado em IA filtra sons de fundo — digitação, trânsito, eco ou conversas distantes.',
+      items: [
+        'Mantém as reuniões profissionais e focadas',
+        'Funciona automaticamente sem controles manuais',
+        'Ideal para trabalhadores remotos em ambientes não isolados acusticamente'
+      ],
+      images: {
+        light: '/noise-cancel.png',
+        dark: '/noise-cancel.png',
+      },
+    },
+    {
+      title: '✏️ Legendas em Tempo Real',
+      details: '**Legendas em tempo real** opcionais em múltiplos idiomas para maior acessibilidade.',
+      items: [
+        'Oferece suporte a usuários com deficiência auditiva',
+        'Ajuda a esclarecer discursos técnicos ou com sotaque',
+        'Sincronizado com a voz do palestrante em tempo real'
+      ],
+      images: {
+        light: '/subtitles.png',
+        dark: '/subtitles.png',
+      },
+    },
+  ]"
+/>
 
-### 🎥 Vídeo em alta definição 1080p
+## Agendamento Inteligente
 
-Todas as reuniões são transmitidas em **Full HD 1080p**, proporcionando visuais cristalinos para cada participante. Isso é especialmente importante quando sinais visuais, gestos ou conteúdo compartilhado são vitais para o entendimento.
+<FeatureCards
+  :features="[
+    {
+      title: '📅 Agendamento Avançado de Reuniões',
+      details: 'O InterMind se integra perfeitamente com **Google Calendar, Outlook e iCal**.',
+      items: [
+        'Agendamento com reconhecimento de fuso horário',
+        'Links de entrada com um clique',
+        'Atualizações automáticas para reuniões reagendadas'
+      ],
+      images: {
+        light: '/schedule.png',
+        dark: '/schedule.png',
+      },
+    },
+    {
+      title: '📆 Integração com Calendário',
+      details: 'Reuniões, gravações e sessões futuras são automaticamente registradas e sincronizadas.',
+      items: [
+        'Receba lembretes antes de reuniões importantes',
+        'Fácil de rastrear quem se reuniu quando — e por quê',
+        'Suporta reuniões recorrentes e anexos de agenda'
+      ],
+      images: {
+        light: '/calendar.png',
+        dark: '/calendar.png',
+      },
+    },
+    {
+      title: '🎙️ Gravação de Reuniões',
+      details: 'Grave reuniões com um único clique. Os vídeos são salvos com segurança na nuvem.',
+      items: [
+        'Compartilhe com participantes ausentes',
+        'Use para treinamento ou registros de conformidade',
+        'Pode ser combinado com transcrição automática'
+      ],
+      images: {
+        light: '/record.png',
+        dark: '/record.png',
+      },
+    },
+  ]"
+/>
 
-- Ideal para apresentações para investidores, demonstrações de produtos ou discussões jurídicas.
-- Reduz a fadiga cognitiva causada por vídeo pixelizado ou de baixa qualidade.
-- Aumenta a confiança e o engajamento em ambientes virtuais.
+## Ferramentas de Colaboração
 
-### 🔇 Supressão inteligente de ruído
+<FeatureCards
+  :features="[
+    {
+      title: '🖥️ Compartilhamento de Tela',
+      details: 'Compartilhe facilmente sua tela inteira, janela de aplicativo ou aba do navegador — sem necessidade de instalações.',
+      items: [
+        'Faça anotações durante apresentações ao vivo',
+        'Mostre planilhas, slides ou ferramentas de software em tempo real',
+        'Suporta apresentadores com múltiplas telas'
+      ],
+      images: {
+        light: '/screen-share.png',
+        dark: '/screen-share.png',
+      },
+    },
+    {
+      title: '💬 Chat Durante a Reunião',
+      details: 'Os participantes podem enviar **mensagens de texto**, links ou notas privadas sem interromper.',
+      items: [
+        'Opções de chat público e privado',
+        'Ideal para perguntas paralelas, recursos compartilhados ou sessões silenciosas de perguntas e respostas',
+        'Todo o histórico do chat pode ser exportado após a reunião'
+      ],
+      images: {
+        light: '/chat.png',
+        dark: '/chat.png',
+      },
+    },
+    {
+      title: '🧑‍⚖️ Ferramentas Profissionais de Moderação',
+      details: 'Conduza reuniões com confiança usando **controles de moderação** integrados.',
+      items: [
+        'Silenciar/ativar som dos participantes',
+        'Controlar compartilhamento de tela e acesso à câmera',
+        'Designar co-anfitriões ou moderadores'
+      ],
+      images: {
+        light: '/moderation.png',
+        dark: '/moderation.png',
+      },
+    },
+  ]"
+/>
 
-Nosso cancelamento de ruído baseado em IA filtra sons de fundo — digitação, trânsito, eco ou conversas distantes — para que apenas a voz do palestrante seja transmitida.
+## Pronto para Empresas
 
-- Mantém as reuniões profissionais e focadas.
-- Funciona automaticamente sem controles manuais.
-- Ideal para trabalhadores remotos em ambientes não isolados acusticamente.
-
-### 📅 Agendamento avançado de reuniões
-
-InterMind integra perfeitamente com **Google Calendar, Outlook e iCal**, facilitando o planejamento, convite e lembretes aos participantes.
-
-- Agendamento com reconhecimento de fuso horário.
-- Links de entrada com um clique.
-- Atualizações automáticas para reuniões reagendadas.
-
-### 🧑‍⚖️ Ferramentas profissionais de moderação
-
-Conduza com confiança usando **controles de moderação** integrados:
-
-- Silenciar/ativar som dos participantes.
-- Controlar compartilhamento de tela e acesso à câmera.
-- Designar co-anfitriões ou moderadores.
-- Bloquear ou proteger reuniões com senha.
-
-Perfeito para gerenciar reuniões grandes, sessões de treinamento ou briefings confidenciais.
-
-### 🖥️ Compartilhamento de tela
-
-Compartilhe facilmente sua tela inteira, janela de aplicativo ou aba do navegador com os participantes — sem necessidade de instalações.
-
-- Faça anotações durante apresentações ao vivo.
-- Mostre planilhas, slides ou ferramentas de software em tempo real.
-- Suporta apresentadores com múltiplas telas.
-
-### 🎙️ Gravação de reuniões
-
-Grave reuniões com um único clique. Os vídeos são salvos com segurança na nuvem e ficam disponíveis imediatamente após a sessão.
-
-- Compartilhe com participantes ausentes.
-- Use para registros de treinamento ou conformidade.
-- Pode ser combinado com transcrição automática.
-
-### ✏️ Legendas em tempo real
-
-Para maior acessibilidade, InterMind oferece **legendas em tempo real** opcionais em múltiplos idiomas, mesmo quando a interpretação de voz ao vivo está ativa.
-
-- Suporta usuários com deficiência auditiva.
-- Ajuda a esclarecer fala técnica ou com sotaque.
-- Sincronizado com a voz do palestrante em tempo real.
-
-### 💬 Chat durante a reunião
-
-Os participantes podem enviar **mensagens de texto**, links ou notas privadas sem interromper o palestrante.
-
-- Opções de chat público e privado.
-- Ideal para perguntas paralelas, recursos compartilhados ou sessões silenciosas de perguntas e respostas.
-- Todo o histórico do chat pode ser exportado após a reunião.
-
-### 📆 Integração com calendário
-
-Reuniões, gravações e sessões futuras são automaticamente registradas e sincronizadas com seu calendário.
-
-- Receba lembretes antes de reuniões importantes.
-- Fácil de rastrear quem se reuniu quando — e por quê.
-- Suporta reuniões recorrentes e anexos de agenda.
-
-### ✅ Tudo-em-um, sem plugins necessários
-
-Diferente de muitas soluções que dependem de complementos de terceiros, InterMind é **totalmente integrado** e funciona imediatamente.
-
-- Não são necessárias instalações ou extensões de navegador.
-- Experiência unificada em web, desktop e mobile.
-- Uma plataforma segura — construída para escala.
+<FeatureCards
+  :features="[
+    {
+      title: '✅ Plataforma Tudo-em-Um',
+      details: 'InterMind é **totalmente integrado** e funciona imediatamente.',
+      items: [
+        'Não precisa de instalações ou extensões do navegador',
+        'Experiência unificada na web, desktop e mobile',
+        'Uma plataforma segura — construída para escalar'
+      ],
+      images: {
+        light: '/platform.png',
+        dark: '/platform.png',
+      },
+    },
+    {
+      title: '🔒 Seguro e Escalável',
+      details: 'Segurança de nível empresarial com conexões criptografadas.',
+      items: [
+        'Reuniões protegidas por senha e armazenamento seguro na nuvem',
+        'Construído para colaboração de alto nível',
+        'Em conformidade com padrões da indústria'
+      ],
+      images: {
+        light: '/security.png',
+        dark: '/security.png',
+      },
+    },
+    {
+      title: '🌐 Escala Global',
+      details: 'Construído para equipes internacionais e operações mundiais.',
+      items: [
+        'Suporte multi-idioma para equipes globais',
+        'Infraestrutura otimizada para conexões confiáveis',
+        'Projetado para colaboração internacional'
+      ],
+      images: {
+        light: '/global.png',
+        dark: '/global.png',
+      },
+    },
+  ]"
+/>

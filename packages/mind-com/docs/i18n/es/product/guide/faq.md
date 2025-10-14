@@ -1,4 +1,9 @@
-# Preguntas Frecuentes (FAQ)
+---
+title: "Preguntas frecuentes (FAQ)"
+description: "Obtén respuestas a preguntas comunes sobre InterMIND. Aprende sobre cuentas, reuniones, Asistente de IA, funciones de traducción y compatibilidad de dispositivos."
+---
+
+# Preguntas frecuentes (FAQ)
 
 La sección de preguntas frecuentes proporciona información esencial sobre InterMIND, cubriendo temas como cuentas y acceso, creación y grabación de reuniones, las capacidades del Asistente de IA, funciones de traducción, participación en chat y configuraciones para dispositivos. Aborda preguntas comunes sobre acceso de invitados, programación de reuniones, uso del Asistente de IA, traducción de idiomas, funcionalidades de chat y compatibilidad de dispositivos.
 

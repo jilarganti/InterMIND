@@ -1,6 +1,11 @@
+---
+title: "Funciones de IA"
+description: "Descubre las funciones impulsadas por IA de InterMIND incluyendo Asistente de Voz (Jarvis), traducción de voz en tiempo real, y Asistente de IA para notas y resúmenes de reuniones."
+---
+
 # Funciones de IA
 
-Esta sección describe las funcionalidades del Asistente de Voz (Jarvis), Traducción de Voz en Línea y Asistente de IA disponibles durante las reuniones.
+Esta sección describe las funcionalidades del Asistente de Voz (Jarvis), Traducción de Voz en Línea, y Asistente de IA disponibles durante las reuniones.
 
 ## Traducción de Voz en Línea
 

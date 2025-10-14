@@ -1,6 +1,11 @@
+---
+title: "Câu hỏi thường gặp (FAQ)"
+description: "Nhận câu trả lời cho các câu hỏi phổ biến về InterMIND. Tìm hiểu về tài khoản, cuộc họp, AI Assistant, tính năng dịch thuật và khả năng tương thích thiết bị."
+---
+
 # Câu hỏi thường gặp (FAQ)
 
-Phần FAQ cung cấp thông tin cần thiết về InterMIND, bao gồm các chủ đề như tài khoản và quyền truy cập, tạo và ghi âm cuộc họp, khả năng của trợ lý AI, tính năng dịch thuật, tham gia chat, và cài đặt cho các thiết bị. Phần này giải đáp các câu hỏi phổ biến về quyền truy cập khách, lên lịch cuộc họp, sử dụng trợ lý AI, dịch ngôn ngữ, chức năng chat, và khả năng tương thích thiết bị.
+Phần FAQ cung cấp thông tin cần thiết về InterMIND, bao gồm các chủ đề như tài khoản và quyền truy cập, tạo và ghi âm cuộc họp, khả năng của AI Assistant, tính năng dịch thuật, tham gia chat và cài đặt cho các thiết bị. Phần này giải đáp các câu hỏi thường gặp về quyền truy cập khách, lên lịch cuộc họp, sử dụng AI Assistant, dịch ngôn ngữ, chức năng chat và khả năng tương thích thiết bị.
 
 ## Truy cập
 

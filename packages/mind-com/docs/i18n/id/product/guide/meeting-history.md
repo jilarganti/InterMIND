@@ -1,13 +1,18 @@
+---
+title: "Riwayat Pertemuan"
+description: "Akses arsip pertemuan InterMIND Anda dengan rekaman, transkrip, ringkasan yang dihasilkan AI, dan tautan pertemuan yang dapat digunakan kembali dalam satu tempat."
+---
+
 # Riwayat Pertemuan
 
-Halaman Riwayat Pertemuan berfungsi sebagai arsip pribadi untuk semua pertemuan yang telah Anda selenggarakan atau hadiri saat masuk. Halaman ini menawarkan akses cepat ke rekaman, transkrip, ringkasan yang dihasilkan AI Assistant, dan tautan pertemuan yang dapat digunakan kembali - semuanya terpusat di satu lokasi yang nyaman.
+Halaman Riwayat Pertemuan berfungsi sebagai arsip pribadi untuk semua pertemuan yang telah Anda selenggarakan atau hadiri saat masuk. Halaman ini menawarkan akses cepat ke rekaman, transkrip, ringkasan yang dihasilkan AI Assistant, dan tautan pertemuan yang dapat digunakan kembali - semuanya terpusat dalam satu lokasi yang nyaman.
 
 ## Mengakses halaman Riwayat Rapat
 
 Anda dapat mengakses halaman Riwayat Rapat melalui salah satu dari tiga metode yang mudah:
 
 - Klik tautan 'History' yang terletak di sebelah ikon 'Report a Problem' di menu header halaman
-- Alternatif lain, klik ikon avatar Anda di pojok kanan atas, kemudian pilih **History** dari menu dropdown
+- Alternatifnya, klik ikon avatar Anda di pojok kanan atas, kemudian pilih **History** dari menu dropdown
 - Anda juga dapat menavigasi langsung ke tautan berikut: [https://intermind.com/history](https://intermind.com/history)
 
 ## Daftar Rapat

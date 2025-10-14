@@ -1,6 +1,11 @@
+---
+title: "Tạo và lên lịch cuộc họp"
+description: "Tìm hiểu cách tạo cuộc họp tức thì, lên lịch trong Google Calendar và tạo liên kết cuộc họp có thể tái sử dụng trong nền tảng hội nghị truyền hình InterMIND."
+---
+
 # Tạo và lên lịch cuộc họp
 
-Sau khi đăng nhập vào InterMIND, người dùng có thể dễ dàng tạo và lên lịch cuộc họp trực tiếp từ giao diện chính bằng cách nhấp vào nút **New Meeting**.
+Sau khi đăng nhập vào InterMIND, người dùng có thể dễ dàng tạo và lên lịch cuộc họp trực tiếp từ giao diện chính bằng cách nhấp vào nút **Cuộc họp mới**.
 
 ## Truy cập các tùy chọn cuộc họp
 
@@ -16,8 +21,8 @@ Tùy chọn này cho phép người dùng tạo liên kết cuộc họp có th�
 
 **Các bước:**
 
-1. Nhấp vào nút **Cuộc họp mới**
-2. Chọn tùy chọn **Tạo cuộc họp cho sau**
+1. Nhấp vào nút **New Meeting**
+2. Chọn tùy chọn **Create a Meeting for Later**
 3. Một liên kết cuộc họp duy nhất sẽ được tạo
 4. Sao chép liên kết và chia sẻ với những người tham gia
 5. Bạn có thể tham gia cuộc họp bất cứ lúc nào bằng liên kết này

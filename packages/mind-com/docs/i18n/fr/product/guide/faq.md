@@ -1,11 +1,16 @@
+---
+title: "Foire aux questions (FAQ)"
+description: "Obtenez des réponses aux questions courantes sur InterMIND. Découvrez les comptes, les réunions, l'Assistant IA, les fonctionnalités de traduction et la compatibilité des appareils."
+---
+
 # Foire aux questions (FAQ)
 
-La section FAQ fournit des informations essentielles sur InterMIND, couvrant des sujets tels que les comptes et l\'accès, la création et l\'enregistrement de réunions, les capacités de l\'assistant IA, les fonctionnalités de traduction, la participation au chat et les paramètres des appareils. Elle répond aux questions courantes concernant l\'accès invité, la planification de réunions, l\'utilisation de l\'assistant IA, la traduction linguistique, les fonctionnalités de chat et la compatibilité des appareils.
+La section FAQ fournit des informations essentielles sur InterMIND, couvrant des sujets tels que les comptes et l\'accès, la création et l\'enregistrement de réunions, les capacités de l\'Assistant IA, les fonctionnalités de traduction, la participation au chat et les paramètres pour les appareils. Elle répond aux questions courantes concernant l\'accès invité, la planification de réunions, l\'utilisation de l\'Assistant IA, la traduction linguistique, les fonctionnalités de chat et la compatibilité des appareils.
 
 ## Accès
 
 **Dois-je m\'inscrire pour participer à une réunion ?**
-Non, les invités peuvent rejoindre en utilisant un lien de réunion sans se connecter ; cependant, leur accès sera limité (par exemple, pas d\'assistant IA ou d\'historique des réunions).
+Non, les invités peuvent rejoindre en utilisant un lien de réunion sans se connecter ; cependant, leur accès sera limité (par exemple, pas d\'Assistant IA ou d\'historique des réunions).
 
 **Puis-je utiliser un compte Google ou Microsoft pour m\'inscrire ?**
 Oui, vous pouvez facilement vous inscrire ou vous connecter en utilisant vos comptes Google ou Microsoft en un seul clic.
@@ -65,7 +70,7 @@ Oui, ces préférences sont sauvegardées dans votre profil et seront appliquée
 ## Navigateurs
 
 **Quels appareils sont pris en charge ?**
-InterMIND fonctionne sur ordinateur de bureau (Windows/macOS) et mobile (iOS/Android) via n'importe quel navigateur moderne.
+InterMIND fonctionne sur ordinateur de bureau (Windows/macOS) et mobile (iOS/Android) via n\'importe quel navigateur moderne.
 
 **Quel navigateur est le meilleur ?**
 Chrome, Firefox, Safari, Edge et Opera sont entièrement pris en charge.

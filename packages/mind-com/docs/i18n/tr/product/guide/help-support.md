@@ -1,6 +1,11 @@
+---
+title: "Yardım ve Destek"
+description: "InterMIND ile ilgili yardım alın. Sorunları bildirin, özellik önerin ve yerleşik geri bildirim formu aracılığıyla destek ekibimizle iletişime geçin."
+---
+
 # Yardım ve Destek
 
-Herhangi bir sorunla karşılaştığınızda veya özellik talebiniz olduğunda, yerleşik geri bildirim formu aracılığıyla doğrudan InterMIND ekibine ulaşmaktan çekinmeyin. Bu özellik hızlı ve kullanıcı dostudur, InterMIND'i herkes için geliştirmemize olanak tanır.
+Herhangi bir sorunla karşılaşırsanız veya özellik talebiniz varsa, yerleşik geri bildirim formu aracılığıyla doğrudan InterMIND ekibiyle iletişime geçmekten çekinmeyin. Bu özellik hızlı ve kullanıcı dostudur, InterMIND'i herkes için geliştirmemize olanak tanır.
 
 ## Geri bildirim göndermek için:
 

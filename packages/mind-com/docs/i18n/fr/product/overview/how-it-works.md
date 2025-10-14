@@ -1,3 +1,8 @@
+---
+title: "Comment fonctionne la traduction IA en temps réel"
+description: "Découvrez comment la traduction bidirectionnelle instantanée d'InterMIND fonctionne avec la reconnaissance vocale, la traduction neuronale et la synthèse vocale pour une communication fluide."
+---
+
 # Comment fonctionne la traduction IA en temps réel
 
 ## Parlez et écoutez dans votre langue
@@ -6,7 +11,7 @@ InterMind est une plateforme de visioconférence multi-utilisateurs avec **tradu
 
 ## Comment ça fonctionne :
 
-<!-- :::details Show diagram of AI translation process
+<!-- :::details Afficher le diagramme du processus de traduction IA
 ::: -->
 
 ![](./interpretating.svg)
@@ -43,30 +48,30 @@ InterMind est une plateforme de visioconférence multi-utilisateurs avec **tradu
 
 Tout cela se produit avec une **latence inférieure à 3 secondes** — égalant la vitesse des interprètes simultanés professionnels[^1] [^2].
 
-## Avantages pratiques
+## Avantages Pratiques
 
-### Qualité du traitement vocal :
+### Qualité du Traitement Vocal :
 
 - **Filtrage du bruit** : suppression automatique de la toux, des rires, des conversations en arrière-plan
 - **Ponctuation intelligente** : reconnaissance des pauses intonationnelles et de l\'accentuation logique
-- **Correction d\'erreurs** : correction à la volée des fautes de frappe et des inexactitudes de reconnaissance
+- **Correction d\'erreurs** : correction des fautes de frappe et des inexactitudes de reconnaissance à la volée
 - **Compression sémantique** : préservation du sens tout en supprimant la redondance
 
-### Pour les entreprises :
+### Pour les Entreprises :
 
 - **Équipes mondiales** : élimination des barrières linguistiques dans les équipes internationales
 - **Réunions clients** : communication directe avec les clients sans services d\'interprétation
 - **Formation et présentations** : diffusion simultanée de contenu en plusieurs langues
 - **Économies de coûts** : réduction des coûts d\'interprétation jusqu\'à **80%**
 
-### Pour les utilisateurs :
+### Pour les Utilisateurs :
 
 - **Naturel** : parlez comme d\'habitude, pensez dans votre langue maternelle
 - **Confidentialité** : aucun tiers (interprètes)
 - **Accessibilité** : 24h/24 et 7j/7 sans planification préalable
 - **Évolutivité** : de 2 à plus de 1000 participants
 
-## Mieux que l\'humain — et s\'améliore chaque jour
+## Meilleur que l\'humain — et s\'améliore chaque jour
 
 ### Stack technologique :
 

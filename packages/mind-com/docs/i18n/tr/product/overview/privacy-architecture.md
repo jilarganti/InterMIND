@@ -1,16 +1,21 @@
+---
+title: "AI Toplantıları için Veri Gizliliği"
+description: "InterMIND'ın bölge tabanlı gizlilik, GDPR uyumluluğu ve veri işleme konumları için kullanıcı seçimi ile şeffaf gizlilik mimarisi."
+---
+
 # AI Toplantıları için Veri Gizliliği
 
 ## Giriş
 
-InterMind, canlı AI destekli çeviri ile çok dilli video toplantılar için bir platformdur. Profesyoneller için tasarlandık — sadece mesajın kendisinin değil, o mesajın gizliliğinin de önemli olduğu yerlerde.
+InterMind, canlı AI destekli çeviri ile çok dilli video toplantıları için bir platformdur. Profesyoneller için tasarlandık — sadece mesajın kendisinin değil, o mesajın gizliliğinin de önemli olduğu yerlerde.
 
 Kesintisiz bir deneyim sunmak için InterMind, video, ses, bulut depolama, gerçek zamanlı çeviri ve analitik için üçüncü taraf hizmetleri entegre eder. Bu üçüncü taraf sağlayıcılar performans ve ölçeklenebilirlik sağlamamıza yardımcı olur — ancak aynı zamanda doğrudan kontrol edemediğimiz bir katman da sunarlar.
 
-**Vaatler yerine şeffaflığa** inanıyoruz. Sadece doğrudan kontrolümüz altındaki bileşenler için gizlilik ve güvenliği garanti edebiliriz — yazılımımız, arayüz mantığımız ve verileri nasıl yönlendirdiğimiz. Diğer her şey için size **seçim gücü** sunuyoruz.
+**Vaatler yerine şeffaflığa** inanıyoruz. Sadece doğrudan kontrolümüz altındaki bileşenler için gizlilik ve güvenlik garanti edebiliriz — yazılımımız, arayüz mantığımız ve verileri nasıl yönlendirdiğimiz. Diğer her şey için size **seçim gücü** sunuyoruz.
 
 Bu nedenle InterMind'ı **bölge tabanlı gizlilik** ile tasarladık: verilerinizin nerede işlendiğini, hangi yasal çerçevenin onu yönettiğini ve hangi AI modellerinin kullanıldığını — seçtiğiniz gizlilik bölgesine göre siz seçiyorsunuz.
 
-> **Gizlilik Bölgesi nedir?**  
+> **Gizlilik Bölgesi Nedir?**  
 > _Verilerinizin nerede işlendiğini ve hangi yasal çerçeve altında olduğunu yöneten yapılandırılabilir bir bölge (AB, ABD, Asya)._
 
 ## Temel Gizlilik İlkeleri
@@ -38,10 +43,10 @@ Her oturumun başında veya kuruluşunuzun hesap ayarlarının bir parçası ola
 
 | Bölge         | Geçerli Yasalar                                                                               | Altyapı                        | LLM Sağlayıcıları          |
 | ------------- | --------------------------------------------------------------------------------------------- | ------------------------------ | -------------------------- |
-| Avrupa        | [GDPR](https://gdpr.eu)                                                                       | Yalnızca AB veri merkezleri    | AB\'de barındırılan veya AB uyumlu  |
-| Amerika Birleşik Devletleri | [CCPA](https://oag.ca.gov/privacy/ccpa)                                           | AWS / GCP / Azure (ABD)        | OpenAI US / Anthropic US   |
-| BAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | BAE veya Bahreyn bulutu        | Bölgesel veya uyumlu LLM\'ler |
-| Asya / Çin    | Yerel Çin gizlilik yasaları                                                                  | Alibaba, Huawei, Tencent Cloud | Yalnızca Çin tabanlı LLM\'ler      |
+| Avrupa        | [GDPR](https://gdpr.eu)                                                                       | Yalnızca AB veri merkezleri    | AB'de barındırılan veya AB uyumlu  |
+| Amerika Birleşik Devletleri | [CCPA](https://oag.ca.gov/privacy/ccpa)                                       | AWS / GCP / Azure (ABD)        | OpenAI ABD / Anthropic ABD |
+| BAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | BAE veya Bahreyn bulutu        | Bölgesel veya uyumlu LLM'ler |
+| Asya / Çin    | Yerel Çin gizlilik yasaları                                                                  | Alibaba, Huawei, Tencent Cloud | Yalnızca Çin merkezli LLM'ler      |
 
 Bu seçim, video, ses ve yorumlanan içeriğinizin nasıl işlendiğini ve hangi yargı yetkisi altında olduğunu belirler.
 
@@ -77,10 +82,10 @@ InterMind aşağıdakilerle tam uyumluluk sağlar:
 
 - **GDPR** — Erişim, silme, dışa aktarma ve işleme kısıtlama hakkı. AI profilleme yapılmaz.
 - **CCPA** — Kişisel veri satışı yapılmaz, vazgeçme seçenekleri ve şeffaf toplama uygulamaları.
-- **UAE PDPL** — Talep edildiğinde yerel depolama, sıkı erişim kontrolleri, izin olmadan uluslararası transfer yapılmaz.
-- **China DSL/PIPL** — Yalnızca bölge içi işleme, Çin seçildiğinde yabancı yönlendirme yapılmaz.
+- **UAE PDPL** — Talep edilirse yerel depolama, sıkı erişim kontrolleri, izin olmadan uluslararası transfer yapılmaz.
+- **China DSL/PIPL** — Yalnızca bölge içi işleme, Çin seçilirse yabancı yönlendirme yapılmaz.
 
-## Neyi Garanti Edebilir ve Edemeyiz
+## Neleri Garanti Edebilir ve Edemeyiz
 
 Sadece hukuki jargon değil, tam dürüstlüğe kararlıyız.
 
@@ -96,7 +101,7 @@ Sadece hukuki jargon değil, tam dürüstlüğe kararlıyız.
 
 - Verilerinizin **nerede ve nasıl** işlendiğini her zaman bilirsiniz.
 - Bölgenizi ve uyumluluk modunuzu seçerek **riski kontrol etme** araçlarına sahipsiniz.
-- InterMind, rızanız olmadan içeriğinizi **asla** saklamaz veya istismar etmez — geçici olarak bile.
+- InterMind içeriğinizi **asla** - geçici olarak bile - rızanız olmadan saklamaz veya istismar etmez.
 
 ## Güven Modları ve Gizlilik Seviyeleri
 
@@ -111,7 +116,7 @@ Oturumunuzu gizlilik ihtiyaçlarınıza uyacak şekilde özelleştirebilirsiniz:
 ## Kutunun İçinden Çıkanlar
 
 - Gerçek zamanlı şeffaflık ile bölgeye özel LLM kullanımı.
-- İçeriğinizin eğitimi veya profillemesi asla yapılmaz.
+- İçeriğinizin eğitimi veya profillenmesi — asla.
 - Yorumlama kapalıysa sıfır veri aktarımı.
 - İsteğe bağlı veri depolama, her zaman bölge sınırları içinde.
 - Kurumsal müşteriler için tam denetim ve dışa aktarma araçları.
@@ -120,10 +125,10 @@ Oturumunuzu gizlilik ihtiyaçlarınıza uyacak şekilde özelleştirebilirsiniz:
 
 > Gizlilik bir söz değil — bir mimaridir.
 
-InterMind belirsiz güvenceler arkasına saklanmaz. Bunun yerine size **seçenekler**, **görünürlük** ve **kontrol** sunar.
+InterMind belirsiz güvenceler arkasına saklanmaz. Bunun yerine size **seçenekler**, **görünürlük** ve **kontrol** sunarız.
 
 - Bölgenizi siz seçersiniz.
 - Yorumlama seviyenizi siz seçersiniz.
-- Kabul etmeye istekli olduğunuz riski siz belirlersiniz — ve her seviyede uyumlu kalmanızda size yardımcı oluruz.
+- Kabul etmeye istekli olduğunuz riski siz belirlersiniz — ve her seviyede uyumlu kalmanıza yardımcı oluruz.
 
-**InterMind — profesyoneller için inşa edildi, uyumluluk ile desteklendi, güven ile yönetildi.**
+**InterMind — profesyoneller için inşa edildi, uyumluluk tarafından desteklendi, güven tarafından yönetildi.**

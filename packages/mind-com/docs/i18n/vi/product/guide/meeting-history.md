@@ -1,6 +1,11 @@
+---
+title: "Lịch sử cuộc họp"
+description: "Truy cập kho lưu trữ cuộc họp InterMIND của bạn với các bản ghi âm, bản ghi chép, tóm tắt do AI tạo ra và liên kết cuộc họp có thể tái sử dụng tại một nơi."
+---
+
 # Lịch sử cuộc họp
 
-Trang Lịch sử cuộc họp hoạt động như một kho lưu trữ cá nhân cho tất cả các cuộc họp bạn đã tổ chức hoặc tham gia khi đã đăng nhập. Nó cung cấp quyền truy cập nhanh vào các bản ghi âm, bản ghi chép, tóm tắt do AI Assistant tạo ra, và các liên kết cuộc họp có thể tái sử dụng - tất cả được tổng hợp tại một vị trí thuận tiện.
+Trang Lịch sử cuộc họp hoạt động như một kho lưu trữ cá nhân cho tất cả các cuộc họp mà bạn đã tổ chức hoặc tham gia khi đã đăng nhập. Nó cung cấp quyền truy cập nhanh vào các bản ghi âm, bản ghi chép, tóm tắt do Trợ lý AI tạo ra và các liên kết cuộc họp có thể tái sử dụng - tất cả được tổng hợp tại một vị trí thuận tiện.
 
 ## Truy cập trang Lịch sử cuộc họp
 
@@ -25,37 +30,37 @@ Mỗi mục trong lịch sử cuộc họp của bạn bao gồm:
   - Chia sẻ
   - Tham gia
 
-## Nút Tìm kiếm & Hành động
+## Nút Tìm Kiếm & Hành Động
 
-Để hỗ trợ quản lý hiệu quả các cuộc họp đã qua, trang Lịch sử bao gồm:
+Để hỗ trợ quản lý hiệu quả các cuộc họp đã qua, trang Lịch Sử bao gồm:
 
-### Thanh tìm kiếm
+### Thanh Tìm Kiếm
 
-Tính năng này cho phép bạn tìm kiếm cuộc họp bằng từ khóa trong Tiêu đề hoặc Bản ghi, hoặc bằng Phòng hoặc Người tham gia chính xác. Các bộ lọc có thể được kết hợp để có kết quả chính xác hơn.
+Tính năng này cho phép bạn tìm kiếm cuộc họp bằng từ khóa trong Tiêu Đề hoặc Bản Ghi, hoặc bằng Phòng hoặc Người Tham Gia chính xác. Các bộ lọc có thể được kết hợp để có kết quả chính xác hơn.
 
-### ID phòng
+### ID Phòng
 
 Nhấp vào liên kết ID Phòng sẽ sắp xếp danh sách để chỉ hiển thị các cuộc họp liên quan đến cùng một ID Phòng.
 
-### # Pax (Người tham gia)
+### # Pax (Người Tham Gia)
 
 Nhấp vào đây sẽ mở một menu thả xuống liệt kê tất cả người tham gia.
 
-Một số Nút Hành động có thể được tìm thấy ẩn dưới menu ba chấm nằm ở phía bên phải.
+Một số Nút Hành Động có thể được tìm thấy ẩn dưới menu ba chấm nằm ở phía bên phải.
 
-### Các hành động có sẵn
+### Các Hành Động Có Sẵn
 
 #### Xóa
 
-Khi hành động này được nhấp, người dùng sẽ nhận được thông báo nhắc họ xác nhận xóa bằng cách nhấp vào nút **Có, xóa** hoặc hủy thao tác bằng cách nhấp vào nút **Hủy**. Các cuộc họp đã xóa sẽ không còn hiển thị với bất kỳ người tham gia nào. Chỉ có Chủ phòng hoặc Người điều hành mới có quyền xóa cuộc họp.
+Khi hành động này được nhấp, người dùng sẽ nhận được thông báo nhắc họ xác nhận việc xóa bằng cách nhấp vào nút **Có, xóa** hoặc hủy thao tác bằng cách nhấp vào nút **Hủy**. Các cuộc họp đã xóa sẽ không còn hiển thị với bất kỳ người tham gia nào. Chỉ có Chủ Phòng hoặc Người Điều Hành mới có quyền xóa cuộc họp.
 
-#### Chia sẻ
+#### Chia Sẻ
 
-Người dùng sẽ nhận được thông báo pop-up có nội dung **Liên kết đã được sao chép vào clipboard!** cho phép họ chia sẻ liên kết này với bất kỳ người dùng được ủy quyền nào.
+Người dùng sẽ nhận được thông báo pop-up hiển thị **Liên kết đã được sao chép vào clipboard!** cho phép họ chia sẻ liên kết này với bất kỳ người dùng được ủy quyền nào.
 
-#### Tham gia
+#### Tham Gia
 
-Hành động này cho phép bất kỳ người dùng nào có bản ghi cuộc họp trên trang Lịch sử tham gia cuộc họp, dẫn đến việc tạo ra một bản ghi mới với cùng ID Phòng.
+Hành động này cho phép bất kỳ người dùng nào có bản ghi cuộc họp trên trang Lịch Sử tham gia cuộc họp, dẫn đến việc tạo ra một bản ghi mới với cùng ID Phòng.
 
 ## Chi tiết cuộc họp
 
@@ -88,11 +93,11 @@ Tab này cho phép người dùng nhận tóm tắt cuộc họp từ Trợ lý 
 > [!INFO]
 > Tab Bản ghi có thể bị ẩn trên trang Chi tiết cuộc họp nếu cuộc họp không bao gồm bất kỳ bản ghi nào.
 
-## Kiểm soát truy cập
+## Kiểm Soát Truy Cập
 
 - Chủ phòng và Người điều hành có quyền truy cập đầy đủ vào lịch sử cuộc họp của riêng họ
 - Người tham gia đã đăng nhập có thể truy cập lịch sử các cuộc họp đã tham dự; tuy nhiên, họ không thể xóa bản ghi cuộc họp
 - Người dùng khách và người tham dự ẩn danh không có quyền truy cập vào trang lịch sử hoặc nội dung của nó
 
 > [!TIP]
-> Sử dụng trang Lịch sử cuộc họp để phát lại các cuộc thảo luận quan trọng, truy xuất ghi chú quan trọng và theo dõi các mục hành động bằng cách sử dụng tóm tắt và bản ghi âm—biến nó thành một công cụ thiết yếu cho tài liệu nhóm, kiểm toán hoặc quy trình tuân thủ.
+> Sử dụng trang Lịch Sử Cuộc Họp để phát lại các cuộc thảo luận quan trọng, truy xuất ghi chú quan trọng và theo dõi các mục hành động bằng cách sử dụng tóm tắt và bản ghi âm—làm cho nó trở thành công cụ thiết yếu cho tài liệu nhóm, kiểm toán hoặc quy trình tuân thủ.

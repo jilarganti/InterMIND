@@ -1,18 +1,23 @@
+---
+title: "Primeros pasos"
+description: "Aprende a usar la plataforma de videoconferencias con IA InterMIND. Guía completa para registro, creación de reuniones, funciones de IA y solución de problemas."
+---
+
 # Primeros pasos
 
-InterMIND es una plataforma avanzada de videoconferencias impulsada por IA diseñada para facilitar la comunicación fluida entre varios idiomas, dispositivos y equipos. Esta guía tiene como objetivo proporcionarte una comprensión integral de cómo utilizar eficazmente todas las funciones de InterMIND — desde unirte a tu primera reunión hasta configurar herramientas de IA y resolver problemas técnicos.
+InterMIND es una plataforma avanzada de videoconferencias con inteligencia artificial diseñada para facilitar la comunicación fluida entre diversos idiomas, dispositivos y equipos. Esta guía tiene como objetivo proporcionarte una comprensión integral de cómo utilizar eficazmente todas las funciones de InterMIND — desde unirte a tu primera reunión hasta configurar herramientas de IA y resolver problemas técnicos.
 
-Ya seas un usuario novato que busca orientación detallada o un participante experimentado que supervisa reuniones complejas, esta guía consolida toda la información necesaria en una ubicación accesible.
+Ya seas un usuario novato que busca orientación detallada o un participante experimentado que supervisa reuniones complejas, esta guía consolida toda la información necesaria en un lugar accesible.
 
 Dentro de esta guía, descubrirás:
 
 - Instrucciones sobre cómo registrarte, iniciar sesión y personalizar tu perfil
 - Pautas para crear y programar reuniones
 - Información sobre roles de usuario, permisos y capacidades de traducción en tiempo real
-- Una descripción general de las funciones impulsadas por IA como el Asistente de IA y el Traductor de Voz
-- Consejos de solución de problemas y respuestas a preguntas frecuentes
+- Una descripción general de las funciones con IA como el Asistente de IA y el Traductor de Voz
+- Consejos para solución de problemas y respuestas a preguntas frecuentes
 
-Comencemos — el futuro de las reuniones inteligentes está listo para comenzar ahora.
+Comencemos — el futuro de las reuniones inteligentes está a punto de comenzar ahora.
 
 ## Lista de verificación de inicio rápido
 

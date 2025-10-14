@@ -1,3 +1,8 @@
+---
+title: "Gerenciamento de conta"
+description: "Cadastre-se e gerencie sua conta InterMIND. Aprenda como se registrar com Google, Microsoft ou email, atualizar configurações do perfil e gerenciar segurança."
+---
+
 # Gerenciamento de conta
 
 ## Cadastro
@@ -13,9 +18,9 @@ Criar uma conta pode ser realizado através de três métodos: utilizando suas c
    - Texto 'Ou entre com', seguido pelos campos de E-mail e Senha para fazer login, se você já tem uma conta
    - Texto 'Não tem uma conta?', seguido por um link 'Cadastre-se', que permite registrar-se usando seu endereço de e-mail externo
 
-### Cadastro com conta do Google
+### Cadastro com Conta do Google
 
-Este método é recomendado para acesso eficiente através de uma conta do Google, facilitando a sincronização perfeita com o Google Calendar. A experiência mais eficaz pode ser alcançada utilizando o navegador Google Chrome.
+Este método é recomendável para acesso eficiente através de uma Conta do Google, facilitando a sincronização perfeita com o Google Calendar. A experiência mais eficaz pode ser alcançada utilizando o navegador Google Chrome.
 
 1. Clique no botão **Google**
 2. Uma janela pop-up aparecerá, solicitando que você selecione sua conta do Google
@@ -26,12 +31,12 @@ Este método é recomendado para acesso eficiente através de uma conta do Googl
 
 4. Você será direcionado para sua página principal do InterMIND; nenhuma configuração adicional é necessária
 
-### Cadastro com conta da Microsoft
+### Cadastro com Conta Microsoft
 
-Este método é recomendado para obter acesso rápido usando uma conta da Microsoft. A experiência ideal pode ser realizada utilizando o navegador Microsoft Edge.
+Este método é recomendável para obter acesso rápido usando uma conta Microsoft. A experiência ideal pode ser realizada utilizando o navegador Microsoft Edge.
 
 1. Clique no botão **Microsoft**
-2. Uma janela pop-up aparecerá, solicitando que você selecione sua conta da Microsoft
+2. Uma janela pop-up aparecerá, solicitando que você selecione sua conta Microsoft
 3. Autorize o acesso às suas informações básicas de perfil clicando no botão **Continuar**
 
 > [!WARNING]
@@ -39,7 +44,7 @@ Este método é recomendado para obter acesso rápido usando uma conta da Micros
 
 4. Você será direcionado para sua página principal do InterMIND; nenhuma configuração adicional é necessária
 
-### Cadastro com endereço de e-mail
+### Cadastro com Endereço de E-mail
 
 Use este método se você não tem uma conta do Google ou prefere se registrar com um e-mail separado.
 
@@ -60,7 +65,7 @@ Use este método se você não tem uma conta do Google ou prefere se registrar c
 3. Após completar o formulário, clique no botão **Registrar**
 4. Após se registrar com sucesso, você receberá uma mensagem de verificação de e-mail em sua caixa de entrada. Uma vez verificado, você pode fazer login usando seu e-mail e senha para acessar os recursos do InterMIND
 
-### Senha esquecida
+### Senha Esquecida
 
 Se você esqueceu sua senha, siga estes passos:
 
@@ -118,7 +123,7 @@ Se você criou sua conta usando um endereço de email externo:
 
 A página de Perfil do Usuário no InterMIND oferece aos usuários a oportunidade de visualizar e personalizar suas configurações pessoais, gerenciar preferências de dispositivos, definir opções de comunicação e executar ações essenciais da conta, incluindo exclusão da conta.
 
-### Acessando a página de Perfil do Usuário
+### Acessando a página de perfil do usuário
 
 Os usuários podem acessar seu perfil através de dois métodos:
 
@@ -129,7 +134,7 @@ Os usuários podem acessar seu perfil através de dois métodos:
 
 **URL Direto:** Navegue para: [https://intermind.com/profile](https://intermind.com/profile)
 
-### Visão Geral do Perfil
+### Visão geral do perfil
 
 A página de perfil está organizada em quatro abas principais:
 
@@ -143,7 +148,7 @@ A página de perfil está organizada em quatro abas principais:
 **Plano Atual**
 
 - Mostra o tipo de assinatura ativa (ex.: Básico, Pro) e seu período de validade
-- Usuários Básicos veem um botão **Atualizar Plano**
+- Usuários básicos veem um botão **Atualizar Plano**
 - Usuários Pro veem um botão **Cancelar Assinatura**
 
 **Preferências de Comunicação**

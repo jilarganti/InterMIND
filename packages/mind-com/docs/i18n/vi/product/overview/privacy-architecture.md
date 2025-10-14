@@ -1,3 +1,8 @@
+---
+title: "Quyền riêng tư dữ liệu cho cuộc họp AI"
+description: "Kiến trúc quyền riêng tư minh bạch của InterMIND với tính bảo mật theo khu vực, tuân thủ GDPR và lựa chọn của người dùng về vị trí xử lý dữ liệu."
+---
+
 # Quyền riêng tư dữ liệu cho cuộc họp AI
 
 ## Giới thiệu
@@ -8,7 +13,7 @@ InterMind là một nền tảng cho các cuộc họp video đa ngôn ngữ v�
 
 Chúng tôi tin vào **tính minh bạch hơn là lời hứa**. Chúng tôi chỉ có thể đảm bảo quyền riêng tư và bảo mật cho các thành phần dưới sự kiểm soát trực tiếp của chúng tôi — phần mềm, logic giao diện và cách chúng tôi định tuyến dữ liệu. Đối với mọi thứ khác, chúng tôi cung cấp cho bạn **quyền lựa chọn**.
 
-Đây là lý do tại sao chúng tôi thiết kế InterMind với **tính bảo mật dựa trên khu vực**: bạn chọn nơi dữ liệu của mình được xử lý, khung pháp lý nào điều chỉnh nó, và mô hình AI nào được sử dụng — dựa trên vùng riêng tư mà bạn đã chọn.
+Đây là lý do tại sao chúng tôi thiết kế InterMind với **tính bảo mật dựa trên khu vực**: bạn chọn nơi dữ liệu của mình được xử lý, khung pháp lý nào điều chỉnh nó và mô hình AI nào được sử dụng — dựa trên vùng riêng tư mà bạn đã chọn.
 
 > **Vùng riêng tư là gì?**  
 > _Một khu vực có thể cấu hình (EU, US, Châu Á) điều chỉnh nơi dữ liệu của bạn được xử lý và dưới khung pháp lý nào._
@@ -51,25 +56,25 @@ Bạn có thể:
 - **Ghi đè vùng cho mỗi phiên**
 - **Đưa một số vùng nhất định vào danh sách đen** hoàn toàn
 
-## Những gì InterMind đảm bảo
+## Những Gì InterMind Đảm Bảo
 
 Chúng tôi triển khai các biện pháp bảo vệ kỹ thuật và pháp lý nghiêm ngặt trong phạm vi kiểm soát của mình:
 
-### 1. **Ưu tiên thực thi cục bộ**
+### 1. **Ưu Tiên Thực Thi Cục Bộ**
 
-Các chức năng phía máy khách như thu âm giọng nói và hiển thị giao diện người dùng được xử lý cục bộ bất cứ khi nào có thể.
+Các chức năng phía client như thu âm giọng nói và hiển thị giao diện người dùng được xử lý cục bộ bất cứ khi nào có thể.
 
-### 2. **Giảm thiểu dữ liệu**
+### 2. **Tối Thiểu Hóa Dữ Liệu**
 
 Chỉ truyền tải lượng dữ liệu tối thiểu cần thiết cho tác vụ hiện tại.
 
-### 3. **Mã hóa đầu cuối**
+### 3. **Mã Hóa Đầu Cuối**
 
-Tất cả dữ liệu âm thanh/video được truyền qua các kênh được mã hóa. Các yêu cầu phiên dịch được chuyển qua proxy bảo mật, tránh tiếp xúc công khai.
+Tất cả dữ liệu âm thanh/video được truyền qua các kênh được mã hóa. Các yêu cầu phiên dịch được chuyển tiếp qua proxy bảo mật, tránh việc tiếp xúc công khai.
 
-### 4. **Không lưu trữ mặc định**
+### 4. **Không Lưu Trữ Mặc Định**
 
-Chúng tôi không lưu trữ các cuộc họp, bản ghi chép hoặc cuộc trò chuyện của bạn trừ khi bạn chọn tham gia. Tất cả việc lưu trữ đều bị ràng buộc theo khu vực.
+Chúng tôi không lưu trữ các cuộc họp, bản ghi chép hoặc cuộc trò chuyện của bạn trừ khi bạn chọn tham gia. Tất cả việc lưu trữ đều được ràng buộc theo khu vực.
 
 ## Tuân thủ pháp lý & quy định
 
@@ -84,7 +89,7 @@ InterMind hỗ trợ tương thích đầy đủ với:
 
 Chúng tôi cam kết minh bạch hoàn toàn, không chỉ là ngôn ngữ pháp lý.
 
-> InterMind không thể đảm bảo cách thức các nhà cung cấp LLM hoặc hạ tầng bên thứ ba xử lý dữ liệu sau khi dữ liệu rời khỏi tầm kiểm soát của chúng tôi.
+> InterMind không thể đảm bảo cách các nhà cung cấp LLM hoặc hạ tầng bên thứ ba xử lý dữ liệu sau khi nó rời khỏi tầm kiểm soát của chúng tôi.
 
 ### Chúng tôi KHÔNG đảm bảo:
 
@@ -98,20 +103,20 @@ Chúng tôi cam kết minh bạch hoàn toàn, không chỉ là ngôn ngữ phá
 - Bạn có các công cụ để **kiểm soát rủi ro** bằng cách chọn khu vực và chế độ tuân thủ của mình.
 - InterMind **không bao giờ** lưu trữ hoặc khai thác nội dung của bạn — ngay cả tạm thời — mà không có sự đồng ý của bạn.
 
-## Chế Độ Tin Cậy & Mức Độ Riêng Tư
+## Chế độ tin cậy & Mức độ riêng tư
 
 Bạn có thể tùy chỉnh phiên làm việc để phù hợp với nhu cầu bảo mật của mình:
 
-| Chế Độ Tin Cậy   | Diễn Giải      | Chuyển Giao Liên Vùng | Lưu Trữ            | Phù Hợp Nhất Cho                    |
+| Chế độ tin cậy   | Diễn giải      | Truyền tải liên vùng  | Lưu trữ            | Phù hợp nhất cho                    |
 | ---------------- | -------------- | --------------------- | ------------------ | ----------------------------------- |
-| 🔒 Chỉ Cục Bộ    | ❌             | ❌                    | ❌                 | Pháp lý, chính phủ, đánh giá nội bộ |
-| 🔐 Khóa Theo Vùng | ✅             | ✅ (chỉ trong khu vực) | ❌ hoặc chỉ trong phiên | Y tế, tài chính, nhân sự             |
-| 🌐 Linh Hoạt Toàn Cầu | ✅             | ✅ (đa vùng)     | ✅                 | Hỗ trợ, bán hàng, nhóm đa quốc gia |
+| 🔒 Chỉ cục bộ    | ❌             | ❌                    | ❌                 | Pháp lý, chính phủ, đánh giá nội bộ |
+| 🔐 Khóa theo vùng| ✅             | ✅ (chỉ trong khu vực)| ❌ hoặc chỉ phiên  | Y tế, tài chính, nhân sự            |
+| 🌐 Linh hoạt toàn cầu | ✅        | ✅ (đa vùng)          | ✅                 | Hỗ trợ, bán hàng, nhóm đa quốc gia  |
 
 ## Những gì bạn nhận được ngay từ đầu
 
-- Sử dụng LLM theo từng khu vực cụ thể, với tính minh bạch theo thời gian thực.
-- Không đào tạo hoặc phân tích nội dung của bạn — không bao giờ.
+- Sử dụng LLM theo từng khu vực cụ thể, với tính minh bạch thời gian thực.
+- Không bao giờ huấn luyện hoặc phân tích nội dung của bạn.
 - Không truyền tải dữ liệu nếu tính năng diễn giải bị tắt.
 - Lưu trữ dữ liệu tùy chọn, luôn được giới hạn theo khu vực.
 - Công cụ kiểm toán và xuất dữ liệu đầy đủ cho khách hàng doanh nghiệp.

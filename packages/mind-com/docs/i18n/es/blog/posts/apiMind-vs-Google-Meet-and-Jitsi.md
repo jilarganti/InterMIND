@@ -49,7 +49,7 @@ Reconocemos abiertamente las áreas que necesitan trabajo:
 
 1. **Adaptación a ancho de banda bajo (200kbps)** — Actualmente experimentamos caídas de audio y degradación de FPS a ~5 FPS (Google Meet mantiene ~17 FPS)
 2. **Recuperación de calidad después de mejora de red** — El sistema no regresa consistentemente a la calidad original (50% de tasa de recuperación en pruebas)
-3. **Retrasos base** — Mayores retrasos de audio/video comparado con competidores en condiciones óptimas
+3. **Retrasos de línea base** — Mayores retrasos de audio/video comparado con competidores en condiciones óptimas
 
 ## Progreso año tras año: Mejoras medibles
 
@@ -58,24 +58,24 @@ Reconocemos abiertamente las áreas que necesitan trabajo:
 
 Comparando con los resultados de 2023, hemos logrado:
 
-- Mejor estabilidad durante condiciones de pérdida de paquetes
-- Calidad de video mejorada con 20% de pérdida de paquetes
+- Mayor estabilidad durante condiciones de pérdida de paquetes
+- Mejor calidad de video con 20% de pérdida de paquetes
 - Reducción del retraso de audio base
 - Mantenimiento más consistente de la velocidad de fotogramas
 
-## Por Qué Esto Importa para Nuestros Usuarios
+## Por qué esto importa para nuestros usuarios
 
-### Para Clientes Empresariales
+### Para clientes empresariales
 
 - **Resistencia en condiciones desafiantes**: Mantiene la calidad de conexión cuando el tiempo de red es inconsistente
 - **Rendimiento predecible**: Comportamiento consistente en diferentes escenarios de red
 
-### Para Educación
+### Para educación
 
 - **Maneja la inestabilidad de red**: Mejor rendimiento con jitter/latencia común en redes institucionales
 - **Mantiene la conexión**: Mantiene el video activo cuando otros podrían desconectarse
 
-### Para Equipos Remotos
+### Para equipos remotos
 
 - **Compatible con VPN**: Manejo superior de la latencia introducida por conexiones seguras
 - **Llamadas internacionales**: Mejor rendimiento en conexiones de larga distancia con latencia natural
@@ -84,7 +84,7 @@ Comparando con los resultados de 2023, hemos logrado:
 
 Nuestras prioridades de optimización reflejan los patrones de uso reales:
 
-- **apiMind** sobresale cuando el tiempo de red es inconsistente (jitter/latencia)
+- **apiMind** sobresale cuando el tiempo de red es inconsistente (fluctuación/latencia)
 - **Google Meet** funciona mejor con conexiones estables de alto ancho de banda
 - **Jitsi** ofrece flexibilidad de código abierto pero puede deshabilitar el video bajo estrés
 
@@ -117,4 +117,4 @@ _Investigación realizada por TestDevLab (Letonia) en julio de 2024. Metodologí
 
 ---
 
-**#apiMind #Videoconferencias #Benchmarking #TrabajoRemoto #InnovaciónTecnológica**
+**#apiMind #VideoConferencias #Benchmarking #TrabajoRemoto #InnovaciónTecnológica**

@@ -1,3 +1,8 @@
+---
+title: "Quản lý tài khoản"
+description: "Đăng ký và quản lý tài khoản InterMIND của bạn. Tìm hiểu cách đăng ký bằng Google, Microsoft hoặc email, cập nhật cài đặt hồ sơ và quản lý bảo mật."
+---
+
 # Quản lý tài khoản
 
 ## Đăng Ký
@@ -5,52 +10,52 @@
 Việc tạo tài khoản có thể được thực hiện thông qua ba phương pháp: sử dụng tài khoản Google hoặc Microsoft của bạn hoặc đăng ký bằng địa chỉ email bên ngoài.
 
 1. Để bắt đầu, truy cập [https://intermind.com](https://intermind.com)
-2. Nhấp vào nút **Đăng Nhập** ở góc trên bên phải của trang chủ
+2. Nhấp vào nút **Đăng Nhập** nằm ở góc trên bên phải của trang chủ
 3. Trên trang Đăng nhập vào tài khoản của bạn, bạn sẽ gặp các tùy chọn sau:
    - Nút Google và Microsoft, giúp truy cập nền tảng bằng tài khoản Google hoặc Microsoft hiện có của bạn
-   - Hộp kiểm 'Ghi nhớ tôi', cho phép bạn duy trì trạng thái đăng nhập trên thiết bị này
-   - Liên kết 'Quên Mật khẩu', có sẵn nếu bạn đã có tài khoản nhưng không nhớ mật khẩu
+   - Hộp kiểm 'Ghi nhớ tôi', cho phép bạn duy trì trạng thái đã đăng nhập trên thiết bị này
+   - Liên kết 'Quên Mật Khẩu', có sẵn nếu bạn đã có tài khoản nhưng không nhớ mật khẩu
    - Văn bản 'Hoặc đăng nhập bằng', theo sau là các trường Email và Mật khẩu để đăng nhập, nếu bạn đã có tài khoản
    - Văn bản 'Chưa có tài khoản?', theo sau là liên kết 'Đăng ký', cho phép bạn đăng ký bằng địa chỉ email bên ngoài
 
-### Đăng Ký bằng Tài Khoản Google
+### Đăng Ký Bằng Tài Khoản Google
 
 Phương pháp này được khuyến nghị để truy cập hiệu quả thông qua tài khoản Google, tạo điều kiện đồng bộ hóa liền mạch với Google Calendar. Trải nghiệm hiệu quả nhất có thể đạt được bằng cách sử dụng trình duyệt Google Chrome.
 
 1. Nhấp vào nút **Google**
 2. Một cửa sổ bật lên sẽ xuất hiện, nhắc bạn chọn tài khoản Google của mình
-3. Ủy quyền truy cập thông tin hồ sơ cơ bản của bạn bằng cách nhấp vào nút **Tiếp tục**
+3. Ủy quyền truy cập thông tin hồ sơ cơ bản của bạn bằng cách nhấp vào nút **Tiếp Tục**
 
 > [!WARNING]
 > Nếu bạn không muốn cấp quyền truy cập thông tin hồ sơ cơ bản của mình, hãy nhấp vào nút **Hủy**. Bạn sẽ được chuyển hướng trở lại trang Đăng nhập vào tài khoản của bạn, nơi bạn có thể đăng ký bằng địa chỉ email bên ngoài.
 
 4. Bạn sẽ được chuyển đến trang chính InterMIND của mình; không cần thiết lập thêm
 
-### Đăng Ký bằng Tài Khoản Microsoft
+### Đăng Ký Bằng Tài Khoản Microsoft
 
 Phương pháp này được khuyến nghị để có được quyền truy cập nhanh chóng bằng tài khoản Microsoft. Trải nghiệm tối ưu có thể đạt được bằng cách sử dụng trình duyệt Microsoft Edge.
 
 1. Nhấp vào nút **Microsoft**
 2. Một cửa sổ bật lên sẽ xuất hiện, nhắc bạn chọn tài khoản Microsoft của mình
-3. Ủy quyền truy cập thông tin hồ sơ cơ bản của bạn bằng cách nhấp vào nút **Tiếp tục**
+3. Ủy quyền truy cập thông tin hồ sơ cơ bản của bạn bằng cách nhấp vào nút **Tiếp Tục**
 
 > [!WARNING]
 > Nếu bạn không muốn cấp quyền truy cập thông tin hồ sơ cơ bản của mình, hãy nhấp vào nút **Hủy**. Bạn sẽ được chuyển hướng trở lại trang Đăng nhập vào tài khoản của bạn, nơi bạn có thể đăng ký bằng địa chỉ email bên ngoài.
 
 4. Bạn sẽ được chuyển đến trang chính InterMIND của mình; không cần thiết lập thêm
 
-### Đăng Ký bằng Địa Chỉ Email
+### Đăng Ký Bằng Địa Chỉ Email
 
 Sử dụng phương pháp này nếu bạn không có tài khoản Google hoặc muốn đăng ký bằng email riêng biệt.
 
 1. Nhấp vào liên kết **Đăng Ký** bên cạnh văn bản "Chưa có tài khoản?" bên dưới các trường đăng nhập
 2. Bạn sẽ được chuyển đến biểu mẫu Đăng ký, bao gồm các trường bắt buộc sau:
    - **Email**
-   - **Mật khẩu**
+   - **Mật Khẩu**
      - Tối thiểu 8 ký tự
      - Ít nhất 1 chữ cái viết hoa
      - Ít nhất 1 chữ số
-   - **Xác nhận Mật khẩu**
+   - **Xác Nhận Mật Khẩu**
    - **Tên**
    - **Họ**
 
@@ -65,7 +70,7 @@ Sử dụng phương pháp này nếu bạn không có tài khoản Google hoặ
 Nếu bạn quên mật khẩu, hãy làm theo các bước sau:
 
 1. Nhấp vào nút **Đăng Nhập** trên trang chủ
-2. Trên trang đăng nhập, nhấp vào **Quên Mật khẩu?**
+2. Trên trang đăng nhập, nhấp vào **Quên Mật Khẩu?**
 3. Nhập địa chỉ email đã đăng ký của bạn
 4. Bạn sẽ nhận được email với liên kết để đặt lại mật khẩu
 5. Làm theo hướng dẫn trong email để tạo mật khẩu mới
@@ -142,8 +147,8 @@ Trang hồ sơ được tổ chức thành bốn tab chính:
 
 **Gói hiện tại**
 
-- Hiển thị loại đăng ký đang hoạt động (ví dụ: Basic, Pro) và thời hạn hiệu lực
-- Người dùng Basic thấy nút **Nâng cấp gói**
+- Hiển thị loại đăng ký đang hoạt động (ví dụ: Cơ bản, Pro) và thời hạn hiệu lực
+- Người dùng Cơ bản thấy nút **Nâng cấp gói**
 - Người dùng Pro thấy nút **Hủy đăng ký**
 
 **Tùy chọn giao tiếp**
@@ -175,7 +180,7 @@ Hiển thị danh sách các hóa đơn đã phát hành với:
 - Trạng thái thanh toán (ví dụ: Đã thanh toán)
 
 > [!TIP]
-> Hóa đơn có thể được tải xuống để báo cáo hoặc lưu trữ hồ sơ.
+> Hóa đơn có thể được tải xuống để báo cáo hoặc lưu trữ.
 
 **Thanh toán**
 Hiển thị các giao dịch thanh toán bao gồm:
@@ -206,7 +211,7 @@ Chọn microphone, loa và camera, bật/tắt làm mờ nền.
 Chọn ngôn ngữ dịch mặc định và điều chỉnh âm lượng giọng nói gốc.
 
 - **Ngôn ngữ đích**: Chọn đầu ra dịch mặc định và ngôn ngữ giao diện
-- **Âm lượng gốc**: Điều chỉnh âm lượng giọng nói nền trong khi âm thanh đã dịch phát
+- **Âm lượng gốc**: Điều chỉnh âm lượng giọng nói nền khi âm thanh đã dịch phát
 
 **Khác**
 Đặt bố cục mặc định (ví dụ: thanh bên), nhà cung cấp trợ lý và tùy chọn tự động rời khi ở một mình.

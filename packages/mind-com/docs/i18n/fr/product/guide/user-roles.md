@@ -1,6 +1,11 @@
+---
+title: "Rôles des utilisateurs"
+description: "Comprendre les rôles des utilisateurs InterMIND - Hôte, Modérateur, Participant et Invité. Découvrez les permissions et capacités de chaque rôle."
+---
+
 # Rôles des utilisateurs
 
-InterMIND délimite quatre rôles d\'utilisateurs distincts, chacun méticuleusement conçu pour améliorer les expériences de réunion sécurisées, collaboratives et adaptables. Le rôle d\'Hôte est doté du plus haut niveau d\'autorité, tandis que les autres rôles offrent différents niveaux d\'interaction.
+InterMIND délimite quatre rôles d\'utilisateur distincts, chacun méticuleusement conçu pour améliorer les expériences de réunion sécurisées, collaboratives et adaptables. Le rôle d\'Hôte est doté du plus haut niveau d\'autorité, tandis que les autres rôles offrent différents niveaux d\'interaction.
 
 ## Hôte
 
@@ -12,7 +17,7 @@ L'Hôte est responsable de l'initiation de la réunion et possède des privilèg
 - Couper le son de n'importe quel participant
 - Promouvoir ou rétrograder les modérateurs
 - Démarrer et arrêter les enregistrements
-  - Cela englobe tous les enregistrements initiés par le Modérateur
+  - Cela inclut tous les enregistrements initiés par le Modérateur
 - Supprimer n'importe quel participant de l'appel
 - Admettre ou refuser les invités
 - Accéder à l'historique des réunions
@@ -36,21 +41,21 @@ Les modérateurs sont désignés par l\'Hôte pour aider à gérer efficacement 
 - Accéder aux transcriptions et à l\'historique des réunions
 - Promouvoir ou rétrograder d\'autres modérateurs
 
-## Participant (Utilisateur autorisé)
+## Participant (Utilisateur Autorisé)
 
 Les participants autorisés sont des utilisateurs connectés qui rejoignent la réunion sans privilèges spéciaux.
 
 **Capacités principales :**
 
-- Couper ou activer leur propre microphone
+- Activer ou désactiver leur propre microphone
 - Activer ou désactiver leur propre caméra
 - Partager leur écran (navigateur de bureau)
 - Utiliser l\'Assistant IA (pour leur propre vue)
-- Utiliser le Traducteur vocal en ligne et changer de langue (pour leur propre audio)
+- Utiliser le Traducteur Vocal en Ligne et changer de langue (pour leur propre audio)
 - Modifier la disposition personnelle et les paramètres
 - Accéder au chat, lever la main, aux transcriptions et à l\'historique des réunions
 
-## Invité (Utilisateur anonyme)
+## Invité (Utilisateur Anonyme)
 
 Les invités sont des utilisateurs qui rejoignent la réunion sans se connecter.
 
@@ -58,7 +63,7 @@ Les invités sont des utilisateurs qui rejoignent la réunion sans se connecter.
 
 - Utiliser leur propre microphone et caméra
 - Partager leur écran (navigateur de bureau)
-- Utiliser le traducteur vocal en ligne et changer de langue (pour leur propre audio)
+- Utiliser le Traducteur Vocal en Ligne et changer de langue (pour leur propre audio)
 - Utiliser les options de mise en page et d\'affichage (personnel uniquement)
 - Participer au chat et lever la main
 

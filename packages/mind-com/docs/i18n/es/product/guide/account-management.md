@@ -1,6 +1,11 @@
+---
+title: "Gestión de cuenta"
+description: "Regístrate y administra tu cuenta de InterMIND. Aprende cómo registrarte con Google, Microsoft o correo electrónico, actualizar la configuración del perfil y gestionar la seguridad."
+---
+
 # Gestión de cuenta
 
-## Registro
+## Registrarse
 
 Crear una cuenta se puede lograr a través de tres métodos: utilizando tus cuentas de Google o Microsoft o registrándote con una dirección de correo electrónico externa.
 
@@ -44,7 +49,7 @@ Este método es recomendable para obtener acceso rápido usando una cuenta de Mi
 Usa este método si no tienes una cuenta de Google o prefieres registrarte con un correo electrónico separado.
 
 1. Haz clic en el enlace **Registrarse** junto al texto "¿No tienes una cuenta?" debajo de los campos de inicio de sesión
-2. Serás dirigido al formulario de Registro, que incluye los siguientes campos requeridos:
+2. Serás dirigido al formulario de Registro, que incluye los siguientes campos obligatorios:
    - **Correo Electrónico**
    - **Contraseña**
      - Un mínimo de 8 caracteres

@@ -1,6 +1,11 @@
+---
+title: "Visão geral da interface de reunião"
+description: "Explore a interface intuitiva de reuniões do InterMIND. Aprenda sobre layout de vídeo, controles da barra de ferramentas, interações entre participantes e opções de personalização."
+---
+
 # Visão geral da interface de reunião
 
-A interface InterMIND foi projetada com cuidadosa consideração pela limpeza, intuitividade e acessibilidade. Esta seção delineia os elementos-chave visíveis durante uma reunião ao vivo e fornece orientação sobre como os usuários podem interagir com eles de forma eficaz.
+A interface do InterMIND foi projetada com cuidadosa consideração pela limpeza, intuitividade e acessibilidade. Esta seção delineia os elementos-chave visíveis durante uma reunião ao vivo e fornece orientação sobre como os usuários podem interagir com eles de forma eficaz.
 
 ## Layout da Interface Principal
 
@@ -16,7 +21,7 @@ Ao participar de uma reunião—seja como Anfitrião, Moderador, Participante ou
 Nas Configurações, os usuários podem:
 
 - Selecionar seus dispositivos de microfone, alto-falante e câmera para garantir qualidade de áudio e vídeo ideal
-- Alternar entre layout em Grade ou Barra lateral para acomodar suas preferências
+- Alternar entre o layout em Grade ou Barra lateral para acomodar suas preferências
 - Ativar ou desativar o Desfoque de fundo para privacidade durante a reunião
 - Alterar o idioma do Tradutor para facilitar a comunicação entre participantes que falam idiomas diferentes
 
@@ -29,7 +34,7 @@ Os participantes podem se envolver ativamente na reunião usando várias ferrame
 - **Chat**: Os participantes podem enviar mensagens para todos os presentes durante a chamada usando o painel lateral, promovendo comunicação e colaboração
 - **Fixar / Não Assistir**: Os usuários podem personalizar sua visualização fixando participantes específicos ou ocultando-os de seu layout pessoal, adaptando sua experiência de reunião
 
-## Ícones e funções da barra de ferramentas inferior
+## Ícones e Funções da Barra de Ferramentas Inferior
 
 | Ícone/Botão           | Descrição                                                                                                                                                                                                           |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

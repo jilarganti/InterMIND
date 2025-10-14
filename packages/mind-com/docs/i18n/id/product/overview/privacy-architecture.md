@@ -1,3 +1,8 @@
+---
+title: "Privasi Data untuk Pertemuan AI"
+description: "Arsitektur privasi transparan InterMIND dengan kerahasiaan berbasis wilayah, kepatuhan GDPR, dan pilihan pengguna untuk lokasi pemrosesan data."
+---
+
 # Privasi Data untuk Pertemuan AI
 
 ## Pengantar
@@ -19,7 +24,7 @@ Inilah mengapa kami merancang InterMind dengan **kerahasiaan berbasis wilayah**:
 
 - InterMind **tidak memiliki atau mengoperasikan** infrastruktur cloud yang mendasari atau LLM (large language models).
 - Kami tidak menyimpan file media Anda, dan kami juga tidak memproses ucapan Anda secara langsung untuk pelatihan model.
-- Kami **mengendalikan** perangkat lunak sisi klien, aturan routing, dan logika kepatuhan — termasuk wilayah mana yang dilalui data Anda, model apa yang digunakan, dan dalam kondisi apa.
+- Kami **mengendalikan** perangkat lunak sisi klien, aturan perutean, dan logika kepatuhan — termasuk wilayah mana yang dilalui data Anda, model apa yang digunakan, dan dalam kondisi apa.
 
 ### 2. **Transparansi Arsitektur**
 
@@ -34,7 +39,7 @@ Inilah mengapa kami merancang InterMind dengan **kerahasiaan berbasis wilayah**:
 
 ## Kerahasiaan Berbasis Wilayah: Cara Kerjanya
 
-Pada awal setiap sesi, atau sebagai bagian dari pengaturan akun organisasi Anda, Anda dapat memilih zona privasi yang diinginkan:
+Di awal setiap sesi, atau sebagai bagian dari pengaturan akun organisasi Anda, Anda dapat memilih zona privasi yang diinginkan:
 
 | Wilayah       | Hukum yang Berlaku                                                                            | Infrastruktur                  | Penyedia LLM               |
 | ------------- | --------------------------------------------------------------------------------------------- | ------------------------------ | -------------------------- |
@@ -75,9 +80,9 @@ Kami tidak menyimpan rapat, transkrip, atau percakapan Anda kecuali Anda memilih
 
 InterMind mendukung kompatibilitas penuh dengan:
 
-- **GDPR** — Hak untuk mengakses, penghapusan, ekspor, dan pembatasan pemrosesan. Tanpa profiling AI.
+- **GDPR** — Hak untuk mengakses, penghapusan, ekspor, dan pembatasan pemrosesan. Tidak ada profiling AI.
 - **CCPA** — Tidak ada penjualan data pribadi, opsi keluar, dan praktik pengumpulan yang transparan.
-- **UAE PDPL** — Penyimpanan lokal jika diminta, kontrol akses ketat, tidak ada transfer internasional tanpa persetujuan.
+- **UAE PDPL** — Penyimpanan lokal jika diminta, kontrol akses yang ketat, tidak ada transfer internasional tanpa persetujuan.
 - **China DSL/PIPL** — Pemrosesan di dalam wilayah saja, tidak ada routing asing jika China dipilih.
 
 ## Apa yang Dapat dan Tidak Dapat Kami Jamin
@@ -105,12 +110,12 @@ Anda dapat menyesuaikan sesi Anda agar sesuai dengan kebutuhan kerahasiaan Anda:
 | Mode Kepercayaan | Interpretasi | Transfer Lintas Wilayah | Penyimpanan        | Terbaik Untuk                       |
 | ---------------- | ------------ | ----------------------- | ------------------ | ----------------------------------- |
 | 🔒 Lokal Saja    | ❌           | ❌                      | ❌                 | Hukum, pemerintah, tinjauan internal |
-| 🔐 Terkunci Wilayah | ✅        | ✅ (hanya dalam zona)   | ❌ atau sesi saja  | Kesehatan, keuangan, SDM            |
+| 🔐 Terkunci Wilayah | ✅        | ✅ (dalam zona saja)    | ❌ atau sesi saja  | Kesehatan, keuangan, SDM            |
 | 🌐 Fleksibel Global | ✅        | ✅ (multi-wilayah)      | ✅                 | Dukungan, penjualan, tim multinasional |
 
 ## Apa yang Anda Dapatkan Secara Langsung
 
-- Penggunaan LLM khusus wilayah, dengan transparansi real-time.
+- Penggunaan LLM spesifik wilayah, dengan transparansi real-time.
 - Tidak ada pelatihan atau profiling konten Anda — selamanya.
 - Nol transmisi data jika interpretasi dimatikan.
 - Penyimpanan data opsional, selalu terikat wilayah.

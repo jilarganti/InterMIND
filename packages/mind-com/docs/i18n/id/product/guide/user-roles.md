@@ -1,6 +1,11 @@
+---
+title: "Peran Pengguna"
+description: "Memahami peran pengguna InterMIND - Host, Moderator, Peserta, dan Tamu. Pelajari tentang izin dan kemampuan untuk setiap peran."
+---
+
 # Peran Pengguna
 
-InterMIND menguraikan empat peran pengguna yang berbeda, masing-masing dirancang dengan cermat untuk meningkatkan pengalaman rapat yang aman, kolaboratif, dan adaptif. Peran Host diberkahi dengan tingkat otoritas tertinggi, sementara peran lainnya menawarkan berbagai tingkat interaksi.
+InterMIND menguraikan empat peran pengguna yang berbeda, masing-masing dirancang dengan cermat untuk meningkatkan pengalaman rapat yang aman, kolaboratif, dan dapat beradaptasi. Peran Host diberkahi dengan tingkat otoritas tertinggi, sementara peran lainnya menawarkan berbagai tingkat interaksi.
 
 ## Host
 
@@ -16,7 +21,7 @@ Host bertanggung jawab untuk memulai rapat dan memiliki hak administratif yang k
 - Mengeluarkan peserta mana pun dari panggilan
 - Mengizinkan atau menolak tamu
 - Mengakses riwayat rapat
-- Menggunakan fitur AI apa pun
+- Memanfaatkan fitur AI apa pun
 - Menyesuaikan pengaturan pribadi, tata letak, blur, dan opsi tampilan
 
 ## Moderator
@@ -70,9 +75,9 @@ Tamu adalah pengguna yang bergabung dalam rapat tanpa masuk ke akun.
 | Fitur                          | Host  | Moderator | Peserta     | Tamu  |
 | ------------------------------ | ----- | --------- | ----------- | ----- |
 | Memulai Rapat                  | ✅    | ❌        | ❌          | ❌    |
-| Bisukan Peserta Mana Pun      | ✅    | ✅        | ❌          | ❌    |
-| Buka Bisu Peserta Mana Pun    | ❌    | ❌        | ❌          | ❌    |
-| Bisu/Buka Bisu Mikrofon Sendiri | ✅    | ✅        | ✅          | ✅    |
+| Bisukan Peserta Mana Pun       | ✅    | ✅        | ❌          | ❌    |
+| Buka Bisu Peserta Mana Pun     | ❌    | ❌        | ❌          | ❌    |
+| Bisu/Buka Bisu Mikrofon Sendiri| ✅    | ✅        | ✅          | ✅    |
 | Aktifkan/Nonaktifkan Kamera Sendiri | ✅    | ✅        | ✅          | ✅    |
 | Mulai/Hentikan Perekaman       | ✅    | ✅        | ❌          | ❌    |
 | Berbagi Layar (Desktop)        | ✅    | ✅        | ✅          | ✅    |

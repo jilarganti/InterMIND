@@ -1,6 +1,11 @@
+---
+title: "Onde a necessidade do InterMind é maior?"
+description: "Descubra os mercados prioritários para o InterMIND, desde centros de manufatura globais até a UE multilíngue. Veja onde as barreiras linguísticas custam mais nos negócios."
+---
+
 # Onde a necessidade do InterMind é maior?
 
-O InterMind remove a barreira do idioma das negociações empresariais.
+O InterMind remove a barreira linguística das negociações comerciais.
 A tabela abaixo destaca os mercados onde a falha de comunicação é mais custosa e os intérpretes profissionais são escassos ou caros.
 
 ## Mercados Prioritários

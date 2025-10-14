@@ -1,6 +1,11 @@
+---
+title: "Pemecahan Masalah"
+description: "Perbaiki masalah umum InterMIND dengan mikrofon, kamera, penerjemah, berbagi layar, dan perekaman. Solusi untuk rapat online yang lancar."
+---
+
 # Pemecahan Masalah
 
-Bagian ini menyediakan solusi untuk masalah umum yang dihadapi selama rapat online, termasuk masalah dengan mikrofon, kamera, bergabung dalam rapat, menggunakan asisten suara, penerjemah, berbagi layar, dan perekaman. Ini menguraikan penyebab potensial untuk setiap masalah dan menawarkan solusi praktis untuk menyelesaikannya, memastikan pengalaman rapat online yang lebih lancar.
+Bagian ini menyediakan solusi untuk masalah umum yang ditemui selama rapat online, termasuk masalah dengan mikrofon, kamera, bergabung dalam rapat, menggunakan asisten suara, penerjemah, berbagi layar, dan perekaman. Ini menguraikan penyebab potensial untuk setiap masalah dan menawarkan solusi praktis untuk menyelesaikannya, memastikan pengalaman rapat online yang lebih lancar.
 
 ## Mikrofon atau Kamera Tidak Berfungsi
 

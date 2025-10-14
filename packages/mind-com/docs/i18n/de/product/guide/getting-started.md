@@ -1,16 +1,21 @@
+---
+title: "Erste Schritte"
+description: "Erfahren Sie, wie Sie die KI-gestützte Videokonferenz-Plattform InterMIND nutzen. Vollständiger Leitfaden für Registrierung, Meeting-Erstellung, KI-Funktionen und Fehlerbehebung."
+---
+
 # Erste Schritte
 
-InterMIND ist eine fortschrittliche KI-gestützte Videokonferenzplattform, die entwickelt wurde, um nahtlose Kommunikation über verschiedene Sprachen, Geräte und Teams hinweg zu ermöglichen. Dieser Leitfaden zielt darauf ab, Ihnen ein umfassendes Verständnis dafür zu vermitteln, wie Sie alle Funktionen von InterMIND effektiv nutzen können — vom Beitritt zu Ihrem ersten Meeting bis zur Konfiguration von KI-Tools und der Behebung technischer Probleme.
+InterMIND ist eine fortschrittliche KI-gestützte Videokonferenz-Plattform, die entwickelt wurde, um nahtlose Kommunikation über verschiedene Sprachen, Geräte und Teams hinweg zu ermöglichen. Dieser Leitfaden zielt darauf ab, Ihnen ein umfassendes Verständnis dafür zu vermitteln, wie Sie alle Funktionen von InterMIND effektiv nutzen können — von der Teilnahme an Ihrem ersten Meeting bis zur Konfiguration von KI-Tools und der Behebung technischer Probleme.
 
 Ob Sie ein Anfänger sind, der detaillierte Anleitung sucht, oder ein erfahrener Teilnehmer, der komplexe Meetings leitet, dieser Leitfaden fasst alle notwendigen Informationen an einem zugänglichen Ort zusammen.
 
 In diesem Leitfaden werden Sie entdecken:
 
 - Anweisungen zur Registrierung, Anmeldung und Anpassung Ihres Profils
-- Richtlinien für das Erstellen und Planen von Meetings
+- Richtlinien für die Erstellung und Planung von Meetings
 - Informationen zu Benutzerrollen, Berechtigungen und Echtzeit-Übersetzungsfunktionen
 - Eine Übersicht über KI-gestützte Funktionen wie den KI-Assistenten und Voice Translator
-- Fehlerbehebungstipps und Antworten auf häufig gestellte Fragen
+- Tipps zur Fehlerbehebung und Antworten auf häufig gestellte Fragen
 
 Lassen Sie uns beginnen — die Zukunft intelligenter Meetings beginnt jetzt.
 
@@ -21,7 +26,7 @@ Wenn Sie neu bei InterMIND sind, folgen Sie dieser einfachen Checkliste, um Ihre
 1. Besuchen Sie https://intermind.com
 2. Klicken Sie auf Anmelden und wählen Sie Google / Microsoft / E-Mail
 3. Wenn Sie dazu aufgefordert werden, erlauben Sie den Zugriff auf Ihr Mikrofon und Ihre Kamera
-4. Klicken Sie auf Neues Meeting und wählen Sie Ein Sofort-Meeting starten
+4. Klicken Sie auf Neues Meeting und wählen Sie Ein Sofortmeeting starten
 5. Teilen Sie den Meeting-Link mit den Teilnehmern
 6. Öffnen Sie die Einstellungen, um Ihre bevorzugte Sprache und Geräte auszuwählen
 7. Verwenden Sie den KI-Assistenten, um Notizen zu machen und Zusammenfassungen während Ihres Anrufs zu erstellen
@@ -35,7 +40,7 @@ Wenn Sie neu bei InterMIND sind, folgen Sie dieser einfachen Checkliste, um Ihre
 InterMIND ist eine mehrsprachige Plattform, die darauf ausgelegt ist, eine Vielzahl von Sprachen für ihre Benutzeroberfläche, den Sprachübersetzer und den KI-Assistenten zu unterstützen. Benutzer können die Spracheinstellungen über verschiedene Methoden ändern:
 
 - Der Sprachumschalter befindet sich im Seitenkopf, neben der Anmelde-Schaltfläche für nicht autorisierte Benutzer oder in der Nähe des Avatar-Symbols für autorisierte Benutzer
-- Der Sprachumschalter in der Seitenfußzeile neben dem Text '© Mind, 2025.'
+- Der Sprachumschalter im Seitenfuß neben dem Text '© Mind, 2025.'
 - Darüber hinaus können Benutzer die Sprache über die Option 'Benutzerprofil > Einstellungen > Ihre Sprache' ändern oder während eines Meetings über 'Menü anzeigen > Einstellungen > Einstellungen > Ihre Sprache'
 
 Nachfolgend finden Sie die Liste der verfügbaren Sprachen in InterMIND:
@@ -76,8 +81,8 @@ Benutzer können direkt über ihren Browser auf die Plattform zugreifen, ohne da
 
 1. Öffnen Sie Ihren Webbrowser
 2. Besuchen Sie https://intermind.com
-3. Melden Sie sich an oder treten Sie einem Meeting-Link direkt als Gast bei
-4. Erteilen Sie Kamera- und Mikrofonberechtigungen, wenn Sie dazu aufgefordert werden
+3. Melden Sie sich an oder treten Sie direkt als Gast über einen Meeting-Link bei
+4. Gewähren Sie Kamera- und Mikrofonberechtigungen, wenn Sie dazu aufgefordert werden
 
 > [!WARNING]
 > Einige erweiterte Funktionen, wie die Bildschirmfreigabe, können aufgrund von Systembeschränkungen auf bestimmte Browser beschränkt sein.

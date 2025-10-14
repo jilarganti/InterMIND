@@ -1,3 +1,8 @@
+---
+title: "Khắc phục sự cố"
+description: "Khắc phục các vấn đề thường gặp của InterMIND với microphone, camera, trình dịch, chia sẻ màn hình và ghi âm. Giải pháp cho các cuộc họp trực tuyến mượt mà."
+---
+
 # Khắc phục sự cố
 
 Phần này cung cấp các giải pháp cho những vấn đề thường gặp trong các cuộc họp trực tuyến, bao gồm các vấn đề với microphone, camera, tham gia cuộc họp, sử dụng trợ lý giọng nói, trình dịch, chia sẻ màn hình và ghi âm. Nó nêu ra các nguyên nhân tiềm ẩn cho từng vấn đề và đưa ra các giải pháp thực tế để giải quyết chúng, đảm bảo trải nghiệm cuộc họp trực tuyến mượt mà hơn.
@@ -16,7 +21,7 @@ Phần này cung cấp các giải pháp cho những vấn đề thường gặp
 - Điều hướng đến Settings > Microphone/Camera và chọn thiết bị chính xác
 - Đóng các ứng dụng như Zoom, Skype, v.v.
 
-## Không thể tham gia cuộc họp
+## Không Thể Tham Gia Cuộc Họp
 
 ### Nguyên nhân:
 
@@ -24,7 +29,7 @@ Phần này cung cấp các giải pháp cho những vấn đề thường gặp
 
 ### Giải pháp:
 
-- Xác minh tính chính xác của liên kết và xác nhận với Chủ tổ chức
+- Xác minh tính chính xác của liên kết và xác nhận với Người chủ trì
 - Làm mới trình duyệt của bạn và thử lại
 
 ## Trình dịch không hoạt động
@@ -40,19 +45,19 @@ Phần này cung cấp các giải pháp cho những vấn đề thường gặp
 
 - Chọn ngôn ngữ ưa thích của bạn trong Cài đặt > Ngôn ngữ
 - Tham gia lại hoặc làm mới trang cuộc họp
-- Đảm bảo quyền truy cập microphone được cấp và kích hoạt
+- Đảm bảo quyền truy cập microphone được cấp và bật
 
 ## Tiếng vang hoặc phản hồi âm thanh
 
 ### Nguyên nhân phổ biến:
 
-- Micro mở kết hợp với loa
+- Microphone mở kết hợp với loa
 - Nhiều người dùng trong cùng một phòng
 
 ### Giải pháp:
 
 - Sử dụng tai nghe
-- Tắt tiếng các thiết bị/micro khác
+- Tắt tiếng các thiết bị/microphone khác
 - Người chủ trì/Người điều hành có thể tắt tiếng tất cả người tham gia
 
 ## "Bạn Đã Bị Loại Khỏi Cuộc Gọi"

@@ -1,22 +1,27 @@
-# AI Özellikleri
+---
+title: "Yapay Zeka Özellikleri"
+description: "InterMIND'ın Sesli Asistan (Jarvis), gerçek zamanlı sesli çeviri ve toplantı notları ile özetler için Yapay Zeka Asistanı dahil olmak üzere yapay zeka destekli özelliklerini keşfedin."
+---
 
-Bu bölüm, toplantılar sırasında kullanılabilen Sesli Asistan (Jarvis), Çevrimiçi Sesli Çeviri ve AI Asistanı'nın işlevlerini açıklamaktadır.
+# Yapay Zeka Özellikleri
 
-## Çevrimiçi Ses Çevirisi
+Bu bölüm, toplantılar sırasında kullanılabilen Sesli Asistan (Jarvis), Çevrimiçi Sesli Çeviri ve Yapay Zeka Asistanı'nın işlevlerini açıklamaktadır.
+
+## Çevrimiçi Sesli Çeviri
 
 Bu işlevsellik, etkinleştiren katılımcılar için gerçek zamanlı çeviriler sağlar ve toplantıdaki diğer katılımcıların deneyiminin etkilenmemesini garanti eder. Ayrıca, kullanıcılar Ayarlar paneli aracılığıyla istediği anda çeviri dilini değiştirme esnekliğine sahiptir.
 
-Ses çeviricisi toplantıya girildiğinde otomatik olarak etkinleştirilir; ancak çeviri işlemi yalnızca katılımcıların arayüz ve çeviri dilleri farklıysa başlar. Tüm katılımcıların aynı dili seçtiği durumlarda çeviri yapılmaz.
+Sesli çevirmen toplantıya girildiğinde otomatik olarak etkinleştirilir; ancak çeviri işlemi yalnızca katılımcıların arayüz ve çeviri dilleri farklıysa başlar. Tüm katılımcıların aynı dili seçtiği durumlarda çeviri yapılmaz.
 
-Bir katılımcı arayüz ve çeviri dilini değiştirdiğinde, diğer tüm katılımcılar toplantı ayarlarında seçtikleri dilde çeviriyi duymaya başlar.
+Bir katılımcı arayüz ve çeviri dilini değiştirdiğinde, diğer tüm katılımcılar toplantı ayarlarında seçtikleri dilde çeviriyi duymaya başlarlar.
 
-Ek olarak, katılımcılar toplantı ayarları aracılığıyla diğer katılımcılardan gelen orijinal sesin sesini ayarlama seçeneğine sahiptir ve bu sayede yalnızca çeviriye odaklanabilirler.
+Ek olarak, katılımcılar toplantı ayarları aracılığıyla diğer katılımcılardan gelen orijinal sesin seviyesini ayarlayabilir ve böylece yalnızca çeviriye odaklanabilirler.
 
 ### Temel Özellikler
 
-- Seçilen dilde gerçek zamanlı ses dublajı
+- Seçilen dilde gerçek zamanlı sesli dublaj
 - Kişisel çeviri ayarları (diğer katılımcıları etkilemez)
-- Ayarlar paneli aracılığıyla istediği zaman çeviri dilini değiştirme imkanı
+- Ayarlar paneli aracılığıyla istediği anda çeviri dilini değiştirme imkanı
 - Tüm katılımcı türleri için kullanılabilir (Ev Sahibi, Moderatör, Katılımcı, Misafir)
 
 ### Nasıl Etkinleştirilir
@@ -54,7 +59,7 @@ Kullanıcılar şu gibi istemler kullanabilir:
 - "Son 10 dakikayı özetle"
 - "John bütçe hakkında ne dedi?"
 - "Bu toplantıdan çıkan ana eylem öğeleri neler?"
-- "Proje için son teslim tarihini kim belirtti?"
+- "Proje için son tarihi kim belirtti?"
 
 ### Erişim Gereksinimleri
 

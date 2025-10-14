@@ -1,20 +1,25 @@
+---
+title: "Bảng giá"
+description: "So sánh các gói InterMIND - Basic, Pro và Business. Tìm gói phù hợp với giới hạn cuộc họp, sức chứa người tham gia, tính năng AI và tùy chọn lưu trữ."
+---
+
 # Bảng giá
 
-Trang Bảng giá cung cấp so sánh rõ ràng về tất cả các gói có sẵn—Cơ bản, Pro và Doanh nghiệp—giúp người dùng chọn lựa tùy chọn tốt nhất cho nhu cầu giao tiếp của họ. Trang bao gồm chi tiết về giá cả, giới hạn cuộc họp, sức chứa người tham gia, dung lượng lưu trữ và quyền truy cập vào các tính năng cao cấp như Voice Assistant, AI Assistant và dịch vụ phiên dịch.
+Trang Bảng giá cung cấp so sánh rõ ràng về tất cả các gói có sẵn—Basic, Pro và Business—giúp người dùng chọn lựa tùy chọn tốt nhất cho nhu cầu giao tiếp của họ. Trang bao gồm chi tiết về giá cả, giới hạn cuộc họp, sức chứa người tham gia, dung lượng lưu trữ và quyền truy cập vào các tính năng cao cấp như Voice Assistant, AI Assistant và dịch vụ phiên dịch.
 
-## Truy cập trang Bảng giá
+## Truy cập trang định giá
 
-### Từ Menu người dùng
+### Từ menu người dùng
 
 - Nhấp vào biểu tượng avatar ở góc trên bên phải
 - Chọn **Pricing** từ menu thả xuống
 
-### Từ trang Hồ sơ (dành cho người dùng gói Basic)
+### Từ trang hồ sơ (dành cho người dùng gói Basic)
 
 - Điều hướng đến Profile > tab Profile
 - Nhấp vào nút **Upgrade Plan** nằm dưới gói hiện tại của bạn
 
-### Từ Header trang
+### Từ header trang
 
 - Người dùng đã được ủy quyền nên nhấp vào liên kết **Pricing** nằm cạnh liên kết History
 - Người dùng chưa được ủy quyền có thể tìm thấy liên kết **Pricing** gần biểu tượng 'Report a Problem'
@@ -37,7 +42,7 @@ Trang Bảng giá bao gồm ba cấp độ:
 
 - Chuyển đổi giữa **Hàng tháng** và **Hàng năm** để bật giá ưu đãi cho gói Pro
 - Nút **Gói hiện tại** hiển thị gói đang hoạt động
-- Nút **Liên hệ với chúng tôi** cho phép khách hàng Doanh nghiệp yêu cầu giải pháp phù hợp
+- Nút **Liên hệ với chúng tôi** cho phép khách hàng Doanh nghiệp yêu cầu giải pháp tùy chỉnh
 
 > [!TIP]
 > Nâng cấp gói có hiệu lực ngay lập tức và áp dụng giới hạn tính năng nâng cao tương ứng.
@@ -58,7 +63,7 @@ Trang Bảng giá bao gồm ba cấp độ:
 ## Ghi chú quan trọng
 
 - Bất kỳ nâng cấp và hạ cấp gói nào sẽ được phản ánh ngay lập tức
-- Chu kỳ thanh toán và hạn mức sẽ được đặt lại theo gói đã chọn
-- Hạn mức về số lượng cuộc họp, người tham gia và dung lượng lưu trữ trên mỗi người dùng sẽ được áp dụng dựa trên gói đang hoạt động
-- Vượt quá bất kỳ hạn mức nào sẽ kích hoạt thông báo rõ ràng cùng với nút **Nâng cấp gói**
+- Chu kỳ thanh toán và hạn ngạch sẽ được đặt lại theo gói đã chọn
+- Hạn ngạch về số lượng cuộc họp, người tham gia và dung lượng lưu trữ trên mỗi người dùng sẽ được áp dụng dựa trên gói đang hoạt động
+- Vượt quá bất kỳ hạn ngạch nào sẽ kích hoạt thông báo rõ ràng cùng với nút **Nâng cấp gói**
 - Người dùng có thể truy cập lịch sử thanh toán và hóa đơn trong phần Thanh toán

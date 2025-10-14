@@ -1,11 +1,16 @@
+---
+title: "Häufig gestellte Fragen (FAQ)"
+description: "Erhalten Sie Antworten auf häufige Fragen zu InterMIND. Erfahren Sie mehr über Konten, Meetings, KI-Assistent, Übersetzungsfunktionen und Gerätekompatibilität."
+---
+
 # Häufig gestellte Fragen (FAQ)
 
-Der FAQ-Bereich bietet wichtige Informationen über InterMIND und behandelt Themen wie Konten und Zugang, Erstellung und Aufzeichnung von Meetings, die Funktionen des KI-Assistenten, Übersetzungsfeatures, Chat-Teilnahme und Geräteeinstellungen. Er beantwortet häufige Fragen bezüglich Gastzugang, Terminplanung für Meetings, Verwendung des KI-Assistenten, Sprachübersetzung, Chat-Funktionalitäten und Gerätekompatibilität.
+Der FAQ-Bereich bietet wichtige Informationen über InterMIND und behandelt Themen wie Konten und Zugang, Meeting-Erstellung und -Aufzeichnung, die Funktionen des KI-Assistenten, Übersetzungsfeatures, Chat-Teilnahme und Geräteeinstellungen. Er beantwortet häufige Fragen bezüglich Gastzugang, Meeting-Planung, Verwendung des KI-Assistenten, Sprachübersetzung, Chat-Funktionalitäten und Gerätekompatibilität.
 
 ## Zugang
 
 **Muss ich mich anmelden, um an einem Meeting teilzunehmen?**
-Nein, Gäste können über einen Meeting-Link teilnehmen, ohne sich anzumelden; allerdings ist ihr Zugang eingeschränkt (z.B. kein KI-Assistent oder Meeting-Verlauf).
+Nein, Gäste können über einen Meeting-Link beitreten, ohne sich anzumelden; allerdings ist ihr Zugang eingeschränkt (z.B. kein KI-Assistent oder Meeting-Verlauf).
 
 **Kann ich ein Google- oder Microsoft-Konto zur Anmeldung verwenden?**
 Ja, Sie können sich ganz einfach mit nur einem Klick über Ihr Google- oder Microsoft-Konto registrieren oder anmelden.

@@ -1,4 +1,9 @@
-# Yapay zeka gerçek zamanlı çevirisi nasıl çalışır
+---
+title: "Yapay Zeka Gerçek Zamanlı Çeviri Nasıl Çalışır"
+description: "InterMIND'ın anlık çift yönlü çevirisinin konuşma tanıma, sinir ağı çevirisi ve ses sentezi ile kesintisiz iletişim için nasıl çalıştığını öğrenin."
+---
+
+# Yapay Zeka Gerçek Zamanlı Çeviri Nasıl Çalışır
 
 ## Kendi Dilinizde Konuşun ve Dinleyin
 
@@ -13,7 +18,7 @@ InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcıl
 
 ### 1. **Konuşma Tanıma (Konuşmadan Metne)**
 
-- Transformer modelleri kullanarak akış halinde tanıma
+- Transformer modelleri kullanarak akış tanıma
 - Gürültü ve arka plan seslerini işleme
 - Teknik terminoloji ve jargon desteği
 - Tanıma doğruluğu: Ana diller için **%95-98**
@@ -84,7 +89,7 @@ Tüm bunlar **3 saniyenin altında gecikme** ile gerçekleşir — profesyonel s
 
 ### Teknik Mimari
 
-Tüm ses/video yönlendirmesi, şunları sağlamak için şirket içinde geliştirilen özel Mind API'miz aracılığıyla gerçekleştirilir:
+Tüm ses/video yönlendirmesi, aşağıdakileri sağlamak için şirket içinde geliştirilen özel Mind API'miz aracılığıyla gerçekleştirilir:
 
 - **Performans**: 1000+ paralel akış işleme
 - **Veri egemenliği**: seçilen bölgede depolama

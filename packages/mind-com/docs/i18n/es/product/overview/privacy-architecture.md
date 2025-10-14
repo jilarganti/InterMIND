@@ -1,3 +1,8 @@
+---
+title: "Privacidad de datos para reuniones con IA"
+description: "Arquitectura de privacidad transparente de InterMIND con confidencialidad basada en regiones, cumplimiento GDPR y elección del usuario para ubicaciones de procesamiento de datos."
+---
+
 # Privacidad de datos para reuniones con IA
 
 ## Introducción
@@ -15,7 +20,7 @@ Por eso diseñamos InterMind con **confidencialidad basada en regiones**: tú el
 
 ## Principios fundamentales de privacidad
 
-### 1. **Modelo de responsabilidad dividida**
+### 1. **Modelo de responsabilidad compartida**
 
 - InterMind **no posee ni opera** la infraestructura de nube subyacente o los LLMs (modelos de lenguaje grandes).
 - No almacenamos tus archivos multimedia, ni procesamos directamente tu voz para el entrenamiento de modelos.
@@ -32,11 +37,11 @@ Por eso diseñamos InterMind con **confidencialidad basada en regiones**: tú el
 - No conservamos transcripciones o multimedia a menos que lo solicites explícitamente.
 - Si desactivas la interpretación, **ningún dato del usuario sale de tu dispositivo en absoluto**.
 
-## Confidencialidad basada en regiones: Cómo funciona
+## Confidencialidad Basada en Regiones: Cómo Funciona
 
 Al inicio de cada sesión, o como parte de la configuración de la cuenta de tu organización, puedes seleccionar una zona de privacidad preferida:
 
-| Región        | Leyes aplicables                                                                               | Infraestructura                 | Proveedores de LLM              |
+| Región        | Leyes Aplicables                                                                               | Infraestructura                 | Proveedores de LLM              |
 | ------------- | --------------------------------------------------------------------------------------------- | ------------------------------ | -------------------------- |
 | Europa        | [GDPR](https://gdpr.eu)                                                                       | Solo centros de datos de la UE           | Alojados en la UE o compatibles con la UE  |
 | Estados Unidos | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (EE.UU.)         | OpenAI US / Anthropic US   |
@@ -65,7 +70,7 @@ Solo se transmite la cantidad mínima de datos necesaria para la tarea actual.
 
 ### 3. **Cifrado de Extremo a Extremo**
 
-Todos los datos de audio/video se transmiten a través de canales cifrados. Las solicitudes de interpretación se canalizan a través de proxies seguros, evitando la exposición pública.
+Todos los datos de audio/video se transmiten a través de canales cifrados. Las solicitudes de interpretación se envían a través de proxies seguros, evitando la exposición pública.
 
 ### 4. **Sin Almacenamiento por Defecto**
 
@@ -84,7 +89,7 @@ InterMind ofrece compatibilidad completa con:
 
 Estamos comprometidos con la honestidad total, no solo con jerga legal.
 
-> InterMind no puede garantizar cómo los LLMs de terceros o los proveedores de infraestructura procesan los datos una vez que salen de nuestro control.
+> InterMind no puede garantizar cómo los LLM de terceros o los proveedores de infraestructura procesan los datos una vez que salen de nuestro control.
 
 ### NO garantizamos:
 

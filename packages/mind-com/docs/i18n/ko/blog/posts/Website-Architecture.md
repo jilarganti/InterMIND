@@ -8,8 +8,8 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # Mind.com 웹사이트 아키텍처: AI 통합을 통한 현대적인 JAMstack 솔루션의 기술적 연구
 
-<img src="/blog/iStock-681469612.jpg" alt="UAE 디르함" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/iStock-681469612.jpg" alt="UAE 디르함" width="500" align="right" style="padding: 1.5rem" class="dark-only"/>
+<img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only"/>
 
 [mind.com](https://mind.com) 웹사이트는 JAMstack 개발 모범 사례와 최첨단 AI 기술을 결합한 마케팅 사이트의 현대적인 아키텍처의 뛰어난 예시를 보여줍니다. 이 기술적 분석에서는 InterMIND 모노레포의 일부이지만 동적 기능을 갖춘 독립적인 정적 플랫폼으로 작동하는 이 프로젝트의 기반이 되는 아키텍처 결정사항을 자세히 살펴보겠습니다.
 
@@ -115,7 +115,7 @@ Mind.com은 완전한 RTL(오른쪽에서 왼쪽) 텍스트 방향 지원과 함
 
 **오류 처리 및 자동 수정**은 번역 오류 시 다음 모델로의 자동 전환, `.log` 확장자로 부분적으로 번역된 파일 저장, 사용 가능한 모든 모델을 사용한 문제 파일 재번역, 그리고 수정할 수 없는 파일의 최종 보고를 포함합니다.
 
-## Pipedrive와 CRM 통합
+## Pipedrive와의 CRM 통합
 
 Pipedrive CRM 통합은 현대적인 마케팅 사이트가 서버리스 아키텍처 내에서 리드를 효과적으로 관리하는 방법을 보여줍니다.
 
@@ -133,7 +133,7 @@ Mind.com은 정적 사이트에 최적화된 Vue 3 애플리케이션 상태 관
 
 **스토어 정의**는 테마 및 검색 쿼리를 위한 반응형 참조, 파생 상태를 위한 계산된 값, 상태 변경을 위한 액션과 함께 Composition API 접근 방식을 사용합니다.
 
-**상태 지속성**은 localStorage 및 sessionStorage 지원, 필요한 상태 부분만 선택적으로 저장, SSR 환경에서 사용할 수 없는 브라우저 API의 우아한 처리와 함께 pinia-plugin-persistedstate를 통해 구현됩니다.
+**상태 지속성**은 localStorage와 sessionStorage 지원, 필요한 상태 부분만 선택적으로 저장, SSR 환경에서 사용할 수 없는 브라우저 API의 우아한 처리를 통해 pinia-plugin-persistedstate로 구현됩니다.
 
 ### UTM 추적 통합
 
@@ -147,7 +147,7 @@ Mind.com은 **Google Tag Manager**와 **Google Analytics 4**를 통해 현대적
 
 **서버 사이드 A/B 테스팅**은 성능을 유지하기 위해 엣지 함수를 통해 구현되며, Lighthouse 점수를 10점 감소시킬 수 있는 기존의 클라이언트 사이드 A/B 테스팅 도구를 피합니다.
 
-실험 추적을 위한 **사용자 정의 dataLayer 이벤트**는 `{'experimentId': 'id', 'variationId': 'id'}` 구조를 사용하여 성능 영향 없이 정확한 테스트 변형 추적을 보장합니다.
+실험 추적을 위한 **커스텀 dataLayer 이벤트**는 `{'experimentId': 'id', 'variationId': 'id'}` 구조를 사용하여 성능 영향 없이 정확한 테스트 변형 추적을 보장합니다.
 
 ## 보안 및 확장성
 
@@ -155,7 +155,7 @@ Mind.com은 **Google Tag Manager**와 **Google Analytics 4**를 통해 현대적
 
 **API Gateway 스로틀링**은 메서드 수준의 속도 제한, DDoS 보호를 위한 속도 기반 규칙이 적용된 AWS WAF, 그리고 와일드카드 구성 대신 특정 도메인 화이트리스트가 포함된 CORS 정책을 제공합니다.
 
-**비밀 관리**는 민감한 데이터를 위한 환경 변수와 매개변수 저장소, 함수 실행 전 API Gateway 수준에서의 입력 검증, 그리고 적절한 오류 처리가 포함된 구조화된 응답 형식을 통해 구현됩니다.
+**비밀 관리**는 민감한 데이터를 위한 환경 변수와 파라미터 저장소, 함수 실행 전 API Gateway 수준에서의 입력 검증, 그리고 적절한 오류 처리가 포함된 구조화된 응답 형식을 통해 구현됩니다.
 
 ### 데이터 프라이버시 고려사항
 
@@ -181,7 +181,7 @@ Mind.com은 AI 통합을 통한 현대적인 JAMstack 아키텍처가 어떻게 
 
 **공격 표면 감소**는 런타임 서버나 데이터베이스 취약점이 없고, 정적 파일이 SQL 인젝션과 서버 측 공격 벡터를 제거하며, CDN 기반 배포가 DDoS 보호와 글로벌 중복성을 제공합니다.
 
-**비용 효율성**은 기존 서버 호스팅보다 훨씬 저렴한 CDN 호스팅, 플러그인과 서버 관리 없이 운영 비용 절감, CDN 배포를 통한 자동 확장, 그리고 백엔드 유지보수 오버헤드를 줄이는 서버리스 함수 사용을 통해 달성됩니다.
+**비용 효율성**은 CDN 호스팅을 통해 달성되며, 기존 서버 호스팅보다 훨씬 저렴하고, 플러그인과 서버 관리 없이 운영 비용이 절감되며, CDN 배포를 통한 자동 확장과 백엔드 유지보수 오버헤드를 줄이는 서버리스 함수 사용을 통해 이루어집니다.
 
 ## 결론
 

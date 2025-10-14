@@ -8,8 +8,8 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 # Arsitektur Website Mind.com: Penelitian Teknis Solusi JAMstack Modern dengan Integrasi AI
 
-<img src="/blog/iStock-681469612.jpg" alt="Dirham UAE" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/iStock-681469612.jpg" alt="Dirham UAE" width="500" align="right" style="padding: 1.5rem" class="dark-only"/>
+<img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only"/>
 
 Website [mind.com](https://mind.com) merupakan contoh luar biasa dari arsitektur modern untuk situs pemasaran, menggabungkan praktik terbaik pengembangan JAMstack dengan teknologi AI terdepan. Dalam analisis teknis ini, kami akan memeriksa secara detail keputusan arsitektural yang mendasari proyek ini, yang merupakan bagian dari monorepo InterMIND namun berfungsi sebagai platform statis independen dengan kemampuan dinamis.
 
@@ -39,7 +39,7 @@ Mind.com dibangun di atas **VitePress** — generator situs statis modern yang m
 
 Mind.com menggunakan berbagai strategi optimisasi performa:
 
-**Smart hydration** memastikan pemuatan hanya bagian halaman yang dinamis, sementara konten statis tetap tidak terpengaruh oleh proses hidrasi. Ini secara radikal mengurangi waktu hingga halaman menjadi interaktif.
+**Smart hydration** memastikan pemuatan hanya bagian halaman yang dinamis, sementara konten statis tetap tidak terpengaruh oleh proses hidrasi. Ini secara radikal mengurangi waktu hingga halaman interaktif.
 
 **Automatic code splitting** membuat chunk terpisah untuk setiap halaman dengan preloading cerdas dari link dalam viewport pengguna, memastikan navigasi instan.
 
@@ -147,7 +147,7 @@ Mind.com menggunakan pendekatan modern untuk analytics melalui **Google Tag Mana
 
 **A/B testing server-side** diimplementasikan melalui edge functions untuk menjaga performa, menghindari tools A/B testing client-side tradisional yang dapat mengurangi skor Lighthouse hingga 10 poin.
 
-**Event dataLayer kustom** untuk pelacakan eksperimen menggunakan struktur `{'experimentId': 'id', 'variationId': 'id'}`, memastikan pelacakan varian tes yang akurat tanpa dampak pada performa.
+**Custom dataLayer events** untuk pelacakan eksperimen menggunakan struktur `{'experimentId': 'id', 'variationId': 'id'}`, memastikan pelacakan varian tes yang akurat tanpa dampak pada performa.
 
 ## Keamanan dan Skalabilitas
 
@@ -159,7 +159,7 @@ Mind.com menggunakan pendekatan modern untuk analytics melalui **Google Tag Mana
 
 ### Pertimbangan Privasi Data
 
-**Arsitektur yang mengutamakan privasi** mencakup enkripsi end-to-end tanpa penyimpanan data di sisi server, cookie autentikasi yang aman dengan masa berlaku yang tepat, logging komprehensif untuk persyaratan kepatuhan, dan minimisasi data melalui token JWT yang hanya berisi informasi pengguna yang esensial.
+**Arsitektur yang mengutamakan privasi** mencakup enkripsi end-to-end tanpa penyimpanan data di sisi server, cookie autentikasi yang aman dengan masa berlaku yang tepat, logging komprehensif untuk persyaratan kepatuhan, dan minimisasi data melalui token JWT yang hanya berisi informasi pengguna yang penting.
 
 ## Keunggulan Arsitektur Mind.com
 
@@ -167,7 +167,7 @@ Mind.com menggunakan pendekatan modern untuk analytics melalui **Google Tag Mana
 
 Arsitektur Mind.com memberikan **peningkatan performa 35-60%** dibandingkan dengan pendekatan tradisional. Situs JAMstack memuat 35% lebih cepat, dengan 50% mencapai First Contentful Paint dalam waktu kurang dari 1 detik.
 
-**Penanganan traffic** meningkat 10x dibandingkan arsitektur server-rendered tradisional dengan biaya yang jauh lebih rendah berkat distribusi CDN dan penskalaan serverless.
+**Penanganan traffic** ditingkatkan 10x dibandingkan arsitektur server-rendered tradisional dengan biaya yang jauh lebih rendah berkat distribusi CDN dan penskalaan serverless.
 
 ### Pengalaman Developer
 
@@ -177,11 +177,11 @@ Arsitektur Mind.com memberikan **peningkatan performa 35-60%** dibandingkan deng
 
 ## Keunggulan Kompetitif
 
-Mind.com mendemonstrasikan bagaimana arsitektur JAMstack modern dengan integrasi AI menciptakan keunggulan kompetitif yang signifikan:
+Mind.com menunjukkan bagaimana arsitektur JAMstack modern dengan integrasi AI menciptakan keunggulan kompetitif yang signifikan:
 
 **Permukaan serangan yang berkurang** tanpa server runtime atau kerentanan database, file statis menghilangkan injeksi SQL dan vektor serangan sisi server, distribusi berbasis CDN menyediakan perlindungan DDoS dan redundansi global.
 
-**Efektivitas biaya** dicapai melalui hosting CDN, secara signifikan lebih murah daripada hosting server tradisional, biaya operasional berkurang tanpa plugin dan manajemen server, penskalaan otomatis melalui distribusi CDN, dan penggunaan fungsi serverless mengurangi overhead pemeliharaan backend.
+**Efektivitas biaya** dicapai melalui hosting CDN, secara signifikan lebih murah daripada hosting server tradisional, biaya operasional yang berkurang tanpa plugin dan manajemen server, penskalaan otomatis melalui distribusi CDN, dan penggunaan fungsi serverless mengurangi overhead pemeliharaan backend.
 
 ## Kesimpulan
 

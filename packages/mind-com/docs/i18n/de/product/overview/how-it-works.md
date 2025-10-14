@@ -1,3 +1,8 @@
+---
+title: "Wie KI-Echtzeitübersetzung funktioniert"
+description: "Erfahren Sie, wie InterMINDs sofortige bidirektionale Übersetzung mit Spracherkennung, neuronaler Übersetzung und Sprachsynthese für nahtlose Kommunikation funktioniert."
+---
+
 # Wie KI-Echtzeitübersetzung funktioniert
 
 ## Sprechen und hören Sie in Ihrer Sprache
@@ -25,7 +30,7 @@ InterMind ist eine Multi-User-Videokonferenzplattform mit **sofortiger bidirekti
 - **Zeichensetzung und Strukturierung**: automatische Zeichensetzung
 - **Extraktion der Kernbedeutung**: Identifikation von Haupt- und Nebengedanken
 - **Äußerungssegmentierung**: Aufteilung in logische Blöcke für präzise Übersetzung
-- **Kontextuelle Analyse**: Verknüpfung mit vorherigen Bemerkungen und dem Gesamtthema
+- **Kontextanalyse**: Verknüpfung mit vorherigen Bemerkungen und dem Gesamtthema
 
 ### 3. **Neuronale Übersetzung**
 
@@ -71,7 +76,7 @@ All dies geschieht mit **Latenz unter 3 Sekunden** — entspricht der Geschwindi
 ### Technologie-Stack:
 
 - **LLM-Anbieter**: GPT-4, Claude, Gemini (regionale Auswahl)
-- **Regionalität**: Einhaltung lokaler Datenschutzbestimmungen (DSGVO, CCPA)
+- **Regionalität**: Einhaltung lokaler Datenschutzbestimmungen (GDPR, CCPA)
 - **Kontinuierliches Lernen**: Analyse von über 10.000 Stunden mehrsprachiger Meetings monatlich
 - **Spezialisierung**: Modelle für spezifische Branchen (Medizin, Recht, Finanzen, IT)
 

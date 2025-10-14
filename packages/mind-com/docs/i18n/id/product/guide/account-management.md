@@ -1,3 +1,8 @@
+---
+title: "Manajemen Akun"
+description: "Daftar dan kelola akun InterMIND Anda. Pelajari cara mendaftar dengan Google, Microsoft, atau email, memperbarui pengaturan profil, dan mengelola keamanan."
+---
+
 # Manajemen Akun
 
 ## Daftar Akun
@@ -55,7 +60,7 @@ Gunakan metode ini jika Anda tidak memiliki akun Google atau lebih suka mendafta
    - **Nama Belakang**
 
 > [!TIP]
-> Untuk memastikan keamanan akun yang optimal, harap buat kata sandi yang memenuhi persyaratan kompleks yang tercantum di atas.
+> Untuk memastikan keamanan akun yang optimal, silakan buat kata sandi yang memenuhi persyaratan kompleks yang tercantum di atas.
 
 3. Setelah melengkapi formulir, klik tombol **Daftar**
 4. Setelah berhasil mendaftar, Anda akan menerima pesan verifikasi email di kotak masuk Anda. Setelah diverifikasi, Anda dapat masuk menggunakan email dan kata sandi Anda untuk mengakses fitur-fitur InterMIND
@@ -80,7 +85,7 @@ Setelah pembuatan akun InterMIND Anda, Anda diberikan kesempatan untuk masuk kap
 ### Mengakses halaman masuk
 
 1. Navigasi ke [https://intermind.com](https://intermind.com)
-2. Klik tombol **Sign In** yang terletak di sudut kanan atas halaman beranda
+2. Klik tombol **Sign In** yang terletak di pojok kanan atas halaman beranda
 3. Anda akan diarahkan ke halaman **Sign in to your account**
 
 ### Masuk dengan Google
@@ -148,7 +153,7 @@ Halaman profil diorganisir ke dalam empat tab utama:
 
 **Preferensi Komunikasi**
 
-- **Newsletter**: Menerima pembaruan tentang fitur dan peningkatan baru
+- **Newsletter**: Menerima pembaruan tentang fitur baru dan perbaikan
 - **Promosi**: Menerima penawaran khusus dan konten promosi
 
 > [!TIP]

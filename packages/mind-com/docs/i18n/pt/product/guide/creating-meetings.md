@@ -1,3 +1,8 @@
+---
+title: "Criando e agendando reuniões"
+description: "Aprenda como criar reuniões instantâneas, agendar no Google Calendar e gerar links de reunião reutilizáveis na plataforma de videoconferência InterMIND."
+---
+
 # Criando e agendando reuniões
 
 Após fazer login no InterMIND, os usuários podem convenientemente criar e agendar reuniões diretamente da interface principal clicando no botão **Nova Reunião**.

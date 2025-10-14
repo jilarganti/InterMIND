@@ -1,6 +1,11 @@
-# Aperçu de l\'interface de réunion
+---
+title: "Aperçu de l'interface de réunion"
+description: "Explorez l'interface de réunion intuitive d'InterMIND. Découvrez la disposition vidéo, les contrôles de la barre d'outils, les interactions entre participants et les options de personnalisation."
+---
 
-L\'interface InterMIND est conçue avec une attention particulière à la propreté, à l\'intuitivité et à l\'accessibilité. Cette section délimite les éléments clés visibles lors d\'une réunion en direct et fournit des conseils sur la façon dont les utilisateurs peuvent interagir avec eux efficacement.
+# Aperçu de l'interface de réunion
+
+L'interface InterMIND est conçue avec une attention particulière à la propreté, à l'intuitivité et à l'accessibilité. Cette section décrit les éléments clés visibles lors d'une réunion en direct et fournit des conseils sur la façon dont les utilisateurs peuvent interagir efficacement avec eux.
 
 ## Disposition de l'interface principale
 
@@ -20,20 +25,20 @@ Dans les Paramètres, les utilisateurs peuvent :
 - Activer ou désactiver le Flou d\'arrière-plan pour la confidentialité pendant la réunion
 - Changer la langue du Traducteur pour faciliter la communication entre les participants parlant différentes langues
 
-## Fonctionnalités d\'interaction des participants
+## Fonctionnalités d'interaction des participants
 
-Les participants peuvent s\'engager activement dans la réunion en utilisant plusieurs outils disponibles dans l\'interface :
+Les participants peuvent s'engager activement dans la réunion en utilisant plusieurs outils disponibles dans l'interface :
 
 - **Lever la main** : Les participants peuvent cliquer sur cette option pour indiquer leur désir de prendre la parole. Une icône de main apparaîtra à côté de leur nom dans la liste des participants, signalant leur demande
-- **Baisser la main** : Les hôtes et modérateurs peuvent manuellement baisser la main levée d\'un participant, maintenant l\'ordre pendant les discussions
-- **Chat** : Les participants peuvent envoyer des messages à tous les participants pendant l\'appel en utilisant le panneau latéral, favorisant la communication et la collaboration
+- **Baisser la main** : Les hôtes et modérateurs peuvent manuellement baisser la main levée d'un participant, maintenant l'ordre pendant les discussions
+- **Chat** : Les participants peuvent envoyer des messages à tous les participants pendant l'appel en utilisant le panneau latéral, favorisant la communication et la collaboration
 - **Épingler / Ne pas regarder** : Les utilisateurs peuvent personnaliser leur vue en épinglant des participants spécifiques ou en les masquant de leur disposition personnelle, adaptant leur expérience de réunion
 
 ## Icônes et fonctions de la barre d'outils inférieure
 
 | Icône/Bouton           | Description                                                                                                                                                                                                         |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Microphone**         | Cliquez pour couper ou activer votre microphone, vous permettant de contrôler votre entrée audio pendant la réunion                                                                                               |
+| **Microphone**         | Cliquez pour activer ou désactiver votre microphone, vous permettant de contrôler votre entrée audio pendant la réunion                                                                                           |
 | **Caméra**             | Cliquez pour démarrer ou arrêter votre caméra, activant ou désactivant votre flux vidéo pour les participants                                                                                                      |
 | **Partage d'écran**    | Cliquez pour démarrer ou arrêter le partage d'écran. Cette fonctionnalité offre des options pour partager votre écran entier, une fenêtre spécifique, ou un onglet de navigateur, et n'est disponible que sur les navigateurs de bureau |
 | **Enregistrement**     | Cliquez pour démarrer ou arrêter l'enregistrement. Lors du démarrage, tous les participants recevront une notification visible et audible. Cette fonctionnalité est exclusivement disponible pour l'Hôte et le Modérateur |

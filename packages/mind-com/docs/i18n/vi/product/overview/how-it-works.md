@@ -1,8 +1,13 @@
+---
+title: "Cách hoạt động của dịch thuật thời gian thực bằng AI"
+description: "Tìm hiểu cách dịch thuật song phương tức thì của InterMIND hoạt động với nhận dạng giọng nói, dịch thuật neural và tổng hợp giọng nói để giao tiếp liền mạch."
+---
+
 # Cách hoạt động của dịch thuật thời gian thực bằng AI
 
 ## Nói và nghe bằng ngôn ngữ của bạn
 
-InterMind là một nền tảng hội nghị truyền hình đa người dùng với **tính năng dịch thuật hai chiều tức thì**. Mỗi người tham gia có thể nói và nghe người khác bằng **ngôn ngữ mẹ đẻ của họ**, tạo ra hiệu ứng giao tiếp tự nhiên không có rào cản ngôn ngữ.
+InterMind là một nền tảng hội nghị truyền hình đa người dùng với **dịch thuật hai chiều tức thì**. Mỗi người tham gia có thể nói và nghe người khác bằng **ngôn ngữ mẹ đẻ của họ**, tạo ra hiệu ứng giao tiếp tự nhiên không có rào cản ngôn ngữ.
 
 ## Cách thức hoạt động:
 
@@ -32,7 +37,7 @@ InterMind là một nền tảng hội nghị truyền hình đa người dùng 
 - Dịch phụ thuộc ngữ cảnh với việc bảo toàn ý nghĩa
 - Hiểu biết về thành ngữ, ẩn dụ và tham chiếu văn hóa
 - Thích ứng phong cách nói (trang trọng/thân mật)
-- Bảo toàn sắc thái cảm xúc của phát ngôn
+- Bảo toàn màu sắc cảm xúc của phát ngôn
 
 ### 4. **Tổng hợp giọng nói (Text-to-Speech)**
 
@@ -84,7 +89,7 @@ Tất cả điều này xảy ra với **độ trễ dưới 3 giây** — phù 
 
 ### Kiến trúc kỹ thuật
 
-Tất cả việc định tuyến âm thanh/video được xử lý thông qua Mind API độc quyền của chúng tôi, được phát triển nội bộ để đảm bảo:
+Tất cả định tuyến âm thanh/video được xử lý thông qua Mind API độc quyền của chúng tôi, được phát triển nội bộ để đảm bảo:
 
 - **Hiệu suất**: xử lý hơn 1000 luồng song song
 - **Chủ quyền dữ liệu**: lưu trữ tại khu vực được chọn
@@ -97,8 +102,8 @@ Tất cả việc định tuyến âm thanh/video được xử lý thông qua M
 - **Desktop**: cài đặt PWA đơn giản cho Windows/Mac/Linux
 - **Ứng dụng di động**: cài đặt PWA đơn giản cho iOS/Android
 - **API**: tích hợp vào các nền tảng hiện có (sắp ra mắt)
-- **Dịch vụ phổ biến**: Zoom, Teams, Google Meet (thông qua plugin) (sắp ra mắt)
+- **Dịch vụ phổ biến**: Zoom, Teams, Google Meet (qua plugin) (sắp ra mắt)
 
-[^1]: Độ trễ tiêu chuẩn cho dịch thuật đồng thời của con người là ~2–3 giây.
+[^1]: Độ trễ tiêu chuẩn cho dịch đồng thời của con người là ~2–3 giây.
 
 [^2]: Dựa trên tiến bộ hiện tại trong dịch thuật AI, chúng tôi kỳ vọng rằng trong vòng 2–3 năm, các mô hình sẽ liên tục vượt trội hơn những dịch giả con người giỏi nhất — bao gồm các lĩnh vực chuyên môn như luật, tài chính, chăm sóc sức khỏe và kỹ thuật.

@@ -1,3 +1,8 @@
+---
+title: "Confidentialité des données pour les réunions IA"
+description: "Architecture de confidentialité transparente d'InterMIND avec confidentialité basée sur les régions, conformité RGPD, et choix utilisateur pour les emplacements de traitement des données."
+---
+
 # Confidentialité des données pour les réunions IA
 
 ## Introduction
@@ -8,7 +13,7 @@ Pour offrir une expérience fluide, InterMind intègre des services tiers pour l
 
 Nous croyons en la **transparence plutôt qu\'aux promesses**. Nous ne pouvons garantir la confidentialité et la sécurité que pour les composants sous notre contrôle direct — notre logiciel, la logique d\'interface et la façon dont nous acheminons les données. Pour tout le reste, nous vous offrons **le pouvoir du choix**.
 
-C\'est pourquoi nous avons conçu InterMind avec une **confidentialité basée sur les régions** : vous choisissez où vos données sont traitées, quel cadre juridique les régit, et quels modèles d\'IA sont utilisés — en fonction de votre zone de confidentialité sélectionnée.
+C\'est pourquoi nous avons conçu InterMind avec une **confidentialité basée sur les régions** : vous choisissez où vos données sont traitées, quel cadre juridique les régit et quels modèles d\'IA sont utilisés — en fonction de votre zone de confidentialité sélectionnée.
 
 > **Qu\'est-ce qu\'une zone de confidentialité ?**  
 > _Une région configurable (UE, États-Unis, Asie) qui détermine où vos données sont traitées et sous quel cadre juridique._
@@ -24,7 +29,7 @@ C\'est pourquoi nous avons conçu InterMind avec une **confidentialité basée s
 ### 2. **Transparence architecturale**
 
 - Vous pouvez voir explicitement quelle région est active pour votre session, et quelles lois s\'appliquent (par exemple RGPD en Europe, CCPA aux États-Unis, PDPL aux Émirats arabes unis).
-- Chaque session fonctionne dans un **mode de conformité** désigné, et cette configuration est visible et vérifiable.
+- Chaque session s\'exécute dans un **mode de conformité** désigné, et cette configuration est visible et vérifiable.
 
 ### 3. **Confidentialité par défaut**
 
@@ -51,13 +56,13 @@ Vous pouvez :
 - **Remplacer la région par session**
 - **Mettre certaines régions sur liste noire** entièrement
 
-## Ce qu'InterMind garantit
+## Ce que InterMind garantit
 
-Nous mettons en place des mesures de protection techniques et légales strictes dans notre domaine de contrôle :
+Nous mettons en œuvre des mesures de protection techniques et juridiques strictes dans notre domaine de contrôle :
 
 ### 1. **Exécution locale en priorité**
 
-Les fonctions côté client telles que la capture vocale et le rendu de l'interface utilisateur sont traitées localement chaque fois que possible.
+Les fonctions côté client telles que la capture vocale et le rendu de l\'interface utilisateur sont traitées localement chaque fois que possible.
 
 ### 2. **Minimisation des données**
 
@@ -65,19 +70,19 @@ Seules les données minimales nécessaires à la tâche en cours sont transmises
 
 ### 3. **Chiffrement de bout en bout**
 
-Toutes les données audio/vidéo sont transmises via des canaux chiffrés. Les demandes d'interprétation sont acheminées via des proxies sécurisés, évitant l'exposition publique.
+Toutes les données audio/vidéo sont transmises via des canaux chiffrés. Les demandes d\'interprétation sont acheminées via des proxies sécurisés, évitant l\'exposition publique.
 
 ### 4. **Aucun stockage par défaut**
 
-Nous ne stockons pas vos réunions, transcriptions ou conversations sauf si vous l'acceptez explicitement. Tout stockage est limité à la région.
+Nous ne stockons pas vos réunions, transcriptions ou conversations sauf si vous l\'acceptez explicitement. Tout stockage est limité à la région.
 
 ## Conformité légale et réglementaire
 
 InterMind prend en charge une compatibilité complète avec :
 
-- **RGPD** — Droit d\'accès, de suppression, d\'exportation et de restriction du traitement. Aucun profilage IA.
+- **RGPD** — Droit d'accès, de suppression, d'exportation et de restriction du traitement. Aucun profilage par IA.
 - **CCPA** — Aucune vente de données personnelles, options de désinscription et pratiques de collecte transparentes.
-- **UAE PDPL** — Stockage local si demandé, contrôles d\'accès stricts, aucun transfert international sans consentement.
+- **UAE PDPL** — Stockage local si demandé, contrôles d'accès stricts, aucun transfert international sans consentement.
 - **China DSL/PIPL** — Traitement uniquement dans la région, aucun routage étranger si la Chine est sélectionnée.
 
 ## Ce que nous pouvons et ne pouvons pas garantir

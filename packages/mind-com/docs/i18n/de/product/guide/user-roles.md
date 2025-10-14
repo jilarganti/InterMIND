@@ -1,10 +1,15 @@
+---
+title: "Benutzerrollen"
+description: "Verstehen Sie InterMIND Benutzerrollen - Host, Moderator, Teilnehmer und Gast. Erfahren Sie mehr über Berechtigungen und Funktionen für jede Rolle."
+---
+
 # Benutzerrollen
 
 InterMIND unterscheidet vier verschiedene Benutzerrollen, die jeweils sorgfältig entwickelt wurden, um sichere, kollaborative und anpassungsfähige Meeting-Erfahrungen zu verbessern. Die Host-Rolle ist mit der höchsten Autoritätsebene ausgestattet, während die anderen Rollen unterschiedliche Interaktionsebenen bieten.
 
-## Gastgeber
+## Host
 
-Der Gastgeber ist für die Initiierung des Meetings verantwortlich und verfügt über umfassende administrative Berechtigungen.
+Der Host ist für die Initiierung des Meetings verantwortlich und besitzt umfassende administrative Berechtigungen.
 
 **Hauptfunktionen:**
 
@@ -52,14 +57,14 @@ Autorisierte Teilnehmer sind angemeldete Benutzer, die dem Meeting ohne besonder
 
 ## Gast (Anonymer Benutzer)
 
-Gäste sind Benutzer, die an der Besprechung teilnehmen, ohne sich anzumelden.
+Gäste sind Benutzer, die dem Meeting beitreten, ohne sich anzumelden.
 
 **Hauptfunktionen:**
 
 - Verwendung des eigenen Mikrofons und der Kamera
 - Bildschirmfreigabe (Desktop-Browser)
-- Verwendung des Online-Sprachübersetzers und Sprachwechsel (nur für eigenes Audio)
-- Nutzung von Layout- und Anzeigeoptionen (nur persönlich)
+- Nutzung des Online-Sprachübersetzers und Sprachwechsel (für das eigene Audio)
+- Verwendung von Layout- und Anzeigeoptionen (nur persönlich)
 - Teilnahme am Chat und Handheben
 
 > [!WARNING]

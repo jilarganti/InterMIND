@@ -1,3 +1,8 @@
+---
+title: "Recursos de IA"
+description: "Descubra os recursos alimentados por IA do InterMIND, incluindo Assistente de Voz (Jarvis), tradução de voz em tempo real e Assistente de IA para anotações e resumos de reuniões."
+---
+
 # Recursos de IA
 
 Esta seção descreve as funcionalidades do Assistente de Voz (Jarvis), Tradução de Voz Online e Assistente de IA disponíveis durante as reuniões.
@@ -35,7 +40,7 @@ O Assistente de IA é acessível como uma interface de chat privada dentro das r
 
 - Resumos de reuniões
 - Pesquisas de transcrições
-- Insights de chat
+- Insights do chat
 
 ### Capacidades
 
@@ -43,7 +48,7 @@ O Assistente de IA pode ajudar com:
 
 - **Resumos de reuniões**
 - **Pesquisas de transcrições**
-- **Insights de chat**
+- **Insights do chat**
 - **Identificação de itens de ação**
 - **Extração de pontos-chave**
 

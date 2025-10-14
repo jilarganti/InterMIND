@@ -1,3 +1,8 @@
+---
+title: "Cara Kerja Terjemahan Real-Time AI"
+description: "Pelajari cara kerja terjemahan bidireksional instan InterMIND dengan pengenalan suara, terjemahan neural, dan sintesis suara untuk komunikasi yang lancar."
+---
+
 # Cara Kerja Terjemahan Real-Time AI
 
 ## Berbicara dan Mendengar dalam Bahasa Anda
@@ -32,7 +37,7 @@ InterMind adalah platform konferensi video multi-pengguna dengan **terjemahan du
 - Terjemahan yang bergantung pada konteks dengan pelestarian makna
 - Pemahaman idiom, metafora, dan referensi budaya
 - Adaptasi gaya bicara (formal/informal)
-- Mempertahankan pewarnaan emosional ucapan
+- Mempertahankan pewarnaan emosional dari ucapan
 
 ### 4. **Sintesis Suara (Text-to-Speech)**
 

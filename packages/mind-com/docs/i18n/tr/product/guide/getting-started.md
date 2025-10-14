@@ -1,16 +1,21 @@
+---
+title: "Başlangıç"
+description: "InterMIND AI destekli video konferans platformunu nasıl kullanacağınızı öğrenin. Kayıt, toplantı oluşturma, AI özellikleri ve sorun giderme için kapsamlı rehber."
+---
+
 # Başlangıç
 
-InterMIND, çeşitli diller, cihazlar ve ekipler arasında kesintisiz iletişimi kolaylaştırmak için tasarlanmış gelişmiş yapay zeka destekli bir video konferans platformudur. Bu kılavuz, InterMIND'ın tüm özelliklerini etkili bir şekilde nasıl kullanacağınız konusunda kapsamlı bir anlayış sağlamayı amaçlamaktadır — ilk toplantınıza katılmaktan yapay zeka araçlarını yapılandırmaya ve teknik sorunları çözmeye kadar.
+InterMIND, çeşitli diller, cihazlar ve ekipler arasında kesintisiz iletişimi kolaylaştırmak için tasarlanmış gelişmiş bir AI destekli video konferans platformudur. Bu rehber, InterMIND'ın tüm özelliklerini etkili bir şekilde nasıl kullanacağınız konusunda kapsamlı bir anlayış sağlamayı amaçlamaktadır — ilk toplantınıza katılmaktan AI araçlarını yapılandırmaya ve teknik sorunları çözmeye kadar.
 
-Ayrıntılı rehberlik arayan yeni bir kullanıcı olun veya karmaşık toplantıları yöneten deneyimli bir katılımcı olun, bu kılavuz tüm gerekli bilgileri erişilebilir bir yerde toplar.
+İster ayrıntılı rehberlik arayan yeni bir kullanıcı olun, ister karmaşık toplantıları yöneten deneyimli bir katılımcı olun, bu rehber tüm gerekli bilgileri erişilebilir bir yerde toplar.
 
-Bu kılavuzda şunları keşfedeceksiniz:
+Bu rehberde şunları keşfedeceksiniz:
 
 - Nasıl kayıt olacağınız, oturum açacağınız ve profilinizi özelleştireceğiniz konusunda talimatlar
 - Toplantı oluşturma ve planlama yönergeleri
 - Kullanıcı rolleri, izinler ve gerçek zamanlı çeviri yetenekleri hakkında bilgiler
-- Yapay Zeka Asistanı ve Ses Çevirici gibi yapay zeka destekli özelliklerin genel bakışı
-- Sorun giderme ipuçları ve sık sorulan soruların yanıtları
+- AI Asistanı ve Ses Çevirici gibi AI destekli özelliklerin genel bakışı
+- Sorun giderme ipuçları ve sık sorulan soruların cevapları
 
 Başlayalım — akıllı toplantıların geleceği şimdi başlamaya hazır.
 
@@ -70,13 +75,13 @@ InterMIND hem masaüstü hem de mobil kullanım için optimize edilmiş olup, ku
 - Android akıllı telefonlar ve tabletler
 - iOS akıllı telefonlar ve tabletler
 
-Kullanıcılar herhangi bir yazılım kurulumu gerektirmeden doğrudan tarayıcıları üzerinden platforma erişebilirler.
+Kullanıcılar herhangi bir yazılım kurulumu gerektirmeden platformu doğrudan tarayıcıları üzerinden erişebilirler.
 
 ### Nasıl Erişilir
 
 1. Web tarayıcınızı açın
 2. https://intermind.com adresini ziyaret edin
-3. Giriş yapın veya misafir olarak doğrudan toplantı bağlantısına katılın
+3. Giriş yapın veya doğrudan misafir olarak toplantı bağlantısına katılın
 4. İstendiğinde kamera ve mikrofon izinlerini verin
 
 > [!WARNING]
@@ -84,7 +89,7 @@ Kullanıcılar herhangi bir yazılım kurulumu gerektirmeden doğrudan tarayıc�
 
 ### Tarayıcı Uyumluluğu
 
-InterMIND, platformlar arası tüm büyük modern tarayıcılarla uyumludur. Herhangi bir uzantı veya eklenti kurulumu gerekmez.
+InterMIND tüm platformlarda büyük modern tarayıcıların tümü ile uyumludur. Herhangi bir uzantı veya eklenti kurulumu gerekmez.
 
 #### Önerilen Tarayıcılar
 
@@ -113,7 +118,7 @@ Tüm Tarayıcılarda Mevcut:
 - AI Asistanı
 - Arama içi mesajlar
 - Ekran kaydı
-- Ekran paylaşımı (yalnızca masaüstü tarayıcıları)
+- Ekran paylaşımı (yalnızca masaüstü tarayıcılar)
 - Düzen ve görüntüleme seçenekleri
 
 > [!TIP]

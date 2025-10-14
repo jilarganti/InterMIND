@@ -1,6 +1,11 @@
+---
+title: "Crear y programar reuniones"
+description: "Aprende cómo crear reuniones instantáneas, programar en Google Calendar y generar enlaces de reunión reutilizables en la plataforma de videoconferencias InterMIND."
+---
+
 # Crear y programar reuniones
 
-Al iniciar sesión en InterMIND, los usuarios pueden crear y programar reuniones de manera conveniente directamente desde la interfaz principal haciendo clic en el botón **Nueva Reunión**.
+Al iniciar sesión en InterMIND, los usuarios pueden crear y programar reuniones de manera conveniente directamente desde la interfaz principal haciendo clic en el botón **Nueva reunión**.
 
 ## Acceder a las opciones de reunión
 

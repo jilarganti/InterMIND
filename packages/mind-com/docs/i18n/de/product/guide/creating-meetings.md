@@ -1,3 +1,8 @@
+---
+title: "Meetings erstellen und planen"
+description: "Erfahren Sie, wie Sie sofortige Meetings erstellen, in Google Calendar planen und wiederverwendbare Meeting-Links in der InterMIND Videokonferenz-Plattform generieren."
+---
+
 # Meetings erstellen und planen
 
 Nach der Anmeldung bei InterMIND können Benutzer bequem Meetings direkt über die Hauptoberfläche erstellen und planen, indem sie auf die Schaltfläche **Neues Meeting** klicken.
@@ -41,7 +46,7 @@ Diese Option ermöglicht es Benutzern, sofort eine Live-Meeting-Sitzung zu initi
 > [!TIP]
 > Diese Option ist ideal für schnelle Abstimmungen oder spontane Zusammenarbeit.
 
-## Terminplanung in Google Calendar
+## In Google Calendar planen
 
 Planen Sie ein zukünftiges Meeting und integrieren Sie es nahtlos in Ihren Google Calendar.
 
@@ -50,7 +55,7 @@ Planen Sie ein zukünftiges Meeting und integrieren Sie es nahtlos in Ihren Goog
 1. Klicken Sie auf die Schaltfläche **Neues Meeting**
 2. Wählen Sie die Option **In Google Calendar planen**
 3. Sie werden zu einer Google Calendar-Ereigniserstellungsseite in einem neuen Tab weitergeleitet
-4. Der Meeting-Link wird automatisch im Ort- oder Notizbereich eingefügt
+4. Der Meeting-Link wird automatisch im Ort- oder Notizen-Bereich eingefügt
 5. Legen Sie fest:
    - Datum und Uhrzeit
    - Gäste
@@ -62,4 +67,4 @@ Planen Sie ein zukünftiges Meeting und integrieren Sie es nahtlos in Ihren Goog
 
 Sobald das Meeting geplant ist und Google Calendar mit InterMIND verbunden ist, wird dieses Meeting auf der Hauptseite von InterMIND im Bereich mit geplanten Meetings angezeigt.
 
-Sobald die eingeladenen Teilnehmer die Meeting-Einladung annehmen, wird es auch auf ihrer Hauptseite von InterMIND im Bereich mit geplanten Meetings angezeigt, vorausgesetzt sie sind autorisiert und haben die Synchronisation mit Google Calendar aktiviert.
+Sobald die eingeladenen Teilnehmer die Einladung zum Meeting annehmen, wird es auch auf ihrer Hauptseite von InterMIND im Bereich mit geplanten Meetings angezeigt, vorausgesetzt sie sind autorisiert und haben die Synchronisation mit Google Calendar aktiviert.

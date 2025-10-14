@@ -1,3 +1,8 @@
+---
+title: "Funções de usuário"
+description: "Entenda as funções de usuário do InterMIND - Anfitrião, Moderador, Participante e Convidado. Saiba sobre permissões e capacidades de cada função."
+---
+
 # Funções de usuário
 
 O InterMIND delineia quatro funções de usuário distintas, cada uma meticulosamente elaborada para aprimorar experiências de reunião seguras, colaborativas e adaptáveis. A função de Anfitrião é dotada do mais alto nível de autoridade, enquanto as outras funções oferecem níveis variados de interação.
@@ -23,7 +28,7 @@ O Anfitrião é responsável por iniciar a reunião e possui privilégios admini
 
 Os moderadores são designados pelo Anfitrião para auxiliar no gerenciamento eficaz da sessão.
 
-**Principais Habilidades:**
+**Principais habilidades:**
 
 - Silenciar qualquer participante
 - Iniciar e parar gravações

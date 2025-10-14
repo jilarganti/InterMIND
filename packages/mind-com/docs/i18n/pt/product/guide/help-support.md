@@ -1,6 +1,11 @@
-# Ajuda e Suporte
+---
+title: "Ajuda e suporte"
+description: "Obtenha ajuda com o InterMIND. Relate problemas, sugira recursos e entre em contato com nossa equipe de suporte através do formulário de feedback integrado."
+---
 
-Se você enfrentar algum problema ou tiver uma solicitação de recurso, sinta-se à vontade para entrar em contato diretamente com a equipe InterMIND através do formulário de feedback integrado. Este recurso é rápido e fácil de usar, permitindo que aprimoremos o InterMIND para todos.
+# Ajuda e suporte
+
+Caso você enfrente algum problema ou tenha uma solicitação de recurso, sinta-se à vontade para entrar em contato com a equipe do InterMIND diretamente através do formulário de feedback integrado. Este recurso é rápido e fácil de usar, permitindo que aprimoremos o InterMIND para todos.
 
 ## Para enviar feedback:
 

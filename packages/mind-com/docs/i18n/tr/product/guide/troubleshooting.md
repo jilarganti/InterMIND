@@ -1,6 +1,11 @@
+---
+title: "Sorun Giderme"
+description: "Mikrofon, kamera, çevirmen, ekran paylaşımı ve kayıt ile ilgili yaygın InterMIND sorunlarını çözün. Sorunsuz çevrimiçi toplantılar için çözümler."
+---
+
 # Sorun Giderme
 
-Bu bölüm, çevrimiçi toplantılar sırasında karşılaşılan yaygın sorunlara çözümler sunar; mikrofonlar, kameralar, toplantılara katılma, sesli asistanları kullanma, çevirmenler, ekran paylaşımı ve kayıt ile ilgili sorunları içerir. Her sorun için olası nedenleri açıklar ve bunları çözmek için pratik çözümler sunar, böylece daha sorunsuz bir çevrimiçi toplantı deneyimi sağlar.
+Bu bölüm, çevrimiçi toplantılar sırasında karşılaşılan yaygın sorunlar için çözümler sunar; mikrofonlar, kameralar, toplantılara katılma, sesli asistanları kullanma, çevirmenler, ekran paylaşımı ve kayıt ile ilgili sorunları içerir. Her sorun için olası nedenleri açıklar ve bunları çözmek için pratik çözümler sunar, böylece daha sorunsuz bir çevrimiçi toplantı deneyimi sağlar.
 
 ## Mikrofon veya Kamera Çalışmıyor
 

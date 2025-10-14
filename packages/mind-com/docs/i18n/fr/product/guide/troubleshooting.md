@@ -1,6 +1,11 @@
+---
+title: "Dépannage"
+description: "Résolvez les problèmes courants d'InterMIND avec le microphone, la caméra, le traducteur, le partage d'écran et l'enregistrement. Solutions pour des réunions en ligne fluides."
+---
+
 # Dépannage
 
-Cette section fournit des solutions pour les problèmes courants rencontrés lors des réunions en ligne, y compris les problèmes avec les microphones, les caméras, la participation aux réunions, l\'utilisation d\'assistants vocaux, de traducteurs, le partage d\'écran et l\'enregistrement. Elle décrit les causes potentielles de chaque problème et offre des solutions pratiques pour les résoudre, garantissant une expérience de réunion en ligne plus fluide.
+Cette section fournit des solutions pour les problèmes courants rencontrés lors des réunions en ligne, y compris les problèmes de microphones, caméras, participation aux réunions, utilisation d'assistants vocaux, traducteurs, partage d'écran et enregistrement. Elle décrit les causes potentielles de chaque problème et offre des solutions pratiques pour les résoudre, garantissant une expérience de réunion en ligne plus fluide.
 
 ## Microphone ou caméra ne fonctionne pas
 
@@ -33,7 +38,7 @@ Cette section fournit des solutions pour les problèmes courants rencontrés lor
 
 - Tous les participants ont sélectionné la même langue
 - Microphone en sourdine
-- Microphone bloqué par les permissions du navigateur
+- Microphone bloqué par les autorisations du navigateur
 - Problèmes de réseau
 
 ### Solutions :
@@ -64,7 +69,7 @@ Cette section fournit des solutions pour les problèmes courants rencontrés lor
 
 ### Solutions :
 
-- Contactez l\'hôte ou le modérateur pour clarification
+- Contactez l\'hôte ou le modérateur pour obtenir des clarifications
 
 ## Le partage d'écran ne fonctionne pas
 
@@ -87,7 +92,7 @@ Cette section fournit des solutions pour les problèmes courants rencontrés lor
 ### Solutions :
 
 - Passer à une connexion filaire ou Wi-Fi stable
-- Éteindre votre propre caméra ou les caméras d\'autres participants si nécessaire
+- Éteindre votre propre caméra ou celles d\'autres personnes si nécessaire
 
 ## L'enregistrement ne démarre pas
 

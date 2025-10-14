@@ -1,3 +1,8 @@
+---
+title: "Hesap Yönetimi"
+description: "InterMIND hesabınıza kaydolun ve yönetin. Google, Microsoft veya e-posta ile nasıl kayıt olacağınızı, profil ayarlarını nasıl güncelleyeceğinizi ve güvenliği nasıl yöneteceğinizi öğrenin."
+---
+
 # Hesap Yönetimi
 
 ## Kayıt Ol
@@ -11,11 +16,11 @@ Hesap oluşturma işlemi üç yöntemle gerçekleştirilebilir: Google veya Micr
    - Bu cihazda giriş yapmış durumunuzu korumanızı sağlayan 'Beni hatırla' onay kutusu
    - Zaten bir hesabınız varsa ancak şifrenizi hatırlamıyorsanız kullanabileceğiniz 'Şifremi Unuttum' bağlantısı
    - Zaten bir hesabınız varsa giriş yapmak için E-posta ve Şifre alanlarının bulunduğu 'Veya şununla giriş yap' metni
-   - Harici e-posta adresinizle kayıt olmanızı sağlayan 'Kayıt ol' bağlantısının bulunduğu 'Hesabınız yok mu?' metni
+   - Harici e-posta adresinizi kullanarak kayıt olmanızı sağlayan 'Kayıt ol' bağlantısının bulunduğu 'Hesabınız yok mu?' metni
 
 ### Google Hesabı ile Kayıt Ol
 
-Bu yöntem, Google Hesabı aracılığıyla verimli erişim için önerilir ve Google Takvim ile sorunsuz senkronizasyon sağlar. En etkili deneyim Google Chrome tarayıcısı kullanılarak elde edilebilir.
+Bu yöntem, Google Hesabı aracılığıyla verimli erişim için tavsiye edilir ve Google Takvim ile sorunsuz senkronizasyonu kolaylaştırır. En etkili deneyim Google Chrome tarayıcısı kullanılarak elde edilebilir.
 
 1. **Google** düğmesine tıklayın
 2. Google hesabınızı seçmenizi isteyen bir açılır pencere görünecektir
@@ -28,7 +33,7 @@ Bu yöntem, Google Hesabı aracılığıyla verimli erişim için önerilir ve G
 
 ### Microsoft Hesabı ile Kayıt Ol
 
-Bu yöntem, Microsoft hesabı kullanarak hızlı erişim elde etmek için önerilir. En iyi deneyim Microsoft Edge tarayıcısı kullanılarak gerçekleştirilebilir.
+Bu yöntem, Microsoft hesabı kullanarak hızlı erişim elde etmek için tavsiye edilir. Optimal deneyim Microsoft Edge tarayıcısı kullanılarak gerçekleştirilebilir.
 
 1. **Microsoft** düğmesine tıklayın
 2. Microsoft hesabınızı seçmenizi isteyen bir açılır pencere görünecektir
@@ -47,7 +52,7 @@ Google hesabınız yoksa veya ayrı bir e-posta ile kayıt olmayı tercih ediyor
 2. Aşağıdaki zorunlu alanları içeren Kayıt formuna yönlendirileceksiniz:
    - **E-posta**
    - **Şifre**
-     - En az 8 karakter
+     - Minimum 8 karakter
      - En az 1 büyük harf
      - En az 1 sayısal rakam
    - **Şifreyi Onayla**

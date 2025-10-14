@@ -1,6 +1,11 @@
+---
+title: "Aide et support"
+description: "Obtenez de l'aide avec InterMIND. Signalez des problèmes, suggérez des fonctionnalités et contactez notre équipe de support via le formulaire de commentaires intégré."
+---
+
 # Aide et support
 
-Si vous rencontrez des problèmes ou avez une demande de fonctionnalité, n\'hésitez pas à contacter directement l\'équipe InterMIND via le formulaire de commentaires intégré. Cette fonctionnalité est rapide et conviviale, nous permettant d\'améliorer InterMIND pour tous.
+Si vous rencontrez des problèmes ou avez une demande de fonctionnalité, n'hésitez pas à contacter directement l'équipe InterMIND via le formulaire de commentaires intégré. Cette fonctionnalité est rapide et conviviale, nous permettant d'améliorer InterMIND pour tous.
 
 ## Pour envoyer des commentaires :
 

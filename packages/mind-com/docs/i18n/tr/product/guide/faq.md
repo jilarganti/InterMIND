@@ -1,3 +1,8 @@
+---
+title: "Sık Sorulan Sorular (SSS)"
+description: "InterMIND hakkında yaygın soruların yanıtlarını alın. Hesaplar, toplantılar, AI Asistanı, çeviri özellikleri ve cihaz uyumluluğu hakkında bilgi edinin."
+---
+
 # Sık Sorulan Sorular (SSS)
 
 SSS bölümü, hesaplar ve erişim, toplantı oluşturma ve kaydetme, AI Asistanının yetenekleri, çeviri özellikleri, sohbet katılımı ve cihaz ayarları gibi konuları kapsayan InterMIND hakkında temel bilgiler sağlar. Misafir erişimi, toplantı planlama, AI Asistanını kullanma, dil çevirisi, sohbet işlevleri ve cihaz uyumluluğu ile ilgili yaygın soruları ele alır.
@@ -18,13 +23,13 @@ Ana sayfadan **Yeni Toplantı**'ya tıklayın. Ardından anında başlatmayı, G
 **Toplantılar kaydedilebilir mi?**
 Evet, Ev Sahipleri ve Moderatörler kayıt başlatabilir ve sonlandırabilir. Kayıt başladığında tüm katılımcılar bildirim alacaktır.
 
-**Tekrarlayan toplantılar planlayabilir miyim?**
-Evet, 'Google Takvim'de toplantı planla' seçeneğini kullanabilirsiniz. Toplantı ayarlarında, tercihlerinize göre günlük bazda veya diğer seçeneklerde tekrarlama seçeneklerini seçebileceksiniz.
+**Yinelenen toplantılar planlayabilir miyim?**
+Evet, 'Google Takvim'de toplantı planla' seçeneğini kullanabilirsiniz. Toplantı ayarlarında, tercihlerinize göre günlük bazda veya diğer seçeneklerde yinelenme seçeneklerini seçebileceksiniz.
 
 ## AI Asistanı
 
-**AI Asistanını kimler kullanabilir?**
-AI Asistanı yalnızca oturum açmış kullanıcılar (Ev Sahipleri, Moderatörler ve Katılımcılar) tarafından kullanılabilir. Misafirler AI Asistanına erişim sağlayamaz.
+**AI Asistanını kim kullanabilir?**
+AI Asistanı yalnızca oturum açmış kullanıcılar (Ev Sahipleri, Moderatörler ve Katılımcılar) tarafından kullanılabilir. Misafirlerin AI Asistanına erişimi yoktur.
 
 **AI Asistanından ne yapmasını isteyebilirim?**
 AI Asistanından özetler, notlar veya sorular talep edebilirsiniz.
@@ -40,8 +45,8 @@ Evet, seçilen dilde gerçek zamanlı ses dublajı sağlar.
 **Toplantı sırasında dili değiştirebilir miyim?**
 Evet, 'Ayarlar > Diliniz' seçeneği aracılığıyla.
 
-**Misafirler çevrilir mi?**
-Evet, Çevirmen seçeneği misafirler için de mevcuttur.
+**Konuklar çevrilir mi?**
+Evet, Çevirmen seçeneği konuklar için de mevcuttur.
 
 ## Katılım
 
@@ -73,7 +78,7 @@ Chrome, Firefox, Safari, Edge ve Opera tam olarak desteklenmektedir.
 ## Geçmiş
 
 **Katıldığım geçmiş toplantıları görüntüleyebilir miyim?**
-Evet, oturum açmış kullanıcılar Geçmiş sayfası aracılığıyla geçmiş toplantılara erişebilir ve AI Asistan sekmesi üzerinden bu toplantıların kayıtlarını, transkriptlerini ve özetlerini görüntüleyebilir.
+Evet, oturum açmış kullanıcılar Geçmiş sayfası aracılığıyla geçmiş toplantılara erişebilir ve AI Assistant sekmesi üzerinden bu toplantıların kayıtlarını, transkriptlerini ve özetlerini görüntüleyebilir.
 
 **Geçmişimden bir toplantıyı silebilir miyim?**
 Yalnızca Ev Sahipleri ve Moderatörler bir toplantı kaydını silme yetkisine sahiptir ve bu işlem toplantıyı tüm katılımcıların geçmişinden etkili bir şekilde kaldırır.
