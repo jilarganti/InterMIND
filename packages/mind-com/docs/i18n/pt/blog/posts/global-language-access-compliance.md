@@ -8,7 +8,6 @@ head:
   - - meta
     - name: keywords
       content: "acesso linguístico, conformidade de acessibilidade, ADA, EAA, WCAG, acessibilidade digital, tradução, legendas"
-
 ---
 
 # Conformidade Global de Acesso Linguístico: Guia Completo (2025)
@@ -41,17 +40,17 @@ head:
 
 ## 🌍 Países em Resumo
 
-| Região               | País/Lei                | Padrão             | Status    | Prazo           |
-| -------------------- | ----------------------- | ------------------ | --------- | --------------- |
-| 🇺🇸 **América do Norte** | **EUA - ADA Title II**  | WCAG 2.1 AA        | ✅ Ativo | Abril 2026/2027 |
-|                      | **Canadá - Bill 96**    | Prioridade francesa | ✅ Ativo | Junho 2025      |
-| 🇪🇺 **Europa**        | **UE - EAA**            | EN 301 549         | ✅ Ativo | 28 de junho, 2025 |
-|                      | **Reino Unido - PSBAR** | WCAG 2.1 AA        | ✅ Ativo | Contínuo        |
-| 🇦🇺 **Oceania**       | **Austrália - DDA**     | WCAG 2.1 AA        | ✅ Ativo | Contínuo        |
-|                      | **Nova Zelândia**       | WCAG 2.1 AA        | ✅ Ativo | Julho 2019+     |
-| 🇯🇵 **Ásia**          | **Japão - JIS X8341-3** | WCAG 2.0 AA        | ✅ Ativo | Atualizado 2024 |
-|                      | **Coreia do Sul - KWCAG** | WCAG 2.1 AA      | ✅ Ativo | Contínuo        |
-|                      | **Índia - RPwD Act**    | Padrões nacionais  | ✅ Ativo | Contínuo        |
+| Região                  | País/Lei                  | Padrão              | Status   | Prazo             |
+| ----------------------- | ------------------------- | ------------------- | -------- | ----------------- |
+| 🇺🇸 **América do Norte** | **EUA - ADA Title II**    | WCAG 2.1 AA         | ✅ Ativo | Abril 2026/2027   |
+|                         | **Canadá - Bill 96**      | Prioridade francesa | ✅ Ativo | Junho 2025        |
+| 🇪🇺 **Europa**           | **UE - EAA**              | EN 301 549          | ✅ Ativo | 28 de junho, 2025 |
+|                         | **Reino Unido - PSBAR**   | WCAG 2.1 AA         | ✅ Ativo | Contínuo          |
+| 🇦🇺 **Oceania**          | **Austrália - DDA**       | WCAG 2.1 AA         | ✅ Ativo | Contínuo          |
+|                         | **Nova Zelândia**         | WCAG 2.1 AA         | ✅ Ativo | Julho 2019+       |
+| 🇯🇵 **Ásia**             | **Japão - JIS X8341-3**   | WCAG 2.0 AA         | ✅ Ativo | Atualizado 2024   |
+|                         | **Coreia do Sul - KWCAG** | WCAG 2.1 AA         | ✅ Ativo | Contínuo          |
+|                         | **Índia - RPwD Act**      | Padrões nacionais   | ✅ Ativo | Contínuo          |
 
 ## 📍 Divisão Regional
 
@@ -466,20 +465,24 @@ head:
 
 - **Acessibilidade Web (2010):**
 
+</div>
+
+---
+
 ## 📊 Comparação de Requisitos de Conformidade
 
 <div class="comparison-table-wrapper">
 
-| Requisito          | EUA             | UE (EAA)           | Reino Unido  | Austrália     | Japão          | Coreia do Sul         | Canadá (QC)        |
-| ------------------ | --------------- | ------------------ | ------------ | ------------- | -------------- | --------------------- | ------------------ |
-| **Padrão**         | WCAG 2.1 AA     | EN 301 549         | WCAG 2.1 AA  | WCAG 2.1 AA   | WCAG 2.0 AA    | WCAG 2.1 AA           | Francês + WCAG     |
-| **Legendas**       | ✅ Obrigatório  | ✅ Obrigatório     | ✅ Obrigatório | ✅ Obrigatório | ✅ Recomendado | ✅ Obrigatório        | ✅ Obrigatório     |
-| **Leitores de Tela** | ✅ Sim        | ✅ Sim             | ✅ Sim       | ✅ Sim        | ✅ Sim         | ✅ Sim                | ✅ Sim             |
-| **Texto para Fala** | ✅ Sim         | ✅ Sim             | ✅ Sim       | ✅ Sim        | ✅ Sim         | ✅ Sim                | ✅ Sim             |
-| **Tradução**       | ✅ Multilíngue  | ✅ Multilíngue     | ⚠️ Limitado  | ⚠️ Limitado   | ⚠️ Limitado    | ⚠️ Limitado           | 🇫🇷 Prioridade Francês |
-| **Setor Público**  | ✅ Obrigatório  | ✅ Obrigatório     | ✅ Obrigatório | ✅ Obrigatório | ✅ Obrigatório | ✅ Obrigatório        | ✅ Obrigatório     |
-| **Setor Privado**  | ⚠️ Varia        | ✅ Sim (10+ funcionários) | ⚠️ Limitado | ✅ Recomendado | ⚠️ Recomendado | ✅ Serviços essenciais | ✅ Sim            |
-| **Multa Máxima**   | Financiamento federal | €20M ou 4%   | Lei de Equidade | $20K AUD    | ¥200K (~$1,7K) | ₩5M (~$4K)           | $30K CAD           |
+| Requisito            | EUA                   | UE (EAA)                  | Reino Unido     | Austrália      | Japão          | Coreia do Sul          | Canadá (QC)           |
+| -------------------- | --------------------- | ------------------------- | --------------- | -------------- | -------------- | ---------------------- | --------------------- |
+| **Padrão**           | WCAG 2.1 AA           | EN 301 549                | WCAG 2.1 AA     | WCAG 2.1 AA    | WCAG 2.0 AA    | WCAG 2.1 AA            | Francês + WCAG        |
+| **Legendas**         | ✅ Obrigatório        | ✅ Obrigatório            | ✅ Obrigatório  | ✅ Obrigatório | ✅ Recomendado | ✅ Obrigatório         | ✅ Obrigatório        |
+| **Leitores de Tela** | ✅ Sim                | ✅ Sim                    | ✅ Sim          | ✅ Sim         | ✅ Sim         | ✅ Sim                 | ✅ Sim                |
+| **Texto para Fala**  | ✅ Sim                | ✅ Sim                    | ✅ Sim          | ✅ Sim         | ✅ Sim         | ✅ Sim                 | ✅ Sim                |
+| **Tradução**         | ✅ Multilíngue        | ✅ Multilíngue            | ⚠️ Limitado     | ⚠️ Limitado    | ⚠️ Limitado    | ⚠️ Limitado            | 🇫🇷 Prioridade Francês |
+| **Setor Público**    | ✅ Obrigatório        | ✅ Obrigatório            | ✅ Obrigatório  | ✅ Obrigatório | ✅ Obrigatório | ✅ Obrigatório         | ✅ Obrigatório        |
+| **Setor Privado**    | ⚠️ Varia              | ✅ Sim (10+ funcionários) | ⚠️ Limitado     | ✅ Recomendado | ⚠️ Recomendado | ✅ Serviços essenciais | ✅ Sim                |
+| **Multa Máxima**     | Financiamento federal | €20M ou 4%                | Lei de Equidade | $20K AUD       | ¥200K (~$1,7K) | ₩5M (~$4K)             | $30K CAD              |
 
 </div>
 

@@ -40,17 +40,17 @@ head:
 
 ## 🌍 Pays en un coup d'œil
 
-| Région               | Pays/Loi                | Standard           | Statut    | Échéance        |
-| -------------------- | ----------------------- | ------------------ | --------- | --------------- |
-| 🇺🇸 **Amérique du Nord** | **États-Unis - ADA Title II**  | WCAG 2.1 AA        | ✅ Actif | Avril 2026/2027 |
-|                      | **Canada - Projet de loi 96**    | Priorité française    | ✅ Actif | Juin 2025       |
-| 🇪🇺 **Europe**        | **UE - EAA**            | EN 301 549         | ✅ Actif | 28 juin 2025   |
-|                      | **Royaume-Uni - PSBAR**          | WCAG 2.1 AA        | ✅ Actif | En cours         |
-| 🇦🇺 **Océanie**       | **Australie - DDA**     | WCAG 2.1 AA        | ✅ Actif | En cours         |
-|                      | **Nouvelle-Zélande**         | WCAG 2.1 AA        | ✅ Actif | Juillet 2019+      |
-| 🇯🇵 **Asie**          | **Japon - JIS X8341-3** | WCAG 2.0 AA        | ✅ Actif | Mis à jour 2024    |
-|                      | **Corée du Sud - KWCAG** | WCAG 2.1 AA        | ✅ Actif | En cours         |
-|                      | **Inde - Loi RPwD**    | Standards nationaux | ✅ Actif | En cours         |
+| Région                  | Pays/Loi                      | Standard            | Statut   | Échéance        |
+| ----------------------- | ----------------------------- | ------------------- | -------- | --------------- |
+| 🇺🇸 **Amérique du Nord** | **États-Unis - ADA Title II** | WCAG 2.1 AA         | ✅ Actif | Avril 2026/2027 |
+|                         | **Canada - Projet de loi 96** | Priorité française  | ✅ Actif | Juin 2025       |
+| 🇪🇺 **Europe**           | **UE - EAA**                  | EN 301 549          | ✅ Actif | 28 juin 2025    |
+|                         | **Royaume-Uni - PSBAR**       | WCAG 2.1 AA         | ✅ Actif | En cours        |
+| 🇦🇺 **Océanie**          | **Australie - DDA**           | WCAG 2.1 AA         | ✅ Actif | En cours        |
+|                         | **Nouvelle-Zélande**          | WCAG 2.1 AA         | ✅ Actif | Juillet 2019+   |
+| 🇯🇵 **Asie**             | **Japon - JIS X8341-3**       | WCAG 2.0 AA         | ✅ Actif | Mis à jour 2024 |
+|                         | **Corée du Sud - KWCAG**      | WCAG 2.1 AA         | ✅ Actif | En cours        |
+|                         | **Inde - Loi RPwD**           | Standards nationaux | ✅ Actif | En cours        |
 
 ## 📍 Répartition régionale
 
@@ -460,20 +460,24 @@ head:
 - **Loi d'inclusion des personnes handicapées (LBI 13.146/2015)**
 - Couvre l'accessibilité physique
 
+</div>
+
+---
+
 ## 📊 Comparaison des exigences de conformité
 
 <div class="comparison-table-wrapper">
 
-| Exigence           | États-Unis      | UE (EAA)           | Royaume-Uni  | Australie     | Japon          | Corée du Sud          | Canada (QC)        |
-| ------------------ | --------------- | ------------------ | ------------ | ------------- | -------------- | --------------------- | ------------------ |
-| **Standard**       | WCAG 2.1 AA     | EN 301 549         | WCAG 2.1 AA  | WCAG 2.1 AA   | WCAG 2.0 AA    | WCAG 2.1 AA           | Français + WCAG    |
-| **Sous-titres**    | ✅ Obligatoire  | ✅ Obligatoire     | ✅ Obligatoire | ✅ Obligatoire | ✅ Encouragé   | ✅ Obligatoire        | ✅ Obligatoire     |
-| **Lecteurs d\'écran** | ✅ Oui       | ✅ Oui             | ✅ Oui       | ✅ Oui        | ✅ Oui         | ✅ Oui                | ✅ Oui             |
-| **Synthèse vocale** | ✅ Oui         | ✅ Oui             | ✅ Oui       | ✅ Oui        | ✅ Oui         | ✅ Oui                | ✅ Oui             |
-| **Traduction**     | ✅ Multilingue  | ✅ Multilingue     | ⚠️ Limité    | ⚠️ Limité     | ⚠️ Limité      | ⚠️ Limité             | 🇫🇷 Priorité française |
-| **Secteur public** | ✅ Obligatoire  | ✅ Obligatoire     | ✅ Obligatoire | ✅ Obligatoire | ✅ Obligatoire | ✅ Obligatoire        | ✅ Obligatoire     |
-| **Secteur privé**  | ⚠️ Variable     | ✅ Oui (10+ employés) | ⚠️ Limité | ✅ Encouragé  | ⚠️ Encouragé   | ✅ Services essentiels | ✅ Oui             |
-| **Amende max.**    | Financement fédéral | 20M€ ou 4%     | Loi sur l\'équité | 20K$ AUD   | ¥200K (~1,7K$) | ₩5M (~4K$)           | 30K$ CAD           |
+| Exigence              | États-Unis          | UE (EAA)              | Royaume-Uni       | Australie      | Japon          | Corée du Sud           | Canada (QC)           |
+| --------------------- | ------------------- | --------------------- | ----------------- | -------------- | -------------- | ---------------------- | --------------------- |
+| **Standard**          | WCAG 2.1 AA         | EN 301 549            | WCAG 2.1 AA       | WCAG 2.1 AA    | WCAG 2.0 AA    | WCAG 2.1 AA            | Français + WCAG       |
+| **Sous-titres**       | ✅ Obligatoire      | ✅ Obligatoire        | ✅ Obligatoire    | ✅ Obligatoire | ✅ Encouragé   | ✅ Obligatoire         | ✅ Obligatoire        |
+| **Lecteurs d\'écran** | ✅ Oui              | ✅ Oui                | ✅ Oui            | ✅ Oui         | ✅ Oui         | ✅ Oui                 | ✅ Oui                |
+| **Synthèse vocale**   | ✅ Oui              | ✅ Oui                | ✅ Oui            | ✅ Oui         | ✅ Oui         | ✅ Oui                 | ✅ Oui                |
+| **Traduction**        | ✅ Multilingue      | ✅ Multilingue        | ⚠️ Limité         | ⚠️ Limité      | ⚠️ Limité      | ⚠️ Limité              | 🇫🇷 Priorité française |
+| **Secteur public**    | ✅ Obligatoire      | ✅ Obligatoire        | ✅ Obligatoire    | ✅ Obligatoire | ✅ Obligatoire | ✅ Obligatoire         | ✅ Obligatoire        |
+| **Secteur privé**     | ⚠️ Variable         | ✅ Oui (10+ employés) | ⚠️ Limité         | ✅ Encouragé   | ⚠️ Encouragé   | ✅ Services essentiels | ✅ Oui                |
+| **Amende max.**       | Financement fédéral | 20M€ ou 4%            | Loi sur l\'équité | 20K$ AUD       | ¥200K (~1,7K$) | ₩5M (~4K$)             | 30K$ CAD              |
 
 </div>
 

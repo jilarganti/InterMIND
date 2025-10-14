@@ -40,17 +40,17 @@ head:
 
 ## 🌍 Tổng quan các quốc gia
 
-| Khu vực              | Quốc gia/Luật           | Tiêu chuẩn         | Trạng thái | Thời hạn        |
-| -------------------- | ----------------------- | ------------------ | ---------- | --------------- |
-| 🇺🇸 **Bắc Mỹ**       | **Hoa Kỳ - ADA Title II** | WCAG 2.1 AA        | ✅ Hiệu lực | Tháng 4/2026/2027 |
-|                      | **Canada - Bill 96**    | Ưu tiên tiếng Pháp | ✅ Hiệu lực | Tháng 6/2025    |
-| 🇪🇺 **Châu Âu**       | **EU - EAA**            | EN 301 549         | ✅ Hiệu lực | 28 tháng 6/2025 |
-|                      | **Anh - PSBAR**         | WCAG 2.1 AA        | ✅ Hiệu lực | Liên tục        |
-| 🇦🇺 **Châu Đại Dương** | **Úc - DDA**            | WCAG 2.1 AA        | ✅ Hiệu lực | Liên tục        |
-|                      | **New Zealand**         | WCAG 2.1 AA        | ✅ Hiệu lực | Tháng 7/2019+   |
-| 🇯🇵 **Châu Á**        | **Nhật Bản - JIS X8341-3** | WCAG 2.0 AA        | ✅ Hiệu lực | Cập nhật 2024   |
-|                      | **Hàn Quốc - KWCAG**    | WCAG 2.1 AA        | ✅ Hiệu lực | Liên tục        |
-|                      | **Ấn Độ - RPwD Act**    | Tiêu chuẩn quốc gia | ✅ Hiệu lực | Liên tục        |
+| Khu vực               | Quốc gia/Luật              | Tiêu chuẩn          | Trạng thái  | Thời hạn          |
+| --------------------- | -------------------------- | ------------------- | ----------- | ----------------- |
+| 🇺🇸 **Bắc Mỹ**         | **Hoa Kỳ - ADA Title II**  | WCAG 2.1 AA         | ✅ Hiệu lực | Tháng 4/2026/2027 |
+|                       | **Canada - Bill 96**       | Ưu tiên tiếng Pháp  | ✅ Hiệu lực | Tháng 6/2025      |
+| 🇪🇺 **Châu Âu**        | **EU - EAA**               | EN 301 549          | ✅ Hiệu lực | 28 tháng 6/2025   |
+|                       | **Anh - PSBAR**            | WCAG 2.1 AA         | ✅ Hiệu lực | Liên tục          |
+| 🇦🇺 **Châu Đại Dương** | **Úc - DDA**               | WCAG 2.1 AA         | ✅ Hiệu lực | Liên tục          |
+|                       | **New Zealand**            | WCAG 2.1 AA         | ✅ Hiệu lực | Tháng 7/2019+     |
+| 🇯🇵 **Châu Á**         | **Nhật Bản - JIS X8341-3** | WCAG 2.0 AA         | ✅ Hiệu lực | Cập nhật 2024     |
+|                       | **Hàn Quốc - KWCAG**       | WCAG 2.1 AA         | ✅ Hiệu lực | Liên tục          |
+|                       | **Ấn Độ - RPwD Act**       | Tiêu chuẩn quốc gia | ✅ Hiệu lực | Liên tục          |
 
 ## 📍 Phân tích theo khu vực
 
@@ -343,16 +343,16 @@ head:
 
 <div class="comparison-table-wrapper">
 
-| Yêu cầu            | Hoa Kỳ          | EU (EAA)           | Anh          | Úc            | Nhật Bản       | Hàn Quốc              | Canada (QC)        |
-| ------------------ | --------------- | ------------------ | ------------ | ------------- | -------------- | --------------------- | ------------------ |
-| **Tiêu chuẩn**     | WCAG 2.1 AA     | EN 301 549         | WCAG 2.1 AA  | WCAG 2.1 AA   | WCAG 2.0 AA    | WCAG 2.1 AA           | Tiếng Pháp + WCAG  |
-| **Phụ đề**         | ✅ Bắt buộc     | ✅ Bắt buộc        | ✅ Bắt buộc  | ✅ Bắt buộc   | ✅ Khuyến khích | ✅ Bắt buộc           | ✅ Bắt buộc        |
-| **Trình đọc màn hình** | ✅ Có       | ✅ Có              | ✅ Có        | ✅ Có         | ✅ Có          | ✅ Có                 | ✅ Có              |
-| **Chuyển văn bản thành giọng nói** | ✅ Có | ✅ Có        | ✅ Có        | ✅ Có         | ✅ Có          | ✅ Có                 | ✅ Có              |
-| **Dịch thuật**     | ✅ Đa ngôn ngữ  | ✅ Đa ngôn ngữ     | ⚠️ Hạn chế   | ⚠️ Hạn chế    | ⚠️ Hạn chế     | ⚠️ Hạn chế            | 🇫🇷 Ưu tiên tiếng Pháp |
-| **Khu vực công**   | ✅ Bắt buộc     | ✅ Bắt buộc        | ✅ Bắt buộc  | ✅ Bắt buộc   | ✅ Bắt buộc    | ✅ Bắt buộc           | ✅ Bắt buộc        |
-| **Khu vực tư**     | ⚠️ Khác nhau    | ✅ Có (10+ nhân viên) | ⚠️ Hạn chế | ✅ Khuyến khích | ⚠️ Khuyến khích | ✅ Dịch vụ thiết yếu | ✅ Có              |
-| **Mức phạt tối đa** | Tài trợ liên bang | €20M hoặc 4%     | Luật Công bằng | $20K AUD    | ¥200K (~$1.7K) | ₩5M (~$4K)           | $30K CAD           |
+| Yêu cầu                            | Hoa Kỳ            | EU (EAA)              | Anh            | Úc              | Nhật Bản        | Hàn Quốc             | Canada (QC)           |
+| ---------------------------------- | ----------------- | --------------------- | -------------- | --------------- | --------------- | -------------------- | --------------------- |
+| **Tiêu chuẩn**                     | WCAG 2.1 AA       | EN 301 549            | WCAG 2.1 AA    | WCAG 2.1 AA     | WCAG 2.0 AA     | WCAG 2.1 AA          | Tiếng Pháp + WCAG     |
+| **Phụ đề**                         | ✅ Bắt buộc       | ✅ Bắt buộc           | ✅ Bắt buộc    | ✅ Bắt buộc     | ✅ Khuyến khích | ✅ Bắt buộc          | ✅ Bắt buộc           |
+| **Trình đọc màn hình**             | ✅ Có             | ✅ Có                 | ✅ Có          | ✅ Có           | ✅ Có           | ✅ Có                | ✅ Có                 |
+| **Chuyển văn bản thành giọng nói** | ✅ Có             | ✅ Có                 | ✅ Có          | ✅ Có           | ✅ Có           | ✅ Có                | ✅ Có                 |
+| **Dịch thuật**                     | ✅ Đa ngôn ngữ    | ✅ Đa ngôn ngữ        | ⚠️ Hạn chế     | ⚠️ Hạn chế      | ⚠️ Hạn chế      | ⚠️ Hạn chế           | 🇫🇷 Ưu tiên tiếng Pháp |
+| **Khu vực công**                   | ✅ Bắt buộc       | ✅ Bắt buộc           | ✅ Bắt buộc    | ✅ Bắt buộc     | ✅ Bắt buộc     | ✅ Bắt buộc          | ✅ Bắt buộc           |
+| **Khu vực tư**                     | ⚠️ Khác nhau      | ✅ Có (10+ nhân viên) | ⚠️ Hạn chế     | ✅ Khuyến khích | ⚠️ Khuyến khích | ✅ Dịch vụ thiết yếu | ✅ Có                 |
+| **Mức phạt tối đa**                | Tài trợ liên bang | €20M hoặc 4%          | Luật Công bằng | $20K AUD        | ¥200K (~$1.7K)  | ₩5M (~$4K)           | $30K CAD              |
 
 </div>
 
@@ -646,6 +646,8 @@ Bao gồm:
 4. **Triển khai các giải pháp khả năng tiếp cận** (dịch thuật AI, phụ đề, hỗ trợ trình đọc màn hình)
 5. **Kiểm tra kỹ lưỡng** với các công cụ tự động và người dùng thực tế
 6. **Ghi chép và duy trì** chương trình khả năng tiếp cận của bạn
+
+</div>
 
 </div>
 

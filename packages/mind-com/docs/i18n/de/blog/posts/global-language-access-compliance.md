@@ -8,7 +8,6 @@ head:
   - - meta
     - name: keywords
       content: "Sprachzugang, Barrierefreiheits-Compliance, ADA, EAA, WCAG, digitale Barrierefreiheit, Übersetzung, Untertitel"
-
 ---
 
 # Globale Sprachzugangs-Compliance: Vollständiger Leitfaden (2025)
@@ -41,17 +40,17 @@ head:
 
 ## 🌍 Länder im Überblick
 
-| Region               | Land/Gesetz             | Standard           | Status    | Frist           |
-| -------------------- | ----------------------- | ------------------ | --------- | --------------- |
-| 🇺🇸 **Nordamerika**   | **USA - ADA Title II**  | WCAG 2.1 AA        | ✅ Aktiv  | April 2026/2027 |
-|                      | **Kanada - Bill 96**    | Französisch prioritär | ✅ Aktiv  | Juni 2025       |
-| 🇪🇺 **Europa**        | **EU - EAA**            | EN 301 549         | ✅ Aktiv  | 28. Juni 2025   |
-|                      | **UK - PSBAR**          | WCAG 2.1 AA        | ✅ Aktiv  | Laufend         |
-| 🇦🇺 **Ozeanien**      | **Australien - DDA**    | WCAG 2.1 AA        | ✅ Aktiv  | Laufend         |
-|                      | **Neuseeland**          | WCAG 2.1 AA        | ✅ Aktiv  | Juli 2019+      |
-| 🇯🇵 **Asien**         | **Japan - JIS X8341-3** | WCAG 2.0 AA        | ✅ Aktiv  | Aktualisiert 2024 |
-|                      | **Südkorea - KWCAG**    | WCAG 2.1 AA        | ✅ Aktiv  | Laufend         |
-|                      | **Indien - RPwD Act**   | Nationale Standards | ✅ Aktiv  | Laufend         |
+| Region             | Land/Gesetz             | Standard              | Status   | Frist             |
+| ------------------ | ----------------------- | --------------------- | -------- | ----------------- |
+| 🇺🇸 **Nordamerika** | **USA - ADA Title II**  | WCAG 2.1 AA           | ✅ Aktiv | April 2026/2027   |
+|                    | **Kanada - Bill 96**    | Französisch prioritär | ✅ Aktiv | Juni 2025         |
+| 🇪🇺 **Europa**      | **EU - EAA**            | EN 301 549            | ✅ Aktiv | 28. Juni 2025     |
+|                    | **UK - PSBAR**          | WCAG 2.1 AA           | ✅ Aktiv | Laufend           |
+| 🇦🇺 **Ozeanien**    | **Australien - DDA**    | WCAG 2.1 AA           | ✅ Aktiv | Laufend           |
+|                    | **Neuseeland**          | WCAG 2.1 AA           | ✅ Aktiv | Juli 2019+        |
+| 🇯🇵 **Asien**       | **Japan - JIS X8341-3** | WCAG 2.0 AA           | ✅ Aktiv | Aktualisiert 2024 |
+|                    | **Südkorea - KWCAG**    | WCAG 2.1 AA           | ✅ Aktiv | Laufend           |
+|                    | **Indien - RPwD Act**   | Nationale Standards   | ✅ Aktiv | Laufend           |
 
 ## 📍 Regionale Aufschlüsselung
 
@@ -449,20 +448,24 @@ head:
 - **GB/T 37668-2019:** Nationale Barrierefreiheitsstandards (aktualisiert 2019)
 - Basiert auf WCAG-
 
+</div>
+
+---
+
 ## 📊 Vergleich der Compliance-Anforderungen
 
 <div class="comparison-table-wrapper">
 
-| Anforderung        | USA             | EU (EAA)           | UK           | Australien    | Japan          | Südkorea              | Kanada (QC)        |
-| ------------------ | --------------- | ------------------ | ------------ | ------------- | -------------- | --------------------- | ------------------ |
-| **Standard**       | WCAG 2.1 AA     | EN 301 549         | WCAG 2.1 AA  | WCAG 2.1 AA   | WCAG 2.0 AA    | WCAG 2.1 AA           | Französisch + WCAG |
-| **Untertitel**     | ✅ Erforderlich | ✅ Erforderlich    | ✅ Erforderlich | ✅ Erforderlich | ✅ Empfohlen | ✅ Erforderlich       | ✅ Erforderlich    |
-| **Screenreader**   | ✅ Ja           | ✅ Ja              | ✅ Ja        | ✅ Ja         | ✅ Ja          | ✅ Ja                 | ✅ Ja              |
-| **Text-zu-Sprache** | ✅ Ja          | ✅ Ja              | ✅ Ja        | ✅ Ja         | ✅ Ja          | ✅ Ja                 | ✅ Ja              |
-| **Übersetzung**    | ✅ Mehrsprachig | ✅ Mehrsprachig    | ⚠️ Begrenzt  | ⚠️ Begrenzt   | ⚠️ Begrenzt    | ⚠️ Begrenzt           | 🇫🇷 Französisch Priorität |
-| **Öffentlicher Sektor** | ✅ Verpflichtend | ✅ Verpflichtend | ✅ Verpflichtend | ✅ Verpflichtend | ✅ Verpflichtend | ✅ Verpflichtend    | ✅ Verpflichtend   |
-| **Privatsektor**   | ⚠️ Variiert     | ✅ Ja (10+ Mitarbeiter) | ⚠️ Begrenzt | ✅ Empfohlen | ⚠️ Empfohlen   | ✅ Wesentliche Dienste | ✅ Ja            |
-| **Max. Bußgeld**   | Bundesförderung | €20M oder 4%       | Equity Act   | $20K AUD      | ¥200K (~$1.7K) | ₩5M (~$4K)            | $30K CAD           |
+| Anforderung             | USA              | EU (EAA)                | UK               | Australien       | Japan            | Südkorea               | Kanada (QC)              |
+| ----------------------- | ---------------- | ----------------------- | ---------------- | ---------------- | ---------------- | ---------------------- | ------------------------ |
+| **Standard**            | WCAG 2.1 AA      | EN 301 549              | WCAG 2.1 AA      | WCAG 2.1 AA      | WCAG 2.0 AA      | WCAG 2.1 AA            | Französisch + WCAG       |
+| **Untertitel**          | ✅ Erforderlich  | ✅ Erforderlich         | ✅ Erforderlich  | ✅ Erforderlich  | ✅ Empfohlen     | ✅ Erforderlich        | ✅ Erforderlich          |
+| **Screenreader**        | ✅ Ja            | ✅ Ja                   | ✅ Ja            | ✅ Ja            | ✅ Ja            | ✅ Ja                  | ✅ Ja                    |
+| **Text-zu-Sprache**     | ✅ Ja            | ✅ Ja                   | ✅ Ja            | ✅ Ja            | ✅ Ja            | ✅ Ja                  | ✅ Ja                    |
+| **Übersetzung**         | ✅ Mehrsprachig  | ✅ Mehrsprachig         | ⚠️ Begrenzt      | ⚠️ Begrenzt      | ⚠️ Begrenzt      | ⚠️ Begrenzt            | 🇫🇷 Französisch Priorität |
+| **Öffentlicher Sektor** | ✅ Verpflichtend | ✅ Verpflichtend        | ✅ Verpflichtend | ✅ Verpflichtend | ✅ Verpflichtend | ✅ Verpflichtend       | ✅ Verpflichtend         |
+| **Privatsektor**        | ⚠️ Variiert      | ✅ Ja (10+ Mitarbeiter) | ⚠️ Begrenzt      | ✅ Empfohlen     | ⚠️ Empfohlen     | ✅ Wesentliche Dienste | ✅ Ja                    |
+| **Max. Bußgeld**        | Bundesförderung  | €20M oder 4%            | Equity Act       | $20K AUD         | ¥200K (~$1.7K)   | ₩5M (~$4K)             | $30K CAD                 |
 
 </div>
 

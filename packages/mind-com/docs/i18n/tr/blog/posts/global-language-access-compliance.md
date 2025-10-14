@@ -40,17 +40,17 @@ head:
 
 ## 🌍 Ülkelere Hızlı Bakış
 
-| Bölge                | Ülke/Yasa               | Standart           | Durum     | Son Tarih       |
-| -------------------- | ----------------------- | ------------------ | --------- | --------------- |
-| 🇺🇸 **Kuzey Amerika** | **ABD - ADA Title II**  | WCAG 2.1 AA        | ✅ Aktif | Nisan 2026/2027 |
-|                      | **Kanada - Bill 96**    | Fransızca öncelik  | ✅ Aktif | Haziran 2025    |
-| 🇪🇺 **Avrupa**        | **AB - EAA**            | EN 301 549         | ✅ Aktif | 28 Haziran 2025 |
-|                      | **İngiltere - PSBAR**   | WCAG 2.1 AA        | ✅ Aktif | Devam ediyor    |
-| 🇦🇺 **Okyanusya**     | **Avustralya - DDA**    | WCAG 2.1 AA        | ✅ Aktif | Devam ediyor    |
-|                      | **Yeni Zelanda**        | WCAG 2.1 AA        | ✅ Aktif | Temmuz 2019+    |
-| 🇯🇵 **Asya**          | **Japonya - JIS X8341-3** | WCAG 2.0 AA     | ✅ Aktif | Güncellendi 2024 |
-|                      | **Güney Kore - KWCAG** | WCAG 2.1 AA        | ✅ Aktif | Devam ediyor    |
-|                      | **Hindistan - RPwD Act** | Ulusal standartlar | ✅ Aktif | Devam ediyor    |
+| Bölge                | Ülke/Yasa                 | Standart           | Durum    | Son Tarih        |
+| -------------------- | ------------------------- | ------------------ | -------- | ---------------- |
+| 🇺🇸 **Kuzey Amerika** | **ABD - ADA Title II**    | WCAG 2.1 AA        | ✅ Aktif | Nisan 2026/2027  |
+|                      | **Kanada - Bill 96**      | Fransızca öncelik  | ✅ Aktif | Haziran 2025     |
+| 🇪🇺 **Avrupa**        | **AB - EAA**              | EN 301 549         | ✅ Aktif | 28 Haziran 2025  |
+|                      | **İngiltere - PSBAR**     | WCAG 2.1 AA        | ✅ Aktif | Devam ediyor     |
+| 🇦🇺 **Okyanusya**     | **Avustralya - DDA**      | WCAG 2.1 AA        | ✅ Aktif | Devam ediyor     |
+|                      | **Yeni Zelanda**          | WCAG 2.1 AA        | ✅ Aktif | Temmuz 2019+     |
+| 🇯🇵 **Asya**          | **Japonya - JIS X8341-3** | WCAG 2.0 AA        | ✅ Aktif | Güncellendi 2024 |
+|                      | **Güney Kore - KWCAG**    | WCAG 2.1 AA        | ✅ Aktif | Devam ediyor     |
+|                      | **Hindistan - RPwD Act**  | Ulusal standartlar | ✅ Aktif | Devam ediyor     |
 
 ## 📍 Bölgesel Dağılım
 
@@ -385,20 +385,24 @@ head:
 - Erişilebilir kiosk yenileme için ₩9,2 milyar tahsis edildi
 - Küçük işletme danışmanlık
 
+</div>
+
+---
+
 ## 📊 Uyumluluk Gereksinimleri Karşılaştırması
 
 <div class="comparison-table-wrapper">
 
-| Gereksinim         | ABD             | AB (EAA)           | İngiltere    | Avustralya    | Japonya        | G. Kore               | Kanada (QC)        |
-| ------------------ | --------------- | ------------------ | ------------ | ------------- | -------------- | --------------------- | ------------------ |
-| **Standart**       | WCAG 2.1 AA     | EN 301 549         | WCAG 2.1 AA  | WCAG 2.1 AA   | WCAG 2.0 AA    | WCAG 2.1 AA           | Fransızca + WCAG   |
-| **Altyazılar**     | ✅ Gerekli      | ✅ Gerekli         | ✅ Gerekli   | ✅ Gerekli    | ✅ Önerilen    | ✅ Gerekli            | ✅ Gerekli         |
-| **Ekran Okuyucular** | ✅ Evet       | ✅ Evet            | ✅ Evet      | ✅ Evet       | ✅ Evet        | ✅ Evet               | ✅ Evet            |
-| **Metinden Sese**  | ✅ Evet         | ✅ Evet            | ✅ Evet      | ✅ Evet       | ✅ Evet        | ✅ Evet               | ✅ Evet            |
-| **Çeviri**         | ✅ Çok Dilli    | ✅ Çok Dilli       | ⚠️ Sınırlı   | ⚠️ Sınırlı    | ⚠️ Sınırlı     | ⚠️ Sınırlı            | 🇫🇷 Fransızca Öncelik |
-| **Kamu Sektörü**   | ✅ Zorunlu      | ✅ Zorunlu         | ✅ Zorunlu   | ✅ Zorunlu    | ✅ Zorunlu     | ✅ Zorunlu            | ✅ Zorunlu         |
-| **Özel Sektör**    | ⚠️ Değişken     | ✅ Evet (10+ personel) | ⚠️ Sınırlı | ✅ Önerilen   | ⚠️ Önerilen    | ✅ Temel hizmetler    | ✅ Evet            |
-| **Maksimum Ceza**  | Federal fon     | €20M veya %4       | Eşitlik Yasası | $20K AUD    | ¥200K (~$1.7K) | ₩5M (~$4K)            | $30K CAD           |
+| Gereksinim           | ABD          | AB (EAA)               | İngiltere      | Avustralya  | Japonya        | G. Kore            | Kanada (QC)          |
+| -------------------- | ------------ | ---------------------- | -------------- | ----------- | -------------- | ------------------ | -------------------- |
+| **Standart**         | WCAG 2.1 AA  | EN 301 549             | WCAG 2.1 AA    | WCAG 2.1 AA | WCAG 2.0 AA    | WCAG 2.1 AA        | Fransızca + WCAG     |
+| **Altyazılar**       | ✅ Gerekli   | ✅ Gerekli             | ✅ Gerekli     | ✅ Gerekli  | ✅ Önerilen    | ✅ Gerekli         | ✅ Gerekli           |
+| **Ekran Okuyucular** | ✅ Evet      | ✅ Evet                | ✅ Evet        | ✅ Evet     | ✅ Evet        | ✅ Evet            | ✅ Evet              |
+| **Metinden Sese**    | ✅ Evet      | ✅ Evet                | ✅ Evet        | ✅ Evet     | ✅ Evet        | ✅ Evet            | ✅ Evet              |
+| **Çeviri**           | ✅ Çok Dilli | ✅ Çok Dilli           | ⚠️ Sınırlı     | ⚠️ Sınırlı  | ⚠️ Sınırlı     | ⚠️ Sınırlı         | 🇫🇷 Fransızca Öncelik |
+| **Kamu Sektörü**     | ✅ Zorunlu   | ✅ Zorunlu             | ✅ Zorunlu     | ✅ Zorunlu  | ✅ Zorunlu     | ✅ Zorunlu         | ✅ Zorunlu           |
+| **Özel Sektör**      | ⚠️ Değişken  | ✅ Evet (10+ personel) | ⚠️ Sınırlı     | ✅ Önerilen | ⚠️ Önerilen    | ✅ Temel hizmetler | ✅ Evet              |
+| **Maksimum Ceza**    | Federal fon  | €20M veya %4           | Eşitlik Yasası | $20K AUD    | ¥200K (~$1.7K) | ₩5M (~$4K)         | $30K CAD             |
 
 </div>
 

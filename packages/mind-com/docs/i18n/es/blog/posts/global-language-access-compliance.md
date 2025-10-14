@@ -8,7 +8,6 @@ head:
   - - meta
     - name: keywords
       content: acceso lingüístico, cumplimiento de accesibilidad, ADA, EAA, WCAG, accesibilidad digital, traducción, subtítulos
-
 ---
 
 # Cumplimiento de Acceso Lingüístico Global: Guía Completa (2025)
@@ -41,17 +40,17 @@ head:
 
 ## 🌍 Países de un vistazo
 
-| Región               | País/Ley                | Estándar           | Estado    | Fecha límite    |
-| -------------------- | ----------------------- | ------------------ | --------- | --------------- |
-| 🇺🇸 **América del Norte** | **EUA - ADA Título II**  | WCAG 2.1 AA        | ✅ Activo | Abril 2026/2027 |
-|                      | **Canadá - Proyecto de Ley 96**    | Prioridad francés    | ✅ Activo | Junio 2025       |
-| 🇪🇺 **Europa**        | **UE - EAA**            | EN 301 549         | ✅ Activo | 28 de junio, 2025   |
-|                      | **Reino Unido - PSBAR**          | WCAG 2.1 AA        | ✅ Activo | En curso         |
-| 🇦🇺 **Oceanía**       | **Australia - DDA**     | WCAG 2.1 AA        | ✅ Activo | En curso         |
-|                      | **Nueva Zelanda**         | WCAG 2.1 AA        | ✅ Activo | Julio 2019+      |
-| 🇯🇵 **Asia**          | **Japón - JIS X8341-3** | WCAG 2.0 AA        | ✅ Activo | Actualizado 2024    |
-|                      | **Corea del Sur - KWCAG** | WCAG 2.1 AA        | ✅ Activo | En curso         |
-|                      | **India - Ley RPwD**    | Estándares nacionales | ✅ Activo | En curso         |
+| Región                   | País/Ley                        | Estándar              | Estado    | Fecha límite      |
+| ------------------------ | ------------------------------- | --------------------- | --------- | ----------------- |
+| 🇺🇸 **América del Norte** | **EUA - ADA Título II**         | WCAG 2.1 AA           | ✅ Activo | Abril 2026/2027   |
+|                          | **Canadá - Proyecto de Ley 96** | Prioridad francés     | ✅ Activo | Junio 2025        |
+| 🇪🇺 **Europa**            | **UE - EAA**                    | EN 301 549            | ✅ Activo | 28 de junio, 2025 |
+|                          | **Reino Unido - PSBAR**         | WCAG 2.1 AA           | ✅ Activo | En curso          |
+| 🇦🇺 **Oceanía**           | **Australia - DDA**             | WCAG 2.1 AA           | ✅ Activo | En curso          |
+|                          | **Nueva Zelanda**               | WCAG 2.1 AA           | ✅ Activo | Julio 2019+       |
+| 🇯🇵 **Asia**              | **Japón - JIS X8341-3**         | WCAG 2.0 AA           | ✅ Activo | Actualizado 2024  |
+|                          | **Corea del Sur - KWCAG**       | WCAG 2.1 AA           | ✅ Activo | En curso          |
+|                          | **India - Ley RPwD**            | Estándares nacionales | ✅ Activo | En curso          |
 
 ## 📍 Desglose Regional
 
@@ -460,20 +459,24 @@ head:
 
 - **Ley de Inclusión de Personas con Discapacidades (LBI 13.146/2015)**
 
+</div>
+
+---
+
 ## 📊 Comparación de requisitos de cumplimiento
 
 <div class="comparison-table-wrapper">
 
-| Requisito          | EE.UU.          | UE (EAA)           | Reino Unido  | Australia     | Japón          | Corea del Sur         | Canadá (QC)        |
-| ------------------ | --------------- | ------------------ | ------------ | ------------- | -------------- | --------------------- | ------------------ |
-| **Estándar**       | WCAG 2.1 AA     | EN 301 549         | WCAG 2.1 AA  | WCAG 2.1 AA   | WCAG 2.0 AA    | WCAG 2.1 AA           | Francés + WCAG     |
-| **Subtítulos**     | ✅ Obligatorio  | ✅ Obligatorio     | ✅ Obligatorio | ✅ Obligatorio | ✅ Recomendado | ✅ Obligatorio        | ✅ Obligatorio     |
-| **Lectores de pantalla** | ✅ Sí     | ✅ Sí              | ✅ Sí        | ✅ Sí         | ✅ Sí          | ✅ Sí                 | ✅ Sí              |
-| **Texto a voz**    | ✅ Sí           | ✅ Sí              | ✅ Sí        | ✅ Sí         | ✅ Sí          | ✅ Sí                 | ✅ Sí              |
-| **Traducción**     | ✅ Multiidioma  | ✅ Multiidioma     | ⚠️ Limitado  | ⚠️ Limitado   | ⚠️ Limitado    | ⚠️ Limitado           | 🇫🇷 Prioridad francés |
-| **Sector público** | ✅ Obligatorio  | ✅ Obligatorio     | ✅ Obligatorio | ✅ Obligatorio | ✅ Obligatorio | ✅ Obligatorio        | ✅ Obligatorio     |
-| **Sector privado** | ⚠️ Varía        | ✅ Sí (10+ empleados) | ⚠️ Limitado | ✅ Recomendado | ⚠️ Recomendado | ✅ Servicios esenciales | ✅ Sí            |
-| **Multa máxima**   | Financiamiento federal | €20M o 4%   | Ley de equidad | $20K AUD    | ¥200K (~$1.7K) | ₩5M (~$4K)           | $30K CAD           |
+| Requisito                | EE.UU.                 | UE (EAA)              | Reino Unido    | Australia      | Japón          | Corea del Sur           | Canadá (QC)          |
+| ------------------------ | ---------------------- | --------------------- | -------------- | -------------- | -------------- | ----------------------- | -------------------- |
+| **Estándar**             | WCAG 2.1 AA            | EN 301 549            | WCAG 2.1 AA    | WCAG 2.1 AA    | WCAG 2.0 AA    | WCAG 2.1 AA             | Francés + WCAG       |
+| **Subtítulos**           | ✅ Obligatorio         | ✅ Obligatorio        | ✅ Obligatorio | ✅ Obligatorio | ✅ Recomendado | ✅ Obligatorio          | ✅ Obligatorio       |
+| **Lectores de pantalla** | ✅ Sí                  | ✅ Sí                 | ✅ Sí          | ✅ Sí          | ✅ Sí          | ✅ Sí                   | ✅ Sí                |
+| **Texto a voz**          | ✅ Sí                  | ✅ Sí                 | ✅ Sí          | ✅ Sí          | ✅ Sí          | ✅ Sí                   | ✅ Sí                |
+| **Traducción**           | ✅ Multiidioma         | ✅ Multiidioma        | ⚠️ Limitado    | ⚠️ Limitado    | ⚠️ Limitado    | ⚠️ Limitado             | 🇫🇷 Prioridad francés |
+| **Sector público**       | ✅ Obligatorio         | ✅ Obligatorio        | ✅ Obligatorio | ✅ Obligatorio | ✅ Obligatorio | ✅ Obligatorio          | ✅ Obligatorio       |
+| **Sector privado**       | ⚠️ Varía               | ✅ Sí (10+ empleados) | ⚠️ Limitado    | ✅ Recomendado | ⚠️ Recomendado | ✅ Servicios esenciales | ✅ Sí                |
+| **Multa máxima**         | Financiamiento federal | €20M o 4%             | Ley de equidad | $20K AUD       | ¥200K (~$1.7K) | ₩5M (~$4K)              | $30K CAD             |
 
 </div>
 

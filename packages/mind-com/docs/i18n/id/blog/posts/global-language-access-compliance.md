@@ -8,7 +8,6 @@ head:
   - - meta
     - name: keywords
       content: akses bahasa, kepatuhan aksesibilitas, ADA, EAA, WCAG, aksesibilitas digital, terjemahan, subtitle
-
 ---
 
 # Kepatuhan Akses Bahasa Global: Panduan Lengkap (2025)
@@ -41,17 +40,17 @@ head:
 
 ## 🌍 Negara-negara dalam Sekilas Pandang
 
-| Wilayah              | Negara/Undang-undang    | Standar            | Status    | Tenggat Waktu   |
-| -------------------- | ----------------------- | ------------------ | --------- | --------------- |
-| 🇺🇸 **Amerika Utara** | **USA - ADA Title II**  | WCAG 2.1 AA        | ✅ Aktif  | April 2026/2027 |
-|                      | **Kanada - Bill 96**    | Prioritas Prancis  | ✅ Aktif  | Juni 2025       |
-| 🇪🇺 **Eropa**         | **EU - EAA**            | EN 301 549         | ✅ Aktif  | 28 Juni 2025    |
-|                      | **UK - PSBAR**          | WCAG 2.1 AA        | ✅ Aktif  | Berkelanjutan   |
-| 🇦🇺 **Oseania**       | **Australia - DDA**     | WCAG 2.1 AA        | ✅ Aktif  | Berkelanjutan   |
-|                      | **Selandia Baru**       | WCAG 2.1 AA        | ✅ Aktif  | Juli 2019+      |
-| 🇯🇵 **Asia**          | **Jepang - JIS X8341-3** | WCAG 2.0 AA       | ✅ Aktif  | Diperbarui 2024 |
-|                      | **Korea Selatan - KWCAG** | WCAG 2.1 AA      | ✅ Aktif  | Berkelanjutan   |
-|                      | **India - RPwD Act**    | Standar nasional   | ✅ Aktif  | Berkelanjutan   |
+| Wilayah              | Negara/Undang-undang      | Standar           | Status   | Tenggat Waktu   |
+| -------------------- | ------------------------- | ----------------- | -------- | --------------- |
+| 🇺🇸 **Amerika Utara** | **USA - ADA Title II**    | WCAG 2.1 AA       | ✅ Aktif | April 2026/2027 |
+|                      | **Kanada - Bill 96**      | Prioritas Prancis | ✅ Aktif | Juni 2025       |
+| 🇪🇺 **Eropa**         | **EU - EAA**              | EN 301 549        | ✅ Aktif | 28 Juni 2025    |
+|                      | **UK - PSBAR**            | WCAG 2.1 AA       | ✅ Aktif | Berkelanjutan   |
+| 🇦🇺 **Oseania**       | **Australia - DDA**       | WCAG 2.1 AA       | ✅ Aktif | Berkelanjutan   |
+|                      | **Selandia Baru**         | WCAG 2.1 AA       | ✅ Aktif | Juli 2019+      |
+| 🇯🇵 **Asia**          | **Jepang - JIS X8341-3**  | WCAG 2.0 AA       | ✅ Aktif | Diperbarui 2024 |
+|                      | **Korea Selatan - KWCAG** | WCAG 2.1 AA       | ✅ Aktif | Berkelanjutan   |
+|                      | **India - RPwD Act**      | Standar nasional  | ✅ Aktif | Berkelanjutan   |
 
 ## 📍 Rincian Regional
 
@@ -442,22 +441,26 @@ head:
 
 ### 🌏 Negara Lain
 
-<div class="
+<div class="other-countries">
+
+</div>
+
+---
 
 ## 📊 Perbandingan Persyaratan Kepatuhan
 
 <div class="comparison-table-wrapper">
 
-| Persyaratan        | Amerika Serikat | Uni Eropa (EAA)    | Inggris      | Australia     | Jepang         | Korea Selatan         | Kanada (QC)        |
-| ------------------ | --------------- | ------------------ | ------------ | ------------- | -------------- | --------------------- | ------------------ |
-| **Standar**        | WCAG 2.1 AA     | EN 301 549         | WCAG 2.1 AA  | WCAG 2.1 AA   | WCAG 2.0 AA    | WCAG 2.1 AA           | Prancis + WCAG     |
-| **Teks Terjemahan** | ✅ Wajib       | ✅ Wajib           | ✅ Wajib     | ✅ Wajib      | ✅ Dianjurkan  | ✅ Wajib              | ✅ Wajib           |
-| **Pembaca Layar**  | ✅ Ya          | ✅ Ya              | ✅ Ya        | ✅ Ya         | ✅ Ya          | ✅ Ya                 | ✅ Ya              |
-| **Teks-ke-Suara**  | ✅ Ya          | ✅ Ya              | ✅ Ya        | ✅ Ya         | ✅ Ya          | ✅ Ya                 | ✅ Ya              |
-| **Terjemahan**     | ✅ Multibahasa | ✅ Multibahasa     | ⚠️ Terbatas  | ⚠️ Terbatas   | ⚠️ Terbatas    | ⚠️ Terbatas           | 🇫🇷 Prioritas Prancis |
-| **Sektor Publik**  | ✅ Wajib       | ✅ Wajib           | ✅ Wajib     | ✅ Wajib      | ✅ Wajib       | ✅ Wajib              | ✅ Wajib           |
-| **Sektor Swasta**  | ⚠️ Bervariasi  | ✅ Ya (10+ staf)   | ⚠️ Terbatas  | ✅ Dianjurkan | ⚠️ Dianjurkan  | ✅ Layanan esensial   | ✅ Ya              |
-| **Denda Maksimal** | Dana federal   | €20M atau 4%       | Undang-undang Kesetaraan | $20K AUD | ¥200K (~$1.7K) | ₩5M (~$4K)      | $30K CAD           |
+| Persyaratan         | Amerika Serikat | Uni Eropa (EAA)  | Inggris                  | Australia     | Jepang         | Korea Selatan       | Kanada (QC)          |
+| ------------------- | --------------- | ---------------- | ------------------------ | ------------- | -------------- | ------------------- | -------------------- |
+| **Standar**         | WCAG 2.1 AA     | EN 301 549       | WCAG 2.1 AA              | WCAG 2.1 AA   | WCAG 2.0 AA    | WCAG 2.1 AA         | Prancis + WCAG       |
+| **Teks Terjemahan** | ✅ Wajib        | ✅ Wajib         | ✅ Wajib                 | ✅ Wajib      | ✅ Dianjurkan  | ✅ Wajib            | ✅ Wajib             |
+| **Pembaca Layar**   | ✅ Ya           | ✅ Ya            | ✅ Ya                    | ✅ Ya         | ✅ Ya          | ✅ Ya               | ✅ Ya                |
+| **Teks-ke-Suara**   | ✅ Ya           | ✅ Ya            | ✅ Ya                    | ✅ Ya         | ✅ Ya          | ✅ Ya               | ✅ Ya                |
+| **Terjemahan**      | ✅ Multibahasa  | ✅ Multibahasa   | ⚠️ Terbatas              | ⚠️ Terbatas   | ⚠️ Terbatas    | ⚠️ Terbatas         | 🇫🇷 Prioritas Prancis |
+| **Sektor Publik**   | ✅ Wajib        | ✅ Wajib         | ✅ Wajib                 | ✅ Wajib      | ✅ Wajib       | ✅ Wajib            | ✅ Wajib             |
+| **Sektor Swasta**   | ⚠️ Bervariasi   | ✅ Ya (10+ staf) | ⚠️ Terbatas              | ✅ Dianjurkan | ⚠️ Dianjurkan  | ✅ Layanan esensial | ✅ Ya                |
+| **Denda Maksimal**  | Dana federal    | €20M atau 4%     | Undang-undang Kesetaraan | $20K AUD      | ¥200K (~$1.7K) | ₩5M (~$4K)          | $30K CAD             |
 
 </div>
 
