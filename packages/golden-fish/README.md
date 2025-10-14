@@ -247,6 +247,9 @@ pnpm build
 # Translate content to all languages
 pnpm translate
 
+# Check HTML tag balance in translated files
+pnpm translate:check
+
 # Run tests
 pnpm test
 

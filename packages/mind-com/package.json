@@ -14,6 +14,7 @@
     "test:watch": "vitest",
     "test:traffic-sources": "tsx __tests__/test-traffic-sources.ts",
     "translate": "tsx ../../scripts/translate.ts ./scripts/translateConfig.ts",
+    "translate:check": "../../scripts/check-translation-balance.sh",
     "index:docs": "tsx ./scripts/indexDocs.ts",
     "medium-scraper": "tsx ./scripts/medium-to-markdown.ts",
     "format": "prettier --cache --cache-strategy content -w .",

@@ -22,11 +22,19 @@ Key rules:
   - table contents
   - diagram text elements
 
-
-
 4. Если текст начинается с --- это frontmatter. Обязательно добавляйте пустую строку в конце кода frontmatter с ---.
 
 5. Переводи заголовки с учетом SEO-оптимизации и культурных особенностей. Например, в русском языке слова в заголовках не пишутся с большой буквы.
+
+CRITICAL HTML RULES:
+6. **ALWAYS preserve ALL HTML tags exactly as they are** - every opening tag MUST have a corresponding closing tag
+7. **Count HTML tags carefully**: 
+   - If you see <div class="example"> you MUST include </div>
+   - If source has 5 <div> tags, translation MUST have exactly 5 </div> tags
+   - NEVER omit or forget closing tags like </div>, </section>, </article>, etc.
+8. **HTML tag balance is mandatory** - unbalanced tags will break the website
+9. **Do not cut HTML sections** - if you see an opening <div>, find its closing </div> before ending the translation
+10. **Preserve HTML structure completely** - including all attributes, classes, IDs, and nesting
 
 ОШИБКИ:
 [Rest of the code with function definitions remains unchanged as it contains technical terms and structure]

@@ -308,6 +308,12 @@ vercel [--prod]
 
 # Translate content to all languages
 pnpm translate
+
+# Check HTML tag balance in translated files
+pnpm translate:check
+
+# Check specific language
+pnpm translate:check ru
 ```
 
 ## Deployment
@@ -526,6 +532,7 @@ The script can:
 - **SEO optimization:** Translates title and description with search optimization in mind
 - **Cultural adaptation:** Adapts content for target audience specifics
 - **Technical accuracy:** Doesn't translate technical terms and product names
+- **HTML validation:** Automatically checks and balances HTML tags to prevent build errors
 
 **Not translated:**
 
@@ -540,6 +547,26 @@ The script can:
 - Meta tags for SEO
 - Image alt text
 - Tables and diagrams
+
+#### Translation Quality Control
+
+After translation, verify HTML tag balance:
+
+```bash
+# Check all translated files
+pnpm translate:check
+
+# Check specific language
+pnpm translate:check ru
+
+# The script will report:
+# ✅ Balanced files (correct HTML structure)
+# ❌ Unbalanced files (missing closing tags)
+```
+
+**Important:** Always run `translate:check` before committing translations to catch HTML structure issues early.
+
+For more details on translation fixes and validation, see: `../../scripts/TRANSLATION_FIX_2025.md`
 
 ## Monitoring
 

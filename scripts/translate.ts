@@ -299,9 +299,100 @@ async function translateMarkdown(content: string, currentModel: string, targetLa
   return removeTranslationTags(translatedContent)
 }
 
+/**
+ * Checks if HTML tags are balanced in the given content
+ * @param content - Content to check
+ * @returns Object with balance status and information about unclosed tags
+ */
+function checkHtmlTagBalance(content: string): { balanced: boolean; unclosedTags: string[]; openCount: number; closeCount: number } {
+  const openTags: string[] = []
+  const unclosedTags: string[] = []
+
+  // Match all opening and closing tags, including self-closing tags
+  const tagPattern = /<(\/)?([\w-]+)(?:\s[^>]*)?(\/)?\s*>/g
+  let match
+
+  while ((match = tagPattern.exec(content)) !== null) {
+    const isClosing = match[1] === "/"
+    const tagName = match[2].toLowerCase()
+    const isSelfClosing = match[3] === "/" || ["img", "br", "hr", "input", "meta", "link"].includes(tagName)
+
+    if (isSelfClosing) {
+      continue // Skip self-closing tags
+    }
+
+    if (isClosing) {
+      // This is a closing tag
+      const lastOpenTag = openTags[openTags.length - 1]
+      if (lastOpenTag === tagName) {
+        openTags.pop()
+      } else {
+        // Mismatched closing tag
+        console.warn(`⚠️  Mismatched closing tag: expected </${lastOpenTag}>, found </${tagName}>`)
+      }
+    } else {
+      // This is an opening tag
+      openTags.push(tagName)
+    }
+  }
+
+  // Count all div tags specifically
+  const divOpenCount = (content.match(/<div[^>]*>/g) || []).length
+  const divCloseCount = (content.match(/<\/div>/g) || []).length
+
+  return {
+    balanced: openTags.length === 0,
+    unclosedTags: openTags,
+    openCount: divOpenCount,
+    closeCount: divCloseCount,
+  }
+}
+
+/**
+ * Splits content by H2 headers while ensuring HTML tags remain balanced
+ * @param content - Markdown content to split
+ * @returns Array of content parts with balanced HTML tags
+ */
 function splitByH2(content: string) {
   const parts = content.split("\n## ")
-  return parts.map((part, i) => (i === 0 ? part.trim() : "## " + part.trim())).filter(Boolean)
+  const balancedParts: string[] = []
+
+  for (let i = 0; i < parts.length; i++) {
+    let part = i === 0 ? parts[i].trim() : "## " + parts[i].trim()
+
+    if (!part) continue
+
+    // Check HTML tag balance
+    const balance = checkHtmlTagBalance(part)
+
+    if (!balance.balanced && balance.unclosedTags.length > 0) {
+      console.warn(`⚠️  Part ${i + 1} has ${balance.unclosedTags.length} unclosed tags: ${balance.unclosedTags.join(", ")}`)
+      console.warn(`   DIV tags: ${balance.openCount} open, ${balance.closeCount} close`)
+
+      // Try to find missing closing tags in the next parts
+      let nextPartIndex = i + 1
+      let combinedPart = part
+
+      while (nextPartIndex < parts.length && !checkHtmlTagBalance(combinedPart).balanced) {
+        const nextPart = nextPartIndex === 0 ? parts[nextPartIndex] : "\n## " + parts[nextPartIndex]
+        combinedPart += "\n\n" + nextPart
+        nextPartIndex++
+      }
+
+      if (checkHtmlTagBalance(combinedPart).balanced) {
+        console.log(`✅ Combined ${nextPartIndex - i} parts to balance HTML tags`)
+        balancedParts.push(combinedPart.trim())
+        i = nextPartIndex - 1 // Skip the merged parts
+        continue
+      } else {
+        console.warn(`❌ Could not balance HTML tags even after combining parts`)
+      }
+    }
+
+    balancedParts.push(part)
+  }
+
+  return balancedParts.filter(Boolean)
 }
 
 async function getAllFiles(dir: string): Promise<string[]> {
@@ -516,12 +607,54 @@ async function translateFile(file: string, targetPath: string, lang: Language, f
 
     translatedContent = applyContentReplacements(translatedContent, lang.code)
 
+    // Validate HTML tag balance before saving
+    const originalBalance = checkHtmlTagBalance(content)
+    const translatedBalance = checkHtmlTagBalance(translatedContent)
+
+    if (!translatedBalance.balanced) {
+      const relativePath = path.relative(rootDir, file)
+      console.warn(`⚠️  ${relativePath} → ${lang.name}: Unbalanced HTML tags detected!`)
+      console.warn(`   Original: ${originalBalance.openCount} open, ${originalBalance.closeCount} close`)
+      console.warn(`   Translated: ${translatedBalance.openCount} open, ${translatedBalance.closeCount} close`)
+      console.warn(`   Unclosed tags: ${translatedBalance.unclosedTags.join(", ")}`)
+
+      // Save to log file for manual review
+      const logPath = targetPath.replace(path.extname(targetPath), ".validation.log")
+      const logContent = [
+        `Translation validation failed for ${relativePath}`,
+        `Language: ${lang.name} (${lang.code})`,
+        ``,
+        `Original HTML tags:`,
+        `  - DIV open: ${originalBalance.openCount}`,
+        `  - DIV close: ${originalBalance.closeCount}`,
+        `  - Balanced: ${originalBalance.balanced}`,
+        ``,
+        `Translated HTML tags:`,
+        `  - DIV open: ${translatedBalance.openCount}`,
+        `  - DIV close: ${translatedBalance.closeCount}`,
+        `  - Balanced: ${translatedBalance.balanced}`,
+        `  - Unclosed tags: ${translatedBalance.unclosedTags.join(", ") || "none"}`,
+        ``,
+        `Translated content:`,
+        `${"=".repeat(80)}`,
+        translatedContent,
+      ].join("\n")
+
+      fs.writeFileSync(logPath, logContent)
+      console.warn(`   Validation log saved: ${path.basename(logPath)}`)
+    }
+
     fs.mkdirSync(path.dirname(targetPath), { recursive: true })
     fs.writeFileSync(targetPath, translatedContent.trim())
 
     const duration = ((Date.now() - startTime) / 1000).toFixed(1)
     const relativePath = path.relative(rootDir, file)
-    console.log(`✅ ${relativePath} → ${lang.name} (${duration}s)`)
+
+    if (translatedBalance.balanced) {
+      console.log(`✅ ${relativePath} → ${lang.name} (${duration}s)`)
+    } else {
+      console.log(`⚠️  ${relativePath} → ${lang.name} (${duration}s) - HTML tags may need review`)
+    }
   } catch (error: any) {
     const relativePath = path.relative(rootDir, file)
     console.error(`❌ ${relativePath} → ${lang.name}: ${error.message}`)

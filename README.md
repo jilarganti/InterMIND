@@ -30,6 +30,34 @@ cd packages/wiki-mind    # Content management
 pnpm dev
 ```
 
+## Translation & Quality Control
+
+### Translate content to all languages
+
+```bash
+cd packages/mind-com
+pnpm translate
+
+cd packages/golden-fish
+pnpm translate
+```
+
+### Check HTML tag balance in translations
+
+```bash
+# From any package directory
+pnpm translate:check
+
+# Or from root with package filter
+pnpm --filter mind-com translate:check
+pnpm --filter golden-fish translate:check
+```
+
+For detailed information about translation quality control and fixing HTML tag issues, see:
+
+- 📋 [Translation Fix Documentation](./scripts/TRANSLATION_FIX_2025.md)
+- 🔧 [Translation Balance Checker](./scripts/check-translation-balance.sh)
+
 ## Requirements
 
 - Node.js 20+
