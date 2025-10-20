@@ -46,54 +46,6 @@
   max-width: 100% !important;
 }
 
-/* Стили для контейнера логотипов */
-.my-logo-container {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  margin: 40px 0;
-}
-
-/* Стили для каждого логотипа */
-.my-logo {
-  max-height: 100px;
-  width: auto;
-  filter: grayscale(100%);
-  cursor: pointer;
-  object-fit: contain;
-  display: block;
-  transition: transform 0.5s ease;
-}
-
-/* Эффект при наведении на ссылку (логотип) */
-.my-logo-link:hover .my-logo {
-  filter: grayscale(0%);
-  transform: scale(1.02);
-}
-
-/* Инверсия цвета логотипов в темной теме */
-.dark .my-logo.invert-on-dark {
-  filter: invert(1) grayscale(100%);
-}
-
-/* Изменение фильтра при наведении в темной теме */
-.dark .my-logo-link:hover .my-logo.invert-on-dark {
-  filter: grayscale(0%);
-}
-
-/* Адаптивность: изменение расположения на маленьких экранах */
-@media (max-width: 600px) {
-  .my-logo-container {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .my-logo {
-    max-height: 80px;
-    margin: 10px 0;
-  }
-}
-
 /* Стили для GitHub-style callouts (custom blocks) */
 .vp-doc .custom-block {
   border: none;
