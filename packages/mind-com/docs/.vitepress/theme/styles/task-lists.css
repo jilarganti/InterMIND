@@ -1,0 +1,144 @@
+/**
+ * Стили для task lists (чекбоксов) в Markdown
+ * Плагин: markdown-it-task-lists
+ */
+
+/* Убираем стандартные маркеры списка для task lists */
+.vp-doc ul.contains-task-list {
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+.vp-doc .contains-task-list > li {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Стили для элементов списка с чекбоксами */
+.vp-doc li.task-list-item {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.75rem 0;
+  position: relative;
+}
+
+.vp-doc li.task-list-item::before {
+  content: none !important;
+}
+
+/* Стили для самого чекбокса */
+.vp-doc .task-list-item-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 1.1rem;
+  height: 1.1rem;
+  min-width: 1.1rem;
+  margin-right: 0.6rem;
+  margin-top: 0.15em;
+  border: 2px solid var(--vp-c-text-3);
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  position: relative;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.vp-doc .task-list-item-checkbox:hover {
+  border-color: var(--vp-c-brand);
+  background-color: var(--vp-c-bg-soft);
+}
+
+.vp-doc .task-list-item-checkbox:focus {
+  outline: 2px solid var(--vp-c-brand-light);
+  outline-offset: 2px;
+}
+
+/* Стили для отмеченного чекбокса */
+.vp-doc .task-list-item-checkbox:checked {
+  background-color: var(--vp-c-brand);
+  border-color: var(--vp-c-brand);
+}
+
+.vp-doc .task-list-item-checkbox:checked::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 0.35rem;
+  height: 0.65rem;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+}
+
+/* Альтернативный стиль галочки (раскомментируйте если нужен) */
+/* .vp-doc .task-list-item-checkbox:checked::before {
+  content: "✓";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 0.85rem;
+  font-weight: bold;
+  line-height: 1;
+} */
+
+/* Disabled состояние */
+.vp-doc .task-list-item-checkbox:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* Поддержка вложенных списков */
+.vp-doc .task-list-item ul.contains-task-list,
+.vp-doc .task-list-item ol,
+.vp-doc .task-list-item ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.7rem;
+}
+
+/* Улучшение читаемости текста рядом с чекбоксом */
+.vp-doc .task-list-item > p {
+  display: inline;
+  margin: 0;
+}
+
+/* Стили для вложенных элементов внутри task list item */
+.vp-doc .task-list-item > * {
+  vertical-align: top;
+}
+
+/* Dark mode */
+.dark .vp-doc .task-list-item-checkbox {
+  border-color: var(--vp-c-text-2);
+  background-color: transparent;
+}
+
+.dark .vp-doc .task-list-item-checkbox:hover {
+  border-color: var(--vp-c-brand);
+  background-color: var(--vp-c-bg-alt);
+}
+
+.dark .vp-doc .task-list-item-checkbox:checked {
+  background-color: var(--vp-c-brand);
+  border-color: var(--vp-c-brand);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .vp-doc .task-list-item-checkbox {
+    width: 1rem;
+    height: 1rem;
+    min-width: 1rem;
+  }
+
+  .vp-doc .task-list-item-checkbox:checked::before {
+    width: 0.3rem;
+    height: 0.6rem;
+  }
+}

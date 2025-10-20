@@ -2,6 +2,7 @@
 
 import { defineConfig } from "vitepress"
 import markdownItFootnote from "markdown-it-footnote"
+import markdownItTaskLists from "markdown-it-task-lists"
 import llmstxt from "vitepress-plugin-llms"
 import { locales } from "./locales"
 
@@ -71,6 +72,7 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use(markdownItFootnote)
+      md.use(markdownItTaskLists, { enabled: true, label: true, labelAfter: false })
     },
   },
 

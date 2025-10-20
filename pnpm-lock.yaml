@@ -177,6 +177,9 @@ importers:
       axios:
         specifier: ^1.12.2
         version: 1.12.2
+      markdown-it-task-lists:
+        specifier: ^2.1.1
+        version: 2.1.1
       puppeteer:
         specifier: ^24.22.3
         version: 24.22.3(typescript@5.9.2)
@@ -2455,6 +2458,9 @@ packages:
 
   markdown-it-footnote@4.0.0:
     resolution: {integrity: sha512-WYJ7urf+khJYl3DqofQpYfEYkZKbmXmwxQV8c8mO/hGIhgZ1wOe7R4HLFNwqx7TjILbnC98fuyeSsin19JdFcQ==}
+
+  markdown-it-task-lists@2.1.1:
+    resolution: {integrity: sha512-TxFAc76Jnhb2OUu+n3yz9RMu4CwGfaT788br6HhEDlvWfdeJcLUsxk1Hgw2yJio0OXsxv7pyIPmvECY7bMbluA==}
 
   markdown-it@14.1.0:
     resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
@@ -6002,6 +6008,8 @@ snapshots:
   mark.js@8.11.1: {}
 
   markdown-it-footnote@4.0.0: {}
+
+  markdown-it-task-lists@2.1.1: {}
 
   markdown-it@14.1.0:
     dependencies:
