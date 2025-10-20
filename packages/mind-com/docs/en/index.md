@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "InterMIND: Real-Time Speech Translation for Video Meetings"
+title: "Real-Time Speech Translation for Video Meetings"
 description: "Professional video conferencing with simultaneous interpretation in 19+ languages. AI-powered translation that captures tone, intent, and context. Meet globally, communicate naturally."
 isHome: true
 ---
@@ -12,7 +12,7 @@ isHome: true
 <NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
-## Translation ≠ Understanding {#1}
+{#1}
 
 <FeatureBlock
     :card="{
@@ -31,7 +31,7 @@ isHome: true
     }"
   />
 
-## The Mind Within Your Meetings {#2}
+{#2}
 
 <FeatureBlock
     :card="{
@@ -51,7 +51,7 @@ isHome: true
     }"
   />
 
-## Built for Serious Meetings {#3}
+{#3}
 
 <FeatureBlock
     :card="{
@@ -69,7 +69,7 @@ isHome: true
     }"
   />
 
-## Privacy Where It Matters {#4}
+{#4}
 
 <FeatureBlock
     :card="{
