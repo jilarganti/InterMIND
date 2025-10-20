@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "InterMIND: Video Toplantılar için Gerçek Zamanlı Konuşma Çevirisi"
+title: "Video Toplantılar için Gerçek Zamanlı Konuşma Çevirisi"
 description: "19+ dilde eşzamanlı tercümanlık ile profesyonel video konferans. Ton, niyet ve bağlamı yakalayan AI destekli çeviri. Küresel olarak buluşun, doğal iletişim kurun."
 isHome: true
 ---
@@ -12,15 +12,15 @@ isHome: true
 <NavButton buttonLabel="Asistan" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
-## Çeviri ≠ Anlama {#1}
+{#1}
 
 <FeatureBlock
     :card="{
-      title: 'Çeviri ≠ Anlama. Sırada ne var?',
-      details: 'Hangi dil olursa olsun, sesiniz aynı dili paylaşıyormuşsunuz gibi duyulur ve anlaşılır.',
+      title: 'Çeviri ≠ Anlayış. İşte sıradaki adım.',
+      details: 'Dil ne olursa olsun, sesiniz duyulur — ve anlaşılır — sanki aynı dili paylaşıyormuşsunuz gibi.',
       items: [
         '✧ Doğal olarak, [gerçek zamanlı](./product/overview/how-it-works) ve altyazı veya gecikme olmadan.',
-        '✧ AI destekli yorumlama ton, niyet ve sektöre özgü terminolojiyi yakalar.',
+        '✧ AI destekli tercümanlık ton, niyet ve sektöre özel terminolojiyi yakalar.',
       ],
       link: './product/overview/what-is-intermind',
       src: {
@@ -31,14 +31,14 @@ isHome: true
     }"
   />
 
-## Toplantılarınızın İçindeki Akıl {#2}
+{#2}
 
 <FeatureBlock
     :card="{
-      title: 'Toplantılarınızın İçindeki Akıl',
+      title: 'Toplantılarınızdaki Akıl',
       details: 'InterMind her çok dilli aramayı net, aranabilir bilgiye dönüştürür.',
       items: [
-        '✧ **Her şeyi sorun** — AI **toplantılarınız genelinde** cevapları bulur.',
+        '✧ **Her şeyi sorun** — AI **toplantılarınız genelinde** cevaplar bulur.',
         '✧ Görevleri, sahiplerini ve son tarihleri otomatik çıkarır.',
         '✧ Anahtar noktaları herhangi bir dilde özetler — anında.',
       ],
@@ -51,14 +51,14 @@ isHome: true
     }"
   />
 
-## Ciddi Toplantılar İçin Tasarlandı {#3}
+{#3}
 
 <FeatureBlock
     :card="{
       title: 'Ciddi Toplantılar İçin Tasarlandı — Sadece Konuşmak İçin Değil',
-      details: 'InterMind, hafif bir eklenti veya plugin değil, [profesyonel düzeyde bir video toplantı platformudur](./product/overview/video-meeting-platform).',
+      details: 'InterMind [profesyonel düzeyde bir video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
       items: [
-        '✧ 1080p çözünürlük, akıllı gürültü bastırma, zamanlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
+        '✧ 1080p çözünürlük, akıllı gürültü bastırma, planlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -69,12 +69,12 @@ isHome: true
     }"
   />
 
-## Önemli Olan Yerde Gizlilik {#4}
+{#4}
 
 <FeatureBlock
     :card="{
       title: 'Önemli Olan Yerde Gizlilik',
-      details: 'InterMind, güven açısından kritik konuşmalar için tasarlanmıştır — gizlilik ve kontrolün en önemli olduğu yerlerde.',
+      details: 'InterMind güven gerektiren konuşmalar için tasarlanmıştır — gizlilik ve kontrolün en önemli olduğu yerde.',
       items: ['✧ [Gizlilik Bölgeleri](./product/overview/privacy-architecture) — AB, ABD, Güneydoğu Asya', '✧ **Sıfır veri eğitimi**. Üçüncü taraf erişimi yok.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -144,9 +144,9 @@ Kullanıcı **site yerelleştirme dili** olarak **İspanyolca** kullanıyor. Bir
 - 🧑‍💼 Katılımcı 1 arayüzü **İngilizce** kullanıyor
 - 👩 Katılımcı 2 arayüzü **Çince** kullanıyor
 
-### Toplantı sırasında ne oluyor?
+### Toplantı sırasında ne olur?
 
-Her katılımcı ürüne girerken seçtiği dilde **konuşuyor ve duyuyor**.  
+Her katılımcı ürüne girerken seçtiği dilde **konuşur ve duyar**.  
 Bu tek dil ayarı şunları kapsar:
 
 - **Arayüz dili**
@@ -159,7 +159,7 @@ Bu tek dil ayarı şunları kapsar:
 | Katılımcı 1   | İngilizce   | İngilizce     | İngilizce   |
 | Katılımcı 2   | Çince       | Çince         | Çince       |
 
-[Platform tüm konuşmaları gerçek zamanlı olarak otomatik olarak yorumlar](./product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
+[Platform tüm konuşmaları gerçek zamanlı olarak otomatik yorumlar](./product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
 
 ### Arama sırasında dilinizi değiştirebilir misiniz?
 
@@ -183,7 +183,7 @@ Bunu değiştirmek şu anlama gelir:
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-## Açık ve Basit Fiyatlandırma {#Pricing}
+## Net ve Basit Fiyatlandırma {#Pricing}
 
 İlk aramadan akıcı konuşmalara — her ölçekte.
 
@@ -233,7 +233,7 @@ Bunu değiştirmek şu anlama gelir:
 <ContactForm buttonText="Ekibimizle konuşun" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_Zamanınızı dilbilgisi ezberlemek yerine sanatınızda ustalaşmaya harcamanız daha iyi._**  
+> 💡 **_Zamanınızı dilbilgisi ezberlemek yerine uzmanlığınızı geliştirmeye harcamanız daha iyi._**  
 > 💡 **_Gerçek ortaklıklar gerçek konuşmalarla başlar — onların dilinde._**
 
 ## Sık Sorulan Sorular {#FAQ}
@@ -274,7 +274,7 @@ Bunu değiştirmek şu anlama gelir:
       },
       {
         q: 'Aboneliğimi nasıl yönetirim (yükseltme, düşürme veya iptal)?',
-        a: 'Planınızı **hesap ayarlarınız** üzerinden istediğiniz zaman değiştirebilirsiniz. Değişiklikler **anında** geçerli olur. İptaller için *Aylık planlar* fatura döneminin sonunda iptal olur. *Yıllık planlar* **orantılı geri ödeme** ile iptal edilebilir.',
+        a: 'Planınızı **hesap ayarlarınız** üzerinden istediğiniz zaman değiştirebilirsiniz. Değişiklikler **anında** geçerli olur. İptaller için *Aylık planlar* fatura döngüsünün sonunda iptal olur. *Yıllık planlar* **orantılı geri ödeme** ile iptal edilebilir.',
       },
       {
         q: 'InterMind\'ı webinar veya büyük etkinlikler için kullanabilir miyim?',
@@ -316,7 +316,7 @@ Bunu değiştirmek şu anlama gelir:
       {
         title: 'ŞİRKET',
         links: [
-          { text: 'Hakkında', link: './resources/company/about' },
+          { text: 'Hakkımızda', link: './resources/company/about' },
           { text: 'Ekip', link: './resources/company/team' },
           { text: 'Kariyer', link: './resources/company/careers' },
           { text: 'İletişim', link: './resources/company/contacts' },

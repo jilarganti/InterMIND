@@ -1,22 +1,22 @@
 ---
 layout: home
-title: "InterMIND: Echtzeit-Sprachübersetzung für Videobesprechungen"
+title: "Echtzeit-Sprachübersetzung für Videobesprechungen"
 description: "Professionelle Videokonferenzen mit Simultandolmetschen in über 19 Sprachen. KI-gestützte Übersetzung, die Tonfall, Absicht und Kontext erfasst. Global treffen, natürlich kommunizieren."
 isHome: true
 ---
 
-<!-- <HeroSection title="Treffen Sie sich in **jeder** Sprache" :typingSpeed="10" text="Live-Sprachübersetzung in Videoanrufen. Sofortiges Verstehen, keine Barrieren."> -->
+<!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
 <HeroSection title="Verstehen Sie **jede** Sprache" :typingSpeed="20" text="Simultandolmetschen während Videobesprechungen. Sprachbarrieren sofort überwinden.">
 <NavButton buttonLabel="Demo ansehen" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="Assistent" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
-## Übersetzung ≠ Verstehen {#1}
+{#1}
 
 <FeatureBlock
     :card="{
-      title: 'Übersetzung ≠ Verstehen. Das kommt als nächstes.',
+      title: 'Übersetzung ≠ Verstehen. Hier ist die Zukunft.',
       details: 'Unabhängig von der Sprache wird Ihre Stimme gehört — und verstanden — als würden Sie dieselbe Sprache sprechen.',
       items: [
         '✧ Natürlich, in [Echtzeit](./product/overview/how-it-works), und ohne Untertitel oder Verzögerung.',
@@ -31,14 +31,14 @@ isHome: true
     }"
   />
 
-## Der Verstand in Ihren Meetings {#2}
+{#2}
 
 <FeatureBlock
     :card="{
-      title: 'Der Verstand in Ihren Meetings',
+      title: 'Der Verstand in Ihren Besprechungen',
       details: 'InterMind verwandelt jeden mehrsprachigen Anruf in klares, durchsuchbares Wissen.',
       items: [
-        '✧ **Fragen Sie alles** — KI findet Antworten **in all Ihren Meetings**.',
+        '✧ **Fragen Sie alles** — KI findet Antworten **in all Ihren Besprechungen**.',
         '✧ Extrahiert automatisch Aufgaben, Verantwortliche und Fristen.',
         '✧ Fasst wichtige Punkte in jeder Sprache zusammen — sofort.',
       ],
@@ -51,12 +51,12 @@ isHome: true
     }"
   />
 
-## Entwickelt für ernsthafte Meetings {#3}
+{#3}
 
 <FeatureBlock
     :card="{
-      title: 'Entwickelt für ernsthafte Meetings — nicht nur zum Reden',
-      details: 'InterMind ist eine [professionelle Video-Meeting-Plattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
+      title: 'Für ernsthafte Besprechungen entwickelt — nicht nur zum Reden',
+      details: 'InterMind ist eine [professionelle Videobesprechungsplattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
       items: [
         '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
       ],
@@ -69,13 +69,13 @@ isHome: true
     }"
   />
 
-## Datenschutz wo es darauf ankommt {#4}
+{#4}
 
 <FeatureBlock
     :card="{
-      title: 'Datenschutz wo es darauf ankommt',
+      title: 'Datenschutz, wo es darauf ankommt',
       details: 'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Datenschutz und Kontrolle am wichtigsten sind.',
-      items: ['✧ [Datenschutzzonen](./product/overview/privacy-architecture) — EU, USA, Südostasien', '✧ **Keine Datennutzung für Training**. Kein Zugriff durch Dritte.'],
+      items: ['✧ [Datenschutzzonen](./product/overview/privacy-architecture) — EU, USA, Südostasien', '✧ **Null Datentraining**. Kein Zugriff durch Dritte.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -142,7 +142,7 @@ Nehmen wir an:
 Der Benutzer verwendet **Spanisch** als **Website-Lokalisierungssprache**. Er veranstaltet ein Meeting und lädt zwei Teilnehmer ein:
 
 - 🧑‍💼 Teilnehmer 1 verwendet die Benutzeroberfläche auf **Englisch**
-- 👩 Teilnehmer 2 verwendet die Benutzeroberfläche auf **Chinesisch**
+- 👩 Teilnehmerin 2 verwendet die Benutzeroberfläche auf **Chinesisch**
 
 ### Was passiert während des Meetings?
 
@@ -157,7 +157,7 @@ Diese einzige Spracheinstellung gilt für:
 | ------------- | ---------------- | ---------- | -------- |
 | Gastgeber     | Spanisch         | Spanisch   | Spanisch |
 | Teilnehmer 1  | Englisch         | Englisch   | Englisch |
-| Teilnehmer 2  | Chinesisch       | Chinesisch | Chinesisch |
+| Teilnehmerin 2| Chinesisch       | Chinesisch | Chinesisch |
 
 [Die Plattform interpretiert automatisch alle Sprache in Echtzeit](./product/overview/how-it-works) — so kommuniziert jeder, als würde er dieselbe Sprache sprechen.
 
@@ -173,11 +173,11 @@ Diese Änderung bedeutet:
 
 - Sie sollten in der `gewählten Sprache` sprechen für eine genaue Übersetzung
 - Sie werden andere in der `gewählten Sprache` hören
-- Die Benutzeroberfläche wird automatisch zur `gewählten Sprache` wechseln
+- Die Benutzeroberfläche wechselt automatisch zur `gewählten Sprache`
 
-> ✨ „Ihre Sprache" ist eine **einzige einheitliche Einstellung**  
+> ✨ "Ihre Sprache" ist eine **einzige einheitliche Einstellung**  
 > Sie steuert **wie Sie sprechen**, **was Sie hören** und **was Sie sehen**.  
-> In einer Sprache zu sprechen und in einer anderen zu hören wird **nicht unterstützt** — bewusst, um die Erfahrung einfach und vorhersagbar zu halten.
+> In einer Sprache sprechen und in einer anderen zuhören wird **nicht unterstützt** — bewusst, um die Erfahrung einfach und vorhersagbar zu halten.
 
 ## Was Kunden sagen {#Testimonials}
 
@@ -223,7 +223,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
           '**5** TB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',
-          '**Privacy Zones** [💬](#4)',
+          '**Datenschutzzonen** [💬](#4)',
         ],
       },
     ]">
@@ -246,11 +246,11 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         q: 'Was ist ein lizenzierter Benutzer und was ist ein Teilnehmer?',
-        a: 'Ein *lizenzierter Benutzer* hat eine kostenlose oder kostenpflichtige Meeting-Lizenz und kann Meetings innerhalb der Grenzen seines Plans planen. *Teilnehmer* sind Eingeladene — sie **benötigen kein Konto oder Lizenz** zum Beitreten und können sich von jedem Gerät **kostenlos** verbinden.',
+        a: 'Ein *lizenzierter Benutzer* hat eine kostenlose oder kostenpflichtige Meeting-Lizenz und kann Meetings innerhalb der Grenzen seines Plans planen. *Teilnehmer* sind Eingeladene — sie **benötigen kein Konto oder Lizenz** zur Teilnahme und können sich von jedem Gerät **kostenlos** verbinden.',
       },
       {
-        q: 'Wie viele Personen können eine InterMind-Lizenz verwenden?',
-        a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt Meetings** veranstalten. Wenn mehrere Teammitglieder gleichzeitig Meetings veranstalten müssen, benötigt jeder seine eigene Lizenz.',
+        q: 'Wie viele Personen können eine InterMind-Lizenz nutzen?',
+        a: 'Jeder *lizenzierte Benutzer* kann **unbegrenzt viele Meetings** veranstalten. Wenn mehrere Teammitglieder gleichzeitig Meetings veranstalten müssen, benötigt jeder eine eigene Lizenz.',
       },
       {
         q: 'Wie lange kann ein Meeting maximal dauern?',
@@ -262,7 +262,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         q: 'Wie gewährleistet InterMind Datenschutz und Sicherheit?',
-        a: 'InterMind ist **standardmäßig privat**. Alle Daten werden in Ihrer ausgewählten **Datenschutzzone** verarbeitet und gespeichert — _EU_, _USA_ oder _Asien_. Wir entsprechen der [**DSGVO**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) und UAE PDPL und **verwenden niemals Ihre Inhalte** für Training oder Zugriff durch Dritte. Erweiterte [Datenschutzzonen-Kontrolle](./product/overview/privacy-architecture) ist im **Business**-Plan verfügbar.',
+        a: 'InterMind ist **standardmäßig privat**. Alle Daten werden innerhalb Ihrer gewählten **Datenschutzzone** verarbeitet und gespeichert — _EU_, _USA_ oder _Asien_. Wir entsprechen der [**DSGVO**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) und UAE PDPL und **verwenden niemals Ihre Inhalte** für Training oder Zugriff durch Dritte. Erweiterte [Datenschutzzonen-Kontrolle](./product/overview/privacy-architecture) ist im **Business**-Plan verfügbar.',
       },
       {
         q: 'Kann ich InterMind vor dem Kauf eines Plans testen?',
@@ -270,14 +270,14 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         q: 'Was ist, wenn ich Hilfe oder Support benötige?',
-        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **vorrangigen Support** mit einem dedizierten Kontakt.',
+        a: 'Support ist über unser [Hilfezentrum](./resources/help) verfügbar. *Business*-Benutzer erhalten **vorrangigen Support** mit einem dedizierten Ansprechpartner.',
       },
       {
         q: 'Wie verwalte ich mein Abonnement (Upgrade, Downgrade oder Kündigung)?',
         a: 'Sie können Ihren Plan jederzeit über Ihre **Kontoeinstellungen** ändern. Änderungen werden **sofort** wirksam. Bei Kündigungen werden *monatliche Pläne* am Ende des Abrechnungszyklus gekündigt. *Jahrespläne* können für eine **anteilige Rückerstattung** gekündigt werden.',
       },
       {
-        q: 'Kann ich InterMind für Webinare oder große Veranstaltungen verwenden?',
+        q: 'Kann ich InterMind für Webinare oder große Veranstaltungen nutzen?',
         a: 'Ja. *Pro*- und *Business*-Pläne sind ideal für **große Meetings und Webinare** — mit Unterstützung für bis zu **500 Teilnehmer** im *Business*-Plan.',
       },
     ]"/>

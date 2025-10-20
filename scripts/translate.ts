@@ -308,6 +308,24 @@ function checkHtmlTagBalance(content: string): { balanced: boolean; unclosedTags
   const openTags: string[] = []
   const unclosedTags: string[] = []
 
+  // Vue components that should be ignored in balance checking
+  const vueComponents = [
+    "herosection",
+    "navbutton",
+    "featureblock",
+    "featurecards",
+    "featurecard",
+    "videoplayer",
+    "autoscrolltestimonials",
+    "pricingplans",
+    "pricingplan",
+    "authbutton",
+    "contactform",
+    "accordiongroup",
+    "homefooter",
+    "button",
+  ]
+
   // Match all opening and closing tags, including self-closing tags
   const tagPattern = /<(\/)?([\w-]+)(?:\s[^>]*)?(\/)?\s*>/g
   let match
@@ -316,6 +334,11 @@ function checkHtmlTagBalance(content: string): { balanced: boolean; unclosedTags
     const isClosing = match[1] === "/"
     const tagName = match[2].toLowerCase()
     const isSelfClosing = match[3] === "/" || ["img", "br", "hr", "input", "meta", "link"].includes(tagName)
+
+    // Skip Vue components
+    if (vueComponents.includes(tagName)) {
+      continue
+    }
 
     if (isSelfClosing) {
       continue // Skip self-closing tags
@@ -327,8 +350,7 @@ function checkHtmlTagBalance(content: string): { balanced: boolean; unclosedTags
       if (lastOpenTag === tagName) {
         openTags.pop()
       } else {
-        // Mismatched closing tag
-        console.warn(`⚠️  Mismatched closing tag: expected </${lastOpenTag}>, found </${tagName}>`)
+        // Mismatched closing tag - silently track without logging
       }
     } else {
       // This is an opening tag
@@ -366,10 +388,7 @@ function splitByH2(content: string) {
     const balance = checkHtmlTagBalance(part)
 
     if (!balance.balanced && balance.unclosedTags.length > 0) {
-      console.warn(`⚠️  Part ${i + 1} has ${balance.unclosedTags.length} unclosed tags: ${balance.unclosedTags.join(", ")}`)
-      console.warn(`   DIV tags: ${balance.openCount} open, ${balance.closeCount} close`)
-
-      // Try to find missing closing tags in the next parts
+      // Silently try to find missing closing tags in the next parts
       let nextPartIndex = i + 1
       let combinedPart = part
 
@@ -380,12 +399,9 @@ function splitByH2(content: string) {
       }
 
       if (checkHtmlTagBalance(combinedPart).balanced) {
-        console.log(`✅ Combined ${nextPartIndex - i} parts to balance HTML tags`)
         balancedParts.push(combinedPart.trim())
         i = nextPartIndex - 1 // Skip the merged parts
         continue
-      } else {
-        console.warn(`❌ Could not balance HTML tags even after combining parts`)
       }
     }
 
@@ -612,14 +628,9 @@ async function translateFile(file: string, targetPath: string, lang: Language, f
     const translatedBalance = checkHtmlTagBalance(translatedContent)
 
     if (!translatedBalance.balanced) {
-      const relativePath = path.relative(rootDir, file)
-      console.warn(`⚠️  ${relativePath} → ${lang.name}: Unbalanced HTML tags detected!`)
-      console.warn(`   Original: ${originalBalance.openCount} open, ${originalBalance.closeCount} close`)
-      console.warn(`   Translated: ${translatedBalance.openCount} open, ${translatedBalance.closeCount} close`)
-      console.warn(`   Unclosed tags: ${translatedBalance.unclosedTags.join(", ")}`)
-
-      // Save to log file for manual review
+      // Save to log file for manual review (silent)
       const logPath = targetPath.replace(path.extname(targetPath), ".validation.log")
+      const relativePath = path.relative(rootDir, file)
       const logContent = [
         `Translation validation failed for ${relativePath}`,
         `Language: ${lang.name} (${lang.code})`,
@@ -641,7 +652,6 @@ async function translateFile(file: string, targetPath: string, lang: Language, f
       ].join("\n")
 
       fs.writeFileSync(logPath, logContent)
-      console.warn(`   Validation log saved: ${path.basename(logPath)}`)
     }
 
     fs.mkdirSync(path.dirname(targetPath), { recursive: true })

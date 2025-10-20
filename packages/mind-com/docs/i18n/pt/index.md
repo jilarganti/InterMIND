@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "InterMIND: Tradução de fala em tempo real para videoconferências"
+title: "Tradução de Fala em Tempo Real para Videoconferências"
 description: "Videoconferência profissional com interpretação simultânea em mais de 19 idiomas. Tradução com IA que captura tom, intenção e contexto. Reúna-se globalmente, comunique-se naturalmente."
 isHome: true
 ---
@@ -12,15 +12,15 @@ isHome: true
 <NavButton buttonLabel="Assistente" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
-## Tradução ≠ Compreensão {#1}
+{#1}
 
 <FeatureBlock
     :card="{
       title: 'Tradução ≠ Compreensão. Veja o que vem a seguir.',
-      details: 'Independentemente do idioma, sua voz é ouvida — e compreendida — como se vocês compartilhassem a mesma língua.',
+      details: 'Não importa o idioma, sua voz é ouvida — e compreendida — como se vocês compartilhassem a mesma língua.',
       items: [
         '✧ Naturalmente, em [tempo real](./product/overview/how-it-works), e sem legendas ou atraso.',
-        '✧ Interpretação alimentada por IA captura tom, intenção e terminologia específica do setor.',
+        '✧ Interpretação com IA captura tom, intenção e terminologia específica do setor.',
       ],
       link: './product/overview/what-is-intermind',
       src: {
@@ -31,12 +31,12 @@ isHome: true
     }"
   />
 
-## A Mente Dentro das Suas Reuniões {#2}
+{#2}
 
 <FeatureBlock
     :card="{
       title: 'A Mente Dentro das Suas Reuniões',
-      details: 'O InterMind transforma cada chamada multilíngue em conhecimento claro e pesquisável.',
+      details: 'InterMind transforma cada chamada multilíngue em conhecimento claro e pesquisável.',
       items: [
         '✧ **Pergunte qualquer coisa** — a IA encontra respostas **em todas as suas reuniões**.',
         '✧ Extrai automaticamente tarefas, responsáveis e prazos.',
@@ -51,11 +51,11 @@ isHome: true
     }"
   />
 
-## Construído para Reuniões Sérias {#3}
+{#3}
 
 <FeatureBlock
     :card="{
-      title: 'Construído para Reuniões Sérias — Não Apenas para Conversar',
+      title: 'Construído para Reuniões Sérias — Não Apenas Conversas',
       details: 'InterMind é uma [plataforma de videoconferência de nível profissional](./product/overview/video-meeting-platform), não um complemento leve ou plugin.',
       items: [
         '✧ Resolução 1080p, supressão inteligente de ruído, agendamento, moderação, compartilhamento de tela, gravação, legendagem, chat de participantes e integração com calendário — tudo integrado, **pronto para usar**.',
@@ -69,12 +69,12 @@ isHome: true
     }"
   />
 
-## Privacidade Onde Importa {#4}
+{#4}
 
 <FeatureBlock
     :card="{
       title: 'Privacidade Onde Importa',
-      details: 'O InterMind é construído para conversas críticas de confiança — onde privacidade e controle são fundamentais.',
+      details: 'InterMind é construído para conversas críticas de confiança — onde privacidade e controle são fundamentais.',
       items: ['✧ [Zonas de Privacidade](./product/overview/privacy-architecture) — UE, EUA, Sudeste Asiático', '✧ **Zero treinamento de dados**. Sem acesso de terceiros.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -150,7 +150,7 @@ Cada participante **fala e ouve** no idioma que selecionou ao entrar no produto.
 Esta configuração única de idioma se aplica a:
 
 - O **idioma da interface**
-- A **entrada falada** (o que você diz)
+- A **entrada falada** (o que você fala)
 - A **saída traduzida** (o que você ouve)
 
 | Participante   | Idioma Selecionado | Fala Em   | Ouve Em   |
@@ -179,7 +179,7 @@ Alterar isso significa:
 > Ela controla **como você fala**, **o que você ouve** e **o que você vê**.  
 > Falar em um idioma e ouvir em outro **não é suportado** — por design, para manter a experiência simples e previsível.
 
-## O Que Os Clientes Estão Dizendo {#Testimonials}
+## O Que Nossos Clientes Estão Dizendo {#Testimonials}
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
@@ -206,7 +206,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
         price: '**$20** /mês/usuário, cobrado anualmente',
         details: 'ou $25 cobrado mensalmente',
         items: [
-          '**Reuniões ilimitadas**',
+          '**Ilimitadas** reuniões',
           '**150** participantes em videochamadas [💬](#3)',
           '**2** TB de armazenamento compartilhado por usuário',
           'Pesquise em todas as suas reuniões [💬](#2)',
@@ -216,9 +216,9 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       {
         title: '**Empresarial** &nbsp 100+ usuários',
         price: '**Preço personalizado**',
-        details: 'Desenvolvido para privacidade',
+        details: 'Construído para privacidade',
         items: [
-          '**Reuniões ilimitadas**',
+          '**Ilimitadas** reuniões',
           '**500** participantes em videochamadas [💬](#3)',
           '**5** TB de armazenamento compartilhado por usuário',
           'Pesquise em todas as suas reuniões [💬](#2)',
@@ -233,7 +233,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
 <ContactForm buttonText="Fale com nossa equipe" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_Seu tempo é melhor aproveitado dominando sua área — não memorizando gramática._**  
+> 💡 **_Seu tempo é melhor gasto dominando sua área — não memorizando gramática._**  
 > 💡 **_Parcerias reais começam com conversas reais — no idioma deles._**
 
 ## Perguntas Frequentes {#FAQ}
@@ -262,7 +262,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       },
       {
         q: 'Como o InterMind garante a privacidade e segurança dos dados?',
-        a: 'O InterMind é **privado por design**. Todos os dados são processados e armazenados dentro da sua **Zona de Privacidade** selecionada — _UE_, _EUA_, ou _Ásia_. Cumprimos com [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), e UAE PDPL, e **nunca usamos seu conteúdo** para treinamento ou acesso de terceiros. Controle avançado de [Zona de Privacidade](./product/overview/privacy-architecture) está disponível no plano **Business**.',
+        a: 'O InterMind é **privado por design**. Todos os dados são processados e armazenados dentro da sua **Zona de Privacidade** selecionada — _UE_, _EUA_ ou _Ásia_. Cumprimos com [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) e UAE PDPL, e **nunca usamos seu conteúdo** para treinamento ou acesso de terceiros. Controle avançado de [Zona de Privacidade](./product/overview/privacy-architecture) está disponível no plano **Business**.',
       },
       {
         q: 'Posso experimentar o InterMind antes de comprar um plano?',
@@ -274,7 +274,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       },
       {
         q: 'Como gerencio minha assinatura (upgrade, downgrade ou cancelamento)?',
-        a: 'Você pode alterar seu plano a qualquer momento através das **configurações da conta**. As alterações entram em vigor **imediatamente**. Para cancelamentos, *planos mensais* cancelam no final do ciclo de cobrança. *Planos anuais* podem ser cancelados para **reembolso proporcional**.',
+        a: 'Você pode alterar seu plano a qualquer momento através das **configurações da conta**. As alterações entram em vigor **imediatamente**. Para cancelamentos, *planos mensais* são cancelados no final do ciclo de cobrança. *Planos anuais* podem ser cancelados com **reembolso proporcional**.',
       },
       {
         q: 'Posso usar o InterMind para webinars ou grandes eventos?',
@@ -287,8 +287,8 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       {
         title: 'PRODUTO',
         links: [
-          { text: 'Visão Geral', link: './product/overview/what-is-intermind' },
-          { text: 'Primeiros Passos', link: './product/guide/getting-started' },
+          { text: 'Visão geral', link: './product/overview/what-is-intermind' },
+          { text: 'Primeiros passos', link: './product/guide/getting-started' },
           { text: 'Depoimentos', link: '#Testimonials' },
           { text: 'Preços', link: '#Pricing' },
         ],
@@ -296,11 +296,11 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       {
         title: 'SUPORTE',
         links: [
-          { text: 'Obter Suporte', link: './resources/help' },
+          { text: 'Obter suporte', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Política de Privacidade', link: './resources/company/privacy-policy' },
-          { text: 'Guia Legal de IA', link: './resources/company/legal-regulations-for-ai-services' },
-          { text: 'Status do Serviço', link: 'https://status.mind.com/' },
+          { text: 'Política de privacidade', link: './resources/company/privacy-policy' },
+          { text: 'Guia jurídico de IA', link: './resources/company/legal-regulations-for-ai-services' },
+          { text: 'Status do serviço', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },
         ],
       },
@@ -308,8 +308,8 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
         title: 'RECURSOS',
         links: [
           { text: 'Blog', link: './blog/' },
-          { text: 'Conformidade Global de Acesso a Idiomas', link: './blog/posts/global-language-access-compliance' },
-          { text: 'Recursos da Marca', link: './resources/media-kit' },
+          { text: 'Conformidade global de acesso a idiomas', link: './blog/posts/global-language-access-compliance' },
+          { text: 'Recursos da marca', link: './resources/media-kit' },
           { text: 'Documentação da API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
         ],
       },

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "InterMIND: Terjemahan Ucapan Real-Time untuk Rapat Video"
+title: "Terjemahan Ucapan Real-Time untuk Rapat Video"
 description: "Konferensi video profesional dengan interpretasi simultan dalam 19+ bahasa. Terjemahan bertenaga AI yang menangkap nada, maksud, dan konteks. Bertemu secara global, berkomunikasi secara alami."
 isHome: true
 ---
@@ -12,7 +12,7 @@ isHome: true
 <NavButton buttonLabel="Asisten" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
-## Terjemahan ≠ Pemahaman {#1}
+{#1}
 
 <FeatureBlock
     :card="{
@@ -31,7 +31,7 @@ isHome: true
     }"
   />
 
-## Pikiran dalam Rapat Anda {#2}
+{#2}
 
 <FeatureBlock
     :card="{
@@ -51,14 +51,14 @@ isHome: true
     }"
   />
 
-## Dibangun untuk Rapat Serius {#3}
+{#3}
 
 <FeatureBlock
     :card="{
-      title: 'Dibangun untuk Rapat Serius — Bukan Hanya untuk Berbicara',
+      title: 'Dibangun untuk Rapat Serius — Bukan Hanya Berbicara',
       details: 'InterMind adalah [platform rapat video tingkat profesional](./product/overview/video-meeting-platform), bukan add-on ringan atau plugin.',
       items: [
-        '✧ Resolusi 1080p, penekan suara pintar, penjadwalan, moderasi, berbagi layar, perekaman, subtitle, chat peserta dan integrasi kalender — semua sudah terintegrasi, **siap digunakan**.',
+        '✧ Resolusi 1080p, penekan kebisingan pintar, penjadwalan, moderasi, berbagi layar, perekaman, subtitle, chat peserta dan integrasi kalender — semua terintegrasi, **siap digunakan**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -69,13 +69,13 @@ isHome: true
     }"
   />
 
-## Privasi di Tempat yang Penting {#4}
+{#4}
 
 <FeatureBlock
     :card="{
       title: 'Privasi di Tempat yang Penting',
-      details: 'InterMind dibangun untuk percakapan yang memerlukan kepercayaan tinggi — di mana privasi dan kontrol sangat penting.',
-      items: ['✧ [Zona Privasi](./product/overview/privacy-architecture) — EU, US, Asia Tenggara', '✧ **Tanpa pelatihan data**. Tidak ada akses pihak ketiga.'],
+      details: 'InterMind dibangun untuk percakapan kritis kepercayaan — di mana privasi dan kontrol paling penting.',
+      items: ['✧ [Zona Privasi](./product/overview/privacy-architecture) — EU, AS, Asia Tenggara', '✧ **Nol pelatihan data**. Tidak ada akses pihak ketiga.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.png',
@@ -86,7 +86,7 @@ isHome: true
   />
 
 > **Untuk siapa ini?**  
-> _Dibangun untuk tim internasional di mana hambatan bahasa menyebabkan keterlambatan, kehilangan kesepakatan, atau kesalahpahaman yang merugikan._ [Pelajari lebih lanjut ...](./product/overview/markets)
+> _Dibangun untuk tim internasional di mana hambatan bahasa menyebabkan penundaan, kesepakatan yang hilang, atau kesalahpahaman yang merugikan._ [Pelajari lebih lanjut ...](./product/overview/markets)
 
 ## Bekerja Seperti Google Meet + Terjemahan Langsung {#HowItWorks}
 
@@ -111,7 +111,7 @@ Antarmuka yang familiar. Komunikasi universal. Kemudahan yang sama seperti Googl
         },
       },
       {
-        title: 'Bergabung dengan rapat',
+        title: 'Bergabung ke rapat',
         details: 'Klik tautan, masukkan nama, bergabung secara instan.',
         icon: {
           light: '/join.png',
@@ -120,7 +120,7 @@ Antarmuka yang familiar. Komunikasi universal. Kemudahan yang sama seperti Googl
       },
       {
         title: 'Berbicara dalam bahasa Anda',
-        details: 'Setiap orang berbicara dan mendengar dalam bahasa mereka sendiri.',
+        details: 'Semua orang berbicara dan mendengar dalam bahasa mereka sendiri.',
         icon: {
           light: '/meeting.png',
           dark: '/meeting.png',
@@ -135,7 +135,7 @@ Antarmuka yang familiar. Komunikasi universal. Kemudahan yang sama seperti Googl
 
 <VideoPlayer src="/promo/demo-en-mx.mp4" />
 
-## Contoh: Bagaimana terjemahan suara real-time bekerja dalam rapat {#Example}
+## Contoh: Bagaimana terjemahan ucapan real-time bekerja dalam rapat {#Example}
 
 Katakanlah:
 
@@ -150,7 +150,7 @@ Setiap peserta **berbicara dan mendengar** dalam bahasa yang mereka pilih saat m
 Pengaturan bahasa tunggal ini berlaku untuk:
 
 - **Bahasa antarmuka**
-- **Input suara** (apa yang Anda katakan)
+- **Input lisan** (apa yang Anda katakan)
 - **Output terjemahan** (apa yang Anda dengar)
 
 | Peserta   | Bahasa yang Dipilih | Berbicara Dalam | Mendengar Dalam |
@@ -195,7 +195,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
         details: 'tidak perlu kartu kredit',
         items: [
           '**25** pertemuan',
-          '**100** pertemuan video peserta [💬](#3)',
+          '**100** peserta pertemuan video [💬](#3)',
           '**30** GB penyimpanan gabungan per pengguna',
           'Pencarian di semua pertemuan Anda [💬](#2)',
           'Interpretasi simultan [💬](#1)',
@@ -207,7 +207,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
         details: 'atau $25 ditagih bulanan',
         items: [
           '**Tidak terbatas** pertemuan',
-          '**150** pertemuan video peserta [💬](#3)',
+          '**150** peserta pertemuan video [💬](#3)',
           '**2** TB penyimpanan gabungan per pengguna',
           'Pencarian di semua pertemuan Anda [💬](#2)',
           'Interpretasi simultan [💬](#1)',
@@ -219,7 +219,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
         details: 'Dibuat untuk privasi',
         items: [
           '**Tidak terbatas** pertemuan',
-          '**500** pertemuan video peserta [💬](#3)',
+          '**500** peserta pertemuan video [💬](#3)',
           '**5** TB penyimpanan gabungan per pengguna',
           'Pencarian di semua pertemuan Anda [💬](#2)',
           'Interpretasi simultan [💬](#1)',
@@ -228,12 +228,12 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
       },
     ]">
 
-<AuthButton text="Mulai" button-class="brand" event-name="get_started_attempt"/>
+<AuthButton text="Mulai sekarang" button-class="brand" event-name="get_started_attempt"/>
 <AuthButton text="Beli sekarang" mode="checkout" eventName="buy_now_attempt" />
 <ContactForm buttonText="Bicara dengan tim kami" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_Waktu Anda lebih baik digunakan untuk menguasai keahlian Anda — bukan menghafal tata bahasa._**  
+> 💡 **_Waktu Anda lebih baik digunakan untuk menguasai keahlian — bukan menghafal tata bahasa._**  
 > 💡 **_Kemitraan sejati dimulai dengan percakapan yang nyata — dalam bahasa mereka._**
 
 ## Pertanyaan yang Sering Diajukan {#FAQ}
@@ -262,11 +262,11 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
       },
       {
         q: 'Bagaimana InterMind memastikan privasi dan keamanan data?',
-        a: 'InterMind **privat berdasarkan desain**. Semua data diproses dan disimpan dalam **Zona Privasi** yang Anda pilih — _EU_, _US_, atau _Asia_. Kami mematuhi [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), dan UAE PDPL, dan **tidak pernah menggunakan konten Anda** untuk pelatihan atau akses pihak ketiga. [Kontrol Zona Privasi](./product/overview/privacy-architecture) lanjutan tersedia pada paket **Business**.',
+        a: 'InterMind **privat sejak awal**. Semua data diproses dan disimpan dalam **Zona Privasi** yang Anda pilih — _EU_, _US_, atau _Asia_. Kami mematuhi [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), dan UAE PDPL, dan **tidak pernah menggunakan konten Anda** untuk pelatihan atau akses pihak ketiga. Kontrol [Zona Privasi](./product/overview/privacy-architecture) lanjutan tersedia pada paket **Business**.',
       },
       {
         q: 'Bisakah saya mencoba InterMind sebelum membeli paket?',
-        a: 'Tentu saja. Paket *Free Basic* memberi Anda akses penuh ke fitur inti dengan **25 meeting gratis** — termasuk **interpretasi simultan** dan **pencarian meeting**. Tidak diperlukan kartu kredit. Upgrade kapan saja.',
+        a: 'Tentu saja. Paket *Free Basic* memberi Anda akses penuh ke fitur inti dengan **25 meeting gratis** — termasuk **interpretasi simultan** dan **pencarian meeting**. Tidak perlu kartu kredit. Upgrade kapan saja.',
       },
       {
         q: 'Bagaimana jika saya memerlukan bantuan atau dukungan?',
@@ -287,7 +287,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
       {
         title: 'PRODUK',
         links: [
-          { text: 'Ikhtisar', link: './product/overview/what-is-intermind' },
+          { text: 'Gambaran Umum', link: './product/overview/what-is-intermind' },
           { text: 'Memulai', link: './product/guide/getting-started' },
           { text: 'Testimoni', link: '#Testimonials' },
           { text: 'Harga', link: '#Pricing' },
