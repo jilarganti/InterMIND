@@ -32,11 +32,6 @@
   font-weight: bold;
 }
 
-.dark .hl {
-  color: var(--vp-hl-color);
-  font-weight: bold;
-}
-
 .dark-only {
   display: none !important;
 }
