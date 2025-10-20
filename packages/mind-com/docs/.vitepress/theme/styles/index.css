@@ -3,6 +3,7 @@
 @import "./custom-blocks.css";
 @import "./tables.css";
 @import "./details.css";
+/* @import "./home-hero.css"; */
 
 @tailwind base;
 @tailwind components;

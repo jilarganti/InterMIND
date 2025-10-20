@@ -7,26 +7,14 @@
 
 /* Remove underline from all VPButtons */
 .VPButton {
-  text-decoration: none !important; /* Use !important to ensure override if necessary */
+  text-decoration: none !important;
 }
 
 :root h2 {
   border-top: none;
-  /* margin: 0; */
 }
 
-/* .hl {
-  color: #ae6040;
-  font-weight: bold;
-} */
-
-/* .link-text {
-  color: var(--vp-c-brand-1);
-  text-decoration: underline;
-} */
-
 /* Highlight color for both light and dark themes */
-
 .hl {
   color: var(--vp-hl-color);
   font-weight: bold;
@@ -40,6 +28,12 @@
 .light-only,
 .dark .dark-only {
   display: inline-block;
+}
+
+/* Стили для blockquote */
+.vp-doc blockquote {
+  border-left: 3px solid var(--vp-hl-color) !important;
+  color: inherit;
 }
 
 .VPDoc.has-aside .content-container {
@@ -61,70 +55,22 @@ body {
   max-width: 100vw;
 }
 
+/* Стили для блока с кодом */
+/* code {
+  color: var(--vp-hl-color) !important;
+} */
+
 /* :root {
   --vp-home-hero-image-background-image: none;
   --vp-home-hero-image-filter: none;
 } */
 
-.VPHomeHero :is(.name, .text, .tagline) {
-  max-width: 100%;
-  margin: 3rem auto;
-}
+/* .hl {
+  color: #ae6040;
+  font-weight: bold;
+} */
 
-/* CSS с анимацией */
-.VPHomeHero .text {
-  font-size: 8rem;
-  animation: shrinkText 1s ease-out 1s forwards;
-  animation-delay: 20s;
-}
-
-.VPHomeHero .text.no-animation {
-  font-size: 4rem;
-  margin: 2rem auto;
-  animation: none;
-}
-
-/* Стили для блока с кодом */
-code {
-  color: var(--vp-hl-color) !important;
-}
-
-@keyframes shrinkText {
-  to {
-    font-size: 4rem;
-    margin: 2rem auto;
-  }
-}
-
-/* Мобильная версия */
-@media (max-width: 640px) {
-  .VPHomeHero :is(.name, .text, .tagline) {
-    max-width: 100%;
-    margin: 0 auto 1.5rem;
-  }
-
-  .VPHomeHero .text {
-    font-size: 4.5rem;
-    animation: shrinkTextMobile 1s ease-out 1s forwards;
-    animation-delay: 20s;
-  }
-
-  .VPHomeHero .text.no-animation {
-    font-size: 3rem;
-    margin: 0 auto 1rem;
-    animation: none;
-  }
-
-  @keyframes shrinkTextMobile {
-    to {
-      font-size: 3rem;
-      margin: 0 auto 1rem;
-    }
-  }
-}
-
-/* Стили для blockquote */
-.vp-doc blockquote {
-  border-left: 3px solid var(--vp-hl-color) !important;
-  color: inherit;
-}
+/* .link-text {
+  color: var(--vp-c-brand-1);
+  text-decoration: underline;
+} */
