@@ -32,20 +32,14 @@
   font-weight: bold;
 }
 
-.dark-only {
-  display: none !important;
-}
-
-.light-only {
-  display: inline-block;
-}
-
-.dark .dark-only {
-  display: inline-block !important;
-}
-
+.dark-only,
 .dark .light-only {
-  display: none !important;
+  display: none;
+}
+
+.light-only,
+.dark .dark-only {
+  display: inline-block;
 }
 
 .VPDoc.has-aside .content-container {
