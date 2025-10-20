@@ -20,10 +20,10 @@
   font-weight: bold;
 } */
 
-.link-text {
+/* .link-text {
   color: var(--vp-c-brand-1);
   text-decoration: underline;
-}
+} */
 
 .link-text:hover {
   color: var(--vp-c-brand-2);
