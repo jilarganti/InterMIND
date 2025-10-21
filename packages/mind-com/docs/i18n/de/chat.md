@@ -1,43 +1,56 @@
 <script setup>
   const chatPrompts = [
-    // Schmerzbasierte Suchanfragen - Sprachbarrieren im Geschäftsleben
-    "Alternative zu teuren menschlichen Dolmetschern",
-    "Wie man mit ausländischen Kunden kommuniziert ohne ihre Sprache zu sprechen",
-    "Echtzeit-Übersetzung für Geschäftsmeetings",
-    "Videoanruf-Dolmetscher-Software",
-    "Verlorene Geschäfte aufgrund von Sprachbarrieren",
+    // Kernprodukt & Technologie
+    "KI-Echtzeitdolmetschen vs. traditionelle Simultandolmetscher",
+    "Wie KI-Sprachübersetzung in Videobesprechungen funktioniert",
+    "Latenz-Benchmarks für Sprache-zu-Sprache-Übersetzung",
+    "KI-Dolmetschgenauigkeit für Geschäftsgespräche",
+    "Kontextbewusste KI-Übersetzung in Live-Meetings",
     
-    // Spezifische Geschäftsszenarien
-    "Wie man internationalen Kunden präsentiert",
-    "Produktdemos in verschiedenen Sprachen durchführen",
-    "Best Practices für internationale Verkaufsmeetings",
-    "Kommunikation mit Lieferanten aus verschiedenen Ländern",
+    // Geschäftsanwendungsfälle
+    "Internationale Verkaufsmeetings ohne Sprachbarrieren",
+    "Globale Teamzusammenarbeit mit Sofortübersetzung",
+    "Grenzüberschreitende Kommunikation mit Fertigungslieferanten",
+    "Mehrsprachige Kundensupport-Videoanrufe",
+    "Internationale Bildungs- und Schulungssitzungen",
     
-    // Lösungssuchende Anfragen
-    "KI-Übersetzung vs. menschlicher Übersetzer Vergleich",
-    "Sofortige Sprachübersetzung für Unternehmen",
-    "Mehrsprachige Tools für Teamzusammenarbeit",
+    // Technische Leistung
+    "Videokonferenzen unter schlechten Netzwerkbedingungen",
+    "apiMind vs Google Meet Übersetzungsleistung",
+    "apiMind vs Zoom Dolmetschfunktionen",
+    "Spracherkennungsgenauigkeit bei verschiedenen Akzenten",
+    "Bandbreitenanforderungen für KI-gedolmetschte Anrufe",
     
-    // Technische Anforderungen Suchen
-    "Übersetzungsgenauigkeit für technische Diskussionen",
-    "Sichere Übersetzungssoftware für Unternehmen",
-    "Integration in bestehende Videokonferenz-Systeme",
-    "DSGVO-konforme Übersetzungsdienstleistung",
+    // Geschäfts-ROI & Wirtschaftlichkeit
+    "Kostenvergleich: KI-Dolmetschen vs. menschliche Dolmetscher",
+    "ROI der Implementierung von Sprachzugangstechnologie",
+    "Versteckte Kosten von Sprachbarrieren im Geschäftsleben",
+    "Zeitersparnis durch sofortige KI-Übersetzung",
+    "Reduzierung von Kommunikationsfehlern bei internationalen Geschäften",
     
-    // ROI und Geschäftswert
-    "Kosten von Missverständnissen im internationalen Geschäft",
-    "Dolmetscherkosten vs. KI-Lösung berechnen",
-    "Internationale Verkaufskonversionsraten steigern",
-    "Globale Expansion ohne Sprachtraining",
+    // Compliance & Vorschriften
+    "Sprachzugangsgesetze in den USA (Title VI, ADA, LEP)",
+    "DSGVO-Konformität für mehrsprachige Videoplattformen",
+    "Sprachzugangsvorschriften im Gesundheitswesen (Section 1557)",
+    "Datensouveränität in Cloud-Übersetzungsdiensten",
     
-    // Wettbewerbervergleich Suchen
-    "Google Meet Übersetzungsbeschränkungen",
-    "Zoom Untertitel-Übersetzungsprobleme",
-    "Microsoft Teams Übersetzungsqualitätsprobleme",
+    // Wettbewerbsanalyse
+    "Microsoft Teams Echtzeit-Übersetzung Einschränkungen",
+    "Google Meet Auto-Untertitel vs. KI-Dolmetschen",
+    "Zoom Übersetzungsfunktionen Vergleich",
+    "Traditionelle LSP vs. KI-Dolmetschplattformen",
     
-    // Branchenspezifische Suchen
-    "Fertigungskommunikation mit Übersee-Lieferanten",
-    "Exportgeschäft Sprachlösung",
+    // Technologietrends
+    "Zukunft des Simultandolmetschens mit KI",
+    "Multimodale KI-Übersetzung (Sprache + visueller Kontext)",
+    "Emotionale Intelligenz beim KI-Dolmetschen",
+    "Edge Computing für niedrige Latenz beim Dolmetschen",
+    
+    // Erfolgsgeschichten & Fallstudien
+    "Wie Unternehmen internationale Verkäufe mit KI-Dolmetschen steigerten",
+    "Reduzierung der Dolmetscherkosten um 80% mit KI",
+    "Universitäre Einführung von KI-Dolmetschen für Barrierefreiheit",
+    "Verbesserung der LEP-Patientenzufriedenheit im Krankenhaussystem",
   ]
 </script>
 

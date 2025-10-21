@@ -1,43 +1,56 @@
 <script setup>
   const chatPrompts = [
-    // Pencarian berbasis masalah - Hambatan bahasa dalam bisnis
-    "Alternatif penerjemah manusia yang mahal",
-    "Cara berkomunikasi dengan klien asing tanpa mengetahui bahasa mereka",
-    "Terjemahan real time untuk rapat bisnis",
-    "Software penerjemah panggilan video",
-    "Kehilangan kesepakatan karena hambatan bahasa",
+    // Produk Inti & Teknologi
+    "Interpretasi AI real-time vs penerjemah simultan tradisional",
+    "Cara kerja terjemahan suara AI dalam rapat video",
+    "Benchmark latensi terjemahan ucapan-ke-ucapan",
+    "Akurasi interpretasi AI untuk percakapan bisnis",
+    "Terjemahan AI yang sadar konteks dalam rapat langsung",
     
-    // Skenario bisnis spesifik
-    "Cara presentasi kepada klien internasional",
-    "Melakukan demo produk dalam berbagai bahasa",
-    "Praktik terbaik rapat penjualan internasional",
-    "Berkomunikasi dengan pemasok dari berbagai negara",
+    // Kasus Penggunaan Bisnis
+    "Rapat penjualan internasional tanpa hambatan bahasa",
+    "Kolaborasi tim global dengan terjemahan instan",
+    "Komunikasi pemasok manufaktur lintas batas",
+    "Panggilan video dukungan pelanggan multibahasa",
+    "Sesi pendidikan dan pelatihan internasional",
     
-    // Pencarian solusi
-    "Perbandingan terjemahan AI vs penerjemah manusia",
-    "Terjemahan bahasa instan untuk bisnis",
-    "Alat kolaborasi tim multibahasa",
+    // Performa Teknis
+    "Konferensi video dalam kondisi jaringan buruk",
+    "Performa terjemahan apiMind vs Google Meet",
+    "Fitur interpretasi apiMind vs Zoom",
+    "Akurasi pengenalan suara di berbagai aksen",
+    "Kebutuhan bandwidth untuk panggilan yang diinterpretasi AI",
     
-    // Pencarian kebutuhan teknis
-    "Akurasi terjemahan untuk diskusi teknis",
-    "Software terjemahan aman untuk perusahaan",
-    "Integrasi dengan video conference yang ada",
-    "Layanan terjemahan yang mematuhi GDPR",
+    // ROI Bisnis & Ekonomi
+    "Perbandingan biaya: interpretasi AI vs penerjemah manusia",
+    "ROI implementasi teknologi akses bahasa",
+    "Biaya tersembunyi hambatan bahasa dalam bisnis",
+    "Penghematan waktu dengan terjemahan AI instan",
+    "Mengurangi biaya miskomunikasi dalam kesepakatan internasional",
     
-    // ROI dan nilai bisnis
-    "Biaya miskomunikasi dalam bisnis internasional",
-    "Menghitung biaya penerjemah vs solusi AI",
-    "Meningkatkan tingkat konversi penjualan internasional",
-    "Ekspansi global tanpa pelatihan bahasa",
+    // Kepatuhan & Regulasi
+    "Hukum akses bahasa di Amerika Serikat (Title VI, ADA, LEP)",
+    "Kepatuhan GDPR untuk platform video multibahasa",
+    "Regulasi akses bahasa kesehatan (Section 1557)",
+    "Kedaulatan data dalam layanan terjemahan cloud",
     
-    // Pencarian perbandingan kompetitor
-    "Keterbatasan terjemahan Google Meet",
-    "Masalah terjemahan subtitle Zoom",
-    "Masalah kualitas terjemahan Microsoft Teams",
+    // Analisis Kompetitif
+    "Keterbatasan terjemahan real-time Microsoft Teams",
+    "Caption otomatis Google Meet vs interpretasi AI",
+    "Perbandingan fitur terjemahan Zoom",
+    "LSP tradisional vs platform interpretasi AI",
     
-    // Pencarian spesifik industri
-    "Komunikasi manufaktur dengan pemasok luar negeri",
-    "Solusi bahasa bisnis ekspor",
+    // Tren Teknologi
+    "Masa depan interpretasi simultan dengan AI",
+    "Terjemahan AI multimodal (suara + konteks visual)",
+    "Kecerdasan emosional dalam interpretasi AI",
+    "Edge computing untuk interpretasi latensi rendah",
+    
+    // Kisah Sukses & Studi Kasus
+    "Bagaimana perusahaan meningkatkan penjualan internasional dengan interpretasi AI",
+    "Mengurangi biaya penerjemah hingga 80% dengan AI",
+    "Adopsi universitas terhadap interpretasi AI untuk aksesibilitas",
+    "Peningkatan kepuasan pasien LEP sistem rumah sakit",
   ]
 </script>
 

@@ -22,13 +22,13 @@ function getPostsPath(): string {
   // Если файл находится в папке i18n, то используем путь i18n/{locale}/
   const i18nMatch = currentFile.match(/\/docs\/i18n\/([a-z]{2})\//)
   if (i18nMatch) {
-    return `i18n/${i18nMatch[1]}/blog/posts/*.md`
+    return `i18n/${i18nMatch[1]}/blog/posts/**/*.md`
   }
 
   // Иначе используем основной путь {locale}/
   const mainMatch = currentFile.match(/\/docs\/([a-z]{2})\//)
   const locale = mainMatch ? mainMatch[1] : "en"
-  return `${locale}/blog/posts/*.md`
+  return `${locale}/blog/posts/**/*.md`
 }
 
 export default createContentLoader(getPostsPath(), {

@@ -1,43 +1,56 @@
 <script setup>
   const chatPrompts = [
-    // Requêtes de recherche basées sur la douleur - Barrières linguistiques dans les affaires
-    "Alternative aux interprètes humains coûteux",
-    "Comment communiquer avec des clients étrangers sans connaître leur langue",
-    "Traduction en temps réel pour les réunions d\\'affaires",
-    "Logiciel d\\'interprète pour appels vidéo",
-    "Contrats perdus à cause des barrières linguistiques",
+    // Produit principal et technologie
+    "Interprétation IA en temps réel vs interprètes simultanés traditionnels",
+    "Comment fonctionne la traduction vocale IA dans les réunions vidéo",
+    "Benchmarks de latence pour la traduction parole-à-parole",
+    "Précision de l'interprétation IA pour les conversations d'affaires",
+    "Traduction IA contextuelle dans les réunions en direct",
     
-    // Scénarios d'affaires spécifiques
-    "Comment présenter à des clients internationaux",
-    "Effectuer des démonstrations de produits dans différentes langues",
-    "Meilleures pratiques pour les réunions de vente internationales",
-    "Communiquer avec des fournisseurs de différents pays",
+    // Cas d'usage métier
+    "Réunions commerciales internationales sans barrières linguistiques",
+    "Collaboration d'équipes mondiales avec traduction instantanée",
+    "Communication avec fournisseurs manufacturiers transfrontaliers",
+    "Appels vidéo de support client multilingue",
+    "Sessions internationales d'éducation et de formation",
     
-    // Requêtes de recherche de solutions
-    "Comparaison traduction IA vs traducteur humain",
-    "Traduction linguistique instantanée pour les affaires",
-    "Outils de collaboration pour équipes multilingues",
+    // Performance technique
+    "Visioconférence dans de mauvaises conditions réseau",
+    "Performance de traduction apiMind vs Google Meet",
+    "Fonctionnalités d'interprétation apiMind vs Zoom",
+    "Précision de reconnaissance vocale selon les accents",
+    "Exigences de bande passante pour les appels interprétés par IA",
     
-    // Recherches d'exigences techniques
-    "Précision de traduction pour les discussions techniques",
-    "Logiciel de traduction sécurisé pour l\\'entreprise",
-    "Intégration avec la visioconférence existante",
-    "Service de traduction conforme RGPD",
+    // ROI et économie d'entreprise
+    "Comparaison des coûts : interprétation IA vs interprètes humains",
+    "ROI de l'implémentation de technologie d'accès linguistique",
+    "Coûts cachés des barrières linguistiques en entreprise",
+    "Gain de temps avec la traduction IA instantanée",
+    "Réduction des coûts de mauvaise communication dans les accords internationaux",
     
-    // ROI et valeur commerciale
-    "Coût de la mauvaise communication dans les affaires internationales",
-    "Calculer les coûts d\\'interprète vs solution IA",
-    "Augmenter les taux de conversion des ventes internationales",
-    "Expansion mondiale sans formation linguistique",
+    // Conformité et réglementations
+    "Lois d'accès linguistique aux USA (Title VI, ADA, LEP)",
+    "Conformité RGPD pour les plateformes vidéo multilingues",
+    "Réglementations d'accès linguistique en santé (Section 1557)",
+    "Souveraineté des données dans les services de traduction cloud",
     
-    // Recherches de comparaison avec la concurrence
-    "Limitations de traduction Google Meet",
-    "Problèmes de traduction de sous-titres Zoom",
-    "Problèmes de qualité de traduction Microsoft Teams",
+    // Analyse concurrentielle
+    "Limitations de la traduction temps réel Microsoft Teams",
+    "Sous-titres automatiques Google Meet vs interprétation IA",
+    "Comparaison des fonctionnalités de traduction Zoom",
+    "LSP traditionnels vs plateformes d'interprétation IA",
     
-    // Recherches spécifiques à l'industrie
-    "Communication manufacturière avec fournisseurs étrangers",
-    "Solution linguistique pour entreprise d\\'exportation",
+    // Tendances technologiques
+    "Avenir de l'interprétation simultanée avec l'IA",
+    "Traduction IA multimodale (voix + contexte visuel)",
+    "Intelligence émotionnelle dans l'interprétation IA",
+    "Edge computing pour l'interprétation à faible latence",
+    
+    // Success stories et études de cas
+    "Comment les entreprises ont augmenté leurs ventes internationales avec l'interprétation IA",
+    "Réduction des coûts d'interprètes de 80% avec l'IA",
+    "Adoption universitaire de l'interprétation IA pour l'accessibilité",
+    "Amélioration de la satisfaction des patients LEP dans les systèmes hospitaliers",
   ]
 </script>
 

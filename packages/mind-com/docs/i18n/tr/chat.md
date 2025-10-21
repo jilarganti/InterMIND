@@ -1,43 +1,56 @@
 <script setup>
   const chatPrompts = [
-    // Ağrı tabanlı arama sorguları - İş dünyasında dil engelleri
-    "Pahalı insan tercümanlarına alternatif",
-    "Yabancı müşterilerle dillerini bilmeden nasıl iletişim kurulur",
-    "İş toplantıları için gerçek zamanlı çeviri",
-    "Video arama tercüman yazılımı",
-    "Dil engelleri nedeniyle kaybedilen anlaşmalar",
+    // Temel Ürün ve Teknoloji
+    "Gerçek zamanlı AI tercümanlık vs geleneksel simultane tercümanlar",
+    "Video toplantılarda AI sesli çevirinin nasıl çalıştığı",
+    "Konuşmadan konuşmaya çeviri gecikme ölçütleri",
+    "İş görüşmeleri için AI tercümanlık doğruluğu",
+    "Canlı toplantılarda bağlam farkında AI çeviri",
     
-    // Spesifik iş senaryoları
-    "Uluslararası müşterilere nasıl sunum yapılır",
-    "Farklı dillerde ürün demoları nasıl yapılır",
-    "Uluslararası satış toplantısı en iyi uygulamaları",
-    "Farklı ülkelerden tedarikçilerle iletişim",
+    // İş Kullanım Durumları
+    "Dil engellerinin olmadığı uluslararası satış toplantıları",
+    "Anında çeviri ile küresel ekip işbirliği",
+    "Sınır ötesi üretim tedarikçi iletişimi",
+    "Çok dilli müşteri destek video aramaları",
+    "Uluslararası eğitim ve öğretim oturumları",
     
-    // Çözüm arayan sorgular
-    "AI çeviri ile insan tercüman karşılaştırması",
-    "İş için anlık dil çevirisi",
-    "Çok dilli ekip işbirliği araçları",
+    // Teknik Performans
+    "Zayıf ağ koşullarında video konferans",
+    "apiMind vs Google Meet çeviri performansı",
+    "apiMind vs Zoom tercümanlık özellikleri",
+    "Aksanlarda konuşma tanıma doğruluğu",
+    "AI tercümanlı aramalar için bant genişliği gereksinimleri",
     
-    // Teknik gereksinimler aramaları
-    "Teknik tartışmalar için çeviri doğruluğu",
-    "Kurumsal için güvenli çeviri yazılımı",
-    "Mevcut video konferans ile entegrasyon",
-    "GDPR uyumlu çeviri hizmeti",
+    // İş ROI ve Ekonomi
+    "Maliyet karşılaştırması: AI tercümanlık vs insan tercümanlar",
+    "Dil erişim teknolojisi uygulamasının ROI'si",
+    "İş dünyasında dil engellerinin gizli maliyetleri",
+    "Anında AI çeviri ile zaman tasarrufu",
+    "Uluslararası anlaşmalarda yanlış iletişim maliyetlerini azaltma",
     
-    // ROI ve iş değeri
-    "Uluslararası iş dünyasında yanlış anlaşılmanın maliyeti",
-    "Tercüman maliyetleri ile AI çözümü karşılaştırması",
-    "Uluslararası satış dönüşüm oranlarını artırma",
-    "Dil eğitimi olmadan küresel genişleme",
+    // Uyumluluk ve Düzenlemeler
+    "ABD'de dil erişim yasaları (Title VI, ADA, LEP)",
+    "Çok dilli video platformları için GDPR uyumluluğu",
+    "Sağlık hizmetlerinde dil erişim düzenlemeleri (Bölüm 1557)",
+    "Bulut çeviri hizmetlerinde veri egemenliği",
     
-    // Rakip karşılaştırma aramaları
-    "Google Meet çeviri sınırlamaları",
-    "Zoom altyazı çeviri sorunları",
-    "Microsoft Teams çeviri kalitesi sorunları",
+    // Rekabet Analizi
+    "Microsoft Teams gerçek zamanlı çeviri sınırlamaları",
+    "Google Meet otomatik altyazılar vs AI tercümanlık",
+    "Zoom çeviri özellikleri karşılaştırması",
+    "Geleneksel LSP vs AI tercümanlık platformları",
     
-    // Sektöre özel aramalar
-    "Denizaşırı tedarikçilerle üretim iletişimi",
-    "İhracat işi dil çözümü",
+    // Teknoloji Trendleri
+    "AI ile simultane tercümanlığın geleceği",
+    "Çok modlu AI çeviri (ses + görsel bağlam)",
+    "AI tercümanlıkta duygusal zeka",
+    "Düşük gecikmeli tercümanlık için edge computing",
+    
+    // Başarı Hikayeleri ve Vaka Çalışmaları
+    "Şirketler AI tercümanlık ile uluslararası satışları nasıl artırdı",
+    "AI ile tercüman maliyetlerini %80 azaltma",
+    "Üniversitelerin erişilebilirlik için AI tercümanlık benimsemesi",
+    "Hastane sistemi LEP hasta memnuniyeti iyileştirmesi",
   ]
 </script>
 
