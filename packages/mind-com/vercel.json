@@ -27,6 +27,36 @@
       "source": "/company/about/",
       "destination": "/resources/company/about/",
       "permanent": true
+    },
+    {
+      "source": "/:locale/blog/posts/apiMind-vs-Google-Meet-and-Jitsi",
+      "destination": "/:locale/blog/posts/apimind-vs-google-meet-and-jitsi",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/apiMind-vs-Google-Meet-and-Jitsi",
+      "destination": "/blog/posts/apimind-vs-google-meet-and-jitsi",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/blog/posts/Multilingual-Meetings-in-Microsoft-Teams",
+      "destination": "/:locale/blog/posts/multilingual-meetings-in-microsoft-teams",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/Multilingual-Meetings-in-Microsoft-Teams",
+      "destination": "/blog/posts/multilingual-meetings-in-microsoft-teams",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/blog/posts/Reimagining-Video-Communications",
+      "destination": "/:locale/blog/posts/reimagining-video-communications",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/Reimagining-Video-Communications",
+      "destination": "/blog/posts/reimagining-video-communications",
+      "permanent": true
     }
   ]
 }
