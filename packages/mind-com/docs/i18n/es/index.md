@@ -297,7 +297,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
         title: 'SOPORTE',
         links: [
           { text: 'Obtener soporte', link: './resources/help' },
-          { text: 'Preguntas frecuentes', link: '#FAQ' },
+          { text: 'FAQ', link: '#FAQ' },
           { text: 'Política de privacidad', link: './resources/company/privacy-policy' },
           { text: 'Guía legal de IA', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Estado del servicio', link: 'https://status.mind.com/' },
@@ -310,7 +310,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
           { text: 'Blog', link: './blog/' },
           { text: 'Cumplimiento de acceso global a idiomas', link: './blog/posts/global-language-access-compliance' },
           { text: 'Recursos de marca', link: './resources/media-kit' },
-          { text: 'Documentación de API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
+          { text: 'Documentos de API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

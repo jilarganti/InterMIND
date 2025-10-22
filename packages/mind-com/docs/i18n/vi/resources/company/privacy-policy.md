@@ -15,13 +15,13 @@ Các thực hành bảo mật của chúng tôi tuân thủ các quy định b�
 - Đạo luật tính di động và trách nhiệm giải trình bảo hiểm y tế (HIPAA) - Hoa Kỳ
 - Đạo luật bảo vệ quyền riêng tư trực tuyến trẻ em (COPPA) - Hoa Kỳ
 
-## Thông tin chúng tôi thu thập
+## Thông Tin Chúng Tôi Thu Thập
 
 Chúng tôi có thể thu thập các loại thông tin sau:
 
-- Thông tin cá nhân: Họ tên, thông tin liên hệ, giấy tờ tùy thân và các thông tin khác cần thiết để cung cấp dịch vụ pháp lý.
-- Dữ liệu dịch vụ: Thông tin liên quan đến các vấn đề pháp lý, chi tiết vụ việc và thư từ trao đổi.
-- Dữ liệu kỹ thuật: Địa chỉ IP, loại trình duyệt, thông tin thiết bị, cookies và dữ liệu sử dụng.
+- Thông Tin Cá Nhân: Họ tên, thông tin liên hệ, giấy tờ tùy thân và các thông tin khác cần thiết để cung cấp dịch vụ pháp lý.
+- Dữ Liệu Dịch Vụ: Thông tin liên quan đến các vấn đề pháp lý, chi tiết vụ việc và thư từ trao đổi.
+- Dữ Liệu Kỹ Thuật: Địa chỉ IP, loại trình duyệt, thông tin thiết bị, cookies và dữ liệu sử dụng.
 
 ## Cách Chúng Tôi Sử Dụng Thông Tin Của Bạn
 
@@ -37,7 +37,7 @@ Chúng tôi sử dụng thông tin của bạn để:
 
 ### Sử dụng Mô hình AI
 
-Trang web của chúng tôi sử dụng các mô hình trí tuệ nhân tạo (AI) để nâng cao chất lượng cung cấp dịch vụ. Dưới đây là cách chúng tôi xử lý dữ liệu của bạn khi bạn tương tác với các tính năng được hỗ trợ bởi AI:
+Website của chúng tôi sử dụng các mô hình trí tuệ nhân tạo (AI) để nâng cao chất lượng cung cấp dịch vụ. Dưới đây là cách chúng tôi xử lý dữ liệu của bạn khi bạn tương tác với các tính năng được hỗ trợ bởi AI:
 
 #### Thu thập Dữ liệu
 
@@ -53,7 +53,7 @@ Các tương tác của bạn với hệ thống AI của chúng tôi được l
 
 #### Nhà cung cấp AI Bên thứ ba
 
-Trong một số trường hợp, chúng tôi có thể sử dụng các nhà cung cấp dịch vụ AI bên thứ ba. Khi chúng tôi làm như vậy, chúng tôi đảm bảo họ tuân thủ các tiêu chuẩn bảo vệ dữ liệu phù hợp thông qua các biện pháp bảo vệ hợp đồng.
+Trong một số trường hợp, chúng tôi có thể sử dụng các nhà cung cấp dịch vụ AI bên thứ ba. Khi chúng tôi làm như vậy, chúng tôi đảm bảo họ tuân thủ các tiêu chuẩn bảo vệ dữ liệu phù hợp thông qua các biện pháp bảo vệ theo hợp đồng.
 
 #### Xem xét của Con người
 
@@ -63,7 +63,7 @@ Mặc dù các hệ thống AI của chúng tôi hoạt động tự động, m�
 
 Chúng tôi có thể sử dụng dữ liệu ẩn danh và tổng hợp từ các tương tác AI để cải thiện hệ thống của chúng tôi. Các định danh cá nhân được loại bỏ trước khi bất kỳ dữ liệu nào được sử dụng cho mục đích đào tạo.
 
-## Chia sẻ và chuyển giao dữ liệu
+## Chia sẻ và Chuyển giao Dữ liệu
 
 Chúng tôi có thể chia sẻ thông tin của bạn với:
 
@@ -72,9 +72,9 @@ Chúng tôi có thể chia sẻ thông tin của bạn với:
 - Các cơ quan quản lý và cơ quan chính phủ khi được yêu cầu theo pháp luật
 - Các cố vấn chuyên nghiệp và chuyên gia tư vấn
 
-Khi chuyển giao dữ liệu quốc tế, chúng tôi thực hiện các biện pháp bảo vệ thích hợp theo các luật hiện hành, bao gồm Điều khoản hợp đồng tiêu chuẩn, Quy tắc doanh nghiệp ràng buộc và các cơ chế chuyển giao được pháp luật công nhận khác.
+Khi chuyển giao dữ liệu quốc tế, chúng tôi thực hiện các biện pháp bảo vệ thích hợp theo các luật hiện hành, bao gồm Điều khoản Hợp đồng Tiêu chuẩn, Quy tắc Doanh nghiệp Ràng buộc và các cơ chế chuyển giao được pháp luật công nhận khác.
 
-## Quyền của bạn
+## Quyền của Bạn
 
 Tùy thuộc vào khu vực pháp lý của bạn, bạn có thể có quyền:
 
@@ -86,15 +86,15 @@ Tùy thuộc vào khu vực pháp lý của bạn, bạn có thể có quyền:
 - Rút lại sự đồng ý
 - Nộp đơn khiếu nại lên cơ quan giám sát
 
-## Bảo mật dữ liệu
+## Bảo Mật Dữ Liệu
 
-Chúng tôi thực hiện các biện pháp kỹ thuật và tổ chức phù hợp để bảo vệ thông tin cá nhân của bạn khỏi việc truy cập trái phép, thay đổi, tiết lộ hoặc phá hủy.
+Chúng tôi triển khai các biện pháp kỹ thuật và tổ chức phù hợp để bảo vệ thông tin cá nhân của bạn khỏi việc truy cập trái phép, thay đổi, tiết lộ hoặc phá hủy.
 
-## Lưu trữ dữ liệu
+## Lưu trữ Dữ liệu
 
-Chúng tôi lưu trữ thông tin cá nhân của bạn trong thời gian cần thiết để thực hiện các mục đích được nêu trong Chính sách bảo mật này, trừ khi pháp luật yêu cầu hoặc cho phép thời gian lưu trữ dài hơn.
+Chúng tôi lưu trữ thông tin cá nhân của bạn trong thời gian cần thiết để thực hiện các mục đích được nêu trong Chính sách Bảo mật này, trừ khi luật pháp yêu cầu hoặc cho phép thời gian lưu trữ dài hơn.
 
-## Thay đổi đối với Chính sách này
+## Thay Đổi Chính Sách Này
 
 Chúng tôi có thể cập nhật Chính sách Bảo mật này định kỳ. Phiên bản cập nhật sẽ được thể hiện bằng ngày sửa đổi và có thể truy cập trên trang web của chúng tôi.
 

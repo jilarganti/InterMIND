@@ -73,8 +73,8 @@ isHome: true
 
 <FeatureBlock
     :card="{
-      title: '중요한 곳의 프라이버시',
-      details: 'InterMind는 프라이버시와 통제가 가장 중요한 신뢰가 필요한 대화를 위해 구축되었습니다.',
+      title: '중요한 곳의 개인정보 보호',
+      details: 'InterMind는 개인정보 보호와 통제가 가장 중요한 신뢰가 중요한 대화를 위해 구축되었습니다.',
       items: ['✧ [프라이버시 존](./product/overview/privacy-architecture) — EU, US, 동남아시아', '✧ **데이터 학습 제로**. 제3자 접근 없음.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -86,7 +86,7 @@ isHome: true
   />
 
 > **누구를 위한 것인가요?**  
-> _언어 장벽으로 인해 지연, 거래 실패, 비용이 많이 드는 오해가 발생하는 국제 팀을 위해 구축되었습니다._ [자세히 알아보기 ...](./product/overview/markets)
+> _언어 장벽으로 인해 지연, 거래 실패 또는 비용이 많이 드는 오해가 발생하는 국제 팀을 위해 구축되었습니다._ [자세히 알아보기 ...](./product/overview/markets)
 
 ## Google Meet + 실시간 번역처럼 작동 {#HowItWorks}
 

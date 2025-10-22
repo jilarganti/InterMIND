@@ -17,7 +17,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Çeviri ≠ Anlayış. İşte sıradaki adım.',
-      details: 'Dil ne olursa olsun, sesiniz duyulur — ve anlaşılır — sanki aynı dili paylaşıyormuşsunuz gibi.',
+      details: 'Dil ne olursa olsun, sesiniz duyulur — ve aynı dili paylaşıyormuşsunuz gibi anlaşılır.',
       items: [
         '✧ Doğal olarak, [gerçek zamanlı](./product/overview/how-it-works) ve altyazı veya gecikme olmadan.',
         '✧ AI destekli tercümanlık ton, niyet ve sektöre özel terminolojiyi yakalar.',
@@ -56,7 +56,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Ciddi Toplantılar İçin Tasarlandı — Sadece Konuşmak İçin Değil',
-      details: 'InterMind [profesyonel düzeyde bir video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
+      details: 'InterMind [profesyonel seviye bir video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
       items: [
         '✧ 1080p çözünürlük, akıllı gürültü bastırma, planlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
       ],

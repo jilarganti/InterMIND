@@ -58,7 +58,7 @@ isHome: true
       title: 'Được xây dựng cho cuộc họp nghiêm túc — không chỉ để nói chuyện',
       details: 'InterMind là một [nền tảng cuộc họp video chuyên nghiệp](./product/overview/video-meeting-platform), không phải là một tiện ích bổ sung hay plugin nhẹ.',
       items: [
-        '✧ Độ phân giải 1080p, khử tiếng ồn thông minh, lên lịch, kiểm duyệt, chia sẻ màn hình, ghi âm, phụ đề, trò chuyện của người tham gia và tích hợp lịch — tất cả được tích hợp sẵn, **sẵn sàng sử dụng**.',
+        '✧ Độ phân giải 1080p, khử tiếng ồn thông minh, lên lịch, kiểm duyệt, chia sẻ màn hình, ghi âm, phụ đề, trò chuyện người tham gia và tích hợp lịch — tất cả được tích hợp sẵn, **sẵn sàng sử dụng**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -86,7 +86,7 @@ isHome: true
   />
 
 > **Dành cho ai?**  
-> _Được xây dựng cho các nhóm quốc tế nơi rào cản ngôn ngữ gây ra sự chậm trễ, mất cơ hội kinh doanh hoặc hiểu lầm tốn kém._ [Tìm hiểu thêm ...](./product/overview/markets)
+> _Được xây dựng cho các nhóm quốc tế nơi rào cản ngôn ngữ gây ra chậm trễ, mất thỏa thuận hoặc hiểu lầm tốn kém._ [Tìm hiểu thêm ...](./product/overview/markets)
 
 ## Hoạt động như Google Meet + Dịch thuật trực tiếp {#HowItWorks}
 
@@ -233,7 +233,7 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
 <ContactForm buttonText="Nói chuyện với đội ngũ của chúng tôi" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_Thời gian của bạn nên dành để thành thạo nghề nghiệp — không phải ghi nhớ ngữ pháp._**  
+> 💡 **_Thời gian của bạn nên dành để thành thạo nghề nghiệp — không phải để ghi nhớ ngữ pháp._**  
 > 💡 **_Quan hệ đối tác thực sự bắt đầu bằng những cuộc trò chuyện thực sự — bằng ngôn ngữ của họ._**
 
 ## Câu hỏi thường gặp {#FAQ}
@@ -249,12 +249,12 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
         a: 'Một *người dùng có giấy phép* có giấy phép họp miễn phí hoặc trả phí và có thể lên lịch họp trong giới hạn gói của họ. *Người tham gia* là những người được mời — họ **không cần tài khoản hoặc giấy phép** để tham gia và có thể kết nối từ bất kỳ thiết bị nào **miễn phí**.',
       },
       {
-        q: 'Có bao nhiêu người có thể sử dụng một giấy phép InterMind?',
-        a: 'Mỗi *người dùng có giấy phép* có thể tổ chức **số lượng cuộc họp không giới hạn**. Nếu nhiều thành viên trong nhóm cần tổ chức họp đồng thời, mỗi người sẽ cần giấy phép riêng.',
+        q: 'Có bao nhiều người có thể sử dụng một giấy phép InterMind?',
+        a: 'Mỗi *người dùng có giấy phép* có thể tổ chức **số lượng cuộc họp không giới hạn**. Nếu nhiều thành viên trong nhóm cần tổ chức cuộc họp cùng lúc, mỗi người sẽ cần giấy phép riêng.',
       },
       {
         q: 'Thời gian tối đa của một cuộc họp là bao lâu?',
-        a: 'Các cuộc họp có thể kéo dài tới **24 giờ** trên tất cả các gói.',
+        a: 'Cuộc họp có thể kéo dài tới **24 giờ** trên tất cả các gói.',
       },
       {
         q: 'Có giới hạn số lượng cuộc họp tôi có thể tổ chức không?',
@@ -270,15 +270,15 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
       },
       {
         q: 'Nếu tôi cần trợ giúp hoặc hỗ trợ thì sao?',
-        a: 'Hỗ trợ có sẵn thông qua [trung tâm trợ giúp](./resources/help) của chúng tôi. Người dùng *Business* nhận được **hỗ trợ ưu tiên** với liên hệ chuyên dụng.',
+        a: 'Hỗ trợ có sẵn qua [trung tâm trợ giúp](./resources/help) của chúng tôi. Người dùng *Business* nhận được **hỗ trợ ưu tiên** với liên hệ chuyên dụng.',
       },
       {
         q: 'Làm thế nào để quản lý đăng ký của tôi (nâng cấp, hạ cấp, hoặc hủy)?',
-        a: 'Bạn có thể thay đổi gói bất cứ lúc nào thông qua **cài đặt tài khoản**. Các thay đổi có hiệu lực **ngay lập tức**. Đối với việc hủy, *Gói hàng tháng* hủy vào cuối chu kỳ thanh toán. *Gói hàng năm* có thể được hủy để **hoàn tiền theo tỷ lệ**.',
+        a: 'Bạn có thể thay đổi gói bất cứ lúc nào thông qua **cài đặt tài khoản**. Thay đổi có hiệu lực **ngay lập tức**. Đối với việc hủy, *Gói hàng tháng* hủy vào cuối chu kỳ thanh toán. *Gói hàng năm* có thể được hủy để **hoàn tiền theo tỷ lệ**.',
       },
       {
-        q: 'Tôi có thể sử dụng InterMind cho hội thảo trực tuyến hoặc sự kiện lớn không?',
-        a: 'Có. Các gói *Pro* và *Business* lý tưởng cho **các cuộc họp lớn và hội thảo trực tuyến** — với hỗ trợ lên tới **500 người tham gia** trên gói *Business*.',
+        q: 'Tôi có thể sử dụng InterMind cho webinar hoặc sự kiện lớn không?',
+        a: 'Có. Các gói *Pro* và *Business* lý tưởng cho **cuộc họp lớn và webinar** — với hỗ trợ lên tới **500 người tham gia** trên gói *Business*.',
       },
     ]"/>
 
@@ -310,7 +310,7 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
           { text: 'Blog', link: './blog/' },
           { text: 'Tuân thủ truy cập ngôn ngữ toàn cầu', link: './blog/posts/global-language-access-compliance' },
           { text: 'Tài sản thương hiệu', link: './resources/media-kit' },
-          { text: 'Tài liệu AI API / LLM', link: 'https://mind.com/llms-full.txt' },
+          { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

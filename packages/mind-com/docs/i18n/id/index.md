@@ -38,7 +38,7 @@ isHome: true
       title: 'Pikiran dalam Rapat Anda',
       details: 'InterMind mengubah setiap panggilan multibahasa menjadi pengetahuan yang jelas dan dapat dicari.',
       items: [
-        '✧ **Tanya apa saja** — AI menemukan jawaban **di seluruh rapat Anda**.',
+        '✧ **Tanyakan apa saja** — AI menemukan jawaban **di seluruh rapat Anda**.',
         '✧ Otomatis mengekstrak tugas, pemilik, dan tenggat waktu.',
         '✧ Merangkum poin-poin kunci dalam bahasa apa pun — secara instan.',
       ],

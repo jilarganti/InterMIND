@@ -45,7 +45,7 @@ Ketika Anda berinteraksi dengan alat AI kami, kami dapat mengumpulkan informasi 
 
 #### Tujuan Pemrosesan
 
-Kami menggunakan AI untuk membantu penelitian hukum, tinjauan dokumen, analisis kontrak, dan menyediakan informasi hukum awal.
+Kami menggunakan AI untuk membantu riset hukum, tinjauan dokumen, analisis kontrak, dan menyediakan informasi hukum awal.
 
 #### Penyimpanan Data
 

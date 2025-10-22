@@ -1,25 +1,25 @@
 ---
 layout: home
-title: "InterMIND：视频会议实时语音翻译"
-description: "专业视频会议配备19+种语言同声传译。AI驱动的翻译技术，准确捕捉语调、意图和语境。全球会议，自然沟通。"
+title: "视频会议实时语音翻译"
+description: "专业视频会议平台，支持19+种语言同声传译。AI驱动的翻译技术，准确捕捉语调、意图和语境。全球会议，自然沟通。"
 isHome: true
 ---
 
-<!-- <HeroSection title="用**任何**语言会议" :typingSpeed="10" text="视频通话中的实时语音翻译。即时理解，无障碍沟通。"> -->
+<!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="理解**任何**语言" :typingSpeed="20" text="视频会议中的同声传译。即时打破语言障碍。">
+<HeroSection title="理解**任何**语言" :typingSpeed="20" text="视频会议中的同声传译。瞬间打破语言障碍。">
 <NavButton buttonLabel="观看演示" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="助手" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
-## 翻译 ≠ 理解 {#1}
+{#1}
 
 <FeatureBlock
     :card="{
-      title: '翻译 ≠ 理解。下一步是什么。',
-      details: '无论使用何种语言，您的声音都能被听到并理解——就像您们说着同一种语言一样。',
+      title: '翻译 ≠ 理解。这就是未来。',
+      details: '无论使用何种语言，您的声音都能被听到——并被理解——就像您说着同一种语言一样。',
       items: [
-        '✧ 自然地，[实时](./product/overview/how-it-works)进行，无需字幕或延迟。',
+        '✧ 自然、[实时](./product/overview/how-it-works)，无字幕或延迟。',
         '✧ AI驱动的口译捕捉语调、意图和行业专业术语。',
       ],
       link: './product/overview/what-is-intermind',
@@ -31,16 +31,16 @@ isHome: true
     }"
   />
 
-## 会议中的智能助手 {#2}
+{#2}
 
 <FeatureBlock
     :card="{
-      title: '会议中的智能助手',
+      title: '会议中的智慧大脑',
       details: 'InterMind将每次多语言通话转化为清晰、可搜索的知识。',
       items: [
-        '✧ **询问任何问题** — AI在**您的所有会议中**查找答案。',
+        '✧ **询问任何问题** — AI在**您的所有会议中**找到答案。',
         '✧ 自动提取任务、负责人和截止日期。',
-        '✧ 即时用任何语言总结要点。',
+        '✧ 即时总结任何语言的要点。',
       ],
       link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
       src: {
@@ -51,14 +51,14 @@ isHome: true
     }"
   />
 
-## 专为严肃会议而构建 {#3}
+{#3}
 
 <FeatureBlock
     :card="{
-      title: '专为严肃会议而构建——不仅仅是聊天',
-      details: 'InterMind是一个[专业级视频会议平台](./product/overview/video-meeting-platform)，而不是轻量级附加组件或插件。',
+      title: '为严肃会议而生 — 不仅仅是聊天',
+      details: 'InterMind是[专业级视频会议平台](./product/overview/video-meeting-platform)，而非轻量级插件或附加组件。',
       items: [
-        '✧ 1080p分辨率、智能降噪、日程安排、会议管理、屏幕共享、录制、字幕、参与者聊天和日历集成——全部内置，**即开即用**。',
+        '✧ 1080p分辨率、智能降噪、日程安排、会议管理、屏幕共享、录制、字幕、参与者聊天和日历集成 — 全部内置，**即开即用**。',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -69,12 +69,12 @@ isHome: true
     }"
   />
 
-## 隐私保护至关重要 {#4}
+{#4}
 
 <FeatureBlock
     :card="{
-      title: '隐私保护至关重要',
-      details: 'InterMind专为信任至关重要的对话而构建——在隐私和控制最为重要的场合。',
+      title: '重要场合的隐私保护',
+      details: 'InterMind专为信任至关重要的对话而构建 — 隐私和控制最为重要的场合。',
       items: ['✧ [隐私区域](./product/overview/privacy-architecture) — 欧盟、美国、东南亚', '✧ **零数据训练**。无第三方访问。'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -85,12 +85,12 @@ isHome: true
     }"
   />
 
-> **这适合谁？**  
+> **这适合谁使用？**  
 > _专为因语言障碍导致延误、失去交易或代价高昂的误解的国际团队而构建。_ [了解更多...](./product/overview/markets)
 
-## 像Google Meet一样工作 + 实时翻译 {#HowItWorks}
+## 像 Google Meet + 实时翻译一样工作 {#HowItWorks}
 
-熟悉的界面。通用的沟通。与Google Meet一样简单——配备即时翻译功能，让语言障碍消失无踪。
+熟悉的界面。通用的沟通。与 Google Meet 一样简单——配备即时翻译功能，让语言障碍消失。
 
 <FeatureCards
     :features="[
@@ -150,14 +150,14 @@ isHome: true
 这个单一语言设置适用于：
 
 - **界面语言**
-- **语音输入**（您说的话）
+- **语音输入**（您说的内容）
 - **翻译输出**（您听到的内容）
 
-| 参与者   | 选择的语言 | 说话语言 | 听取语言 |
-| -------- | ---------- | -------- | -------- |
-| 主持人   | 西班牙语   | 西班牙语 | 西班牙语 |
-| 参与者1  | 英语       | 英语     | 英语     |
-| 参与者2  | 中文       | 中文     | 中文     |
+| 参与者    | 选择的语言 | 说话语言 | 听取语言 |
+| --------- | ---------- | -------- | -------- |
+| 主持人    | 西班牙语   | 西班牙语 | 西班牙语 |
+| 参与者1   | 英语       | 英语     | 英语     |
+| 参与者2   | 中文       | 中文     | 中文     |
 
 [平台自动实时解释所有语音](./product/overview/how-it-works) — 因此每个人都能像说同一种语言一样进行交流。
 
@@ -177,7 +177,7 @@ isHome: true
 
 > ✨ "您的语言"是一个**统一的单一设置**  
 > 它控制**您如何说话**、**您听到什么**和**您看到什么**。  
-> 不支持用一种语言说话而用另一种语言听取 — 这是设计如此，以保持体验简单和可预测。
+> 用一种语言说话而用另一种语言听取是**不支持的** — 这是设计如此，以保持体验简单和可预测。
 
 ## 客户评价 {#Testimonials}
 
@@ -233,7 +233,7 @@ isHome: true
 <ContactForm buttonText="联系我们的团队" buttonClass="alt" />
 </PricingPlans>
 
-> 💡 **_您的时间应该花在精进技艺上——而不是记忆语法。_**  
+> 💡 **_您的时间应该用来精进技艺——而不是死记语法。_**  
 > 💡 **_真正的合作始于真正的对话——用他们的语言。_**
 
 ## 常见问题 {#FAQ}
@@ -242,7 +242,7 @@ isHome: true
     :items="[
       {
         q: 'InterMind支持哪些语言的口译服务？',
-        a: 'InterMind支持以下19种语言的**实时口译**：<br><br>- العربية (ar) – 阿拉伯语<br>- Čeština (cs) – 捷克语<br>- Deutsch (de) – 德语<br>- English (en) – 英语<br>- Español (es) – 西班牙语<br>- Français (fr) – 法语<br>- हिन्दी (hi) – 印地语<br>- Magyar (hu) – 匈牙利语<br>- Italiano (it) – 意大利语<br>- 日本語 (ja) – 日语<br>- 한국어 (ko) – 韩语<br>- Nederlands (nl) – 荷兰语<br>- Polski (pl) – 波兰语<br>- Português (pt) – 葡萄牙语<br>- Русский (ru) – 俄语<br>- Türkçe (tr) – 土耳其语<br>- 中文 (zh) – 中文<br><br>我们正在不断扩展这个列表——每次主要版本更新都会添加新语言。',
+        a: 'InterMind支持以下19种语言的**实时口译**：<br><br>- العربية (ar) – 阿拉伯语<br>- Čeština (cs) – 捷克语<br>- Deutsch (de) – 德语<br>- English (en) – 英语<br>- Español (es) – 西班牙语<br>- Français (fr) – 法语<br>- हिन्दी (hi) – 印地语<br>- Magyar (hu) – 匈牙利语<br>- Italiano (it) – 意大利语<br>- 日本語 (ja) – 日语<br>- 한국어 (ko) – 韩语<br>- Nederlands (nl) – 荷兰语<br>- Polski (pl) – 波兰语<br>- Português (pt) – 葡萄牙语<br>- Русский (ru) – 俄语<br>- Türkçe (tr) – 土耳其语<br>- 中文 (zh) – 中文<br><br>我们正在不断扩展这个列表——每个主要版本发布都会添加新语言。',
       },
       {
         q: '什么是许可用户和参与者？',

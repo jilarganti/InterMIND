@@ -8,9 +8,9 @@ Untuk tujuan penafian ini, istilah-istilah berikut memiliki arti sebagaimana dit
 
 "Perusahaan" mengacu pada Golden Fish Corporate Services Provider LLC (Nomor Registrasi: 2411728, Nomor Lisensi: 1414192, Alamat: City Avenue Building, Office 405-070, Port Saeed, Dubai, UAE), anak perusahaan, afiliasi, pejabat, karyawan, agen, dan perwakilannya.
 
-"Konten yang dihasilkan AI" mengacu pada teks, gambar, rekomendasi, saran, jawaban, atau konten lain yang dibuat, diproduksi, atau dirumuskan oleh sistem AI kami sebagai respons terhadap masukan atau pertanyaan pengguna.
+"Konten yang dihasilkan AI" mengacu pada teks, gambar, rekomendasi, saran, jawaban, atau konten lain apa pun yang dibuat, diproduksi, atau dirumuskan oleh sistem AI kami sebagai respons terhadap masukan atau pertanyaan pengguna.
 
-"Pengguna" mengacu pada individu atau entitas yang mengakses, menggunakan, atau berinteraksi dengan fitur AI yang tersedia di situs web atau layanan kami.
+"Pengguna" mengacu pada individu atau entitas apa pun yang mengakses, menggunakan, atau berinteraksi dengan fitur AI yang tersedia di situs web atau layanan kami.
 
 "Nasihat profesional" mengacu pada panduan khusus yang biasanya diberikan oleh profesional yang berkualifikasi di bidang-bidang seperti hukum, kedokteran, keuangan, teknik, atau profesi teregulasi lainnya yang memerlukan keahlian, sertifikasi, atau lisensi khusus.
 
@@ -48,7 +48,7 @@ Interaksi Anda dengan fitur AI kami dapat dikumpulkan, disimpan, dan dianalisis 
 
 ## Persetujuan Input Pengguna
 
-Dengan menggunakan layanan AI kami, Anda secara eksplisit menyetujui dan memberikan persetujuan kepada model AI untuk memproses, menganalisis, dan memanfaatkan informasi yang Anda berikan selama interaksi Anda. Anda mengakui bahwa setiap teks, pertanyaan, atau data yang Anda masukkan dapat digunakan oleh sistem AI untuk menghasilkan respons, meningkatkan fungsinya, dan memperkuat kemampuannya. Persetujuan ini berlaku untuk Pengembang AI yang dapat menggunakan interaksi anonim untuk lebih melatih dan menyempurnakan model mereka. Jika Anda tidak ingin input Anda diproses oleh sistem AI kami, Anda harus menahan diri dari menggunakan fitur AI yang tersedia di situs web ini.
+Dengan menggunakan layanan AI kami, Anda secara eksplisit menyetujui dan memberikan persetujuan kepada model AI untuk memproses, menganalisis, dan memanfaatkan informasi yang Anda berikan selama interaksi Anda. Anda mengakui bahwa setiap teks, pertanyaan, atau data yang Anda masukkan dapat digunakan oleh sistem AI untuk menghasilkan respons, meningkatkan fungsinya, dan memperkuat kemampuannya. Persetujuan ini berlaku juga untuk Pengembang AI yang dapat menggunakan interaksi yang telah dianonimkan untuk lebih melatih dan menyempurnakan model mereka. Jika Anda tidak ingin input Anda diproses oleh sistem AI kami, Anda sebaiknya tidak menggunakan fitur AI yang tersedia di situs web ini.
 
 ## Perlindungan Data Pribadi
 
