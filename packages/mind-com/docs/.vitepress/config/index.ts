@@ -1,4 +1,5 @@
 /// <reference types="../theme/types/themeConfig" />
+/// <reference types="../theme/types/markdown-it-task-lists" />
 
 import { defineConfig } from "vitepress"
 import markdownItFootnote from "markdown-it-footnote"
