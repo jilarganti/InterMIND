@@ -17,7 +17,7 @@ head:
 > **What is Language Access Compliance?**  
 > Language access refers to providing services and information so that people with Limited English Proficiency (LEP) or who are Deaf or Hard of Hearing (D/HoH) can understand and participate effectively, regardless of their primary language or communication mode.
 
-Learn how [InterMIND helps with compliance](../../../product/overview/what-is-intermind) through real-time interpretation and [multilingual support](../../../product/overview/how-it-works).
+Learn how [InterMIND helps with compliance](../../product/overview/what-is-intermind) through real-time interpretation and [multilingual support](../../product/overview/how-it-works).
 
 ## Quick Overview: Global Compliance Landscape
 
@@ -790,7 +790,7 @@ Include:
 ::: tip Remember
 Accessibility is an ongoing commitment, not a one-time project. Laws evolve, technology changes, and user needs grow. Build accessibility into your culture and processes for long-term success.
 
-**Need help with compliance?** [Contact InterMIND](../../../resources/company/contacts) to discuss how our [real-time translation platform](../../../product/overview/video-meeting-platform) can help meet accessibility requirements.
+**Need help with compliance?** [Contact InterMIND](../../resources/company/contacts) to discuss how our [real-time translation platform](../../product/overview/video-meeting-platform) can help meet accessibility requirements.
 :::
 
 <style scoped>
