@@ -9,6 +9,8 @@ description: Learn how InterMIND's instant bidirectional translation works with 
 
 InterMind is a multi-user video conferencing platform with **instant bidirectional translation**. Each participant can speak and hear others in **their native language**, creating the effect of natural communication without language barriers.
 
+Learn more about [what makes InterMIND different](./what-is-intermind) and explore our [full platform features](./video-meeting-platform).
+
 ## How it works:
 
 <!-- :::details Show diagram of AI translation process
@@ -107,3 +109,5 @@ All audio/video routing is handled through our proprietary Mind API, developed i
 [^1]: Standard latency for human simultaneous translation is ~2–3 seconds.
 
 [^2]: Based on current progress in AI translation, we expect that within 2–3 years, models will consistently outperform the best human translators — including specialized areas such as law, finance, healthcare, and engineering.
+
+> **Want to learn more?** Read about the [difference between translation and interpretation](./translation-vs-interpretation-whats-the-difference) or discover our approach to [data privacy](./privacy-architecture).

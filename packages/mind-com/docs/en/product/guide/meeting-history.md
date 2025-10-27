@@ -52,7 +52,7 @@ Some Action Buttons can be found hidden under the three-dot menu located on the 
 
 #### Delete
 
-When this action is clicked, users will receive a notification prompting them to confirm deletion by clicking the **Yes, delete** button or to cancel the operation by clicking the **Cancel** button. Deleted meetings will no longer be visible to any participants. Only Hosts or Moderators possess the authority to delete a meeting.
+When this action is clicked, users will receive a notification prompting them to confirm deletion by clicking the **Yes, delete** button or to cancel the operation by clicking the **Cancel** button. Deleted meetings will no longer be visible to any participants. Only Hosts or Moderators possess the authority to delete a meeting (see [User Roles](./user-roles)).
 
 #### Share
 
@@ -88,7 +88,7 @@ This opens the meeting transcript that logs all voice communications in text for
 
 ### AI Assistant
 
-This enables users to obtain a meeting summary from the AI Assistant in chat format.
+This enables users to obtain a meeting summary from the [AI Assistant](./ai-features#ai-assistant) in chat format.
 
 > [!INFO]
 > The Recording tab may be hidden on the Meeting Details page if the meeting does not include any recordings.

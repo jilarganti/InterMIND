@@ -2,6 +2,8 @@
 
 Together, we blend creativity, code, and understanding to erase language barriers for good.
 
+Learn more [about our mission](./about) and explore [how our technology works](../../product/overview/how-it-works).
+
 ## Human Team
 
 <TeamMembersGrid :members="[
@@ -76,3 +78,5 @@ Together, we blend creativity, code, and understanding to erase language barrier
     ]
   },
 ]" />
+
+> **Want to join us?** Check out our [career opportunities](./careers) or learn more about [what we're building](../../product/overview/what-is-intermind).

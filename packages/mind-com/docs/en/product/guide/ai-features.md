@@ -21,8 +21,8 @@ Additionally, participants have the option to adjust the volume of the original 
 
 - Real-time voice dubbing in the selected language
 - Personal translation settings (does not affect other participants)
-- Ability to change translation language at any time through the Settings panel
-- Available to all participant types (Host, Moderator, Participant, Guest)
+- Ability to change translation language at any time through the Settings panel (see [Meeting Interface](./meeting-interface))
+- Available to all participant types (Host, Moderator, Participant, Guest - learn more about [User Roles](./user-roles))
 
 ### How to Enable
 
@@ -64,7 +64,7 @@ Users may utilize prompts such as:
 ### Access Requirements
 
 > [!WARNING]
-> The AI Assistant is exclusively available to signed-in users, including Hosts, Moderators, or Participants. It does not engage publicly in the chat and is not accessible to Guest users.
+> The AI Assistant is exclusively available to signed-in users, including Hosts, Moderators, or Participants. It does not engage publicly in the chat and is not accessible to Guest users. Learn more about [User Roles](./user-roles).
 
 ### Privacy
 

@@ -35,3 +35,5 @@ We’ll make sure your message reaches the right person.
 
 > **Need product-related help?**  
 > _Visit our [Support Page](../help) for fast answers and assistance from the InterMind team._
+
+> **Want to learn more about us?** Check out our [about page](./about), meet [the team](./team), or explore [career opportunities](./careers).

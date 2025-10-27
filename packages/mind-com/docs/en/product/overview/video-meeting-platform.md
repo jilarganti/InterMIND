@@ -9,6 +9,8 @@ description: Enterprise-grade video conferencing with HD quality, screen sharing
 
 InterMind is not just another plugin or lightweight tool — it's a full-featured, enterprise-grade video meeting platform designed for professional communication, high-stakes collaboration, and global-scale operations.
 
+Discover [how our AI translation works](./how-it-works) and see where it makes the [biggest impact](./markets).
+
 <video autoplay muted playsinline style="margin-top: 24px" class="light-only">
   <source src="/video-meeting-platform-1d.mp4" type="video/mp4">
 </video>

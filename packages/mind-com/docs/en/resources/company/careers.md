@@ -7,6 +7,8 @@ We're building technology that removes language barriers between people. Our pro
 
 This isn't a translator. This is a new paradigm for global communication.
 
+Learn more about [what we're building](../../product/overview/what-is-intermind) and [how it works](../../product/overview/how-it-works).
+
 ## Show Results, Not Credentials
 
 Want to join us? Show us something useful and meaningful you've already built for people.
@@ -93,6 +95,8 @@ We don't just translate words—we preserve meaning, tone, cultural context. In 
 **Unlimited resources.** Everything you need to build the best product in the category.
 
 **Global impact.** Your work will change how humanity communicates across language boundaries.
+
+Meet [our team](./team) and learn about [our company values](./about).
 
 ## Join Us
 

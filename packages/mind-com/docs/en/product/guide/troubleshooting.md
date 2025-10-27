@@ -5,7 +5,7 @@ description: Fix common InterMIND issues with microphone, camera, translator, sc
 
 # Troubleshooting
 
-This section provides solutions for common issues encountered during online meetings, including problems with microphones, cameras, joining meetings, using voice assistants, translators, screen sharing, and recording. It outlines potential causes for each issue and offers practical solutions to resolve them, ensuring a smoother online meeting experience.
+This section provides solutions for common issues encountered during online meetings, including problems with microphones, cameras, joining meetings, using voice assistants, translators, screen sharing, and recording. It outlines potential causes for each issue and offers practical solutions to resolve them, ensuring a smoother online meeting experience. For additional assistance, see [Help & Support](./help-support).
 
 ## Microphone or Camera Not Working
 
@@ -105,4 +105,4 @@ This section provides solutions for common issues encountered during online meet
 - Verify permissions with the Host
 
 > [!TIP]
-> If you continue experiencing issues, ensure your browser is updated to the latest version and that you have a stable internet connection of at least 2 Mbps.
+> If you continue experiencing issues, ensure your browser is updated to the latest version and that you have a stable internet connection of at least 2 Mbps. Check [Getting Started](./getting-started#device--browser-compatibility) for compatibility information or contact [Help & Support](./help-support).

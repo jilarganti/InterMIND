@@ -14,6 +14,8 @@ head:
 > **The Core Difference:**  
 > **Translation** works with written text. **Interpretation** handles spoken language in real-time.
 
+Learn more about [how InterMIND's AI interpretation works](./how-it-works) in our platform.
+
 ## Quick Comparison
 
 <div class="comparison-hero">
@@ -381,6 +383,8 @@ For complex projects—like international conferences or legal cases—you'll of
 
 ::: tip Remember
 Quality language services are an investment in accurate communication, cultural understanding, and building trust across languages. Choose certified professionals and allow adequate time and resources for best results.
+
+**Want to experience real-time AI interpretation?** Try [InterMIND's video platform](./video-meeting-platform) or learn more [about our technology](./what-is-intermind).
 :::
 
 </div>

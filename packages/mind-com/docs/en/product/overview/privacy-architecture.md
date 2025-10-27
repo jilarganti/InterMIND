@@ -11,6 +11,8 @@ InterMind is a platform for multilingual video meetings with live AI-powered int
 
 To deliver a seamless experience, InterMind integrates third-party services for video, audio, cloud storage, real-time interpretation, and analytics. These third-party providers help us ensure performance and scalability — but they also introduce a layer we cannot directly control.
 
+Learn more about [how our platform works](./how-it-works) and our [video meeting features](./video-meeting-platform).
+
 We believe in **transparency over promises**. We can only guarantee privacy and security for components under our direct control — our software, interface logic, and how we route data. For everything else, we offer you **the power of choice**.
 
 This is why we designed InterMind with **region-based confidentiality**: you choose where your data is processed, which legal framework governs it, and which AI models are used — based on your selected privacy zone.
@@ -132,3 +134,5 @@ InterMind doesn’t hide behind vague assurances. Instead, we give you **choices
 - You decide what risk you’re willing to accept — and we help you stay compliant at every level.
 
 **InterMind — built for professionals, backed by compliance, governed by trust.**
+
+> **Questions about privacy?** [Contact us](../../resources/company/contacts) or read about [our company values](../../resources/company/about).

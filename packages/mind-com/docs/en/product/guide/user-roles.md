@@ -9,7 +9,7 @@ InterMIND delineates four distinct user roles, each meticulously crafted to enha
 
 ## Host
 
-The Host is responsible for initiating the meeting and possesses comprehensive administrative privileges.
+The Host is responsible for initiating the meeting and possesses comprehensive administrative privileges. Learn how to [create meetings](./creating-meetings).
 
 **Key Abilities:**
 
@@ -20,9 +20,9 @@ The Host is responsible for initiating the meeting and possesses comprehensive a
   - This encompasses any recordings initiated by the Moderator
 - Remove any participants from the call
 - Admit or deny guests
-- Access meeting history
-- Utilize any AI features
-- Adjust personal settings, layout, blur, and view options
+- Access [meeting history](./meeting-history)
+- Utilize any [AI features](./ai-features)
+- Adjust personal settings, layout, blur, and view options (see [Meeting Interface](./meeting-interface))
 
 ## Moderator
 
@@ -35,10 +35,10 @@ Moderators are designated by the Host to assist in managing the session effectiv
   - This includes any recordings initiated by the Host
 - Admit or deny guests
 - Remove any participants from the call, except for the Host
-- Use the Online Voice Translator and change language (for their own audio)
-- Use the AI Assistant (for their own view)
+- Use the [Online Voice Translator](./ai-features#online-voice-translation) and change language (for their own audio)
+- Use the [AI Assistant](./ai-features#ai-assistant) (for their own view)
 - Engage in chat, raise or lower hands
-- Access transcripts and meeting history
+- Access transcripts and [meeting history](./meeting-history)
 - Promote or demote other moderators
 
 ## Participant (Authorized User)
@@ -50,10 +50,10 @@ Authorized participants are logged-in users who join the meeting without special
 - Mute or unmute their own microphone
 - Enable or disable their own camera
 - Share their screen (desktop browser)
-- Use the AI Assistant (for their own view)
-- Use the Online Voice Translator and change language (for their own audio)
+- Use the [AI Assistant](./ai-features#ai-assistant) (for their own view)
+- Use the [Online Voice Translator](./ai-features#online-voice-translation) and change language (for their own audio)
 - Modify personal layout and settings
-- Access chat, raise hand, transcripts, and meeting history
+- Access chat, raise hand, transcripts, and [meeting history](./meeting-history)
 
 ## Guest (Anonymous User)
 
@@ -63,7 +63,7 @@ Guests are users who join the meeting without signing in.
 
 - Use their own microphone and camera
 - Share their screen (desktop browser)
-- Use the Online Voice Translator and change language (for their own audio)
+- Use the [Online Voice Translator](./ai-features#online-voice-translation) and change language (for their own audio)
 - Utilize layout and viewing options (personal only)
 - Engage in chat and raise hand
 

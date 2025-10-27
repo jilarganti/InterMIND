@@ -8,6 +8,8 @@ description: Discover priority markets for InterMIND from global manufacturing h
 InterMind removes the language barrier from business negotiations.
 The table below highlights the markets where miscommunication is the costliest and professional interpreters are either scarce or expensive.
 
+Learn more about [what InterMIND is](./what-is-intermind) and [how it works](./how-it-works).
+
 ## Priority Markets
 
 | Segment                                | Star Countries (ISO‑2)                                                               | Why It Matters                                                                                                  |
@@ -30,7 +32,9 @@ The table below highlights the markets where miscommunication is the costliest a
 
 ## Strategic Takeaways
 
-- **Top Priority** — US partners and the “factory of the world” cluster; quickest ROI.
+- **Top Priority** — US partners and the "factory of the world" cluster; quickest ROI.
 - **Second Tier** — EU and MENA; technical accuracy and regulatory risk dominate.
-- **UI Localisation** — eight languages (EN, ES, PT, ZH, JA, KO, AR, HI) cover \~85 % of target markets.
+- **UI Localisation** — eight languages (EN, ES, PT, ZH, JA, KO, AR, HI) cover \~85 % of target markets.
 - **Compliance** — mind export‑control regimes (EAR, EU Dual‑Use). InterMind purges meeting data after the retention window.
+
+> **Interested in joining our mission?** Check out [career opportunities](../../resources/company/careers) or learn more [about our company](../../resources/company/about).

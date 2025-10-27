@@ -5,7 +5,7 @@ description: Learn how to create instant meetings, schedule in Google Calendar, 
 
 # Creating and Scheduling Meetings
 
-Upon signing into InterMIND, users can conveniently create and schedule meetings directly from the main interface by clicking the **New Meeting** button.
+Upon signing into InterMIND (see [Account Management](./account-management)), users can conveniently create and schedule meetings directly from the main interface by clicking the **New Meeting** button.
 
 ## Accessing the Meeting Options
 
@@ -39,7 +39,7 @@ This option empowers users to initiate a live meeting session immediately.
 1. Click the **New Meeting** button
 2. Select the **Start an instant meeting** option
 3. A meeting room will open instantly in the current tab
-4. You will automatically assume the role of Host
+4. You will automatically assume the role of Host (learn about [User Roles](./user-roles))
 5. Utilize the 'Copy Link' option located in the bottom left corner, or copy the link from the browser's address bar
 6. Share the link with other participants
 
@@ -67,4 +67,4 @@ Schedule a future meeting and seamlessly integrate it into your Google Calendar.
 
 As soon as the meeting is scheduled and if Google Calendar is connected to InterMIND, this meeting will appear on the main page of InterMIND in the section with scheduled meetings.
 
-Also, as soon as the invited participants accept the invitation to the meeting, it will appear on their main page of InterMIND in the section with scheduled meetings, provided they are authorized and have synchronization with Google Calendar enabled.
+Also, as soon as the invited participants accept the invitation to the meeting, it will appear on their main page of InterMIND in the section with scheduled meetings, provided they are authorized and have synchronization with Google Calendar enabled. After the meeting ends, it will be available in [Meetings History](./meeting-history).

@@ -27,17 +27,29 @@ Throughout history, humans have consistently adopted technologies that optimize 
 
 Language learning represents one of the last inefficient allocations of human cognitive potential. The average person spends 600–1000 hours to reach basic proficiency in a new language, with fluency requiring 2000+ hours of dedicated study. These are hours that could be invested in developing specialized expertise in your actual field.
 
-> 💡 **_Your time is better spent mastering your craft — not memorizing grammar._**
+## Our Philosophy
 
-> 💡 **_Real partnerships start with real conversations — in their language._**
+Language shouldn't determine who you can work with.  
+Geography shouldn't limit your ambitions.  
+Culture shouldn't be a competitive disadvantage.
 
-## The InterMIND Philosophy
+> **We're not building a translator. We're building a bridge between worlds.**
 
-InterMIND isn't just a video conferencing tool with translation features — it's a fundamental rethinking of how global communication should work. Our approach recognizes that:
+The future belongs to those who can collaborate globally — instantly, naturally, intelligently.
 
-1. Technology should adapt to humans, not humans to technology
-2. True communication is about understanding — not just exchanging words
+Learn more [about our team](../../resources/company/about) and see where InterMIND makes the [biggest impact](./markets).
 
-With InterMIND, we've created a system where the language barrier dissolves instantly. Our platform doesn't just translate — it interprets nuance, context, and meaning across languages in real-time, delivering an experience that would take decades of language study to achieve naturally.
+— _The Mind.com Team_
 
-> This is not just about understanding — it's about accelerating collaboration, trust, and decision-making in a global context.
+## What Is InterMIND?
+
+**Not translation. Not interpretation. Something entirely new.**
+
+InterMIND is **conversational telepathy** — you think in English, they hear perfect Mandarin. They respond in Japanese, you understand every nuance.
+
+It preserves **your voice**, **your tone**, **your personality** — in any language.  
+It captures **context**, **cultural subtext**, **business intent**.
+
+> Speak naturally. Be understood perfectly. Close more deals.
+
+Learn more about [how it works](./how-it-works) and explore our [video meeting platform](./video-meeting-platform) features.

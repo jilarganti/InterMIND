@@ -11,11 +11,11 @@ Whether you are a novice user seeking detailed guidance or an experienced partic
 
 Within this guide, you will discover:
 
-- Instructions on how to register, sign in, and customize your profile
-- Guidelines for creating and scheduling meetings
-- Information regarding user roles, permissions, and real-time translation capabilities
-- An overview of AI-powered features such as the AI Assistant and Voice Translator
-- Troubleshooting tips and answers to frequently asked questions
+- Instructions on how to [register, sign in, and customize your profile](./account-management)
+- Guidelines for [creating and scheduling meetings](./creating-meetings)
+- Information regarding [user roles](./user-roles), permissions, and [real-time translation capabilities](./ai-features#online-voice-translation)
+- An overview of [AI-powered features](./ai-features) such as the AI Assistant and Voice Translator
+- [Troubleshooting tips](./troubleshooting) and answers to [frequently asked questions](./faq)
 
 Let us begin — the future of intelligent meetings is set to commence now.
 
@@ -24,16 +24,16 @@ Let us begin — the future of intelligent meetings is set to commence now.
 If you're new to InterMIND, follow this simple checklist to start your experience:
 
 1. Visit https://intermind.com
-2. Click Sign In and choose Google / Microsoft / Email
+2. Click Sign In and choose Google / Microsoft / Email (learn more in [Account Management](./account-management))
 3. When prompted, allow access to your microphone and camera
-4. Click New Meeting and select Start an Instant Meeting
+4. Click New Meeting and select Start an Instant Meeting (see [Creating and Scheduling Meetings](./creating-meetings))
 5. Share the meeting link with participants
 6. Open Settings to choose your preferred language and devices
-7. Use the AI Assistant to take notes and generate summaries during your call
+7. Use the [AI Assistant](./ai-features#ai-assistant) to take notes and generate summaries during your call
 8. Access previous meetings via the History tab for recordings and transcripts
 
 > [!TIP]
-> For the best performance, it's recommended to use a Chrome or Edge browser.
+> For the best performance, it's recommended to use a Chrome or Edge browser. If you experience any issues, check our [Troubleshooting](./troubleshooting) guide or visit [Help & Support](./help-support).
 
 ## Supported Languages
 

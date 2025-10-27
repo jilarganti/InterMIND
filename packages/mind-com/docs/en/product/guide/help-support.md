@@ -5,7 +5,7 @@ description: Get help with InterMIND. Report issues, suggest features, and conta
 
 # Help & Support
 
-Should you face any issues or have a feature request, feel free to reach out to the InterMIND team directly through the built-in feedback form. This feature is quick and user-friendly, allowing us to enhance InterMIND for everyone.
+Should you face any issues or have a feature request, feel free to reach out to the InterMIND team directly through the built-in feedback form. This feature is quick and user-friendly, allowing us to enhance InterMIND for everyone. For common issues, check our [Troubleshooting](./troubleshooting) guide first.
 
 ## To send feedback:
 

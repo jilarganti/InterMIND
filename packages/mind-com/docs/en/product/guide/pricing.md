@@ -16,7 +16,7 @@ The Pricing page provides a clear comparison of all available plans—Basic, Pro
 
 ### From the Profile Page (for Basic plan users)
 
-- Navigate to Profile > Profile tab
+- Navigate to Profile > Profile tab (see [Account Management](./account-management#user-profile))
 - Click the **Upgrade Plan** button located under your current plan
 
 ### From the Page Header

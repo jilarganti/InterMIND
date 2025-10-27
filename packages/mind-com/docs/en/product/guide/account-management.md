@@ -7,7 +7,7 @@ description: Sign up and manage your InterMIND account. Learn how to register wi
 
 ## Sign Up
 
-Creating an account can be accomplished through three methods: utilizing your Google or Microsoft Accounts or registering with an External Email Address.
+Creating an account can be accomplished through three methods: utilizing your Google or Microsoft Accounts or registering with an External Email Address. For a complete overview, see our [Getting Started](./getting-started) guide.
 
 1. To begin, visit [https://intermind.com](https://intermind.com)
 2. Click on the **Sign In** button located in the top right corner of the homepage
@@ -80,7 +80,7 @@ If you forgot your password, follow these steps:
 
 ## Sign In
 
-Upon the creation of your InterMIND account, you are afforded the opportunity to sign in at any time. This allows you to host or join meetings, manage settings, access AI functionality, and review previous meetings along with their transcripts. Furthermore, the AI Assistant can be utilized within the meeting history.
+Upon the creation of your InterMIND account, you are afforded the opportunity to sign in at any time. This allows you to host or join meetings, manage settings, access AI functionality, and review previous meetings along with their transcripts. Furthermore, the AI Assistant can be utilized within the meeting history. Learn more about [Creating and Scheduling Meetings](./creating-meetings).
 
 ### Accessing the Sign In page
 
@@ -148,7 +148,7 @@ The profile page is organized into four main tabs:
 **Current Plan**
 
 - Shows the active subscription type (e.g., Basic, Pro) and its validity period
-- Basic users see an **Upgrade Plan** button
+- Basic users see an **Upgrade Plan** button (learn more about [Pricing](./pricing))
 - Pro users see a **Cancel Subscription** button
 
 **Communication Preferences**
