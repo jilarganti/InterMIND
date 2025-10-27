@@ -302,7 +302,9 @@ export function useChatUi(
 
   // Рендеринг Markdown с добавлением интерактивных элементов
   const renderMarkdown = (content: string): string => {
-    const renderedHtml = md.render(content)
+    // Заменяем [!note] на [!info] так как note не поддерживается стандартной разметкой
+    const normalizedContent = content.replace(/\[!note\]/gi, "[!info]")
+    const renderedHtml = md.render(normalizedContent)
     return addInteractiveButtons(renderedHtml)
   }
 

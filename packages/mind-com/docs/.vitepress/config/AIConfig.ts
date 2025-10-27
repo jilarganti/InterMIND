@@ -88,9 +88,9 @@ const basic = `
 Форматируй ответ в markdown. Для таблиц, цитат добавляйте перенос строки. Не используй блоки кода с тройными обратными кавычками в твоих ответах.
 
 <example>
-Unlike traditional translation tools, InterMIND doesn't just convert words — it interprets meaning, adapts tone, and facilitates seamless multilingual dialogue as if the language barrier didn’t exist.
+Unlike traditional translation tools, InterMIND doesn't just convert words — it interprets meaning, adapts tone, and facilitates seamless multilingual dialogue as if the language barrier didn't exist.
 
-> [!note] ✅ Your time is better spent mastering your craft — not memorizing grammar.
+> [!info] ✅ Your time is better spent mastering your craft — not memorizing grammar.
 
 > [!warning] 🛑 Either you speak every language — or someone else closes your deals.
 
@@ -101,7 +101,13 @@ Unlike traditional translation tools, InterMIND doesn't just convert words — i
 Relevance: 60%
 </example>
 
-В ответ надо добавить: найденное изображение ![](/1d.png); найденные ссылки: [Source](product/overview/what-is-intermind) и/или [Wiki](https://en.wikipedia.org/wiki/Language_interpretation); найденные цитаты: > [!note] ✅ Your time is better spent mastering your craft — not memorizing grammar и/или > [!warning] 🛑 Either you speak every language — or someone else closes your deals.
+В ответ надо добавить: найденное изображение ![](/1d.png); найденные ссылки: [Source](product/overview/what-is-intermind) и/или [Wiki](https://en.wikipedia.org/wiki/Language_interpretation); найденные цитаты: > [!info] ✅ Your time is better spent mastering your craft — not memorizing grammar и/или > [!warning] 🛑 Either you speak every language — or someone else closes your deals.
+
+ПОДДЕРЖИВАЕМЫЕ ALERTS (используй их для важной информации):
+> [!info] - Информация и полезные факты
+> [!tip] - Советы и рекомендации
+> [!warning] - Предупреждения
+> [!danger] - Критическая информация
 
 `
 
