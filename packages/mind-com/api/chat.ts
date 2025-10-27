@@ -59,21 +59,48 @@ export async function POST(request: Request): Promise<Response> {
       toolChoice: "auto",
       maxSteps: 5,
       onFinish: (result) => {
+        console.log(`✅ Стриминг завершен. Токенов: ${result.usage.completionTokens}`)
         data.append({ type: "completionTokens", completionTokens: result.usage.completionTokens })
         data.close()
       },
+      onError: (error) => {
+        console.error("🔴 API: Ошибка стриминга:", error)
+        data.append({ type: "error", error: String(error) })
+        data.close()
+      },
+      abortSignal: request.signal, // Поддержка отмены запроса
     })
 
     console.log("🔵 API: Получен ответ от AI, начинаем стриминг...")
 
     // Возвращаем стандартный ответ от streamText с дополнительными данными
-    return result.toDataStreamResponse({ data })
+    return result.toDataStreamResponse({
+      data,
+      headers: {
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "X-Content-Type-Options": "nosniff",
+      },
+    })
   } catch (error) {
     console.error("🔴 API: Ошибка при обработке запроса:", error)
 
-    return new Response(JSON.stringify({ error: String(error) }), {
-      status: 500,
-      headers: { "Content-Type": "application/json" },
-    })
+    // Различаем типы ошибок
+    const errorMessage = error instanceof Error ? error.message : String(error)
+    const errorType = error instanceof Error ? error.constructor.name : "UnknownError"
+
+    console.error(`🔴 Тип ошибки: ${errorType}, сообщение: ${errorMessage}`)
+
+    return new Response(
+      JSON.stringify({
+        error: errorMessage,
+        type: errorType,
+        timestamp: new Date().toISOString(),
+      }),
+      {
+        status: 500,
+        headers: { "Content-Type": "application/json" },
+      },
+    )
   }
 }
