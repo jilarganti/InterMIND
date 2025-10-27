@@ -85,7 +85,7 @@
 
 :root {
   --vp-custom-block-info-border: var(--vp-c-gray-border);
-  --vp-custom-block-note-border: var(--vp-c-green-2);
+  --vp-custom-block-note-border: var(--vp-custom-block-important-border);
   --vp-custom-block-tip-border: var(--vp-c-purple-2);
   --vp-custom-block-warning-border: var(--vp-c-yellow-2);
   --vp-custom-block-important-border: var(--vp-c-indigo-2);
