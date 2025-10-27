@@ -61,7 +61,7 @@
     "vercel": "^45.0.10",
     "vite": "^5.4.19",
     "vitepress": "^1.6.4",
-    "vitepress-plugin-llms": "^1.7.3",
+    "vitepress-plugin-llms": "^1.8.1",
     "vitest": "^1.6.1",
     "vue": "^3.5.18",
     "zod": "^3.25.76"
