@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Language Services Glossary 2025: Complete Guide to AI Translation & Interpretation"
-description: Comprehensive glossary of translation and interpretation terminology with 2025 market data, AI performance metrics, and industry benchmarks
-date: 2025-10-27
+description: "Comprehensive glossary of translation and interpretation terminology with 2025 market data, AI performance metrics, and industry benchmarks"
+date: "2025-10-27"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 

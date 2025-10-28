@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Introduction to Software Testing Concepts and Terminology"
-description: A beginner-friendly guide to understanding software testing fundamentals, including types of testing, processes, and key terminology.
-date: 2025-10-06
+description: "A beginner-friendly guide to understanding software testing fundamentals, including types of testing, processes, and key terminology."
+date: "2025-10-06"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 

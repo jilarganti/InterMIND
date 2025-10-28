@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "AI Translation Accuracy & Market Analysis Study 2025"
-description: Comprehensive research into artificial intelligence translation performance, adoption rates, and competitive landscape across global markets.
-date: 2025-10-20
+description: "Comprehensive research into artificial intelligence translation performance, adoption rates, and competitive landscape across global markets."
+date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
