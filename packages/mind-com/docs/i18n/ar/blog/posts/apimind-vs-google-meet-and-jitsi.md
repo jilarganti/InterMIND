@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
-title: apiMind مقابل Google Meet و Jitsi
-description: مقارنة شاملة لأداء apiMind مقابل Google Meet و Jitsi بناءً على اختبارات مستقلة.
-date: 2025-08-18
+layout: "BlogPost"
+title: "apiMind مقابل Google Meet و Jitsi"
+description: "مقارنة شاملة لأداء apiMind مقابل Google Meet و Jitsi بناءً على اختبارات مستقلة."
+date: "2025-08-18"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
@@ -13,7 +13,7 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 > الشفافية والصدق — نهجنا في النمو
 
-نؤمن بأن التقدم الحقيقي يأتي من خلال المقارنة المفتوحة مع أفضل الحلول في السوق. لهذا السبب كلفنا TestDevLab بإجراء اختبارات مستقلة — وهي شركة تتمتع بخبرة 10 سنوات و 500 متخصص يختبرون منتجات يستخدمها 4.5 مليار شخص حول العالم.
+نؤمن بأن التقدم الحقيقي يأتي من خلال المقارنة المفتوحة مع أفضل الحلول في السوق. لهذا السبب كلفنا TestDevLab بإجراء اختبارات مستقلة — وهي شركة تتمتع بخبرة 10 سنوات و 500 متخصص يختبرون المنتجات التي يستخدمها 4.5 مليار شخص حول العالم.
 
 ## نقاط القوة الرئيسية لـ apiMind
 

@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
-title: apiMind vs Google Meet と Jitsi の比較
-description: 独立したテストに基づくapiMindのGoogle MeetとJitsiに対するパフォーマンスの包括的比較。
-date: 2025-08-18
+layout: "BlogPost"
+title: "apiMind vs Google Meet と Jitsi の比較"
+description: "独立したテストに基づくapiMindのGoogle MeetとJitsiに対するパフォーマンスの包括的比較。"
+date: "2025-08-18"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 

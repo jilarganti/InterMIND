@@ -1,17 +1,17 @@
 ---
-layout: BlogPost
-title: apiMind vs Google Meet 및 Jitsi 비교
-description: 독립적인 테스트를 기반으로 한 apiMind와 Google Meet, Jitsi의 성능 종합 비교 분석.
-date: 2025-08-18
+layout: "BlogPost"
+title: "apiMind vs Google Meet 및 Jitsi 비교"
+description: "독립적인 테스트를 기반으로 한 apiMind와 Google Meet, Jitsi의 성능에 대한 종합적인 비교 분석."
+date: "2025-08-18"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
-# apiMind vs Google Meet 및 Jitsi: 독립적인 2024 벤치마크 분석
+# apiMind vs Google Meet 및 Jitsi: 독립적인 2024년 벤치마크 분석
 
 <img src="/blog/2025-08-18_18.54.27.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/2025-08-18_18.54.10.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-> 투명성과 정직성 — 성장을 위한 우리의 접근 방식
+> 투명성과 정직성 — 우리의 성장 접근법
 
 우리는 시장 최고의 솔루션들과의 공개적인 비교를 통해 진정한 발전이 이루어진다고 믿습니다. 그래서 우리는 10년의 경험과 500명의 전문가를 보유하고 전 세계 45억 명이 사용하는 제품을 테스트하는 회사인 TestDevLab에 독립적인 테스트를 의뢰했습니다.
 

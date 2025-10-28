@@ -1,16 +1,12 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "ソフトウェアテストの概念と用語の入門"
-description: テストの種類、プロセス、重要な用語を含む、ソフトウェアテストの基礎を理解するための初心者向けガイド。
-date: 2025-10-06
+description: "テストの種類、プロセス、重要な用語を含む、ソフトウェアテストの基礎を理解するための初心者向けガイド。"
+date: "2025-10-06"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: ソフトウェアテスト, テスト基礎, QA, 手動テスト, 自動テスト, テスト種類
 ---
 
-# ソフトウェアテスト基礎：完全ガイド（2025年）
+# ソフトウェアテストの基礎：完全ガイド（2025年）
 
 <p class="subtitle">ソフトウェアテストを始めるために知っておくべきすべて</p>
 

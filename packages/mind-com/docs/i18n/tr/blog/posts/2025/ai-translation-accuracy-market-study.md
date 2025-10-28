@@ -1,13 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Yapay Zeka Çeviri Doğruluğu ve Pazar Analizi Çalışması 2025"
-description: Yapay zeka çeviri performansı, benimsenme oranları ve küresel pazarlardaki rekabet ortamına yönelik kapsamlı araştırma.
-date: 2025-10-20
+description: "Yapay zeka çeviri performansı, benimsenme oranları ve küresel pazarlardaki rekabet ortamına yönelik kapsamlı araştırma."
+date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: yapay zeka çeviri doğruluğu, makine çevirisi pazarı, sinir ağı çevirisi, çok dilli yapay zeka, çeviri teknolojisi, dil işleme
 ---
 
 # Yapay Zeka Çeviri Doğruluğu ve Pazar Analizi Çalışması 2025
@@ -15,7 +11,7 @@ head:
 <p class="subtitle">Yapay zekanın çığır açan doğruluk iyileştirmeleri ve hızlı pazar benimsenmesi yoluyla çeviri endüstrisini nasıl dönüştürdüğü</p>
 
 > **Yönetici Özeti:**  
-> Yapay zeka çeviri sistemleri ana dil çiftleri için %94,2 doğruluğa ulaşmış, kullanıcı memnuniyeti 4,3/5'e çıkmıştır. Pazar %23,7 CAGR büyüme yaşamakta ve 2027'ye kadar 8,9 milyar dolara ulaşarak geleneksel çeviri hizmetlerini temelden değiştirmesi öngörülmektedir.
+> Yapay zeka çeviri sistemleri ana dil çiftleri için %94,2 doğruluk oranına ulaştı ve kullanıcı memnuniyeti 5 üzerinden 4,3'e çıktı. Pazar %23,7 CAGR büyüme yaşıyor ve 2027'ye kadar 8,9 milyar dolara ulaşması öngörülüyor, bu da geleneksel çeviri hizmetlerini temelden sarsmaktadır.
 
 ## Araştırma Genel Bakış: Yapay Zeka Çeviri Devrimi
 
@@ -849,5 +845,5 @@ Tüm araştırma verileri uluslararası veri koruma standartlarına uygun olarak
 ---
 
 ::: tip Araştırma Güncellemeleri
-Bu çalışma hızla gelişen teknolojinin bir anlık görüntüsünü temsil etmektedir. Temel bulguları üç ayda bir güncelleyeceğiz ve 2026 yılının 2. çeyreğinde kapsamlı bir takip çalışması yayınlayacağız.
+Bu çalışma hızla gelişen teknolojinin bir anlık görüntüsünü temsil etmektedir. Temel bulguları üç ayda bir güncelleyecek ve 2026 yılının 2. çeyreğinde kapsamlı bir takip çalışması yayınlayacağız.
 :::

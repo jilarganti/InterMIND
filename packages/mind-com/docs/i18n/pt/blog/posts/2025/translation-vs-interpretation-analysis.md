@@ -1,14 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Tradução vs Interpretação: Guia Completo para Tradução de Videoconferência em Tempo Real 2025"
-description: Como a interpretação simultânea está transformando as comunicações por vídeo - comparando tecnologias de tradução escrita e interpretação em tempo real para negócios internacionais
-date: 2025-10-27
+description: "Como a interpretação simultânea está transformando as comunicações por vídeo - comparando tecnologias de tradução escrita e interpretação em tempo real para negócios internacionais"
+date: "2025-10-27"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-head:
-  - - meta
-    - name: keywords
-      content: interpretação simultânea, tradução de videoconferência, interpretação em tempo real, tradução de fala por IA, videochamadas multilíngues, interpretação vs tradução
-
 ---
 
 # Tradução vs Interpretação: Guia Completo para Tradução de Videoconferência em Tempo Real 2025

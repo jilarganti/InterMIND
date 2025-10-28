@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
-title: Mind.com web sitesi mimarisi
-description: AI entegrasyonlu modern JAMstack çözümünün teknik araştırması
-date: 2025-08-15
+layout: "BlogPost"
+title: "Mind.com web sitesi mimarisi"
+description: "AI entegrasyonlu modern JAMstack çözümünün teknik araştırması"
+date: "2025-08-15"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
@@ -21,7 +21,7 @@ Sistem, geleneksel i18n dosyaları ve sözlükler kullanmadan tüm site içeriğ
 
 ## İndekslenmiş İçerikle Arama AI Sohbeti
 
-AI sohbet, önceden indekslenmiş site içeriği ile çalışarak yanlış bilgi üretimini ortadan kaldırır. Derleme sürecinde (`pnpm build`), tüm içerik vektör gömme formatına dönüştürülür ve sunucusuz bir vektör veritabanı olan Upstash Vector'a yüklenir. Arama, ilgili dokümantasyon parçalarını bulmak için kosinüs benzerliği aracılığıyla semantik eşleştirme kullanır. RAG mimarisi, AI modelinin (Claude 3.5 Haiku veya GPT-4) yalnızca bilgi tabanından bulunan parçalara dayalı olarak yanıtlar üretmesine olanak tanır. Sohbet, sorgu dilini otomatik olarak algılar ve manuel yapılandırma gerektirmeden 100'den fazla dili destekleyerek aynı dilde yanıt verir.
+AI sohbet, önceden indekslenmiş site içeriği ile çalışarak yanlış bilgi üretimini ortadan kaldırır. Derleme sürecinde (`pnpm build`), tüm içerik vektör gömülümlerine dönüştürülür ve sunucusuz bir vektör veritabanı olan Upstash Vector'a yüklenir. Arama, ilgili dokümantasyon parçalarını bulmak için kosinüs benzerliği aracılığıyla semantik eşleştirme kullanır. RAG mimarisi, AI modelinin (Claude 3.5 Haiku veya GPT-4) yalnızca bilgi tabanından bulunan parçalara dayalı olarak yanıtlar üretmesine olanak tanır. Sohbet, sorgu dilini otomatik olarak algılar ve manuel yapılandırma gerektirmeden 100'den fazla dili destekleyerek aynı dilde yanıt verir.
 
 ## Temel Mimari: VitePress + Vue.js
 
@@ -99,7 +99,7 @@ Mind.com, tam RTL (sağdan sola) metin yönü desteği ile 20'den fazla dili des
 
 ### RTL ve LTR Desteği
 
-Otomatik metin yönü yönetimi için geleneksel `left/right` yerine **CSS Mantıksal Özellikleri** kullanılmaktadır. Sass mixin'leri otomatik RTL/LTR stil üretimi sağlar ve özel Unicode karakterler (LRE, PDF) RTL bağlamında parantez ve tırnak işaretlerini düzgün şekilde işler.
+Otomatik metin yönü yönetimi için geleneksel `left/right` yerine **CSS Mantıksal Özellikleri** kullanılmaktadır. Sass mixinleri otomatik RTL/LTR stil üretimi sağlar ve özel Unicode karakterleri (LRE, PDF) RTL bağlamında parantez ve tırnak işaretlerini düzgün şekilde işler.
 
 ### Devrimsel AI Destekli Çeviri Sistemi
 
@@ -107,7 +107,7 @@ Otomatik metin yönü yönetimi için geleneksel `left/right` yerine **CSS Mant�
 
 **Evrensel format desteği** kritik bir avantajdır: sistem Markdown, Vue bileşenleri, TypeScript, JavaScript ve diğer herhangi bir metin formatını özel adaptasyon olmadan işler. Bu, **dokümantasyondan UI bileşenlerine kadar tüm site içeriğinin otomatik olarak çevrildiği** anlamına gelir ve yapı, biçimlendirme ve işlevsellik korunur.
 
-**Dünya standartlarında SEO optimizasyonu**, her dil için eksiksiz statik sayfalar oluşturularak sağlanır. İçeriği dinamik olarak yükleyen istemci tarafı i18n çözümlerinin aksine, her dil sürümü ayrı bir statik sayfa olarak bulunur ve **mükemmel arama motoru indeksleme** ve anında içerik yükleme sağlar. Arama botları JavaScript bağımlılıkları olmadan tamamen çevrilmiş HTML görür.
+**Dünya standartlarında SEO optimizasyonu**, her dil için tam statik sayfalar oluşturularak sağlanır. İçeriği dinamik olarak yükleyen istemci tarafı i18n çözümlerinin aksine, her dil sürümü ayrı bir statik sayfa olarak bulunur ve **mükemmel arama motoru indeksleme** ve anında içerik yükleme sağlar. Arama botları JavaScript bağımlılıkları olmadan tamamen çevrilmiş HTML görür.
 
 **İkili AI mimarisi**, hatalarda otomatik model değiştirme ile OpenAI GPT-4 ve Anthropic Claude kullanır. Sistem artımlı çeviri (yalnızca değişen dosyalar), otomatik dosya yapısı senkronizasyonu ve `checkBuildErrors: true` aracılığıyla çevrilmiş dosyaların isteğe bağlı derleme kontrolünü içerir.
 
@@ -185,8 +185,8 @@ Mind.com, AI entegrasyonlu modern JAMstack mimarisinin nasıl önemli rekabet av
 
 ## Sonuç
 
-Mind.com'un mimarisi, modern web geliştirme ilkelerinin örnek bir uygulamasını temsil eder ve statik performansı dinamik AI yetenekleriyle başarılı bir şekilde birleştirir. VitePress + Vue.js + Serverless Functions + AI entegrasyonu kombinasyonu, minimal operasyonel maliyetlerle üstün kullanıcı deneyimi sunan güçlü, ölçeklenebilir bir platform yaratır.
+Mind.com'un mimarisi, modern web geliştirme ilkelerinin örnek bir uygulamasını temsil eder ve statik performansı dinamik AI yetenekleriyle başarılı bir şekilde birleştirir. VitePress + Vue.js + Serverless Functions + AI entegrasyonunun kombinasyonu, minimal operasyonel maliyetlerle üstün kullanıcı deneyimi sunan güçlü, ölçeklenebilir bir platform yaratır.
 
-Pazarlama sitesi mimarisine yönelik bu yaklaşım, 2025'te JAMstack ekosisteminin olgunluğunu gösterir ve kurumsal düzeydeki çözümler için geliştirme yönünü işaret eder. Son teknoloji AI teknolojilerini statik mimariye entegre etmek, JAMstack yaklaşımının tüm performans ve güvenlik avantajlarını korurken kişiselleştirme ve müşteri deneyimi otomasyonu için yeni olanaklar açar.
+Pazarlama sitesi mimarisine yönelik bu yaklaşım, 2025'te JAMstack ekosisteminin olgunluğunu gösterir ve kurumsal düzeydeki çözümler için geliştirme yönünü işaret eder. Son teknoloji AI teknolojilerinin statik mimariye entegre edilmesi, JAMstack yaklaşımının tüm performans ve güvenlik avantajlarını korurken kişiselleştirme ve müşteri deneyimi otomasyonu için yeni olanaklar açar.
 
 Mind.com, modern teknolojik çözümlerin nasıl sinerjik etkiler yaratabileceğinin, bireysel bileşenlerin toplamını aşabileceğinin ve pazarlama teknolojisi endüstrisi için yeni standartlar belirleyebileceğinin bir örneği olarak hizmet eder.

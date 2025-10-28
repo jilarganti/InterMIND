@@ -1,14 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Precisão da Tradução por IA e Estudo de Análise de Mercado 2025"
-description: Pesquisa abrangente sobre desempenho de tradução por inteligência artificial, taxas de adoção e cenário competitivo em mercados globais.
-date: 2025-10-20
+description: "Pesquisa abrangente sobre desempenho de tradução por inteligência artificial, taxas de adoção e cenário competitivo em mercados globais."
+date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: precisão tradução IA, mercado tradução automática, tradução neural, IA multilíngue, tecnologia tradução, processamento linguagem
-
 ---
 
 # Precisão da Tradução por IA e Estudo de Análise de Mercado 2025
@@ -16,7 +11,7 @@ head:
 <p class="subtitle">Como a inteligência artificial está transformando a indústria de tradução através de melhorias revolucionárias na precisão e rápida adoção no mercado</p>
 
 > **Resumo Executivo:**  
-> Sistemas de tradução por IA alcançaram 94,2% de precisão para pares de idiomas principais, com satisfação do usuário atingindo 4,3/5. O mercado está experimentando crescimento CAGR de 23,7%, projetado para alcançar US$ 8,9 bilhões até 2027, interrompendo fundamentalmente os serviços de tradução tradicionais.
+> Os sistemas de tradução por IA alcançaram 94,2% de precisão para os principais pares de idiomas, com satisfação do usuário atingindo 4,3/5. O mercado está experimentando crescimento de 23,7% CAGR, projetado para alcançar US$ 8,9 bilhões até 2027, interrompendo fundamentalmente os serviços de tradução tradicionais.
 
 ## Visão Geral da Pesquisa: A Revolução da Tradução por IA
 
@@ -52,7 +47,7 @@ head:
 1. Quão precisos são os sistemas atuais de tradução por IA comparados aos tradutores humanos?
 2. Quais fatores impulsionam a satisfação do usuário com ferramentas de tradução por IA?
 3. Quais setores apresentam as maiores taxas de adoção e ROI?
-4. Como os custos e velocidade se comparam entre serviços de tradução por IA e humanos?
+4. Como os custos e velocidade se comparam entre serviços de tradução por IA e humana?
 5. Quais são as limitações e oportunidades futuras para tradução por IA?
 
 ---
@@ -550,7 +545,7 @@ head:
 
 **Interfaces Voice-First:**
 
-- Tradução de conversação natural
+- Tradução de conversas naturais
 - Preservação de emoção e tom
 - Identificação de falantes em configurações de grupo
 - Integração com alto-falantes inteligentes e dispositivos

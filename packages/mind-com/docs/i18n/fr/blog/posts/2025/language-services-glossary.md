@@ -1,16 +1,12 @@
 ---
-layout: BlogPost
-title: "Glossaire des services linguistiques 2025 : Guide complet de la traduction et interprétation IA"
-description: Glossaire complet de la terminologie de traduction et interprétation avec données de marché 2025, métriques de performance IA et références sectorielles
-date: 2025-10-27
+layout: "BlogPost"
+title: "Glossaire des Services Linguistiques 2025 : Guide Complet de la Traduction et Interprétation IA"
+description: "Glossaire complet de la terminologie de traduction et interprétation avec données de marché 2025, métriques de performance IA et références sectorielles"
+date: "2025-10-27"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: glossaire traduction, termes interprétation, traduction IA, traduction automatique, services linguistiques, technologie traduction, communication multilingue
 ---
 
-# Glossaire des services linguistiques 2025 : Guide complet de la traduction et interprétation IA
+# Glossaire des Services Linguistiques 2025 : Guide Complet de la Traduction et Interprétation IA
 
 <p class="subtitle">Terminologie essentielle pour les services modernes de traduction et d'interprétation, enrichie avec des données de performance IA, métriques de coût et références qualité</p>
 
@@ -709,7 +705,7 @@ Ceci est le deuxième sous-titre.
 
 ### Synthèse Vocale (TTS)
 
-**Définition :** Technologie IA qui convertit le texte écrit en audio parlé au son naturel en utilisant la synthèse vocale neuronale.
+**Définition :** Technologie IA qui convertit le texte écrit en audio parlé au son naturel utilisant la synthèse vocale neuronale.
 
 **Capacités 2025 :**
 
@@ -727,7 +723,7 @@ Ceci est le deuxième sous-titre.
 - Production de livres audio
 - Sous-titres vidéo avec audio
 
-### Service Vidéo Descriptive (DVS)
+### Service Vidéo Descriptive (SVD)
 
 **Définition :** Narration audio supplémentaire décrivant les éléments visuels (actions, décors, costumes, changements de scène) pour les personnes malvoyantes.
 

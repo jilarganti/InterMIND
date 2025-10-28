@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
-title: InterMIND'ın Video İletişiminde Yapay Zeka Devrimi
-description: InterMIND'ın WebRTC mimarisi ve LLM entegrasyonu, kurumsal video görüşmeleri için ilk doğal gerçek zamanlı çeviri platformunu nasıl yaratıyor.
-date: 2025-08-16
+layout: "BlogPost"
+title: "InterMIND'ın Video İletişiminde Yapay Zeka Devrimi"
+description: "InterMIND'ın WebRTC mimarisi ve LLM entegrasyonu, kurumsal video görüşmeleri için ilk doğal gerçek zamanlı çeviri platformunu nasıl yaratıyor."
+date: "2025-08-16"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 

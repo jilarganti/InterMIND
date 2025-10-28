@@ -1,21 +1,17 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Glosarium Layanan Bahasa 2025: Panduan Lengkap Terjemahan & Interpretasi AI"
-description: Glosarium komprehensif terminologi terjemahan dan interpretasi dengan data pasar 2025, metrik kinerja AI, dan tolok ukur industri
-date: 2025-10-27
+description: "Glosarium komprehensif terminologi terjemahan dan interpretasi dengan data pasar 2025, metrik kinerja AI, dan tolok ukur industri"
+date: "2025-10-27"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: glosarium terjemahan, istilah interpretasi, terjemahan AI, terjemahan mesin, layanan bahasa, teknologi terjemahan, komunikasi multibahasa
 ---
 
 # Glosarium Layanan Bahasa 2025: Panduan Lengkap Terjemahan & Interpretasi AI
 
-<p class="subtitle">Terminologi penting untuk layanan terjemahan dan interpretasi modern, dilengkapi dengan data kinerja AI, metrik biaya, dan tolok ukur kualitas</p>
+<p class="subtitle">Terminologi penting untuk layanan terjemahan dan interpretasi modern, diperkaya dengan data kinerja AI, metrik biaya, dan tolok ukur kualitas</p>
 
 > **Ringkasan Eksekutif:**  
-> Glosarium komprehensif ini mendefinisikan 65+ istilah kunci dalam industri layanan bahasa, dilengkapi dengan data pasar 2025 termasuk metrik akurasi AI (94,2% untuk pasangan bahasa utama), perbandingan biaya, dan tolok ukur kinerja. Referensi penting bagi organisasi yang mengimplementasikan solusi terjemahan dan interpretasi.
+> Glosarium komprehensif ini mendefinisikan 65+ istilah kunci dalam industri layanan bahasa, diperkaya dengan data pasar 2025 termasuk metrik akurasi AI (94,2% untuk pasangan bahasa utama), perbandingan biaya, dan tolok ukur kinerja. Referensi penting bagi organisasi yang mengimplementasikan solusi terjemahan dan interpretasi.
 
 ## Ikhtisar Glosarium: Standar Terminologi Industri
 
@@ -368,9 +364,9 @@ head:
 
 **Spesifikasi Teknis:**
 
-- **Kecepatan Baca:** Maksimal 160-180 kata per menit
-- **Durasi Tampilan:** Minimal 1 detik, maksimal 6 detik per caption
-- **Posisi:** Tengah bawah, maksimal 2-3 baris
+- **Kecepatan Baca:** Maksimum 160-180 kata per menit
+- **Durasi Tampilan:** Minimum 1 detik, maksimum 6 detik per caption
+- **Posisi:** Tengah bawah, maksimum 2-3 baris
 - **Sinkronisasi:** Akurasi ±2 frame
 
 **Standar Aksesibilitas:**
@@ -790,7 +786,7 @@ Ini adalah subtitle kedua.
 **Tingkat Keparahan:**
 
 - **Kritis:** Mengubah makna secara signifikan
-- **Mayor:** Terlihat tetapi tidak mengubah makna
+- **Mayor:** Terlihat jelas tetapi tidak mengubah makna
 - **Minor:** Preferensi gaya
 
 ### ISO 17100
@@ -870,7 +866,7 @@ Ini adalah subtitle kedua.
 - Konvensi ejaan
 - Referensi budaya
 
-### Kemampuan Bahasa Inggris Terbatas (LEP)
+### Kemahiran Bahasa Inggris Terbatas (LEP)
 
 **Definisi:** Individu yang memiliki kemampuan terbatas untuk membaca, menulis, berbicara, atau memahami bahasa Inggris, memerlukan layanan akses bahasa untuk partisipasi yang setara.
 
@@ -902,7 +898,7 @@ Ini adalah subtitle kedua.
 
 **Penyuntingan Pasca-Terjemahan Penuh:**
 
-- Mencapai kualitas terjemahan manusia
+- Mencapai kualitas penerjemahan manusia
 - Memoles gaya dan kelancaran
 - Memverifikasi konsistensi terminologi
 - Biaya: $0,06-0,12 per kata
@@ -1153,7 +1149,7 @@ Ini adalah subtitle kedua.
 ✅ Diperlukan terjemahan tersertifikasi  
 ✅ Diperlukan kepatuhan regulasi
 
-#### Gunakan Pendekatan Hibrid Ketika:
+#### Gunakan Pendekatan Hibrida Ketika:
 
 ✅ Volume besar + kepentingan tinggi  
 ✅ Manual teknis untuk industri teregulasi  

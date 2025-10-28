@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
-title: La revolución de IA de InterMIND en comunicaciones de video
-description: Cómo la arquitectura WebRTC de InterMIND y la integración de LLM crea la primera plataforma de traducción natural en tiempo real para videollamadas empresariales.
-date: 2025-08-16
+layout: "BlogPost"
+title: "La revolución de IA de InterMIND en comunicaciones de video"
+description: "Cómo la arquitectura WebRTC de InterMIND y la integración de LLM crea la primera plataforma de traducción natural en tiempo real para videollamadas empresariales."
+date: "2025-08-16"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 

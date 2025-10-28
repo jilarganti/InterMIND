@@ -1,19 +1,19 @@
 ---
-layout: BlogPost
-title: apiMind 与 Google Meet 和 Jitsi 对比
-description: 基于独立测试的 apiMind 与 Google Meet 和 Jitsi 性能综合对比分析。
-date: 2025-08-18
+layout: "BlogPost"
+title: "apiMind vs Google Meet 和 Jitsi"
+description: "基于独立测试的 apiMind 与 Google Meet 和 Jitsi 性能综合对比分析。"
+date: "2025-08-18"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
-# apiMind 与 Google Meet 和 Jitsi：2024年独立基准测试分析
+# apiMind vs Google Meet 和 Jitsi：2024年独立基准测试分析
 
-<img src="/blog/2025-08-18_18.54.27.png" alt="apiMind 与 Google Meet 对比" width="500" align="right" style="padding: 1.5rem" class="dark-only">
-<img src="/blog/2025-08-18_18.54.10.png" alt="apiMind 与 Jitsi 对比" width="500" align="right" style="padding: 1.5rem" class="light-only">
+<img src="/blog/2025-08-18_18.54.27.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/2025-08-18_18.54.10.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-> 透明诚信 — 我们的发展理念
+> 透明与诚信 — 我们的发展理念
 
-我们相信真正的进步来自于与市场上最佳解决方案的公开比较。因此，我们委托拥有10年经验和500名专家的 TestDevLab 进行独立测试，该公司测试的产品被全球45亿用户使用。
+我们相信真正的进步来自于与市场上最佳解决方案的公开比较。因此，我们委托拥有10年经验和500名专家的TestDevLab进行独立测试，该公司测试的产品被全球45亿用户使用。
 
 ## apiMind的核心优势
 
@@ -107,13 +107,13 @@ apiMind展现出：
 
 ## 结论
 
-独立基准测试为真实世界的性能表现提供了宝贵的见解。apiMind在**具有挑战性的网络时序条件下表现出色**，在丢包处理方面具有竞争力，同时我们持续改进带宽适应和恢复机制。
+独立基准测试为真实世界的性能表现提供了宝贵的见解。apiMind在**具有挑战性的网络时序条件下表现出色**，在丢包处理方面具有竞争优势，同时我们持续改进带宽适应和恢复机制。
 
 > 我们致力于透明地展示我们的优势和需要改进的领域。这些结果指导着我们的开发重点，帮助我们为真实世界的条件而构建。
 
 ---
 
-_研究由TestDevLab（拉脱维亚）于2024年7月进行。方法：3名参与者，Windows/Chrome环境，在动态网络条件下测试，每个阶段持续60秒——带宽（无限制→2M→500K→200K→500K→2M→无限制），丢包率（0%→10%→20%→20%→20%→10%→0%），抖动/延迟（0/0→100/30→500/90→1500/270→500/90→100/30→0/0毫秒）。_
+_研究由TestDevLab（拉脱维亚）于2024年7月进行。方法：3名参与者，Windows/Chrome环境，在动态网络条件下进行测试，每个阶段持续60秒——带宽（无限制→2M→500K→200K→500K→2M→无限制），丢包率（0%→10%→20%→20%→20%→10%→0%），抖动/延迟（0/0→100/30→500/90→1500/270→500/90→100/30→0/0毫秒）。_
 
 ---
 

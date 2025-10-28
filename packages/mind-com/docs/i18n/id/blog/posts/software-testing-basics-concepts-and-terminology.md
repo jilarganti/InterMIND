@@ -1,13 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Pengenalan Konsep dan Terminologi Pengujian Perangkat Lunak"
-description: Panduan ramah pemula untuk memahami dasar-dasar pengujian perangkat lunak, termasuk jenis pengujian, proses, dan terminologi kunci.
-date: 2025-10-06
+description: "Panduan ramah pemula untuk memahami dasar-dasar pengujian perangkat lunak, termasuk jenis pengujian, proses, dan terminologi kunci."
+date: "2025-10-06"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: pengujian perangkat lunak, dasar pengujian, QA, pengujian manual, pengujian otomatis, jenis pengujian
 ---
 
 # Dasar-dasar pengujian perangkat lunak: panduan lengkap (2025)

@@ -1,21 +1,21 @@
 ---
-layout: BlogPost
-title: Revolusi AI InterMIND dalam Komunikasi Video
-description: Bagaimana arsitektur WebRTC InterMIND dan integrasi LLM menciptakan platform terjemahan real-time alami pertama untuk panggilan video perusahaan.
-date: 2025-08-16
+layout: "BlogPost"
+title: "Revolusi AI InterMIND dalam Komunikasi Video"
+description: "Bagaimana arsitektur WebRTC InterMIND dan integrasi LLM menciptakan platform terjemahan real-time alami pertama untuk panggilan video perusahaan."
+date: "2025-08-16"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
 # Revolusi Teknis InterMIND: Membayangkan Ulang Komunikasi Video dengan AI
 
-<img src="/blog/iStock-1448152453.jpg" alt="dirham UEA" width="500" align="left" style="padding: 1.5rem" class="dark-only">
+<img src="/blog/iStock-1448152453.jpg" alt="Dirham UAE" width="500" align="left" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/iStock-1448152453.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 Ketika tim global kehilangan kesepakatan karena hambatan bahasa, dan negosiasi internasional menjadi maraton miskomunikasi, industri teknologi akhirnya mendapat jawaban yang layak. **InterMIND menghadirkan terobosan arsitektur dalam komunikasi video**, menggabungkan solusi WebRTC mutakhir dengan kecerdasan buatan yang sadar konteks untuk menciptakan platform terjemahan real-time alami yang pertama. Pendekatan mereka berbeda secara radikal dari solusi superfisial raksasa teknologi besar, menawarkan solusi perusahaan yang dibangun dari awal untuk skala global dan latensi mikrodetik.
 
 > Analisis stack teknologi InterMIND mengungkapkan **tiga inovasi arsitektur kunci**: implementasi WebRTC native dengan server SFU yang dioptimalkan, arsitektur edge-cloud hybrid untuk minimalisasi latensi, dan integrasi mesin LLM revolusioner yang menyediakan terjemahan sadar konteks sambil mempertahankan intonasi dan maksud.
 
-Tidak seperti Microsoft Teams yang memerlukan add-on mahal, atau Google Translate yang terbatas pada perangkat mobile, InterMIND telah menciptakan **platform terpadu yang mampu memproses 100+ bahasa secara bersamaan dengan latensi sub-detik**. Ini dicapai melalui arsitektur inovatif yang secara fundamental membayangkan ulang pipeline pemrosesan ucapan tradisional.
+Tidak seperti Microsoft Teams yang memerlukan add-on mahal, atau Google Translate yang terbatas pada perangkat mobile, InterMIND telah menciptakan **platform terpadu yang mampu memproses 100+ bahasa secara bersamaan dengan latensi sub-detik**. Ini dicapai melalui arsitektur inovatif yang secara fundamental membayangkan ulang pipeline pemrosesan suara tradisional.
 
 ## Keunggulan Arsitektur Platform WebRTC
 

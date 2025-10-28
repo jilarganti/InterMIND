@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
-title: Architecture du site web Mind.com
-description: Recherche technique d'une solution JAMstack moderne avec intégration IA
-date: 2025-08-15
+layout: "BlogPost"
+title: "Architecture du site web Mind.com"
+description: "Recherche technique d'une solution JAMstack moderne avec intégration IA"
+date: "2025-08-15"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 

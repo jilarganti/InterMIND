@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
-title: Rapat Multibahasa di Microsoft Teams
-description: Panduan komprehensif tentang teknologi terjemahan AI, platform interpretasi profesional, dan solusi terbaru untuk mengatasi hambatan bahasa dalam komunikasi bisnis global
-date: 2025-08-25
+layout: "BlogPost"
+title: "Rapat Multibahasa di Microsoft Teams"
+description: "Panduan komprehensif teknologi terjemahan AI, platform interpretasi profesional, dan solusi terbaru untuk mengatasi hambatan bahasa dalam komunikasi bisnis global"
+date: "2025-08-25"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 

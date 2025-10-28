@@ -1,13 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "O Impacto Econômico do Acesso Linguístico: Estudo de ROI 2025"
-description: Análise abrangente dos benefícios financeiros, custos e retorno sobre investimento da implementação de soluções de acesso linguístico em diversos setores.
-date: 2025-10-20
+description: "Análise abrangente dos benefícios financeiros, custos e retorno sobre investimento da implementação de soluções de acesso linguístico em diversos setores."
+date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: ROI acesso linguístico, economia da acessibilidade, benefícios empresariais multilíngues, custos de tradução, custos de conformidade acesso linguístico
 ---
 
 # O Impacto Econômico do Acesso Linguístico: Estudo de ROI 2025
@@ -15,7 +11,7 @@ head:
 <p class="subtitle">Como investir em acessibilidade linguística impulsiona o crescimento da receita, reduz riscos legais e cria vantagens competitivas sustentáveis</p>
 
 > **Resumo Executivo:**  
-> Organizações que implementam programas abrangentes de acesso linguístico observam um ROI médio de 340% em 24 meses, enquanto entidades não conformes enfrentam custos médios de penalidades de $180.000 por incidente.
+> Organizações que implementam programas abrangentes de acesso linguístico observam um ROI médio de 340% em 24 meses, enquanto entidades não conformes enfrentam custos médios de multa de $180.000 por incidente.
 
 ## Visão Geral da Pesquisa: Impacto Financeiro do Acesso Linguístico
 
@@ -45,11 +41,11 @@ head:
 **Setores:** Governo (23%), Saúde (19%), Serviços Financeiros (17%), Educação (15%), E-commerce (12%), Outros (14%)  
 **Fontes de Dados:** Relatórios financeiros, auditorias de conformidade, análises de usuários, bases de dados jurídicas
 
-### Principais questões de pesquisa:
+### Principais Questões de Pesquisa:
 
 1. Qual é o ROI mensurável dos investimentos em acesso linguístico?
 2. Como os custos de conformidade se comparam aos riscos de penalidades?
-3. Quais setores apresentam os maiores retornos com acesso linguístico?
+3. Quais setores apresentam os maiores retornos do acesso linguístico?
 4. Quais fatores geram o maior impacto econômico?
 
 ---

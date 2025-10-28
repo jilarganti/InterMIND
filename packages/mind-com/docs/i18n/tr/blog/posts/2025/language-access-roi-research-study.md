@@ -1,13 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Dil Erişiminin Ekonomik Etkisi: ROI Araştırma Çalışması 2025"
-description: Sektörler genelinde dil erişimi çözümlerinin uygulanmasının finansal faydaları, maliyetleri ve yatırım getirisi üzerine kapsamlı analiz.
-date: 2025-10-20
+description: "Sektörler genelinde dil erişimi çözümlerinin uygulanmasının finansal faydaları, maliyetleri ve yatırım getirisi üzerine kapsamlı analiz."
+date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: dil erişimi ROI, erişilebilirlik ekonomisi, çok dilli iş faydaları, çeviri maliyetleri, dil erişimi uyumluluk maliyetleri
 ---
 
 # Dil Erişiminin Ekonomik Etkisi: ROI Araştırma Çalışması 2025
@@ -229,7 +225,7 @@ head:
 - ✅ **Hasta memnuniyet puanları:** LEP hastaları arasında %67 artış
 - ✅ **Yeniden yatış oranları:** LEP hastaları için %23 azalma
 - ✅ **LEP hastalarından gelir:** Yıllık +$1.8M
-- ✅ **Hukuki davalar:** İletişim kaynaklı olaylarda %89 azalma
+- ✅ **Hukuki talepler:** İletişim kaynaklı olaylarda %89 azalma
 - ✅ **Personel verimliliği:** Tedavi süresinde %31 iyileşme
 
 **ROI Hesaplaması:**
@@ -246,12 +242,12 @@ head:
 
 #### Çok Dilli E-ticaret Performansı
 
-| Metrik                     | Sadece İngilizce | + İspanyolca    | + 5 Dil         | + 10 Dil         |
-| -------------------------- | ---------------- | --------------- | --------------- | ---------------- |
-| **Dönüşüm Oranı**          | %2.1             | %3.4 (+%62)     | %4.7 (+%124)    | %5.8 (+%176)     |
+| Metrik                    | Sadece İngilizce | + İspanyolca    | + 5 Dil         | + 10 Dil         |
+| ------------------------- | ---------------- | --------------- | --------------- | ---------------- |
+| **Dönüşüm Oranı**         | %2.1             | %3.4 (+%62)     | %4.7 (+%124)    | %5.8 (+%176)     |
 | **Ortalama Sipariş Değeri** | $67              | $78 (+%16)      | $89 (+%33)      | $95 (+%42)       |
-| **Müşteri Elde Tutma**      | %23              | %31 (+%35)      | %42 (+%83)      | %47 (+%104)      |
-| **Destek Maliyetleri**      | $12/müşteri      | $9/müşteri      | $7/müşteri      | $6/müşteri       |
+| **Müşteri Elde Tutma**     | %23              | %31 (+%35)      | %42 (+%83)      | %47 (+%104)      |
+| **Destek Maliyetleri**     | $12/müşteri      | $9/müşteri      | $7/müşteri      | $6/müşteri       |
 
 **Yatırım - Getiri Karşılaştırması (Yıllık):**
 
@@ -487,7 +483,7 @@ head:
 
 1. **ROI Değerlendirmesi Yapın**
    - Dil engellerinin mevcut maliyetlerini analiz edin
-   - Yargı alanınızdaki uyumluluk risklerini ölçün
+   - Yetki alanınızdaki uyumluluk risklerini ölçün
    - LEP popülasyonlarından gelen pazar fırsatını tahmin edin
 
 2. **İş Gerekçesi Oluşturun**
@@ -597,7 +593,7 @@ head:
 ### Aşama 2: Çözüm Tasarımı (60 gün)
 
 - [ ] **Teknoloji yaklaşımını seçin**
-  - [ ] Yapay zeka, insan ve hibrit yaklaşımları karşılaştırın
+  - [ ] Yapay zeka, insan ve hibrit çözümleri karşılaştırın
   - [ ] Tedarikçi çözümlerini değerlendirin
   - [ ] Kullanıcılarla pilot test yapın
 
@@ -616,7 +612,7 @@ head:
 - [ ] **Teknoloji çözümlerini devreye alın**
   - [ ] Sistemleri kurun ve yapılandırın
   - [ ] Mevcut platformlarla entegre edin
-  - [ ] Tüm işlevselliği test edin
+  - [ ] Tüm işlevleri test edin
 
 - [ ] **Personel ve paydaşları eğitin**
   - [ ] Teknik eğitim verin

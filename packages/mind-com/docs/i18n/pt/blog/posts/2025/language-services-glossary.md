@@ -1,13 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Glossário de Serviços Linguísticos 2025: Guia Completo de Tradução e Interpretação com IA"
-description: Glossário abrangente de terminologia de tradução e interpretação com dados de mercado 2025, métricas de desempenho de IA e benchmarks da indústria
-date: 2025-10-27
+description: "Glossário abrangente de terminologia de tradução e interpretação com dados de mercado 2025, métricas de desempenho de IA e benchmarks da indústria"
+date: "2025-10-27"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: glossário de tradução, termos de interpretação, tradução com IA, tradução automática, serviços linguísticos, tecnologia de tradução, comunicação multilíngue
 ---
 
 # Glossário de Serviços Linguísticos 2025: Guia Completo de Tradução e Interpretação com IA
@@ -15,7 +11,7 @@ head:
 <p class="subtitle">Terminologia essencial para serviços modernos de tradução e interpretação, aprimorada com dados de desempenho de IA, métricas de custo e benchmarks de qualidade</p>
 
 > **Resumo Executivo:**  
-> Este glossário abrangente define mais de 65 termos-chave da indústria de serviços linguísticos, aprimorado com dados de mercado de 2025 incluindo métricas de precisão de IA (94,2% para pares de idiomas principais), comparações de custos e benchmarks de desempenho. Referência essencial para organizações implementando soluções de tradução e interpretação.
+> Este glossário abrangente define mais de 65 termos-chave na indústria de serviços linguísticos, aprimorado com dados de mercado de 2025 incluindo métricas de precisão de IA (94,2% para pares de idiomas principais), comparações de custos e benchmarks de desempenho. Referência essencial para organizações implementando soluções de tradução e interpretação.
 
 ## Visão Geral do Glossário: Padrões de Terminologia da Indústria
 
@@ -564,10 +560,10 @@ Esta é a segunda legenda.
 
 **Líderes de Mercado (2025):**
 
-- TransPerfect (receita de US$ 1,2 bi)
-- Lionbridge (receita de US$ 600 mi)
-- RWS (receita de US$ 850 mi)
-- LanguageLine Solutions (receita de US$ 500 mi)
+- TransPerfect (R$ 6,6 bilhões de receita)
+- Lionbridge (R$ 3,3 bilhões de receita)
+- RWS (R$ 4,7 bilhões de receita)
+- LanguageLine Solutions (R$ 2,8 bilhões de receita)
 
 **Critérios de Seleção:**
 
@@ -1180,7 +1176,7 @@ Esta é a segunda legenda.
 ✅ Consultas médicas  
 ✅ Reuniões de diretoria executiva  
 ✅ Comunicações diplomáticas  
-✅ Interpretação certificada exigida
+✅ Interpretação certificada necessária
 
 </div>
 
@@ -1294,7 +1290,7 @@ Este glossário representa uma compilação analítica abrangente da terminologi
 
 ### Fontes de Métricas de Desempenho
 
-- Benchmarks de precisão de tradução por IA de especificações publicadas pelos fornecedores
+- Benchmarks de precisão de tradução por IA das especificações publicadas pelos fornecedores
 - Análise de custos baseada em preços publicamente disponíveis (outubro de 2025)
 - Projeções de tamanho de mercado compiladas de múltiplos relatórios de analistas da indústria
 - Dados de satisfação do usuário agregados de pesquisas da indústria e estudos de caso
@@ -1304,7 +1300,7 @@ Este glossário representa uma compilação analítica abrangente da terminologi
 Todas as estatísticas foram cruzadas com múltiplas fontes autoritativas. As métricas de desempenho representam médias da indústria e especificações publicadas pelos fornecedores. Os resultados de implementação individual podem variar com base em:
 
 - Tipo e complexidade do conteúdo
-- Seleção de par de idiomas
+- Seleção de pares de idiomas
 - Arquitetura de integração
 - Processos de garantia de qualidade
 

@@ -1,18 +1,14 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Einführung in Software-Testing-Konzepte und Terminologie"
-description: Ein anfängerfreundlicher Leitfaden zum Verständnis der Grundlagen des Software-Testings, einschließlich Testarten, Prozessen und wichtiger Terminologie.
-date: 2025-10-06
+description: "Ein anfängerfreundlicher Leitfaden zum Verständnis der Grundlagen des Software-Testings, einschließlich Testarten, Prozessen und wichtiger Terminologie."
+date: "2025-10-06"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: Software-Testing, Testing-Grundlagen, QA, manuelles Testen, automatisiertes Testen, Testarten
 ---
 
-# Software-Testing-Grundlagen: Vollständiger Leitfaden (2025)
+# Software-Testing Grundlagen: Vollständiger Leitfaden (2025)
 
-<p class="subtitle">Alles, was Sie wissen müssen, um mit Software-Testing zu beginnen</p>
+<p class="subtitle">Alles was Sie wissen müssen, um mit Software-Testing zu beginnen</p>
 
 > **Was ist Software-Testing?**  
 > Software-Testing ist der Prozess der Bewertung und Überprüfung, ob eine Softwareanwendung wie erwartet funktioniert. Es hilft dabei, Fehler, Lücken oder fehlende Anforderungen zu identifizieren, bevor die Software die Benutzer erreicht.
@@ -23,9 +19,9 @@ Es gibt vier Hauptarten von Tests, die jeweils unterschiedliche Zwecke im Entwic
 
 | Art                     | Was wir testen               | Wann               | Ziel                        |
 | ----------------------- | ---------------------------- | ------------------ | --------------------------- |
-| **Unit-Tests**          | Einzelne Funktionen/Methoden | Während Entwicklung | Überprüfung jedes Bausteins |
+| **Unit-Tests**          | Einzelne Funktionen/Methoden | Während Entwicklung| Überprüfung jedes Bausteins|
 | **Integrationstests**   | Wie Module zusammenarbeiten  | Nach Unit-Tests    | Verbindungen prüfen         |
-| **Systemtests**         | Vollständige Anwendung      | Vor Veröffentlichung | End-to-End-Validierung    |
+| **Systemtests**         | Vollständige Anwendung       | Vor Veröffentlichung| End-to-End-Validierung     |
 | **Akzeptanztests**      | Geschäftsanforderungen       | Abschlussstufe     | Bereitschaft bestätigen     |
 
 ## Der Testprozess

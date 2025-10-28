@@ -1,13 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Terjemahan vs Interpretasi: Panduan Lengkap Terjemahan Video Konferensi Real-Time 2025"
-description: Bagaimana interpretasi simultan mengubah komunikasi video - membandingkan teknologi terjemahan tertulis dan interpretasi real-time untuk bisnis internasional
-date: 2025-10-27
+description: "Bagaimana interpretasi simultan mengubah komunikasi video - membandingkan teknologi terjemahan tertulis dan interpretasi real-time untuk bisnis internasional"
+date: "2025-10-27"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-head:
-  - - meta
-    - name: keywords
-      content: interpretasi simultan, terjemahan video konferensi, interpretasi real-time, terjemahan ucapan AI, panggilan video multibahasa, interpretasi vs terjemahan
 ---
 
 # Terjemahan vs Interpretasi: Panduan Lengkap Terjemahan Video Konferensi Real-Time 2025
@@ -15,7 +11,7 @@ head:
 <p class="subtitle">Bagaimana interpretasi simultan mengubah komunikasi video: membandingkan teknologi terjemahan tertulis dan interpretasi real-time untuk bisnis internasional</p>
 
 > **Ringkasan Eksekutif:**  
-> Istilah "terjemahan" dan "interpretasi" sering dikacaukan, meskipun keduanya mewakili layanan bahasa yang berbeda. Terjemahan bekerja dengan konten tertulis, interpretasi dengan ucapan real-time. Untuk video konferensi, interpretasi simultan sangat penting, menyediakan terjemahan instan dari ucapan peserta rapat. Platform video modern dengan terjemahan simultan memungkinkan rapat multibahasa dengan akurasi hingga 94,2% untuk pasangan bahasa utama, menghemat hingga 90% biaya dibandingkan layanan interpreter profesional tradisional.
+> Istilah "terjemahan" dan "interpretasi" sering dikacaukan, meskipun keduanya mewakili layanan bahasa yang berbeda. Terjemahan bekerja dengan konten tertulis, interpretasi dengan ucapan real-time. Untuk video konferensi, interpretasi simultan sangat penting, menyediakan terjemahan instan dari ucapan peserta rapat. Platform video modern dengan terjemahan simultan memungkinkan rapat multibahasa dengan akurasi hingga 94,2% untuk pasangan bahasa utama, menghemat hingga 90% biaya dibandingkan dengan layanan interpreter profesional tradisional.
 
 ## Tinjauan Penelitian: Terjemahan vs Interpretasi
 
@@ -139,7 +135,7 @@ Interpreter menghadapi tantangan yang sama sekali berbeda. Pekerjaan mereka terj
 
 **Keuntungan:** Lebih banyak waktu untuk mempertimbangkan frasa, meningkatkan akurasi terjemahan.
 
-#### 🤫 Interpretasi Berbisik (Chuchotage)
+#### 🤫 Interpretasi Bisikan (Chuchotage)
 
 **Deskripsi:** Interpreter duduk di samping pendengar dan dengan tenang menerjemahkan ucapan secara real-time.
 
@@ -657,7 +653,7 @@ Sebagian besar platform modern mendukung 30-60 bahasa. Kualitas terbaik disediak
 
 - Rusia, Polandia, Ceko, Hungaria
 - Arab, Ibrani, Turki
-- Hindi, Thailand, Vietnam, Indonesia
+- Hindi, Thai, Vietnam, Indonesia
 
 **Bahasa Tingkat 3 (akurasi 85-90%):**
 
@@ -724,7 +720,7 @@ Interpretasi simultan berbasis AI untuk komunikasi video membuka kemungkinan bar
 
   <div class="takeaway-card">
     <h4>⚖️ Pendekatan Hibrida</h4>
-    <p>Untuk negosiasi yang sangat penting, <strong>pendekatan hibrida dengan tinjauan profesional</strong> direkomendasikan untuk akurasi maksimum</p>
+    <p>Untuk negosiasi yang sangat penting, <strong>pendekatan hibrida dengan tinjauan profesional</strong> direkomendasikan untuk akurasi maksimal</p>
   </div>
 
   <div class="takeaway-card">

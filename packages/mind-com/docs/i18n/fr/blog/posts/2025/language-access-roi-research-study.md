@@ -1,13 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "L'impact économique de l'accessibilité linguistique : étude ROI 2025"
-description: Analyse complète des avantages financiers, des coûts et du retour sur investissement de la mise en œuvre de solutions d'accessibilité linguistique dans tous les secteurs.
-date: 2025-10-20
+description: "Analyse complète des bénéfices financiers, des coûts et du retour sur investissement de la mise en œuvre de solutions d'accessibilité linguistique dans tous les secteurs."
+date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: ROI accessibilité linguistique, économie de l'accessibilité, avantages business multilingue, coûts de traduction, coûts de conformité accessibilité linguistique
 ---
 
 # L'impact économique de l'accessibilité linguistique : étude ROI 2025
@@ -15,7 +11,7 @@ head:
 <p class="subtitle">Comment investir dans l'accessibilité linguistique stimule la croissance des revenus, réduit les risques juridiques et crée des avantages concurrentiels durables</p>
 
 > **Résumé exécutif :**  
-> Les organisations mettant en œuvre des programmes complets d'accessibilité linguistique constatent un ROI moyen de 340% en 24 mois, tandis que les entités non conformes font face à des coûts de pénalités moyens de 180 000$ par incident.
+> Les organisations qui mettent en œuvre des programmes complets d'accessibilité linguistique constatent un ROI moyen de 340 % en 24 mois, tandis que les entités non conformes font face à des coûts de pénalités moyens de 180 000 $ par incident.
 
 ## Aperçu de la recherche : Impact financier de l'accès linguistique
 
@@ -150,8 +146,8 @@ head:
 
 **Atténuation des risques :**
 
-- Pénalités de conformité évitées : 50 000 $ - 2 M$
-- Règlements de procès évités : 100 000 $ - 5 M$
+- Pénalités de conformité évitées : 50K $ - 2M $
+- Règlements de procès évités : 100K $ - 5M $
 - Dommages à la réputation prévenus : Inestimable
 
 </div>

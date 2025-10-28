@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
-title: Mind.com Website-Architektur
-description: Technische Analyse einer modernen JAMstack-Lösung mit KI-Integration
-date: 2025-08-15
+layout: "BlogPost"
+title: "Mind.com Website-Architektur"
+description: "Technische Analyse einer modernen JAMstack-Lösung mit KI-Integration"
+date: "2025-08-15"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
@@ -39,9 +39,9 @@ Die **Vite-gestützte Entwicklung** garantiert sofortigen Dev-Server-Start mit U
 
 Mind.com setzt mehrere Performance-Optimierungsstrategien ein:
 
-**Smart Hydration** gewährleistet das Laden nur dynamischer Seitenteile, während statischer Content vom Hydration-Prozess unberührt bleibt. Dies reduziert die Zeit bis zur Seiteninteraktivität radikal.
+**Intelligente Hydration** gewährleistet das Laden nur dynamischer Seitenteile, während statischer Content vom Hydration-Prozess unberührt bleibt. Dies reduziert die Zeit bis zur Seiteninteraktivität radikal.
 
-**Automatisches Code Splitting** erstellt separate Chunks für jede Seite mit intelligentem Preloading von Links im Viewport des Nutzers, was sofortige Navigation gewährleistet.
+**Automatisches Code-Splitting** erstellt separate Chunks für jede Seite mit intelligentem Preloading von Links im Viewport des Nutzers, was sofortige Navigation gewährleistet.
 
 **Ressourcen-Optimierung** umfasst automatische Generierung gehashter statischer Assets mit optimalen Caching-Headern, Unterstützung für moderne WebP/AVIF-Bildformate mit Lazy Loading.
 
@@ -111,9 +111,9 @@ Das **Übersetzungsskript** stellt eine **zentrale technologische Innovation** d
 
 **Duale KI-Architektur** verwendet OpenAI GPT-4 und Anthropic Claude mit automatischem Modellwechsel bei Fehlern. Das System umfasst inkrementelle Übersetzung (nur geänderte Dateien), automatische Dateisynchronisation und optionale Kompilierungsprüfung übersetzter Dateien durch `checkBuildErrors: true`.
 
-**Intelligentes Prompt-Engineering** gewährleistet die Beibehaltung der Markdown-Formatierung, Unveränderlichkeit von Codeblöcken, Erhaltung aller Links und Referenzen sowie die Übersetzung nur von natürlichsprachlichem Text. Das System teilt große Dateien automatisch in Abschnitte für optimale Verarbeitung durch KI-Modelle auf.
+**Intelligentes Prompt Engineering** gewährleistet die Beibehaltung der Markdown-Formatierung, Unveränderlichkeit von Codeblöcken, Erhaltung aller Links und Referenzen sowie die Übersetzung nur von natürlichsprachlichem Text. Das System teilt große Dateien automatisch in Abschnitte für optimale Verarbeitung durch KI-Modelle auf.
 
-**Fehlerbehandlung und automatische Korrektur** umfasst automatisches Umschalten auf das nächste Modell bei Übersetzungsfehlern, Speichern teilweise übersetzter Dateien mit `.log`-Erweiterung, erneute Übersetzung problematischer Dateien mit allen verfügbaren Modellen und abschließende Berichterstattung über Dateien, die nicht korrigiert werden konnten.
+**Fehlerbehandlung und automatische Korrektur** umfasst automatischen Wechsel zum nächsten Modell bei Übersetzungsfehlern, Speicherung teilweise übersetzter Dateien mit `.log`-Erweiterung, erneute Übersetzung problematischer Dateien unter Verwendung aller verfügbaren Modelle und abschließende Berichterstattung über Dateien, die nicht korrigiert werden konnten.
 
 ## CRM-Integration mit Pipedrive
 

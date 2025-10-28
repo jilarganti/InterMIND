@@ -1,14 +1,14 @@
 ---
-layout: BlogPost
-title: Arquitetura do site Mind.com
-description: Pesquisa técnica de uma solução JAMstack moderna com integração de IA
-date: 2025-08-15
+layout: "BlogPost"
+title: "Arquitetura do site Mind.com"
+description: "Pesquisa técnica de uma solução JAMstack moderna com integração de IA"
+date: "2025-08-15"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
-# Arquitetura do site Mind.com: pesquisa técnica de uma solução JAMstack moderna com integração de IA
+# Arquitetura do site Mind.com: Pesquisa técnica de uma solução JAMstack moderna com integração de IA
 
-<img src="/blog/iStock-681469612.jpg" alt="dirham dos Emirados Árabes Unidos" width="500" align="right" style="padding: 1.5rem" class="dark-only"/>
+<img src="/blog/iStock-681469612.jpg" alt="Dirham dos Emirados Árabes Unidos" width="500" align="right" style="padding: 1.5rem" class="dark-only"/>
 <img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only"/>
 
 O site [mind.com](https://mind.com) representa um exemplo excepcional de arquitetura moderna para sites de marketing, combinando as melhores práticas de desenvolvimento JAMstack com tecnologias de IA de ponta. Nesta análise técnica, examinaremos em detalhes as decisões arquiteturais subjacentes a este projeto, que faz parte do monorepo InterMIND, mas funciona como uma plataforma estática independente com capacidades dinâmicas.
@@ -53,19 +53,19 @@ Uma das funcionalidades mais inovadoras do mind.com é a integração de capacid
 
 O **Upstash Vector** funciona como um banco de dados vetorial serverless usando o algoritmo DiskANN para busca eficiente de vizinhos mais próximos entre embeddings de até 1536 dimensões. A integração com o Vercel AI SDK fornece chatbots RAG (Retrieval-Augmented Generation) com latência mínima.
 
-As **estratégias de embedding** incluem divisão inteligente de documentos em fragmentos por períodos ou parágrafos antes da vetorização, uso de modelos modernos como `text-embedding-3-small` para criar vetores de 1536 dimensões, e inserção de dados em lote em grupos de 1000 registros para desempenho otimizado.
+As **estratégias de embedding** incluem divisão inteligente de documentos em fragmentos por períodos ou parágrafos antes da vetorização, usando modelos modernos como `text-embedding-3-small` para criar vetores de 1536 dimensões, e inserção de dados em lote em grupos de 1000 registros para desempenho otimizado.
 
 ### Arquitetura Dual de IA
 
 O Mind.com implementa uma estratégia avançada usando **dois provedores de IA**: OpenAI GPT-4 e Anthropic Claude. Esta arquitetura oferece várias vantagens críticas.
 
-O **roteamento inteligente de requisições** permite usar GPT-4 para tarefas que requerem capacidades multimodais e processamento em tempo real, enquanto o Claude é aplicado para raciocínio complexo e tarefas multilíngues, onde demonstra desempenho de 85%+ em relação ao inglês em mais de 14 idiomas.
+O **roteamento inteligente de requisições** permite usar GPT-4 para tarefas que requerem capacidades multimodais e processamento em tempo real, enquanto o Claude é aplicado para raciocínio complexo e tarefas multilinguísticas, onde demonstra desempenho de 85%+ em relação ao inglês em mais de 14 idiomas.
 
-As **estratégias de failover** incluem alternância baseada em cota (transição para Anthropic quando a cota da OpenAI é esgotada), roteamento específico por modelo, e seleção dinâmica de provedor para otimização de custos.
+As **estratégias de failover** incluem alternância baseada em cota (transição para Anthropic quando a cota da OpenAI é esgotada), roteamento específico por modelo e seleção dinâmica de provedor para otimização de custos.
 
 ### Detecção Automática de Idioma
 
-O sistema detecta automaticamente o idioma das requisições recebidas sem especificação manual, suportando mais de 100 idiomas. O Claude demonstra capacidades multilíngues superiores, suportando alternância perfeita de idiomas dentro de diálogos e compreensão de contexto cultural.
+O sistema detecta automaticamente o idioma das requisições recebidas sem especificação manual, suportando mais de 100 idiomas. O Claude demonstra capacidades multilinguísticas superiores, suportando alternância perfeita de idiomas dentro de diálogos e compreensão de contexto cultural.
 
 ## Arquitetura Serverless na Vercel
 

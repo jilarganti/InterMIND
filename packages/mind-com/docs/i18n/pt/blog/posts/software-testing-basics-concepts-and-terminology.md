@@ -1,13 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Introdução aos Conceitos e Terminologia de Testes de Software"
-description: Um guia amigável para iniciantes para entender os fundamentos de testes de software, incluindo tipos de testes, processos e terminologia essencial.
-date: 2025-10-06
+description: "Um guia amigável para iniciantes para entender os fundamentos de testes de software, incluindo tipos de testes, processos e terminologia essencial."
+date: "2025-10-06"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: testes de software, fundamentos de testes, QA, testes manuais, testes automatizados, tipos de testes
 ---
 
 # Fundamentos de testes de software: guia completo (2025)

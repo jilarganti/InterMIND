@@ -1,14 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Précision de la traduction IA et étude d'analyse de marché 2025"
-description: Recherche approfondie sur les performances de la traduction par intelligence artificielle, les taux d'adoption et le paysage concurrentiel sur les marchés mondiaux.
-date: 2025-10-20
+description: "Recherche approfondie sur les performances de traduction par intelligence artificielle, les taux d'adoption et le paysage concurrentiel sur les marchés mondiaux."
+date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: précision traduction IA, marché traduction automatique, traduction neuronale, IA multilingue, technologie traduction, traitement du langage
-
 ---
 
 # Précision de la traduction IA et étude d'analyse de marché 2025

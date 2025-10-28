@@ -1,13 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "सॉफ्टवेयर टेस्टिंग अवधारणाओं और शब्दावली का परिचय"
-description: सॉफ्टवेयर टेस्टिंग की बुनियादी बातों को समझने के लिए एक शुरुआती-अनुकूल गाइड, जिसमें टेस्टिंग के प्रकार, प्रक्रियाएं और मुख्य शब्दावली शामिल है।
-date: 2025-10-06
+description: "सॉफ्टवेयर टेस्टिंग की बुनियादी बातों को समझने के लिए एक शुरुआती-अनुकूल गाइड, जिसमें टेस्टिंग के प्रकार, प्रक्रियाएं और मुख्य शब्दावली शामिल है।"
+date: "2025-10-06"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: software testing, testing basics, QA, manual testing, automated testing, test types
 ---
 
 # सॉफ्टवेयर टेस्टिंग की बुनियादी बातें: संपूर्ण गाइड (2025)

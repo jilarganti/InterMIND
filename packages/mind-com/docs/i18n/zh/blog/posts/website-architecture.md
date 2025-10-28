@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
-title: Mind.com 网站架构
-description: 集成AI技术的现代JAMstack解决方案技术研究
-date: 2025-08-15
+layout: "BlogPost"
+title: "Mind.com 网站架构"
+description: "集成AI技术的现代JAMstack解决方案技术研究"
+date: "2025-08-15"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
@@ -11,13 +11,13 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 <img src="/blog/iStock-681469612.jpg" alt="阿联酋迪拉姆" width="500" align="right" style="padding: 1.5rem" class="dark-only"/>
 <img src="/blog/iStock-681469612.jpg" alt="阿联酋国民银行" width="500" align="right" style="padding: 1.5rem" class="light-only"/>
 
-[mind.com](https://mind.com) 网站是营销网站现代架构的杰出典范，将JAMstack开发最佳实践与前沿AI技术相结合。在这项技术分析中，我们将详细研究该项目的架构决策，该项目是InterMIND单体仓库的一部分，但作为具有动态功能的独立静态平台运行。
+[mind.com](https://mind.com) 网站代表了营销网站现代架构的杰出典范，将JAMstack开发最佳实践与前沿AI技术相结合。在这项技术分析中，我们将详细研究该项目的底层架构决策，该项目是InterMIND单体仓库的一部分，但作为具有动态功能的独立静态平台运行。
 
 > **关键架构创新** 包括几个技术解决方案，使该项目区别于典型的营销网站。
 
 ## AI驱动的自动翻译系统
 
-该系统无需使用传统的i18n文件和字典，即可自动将所有网站内容翻译成20多种语言。运行`pnpm translate`命令时，脚本会分析`docs/en/`目录中的文件，并在`docs/i18n/{lang}/`中创建翻译版本。它支持任何文本格式——Markdown、Vue组件、TypeScript、JavaScript。该系统使用两个AI模型（OpenAI GPT-4和Anthropic Claude），在出现错误时自动切换备用方案。每个语言版本都创建为独立的静态页面，确保搜索引擎完全索引，无需JavaScript依赖。
+该系统无需使用传统的i18n文件和字典，即可自动将所有网站内容翻译成20多种语言。运行`pnpm translate`命令时，脚本会分析`docs/en/`目录中的文件，并在`docs/i18n/{lang}/`中创建翻译版本。它支持任何文本格式——Markdown、Vue组件、TypeScript、JavaScript。系统使用两个AI模型（OpenAI GPT-4和Anthropic Claude），在出现错误时自动切换。每个语言版本都创建为独立的静态页面，确保完整的搜索引擎索引，无需JavaScript依赖。
 
 ## 基于索引内容的搜索AI聊天
 
@@ -53,19 +53,19 @@ mind.com最具创新性的功能之一是将AI能力集成到静态架构中。�
 
 **Upstash Vector**作为无服务器向量数据库，使用DiskANN算法在高达1536维的嵌入向量中进行高效的最近邻搜索。与Vercel AI SDK的集成为RAG（检索增强生成）聊天机器人提供了最小延迟。
 
-**嵌入策略**包括在向量化之前按句号或段落智能地将文档分割成片段，使用现代模型如`text-embedding-3-small`创建1536维向量，以及以1000条记录为批次进行批量数据插入以获得最佳性能。
+**嵌入策略**包括智能文档分割，在向量化之前按句号或段落将文档分割成片段，使用现代模型如`text-embedding-3-small`创建1536维向量，以及批量数据插入，每批1000条记录以获得最佳性能。
 
 ### 双AI架构
 
-Mind.com实施了使用**两个AI提供商**的先进策略：OpenAI GPT-4和Anthropic Claude。这种架构提供了几个关键优势。
+Mind.com实施了一种使用**两个AI提供商**的先进策略：OpenAI GPT-4和Anthropic Claude。这种架构提供了几个关键优势。
 
-**智能请求路由**允许将GPT-4用于需要多模态能力和实时处理的任务，而Claude则应用于复杂推理和跨语言任务，在14+种语言中表现出相对于英语85%+的性能。
+**智能请求路由**允许将GPT-4用于需要多模态能力和实时处理的任务，而Claude则应用于复杂推理和跨语言任务，在14种以上语言中表现出相对于英语85%以上的性能。
 
-**故障转移策略**包括基于配额的切换（当OpenAI配额耗尽时转换到Anthropic）、特定模型路由以及用于成本优化的动态提供商选择。
+**故障转移策略**包括基于配额的切换（当OpenAI配额耗尽时转换到Anthropic）、特定模型路由，以及用于成本优化的动态提供商选择。
 
 ### 自动语言检测
 
-系统自动检测传入请求的语言，无需手动指定，支持100+种语言。Claude展现出卓越的跨语言能力，支持对话中的无缝语言切换和文化背景理解。
+系统自动检测传入请求的语言，无需手动指定，支持100多种语言。Claude展现出卓越的跨语言能力，支持对话中的无缝语言切换和文化背景理解。
 
 ## Vercel 上的无服务器架构
 

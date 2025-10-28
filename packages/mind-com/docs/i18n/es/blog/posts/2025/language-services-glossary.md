@@ -1,13 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Glosario de Servicios Lingüísticos 2025: Guía Completa de Traducción e Interpretación con IA"
-description: Glosario integral de terminología de traducción e interpretación con datos de mercado 2025, métricas de rendimiento de IA y estándares de la industria
-date: 2025-10-27
+description: "Glosario integral de terminología de traducción e interpretación con datos de mercado 2025, métricas de rendimiento de IA y estándares de la industria"
+date: "2025-10-27"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: glosario de traducción, términos de interpretación, traducción con IA, traducción automática, servicios lingüísticos, tecnología de traducción, comunicación multilingüe
 ---
 
 # Glosario de Servicios Lingüísticos 2025: Guía Completa de Traducción e Interpretación con IA
@@ -15,7 +11,7 @@ head:
 <p class="subtitle">Terminología esencial para servicios modernos de traducción e interpretación, enriquecida con datos de rendimiento de IA, métricas de costos y estándares de calidad</p>
 
 > **Resumen Ejecutivo:**  
-> Este glosario integral define más de 65 términos clave en la industria de servicios lingüísticos, enriquecido con datos de mercado 2025 que incluyen métricas de precisión de IA (94.2% para pares de idiomas principales), comparaciones de costos y estándares de rendimiento. Referencia esencial para organizaciones que implementan soluciones de traducción e interpretación.
+> Este glosario integral define más de 65 términos clave en la industria de servicios lingüísticos, enriquecido con datos de mercado 2025 incluyendo métricas de precisión de IA (94.2% para pares de idiomas principales), comparaciones de costos y estándares de rendimiento. Referencia esencial para organizaciones que implementan soluciones de traducción e interpretación.
 
 ## Resumen del Glosario: Estándares de Terminología de la Industria
 
@@ -30,7 +26,7 @@ head:
   </div>
   <div class="stat-card">
     <div class="stat-number">30-60</div>
-    <div class="stat-label">Idiomas Soportados</div>
+    <div class="stat-label">Idiomas Compatibles</div>
   </div>
   <div class="stat-card">
     <div class="stat-number">$8.9B</div>
@@ -874,22 +870,22 @@ Este es el segundo subtítulo.
 
 **Definición:** Individuos que tienen capacidad limitada para leer, escribir, hablar o entender español, requiriendo servicios de acceso lingüístico para participación equitativa.
 
-**Requisitos Legales (EE.UU.):**
+**Requisitos Legales (México):**
 
-- **Ley de Derechos Civiles Título VI:** Prohíbe discriminación basada en origen nacional
-- **Orden Ejecutiva 13166:** Requiere que agencias federales proporcionen acceso lingüístico
-- **ADA:** Requiere comunicación efectiva para individuos con discapacidades
+- **Ley General de Derechos Lingüísticos:** Protege el uso de lenguas indígenas
+- **Constitución Política:** Reconoce la diversidad lingüística nacional
+- **Ley de Accesibilidad:** Requiere comunicación efectiva para personas con discapacidad
 
 **Servicios Requeridos:**
 
 - Intérpretes profesionales para interacciones críticas
 - Documentos vitales traducidos
 - Recursos de identificación de idiomas
-- Capacitación del personal sobre acceso lingüístico
+- Capacitación del personal en acceso lingüístico
 
 ### Post-Edición
 
-**Definición:** Revisión y corrección humana de contenido traducido automáticamente para mejorar precisión, fluidez y apropiación cultural.
+**Definición:** Revisión y corrección humana de contenido traducido automáticamente para mejorar la precisión, fluidez y apropiación cultural.
 
 **Niveles:**
 
@@ -910,9 +906,9 @@ Este es el segundo subtítulo.
 
 **Ganancia de Calidad:**
 
-- **TA Cruda:** 87-94% precisión
-- **PE Ligera:** 93-97% precisión
-- **PE Completa:** 97-99% precisión
+- **TA en bruto:** 87-94% de precisión
+- **PE ligera:** 93-97% de precisión
+- **PE completa:** 97-99% de precisión
 
 ---
 
@@ -1250,7 +1246,7 @@ Este es el segundo subtítulo.
 
   <div class="takeaway-card">
     <h4>📈 Evolución Continua</h4>
-    <p>La tecnología avanza rápidamente: <strong>precisión del 97%+ proyectada para 2027</strong> para idiomas principales, latencia de sub-segundo, y capacidades de traducción multimodal</p>
+    <p>La tecnología avanza rápidamente: <strong>precisión del 97%+ proyectada para 2027</strong> para idiomas principales, latencia de subsegundos y capacidades de traducción multimodal</p>
   </div>
 </div>
 

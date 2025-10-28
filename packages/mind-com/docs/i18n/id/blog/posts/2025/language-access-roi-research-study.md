@@ -1,13 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Dampak Ekonomi Akses Bahasa: Studi Penelitian ROI 2025"
-description: Analisis komprehensif tentang manfaat finansial, biaya, dan return on investment dari implementasi solusi akses bahasa di berbagai industri.
-date: 2025-10-20
+description: "Analisis komprehensif tentang manfaat finansial, biaya, dan return on investment dari implementasi solusi akses bahasa di berbagai industri."
+date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: ROI akses bahasa, ekonomi aksesibilitas, manfaat bisnis multibahasa, biaya terjemahan, biaya kepatuhan akses bahasa
 ---
 
 # Dampak Ekonomi Akses Bahasa: Studi Penelitian ROI 2025
@@ -15,7 +11,7 @@ head:
 <p class="subtitle">Bagaimana investasi dalam aksesibilitas bahasa mendorong pertumbuhan pendapatan, mengurangi risiko hukum, dan menciptakan keunggulan kompetitif yang berkelanjutan</p>
 
 > **Ringkasan Eksekutif:**  
-> Organisasi yang menerapkan program akses bahasa komprehensif melihat rata-rata ROI sebesar 340% dalam 24 bulan, sementara entitas yang tidak patuh menghadapi rata-rata biaya penalti $180.000 per insiden.
+> Organisasi yang menerapkan program akses bahasa komprehensif mengalami ROI rata-rata 340% dalam 24 bulan, sementara entitas yang tidak patuh menghadapi biaya penalti rata-rata $180.000 per insiden.
 
 ## Tinjauan Penelitian: Dampak Finansial dari Akses Bahasa
 
@@ -360,7 +356,7 @@ head:
 - **Terjemahan AI:** Pertumbuhan 340% diperkirakan pada 2027
 - **Teks Berjalan Real-time:** Pertumbuhan 280% diperkirakan pada 2027
 - **Suara-ke-teks:** Pertumbuhan 425% diperkirakan pada 2030
-- **Solusi Hibrida:** Pertumbuhan 520% diperkirakan pada 2030
+- **Solusi Hibrid:** Pertumbuhan 520% diperkirakan pada 2030
 
 </div>
 

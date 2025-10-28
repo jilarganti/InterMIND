@@ -1,21 +1,21 @@
 ---
-title: "Bắt đầu sử dụng"
-description: "Tìm hiểu cách sử dụng nền tảng hội nghị truyền hình được hỗ trợ bởi AI InterMIND. Hướng dẫn đầy đủ về đăng ký, tạo cuộc họp, tính năng AI và khắc phục sự cố."
+title: Bắt đầu sử dụng
+description: Tìm hiểu cách sử dụng nền tảng hội nghị truyền hình được hỗ trợ bởi AI InterMIND. Hướng dẫn đầy đủ về đăng ký, tạo cuộc họp, tính năng AI và khắc phục sự cố.
 ---
 
 # Bắt đầu sử dụng
 
 InterMIND là một nền tảng hội nghị truyền hình tiên tiến được hỗ trợ bởi AI, được thiết kế để tạo điều kiện giao tiếp liền mạch qua nhiều ngôn ngữ, thiết bị và nhóm khác nhau. Hướng dẫn này nhằm cung cấp cho bạn sự hiểu biết toàn diện về cách sử dụng hiệu quả tất cả các tính năng của InterMIND — từ việc tham gia cuộc họp đầu tiên đến cấu hình các công cụ AI và giải quyết các vấn đề kỹ thuật.
 
-Cho dù bạn là người dùng mới đang tìm kiếm hướng dẫn chi tiết hay là người tham gia có kinh nghiệm giám sát các cuộc họp phức tạp, hướng dẫn này tổng hợp tất cả thông tin cần thiết tại một vị trí dễ tiếp cận.
+Cho dù bạn là người dùng mới tìm kiếm hướng dẫn chi tiết hay là người tham gia có kinh nghiệm giám sát các cuộc họp phức tạp, hướng dẫn này tổng hợp tất cả thông tin cần thiết tại một vị trí dễ tiếp cận.
 
 Trong hướng dẫn này, bạn sẽ khám phá:
 
-- Hướng dẫn cách đăng ký, đăng nhập và tùy chỉnh hồ sơ của bạn
-- Nguyên tắc tạo và lên lịch cuộc họp
-- Thông tin về vai trò người dùng, quyền hạn và khả năng dịch thuật thời gian thực
-- Tổng quan về các tính năng được hỗ trợ bởi AI như Trợ lý AI và Trình dịch giọng nói
-- Mẹo khắc phục sự cố và câu trả lời cho các câu hỏi thường gặp
+- Hướng dẫn về cách [đăng ký, đăng nhập và tùy chỉnh hồ sơ của bạn](./account-management)
+- Nguyên tắc để [tạo và lên lịch cuộc họp](./creating-meetings)
+- Thông tin về [vai trò người dùng](./user-roles), quyền hạn và [khả năng dịch thuật thời gian thực](./ai-features#online-voice-translation)
+- Tổng quan về [các tính năng được hỗ trợ bởi AI](./ai-features) như Trợ lý AI và Trình dịch giọng nói
+- [Mẹo khắc phục sự cố](./troubleshooting) và câu trả lời cho [các câu hỏi thường gặp](./faq)
 
 Hãy bắt đầu — tương lai của các cuộc họp thông minh sẽ bắt đầu ngay bây giờ.
 
@@ -24,24 +24,24 @@ Hãy bắt đầu — tương lai của các cuộc họp thông minh sẽ bắt
 Nếu bạn mới sử dụng InterMIND, hãy làm theo danh sách kiểm tra đơn giản này để bắt đầu trải nghiệm:
 
 1. Truy cập https://intermind.com
-2. Nhấp vào Đăng nhập và chọn Google / Microsoft / Email
+2. Nhấp vào Đăng nhập và chọn Google / Microsoft / Email (tìm hiểu thêm trong [Quản lý tài khoản](./account-management))
 3. Khi được nhắc, cho phép truy cập vào microphone và camera của bạn
-4. Nhấp vào Cuộc họp mới và chọn Bắt đầu cuộc họp ngay lập tức
+4. Nhấp vào Cuộc họp mới và chọn Bắt đầu cuộc họp ngay lập tức (xem [Tạo và lên lịch cuộc họp](./creating-meetings))
 5. Chia sẻ liên kết cuộc họp với những người tham gia
 6. Mở Cài đặt để chọn ngôn ngữ và thiết bị ưa thích của bạn
-7. Sử dụng Trợ lý AI để ghi chú và tạo tóm tắt trong cuộc gọi
+7. Sử dụng [Trợ lý AI](./ai-features#ai-assistant) để ghi chú và tạo tóm tắt trong cuộc gọi
 8. Truy cập các cuộc họp trước đó qua tab Lịch sử để xem bản ghi và bản ghi âm
 
 > [!TIP]
-> Để có hiệu suất tốt nhất, khuyến nghị sử dụng trình duyệt Chrome hoặc Edge.
+> Để có hiệu suất tốt nhất, khuyến nghị sử dụng trình duyệt Chrome hoặc Edge. Nếu bạn gặp bất kỳ vấn đề nào, hãy kiểm tra hướng dẫn [Khắc phục sự cố](./troubleshooting) hoặc truy cập [Trợ giúp & hỗ trợ](./help-support).
 
-## Các Ngôn Ngữ Được Hỗ Trợ
+## Ngôn ngữ được hỗ trợ
 
 InterMIND là một nền tảng đa ngôn ngữ được thiết kế để hỗ trợ nhiều ngôn ngữ khác nhau cho giao diện người dùng, trình dịch giọng nói và trợ lý AI. Người dùng có thể thay đổi cài đặt ngôn ngữ thông qua nhiều cách:
 
 - Bộ chuyển đổi ngôn ngữ được đặt ở đầu trang, bên cạnh nút đăng nhập cho người dùng chưa được ủy quyền, hoặc gần biểu tượng avatar của người dùng cho những người dùng đã được ủy quyền
 - Bộ chuyển đổi ngôn ngữ có thể tìm thấy ở chân trang bên cạnh văn bản '© Mind, 2025.'
-- Hơn nữa, người dùng có thể thay đổi ngôn ngữ thông qua tùy chọn 'Hồ Sơ Người Dùng > Cài Đặt > Ngôn Ngữ Của Bạn', hoặc trong cuộc họp bằng cách điều hướng đến 'Hiển Thị Menu > Cài Đặt > Cài Đặt > Ngôn Ngữ Của Bạn'
+- Hơn nữa, người dùng có thể thay đổi ngôn ngữ thông qua tùy chọn 'Hồ sơ người dùng > Cài đặt > Ngôn ngữ của bạn', hoặc trong cuộc họp bằng cách điều hướng đến 'Hiển thị menu > Cài đặt > Cài đặt > Ngôn ngữ của bạn'
 
 Dưới đây là danh sách các ngôn ngữ hiện có trong InterMIND:
 
@@ -102,7 +102,7 @@ InterMIND tương thích với tất cả các trình duyệt hiện đại chí
 **Hỗ trợ hạn chế hoặc không được khuyến nghị:**
 
 - Internet Explorer không được hỗ trợ
-- Legacy Edge (không phải Chromium) có tính năng hạn chế
+- Legacy Edge (không phải Chromium) có các tính năng hạn chế
 
 #### Yêu cầu trình duyệt
 

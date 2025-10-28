@@ -1,13 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Yazılım Test Kavramları ve Terminolojisine Giriş"
-description: Yazılım test temellerini anlamak için yeni başlayanlar için rehber - test türleri, süreçler ve temel terminoloji dahil.
-date: 2025-10-06
+description: "Test türleri, süreçler ve temel terminoloji dahil olmak üzere yazılım test temellerini anlamak için yeni başlayanlar için rehber."
+date: "2025-10-06"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: yazılım testi, test temelleri, QA, manuel test, otomatik test, test türleri
 ---
 
 # Yazılım test temelleri: Kapsamlı rehber (2025)
@@ -128,7 +124,7 @@ Dengeli bir test stratejisi şu dağılımı takip eder:
 
 ### S: Yazılım testi için kodlama becerileri gerekli mi?
 
-Manuel test için temel teknik bilgi yeterlidir. Otomasyon testi programlama becerileri gerektirir (Python, Java, JavaScript yaygın dillerdir).
+Manuel test için temel teknik bilgi yeterlidir. Otomasyon testi programlama becerileri gerektirir (Python, Java, JavaScript yaygın olarak kullanılır).
 
 ### S: QA ve test arasındaki fark nedir?
 
@@ -138,14 +134,14 @@ Test, hata bulmaktır. QA (Kalite Güvencesi), iyi süreçler ve standartlar ara
 
 Mükemmel bir sayı yoktur. Risk, zaman ve kaynakları dengeleyin. Kritik özellikler daha fazla test gerektirir; düşük riskli alanlar daha az gerektirir.
 
-### S: Yapay zeka yazılım test uzmanlarının yerini alabilir mi?
+### S: AI yazılım test uzmanlarının yerini alabilir mi?
 
-Yapay zeka tekrarlayan testleri otomatikleştirebilir, ancak iş mantığını, sınır durumları ve kullanıcı deneyimini anlamak için insan test uzmanları hala gereklidir.
+AI tekrarlayan testleri otomatikleştirebilir, ancak iş mantığını, sınır durumları ve kullanıcı deneyimini anlamak için insan test uzmanları hala gereklidir.
 
 ---
 
 ::: info Teste Başlamaya Hazır mısınız?
-Bu kılavuz temel konuları kapsar. Öğrenmenin en iyi yolu pratik yapmaktır—basit test durumlarıyla başlayın ve becerilerinizi kademeli olarak geliştirin.
+Bu kılavuz temel konuları kapsar. Öğrenmenin en iyi yolu pratik yapmaktır—basit test durumları ile başlayın ve becerilerinizi kademeli olarak geliştirin.
 :::
 
 <style scoped>

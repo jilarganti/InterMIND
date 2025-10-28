@@ -1,17 +1,12 @@
 ---
-layout: BlogPost
-title: "El impacto económico del acceso lingüístico: estudio de investigación de ROI 2025"
-description: Análisis integral de los beneficios financieros, costos y retorno de inversión de implementar soluciones de acceso lingüístico en diferentes industrias.
-date: 2025-10-20
+layout: "BlogPost"
+title: "El impacto económico del acceso lingüístico: estudio de ROI 2025"
+description: "Análisis integral de los beneficios financieros, costos y retorno de inversión de implementar soluciones de acceso lingüístico en diferentes industrias."
+date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: ROI acceso lingüístico, economía de accesibilidad, beneficios empresariales multilingües, costos de traducción, costos de cumplimiento acceso lingüístico
-
 ---
 
-# El impacto económico del acceso lingüístico: estudio de investigación de ROI 2025
+# El impacto económico del acceso lingüístico: estudio de ROI 2025
 
 <p class="subtitle">Cómo invertir en accesibilidad lingüística impulsa el crecimiento de ingresos, reduce riesgos legales y crea ventajas competitivas sostenibles</p>
 
@@ -758,8 +753,8 @@ head:
 
 **Para acción inmediata:**
 
-1. **Evalúa tu exposición al riesgo actual** - Calcula posibles penalizaciones y oportunidades perdidas
-2. **Identifica victorias rápidas** - Comienza con mejoras de acceso lingüístico de mayor impacto y menor costo
+1. **Evalúa tu exposición al riesgo actual** - Calcula las posibles penalizaciones y oportunidades perdidas
+2. **Identifica victorias rápidas** - Comienza con las mejoras de acceso lingüístico de mayor impacto y menor costo
 3. **Construye una coalición interna** - Involucra temprano a los equipos legales, de servicio al cliente y de ingresos
 4. **Pilotea y mide** - Comienza pequeño, mide todo, escala lo que funciona
 

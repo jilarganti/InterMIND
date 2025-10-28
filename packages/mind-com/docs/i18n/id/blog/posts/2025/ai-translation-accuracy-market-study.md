@@ -1,13 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Studi Akurasi Terjemahan AI & Analisis Pasar 2025"
-description: Penelitian komprehensif tentang kinerja terjemahan kecerdasan buatan, tingkat adopsi, dan lanskap kompetitif di pasar global.
-date: 2025-10-20
+description: "Penelitian komprehensif tentang kinerja terjemahan kecerdasan buatan, tingkat adopsi, dan lanskap kompetitif di pasar global."
+date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: akurasi terjemahan AI, pasar terjemahan mesin, terjemahan neural, AI multibahasa, teknologi terjemahan, pemrosesan bahasa
 ---
 
 # Studi Akurasi Terjemahan AI & Analisis Pasar 2025
@@ -606,7 +602,7 @@ head:
 
 - Implementasikan pemeriksaan kualitas otomatis
 - Tetapkan alur kerja tinjauan manusia untuk konten kritis
-- Gunakan penilaian kepercayaan untuk menandai terjemahan yang tidak pasti
+- Gunakan skor kepercayaan untuk menandai terjemahan yang tidak pasti
 - Buat loop umpan balik untuk perbaikan berkelanjutan
 
 **Integrasi Sistem:**

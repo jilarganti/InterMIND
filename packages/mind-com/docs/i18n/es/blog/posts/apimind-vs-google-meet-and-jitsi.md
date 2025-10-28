@@ -1,12 +1,12 @@
 ---
-layout: BlogPost
-title: apiMind vs Google Meet y Jitsi
-description: Una comparación integral del rendimiento de apiMind contra Google Meet y Jitsi basada en pruebas independientes.
-date: 2025-08-18
+layout: "BlogPost"
+title: "apiMind vs Google Meet y Jitsi"
+description: "Una comparación integral del rendimiento de apiMind contra Google Meet y Jitsi basada en pruebas independientes."
+date: "2025-08-18"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
-# apiMind vs Google Meet y Jitsi: Análisis comparativo independiente 2024
+# apiMind vs Google Meet y Jitsi: análisis comparativo independiente 2024
 
 <img src="/blog/2025-08-18_18.54.27.png" alt="apiMind vs Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/2025-08-18_18.54.10.png" alt="apiMind vs Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">

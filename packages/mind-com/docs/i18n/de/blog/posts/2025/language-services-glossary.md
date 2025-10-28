@@ -1,16 +1,12 @@
 ---
-layout: BlogPost
-title: "Sprachdienstleistungen Glossar 2025: Vollständiger Leitfaden für KI-Übersetzung und Dolmetschen"
-description: Umfassendes Glossar der Übersetzungs- und Dolmetschterminologie mit 2025 Marktdaten, KI-Leistungsmetriken und Branchenbenchmarks
-date: 2025-10-27
+layout: "BlogPost"
+title: "Sprachdienstleistungen Glossar 2025: Vollständiger Leitfaden für KI-Übersetzung & Dolmetschen"
+description: "Umfassendes Glossar der Übersetzungs- und Dolmetschterminologie mit 2025 Marktdaten, KI-Leistungsmetriken und Branchenbenchmarks"
+date: "2025-10-27"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: Übersetzungsglosssar, Dolmetschbegriffe, KI-Übersetzung, maschinelle Übersetzung, Sprachdienstleistungen, Übersetzungstechnologie, mehrsprachige Kommunikation
 ---
 
-# Sprachdienstleistungen Glossar 2025: Vollständiger Leitfaden für KI-Übersetzung und Dolmetschen
+# Sprachdienstleistungen Glossar 2025: Vollständiger Leitfaden für KI-Übersetzung & Dolmetschen
 
 <p class="subtitle">Wesentliche Terminologie für moderne Übersetzungs- und Dolmetschdienstleistungen, erweitert mit KI-Leistungsdaten, Kostenmetriken und Qualitätsbenchmarks</p>
 
@@ -251,7 +247,7 @@ head:
 - **Menschliche Genauigkeit:** 95,8%
 - **AI-Genauigkeit:** 89,2%
 - **Menschlicher Vorteil:** Kreative Anpassung, Konsistenz der Markenstimme
-- **Kosten:** 0,25-0,50 € pro Wort (menschliche Kreativdienstleistungen)
+- **Kosten:** 0,25-0,50 € pro Wort (menschliche kreative Dienstleistungen)
 
 ---
 
@@ -299,7 +295,7 @@ head:
 | **Genauigkeit (Hauptsprachpaare)** | 94,2%           | 98,5%                | -4,3% Unterschied  |
 | **Genauigkeit (Fachsprache)**      | 96,8%           | 98,1%                | -1,3% Unterschied  |
 | **Verarbeitungsgeschwindigkeit**   | 2.000-5.000 wpm | 250-400 wpm          | 8-20x schneller    |
-| **Kosten pro 1.000 Wörter**        | 18,50 €         | 275 €                | 93% günstiger      |
+| **Kosten pro 1.000 Wörter**       | 18,50 $         | 275 $                | 93% günstiger      |
 | **Verfügbarkeit**                  | 24/7            | Geschäftszeiten      | 3x Verfügbarkeit   |
 | **Konsistenz**                     | 100%            | 85-95%               | Höhere Zuverlässigkeit |
 
@@ -431,7 +427,7 @@ head:
 
 - **Genauigkeit:** 85-95% (abhängig von der Audioqualität)
 - **Geschwindigkeit:** Unbegrenzt
-- **Kosten:** 10-50 $ pro Veranstaltung oder 0,10-0,30 $ pro Minute
+- **Kosten:** 10-50 $ pro Event oder 0,10-0,30 $ pro Minute
 - **Latenz:** 1-2 Sekunden
 
 ### SRT (SubRip Subtitle Format)
@@ -512,7 +508,7 @@ Dies ist der zweite Untertitel.
         <li>Pro 1.000 Wörter</li>
         <li>KI-Übersetzung: 18,50 €</li>
         <li>Menschliche Überprüfung: 35 €</li>
-        <li>Endredaktion: 11,50 €</li>
+        <li>Finales Lektorat: 11,50 €</li>
       </ul>
     </div>
     <div class="cost-time">⏱️ 1-2 Werktage</div>
@@ -526,7 +522,7 @@ Dies ist der zweite Untertitel.
         <li>Pro Sitzung (3 Stunden)</li>
         <li>Mensch: 500-1.500 €</li>
         <li>KI unbegrenzt: 20-50 €/Monat</li>
-        <li>Einsparungen: 85-90%</li>
+        <li>Ersparnis: 85-90%</li>
       </ul>
     </div>
     <div class="cost-time">🔄 Echtzeitlieferung</div>
@@ -539,12 +535,12 @@ Dies ist der zweite Untertitel.
 
 <div class="roi-analysis">
 
-| Ansatz                | Anfangsinvestition | Monatliche Kosten | Zeitersparnis | Kosteneinsparung | 12-Monats-ROI |
-| --------------------- | ------------------ | ----------------- | ------------- | ---------------- | ------------- |
-| **Nur KI**            | 15.000 €           | 2.500 €           | 95%           | 85%              | 340%          |
-| **Hybrid**            | 25.000 €           | 4.200 €           | 75%           | 65%              | 285%          |
-| **Nur Menschen**      | 5.000 €            | 12.000 €          | 0%            | 0%               | Grundlage     |
-| **KI-Dolmetschen**    | 10.000 €           | 1.200 €           | 90%           | 90%              | 380%          |
+| Ansatz                | Anfangsinvestition | Monatliche Kosten | Zeitersparnis | Kostenersparnis | 12-Monats-ROI |
+| --------------------- | ------------------ | ----------------- | ------------- | --------------- | ------------- |
+| **Nur KI**            | 15.000 €           | 2.500 €           | 95%           | 85%             | 340%          |
+| **Hybrid**            | 25.000 €           | 4.200 €           | 75%           | 65%             | 285%          |
+| **Nur Menschen**      | 5.000 €            | 12.000 €          | 0%            | 0%              | Grundlage     |
+| **KI-Dolmetschen**    | 10.000 €           | 1.200 €           | 90%           | 90%             | 380%          |
 
 </div>
 
@@ -709,7 +705,7 @@ Dies ist der zweite Untertitel.
 
 ### Text-to-Speech (TTS)
 
-**Definition:** KI-Technologie, die geschriebenen Text mithilfe neuraler Sprachsynthese in natürlich klingende gesprochene Audiodateien umwandelt.
+**Definition:** KI-Technologie, die geschriebenen Text in natürlich klingende gesprochene Audiodateien mittels neuraler Sprachsynthese umwandelt.
 
 **2025 Fähigkeiten:**
 
@@ -898,7 +894,7 @@ Dies ist der zweite Untertitel.
 - Nur kritische Fehler beheben
 - Grundverständnis sicherstellen
 - Kosten: 0,03-0,06 € pro Wort
-- Zeit: 30-40% schneller als Vollübersetzung
+- Zeit: 30-40% schneller als vollständige Übersetzung
 
 **Vollständige Nachbearbeitung:**
 
@@ -906,13 +902,13 @@ Dies ist der zweite Untertitel.
 - Stil und Flüssigkeit verfeinern
 - Terminologiekonsistenz überprüfen
 - Kosten: 0,06-0,12 € pro Wort
-- Zeit: 50-70% schneller als Vollübersetzung
+- Zeit: 50-70% schneller als vollständige Übersetzung
 
 **Qualitätssteigerung:**
 
-- **Reine MT:** 87-94% Genauigkeit
-- **Leichte PE:** 93-97% Genauigkeit
-- **Vollständige PE:** 97-99% Genauigkeit
+- **Reine maschinelle Übersetzung:** 87-94% Genauigkeit
+- **Leichte Nachbearbeitung:** 93-97% Genauigkeit
+- **Vollständige Nachbearbeitung:** 97-99% Genauigkeit
 
 ---
 

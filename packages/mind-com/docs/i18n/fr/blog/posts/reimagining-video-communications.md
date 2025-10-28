@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
-title: La révolution IA d'InterMIND dans les communications vidéo
-description: Comment l'architecture WebRTC d'InterMIND et l'intégration LLM créent la première plateforme de traduction naturelle en temps réel pour les appels vidéo d'entreprise.
-date: 2025-08-16
+layout: "BlogPost"
+title: "La révolution IA d'InterMIND dans les communications vidéo"
+description: "Comment l'architecture WebRTC d'InterMIND et l'intégration LLM créent la première plateforme de traduction naturelle en temps réel pour les appels vidéo d'entreprise."
+date: "2025-08-16"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
@@ -86,7 +86,7 @@ InterMIND fournit une **plateforme API complète** avec une excellente expérien
 
 **Différenciation clé** : L'API prend en charge non seulement la gestion de conférences mais aussi **les protocoles SIP intégrés pour la téléphonie traditionnelle**, le streaming RTMP/RTMPS pour les diffusions en direct, et des capacités d'enregistrement sophistiquées avec support de multiples formats. Cela permet aux développeurs de créer des solutions de communication hybrides intégrant les systèmes téléphoniques traditionnels avec les outils modernes de collaboration vidéo.
 
-Le niveau gratuit fournit **jusqu'à 5 participants avec des sessions de 15 minutes**, permettant aux développeurs de tester et prototyper minutieusement les applications sans investissement initial. Les capacités de production s'étendent à **200 participants vidéo ou 1000 participants audio uniquement**, fournissant des capacités de déploiement à l'échelle entreprise.
+Le niveau gratuit fournit **jusqu'à 5 participants avec des sessions de 15 minutes**, permettant aux développeurs de tester et prototyper minutieusement les applications sans investissement initial. Les capacités de production s'étendent à **200 participants vidéo ou 1000 participants audio uniquement**, offrant des capacités de déploiement à l'échelle entreprise.
 
 ## L'avenir des communications vidéo
 

@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
-title: Reuniones multilingües en Microsoft Teams
-description: Guía completa sobre tecnologías de traducción con IA, plataformas de interpretación profesional y soluciones emergentes para romper las barreras del idioma en las comunicaciones empresariales globales
-date: 2025-08-25
+layout: "BlogPost"
+title: "Reuniones multilingües en Microsoft Teams"
+description: "Guía completa sobre tecnologías de traducción con IA, plataformas de interpretación profesional y soluciones emergentes para romper las barreras del idioma en las comunicaciones empresariales globales"
+date: "2025-08-25"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 

@@ -1,17 +1,12 @@
 ---
-layout: BlogPost
-title: "Introduction aux concepts et terminologie des tests logiciels"
-description: Un guide accessible aux débutants pour comprendre les fondamentaux des tests logiciels, incluant les types de tests, les processus et la terminologie clé.
-date: 2025-10-06
+layout: "BlogPost"
+title: "Introduction aux concepts et à la terminologie des tests logiciels"
+description: "Un guide accessible aux débutants pour comprendre les fondamentaux des tests logiciels, incluant les types de tests, les processus et la terminologie clé."
+date: "2025-10-06"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: tests logiciels, bases des tests, QA, tests manuels, tests automatisés, types de tests
-
 ---
 
-# Bases des tests logiciels : guide complet (2025)
+# Les bases des tests logiciels : guide complet (2025)
 
 <p class="subtitle">Tout ce que vous devez savoir pour commencer avec les tests logiciels</p>
 

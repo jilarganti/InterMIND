@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
-title: apiMind so sánh với Google Meet và Jitsi
-description: So sánh toàn diện hiệu suất của apiMind với Google Meet và Jitsi dựa trên kiểm thử độc lập.
-date: 2025-08-18
+layout: "BlogPost"
+title: "apiMind so sánh với Google Meet và Jitsi"
+description: "So sánh toàn diện hiệu suất của apiMind với Google Meet và Jitsi dựa trên kiểm thử độc lập."
+date: "2025-08-18"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
@@ -11,7 +11,7 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 <img src="/blog/2025-08-18_18.54.27.png" alt="apiMind so sánh với Google Meet" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/blog/2025-08-18_18.54.10.png" alt="apiMind so sánh với Jitsi" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-> Minh bạch và Trung thực — Phương pháp tiếp cận của chúng tôi để phát triển
+> Minh bạch và Trung thực — Phương pháp phát triển của chúng tôi
 
 Chúng tôi tin rằng tiến bộ thực sự đến từ việc so sánh công khai với những giải pháp tốt nhất trên thị trường. Đó là lý do tại sao chúng tôi đã ủy thác kiểm thử độc lập từ TestDevLab — một công ty có 10 năm kinh nghiệm và 500 chuyên gia kiểm thử các sản phẩm được sử dụng bởi 4,5 tỷ người trên toàn thế giới.
 
@@ -102,8 +102,8 @@ Chúng tôi đang tích cực làm việc trên:
 
 Dữ liệu kể một câu chuyện, nhưng trải nghiệm của chính bạn sẽ viết nên chương cuối:
 
-- [Tải xuống báo cáo kiểm tra đầy đủ - 2024](/Presentation-TDL-2024.pdf) (90 trang chỉ số chi tiết)
-- [Tải xuống báo cáo kiểm tra đầy đủ - 2023](/Presentation-TDL-2023.pdf) (85 trang chỉ số chi tiết)
+- [Tải xuống báo cáo kiểm tra đầy đủ - 2024](/Presentation-TDL-2024.pdf) (90 trang với các chỉ số chi tiết)
+- [Tải xuống báo cáo kiểm tra đầy đủ - 2023](/Presentation-TDL-2023.pdf) (85 trang với các chỉ số chi tiết)
 
 ## Kết luận
 

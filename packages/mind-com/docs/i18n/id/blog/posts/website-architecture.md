@@ -1,14 +1,14 @@
 ---
-layout: BlogPost
-title: Arsitektur Website Mind.com
-description: Penelitian Teknis Solusi JAMstack Modern dengan Integrasi AI
-date: 2025-08-15
+layout: "BlogPost"
+title: "Arsitektur Website Mind.com"
+description: "Penelitian Teknis Solusi JAMstack Modern dengan Integrasi AI"
+date: "2025-08-15"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
-# Arsitektur Website Mind.com: Penelitian Teknis Solusi JAMstack Modern dengan Integrasi AI
+# Arsitektur Website Mind.com: Penelitian teknis solusi JAMstack modern dengan integrasi AI
 
-<img src="/blog/iStock-681469612.jpg" alt="dirham UEA" width="500" align="right" style="padding: 1.5rem" class="dark-only"/>
+<img src="/blog/iStock-681469612.jpg" alt="Dirham UEA" width="500" align="right" style="padding: 1.5rem" class="dark-only"/>
 <img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only"/>
 
 Website [mind.com](https://mind.com) merupakan contoh luar biasa dari arsitektur modern untuk situs pemasaran, menggabungkan praktik terbaik pengembangan JAMstack dengan teknologi AI terdepan. Dalam analisis teknis ini, kami akan mengkaji secara detail keputusan arsitektural yang mendasari proyek ini, yang merupakan bagian dari monorepo InterMIND namun berfungsi sebagai platform statis independen dengan kemampuan dinamis.
@@ -103,11 +103,11 @@ Mind.com mendukung lebih dari 20 bahasa dengan dukungan penuh arah teks RTL (kan
 
 ### Sistem Terjemahan Bertenaga AI yang Revolusioner
 
-**Skrip Terjemahan** merupakan **inovasi teknologi kunci** yang secara fundamental mengubah pendekatan terhadap internasionalisasi website. Tidak seperti sistem i18n tradisional yang memerlukan pembuatan dan pemeliharaan konstan kamus terjemahan, sistem ini **sepenuhnya menghilangkan kebutuhan untuk manajemen terjemahan manual**. Dengan menganalisis konten sumber di direktori `docs/en/`, sistem secara otomatis membuat terjemahan di `docs/i18n/{lang}/`, mendukung sejumlah bahasa yang ditentukan dalam konfigurasi. Eksekusi dipicu dengan perintah sederhana `pnpm translate` dari direktori paket.
+**Skrip Terjemahan** merupakan **inovasi teknologi kunci** yang secara fundamental mengubah pendekatan terhadap internasionalisasi website. Berbeda dengan sistem i18n tradisional yang memerlukan pembuatan dan pemeliharaan konstan kamus terjemahan, sistem ini **sepenuhnya menghilangkan kebutuhan untuk manajemen terjemahan manual**. Dengan menganalisis konten sumber di direktori `docs/en/`, sistem secara otomatis membuat terjemahan di `docs/i18n/{lang}/`, mendukung sejumlah bahasa yang ditentukan dalam konfigurasi. Eksekusi dipicu dengan perintah sederhana `pnpm translate` dari direktori paket.
 
 **Dukungan format universal** adalah keunggulan kritis: sistem memproses Markdown, komponen Vue, TypeScript, JavaScript, dan format teks lainnya tanpa adaptasi khusus. Ini berarti **semua konten situs — dari dokumentasi hingga komponen UI — diterjemahkan secara otomatis**, mempertahankan struktur, format, dan fungsionalitas.
 
-**Optimasi SEO kelas dunia** dicapai dengan membuat halaman statis lengkap untuk setiap bahasa. Tidak seperti solusi i18n sisi klien yang memuat konten secara dinamis, setiap versi bahasa ada sebagai halaman statis terpisah, memastikan **pengindeksan mesin pencari yang sempurna** dan pemuatan konten instan. Bot pencarian melihat HTML yang sepenuhnya diterjemahkan tanpa ketergantungan JavaScript.
+**Optimasi SEO kelas dunia** dicapai dengan membuat halaman statis lengkap untuk setiap bahasa. Berbeda dengan solusi i18n sisi klien yang memuat konten secara dinamis, setiap versi bahasa ada sebagai halaman statis terpisah, memastikan **pengindeksan mesin pencari yang sempurna** dan pemuatan konten instan. Bot pencarian melihat HTML yang sepenuhnya diterjemahkan tanpa ketergantungan JavaScript.
 
 **Arsitektur AI ganda** menggunakan OpenAI GPT-4 dan Anthropic Claude dengan perpindahan model otomatis saat terjadi kesalahan. Sistem ini mencakup terjemahan inkremental (hanya file yang berubah), sinkronisasi struktur file otomatis, dan pemeriksaan kompilasi opsional file yang diterjemahkan melalui `checkBuildErrors: true`.
 

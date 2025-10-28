@@ -1,19 +1,19 @@
 ---
-layout: BlogPost
-title: Kiến trúc website Mind.com
-description: Nghiên cứu kỹ thuật về giải pháp JAMstack hiện đại tích hợp AI
-date: 2025-08-15
+layout: "BlogPost"
+title: "Kiến trúc website Mind.com"
+description: "Nghiên cứu kỹ thuật về giải pháp JAMstack hiện đại với tích hợp AI"
+date: "2025-08-15"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
-# Kiến trúc website Mind.com: Nghiên cứu kỹ thuật về giải pháp JAMstack hiện đại tích hợp AI
+# Kiến trúc website Mind.com: Nghiên cứu kỹ thuật về giải pháp JAMstack hiện đại với tích hợp AI
 
 <img src="/blog/iStock-681469612.jpg" alt="dirham UAE" width="500" align="right" style="padding: 1.5rem" class="dark-only"/>
 <img src="/blog/iStock-681469612.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only"/>
 
-Website [mind.com](https://mind.com) đại diện cho một ví dụ xuất sắc về kiến trúc hiện đại cho các trang web marketing, kết hợp các thực tiễn tốt nhất trong phát triển JAMstack với các công nghệ AI tiên tiến. Trong phân tích kỹ thuật này, chúng ta sẽ xem xét chi tiết các quyết định kiến trúc làm nền tảng cho dự án này, là một phần của monorepo InterMIND nhưng hoạt động như một nền tảng tĩnh độc lập với khả năng động.
+Website [mind.com](https://mind.com) đại diện cho một ví dụ xuất sắc về kiến trúc hiện đại cho các trang web marketing, kết hợp các thực tiễn tốt nhất của phát triển JAMstack với các công nghệ AI tiên tiến. Trong phân tích kỹ thuật này, chúng ta sẽ xem xét chi tiết các quyết định kiến trúc làm nền tảng cho dự án này, là một phần của monorepo InterMIND nhưng hoạt động như một nền tảng tĩnh độc lập với khả năng động.
 
-> **Các đổi mới kiến trúc chính** bao gồm một số giải pháp kỹ thuật giúp phân biệt dự án này với các trang web marketing thông thường.
+> **Các đổi mới kiến trúc chính** bao gồm một số giải pháp kỹ thuật phân biệt dự án này với các trang web marketing thông thường.
 
 ## Hệ Thống Dịch Thuật Tự Động Được Hỗ Trợ Bởi AI
 
@@ -99,21 +99,21 @@ Mind.com hỗ trợ hơn 20 ngôn ngữ với khả năng hỗ trợ đầy đ�
 
 ### Hỗ trợ RTL và LTR
 
-**Thuộc tính logic CSS** được sử dụng thay vì `left/right` truyền thống để quản lý hướng văn bản tự động. Sass mixins cung cấp tạo style RTL/LTR tự động, và các ký tự Unicode đặc biệt (LRE, PDF) xử lý đúng cách dấu ngoặc và dấu nháy trong ngữ cảnh RTL.
+**Thuộc tính logic CSS** được sử dụng thay vì `left/right` truyền thống để quản lý hướng văn bản tự động. Sass mixins cung cấp tạo kiểu RTL/LTR tự động, và các ký tự Unicode đặc biệt (LRE, PDF) xử lý đúng cách dấu ngoặc và dấu nháy trong ngữ cảnh RTL.
 
 ### Hệ thống dịch thuật AI cách mạng
 
-**Script dịch thuật** đại diện cho một **đổi mới công nghệ quan trọng** thay đổi căn bản cách tiếp cận quốc tế hóa website. Không giống như các hệ thống i18n truyền thống yêu cầu tạo và bảo trì liên tục từ điển dịch thuật, hệ thống này **hoàn toàn loại bỏ nhu cầu quản lý dịch thuật thủ công**. Bằng cách phân tích nội dung nguồn trong thư mục `docs/en/`, hệ thống tự động tạo bản dịch trong `docs/i18n/{lang}/`, hỗ trợ bất kỳ số lượng ngôn ngữ nào được chỉ định trong cấu hình. Việc thực thi được kích hoạt bằng lệnh đơn giản `pnpm translate` từ thư mục package.
+**Script dịch thuật** đại diện cho một **đổi mới công nghệ quan trọng** thay đổi căn bản cách tiếp cận quốc tế hóa trang web. Không giống như các hệ thống i18n truyền thống yêu cầu tạo và bảo trì liên tục từ điển dịch thuật, hệ thống này **hoàn toàn loại bỏ nhu cầu quản lý dịch thuật thủ công**. Bằng cách phân tích nội dung nguồn trong thư mục `docs/en/`, hệ thống tự động tạo bản dịch trong `docs/i18n/{lang}/`, hỗ trợ bất kỳ số lượng ngôn ngữ nào được chỉ định trong cấu hình. Việc thực thi được kích hoạt bằng lệnh đơn giản `pnpm translate` từ thư mục package.
 
 **Hỗ trợ định dạng toàn cầu** là một lợi thế quan trọng: hệ thống xử lý Markdown, Vue components, TypeScript, JavaScript và bất kỳ định dạng văn bản nào khác mà không cần thích ứng đặc biệt. Điều này có nghĩa là **tất cả nội dung trang web — từ tài liệu đến UI components — được dịch tự động**, bảo toàn cấu trúc, định dạng và chức năng.
 
 **Tối ưu hóa SEO đẳng cấp thế giới** được đạt được bằng cách tạo các trang tĩnh hoàn chỉnh cho mỗi ngôn ngữ. Không giống như các giải pháp i18n phía client tải nội dung động, mỗi phiên bản ngôn ngữ tồn tại như một trang tĩnh riêng biệt, đảm bảo **lập chỉ mục công cụ tìm kiếm hoàn hảo** và tải nội dung tức thì. Bot tìm kiếm thấy HTML được dịch đầy đủ mà không phụ thuộc JavaScript.
 
-**Kiến trúc AI kép** sử dụng OpenAI GPT-4 và Anthropic Claude với chuyển đổi model tự động khi có lỗi. Hệ thống bao gồm dịch thuật tăng dần (chỉ các file đã thay đổi), đồng bộ hóa cấu trúc file tự động, và kiểm tra biên dịch tùy chọn của các file đã dịch thông qua `checkBuildErrors: true`.
+**Kiến trúc AI kép** sử dụng OpenAI GPT-4 và Anthropic Claude với chuyển đổi mô hình tự động khi có lỗi. Hệ thống bao gồm dịch thuật tăng dần (chỉ các tệp đã thay đổi), đồng bộ hóa cấu trúc tệp tự động và kiểm tra biên dịch tùy chọn của các tệp đã dịch thông qua `checkBuildErrors: true`.
 
-**Kỹ thuật prompt thông minh** đảm bảo bảo toàn định dạng markdown, tính bất biến của các khối code, duy trì tất cả liên kết và tham chiếu, và chỉ dịch văn bản ngôn ngữ tự nhiên. Hệ thống tự động chia các file lớn thành các phần để xử lý tối ưu bởi các model AI.
+**Kỹ thuật prompt thông minh** đảm bảo bảo toàn định dạng markdown, tính bất biến của các khối mã, duy trì tất cả liên kết và tham chiếu, và chỉ dịch văn bản ngôn ngữ tự nhiên. Hệ thống tự động chia các tệp lớn thành các phần để xử lý tối ưu bởi các mô hình AI.
 
-**Xử lý lỗi và tự động sửa** bao gồm chuyển đổi tự động sang model tiếp theo khi có lỗi dịch thuật, lưu các file dịch một phần với phần mở rộng `.log`, dịch lại các file có vấn đề sử dụng tất cả model có sẵn, và báo cáo cuối cùng về các file không thể sửa được.
+**Xử lý lỗi và tự động sửa** bao gồm chuyển đổi tự động sang mô hình tiếp theo khi có lỗi dịch thuật, lưu các tệp dịch một phần với phần mở rộng `.log`, dịch lại các tệp có vấn đề sử dụng tất cả mô hình có sẵn, và báo cáo cuối cùng về các tệp không thể sửa được.
 
 ## Tích hợp CRM với Pipedrive
 
@@ -171,9 +171,9 @@ Kiến trúc của Mind.com mang lại **cải thiện hiệu suất 35-60%** so
 
 ### Trải nghiệm nhà phát triển
 
-**Monorepo với pnpm** cung cấp tốc độ cài đặt vượt trội: npm (~45s), yarn (~35s), pnpm (~22s), với tổng cộng 85MB dung lượng đĩa chia sẻ thay vì 130MB cho mỗi dự án với npm.
+**Monorepo với pnpm** cung cấp tốc độ cài đặt vượt trội: npm (~45s), yarn (~35s), pnpm (~22s), với tổng cộng 85MB không gian đĩa chia sẻ thay vì 130MB cho mỗi dự án với npm.
 
-**Tối ưu hóa CI/CD** bao gồm tạo động các job song song cho từng package bị ảnh hưởng, build tăng dần, và kích hoạt triển khai tự động với đồng bộ hóa nội dung.
+**Tối ưu hóa CI/CD** bao gồm tạo động các job song song cho từng package bị ảnh hưởng, build tăng dần, và trigger triển khai tự động với đồng bộ hóa nội dung.
 
 ## Lợi thế cạnh tranh
 

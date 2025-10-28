@@ -1,16 +1,12 @@
 ---
-layout: BlogPost
-title: "软件测试概念和术语介绍"
-description: 面向初学者的软件测试基础指南，包括测试类型、流程和关键术语的理解。
-date: 2025-10-06
+layout: "BlogPost"
+title: "软件测试概念和术语入门指南"
+description: "初学者友好的软件测试基础知识指南，包括测试类型、流程和关键术语。"
+date: "2025-10-06"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: 软件测试, 测试基础, QA, 手动测试, 自动化测试, 测试类型
 ---
 
-# 软件测试基础：完整指南（2025）
+# 软件测试基础：完整指南（2025年）
 
 <p class="subtitle">开始软件测试所需了解的一切</p>
 

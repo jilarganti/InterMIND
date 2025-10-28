@@ -1,13 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "언어 접근성의 경제적 영향: 2025년 ROI 연구 보고서"
-description: 다양한 산업 분야에서 언어 접근성 솔루션 구현의 재정적 이익, 비용 및 투자 수익률에 대한 종합적 분석.
-date: 2025-10-20
+description: "다양한 산업 분야에서 언어 접근성 솔루션 구현의 재정적 이익, 비용 및 투자 수익률에 대한 종합적 분석."
+date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: 언어 접근성 ROI, 접근성 경제학, 다국어 비즈니스 이익, 번역 비용, 언어 접근성 규정 준수 비용
 ---
 
 # 언어 접근성의 경제적 영향: 2025년 ROI 연구 보고서

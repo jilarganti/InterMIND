@@ -1,17 +1,12 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Introducción a los conceptos y terminología de las pruebas de software"
-description: Una guía amigable para principiantes para entender los fundamentos de las pruebas de software, incluyendo tipos de pruebas, procesos y terminología clave.
-date: 2025-10-06
+description: "Una guía amigable para principiantes para entender los fundamentos de las pruebas de software, incluyendo tipos de pruebas, procesos y terminología clave."
+date: "2025-10-06"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: pruebas de software, conceptos básicos de testing, QA, pruebas manuales, pruebas automatizadas, tipos de pruebas
-
 ---
 
-# Conceptos básicos de pruebas de software: guía completa (2025)
+# Fundamentos de las pruebas de software: Guía completa (2025)
 
 <p class="subtitle">Todo lo que necesitas saber para comenzar con las pruebas de software</p>
 
@@ -141,7 +136,7 @@ No hay un número perfecto. Equilibra riesgo, tiempo y recursos. Las funciones c
 
 ### P: ¿Puede la IA reemplazar a los testers de software?
 
-La IA puede automatizar pruebas repetitivas, pero los testers humanos siguen siendo esenciales para entender la lógica de negocio, casos límite y experiencia del usuario.
+La IA puede automatizar pruebas repetitivas, pero los testers humanos siguen siendo esenciales para entender la lógica de negocio, casos extremos y experiencia del usuario.
 
 ---
 

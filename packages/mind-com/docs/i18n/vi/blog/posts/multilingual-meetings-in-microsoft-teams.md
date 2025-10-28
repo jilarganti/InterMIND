@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
-title: Cuộc họp đa ngôn ngữ trong Microsoft Teams
-description: Hướng dẫn toàn diện về công nghệ dịch thuật AI, nền tảng phiên dịch chuyên nghiệp và các giải pháp mới nổi để phá vỡ rào cản ngôn ngữ trong giao tiếp kinh doanh toàn cầu
-date: 2025-08-25
+layout: "BlogPost"
+title: "Cuộc họp đa ngôn ngữ trong Microsoft Teams"
+description: "Hướng dẫn toàn diện về công nghệ dịch thuật AI, nền tảng phiên dịch chuyên nghiệp và các giải pháp mới nổi để phá vỡ rào cản ngôn ngữ trong giao tiếp kinh doanh toàn cầu"
+date: "2025-08-25"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
@@ -17,13 +17,13 @@ Các cuộc họp trực tuyến đã trở thành nền tảng của kinh doanh
 
 Microsoft đã tạo ra bước đột phá trong giao tiếp đa ngôn ngữ bằng cách giới thiệu tính năng **AI Interpreter Agent** mang tính cách mạng tại Ignite 2024. Công nghệ này, sẽ có sẵn vào đầu năm 2025, không chỉ dịch lời nói mà còn **bắt chước giọng nói của người nói bằng ngôn ngữ khác**, bảo tồn ngữ điệu và sắc thái cảm xúc. Hãy tưởng tượng: bạn nói tiếng Anh, và các đồng nghiệp ở Tokyo nghe thấy chính giọng nói của bạn nói tiếng Nhật trong khi vẫn duy trì tất cả các sắc thái trong lời nói của bạn.
 
-Công nghệ này hỗ trợ **9 ngôn ngữ khi ra mắt** — Trung Quốc, Anh, Pháp, Đức, Ý, Nhật, Hàn, Bồ Đào Nha và Tây Ban Nha — với kế hoạch mở rộng lên 50 ngôn ngữ vào cuối năm. Mỗi người dùng có giấy phép Microsoft 365 Copilot sẽ nhận được **2 giờ dịch thuật đồng bộ hàng tháng**, đáp ứng nhu cầu của hầu hết các cuộc họp quốc tế cho các doanh nghiệp quy mô trung bình.
+Công nghệ này hỗ trợ **9 ngôn ngữ khi ra mắt** — Trung Quốc, Anh, Pháp, Đức, Ý, Nhật, Hàn, Bồ Đào Nha và Tây Ban Nha — với kế hoạch mở rộng lên 50 ngôn ngữ vào cuối năm. Mỗi người dùng có giấy phép Microsoft 365 Copilot sẽ nhận được **2 giờ dịch thuật đồng bộ hàng tháng**, đáp ứng nhu cầu của hầu hết các cuộc họp quốc tế cho các doanh nghiệp vừa.
 
 ## Khả năng tích hợp sẵn của Teams Premium vượt trội mong đợi
 
 Phiên bản hiện tại của Teams Premium với mức giá **$10 mỗi người dùng mỗi tháng** cung cấp bộ công cụ mạnh mẽ cho các cuộc họp đa ngôn ngữ. Tính năng phụ đề dịch trực tiếp hiện hỗ trợ **hơn 50 ngôn ngữ** với độ chính xác nhận dạng được cải thiện 40% nhờ tích hợp Azure Cognitive Services. Người tổ chức cuộc họp có thể chọn trước tối đa 10 ngôn ngữ để dịch tự động, với những người tham gia không cần giấy phép premium để xem bản dịch.
 
-Tính năng **nhận dạng giọng nói đa ngôn ngữ** mới, ra mắt năm 2025, cho phép mỗi người tham gia nói bằng ngôn ngữ mẹ đẻ của họ, tự động phát hiện và phiên âm giọng nói trong **51 ngôn ngữ được hỗ trợ**. Hệ thống sử dụng các gợi ý ngữ cảnh — tên người tham gia, chủ đề cuộc họp và tài liệu đính kèm — để cải thiện độ chính xác dịch thuật cho thuật ngữ chuyên môn. Bank of Queensland báo cáo rằng **70% nhân viên tiết kiệm 2,5-5 giờ mỗi tuần** nhờ những tính năng này.
+Tính năng **nhận dạng giọng nói đa ngôn ngữ** mới, được ra mắt vào năm 2025, cho phép mỗi người tham gia nói bằng ngôn ngữ mẹ đẻ của họ, tự động phát hiện và phiên âm giọng nói trong **51 ngôn ngữ được hỗ trợ**. Hệ thống sử dụng các gợi ý theo ngữ cảnh — tên người tham gia, chủ đề cuộc họp và tài liệu đính kèm — để cải thiện độ chính xác dịch thuật cho thuật ngữ chuyên môn. Bank of Queensland báo cáo rằng **70% nhân viên tiết kiệm 2,5-5 giờ mỗi tuần** nhờ những tính năng này.
 
 ## Giải pháp chuyên nghiệp cho truyền thông quan trọng
 
@@ -93,7 +93,7 @@ InterMIND tuyên bố có "độ chính xác gần như con người" nhờ các
 
 ### Bảo mật và tuân thủ
 
-Tất cả các nền tảng được đánh giá đều tuân thủ **GDPR** và sử dụng mã hóa đầu cuối để bảo vệ dữ liệu. Microsoft Teams kế thừa bảo mật doanh nghiệp Microsoft 365 với sự tuân thủ **ISO 27001, SOC 2, và HIPAA**.
+Tất cả các nền tảng được xem xét đều tuân thủ **GDPR** và sử dụng mã hóa đầu cuối để bảo vệ dữ liệu. Microsoft Teams kế thừa bảo mật doanh nghiệp Microsoft 365 với sự tuân thủ **ISO 27001, SOC 2, và HIPAA**.
 
 **Interactio** và **KUDO** có các chứng nhận đặc biệt để làm việc với các tổ chức chính phủ, bao gồm cả giấy phép cho thông dịch viên khi làm việc với thông tin bí mật. Điều này khiến chúng trở thành lựa chọn ưa thích cho các cuộc đàm phán ngoại giao và hợp đồng quốc phòng.
 

@@ -1,13 +1,9 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "소프트웨어 테스팅 개념과 용어 소개"
-description: 테스팅 유형, 프로세스, 핵심 용어를 포함한 소프트웨어 테스팅 기초를 이해하기 위한 초보자 친화적 가이드입니다.
-date: 2025-10-06
+description: "테스팅 유형, 프로세스, 핵심 용어를 포함한 소프트웨어 테스팅 기초를 이해하기 위한 초보자 친화적 가이드입니다."
+date: "2025-10-06"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: 소프트웨어 테스팅, 테스팅 기초, QA, 수동 테스팅, 자동화 테스팅, 테스트 유형
 ---
 
 # 소프트웨어 테스팅 기초: 완전 가이드 (2025)

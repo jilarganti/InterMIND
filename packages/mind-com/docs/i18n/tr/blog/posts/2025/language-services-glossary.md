@@ -1,21 +1,17 @@
 ---
-layout: BlogPost
-title: "Dil Hizmetleri Sözlüğü 2025: AI Çeviri ve Tercümanlık İçin Kapsamlı Rehber"
-description: 2025 pazar verileri, AI performans metrikleri ve sektör standartları ile çeviri ve tercümanlık terminolojisinin kapsamlı sözlüğü
-date: 2025-10-27
+layout: "BlogPost"
+title: "Dil Hizmetleri Sözlüğü 2025: AI Çeviri ve Tercümanlık Kapsamlı Rehberi"
+description: "2025 pazar verileri, AI performans metrikleri ve sektör standartları ile çeviri ve tercümanlık terminolojisinin kapsamlı sözlüğü"
+date: "2025-10-27"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: çeviri sözlüğü, tercümanlık terimleri, AI çeviri, makine çevirisi, dil hizmetleri, çeviri teknolojisi, çok dilli iletişim
 ---
 
-# Dil Hizmetleri Sözlüğü 2025: AI Çeviri ve Tercümanlık İçin Kapsamlı Rehber
+# Dil Hizmetleri Sözlüğü 2025: AI Çeviri ve Tercümanlık Kapsamlı Rehberi
 
-<p class="subtitle">AI performans verileri, maliyet metrikleri ve kalite standartları ile zenginleştirilmiş modern çeviri ve tercümanlık hizmetleri için temel terminoloji</p>
+<p class="subtitle">AI performans verileri, maliyet metrikleri ve kalite standartları ile geliştirilmiş modern çeviri ve tercümanlık hizmetleri için temel terminoloji</p>
 
 > **Yönetici Özeti:**  
-> Bu kapsamlı sözlük, dil hizmetleri sektöründeki 65+ temel terimi tanımlar ve AI doğruluk metrikleri (%94,2 ana dil çiftleri için), maliyet karşılaştırmaları ve performans standartları dahil 2025 pazar verileri ile zenginleştirilmiştir. Çeviri ve tercümanlık çözümleri uygulayan organizasyonlar için temel referans kaynağıdır.
+> Bu kapsamlı sözlük, dil hizmetleri sektöründeki 65+ temel terimi tanımlar ve AI doğruluk metrikleri (%94,2 ana dil çiftleri için), maliyet karşılaştırmaları ve performans standartları dahil 2025 pazar verileri ile geliştirilmiştir. Çeviri ve tercümanlık çözümleri uygulayan organizasyonlar için temel referans kaynağıdır.
 
 ## Sözlük Genel Bakış: Sektör Terminolojisi Standartları
 
@@ -412,7 +408,7 @@ head:
 - **Amaç:** Sağır/işitme güçlüğü çekenler için erişilebilirlik
 - **Varsayım:** İzleyici sesi duyamaz
 - **İçerik:** Diyalog + ses efektleri + konuşmacı tanımlama
-- **Diller:** Ses diliyle aynı
+- **Diller:** Ses dili ile aynı
 
 ### Gerçek Zamanlı Alt Yazı (CART)
 
@@ -454,7 +450,7 @@ Bu ikinci altyazıdır.
 
 - **Evrensel Uyumluluk:** Tüm büyük video oynatıcıları tarafından desteklenir
 - **İnsan Tarafından Okunabilir:** Metin editöründe düzenlenmesi kolay
-- **Küçük Dosya Boyutu:** Minimum depolama gereksinimi
+- **Küçük Dosya Boyutu:** Minimum depolama gereksinimleri
 
 ### WebVTT (Web Video Text Tracks)
 
@@ -463,7 +459,7 @@ Bu ikinci altyazıdır.
 **Özellikler:**
 
 - **Stil:** Font, renk, boyut, konum özelleştirmesi
-- **Metadata:** Bölüm işaretleri ve açıklamalar
+- **Meta Veri:** Bölüm işaretleri ve açıklamalar
 - **Çoklu Parçalar:** Çoklu dil altyazıları desteği
 - **İşaret Ayarları:** Hassas konumlandırma ve hizalama
 
@@ -559,7 +555,7 @@ Bu ikinci altyazıdır.
 - Yerelleştirme (kültürel uyarlama)
 - Transkrasyon (yaratıcı uyarlama)
 - Masaüstü yayıncılık ve biçimlendirme
-- Dil testi ve değerlendirmesi
+- Dil testi ve değerlendirme
 - Terminoloji yönetimi
 
 **Pazar Liderleri (2025):**
@@ -629,7 +625,7 @@ Bu ikinci altyazıdır.
 | --------------------- | --------------- | ----------------------------- |
 | **Kapsam**            | Sadece metin    | Tam ürün/deneyim              |
 | **Kültürel Öğeler**   | Minimal         | Kapsamlı                      |
-| **Teknik Değişiklikler** | Hiçbiri      | Format, düzen, işlevsellik    |
+| **Teknik Değişikler** | Hiçbiri         | Format, düzen, işlevsellik    |
 | **Maliyet**           | $0.10-0.30/kelime | Dil başına $5,000-100,000+  |
 | **Zaman Çizelgesi**   | Gün-hafta       | Hafta-ay                      |
 
@@ -785,7 +781,7 @@ Bu ikinci altyazıdır.
 - **Doğruluk:** Yanlış çeviri, eksiklik, ekleme
 - **Akıcılık:** Dilbilgisi, yazım, noktalama
 - **Terminoloji:** Tutarsız veya yanlış terimler
-- **Stil:** Üslup, ton, biçimlendirme
+- **Stil:** Register, ton, biçimlendirme
 
 **Önem Düzeyleri:**
 
@@ -854,7 +850,7 @@ Bu ikinci altyazıdır.
 
 ### Lehçe
 
-**Tanım:** Diğer lehçelerle karşılıklı anlaşılabilirliği korurken kendine özgü kelime dağarcığı, dilbilgisi ve telaffuz ile karakterize edilen bir dilin bölgesel veya sosyal çeşidi.
+**Tanım:** Bir dilin kendine özgü kelime dağarcığı, dilbilgisi ve telaffuzla karakterize edilen bölgesel veya sosyal çeşidi; diğer lehçelerle karşılıklı anlaşılabilir durumda kalır.
 
 **Örnekler:**
 
@@ -889,7 +885,7 @@ Bu ikinci altyazıdır.
 
 ### Çeviri Sonrası Düzenleme
 
-**Tanım:** Makine çevirisi yapılmış içeriğin doğruluk, akıcılık ve kültürel uygunluğunu artırmak için insan tarafından gözden geçirilmesi ve düzeltilmesi.
+**Tanım:** Makine çevirisi içeriğinin doğruluk, akıcılık ve kültürel uygunluğunu artırmak için insan tarafından gözden geçirilmesi ve düzeltilmesi.
 
 **Seviyeler:**
 
@@ -973,7 +969,7 @@ Bu ikinci altyazıdır.
 
 ### Gerçek Zamanlı İşbirliği Çevirisi
 
-**Tanım:** Ekip üyelerinin farklı dillerde anlık çeviri ile birlikte çalışabildiği eşzamanlı çok dilli işbirliğini sağlayan teknoloji.
+**Tanım:** Ekip üyelerinin farklı dillerde birlikte çalışabilmesini ve anlık çeviri ile eşzamanlı çok dilli işbirliği yapabilmesini sağlayan teknoloji.
 
 **Özellikler:**
 
@@ -1235,7 +1231,7 @@ Bu ikinci altyazıdır.
 
   <div class="takeaway-card">
     <h4>📊 Pazar Büyümesi</h4>
-    <p>Dil hizmetleri pazarının <strong>2027'ye kadar 8,9 milyar dolara</strong> ulaşması öngörülüyor ve AI'ın %69 pazar payı yakalaması ile sektörü temelden dönüştürüyor</p>
+    <p>Dil hizmetleri pazarının <strong>2027'ye kadar 8,9 milyar dolara</strong> ulaşması öngörülüyor ve AI'ın %69 pazar payı yakalamasıyla sektörü temelden dönüştürüyor</p>
   </div>
 
   <div class="takeaway-card">
@@ -1310,7 +1306,7 @@ Tüm istatistikler birden fazla yetkili kaynak ile çapraz referanslanmıştır.
 
 ### Sorumluluk Reddi
 
-Sunulan istatistikler ve projeksiyonlar bilgilendirme ve karşılaştırma amaçlıdır. Kuruluşlar teknoloji seçimi kararları vermeden önce kendi test ve değerlendirmelerini yapmalıdır. Pazar verileri Ekim 2025 itibariyle koşulları yansıtmaktadır ve AI teknolojisi gelişiminin hızı göz önüne alındığında hızlı değişime tabidir.
+Sunulan istatistikler ve projeksiyonlar bilgilendirme ve karşılaştırma amaçlıdır. Kuruluşlar teknoloji seçimi kararları vermeden önce kendi test ve değerlendirmelerini yapmalıdır. Pazar verileri Ekim 2025 itibariyle koşulları yansıtmakta olup AI teknolojisi gelişiminin hızı göz önüne alındığında hızlı değişime tabidir.
 
 ---
 

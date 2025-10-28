@@ -1,17 +1,12 @@
 ---
-layout: BlogPost
+layout: "BlogPost"
 title: "Giới thiệu về các khái niệm và thuật ngữ kiểm thử phần mềm"
-description: Hướng dẫn thân thiện cho người mới bắt đầu để hiểu các nguyên tắc cơ bản của kiểm thử phần mềm, bao gồm các loại kiểm thử, quy trình và thuật ngữ chính.
-date: 2025-10-06
+description: "Hướng dẫn thân thiện cho người mới bắt đầu để hiểu các nguyên tắc cơ bản của kiểm thử phần mềm, bao gồm các loại kiểm thử, quy trình và thuật ngữ chính."
+date: "2025-10-06"
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: kiểm thử phần mềm, cơ bản kiểm thử, QA, kiểm thử thủ công, kiểm thử tự động, các loại kiểm thử
-
 ---
 
-# Cơ bản kiểm thử phần mềm: Hướng dẫn đầy đủ (2025)
+# Cơ bản về kiểm thử phần mềm: Hướng dẫn đầy đủ (2025)
 
 <p class="subtitle">Mọi thứ bạn cần biết để bắt đầu với kiểm thử phần mềm</p>
 
@@ -25,9 +20,9 @@ Có bốn loại kiểm thử chính, mỗi loại phục vụ một mục đíc
 | Loại                        | Chúng ta kiểm thử gì         | Khi nào            | Mục tiêu                    |
 | --------------------------- | ---------------------------- | ------------------ | --------------------------- |
 | **Kiểm thử đơn vị**         | Các hàm/phương thức riêng lẻ | Trong quá trình phát triển | Xác minh từng phần hoạt động |
-| **Kiểm thử tích hợp**       | Cách các module hoạt động cùng nhau | Sau kiểm thử đơn vị | Kiểm tra kết nối       |
-| **Kiểm thử hệ thống**       | Ứng dụng hoàn chỉnh         | Trước khi phát hành | Xác thực từ đầu đến cuối   |
-| **Kiểm thử chấp nhận**      | Yêu cầu nghiệp vụ           | Giai đoạn cuối     | Xác nhận sẵn sàng      |
+| **Kiểm thử tích hợp**       | Cách các module hoạt động cùng nhau | Sau kiểm thử đơn vị | Kiểm tra kết nối           |
+| **Kiểm thử hệ thống**       | Ứng dụng hoàn chỉnh          | Trước khi phát hành | Xác thực từ đầu đến cuối   |
+| **Kiểm thử chấp nhận**      | Yêu cầu nghiệp vụ            | Giai đoạn cuối     | Xác nhận sẵn sàng          |
 
 ## Quy Trình Kiểm Thử
 
@@ -89,7 +84,7 @@ Cả hai phương pháp đều có vị trí của mình trong chiến lược k
 
 ### 🤖 Kiểm thử tự động
 
-- Script chạy kiểm thử tự động
+- Các script chạy kiểm thử tự động
 - Nhanh và nhất quán
 - Lý tưởng cho kiểm thử hồi quy
 - Yêu cầu thời gian thiết lập ban đầu
@@ -112,7 +107,7 @@ Một chiến lược kiểm thử cân bằng tuân theo phân phối này:
 </div>
 
 <p style="text-align: center; color: var(--vp-c-text-2); margin-top: 1em;">
-  <small>Nhiều kiểm thử đơn vị hơn = phản hồi nhanh hơn, chi phí thấp hơn. Ít kiểm thử UI hơn = bảo trì ít hơn.</small>
+  <small>Nhiều kiểm thử đơn vị = phản hồi nhanh hơn, chi phí thấp hơn. Ít kiểm thử UI = bảo trì ít hơn.</small>
 </p>
 
 ## Thuật ngữ kiểm thử phổ biến
