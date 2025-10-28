@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
-title: Multilingual Meetings in Microsoft Teams
-description: Comprehensive guide to AI translation technologies, professional interpretation platforms, and emerging solutions for breaking language barriers in global business communications
-date: 2025-08-25
+layout: "BlogPost"
+title: "Multilingual Meetings in Microsoft Teams"
+description: "Comprehensive guide to AI translation technologies, professional interpretation platforms, and emerging solutions for breaking language barriers in global business communications"
+date: "2025-08-25"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 

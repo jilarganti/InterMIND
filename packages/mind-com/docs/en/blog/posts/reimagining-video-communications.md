@@ -1,8 +1,8 @@
 ---
-layout: BlogPost
-title: InterMIND's AI Revolution in Video Communications
-description: How InterMIND's WebRTC architecture and LLM integration creates the first natural real-time translation platform for enterprise video calls.
-date: 2025-08-16
+layout: "BlogPost"
+title: "InterMIND's AI Revolution in Video Communications"
+description: "How InterMIND's WebRTC architecture and LLM integration creates the first natural real-time translation platform for enterprise video calls."
+date: "2025-08-16"
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
 
