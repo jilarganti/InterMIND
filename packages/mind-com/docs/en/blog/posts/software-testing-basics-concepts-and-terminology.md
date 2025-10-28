@@ -4,10 +4,6 @@ title: "Introduction to Software Testing Concepts and Terminology"
 description: A beginner-friendly guide to understanding software testing fundamentals, including types of testing, processes, and key terminology.
 date: 2025-10-06
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: software testing, testing basics, QA, manual testing, automated testing, test types
 ---
 
 # Software Testing Basics: Complete Guide (2025)

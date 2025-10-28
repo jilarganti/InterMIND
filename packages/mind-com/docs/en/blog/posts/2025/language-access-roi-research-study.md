@@ -4,10 +4,6 @@ title: "The Economic Impact of Language Access: ROI Research Study 2025"
 description: Comprehensive analysis of the financial benefits, costs, and return on investment of implementing language access solutions across industries.
 date: 2025-10-20
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: language access ROI, accessibility economics, multilingual business benefits, translation costs, language access compliance costs
 ---
 
 # The Economic Impact of Language Access: ROI Research Study 2025

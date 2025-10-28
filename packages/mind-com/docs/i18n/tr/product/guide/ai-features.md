@@ -1,6 +1,6 @@
 ---
 title: AI Özellikleri
-description: InterMIND'ın AI destekli özelliklerini keşfedin: Sesli Asistan (Jarvis), gerçek zamanlı sesli çeviri ve toplantı notları ile özetler için AI Asistanı.
+description: "InterMIND'ın AI destekli özelliklerini keşfedin: Sesli Asistan (Jarvis), gerçek zamanlı sesli çeviri ve toplantı notları ile özetler için AI Asistanı."
 ---
 
 # AI Özellikleri

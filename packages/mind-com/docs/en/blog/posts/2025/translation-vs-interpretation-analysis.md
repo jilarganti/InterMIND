@@ -4,10 +4,6 @@ title: "Translation vs Interpretation: Complete Guide to Real-Time Video Confere
 description: How simultaneous interpretation is transforming video communications - comparing written translation and real-time interpretation technologies for international business
 date: 2025-10-27
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-head:
-  - - meta
-    - name: keywords
-      content: simultaneous interpretation, video conference translation, real-time interpretation, AI speech translation, multilingual video calls, interpretation vs translation
 ---
 
 # Translation vs Interpretation: Complete Guide to Real-Time Video Conference Translation 2025

@@ -4,10 +4,6 @@ title: "Global Language Access Compliance: Complete Guide (2025)"
 description: Comprehensive overview of language access and digital accessibility laws worldwide, including requirements, deadlines, and penalties.
 date: 2025-10-13
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: language access, accessibility compliance, ADA, EAA, WCAG, digital accessibility, translation, captions
 ---
 
 # Global Language Access Compliance: Complete Guide (2025)

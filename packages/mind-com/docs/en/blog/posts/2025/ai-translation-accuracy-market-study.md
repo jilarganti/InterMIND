@@ -4,10 +4,6 @@ title: "AI Translation Accuracy & Market Analysis Study 2025"
 description: Comprehensive research into artificial intelligence translation performance, adoption rates, and competitive landscape across global markets.
 date: 2025-10-20
 author: "[Jilarganti](https://github.com/jilarganti)"
-head:
-  - - meta
-    - name: keywords
-      content: AI translation accuracy, machine translation market, neural translation, multilingual AI, translation technology, language processing
 ---
 
 # AI Translation Accuracy & Market Analysis Study 2025
