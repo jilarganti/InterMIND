@@ -1,6 +1,6 @@
 ---
-title: "Cara Kerja Terjemahan Real-Time AI"
-description: "Pelajari cara kerja terjemahan bidireksional instan InterMIND dengan pengenalan suara, terjemahan neural, dan sintesis suara untuk komunikasi yang lancar."
+title: Cara Kerja Terjemahan Real-Time AI
+description: Pelajari cara kerja terjemahan bidireksional instan InterMIND dengan pengenalan suara, terjemahan neural, dan sintesis suara untuk komunikasi yang lancar.
 ---
 
 # Cara Kerja Terjemahan Real-Time AI
@@ -8,6 +8,8 @@ description: "Pelajari cara kerja terjemahan bidireksional instan InterMIND deng
 ## Berbicara dan Mendengar dalam Bahasa Anda
 
 InterMind adalah platform konferensi video multi-pengguna dengan **terjemahan dua arah instan**. Setiap peserta dapat berbicara dan mendengar orang lain dalam **bahasa asli mereka**, menciptakan efek komunikasi alami tanpa hambatan bahasa.
+
+Pelajari lebih lanjut tentang [apa yang membuat InterMIND berbeda](./what-is-intermind) dan jelajahi [fitur platform lengkap kami](./video-meeting-platform).
 
 ## Cara kerjanya:
 
@@ -34,7 +36,7 @@ InterMind adalah platform konferensi video multi-pengguna dengan **terjemahan du
 
 ### 3. **Terjemahan Neural**
 
-- Terjemahan yang bergantung pada konteks dengan pelestarian makna
+- Terjemahan yang bergantung pada konteks dengan preservasi makna
 - Pemahaman idiom, metafora, dan referensi budaya
 - Adaptasi gaya bicara (formal/informal)
 - Mempertahankan pewarnaan emosional dari ucapan
@@ -77,19 +79,19 @@ Semua ini terjadi dengan **latensi di bawah 3 detik** — menyamai kecepatan pen
 
 - **Penyedia LLM**: GPT-4, Claude, Gemini (pilihan regional)
 - **Regionalitas**: kepatuhan terhadap persyaratan privasi lokal (GDPR, CCPA)
-- **Pembelajaran berkelanjutan**: analisis 10.000+ jam rapat multibahasa setiap bulan
+- **Pembelajaran berkelanjutan**: analisis 10.000+ jam pertemuan multibahasa setiap bulan
 - **Spesialisasi**: model untuk industri spesifik (kedokteran, hukum, keuangan, IT)
 
 ### Kualitas Terjemahan:
 
 - **Akurasi**: 94-97% ketepatan untuk percakapan bisnis
-- **Konteks**: memahami konteks sepanjang seluruh rapat
+- **Konteks**: memahami konteks sepanjang seluruh pertemuan
 - **Terminologi**: kamus adaptif untuk setiap industri
 - **Umpan balik**: sistem penilaian kualitas pengguna
 
 ### Arsitektur Teknis
 
-Semua routing audio/video ditangani melalui Mind API proprietary kami, dikembangkan secara internal untuk memastikan:
+Semua routing audio/video ditangani melalui Mind API proprietary kami, yang dikembangkan secara internal untuk memastikan:
 
 - **Performa**: memproses 1000+ stream paralel
 - **Kedaulatan data**: penyimpanan di wilayah yang dipilih
@@ -107,3 +109,5 @@ Semua routing audio/video ditangani melalui Mind API proprietary kami, dikembang
 [^1]: Latensi standar untuk terjemahan simultan manusia adalah ~2–3 detik.
 
 [^2]: Berdasarkan kemajuan saat ini dalam terjemahan AI, kami memperkirakan bahwa dalam 2–3 tahun, model akan secara konsisten mengungguli penerjemah manusia terbaik — termasuk area khusus seperti hukum, keuangan, kesehatan, dan teknik.
+
+> **Ingin tahu lebih lanjut?** Baca tentang [difference between translation and interpretation](./translation-vs-interpretation-whats-the-difference) atau temukan pendekatan kami terhadap [data privacy](./privacy-architecture).

@@ -1,54 +1,56 @@
 ---
-title: "Privacidad de datos para reuniones con IA"
-description: "Arquitectura de privacidad transparente de InterMIND con confidencialidad basada en regiones, cumplimiento GDPR y elección del usuario para ubicaciones de procesamiento de datos."
+title: Privacidad de datos para reuniones con IA
+description: Arquitectura de privacidad transparente de InterMIND con confidencialidad basada en regiones, cumplimiento GDPR y elección del usuario para ubicaciones de procesamiento de datos.
 ---
 
 # Privacidad de datos para reuniones con IA
 
 ## Introducción
 
-InterMind es una plataforma para reuniones de video multilingües con interpretación en vivo impulsada por IA. Estamos diseñados para profesionales — donde no solo importa el mensaje, sino también la privacidad de ese mensaje.
+InterMind es una plataforma para videoconferencias multilingües con interpretación en vivo impulsada por IA. Estamos diseñados para profesionales — donde no solo importa el mensaje, sino también la privacidad de ese mensaje.
 
 Para ofrecer una experiencia fluida, InterMind integra servicios de terceros para video, audio, almacenamiento en la nube, interpretación en tiempo real y análisis. Estos proveedores externos nos ayudan a garantizar el rendimiento y la escalabilidad — pero también introducen una capa que no podemos controlar directamente.
 
-Creemos en la **transparencia sobre las promesas**. Solo podemos garantizar la privacidad y seguridad de los componentes bajo nuestro control directo — nuestro software, la lógica de la interfaz y cómo enrutamos los datos. Para todo lo demás, te ofrecemos **el poder de elección**.
+Conoce más sobre [cómo funciona nuestra plataforma](./how-it-works) y nuestras [funciones de videoconferencias](./video-meeting-platform).
+
+Creemos en la **transparencia por encima de las promesas**. Solo podemos garantizar privacidad y seguridad para los componentes bajo nuestro control directo — nuestro software, lógica de interfaz y cómo enrutamos los datos. Para todo lo demás, te ofrecemos **el poder de elección**.
 
 Por eso diseñamos InterMind con **confidencialidad basada en regiones**: tú eliges dónde se procesan tus datos, qué marco legal los rige y qué modelos de IA se utilizan — basado en tu zona de privacidad seleccionada.
 
 > **¿Qué es una Zona de Privacidad?**  
 > _Una región configurable (UE, EE.UU., Asia) que determina dónde se procesan tus datos y bajo qué marco legal._
 
-## Principios fundamentales de privacidad
+## Principios Fundamentales de Privacidad
 
-### 1. **Modelo de responsabilidad compartida**
+### 1. **Modelo de Responsabilidad Compartida**
 
 - InterMind **no posee ni opera** la infraestructura de nube subyacente o los LLMs (modelos de lenguaje grandes).
 - No almacenamos tus archivos multimedia, ni procesamos directamente tu voz para el entrenamiento de modelos.
 - **Sí controlamos** el software del lado del cliente, las reglas de enrutamiento y la lógica de cumplimiento — incluyendo por qué región fluyen tus datos, qué modelo se utiliza y bajo qué condiciones.
 
-### 2. **Transparencia arquitectónica**
+### 2. **Transparencia Arquitectónica**
 
 - Puedes ver explícitamente qué región está activa para tu sesión y qué leyes aplican (ej. GDPR en Europa, CCPA en EE.UU., PDPL en los EAU).
 - Cada sesión se ejecuta en un **modo de cumplimiento** designado, y esta configuración es visible y auditable.
 
-### 3. **Privacidad por defecto**
+### 3. **Privacidad por Defecto**
 
 - InterMind **nunca** almacena o reutiliza tu contenido para entrenamiento, perfilado o análisis comercial.
 - No conservamos transcripciones o multimedia a menos que lo solicites explícitamente.
 - Si desactivas la interpretación, **ningún dato del usuario sale de tu dispositivo en absoluto**.
 
-## Confidencialidad Basada en Regiones: Cómo Funciona
+## Confidencialidad basada en regiones: Cómo funciona
 
 Al inicio de cada sesión, o como parte de la configuración de la cuenta de tu organización, puedes seleccionar una zona de privacidad preferida:
 
-| Región        | Leyes Aplicables                                                                               | Infraestructura                 | Proveedores de LLM              |
+| Región        | Leyes aplicables                                                                               | Infraestructura                 | Proveedores de LLM              |
 | ------------- | --------------------------------------------------------------------------------------------- | ------------------------------ | -------------------------- |
 | Europa        | [GDPR](https://gdpr.eu)                                                                       | Solo centros de datos de la UE           | Alojados en la UE o compatibles con la UE  |
 | Estados Unidos | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (EE.UU.)         | OpenAI US / Anthropic US   |
 | EAU / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | Nube de EAU o Baréin           | LLMs regionales o compatibles |
 | Asia / China  | Leyes locales de privacidad de China                                                                    | Alibaba, Huawei, Tencent Cloud | Solo LLMs con base en China      |
 
-Esta elección determina cómo se procesan tu video, audio y contenido interpretado y bajo qué jurisdicción.
+Esta elección determina cómo se procesan tu video, audio y contenido interpretado, y bajo qué jurisdicción.
 
 Puedes:
 
@@ -66,11 +68,11 @@ Las funciones del lado del cliente como la captura de voz y la renderización de
 
 ### 2. **Minimización de Datos**
 
-Solo se transmite la cantidad mínima de datos necesaria para la tarea actual.
+Solo se transmiten los datos mínimos necesarios para la tarea actual.
 
 ### 3. **Cifrado de Extremo a Extremo**
 
-Todos los datos de audio/video se transmiten a través de canales cifrados. Las solicitudes de interpretación se envían a través de proxies seguros, evitando la exposición pública.
+Todos los datos de audio/video se transmiten a través de canales cifrados. Las solicitudes de interpretación se canalizan a través de proxies seguros, evitando la exposición pública.
 
 ### 4. **Sin Almacenamiento por Defecto**
 
@@ -103,20 +105,20 @@ Estamos comprometidos con la honestidad total, no solo con jerga legal.
 - Tienes herramientas para **controlar el riesgo** seleccionando tu región y modo de cumplimiento.
 - InterMind **nunca** almacena o explota tu contenido — ni siquiera temporalmente — sin tu consentimiento.
 
-## Modos de confianza y niveles de privacidad
+## Modos de Confianza y Niveles de Privacidad
 
 Puedes personalizar tu sesión para que coincida con tus necesidades de confidencialidad:
 
-| Modo de confianza | Interpretación | Transferencia entre regiones | Almacenamiento     | Mejor para                                    |
-| ----------------- | -------------- | ---------------------------- | ------------------ | --------------------------------------------- |
-| 🔒 Solo local     | ❌             | ❌                           | ❌                 | Legal, gobierno, revisiones internas         |
-| 🔐 Bloqueado por región | ✅       | ✅ (solo dentro de la zona)  | ❌ o solo sesión   | Salud, finanzas, recursos humanos            |
-| 🌐 Flexibilidad global | ✅        | ✅ (multi-región)            | ✅                 | Soporte, ventas, equipos multinacionales     |
+| Modo de Confianza | Interpretación | Transferencia Entre Regiones | Almacenamiento     | Mejor Para                                    |
+| ----------------- | -------------- | ----------------------------- | ------------------ | --------------------------------------------- |
+| 🔒 Solo Local     | ❌             | ❌                            | ❌                 | Legal, gobierno, revisiones internas         |
+| 🔐 Bloqueado por Región | ✅       | ✅ (solo dentro de la zona)   | ❌ o solo sesión   | Salud, finanzas, recursos humanos            |
+| 🌐 Flexibilidad Global | ✅        | ✅ (multi-región)             | ✅                 | Soporte, ventas, equipos multinacionales     |
 
 ## Lo que obtienes desde el primer momento
 
 - Uso de LLM específico por región, con transparencia en tiempo real.
-- Sin entrenamiento o perfilado de tu contenido — nunca.
+- Sin entrenamiento ni perfilado de tu contenido — nunca.
 - Cero transmisión de datos si la interpretación está desactivada.
 - Almacenamiento de datos opcional, siempre limitado por región.
 - Herramientas completas de auditoría y exportación para clientes empresariales.
@@ -132,3 +134,5 @@ InterMind no se esconde detrás de garantías vagas. En su lugar, te damos **opc
 - Tú decides qué riesgo estás dispuesto a aceptar — y te ayudamos a mantenerte en cumplimiento en cada nivel.
 
 **InterMind — construido para profesionales, respaldado por el cumplimiento, gobernado por la confianza.**
+
+> **¿Preguntas sobre privacidad?** [Contact us](../../resources/company/contacts) o lee sobre [our company values](../../resources/company/about).

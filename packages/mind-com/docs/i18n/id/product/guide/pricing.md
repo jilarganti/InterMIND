@@ -1,11 +1,11 @@
 ---
-title: "Harga"
-description: "Bandingkan paket InterMIND - Basic, Pro, dan Business. Temukan paket yang tepat dengan batas meeting, kapasitas peserta, fitur AI, dan opsi penyimpanan."
+title: Harga
+description: Bandingkan paket InterMIND - Basic, Pro, dan Business. Temukan paket yang tepat dengan batas rapat, kapasitas peserta, fitur AI, dan opsi penyimpanan.
 ---
 
 # Harga
 
-Halaman Harga menyediakan perbandingan yang jelas dari semua paket yang tersedia—Basic, Pro, dan Business—membantu pengguna memilih opsi terbaik untuk kebutuhan komunikasi mereka. Halaman ini mencakup detail tentang harga, batas meeting, kapasitas peserta, penyimpanan, dan akses ke fitur premium seperti Voice Assistant, AI Assistant, dan layanan interpretasi.
+Halaman Harga menyediakan perbandingan yang jelas dari semua paket yang tersedia—Basic, Pro, dan Business—membantu pengguna memilih opsi terbaik untuk kebutuhan komunikasi mereka. Ini mencakup detail tentang harga, batas rapat, kapasitas peserta, penyimpanan, dan akses ke fitur premium seperti Voice Assistant, AI Assistant, dan layanan interpretasi.
 
 ## Mengakses Halaman Harga
 
@@ -16,7 +16,7 @@ Halaman Harga menyediakan perbandingan yang jelas dari semua paket yang tersedia
 
 ### Dari Halaman Profil (untuk pengguna paket Basic)
 
-- Navigasi ke Profile > tab Profile
+- Navigasi ke Profile > tab Profile (lihat [Account Management](./account-management#user-profile))
 - Klik tombol **Upgrade Plan** yang terletak di bawah paket Anda saat ini
 
 ### Dari Header Halaman
@@ -45,12 +45,12 @@ Halaman Harga mencakup tiga tingkatan:
 - Tombol **Hubungi Kami** memungkinkan klien Business untuk meminta solusi yang disesuaikan
 
 > [!TIP]
-> Peningkatan paket berlaku segera dan menerapkan batas fitur yang ditingkatkan sesuai.
+> Upgrade paket berlaku segera dan menerapkan batas fitur yang ditingkatkan sesuai dengan itu.
 
 ## Pembayaran Berlangganan melalui Stripe
 
 - Setelah mengklik **Beli Sekarang** pengguna akan diarahkan ke halaman pembayaran Stripe yang aman di tab baru
-- Kolom berikut wajib diisi untuk menyelesaikan pembayaran:
+- Kolom-kolom berikut wajib diisi untuk menyelesaikan pembayaran:
   - Email
   - Detail kartu
   - Nama pemegang kartu

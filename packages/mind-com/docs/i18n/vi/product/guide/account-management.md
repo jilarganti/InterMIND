@@ -1,76 +1,76 @@
 ---
-title: "Quản lý tài khoản"
-description: "Đăng ký và quản lý tài khoản InterMIND của bạn. Tìm hiểu cách đăng ký bằng Google, Microsoft hoặc email, cập nhật cài đặt hồ sơ và quản lý bảo mật."
+title: Quản lý tài khoản
+description: Đăng ký và quản lý tài khoản InterMIND của bạn. Tìm hiểu cách đăng ký bằng Google, Microsoft hoặc email, cập nhật cài đặt hồ sơ và quản lý bảo mật.
 ---
 
 # Quản lý tài khoản
 
 ## Đăng Ký
 
-Việc tạo tài khoản có thể được thực hiện thông qua ba phương pháp: sử dụng tài khoản Google hoặc Microsoft của bạn hoặc đăng ký bằng địa chỉ email bên ngoài.
+Việc tạo tài khoản có thể được thực hiện thông qua ba phương pháp: sử dụng tài khoản Google hoặc Microsoft của bạn hoặc đăng ký bằng địa chỉ email bên ngoài. Để có cái nhìn tổng quan đầy đủ, hãy xem hướng dẫn [Getting Started](./getting-started) của chúng tôi.
 
-1. Để bắt đầu, truy cập [https://intermind.com](https://intermind.com)
-2. Nhấp vào nút **Đăng Nhập** nằm ở góc trên bên phải của trang chủ
+1. Để bắt đầu, hãy truy cập [https://intermind.com](https://intermind.com)
+2. Nhấp vào nút **Đăng Nhập** ở góc trên bên phải của trang chủ
 3. Trên trang Đăng nhập vào tài khoản của bạn, bạn sẽ gặp các tùy chọn sau:
    - Nút Google và Microsoft, giúp truy cập nền tảng bằng tài khoản Google hoặc Microsoft hiện có của bạn
-   - Hộp kiểm 'Ghi nhớ tôi', cho phép bạn duy trì trạng thái đã đăng nhập trên thiết bị này
-   - Liên kết 'Quên Mật Khẩu', có sẵn nếu bạn đã có tài khoản nhưng không nhớ mật khẩu
+   - Hộp kiểm 'Ghi nhớ tôi', cho phép bạn duy trì trạng thái đăng nhập trên thiết bị này
+   - Liên kết 'Quên Mật khẩu', có sẵn nếu bạn đã có tài khoản nhưng không nhớ mật khẩu
    - Văn bản 'Hoặc đăng nhập bằng', theo sau là các trường Email và Mật khẩu để đăng nhập, nếu bạn đã có tài khoản
    - Văn bản 'Chưa có tài khoản?', theo sau là liên kết 'Đăng ký', cho phép bạn đăng ký bằng địa chỉ email bên ngoài
 
-### Đăng Ký Bằng Tài Khoản Google
+### Đăng Ký bằng Tài khoản Google
 
 Phương pháp này được khuyến nghị để truy cập hiệu quả thông qua tài khoản Google, tạo điều kiện đồng bộ hóa liền mạch với Google Calendar. Trải nghiệm hiệu quả nhất có thể đạt được bằng cách sử dụng trình duyệt Google Chrome.
 
 1. Nhấp vào nút **Google**
 2. Một cửa sổ bật lên sẽ xuất hiện, nhắc bạn chọn tài khoản Google của mình
-3. Ủy quyền truy cập thông tin hồ sơ cơ bản của bạn bằng cách nhấp vào nút **Tiếp Tục**
+3. Ủy quyền truy cập thông tin hồ sơ cơ bản của bạn bằng cách nhấp vào nút **Tiếp tục**
 
 > [!WARNING]
 > Nếu bạn không muốn cấp quyền truy cập thông tin hồ sơ cơ bản của mình, hãy nhấp vào nút **Hủy**. Bạn sẽ được chuyển hướng trở lại trang Đăng nhập vào tài khoản của bạn, nơi bạn có thể đăng ký bằng địa chỉ email bên ngoài.
 
 4. Bạn sẽ được chuyển đến trang chính InterMIND của mình; không cần thiết lập thêm
 
-### Đăng Ký Bằng Tài Khoản Microsoft
+### Đăng Ký bằng Tài khoản Microsoft
 
 Phương pháp này được khuyến nghị để có được quyền truy cập nhanh chóng bằng tài khoản Microsoft. Trải nghiệm tối ưu có thể đạt được bằng cách sử dụng trình duyệt Microsoft Edge.
 
 1. Nhấp vào nút **Microsoft**
 2. Một cửa sổ bật lên sẽ xuất hiện, nhắc bạn chọn tài khoản Microsoft của mình
-3. Ủy quyền truy cập thông tin hồ sơ cơ bản của bạn bằng cách nhấp vào nút **Tiếp Tục**
+3. Ủy quyền truy cập thông tin hồ sơ cơ bản của bạn bằng cách nhấp vào nút **Tiếp tục**
 
 > [!WARNING]
 > Nếu bạn không muốn cấp quyền truy cập thông tin hồ sơ cơ bản của mình, hãy nhấp vào nút **Hủy**. Bạn sẽ được chuyển hướng trở lại trang Đăng nhập vào tài khoản của bạn, nơi bạn có thể đăng ký bằng địa chỉ email bên ngoài.
 
 4. Bạn sẽ được chuyển đến trang chính InterMIND của mình; không cần thiết lập thêm
 
-### Đăng Ký Bằng Địa Chỉ Email
+### Đăng Ký bằng Địa chỉ Email
 
 Sử dụng phương pháp này nếu bạn không có tài khoản Google hoặc muốn đăng ký bằng email riêng biệt.
 
 1. Nhấp vào liên kết **Đăng Ký** bên cạnh văn bản "Chưa có tài khoản?" bên dưới các trường đăng nhập
 2. Bạn sẽ được chuyển đến biểu mẫu Đăng ký, bao gồm các trường bắt buộc sau:
    - **Email**
-   - **Mật Khẩu**
+   - **Mật khẩu**
      - Tối thiểu 8 ký tự
      - Ít nhất 1 chữ cái viết hoa
      - Ít nhất 1 chữ số
-   - **Xác Nhận Mật Khẩu**
+   - **Xác nhận Mật khẩu**
    - **Tên**
    - **Họ**
 
 > [!TIP]
 > Để đảm bảo bảo mật tài khoản tối ưu, vui lòng tạo mật khẩu đáp ứng các yêu cầu phức tạp được liệt kê ở trên.
 
-3. Sau khi hoàn thành biểu mẫu, nhấp vào nút **Đăng Ký**
-4. Sau khi đăng ký thành công, bạn sẽ nhận được email xác minh trong hộp thư đến của mình. Sau khi xác minh, bạn có thể đăng nhập bằng email và mật khẩu để truy cập các tính năng của InterMIND
+3. Sau khi hoàn thành biểu mẫu, nhấp vào nút **Đăng ký**
+4. Sau khi đăng ký thành công, bạn sẽ nhận được tin nhắn xác minh email trong hộp thư đến của mình. Sau khi xác minh, bạn có thể đăng nhập bằng email và mật khẩu để truy cập các tính năng của InterMIND
 
-### Quên Mật Khẩu
+### Quên Mật khẩu
 
 Nếu bạn quên mật khẩu, hãy làm theo các bước sau:
 
 1. Nhấp vào nút **Đăng Nhập** trên trang chủ
-2. Trên trang đăng nhập, nhấp vào **Quên Mật Khẩu?**
+2. Trên trang đăng nhập, nhấp vào **Quên Mật khẩu?**
 3. Nhập địa chỉ email đã đăng ký của bạn
 4. Bạn sẽ nhận được email với liên kết để đặt lại mật khẩu
 5. Làm theo hướng dẫn trong email để tạo mật khẩu mới
@@ -80,7 +80,7 @@ Nếu bạn quên mật khẩu, hãy làm theo các bước sau:
 
 ## Đăng nhập
 
-Sau khi tạo tài khoản InterMIND của bạn, bạn có thể đăng nhập bất cứ lúc nào. Điều này cho phép bạn tổ chức hoặc tham gia các cuộc họp, quản lý cài đặt, truy cập chức năng AI và xem lại các cuộc họp trước đó cùng với bản ghi âm của chúng. Hơn nữa, Trợ lý AI có thể được sử dụng trong lịch sử cuộc họp.
+Sau khi tạo tài khoản InterMIND của bạn, bạn có thể đăng nhập bất cứ lúc nào. Điều này cho phép bạn tổ chức hoặc tham gia các cuộc họp, quản lý cài đặt, truy cập chức năng AI và xem lại các cuộc họp trước đó cùng với bản ghi âm của chúng. Hơn nữa, Trợ lý AI có thể được sử dụng trong lịch sử cuộc họp. Tìm hiểu thêm về [Creating and Scheduling Meetings](./creating-meetings).
 
 ### Truy cập trang đăng nhập
 
@@ -123,7 +123,7 @@ Nếu bạn tạo tài khoản bằng địa chỉ email bên ngoài:
 
 Trang Hồ sơ người dùng trong InterMIND cung cấp cho người dùng cơ hội xem và tùy chỉnh cài đặt cá nhân, quản lý tùy chọn thiết bị, thiết lập tùy chọn giao tiếp và thực hiện các hành động tài khoản thiết yếu, bao gồm xóa tài khoản.
 
-### Truy cập trang hồ sơ người dùng
+### Truy cập trang Hồ sơ người dùng
 
 Người dùng có thể truy cập hồ sơ của họ thông qua hai phương pháp:
 
@@ -147,13 +147,13 @@ Trang hồ sơ được tổ chức thành bốn tab chính:
 
 **Gói hiện tại**
 
-- Hiển thị loại đăng ký đang hoạt động (ví dụ: Cơ bản, Pro) và thời hạn hiệu lực
-- Người dùng Cơ bản thấy nút **Nâng cấp gói**
-- Người dùng Pro thấy nút **Hủy đăng ký**
+- Hiển thị loại đăng ký đang hoạt động (ví dụ: Basic, Pro) và thời hạn hiệu lực
+- Người dùng Basic sẽ thấy nút **Nâng cấp gói** (tìm hiểu thêm về [Bảng giá](./pricing))
+- Người dùng Pro sẽ thấy nút **Hủy đăng ký**
 
 **Tùy chọn giao tiếp**
 
-- **Bản tin**: Nhận cập nhật về các tính năng và cải tiến mới
+- **Bản tin**: Nhận cập nhật về các tính năng mới và cải tiến
 - **Khuyến mãi**: Nhận các ưu đãi đặc biệt và nội dung khuyến mãi
 
 > [!TIP]
@@ -180,7 +180,7 @@ Hiển thị danh sách các hóa đơn đã phát hành với:
 - Trạng thái thanh toán (ví dụ: Đã thanh toán)
 
 > [!TIP]
-> Hóa đơn có thể được tải xuống để báo cáo hoặc lưu trữ.
+> Hóa đơn có thể được tải xuống để báo cáo hoặc lưu trữ hồ sơ.
 
 **Thanh toán**
 Hiển thị các giao dịch thanh toán bao gồm:
@@ -211,10 +211,10 @@ Chọn microphone, loa và camera, bật/tắt làm mờ nền.
 Chọn ngôn ngữ dịch mặc định và điều chỉnh âm lượng giọng nói gốc.
 
 - **Ngôn ngữ đích**: Chọn đầu ra dịch mặc định và ngôn ngữ giao diện
-- **Âm lượng gốc**: Điều chỉnh âm lượng giọng nói nền khi âm thanh đã dịch phát
+- **Âm lượng gốc**: Điều chỉnh âm lượng giọng nói nền trong khi âm thanh đã dịch phát
 
 **Khác**
-Đặt bố cục mặc định (ví dụ: thanh bên), nhà cung cấp trợ lý và tùy chọn tự động rời khi ở một mình.
+Thiết lập bố cục mặc định (ví dụ: thanh bên), nhà cung cấp trợ lý và tùy chọn tự động rời khi ở một mình.
 
 - **Bố cục**: Chọn bố cục hiển thị (ví dụ: Thanh bên, Lưới)
 - **Tự động rời cuộc gọi khi ở một mình**: Bật/tắt tự động ngắt kết nối

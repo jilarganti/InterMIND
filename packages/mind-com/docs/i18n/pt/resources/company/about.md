@@ -1,13 +1,13 @@
-# Mind.com: Eliminando barreiras linguísticas para sempre
+# Mind.com: Eliminando Barreiras Linguísticas para Sempre
 
 ## Quem Somos
 
-**Mind.com** desenvolve **InterMIND** — a primeira plataforma do mundo que torna conversas multilíngues naturais.  
+**Mind.com** desenvolve o **InterMIND** — a primeira plataforma do mundo que torna conversas multilíngues naturais.  
 Estamos eliminando a última barreira para uma colaboração verdadeiramente global.
 
 ## Nossa Missão
 
-**Tornar o aprendizado de idiomas obsoleto para os negócios.**  
+**Tornar o aprendizado de idiomas obsoleto para negócios.**  
 Toda conversa. Toda reunião. Todo negócio — em qualquer idioma, compreendido perfeitamente.
 
 Sem legendas. Sem atrasos. Sem negócios perdidos por causa do idioma.
@@ -23,6 +23,8 @@ Captura **contexto**, **subtexto cultural**, **intenção comercial**.
 
 > Fale naturalmente. Seja compreendido perfeitamente. Feche mais negócios.
 
+Saiba mais sobre [how our technology works](../../product/overview/how-it-works) e explore nossa [video meeting platform](../../product/overview/video-meeting-platform).
+
 ## A Tecnologia
 
 Onde outros traduzem palavras, nós transferimos **significado**.  
@@ -30,6 +32,8 @@ Onde outros adicionam atraso, nós permitimos **fluxo em tempo real**.
 Onde outros criam barreiras, nós criamos **conexão**.
 
 **Mais de 20 idiomas. Zero carga cognitiva. Máximo impacto.**
+
+Descubra os [technical details](../../product/overview/how-it-works) e veja onde causamos o [biggest impact](../../product/overview/markets).
 
 ## Nossa Filosofia
 
@@ -42,3 +46,5 @@ A cultura não deveria ser uma desvantagem competitiva.
 O futuro pertence àqueles que podem colaborar globalmente — instantaneamente, naturalmente, inteligentemente.
 
 — _Equipe Mind.com_
+
+> **Pronto para saber mais?** Visite nossa [página da equipe](./team), explore [oportunidades de carreira](./careers), ou [entre em contato](./contacts).

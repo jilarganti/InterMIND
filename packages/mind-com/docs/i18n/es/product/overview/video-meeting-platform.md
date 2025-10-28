@@ -1,13 +1,15 @@
 ---
-title: "Plataforma de videollamadas"
-description: "Videoconferencias de nivel empresarial con calidad HD, compartir pantalla, grabación, asistente de IA y funciones profesionales para colaboración global."
+title: Plataforma de Videoconferencias
+description: Videoconferencias de nivel empresarial con calidad HD, compartir pantalla, grabación, asistente de IA y funciones profesionales para colaboración global.
 ---
 
-# Plataforma de videollamadas InterMind
+# Plataforma de Videoconferencias InterMind
 
 ## Diseñado para reuniones serias — no solo para conversar
 
-InterMind no es solo otro plugin o herramienta básica — es una plataforma de videollamadas completa y de nivel empresarial diseñada para comunicación profesional, colaboración de alto nivel y operaciones a escala global.
+InterMind no es solo otro plugin o herramienta básica — es una plataforma de videorreuniones completa y de nivel empresarial diseñada para comunicación profesional, colaboración de alto nivel y operaciones a escala global.
+
+Descubre [how our AI translation works](./how-it-works) y ve dónde genera el [biggest impact](./markets).
 
 <video autoplay muted playsinline style="margin-top: 24px" class="light-only">
   <source src="/video-meeting-platform-1d.mp4" type="video/mp4">
@@ -16,13 +18,13 @@ InterMind no es solo otro plugin o herramienta básica — es una plataforma de 
   <source src="/video-meeting-platform-1l.mp4" type="video/mp4">
 </video>
 
-## Calidad profesional
+## Calidad Profesional
 
 <FeatureCards
   :features="[
     {
-      title: '🎥 Video de alta definición 1080p',
-      details: 'Todas las reuniones se transmiten en **HD completo 1080p** con imágenes nítidas para cada participante.',
+      title: '🎥 Video en alta definición 1080p',
+      details: 'Todas las reuniones transmitidas en **HD completo 1080p** con imágenes nítidas para cada participante.',
       items: [
         'Ideal para presentaciones a inversionistas, demostraciones de productos o discusiones legales',
         'Reduce la fatiga cognitiva causada por video pixelado o de baja calidad',
@@ -39,7 +41,7 @@ InterMind no es solo otro plugin o herramienta básica — es una plataforma de 
       items: [
         'Mantiene las reuniones profesionales y enfocadas',
         'Funciona automáticamente sin controles manuales',
-        'Ideal para trabajadores remotos en entornos no insonorizados'
+        'Ideal para trabajadores remotos en ambientes no insonorizados'
       ],
       images: {
         light: '/noise-cancel.png',
@@ -48,10 +50,10 @@ InterMind no es solo otro plugin o herramienta básica — es una plataforma de 
     },
     {
       title: '✏️ Subtítulos en tiempo real',
-      details: '**Subtítulos en tiempo real** opcionales en múltiples idiomas para mejorar la accesibilidad.',
+      details: '**Subtítulos en tiempo real** opcionales en múltiples idiomas para mayor accesibilidad.',
       items: [
         'Apoya a usuarios con discapacidad auditiva',
-        'Ayuda a aclarar el habla técnica o con acento',
+        'Ayuda a aclarar discursos técnicos o con acento',
         'Sincronizado con la voz del hablante en tiempo real'
       ],
       images: {
@@ -71,7 +73,7 @@ InterMind no es solo otro plugin o herramienta básica — es una plataforma de 
       details: 'InterMind se integra perfectamente con **Google Calendar, Outlook e iCal**.',
       items: [
         'Programación consciente de zona horaria',
-        'Enlaces de unión con un clic',
+        'Enlaces de acceso con un clic',
         'Actualizaciones automáticas para reuniones reprogramadas'
       ],
       images: {
@@ -85,7 +87,7 @@ InterMind no es solo otro plugin o herramienta básica — es una plataforma de 
       items: [
         'Recibe recordatorios antes de reuniones importantes',
         'Fácil seguimiento de quién se reunió cuándo — y por qué',
-        'Soporta reuniones recurrentes y archivos adjuntos de agenda'
+        'Admite reuniones recurrentes y archivos adjuntos de agenda'
       ],
       images: {
         light: '/calendar.png',
@@ -164,7 +166,7 @@ InterMind no es solo otro plugin o herramienta básica — es una plataforma de 
       items: [
         'No necesita instalaciones ni extensiones del navegador',
         'Experiencia unificada en web, escritorio y móvil',
-        'Una plataforma segura — construida para escalar'
+        'Una plataforma segura — diseñada para escalar'
       ],
       images: {
         light: '/platform.png',
@@ -176,7 +178,7 @@ InterMind no es solo otro plugin o herramienta básica — es una plataforma de 
       details: 'Seguridad de nivel empresarial con conexiones encriptadas.',
       items: [
         'Reuniones protegidas con contraseña y almacenamiento seguro en la nube',
-        'Construido para colaboración de alto nivel',
+        'Diseñado para colaboración de alto nivel',
         'Cumple con estándares de la industria'
       ],
       images: {
@@ -186,7 +188,7 @@ InterMind no es solo otro plugin o herramienta básica — es una plataforma de 
     },
     {
       title: '🌐 Escala global',
-      details: 'Construido para equipos internacionales y operaciones mundiales.',
+      details: 'Diseñado para equipos internacionales y operaciones mundiales.',
       items: [
         'Soporte multiidioma para equipos globales',
         'Infraestructura optimizada para conexiones confiables',

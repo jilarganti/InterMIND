@@ -1,21 +1,23 @@
 ---
-title: "Datenschutz für KI-Meetings"
-description: "InterMINDs transparente Datenschutz-Architektur mit regionaler Vertraulichkeit, DSGVO-Konformität und Benutzerwahlmöglichkeiten für Datenverarbeitungsstandorte."
+title: Datenschutz für KI-Meetings
+description: InterMINDs transparente Datenschutzarchitektur mit regionaler Vertraulichkeit, DSGVO-Konformität und Nutzerwahlmöglichkeiten für Datenverarbeitungsstandorte.
 ---
 
 # Datenschutz für KI-Meetings
 
 ## Einführung
 
-InterMind ist eine Plattform für mehrsprachige Videobesprechungen mit KI-gestützter Live-Dolmetschung. Wir sind für Fachleute entwickelt — wo nicht nur die Nachricht wichtig ist, sondern auch die Privatsphäre dieser Nachricht.
+InterMind ist eine Plattform für mehrsprachige Videobesprechungen mit Live-KI-gestützter Dolmetschung. Wir sind für Fachkräfte entwickelt — wo nicht nur die Nachricht wichtig ist, sondern auch die Privatsphäre dieser Nachricht.
 
-Um eine nahtlose Erfahrung zu bieten, integriert InterMind Drittanbieterdienste für Video, Audio, Cloud-Speicher, Echtzeit-Dolmetschung und Analytik. Diese Drittanbieter helfen uns dabei, Leistung und Skalierbarkeit sicherzustellen — aber sie führen auch eine Ebene ein, die wir nicht direkt kontrollieren können.
+Um ein nahtloses Erlebnis zu bieten, integriert InterMind Drittanbieterdienste für Video, Audio, Cloud-Speicher, Echtzeit-Dolmetschung und Analytik. Diese Drittanbieter helfen uns dabei, Leistung und Skalierbarkeit sicherzustellen — aber sie führen auch eine Ebene ein, die wir nicht direkt kontrollieren können.
 
-Wir glauben an **Transparenz statt Versprechen**. Wir können nur Privatsphäre und Sicherheit für Komponenten garantieren, die unter unserer direkten Kontrolle stehen — unsere Software, Schnittstellenlogik und wie wir Daten weiterleiten. Für alles andere bieten wir Ihnen **die Macht der Wahl**.
+Erfahren Sie mehr über [wie unsere Plattform funktioniert](./how-it-works) und unsere [Video-Meeting-Funktionen](./video-meeting-platform).
 
-Deshalb haben wir InterMind mit **regionsbasierter Vertraulichkeit** entwickelt: Sie wählen, wo Ihre Daten verarbeitet werden, welcher rechtliche Rahmen sie regelt und welche KI-Modelle verwendet werden — basierend auf Ihrer gewählten Privatsphäre-Zone.
+Wir glauben an **Transparenz statt Versprechen**. Wir können nur Datenschutz und Sicherheit für Komponenten garantieren, die unter unserer direkten Kontrolle stehen — unsere Software, Schnittstellenlogik und wie wir Daten weiterleiten. Für alles andere bieten wir Ihnen **die Macht der Wahl**.
 
-> **Was ist eine Privatsphäre-Zone?**  
+Deshalb haben wir InterMind mit **regionenbasierter Vertraulichkeit** entwickelt: Sie wählen, wo Ihre Daten verarbeitet werden, welcher rechtliche Rahmen sie regelt und welche KI-Modelle verwendet werden — basierend auf Ihrer gewählten Datenschutzzone.
+
+> **Was ist eine Datenschutzzone?**  
 > _Eine konfigurierbare Region (EU, USA, Asien), die bestimmt, wo Ihre Daten verarbeitet werden und unter welchem rechtlichen Rahmen._
 
 ## Grundlegende Datenschutzprinzipien
@@ -23,7 +25,7 @@ Deshalb haben wir InterMind mit **regionsbasierter Vertraulichkeit** entwickelt:
 ### 1. **Geteiltes Verantwortungsmodell**
 
 - InterMind **besitzt oder betreibt nicht** die zugrundeliegende Cloud-Infrastruktur oder LLMs (große Sprachmodelle).
-- Wir speichern Ihre Mediendateien nicht und verarbeiten Ihre Sprache auch nicht direkt für das Modelltraining.
+- Wir speichern Ihre Mediendateien nicht und verarbeiten Ihre Sprache nicht direkt für das Modelltraining.
 - Wir **kontrollieren** die clientseitige Software, Routing-Regeln und Compliance-Logik — einschließlich der Region, durch die Ihre Daten fließen, welches Modell verwendet wird und unter welchen Bedingungen.
 
 ### 2. **Architektonische Transparenz**
@@ -41,12 +43,12 @@ Deshalb haben wir InterMind mit **regionsbasierter Vertraulichkeit** entwickelt:
 
 Zu Beginn jeder Sitzung oder als Teil der Kontoeinstellungen Ihrer Organisation können Sie eine bevorzugte Datenschutzzone auswählen:
 
-| Region            | Anwendbare Gesetze                                                                            | Infrastruktur                  | LLM-Anbieter               |
-| ----------------- | --------------------------------------------------------------------------------------------- | ------------------------------ | -------------------------- |
-| Europa            | [GDPR](https://gdpr.eu)                                                                       | Nur EU-Rechenzentren           | EU-gehostet oder EU-konform |
-| Vereinigte Staaten| [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (US)         | OpenAI US / Anthropic US   |
-| VAE / MENA        | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | VAE oder Bahrain Cloud         | Regionale oder konforme LLMs |
-| Asien / China     | Lokale chinesische Datenschutzgesetze                                                        | Alibaba, Huawei, Tencent Cloud | Nur China-basierte LLMs    |
+| Region        | Anwendbare Gesetze                                                                               | Infrastruktur                 | LLM-Anbieter              |
+| ------------- | --------------------------------------------------------------------------------------------- | ------------------------------ | -------------------------- |
+| Europa        | [GDPR](https://gdpr.eu)                                                                       | Nur EU-Rechenzentren           | EU-gehostet oder EU-konform  |
+| Vereinigte Staaten | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (US)         | OpenAI US / Anthropic US   |
+| VAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | VAE oder Bahrain Cloud           | Regionale oder konforme LLMs |
+| Asien / China  | Lokale chinesische Datenschutzgesetze                                                                    | Alibaba, Huawei, Tencent Cloud | Nur China-basierte LLMs      |
 
 Diese Auswahl bestimmt, wie Ihre Video-, Audio- und interpretierten Inhalte verarbeitet werden und unter welcher Gerichtsbarkeit.
 
@@ -82,8 +84,8 @@ InterMind unterstützt vollständige Kompatibilität mit:
 
 - **DSGVO** — Recht auf Zugang, Löschung, Export und Einschränkung der Verarbeitung. Kein KI-Profiling.
 - **CCPA** — Kein Verkauf personenbezogener Daten, Opt-out-Optionen und transparente Erhebungspraktiken.
-- **UAE PDPL** — Lokale Speicherung auf Anfrage, strenge Zugangskontrollen, keine internationalen Übertragungen ohne Zustimmung.
-- **China DSL/PIPL** — Nur regionale Verarbeitung, kein ausländisches Routing bei Auswahl von China.
+- **UAE PDPL** — Lokale Speicherung auf Anfrage, strenge Zugangskontrollen, keine internationalen Übertragungen ohne Einverständnis.
+- **China DSL/PIPL** — Ausschließlich regionale Verarbeitung, kein ausländisches Routing bei Auswahl von China.
 
 ## Was wir garantieren können und was nicht
 
@@ -100,7 +102,7 @@ Wir verpflichten uns zu vollständiger Ehrlichkeit, nicht nur zu Juristensprache
 ### Wir garantieren:
 
 - Sie wissen immer **wo und wie** Ihre Daten verarbeitet werden.
-- Sie haben Werkzeuge zur **Risikokontrolle** durch Auswahl Ihrer Region und Ihres Compliance-Modus.
+- Sie haben Werkzeuge zur **Risikokontrolle** durch Auswahl Ihrer Region und Compliance-Modus.
 - InterMind speichert oder nutzt **niemals** Ihre Inhalte aus — auch nicht vorübergehend — ohne Ihre Zustimmung.
 
 ## Vertrauensmodi & Datenschutzstufen
@@ -132,3 +134,5 @@ InterMind versteckt sich nicht hinter vagen Zusicherungen. Stattdessen geben wir
 - Sie entscheiden, welches Risiko Sie bereit sind zu akzeptieren — und wir helfen Ihnen, auf jeder Ebene compliant zu bleiben.
 
 **InterMind — entwickelt für Profis, unterstützt durch Compliance, geleitet von Vertrauen.**
+
+> **Fragen zum Datenschutz?** [Contact us](../../resources/company/contacts) oder lesen Sie über [our company values](../../resources/company/about).

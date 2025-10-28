@@ -1,6 +1,6 @@
 ---
-title: "Wie KI-Echtzeitübersetzung funktioniert"
-description: "Erfahren Sie, wie InterMINDs sofortige bidirektionale Übersetzung mit Spracherkennung, neuronaler Übersetzung und Sprachsynthese für nahtlose Kommunikation funktioniert."
+title: Wie KI-Echtzeitübersetzung funktioniert
+description: Erfahren Sie, wie InterMINDs sofortige bidirektionale Übersetzung mit Spracherkennung, neuronaler Übersetzung und Sprachsynthese für nahtlose Kommunikation funktioniert.
 ---
 
 # Wie KI-Echtzeitübersetzung funktioniert
@@ -8,6 +8,8 @@ description: "Erfahren Sie, wie InterMINDs sofortige bidirektionale Übersetzung
 ## Sprechen und hören Sie in Ihrer Sprache
 
 InterMind ist eine Multi-User-Videokonferenzplattform mit **sofortiger bidirektionaler Übersetzung**. Jeder Teilnehmer kann sprechen und andere in **seiner Muttersprache** hören, wodurch der Effekt natürlicher Kommunikation ohne Sprachbarrieren entsteht.
+
+Erfahren Sie mehr darüber, [was InterMIND anders macht](./what-is-intermind) und entdecken Sie unsere [vollständigen Plattform-Features](./video-meeting-platform).
 
 ## So funktioniert es:
 
@@ -27,10 +29,10 @@ InterMind ist eine Multi-User-Videokonferenzplattform mit **sofortiger bidirekti
 
 - **Entfernung von Sprachfehlern**: Eliminierung von "äh", "ähm", Wiederholungen, Stottern
 - **Korrektur von Erkennungsfehlern**: kontextbasierte Korrektur
-- **Zeichensetzung und Strukturierung**: automatische Zeichensetzung
+- **Zeichensetzung und Strukturierung**: automatische Platzierung von Satzzeichen
 - **Extraktion der Kernbedeutung**: Identifikation von Haupt- und Nebengedanken
 - **Äußerungssegmentierung**: Aufteilung in logische Blöcke für präzise Übersetzung
-- **Kontextanalyse**: Verknüpfung mit vorherigen Bemerkungen und dem Gesamtthema
+- **Kontextuelle Analyse**: Verknüpfung mit vorherigen Bemerkungen und dem Gesamtthema
 
 ### 3. **Neuronale Übersetzung**
 
@@ -46,7 +48,7 @@ InterMind ist eine Multi-User-Videokonferenzplattform mit **sofortiger bidirekti
 - Auswahl männlicher/weiblicher Stimme
 - Geschwindigkeits- und Tonanpassung
 
-All dies geschieht mit **Latenz unter 3 Sekunden** — entspricht der Geschwindigkeit professioneller Simultandolmetscher[^1] [^2].
+All dies geschieht mit **einer Latenz unter 3 Sekunden** — entsprechend der Geschwindigkeit professioneller Simultandolmetscher[^1] [^2].
 
 ## Praktische Vorteile
 
@@ -60,11 +62,11 @@ All dies geschieht mit **Latenz unter 3 Sekunden** — entspricht der Geschwindi
 ### Für Unternehmen:
 
 - **Globale Teams**: Beseitigung von Sprachbarrieren in internationalen Teams
-- **Kundenmeetings**: direkte Kommunikation mit Kunden ohne Dolmetscherdienste
+- **Kundenbesprechungen**: direkte Kommunikation mit Kunden ohne Dolmetscherdienste
 - **Schulungen und Präsentationen**: gleichzeitige Inhaltsbereitstellung in mehreren Sprachen
 - **Kosteneinsparungen**: Reduzierung der Dolmetscherkosten um bis zu **80%**
 
-### Für Nutzer:
+### Für Benutzer:
 
 - **Natürlichkeit**: sprechen Sie wie gewohnt, denken Sie in Ihrer Muttersprache
 - **Privatsphäre**: keine Dritten (Dolmetscher)
@@ -76,7 +78,7 @@ All dies geschieht mit **Latenz unter 3 Sekunden** — entspricht der Geschwindi
 ### Technologie-Stack:
 
 - **LLM-Anbieter**: GPT-4, Claude, Gemini (regionale Auswahl)
-- **Regionalität**: Einhaltung lokaler Datenschutzbestimmungen (GDPR, CCPA)
+- **Regionalität**: Einhaltung lokaler Datenschutzbestimmungen (DSGVO, CCPA)
 - **Kontinuierliches Lernen**: Analyse von über 10.000 Stunden mehrsprachiger Meetings monatlich
 - **Spezialisierung**: Modelle für spezifische Branchen (Medizin, Recht, Finanzen, IT)
 
@@ -107,3 +109,5 @@ Das gesamte Audio-/Video-Routing wird über unsere proprietäre Mind API abgewic
 [^1]: Standard-Latenz für menschliche Simultanübersetzung beträgt ~2–3 Sekunden.
 
 [^2]: Basierend auf dem aktuellen Fortschritt in der KI-Übersetzung erwarten wir, dass Modelle innerhalb von 2–3 Jahren durchgängig die besten menschlichen Übersetzer übertreffen werden — einschließlich spezialisierter Bereiche wie Recht, Finanzen, Gesundheitswesen und Ingenieurwesen.
+
+> **Möchten Sie mehr erfahren?** Lesen Sie über den [difference between translation and interpretation](./translation-vs-interpretation-whats-the-difference) oder entdecken Sie unseren Ansatz zum [data privacy](./privacy-architecture).

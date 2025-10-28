@@ -1,15 +1,15 @@
 ---
-title: "Ayuda y soporte"
-description: "Obtén ayuda con InterMIND. Reporta problemas, sugiere funciones y contacta a nuestro equipo de soporte a través del formulario de comentarios integrado."
+title: Ayuda y soporte
+description: Obtén ayuda con InterMIND. Reporta problemas, sugiere funciones y contacta a nuestro equipo de soporte a través del formulario de comentarios integrado.
 ---
 
 # Ayuda y soporte
 
-Si enfrentas algún problema o tienes una solicitud de función, no dudes en contactar al equipo de InterMIND directamente a través del formulario de comentarios integrado. Esta función es rápida y fácil de usar, permitiéndonos mejorar InterMIND para todos.
+Si enfrentas algún problema o tienes una solicitud de función, no dudes en contactar al equipo de InterMIND directamente a través del formulario de comentarios integrado. Esta función es rápida y fácil de usar, permitiéndonos mejorar InterMIND para todos. Para problemas comunes, consulta primero nuestra guía de [Troubleshooting](./troubleshooting).
 
 ## Para enviar comentarios:
 
-1. Haz clic en el botón **Enviar Comentarios** (generalmente se encuentra en la esquina inferior derecha o en el Mostrar Menú)
+1. Haz clic en el botón **Enviar Comentarios** (generalmente se encuentra en la esquina inferior derecha o en el Menú Mostrar)
 2. Elige una de las siguientes opciones:
    - **Reportar un Problema**: Describe lo que estabas tratando de hacer y qué salió mal
    - **Sugerir una Idea**: Comparte una solicitud de función o mejora que te gustaría ver

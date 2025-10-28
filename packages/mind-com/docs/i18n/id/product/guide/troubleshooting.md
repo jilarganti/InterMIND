@@ -1,11 +1,11 @@
 ---
-title: "Pemecahan Masalah"
-description: "Perbaiki masalah umum InterMIND dengan mikrofon, kamera, penerjemah, berbagi layar, dan perekaman. Solusi untuk rapat online yang lancar."
+title: Pemecahan Masalah
+description: Perbaiki masalah umum InterMIND dengan mikrofon, kamera, penerjemah, berbagi layar, dan perekaman. Solusi untuk rapat online yang lancar.
 ---
 
 # Pemecahan Masalah
 
-Bagian ini menyediakan solusi untuk masalah umum yang ditemui selama rapat online, termasuk masalah dengan mikrofon, kamera, bergabung dalam rapat, menggunakan asisten suara, penerjemah, berbagi layar, dan perekaman. Ini menguraikan penyebab potensial untuk setiap masalah dan menawarkan solusi praktis untuk menyelesaikannya, memastikan pengalaman rapat online yang lebih lancar.
+Bagian ini menyediakan solusi untuk masalah umum yang dihadapi selama rapat online, termasuk masalah dengan mikrofon, kamera, bergabung ke rapat, menggunakan asisten suara, penerjemah, berbagi layar, dan perekaman. Bagian ini menguraikan penyebab potensial untuk setiap masalah dan menawarkan solusi praktis untuk menyelesaikannya, memastikan pengalaman rapat online yang lebih lancar. Untuk bantuan tambahan, lihat [Help & Support](./help-support).
 
 ## Mikrofon atau Kamera Tidak Berfungsi
 
@@ -18,7 +18,7 @@ Bagian ini menyediakan solusi untuk masalah umum yang ditemui selama rapat onlin
 ### Solusi:
 
 - Izinkan akses saat diminta
-- Navigasi ke Pengaturan > Mikrofon/Kamera dan pilih perangkat yang benar
+- Buka Pengaturan > Mikrofon/Kamera dan pilih perangkat yang benar
 - Tutup aplikasi seperti Zoom, Skype, dll.
 
 ## Tidak Dapat Bergabung ke Rapat
@@ -105,4 +105,4 @@ Bagian ini menyediakan solusi untuk masalah umum yang ditemui selama rapat onlin
 - Verifikasi izin dengan Host
 
 > [!TIP]
-> Jika Anda terus mengalami masalah, pastikan browser Anda telah diperbarui ke versi terbaru dan Anda memiliki koneksi internet yang stabil minimal 2 Mbps.
+> Jika Anda terus mengalami masalah, pastikan browser Anda telah diperbarui ke versi terbaru dan Anda memiliki koneksi internet yang stabil minimal 2 Mbps. Periksa [Getting Started](./getting-started#device--browser-compatibility) untuk informasi kompatibilitas atau hubungi [Help & Support](./help-support).

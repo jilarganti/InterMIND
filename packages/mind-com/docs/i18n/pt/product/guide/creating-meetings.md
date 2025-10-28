@@ -1,11 +1,11 @@
 ---
-title: "Criando e agendando reuniões"
-description: "Aprenda como criar reuniões instantâneas, agendar no Google Calendar e gerar links de reunião reutilizáveis na plataforma de videoconferência InterMIND."
+title: Criando e agendando reuniões
+description: Aprenda como criar reuniões instantâneas, agendar no Google Calendar e gerar links de reunião reutilizáveis na plataforma de videoconferência InterMIND.
 ---
 
 # Criando e agendando reuniões
 
-Após fazer login no InterMIND, os usuários podem convenientemente criar e agendar reuniões diretamente da interface principal clicando no botão **Nova Reunião**.
+Após fazer login no InterMIND (consulte [Gerenciamento de conta](./account-management)), os usuários podem convenientemente criar e agendar reuniões diretamente da interface principal clicando no botão **Nova reunião**.
 
 ## Acessando as Opções de Reunião
 
@@ -39,7 +39,7 @@ Esta opção permite aos usuários iniciar uma sessão de reunião ao vivo imedi
 1. Clique no botão **Nova Reunião**
 2. Selecione a opção **Iniciar uma reunião instantânea**
 3. Uma sala de reunião será aberta instantaneamente na aba atual
-4. Você assumirá automaticamente o papel de Anfitrião
+4. Você assumirá automaticamente o papel de Anfitrião (saiba mais sobre [User Roles](./user-roles))
 5. Utilize a opção 'Copiar Link' localizada no canto inferior esquerdo, ou copie o link da barra de endereços do navegador
 6. Compartilhe o link com outros participantes
 
@@ -67,4 +67,4 @@ Agende uma reunião futura e integre-a perfeitamente ao seu Google Calendar.
 
 Assim que a reunião for agendada e se o Google Calendar estiver conectado ao InterMIND, esta reunião aparecerá na página principal do InterMIND na seção com reuniões agendadas.
 
-Além disso, assim que os participantes convidados aceitarem o convite para a reunião, ela aparecerá em sua página principal do InterMIND na seção com reuniões agendadas, desde que estejam autorizados e tenham a sincronização com o Google Calendar habilitada.
+Além disso, assim que os participantes convidados aceitarem o convite para a reunião, ela aparecerá em sua página principal do InterMIND na seção com reuniões agendadas, desde que estejam autorizados e tenham a sincronização com o Google Calendar habilitada. Após o término da reunião, ela estará disponível no [Histórico de Reuniões](./meeting-history).

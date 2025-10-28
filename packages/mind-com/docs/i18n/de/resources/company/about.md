@@ -16,12 +16,14 @@ Keine Untertitel. Keine Verzögerungen. Keine verlorenen Geschäfte wegen Sprach
 
 **Keine Übersetzung. Keine Dolmetschung. Etwas völlig Neues.**
 
-InterMIND ist **konversationelle Telepathie** — Sie denken auf Englisch, sie hören perfektes Mandarin. Sie antworten auf Japanisch, Sie verstehen jede Nuance.
+InterMIND ist **gesprächige Telepathie** — Sie denken auf Englisch, sie hören perfektes Mandarin. Sie antworten auf Japanisch, Sie verstehen jede Nuance.
 
 Es bewahrt **Ihre Stimme**, **Ihren Ton**, **Ihre Persönlichkeit** — in jeder Sprache.  
 Es erfasst **Kontext**, **kulturellen Subtext**, **Geschäftsabsicht**.
 
 > Sprechen Sie natürlich. Werden Sie perfekt verstanden. Schließen Sie mehr Geschäfte ab.
+
+Erfahren Sie mehr über [how our technology works](../../product/overview/how-it-works) und entdecken Sie unsere [video meeting platform](../../product/overview/video-meeting-platform).
 
 ## Die Technologie
 
@@ -31,14 +33,18 @@ Wo andere Barrieren schaffen, schaffen wir **Verbindung**.
 
 **20+ Sprachen. Null kognitive Belastung. Maximale Wirkung.**
 
+Entdecken Sie die [technischen Details](../../product/overview/how-it-works) und sehen Sie, wo wir die [größte Wirkung](../../product/overview/markets) erzielen.
+
 ## Unsere Philosophie
 
-Sprache sollte nicht bestimmen, mit wem Sie arbeiten können.  
-Geografie sollte Ihre Ambitionen nicht begrenzen.  
-Kultur sollte kein Wettbewerbsnachteil sein.
+Die Sprache sollte nicht bestimmen, mit wem Sie arbeiten können.  
+Die Geografie sollte Ihre Ambitionen nicht begrenzen.  
+Die Kultur sollte kein Wettbewerbsnachteil sein.
 
-> **Wir bauen keinen Übersetzer. Wir bauen eine Brücke zwischen Welten.**
+> **Wir entwickeln keinen Übersetzer. Wir bauen eine Brücke zwischen Welten.**
 
 Die Zukunft gehört denen, die global zusammenarbeiten können — sofort, natürlich, intelligent.
 
 — _Das Mind.com Team_
+
+> **Bereit, mehr zu erfahren?** Besuchen Sie unsere [team page](./team), erkunden Sie [career opportunities](./careers), oder [get in touch](./contacts).

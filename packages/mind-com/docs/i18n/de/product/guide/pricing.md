@@ -1,6 +1,6 @@
 ---
-title: "Preise"
-description: "Vergleichen Sie InterMIND-Tarife - Basic, Pro und Business. Finden Sie den richtigen Tarif mit Meeting-Limits, Teilnehmerkapazität, KI-Features und Speicheroptionen."
+title: Preise
+description: Vergleichen Sie InterMIND-Tarife - Basic, Pro und Business. Finden Sie den richtigen Tarif mit Meeting-Limits, Teilnehmerkapazität, KI-Features und Speicheroptionen.
 ---
 
 # Preise
@@ -16,8 +16,8 @@ Die Preisseite bietet einen klaren Vergleich aller verfügbaren Tarife—Basic, 
 
 ### Von der Profilseite (für Basic-Plan-Benutzer)
 
-- Navigieren Sie zu Profil > Profil-Tab
-- Klicken Sie auf die Schaltfläche **Plan upgraden** unter Ihrem aktuellen Plan
+- Navigieren Sie zu Profil > Profil-Tab (siehe [Kontoverwaltung](./account-management#user-profile))
+- Klicken Sie auf die Schaltfläche **Plan upgraden**, die sich unter Ihrem aktuellen Plan befindet
 
 ### Über die Seitenkopfzeile
 
@@ -34,22 +34,22 @@ Die Preisseite umfasst drei Tarife:
 
 | Plan         | Preis                                        | Hauptfunktionen                                                                    |
 | ------------ | -------------------------------------------- | ---------------------------------------------------------------------------------- |
-| **Basic**    | Kostenlos                                    | 25 Meetings, 100 Teilnehmer, 30 GB Speicher, begrenzte Übersetzung              |
-| **Pro**      | 25 €/Monat (oder 20 €/Monat bei jährlicher Abrechnung) | Unbegrenzte Meetings, 150 Teilnehmer, 2 TB Speicher, alle KI-Funktionen         |
-| **Business** | Individuell (Vertrieb kontaktieren)         | 500 Teilnehmer, 5 TB Speicher, KI-Kollege (Alpha), Unternehmensfunktionen       |
+| **Basic**    | Kostenlos                                    | 25 Meetings, 100 Teilnehmer, 30 GB Speicher, begrenzte Dolmetschfunktion         |
+| **Pro**      | 25 €/Monat (oder 20 €/Monat bei jährlicher Abrechnung) | Unbegrenzte Meetings, 150 Teilnehmer, 2 TB Speicher, alle KI-Funktionen          |
+| **Business** | Individuell (Vertrieb kontaktieren)         | 500 Teilnehmer, 5 TB Speicher, KI-Kollege (Alpha), Unternehmensfunktionen        |
 
 ### Weitere Highlights
 
 - Das Umschalten zwischen **Monatlich** und **Jährlich** aktiviert vergünstigte Preise für den Pro-Plan
 - Die Schaltfläche **Aktueller Plan** zeigt an, welcher Plan aktiv ist
-- Die Schaltfläche **Kontaktieren Sie uns** ermöglicht es Business-Kunden, maßgeschneiderte Lösungen anzufordern
+- Die Schaltfläche **Kontakt** ermöglicht es Business-Kunden, maßgeschneiderte Lösungen anzufordern
 
 > [!TIP]
-> Plan-Upgrades werden sofort wirksam und wenden entsprechend erweiterte Funktionslimits an.
+> Plan-Upgrades werden sofort wirksam und die erweiterten Funktionslimits entsprechend angewendet.
 
 ## Abonnement-Zahlung über Stripe
 
-- Nach dem Klicken auf **Jetzt kaufen** werden Benutzer zu einer sicheren Stripe-Zahlungsseite in einem neuen Tab weitergeleitet
+- Nach dem Klick auf **Jetzt kaufen** werden Benutzer zu einer sicheren Stripe-Zahlungsseite in einem neuen Tab weitergeleitet
 - Die folgenden Felder sind für die Vervollständigung erforderlich:
   - E-Mail
   - Kartendetails

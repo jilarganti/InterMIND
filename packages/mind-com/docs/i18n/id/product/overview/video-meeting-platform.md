@@ -1,6 +1,6 @@
 ---
-title: "Platform Rapat Video"
-description: "Konferensi video tingkat enterprise dengan kualitas HD, berbagi layar, perekaman, asisten AI, dan fitur profesional untuk kolaborasi global."
+title: Platform Rapat Video
+description: Konferensi video tingkat enterprise dengan kualitas HD, berbagi layar, perekaman, asisten AI, dan fitur profesional untuk kolaborasi global.
 ---
 
 # Platform Rapat Video InterMind
@@ -8,6 +8,8 @@ description: "Konferensi video tingkat enterprise dengan kualitas HD, berbagi la
 ## Dibangun untuk Rapat Serius — Bukan Sekadar Berbicara
 
 InterMind bukan hanya plugin atau alat ringan biasa — ini adalah platform rapat video berfitur lengkap tingkat enterprise yang dirancang untuk komunikasi profesional, kolaborasi berisiko tinggi, dan operasi skala global.
+
+Temukan [cara kerja terjemahan AI kami](./how-it-works) dan lihat di mana ia memberikan [dampak terbesar](./markets).
 
 <video autoplay muted playsinline style="margin-top: 24px" class="light-only">
   <source src="/video-meeting-platform-1d.mp4" type="video/mp4">
@@ -22,7 +24,7 @@ InterMind bukan hanya plugin atau alat ringan biasa — ini adalah platform rapa
   :features="[
     {
       title: '🎥 Video Definisi Tinggi 1080p',
-      details: 'Semua rapat disiarkan dalam **HD penuh 1080p** dengan visual yang sangat jernih untuk setiap peserta.',
+      details: 'Semua rapat ditayangkan dalam **full HD 1080p** dengan visual yang sangat jernih untuk setiap peserta.',
       items: [
         'Sangat baik untuk presentasi investor, demo produk, atau diskusi hukum',
         'Mengurangi kelelahan kognitif dari video yang berpiksel atau berkualitas rendah',
@@ -139,10 +141,10 @@ InterMind bukan hanya plugin atau alat ringan biasa — ini adalah platform rapa
       },
     },
     {
-      title: '🧑‍⚖️ Alat Moderasi Profesional',
-      details: 'Pimpin dengan percaya diri menggunakan **kontrol moderasi** bawaan.',
+      title: '🧑‍⚖️ Alat moderasi profesional',
+      details: 'Host dengan percaya diri menggunakan **kontrol moderasi** bawaan.',
       items: [
-        'Bisukan/buka suara peserta',
+        'Bisukan/aktifkan suara peserta',
         'Kontrol berbagi layar dan akses kamera',
         'Tetapkan co-host atau moderator'
       ],
@@ -154,7 +156,7 @@ InterMind bukan hanya plugin atau alat ringan biasa — ini adalah platform rapa
   ]"
 />
 
-## Siap untuk Perusahaan
+## Siap untuk Enterprise
 
 <FeatureCards
   :features="[
@@ -175,7 +177,7 @@ InterMind bukan hanya plugin atau alat ringan biasa — ini adalah platform rapa
       title: '🔒 Aman & Dapat Diskalakan',
       details: 'Keamanan tingkat enterprise dengan koneksi terenkripsi.',
       items: [
-        'Rapat terlindungi kata sandi dan penyimpanan cloud yang aman',
+        'Meeting terlindungi password dan penyimpanan cloud yang aman',
         'Dibangun untuk kolaborasi berisiko tinggi',
         'Mematuhi standar industri'
       ],
@@ -190,7 +192,7 @@ InterMind bukan hanya plugin atau alat ringan biasa — ini adalah platform rapa
       items: [
         'Dukungan multi-bahasa untuk tim global',
         'Infrastruktur yang dioptimalkan untuk koneksi yang andal',
-        'Dirancang untuk kolaborasi lintas batas'
+        'Dirancang untuk kolaborasi lintas negara'
       ],
       images: {
         light: '/global.png',

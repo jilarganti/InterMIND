@@ -1,7 +1,7 @@
 ---
 layout: BlogPost
-title: "apiMind so sánh với Google Meet và Jitsi"
-description: "So sánh toàn diện hiệu suất của apiMind với Google Meet và Jitsi dựa trên kiểm thử độc lập."
+title: apiMind so sánh với Google Meet và Jitsi
+description: So sánh toàn diện hiệu suất của apiMind với Google Meet và Jitsi dựa trên kiểm thử độc lập.
 date: 2025-08-18
 author: "[Jilarganti](https://github.com/jilarganti)"
 ---
@@ -47,8 +47,8 @@ apiMind thể hiện:
 
 Chúng tôi thẳng thắn thừa nhận những lĩnh vực cần được cải thiện:
 
-1. **Thích ứng băng thông thấp (200kbps)** — Hiện đang gặp phải tình trạng âm thanh bị gián đoạn và FPS giảm xuống ~5 FPS (Google Meet duy trì ~17 FPS)
-2. **Khôi phục chất lượng sau khi mạng được cải thiện** — Hệ thống không nhất quán trong việc trở lại chất lượng ban đầu (tỷ lệ khôi phục 50% trong các bài kiểm tra)
+1. **Thích ứng băng thông thấp (200kbps)** — Hiện đang gặp tình trạng mất âm thanh và giảm FPS xuống ~5 FPS (Google Meet duy trì ~17 FPS)
+2. **Khôi phục chất lượng sau khi mạng được cải thiện** — Hệ thống không ổn định trong việc trở lại chất lượng ban đầu (tỷ lệ khôi phục 50% trong các bài kiểm tra)
 3. **Độ trễ cơ bản** — Độ trễ âm thanh/video cao hơn so với đối thủ cạnh tranh trong điều kiện tối ưu
 
 ## Tiến bộ theo năm: Những cải thiện có thể đo lường được
@@ -85,7 +85,7 @@ So với kết quả năm 2023, chúng tôi đã đạt được:
 Các ưu tiên tối ưu hóa của chúng tôi phản ánh các mô hình sử dụng thực tế:
 
 - **apiMind** vượt trội khi thời gian mạng không ổn định (jitter/độ trễ)
-- **Google Meet** hoạt động tốt nhất với kết nối băng thông cao, ổn định
+- **Google Meet** hoạt động tốt nhất với kết nối băng thông cao và ổn định
 - **Jitsi** cung cấp tính linh hoạt mã nguồn mở nhưng có thể tắt video khi gặp áp lực
 
 Mỗi nền tảng đều có điểm mạnh riêng — chúng tôi tập trung vào việc duy trì giao tiếp khi điều kiện mạng không thể dự đoán được.
@@ -102,8 +102,8 @@ Chúng tôi đang tích cực làm việc trên:
 
 Dữ liệu kể một câu chuyện, nhưng trải nghiệm của chính bạn sẽ viết nên chương cuối:
 
-- [Tải xuống báo cáo kiểm tra đầy đủ - 2024](/Presentation-TDL-2024.pdf) (90 trang với các chỉ số chi tiết)
-- [Tải xuống báo cáo kiểm tra đầy đủ - 2023](/Presentation-TDL-2023.pdf) (85 trang với các chỉ số chi tiết)
+- [Tải xuống báo cáo kiểm tra đầy đủ - 2024](/Presentation-TDL-2024.pdf) (90 trang chỉ số chi tiết)
+- [Tải xuống báo cáo kiểm tra đầy đủ - 2023](/Presentation-TDL-2023.pdf) (85 trang chỉ số chi tiết)
 
 ## Kết luận
 
@@ -117,4 +117,4 @@ _Nghiên cứu được thực hiện bởi TestDevLab (Latvia) vào tháng 7 n�
 
 ---
 
-**#apiMind #VideoConferencing #Benchmarking #RemoteWork #TechInnovation**
+**#apiMind #HộiNghịTruyềnHình #ĐánhGiáHiệuSuất #LàmViệcTừXa #CảiTiếnCôngNghệ**

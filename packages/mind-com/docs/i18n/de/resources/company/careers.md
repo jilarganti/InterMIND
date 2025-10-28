@@ -7,6 +7,8 @@ Wir entwickeln Technologie, die Sprachbarrieren zwischen Menschen beseitigt. Uns
 
 Das ist kein Übersetzer. Das ist ein neues Paradigma für globale Kommunikation.
 
+Erfahren Sie mehr über [was wir entwickeln](../../product/overview/what-is-intermind) und [wie es funktioniert](../../product/overview/how-it-works).
+
 ## Zeigen Sie Ergebnisse, nicht Zeugnisse
 
 Möchten Sie sich uns anschließen? Zeigen Sie uns etwas Nützliches und Bedeutsames, das Sie bereits für Menschen entwickelt haben.
@@ -23,11 +25,11 @@ Wir suchen Menschen, die:
 
 **Global denken.** Haben Sie mit Menschen aus verschiedenen Ländern gearbeitet? Probleme in multikulturellen Umgebungen gelöst? Produkte für internationale Zielgruppen entwickelt?
 
-**Schwierige Probleme angehen.** Projekte übernommen, für die keine Lösung existierte? Etwas von Grund auf neu entwickelt? Das Unmögliche selbstverständlich aussehen lassen?
+**Schwierige Probleme anpacken.** Projekte übernommen, für die keine Lösung existierte? Etwas von Grund auf neu entwickelt? Das Unmögliche selbstverständlich aussehen lassen?
 
 ## Was wir entwickeln
 
-Eine Plattform, die Fremdsprachenkenntnisse für beruflichen Erfolg optional macht. Stellen Sie sich vor: Ein japanischer Ingenieur, ein deutscher Manager und ein brasilianischer Designer diskutieren über ein Projekt – jeder spricht in seiner Muttersprache, alle verstehen sich perfekt.
+Eine Plattform, die Fremdsprachenkenntnisse für beruflichen Erfolg optional macht. Stellen Sie sich vor: Ein japanischer Ingenieur, ein deutscher Manager und ein brasilianischer Designer besprechen ein Projekt – jeder spricht in seiner Muttersprache, alle verstehen sich perfekt.
 
 Wir übersetzen nicht nur Wörter – wir bewahren Bedeutung, Tonfall und kulturellen Kontext. In Echtzeit. Ohne Verzögerungen. Mit menschlicher Genauigkeit.
 
@@ -79,7 +81,7 @@ Wir übersetzen nicht nur Wörter – wir bewahren Bedeutung, Tonfall und kultur
 
 3. **Mit dem Team sprechen.** Wenn Ihre Erfahrung uns interessiert, werden Sie mit Teammitgliedern sprechen. Keine formellen Interviews—nur Gespräche darüber, was und wie Sie entwickeln.
 
-4. **Mit uns arbeiten.** Ein kurzes reales Projekt, damit alle verstehen, wie wir zusammenarbeiten.
+4. **Mit uns arbeiten.** Ein kurzes echtes Projekt, damit alle verstehen, wie wir zusammenarbeiten.
 
 ## Was wir bieten
 
@@ -88,19 +90,21 @@ Wir übersetzen nicht nur Wörter – wir bewahren Bedeutung, Tonfall und kultur
 
 **Herausforderungen von Weltrang.** Sie lösen Probleme, die Milliarden von Menschen betreffen.
 
-**Weltklasse-Team.** Arbeiten Sie mit Top-Spezialisten in KI, Echtzeitsystemen und globaler Kommunikation.
+**Weltklasse-Team.** Arbeiten Sie mit Top-Spezialisten für KI, Echtzeitsysteme und globale Kommunikation.
 
 **Unbegrenzte Ressourcen.** Alles, was Sie brauchen, um das beste Produkt in der Kategorie zu entwickeln.
 
-**Globale Auswirkungen.** Ihre Arbeit wird verändern, wie die Menschheit über Sprachgrenzen hinweg kommuniziert.
+**Globale Wirkung.** Ihre Arbeit wird verändern, wie die Menschheit über Sprachgrenzen hinweg kommuniziert.
+
+Lernen Sie [unser Team](./team) kennen und erfahren Sie mehr über [unsere Unternehmenswerte](./about).
 
 ## Werden Sie Teil unseres Teams
 
-Wenn Sie bereits etwas Bedeutsames aufgebaut haben und bereit sind, Technologie zu entwickeln, die die Welt verändert – schreiben Sie uns.
+Wenn Sie bereits etwas Bedeutsames aufgebaut haben und bereit sind, Technologie zu entwickeln, die die Welt verändert—schreiben Sie uns.
 
 Zeigen Sie uns, was Sie getan haben. Erzählen Sie uns, was Sie als nächstes aufbauen möchten.
 
-<!-- **Kontakt:** careers@mind.com -->
+<!-- **Contact:** careers@mind.com -->
 
 <br>
 

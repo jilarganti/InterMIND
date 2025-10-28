@@ -1,13 +1,15 @@
 ---
-title: "Plataforma de Videoconferência"
-description: "Videoconferência empresarial com qualidade HD, compartilhamento de tela, gravação, assistente de IA e recursos profissionais para colaboração global."
+title: Plataforma de Videoconferência
+description: Videoconferência empresarial com qualidade HD, compartilhamento de tela, gravação, assistente de IA e recursos profissionais para colaboração global.
 ---
 
-# Plataforma de videoconferência InterMind
+# Plataforma de Videoconferência InterMind
 
-## Construído para Reuniões Sérias — Não Apenas para Conversar
+## Construído para Reuniões Sérias — Não Apenas Conversas
 
 InterMind não é apenas mais um plugin ou ferramenta simples — é uma plataforma de videoconferência completa e de nível empresarial, projetada para comunicação profissional, colaboração de alto nível e operações em escala global.
+
+Descubra [how our AI translation works](./how-it-works) e veja onde ela causa o [biggest impact](./markets).
 
 <video autoplay muted playsinline style="margin-top: 24px" class="light-only">
   <source src="/video-meeting-platform-1d.mp4" type="video/mp4">
@@ -21,12 +23,12 @@ InterMind não é apenas mais um plugin ou ferramenta simples — é uma platafo
 <FeatureCards
   :features="[
     {
-      title: '🎥 Vídeo em Alta Definição 1080p',
+      title: '🎥 Vídeo em alta definição 1080p',
       details: 'Todas as reuniões transmitidas em **Full HD 1080p** com visuais cristalinos para cada participante.',
       items: [
         'Ideal para apresentações para investidores, demonstrações de produtos ou discussões jurídicas',
         'Reduz a fadiga cognitiva causada por vídeo pixelizado ou de baixa qualidade',
-        'Aumenta a confiança e o engajamento em ambientes virtuais'
+        'Melhora a confiança e o engajamento em ambientes virtuais'
       ],
       images: {
         light: '/video-hd.png',
@@ -34,12 +36,12 @@ InterMind não é apenas mais um plugin ou ferramenta simples — é uma platafo
       },
     },
     {
-      title: '🔇 Supressão Inteligente de Ruído',
+      title: '🔇 Supressão inteligente de ruído',
       details: 'Cancelamento de ruído baseado em IA filtra sons de fundo — digitação, trânsito, eco ou conversas distantes.',
       items: [
         'Mantém as reuniões profissionais e focadas',
         'Funciona automaticamente sem controles manuais',
-        'Ideal para trabalhadores remotos em ambientes não isolados acusticamente'
+        'Ideal para trabalhadores remotos em ambientes sem isolamento acústico'
       ],
       images: {
         light: '/noise-cancel.png',
@@ -47,7 +49,7 @@ InterMind não é apenas mais um plugin ou ferramenta simples — é uma platafo
       },
     },
     {
-      title: '✏️ Legendas em Tempo Real',
+      title: '✏️ Legendas em tempo real',
       details: '**Legendas em tempo real** opcionais em múltiplos idiomas para maior acessibilidade.',
       items: [
         'Oferece suporte a usuários com deficiência auditiva',
@@ -130,7 +132,7 @@ InterMind não é apenas mais um plugin ou ferramenta simples — é uma platafo
       details: 'Os participantes podem enviar **mensagens de texto**, links ou notas privadas sem interromper.',
       items: [
         'Opções de chat público e privado',
-        'Ideal para perguntas paralelas, recursos compartilhados ou sessões silenciosas de perguntas e respostas',
+        'Ideal para perguntas paralelas, recursos compartilhados ou sessões de perguntas e respostas silenciosas',
         'Todo o histórico do chat pode ser exportado após a reunião'
       ],
       images: {
@@ -139,7 +141,7 @@ InterMind não é apenas mais um plugin ou ferramenta simples — é uma platafo
       },
     },
     {
-      title: '🧑‍⚖️ Ferramentas Profissionais de Moderação',
+      title: '🧑‍⚖️ Ferramentas de Moderação Profissional',
       details: 'Conduza reuniões com confiança usando **controles de moderação** integrados.',
       items: [
         'Silenciar/ativar som dos participantes',
@@ -163,7 +165,7 @@ InterMind não é apenas mais um plugin ou ferramenta simples — é uma platafo
       details: 'InterMind é **totalmente integrado** e funciona imediatamente.',
       items: [
         'Não precisa de instalações ou extensões do navegador',
-        'Experiência unificada na web, desktop e mobile',
+        'Experiência unificada em web, desktop e mobile',
         'Uma plataforma segura — construída para escalar'
       ],
       images: {
@@ -190,7 +192,7 @@ InterMind não é apenas mais um plugin ou ferramenta simples — é uma platafo
       items: [
         'Suporte multi-idioma para equipes globais',
         'Infraestrutura otimizada para conexões confiáveis',
-        'Projetado para colaboração internacional'
+        'Projetado para colaboração transfronteiriça'
       ],
       images: {
         light: '/global.png',

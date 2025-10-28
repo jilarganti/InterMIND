@@ -22,14 +22,14 @@ head:
 
 Có bốn loại kiểm thử chính, mỗi loại phục vụ một mục đích khác nhau trong chu trình phát triển:
 
-| Loại                    | Chúng ta kiểm thử gì         | Khi nào            | Mục tiêu                |
-| ----------------------- | ---------------------------- | ------------------ | ----------------------- |
-| **Unit Testing**        | Các hàm/phương thức riêng lẻ | Trong quá trình phát triển | Xác minh từng phần hoạt động |
-| **Integration Testing** | Cách các module hoạt động cùng nhau | Sau unit tests   | Kiểm tra kết nối       |
-| **System Testing**      | Ứng dụng hoàn chỉnh         | Trước khi phát hành | Xác thực đầu cuối      |
-| **Acceptance Testing**  | Yêu cầu nghiệp vụ           | Giai đoạn cuối     | Xác nhận đã sẵn sàng   |
+| Loại                        | Chúng ta kiểm thử gì         | Khi nào            | Mục tiêu                    |
+| --------------------------- | ---------------------------- | ------------------ | --------------------------- |
+| **Kiểm thử đơn vị**         | Các hàm/phương thức riêng lẻ | Trong quá trình phát triển | Xác minh từng phần hoạt động |
+| **Kiểm thử tích hợp**       | Cách các module hoạt động cùng nhau | Sau kiểm thử đơn vị | Kiểm tra kết nối       |
+| **Kiểm thử hệ thống**       | Ứng dụng hoàn chỉnh         | Trước khi phát hành | Xác thực từ đầu đến cuối   |
+| **Kiểm thử chấp nhận**      | Yêu cầu nghiệp vụ           | Giai đoạn cuối     | Xác nhận sẵn sàng      |
 
-## Quy trình kiểm thử
+## Quy Trình Kiểm Thử
 
 Kiểm thử phần mềm tuân theo một quy trình làm việc rõ ràng từ lập kế hoạch đến phát hành:
 
@@ -67,7 +67,7 @@ Kiểm thử phần mềm tuân theo một quy trình làm việc rõ ràng từ
 
 ## Kiểm thử thủ công vs Kiểm thử tự động
 
-Cả hai phương pháp đều có vị trí của chúng trong chiến lược kiểm thử:
+Cả hai phương pháp đều có vị trí của mình trong chiến lược kiểm thử:
 
 <div class="comparison-grid">
 
@@ -101,18 +101,18 @@ Cả hai phương pháp đều có vị trí của chúng trong chiến lược 
 
 </div>
 
-## Kim tự tháp kiểm thử
+## Kim Tự Tháp Kiểm Thử
 
 Một chiến lược kiểm thử cân bằng tuân theo phân phối này:
 
 <div class="pyramid">
-  <div class="pyramid-level level-ui">Kiểm thử UI/E2E (Ít hơn)</div>
-  <div class="pyramid-level level-integration">Kiểm thử tích hợp (Nhiều hơn)</div>
-  <div class="pyramid-level level-unit">Kiểm thử đơn vị (Nhiều nhất)</div>
+  <div class="pyramid-level level-ui">Kiểm Thử UI/E2E (Ít hơn)</div>
+  <div class="pyramid-level level-integration">Kiểm Thử Tích Hợp (Nhiều hơn)</div>
+  <div class="pyramid-level level-unit">Kiểm Thử Đơn Vị (Nhiều nhất)</div>
 </div>
 
 <p style="text-align: center; color: var(--vp-c-text-2); margin-top: 1em;">
-  <small>Nhiều kiểm thử đơn vị hơn = phản hồi nhanh hơn, chi phí thấp hơn. Ít kiểm thử UI hơn = ít bảo trì hơn.</small>
+  <small>Nhiều kiểm thử đơn vị hơn = phản hồi nhanh hơn, chi phí thấp hơn. Ít kiểm thử UI hơn = bảo trì ít hơn.</small>
 </p>
 
 ## Thuật ngữ kiểm thử phổ biến
@@ -123,29 +123,29 @@ Một chiến lược kiểm thử cân bằng tuân theo phân phối này:
 | **Bug/Defect**         | Một lỗi hoặc khiếm khuyết gây ra hành vi không chính xác                   |
 | **Regression Testing** | Kiểm thử lại để đảm bảo các thay đổi mới không làm hỏng các tính năng hiện có |
 | **Smoke Testing**      | Các bài kiểm thử cơ bản nhanh để kiểm tra xem bản build có đủ ổn định cho việc kiểm thử sâu hơn không |
-| **Test Coverage**      | Tỷ lệ phần trăm mã được thực thi bởi các bài kiểm thử                      |
+| **Test Coverage**      | Tỷ lệ phần trăm mã nguồn được thực thi bởi các bài kiểm thử                |
 
 ## Câu Hỏi Thường Gặp
 
-### Q: Tôi có cần kỹ năng lập trình để kiểm thử phần mềm không?
+### Hỏi: Tôi có cần kỹ năng lập trình để kiểm thử phần mềm không?
 
 Đối với kiểm thử thủ công, kiến thức kỹ thuật cơ bản là đủ. Kiểm thử tự động yêu cầu kỹ năng lập trình (Python, Java, JavaScript là những ngôn ngữ phổ biến).
 
-### Q: Sự khác biệt giữa QA và testing là gì?
+### Hỏi: Sự khác biệt giữa QA và kiểm thử là gì?
 
-Testing là việc tìm ra lỗi. QA (Quality Assurance) là quy trình rộng hơn nhằm ngăn ngừa lỗi thông qua các quy trình và tiêu chuẩn tốt.
+Kiểm thử là tìm ra lỗi. QA (Đảm Bảo Chất Lượng) là quy trình rộng hơn để ngăn ngừa lỗi thông qua các quy trình và tiêu chuẩn tốt.
 
-### Q: Bao nhiêu kiểm thử là đủ?
+### Hỏi: Kiểm thử bao nhiêu là đủ?
 
-Không có con số hoàn hảo. Cần cân bằng giữa rủi ro, thời gian và tài nguyên. Các tính năng quan trọng cần kiểm thử nhiều hơn; các khu vực ít rủi ro cần ít hơn.
+Không có con số hoàn hảo. Cân bằng giữa rủi ro, thời gian và tài nguyên. Các tính năng quan trọng cần kiểm thử nhiều hơn; các khu vực ít rủi ro cần ít hơn.
 
-### Q: AI có thể thay thế các tester phần mềm không?
+### Hỏi: AI có thể thay thế các tester phần mềm không?
 
-AI có thể tự động hóa các bài kiểm thử lặp đi lặp lại, nhưng tester con người vẫn rất cần thiết để hiểu logic nghiệp vụ, các trường hợp biên và trải nghiệm người dùng.
+AI có thể tự động hóa các bài kiểm thử lặp đi lặp lại, nhưng các tester con người vẫn cần thiết để hiểu logic nghiệp vụ, các trường hợp biên và trải nghiệm người dùng.
 
 ---
 
-::: info Sẵn sàng bắt đầu kiểm thử?
+::: info Sẵn Sàng Bắt Đầu Kiểm Thử?
 Hướng dẫn này bao gồm các kiến thức cơ bản. Cách tốt nhất để học là thực hành—bắt đầu với các test case đơn giản và dần dần xây dựng kỹ năng của bạn.
 :::
 

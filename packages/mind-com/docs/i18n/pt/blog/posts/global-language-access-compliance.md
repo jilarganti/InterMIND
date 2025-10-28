@@ -1,16 +1,17 @@
 ---
 layout: BlogPost
-title: "Conformidade Global de Acesso Linguístico: Guia Completo (2025)"
-description: "Visão abrangente das leis de acesso linguístico e acessibilidade digital em todo o mundo, incluindo requisitos, prazos e penalidades."
+title: "Conformidade de Acesso Linguístico Global: Guia Completo (2025)"
+description: Visão abrangente das leis de acesso linguístico e acessibilidade digital em todo o mundo, incluindo requisitos, prazos e penalidades.
 date: 2025-10-13
 author: "[Jilarganti](https://github.com/jilarganti)"
 head:
   - - meta
     - name: keywords
-      content: "acesso linguístico, conformidade de acessibilidade, ADA, EAA, WCAG, acessibilidade digital, tradução, legendas"
+      content: acesso linguístico, conformidade de acessibilidade, ADA, EAA, WCAG, acessibilidade digital, tradução, legendas
+
 ---
 
-# Conformidade Global de Acesso Linguístico: Guia Completo (2025)
+# Conformidade de Acesso Linguístico Global: Guia Completo (2025)
 
 <p class="subtitle">Tudo o que você precisa saber sobre regulamentações de acesso linguístico em mais de 15 países</p>
 
@@ -38,19 +39,21 @@ head:
   </div>
 </div>
 
+Saiba como o [InterMIND helps with compliance](../../product/overview/what-is-intermind) através de interpretação em tempo real e [multilingual support](../../product/overview/how-it-works).
+
 ## 🌍 Países em Resumo
 
-| Região                  | País/Lei                  | Padrão              | Status   | Prazo             |
-| ----------------------- | ------------------------- | ------------------- | -------- | ----------------- |
-| 🇺🇸 **América do Norte** | **EUA - ADA Title II**    | WCAG 2.1 AA         | ✅ Ativo | Abril 2026/2027   |
-|                         | **Canadá - Bill 96**      | Prioridade francesa | ✅ Ativo | Junho 2025        |
-| 🇪🇺 **Europa**           | **UE - EAA**              | EN 301 549          | ✅ Ativo | 28 de junho, 2025 |
-|                         | **Reino Unido - PSBAR**   | WCAG 2.1 AA         | ✅ Ativo | Contínuo          |
-| 🇦🇺 **Oceania**          | **Austrália - DDA**       | WCAG 2.1 AA         | ✅ Ativo | Contínuo          |
-|                         | **Nova Zelândia**         | WCAG 2.1 AA         | ✅ Ativo | Julho 2019+       |
-| 🇯🇵 **Ásia**             | **Japão - JIS X8341-3**   | WCAG 2.0 AA         | ✅ Ativo | Atualizado 2024   |
-|                         | **Coreia do Sul - KWCAG** | WCAG 2.1 AA         | ✅ Ativo | Contínuo          |
-|                         | **Índia - RPwD Act**      | Padrões nacionais   | ✅ Ativo | Contínuo          |
+| Região               | País/Lei                | Padrão             | Status    | Prazo           |
+| -------------------- | ----------------------- | ------------------ | --------- | --------------- |
+| 🇺🇸 **América do Norte** | **EUA - ADA Title II**  | WCAG 2.1 AA        | ✅ Ativo | Abril 2026/2027 |
+|                      | **Canadá - Bill 96**    | Prioridade francesa | ✅ Ativo | Junho 2025      |
+| 🇪🇺 **Europa**        | **UE - EAA**            | EN 301 549         | ✅ Ativo | 28 de junho, 2025 |
+|                      | **Reino Unido - PSBAR** | WCAG 2.1 AA        | ✅ Ativo | Contínuo        |
+| 🇦🇺 **Oceania**       | **Austrália - DDA**     | WCAG 2.1 AA        | ✅ Ativo | Contínuo        |
+|                      | **Nova Zelândia**       | WCAG 2.1 AA        | ✅ Ativo | Julho 2019+     |
+| 🇯🇵 **Ásia**          | **Japão - JIS X8341-3** | WCAG 2.0 AA        | ✅ Ativo | Atualizado 2024 |
+|                      | **Coreia do Sul - KWCAG** | WCAG 2.1 AA      | ✅ Ativo | Contínuo        |
+|                      | **Índia - RPwD Act**    | Padrões nacionais  | ✅ Ativo | Contínuo        |
 
 ## 📍 Divisão Regional
 
@@ -110,7 +113,7 @@ head:
 **Requisitos:**
 
 - Priorizar comunicações em francês
-- Tradução em tempo real para francês em reuniões multilíngues
+- Tradução francesa em tempo real para reuniões multilíngues
 - Legendas e transcrições em francês, inglês e outros idiomas
 - Opções de texto para fala para deficientes visuais
 
@@ -133,7 +136,7 @@ head:
 
 - **Ontário (AODA):** Aplica-se a organizações com mais de 20 funcionários, multas de até $100.000 CAD
 - **Quebec:** Nova regulamentação de sites acessíveis esperada
-- **Colúmbia Britânica:** Aplica-se ao setor público e provedores de serviços específicos
+- **Colúmbia Britânica:** Aplica-se ao setor público e prestadores de serviços específicos
 
 </div>
 
@@ -196,7 +199,7 @@ head:
 **Quem deve cumprir:**
 
 - Organizações do setor público
-- Escolas, conselhos, provedores de saúde, universidades
+- Escolas, conselhos, prestadores de saúde, universidades
 - Agências governamentais em todos os níveis
 
 **Requisitos:**
@@ -213,11 +216,11 @@ head:
 
 **Penalidades:**
 
-- Ação legal sob a **Lei de Igualdade 2010**
+- Ação legal sob a **Lei da Igualdade 2010**
 - Fiscalização pelo Serviço Digital do Governo (GDS)
 - Danos à reputação e escrutínio público
 
-#### Lei de Igualdade 2010
+#### Lei da Igualdade 2010
 
 - Proíbe discriminação baseada em deficiência
 - Aplica-se aos setores público e privado
@@ -290,7 +293,7 @@ head:
 - Obrigatório a partir de **1º de julho de 2019**
 - Autoavaliação exigida, monitorada pelo Departamento de Assuntos Internos
 
-#### Lei de Direitos Humanos 1993
+#### Lei dos Direitos Humanos 1993
 
 - Proíbe discriminação baseada em deficiência (Seção 21(1)(h))
 - Aplica-se a entidades governamentais e privadas
@@ -342,7 +345,7 @@ head:
 
 **Orientação Principal:**
 
-- **Diretrizes Operacionais do Site Público de Todos (2016):** Recomenda JIS X 8341-3 para o setor público
+- **Diretrizes Operacionais de Sites Públicos para Todos (2016):** Recomenda JIS X 8341-3 para o setor público
 
 **Estatísticas:**
 
@@ -377,7 +380,7 @@ head:
 
 - Acomodação razoável para acesso digital
 - Legendagem em tempo real, interpretação em Língua de Sinais Coreana
-- Compatibilidade com leitor de tela
+- Compatibilidade com leitores de tela
 - Quiosques acessíveis e terminais de autoatendimento
 
 **Iniciativas Recentes (Maio de 2025):**
@@ -463,26 +466,22 @@ head:
 
 #### 🇦🇷 Argentina
 
-- **Acessibilidade Web (2010):**
-
-</div>
-
----
+- **Acessibilidade Web (2010):** Lei específ
 
 ## 📊 Comparação de Requisitos de Conformidade
 
 <div class="comparison-table-wrapper">
 
-| Requisito            | EUA                   | UE (EAA)                  | Reino Unido     | Austrália      | Japão          | Coreia do Sul          | Canadá (QC)           |
-| -------------------- | --------------------- | ------------------------- | --------------- | -------------- | -------------- | ---------------------- | --------------------- |
-| **Padrão**           | WCAG 2.1 AA           | EN 301 549                | WCAG 2.1 AA     | WCAG 2.1 AA    | WCAG 2.0 AA    | WCAG 2.1 AA            | Francês + WCAG        |
-| **Legendas**         | ✅ Obrigatório        | ✅ Obrigatório            | ✅ Obrigatório  | ✅ Obrigatório | ✅ Recomendado | ✅ Obrigatório         | ✅ Obrigatório        |
-| **Leitores de Tela** | ✅ Sim                | ✅ Sim                    | ✅ Sim          | ✅ Sim         | ✅ Sim         | ✅ Sim                 | ✅ Sim                |
-| **Texto para Fala**  | ✅ Sim                | ✅ Sim                    | ✅ Sim          | ✅ Sim         | ✅ Sim         | ✅ Sim                 | ✅ Sim                |
-| **Tradução**         | ✅ Multilíngue        | ✅ Multilíngue            | ⚠️ Limitado     | ⚠️ Limitado    | ⚠️ Limitado    | ⚠️ Limitado            | 🇫🇷 Prioridade Francês |
-| **Setor Público**    | ✅ Obrigatório        | ✅ Obrigatório            | ✅ Obrigatório  | ✅ Obrigatório | ✅ Obrigatório | ✅ Obrigatório         | ✅ Obrigatório        |
-| **Setor Privado**    | ⚠️ Varia              | ✅ Sim (10+ funcionários) | ⚠️ Limitado     | ✅ Recomendado | ⚠️ Recomendado | ✅ Serviços essenciais | ✅ Sim                |
-| **Multa Máxima**     | Financiamento federal | €20M ou 4%                | Lei de Equidade | $20K AUD       | ¥200K (~$1,7K) | ₩5M (~$4K)             | $30K CAD              |
+| Requisito          | EUA             | UE (EAA)           | Reino Unido  | Austrália     | Japão          | Coreia do Sul         | Canadá (QC)        |
+| ------------------ | --------------- | ------------------ | ------------ | ------------- | -------------- | --------------------- | ------------------ |
+| **Padrão**         | WCAG 2.1 AA     | EN 301 549         | WCAG 2.1 AA  | WCAG 2.1 AA   | WCAG 2.0 AA    | WCAG 2.1 AA           | Francês + WCAG     |
+| **Legendas**       | ✅ Obrigatório  | ✅ Obrigatório     | ✅ Obrigatório | ✅ Obrigatório | ✅ Recomendado | ✅ Obrigatório        | ✅ Obrigatório     |
+| **Leitores de Tela** | ✅ Sim        | ✅ Sim             | ✅ Sim       | ✅ Sim        | ✅ Sim         | ✅ Sim                | ✅ Sim             |
+| **Texto para Fala** | ✅ Sim         | ✅ Sim             | ✅ Sim       | ✅ Sim        | ✅ Sim         | ✅ Sim                | ✅ Sim             |
+| **Tradução**       | ✅ Multilíngue  | ✅ Multilíngue     | ⚠️ Limitado  | ⚠️ Limitado   | ⚠️ Limitado    | ⚠️ Limitado           | 🇫🇷 Prioridade Francês |
+| **Setor Público**  | ✅ Obrigatório  | ✅ Obrigatório     | ✅ Obrigatório | ✅ Obrigatório | ✅ Obrigatório | ✅ Obrigatório        | ✅ Obrigatório     |
+| **Setor Privado**  | ⚠️ Varia        | ✅ Sim (10+ funcionários) | ⚠️ Limitado | ✅ Recomendado | ⚠️ Recomendado | ✅ Serviços essenciais | ✅ Sim            |
+| **Multa Máxima**   | Financiamento federal | €20M ou 4%   | Lei de Equidade | $20K AUD    | ¥200K (~$1,7K) | ₩5M (~$4K)           | $30K CAD           |
 
 </div>
 
@@ -513,15 +512,15 @@ head:
   <div class="timeline-item upcoming">
     <div class="timeline-date">24 de abril de 2026</div>
     <div class="timeline-content">
-      <strong>🇺🇸 EUA - ADA Título II</strong>
-      <p>Grandes municípios (50.000+ residentes)</p>
+      <strong>🇺🇸 EUA - ADA Title II</strong>
+      <p>Grandes municípios (50.000+ habitantes)</p>
     </div>
   </div>
   
   <div class="timeline-item upcoming">
     <div class="timeline-date">24 de abril de 2027</div>
     <div class="timeline-content">
-      <strong>🇺🇸 EUA - ADA Título II</strong>
+      <strong>🇺🇸 EUA - ADA Title II</strong>
       <p>Municípios menores e distritos especiais</p>
     </div>
   </div>
@@ -675,12 +674,12 @@ Atender ao WCAG 2.1 Nível AA geralmente satisfaz a maioria dos requisitos globa
 
 ### P: Posso usar ferramentas automatizadas para alcançar conformidade?
 
-Ferramentas automatizadas capturam ~30-40% dos problemas de acessibilidade. Testes manuais por especialistas em acessibilidade e usuários com deficiências são essenciais para conformidade completa. Use automação como ponto de partida, não como solução completa.
+Ferramentas automatizadas detectam ~30-40% dos problemas de acessibilidade. Testes manuais por especialistas em acessibilidade e usuários com deficiências são essenciais para conformidade total. Use automação como ponto de partida, não como solução completa.
 
 ### P: Quais são os erros de conformidade mais comuns?
 
 1. ❌ Texto alternativo ausente para imagens
-2. ❌ Contraste de cor insuficiente
+2. ❌ Contraste de cores insuficiente
 3. ❌ Sem suporte para navegação por teclado
 4. ❌ Legendas ausentes em vídeos
 5. ❌ PDFs inacessíveis
@@ -732,8 +731,8 @@ Inclua:
 
 ### Padrões Internacionais
 
-- [Diretrizes WCAG do W3C](https://www.w3.org/WAI/standards-guidelines/wcag/)
-- [Políticas WAI do W3C](https://www.w3.org/WAI/policies/)
+- [Diretrizes W3C WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- [Políticas W3C WAI](https://www.w3.org/WAI/policies/)
 
 ### Estados Unidos
 
@@ -752,7 +751,7 @@ Inclua:
 
 ### Reino Unido
 
-- [GOV.UK Requisitos de Acessibilidade](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
+- [Requisitos de Acessibilidade GOV.UK](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
 
 ### Austrália
 
@@ -761,7 +760,7 @@ Inclua:
 
 ### Ásia-Pacífico
 
-- [WAIC do Japão](https://waic.jp/en/)
+- [WAIC Japão](https://waic.jp/en/)
 - [Governo Digital da Nova Zelândia](https://www.digital.govt.nz/standards-and-guidance/design-and-ux/accessibility/)
 
 ## 🚀 Próximos Passos
@@ -780,7 +779,9 @@ Inclua:
 </div>
 
 ::: tip Lembre-se
-A acessibilidade é um compromisso contínuo, não um projeto único. As leis evoluem, a tecnologia muda e as necessidades dos usuários crescem. Integre a acessibilidade à sua cultura e processos para o sucesso a longo prazo.
+Acessibilidade é um compromisso contínuo, não um projeto único. As leis evoluem, a tecnologia muda e as necessidades dos usuários crescem. Integre a acessibilidade em sua cultura e processos para o sucesso a longo prazo.
+
+**Precisa de ajuda com conformidade?** [Entre em contato com a InterMIND](../../resources/company/contacts) para discutir como nossa [plataforma de tradução em tempo real](../../product/overview/video-meeting-platform) pode ajudar a atender aos requisitos de acessibilidade.
 :::
 
 <style scoped>

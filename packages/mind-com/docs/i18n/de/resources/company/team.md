@@ -2,6 +2,8 @@
 
 Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren für immer zu beseitigen.
 
+Erfahren Sie mehr [about our mission](./about) und entdecken Sie [how our technology works](../../product/overview/how-it-works).
+
 ## Menschliches Team
 
 <TeamMembersGrid :members="[
@@ -41,7 +43,7 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
 <TeamMembersGrid :members="[
   {
     name: 'Claude',
-    desc: 'Bringt Klarheit in Gespräche',
+    desc: 'Klarheit in Gespräche bringen',
     country: 'USA',
     avatarLink: 'vscode-icons:file-type-claude',
     links: [
@@ -50,7 +52,7 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
   },
   {
     name: 'Gemini',
-    desc: 'Verbindet Wissen mit Absicht',
+    desc: 'Wissen mit Absicht verbinden',
     country: 'USA',
     avatarLink: 'material-icon-theme:gemini-ai',
     links: [
@@ -59,7 +61,7 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
   },
   {
     name: 'ChatGPT',
-    desc: 'Interpretiert mit Nuancen und Gedächtnis',
+    desc: 'Interpretieren mit Nuancen und Gedächtnis',
     country: 'USA',
     avatarLink: 'streamline-logos:openai-logo',
     links: [
@@ -68,7 +70,7 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
   },
   {
     name: 'DeepSeek',
-    desc: 'Denkt in Code und argumentiert im Kontext',
+    desc: 'In Code denken und im Kontext argumentieren',
     country: 'China',
     avatarLink: 'arcticons:deepseek',
     links: [
@@ -76,3 +78,5 @@ Gemeinsam verbinden wir Kreativität, Code und Verständnis, um Sprachbarrieren 
     ]
   },
 ]" />
+
+> **Möchten Sie sich uns anschließen?** Schauen Sie sich unsere [Karrieremöglichkeiten](./careers) an oder erfahren Sie mehr über [was wir entwickeln](../../product/overview/what-is-intermind).

@@ -1,6 +1,6 @@
 ---
 layout: BlogPost
-title: "Cumplimiento de Acceso Lingüístico Global: Guía Completa (2025)"
+title: "Cumplimiento de acceso lingüístico global: guía completa (2025)"
 description: Descripción integral de las leyes de acceso lingüístico y accesibilidad digital en todo el mundo, incluyendo requisitos, fechas límite y sanciones.
 date: 2025-10-13
 author: "[Jilarganti](https://github.com/jilarganti)"
@@ -8,14 +8,15 @@ head:
   - - meta
     - name: keywords
       content: acceso lingüístico, cumplimiento de accesibilidad, ADA, EAA, WCAG, accesibilidad digital, traducción, subtítulos
+
 ---
 
-# Cumplimiento de Acceso Lingüístico Global: Guía Completa (2025)
+# Cumplimiento de acceso lingüístico global: guía completa (2025)
 
 <p class="subtitle">Todo lo que necesitas saber sobre las regulaciones de acceso lingüístico en más de 15 países</p>
 
-> **¿Qué es el Cumplimiento de Acceso Lingüístico?**  
-> El acceso lingüístico se refiere a proporcionar servicios e información para que las personas con Dominio Limitado del Inglés (LEP) o que son Sordas o con Problemas de Audición (D/HoH) puedan entender y participar efectivamente, independientemente de su idioma principal o modo de comunicación.
+> **¿Qué es el cumplimiento de acceso lingüístico?**  
+> El acceso lingüístico se refiere a proporcionar servicios e información para que las personas con dominio limitado del inglés (LEP) o que son sordas o tienen problemas de audición (D/HoH) puedan entender y participar efectivamente, independientemente de su idioma principal o modo de comunicación.
 
 ## Resumen rápido: Panorama de cumplimiento global
 
@@ -38,19 +39,21 @@ head:
   </div>
 </div>
 
+Descubre cómo [InterMIND ayuda con el cumplimiento](../../product/overview/what-is-intermind) a través de interpretación en tiempo real y [soporte multilingüe](../../product/overview/how-it-works).
+
 ## 🌍 Países de un vistazo
 
-| Región                   | País/Ley                        | Estándar              | Estado    | Fecha límite      |
-| ------------------------ | ------------------------------- | --------------------- | --------- | ----------------- |
-| 🇺🇸 **América del Norte** | **EUA - ADA Título II**         | WCAG 2.1 AA           | ✅ Activo | Abril 2026/2027   |
-|                          | **Canadá - Proyecto de Ley 96** | Prioridad francés     | ✅ Activo | Junio 2025        |
-| 🇪🇺 **Europa**            | **UE - EAA**                    | EN 301 549            | ✅ Activo | 28 de junio, 2025 |
-|                          | **Reino Unido - PSBAR**         | WCAG 2.1 AA           | ✅ Activo | En curso          |
-| 🇦🇺 **Oceanía**           | **Australia - DDA**             | WCAG 2.1 AA           | ✅ Activo | En curso          |
-|                          | **Nueva Zelanda**               | WCAG 2.1 AA           | ✅ Activo | Julio 2019+       |
-| 🇯🇵 **Asia**              | **Japón - JIS X8341-3**         | WCAG 2.0 AA           | ✅ Activo | Actualizado 2024  |
-|                          | **Corea del Sur - KWCAG**       | WCAG 2.1 AA           | ✅ Activo | En curso          |
-|                          | **India - Ley RPwD**            | Estándares nacionales | ✅ Activo | En curso          |
+| Región               | País/Ley                | Estándar           | Estado    | Fecha límite    |
+| -------------------- | ----------------------- | ------------------ | --------- | --------------- |
+| 🇺🇸 **América del Norte** | **EUA - ADA Title II**  | WCAG 2.1 AA        | ✅ Activo | Abril 2026/2027 |
+|                      | **Canadá - Bill 96**    | Prioridad francés  | ✅ Activo | Junio 2025      |
+| 🇪🇺 **Europa**        | **UE - EAA**            | EN 301 549         | ✅ Activo | 28 junio 2025   |
+|                      | **Reino Unido - PSBAR** | WCAG 2.1 AA        | ✅ Activo | En curso        |
+| 🇦🇺 **Oceanía**       | **Australia - DDA**     | WCAG 2.1 AA        | ✅ Activo | En curso        |
+|                      | **Nueva Zelanda**       | WCAG 2.1 AA        | ✅ Activo | Julio 2019+     |
+| 🇯🇵 **Asia**          | **Japón - JIS X8341-3** | WCAG 2.0 AA        | ✅ Activo | Actualizado 2024|
+|                      | **Corea del Sur - KWCAG** | WCAG 2.1 AA      | ✅ Activo | En curso        |
+|                      | **India - RPwD Act**    | Estándares nacionales | ✅ Activo | En curso     |
 
 ## 📍 Desglose Regional
 
@@ -209,7 +212,7 @@ head:
 
 - ✅ Activo desde 2018
 - 🔄 El monitoreo comenzó en 2020
-- 📊 16,482 problemas de accesibilidad corregidos (reporte 2022-2024)
+- 📊 16,482 problemas de accesibilidad corregidos (informe 2022-2024)
 
 **Sanciones:**
 
@@ -261,7 +264,7 @@ head:
 
 **Casos Notables:**
 
-- **Bruce Maguire v SOCOG (2000):** Caso histórico, $20,000 daños por sitio web inaccesible de Olimpiadas
+- **Bruce Maguire v SOCOG (2000):** Caso histórico, $20,000 de daños por sitio web inaccesible de los Juegos Olímpicos
 - **Gisele Mesnage v Coles (2014):** Primer caso de accesibilidad web en el Tribunal del Circuito Federal
 
 **Estadísticas:**
@@ -457,26 +460,22 @@ head:
 
 #### 🇧🇷 Brasil
 
-- **Ley de Inclusión de Personas con Discapacidades (LBI 13.146/2015)**
+- **Ley de Inclusión de Personas con Discapacidades (LBI 13
 
-</div>
-
----
-
-## 📊 Comparación de requisitos de cumplimiento
+## 📊 Comparación de Requisitos de Cumplimiento
 
 <div class="comparison-table-wrapper">
 
-| Requisito                | EE.UU.                 | UE (EAA)              | Reino Unido    | Australia      | Japón          | Corea del Sur           | Canadá (QC)          |
-| ------------------------ | ---------------------- | --------------------- | -------------- | -------------- | -------------- | ----------------------- | -------------------- |
-| **Estándar**             | WCAG 2.1 AA            | EN 301 549            | WCAG 2.1 AA    | WCAG 2.1 AA    | WCAG 2.0 AA    | WCAG 2.1 AA             | Francés + WCAG       |
-| **Subtítulos**           | ✅ Obligatorio         | ✅ Obligatorio        | ✅ Obligatorio | ✅ Obligatorio | ✅ Recomendado | ✅ Obligatorio          | ✅ Obligatorio       |
-| **Lectores de pantalla** | ✅ Sí                  | ✅ Sí                 | ✅ Sí          | ✅ Sí          | ✅ Sí          | ✅ Sí                   | ✅ Sí                |
-| **Texto a voz**          | ✅ Sí                  | ✅ Sí                 | ✅ Sí          | ✅ Sí          | ✅ Sí          | ✅ Sí                   | ✅ Sí                |
-| **Traducción**           | ✅ Multiidioma         | ✅ Multiidioma        | ⚠️ Limitado    | ⚠️ Limitado    | ⚠️ Limitado    | ⚠️ Limitado             | 🇫🇷 Prioridad francés |
-| **Sector público**       | ✅ Obligatorio         | ✅ Obligatorio        | ✅ Obligatorio | ✅ Obligatorio | ✅ Obligatorio | ✅ Obligatorio          | ✅ Obligatorio       |
-| **Sector privado**       | ⚠️ Varía               | ✅ Sí (10+ empleados) | ⚠️ Limitado    | ✅ Recomendado | ⚠️ Recomendado | ✅ Servicios esenciales | ✅ Sí                |
-| **Multa máxima**         | Financiamiento federal | €20M o 4%             | Ley de equidad | $20K AUD       | ¥200K (~$1.7K) | ₩5M (~$4K)              | $30K CAD             |
+| Requisito          | EE.UU.          | UE (EAA)           | Reino Unido  | Australia     | Japón          | Corea del Sur         | Canadá (QC)        |
+| ------------------ | --------------- | ------------------ | ------------ | ------------- | -------------- | --------------------- | ------------------ |
+| **Estándar**       | WCAG 2.1 AA     | EN 301 549         | WCAG 2.1 AA  | WCAG 2.1 AA   | WCAG 2.0 AA    | WCAG 2.1 AA           | Francés + WCAG     |
+| **Subtítulos**     | ✅ Obligatorio  | ✅ Obligatorio     | ✅ Obligatorio | ✅ Obligatorio | ✅ Recomendado | ✅ Obligatorio        | ✅ Obligatorio     |
+| **Lectores de Pantalla** | ✅ Sí     | ✅ Sí              | ✅ Sí        | ✅ Sí         | ✅ Sí          | ✅ Sí                 | ✅ Sí              |
+| **Texto a Voz**    | ✅ Sí           | ✅ Sí              | ✅ Sí        | ✅ Sí         | ✅ Sí          | ✅ Sí                 | ✅ Sí              |
+| **Traducción**     | ✅ Multiidioma  | ✅ Multiidioma     | ⚠️ Limitado  | ⚠️ Limitado   | ⚠️ Limitado    | ⚠️ Limitado           | 🇫🇷 Prioridad Francés |
+| **Sector Público** | ✅ Obligatorio  | ✅ Obligatorio     | ✅ Obligatorio | ✅ Obligatorio | ✅ Obligatorio | ✅ Obligatorio        | ✅ Obligatorio     |
+| **Sector Privado** | ⚠️ Varía        | ✅ Sí (10+ empleados) | ⚠️ Limitado | ✅ Recomendado | ⚠️ Recomendado | ✅ Servicios esenciales | ✅ Sí            |
+| **Multa Máxima**   | Financiamiento federal | €20M o 4%   | Ley de Equidad | $20K AUD    | ¥200K (~$1.7K) | ₩5M (~$4K)           | $30K CAD           |
 
 </div>
 
@@ -553,7 +552,7 @@ head:
 
 ### 3. Implementar Soluciones
 
-- Herramientas de traducción impulsadas por IA
+- Herramientas de traducción con IA
 - Sistemas de subtitulado en tiempo real
 - Optimización para lectores de pantalla
 - Integración de texto a voz
@@ -566,7 +565,7 @@ head:
 
 - Pruebas manuales de accesibilidad
 - Escaneo automatizado WCAG
-- Pruebas de usuario con usuarios con discapacidades
+- Pruebas de usuario con personas con discapacidad
 - Verificación multiidioma
 
 </div>
@@ -588,7 +587,7 @@ head:
 
 - Monitoreo continuo
 - Auditorías regulares
-- Mantenerse actualizado sobre cambios en la ley
+- Mantenerse actualizado sobre cambios legales
 - Iterar y mejorar
 
 </div>
@@ -645,7 +644,7 @@ El contenido debe funcionar con tecnologías actuales y futuras
 
 ### 🌍 Inclusivo
 
-Considera el idioma, la cultura y las diversas habilidades
+Considera el idioma, la cultura y las diversas capacidades
 
 </div>
 
@@ -704,7 +703,7 @@ Las consecuencias incluyen:
 
 ### P: ¿Los overlays y widgets proporcionan cumplimiento?
 
-⚠️ **No.** Los widgets overlay de accesibilidad (como accessiBe, UserWay) son controvertidos y NO garantizan el cumplimiento. Muchos grupos de defensa de la discapacidad se oponen activamente a ellos. Se requiere remediación manual del código y contenido para una verdadera accesibilidad.
+⚠️ **No.** Los widgets de overlay de accesibilidad (como accessiBe, UserWay) son controvertidos y NO garantizan el cumplimiento. Muchos grupos de defensa de la discapacidad se oponen activamente a ellos. Se requiere remediación manual del código y contenido para una verdadera accesibilidad.
 
 ### P: ¿Cómo escribo una declaración de accesibilidad?
 
@@ -732,7 +731,7 @@ Incluye:
 ### Estados Unidos
 
 - [ADA.gov - Regla Final del Título II](https://www.ada.gov/resources/2024-03-08-web-rule/)
-- [LEP.gov - Dominio Limitado del Inglés](https://www.lep.gov/)
+- [LEP.gov - Competencia Limitada en Inglés](https://www.lep.gov/)
 - [Sección 508](https://www.section508.gov/)
 
 ### Unión Europea
@@ -775,6 +774,8 @@ Incluye:
 
 ::: tip Recuerda
 La accesibilidad es un compromiso continuo, no un proyecto único. Las leyes evolucionan, la tecnología cambia y las necesidades de los usuarios crecen. Integra la accesibilidad en tu cultura y procesos para el éxito a largo plazo.
+
+**¿Necesitas ayuda con el cumplimiento?** [Contacta a InterMIND](../../resources/company/contacts) para discutir cómo nuestra [plataforma de traducción en tiempo real](../../product/overview/video-meeting-platform) puede ayudar a cumplir con los requisitos de accesibilidad.
 :::
 
 <style scoped>

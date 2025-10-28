@@ -1,6 +1,6 @@
 ---
-title: "Yapay Zeka Gerçek Zamanlı Çeviri Nasıl Çalışır"
-description: "InterMIND'ın anlık çift yönlü çevirisinin konuşma tanıma, sinir ağı çevirisi ve ses sentezi ile kesintisiz iletişim için nasıl çalıştığını öğrenin."
+title: Yapay Zeka Gerçek Zamanlı Çeviri Nasıl Çalışır
+description: InterMIND'ın anlık çift yönlü çevirisinin konuşma tanıma, sinir ağı çevirisi ve ses sentezi ile kesintisiz iletişim için nasıl çalıştığını öğrenin.
 ---
 
 # Yapay Zeka Gerçek Zamanlı Çeviri Nasıl Çalışır
@@ -8,6 +8,8 @@ description: "InterMIND'ın anlık çift yönlü çevirisinin konuşma tanıma, 
 ## Kendi Dilinizde Konuşun ve Dinleyin
 
 InterMind, **anlık çift yönlü çeviri** özelliğine sahip çok kullanıcılı bir video konferans platformudur. Her katılımcı **kendi ana dilinde** konuşabilir ve diğerlerini duyabilir, böylece dil engellerinin olmadığı doğal iletişim etkisi yaratılır.
+
+[InterMIND'i farklı kılan özellikleri](./what-is-intermind) hakkında daha fazla bilgi edinin ve [tüm platform özelliklerimizi](./video-meeting-platform) keşfedin.
 
 ## Nasıl çalışır:
 
@@ -89,7 +91,7 @@ Tüm bunlar **3 saniyenin altında gecikme** ile gerçekleşir — profesyonel s
 
 ### Teknik Mimari
 
-Tüm ses/video yönlendirmesi, aşağıdakileri sağlamak için şirket içinde geliştirilen özel Mind API'miz aracılığıyla gerçekleştirilir:
+Tüm ses/video yönlendirmesi, şunları sağlamak için şirket içinde geliştirilen özel Mind API'miz aracılığıyla gerçekleştirilir:
 
 - **Performans**: 1000+ paralel akış işleme
 - **Veri egemenliği**: seçilen bölgede depolama
@@ -107,3 +109,5 @@ Tüm ses/video yönlendirmesi, aşağıdakileri sağlamak için şirket içinde 
 [^1]: İnsan eşzamanlı çevirisi için standart gecikme ~2–3 saniyedir.
 
 [^2]: AI çevirisindeki mevcut ilerlemeye dayanarak, 2–3 yıl içinde modellerin en iyi insan çevirmenleri tutarlı bir şekilde geride bırakacağını bekliyoruz — hukuk, finans, sağlık ve mühendislik gibi uzman alanlar dahil.
+
+> **Daha fazla bilgi edinmek ister misiniz?** [Çeviri ve tercümanlık arasındaki fark](./translation-vs-interpretation-whats-the-difference) hakkında okuyun veya [veri gizliliği](./privacy-architecture) yaklaşımımızı keşfedin.

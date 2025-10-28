@@ -1,13 +1,15 @@
 ---
-title: "Como Funciona a Tradução em Tempo Real com IA"
-description: "Aprenda como a tradução bidirecional instantânea da InterMIND funciona com reconhecimento de fala, tradução neural e síntese de voz para comunicação perfeita."
+title: Como Funciona a Tradução em Tempo Real com IA
+description: Aprenda como a tradução bidirecional instantânea da InterMIND funciona com reconhecimento de fala, tradução neural e síntese de voz para comunicação perfeita.
 ---
 
 # Como Funciona a Tradução em Tempo Real com IA
 
 ## Fale e Escute em Seu Idioma
 
-InterMind é uma plataforma de videoconferência multiusuário com **tradução bidirecional instantânea**. Cada participante pode falar e ouvir os outros em **seu idioma nativo**, criando o efeito de comunicação natural sem barreiras linguísticas.
+InterMind é uma plataforma de videoconferência multiusuário com **tradução bidirecional instantânea**. Cada participante pode falar e ouvir os outros em **sua língua nativa**, criando o efeito de comunicação natural sem barreiras linguísticas.
+
+Saiba mais sobre [o que torna o InterMIND diferente](./what-is-intermind) e explore nossos [recursos completos da plataforma](./video-meeting-platform).
 
 ## Como funciona:
 
@@ -16,30 +18,30 @@ InterMind é uma plataforma de videoconferência multiusuário com **tradução 
 
 ![](./interpretating.svg)
 
-### 1. **Reconhecimento de Fala (Speech-to-Text)**
+### 1. **Reconhecimento de fala (Speech-to-Text)**
 
-- Reconhecimento em streaming usando modelos transformer
+- Reconhecimento em tempo real usando modelos transformer
 - Processamento de ruído e sons de fundo
 - Suporte para terminologia técnica e jargões
 - Precisão do reconhecimento: **95-98%** para idiomas principais
 
-### 2. **Pós-processamento de Texto (Limpeza de Texto e Análise Semântica)**
+### 2. **Pós-processamento de texto (limpeza de texto e análise semântica)**
 
 - **Remoção de vícios de linguagem**: eliminação de "ãh", "hum", repetições, gagueira
 - **Correção de erros de reconhecimento**: correção baseada em contexto
 - **Pontuação e estruturação**: colocação automática de pontuação
 - **Extração de significado principal**: identificação de pensamentos principais e secundários
 - **Segmentação de enunciados**: divisão em blocos lógicos para tradução precisa
-- **Análise contextual**: vinculação com observações anteriores e tópico geral
+- **Análise contextual**: vinculação com comentários anteriores e tópico geral
 
-### 3. **Tradução Neural**
+### 3. **Tradução neural**
 
 - Tradução dependente de contexto com preservação de significado
 - Compreensão de expressões idiomáticas, metáforas e referências culturais
 - Adaptação do estilo de fala (formal/informal)
 - Preservação da coloração emocional dos enunciados
 
-### 4. **Síntese de Fala (Text-to-Speech)**
+### 4. **Síntese de fala (Text-to-Speech)**
 
 - Entonação natural e ritmo de fala
 - Preservação de pausas e acentos do original
@@ -62,7 +64,7 @@ Tudo isso acontece com **latência inferior a 3 segundos** — correspondendo à
 - **Equipes globais**: eliminação de barreiras linguísticas em equipes internacionais
 - **Reuniões com clientes**: comunicação direta com clientes sem serviços de intérprete
 - **Treinamentos e apresentações**: entrega simultânea de conteúdo em múltiplos idiomas
-- **Economia de custos**: redução de custos com intérpretes em até **80%**
+- **Economia de custos**: redução dos custos de intérpretes em até **80%**
 
 ### Para Usuários:
 
@@ -82,14 +84,14 @@ Tudo isso acontece com **latência inferior a 3 segundos** — correspondendo à
 
 ### Qualidade da Tradução:
 
-- **Precisão**: 94-97% de correção para conversas de negócios
+- **Precisão**: 94-97% de correção para conversas empresariais
 - **Contexto**: compreensão do contexto durante toda a reunião
 - **Terminologia**: dicionários adaptativos para cada indústria
 - **Feedback**: sistema de avaliação de qualidade pelo usuário
 
 ### Arquitetura Técnica
 
-Todo o roteamento de áudio/vídeo é gerenciado através da nossa Mind API proprietária, desenvolvida internamente para garantir:
+Todo o roteamento de áudio/vídeo é gerenciado através da nossa API Mind proprietária, desenvolvida internamente para garantir:
 
 - **Performance**: processamento de mais de 1000 streams paralelos
 - **Soberania de dados**: armazenamento na região selecionada
@@ -107,3 +109,5 @@ Todo o roteamento de áudio/vídeo é gerenciado através da nossa Mind API prop
 [^1]: Latência padrão para tradução simultânea humana é de ~2–3 segundos.
 
 [^2]: Com base no progresso atual em tradução por IA, esperamos que dentro de 2–3 anos, os modelos superem consistentemente os melhores tradutores humanos — incluindo áreas especializadas como direito, finanças, saúde e engenharia.
+
+> **Quer saber mais?** Leia sobre a [difference between translation and interpretation](./translation-vs-interpretation-whats-the-difference) ou descubra nossa abordagem para [privacidade de dados](./privacy-architecture).

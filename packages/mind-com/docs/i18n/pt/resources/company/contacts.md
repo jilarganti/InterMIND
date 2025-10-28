@@ -35,3 +35,5 @@ Garantiremos que sua mensagem chegue à pessoa certa.
 
 > **Precisa de ajuda relacionada ao produto?**  
 > _Visite nossa [Página de Suporte](../help) para respostas rápidas e assistência da equipe InterMind._
+
+> **Quer saber mais sobre nós?** Confira nossa [página sobre](./about), conheça [a equipe](./team) ou explore [oportunidades de carreira](./careers).

@@ -1,6 +1,6 @@
 ---
-title: "Fitur AI"
-description: "Temukan fitur bertenaga AI InterMIND termasuk Asisten Suara (Jarvis), terjemahan suara real-time, dan Asisten AI untuk catatan dan ringkasan rapat."
+title: Fitur AI
+description: Temukan fitur bertenaga AI InterMIND termasuk Asisten Suara (Jarvis), terjemahan suara real-time, dan Asisten AI untuk catatan dan ringkasan rapat.
 ---
 
 # Fitur AI
@@ -17,14 +17,14 @@ Setelah seorang peserta mengubah bahasa antarmuka dan terjemahan mereka, semua p
 
 Selain itu, peserta memiliki opsi untuk menyesuaikan volume audio asli dari peserta lain melalui pengaturan rapat, memungkinkan mereka untuk berkonsentrasi hanya pada terjemahan.
 
-### Fitur Utama
+### Fitur utama
 
 - Dubbing suara real-time dalam bahasa yang dipilih
 - Pengaturan terjemahan personal (tidak mempengaruhi peserta lain)
-- Kemampuan untuk mengubah bahasa terjemahan kapan saja melalui panel Pengaturan
-- Tersedia untuk semua jenis peserta (Host, Moderator, Peserta, Tamu)
+- Kemampuan untuk mengubah bahasa terjemahan kapan saja melalui panel Pengaturan (lihat [Meeting Interface](./meeting-interface))
+- Tersedia untuk semua jenis peserta (Host, Moderator, Participant, Guest - pelajari lebih lanjut tentang [User Roles](./user-roles))
 
-### Cara Mengaktifkan
+### Cara mengaktifkan
 
 Terjemahan dapat diaktifkan oleh peserta mana pun dengan menyesuaikan pengaturan bahasa mereka di panel Pengaturan selama rapat.
 
@@ -64,7 +64,7 @@ Pengguna dapat menggunakan prompt seperti:
 ### Persyaratan Akses
 
 > [!WARNING]
-> Asisten AI hanya tersedia untuk pengguna yang sudah masuk, termasuk Host, Moderator, atau Peserta. Asisten tidak terlibat secara publik dalam obrolan dan tidak dapat diakses oleh pengguna Tamu.
+> Asisten AI hanya tersedia untuk pengguna yang sudah masuk, termasuk Host, Moderator, atau Peserta. Asisten tidak terlibat secara publik dalam obrolan dan tidak dapat diakses oleh pengguna Tamu. Pelajari lebih lanjut tentang [User Roles](./user-roles).
 
 ### Privasi
 

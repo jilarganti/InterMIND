@@ -1,11 +1,11 @@
 ---
-title: "Funciones de IA"
-description: "Descubre las funciones impulsadas por IA de InterMIND incluyendo Asistente de Voz (Jarvis), traducción de voz en tiempo real, y Asistente de IA para notas y resúmenes de reuniones."
+title: Funciones de IA
+description: Descubre las funciones impulsadas por IA de InterMIND incluyendo Asistente de Voz (Jarvis), traducción de voz en tiempo real y Asistente de IA para notas y resúmenes de reuniones.
 ---
 
 # Funciones de IA
 
-Esta sección describe las funcionalidades del Asistente de Voz (Jarvis), Traducción de Voz en Línea, y Asistente de IA disponibles durante las reuniones.
+Esta sección describe las funcionalidades del Asistente de Voz (Jarvis), Traducción de Voz en Línea y Asistente de IA disponibles durante las reuniones.
 
 ## Traducción de Voz en Línea
 
@@ -20,9 +20,9 @@ Adicionalmente, los participantes tienen la opción de ajustar el volumen del au
 ### Características principales
 
 - Doblaje de voz en tiempo real en el idioma seleccionado
-- Configuración personal de traducción (no afecta a otros participantes)
-- Capacidad de cambiar el idioma de traducción en cualquier momento a través del panel de Configuración
-- Disponible para todos los tipos de participantes (Anfitrión, Moderador, Participante, Invitado)
+- Configuración de traducción personal (no afecta a otros participantes)
+- Capacidad de cambiar el idioma de traducción en cualquier momento a través del panel de Configuración (ver [Interfaz de reunión](./meeting-interface))
+- Disponible para todos los tipos de participantes (Anfitrión, Moderador, Participante, Invitado - conoce más sobre [Roles de usuario](./user-roles))
 
 ### Cómo habilitar
 
@@ -64,7 +64,7 @@ Los usuarios pueden utilizar comandos como:
 ### Requisitos de acceso
 
 > [!WARNING]
-> El Asistente de IA está disponible exclusivamente para usuarios registrados, incluyendo Anfitriones, Moderadores o Participantes. No participa públicamente en el chat y no es accesible para usuarios Invitados.
+> El Asistente de IA está disponible exclusivamente para usuarios registrados, incluyendo Anfitriones, Moderadores o Participantes. No participa públicamente en el chat y no es accesible para usuarios Invitados. Obtén más información sobre [Roles de usuario](./user-roles).
 
 ### Privacidad
 

@@ -1,13 +1,13 @@
 ---
-title: "Gerenciamento de conta"
-description: "Cadastre-se e gerencie sua conta InterMIND. Aprenda como se registrar com Google, Microsoft ou email, atualizar configurações do perfil e gerenciar segurança."
+title: Gerenciamento de conta
+description: Cadastre-se e gerencie sua conta InterMIND. Aprenda como se registrar com Google, Microsoft ou email, atualizar configurações do perfil e gerenciar segurança.
 ---
 
 # Gerenciamento de conta
 
 ## Cadastro
 
-Criar uma conta pode ser realizado através de três métodos: utilizando suas contas do Google ou Microsoft ou registrando-se com um endereço de e-mail externo.
+Criar uma conta pode ser realizado através de três métodos: utilizando suas contas do Google ou Microsoft ou registrando-se com um Endereço de Email Externo. Para uma visão completa, consulte nosso guia [Primeiros Passos](./getting-started).
 
 1. Para começar, visite [https://intermind.com](https://intermind.com)
 2. Clique no botão **Entrar** localizado no canto superior direito da página inicial
@@ -15,8 +15,8 @@ Criar uma conta pode ser realizado através de três métodos: utilizando suas c
    - Botões do Google e Microsoft, que facilitam o acesso à plataforma usando suas contas existentes do Google ou Microsoft
    - Caixa de seleção 'Lembrar de mim', que permite manter seu status de logado neste dispositivo
    - Link 'Esqueci a Senha', que está disponível se você já possui uma conta mas não lembra sua senha
-   - Texto 'Ou entre com', seguido pelos campos de E-mail e Senha para fazer login, se você já tem uma conta
-   - Texto 'Não tem uma conta?', seguido por um link 'Cadastre-se', que permite registrar-se usando seu endereço de e-mail externo
+   - Texto 'Ou entre com', seguido pelos campos de Email e Senha para fazer login, se você já tem uma conta
+   - Texto 'Não tem uma conta?', seguido por um link 'Cadastre-se', que permite registrar-se usando seu endereço de email externo
 
 ### Cadastro com Conta do Google
 
@@ -27,7 +27,7 @@ Este método é recomendável para acesso eficiente através de uma Conta do Goo
 3. Autorize o acesso às suas informações básicas de perfil clicando no botão **Continuar**
 
 > [!WARNING]
-> Se você preferir não conceder acesso às suas informações básicas de perfil, clique no botão **Cancelar**. Você será redirecionado de volta à página Entrar na sua conta, onde pode se cadastrar usando seu endereço de e-mail externo.
+> Se você preferir não conceder acesso às suas informações básicas de perfil, clique no botão **Cancelar**. Você será redirecionado de volta à página Entrar na sua conta, onde pode se cadastrar usando seu endereço de email externo.
 
 4. Você será direcionado para sua página principal do InterMIND; nenhuma configuração adicional é necessária
 
@@ -40,17 +40,17 @@ Este método é recomendável para obter acesso rápido usando uma conta Microso
 3. Autorize o acesso às suas informações básicas de perfil clicando no botão **Continuar**
 
 > [!WARNING]
-> Se você preferir não conceder acesso às suas informações básicas de perfil, clique no botão **Cancelar**. Você será redirecionado de volta à página Entrar na sua conta, onde pode se cadastrar usando seu endereço de e-mail externo.
+> Se você preferir não conceder acesso às suas informações básicas de perfil, clique no botão **Cancelar**. Você será redirecionado de volta à página Entrar na sua conta, onde pode se cadastrar usando seu endereço de email externo.
 
 4. Você será direcionado para sua página principal do InterMIND; nenhuma configuração adicional é necessária
 
-### Cadastro com Endereço de E-mail
+### Cadastro com Endereço de Email
 
-Use este método se você não tem uma conta do Google ou prefere se registrar com um e-mail separado.
+Use este método se você não tem uma conta do Google ou prefere se registrar com um email separado.
 
 1. Clique no link **Cadastre-se** ao lado do texto "Não tem uma conta?" abaixo dos campos de login
-2. Você será direcionado ao formulário de Registro, que inclui os seguintes campos obrigatórios:
-   - **E-mail**
+2. Você será direcionado para o formulário de Registro, que inclui os seguintes campos obrigatórios:
+   - **Email**
    - **Senha**
      - Mínimo de 8 caracteres
      - Pelo menos 1 letra maiúscula
@@ -63,7 +63,7 @@ Use este método se você não tem uma conta do Google ou prefere se registrar c
 > Para garantir a segurança ideal da conta, por favor crie uma senha que atenda aos requisitos complexos listados acima.
 
 3. Após completar o formulário, clique no botão **Registrar**
-4. Após se registrar com sucesso, você receberá uma mensagem de verificação de e-mail em sua caixa de entrada. Uma vez verificado, você pode fazer login usando seu e-mail e senha para acessar os recursos do InterMIND
+4. Após se registrar com sucesso, você receberá uma mensagem de verificação de email em sua caixa de entrada. Uma vez verificado, você pode fazer login usando seu email e senha para acessar os recursos do InterMIND
 
 ### Senha Esquecida
 
@@ -71,24 +71,24 @@ Se você esqueceu sua senha, siga estes passos:
 
 1. Clique no botão **Entrar** na página inicial
 2. Na página de login, clique em **Esqueci a Senha?**
-3. Digite seu endereço de e-mail registrado
-4. Você receberá um e-mail com um link para redefinir sua senha
-5. Siga as instruções no e-mail para criar uma nova senha
+3. Digite seu endereço de email registrado
+4. Você receberá um email com um link para redefinir sua senha
+5. Siga as instruções no email para criar uma nova senha
 
 > [!TIP]
-> Se você não receber o e-mail, verifique sua pasta de spam ou entre em contato com o suporte.
+> Se você não receber o email, verifique sua pasta de spam ou entre em contato com o suporte.
 
 ## Fazer Login
 
-Após a criação da sua conta InterMIND, você tem a oportunidade de fazer login a qualquer momento. Isso permite que você hospede ou participe de reuniões, gerencie configurações, acesse funcionalidades de IA e revise reuniões anteriores junto com suas transcrições. Além disso, o Assistente de IA pode ser utilizado dentro do histórico de reuniões.
+Após a criação da sua conta InterMIND, você tem a oportunidade de fazer login a qualquer momento. Isso permite que você hospede ou participe de reuniões, gerencie configurações, acesse funcionalidades de IA e revise reuniões anteriores junto com suas transcrições. Além disso, o Assistente de IA pode ser utilizado dentro do histórico de reuniões. Saiba mais sobre [Creating and Scheduling Meetings](./creating-meetings).
 
-### Acessando a página de login
+### Acessando a página de Login
 
 1. Navegue para [https://intermind.com](https://intermind.com)
 2. Clique no botão **Fazer Login** localizado no canto superior direito da página inicial
-3. Você será direcionado para a página **Fazer login na sua conta**
+3. Você será direcionado para a página **Faça login na sua conta**
 
-### Fazer login com Google
+### Fazer Login com Google
 
 Se você se registrou usando sua conta Google:
 
@@ -97,7 +97,7 @@ Se você se registrou usando sua conta Google:
    - Se o sistema não conseguir identificar sua conta Google, você será redirecionado para a página de login do Google para autorização adicional
 2. Uma vez que a autorização esteja completa, você será redirecionado diretamente para a página principal do InterMIND
 
-### Fazer login com Microsoft
+### Fazer Login com Microsoft
 
 Se você se registrou usando sua conta Microsoft:
 
@@ -106,7 +106,7 @@ Se você se registrou usando sua conta Microsoft:
    - Se o sistema não conseguir identificar sua conta Microsoft, você será redirecionado para a página de login da Microsoft para autorização adicional
 2. Uma vez que a autorização esteja completa, você será redirecionado diretamente para a página principal do InterMIND
 
-### Fazer login com email e senha
+### Fazer Login com Email e Senha
 
 Se você criou sua conta usando um endereço de email externo:
 
@@ -123,7 +123,7 @@ Se você criou sua conta usando um endereço de email externo:
 
 A página de Perfil do Usuário no InterMIND oferece aos usuários a oportunidade de visualizar e personalizar suas configurações pessoais, gerenciar preferências de dispositivos, definir opções de comunicação e executar ações essenciais da conta, incluindo exclusão da conta.
 
-### Acessando a página de perfil do usuário
+### Acessando a página de Perfil do Usuário
 
 Os usuários podem acessar seu perfil através de dois métodos:
 
@@ -132,9 +132,9 @@ Os usuários podem acessar seu perfil através de dois métodos:
 1. Clique no ícone do seu avatar de usuário localizado no canto superior direito da página
 2. No menu suspenso, selecione a opção **Perfil**
 
-**URL Direto:** Navegue para: [https://intermind.com/profile](https://intermind.com/profile)
+**URL Direta:** Navegue para: [https://intermind.com/profile](https://intermind.com/profile)
 
-### Visão geral do perfil
+### Visão Geral do Perfil
 
 A página de perfil está organizada em quatro abas principais:
 
@@ -142,13 +142,13 @@ A página de perfil está organizada em quatro abas principais:
 
 **Informações do Usuário**
 
-- Exibe o avatar do usuário, nome de exibição (ex.: João Silva) e endereço de e-mail registrado
+- Exibe o avatar do usuário, nome de exibição (ex: João Silva) e endereço de e-mail registrado
 - O nome de exibição pode ser editado usando o ícone de lápis
 
 **Plano Atual**
 
-- Mostra o tipo de assinatura ativa (ex.: Básico, Pro) e seu período de validade
-- Usuários básicos veem um botão **Atualizar Plano**
+- Mostra o tipo de assinatura ativa (ex: Básico, Pro) e seu período de validade
+- Usuários Básicos veem um botão **Atualizar Plano** (saiba mais sobre [Preços](./pricing))
 - Usuários Pro veem um botão **Cancelar Assinatura**
 
 **Preferências de Comunicação**
@@ -177,7 +177,7 @@ Mostra uma lista de faturas emitidas com:
 - Número da Fatura
 - Data
 - Valor
-- Status do Pagamento (ex.: Pago)
+- Status do Pagamento (ex: Pago)
 
 > [!TIP]
 > As faturas podem ser baixadas para relatórios ou registros.
@@ -188,7 +188,7 @@ Exibe transações de pagamento incluindo:
 - ID do Pagamento
 - Data
 - Valor
-- Status (ex.: Bem-sucedido)
+- Status (ex: Bem-sucedido)
 
 Esta seção garante total transparência e rastreabilidade para usuários pagantes.
 
@@ -214,9 +214,9 @@ Escolher idioma de tradução padrão e ajustar volume da voz original.
 - **Volume Original**: Ajustar volume da voz de fundo enquanto o áudio traduzido toca
 
 **Outros**
-Definir layout padrão (ex.: barra lateral), provedor de assistente e opção de saída automática quando sozinho.
+Definir layout padrão (ex: barra lateral), provedor de assistente e opção de saída automática quando sozinho.
 
-- **Layout**: Escolher layout de exibição (ex.: Barra Lateral, Grade)
+- **Layout**: Escolher layout de exibição (ex: Barra Lateral, Grade)
 - **Sair da Chamada Automaticamente Quando Sozinho**: Ativar/desativar desconexão automática
 
 > [!TIP]

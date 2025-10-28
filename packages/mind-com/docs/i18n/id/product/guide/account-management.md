@@ -1,17 +1,17 @@
 ---
-title: "Manajemen Akun"
-description: "Daftar dan kelola akun InterMIND Anda. Pelajari cara mendaftar dengan Google, Microsoft, atau email, memperbarui pengaturan profil, dan mengelola keamanan."
+title: Manajemen Akun
+description: Daftar dan kelola akun InterMIND Anda. Pelajari cara mendaftar dengan Google, Microsoft, atau email, memperbarui pengaturan profil, dan mengelola keamanan.
 ---
 
 # Manajemen Akun
 
 ## Daftar Akun
 
-Membuat akun dapat dilakukan melalui tiga metode: menggunakan Akun Google atau Microsoft Anda atau mendaftar dengan Alamat Email Eksternal.
+Membuat akun dapat dilakukan melalui tiga metode: menggunakan Akun Google atau Microsoft Anda atau mendaftar dengan Alamat Email Eksternal. Untuk gambaran lengkap, lihat panduan [Memulai](./getting-started) kami.
 
 1. Untuk memulai, kunjungi [https://intermind.com](https://intermind.com)
 2. Klik tombol **Masuk** yang terletak di pojok kanan atas halaman beranda
-3. Pada halaman Masuk ke akun Anda, Anda akan menemukan opsi-opsi berikut:
+3. Di halaman Masuk ke akun Anda, Anda akan menemukan opsi-opsi berikut:
    - Tombol Google dan Microsoft, yang memfasilitasi akses ke platform menggunakan akun Google atau Microsoft yang sudah ada
    - Kotak centang 'Ingat saya', yang memungkinkan Anda mempertahankan status masuk di perangkat ini
    - Tautan 'Lupa Kata Sandi', yang tersedia jika Anda sudah memiliki akun tetapi tidak ingat kata sandi Anda
@@ -33,7 +33,7 @@ Metode ini disarankan untuk akses yang efisien melalui Akun Google, memfasilitas
 
 ### Daftar dengan Akun Microsoft
 
-Metode ini disarankan untuk mendapatkan akses cepat menggunakan akun Microsoft. Pengalaman optimal dapat diwujudkan dengan menggunakan browser Microsoft Edge.
+Metode ini disarankan untuk mendapatkan akses cepat menggunakan akun Microsoft. Pengalaman optimal dapat dicapai dengan menggunakan browser Microsoft Edge.
 
 1. Klik tombol **Microsoft**
 2. Jendela pop-up akan muncul, meminta Anda untuk memilih akun Microsoft Anda
@@ -70,7 +70,7 @@ Gunakan metode ini jika Anda tidak memiliki akun Google atau lebih suka mendafta
 Jika Anda lupa kata sandi, ikuti langkah-langkah berikut:
 
 1. Klik tombol **Masuk** di halaman beranda
-2. Pada halaman login, klik **Lupa Kata Sandi?**
+2. Di halaman login, klik **Lupa Kata Sandi?**
 3. Masukkan alamat email terdaftar Anda
 4. Anda akan menerima email dengan tautan untuk mengatur ulang kata sandi Anda
 5. Ikuti instruksi dalam email untuk membuat kata sandi baru
@@ -80,9 +80,9 @@ Jika Anda lupa kata sandi, ikuti langkah-langkah berikut:
 
 ## Masuk
 
-Setelah pembuatan akun InterMIND Anda, Anda diberikan kesempatan untuk masuk kapan saja. Ini memungkinkan Anda untuk menghost atau bergabung dalam rapat, mengelola pengaturan, mengakses fungsionalitas AI, dan meninjau rapat sebelumnya beserta transkripnya. Selain itu, Asisten AI dapat digunakan dalam riwayat rapat.
+Setelah pembuatan akun InterMIND Anda, Anda diberikan kesempatan untuk masuk kapan saja. Ini memungkinkan Anda untuk menghost atau bergabung dalam rapat, mengelola pengaturan, mengakses fungsi AI, dan meninjau rapat sebelumnya beserta transkripnya. Selain itu, Asisten AI dapat digunakan dalam riwayat rapat. Pelajari lebih lanjut tentang [Creating and Scheduling Meetings](./creating-meetings).
 
-### Mengakses halaman masuk
+### Mengakses halaman Masuk
 
 1. Navigasi ke [https://intermind.com](https://intermind.com)
 2. Klik tombol **Sign In** yang terletak di pojok kanan atas halaman beranda
@@ -106,7 +106,7 @@ Jika Anda mendaftar menggunakan akun Microsoft Anda:
    - Jika sistem tidak dapat mengidentifikasi akun Microsoft Anda, Anda akan diarahkan ke halaman masuk Microsoft untuk otorisasi lebih lanjut
 2. Setelah otorisasi selesai, Anda akan diarahkan langsung ke halaman utama InterMIND
 
-### Masuk dengan email dan kata sandi
+### Masuk dengan Email dan Kata Sandi
 
 Jika Anda membuat akun menggunakan alamat email eksternal:
 
@@ -130,7 +130,7 @@ Pengguna dapat mengakses profil mereka melalui dua metode:
 **Dari Halaman Mana Pun:**
 
 1. Klik ikon avatar pengguna Anda yang terletak di sudut kanan atas halaman
-2. Dari menu dropdown, pilih opsi **Profil**
+2. Dari menu dropdown, pilih opsi **Profile**
 
 **URL Langsung:** Navigasi ke: [https://intermind.com/profile](https://intermind.com/profile)
 
@@ -148,28 +148,28 @@ Halaman profil diorganisir ke dalam empat tab utama:
 **Paket Saat Ini**
 
 - Menunjukkan jenis langganan aktif (misalnya, Basic, Pro) dan periode validitasnya
-- Pengguna Basic melihat tombol **Upgrade Paket**
-- Pengguna Pro melihat tombol **Batalkan Langganan**
+- Pengguna Basic melihat tombol **Upgrade Plan** (pelajari lebih lanjut tentang [Pricing](./pricing))
+- Pengguna Pro melihat tombol **Cancel Subscription**
 
 **Preferensi Komunikasi**
 
-- **Newsletter**: Menerima pembaruan tentang fitur baru dan perbaikan
-- **Promosi**: Menerima penawaran khusus dan konten promosi
+- **Newsletter**: Terima pembaruan tentang fitur dan peningkatan baru
+- **Promotions**: Terima penawaran khusus dan konten promosi
 
 > [!TIP]
 > Kedua opsi dapat diaktifkan/nonaktifkan dengan kotak centang.
 
 #### Penagihan
 
-Dapat diakses melalui tab Penagihan di sidebar kiri.
+Dapat diakses melalui tab Billing di sidebar kiri.
 
 **Penggunaan Kuota**
 Menampilkan batas penggunaan dan konsumsi fitur inti:
 
-- **Penyimpanan File**: 0,00 GB / 30 GB (atau 2 TB untuk pengguna Pro)
-- **Rapat**: 0 / 25 (atau Tidak Terbatas untuk pengguna Pro)
-- **Peserta Online**: Hingga 100 (atau 150 untuk pengguna Pro)
-- Kolom **Awal Periode** dan **Akhir Periode**
+- **File Storage**: 0,00 GB / 30 GB (atau 2 TB untuk pengguna Pro)
+- **Meetings**: 0 / 25 (atau Unlimited untuk pengguna Pro)
+- **Online Participants**: Hingga 100 (atau 150 untuk pengguna Pro)
+- Kolom **Period Start** dan **Period End**
 
 **Faktur**
 Menunjukkan daftar faktur yang diterbitkan dengan:
@@ -177,7 +177,7 @@ Menunjukkan daftar faktur yang diterbitkan dengan:
 - Nomor Faktur
 - Tanggal
 - Jumlah
-- Status Pembayaran (misalnya, Dibayar)
+- Status Pembayaran (misalnya, Paid)
 
 > [!TIP]
 > Faktur dapat diunduh untuk pelaporan atau catatan.
@@ -188,49 +188,49 @@ Menampilkan transaksi pembayaran meliputi:
 - ID Pembayaran
 - Tanggal
 - Jumlah
-- Status (misalnya, Berhasil)
+- Status (misalnya, Succeeded)
 
 Bagian ini memastikan transparansi penuh dan ketertelusuran untuk pengguna berbayar.
 
 > [!INFO]
-> Bagian Faktur dan Pembayaran mungkin kosong jika tidak ada transaksi yang terjadi.
+> Bagian Invoices dan Payments mungkin kosong jika tidak ada transaksi yang terjadi.
 
 #### Pengaturan
 
-Dapat diakses melalui tab Pengaturan di sidebar kiri. Tab ini memungkinkan pengguna untuk mengonfigurasi preferensi perangkat dan rapat.
+Dapat diakses melalui tab Settings di sidebar kiri. Tab ini memungkinkan pengguna untuk mengonfigurasi preferensi perangkat dan rapat.
 
 **Perangkat**
-Pilih mikrofon, speaker, dan kamera, aktifkan blur latar belakang.
+Pilih mikrofon, speaker, dan kamera, aktifkan/nonaktifkan blur latar belakang.
 
-- **Mikrofon**: Pilih perangkat input yang diinginkan
+- **Microphone**: Pilih perangkat input yang diinginkan
 - **Speaker**: Pilih perangkat output yang diinginkan
-- **Kamera**: Pilih perangkat video aktif
-- **Blur Latar Belakang**: Aktifkan atau nonaktifkan masking latar belakang visual
+- **Camera**: Pilih perangkat video aktif
+- **Background Blur**: Aktifkan atau nonaktifkan masking latar belakang visual
 
 **Terjemahan**
 Pilih bahasa terjemahan default dan sesuaikan volume suara asli.
 
-- **Bahasa Target**: Pilih output terjemahan default dan bahasa antarmuka
-- **Volume Asli**: Sesuaikan volume suara latar belakang saat audio terjemahan diputar
+- **Target Language**: Pilih output terjemahan default dan bahasa antarmuka
+- **Original Volume**: Sesuaikan volume suara latar belakang saat audio terjemahan diputar
 
 **Lainnya**
 Atur tata letak default (misalnya, sidebar), penyedia asisten, dan opsi keluar otomatis saat sendirian.
 
-- **Tata Letak**: Pilih tata letak tampilan (misalnya, Sidebar, Grid)
-- **Keluar Panggilan Otomatis Saat Sendirian**: Aktifkan/nonaktifkan pemutusan otomatis
+- **Layout**: Pilih tata letak tampilan (misalnya, Sidebar, Grid)
+- **Leave Call Automatically When Alone**: Aktifkan/nonaktifkan pemutusan otomatis
 
 > [!TIP]
 > Perubahan disimpan secara otomatis dan akan berlaku untuk semua rapat di masa mendatang.
 
 #### Lanjutan
 
-Dapat diakses melalui tab Lanjutan di sidebar kiri. Bagian ini menyediakan tindakan akun yang tidak dapat dibatalkan.
+Dapat diakses melalui tab Advanced di sidebar kiri. Bagian ini menyediakan tindakan akun yang tidak dapat dibatalkan.
 
 **Hapus Akun**
 
-1. Klik tombol **Hapus Akun**
+1. Klik tombol **Delete Account**
 2. Konfirmasi prompt (catatan: tindakan ini tidak dapat dibatalkan)
 3. Data, riwayat, dan preferensi Anda akan dihapus secara permanen
 
 > [!DANGER]
-> Akun yang dihapus tidak dapat dipulihkan. Nama Anda akan muncul sebagai Pengguna Terhapus dalam catatan rapat.
+> Akun yang dihapus tidak dapat dipulihkan. Nama Anda akan muncul sebagai Deleted User dalam catatan rapat.

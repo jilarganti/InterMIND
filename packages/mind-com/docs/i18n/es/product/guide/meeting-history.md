@@ -1,6 +1,6 @@
 ---
-title: "Historial de reuniones"
-description: "Accede a tu archivo de reuniones de InterMIND con grabaciones, transcripciones, resúmenes generados por IA y enlaces de reunión reutilizables en un solo lugar."
+title: Historial de reuniones
+description: Accede a tu archivo de reuniones de InterMIND con grabaciones, transcripciones, resúmenes generados por IA y enlaces de reunión reutilizables en un solo lugar.
 ---
 
 # Historial de reuniones
@@ -11,16 +11,16 @@ La página de Historial de reuniones funciona como un archivo personal para toda
 
 Puedes acceder a la página de Historial de reuniones a través de uno de estos tres métodos convenientes:
 
-- Haz clic en el enlace 'Historial' ubicado junto al ícono 'Reportar un problema' en el menú del encabezado de la página
-- Alternativamente, haz clic en tu ícono de avatar en la esquina superior derecha, y luego selecciona **Historial** del menú desplegable
+- Haz clic en el enlace 'History' ubicado junto al ícono 'Report a Problem' en el menú del encabezado de la página
+- Alternativamente, haz clic en tu ícono de avatar en la esquina superior derecha, y luego selecciona **History** del menú desplegable
 - También puedes navegar directamente al siguiente enlace: [https://intermind.com/history](https://intermind.com/history)
 
 ## Lista de reuniones
 
 Cada entrada en tu historial de reuniones incluye:
 
-- **Fecha** (incluyendo hora)
-- **ID de sala**
+- **Fecha** (incluyendo Hora)
+- **ID de Sala**
 - **Duración**
 - **# Pax (Participantes)**
 - **Grabación**
@@ -52,15 +52,15 @@ Algunos Botones de Acción se pueden encontrar ocultos bajo el menú de tres pun
 
 #### Eliminar
 
-Cuando se hace clic en esta acción, los usuarios recibirán una notificación solicitándoles confirmar la eliminación haciendo clic en el botón **Sí, eliminar** o cancelar la operación haciendo clic en el botón **Cancelar**. Las reuniones eliminadas ya no serán visibles para ningún participante. Solo los Anfitriones o Moderadores poseen la autoridad para eliminar una reunión.
+Cuando se hace clic en esta acción, los usuarios recibirán una notificación solicitándoles confirmar la eliminación haciendo clic en el botón **Sí, eliminar** o cancelar la operación haciendo clic en el botón **Cancelar**. Las reuniones eliminadas ya no serán visibles para ningún participante. Solo los Anfitriones o Moderadores poseen la autoridad para eliminar una reunión (ver [Roles de usuario](./user-roles)).
 
 #### Compartir
 
-Los usuarios recibirán una notificación emergente que dice **¡Enlace copiado al portapapeles!** que les permite compartir este enlace con cualquier usuario autorizado.
+Los usuarios recibirán una notificación emergente que indica **¡Enlace copiado al portapapeles!** que les permite compartir este enlace con cualquier usuario autorizado.
 
 #### Unirse
 
-Esta acción permite a cualquier usuario con el registro de la reunión en la página de Historial unirse a la reunión, resultando en la creación de un nuevo registro con el mismo ID de Sala.
+Esta acción permite a cualquier usuario con el registro de la reunión en la página de Historial unirse a la reunión, lo que resulta en la creación de un nuevo registro con el mismo ID de Sala.
 
 ## Detalles de la reunión
 
@@ -88,7 +88,7 @@ Esto abre la transcripción de la reunión que registra todas las comunicaciones
 
 ### Asistente de IA
 
-Esto permite a los usuarios obtener un resumen de la reunión del Asistente de IA en formato de chat.
+Esto permite a los usuarios obtener un resumen de la reunión del [AI Assistant](./ai-features#ai-assistant) en formato de chat.
 
 > [!INFO]
 > La pestaña de Grabación puede estar oculta en la página de Detalles de la reunión si la reunión no incluye ninguna grabación.

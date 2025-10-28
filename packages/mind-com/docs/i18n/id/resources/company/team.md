@@ -2,6 +2,8 @@
 
 Bersama-sama, kami memadukan kreativitas, kode, dan pemahaman untuk menghapus hambatan bahasa selamanya.
 
+Pelajari lebih lanjut [about our mission](./about) dan jelajahi [how our technology works](../../product/overview/how-it-works).
+
 ## Tim Manusia
 
 <TeamMembersGrid :members="[
@@ -76,3 +78,5 @@ Bersama-sama, kami memadukan kreativitas, kode, dan pemahaman untuk menghapus ha
     ]
   },
 ]" />
+
+> **Ingin bergabung dengan kami?** Lihat [peluang karir](./careers) kami atau pelajari lebih lanjut tentang [apa yang kami bangun](../../product/overview/what-is-intermind).

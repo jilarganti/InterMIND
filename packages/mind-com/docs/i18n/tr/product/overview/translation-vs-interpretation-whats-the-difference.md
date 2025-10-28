@@ -14,6 +14,8 @@ head:
 > **Temel Fark:**  
 > **Çeviri** yazılı metinlerle çalışır. **Tercümanlık** konuşulan dili gerçek zamanlı olarak işler.
 
+Platformumuzda [InterMIND'ın AI tercümanlığının nasıl çalıştığı](./how-it-works) hakkında daha fazla bilgi edinin.
+
 ## Hızlı Karşılaştırma
 
 <div class="comparison-hero">
@@ -56,31 +58,31 @@ Yazılı içeriği bir dilden diğerine anlam, ton ve kültürel nüansları kor
 
 <div class="features-grid">
   <div class="feature-box">
-    <strong>⏱️ Mükemmelleştirme Zamanı</strong>
+    <strong>⏱️ Mükemmelleştirme zamanı</strong>
     <p>Araştırma, revizyon ve cilalama için günler veya haftalar</p>
   </div>
   <div class="feature-box">
-    <strong>🎯 Hassasiyet Gerekli</strong>
+    <strong>🎯 Hassasiyet gerekli</strong>
     <p>Hukuki/tıbbi bağlamlarda hata toleransı sıfır</p>
   </div>
   <div class="feature-box">
-    <strong>🌍 Kültürel Uyarlama</strong>
+    <strong>🌍 Kültürel uyarlama</strong>
     <p>Deyimleri, mizahı ve kültürel referansları ayarlar</p>
   </div>
   <div class="feature-box">
-    <strong>💻 Teknoloji Destekli</strong>
+    <strong>💻 Teknoloji destekli</strong>
     <p>CAT araçları, çeviri bellekleri, sözlükler kullanır</p>
   </div>
 </div>
 
-### Yaygın Çeviri Türleri
+### Yaygın çeviri türleri
 
 | Tür              | Örnekler                         | Öncelik          |
 | ---------------- | -------------------------------- | ---------------- |
 | **Edebi**        | Kitaplar, şiir, oyunlar          | Sanatsal ses     |
 | **Teknik**       | Kılavuzlar, şartnameler          | Doğruluk         |
 | **Hukuki**       | Sözleşmeler, patentler           | Sıfır belirsizlik |
-| **Tıbbi**        | Klinik denemeler, hasta kayıtları | Hasta güvenliği  |
+| **Tıbbi**        | Klinik deneyler, hasta kayıtları | Hasta güvenliği  |
 | **Pazarlama**    | Reklamlar, sloganlar, kampanyalar | Duygusal etki    |
 | **Yerelleştirme** | Web siteleri, yazılım, uygulamalar | Kültürel uyum   |
 
@@ -121,28 +123,28 @@ Konuşulan dilin gerçek zamanlı sözlü dönüştürülmesi. Düşünün: konf
 
 <div class="method-card simultaneous">
   <h4>🎧 Eşzamanlı</h4>
-  <p><strong>Ne Zaman:</strong> Büyük konferanslar, BM toplantıları</p>
-  <p><strong>Nasıl:</strong> Kaynak konuşmaya devam ederken çevirmen konuşur</p>
+  <p><strong>Ne zaman:</strong> Büyük konferanslar, BM toplantıları</p>
+  <p><strong>Nasıl:</strong> Kaynak devam ederken çevirmen konuşur</p>
   <p><strong>İhtiyaçlar:</strong> Kabinler, kulaklıklar, ekipman</p>
 </div>
 
 <div class="method-card consecutive">
   <h4>✋ Ardışık</h4>
-  <p><strong>Ne Zaman:</strong> İş toplantıları, hukuki işlemler</p>
+  <p><strong>Ne zaman:</strong> İş toplantıları, hukuki işlemler</p>
   <p><strong>Nasıl:</strong> Konuşmacı çeviri için durur</p>
   <p><strong>İhtiyaçlar:</strong> Not alma sistemi, daha fazla zaman</p>
 </div>
 
 <div class="method-card whispered">
   <h4>🤫 Fısıltılı (Chuchotage)</h4>
-  <p><strong>Ne Zaman:</strong> Sadece 1-2 dinleyici</p>
+  <p><strong>Ne zaman:</strong> Sadece 1-2 dinleyici</p>
   <p><strong>Nasıl:</strong> Bireylere çeviriyi fısıldar</p>
   <p><strong>İhtiyaçlar:</strong> Ekipman yok, fiziksel olarak yorucu</p>
 </div>
 
 <div class="method-card remote">
   <h4>💻 Uzaktan (Video/Telefon)</h4>
-  <p><strong>Ne Zaman:</strong> Sağlık, hukuk, mesafe</p>
+  <p><strong>Ne zaman:</strong> Sağlık, hukuk, mesafe</p>
   <p><strong>Nasıl:</strong> Video/telefon ile çeviri</p>
   <p><strong>İhtiyaçlar:</strong> Kararlı teknoloji, net ses</p>
 </div>
@@ -273,20 +275,20 @@ Konuşulan dilin gerçek zamanlı sözlü dönüştürülmesi. Düşünün: konf
 
 ### Çeviri için ISO Sertifikaları
 
-| Standart           | Kapsadığı Alan                   | Kimler İhtiyaç Duyar            |
-| ------------------ | -------------------------------- | ------------------------------- |
-| **ISO 17100:2015** | Çeviri hizmeti gereksinimleri    | Ajanslar, kurumsal departmanlar |
-| **ISO 18587:2017** | Makine çevirisi sonrası düzenleme | MT iş akışları kullanan şirketler |
-| **ISO 20771:2020** | Hukuki çeviri                    | Hukuk büroları, mahkemeler, devlet |
+| Standart           | Kapsadığı Alan                    | Kimler İhtiyaç Duyar               |
+| ------------------ | --------------------------------- | ---------------------------------- |
+| **ISO 17100:2015** | Çeviri hizmeti gereksinimleri     | Ajanslar, kurumsal departmanlar    |
+| **ISO 18587:2017** | Makine çevirisi sonrası düzenleme | MT iş akışları kullanan şirketler  |
+| **ISO 20771:2020** | Hukuki çeviri                     | Hukuk büroları, mahkemeler, devlet |
 
 ### Sözlü Çeviri Sertifikaları
 
-| Program           | Odak Alanı               | Bölge                 |
-| ----------------- | ------------------------ | --------------------- |
-| **AIIC**          | Konferans sözlü çevirisi | Uluslararası          |
-| **CCHI**          | Sağlık sözlü çevirisi    | ABD                   |
-| **Federal Court** | Hukuki sözlü çeviri      | ABD (İspanyolca)      |
-| **State Court**   | Hukuki sözlü çeviri      | ABD (eyalete göre değişir) |
+| Program           | Odak Alanı               | Bölge                      |
+| ----------------- | ------------------------ | -------------------------- |
+| **AIIC**          | Konferans sözlü çevirisi | Uluslararası               |
+| **CCHI**          | Sağlık sözlü çevirisi    | ABD                        |
+| **Federal Court** | Hukuki sözlü çeviri      | ABD (İspanyolca)           |
+| **State Court**   | Hukuki sözlü çeviri      | ABD (eyaletlere göre değişir) |
 
 </div>
 
@@ -298,16 +300,16 @@ Konuşulan dilin gerçek zamanlı sözlü dönüştürülmesi. Düşünün: konf
   <h4>Çeviri Fiyatlandırması</h4>
   <ul>
     <li>Kelime, sayfa veya proje başına</li>
-    <li>Acil işler = prim oranları</li>
+    <li>Acil işler = premium fiyatlar</li>
     <li>Hacim indirimleri mevcut</li>
-    <li>İnceleme aşamaları maliyet ekler</li>
+    <li>İnceleme aşamaları ek maliyet</li>
   </ul>
 </div>
 
 <div class="pricing-card">
   <h4>Tercümanlık Fiyatlandırması</h4>
   <ul>
-    <li>Saatlik veya günlük oranlar</li>
+    <li>Saatlik veya günlük tarifeler</li>
     <li>Minimum ücretler (yarım/tam gün)</li>
     <li>Ekipman kiralama ayrı</li>
     <li>Seyahat masrafları eklenir</li>
@@ -323,7 +325,7 @@ Konuşulan dilin gerçek zamanlı sözlü dönüştürülmesi. Düşünün: konf
 :::
 
 ::: danger Efsane: "Google Translate yeterince iyi"
-**Gerçek:** MT temel anlama için işe yarar, ancak doğruluk, bağlam ve kültürel nüanslar için profesyonel insan denetimi şarttır.
+**Gerçek:** Makine çevirisi temel anlama için işe yarar, ancak doğruluk, bağlam ve kültürel nüanslar için profesyonel insan denetimi şarttır.
 :::
 
 ::: danger Efsane: "Tercümanlık sadece sözlü çeviridir"
@@ -331,7 +333,7 @@ Konuşulan dilin gerçek zamanlı sözlü dönüştürülmesi. Düşünün: konf
 :::
 
 ::: danger Efsane: "Tam otomasyon yakında geliyor"
-**Gerçek:** AI hızla gelişse de, yüksek riskli iletişimde insan yaratıcılığı, kültürel anlayış ve bağlamsal yargı vazgeçilmez olmaya devam ediyor.
+**Gerçek:** Yapay zeka hızla gelişse de, insan yaratıcılığı, kültürel anlayış ve bağlamsal yargı, yüksek riskli iletişim için vazgeçilmez olmaya devam ediyor.
 :::
 
 ## En İyi Uygulamalar
@@ -357,8 +359,8 @@ Konuşulan dilin gerçek zamanlı sözlü dönüştürülmesi. Düşünün: konf
 
 1. Gündem önceden paylaşın
 2. Teknik terimler hakkında bilgi verin
-3. Konuşmacı isimlerini sağlayın
-4. Uygun ekipmanı temin edin
+3. Konuşmacı isimlerini belirtin
+4. Uygun ekipmanı sağlayın
 5. Net konuşun, ılımlı tempo tutun
 6. Tercüme için zaman tanıyın
 
@@ -381,6 +383,8 @@ Karmaşık projeler için—uluslararası konferanslar veya hukuki davalar gibi�
 
 ::: tip Unutmayın
 Kaliteli dil hizmetleri, doğru iletişim, kültürel anlayış ve diller arası güven inşa etme konusunda bir yatırımdır. Sertifikalı profesyonelleri seçin ve en iyi sonuçlar için yeterli zaman ve kaynak ayırın.
+
+**Gerçek zamanlı AI tercümanlığı deneyimlemek ister misiniz?** [InterMIND'ın video platformunu](./video-meeting-platform) deneyin veya [teknolojimiz hakkında](./what-is-intermind) daha fazla bilgi edinin.
 :::
 
 </div>

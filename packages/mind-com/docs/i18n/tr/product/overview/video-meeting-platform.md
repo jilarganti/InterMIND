@@ -1,6 +1,6 @@
 ---
-title: "Video Toplantı Platformu"
-description: "HD kalite, ekran paylaşımı, kayıt, AI asistanı ve küresel işbirliği için profesyonel özellikler sunan kurumsal düzeyde video konferans platformu."
+title: Video Toplantı Platformu
+description: HD kalite, ekran paylaşımı, kayıt, AI asistanı ve küresel işbirliği için profesyonel özellikler sunan kurumsal düzeyde video konferans platformu.
 ---
 
 # InterMind Video Toplantı Platformu
@@ -8,6 +8,8 @@ description: "HD kalite, ekran paylaşımı, kayıt, AI asistanı ve küresel i�
 ## Ciddi Toplantılar İçin Tasarlandı — Sadece Konuşmak İçin Değil
 
 InterMind sadece başka bir eklenti veya hafif araç değil — profesyonel iletişim, yüksek riskli işbirliği ve küresel ölçekli operasyonlar için tasarlanmış tam özellikli, kurumsal düzeyde bir video toplantı platformudur.
+
+[AI çevirimizin nasıl çalıştığını](./how-it-works) keşfedin ve [en büyük etkiyi](./markets) nerede yaptığını görün.
 
 <video autoplay muted playsinline style="margin-top: 24px" class="light-only">
   <source src="/video-meeting-platform-1d.mp4" type="video/mp4">
@@ -35,9 +37,9 @@ InterMind sadece başka bir eklenti veya hafif araç değil — profesyonel ilet
     },
     {
       title: '🔇 Akıllı Gürültü Bastırma',
-      details: 'AI destekli gürültü engelleme, arka plan seslerini filtreler — klavye sesleri, trafik, yankı veya uzaktan gelen konuşmalar.',
+      details: 'AI destekli gürültü engelleme teknolojisi arka plan seslerini filtreler — klavye sesleri, trafik, yankı veya uzaktan gelen konuşmalar.',
       items: [
-        'Toplantıları profesyonel ve odaklı tutar',
+        'Toplantıları profesyonel ve odaklanmış tutar',
         'Manuel kontrol gerektirmeden otomatik çalışır',
         'Ses geçirmez olmayan ortamlarda çalışan uzaktan çalışanlar için ideal'
       ],
@@ -68,7 +70,7 @@ InterMind sadece başka bir eklenti veya hafif araç değil — profesyonel ilet
   :features="[
     {
       title: '📅 Gelişmiş Toplantı Zamanlaması',
-      details: 'InterMind **Google Calendar, Outlook ve iCal** ile sorunsuz bir şekilde entegre olur.',
+      details: 'InterMind **Google Takvim, Outlook ve iCal** ile sorunsuz bir şekilde entegre olur.',
       items: [
         'Saat dilimi farkında zamanlama',
         'Tek tıkla katılım bağlantıları',
@@ -139,7 +141,7 @@ InterMind sadece başka bir eklenti veya hafif araç değil — profesyonel ilet
       },
     },
     {
-      title: '🧑‍⚖️ Profesyonel Moderasyon Araçları',
+      title: '🧑‍⚖️ Profesyonel moderasyon araçları',
       details: 'Yerleşik **moderasyon kontrolleri** kullanarak güvenle ev sahipliği yapın.',
       items: [
         'Katılımcıları sessize alma/sesini açma',
@@ -176,7 +178,7 @@ InterMind sadece başka bir eklenti veya hafif araç değil — profesyonel ilet
       details: 'Şifreli bağlantılarla kurumsal düzeyde güvenlik.',
       items: [
         'Şifre korumalı toplantılar ve güvenli bulut depolama',
-        'Yüksek riskli işbirliği için tasarlandı',
+        'Yüksek riskli işbirlikleri için tasarlandı',
         'Endüstri standartlarına uyumlu'
       ],
       images: {

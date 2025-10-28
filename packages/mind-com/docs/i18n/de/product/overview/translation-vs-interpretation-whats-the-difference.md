@@ -14,6 +14,8 @@ head:
 > **Der grundlegende Unterschied:**  
 > **Übersetzung** arbeitet mit geschriebenem Text. **Dolmetschen** behandelt gesprochene Sprache in Echtzeit.
 
+Erfahren Sie mehr darüber, [how InterMIND's AI interpretation works](./how-it-works) auf unserer Plattform.
+
 ## Schneller Vergleich
 
 <div class="comparison-hero">
@@ -69,20 +71,20 @@ Die Übertragung schriftlicher Inhalte von einer Sprache in eine andere unter Be
   </div>
   <div class="feature-box">
     <strong>💻 Technologieunterstützt</strong>
-    <p>Verwendet CAT-Tools, Translation Memories, Glossare</p>
+    <p>Nutzt CAT-Tools, Translation Memories, Glossare</p>
   </div>
 </div>
 
 ### Häufige Übersetzungsarten
 
-| Art              | Beispiele                        | Priorität        |
-| ---------------- | -------------------------------- | ---------------- |
-| **Literarisch**  | Bücher, Gedichte, Theaterstücke  | Künstlerische Stimme |
-| **Technisch**    | Handbücher, Spezifikationen      | Genauigkeit      |
-| **Rechtlich**    | Verträge, Patente                | Null Mehrdeutigkeit |
-| **Medizinisch**  | Klinische Studien, Patientenakten | Patientensicherheit |
-| **Marketing**    | Anzeigen, Slogans, Kampagnen     | Emotionale Wirkung |
-| **Lokalisierung** | Websites, Software, Apps         | Kulturelle Passung |
+| Art                | Beispiele                           | Priorität           |
+| ------------------ | ----------------------------------- | ------------------- |
+| **Literarisch**    | Bücher, Gedichte, Theaterstücke     | Künstlerische Stimme |
+| **Technisch**      | Handbücher, Spezifikationen         | Genauigkeit         |
+| **Rechtlich**      | Verträge, Patente                   | Null Mehrdeutigkeit |
+| **Medizinisch**    | Klinische Studien, Patientenakten   | Patientensicherheit |
+| **Marketing**      | Anzeigen, Slogans, Kampagnen        | Emotionale Wirkung  |
+| **Lokalisierung**  | Websites, Software, Apps            | Kulturelle Passung  |
 
 </div>
 
@@ -122,14 +124,14 @@ Mündliche Übertragung gesprochener Sprache in Echtzeit. Denken Sie an: Konfere
 <div class="method-card simultaneous">
   <h4>🎧 Simultandolmetschen</h4>
   <p><strong>Wann:</strong> Große Konferenzen, UN-Sitzungen</p>
-  <p><strong>Wie:</strong> Dolmetscher spricht, während der Redner fortsetzt</p>
-  <p><strong>Benötigt:</strong> Kabinen, Kopfhörer, Ausrüstung</p>
+  <p><strong>Wie:</strong> Dolmetscher spricht, während die Quelle weiterläuft</p>
+  <p><strong>Benötigt:</strong> Kabinen, Headsets, Ausrüstung</p>
 </div>
 
 <div class="method-card consecutive">
   <h4>✋ Konsekutivdolmetschen</h4>
   <p><strong>Wann:</strong> Geschäftstreffen, Gerichtsverfahren</p>
-  <p><strong>Wie:</strong> Redner macht Pausen für die Verdolmetschung</p>
+  <p><strong>Wie:</strong> Redner pausiert für die Verdolmetschung</p>
   <p><strong>Benötigt:</strong> Notizsystem, mehr Zeit</p>
 </div>
 
@@ -195,11 +197,11 @@ Mündliche Übertragung gesprochener Sprache in Echtzeit. Denken Sie an: Konfere
 **Maschinelle Übersetzung (MT)**
 
 - Google Translate, DeepL, GPT-4
-- Ideal für Zusammenfassungen, informelle Nutzung
+- Ideal für Zusammenfassungen und informelle Nutzung
 - Erfordert professionelle menschliche Nachbearbeitung
 - Schwierigkeiten mit Kontext und Nuancen
 
-**CAT Tools**
+**CAT-Tools**
 
 - Translation Memories für Konsistenz
 - Terminologieverwaltung
@@ -216,13 +218,13 @@ Mündliche Übertragung gesprochener Sprache in Echtzeit. Denken Sie an: Konfere
 - Automatische Spracherkennung + MT
 - Sofortige Untertitel und Übersetzungen
 - Kosteneffektiv für große Veranstaltungen
-- Immer noch herausgefordert durch Akzente, Fachjargon
+- Noch immer herausgefordert durch Akzente und Fachjargon
 
 **Hybride Lösungen**
 
 - KI-Erstentwurf + menschliche Verfeinerung
 - Reduziert Kosten, erhält Qualität
-- Ermöglicht mehr Sprachpaare
+- Ermöglicht mehr Sprachkombinationen
 
 </div>
 
@@ -276,8 +278,8 @@ Mündliche Übertragung gesprochener Sprache in Echtzeit. Denken Sie an: Konfere
 | Standard           | Was es abdeckt                        | Wer es benötigt                      |
 | ------------------ | ------------------------------------- | ------------------------------------ |
 | **ISO 17100:2015** | Anforderungen an Übersetzungsdienstleistungen | Agenturen, Unternehmensabteilungen |
-| **ISO 18587:2017** | Nachbearbeitung maschineller Übersetzungen | Unternehmen mit MT-Arbeitsabläufen |
-| **ISO 20771:2020** | Rechtsübersetzung                     | Anwaltskanzleien, Gerichte, Regierung |
+| **ISO 18587:2017** | Post-Editing maschineller Übersetzungen | Unternehmen mit MT-Workflows        |
+| **ISO 20771:2020** | Rechtsübersetzungen                   | Anwaltskanzleien, Gerichte, Behörden |
 
 ### Zertifizierungen für Dolmetschen
 
@@ -285,8 +287,8 @@ Mündliche Übertragung gesprochener Sprache in Echtzeit. Denken Sie an: Konfere
 | ----------------- | ------------------------- | ------------------------- |
 | **AIIC**          | Konferenzdolmetschen      | International             |
 | **CCHI**          | Medizinisches Dolmetschen | USA                       |
-| **Federal Court** | Rechtsdolmetschen         | USA (Spanisch)            |
-| **State Court**   | Rechtsdolmetschen         | USA (variiert je Bundesstaat) |
+| **Federal Court** | Gerichtsdolmetschen       | USA (Spanisch)            |
+| **State Court**   | Gerichtsdolmetschen       | USA (variiert nach Staat) |
 
 </div>
 
@@ -298,9 +300,9 @@ Mündliche Übertragung gesprochener Sprache in Echtzeit. Denken Sie an: Konfere
   <h4>Übersetzungspreise</h4>
   <ul>
     <li>Pro Wort, Seite oder Projekt</li>
-    <li>Eilaufträge = Premiumtarife</li>
+    <li>Eilaufträge = Aufschlag</li>
     <li>Mengenrabatte verfügbar</li>
-    <li>Korrekturphasen erhöhen die Kosten</li>
+    <li>Korrekturphasen erhöhen Kosten</li>
   </ul>
 </div>
 
@@ -309,8 +311,8 @@ Mündliche Übertragung gesprochener Sprache in Echtzeit. Denken Sie an: Konfere
   <ul>
     <li>Stunden- oder Tagessätze</li>
     <li>Mindestgebühren (halber/ganzer Tag)</li>
-    <li>Gerätemiete zusätzlich</li>
-    <li>Reisekosten werden hinzugefügt</li>
+    <li>Ausrüstungsmiete extra</li>
+    <li>Reisekosten zusätzlich</li>
   </ul>
 </div>
 
@@ -318,20 +320,20 @@ Mündliche Übertragung gesprochener Sprache in Echtzeit. Denken Sie an: Konfere
 
 ## Häufige Mythen widerlegt
 
-::: danger Mythos: "Jede zweisprachige Person kann übersetzen oder dolmetschen"
-**Realität:** Professionelle Sprachdienstleistungen erfordern jahrelange Ausbildung, spezialisierte Fähigkeiten und Fachkenntnisse, die weit über einfache Sprachgewandtheit hinausgehen.
+::: danger Mythos: „Jede zweisprachige Person kann übersetzen oder dolmetschen"
+**Realität:** Professionelle Sprachdienstleistungen erfordern jahrelange Ausbildung, spezialisierte Fähigkeiten und Fachkenntnisse, die weit über einfache Sprachbeherrschung hinausgehen.
 :::
 
-::: danger Mythos: "Google Translate ist gut genug"
-**Realität:** Maschinelle Übersetzung funktioniert für grundlegende Zusammenfassungen, aber professionelle menschliche Überwachung ist für Genauigkeit, Kontext und kulturelle Nuancen unerlässlich.
+::: danger Mythos: „Google Translate ist gut genug"
+**Realität:** Maschinelle Übersetzung funktioniert für grundlegendes Textverständnis, aber professionelle menschliche Überwachung ist für Genauigkeit, Kontext und kulturelle Nuancen unerlässlich.
 :::
 
-::: danger Mythos: "Dolmetschen ist nur mündliche Übersetzung"
+::: danger Mythos: „Dolmetschen ist nur mündliches Übersetzen"
 **Realität:** Dolmetschen umfasst komplexe kognitive Prozesse, kulturelle Vermittlung und Sekundenentscheidungen, die weit über Wortsubstitution hinausgehen.
 :::
 
-::: danger Mythos: "Vollständige Automatisierung kommt bald"
-**Realität:** Obwohl KI schnell voranschreitet, bleiben menschliche Kreativität, kulturelles Verständnis und kontextuelle Urteilsfähigkeit für wichtige Kommunikation unersetzlich.
+::: danger Mythos: „Vollständige Automatisierung kommt bald"
+**Realität:** Obwohl KI schnell voranschreitet, bleiben menschliche Kreativität, kulturelles Verständnis und kontextuelle Urteilsfähigkeit für kritische Kommunikation unersetzlich.
 :::
 
 ## Bewährte Praktiken
@@ -342,12 +344,12 @@ Mündliche Übertragung gesprochener Sprache in Echtzeit. Denken Sie an: Konfere
 
 ### 📄 Zusammenarbeit mit Übersetzern
 
-1. Kontext und Hintergrund bereitstellen
-2. Zielgruppe klären
+1. Kontext und Hintergrundinformationen bereitstellen
+2. Zielgruppe präzisieren
 3. Ausreichend Zeit einplanen
 4. Terminologie-Glossare teilen
 5. Für Rückfragen verfügbar sein
-6. Überprüfungszyklen einplanen
+6. Überarbeitungszyklen einplanen
 
 </div>
 
@@ -355,11 +357,11 @@ Mündliche Übertragung gesprochener Sprache in Echtzeit. Denken Sie an: Konfere
 
 ### 🗣️ Zusammenarbeit mit Dolmetschern
 
-1. Agenda im Voraus teilen
+1. Agenda im Voraus mitteilen
 2. Über Fachbegriffe informieren
 3. Sprechernamen bereitstellen
 4. Ordnungsgemäße Ausrüstung sicherstellen
-5. Klar sprechen, gemäßigtes Tempo
+5. Deutlich sprechen, gemäßigtes Tempo
 6. Zeit für Dolmetschung einräumen
 
 </div>
@@ -373,14 +375,16 @@ Mündliche Übertragung gesprochener Sprache in Echtzeit. Denken Sie an: Konfere
 **Übersetzung** und **Dolmetschen** überwinden beide Sprachbarrieren, jedoch auf unterschiedliche Weise:
 
 - **Übersetzung** = Sorgfältig, schriftlich, überarbeitet, dauerhaft
-- **Dolmetschen** = Sofortig, mündlich, keine Überarbeitungen, vergänglich
+- **Dolmetschen** = Sofortig, gesprochen, keine Überarbeitungen, vergänglich
 
-Wählen Sie basierend auf Ihrem **Inhaltstyp** (schriftlich vs. mündlich), **Zeitrahmen** (Tage vs. Echtzeit) und **Dauerhaftigkeits**bedürfnissen (veröffentlicht vs. live).
+Wählen Sie basierend auf Ihrem **Inhaltstyp** (schriftlich vs. gesprochen), **Zeitrahmen** (Tage vs. Echtzeit) und **Dauerhaftigkeitsbedürfnissen** (veröffentlicht vs. live).
 
-Für komplexe Projekte—wie internationale Konferenzen oder Rechtsfälle—benötigen Sie oft **beide Dienstleistungen zusammenarbeitend** mit konsistenter Terminologie und Botschaft.
+Für komplexe Projekte – wie internationale Konferenzen oder Rechtsfälle – benötigen Sie oft **beide Dienstleistungen zusammenarbeitend** mit konsistenter Terminologie und Botschaft.
 
 ::: tip Denken Sie daran
-Qualitätsvolle Sprachdienstleistungen sind eine Investition in präzise Kommunikation, kulturelles Verständnis und Vertrauensaufbau über Sprachen hinweg. Wählen Sie zertifizierte Fachkräfte und planen Sie ausreichend Zeit und Ressourcen für beste Ergebnisse ein.
+Qualitäts-Sprachdienstleistungen sind eine Investition in präzise Kommunikation, kulturelles Verständnis und Vertrauensaufbau über Sprachen hinweg. Wählen Sie zertifizierte Fachkräfte und planen Sie ausreichend Zeit und Ressourcen für beste Ergebnisse ein.
+
+**Möchten Sie Echtzeit-KI-Dolmetschen erleben?** Probieren Sie [InterMIND's Video-Plattform](./video-meeting-platform) aus oder erfahren Sie mehr [über unsere Technologie](./what-is-intermind).
 :::
 
 </div>

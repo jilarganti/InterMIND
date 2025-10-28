@@ -1,13 +1,15 @@
 ---
-title: "Plateforme de réunion vidéo"
-description: "Visioconférence de niveau entreprise avec qualité HD, partage d'écran, enregistrement, assistant IA et fonctionnalités professionnelles pour la collaboration mondiale."
+title: Plateforme de visioconférence
+description: Visioconférence de niveau entreprise avec qualité HD, partage d'écran, enregistrement, assistant IA et fonctionnalités professionnelles pour la collaboration mondiale.
 ---
 
-# Plateforme de réunion vidéo InterMind
+# Plateforme de visioconférence InterMind
 
 ## Conçu pour les réunions sérieuses — pas seulement pour parler
 
-InterMind n\'est pas simplement un autre plugin ou outil léger — c\'est une plateforme de réunion vidéo complète et de niveau entreprise, conçue pour la communication professionnelle, la collaboration à enjeux élevés et les opérations à l\'échelle mondiale.
+InterMind n'est pas simplement un autre plugin ou outil léger — c'est une plateforme de réunion vidéo complète et de niveau entreprise, conçue pour la communication professionnelle, la collaboration à enjeux élevés et les opérations à l'échelle mondiale.
+
+Découvrez [how our AI translation works](./how-it-works) et voyez où cela a le [biggest impact](./markets).
 
 <video autoplay muted playsinline style="margin-top: 24px" class="light-only">
   <source src="/video-meeting-platform-1d.mp4" type="video/mp4">
@@ -25,7 +27,7 @@ InterMind n\'est pas simplement un autre plugin ou outil léger — c\'est une p
       details: 'Toutes les réunions diffusées en **Full HD 1080p** avec des visuels d\'une clarté cristalline pour chaque participant.',
       items: [
         'Parfait pour les présentations aux investisseurs, les démonstrations de produits ou les discussions juridiques',
-        'Réduit la fatigue cognitive causée par une vidéo pixelisée ou de faible qualité',
+        'Réduit la fatigue cognitive causée par une vidéo pixellisée ou de faible qualité',
         'Améliore la confiance et l\'engagement dans les environnements virtuels'
       ],
       images: {
@@ -35,7 +37,7 @@ InterMind n\'est pas simplement un autre plugin ou outil léger — c\'est une p
     },
     {
       title: '🔇 Suppression intelligente du bruit',
-      details: 'La suppression du bruit pilotée par l\'IA filtre les sons de fond — frappe au clavier, circulation, écho ou bavardages lointains.',
+      details: 'La suppression du bruit pilotée par IA filtre les sons de fond — frappe au clavier, circulation, écho ou bavardages lointains.',
       items: [
         'Maintient les réunions professionnelles et concentrées',
         'Fonctionne automatiquement sans contrôles manuels',
@@ -84,8 +86,8 @@ InterMind n\'est pas simplement un autre plugin ou outil léger — c\'est une p
       details: 'Les réunions, enregistrements et sessions à venir sont automatiquement enregistrés et synchronisés.',
       items: [
         'Recevez des rappels avant les réunions importantes',
-        'Facile de suivre qui s\'est rencontré quand — et pourquoi',
-        'Prend en charge les réunions récurrentes et les pièces jointes d\'ordre du jour'
+        'Suivi facile de qui s\'est réuni quand — et pourquoi',
+        'Prend en charge les réunions récurrentes et les pièces jointes d\'agenda'
       ],
       images: {
         light: '/calendar.png',
@@ -117,7 +119,7 @@ InterMind n\'est pas simplement un autre plugin ou outil léger — c\'est une p
       details: 'Partagez facilement votre écran entier, une fenêtre d\'application ou un onglet de navigateur — aucune installation requise.',
       items: [
         'Annotez pendant les présentations en direct',
-        'Montrez des feuilles de calcul, des diapositives ou des outils logiciels en temps réel',
+        'Affichez des feuilles de calcul, des diapositives ou des outils logiciels en temps réel',
         'Prend en charge les présentateurs multi-écrans'
       ],
       images: {
@@ -163,8 +165,8 @@ InterMind n\'est pas simplement un autre plugin ou outil léger — c\'est une p
       details: 'InterMind est **entièrement intégré** et fonctionne immédiatement.',
       items: [
         'Aucune installation ou extension de navigateur nécessaire',
-        'Expérience unifiée sur web, bureau et mobile',
-        'Une plateforme sécurisée — conçue pour l\'évolutivité'
+        'Expérience unifiée sur web, desktop et mobile',
+        'Une plateforme sécurisée — conçue pour évoluer'
       ],
       images: {
         light: '/platform.png',
@@ -177,7 +179,7 @@ InterMind n\'est pas simplement un autre plugin ou outil léger — c\'est une p
       items: [
         'Réunions protégées par mot de passe et stockage cloud sécurisé',
         'Conçu pour la collaboration à enjeux élevés',
-        'Conforme aux normes de l\'industrie'
+        'Conforme aux standards de l\'industrie'
       ],
       images: {
         light: '/security.png',
@@ -188,7 +190,7 @@ InterMind n\'est pas simplement un autre plugin ou outil léger — c\'est une p
       title: '🌐 Échelle mondiale',
       details: 'Conçu pour les équipes internationales et les opérations mondiales.',
       items: [
-        'Support multilingue pour les équipes mondiales',
+        'Support multilingue pour les équipes globales',
         'Infrastructure optimisée pour des connexions fiables',
         'Conçu pour la collaboration transfrontalière'
       ],

@@ -8,7 +8,6 @@ head:
   - - meta
     - name: keywords
       content: testes de software, fundamentos de testes, QA, testes manuais, testes automatizados, tipos de testes
-
 ---
 
 # Fundamentos de testes de software: guia completo (2025)
@@ -22,10 +21,10 @@ head:
 
 Existem quatro tipos principais de teste, cada um servindo a um propósito diferente no ciclo de vida de desenvolvimento:
 
-| Tipo                      | O Que Testamos               | Quando             | Objetivo                |
+| Tipo                      | O que testamos               | Quando             | Objetivo                |
 | ------------------------- | ---------------------------- | ------------------ | ----------------------- |
-| **Teste Unitário**        | Funções/métodos individuais  | Durante desenvolvimento | Verificar se cada parte funciona |
-| **Teste de Integração**  | Como os módulos funcionam juntos | Após testes unitários | Verificar conexões      |
+| **Teste Unitário**        | Funções/métodos individuais  | Durante o desenvolvimento | Verificar se cada parte funciona |
+| **Teste de Integração**   | Como os módulos funcionam juntos | Após testes unitários | Verificar conexões      |
 | **Teste de Sistema**      | Aplicação completa           | Antes do lançamento | Validação ponta a ponta |
 | **Teste de Aceitação**    | Requisitos de negócio        | Etapa final        | Confirmar que está pronto |
 
@@ -51,7 +50,7 @@ O teste de software segue um fluxo de trabalho claro do planejamento ao lançame
   <div class="arrow">→</div>
   <div class="process-step">
     <div class="process-icon">🐛</div>
-    <div class="process-label">Reportar</div>
+    <div class="process-label">Relatar</div>
   </div>
   <div class="arrow">→</div>
   <div class="process-step">
@@ -65,7 +64,7 @@ O teste de software segue um fluxo de trabalho claro do planejamento ao lançame
   </div>
 </div>
 
-## Testes Manuais vs Testes Automatizados
+## Testes Manuais vs Automatizados
 
 Ambas as abordagens têm seu lugar em uma estratégia de testes:
 
@@ -121,7 +120,7 @@ Uma estratégia de testes equilibrada segue esta distribuição:
 | ------------------------- | ------------------------------------------------------------------------------ |
 | **Caso de Teste**         | Um cenário específico para testar com resultados esperados                    |
 | **Bug/Defeito**           | Um erro ou falha que causa comportamento incorreto                            |
-| **Teste de Regressão**    | Re-testar para garantir que novas mudanças não quebraram funcionalidades existentes |
+| **Teste de Regressão**    | Re-teste para garantir que novas mudanças não quebraram funcionalidades existentes |
 | **Teste de Fumaça**       | Testes básicos rápidos para verificar se a build está estável o suficiente para testes mais profundos |
 | **Cobertura de Teste**    | Porcentagem do código que é executada pelos testes                            |
 
@@ -133,7 +132,7 @@ Para testes manuais, conhecimento técnico básico é suficiente. Testes de auto
 
 ### P: Qual é a diferença entre QA e testes?
 
-Testes é encontrar bugs. QA (Quality Assurance) é o processo mais amplo de prevenir bugs através de bons processos e padrões.
+Testes são para encontrar bugs. QA (Garantia de Qualidade) é o processo mais amplo de prevenir bugs através de bons processos e padrões.
 
 ### P: Quanto teste é suficiente?
 
@@ -146,7 +145,7 @@ A IA pode automatizar testes repetitivos, mas testadores humanos ainda são esse
 ---
 
 ::: info Pronto para Começar a Testar?
-Este guia cobre os fundamentos. A melhor maneira de aprender é praticando—comece com casos de teste simples e gradualmente desenvolva suas habilidades.
+Este guia cobre os fundamentos. A melhor maneira de aprender é praticando—comece com casos de teste simples e desenvolva gradualmente suas habilidades.
 :::
 
 <style scoped>

@@ -1,6 +1,6 @@
 ---
-title: "Primeiros passos"
-description: "Aprenda como usar a plataforma de videoconferência com IA InterMIND. Guia completo para registro, criação de reuniões, recursos de IA e solução de problemas."
+title: Primeiros passos
+description: Aprenda como usar a plataforma de videoconferência com IA InterMIND. Guia completo para registro, criação de reuniões, recursos de IA e solução de problemas.
 ---
 
 # Primeiros passos
@@ -11,11 +11,11 @@ Seja você um usuário iniciante buscando orientação detalhada ou um participa
 
 Neste guia, você descobrirá:
 
-- Instruções sobre como se registrar, fazer login e personalizar seu perfil
-- Diretrizes para criar e agendar reuniões
-- Informações sobre funções de usuário, permissões e recursos de tradução em tempo real
-- Uma visão geral dos recursos com IA, como o Assistente de IA e o Tradutor de Voz
-- Dicas de solução de problemas e respostas para perguntas frequentes
+- Instruções sobre como [registrar-se, fazer login e personalizar seu perfil](./account-management)
+- Diretrizes para [criar e agendar reuniões](./creating-meetings)
+- Informações sobre [funções de usuário](./user-roles), permissões e [recursos de tradução em tempo real](./ai-features#online-voice-translation)
+- Uma visão geral dos [recursos com IA](./ai-features) como o Assistente de IA e o Tradutor de Voz
+- [Dicas de solução de problemas](./troubleshooting) e respostas para [perguntas frequentes](./faq)
 
 Vamos começar — o futuro das reuniões inteligentes está prestes a começar agora.
 
@@ -24,16 +24,16 @@ Vamos começar — o futuro das reuniões inteligentes está prestes a começar 
 Se você é novo no InterMIND, siga esta lista de verificação simples para começar sua experiência:
 
 1. Visite https://intermind.com
-2. Clique em Entrar e escolha Google / Microsoft / Email
+2. Clique em Entrar e escolha Google / Microsoft / Email (saiba mais em [Gerenciamento de Conta](./account-management))
 3. Quando solicitado, permita acesso ao seu microfone e câmera
-4. Clique em Nova Reunião e selecione Iniciar uma Reunião Instantânea
+4. Clique em Nova Reunião e selecione Iniciar uma Reunião Instantânea (veja [Criando e Agendando Reuniões](./creating-meetings))
 5. Compartilhe o link da reunião com os participantes
 6. Abra Configurações para escolher seu idioma e dispositivos preferidos
-7. Use o Assistente de IA para fazer anotações e gerar resumos durante sua chamada
+7. Use o [Assistente de IA](./ai-features#ai-assistant) para fazer anotações e gerar resumos durante sua chamada
 8. Acesse reuniões anteriores através da aba Histórico para gravações e transcrições
 
 > [!TIP]
-> Para o melhor desempenho, é recomendado usar um navegador Chrome ou Edge.
+> Para o melhor desempenho, é recomendado usar um navegador Chrome ou Edge. Se você tiver algum problema, consulte nosso guia de [Solução de Problemas](./troubleshooting) ou visite [Ajuda e Suporte](./help-support).
 
 ## Idiomas Suportados
 
@@ -43,7 +43,7 @@ O InterMIND é uma plataforma multilíngue projetada para acomodar uma variedade
 - O seletor de idioma encontrado no rodapé da página ao lado do texto '© Mind, 2025.'
 - Além disso, os usuários podem alterar o idioma através da opção 'Perfil do Usuário > Configurações > Seu Idioma', ou durante uma reunião navegando para 'Mostrar Menu > Configurações > Configurações > Seu Idioma'
 
-Abaixo está a lista de idiomas existentes disponíveis no InterMIND:
+Abaixo está a lista dos idiomas existentes disponíveis no InterMIND:
 
 - Tcheco (Čeština)
 - Alemão (Deutsch)

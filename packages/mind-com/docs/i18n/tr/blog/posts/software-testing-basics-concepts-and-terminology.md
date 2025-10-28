@@ -1,7 +1,7 @@
 ---
 layout: BlogPost
 title: "Yazılım Test Kavramları ve Terminolojisine Giriş"
-description: Yazılım test temellerini anlamak için yeni başlayanlar için rehber, test türleri, süreçler ve temel terminolojiyi içerir.
+description: Yazılım test temellerini anlamak için yeni başlayanlar için rehber - test türleri, süreçler ve temel terminoloji dahil.
 date: 2025-10-06
 author: "[Jilarganti](https://github.com/jilarganti)"
 head:
@@ -23,10 +23,10 @@ Geliştirme yaşam döngüsünde her biri farklı bir amaca hizmet eden dört an
 
 | Tür                     | Neyi Test Ederiz            | Ne Zaman           | Amaç                    |
 | ----------------------- | ---------------------------- | ------------------ | ----------------------- |
-| **Unit Testing**        | Bireysel fonksiyonlar/metodlar | Geliştirme sırasında | Her parçanın çalıştığını doğrula |
-| **Integration Testing** | Modüllerin birlikte nasıl çalıştığı | Unit testlerden sonra | Bağlantıları kontrol et |
-| **System Testing**      | Tamamlanmış uygulama         | Yayınlamadan önce  | Uçtan uca doğrulama     |
-| **Acceptance Testing**  | İş gereksinimleri            | Son aşama          | Hazır olduğunu onayla   |
+| **Birim Testi**         | Bireysel fonksiyonlar/metodlar | Geliştirme sırasında | Her parçanın çalıştığını doğrula |
+| **Entegrasyon Testi**   | Modüllerin birlikte çalışması | Birim testlerinden sonra | Bağlantıları kontrol et |
+| **Sistem Testi**        | Tamamlanmış uygulama         | Yayınlamadan önce  | Uçtan uca doğrulama     |
+| **Kabul Testi**         | İş gereksinimleri            | Son aşama          | Hazır olduğunu onayla   |
 
 ## Test Süreci
 
@@ -80,7 +80,7 @@ Her iki yaklaşımın da test stratejisinde yeri vardır:
 - Esnek ve yaratıcı
 - Tekrarlayan görevler için daha yavaş
 
-**En uygun olduğu alanlar:** Keşifsel test, kullanılabilirlik, geçici senaryolar
+**En uygun olduğu durumlar:** Keşifsel test, kullanılabilirlik, geçici senaryolar
 
 </div>
 
@@ -94,7 +94,7 @@ Her iki yaklaşımın da test stratejisinde yeri vardır:
 - İlk kurulum zamanı gerektirir
 - Uzun vadede maliyet etkin
 
-**En uygun olduğu alanlar:** Regresyon, API testi, tekrarlanan senaryolar
+**En uygun olduğu durumlar:** Regresyon, API testi, tekrarlanan senaryolar
 
 </div>
 
@@ -128,11 +128,11 @@ Dengeli bir test stratejisi şu dağılımı takip eder:
 
 ### S: Yazılım testi için kodlama becerileri gerekli mi?
 
-Manuel test için temel teknik bilgi yeterlidir. Otomasyon testi programlama becerileri gerektirir (Python, Java, JavaScript yaygındır).
+Manuel test için temel teknik bilgi yeterlidir. Otomasyon testi programlama becerileri gerektirir (Python, Java, JavaScript yaygın dillerdir).
 
 ### S: QA ve test arasındaki fark nedir?
 
-Test, hata bulmaktır. QA (Kalite Güvencesi), iyi süreçler ve standartlar aracılığıyla hataları önlemenin daha geniş sürecidir.
+Test, hata bulmaktır. QA (Kalite Güvencesi), iyi süreçler ve standartlar aracılığıyla hataları önlemeye yönelik daha geniş bir süreçtir.
 
 ### S: Ne kadar test yeterlidir?
 
@@ -140,7 +140,7 @@ Mükemmel bir sayı yoktur. Risk, zaman ve kaynakları dengeleyin. Kritik özell
 
 ### S: Yapay zeka yazılım test uzmanlarının yerini alabilir mi?
 
-Yapay zeka tekrarlayan testleri otomatikleştirebilir, ancak iş mantığını, sınır durumlarını ve kullanıcı deneyimini anlamak için insan test uzmanları hala gereklidir.
+Yapay zeka tekrarlayan testleri otomatikleştirebilir, ancak iş mantığını, sınır durumları ve kullanıcı deneyimini anlamak için insan test uzmanları hala gereklidir.
 
 ---
 

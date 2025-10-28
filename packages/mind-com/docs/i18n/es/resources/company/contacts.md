@@ -34,4 +34,6 @@ Nos aseguraremos de que tu mensaje llegue a la persona correcta.
 <br>
 
 > **¿Necesitas ayuda relacionada con el producto?**  
-> _Visita nuestra [Página de Soporte](../help) para respuestas rápidas y asistencia del equipo de InterMind._
+> _Visita nuestra [página de soporte](../help) para respuestas rápidas y asistencia del equipo de InterMind._
+
+> **¿Quieres saber más sobre nosotros?** Consulta nuestra [página acerca de](./about), conoce [al equipo](./team), o explora [oportunidades de carrera](./careers).

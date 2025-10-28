@@ -1,11 +1,11 @@
 ---
-title: "Histórico de reuniões"
-description: "Acesse seu arquivo de reuniões InterMIND com gravações, transcrições, resumos gerados por IA e links de reunião reutilizáveis em um só lugar."
+title: Histórico de reuniões
+description: Acesse seu arquivo de reuniões InterMIND com gravações, transcrições, resumos gerados por IA e links de reunião reutilizáveis em um só lugar.
 ---
 
 # Histórico de reuniões
 
-A página de Histórico de Reuniões funciona como um arquivo pessoal para todas as reuniões que você hospedou ou participou enquanto estava conectado. Ela oferece acesso rápido a gravações, transcrições, resumos gerados pelo Assistente de IA e links de reunião reutilizáveis - tudo consolidado em um local conveniente.
+A página de Histórico de Reuniões funciona como um arquivo pessoal para todas as reuniões que você hospedou ou participou enquanto estava conectado. Oferece acesso rápido a gravações, transcrições, resumos gerados pelo Assistente de IA e links de reunião reutilizáveis - tudo consolidado em um local conveniente.
 
 ## Acessando a página de Histórico de Reuniões
 
@@ -17,7 +17,7 @@ Você pode acessar a página de Histórico de Reuniões através de um dos três
 
 ## Lista de Reuniões
 
-Cada entrada no seu histórico de reuniões compreende:
+Cada entrada no seu histórico de reuniões inclui:
 
 - **Data** (incluindo Horário)
 - **ID da Sala**
@@ -34,11 +34,11 @@ Cada entrada no seu histórico de reuniões compreende:
 
 Para facilitar o gerenciamento eficiente de suas reuniões passadas, a página de Histórico incorpora:
 
-### Barra de Pesquisa
+### Barra de pesquisa
 
 Este recurso permite que você encontre reuniões por palavras-chave no Título ou Transcrição, ou pela Sala ou Participante exato. Os filtros podem ser combinados para resultados mais precisos.
 
-### ID da Sala
+### ID da sala
 
 Clicar no link do ID da Sala organiza a lista para exibir apenas reuniões associadas ao mesmo ID da Sala.
 
@@ -48,11 +48,11 @@ Clicar nisto abrirá um menu suspenso listando todos os participantes.
 
 Alguns Botões de Ação podem ser encontrados ocultos sob o menu de três pontos localizado no lado direito.
 
-### Ações Disponíveis
+### Ações disponíveis
 
 #### Excluir
 
-Quando esta ação é clicada, os usuários receberão uma notificação solicitando que confirmem a exclusão clicando no botão **Sim, excluir** ou cancelem a operação clicando no botão **Cancelar**. Reuniões excluídas não serão mais visíveis para nenhum participante. Apenas Anfitriões ou Moderadores possuem autoridade para excluir uma reunião.
+Quando esta ação é clicada, os usuários receberão uma notificação solicitando que confirmem a exclusão clicando no botão **Sim, excluir** ou cancelem a operação clicando no botão **Cancelar**. Reuniões excluídas não serão mais visíveis para nenhum participante. Apenas Anfitriões ou Moderadores possuem autoridade para excluir uma reunião (veja [Funções de usuário](./user-roles)).
 
 #### Compartilhar
 
@@ -88,15 +88,15 @@ Isso abre a transcrição da reunião que registra todas as comunicações de vo
 
 ### Assistente de IA
 
-Isso permite que os usuários obtenham um resumo da reunião do Assistente de IA em formato de chat.
+Isso permite que os usuários obtenham um resumo da reunião do [Assistente de IA](./ai-features#ai-assistant) em formato de chat.
 
 > [!INFO]
-> A aba Gravação pode estar oculta na página de Detalhes da Reunião se a reunião não incluir nenhuma gravação.
+> A aba Gravação pode ficar oculta na página de Detalhes da Reunião se a reunião não incluir nenhuma gravação.
 
 ## Controle de Acesso
 
 - Anfitriões e Moderadores têm acesso completo ao seu próprio histórico de reuniões
-- Participantes conectados podem acessar o histórico das reuniões que participaram; no entanto, eles não conseguem excluir o registro da reunião
+- Participantes Conectados podem acessar o histórico das reuniões que participaram; no entanto, não conseguem excluir o registro da reunião
 - Usuários convidados e participantes anônimos não têm acesso à página de histórico ou ao seu conteúdo
 
 > [!TIP]

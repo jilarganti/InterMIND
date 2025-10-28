@@ -1,11 +1,11 @@
 ---
-title: "Solución de problemas"
-description: "Soluciona problemas comunes de InterMIND con micrófono, cámara, traductor, compartir pantalla y grabación. Soluciones para reuniones en línea fluidas."
+title: Solución de problemas
+description: Soluciona problemas comunes de InterMIND con micrófono, cámara, traductor, compartir pantalla y grabación. Soluciones para reuniones en línea fluidas.
 ---
 
 # Solución de problemas
 
-Esta sección proporciona soluciones para problemas comunes encontrados durante reuniones en línea, incluyendo problemas con micrófonos, cámaras, unirse a reuniones, usar asistentes de voz, traductores, compartir pantalla y grabación. Describe las causas potenciales de cada problema y ofrece soluciones prácticas para resolverlos, asegurando una experiencia de reunión en línea más fluida.
+Esta sección proporciona soluciones para problemas comunes encontrados durante reuniones en línea, incluyendo problemas con micrófonos, cámaras, unirse a reuniones, usar asistentes de voz, traductores, compartir pantalla y grabación. Describe las causas potenciales de cada problema y ofrece soluciones prácticas para resolverlos, asegurando una experiencia de reunión en línea más fluida. Para asistencia adicional, consulta [Ayuda y soporte](./help-support).
 
 ## El micrófono o la cámara no funcionan
 
@@ -39,32 +39,32 @@ Esta sección proporciona soluciones para problemas comunes encontrados durante 
 - Todos los participantes han seleccionado el mismo idioma
 - Micrófono silenciado
 - Micrófono bloqueado por los permisos del navegador
-- Problemas de red
+- Problemas de conexión
 
 ### Soluciones:
 
 - Selecciona tu idioma preferido en Configuración > Idioma
 - Vuelve a unirte o actualiza la página de la reunión
-- Asegúrate de que el acceso al micrófono esté otorgado y habilitado
+- Asegúrate de que el acceso al micrófono esté permitido y habilitado
 
-## Eco o retroalimentación de audio
+## Eco o Retroalimentación de Audio
 
-### Causas comunes:
+### Causas Comunes:
 
-- Micrófono abierto combinado with altavoces
+- Micrófono abierto combinado con altavoces
 - Múltiples usuarios en la misma habitación
 
 ### Soluciones:
 
 - Usar audífonos
 - Silenciar otros dispositivos/micrófonos
-- El anfitrión/moderador puede silenciar a todos los participantes
+- El Anfitrión/Moderador puede silenciar a todos los participantes
 
-## "Has sido removido de la llamada"
+## "Has sido eliminado de la llamada"
 
 ### Causas comunes:
 
-- El anfitrión/moderador te removió
+- El anfitrión/moderador te eliminó
 - Desconexión de red
 
 ### Soluciones:
@@ -79,10 +79,10 @@ Esta sección proporciona soluciones para problemas comunes encontrados durante 
 
 ### Soluciones:
 
-- Usar navegador de escritorio
-- En macOS: habilitar grabación de pantalla en Preferencias del Sistema > Seguridad y privacidad
+- Usa un navegador de escritorio
+- En macOS: habilita la grabación de pantalla en Preferencias del Sistema > Seguridad y Privacidad
 
-## Calidad de video o audio deficiente
+## Calidad de Video o Audio Deficiente
 
 ### Causas:
 
@@ -105,4 +105,4 @@ Esta sección proporciona soluciones para problemas comunes encontrados durante 
 - Verificar permisos con el anfitrión
 
 > [!TIP]
-> Si continúas experimentando problemas, asegúrate de que tu navegador esté actualizado a la versión más reciente y que tengas una conexión a internet estable de al menos 2 Mbps.
+> Si continúas experimentando problemas, asegúrate de que tu navegador esté actualizado a la versión más reciente y que tengas una conexión a internet estable de al menos 2 Mbps. Consulta [Getting Started](./getting-started#device--browser-compatibility) para información de compatibilidad o contacta [Help & Support](./help-support).

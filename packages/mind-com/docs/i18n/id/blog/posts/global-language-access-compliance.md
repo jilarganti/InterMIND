@@ -38,19 +38,21 @@ head:
   </div>
 </div>
 
-## 🌍 Negara-negara dalam Sekilas Pandang
+Pelajari bagaimana [InterMIND helps with compliance](../../product/overview/what-is-intermind) melalui interpretasi real-time dan [multilingual support](../../product/overview/how-it-works).
 
-| Wilayah              | Negara/Undang-undang      | Standar           | Status   | Tenggat Waktu   |
-| -------------------- | ------------------------- | ----------------- | -------- | --------------- |
-| 🇺🇸 **Amerika Utara** | **USA - ADA Title II**    | WCAG 2.1 AA       | ✅ Aktif | April 2026/2027 |
-|                      | **Kanada - Bill 96**      | Prioritas Prancis | ✅ Aktif | Juni 2025       |
-| 🇪🇺 **Eropa**         | **EU - EAA**              | EN 301 549        | ✅ Aktif | 28 Juni 2025    |
-|                      | **UK - PSBAR**            | WCAG 2.1 AA       | ✅ Aktif | Berkelanjutan   |
-| 🇦🇺 **Oseania**       | **Australia - DDA**       | WCAG 2.1 AA       | ✅ Aktif | Berkelanjutan   |
-|                      | **Selandia Baru**         | WCAG 2.1 AA       | ✅ Aktif | Juli 2019+      |
-| 🇯🇵 **Asia**          | **Jepang - JIS X8341-3**  | WCAG 2.0 AA       | ✅ Aktif | Diperbarui 2024 |
-|                      | **Korea Selatan - KWCAG** | WCAG 2.1 AA       | ✅ Aktif | Berkelanjutan   |
-|                      | **India - RPwD Act**      | Standar nasional  | ✅ Aktif | Berkelanjutan   |
+## 🌍 Negara-negara Sekilas Pandang
+
+| Wilayah              | Negara/Undang-undang    | Standar            | Status    | Tenggat Waktu   |
+| -------------------- | ----------------------- | ------------------ | --------- | --------------- |
+| 🇺🇸 **Amerika Utara** | **USA - ADA Title II**  | WCAG 2.1 AA        | ✅ Aktif  | April 2026/2027 |
+|                      | **Kanada - Bill 96**    | Prioritas Prancis  | ✅ Aktif  | Juni 2025       |
+| 🇪🇺 **Eropa**         | **EU - EAA**            | EN 301 549         | ✅ Aktif  | 28 Juni 2025    |
+|                      | **UK - PSBAR**          | WCAG 2.1 AA        | ✅ Aktif  | Berkelanjutan   |
+| 🇦🇺 **Oseania**       | **Australia - DDA**     | WCAG 2.1 AA        | ✅ Aktif  | Berkelanjutan   |
+|                      | **Selandia Baru**       | WCAG 2.1 AA        | ✅ Aktif  | Juli 2019+      |
+| 🇯🇵 **Asia**          | **Jepang - JIS X8341-3** | WCAG 2.0 AA       | ✅ Aktif  | Diperbarui 2024 |
+|                      | **Korea Selatan - KWCAG** | WCAG 2.1 AA      | ✅ Aktif  | Berkelanjutan   |
+|                      | **India - RPwD Act**    | Standar nasional   | ✅ Aktif  | Berkelanjutan   |
 
 ## 📍 Rincian Regional
 
@@ -126,7 +128,7 @@ head:
 
 #### Federal - Undang-undang Kanada yang Dapat Diakses (ACA)
 
-- Mengharuskan organisasi yang diatur federal untuk membuat situs web/aplikasi dapat diakses pada **2024**
+- Mengharuskan organisasi yang diatur federal membuat situs web/aplikasi dapat diakses pada **2024**
 - Undang-undang provinsi berlaku untuk sektor publik dan beberapa organisasi swasta
 
 #### Persyaratan Provinsi:
@@ -168,7 +170,7 @@ head:
 
 **Tenggat waktu:**
 
-- **28 Juni 2025** – Menjadi hukum (sudah berlaku)
+- **28 Juni 2025** – Menjadi undang-undang (sudah berlaku)
 
 **Sanksi:**
 
@@ -249,7 +251,7 @@ head:
 
 **Standar Utama:**
 
-- **Strategi Transisi Nasional Aksesibilitas Web (NTS):** Mengamanatkan WCAG 2.2 AA
+- **Strategi Transisi Nasional Aksesibilitas Web (NTS):** Mewajibkan WCAG 2.2 AA
 - **Standar Pengadaan TIK (2016):** Pembelian TIK pemerintah harus dapat diakses
 - **EN 301 549:** Diadopsi untuk pengadaan TIK
 
@@ -296,7 +298,7 @@ head:
 - Berlaku untuk entitas pemerintah dan swasta
 - Tidak menentukan standar teknis (mendahului WCAG)
 
-#### Undang-undang Aksesibilitas untuk Orang Selandia Baru (Dalam Pengembangan)
+#### Undang-undang Aksesibilitas untuk Warga Selandia Baru (Dalam Pengembangan)
 
 - Lulus pembacaan pertama 2 Agustus 2022
 - Membuat Komite Aksesibilitas yang dipimpin oleh penyandang disabilitas
@@ -305,7 +307,7 @@ head:
 
 **Statistik:**
 
-- **24% orang Selandia Baru** (1,1 juta orang) mengidentifikasi memiliki kebutuhan aksesibilitas
+- **24% warga Selandia Baru** (1,1 juta orang) mengidentifikasi memiliki kebutuhan aksesibilitas
 
 </div>
 
@@ -441,26 +443,22 @@ head:
 
 ### 🌏 Negara Lain
 
-<div class="other-countries">
-
-</div>
-
----
+<div class
 
 ## 📊 Perbandingan Persyaratan Kepatuhan
 
 <div class="comparison-table-wrapper">
 
-| Persyaratan         | Amerika Serikat | Uni Eropa (EAA)  | Inggris                  | Australia     | Jepang         | Korea Selatan       | Kanada (QC)          |
-| ------------------- | --------------- | ---------------- | ------------------------ | ------------- | -------------- | ------------------- | -------------------- |
-| **Standar**         | WCAG 2.1 AA     | EN 301 549       | WCAG 2.1 AA              | WCAG 2.1 AA   | WCAG 2.0 AA    | WCAG 2.1 AA         | Prancis + WCAG       |
-| **Teks Terjemahan** | ✅ Wajib        | ✅ Wajib         | ✅ Wajib                 | ✅ Wajib      | ✅ Dianjurkan  | ✅ Wajib            | ✅ Wajib             |
-| **Pembaca Layar**   | ✅ Ya           | ✅ Ya            | ✅ Ya                    | ✅ Ya         | ✅ Ya          | ✅ Ya               | ✅ Ya                |
-| **Teks-ke-Suara**   | ✅ Ya           | ✅ Ya            | ✅ Ya                    | ✅ Ya         | ✅ Ya          | ✅ Ya               | ✅ Ya                |
-| **Terjemahan**      | ✅ Multibahasa  | ✅ Multibahasa   | ⚠️ Terbatas              | ⚠️ Terbatas   | ⚠️ Terbatas    | ⚠️ Terbatas         | 🇫🇷 Prioritas Prancis |
-| **Sektor Publik**   | ✅ Wajib        | ✅ Wajib         | ✅ Wajib                 | ✅ Wajib      | ✅ Wajib       | ✅ Wajib            | ✅ Wajib             |
-| **Sektor Swasta**   | ⚠️ Bervariasi   | ✅ Ya (10+ staf) | ⚠️ Terbatas              | ✅ Dianjurkan | ⚠️ Dianjurkan  | ✅ Layanan esensial | ✅ Ya                |
-| **Denda Maksimal**  | Dana federal    | €20M atau 4%     | Undang-undang Kesetaraan | $20K AUD      | ¥200K (~$1.7K) | ₩5M (~$4K)          | $30K CAD             |
+| Persyaratan        | Amerika Serikat | EU (EAA)           | Inggris      | Australia     | Jepang         | Korea Selatan         | Kanada (QC)        |
+| ------------------ | --------------- | ------------------ | ------------ | ------------- | -------------- | --------------------- | ------------------ |
+| **Standar**        | WCAG 2.1 AA     | EN 301 549         | WCAG 2.1 AA  | WCAG 2.1 AA   | WCAG 2.0 AA    | WCAG 2.1 AA           | Prancis + WCAG     |
+| **Teks Terjemahan** | ✅ Wajib       | ✅ Wajib           | ✅ Wajib     | ✅ Wajib      | ✅ Dianjurkan  | ✅ Wajib              | ✅ Wajib           |
+| **Pembaca Layar**  | ✅ Ya          | ✅ Ya              | ✅ Ya        | ✅ Ya         | ✅ Ya          | ✅ Ya                 | ✅ Ya              |
+| **Teks ke Suara**  | ✅ Ya          | ✅ Ya              | ✅ Ya        | ✅ Ya         | ✅ Ya          | ✅ Ya                 | ✅ Ya              |
+| **Terjemahan**     | ✅ Multibahasa | ✅ Multibahasa     | ⚠️ Terbatas  | ⚠️ Terbatas   | ⚠️ Terbatas    | ⚠️ Terbatas           | 🇫🇷 Prioritas Prancis |
+| **Sektor Publik**  | ✅ Wajib       | ✅ Wajib           | ✅ Wajib     | ✅ Wajib      | ✅ Wajib       | ✅ Wajib              | ✅ Wajib           |
+| **Sektor Swasta**  | ⚠️ Bervariasi  | ✅ Ya (10+ staf)   | ⚠️ Terbatas  | ✅ Dianjurkan | ⚠️ Dianjurkan  | ✅ Layanan esensial   | ✅ Ya              |
+| **Denda Maksimal** | Dana federal   | €20M atau 4%       | Undang-undang Kesetaraan | $20K AUD | ¥200K (~$1.7K) | ₩5M (~$4K)      | $30K CAD           |
 
 </div>
 
@@ -550,7 +548,7 @@ head:
 
 - Pengujian aksesibilitas manual
 - Pemindaian WCAG otomatis
-- Pengujian pengguna dengan penyandang disabilitas
+- Pengujian pengguna dengan disabilitas
 - Verifikasi multi-bahasa
 
 </div>
@@ -641,7 +639,7 @@ Pertimbangkan bahasa, budaya, dan kemampuan yang beragam
 
 ### T: Apakah hukum-hukum ini berlaku jika saya hanya beroperasi di satu negara?
 
-Jika Anda melayani pelanggan atau pengguna di negara yang memiliki undang-undang aksesibilitas, Anda harus mematuhi persyaratan negara tersebut—bahkan jika bisnis Anda berbasis di tempat lain. EAA Uni Eropa dan berbagai undang-undang nasional berlaku berdasarkan lokasi **pengguna** Anda, mirip dengan GDPR.
+Jika Anda melayani pelanggan atau pengguna di negara yang memiliki undang-undang aksesibilitas, Anda harus mematuhi persyaratan negara tersebut—meskipun bisnis Anda berbasis di tempat lain. EAA Uni Eropa dan berbagai undang-undang nasional berlaku berdasarkan lokasi **pengguna** Anda, mirip dengan GDPR.
 
 ### T: Apa perbedaan antara WCAG 2.0, 2.1, dan 2.2?
 
@@ -663,15 +661,15 @@ Alat otomatis menangkap ~30-40% masalah aksesibilitas. Pengujian manual oleh ahl
 4. ❌ Tidak ada caption pada video
 5. ❌ PDF yang tidak dapat diakses
 6. ❌ Tidak ada opsi terjemahan bahasa
-7. ❌ Pernyataan aksesibilitas yang ketinggalan zaman
+7. ❌ Pernyataan aksesibilitas yang usang
 
 ### T: Berapa biaya kepatuhan?
 
 Biaya sangat bervariasi:
 
-- **Website kecil:** $5.000-$20.000 remediasi awal
-- **Bisnis menengah:** $20.000-$100.000
-- **Perusahaan besar:** $100.000-$500.000+
+- **Website kecil:** $5,000-$20,000 remediasi awal
+- **Bisnis menengah:** $20,000-$100,000
+- **Perusahaan besar:** $100,000-$500,000+
 
 Membangun aksesibilitas ke dalam proses desain **4-10x lebih murah** daripada memodifikasi kemudian.
 
@@ -679,7 +677,7 @@ Membangun aksesibilitas ke dalam proses desain **4-10x lebih murah** daripada me
 
 Konsekuensinya meliputi:
 
-- 💰 Sanksi finansial (denda dari $1.700 hingga $100.000+ atau persentase pendapatan)
+- 💰 Sanksi finansial (denda dari $1,700 hingga $100,000+ atau persentase pendapatan)
 - ⚖️ Tindakan hukum dan gugatan
 - 🚫 Kehilangan kontrak pemerintah
 - 📉 Kerusakan reputasi
@@ -705,42 +703,42 @@ Sertakan:
 
 ## 🔗 Sumber Resmi
 
-<img src="/blog/iStock-491619000.jpg" alt="Dirham UEA" width="700" align="right" style="padding: 1.5rem" class="dark-only"/>
+<img src="/blog/iStock-491619000.jpg" alt="Dirham UAE" width="700" align="right" style="padding: 1.5rem" class="dark-only"/>
 <img src="/blog/iStock-501821118.jpg" alt="Emirates NBD" width="700" align="right" style="padding: 1.5rem" class="light-only"/>
 
 ### Standar Internasional
 
-- [W3C WCAG Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
-- [W3C WAI Policies](https://www.w3.org/WAI/policies/)
+- [Pedoman W3C WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- [Kebijakan W3C WAI](https://www.w3.org/WAI/policies/)
 
 ### Amerika Serikat
 
-- [ADA.gov - Title II Final Rule](https://www.ada.gov/resources/2024-03-08-web-rule/)
-- [LEP.gov - Limited English Proficiency](https://www.lep.gov/)
+- [ADA.gov - Aturan Final Judul II](https://www.ada.gov/resources/2024-03-08-web-rule/)
+- [LEP.gov - Kemahiran Bahasa Inggris Terbatas](https://www.lep.gov/)
 - [Section 508](https://www.section508.gov/)
 
 ### Uni Eropa
 
-- [EUR-Lex - EAA Directive](https://eur-lex.europa.eu/eli/dir/2019/882/oj/eng)
+- [EUR-Lex - Direktif EAA](https://eur-lex.europa.eu/eli/dir/2019/882/oj/eng)
 
 ### Kanada
 
-- [Quebec - Bill 96 Documentation](https://assnat.qc.ca/en/travaux-parlementaires/projets-loi/projet-loi-96-42-1.html)
+- [Quebec - Dokumentasi RUU 96](https://assnat.qc.ca/en/travaux-parlementaires/projets-loi/projet-loi-96-42-1.html)
 - [Accessible Canada](https://accessible.canada.ca/)
 
 ### Inggris Raya
 
-- [GOV.UK Accessibility Requirements](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
+- [Persyaratan Aksesibilitas GOV.UK](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
 
 ### Australia
 
-- [Australian Human Rights Commission - DDA](https://humanrights.gov.au/our-work/disability-rights)
+- [Komisi Hak Asasi Manusia Australia - DDA](https://humanrights.gov.au/our-work/disability-rights)
 - [Digital Transformation Agency](https://www.dta.gov.au/)
 
 ### Asia-Pasifik
 
 - [Japan WAIC](https://waic.jp/en/)
-- [New Zealand Digital Government](https://www.digital.govt.nz/standards-and-guidance/design-and-ux/accessibility/)
+- [Pemerintah Digital Selandia Baru](https://www.digital.govt.nz/standards-and-guidance/design-and-ux/accessibility/)
 
 ## 🚀 Langkah Selanjutnya
 
@@ -759,6 +757,8 @@ Sertakan:
 
 ::: tip Ingat
 Aksesibilitas adalah komitmen berkelanjutan, bukan proyek sekali jalan. Hukum berkembang, teknologi berubah, dan kebutuhan pengguna bertambah. Bangun aksesibilitas ke dalam budaya dan proses Anda untuk kesuksesan jangka panjang.
+
+**Butuh bantuan dengan kepatuhan?** [Hubungi InterMIND](../../resources/company/contacts) untuk membahas bagaimana [platform terjemahan real-time](../../product/overview/video-meeting-platform) kami dapat membantu memenuhi persyaratan aksesibilitas.
 :::
 
 <style scoped>

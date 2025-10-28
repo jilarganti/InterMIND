@@ -1,6 +1,6 @@
 ---
-title: "KI-Funktionen"
-description: "Entdecken Sie InterMINDs KI-gestützte Funktionen einschließlich Sprachassistent (Jarvis), Echtzeit-Sprachübersetzung und KI-Assistent für Meeting-Notizen und Zusammenfassungen."
+title: KI-Funktionen
+description: Entdecken Sie InterMINDs KI-gestützte Funktionen einschließlich Sprachassistent (Jarvis), Echtzeit-Sprachübersetzung und KI-Assistent für Meeting-Notizen und Zusammenfassungen.
 ---
 
 # KI-Funktionen
@@ -21,8 +21,8 @@ Zusätzlich haben Teilnehmer die Möglichkeit, die Lautstärke des ursprünglich
 
 - Echtzeit-Sprachsynchronisation in der ausgewählten Sprache
 - Persönliche Übersetzungseinstellungen (beeinträchtigt andere Teilnehmer nicht)
-- Möglichkeit, die Übersetzungssprache jederzeit über das Einstellungsfeld zu ändern
-- Verfügbar für alle Teilnehmertypen (Host, Moderator, Teilnehmer, Gast)
+- Möglichkeit, die Übersetzungssprache jederzeit über das Einstellungsfeld zu ändern (siehe [Besprechungsoberfläche](./meeting-interface))
+- Verfügbar für alle Teilnehmertypen (Gastgeber, Moderator, Teilnehmer, Gast - erfahren Sie mehr über [Benutzerrollen](./user-roles))
 
 ### Aktivierung
 
@@ -61,13 +61,13 @@ Benutzer können Eingabeaufforderungen wie diese verwenden:
 - "Was sind die wichtigsten Aktionspunkte aus diesem Meeting?"
 - "Wer hat die Projektfrist erwähnt?"
 
-### Zugangsvoraussetzungen
+### Zugriffsvoraussetzungen
 
 > [!WARNING]
-> Der KI-Assistent ist ausschließlich für angemeldete Benutzer verfügbar, einschließlich Hosts, Moderatoren oder Teilnehmern. Er beteiligt sich nicht öffentlich am Chat und ist für Gastbenutzer nicht zugänglich.
+> Der KI-Assistent ist ausschließlich für angemeldete Benutzer verfügbar, einschließlich Hosts, Moderatoren oder Teilnehmern. Er beteiligt sich nicht öffentlich am Chat und ist für Gastbenutzer nicht zugänglich. Erfahren Sie mehr über [User Roles](./user-roles).
 
 ### Datenschutz
 
 - KI-Assistenten-Interaktionen sind für jeden Benutzer privat
 - Antworten sind für andere Meeting-Teilnehmer nicht sichtbar
-- Jeder Teilnehmer kann eigene separate KI-Assistenten-Gespräche führen
+- Jeder Teilnehmer kann seine eigenen separaten KI-Assistenten-Gespräche führen

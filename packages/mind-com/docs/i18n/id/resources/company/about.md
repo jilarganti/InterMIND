@@ -10,7 +10,7 @@ Kami menghilangkan hambatan terakhir untuk kolaborasi global yang sesungguhnya.
 **Membuat pembelajaran bahasa menjadi tidak diperlukan lagi untuk bisnis.**  
 Setiap percakapan. Setiap pertemuan. Setiap kesepakatan — dalam bahasa apa pun, dipahami dengan sempurna.
 
-Tanpa subtitle. Tanpa penundaan. Tanpa kehilangan kesepakatan karena masalah bahasa.
+Tanpa subtitle. Tanpa penundaan. Tanpa kehilangan kesepakatan karena kendala bahasa.
 
 ## Apa Itu InterMIND?
 
@@ -23,6 +23,8 @@ Ini menangkap **konteks**, **subteks budaya**, **maksud bisnis**.
 
 > Berbicara secara alami. Dipahami dengan sempurna. Tutup lebih banyak kesepakatan.
 
+Pelajari lebih lanjut tentang [how our technology works](../../product/overview/how-it-works) dan jelajahi [video meeting platform](../../product/overview/video-meeting-platform) kami.
+
 ## Teknologi
 
 Di mana yang lain menerjemahkan kata-kata, kami mentransfer **makna**.  
@@ -31,14 +33,18 @@ Di mana yang lain menciptakan hambatan, kami menciptakan **koneksi**.
 
 **20+ bahasa. Nol beban kognitif. Dampak maksimal.**
 
+Temukan [detail teknis](../../product/overview/how-it-works) dan lihat di mana kami memberikan [dampak terbesar](../../product/overview/markets).
+
 ## Filosofi Kami
 
-Bahasa tidak seharusnya menentukan dengan siapa Anda dapat bekerja.  
-Geografi tidak seharusnya membatasi ambisi Anda.  
-Budaya tidak seharusnya menjadi kerugian kompetitif.
+Bahasa seharusnya tidak menentukan dengan siapa Anda bisa bekerja.  
+Geografi seharusnya tidak membatasi ambisi Anda.  
+Budaya seharusnya tidak menjadi kerugian kompetitif.
 
 > **Kami tidak membangun penerjemah. Kami membangun jembatan antar dunia.**
 
 Masa depan milik mereka yang dapat berkolaborasi secara global — secara instan, alami, dan cerdas.
 
 — _Tim Mind.com_
+
+> **Siap untuk mempelajari lebih lanjut?** Kunjungi [team page](./team) kami, jelajahi [career opportunities](./careers), atau [get in touch](./contacts).

@@ -1,7 +1,7 @@
 ---
 layout: BlogPost
-title: "Introduction aux concepts et à la terminologie des tests logiciels"
-description: Un guide convivial pour comprendre les fondamentaux des tests logiciels, incluant les types de tests, les processus et la terminologie clé.
+title: "Introduction aux concepts et terminologie des tests logiciels"
+description: Un guide accessible aux débutants pour comprendre les fondamentaux des tests logiciels, incluant les types de tests, les processus et la terminologie clé.
 date: 2025-10-06
 author: "[Jilarganti](https://github.com/jilarganti)"
 head:
@@ -11,12 +11,12 @@ head:
 
 ---
 
-# Les bases des tests logiciels : guide complet (2025)
+# Bases des tests logiciels : guide complet (2025)
 
 <p class="subtitle">Tout ce que vous devez savoir pour commencer avec les tests logiciels</p>
 
-> **Qu\'est-ce que les tests logiciels ?**  
-> Les tests logiciels sont le processus d\'évaluation et de vérification qu\'une application logicielle fonctionne comme prévu. Ils aident à identifier les bogues, les lacunes ou les exigences manquantes avant que le logiciel n\'atteigne les utilisateurs.
+> **Qu'est-ce que les tests logiciels ?**  
+> Les tests logiciels sont le processus d'évaluation et de vérification qu'une application logicielle fonctionne comme prévu. Ils aident à identifier les bogues, les lacunes ou les exigences manquantes avant que le logiciel n'atteigne les utilisateurs.
 
 ## Types de tests logiciels
 
@@ -25,9 +25,9 @@ Il existe quatre types principaux de tests, chacun servant un objectif différen
 | Type                      | Ce que nous testons          | Quand                    | Objectif                        |
 | ------------------------- | ---------------------------- | ------------------------ | ------------------------------- |
 | **Tests unitaires**       | Fonctions/méthodes individuelles | Pendant le développement | Vérifier que chaque élément fonctionne |
-| **Tests d\'intégration**  | Comment les modules fonctionnent ensemble | Après les tests unitaires | Vérifier les connexions         |
+| **Tests d'intégration**   | Comment les modules fonctionnent ensemble | Après les tests unitaires | Vérifier les connexions         |
 | **Tests système**         | Application complète         | Avant la mise en production | Validation de bout en bout      |
-| **Tests d\'acceptation**  | Exigences métier            | Étape finale             | Confirmer que c\'est prêt       |
+| **Tests d'acceptation**   | Exigences métier            | Étape finale             | Confirmer que c'est prêt        |
 
 ## Le processus de test
 
@@ -75,8 +75,8 @@ Les deux approches ont leur place dans une stratégie de test :
 
 ### 👤 Tests manuels
 
-- Les testeurs humains explorent l\'application
-- Excellent pour l\'évaluation UI/UX
+- Les testeurs humains explorent l'application
+- Excellent pour l'évaluation UI/UX
 - Parfait pour les nouvelles fonctionnalités
 - Flexible et créatif
 - Plus lent pour les tâches répétitives
@@ -101,18 +101,18 @@ Les deux approches ont leur place dans une stratégie de test :
 
 </div>
 
-## La pyramide de tests
+## La Pyramide de Tests
 
 Une stratégie de tests équilibrée suit cette distribution :
 
 <div class="pyramid">
   <div class="pyramid-level level-ui">Tests UI/E2E (Moins nombreux)</div>
-  <div class="pyramid-level level-integration">Tests d\'intégration (Plus nombreux)</div>
-  <div class="pyramid-level level-unit">Tests unitaires (Le plus nombreux)</div>
+  <div class="pyramid-level level-integration">Tests d'Intégration (Plus nombreux)</div>
+  <div class="pyramid-level level-unit">Tests Unitaires (Le plus nombreux)</div>
 </div>
 
 <p style="text-align: center; color: var(--vp-c-text-2); margin-top: 1em;">
-  <small>Plus de tests unitaires = retour plus rapide, coût plus faible. Moins de tests UI = moins de maintenance.</small>
+  <small>Plus de tests unitaires = retour plus rapide, coût réduit. Moins de tests UI = moins de maintenance.</small>
 </p>
 
 ## Termes de test courants
@@ -121,7 +121,7 @@ Une stratégie de tests équilibrée suit cette distribution :
 | ------------------------- | ----------------------------------------------------------------------------- |
 | **Cas de test**           | Un scénario spécifique à tester avec des résultats attendus                  |
 | **Bug/Défaut**            | Une erreur ou un défaut qui cause un comportement incorrect                   |
-| **Test de régression**    | Re-tester pour s\'assurer que les nouveaux changements n\'ont pas cassé les fonctionnalités existantes |
+| **Test de régression**    | Re-tester pour s'assurer que les nouveaux changements n'ont pas cassé les fonctionnalités existantes |
 | **Test de fumée**         | Tests de base rapides pour vérifier si la version est assez stable pour des tests plus approfondis |
 | **Couverture de test**    | Pourcentage de code qui est exécuté par les tests                            |
 
@@ -129,7 +129,7 @@ Une stratégie de tests équilibrée suit cette distribution :
 
 ### Q : Ai-je besoin de compétences en programmation pour les tests logiciels ?
 
-Pour les tests manuels, des connaissances techniques de base suffisent. Les tests d\'automatisation nécessitent des compétences en programmation (Python, Java, JavaScript sont courants).
+Pour les tests manuels, des connaissances techniques de base suffisent. Les tests d'automatisation nécessitent des compétences en programmation (Python, Java, JavaScript sont courants).
 
 ### Q : Quelle est la différence entre QA et tests ?
 
@@ -137,16 +137,16 @@ Les tests consistent à trouver des bugs. QA (Assurance Qualité) est le process
 
 ### Q : Combien de tests sont suffisants ?
 
-Il n\'y a pas de nombre parfait. Équilibrez les risques, le temps et les ressources. Les fonctionnalités critiques nécessitent plus de tests ; les zones à faible risque en nécessitent moins.
+Il n'y a pas de nombre parfait. Équilibrez les risques, le temps et les ressources. Les fonctionnalités critiques nécessitent plus de tests ; les zones à faible risque en nécessitent moins.
 
-### Q : L\'IA peut-elle remplacer les testeurs logiciels ?
+### Q : L'IA peut-elle remplacer les testeurs logiciels ?
 
-L\'IA peut automatiser les tests répétitifs, mais les testeurs humains restent essentiels pour comprendre la logique métier, les cas limites et l\'expérience utilisateur.
+L'IA peut automatiser les tests répétitifs, mais les testeurs humains restent essentiels pour comprendre la logique métier, les cas limites et l'expérience utilisateur.
 
 ---
 
-::: info Prêt à Commencer les Tests ?
-Ce guide couvre les fondamentaux. La meilleure façon d\'apprendre est de pratiquer—commencez par des cas de test simples et développez progressivement vos compétences.
+::: info Prêt à commencer les tests ?
+Ce guide couvre les fondamentaux. La meilleure façon d'apprendre est de pratiquer—commencez par des cas de test simples et développez progressivement vos compétences.
 :::
 
 <style scoped>

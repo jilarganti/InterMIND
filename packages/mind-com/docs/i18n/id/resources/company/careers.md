@@ -7,6 +7,8 @@ Kami membangun teknologi yang menghilangkan hambatan bahasa antar manusia. Produ
 
 Ini bukan penerjemah. Ini adalah paradigma baru untuk komunikasi global.
 
+Pelajari lebih lanjut tentang [what we're building](../../product/overview/what-is-intermind) dan [how it works](../../product/overview/how-it-works).
+
 ## Tunjukkan Hasil, Bukan Kredensial
 
 Ingin bergabung dengan kami? Tunjukkan sesuatu yang berguna dan bermakna yang sudah Anda bangun untuk orang lain.
@@ -23,7 +25,7 @@ Kami mencari orang yang:
 
 **Berpikir global.** Apakah Anda pernah bekerja dengan orang dari berbagai negara? Menyelesaikan masalah dalam lingkungan multikultural? Membangun produk untuk audiens internasional?
 
-**Mengatasi masalah sulit.** Mengambil proyek di mana tidak ada solusi yang tersedia? Membangun sesuatu dari nol? Membuat yang mustahil terlihat jelas?
+**Menangani masalah sulit.** Mengambil proyek di mana tidak ada solusi yang tersedia? Membangun sesuatu dari nol? Membuat yang mustahil terlihat jelas?
 
 ## Apa yang Sedang Kami Bangun
 
@@ -79,7 +81,7 @@ Kami tidak hanya menerjemahkan kata-kata—kami melestarikan makna, nada, kontek
 
 3. **Berbicara dengan tim.** Jika pengalaman Anda menarik bagi kami, Anda akan mengobrol dengan anggota tim. Tidak ada wawancara formal—hanya percakapan tentang apa dan bagaimana Anda membangun.
 
-4. **Bekerja dengan kami.** Proyek nyata singkat sehingga semua orang memahami bagaimana kami bekerja sama.
+4. **Bekerja dengan kami.** Proyek nyata singkat agar semua orang memahami bagaimana kami bekerja sama.
 
 ## Apa yang Kami Tawarkan
 
@@ -88,11 +90,13 @@ Kami tidak hanya menerjemahkan kata-kata—kami melestarikan makna, nada, kontek
 
 **Tantangan skala dunia.** Anda akan memecahkan masalah yang mempengaruhi miliaran orang.
 
-**Tim kelas dunia.** Bekerja dengan spesialis terbaik dalam AI, sistem real-time, dan komunikasi global.
+**Tim kelas dunia.** Bekerja dengan spesialis terbaik di bidang AI, sistem real-time, dan komunikasi global.
 
 **Sumber daya tak terbatas.** Segala yang Anda butuhkan untuk membangun produk terbaik di kategorinya.
 
-**Dampak global.** Pekerjaan Anda akan mengubah cara manusia berkomunikasi lintas batas bahasa.
+**Dampak global.** Karya Anda akan mengubah cara manusia berkomunikasi lintas batas bahasa.
+
+Temui [tim kami](./team) dan pelajari tentang [nilai-nilai perusahaan kami](./about).
 
 ## Bergabunglah dengan Kami
 

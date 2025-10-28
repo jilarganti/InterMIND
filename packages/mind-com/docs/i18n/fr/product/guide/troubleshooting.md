@@ -1,11 +1,11 @@
 ---
-title: "Dépannage"
-description: "Résolvez les problèmes courants d'InterMIND avec le microphone, la caméra, le traducteur, le partage d'écran et l'enregistrement. Solutions pour des réunions en ligne fluides."
+title: Dépannage
+description: Résolvez les problèmes courants d'InterMIND avec le microphone, la caméra, le traducteur, le partage d'écran et l'enregistrement. Solutions pour des réunions en ligne fluides.
 ---
 
 # Dépannage
 
-Cette section fournit des solutions pour les problèmes courants rencontrés lors des réunions en ligne, y compris les problèmes de microphones, caméras, participation aux réunions, utilisation d'assistants vocaux, traducteurs, partage d'écran et enregistrement. Elle décrit les causes potentielles de chaque problème et offre des solutions pratiques pour les résoudre, garantissant une expérience de réunion en ligne plus fluide.
+Cette section fournit des solutions pour les problèmes courants rencontrés lors des réunions en ligne, notamment les problèmes de microphones, caméras, participation aux réunions, utilisation d'assistants vocaux, traducteurs, partage d'écran et enregistrement. Elle décrit les causes potentielles de chaque problème et propose des solutions pratiques pour les résoudre, garantissant une expérience de réunion en ligne plus fluide. Pour une assistance supplémentaire, consultez [Aide et support](./help-support).
 
 ## Microphone ou caméra ne fonctionne pas
 
@@ -17,7 +17,7 @@ Cette section fournit des solutions pour les problèmes courants rencontrés lor
 
 ### Solutions :
 
-- Autoriser l\'accès lorsque demandé
+- Autoriser l'accès lorsque demandé
 - Naviguer vers Paramètres > Microphone/Caméra et sélectionner le bon périphérique
 - Fermer les applications telles que Zoom, Skype, etc.
 
@@ -29,7 +29,7 @@ Cette section fournit des solutions pour les problèmes courants rencontrés lor
 
 ### Solutions :
 
-- Vérifiez l\'exactitude du lien et confirmez avec l\'hôte
+- Vérifiez l'exactitude du lien et confirmez avec l'hôte
 - Actualisez votre navigateur et réessayez
 
 ## Le traducteur ne fonctionne pas
@@ -45,11 +45,11 @@ Cette section fournit des solutions pour les problèmes courants rencontrés lor
 
 - Sélectionnez votre langue préférée dans Paramètres > Langue
 - Rejoignez à nouveau ou actualisez la page de réunion
-- Assurez-vous que l\'accès au microphone est accordé et activé
+- Assurez-vous que l'accès au microphone est accordé et activé
 
-## Écho ou retour audio
+## Écho ou Retour Audio
 
-### Causes courantes :
+### Causes Courantes :
 
 - Microphone ouvert combiné avec des haut-parleurs
 - Plusieurs utilisateurs dans la même pièce
@@ -58,18 +58,18 @@ Cette section fournit des solutions pour les problèmes courants rencontrés lor
 
 - Utiliser des écouteurs
 - Couper le son des autres appareils/microphones
-- L\'hôte/modérateur peut couper le son de tous les participants
+- L'Hôte/Modérateur peut couper le son de tous les participants
 
-## "Vous avez été retiré de l\'appel"
+## "Vous avez été retiré de l'appel"
 
 ### Causes courantes :
 
-- L\'hôte/modérateur vous a retiré
+- L'hôte/modérateur vous a retiré
 - Déconnexion réseau
 
 ### Solutions :
 
-- Contactez l\'hôte ou le modérateur pour obtenir des clarifications
+- Contactez l'hôte ou le modérateur pour obtenir des clarifications
 
 ## Le partage d'écran ne fonctionne pas
 
@@ -92,7 +92,7 @@ Cette section fournit des solutions pour les problèmes courants rencontrés lor
 ### Solutions :
 
 - Passer à une connexion filaire ou Wi-Fi stable
-- Éteindre votre propre caméra ou celles d\'autres personnes si nécessaire
+- Désactiver votre propre caméra ou celle des autres si nécessaire
 
 ## L'enregistrement ne démarre pas
 
@@ -105,4 +105,4 @@ Cette section fournit des solutions pour les problèmes courants rencontrés lor
 - Vérifiez les autorisations avec l'hôte
 
 > [!TIP]
-> Si vous continuez à rencontrer des problèmes, assurez-vous que votre navigateur est mis à jour vers la dernière version et que vous disposez d'une connexion Internet stable d'au moins 2 Mbps.
+> Si vous continuez à rencontrer des problèmes, assurez-vous que votre navigateur est mis à jour vers la dernière version et que vous disposez d'une connexion Internet stable d'au moins 2 Mbps. Consultez [Getting Started](./getting-started#device--browser-compatibility) pour les informations de compatibilité ou contactez [Help & Support](./help-support).

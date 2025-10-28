@@ -15,7 +15,7 @@ head:
 <p class="subtitle">15+ ülkedeki dil erişimi düzenlemeleri hakkında bilmeniz gereken her şey</p>
 
 > **Dil Erişimi Uyumluluğu Nedir?**  
-> Dil erişimi, Sınırlı İngilizce Yeterliliği (LEP) olan veya Sağır ya da İşitme Güçlüğü Çeken (D/HoH) kişilerin, ana dilleri veya iletişim biçimleri ne olursa olsun, etkili bir şekilde anlayabilmeleri ve katılabilmeleri için hizmet ve bilgi sağlamayı ifade eder.
+> Dil erişimi, Sınırlı İngilizce Yeterliliği (LEP) olan veya Sağır ya da İşitme Güçlüğü Çeken (D/HoH) kişilerin, ana dillerinden veya iletişim biçimlerinden bağımsız olarak etkili bir şekilde anlayabilmeleri ve katılabilmeleri için hizmet ve bilgi sağlamayı ifade eder.
 
 ## Hızlı Genel Bakış: Küresel Uyumluluk Manzarası
 
@@ -34,23 +34,25 @@ head:
   </div>
   <div class="stat-card">
     <div class="stat-number">1B+</div>
-    <div class="stat-label">Etkilenen İnsanlar</div>
+    <div class="stat-label">Etkilenen İnsan</div>
   </div>
 </div>
 
+[InterMIND'ın uyumlulukta nasıl yardımcı olduğunu](../../product/overview/what-is-intermind) gerçek zamanlı çeviri ve [çok dilli destek](../../product/overview/how-it-works) aracılığıyla öğrenin.
+
 ## 🌍 Ülkelere Hızlı Bakış
 
-| Bölge                | Ülke/Yasa                 | Standart           | Durum    | Son Tarih        |
-| -------------------- | ------------------------- | ------------------ | -------- | ---------------- |
-| 🇺🇸 **Kuzey Amerika** | **ABD - ADA Title II**    | WCAG 2.1 AA        | ✅ Aktif | Nisan 2026/2027  |
-|                      | **Kanada - Bill 96**      | Fransızca öncelik  | ✅ Aktif | Haziran 2025     |
-| 🇪🇺 **Avrupa**        | **AB - EAA**              | EN 301 549         | ✅ Aktif | 28 Haziran 2025  |
-|                      | **İngiltere - PSBAR**     | WCAG 2.1 AA        | ✅ Aktif | Devam ediyor     |
-| 🇦🇺 **Okyanusya**     | **Avustralya - DDA**      | WCAG 2.1 AA        | ✅ Aktif | Devam ediyor     |
-|                      | **Yeni Zelanda**          | WCAG 2.1 AA        | ✅ Aktif | Temmuz 2019+     |
-| 🇯🇵 **Asya**          | **Japonya - JIS X8341-3** | WCAG 2.0 AA        | ✅ Aktif | Güncellendi 2024 |
-|                      | **Güney Kore - KWCAG**    | WCAG 2.1 AA        | ✅ Aktif | Devam ediyor     |
-|                      | **Hindistan - RPwD Act**  | Ulusal standartlar | ✅ Aktif | Devam ediyor     |
+| Bölge                | Ülke/Yasa               | Standart           | Durum     | Son Tarih       |
+| -------------------- | ----------------------- | ------------------ | --------- | --------------- |
+| 🇺🇸 **Kuzey Amerika** | **ABD - ADA Title II**  | WCAG 2.1 AA        | ✅ Aktif | Nisan 2026/2027 |
+|                      | **Kanada - Bill 96**    | Fransızca öncelik  | ✅ Aktif | Haziran 2025    |
+| 🇪🇺 **Avrupa**        | **AB - EAA**            | EN 301 549         | ✅ Aktif | 28 Haziran 2025 |
+|                      | **İngiltere - PSBAR**   | WCAG 2.1 AA        | ✅ Aktif | Devam ediyor    |
+| 🇦🇺 **Okyanusya**     | **Avustralya - DDA**    | WCAG 2.1 AA        | ✅ Aktif | Devam ediyor    |
+|                      | **Yeni Zelanda**        | WCAG 2.1 AA        | ✅ Aktif | Temmuz 2019+    |
+| 🇯🇵 **Asya**          | **Japonya - JIS X8341-3** | WCAG 2.0 AA     | ✅ Aktif | 2024 güncellemesi |
+|                      | **Güney Kore - KWCAG** | WCAG 2.1 AA        | ✅ Aktif | Devam ediyor    |
+|                      | **Hindistan - RPwD Act** | Ulusal standartlar | ✅ Aktif | Devam ediyor    |
 
 ## 📍 Bölgesel Dağılım
 
@@ -71,7 +73,7 @@ head:
 - Web siteleri ve mobil uygulamalar **WCAG 2.1 Seviye AA** standartlarını karşılamalı
 - Devlet toplantıları için gerçek zamanlı altyazı ve çeviriler
 - Görme engelliler için canlı metin-konuşma çevirisi
-- İngilizce konuşmayanlar için çok dilli destek
+- İngilizce konuşmayanlar için çok dilli dil desteği
 
 **Son tarihler:**
 
@@ -81,15 +83,15 @@ head:
 **Cezalar:**
 
 - ⚠️ ADA kapsamında yasal işlem riski
-- ⚠️ Uyumsuzluk durumunda federal fon kaybı
+- ⚠️ Uyumsuzluk durumunda federal fonların kaybı
 
 **Ek Federal Yasalar:**
 
-- **Medeni Haklar Yasası Başlık VI (1964)** – Ulusal köken temelinde ayrımcılığı yasaklar
+- **Medeni Haklar Yasası Başlık VI (1964)** – Ulusal kökene dayalı ayrımcılığı yasaklar
 - **Uygun Fiyatlı Bakım Yasası Bölüm 1557** – Sağlık hizmetlerinde dil erişimi
 - **Yürütme Emri 14224 (2025)** – EO 13166'yı iptal etti ancak temel yasalar yürürlükte
 
-**Not:** Yürütme Emri 14224'ün İngilizceyi "resmi dil" olarak belirlemesine rağmen, dil erişimi gerektiren Başlık VI ve diğer yasalar tam olarak yürürlükte kalmaktadır.
+**Not:** Yürütme Emri 14224'ün İngilizceyi "resmi dil" olarak belirlemesine rağmen, Başlık VI ve dil erişimi gerektiren diğer yasalar tam olarak yürürlükte kalmaktadır.
 
 </div>
 
@@ -201,7 +203,7 @@ head:
 
 **Gereksinimler:**
 
-- Web siteleri ve mobil uygulamalar **WCAG 2.1 Seviye AA** standartlarını karşılamalı (şimdi WCAG 2.2'ye geçiş yapıyor)
+- Web siteleri ve mobil uygulamalar **WCAG 2.1 Seviye AA**'yı karşılamalı (şimdi WCAG 2.2'ye geçiş yapıyor)
 - Erişilebilirlik beyanlarını yayınlama ve sürdürme (yıllık güncelleme)
 - Önceden kaydedilmiş videolar yayınlandıktan sonra 2 hafta içinde altyazı gerektiriyor
 
@@ -266,7 +268,7 @@ head:
 
 **İstatistikler:**
 
-- **4,4 milyon Avustralyalı**'dan fazlası (5'te 1) engelli
+- **4,4 milyondan fazla Avustralyalı** (5'te 1) engelli
 
 </div>
 
@@ -325,14 +327,14 @@ head:
 **Gereksinimler:**
 
 - **WCAG 2.0 Seviye AA** ile uyumlu
-- Her 5 yılda bir güncelleniyor (sonraki güncelleme WCAG 2.2'yi içerebilir)
+- 5 yılda bir güncelleniyor (sonraki güncelleme WCAG 2.2'yi içerebilir)
 - Özel sektör için gönüllü uyum
 
 #### Engelli Kişilere Karşı Ayrımcılığı Ortadan Kaldırma Yasası
 
 **Büyük Güncelleme - Nisan 2024:**
 
-- Revize edilen yasa artık tüm merkezi hükümet, kamu ve özel işletmeler ile üniversitelerin "makul düzenleme" sağlamasını **gerektiriyor**
+- Revize edilen yasa artık tüm merkezi hükümet, kamu ve özel işletmeler ve üniversitelerin "makul düzenleme" sağlamasını **gerektirir**
 - Dijital alanlar, binalar, eğitim, istihdam için geçerli
 
 **Cezalar:**
@@ -342,7 +344,7 @@ head:
 
 **Temel Rehberlik:**
 
-- **Herkesin Kamu Web Sitesi Operasyonel Rehberleri (2016):** Kamu sektörü için JIS X 8341-3'ü önerir
+- **Herkesin Kamu Web Sitesi Operasyonel Rehberi (2016):** Kamu sektörü için JIS X 8341-3'ü önerir
 
 **İstatistikler:**
 
@@ -357,7 +359,7 @@ head:
 
 <div class="country-section">
 
-#### Kore Web İçeriği Erişilebilirlik Rehberleri (KWCAG) 2.1
+#### Kore Web İçeriği Erişilebilirlik Rehberi (KWCAG) 2.1
 
 **Kimler uymalı:**
 
@@ -383,26 +385,22 @@ head:
 **Son Girişimler (Mayıs 2025):**
 
 - Erişilebilir kiosk yenileme için ₩9,2 milyar tahsis edildi
-- Küçük işletme danışmanlık
-
-</div>
-
----
+- Küçük işletme danışmanlık program
 
 ## 📊 Uyumluluk Gereksinimleri Karşılaştırması
 
 <div class="comparison-table-wrapper">
 
-| Gereksinim           | ABD          | AB (EAA)               | İngiltere      | Avustralya  | Japonya        | G. Kore            | Kanada (QC)          |
-| -------------------- | ------------ | ---------------------- | -------------- | ----------- | -------------- | ------------------ | -------------------- |
-| **Standart**         | WCAG 2.1 AA  | EN 301 549             | WCAG 2.1 AA    | WCAG 2.1 AA | WCAG 2.0 AA    | WCAG 2.1 AA        | Fransızca + WCAG     |
-| **Altyazılar**       | ✅ Gerekli   | ✅ Gerekli             | ✅ Gerekli     | ✅ Gerekli  | ✅ Önerilen    | ✅ Gerekli         | ✅ Gerekli           |
-| **Ekran Okuyucular** | ✅ Evet      | ✅ Evet                | ✅ Evet        | ✅ Evet     | ✅ Evet        | ✅ Evet            | ✅ Evet              |
-| **Metinden Sese**    | ✅ Evet      | ✅ Evet                | ✅ Evet        | ✅ Evet     | ✅ Evet        | ✅ Evet            | ✅ Evet              |
-| **Çeviri**           | ✅ Çok Dilli | ✅ Çok Dilli           | ⚠️ Sınırlı     | ⚠️ Sınırlı  | ⚠️ Sınırlı     | ⚠️ Sınırlı         | 🇫🇷 Fransızca Öncelik |
-| **Kamu Sektörü**     | ✅ Zorunlu   | ✅ Zorunlu             | ✅ Zorunlu     | ✅ Zorunlu  | ✅ Zorunlu     | ✅ Zorunlu         | ✅ Zorunlu           |
-| **Özel Sektör**      | ⚠️ Değişken  | ✅ Evet (10+ personel) | ⚠️ Sınırlı     | ✅ Önerilen | ⚠️ Önerilen    | ✅ Temel hizmetler | ✅ Evet              |
-| **Maksimum Ceza**    | Federal fon  | €20M veya %4           | Eşitlik Yasası | $20K AUD    | ¥200K (~$1.7K) | ₩5M (~$4K)         | $30K CAD             |
+| Gereksinim         | ABD             | AB (EAA)           | İngiltere    | Avustralya    | Japonya        | G. Kore               | Kanada (QC)        |
+| ------------------ | --------------- | ------------------ | ------------ | ------------- | -------------- | --------------------- | ------------------ |
+| **Standart**       | WCAG 2.1 AA     | EN 301 549         | WCAG 2.1 AA  | WCAG 2.1 AA   | WCAG 2.0 AA    | WCAG 2.1 AA           | Fransızca + WCAG   |
+| **Altyazılar**     | ✅ Zorunlu      | ✅ Zorunlu         | ✅ Zorunlu   | ✅ Zorunlu    | ✅ Teşvik edilen | ✅ Zorunlu           | ✅ Zorunlu         |
+| **Ekran Okuyucular** | ✅ Evet       | ✅ Evet            | ✅ Evet      | ✅ Evet       | ✅ Evet        | ✅ Evet               | ✅ Evet            |
+| **Metinden Sese**  | ✅ Evet         | ✅ Evet            | ✅ Evet      | ✅ Evet       | ✅ Evet        | ✅ Evet               | ✅ Evet            |
+| **Çeviri**         | ✅ Çok dilli    | ✅ Çok dilli       | ⚠️ Sınırlı   | ⚠️ Sınırlı    | ⚠️ Sınırlı     | ⚠️ Sınırlı            | 🇫🇷 Fransızca Öncelik |
+| **Kamu Sektörü**   | ✅ Zorunlu      | ✅ Zorunlu         | ✅ Zorunlu   | ✅ Zorunlu    | ✅ Zorunlu     | ✅ Zorunlu            | ✅ Zorunlu         |
+| **Özel Sektör**    | ⚠️ Değişken     | ✅ Evet (10+ personel) | ⚠️ Sınırlı | ✅ Teşvik edilen | ⚠️ Teşvik edilen | ✅ Temel hizmetler   | ✅ Evet            |
+| **Maksimum Ceza**  | Federal fon     | €20M veya %4       | Eşitlik Yasası | $20K AUD    | ¥200K (~$1.7K) | ₩5M (~$4K)            | $30K CAD           |
 
 </div>
 
@@ -417,7 +415,7 @@ head:
   <div class="timeline-item past">
     <div class="timeline-date">Haziran 2025</div>
     <div class="timeline-content">
-      <strong>🇨🇦 Kanada - Yasa 96</strong>
+      <strong>🇨🇦 Kanada - Bill 96</strong>
       <p>Quebec Fransızca dil uyumluluk son tarihi</p>
     </div>
   </div>
@@ -433,7 +431,7 @@ head:
   <div class="timeline-item upcoming">
     <div class="timeline-date">24 Nisan 2026</div>
     <div class="timeline-content">
-      <strong>🇺🇸 ABD - ADA Başlık II</strong>
+      <strong>🇺🇸 ABD - ADA Title II</strong>
       <p>Büyük belediyeler (50.000+ sakin)</p>
     </div>
   </div>
@@ -441,7 +439,7 @@ head:
   <div class="timeline-item upcoming">
     <div class="timeline-date">24 Nisan 2027</div>
     <div class="timeline-content">
-      <strong>🇺🇸 ABD - ADA Başlık II</strong>
+      <strong>🇺🇸 ABD - ADA Title II</strong>
       <p>Küçük belediyeler ve özel bölgeler</p>
     </div>
   </div>
@@ -482,7 +480,7 @@ head:
 - AI destekli çeviri araçları
 - Gerçek zamanlı altyazı sistemleri
 - Ekran okuyucu optimizasyonu
-- Metinden sese entegrasyonu
+- Metinden sese dönüştürme entegrasyonu
 
 </div>
 
@@ -539,15 +537,15 @@ head:
 
 ### 🎨 Algılanabilir
 
-İçerik tüm duyulara algılanabilir olmalıdır (görme, işitme, dokunma)
+İçerik tüm duyulara algılanabilir olmalı (görme, işitme, dokunma)
 
 </div>
 
 <div class="principle-card">
 
-### ⚙️ Çalıştırılabilir
+### ⚙️ Kullanılabilir
 
-Arayüz bileşenleri tüm kullanıcılar tarafından çalıştırılabilir olmalıdır
+Arayüz bileşenleri tüm kullanıcılar tarafından kullanılabilir olmalı
 
 </div>
 
@@ -555,7 +553,7 @@ Arayüz bileşenleri tüm kullanıcılar tarafından çalıştırılabilir olmal
 
 ### 📖 Anlaşılabilir
 
-Bilgiler açık ve anlaşılması kolay olmalıdır
+Bilgi açık ve anlaşılması kolay olmalı
 
 </div>
 
@@ -563,7 +561,7 @@ Bilgiler açık ve anlaşılması kolay olmalıdır
 
 ### 💪 Sağlam
 
-İçerik mevcut ve gelecekteki teknolojilerle çalışmalıdır
+İçerik mevcut ve gelecekteki teknolojilerle çalışmalı
 
 </div>
 
@@ -579,7 +577,7 @@ Dil, kültür ve çeşitli yetenekleri göz önünde bulundurun
 
 ---
 
-## ❓ Sık Sorulan Sorular
+## ❓ Sıkça Sorulan Sorular
 
 ### S: Bu yasalar sadece bir ülkede faaliyet gösteriyorsam geçerli mi?
 
@@ -604,7 +602,7 @@ Otomatik araçlar erişilebilirlik sorunlarının ~%30-40'ını yakalar. Tam uyu
 3. ❌ Klavye navigasyon desteği yok
 4. ❌ Videolarda eksik altyazı
 5. ❌ Erişilemeyen PDF'ler
-6. ❌ Dil çevirisi seçenekleri yok
+6. ❌ Dil çeviri seçenekleri yok
 7. ❌ Güncel olmayan erişilebilirlik beyanları
 
 ### S: Uyumluluk ne kadar maliyetli?
@@ -626,11 +624,11 @@ Sonuçlar şunları içerir:
 - 🚫 Devlet sözleşmelerinin kaybı
 - 📉 İtibar hasarı
 - 🔒 Operasyonel kısıtlamalar
-- 💸 Federal/eyalet fonlarının kaybı
+- 💸 Federal/eyalet fonlama kaybı
 
 ### S: Kaplama ve widget'lar uyumluluk sağlar mı?
 
-⚠️ **Hayır.** Erişilebilirlik kaplama widget'ları (accessiBe, UserWay gibi) tartışmalıdır ve uyumluluğu garanti ETMEZ. Birçok engellilik savunuculuğu grubu bunlara aktif olarak karşı çıkar. Gerçek erişilebilirlik için kod ve içeriğin manuel olarak düzeltilmesi gerekir.
+⚠️ **Hayır.** Erişilebilirlik kaplama widget'ları (accessiBe, UserWay gibi) tartışmalıdır ve uyumluluğu garanti ETMEZ. Birçok engellilik savunuculuğu grubu bunlara aktif olarak karşı çıkar. Gerçek erişilebilirlik için kod ve içeriğin manuel düzeltilmesi gereklidir.
 
 ### S: Erişilebilirlik beyanı nasıl yazılır?
 
@@ -691,16 +689,18 @@ Sonuçlar şunları içerir:
 ### Uyumluluğu Sağlamaya Hazır mısınız?
 
 1. **Dijital varlıklarınızı denetleyin** WCAG 2.1 AA standartlarına göre
-2. **İşletme lokasyonlarınız ve müşteri tabanınız için geçerli yasaları belirleyin**
-3. **Net öncelikler ve zaman çizelgeleri ile bir iyileştirme yol haritası geliştirin**
+2. **Geçerli yasaları belirleyin** işletme lokasyonlarınız ve müşteri tabanınız için
+3. **Düzeltme yol haritası geliştirin** net öncelikler ve zaman çizelgeleri ile
 4. **Erişilebilirlik çözümlerini uygulayın** (AI çeviri, altyazılar, ekran okuyucu desteği)
-5. **Otomatik araçlar ve gerçek kullanıcılarla kapsamlı test yapın**
-6. **Erişilebilirlik programınızı belgeleyin ve sürdürün**
+5. **Kapsamlı test yapın** otomatik araçlar ve gerçek kullanıcılarla
+6. **Belgelendirin ve sürdürün** erişilebilirlik programınızı
 
 </div>
 
 ::: tip Unutmayın
 Erişilebilirlik tek seferlik bir proje değil, sürekli bir taahhüttür. Yasalar gelişir, teknoloji değişir ve kullanıcı ihtiyaçları artar. Uzun vadeli başarı için erişilebilirliği kültürünüze ve süreçlerinize entegre edin.
+
+**Uyumluluk konusunda yardıma mı ihtiyacınız var?** Erişilebilirlik gereksinimlerini karşılamada [gerçek zamanlı çeviri platformumuzun](../../product/overview/video-meeting-platform) nasıl yardımcı olabileceğini görüşmek için [InterMIND ile iletişime geçin](../../resources/company/contacts).
 :::
 
 <style scoped>

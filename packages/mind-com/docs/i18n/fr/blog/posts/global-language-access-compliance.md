@@ -1,23 +1,23 @@
 ---
 layout: BlogPost
-title: "Conformité à l'accessibilité linguistique mondiale : Guide complet (2025)"
-description: "Aperçu complet des lois sur l'accès linguistique et l'accessibilité numérique dans le monde, incluant les exigences, les échéances et les pénalités."
+title: "Conformité à l'accessibilité linguistique mondiale : guide complet (2025)"
+description: Aperçu complet des lois sur l'accès linguistique et l'accessibilité numérique dans le monde, y compris les exigences, les échéances et les sanctions.
 date: 2025-10-13
 author: "[Jilarganti](https://github.com/jilarganti)"
 head:
   - - meta
     - name: keywords
-      content: "accès linguistique, conformité accessibilité, ADA, EAA, WCAG, accessibilité numérique, traduction, sous-titres"
+      content: accès linguistique, conformité accessibilité, ADA, EAA, WCAG, accessibilité numérique, traduction, sous-titres
 ---
 
-# Conformité à l'accessibilité linguistique mondiale : Guide complet (2025)
+# Conformité à l'accessibilité linguistique mondiale : guide complet (2025)
 
 <p class="subtitle">Tout ce que vous devez savoir sur les réglementations d'accès linguistique dans plus de 15 pays</p>
 
 > **Qu'est-ce que la conformité à l'accès linguistique ?**  
 > L'accès linguistique consiste à fournir des services et des informations afin que les personnes ayant une maîtrise limitée de l'anglais (LEP) ou qui sont sourdes ou malentendantes (D/HoH) puissent comprendre et participer efficacement, quelle que soit leur langue principale ou leur mode de communication.
 
-## Aperçu rapide : Paysage de la conformité mondiale
+## Aperçu rapide : Paysage de conformité mondial
 
 <div class="stats-grid">
   <div class="stat-card">
@@ -38,19 +38,21 @@ head:
   </div>
 </div>
 
+Découvrez comment [InterMIND aide à la conformité](../../product/overview/what-is-intermind) grâce à l'interprétation en temps réel et au [support multilingue](../../product/overview/how-it-works).
+
 ## 🌍 Pays en un coup d'œil
 
-| Région                  | Pays/Loi                      | Standard            | Statut   | Échéance        |
-| ----------------------- | ----------------------------- | ------------------- | -------- | --------------- |
-| 🇺🇸 **Amérique du Nord** | **États-Unis - ADA Title II** | WCAG 2.1 AA         | ✅ Actif | Avril 2026/2027 |
-|                         | **Canada - Projet de loi 96** | Priorité française  | ✅ Actif | Juin 2025       |
-| 🇪🇺 **Europe**           | **UE - EAA**                  | EN 301 549          | ✅ Actif | 28 juin 2025    |
-|                         | **Royaume-Uni - PSBAR**       | WCAG 2.1 AA         | ✅ Actif | En cours        |
-| 🇦🇺 **Océanie**          | **Australie - DDA**           | WCAG 2.1 AA         | ✅ Actif | En cours        |
-|                         | **Nouvelle-Zélande**          | WCAG 2.1 AA         | ✅ Actif | Juillet 2019+   |
-| 🇯🇵 **Asie**             | **Japon - JIS X8341-3**       | WCAG 2.0 AA         | ✅ Actif | Mis à jour 2024 |
-|                         | **Corée du Sud - KWCAG**      | WCAG 2.1 AA         | ✅ Actif | En cours        |
-|                         | **Inde - Loi RPwD**           | Standards nationaux | ✅ Actif | En cours        |
+| Région               | Pays/Loi                | Standard           | Statut    | Échéance        |
+| -------------------- | ----------------------- | ------------------ | --------- | --------------- |
+| 🇺🇸 **Amérique du Nord** | **États-Unis - ADA Title II**  | WCAG 2.1 AA        | ✅ Actif | Avril 2026/2027 |
+|                      | **Canada - Bill 96**    | Priorité française    | ✅ Actif | Juin 2025       |
+| 🇪🇺 **Europe**        | **UE - EAA**            | EN 301 549         | ✅ Actif | 28 juin 2025   |
+|                      | **Royaume-Uni - PSBAR**          | WCAG 2.1 AA        | ✅ Actif | En cours         |
+| 🇦🇺 **Océanie**       | **Australie - DDA**     | WCAG 2.1 AA        | ✅ Actif | En cours         |
+|                      | **Nouvelle-Zélande**         | WCAG 2.1 AA        | ✅ Actif | Juillet 2019+      |
+| 🇯🇵 **Asie**          | **Japon - JIS X8341-3** | WCAG 2.0 AA        | ✅ Actif | Mis à jour 2024    |
+|                      | **Corée du Sud - KWCAG** | WCAG 2.1 AA        | ✅ Actif | En cours         |
+|                      | **Inde - RPwD Act**    | Standards nationaux | ✅ Actif | En cours         |
 
 ## 📍 Répartition régionale
 
@@ -89,7 +91,7 @@ head:
 - **Section 1557 de la Loi sur les soins abordables** – Accès linguistique aux soins de santé
 - **Décret exécutif 14224 (2025)** – A révoqué le décret 13166 mais les lois sous-jacentes restent en vigueur
 
-**Note :** Malgré le décret exécutif 14224 désignant l'anglais comme « langue officielle », le Titre VI et autres statuts exigeant l'accès linguistique restent pleinement en vigueur.
+**Note :** Malgré le décret exécutif 14224 désignant l'anglais comme "langue officielle", le Titre VI et autres statuts exigeant l'accès linguistique restent pleinement en vigueur.
 
 </div>
 
@@ -162,7 +164,7 @@ head:
 **Exigences :**
 
 - Respecter la norme **EN 301 549** (incorpore WCAG 2.1 AA)
-- Sous-titres et sous-titres en direct pour les malentendants
+- Sous-titres en direct pour les malentendants
 - Synthèse vocale pour les malvoyants
 - Support de traduction multilingue
 
@@ -176,7 +178,7 @@ head:
 - Action légale pour non-conformité
 - Restrictions opérationnelles dans l'UE
 - Irlande : Emprisonnement potentiel pour violations graves
-- Allemagne : Sanctions monétaires importantes
+- Allemagne : Sanctions pécuniaires importantes
 
 **Impact sur les entreprises américaines :**
 
@@ -251,12 +253,12 @@ head:
 
 - **Stratégie nationale de transition de l'accessibilité web (NTS) :** Mandate WCAG 2.2 AA
 - **Norme d'approvisionnement TIC (2016) :** Les achats TIC gouvernementaux doivent être accessibles
-- **EN 301 549 :** Adopté pour l'approvisionnement TIC
+- **EN 301 549 :** Adoptée pour l'approvisionnement TIC
 
 **Sanctions :**
 
 - Action légale via la Commission australienne des droits de l'homme
-- Dommages de la Cour fédérale (cas historiques : 20 000 $ AUD)
+- Dommages-intérêts de la Cour fédérale (cas historiques : 20 000 $ AUD)
 - Plaintes via processus de conciliation
 
 **Cas notables :**
@@ -324,15 +326,15 @@ head:
 
 **Exigences :**
 
-- Aligné avec **WCAG 2.0 Niveau AA**
-- Mis à jour tous les 5 ans (prochaine mise à jour peut inclure WCAG 2.2)
+- Alignement avec **WCAG 2.0 Niveau AA**
+- Mise à jour tous les 5 ans (prochaine mise à jour peut inclure WCAG 2.2)
 - Conformité volontaire pour le secteur privé
 
 #### Loi pour l'élimination de la discrimination contre les personnes handicapées
 
 **Mise à jour majeure - avril 2024 :**
 
-- La loi révisée **exige** maintenant que tous les gouvernements centraux, entreprises publiques et privées, et universités fournissent un « aménagement raisonnable »
+- La loi révisée **exige** maintenant que tous les gouvernements centraux, entreprises publiques et privées, et universités fournissent un "aménagement raisonnable"
 - S'applique aux espaces numériques, bâtiments, éducation, emploi
 
 **Sanctions :**
@@ -342,7 +344,7 @@ head:
 
 **Orientations clés :**
 
-- **Directives opérationnelles du site web public de tous (2016) :** Recommande JIS X 8341-3 pour le secteur public
+- **Directives opérationnelles du site web public pour tous (2016) :** Recommande JIS X 8341-3 pour le secteur public
 
 **Statistiques :**
 
@@ -369,7 +371,7 @@ head:
 
 - Presque identique à **WCAG 2.0 Niveau A** (tous les points de contrôle)
 - Incorpore les meilleures pratiques web mobile 1.0
-- Supporte les technologies d'assistance
+- Support des technologies d'assistance
 
 #### Loi sur l'interdiction de la discrimination contre les personnes handicapées (2008, amendée 2014)
 
@@ -378,11 +380,11 @@ head:
 - Aménagement raisonnable pour l'accès numérique
 - Sous-titrage en temps réel, interprétation en langue des signes coréenne
 - Compatibilité avec les lecteurs d'écran
-- Kiosques et terminaux en libre-service accessibles
+- Kiosques et terminaux libre-service accessibles
 
 **Initiatives récentes (mai 2025) :**
 
-- 9,2 milliards de ₩ alloués pour la modernisation des kiosques accessibles
+- 9,2 milliards ₩ alloués pour la modernisation des kiosques accessibles
 - Programmes de consultation pour petites entreprises
 - Les contrats gouvernementaux priorisent l'accessibilité
 
@@ -414,14 +416,14 @@ head:
 **Exigences :**
 
 - Les sites web doivent supporter les lecteurs d'écran
-- Fournir des sous-titres et du texte alternatif
+- Fournir des sous-titres et texte alternatif
 - Suivre les directives nationales alignées avec WCAG
 - Aménagement raisonnable pour les services numériques
 
 #### Directives pour les sites web du gouvernement indien (2009)
 
-- Basé sur **WCAG 2.0 Niveau A**
-- Obligatoire pour les services gouvernementaux
+- Basées sur **WCAG 2.0 Niveau A**
+- Obligatoires pour les services gouvernementaux
 - Conformité du secteur privé volontaire mais recommandée
 
 **Sanctions :**
@@ -446,7 +448,7 @@ head:
 #### 🇨🇳 Chine
 
 - **GB/T 37668-2019 :** Normes nationales d'accessibilité (mises à jour 2019)
-- Basé sur les principes WCAG
+- Basées sur les principes WCAG
 - Sites web gouvernementaux et services publics priorisés
 
 #### 🇮🇱 Israël
@@ -458,26 +460,22 @@ head:
 #### 🇧🇷 Brésil
 
 - **Loi d'inclusion des personnes handicapées (LBI 13.146/2015)**
-- Couvre l'accessibilité physique
-
-</div>
-
----
+- Couvre l'accessibilité physique et numé
 
 ## 📊 Comparaison des exigences de conformité
 
 <div class="comparison-table-wrapper">
 
-| Exigence              | États-Unis          | UE (EAA)              | Royaume-Uni       | Australie      | Japon          | Corée du Sud           | Canada (QC)           |
-| --------------------- | ------------------- | --------------------- | ----------------- | -------------- | -------------- | ---------------------- | --------------------- |
-| **Standard**          | WCAG 2.1 AA         | EN 301 549            | WCAG 2.1 AA       | WCAG 2.1 AA    | WCAG 2.0 AA    | WCAG 2.1 AA            | Français + WCAG       |
-| **Sous-titres**       | ✅ Obligatoire      | ✅ Obligatoire        | ✅ Obligatoire    | ✅ Obligatoire | ✅ Encouragé   | ✅ Obligatoire         | ✅ Obligatoire        |
-| **Lecteurs d\'écran** | ✅ Oui              | ✅ Oui                | ✅ Oui            | ✅ Oui         | ✅ Oui         | ✅ Oui                 | ✅ Oui                |
-| **Synthèse vocale**   | ✅ Oui              | ✅ Oui                | ✅ Oui            | ✅ Oui         | ✅ Oui         | ✅ Oui                 | ✅ Oui                |
-| **Traduction**        | ✅ Multilingue      | ✅ Multilingue        | ⚠️ Limité         | ⚠️ Limité      | ⚠️ Limité      | ⚠️ Limité              | 🇫🇷 Priorité française |
-| **Secteur public**    | ✅ Obligatoire      | ✅ Obligatoire        | ✅ Obligatoire    | ✅ Obligatoire | ✅ Obligatoire | ✅ Obligatoire         | ✅ Obligatoire        |
-| **Secteur privé**     | ⚠️ Variable         | ✅ Oui (10+ employés) | ⚠️ Limité         | ✅ Encouragé   | ⚠️ Encouragé   | ✅ Services essentiels | ✅ Oui                |
-| **Amende max.**       | Financement fédéral | 20M€ ou 4%            | Loi sur l\'équité | 20K$ AUD       | ¥200K (~1,7K$) | ₩5M (~4K$)             | 30K$ CAD              |
+| Exigence           | États-Unis      | UE (EAA)           | Royaume-Uni  | Australie     | Japon          | Corée du Sud          | Canada (QC)        |
+| ------------------ | --------------- | ------------------ | ------------ | ------------- | -------------- | --------------------- | ------------------ |
+| **Standard**       | WCAG 2.1 AA     | EN 301 549         | WCAG 2.1 AA  | WCAG 2.1 AA   | WCAG 2.0 AA    | WCAG 2.1 AA           | Français + WCAG    |
+| **Sous-titres**    | ✅ Obligatoire  | ✅ Obligatoire     | ✅ Obligatoire | ✅ Obligatoire | ✅ Encouragé   | ✅ Obligatoire        | ✅ Obligatoire     |
+| **Lecteurs d'écran** | ✅ Oui        | ✅ Oui             | ✅ Oui       | ✅ Oui        | ✅ Oui         | ✅ Oui                | ✅ Oui             |
+| **Synthèse vocale** | ✅ Oui         | ✅ Oui             | ✅ Oui       | ✅ Oui        | ✅ Oui         | ✅ Oui                | ✅ Oui             |
+| **Traduction**     | ✅ Multilingue  | ✅ Multilingue     | ⚠️ Limité    | ⚠️ Limité     | ⚠️ Limité      | ⚠️ Limité             | 🇫🇷 Priorité française |
+| **Secteur public** | ✅ Obligatoire  | ✅ Obligatoire     | ✅ Obligatoire | ✅ Obligatoire | ✅ Obligatoire | ✅ Obligatoire        | ✅ Obligatoire     |
+| **Secteur privé**  | ⚠️ Variable     | ✅ Oui (10+ employés) | ⚠️ Limité | ✅ Encouragé  | ⚠️ Encouragé   | ✅ Services essentiels | ✅ Oui             |
+| **Amende max.**    | Financement fédéral | 20M€ ou 4%     | Loi sur l'équité | 20K$ AUD   | ¥200K (~1,7K$) | ₩5M (~4K$)           | 30K$ CAD           |
 
 </div>
 
@@ -501,7 +499,7 @@ head:
     <div class="timeline-date">28 juin 2025</div>
     <div class="timeline-content">
       <strong>🇪🇺 UE - EAA</strong>
-      <p>Loi européenne sur l\'accessibilité en plein effet</p>
+      <p>Acte européen sur l'accessibilité en plein effet</p>
     </div>
   </div>
   
@@ -524,16 +522,16 @@ head:
 
 ---
 
-## 🎯 Comment atteindre la conformité
+## 🎯 Comment Atteindre la Conformité
 
 <div class="steps-grid">
 
 <div class="step-card">
 
-### 1. Évaluer l\'état actuel
+### 1. Évaluer l'État Actuel
 
 - Auditer les propriétés numériques existantes
-- Identifier les lacunes d\'accessibilité
+- Identifier les lacunes d'accessibilité
 - Examiner le support linguistique
 - Documenter les résultats
 
@@ -541,7 +539,7 @@ head:
 
 <div class="step-card">
 
-### 2. Prioriser les exigences
+### 2. Prioriser les Exigences
 
 - Se concentrer sur les juridictions applicables
 - Identifier les échéances critiques
@@ -552,20 +550,20 @@ head:
 
 <div class="step-card">
 
-### 3. Implémenter les solutions
+### 3. Implémenter les Solutions
 
-- Outils de traduction alimentés par l\'IA
+- Outils de traduction alimentés par l'IA
 - Systèmes de sous-titrage en temps réel
-- Optimisation pour lecteurs d\'écran
+- Optimisation pour lecteurs d'écran
 - Intégration de synthèse vocale
 
 </div>
 
 <div class="step-card">
 
-### 4. Tester et valider
+### 4. Tester et Valider
 
-- Tests d\'accessibilité manuels
+- Tests d'accessibilité manuels
 - Analyse WCAG automatisée
 - Tests utilisateurs avec des personnes handicapées
 - Vérification multilingue
@@ -574,9 +572,9 @@ head:
 
 <div class="step-card">
 
-### 5. Documenter et former
+### 5. Documenter et Former
 
-- Créer des déclarations d\'accessibilité
+- Créer des déclarations d'accessibilité
 - Publier des rapports de conformité
 - Former le personnel aux exigences
 - Établir un processus de maintenance
@@ -585,7 +583,7 @@ head:
 
 <div class="step-card">
 
-### 6. Surveiller et maintenir
+### 6. Surveiller et Maintenir
 
 - Surveillance continue
 - Audits réguliers
@@ -606,7 +604,7 @@ head:
 
 ### 🌐 Conception universelle
 
-Concevoir pour **tous** les utilisateurs dès le départ, pas comme une réflexion après coup
+Concevoir pour **tous** les utilisateurs dès le départ, pas après coup
 
 </div>
 
@@ -622,7 +620,7 @@ Le contenu doit être perceptible par tous les sens (vue, ouïe, toucher)
 
 ### ⚙️ Utilisable
 
-Les composants d\'interface doivent être utilisables par tous les utilisateurs
+Les composants d'interface doivent être utilisables par tous les utilisateurs
 
 </div>
 
@@ -630,7 +628,7 @@ Les composants d\'interface doivent être utilisables par tous les utilisateurs
 
 ### 📖 Compréhensible
 
-L\'information doit être claire et facile à comprendre
+L'information doit être claire et facile à comprendre
 
 </div>
 
@@ -654,23 +652,23 @@ Prendre en compte la langue, la culture et les capacités diverses
 
 ---
 
-## ❓ Questions fréquemment posées
+## ❓ Questions Fréquemment Posées
 
-### Q : Ces lois s\'appliquent-elles si j\'opère uniquement dans un seul pays ?
+### Q : Ces lois s'appliquent-elles si j'opère uniquement dans un seul pays ?
 
-Si vous servez des clients ou des utilisateurs dans un pays avec des lois d\'accessibilité, vous devez vous conformer aux exigences de ce pays—même si votre entreprise est basée ailleurs. L\'EAA de l\'UE et diverses lois nationales s\'appliquent en fonction de l\'endroit où vos **utilisateurs** sont situés, similaire au RGPD.
+Si vous servez des clients ou des utilisateurs dans un pays avec des lois d'accessibilité, vous devez vous conformer aux exigences de ce pays—même si votre entreprise est basée ailleurs. L'EAA de l'UE et diverses lois nationales s'appliquent en fonction de l'endroit où vos **utilisateurs** sont situés, similaire au RGPD.
 
 ### Q : Quelle est la différence entre WCAG 2.0, 2.1 et 2.2 ?
 
 - **WCAG 2.0 :** Standard original, largement adopté
-- **WCAG 2.1 :** Ajout de l\'accessibilité mobile et des handicaps cognitifs (exigence la plus courante)
-- **WCAG 2.2 :** Version la plus récente, ajoute des améliorations d\'authentification et d\'interaction
+- **WCAG 2.1 :** Ajout de l'accessibilité mobile et des handicaps cognitifs (exigence la plus courante)
+- **WCAG 2.2 :** Version la plus récente, ajoute des améliorations d'authentification et d'interaction
 
 Respecter WCAG 2.1 Niveau AA satisfait généralement la plupart des exigences mondiales.
 
 ### Q : Puis-je utiliser des outils automatisés pour atteindre la conformité ?
 
-Les outils automatisés détectent ~30-40% des problèmes d\'accessibilité. Les tests manuels par des experts en accessibilité et des utilisateurs handicapés sont essentiels pour une conformité complète. Utilisez l\'automatisation comme point de départ, pas comme solution complète.
+Les outils automatisés détectent ~30-40% des problèmes d'accessibilité. Les tests manuels par des experts en accessibilité et des utilisateurs handicapés sont essentiels pour une conformité complète. Utilisez l'automatisation comme point de départ, pas comme solution complète.
 
 ### Q : Quelles sont les erreurs de conformité les plus courantes ?
 
@@ -678,9 +676,9 @@ Les outils automatisés détectent ~30-40% des problèmes d\'accessibilité. Les
 2. ❌ Contraste de couleur insuffisant
 3. ❌ Pas de support de navigation au clavier
 4. ❌ Sous-titres manquants sur les vidéos
-5. ❌ PDFs inaccessibles
-6. ❌ Pas d\'options de traduction linguistique
-7. ❌ Déclarations d\'accessibilité obsolètes
+5. ❌ PDF inaccessibles
+6. ❌ Pas d'options de traduction linguistique
+7. ❌ Déclarations d'accessibilité obsolètes
 
 ### Q : Combien coûte la conformité ?
 
@@ -690,13 +688,13 @@ Les coûts varient largement :
 - **Moyennes entreprises :** 20 000 $-100 000 $
 - **Grandes entreprises :** 100 000 $-500 000 $+
 
-Intégrer l\'accessibilité dans le processus de conception est **4 à 10 fois moins cher** que de l\'adapter plus tard.
+Intégrer l'accessibilité dans le processus de conception est **4 à 10 fois moins cher** que de l'adapter plus tard.
 
 ### Q : Que se passe-t-il si je ne me conforme pas ?
 
 Les conséquences incluent :
 
-- 💰 Pénalités financières (amendes de 1 700 $ à 100 000 $+ ou pourcentage du chiffre d\'affaires)
+- 💰 Pénalités financières (amendes de 1 700 $ à 100 000 $+ ou pourcentage du chiffre d'affaires)
 - ⚖️ Actions légales et poursuites
 - 🚫 Perte de contrats gouvernementaux
 - 📉 Dommages à la réputation
@@ -705,18 +703,18 @@ Les conséquences incluent :
 
 ### Q : Les overlays et widgets fournissent-ils la conformité ?
 
-⚠️ **Non.** Les widgets overlay d\'accessibilité (comme accessiBe, UserWay) sont controversés et ne garantissent PAS la conformité. De nombreux groupes de défense des personnes handicapées s\'y opposent activement. La remédiation manuelle du code et du contenu est requise pour une véritable accessibilité.
+⚠️ **Non.** Les widgets overlay d'accessibilité (comme accessiBe, UserWay) sont controversés et ne garantissent PAS la conformité. De nombreux groupes de défense des personnes handicapées s'y opposent activement. La remédiation manuelle du code et du contenu est requise pour une véritable accessibilité.
 
-### Q : Comment rédiger une déclaration d\'accessibilité ?
+### Q : Comment rédiger une déclaration d'accessibilité ?
 
 Inclure :
 
-1. Engagement envers l\'accessibilité
+1. Engagement envers l'accessibilité
 2. Standards auxquels vous vous conformez (ex. WCAG 2.1 AA)
 3. Limitations connues
-4. Informations de contact pour les problèmes d\'accessibilité
+4. Informations de contact pour les problèmes d'accessibilité
 5. Date de dernière révision
-6. Mise à jour au moins annuellement
+6. Mise à jour au moins annuelle
 
 ---
 
@@ -733,7 +731,7 @@ Inclure :
 ### États-Unis
 
 - [ADA.gov - Règle finale du titre II](https://www.ada.gov/resources/2024-03-08-web-rule/)
-- [LEP.gov - Maîtrise limitée de l\'anglais](https://www.lep.gov/)
+- [LEP.gov - Maîtrise limitée de l'anglais](https://www.lep.gov/)
 - [Section 508](https://www.section508.gov/)
 
 ### Union européenne
@@ -747,11 +745,11 @@ Inclure :
 
 ### Royaume-Uni
 
-- [Exigences d\'accessibilité GOV.UK](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
+- [Exigences d'accessibilité GOV.UK](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
 
 ### Australie
 
-- [Commission australienne des droits de l\'homme - DDA](https://humanrights.gov.au/our-work/disability-rights)
+- [Commission australienne des droits de l'homme - DDA](https://humanrights.gov.au/our-work/disability-rights)
 - [Agence de transformation numérique](https://www.dta.gov.au/)
 
 ### Asie-Pacifique
@@ -765,17 +763,19 @@ Inclure :
 
 ### Prêt à assurer la conformité ?
 
-1. **Auditez vos propriétés numériques** selon les critères WCAG 2.1 AA
-2. **Identifiez les lois applicables** pour vos emplacements d\'entreprise et votre clientèle
+1. **Auditez vos propriétés numériques** selon WCAG 2.1 AA
+2. **Identifiez les lois applicables** pour vos emplacements d'entreprise et votre base de clients
 3. **Développez une feuille de route de remédiation** avec des priorités et des délais clairs
-4. **Implémentez des solutions d\'accessibilité** (traduction IA, sous-titres, support de lecteur d\'écran)
+4. **Implémentez des solutions d'accessibilité** (traduction IA, sous-titres, support de lecteur d'écran)
 5. **Testez minutieusement** avec des outils automatisés et de vrais utilisateurs
-6. **Documentez et maintenez** votre programme d\'accessibilité
+6. **Documentez et maintenez** votre programme d'accessibilité
 
 </div>
 
 ::: tip Rappel
-L\'accessibilité est un engagement continu, pas un projet ponctuel. Les lois évoluent, la technologie change, et les besoins des utilisateurs grandissent. Intégrez l\'accessibilité dans votre culture et vos processus pour un succès à long terme.
+L'accessibilité est un engagement continu, pas un projet ponctuel. Les lois évoluent, la technologie change, et les besoins des utilisateurs grandissent. Intégrez l'accessibilité dans votre culture et vos processus pour un succès à long terme.
+
+**Besoin d'aide pour la conformité ?** [Contactez InterMIND](../../resources/company/contacts) pour discuter de la façon dont notre [plateforme de traduction en temps réel](../../product/overview/video-meeting-platform) peut aider à répondre aux exigences d'accessibilité.
 :::
 
 <style scoped>

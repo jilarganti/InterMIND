@@ -1,11 +1,11 @@
 ---
-title: "Tạo và lên lịch cuộc họp"
-description: "Tìm hiểu cách tạo cuộc họp tức thì, lên lịch trong Google Calendar và tạo liên kết cuộc họp có thể tái sử dụng trong nền tảng hội nghị truyền hình InterMIND."
+title: Tạo và lên lịch cuộc họp
+description: Tìm hiểu cách tạo cuộc họp tức thì, lên lịch trong Google Calendar và tạo liên kết cuộc họp có thể tái sử dụng trong nền tảng hội nghị truyền hình InterMIND.
 ---
 
 # Tạo và lên lịch cuộc họp
 
-Sau khi đăng nhập vào InterMIND, người dùng có thể dễ dàng tạo và lên lịch cuộc họp trực tiếp từ giao diện chính bằng cách nhấp vào nút **Cuộc họp mới**.
+Sau khi đăng nhập vào InterMIND (xem [Quản lý tài khoản](./account-management)), người dùng có thể dễ dàng tạo và lên lịch cuộc họp trực tiếp từ giao diện chính bằng cách nhấp vào nút **Cuộc họp mới**.
 
 ## Truy cập các tùy chọn cuộc họp
 
@@ -39,9 +39,9 @@ Tùy chọn này cho phép người dùng khởi tạo phiên họp trực tiế
 1. Nhấp vào nút **New Meeting**
 2. Chọn tùy chọn **Start an instant meeting**
 3. Phòng họp sẽ mở ngay lập tức trong tab hiện tại
-4. Bạn sẽ tự động đảm nhận vai trò Host
-5. Sử dụng tùy chọn 'Copy Link' nằm ở góc dưới bên trái, hoặc sao chép liên kết từ thanh địa chỉ của trình duyệt
-6. Chia sẻ liên kết với những người tham gia khác
+4. Bạn sẽ tự động đảm nhận vai trò Chủ trì (tìm hiểu về [User Roles](./user-roles))
+5. Sử dụng tùy chọn 'Copy Link' ở góc dưới bên trái, hoặc sao chép liên kết từ thanh địa chỉ của trình duyệt
+6. Chia sẻ liên kết với các thành viên khác
 
 > [!TIP]
 > Tùy chọn này lý tưởng cho việc đồng bộ hóa nhanh chóng hoặc cộng tác tự phát.
@@ -52,19 +52,19 @@ Lên lịch cuộc họp trong tương lai và tích hợp liền mạch vào Go
 
 **Các bước:**
 
-1. Nhấp vào nút **Cuộc họp mới**
-2. Chọn tùy chọn **Lên lịch trong Google Calendar**
+1. Nhấp vào nút **New Meeting**
+2. Chọn tùy chọn **Schedule in Google Calendar**
 3. Bạn sẽ được chuyển hướng đến trang tạo sự kiện Google Calendar trong tab mới
 4. Liên kết cuộc họp sẽ được tự động điền vào phần vị trí hoặc ghi chú
 5. Thiết lập:
    - Ngày và giờ
    - Khách mời
    - Thông báo
-6. Nhấp **Lưu** và gửi lời mời từ Google Calendar
+6. Nhấp **Save** và gửi lời mời từ Google Calendar
 
 > [!INFO]
 > Điều này yêu cầu tài khoản Google đã kết nối và đặc biệt phù hợp cho các nhóm có tổ chức với lịch tích hợp.
 
 Ngay khi cuộc họp được lên lịch và nếu Google Calendar được kết nối với InterMIND, cuộc họp này sẽ xuất hiện trên trang chính của InterMIND trong phần các cuộc họp đã lên lịch.
 
-Ngoài ra, ngay khi những người tham gia được mời chấp nhận lời mời tham gia cuộc họp, nó sẽ xuất hiện trên trang chính InterMIND của họ trong phần các cuộc họp đã lên lịch, với điều kiện họ đã được ủy quyền và đã bật đồng bộ hóa với Google Calendar.
+Ngoài ra, ngay khi những người tham gia được mời chấp nhận lời mời tham dự cuộc họp, nó sẽ xuất hiện trên trang chính InterMIND của họ trong phần các cuộc họp đã lên lịch, với điều kiện họ đã được ủy quyền và đã bật đồng bộ hóa với Google Calendar. Sau khi cuộc họp kết thúc, nó sẽ có sẵn trong [Meetings History](./meeting-history).

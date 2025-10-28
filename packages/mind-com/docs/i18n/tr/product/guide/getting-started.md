@@ -1,21 +1,21 @@
 ---
-title: "Başlangıç"
-description: "InterMIND AI destekli video konferans platformunu nasıl kullanacağınızı öğrenin. Kayıt, toplantı oluşturma, AI özellikleri ve sorun giderme için kapsamlı rehber."
+title: Başlangıç
+description: InterMIND AI destekli video konferans platformunu nasıl kullanacağınızı öğrenin. Kayıt, toplantı oluşturma, AI özellikleri ve sorun giderme için kapsamlı rehber.
 ---
 
 # Başlangıç
 
 InterMIND, çeşitli diller, cihazlar ve ekipler arasında kesintisiz iletişimi kolaylaştırmak için tasarlanmış gelişmiş bir AI destekli video konferans platformudur. Bu rehber, InterMIND'ın tüm özelliklerini etkili bir şekilde nasıl kullanacağınız konusunda kapsamlı bir anlayış sağlamayı amaçlamaktadır — ilk toplantınıza katılmaktan AI araçlarını yapılandırmaya ve teknik sorunları çözmeye kadar.
 
-İster ayrıntılı rehberlik arayan yeni bir kullanıcı olun, ister karmaşık toplantıları yöneten deneyimli bir katılımcı olun, bu rehber tüm gerekli bilgileri erişilebilir bir yerde toplar.
+Detaylı rehberlik arayan yeni bir kullanıcı olun veya karmaşık toplantıları yöneten deneyimli bir katılımcı olun, bu rehber tüm gerekli bilgileri erişilebilir bir yerde toplar.
 
 Bu rehberde şunları keşfedeceksiniz:
 
-- Nasıl kayıt olacağınız, oturum açacağınız ve profilinizi özelleştireceğiniz konusunda talimatlar
-- Toplantı oluşturma ve planlama yönergeleri
-- Kullanıcı rolleri, izinler ve gerçek zamanlı çeviri yetenekleri hakkında bilgiler
-- AI Asistanı ve Ses Çevirici gibi AI destekli özelliklerin genel bakışı
-- Sorun giderme ipuçları ve sık sorulan soruların cevapları
+- [Kayıt olma, oturum açma ve profilinizi özelleştirme](./account-management) talimatları
+- [Toplantı oluşturma ve planlama](./creating-meetings) yönergeleri
+- [Kullanıcı rolleri](./user-roles), izinler ve [gerçek zamanlı çeviri yetenekleri](./ai-features#online-voice-translation) hakkında bilgiler
+- AI Asistanı ve Ses Çevirici gibi [AI destekli özellikler](./ai-features) hakkında genel bakış
+- [Sorun giderme ipuçları](./troubleshooting) ve [sık sorulan sorular](./faq) yanıtları
 
 Başlayalım — akıllı toplantıların geleceği şimdi başlamaya hazır.
 
@@ -24,22 +24,22 @@ Başlayalım — akıllı toplantıların geleceği şimdi başlamaya hazır.
 InterMIND'a yeniyseniz, deneyiminizi başlatmak için bu basit kontrol listesini takip edin:
 
 1. https://intermind.com adresini ziyaret edin
-2. Giriş Yap'a tıklayın ve Google / Microsoft / E-posta seçin
+2. Giriş Yap'a tıklayın ve Google / Microsoft / E-posta seçin ([Hesap Yönetimi](./account-management) bölümünde daha fazla bilgi edinin)
 3. İstendiğinde, mikrofonunuza ve kameranıza erişim izni verin
-4. Yeni Toplantı'ya tıklayın ve Anında Toplantı Başlat'ı seçin
+4. Yeni Toplantı'ya tıklayın ve Anında Toplantı Başlat'ı seçin ([Toplantı Oluşturma ve Planlama](./creating-meetings) bölümüne bakın)
 5. Toplantı bağlantısını katılımcılarla paylaşın
 6. Tercih ettiğiniz dili ve cihazları seçmek için Ayarlar'ı açın
-7. Çağrınız sırasında not almak ve özet oluşturmak için AI Asistanı'nı kullanın
-8. Kayıtlar ve transkriptler için Geçmiş sekmesi üzerinden önceki toplantılara erişin
+7. Aramanız sırasında not almak ve özet oluşturmak için [AI Asistanı](./ai-features#ai-assistant)'nı kullanın
+8. Kayıtlar ve transkriptler için önceki toplantılara Geçmiş sekmesi üzerinden erişin
 
 > [!TIP]
-> En iyi performans için Chrome veya Edge tarayıcısı kullanılması önerilir.
+> En iyi performans için Chrome veya Edge tarayıcısı kullanmanız önerilir. Herhangi bir sorun yaşarsanız, [Sorun Giderme](./troubleshooting) kılavuzumuzu kontrol edin veya [Yardım ve Destek](./help-support) sayfasını ziyaret edin.
 
 ## Desteklenen Diller
 
 InterMIND, kullanıcı arayüzü, sesli çevirmen ve AI asistanı için çeşitli dilleri desteklemek üzere tasarlanmış çok dilli bir platformdur. Kullanıcılar dil ayarlarını çeşitli yöntemlerle değiştirebilir:
 
-- Dil değiştirici sayfa başlığında, yetkisiz kullanıcılar için giriş düğmesinin yanında veya yetkili kullanıcılar için kullanıcının avatar simgesinin yakınında bulunur
+- Dil değiştirici, sayfa başlığında, yetkisiz kullanıcılar için giriş düğmesinin yanında veya yetkili kullanıcılar için kullanıcının avatar simgesinin yakınında bulunur
 - Sayfa alt bilgisinde '© Mind, 2025.' metninin yanında bulunan dil değiştirici
 - Ayrıca kullanıcılar 'Kullanıcı Profili > Ayarlar > Diliniz' seçeneği aracılığıyla veya toplantı sırasında 'Menüyü Göster > Ayarlar > Ayarlar > Diliniz' yolunu izleyerek dili değiştirebilir
 
@@ -75,13 +75,13 @@ InterMIND hem masaüstü hem de mobil kullanım için optimize edilmiş olup, ku
 - Android akıllı telefonlar ve tabletler
 - iOS akıllı telefonlar ve tabletler
 
-Kullanıcılar herhangi bir yazılım kurulumu gerektirmeden platformu doğrudan tarayıcıları üzerinden erişebilirler.
+Kullanıcılar herhangi bir yazılım kurulumu gerektirmeden platforma doğrudan tarayıcıları üzerinden erişebilir.
 
 ### Nasıl Erişilir
 
 1. Web tarayıcınızı açın
 2. https://intermind.com adresini ziyaret edin
-3. Giriş yapın veya doğrudan misafir olarak toplantı bağlantısına katılın
+3. Giriş yapın veya misafir olarak doğrudan toplantı bağlantısına katılın
 4. İstendiğinde kamera ve mikrofon izinlerini verin
 
 > [!WARNING]
@@ -89,15 +89,15 @@ Kullanıcılar herhangi bir yazılım kurulumu gerektirmeden platformu doğrudan
 
 ### Tarayıcı Uyumluluğu
 
-InterMIND tüm platformlarda büyük modern tarayıcıların tümü ile uyumludur. Herhangi bir uzantı veya eklenti kurulumu gerekmez.
+InterMIND, platformlar arası tüm büyük modern tarayıcılarla uyumludur. Herhangi bir uzantı veya eklenti kurulumu gerekmez.
 
 #### Önerilen Tarayıcılar
 
 **Optimal Performans:**
 
-- Chrome (Google\'un resmi web tarayıcısı)
-- Edge (Microsoft\'un resmi web tarayıcısı)
-- Safari (Apple\'ın resmi web tarayıcısı)
+- Chrome (Google'ın resmi web tarayıcısı)
+- Edge (Microsoft'un resmi web tarayıcısı)
+- Safari (Apple'ın resmi web tarayıcısı)
 
 **Sınırlı Destek veya Önerilmeyen:**
 
@@ -118,7 +118,7 @@ Tüm Tarayıcılarda Mevcut:
 - AI Asistanı
 - Arama içi mesajlar
 - Ekran kaydı
-- Ekran paylaşımı (yalnızca masaüstü tarayıcılar)
+- Ekran paylaşımı (yalnızca masaüstü tarayıcıları)
 - Düzen ve görüntüleme seçenekleri
 
 > [!TIP]

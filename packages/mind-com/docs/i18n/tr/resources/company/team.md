@@ -2,11 +2,13 @@
 
 Birlikte, yaratıcılığı, kodu ve anlayışı harmanlayarak dil engellerini sonsuza dek ortadan kaldırıyoruz.
 
+[Misyonumuz hakkında](./about) daha fazla bilgi edinin ve [teknolojimizin nasıl çalıştığını](../../product/overview/how-it-works) keşfedin.
+
 ## İnsan Ekibi
 
 <TeamMembersGrid :members="[
   {
-    name: '**Mind.com** Ekibi',
+    name: 'The **Mind.com** Ekibi',
     desc: 'Dil engellerini sonsuza dek ortadan kaldırıyoruz',
     avatarLink: '/logo.svg',
     links: [
@@ -68,7 +70,7 @@ Birlikte, yaratıcılığı, kodu ve anlayışı harmanlayarak dil engellerini s
   },
   {
     name: 'DeepSeek',
-    desc: 'Kodla düşünüyor ve bağlamda mantık yürütüyor',
+    desc: 'Kod ile düşünüyor ve bağlam içinde akıl yürütüyor',
     country: 'China',
     avatarLink: 'arcticons:deepseek',
     links: [
@@ -76,3 +78,5 @@ Birlikte, yaratıcılığı, kodu ve anlayışı harmanlayarak dil engellerini s
     ]
   },
 ]" />
+
+> **Bize katılmak mı istiyorsunuz?** [Kariyer fırsatlarımızı](./careers) inceleyin veya [ne inşa ettiğimiz](../../product/overview/what-is-intermind) hakkında daha fazla bilgi edinin.

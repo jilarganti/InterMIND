@@ -1,11 +1,11 @@
 ---
-title: "Fehlerbehebung"
-description: "Beheben Sie häufige InterMIND-Probleme mit Mikrofon, Kamera, Übersetzer, Bildschirmfreigabe und Aufzeichnung. Lösungen für reibungslose Online-Meetings."
+title: Fehlerbehebung
+description: Beheben Sie häufige InterMIND-Probleme mit Mikrofon, Kamera, Übersetzer, Bildschirmfreigabe und Aufzeichnung. Lösungen für reibungslose Online-Meetings.
 ---
 
 # Fehlerbehebung
 
-Dieser Abschnitt bietet Lösungen für häufige Probleme, die während Online-Meetings auftreten können, einschließlich Problemen mit Mikrofonen, Kameras, dem Beitritt zu Meetings, der Verwendung von Sprachassistenten, Übersetzern, Bildschirmfreigabe und Aufzeichnung. Er beschreibt mögliche Ursachen für jedes Problem und bietet praktische Lösungen zu deren Behebung, um eine reibungslosere Online-Meeting-Erfahrung zu gewährleisten.
+Dieser Abschnitt bietet Lösungen für häufige Probleme, die während Online-Meetings auftreten können, einschließlich Problemen mit Mikrofonen, Kameras, dem Beitritt zu Meetings, der Verwendung von Sprachassistenten, Übersetzern, Bildschirmfreigabe und Aufzeichnung. Er beschreibt mögliche Ursachen für jedes Problem und bietet praktische Lösungen zu deren Behebung, um eine reibungslosere Online-Meeting-Erfahrung zu gewährleisten. Für zusätzliche Unterstützung siehe [Help & Support](./help-support).
 
 ## Mikrofon oder Kamera funktioniert nicht
 
@@ -43,9 +43,9 @@ Dieser Abschnitt bietet Lösungen für häufige Probleme, die während Online-Me
 
 ### Lösungen:
 
-- Wählen Sie Ihre bevorzugte Sprache in Einstellungen > Sprache
-- Meeting-Seite erneut beitreten oder aktualisieren
-- Sicherstellen, dass Mikrofonzugriff gewährt und aktiviert ist
+- Wählen Sie Ihre bevorzugte Sprache unter Einstellungen > Sprache
+- Meeting verlassen und erneut beitreten oder Seite aktualisieren
+- Stellen Sie sicher, dass der Mikrofonzugriff gewährt und aktiviert ist
 
 ## Echo oder Audio-Feedback
 
@@ -105,4 +105,4 @@ Dieser Abschnitt bietet Lösungen für häufige Probleme, die während Online-Me
 - Berechtigungen mit dem Host überprüfen
 
 > [!TIP]
-> Falls Sie weiterhin Probleme haben, stellen Sie sicher, dass Ihr Browser auf die neueste Version aktualisiert ist und dass Sie eine stabile Internetverbindung von mindestens 2 Mbps haben.
+> Falls Sie weiterhin Probleme haben, stellen Sie sicher, dass Ihr Browser auf die neueste Version aktualisiert ist und Sie über eine stabile Internetverbindung von mindestens 2 Mbps verfügen. Prüfen Sie [Getting Started](./getting-started#device--browser-compatibility) für Kompatibilitätsinformationen oder kontaktieren Sie [Help & Support](./help-support).

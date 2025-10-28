@@ -7,9 +7,11 @@
 
 Bu bir çevirmen değil. Bu, küresel iletişim için yeni bir paradigma.
 
-## Sonuçları Gösterin, Referansları Değil
+[Ne inşa ettiğimiz](../../product/overview/what-is-intermind) ve [nasıl çalıştığı](../../product/overview/how-it-works) hakkında daha fazla bilgi edinin.
 
-Bize katılmak mı istiyorsunuz? Bize insanlar için zaten inşa ettiğiniz faydalı ve anlamlı bir şey gösterin.
+## Sonuçları Gösterin, Sertifikaları Değil
+
+Bize katılmak mı istiyorsunuz? Bize insanlar için halihazırda inşa ettiğiniz faydalı ve anlamlı bir şey gösterin.
 
 Eğitim ve deneyim önemlidir, ancak bizim daha çok önemsediğimiz şey: **insanlar için yarattığınız gerçek değer nedir**.
 
@@ -17,9 +19,9 @@ Eğitim ve deneyim önemlidir, ancak bizim daha çok önemsediğimiz şey: **ins
 
 Aradığımız kişiler:
 
-**Zaten bir şeyler inşa etmiş olanlar.** Binlerce kişinin kullandığı kod. Gerçek bir sorunu çözen bir ürün. Bozulmadan çalışan bir sistem. Sonuç veren bir ekip.
+**Halihazırda bir şeyler inşa etmiş olanlar.** Binlercenin kullandığı kod. Gerçek bir sorunu çözen ürün. Bozulmadan çalışan sistem. Sonuç veren takım.
 
-**Değerlerini sonuçlarla ölçenler.** Çalışmanız sayesinde kaç kişinin hayatı iyileşti? Geliştirmelerinizden sonra süreçler ne kadar hızlandı? Çözümlerinizden sonra hangi sorunlar ortadan kalktı?
+**Değerlerini sonuçlarla ölçenler.** Çalışmanız sayesinde kaç kişinin hayatı iyileşti? İyileştirmelerinizden sonra süreçler ne kadar hızlandı? Çözümlerinizden sonra hangi sorunlar ortadan kalktı?
 
 **Küresel düşünenler.** Farklı ülkelerden insanlarla çalıştınız mı? Çok kültürlü ortamlarda sorunlar çözdünüz mü? Uluslararası kitleler için ürünler geliştirdiniz mi?
 
@@ -27,7 +29,7 @@ Aradığımız kişiler:
 
 ## Ne İnşa Ediyoruz
 
-Profesyonel başarı için yabancı dil akıcılığını isteğe bağlı hale getiren bir platform. Şunu hayal edin: Japon bir mühendis, Alman bir yönetici ve Brezilyalı bir tasarımcı bir projeyi tartışıyor—her biri kendi ana dilinde konuşuyor, herkes mükemmel şekilde anlıyor.
+Yabancı dil akıcılığını profesyonel başarı için isteğe bağlı hale getiren bir platform. Şunu hayal edin: Japon bir mühendis, Alman bir yönetici ve Brezilyalı bir tasarımcı bir proje hakkında konuşuyor—her biri kendi ana dilinde konuşuyor, herkes mükemmel şekilde anlıyor.
 
 Sadece kelimeleri çevirmiyoruz—anlamı, tonu, kültürel bağlamı koruyoruz. Gerçek zamanlı. Gecikme yok. İnsan seviyesinde doğruluk.
 
@@ -57,7 +59,7 @@ Sadece kelimeleri çevirmiyoruz—anlamı, tonu, kültürel bağlamı koruyoruz.
 ### Geleceği inşa eden liderler
 
 - Sıfırdan uluslararası pazar genişlemesi
-- Belirsizlik içinde takım kurma
+- Belirsizlik içinde ekip kurma
 - "Dünyanın ilk" kategorisinde ürünler geliştirme
 - Yeni endüstri standartları oluşturma
 
@@ -73,7 +75,7 @@ Sadece kelimeleri çevirmiyoruz—anlamı, tonu, kültürel bağlamı koruyoruz.
 
 ## Süreç
 
-1. **Bağlantıları gönderin.** Özgeçmiş değil—yaptığınız işlerin bağlantılarını gönderin. GitHub, ürünler, makaleler, videolar, çalışmanızı gösteren her şey.
+1. **Linkler gönderin.** Özgeçmiş değil—yaptığınız işlerin linklerini gönderin. GitHub, ürünler, makaleler, videolar, çalışmanızı gösteren her şey.
 
 2. **Hikayeyi anlatın.** Hangi sorunu çözdünüz? Neden önemliydi? Başarıyı nasıl ölçtünüz? Sonuç ne oldu?
 
@@ -88,17 +90,19 @@ Sadece kelimeleri çevirmiyoruz—anlamı, tonu, kültürel bağlamı koruyoruz.
 
 **Dünya çapında zorluklar.** Milyarlarca insanı etkileyen sorunları çözeceksiniz.
 
-**Dünya standartlarında ekip.** Yapay zeka, gerçek zamanlı sistemler ve küresel iletişim alanlarında uzman kişilerle çalışın.
+**Dünya standartlarında ekip.** AI, gerçek zamanlı sistemler ve küresel iletişim alanlarında en iyi uzmanlarla çalışın.
 
-**Sınırsız kaynaklar.** Kategorideki en iyi ürünü geliştirmek için ihtiyacınız olan her şey.
+**Sınırsız kaynaklar.** Kategorinin en iyi ürününü geliştirmek için ihtiyacınız olan her şey.
 
 **Küresel etki.** Çalışmanız insanlığın dil sınırları ötesinde iletişim kurma şeklini değiştirecek.
+
+[Ekibimizle](./team) tanışın ve [şirket değerlerimiz](./about) hakkında bilgi edinin.
 
 ## Bize Katılın
 
 Eğer zaten anlamlı bir şey inşa ettiyseniz ve dünyayı değiştiren teknoloji geliştirmeye hazırsanız—bize yazın.
 
-Yaptıklarınızı gösterin. Bundan sonra ne inşa etmek istediğinizi anlatın.
+Neler yaptığınızı gösterin. Bundan sonra neyi inşa etmek istediğinizi anlatın.
 
 <!-- **İletişim:** careers@mind.com -->
 

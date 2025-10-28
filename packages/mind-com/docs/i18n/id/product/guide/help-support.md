@@ -1,11 +1,11 @@
 ---
-title: "Bantuan & Dukungan"
-description: "Dapatkan bantuan dengan InterMIND. Laporkan masalah, sarankan fitur, dan hubungi tim dukungan kami melalui formulir umpan balik bawaan."
+title: Bantuan & Dukungan
+description: Dapatkan bantuan dengan InterMIND. Laporkan masalah, sarankan fitur, dan hubungi tim dukungan kami melalui formulir umpan balik bawaan.
 ---
 
 # Bantuan & Dukungan
 
-Jika Anda menghadapi masalah atau memiliki permintaan fitur, jangan ragu untuk menghubungi tim InterMIND secara langsung melalui formulir umpan balik bawaan. Fitur ini cepat dan mudah digunakan, memungkinkan kami untuk meningkatkan InterMIND untuk semua orang.
+Jika Anda menghadapi masalah atau memiliki permintaan fitur, jangan ragu untuk menghubungi tim InterMIND secara langsung melalui formulir umpan balik bawaan. Fitur ini cepat dan mudah digunakan, memungkinkan kami untuk meningkatkan InterMIND untuk semua orang. Untuk masalah umum, periksa panduan [Troubleshooting](./troubleshooting) kami terlebih dahulu.
 
 ## Untuk mengirim masukan:
 
@@ -18,6 +18,6 @@ Jika Anda menghadapi masalah atau memiliki permintaan fitur, jangan ragu untuk m
 5. Klik **Send** untuk mengirim pesan Anda
 
 > [!WARNING]
-> Hindari berbagi informasi sensitif atau rahasia dalam formulir.
+> Hindari membagikan informasi sensitif atau rahasia dalam formulir.
 
 Ini membantu kami meningkatkan InterMIND dan merespons kebutuhan Anda dengan lebih efisien.

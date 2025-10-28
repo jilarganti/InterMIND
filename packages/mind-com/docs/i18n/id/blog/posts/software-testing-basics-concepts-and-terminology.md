@@ -1,19 +1,18 @@
 ---
 layout: BlogPost
-title: "Pengantar Konsep dan Terminologi Pengujian Perangkat Lunak"
+title: "Pengenalan Konsep dan Terminologi Pengujian Perangkat Lunak"
 description: Panduan ramah pemula untuk memahami dasar-dasar pengujian perangkat lunak, termasuk jenis pengujian, proses, dan terminologi kunci.
 date: 2025-10-06
 author: "[Jilarganti](https://github.com/jilarganti)"
 head:
   - - meta
     - name: keywords
-      content: pengujian perangkat lunak, dasar-dasar pengujian, QA, pengujian manual, pengujian otomatis, jenis pengujian
-
+      content: pengujian perangkat lunak, dasar pengujian, QA, pengujian manual, pengujian otomatis, jenis pengujian
 ---
 
-# Dasar-dasar pengujian perangkat lunak: Panduan lengkap (2025)
+# Dasar-dasar pengujian perangkat lunak: panduan lengkap (2025)
 
-<p class="subtitle">Semua yang perlu Anda ketahui untuk memulai dengan pengujian perangkat lunak</p>
+<p class="subtitle">Semua yang perlu Anda ketahui untuk memulai pengujian perangkat lunak</p>
 
 > **Apa itu Pengujian Perangkat Lunak?**  
 > Pengujian perangkat lunak adalah proses mengevaluasi dan memverifikasi bahwa aplikasi perangkat lunak bekerja sesuai yang diharapkan. Ini membantu mengidentifikasi bug, celah, atau persyaratan yang hilang sebelum perangkat lunak sampai ke pengguna.
@@ -77,7 +76,7 @@ Kedua pendekatan memiliki tempatnya dalam strategi pengujian:
 
 - Penguji manusia mengeksplorasi aplikasi
 - Sangat baik untuk evaluasi UI/UX
-- Sempurna untuk fitur-fitur baru
+- Sempurna untuk fitur baru
 - Fleksibel dan kreatif
 - Lebih lambat untuk tugas berulang
 
@@ -141,11 +140,11 @@ Tidak ada angka yang sempurna. Seimbangkan risiko, waktu, dan sumber daya. Fitur
 
 ### T: Bisakah AI menggantikan penguji perangkat lunak?
 
-AI dapat mengotomatisasi tes berulang, tetapi penguji manusia masih penting untuk memahami logika bisnis, kasus tepi, dan pengalaman pengguna.
+AI dapat mengotomatisasi pengujian yang berulang, tetapi penguji manusia masih penting untuk memahami logika bisnis, kasus tepi, dan pengalaman pengguna.
 
 ---
 
-::: info Siap Mulai Testing?
+::: info Siap Mulai Pengujian?
 Panduan ini mencakup dasar-dasarnya. Cara terbaik untuk belajar adalah dengan berlatih—mulai dengan kasus uji sederhana dan secara bertahap membangun keterampilan Anda.
 :::
 

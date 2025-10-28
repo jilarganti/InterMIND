@@ -19,9 +19,11 @@ Sin subtítulos. Sin retrasos. Sin negocios perdidos por el idioma.
 InterMIND es **telepatía conversacional** — piensas en inglés, ellos escuchan mandarín perfecto. Responden en japonés, tú entiendes cada matiz.
 
 Preserva **tu voz**, **tu tono**, **tu personalidad** — en cualquier idioma.  
-Captura **contexto**, **subtexto cultural**, **intención de negocios**.
+Captura **contexto**, **subtexto cultural**, **intención de negocio**.
 
 > Habla naturalmente. Sé entendido perfectamente. Cierra más tratos.
+
+Conoce más sobre [how our technology works](../../product/overview/how-it-works) y explora nuestra [video meeting platform](../../product/overview/video-meeting-platform).
 
 ## La Tecnología
 
@@ -31,7 +33,9 @@ Donde otros crean barreras, nosotros creamos **conexión**.
 
 **Más de 20 idiomas. Cero carga cognitiva. Máximo impacto.**
 
-## Nuestra Filosofía
+Descubre los [detalles técnicos](../../product/overview/how-it-works) y ve dónde generamos el [mayor impacto](../../product/overview/markets).
+
+## Nuestra filosofía
 
 El idioma no debería determinar con quién puedes trabajar.  
 La geografía no debería limitar tus ambiciones.  
@@ -41,4 +45,6 @@ La cultura no debería ser una desventaja competitiva.
 
 El futuro pertenece a quienes pueden colaborar globalmente — instantáneamente, naturalmente, inteligentemente.
 
-— _El Equipo de Mind.com_
+— _El equipo de Mind.com_
+
+> **¿Listo para saber más?** Visita nuestra [página del equipo](./team), explora [oportunidades de carrera](./careers), o [ponte en contacto](./contacts).

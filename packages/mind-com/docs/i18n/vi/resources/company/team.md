@@ -2,6 +2,8 @@
 
 Cùng nhau, chúng tôi kết hợp sáng tạo, mã code và sự hiểu biết để xóa bỏ rào cản ngôn ngữ một cách triệt để.
 
+Tìm hiểu thêm [về sứ mệnh của chúng tôi](./about) và khám phá [cách công nghệ của chúng tôi hoạt động](../../product/overview/how-it-works).
+
 ## Đội ngũ con người
 
 <TeamMembersGrid :members="[
@@ -24,7 +26,7 @@ Cùng nhau, chúng tôi kết hợp sáng tạo, mã code và sự hiểu biết
   },
   {
     name: 'Jilarganti',
-    desc: 'Mang **tư duy mới** đến InterMIND',
+    desc: 'Mang **tâm trí mới** đến InterMIND',
     country: 'UAE',
     avatarLink: 'https://github.com/jilarganti.png',
     links: [
@@ -36,7 +38,7 @@ Cùng nhau, chúng tôi kết hợp sáng tạo, mã code và sự hiểu biết
 
 ## Đội ngũ AI [^1]
 
-[^1]: Các thành viên trong đội ngũ AI không phải là con người, nhưng họ là một phần không thể thiếu trong hoạt động của chúng tôi. Họ hỗ trợ trong nhiều nhiệm vụ khác nhau, từ lập trình đến nghiên cứu, và giúp chúng tôi phá vỡ rào cản ngôn ngữ.
+[^1]: Các thành viên trong đội ngũ AI không phải là con người, nhưng họ là một phần không thể thiếu trong hoạt động của chúng tôi. Họ hỗ trợ trong nhiều nhiệm vụ khác nhau, từ lập trình đến nghiên cứu, và giúp chúng tôi phá bỏ rào cản ngôn ngữ.
 
 <TeamMembersGrid :members="[
   {
@@ -68,7 +70,7 @@ Cùng nhau, chúng tôi kết hợp sáng tạo, mã code và sự hiểu biết
   },
   {
     name: 'DeepSeek',
-    desc: 'Suy nghĩ bằng mã và lý luận trong ngữ cảnh',
+    desc: 'Tư duy bằng code và lý luận trong ngữ cảnh',
     country: 'China',
     avatarLink: 'arcticons:deepseek',
     links: [
@@ -76,3 +78,5 @@ Cùng nhau, chúng tôi kết hợp sáng tạo, mã code và sự hiểu biết
     ]
   },
 ]" />
+
+> **Muốn gia nhập với chúng tôi?** Hãy xem các [cơ hội nghề nghiệp](./careers) của chúng tôi hoặc tìm hiểu thêm về [những gì chúng tôi đang xây dựng](../../product/overview/what-is-intermind).

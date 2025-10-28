@@ -2,6 +2,8 @@
 
 Juntos, combinamos creatividad, código y comprensión para eliminar las barreras del idioma para siempre.
 
+Conoce más [sobre nuestra misión](./about) y explora [cómo funciona nuestra tecnología](../../product/overview/how-it-works).
+
 ## Equipo humano
 
 <TeamMembersGrid :members="[
@@ -76,3 +78,5 @@ Juntos, combinamos creatividad, código y comprensión para eliminar las barrera
     ]
   },
 ]" />
+
+> **¿Quieres unirte a nosotros?** Consulta nuestras [oportunidades de carrera](./careers) o aprende más sobre [lo que estamos construyendo](../../product/overview/what-is-intermind).

@@ -1,13 +1,15 @@
-# Chez Mind.com, les humains dirigent, l\'IA amplifie
+# Chez Mind.com, les humains dirigent, l'IA amplifie
 
-Ensemble, nous mélangeons créativité, code et compréhension pour effacer définitivement les barrières linguistiques.
+Ensemble, nous mélangeons créativité, code et compréhension pour éliminer définitivement les barrières linguistiques.
+
+En savoir plus [about our mission](./about) et explorer [how our technology works](../../product/overview/how-it-works).
 
 ## Équipe humaine
 
 <TeamMembersGrid :members="[
   {
     name: 'L\'équipe **Mind.com**',
-    desc: 'Effacer les barrières linguistiques pour de bon',
+    desc: 'Éliminer les barrières linguistiques pour de bon',
     avatarLink: '/logo.svg',
     links: [
       { icon: 'mdi:twitter', link: 'https://x.com/imindcom' },
@@ -36,7 +38,7 @@ Ensemble, nous mélangeons créativité, code et compréhension pour effacer dé
 
 ## Équipe IA [^1]
 
-[^1]: Les membres de l\'équipe IA ne sont pas humains, mais ils sont essentiels à nos opérations. Ils assistent dans diverses tâches, du codage à la recherche, et nous aident à surmonter les barrières linguistiques.
+[^1]: Les membres de l'équipe IA ne sont pas humains, mais ils sont essentiels à nos opérations. Ils assistent dans diverses tâches, du codage à la recherche, et nous aident à surmonter les barrières linguistiques.
 
 <TeamMembersGrid :members="[
   {
@@ -76,3 +78,5 @@ Ensemble, nous mélangeons créativité, code et compréhension pour effacer dé
     ]
   },
 ]" />
+
+> **Vous souhaitez nous rejoindre ?** Consultez nos [opportunités de carrière](./careers) ou apprenez-en plus sur [ce que nous construisons](../../product/overview/what-is-intermind).

@@ -1,11 +1,11 @@
 ---
-title: "Preços"
-description: "Compare os planos InterMIND - Básico, Pro e Business. Encontre o plano ideal com limites de reunião, capacidade de participantes, recursos de IA e opções de armazenamento."
+title: Preços
+description: Compare os planos InterMIND - Básico, Pro e Empresarial. Encontre o plano ideal com limites de reuniões, capacidade de participantes, recursos de IA e opções de armazenamento.
 ---
 
 # Preços
 
-A página de Preços oferece uma comparação clara de todos os planos disponíveis—Básico, Pro e Business—ajudando os usuários a escolher a melhor opção para suas necessidades de comunicação. Inclui detalhes sobre preços, limites de reunião, capacidade de participantes, armazenamento e acesso a recursos premium como Assistente de Voz, Assistente de IA e serviços de interpretação.
+A página de Preços oferece uma comparação clara de todos os planos disponíveis—Básico, Pro e Empresarial—ajudando os usuários a escolher a melhor opção para suas necessidades de comunicação. Inclui detalhes sobre preços, limites de reuniões, capacidade de participantes, armazenamento e acesso a recursos premium como Assistente de Voz, Assistente de IA e serviços de interpretação.
 
 ## Acessando a Página de Preços
 
@@ -16,7 +16,7 @@ A página de Preços oferece uma comparação clara de todos os planos disponív
 
 ### Pela Página de Perfil (para usuários do plano Básico)
 
-- Navegue para Perfil > aba Perfil
+- Navegue para Perfil > aba Perfil (veja [Gerenciamento de Conta](./account-management#user-profile))
 - Clique no botão **Fazer Upgrade do Plano** localizado abaixo do seu plano atual
 
 ### Pelo Cabeçalho da Página
@@ -35,7 +35,7 @@ A página de Preços inclui três níveis:
 | Plano        | Preço                                      | Recursos Principais                                                         |
 | ------------ | ------------------------------------------ | --------------------------------------------------------------------------- |
 | **Básico**   | Gratuito                                   | 25 reuniões, 100 participantes, 30 GB de armazenamento, interpretação limitada |
-| **Pro**      | $25/mês (ou $20/mês cobrado anualmente)   | Reuniões ilimitadas, 150 participantes, 2 TB de armazenamento, todos os recursos de IA |
+| **Pro**      | R$ 25/mês (ou R$ 20/mês cobrado anualmente) | Reuniões ilimitadas, 150 participantes, 2 TB de armazenamento, todos os recursos de IA |
 | **Business** | Personalizado (Entre em Contato com Vendas) | 500 participantes, 5 TB de armazenamento, colega de IA (alpha), recursos empresariais |
 
 ### Outros Destaques
@@ -49,7 +49,7 @@ A página de Preços inclui três níveis:
 
 ## Pagamento de Assinatura via Stripe
 
-- Ao clicar em **Comprar Agora** os usuários serão redirecionados para uma página de pagamento segura do Stripe em uma nova aba
+- Ao clicar em **Comprar Agora**, os usuários serão redirecionados para uma página de pagamento segura do Stripe em uma nova aba
 - Os seguintes campos são obrigatórios para conclusão:
   - Email
   - Dados do cartão

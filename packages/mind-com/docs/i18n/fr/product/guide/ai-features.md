@@ -1,79 +1,73 @@
 ---
-title: "Fonctionnalités de l'IA"
-description: "Découvrez les fonctionnalités alimentées par l'IA d'InterMIND, y compris l'Assistant Vocal (Jarvis), la traduction vocale en temps réel et l'Assistant IA pour les notes et résumés de réunion."
+title: Fonctionnalités IA
+description: Découvrez les fonctionnalités alimentées par l'IA d'InterMIND incluant l'Assistant Vocal (Jarvis), la traduction vocale en temps réel, et l'Assistant IA pour les notes et résumés de réunion.
 ---
 
-# Fonctionnalités de l'IA
+# Fonctionnalités IA
 
-Cette section décrit les fonctionnalités de l'Assistant Vocal (Jarvis), de la Traduction Vocale en Ligne et de l'Assistant IA disponibles lors des réunions.
+Cette section présente les fonctionnalités de l'Assistant Vocal (Jarvis), de la Traduction Vocale en Ligne, et de l'Assistant IA disponibles pendant les réunions.
 
----
-title: "Traduction vocale en ligne"
-description: "Découvrez notre fonctionnalité de traduction vocale en temps réel pour des réunions inclusives et personnalisables."
+## Traduction vocale en ligne
 
----
+Cette fonctionnalité fournit des traductions en temps réel pour les participants qui l'activent, garantissant que l'expérience reste inchangée pour les autres participants à la réunion. De plus, les utilisateurs ont la flexibilité de modifier la langue de traduction à tout moment via le panneau Paramètres.
 
-## Traduction Vocale en Ligne
-
-Cette fonctionnalité offre des traductions en temps réel pour les participants qui l'activent, garantissant que l'expérience reste inchangée pour les autres participants à la réunion. De plus, les utilisateurs ont la flexibilité de modifier la langue de traduction à tout moment via le panneau des paramètres.
-
-Le traducteur vocal est automatiquement activé lors de l'entrée dans une réunion ; cependant, le processus de traduction ne commencera que si les langues d'interface et de traduction des participants diffèrent. Dans les cas où tous les participants ont choisi la même langue, aucune traduction ne sera effectuée.
+Le traducteur vocal est automatiquement activé lors de l'entrée dans une réunion ; cependant, le processus de traduction ne commencera que si les langues d'interface et de traduction des participants diffèrent. Dans les cas où tous les participants ont choisi la même langue, aucune traduction n'aura lieu.
 
 Une fois qu'un participant modifie sa langue d'interface et de traduction, tous les autres participants commenceront à entendre la traduction dans la langue qu'ils ont sélectionnée dans les paramètres de la réunion.
 
 De plus, les participants ont la possibilité d'ajuster le volume de l'audio original des autres participants via les paramètres de la réunion, leur permettant de se concentrer uniquement sur la traduction.
 
-### Caractéristiques Clés
+### Fonctionnalités clés
 
 - Doublage vocal en temps réel dans la langue sélectionnée
 - Paramètres de traduction personnels (n'affecte pas les autres participants)
-- Possibilité de changer la langue de traduction à tout moment via le panneau des paramètres
-- Disponible pour tous les types de participants (Hôte, Modérateur, Participant, Invité)
+- Possibilité de changer la langue de traduction à tout moment via le panneau Paramètres (voir [Interface de réunion](./meeting-interface))
+- Disponible pour tous les types de participants (Hôte, Modérateur, Participant, Invité - en savoir plus sur les [Rôles utilisateur](./user-roles))
 
-### Comment Activer
+### Comment activer
 
-La traduction peut être activée par tout participant en ajustant ses paramètres de langue dans le panneau des paramètres pendant la réunion.
+La traduction peut être activée par tout participant en ajustant ses paramètres de langue dans le panneau Paramètres pendant la réunion.
 
 ### Personnalisation
 
 - Chaque participant peut définir sa propre langue de traduction préférée
-- Les préférences de traduction sont enregistrées dans les paramètres de l'utilisateur pour les réunions futures
-- Les langues peuvent être changées en cours de réunion via le panneau des paramètres
+- Les préférences de traduction sont sauvegardées dans les paramètres utilisateur pour les réunions futures
+- Les langues peuvent être changées en cours de réunion via le panneau Paramètres
 
 ## Assistant IA
 
-L'Assistant IA est accessible sous la forme d'une interface de chat privé lors des réunions. Les utilisateurs peuvent ouvrir le panneau de l'Assistant IA pour interagir avec l'assistant au format texte, permettant des demandes liées à :
+L'Assistant IA est accessible via une interface de chat privée au sein des réunions. Les utilisateurs peuvent ouvrir le panneau de l'Assistant IA pour interagir avec l'assistant au format texte, permettant des demandes liées à :
 
 - Résumés de réunion
-- Recherches de transcription
-- Insights de chat
+- Recherches dans les transcriptions
+- Analyses des discussions
 
 ### Capacités
 
 L'Assistant IA peut aider avec :
 
 - **Résumés de réunion**
-- **Recherches de transcription**
-- **Insights de chat**
-- **Identification des actions à entreprendre**
+- **Recherches dans les transcriptions**
+- **Analyses des discussions**
+- **Identification des éléments d'action**
 - **Extraction des points clés**
 
-### Invites Courantes
+### Invites courantes
 
 Les utilisateurs peuvent utiliser des invites telles que :
 
 - "Résume les 10 dernières minutes"
-- "Que dit John à propos du budget ?"
+- "Qu'est-ce que John a dit à propos du budget ?"
 - "Quels sont les principaux éléments d'action de cette réunion ?"
-- "Qui a mentionné la date limite pour le projet ?"
+- "Qui a mentionné la date limite du projet ?"
 
-### Exigences d'Accès
+### Exigences d'accès
 
 > [!WARNING]
-> L'Assistant IA est exclusivement disponible pour les utilisateurs connectés, y compris les hôtes, les modérateurs ou les participants. Il ne s'engage pas publiquement dans le chat et n'est pas accessible aux utilisateurs invités.
+> L'Assistant IA est exclusivement disponible pour les utilisateurs connectés, y compris les Hôtes, Modérateurs ou Participants. Il ne participe pas publiquement au chat et n'est pas accessible aux utilisateurs Invités. En savoir plus sur les [User Roles](./user-roles).
 
 ### Confidentialité
 
 - Les interactions avec l'Assistant IA sont privées pour chaque utilisateur
-- Les réponses ne sont pas visibles par les autres participants de la réunion
+- Les réponses ne sont pas visibles aux autres participants de la réunion
 - Chaque participant peut avoir ses propres conversations séparées avec l'Assistant IA

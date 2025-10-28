@@ -1,7 +1,7 @@
 ---
 layout: BlogPost
 title: "Tuân thủ tiếp cận ngôn ngữ toàn cầu: Hướng dẫn đầy đủ (2025)"
-description: Tổng quan toàn diện về các luật tiếp cận ngôn ngữ và khả năng tiếp cận kỹ thuật số trên toàn thế giới, bao gồm các yêu cầu, thời hạn và hình phạt.
+description: Tổng quan toàn diện về các luật tiếp cận ngôn ngữ và khả năng tiếp cận kỹ thuật số trên toàn thế giới, bao gồm yêu cầu, thời hạn và hình phạt.
 date: 2025-10-13
 author: "[Jilarganti](https://github.com/jilarganti)"
 head:
@@ -15,7 +15,7 @@ head:
 <p class="subtitle">Mọi thứ bạn cần biết về các quy định tiếp cận ngôn ngữ tại hơn 15 quốc gia</p>
 
 > **Tuân thủ tiếp cận ngôn ngữ là gì?**  
-> Tiếp cận ngôn ngữ đề cập đến việc cung cấp các dịch vụ và thông tin để những người có khả năng tiếng Anh hạn chế (LEP) hoặc người Điếc hoặc Khó nghe (D/HoH) có thể hiểu và tham gia hiệu quả, bất kể ngôn ngữ chính hoặc phương thức giao tiếp của họ.
+> Tiếp cận ngôn ngữ đề cập đến việc cung cấp dịch vụ và thông tin để những người có khả năng tiếng Anh hạn chế (LEP) hoặc người Điếc hoặc Khó nghe (D/HoH) có thể hiểu và tham gia hiệu quả, bất kể ngôn ngữ chính hoặc phương thức giao tiếp của họ.
 
 ## Tổng quan nhanh: Bối cảnh tuân thủ toàn cầu
 
@@ -38,19 +38,21 @@ head:
   </div>
 </div>
 
-## 🌍 Tổng quan các quốc gia
+Tìm hiểu cách [InterMIND hỗ trợ tuân thủ](../../product/overview/what-is-intermind) thông qua phiên dịch thời gian thực và [hỗ trợ đa ngôn ngữ](../../product/overview/how-it-works).
 
-| Khu vực               | Quốc gia/Luật              | Tiêu chuẩn          | Trạng thái  | Thời hạn          |
-| --------------------- | -------------------------- | ------------------- | ----------- | ----------------- |
-| 🇺🇸 **Bắc Mỹ**         | **Hoa Kỳ - ADA Title II**  | WCAG 2.1 AA         | ✅ Hiệu lực | Tháng 4/2026/2027 |
-|                       | **Canada - Bill 96**       | Ưu tiên tiếng Pháp  | ✅ Hiệu lực | Tháng 6/2025      |
-| 🇪🇺 **Châu Âu**        | **EU - EAA**               | EN 301 549          | ✅ Hiệu lực | 28 tháng 6/2025   |
-|                       | **Anh - PSBAR**            | WCAG 2.1 AA         | ✅ Hiệu lực | Liên tục          |
-| 🇦🇺 **Châu Đại Dương** | **Úc - DDA**               | WCAG 2.1 AA         | ✅ Hiệu lực | Liên tục          |
-|                       | **New Zealand**            | WCAG 2.1 AA         | ✅ Hiệu lực | Tháng 7/2019+     |
-| 🇯🇵 **Châu Á**         | **Nhật Bản - JIS X8341-3** | WCAG 2.0 AA         | ✅ Hiệu lực | Cập nhật 2024     |
-|                       | **Hàn Quốc - KWCAG**       | WCAG 2.1 AA         | ✅ Hiệu lực | Liên tục          |
-|                       | **Ấn Độ - RPwD Act**       | Tiêu chuẩn quốc gia | ✅ Hiệu lực | Liên tục          |
+## 🌍 Các quốc gia trong tầm nhìn
+
+| Khu vực              | Quốc gia/Luật           | Tiêu chuẩn         | Trạng thái | Thời hạn        |
+| -------------------- | ----------------------- | ------------------ | ---------- | --------------- |
+| 🇺🇸 **Bắc Mỹ**       | **USA - ADA Title II**  | WCAG 2.1 AA        | ✅ Hiệu lực | Tháng 4/2026/2027 |
+|                      | **Canada - Bill 96**    | Ưu tiên tiếng Pháp | ✅ Hiệu lực | Tháng 6/2025    |
+| 🇪🇺 **Châu Âu**       | **EU - EAA**            | EN 301 549         | ✅ Hiệu lực | 28 tháng 6/2025 |
+|                      | **UK - PSBAR**          | WCAG 2.1 AA        | ✅ Hiệu lực | Liên tục        |
+| 🇦🇺 **Châu Đại Dương** | **Australia - DDA**     | WCAG 2.1 AA        | ✅ Hiệu lực | Liên tục        |
+|                      | **New Zealand**         | WCAG 2.1 AA        | ✅ Hiệu lực | Tháng 7/2019+   |
+| 🇯🇵 **Châu Á**        | **Japan - JIS X8341-3** | WCAG 2.0 AA        | ✅ Hiệu lực | Cập nhật 2024   |
+|                      | **South Korea - KWCAG** | WCAG 2.1 AA        | ✅ Hiệu lực | Liên tục        |
+|                      | **India - RPwD Act**    | Tiêu chuẩn quốc gia | ✅ Hiệu lực | Liên tục        |
 
 ## 📍 Phân tích theo khu vực
 
@@ -86,10 +88,10 @@ head:
 **Luật liên bang bổ sung:**
 
 - **Title VI của Đạo luật Dân quyền (1964)** – Cấm phân biệt đối xử dựa trên nguồn gốc quốc gia
-- **Mục 1557 của Đạo luật Chăm sóc Giá cả phải chăng** – Tiếp cận ngôn ngữ trong y tế
-- **Sắc lệnh hành pháp 14224 (2025)** – Đã hủy bỏ EO 13166 nhưng các luật cơ bản vẫn có hiệu lực
+- **Mục 1557 của Đạo luật Chăm sóc Sức khỏe Giá cả Phải chăng** – Tiếp cận ngôn ngữ trong y tế
+- **Sắc lệnh 14224 (2025)** – Đã thu hồi EO 13166 nhưng các luật cơ bản vẫn có hiệu lực
 
-**Lưu ý:** Mặc dù Sắc lệnh hành pháp 14224 chỉ định tiếng Anh là "ngôn ngữ chính thức", Title VI và các quy chế khác yêu cầu tiếp cận ngôn ngữ vẫn có hiệu lực đầy đủ.
+**Lưu ý:** Mặc dù Sắc lệnh 14224 chỉ định tiếng Anh là "ngôn ngữ chính thức," Title VI và các luật khác yêu cầu tiếp cận ngôn ngữ vẫn có hiệu lực đầy đủ.
 
 </div>
 
@@ -111,7 +113,7 @@ head:
 
 - Ưu tiên giao tiếp bằng tiếng Pháp
 - Dịch tiếng Pháp thời gian thực cho các cuộc họp đa ngôn ngữ
-- Phụ đề & bản ghi âm bằng tiếng Pháp, tiếng Anh và các ngôn ngữ khác
+- Phụ đề & bản ghi bằng tiếng Pháp, tiếng Anh và các ngôn ngữ khác
 - Tùy chọn văn bản thành giọng nói cho người khiếm thị
 
 **Thời hạn:**
@@ -161,7 +163,7 @@ head:
 
 **Yêu cầu:**
 
-- Đáp ứng tiêu chuẩn **EN 301 549** (kết hợp WCAG 2.1 AA)
+- Đáp ứng tiêu chuẩn **EN 301 549** (tích hợp WCAG 2.1 AA)
 - Phụ đề trực tiếp cho người khiếm thính
 - Văn bản thành giọng nói cho người khiếm thị
 - Hỗ trợ dịch đa ngôn ngữ
@@ -172,16 +174,16 @@ head:
 
 **Hình phạt:**
 
-- Tiền phạt khác nhau theo quốc gia thành viên
+- Phạt khác nhau theo quốc gia thành viên
 - Hành động pháp lý do không tuân thủ
 - Hạn chế hoạt động trong EU
-- Ireland: Có thể bị tù cho các vi phạm nghiêm trọng
-- Đức: Hình phạt tiền đáng kể
+- Ireland: Có thể bị tù cho vi phạm nghiêm trọng
+- Đức: Phạt tiền đáng kể
 
 **Tác động đến công ty Mỹ:**
 
 - Nếu bạn phục vụ khách hàng EU, bạn **phải tuân thủ** (tương tự GDPR)
-- Thực thi tập trung vào các dịch vụ nhắm đến người dùng EU
+- Thực thi tập trung vào dịch vụ nhắm đến người dùng EU
 
 </div>
 
@@ -191,7 +193,7 @@ head:
 
 <div class="country-section">
 
-#### Quy định Tiếp cận của Các tổ chức Khu vực Công (PSBAR) 2018
+#### Quy định Tiếp cận Cơ quan Khu vực Công (PSBAR) 2018
 
 **Ai phải tuân thủ:**
 
@@ -215,15 +217,15 @@ head:
 
 - Hành động pháp lý theo **Đạo luật Bình đẳng 2010**
 - Thực thi bởi Dịch vụ Số Chính phủ (GDS)
-- Thiệt hại danh tiếng và sự giám sát công chúng
+- Thiệt hại danh tiếng và giám sát công chúng
 
 #### Đạo luật Bình đẳng 2010
 
 - Cấm phân biệt đối xử dựa trên khuyết tật
 - Áp dụng cho cả khu vực công và tư
-- Bao gồm các rào cản tiếp cận nội dung số
+- Bao gồm rào cản tiếp cận nội dung số
 
-**Lưu ý:** Mặc dù Anh rời EU, các doanh nghiệp phục vụ khách hàng EU vẫn phải tuân thủ EAA.
+**Lưu ý:** Mặc dù Anh rời EU, doanh nghiệp phục vụ khách hàng EU vẫn phải tuân thủ EAA.
 
 </div>
 
@@ -249,20 +251,20 @@ head:
 
 **Tiêu chuẩn chính:**
 
-- **Chiến lược Chuyển đổi Quốc gia Tiếp cận Web (NTS):** Bắt buộc WCAG 2.2 AA
+- **Chiến lược Chuyển đổi Quốc gia Tiếp cận Web (NTS):** Yêu cầu WCAG 2.2 AA
 - **Tiêu chuẩn Mua sắm ICT (2016):** Mua sắm ICT của chính phủ phải có thể truy cập
 - **EN 301 549:** Được áp dụng cho mua sắm ICT
 
 **Hình phạt:**
 
 - Hành động pháp lý thông qua Ủy ban Nhân quyền Úc
-- Thiệt hại Tòa án Liên bang (các trường hợp lịch sử: 20.000 AUD)
+- Bồi thường Tòa án Liên bang (các trường hợp lịch sử: 20.000 AUD)
 - Khiếu nại thông qua quy trình hòa giải
 
-**Các trường hợp đáng chú ý:**
+**Các vụ án đáng chú ý:**
 
-- **Bruce Maguire v SOCOG (2000):** Trường hợp mang tính bước ngoặt, 20.000 đô la thiệt hại cho trang web Olympic không thể truy cập
-- **Gisele Mesnage v Coles (2014):** Trường hợp tiếp cận web đầu tiên tại Tòa án Liên bang
+- **Bruce Maguire v SOCOG (2000):** Vụ án mang tính bước ngoặt, bồi thường 20.000 đô la cho trang web Olympic không thể truy cập
+- **Gisele Mesnage v Coles (2014):** Vụ án tiếp cận web đầu tiên tại Tòa án Liên bang
 
 **Thống kê:**
 
@@ -300,12 +302,12 @@ head:
 
 - Đã qua đọc đầu tiên ngày 2 tháng 8, 2022
 - Tạo Ủy ban Tiếp cận do người khuyết tật dẫn đầu
-- Nhằm giải quyết các rào cản hệ thống trên tất cả các lĩnh vực
+- Nhằm giải quyết rào cản hệ thống trên tất cả các lĩnh vực
 - **Phê bình:** Các nhà vận động nói rằng nó không đi đủ xa
 
 **Thống kê:**
 
-- **24% người New Zealand** (1,1 triệu người) xác định là có nhu cầu tiếp cận
+- **24% người New Zealand** (1,1 triệu người) xác định có nhu cầu tiếp cận
 
 </div>
 
@@ -332,27 +334,30 @@ head:
 
 **Cập nhật lớn - tháng 4/2024:**
 
-- Luật sửa đổi hiện **yêu cầu** tất cả chính phủ trung ương, doanh nghiệp công và tư, và trường đại học cung cấp "sự điều chỉnh hợp lý"
+- Luật sửa đổi hiện **yêu cầu** tất cả chính phủ trung ương, doanh nghiệp công và tư, và trường đại học cung cấp "điều chỉnh hợp lý"
 - Áp dụng cho không gian số, tòa nhà, giáo dục, việc làm
 
 **Hình phạt:**
 
-- Phạt lên đến **¥200.000** (~1.700 USD) cho tuyên bố tiếp cận s
+- Phạt lên đến **¥200.000** (~1.700 USD) cho tuyên bố tiếp cận sai
+- Hành động pháp lý do không tuân thủ
+
+**Hướng dẫn
 
 ## 📊 So sánh yêu cầu tuân thủ
 
 <div class="comparison-table-wrapper">
 
-| Yêu cầu                            | Hoa Kỳ            | EU (EAA)              | Anh            | Úc              | Nhật Bản        | Hàn Quốc             | Canada (QC)           |
-| ---------------------------------- | ----------------- | --------------------- | -------------- | --------------- | --------------- | -------------------- | --------------------- |
-| **Tiêu chuẩn**                     | WCAG 2.1 AA       | EN 301 549            | WCAG 2.1 AA    | WCAG 2.1 AA     | WCAG 2.0 AA     | WCAG 2.1 AA          | Tiếng Pháp + WCAG     |
-| **Phụ đề**                         | ✅ Bắt buộc       | ✅ Bắt buộc           | ✅ Bắt buộc    | ✅ Bắt buộc     | ✅ Khuyến khích | ✅ Bắt buộc          | ✅ Bắt buộc           |
-| **Trình đọc màn hình**             | ✅ Có             | ✅ Có                 | ✅ Có          | ✅ Có           | ✅ Có           | ✅ Có                | ✅ Có                 |
-| **Chuyển văn bản thành giọng nói** | ✅ Có             | ✅ Có                 | ✅ Có          | ✅ Có           | ✅ Có           | ✅ Có                | ✅ Có                 |
-| **Dịch thuật**                     | ✅ Đa ngôn ngữ    | ✅ Đa ngôn ngữ        | ⚠️ Hạn chế     | ⚠️ Hạn chế      | ⚠️ Hạn chế      | ⚠️ Hạn chế           | 🇫🇷 Ưu tiên tiếng Pháp |
-| **Khu vực công**                   | ✅ Bắt buộc       | ✅ Bắt buộc           | ✅ Bắt buộc    | ✅ Bắt buộc     | ✅ Bắt buộc     | ✅ Bắt buộc          | ✅ Bắt buộc           |
-| **Khu vực tư**                     | ⚠️ Khác nhau      | ✅ Có (10+ nhân viên) | ⚠️ Hạn chế     | ✅ Khuyến khích | ⚠️ Khuyến khích | ✅ Dịch vụ thiết yếu | ✅ Có                 |
-| **Mức phạt tối đa**                | Tài trợ liên bang | €20M hoặc 4%          | Luật Công bằng | $20K AUD        | ¥200K (~$1.7K)  | ₩5M (~$4K)           | $30K CAD              |
+| Yêu cầu            | Hoa Kỳ          | EU (EAA)           | Anh          | Úc            | Nhật Bản       | Hàn Quốc              | Canada (QC)        |
+| ------------------ | --------------- | ------------------ | ------------ | ------------- | -------------- | --------------------- | ------------------ |
+| **Tiêu chuẩn**     | WCAG 2.1 AA     | EN 301 549         | WCAG 2.1 AA  | WCAG 2.1 AA   | WCAG 2.0 AA    | WCAG 2.1 AA           | Tiếng Pháp + WCAG  |
+| **Phụ đề**         | ✅ Bắt buộc     | ✅ Bắt buộc        | ✅ Bắt buộc  | ✅ Bắt buộc   | ✅ Khuyến khích | ✅ Bắt buộc           | ✅ Bắt buộc        |
+| **Trình đọc màn hình** | ✅ Có       | ✅ Có              | ✅ Có        | ✅ Có         | ✅ Có          | ✅ Có                 | ✅ Có              |
+| **Chuyển văn bản thành giọng nói** | ✅ Có | ✅ Có        | ✅ Có        | ✅ Có         | ✅ Có          | ✅ Có                 | ✅ Có              |
+| **Dịch thuật**     | ✅ Đa ngôn ngữ  | ✅ Đa ngôn ngữ     | ⚠️ Hạn chế   | ⚠️ Hạn chế    | ⚠️ Hạn chế     | ⚠️ Hạn chế            | 🇫🇷 Ưu tiên tiếng Pháp |
+| **Khu vực công**   | ✅ Bắt buộc     | ✅ Bắt buộc        | ✅ Bắt buộc  | ✅ Bắt buộc   | ✅ Bắt buộc    | ✅ Bắt buộc           | ✅ Bắt buộc        |
+| **Khu vực tư**     | ⚠️ Khác nhau    | ✅ Có (10+ nhân viên) | ⚠️ Hạn chế | ✅ Khuyến khích | ⚠️ Khuyến khích | ✅ Dịch vụ thiết yếu | ✅ Có              |
+| **Phạt tối đa**    | Tài trợ liên bang | €20M hoặc 4%     | Luật Công bằng | $20K AUD    | ¥200K (~$1.7K) | ₩5M (~$4K)           | $30K CAD           |
 
 </div>
 
@@ -367,7 +372,7 @@ head:
   <div class="timeline-item past">
     <div class="timeline-date">Tháng 6 năm 2025</div>
     <div class="timeline-content">
-      <strong>🇨🇦 Canada - Bill 96</strong>
+      <strong>🇨🇦 Canada - Dự luật 96</strong>
       <p>Hạn chót tuân thủ ngôn ngữ tiếng Pháp Quebec</p>
     </div>
   </div>
@@ -464,7 +469,7 @@ head:
 
 - Giám sát liên tục
 - Kiểm tra định kỳ
-- Cập nhật thông tin về thay đổi luật pháp
+- Cập nhật thay đổi luật pháp
 - Lặp lại và cải thiện
 
 </div>
@@ -473,13 +478,13 @@ head:
 
 ---
 
-## 💡 Các Nguyên Tắc Tuân Thủ Chính
+## 💡 Các nguyên tắc tuân thủ chính
 
 <div class="principles-grid">
 
 <div class="principle-card">
 
-### 🌐 Thiết Kế Phổ Quát
+### 🌐 Thiết kế toàn diện
 
 Thiết kế cho **tất cả** người dùng ngay từ đầu, không phải là suy nghĩ sau
 
@@ -487,7 +492,7 @@ Thiết kế cho **tất cả** người dùng ngay từ đầu, không phải l
 
 <div class="principle-card">
 
-### 🎨 Có Thể Nhận Thức
+### 🎨 Có thể nhận thức
 
 Nội dung phải có thể nhận thức được bằng tất cả các giác quan (thị giác, thính giác, xúc giác)
 
@@ -495,7 +500,7 @@ Nội dung phải có thể nhận thức được bằng tất cả các giác 
 
 <div class="principle-card">
 
-### ⚙️ Có Thể Vận Hành
+### ⚙️ Có thể vận hành
 
 Các thành phần giao diện phải có thể vận hành được bởi tất cả người dùng
 
@@ -503,7 +508,7 @@ Các thành phần giao diện phải có thể vận hành được bởi tất
 
 <div class="principle-card">
 
-### 📖 Dễ Hiểu
+### 📖 Dễ hiểu
 
 Thông tin phải rõ ràng và dễ hiểu
 
@@ -511,7 +516,7 @@ Thông tin phải rõ ràng và dễ hiểu
 
 <div class="principle-card">
 
-### 💪 Mạnh Mẽ
+### 💪 Mạnh mẽ
 
 Nội dung phải hoạt động với các công nghệ hiện tại và tương lai
 
@@ -519,7 +524,7 @@ Nội dung phải hoạt động với các công nghệ hiện tại và tươn
 
 <div class="principle-card">
 
-### 🌍 Bao Trùm
+### 🌍 Bao trùm
 
 Xem xét ngôn ngữ, văn hóa và khả năng đa dạng
 
@@ -555,9 +560,9 @@ Các công cụ tự động phát hiện ~30-40% vấn đề về khả năng t
 4. ❌ Thiếu phụ đề trên video
 5. ❌ PDF không thể tiếp cận
 6. ❌ Không có tùy chọn dịch ngôn ngữ
-7. ❌ Tuyên bố về khả năng tiếp cận lỗi thời
+7. ❌ Tuyên bố khả năng tiếp cận lỗi thời
 
-### Q: Chi phí tuân thủ là bao nhiêu?
+### Q: Chi phí tuân thủ là bao nhiều?
 
 Chi phí rất đa dạng:
 
@@ -576,21 +581,21 @@ Hậu quả bao gồm:
 - 🚫 Mất hợp đồng chính phủ
 - 📉 Thiệt hại danh tiếng
 - 🔒 Hạn chế hoạt động
-- 💸 Mất nguồn tài trợ liên bang/tiểu bang
+- 💸 Mất tài trợ liên bang/tiểu bang
 
 ### Q: Các overlay và widget có cung cấp sự tuân thủ không?
 
-⚠️ **Không.** Các widget overlay về khả năng tiếp cận (như accessiBe, UserWay) gây tranh cãi và KHÔNG đảm bảo sự tuân thủ. Nhiều nhóm vận động cho người khuyết tật tích cực phản đối chúng. Cần khắc phục thủ công mã và nội dung để có khả năng tiếp cận thực sự.
+⚠️ **Không.** Các widget overlay khả năng tiếp cận (như accessiBe, UserWay) gây tranh cãi và KHÔNG đảm bảo tuân thủ. Nhiều nhóm vận động cho người khuyết tật tích cực phản đối chúng. Cần khắc phục thủ công mã và nội dung để có khả năng tiếp cận thực sự.
 
-### Q: Làm thế nào để viết tuyên bố về khả năng tiếp cận?
+### Q: Làm thế nào để viết tuyên bố khả năng tiếp cận?
 
 Bao gồm:
 
 1. Cam kết về khả năng tiếp cận
 2. Tiêu chuẩn bạn tuân thủ (ví dụ: WCAG 2.1 AA)
 3. Hạn chế đã biết
-4. Thông tin liên hệ cho các vấn đề về khả năng tiếp cận
-5. Ngày đánh giá cuối cùng
+4. Thông tin liên hệ cho các vấn đề khả năng tiếp cận
+5. Ngày xem xét cuối cùng
 6. Cập nhật ít nhất hàng năm
 
 ---
@@ -649,10 +654,10 @@ Bao gồm:
 
 </div>
 
-</div>
+::: tip Ghi Nhớ
+Khả năng tiếp cận là một cam kết liên tục, không phải là một dự án một lần. Luật pháp phát triển, công nghệ thay đổi, và nhu cầu người dùng tăng trưởng. Xây dựng khả năng tiếp cận vào văn hóa và quy trình của bạn để thành công lâu dài.
 
-::: tip Ghi nhớ
-Khả năng tiếp cận là một cam kết liên tục, không phải là một dự án một lần. Luật pháp phát triển, công nghệ thay đổi, và nhu cầu người dùng tăng lên. Xây dựng khả năng tiếp cận vào văn hóa và quy trình của bạn để thành công lâu dài.
+**Cần hỗ trợ về tuân thủ?** [Liên hệ InterMIND](../../resources/company/contacts) để thảo luận về cách [nền tảng dịch thuật thời gian thực](../../product/overview/video-meeting-platform) của chúng tôi có thể giúp đáp ứng các yêu cầu về khả năng tiếp cận.
 :::
 
 <style scoped>

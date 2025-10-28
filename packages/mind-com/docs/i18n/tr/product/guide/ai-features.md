@@ -1,28 +1,28 @@
 ---
-title: "Yapay Zeka Özellikleri"
-description: "InterMIND'ın Sesli Asistan (Jarvis), gerçek zamanlı sesli çeviri ve toplantı notları ile özetler için Yapay Zeka Asistanı dahil olmak üzere yapay zeka destekli özelliklerini keşfedin."
+title: AI Özellikleri
+description: InterMIND'ın AI destekli özelliklerini keşfedin: Sesli Asistan (Jarvis), gerçek zamanlı sesli çeviri ve toplantı notları ile özetler için AI Asistanı.
 ---
 
-# Yapay Zeka Özellikleri
+# AI Özellikleri
 
-Bu bölüm, toplantılar sırasında kullanılabilen Sesli Asistan (Jarvis), Çevrimiçi Sesli Çeviri ve Yapay Zeka Asistanı'nın işlevlerini açıklamaktadır.
+Bu bölüm, toplantılar sırasında kullanılabilen Sesli Asistan (Jarvis), Çevrimiçi Sesli Çeviri ve AI Asistanı'nın işlevlerini açıklamaktadır.
 
-## Çevrimiçi Sesli Çeviri
+## Çevrimiçi Ses Çevirisi
 
-Bu işlevsellik, etkinleştiren katılımcılar için gerçek zamanlı çeviriler sağlar ve toplantıdaki diğer katılımcıların deneyiminin etkilenmemesini garanti eder. Ayrıca, kullanıcılar Ayarlar paneli aracılığıyla istediği anda çeviri dilini değiştirme esnekliğine sahiptir.
+Bu işlevsellik, etkinleştiren katılımcılar için gerçek zamanlı çeviriler sağlar ve toplantıdaki diğer katılımcıların deneyiminin etkilenmemesini garanti eder. Ayrıca, kullanıcılar Ayarlar paneli aracılığıyla çeviri dilini istediği zaman değiştirme esnekliğine sahiptir.
 
-Sesli çevirmen toplantıya girildiğinde otomatik olarak etkinleştirilir; ancak çeviri işlemi yalnızca katılımcıların arayüz ve çeviri dilleri farklıysa başlar. Tüm katılımcıların aynı dili seçtiği durumlarda çeviri yapılmaz.
+Ses çeviricisi toplantıya girildiğinde otomatik olarak etkinleşir; ancak çeviri işlemi yalnızca katılımcıların arayüz ve çeviri dilleri farklıysa başlar. Tüm katılımcıların aynı dili seçtiği durumlarda çeviri yapılmaz.
 
-Bir katılımcı arayüz ve çeviri dilini değiştirdiğinde, diğer tüm katılımcılar toplantı ayarlarında seçtikleri dilde çeviriyi duymaya başlarlar.
+Bir katılımcı arayüz ve çeviri dilini değiştirdiğinde, diğer tüm katılımcılar toplantı ayarlarında seçtikleri dilde çeviriyi duymaya başlar.
 
-Ek olarak, katılımcılar toplantı ayarları aracılığıyla diğer katılımcılardan gelen orijinal sesin seviyesini ayarlayabilir ve böylece yalnızca çeviriye odaklanabilirler.
+Ek olarak, katılımcılar toplantı ayarları aracılığıyla diğer katılımcılardan gelen orijinal sesin sesini ayarlama seçeneğine sahiptir ve bu sayede yalnızca çeviriye odaklanabilirler.
 
 ### Temel Özellikler
 
-- Seçilen dilde gerçek zamanlı sesli dublaj
+- Seçilen dilde gerçek zamanlı ses dublajı
 - Kişisel çeviri ayarları (diğer katılımcıları etkilemez)
-- Ayarlar paneli aracılığıyla istediği anda çeviri dilini değiştirme imkanı
-- Tüm katılımcı türleri için kullanılabilir (Ev Sahibi, Moderatör, Katılımcı, Misafir)
+- Ayarlar paneli aracılığıyla çeviri dilini istediği zaman değiştirme imkanı (bkz. [Toplantı Arayüzü](./meeting-interface))
+- Tüm katılımcı türleri için kullanılabilir (Ev Sahibi, Moderatör, Katılımcı, Misafir - [Kullanıcı Rolleri](./user-roles) hakkında daha fazla bilgi edinin)
 
 ### Nasıl Etkinleştirilir
 
@@ -49,22 +49,22 @@ AI Asistanı şunlarda yardımcı olabilir:
 - **Toplantı özetleri**
 - **Transkript aramaları**
 - **Sohbet içgörüleri**
-- **Eylem öğesi tanımlama**
+- **Eylem maddesi belirleme**
 - **Anahtar nokta çıkarma**
 
-### Yaygın İstemler
+### Yaygın Komutlar
 
-Kullanıcılar şu gibi istemler kullanabilir:
+Kullanıcılar şu gibi komutları kullanabilir:
 
 - "Son 10 dakikayı özetle"
 - "John bütçe hakkında ne dedi?"
-- "Bu toplantıdan çıkan ana eylem öğeleri neler?"
-- "Proje için son tarihi kim belirtti?"
+- "Bu toplantıdan çıkan ana eylem maddeleri neler?"
+- "Proje için son teslim tarihini kim belirtti?"
 
 ### Erişim Gereksinimleri
 
 > [!WARNING]
-> AI Asistanı yalnızca Ev Sahipleri, Moderatörler veya Katılımcılar dahil olmak üzere oturum açmış kullanıcılar tarafından kullanılabilir. Sohbette herkese açık olarak etkileşime girmez ve Misafir kullanıcılar tarafından erişilemez.
+> AI Asistanı yalnızca Ev Sahipleri, Moderatörler veya Katılımcılar dahil olmak üzere oturum açmış kullanıcılar tarafından kullanılabilir. Sohbette herkese açık olarak etkileşime girmez ve Misafir kullanıcılar tarafından erişilemez. [Kullanıcı Rolleri](./user-roles) hakkında daha fazla bilgi edinin.
 
 ### Gizlilik
 

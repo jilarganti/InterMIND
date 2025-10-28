@@ -1,11 +1,11 @@
 ---
-description: "Ingin bermitra dengan InterMind, berinvestasi, atau menghubungi tim eksekutif kami? Gunakan formulir ini untuk pertanyaan bisnis, permintaan media, atau masalah hukum."
+description: "Ingin bermitra dengan InterMind, berinvestasi, atau menghubungi tim eksekutif kami? Gunakan formulir ini untuk pertanyaan bisnis, permintaan media, atau urusan hukum."
 ---
 
-# 🤝 Ingin Menghubungi InterMind? Mari Terhubung.
+# 🤝 Ingin menghubungi InterMind? Mari terhubung.
 
 Gunakan formulir ini untuk menghubungi tim perusahaan kami secara langsung —  
-untuk kemitraan, investasi, media, kepatuhan, atau masalah bisnis lainnya.
+untuk kemitraan, investasi, media, kepatuhan, atau urusan bisnis lainnya.
 
 Kami akan memastikan pesan Anda sampai ke orang yang tepat.
 
@@ -24,7 +24,7 @@ Kami akan memastikan pesan Anda sampai ke orang yang tepat.
     'Diskusi investasi atau pendanaan',
     'Pertanyaan solusi enterprise',
     'Permintaan media & pers',
-    'Masalah hukum atau kepatuhan',
+    'Urusan hukum atau kepatuhan',
     'Laporan keamanan atau masalah',
     'Proposal pengembangan bisnis',
     'Pertanyaan bisnis umum'
@@ -35,3 +35,5 @@ Kami akan memastikan pesan Anda sampai ke orang yang tepat.
 
 > **Butuh bantuan terkait produk?**  
 > _Kunjungi [Halaman Dukungan](../help) kami untuk jawaban cepat dan bantuan dari tim InterMind._
+
+> **Ingin tahu lebih lanjut tentang kami?** Lihat [halaman tentang kami](./about), kenali [tim](./team), atau jelajahi [peluang karir](./careers).

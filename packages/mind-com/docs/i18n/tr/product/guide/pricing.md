@@ -1,11 +1,11 @@
 ---
-title: "Fiyatlandırma"
-description: "InterMIND planlarını karşılaştırın - Temel, Pro ve İşletme. Toplantı limitleri, katılımcı kapasitesi, AI özellikleri ve depolama seçenekleri ile doğru planı bulun."
+title: Fiyatlandırma
+description: InterMIND planlarını karşılaştırın - Temel, Pro ve İş. Toplantı limitleri, katılımcı kapasitesi, AI özellikleri ve depolama seçenekleri ile doğru planı bulun.
 ---
 
 # Fiyatlandırma
 
-Fiyatlandırma sayfası, mevcut tüm planların—Temel, Pro ve İşletme—net bir karşılaştırmasını sunarak kullanıcıların iletişim ihtiyaçları için en iyi seçeneği seçmelerine yardımcı olur. Fiyatlandırma, toplantı limitleri, katılımcı kapasitesi, depolama ve Ses Asistanı, AI Asistanı ve tercümanlık hizmetleri gibi premium özelliklere erişim hakkında ayrıntıları içerir.
+Fiyatlandırma sayfası, mevcut tüm planların—Temel, Pro ve İş—net bir karşılaştırmasını sunarak kullanıcıların iletişim ihtiyaçları için en iyi seçeneği seçmelerine yardımcı olur. Fiyatlandırma, toplantı limitleri, katılımcı kapasitesi, depolama ve Ses Asistanı, AI Asistanı ve çeviri hizmetleri gibi premium özelliklere erişim hakkında ayrıntıları içerir.
 
 ## Fiyatlandırma Sayfasına Erişim
 
@@ -16,7 +16,7 @@ Fiyatlandırma sayfası, mevcut tüm planların—Temel, Pro ve İşletme—net 
 
 ### Profil Sayfasından (Temel plan kullanıcıları için)
 
-- Profil > Profil sekmesine gidin
+- Profil > Profil sekmesine gidin (bkz. [Hesap Yönetimi](./account-management#user-profile))
 - Mevcut planınızın altında bulunan **Planı Yükselt** düğmesine tıklayın
 
 ### Sayfa Başlığından

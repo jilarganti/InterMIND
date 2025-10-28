@@ -1,11 +1,13 @@
 # Derrubando Barreiras Entre Culturas
 
-<img src="/resources/iStock-1492917260.jpg" alt="Dirham dos Emirados Árabes Unidos" width="500" align="right" style="padding: 1.5rem" class="dark-only">
+<img src="/resources/iStock-1492917260.jpg" alt="dirham dos Emirados Árabes Unidos" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/resources/iStock-1130023029.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
 Estamos construindo tecnologia que remove barreiras linguísticas entre pessoas. Nosso produto permite que pessoas de diferentes países falem sua língua nativa e se entendam naturalmente.
 
 Isso não é um tradutor. Este é um novo paradigma para comunicação global.
+
+Saiba mais sobre [o que estamos construindo](../../product/overview/what-is-intermind) e [como funciona](../../product/overview/how-it-works).
 
 ## Mostre Resultados, Não Credenciais
 
@@ -27,7 +29,7 @@ Estamos procurando pessoas que:
 
 ## O Que Estamos Construindo
 
-Uma plataforma que torna a fluência em idiomas estrangeiros opcional para o sucesso profissional. Imagine isso: um engenheiro japonês, um gerente alemão e um designer brasileiro discutindo um projeto—cada um falando sua língua nativa, todos entendendo perfeitamente.
+Uma plataforma que torna a fluência em idiomas estrangeiros opcional para o sucesso profissional. Imagine isto: um engenheiro japonês, um gerente alemão e um designer brasileiro discutindo um projeto—cada um falando sua língua nativa, todos entendendo perfeitamente.
 
 Não apenas traduzimos palavras—preservamos significado, tom, contexto cultural. Em tempo real. Sem atrasos. Com precisão de nível humano.
 
@@ -49,7 +51,7 @@ Não apenas traduzimos palavras—preservamos significado, tom, contexto cultura
 
 ### Designers que resolvem problemas humanos
 
-- UX para troca de idiomas sem interrupções
+- UX para alternância perfeita entre idiomas
 - Interfaces que funcionam em todas as culturas
 - Sistemas visuais que comunicam sem palavras
 - Soluções de produto para equipes globais
@@ -94,13 +96,15 @@ Não apenas traduzimos palavras—preservamos significado, tom, contexto cultura
 
 **Impacto global.** Seu trabalho mudará como a humanidade se comunica através das barreiras linguísticas.
 
+Conheça [nossa equipe](./team) e saiba mais sobre [nossos valores corporativos](./about).
+
 ## Junte-se a Nós
 
-Se você já construiu algo significativo e está pronto para construir tecnologia que muda o mundo—escreva para nós.
+Se você já construiu algo significativo e está pronto para desenvolver tecnologia que muda o mundo—escreva para nós.
 
 Mostre-nos o que você fez. Conte-nos o que você quer construir a seguir.
 
-<!-- **Contato:** careers@mind.com -->
+<!-- **Contact:** careers@mind.com -->
 
 <br>
 

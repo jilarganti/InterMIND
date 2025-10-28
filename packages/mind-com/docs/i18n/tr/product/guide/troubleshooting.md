@@ -1,11 +1,11 @@
 ---
-title: "Sorun Giderme"
-description: "Mikrofon, kamera, çevirmen, ekran paylaşımı ve kayıt ile ilgili yaygın InterMIND sorunlarını çözün. Sorunsuz çevrimiçi toplantılar için çözümler."
+title: Sorun giderme
+description: Mikrofon, kamera, çevirmen, ekran paylaşımı ve kayıt ile ilgili yaygın InterMIND sorunlarını çözün. Sorunsuz çevrimiçi toplantılar için çözümler.
 ---
 
-# Sorun Giderme
+# Sorun giderme
 
-Bu bölüm, çevrimiçi toplantılar sırasında karşılaşılan yaygın sorunlar için çözümler sunar; mikrofonlar, kameralar, toplantılara katılma, sesli asistanları kullanma, çevirmenler, ekran paylaşımı ve kayıt ile ilgili sorunları içerir. Her sorun için olası nedenleri açıklar ve bunları çözmek için pratik çözümler sunar, böylece daha sorunsuz bir çevrimiçi toplantı deneyimi sağlar.
+Bu bölüm, mikrofon, kamera, toplantılara katılma, sesli asistanları kullanma, çevirmenler, ekran paylaşımı ve kayıt ile ilgili sorunlar dahil olmak üzere çevrimiçi toplantılar sırasında karşılaşılan yaygın sorunlar için çözümler sunar. Her sorun için olası nedenleri açıklar ve bunları çözmek için pratik çözümler sunar, böylece daha sorunsuz bir çevrimiçi toplantı deneyimi sağlar. Ek yardım için [Yardım ve Destek](./help-support) bölümüne bakın.
 
 ## Mikrofon veya Kamera Çalışmıyor
 
@@ -64,12 +64,12 @@ Bu bölüm, çevrimiçi toplantılar sırasında karşılaşılan yaygın sorunl
 
 ### Yaygın Nedenler:
 
-- Ev sahibi/Moderatör sizi çıkardı
+- Moderatör/Yönetici sizi çıkardı
 - Ağ bağlantısı kesildi
 
 ### Çözümler:
 
-- Açıklama için Ev Sahibi veya Moderatör ile iletişime geçin
+- Açıklama için Moderatör veya Yönetici ile iletişime geçin
 
 ## Ekran Paylaşımı Çalışmıyor
 
@@ -102,7 +102,7 @@ Bu bölüm, çevrimiçi toplantılar sırasında karşılaşılan yaygın sorunl
 
 ### Çözümler:
 
-- Ana Bilgisayar ile izinleri doğrulayın
+- İzinleri Ana Bilgisayar ile doğrulayın
 
 > [!TIP]
-> Sorunları yaşamaya devam ediyorsanız, tarayıcınızın en son sürüme güncellendiğinden ve en az 2 Mbps hızında kararlı bir internet bağlantınızın olduğundan emin olun.
+> Sorunları yaşamaya devam ediyorsanız, tarayıcınızın en son sürüme güncellendiğinden ve en az 2 Mbps'lik kararlı bir internet bağlantınızın olduğundan emin olun. Uyumluluk bilgileri için [Getting Started](./getting-started#device--browser-compatibility) sayfasını kontrol edin veya [Help & Support](./help-support) ile iletişime geçin.

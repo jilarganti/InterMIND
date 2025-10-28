@@ -8,7 +8,6 @@ head:
   - - meta
     - name: keywords
       content: Software-Testing, Testing-Grundlagen, QA, manuelles Testen, automatisiertes Testen, Testarten
-
 ---
 
 # Software-Testing-Grundlagen: Vollständiger Leitfaden (2025)
@@ -20,14 +19,14 @@ head:
 
 ## Arten von Software-Tests
 
-Es gibt vier Hauptarten von Tests, die jeweils einem anderen Zweck im Entwicklungszyklus dienen:
+Es gibt vier Hauptarten von Tests, die jeweils unterschiedliche Zwecke im Entwicklungszyklus erfüllen:
 
-| Art                        | Was wir testen               | Wann                    | Ziel                           |
-| -------------------------- | ---------------------------- | ----------------------- | ------------------------------ |
-| **Unit Testing**           | Einzelne Funktionen/Methoden | Während der Entwicklung | Überprüfen, dass jeder Teil funktioniert |
-| **Integration Testing**    | Wie Module zusammenarbeiten  | Nach Unit Tests         | Verbindungen prüfen            |
-| **System Testing**         | Vollständige Anwendung       | Vor der Veröffentlichung | End-to-End-Validierung         |
-| **Acceptance Testing**     | Geschäftsanforderungen       | Abschlussstufe          | Bestätigen, dass es bereit ist |
+| Art                     | Was wir testen               | Wann               | Ziel                        |
+| ----------------------- | ---------------------------- | ------------------ | --------------------------- |
+| **Unit-Tests**          | Einzelne Funktionen/Methoden | Während Entwicklung | Überprüfung jedes Bausteins |
+| **Integrationstests**   | Wie Module zusammenarbeiten  | Nach Unit-Tests    | Verbindungen prüfen         |
+| **Systemtests**         | Vollständige Anwendung      | Vor Veröffentlichung | End-to-End-Validierung    |
+| **Akzeptanztests**      | Geschäftsanforderungen       | Abschlussstufe     | Bereitschaft bestätigen     |
 
 ## Der Testprozess
 
@@ -51,7 +50,7 @@ Software-Tests folgen einem klaren Arbeitsablauf von der Planung bis zur Veröff
   <div class="arrow">→</div>
   <div class="process-step">
     <div class="process-icon">🐛</div>
-    <div class="process-label">Berichten</div>
+    <div class="process-label">Melden</div>
   </div>
   <div class="arrow">→</div>
   <div class="process-step">
@@ -61,7 +60,7 @@ Software-Tests folgen einem klaren Arbeitsablauf von der Planung bis zur Veröff
   <div class="arrow">→</div>
   <div class="process-step">
     <div class="process-icon">✅</div>
-    <div class="process-label">Verifizieren</div>
+    <div class="process-label">Prüfen</div>
   </div>
 </div>
 
@@ -76,7 +75,7 @@ Beide Ansätze haben ihren Platz in einer Teststrategie:
 ### 👤 Manuelles Testen
 
 - Menschliche Tester erkunden die App
-- Großartig für UI/UX-Bewertung
+- Hervorragend für UI/UX-Bewertung
 - Perfekt für neue Features
 - Flexibel und kreativ
 - Langsamer bei sich wiederholenden Aufgaben
@@ -95,7 +94,7 @@ Beide Ansätze haben ihren Platz in einer Teststrategie:
 - Erfordert anfängliche Einrichtungszeit
 - Langfristig kosteneffektiv
 
-**Am besten für:** Regression, API-Testing, wiederholte Szenarien
+**Am besten für:** Regression, API-Tests, wiederholte Szenarien
 
 </div>
 
@@ -115,14 +114,14 @@ Eine ausgewogene Teststrategie folgt dieser Verteilung:
   <small>Mehr Unit Tests = schnelleres Feedback, geringere Kosten. Weniger UI Tests = weniger Wartungsaufwand.</small>
 </p>
 
-## Häufige Testbegriffe
+## Häufige Testing-Begriffe
 
 | Begriff                | Definition                                                                    |
 | ---------------------- | ----------------------------------------------------------------------------- |
 | **Testfall**           | Ein spezifisches Szenario zum Testen mit erwarteten Ergebnissen              |
 | **Bug/Defekt**         | Ein Fehler oder Mangel, der zu inkorrektem Verhalten führt                   |
 | **Regressionstests**   | Erneutes Testen, um sicherzustellen, dass neue Änderungen bestehende Funktionen nicht beeinträchtigen |
-| **Smoke Testing**      | Schnelle Grundtests zur Überprüfung, ob der Build stabil genug für tiefere Tests ist |
+| **Smoke Testing**      | Schnelle Basistests zur Überprüfung, ob der Build stabil genug für tiefere Tests ist |
 | **Testabdeckung**      | Prozentsatz des Codes, der durch Tests ausgeführt wird                       |
 
 ## Häufig gestellte Fragen
@@ -137,7 +136,7 @@ Testing bedeutet das Finden von Fehlern. QA (Quality Assurance) ist der umfassen
 
 ### F: Wie viel Testing ist genug?
 
-Es gibt keine perfekte Anzahl. Balancieren Sie Risiko, Zeit und Ressourcen. Kritische Funktionen benötigen mehr Tests; risikoarme Bereiche benötigen weniger.
+Es gibt keine perfekte Anzahl. Balancieren Sie Risiko, Zeit und Ressourcen aus. Kritische Funktionen benötigen mehr Tests; risikoarme Bereiche benötigen weniger.
 
 ### F: Kann KI Softwaretester ersetzen?
 

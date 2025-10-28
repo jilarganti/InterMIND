@@ -1,11 +1,11 @@
 ---
-title: "Khắc phục sự cố"
-description: "Khắc phục các vấn đề thường gặp của InterMIND với microphone, camera, trình dịch, chia sẻ màn hình và ghi âm. Giải pháp cho các cuộc họp trực tuyến mượt mà."
+title: Khắc phục sự cố
+description: Khắc phục các vấn đề thường gặp của InterMIND với microphone, camera, trình dịch, chia sẻ màn hình và ghi âm. Giải pháp cho các cuộc họp trực tuyến mượt mà.
 ---
 
 # Khắc phục sự cố
 
-Phần này cung cấp các giải pháp cho những vấn đề thường gặp trong các cuộc họp trực tuyến, bao gồm các vấn đề với microphone, camera, tham gia cuộc họp, sử dụng trợ lý giọng nói, trình dịch, chia sẻ màn hình và ghi âm. Nó nêu ra các nguyên nhân tiềm ẩn cho từng vấn đề và đưa ra các giải pháp thực tế để giải quyết chúng, đảm bảo trải nghiệm cuộc họp trực tuyến mượt mà hơn.
+Phần này cung cấp các giải pháp cho những vấn đề thường gặp trong các cuộc họp trực tuyến, bao gồm các vấn đề với microphone, camera, tham gia cuộc họp, sử dụng trợ lý giọng nói, trình dịch, chia sẻ màn hình và ghi âm. Nó nêu ra các nguyên nhân tiềm ẩn cho từng vấn đề và đưa ra các giải pháp thực tế để giải quyết chúng, đảm bảo trải nghiệm cuộc họp trực tuyến mượt mà hơn. Để được hỗ trợ thêm, xem [Help & Support](./help-support).
 
 ## Microphone hoặc Camera không hoạt động
 
@@ -18,10 +18,10 @@ Phần này cung cấp các giải pháp cho những vấn đề thường gặp
 ### Giải pháp:
 
 - Cho phép truy cập khi được nhắc
-- Điều hướng đến Settings > Microphone/Camera và chọn thiết bị chính xác
+- Điều hướng đến Cài đặt > Microphone/Camera và chọn thiết bị chính xác
 - Đóng các ứng dụng như Zoom, Skype, v.v.
 
-## Không Thể Tham Gia Cuộc Họp
+## Không thể tham gia cuộc họp
 
 ### Nguyên nhân:
 
@@ -29,7 +29,7 @@ Phần này cung cấp các giải pháp cho những vấn đề thường gặp
 
 ### Giải pháp:
 
-- Xác minh tính chính xác của liên kết và xác nhận với Người chủ trì
+- Xác minh tính chính xác của liên kết và xác nhận với người chủ trì
 - Làm mới trình duyệt của bạn và thử lại
 
 ## Trình dịch không hoạt động
@@ -51,13 +51,13 @@ Phần này cung cấp các giải pháp cho những vấn đề thường gặp
 
 ### Nguyên nhân phổ biến:
 
-- Microphone mở kết hợp với loa
+- Micro mở kết hợp với loa
 - Nhiều người dùng trong cùng một phòng
 
 ### Giải pháp:
 
 - Sử dụng tai nghe
-- Tắt tiếng các thiết bị/microphone khác
+- Tắt tiếng các thiết bị/micro khác
 - Người chủ trì/Người điều hành có thể tắt tiếng tất cả người tham gia
 
 ## "Bạn Đã Bị Loại Khỏi Cuộc Gọi"
@@ -82,7 +82,7 @@ Phần này cung cấp các giải pháp cho những vấn đề thường gặp
 - Sử dụng trình duyệt desktop
 - Trên macOS: bật ghi màn hình trong System Preferences > Security & Privacy
 
-## Chất lượng video hoặc âm thanh kém
+## Chất Lượng Video hoặc Audio Kém
 
 ### Nguyên nhân:
 
@@ -94,15 +94,15 @@ Phần này cung cấp các giải pháp cho những vấn đề thường gặp
 - Chuyển sang kết nối có dây hoặc Wi-Fi ổn định
 - Tắt camera của bạn hoặc camera của người khác nếu cần thiết
 
-## Không thể bắt đầu ghi âm
+## Không Thể Bắt Đầu Ghi Âm
 
-### Nguyên nhân phổ biến:
+### Nguyên Nhân Phổ Biến:
 
-- Người dùng không phải là Host hoặc Moderator
+- Người dùng không phải là Chủ phòng hoặc Người điều hành
 
-### Giải pháp:
+### Giải Pháp:
 
-- Xác minh quyền hạn với Host
+- Xác minh quyền hạn với Chủ phòng
 
 > [!TIP]
-> Nếu bạn tiếp tục gặp sự cố, hãy đảm bảo trình duyệt của bạn đã được cập nhật lên phiên bản mới nhất và bạn có kết nối internet ổn định ít nhất 2 Mbps.
+> Nếu bạn tiếp tục gặp sự cố, hãy đảm bảo trình duyệt của bạn đã được cập nhật lên phiên bản mới nhất và bạn có kết nối internet ổn định ít nhất 2 Mbps. Kiểm tra [Getting Started](./getting-started#device--browser-compatibility) để biết thông tin tương thích hoặc liên hệ [Help & Support](./help-support).

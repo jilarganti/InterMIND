@@ -11,7 +11,7 @@ head:
 
 ---
 
-# Fundamentos de las pruebas de software: guía completa (2025)
+# Conceptos básicos de pruebas de software: guía completa (2025)
 
 <p class="subtitle">Todo lo que necesitas saber para comenzar con las pruebas de software</p>
 
@@ -22,12 +22,12 @@ head:
 
 Existen cuatro tipos principales de pruebas, cada uno con un propósito diferente en el ciclo de vida del desarrollo:
 
-| Tipo                        | Qué probamos                    | Cuándo                      | Objetivo                        |
-| --------------------------- | ------------------------------- | --------------------------- | ------------------------------- |
-| **Pruebas unitarias**       | Funciones/métodos individuales  | Durante el desarrollo       | Verificar que cada parte funcione |
-| **Pruebas de integración**  | Cómo funcionan los módulos juntos | Después de pruebas unitarias | Verificar las conexiones       |
-| **Pruebas del sistema**     | Aplicación completa             | Antes del lanzamiento       | Validación de extremo a extremo |
-| **Pruebas de aceptación**   | Requisitos del negocio          | Etapa final                 | Confirmar que está listo       |
+| Tipo                        | Qué probamos                    | Cuándo                    | Objetivo                      |
+| --------------------------- | ------------------------------- | ------------------------- | ----------------------------- |
+| **Pruebas unitarias**       | Funciones/métodos individuales  | Durante el desarrollo     | Verificar que cada parte funcione |
+| **Pruebas de integración**  | Cómo funcionan los módulos juntos | Después de pruebas unitarias | Verificar las conexiones    |
+| **Pruebas del sistema**     | Aplicación completa             | Antes del lanzamiento     | Validación de extremo a extremo |
+| **Pruebas de aceptación**   | Requisitos del negocio          | Etapa final               | Confirmar que está listo      |
 
 ## El Proceso de Pruebas
 
@@ -101,29 +101,29 @@ Ambos enfoques tienen su lugar en una estrategia de pruebas:
 
 </div>
 
-## La pirámide de pruebas
+## La Pirámide de Pruebas
 
 Una estrategia de pruebas equilibrada sigue esta distribución:
 
 <div class="pyramid">
   <div class="pyramid-level level-ui">Pruebas UI/E2E (Menos)</div>
-  <div class="pyramid-level level-integration">Pruebas de integración (Más)</div>
-  <div class="pyramid-level level-unit">Pruebas unitarias (La mayoría)</div>
+  <div class="pyramid-level level-integration">Pruebas de Integración (Más)</div>
+  <div class="pyramid-level level-unit">Pruebas Unitarias (La mayoría)</div>
 </div>
 
 <p style="text-align: center; color: var(--vp-c-text-2); margin-top: 1em;">
   <small>Más pruebas unitarias = retroalimentación más rápida, menor costo. Menos pruebas UI = menos mantenimiento.</small>
 </p>
 
-## Términos comunes de testing
+## Términos Comunes de Pruebas
 
 | Término                | Definición                                                                    |
 | ---------------------- | ----------------------------------------------------------------------------- |
-| **Caso de prueba**     | Un escenario específico para probar con resultados esperados                 |
-| **Bug/Defecto**        | Un error o falla que causa un comportamiento incorrecto                      |
-| **Pruebas de regresión** | Re-testing para asegurar que los nuevos cambios no rompieron funciones existentes |
-| **Smoke testing**      | Pruebas básicas rápidas para verificar si la build es lo suficientemente estable para pruebas más profundas |
-| **Cobertura de pruebas** | Porcentaje de código que es ejecutado por las pruebas                      |
+| **Caso de Prueba**     | Un escenario específico para probar con resultados esperados                 |
+| **Error/Defecto**      | Un error o falla que causa un comportamiento incorrecto                      |
+| **Pruebas de Regresión** | Re-pruebas para asegurar que los nuevos cambios no rompieron funciones existentes |
+| **Pruebas de Humo**    | Pruebas básicas rápidas para verificar si la compilación es lo suficientemente estable para pruebas más profundas |
+| **Cobertura de Pruebas** | Porcentaje de código que es ejecutado por las pruebas                      |
 
 ## Preguntas Frecuentes
 

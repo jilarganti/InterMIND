@@ -1,6 +1,6 @@
 ---
-title: "Erste Schritte"
-description: "Erfahren Sie, wie Sie die KI-gestützte Videokonferenz-Plattform InterMIND nutzen. Vollständiger Leitfaden für Registrierung, Meeting-Erstellung, KI-Funktionen und Fehlerbehebung."
+title: Erste Schritte
+description: Erfahren Sie, wie Sie die KI-gestützte Videokonferenz-Plattform InterMIND nutzen. Vollständiger Leitfaden für Registrierung, Meeting-Erstellung, KI-Funktionen und Fehlerbehebung.
 ---
 
 # Erste Schritte
@@ -9,13 +9,13 @@ InterMIND ist eine fortschrittliche KI-gestützte Videokonferenz-Plattform, die 
 
 Ob Sie ein Anfänger sind, der detaillierte Anleitung sucht, oder ein erfahrener Teilnehmer, der komplexe Meetings leitet, dieser Leitfaden fasst alle notwendigen Informationen an einem zugänglichen Ort zusammen.
 
-In diesem Leitfaden werden Sie entdecken:
+In diesem Leitfaden finden Sie:
 
-- Anweisungen zur Registrierung, Anmeldung und Anpassung Ihres Profils
-- Richtlinien für die Erstellung und Planung von Meetings
-- Informationen zu Benutzerrollen, Berechtigungen und Echtzeit-Übersetzungsfunktionen
-- Eine Übersicht über KI-gestützte Funktionen wie den KI-Assistenten und Voice Translator
-- Tipps zur Fehlerbehebung und Antworten auf häufig gestellte Fragen
+- Anleitungen zur [Registrierung, Anmeldung und Anpassung Ihres Profils](./account-management)
+- Richtlinien für das [Erstellen und Planen von Meetings](./creating-meetings)
+- Informationen zu [Benutzerrollen](./user-roles), Berechtigungen und [Echtzeit-Übersetzungsfunktionen](./ai-features#online-voice-translation)
+- Eine Übersicht über [KI-gestützte Funktionen](./ai-features) wie den KI-Assistenten und Sprach-Übersetzer
+- [Tipps zur Fehlerbehebung](./troubleshooting) und Antworten auf [häufig gestellte Fragen](./faq)
 
 Lassen Sie uns beginnen — die Zukunft intelligenter Meetings beginnt jetzt.
 
@@ -24,16 +24,16 @@ Lassen Sie uns beginnen — die Zukunft intelligenter Meetings beginnt jetzt.
 Wenn Sie neu bei InterMIND sind, folgen Sie dieser einfachen Checkliste, um Ihre Erfahrung zu beginnen:
 
 1. Besuchen Sie https://intermind.com
-2. Klicken Sie auf Anmelden und wählen Sie Google / Microsoft / E-Mail
+2. Klicken Sie auf Anmelden und wählen Sie Google / Microsoft / E-Mail (erfahren Sie mehr unter [Kontoverwaltung](./account-management))
 3. Wenn Sie dazu aufgefordert werden, erlauben Sie den Zugriff auf Ihr Mikrofon und Ihre Kamera
-4. Klicken Sie auf Neues Meeting und wählen Sie Ein Sofortmeeting starten
+4. Klicken Sie auf Neues Meeting und wählen Sie Ein Sofortmeeting starten (siehe [Meetings erstellen und planen](./creating-meetings))
 5. Teilen Sie den Meeting-Link mit den Teilnehmern
 6. Öffnen Sie die Einstellungen, um Ihre bevorzugte Sprache und Geräte auszuwählen
-7. Verwenden Sie den KI-Assistenten, um Notizen zu machen und Zusammenfassungen während Ihres Anrufs zu erstellen
+7. Verwenden Sie den [AI Assistant](./ai-features#ai-assistant), um Notizen zu machen und Zusammenfassungen während Ihres Anrufs zu erstellen
 8. Greifen Sie über den Verlauf-Tab auf vorherige Meetings zu, um Aufzeichnungen und Transkripte zu erhalten
 
 > [!TIP]
-> Für die beste Leistung wird empfohlen, einen Chrome- oder Edge-Browser zu verwenden.
+> Für die beste Leistung wird empfohlen, einen Chrome- oder Edge-Browser zu verwenden. Wenn Sie Probleme haben, schauen Sie in unseren [Fehlerbehebung](./troubleshooting)-Leitfaden oder besuchen Sie [Hilfe & Support](./help-support).
 
 ## Unterstützte Sprachen
 
@@ -82,7 +82,7 @@ Benutzer können direkt über ihren Browser auf die Plattform zugreifen, ohne da
 1. Öffnen Sie Ihren Webbrowser
 2. Besuchen Sie https://intermind.com
 3. Melden Sie sich an oder treten Sie direkt als Gast über einen Meeting-Link bei
-4. Gewähren Sie Kamera- und Mikrofonberechtigungen, wenn Sie dazu aufgefordert werden
+4. Erteilen Sie Kamera- und Mikrofonberechtigungen, wenn Sie dazu aufgefordert werden
 
 > [!WARNING]
 > Einige erweiterte Funktionen, wie die Bildschirmfreigabe, können aufgrund von Systembeschränkungen auf bestimmte Browser beschränkt sein.
@@ -134,4 +134,4 @@ Für eine reibungslose Erfahrung:
 - Schließen Sie ungenutzte Tabs und Hintergrundanwendungen
 
 > [!INFO]
-> Das Aktualisieren Ihres Browsers ist für optimale Leistung unerlässlich.
+> Die Aktualisierung Ihres Browsers ist für optimale Leistung unerlässlich.

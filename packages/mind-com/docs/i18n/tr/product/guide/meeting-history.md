@@ -1,18 +1,18 @@
 ---
-title: "Toplantı Geçmişi"
-description: "InterMIND toplantı arşivinize kayıtlar, transkriptler, AI tarafından oluşturulan özetler ve yeniden kullanılabilir toplantı bağlantıları ile tek yerden erişin."
+title: Toplantı Geçmişi
+description: InterMIND toplantı arşivinize kayıtlar, transkriptler, AI tarafından oluşturulan özetler ve yeniden kullanılabilir toplantı bağlantıları ile tek yerden erişin.
 ---
 
 # Toplantı Geçmişi
 
-Toplantı Geçmişi sayfası, oturum açtığınız sırada ev sahipliği yaptığınız veya katıldığınız tüm toplantılar için kişisel bir arşiv işlevi görür. Kayıtlar, transkriptler, AI Asistanı tarafından oluşturulan özetler ve yeniden kullanılabilir toplantı bağlantılarına hızlı erişim sunar - hepsi tek bir kullanışlı konumda birleştirilmiştir.
+Toplantı Geçmişi sayfası, oturum açtığınız sırada düzenlediğiniz veya katıldığınız tüm toplantılar için kişisel bir arşiv işlevi görür. Kayıtlara, transkriptlere, AI Asistanı tarafından oluşturulan özetlere ve yeniden kullanılabilir toplantı bağlantılarına hızlı erişim sunar - hepsi tek bir kullanışlı konumda birleştirilmiştir.
 
 ## Toplantı Geçmişi sayfasına erişim
 
 Toplantı Geçmişi sayfasına üç kolay yöntemden biriyle erişebilirsiniz:
 
 - Sayfa başlığı menüsünde 'Sorun Bildir' simgesinin yanında bulunan 'Geçmiş' bağlantısına tıklayın
-- Alternatif olarak, sağ üst köşedeki avatar simgenize tıklayın ve açılır menüden **Geçmiş**'i seçin
+- Alternatif olarak, sağ üst köşedeki avatar simgenize tıklayın ve ardından açılır menüden **Geçmiş**'i seçin
 - Ayrıca doğrudan şu bağlantıya gidebilirsiniz: [https://intermind.com/history](https://intermind.com/history)
 
 ## Toplantı Listesi
@@ -20,7 +20,7 @@ Toplantı Geçmişi sayfasına üç kolay yöntemden biriyle erişebilirsiniz:
 Toplantı geçmişinizdeki her kayıt şunları içerir:
 
 - **Tarih** (Saat dahil)
-- **Oda ID**
+- **Oda ID'si**
 - **Süre**
 - **# Katılımcı Sayısı**
 - **Kayıt**
@@ -52,11 +52,11 @@ Bazı Eylem Düğmeleri sağ tarafta bulunan üç nokta menüsü altında gizli 
 
 #### Sil
 
-Bu eylem tıklandığında, kullanıcılar **Evet, sil** düğmesine tıklayarak silme işlemini onaylamaları veya **İptal** düğmesine tıklayarak işlemi iptal etmeleri için bir bildirim alacaklardır. Silinen toplantılar artık hiçbir katılımcı tarafından görülemeyecektir. Yalnızca Ev Sahipleri veya Moderatörler bir toplantıyı silme yetkisine sahiptir.
+Bu eylem tıklandığında, kullanıcılar **Evet, sil** düğmesine tıklayarak silme işlemini onaylamaları veya **İptal** düğmesine tıklayarak işlemi iptal etmeleri için bir bildirim alacaklardır. Silinen toplantılar artık hiçbir katılımcı tarafından görülemeyecektir. Yalnızca Ev Sahipleri veya Moderatörler bir toplantıyı silme yetkisine sahiptir (bkz. [Kullanıcı Rolleri](./user-roles)).
 
 #### Paylaş
 
-Kullanıcılar **Bağlantı panoya kopyalandı!** yazan bir açılır bildirim alacaklar ve bu bağlantıyı yetkili kullanıcılarla paylaşabileceklerdir.
+Kullanıcılar **Bağlantı panoya kopyalandı!** bildirimi içeren bir açılır pencere alacaklardır ve bu bağlantıyı yetkili kullanıcılarla paylaşabileceklerdir.
 
 #### Katıl
 
@@ -68,7 +68,7 @@ Her toplantı satırı içerikle ilgili sekmeler içerir:
 
 ### Katılımcılar
 
-Bu sekme, tüm katılımcıların listesini ve ilgili rollerini görüntüler.
+Bu sekme, tüm katılımcıların listesini ilgili rolleriyle birlikte görüntüler.
 
 ### Kayıt
 
@@ -86,9 +86,9 @@ Bu sekme, kullanıcılar arasındaki tüm sohbet iletişimlerini görüntüler.
 
 Bu, tüm sesli iletişimleri metin formatında kaydeden toplantı transkriptini açar. Ses Asistanı'ndan (Jarvis) gelen mesajlar da dahil edilir.
 
-### AI Asistanı
+### AI Asistan
 
-Bu, kullanıcıların AI Asistanı'ndan sohbet formatında toplantı özeti almalarını sağlar.
+Bu, kullanıcıların [AI Asistan](./ai-features#ai-assistant)'dan sohbet formatında toplantı özeti almalarını sağlar.
 
 > [!INFO]
 > Toplantı herhangi bir kayıt içermiyorsa, Toplantı Detayları sayfasında Kayıt sekmesi gizli olabilir.
@@ -100,4 +100,4 @@ Bu, kullanıcıların AI Asistanı'ndan sohbet formatında toplantı özeti alma
 - Misafir kullanıcılar ve anonim katılımcılar geçmiş sayfasına veya içeriğine erişemezler
 
 > [!TIP]
-> Önemli tartışmaları tekrar oynatmak, önemli notları almak ve özetler ile transkriptleri kullanarak eylem maddelerini takip etmek için Toplantı Geçmişi sayfasını kullanın—bu sayfa ekip dokümantasyonu, denetimler veya uyumluluk iş akışları için vazgeçilmez bir araç haline gelir.
+> Önemli tartışmaları tekrar izlemek, önemli notları almak ve özetler ile transkriptleri kullanarak eylem maddelerini takip etmek için Toplantı Geçmişi sayfasını kullanın—bu sayfa ekip dokümantasyonu, denetimler veya uyumluluk iş akışları için vazgeçilmez bir araç haline gelir.

@@ -14,6 +14,8 @@ head:
 > **Perbedaan Utama:**  
 > **Terjemahan** bekerja dengan teks tertulis. **Interpretasi** menangani bahasa lisan secara real-time.
 
+Pelajari lebih lanjut tentang [how InterMIND's AI interpretation works](./how-it-works) di platform kami.
+
 ## Perbandingan Cepat
 
 <div class="comparison-hero">
@@ -38,17 +40,17 @@ head:
     <ul class="hero-features">
       <li>Menangani ucapan</li>
       <li>Penyampaian instan</li>
-      <li>Tidak ada kesempatan kedua</li>
-      <li>Pertunjukan langsung</li>
+      <li>Tanpa kesempatan kedua</li>
+      <li>Performa langsung</li>
     </ul>
   </div>
 </div>
 
-## Penerjemahan: Kata Tertulis
+## Terjemahan: Kata Tertulis
 
 <div class="service-section">
 
-### Apa Itu Penerjemahan?
+### Apa Itu Terjemahan?
 
 Mengonversi konten tertulis dari satu bahasa ke bahasa lain sambil mempertahankan makna, nada, dan nuansa budaya. Contoh: dokumen, situs web, buku.
 
@@ -61,7 +63,7 @@ Mengonversi konten tertulis dari satu bahasa ke bahasa lain sambil mempertahanka
   </div>
   <div class="feature-box">
     <strong>🎯 Presisi Diperlukan</strong>
-    <p>Nol toleransi untuk kesalahan dalam konteks hukum/medis</p>
+    <p>Tidak mentolerir kesalahan dalam konteks hukum/medis</p>
   </div>
   <div class="feature-box">
     <strong>🌍 Adaptasi Budaya</strong>
@@ -73,13 +75,13 @@ Mengonversi konten tertulis dari satu bahasa ke bahasa lain sambil mempertahanka
   </div>
 </div>
 
-### Jenis Penerjemahan Umum
+### Jenis Terjemahan Umum
 
 | Jenis            | Contoh                           | Prioritas        |
 | ---------------- | -------------------------------- | ---------------- |
 | **Sastra**       | Buku, puisi, drama               | Suara artistik   |
 | **Teknis**       | Manual, spesifikasi              | Akurasi          |
-| **Hukum**        | Kontrak, paten                   | Nol ambiguitas   |
+| **Hukum**        | Kontrak, paten                   | Tanpa ambiguitas |
 | **Medis**        | Uji klinis, rekam medis pasien   | Keselamatan pasien |
 | **Pemasaran**    | Iklan, slogan, kampanye          | Dampak emosional |
 | **Lokalisasi**   | Situs web, perangkat lunak, aplikasi | Kesesuaian budaya |
@@ -106,7 +108,7 @@ Konversi lisan secara real-time dari bahasa yang diucapkan. Contoh: konferensi, 
     <p>Perhatian terbagi: mendengar, memproses, berbicara secara bersamaan</p>
   </div>
   <div class="feature-box">
-    <strong>🎤 Performa Publik</strong>
+    <strong>🎤 Penampilan Publik</strong>
     <p>Artikulasi jelas, percaya diri, stamina</p>
   </div>
   <div class="feature-box">
@@ -192,14 +194,14 @@ Konversi lisan secara real-time dari bahasa yang diucapkan. Contoh: konferensi, 
 <img src="/product/iStock-491618768.jpg" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/product/iStock-491618768.jpg"  width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-**Penerjemahan Mesin (MT)**
+**Machine Translation (MT)**
 
 - Google Translate, DeepL, GPT-4
-- Bagus untuk pemahaman umum, penggunaan informal
-- Memerlukan penyuntingan pasca-manusia secara profesional
+- Bagus untuk pemahaman garis besar, penggunaan informal
+- Memerlukan penyuntingan pasca-terjemahan oleh manusia secara profesional
 - Kesulitan dengan konteks dan nuansa
 
-**Alat CAT**
+**CAT Tools**
 
 - Memori terjemahan untuk konsistensi
 - Manajemen terminologi
@@ -218,9 +220,9 @@ Konversi lisan secara real-time dari bahasa yang diucapkan. Contoh: konferensi, 
 - Hemat biaya untuk acara besar
 - Masih tertantang oleh aksen, jargon
 
-**Solusi Hibrida**
+**Solusi Hybrid**
 
-- Draf pertama AI + penyempurnaan manusia
+- Draft pertama AI + penyempurnaan manusia
 - Mengurangi biaya, mempertahankan kualitas
 - Memungkinkan lebih banyak pasangan bahasa
 
@@ -273,11 +275,11 @@ Konversi lisan secara real-time dari bahasa yang diucapkan. Contoh: konferensi, 
 
 ### Sertifikasi ISO untuk Penerjemahan
 
-| Standar            | Yang Dicakup                     | Siapa yang Membutuhkan          |
-| ------------------ | -------------------------------- | ------------------------------- |
-| **ISO 17100:2015** | Persyaratan layanan penerjemahan | Agensi, departemen perusahaan   |
-| **ISO 18587:2017** | Pasca-editing terjemahan mesin   | Perusahaan yang menggunakan alur kerja MT |
-| **ISO 20771:2020** | Penerjemahan hukum               | Firma hukum, pengadilan, pemerintah |
+| Standar            | Cakupan                              | Siapa yang Membutuhkan              |
+| ------------------ | ------------------------------------ | ----------------------------------- |
+| **ISO 17100:2015** | Persyaratan layanan penerjemahan     | Agensi, departemen perusahaan       |
+| **ISO 18587:2017** | Pasca-editing terjemahan mesin       | Perusahaan yang menggunakan alur MT |
+| **ISO 20771:2020** | Penerjemahan hukum                   | Firma hukum, pengadilan, pemerintah |
 
 ### Sertifikasi untuk Interpretasi
 
@@ -319,15 +321,15 @@ Konversi lisan secara real-time dari bahasa yang diucapkan. Contoh: konferensi, 
 ## Mitos Umum yang Dibantah
 
 ::: danger Mitos: "Siapa pun yang bilingual bisa menerjemahkan atau menginterpretasi"
-**Kenyataan:** Layanan bahasa profesional memerlukan pelatihan bertahun-tahun, keterampilan khusus, dan keahlian subjek yang melampaui kelancaran sederhana.
+**Kenyataan:** Layanan bahasa profesional memerlukan pelatihan bertahun-tahun, keterampilan khusus, dan keahlian subjek yang melampaui sekadar kefasihan berbahasa.
 :::
 
 ::: danger Mitos: "Google Translate sudah cukup baik"
-**Kenyataan:** MT bekerja untuk pemahaman dasar, tetapi pengawasan manusia profesional sangat penting untuk akurasi, konteks, dan nuansa budaya.
+**Kenyataan:** MT berfungsi untuk pemahaman dasar, tetapi pengawasan manusia profesional sangat penting untuk akurasi, konteks, dan nuansa budaya.
 :::
 
 ::: danger Mitos: "Interpretasi hanyalah terjemahan lisan"
-**Kenyataan:** Interpretasi melibatkan proses kognitif yang kompleks, mediasi budaya, dan keputusan sepersekian detik yang jauh melampaui substitusi kata.
+**Kenyataan:** Interpretasi melibatkan proses kognitif yang kompleks, mediasi budaya, dan keputusan dalam hitungan detik yang jauh melampaui substitusi kata.
 :::
 
 ::: danger Mitos: "Otomatisasi penuh akan segera datang"
@@ -381,6 +383,8 @@ Untuk proyek kompleks—seperti konferensi internasional atau kasus hukum—Anda
 
 ::: tip Ingat
 Layanan bahasa berkualitas adalah investasi dalam komunikasi yang akurat, pemahaman budaya, dan membangun kepercayaan lintas bahasa. Pilih profesional bersertifikat dan berikan waktu serta sumber daya yang memadai untuk hasil terbaik.
+
+**Ingin merasakan interpretasi AI waktu nyata?** Coba [platform video InterMIND](./video-meeting-platform) atau pelajari lebih lanjut [tentang teknologi kami](./what-is-intermind).
 :::
 
 </div>

@@ -1,11 +1,11 @@
 ---
-title: "Tarification"
-description: "Comparez les forfaits InterMIND - Basic, Pro et Business. Trouvez le forfait adapté avec les limites de réunions, la capacité de participants, les fonctionnalités IA et les options de stockage."
+title: Tarifs
+description: Comparez les forfaits InterMIND - Basic, Pro et Business. Trouvez le forfait adapté avec les limites de réunions, la capacité de participants, les fonctionnalités IA et les options de stockage.
 ---
 
-# Tarification
+# Tarifs
 
-La page Tarification fournit une comparaison claire de tous les forfaits disponibles—Basic, Pro et Business—aidant les utilisateurs à choisir la meilleure option pour leurs besoins de communication. Elle inclut les détails sur la tarification, les limites de réunions, la capacité de participants, le stockage, et l\'accès aux fonctionnalités premium comme l\'Assistant Vocal, l\'Assistant IA, et les services d\'interprétation.
+La page Tarifs fournit une comparaison claire de tous les forfaits disponibles—Basic, Pro et Business—aidant les utilisateurs à choisir la meilleure option pour leurs besoins de communication. Elle inclut les détails sur les prix, les limites de réunions, la capacité de participants, le stockage, et l'accès aux fonctionnalités premium comme l'Assistant Vocal, l'Assistant IA, et les services d'interprétation.
 
 ## Accéder à la page de tarification
 
@@ -16,13 +16,13 @@ La page Tarification fournit une comparaison claire de tous les forfaits disponi
 
 ### Depuis la page de profil (pour les utilisateurs du plan Basic)
 
-- Naviguez vers Profil > onglet Profil
+- Naviguez vers Profil > onglet Profil (voir [Gestion de compte](./account-management#user-profile))
 - Cliquez sur le bouton **Mettre à niveau le plan** situé sous votre plan actuel
 
-### Depuis l'en-tête de la page
+### Depuis l'en-tête de page
 
 - Les utilisateurs autorisés doivent cliquer sur le lien **Tarification** situé à côté du lien Historique
-- Les utilisateurs non autorisés peuvent trouver le lien **Tarification** près de l'icône « Signaler un problème »
+- Les utilisateurs non autorisés peuvent trouver le lien **Tarification** près de l'icône 'Signaler un problème'
 
 ### URL directe
 
@@ -36,9 +36,9 @@ La page Tarification comprend trois niveaux :
 | ------------ | ----------------------------------------- | --------------------------------------------------------------------------- |
 | **Basic**    | Gratuit                                   | 25 réunions, 100 participants, 30 Go de stockage, interprétation limitée   |
 | **Pro**      | 25 $/mois (ou 20 $/mois facturé annuellement) | Réunions illimitées, 150 participants, 2 To de stockage, toutes les fonctionnalités IA |
-| **Business** | Personnalisé (Contacter les ventes)      | 500 participants, 5 To de stockage, collègue IA (alpha), fonctionnalités d\'entreprise |
+| **Business** | Personnalisé (Contacter les ventes)      | 500 participants, 5 To de stockage, collègue IA (alpha), fonctionnalités entreprise |
 
-### Autres points saillants
+### Autres points forts
 
 - Basculer entre **Mensuel** et **Annuel** active la tarification réduite pour le plan Pro
 - Le bouton **Plan actuel** indique quel plan est actif
@@ -57,13 +57,13 @@ La page Tarification comprend trois niveaux :
   - Pays/région
 - Stripe garantit un traitement sécurisé des paiements
 - Les utilisateurs ont également la possibilité de sauvegarder leurs détails de paiement via Link
-- Tous les enregistrements de facturation restent accessibles dans votre compte à des fins d\'audit et de reporting
-- Les factures et l\'historique des paiements sont téléchargeables à des fins comptables
+- Tous les enregistrements de facturation restent accessibles dans votre compte à des fins d'audit et de reporting
+- Les factures et l'historique des paiements sont téléchargeables à des fins comptables
 
 ## Notes importantes
 
-- Toutes les mises à niveau et rétrogradations de plan seront reflétées immédiatement
+- Toute mise à niveau ou rétrogradation de plan sera reflétée immédiatement
 - Les cycles de facturation et les quotas seront réinitialisés selon le plan sélectionné
 - Les quotas pour le nombre de réunions, de participants et de stockage par utilisateur seront appliqués en fonction du plan actif
-- Le dépassement de tout quota déclenchera une notification claire accompagnée d\'un bouton **Mettre à niveau le plan**
+- Le dépassement de tout quota déclenchera une notification claire accompagnée d'un bouton **Mettre à niveau le plan**
 - Les utilisateurs peuvent accéder à leur historique de paiement et à leurs factures dans la section Facturation

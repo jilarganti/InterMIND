@@ -1,6 +1,6 @@
 ---
-title: "Recursos de IA"
-description: "Descubra os recursos alimentados por IA do InterMIND, incluindo Assistente de Voz (Jarvis), tradução de voz em tempo real e Assistente de IA para anotações e resumos de reuniões."
+title: Recursos de IA
+description: Descubra os recursos alimentados por IA do InterMIND, incluindo Assistente de Voz (Jarvis), tradução de voz em tempo real e Assistente de IA para anotações e resumos de reuniões.
 ---
 
 # Recursos de IA
@@ -13,7 +13,7 @@ Esta funcionalidade fornece traduções em tempo real para participantes que a h
 
 O tradutor de voz é ativado automaticamente ao entrar em uma reunião; no entanto, o processo de tradução só começará se os idiomas da interface e tradução dos participantes diferirem. Em casos onde todos os participantes escolheram o mesmo idioma, nenhuma tradução ocorrerá.
 
-Uma vez que um participante altere seu idioma de interface e tradução, todos os outros participantes começarão a ouvir a tradução no idioma que selecionaram nas configurações da reunião.
+Uma vez que um participante altera seu idioma de interface e tradução, todos os outros participantes começarão a ouvir a tradução no idioma que selecionaram nas configurações da reunião.
 
 Adicionalmente, os participantes têm a opção de ajustar o volume do áudio original de outros participantes através das configurações da reunião, permitindo que se concentrem exclusivamente na tradução.
 
@@ -21,8 +21,8 @@ Adicionalmente, os participantes têm a opção de ajustar o volume do áudio or
 
 - Dublagem de voz em tempo real no idioma selecionado
 - Configurações de tradução pessoais (não afeta outros participantes)
-- Capacidade de alterar o idioma de tradução a qualquer momento através do painel de Configurações
-- Disponível para todos os tipos de participantes (Anfitrião, Moderador, Participante, Convidado)
+- Capacidade de alterar o idioma de tradução a qualquer momento através do painel de Configurações (veja [Interface da reunião](./meeting-interface))
+- Disponível para todos os tipos de participantes (Anfitrião, Moderador, Participante, Convidado - saiba mais sobre [Funções de usuário](./user-roles))
 
 ### Como habilitar
 
@@ -39,7 +39,7 @@ A tradução pode ser ativada por qualquer participante ajustando suas configura
 O Assistente de IA é acessível como uma interface de chat privada dentro das reuniões. Os usuários podem abrir o painel do Assistente de IA para interagir com o assistente em formato de texto, permitindo consultas relacionadas a:
 
 - Resumos de reuniões
-- Pesquisas de transcrições
+- Consultas de transcrições
 - Insights do chat
 
 ### Capacidades
@@ -47,7 +47,7 @@ O Assistente de IA é acessível como uma interface de chat privada dentro das r
 O Assistente de IA pode ajudar com:
 
 - **Resumos de reuniões**
-- **Pesquisas de transcrições**
+- **Consultas de transcrições**
 - **Insights do chat**
 - **Identificação de itens de ação**
 - **Extração de pontos-chave**
@@ -64,7 +64,7 @@ Os usuários podem utilizar comandos como:
 ### Requisitos de acesso
 
 > [!WARNING]
-> O Assistente de IA está disponível exclusivamente para usuários logados, incluindo Anfitriões, Moderadores ou Participantes. Ele não participa publicamente no chat e não é acessível para usuários Convidados.
+> O Assistente de IA está disponível exclusivamente para usuários logados, incluindo Anfitriões, Moderadores ou Participantes. Ele não participa publicamente no chat e não é acessível para usuários Convidados. Saiba mais sobre [Funções de usuário](./user-roles).
 
 ### Privacidade
 

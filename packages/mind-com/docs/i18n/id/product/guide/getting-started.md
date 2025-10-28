@@ -1,21 +1,21 @@
 ---
-title: "Memulai"
-description: "Pelajari cara menggunakan platform konferensi video bertenaga AI InterMIND. Panduan lengkap untuk registrasi, pembuatan meeting, fitur AI, dan pemecahan masalah."
+title: Memulai
+description: Pelajari cara menggunakan platform video konferensi bertenaga AI InterMIND. Panduan lengkap untuk registrasi, pembuatan meeting, fitur AI, dan pemecahan masalah.
 ---
 
 # Memulai
 
-InterMIND adalah platform konferensi video bertenaga AI canggih yang dirancang untuk memfasilitasi komunikasi yang lancar di berbagai bahasa, perangkat, dan tim. Panduan ini bertujuan untuk memberikan Anda pemahaman komprehensif tentang cara memanfaatkan semua fitur InterMIND secara efektif — mulai dari bergabung dalam meeting pertama Anda hingga mengonfigurasi alat AI dan mengatasi masalah teknis.
+InterMIND adalah platform video konferensi bertenaga AI canggih yang dirancang untuk memfasilitasi komunikasi yang lancar di berbagai bahasa, perangkat, dan tim. Panduan ini bertujuan untuk memberikan Anda pemahaman komprehensif tentang cara memanfaatkan semua fitur InterMIND secara efektif — mulai dari bergabung dalam meeting pertama Anda hingga mengonfigurasi alat AI dan mengatasi masalah teknis.
 
 Baik Anda pengguna pemula yang mencari panduan detail atau peserta berpengalaman yang mengawasi meeting kompleks, panduan ini mengkonsolidasikan semua informasi yang diperlukan dalam satu lokasi yang mudah diakses.
 
 Dalam panduan ini, Anda akan menemukan:
 
-- Instruksi tentang cara mendaftar, masuk, dan menyesuaikan profil Anda
-- Pedoman untuk membuat dan menjadwalkan meeting
-- Informasi mengenai peran pengguna, izin, dan kemampuan terjemahan real-time
-- Gambaran umum fitur bertenaga AI seperti AI Assistant dan Voice Translator
-- Tips pemecahan masalah dan jawaban atas pertanyaan yang sering diajukan
+- Instruksi tentang cara [mendaftar, masuk, dan menyesuaikan profil Anda](./account-management)
+- Panduan untuk [membuat dan menjadwalkan meeting](./creating-meetings)
+- Informasi mengenai [peran pengguna](./user-roles), izin, dan [kemampuan terjemahan real-time](./ai-features#online-voice-translation)
+- Gambaran umum [fitur bertenaga AI](./ai-features) seperti AI Assistant dan Voice Translator
+- [Tips pemecahan masalah](./troubleshooting) dan jawaban untuk [pertanyaan yang sering diajukan](./faq)
 
 Mari kita mulai — masa depan meeting cerdas akan dimulai sekarang.
 
@@ -24,16 +24,16 @@ Mari kita mulai — masa depan meeting cerdas akan dimulai sekarang.
 Jika Anda baru mengenal InterMIND, ikuti daftar periksa sederhana ini untuk memulai pengalaman Anda:
 
 1. Kunjungi https://intermind.com
-2. Klik Sign In dan pilih Google / Microsoft / Email
+2. Klik Masuk dan pilih Google / Microsoft / Email (pelajari lebih lanjut di [Manajemen Akun](./account-management))
 3. Ketika diminta, izinkan akses ke mikrofon dan kamera Anda
-4. Klik New Meeting dan pilih Start an Instant Meeting
-5. Bagikan tautan meeting dengan peserta
-6. Buka Settings untuk memilih bahasa dan perangkat yang Anda inginkan
-7. Gunakan AI Assistant untuk mencatat dan membuat ringkasan selama panggilan Anda
-8. Akses meeting sebelumnya melalui tab History untuk rekaman dan transkrip
+4. Klik Rapat Baru dan pilih Mulai Rapat Instan (lihat [Membuat dan Menjadwalkan Rapat](./creating-meetings))
+5. Bagikan tautan rapat dengan peserta
+6. Buka Pengaturan untuk memilih bahasa dan perangkat yang Anda inginkan
+7. Gunakan [Asisten AI](./ai-features#ai-assistant) untuk membuat catatan dan menghasilkan ringkasan selama panggilan Anda
+8. Akses rapat sebelumnya melalui tab Riwayat untuk rekaman dan transkrip
 
 > [!TIP]
-> Untuk performa terbaik, disarankan menggunakan browser Chrome atau Edge.
+> Untuk performa terbaik, disarankan menggunakan browser Chrome atau Edge. Jika Anda mengalami masalah, periksa panduan [Pemecahan Masalah](./troubleshooting) kami atau kunjungi [Bantuan & Dukungan](./help-support).
 
 ## Bahasa yang Didukung
 
@@ -68,20 +68,20 @@ InterMIND dirancang dengan cermat untuk memberikan aksesibilitas dan fleksibilit
 
 ### Dukungan Perangkat
 
-InterMIND dioptimalkan untuk penggunaan desktop dan mobile, memungkinkan pengguna untuk bergabung atau mengadakan rapat saat bepergian.
+InterMIND dioptimalkan untuk penggunaan desktop dan mobile, memungkinkan pengguna untuk bergabung atau mengadakan meeting saat bepergian.
 
 - Laptop dan tablet Windows
 - Laptop macOS
 - Smartphone dan tablet Android
 - Smartphone dan tablet iOS
 
-Pengguna dapat mengakses platform langsung melalui browser mereka tanpa perlu instalasi perangkat lunak apa pun.
+Pengguna dapat mengakses platform langsung melalui browser mereka tanpa perlu instalasi perangkat lunak apapun.
 
 ### Cara Mengakses
 
 1. Buka browser web Anda
 2. Kunjungi https://intermind.com
-3. Masuk atau bergabung dengan tautan rapat langsung sebagai tamu
+3. Masuk atau bergabung dengan link meeting langsung sebagai tamu
 4. Berikan izin kamera dan mikrofon saat diminta
 
 > [!WARNING]
@@ -89,7 +89,7 @@ Pengguna dapat mengakses platform langsung melalui browser mereka tanpa perlu in
 
 ### Kompatibilitas Browser
 
-InterMIND kompatibel dengan semua browser modern utama di berbagai platform. Tidak perlu menginstal ekstensi atau plugin apa pun.
+InterMIND kompatibel dengan semua browser modern utama di berbagai platform. Tidak perlu menginstal ekstensi atau plugin apapun.
 
 #### Browser yang Direkomendasikan
 

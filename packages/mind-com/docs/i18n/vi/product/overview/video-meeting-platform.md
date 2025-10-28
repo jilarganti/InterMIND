@@ -1,13 +1,15 @@
 ---
-title: "Nền tảng họp video"
-description: "Hội nghị truyền hình cấp doanh nghiệp với chất lượng HD, chia sẻ màn hình, ghi âm, trợ lý AI và các tính năng chuyên nghiệp cho cộng tác toàn cầu."
+title: Nền tảng họp video
+description: Hội nghị truyền hình cấp doanh nghiệp với chất lượng HD, chia sẻ màn hình, ghi âm, trợ lý AI và các tính năng chuyên nghiệp cho cộng tác toàn cầu.
 ---
 
 # Nền tảng họp video InterMind
 
-## Được Xây Dựng Cho Các Cuộc Họp Nghiêm Túc — Không Chỉ Là Trò Chuyện
+## Được xây dựng cho các cuộc họp nghiêm túc — không chỉ để trò chuyện
 
-InterMind không chỉ là một plugin hay công cụ nhẹ thông thường — đây là một nền tảng họp video đầy đủ tính năng, cấp doanh nghiệp được thiết kế cho giao tiếp chuyên nghiệp, cộng tác quan trọng và hoạt động quy mô toàn cầu.
+InterMind không chỉ là một plugin hay công cụ nhẹ thông thường — đây là một nền tảng họp video đầy đủ tính năng, cấp doanh nghiệp được thiết kế cho giao tiếp chuyên nghiệp, cộng tác có tầm quan trọng cao và hoạt động quy mô toàn cầu.
+
+Khám phá [cách AI dịch thuật của chúng tôi hoạt động](./how-it-works) và xem nơi nó tạo ra [tác động lớn nhất](./markets).
 
 <video autoplay muted playsinline style="margin-top: 24px" class="light-only">
   <source src="/video-meeting-platform-1d.mp4" type="video/mp4">
@@ -22,7 +24,7 @@ InterMind không chỉ là một plugin hay công cụ nhẹ thông thường �
   :features="[
     {
       title: '🎥 Video độ nét cao 1080p',
-      details: 'Tất cả cuộc họp được phát trực tuyến với **độ nét cao Full HD 1080p** và hình ảnh cực kỳ rõ nét cho mọi người tham gia.',
+      details: 'Tất cả cuộc họp được phát trực tuyến ở **độ phân giải Full HD 1080p** với hình ảnh cực kỳ rõ nét cho mọi người tham gia.',
       items: [
         'Tuyệt vời cho các buổi thuyết trình với nhà đầu tư, demo sản phẩm, hoặc thảo luận pháp lý',
         'Giảm mệt mỏi nhận thức do video bị vỡ hạt hoặc chất lượng thấp',
@@ -35,7 +37,7 @@ InterMind không chỉ là một plugin hay công cụ nhẹ thông thường �
     },
     {
       title: '🔇 Khử tiếng ồn thông minh',
-      details: 'Công nghệ khử tiếng ồn được hỗ trợ bởi AI lọc bỏ các âm thanh nền — tiếng gõ phím, tiếng xe cộ, tiếng vọng, hoặc tiếng nói chuyện xa.',
+      details: 'Công nghệ khử tiếng ồn được hỗ trợ bởi AI lọc bỏ âm thanh nền — tiếng gõ phím, tiếng xe cộ, tiếng vọng, hoặc tiếng nói chuyện xa.',
       items: [
         'Giữ cho cuộc họp chuyên nghiệp và tập trung',
         'Hoạt động tự động mà không cần điều khiển thủ công',
@@ -51,7 +53,7 @@ InterMind không chỉ là một plugin hay công cụ nhẹ thông thường �
       details: '**Phụ đề thời gian thực** tùy chọn bằng nhiều ngôn ngữ để tăng cường khả năng tiếp cận.',
       items: [
         'Hỗ trợ người dùng khiếm thính',
-        'Giúp làm rõ lời nói kỹ thuật hoặc có giọng địa phương',
+        'Giúp làm rõ lời nói chuyên môn hoặc có giọng địa phương',
         'Đồng bộ với giọng nói của người thuyết trình theo thời gian thực'
       ],
       images: {
@@ -131,7 +133,7 @@ InterMind không chỉ là một plugin hay công cụ nhẹ thông thường �
       items: [
         'Tùy chọn chat công khai và riêng tư',
         'Lý tưởng cho câu hỏi phụ, tài nguyên chia sẻ hoặc hỏi đáp thầm lặng',
-        'Tất cả lịch sử chat có thể được xuất sau cuộc họp'
+        'Toàn bộ lịch sử chat có thể được xuất sau cuộc họp'
       ],
       images: {
         light: '/chat.png',
@@ -140,7 +142,7 @@ InterMind không chỉ là một plugin hay công cụ nhẹ thông thường �
     },
     {
       title: '🧑‍⚖️ Công cụ kiểm duyệt chuyên nghiệp',
-      details: 'Tổ chức cuộc họp một cách tự tin với **các điều khiển kiểm duyệt** tích hợp.',
+      details: 'Tổ chức cuộc họp một cách tự tin với **các điều khiển kiểm duyệt** tích hợp sẵn.',
       items: [
         'Tắt/bật tiếng người tham gia',
         'Kiểm soát chia sẻ màn hình và quyền truy cập camera',

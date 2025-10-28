@@ -1,13 +1,13 @@
 ---
-title: "Kontoverwaltung"
-description: "Registrieren Sie sich und verwalten Sie Ihr InterMIND-Konto. Erfahren Sie, wie Sie sich mit Google, Microsoft oder E-Mail registrieren, Profileinstellungen aktualisieren und die Sicherheit verwalten."
+title: Kontoverwaltung
+description: Registrieren Sie sich und verwalten Sie Ihr InterMIND-Konto. Erfahren Sie, wie Sie sich mit Google, Microsoft oder E-Mail registrieren, Profileinstellungen aktualisieren und die Sicherheit verwalten.
 ---
 
 # Kontoverwaltung
 
 ## Registrierung
 
-Die Erstellung eines Kontos kann über drei Methoden erfolgen: durch die Nutzung Ihrer Google- oder Microsoft-Konten oder durch die Registrierung mit einer externen E-Mail-Adresse.
+Die Erstellung eines Kontos kann über drei Methoden erfolgen: über Ihre Google- oder Microsoft-Konten oder durch Registrierung mit einer externen E-Mail-Adresse. Für eine vollständige Übersicht siehe unseren [Erste Schritte](./getting-started) Leitfaden.
 
 1. Besuchen Sie zunächst [https://intermind.com](https://intermind.com)
 2. Klicken Sie auf die Schaltfläche **Anmelden** in der oberen rechten Ecke der Startseite
@@ -33,7 +33,7 @@ Diese Methode ist für einen effizienten Zugang über ein Google-Konto empfehlen
 
 ### Registrierung mit Microsoft-Konto
 
-Diese Methode ist für einen schnellen Zugang über ein Microsoft-Konto empfehlenswert. Die optimale Erfahrung kann durch die Nutzung des Microsoft Edge-Browsers erreicht werden.
+Diese Methode ist empfehlenswert, um schnellen Zugang über ein Microsoft-Konto zu erhalten. Die optimale Erfahrung kann durch die Verwendung des Microsoft Edge-Browsers erreicht werden.
 
 1. Klicken Sie auf die Schaltfläche **Microsoft**
 2. Ein Pop-up-Fenster erscheint und fordert Sie auf, Ihr Microsoft-Konto auszuwählen
@@ -60,7 +60,7 @@ Verwenden Sie diese Methode, wenn Sie kein Google-Konto haben oder sich lieber m
    - **Nachname**
 
 > [!TIP]
-> Um eine optimale Kontosicherheit zu gewährleisten, erstellen Sie bitte ein Passwort, das die oben aufgeführten komplexen Anforderungen erfüllt.
+> Um optimale Kontosicherheit zu gewährleisten, erstellen Sie bitte ein Passwort, das die oben aufgeführten komplexen Anforderungen erfüllt.
 
 3. Nach dem Ausfüllen des Formulars klicken Sie auf die Schaltfläche **Registrieren**
 4. Nach erfolgreicher Registrierung erhalten Sie eine E-Mail-Bestätigungsnachricht in Ihrem Posteingang. Nach der Bestätigung können Sie sich mit Ihrer E-Mail und Ihrem Passwort anmelden, um auf die Funktionen von InterMIND zuzugreifen
@@ -76,11 +76,11 @@ Wenn Sie Ihr Passwort vergessen haben, befolgen Sie diese Schritte:
 5. Befolgen Sie die Anweisungen in der E-Mail, um ein neues Passwort zu erstellen
 
 > [!TIP]
-> Wenn Sie die E-Mail nicht erhalten, überprüfen Sie Ihren Spam-Ordner oder wenden Sie sich an den Support.
+> Wenn Sie die E-Mail nicht erhalten, überprüfen Sie Ihren Spam-Ordner oder kontaktieren Sie den Support.
 
 ## Anmelden
 
-Nach der Erstellung Ihres InterMIND-Kontos haben Sie jederzeit die Möglichkeit, sich anzumelden. Dies ermöglicht es Ihnen, Meetings zu veranstalten oder daran teilzunehmen, Einstellungen zu verwalten, auf KI-Funktionen zuzugreifen und vorherige Meetings samt deren Transkripte zu überprüfen. Darüber hinaus kann der KI-Assistent innerhalb der Meeting-Historie genutzt werden.
+Nach der Erstellung Ihres InterMIND-Kontos haben Sie jederzeit die Möglichkeit, sich anzumelden. Dies ermöglicht es Ihnen, Meetings zu veranstalten oder daran teilzunehmen, Einstellungen zu verwalten, auf KI-Funktionen zuzugreifen und vorherige Meetings samt deren Transkripte zu überprüfen. Darüber hinaus kann der KI-Assistent innerhalb der Meeting-Historie genutzt werden. Erfahren Sie mehr über das [Erstellen und Planen von Meetings](./creating-meetings).
 
 ### Zugriff auf die Anmeldeseite
 
@@ -117,11 +117,11 @@ Wenn Sie Ihr Konto mit einer externen E-Mail-Adresse erstellt haben:
 5. Nach Abschluss der Autorisierung werden Sie direkt zur InterMIND-Hauptseite weitergeleitet
 
 > [!WARNING]
-> Wählen Sie „Angemeldet bleiben" nur auf vertrauenswürdigen Geräten aus, um unbefugten Zugriff zu verhindern.
+> Wählen Sie "Angemeldet bleiben" nur auf vertrauenswürdigen Geräten aus, um unbefugten Zugriff zu verhindern.
 
 ## Benutzerprofil
 
-Die Benutzerprofil-Seite in InterMIND bietet Benutzern die Möglichkeit, ihre persönlichen Einstellungen anzuzeigen und anzupassen, Gerätepräferenzen zu verwalten, Kommunikationsoptionen festzulegen und wichtige Kontoaktionen auszuführen, einschließlich der Kontolöschung.
+Die Benutzerprofil-Seite in InterMIND bietet Benutzern die Möglichkeit, ihre persönlichen Einstellungen einzusehen und anzupassen, Gerätepräferenzen zu verwalten, Kommunikationsoptionen festzulegen und wichtige Kontoaktionen durchzuführen, einschließlich der Kontolöschung.
 
 ### Zugriff auf die Benutzerprofil-Seite
 
@@ -143,13 +143,13 @@ Die Profilseite ist in vier Hauptregisterkarten unterteilt:
 **Benutzerinformationen**
 
 - Zeigt den Benutzer-Avatar, den Anzeigenamen (z.B. John Smith) und die registrierte E-Mail-Adresse an
-- Der Anzeigename kann mit dem Stift-Symbol bearbeitet werden
+- Der Anzeigename kann über das Stift-Symbol bearbeitet werden
 
 **Aktueller Plan**
 
-- Zeigt den aktiven Abonnementtyp (z.B. Basic, Pro) und dessen Gültigkeitsdauer an
-- Basic-Benutzer sehen eine Schaltfläche **Plan upgraden**
-- Pro-Benutzer sehen eine Schaltfläche **Abonnement kündigen**
+- Zeigt den aktiven Abonnementtyp (z.B. Basic, Pro) und dessen Gültigkeitsdauer
+- Basic-Benutzer sehen eine **Plan upgraden**-Schaltfläche (erfahren Sie mehr über [Preise](./pricing))
+- Pro-Benutzer sehen eine **Abonnement kündigen**-Schaltfläche
 
 **Kommunikationspräferenzen**
 
@@ -157,7 +157,7 @@ Die Profilseite ist in vier Hauptregisterkarten unterteilt:
 - **Werbeaktionen**: Erhalten Sie Sonderangebote und Werbeinhalte
 
 > [!TIP]
-> Beide Optionen können mit Kontrollkästchen umgeschaltet werden.
+> Beide Optionen können über Kontrollkästchen umgeschaltet werden.
 
 #### Abrechnung
 
@@ -200,7 +200,7 @@ Dieser Bereich gewährleistet vollständige Transparenz und Nachverfolgbarkeit f
 Zugänglich über die Registerkarte Einstellungen in der linken Seitenleiste. Diese Registerkarte ermöglicht es Benutzern, Geräte- und Meeting-Präferenzen zu konfigurieren.
 
 **Geräte**
-Wählen Sie Mikrofon, Lautsprecher und Kamera aus, schalten Sie Hintergrundunschärfe um.
+Mikrofon, Lautsprecher und Kamera auswählen, Hintergrundunschärfe umschalten.
 
 - **Mikrofon**: Bevorzugtes Eingabegerät auswählen
 - **Lautsprecher**: Bevorzugtes Ausgabegerät auswählen
@@ -208,16 +208,16 @@ Wählen Sie Mikrofon, Lautsprecher und Kamera aus, schalten Sie Hintergrundunsch
 - **Hintergrundunschärfe**: Visuelle Hintergrundmaskierung aktivieren oder deaktivieren
 
 **Übersetzung**
-Wählen Sie die Standard-Übersetzungssprache und passen Sie die ursprüngliche Stimmlautstärke an.
+Standard-Übersetzungssprache wählen und ursprüngliche Stimmlautstärke anpassen.
 
 - **Zielsprache**: Standard-Übersetzungsausgabe und Oberflächensprache auswählen
-- **Ursprüngliche Lautstärke**: Hintergrund-Stimmlautstärke anpassen, während übersetztes Audio abgespielt wird
+- **Ursprüngliche Lautstärke**: Hintergrundstimmlautstärke anpassen, während übersetztes Audio abgespielt wird
 
 **Sonstiges**
-Legen Sie das Standard-Layout (z.B. Seitenleiste), den Assistenten-Anbieter und die automatische Verlassen-Option fest, wenn Sie allein sind.
+Standard-Layout (z.B. Seitenleiste), Assistenten-Anbieter und automatische Verlassen-Option bei Alleinsein festlegen.
 
 - **Layout**: Anzeigelayout wählen (z.B. Seitenleiste, Raster)
-- **Anruf automatisch verlassen, wenn allein**: Automatische Trennung aktivieren/deaktivieren
+- **Anruf automatisch verlassen wenn allein**: Automatische Trennung aktivieren/deaktivieren
 
 > [!TIP]
 > Änderungen werden automatisch gespeichert und gelten für alle zukünftigen Meetings.
@@ -229,8 +229,8 @@ Zugänglich über die Registerkarte Erweitert in der linken Seitenleiste. Dieser
 **Konto löschen**
 
 1. Klicken Sie auf die Schaltfläche **Konto löschen**
-2. Bestätigen Sie die Eingabeaufforderung (Hinweis: Diese Aktion ist unwiderruflich)
-3. Ihre Daten, Ihr Verlauf und Ihre Präferenzen werden dauerhaft gelöscht
+2. Bestätigen Sie die Eingabeaufforderung (Hinweis: diese Aktion ist unwiderruflich)
+3. Ihre Daten, Verlauf und Präferenzen werden dauerhaft gelöscht
 
 > [!DANGER]
 > Gelöschte Konten können nicht wiederhergestellt werden. Ihr Name wird in Meeting-Aufzeichnungen als Gelöschter Benutzer angezeigt.

@@ -1,15 +1,15 @@
 ---
-title: "Crear y programar reuniones"
-description: "Aprende cómo crear reuniones instantáneas, programar en Google Calendar y generar enlaces de reunión reutilizables en la plataforma de videoconferencias InterMIND."
+title: Crear y programar reuniones
+description: Aprende cómo crear reuniones instantáneas, programar en Google Calendar y generar enlaces de reunión reutilizables en la plataforma de videoconferencias InterMIND.
 ---
 
 # Crear y programar reuniones
 
-Al iniciar sesión en InterMIND, los usuarios pueden crear y programar reuniones de manera conveniente directamente desde la interfaz principal haciendo clic en el botón **Nueva reunión**.
+Al iniciar sesión en InterMIND (consulta [Gestión de cuenta](./account-management)), los usuarios pueden crear y programar reuniones de manera conveniente directamente desde la interfaz principal haciendo clic en el botón **Nueva reunión**.
 
 ## Acceder a las opciones de reunión
 
-En la pantalla de inicio, localiza el botón azul prominente **Nueva reunión** situado en el centro de la página. Al hacer clic en este botón se desplegará un menú con tres opciones distintas:
+En la pantalla de inicio, localiza el botón azul prominente **Nueva Reunión** situado en el centro de la página. Al hacer clic en este botón se desplegará un menú con tres opciones distintas:
 
 1. Crear una reunión para más tarde
 2. Iniciar una reunión instantánea
@@ -39,7 +39,7 @@ Esta opción permite a los usuarios iniciar una sesión de reunión en vivo de i
 1. Haz clic en el botón **Nueva reunión**
 2. Selecciona la opción **Iniciar una reunión instantánea**
 3. Una sala de reuniones se abrirá instantáneamente en la pestaña actual
-4. Automáticamente asumirás el rol de Anfitrión
+4. Automáticamente asumirás el rol de Anfitrión (conoce más sobre [User Roles](./user-roles))
 5. Utiliza la opción 'Copiar enlace' ubicada en la esquina inferior izquierda, o copia el enlace desde la barra de direcciones del navegador
 6. Comparte el enlace con otros participantes
 
@@ -67,4 +67,4 @@ Programa una reunión futura e intégrala sin problemas en tu Google Calendar.
 
 Tan pronto como la reunión esté programada y si Google Calendar está conectado a InterMIND, esta reunión aparecerá en la página principal de InterMIND en la sección de reuniones programadas.
 
-Además, tan pronto como los participantes invitados acepten la invitación a la reunión, aparecerá en su página principal de InterMIND en la sección de reuniones programadas, siempre que estén autorizados y tengan habilitada la sincronización con Google Calendar.
+Además, tan pronto como los participantes invitados acepten la invitación a la reunión, aparecerá en su página principal de InterMIND en la sección de reuniones programadas, siempre que estén autorizados y tengan habilitada la sincronización con Google Calendar. Después de que termine la reunión, estará disponible en [Historial de Reuniones](./meeting-history).

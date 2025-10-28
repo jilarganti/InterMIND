@@ -17,13 +17,13 @@ Wir sorgen dafür, dass Ihre Nachricht die richtige Person erreicht.
   categoryLabel="Was ist Ihr Grund für die Kontaktaufnahme? *"
   categoryPlaceholderText="Wählen Sie Ihr Thema..."
   messageLabel="Nachricht *"
-  messagePlaceholderText="Teilen Sie relevante Hintergrundinformationen, Zeitpläne oder Kontext mit, den wir berücksichtigen sollen."
+  messagePlaceholderText="Teilen Sie relevante Hintergrundinformationen, Zeitpläne oder Kontext mit, die wir berücksichtigen sollen."
   buttonText="Nachricht senden"  
   :services="[
     'Strategische Partnerschaftsmöglichkeit',
     'Investment- oder Finanzierungsgespräch',
     'Anfrage zu Unternehmenslösungen',
-    'Medien- & Presseanfrage',
+    'Medien- und Presseanfrage',
     'Rechtliche oder Compliance-Angelegenheit',
     'Sicherheitsbedenken oder Meldung',
     'Geschäftsentwicklungsvorschlag',
@@ -35,3 +35,5 @@ Wir sorgen dafür, dass Ihre Nachricht die richtige Person erreicht.
 
 > **Benötigen Sie produktbezogene Hilfe?**  
 > _Besuchen Sie unsere [Support-Seite](../help) für schnelle Antworten und Unterstützung vom InterMind-Team._
+
+> **Möchten Sie mehr über uns erfahren?** Schauen Sie sich unsere [Über uns-Seite](./about) an, lernen Sie [das Team](./team) kennen oder erkunden Sie [Karrieremöglichkeiten](./careers).

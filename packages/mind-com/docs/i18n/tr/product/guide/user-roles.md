@@ -1,15 +1,15 @@
 ---
-title: "Kullanıcı Rolleri"
-description: "InterMIND kullanıcı rollerini anlayın - Ana Bilgisayar, Moderatör, Katılımcı ve Misafir. Her rol için izinler ve yetenekler hakkında bilgi edinin."
+title: Kullanıcı rolleri
+description: InterMIND kullanıcı rollerini anlayın - Ana Bilgisayar, Moderatör, Katılımcı ve Misafir. Her rol için izinler ve yetenekler hakkında bilgi edinin.
 ---
 
-# Kullanıcı Rolleri
+# Kullanıcı rolleri
 
 InterMIND, güvenli, işbirlikçi ve uyarlanabilir toplantı deneyimlerini geliştirmek için titizlikle tasarlanmış dört farklı kullanıcı rolü tanımlar. Ana Bilgisayar rolü en yüksek yetki düzeyine sahipken, diğer roller değişen düzeylerde etkileşim sunar.
 
 ## Ev Sahibi
 
-Ev Sahibi toplantıyı başlatmaktan sorumludur ve kapsamlı yönetici ayrıcalıklarına sahiptir.
+Ev Sahibi toplantıyı başlatmaktan sorumludur ve kapsamlı yönetici ayrıcalıklarına sahiptir. [Toplantı oluşturma](./creating-meetings) hakkında bilgi edinin.
 
 **Temel Yetenekler:**
 
@@ -20,9 +20,9 @@ Ev Sahibi toplantıyı başlatmaktan sorumludur ve kapsamlı yönetici ayrıcal�
   - Bu, Moderatör tarafından başlatılan tüm kayıtları kapsar
 - Herhangi bir katılımcıyı aramadan çıkarma
 - Misafirleri kabul etme veya reddetme
-- Toplantı geçmişine erişim
-- Herhangi bir AI özelliğini kullanma
-- Kişisel ayarları, düzeni, bulanıklaştırmayı ve görünüm seçeneklerini ayarlama
+- [Toplantı geçmişine](./meeting-history) erişim
+- Herhangi bir [AI özelliğini](./ai-features) kullanma
+- Kişisel ayarları, düzeni, bulanıklaştırmayı ve görünüm seçeneklerini ayarlama ([Toplantı Arayüzü](./meeting-interface) bölümüne bakın)
 
 ## Moderatör
 
@@ -35,10 +35,10 @@ Moderatörler, oturumu etkili bir şekilde yönetmeye yardımcı olmak için Ana
   - Bu, Ana Bilgisayar tarafından başlatılan tüm kayıtları içerir
 - Konukları kabul etme veya reddetme
 - Ana Bilgisayar hariç herhangi bir katılımcıyı aramadan çıkarma
-- Çevrimiçi Ses Çevirmenini kullanma ve dil değiştirme (kendi sesleri için)
-- AI Asistanını kullanma (kendi görünümleri için)
+- [Online Voice Translator](./ai-features#online-voice-translation) kullanma ve dil değiştirme (kendi sesleri için)
+- [AI Assistant](./ai-features#ai-assistant) kullanma (kendi görünümleri için)
 - Sohbete katılma, el kaldırma veya indirme
-- Transkriptlere ve toplantı geçmişine erişim
+- Transkriptlere ve [meeting history](./meeting-history) erişim
 - Diğer moderatörleri yükseltme veya düşürme
 
 ## Katılımcı (Yetkili Kullanıcı)
@@ -50,10 +50,10 @@ Yetkili katılımcılar, özel ayrıcalıkları olmadan toplantıya katılan otu
 - Kendi mikrofonlarını sessize alma veya açma
 - Kendi kameralarını etkinleştirme veya devre dışı bırakma
 - Ekranlarını paylaşma (masaüstü tarayıcısı)
-- AI Asistanını kullanma (kendi görünümleri için)
-- Çevrimiçi Ses Çevirmenini kullanma ve dil değiştirme (kendi sesleri için)
+- [AI Asistanı](./ai-features#ai-assistant) kullanma (kendi görünümleri için)
+- [Çevrimiçi Sesli Çevirmen](./ai-features#online-voice-translation) kullanma ve dil değiştirme (kendi sesleri için)
 - Kişisel düzen ve ayarları değiştirme
-- Sohbet, el kaldırma, transkriptler ve toplantı geçmişine erişim
+- Sohbet, el kaldırma, transkriptler ve [toplantı geçmişi](./meeting-history) erişimi
 
 ## Misafir (Anonim Kullanıcı)
 
@@ -63,7 +63,7 @@ Misafirler, toplantıya giriş yapmadan katılan kullanıcılardır.
 
 - Kendi mikrofonlarını ve kameralarını kullanabilme
 - Ekranlarını paylaşabilme (masaüstü tarayıcısı)
-- Çevrimiçi Ses Çevirmenini kullanabilme ve dil değiştirebilme (kendi sesleri için)
+- [Çevrimiçi Ses Çevirmenini](./ai-features#online-voice-translation) kullanabilme ve dil değiştirebilme (kendi sesleri için)
 - Düzen ve görüntüleme seçeneklerini kullanabilme (yalnızca kişisel)
 - Sohbete katılabilme ve el kaldırabilme
 
@@ -74,11 +74,11 @@ Misafirler, toplantıya giriş yapmadan katılan kullanıcılardır.
 
 | Özellik                        | Sunucu | Moderatör | Katılımcı | Misafir |
 | ------------------------------ | ------ | --------- | --------- | ------- |
-| Toplantı Başlatma              | ✅     | ❌        | ❌        | ❌      |
-| Herhangi Bir Katılımcıyı Susturma | ✅  | ✅        | ❌        | ❌      |
-| Herhangi Bir Katılımcının Sesini Açma | ❌ | ❌     | ❌        | ❌      |
-| Kendi Mikrofonunu Susturma/Açma | ✅    | ✅        | ✅        | ✅      |
-| Kendi Kamerasını Etkinleştirme/Devre Dışı Bırakma | ✅ | ✅ | ✅ | ✅ |
+| Toplantı Başlatma             | ✅     | ❌        | ❌        | ❌      |
+| Herhangi Bir Katılımcıyı Susturma | ✅     | ✅        | ❌        | ❌      |
+| Herhangi Bir Katılımcının Sesini Açma | ❌     | ❌        | ❌        | ❌      |
+| Kendi Mikrofonunu Susturma/Açma | ✅     | ✅        | ✅        | ✅      |
+| Kendi Kamerasını Etkinleştirme/Devre Dışı Bırakma | ✅     | ✅        | ✅        | ✅      |
 | Kayıt Başlatma/Durdurma        | ✅     | ✅        | ❌        | ❌      |
 | Ekran Paylaşımı (Masaüstü)     | ✅     | ✅        | ✅        | ✅      |
 | AI Asistanı Kullanma           | ✅     | ✅        | ✅        | ❌      |
@@ -86,7 +86,7 @@ Misafirler, toplantıya giriş yapmadan katılan kullanıcılardır.
 | Çeviri Dilini Değiştirme       | ✅     | ✅        | ✅        | ✅      |
 | El Kaldırma / İndirme          | ✅/✅  | ✅/✅     | ✅/❌     | ✅/❌   |
 | Düzen / Ayarları Değiştirme    | ✅     | ✅        | ✅        | ✅      |
-| Arka Plan Bulanıklığını Etkinleştirme/Devre Dışı Bırakma | ✅ | ✅ | ✅ | ✅ |
+| Arka Plan Bulanıklığını Etkinleştirme/Devre Dışı Bırakma | ✅     | ✅        | ✅        | ✅      |
 | Misafir Kabul Etme/Reddetme    | ✅     | ✅        | ❌        | ❌      |
 | Toplantı Geçmişine Erişim      | ✅     | ✅        | ✅        | ❌      |
 | Katılımcıları Çıkarma          | ✅     | ✅        | ❌        | ❌      |

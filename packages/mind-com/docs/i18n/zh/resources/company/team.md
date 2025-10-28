@@ -1,6 +1,8 @@
 # 在 Mind.com，人类引领，AI 赋能
 
-我们将创意、代码和理解融为一体，彻底消除语言障碍。
+我们将创造力、代码和理解融为一体，彻底消除语言障碍。
+
+了解更多[关于我们的使命](./about)，探索[我们的技术如何运作](../../product/overview/how-it-works)。
 
 ## 人员团队
 
@@ -59,7 +61,7 @@
   },
   {
     name: 'ChatGPT',
-    desc: '以细致入微和记忆进行解释',
+    desc: '以细致入微的方式解读并记忆',
     country: 'USA',
     avatarLink: 'streamline-logos:openai-logo',
     links: [
@@ -76,3 +78,5 @@
     ]
   },
 ]" />
+
+> **想要加入我们吗？** 查看我们的[职业机会](./careers)或了解更多关于[我们正在构建的产品](../../product/overview/what-is-intermind)。

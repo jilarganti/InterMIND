@@ -1,11 +1,11 @@
 ---
-title: "Hilfe & Support"
-description: "Erhalten Sie Hilfe mit InterMIND. Melden Sie Probleme, schlagen Sie Funktionen vor und kontaktieren Sie unser Support-Team über das integrierte Feedback-Formular."
+title: Hilfe & Support
+description: Erhalten Sie Hilfe mit InterMIND. Melden Sie Probleme, schlagen Sie Funktionen vor und kontaktieren Sie unser Support-Team über das integrierte Feedback-Formular.
 ---
 
 # Hilfe & Support
 
-Sollten Sie auf Probleme stoßen oder eine Funktionsanfrage haben, zögern Sie nicht, das InterMIND-Team direkt über das integrierte Feedback-Formular zu kontaktieren. Diese Funktion ist schnell und benutzerfreundlich und ermöglicht es uns, InterMIND für alle zu verbessern.
+Sollten Sie auf Probleme stoßen oder eine Funktionsanfrage haben, zögern Sie nicht, das InterMIND-Team direkt über das integrierte Feedback-Formular zu kontaktieren. Diese Funktion ist schnell und benutzerfreundlich und ermöglicht es uns, InterMIND für alle zu verbessern. Bei häufigen Problemen schauen Sie zuerst in unseren [Troubleshooting](./troubleshooting)-Leitfaden.
 
 ## So senden Sie Feedback:
 

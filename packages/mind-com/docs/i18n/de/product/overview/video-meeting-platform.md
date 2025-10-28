@@ -1,6 +1,6 @@
 ---
-title: "Video-Meeting-Plattform"
-description: "Professionelle Videokonferenzen in HD-Qualität mit Bildschirmfreigabe, Aufzeichnung, KI-Assistent und erweiterten Funktionen für globale Zusammenarbeit."
+title: Video-Meeting-Plattform
+description: Professionelle Videokonferenzen in HD-Qualität mit Bildschirmfreigabe, Aufzeichnung, KI-Assistent und professionellen Funktionen für globale Zusammenarbeit.
 ---
 
 # InterMind Video-Meeting-Plattform
@@ -8,6 +8,8 @@ description: "Professionelle Videokonferenzen in HD-Qualität mit Bildschirmfrei
 ## Entwickelt für ernsthafte Meetings — nicht nur zum Reden
 
 InterMind ist nicht nur ein weiteres Plugin oder leichtgewichtiges Tool — es ist eine vollwertige, unternehmenstaugliche Video-Meeting-Plattform, die für professionelle Kommunikation, kritische Zusammenarbeit und globale Operationen entwickelt wurde.
+
+Entdecken Sie [how our AI translation works](./how-it-works) und sehen Sie, wo es den [biggest impact](./markets) erzielt.
 
 <video autoplay muted playsinline style="margin-top: 24px" class="light-only">
   <source src="/video-meeting-platform-1d.mp4" type="video/mp4">
@@ -24,8 +26,8 @@ InterMind ist nicht nur ein weiteres Plugin oder leichtgewichtiges Tool — es i
       title: '🎥 1080p High-Definition Video',
       details: 'Alle Meetings werden in **Full HD 1080p** gestreamt mit kristallklaren Bildern für jeden Teilnehmer.',
       items: [
-        'Ideal für Investoren-Präsentationen, Produktdemos oder rechtliche Diskussionen',
-        'Reduziert kognitive Ermüdung durch pixelige oder minderwertige Videos',
+        'Ideal für Investor-Präsentationen, Produktdemos oder rechtliche Diskussionen',
+        'Reduziert kognitive Ermüdung durch pixelige oder minderwertige Videoqualität',
         'Verbessert Vertrauen und Engagement in virtuellen Umgebungen'
       ],
       images: {
@@ -116,7 +118,7 @@ InterMind ist nicht nur ein weiteres Plugin oder leichtgewichtiges Tool — es i
       title: '🖥️ Bildschirmfreigabe',
       details: 'Teilen Sie ganz einfach Ihren gesamten Bildschirm, ein Anwendungsfenster oder einen Browser-Tab — keine Installation erforderlich.',
       items: [
-        'Kommentieren während Live-Präsentationen',
+        'Annotationen während Live-Präsentationen',
         'Zeigen Sie Tabellen, Folien oder Software-Tools in Echtzeit',
         'Unterstützt Präsentatoren mit mehreren Bildschirmen'
       ],
@@ -154,7 +156,7 @@ InterMind ist nicht nur ein weiteres Plugin oder leichtgewichtiges Tool — es i
   ]"
 />
 
-## Unternehmensbereit
+## Unternehmenstauglich
 
 <FeatureCards
   :features="[
@@ -175,7 +177,7 @@ InterMind ist nicht nur ein weiteres Plugin oder leichtgewichtiges Tool — es i
       title: '🔒 Sicher & skalierbar',
       details: 'Unternehmenssicherheit mit verschlüsselten Verbindungen.',
       items: [
-        'Passwortgeschützte Meetings und sicherer Cloud-Speicher',
+        'Passwortgeschützte Meetings und sichere Cloud-Speicherung',
         'Entwickelt für kritische Zusammenarbeit',
         'Konform mit Industriestandards'
       ],

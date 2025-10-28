@@ -1,11 +1,11 @@
 ---
-title: "Besprechungsverlauf"
-description: "Greifen Sie auf Ihr InterMIND-Besprechungsarchiv mit Aufzeichnungen, Transkripten, KI-generierten Zusammenfassungen und wiederverwendbaren Besprechungslinks an einem Ort zu."
+title: Meeting-Verlauf
+description: Greifen Sie auf Ihr InterMIND Meeting-Archiv mit Aufzeichnungen, Transkripten, KI-generierten Zusammenfassungen und wiederverwendbaren Meeting-Links an einem Ort zu.
 ---
 
-# Besprechungsverlauf
+# Meeting-Verlauf
 
-Die Besprechungsverlauf-Seite fungiert als persönliches Archiv für alle Besprechungen, die Sie gehostet oder an denen Sie teilgenommen haben, während Sie angemeldet waren. Sie bietet schnellen Zugriff auf Aufzeichnungen, Transkripte, von der KI-Assistentin generierte Zusammenfassungen und wiederverwendbare Besprechungslinks - alles an einem praktischen Ort zusammengefasst.
+Die Meeting-Verlauf-Seite fungiert als persönliches Archiv für alle Meetings, die Sie gehostet oder an denen Sie teilgenommen haben, während Sie angemeldet waren. Sie bietet schnellen Zugriff auf Aufzeichnungen, Transkripte, von der KI-Assistentin generierte Zusammenfassungen und wiederverwendbare Meeting-Links - alles an einem praktischen Ort zusammengefasst.
 
 ## Zugriff auf die Besprechungsverlauf-Seite
 
@@ -22,7 +22,7 @@ Jeder Eintrag in Ihrem Besprechungsverlauf umfasst:
 - **Datum** (einschließlich Uhrzeit)
 - **Raum-ID**
 - **Dauer**
-- **# Pax (Teilnehmer)**
+- **# Teilnehmer**
 - **Aufzeichnung**
 - **Titel**
 - **Aktionen**
@@ -30,7 +30,7 @@ Jeder Eintrag in Ihrem Besprechungsverlauf umfasst:
   - Teilen
   - Beitreten
 
-## Such- und Aktionsschaltflächen
+## Such- & Aktionsschaltflächen
 
 Um eine effiziente Verwaltung Ihrer vergangenen Meetings zu ermöglichen, enthält die Verlaufsseite:
 
@@ -46,13 +46,13 @@ Durch Klicken auf den Raum-ID-Link wird die Liste so organisiert, dass nur Meeti
 
 Durch Klicken hierauf öffnet sich ein Dropdown-Menü mit allen Teilnehmern.
 
-Einige Aktionsschaltflächen sind unter dem Drei-Punkte-Menü auf der rechten Seite versteckt.
+Einige Aktionsschaltflächen befinden sich versteckt unter dem Drei-Punkte-Menü auf der rechten Seite.
 
 ### Verfügbare Aktionen
 
 #### Löschen
 
-Wenn diese Aktion angeklickt wird, erhalten Benutzer eine Benachrichtigung, die sie auffordert, das Löschen durch Klicken auf die Schaltfläche **Ja, löschen** zu bestätigen oder den Vorgang durch Klicken auf die Schaltfläche **Abbrechen** abzubrechen. Gelöschte Meetings sind für alle Teilnehmer nicht mehr sichtbar. Nur Hosts oder Moderatoren haben die Berechtigung, ein Meeting zu löschen.
+Wenn diese Aktion angeklickt wird, erhalten Benutzer eine Benachrichtigung, die sie auffordert, das Löschen durch Klicken auf die Schaltfläche **Ja, löschen** zu bestätigen oder den Vorgang durch Klicken auf die Schaltfläche **Abbrechen** abzubrechen. Gelöschte Meetings sind für alle Teilnehmer nicht mehr sichtbar. Nur Hosts oder Moderatoren besitzen die Berechtigung, ein Meeting zu löschen (siehe [User Roles](./user-roles)).
 
 #### Teilen
 
@@ -72,7 +72,7 @@ Diese Registerkarte zeigt eine Liste aller Teilnehmer zusammen mit ihren jeweili
 
 ### Aufzeichnung
 
-Dies öffnet einen integrierten Media-Player zur Wiedergabe der Meeting-Aufzeichnung. Benutzer können die Wiedergabe starten oder stoppen, Audio stumm schalten oder die Stummschaltung aufheben und die Aufzeichnung im Vollbildmodus anzeigen. Durch Klicken auf die drei Punkte öffnet sich ein zusätzliches Menü mit den folgenden Optionen:
+Dies öffnet einen integrierten Media-Player zur Wiedergabe der Meeting-Aufzeichnung. Benutzer können die Wiedergabe starten oder stoppen, Audio stumm schalten oder die Stummschaltung aufheben und die Aufzeichnung im Vollbildmodus anzeigen. Ein Klick auf die drei Punkte öffnet ein zusätzliches Menü mit den folgenden Optionen:
 
 - **Download**: Dies startet den Download der spezifischen Meeting-Aufzeichnung
 - **Wiedergabegeschwindigkeit**: Benutzer können Wiedergabegeschwindigkeiten von 0,25x bis 2x auswählen
@@ -88,7 +88,7 @@ Dies öffnet das Meeting-Transkript, das alle Sprachkommunikationen in Textforma
 
 ### KI-Assistent
 
-Dies ermöglicht es Benutzern, eine Meeting-Zusammenfassung vom KI-Assistenten im Chat-Format zu erhalten.
+Dies ermöglicht es Benutzern, eine Meeting-Zusammenfassung vom [KI-Assistenten](./ai-features#ai-assistant) im Chat-Format zu erhalten.
 
 > [!INFO]
 > Die Registerkarte "Aufzeichnung" kann auf der Meeting-Details-Seite ausgeblendet sein, wenn das Meeting keine Aufzeichnungen enthält.
@@ -100,4 +100,4 @@ Dies ermöglicht es Benutzern, eine Meeting-Zusammenfassung vom KI-Assistenten i
 - Gastbenutzer und anonyme Teilnehmer haben keinen Zugriff auf die Verlaufsseite oder deren Inhalte
 
 > [!TIP]
-> Nutzen Sie die Besprechungsverlauf-Seite, um wichtige Diskussionen zu wiederholen, wichtige Notizen abzurufen und Aktionspunkte mithilfe von Zusammenfassungen und Transkripten zu verfolgen—was sie zu einem unverzichtbaren Werkzeug für Teamdokumentation, Audits oder Compliance-Workflows macht.
+> Nutzen Sie die Besprechungsverlauf-Seite, um wichtige Diskussionen zu wiederholen, wichtige Notizen abzurufen und Aktionspunkte mithilfe von Zusammenfassungen und Transkripten zu verfolgen—dies macht sie zu einem unverzichtbaren Werkzeug für Teamdokumentation, Audits oder Compliance-Workflows.

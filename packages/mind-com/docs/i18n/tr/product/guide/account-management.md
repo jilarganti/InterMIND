@@ -1,13 +1,13 @@
 ---
-title: "Hesap Yönetimi"
-description: "InterMIND hesabınıza kaydolun ve yönetin. Google, Microsoft veya e-posta ile nasıl kayıt olacağınızı, profil ayarlarını nasıl güncelleyeceğinizi ve güvenliği nasıl yöneteceğinizi öğrenin."
+title: Hesap Yönetimi
+description: InterMIND hesabınıza kaydolun ve yönetin. Google, Microsoft veya e-posta ile nasıl kayıt olacağınızı, profil ayarlarını nasıl güncelleyeceğinizi ve güvenliği nasıl yöneteceğinizi öğrenin.
 ---
 
 # Hesap Yönetimi
 
 ## Kayıt Ol
 
-Hesap oluşturma işlemi üç yöntemle gerçekleştirilebilir: Google veya Microsoft Hesaplarınızı kullanarak veya Harici E-posta Adresi ile kayıt olarak.
+Hesap oluşturma işlemi üç yöntemle gerçekleştirilebilir: Google veya Microsoft Hesaplarınızı kullanarak veya Harici E-posta Adresi ile kayıt olarak. Kapsamlı bir genel bakış için [Başlangıç](./getting-started) kılavuzumuza bakın.
 
 1. Başlamak için [https://intermind.com](https://intermind.com) adresini ziyaret edin
 2. Ana sayfanın sağ üst köşesinde bulunan **Giriş Yap** düğmesine tıklayın
@@ -15,8 +15,8 @@ Hesap oluşturma işlemi üç yöntemle gerçekleştirilebilir: Google veya Micr
    - Mevcut Google veya Microsoft hesaplarınızı kullanarak platforma erişimi kolaylaştıran Google ve Microsoft düğmeleri
    - Bu cihazda giriş yapmış durumunuzu korumanızı sağlayan 'Beni hatırla' onay kutusu
    - Zaten bir hesabınız varsa ancak şifrenizi hatırlamıyorsanız kullanabileceğiniz 'Şifremi Unuttum' bağlantısı
-   - Zaten bir hesabınız varsa giriş yapmak için E-posta ve Şifre alanlarının bulunduğu 'Veya şununla giriş yap' metni
-   - Harici e-posta adresinizi kullanarak kayıt olmanızı sağlayan 'Kayıt ol' bağlantısının bulunduğu 'Hesabınız yok mu?' metni
+   - Zaten bir hesabınız varsa giriş yapmak için E-posta ve Şifre alanlarının ardından gelen 'Veya şununla giriş yapın' metni
+   - Harici e-posta adresinizle kayıt olmanızı sağlayan 'Kayıt ol' bağlantısının ardından gelen 'Hesabınız yok mu?' metni
 
 ### Google Hesabı ile Kayıt Ol
 
@@ -27,7 +27,7 @@ Bu yöntem, Google Hesabı aracılığıyla verimli erişim için tavsiye edilir
 3. **Devam Et** düğmesine tıklayarak temel profil bilgilerinize erişim yetkisi verin
 
 > [!WARNING]
-> Temel profil bilgilerinize erişim vermek istemiyorsanız, **İptal** düğmesine tıklayın. Harici e-posta adresinizi kullanarak kayıt olabileceğiniz Hesabınıza giriş yapın sayfasına yönlendirileceksiniz.
+> Temel profil bilgilerinize erişim vermemeyi tercih ederseniz, **İptal** düğmesine tıklayın. Harici e-posta adresinizi kullanarak kayıt olabileceğiniz Hesabınıza giriş yapın sayfasına yönlendirileceksiniz.
 
 4. InterMIND ana sayfanıza yönlendirileceksiniz; başka bir kurulum gerekli değildir
 
@@ -40,7 +40,7 @@ Bu yöntem, Microsoft hesabı kullanarak hızlı erişim elde etmek için tavsiy
 3. **Devam Et** düğmesine tıklayarak temel profil bilgilerinize erişim yetkisi verin
 
 > [!WARNING]
-> Temel profil bilgilerinize erişim vermek istemiyorsanız, **İptal** düğmesine tıklayın. Harici e-posta adresinizi kullanarak kayıt olabileceğiniz Hesabınıza giriş yapın sayfasına yönlendirileceksiniz.
+> Temel profil bilgilerinize erişim vermemeyi tercih ederseniz, **İptal** düğmesine tıklayın. Harici e-posta adresinizi kullanarak kayıt olabileceğiniz Hesabınıza giriş yapın sayfasına yönlendirileceksiniz.
 
 4. InterMIND ana sayfanıza yönlendirileceksiniz; başka bir kurulum gerekli değildir
 
@@ -52,7 +52,7 @@ Google hesabınız yoksa veya ayrı bir e-posta ile kayıt olmayı tercih ediyor
 2. Aşağıdaki zorunlu alanları içeren Kayıt formuna yönlendirileceksiniz:
    - **E-posta**
    - **Şifre**
-     - Minimum 8 karakter
+     - En az 8 karakter
      - En az 1 büyük harf
      - En az 1 sayısal rakam
    - **Şifreyi Onayla**
@@ -78,17 +78,17 @@ Google hesabınız yoksa veya ayrı bir e-posta ile kayıt olmayı tercih ediyor
 > [!TIP]
 > E-postayı alamıyorsanız, spam klasörünüzü kontrol edin veya destek ekibiyle iletişime geçin.
 
-## Giriş Yapma
+## Giriş Yap
 
-InterMIND hesabınızın oluşturulmasının ardından, istediğiniz zaman giriş yapma imkanına sahip olursunuz. Bu, toplantı düzenlemenize veya toplantılara katılmanıza, ayarları yönetmenize, AI işlevselliğine erişmenize ve önceki toplantıları transkriptleriyle birlikte incelemenize olanak tanır. Ayrıca, AI Asistanı toplantı geçmişi içinde kullanılabilir.
+InterMIND hesabınızın oluşturulmasının ardından, istediğiniz zaman giriş yapma imkanına sahip olursunuz. Bu, toplantı düzenlemenize veya toplantılara katılmanıza, ayarları yönetmenize, AI işlevselliğine erişmenize ve önceki toplantıları transkriptleriyle birlikte incelemenize olanak tanır. Ayrıca, AI Asistanı toplantı geçmişi içinde kullanılabilir. [Toplantı Oluşturma ve Planlama](./creating-meetings) hakkında daha fazla bilgi edinin.
 
-### Giriş yapma sayfasına erişim
+### Giriş Yap sayfasına erişim
 
 1. [https://intermind.com](https://intermind.com) adresine gidin
 2. Ana sayfanın sağ üst köşesinde bulunan **Giriş Yap** düğmesine tıklayın
 3. **Hesabınıza giriş yapın** sayfasına yönlendirileceksiniz
 
-### Google ile giriş yapma
+### Google ile giriş yap
 
 Google hesabınızı kullanarak kayıt olduysanız:
 
@@ -97,7 +97,7 @@ Google hesabınızı kullanarak kayıt olduysanız:
    - Sistem Google hesabınızı tanıyamazsa, daha fazla yetkilendirme için Google giriş sayfasına yönlendirileceksiniz
 2. Yetkilendirme tamamlandıktan sonra, doğrudan InterMIND ana sayfasına yönlendirileceksiniz
 
-### Microsoft ile giriş yapma
+### Microsoft ile giriş yap
 
 Microsoft hesabınızı kullanarak kayıt olduysanız:
 
@@ -106,7 +106,7 @@ Microsoft hesabınızı kullanarak kayıt olduysanız:
    - Sistem Microsoft hesabınızı tanıyamazsa, daha fazla yetkilendirme için Microsoft giriş sayfasına yönlendirileceksiniz
 2. Yetkilendirme tamamlandıktan sonra, doğrudan InterMIND ana sayfasına yönlendirileceksiniz
 
-### E-posta ve şifre ile giriş yapma
+### E-posta ve şifre ile giriş yap
 
 Hesabınızı harici bir e-posta adresi kullanarak oluşturduysanız:
 
@@ -121,9 +121,9 @@ Hesabınızı harici bir e-posta adresi kullanarak oluşturduysanız:
 
 ## Kullanıcı Profili
 
-InterMIND'daki Kullanıcı Profili sayfası, kullanıcılara kişisel ayarlarını görüntüleme ve özelleştirme, cihaz tercihlerini yönetme, iletişim seçeneklerini ayarlama ve hesap silme dahil olmak üzere temel hesap işlemlerini gerçekleştirme fırsatı sunar.
+InterMIND'daki Kullanıcı Profili sayfası, kullanıcılara kişisel ayarlarını görüntüleme ve özelleştirme, cihaz tercihlerini yönetme, iletişim seçeneklerini belirleme ve hesap silme dahil olmak üzere temel hesap işlemlerini gerçekleştirme fırsatı sunar.
 
-### Kullanıcı profili sayfasına erişim
+### Kullanıcı Profili sayfasına erişim
 
 Kullanıcılar profillerine iki yöntemle erişebilir:
 
@@ -142,13 +142,13 @@ Profil sayfası dört ana sekme halinde düzenlenmiştir:
 
 **Kullanıcı Bilgileri**
 
-- Kullanıcı avatarını, görünen adı (örn. Ahmet Yılmaz) ve kayıtlı e-posta adresini görüntüler
+- Kullanıcı avatarını, görünen adı (örn. John Smith) ve kayıtlı e-posta adresini görüntüler
 - Görünen ad, kalem simgesi kullanılarak düzenlenebilir
 
 **Mevcut Plan**
 
-- Aktif abonelik türünü (örn. Temel, Pro) ve geçerlilik süresini gösterir
-- Temel kullanıcılar **Planı Yükselt** düğmesini görür
+- Aktif abonelik türünü (örn. Basic, Pro) ve geçerlilik süresini gösterir
+- Basic kullanıcılar **Planı Yükselt** düğmesini görür ([Fiyatlandırma](./pricing) hakkında daha fazla bilgi edinin)
 - Pro kullanıcılar **Aboneliği İptal Et** düğmesini görür
 
 **İletişim Tercihleri**
@@ -180,7 +180,7 @@ Düzenlenen faturaların listesini şunlarla gösterir:
 - Ödeme Durumu (örn. Ödendi)
 
 > [!TIP]
-> Faturalar raporlama veya kayıt için indirilebilir.
+> Faturalar raporlama veya kayıt tutma için indirilebilir.
 
 **Ödemeler**
 Ödeme işlemlerini şunları içerecek şekilde görüntüler:
@@ -214,10 +214,10 @@ Varsayılan çeviri dilini seçin ve orijinal ses seviyesini ayarlayın.
 - **Orijinal Ses Seviyesi**: Çevrilmiş ses çalarken arka plan ses seviyesini ayarlayın
 
 **Diğerleri**
-Varsayılan düzeni (örn. kenar çubuğu), asistan sağlayıcısını ve yalnızken otomatik ayrılma seçeneğini ayarlayın.
+Varsayılan düzeni (örn. kenar çubuğu), asistan sağlayıcısını ve yalnız kalındığında otomatik ayrılma seçeneğini ayarlayın.
 
 - **Düzen**: Görüntü düzenini seçin (örn. Kenar Çubuğu, Izgara)
-- **Yalnızken Aramayı Otomatik Olarak Terk Et**: Otomatik bağlantı kesmeyi etkinleştirin/devre dışı bırakın
+- **Yalnız Kalındığında Aramayı Otomatik Olarak Terk Et**: Otomatik bağlantı kesmeyi etkinleştirin/devre dışı bırakın
 
 > [!TIP]
 > Değişiklikler otomatik olarak kaydedilir ve gelecekteki tüm toplantılara uygulanır.

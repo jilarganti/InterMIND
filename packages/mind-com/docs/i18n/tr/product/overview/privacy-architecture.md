@@ -1,6 +1,6 @@
 ---
-title: "AI Toplantıları için Veri Gizliliği"
-description: "InterMIND'ın bölge tabanlı gizlilik, GDPR uyumluluğu ve veri işleme konumları için kullanıcı seçimi ile şeffaf gizlilik mimarisi."
+title: AI Toplantıları için Veri Gizliliği
+description: InterMIND'ın bölge tabanlı gizlilik, GDPR uyumluluğu ve veri işleme konumları için kullanıcı seçimi ile şeffaf gizlilik mimarisi.
 ---
 
 # AI Toplantıları için Veri Gizliliği
@@ -11,7 +11,9 @@ InterMind, canlı AI destekli çeviri ile çok dilli video toplantıları için 
 
 Kesintisiz bir deneyim sunmak için InterMind, video, ses, bulut depolama, gerçek zamanlı çeviri ve analitik için üçüncü taraf hizmetleri entegre eder. Bu üçüncü taraf sağlayıcılar performans ve ölçeklenebilirlik sağlamamıza yardımcı olur — ancak aynı zamanda doğrudan kontrol edemediğimiz bir katman da sunarlar.
 
-**Vaatler yerine şeffaflığa** inanıyoruz. Sadece doğrudan kontrolümüz altındaki bileşenler için gizlilik ve güvenlik garanti edebiliriz — yazılımımız, arayüz mantığımız ve verileri nasıl yönlendirdiğimiz. Diğer her şey için size **seçim gücü** sunuyoruz.
+[Platformumuzun nasıl çalıştığı](./how-it-works) ve [video toplantı özelliklerimiz](./video-meeting-platform) hakkında daha fazla bilgi edinin.
+
+**Vaatler yerine şeffaflığa** inanıyoruz. Gizlilik ve güvenliği yalnızca doğrudan kontrolümüz altındaki bileşenler için garanti edebiliriz — yazılımımız, arayüz mantığımız ve verileri nasıl yönlendirdiğimiz. Diğer her şey için size **seçim gücü** sunuyoruz.
 
 Bu nedenle InterMind'ı **bölge tabanlı gizlilik** ile tasarladık: verilerinizin nerede işlendiğini, hangi yasal çerçevenin onu yönettiğini ve hangi AI modellerinin kullanıldığını — seçtiğiniz gizlilik bölgesine göre siz seçiyorsunuz.
 
@@ -34,7 +36,7 @@ Bu nedenle InterMind'ı **bölge tabanlı gizlilik** ile tasarladık: verilerini
 ### 3. **Varsayılan Olarak Gizlilik**
 
 - InterMind içeriğinizi eğitim, profilleme veya ticari analiz için **asla** saklamaz veya yeniden kullanmaz.
-- Açıkça talep etmediğiniz sürece transkriptleri veya medyayı saklamayız.
+- Açıkça talep etmediğiniz sürece transkriptleri veya medyayı saklamamız.
 - Çeviriyi devre dışı bırakırsanız, **hiçbir kullanıcı verisi cihazınızdan ayrılmaz**.
 
 ## Bölge Tabanlı Gizlilik: Nasıl Çalışır
@@ -44,7 +46,7 @@ Her oturumun başında veya kuruluşunuzun hesap ayarlarının bir parçası ola
 | Bölge         | Geçerli Yasalar                                                                               | Altyapı                        | LLM Sağlayıcıları          |
 | ------------- | --------------------------------------------------------------------------------------------- | ------------------------------ | -------------------------- |
 | Avrupa        | [GDPR](https://gdpr.eu)                                                                       | Yalnızca AB veri merkezleri    | AB'de barındırılan veya AB uyumlu  |
-| Amerika Birleşik Devletleri | [CCPA](https://oag.ca.gov/privacy/ccpa)                                       | AWS / GCP / Azure (ABD)        | OpenAI ABD / Anthropic ABD |
+| Amerika Birleşik Devletleri | [CCPA](https://oag.ca.gov/privacy/ccpa)                                                       | AWS / GCP / Azure (ABD)        | OpenAI US / Anthropic US   |
 | BAE / MENA    | [PDPL](https://www.signzy.com/data-privacy-laws-in-the-uae-2025-everything-you-need-to-know/) | BAE veya Bahreyn bulutu        | Bölgesel veya uyumlu LLM'ler |
 | Asya / Çin    | Yerel Çin gizlilik yasaları                                                                  | Alibaba, Huawei, Tencent Cloud | Yalnızca Çin merkezli LLM'ler      |
 
@@ -58,7 +60,7 @@ Bu seçim, video, ses ve yorumlanan içeriğinizin nasıl işlendiğini ve hangi
 
 ## InterMind'ın Garantileri
 
-Kontrol alanımızda katı teknik ve yasal güvenlik önlemleri uyguluyoruz:
+Kontrol alanımız dahilinde katı teknik ve yasal güvenlik önlemleri uyguluyoruz:
 
 ### 1. **Önce Yerel Yürütme**
 
@@ -70,7 +72,7 @@ Yalnızca mevcut görev için gerekli olan minimum veri iletilir.
 
 ### 3. **Uçtan Uca Şifreleme**
 
-Tüm ses/video verileri şifrelenmiş kanallar aracılığıyla iletilir. Çeviri istekleri güvenli proxy'ler üzerinden tünellenir ve genel maruziyetten kaçınılır.
+Tüm ses/video verileri şifrelenmiş kanallar aracılığıyla iletilir. Çeviri istekleri güvenli proxy'ler üzerinden tünellenir ve genel erişime açık olmaz.
 
 ### 4. **Varsayılan Depolama Yok**
 
@@ -82,7 +84,7 @@ InterMind aşağıdakilerle tam uyumluluk sağlar:
 
 - **GDPR** — Erişim, silme, dışa aktarma ve işleme kısıtlama hakkı. AI profilleme yapılmaz.
 - **CCPA** — Kişisel veri satışı yapılmaz, vazgeçme seçenekleri ve şeffaf toplama uygulamaları.
-- **UAE PDPL** — Talep edilirse yerel depolama, sıkı erişim kontrolleri, izin olmadan uluslararası transfer yapılmaz.
+- **UAE PDPL** — Talep edilirse yerel depolama, sıkı erişim kontrolleri, rıza olmadan uluslararası transfer yapılmaz.
 - **China DSL/PIPL** — Yalnızca bölge içi işleme, Çin seçilirse yabancı yönlendirme yapılmaz.
 
 ## Neleri Garanti Edebilir ve Edemeyiz
@@ -95,20 +97,20 @@ Sadece hukuki jargon değil, tam dürüstlüğe kararlıyız.
 
 - OpenAI, Anthropic veya diğer LLM sağlayıcılarının girdi verilerini kaydetmeyeceği veya saklamayacağı.
 - Bulut barındırıcılarının sistemleri üzerinden aktarılan medyaya erişimi olmadığı (güvenli bir enclave veya kurumsal dağıtım kullanmadığınız sürece).
-- Üçüncü taraf modele aktarılan içeriğin onların eğitim kapsamı dışında olduğu (özel sözleşme altında olmadığı sürece).
+- Üçüncü taraf modele aktarılan içeriğin onların eğitim kapsamı dışında olduğu (özel sözleşme altında olmadıkça).
 
 ### Garanti ETTİĞİMİZ durumlar:
 
 - Verilerinizin **nerede ve nasıl** işlendiğini her zaman bilirsiniz.
 - Bölgenizi ve uyumluluk modunuzu seçerek **riski kontrol etme** araçlarına sahipsiniz.
-- InterMind içeriğinizi **asla** - geçici olarak bile - rızanız olmadan saklamaz veya istismar etmez.
+- InterMind, rızanız olmadan içeriğinizi **asla** saklamaz veya istismar etmez — geçici olarak bile.
 
 ## Güven Modları ve Gizlilik Seviyeleri
 
 Oturumunuzu gizlilik ihtiyaçlarınıza uyacak şekilde özelleştirebilirsiniz:
 
 | Güven Modu       | Yorumlama | Bölgeler Arası Transfer | Depolama           | En İyi Kullanım Alanı                    |
-| ---------------- | --------- | ----------------------- | ------------------ | ---------------------------------------- |
+| ---------------- | --------- | ----------------------- | ------------------ | ----------------------------------------- |
 | 🔒 Yalnızca Yerel | ❌        | ❌                      | ❌                 | Hukuk, devlet, dahili incelemeler        |
 | 🔐 Bölge Kilitli  | ✅        | ✅ (yalnızca bölge içi) | ❌ veya oturum-sadece | Sağlık, finans, İK                    |
 | 🌐 Küresel Esnek  | ✅        | ✅ (çok bölgeli)        | ✅                 | Destek, satış, çok uluslu ekipler        |
@@ -129,6 +131,8 @@ InterMind belirsiz güvenceler arkasına saklanmaz. Bunun yerine size **seçenek
 
 - Bölgenizi siz seçersiniz.
 - Yorumlama seviyenizi siz seçersiniz.
-- Kabul etmeye istekli olduğunuz riski siz belirlersiniz — ve her seviyede uyumlu kalmanıza yardımcı oluruz.
+- Kabul etmeye istekli olduğunuz riski siz belirlersiniz — ve her seviyede uyumlu kalmanızda size yardımcı oluruz.
 
-**InterMind — profesyoneller için inşa edildi, uyumluluk tarafından desteklendi, güven tarafından yönetildi.**
+**InterMind — profesyoneller için inşa edildi, uyumluluk ile desteklendi, güven ile yönetildi.**
+
+> **Gizlilik hakkında sorularınız mı var?** [Bizimle iletişime geçin](../../resources/company/contacts) veya [şirket değerlerimiz](../../resources/company/about) hakkında okuyun.

@@ -14,14 +14,16 @@ Không cần phụ đề. Không có độ trễ. Không mất thỏa thuận v�
 
 ## InterMIND là gì?
 
-**Không phải dịch thuật. Không phải thông dịch. Là một điều hoàn toàn mới.**
+**Không phải dịch thuật. Không phải thông dịch. Đây là điều hoàn toàn mới.**
 
 InterMIND là **thần giao cách cảm trong hội thoại** — bạn suy nghĩ bằng tiếng Anh, họ nghe thấy tiếng Trung hoàn hảo. Họ phản hồi bằng tiếng Nhật, bạn hiểu từng sắc thái.
 
 Nó bảo tồn **giọng nói của bạn**, **giọng điệu của bạn**, **tính cách của bạn** — trong bất kỳ ngôn ngữ nào.  
 Nó nắm bắt **ngữ cảnh**, **ý nghĩa văn hóa ngầm**, **ý định kinh doanh**.
 
-> Nói tự nhiên. Được hiểu hoàn hảo. Chốt được nhiều thỏa thuận hơn.
+> Nói chuyện tự nhiên. Được hiểu hoàn hảo. Chốt được nhiều thỏa thuận hơn.
+
+Tìm hiểu thêm về [cách công nghệ của chúng tôi hoạt động](../../product/overview/how-it-works) và khám phá [nền tảng họp video](../../product/overview/video-meeting-platform) của chúng tôi.
 
 ## Công nghệ
 
@@ -30,6 +32,8 @@ Trong khi những người khác tạo ra độ trễ, chúng tôi cho phép **l
 Trong khi những người khác tạo ra rào cản, chúng tôi tạo ra **kết nối**.
 
 **Hơn 20 ngôn ngữ. Không tải nhận thức. Tác động tối đa.**
+
+Khám phá [chi tiết kỹ thuật](../../product/overview/how-it-works) và xem nơi chúng tôi tạo ra [tác động lớn nhất](../../product/overview/markets).
 
 ## Triết lý của chúng tôi
 
@@ -42,3 +46,5 @@ Văn hóa không nên là một bất lợi cạnh tranh.
 Tương lai thuộc về những ai có thể hợp tác toàn cầu — tức thì, tự nhiên, thông minh.
 
 — _Đội ngũ Mind.com_
+
+> **Sẵn sàng tìm hiểu thêm?** Ghé thăm [trang đội ngũ](./team) của chúng tôi, khám phá [cơ hội nghề nghiệp](./careers), hoặc [liên hệ với chúng tôi](./contacts).
