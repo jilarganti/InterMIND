@@ -166,8 +166,8 @@ const followup = `${basic}
 `
 
 export const prompts = {
-  basic: { prompt: basic, model: "claude-3-5-sonnet-20241022", maxTokens: 8000, temperature: 0.5, presencePenalty: 0.1, frequencyPenalty: 0.1 },
+  basic: { prompt: basic, model: "claude-sonnet-4-5", maxTokens: 30000, temperature: 0.5, presencePenalty: 0.1, frequencyPenalty: 0.1 },
   //   pro: { name: pro, model: "claude-3-5-sonnet-20241022", maxTokens: 8000, temperature: 0.2, presencePenalty: 0.3, frequencyPenalty: 0.3 },
   //   business: { name: "business", model: "claude-4-sonnet-20250514", maxTokens: 8000, temperature: 0.1, presencePenalty: 0.3, frequencyPenalty: 0.3 },
-  followup: { prompt: followup, model: "claude-3-5-haiku-20241022", maxTokens: 8000, temperature: 0.3, presencePenalty: 0.1, frequencyPenalty: 0.1 },
+  followup: { prompt: followup, model: "claude-haiku-4-5", maxTokens: 15000, temperature: 0.3, presencePenalty: 0.1, frequencyPenalty: 0.1 },
 }
