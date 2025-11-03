@@ -238,7 +238,6 @@ defineExpose({ insertText, submitTextDirectly })
   flex: 1;
   overflow-y: auto;
   padding: 1rem;
-  scroll-behavior: smooth;
 }
 
 .message {
