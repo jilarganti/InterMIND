@@ -54,8 +54,6 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 
 ### 🇺🇸 United States
 
-<div class="country-section">
-
 #### ADA Title II Final Rule (April 2024)
 
 **Who must comply:**
@@ -89,13 +87,9 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 
 **Note:** Despite Executive Order 14224 designating English as "official language," Title VI and other statutes requiring language access remain in full effect.
 
-</div>
-
 ---
 
 ### 🇨🇦 Canada
-
-<div class="country-section">
 
 #### Quebec - Bill 96 (June 2022)
 
@@ -133,13 +127,9 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 - **Quebec:** New accessible website regulation expected
 - **British Columbia:** Applies to public sector and specific service providers
 
-</div>
-
 ---
 
 ### 🇪🇺 European Union
-
-<div class="country-section">
 
 #### European Accessibility Act (EAA) - EN 301 549
 
@@ -181,13 +171,9 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 - If you serve EU customers, you **must comply** (similar to GDPR)
 - Enforcement focuses on services targeting EU users
 
-</div>
-
 ---
 
 ### 🇬🇧 United Kingdom
-
-<div class="country-section">
 
 #### Public Sector Bodies Accessibility Regulations (PSBAR) 2018
 
@@ -223,13 +209,9 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 
 **Note:** While UK left EU, businesses serving EU customers must still comply with EAA.
 
-</div>
-
 ---
 
 ### 🇦🇺 Australia
-
-<div class="country-section">
 
 #### Disability Discrimination Act 1992 (DDA)
 
@@ -266,13 +248,9 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 
 - Over **4.4 million Australians** (1 in 5) have a disability
 
-</div>
-
 ---
 
 ### 🇳🇿 New Zealand
-
-<div class="country-section">
 
 #### Web Accessibility Standard 1.1 (2019)
 
@@ -305,13 +283,9 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 
 - **24% of New Zealanders** (1.1 million people) identify as having accessibility needs
 
-</div>
-
 ---
 
 ### 🇯🇵 Japan
-
-<div class="country-section">
 
 #### Japanese Industrial Standards (JIS) X 8341-3:2016
 
@@ -347,13 +321,9 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 - **9.6 million people** (7.6% of population) have disabilities
 - **36.4 million** people aged 65+ (aging population priority)
 
-</div>
-
 ---
 
 ### 🇰🇷 South Korea
-
-<div class="country-section">
 
 #### Korean Web Content Accessibility Guidelines (KWCAG) 2.1
 
@@ -394,13 +364,9 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 - **2.7 million** registered persons with disabilities (5.3% of population)
 - **95% smartphone penetration** – digital accessibility critical
 
-</div>
-
 ---
 
 ### 🇮🇳 India
-
-<div class="country-section">
 
 #### Rights of Persons with Disabilities Act (RPwD Act) 2016
 
@@ -433,13 +399,9 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 
 - **21 million people** with disabilities (2.1% of 1.4 billion population)
 
-</div>
-
 ---
 
 ### 🌏 Other Countries
-
-<div class="other-countries">
 
 #### 🇨🇳 China
 
@@ -469,13 +431,9 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 - **Discrimination Act (2008):** Comprehensive non-discrimination law
 - Covers accessibility across sectors
 
-</div>
-
 ---
 
 ## 📊 Compliance Requirements Comparison
-
-<div class="comparison-table-wrapper">
 
 | Requirement        | USA             | EU (EAA)           | UK           | Australia     | Japan          | S. Korea              | Canada (QC)        |
 | ------------------ | --------------- | ------------------ | ------------ | ------------- | -------------- | --------------------- | ------------------ |
@@ -488,8 +446,6 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 | **Private Sector** | ⚠️ Varies       | ✅ Yes (10+ staff) | ⚠️ Limited   | ✅ Encouraged | ⚠️ Encouraged  | ✅ Essential services | ✅ Yes             |
 | **Max Fine**       | Federal funding | €20M or 4%         | Equity Act   | $20K AUD      | ¥200K (~$1.7K) | ₩5M (~$4K)            | $30K CAD           |
 
-</div>
-
 ---
 
 ## ⏰ Critical Deadlines Timeline
@@ -497,47 +453,14 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 <img src="/blog/iStock-2203725394.jpg" alt="UAE dirham" width="500" align="right" style="padding: 1.5rem" class="dark-only"/>
 <img src="/blog/iStock-2206387857.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only"/>
 
-<div class="timeline">
-  <div class="timeline-item past">
-    <div class="timeline-date">June 2025</div>
-    <div class="timeline-content">
-      <strong>🇨🇦 Canada - Bill 96</strong>
-      <p>Quebec French language compliance deadline</p>
-    </div>
-  </div>
-  
-  <div class="timeline-item critical">
-    <div class="timeline-date">June 28, 2025</div>
-    <div class="timeline-content">
-      <strong>🇪🇺 EU - EAA</strong>
-      <p>European Accessibility Act in full effect</p>
-    </div>
-  </div>
-  
-  <div class="timeline-item upcoming">
-    <div class="timeline-date">April 24, 2026</div>
-    <div class="timeline-content">
-      <strong>🇺🇸 USA - ADA Title II</strong>
-      <p>Large municipalities (50,000+ residents)</p>
-    </div>
-  </div>
-  
-  <div class="timeline-item upcoming">
-    <div class="timeline-date">April 24, 2027</div>
-    <div class="timeline-content">
-      <strong>🇺🇸 USA - ADA Title II</strong>
-      <p>Smaller municipalities and special districts</p>
-    </div>
-  </div>
-</div>
+- **June 2025** – 🇨🇦 Canada - Bill 96: Quebec French language compliance deadline
+- **June 28, 2025** – 🇪🇺 EU - EAA: European Accessibility Act in full effect
+- **April 24, 2026** – 🇺🇸 USA - ADA Title II: Large municipalities (50,000+ residents)
+- **April 24, 2027** – 🇺🇸 USA - ADA Title II: Smaller municipalities and special districts
 
 ---
 
 ## 🎯 How to Achieve Compliance
-
-<div class="steps-grid">
-
-<div class="step-card">
 
 ### 1. Assess Current State
 
@@ -546,20 +469,12 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 - Review language support
 - Document findings
 
-</div>
-
-<div class="step-card">
-
 ### 2. Prioritize Requirements
 
 - Focus on applicable jurisdictions
 - Identify critical deadlines
 - Map legal requirements
 - Assess risk levels
-
-</div>
-
-<div class="step-card">
 
 ### 3. Implement Solutions
 
@@ -568,20 +483,12 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 - Screen reader optimization
 - Text-to-speech integration
 
-</div>
-
-<div class="step-card">
-
 ### 4. Test & Validate
 
 - Manual accessibility testing
 - Automated WCAG scanning
 - User testing with disabled users
 - Multi-language verification
-
-</div>
-
-<div class="step-card">
 
 ### 5. Document & Train
 
@@ -590,10 +497,6 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 - Train staff on requirements
 - Establish maintenance process
 
-</div>
-
-<div class="step-card">
-
 ### 6. Monitor & Maintain
 
 - Continuous monitoring
@@ -601,65 +504,16 @@ Learn how [InterMIND helps with compliance](../../product/overview/what-is-inter
 - Stay updated on law changes
 - Iterate and improve
 
-</div>
-
-</div>
-
 ---
 
 ## 💡 Key Compliance Principles
 
-<div class="principles-grid">
-
-<div class="principle-card">
-
-### 🌐 Universal Design
-
-Design for **all** users from the start, not as an afterthought
-
-</div>
-
-<div class="principle-card">
-
-### 🎨 Perceivable
-
-Content must be perceivable to all senses (sight, sound, touch)
-
-</div>
-
-<div class="principle-card">
-
-### ⚙️ Operable
-
-Interface components must be operable by all users
-
-</div>
-
-<div class="principle-card">
-
-### 📖 Understandable
-
-Information must be clear and easy to understand
-
-</div>
-
-<div class="principle-card">
-
-### 💪 Robust
-
-Content must work with current and future technologies
-
-</div>
-
-<div class="principle-card">
-
-### 🌍 Inclusive
-
-Consider language, culture, and diverse abilities
-
-</div>
-
-</div>
+- **🌐 Universal Design:** Design for **all** users from the start, not as an afterthought
+- **🎨 Perceivable:** Content must be perceivable to all senses (sight, sound, touch)
+- **⚙️ Operable:** Interface components must be operable by all users
+- **📖 Understandable:** Information must be clear and easy to understand
+- **💪 Robust:** Content must work with current and future technologies
+- **🌍 Inclusive:** Consider language, culture, and diverse abilities
 
 ---
 
@@ -770,8 +624,6 @@ Include:
 
 ## 🚀 Next Steps
 
-<div class="cta-section">
-
 ### Ready to Ensure Compliance?
 
 1. **Audit your digital properties** against WCAG 2.1 AA
@@ -781,271 +633,8 @@ Include:
 5. **Test thoroughly** with automated tools and real users
 6. **Document and maintain** your accessibility program
 
-</div>
-
 ::: tip Remember
 Accessibility is an ongoing commitment, not a one-time project. Laws evolve, technology changes, and user needs grow. Build accessibility into your culture and processes for long-term success.
 
 **Need help with compliance?** [Contact InterMIND](../../resources/company/contacts) to discuss how our [real-time translation platform](../../product/overview/video-meeting-platform) can help meet accessibility requirements.
 :::
-
-<style scoped>
-.subtitle {
-  color: var(--vp-c-text-2);
-  font-size: 1.2em;
-  margin-bottom: 2em;
-  text-align: center;
-}
-
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5em;
-  margin: 2em 0;
-}
-
-.stat-card {
-  background: linear-gradient(135deg, var(--vp-c-brand-soft) 0%, var(--vp-c-brand-softer) 100%);
-  padding: 2em 1em;
-  border-radius: 12px;
-  text-align: center;
-  border: 2px solid var(--vp-c-brand);
-  transition: transform 0.2s;
-}
-
-.stat-card:hover {
-  transform: translateY(-5px);
-}
-
-.stat-number {
-  font-size: 2.5em;
-  font-weight: bold;
-  color: var(--vp-c-brand);
-  margin-bottom: 0.3em;
-}
-
-.stat-label {
-  font-size: 1em;
-  color: var(--vp-c-text-2);
-  font-weight: 500;
-}
-
-.country-section {
-  background: var(--vp-c-bg-soft);
-  padding: 2em;
-  border-radius: 12px;
-  margin: 2em 0;
-  border-left: 4px solid var(--vp-c-brand);
-}
-
-.country-section h4 {
-  margin-top: 0;
-  color: var(--vp-c-brand);
-}
-
-.other-countries {
-  background: var(--vp-c-bg-soft);
-  padding: 2em;
-  border-radius: 12px;
-  margin: 2em 0;
-}
-
-.other-countries h4 {
-  color: var(--vp-c-text-1);
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-}
-
-.other-countries h4:first-of-type {
-  margin-top: 0;
-}
-
-.comparison-table-wrapper {
-  overflow-x: auto;
-  margin: 2em 0;
-}
-
-.comparison-table-wrapper table {
-  min-width: 100%;
-  font-size: 0.9em;
-}
-
-.timeline {
-  margin: 3em 0;
-  position: relative;
-}
-
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 20px;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background: var(--vp-c-divider);
-}
-
-.timeline-item {
-  position: relative;
-  padding-left: 60px;
-  margin-bottom: 2em;
-}
-
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: 12px;
-  top: 5px;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  border: 3px solid var(--vp-c-bg);
-}
-
-.timeline-item.past::before {
-  background: #6c757d;
-}
-
-.timeline-item.critical::before {
-  background: #dc3545;
-  box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.2);
-}
-
-.timeline-item.upcoming::before {
-  background: #ffc107;
-}
-
-.timeline-date {
-  font-weight: bold;
-  color: var(--vp-c-brand);
-  margin-bottom: 0.5em;
-  font-size: 1.1em;
-}
-
-.timeline-content strong {
-  display: block;
-  margin-bottom: 0.5em;
-  color: var(--vp-c-text-1);
-}
-
-.timeline-content p {
-  color: var(--vp-c-text-2);
-  margin: 0;
-}
-
-.steps-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5em;
-  margin: 2em 0;
-}
-
-.step-card {
-  background: var(--vp-c-bg-soft);
-  padding: 1.5em;
-  border-radius: 8px;
-  border-top: 3px solid var(--vp-c-brand);
-}
-
-.step-card h3 {
-  margin-top: 0;
-  color: var(--vp-c-brand);
-  font-size: 1.2em;
-}
-
-.step-card ul {
-  margin: 0;
-  padding-left: 1.2em;
-}
-
-.step-card li {
-  margin: 0.5em 0;
-  color: var(--vp-c-text-2);
-}
-
-.principles-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1em;
-  margin: 2em 0;
-}
-
-.principle-card {
-  background: linear-gradient(135deg, var(--vp-c-bg-soft) 0%, var(--vp-c-bg-mute) 100%);
-  padding: 1.5em;
-  border-radius: 8px;
-  text-align: center;
-  border: 1px solid var(--vp-c-divider);
-  transition: all 0.3s;
-}
-
-.principle-card:hover {
-  border-color: var(--vp-c-brand);
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.principle-card h3 {
-  margin: 0 0 0.5em 0;
-  font-size: 1.3em;
-  color: var(--vp-c-text-1);
-}
-
-.cta-section {
-  background: linear-gradient(135deg, var(--vp-c-brand-soft) 0%, var(--vp-c-brand-softer) 100%);
-  padding: 2em;
-  border-radius: 12px;
-  margin: 3em 0;
-  border: 2px solid var(--vp-c-brand);
-}
-
-.cta-section h3 {
-  margin-top: 0;
-  color: var(--vp-c-brand);
-  text-align: center;
-}
-
-.cta-section ol {
-  max-width: 600px;
-  margin: 1.5em auto;
-}
-
-.cta-section li {
-  margin: 0.8em 0;
-  color: var(--vp-c-text-1);
-  font-weight: 500;
-}
-
-@media (max-width: 768px) {
-  .stats-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .steps-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .principles-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .timeline::before {
-    left: 10px;
-  }
-  
-  .timeline-item {
-    padding-left: 45px;
-  }
-  
-  .timeline-item::before {
-    left: 2px;
-  }
-}
-
-@media (max-width: 480px) {
-  .stats-grid,
-  .principles-grid {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
