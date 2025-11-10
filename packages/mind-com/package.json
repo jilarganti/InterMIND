@@ -18,7 +18,9 @@
     "index:docs": "tsx ./scripts/indexDocs.ts",
     "medium-scraper": "tsx ./scripts/medium-to-markdown.ts",
     "format": "prettier --cache --cache-strategy content -w .",
-    "lint": "pnpm eslint --cache ."
+    "lint": "pnpm eslint --cache .",
+    "audit": "pnpm audit --audit-level=moderate",
+    "audit:fix": "pnpm audit fix --force"
   },
   "dependencies": {
     "shared": "workspace:*",
