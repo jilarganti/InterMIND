@@ -66,6 +66,13 @@
     "vue": "^3.5.18",
     "zod": "^3.25.76"
   },
+  "pnpm": {
+    "overrides": {
+      "undici": ">=5.28.5",
+      "esbuild": ">=0.25.0",
+      "jsondiffpatch": ">=0.7.2"
+    }
+  },
   "prettier": {
     "$schema": "https://json.schemastore.org/prettierrc",
     "semi": false,

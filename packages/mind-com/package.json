@@ -19,7 +19,7 @@
     "medium-scraper": "tsx ./scripts/medium-to-markdown.ts",
     "format": "prettier --cache --cache-strategy content -w .",
     "lint": "pnpm eslint --cache .",
-    "audit": "pnpm audit --audit-level=moderate --fix"
+    "audit": "pnpm audit --audit-level=moderate"
   },
   "dependencies": {
     "shared": "workspace:*",
