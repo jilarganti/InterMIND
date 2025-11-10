@@ -38,6 +38,14 @@ const currentMode = ref("basic")
 // ID для текущей сессии чата (используется для отслеживания изменений)
 const chatSessionId = ref(props.chatId)
 
+// Computed: проверяем наличие текстового контента в последнем assistant сообщении
+// Это позволяет различать tool calls (нет текста) от реальной генерации текста
+const hasAssistantContent = computed(() => {
+  if (messages.value.length === 0) return false
+  const lastMessage = messages.value[messages.value.length - 1]
+  return lastMessage.role === "assistant" && lastMessage.content?.trim().length > 0
+})
+
 // Создаем новый chat с помощью useChat
 const { messages, input, handleSubmit, status, error, stop, setMessages } = useChat({
   api: "/api/AIChat/chat",
@@ -55,10 +63,14 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
     }
   },
   onResponse(response) {
-    // console.log("Received HTTP response from server:", response)
+    console.log("🌊 onResponse: получен HTTP ответ от сервера")
   },
-  onToolCall({ toolCall }) {},
+  onToolCall({ toolCall }) {
+    console.log("🔧 onToolCall: AI вызывает инструмент", toolCall.toolName)
+  },
   onFinish: () => {
+    console.log("✅ onFinish: стриминг завершен")
+    
     // Проверяем, что chatId не изменился во время получения ответа
     if (chatSessionId.value !== props.chatId) return
 
@@ -69,16 +81,23 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
     scrollToBottom()
   },
   onError: () => {
+    console.log("❌ onError: произошла ошибка")
+    
     // Сбрасываем режим на стандартный после ошибки
     currentMode.value = "basic"
   },
 })
 
 // Наблюдаем за изменениями сообщений только для прокрутки
-// Больше НЕ обрабатываем изображения во время стриминга
 watch(
   messages,
-  () => {
+  (newMessages) => {
+    console.log(`💬 Messages updated: count=${newMessages.length}, status=${status.value}`)
+    if (newMessages.length > 0) {
+      const last = newMessages[newMessages.length - 1]
+      console.log(`   Last message: role=${last.role}, contentLength=${last.content?.length || 0}`)
+    }
+    
     // Просто прокручиваем к последнему сообщению при любых изменениях
     if (status.value === "streaming") {
       scrollToBottom()
@@ -86,6 +105,12 @@ watch(
   },
   { deep: true },
 )
+
+// Отладка: логируем изменения status
+watch(status, (newStatus, oldStatus) => {
+  console.log(`🔄 Status: ${oldStatus} → ${newStatus}`)
+  console.log(`   hasAssistantContent = ${hasAssistantContent.value}`)
+})
 
 // Инициализируем composable для UI элементов
 const { renderMarkdown, scrollToBottom, setupImageClickHandler } = useChatUi(
@@ -215,6 +240,7 @@ defineExpose({ insertText, submitTextDirectly })
     <ChatFooter
       v-model:inputValue="input"
       :status="status"
+      :hasAssistantContent="hasAssistantContent"
       :errorMessage="error?.message"
       :debugMode="showRawMessages"
       :currentMode="currentMode"

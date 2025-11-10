@@ -15,6 +15,12 @@ interface Props {
   status: "idle" | "ready" | "submitted" | "streaming" | "error"
 
   /**
+   * Есть ли текстовый контент в последнем assistant сообщении
+   * (используется для различения tool calls от реальной генерации текста)
+   */
+  hasAssistantContent?: boolean
+
+  /**
    * Сообщение об ошибке (если есть)
    */
   errorMessage?: string
@@ -178,17 +184,17 @@ const handleKeyDown = (event: KeyboardEvent): void => {
           class="action-button"
           :class="{
             'send-button': status !== 'streaming' && status !== 'submitted',
-            'stop-button': status === 'streaming',
-            'loading-button': status === 'submitted', // Add class for loading state
+            'stop-button': status === 'streaming' && hasAssistantContent,
+            'loading-button': status === 'submitted' || (status === 'streaming' && !hasAssistantContent),
           }"
-          :disabled="status === 'submitted' || (status !== 'streaming' && !inputValue.trim())"
-          @click="status === 'streaming' ? emit('stop') : status !== 'submitted' ? handleSubmit($event) : null"
+          :disabled="status === 'submitted' || (status === 'streaming' && !hasAssistantContent) || (status !== 'streaming' && !inputValue.trim())"
+          @click="status === 'streaming' && hasAssistantContent ? emit('stop') : status !== 'submitted' && (status !== 'streaming' || hasAssistantContent) ? handleSubmit($event) : null"
         >
           <!-- Show ArrowUp when ready to send -->
           <ArrowUp v-if="status !== 'streaming' && status !== 'submitted'" :size="20" />
-          <!-- Show Loader when waiting for response -->
-          <Loader2 v-else-if="status === 'submitted'" :size="20" class="animate-spin" />
-          <!-- Show Square when streaming -->
+          <!-- Show Loader when submitted OR streaming without content (tool calls) -->
+          <Loader2 v-else-if="status === 'submitted' || !hasAssistantContent" :size="20" class="animate-spin" />
+          <!-- Show Square when streaming WITH content (can stop) -->
           <Square v-else :size="20" />
         </button>
       </div>

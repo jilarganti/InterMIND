@@ -41,6 +41,8 @@ export async function POST(request: Request): Promise<Response> {
 
     console.log(`🔵 API: Получено ${messages.length} сообщений, режим: ${mode}`)
 
+    let stepCount = 0
+
     // Отправляем запрос к ИИ с выбранным системным промптом и инструментами
     const result = streamText({
       // @ts-ignore - type compatibility issue between ai@4.x SDK versions
@@ -56,6 +58,17 @@ export async function POST(request: Request): Promise<Response> {
       },
       toolChoice: "auto",
       maxSteps: 5,
+      onStepFinish: ({ text, toolCalls, toolResults, finishReason, usage }) => {
+        stepCount++
+        console.log(`🔧 Шаг ${stepCount}:`, {
+          hasText: !!text,
+          textLength: text?.length || 0,
+          toolCallsCount: toolCalls?.length || 0,
+          toolResultsCount: toolResults?.length || 0,
+          finishReason,
+          tokens: usage.totalTokens,
+        })
+      },
       onFinish: ({ usage }) => {
         console.log(`✅ Стриминг завершен. Токенов: ${usage.totalTokens}`)
       },
