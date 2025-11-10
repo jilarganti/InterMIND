@@ -16,7 +16,7 @@
  */
 
 import { anthropic } from "@ai-sdk/anthropic"
-import { streamText, StreamData } from "ai"
+import { streamText } from "ai"
 import { prompts } from "../docs/.vitepress/config/AIConfig.js"
 import { semanticSearchTool } from "./lib/aiChatLib.js"
 
@@ -41,11 +41,9 @@ export async function POST(request: Request): Promise<Response> {
 
     console.log(`🔵 API: Получено ${messages.length} сообщений, режим: ${mode}`)
 
-    // Создаем stream data для передачи completionTokens
-    const data = new StreamData()
-
     // Отправляем запрос к ИИ с выбранным системным промптом и инструментами
     const result = streamText({
+      // @ts-ignore - type compatibility issue between ai@4.x SDK versions
       model: anthropic(prompts[mode].model),
       messages: messages,
       system: prompts[mode].prompt,
@@ -58,24 +56,16 @@ export async function POST(request: Request): Promise<Response> {
       },
       toolChoice: "auto",
       maxSteps: 5,
-      onFinish: (result) => {
-        console.log(`✅ Стриминг завершен. Токенов: ${result.usage.completionTokens}`)
-        data.append({ type: "completionTokens", completionTokens: result.usage.completionTokens })
-        data.close()
+      onFinish: ({ usage }) => {
+        console.log(`✅ Стриминг завершен. Токенов: ${usage.totalTokens}`)
       },
-      onError: (error) => {
-        console.error("🔴 API: Ошибка стриминга:", error)
-        data.append({ type: "error", error: String(error) })
-        data.close()
-      },
-      abortSignal: request.signal, // Поддержка отмены запроса
+      abortSignal: request.signal,
     })
 
     console.log("🔵 API: Получен ответ от AI, начинаем стриминг...")
 
-    // Возвращаем стандартный ответ от streamText с дополнительными данными
+    // Возвращаем data stream ответ (поддерживает tool calls в v4)
     return result.toDataStreamResponse({
-      data,
       headers: {
         "Cache-Control": "no-cache",
         "Connection": "keep-alive",
