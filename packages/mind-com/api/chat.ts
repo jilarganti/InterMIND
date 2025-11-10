@@ -57,20 +57,22 @@ export async function POST(request: Request): Promise<Response> {
         searchKnowledgeBase: semanticSearchTool,
       },
       toolChoice: "auto",
-      maxSteps: 5,
+      maxSteps: 3,
       onStepFinish: ({ text, toolCalls, toolResults, finishReason, usage }) => {
         stepCount++
         console.log(`🔧 Шаг ${stepCount}:`, {
           hasText: !!text,
           textLength: text?.length || 0,
+          textPreview: text ? text.substring(0, 100) + "..." : "нет текста",
           toolCallsCount: toolCalls?.length || 0,
           toolResultsCount: toolResults?.length || 0,
           finishReason,
           tokens: usage.totalTokens,
         })
       },
-      onFinish: ({ usage }) => {
+      onFinish: ({ text, usage }) => {
         console.log(`✅ Стриминг завершен. Токенов: ${usage.totalTokens}`)
+        console.log(`📝 Финальный текст: ${text ? text.substring(0, 200) + "..." : "НЕТ ТЕКСТА!"}`)
       },
       abortSignal: request.signal,
     })
