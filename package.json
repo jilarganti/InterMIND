@@ -30,13 +30,13 @@
     "@types/uuid": "^10.0.0",
     "@upstash/vector": "^1.2.2",
     "@vercel/analytics": "^1.5.0",
-    "@vercel/node": "^5.3.13",
+    "@vercel/node": "^5.5.5",
     "@vercel/speed-insights": "^1.2.0",
     "@vitejs/plugin-vue": "^5.2.4",
     "@vitest/coverage-v8": "^1.6.1",
     "@vue/tsconfig": "^0.5.1",
     "@vueuse/core": "^12.8.2",
-    "ai": "^4.3.19",
+    "ai": "^5.0.90",
     "dotenv": "^16.6.1",
     "feed": "^4.2.2",
     "glob": "^11.0.3",
@@ -59,12 +59,18 @@
     "typescript": "5.9.2",
     "uuid": "^11.1.0",
     "vercel": "^45.0.10",
-    "vite": "^5.4.19",
+    "vite": "^7.2.2",
     "vitepress": "^1.6.4",
     "vitepress-plugin-llms": "^1.8.1",
     "vitest": "^1.6.1",
     "vue": "^3.5.18",
     "zod": "^3.25.76"
+  },
+  "pnpm": {
+    "overrides": {
+      "undici": ">=5.29.0",
+      "esbuild": ">=0.25.0"
+    }
   },
   "prettier": {
     "$schema": "https://json.schemastore.org/prettierrc",
