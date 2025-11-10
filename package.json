@@ -47,6 +47,7 @@
     "lucide-vue-next": "^0.476.0",
     "markdown-it": "^14.1.0",
     "markdown-it-footnote": "^4.0.0",
+    "eslint": "^9.37.0",
     "nanoid": "^5.1.5",
     "node-fetch": "^3.3.2",
     "openai": "^4.104.0",
