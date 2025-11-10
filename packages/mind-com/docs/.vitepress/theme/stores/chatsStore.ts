@@ -58,17 +58,52 @@ export const useChatsStore = defineStore("chats", () => {
     loadFromStorage()
   }
 
-  // Автосохранение при изменениях
+  // Debounced save function для предотвращения слишком частых записей
+  let saveTimeout: number | null = null
+  const debouncedSave = (ids: string[], data: Record<string, ChatInfo>) => {
+    if (saveTimeout) {
+      clearTimeout(saveTimeout)
+    }
+    saveTimeout = window.setTimeout(() => {
+      try {
+        // Ограничиваем количество сохраняемых чатов (последние 50)
+        const maxChats = 50
+        if (ids.length > maxChats) {
+          const chatsToKeep = ids.slice(-maxChats)
+          const filteredData: Record<string, ChatInfo> = {}
+          chatsToKeep.forEach((id) => {
+            if (data[id]) filteredData[id] = data[id]
+          })
+          localStorage.setItem("chat_ids", JSON.stringify(chatsToKeep))
+          localStorage.setItem("chats_data", JSON.stringify(filteredData))
+        } else {
+          localStorage.setItem("chat_ids", JSON.stringify(ids))
+          localStorage.setItem("chats_data", JSON.stringify(data))
+        }
+      } catch (e) {
+        console.error("Error saving chats to storage:", e)
+        // Если не влезает - удаляем старые чаты
+        try {
+          const reducedIds = ids.slice(-20)
+          const reducedData: Record<string, ChatInfo> = {}
+          reducedIds.forEach((id) => {
+            if (data[id]) reducedData[id] = data[id]
+          })
+          localStorage.setItem("chat_ids", JSON.stringify(reducedIds))
+          localStorage.setItem("chats_data", JSON.stringify(reducedData))
+        } catch (fallbackError) {
+          console.error("Failed to save even reduced data:", fallbackError)
+        }
+      }
+    }, 1000) // Сохраняем максимум раз в секунду
+  }
+
+  // Автосохранение при изменениях с debounce
   if (isClient) {
     watch(
       [chatIds, chatsData],
       ([newIds, newData]) => {
-        try {
-          localStorage.setItem("chat_ids", JSON.stringify(newIds))
-          localStorage.setItem("chats_data", JSON.stringify(newData))
-        } catch (e) {
-          console.error("Error saving chats to storage:", e)
-        }
+        debouncedSave(newIds, newData)
       },
       { deep: true },
     )
@@ -171,18 +206,19 @@ export const useChatsStore = defineStore("chats", () => {
     if (!isClient || !chatId) return
 
     if (chatsData.value[chatId]) {
-      const isFirstMessage = chatsData.value[chatId].messages.length === 0 && messages.length > 0
-
       // Обновляем сообщения и временную метку
       chatsData.value[chatId].messages = messages
       chatsData.value[chatId].timestamp = Date.now()
 
-      // Если это первое сообщение и чат временный - публикуем его
-      if (isFirstMessage && chatId === tempChatId.value && !chatIds.value.includes(chatId)) {
-        // Если есть сообщение от пользователя, используем его как заголовок
+      // Проверяем наличие user и assistant сообщений
+      const hasUserMessage = messages.some((msg) => msg.role === "user")
+      const hasAssistantMessage = messages.some((msg) => msg.role === "assistant" && msg.content?.trim())
+
+      // Публикуем чат только когда есть И user сообщение И assistant ответ
+      if (chatId === tempChatId.value && !chatIds.value.includes(chatId) && hasUserMessage && hasAssistantMessage) {
+        // Используем первое сообщение пользователя как заголовок
         const firstUserMessage = messages.find((msg) => msg.role === "user")
-        if (firstUserMessage) {
-          // Задаем заголовок чата
+        if (firstUserMessage && !chatsData.value[chatId].title) {
           chatsData.value[chatId].title = firstUserMessage.content
         }
 

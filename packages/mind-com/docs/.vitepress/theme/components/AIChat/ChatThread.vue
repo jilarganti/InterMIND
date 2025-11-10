@@ -96,6 +96,14 @@ watch(
 
 // Инициализируем composable для UI элементов
 const isStreaming = computed(() => status.value === "streaming")
+
+// Проверяем наличие текстового контента в последнем assistant сообщении
+const hasAssistantContent = computed(() => {
+  if (messages.value.length === 0) return false
+  const lastMessage = messages.value[messages.value.length - 1]
+  return lastMessage.role === "assistant" && lastMessage.content?.trim().length > 0
+})
+
 const { renderMarkdown, scrollToBottom, setupImageClickHandler } = useChatUi(
   messagesContainerRef,
   computed(() => chatFooterRef.value?.textareaRef || null), // передаем textareaRef из ChatFooter
@@ -258,6 +266,7 @@ defineExpose({ insertText, submitTextDirectly })
       :errorMessage="error?.message"
       :debugMode="showRawMessages"
       :currentMode="currentMode"
+      :hasAssistantContent="hasAssistantContent"
       @send="handleSubmitWithScroll"
       @stop="stop"
       @toggle-debug="toggleRawMessages"

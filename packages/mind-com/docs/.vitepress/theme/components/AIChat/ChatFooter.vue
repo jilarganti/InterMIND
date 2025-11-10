@@ -35,6 +35,11 @@ interface Props {
    * Специфичный режим для чата
    */
   currentMode?: string
+
+  /**
+   * Флаг наличия текстового контента в последнем assistant сообщении
+   */
+  hasAssistantContent?: boolean
 }
 
 const props = defineProps<Props>()
@@ -202,9 +207,9 @@ defineExpose({ textareaRef, focusInput })
         >
           <!-- Show ArrowUp when ready to send -->
           <ArrowUp v-if="status !== 'streaming' && status !== 'submitted'" :size="20" />
-          <!-- Show Loader when waiting for response -->
-          <Loader2 v-else-if="status === 'submitted'" :size="20" class="animate-spin" />
-          <!-- Show Square when streaming -->
+          <!-- Show Loader when waiting for response OR streaming without content (tool calls) -->
+          <Loader2 v-else-if="status === 'submitted' || (status === 'streaming' && !hasAssistantContent)" :size="20" class="animate-spin" />
+          <!-- Show Square when streaming WITH content -->
           <Square v-else :size="20" />
         </button>
       </div>
