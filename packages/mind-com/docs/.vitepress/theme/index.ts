@@ -49,6 +49,11 @@ export default {
     // Регистрация моих компонентов пакета
     app.component("AuthButton", AuthButton)
     app.component("ContactForm", ContactForm)
+    // Переопределяем AIChat локальным компонентом (с фиксами)
+    // Удаляем предыдущую регистрацию из shared, чтобы избежать warning
+    if (app._context.components.AIChat) {
+      delete app._context.components.AIChat
+    }
     app.component("AIChat", AIChat)
     app.component("BlogPost", BlogPost)
     app.component("VideoPlayer", VideoPlayer)
