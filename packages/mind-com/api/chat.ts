@@ -28,6 +28,7 @@ interface ChatMessage {
 interface ChatRequest {
   messages: ChatMessage[]
   mode?: "basic" | "followup"
+  language?: string // Локаль текущей страницы (например, "ru", "en", "ar")
 }
 
 /**
@@ -37,18 +38,24 @@ export async function POST(request: Request): Promise<Response> {
   try {
     const body = (await request.json()) as ChatRequest
     let messages = body.messages || []
-    const { mode } = body
+    const { mode = "basic", language = "en" } = body
 
-    console.log(`🔵 API: Получено ${messages.length} сообщений, режим: ${mode}`)
+    console.log(`🔵 API: Получено ${messages.length} сообщений, режим: ${mode}, язык: ${language}`)
 
     let stepCount = 0
+
+    // Заменяем плейсхолдер {{LOCALE}} в системном промпте на реальную локаль
+    const systemPrompt = prompts[mode].prompt.replace(/\{\{LOCALE\}\}/g, language)
+
+    console.log(`🌍 API: Системный промпт подготовлен для локали: ${language}`)
+    console.log(`📝 API: Первые 200 символов промпта: ${systemPrompt.substring(0, 200)}...`)
 
     // Отправляем запрос к ИИ с выбранным системным промптом и инструментами
     const result = streamText({
       // @ts-ignore - type compatibility issue between ai@4.x SDK versions
       model: anthropic(prompts[mode].model),
       messages: messages,
-      system: prompts[mode].prompt,
+      system: systemPrompt,
       maxTokens: prompts[mode].maxTokens,
       temperature: prompts[mode].temperature,
       presencePenalty: prompts[mode].presencePenalty,

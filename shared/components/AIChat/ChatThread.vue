@@ -70,7 +70,7 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
   },
   onFinish: () => {
     console.log("✅ onFinish: стриминг завершен")
-    
+
     // Проверяем, что chatId не изменился во время получения ответа
     if (chatSessionId.value !== props.chatId) return
 
@@ -82,7 +82,7 @@ const { messages, input, handleSubmit, status, error, stop, setMessages } = useC
   },
   onError: () => {
     console.log("❌ onError: произошла ошибка")
-    
+
     // Сбрасываем режим на стандартный после ошибки
     currentMode.value = "basic"
   },
@@ -97,7 +97,7 @@ watch(
       const last = newMessages[newMessages.length - 1]
       console.log(`   Last message: role=${last.role}, contentLength=${last.content?.length || 0}`)
     }
-    
+
     // Просто прокручиваем к последнему сообщению при любых изменениях
     if (status.value === "streaming") {
       scrollToBottom()
