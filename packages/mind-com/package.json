@@ -29,7 +29,20 @@
     "@types/turndown": "^5.0.5",
     "axios": "^1.12.2",
     "markdown-it-task-lists": "^2.1.1",
+    "simple-git-hooks": "^2.13.1",
     "puppeteer": "^24.22.3",
     "turndown": "^7.2.1"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged",
+    "pre-push": "pnpm audit && pnpm build"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "eslint --cache --fix"
+    ],
+    "*.{ts,vue}": [
+      "vitest related --run --project=unit"
+    ]
   }
 }
