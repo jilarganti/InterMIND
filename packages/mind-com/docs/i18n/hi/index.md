@@ -24,8 +24,8 @@ isHome: true
       ],
       link: './product/overview/what-is-intermind',
       src: {
-        light: '/media-kit/animals-cartoon-3-2.png',
-        dark: '/1d.png',
+        light: '/media-kit/animals-cartoon-3-2.webp',
+        dark: '/1d.webp',
       },
       inversion: false,
     }"
@@ -44,8 +44,8 @@ isHome: true
       ],
       link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
       src: {
-        light: '/2l.png',
-        dark: '/2d.png',
+        light: '/2l.webp',
+        dark: '/2d.webp',
       },
       inversion: true,
     }"
@@ -78,7 +78,7 @@ isHome: true
       items: ['✧ [प्राइवेसी ज़ोन](./product/overview/privacy-architecture) — EU, US, SE Asia', '✧ **शून्य डेटा ट्रेनिंग**। कोई तृतीय-पक्ष पहुंच नहीं।'],
       link: './product/overview/privacy-architecture',
       src: {
-        light: '/4l.png',
+        light: '/4l.webp',
         dark: '/4d.png',
       },
       inversion: true,
@@ -114,8 +114,8 @@ isHome: true
         title: 'मीटिंग में शामिल हों',
         details: 'लिंक पर क्लिक करें, नाम दर्ज करें, तुरंत शामिल हों।',
         icon: {
-          light: '/join.png',
-          dark: '/join.png',
+          light: '/join.webp',
+          dark: '/join.webp',
         },
       },
       {

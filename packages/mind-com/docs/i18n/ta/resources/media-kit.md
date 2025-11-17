@@ -19,7 +19,7 @@
 ## Logo
 
 <br>
-<img src="/logo.png" class="transparency-grid" alt="லோகோ" width="300" >
+<img src="/logo.webp" class="transparency-grid" alt="லோகோ" width="300" >
 
 <br>
 <img src="/logo.svg" class="transparency-grid" alt="லோகோ" width="100">
@@ -37,18 +37,18 @@
 ### ஒரே நேர மொழிபெயர்ப்பு
 
 <ImageGrid :images="[
-  { src: '/media-kit/animals-cartoon-3-2.png', alt: 'ஒரே நேர மொழிபெயர்ப்பு' },
-  { src: '/media-kit/animals-cartoon-1-1.png', alt: 'ஒரே நேர மொழிபெயர்ப்பு' },
-  { src: '/media-kit/5.png', alt: 'ஒரே நேர மொழிபெயர்ப்பு' },
-  { src: '/media-kit/6.png', alt: 'ஒரே நேர மொழிபெயர்ப்பு' },
-  { src: '/media-kit/animals-5-4.png', alt: 'ஒரே நேர மொழிபெயர்ப்பு' },
+  { src: '/media-kit/animals-cartoon-3-2.webp', alt: 'ஒரே நேர மொழிபெயர்ப்பு' },
+  { src: '/media-kit/animals-cartoon-1-1.webp', alt: 'ஒரே நேர மொழிபெயர்ப்பு' },
+  { src: '/media-kit/5.webp', alt: 'ஒரே நேர மொழிபெயர்ப்பு' },
+  { src: '/media-kit/6.webp', alt: 'ஒரே நேர மொழிபெயர்ப்பு' },
+  { src: '/media-kit/animals-5-4.webp', alt: 'ஒரே நேர மொழிபெயர்ப்பு' },
 ]"/>
 
 ### உங்கள் அனைத்து கூட்டங்களிலும் தேடுங்கள்
 
 <ImageGrid :images="[
-  { src: '/2d.png', alt: 'ஒரே நேர மொழிபெயர்ப்பு' },
-  { src: '/2l.png', alt: 'ஒரே நேர மொழிபெயர்ப்பு' },
+  { src: '/2d.webp', alt: 'ஒரே நேர மொழிபெயர்ப்பு' },
+  { src: '/2l.webp', alt: 'ஒரே நேர மொழிபெயர்ப்பு' },
 ]"/>
 
 <style>

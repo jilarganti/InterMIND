@@ -15,7 +15,7 @@ Geleneksel çeviri araçlarının aksine, InterMIND sadece kelimeleri dönüşt�
 
 [^1]: Tercümanlık, konuşulan veya işaret diliyle yapılan bir dilden başka bir dile, genellikle canlı iletişimi kolaylaştırmak için gerçek zamanlı olarak yapılan çeviridir. [Wiki](https://en.wikipedia.org/wiki/Language_interpretation)
 
-![](/1d.png)
+![](/1d.webp)
 
 ## İletişim Verimliliğinin Evrimi
 

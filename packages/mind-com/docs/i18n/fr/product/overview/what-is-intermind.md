@@ -15,7 +15,7 @@ Contrairement aux outils de traduction traditionnels, InterMIND ne se contente p
 
 [^1]: L'interprétation est la traduction d'une langue parlée ou signée vers une autre langue, généralement en temps réel pour faciliter la communication en direct. [Wiki](https://en.wikipedia.org/wiki/Language_interpretation)
 
-![](/1d.png)
+![](/1d.webp)
 
 ## L'évolution de l'efficacité de la communication
 

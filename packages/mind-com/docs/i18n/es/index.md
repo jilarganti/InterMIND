@@ -24,8 +24,8 @@ isHome: true
       ],
       link: './product/overview/what-is-intermind',
       src: {
-        light: '/media-kit/animals-cartoon-3-2.png',
-        dark: '/1d.png',
+        light: '/media-kit/animals-cartoon-3-2.webp',
+        dark: '/1d.webp',
       },
       inversion: false,
     }"
@@ -44,8 +44,8 @@ isHome: true
       ],
       link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
       src: {
-        light: '/2l.png',
-        dark: '/2d.png',
+        light: '/2l.webp',
+        dark: '/2d.webp',
       },
       inversion: true,
     }"
@@ -78,7 +78,7 @@ isHome: true
       items: ['✧ [Zonas de Privacidad](./product/overview/privacy-architecture) — UE, EE.UU., Sudeste Asiático', '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'],
       link: './product/overview/privacy-architecture',
       src: {
-        light: '/4l.png',
+        light: '/4l.webp',
         dark: '/4d.png',
       },
       inversion: true,
@@ -114,8 +114,8 @@ Interfaz familiar. Comunicación universal. La misma facilidad que Google Meet �
         title: 'Únete a la reunión',
         details: 'Haz clic en el enlace, ingresa tu nombre, únete al instante.',
         icon: {
-          light: '/join.png',
-          dark: '/join.png',
+          light: '/join.webp',
+          dark: '/join.webp',
         },
       },
       {

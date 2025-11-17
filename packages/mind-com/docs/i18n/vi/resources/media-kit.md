@@ -19,7 +19,7 @@ Xin chào! Đây là bộ sưu tập các tài nguyên tiếp thị và hướng
 ## Logo
 
 <br>
-<img src="/logo.png" class="transparency-grid" alt="biểu tượng" width="300" >
+<img src="/logo.webp" class="transparency-grid" alt="biểu tượng" width="300" >
 
 <br>
 <img src="/logo.svg" class="transparency-grid" alt="biểu tượng" width="100">
@@ -37,18 +37,18 @@ Xin chào! Đây là bộ sưu tập các tài nguyên tiếp thị và hướng
 ### Phiên dịch đồng thời
 
 <ImageGrid :images="[
-  { src: '/media-kit/animals-cartoon-3-2.png', alt: 'Phiên dịch đồng thời' },
-  { src: '/media-kit/animals-cartoon-1-1.png', alt: 'Phiên dịch đồng thời' },
-  { src: '/media-kit/5.png', alt: 'Phiên dịch đồng thời' },
-  { src: '/media-kit/6.png', alt: 'Phiên dịch đồng thời' },
-  { src: '/media-kit/animals-5-4.png', alt: 'Phiên dịch đồng thời' },
+  { src: '/media-kit/animals-cartoon-3-2.webp', alt: 'Phiên dịch đồng thời' },
+  { src: '/media-kit/animals-cartoon-1-1.webp', alt: 'Phiên dịch đồng thời' },
+  { src: '/media-kit/5.webp', alt: 'Phiên dịch đồng thời' },
+  { src: '/media-kit/6.webp', alt: 'Phiên dịch đồng thời' },
+  { src: '/media-kit/animals-5-4.webp', alt: 'Phiên dịch đồng thời' },
 ]"/>
 
 ### Tìm kiếm trong tất cả các cuộc họp của bạn
 
 <ImageGrid :images="[
-  { src: '/2d.png', alt: 'Phiên dịch đồng thời' },
-  { src: '/2l.png', alt: 'Phiên dịch đồng thời' },
+  { src: '/2d.webp', alt: 'Phiên dịch đồng thời' },
+  { src: '/2l.webp', alt: 'Phiên dịch đồng thời' },
 ]"/>
 
 <style>

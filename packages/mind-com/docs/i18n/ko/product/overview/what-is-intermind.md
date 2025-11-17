@@ -15,7 +15,7 @@ InterMIND는 언어 학습을 불필요하게 만드는 세계 최초의 화상 
 
 [^1]: 통역은 구어 또는 수어를 다른 언어로 번역하는 것으로, 보통 실시간으로 이루어져 실시간 의사소통을 촉진합니다. [Wiki](https://en.wikipedia.org/wiki/Language_interpretation)
 
-![](/1d.png)
+![](/1d.webp)
 
 ## 커뮤니케이션 효율성의 진화
 

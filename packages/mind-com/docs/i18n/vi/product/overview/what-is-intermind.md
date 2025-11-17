@@ -15,7 +15,7 @@ Không giống như các công cụ dịch thuật truyền thống, InterMIND k
 
 [^1]: Phiên dịch là việc dịch từ ngôn ngữ nói hoặc ký hiệu sang ngôn ngữ khác, thường là theo thời gian thực để tạo điều kiện giao tiếp trực tiếp. [Wiki](https://en.wikipedia.org/wiki/Language_interpretation)
 
-![](/1d.png)
+![](/1d.webp)
 
 ## Sự tiến hóa của hiệu quả giao tiếp
 

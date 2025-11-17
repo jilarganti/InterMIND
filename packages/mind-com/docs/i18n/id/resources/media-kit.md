@@ -19,7 +19,7 @@ Untuk mengedit dan mengunduh, klik kanan dan pilih Edit gambar
 ## Logo
 
 <br>
-<img src="/logo.png" class="transparency-grid" alt="logo" width="300" >
+<img src="/logo.webp" class="transparency-grid" alt="logo" width="300" >
 
 <br>
 <img src="/logo.svg" class="transparency-grid" alt="logo" width="100">
@@ -37,18 +37,18 @@ Untuk mengedit dan mengunduh, klik kanan dan pilih Edit gambar
 ### Interpretasi simultan
 
 <ImageGrid :images="[
-  { src: '/media-kit/animals-cartoon-3-2.png', alt: 'Interpretasi simultan' },
-  { src: '/media-kit/animals-cartoon-1-1.png', alt: 'Interpretasi simultan' },
-  { src: '/media-kit/5.png', alt: 'Interpretasi simultan' },
-  { src: '/media-kit/6.png', alt: 'Interpretasi simultan' },
-  { src: '/media-kit/animals-5-4.png', alt: 'Interpretasi simultan' },
+  { src: '/media-kit/animals-cartoon-3-2.webp', alt: 'Interpretasi simultan' },
+  { src: '/media-kit/animals-cartoon-1-1.webp', alt: 'Interpretasi simultan' },
+  { src: '/media-kit/5.webp', alt: 'Interpretasi simultan' },
+  { src: '/media-kit/6.webp', alt: 'Interpretasi simultan' },
+  { src: '/media-kit/animals-5-4.webp', alt: 'Interpretasi simultan' },
 ]"/>
 
 ### Cari di semua rapat Anda
 
 <ImageGrid :images="[
-  { src: '/2d.png', alt: 'Interpretasi simultan' },
-  { src: '/2l.png', alt: 'Interpretasi simultan' },
+  { src: '/2d.webp', alt: 'Interpretasi simultan' },
+  { src: '/2l.webp', alt: 'Interpretasi simultan' },
 ]"/>
 
 <style>

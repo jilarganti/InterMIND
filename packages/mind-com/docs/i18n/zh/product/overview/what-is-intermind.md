@@ -15,7 +15,7 @@ InterMIND是世界上第一个让语言学习变得过时的视频会议平台�
 
 [^1]: 传译是将口语或手语翻译成另一种语言，通常是实时进行以促进现场交流。[Wiki](https://en.wikipedia.org/wiki/Language_interpretation)
 
-![](/1d.png)
+![](/1d.webp)
 
 ## 沟通效率的演进
 

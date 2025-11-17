@@ -15,7 +15,7 @@ InterMINDは、語学学習を不要にする世界初のビデオ会議プラ�
 
 [^1]: 通訳とは、話し言葉や手話から別の言語への翻訳で、通常はリアルタイムでライブコミュニケーションを促進するために行われます。[Wiki](https://en.wikipedia.org/wiki/Language_interpretation)
 
-![](/1d.png)
+![](/1d.webp)
 
 ## コミュニケーション効率の進化
 

@@ -19,7 +19,7 @@
 ## Logo
 
 <br>
-<img src="/logo.png" class="transparency-grid" alt="लोगो" width="300" >
+<img src="/logo.webp" class="transparency-grid" alt="लोगो" width="300" >
 
 <br>
 <img src="/logo.svg" class="transparency-grid" alt="लोगो" width="100">
@@ -37,18 +37,18 @@
 ### समकालिक अनुवाद
 
 <ImageGrid :images="[
-  { src: '/media-kit/animals-cartoon-3-2.png', alt: 'समकालिक अनुवाद' },
-  { src: '/media-kit/animals-cartoon-1-1.png', alt: 'समकालिक अनुवाद' },
-  { src: '/media-kit/5.png', alt: 'समकालिक अनुवाद' },
-  { src: '/media-kit/6.png', alt: 'समकालिक अनुवाद' },
-  { src: '/media-kit/animals-5-4.png', alt: 'समकालिक अनुवाद' },
+  { src: '/media-kit/animals-cartoon-3-2.webp', alt: 'समकालिक अनुवाद' },
+  { src: '/media-kit/animals-cartoon-1-1.webp', alt: 'समकालिक अनुवाद' },
+  { src: '/media-kit/5.webp', alt: 'समकालिक अनुवाद' },
+  { src: '/media-kit/6.webp', alt: 'समकालिक अनुवाद' },
+  { src: '/media-kit/animals-5-4.webp', alt: 'समकालिक अनुवाद' },
 ]"/>
 
 ### अपनी सभी मीटिंग्स में खोजें
 
 <ImageGrid :images="[
-  { src: '/2d.png', alt: 'समकालिक अनुवाद' },
-  { src: '/2l.png', alt: 'समकालिक अनुवाद' },
+  { src: '/2d.webp', alt: 'समकालिक अनुवाद' },
+  { src: '/2l.webp', alt: 'समकालिक अनुवाद' },
 ]"/>
 
 <style>

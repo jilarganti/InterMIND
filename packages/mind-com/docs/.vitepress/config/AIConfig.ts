@@ -91,12 +91,12 @@ Unlike traditional translation tools, InterMIND doesn't just convert words — i
 
 [^1]: Interpreting is translation from a spoken or signed language into another language, usually in real time to facilitate live communication. [Wiki](https://en.wikipedia.org/wiki/Language_interpretation)
 
-![](/1d.png)
+![](/1d.webp)
 [Source](product/overview/what-is-intermind)
 Relevance: 60%
 </example>
 
-В ответ надо добавить: найденное изображение ![](/1d.png); найденные ссылки: [Source](product/overview/what-is-intermind) и/или [Wiki](https://en.wikipedia.org/wiki/Language_interpretation); найденные цитаты: > [!info] ✅ Your time is better spent mastering your craft — not memorizing grammar и/или > [!warning] 🛑 Either you speak every language — or someone else closes your deals.
+В ответ надо добавить: найденное изображение ![](/1d.webp); найденные ссылки: [Source](product/overview/what-is-intermind) и/или [Wiki](https://en.wikipedia.org/wiki/Language_interpretation); найденные цитаты: > [!info] ✅ Your time is better spent mastering your craft — not memorizing grammar и/или > [!warning] 🛑 Either you speak every language — or someone else closes your deals.
 
 ПОДДЕРЖИВАЕМЫЕ ALERTS (используй их для важной информации):
 > [!info] - Информация и полезные факты

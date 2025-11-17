@@ -24,8 +24,8 @@ isHome: true
       ],
       link: './product/overview/what-is-intermind',
       src: {
-        light: '/media-kit/animals-cartoon-3-2.png',
-        dark: '/1d.png',
+        light: '/media-kit/animals-cartoon-3-2.webp',
+        dark: '/1d.webp',
       },
       inversion: false,
     }"
@@ -44,8 +44,8 @@ isHome: true
       ],
       link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
       src: {
-        light: '/2l.png',
-        dark: '/2d.png',
+        light: '/2l.webp',
+        dark: '/2d.webp',
       },
       inversion: true,
     }"
@@ -78,7 +78,7 @@ isHome: true
       items: ['✧ [தனியுரிமை மண்டலங்கள்](./product/overview/privacy-architecture) — EU, US, SE Asia', '✧ **பூஜ்ஜிய தரவு பயிற்சி**. மூன்றாம் தரப்பு அணுகல் இல்லை.'],
       link: './product/overview/privacy-architecture',
       src: {
-        light: '/4l.png',
+        light: '/4l.webp',
         dark: '/4d.png',
       },
       inversion: true,
@@ -114,8 +114,8 @@ isHome: true
         title: 'கூட்டத்தில் சேருங்கள்',
         details: 'இணைப்பைக் கிளிக் செய்து, பெயரை உள்ளிட்டு, உடனடியாக சேருங்கள்.',
         icon: {
-          light: '/join.png',
-          dark: '/join.png',
+          light: '/join.webp',
+          dark: '/join.webp',
         },
       },
       {

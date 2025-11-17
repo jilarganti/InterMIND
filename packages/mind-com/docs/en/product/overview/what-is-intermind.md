@@ -15,7 +15,7 @@ Unlike traditional translation tools, InterMIND doesn't just convert words — i
 
 [^1]: Interpreting is translation from a spoken or signed language into another language, usually in real time to facilitate live communication. [Wiki](https://en.wikipedia.org/wiki/Language_interpretation)
 
-![](/1d.png)
+![](/1d.webp)
 
 ## The Evolution of Communication Efficiency
 

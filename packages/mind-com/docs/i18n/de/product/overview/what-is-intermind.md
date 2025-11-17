@@ -15,7 +15,7 @@ Im Gegensatz zu herkömmlichen Übersetzungstools konvertiert InterMIND nicht nu
 
 [^1]: Dolmetschen ist die Übertragung einer gesprochenen oder gebärdeten Sprache in eine andere Sprache, normalerweise in Echtzeit, um Live-Kommunikation zu ermöglichen. [Wiki](https://en.wikipedia.org/wiki/Language_interpretation)
 
-![](/1d.png)
+![](/1d.webp)
 
 ## Die Evolution der Kommunikationseffizienz
 

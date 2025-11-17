@@ -19,7 +19,7 @@ Pour modifier et télécharger, faites un clic droit et sélectionnez Modifier l
 ## Logo
 
 <br>
-<img src="/logo.png" class="transparency-grid" alt="logo" width="300" >
+<img src="/logo.webp" class="transparency-grid" alt="logo" width="300" >
 
 <br>
 <img src="/logo.svg" class="transparency-grid" alt="logo" width="100">
@@ -37,18 +37,18 @@ Pour modifier et télécharger, faites un clic droit et sélectionnez Modifier l
 ### Interprétation simultanée
 
 <ImageGrid :images="[
-  { src: '/media-kit/animals-cartoon-3-2.png', alt: 'Interprétation simultanée' },
-  { src: '/media-kit/animals-cartoon-1-1.png', alt: 'Interprétation simultanée' },
-  { src: '/media-kit/5.png', alt: 'Interprétation simultanée' },
-  { src: '/media-kit/6.png', alt: 'Interprétation simultanée' },
-  { src: '/media-kit/animals-5-4.png', alt: 'Interprétation simultanée' },
+  { src: '/media-kit/animals-cartoon-3-2.webp', alt: 'Interprétation simultanée' },
+  { src: '/media-kit/animals-cartoon-1-1.webp', alt: 'Interprétation simultanée' },
+  { src: '/media-kit/5.webp', alt: 'Interprétation simultanée' },
+  { src: '/media-kit/6.webp', alt: 'Interprétation simultanée' },
+  { src: '/media-kit/animals-5-4.webp', alt: 'Interprétation simultanée' },
 ]"/>
 
 ### Recherche dans toutes vos réunions
 
 <ImageGrid :images="[
-  { src: '/2d.png', alt: 'Interprétation simultanée' },
-  { src: '/2l.png', alt: 'Interprétation simultanée' },
+  { src: '/2d.webp', alt: 'Interprétation simultanée' },
+  { src: '/2l.webp', alt: 'Interprétation simultanée' },
 ]"/>
 
 <style>

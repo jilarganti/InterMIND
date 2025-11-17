@@ -19,7 +19,7 @@ Para editar y descargar, haz clic derecho y selecciona Editar imagen
 ## Logo
 
 <br>
-<img src="/logo.png" class="transparency-grid" alt="logotipo" width="300" >
+<img src="/logo.webp" class="transparency-grid" alt="logotipo" width="300" >
 
 <br>
 <img src="/logo.svg" class="transparency-grid" alt="logotipo" width="100">
@@ -37,18 +37,18 @@ Para editar y descargar, haz clic derecho y selecciona Editar imagen
 ### Interpretación simultánea
 
 <ImageGrid :images="[
-  { src: '/media-kit/animals-cartoon-3-2.png', alt: 'Interpretación simultánea' },
-  { src: '/media-kit/animals-cartoon-1-1.png', alt: 'Interpretación simultánea' },
-  { src: '/media-kit/5.png', alt: 'Interpretación simultánea' },
-  { src: '/media-kit/6.png', alt: 'Interpretación simultánea' },
-  { src: '/media-kit/animals-5-4.png', alt: 'Interpretación simultánea' },
+  { src: '/media-kit/animals-cartoon-3-2.webp', alt: 'Interpretación simultánea' },
+  { src: '/media-kit/animals-cartoon-1-1.webp', alt: 'Interpretación simultánea' },
+  { src: '/media-kit/5.webp', alt: 'Interpretación simultánea' },
+  { src: '/media-kit/6.webp', alt: 'Interpretación simultánea' },
+  { src: '/media-kit/animals-5-4.webp', alt: 'Interpretación simultánea' },
 ]"/>
 
 ### Busca en todas tus reuniones
 
 <ImageGrid :images="[
-  { src: '/2d.png', alt: 'Interpretación simultánea' },
-  { src: '/2l.png', alt: 'Interpretación simultánea' },
+  { src: '/2d.webp', alt: 'Interpretación simultánea' },
+  { src: '/2l.webp', alt: 'Interpretación simultánea' },
 ]"/>
 
 <style>

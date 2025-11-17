@@ -19,7 +19,7 @@ To edit and download, right click and select Edit image
 ## Logo
 
 <br>
-<img src="/logo.png" class="transparency-grid" alt="logo" width="300" >
+<img src="/logo.webp" class="transparency-grid" alt="logo" width="300" >
 
 <br>
 <img src="/logo.svg" class="transparency-grid" alt="logo" width="100">
@@ -37,18 +37,18 @@ To edit and download, right click and select Edit image
 ### Simultaneous interpretation
 
 <ImageGrid :images="[
-  { src: '/media-kit/animals-cartoon-3-2.png', alt: 'Simultaneous interpretation' },
-  { src: '/media-kit/animals-cartoon-1-1.png', alt: 'Simultaneous interpretation' },
-  { src: '/media-kit/5.png', alt: 'Simultaneous interpretation' },
-  { src: '/media-kit/6.png', alt: 'Simultaneous interpretation' },
-  { src: '/media-kit/animals-5-4.png', alt: 'Simultaneous interpretation' },
+  { src: '/media-kit/animals-cartoon-3-2.webp', alt: 'Simultaneous interpretation' },
+  { src: '/media-kit/animals-cartoon-1-1.webp', alt: 'Simultaneous interpretation' },
+  { src: '/media-kit/5.webp', alt: 'Simultaneous interpretation' },
+  { src: '/media-kit/6.webp', alt: 'Simultaneous interpretation' },
+  { src: '/media-kit/animals-5-4.webp', alt: 'Simultaneous interpretation' },
 ]"/>
 
 ### Search across all your meetings
 
 <ImageGrid :images="[
-  { src: '/2d.png', alt: 'Simultaneous interpretation' },
-  { src: '/2l.png', alt: 'Simultaneous interpretation' },
+  { src: '/2d.webp', alt: 'Simultaneous interpretation' },
+  { src: '/2l.webp', alt: 'Simultaneous interpretation' },
 ]"/>
 
 <style>

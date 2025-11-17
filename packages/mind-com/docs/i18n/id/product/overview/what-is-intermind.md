@@ -15,7 +15,7 @@ Tidak seperti alat terjemahan tradisional, InterMIND tidak hanya mengonversi kat
 
 [^1]: Interpretasi adalah terjemahan dari bahasa lisan atau isyarat ke bahasa lain, biasanya secara real time untuk memfasilitasi komunikasi langsung. [Wiki](https://en.wikipedia.org/wiki/Language_interpretation)
 
-![](/1d.png)
+![](/1d.webp)
 
 ## Evolusi Efisiensi Komunikasi
 

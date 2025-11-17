@@ -15,7 +15,7 @@ A diferencia de las herramientas de traducción tradicionales, InterMIND no solo
 
 [^1]: La interpretación es la traducción de un idioma hablado o de señas a otro idioma, generalmente en tiempo real para facilitar la comunicación en vivo. [Wiki](https://en.wikipedia.org/wiki/Language_interpretation)
 
-![](/1d.png)
+![](/1d.webp)
 
 ## La evolución de la eficiencia en la comunicación
 

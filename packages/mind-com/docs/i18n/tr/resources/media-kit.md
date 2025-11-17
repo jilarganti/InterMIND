@@ -19,7 +19,7 @@ Düzenlemek ve indirmek için sağ tıklayın ve Resmi düzenle seçeneğini se�
 ## Logo
 
 <br>
-<img src="/logo.png" class="transparency-grid" alt="logo" width="300" >
+<img src="/logo.webp" class="transparency-grid" alt="logo" width="300" >
 
 <br>
 <img src="/logo.svg" class="transparency-grid" alt="logo" width="100">
@@ -37,18 +37,18 @@ Düzenlemek ve indirmek için sağ tıklayın ve Resmi düzenle seçeneğini se�
 ### Eşzamanlı çeviri
 
 <ImageGrid :images="[
-  { src: '/media-kit/animals-cartoon-3-2.png', alt: 'Eşzamanlı çeviri' },
-  { src: '/media-kit/animals-cartoon-1-1.png', alt: 'Eşzamanlı çeviri' },
-  { src: '/media-kit/5.png', alt: 'Eşzamanlı çeviri' },
-  { src: '/media-kit/6.png', alt: 'Eşzamanlı çeviri' },
-  { src: '/media-kit/animals-5-4.png', alt: 'Eşzamanlı çeviri' },
+  { src: '/media-kit/animals-cartoon-3-2.webp', alt: 'Eşzamanlı çeviri' },
+  { src: '/media-kit/animals-cartoon-1-1.webp', alt: 'Eşzamanlı çeviri' },
+  { src: '/media-kit/5.webp', alt: 'Eşzamanlı çeviri' },
+  { src: '/media-kit/6.webp', alt: 'Eşzamanlı çeviri' },
+  { src: '/media-kit/animals-5-4.webp', alt: 'Eşzamanlı çeviri' },
 ]"/>
 
 ### Tüm toplantılarınızda arama yapın
 
 <ImageGrid :images="[
-  { src: '/2d.png', alt: 'Eşzamanlı çeviri' },
-  { src: '/2l.png', alt: 'Eşzamanlı çeviri' },
+  { src: '/2d.webp', alt: 'Eşzamanlı çeviri' },
+  { src: '/2l.webp', alt: 'Eşzamanlı çeviri' },
 ]"/>
 
 <style>

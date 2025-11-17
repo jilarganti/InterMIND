@@ -19,7 +19,7 @@
 ## Logo
 
 <br>
-<img src="/logo.png" class="transparency-grid" alt="ロゴ" width="300" >
+<img src="/logo.webp" class="transparency-grid" alt="ロゴ" width="300" >
 
 <br>
 <img src="/logo.svg" class="transparency-grid" alt="ロゴ" width="100">
@@ -37,18 +37,18 @@
 ### 同時通訳
 
 <ImageGrid :images="[
-  { src: '/media-kit/animals-cartoon-3-2.png', alt: '同時通訳' },
-  { src: '/media-kit/animals-cartoon-1-1.png', alt: '同時通訳' },
-  { src: '/media-kit/5.png', alt: '同時通訳' },
-  { src: '/media-kit/6.png', alt: '同時通訳' },
-  { src: '/media-kit/animals-5-4.png', alt: '同時通訳' },
+  { src: '/media-kit/animals-cartoon-3-2.webp', alt: '同時通訳' },
+  { src: '/media-kit/animals-cartoon-1-1.webp', alt: '同時通訳' },
+  { src: '/media-kit/5.webp', alt: '同時通訳' },
+  { src: '/media-kit/6.webp', alt: '同時通訳' },
+  { src: '/media-kit/animals-5-4.webp', alt: '同時通訳' },
 ]"/>
 
 ### すべての会議を横断検索
 
 <ImageGrid :images="[
-  { src: '/2d.png', alt: '同時通訳' },
-  { src: '/2l.png', alt: '同時通訳' },
+  { src: '/2d.webp', alt: '同時通訳' },
+  { src: '/2l.webp', alt: '同時通訳' },
 ]"/>
 
 <style>
