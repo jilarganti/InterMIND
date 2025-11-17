@@ -9,6 +9,7 @@
     "dev": "pnpm dev:FE & pnpm dev:BE",
     "prebuild": "pnpm run index:docs && pnpm run test:unit",
     "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
     "test": "vitest --run --coverage",
     "test:unit": "vitest --run __tests__/unit",
     "test:watch": "vitest",
