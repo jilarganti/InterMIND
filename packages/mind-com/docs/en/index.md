@@ -230,7 +230,17 @@ From first call to fluent conversations — at any scale.
 
 <AuthButton text="Get started" button-class="brand" event-name="get_started_attempt"/>
 <AuthButton text="Buy now" mode="checkout" eventName="buy_now_attempt" />
-<ContactForm buttonText="Talk to our team" buttonClass="alt" />
+<ContactForm 
+  buttonText="Talk to our team" 
+  buttonClass="alt"
+  :services="[
+    'Get a custom quote for Business plan',
+    'Discuss enterprise features and Privacy Zones',
+    'Schedule a demo for my team',
+    'Questions about team onboarding (100+ users)',
+    'Integration and technical requirements',
+    'Other business inquiry'
+  ]" />
 </PricingPlans>
 
 > 💡 **_Your time is better spent mastering your craft — not memorizing grammar._**  
