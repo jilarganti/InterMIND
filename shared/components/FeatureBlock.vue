@@ -34,7 +34,7 @@ const props = defineProps<{
   }
 }>()
 
-const { isDark } = useData()
+const { isDark, lang, page } = useData()
 const { navigateTo } = useLocalizedPath()
 
 // Определяем источник медиа в зависимости от темы
@@ -75,17 +75,17 @@ const mediaClass = computed(() => ({
 // Рендерим маркдаун в HTML
 const renderedDescription = computed(() => {
   if (!props.card.details) return ""
-  return renderMarkdown(props.card.details)
+  return renderMarkdown(props.card.details, lang.value, "/" + page.value.relativePath)
 })
 
 const renderedTitle = computed(() => {
   if (!props.card.title) return ""
-  return renderMarkdown(props.card.title)
+  return renderMarkdown(props.card.title, lang.value, "/" + page.value.relativePath)
 })
 
 // Рендерим маркдаун в элементах списка
 const renderedItems = computed(() => {
-  return props.card.items?.map((item) => renderMarkdown(item)) || []
+  return props.card.items?.map((item) => renderMarkdown(item, lang.value, "/" + page.value.relativePath)) || []
 })
 </script>
 

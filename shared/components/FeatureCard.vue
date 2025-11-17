@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from "vue"
+import { useData } from "vitepress"
 import { renderMarkdown } from "../utils/markdown" // Импортируем утилиту для рендеринга маркдауна
 import { useLocalizedPath } from "../utils/locale" // Импортируем утилиту для локализованных путей
 
@@ -17,6 +18,7 @@ const props = defineProps<{
   bullet?: string
 }>()
 
+const { lang, page } = useData()
 const { navigateTo } = useLocalizedPath()
 
 const bulletStyle = computed(() => props.bullet || "•")
@@ -28,17 +30,17 @@ const isVideoDark = computed(() => props.images?.dark?.toLowerCase().match(/\.(m
 
 // Обработка маркдауна в заголовке и описании
 const renderedTitle = computed(() => {
-  return renderMarkdown(props.title)
+  return renderMarkdown(props.title, lang.value, "/" + page.value.relativePath)
 })
 
 const renderedDetails = computed(() => {
   // if (!props.details) return ""
-  return renderMarkdown(props.details ? props.details : "")
+  return renderMarkdown(props.details ? props.details : "", lang.value, "/" + page.value.relativePath)
 })
 
 // Обработка маркдауна в элементах списка
 const renderedItems = computed(() => {
-  return props.items?.map((item) => renderMarkdown(item)) || []
+  return props.items?.map((item) => renderMarkdown(item, lang.value, "/" + page.value.relativePath)) || []
 })
 
 // Обработчик клика по карточке с использованием локализованного пути

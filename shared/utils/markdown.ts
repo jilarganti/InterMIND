@@ -2,7 +2,6 @@
 
 import MarkdownIt from "markdown-it"
 import { createLocalizedPath } from "./locale"
-import { useData } from "vitepress"
 
 // Создаем экземпляр markdown-it с нужными опциями
 const md = new MarkdownIt({
@@ -55,25 +54,11 @@ md.renderer.rules.link_open = (tokens, idx, options, env, self) => {
 /**
  * Рендерит маркдаун в HTML с локализацией ссылок
  * @param text Текст в формате маркдаун
+ * @param locale Локаль (необязательно, по умолчанию "en")
+ * @param currentPath Текущий путь (необязательно, по умолчанию "/")
  * @returns HTML
  */
-export function renderMarkdown(text: string): string {
-  // Попытка получить текущую локаль и путь
-  let locale = "en"
-  let currentPath = "/"
-
-  try {
-    // В VitePress окружении useData доступен
-    if (typeof useData === "function") {
-      const { lang, page } = useData()
-      locale = lang.value
-      currentPath = "/" + page.value.relativePath
-    }
-  } catch (e) {
-    // Если не удалось получить данные через useData, используем значения по умолчанию
-    console.warn("Не удалось получить локаль из VitePress context:", e)
-  }
-
+export function renderMarkdown(text: string, locale: string = "en", currentPath: string = "/"): string {
   // Передаем локаль и текущий путь в окружение маркдауна
   return md.render(text, { locale, currentPath })
 }
