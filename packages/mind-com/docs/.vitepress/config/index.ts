@@ -59,19 +59,6 @@ export default defineConfig({
       pageData.frontmatter.dir = "rtl"
     }
 
-    // Preload LCP image for homepage
-    if (pagePath === "" || pagePath === "en") {
-      pageData.frontmatter.head.push([
-        "link",
-        {
-          rel: "preload",
-          href: "/media-kit/animals-cartoon-3-2.webp",
-          as: "image",
-          fetchpriority: "high",
-        },
-      ])
-    }
-
     // Disable footer for all blog pages
     if (pagePath.includes("/posts/")) {
       // pageData.frontmatter.footer = false
