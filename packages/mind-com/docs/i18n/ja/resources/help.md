@@ -1,17 +1,17 @@
 ---
-description: "AI搭載会議通訳、多言語コミュニケーション、企業導入についてご質問はありませんか？迅速で人間的、そして混乱のないサポートを提供いたします。"
+description: "AI搭載会議通訳、多言語コミュニケーション、企業導入についてご質問はありませんか？迅速で人間的、そして混乱のないサポートをご提供します。"
 ---
 
 # 💬 サポートが必要ですか？遅延なし、混乱なし — ただ答えを。
 
-達成したい目標をお聞かせください — 前進をお手伝いいたします。  
-迅速で集中的、そして実際の人間が対応いたします。
+達成したい目標をお聞かせください — 前進をお手伝いします。  
+迅速で集中的、そして実際の人間が対応します。
 
 <!-- <br>
 
 <ContactForm
   formStyle="margin: 1rem auto;"
-  categoryLabel="本日InterMindにお越しいただいた理由は何ですか？ *"
+  categoryLabel="本日InterMindにお越しいただいた理由は？ *"
   categoryPlaceholderText="主な理由をお選びください…"
   messageLabel="詳細をお聞かせください *"
   messagePlaceholderText="目標、背景、技術的詳細など、共有したいことがあればお聞かせください。"
@@ -36,7 +36,7 @@ description: "AI搭載会議通訳、多言語コミュニケーション、企�
 <ContactForm 
   :inline="true"
   formStyle="margin: 1rem auto;"  
-  categoryLabel="本日InterMindにお越しいただいた理由は何ですか？ *"  
+  categoryLabel="本日InterMindにお越しいただいた理由は？ *"  
   categoryPlaceholderText="主な理由をお選びください…"  
   messageLabel="詳細をお聞かせください *"  
   messagePlaceholderText="目標、背景、技術的詳細など、共有したいことがあればお聞かせください。"  

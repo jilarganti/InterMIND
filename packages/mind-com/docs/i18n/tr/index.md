@@ -7,7 +7,7 @@ isHome: true
 
 <!-- <HeroSection title="**Herhangi** Bir Dilde Buluşun" :typingSpeed="10" text="Video aramalarında canlı konuşma çevirisi. Anında anlayış, engel yok."> -->
 
-<HeroSection title="**Herhangi** Bir Dili Anlayın" :typingSpeed="20" text="Video toplantıları sırasında eşzamanlı tercümanlık. Dil engellerini anında aşın.">
+<HeroSection title="**Herhangi** Bir Dili Anlayın" :typingSpeed="20" text="Anında **Ses** Çevirisi ile Çok Dilli Video Toplantıları">
 <NavButton buttonLabel="Demo izle" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="Asistan" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
@@ -17,7 +17,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Çeviri ≠ Anlayış. İşte sıradaki adım.',
-      details: 'Dil ne olursa olsun, sesiniz duyulur — ve aynı dili paylaşıyormuşsunuz gibi anlaşılır.',
+      details: 'Dil ne olursa olsun, sesiniz duyulur — ve anlaşılır — sanki aynı dili paylaşıyormuşsunuz gibi.',
       items: [
         '✧ Doğal olarak, [gerçek zamanlı](./product/overview/how-it-works) ve altyazı veya gecikme olmadan.',
         '✧ AI destekli tercümanlık ton, niyet ve sektöre özel terminolojiyi yakalar.',
@@ -56,7 +56,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Ciddi Toplantılar İçin Tasarlandı — Sadece Konuşmak İçin Değil',
-      details: 'InterMind [profesyonel seviye bir video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
+      details: 'InterMind [profesyonel seviye video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
       items: [
         '✧ 1080p çözünürlük, akıllı gürültü bastırma, planlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
       ],
@@ -74,7 +74,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Önemli Olan Yerde Gizlilik',
-      details: 'InterMind güven gerektiren konuşmalar için tasarlanmıştır — gizlilik ve kontrolün en önemli olduğu yerde.',
+      details: 'InterMind güven gerektiren konuşmalar için tasarlandı — gizlilik ve kontrolün en önemli olduğu yerde.',
       items: ['✧ [Gizlilik Bölgeleri](./product/overview/privacy-architecture) — AB, ABD, Güneydoğu Asya', '✧ **Sıfır veri eğitimi**. Üçüncü taraf erişimi yok.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -86,7 +86,7 @@ isHome: true
   />
 
 > **Bu kimler için?**  
-> _Dil engellerinin gecikmelere, kaybedilen anlaşmalara veya maliyetli yanlış anlamalara neden olduğu uluslararası ekipler için tasarlanmıştır._ [Daha fazla bilgi ...](./product/overview/markets)
+> _Dil engellerinin gecikmelere, kaybedilen anlaşmalara veya maliyetli yanlış anlaşılmalara neden olduğu uluslararası ekipler için tasarlandı._ [Daha fazla bilgi ...](./product/overview/markets)
 
 ## Google Meet + Canlı Çeviri Gibi Çalışır {#HowItWorks}
 
@@ -230,10 +230,20 @@ Bunu değiştirmek şu anlama gelir:
 
 <AuthButton text="Başlayın" button-class="brand" event-name="get_started_attempt"/>
 <AuthButton text="Şimdi satın alın" mode="checkout" eventName="buy_now_attempt" />
-<ContactForm buttonText="Ekibimizle konuşun" buttonClass="alt" />
+<ContactForm 
+  buttonText="Ekibimizle konuşun" 
+  buttonClass="alt"
+  :services="[
+    'İş planı için özel teklif alın',
+    'Kurumsal özellikler ve Gizlilik Bölgelerini görüşün',
+    'Ekibim için demo planlayın',
+    'Ekip katılımı hakkında sorular (100+ kullanıcı)',
+    'Entegrasyon ve teknik gereksinimler',
+    'Diğer iş sorguları'
+  ]" />
 </PricingPlans>
 
-> 💡 **_Zamanınızı dilbilgisi ezberlemek yerine uzmanlığınızı geliştirmeye harcamanız daha iyi._**  
+> 💡 **_Zamanınızı dilbilgisi ezberlemek yerine mesleğinizde ustalaşmaya harcamanız daha iyi._**  
 > 💡 **_Gerçek ortaklıklar gerçek konuşmalarla başlar — onların dilinde._**
 
 ## Sık Sorulan Sorular {#FAQ}
@@ -246,7 +256,7 @@ Bunu değiştirmek şu anlama gelir:
       },
       {
         q: 'Lisanslı kullanıcı nedir ve Katılımcı nedir?',
-        a: '*Lisanslı kullanıcı* ücretsiz veya ücretli toplantı lisansına sahiptir ve planının sınırları dahilinde toplantı planlayabilir. *Katılımcılar* davetlilerdir — toplantıya katılmak için **hesap veya lisansa ihtiyaçları yoktur** ve herhangi bir cihazdan **ücretsiz** olarak bağlanabilirler.',
+        a: '*Lisanslı kullanıcı* ücretsiz veya ücretli toplantı lisansına sahiptir ve planının sınırları dahilinde toplantı planlayabilir. *Katılımcılar* davetlilerdir — toplantıya katılmak için **hesap veya lisansa ihtiyaçları yoktur** ve herhangi bir cihazdan **ücretsiz** bağlanabilirler.',
       },
       {
         q: 'Bir InterMind lisansını kaç kişi kullanabilir?',

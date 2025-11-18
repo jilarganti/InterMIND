@@ -7,7 +7,7 @@ isHome: true
 
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="**あらゆる**言語を理解" :typingSpeed="20" text="ビデオ会議中の同時通訳。言語の壁を瞬時に打破。">
+<HeroSection title="**あらゆる**言語を理解" :typingSpeed="20" text="インスタント**音声**翻訳による多言語ビデオ会議">
 <NavButton buttonLabel="デモを見る" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="アシスタント" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
@@ -17,7 +17,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: '翻訳 ≠ 理解。次のステップがここにあります。',
-      details: '言語に関係なく、あなたの声は同じ言語を話すかのように聞かれ、理解されます。',
+      details: '言語に関係なく、あなたの声は同じ言語を話すかのように聞こえ、理解されます。',
       items: [
         '✧ [リアルタイム](./product/overview/how-it-works)で自然に、字幕や遅延なしで。',
         '✧ AI搭載の通訳がトーン、意図、業界固有の専門用語を捉えます。',
@@ -35,12 +35,12 @@ isHome: true
 
 <FeatureBlock
     :card="{
-      title: '会議の中にあるマインド',
-      details: 'InterMindは、すべての多言語通話を明確で検索可能な知識に変換します。',
+      title: '会議内のマインド',
+      details: 'InterMindはすべての多言語通話を明確で検索可能な知識に変換します。',
       items: [
         '✧ **何でも質問** — AIが**会議全体から**答えを見つけます。',
         '✧ タスク、担当者、締切を自動抽出。',
-        '✧ 重要なポイントをあらゆる言語で瞬時に要約。',
+        '✧ 重要なポイントをあらゆる言語で即座に要約。',
       ],
       link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
       src: {
@@ -55,8 +55,8 @@ isHome: true
 
 <FeatureBlock
     :card="{
-      title: '本格的な会議のために構築 — 単なる会話ではなく',
-      details: 'InterMindは[プロフェッショナルグレードのビデオ会議プラットフォーム](./product/overview/video-meeting-platform)であり、軽量なアドオンやプラグインではありません。',
+      title: '真剣な会議のために構築 — 単なる会話ではなく',
+      details: 'InterMindは軽量なアドオンやプラグインではなく、[プロフェッショナルグレードのビデオ会議プラットフォーム](./product/overview/video-meeting-platform)です。',
       items: [
         '✧ 1080p解像度、スマートノイズ抑制、スケジューリング、モデレーション、画面共有、録画、字幕、参加者チャット、カレンダー統合 — すべて内蔵、**すぐに使用可能**。',
       ],
@@ -75,7 +75,7 @@ isHome: true
     :card="{
       title: '重要な場面でのプライバシー',
       details: 'InterMindは信頼が重要な会話のために構築されています — プライバシーとコントロールが最も重要な場面で。',
-      items: ['✧ [プライバシーゾーン](./product/overview/privacy-architecture) — EU、米国、東南アジア', '✧ **データトレーニングゼロ**。第三者アクセスなし。'],
+      items: ['✧ [プライバシーゾーン](./product/overview/privacy-architecture) — EU、米国、東南アジア', '✧ **データ学習ゼロ**。第三者アクセスなし。'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.webp',
@@ -146,12 +146,12 @@ isHome: true
 
 ### 会議中に何が起こるか？
 
-各参加者は、製品に入る際に選択した言語で**話し、聞く**ことができます。  
+各参加者は、製品に入る際に選択した言語で**話し、聞き**ます。  
 この単一の言語設定は以下に適用されます：
 
 - **インターフェース言語**
-- **音声入力**（あなたが話すこと）
-- **翻訳出力**（あなたが聞くこと）
+- **音声入力**（あなたが話すもの）
+- **翻訳出力**（あなたが聞くもの）
 
 | 参加者    | 選択した言語 | 話す言語   | 聞く言語   |
 | --------- | ------------ | ---------- | ---------- |
@@ -159,7 +159,7 @@ isHome: true
 | 参加者1   | 英語         | 英語       | 英語       |
 | 参加者2   | 中国語       | 中国語     | 中国語     |
 
-[プラットフォームはすべての音声をリアルタイムで自動的に解釈します](./product/overview/how-it-works) — そのため、全員が同じ言語を話しているかのようにコミュニケーションできます。
+[プラットフォームはすべての音声をリアルタイムで自動的に解釈します](./product/overview/how-it-works) — そのため、全員が同じ言語を話しているかのようにコミュニケーションを取ることができます。
 
 ### 通話中に言語を変更できますか？
 
@@ -172,7 +172,7 @@ isHome: true
 これを変更すると：
 
 - 正確な翻訳のために`選択した言語`で話す必要があります
-- 他の人の発言を`選択した言語`で聞くことになります
+- 他の人の声を`選択した言語`で聞くことになります
 - インターフェースが自動的に`選択した言語`に切り替わります
 
 > ✨ 「あなたの言語」は**単一の統合設定**です  
@@ -196,7 +196,7 @@ isHome: true
         items: [
           '**25** 会議',
           '**100** 参加者ビデオ会議 [💬](#3)',
-          'ユーザーあたり **30** GB プール型ストレージ',
+          'ユーザーあたり **30** GB 共有ストレージ',
           'すべての会議を横断検索 [💬](#2)',
           '同時通訳 [💬](#1)',
         ],
@@ -204,11 +204,11 @@ isHome: true
       {
         title: '**プロ**  &nbsp 1-99ユーザー',
         price: '**$20** /月/ユーザー、年間請求',
-        details: 'または月額$25請求',
+        details: 'または月間請求$25',
         items: [
           '**無制限** 会議',
           '**150** 参加者ビデオ会議 [💬](#3)',
-          'ユーザーあたり **2** TB プール型ストレージ',
+          'ユーザーあたり **2** TB 共有ストレージ',
           'すべての会議を横断検索 [💬](#2)',
           '同時通訳 [💬](#1)',
         ],
@@ -220,7 +220,7 @@ isHome: true
         items: [
           '**無制限** 会議',
           '**500** 参加者ビデオ会議 [💬](#3)',
-          'ユーザーあたり **5** TB プール型ストレージ',
+          'ユーザーあたり **5** TB 共有ストレージ',
           'すべての会議を横断検索 [💬](#2)',
           '同時通訳 [💬](#1)',
           '**プライバシーゾーン** [💬](#4)',
@@ -230,7 +230,17 @@ isHome: true
 
 <AuthButton text="始める" button-class="brand" event-name="get_started_attempt"/>
 <AuthButton text="今すぐ購入" mode="checkout" eventName="buy_now_attempt" />
-<ContactForm buttonText="チームに相談" buttonClass="alt" />
+<ContactForm 
+  buttonText="チームに相談" 
+  buttonClass="alt"
+  :services="[
+    'ビジネスプランのカスタム見積もりを取得',
+    'エンタープライズ機能とプライバシーゾーンについて相談',
+    'チーム向けデモをスケジュール',
+    'チームオンボーディングに関する質問（100+ユーザー）',
+    '統合と技術要件',
+    'その他のビジネスに関するお問い合わせ'
+  ]" />
 </PricingPlans>
 
 > 💡 **_あなたの時間は文法の暗記ではなく、技術の習得に使うべきです。_**  

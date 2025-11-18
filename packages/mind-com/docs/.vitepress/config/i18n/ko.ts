@@ -6,7 +6,7 @@ const BASE_PATH = "/ko"
 
 export const ko = defineConfig({
   description:
-    "19개 이상의 언어로 동시 통역을 제공하는 전문 화상 회의. 글로벌 팀을 위한 톤, 의도, 맥락을 파악하는 AI 기반 번역.",
+    "19개 이상의 언어로 동시 통역을 제공하는 전문 화상 회의. 글로벌 팀을 위해 어조, 의도, 맥락을 파악하는 AI 기반 번역.",
   head: [
     ["meta", { property: "og:title", content: "InterMIND | 글로벌 팀을 위한 실시간 음성 번역" }],
     [
@@ -27,7 +27,7 @@ export const ko = defineConfig({
         link: `${BASE_PATH}/product/overview/what-is-intermind`,
       },
       {
-        text: "가격",
+        text: "요금제",
         link: `${BASE_PATH}/#Pricing`,
       },
       {
@@ -77,7 +77,7 @@ export const ko = defineConfig({
       submit: "요청 제출",
       sending: "전송 중...",
       successTitle: "감사합니다!",
-      successMessage: "메시지를 받았습니다 — 저희 팀이 곧 연락드리겠습니다.",
+      successMessage: "메시지를 받았습니다. 저희 팀이 곧 연락드리겠습니다.",
       defaultCategories: [],
 
       defaultButtonText: "메시지 보내기",
@@ -93,7 +93,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "InterMIND란 무엇인가요?", link: "overview/what-is-intermind" },
-        { text: "작동 방식", link: "overview/how-it-works" },
+        { text: "작동 원리", link: "overview/how-it-works" },
         { text: "화상 회의 플랫폼", link: "overview/video-meeting-platform" },
         { text: "번역 vs 통역: 차이점은 무엇인가요?", link: "overview/translation-vs-interpretation-whats-the-difference" },
         { text: "지역별 데이터 개인정보 보호", link: "overview/privacy-architecture" },
@@ -113,7 +113,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
         { text: "회의 기록", link: "guide/meeting-history" },
         { text: "자주 묻는 질문", link: "guide/faq" },
         { text: "문제 해결", link: "guide/troubleshooting" },
-        { text: "가격", link: "guide/pricing" },
+        { text: "요금제", link: "guide/pricing" },
         { text: "도움말 및 지원", link: "guide/help-support" },
       ],
     },

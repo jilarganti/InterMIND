@@ -36,6 +36,7 @@ export const ru = defineConfig({
         items: [
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Отзывы", link: `${BASE_PATH}/#Testimonials` },
+          { text: "О нас", link: `${BASE_PATH}/resources/company/about` },
         ],
       },
     ],
@@ -130,14 +131,6 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
         { text: "Правовое руководство по ИИ", link: "/company/legal-regulations-for-ai-services" },
       ],
     },
-    // {
-    //   text: "РЕСУРСЫ",
-    //   collapsed: false,
-    //   items: [
-    //     { text: "Брендовые материалы", link: "/media-kit" },
-    //     // { text: "Управление аккаунтом", link: "guide/account-management" },
-    //   ],
-    // },
     {
       text: "КОМПАНИЯ",
       collapsed: false,

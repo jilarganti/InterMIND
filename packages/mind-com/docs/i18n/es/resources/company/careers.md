@@ -3,7 +3,7 @@
 <img src="/resources/iStock-1492917260.jpg" alt="Dirham de los EAU" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/resources/iStock-1130023029.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-Estamos construyendo tecnología que elimina las barreras del idioma entre las personas. Nuestro producto permite que personas de diferentes países hablen en su idioma nativo y se entiendan entre sí de manera natural.
+Estamos construyendo tecnología que elimina las barreras del idioma entre las personas. Nuestro producto permite que personas de diferentes países hablen en su idioma nativo y se entiendan entre sí de forma natural.
 
 Esto no es un traductor. Este es un nuevo paradigma para la comunicación global.
 
@@ -23,9 +23,9 @@ Buscamos personas que:
 
 **Midan su valor por los resultados.** ¿Cuántas vidas de personas mejoraron gracias a tu trabajo? ¿Qué tan rápido funcionaron los procesos después de tus mejoras? ¿Qué problemas desaparecieron después de tus soluciones?
 
-**Piensen globalmente.** ¿Has trabajado con personas de diferentes países? ¿Resuelto problemas en entornos multiculturales? ¿Construido productos para audiencias internacionales?
+**Piensen globalmente.** ¿Has trabajado con personas de diferentes países? ¿Resolviste problemas en entornos multiculturales? ¿Construiste productos para audiencias internacionales?
 
-**Aborden problemas difíciles.** ¿Has tomado proyectos donde no existía solución? ¿Construido algo desde cero? ¿Hecho que lo imposible parezca obvio?
+**Aborden problemas difíciles.** ¿Te hiciste cargo de proyectos donde no existía solución? ¿Construiste algo desde cero? ¿Hiciste que lo imposible pareciera obvio?
 
 ## Lo que estamos construyendo
 
@@ -96,7 +96,7 @@ No solo traducimos palabras—preservamos el significado, el tono, el contexto c
 
 **Impacto global.** Tu trabajo cambiará la forma en que la humanidad se comunica a través de las barreras del idioma.
 
-Conoce a [nuestro equipo](./team) y aprende sobre [los valores de nuestra empresa](./about).
+Conoce a [nuestro equipo](./team) y aprende sobre [nuestros valores empresariales](./about).
 
 ## Únete a Nosotros
 

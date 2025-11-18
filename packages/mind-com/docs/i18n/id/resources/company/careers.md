@@ -98,7 +98,7 @@ Kami tidak hanya menerjemahkan kata-kata—kami melestarikan makna, nada, kontek
 
 Temui [tim kami](./team) dan pelajari tentang [nilai-nilai perusahaan kami](./about).
 
-## Bergabunglah dengan Kami
+## Bergabung dengan Kami
 
 Jika Anda sudah membangun sesuatu yang bermakna dan siap membangun teknologi yang mengubah dunia—tulis kepada kami.
 
@@ -121,7 +121,7 @@ Tunjukkan kepada kami apa yang telah Anda lakukan. Ceritakan kepada kami apa yan
     'Pemimpin yang membangun masa depan',
     'Pemasar yang menciptakan permintaan',
     'Insinyur yang membangun yang mustahil',
-    'Peneliti yang memajukan ilmu pengetahuan',
+    'Peneliti yang memajukan sains',
     'Penjual yang mendorong pertumbuhan',
     'Desainer yang memecahkan masalah manusia', 
     'Operator yang mengoptimalkan sistem',

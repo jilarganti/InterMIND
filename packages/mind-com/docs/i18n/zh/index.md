@@ -7,7 +7,7 @@ isHome: true
 
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="理解**任何**语言" :typingSpeed="20" text="视频会议中的同声传译。瞬间打破语言障碍。">
+<HeroSection title="理解**任何**语言" :typingSpeed="20" text="多语言视频会议，即时**语音**翻译">
 <NavButton buttonLabel="观看演示" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="助手" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
@@ -73,7 +73,7 @@ isHome: true
 
 <FeatureBlock
     :card="{
-      title: '重要场合的隐私保护',
+      title: '关键隐私保护',
       details: 'InterMind专为信任至关重要的对话而构建 — 隐私和控制最为重要的场合。',
       items: ['✧ [隐私区域](./product/overview/privacy-architecture) — 欧盟、美国、东南亚', '✧ **零数据训练**。无第三方访问。'],
       link: './product/overview/privacy-architecture',
@@ -85,8 +85,8 @@ isHome: true
     }"
   />
 
-> **这适合谁使用？**  
-> _专为因语言障碍导致延误、失去交易或代价高昂的误解的国际团队而构建。_ [了解更多...](./product/overview/markets)
+> **这适合谁？**  
+> _专为语言障碍导致延误、失去交易或代价高昂误解的国际团队而构建。_ [了解更多...](./product/overview/markets)
 
 ## 像 Google Meet + 实时翻译一样工作 {#HowItWorks}
 
@@ -177,7 +177,7 @@ isHome: true
 
 > ✨ "您的语言"是一个**统一的单一设置**  
 > 它控制**您如何说话**、**您听到什么**和**您看到什么**。  
-> 用一种语言说话而用另一种语言听取是**不支持的** — 这是设计如此，以保持体验简单和可预测。
+> 不支持用一种语言说话而用另一种语言听取 — 这是设计如此，以保持体验简单和可预测。
 
 ## 客户评价 {#Testimonials}
 
@@ -214,7 +214,7 @@ isHome: true
         ],
       },
       {
-        title: '**企业版** &nbsp 100+ 用户',
+        title: '**商业版** &nbsp 100+ 用户',
         price: '**定制定价**',
         details: '专为隐私而构建',
         items: [
@@ -230,7 +230,17 @@ isHome: true
 
 <AuthButton text="开始使用" button-class="brand" event-name="get_started_attempt"/>
 <AuthButton text="立即购买" mode="checkout" eventName="buy_now_attempt" />
-<ContactForm buttonText="联系我们的团队" buttonClass="alt" />
+<ContactForm 
+  buttonText="联系我们的团队" 
+  buttonClass="alt"
+  :services="[
+    '获取商业版定制报价',
+    '讨论企业功能和隐私区域',
+    '为我的团队安排演示',
+    '关于团队入门的问题（100+ 用户）',
+    '集成和技术要求',
+    '其他商务咨询'
+  ]" />
 </PricingPlans>
 
 > 💡 **_您的时间应该用来精进技艺——而不是死记语法。_**  

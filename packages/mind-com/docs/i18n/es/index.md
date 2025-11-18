@@ -7,7 +7,7 @@ isHome: true
 
 <!-- <HeroSection title="Reúnete en **Cualquier** Idioma" :typingSpeed="10" text="Traducción de voz en vivo en videollamadas. Comprensión instantánea, sin barreras."> -->
 
-<HeroSection title="Entiende **Cualquier** Idioma" :typingSpeed="20" text="Interpretación simultánea durante videorreuniones. Rompe las barreras del idioma al instante.">
+<HeroSection title="Comprende **Cualquier** Idioma" :typingSpeed="20" text="Videollamadas Multilingües con Traducción de **Voz** Instantánea">
 <NavButton buttonLabel="Ver demo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="Asistente" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
@@ -17,7 +17,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Traducción ≠ Comprensión. Esto es lo que sigue.',
-      details: 'Sin importar el idioma, tu voz es escuchada — y entendida — como si compartieras la misma lengua.',
+      details: 'Sin importar el idioma, tu voz es escuchada — y comprendida — como si compartieras la misma lengua.',
       items: [
         '✧ Naturalmente, en [tiempo real](./product/overview/how-it-works), y sin subtítulos o retrasos.',
         '✧ La interpretación impulsada por IA captura tono, intención y terminología específica de la industria.',
@@ -35,7 +35,7 @@ isHome: true
 
 <FeatureBlock
     :card="{
-      title: 'La Mente Dentro de Tus Reuniones',
+      title: 'La Mente Dentro de tus Reuniones',
       details: 'InterMind convierte cada llamada multilingüe en conocimiento claro y consultable.',
       items: [
         '✧ **Pregunta cualquier cosa** — la IA encuentra respuestas **en todas tus reuniones**.',
@@ -56,7 +56,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Construido para Reuniones Serias — No Solo para Conversar',
-      details: 'InterMind es una [plataforma de videorreuniones de grado profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
+      details: 'InterMind es una [plataforma de videollamadas de grado profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
       items: [
         '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, **listo para usar**.',
       ],
@@ -88,7 +88,7 @@ isHome: true
 > **¿Para quién es esto?**  
 > _Construido para equipos internacionales donde las barreras del idioma causan retrasos, negocios perdidos o malentendidos costosos._ [Aprende más ...](./product/overview/markets)
 
-## Funciona como Google Meet + Traducción en Vivo {#HowItWorks}
+## Funciona Como Google Meet + Traducción en Vivo {#HowItWorks}
 
 Interfaz familiar. Comunicación universal. La misma facilidad que Google Meet — con traducción instantánea que hace desaparecer las barreras del idioma.
 
@@ -195,9 +195,9 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
         details: 'no se requiere tarjeta de crédito',
         items: [
           '**25** reuniones',
-          'Videollamadas de **100** participantes [💬](#3)',
+          '**100** participantes en videollamadas [💬](#3)',
           '**30** GB de almacenamiento compartido por usuario',
-          'Busca en todas tus reuniones [💬](#2)',
+          'Buscar en todas tus reuniones [💬](#2)',
           'Interpretación simultánea [💬](#1)',
         ],
       },
@@ -207,9 +207,9 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
         details: 'o $25 facturado mensualmente',
         items: [
           'Reuniones **ilimitadas**',
-          'Videollamadas de **150** participantes [💬](#3)',
+          '**150** participantes en videollamadas [💬](#3)',
           '**2** TB de almacenamiento compartido por usuario',
-          'Busca en todas tus reuniones [💬](#2)',
+          'Buscar en todas tus reuniones [💬](#2)',
           'Interpretación simultánea [💬](#1)',
         ],
       },
@@ -219,9 +219,9 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
         details: 'Diseñado para la privacidad',
         items: [
           'Reuniones **ilimitadas**',
-          'Videollamadas de **500** participantes [💬](#3)',
+          '**500** participantes en videollamadas [💬](#3)',
           '**5** TB de almacenamiento compartido por usuario',
-          'Busca en todas tus reuniones [💬](#2)',
+          'Buscar en todas tus reuniones [💬](#2)',
           'Interpretación simultánea [💬](#1)',
           '**Zonas de privacidad** [💬](#4)',
         ],
@@ -230,10 +230,20 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
 
 <AuthButton text="Comenzar" button-class="brand" event-name="get_started_attempt"/>
 <AuthButton text="Comprar ahora" mode="checkout" eventName="buy_now_attempt" />
-<ContactForm buttonText="Habla con nuestro equipo" buttonClass="alt" />
+<ContactForm 
+  buttonText="Hablar con nuestro equipo" 
+  buttonClass="alt"
+  :services="[
+    'Obtener una cotización personalizada para el plan Empresarial',
+    'Discutir características empresariales y Zonas de privacidad',
+    'Programar una demostración para mi equipo',
+    'Preguntas sobre incorporación de equipos (100+ usuarios)',
+    'Requisitos de integración y técnicos',
+    'Otra consulta comercial'
+  ]" />
 </PricingPlans>
 
-> 💡 **_Tu tiempo es mejor invertido dominando tu oficio — no memorizando gramática._**  
+> 💡 **_Tu tiempo se aprovecha mejor dominando tu oficio — no memorizando gramática._**  
 > 💡 **_Las verdaderas alianzas comienzan con conversaciones reales — en su idioma._**
 
 ## Preguntas Frecuentes {#FAQ}

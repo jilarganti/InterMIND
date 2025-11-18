@@ -35,8 +35,8 @@ export const ar = defineConfig({
         activeMatch: `${BASE_PATH}/product/`,
         items: [
           { text: "الأسئلة الشائعة", link: `${BASE_PATH}/#FAQ` },
-          { text: "الشهادات", link: `${BASE_PATH}/#Testimonials` },
-          { text: "حول", link: `${BASE_PATH}/resources/company/about` },
+          { text: "شهادات العملاء", link: `${BASE_PATH}/#Testimonials` },
+          { text: "حول الشركة", link: `${BASE_PATH}/resources/company/about` },
         ],
       },
     ],
@@ -135,7 +135,7 @@ function sidebarResources(): DefaultTheme.SidebarItem[] {
       text: "الشركة",
       collapsed: false,
       items: [
-        { text: "حول", link: "/company/about" },
+        { text: "حول الشركة", link: "/company/about" },
         { text: "الفريق", link: "/company/team" },
         { text: "الوظائف", link: "/company/careers" },
         { text: "جهات الاتصال", link: "/company/contacts" },

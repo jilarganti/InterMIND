@@ -9,7 +9,7 @@ Bu bir çevirmen değil. Bu, küresel iletişim için yeni bir paradigma.
 
 [Ne inşa ettiğimiz](../../product/overview/what-is-intermind) ve [nasıl çalıştığı](../../product/overview/how-it-works) hakkında daha fazla bilgi edinin.
 
-## Sonuçları Gösterin, Sertifikaları Değil
+## Sonuçları Gösterin, Referansları Değil
 
 Bize katılmak mı istiyorsunuz? Bize insanlar için halihazırda inşa ettiğiniz faydalı ve anlamlı bir şey gösterin.
 
@@ -75,7 +75,7 @@ Sadece kelimeleri çevirmiyoruz—anlamı, tonu, kültürel bağlamı koruyoruz.
 
 ## Süreç
 
-1. **Linkler gönderin.** Özgeçmiş değil—yaptığınız işlerin linklerini gönderin. GitHub, ürünler, makaleler, videolar, çalışmanızı gösteren her şey.
+1. **Bağlantıları gönderin.** Özgeçmiş değil—geliştirdiğiniz şeylerin bağlantılarını gönderin. GitHub, ürünler, makaleler, videolar, çalışmanızı gösteren her şey.
 
 2. **Hikayeyi anlatın.** Hangi sorunu çözdünüz? Neden önemliydi? Başarıyı nasıl ölçtünüz? Sonuç ne oldu?
 
@@ -90,11 +90,11 @@ Sadece kelimeleri çevirmiyoruz—anlamı, tonu, kültürel bağlamı koruyoruz.
 
 **Dünya çapında zorluklar.** Milyarlarca insanı etkileyen sorunları çözeceksiniz.
 
-**Dünya standartlarında ekip.** AI, gerçek zamanlı sistemler ve küresel iletişim alanlarında en iyi uzmanlarla çalışın.
+**Dünya standartlarında ekip.** Yapay zeka, gerçek zamanlı sistemler ve küresel iletişim alanlarında uzman kişilerle çalışın.
 
-**Sınırsız kaynaklar.** Kategorinin en iyi ürününü geliştirmek için ihtiyacınız olan her şey.
+**Sınırsız kaynaklar.** Kategorideki en iyi ürünü geliştirmek için ihtiyacınız olan her şey.
 
-**Küresel etki.** Çalışmanız insanlığın dil sınırları ötesinde iletişim kurma şeklini değiştirecek.
+**Küresel etki.** Çalışmanız, insanlığın dil sınırları arasında iletişim kurma şeklini değiştirecek.
 
 [Ekibimizle](./team) tanışın ve [şirket değerlerimiz](./about) hakkında bilgi edinin.
 

@@ -1,13 +1,13 @@
 ---
 layout: home
-title: "Terjemahan Ucapan Real-Time untuk Rapat Video"
+title: "Terjemahan Suara Real-Time untuk Rapat Video"
 description: "Konferensi video profesional dengan interpretasi simultan dalam 19+ bahasa. Terjemahan bertenaga AI yang menangkap nada, maksud, dan konteks. Bertemu secara global, berkomunikasi secara alami."
 isHome: true
 ---
 
-<!-- <HeroSection title="Bertemu dalam Bahasa **Apa Pun**" :typingSpeed="10" text="Terjemahan ucapan langsung dalam panggilan video. Pemahaman instan, tanpa hambatan."> -->
+<!-- <HeroSection title="Bertemu dalam Bahasa **Apa Pun**" :typingSpeed="10" text="Terjemahan suara langsung dalam panggilan video. Pemahaman instan, tanpa hambatan."> -->
 
-<HeroSection title="Pahami Bahasa **Apa Pun**" :typingSpeed="20" text="Interpretasi simultan selama rapat video. Hancurkan hambatan bahasa secara instan.">
+<HeroSection title="Pahami Bahasa **Apa Pun**" :typingSpeed="20" text="Rapat Video Multibahasa dengan Terjemahan **Suara** Instan">
 <NavButton buttonLabel="Tonton demo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="Asisten" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
@@ -56,7 +56,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Dibangun untuk Rapat Serius — Bukan Hanya Berbicara',
-      details: 'InterMind adalah [platform rapat video tingkat profesional](./product/overview/video-meeting-platform), bukan add-on ringan atau plugin.',
+      details: 'InterMind adalah [platform rapat video tingkat profesional](./product/overview/video-meeting-platform), bukan add-on atau plugin ringan.',
       items: [
         '✧ Resolusi 1080p, penekan kebisingan pintar, penjadwalan, moderasi, berbagi layar, perekaman, subtitle, chat peserta dan integrasi kalender — semua terintegrasi, **siap digunakan**.',
       ],
@@ -75,7 +75,7 @@ isHome: true
     :card="{
       title: 'Privasi di Tempat yang Penting',
       details: 'InterMind dibangun untuk percakapan kritis kepercayaan — di mana privasi dan kontrol paling penting.',
-      items: ['✧ [Zona Privasi](./product/overview/privacy-architecture) — EU, AS, Asia Tenggara', '✧ **Nol pelatihan data**. Tidak ada akses pihak ketiga.'],
+      items: ['✧ [Zona Privasi](./product/overview/privacy-architecture) — EU, US, Asia Tenggara', '✧ **Nol pelatihan data**. Tidak ada akses pihak ketiga.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.webp',
@@ -155,9 +155,9 @@ Pengaturan bahasa tunggal ini berlaku untuk:
 
 | Peserta   | Bahasa yang Dipilih | Berbicara Dalam | Mendengar Dalam |
 | --------- | ------------------- | --------------- | --------------- |
-| Host      | Bahasa Spanyol      | Bahasa Spanyol  | Bahasa Spanyol  |
-| Peserta 1 | Bahasa Inggris      | Bahasa Inggris  | Bahasa Inggris  |
-| Peserta 2 | Bahasa Mandarin     | Bahasa Mandarin | Bahasa Mandarin |
+| Host      | Spanyol             | Spanyol         | Spanyol         |
+| Peserta 1 | Inggris             | Inggris         | Inggris         |
+| Peserta 2 | Mandarin            | Mandarin        | Mandarin        |
 
 [Platform secara otomatis menginterpretasikan semua ucapan secara real-time](./product/overview/how-it-works) — sehingga semua orang berkomunikasi seolah-olah mereka berbicara dalam bahasa yang sama.
 
@@ -216,21 +216,31 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
       {
         title: '**Business** &nbsp 100+ pengguna',
         price: '**Harga khusus**',
-        details: 'Dibuat untuk privasi',
+        details: 'Dibangun untuk privasi',
         items: [
           '**Tidak terbatas** pertemuan',
           '**500** peserta pertemuan video [💬](#3)',
           '**5** TB penyimpanan gabungan per pengguna',
           'Pencarian di semua pertemuan Anda [💬](#2)',
           'Interpretasi simultan [💬](#1)',
-          '**Zona Privasi** [💬](#4)',
+          '**Privacy Zones** [💬](#4)',
         ],
       },
     ]">
 
 <AuthButton text="Mulai sekarang" button-class="brand" event-name="get_started_attempt"/>
 <AuthButton text="Beli sekarang" mode="checkout" eventName="buy_now_attempt" />
-<ContactForm buttonText="Bicara dengan tim kami" buttonClass="alt" />
+<ContactForm 
+  buttonText="Bicara dengan tim kami" 
+  buttonClass="alt"
+  :services="[
+    'Dapatkan penawaran khusus untuk paket Business',
+    'Diskusikan fitur enterprise dan Privacy Zones',
+    'Jadwalkan demo untuk tim saya',
+    'Pertanyaan tentang onboarding tim (100+ pengguna)',
+    'Persyaratan integrasi dan teknis',
+    'Pertanyaan bisnis lainnya'
+  ]" />
 </PricingPlans>
 
 > 💡 **_Waktu Anda lebih baik digunakan untuk menguasai keahlian — bukan menghafal tata bahasa._**  

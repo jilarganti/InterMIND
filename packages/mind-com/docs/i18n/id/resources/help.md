@@ -1,8 +1,8 @@
 ---
-description: "Punya pertanyaan tentang interpretasi rapat bertenaga AI, komunikasi multibahasa, atau onboarding perusahaan? Kami siap membantu — cepat, manusiawi, dan tanpa kebingungan."
+description: "Punya pertanyaan tentang interpretasi meeting bertenaga AI, komunikasi multibahasa, atau onboarding perusahaan? Kami siap membantu — cepat, manusiawi, dan tanpa kebingungan."
 ---
 
-# 💬 Butuh bantuan? Tanpa penundaan, tanpa kebingungan — hanya jawaban.
+# 💬 Butuh Bantuan? Tanpa penundaan, tanpa kebingungan — hanya jawaban.
 
 Beri tahu kami apa yang ingin Anda capai — dan kami akan membantu Anda bergerak maju.  
 Cepat, fokus, dan dengan manusia sungguhan di ujung sana.
@@ -20,13 +20,13 @@ Cepat, fokus, dan dengan manusia sungguhan di ujung sana.
     'Saya butuh bantuan untuk memulai',
     'Saya ingin menjadwalkan demo',
     'Saya punya masalah teknis atau bug',
-    'Saya butuh bantuan dengan integrasi rapat',
+    'Saya butuh bantuan dengan integrasi meeting',
     'Saya punya pertanyaan tentang kualitas terjemahan',
     'Saya butuh bantuan dengan onboarding tim',
-    'Saya punya pertanyaan tentang tagihan atau langganan',
+    'Saya punya pertanyaan billing atau langganan',
     'Saya ingin menjelajahi fitur enterprise',
     'Saya ingin mendapatkan ID aplikasi dan token Mind API tanpa batasan',
-    'Pertanyaan umum atau masukan'
+    'Pertanyaan umum atau feedback'
   ]" /> -->
 
 <br>
@@ -44,13 +44,13 @@ Cepat, fokus, dan dengan manusia sungguhan di ujung sana.
     'Saya butuh bantuan untuk memulai',
     'Saya ingin menjadwalkan demo',
     'Saya punya masalah teknis atau bug',
-    'Saya butuh bantuan dengan integrasi rapat',
+    'Saya butuh bantuan dengan integrasi meeting',
     'Saya punya pertanyaan tentang kualitas terjemahan',
     'Saya butuh bantuan dengan onboarding tim',
-    'Saya punya pertanyaan tentang tagihan atau langganan',
+    'Saya punya pertanyaan billing atau langganan',
     'Saya ingin menjelajahi fitur enterprise',
     'Saya ingin mendapatkan ID aplikasi dan token Mind API tanpa batasan',
-    'Pertanyaan umum atau masukan'
+    'Pertanyaan umum atau feedback'
   ]" />
 
 <br>

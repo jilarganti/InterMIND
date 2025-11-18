@@ -29,7 +29,7 @@ Wir suchen Menschen, die:
 
 ## Was wir entwickeln
 
-Eine Plattform, die Fremdsprachenkenntnisse für beruflichen Erfolg optional macht. Stellen Sie sich vor: Ein japanischer Ingenieur, ein deutscher Manager und ein brasilianischer Designer besprechen ein Projekt – jeder spricht in seiner Muttersprache, alle verstehen sich perfekt.
+Eine Plattform, die Fremdsprachenkenntnisse für beruflichen Erfolg optional macht. Stellen Sie sich vor: Ein japanischer Ingenieur, ein deutscher Manager und ein brasilianischer Designer diskutieren über ein Projekt – jeder spricht in seiner Muttersprache, alle verstehen sich perfekt.
 
 Wir übersetzen nicht nur Wörter – wir bewahren Bedeutung, Tonfall und kulturellen Kontext. In Echtzeit. Ohne Verzögerungen. Mit menschlicher Genauigkeit.
 

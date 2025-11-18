@@ -7,7 +7,7 @@ isHome: true
 
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="**किसी भी** भाषा को समझें" :typingSpeed="20" text="वीडियो मीटिंग के दौरान साथ-साथ अनुवाद। भाषा की बाधाओं को तुरंत तोड़ें।">
+<HeroSection title="**किसी भी** भाषा को समझें" :typingSpeed="20" text="तत्काल **आवाज** अनुवाद के साथ बहुभाषी वीडियो मीटिंग">
 <NavButton buttonLabel="डेमो देखें" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="असिस्टेंट" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
@@ -230,7 +230,17 @@ isHome: true
 
 <AuthButton text="शुरू करें" button-class="brand" event-name="get_started_attempt"/>
 <AuthButton text="अभी खरीदें" mode="checkout" eventName="buy_now_attempt" />
-<ContactForm buttonText="हमारी टीम से बात करें" buttonClass="alt" />
+<ContactForm 
+  buttonText="हमारी टीम से बात करें" 
+  buttonClass="alt"
+  :services="[
+    'बिजनेस प्लान के लिए कस्टम कोट प्राप्त करें',
+    'एंटरप्राइज फीचर्स और प्राइवेसी जोन्स पर चर्चा करें',
+    'मेरी टीम के लिए डेमो शेड्यूल करें',
+    'टीम ऑनबोर्डिंग के बारे में प्रश्न (100+ उपयोगकर्ता)',
+    'इंटीग्रेशन और तकनीकी आवश्यकताएं',
+    'अन्य व्यावसायिक पूछताछ'
+  ]" />
 </PricingPlans>
 
 > 💡 **_आपका समय व्याकरण याद करने में नहीं बल्कि अपनी कला में महारत हासिल करने में बेहतर तरीके से बिताया जाता है।_**  
@@ -262,7 +272,7 @@ isHome: true
       },
       {
         q: 'InterMind डेटा गोपनीयता और सुरक्षा कैसे सुनिश्चित करता है?',
-        a: 'InterMind **डिज़ाइन से निजी** है। सभी डेटा आपके चुने गए **गोपनीयता क्षेत्र** — _EU_, _US_, या _Asia_ के भीतर प्रोसेस और स्टोर किया जाता है। हम [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), और UAE PDPL का अनुपालन करते हैं, और **कभी भी आपकी सामग्री का उपयोग** प्रशिक्षण या तृतीय-पक्ष पहुंच के लिए नहीं करते। उन्नत [गोपनीयता क्षेत्र नियंत्रण](./product/overview/privacy-architecture) **बिजनेस** योजना में उपलब्ध है।',
+        a: 'InterMind **डिज़ाइन से निजी** है। सभी डेटा आपके चुने गए **गोपनीयता क्षेत्र** — _EU_, _US_, या _Asia_ के भीतर प्रसंस्कृत और संग्रहीत किया जाता है। हम [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), और UAE PDPL का अनुपालन करते हैं, और **कभी भी आपकी सामग्री का उपयोग** प्रशिक्षण या तृतीय-पक्ष पहुंच के लिए नहीं करते। उन्नत [गोपनीयता क्षेत्र नियंत्रण](./product/overview/privacy-architecture) **बिजनेस** योजना पर उपलब्ध है।',
       },
       {
         q: 'क्या मैं योजना खरीदने से पहले InterMind को आज़मा सकता हूं?',
@@ -278,7 +288,7 @@ isHome: true
       },
       {
         q: 'क्या मैं वेबिनार या बड़े कार्यक्रमों के लिए InterMind का उपयोग कर सकता हूं?',
-        a: 'हां। *प्रो* और *बिजनेस* योजनाएं **बड़ी मीटिंग और वेबिनार** के लिए आदर्श हैं — *बिजनेस* में **500 प्रतिभागियों** तक के समर्थन के साथ।',
+        a: 'हां। *प्रो* और *बिजनेस* योजनाएं **बड़ी मीटिंग और वेबिनार** के लिए आदर्श हैं — *बिजनेस* पर **500 प्रतिभागियों** तक के समर्थन के साथ।',
       },
     ]"/>
 
@@ -297,7 +307,7 @@ isHome: true
         title: 'समर्थन',
         links: [
           { text: 'समर्थन प्राप्त करें', link: './resources/help' },
-          { text: 'FAQ', link: '#FAQ' },
+          { text: 'अक्सर पूछे जाने वाले प्रश्न', link: '#FAQ' },
           { text: 'गोपनीयता नीति', link: './resources/company/privacy-policy' },
           { text: 'AI कानूनी गाइड', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'सेवा स्थिति', link: 'https://status.mind.com/' },
@@ -316,7 +326,7 @@ isHome: true
       {
         title: 'कंपनी',
         links: [
-          { text: 'के बारे में', link: './resources/company/about' },
+          { text: 'हमारे बारे में', link: './resources/company/about' },
           { text: 'टीम', link: './resources/company/team' },
           { text: 'करियर', link: './resources/company/careers' },
           { text: 'संपर्क', link: './resources/company/contacts' },

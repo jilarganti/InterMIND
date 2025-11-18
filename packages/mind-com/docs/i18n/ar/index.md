@@ -7,7 +7,7 @@ isHome: true
 
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="افهم **أي** لغة" :typingSpeed="20" text="ترجمة فورية أثناء اجتماعات الفيديو. اكسر حواجز اللغة فوراً.">
+<HeroSection title="افهم **أي** لغة" :typingSpeed="20" text="اجتماعات فيديو متعددة اللغات مع ترجمة **صوتية** فورية">
 <NavButton buttonLabel="شاهد العرض التوضيحي" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="المساعد" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
@@ -20,7 +20,7 @@ isHome: true
       details: 'مهما كانت اللغة، صوتك مسموع — ومفهوم — كما لو كنتم تتشاركون نفس اللسان.',
       items: [
         '✧ بطبيعية، في [الوقت الفعلي](./product/overview/how-it-works)، وبدون ترجمة نصية أو تأخير.',
-        '✧ الترجمة المدعومة بالذكاء الاصطناعي تلتقط النبرة والقصد والمصطلحات المتخصصة في الصناعة.',
+        '✧ التفسير المدعوم بالذكاء الاصطناعي يلتقط النبرة والقصد والمصطلحات المتخصصة في الصناعة.',
       ],
       link: './product/overview/what-is-intermind',
       src: {
@@ -75,7 +75,7 @@ isHome: true
     :card="{
       title: 'الخصوصية حيث تهم',
       details: 'InterMind مصمم للمحادثات الحساسة للثقة — حيث الخصوصية والتحكم أمران بالغا الأهمية.',
-      items: ['✧ [مناطق الخصوصية](./product/overview/privacy-architecture) — الاتحاد الأوروبي، الولايات المتحدة، جنوب شرق آسيا', '✧ **صفر تدريب للبيانات**. لا وصول لطرف ثالث.'],
+      items: ['✧ [مناطق الخصوصية](./product/overview/privacy-architecture) — الاتحاد الأوروبي، الولايات المتحدة، جنوب شرق آسيا', '✧ **صفر تدريب بيانات**. لا وصول لطرف ثالث.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.webp',
@@ -86,11 +86,11 @@ isHome: true
   />
 
 > **لمن هذا؟**  
-> _مصمم للفرق الدولية حيث حواجز اللغة تسبب تأخيرات، صفقات ضائعة، أو سوء فهم مكلف._ [تعلم المزيد ...](./product/overview/markets)
+> _مصمم للفرق الدولية حيث حواجز اللغة تسبب تأخيرات، صفقات ضائعة، أو سوء فهم مكلف._ [اعرف المزيد ...](./product/overview/markets)
 
-## يعمل مثل Google Meet + ترجمة فورية {#HowItWorks}
+## يعمل مثل Google Meet + ترجمة مباشرة {#HowItWorks}
 
-واجهة مألوفة. تواصل عالمي. نفس سهولة Google Meet — مع ترجمة فورية تجعل حواجز اللغة تختفي.
+واجهة مألوفة. تواصل عالمي. نفس السهولة مثل Google Meet — مع ترجمة فورية تجعل حواجز اللغة تختفي.
 
 <FeatureCards
     :features="[
@@ -176,7 +176,7 @@ isHome: true
 - ستتحول الواجهة تلقائياً إلى `اللغة المختارة`
 
 > ✨ "لغتك" هي **إعداد موحد واحد**  
-> تتحكم في **كيف تتحدث**، **ما تسمعه**، و**ما تراه**.  
+> تتحكم في **كيف تتحدث**، **ماذا تسمع**، و **ماذا ترى**.  
 > التحدث بلغة واحدة والاستماع بأخرى **غير مدعوم** — بالتصميم، للحفاظ على تجربة بسيطة ومتوقعة.
 
 ## ما يقوله العملاء {#Testimonials}
@@ -206,7 +206,7 @@ isHome: true
         price: '**20 دولار** /شهر/مستخدم، فوترة سنوية',
         details: 'أو 25 دولار فوترة شهرية',
         items: [
-          '**اجتماعات غير محدودة**',
+          '**غير محدود** من الاجتماعات',
           '**150** مشارك في اجتماعات الفيديو [💬](#3)',
           '**2** تيرابايت تخزين مجمع لكل مستخدم',
           'البحث عبر جميع اجتماعاتك [💬](#2)',
@@ -218,7 +218,7 @@ isHome: true
         price: '**أسعار مخصصة**',
         details: 'مصممة للخصوصية',
         items: [
-          '**اجتماعات غير محدودة**',
+          '**غير محدود** من الاجتماعات',
           '**500** مشارك في اجتماعات الفيديو [💬](#3)',
           '**5** تيرابايت تخزين مجمع لكل مستخدم',
           'البحث عبر جميع اجتماعاتك [💬](#2)',
@@ -230,7 +230,17 @@ isHome: true
 
 <AuthButton text="ابدأ الآن" button-class="brand" event-name="get_started_attempt"/>
 <AuthButton text="اشتري الآن" mode="checkout" eventName="buy_now_attempt" />
-<ContactForm buttonText="تحدث مع فريقنا" buttonClass="alt" />
+<ContactForm 
+  buttonText="تحدث مع فريقنا" 
+  buttonClass="alt"
+  :services="[
+    'احصل على عرض أسعار مخصص لخطة الأعمال',
+    'ناقش ميزات المؤسسات ومناطق الخصوصية',
+    'جدولة عرض توضيحي لفريقي',
+    'أسئلة حول إعداد الفريق (100+ مستخدم)',
+    'متطلبات التكامل والمتطلبات التقنية',
+    'استفسار تجاري آخر'
+  ]" />
 </PricingPlans>
 
 > 💡 **_وقتك أفضل أن يُقضى في إتقان حرفتك — وليس في حفظ القواعد النحوية._**  
@@ -299,7 +309,7 @@ isHome: true
           { text: 'الحصول على الدعم', link: './resources/help' },
           { text: 'الأسئلة الشائعة', link: '#FAQ' },
           { text: 'سياسة الخصوصية', link: './resources/company/privacy-policy' },
-          { text: 'الدليل القانوني للذكاء الاصطناعي', link: './resources/company/legal-regulations-for-ai-services' },
+          { text: 'دليل القوانين للذكاء الاصطناعي', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'حالة الخدمة', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },
         ],
@@ -310,7 +320,7 @@ isHome: true
           { text: 'المدونة', link: './blog/' },
           { text: 'الامتثال العالمي للوصول اللغوي', link: './blog/posts/global-language-access-compliance' },
           { text: 'أصول العلامة التجارية', link: './resources/media-kit' },
-          { text: 'وثائق واجهة برمجة تطبيقات الذكاء الاصطناعي / LLM', link: 'https://mind.com/llms-full.txt' },
+          { text: 'وثائق واجهة برمجة التطبيقات للذكاء الاصطناعي', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

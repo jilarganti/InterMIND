@@ -35,28 +35,28 @@ Nous ne traduisons pas seulement les mots—nous préservons le sens, le ton, le
 
 ## Qui nous recherchons
 
-### Ingénieurs qui construisent l'impossible
+### Des ingénieurs qui construisent l'impossible
 
 - Systèmes temps réel avec latence microseconde
 - Modèles IA pour le traitement vocal en direct
 - Infrastructure évolutive pour des millions d'appels simultanés
 - Optimisation WebRTC pour les réseaux mondiaux
 
-### Chercheurs qui font progresser la science
+### Des chercheurs qui font progresser la science
 
 - Architectures neuronales pour la compréhension inter-linguistique
 - Algorithmes qui préservent les nuances émotionnelles dans la traduction
 - Méthodes d'adaptation aux dialectes et accents régionaux
 - Systèmes d'apprentissage non supervisé pour données multilingues
 
-### Designers qui résolvent les problèmes humains
+### Des designers qui résolvent les problèmes humains
 
-- UX pour le changement de langue transparent
+- UX pour un changement de langue transparent
 - Interfaces qui fonctionnent dans toutes les cultures
 - Systèmes visuels qui communiquent sans mots
 - Solutions produit pour les équipes mondiales
 
-### Leaders qui construisent l'avenir
+### Des leaders qui construisent l'avenir
 
 - Expansion sur les marchés internationaux à partir de zéro
 - Constitution d'équipes dans l'incertitude

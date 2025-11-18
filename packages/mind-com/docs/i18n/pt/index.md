@@ -7,7 +7,7 @@ isHome: true
 
 <!-- <HeroSection title="Reúna-se em **Qualquer** Idioma" :typingSpeed="10" text="Tradução de fala ao vivo em videochamadas. Compreensão instantânea, sem barreiras."> -->
 
-<HeroSection title="Entenda **Qualquer** Idioma" :typingSpeed="20" text="Interpretação simultânea durante videoconferências. Quebre barreiras linguísticas instantaneamente.">
+<HeroSection title="Entenda **Qualquer** Idioma" :typingSpeed="20" text="Videoconferências Multilíngues com Tradução de **Voz** Instantânea">
 <NavButton buttonLabel="Assistir demo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="Assistente" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
@@ -55,7 +55,7 @@ isHome: true
 
 <FeatureBlock
     :card="{
-      title: 'Construído para Reuniões Sérias — Não Apenas Conversas',
+      title: 'Construído para Reuniões Sérias — Não Apenas para Conversar',
       details: 'InterMind é uma [plataforma de videoconferência de nível profissional](./product/overview/video-meeting-platform), não um complemento leve ou plugin.',
       items: [
         '✧ Resolução 1080p, supressão inteligente de ruído, agendamento, moderação, compartilhamento de tela, gravação, legendagem, chat de participantes e integração com calendário — tudo integrado, **pronto para usar**.',
@@ -179,7 +179,7 @@ Alterar isso significa:
 > Ela controla **como você fala**, **o que você ouve** e **o que você vê**.  
 > Falar em um idioma e ouvir em outro **não é suportado** — por design, para manter a experiência simples e previsível.
 
-## O Que Nossos Clientes Estão Dizendo {#Testimonials}
+## O Que Os Clientes Estão Dizendo {#Testimonials}
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
@@ -206,7 +206,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
         price: '**$20** /mês/usuário, cobrado anualmente',
         details: 'ou $25 cobrado mensalmente',
         items: [
-          '**Ilimitadas** reuniões',
+          '**Reuniões ilimitadas**',
           '**150** participantes em videochamadas [💬](#3)',
           '**2** TB de armazenamento compartilhado por usuário',
           'Pesquise em todas as suas reuniões [💬](#2)',
@@ -214,11 +214,11 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
         ],
       },
       {
-        title: '**Empresarial** &nbsp 100+ usuários',
+        title: '**Business** &nbsp 100+ usuários',
         price: '**Preço personalizado**',
-        details: 'Construído para privacidade',
+        details: 'Desenvolvido para privacidade',
         items: [
-          '**Ilimitadas** reuniões',
+          '**Reuniões ilimitadas**',
           '**500** participantes em videochamadas [💬](#3)',
           '**5** TB de armazenamento compartilhado por usuário',
           'Pesquise em todas as suas reuniões [💬](#2)',
@@ -230,10 +230,20 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
 
 <AuthButton text="Começar" button-class="brand" event-name="get_started_attempt"/>
 <AuthButton text="Comprar agora" mode="checkout" eventName="buy_now_attempt" />
-<ContactForm buttonText="Fale com nossa equipe" buttonClass="alt" />
+<ContactForm 
+  buttonText="Fale com nossa equipe" 
+  buttonClass="alt"
+  :services="[
+    'Obter uma cotação personalizada para o plano Business',
+    'Discutir recursos empresariais e Zonas de Privacidade',
+    'Agendar uma demonstração para minha equipe',
+    'Dúvidas sobre integração de equipes (100+ usuários)',
+    'Requisitos de integração e técnicos',
+    'Outras consultas comerciais'
+  ]" />
 </PricingPlans>
 
-> 💡 **_Seu tempo é melhor gasto dominando sua área — não memorizando gramática._**  
+> 💡 **_Seu tempo é melhor aproveitado dominando sua área — não memorizando gramática._**  
 > 💡 **_Parcerias reais começam com conversas reais — no idioma deles._**
 
 ## Perguntas Frequentes {#FAQ}

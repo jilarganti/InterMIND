@@ -5,9 +5,9 @@ description: "Visioconférence professionnelle avec interprétation simultanée 
 isHome: true
 ---
 
-<!-- <HeroSection title="Rencontrez-vous dans **N'importe Quelle** Langue" :typingSpeed="10" text="Traduction vocale en direct dans les appels vidéo. Compréhension instantanée, sans barrières."> -->
+<!-- <HeroSection title="Rencontrez-vous dans **N'importe Quelle** Langue" :typingSpeed="10" text="Traduction vocale en direct dans les appels vidéo. Compréhension instantanée, aucune barrière."> -->
 
-<HeroSection title="Comprenez **N'importe Quelle** Langue" :typingSpeed="20" text="Interprétation simultanée pendant les réunions vidéo. Brisez les barrières linguistiques instantanément.">
+<HeroSection title="Comprenez **N'importe Quelle** Langue" :typingSpeed="20" text="Réunions vidéo multilingues avec traduction **vocale** instantanée">
 <NavButton buttonLabel="Voir la démo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
@@ -56,7 +56,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Conçu pour les réunions sérieuses — pas seulement pour parler',
-      details: 'InterMind est une [plateforme de réunion vidéo de qualité professionnelle](./product/overview/video-meeting-platform), pas un simple module complémentaire ou plugin léger.',
+      details: 'InterMind est une [plateforme de réunion vidéo de niveau professionnel](./product/overview/video-meeting-platform), pas un simple module complémentaire ou plugin léger.',
       items: [
         '✧ Résolution 1080p, suppression intelligente du bruit, planification, modération, partage d\'écran, enregistrement, sous-titrage, chat des participants et intégration calendrier — tout intégré, **prêt à l\'emploi**.',
       ],
@@ -85,7 +85,7 @@ isHome: true
     }"
   />
 
-> **Pour qui est-ce destiné ?**  
+> **À qui s'adresse-t-il ?**  
 > _Conçu pour les équipes internationales où les barrières linguistiques causent des retards, des affaires perdues ou des malentendus coûteux._ [En savoir plus ...](./product/overview/markets)
 
 ## Fonctionne comme Google Meet + Traduction en direct {#HowItWorks}
@@ -230,7 +230,17 @@ Du premier appel aux conversations fluides — à n'importe quelle échelle.
 
 <AuthButton text="Commencer" button-class="brand" event-name="get_started_attempt"/>
 <AuthButton text="Acheter maintenant" mode="checkout" eventName="buy_now_attempt" />
-<ContactForm buttonText="Parler à notre équipe" buttonClass="alt" />
+<ContactForm 
+  buttonText="Parler à notre équipe" 
+  buttonClass="alt"
+  :services="[
+    'Obtenir un devis personnalisé pour le plan Business',
+    'Discuter des fonctionnalités entreprise et des Zones de confidentialité',
+    'Planifier une démonstration pour mon équipe',
+    'Questions sur l\'intégration d\'équipe (100+ utilisateurs)',
+    'Exigences d\'intégration et techniques',
+    'Autre demande commerciale'
+  ]" />
 </PricingPlans>
 
 > 💡 **_Votre temps est mieux employé à maîtriser votre métier — pas à mémoriser la grammaire._**  

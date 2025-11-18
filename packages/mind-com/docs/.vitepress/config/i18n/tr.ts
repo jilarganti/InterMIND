@@ -63,7 +63,7 @@ export const tr = defineConfig({
       buttonLabel4BackToBlog: "← Bloga geri dön",
     },
     contact_form: {
-      name: "Ad *",
+      name: "İsim *",
       namePlaceholder: "adınız",
       email: "E-posta *",
       emailPlaceholder: "e-posta adresiniz",

@@ -148,7 +148,7 @@ function sidebarExp(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Zusammenfassung für Führungskräfte", link: "/InterMind-Executive-Summary" },
     { text: "Go-to-Market-Strategie", link: "/go-to-market-strategy" },
-    { text: "Investor-Pitch", link: "/InterMind-Investor-Pitch" },
+    { text: "Investor Pitch", link: "/InterMind-Investor-Pitch" },
     { text: "Begründung der Finanzprognosen (Jahr 1–3)", link: "/Financial-Projections-Justification" },
   ]
 }

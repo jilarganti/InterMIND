@@ -59,7 +59,7 @@ export const es = defineConfig({
       buttonLabel4NavButton: "Asistente",
       buttonLabel4SignInButton: "Iniciar sesión",
       buttonLabel4GetStartedButton: "Comenzar",
-      buttonLabel4TryItButton: "Prueba gratis",
+      buttonLabel4TryItButton: "Probar gratis",
       buttonLabel4BackToBlog: "← Volver al blog",
     },
     contact_form: {
@@ -94,7 +94,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "¿Qué es InterMIND?", link: "overview/what-is-intermind" },
         { text: "Cómo funciona", link: "overview/how-it-works" },
-        { text: "Plataforma de videorreuniones", link: "overview/video-meeting-platform" },
+        { text: "Plataforma de videollamadas", link: "overview/video-meeting-platform" },
         { text: "Traducción vs interpretación: ¿cuál es la diferencia?", link: "overview/translation-vs-interpretation-whats-the-difference" },
         { text: "Privacidad de datos regional", link: "overview/privacy-architecture" },
         { text: "Mercados prioritarios", link: "overview/markets" },

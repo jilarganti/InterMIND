@@ -1,32 +1,32 @@
 ---
-description: "Vous avez des questions sur l'interprétation de réunions alimentée par l'IA, la communication multilingue ou l'intégration d'entreprise ? Nous sommes là pour vous aider — rapidement, humainement, et sans confusion."
+description: "Vous avez des questions sur l'interprétation de réunion alimentée par l'IA, la communication multilingue ou l'intégration d'entreprise ? Nous sommes là pour vous aider — rapidement, humainement, et sans confusion."
 ---
 
-# 💬 Besoin d'assistance ? Aucun délai, aucune confusion — juste des réponses.
+# 💬 Besoin d'assistance ? Pas de délais, pas de confusion — juste des réponses.
 
 Faites-nous savoir ce que vous essayez d'accomplir — et nous vous aiderons à avancer.  
-Rapidement, de manière ciblée, et avec un vrai humain à l'autre bout.
+Rapide, ciblé, et avec un véritable humain de l'autre côté.
 
 <!-- <br>
 
 <ContactForm
   formStyle="margin: 1rem auto;"
-  categoryLabel="Qu'est-ce qui vous amène chez InterMind aujourd'hui ? *"
+  categoryLabel="Qu'est-ce qui vous amène à InterMind aujourd'hui ? *"
   categoryPlaceholderText="Choisissez votre raison principale…"
   messageLabel="Dites-nous en plus *"
   messagePlaceholderText="Tout ce que vous aimeriez partager — objectifs, contexte ou détails techniques."
-  buttonText="Obtenir de l'aide d'expert maintenant"
+  buttonText="Obtenez de l'aide d'expert maintenant"
   :services="[
     'J'ai besoin d'aide pour commencer',
-    'Je veux programmer une démonstration',
+    'Je veux planifier une démo',
     'J'ai un problème technique ou un bug',
-    'J'ai besoin d'aide avec l'intégration de réunions',
-    'J'ai des questions sur la qualité de traduction',
-    'J'ai besoin d'assistance pour l'intégration d'équipe',
+    'J'ai besoin d'aide pour l'intégration de réunion',
+    'J'ai des questions sur la qualité de la traduction',
+    'J'ai besoin d'aide pour l'intégration de l'équipe',
     'J'ai des questions de facturation ou d'abonnement',
     'Je veux explorer les fonctionnalités d'entreprise',
     'Je veux obtenir l'ID d'application et le token de l'API Mind sans restrictions',
-    'Question générale ou commentaire'
+    'Question générale ou retour'
   ]" /> -->
 
 <br>
@@ -36,25 +36,25 @@ Rapidement, de manière ciblée, et avec un vrai humain à l'autre bout.
 <ContactForm 
   :inline="true"
   formStyle="margin: 1rem auto;"  
-  categoryLabel="Qu'est-ce qui vous amène chez InterMind aujourd'hui ? *"  
+  categoryLabel="Qu'est-ce qui vous amène à InterMind aujourd'hui ? *"  
   categoryPlaceholderText="Choisissez votre raison principale…"  
   messageLabel="Dites-nous en plus *"  
   messagePlaceholderText="Tout ce que vous aimeriez partager — objectifs, contexte ou détails techniques."  
   :services="[
-    'J\'ai besoin d\'aide pour commencer',
-    'Je veux programmer une démonstration',
-    'J\'ai un problème technique ou un bug',
-    'J\'ai besoin d\'aide avec l\'intégration de réunions',
-    'J\'ai des questions sur la qualité de traduction',
-    'J\'ai besoin d\'assistance pour l\'intégration d\'équipe',
-    'J\'ai des questions de facturation ou d\'abonnement',
-    'Je veux explorer les fonctionnalités d\'entreprise',
-    'Je veux obtenir l\'ID d\'application et le token de l\'API Mind sans restrictions',
-    'Question générale ou commentaire'
+    &quot;J'ai besoin d'aide pour commencer&quot;,
+    &quot;Je veux planifier une démo&quot;,
+    &quot;J'ai un problème technique ou un bug&quot;,
+    &quot;J'ai besoin d'aide pour l'intégration de réunion&quot;,
+    &quot;J'ai des questions sur la qualité de la traduction&quot;,
+    &quot;J'ai besoin d'aide pour l'intégration de l'équipe&quot;,
+    &quot;J'ai des questions de facturation ou d'abonnement&quot;,
+    &quot;Je veux explorer les fonctionnalités d'entreprise&quot;,
+    &quot;Je veux obtenir l'ID d'application et le token de l'API Mind sans restrictions&quot;,
+    &quot;Question générale ou retour&quot;
   ]" />
 
 <br>
 
 > _Nous répondons généralement dans un délai d'un jour ouvrable._
 
-> _Votre demande sera examinée par un vrai humain — pas un bot._
+> _Votre demande sera examinée par un véritable humain — pas un bot._

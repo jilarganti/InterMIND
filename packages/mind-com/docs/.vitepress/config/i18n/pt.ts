@@ -8,7 +8,7 @@ export const pt = defineConfig({
   description:
     "Videoconferência profissional com interpretação simultânea em mais de 19 idiomas. Tradução com IA que captura tom, intenção e contexto para equipes globais.",
   head: [
-    ["meta", { property: "og:title", content: "InterMIND | Tradução de Fala em Tempo Real para Equipes Globais" }],
+    ["meta", { property: "og:title", content: "InterMIND | Tradução de fala em tempo real para equipes globais" }],
     [
       "meta",
       {
@@ -49,7 +49,7 @@ export const pt = defineConfig({
     },
 
     footer: {
-      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configurações de Privacidade</a> | <a href="${BASE_PATH}/resources/company/privacy-policy">Política de Privacidade</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">Regulamentações Legais para Serviços de IA</a> | <a href="https://status.mind.com/">Status do serviço</a>`,
+      message: `© Mind, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Configurações de privacidade</a> | <a href="${BASE_PATH}/resources/company/privacy-policy">Política de privacidade</a> | <a href="${BASE_PATH}/resources/company/legal-regulations-for-ai-services">Regulamentações legais para serviços de IA</a> | <a href="https://status.mind.com/">Status do serviço</a>`,
     },
 
     localization: {
@@ -65,8 +65,8 @@ export const pt = defineConfig({
     contact_form: {
       name: "Nome *",
       namePlaceholder: "seu nome",
-      email: "Email *",
-      emailPlaceholder: "seu endereço de email",
+      email: "E-mail *",
+      emailPlaceholder: "seu endereço de e-mail",
       webSite: "Site da empresa",
       webSitePlaceholder: "ex. https://nomedaempresa.com",
       webSiteError: "Por favor, insira o site",

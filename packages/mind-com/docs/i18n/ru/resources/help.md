@@ -11,7 +11,7 @@ description: "Есть вопросы об интерпретации встре
 
 <ContactForm
   formStyle="margin: 1rem auto;"
-  categoryLabel="Что привело вас в InterMind сегодня? *"
+  categoryLabel="Что привело вас к InterMind сегодня? *"
   categoryPlaceholderText="Выберите основную причину…"
   messageLabel="Расскажите подробнее *"
   messagePlaceholderText="Все, чем вы хотели бы поделиться — цели, контекст или технические детали."
@@ -36,7 +36,7 @@ description: "Есть вопросы об интерпретации встре
 <ContactForm 
   :inline="true"
   formStyle="margin: 1rem auto;"  
-  categoryLabel="Что привело вас в InterMind сегодня? *"  
+  categoryLabel="Что привело вас к InterMind сегодня? *"  
   categoryPlaceholderText="Выберите основную причину…"  
   messageLabel="Расскажите подробнее *"  
   messagePlaceholderText="Все, чем вы хотели бы поделиться — цели, контекст или технические детали."  

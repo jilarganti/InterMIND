@@ -51,7 +51,7 @@ Não apenas traduzimos palavras—preservamos significado, tom, contexto cultura
 
 ### Designers que resolvem problemas humanos
 
-- UX para alternância perfeita entre idiomas
+- UX para troca de idiomas sem interrupções
 - Interfaces que funcionam em todas as culturas
 - Sistemas visuais que comunicam sem palavras
 - Soluções de produto para equipes globais
@@ -100,7 +100,7 @@ Conheça [nossa equipe](./team) e saiba mais sobre [nossos valores corporativos]
 
 ## Junte-se a Nós
 
-Se você já construiu algo significativo e está pronto para desenvolver tecnologia que muda o mundo—escreva para nós.
+Se você já construiu algo significativo e está pronto para construir tecnologia que muda o mundo—escreva para nós.
 
 Mostre-nos o que você fez. Conte-nos o que você quer construir a seguir.
 

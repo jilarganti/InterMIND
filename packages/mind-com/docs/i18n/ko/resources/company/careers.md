@@ -3,7 +3,7 @@
 <img src="/resources/iStock-1492917260.jpg" alt="UAE 디르함" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/resources/iStock-1130023029.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-우리는 사람들 사이의 언어 장벽을 제거하는 기술을 구축하고 있습니다. 우리의 제품은 서로 다른 국가의 사람들이 각자의 모국어로 말하면서도 자연스럽게 서로를 이해할 수 있게 해줍니다.
+우리는 사람들 사이의 언어 장벽을 제거하는 기술을 구축하고 있습니다. 우리의 제품은 서로 다른 나라 사람들이 각자의 모국어로 말하면서도 자연스럽게 서로를 이해할 수 있게 해줍니다.
 
 이것은 번역기가 아닙니다. 이것은 글로벌 커뮤니케이션을 위한 새로운 패러다임입니다.
 
@@ -96,13 +96,13 @@
 
 **글로벌 임팩트.** 당신의 작업은 언어 장벽을 넘나드는 인류의 소통 방식을 변화시킬 것입니다.
 
-[우리 팀](./team)을 만나보고 [회사 가치관](./about)에 대해 알아보세요.
+[our team](./team)을 만나보고 [our company values](./about)에 대해 알아보세요.
 
 ## 함께하세요
 
 이미 의미 있는 것을 구축했고 세상을 바꾸는 기술을 만들 준비가 되었다면—저희에게 연락하세요.
 
-당신이 해온 일을 보여주세요. 다음에 무엇을 만들고 싶은지 말해주세요.
+당신이 해온 일을 보여주세요. 다음에 무엇을 만들고 싶은지 알려주세요.
 
 <!-- **Contact:** careers@mind.com -->
 
@@ -113,7 +113,7 @@
   categoryLabel="당신의 전문 분야는 무엇인가요? *"  
   categoryPlaceholderText="분야를 선택하세요..."  
   messageLabel="당신의 작업을 보여주세요 *"  
-  messagePlaceholderText="프로젝트, GitHub, 포트폴리오 링크를 공유하거나 당신이 만든 임팩트를 설명해주세요. 다음에 해결하고 싶은 문제는 무엇인가요?"  
+  messagePlaceholderText="프로젝트, GitHub, 포트폴리오 링크를 공유하거나 당신이 만든 임팩트를 설명해 주세요. 다음에 해결하고 싶은 문제는 무엇인가요?"  
   buttonText="지원서 보내기"
   webSiteLabel="Git / 블로그 / 사이트 / ..."
   webSitePlaceholderText="예: github.com/yourname"

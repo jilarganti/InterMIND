@@ -23,7 +23,7 @@ Schnell, fokussiert und mit einem echten Menschen am anderen Ende.
     'Ich benötige Hilfe bei der Meeting-Integration',
     'Ich habe Fragen zur Übersetzungsqualität',
     'Ich benötige Unterstützung beim Team-Onboarding',
-    'Ich habe Fragen zur Abrechnung oder zum Abonnement',
+    'Ich habe Fragen zu Abrechnung oder Abonnement',
     'Ich möchte Enterprise-Funktionen erkunden',
     'Ich möchte Mind API Anwendungs-ID und Token ohne Einschränkungen erhalten',
     'Allgemeine Frage oder Feedback'
@@ -47,7 +47,7 @@ Schnell, fokussiert und mit einem echten Menschen am anderen Ende.
     'Ich benötige Hilfe bei der Meeting-Integration',
     'Ich habe Fragen zur Übersetzungsqualität',
     'Ich benötige Unterstützung beim Team-Onboarding',
-    'Ich habe Fragen zur Abrechnung oder zum Abonnement',
+    'Ich habe Fragen zu Abrechnung oder Abonnement',
     'Ich möchte Enterprise-Funktionen erkunden',
     'Ich möchte Mind API Anwendungs-ID und Token ohne Einschränkungen erhalten',
     'Allgemeine Frage oder Feedback'

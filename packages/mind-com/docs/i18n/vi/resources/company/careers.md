@@ -88,7 +88,7 @@ Chúng tôi không chỉ dịch từ ngữ—chúng tôi bảo tồn ý nghĩa, 
 <img src="/resources/iStock-2218979526.jpg" alt="Dirham UAE" width="500" align="right" style="padding: 1.5rem" class="dark-only">
 <img src="/resources/iStock-2227445862.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only">
 
-**Thử thách tầm cỡ thế giới.** Bạn sẽ giải quyết những vấn đề ảnh hưởng đến hàng tỷ người.
+**Thách thức tầm cỡ thế giới.** Bạn sẽ giải quyết những vấn đề ảnh hưởng đến hàng tỷ người.
 
 **Đội ngũ đẳng cấp thế giới.** Làm việc cùng các chuyên gia hàng đầu về AI, hệ thống thời gian thực và truyền thông toàn cầu.
 

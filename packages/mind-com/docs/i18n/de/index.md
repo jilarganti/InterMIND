@@ -7,7 +7,7 @@ isHome: true
 
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="Verstehen Sie **jede** Sprache" :typingSpeed="20" text="Simultandolmetschen während Videobesprechungen. Sprachbarrieren sofort überwinden.">
+<HeroSection title="Verstehen Sie **jede** Sprache" :typingSpeed="20" text="Mehrsprachige Videobesprechungen mit sofortiger **Sprach**übersetzung">
 <NavButton buttonLabel="Demo ansehen" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="Assistent" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
@@ -58,7 +58,7 @@ isHome: true
       title: 'Für ernsthafte Besprechungen entwickelt — nicht nur zum Reden',
       details: 'InterMind ist eine [professionelle Videobesprechungsplattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
       items: [
-        '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
+        '✧ 1080p-Auflösung, intelligente Rauschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -90,7 +90,7 @@ isHome: true
 
 ## Funktioniert wie Google Meet + Live-Übersetzung {#HowItWorks}
 
-Vertraute Benutzeroberfläche. Universelle Kommunikation. Genauso einfach wie Google Meet — mit Sofortübersetzung, die Sprachbarrieren verschwinden lässt.
+Vertraute Benutzeroberfläche. Universelle Kommunikation. Genauso einfach wie Google Meet — mit sofortiger Übersetzung, die Sprachbarrieren verschwinden lässt.
 
 <FeatureCards
     :features="[
@@ -166,7 +166,7 @@ Diese einzige Spracheinstellung gilt für:
 Ja. Sie können die **Einstellungen** öffnen und das Feld `Ihre Sprache` ändern:
 
 :::details Einstellungsbereich
-<img src="/settings.png" alt="Einstellungsbereich" width="300px" />
+<img src="/settings.png" alt="einstellungsbereich" width="300px" />
 :::
 
 Diese Änderung bedeutet:
@@ -195,7 +195,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         details: 'keine Kreditkarte erforderlich',
         items: [
           '**25** Meetings',
-          '**100** Teilnehmer Videomeetings [💬](#3)',
+          '**100** Teilnehmer Video-Meetings [💬](#3)',
           '**30** GB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',
@@ -207,7 +207,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         details: 'oder 25 € monatlich abgerechnet',
         items: [
           '**Unbegrenzte** Meetings',
-          '**150** Teilnehmer Videomeetings [💬](#3)',
+          '**150** Teilnehmer Video-Meetings [💬](#3)',
           '**2** TB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',
@@ -219,18 +219,28 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
         details: 'Für Datenschutz entwickelt',
         items: [
           '**Unbegrenzte** Meetings',
-          '**500** Teilnehmer Videomeetings [💬](#3)',
+          '**500** Teilnehmer Video-Meetings [💬](#3)',
           '**5** TB gemeinsamer Speicher pro Benutzer',
           'Suche in allen Ihren Meetings [💬](#2)',
           'Simultandolmetschen [💬](#1)',
-          '**Datenschutzzonen** [💬](#4)',
+          '**Privacy Zones** [💬](#4)',
         ],
       },
     ]">
 
 <AuthButton text="Loslegen" button-class="brand" event-name="get_started_attempt"/>
 <AuthButton text="Jetzt kaufen" mode="checkout" eventName="buy_now_attempt" />
-<ContactForm buttonText="Mit unserem Team sprechen" buttonClass="alt" />
+<ContactForm 
+  buttonText="Mit unserem Team sprechen" 
+  buttonClass="alt"
+  :services="[
+    'Individuelles Angebot für Business-Plan erhalten',
+    'Enterprise-Features und Privacy Zones besprechen',
+    'Demo für mein Team vereinbaren',
+    'Fragen zum Team-Onboarding (100+ Benutzer)',
+    'Integrations- und technische Anforderungen',
+    'Sonstige Geschäftsanfrage'
+  ]" />
 </PricingPlans>
 
 > 💡 **_Ihre Zeit ist besser damit verbracht, Ihr Handwerk zu meistern — nicht Grammatik auswendig zu lernen._**  
@@ -262,7 +272,7 @@ Vom ersten Anruf bis zu fließenden Gesprächen — in jeder Größenordnung.
       },
       {
         q: 'Wie gewährleistet InterMind Datenschutz und Sicherheit?',
-        a: 'InterMind ist **standardmäßig privat**. Alle Daten werden innerhalb Ihrer gewählten **Datenschutzzone** verarbeitet und gespeichert — _EU_, _USA_ oder _Asien_. Wir entsprechen der [**DSGVO**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) und UAE PDPL und **verwenden niemals Ihre Inhalte** für Training oder Zugriff durch Dritte. Erweiterte [Datenschutzzonen-Kontrolle](./product/overview/privacy-architecture) ist im **Business**-Plan verfügbar.',
+        a: 'InterMind ist **standardmäßig privat**. Alle Daten werden in Ihrer gewählten **Datenschutzzone** verarbeitet und gespeichert — _EU_, _USA_ oder _Asien_. Wir entsprechen der [**DSGVO**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) und UAE PDPL und **verwenden niemals Ihre Inhalte** für Training oder Zugriff durch Dritte. Erweiterte [Datenschutzzonen-Kontrolle](./product/overview/privacy-architecture) ist im **Business**-Plan verfügbar.',
       },
       {
         q: 'Kann ich InterMind vor dem Kauf eines Plans testen?',

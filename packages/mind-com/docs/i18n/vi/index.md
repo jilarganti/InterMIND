@@ -5,9 +5,9 @@ description: "Hội nghị truyền hình chuyên nghiệp với phiên dịch �
 isHome: true
 ---
 
-<!-- <HeroSection title="Họp bằng **Bất kỳ** ngôn ngữ nào" :typingSpeed="10" text="Dịch thuật giọng nói trực tiếp trong cuộc gọi video. Hiểu ngay lập tức, không có rào cản."> -->
+<!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="Hiểu **Bất kỳ** ngôn ngữ nào" :typingSpeed="20" text="Phiên dịch đồng thời trong cuộc họp video. Phá vỡ rào cản ngôn ngữ ngay lập tức.">
+<HeroSection title="Hiểu **mọi** ngôn ngữ" :typingSpeed="20" text="Cuộc họp video đa ngôn ngữ với dịch thuật **giọng nói** tức thì">
 <NavButton buttonLabel="Xem demo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="Trợ lý" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
@@ -40,7 +40,7 @@ isHome: true
       items: [
         '✧ **Hỏi bất cứ điều gì** — AI tìm câu trả lời **trong tất cả cuộc họp của bạn**.',
         '✧ Tự động trích xuất nhiệm vụ, người phụ trách và thời hạn.',
-        '✧ Tóm tắt các điểm chính bằng bất kỳ ngôn ngữ nào — ngay lập tức.',
+        '✧ Tóm tắt các điểm chính bằng bất kỳ ngôn ngữ nào — tức thì.',
       ],
       link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
       src: {
@@ -55,10 +55,10 @@ isHome: true
 
 <FeatureBlock
     :card="{
-      title: 'Được xây dựng cho cuộc họp nghiêm túc — không chỉ để nói chuyện',
+      title: 'Được xây dựng cho các cuộc họp nghiêm túc — không chỉ để nói chuyện',
       details: 'InterMind là một [nền tảng cuộc họp video chuyên nghiệp](./product/overview/video-meeting-platform), không phải là một tiện ích bổ sung hay plugin nhẹ.',
       items: [
-        '✧ Độ phân giải 1080p, khử tiếng ồn thông minh, lên lịch, kiểm duyệt, chia sẻ màn hình, ghi âm, phụ đề, trò chuyện người tham gia và tích hợp lịch — tất cả được tích hợp sẵn, **sẵn sàng sử dụng**.',
+        '✧ Độ phân giải 1080p, khử tiếng ồn thông minh, lập lịch, kiểm duyệt, chia sẻ màn hình, ghi âm, phụ đề, trò chuyện của người tham gia và tích hợp lịch — tất cả được tích hợp sẵn, **sẵn sàng sử dụng**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -73,9 +73,9 @@ isHome: true
 
 <FeatureBlock
     :card="{
-      title: 'Bảo mật ở nơi quan trọng',
+      title: 'Quyền riêng tư ở nơi quan trọng',
       details: 'InterMind được xây dựng cho các cuộc trò chuyện quan trọng về mặt tin cậy — nơi quyền riêng tư và kiểm soát quan trọng nhất.',
-      items: ['✧ [Vùng bảo mật](./product/overview/privacy-architecture) — EU, US, Đông Nam Á', '✧ **Không đào tạo dữ liệu**. Không có quyền truy cập bên thứ ba.'],
+      items: ['✧ [Vùng riêng tư](./product/overview/privacy-architecture) — EU, US, Đông Nam Á', '✧ **Không đào tạo dữ liệu**. Không có quyền truy cập bên thứ ba.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.webp',
@@ -86,7 +86,7 @@ isHome: true
   />
 
 > **Dành cho ai?**  
-> _Được xây dựng cho các nhóm quốc tế nơi rào cản ngôn ngữ gây ra chậm trễ, mất thỏa thuận hoặc hiểu lầm tốn kém._ [Tìm hiểu thêm ...](./product/overview/markets)
+> _Được xây dựng cho các nhóm quốc tế nơi rào cản ngôn ngữ gây ra chậm trễ, mất cơ hội kinh doanh hoặc hiểu lầm tốn kém._ [Tìm hiểu thêm ...](./product/overview/markets)
 
 ## Hoạt động như Google Meet + Dịch thuật trực tiếp {#HowItWorks}
 
@@ -230,10 +230,20 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
 
 <AuthButton text="Bắt đầu" button-class="brand" event-name="get_started_attempt"/>
 <AuthButton text="Mua ngay" mode="checkout" eventName="buy_now_attempt" />
-<ContactForm buttonText="Nói chuyện với đội ngũ của chúng tôi" buttonClass="alt" />
+<ContactForm 
+  buttonText="Nói chuyện với đội ngũ của chúng tôi" 
+  buttonClass="alt"
+  :services="[
+    'Nhận báo giá tùy chỉnh cho gói Doanh nghiệp',
+    'Thảo luận về tính năng doanh nghiệp và Vùng riêng tư',
+    'Lên lịch demo cho đội ngũ của tôi',
+    'Câu hỏi về việc đưa đội ngũ vào sử dụng (100+ người dùng)',
+    'Yêu cầu tích hợp và kỹ thuật',
+    'Yêu cầu kinh doanh khác'
+  ]" />
 </PricingPlans>
 
-> 💡 **_Thời gian của bạn nên dành để thành thạo nghề nghiệp — không phải để ghi nhớ ngữ pháp._**  
+> 💡 **_Thời gian của bạn nên dành để thành thạo nghề nghiệp — chứ không phải ghi nhớ ngữ pháp._**  
 > 💡 **_Quan hệ đối tác thực sự bắt đầu bằng những cuộc trò chuyện thực sự — bằng ngôn ngữ của họ._**
 
 ## Câu hỏi thường gặp {#FAQ}
@@ -249,12 +259,12 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
         a: 'Một *người dùng có giấy phép* có giấy phép họp miễn phí hoặc trả phí và có thể lên lịch họp trong giới hạn gói của họ. *Người tham gia* là những người được mời — họ **không cần tài khoản hoặc giấy phép** để tham gia và có thể kết nối từ bất kỳ thiết bị nào **miễn phí**.',
       },
       {
-        q: 'Có bao nhiều người có thể sử dụng một giấy phép InterMind?',
-        a: 'Mỗi *người dùng có giấy phép* có thể tổ chức **số lượng cuộc họp không giới hạn**. Nếu nhiều thành viên trong nhóm cần tổ chức cuộc họp cùng lúc, mỗi người sẽ cần giấy phép riêng.',
+        q: 'Có bao nhiêu người có thể sử dụng một giấy phép InterMind?',
+        a: 'Mỗi *người dùng có giấy phép* có thể tổ chức **số lượng cuộc họp không giới hạn**. Nếu nhiều thành viên trong nhóm cần tổ chức họp đồng thời, mỗi người sẽ cần giấy phép riêng.',
       },
       {
         q: 'Thời gian tối đa của một cuộc họp là bao lâu?',
-        a: 'Cuộc họp có thể kéo dài tới **24 giờ** trên tất cả các gói.',
+        a: 'Các cuộc họp có thể kéo dài tới **24 giờ** trên tất cả các gói.',
       },
       {
         q: 'Có giới hạn số lượng cuộc họp tôi có thể tổ chức không?',
@@ -274,11 +284,11 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
       },
       {
         q: 'Làm thế nào để quản lý đăng ký của tôi (nâng cấp, hạ cấp, hoặc hủy)?',
-        a: 'Bạn có thể thay đổi gói bất cứ lúc nào thông qua **cài đặt tài khoản**. Thay đổi có hiệu lực **ngay lập tức**. Đối với việc hủy, *Gói hàng tháng* hủy vào cuối chu kỳ thanh toán. *Gói hàng năm* có thể được hủy để **hoàn tiền theo tỷ lệ**.',
+        a: 'Bạn có thể thay đổi gói bất cứ lúc nào thông qua **cài đặt tài khoản**. Các thay đổi có hiệu lực **ngay lập tức**. Đối với việc hủy, *Gói hàng tháng* hủy vào cuối chu kỳ thanh toán. *Gói hàng năm* có thể được hủy để **hoàn tiền theo tỷ lệ**.',
       },
       {
-        q: 'Tôi có thể sử dụng InterMind cho webinar hoặc sự kiện lớn không?',
-        a: 'Có. Các gói *Pro* và *Business* lý tưởng cho **cuộc họp lớn và webinar** — với hỗ trợ lên tới **500 người tham gia** trên gói *Business*.',
+        q: 'Tôi có thể sử dụng InterMind cho hội thảo trực tuyến hoặc sự kiện lớn không?',
+        a: 'Có. Các gói *Pro* và *Business* lý tưởng cho **các cuộc họp lớn và hội thảo trực tuyến** — với hỗ trợ lên tới **500 người tham gia** trên gói *Business*.',
       },
     ]"/>
 
@@ -310,7 +320,7 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
           { text: 'Blog', link: './blog/' },
           { text: 'Tuân thủ truy cập ngôn ngữ toàn cầu', link: './blog/posts/global-language-access-compliance' },
           { text: 'Tài sản thương hiệu', link: './resources/media-kit' },
-          { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
+          { text: 'Tài liệu AI API / LLM', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

@@ -1,13 +1,13 @@
 ---
 layout: home
 title: "화상 회의를 위한 실시간 음성 번역"
-description: "19개 이상 언어로 동시 통역이 가능한 전문 화상 회의. 톤, 의도, 맥락을 파악하는 AI 기반 번역. 전 세계와 만나고, 자연스럽게 소통하세요."
+description: "19개 이상 언어의 동시 통역이 가능한 전문 화상 회의. 톤, 의도, 맥락을 파악하는 AI 기반 번역. 전 세계와 만나고, 자연스럽게 소통하세요."
 isHome: true
 ---
 
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="**모든** 언어를 이해하세요" :typingSpeed="20" text="화상 회의 중 동시 통역. 언어 장벽을 즉시 해결합니다.">
+<HeroSection title="**모든** 언어를 이해하세요" :typingSpeed="20" text="즉석 **음성** 번역이 가능한 다국어 화상 회의">
 <NavButton buttonLabel="데모 보기" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
 <NavButton buttonLabel="어시스턴트" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
@@ -35,10 +35,10 @@ isHome: true
 
 <FeatureBlock
     :card="{
-      title: '회의 속 지능',
+      title: '회의 속 마음을 읽는 AI',
       details: 'InterMind는 모든 다국어 통화를 명확하고 검색 가능한 지식으로 변환합니다.',
       items: [
-        '✧ **무엇이든 질문하세요** — AI가 **회의 전반에서** 답변을 찾습니다.',
+        '✧ **무엇이든 물어보세요** — AI가 **모든 회의에서** 답을 찾아드립니다.',
         '✧ 작업, 담당자, 마감일을 자동으로 추출합니다.',
         '✧ 핵심 사항을 어떤 언어로든 즉시 요약합니다.',
       ],
@@ -55,7 +55,7 @@ isHome: true
 
 <FeatureBlock
     :card="{
-      title: '단순한 대화가 아닌 진지한 회의를 위해 구축',
+      title: '단순한 대화가 아닌 진지한 회의를 위해 설계',
       details: 'InterMind는 가벼운 애드온이나 플러그인이 아닌 [전문급 화상 회의 플랫폼](./product/overview/video-meeting-platform)입니다.',
       items: [
         '✧ 1080p 해상도, 스마트 노이즈 억제, 일정 관리, 중재, 화면 공유, 녹화, 자막, 참가자 채팅 및 캘린더 통합 — 모든 기능이 내장되어 **바로 사용 가능**합니다.',
@@ -73,9 +73,9 @@ isHome: true
 
 <FeatureBlock
     :card="{
-      title: '중요한 곳의 개인정보 보호',
-      details: 'InterMind는 개인정보 보호와 통제가 가장 중요한 신뢰가 중요한 대화를 위해 구축되었습니다.',
-      items: ['✧ [프라이버시 존](./product/overview/privacy-architecture) — EU, US, 동남아시아', '✧ **데이터 학습 제로**. 제3자 접근 없음.'],
+      title: '중요한 곳의 프라이버시',
+      details: 'InterMind는 프라이버시와 통제가 가장 중요한 신뢰가 필요한 대화를 위해 구축되었습니다.',
+      items: ['✧ [프라이버시 존](./product/overview/privacy-architecture) — EU, US, 동남아시아', '✧ **데이터 학습 제로**. 제3자 접근 불가.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.webp',
@@ -85,12 +85,12 @@ isHome: true
     }"
   />
 
-> **누구를 위한 것인가요?**  
-> _언어 장벽으로 인해 지연, 거래 실패 또는 비용이 많이 드는 오해가 발생하는 국제 팀을 위해 구축되었습니다._ [자세히 알아보기 ...](./product/overview/markets)
+> **누구를 위한 서비스인가요?**  
+> _언어 장벽으로 인해 지연, 거래 실패, 비용이 많이 드는 오해가 발생하는 국제 팀을 위해 구축되었습니다._ [자세히 알아보기 ...](./product/overview/markets)
 
 ## Google Meet + 실시간 번역처럼 작동 {#HowItWorks}
 
-친숙한 인터페이스. 범용 커뮤니케이션. Google Meet과 같은 편리함 — 언어 장벽을 사라지게 하는 즉석 번역 기능 포함.
+친숙한 인터페이스. 범용 커뮤니케이션. Google Meet과 같은 편리함 — 언어 장벽을 사라지게 하는 즉석 번역 기능과 함께.
 
 <FeatureCards
     :features="[
@@ -112,7 +112,7 @@ isHome: true
       },
       {
         title: '회의 참여',
-        details: '링크를 클릭하고, 이름을 입력한 후 즉시 참여하세요.',
+        details: '링크를 클릭하고, 이름을 입력하고, 즉시 참여하세요.',
         icon: {
           light: '/join.webp',
           dark: '/join.webp',
@@ -120,7 +120,7 @@ isHome: true
       },
       {
         title: '모국어로 대화',
-        details: '모든 참가자가 자신의 언어로 말하고 들을 수 있습니다.',
+        details: '모든 사람이 자신의 언어로 말하고 듣습니다.',
         icon: {
           light: '/meeting.png',
           dark: '/meeting.png',
@@ -194,10 +194,10 @@ isHome: true
         price: '**무료**',
         details: '신용카드 불필요',
         items: [
-          '**25**회 회의',
-          '**100**명 참가자 화상 회의 [💬](#3)',
+          '**25**회 미팅',
+          '**100**명 참가자 화상 미팅 [💬](#3)',
           '사용자당 **30** GB 공유 저장소',
-          '모든 회의 검색 [💬](#2)',
+          '모든 미팅 검색 [💬](#2)',
           '동시 통역 [💬](#1)',
         ],
       },
@@ -206,22 +206,22 @@ isHome: true
         price: '**$20** /월/사용자, 연간 결제',
         details: '또는 월간 결제 시 $25',
         items: [
-          '**무제한** 회의',
-          '**150**명 참가자 화상 회의 [💬](#3)',
+          '**무제한** 미팅',
+          '**150**명 참가자 화상 미팅 [💬](#3)',
           '사용자당 **2** TB 공유 저장소',
-          '모든 회의 검색 [💬](#2)',
+          '모든 미팅 검색 [💬](#2)',
           '동시 통역 [💬](#1)',
         ],
       },
       {
         title: '**비즈니스** &nbsp 100명 이상',
         price: '**맞춤형 가격**',
-        details: '프라이버시를 위한 설계',
+        details: '프라이버시를 위해 설계됨',
         items: [
-          '**무제한** 회의',
-          '**500**명 참가자 화상 회의 [💬](#3)',
+          '**무제한** 미팅',
+          '**500**명 참가자 화상 미팅 [💬](#3)',
           '사용자당 **5** TB 공유 저장소',
-          '모든 회의 검색 [💬](#2)',
+          '모든 미팅 검색 [💬](#2)',
           '동시 통역 [💬](#1)',
           '**프라이버시 존** [💬](#4)',
         ],
@@ -230,11 +230,21 @@ isHome: true
 
 <AuthButton text="시작하기" button-class="brand" event-name="get_started_attempt"/>
 <AuthButton text="지금 구매" mode="checkout" eventName="buy_now_attempt" />
-<ContactForm buttonText="팀과 상담하기" buttonClass="alt" />
+<ContactForm 
+  buttonText="팀과 상담하기" 
+  buttonClass="alt"
+  :services="[
+    '비즈니스 플랜 맞춤 견적 받기',
+    '엔터프라이즈 기능 및 프라이버시 존 논의',
+    '우리 팀을 위한 데모 예약',
+    '팀 온보딩 관련 질문 (100명 이상)',
+    '통합 및 기술 요구사항',
+    '기타 비즈니스 문의'
+  ]" />
 </PricingPlans>
 
 > 💡 **_당신의 시간은 문법을 암기하는 것보다 전문 기술을 익히는 데 더 잘 쓰여야 합니다._**  
-> 💡 **_진정한 파트너십은 진정한 대화에서 시작됩니다 — 그들의 언어로._**
+> 💡 **_진정한 파트너십은 그들의 언어로 하는 진정한 대화에서 시작됩니다._**
 
 ## 자주 묻는 질문 {#FAQ}
 
