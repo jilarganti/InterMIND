@@ -113,6 +113,7 @@ onMounted(async () => {
   .hero-title {
     font-size: 2.5rem;
     overflow-wrap: break-word;
+    margin-top: 2rem;
   }
 
   .hero-text {
