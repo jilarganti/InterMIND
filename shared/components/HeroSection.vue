@@ -126,6 +126,20 @@ onMounted(async () => {
   }
 }
 
+@media (max-height: 640px) and (orientation: landscape) {
+  .hero-title {
+    margin-top: 1rem;
+  }
+
+  .hero-text {
+    margin-top: 0.5rem;
+  }
+
+  .hero-actions {
+    margin-top: 1.5rem;
+  }
+}
+
 /* Styles for the fade-slide-up transition */
 .fade-slide-up-enter-active,
 .fade-slide-up-leave-active {
