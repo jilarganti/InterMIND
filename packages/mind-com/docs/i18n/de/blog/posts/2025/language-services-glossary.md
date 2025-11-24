@@ -290,13 +290,13 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 <div class="performance-metrics">
 
-| Kennzahl                        | KI-Leistung     | Menschliche Leistung | KI-Vorteil         |
-| ------------------------------- | --------------- | -------------------- | ------------------ |
-| **Genauigkeit (Hauptsprachpaare)** | 94,2%           | 98,5%                | -4,3% Unterschied  |
-| **Genauigkeit (Fachsprache)**      | 96,8%           | 98,1%                | -1,3% Unterschied  |
-| **Verarbeitungsgeschwindigkeit**   | 2.000-5.000 wpm | 250-400 wpm          | 8-20x schneller    |
-| **Kosten pro 1.000 Wörter**       | 18,50 $         | 275 $                | 93% günstiger      |
-| **Verfügbarkeit**                  | 24/7            | Geschäftszeiten      | 3x Verfügbarkeit   |
+| Kennzahl                           | KI-Leistung     | Menschliche Leistung | KI-Vorteil             |
+| ---------------------------------- | --------------- | -------------------- | ---------------------- |
+| **Genauigkeit (Hauptsprachpaare)** | 94,2%           | 98,5%                | -4,3% Unterschied      |
+| **Genauigkeit (Fachsprache)**      | 96,8%           | 98,1%                | -1,3% Unterschied      |
+| **Verarbeitungsgeschwindigkeit**   | 2.000-5.000 wpm | 250-400 wpm          | 8-20x schneller        |
+| **Kosten pro 1.000 Wörter**        | 18,50 $         | 275 $                | 93% günstiger          |
+| **Verfügbarkeit**                  | 24/7            | Geschäftszeiten      | 3x Verfügbarkeit       |
 | **Konsistenz**                     | 100%            | 85-95%               | Höhere Zuverlässigkeit |
 
 </div>
@@ -535,12 +535,12 @@ Dies ist der zweite Untertitel.
 
 <div class="roi-analysis">
 
-| Ansatz                | Anfangsinvestition | Monatliche Kosten | Zeitersparnis | Kostenersparnis | 12-Monats-ROI |
-| --------------------- | ------------------ | ----------------- | ------------- | --------------- | ------------- |
-| **Nur KI**            | 15.000 €           | 2.500 €           | 95%           | 85%             | 340%          |
-| **Hybrid**            | 25.000 €           | 4.200 €           | 75%           | 65%             | 285%          |
-| **Nur Menschen**      | 5.000 €            | 12.000 €          | 0%            | 0%              | Grundlage     |
-| **KI-Dolmetschen**    | 10.000 €           | 1.200 €           | 90%           | 90%             | 380%          |
+| Ansatz             | Anfangsinvestition | Monatliche Kosten | Zeitersparnis | Kostenersparnis | 12-Monats-ROI |
+| ------------------ | ------------------ | ----------------- | ------------- | --------------- | ------------- |
+| **Nur KI**         | 15.000 €           | 2.500 €           | 95%           | 85%             | 340%          |
+| **Hybrid**         | 25.000 €           | 4.200 €           | 75%           | 65%             | 285%          |
+| **Nur Menschen**   | 5.000 €            | 12.000 €          | 0%            | 0%              | Grundlage     |
+| **KI-Dolmetschen** | 10.000 €           | 1.200 €           | 90%           | 90%             | 380%          |
 
 </div>
 
@@ -621,13 +621,13 @@ Dies ist der zweite Untertitel.
 
 **Lokalisierung vs Übersetzung:**
 
-| Aspekt                | Übersetzung     | Lokalisierung                 |
-| --------------------- | --------------- | ----------------------------- |
-| **Umfang**            | Nur Text       | Komplettes Produkt/Erlebnis  |
-| **Kulturelle Elemente** | Minimal       | Umfassend                     |
-| **Technische Änderungen** | Keine        | Format, Layout, Funktionalität |
-| **Kosten**            | 0,10-0,30€/Wort | 5.000-100.000€+ pro Sprache  |
-| **Zeitrahmen**        | Tage-Wochen     | Wochen-Monate                 |
+| Aspekt                    | Übersetzung     | Lokalisierung                  |
+| ------------------------- | --------------- | ------------------------------ |
+| **Umfang**                | Nur Text        | Komplettes Produkt/Erlebnis    |
+| **Kulturelle Elemente**   | Minimal         | Umfassend                      |
+| **Technische Änderungen** | Keine           | Format, Layout, Funktionalität |
+| **Kosten**                | 0,10-0,30€/Wort | 5.000-100.000€+ pro Sprache    |
+| **Zeitrahmen**            | Tage-Wochen     | Wochen-Monate                  |
 
 ### Rückübersetzung
 
@@ -992,16 +992,16 @@ Dies ist der zweite Untertitel.
 
 <div class="accuracy-comparison">
 
-| Inhaltstyp                     | KI-Genauigkeit | Menschliche Genauigkeit | Empfohlener Ansatz          |
-| ------------------------------ | -------------- | ----------------------- | --------------------------- |
-| **Technische Dokumentation**  | 96,8%          | 98,1%                   | Hybrid (KI + Überprüfung)  |
-| **Geschäftskommunikation**    | 94,7%          | 97,3%                   | KI akzeptabel               |
-| **Marketing-Inhalte**         | 89,2%          | 95,8%                   | Mensch bevorzugt            |
-| **Rechtsdokumente**           | 87,4%          | 96,7%                   | Mensch obligatorisch        |
-| **Kreative Inhalte**          | 82,1%          | 94,3%                   | Mensch obligatorisch        |
-| **Allgemeine Web-Inhalte**    | 94,2%          | 96,5%                   | KI akzeptabel               |
-| **E-Commerce-Kataloge**       | 92,4%          | 95,1%                   | Hybrid empfohlen            |
-| **Medizinische Inhalte**      | 91,8%          | 98,2%                   | Mensch mit Zertifizierung   |
+| Inhaltstyp                   | KI-Genauigkeit | Menschliche Genauigkeit | Empfohlener Ansatz        |
+| ---------------------------- | -------------- | ----------------------- | ------------------------- |
+| **Technische Dokumentation** | 96,8%          | 98,1%                   | Hybrid (KI + Überprüfung) |
+| **Geschäftskommunikation**   | 94,7%          | 97,3%                   | KI akzeptabel             |
+| **Marketing-Inhalte**        | 89,2%          | 95,8%                   | Mensch bevorzugt          |
+| **Rechtsdokumente**          | 87,4%          | 96,7%                   | Mensch obligatorisch      |
+| **Kreative Inhalte**         | 82,1%          | 94,3%                   | Mensch obligatorisch      |
+| **Allgemeine Web-Inhalte**   | 94,2%          | 96,5%                   | KI akzeptabel             |
+| **E-Commerce-Kataloge**      | 92,4%          | 95,1%                   | Hybrid empfohlen          |
+| **Medizinische Inhalte**     | 91,8%          | 98,2%                   | Mensch mit Zertifizierung |
 
 </div>
 
@@ -1050,15 +1050,15 @@ Dies ist der zweite Untertitel.
 #### Übersetzungs- und Dolmetschermarkt (2020-2027)
 
 | Jahr     | Gesamtmarkt | KI-Services | Menschliche Services | KI-Marktanteil |
-| -------- | ----------- | ----------- | -------------------- | --------------- |
-| **2020** | 1,5 Mrd. €  | 0,3 Mrd. € | 1,2 Mrd. €          | 20%             |
-| **2021** | 2,1 Mrd. €  | 0,6 Mrd. € | 1,5 Mrd. €          | 29%             |
-| **2022** | 2,8 Mrd. €  | 1,1 Mrd. € | 1,7 Mrd. €          | 39%             |
-| **2023** | 3,7 Mrd. €  | 1,8 Mrd. € | 1,9 Mrd. €          | 49%             |
-| **2024** | 4,9 Mrd. €  | 2,8 Mrd. € | 2,1 Mrd. €          | 57%             |
-| **2025** | 6,4 Mrd. €  | 4,1 Mrd. € | 2,3 Mrd. €          | 64%             |
-| **2026** | 7,8 Mrd. €  | 5,2 Mrd. € | 2,6 Mrd. €          | 67%             |
-| **2027** | 8,9 Mrd. €  | 6,1 Mrd. € | 2,8 Mrd. €          | 69%             |
+| -------- | ----------- | ----------- | -------------------- | -------------- |
+| **2020** | 1,5 Mrd. €  | 0,3 Mrd. €  | 1,2 Mrd. €           | 20%            |
+| **2021** | 2,1 Mrd. €  | 0,6 Mrd. €  | 1,5 Mrd. €           | 29%            |
+| **2022** | 2,8 Mrd. €  | 1,1 Mrd. €  | 1,7 Mrd. €           | 39%            |
+| **2023** | 3,7 Mrd. €  | 1,8 Mrd. €  | 1,9 Mrd. €           | 49%            |
+| **2024** | 4,9 Mrd. €  | 2,8 Mrd. €  | 2,1 Mrd. €           | 57%            |
+| **2025** | 6,4 Mrd. €  | 4,1 Mrd. €  | 2,3 Mrd. €           | 64%            |
+| **2026** | 7,8 Mrd. €  | 5,2 Mrd. €  | 2,6 Mrd. €           | 67%            |
+| **2027** | 8,9 Mrd. €  | 6,1 Mrd. €  | 2,8 Mrd. €           | 69%            |
 
 **CAGR (2020-2027):** 23,7%
 
@@ -1258,8 +1258,8 @@ Dies ist der zweite Untertitel.
 
 ### Forschungsstudien
 
-- [KI-Übersetzungsgenauigkeit & Marktanalysestudie 2025](/en/blog/posts/2025/ai-translation-accuracy-market-study)
-- [Übersetzung vs. Dolmetschen: Vollständiger Leitfaden 2025](/en/blog/posts/2025/translation-vs-interpretation-analysis)
+- [KI-Übersetzungsgenauigkeit & Marktanalysestudie 2025](./ai-translation-accuracy-market-study)
+- [Übersetzung vs. Dolmetschen: Vollständiger Leitfaden 2025](./translation-vs-interpretation-analysis)
 
 ### Implementierungsleitfäden
 

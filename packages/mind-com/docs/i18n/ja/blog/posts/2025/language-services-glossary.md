@@ -1258,8 +1258,8 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 ### 研究調査
 
-- [AI翻訳精度・市場分析調査 2025](/en/blog/posts/2025/ai-translation-accuracy-market-study)
-- [翻訳 vs 通訳：完全ガイド 2025](/en/blog/posts/2025/translation-vs-interpretation-analysis)
+- [AI翻訳精度・市場分析調査 2025](./ai-translation-accuracy-market-study)
+- [翻訳 vs 通訳：完全ガイド 2025](./translation-vs-interpretation-analysis)
 
 ### 実装ガイド
 

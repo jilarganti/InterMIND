@@ -1258,8 +1258,8 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 ### अनुसंधान अध्ययन
 
-- [AI अनुवाद सटीकता और बाजार विश्लेषण अध्ययन 2025](/en/blog/posts/2025/ai-translation-accuracy-market-study)
-- [अनुवाद बनाम व्याख्या: संपूर्ण गाइड 2025](/en/blog/posts/2025/translation-vs-interpretation-analysis)
+- [AI अनुवाद सटीकता और बाजार विश्लेषण अध्ययन 2025](./ai-translation-accuracy-market-study)
+- [अनुवाद बनाम व्याख्या: संपूर्ण गाइड 2025](./translation-vs-interpretation-analysis)
 
 ### कार्यान्वयन गाइड
 

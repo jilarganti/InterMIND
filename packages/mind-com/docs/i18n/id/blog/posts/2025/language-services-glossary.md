@@ -290,14 +290,14 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 <div class="performance-metrics">
 
-| Metrik                     | Kinerja AI      | Kinerja Manusia   | Keunggulan AI      |
-| -------------------------- | --------------- | ----------------- | ------------------ |
-| **Akurasi (Pasangan Utama)** | 94,2%           | 98,5%             | Selisih -4,3%      |
-| **Akurasi (Teknis)**       | 96,8%           | 98,1%             | Selisih -1,3%      |
-| **Kecepatan Pemrosesan**   | 2.000-5.000 wpm | 250-400 wpm       | 8-20x lebih cepat  |
-| **Biaya per 1.000 kata**   | $18,50          | $275              | 93% lebih murah    |
-| **Ketersediaan**           | 24/7            | Jam kerja         | 3x ketersediaan    |
-| **Konsistensi**            | 100%            | 85-95%            | Keandalan lebih tinggi |
+| Metrik                       | Kinerja AI      | Kinerja Manusia | Keunggulan AI          |
+| ---------------------------- | --------------- | --------------- | ---------------------- |
+| **Akurasi (Pasangan Utama)** | 94,2%           | 98,5%           | Selisih -4,3%          |
+| **Akurasi (Teknis)**         | 96,8%           | 98,1%           | Selisih -1,3%          |
+| **Kecepatan Pemrosesan**     | 2.000-5.000 wpm | 250-400 wpm     | 8-20x lebih cepat      |
+| **Biaya per 1.000 kata**     | $18,50          | $275            | 93% lebih murah        |
+| **Ketersediaan**             | 24/7            | Jam kerja       | 3x ketersediaan        |
+| **Konsistensi**              | 100%            | 85-95%          | Keandalan lebih tinggi |
 
 </div>
 
@@ -535,12 +535,12 @@ Ini adalah subtitle kedua.
 
 <div class="roi-analysis">
 
-| Pendekatan            | Investasi Awal     | Biaya Bulanan | Penghematan Waktu | Penghematan Biaya | ROI 12 Bulan |
-| --------------------- | ------------------ | ------------- | ----------------- | ----------------- | ------------ |
-| **Hanya AI**          | $15.000            | $2.500        | 95%               | 85%               | 340%         |
-| **Hibrid**            | $25.000            | $4.200        | 75%               | 65%               | 285%         |
-| **Hanya Manusia**     | $5.000             | $12.000       | 0%                | 0%                | Baseline     |
-| **Interpretasi AI**   | $10.000            | $1.200        | 90%               | 90%               | 380%         |
+| Pendekatan          | Investasi Awal | Biaya Bulanan | Penghematan Waktu | Penghematan Biaya | ROI 12 Bulan |
+| ------------------- | -------------- | ------------- | ----------------- | ----------------- | ------------ |
+| **Hanya AI**        | $15.000        | $2.500        | 95%               | 85%               | 340%         |
+| **Hibrid**          | $25.000        | $4.200        | 75%               | 65%               | 285%         |
+| **Hanya Manusia**   | $5.000         | $12.000       | 0%                | 0%                | Baseline     |
+| **Interpretasi AI** | $10.000        | $1.200        | 90%               | 90%               | 380%         |
 
 </div>
 
@@ -621,13 +621,13 @@ Ini adalah subtitle kedua.
 
 **Lokalisasi vs Penerjemahan:**
 
-| Aspek                 | Penerjemahan    | Lokalisasi                    |
-| --------------------- | --------------- | ----------------------------- |
-| **Cakupan**           | Teks saja       | Produk/pengalaman lengkap     |
-| **Elemen Budaya**     | Minimal         | Komprehensif                  |
-| **Perubahan Teknis**  | Tidak ada       | Format, tata letak, fungsionalitas |
-| **Biaya**             | $0.10-0.30/kata | $5,000-100,000+ per bahasa    |
-| **Waktu**             | Hari-minggu     | Minggu-bulan                  |
+| Aspek                | Penerjemahan    | Lokalisasi                         |
+| -------------------- | --------------- | ---------------------------------- |
+| **Cakupan**          | Teks saja       | Produk/pengalaman lengkap          |
+| **Elemen Budaya**    | Minimal         | Komprehensif                       |
+| **Perubahan Teknis** | Tidak ada       | Format, tata letak, fungsionalitas |
+| **Biaya**            | $0.10-0.30/kata | $5,000-100,000+ per bahasa         |
+| **Waktu**            | Hari-minggu     | Minggu-bulan                       |
 
 ### Penerjemahan Balik
 
@@ -992,16 +992,16 @@ Ini adalah subtitle kedua.
 
 <div class="accuracy-comparison">
 
-| Jenis Konten                | Akurasi AI  | Akurasi Manusia | Pendekatan yang Direkomendasikan |
-| --------------------------- | ----------- | --------------- | -------------------------------- |
-| **Dokumentasi Teknis**     | 96.8%       | 98.1%           | Hibrid (AI + tinjauan)           |
-| **Komunikasi Bisnis**      | 94.7%       | 97.3%           | AI dapat diterima                |
-| **Konten Pemasaran**       | 89.2%       | 95.8%           | Manusia lebih disukai            |
-| **Dokumen Hukum**          | 87.4%       | 96.7%           | Manusia wajib                    |
-| **Konten Kreatif**         | 82.1%       | 94.3%           | Manusia wajib                    |
-| **Konten Web Umum**        | 94.2%       | 96.5%           | AI dapat diterima                |
-| **Katalog E-commerce**     | 92.4%       | 95.1%           | Hibrid direkomendasikan          |
-| **Konten Medis**           | 91.8%       | 98.2%           | Manusia dengan sertifikasi       |
+| Jenis Konten           | Akurasi AI | Akurasi Manusia | Pendekatan yang Direkomendasikan |
+| ---------------------- | ---------- | --------------- | -------------------------------- |
+| **Dokumentasi Teknis** | 96.8%      | 98.1%           | Hibrid (AI + tinjauan)           |
+| **Komunikasi Bisnis**  | 94.7%      | 97.3%           | AI dapat diterima                |
+| **Konten Pemasaran**   | 89.2%      | 95.8%           | Manusia lebih disukai            |
+| **Dokumen Hukum**      | 87.4%      | 96.7%           | Manusia wajib                    |
+| **Konten Kreatif**     | 82.1%      | 94.3%           | Manusia wajib                    |
+| **Konten Web Umum**    | 94.2%      | 96.5%           | AI dapat diterima                |
+| **Katalog E-commerce** | 92.4%      | 95.1%           | Hibrid direkomendasikan          |
+| **Konten Medis**       | 91.8%      | 98.2%           | Manusia dengan sertifikasi       |
 
 </div>
 
@@ -1049,16 +1049,16 @@ Ini adalah subtitle kedua.
 
 #### Pasar Terjemahan & Interpretasi (2020-2027)
 
-| Tahun    | Total Pasar  | Layanan AI  | Layanan Manusia | Pangsa Pasar AI |
-| -------- | ------------ | ----------- | --------------- | --------------- |
-| **2020** | $1.5B        | $0.3B       | $1.2B           | 20%             |
-| **2021** | $2.1B        | $0.6B       | $1.5B           | 29%             |
-| **2022** | $2.8B        | $1.1B       | $1.7B           | 39%             |
-| **2023** | $3.7B        | $1.8B       | $1.9B           | 49%             |
-| **2024** | $4.9B        | $2.8B       | $2.1B           | 57%             |
-| **2025** | $6.4B        | $4.1B       | $2.3B           | 64%             |
-| **2026** | $7.8B        | $5.2B       | $2.6B           | 67%             |
-| **2027** | $8.9B        | $6.1B       | $2.8B           | 69%             |
+| Tahun    | Total Pasar | Layanan AI | Layanan Manusia | Pangsa Pasar AI |
+| -------- | ----------- | ---------- | --------------- | --------------- |
+| **2020** | $1.5B       | $0.3B      | $1.2B           | 20%             |
+| **2021** | $2.1B       | $0.6B      | $1.5B           | 29%             |
+| **2022** | $2.8B       | $1.1B      | $1.7B           | 39%             |
+| **2023** | $3.7B       | $1.8B      | $1.9B           | 49%             |
+| **2024** | $4.9B       | $2.8B      | $2.1B           | 57%             |
+| **2025** | $6.4B       | $4.1B      | $2.3B           | 64%             |
+| **2026** | $7.8B       | $5.2B      | $2.6B           | 67%             |
+| **2027** | $8.9B       | $6.1B      | $2.8B           | 69%             |
 
 **CAGR (2020-2027):** 23.7%
 
@@ -1258,8 +1258,8 @@ Ini adalah subtitle kedua.
 
 ### Studi Penelitian
 
-- [Studi Akurasi Terjemahan AI & Analisis Pasar 2025](/en/blog/posts/2025/ai-translation-accuracy-market-study)
-- [Terjemahan vs Interpretasi: Panduan Lengkap 2025](/en/blog/posts/2025/translation-vs-interpretation-analysis)
+- [Studi Akurasi Terjemahan AI & Analisis Pasar 2025](./ai-translation-accuracy-market-study)
+- [Terjemahan vs Interpretasi: Panduan Lengkap 2025](./translation-vs-interpretation-analysis)
 
 ### Panduan Implementasi
 

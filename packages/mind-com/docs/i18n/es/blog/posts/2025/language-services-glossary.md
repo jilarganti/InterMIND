@@ -1258,8 +1258,8 @@ Este es el segundo subtítulo.
 
 ### Estudios de investigación
 
-- [Estudio de precisión de traducción con IA y análisis de mercado 2025](/en/blog/posts/2025/ai-translation-accuracy-market-study)
-- [Traducción vs interpretación: guía completa 2025](/en/blog/posts/2025/translation-vs-interpretation-analysis)
+- [Estudio de precisión de traducción con IA y análisis de mercado 2025](./ai-translation-accuracy-market-study)
+- [Traducción vs interpretación: guía completa 2025](./translation-vs-interpretation-analysis)
 
 ### Guías de implementación
 

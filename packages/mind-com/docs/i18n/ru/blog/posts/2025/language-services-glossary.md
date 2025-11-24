@@ -1258,8 +1258,8 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 ### Исследования
 
-- [Исследование точности ИИ-переводов и анализ рынка 2025](/en/blog/posts/2025/ai-translation-accuracy-market-study)
-- [Перевод против устного перевода: полное руководство 2025](/en/blog/posts/2025/translation-vs-interpretation-analysis)
+- [Исследование точности ИИ-переводов и анализ рынка 2025](./ai-translation-accuracy-market-study)
+- [Перевод против устного перевода: полное руководство 2025](./translation-vs-interpretation-analysis)
 
 ### Руководства по внедрению
 

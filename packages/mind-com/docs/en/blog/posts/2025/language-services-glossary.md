@@ -1258,8 +1258,8 @@ This is the second subtitle.
 
 ### Research Studies
 
-- [AI Translation Accuracy & Market Analysis Study 2025](/en/blog/posts/2025/ai-translation-accuracy-market-study)
-- [Translation vs Interpretation: Complete Guide 2025](/en/blog/posts/2025/translation-vs-interpretation-analysis)
+- [AI Translation Accuracy & Market Analysis Study 2025](./ai-translation-accuracy-market-study)
+- [Translation vs Interpretation: Complete Guide 2025](./translation-vs-interpretation-analysis)
 
 ### Implementation Guides
 

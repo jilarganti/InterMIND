@@ -1258,8 +1258,8 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 ### ஆராய்ச்சி ஆய்வுகள்
 
-- [AI மொழிபெயர்ப்பு துல்லியம் & சந்தை பகுப்பாய்வு ஆய்வு 2025](/en/blog/posts/2025/ai-translation-accuracy-market-study)
-- [மொழிபெயர்ப்பு vs விளக்கம்: முழுமையான வழிகாட்டி 2025](/en/blog/posts/2025/translation-vs-interpretation-analysis)
+- [AI மொழிபெயர்ப்பு துல்லியம் & சந்தை பகுப்பாய்வு ஆய்வு 2025](./ai-translation-accuracy-market-study)
+- [மொழிபெயர்ப்பு vs விளக்கம்: முழுமையான வழிகாட்டி 2025](./translation-vs-interpretation-analysis)
 
 ### செயல்படுத்தல் வழிகாட்டிகள்
 

@@ -290,14 +290,14 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 <div class="performance-metrics">
 
-| Métrica                      | Desempenho IA   | Desempenho Humano | Vantagem IA        |
-| ---------------------------- | --------------- | ----------------- | ------------------ |
-| **Precisão (Pares Principais)** | 94,2%           | 98,5%             | Diferença de -4,3% |
-| **Precisão (Técnica)**      | 96,8%           | 98,1%             | Diferença de -1,3% |
-| **Velocidade de Processamento** | 2.000-5.000 ppm | 250-400 ppm       | 8-20x mais rápido  |
-| **Custo por 1.000 palavras** | R$ 18,50        | R$ 275            | 93% mais barato    |
-| **Disponibilidade**          | 24/7            | Horário comercial | 3x disponibilidade |
-| **Consistência**             | 100%            | 85-95%            | Maior confiabilidade |
+| Métrica                         | Desempenho IA   | Desempenho Humano | Vantagem IA          |
+| ------------------------------- | --------------- | ----------------- | -------------------- |
+| **Precisão (Pares Principais)** | 94,2%           | 98,5%             | Diferença de -4,3%   |
+| **Precisão (Técnica)**          | 96,8%           | 98,1%             | Diferença de -1,3%   |
+| **Velocidade de Processamento** | 2.000-5.000 ppm | 250-400 ppm       | 8-20x mais rápido    |
+| **Custo por 1.000 palavras**    | R$ 18,50        | R$ 275            | 93% mais barato      |
+| **Disponibilidade**             | 24/7            | Horário comercial | 3x disponibilidade   |
+| **Consistência**                | 100%            | 85-95%            | Maior confiabilidade |
 
 </div>
 
@@ -535,12 +535,12 @@ Esta é a segunda legenda.
 
 <div class="roi-analysis">
 
-| Abordagem             | Investimento Inicial | Custo Mensal | Economia de Tempo | Economia de Custos | ROI 12 Meses |
-| --------------------- | -------------------- | ------------ | ----------------- | ------------------ | ------------ |
-| **Apenas IA**         | R$ 82.950           | R$ 13.825    | 95%               | 85%                | 340%         |
-| **Híbrida**           | R$ 138.250          | R$ 23.226    | 75%               | 65%                | 285%         |
-| **Apenas Humano**     | R$ 27.650           | R$ 66.360    | 0%                | 0%                 | Linha base   |
-| **Interpretação IA**  | R$ 55.300           | R$ 6.636     | 90%               | 90%                | 380%         |
+| Abordagem            | Investimento Inicial | Custo Mensal | Economia de Tempo | Economia de Custos | ROI 12 Meses |
+| -------------------- | -------------------- | ------------ | ----------------- | ------------------ | ------------ |
+| **Apenas IA**        | R$ 82.950            | R$ 13.825    | 95%               | 85%                | 340%         |
+| **Híbrida**          | R$ 138.250           | R$ 23.226    | 75%               | 65%                | 285%         |
+| **Apenas Humano**    | R$ 27.650            | R$ 66.360    | 0%                | 0%                 | Linha base   |
+| **Interpretação IA** | R$ 55.300            | R$ 6.636     | 90%               | 90%                | 380%         |
 
 </div>
 
@@ -621,13 +621,13 @@ Esta é a segunda legenda.
 
 **Localização vs Tradução:**
 
-| Aspecto               | Tradução        | Localização                      |
-| --------------------- | --------------- | -------------------------------- |
-| **Escopo**            | Apenas texto    | Produto/experiência completa     |
-| **Elementos Culturais** | Mínimo        | Abrangente                       |
-| **Mudanças Técnicas** | Nenhuma         | Formato, layout, funcionalidade  |
-| **Custo**             | $0,10-0,30/palavra | $5.000-100.000+ por idioma    |
-| **Cronograma**        | Dias-semanas    | Semanas-meses                    |
+| Aspecto                 | Tradução           | Localização                     |
+| ----------------------- | ------------------ | ------------------------------- |
+| **Escopo**              | Apenas texto       | Produto/experiência completa    |
+| **Elementos Culturais** | Mínimo             | Abrangente                      |
+| **Mudanças Técnicas**   | Nenhuma            | Formato, layout, funcionalidade |
+| **Custo**               | $0,10-0,30/palavra | $5.000-100.000+ por idioma      |
+| **Cronograma**          | Dias-semanas       | Semanas-meses                   |
 
 ### Retrotradução
 
@@ -992,16 +992,16 @@ Esta é a segunda legenda.
 
 <div class="accuracy-comparison">
 
-| Tipo de Conteúdo               | Precisão IA | Precisão Humana | Abordagem Recomendada        |
-| ------------------------------ | ----------- | --------------- | ---------------------------- |
-| **Documentação Técnica**       | 96,8%       | 98,1%           | Híbrida (IA + revisão)      |
-| **Comunicações Empresariais**  | 94,7%       | 97,3%           | IA aceitável                 |
-| **Conteúdo de Marketing**      | 89,2%       | 95,8%           | Humana preferível            |
-| **Documentos Legais**          | 87,4%       | 96,7%           | Humana obrigatória           |
-| **Conteúdo Criativo**          | 82,1%       | 94,3%           | Humana obrigatória           |
-| **Conteúdo Web Geral**         | 94,2%       | 96,5%           | IA aceitável                 |
-| **Catálogos de E-commerce**    | 92,4%       | 95,1%           | Híbrida recomendada          |
-| **Conteúdo Médico**            | 91,8%       | 98,2%           | Humana com certificação      |
+| Tipo de Conteúdo              | Precisão IA | Precisão Humana | Abordagem Recomendada   |
+| ----------------------------- | ----------- | --------------- | ----------------------- |
+| **Documentação Técnica**      | 96,8%       | 98,1%           | Híbrida (IA + revisão)  |
+| **Comunicações Empresariais** | 94,7%       | 97,3%           | IA aceitável            |
+| **Conteúdo de Marketing**     | 89,2%       | 95,8%           | Humana preferível       |
+| **Documentos Legais**         | 87,4%       | 96,7%           | Humana obrigatória      |
+| **Conteúdo Criativo**         | 82,1%       | 94,3%           | Humana obrigatória      |
+| **Conteúdo Web Geral**        | 94,2%       | 96,5%           | IA aceitável            |
+| **Catálogos de E-commerce**   | 92,4%       | 95,1%           | Híbrida recomendada     |
+| **Conteúdo Médico**           | 91,8%       | 98,2%           | Humana com certificação |
 
 </div>
 
@@ -1258,8 +1258,8 @@ Esta é a segunda legenda.
 
 ### Estudos de Pesquisa
 
-- [Estudo de Precisão de Tradução por IA e Análise de Mercado 2025](/en/blog/posts/2025/ai-translation-accuracy-market-study)
-- [Tradução vs Interpretação: Guia Completo 2025](/en/blog/posts/2025/translation-vs-interpretation-analysis)
+- [Estudo de Precisão de Tradução por IA e Análise de Mercado 2025](./ai-translation-accuracy-market-study)
+- [Tradução vs Interpretação: Guia Completo 2025](./translation-vs-interpretation-analysis)
 
 ### Guias de Implementação
 

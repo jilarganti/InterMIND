@@ -1258,8 +1258,8 @@ Bu ikinci altyazıdır.
 
 ### Araştırma Çalışmaları
 
-- [AI Çeviri Doğruluğu ve Pazar Analizi Çalışması 2025](/en/blog/posts/2025/ai-translation-accuracy-market-study)
-- [Çeviri ve Tercümanlık: Kapsamlı Kılavuz 2025](/en/blog/posts/2025/translation-vs-interpretation-analysis)
+- [AI Çeviri Doğruluğu ve Pazar Analizi Çalışması 2025](./ai-translation-accuracy-market-study)
+- [Çeviri ve Tercümanlık: Kapsamlı Kılavuz 2025](./translation-vs-interpretation-analysis)
 
 ### Uygulama Kılavuzları
 

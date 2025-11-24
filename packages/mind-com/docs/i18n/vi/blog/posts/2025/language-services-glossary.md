@@ -1258,8 +1258,8 @@ author: "[Jilarganti](https://github.com/jilarganti)"
 
 ### Nghiên Cứu Khoa Học
 
-- [Nghiên Cứu Độ Chính Xác AI Dịch Thuật & Phân Tích Thị Trường 2025](/en/blog/posts/2025/ai-translation-accuracy-market-study)
-- [Dịch Thuật vs Phiên Dịch: Hướng Dẫn Toàn Diện 2025](/en/blog/posts/2025/translation-vs-interpretation-analysis)
+- [Nghiên Cứu Độ Chính Xác AI Dịch Thuật & Phân Tích Thị Trường 2025](./ai-translation-accuracy-market-study)
+- [Dịch Thuật vs Phiên Dịch: Hướng Dẫn Toàn Diện 2025](./translation-vs-interpretation-analysis)
 
 ### Hướng Dẫn Triển Khai
 
