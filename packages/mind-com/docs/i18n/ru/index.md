@@ -8,7 +8,7 @@ isHome: true
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
 <HeroSection title="Понимайте **любой** язык" :typingSpeed="20" text="Многоязычные видеоконференции с мгновенным переводом **голоса**">
-<NavButton buttonLabel="Смотреть демо" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="Смотреть демо" buttonClass="brand" to="/#VideoDemo" eventName="watch_demo" />
 <NavButton buttonLabel="Ассистент" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
@@ -153,11 +153,11 @@ isHome: true
 - **Голосовому вводу** (что вы говорите)
 - **Переведенному выводу** (что вы слышите)
 
-| Участник    | Выбранный язык | Говорит на | Слышит на |
-| ----------- | -------------- | ---------- | --------- |
-| Хост        | Испанский      | Испанский  | Испанский |
-| Участник 1  | Английский     | Английский | Английский |
-| Участник 2  | Китайский      | Китайский  | Китайский |
+| Участник   | Выбранный язык | Говорит на | Слышит на  |
+| ---------- | -------------- | ---------- | ---------- |
+| Хост       | Испанский      | Испанский  | Испанский  |
+| Участник 1 | Английский     | Английский | Английский |
+| Участник 2 | Китайский      | Китайский  | Китайский  |
 
 [Платформа автоматически интерпретирует всю речь в реальном времени](./product/overview/how-it-works) — поэтому все общаются так, как будто говорят на одном языке.
 

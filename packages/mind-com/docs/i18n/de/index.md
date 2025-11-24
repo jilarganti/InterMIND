@@ -8,7 +8,7 @@ isHome: true
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
 <HeroSection title="Verstehen Sie **jede** Sprache" :typingSpeed="20" text="Mehrsprachige Videobesprechungen mit sofortiger **Sprach**übersetzung">
-<NavButton buttonLabel="Demo ansehen" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="Demo ansehen" buttonClass="brand" to="/#VideoDemo" eventName="watch_demo" />
 <NavButton buttonLabel="Assistent" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
@@ -153,11 +153,11 @@ Diese einzige Spracheinstellung gilt für:
 - Die **gesprochene Eingabe** (was Sie sagen)
 - Die **übersetzte Ausgabe** (was Sie hören)
 
-| Teilnehmer    | Gewählte Sprache | Spricht in | Hört in  |
-| ------------- | ---------------- | ---------- | -------- |
-| Gastgeber     | Spanisch         | Spanisch   | Spanisch |
-| Teilnehmer 1  | Englisch         | Englisch   | Englisch |
-| Teilnehmerin 2| Chinesisch       | Chinesisch | Chinesisch |
+| Teilnehmer     | Gewählte Sprache | Spricht in | Hört in    |
+| -------------- | ---------------- | ---------- | ---------- |
+| Gastgeber      | Spanisch         | Spanisch   | Spanisch   |
+| Teilnehmer 1   | Englisch         | Englisch   | Englisch   |
+| Teilnehmerin 2 | Chinesisch       | Chinesisch | Chinesisch |
 
 [Die Plattform interpretiert automatisch alle Sprache in Echtzeit](./product/overview/how-it-works) — so kommuniziert jeder, als würde er dieselbe Sprache sprechen.
 

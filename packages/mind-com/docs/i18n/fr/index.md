@@ -8,7 +8,7 @@ isHome: true
 <!-- <HeroSection title="Rencontrez-vous dans **N'importe Quelle** Langue" :typingSpeed="10" text="Traduction vocale en direct dans les appels vidéo. Compréhension instantanée, aucune barrière."> -->
 
 <HeroSection title="Comprenez **N'importe Quelle** Langue" :typingSpeed="20" text="Réunions vidéo multilingues avec traduction **vocale** instantanée">
-<NavButton buttonLabel="Voir la démo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="Voir la démo" buttonClass="brand" to="/#VideoDemo" eventName="watch_demo" />
 <NavButton buttonLabel="Assistant" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
@@ -153,11 +153,11 @@ Ce paramètre de langue unique s'applique à :
 - L'**entrée vocale** (ce que vous dites)
 - La **sortie traduite** (ce que vous entendez)
 
-| Participant   | Langue sélectionnée | Parle en  | Entend en |
-| ------------- | ------------------- | --------- | --------- |
-| Hôte          | Espagnol            | Espagnol  | Espagnol  |
-| Participant 1 | Anglais             | Anglais   | Anglais   |
-| Participant 2 | Chinois             | Chinois   | Chinois   |
+| Participant   | Langue sélectionnée | Parle en | Entend en |
+| ------------- | ------------------- | -------- | --------- |
+| Hôte          | Espagnol            | Espagnol | Espagnol  |
+| Participant 1 | Anglais             | Anglais  | Anglais   |
+| Participant 2 | Chinois             | Chinois  | Chinois   |
 
 [La plateforme interprète automatiquement tous les discours en temps réel](./product/overview/how-it-works) — ainsi tout le monde communique comme s'il parlait la même langue.
 

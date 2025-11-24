@@ -8,7 +8,7 @@ isHome: true
 <!-- <HeroSection title="Reúna-se em **Qualquer** Idioma" :typingSpeed="10" text="Tradução de fala ao vivo em videochamadas. Compreensão instantânea, sem barreiras."> -->
 
 <HeroSection title="Entenda **Qualquer** Idioma" :typingSpeed="20" text="Videoconferências Multilíngues com Tradução de **Voz** Instantânea">
-<NavButton buttonLabel="Assistir demo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="Assistir demo" buttonClass="brand" to="/#VideoDemo" eventName="watch_demo" />
 <NavButton buttonLabel="Assistente" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
@@ -153,11 +153,11 @@ Esta configuração única de idioma se aplica a:
 - A **entrada falada** (o que você fala)
 - A **saída traduzida** (o que você ouve)
 
-| Participante   | Idioma Selecionado | Fala Em   | Ouve Em   |
-| -------------- | ------------------ | --------- | --------- |
-| Anfitrião      | Espanhol           | Espanhol  | Espanhol  |
-| Participante 1 | Inglês             | Inglês    | Inglês    |
-| Participante 2 | Chinês             | Chinês    | Chinês    |
+| Participante   | Idioma Selecionado | Fala Em  | Ouve Em  |
+| -------------- | ------------------ | -------- | -------- |
+| Anfitrião      | Espanhol           | Espanhol | Espanhol |
+| Participante 1 | Inglês             | Inglês   | Inglês   |
+| Participante 2 | Chinês             | Chinês   | Chinês   |
 
 [A plataforma interpreta automaticamente toda a fala em tempo real](./product/overview/how-it-works) — então todos se comunicam como se falassem o mesmo idioma.
 

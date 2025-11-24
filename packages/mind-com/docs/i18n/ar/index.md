@@ -8,7 +8,7 @@ isHome: true
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
 <HeroSection title="افهم **أي** لغة" :typingSpeed="20" text="اجتماعات فيديو متعددة اللغات مع ترجمة **صوتية** فورية">
-<NavButton buttonLabel="شاهد العرض التوضيحي" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="شاهد العرض التوضيحي" buttonClass="brand" to="/#VideoDemo" eventName="watch_demo" />
 <NavButton buttonLabel="المساعد" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
@@ -153,11 +153,11 @@ isHome: true
 - **المدخل المنطوق** (ما تقوله)
 - **المخرج المترجم** (ما تسمعه)
 
-| المشارك      | اللغة المختارة | يتحدث بـ   | يسمع بـ     |
-| ------------ | --------------- | ---------- | ----------- |
-| المضيف       | الإسبانية      | الإسبانية | الإسبانية  |
-| المشارك الأول | الإنجليزية     | الإنجليزية | الإنجليزية |
-| المشاركة الثانية | الصينية       | الصينية   | الصينية    |
+| المشارك          | اللغة المختارة | يتحدث بـ   | يسمع بـ    |
+| ---------------- | -------------- | ---------- | ---------- |
+| المضيف           | الإسبانية      | الإسبانية  | الإسبانية  |
+| المشارك الأول    | الإنجليزية     | الإنجليزية | الإنجليزية |
+| المشاركة الثانية | الصينية        | الصينية    | الصينية    |
 
 [تقوم المنصة بترجمة جميع الكلام تلقائياً في الوقت الفعلي](./product/overview/how-it-works) — لذا يتواصل الجميع كما لو كانوا يتحدثون نفس اللغة.
 

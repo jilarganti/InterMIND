@@ -8,7 +8,7 @@ isHome: true
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
 <HeroSection title="**모든** 언어를 이해하세요" :typingSpeed="20" text="즉석 **음성** 번역이 가능한 다국어 화상 회의">
-<NavButton buttonLabel="데모 보기" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="데모 보기" buttonClass="brand" to="/#VideoDemo" eventName="watch_demo" />
 <NavButton buttonLabel="어시스턴트" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
@@ -153,11 +153,11 @@ isHome: true
 - **음성 입력** (당신이 말하는 것)
 - **번역된 출력** (당신이 듣는 것)
 
-| 참가자    | 선택한 언어 | 말하는 언어 | 듣는 언어 |
-| --------- | ----------- | ----------- | --------- |
-| 호스트    | 스페인어    | 스페인어    | 스페인어  |
-| 참가자 1  | 영어        | 영어        | 영어      |
-| 참가자 2  | 중국어      | 중국어      | 중국어    |
+| 참가자   | 선택한 언어 | 말하는 언어 | 듣는 언어 |
+| -------- | ----------- | ----------- | --------- |
+| 호스트   | 스페인어    | 스페인어    | 스페인어  |
+| 참가자 1 | 영어        | 영어        | 영어      |
+| 참가자 2 | 중국어      | 중국어      | 중국어    |
 
 [플랫폼은 모든 음성을 실시간으로 자동 해석합니다](./product/overview/how-it-works) — 따라서 모든 사람이 같은 언어를 사용하는 것처럼 소통할 수 있습니다.
 

@@ -8,7 +8,7 @@ isHome: true
 <!-- <HeroSection title="**Herhangi** Bir Dilde Buluşun" :typingSpeed="10" text="Video aramalarında canlı konuşma çevirisi. Anında anlayış, engel yok."> -->
 
 <HeroSection title="**Herhangi** Bir Dili Anlayın" :typingSpeed="20" text="Anında **Ses** Çevirisi ile Çok Dilli Video Toplantıları">
-<NavButton buttonLabel="Demo izle" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="Demo izle" buttonClass="brand" to="/#VideoDemo" eventName="watch_demo" />
 <NavButton buttonLabel="Asistan" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
@@ -153,11 +153,11 @@ Bu tek dil ayarı şunları kapsar:
 - **Konuşma girişi** (söyledikleriniz)
 - **Çevrilmiş çıktı** (duyduklarınız)
 
-| Katılımcı     | Seçilen Dil | Konuştuğu Dil | Duyduğu Dil |
-| ------------- | ----------- | ------------- | ----------- |
-| Ev sahibi     | İspanyolca  | İspanyolca    | İspanyolca  |
-| Katılımcı 1   | İngilizce   | İngilizce     | İngilizce   |
-| Katılımcı 2   | Çince       | Çince         | Çince       |
+| Katılımcı   | Seçilen Dil | Konuştuğu Dil | Duyduğu Dil |
+| ----------- | ----------- | ------------- | ----------- |
+| Ev sahibi   | İspanyolca  | İspanyolca    | İspanyolca  |
+| Katılımcı 1 | İngilizce   | İngilizce     | İngilizce   |
+| Katılımcı 2 | Çince       | Çince         | Çince       |
 
 [Platform tüm konuşmaları gerçek zamanlı olarak otomatik yorumlar](./product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
 

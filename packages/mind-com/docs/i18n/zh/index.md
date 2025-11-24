@@ -8,7 +8,7 @@ isHome: true
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
 <HeroSection title="理解**任何**语言" :typingSpeed="20" text="多语言视频会议，即时**语音**翻译">
-<NavButton buttonLabel="观看演示" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="观看演示" buttonClass="brand" to="/#VideoDemo" eventName="watch_demo" />
 <NavButton buttonLabel="助手" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
@@ -153,11 +153,11 @@ isHome: true
 - **语音输入**（您说的内容）
 - **翻译输出**（您听到的内容）
 
-| 参与者    | 选择的语言 | 说话语言 | 听取语言 |
-| --------- | ---------- | -------- | -------- |
-| 主持人    | 西班牙语   | 西班牙语 | 西班牙语 |
-| 参与者1   | 英语       | 英语     | 英语     |
-| 参与者2   | 中文       | 中文     | 中文     |
+| 参与者  | 选择的语言 | 说话语言 | 听取语言 |
+| ------- | ---------- | -------- | -------- |
+| 主持人  | 西班牙语   | 西班牙语 | 西班牙语 |
+| 参与者1 | 英语       | 英语     | 英语     |
+| 参与者2 | 中文       | 中文     | 中文     |
 
 [平台自动实时解释所有语音](./product/overview/how-it-works) — 因此每个人都能像说同一种语言一样进行交流。
 

@@ -8,7 +8,7 @@ isHome: true
 <!-- <HeroSection title="Reúnete en **Cualquier** Idioma" :typingSpeed="10" text="Traducción de voz en vivo en videollamadas. Comprensión instantánea, sin barreras."> -->
 
 <HeroSection title="Comprende **Cualquier** Idioma" :typingSpeed="20" text="Videollamadas Multilingües con Traducción de **Voz** Instantánea">
-<NavButton buttonLabel="Ver demo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="Ver demo" buttonClass="brand" to="/#VideoDemo" eventName="watch_demo" />
 <NavButton buttonLabel="Asistente" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
@@ -153,11 +153,11 @@ Esta configuración de idioma único se aplica a:
 - La **entrada hablada** (lo que dices)
 - La **salida traducida** (lo que escuchas)
 
-| Participante  | Idioma seleccionado | Habla en  | Escucha en |
-| ------------- | ------------------- | --------- | ---------- |
-| Anfitrión     | Español             | Español   | Español    |
-| Participante 1| Inglés              | Inglés    | Inglés     |
-| Participante 2| Chino               | Chino     | Chino      |
+| Participante   | Idioma seleccionado | Habla en | Escucha en |
+| -------------- | ------------------- | -------- | ---------- |
+| Anfitrión      | Español             | Español  | Español    |
+| Participante 1 | Inglés              | Inglés   | Inglés     |
+| Participante 2 | Chino               | Chino    | Chino      |
 
 [La plataforma interpreta automáticamente todo el habla en tiempo real](./product/overview/how-it-works) — así que todos se comunican como si hablaran el mismo idioma.
 

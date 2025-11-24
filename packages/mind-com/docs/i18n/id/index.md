@@ -8,7 +8,7 @@ isHome: true
 <!-- <HeroSection title="Bertemu dalam Bahasa **Apa Pun**" :typingSpeed="10" text="Terjemahan suara langsung dalam panggilan video. Pemahaman instan, tanpa hambatan."> -->
 
 <HeroSection title="Pahami Bahasa **Apa Pun**" :typingSpeed="20" text="Rapat Video Multibahasa dengan Terjemahan **Suara** Instan">
-<NavButton buttonLabel="Tonton demo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="Tonton demo" buttonClass="brand" to="/#VideoDemo" eventName="watch_demo" />
 <NavButton buttonLabel="Asisten" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 

@@ -8,7 +8,7 @@ isHome: true
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
 <HeroSection title="**あらゆる**言語を理解" :typingSpeed="20" text="インスタント**音声**翻訳による多言語ビデオ会議">
-<NavButton buttonLabel="デモを見る" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="デモを見る" buttonClass="brand" to="/#VideoDemo" eventName="watch_demo" />
 <NavButton buttonLabel="アシスタント" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
@@ -153,11 +153,11 @@ isHome: true
 - **音声入力**（あなたが話すもの）
 - **翻訳出力**（あなたが聞くもの）
 
-| 参加者    | 選択した言語 | 話す言語   | 聞く言語   |
-| --------- | ------------ | ---------- | ---------- |
-| ホスト    | スペイン語   | スペイン語 | スペイン語 |
-| 参加者1   | 英語         | 英語       | 英語       |
-| 参加者2   | 中国語       | 中国語     | 中国語     |
+| 参加者  | 選択した言語 | 話す言語   | 聞く言語   |
+| ------- | ------------ | ---------- | ---------- |
+| ホスト  | スペイン語   | スペイン語 | スペイン語 |
+| 参加者1 | 英語         | 英語       | 英語       |
+| 参加者2 | 中国語       | 中国語     | 中国語     |
 
 [プラットフォームはすべての音声をリアルタイムで自動的に解釈します](./product/overview/how-it-works) — そのため、全員が同じ言語を話しているかのようにコミュニケーションを取ることができます。
 

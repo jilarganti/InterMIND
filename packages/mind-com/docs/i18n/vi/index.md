@@ -8,7 +8,7 @@ isHome: true
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
 <HeroSection title="Hiểu **mọi** ngôn ngữ" :typingSpeed="20" text="Cuộc họp video đa ngôn ngữ với dịch thuật **giọng nói** tức thì">
-<NavButton buttonLabel="Xem demo" buttonClass="brand" to="/#HowItWorks" eventName="watch_demo" />
+<NavButton buttonLabel="Xem demo" buttonClass="brand" to="/#VideoDemo" eventName="watch_demo" />
 <NavButton buttonLabel="Trợ lý" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
 
@@ -153,11 +153,11 @@ Cài đặt ngôn ngữ duy nhất này áp dụng cho:
 - **Đầu vào giọng nói** (những gì bạn nói)
 - **Đầu ra đã dịch** (những gì bạn nghe)
 
-| Người tham gia | Ngôn ngữ đã chọn | Nói bằng | Nghe bằng |
-| -------------- | ---------------- | -------- | --------- |
-| Chủ trì        | Tiếng Tây Ban Nha| Tiếng Tây Ban Nha | Tiếng Tây Ban Nha |
-| Người tham gia 1| Tiếng Anh       | Tiếng Anh| Tiếng Anh |
-| Người tham gia 2| Tiếng Trung     | Tiếng Trung | Tiếng Trung |
+| Người tham gia   | Ngôn ngữ đã chọn  | Nói bằng          | Nghe bằng         |
+| ---------------- | ----------------- | ----------------- | ----------------- |
+| Chủ trì          | Tiếng Tây Ban Nha | Tiếng Tây Ban Nha | Tiếng Tây Ban Nha |
+| Người tham gia 1 | Tiếng Anh         | Tiếng Anh         | Tiếng Anh         |
+| Người tham gia 2 | Tiếng Trung       | Tiếng Trung       | Tiếng Trung       |
 
 [Nền tảng tự động diễn giải tất cả lời nói theo thời gian thực](./product/overview/how-it-works) — vì vậy mọi người giao tiếp như thể họ nói cùng một ngôn ngữ.
 
