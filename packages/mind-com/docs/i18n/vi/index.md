@@ -7,7 +7,7 @@ isHome: true
 
 <!-- <HeroSection title="Meet in **Any** Language" :typingSpeed="10" text="Live speech translation in video calls. Instant understanding, no barriers."> -->
 
-<HeroSection title="Hiểu **mọi** ngôn ngữ" :typingSpeed="20" text="Cuộc họp video đa ngôn ngữ với dịch thuật **giọng nói** tức thì">
+<HeroSection title="Hiểu **mọi** ngôn ngữ" :typingSpeed="20" text="Cuộc họp video đa ngôn ngữ với dịch **giọng nói** tức thì">
 <NavButton buttonLabel="Xem demo" buttonClass="brand" to="/#VideoDemo" eventName="watch_demo" />
 <NavButton buttonLabel="Trợ lý" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
@@ -17,14 +17,14 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Dịch thuật ≠ Hiểu biết. Đây là bước tiếp theo.',
-      details: 'Bất kể ngôn ngữ nào, giọng nói của bạn được nghe thấy — và hiểu — như thể bạn cùng chung một tiếng.',
+      details: 'Bất kể ngôn ngữ nào, giọng nói của bạn được nghe — và hiểu — như thể bạn cùng chung một tiếng.',
       items: [
         '✧ Tự nhiên, [thời gian thực](./product/overview/how-it-works), và không có phụ đề hay độ trễ.',
         '✧ Phiên dịch được hỗ trợ bởi AI nắm bắt giọng điệu, ý định và thuật ngữ chuyên ngành.',
       ],
       link: './product/overview/what-is-intermind',
       src: {
-        light: '/media-kit/animals-cartoon-3-2.webp',
+        light: '/iStock-497124232.jpg',
         dark: '/1d.webp',
       },
       inversion: false,
@@ -39,7 +39,7 @@ isHome: true
       details: 'InterMind biến mọi cuộc gọi đa ngôn ngữ thành kiến thức rõ ràng, có thể tìm kiếm.',
       items: [
         '✧ **Hỏi bất cứ điều gì** — AI tìm câu trả lời **trong tất cả cuộc họp của bạn**.',
-        '✧ Tự động trích xuất nhiệm vụ, người phụ trách và thời hạn.',
+        '✧ Tự động trích xuất nhiệm vụ, người phụ tr책 và thời hạn.',
         '✧ Tóm tắt các điểm chính bằng bất kỳ ngôn ngữ nào — tức thì.',
       ],
       link: './product/overview/how-it-works#🧩-deep-memory-deep-understanding',
@@ -55,15 +55,15 @@ isHome: true
 
 <FeatureBlock
     :card="{
-      title: 'Được xây dựng cho các cuộc họp nghiêm túc — không chỉ để nói chuyện',
+      title: 'Được xây dựng cho cuộc họp nghiêm túc — không chỉ để nói chuyện',
       details: 'InterMind là một [nền tảng cuộc họp video chuyên nghiệp](./product/overview/video-meeting-platform), không phải là một tiện ích bổ sung hay plugin nhẹ.',
       items: [
         '✧ Độ phân giải 1080p, khử tiếng ồn thông minh, lập lịch, kiểm duyệt, chia sẻ màn hình, ghi âm, phụ đề, trò chuyện của người tham gia và tích hợp lịch — tất cả được tích hợp sẵn, **sẵn sàng sử dụng**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
-        light: '/3l.mp4',
-        dark: '/3d.mp4',
+        light: '/iStock-2154246858.jpg',
+        dark: '/product/iStock-1006678326.jpg',
       },
       inversion: false,
     }"
@@ -153,11 +153,11 @@ Cài đặt ngôn ngữ duy nhất này áp dụng cho:
 - **Đầu vào giọng nói** (những gì bạn nói)
 - **Đầu ra đã dịch** (những gì bạn nghe)
 
-| Người tham gia   | Ngôn ngữ đã chọn  | Nói bằng          | Nghe bằng         |
-| ---------------- | ----------------- | ----------------- | ----------------- |
-| Chủ trì          | Tiếng Tây Ban Nha | Tiếng Tây Ban Nha | Tiếng Tây Ban Nha |
-| Người tham gia 1 | Tiếng Anh         | Tiếng Anh         | Tiếng Anh         |
-| Người tham gia 2 | Tiếng Trung       | Tiếng Trung       | Tiếng Trung       |
+| Người tham gia | Ngôn ngữ đã chọn | Nói bằng | Nghe bằng |
+| -------------- | ---------------- | -------- | --------- |
+| Chủ trì        | Tiếng Tây Ban Nha| Tiếng Tây Ban Nha | Tiếng Tây Ban Nha |
+| Người tham gia 1| Tiếng Anh       | Tiếng Anh| Tiếng Anh |
+| Người tham gia 2| Tiếng Trung     | Tiếng Trung | Tiếng Trung |
 
 [Nền tảng tự động diễn giải tất cả lời nói theo thời gian thực](./product/overview/how-it-works) — vì vậy mọi người giao tiếp như thể họ nói cùng một ngôn ngữ.
 

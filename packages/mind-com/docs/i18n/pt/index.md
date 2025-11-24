@@ -24,7 +24,7 @@ isHome: true
       ],
       link: './product/overview/what-is-intermind',
       src: {
-        light: '/media-kit/animals-cartoon-3-2.webp',
+        light: '/iStock-497124232.jpg',
         dark: '/1d.webp',
       },
       inversion: false,
@@ -38,7 +38,7 @@ isHome: true
       title: 'A Mente Dentro das Suas Reuniões',
       details: 'InterMind transforma cada chamada multilíngue em conhecimento claro e pesquisável.',
       items: [
-        '✧ **Pergunte qualquer coisa** — a IA encontra respostas **em todas as suas reuniões**.',
+        '✧ **Pergunte qualquer coisa** — IA encontra respostas **em todas as suas reuniões**.',
         '✧ Extrai automaticamente tarefas, responsáveis e prazos.',
         '✧ Resume pontos-chave em qualquer idioma — instantaneamente.',
       ],
@@ -55,15 +55,15 @@ isHome: true
 
 <FeatureBlock
     :card="{
-      title: 'Construído para Reuniões Sérias — Não Apenas para Conversar',
+      title: 'Construído para Reuniões Sérias — Não Apenas Conversas',
       details: 'InterMind é uma [plataforma de videoconferência de nível profissional](./product/overview/video-meeting-platform), não um complemento leve ou plugin.',
       items: [
         '✧ Resolução 1080p, supressão inteligente de ruído, agendamento, moderação, compartilhamento de tela, gravação, legendagem, chat de participantes e integração com calendário — tudo integrado, **pronto para usar**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
-        light: '/3l.mp4',
-        dark: '/3d.mp4',
+        light: '/iStock-2154246858.jpg',
+        dark: '/product/iStock-1006678326.jpg',
       },
       inversion: false,
     }"
@@ -153,11 +153,11 @@ Esta configuração única de idioma se aplica a:
 - A **entrada falada** (o que você fala)
 - A **saída traduzida** (o que você ouve)
 
-| Participante   | Idioma Selecionado | Fala Em  | Ouve Em  |
-| -------------- | ------------------ | -------- | -------- |
-| Anfitrião      | Espanhol           | Espanhol | Espanhol |
-| Participante 1 | Inglês             | Inglês   | Inglês   |
-| Participante 2 | Chinês             | Chinês   | Chinês   |
+| Participante   | Idioma Selecionado | Fala Em   | Ouve Em   |
+| -------------- | ------------------ | --------- | --------- |
+| Anfitrião      | Espanhol           | Espanhol  | Espanhol  |
+| Participante 1 | Inglês             | Inglês    | Inglês    |
+| Participante 2 | Chinês             | Chinês    | Chinês    |
 
 [A plataforma interpreta automaticamente toda a fala em tempo real](./product/overview/how-it-works) — então todos se comunicam como se falassem o mesmo idioma.
 

@@ -24,7 +24,7 @@ isHome: true
       ],
       link: './product/overview/what-is-intermind',
       src: {
-        light: '/media-kit/animals-cartoon-3-2.webp',
+        light: '/iStock-497124232.jpg',
         dark: '/1d.webp',
       },
       inversion: false,
@@ -56,14 +56,14 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Ciddi Toplantılar İçin Tasarlandı — Sadece Konuşmak İçin Değil',
-      details: 'InterMind [profesyonel seviye video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
+      details: 'InterMind [profesyonel düzeyde bir video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
       items: [
         '✧ 1080p çözünürlük, akıllı gürültü bastırma, planlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
-        light: '/3l.mp4',
-        dark: '/3d.mp4',
+        light: '/iStock-2154246858.jpg',
+        dark: '/product/iStock-1006678326.jpg',
       },
       inversion: false,
     }"
@@ -74,7 +74,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Önemli Olan Yerde Gizlilik',
-      details: 'InterMind güven gerektiren konuşmalar için tasarlandı — gizlilik ve kontrolün en önemli olduğu yerde.',
+      details: 'InterMind güven gerektiren konuşmalar için tasarlanmıştır — gizlilik ve kontrolün en önemli olduğu yerde.',
       items: ['✧ [Gizlilik Bölgeleri](./product/overview/privacy-architecture) — AB, ABD, Güneydoğu Asya', '✧ **Sıfır veri eğitimi**. Üçüncü taraf erişimi yok.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -86,7 +86,7 @@ isHome: true
   />
 
 > **Bu kimler için?**  
-> _Dil engellerinin gecikmelere, kaybedilen anlaşmalara veya maliyetli yanlış anlaşılmalara neden olduğu uluslararası ekipler için tasarlandı._ [Daha fazla bilgi ...](./product/overview/markets)
+> _Dil engellerinin gecikmelere, kaybedilen anlaşmalara veya maliyetli yanlış anlamalara neden olduğu uluslararası ekipler için tasarlanmıştır._ [Daha fazla bilgi ...](./product/overview/markets)
 
 ## Google Meet + Canlı Çeviri Gibi Çalışır {#HowItWorks}
 
@@ -153,11 +153,11 @@ Bu tek dil ayarı şunları kapsar:
 - **Konuşma girişi** (söyledikleriniz)
 - **Çevrilmiş çıktı** (duyduklarınız)
 
-| Katılımcı   | Seçilen Dil | Konuştuğu Dil | Duyduğu Dil |
-| ----------- | ----------- | ------------- | ----------- |
-| Ev sahibi   | İspanyolca  | İspanyolca    | İspanyolca  |
-| Katılımcı 1 | İngilizce   | İngilizce     | İngilizce   |
-| Katılımcı 2 | Çince       | Çince         | Çince       |
+| Katılımcı     | Seçilen Dil | Konuştuğu Dil | Duyduğu Dil |
+| ------------- | ----------- | ------------- | ----------- |
+| Ev sahibi     | İspanyolca  | İspanyolca    | İspanyolca  |
+| Katılımcı 1   | İngilizce   | İngilizce     | İngilizce   |
+| Katılımcı 2   | Çince       | Çince         | Çince       |
 
 [Platform tüm konuşmaları gerçek zamanlı olarak otomatik yorumlar](./product/overview/how-it-works) — böylece herkes aynı dili konuşuyormuş gibi iletişim kurar.
 
@@ -256,7 +256,7 @@ Bunu değiştirmek şu anlama gelir:
       },
       {
         q: 'Lisanslı kullanıcı nedir ve Katılımcı nedir?',
-        a: '*Lisanslı kullanıcı* ücretsiz veya ücretli toplantı lisansına sahiptir ve planının sınırları dahilinde toplantı planlayabilir. *Katılımcılar* davetlilerdir — toplantıya katılmak için **hesap veya lisansa ihtiyaçları yoktur** ve herhangi bir cihazdan **ücretsiz** bağlanabilirler.',
+        a: '*Lisanslı kullanıcı* ücretsiz veya ücretli toplantı lisansına sahiptir ve planının sınırları dahilinde toplantı planlayabilir. *Katılımcılar* davetlilerdir — toplantıya katılmak için **hesap veya lisansa ihtiyaçları yoktur** ve herhangi bir cihazdan **ücretsiz** olarak bağlanabilirler.',
       },
       {
         q: 'Bir InterMind lisansını kaç kişi kullanabilir?',

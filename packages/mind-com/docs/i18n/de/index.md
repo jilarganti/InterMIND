@@ -24,7 +24,7 @@ isHome: true
       ],
       link: './product/overview/what-is-intermind',
       src: {
-        light: '/media-kit/animals-cartoon-3-2.webp',
+        light: '/iStock-497124232.jpg',
         dark: '/1d.webp',
       },
       inversion: false,
@@ -56,14 +56,14 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Für ernsthafte Besprechungen entwickelt — nicht nur zum Reden',
-      details: 'InterMind ist eine [professionelle Videobesprechungsplattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
+      details: 'InterMind ist eine [professionelle Video-Meeting-Plattform](./product/overview/video-meeting-platform), kein leichtgewichtiges Add-on oder Plugin.',
       items: [
-        '✧ 1080p-Auflösung, intelligente Rauschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
+        '✧ 1080p-Auflösung, intelligente Geräuschunterdrückung, Terminplanung, Moderation, Bildschirmfreigabe, Aufzeichnung, Untertitelung, Teilnehmer-Chat und Kalenderintegration — alles integriert, **sofort einsatzbereit**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
-        light: '/3l.mp4',
-        dark: '/3d.mp4',
+        light: '/iStock-2154246858.jpg',
+        dark: '/product/iStock-1006678326.jpg',
       },
       inversion: false,
     }"
@@ -75,7 +75,7 @@ isHome: true
     :card="{
       title: 'Datenschutz, wo es darauf ankommt',
       details: 'InterMind ist für vertrauenskritische Gespräche entwickelt — wo Datenschutz und Kontrolle am wichtigsten sind.',
-      items: ['✧ [Datenschutzzonen](./product/overview/privacy-architecture) — EU, USA, Südostasien', '✧ **Null Datentraining**. Kein Zugriff durch Dritte.'],
+      items: ['✧ [Datenschutzzonen](./product/overview/privacy-architecture) — EU, USA, Südostasien', '✧ **Keine Datennutzung für Training**. Kein Zugriff durch Dritte.'],
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.webp',
@@ -153,11 +153,11 @@ Diese einzige Spracheinstellung gilt für:
 - Die **gesprochene Eingabe** (was Sie sagen)
 - Die **übersetzte Ausgabe** (was Sie hören)
 
-| Teilnehmer     | Gewählte Sprache | Spricht in | Hört in    |
-| -------------- | ---------------- | ---------- | ---------- |
-| Gastgeber      | Spanisch         | Spanisch   | Spanisch   |
-| Teilnehmer 1   | Englisch         | Englisch   | Englisch   |
-| Teilnehmerin 2 | Chinesisch       | Chinesisch | Chinesisch |
+| Teilnehmer    | Gewählte Sprache | Spricht in | Hört in  |
+| ------------- | ---------------- | ---------- | -------- |
+| Gastgeber     | Spanisch         | Spanisch   | Spanisch |
+| Teilnehmer 1  | Englisch         | Englisch   | Englisch |
+| Teilnehmerin 2| Chinesisch       | Chinesisch | Chinesisch |
 
 [Die Plattform interpretiert automatisch alle Sprache in Echtzeit](./product/overview/how-it-works) — so kommuniziert jeder, als würde er dieselbe Sprache sprechen.
 

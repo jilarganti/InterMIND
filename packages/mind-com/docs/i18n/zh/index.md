@@ -17,14 +17,14 @@ isHome: true
 <FeatureBlock
     :card="{
       title: '翻译 ≠ 理解。这就是未来。',
-      details: '无论使用何种语言，您的声音都能被听到——并被理解——就像您说着同一种语言一样。',
+      details: '无论使用何种语言，您的声音都能被听到并理解，就像大家说着同一种语言一样。',
       items: [
-        '✧ 自然、[实时](./product/overview/how-it-works)，无字幕或延迟。',
-        '✧ AI驱动的口译捕捉语调、意图和行业专业术语。',
+        '✧ 自然、[实时](./product/overview/how-it-works)，无字幕、无延迟。',
+        '✧ AI驱动的口译技术捕捉语调、意图和行业专业术语。',
       ],
       link: './product/overview/what-is-intermind',
       src: {
-        light: '/media-kit/animals-cartoon-3-2.webp',
+        light: '/iStock-497124232.jpg',
         dark: '/1d.webp',
       },
       inversion: false,
@@ -58,12 +58,12 @@ isHome: true
       title: '为严肃会议而生 — 不仅仅是聊天',
       details: 'InterMind是[专业级视频会议平台](./product/overview/video-meeting-platform)，而非轻量级插件或附加组件。',
       items: [
-        '✧ 1080p分辨率、智能降噪、日程安排、会议管理、屏幕共享、录制、字幕、参与者聊天和日历集成 — 全部内置，**即开即用**。',
+        '✧ 1080p分辨率、智能降噪、会议安排、主持功能、屏幕共享、录制、字幕、参与者聊天和日历集成 — 一切内置，**即开即用**。',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
-        light: '/3l.mp4',
-        dark: '/3d.mp4',
+        light: '/iStock-2154246858.jpg',
+        dark: '/product/iStock-1006678326.jpg',
       },
       inversion: false,
     }"
@@ -74,7 +74,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: '关键隐私保护',
-      details: 'InterMind专为信任至关重要的对话而构建 — 隐私和控制最为重要的场合。',
+      details: 'InterMind专为信任至关重要的对话而构建 — 隐私和控制最为重要。',
       items: ['✧ [隐私区域](./product/overview/privacy-architecture) — 欧盟、美国、东南亚', '✧ **零数据训练**。无第三方访问。'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -85,8 +85,8 @@ isHome: true
     }"
   />
 
-> **这适合谁？**  
-> _专为语言障碍导致延误、失去交易或代价高昂误解的国际团队而构建。_ [了解更多...](./product/overview/markets)
+> **这适合谁使用？**  
+> _专为国际团队打造，解决语言障碍导致的延误、失单或代价高昂的误解。_ [了解更多...](./product/overview/markets)
 
 ## 像 Google Meet + 实时翻译一样工作 {#HowItWorks}
 
@@ -153,11 +153,11 @@ isHome: true
 - **语音输入**（您说的内容）
 - **翻译输出**（您听到的内容）
 
-| 参与者  | 选择的语言 | 说话语言 | 听取语言 |
-| ------- | ---------- | -------- | -------- |
-| 主持人  | 西班牙语   | 西班牙语 | 西班牙语 |
-| 参与者1 | 英语       | 英语     | 英语     |
-| 参与者2 | 中文       | 中文     | 中文     |
+| 参与者    | 选择的语言 | 说话语言 | 听取语言 |
+| --------- | ---------- | -------- | -------- |
+| 主持人    | 西班牙语   | 西班牙语 | 西班牙语 |
+| 参与者1   | 英语       | 英语     | 英语     |
+| 参与者2   | 中文       | 中文     | 中文     |
 
 [平台自动实时解释所有语音](./product/overview/how-it-works) — 因此每个人都能像说同一种语言一样进行交流。
 
@@ -244,7 +244,7 @@ isHome: true
 </PricingPlans>
 
 > 💡 **_您的时间应该用来精进技艺——而不是死记语法。_**  
-> 💡 **_真正的合作始于真正的对话——用他们的语言。_**
+> 💡 **_真正的合作始于真诚的对话——用他们的语言。_**
 
 ## 常见问题 {#FAQ}
 

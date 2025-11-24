@@ -24,7 +24,7 @@ isHome: true
       ],
       link: './product/overview/what-is-intermind',
       src: {
-        light: '/media-kit/animals-cartoon-3-2.webp',
+        light: '/iStock-497124232.jpg',
         dark: '/1d.webp',
       },
       inversion: false,
@@ -62,8 +62,8 @@ isHome: true
       ],
       link: './product/overview/video-meeting-platform',
       src: {
-        light: '/3l.mp4',
-        dark: '/3d.mp4',
+        light: '/iStock-2154246858.jpg',
+        dark: '/product/iStock-1006678326.jpg',
       },
       inversion: false,
     }"
@@ -74,7 +74,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Confidentialité là où ça compte',
-      details: 'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle sont primordiaux.',
+      details: 'InterMind est conçu pour les conversations critiques en matière de confiance — où la confidentialité et le contrôle comptent le plus.',
       items: ['✧ [Zones de confidentialité](./product/overview/privacy-architecture) — UE, États-Unis, Asie du Sud-Est', '✧ **Zéro formation de données**. Aucun accès tiers.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -85,7 +85,7 @@ isHome: true
     }"
   />
 
-> **À qui s'adresse-t-il ?**  
+> **Pour qui est-ce destiné ?**  
 > _Conçu pour les équipes internationales où les barrières linguistiques causent des retards, des affaires perdues ou des malentendus coûteux._ [En savoir plus ...](./product/overview/markets)
 
 ## Fonctionne comme Google Meet + Traduction en direct {#HowItWorks}
@@ -153,11 +153,11 @@ Ce paramètre de langue unique s'applique à :
 - L'**entrée vocale** (ce que vous dites)
 - La **sortie traduite** (ce que vous entendez)
 
-| Participant   | Langue sélectionnée | Parle en | Entend en |
-| ------------- | ------------------- | -------- | --------- |
-| Hôte          | Espagnol            | Espagnol | Espagnol  |
-| Participant 1 | Anglais             | Anglais  | Anglais   |
-| Participant 2 | Chinois             | Chinois  | Chinois   |
+| Participant   | Langue sélectionnée | Parle en  | Entend en |
+| ------------- | ------------------- | --------- | --------- |
+| Hôte          | Espagnol            | Espagnol  | Espagnol  |
+| Participant 1 | Anglais             | Anglais   | Anglais   |
+| Participant 2 | Chinois             | Chinois   | Chinois   |
 
 [La plateforme interprète automatiquement tous les discours en temps réel](./product/overview/how-it-works) — ainsi tout le monde communique comme s'il parlait la même langue.
 
@@ -177,7 +177,7 @@ Changer cela signifie :
 
 > ✨ « Votre langue » est un **paramètre unifié unique**  
 > Il contrôle **comment vous parlez**, **ce que vous entendez**, et **ce que vous voyez**.  
-> Parler dans une langue et écouter dans une autre n'est **pas pris en charge** — par conception, pour garder l'expérience simple et prévisible.
+> Parler dans une langue et écouter dans une autre **n'est pas pris en charge** — par conception, pour garder l'expérience simple et prévisible.
 
 ## Ce que disent nos clients {#Testimonials}
 

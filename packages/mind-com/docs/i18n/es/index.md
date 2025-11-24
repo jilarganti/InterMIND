@@ -7,7 +7,7 @@ isHome: true
 
 <!-- <HeroSection title="Reúnete en **Cualquier** Idioma" :typingSpeed="10" text="Traducción de voz en vivo en videollamadas. Comprensión instantánea, sin barreras."> -->
 
-<HeroSection title="Comprende **Cualquier** Idioma" :typingSpeed="20" text="Videollamadas Multilingües con Traducción de **Voz** Instantánea">
+<HeroSection title="Entiende **Cualquier** Idioma" :typingSpeed="20" text="Videollamadas Multilingües con Traducción de **Voz** Instantánea">
 <NavButton buttonLabel="Ver demo" buttonClass="brand" to="/#VideoDemo" eventName="watch_demo" />
 <NavButton buttonLabel="Asistente" buttonClass="alt" to="/chat" eventName="chat_assistant" />
 </HeroSection>
@@ -17,14 +17,14 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Traducción ≠ Comprensión. Esto es lo que sigue.',
-      details: 'Sin importar el idioma, tu voz es escuchada — y comprendida — como si compartieras la misma lengua.',
+      details: 'Sin importar el idioma, tu voz es escuchada — y entendida — como si compartieras la misma lengua.',
       items: [
         '✧ Naturalmente, en [tiempo real](./product/overview/how-it-works), y sin subtítulos o retrasos.',
         '✧ La interpretación impulsada por IA captura tono, intención y terminología específica de la industria.',
       ],
       link: './product/overview/what-is-intermind',
       src: {
-        light: '/media-kit/animals-cartoon-3-2.webp',
+        light: '/iStock-497124232.jpg',
         dark: '/1d.webp',
       },
       inversion: false,
@@ -56,14 +56,14 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Construido para Reuniones Serias — No Solo para Conversar',
-      details: 'InterMind es una [plataforma de videollamadas de grado profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
+      details: 'InterMind es una [plataforma de videollamadas de nivel profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
       items: [
         '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, **listo para usar**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
-        light: '/3l.mp4',
-        dark: '/3d.mp4',
+        light: '/iStock-2154246858.jpg',
+        dark: '/product/iStock-1006678326.jpg',
       },
       inversion: false,
     }"
@@ -153,11 +153,11 @@ Esta configuración de idioma único se aplica a:
 - La **entrada hablada** (lo que dices)
 - La **salida traducida** (lo que escuchas)
 
-| Participante   | Idioma seleccionado | Habla en | Escucha en |
-| -------------- | ------------------- | -------- | ---------- |
-| Anfitrión      | Español             | Español  | Español    |
-| Participante 1 | Inglés              | Inglés   | Inglés     |
-| Participante 2 | Chino               | Chino    | Chino      |
+| Participante  | Idioma seleccionado | Habla en  | Escucha en |
+| ------------- | ------------------- | --------- | ---------- |
+| Anfitrión     | Español             | Español   | Español    |
+| Participante 1| Inglés              | Inglés    | Inglés     |
+| Participante 2| Chino               | Chino     | Chino      |
 
 [La plataforma interpreta automáticamente todo el habla en tiempo real](./product/overview/how-it-works) — así que todos se comunican como si hablaran el mismo idioma.
 
