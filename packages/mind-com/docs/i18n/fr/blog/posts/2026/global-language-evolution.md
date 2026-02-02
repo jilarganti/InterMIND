@@ -13,6 +13,8 @@ author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-253
 > **Résumé exécutif :**  
 > Pendant des millénaires, les humains ont cherché des moyens de surmonter les barrières linguistiques. Aujourd'hui, nous nous trouvons au seuil d'une révolution : les technologies de traduction IA promettent de rendre obsolète l'institution d'une langue mondiale. L'anglais domine actuellement avec 1,5 milliard de locuteurs (seulement 25% natifs), 85% des organisations internationales, et 52% du contenu web. Pendant ce temps, le marché de la traduction automatique devrait atteindre 23,5 milliards de dollars d'ici 2032, avec une croissance de 12-25% par an. Cet article retrace l'évolution des langues mondiales de l'araméen à l'anglais — et explore ce qui vient ensuite.
 
+![Chronologie de l'histoire des langues mondiales de l'araméen antique à la technologie moderne de traduction IA](/blog/lingua-franca-history-ai-translation-timeline.png)
+
 ## L'évolution des langues mondiales : un aperçu historique
 
 À travers l'histoire, l'essor et le déclin des lingua francas ont suivi un schéma cohérent : les langues du pouvoir deviennent des langues de communication. Des empires antiques à la technologie moderne, chaque langue mondiale reflète la réalité géopolitique de son époque.
@@ -98,9 +100,9 @@ Le français est resté la langue officielle de la diplomatie jusqu'au milieu du
 
 L'ascension de l'anglais au statut de langue mondiale s'est déroulée en deux étapes.
 
-**Première étape : l'Empire britannique.** À la fin du XIXe siècle, l'Empire britannique englobait un quart de la surface terrestre. L'anglais est devenu la langue administrative en Inde, en Afrique, en Australie et en Amérique du Nord. Près de 60 pays reconnaissent aujourd'hui l'anglais comme langue officielle — un héritage direct de la période coloniale.
+**Première étape : l'Empire britannique.** À la fin du XIXe siècle, l'Empire britannique englobait un quart de la surface terrestre de la Terre. L'anglais est devenu la langue administrative en Inde, en Afrique, en Australie et en Amérique du Nord. Près de 60 pays reconnaissent aujourd'hui l'anglais comme langue officielle — un héritage direct de la période coloniale.
 
-**Deuxième étape : la domination américaine au XXe siècle.** Après la Seconde Guerre mondiale, les États-Unis sont devenus la première force économique, militaire et culturelle de la planète. Hollywood, le rock and roll, puis la Silicon Valley et internet ont consolidé la position de l'anglais comme langue de la culture mondiale et de la technologie.
+**Deuxième étape : la domination américaine au XXe siècle.** Après la Seconde Guerre mondiale, les États-Unis sont devenus la force économique, militaire et culturelle dominante de la planète. Hollywood, le rock and roll, puis la Silicon Valley et internet ont consolidé la position de l'anglais comme langue de la culture mondiale et de la technologie.
 
 ### L'anglais en chiffres
 
@@ -151,7 +153,7 @@ _Sources : Ethnologue, The History of English_
   </div>
 </div>
 
-L'anglais est véritablement devenu la première langue qui puisse être qualifiée de mondiale au sens le plus complet. Ni le latin ni le français n'ont jamais atteint une telle portée.
+L'anglais est véritablement devenu la première langue qui peut être qualifiée de mondiale au sens le plus complet. Ni le latin ni le français n'ont jamais atteint une telle portée.
 
 ---
 
@@ -370,7 +372,7 @@ Comme l'a noté Clayton Dube : « Parler chinois signifie que vous commencez à 
 
 L'histoire des langues mondiales est une histoire de pouvoir, de commerce et d'influence culturelle. L'araméen, le grec, le latin, l'arabe, le français, l'anglais — chacune de ces langues reflétait la réalité géopolitique de son époque.
 
-L'anglais est devenu la première langue véritablement mondiale grâce à une combinaison unique de facteurs : le colonialisme britannique, la domination économique et culturelle américaine, la révolution industrielle et internet. Aujourd'hui, un milliard et demi de personnes le parlent ; il domine les sciences, les affaires, la technologie et le divertissement.
+L'anglais est devenu la première langue véritablement mondiale grâce à une combinaison unique de facteurs : le colonialisme britannique, la domination économique et culturelle américaine, la révolution industrielle et internet. Aujourd'hui, un milliard et demi de personnes la parlent ; elle domine les sciences, les affaires, la technologie et le divertissement.
 
 Mais nous sommes à un tournant. La traduction par IA se développe de manière exponentielle. Le marché croît de 12 à 25 % par an. La qualité approche du niveau humain. Les coûts diminuent.
 

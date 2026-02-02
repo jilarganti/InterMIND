@@ -13,6 +13,8 @@ author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-253
 > **Ringkasan Eksekutif:**  
 > Selama ribuan tahun, manusia telah mencari cara untuk mengatasi hambatan bahasa. Hari ini, kita berada di ambang revolusi: teknologi terjemahan AI menjanjikan untuk membuat institusi bahasa global menjadi usang. Bahasa Inggris saat ini mendominasi dengan 1,5 miliar penutur (hanya 25% penutur asli), 85% organisasi internasional, dan 52% konten web. Sementara itu, pasar terjemahan mesin diproyeksikan mencapai $23,5 miliar pada tahun 2032, tumbuh 12-25% setiap tahunnya. Artikel ini menelusuri evolusi bahasa global dari Aram hingga Inggris — dan mengeksplorasi apa yang akan terjadi selanjutnya.
 
+![Garis waktu sejarah bahasa global dari Aram kuno hingga teknologi terjemahan AI modern](/blog/lingua-franca-history-ai-translation-timeline.png)
+
 ## Evolusi Bahasa Global: Tinjauan Historis
 
 Sepanjang sejarah, kebangkitan dan kejatuhan lingua franca telah mengikuti pola yang konsisten: bahasa kekuasaan menjadi bahasa komunikasi. Dari kerajaan kuno hingga teknologi modern, setiap bahasa global mencerminkan realitas geopolitik pada zamannya.
@@ -94,7 +96,7 @@ Bahasa Prancis tetap menjadi bahasa resmi diplomasi hingga pertengahan abad ke-2
 
 **Bahasa Inggris** merupakan fenomena unik dalam sejarah manusia. Tidak ada bahasa yang pernah mencapai tingkat penyebaran dan pengaruh seperti ini. Menurut Ethnologue, pada tahun 2024 sekitar **1,5 miliar orang** berbicara bahasa Inggris, namun penutur asli hanya berjumlah sekitar 380 juta (sekitar 25%). Untuk setiap penutur asli bahasa Inggris, ada lima orang yang mempelajarinya sebagai bahasa kedua.
 
-### Bagaimana bahasa Inggris menjadi global
+### Bagaimana Bahasa Inggris Menjadi Global
 
 Kebangkitan bahasa Inggris menjadi bahasa dunia terjadi dalam dua tahap.
 
@@ -102,7 +104,7 @@ Kebangkitan bahasa Inggris menjadi bahasa dunia terjadi dalam dua tahap.
 
 **Tahap Kedua: Dominasi Amerika di abad ke-20.** Setelah Perang Dunia II, Amerika Serikat menjadi kekuatan ekonomi, militer, dan budaya terdepan di planet ini. Hollywood, rock and roll, kemudian Silicon Valley dan internet memperkuat posisi bahasa Inggris sebagai bahasa budaya dan teknologi global.
 
-### Bahasa Inggris dalam angka
+### Bahasa Inggris dalam Angka
 
 <div class="stats-grid">
   <div class="stat-card positive">
@@ -223,7 +225,7 @@ Pada akhir 2023, terdapat **496 Institut Konfusius** yang beroperasi di 160 nega
 
 Namun, bahasa Mandarin memiliki keterbatasan struktural. **84% penutur adalah penutur asli**, yang berarti penyebaran relatif terbatas di luar dunia berbahasa Tiongkok. Sistem penulisan yang kompleks (karakter) dan sifat tonal menciptakan hambatan tinggi bagi para pelajar.
 
-Seperti yang dicatat oleh Clayton Dube dari USC U.S.-China Institute: "Seiring kebangkitan Tiongkok, Anda dapat mengantisipasi bahwa lebih banyak orang akan mengadopsi bahasa tersebut. Tetapi apakah Tiongkok akan menggantikan bahasa Inggris? Saya tidak berpikir demikian — tentu saja tidak dalam masa hidup saya, mungkin tidak dalam dua, tiga, empat generasi ke depan."
+Seperti yang dicatat oleh Clayton Dube dari USC U.S.-China Institute: "Seiring kebangkitan Tiongkok, Anda dapat mengantisipasi bahwa lebih banyak orang akan mengadopsi bahasa tersebut. Tetapi apakah Tiongkok akan menggantikan bahasa Inggris? Saya tidak berpikir demikian — tentu tidak dalam masa hidup saya, mungkin tidak dalam dua, tiga, empat generasi berikutnya."
 
 ### Revolusi Teknologi: Terjemahan AI
 
@@ -282,7 +284,7 @@ Terjemahan mesin neural (NMT) telah membuat lompatan kualitatif dalam beberapa t
 
 #### ⚡ Kecepatan
 
-Latensi **2-3 detik** untuk terjemahan ucapan real-time
+**2-3 detik** latensi untuk terjemahan ucapan real-time
 
 </div>
 

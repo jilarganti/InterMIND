@@ -1,17 +1,19 @@
 ---
 layout: "BlogPost"
 title: "El idioma global: del latín a la inteligencia artificial"
-description: "Historia completa y evolución de la lengua franca a lo largo de la historia humana. Cómo la tecnología de traducción con IA podría cambiar fundamentalmente el concepto de 'idioma mundial' en 2025 y más allá."
+description: "Historia completa y evolución de la lengua franca a lo largo de la historia humana. Cómo la tecnología de traducción con IA puede cambiar fundamentalmente el concepto de 'idioma mundial' en 2025 y más allá."
 date: "2025-12-28"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
 ---
 
 # El idioma global: del latín a la inteligencia artificial
 
-<p class="subtitle">Cómo la lengua franca de la humanidad ha evolucionado a lo largo de la historia — y por qué la traducción con IA podría volver obsoleto el concepto mismo de "idioma mundial"</p>
+<p class="subtitle">Cómo la lengua franca de la humanidad ha evolucionado a lo largo de la historia — y por qué la traducción con IA puede volver obsoleto el concepto mismo de "idioma mundial"</p>
 
 > **Resumen ejecutivo:**  
 > Durante milenios, los humanos han buscado formas de superar las barreras del idioma. Hoy, estamos al borde de una revolución: las tecnologías de traducción con IA prometen hacer obsoleta la institución de un idioma global. El inglés actualmente domina con 1.5 mil millones de hablantes (solo 25% nativos), 85% de organizaciones internacionales y 52% del contenido web. Mientras tanto, se proyecta que el mercado de traducción automática alcance $23.5 mil millones para 2032, creciendo a un 12-25% anualmente. Este artículo rastrea la evolución de los idiomas globales desde el arameo hasta el inglés — y explora lo que viene después.
+
+![Cronología de la historia de idiomas globales desde el arameo antiguo hasta la tecnología moderna de traducción con IA](/blog/lingua-franca-history-ai-translation-timeline.png)
 
 ## La evolución de los idiomas globales: una perspectiva histórica
 
@@ -100,7 +102,7 @@ El ascenso del inglés al estatus de idioma mundial ocurrió en dos etapas.
 
 **Primera etapa: El Imperio Británico.** A finales del siglo XIX, el Imperio Británico abarcaba una cuarta parte de la superficie terrestre del planeta. El inglés se convirtió en el idioma administrativo en India, África, Australia y América del Norte. Casi 60 países reconocen hoy el inglés como idioma oficial — un legado directo del período colonial.
 
-**Segunda etapa: El dominio estadounidense en el siglo XX.** Después de la Segunda Guerra Mundial, Estados Unidos se convirtió en la principal fuerza económica, militar y cultural del planeta. Hollywood, el rock and roll, luego Silicon Valley e internet consolidaron la posición del inglés como el idioma de la cultura global y la tecnología.
+**Segunda etapa: El dominio estadounidense en el siglo XX.** Después de la Segunda Guerra Mundial, Estados Unidos se convirtió en la fuerza económica, militar y cultural líder del planeta. Hollywood, el rock and roll, luego Silicon Valley e internet consolidaron la posición del inglés como el idioma de la cultura global y la tecnología.
 
 ### El inglés en números
 
@@ -217,13 +219,13 @@ A pesar de su liderazgo evidente, la posición del inglés no es inexpugnable. D
 
 ### El ascenso de China y el mandarín
 
-**El chino mandarín** es el idioma con más hablantes nativos: aproximadamente **990 millones de personas** lo hablan desde el nacimiento. El número total de hablantes alcanza los 1.14 mil millones. El ascenso económico de China estimula el interés por aprender el idioma: según algunas estimaciones, **más de 100 millones de personas fuera de China** están estudiando mandarín.
+El **chino mandarín** es el idioma con más hablantes nativos: aproximadamente **990 millones de personas** lo hablan desde el nacimiento. El número total de hablantes alcanza los 1.14 mil millones. El ascenso económico de China estimula el interés por aprender el idioma: según algunas estimaciones, **más de 100 millones de personas fuera de China** están estudiando mandarín.
 
 Para finales de 2023, había **496 Institutos Confucio** operando en 160 países y regiones. Arabia Saudita introdujo el mandarín como idioma extranjero optativo en las escuelas en 2024. Según Berlitz, el número de estudiantes de chino ha crecido un **25.5%** en los últimos dos años.
 
 Sin embargo, el mandarín tiene limitaciones estructurales. **El 84% de los hablantes son nativos**, lo que significa una expansión relativamente limitada fuera del mundo de habla china. El sistema de escritura complejo (caracteres) y la naturaleza tonal crean una alta barrera de entrada para los estudiantes.
 
-Como señaló Clayton Dube del USC U.S.-China Institute: "A medida que China asciende, puedes anticipar que más personas adoptarán el idioma. ¿Pero va China a reemplazar al inglés? No lo creo — ciertamente no en mi vida, probablemente no en las próximas dos, tres, cuatro generaciones."
+Como señaló Clayton Dube del Instituto Estados Unidos-China de USC: "A medida que China asciende, puedes anticipar que más personas adoptarán el idioma. ¿Pero va China a reemplazar al inglés? No lo creo — ciertamente no en mi vida, probablemente no en las próximas dos, tres, cuatro generaciones."
 
 ### La revolución tecnológica: traducción con IA
 

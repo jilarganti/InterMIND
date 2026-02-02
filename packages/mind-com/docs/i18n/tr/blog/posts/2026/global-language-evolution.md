@@ -11,7 +11,9 @@ author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-253
 <p class="subtitle">İnsanlığın lingua franca'sının tarih boyunca nasıl evrimleştiği — ve yapay zeka çevirisinin neden "dünya dili" kavramının kendisini geçersiz kılabileceği</p>
 
 > **Yönetici Özeti:**  
-> Binlerce yıldır insanlar dil engellerini aşmanın yollarını aramıştır. Bugün bir devrimin eşiğinde duruyoruz: Yapay zeka çeviri teknolojileri küresel dil kurumunu geçersiz kılmayı vaat ediyor. İngilizce şu anda 1,5 milyar konuşmacı (sadece %25'i ana dil), uluslararası kuruluşların %85'i ve web içeriğinin %52'si ile hakimiyetini sürdürüyor. Bu arada makine çevirisi pazarının 2032'ye kadar 23,5 milyar dolara ulaşması ve yıllık %12-25 büyümesi öngörülüyor. Bu makale küresel dillerin Aramice'den İngilizce'ye evrimini izliyor — ve bundan sonra ne geleceğini araştırıyor.
+> Binlerce yıldır insanlar dil engellerini aşmanın yollarını aramıştır. Bugün bir devrimin eşiğindeyiz: Yapay zeka çeviri teknolojileri küresel dil kurumunu geçersiz kılmayı vaat ediyor. İngilizce şu anda 1,5 milyar konuşmacı (%25'i ana dil), uluslararası kuruluşların %85'i ve web içeriğinin %52'si ile hakimiyetini sürdürüyor. Bu arada makine çevirisi pazarının yıllık %12-25 büyüyerek 2032'ye kadar 23,5 milyar dolara ulaşması öngörülüyor. Bu makale küresel dillerin Aramice'den İngilizce'ye evrimini izliyor — ve bundan sonra ne geleceğini araştırıyor.
+
+![Antik Aramice'den modern yapay zeka çeviri teknolojisine küresel diller tarihinin zaman çizelgesi](/blog/lingua-franca-history-ai-translation-timeline.png)
 
 ## Küresel Dillerin Evrimi: Tarihsel Bir Genel Bakış
 
@@ -62,23 +64,23 @@ Neden Aramice? Cevap basit: siyasi ve ekonomik güce sahip olanların diliydi. P
 
 ## Antik Yunanca: Bilgi Dili (MÖ 4. Yüzyıl–MS 1. Yüzyıl)
 
-Büyük İskender'in **MÖ 336–323** yıllarındaki fetihleri, **Antik Yunanca**'yı Yunanistan'dan Hindistan'a kadar uzanan topraklara taşıdı. Yunanca — özellikle konuşulan biçimi **Koine** — Helenistik dönem ve erken Roma zamanları boyunca eğitim, felsefe ve bilim dili haline geldi. Helenistik kültür Akdeniz boyunca yayıldı ve İskender'in imparatorluğu çöktükten sonra bile Yunanca, entelektüel seçkinlerin dili olarak statüsünü korudu.
+Büyük İskender'in **MÖ 336–323** yıllarındaki fetihleri, **Antik Yunanca**'yı Yunanistan'dan Hindistan'a kadar uzanan topraklara yaydı. Yunanca — özellikle konuşulan biçimi **Koine** — Helenistik dönem ve erken Roma döneminde eğitim, felsefe ve bilimin dili haline geldi. Helenistik kültür Akdeniz boyunca yayıldı ve İskender'in imparatorluğu çöktükten sonra bile Yunanca, entelektüel seçkinlerin dili olarak statüsünü korudu.
 
-Özellikle, İsa ve havarileri Aramice konuşmasına rağmen Yeni Ahit Koine Yunanca'da yazıldı — yazarlar metinlerinin Akdeniz dünyası boyunca insanlar tarafından okunabilmesi için Yunanca'yı seçtiler.
+Özellikle, İsa ve havarileri Aramice konuşmasına rağmen Yeni Ahit Koine Yunancasıyla yazıldı — yazarlar metinlerinin Akdeniz dünyası boyunca insanlar tarafından okunabilmesi için Yunancayı seçtiler.
 
 ---
 
 ## Latince: İki Bin Yıllık Hakimiyet (MÖ 1. Yüzyıl–18. Yüzyıl)
 
-**Latince** MÖ 1. yüzyıl civarında Roma İmparatorluğu'nun lingua franca'sı haline geldi ve bu statüsünü yaklaşık iki bin yıl boyunca korudu. Ancak Roma'nın zirvede olduğu dönemde bile, Latince'nin imparatorluğun kendisi içinde azınlık dili olarak kaldığını anlamak önemlidir. Nüfusun çoğu yerel dilleri konuşurken, Latince yönetim, hukuk ve resmi yazışmalarda kullanılıyordu.
+**Latince**, **MÖ 1. yüzyıl** civarında Roma İmparatorluğu'nun lingua franca'sı haline geldi ve bu statüsünü yaklaşık iki bin yıl boyunca korudu. Ancak Roma'nın zirvede olduğu dönemde bile, Latince'nin imparatorluğun kendisi içinde azınlık dili olarak kaldığını anlamak önemlidir. Nüfusun çoğu yerel dilleri konuşurken, Latince yönetim, hukuk ve resmi yazışmalarda kullanılıyordu.
 
 Batı Roma İmparatorluğu'nun çöküşünden sonra Latince kaybolmadı — Katolik Kilisesi'nin, bilimin ve eğitimin dili haline dönüştü. İrlanda'dan Polonya'ya kadar olan bölgelerdeki bilim insanları 18. yüzyıla kadar eserlerini Latince yazdılar. Isaac Newton "Principia Mathematica" (1687) adlı eserini Latince yayımladı.
 
 ---
 
-## Arapça: Bilimsel Altın Çağın Dili (8.-13. Yüzyıl)
+## Arapça: Bilimsel Altın Çağın Dili (8.–13. Yüzyıl)
 
-**İslam Altın Çağı (8.-13. yüzyıl)** boyunca, Arapça İspanya'dan Orta Asya'ya kadar uzanan geniş bir bölgenin lingua franca'sı haline geldi. Sadece din dili değil, aynı zamanda bilim dili de oldu: antik filozofların eserleri Arapçaya çevrildi, korundu ve Arap bilginler tarafından genişletildi. "Cebir," "algoritma" ve "simya" gibi kelimeler bize bu mirası hatırlatır.
+**İslam Altın Çağı (8.–13. yüzyıl)** boyunca Arapça, İspanya'dan Orta Asya'ya kadar uzanan geniş bir bölgenin lingua franca'sı haline geldi. Sadece din dili değil, aynı zamanda bilim dili de oldu: antik filozofların eserleri Arapçaya çevrildi, korundu ve Arap bilginler tarafından genişletildi. "Cebir," "algoritma" ve "simya" gibi kelimeler bize bu mirası hatırlatır.
 
 ---
 
@@ -155,7 +157,7 @@ _Kaynaklar: Ethnologue, The History of English_
 
 ---
 
-## İngilizcenin benzersiz yapısı: Ana dili olmayan konuşucuların dili
+## İngilizcenin Benzersiz Yapısı: Ana Dili Olmayan Konuşucuların Dili
 
 İngilizce, konuşucularının çoğunluğunun ana dili olmayan insanlar olması bakımından benzersizdir. Diğer büyük dünya dilleriyle karşılaştıralım:
 
@@ -164,7 +166,7 @@ _Kaynaklar: Ethnologue, The History of English_
 | Dil                 | Toplam Konuşucu | Ana Dil Konuşucusu | Ana Dil % |
 | ------------------- | --------------- | ------------------ | --------- |
 | 🇬🇧 İngilizce       | ~1,5 milyar     | ~380 milyon        | **%25**   |
-| 🇨🇳 Mandarin Çincesi | ~1,18 milyar    | ~990 milyon        | **%84**   |
+| 🇨🇳 Mandarin Çincesi| ~1,18 milyar    | ~990 milyon        | **%84**   |
 | 🇪🇸 İspanyolca      | ~560 milyon     | ~485 milyon        | **%87**   |
 | 🇮🇳 Hintçe          | ~609 milyon     | ~345 milyon        | **%57**   |
 | 🇫🇷 Fransızca       | ~300 milyon     | ~80 milyon         | **%27**   |
@@ -200,7 +202,7 @@ Başka bir paradoks: ana dili İngilizce olan kişiler dünyadaki en az çok dil
 
 <div class="takeaway-card positive">
   <h4>🇸🇪 İskandinav Ülkeleri</h4>
-  <p><strong>%90+'ı</strong> yabancı dil konuşuyor; Danimarka gençleri: <strong>%99'u</strong> çok dilli</p>
+  <p><strong>%90+</strong> yabancı dil konuşuyor; Danimarka gençleri: <strong>%99</strong> çok dilli</p>
 </div>
 
 </div>
@@ -227,7 +229,7 @@ USC ABD-Çin Enstitüsü'nden Clayton Dube'nin belirttiği gibi: "Çin yükseldi
 
 ### Teknolojik Devrim: Yapay Zeka Çevirisi
 
-Küresel dil kavramının kendisine yönelik daha ciddi bir meydan okuma yapay zeka teknolojilerinden gelmektedir.
+Küresel dil kavramının kendisine yönelik daha ciddi bir zorluk yapay zeka teknolojilerinden gelmektedir.
 
 ---
 
@@ -334,7 +336,7 @@ Her katılımcının kendi ana dilinde konuştuğu ve yapay zekanın konuşmayı
 
 ### Eğitim ve Bilim
 
-İngilizcenin bilimdeki hakimiyeti ciddi engeller yaratmaktadır. İngilizce konuşmayan ülkelerden araştırmacılar yayın hazırlamaya daha fazla zaman harcamakta, çalışmaları daha az sıklıkta atıf almakta ve diğer dillerde yayınlanan bilgiler uluslararası toplum için görünmez kalmaktadır.
+Bilimde İngilizcenin hakimiyeti ciddi engeller yaratmaktadır. İngilizce konuşmayan ülkelerden araştırmacılar yayın hazırlamaya daha fazla zaman harcamakta, çalışmaları daha az sıklıkta atıf almakta ve diğer dillerde yayınlanan bilgiler uluslararası toplum için görünmez kalmaktadır.
 
 <div class="healthcare-case">
 
@@ -348,7 +350,7 @@ UNESCO'ya göre, dünya çapında **%40'tan fazla** insan ana dilinde eğitime e
 
 Paradoks olarak, öncelikle İngilizce olarak yaratılan teknolojiler hem dil çeşitliliğini tehdit edebilir hem de koruyabilir.
 
-Bir yandan, büyük dil modelleri (LLM'ler) ağırlıklı olarak İngilizce içerik üzerinde eğitilmekte ve İngilizcenin dijital ortamdaki hakimiyetini pekiştirmektedir. Öte yandan, çok dilli yapay zeka gelişimi küçük dillere yeni yaşam verebilir.
+Bir yandan, büyük dil modelleri (LLM'ler) ağırlıklı olarak İngilizce içerik üzerinde eğitilmekte ve dijital ortamda İngilizcenin hakimiyetini pekiştirmektedir. Öte yandan, çok dilli yapay zeka gelişimi küçük dillere yeni yaşam verebilir.
 
 KUDO tahminlerine göre, 2025 sonuna kadar nadir dilleri destekleyen araçlar Afrika, Güneydoğu Asya ve Güney Amerika dillerine odaklanarak kapsama alanlarını **%50** artıracaktır.
 
@@ -374,7 +376,7 @@ Küresel dillerin tarihi, güç, ticaret ve kültürel etkinin tarihidir. Aramic
 
 Ancak bir dönüm noktasındayız. Yapay zeka çevirisi katlanarak gelişiyor. Pazar yıllık %12-25 büyüyor. Kalite insan seviyesine yaklaşıyor. Maliyetler düşüyor.
 
-Belki de İngilizce öğrenmenin uluslararası kariyer için zorunlu bir koşul olduğu son nesil biz olacağız. Belki de çocuklarımız herkesin kendi ana dilini konuştuğu ve teknolojinin gerisini hallettigi bir dünyada yaşayacak.
+Belki de İngilizce öğrenmenin uluslararası kariyer için zorunlu bir koşul olduğu son nesil biz olacağız. Belki çocuklarımız herkesin kendi ana dilini konuştuğu ve teknolojinin gerisini hallettigi bir dünyada yaşayacak.
 
 Ama bu dillerin hikayesinin sonu değil — yeni bir bölüm. Diller yaşayacak, evrimleşecek ve halkların kültürel mirasını taşıyacak. Sadece lingua franca işlevleri makinelere geçebilir.
 

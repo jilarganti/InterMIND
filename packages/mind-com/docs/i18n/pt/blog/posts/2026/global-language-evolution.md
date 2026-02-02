@@ -13,6 +13,8 @@ author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-253
 > **Resumo Executivo:**  
 > Por milênios, os humanos buscaram maneiras de superar as barreiras linguísticas. Hoje, estamos à beira de uma revolução: as tecnologias de tradução por IA prometem tornar obsoleta a instituição de um idioma global. O inglês atualmente domina com 1,5 bilhão de falantes (apenas 25% nativos), 85% das organizações internacionais e 52% do conteúdo web. Enquanto isso, o mercado de tradução automática está projetado para atingir US$ 23,5 bilhões até 2032, crescendo 12-25% anualmente. Este artigo traça a evolução dos idiomas globais do aramaico ao inglês — e explora o que vem a seguir.
 
+![Linha do tempo da história dos idiomas globais desde o aramaico antigo até a tecnologia moderna de tradução por IA](/blog/lingua-franca-history-ai-translation-timeline.png)
+
 ## A Evolução das Línguas Globais: Uma Visão Histórica
 
 Ao longo da história, o surgimento e declínio das línguas francas seguiu um padrão consistente: línguas do poder se tornam línguas de comunicação. Desde impérios antigos até a tecnologia moderna, cada língua global reflete a realidade geopolítica de sua era.
@@ -60,9 +62,9 @@ Por que o aramaico? A resposta é simples: era a língua daqueles que detinham o
 
 ---
 
-## Grego antigo: a linguagem do conhecimento (século IV a.C.–século I d.C.)
+## Grego Antigo: A Linguagem do Conhecimento (Século IV a.C.–Século I d.C.)
 
-As conquistas de Alexandre, o Grande, em **336–323 a.C.** trouxeram o **grego antigo** para territórios que se estendiam da Grécia à Índia. O grego — especificamente sua forma falada **koiné** — tornou-se a linguagem da educação, filosofia e ciência durante todo o período helenístico e o início dos tempos romanos. A cultura helenística se espalhou pelo Mediterrâneo e, mesmo após a queda do império de Alexandre, o grego manteve seu status como a linguagem da elite intelectual.
+As conquistas de Alexandre, o Grande, em **336–323 a.C.** trouxeram o **Grego Antigo** para territórios que se estendiam da Grécia à Índia. O grego — especificamente sua forma falada **Koiné** — tornou-se a linguagem da educação, filosofia e ciência durante todo o período helenístico e os primeiros tempos romanos. A cultura helenística se espalhou pelo Mediterrâneo, e mesmo após a queda do império de Alexandre, o grego manteve seu status como a linguagem da elite intelectual.
 
 Notavelmente, o Novo Testamento foi escrito em grego koiné, mesmo que Jesus e seus discípulos falassem aramaico — os autores escolheram o grego para que seus textos pudessem ser lidos por pessoas em todo o mundo mediterrâneo.
 
@@ -70,7 +72,7 @@ Notavelmente, o Novo Testamento foi escrito em grego koiné, mesmo que Jesus e s
 
 ## Latim: Dois Milênios de Dominância (Século I a.C.–Século XVIII)
 
-O **latim** tornou-se a língua franca do Império Romano a partir do **século I a.C.** e manteve esse status por quase dois milênios. No entanto, é importante entender que mesmo no auge de Roma, o latim permaneceu como uma língua minoritária dentro do próprio império. A maior parte da população falava idiomas locais, enquanto o latim era usado na administração, direito e correspondência oficial.
+O **latim** tornou-se a língua franca do Império Romano a partir do **século I a.C.** e manteve esse status por quase dois milênios. No entanto, é importante entender que mesmo no auge de Roma, o latim permaneceu como uma língua minoritária dentro do próprio império. A maior parte da população falava idiomas locais, enquanto o latim era usado na administração, no direito e na correspondência oficial.
 
 Após a queda do Império Romano do Ocidente, o latim não desapareceu — transformou-se na língua da Igreja Católica, da ciência e da educação. Estudiosos da Irlanda à Polônia escreveram suas obras em latim até o século XVIII. Isaac Newton publicou seus "Principia Mathematica" (1687) em latim.
 
@@ -241,7 +243,7 @@ O mercado de tradução automática está experimentando um crescimento explosiv
     <div class="stat-label">Mercado de Tradução Automática 2024</div>
   </div>
   <div class="stat-card neutral">
-    <div class="stat-number">$23.5B</div>
+    <div class="stat-number">$23,5B</div>
     <div class="stat-label">Mercado Projetado até 2032</div>
   </div>
   <div class="stat-card positive">
@@ -249,7 +251,7 @@ O mercado de tradução automática está experimentando um crescimento explosiv
     <div class="stat-label">Taxa de Crescimento Anual (CAGR)</div>
   </div>
   <div class="stat-card warning">
-    <div class="stat-number">$27.5B</div>
+    <div class="stat-number">$27,5B</div>
     <div class="stat-label">Mercado de Tradução NLP até 2030</div>
   </div>
 </div>
@@ -348,7 +350,7 @@ De acordo com a UNESCO, **mais de 40%** das pessoas no mundo não têm acesso à
 
 Paradoxalmente, as tecnologias criadas principalmente em inglês podem tanto ameaçar quanto proteger a diversidade linguística.
 
-Por um lado, os grandes modelos de linguagem (LLMs) são treinados predominantemente em conteúdo em inglês, reforçando o domínio do inglês no ambiente digital. Por outro lado, o desenvolvimento de IA multilíngue poderia dar nova vida a idiomas menores.
+Por um lado, os modelos de linguagem grandes (LLMs) são treinados predominantemente em conteúdo em inglês, reforçando o domínio do inglês no ambiente digital. Por outro lado, o desenvolvimento de IA multilíngue poderia dar nova vida a idiomas menores.
 
 De acordo com as previsões da KUDO, até o final de 2025, as ferramentas que suportam idiomas raros aumentarão sua cobertura em **50%**, focando em idiomas da África, Sudeste Asiático e América do Sul.
 
