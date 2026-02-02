@@ -56,9 +56,9 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Được xây dựng cho cuộc họp nghiêm túc — không chỉ để nói chuyện',
-      details: 'InterMind là một [nền tảng cuộc họp video chuyên nghiệp](./product/overview/video-meeting-platform), không phải là một tiện ích bổ sung hay plugin nhẹ.',
+      details: 'InterMind là một [nền tảng cuộc họp video chuyên nghiệp](./product/overview/video-meeting-platform), không phải là tiện ích bổ sung hay plugin nhẹ.',
       items: [
-        '✧ Độ phân giải 1080p, khử tiếng ồn thông minh, lập lịch, kiểm duyệt, chia sẻ màn hình, ghi âm, phụ đề, trò chuyện của người tham gia và tích hợp lịch — tất cả được tích hợp sẵn, **sẵn sàng sử dụng**.',
+        '✧ Độ phân giải 1080p, khử tiếng ồn thông minh, lập lịch, kiểm duyệt, chia sẻ màn hình, ghi âm, phụ đề, trò chuyện người tham gia và tích hợp lịch — tất cả được tích hợp sẵn, **sẵn sàng sử dụng**.',
       ],
       link: './product/overview/video-meeting-platform',
       src: {
@@ -131,7 +131,7 @@ Giao diện quen thuộc. Giao tiếp toàn cầu. Dễ sử dụng như Google 
 
 <!-- <br> -->
 
-## Video demo {#VideoDemo}
+## Video Demo {#VideoDemo}
 
 <VideoPlayer src="/promo/demo-en-mx.mp4" />
 
@@ -177,7 +177,7 @@ Thay đổi này có nghĩa là:
 
 > ✨ "Ngôn ngữ của bạn" là một **cài đặt thống nhất duy nhất**  
 > Nó kiểm soát **cách bạn nói**, **những gì bạn nghe**, và **những gì bạn thấy**.  
-> Việc nói bằng một ngôn ngữ và nghe bằng ngôn ngữ khác **không được hỗ trợ** — theo thiết kế, để giữ trải nghiệm đơn giản và có thể dự đoán được.
+> Nói bằng một ngôn ngữ và nghe bằng ngôn ngữ khác **không được hỗ trợ** — theo thiết kế, để giữ cho trải nghiệm đơn giản và có thể dự đoán được.
 
 ## Khách hàng nói gì về chúng tôi {#Testimonials}
 
@@ -195,9 +195,9 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
         details: 'không cần thẻ tín dụng',
         items: [
           '**25** cuộc họp',
-          '**100** cuộc họp video người tham gia [💬](#3)',
+          '**100** cuộc họp video với người tham gia [💬](#3)',
           '**30** GB lưu trữ chung mỗi người dùng',
-          'Tìm kiếm trên tất cả cuộc họp của bạn [💬](#2)',
+          'Tìm kiếm trong tất cả cuộc họp của bạn [💬](#2)',
           'Phiên dịch đồng thời [💬](#1)',
         ],
       },
@@ -207,9 +207,9 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
         details: 'hoặc $25 thanh toán hàng tháng',
         items: [
           '**Không giới hạn** cuộc họp',
-          '**150** cuộc họp video người tham gia [💬](#3)',
+          '**150** cuộc họp video với người tham gia [💬](#3)',
           '**2** TB lưu trữ chung mỗi người dùng',
-          'Tìm kiếm trên tất cả cuộc họp của bạn [💬](#2)',
+          'Tìm kiếm trong tất cả cuộc họp của bạn [💬](#2)',
           'Phiên dịch đồng thời [💬](#1)',
         ],
       },
@@ -219,9 +219,9 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
         details: 'Được xây dựng cho quyền riêng tư',
         items: [
           '**Không giới hạn** cuộc họp',
-          '**500** cuộc họp video người tham gia [💬](#3)',
+          '**500** cuộc họp video với người tham gia [💬](#3)',
           '**5** TB lưu trữ chung mỗi người dùng',
-          'Tìm kiếm trên tất cả cuộc họp của bạn [💬](#2)',
+          'Tìm kiếm trong tất cả cuộc họp của bạn [💬](#2)',
           'Phiên dịch đồng thời [💬](#1)',
           '**Vùng riêng tư** [💬](#4)',
         ],
@@ -235,7 +235,7 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
   buttonClass="alt"
   :services="[
     'Nhận báo giá tùy chỉnh cho gói Doanh nghiệp',
-    'Thảo luận về tính năng doanh nghiệp và Vùng riêng tư',
+    'Thảo luận về các tính năng doanh nghiệp và Vùng riêng tư',
     'Lên lịch demo cho đội ngũ của tôi',
     'Câu hỏi về việc đưa đội ngũ vào sử dụng (100+ người dùng)',
     'Yêu cầu tích hợp và kỹ thuật',
@@ -252,27 +252,27 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
     :items="[
       {
         q: 'InterMind hỗ trợ phiên dịch cho những ngôn ngữ nào?',
-        a: 'InterMind hỗ trợ **phiên dịch thời gian thực** cho 19 ngôn ngữ sau:<br><br>- العربية (ar) – Tiếng Ả Rập<br>- Čeština (cs) – Tiếng Séc<br>- Deutsch (de) – Tiếng Đức<br>- English (en) – Tiếng Anh<br>- Español (es) – Tiếng Tây Ban Nha<br>- Français (fr) – Tiếng Pháp<br>- हिन्दी (hi) – Tiếng Hindi<br>- Magyar (hu) – Tiếng Hungary<br>- Italiano (it) – Tiếng Ý<br>- 日本語 (ja) – Tiếng Nhật<br>- 한국어 (ko) – Tiếng Hàn<br>- Nederlands (nl) – Tiếng Hà Lan<br>- Polski (pl) – Tiếng Ba Lan<br>- Português (pt) – Tiếng Bồ Đào Nha<br>- Русский (ru) – Tiếng Nga<br>- Türkçe (tr) – Tiếng Thổ Nhĩ Kỳ<br>- 中文 (zh) – Tiếng Trung<br><br>Chúng tôi liên tục mở rộng danh sách này — các ngôn ngữ mới được thêm vào với mỗi bản phát hành chính.',
+        a: 'InterMind hỗ trợ **phiên dịch thời gian thực** cho 19 ngôn ngữ sau:<br><br>- العربية (ar) – Tiếng Ả Rập<br>- Čeština (cs) – Tiếng Séc<br>- Deutsch (de) – Tiếng Đức<br>- English (en) – Tiếng Anh<br>- Español (es) – Tiếng Tây Ban Nha<br>- Français (fr) – Tiếng Pháp<br>- हिन्दी (hi) – Tiếng Hindi<br>- Magyar (hu) – Tiếng Hungary<br>- Italiano (it) – Tiếng Ý<br>- 日本語 (ja) – Tiếng Nhật<br>- 한국어 (ko) – Tiếng Hàn<br>- Nederlands (nl) – Tiếng Hà Lan<br>- Polski (pl) – Tiếng Ba Lan<br>- Português (pt) – Tiếng Bồ Đào Nha Brazil<br>- Русский (ru) – Tiếng Nga<br>- Türkçe (tr) – Tiếng Thổ Nhĩ Kỳ<br>- 中文 (zh) – Tiếng Trung<br><br>Chúng tôi liên tục mở rộng danh sách này — các ngôn ngữ mới được thêm vào với mỗi bản phát hành chính.',
       },
       {
         q: 'Người dùng có giấy phép và Người tham gia là gì?',
-        a: 'Một *người dùng có giấy phép* có giấy phép họp miễn phí hoặc trả phí và có thể lên lịch họp trong giới hạn gói của họ. *Người tham gia* là những người được mời — họ **không cần tài khoản hoặc giấy phép** để tham gia và có thể kết nối từ bất kỳ thiết bị nào **miễn phí**.',
+        a: 'Một *người dùng có giấy phép* có giấy phép cuộc họp miễn phí hoặc trả phí và có thể lên lịch cuộc họp trong giới hạn gói của họ. *Người tham gia* là những người được mời — họ **không cần tài khoản hoặc giấy phép** để tham gia và có thể kết nối từ bất kỳ thiết bị nào **miễn phí**.',
       },
       {
         q: 'Có bao nhiêu người có thể sử dụng một giấy phép InterMind?',
-        a: 'Mỗi *người dùng có giấy phép* có thể tổ chức **số lượng cuộc họp không giới hạn**. Nếu nhiều thành viên trong nhóm cần tổ chức họp đồng thời, mỗi người sẽ cần giấy phép riêng.',
+        a: 'Mỗi *người dùng có giấy phép* có thể tổ chức **cuộc họp không giới hạn**. Nếu nhiều thành viên trong nhóm cần tổ chức cuộc họp đồng thời, mỗi người sẽ cần giấy phép riêng.',
       },
       {
         q: 'Thời gian tối đa của một cuộc họp là bao lâu?',
-        a: 'Các cuộc họp có thể kéo dài tới **24 giờ** trên tất cả các gói.',
+        a: 'Cuộc họp có thể kéo dài tới **24 giờ** trên tất cả các gói.',
       },
       {
         q: 'Có giới hạn số lượng cuộc họp tôi có thể tổ chức không?',
-        a: 'Gói *Free Basic* bao gồm **25 cuộc họp miễn phí**. Các gói *Pro* và *Business* cung cấp số lượng cuộc họp không giới hạn với nhiều người tham gia và quyền kiểm soát hơn.',
+        a: 'Gói *Free Basic* bao gồm **25 cuộc họp miễn phí**. Các gói *Pro* và *Business* cung cấp cuộc họp không giới hạn với nhiều người tham gia và quyền kiểm soát hơn.',
       },
       {
         q: 'InterMind đảm bảo quyền riêng tư và bảo mật dữ liệu như thế nào?',
-        a: 'InterMind được **thiết kế riêng tư ngay từ đầu**. Tất cả dữ liệu được xử lý và lưu trữ trong **Vùng riêng tư** mà bạn chọn — _EU_, _US_, hoặc _Asia_. Chúng tôi tuân thủ [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), và UAE PDPL, và **không bao giờ sử dụng nội dung của bạn** để đào tạo hoặc truy cập bên thứ ba. Kiểm soát [Vùng riêng tư](./product/overview/privacy-architecture) nâng cao có sẵn trên gói **Business**.',
+        a: 'InterMind được **thiết kế riêng tư**. Tất cả dữ liệu được xử lý và lưu trữ trong **Vùng riêng tư** bạn chọn — _EU_, _US_, hoặc _Asia_. Chúng tôi tuân thủ [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), và UAE PDPL, và **không bao giờ sử dụng nội dung của bạn** để đào tạo hoặc truy cập bên thứ ba. Kiểm soát [Vùng riêng tư](./product/overview/privacy-architecture) nâng cao có sẵn trên gói **Business**.',
       },
       {
         q: 'Tôi có thể dùng thử InterMind trước khi mua gói không?',
@@ -284,11 +284,11 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
       },
       {
         q: 'Làm thế nào để quản lý đăng ký của tôi (nâng cấp, hạ cấp, hoặc hủy)?',
-        a: 'Bạn có thể thay đổi gói bất cứ lúc nào thông qua **cài đặt tài khoản**. Các thay đổi có hiệu lực **ngay lập tức**. Đối với việc hủy, *Gói hàng tháng* hủy vào cuối chu kỳ thanh toán. *Gói hàng năm* có thể được hủy để **hoàn tiền theo tỷ lệ**.',
+        a: 'Bạn có thể thay đổi gói bất cứ lúc nào thông qua **cài đặt tài khoản**. Thay đổi có hiệu lực **ngay lập tức**. Đối với việc hủy, *Gói hàng tháng* hủy vào cuối chu kỳ thanh toán. *Gói hàng năm* có thể được hủy để **hoàn tiền theo tỷ lệ**.',
       },
       {
-        q: 'Tôi có thể sử dụng InterMind cho hội thảo trực tuyến hoặc sự kiện lớn không?',
-        a: 'Có. Các gói *Pro* và *Business* lý tưởng cho **các cuộc họp lớn và hội thảo trực tuyến** — với hỗ trợ lên tới **500 người tham gia** trên gói *Business*.',
+        q: 'Tôi có thể sử dụng InterMind cho webinar hoặc sự kiện lớn không?',
+        a: 'Có. Các gói *Pro* và *Business* lý tưởng cho **cuộc họp lớn và webinar** — với hỗ trợ lên tới **500 người tham gia** trên *Business*.',
       },
     ]"/>
 
@@ -320,7 +320,7 @@ Từ cuộc gọi đầu tiên đến những cuộc trò chuyện thành thạo
           { text: 'Blog', link: './blog/' },
           { text: 'Tuân thủ truy cập ngôn ngữ toàn cầu', link: './blog/posts/global-language-access-compliance' },
           { text: 'Tài sản thương hiệu', link: './resources/media-kit' },
-          { text: 'Tài liệu AI API / LLM', link: 'https://mind.com/llms-full.txt' },
+          { text: 'AI API / LLM Docs', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

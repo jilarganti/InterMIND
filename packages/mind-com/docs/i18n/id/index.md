@@ -120,7 +120,7 @@ Antarmuka yang familiar. Komunikasi universal. Kemudahan yang sama seperti Googl
       },
       {
         title: 'Berbicara dalam bahasa Anda',
-        details: 'Semua orang berbicara dan mendengar dalam bahasa mereka sendiri.',
+        details: 'Setiap orang berbicara dan mendengar dalam bahasa mereka sendiri.',
         icon: {
           light: '/meeting.png',
           dark: '/meeting.png',
@@ -155,9 +155,9 @@ Pengaturan bahasa tunggal ini berlaku untuk:
 
 | Peserta   | Bahasa yang Dipilih | Berbicara Dalam | Mendengar Dalam |
 | --------- | ------------------- | --------------- | --------------- |
-| Host      | Spanyol             | Spanyol         | Spanyol         |
-| Peserta 1 | Inggris             | Inggris         | Inggris         |
-| Peserta 2 | Mandarin            | Mandarin        | Mandarin        |
+| Host      | Bahasa Spanyol      | Bahasa Spanyol  | Bahasa Spanyol  |
+| Peserta 1 | Bahasa Inggris      | Bahasa Inggris  | Bahasa Inggris  |
+| Peserta 2 | Bahasa Mandarin     | Bahasa Mandarin | Bahasa Mandarin |
 
 [Platform secara otomatis menginterpretasikan semua ucapan secara real-time](./product/overview/how-it-works) — sehingga semua orang berkomunikasi seolah-olah mereka berbicara dalam bahasa yang sama.
 
@@ -252,11 +252,11 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
     :items="[
       {
         q: 'Bahasa apa saja yang didukung InterMind untuk interpretasi?',
-        a: 'InterMind mendukung **interpretasi real-time** dalam 19 bahasa berikut:<br><br>- العربية (ar) – Arab<br>- Čeština (cs) – Ceko<br>- Deutsch (de) – Jerman<br>- English (en) – Inggris<br>- Español (es) – Spanyol<br>- Français (fr) – Prancis<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Hungaria<br>- Italiano (it) – Italia<br>- 日本語 (ja) – Jepang<br>- 한국어 (ko) – Korea<br>- Nederlands (nl) – Belanda<br>- Polski (pl) – Polandia<br>- Português (pt) – Portugis<br>- Русский (ru) – Rusia<br>- Türkçe (tr) – Turki<br>- 中文 (zh) – Mandarin<br><br>Kami terus memperluas daftar ini — bahasa baru ditambahkan pada setiap rilis utama.',
+        a: 'InterMind mendukung **interpretasi real-time** dalam 19 bahasa berikut:<br><br>- العربية (ar) – Arab<br>- Čeština (cs) – Ceko<br>- Deutsch (de) – Jerman<br>- English (en) – Inggris<br>- Español (es) – Spanyol<br>- Français (fr) – Prancis<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Hungaria<br>- Italiano (it) – Italia<br>- 日本語 (ja) – Jepang<br>- 한국어 (ko) – Korea<br>- Nederlands (nl) – Belanda<br>- Polski (pl) – Polandia<br>- Português (pt) – Portugis Brasil<br>- Русский (ru) – Rusia<br>- Türkçe (tr) – Turki<br>- 中文 (zh) – Mandarin<br><br>Kami terus memperluas daftar ini — bahasa baru ditambahkan pada setiap rilis utama.',
       },
       {
         q: 'Apa itu pengguna berlisensi dan apa itu peserta?',
-        a: 'Seorang *pengguna berlisensi* memiliki lisensi meeting gratis atau berbayar dan dapat menjadwalkan meeting dalam batas paket mereka. *Peserta* adalah undangan — mereka **tidak memerlukan akun atau lisensi** untuk bergabung dan dapat terhubung dari perangkat apa pun **secara gratis**.',
+        a: '*Pengguna berlisensi* memiliki lisensi meeting gratis atau berbayar dan dapat menjadwalkan meeting dalam batas paket mereka. *Peserta* adalah undangan — mereka **tidak memerlukan akun atau lisensi** untuk bergabung dan dapat terhubung dari perangkat apa pun **secara gratis**.',
       },
       {
         q: 'Berapa banyak orang yang dapat menggunakan satu lisensi InterMind?',
@@ -272,11 +272,11 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
       },
       {
         q: 'Bagaimana InterMind memastikan privasi dan keamanan data?',
-        a: 'InterMind **privat sejak awal**. Semua data diproses dan disimpan dalam **Zona Privasi** yang Anda pilih — _EU_, _US_, atau _Asia_. Kami mematuhi [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), dan UAE PDPL, dan **tidak pernah menggunakan konten Anda** untuk pelatihan atau akses pihak ketiga. Kontrol [Zona Privasi](./product/overview/privacy-architecture) lanjutan tersedia pada paket **Business**.',
+        a: 'InterMind **dirancang dengan privasi sebagai prioritas**. Semua data diproses dan disimpan dalam **Zona Privasi** yang Anda pilih — _EU_, _US_, atau _Asia_. Kami mematuhi [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), dan UAE PDPL, dan **tidak pernah menggunakan konten Anda** untuk pelatihan atau akses pihak ketiga. Kontrol [Zona Privasi](./product/overview/privacy-architecture) lanjutan tersedia pada paket **Business**.',
       },
       {
         q: 'Bisakah saya mencoba InterMind sebelum membeli paket?',
-        a: 'Tentu saja. Paket *Free Basic* memberi Anda akses penuh ke fitur inti dengan **25 meeting gratis** — termasuk **interpretasi simultan** dan **pencarian meeting**. Tidak perlu kartu kredit. Upgrade kapan saja.',
+        a: 'Tentu saja. Paket *Free Basic* memberi Anda akses penuh ke fitur inti dengan **25 meeting gratis** — termasuk **interpretasi simultan** dan **pencarian meeting**. Tidak diperlukan kartu kredit. Upgrade kapan saja.',
       },
       {
         q: 'Bagaimana jika saya memerlukan bantuan atau dukungan?',
@@ -297,7 +297,7 @@ Dari panggilan pertama hingga percakapan yang lancar — dalam skala apa pun.
       {
         title: 'PRODUK',
         links: [
-          { text: 'Gambaran Umum', link: './product/overview/what-is-intermind' },
+          { text: 'Ikhtisar', link: './product/overview/what-is-intermind' },
           { text: 'Memulai', link: './product/guide/getting-started' },
           { text: 'Testimoni', link: '#Testimonials' },
           { text: 'Harga', link: '#Pricing' },

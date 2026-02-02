@@ -214,7 +214,7 @@ isHome: true
         ],
       },
       {
-        title: '**商业版** &nbsp 100+ 用户',
+        title: '**企业版** &nbsp 100+ 用户',
         price: '**定制定价**',
         details: '专为隐私而构建',
         items: [
@@ -234,10 +234,10 @@ isHome: true
   buttonText="联系我们的团队" 
   buttonClass="alt"
   :services="[
-    '获取商业版定制报价',
+    '获取企业版定制报价',
     '讨论企业功能和隐私区域',
     '为我的团队安排演示',
-    '关于团队入门的问题（100+ 用户）',
+    '关于团队入职的问题（100+ 用户）',
     '集成和技术要求',
     '其他商务咨询'
   ]" />
@@ -252,7 +252,7 @@ isHome: true
     :items="[
       {
         q: 'InterMind支持哪些语言的口译服务？',
-        a: 'InterMind支持以下19种语言的**实时口译**：<br><br>- العربية (ar) – 阿拉伯语<br>- Čeština (cs) – 捷克语<br>- Deutsch (de) – 德语<br>- English (en) – 英语<br>- Español (es) – 西班牙语<br>- Français (fr) – 法语<br>- हिन्दी (hi) – 印地语<br>- Magyar (hu) – 匈牙利语<br>- Italiano (it) – 意大利语<br>- 日本語 (ja) – 日语<br>- 한국어 (ko) – 韩语<br>- Nederlands (nl) – 荷兰语<br>- Polski (pl) – 波兰语<br>- Português (pt) – 葡萄牙语<br>- Русский (ru) – 俄语<br>- Türkçe (tr) – 土耳其语<br>- 中文 (zh) – 中文<br><br>我们正在不断扩展这个列表——每个主要版本发布都会添加新语言。',
+        a: 'InterMind支持以下19种语言的**实时口译**：<br><br>- العربية (ar) – 阿拉伯语<br>- Čeština (cs) – 捷克语<br>- Deutsch (de) – 德语<br>- English (en) – 英语<br>- Español (es) – 西班牙语<br>- Français (fr) – 法语<br>- हिन्दी (hi) – 印地语<br>- Magyar (hu) – 匈牙利语<br>- Italiano (it) – 意大利语<br>- 日本語 (ja) – 日语<br>- 한국어 (ko) – 韩语<br>- Nederlands (nl) – 荷兰语<br>- Polski (pl) – 波兰语<br>- Português (pt) – 巴西葡萄牙语<br>- Русский (ru) – 俄语<br>- Türkçe (tr) – 土耳其语<br>- 中文 (zh) – 中文<br><br>我们正在不断扩展这个列表——每次主要版本更新都会添加新语言。',
       },
       {
         q: '什么是许可用户和参与者？',
@@ -264,7 +264,7 @@ isHome: true
       },
       {
         q: '会议的最长持续时间是多少？',
-        a: '所有计划的会议都可以持续**24小时**。',
+        a: '所有计划的会议最长可持续**24小时**。',
       },
       {
         q: '我可以主持的会议数量有限制吗？',
@@ -288,7 +288,7 @@ isHome: true
       },
       {
         q: '我可以使用InterMind进行网络研讨会或大型活动吗？',
-        a: '可以。*专业版*和*商业版*计划非常适合**大型会议和网络研讨会**——*商业版*支持多达**500名参与者**。',
+        a: '可以。*专业版*和*商业版*计划非常适合**大型会议和网络研讨会**——*商业版*最多支持**500名参与者**。',
       },
     ]"/>
 

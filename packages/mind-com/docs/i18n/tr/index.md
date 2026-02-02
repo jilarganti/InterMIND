@@ -35,7 +35,7 @@ isHome: true
 
 <FeatureBlock
     :card="{
-      title: 'Toplantılarınızdaki Akıl',
+      title: 'Toplantılarınızın İçindeki Akıl',
       details: 'InterMind her çok dilli aramayı net, aranabilir bilgiye dönüştürür.',
       items: [
         '✧ **Her şeyi sorun** — AI **toplantılarınız genelinde** cevaplar bulur.',
@@ -56,7 +56,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Ciddi Toplantılar İçin Tasarlandı — Sadece Konuşmak İçin Değil',
-      details: 'InterMind [profesyonel düzeyde bir video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
+      details: 'InterMind [profesyonel seviye video toplantı platformudur](./product/overview/video-meeting-platform), hafif bir eklenti veya plugin değil.',
       items: [
         '✧ 1080p çözünürlük, akıllı gürültü bastırma, planlama, moderasyon, ekran paylaşımı, kayıt, altyazı, katılımcı sohbeti ve takvim entegrasyonu — hepsi dahili, **kullanıma hazır**.',
       ],
@@ -183,7 +183,7 @@ Bunu değiştirmek şu anlama gelir:
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
-## Net ve Basit Fiyatlandırma {#Pricing}
+## Açık ve Basit Fiyatlandırma {#Pricing}
 
 İlk aramadan akıcı konuşmalara — her ölçekte.
 
@@ -243,7 +243,7 @@ Bunu değiştirmek şu anlama gelir:
   ]" />
 </PricingPlans>
 
-> 💡 **_Zamanınızı dilbilgisi ezberlemek yerine mesleğinizde ustalaşmaya harcamanız daha iyi._**  
+> 💡 **_Zamanınızı dilbilgisi ezberlemek yerine uzmanlığınızı geliştirmeye harcamanız daha iyi._**  
 > 💡 **_Gerçek ortaklıklar gerçek konuşmalarla başlar — onların dilinde._**
 
 ## Sık Sorulan Sorular {#FAQ}
@@ -252,7 +252,7 @@ Bunu değiştirmek şu anlama gelir:
     :items="[
       {
         q: 'InterMind hangi dillerde çeviri desteği sunuyor?',
-        a: 'InterMind aşağıdaki 19 dilde **gerçek zamanlı çeviri** desteği sunmaktadır:<br><br>- العربية (ar) – Arapça<br>- Čeština (cs) – Çekçe<br>- Deutsch (de) – Almanca<br>- English (en) – İngilizce<br>- Español (es) – İspanyolca<br>- Français (fr) – Fransızca<br>- हिन्दी (hi) – Hintçe<br>- Magyar (hu) – Macarca<br>- Italiano (it) – İtalyanca<br>- 日本語 (ja) – Japonca<br>- 한국어 (ko) – Korece<br>- Nederlands (nl) – Hollandaca<br>- Polski (pl) – Lehçe<br>- Português (pt) – Portekizce<br>- Русский (ru) – Rusça<br>- Türkçe (tr) – Türkçe<br>- 中文 (zh) – Çince<br><br>Bu listeyi sürekli genişletiyoruz — her büyük sürümle birlikte yeni diller eklenmektedir.',
+        a: 'InterMind aşağıdaki 19 dilde **gerçek zamanlı çeviri** desteği sunmaktadır:<br><br>- العربية (ar) – Arapça<br>- Čeština (cs) – Çekçe<br>- Deutsch (de) – Almanca<br>- English (en) – İngilizce<br>- Español (es) – İspanyolca<br>- Français (fr) – Fransızca<br>- हिन्दी (hi) – Hintçe<br>- Magyar (hu) – Macarca<br>- Italiano (it) – İtalyanca<br>- 日本語 (ja) – Japonca<br>- 한국어 (ko) – Korece<br>- Nederlands (nl) – Hollandaca<br>- Polski (pl) – Lehçe<br>- Português (pt) – Brezilya Portekizcesi<br>- Русский (ru) – Rusça<br>- Türkçe (tr) – Türkçe<br>- 中文 (zh) – Çince<br><br>Bu listeyi sürekli genişletiyoruz — her büyük sürümle birlikte yeni diller eklenmektedir.',
       },
       {
         q: 'Lisanslı kullanıcı nedir ve Katılımcı nedir?',
@@ -284,7 +284,7 @@ Bunu değiştirmek şu anlama gelir:
       },
       {
         q: 'Aboneliğimi nasıl yönetirim (yükseltme, düşürme veya iptal)?',
-        a: 'Planınızı **hesap ayarlarınız** üzerinden istediğiniz zaman değiştirebilirsiniz. Değişiklikler **anında** geçerli olur. İptaller için *Aylık planlar* fatura döngüsünün sonunda iptal olur. *Yıllık planlar* **orantılı geri ödeme** ile iptal edilebilir.',
+        a: 'Planınızı **hesap ayarlarınız** üzerinden istediğiniz zaman değiştirebilirsiniz. Değişiklikler **anında** geçerli olur. İptaller için *Aylık planlar* fatura döneminin sonunda iptal olur. *Yıllık planlar* **orantılı geri ödeme** ile iptal edilebilir.',
       },
       {
         q: 'InterMind\'ı webinar veya büyük etkinlikler için kullanabilir miyim?',

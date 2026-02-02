@@ -88,7 +88,7 @@ isHome: true
 > **Para quem é isso?**  
 > _Construído para equipes internacionais onde barreiras linguísticas causam atrasos, negócios perdidos ou mal-entendidos custosos._ [Saiba mais ...](./product/overview/markets)
 
-## Funciona Como Google Meet + Tradução Ao Vivo {#HowItWorks}
+## Funciona Como Google Meet + Tradução ao Vivo {#HowItWorks}
 
 Interface familiar. Comunicação universal. A mesma facilidade do Google Meet — com tradução instantânea que faz as barreiras linguísticas desaparecerem.
 
@@ -179,7 +179,7 @@ Alterar isso significa:
 > Ela controla **como você fala**, **o que você ouve** e **o que você vê**.  
 > Falar em um idioma e ouvir em outro **não é suportado** — por design, para manter a experiência simples e previsível.
 
-## O Que Os Clientes Estão Dizendo {#Testimonials}
+## O Que Nossos Clientes Estão Dizendo {#Testimonials}
 
 <AutoScrollTestimonials testimonialsUrl="/testimonials.json"/>
 
@@ -206,7 +206,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
         price: '**$20** /mês/usuário, cobrado anualmente',
         details: 'ou $25 cobrado mensalmente',
         items: [
-          '**Reuniões ilimitadas**',
+          '**Ilimitadas** reuniões',
           '**150** participantes em videochamadas [💬](#3)',
           '**2** TB de armazenamento compartilhado por usuário',
           'Pesquise em todas as suas reuniões [💬](#2)',
@@ -216,9 +216,9 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       {
         title: '**Business** &nbsp 100+ usuários',
         price: '**Preço personalizado**',
-        details: 'Desenvolvido para privacidade',
+        details: 'Construído para privacidade',
         items: [
-          '**Reuniões ilimitadas**',
+          '**Ilimitadas** reuniões',
           '**500** participantes em videochamadas [💬](#3)',
           '**5** TB de armazenamento compartilhado por usuário',
           'Pesquise em todas as suas reuniões [💬](#2)',
@@ -243,7 +243,7 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
   ]" />
 </PricingPlans>
 
-> 💡 **_Seu tempo é melhor aproveitado dominando sua área — não memorizando gramática._**  
+> 💡 **_Seu tempo é melhor gasto dominando sua área — não memorizando gramática._**  
 > 💡 **_Parcerias reais começam com conversas reais — no idioma deles._**
 
 ## Perguntas Frequentes {#FAQ}
@@ -252,14 +252,14 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
     :items="[
       {
         q: 'Quais idiomas o InterMind suporta para interpretação?',
-        a: 'O InterMind suporta **interpretação em tempo real** nos seguintes 19 idiomas:<br><br>- العربية (ar) – Árabe<br>- Čeština (cs) – Tcheco<br>- Deutsch (de) – Alemão<br>- English (en) – Inglês<br>- Español (es) – Espanhol<br>- Français (fr) – Francês<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Húngaro<br>- Italiano (it) – Italiano<br>- 日本語 (ja) – Japonês<br>- 한국어 (ko) – Coreano<br>- Nederlands (nl) – Holandês<br>- Polski (pl) – Polonês<br>- Português (pt) – Português<br>- Русский (ru) – Russo<br>- Türkçe (tr) – Turco<br>- 中文 (zh) – Chinês<br><br>Estamos continuamente expandindo esta lista — novos idiomas são adicionados a cada versão principal.',
+        a: 'O InterMind suporta **interpretação em tempo real** nos seguintes 19 idiomas:<br><br>- العربية (ar) – Árabe<br>- Čeština (cs) – Tcheco<br>- Deutsch (de) – Alemão<br>- English (en) – Inglês<br>- Español (es) – Espanhol<br>- Français (fr) – Francês<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Húngaro<br>- Italiano (it) – Italiano<br>- 日本語 (ja) – Japonês<br>- 한국어 (ko) – Coreano<br>- Nederlands (nl) – Holandês<br>- Polski (pl) – Polonês<br>- Português (pt) – Português Brasileiro<br>- Русский (ru) – Russo<br>- Türkçe (tr) – Turco<br>- 中文 (zh) – Chinês<br><br>Estamos continuamente expandindo esta lista — novos idiomas são adicionados a cada versão principal.',
       },
       {
         q: 'O que é um usuário licenciado e o que é um participante?',
         a: 'Um *usuário licenciado* possui uma licença de reunião gratuita ou paga e pode agendar reuniões dentro dos limites do seu plano. *Participantes* são convidados — eles **não precisam de uma conta ou licença** para participar e podem se conectar de qualquer dispositivo **gratuitamente**.',
       },
       {
-        q: 'Quantas pessoas podem usar uma licença do InterMind?',
+        q: 'Quantas pessoas podem usar uma licença InterMind?',
         a: 'Cada *usuário licenciado* pode hospedar **reuniões ilimitadas**. Se vários membros da equipe precisarem hospedar reuniões simultaneamente, cada um precisará de sua própria licença.',
       },
       {
@@ -297,8 +297,8 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       {
         title: 'PRODUTO',
         links: [
-          { text: 'Visão geral', link: './product/overview/what-is-intermind' },
-          { text: 'Primeiros passos', link: './product/guide/getting-started' },
+          { text: 'Visão Geral', link: './product/overview/what-is-intermind' },
+          { text: 'Primeiros Passos', link: './product/guide/getting-started' },
           { text: 'Depoimentos', link: '#Testimonials' },
           { text: 'Preços', link: '#Pricing' },
         ],
@@ -306,11 +306,11 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
       {
         title: 'SUPORTE',
         links: [
-          { text: 'Obter suporte', link: './resources/help' },
+          { text: 'Obter Suporte', link: './resources/help' },
           { text: 'FAQ', link: '#FAQ' },
-          { text: 'Política de privacidade', link: './resources/company/privacy-policy' },
-          { text: 'Guia jurídico de IA', link: './resources/company/legal-regulations-for-ai-services' },
-          { text: 'Status do serviço', link: 'https://status.mind.com/' },
+          { text: 'Política de Privacidade', link: './resources/company/privacy-policy' },
+          { text: 'Guia Legal de IA', link: './resources/company/legal-regulations-for-ai-services' },
+          { text: 'Status do Serviço', link: 'https://status.mind.com/' },
           // { text: 'Privacy Settings', link: '#' },
         ],
       },
@@ -318,9 +318,9 @@ Da primeira chamada às conversas fluentes — em qualquer escala.
         title: 'RECURSOS',
         links: [
           { text: 'Blog', link: './blog/' },
-          { text: 'Conformidade global de acesso a idiomas', link: './blog/posts/global-language-access-compliance' },
-          { text: 'Recursos da marca', link: './resources/media-kit' },
-          { text: 'Documentação da API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
+          { text: 'Conformidade Global de Acesso a Idiomas', link: './blog/posts/global-language-access-compliance' },
+          { text: 'Recursos da Marca', link: './resources/media-kit' },
+          { text: 'Documentação AI API / LLM', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

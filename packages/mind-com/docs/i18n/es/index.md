@@ -55,7 +55,7 @@ isHome: true
 
 <FeatureBlock
     :card="{
-      title: 'Construido para Reuniones Serias — No Solo para Conversar',
+      title: 'Diseñado para Reuniones Serias — No Solo para Conversar',
       details: 'InterMind es una [plataforma de videollamadas de nivel profesional](./product/overview/video-meeting-platform), no un complemento ligero o plugin.',
       items: [
         '✧ Resolución 1080p, supresión inteligente de ruido, programación, moderación, compartir pantalla, grabación, subtitulado, chat de participantes e integración de calendario — todo integrado, **listo para usar**.',
@@ -74,7 +74,7 @@ isHome: true
 <FeatureBlock
     :card="{
       title: 'Privacidad Donde Importa',
-      details: 'InterMind está construido para conversaciones críticas de confianza — donde la privacidad y el control importan más.',
+      details: 'InterMind está diseñado para conversaciones críticas de confianza — donde la privacidad y el control importan más.',
       items: ['✧ [Zonas de Privacidad](./product/overview/privacy-architecture) — UE, EE.UU., Sudeste Asiático', '✧ **Cero entrenamiento de datos**. Sin acceso de terceros.'],
       link: './product/overview/privacy-architecture',
       src: {
@@ -86,9 +86,9 @@ isHome: true
   />
 
 > **¿Para quién es esto?**  
-> _Construido para equipos internacionales donde las barreras del idioma causan retrasos, negocios perdidos o malentendidos costosos._ [Aprende más ...](./product/overview/markets)
+> _Diseñado para equipos internacionales donde las barreras del idioma causan retrasos, negocios perdidos o malentendidos costosos._ [Conoce más ...](./product/overview/markets)
 
-## Funciona Como Google Meet + Traducción en Vivo {#HowItWorks}
+## Funciona como Google Meet + Traducción en vivo {#HowItWorks}
 
 Interfaz familiar. Comunicación universal. La misma facilidad que Google Meet — con traducción instantánea que hace desaparecer las barreras del idioma.
 
@@ -131,7 +131,7 @@ Interfaz familiar. Comunicación universal. La misma facilidad que Google Meet �
 
 <!-- <br> -->
 
-## Demostración en video {#VideoDemo}
+## Video demostración {#VideoDemo}
 
 <VideoPlayer src="/promo/demo-en-mx.mp4" />
 
@@ -252,11 +252,11 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
     :items="[
       {
         q: '¿Qué idiomas admite InterMind para interpretación?',
-        a: 'InterMind admite **interpretación en tiempo real** en los siguientes 19 idiomas:<br><br>- العربية (ar) – Árabe<br>- Čeština (cs) – Checo<br>- Deutsch (de) – Alemán<br>- English (en) – Inglés<br>- Español (es) – Español<br>- Français (fr) – Francés<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Húngaro<br>- Italiano (it) – Italiano<br>- 日本語 (ja) – Japonés<br>- 한국어 (ko) – Coreano<br>- Nederlands (nl) – Holandés<br>- Polski (pl) – Polaco<br>- Português (pt) – Portugués<br>- Русский (ru) – Ruso<br>- Türkçe (tr) – Turco<br>- 中文 (zh) – Chino<br><br>Continuamente expandimos esta lista — se agregan nuevos idiomas con cada versión principal.',
+        a: 'InterMind admite **interpretación en tiempo real** en los siguientes 19 idiomas:<br><br>- العربية (ar) – Árabe<br>- Čeština (cs) – Checo<br>- Deutsch (de) – Alemán<br>- English (en) – Inglés<br>- Español (es) – Español<br>- Français (fr) – Francés<br>- हिन्दी (hi) – Hindi<br>- Magyar (hu) – Húngaro<br>- Italiano (it) – Italiano<br>- 日本語 (ja) – Japonés<br>- 한국어 (ko) – Coreano<br>- Nederlands (nl) – Holandés<br>- Polski (pl) – Polaco<br>- Português (pt) – Portugués brasileño<br>- Русский (ru) – Ruso<br>- Türkçe (tr) – Turco<br>- 中文 (zh) – Chino<br><br>Estamos expandiendo continuamente esta lista: se agregan nuevos idiomas con cada versión principal.',
       },
       {
         q: '¿Qué es un usuario con licencia y qué es un participante?',
-        a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados — **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **gratis**.',
+        a: 'Un *usuario con licencia* tiene una licencia de reunión gratuita o de pago y puede programar reuniones dentro de los límites de su plan. Los *participantes* son invitados: **no necesitan una cuenta o licencia** para unirse y pueden conectarse desde cualquier dispositivo **de forma gratuita**.',
       },
       {
         q: '¿Cuántas personas pueden usar una licencia de InterMind?',
@@ -272,11 +272,11 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
       },
       {
         q: '¿Cómo garantiza InterMind la privacidad y seguridad de los datos?',
-        a: 'InterMind es **privado por diseño**. Todos los datos se procesan y almacenan dentro de tu **Zona de Privacidad** seleccionada — _UE_, _EE.UU._, o _Asia_. Cumplimos con [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa), y UAE PDPL, y **nunca usamos tu contenido** para entrenamiento o acceso de terceros. El [control avanzado de Zona de Privacidad](./product/overview/privacy-architecture) está disponible en el plan **Business**.',
+        a: 'InterMind es **privado por diseño**. Todos los datos se procesan y almacenan dentro de tu **Zona de Privacidad** seleccionada: _UE_, _EE.UU._ o _Asia_. Cumplimos con [**GDPR**](https://gdpr.eu), [**CCPA**](https://oag.ca.gov/privacy/ccpa) y UAE PDPL, y **nunca usamos tu contenido** para entrenamiento o acceso de terceros. El [control avanzado de Zona de Privacidad](./product/overview/privacy-architecture) está disponible en el plan **Business**.',
       },
       {
         q: '¿Puedo probar InterMind antes de comprar un plan?',
-        a: 'Por supuesto. El plan *Básico Gratuito* te da acceso completo a las funciones principales con **25 reuniones gratuitas** — incluyendo **interpretación simultánea** y **búsqueda de reuniones**. No se requiere tarjeta de crédito. Actualiza en cualquier momento.',
+        a: 'Absolutamente. El plan *Básico Gratuito* te da acceso completo a las funciones principales con **25 reuniones gratuitas**, incluyendo **interpretación simultánea** y **búsqueda de reuniones**. No se requiere tarjeta de crédito. Actualiza en cualquier momento.',
       },
       {
         q: '¿Qué pasa si necesito ayuda o soporte?',
@@ -288,7 +288,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
       },
       {
         q: '¿Puedo usar InterMind para webinars o eventos grandes?',
-        a: 'Sí. Los planes *Pro* y *Business* son ideales para **reuniones grandes y webinars** — con soporte para hasta **500 participantes** en *Business*.',
+        a: 'Sí. Los planes *Pro* y *Business* son ideales para **reuniones grandes y webinars**, con soporte para hasta **500 participantes** en *Business*.',
       },
     ]"/>
 
@@ -307,7 +307,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
         title: 'SOPORTE',
         links: [
           { text: 'Obtener soporte', link: './resources/help' },
-          { text: 'FAQ', link: '#FAQ' },
+          { text: 'Preguntas frecuentes', link: '#FAQ' },
           { text: 'Política de privacidad', link: './resources/company/privacy-policy' },
           { text: 'Guía legal de IA', link: './resources/company/legal-regulations-for-ai-services' },
           { text: 'Estado del servicio', link: 'https://status.mind.com/' },
@@ -320,7 +320,7 @@ Desde la primera llamada hasta conversaciones fluidas — a cualquier escala.
           { text: 'Blog', link: './blog/' },
           { text: 'Cumplimiento de acceso global a idiomas', link: './blog/posts/global-language-access-compliance' },
           { text: 'Recursos de marca', link: './resources/media-kit' },
-          { text: 'Documentos de API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
+          { text: 'Documentación de API de IA / LLM', link: 'https://mind.com/llms-full.txt' },
         ],
       },
       {

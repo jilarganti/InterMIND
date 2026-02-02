@@ -7,3 +7,6 @@ dist
 cache
 coverage
 *.log
+
+# VitePress cache/temp files
+*.timestamp-*.mjs
