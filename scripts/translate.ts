@@ -422,6 +422,11 @@ async function getAllFiles(dir: string): Promise<string[]> {
       continue
     }
 
+    // Skip VitePress cache/temp files
+    if (item.includes(".timestamp-") && item.endsWith(".mjs")) {
+      continue
+    }
+
     const stat = fs.statSync(fullPath)
 
     if (stat.isDirectory()) {
