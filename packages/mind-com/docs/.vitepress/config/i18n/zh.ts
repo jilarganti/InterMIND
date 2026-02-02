@@ -36,6 +36,7 @@ export const zh = defineConfig({
         items: [
           { text: "常见问题", link: `${BASE_PATH}/#FAQ` },
           { text: "客户评价", link: `${BASE_PATH}/#Testimonials` },
+          { text: "博客", link: `${BASE_PATH}/blog/` },
           { text: "关于我们", link: `${BASE_PATH}/resources/company/about` },
         ],
       },

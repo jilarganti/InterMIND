@@ -36,6 +36,7 @@ export const ko = defineConfig({
         items: [
           { text: "자주 묻는 질문", link: `${BASE_PATH}/#FAQ` },
           { text: "고객 후기", link: `${BASE_PATH}/#Testimonials` },
+          { text: "블로그", link: `${BASE_PATH}/blog/` },
           { text: "회사 소개", link: `${BASE_PATH}/resources/company/about` },
         ],
       },

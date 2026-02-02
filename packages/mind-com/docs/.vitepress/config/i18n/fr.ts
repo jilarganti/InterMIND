@@ -36,6 +36,7 @@ export const fr = defineConfig({
         items: [
           { text: "FAQ", link: `${BASE_PATH}/#FAQ` },
           { text: "Témoignages", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Blog", link: `${BASE_PATH}/blog/` },
           { text: "À propos", link: `${BASE_PATH}/resources/company/about` },
         ],
       },

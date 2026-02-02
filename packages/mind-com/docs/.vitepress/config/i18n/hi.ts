@@ -36,6 +36,7 @@ export const hi = defineConfig({
         items: [
           { text: "अक्सर पूछे जाने वाले प्रश्न", link: `${BASE_PATH}/#FAQ` },
           { text: "प्रशंसापत्र", link: `${BASE_PATH}/#Testimonials` },
+          { text: "ब्लॉग", link: `${BASE_PATH}/blog/` },
           { text: "हमारे बारे में", link: `${BASE_PATH}/resources/company/about` },
         ],
       },

@@ -36,6 +36,7 @@ export const ta = defineConfig({
         items: [
           { text: "அடிக்கடி கேட்கப்படும் கேள்விகள்", link: `${BASE_PATH}/#FAQ` },
           { text: "சான்றுகள்", link: `${BASE_PATH}/#Testimonials` },
+          { text: "வலைப்பதிவு", link: `${BASE_PATH}/blog/` },
           { text: "எங்களைப் பற்றி", link: `${BASE_PATH}/resources/company/about` },
         ],
       },

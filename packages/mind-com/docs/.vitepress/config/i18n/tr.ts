@@ -36,6 +36,7 @@ export const tr = defineConfig({
         items: [
           { text: "SSS", link: `${BASE_PATH}/#FAQ` },
           { text: "Referanslar", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Blog", link: `${BASE_PATH}/blog/` },
           { text: "Hakkımızda", link: `${BASE_PATH}/resources/company/about` },
         ],
       },

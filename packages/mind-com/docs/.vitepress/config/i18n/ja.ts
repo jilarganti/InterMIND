@@ -36,6 +36,7 @@ export const ja = defineConfig({
         items: [
           { text: "よくある質問", link: `${BASE_PATH}/#FAQ` },
           { text: "お客様の声", link: `${BASE_PATH}/#Testimonials` },
+          { text: "ブログ", link: `${BASE_PATH}/blog/` },
           { text: "会社概要", link: `${BASE_PATH}/resources/company/about` },
         ],
       },

@@ -36,6 +36,7 @@ export const ar = defineConfig({
         items: [
           { text: "الأسئلة الشائعة", link: `${BASE_PATH}/#FAQ` },
           { text: "شهادات العملاء", link: `${BASE_PATH}/#Testimonials` },
+          { text: "مدونة", link: `${BASE_PATH}/blog/` },
           { text: "حول الشركة", link: `${BASE_PATH}/resources/company/about` },
         ],
       },

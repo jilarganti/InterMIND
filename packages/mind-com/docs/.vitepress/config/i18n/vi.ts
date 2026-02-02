@@ -36,6 +36,7 @@ export const vi = defineConfig({
         items: [
           { text: "Câu hỏi thường gặp", link: `${BASE_PATH}/#FAQ` },
           { text: "Lời chứng thực", link: `${BASE_PATH}/#Testimonials` },
+          { text: "Blog", link: `${BASE_PATH}/blog/` },
           { text: "Giới thiệu", link: `${BASE_PATH}/resources/company/about` },
         ],
       },
