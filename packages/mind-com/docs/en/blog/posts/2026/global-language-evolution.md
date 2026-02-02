@@ -13,6 +13,8 @@ author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-253
 > **Executive Summary:**  
 > For millennia, humans have sought ways to overcome language barriers. Today, we stand on the brink of a revolution: AI translation technologies promise to make the institution of a global language obsolete. English currently dominates with 1.5 billion speakers (only 25% native), 85% of international organizations, and 52% of web content. Meanwhile, the machine translation market is projected to reach $23.5 billion by 2032, growing at 12-25% annually. This article traces the evolution of global languages from Aramaic to English — and explores what comes next.
 
+![History of global languages timeline from ancient Aramaic to modern AI translation technology](/blog/lingua-franca-history-ai-translation-timeline.png)
+
 ## The Evolution of Global Languages: A Historical Overview
 
 Throughout history, the rise and fall of lingua francas has followed a consistent pattern: languages of power become languages of communication. From ancient empires to modern technology, each global language reflects the geopolitical reality of its era.
