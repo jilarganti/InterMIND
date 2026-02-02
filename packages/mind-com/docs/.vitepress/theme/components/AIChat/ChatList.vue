@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Search, Plus, ArrowLeft } from "lucide-vue-next"
 import { computed } from "vue"
-import { useData, useRouter } from "vitepress"
+import { useData } from "vitepress"
 
 interface GroupedChats {
   [year: string]: {
@@ -62,18 +62,6 @@ const emit = defineEmits<{
 
 const placeholder = computed(() => useData().site.value.themeConfig.localization.placeholder4ChatList)
 
-// Используем VitePress роутер для навигации
-const router = useRouter()
-
-// Функция для перехода на домашнюю страницу текущей локали
-const goToHome = () => {
-  const currentRoute = router.route
-  const localePrefix = currentRoute.path.match(/^\/([^\/]+)\//)?.[1]
-
-  // Переходим на домашнюю страницу локали или корневую
-  router.go(localePrefix ? `/${localePrefix}/` : "/")
-}
-
 // Преобразуем вложенную структуру в плоский список групп по месяцам
 const flattenedGroups = computed(() => {
   // Правильно типизируем результирующий объект
@@ -96,9 +84,11 @@ const createNewChat = () => {
   emit("create-chat")
 }
 
-// Возврат на предыдущий экран (для мобильного макета)
+// Возврат на предыдущую страницу (по истории браузера)
 const goBack = () => {
-  emit("go-back")
+  if (typeof window !== "undefined") {
+    window.history.back()
+  }
 }
 
 // Обновление строки поиска
@@ -112,8 +102,8 @@ const updateSearchInput = (event: Event) => {
   <div class="chat-list-container" :class="{ 'mobile-chat-list': layout === 'mobile' }">
     <!-- Поисковая строка и кнопка нового чата -->
     <div class="search-toolbar">
-      <!-- Кнопка Back для перехода на главную страницу -->
-      <button @click="goToHome" class="toolbar-button neutral-button" title="Back to home">
+      <!-- Кнопка Back для возврата на предыдущую страницу -->
+      <button @click="goBack" class="toolbar-button neutral-button" title="Back">
         <ArrowLeft :size="20" />
       </button>
 
