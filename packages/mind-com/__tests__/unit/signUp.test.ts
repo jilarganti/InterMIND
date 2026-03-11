@@ -128,7 +128,7 @@ describe("signUp API endpoint", () => {
     expect(result.gtmData.method).toBeUndefined()
   })
 
-  it("should return 500 on CRM error", async () => {
+  it("should return CRM error status code on failure", async () => {
     // Arrange
     const signUpData: SignUpLead = {
       email: "test@example.com",
@@ -146,6 +146,7 @@ describe("signUp API endpoint", () => {
     const mockErrorResponse = {
       success: false,
       message: "CRM connection failed",
+      statusCode: 400,
     }
 
     mockCreateContactAndLead.mockResolvedValue(mockErrorResponse)
@@ -161,10 +162,49 @@ describe("signUp API endpoint", () => {
     const result = await response.json()
 
     // Assert
-    expect(response.status).toBe(500)
+    expect(response.status).toBe(400)
     expect(result.success).toBe(false)
     expect(result.message).toBe("CRM connection failed")
     expect(result.gtmData).toBeUndefined()
+  })
+
+  it("should return 500 when statusCode is not set", async () => {
+    const signUpData: SignUpLead = {
+      email: "test@example.com",
+      name: "Test User",
+      utm: { source: "test", campaign: "test" },
+      params: { method: undefined, plan: "Basic" },
+    }
+
+    mockCreateContactAndLead.mockResolvedValue({
+      success: false,
+      message: "Unknown error",
+    })
+
+    const request = new Request("http://localhost/api/signUp", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(signUpData),
+    })
+
+    const response = await POST(request)
+    expect(response.status).toBe(500)
+  })
+
+  it("should return 400 for missing required fields", async () => {
+    const request = new Request("http://localhost/api/signUp", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email: "", name: "", utm: {}, params: {} }),
+    })
+
+    const response = await POST(request)
+    const result = await response.json()
+
+    expect(response.status).toBe(400)
+    expect(result.success).toBe(false)
+    expect(result.message).toContain("Missing required fields")
+    expect(mockCreateContactAndLead).not.toHaveBeenCalled()
   })
 
   it("should handle minimal sign-up data", async () => {

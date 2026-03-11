@@ -25,6 +25,14 @@ export async function POST(request: Request) {
   return withDomainCheck(request, async (request) => {
     const data = (await request.json()) as SignUpLead
 
+    // Validate required fields
+    if (!data.name || !data.email) {
+      return new Response(
+        JSON.stringify({ success: false, message: "Missing required fields: name and email" }),
+        { status: 400, headers: { "Content-Type": "application/json" } },
+      )
+    }
+
     // Transform to LeadData for existing API
     const leadData: LeadData = {
       lead: {
@@ -53,7 +61,7 @@ export async function POST(request: Request) {
     }
 
     return new Response(JSON.stringify(result), {
-      status: result.success ? 200 : 500,
+      status: result.success ? 200 : result.statusCode || 500,
       headers: { "Content-Type": "application/json" },
     })
   })

@@ -34,12 +34,24 @@ export async function createContactAndLead(data: LeadData, request: Request) {
       lead,
     }
   } catch (error) {
-    console.error("CRM error:", error)
+    // Extract detailed error info from Pipedrive SDK FailResponseException
+    const statusCode = (error as any)?.errorCode || (error as any)?.status || 500
     const message = error instanceof Error ? error.message : String(error)
+    const details = (error as any)?.context?.body || (error as any)?.body || null
+
+    console.error("CRM error:", {
+      message,
+      statusCode,
+      details,
+      contactEmail: data.contact.email,
+      contactName: data.contact.name,
+      leadTitle: data.lead.title,
+    })
 
     return {
       success: false,
       message,
+      statusCode,
     }
   }
 }
