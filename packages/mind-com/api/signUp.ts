@@ -27,10 +27,10 @@ export async function POST(request: Request) {
 
     // Validate required fields
     if (!data.name || !data.email) {
-      return new Response(
-        JSON.stringify({ success: false, message: "Missing required fields: name and email" }),
-        { status: 400, headers: { "Content-Type": "application/json" } },
-      )
+      return new Response(JSON.stringify({ success: false, message: "Missing required fields: name and email" }), {
+        status: 400,
+        headers: { "Content-Type": "application/json" },
+      })
     }
 
     // Transform to LeadData for existing API
