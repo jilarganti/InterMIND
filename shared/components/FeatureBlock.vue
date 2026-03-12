@@ -106,7 +106,7 @@ const renderedItems = computed(() => {
       <video v-if="isVideo" autoplay muted playsinline class="media-content" :style="{ width: mediaWidth }">
         <source :src="mediaUrl" :type="`video/${mediaUrl.split('.').pop()}`" />
       </video>
-      <img v-else :src="mediaUrl" :alt="altText" class="media-content" :style="{ width: mediaWidth }" />
+      <img v-else :src="mediaUrl" :alt="altText" loading="lazy" decoding="async" class="media-content" :style="{ width: mediaWidth }" />
     </div>
   </div>
 </template>

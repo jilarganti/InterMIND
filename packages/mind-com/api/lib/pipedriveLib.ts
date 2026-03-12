@@ -36,8 +36,10 @@ export async function createContactAndLead(data: LeadData, request: Request) {
   } catch (error) {
     // Extract detailed error info from Pipedrive SDK FailResponseException
     const statusCode = (error as any)?.errorCode || (error as any)?.status || 500
-    const message = error instanceof Error ? error.message : String(error)
     const details = (error as any)?.context?.body || (error as any)?.body || null
+    // FailResponseException.message can be an object — extract string safely
+    const rawMessage = (error as any)?.message
+    const message = typeof rawMessage === "string" ? rawMessage : details?.error || (rawMessage ? JSON.stringify(rawMessage) : String(error))
 
     console.error("CRM error:", {
       message,

@@ -63,10 +63,15 @@ export default {
     // Регистрация внешних компонентов пакета
     app.component("Icon", Icon)
 
-    // Vercel Analytics
+    // Vercel Analytics — defer to avoid blocking initial render
     if (inBrowser) {
-      inject()
-      injectSpeedInsights()
+      requestIdleCallback(
+        () => {
+          inject()
+          injectSpeedInsights()
+        },
+        { timeout: 3000 },
+      )
     }
   },
 }

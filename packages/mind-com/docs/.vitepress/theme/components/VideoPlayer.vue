@@ -1,8 +1,9 @@
 <script setup lang="ts">
 /**
  * Simple VideoPlayer with mute/unmute button
+ * Lazy-loads video when it enters viewport to improve FCP/LCP
  */
-import { ref } from "vue"
+import { ref, onMounted, onUnmounted } from "vue"
 import { Icon } from "@iconify/vue"
 
 interface Props {
@@ -19,7 +20,9 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 const videoRef = ref<HTMLVideoElement | null>(null)
+const containerRef = ref<HTMLElement | null>(null)
 const isMuted = ref(props.muted)
+let observer: IntersectionObserver | null = null
 
 const toggleMute = () => {
   isMuted.value = !isMuted.value
@@ -27,11 +30,30 @@ const toggleMute = () => {
     videoRef.value.muted = isMuted.value
   }
 }
+
+onMounted(() => {
+  if (!containerRef.value || !videoRef.value) return
+
+  observer = new IntersectionObserver(
+    (entries) => {
+      if (entries[0].isIntersecting && videoRef.value) {
+        // Start loading and playing when visible
+        videoRef.value.preload = "auto"
+        if (props.autoplay) videoRef.value.play().catch(() => {})
+        observer?.disconnect()
+      }
+    },
+    { rootMargin: "200px" },
+  )
+  observer.observe(containerRef.value)
+})
+
+onUnmounted(() => observer?.disconnect())
 </script>
 
 <template>
-  <div class="relative w-full group">
-    <video ref="videoRef" :autoplay="autoplay" :loop="loop" :muted="muted" playsinline class="w-full h-auto rounded-lg">
+  <div ref="containerRef" class="relative w-full group">
+    <video ref="videoRef" :loop="loop" :muted="muted" playsinline preload="none" class="w-full h-auto rounded-lg">
       <source :src="src" type="video/mp4" />
     </video>
 
