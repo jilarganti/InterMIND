@@ -79,7 +79,7 @@ isHome: true
       link: './product/overview/privacy-architecture',
       src: {
         light: '/4l.webp',
-        dark: '/4d.png',
+        dark: '/4d.webp',
       },
       inversion: true,
     }"

@@ -1,4 +1,4 @@
-import { h, type App } from "vue"
+import { h, defineAsyncComponent, type App } from "vue"
 import Theme from "vitepress/theme"
 import { useData, inBrowser } from "vitepress"
 import sharedTheme from "shared"
@@ -11,9 +11,11 @@ import BlogPost from "./components/BlogPost.vue"
 import VideoPlayer from "./components/VideoPlayer.vue"
 import { components } from "shared"
 import "./styles/index.css"
-import AIChat from "./components/AIChat/AIChat.vue"
 import AccountLayout from "./layouts/AccountLayout.vue"
 import MeetingInterface from "./components/MeetingInterface.vue"
+
+// Lazy-load AIChat — only used on /chat pages, saves ~15KB from initial bundle
+const AIChat = defineAsyncComponent(() => import("./components/AIChat/AIChat.vue"))
 
 const { NavButton } = components
 
