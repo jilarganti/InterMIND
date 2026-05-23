@@ -1,49 +1,111 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": true,
 
   "headers": [
     {
       "source": "/assets/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "max-age=31536000, immutable"
-        }
-      ]
+      "headers": [{ "key": "Cache-Control", "value": "max-age=31536000, immutable" }]
     },
     {
       "source": "/(.*).png",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "max-age=31536000, immutable"
-        }
-      ]
+      "headers": [{ "key": "Cache-Control", "value": "max-age=31536000, immutable" }]
     },
     {
       "source": "/(.*).webp",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "max-age=31536000, immutable"
-        }
-      ]
+      "headers": [{ "key": "Cache-Control", "value": "max-age=31536000, immutable" }]
     },
     {
       "source": "/(.*).jpg",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "max-age=31536000, immutable"
-        }
-      ]
+      "headers": [{ "key": "Cache-Control", "value": "max-age=31536000, immutable" }]
     }
   ],
+
   "redirects": [
     {
-      "source": "/company/about/",
-      "destination": "/resources/company/about/",
+      "source": "/blog/posts/2025/:slug",
+      "destination": "/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/2026/:slug",
+      "destination": "/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/:slug",
+      "destination": "/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts",
+      "destination": "/blog",
+      "permanent": true
+    },
+
+    {
+      "source": "/resources/company/privacy-policy",
+      "destination": "/legal/privacy",
+      "permanent": true
+    },
+    {
+      "source": "/resources/company/legal-regulations-for-ai-services",
+      "destination": "/legal/terms",
+      "permanent": true
+    },
+
+    {
+      "source": "/:locale(ar|de|es|fr|hi|id|ja|ko|pt|ru|ta|tr|vi|zh)/:path*",
+      "destination": "https://intermind.com/",
+      "permanent": true
+    },
+
+    {
+      "source": "/product/:path*",
+      "destination": "https://intermind.com/",
+      "permanent": true
+    },
+    {
+      "source": "/pricing",
+      "destination": "https://intermind.com/",
+      "permanent": true
+    },
+
+    {
+      "source": "/account/:path*",
+      "destination": "https://intermind.com/login",
+      "permanent": true
+    },
+
+    {
+      "source": "/resources/company/:path*",
+      "destination": "https://intermind.com/",
+      "permanent": true
+    },
+    {
+      "source": "/resources/:path*",
+      "destination": "https://intermind.com/",
+      "permanent": true
+    },
+
+    {
+      "source": "/promo/:path*",
+      "destination": "https://intermind.com/",
+      "permanent": true
+    },
+    {
+      "source": "/exp/:path*",
+      "destination": "https://intermind.com/",
+      "permanent": true
+    },
+
+    {
+      "source": "/chat",
+      "destination": "https://intermind.com/",
+      "permanent": true
+    },
+    {
+      "source": "/company/about",
+      "destination": "https://intermind.com/",
       "permanent": true
     }
   ]
