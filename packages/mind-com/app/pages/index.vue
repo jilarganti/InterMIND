@@ -189,7 +189,7 @@ const useCases = [
         </p>
         <div class="cta-row">
           <UButton :to="productUrl" external size="xl" color="primary" trailing-icon="i-lucide-volume-2" class="btn-primary-grad"> Try the live demo (sound on) </UButton>
-          <UButton to="/benchmark" size="xl" color="neutral" variant="subtle" trailing-icon="i-lucide-gauge"> See the public benchmark </UButton>
+          <UButton :to="`${productUrl}/benchmark`" external size="xl" color="neutral" variant="subtle" trailing-icon="i-lucide-gauge"> See the public benchmark </UButton>
         </div>
 
         <p class="trust-strip">
@@ -315,7 +315,7 @@ const useCases = [
           </li>
         </ul>
         <p class="qualifier-foot">
-          <ULink to="/security" class="qualifier-link">Read the security &amp; jurisdiction brief →</ULink>
+          <ULink :to="`${productUrl}/security`" external class="qualifier-link">Read the security &amp; jurisdiction brief →</ULink>
         </p>
       </div>
     </section>
@@ -346,7 +346,7 @@ const useCases = [
           <UButton :to="productUrl" external size="xl" color="primary" trailing-icon="i-lucide-volume-2" class="btn-primary-grad btn-lg">
             Try the live demo
           </UButton>
-          <UButton to="/benchmark" size="xl" color="neutral" variant="subtle" trailing-icon="i-lucide-gauge" class="btn-lg">
+          <UButton :to="`${productUrl}/benchmark`" external size="xl" color="neutral" variant="subtle" trailing-icon="i-lucide-gauge" class="btn-lg">
             See the public benchmark
           </UButton>
         </div>
