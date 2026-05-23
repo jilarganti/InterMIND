@@ -4,52 +4,26 @@ const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 const productUrl = config.public.productUrl
 
-const { data: post } = await useAsyncData(`blog-${route.path}`, () =>
-  queryCollection("blog").path(route.path).first(),
+const { data: doc } = await useAsyncData(`legal-${route.path}`, () =>
+  queryCollection("legal").path(route.path).first(),
 )
 
-if (!post.value) {
-  throw createError({ statusCode: 404, statusMessage: "Post not found", fatal: true })
+if (!doc.value) {
+  throw createError({ statusCode: 404, statusMessage: "Page not found", fatal: true })
 }
 
-const pageUrl = `${siteUrl}${post.value.path}`
-const canonical = post.value.canonical ?? pageUrl
-// Per Phase 0/6: hidden posts (e.g. software-testing-basics-*) remain index,follow
-// but canonical points to the product domain so equity flows to intermind.com.
+const pageUrl = `${siteUrl}${doc.value.path}`
 
 useHead({
-  title: `${post.value.title} — InterMIND`,
+  title: `${doc.value.title} — InterMIND`,
   meta: [
-    { name: "description", content: post.value.description },
+    { name: "description", content: doc.value.description },
     { property: "og:type", content: "article" },
     { property: "og:url", content: pageUrl },
-    { property: "og:title", content: post.value.title },
-    { property: "og:description", content: post.value.description },
-    { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: post.value.title },
-    { name: "twitter:description", content: post.value.description },
-    { property: "article:published_time", content: post.value.date },
+    { property: "og:title", content: doc.value.title },
+    { property: "og:description", content: doc.value.description },
   ],
-  link: [{ rel: "canonical", href: canonical }],
-  script: [
-    {
-      type: "application/ld+json",
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        headline: post.value.title,
-        description: post.value.description,
-        datePublished: post.value.date,
-        mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
-        url: pageUrl,
-        publisher: {
-          "@type": "Organization",
-          name: "InterMIND",
-          logo: { "@type": "ImageObject", url: `${siteUrl}/logo.svg` },
-        },
-      }),
-    },
-  ],
+  link: [{ rel: "canonical", href: pageUrl }],
 })
 
 function formatDate(d: string): string {
@@ -67,18 +41,15 @@ function formatDate(d: string): string {
       </nav>
     </header>
 
-    <main v-if="post">
-      <article class="post">
-        <header class="post-header">
-          <p class="meta">{{ formatDate(post.date) }}</p>
-          <h1>{{ post.title }}</h1>
-          <p class="lede">{{ post.description }}</p>
+    <main v-if="doc">
+      <article class="doc">
+        <header class="doc-header">
+          <p class="meta">Last updated {{ formatDate(doc.updated) }}</p>
+          <h1>{{ doc.title }}</h1>
+          <p class="lede">{{ doc.description }}</p>
         </header>
-        <ContentRenderer :value="post" class="prose" />
+        <ContentRenderer :value="doc" class="prose" />
       </article>
-      <p class="back">
-        <NuxtLink to="/blog">← All posts</NuxtLink>
-      </p>
     </main>
 
     <footer class="footer">
@@ -148,7 +119,7 @@ main {
   margin: 0 auto;
   padding: 2rem;
 }
-.post-header {
+.doc-header {
   margin: 2rem 0 3rem;
 }
 .meta {
@@ -156,26 +127,16 @@ main {
   color: #888;
   margin: 0 0 0.5rem;
 }
-.post h1 {
+.doc h1 {
   font-size: clamp(1.8rem, 4vw, 2.6rem);
   line-height: 1.2;
   margin: 0 0 1rem;
   letter-spacing: -0.01em;
 }
 .lede {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   color: #555;
   margin: 0;
-}
-.back {
-  margin: 3rem 0 0;
-}
-.back a {
-  color: #555;
-  text-decoration: none;
-}
-.back a:hover {
-  color: #dd9144;
 }
 .footer {
   background: #f0efea;

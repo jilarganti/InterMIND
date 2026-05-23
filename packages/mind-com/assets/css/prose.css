@@ -1,0 +1,116 @@
+/* Shared markdown styling for content rendered via <ContentRenderer> (MDC).
+   Used by blog posts and legal pages. */
+.prose h2 {
+  font-size: 1.6rem;
+  margin: 2.5rem 0 1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.prose h3 {
+  font-size: 1.25rem;
+  margin: 2rem 0 0.75rem;
+  font-weight: 600;
+}
+.prose p,
+.prose ul,
+.prose ol {
+  margin: 0 0 1.25rem;
+}
+.prose ul,
+.prose ol {
+  padding-left: 1.5rem;
+}
+.prose li {
+  margin: 0.35rem 0;
+}
+.prose a {
+  color: #dd9144;
+  text-decoration: underline;
+}
+.prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+.prose blockquote {
+  border-left: 4px solid #dd9144;
+  padding: 0.5rem 1.25rem;
+  margin: 1.5rem 0;
+  color: #555;
+  background: #fff7ec;
+  border-radius: 0 8px 8px 0;
+}
+.prose code {
+  background: #f0efea;
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+.prose pre {
+  background: #1c1c1c;
+  color: #f0efea;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  margin: 1.5rem 0;
+}
+.prose pre code {
+  background: transparent;
+  padding: 0;
+  color: inherit;
+}
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+.prose th,
+.prose td {
+  border: 1px solid #ececea;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+.prose th {
+  background: #f0efea;
+  font-weight: 600;
+}
+.prose hr {
+  border: none;
+  border-top: 1px solid #ececea;
+  margin: 2.5rem 0;
+}
+/* Legacy VitePress class hooks left in markdown — keep minimal styling */
+.prose .subtitle {
+  font-size: 1.05rem;
+  color: #777;
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+}
+.prose .stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.prose .stat-card {
+  background: #fff;
+  border: 1px solid #ececea;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+.prose .stat-number {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #dd9144;
+}
+.prose .stat-label {
+  display: block;
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 0.25rem;
+}

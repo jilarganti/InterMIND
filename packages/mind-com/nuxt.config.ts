@@ -7,6 +7,8 @@ export default defineNuxtConfig({
   // Phase 5 will add @pinia/nuxt for AI chat store.
   modules: ["@nuxt/content", "@nuxtjs/sitemap", "@nuxtjs/robots", "@vueuse/nuxt"],
 
+  css: ["~/assets/css/prose.css"],
+
   runtimeConfig: {
     public: {
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL ?? "https://mind.com",
