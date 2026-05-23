@@ -5,9 +5,9 @@ export default defineNuxtConfig({
   ssr: true,
 
   // Phase 5 will add @pinia/nuxt for AI chat store.
-  modules: ["@nuxt/content", "@nuxtjs/sitemap", "@nuxtjs/robots", "@vueuse/nuxt"],
+  modules: ["@nuxt/content", "@nuxt/ui", "@nuxtjs/sitemap", "@nuxtjs/robots", "@vueuse/nuxt"],
 
-  css: ["~/assets/css/prose.css"],
+  css: ["~/assets/css/main.css", "~/assets/css/prose.css"],
 
   runtimeConfig: {
     public: {
