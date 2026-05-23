@@ -3,9 +3,9 @@ const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 const productUrl = config.public.productUrl
 
-const title = "InterMIND — Real-time multilingual video meetings"
+const title = "InterMIND — Verifiable multilingual meetings for high-stakes rooms"
 const description =
-  "InterMIND is a video meeting platform with real-time AI interpretation built in. Everyone speaks their own language, hears everyone else in theirs — no subtitles, no lag, no third-party plugin."
+  "Video meetings where everyone speaks and is understood in their own language — with translation quality you can verify against a public benchmark, not just trust. Built for legal, regulatory, M&A and investor rooms where a mistranslation is a liability."
 const ogImage = `${siteUrl}/og-cover.png`
 
 const organizationJsonLd = {
@@ -15,7 +15,7 @@ const organizationJsonLd = {
   name: "InterMIND",
   url: siteUrl,
   logo: `${siteUrl}/logo.svg`,
-  description: "Real-time AI interpretation built into video meetings.",
+  description: "Verifiable multilingual video meetings for legal, regulatory, M&A and investor rooms. EU / neutral infrastructure, on-premise available.",
   sameAs: [productUrl],
 }
 
@@ -37,7 +37,7 @@ const softwareJsonLd = {
   operatingSystem: "Web",
   url: productUrl,
   publisher: { "@id": `${siteUrl}/#organization` },
-  description: "Multilingual video meeting platform with real-time AI interpretation.",
+  description: "Multilingual video meeting platform with verifiable translation quality, customer-controlled glossaries, audit trail, EU / neutral infrastructure and on-premise deployment.",
 }
 
 useHead({
@@ -65,51 +65,88 @@ useHead({
   ],
 })
 
-// Floating language chips around the hero — purely decorative.
+// Floating language chips around the hero — phrases from regulated rooms.
 const languages = [
-  { code: "EN", phrase: "Let's ship it", x: 8, y: 14, delay: 0 },
-  { code: "ES", phrase: "Vamos a lanzarlo", x: 86, y: 20, delay: 0.6 },
-  { code: "JA", phrase: "出荷しましょう", x: 6, y: 72, delay: 1.2 },
-  { code: "DE", phrase: "Lass uns starten", x: 90, y: 64, delay: 0.3 },
-  { code: "FR", phrase: "On y va", x: 14, y: 44, delay: 0.9 },
-  { code: "ZH", phrase: "我们发布吧", x: 88, y: 42, delay: 1.5 },
-  { code: "AR", phrase: "هيا بنا", x: 50, y: 90, delay: 1.8 },
+  { code: "EN", phrase: "Within scope of the DPA", x: 8, y: 14, delay: 0 },
+  { code: "ES", phrase: "Aceptamos los términos", x: 86, y: 20, delay: 0.6 },
+  { code: "JA", phrase: "条件を承諾します", x: 6, y: 72, delay: 1.2 },
+  { code: "DE", phrase: "Wir bestätigen die Frist", x: 90, y: 64, delay: 0.3 },
+  { code: "FR", phrase: "Sous réserve d'audit", x: 14, y: 44, delay: 0.9 },
+  { code: "ZH", phrase: "我们同意条款", x: 88, y: 42, delay: 1.5 },
+  { code: "AR", phrase: "نوافق على البنود", x: 50, y: 90, delay: 1.8 },
 ]
 
-// Mock meeting tiles for the product preview block.
+// Mock meeting tiles — cross-border M&A call, each side speaking their own language.
 const tiles = [
-  { name: "Akira", flag: "🇯🇵", live: "出荷しましょう", translated: "Let's ship it" },
-  { name: "Sofia", flag: "🇪🇸", live: "Vamos a lanzarlo", translated: "Let's ship it" },
-  { name: "Lukas", flag: "🇩🇪", live: "Lass uns starten", translated: "Let's ship it" },
-  { name: "You", flag: "🇬🇧", live: "Let's ship it", translated: "Let's ship it", self: true },
+  { name: "Akira", flag: "🇯🇵", live: "弊社は補償条項を受け入れます", translated: "We accept the indemnity clause" },
+  { name: "Sofía", flag: "🇪🇸", live: "Necesitamos limitar la responsabilidad", translated: "We need to cap the liability" },
+  { name: "Lukas", flag: "🇩🇪", live: "Einverstanden, vorbehaltlich Audit", translated: "Agreed, subject to audit" },
+  { name: "You", flag: "🇬🇧", live: "Let's lock the term sheet", translated: "Let's lock the term sheet", self: true },
 ]
 
+// The silent-failure modes of running a meeting in everyone's second-best language.
+const problems = [
+  {
+    title: "False precision",
+    body: "Non-native speech sounds fluent but carries hidden errors. A confidently wrong sentence beats an obvious gap — the gap earns a follow-up question, the false clarity gets minuted. Bad knowledge is worse than no knowledge.",
+  },
+  {
+    title: "Self-censorship",
+    body: "People drop the nuance they can't express in a second language. The most knowledgeable person in the room becomes the least articulate.",
+  },
+  {
+    title: "Fluency outranks competence",
+    body: "Decisions tilt toward whoever speaks best, not whoever is right. In a negotiation, the native-English side holds an advantage before any substance is exchanged.",
+  },
+]
+
+// The wedge: verifiable / auditable / controllable — never "highest quality".
+const pillars = [
+  {
+    icon: "i-lucide-gauge",
+    title: "Scored against a public benchmark",
+    body: "Every release is measured on an open, reproducible benchmark — not a private screenshot. You can check the number; you don't have to trust the vendor.",
+  },
+  {
+    icon: "i-lucide-book-marked",
+    title: "Glossaries & termbases you control",
+    body: "Legal, medical, financial terminology bound to your wording — not the model's best guess. Upload, version, audit. Your house style; your liability surface.",
+  },
+  {
+    icon: "i-lucide-file-search",
+    title: "Audit trail + human escalation",
+    body: "Every translated segment is recorded with model, version and confidence. Critical passages can be routed to a human interpreter in-the-loop before the room moves on.",
+  },
+]
+
+// Procurement-tier proof points. Three claims, no vanity metrics.
 const stats = [
-  { value: "<400 ms", label: "voice-to-voice latency" },
-  { value: "40+", label: "languages, both directions" },
-  { value: "0", label: "plugins to install" },
+  { value: "Public", label: "translation benchmark" },
+  { value: "Yours", label: "glossaries & termbases" },
+  { value: "EU / on-prem", label: "data residency options" },
 ]
 
+// The rooms the positioning doc actually targets.
 const useCases = [
   {
     tone: "amber",
-    title: "Distributed teams",
-    body: "Stand-ups, planning, retros — everyone contributes in the language they actually think in.",
+    title: "Legal negotiations",
+    body: "Term sheets, settlements, IP licensing across jurisdictions — where one ambiguous clause is the whole exposure.",
   },
   {
     tone: "indigo",
-    title: "Customers & partners",
-    body: "Sales calls and onboarding without a third human in the room translating every sentence.",
+    title: "Regulatory submissions",
+    body: "Pre-submission meetings with EMA, BfArM, MHRA, SFDA — recorded, glossary-controlled, defensible on review.",
   },
   {
     tone: "emerald",
-    title: "Regulated work",
-    body: "Legal, medical, support — accurate interpretation where misunderstanding has a price tag.",
+    title: "M&A and investor relations",
+    body: "Cross-border deal calls and earnings Q&A where the buy-side speaks one language and the management another.",
   },
   {
     tone: "rose",
-    title: "Hiring & interviews",
-    body: "Hire from anywhere. Talk to candidates in their first language, not their fourth.",
+    title: "GxP and quality audits",
+    body: "Vendor and site audits where every answer is on the record and the inspector's first language isn't the auditee's.",
   },
 ]
 </script>
@@ -141,19 +178,23 @@ const useCases = [
           <template #leading>
             <span class="pill-dot" />
           </template>
-          Live AI interpretation · in beta
+          Live interpretation · closed beta
         </UBadge>
         <h1>
-          Speak your language.
-          <span class="gradient-text">Be understood in theirs.</span>
+          Your most important meetings shouldn't run in
+          <span class="gradient-text">everyone's second-best language.</span>
         </h1>
         <p class="lede">
-          InterMIND is a video meeting platform with real-time AI interpretation built in. No subtitles. No third-party plugin. No language barrier.
+          Everyone speaks and is understood in their own language — with translation quality you can verify against a public benchmark, not just trust. Built for rooms where a mistranslation is a liability.
         </p>
         <div class="cta-row">
-          <UButton :to="productUrl" external size="xl" color="primary" trailing-icon="i-lucide-arrow-right" class="btn-primary-grad"> Open InterMIND </UButton>
-          <UButton to="/blog" size="xl" color="neutral" variant="subtle"> Read the blog </UButton>
+          <UButton :to="productUrl" external size="xl" color="primary" trailing-icon="i-lucide-volume-2" class="btn-primary-grad"> Try the live demo (sound on) </UButton>
+          <UButton to="/benchmark" size="xl" color="neutral" variant="subtle" trailing-icon="i-lucide-gauge"> See the public benchmark </UButton>
         </div>
+
+        <p class="trust-strip">
+          Legal · regulatory · investor relations · M&amp;A &nbsp;—&nbsp; EU / neutral infrastructure · on-premise available
+        </p>
 
         <ul class="stats">
           <li v-for="s in stats" :key="s.label">
@@ -164,22 +205,44 @@ const useCases = [
       </div>
     </section>
 
+    <!-- PROBLEM -->
+    <section class="problem">
+      <div class="problem-header">
+        <span class="eyebrow">The problem</span>
+        <h2>Meetings in everyone's second-best language fail <span class="gradient-text">silently</span>.</h2>
+        <p class="problem-lede">
+          Every cross-border meeting today defaults to a shared language nobody fully owns — almost always English. The status quo doesn't fail loudly. It fails quietly, in three ways:
+        </p>
+      </div>
+
+      <div class="problem-grid">
+        <article v-for="p in problems" :key="p.title" class="problem-card">
+          <h3>{{ p.title }}</h3>
+          <p>{{ p.body }}</p>
+        </article>
+      </div>
+
+      <p class="disqualifier">
+        A generic machine-translation layer doesn't fix this — it <em>reproduces</em> it, because good-enough translation also emits false precision. In a high-stakes room, <strong>good-enough is negative value.</strong>
+      </p>
+    </section>
+
     <!-- LIVE MEETING PREVIEW -->
     <section class="preview">
       <div class="preview-header">
         <span class="eyebrow">What it looks like</span>
-        <h2>One meeting. Four languages. <span class="gradient-text">Zero awkward pauses.</span></h2>
+        <h2>One deal call. Four languages. <span class="gradient-text">Nothing lost in translation.</span></h2>
         <p class="preview-lede">
-          Each person hears the others in their own language, in their own voice cadence — while they're still talking, not after the sentence ends.
+          Each side speaks in their first language. Each side hears the others in theirs — with the exact terminology your termbase locks in, recorded on the audit trail, available to escalate to a human interpreter for the clauses that matter.
         </p>
       </div>
 
-      <div class="meeting" role="img" aria-label="Mock meeting with four participants speaking different languages">
+      <div class="meeting" role="img" aria-label="Mock cross-border M&A call with four participants speaking different languages">
         <div class="meeting-bar">
           <span class="dot dot-r" />
           <span class="dot dot-y" />
           <span class="dot dot-g" />
-          <span class="meeting-title">Sprint review · live interpretation</span>
+          <span class="meeting-title">Cross-border M&amp;A · interpretation on record</span>
           <span class="meeting-rec">● REC</span>
         </div>
         <div class="meeting-grid">
@@ -200,45 +263,69 @@ const useCases = [
       </div>
     </section>
 
-    <!-- VALUES -->
-    <section class="values">
-      <article class="value">
-        <div class="value-icon">
-          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6" />
-            <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
-          </svg>
-        </div>
-        <h3>Real time, not subtitles</h3>
-        <p>Voice-to-voice interpretation that runs while you speak — not a transcript that appears after the sentence ends.</p>
-      </article>
-      <article class="value">
-        <div class="value-icon">
-          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <rect x="3" y="5" width="18" height="14" rx="3" stroke="currentColor" stroke-width="1.6" />
-            <path d="M8 10v4M12 8v8M16 11v2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
-          </svg>
-        </div>
-        <h3>Built into the meeting</h3>
-        <p>The interpreter is part of the platform, not a plugin bolted onto someone else's video stack.</p>
-      </article>
-      <article class="value">
-        <div class="value-icon">
-          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M12 3 4 6v6c0 4.5 3.4 8.4 8 9 4.6-.6 8-4.5 8-9V6l-8-3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
-            <path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </div>
-        <h3>For conversations that matter</h3>
-        <p>Designed for teams, partners and customers where misunderstanding has a price tag — not casual chit-chat.</p>
-      </article>
+    <!-- WEDGE / PILLARS -->
+    <section class="values" aria-labelledby="pillars-heading">
+      <div class="pillars-header">
+        <span class="eyebrow">Why this is different</span>
+        <h2 id="pillars-heading">Translation quality you can <span class="gradient-text">verify</span>, not just trust.</h2>
+        <p class="pillars-lede">
+          Everyone calls the same underlying models. A better quality score this quarter is erased next quarter. What we build — and incumbents structurally won't — is the layer that lets you check, constrain and audit what was actually said.
+        </p>
+      </div>
+      <div class="pillars-grid">
+        <article v-for="pl in pillars" :key="pl.title" class="value">
+          <div class="value-icon">
+            <UIcon :name="pl.icon" />
+          </div>
+          <h3>{{ pl.title }}</h3>
+          <p>{{ pl.body }}</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- QUALIFIER -->
+    <section class="qualifier">
+      <div class="qualifier-inner">
+        <span class="eyebrow">On your terms</span>
+        <h2>The rooms where a mistranslation is catastrophic are the same rooms where a <span class="gradient-text">data leak</span> is catastrophic.</h2>
+        <p class="qualifier-lede">
+          So data control rides with the wedge — not as the headline, but as procurement-grade proof.
+        </p>
+        <ul class="qualifier-rails">
+          <li>
+            <UIcon name="i-lucide-building-2" class="rail-icon" />
+            <div>
+              <strong>EU residency.</strong>
+              <span>OVH Roubaix / Paris for GDPR- and Schrems-sensitive customers.</span>
+            </div>
+          </li>
+          <li>
+            <UIcon name="i-lucide-globe" class="rail-icon" />
+            <div>
+              <strong>UAE-neutral jurisdiction.</strong>
+              <span>Out of US legal reach by design — a property of jurisdiction, not just architecture.</span>
+            </div>
+          </li>
+          <li>
+            <UIcon name="i-lucide-server" class="rail-icon" />
+            <div>
+              <strong>On-premise / air-gapped.</strong>
+              <span>For defense, intelligence and ultra-regulated pharma. Your hardware, your network, your keys.</span>
+            </div>
+          </li>
+        </ul>
+        <p class="qualifier-foot">
+          <ULink to="/security" class="qualifier-link">Read the security &amp; jurisdiction brief →</ULink>
+        </p>
+      </div>
     </section>
 
     <!-- USE CASES -->
     <section class="cases">
       <div class="cases-header">
-        <span class="eyebrow">Where teams use it</span>
-        <h2>Pick the conversation you keep dreading.</h2>
+        <span class="eyebrow">The rooms we're built for</span>
+        <h2>High-stakes, regulated, cross-border.</h2>
+        <p class="cases-lede">Not stand-ups. Not casual sales calls. The conversations where a mistranslation is a liability and the data must stay under your control.</p>
       </div>
       <div class="cases-grid">
         <article v-for="c in useCases" :key="c.title" class="case" :data-tone="c.tone">
@@ -253,11 +340,16 @@ const useCases = [
     <section class="cta-band">
       <div class="cta-glow" aria-hidden="true" />
       <div class="cta-band-inner">
-        <h2>Try a multilingual meeting today.</h2>
-        <p>No install. No plugin. Open a link, pick your language, talk.</p>
-        <UButton :to="productUrl" external size="xl" color="primary" trailing-icon="i-lucide-arrow-right" class="btn-primary-grad btn-lg">
-          Open InterMIND
-        </UButton>
+        <h2>Your language. Your data. Your terms.</h2>
+        <p>See the live demo, then open the public benchmark. Decide on numbers, not on a sales deck.</p>
+        <div class="cta-row cta-row-band">
+          <UButton :to="productUrl" external size="xl" color="primary" trailing-icon="i-lucide-volume-2" class="btn-primary-grad btn-lg">
+            Try the live demo
+          </UButton>
+          <UButton to="/benchmark" size="xl" color="neutral" variant="subtle" trailing-icon="i-lucide-gauge" class="btn-lg">
+            See the public benchmark
+          </UButton>
+        </div>
       </div>
     </section>
   </div>
@@ -446,7 +538,15 @@ const useCases = [
   gap: 0.75rem;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0 0 3rem;
+  margin: 0 0 1.5rem;
+}
+.trust-strip {
+  margin: 0 auto 2.25rem;
+  max-width: 720px;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-soft);
+  opacity: 0.85;
 }
 /* Override the primary UButton with our gradient + glow look. */
 :deep(.btn-primary-grad) {
@@ -517,6 +617,73 @@ const useCases = [
     align-items: baseline;
     gap: 0.6rem;
   }
+}
+
+/* ---------- PROBLEM ---------- */
+.problem {
+  max-width: 1100px;
+  margin: 5rem auto 4rem;
+  padding: 0 1.5rem;
+}
+.problem-header {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 3rem;
+}
+.problem h2 {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  letter-spacing: -0.02em;
+  margin: 0 0 1rem;
+  font-weight: 800;
+  line-height: 1.15;
+}
+.problem-lede {
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+  margin: 0;
+  line-height: 1.6;
+}
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+.problem-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 16px;
+  padding: 1.75rem 1.5rem;
+}
+.problem-card h3 {
+  margin: 0 0 0.6rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.problem-card p {
+  color: var(--ink-soft);
+  font-size: 0.96rem;
+  line-height: 1.55;
+  margin: 0;
+}
+.disqualifier {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--ink);
+  padding: 1.5rem 1.75rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(221, 145, 68, 0.08), rgba(255, 94, 138, 0.08));
+  border: 1px solid var(--line);
+}
+.disqualifier em {
+  font-style: italic;
+  color: var(--accent);
+  font-weight: 600;
 }
 
 /* ---------- PREVIEW ---------- */
@@ -703,11 +870,31 @@ const useCases = [
   }
 }
 
-/* ---------- VALUES ---------- */
+/* ---------- VALUES / PILLARS ---------- */
 .values {
   max-width: 1100px;
-  margin: 4rem auto;
+  margin: 5rem auto 4rem;
   padding: 0 1.5rem;
+}
+.pillars-header {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 3rem;
+}
+.values h2 {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  letter-spacing: -0.02em;
+  margin: 0 0 1rem;
+  font-weight: 800;
+  line-height: 1.15;
+}
+.pillars-lede {
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+  margin: 0;
+  line-height: 1.6;
+}
+.pillars-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.25rem;
@@ -738,6 +925,7 @@ const useCases = [
   background: linear-gradient(135deg, rgba(221, 145, 68, 0.18), rgba(108, 140, 255, 0.18));
   color: var(--accent);
   margin-bottom: 1rem;
+  font-size: 1.25rem;
 }
 .value-icon svg {
   width: 22px;
@@ -756,6 +944,81 @@ const useCases = [
   line-height: 1.55;
 }
 
+/* ---------- QUALIFIER ---------- */
+.qualifier {
+  max-width: 1100px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+.qualifier-inner {
+  background: linear-gradient(160deg, #fbfaf6 0%, #ffffff 100%);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 3rem 2.5rem;
+  text-align: center;
+}
+.qualifier h2 {
+  font-size: clamp(1.6rem, 2.6vw, 2.2rem);
+  letter-spacing: -0.02em;
+  margin: 0.6rem auto 1rem;
+  max-width: 760px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+.qualifier-lede {
+  color: var(--ink-soft);
+  font-size: 1rem;
+  margin: 0 auto 2.5rem;
+  max-width: 620px;
+}
+.qualifier-rails {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 2rem;
+  max-width: 880px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  text-align: left;
+}
+.qualifier-rails li {
+  display: flex;
+  gap: 0.85rem;
+  align-items: flex-start;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+}
+.qualifier-rails .rail-icon {
+  font-size: 1.4rem;
+  color: var(--accent);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.qualifier-rails strong {
+  display: block;
+  font-weight: 700;
+  font-size: 0.98rem;
+  margin-bottom: 0.2rem;
+}
+.qualifier-rails span {
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+.qualifier-foot {
+  margin: 0;
+}
+.qualifier-link {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+.qualifier-link:hover {
+  text-decoration: underline;
+}
+
 /* ---------- USE CASES ---------- */
 .cases {
   max-width: 1100px;
@@ -764,8 +1027,17 @@ const useCases = [
 }
 .cases-header {
   text-align: center;
-  max-width: 640px;
+  max-width: 720px;
   margin: 0 auto 2.5rem;
+}
+.cases-lede {
+  color: var(--ink-soft);
+  font-size: 1rem;
+  margin: 0.8rem 0 0;
+  line-height: 1.55;
+}
+.cta-row-band {
+  margin: 0;
 }
 .cases-grid {
   display: grid;
