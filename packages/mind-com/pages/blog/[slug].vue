@@ -3,6 +3,7 @@ const route = useRoute()
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 const productUrl = config.public.productUrl
+const signInUrl = config.public.signInUrl
 
 const { data: post } = await useAsyncData(`blog-${route.path}`, () =>
   queryCollection("blog").path(route.path).first(),
@@ -63,7 +64,7 @@ function formatDate(d: string): string {
       <a href="/" class="brand">InterMIND</a>
       <nav class="nav">
         <a href="/blog">Blog</a>
-        <a :href="productUrl" class="nav-cta">Open the app</a>
+        <a :href="signInUrl" class="nav-cta">Sign in</a>
       </nav>
     </header>
 

@@ -2,6 +2,7 @@
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 const productUrl = config.public.productUrl
+const signInUrl = config.public.signInUrl
 
 const title = "InterMIND — Real-time multilingual video meetings"
 const description =
@@ -76,7 +77,7 @@ const currentYear = new Date().getFullYear()
       </a>
       <nav class="nav">
         <a href="/blog">Blog</a>
-        <a :href="productUrl" class="nav-cta">Open the app</a>
+        <a :href="signInUrl" class="nav-cta">Sign in</a>
       </nav>
     </header>
 

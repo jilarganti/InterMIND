@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     public: {
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL ?? "https://mind.com",
       productUrl: process.env.NUXT_PUBLIC_PRODUCT_URL ?? "https://intermind.com",
+      signInUrl: process.env.NUXT_PUBLIC_SIGN_IN_URL ?? "https://intermind.com/login",
       gtmId: process.env.GTM_ID ?? "",
     },
   },
