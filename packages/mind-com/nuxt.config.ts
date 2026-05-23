@@ -4,8 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   ssr: true,
 
-  // Phase 1 minimal modules. Phase 3 adds @nuxt/content; Phase 5 adds @pinia/nuxt.
-  modules: ["@nuxtjs/sitemap", "@nuxtjs/robots", "@vueuse/nuxt"],
+  // Phase 5 will add @pinia/nuxt for AI chat store.
+  modules: ["@nuxt/content", "@nuxtjs/sitemap", "@nuxtjs/robots", "@vueuse/nuxt"],
 
   runtimeConfig: {
     public: {
@@ -22,11 +22,22 @@ export default defineNuxtConfig({
   },
 
   sitemap: {
-    exclude: ["/chat", "/chat/**"],
+    // software-testing-basics-* is intentionally excluded: it stays at mind.com
+    // with a canonical pointing to intermind.com (Variant B — soft consolidation).
+    exclude: ["/chat", "/chat/**", "/blog/software-testing-basics-concepts-and-terminology"],
+    sources: ["/api/__sitemap__/urls"],
   },
 
   robots: {
     disallow: ["/chat", "/api/"],
+  },
+
+  content: {
+    build: {
+      markdown: {
+        toc: { depth: 3, searchDepth: 3 },
+      },
+    },
   },
 
   nitro: {

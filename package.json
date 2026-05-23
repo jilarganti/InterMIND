@@ -71,7 +71,11 @@
       "undici": ">=5.28.5",
       "esbuild": ">=0.25.0",
       "jsondiffpatch": ">=0.7.2"
-    }
+    },
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "@parcel/watcher"
+    ]
   },
   "prettier": {
     "$schema": "https://json.schemastore.org/prettierrc",
