@@ -10,3 +10,8 @@ coverage
 
 # VitePress cache/temp files
 *.timestamp-*.mjs
+
+# Nuxt build artifacts
+.nuxt
+.output
+.data

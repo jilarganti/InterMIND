@@ -1,49 +1,30 @@
 {
   "name": "mind-com",
-  "description": "Live speech translation in video calls",
-  "version": "0.5.1",
+  "description": "InterMIND brand campaign site (Nuxt)",
+  "version": "0.6.0",
   "type": "module",
+  "private": true,
   "scripts": {
-    "dev:FE": "vitepress dev docs",
-    "dev:BE": "vercel dev --listen 3100",
-    "dev": "pnpm dev:FE & pnpm dev:BE",
-    "prebuild": "pnpm run index:docs && pnpm run test:unit",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview docs",
-    "test": "vitest --run --coverage",
-    "test:unit": "vitest --run __tests__/unit",
-    "test:watch": "vitest",
-    "test:traffic-sources": "tsx __tests__/test-traffic-sources.ts",
-    "translate": "tsx ../../scripts/translate.ts ./scripts/translateConfig.ts",
-    "translate:check": "../../scripts/check-translation-balance.sh",
-    "index:docs": "tsx ./scripts/indexDocs.ts",
-    "medium-scraper": "tsx ./scripts/medium-to-markdown.ts",
-    "format": "prettier --cache --cache-strategy content -w .",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare",
     "lint": "pnpm eslint --cache .",
-    "audit": "pnpm audit --audit-level=moderate"
+    "format": "prettier --cache --cache-strategy content -w .",
+    "test": "vitest --run",
+    "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "shared": "workspace:*",
-    "turndown-plugin-gfm": "^1.0.2"
+    "@nuxtjs/robots": "^6.0.8",
+    "@nuxtjs/sitemap": "^8.0.15",
+    "@vueuse/nuxt": "^12.8.2",
+    "nuxt": "^4.4.6",
+    "vue": "^3.5.18"
   },
   "devDependencies": {
-    "@types/turndown": "^5.0.5",
-    "axios": "^1.12.2",
-    "markdown-it-task-lists": "^2.1.1",
+    "@types/node": "^22.17.2",
     "simple-git-hooks": "^2.13.1",
-    "puppeteer": "^24.22.3",
-    "turndown": "^7.2.1"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged",
-    "pre-push": "pnpm audit && pnpm build"
-  },
-  "lint-staged": {
-    "*.{js,ts,vue}": [
-      "eslint --cache --fix"
-    ],
-    "*.{ts,vue}": [
-      "vitest related --run --project=unit"
-    ]
+    "vitest": "^1.6.1"
   }
 }
