@@ -2,7 +2,6 @@
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 const productUrl = config.public.productUrl
-const signInUrl = config.public.signInUrl
 
 const title = "InterMIND — Real-time multilingual video meetings"
 const description =
@@ -65,141 +64,51 @@ useHead({
     { type: "application/ld+json", innerHTML: JSON.stringify(softwareJsonLd) },
   ],
 })
-
-const currentYear = new Date().getFullYear()
 </script>
 
 <template>
-  <div class="page">
-    <header class="header">
-      <a href="/" class="brand" aria-label="InterMIND home">
-        <span class="brand-mark">InterMIND</span>
-      </a>
-      <nav class="nav">
-        <a href="/blog">Blog</a>
-        <a :href="signInUrl" class="nav-cta">Sign in</a>
-        <a :href="productUrl" class="nav-cta nav-cta-primary">New version</a>
-      </nav>
-    </header>
+  <div class="content">
+    <section class="hero">
+      <h1>
+        Speak your language.<br />
+        Be understood in theirs.
+      </h1>
+      <p class="lede">
+        InterMIND is a video meeting platform with real-time AI interpretation built in. No subtitles. No third-party plugin. No language barrier.
+      </p>
+      <p class="cta-row">
+        <a :href="productUrl" class="btn btn-primary">Open InterMIND</a>
+        <a href="/blog" class="btn btn-secondary">Read the blog</a>
+      </p>
+    </section>
 
-    <main>
-      <section class="hero">
-        <h1>
-          Speak your language.<br />
-          Be understood in theirs.
-        </h1>
-        <p class="lede">
-          InterMIND is a video meeting platform with real-time AI interpretation built in. No subtitles. No third-party plugin. No language barrier.
-        </p>
-        <p class="cta-row">
-          <a :href="productUrl" class="btn btn-primary">Open InterMIND</a>
-          <a href="/blog" class="btn btn-secondary">Read the blog</a>
-        </p>
-      </section>
+    <section class="values">
+      <article>
+        <h2>Real time, not subtitles</h2>
+        <p>Voice-to-voice interpretation that runs while you speak — not a transcript that appears after the sentence ends.</p>
+      </article>
+      <article>
+        <h2>Built into the meeting</h2>
+        <p>The interpreter is part of the platform, not a plugin or a translation widget bolted on top of someone else's video stack.</p>
+      </article>
+      <article>
+        <h2>For conversations that matter</h2>
+        <p>Designed for distributed teams, partners and customers where misunderstanding has a price tag — not casual chit-chat.</p>
+      </article>
+    </section>
 
-      <section class="values">
-        <article>
-          <h2>Real time, not subtitles</h2>
-          <p>Voice-to-voice interpretation that runs while you speak — not a transcript that appears after the sentence ends.</p>
-        </article>
-        <article>
-          <h2>Built into the meeting</h2>
-          <p>The interpreter is part of the platform, not a plugin or a translation widget bolted on top of someone else’s video stack.</p>
-        </article>
-        <article>
-          <h2>For conversations that matter</h2>
-          <p>Designed for distributed teams, partners and customers where misunderstanding has a price tag — not casual chit-chat.</p>
-        </article>
-      </section>
-
-      <section class="closing">
-        <h2>Try a multilingual meeting today.</h2>
-        <p>
-          <a :href="productUrl" class="btn btn-primary">Open InterMIND →</a>
-        </p>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-links">
-        <a :href="productUrl">Product</a>
-        <a href="/blog">Blog</a>
-        <a href="/legal/privacy">Privacy</a>
-        <a href="/legal/terms">Terms</a>
-        <a href="mailto:support@mind.com">Contact</a>
-      </div>
-      <p class="footer-copy">© {{ currentYear }} InterMIND. All rights reserved.</p>
-    </footer>
+    <section class="closing">
+      <h2>Try a multilingual meeting today.</h2>
+      <p>
+        <a :href="productUrl" class="btn btn-primary">Open InterMIND →</a>
+      </p>
+    </section>
   </div>
 </template>
 
 <style scoped>
-.page {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  color: #1c1c1c;
-  background: #fafaf7;
-  font-family:
-    "Inter",
-    system-ui,
-    -apple-system,
-    "Segoe UI",
-    sans-serif;
-  line-height: 1.55;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.25rem 2rem;
+.content {
   max-width: 1100px;
-  width: 100%;
-  margin: 0 auto;
-}
-.brand {
-  text-decoration: none;
-  color: inherit;
-}
-.brand-mark {
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  font-size: 1.05rem;
-}
-.nav {
-  display: flex;
-  gap: 1.5rem;
-  align-items: center;
-  font-size: 0.95rem;
-}
-.nav a {
-  color: #1c1c1c;
-  text-decoration: none;
-}
-.nav a:hover {
-  opacity: 0.7;
-}
-.nav-cta {
-  padding: 0.5rem 1rem;
-  background: #1c1c1c;
-  color: #fff !important;
-  border-radius: 999px;
-  font-weight: 500;
-}
-.nav-cta:hover {
-  background: #dd9144;
-  opacity: 1;
-}
-.nav-cta-primary {
-  background: #dd9144;
-}
-.nav-cta-primary:hover {
-  background: #c87a30;
-}
-main {
-  flex: 1;
-  max-width: 1100px;
-  width: 100%;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -236,9 +145,6 @@ main {
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
-  transition:
-    background 0.15s,
-    transform 0.15s;
 }
 .btn-primary {
   background: #dd9144;
@@ -282,31 +188,5 @@ main {
   font-size: clamp(1.6rem, 3vw, 2rem);
   margin: 0 0 1.5rem;
   font-weight: 600;
-}
-.footer {
-  background: #f0efea;
-  padding: 2rem;
-  margin-top: auto;
-}
-.footer-links {
-  display: flex;
-  gap: 1.5rem;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 1rem;
-  font-size: 0.92rem;
-}
-.footer-links a {
-  color: #1c1c1c;
-  text-decoration: none;
-}
-.footer-links a:hover {
-  text-decoration: underline;
-}
-.footer-copy {
-  text-align: center;
-  font-size: 0.85rem;
-  color: #777;
-  margin: 0;
 }
 </style>

@@ -7,8 +7,11 @@ export default defineEventHandler(async (event) => {
     queryCollection(event, "legal").all(),
   ])
 
+  const staticPaths = ["/about", "/team", "/careers", "/help", "/contacts", "/brand-assets"]
+
   return [
     ...posts.map((p) => ({ loc: p.path, lastmod: p.date })),
     ...legal.map((d) => ({ loc: d.path, lastmod: d.updated })),
+    ...staticPaths.map((loc) => ({ loc })),
   ]
 })

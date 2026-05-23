@@ -2,8 +2,6 @@
 const route = useRoute()
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
-const productUrl = config.public.productUrl
-const signInUrl = config.public.signInUrl
 
 const { data: post } = await useAsyncData(`blog-${route.path}`, () => queryCollection("blog").path(route.path).first())
 
@@ -13,8 +11,6 @@ if (!post.value) {
 
 const pageUrl = `${siteUrl}${post.value.path}`
 const canonical = post.value.canonical ?? pageUrl
-// Per Phase 0/6: hidden posts (e.g. software-testing-basics-*) remain index,follow
-// but canonical points to the product domain so equity flows to intermind.com.
 
 useHead({
   title: `${post.value.title} — InterMIND`,
@@ -57,102 +53,28 @@ function formatDate(d: string): string {
 </script>
 
 <template>
-  <div class="page">
-    <header class="header">
-      <a href="/" class="brand">InterMIND</a>
-      <nav class="nav">
-        <a href="/blog">Blog</a>
-        <a :href="signInUrl" class="nav-cta">Sign in</a>
-        <a :href="productUrl" class="nav-cta nav-cta-primary">New version</a>
-      </nav>
-    </header>
-
-    <main v-if="post">
-      <article class="post">
-        <header class="post-header">
-          <p class="meta">{{ formatDate(post.date) }}</p>
-          <h1>{{ post.title }}</h1>
-          <p class="lede">{{ post.description }}</p>
-        </header>
-        <ContentRenderer :value="post" class="prose" />
-      </article>
-      <p class="back">
-        <NuxtLink to="/blog">← All posts</NuxtLink>
-      </p>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-links">
-        <a :href="productUrl">Product</a>
-        <a href="/blog">Blog</a>
-        <a href="/legal/privacy">Privacy</a>
-        <a href="/legal/terms">Terms</a>
-        <a href="mailto:support@mind.com">Contact</a>
-      </div>
-      <p class="footer-copy">© {{ new Date().getFullYear() }} InterMIND. All rights reserved.</p>
-    </footer>
+  <div v-if="post" class="content">
+    <article class="post">
+      <header class="post-header">
+        <p class="meta">{{ formatDate(post.date) }}</p>
+        <h1>{{ post.title }}</h1>
+        <p class="lede">{{ post.description }}</p>
+      </header>
+      <ContentRenderer :value="post" class="prose" />
+    </article>
+    <p class="back">
+      <NuxtLink to="/blog">← All posts</NuxtLink>
+    </p>
   </div>
 </template>
 
 <style scoped>
-.page {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  color: #1c1c1c;
-  background: #fafaf7;
-  font-family:
-    "Inter",
-    system-ui,
-    -apple-system,
-    "Segoe UI",
-    sans-serif;
-  line-height: 1.65;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.25rem 2rem;
-  max-width: 1100px;
-  width: 100%;
-  margin: 0 auto;
-}
-.brand {
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  color: inherit;
-  text-decoration: none;
-}
-.nav {
-  display: flex;
-  gap: 1.5rem;
-  align-items: center;
-  font-size: 0.95rem;
-}
-.nav a {
-  color: #1c1c1c;
-  text-decoration: none;
-}
-.nav-cta {
-  padding: 0.5rem 1rem;
-  background: #1c1c1c;
-  color: #fff !important;
-  border-radius: 999px;
-  font-weight: 500;
-}
-.nav-cta-primary {
-  background: #dd9144;
-}
-.nav-cta-primary:hover {
-  background: #c87a30;
-}
-main {
-  flex: 1;
+.content {
   max-width: 760px;
   width: 100%;
   margin: 0 auto;
   padding: 2rem;
+  line-height: 1.65;
 }
 .post-header {
   margin: 2rem 0 3rem;
@@ -182,31 +104,5 @@ main {
 }
 .back a:hover {
   color: #dd9144;
-}
-.footer {
-  background: #f0efea;
-  padding: 2rem;
-  margin-top: auto;
-}
-.footer-links {
-  display: flex;
-  gap: 1.5rem;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 1rem;
-  font-size: 0.92rem;
-}
-.footer-links a {
-  color: #1c1c1c;
-  text-decoration: none;
-}
-.footer-links a:hover {
-  text-decoration: underline;
-}
-.footer-copy {
-  text-align: center;
-  font-size: 0.85rem;
-  color: #777;
-  margin: 0;
 }
 </style>

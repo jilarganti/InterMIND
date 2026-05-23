@@ -52,6 +52,36 @@
       "destination": "/legal/terms",
       "permanent": true
     },
+    {
+      "source": "/resources/company/about",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/resources/company/team",
+      "destination": "/team",
+      "permanent": true
+    },
+    {
+      "source": "/resources/company/careers",
+      "destination": "/careers",
+      "permanent": true
+    },
+    {
+      "source": "/resources/company/contacts",
+      "destination": "/contacts",
+      "permanent": true
+    },
+    {
+      "source": "/resources/help",
+      "destination": "/help",
+      "permanent": true
+    },
+    {
+      "source": "/resources/media-kit",
+      "destination": "/brand-assets",
+      "permanent": true
+    },
 
     {
       "source": "/:locale(ar|de|es|fr|hi|id|ja|ko|pt|ru|ta|tr|vi|zh)/:path*",
@@ -77,17 +107,6 @@
     },
 
     {
-      "source": "/resources/company/:path*",
-      "destination": "https://intermind.com/",
-      "permanent": true
-    },
-    {
-      "source": "/resources/:path*",
-      "destination": "https://intermind.com/",
-      "permanent": true
-    },
-
-    {
       "source": "/promo/:path*",
       "destination": "https://intermind.com/",
       "permanent": true
@@ -105,7 +124,7 @@
     },
     {
       "source": "/company/about",
-      "destination": "https://intermind.com/",
+      "destination": "/about",
       "permanent": true
     }
   ]
