@@ -45,14 +45,7 @@ function renderMarkdownBold(s: string): string {
       <p v-if="m.desc" class="desc" v-html="renderMarkdownBold(m.desc)" />
       <p v-if="m.country" class="country">{{ m.country }}</p>
       <div v-if="m.links?.length" class="links">
-        <a
-          v-for="l in m.links"
-          :key="l.link"
-          :href="l.link"
-          target="_blank"
-          rel="noopener"
-          class="link"
-        >
+        <a v-for="l in m.links" :key="l.link" :href="l.link" target="_blank" rel="noopener" class="link">
           {{ l.label ?? iconLabel(l.icon) }}
         </a>
       </div>

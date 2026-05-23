@@ -43,12 +43,7 @@ const year = new Date().getFullYear()
           <h4>{{ col.title }}</h4>
           <ul>
             <li v-for="link in col.links" :key="link.href">
-              <a
-                :href="link.href"
-                :target="link.external ? '_blank' : undefined"
-                :rel="link.external ? 'noopener' : undefined"
-                class="footer-link"
-              >
+              <a :href="link.href" :target="link.external ? '_blank' : undefined" :rel="link.external ? 'noopener' : undefined" class="footer-link">
                 {{ link.text }}
                 <span v-if="link.external" aria-hidden="true"> ↗</span>
               </a>

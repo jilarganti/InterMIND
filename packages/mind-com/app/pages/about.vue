@@ -22,7 +22,8 @@ useHead({
 
     <h2>Who We Are</h2>
     <p>
-      <strong>Mind.com</strong> builds <strong>InterMIND</strong> — the world's first platform that makes multilingual conversations feel native. We're eliminating the last barrier to truly global collaboration.
+      <strong>Mind.com</strong> builds <strong>InterMIND</strong> — the world's first platform that makes multilingual conversations feel native. We're
+      eliminating the last barrier to truly global collaboration.
     </p>
 
     <h2>Our Mission</h2>
@@ -33,14 +34,17 @@ useHead({
     <h2>What Is InterMIND?</h2>
     <p><strong>Not translation. Not interpretation. Something entirely new.</strong></p>
     <p>
-      InterMIND is <strong>conversational telepathy</strong> — you think in English, they hear perfect Mandarin. They respond in Japanese, you understand every nuance.
+      InterMIND is <strong>conversational telepathy</strong> — you think in English, they hear perfect Mandarin. They respond in Japanese, you understand every
+      nuance.
     </p>
     <p>
-      It preserves <strong>your voice</strong>, <strong>your tone</strong>, <strong>your personality</strong> — in any language. It captures <strong>context</strong>, <strong>cultural subtext</strong>, <strong>business intent</strong>.
+      It preserves <strong>your voice</strong>, <strong>your tone</strong>, <strong>your personality</strong> — in any language. It captures
+      <strong>context</strong>, <strong>cultural subtext</strong>, <strong>business intent</strong>.
     </p>
     <blockquote>Speak naturally. Be understood perfectly. Close more deals.</blockquote>
     <p>
-      Try the platform on <a :href="productUrl">{{ productUrl.replace(/^https?:\/\//, "") }}</a>.
+      Try the platform on <a :href="productUrl">{{ productUrl.replace(/^https?:\/\//, "") }}</a
+      >.
     </p>
 
     <h2>The Technology</h2>
@@ -58,7 +62,8 @@ useHead({
     <p><em>— The Mind.com Team</em></p>
 
     <p>
-      <strong>Ready to learn more?</strong> Visit our <a href="/team">team page</a>, explore <a href="/careers">career opportunities</a>, or <a href="/contacts">get in touch</a>.
+      <strong>Ready to learn more?</strong> Visit our <a href="/team">team page</a>, explore <a href="/careers">career opportunities</a>, or
+      <a href="/contacts">get in touch</a>.
     </p>
   </div>
 </template>

@@ -7,8 +7,7 @@ useHead({
   meta: [
     {
       name: "description",
-      content:
-        "Want to partner with InterMind, invest, or reach our executive team? Use this form for business inquiries, media requests, or legal matters.",
+      content: "Want to partner with InterMind, invest, or reach our executive team? Use this form for business inquiries, media requests, or legal matters.",
     },
   ],
   link: [{ rel: "canonical", href: `${siteUrl}/contacts` }],
@@ -30,7 +29,8 @@ const services = [
   <div class="content">
     <h1>🤝 Want to Reach InterMind? Let's Connect.</h1>
     <p class="lede">
-      Use this form to contact our company team directly — for partnerships, investments, media, compliance, or other business-related matters. We'll make sure your message reaches the right person.
+      Use this form to contact our company team directly — for partnerships, investments, media, compliance, or other business-related matters. We'll make sure
+      your message reaches the right person.
     </p>
 
     <ContactForm
@@ -44,7 +44,10 @@ const services = [
 
     <blockquote>
       <p><strong>Need product-related help?</strong> Visit our <a href="/help">Support Page</a> for fast answers and assistance from the InterMind team.</p>
-      <p><strong>Want to learn more about us?</strong> Check out our <a href="/about">about page</a>, meet <a href="/team">the team</a>, or explore <a href="/careers">career opportunities</a>.</p>
+      <p>
+        <strong>Want to learn more about us?</strong> Check out our <a href="/about">about page</a>, meet <a href="/team">the team</a>, or explore
+        <a href="/careers">career opportunities</a>.
+      </p>
     </blockquote>
   </div>
 </template>

@@ -45,7 +45,12 @@ const ai = [
   { name: "Claude", desc: "Bringing clarity to conversations", country: "USA", links: [{ link: "https://claude.ai/", label: "claude.ai" }] },
   { name: "Gemini", desc: "Connecting knowledge with intent", country: "USA", links: [{ link: "https://gemini.google.com/", label: "gemini.google.com" }] },
   { name: "ChatGPT", desc: "Interpreting with nuance and memory", country: "USA", links: [{ link: "https://chatgpt.com/", label: "chatgpt.com" }] },
-  { name: "DeepSeek", desc: "Thinking in code and reasoning in context", country: "China", links: [{ link: "https://chat.deepseek.com/", label: "chat.deepseek.com" }] },
+  {
+    name: "DeepSeek",
+    desc: "Thinking in code and reasoning in context",
+    country: "China",
+    links: [{ link: "https://chat.deepseek.com/", label: "chat.deepseek.com" }],
+  },
 ]
 </script>
 
@@ -60,12 +65,13 @@ const ai = [
     <TeamMembersGrid :members="humans" />
 
     <h2>AI Team</h2>
-    <p class="note">AI team members are not human, but they are integral to our operations. They assist in various tasks, from coding to research, and help us break down language barriers.</p>
+    <p class="note">
+      AI team members are not human, but they are integral to our operations. They assist in various tasks, from coding to research, and help us break down
+      language barriers.
+    </p>
     <TeamMembersGrid :members="ai" />
 
-    <p>
-      <strong>Want to join us?</strong> Check out our <a href="/careers">career opportunities</a>.
-    </p>
+    <p><strong>Want to join us?</strong> Check out our <a href="/careers">career opportunities</a>.</p>
   </div>
 </template>
 

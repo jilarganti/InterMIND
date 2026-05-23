@@ -30,7 +30,8 @@ const searchImages = [
   <div class="content">
     <h1>Media Kit</h1>
     <p>
-      A collection of InterMIND marketing resources and identity guidelines, including our logo, content, and trademarks. To download, right-click an image and choose "Save image".
+      A collection of InterMIND marketing resources and identity guidelines, including our logo, content, and trademarks. To download, right-click an image and
+      choose "Save image".
     </p>
 
     <h2>Metadata</h2>
@@ -43,7 +44,10 @@ const searchImages = [
 
     <h3>Description</h3>
     <ul>
-      <li>Live speech translation in video calls for <strong>international teams</strong> where language barriers cause <strong>delays, lost deals, or costly misunderstandings</strong>.</li>
+      <li>
+        Live speech translation in video calls for <strong>international teams</strong> where language barriers cause
+        <strong>delays, lost deals, or costly misunderstandings</strong>.
+      </li>
       <li>InterMIND adds real-time speech translation to every video call, so international teams never lose deals, time, or clarity to language barriers.</li>
     </ul>
 
@@ -103,7 +107,9 @@ ul {
     linear-gradient(45deg, #eeeeee 25%, transparent 25%, transparent 75%, #eeeeee 75%),
     linear-gradient(45deg, #eeeeee 25%, transparent 25%, transparent 75%, #eeeeee 75%);
   background-size: 12px 12px;
-  background-position: 0 0, 6px 6px;
+  background-position:
+    0 0,
+    6px 6px;
   border-radius: 6px;
 }
 pre {

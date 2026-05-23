@@ -7,7 +7,8 @@ useHead({
   meta: [
     {
       name: "description",
-      content: "Join InterMIND. We're building technology that removes language barriers between people. Show us what you've built, not where you went to school.",
+      content:
+        "Join InterMIND. We're building technology that removes language barriers between people. Show us what you've built, not where you went to school.",
     },
   ],
   link: [{ rel: "canonical", href: `${siteUrl}/careers` }],
@@ -30,7 +31,8 @@ const services = [
     <h1>Breaking Down Barriers Between Cultures</h1>
 
     <p>
-      We're building technology that removes language barriers between people. Our product lets people from different countries speak their native language and understand each other naturally.
+      We're building technology that removes language barriers between people. Our product lets people from different countries speak their native language and
+      understand each other naturally.
     </p>
     <p>This isn't a translator. This is a new paradigm for global communication.</p>
 
@@ -40,26 +42,34 @@ const services = [
 
     <h2>Show Results, Not Credentials</h2>
     <p>Want to join us? Show us something useful and meaningful you've already built for people.</p>
-    <p>
-      Education and experience matter, but we care more about: <strong>what real value have you created for people</strong>.
-    </p>
+    <p>Education and experience matter, but we care more about: <strong>what real value have you created for people</strong>.</p>
 
     <h3>Your track record is the only reliable measure</h3>
     <p>We're looking for people who:</p>
     <ul>
-      <li><strong>Have already built something.</strong> Code that thousands use. A product that solved a real problem. A system that runs without breaking. A team that delivered results.</li>
-      <li><strong>Measure their worth by outcomes.</strong> How many people's lives improved because of your work? How much faster did processes run after your improvements? What problems disappeared after your solutions?</li>
-      <li><strong>Think globally.</strong> Have you worked with people from different countries? Solved problems in multicultural environments? Built products for international audiences?</li>
-      <li><strong>Tackle hard problems.</strong> Taken on projects where no solution existed? Built something from scratch? Made the impossible look obvious?</li>
+      <li>
+        <strong>Have already built something.</strong> Code that thousands use. A product that solved a real problem. A system that runs without breaking. A
+        team that delivered results.
+      </li>
+      <li>
+        <strong>Measure their worth by outcomes.</strong> How many people's lives improved because of your work? How much faster did processes run after your
+        improvements? What problems disappeared after your solutions?
+      </li>
+      <li>
+        <strong>Think globally.</strong> Have you worked with people from different countries? Solved problems in multicultural environments? Built products for
+        international audiences?
+      </li>
+      <li>
+        <strong>Tackle hard problems.</strong> Taken on projects where no solution existed? Built something from scratch? Made the impossible look obvious?
+      </li>
     </ul>
 
     <h2>What We're Building</h2>
     <p>
-      A platform that makes foreign language fluency optional for professional success. Picture this: a Japanese engineer, German manager, and Brazilian designer discussing a project — each speaking their native language, everyone understanding perfectly.
+      A platform that makes foreign language fluency optional for professional success. Picture this: a Japanese engineer, German manager, and Brazilian
+      designer discussing a project — each speaking their native language, everyone understanding perfectly.
     </p>
-    <p>
-      We don't just translate words — we preserve meaning, tone, cultural context. In real-time. No delays. With human-level accuracy.
-    </p>
+    <p>We don't just translate words — we preserve meaning, tone, cultural context. In real-time. No delays. With human-level accuracy.</p>
 
     <h2>Who We're Looking For</h2>
 
@@ -96,7 +106,9 @@ const services = [
     </ul>
 
     <h2>How We Evaluate</h2>
-    <p><strong>Portfolio beats resume.</strong> Show us GitHub, demos, product links. Tell us the story of a problem you solved and the results you achieved.</p>
+    <p>
+      <strong>Portfolio beats resume.</strong> Show us GitHub, demos, product links. Tell us the story of a problem you solved and the results you achieved.
+    </p>
     <p><strong>Real projects beat coding tests.</strong> We want to see how you work under real constraints with real deadlines.</p>
     <p><strong>Impact beats activity.</strong> One project that changed thousands of lives beats ten technical exercises.</p>
     <p><strong>Learning ability beats current knowledge.</strong> We're building what doesn't exist yet. Your willingness to learn and adapt is critical.</p>
@@ -105,7 +117,10 @@ const services = [
     <ol>
       <li><strong>Send links.</strong> Not a resume — links to what you've built. GitHub, products, articles, videos, anything that shows your work.</li>
       <li><strong>Tell the story.</strong> What problem did you solve? Why did it matter? How did you measure success? What was the outcome?</li>
-      <li><strong>Talk with the team.</strong> If your experience interests us, you'll chat with team members. No formal interviews — just conversations about what and how you build.</li>
+      <li>
+        <strong>Talk with the team.</strong> If your experience interests us, you'll chat with team members. No formal interviews — just conversations about
+        what and how you build.
+      </li>
       <li><strong>Work with us.</strong> A short real project so everyone understands how we work together.</li>
     </ol>
 
@@ -120,13 +135,12 @@ const services = [
     <p><strong>Unlimited resources.</strong> Everything you need to build the best product in the category.</p>
     <p><strong>Global impact.</strong> Your work will change how humanity communicates across language boundaries.</p>
 
-    <p>
-      Meet <a href="/team">our team</a> and learn about <a href="/about">our company values</a>.
-    </p>
+    <p>Meet <a href="/team">our team</a> and learn about <a href="/about">our company values</a>.</p>
 
     <h2>Join Us</h2>
     <p>
-      If you've already built something meaningful and you're ready to build technology that changes the world — write to us. Show us what you've done. Tell us what you want to build next.
+      If you've already built something meaningful and you're ready to build technology that changes the world — write to us. Show us what you've done. Tell us
+      what you want to build next.
     </p>
 
     <ContactForm
