@@ -3,6 +3,27 @@ const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 const productUrl = config.public.productUrl
 
+const vReveal = {
+  mounted(el: HTMLElement) {
+    if (typeof IntersectionObserver === "undefined") {
+      el.classList.add("is-visible")
+      return
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            e.target.classList.add("is-visible")
+            io.unobserve(e.target)
+          }
+        }
+      },
+      { threshold: 0.12, rootMargin: "0px 0px -8% 0px" }
+    )
+    io.observe(el)
+  },
+}
+
 const title = "InterMIND — Verifiable multilingual meetings for high-stakes rooms"
 const description =
   "Video meetings where everyone speaks and is understood in their own language — with translation quality you can verify against a public benchmark, not just trust. Built for legal, regulatory, M&A and investor rooms where a mistranslation is a liability."
@@ -37,7 +58,8 @@ const softwareJsonLd = {
   operatingSystem: "Web",
   url: productUrl,
   publisher: { "@id": `${siteUrl}/#organization` },
-  description: "Multilingual video meeting platform with verifiable translation quality, customer-controlled glossaries, audit trail, EU / neutral infrastructure and on-premise deployment.",
+  description:
+    "Multilingual video meeting platform with verifiable translation quality, customer-controlled glossaries, audit trail, EU / neutral infrastructure and on-premise deployment.",
 }
 
 useHead({
@@ -185,16 +207,19 @@ const useCases = [
           <span class="gradient-text">everyone's second-best language.</span>
         </h1>
         <p class="lede">
-          Everyone speaks and is understood in their own language — with translation quality you can verify against a public benchmark, not just trust. Built for rooms where a mistranslation is a liability.
+          Everyone speaks and is understood in their own language — with translation quality you can verify against a public benchmark, not just trust. Built
+          for rooms where a mistranslation is a liability.
         </p>
         <div class="cta-row">
-          <UButton :to="productUrl" external size="xl" color="primary" trailing-icon="i-lucide-volume-2" class="btn-primary-grad"> Try the live demo (sound on) </UButton>
-          <UButton :to="`${productUrl}/benchmark`" external size="xl" color="neutral" variant="subtle" trailing-icon="i-lucide-gauge"> See the public benchmark </UButton>
+          <UButton :to="productUrl" external size="xl" color="primary" trailing-icon="i-lucide-volume-2" class="btn-primary-grad">
+            Try the live demo (sound on)
+          </UButton>
+          <UButton :to="`${productUrl}/benchmark`" external size="xl" color="neutral" variant="subtle" trailing-icon="i-lucide-gauge">
+            See the public benchmark
+          </UButton>
         </div>
 
-        <p class="trust-strip">
-          Legal · regulatory · investor relations · M&amp;A &nbsp;—&nbsp; EU / neutral infrastructure · on-premise available
-        </p>
+        <p class="trust-strip">Legal · regulatory · investor relations · M&amp;A &nbsp;—&nbsp; EU / neutral infrastructure · on-premise available</p>
 
         <ul class="stats">
           <li v-for="s in stats" :key="s.label">
@@ -207,33 +232,36 @@ const useCases = [
 
     <!-- PROBLEM -->
     <section class="problem">
-      <div class="problem-header">
+      <div v-reveal class="problem-header reveal">
         <span class="eyebrow">The problem</span>
         <h2>Meetings in everyone's second-best language fail <span class="gradient-text">silently</span>.</h2>
         <p class="problem-lede">
-          Every cross-border meeting today defaults to a shared language nobody fully owns — almost always English. The status quo doesn't fail loudly. It fails quietly, in three ways:
+          Every cross-border meeting today defaults to a shared language nobody fully owns — almost always English. The status quo doesn't fail loudly. It fails
+          quietly, in three ways:
         </p>
       </div>
 
       <div class="problem-grid">
-        <article v-for="p in problems" :key="p.title" class="problem-card">
+        <article v-for="p in problems" :key="p.title" v-reveal class="problem-card reveal">
           <h3>{{ p.title }}</h3>
           <p>{{ p.body }}</p>
         </article>
       </div>
 
       <p class="disqualifier">
-        A generic machine-translation layer doesn't fix this — it <em>reproduces</em> it, because good-enough translation also emits false precision. In a high-stakes room, <strong>good-enough is negative value.</strong>
+        A generic machine-translation layer doesn't fix this — it <em>reproduces</em> it, because good-enough translation also emits false precision. In a
+        high-stakes room, <strong>good-enough is negative value.</strong>
       </p>
     </section>
 
     <!-- LIVE MEETING PREVIEW -->
     <section class="preview">
-      <div class="preview-header">
+      <div v-reveal class="preview-header reveal">
         <span class="eyebrow">What it looks like</span>
         <h2>One deal call. Four languages. <span class="gradient-text">Nothing lost in translation.</span></h2>
         <p class="preview-lede">
-          Each side speaks in their first language. Each side hears the others in theirs — with the exact terminology your termbase locks in, recorded on the audit trail, available to escalate to a human interpreter for the clauses that matter.
+          Each side speaks in their first language. Each side hears the others in theirs — with the exact terminology your termbase locks in, recorded on the
+          audit trail, available to escalate to a human interpreter for the clauses that matter.
         </p>
       </div>
 
@@ -265,15 +293,16 @@ const useCases = [
 
     <!-- WEDGE / PILLARS -->
     <section class="values" aria-labelledby="pillars-heading">
-      <div class="pillars-header">
+      <div v-reveal class="pillars-header reveal">
         <span class="eyebrow">Why this is different</span>
         <h2 id="pillars-heading">Translation quality you can <span class="gradient-text">verify</span>, not just trust.</h2>
         <p class="pillars-lede">
-          Everyone calls the same underlying models. A better quality score this quarter is erased next quarter. What we build — and incumbents structurally won't — is the layer that lets you check, constrain and audit what was actually said.
+          Everyone calls the same underlying models. A better quality score this quarter is erased next quarter. What we build — and incumbents structurally
+          won't — is the layer that lets you check, constrain and audit what was actually said.
         </p>
       </div>
       <div class="pillars-grid">
-        <article v-for="pl in pillars" :key="pl.title" class="value">
+        <article v-for="pl in pillars" :key="pl.title" v-reveal class="value reveal">
           <div class="value-icon">
             <UIcon :name="pl.icon" />
           </div>
@@ -285,12 +314,10 @@ const useCases = [
 
     <!-- QUALIFIER -->
     <section class="qualifier">
-      <div class="qualifier-inner">
+      <div v-reveal class="qualifier-inner reveal">
         <span class="eyebrow">On your terms</span>
         <h2>The rooms where a mistranslation is catastrophic are the same rooms where a <span class="gradient-text">data leak</span> is catastrophic.</h2>
-        <p class="qualifier-lede">
-          So data control rides with the wedge — not as the headline, but as procurement-grade proof.
-        </p>
+        <p class="qualifier-lede">So data control rides with the wedge — not as the headline, but as procurement-grade proof.</p>
         <ul class="qualifier-rails">
           <li>
             <UIcon name="i-lucide-building-2" class="rail-icon" />
@@ -322,13 +349,15 @@ const useCases = [
 
     <!-- USE CASES -->
     <section class="cases">
-      <div class="cases-header">
+      <div v-reveal class="cases-header reveal">
         <span class="eyebrow">The rooms we're built for</span>
         <h2>High-stakes, regulated, cross-border.</h2>
-        <p class="cases-lede">Not stand-ups. Not casual sales calls. The conversations where a mistranslation is a liability and the data must stay under your control.</p>
+        <p class="cases-lede">
+          Not stand-ups. Not casual sales calls. The conversations where a mistranslation is a liability and the data must stay under your control.
+        </p>
       </div>
       <div class="cases-grid">
-        <article v-for="c in useCases" :key="c.title" class="case" :data-tone="c.tone">
+        <article v-for="c in useCases" :key="c.title" v-reveal class="case reveal" :data-tone="c.tone">
           <span class="case-glyph" aria-hidden="true" />
           <h3>{{ c.title }}</h3>
           <p>{{ c.body }}</p>
@@ -1160,5 +1189,92 @@ const useCases = [
   .waveform span {
     animation: none !important;
   }
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* ---------- SCROLL REVEAL ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+/* Stagger inside grids */
+.problem-grid .reveal:nth-child(2) {
+  transition-delay: 0.08s;
+}
+.problem-grid .reveal:nth-child(3) {
+  transition-delay: 0.16s;
+}
+.pillars-grid .reveal:nth-child(2) {
+  transition-delay: 0.08s;
+}
+.pillars-grid .reveal:nth-child(3) {
+  transition-delay: 0.16s;
+}
+.cases-grid .reveal:nth-child(2) {
+  transition-delay: 0.08s;
+}
+.cases-grid .reveal:nth-child(3) {
+  transition-delay: 0.16s;
+}
+.cases-grid .reveal:nth-child(4) {
+  transition-delay: 0.24s;
+}
+
+/* ---------- HOVER LIFT ---------- */
+.problem-card,
+.value,
+.case,
+.qualifier-rails li {
+  transition:
+    transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.25s ease;
+}
+.problem-card:hover,
+.value:hover,
+.case:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 18px 40px -22px rgba(28, 28, 28, 0.18),
+    0 2px 6px -2px rgba(28, 28, 28, 0.06);
+  border-color: rgba(221, 145, 68, 0.35);
+}
+.qualifier-rails li:hover {
+  transform: translateY(-2px);
+  border-color: rgba(221, 145, 68, 0.35);
+}
+
+/* ---------- BIGGER H2 ---------- */
+.problem h2,
+.values h2,
+.qualifier h2,
+.cases h2,
+.preview h2,
+.cta-band h2 {
+  font-size: clamp(2rem, 3.6vw, 3rem);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  font-weight: 800;
+}
+.eyebrow {
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 0.75rem;
 }
 </style>

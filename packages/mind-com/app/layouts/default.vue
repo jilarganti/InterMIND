@@ -9,7 +9,7 @@ const signInUrl = config.public.signInUrl
     <header class="site-header">
       <div class="site-header-inner">
         <a href="/" class="brand" aria-label="InterMIND home">
-          <span class="brand-glyph" aria-hidden="true" />
+          <img src="/logo.svg" alt="" class="brand-logo" width="28" height="28" />
           <span class="brand-mark">InterMIND</span>
         </a>
         <nav class="nav">
@@ -76,6 +76,12 @@ const signInUrl = config.public.signInUrl
   box-shadow:
     0 4px 12px -4px rgba(221, 145, 68, 0.5),
     inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+.brand-logo {
+  width: 28px;
+  height: 28px;
+  display: block;
+  filter: drop-shadow(0 2px 6px rgba(221, 145, 68, 0.3));
 }
 .brand-mark {
   font-weight: 700;
