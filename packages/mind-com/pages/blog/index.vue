@@ -5,11 +5,7 @@ const productUrl = config.public.productUrl
 const signInUrl = config.public.signInUrl
 
 const { data: posts } = await useAsyncData("blog-index", () =>
-  queryCollection("blog")
-    .where("hidden", "<>", true)
-    .order("date", "DESC")
-    .select("path", "title", "description", "date", "author")
-    .all(),
+  queryCollection("blog").where("hidden", "<>", true).order("date", "DESC").select("path", "title", "description", "date", "author").all(),
 )
 
 const title = "Blog — InterMIND"
@@ -44,6 +40,7 @@ function formatDate(d: string): string {
       <nav class="nav">
         <a href="/blog" aria-current="page">Blog</a>
         <a :href="signInUrl" class="nav-cta">Sign in</a>
+        <a :href="productUrl" class="nav-cta nav-cta-primary">New version</a>
       </nav>
     </header>
 
@@ -127,6 +124,12 @@ function formatDate(d: string): string {
   color: #fff !important;
   border-radius: 999px;
   font-weight: 500;
+}
+.nav-cta-primary {
+  background: #dd9144;
+}
+.nav-cta-primary:hover {
+  background: #c87a30;
 }
 main {
   flex: 1;

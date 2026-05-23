@@ -5,9 +5,7 @@ const siteUrl = config.public.siteUrl
 const productUrl = config.public.productUrl
 const signInUrl = config.public.signInUrl
 
-const { data: doc } = await useAsyncData(`legal-${route.path}`, () =>
-  queryCollection("legal").path(route.path).first(),
-)
+const { data: doc } = await useAsyncData(`legal-${route.path}`, () => queryCollection("legal").path(route.path).first())
 
 if (!doc.value) {
   throw createError({ statusCode: 404, statusMessage: "Page not found", fatal: true })
@@ -39,6 +37,7 @@ function formatDate(d: string): string {
       <nav class="nav">
         <a href="/blog">Blog</a>
         <a :href="signInUrl" class="nav-cta">Sign in</a>
+        <a :href="productUrl" class="nav-cta nav-cta-primary">New version</a>
       </nav>
     </header>
 
@@ -112,6 +111,12 @@ function formatDate(d: string): string {
   color: #fff !important;
   border-radius: 999px;
   font-weight: 500;
+}
+.nav-cta-primary {
+  background: #dd9144;
+}
+.nav-cta-primary:hover {
+  background: #c87a30;
 }
 main {
   flex: 1;

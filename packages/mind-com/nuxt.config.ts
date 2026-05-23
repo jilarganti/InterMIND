@@ -13,7 +13,9 @@ export default defineNuxtConfig({
     public: {
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL ?? "https://mind.com",
       productUrl: process.env.NUXT_PUBLIC_PRODUCT_URL ?? "https://intermind.com",
-      signInUrl: process.env.NUXT_PUBLIC_SIGN_IN_URL ?? "https://intermind.com/login",
+      signInUrl:
+        process.env.NUXT_PUBLIC_SIGN_IN_URL ??
+        "https://id.inter.mind.com/realms/vca/protocol/openid-connect/auth?client_id=vca&scope=openid&response_type=code&state=oZ19WALjY1nJd83Rbwfeu&redirect_uri=https%3A%2F%2Finter.mind.com%2Fauth%2Fcallback&ui_locales=en",
       gtmId: process.env.GTM_ID ?? "",
     },
   },

@@ -78,6 +78,7 @@ const currentYear = new Date().getFullYear()
       <nav class="nav">
         <a href="/blog">Blog</a>
         <a :href="signInUrl" class="nav-cta">Sign in</a>
+        <a :href="productUrl" class="nav-cta nav-cta-primary">New version</a>
       </nav>
     </header>
 
@@ -188,6 +189,12 @@ const currentYear = new Date().getFullYear()
 .nav-cta:hover {
   background: #dd9144;
   opacity: 1;
+}
+.nav-cta-primary {
+  background: #dd9144;
+}
+.nav-cta-primary:hover {
+  background: #c87a30;
 }
 main {
   flex: 1;
