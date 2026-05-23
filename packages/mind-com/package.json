@@ -5,9 +5,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --dotenv .vercel/.env.development.local",
     "build": "nuxt build",
-    "preview": "nuxt preview",
+    "preview": "nuxt preview --dotenv .vercel/.env.development.local",
     "generate": "nuxt generate",
     "postinstall": "nuxt prepare",
     "lint": "pnpm eslint --cache .",
