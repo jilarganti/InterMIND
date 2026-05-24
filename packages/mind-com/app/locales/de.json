@@ -6,5 +6,8 @@
     "metaDescription": "Umfassende Forschung und Analyse zu Echtzeit-KI-Dolmetschen, mehrsprachigen Meetings und globaler Teamkommunikation vom InterMIND-Team.",
     "noPosts": "Noch keine Beiträge.",
     "backToBlog": "← Alle Beiträge"
+  },
+  "nav": {
+    "switchLanguage": "Sprache wechseln"
   }
 }

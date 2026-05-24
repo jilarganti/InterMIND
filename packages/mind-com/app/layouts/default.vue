@@ -2,18 +2,20 @@
 const config = useRuntimeConfig()
 const productUrl = config.public.productUrl
 const signInUrl = config.public.signInUrl
+const localePath = useLocalePath()
 </script>
 
 <template>
   <div class="page">
     <header class="site-header">
       <div class="site-header-inner">
-        <a href="/" class="brand" aria-label="InterMIND home">
+        <NuxtLink :to="localePath('/')" class="brand" aria-label="InterMIND home">
           <img src="/logo.svg" alt="" class="brand-logo" width="28" height="28" />
           <span class="brand-mark">InterMIND</span>
-        </a>
+        </NuxtLink>
         <nav class="nav">
-          <UButton to="/blog" variant="ghost" color="neutral" size="md" class="nav-link-btn">Blog</UButton>
+          <UButton :to="localePath('/blog')" variant="ghost" color="neutral" size="md" class="nav-link-btn">Blog</UButton>
+          <LanguageSwitcher />
           <UButton :to="signInUrl" external variant="solid" color="neutral" size="md" class="nav-cta-btn">Sign in</UButton>
           <UButton :to="productUrl" external color="primary" size="md" trailing-icon="i-lucide-arrow-right" class="nav-cta-btn nav-cta-btn-primary">
             New version

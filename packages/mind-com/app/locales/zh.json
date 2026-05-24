@@ -6,5 +6,8 @@
     "metaDescription": "来自 InterMIND 团队的深度研究与分析，涵盖实时AI口译、多语言会议和全球团队沟通。",
     "noPosts": "暂无博文。",
     "backToBlog": "← 所有博文"
+  },
+  "nav": {
+    "switchLanguage": "切换语言"
   }
 }

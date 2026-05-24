@@ -1,4 +1,7 @@
 {
+  "nav": {
+    "switchLanguage": "Switch language"
+  },
   "blog": {
     "title": "Blog",
     "description": "Research and analysis on real-time AI interpretation and multilingual collaboration.",
