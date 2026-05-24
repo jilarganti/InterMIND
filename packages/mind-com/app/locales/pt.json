@@ -349,5 +349,26 @@
       "apiAccess": "Quero obter o ID do aplicativo e o token da Mind API sem restrições",
       "general": "Pergunta geral ou feedback"
     }
+  },
+  "brandAssets": {
+    "metaTitle": "Ativos da Marca — InterMIND",
+    "metaDescription": "Recursos de marketing e diretrizes de identidade da InterMIND, incluindo logotipo, conteúdo e marcas registradas.",
+    "h1": "Kit de Mídia",
+    "intro": "Uma coleção de recursos de marketing e diretrizes de identidade da InterMIND, incluindo nosso logotipo, conteúdo e marcas registradas. Para baixar, clique com o botão direito em uma imagem e escolha \"Salvar imagem\".",
+    "metadataTitle": "Metadados",
+    "titleHeading": "Título",
+    "title1": "Tradução de fala em tempo real em chamadas de vídeo.",
+    "title2": "Tradução de fala ao vivo em chamadas de vídeo — <strong>sem</strong> atrasos, <strong>sem</strong> negócios perdidos, <strong>sem</strong> barreiras de idioma.",
+    "descriptionHeading": "Descrição",
+    "description1": "Tradução de fala ao vivo em chamadas de vídeo para <strong>equipes internacionais</strong> onde as barreiras de idioma causam <strong>atrasos, negócios perdidos ou mal-entendidos caros</strong>.",
+    "description2": "A InterMIND adiciona tradução de fala em tempo real a cada chamada de vídeo, para que equipes internacionais nunca percam negócios, tempo ou clareza devido a barreiras de idioma.",
+    "logoHeading": "Logotipo",
+    "logoAlt": "Logotipo da InterMIND",
+    "colorsHeading": "Cores da Marca",
+    "promotionalHeading": "Imagens Promocionais",
+    "interpretationHeading": "Interpretação simultânea",
+    "searchHeading": "Pesquise em todas as suas reuniões",
+    "interpretationAlt": "Interpretação simultânea",
+    "searchAlt": "Pesquise em todas as suas reuniões"
   }
 }

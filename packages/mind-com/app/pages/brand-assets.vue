@@ -1,71 +1,61 @@
 <script setup lang="ts">
+const { t } = useI18n()
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 
 useHead({
-  title: "Brand Assets — InterMIND",
-  meta: [
-    {
-      name: "description",
-      content: "InterMIND marketing resources and identity guidelines, including logo, content, and trademarks.",
-    },
-  ],
+  title: () => t("brandAssets.metaTitle"),
+  meta: [{ name: "description", content: () => t("brandAssets.metaDescription") }],
   link: [{ rel: "canonical", href: `${siteUrl}/brand-assets` }],
 })
 
-const interpretationImages = [
-  { src: "/media-kit/animals-cartoon-3-2.webp", alt: "Simultaneous interpretation" },
-  { src: "/media-kit/animals-cartoon-1-1.webp", alt: "Simultaneous interpretation" },
-  { src: "/media-kit/5.webp", alt: "Simultaneous interpretation" },
-  { src: "/media-kit/6.webp", alt: "Simultaneous interpretation" },
-  { src: "/media-kit/animals-5-4.webp", alt: "Simultaneous interpretation" },
-]
-const searchImages = [
-  { src: "/2d.webp", alt: "Search across all your meetings" },
-  { src: "/2l.webp", alt: "Search across all your meetings" },
-]
+const interpretationImages = computed(() => [
+  { src: "/media-kit/animals-cartoon-3-2.webp", alt: t("brandAssets.interpretationAlt") },
+  { src: "/media-kit/animals-cartoon-1-1.webp", alt: t("brandAssets.interpretationAlt") },
+  { src: "/media-kit/5.webp", alt: t("brandAssets.interpretationAlt") },
+  { src: "/media-kit/6.webp", alt: t("brandAssets.interpretationAlt") },
+  { src: "/media-kit/animals-5-4.webp", alt: t("brandAssets.interpretationAlt") },
+])
+const searchImages = computed(() => [
+  { src: "/2d.webp", alt: t("brandAssets.searchAlt") },
+  { src: "/2l.webp", alt: t("brandAssets.searchAlt") },
+])
 </script>
 
 <template>
   <div class="content">
-    <h1>Media Kit</h1>
-    <p>
-      A collection of InterMIND marketing resources and identity guidelines, including our logo, content, and trademarks. To download, right-click an image and
-      choose "Save image".
-    </p>
+    <h1>{{ t("brandAssets.h1") }}</h1>
+    <p>{{ t("brandAssets.intro") }}</p>
 
-    <h2>Metadata</h2>
+    <h2>{{ t("brandAssets.metadataTitle") }}</h2>
 
-    <h3>Title</h3>
+    <h3>{{ t("brandAssets.titleHeading") }}</h3>
     <ul>
-      <li>Real-time speech translation in video calls.</li>
-      <li>Live speech translation in video calls — <strong>no</strong> delays, <strong>no</strong> lost deals, <strong>no</strong> language barriers.</li>
+      <li>{{ t("brandAssets.title1") }}</li>
+      <li v-html="t('brandAssets.title2')" />
     </ul>
 
-    <h3>Description</h3>
+    <h3>{{ t("brandAssets.descriptionHeading") }}</h3>
     <ul>
-      <li>
-        Live speech translation in video calls for <strong>international teams</strong> where language barriers cause
-        <strong>delays, lost deals, or costly misunderstandings</strong>.
-      </li>
-      <li>InterMIND adds real-time speech translation to every video call, so international teams never lose deals, time, or clarity to language barriers.</li>
+      <li v-html="t('brandAssets.description1')" />
+      <li>{{ t("brandAssets.description2") }}</li>
     </ul>
 
-    <h2>Logo</h2>
+    <h2>{{ t("brandAssets.logoHeading") }}</h2>
     <div class="logo-row">
-      <img src="/logo.webp" alt="InterMIND logo" width="300" class="transparency-grid" />
-      <img src="/logo.svg" alt="InterMIND logo" width="100" class="transparency-grid" />
+      <img src="/logo.webp" :alt="t('brandAssets.logoAlt')" width="300" class="transparency-grid" />
+      <img src="/logo.svg" :alt="t('brandAssets.logoAlt')" width="100" class="transparency-grid" />
     </div>
 
-    <h2>Brand Colors</h2>
+    <h2>{{ t("brandAssets.colorsHeading") }}</h2>
     <pre><code>-webkit-linear-gradient(90deg, #994a11 0%, #cc833c 50%, #ffbb66 100%)</code></pre>
 
-    <h2>Promotional Images</h2>
+    <h2>{{ t("brandAssets.promotionalHeading") }}</h2>
 
-    <h3>Simultaneous interpretation</h3>
+    <h3>{{ t("brandAssets.interpretationHeading") }}</h3>
     <ImageGrid :images="interpretationImages" />
 
-    <h3>Search across all your meetings</h3>
+    <h3>{{ t("brandAssets.searchHeading") }}</h3>
     <ImageGrid :images="searchImages" />
   </div>
 </template>

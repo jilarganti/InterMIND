@@ -349,5 +349,26 @@
       "apiAccess": "Ich möchte Mind API Anwendungs-ID und Token ohne Einschränkungen erhalten",
       "general": "Allgemeine Frage oder Feedback"
     }
+  },
+  "brandAssets": {
+    "metaTitle": "Markenressourcen — InterMIND",
+    "metaDescription": "InterMIND Marketingmaterialien und Richtlinien zur Markenidentität, einschließlich Logo, Inhalten und Marken.",
+    "h1": "Medien-Kit",
+    "intro": "Eine Sammlung von InterMIND Marketingmaterialien und Richtlinien zur Markenidentität, einschließlich unseres Logos, unserer Inhalte und Marken. Zum Herunterladen klicken Sie mit der rechten Maustaste auf ein Bild und wählen Sie „Bild speichern“.",
+    "metadataTitle": "Metadaten",
+    "titleHeading": "Titel",
+    "title1": "Echtzeit-Sprachübersetzung in Videoanrufen.",
+    "title2": "Live-Sprachübersetzung in Videoanrufen — <strong>keine</strong> Verzögerungen, <strong>keine</strong> verlorenen Geschäfte, <strong>keine</strong> Sprachbarrieren.",
+    "descriptionHeading": "Beschreibung",
+    "description1": "Live-Sprachübersetzung in Videoanrufen für <strong>internationale Teams</strong>, wo Sprachbarrieren zu <strong>Verzögerungen, verlorenen Geschäften oder kostspieligen Missverständnissen</strong> führen.",
+    "description2": "InterMIND fügt jedem Videoanruf Echtzeit-Sprachübersetzung hinzu, damit internationale Teams nie wieder Geschäfte, Zeit oder Klarheit durch Sprachbarrieren verlieren.",
+    "logoHeading": "Logo",
+    "logoAlt": "InterMIND Logo",
+    "colorsHeading": "Markenfarben",
+    "promotionalHeading": "Werbebilder",
+    "interpretationHeading": "Simultandolmetschen",
+    "searchHeading": "Suche in all Ihren Meetings",
+    "interpretationAlt": "Simultandolmetschen",
+    "searchAlt": "Suche in all Ihren Meetings"
   }
 }
