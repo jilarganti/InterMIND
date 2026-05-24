@@ -323,5 +323,31 @@
   },
   "teamMembers": {
     "defaultLinkLabel": "Link"
+  },
+  "help": {
+    "metaTitle": "Obter Suporte — InterMIND",
+    "metaDescription": "Tem perguntas sobre interpretação de reuniões com IA, comunicação multilíngue ou integração empresarial? Estamos aqui para ajudar — rápido, humano e sem confusão.",
+    "h1": "💬 Precisa de Ajuda? Sem atrasos, sem confusão — apenas respostas.",
+    "ledeLine1": "Diga-nos o que você está tentando alcançar — e nós o ajudaremos a avançar.",
+    "ledeLine2": "Rápido, focado e com um ser humano real do outro lado.",
+    "categoryLabel": "O que o traz à InterMind hoje? *",
+    "categoryPlaceholder": "Escolha o seu principal motivo…",
+    "messageLabel": "Conte-nos mais *",
+    "messagePlaceholder": "Qualquer coisa que você gostaria de compartilhar — objetivos, contexto ou detalhes técnicos.",
+    "buttonText": "Obtenha ajuda especializada agora",
+    "responseTime": "Geralmente respondemos em um dia útil.",
+    "humanReview": "Sua solicitação será revisada por um ser humano real — não por um bot.",
+    "services": {
+      "gettingStarted": "Preciso de ajuda para começar",
+      "scheduleDemo": "Quero agendar uma demonstração",
+      "technicalIssue": "Tenho um problema técnico ou bug",
+      "integration": "Preciso de ajuda com a integração de reuniões",
+      "translationQuality": "Tenho perguntas sobre a qualidade da tradução",
+      "teamOnboarding": "Preciso de assistência com a integração da equipe",
+      "billing": "Tenho perguntas sobre faturamento ou assinatura",
+      "enterpriseFeatures": "Quero explorar recursos empresariais",
+      "apiAccess": "Quero obter o ID do aplicativo e o token da Mind API sem restrições",
+      "general": "Pergunta geral ou feedback"
+    }
   }
 }

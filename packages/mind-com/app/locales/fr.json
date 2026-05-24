@@ -323,5 +323,31 @@
   },
   "teamMembers": {
     "defaultLinkLabel": "Lien"
+  },
+  "help": {
+    "metaTitle": "Obtenir de l'aide — InterMIND",
+    "metaDescription": "Vous avez des questions sur l'interprétation de réunions assistée par l'IA, la communication multilingue ou l'intégration d'entreprise ? Nous sommes là pour vous aider — rapidement, humainement et sans confusion.",
+    "h1": "💬 Besoin d'aide ? Pas de délais, pas de confusion — juste des réponses.",
+    "ledeLine1": "Dites-nous ce que vous souhaitez accomplir — et nous vous aiderons à avancer.",
+    "ledeLine2": "Rapide, ciblé, et avec un véritable humain à l'autre bout.",
+    "categoryLabel": "Qu'est-ce qui vous amène chez InterMIND aujourd'hui ? *",
+    "categoryPlaceholder": "Choisissez votre raison principale…",
+    "messageLabel": "Dites-nous en plus *",
+    "messagePlaceholder": "Tout ce que vous souhaitez partager — objectifs, contexte ou détails techniques.",
+    "buttonText": "Obtenir l'aide d'un expert maintenant",
+    "responseTime": "Nous répondons généralement sous un jour ouvrable.",
+    "humanReview": "Votre demande sera examinée par un véritable humain — pas par un bot.",
+    "services": {
+      "gettingStarted": "J'ai besoin d'aide pour démarrer",
+      "scheduleDemo": "Je souhaite planifier une démo",
+      "technicalIssue": "J'ai un problème technique ou un bug",
+      "integration": "J'ai besoin d'aide pour l'intégration de réunions",
+      "translationQuality": "J'ai des questions sur la qualité de la traduction",
+      "teamOnboarding": "J'ai besoin d'aide pour l'intégration de mon équipe",
+      "billing": "J'ai des questions sur la facturation ou l'abonnement",
+      "enterpriseFeatures": "Je souhaite explorer les fonctionnalités Enterprise",
+      "apiAccess": "Je souhaite obtenir l'ID d'application et le jeton Mind API sans restrictions",
+      "general": "Question générale ou feedback"
+    }
   }
 }

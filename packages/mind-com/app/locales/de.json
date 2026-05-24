@@ -323,5 +323,31 @@
   },
   "teamMembers": {
     "defaultLinkLabel": "Link"
+  },
+  "help": {
+    "metaTitle": "Support erhalten — InterMIND",
+    "metaDescription": "Haben Sie Fragen zur KI-gestützten Besprechungsdolmetschung, mehrsprachigen Kommunikation oder zum Enterprise Onboarding? Wir sind für Sie da – schnell, persönlich und ohne Missverständnisse.",
+    "h1": "💬 Benötigen Sie Hilfe? Keine Verzögerungen, keine Missverständnisse – nur Antworten.",
+    "ledeLine1": "Teilen Sie uns mit, was Sie erreichen möchten – und wir helfen Ihnen dabei, voranzukommen.",
+    "ledeLine2": "Schnell, zielgerichtet und mit einem echten Menschen am anderen Ende.",
+    "categoryLabel": "Was führt Sie heute zu InterMIND? *",
+    "categoryPlaceholder": "Wählen Sie Ihren Hauptgrund aus…",
+    "messageLabel": "Erzählen Sie uns mehr *",
+    "messagePlaceholder": "Alles, was Sie teilen möchten – Ziele, Kontext oder technische Details.",
+    "buttonText": "Jetzt Expertenhilfe erhalten",
+    "responseTime": "Wir antworten in der Regel innerhalb eines Werktages.",
+    "humanReview": "Ihre Anfrage wird von einem echten Menschen geprüft – nicht von einem Bot.",
+    "services": {
+      "gettingStarted": "Ich benötige Hilfe beim Einstieg",
+      "scheduleDemo": "Ich möchte eine Demo vereinbaren",
+      "technicalIssue": "Ich habe ein technisches Problem oder einen Fehler",
+      "integration": "Ich benötige Hilfe bei der Besprechungsintegration",
+      "translationQuality": "Ich habe Fragen zur Übersetzungsqualität",
+      "teamOnboarding": "Ich benötige Unterstützung beim Team-Onboarding",
+      "billing": "Ich habe Fragen zur Abrechnung oder zum Abonnement",
+      "enterpriseFeatures": "Ich möchte Enterprise-Funktionen erkunden",
+      "apiAccess": "Ich möchte Mind API Anwendungs-ID und Token ohne Einschränkungen erhalten",
+      "general": "Allgemeine Frage oder Feedback"
+    }
   }
 }

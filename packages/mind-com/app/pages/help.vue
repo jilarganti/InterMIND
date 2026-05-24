@@ -1,53 +1,48 @@
 <script setup lang="ts">
+const { t } = useI18n()
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 
 useHead({
-  title: "Get Support — InterMIND",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Have questions about AI-powered meeting interpretation, multilingual communication, or enterprise onboarding? We're here to help — fast, human, and with no confusion.",
-    },
-  ],
+  title: () => t("help.metaTitle"),
+  meta: [{ name: "description", content: () => t("help.metaDescription") }],
   link: [{ rel: "canonical", href: `${siteUrl}/help` }],
 })
 
-const services = [
-  "I need help getting started",
-  "I want to schedule a demo",
-  "I have a technical issue or bug",
-  "I need help with meeting integration",
-  "I have questions about translation quality",
-  "I need assistance with team onboarding",
-  "I have billing or subscription questions",
-  "I want to explore enterprise features",
-  "I want to get Mind API application ID and token without restrictions",
-  "General question or feedback",
-]
+const services = computed(() => [
+  t("help.services.gettingStarted"),
+  t("help.services.scheduleDemo"),
+  t("help.services.technicalIssue"),
+  t("help.services.integration"),
+  t("help.services.translationQuality"),
+  t("help.services.teamOnboarding"),
+  t("help.services.billing"),
+  t("help.services.enterpriseFeatures"),
+  t("help.services.apiAccess"),
+  t("help.services.general"),
+])
 </script>
 
 <template>
   <div class="content">
-    <h1>💬 Need Assistance? No delays, no confusion — just answers.</h1>
+    <h1>{{ t("help.h1") }}</h1>
     <p class="lede">
-      Let us know what you're trying to achieve — and we'll help you move forward.<br />
-      Fast, focused, and with a real human on the other end.
+      {{ t("help.ledeLine1") }}<br />
+      {{ t("help.ledeLine2") }}
     </p>
 
     <ContactForm
       :services="services"
-      category-label="What brings you to InterMind today? *"
-      category-placeholder="Choose your main reason…"
-      message-label="Tell us more *"
-      message-placeholder="Anything you'd like to share — goals, context, or technical details."
-      button-text="Get expert help now"
+      :category-label="t('help.categoryLabel')"
+      :category-placeholder="t('help.categoryPlaceholder')"
+      :message-label="t('help.messageLabel')"
+      :message-placeholder="t('help.messagePlaceholder')"
+      :button-text="t('help.buttonText')"
     />
 
     <blockquote>
-      <p><em>We usually respond within one business day.</em></p>
-      <p><em>Your request will be reviewed by a real human — not a bot.</em></p>
+      <p><em>{{ t("help.responseTime") }}</em></p>
+      <p><em>{{ t("help.humanReview") }}</em></p>
     </blockquote>
   </div>
 </template>

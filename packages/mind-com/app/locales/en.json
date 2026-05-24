@@ -33,6 +33,32 @@
     "noPosts": "No posts yet.",
     "backToBlog": "← All posts"
   },
+  "help": {
+    "metaTitle": "Get Support — InterMIND",
+    "metaDescription": "Have questions about AI-powered meeting interpretation, multilingual communication, or enterprise onboarding? We're here to help — fast, human, and with no confusion.",
+    "h1": "💬 Need Assistance? No delays, no confusion — just answers.",
+    "ledeLine1": "Let us know what you're trying to achieve — and we'll help you move forward.",
+    "ledeLine2": "Fast, focused, and with a real human on the other end.",
+    "categoryLabel": "What brings you to InterMind today? *",
+    "categoryPlaceholder": "Choose your main reason…",
+    "messageLabel": "Tell us more *",
+    "messagePlaceholder": "Anything you'd like to share — goals, context, or technical details.",
+    "buttonText": "Get expert help now",
+    "responseTime": "We usually respond within one business day.",
+    "humanReview": "Your request will be reviewed by a real human — not a bot.",
+    "services": {
+      "gettingStarted": "I need help getting started",
+      "scheduleDemo": "I want to schedule a demo",
+      "technicalIssue": "I have a technical issue or bug",
+      "integration": "I need help with meeting integration",
+      "translationQuality": "I have questions about translation quality",
+      "teamOnboarding": "I need assistance with team onboarding",
+      "billing": "I have billing or subscription questions",
+      "enterpriseFeatures": "I want to explore enterprise features",
+      "apiAccess": "I want to get Mind API application ID and token without restrictions",
+      "general": "General question or feedback"
+    }
+  },
   "team": {
     "metaTitle": "Team — InterMIND",
     "metaDescription": "At Mind.com, humans lead, AI amplifies. Together, we blend creativity, code, and understanding to erase language barriers for good.",
