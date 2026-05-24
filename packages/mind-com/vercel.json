@@ -84,7 +84,7 @@
     },
 
     {
-      "source": "/:locale(ar|de|es|fr|hi|id|ja|ko|pt|ru|ta|tr|vi|zh)/:path*",
+      "source": "/:locale(ar|hi|id|ja|ko|ta|tr|vi)/:path*",
       "destination": "https://intermind.com/",
       "permanent": true
     },

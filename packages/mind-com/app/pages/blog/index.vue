@@ -1,30 +1,65 @@
 <script setup lang="ts">
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
+const { locale, t } = useI18n()
+const localePath = useLocalePath()
 
-const { data: posts } = await useAsyncData("blog-index", () =>
-  queryCollection("blog")
-    .where("hidden", "<>", true)
-    .order("date", "DESC")
-    .select("path", "title", "description", "date", "author", "image", "badge")
-    .all(),
+const blogCollectionMap = {
+  en: "blog",
+  es: "blog_es",
+  pt: "blog_pt",
+  fr: "blog_fr",
+  de: "blog_de",
+  ru: "blog_ru",
+  zh: "blog_zh",
+} as const
+type BlogCollection = (typeof blogCollectionMap)[keyof typeof blogCollectionMap]
+
+const defaultBlogCollection = "blog" as const
+const blogCollection = computed<BlogCollection>(() => blogCollectionMap[locale.value as keyof typeof blogCollectionMap] ?? defaultBlogCollection)
+
+async function getBlogPosts(collection: BlogCollection) {
+  try {
+    return await queryCollection(collection)
+      .where("hidden", "<>", true)
+      .order("date", "DESC")
+      .select("path", "title", "description", "date", "author", "image", "badge")
+      .all()
+  } catch (error) {
+    console.debug(`[Blog] Failed to query ${collection}, falling back`, error)
+    return []
+  }
+}
+
+const { data: posts } = await useAsyncData(
+  () => `blog-index-${locale.value}`,
+  async () => {
+    const localizedPosts = await getBlogPosts(blogCollection.value)
+    if (blogCollection.value === defaultBlogCollection) return localizedPosts
+    // Fill gaps with English originals so an incomplete locale tree still surfaces every post.
+    const localizedSlugs = new Set(localizedPosts.map((p) => p.path))
+    const fallbackPosts = await getBlogPosts(defaultBlogCollection)
+    return [...localizedPosts, ...fallbackPosts.filter((p) => !localizedSlugs.has(p.path))].sort(
+      (a, b) => Date.parse(b.date) - Date.parse(a.date),
+    )
+  },
+  { watch: [blogCollection] },
 )
 
-const title = "Blog — InterMIND"
-const description =
-  "Long-form research and analysis on real-time AI interpretation, multilingual meetings, and global team communication from the InterMIND team."
+const metaTitle = computed(() => t("blog.metaTitle"))
+const metaDescription = computed(() => t("blog.metaDescription"))
 
 useHead({
-  title,
+  title: () => metaTitle.value,
   meta: [
-    { name: "description", content: description },
+    { name: "description", content: () => metaDescription.value },
     { property: "og:type", content: "website" },
     { property: "og:url", content: `${siteUrl}/blog` },
-    { property: "og:title", content: title },
-    { property: "og:description", content: description },
+    { property: "og:title", content: () => metaTitle.value },
+    { property: "og:description", content: () => metaDescription.value },
     { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: title },
-    { name: "twitter:description", content: description },
+    { name: "twitter:title", content: () => metaTitle.value },
+    { name: "twitter:description", content: () => metaDescription.value },
   ],
   link: [{ rel: "canonical", href: `${siteUrl}/blog` }],
 })
@@ -34,15 +69,28 @@ function authorName(raw?: string | null): string | undefined {
   const match = raw.match(/^\[([^\]]+)\]/)
   return match ? match[1] : raw
 }
+
+const localeDateMap: Record<string, string> = {
+  en: "en-US",
+  es: "es-ES",
+  pt: "pt-BR",
+  fr: "fr-FR",
+  de: "de-DE",
+  ru: "ru-RU",
+  zh: "zh-CN",
+}
+function formatDate(d: string): string {
+  return new Date(d).toLocaleDateString(localeDateMap[locale.value] ?? "en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  })
+}
 </script>
 
 <template>
   <UContainer class="blog-container">
-    <UPageHeader
-      title="Blog"
-      description="Research and analysis on real-time AI interpretation and multilingual collaboration."
-      class="py-12"
-    />
+    <UPageHeader :title="t('blog.title')" :description="t('blog.description')" class="py-12" />
 
     <UPageBody>
       <UBlogPosts v-if="posts && posts.length">
@@ -51,10 +99,10 @@ function authorName(raw?: string | null): string | undefined {
           :key="post.path"
           :title="post.title"
           :description="post.description"
-          :date="new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })"
+          :date="formatDate(post.date)"
           :badge="post.badge ? { label: post.badge, color: 'primary' } : undefined"
           :authors="authorName(post.author) ? [{ name: authorName(post.author)! }] : undefined"
-          :to="post.path"
+          :to="localePath(post.path)"
           variant="naked"
         >
           <template v-if="post.image" #header>
@@ -63,7 +111,7 @@ function authorName(raw?: string | null): string | undefined {
         </UBlogPost>
       </UBlogPosts>
 
-      <p v-else class="empty">No posts yet.</p>
+      <p v-else class="empty">{{ t("blog.noPosts") }}</p>
     </UPageBody>
   </UContainer>
 </template>

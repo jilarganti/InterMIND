@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   ssr: true,
 
   // Phase 5 will add @pinia/nuxt for AI chat store.
-  modules: ["@nuxt/content", "@nuxt/ui", "@nuxtjs/sitemap", "@nuxtjs/robots", "@vueuse/nuxt"],
+  modules: ["@nuxt/content", "@nuxt/ui", "@nuxtjs/i18n", "@nuxtjs/sitemap", "@nuxtjs/robots", "@vueuse/nuxt"],
 
   css: ["~/assets/css/main.css", "~/assets/css/prose.css"],
 
@@ -24,6 +24,33 @@ export default defineNuxtConfig({
     url: process.env.NUXT_PUBLIC_SITE_URL ?? "https://mind.com",
     name: "InterMIND",
     indexable: process.env.VERCEL_ENV === "production",
+  },
+
+  // Internationalization (i18n). Locales mirror the product (inter.mind.com)
+  // so a visitor landing on either property gets the same language set. UI
+  // strings live in app/locales/<code>.json; content is mirrored under
+  // content/<code>/{blog,legal}/ by scripts/i18n-translate-content.ts.
+  i18n: {
+    locales: [
+      { code: "en", name: "English", file: "en.json" },
+      { code: "es", name: "Spanish (Latin America)", file: "es.json" },
+      { code: "pt", name: "Portuguese (Brazilian)", file: "pt.json" },
+      { code: "fr", name: "French", file: "fr.json" },
+      { code: "de", name: "German", file: "de.json" },
+      { code: "ru", name: "Russian", file: "ru.json" },
+      { code: "zh", name: "Chinese (Simplified)", file: "zh.json" },
+    ],
+    langDir: "locales",
+    restructureDir: "app",
+    defaultLocale: "en",
+    baseUrl: process.env.NUXT_PUBLIC_SITE_URL ?? "https://mind.com",
+    strategy: "prefix_except_default",
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "mind-com:locale",
+      fallbackLocale: "en",
+      redirectOn: "root",
+    },
   },
 
   sitemap: {
@@ -57,7 +84,9 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      htmlAttrs: { lang: "en" },
+      // `htmlAttrs.lang` and `<link hreflang>` are set per-request by
+      // `useLocaleHead()` in app.vue — keep them out of the static config
+      // so @nuxtjs/i18n can drive them.
       meta: [
         { name: "theme-color", content: "#dd9144" },
         { property: "og:type", content: "website" },

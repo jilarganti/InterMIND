@@ -12,11 +12,17 @@
     "postinstall": "nuxt prepare",
     "lint": "pnpm eslint --cache .",
     "format": "prettier --cache --cache-strategy content -w .",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "i18n:translate:content": "tsx scripts/i18n-translate-content.ts",
+    "i18n:translate:content:from-en": "tsx scripts/i18n-translate-content.ts --from-en",
+    "i18n:translate:content:all": "tsx scripts/i18n-translate-content.ts --all",
+    "i18n:translate:ui": "tsx scripts/i18n-translate-ui.ts",
+    "i18n:translate:ui:from-en": "tsx scripts/i18n-translate-ui.ts --from-en"
   },
   "dependencies": {
     "@nuxt/content": "^3.14.0",
     "@nuxt/ui": "^4.8.0",
+    "@nuxtjs/i18n": "^10.2.4",
     "@nuxtjs/robots": "^6.0.8",
     "@nuxtjs/sitemap": "^8.0.15",
     "@vueuse/nuxt": "^12.8.2",
@@ -26,8 +32,10 @@
     "vue": "^3.5.18"
   },
   "devDependencies": {
+    "@ai-sdk/gateway": "^3.0.95",
     "@iconify-json/lucide": "^1.2.109",
     "@types/node": "^22.17.2",
+    "ai": "^6.0.158",
     "simple-git-hooks": "^2.13.1"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "blog": {
+    "title": "博客",
+    "description": "关于实时AI口译和多语言协作的研究与分析。",
+    "metaTitle": "博客 — InterMIND",
+    "metaDescription": "来自 InterMIND 团队的深度研究与分析，涵盖实时AI口译、多语言会议和全球团队沟通。",
+    "noPosts": "暂无博文。",
+    "backToBlog": "← 所有博文"
+  }
+}

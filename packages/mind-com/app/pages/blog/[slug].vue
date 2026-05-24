@@ -2,14 +2,55 @@
 const route = useRoute()
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
+const { locale, t } = useI18n()
+const localePath = useLocalePath()
 
-const { data: post } = await useAsyncData(`blog-${route.path}`, () => queryCollection("blog").path(route.path).first())
+const blogCollectionMap = {
+  en: "blog",
+  es: "blog_es",
+  pt: "blog_pt",
+  fr: "blog_fr",
+  de: "blog_de",
+  ru: "blog_ru",
+  zh: "blog_zh",
+} as const
+type BlogCollection = (typeof blogCollectionMap)[keyof typeof blogCollectionMap]
+
+const defaultBlogCollection = "blog" as const
+const blogCollection = computed<BlogCollection>(() => blogCollectionMap[locale.value as keyof typeof blogCollectionMap] ?? defaultBlogCollection)
+
+// route.path inside a localized route includes the locale prefix (e.g. /ru/blog/foo);
+// @nuxt/content collections are mounted at the bare /blog prefix, so strip it.
+const contentPath = computed(() => {
+  const prefix = `/${locale.value}`
+  return locale.value !== "en" && route.path.startsWith(prefix) ? route.path.slice(prefix.length) : route.path
+})
+
+async function fetchPost(collection: BlogCollection) {
+  try {
+    return await queryCollection(collection).path(contentPath.value).first()
+  } catch (error) {
+    console.debug(`[Blog] Failed to query ${collection}, falling back`, error)
+    return null
+  }
+}
+
+const { data: post } = await useAsyncData(
+  () => `blog-post-${locale.value}-${contentPath.value}`,
+  async () => {
+    const localized = await fetchPost(blogCollection.value)
+    if (localized) return localized
+    if (blogCollection.value !== defaultBlogCollection) return fetchPost(defaultBlogCollection)
+    return null
+  },
+  { watch: [blogCollection, contentPath] },
+)
 
 if (!post.value) {
   throw createError({ statusCode: 404, statusMessage: "Post not found", fatal: true })
 }
 
-const pageUrl = `${siteUrl}${post.value.path}`
+const pageUrl = `${siteUrl}${route.path}`
 const canonical = post.value.canonical ?? pageUrl
 
 useHead({
@@ -47,8 +88,21 @@ useHead({
   ],
 })
 
+const localeDateMap: Record<string, string> = {
+  en: "en-US",
+  es: "es-ES",
+  pt: "pt-BR",
+  fr: "fr-FR",
+  de: "de-DE",
+  ru: "ru-RU",
+  zh: "zh-CN",
+}
 function formatDate(d: string): string {
-  return new Date(d).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })
+  return new Date(d).toLocaleDateString(localeDateMap[locale.value] ?? "en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  })
 }
 </script>
 
@@ -63,7 +117,7 @@ function formatDate(d: string): string {
       <ContentRenderer :value="post" class="prose" />
     </article>
     <p class="back">
-      <NuxtLink to="/blog">← All posts</NuxtLink>
+      <NuxtLink :to="localePath('/blog')">{{ t("blog.backToBlog") }}</NuxtLink>
     </p>
   </div>
 </template>

@@ -2,14 +2,54 @@
 const route = useRoute()
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
+const { locale } = useI18n()
 
-const { data: doc } = await useAsyncData(`legal-${route.path}`, () => queryCollection("legal").path(route.path).first())
+const legalCollectionMap = {
+  en: "legal",
+  es: "legal_es",
+  pt: "legal_pt",
+  fr: "legal_fr",
+  de: "legal_de",
+  ru: "legal_ru",
+  zh: "legal_zh",
+} as const
+type LegalCollection = (typeof legalCollectionMap)[keyof typeof legalCollectionMap]
+
+const defaultLegalCollection = "legal" as const
+const legalCollection = computed<LegalCollection>(
+  () => legalCollectionMap[locale.value as keyof typeof legalCollectionMap] ?? defaultLegalCollection,
+)
+
+const contentPath = computed(() => {
+  const prefix = `/${locale.value}`
+  return locale.value !== "en" && route.path.startsWith(prefix) ? route.path.slice(prefix.length) : route.path
+})
+
+async function fetchDoc(collection: LegalCollection) {
+  try {
+    return await queryCollection(collection).path(contentPath.value).first()
+  } catch (error) {
+    console.debug(`[Legal] Failed to query ${collection}, falling back`, error)
+    return null
+  }
+}
+
+const { data: doc } = await useAsyncData(
+  () => `legal-${locale.value}-${contentPath.value}`,
+  async () => {
+    const localized = await fetchDoc(legalCollection.value)
+    if (localized) return localized
+    if (legalCollection.value !== defaultLegalCollection) return fetchDoc(defaultLegalCollection)
+    return null
+  },
+  { watch: [legalCollection, contentPath] },
+)
 
 if (!doc.value) {
   throw createError({ statusCode: 404, statusMessage: "Document not found", fatal: true })
 }
 
-const pageUrl = `${siteUrl}${doc.value.path}`
+const pageUrl = `${siteUrl}${route.path}`
 
 useHead({
   title: `${doc.value.title} — InterMIND`,

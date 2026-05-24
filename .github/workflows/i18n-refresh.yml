@@ -1,0 +1,100 @@
+name: i18n refresh (mind-com)
+
+# Refreshes localized content/UI strings whenever English sources change on main.
+# - content (blog + legal): mirrors content/{blog,legal}/<f>.md → content/<locale>/{blog,legal}/<f>.md
+# - UI strings: translates app/locales/{es,pt,fr,de,ru,zh}.json entries marked [NEEDS_TRANSLATION]
+# If diffs are produced, opens (or updates) a PR. Manual run via workflow_dispatch is also supported.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "packages/mind-com/content/blog/**"
+      - "packages/mind-com/content/legal/**"
+      - "packages/mind-com/app/locales/en.json"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Translation mode"
+        required: true
+        default: "from-en"
+        type: choice
+        options: [from-en, all]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: packages/mind-com
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Need full history so `git diff HEAD` / `git show HEAD:...` work in the scripts.
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        working-directory: .
+
+      - name: Refresh content translations
+        env:
+          AI_GATEWAY_API_KEY: ${{ secrets.AI_GATEWAY_API_KEY }}
+          TRANSLATION_EVAL_MODEL: ${{ vars.TRANSLATION_EVAL_MODEL }}
+          TRANSLATION_EVAL_FALLBACK_MODEL: ${{ vars.TRANSLATION_EVAL_FALLBACK_MODEL }}
+        run: |
+          MODE="${{ inputs.mode || 'from-en' }}"
+          pnpm exec tsx scripts/i18n-translate-content.ts --"$MODE"
+
+      - name: Refresh UI string translations
+        env:
+          AI_GATEWAY_API_KEY: ${{ secrets.AI_GATEWAY_API_KEY }}
+          TRANSLATION_EVAL_MODEL: ${{ vars.TRANSLATION_EVAL_MODEL }}
+          TRANSLATION_EVAL_FALLBACK_MODEL: ${{ vars.TRANSLATION_EVAL_FALLBACK_MODEL }}
+        run: pnpm exec tsx scripts/i18n-translate-ui.ts --from-en
+
+      - name: Detect changes
+        id: diff
+        working-directory: .
+        run: |
+          if git diff --quiet packages/mind-com/content packages/mind-com/app/locales; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open / update translation PR
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(i18n): refresh translations"
+          title: "chore(i18n): refresh translations"
+          body: |
+            Auto-refreshed translations for `packages/mind-com`:
+
+            - `content/<locale>/{blog,legal}/**` mirrored from English sources
+            - `app/locales/<locale>.json` entries cleared of `[NEEDS_TRANSLATION]` markers
+
+            Triggered by ${{ github.event_name == 'workflow_dispatch' && format('manual run (mode={0})', inputs.mode) || format('push to main ({0})', github.sha) }}.
+          branch: i18n/auto-refresh
+          base: main
+          delete-branch: true
+          add-paths: |
+            packages/mind-com/content
+            packages/mind-com/app/locales
