@@ -106,5 +106,24 @@
       "ctaPrimary": "体验实时演示",
       "ctaSecondary": "查看公开基准"
     }
+  },
+  "footer": {
+    "supportTitle": "支持",
+    "resourcesTitle": "资源",
+    "companyTitle": "公司",
+    "getSupport": "获取支持",
+    "privacyPolicy": "隐私政策",
+    "aiLegalGuide": "AI 法律指南",
+    "serviceStatus": "服务状态",
+    "blog": "博客",
+    "globalLanguageAccess": "全球语言无障碍合规",
+    "brandAssets": "品牌资产",
+    "aiApiDocs": "AI API / LLM 文档",
+    "about": "关于我们",
+    "team": "团队",
+    "careers": "职业发展",
+    "contacts": "联系方式",
+    "copyright": "© Mind, {year}。",
+    "newVersionLabel": "新版本：{url}"
   }
 }

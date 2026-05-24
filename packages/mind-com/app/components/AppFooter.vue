@@ -1,38 +1,41 @@
 <script setup lang="ts">
+const { t } = useI18n()
+const localePath = useLocalePath()
 const config = useRuntimeConfig()
 const productUrl = config.public.productUrl
 
-const columns = [
+const columns = computed(() => [
   {
-    title: "SUPPORT",
+    title: t("footer.supportTitle"),
     links: [
-      { text: "Get Support", href: "/help" },
-      { text: "Privacy Policy", href: "/legal/privacy" },
-      { text: "AI Legal Guide", href: "/legal/terms" },
-      { text: "Service Status", href: "https://status.mind.com/", external: true },
+      { text: t("footer.getSupport"), href: localePath("/help") },
+      { text: t("footer.privacyPolicy"), href: localePath("/legal/privacy") },
+      { text: t("footer.aiLegalGuide"), href: localePath("/legal/terms") },
+      { text: t("footer.serviceStatus"), href: "https://status.mind.com/", external: true },
     ],
   },
   {
-    title: "RESOURCES",
+    title: t("footer.resourcesTitle"),
     links: [
-      { text: "Blog", href: "/blog" },
-      { text: "Global Language Access Compliance", href: "/blog/global-language-access-compliance" },
-      { text: "Brand Assets", href: "/brand-assets" },
-      { text: "AI API / LLM Docs", href: "/llms-full.txt", external: true },
+      { text: t("footer.blog"), href: localePath("/blog") },
+      { text: t("footer.globalLanguageAccess"), href: localePath("/blog/global-language-access-compliance") },
+      { text: t("footer.brandAssets"), href: localePath("/brand-assets") },
+      { text: t("footer.aiApiDocs"), href: "/llms-full.txt", external: true },
     ],
   },
   {
-    title: "COMPANY",
+    title: t("footer.companyTitle"),
     links: [
-      { text: "About", href: "/about" },
-      { text: "Team", href: "/team" },
-      { text: "Careers", href: "/careers" },
-      { text: "Contacts", href: "/contacts" },
+      { text: t("footer.about"), href: localePath("/about") },
+      { text: t("footer.team"), href: localePath("/team") },
+      { text: t("footer.careers"), href: localePath("/careers") },
+      { text: t("footer.contacts"), href: localePath("/contacts") },
     ],
   },
-]
+])
 
 const year = new Date().getFullYear()
+const productUrlBare = productUrl.replace(/^https?:\/\//, "")
 </script>
 
 <template>
@@ -52,8 +55,8 @@ const year = new Date().getFullYear()
         </div>
       </div>
       <div class="meta">
-        © Mind, {{ year }}. ·
-        <a :href="productUrl">New version: {{ productUrl.replace(/^https?:\/\//, "") }}</a>
+        {{ t("footer.copyright", { year }) }} ·
+        <a :href="productUrl">{{ t("footer.newVersionLabel", { url: productUrlBare }) }}</a>
       </div>
     </div>
   </footer>

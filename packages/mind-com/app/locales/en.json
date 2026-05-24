@@ -2,6 +2,25 @@
   "nav": {
     "switchLanguage": "Switch language"
   },
+  "footer": {
+    "supportTitle": "SUPPORT",
+    "resourcesTitle": "RESOURCES",
+    "companyTitle": "COMPANY",
+    "getSupport": "Get Support",
+    "privacyPolicy": "Privacy Policy",
+    "aiLegalGuide": "AI Legal Guide",
+    "serviceStatus": "Service Status",
+    "blog": "Blog",
+    "globalLanguageAccess": "Global Language Access Compliance",
+    "brandAssets": "Brand Assets",
+    "aiApiDocs": "AI API / LLM Docs",
+    "about": "About",
+    "team": "Team",
+    "careers": "Careers",
+    "contacts": "Contacts",
+    "copyright": "© Mind, {year}.",
+    "newVersionLabel": "New version: {url}"
+  },
   "blog": {
     "title": "Blog",
     "description": "Research and analysis on real-time AI interpretation and multilingual collaboration.",

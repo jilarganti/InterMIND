@@ -106,5 +106,24 @@
       "ctaPrimary": "Попробовать живую демонстрацию",
       "ctaSecondary": "Посмотреть публичный эталон"
     }
+  },
+  "footer": {
+    "supportTitle": "ПОДДЕРЖКА",
+    "resourcesTitle": "РЕСУРСЫ",
+    "companyTitle": "КОМПАНИЯ",
+    "getSupport": "Получить поддержку",
+    "privacyPolicy": "Политика конфиденциальности",
+    "aiLegalGuide": "Юридическое руководство по ИИ",
+    "serviceStatus": "Статус сервиса",
+    "blog": "Блог",
+    "globalLanguageAccess": "Соблюдение требований глобального языкового доступа",
+    "brandAssets": "Материалы бренда",
+    "aiApiDocs": "Документация по AI API / LLM",
+    "about": "О нас",
+    "team": "Команда",
+    "careers": "Карьера",
+    "contacts": "Контакты",
+    "copyright": "© Mind, {year}.",
+    "newVersionLabel": "Новая версия: {url}"
   }
 }

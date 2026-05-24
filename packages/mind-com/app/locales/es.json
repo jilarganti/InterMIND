@@ -106,5 +106,24 @@
       "ctaPrimary": "Pruebe la demostración en vivo",
       "ctaSecondary": "Vea el benchmark público"
     }
+  },
+  "footer": {
+    "supportTitle": "SOPORTE",
+    "resourcesTitle": "RECURSOS",
+    "companyTitle": "EMPRESA",
+    "getSupport": "Obtener Soporte",
+    "privacyPolicy": "Política de Privacidad",
+    "aiLegalGuide": "Guía Legal de IA",
+    "serviceStatus": "Estado del Servicio",
+    "blog": "Blog",
+    "globalLanguageAccess": "Cumplimiento de Acceso Global a Idiomas",
+    "brandAssets": "Activos de Marca",
+    "aiApiDocs": "Documentación de API de IA / LLM",
+    "about": "Acerca de",
+    "team": "Equipo",
+    "careers": "Carreras",
+    "contacts": "Contactos",
+    "copyright": "© Mind, {year}.",
+    "newVersionLabel": "Nueva versión: {url}"
   }
 }
