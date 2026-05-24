@@ -8,7 +8,11 @@
     "backToBlog": "← Tous les articles"
   },
   "nav": {
-    "switchLanguage": "Changer de langue"
+    "switchLanguage": "Changer de langue",
+    "brandLabel": "Accueil InterMIND",
+    "blog": "Blog",
+    "signIn": "Se connecter",
+    "newVersion": "Nouvelle version"
   },
   "home": {
     "metaTitle": "InterMIND — Réunions multilingues vérifiables pour les environnements à enjeux élevés",

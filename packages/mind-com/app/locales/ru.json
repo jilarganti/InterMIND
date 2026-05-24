@@ -8,7 +8,11 @@
     "backToBlog": "← Все записи"
   },
   "nav": {
-    "switchLanguage": "Сменить язык"
+    "switchLanguage": "Сменить язык",
+    "brandLabel": "Главная InterMIND",
+    "blog": "Блог",
+    "signIn": "Войти",
+    "newVersion": "Новая версия"
   },
   "home": {
     "metaTitle": "InterMIND — Проверяемые многоязычные встречи для важных переговоров",

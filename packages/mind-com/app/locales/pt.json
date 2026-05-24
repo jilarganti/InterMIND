@@ -8,7 +8,11 @@
     "backToBlog": "← Todos os posts"
   },
   "nav": {
-    "switchLanguage": "Mudar idioma"
+    "switchLanguage": "Mudar idioma",
+    "brandLabel": "InterMIND início",
+    "blog": "Blog",
+    "signIn": "Entrar",
+    "newVersion": "Nova versão"
   },
   "home": {
     "metaTitle": "InterMIND — Reuniões multilíngues verificáveis para salas de alto risco",

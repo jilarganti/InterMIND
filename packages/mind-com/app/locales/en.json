@@ -1,6 +1,10 @@
 {
   "nav": {
-    "switchLanguage": "Switch language"
+    "switchLanguage": "Switch language",
+    "brandLabel": "InterMIND home",
+    "blog": "Blog",
+    "signIn": "Sign in",
+    "newVersion": "New version"
   },
   "footer": {
     "supportTitle": "SUPPORT",

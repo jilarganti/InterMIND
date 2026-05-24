@@ -8,7 +8,11 @@
     "backToBlog": "← 所有博文"
   },
   "nav": {
-    "switchLanguage": "切换语言"
+    "switchLanguage": "切换语言",
+    "brandLabel": "InterMIND 首页",
+    "blog": "博客",
+    "signIn": "登录",
+    "newVersion": "新版本"
   },
   "home": {
     "metaTitle": "InterMIND — 可验证的多语言会议，适用于高风险场合",

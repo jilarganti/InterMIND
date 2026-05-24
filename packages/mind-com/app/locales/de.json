@@ -8,7 +8,11 @@
     "backToBlog": "← Alle Beiträge"
   },
   "nav": {
-    "switchLanguage": "Sprache wechseln"
+    "switchLanguage": "Sprache wechseln",
+    "brandLabel": "InterMIND Startseite",
+    "blog": "Blog",
+    "signIn": "Anmelden",
+    "newVersion": "Neue Version"
   },
   "home": {
     "metaTitle": "InterMIND — Verifizierbare mehrsprachige Meetings für kritische Besprechungen",
