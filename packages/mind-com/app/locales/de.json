@@ -290,5 +290,38 @@
       "specialist": "Spezialist, der anders denkt"
     },
     "tagline": "InterMIND – Technologie, die die Welt wirklich global macht."
+  },
+  "team": {
+    "metaTitle": "Team — InterMIND",
+    "metaDescription": "Bei Mind.com führen Menschen, KI verstärkt. Gemeinsam vereinen wir Kreativität, Code und Verständnis, um Sprachbarrieren dauerhaft zu beseitigen.",
+    "h1": "Bei Mind.com führen Menschen, KI verstärkt",
+    "ledeParagraph": "Gemeinsam vereinen wir Kreativität, Code und Verständnis, um Sprachbarrieren dauerhaft zu beseitigen. Erfahren Sie mehr {link}.",
+    "ledeAboutLink": "über unsere Mission",
+    "humanTeamTitle": "Menschliches Team",
+    "aiTeamTitle": "KI-Team",
+    "aiTeamNote": "KI-Teammitglieder sind nicht menschlich, aber sie sind ein integraler Bestandteil unserer Abläufe. Sie unterstützen uns bei verschiedenen Aufgaben, von der Codierung bis zur Forschung, und helfen uns, Sprachbarrieren abzubauen.",
+    "ctaParagraph": "{strong} Entdecken Sie unsere {link}.",
+    "ctaStrong": "Möchten Sie uns beitreten?",
+    "ctaCareersLink": "Karrieremöglichkeiten",
+    "humans": {
+      "mindDesc": "Sprachbarrieren dauerhaft beseitigen",
+      "jilargantiDesc": "Bringt **neue Köpfe** zu InterMIND"
+    },
+    "ai": {
+      "claudeDesc": "Bringt Klarheit in Gespräche",
+      "geminiDesc": "Verbindet Wissen mit Absicht",
+      "chatgptDesc": "Interpretiert mit Nuance und Gedächtnis",
+      "deepseekDesc": "Denkt in Code und argumentiert im Kontext"
+    },
+    "countries": {
+      "portugal": "Portugal",
+      "uae": "VAE",
+      "usa": "USA",
+      "china": "China"
+    },
+    "humanName": "Das **Mind.com** Team"
+  },
+  "teamMembers": {
+    "defaultLinkLabel": "Link"
   }
 }

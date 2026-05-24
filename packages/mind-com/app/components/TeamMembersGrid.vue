@@ -12,16 +12,18 @@ interface TeamMember {
   links?: TeamMemberLink[]
 }
 defineProps<{ members: TeamMember[] }>()
+const { t } = useI18n()
 
 function iconLabel(icon?: string): string {
-  if (!icon) return "Link"
+  const fallback = t("teamMembers.defaultLinkLabel")
+  if (!icon) return fallback
   const map: Record<string, string> = {
     "mdi:twitter": "𝕏",
     "mdi:linkedin": "LinkedIn",
     "mdi:github": "GitHub",
     "mdi:gitlab": "GitLab",
   }
-  return map[icon] ?? "Link"
+  return map[icon] ?? fallback
 }
 
 function isImageUrl(s?: string): boolean {

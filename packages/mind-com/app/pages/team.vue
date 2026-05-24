@@ -1,22 +1,19 @@
 <script setup lang="ts">
+const { t } = useI18n()
+const localePath = useLocalePath()
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 
 useHead({
-  title: "Team — InterMIND",
-  meta: [
-    {
-      name: "description",
-      content: "At Mind.com, humans lead, AI amplifies. Together, we blend creativity, code, and understanding to erase language barriers for good.",
-    },
-  ],
+  title: () => t("team.metaTitle"),
+  meta: [{ name: "description", content: () => t("team.metaDescription") }],
   link: [{ rel: "canonical", href: `${siteUrl}/team` }],
 })
 
-const humans = [
+const humans = computed(() => [
   {
-    name: "The **Mind.com** Team",
-    desc: "Erasing language barriers for good",
+    name: t("team.humanName"),
+    desc: t("team.humans.mindDesc"),
     avatarLink: "/logo.svg",
     links: [
       { icon: "mdi:twitter", link: "https://x.com/imindcom" },
@@ -25,53 +22,58 @@ const humans = [
   },
   {
     name: "Windicted",
-    country: "Portugal",
+    country: t("team.countries.portugal"),
     avatarLink: "https://secure.gravatar.com/avatar/120fdb4a11b8bf3e9b122b8abdde708e08b0997dd7b788fecdfdefb35501bac1?s=1600&d=identicon",
     links: [{ icon: "mdi:gitlab", link: "https://gitlab.com/alexander.strikhalev" }],
   },
   {
     name: "Jilarganti",
-    desc: "Bringing **new minds** to InterMIND",
-    country: "UAE",
+    desc: t("team.humans.jilargantiDesc"),
+    country: t("team.countries.uae"),
     avatarLink: "https://github.com/jilarganti.png",
     links: [
       { icon: "mdi:github", link: "https://github.com/jilarganti" },
       { icon: "mdi:linkedin", link: "https://www.linkedin.com/in/aleksey-korolev" },
     ],
   },
-]
+])
 
-const ai = [
-  { name: "Claude", desc: "Bringing clarity to conversations", country: "USA", links: [{ link: "https://claude.ai/", label: "claude.ai" }] },
-  { name: "Gemini", desc: "Connecting knowledge with intent", country: "USA", links: [{ link: "https://gemini.google.com/", label: "gemini.google.com" }] },
-  { name: "ChatGPT", desc: "Interpreting with nuance and memory", country: "USA", links: [{ link: "https://chatgpt.com/", label: "chatgpt.com" }] },
+const ai = computed(() => [
+  { name: "Claude", desc: t("team.ai.claudeDesc"), country: t("team.countries.usa"), links: [{ link: "https://claude.ai/", label: "claude.ai" }] },
+  {
+    name: "Gemini",
+    desc: t("team.ai.geminiDesc"),
+    country: t("team.countries.usa"),
+    links: [{ link: "https://gemini.google.com/", label: "gemini.google.com" }],
+  },
+  { name: "ChatGPT", desc: t("team.ai.chatgptDesc"), country: t("team.countries.usa"), links: [{ link: "https://chatgpt.com/", label: "chatgpt.com" }] },
   {
     name: "DeepSeek",
-    desc: "Thinking in code and reasoning in context",
-    country: "China",
+    desc: t("team.ai.deepseekDesc"),
+    country: t("team.countries.china"),
     links: [{ link: "https://chat.deepseek.com/", label: "chat.deepseek.com" }],
   },
-]
+])
 </script>
 
 <template>
   <div class="content">
-    <h1>At Mind.com, humans lead, AI amplifies</h1>
-    <p class="lede">
-      Together, we blend creativity, code, and understanding to erase language barriers for good. Learn more <a href="/about">about our mission</a>.
-    </p>
+    <h1>{{ t("team.h1") }}</h1>
+    <i18n-t keypath="team.ledeParagraph" tag="p" class="lede">
+      <template #link><NuxtLink :to="localePath('/about')">{{ t("team.ledeAboutLink") }}</NuxtLink></template>
+    </i18n-t>
 
-    <h2>Human Team</h2>
+    <h2>{{ t("team.humanTeamTitle") }}</h2>
     <TeamMembersGrid :members="humans" />
 
-    <h2>AI Team</h2>
-    <p class="note">
-      AI team members are not human, but they are integral to our operations. They assist in various tasks, from coding to research, and help us break down
-      language barriers.
-    </p>
+    <h2>{{ t("team.aiTeamTitle") }}</h2>
+    <p class="note">{{ t("team.aiTeamNote") }}</p>
     <TeamMembersGrid :members="ai" />
 
-    <p><strong>Want to join us?</strong> Check out our <a href="/careers">career opportunities</a>.</p>
+    <i18n-t keypath="team.ctaParagraph" tag="p">
+      <template #strong><strong>{{ t("team.ctaStrong") }}</strong></template>
+      <template #link><NuxtLink :to="localePath('/careers')">{{ t("team.ctaCareersLink") }}</NuxtLink></template>
+    </i18n-t>
   </div>
 </template>
 

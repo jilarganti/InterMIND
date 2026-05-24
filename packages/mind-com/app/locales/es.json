@@ -290,5 +290,38 @@
       "specialist": "Especialista que piensa diferente"
     },
     "tagline": "InterMIND — tecnología que hace el mundo verdaderamente global."
+  },
+  "team": {
+    "metaTitle": "Equipo — InterMIND",
+    "metaDescription": "En Mind.com, los humanos lideran, la IA amplifica. Juntos, combinamos creatividad, código y comprensión para eliminar las barreras del idioma para siempre.",
+    "h1": "En Mind.com, los humanos lideran, la IA amplifica",
+    "ledeParagraph": "Juntos, combinamos creatividad, código y comprensión para eliminar las barreras del idioma para siempre. Más información {link}.",
+    "ledeAboutLink": "sobre nuestra misión",
+    "humanTeamTitle": "Equipo Humano",
+    "aiTeamTitle": "Equipo de IA",
+    "aiTeamNote": "Los miembros del equipo de IA no son humanos, pero son parte integral de nuestras operaciones. Asisten en diversas tareas, desde la codificación hasta la investigación, y nos ayudan a derribar las barreras del idioma.",
+    "ctaParagraph": "{strong} Consulta nuestras {link}.",
+    "ctaStrong": "¿Quieres unirte a nosotros?",
+    "ctaCareersLink": "oportunidades profesionales",
+    "humans": {
+      "mindDesc": "Eliminando las barreras del idioma para siempre",
+      "jilargantiDesc": "Aportando **nuevas mentes** a InterMIND"
+    },
+    "ai": {
+      "claudeDesc": "Aportando claridad a las conversaciones",
+      "geminiDesc": "Conectando el conocimiento con la intención",
+      "chatgptDesc": "Interpretando con matices y memoria",
+      "deepseekDesc": "Pensando en código y razonando en contexto"
+    },
+    "countries": {
+      "portugal": "Portugal",
+      "uae": "EAU",
+      "usa": "EE. UU.",
+      "china": "China"
+    },
+    "humanName": "El equipo de **Mind.com**"
+  },
+  "teamMembers": {
+    "defaultLinkLabel": "Enlace"
   }
 }
