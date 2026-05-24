@@ -163,5 +163,52 @@
     "ctaTeamLink": "página del equipo",
     "ctaCareersLink": "oportunidades de carrera",
     "ctaContactsLink": "póngase en contacto"
+  },
+  "contacts": {
+    "metaTitle": "Contactar con InterMIND",
+    "metaDescription": "¿Quiere asociarse con InterMind, invertir o contactar con nuestro equipo ejecutivo? Utilice este formulario para consultas comerciales, solicitudes de medios o asuntos legales.",
+    "h1": "🤝 ¿Quiere contactar con InterMind? Conectemos.",
+    "lede": "Utilice este formulario para contactar directamente con nuestro equipo — para asociaciones, inversiones, medios, cumplimiento normativo u otros asuntos relacionados con el negocio. Nos aseguraremos de que su mensaje llegue a la persona adecuada.",
+    "categoryLabel": "¿Cuál es el motivo de su consulta? *",
+    "categoryPlaceholder": "Elija su tema...",
+    "messageLabel": "Mensaje *",
+    "messagePlaceholder": "Comparta cualquier antecedente relevante, plazos o contexto que desee que consideremos.",
+    "buttonText": "Enviar su mensaje",
+    "services": {
+      "partnership": "Oportunidad de asociación estratégica",
+      "investment": "Discusión sobre inversión o financiación",
+      "enterprise": "Consulta sobre soluciones Enterprise",
+      "media": "Solicitud de medios y prensa",
+      "legal": "Asunto legal o de cumplimiento normativo",
+      "security": "Preocupación o informe de seguridad",
+      "businessDev": "Propuesta de desarrollo de negocio",
+      "general": "Consulta comercial general"
+    },
+    "helpBlockStrong": "¿Necesita ayuda con el producto?",
+    "helpBlock": "Visite nuestra {link} para obtener respuestas rápidas y asistencia del equipo de InterMind.",
+    "helpLink": "Página de Soporte",
+    "learnBlockStrong": "¿Quiere saber más sobre nosotros?",
+    "learnBlock": "Consulte nuestra {about}, conozca a {team} o explore {careers}.",
+    "learnAboutLink": "página 'Acerca de nosotros'",
+    "learnTeamLink": "el equipo",
+    "learnCareersLink": "oportunidades laborales"
+  },
+  "contactForm": {
+    "nameLabel": "Nombre *",
+    "namePlaceholder": "su nombre",
+    "emailLabel": "Correo electrónico *",
+    "emailPlaceholder": "su dirección de correo electrónico",
+    "webSiteLabel": "Sitio web de la empresa",
+    "webSitePlaceholder": "ej. https://nombreempresa.com",
+    "categoryLabel": "¿Cuál es su tema? *",
+    "categoryPlaceholder": "Elija uno...",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Cualquier cosa que desee compartir...",
+    "buttonText": "Enviar solicitud",
+    "sending": "Enviando...",
+    "successHeading": "¡Gracias!",
+    "successMessage": "Hemos recibido su mensaje — nuestro equipo se pondrá en contacto en breve.",
+    "crmError": "Error de CRM",
+    "networkError": "Error de red o del servidor"
   }
 }

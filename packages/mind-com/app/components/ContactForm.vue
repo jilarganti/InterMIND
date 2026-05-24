@@ -7,7 +7,9 @@ interface FormData {
   message: string
 }
 
-const props = withDefaults(
+const { t } = useI18n()
+
+withDefaults(
   defineProps<{
     services: string[]
     categoryLabel?: string
@@ -19,13 +21,13 @@ const props = withDefaults(
     buttonText?: string
   }>(),
   {
-    categoryLabel: "What's your topic? *",
-    categoryPlaceholder: "Choose one...",
-    messageLabel: "Message",
-    messagePlaceholder: "Anything you'd like to share...",
-    webSiteLabel: "Company website",
-    webSitePlaceholder: "e.g. https://companyname.com",
-    buttonText: "Submit request",
+    categoryLabel: undefined,
+    categoryPlaceholder: undefined,
+    messageLabel: undefined,
+    messagePlaceholder: undefined,
+    webSiteLabel: undefined,
+    webSitePlaceholder: undefined,
+    buttonText: undefined,
   },
 )
 
@@ -53,16 +55,16 @@ async function handleSubmit() {
     })
     const json = (await res.json()) as { success?: boolean; message?: string; gtmData?: Record<string, unknown> }
     if (res.ok && json.success) {
-      successMessage.value = "We've received your message — our team will be in touch shortly."
+      successMessage.value = t("contactForm.successMessage")
       if (json.gtmData && typeof window !== "undefined") {
         window.dataLayer = window.dataLayer || []
         window.dataLayer.push(json.gtmData)
       }
     } else {
-      errorMessage.value = json.message || "CRM error"
+      errorMessage.value = json.message || t("contactForm.crmError")
     }
   } catch (e) {
-    errorMessage.value = "Network or server error"
+    errorMessage.value = t("contactForm.networkError")
     console.error("ContactForm error:", e)
   } finally {
     isSubmitting.value = false
@@ -73,36 +75,43 @@ async function handleSubmit() {
 <template>
   <div class="contact-form-wrap">
     <div v-if="successMessage" class="success">
-      <h3>Thank you!</h3>
+      <h3>{{ t("contactForm.successHeading") }}</h3>
       <p>{{ successMessage }}</p>
     </div>
     <form v-else class="contact-form" @submit.prevent="handleSubmit">
       <div class="field">
-        <label for="cf-name">Name *</label>
-        <input id="cf-name" v-model="data.name" type="text" placeholder="your name" required />
+        <label for="cf-name">{{ t("contactForm.nameLabel") }}</label>
+        <input id="cf-name" v-model="data.name" type="text" :placeholder="t('contactForm.namePlaceholder')" required />
       </div>
       <div class="field">
-        <label for="cf-email">Email *</label>
-        <input id="cf-email" v-model="data.email" type="email" placeholder="your email address" required />
+        <label for="cf-email">{{ t("contactForm.emailLabel") }}</label>
+        <input id="cf-email" v-model="data.email" type="email" :placeholder="t('contactForm.emailPlaceholder')" required />
       </div>
       <div class="field">
-        <label for="cf-site">{{ webSiteLabel }}</label>
-        <input id="cf-site" v-model="data.webSite" type="url" :placeholder="webSitePlaceholder" pattern="https?://.+" maxlength="100" />
+        <label for="cf-site">{{ webSiteLabel ?? t("contactForm.webSiteLabel") }}</label>
+        <input
+          id="cf-site"
+          v-model="data.webSite"
+          type="url"
+          :placeholder="webSitePlaceholder ?? t('contactForm.webSitePlaceholder')"
+          pattern="https?://.+"
+          maxlength="100"
+        />
       </div>
       <div class="field">
-        <label for="cf-kind">{{ categoryLabel }}</label>
+        <label for="cf-kind">{{ categoryLabel ?? t("contactForm.categoryLabel") }}</label>
         <select id="cf-kind" v-model="data.kind" required>
-          <option value="" disabled>{{ categoryPlaceholder }}</option>
+          <option value="" disabled>{{ categoryPlaceholder ?? t("contactForm.categoryPlaceholder") }}</option>
           <option v-for="s in services" :key="s" :value="s">{{ s }}</option>
         </select>
       </div>
       <div class="field">
-        <label for="cf-msg">{{ messageLabel }}</label>
-        <textarea id="cf-msg" v-model="data.message" :placeholder="messagePlaceholder" rows="4" />
+        <label for="cf-msg">{{ messageLabel ?? t("contactForm.messageLabel") }}</label>
+        <textarea id="cf-msg" v-model="data.message" :placeholder="messagePlaceholder ?? t('contactForm.messagePlaceholder')" rows="4" />
       </div>
       <p v-if="errorMessage" class="error">{{ errorMessage }}</p>
       <button type="submit" class="submit" :disabled="isSubmitting">
-        {{ isSubmitting ? "Sending..." : buttonText }}
+        {{ isSubmitting ? t("contactForm.sending") : (buttonText ?? t("contactForm.buttonText")) }}
       </button>
     </form>
   </div>

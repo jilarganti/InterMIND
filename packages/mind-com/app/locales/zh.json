@@ -163,5 +163,52 @@
     "ctaTeamLink": "团队页面",
     "ctaCareersLink": "职业机会",
     "ctaContactsLink": "联系我们"
+  },
+  "contacts": {
+    "metaTitle": "联系 InterMIND",
+    "metaDescription": "希望与 InterMind 合作、投资或联系我们的高管团队？请使用此表单进行业务咨询、媒体请求或法律事务。",
+    "h1": "🤝 想联系 InterMind？让我们建立联系。",
+    "lede": "请使用此表单直接联系我们的公司团队 — 以处理合作、投资、媒体、合规或其他业务相关事宜。我们将确保您的信息送达正确的人。",
+    "categoryLabel": "您联系我们的原因是什么？*",
+    "categoryPlaceholder": "选择您的话题...",
+    "messageLabel": "留言 *",
+    "messagePlaceholder": "请分享您希望我们考虑的任何相关背景、时间表或上下文信息。",
+    "buttonText": "发送留言",
+    "services": {
+      "partnership": "战略合作机会",
+      "investment": "投资或融资洽谈",
+      "enterprise": "企业解决方案咨询",
+      "media": "媒体与新闻请求",
+      "legal": "法律或合规事宜",
+      "security": "安全问题或报告",
+      "businessDev": "业务发展提案",
+      "general": "一般业务咨询"
+    },
+    "helpBlockStrong": "需要产品相关帮助？",
+    "helpBlock": "访问我们的 {link} 以获取 InterMind 团队的快速解答和帮助。",
+    "helpLink": "支持页面",
+    "learnBlockStrong": "想了解更多关于我们？",
+    "learnBlock": "查看我们的 {about}，认识 {team}，或探索 {careers}。",
+    "learnAboutLink": "关于页面",
+    "learnTeamLink": "团队",
+    "learnCareersLink": "职业机会"
+  },
+  "contactForm": {
+    "nameLabel": "姓名 *",
+    "namePlaceholder": "您的姓名",
+    "emailLabel": "电子邮件 *",
+    "emailPlaceholder": "您的电子邮件地址",
+    "webSiteLabel": "公司网站",
+    "webSitePlaceholder": "e.g. https://companyname.com",
+    "categoryLabel": "您的话题是什么？*",
+    "categoryPlaceholder": "选择一项...",
+    "messageLabel": "留言",
+    "messagePlaceholder": "您想分享的任何内容...",
+    "buttonText": "提交请求",
+    "sending": "正在发送...",
+    "successHeading": "谢谢！",
+    "successMessage": "我们已收到您的消息 — 我们的团队将很快与您联系。",
+    "crmError": "CRM 错误",
+    "networkError": "网络或服务器错误"
   }
 }

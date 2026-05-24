@@ -163,5 +163,52 @@
     "ctaTeamLink": "page d'équipe",
     "ctaCareersLink": "opportunités de carrière",
     "ctaContactsLink": "contactez-nous"
+  },
+  "contacts": {
+    "metaTitle": "Contact InterMIND",
+    "metaDescription": "Vous souhaitez vous associer à InterMind, investir ou contacter notre équipe de direction ? Utilisez ce formulaire pour les demandes commerciales, les requêtes médias ou les questions juridiques.",
+    "h1": "🤝 Vous souhaitez contacter InterMind ? Connectons-nous.",
+    "lede": "Utilisez ce formulaire pour contacter directement notre équipe — pour les partenariats, les investissements, les médias, la conformité ou d'autres questions commerciales. Nous veillerons à ce que votre message parvienne à la bonne personne.",
+    "categoryLabel": "Quelle est la raison de votre prise de contact ? *",
+    "categoryPlaceholder": "Choisissez votre sujet...",
+    "messageLabel": "Message *",
+    "messagePlaceholder": "Partagez tout contexte, échéancier ou information pertinente que vous souhaiteriez que nous prenions en compte.",
+    "buttonText": "Envoyer votre message",
+    "services": {
+      "partnership": "Opportunité de partenariat stratégique",
+      "investment": "Discussion sur un investissement ou un financement",
+      "enterprise": "Demande de solution d'entreprise",
+      "media": "Demande média et presse",
+      "legal": "Question juridique ou de conformité",
+      "security": "Problème ou rapport de sécurité",
+      "businessDev": "Proposition de développement commercial",
+      "general": "Demande commerciale générale"
+    },
+    "helpBlockStrong": "Besoin d'aide concernant un produit ?",
+    "helpBlock": "Visitez notre {link} pour des réponses rapides et l'assistance de l'équipe InterMind.",
+    "helpLink": "Page d'aide",
+    "learnBlockStrong": "Vous voulez en savoir plus sur nous ?",
+    "learnBlock": "Consultez notre {about}, rencontrez {team} ou explorez les {careers}.",
+    "learnAboutLink": "page À propos",
+    "learnTeamLink": "l'équipe",
+    "learnCareersLink": "opportunités de carrière"
+  },
+  "contactForm": {
+    "nameLabel": "Nom *",
+    "namePlaceholder": "votre nom",
+    "emailLabel": "E-mail *",
+    "emailPlaceholder": "votre adresse e-mail",
+    "webSiteLabel": "Site web de l'entreprise",
+    "webSitePlaceholder": "ex. https://nomdelentreprise.com",
+    "categoryLabel": "Quel est votre sujet ? *",
+    "categoryPlaceholder": "Choisissez-en un...",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tout ce que vous souhaitez partager...",
+    "buttonText": "Envoyer la demande",
+    "sending": "Envoi en cours...",
+    "successHeading": "Merci !",
+    "successMessage": "Nous avons bien reçu votre message — notre équipe vous contactera sous peu.",
+    "crmError": "Erreur CRM",
+    "networkError": "Erreur réseau ou de serveur"
   }
 }
