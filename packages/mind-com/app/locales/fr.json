@@ -9,5 +9,102 @@
   },
   "nav": {
     "switchLanguage": "Changer de langue"
+  },
+  "home": {
+    "metaTitle": "InterMIND — Réunions multilingues vérifiables pour les environnements à enjeux élevés",
+    "metaDescription": "Réunions vidéo où chacun s'exprime et est compris dans sa propre langue — avec une qualité de traduction que vous pouvez vérifier par rapport à un benchmark public, plutôt que de simplement faire confiance. Conçu pour les environnements juridiques, réglementaires, de fusions-acquisitions et d'investisseurs où une erreur de traduction constitue un risque.",
+    "schema": {
+      "orgDescription": "Réunions vidéo multilingues vérifiables pour les environnements juridiques, réglementaires, de fusions-acquisitions et d'investisseurs. Infrastructure UE / neutre, déploiement sur site disponible.",
+      "softwareDescription": "Plateforme de réunions vidéo multilingues avec une qualité de traduction vérifiable, des glossaires contrôlés par le client, une piste d'audit, une infrastructure UE / neutre et un déploiement sur site."
+    },
+    "hero": {
+      "badge": "Interprétation en direct · bêta fermée",
+      "headlineLead": "Vos réunions les plus importantes ne devraient pas se dérouler dans",
+      "headlineAccent": "la langue de second choix de chacun.",
+      "lede": "Chacun s'exprime et est compris dans sa propre langue — avec une qualité de traduction que vous pouvez vérifier par rapport à un benchmark public, plutôt que de simplement faire confiance. Conçu pour les environnements où une erreur de traduction constitue un risque.",
+      "ctaPrimary": "Essayez la démo en direct (son activé)",
+      "ctaSecondary": "Voir le benchmark public",
+      "trustStrip": "Juridique · réglementaire · relations investisseurs · M&A — Infrastructure UE / neutre · déploiement sur site disponible"
+    },
+    "stats": {
+      "benchmarkValue": "Public",
+      "benchmarkLabel": "benchmark de traduction",
+      "glossariesValue": "Vos",
+      "glossariesLabel": "glossaires et bases terminologiques",
+      "residencyValue": "UE / sur site",
+      "residencyLabel": "options de résidence des données"
+    },
+    "problem": {
+      "eyebrow": "Le problème",
+      "headingLead": "Les réunions dans la langue de second choix de chacun échouent",
+      "headingAccent": "silencieusement",
+      "headingTail": ".",
+      "lede": "Chaque réunion transfrontalière aujourd'hui se déroule par défaut dans une langue partagée que personne ne maîtrise pleinement — presque toujours l'anglais. Le statu quo n'échoue pas bruyamment. Il échoue silencieusement, de trois manières :",
+      "falsePrecisionTitle": "Fausse précision",
+      "falsePrecisionBody": "Un discours non natif semble fluide mais contient des erreurs cachées. Une phrase erronée prononcée avec assurance l'emporte sur une lacune évidente — la lacune suscite une question de suivi, la fausse clarté est consignée. Une mauvaise connaissance est pire que l'absence de connaissance.",
+      "selfCensorshipTitle": "Auto-censure",
+      "selfCensorshipBody": "Les gens omettent les nuances qu'ils ne peuvent pas exprimer dans une langue seconde. La personne la plus compétente de la salle devient la moins éloquente.",
+      "fluencyTitle": "La fluidité l'emporte sur la compétence",
+      "fluencyBody": "Les décisions penchent en faveur de celui qui s'exprime le mieux, et non de celui qui a raison. Dans une négociation, la partie anglophone native détient un avantage avant même tout échange de fond.",
+      "disqualifierLead": "Une couche de traduction automatique générique ne résout pas ce problème — elle le",
+      "disqualifierEm": "reproduit",
+      "disqualifierMid": "reproduit, car une traduction « suffisante » émet également une fausse précision. Dans un environnement à enjeux élevés,",
+      "disqualifierStrong": "le « suffisant » est une valeur négative."
+    },
+    "preview": {
+      "eyebrow": "À quoi cela ressemble",
+      "headingLead": "Un appel de transaction. Quatre langues.",
+      "headingAccent": "Rien n'est perdu dans la traduction.",
+      "lede": "Chaque partie s'exprime dans sa langue maternelle. Chaque partie entend les autres dans la leur — avec la terminologie exacte que votre base terminologique garantit, enregistrée sur la piste d'audit, disponible pour être transmise à un interprète humain pour les clauses importantes.",
+      "meetingLabel": "Appel simulé de M&A transfrontalier avec quatre participants parlant des langues différentes",
+      "meetingTitle": "M&A transfrontalier · interprétation enregistrée",
+      "meetingRec": "● REC"
+    },
+    "pillars": {
+      "eyebrow": "Pourquoi c'est différent",
+      "headingLead": "Une qualité de traduction que vous pouvez",
+      "headingAccent": "vérifier",
+      "headingTail": ", pas seulement croire.",
+      "lede": "Tout le monde utilise les mêmes modèles sous-jacents. Un meilleur score de qualité ce trimestre est effacé le trimestre suivant. Ce que nous construisons — et que les acteurs établis ne feront structurellement pas — est la couche qui vous permet de vérifier, de contraindre et d'auditer ce qui a été réellement dit.",
+      "benchmarkTitle": "Évalué par rapport à un benchmark public",
+      "benchmarkBody": "Chaque version est mesurée sur un benchmark ouvert et reproductible — pas sur une capture d'écran privée. Vous pouvez vérifier les chiffres ; vous n'avez pas à faire confiance au fournisseur.",
+      "glossariesTitle": "Glossaires et bases terminologiques que vous contrôlez",
+      "glossariesBody": "Terminologie juridique, médicale, financière liée à votre formulation — et non à la meilleure estimation du modèle. Téléchargez, versionnez, auditez. Votre style maison ; votre surface de responsabilité.",
+      "auditTitle": "Piste d'audit + escalade humaine",
+      "auditBody": "Chaque segment traduit est enregistré avec le modèle, la version et le niveau de confiance. Les passages critiques peuvent être acheminés vers un interprète humain en boucle avant que la réunion ne progresse."
+    },
+    "qualifier": {
+      "eyebrow": "Selon vos conditions",
+      "headingLead": "Les salles où une erreur de traduction est catastrophique sont les mêmes salles où une",
+      "headingAccent": "fuite de données",
+      "headingTail": "est catastrophique.",
+      "lede": "Le contrôle des données est donc un élément essentiel — non pas comme un titre, mais comme une preuve de qualité pour les achats.",
+      "euTitle": "Résidence dans l'UE.",
+      "euBody": "OVH Roubaix / Paris pour les clients sensibles au RGPD et à Schrems.",
+      "uaeTitle": "Juridiction neutre aux Émirats arabes unis.",
+      "uaeBody": "Hors de portée juridique américaine par conception — une propriété de la juridiction, pas seulement de l'architecture.",
+      "onPremTitle": "Sur site / en réseau isolé.",
+      "onPremBody": "Pour la défense, le renseignement et l'industrie pharmaceutique ultra-réglementée. Votre matériel, votre réseau, vos clés.",
+      "linkText": "Lire le rapport sur la sécurité et la juridiction →"
+    },
+    "cases": {
+      "eyebrow": "Les salles pour lesquelles nous sommes conçus",
+      "heading": "Enjeux élevés, réglementé, transfrontalier.",
+      "lede": "Pas des réunions rapides. Pas des appels de vente informels. Les conversations où une erreur de traduction est une responsabilité et où les données doivent rester sous votre contrôle.",
+      "legalTitle": "Négociations juridiques",
+      "legalBody": "Term sheets, règlements, licences de propriété intellectuelle transfrontalières — où une clause ambiguë représente l'intégralité du risque.",
+      "regulatoryTitle": "Soumissions réglementaires",
+      "regulatoryBody": "Réunions de pré-soumission avec l'EMA, le BfArM, la MHRA, la SFDA — enregistrées, contrôlées par glossaire, défendables lors de l'examen.",
+      "mnaTitle": "Fusions-acquisitions et relations investisseurs",
+      "mnaBody": "Appels de transactions transfrontalières et questions-réponses sur les résultats où l'acheteur parle une langue et la direction une autre.",
+      "gxpTitle": "Audits GxP et qualité",
+      "gxpBody": "Audits de fournisseurs et de sites où chaque réponse est enregistrée et où la langue maternelle de l'inspecteur n'est pas celle de l'audité."
+    },
+    "ctaBand": {
+      "heading": "Votre langue. Vos données. Vos conditions.",
+      "lede": "Découvrez la démo en direct, puis consultez le benchmark public. Décidez sur la base de chiffres, pas d'un argumentaire de vente.",
+      "ctaPrimary": "Essayer la démo en direct",
+      "ctaSecondary": "Voir le benchmark public"
+    }
   }
 }

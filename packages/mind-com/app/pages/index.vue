@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { t, locale } = useI18n()
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 const productUrl = config.public.productUrl
@@ -24,33 +25,32 @@ const vReveal = {
   },
 }
 
-const title = "InterMIND — Verifiable multilingual meetings for high-stakes rooms"
-const description =
-  "Video meetings where everyone speaks and is understood in their own language — with translation quality you can verify against a public benchmark, not just trust. Built for legal, regulatory, M&A and investor rooms where a mistranslation is a liability."
+const metaTitle = computed(() => t("home.metaTitle"))
+const metaDescription = computed(() => t("home.metaDescription"))
 const ogImage = `${siteUrl}/og-cover.png`
 
-const organizationJsonLd = {
+const organizationJsonLd = computed(() => ({
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": `${siteUrl}/#organization`,
   name: "InterMIND",
   url: siteUrl,
   logo: `${siteUrl}/logo.svg`,
-  description: "Verifiable multilingual video meetings for legal, regulatory, M&A and investor rooms. EU / neutral infrastructure, on-premise available.",
+  description: t("home.schema.orgDescription"),
   sameAs: [productUrl],
-}
+}))
 
-const websiteJsonLd = {
+const websiteJsonLd = computed(() => ({
   "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": `${siteUrl}/#website`,
   url: siteUrl,
   name: "InterMIND",
   publisher: { "@id": `${siteUrl}/#organization` },
-  inLanguage: "en",
-}
+  inLanguage: locale.value,
+}))
 
-const softwareJsonLd = {
+const softwareJsonLd = computed(() => ({
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   name: "InterMIND",
@@ -58,36 +58,36 @@ const softwareJsonLd = {
   operatingSystem: "Web",
   url: productUrl,
   publisher: { "@id": `${siteUrl}/#organization` },
-  description:
-    "Multilingual video meeting platform with verifiable translation quality, customer-controlled glossaries, audit trail, EU / neutral infrastructure and on-premise deployment.",
-}
+  description: t("home.schema.softwareDescription"),
+}))
 
 useHead({
-  title,
+  title: () => metaTitle.value,
   meta: [
-    { name: "description", content: description },
+    { name: "description", content: () => metaDescription.value },
     { property: "og:type", content: "website" },
     { property: "og:url", content: `${siteUrl}/` },
-    { property: "og:title", content: title },
-    { property: "og:description", content: description },
+    { property: "og:title", content: () => metaTitle.value },
+    { property: "og:description", content: () => metaDescription.value },
     { property: "og:image", content: ogImage },
     { property: "og:image:width", content: "1200" },
     { property: "og:image:height", content: "630" },
     { property: "og:site_name", content: "InterMIND" },
     { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: title },
-    { name: "twitter:description", content: description },
+    { name: "twitter:title", content: () => metaTitle.value },
+    { name: "twitter:description", content: () => metaDescription.value },
     { name: "twitter:image", content: ogImage },
   ],
   link: [{ rel: "canonical", href: `${siteUrl}/` }],
   script: [
-    { type: "application/ld+json", innerHTML: JSON.stringify(organizationJsonLd) },
-    { type: "application/ld+json", innerHTML: JSON.stringify(websiteJsonLd) },
-    { type: "application/ld+json", innerHTML: JSON.stringify(softwareJsonLd) },
+    { type: "application/ld+json", innerHTML: () => JSON.stringify(organizationJsonLd.value) },
+    { type: "application/ld+json", innerHTML: () => JSON.stringify(websiteJsonLd.value) },
+    { type: "application/ld+json", innerHTML: () => JSON.stringify(softwareJsonLd.value) },
   ],
 })
 
-// Floating language chips around the hero — phrases from regulated rooms.
+// Floating language chips around the hero — multilingual phrases from regulated
+// rooms, kept untranslated by design (the whole point is that they're not English).
 const languages = [
   { code: "EN", phrase: "Within scope of the DPA", x: 8, y: 14, delay: 0 },
   { code: "ES", phrase: "Aceptamos los términos", x: 86, y: 20, delay: 0.6 },
@@ -98,7 +98,11 @@ const languages = [
   { code: "AR", phrase: "نوافق على البنود", x: 50, y: 90, delay: 1.8 },
 ]
 
-// Mock meeting tiles — cross-border M&A call, each side speaking their own language.
+// Mock meeting tiles — each tile shows the speaker's native utterance verbatim.
+// `live` strings are intentionally NOT i18n'd: they represent the source-language
+// speech being interpreted. `translated` would normally route through i18n, but
+// keeping the demo bilingual (live → en translation) keeps the visual narrative
+// consistent across locales.
 const tiles = [
   { name: "Akira", flag: "🇯🇵", live: "弊社は補償条項を受け入れます", translated: "We accept the indemnity clause" },
   { name: "Sofía", flag: "🇪🇸", live: "Necesitamos limitar la responsabilidad", translated: "We need to cap the liability" },
@@ -106,71 +110,30 @@ const tiles = [
   { name: "You", flag: "🇬🇧", live: "Let's lock the term sheet", translated: "Let's lock the term sheet", self: true },
 ]
 
-// The silent-failure modes of running a meeting in everyone's second-best language.
-const problems = [
-  {
-    title: "False precision",
-    body: "Non-native speech sounds fluent but carries hidden errors. A confidently wrong sentence beats an obvious gap — the gap earns a follow-up question, the false clarity gets minuted. Bad knowledge is worse than no knowledge.",
-  },
-  {
-    title: "Self-censorship",
-    body: "People drop the nuance they can't express in a second language. The most knowledgeable person in the room becomes the least articulate.",
-  },
-  {
-    title: "Fluency outranks competence",
-    body: "Decisions tilt toward whoever speaks best, not whoever is right. In a negotiation, the native-English side holds an advantage before any substance is exchanged.",
-  },
-]
+const problems = computed(() => [
+  { title: t("home.problem.falsePrecisionTitle"), body: t("home.problem.falsePrecisionBody") },
+  { title: t("home.problem.selfCensorshipTitle"), body: t("home.problem.selfCensorshipBody") },
+  { title: t("home.problem.fluencyTitle"), body: t("home.problem.fluencyBody") },
+])
 
-// The wedge: verifiable / auditable / controllable — never "highest quality".
-const pillars = [
-  {
-    icon: "i-lucide-gauge",
-    title: "Scored against a public benchmark",
-    body: "Every release is measured on an open, reproducible benchmark — not a private screenshot. You can check the number; you don't have to trust the vendor.",
-  },
-  {
-    icon: "i-lucide-book-marked",
-    title: "Glossaries & termbases you control",
-    body: "Legal, medical, financial terminology bound to your wording — not the model's best guess. Upload, version, audit. Your house style; your liability surface.",
-  },
-  {
-    icon: "i-lucide-file-search",
-    title: "Audit trail + human escalation",
-    body: "Every translated segment is recorded with model, version and confidence. Critical passages can be routed to a human interpreter in-the-loop before the room moves on.",
-  },
-]
+const pillars = computed(() => [
+  { icon: "i-lucide-gauge", title: t("home.pillars.benchmarkTitle"), body: t("home.pillars.benchmarkBody") },
+  { icon: "i-lucide-book-marked", title: t("home.pillars.glossariesTitle"), body: t("home.pillars.glossariesBody") },
+  { icon: "i-lucide-file-search", title: t("home.pillars.auditTitle"), body: t("home.pillars.auditBody") },
+])
 
-// Procurement-tier proof points. Three claims, no vanity metrics.
-const stats = [
-  { value: "Public", label: "translation benchmark" },
-  { value: "Yours", label: "glossaries & termbases" },
-  { value: "EU / on-prem", label: "data residency options" },
-]
+const stats = computed(() => [
+  { value: t("home.stats.benchmarkValue"), label: t("home.stats.benchmarkLabel") },
+  { value: t("home.stats.glossariesValue"), label: t("home.stats.glossariesLabel") },
+  { value: t("home.stats.residencyValue"), label: t("home.stats.residencyLabel") },
+])
 
-// The rooms the positioning doc actually targets.
-const useCases = [
-  {
-    tone: "amber",
-    title: "Legal negotiations",
-    body: "Term sheets, settlements, IP licensing across jurisdictions — where one ambiguous clause is the whole exposure.",
-  },
-  {
-    tone: "indigo",
-    title: "Regulatory submissions",
-    body: "Pre-submission meetings with EMA, BfArM, MHRA, SFDA — recorded, glossary-controlled, defensible on review.",
-  },
-  {
-    tone: "emerald",
-    title: "M&A and investor relations",
-    body: "Cross-border deal calls and earnings Q&A where the buy-side speaks one language and the management another.",
-  },
-  {
-    tone: "rose",
-    title: "GxP and quality audits",
-    body: "Vendor and site audits where every answer is on the record and the inspector's first language isn't the auditee's.",
-  },
-]
+const useCases = computed(() => [
+  { tone: "amber", title: t("home.cases.legalTitle"), body: t("home.cases.legalBody") },
+  { tone: "indigo", title: t("home.cases.regulatoryTitle"), body: t("home.cases.regulatoryBody") },
+  { tone: "emerald", title: t("home.cases.mnaTitle"), body: t("home.cases.mnaBody") },
+  { tone: "rose", title: t("home.cases.gxpTitle"), body: t("home.cases.gxpBody") },
+])
 </script>
 
 <template>
@@ -200,26 +163,25 @@ const useCases = [
           <template #leading>
             <span class="pill-dot" />
           </template>
-          Live interpretation · closed beta
+          {{ t("home.hero.badge") }}
         </UBadge>
         <h1>
-          Your most important meetings shouldn't run in
-          <span class="gradient-text">everyone's second-best language.</span>
+          {{ t("home.hero.headlineLead") }}
+          <span class="gradient-text">{{ t("home.hero.headlineAccent") }}</span>
         </h1>
         <p class="lede">
-          Everyone speaks and is understood in their own language — with translation quality you can verify against a public benchmark, not just trust. Built
-          for rooms where a mistranslation is a liability.
+          {{ t("home.hero.lede") }}
         </p>
         <div class="cta-row">
           <UButton :to="productUrl" external size="xl" color="primary" trailing-icon="i-lucide-volume-2" class="btn-primary-grad">
-            Try the live demo (sound on)
+            {{ t("home.hero.ctaPrimary") }}
           </UButton>
           <UButton :to="`${productUrl}/benchmark`" external size="xl" color="neutral" variant="subtle" trailing-icon="i-lucide-gauge">
-            See the public benchmark
+            {{ t("home.hero.ctaSecondary") }}
           </UButton>
         </div>
 
-        <p class="trust-strip">Legal · regulatory · investor relations · M&amp;A &nbsp;—&nbsp; EU / neutral infrastructure · on-premise available</p>
+        <p class="trust-strip">{{ t("home.hero.trustStrip") }}</p>
 
         <ul class="stats">
           <li v-for="s in stats" :key="s.label">
@@ -233,11 +195,12 @@ const useCases = [
     <!-- PROBLEM -->
     <section class="problem">
       <div v-reveal class="problem-header reveal">
-        <span class="eyebrow">The problem</span>
-        <h2>Meetings in everyone's second-best language fail <span class="gradient-text">silently</span>.</h2>
+        <span class="eyebrow">{{ t("home.problem.eyebrow") }}</span>
+        <h2>
+          {{ t("home.problem.headingLead") }} <span class="gradient-text">{{ t("home.problem.headingAccent") }}</span>{{ t("home.problem.headingTail") }}
+        </h2>
         <p class="problem-lede">
-          Every cross-border meeting today defaults to a shared language nobody fully owns — almost always English. The status quo doesn't fail loudly. It fails
-          quietly, in three ways:
+          {{ t("home.problem.lede") }}
         </p>
       </div>
 
@@ -249,29 +212,28 @@ const useCases = [
       </div>
 
       <p class="disqualifier">
-        A generic machine-translation layer doesn't fix this — it <em>reproduces</em> it, because good-enough translation also emits false precision. In a
-        high-stakes room, <strong>good-enough is negative value.</strong>
+        {{ t("home.problem.disqualifierLead") }} <em>{{ t("home.problem.disqualifierEm") }}</em> {{ t("home.problem.disqualifierMid") }}
+        <strong>{{ t("home.problem.disqualifierStrong") }}</strong>
       </p>
     </section>
 
     <!-- LIVE MEETING PREVIEW -->
     <section class="preview">
       <div v-reveal class="preview-header reveal">
-        <span class="eyebrow">What it looks like</span>
-        <h2>One deal call. Four languages. <span class="gradient-text">Nothing lost in translation.</span></h2>
+        <span class="eyebrow">{{ t("home.preview.eyebrow") }}</span>
+        <h2>{{ t("home.preview.headingLead") }} <span class="gradient-text">{{ t("home.preview.headingAccent") }}</span></h2>
         <p class="preview-lede">
-          Each side speaks in their first language. Each side hears the others in theirs — with the exact terminology your termbase locks in, recorded on the
-          audit trail, available to escalate to a human interpreter for the clauses that matter.
+          {{ t("home.preview.lede") }}
         </p>
       </div>
 
-      <div class="meeting" role="img" aria-label="Mock cross-border M&A call with four participants speaking different languages">
+      <div class="meeting" role="img" :aria-label="t('home.preview.meetingLabel')">
         <div class="meeting-bar">
           <span class="dot dot-r" />
           <span class="dot dot-y" />
           <span class="dot dot-g" />
-          <span class="meeting-title">Cross-border M&amp;A · interpretation on record</span>
-          <span class="meeting-rec">● REC</span>
+          <span class="meeting-title">{{ t("home.preview.meetingTitle") }}</span>
+          <span class="meeting-rec">{{ t("home.preview.meetingRec") }}</span>
         </div>
         <div class="meeting-grid">
           <div v-for="t in tiles" :key="t.name" class="tile" :class="{ 'tile-self': t.self }">
@@ -294,11 +256,12 @@ const useCases = [
     <!-- WEDGE / PILLARS -->
     <section class="values" aria-labelledby="pillars-heading">
       <div v-reveal class="pillars-header reveal">
-        <span class="eyebrow">Why this is different</span>
-        <h2 id="pillars-heading">Translation quality you can <span class="gradient-text">verify</span>, not just trust.</h2>
+        <span class="eyebrow">{{ t("home.pillars.eyebrow") }}</span>
+        <h2 id="pillars-heading">
+          {{ t("home.pillars.headingLead") }} <span class="gradient-text">{{ t("home.pillars.headingAccent") }}</span>{{ t("home.pillars.headingTail") }}
+        </h2>
         <p class="pillars-lede">
-          Everyone calls the same underlying models. A better quality score this quarter is erased next quarter. What we build — and incumbents structurally
-          won't — is the layer that lets you check, constrain and audit what was actually said.
+          {{ t("home.pillars.lede") }}
         </p>
       </div>
       <div class="pillars-grid">
@@ -315,34 +278,36 @@ const useCases = [
     <!-- QUALIFIER -->
     <section class="qualifier">
       <div v-reveal class="qualifier-inner reveal">
-        <span class="eyebrow">On your terms</span>
-        <h2>The rooms where a mistranslation is catastrophic are the same rooms where a <span class="gradient-text">data leak</span> is catastrophic.</h2>
-        <p class="qualifier-lede">So data control rides with the wedge — not as the headline, but as procurement-grade proof.</p>
+        <span class="eyebrow">{{ t("home.qualifier.eyebrow") }}</span>
+        <h2>
+          {{ t("home.qualifier.headingLead") }} <span class="gradient-text">{{ t("home.qualifier.headingAccent") }}</span> {{ t("home.qualifier.headingTail") }}
+        </h2>
+        <p class="qualifier-lede">{{ t("home.qualifier.lede") }}</p>
         <ul class="qualifier-rails">
           <li>
             <UIcon name="i-lucide-building-2" class="rail-icon" />
             <div>
-              <strong>EU residency.</strong>
-              <span>OVH Roubaix / Paris for GDPR- and Schrems-sensitive customers.</span>
+              <strong>{{ t("home.qualifier.euTitle") }}</strong>
+              <span>{{ t("home.qualifier.euBody") }}</span>
             </div>
           </li>
           <li>
             <UIcon name="i-lucide-globe" class="rail-icon" />
             <div>
-              <strong>UAE-neutral jurisdiction.</strong>
-              <span>Out of US legal reach by design — a property of jurisdiction, not just architecture.</span>
+              <strong>{{ t("home.qualifier.uaeTitle") }}</strong>
+              <span>{{ t("home.qualifier.uaeBody") }}</span>
             </div>
           </li>
           <li>
             <UIcon name="i-lucide-server" class="rail-icon" />
             <div>
-              <strong>On-premise / air-gapped.</strong>
-              <span>For defense, intelligence and ultra-regulated pharma. Your hardware, your network, your keys.</span>
+              <strong>{{ t("home.qualifier.onPremTitle") }}</strong>
+              <span>{{ t("home.qualifier.onPremBody") }}</span>
             </div>
           </li>
         </ul>
         <p class="qualifier-foot">
-          <ULink :to="`${productUrl}/security`" external class="qualifier-link">Read the security &amp; jurisdiction brief →</ULink>
+          <ULink :to="`${productUrl}/security`" external class="qualifier-link">{{ t("home.qualifier.linkText") }}</ULink>
         </p>
       </div>
     </section>
@@ -350,10 +315,10 @@ const useCases = [
     <!-- USE CASES -->
     <section class="cases">
       <div v-reveal class="cases-header reveal">
-        <span class="eyebrow">The rooms we're built for</span>
-        <h2>High-stakes, regulated, cross-border.</h2>
+        <span class="eyebrow">{{ t("home.cases.eyebrow") }}</span>
+        <h2>{{ t("home.cases.heading") }}</h2>
         <p class="cases-lede">
-          Not stand-ups. Not casual sales calls. The conversations where a mistranslation is a liability and the data must stay under your control.
+          {{ t("home.cases.lede") }}
         </p>
       </div>
       <div class="cases-grid">
@@ -369,14 +334,14 @@ const useCases = [
     <section class="cta-band">
       <div class="cta-glow" aria-hidden="true" />
       <div class="cta-band-inner">
-        <h2>Your language. Your data. Your terms.</h2>
-        <p>See the live demo, then open the public benchmark. Decide on numbers, not on a sales deck.</p>
+        <h2>{{ t("home.ctaBand.heading") }}</h2>
+        <p>{{ t("home.ctaBand.lede") }}</p>
         <div class="cta-row cta-row-band">
           <UButton :to="productUrl" external size="xl" color="primary" trailing-icon="i-lucide-volume-2" class="btn-primary-grad btn-lg">
-            Try the live demo
+            {{ t("home.ctaBand.ctaPrimary") }}
           </UButton>
           <UButton :to="`${productUrl}/benchmark`" external size="xl" color="neutral" variant="subtle" trailing-icon="i-lucide-gauge" class="btn-lg">
-            See the public benchmark
+            {{ t("home.ctaBand.ctaSecondary") }}
           </UButton>
         </div>
       </div>

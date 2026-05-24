@@ -9,5 +9,102 @@
   },
   "nav": {
     "switchLanguage": "Sprache wechseln"
+  },
+  "home": {
+    "metaTitle": "InterMIND — Verifizierbare mehrsprachige Meetings für kritische Besprechungen",
+    "metaDescription": "Videomeetings, bei denen jeder in seiner eigenen Sprache spricht und verstanden wird — mit Übersetzungsqualität, die Sie anhand eines öffentlichen Benchmarks überprüfen können, statt nur zu vertrauen. Entwickelt für Rechts-, Regulierungs-, M&A- und Investoren-Meetings, wo eine Fehlübersetzung ein Risiko darstellt.",
+    "schema": {
+      "orgDescription": "Verifizierbare mehrsprachige Videomeetings für Rechts-, Regulierungs-, M&A- und Investoren-Meetings. EU / neutrale Infrastruktur, On-Premise verfügbar.",
+      "softwareDescription": "Mehrsprachige Videomeeting-Plattform mit verifizierbarer Übersetzungsqualität, kundenkontrollierten Glossaren, Audit-Trail, EU / neutraler Infrastruktur und On-Premise-Bereitstellung."
+    },
+    "hero": {
+      "badge": "Live-Dolmetschen · geschlossene Beta",
+      "headlineLead": "Ihre wichtigsten Meetings sollten nicht in",
+      "headlineAccent": "der zweitbesten Sprache aller stattfinden.",
+      "lede": "Jeder spricht und wird in seiner eigenen Sprache verstanden — mit Übersetzungsqualität, die Sie anhand eines öffentlichen Benchmarks überprüfen können, statt nur zu vertrauen. Entwickelt für Bereiche, in denen eine Fehlübersetzung ein Risiko darstellt.",
+      "ctaPrimary": "Live-Demo ausprobieren (Ton an)",
+      "ctaSecondary": "Öffentlichen Benchmark ansehen",
+      "trustStrip": "Recht · Regulierung · Investor Relations · M&A — EU / neutrale Infrastruktur · On-Premise verfügbar"
+    },
+    "stats": {
+      "benchmarkValue": "Öffentlicher",
+      "benchmarkLabel": "Übersetzungs-Benchmark",
+      "glossariesValue": "Ihre",
+      "glossariesLabel": "Glossare & Termbanken",
+      "residencyValue": "EU / On-Premise",
+      "residencyLabel": "Datenresidenz-Optionen"
+    },
+    "problem": {
+      "eyebrow": "Das Problem",
+      "headingLead": "Meetings in der zweitbesten Sprache aller scheitern",
+      "headingAccent": "leise",
+      "headingTail": ".",
+      "lede": "Jedes grenzüberschreitende Meeting greift heute auf eine gemeinsame Sprache zurück, die niemand vollständig beherrscht — fast immer Englisch. Der Status quo scheitert nicht laut. Er scheitert leise, auf drei Arten:",
+      "falsePrecisionTitle": "Falsche Präzision",
+      "falsePrecisionBody": "Nicht-muttersprachliche Äußerungen klingen flüssig, bergen aber versteckte Fehler. Ein selbstbewusst falscher Satz ist schlimmer als eine offensichtliche Lücke — die Lücke führt zu einer Nachfrage, die falsche Klarheit wird protokolliert. Schlechtes Wissen ist schlimmer als kein Wissen.",
+      "selfCensorshipTitle": "Selbstzensur",
+      "selfCensorshipBody": "Menschen lassen Nuancen weg, die sie in einer Zweitsprache nicht ausdrücken können. Die sachkundigste Person im Raum wird zur am wenigsten artikulierten.",
+      "fluencyTitle": "Flüssigkeit übertrumpft Kompetenz",
+      "fluencyBody": "Entscheidungen neigen zu dem, der am besten spricht, nicht zu dem, der Recht hat. In einer Verhandlung hat die englischsprachige Seite einen Vorteil, bevor überhaupt Inhalte ausgetauscht werden.",
+      "disqualifierLead": "Eine generische maschinelle Übersetzungs-Schicht behebt dies nicht — sie",
+      "disqualifierEm": "reproduziert",
+      "disqualifierMid": "es, denn eine 'gut genug'-Übersetzung erzeugt ebenfalls falsche Präzision. In einem kritischen Meeting,",
+      "disqualifierStrong": "'gut genug' ist ein negativer Wert."
+    },
+    "preview": {
+      "eyebrow": "So sieht es aus",
+      "headingLead": "Ein Deal-Call. Vier Sprachen.",
+      "headingAccent": "Nichts geht in der Übersetzung verloren.",
+      "lede": "Jede Seite spricht in ihrer Muttersprache. Jede Seite hört die anderen in ihrer eigenen Sprache — mit der exakten Terminologie, die Ihre Termbank festlegt, im Audit-Trail aufgezeichnet und kann bei wichtigen Klauseln an einen menschlichen Dolmetscher eskaliert werden.",
+      "meetingLabel": "Simulierter grenzüberschreitender M&A-Call mit vier Teilnehmern, die verschiedene Sprachen sprechen",
+      "meetingTitle": "Grenzüberschreitende M&A · Dolmetschen mit Aufzeichnung",
+      "meetingRec": "● REC"
+    },
+    "pillars": {
+      "eyebrow": "Warum das anders ist",
+      "headingLead": "Übersetzungsqualität, die Sie",
+      "headingAccent": "überprüfen können",
+      "headingTail": ", nicht nur vertrauen.",
+      "lede": "Jeder greift auf dieselben zugrunde liegenden Modelle zu. Eine bessere Qualitätsbewertung in diesem Quartal ist im nächsten schon wieder hinfällig. Was wir aufbauen – und etablierte Anbieter strukturell nicht tun werden – ist die Ebene, die es Ihnen ermöglicht, zu überprüfen, einzuschränken und zu auditieren, was tatsächlich gesagt wurde.",
+      "benchmarkTitle": "Bewertet anhand eines öffentlichen Benchmarks",
+      "benchmarkBody": "Jede Veröffentlichung wird anhand eines offenen, reproduzierbaren Benchmarks gemessen – nicht anhand eines privaten Screenshots. Sie können die Zahlen überprüfen; Sie müssen dem Anbieter nicht blind vertrauen.",
+      "glossariesTitle": "Glossare & Terminologiedatenbanken unter Ihrer Kontrolle",
+      "glossariesBody": "Rechtliche, medizinische, finanzielle Terminologie, die an Ihre Formulierungen gebunden ist – nicht an die beste Vermutung des Modells. Hochladen, versionieren, auditieren. Ihr Hausstil; Ihre Haftungsfläche.",
+      "auditTitle": "Audit-Trail + menschliche Eskalation",
+      "auditBody": "Jedes übersetzte Segment wird mit Modell, Version und Konfidenz aufgezeichnet. Kritische Passagen können an einen menschlichen Dolmetscher weitergeleitet werden, bevor die Besprechung fortgesetzt wird."
+    },
+    "qualifier": {
+      "eyebrow": "Zu Ihren Bedingungen",
+      "headingLead": "Die Räume, in denen eine Fehlübersetzung katastrophal ist, sind dieselben Räume, in denen ein",
+      "headingAccent": "Datenleck",
+      "headingTail": "katastrophal ist.",
+      "lede": "Die Datenkontrolle geht also Hand in Hand mit dem entscheidenden Vorteil – nicht als Schlagzeile, sondern als beschaffungsrelevanter Nachweis.",
+      "euTitle": "EU-Residenz.",
+      "euBody": "OVH Roubaix / Paris für DSGVO- und Schrems-sensible Kunden.",
+      "uaeTitle": "VAE-neutrale Gerichtsbarkeit.",
+      "uaeBody": "Konzipiert außerhalb der US-amerikanischen Rechtsreichweite – eine Eigenschaft der Gerichtsbarkeit, nicht nur der Architektur.",
+      "onPremTitle": "On-Premise / Air-Gapped.",
+      "onPremBody": "Für Verteidigung, Geheimdienste und streng regulierte Pharmaunternehmen. Ihre Hardware, Ihr Netzwerk, Ihre Schlüssel.",
+      "linkText": "Lesen Sie das Sicherheits- & Jurisdiktions-Briefing →"
+    },
+    "cases": {
+      "eyebrow": "Die Räume, für die wir geschaffen sind",
+      "heading": "Hochriskant, reguliert, grenzüberschreitend.",
+      "lede": "Keine Stand-ups. Keine lockeren Verkaufsgespräche. Sondern die Gespräche, bei denen eine Fehlübersetzung ein Haftungsrisiko darstellt und die Daten unter Ihrer Kontrolle bleiben müssen.",
+      "legalTitle": "Rechtsverhandlungen",
+      "legalBody": "Term Sheets, Vergleiche, IP-Lizenzierungen über verschiedene Gerichtsbarkeiten hinweg – wo eine einzige mehrdeutige Klausel das gesamte Risiko darstellt.",
+      "regulatoryTitle": "Regulatorische Einreichungen",
+      "regulatoryBody": "Pre-Submission-Meetings mit EMA, BfArM, MHRA, SFDA – aufgezeichnet, glossargesteuert, bei Überprüfung verteidigungsfähig.",
+      "mnaTitle": "M&A und Investor Relations",
+      "mnaBody": "Grenzüberschreitende Deal-Calls und Earnings Q&A, bei denen die Käuferseite eine Sprache spricht und das Management eine andere.",
+      "gxpTitle": "GxP- und Qualitätsaudits",
+      "gxpBody": "Lieferanten- und Standortaudits, bei denen jede Antwort protokolliert wird und die Muttersprache des Inspektors nicht die des Auditierten ist."
+    },
+    "ctaBand": {
+      "heading": "Ihre Sprache. Ihre Daten. Ihre Bedingungen.",
+      "lede": "Sehen Sie sich die Live-Demo an und öffnen Sie dann den öffentlichen Benchmark. Treffen Sie Entscheidungen auf Basis von Zahlen, nicht auf Basis einer Verkaufspräsentation.",
+      "ctaPrimary": "Live-Demo ausprobieren",
+      "ctaSecondary": "Öffentlichen Benchmark ansehen"
+    }
   }
 }

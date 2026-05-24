@@ -9,5 +9,102 @@
   },
   "nav": {
     "switchLanguage": "Mudar idioma"
+  },
+  "home": {
+    "metaTitle": "InterMIND — Reuniões multilíngues verificáveis para salas de alto risco",
+    "metaDescription": "Reuniões por vídeo onde todos falam e são compreendidos em seu próprio idioma — com qualidade de tradução que você pode verificar em relação a um benchmark público, não apenas confiar. Desenvolvido para salas jurídicas, regulatórias, de M&A e de investidores, onde uma má tradução é um risco.",
+    "schema": {
+      "orgDescription": "Reuniões de vídeo multilíngues verificáveis para salas jurídicas, regulatórias, de M&A e de investidores. Infraestrutura neutra / da UE, com opção on-premise.",
+      "softwareDescription": "Plataforma de reuniões de vídeo multilíngues com qualidade de tradução verificável, glossários controlados pelo cliente, trilha de auditoria, infraestrutura neutra / da UE e implantação on-premise."
+    },
+    "hero": {
+      "badge": "Interpretação ao vivo · beta fechado",
+      "headlineLead": "Suas reuniões mais importantes não deveriam acontecer em",
+      "headlineAccent": "o segundo melhor idioma de todos.",
+      "lede": "Todos falam e são compreendidos em seu próprio idioma — com qualidade de tradução que você pode verificar em relação a um benchmark público, não apenas confiar. Desenvolvido para salas onde uma má tradução é um risco.",
+      "ctaPrimary": "Experimente a demonstração ao vivo (com som)",
+      "ctaSecondary": "Veja o benchmark público",
+      "trustStrip": "Jurídico · regulatório · relações com investidores · M&A — infraestrutura neutra / da UE · on-premise disponível"
+    },
+    "stats": {
+      "benchmarkValue": "Público",
+      "benchmarkLabel": "benchmark de tradução",
+      "glossariesValue": "Seus",
+      "glossariesLabel": "glossários e termbases",
+      "residencyValue": "UE / on-prem",
+      "residencyLabel": "opções de residência de dados"
+    },
+    "problem": {
+      "eyebrow": "O problema",
+      "headingLead": "Reuniões no segundo melhor idioma de todos falham",
+      "headingAccent": "silenciosamente",
+      "headingTail": ".",
+      "lede": "Toda reunião transfronteiriça hoje adota um idioma compartilhado que ninguém domina totalmente — quase sempre o inglês. O status quo não falha de forma evidente. Ele falha silenciosamente, de três maneiras:",
+      "falsePrecisionTitle": "Falsa precisão",
+      "falsePrecisionBody": "A fala não nativa soa fluente, mas carrega erros ocultos. Uma frase errada dita com confiança supera uma lacuna óbvia — a lacuna gera uma pergunta de acompanhamento, a falsa clareza é registrada em ata. Conhecimento ruim é pior do que nenhum conhecimento.",
+      "selfCensorshipTitle": "Autocensura",
+      "selfCensorshipBody": "As pessoas perdem a nuance que não conseguem expressar em um segundo idioma. A pessoa mais experiente na sala se torna a menos articulada.",
+      "fluencyTitle": "Fluência supera competência",
+      "fluencyBody": "As decisões pendem para quem fala melhor, não para quem está certo. Em uma negociação, o lado que fala inglês nativo tem uma vantagem antes que qualquer conteúdo seja trocado.",
+      "disqualifierLead": "Uma camada genérica de tradução automática não resolve isso — ela",
+      "disqualifierEm": "reproduz",
+      "disqualifierMid": "isso, porque uma tradução 'boa o suficiente' também emite falsa precisão. Em uma sala de alto risco,",
+      "disqualifierStrong": "'boa o suficiente' é valor negativo."
+    },
+    "preview": {
+      "eyebrow": "Como funciona",
+      "headingLead": "Uma chamada de negócio. Quatro idiomas.",
+      "headingAccent": "Nada se perde na tradução.",
+      "lede": "Cada lado fala em seu primeiro idioma. Cada lado ouve os outros no seu — com a terminologia exata que sua termbase define, registrada na trilha de auditoria, disponível para ser escalada para um intérprete humano para as cláusulas que importam.",
+      "meetingLabel": "Chamada simulada de M&A transfronteiriça com quatro participantes falando idiomas diferentes",
+      "meetingTitle": "M&A transfronteiriço · interpretação registrada",
+      "meetingRec": "● REC"
+    },
+    "pillars": {
+      "eyebrow": "Por que isso é diferente",
+      "headingLead": "Qualidade de tradução que você pode",
+      "headingAccent": "verificar",
+      "headingTail": ", não apenas confiar.",
+      "lede": "Todos usam os mesmos modelos subjacentes. Uma pontuação de qualidade melhor neste trimestre é apagada no próximo. O que construímos — e os incumbentes estruturalmente não farão — é a camada que permite verificar, restringir e auditar o que foi realmente dito.",
+      "benchmarkTitle": "Pontuado em relação a um benchmark público",
+      "benchmarkBody": "Cada lançamento é medido em um benchmark aberto e reproduzível — não em uma captura de tela privada. Você pode verificar o número; não precisa confiar no fornecedor.",
+      "glossariesTitle": "Glossários e bases terminológicas que você controla",
+      "glossariesBody": "Terminologia jurídica, médica, financeira vinculada à sua redação — não ao melhor palpite do modelo. Faça upload, versionamento, auditoria. Seu estilo; sua superfície de responsabilidade.",
+      "auditTitle": "Trilha de auditoria + escalonamento humano",
+      "auditBody": "Cada segmento traduzido é registrado com modelo, versão e confiança. Passagens críticas podem ser encaminhadas a um intérprete humano em tempo real antes que a reunião prossiga."
+    },
+    "qualifier": {
+      "eyebrow": "Nos seus termos",
+      "headingLead": "As salas onde uma tradução incorreta é catastrófica são as mesmas salas onde um(a)",
+      "headingAccent": "vazamento de dados",
+      "headingTail": "é catastrófico(a).",
+      "lede": "Assim, o controle de dados acompanha a vantagem competitiva — não como manchete, mas como prova de nível de aquisição.",
+      "euTitle": "Residência na UE.",
+      "euBody": "OVH Roubaix / Paris para clientes sensíveis a GDPR e Schrems.",
+      "uaeTitle": "Jurisdição neutra nos Emirados Árabes Unidos.",
+      "uaeBody": "Fora do alcance legal dos EUA por design — uma propriedade da jurisdição, não apenas da arquitetura.",
+      "onPremTitle": "On-premise / isolado.",
+      "onPremBody": "Para defesa, inteligência e farmacêuticas ultrarregulamentadas. Seu hardware, sua rede, suas chaves.",
+      "linkText": "Leia o resumo de segurança e jurisdição →"
+    },
+    "cases": {
+      "eyebrow": "As salas para as quais fomos construídos",
+      "heading": "De alto risco, regulamentadas, transfronteiriças.",
+      "lede": "Não são reuniões rápidas. Não são chamadas de vendas casuais. São as conversas onde uma tradução incorreta é um risco e os dados devem permanecer sob seu controle.",
+      "legalTitle": "Negociações jurídicas",
+      "legalBody": "Termos de acordo, liquidações, licenciamento de propriedade intelectual entre jurisdições — onde uma cláusula ambígua representa toda a exposição.",
+      "regulatoryTitle": "Submissões regulatórias",
+      "regulatoryBody": "Reuniões de pré-submissão com EMA, BfArM, MHRA, SFDA — gravadas, controladas por glossário, defensáveis em revisão.",
+      "mnaTitle": "M&A e relações com investidores",
+      "mnaBody": "Chamadas de negócios transfronteiriças e Q&A de resultados onde o lado comprador fala uma língua e a gestão outra.",
+      "gxpTitle": "Auditorias GxP e de qualidade",
+      "gxpBody": "Auditorias de fornecedores e locais onde cada resposta é registrada e a primeira língua do inspetor não é a do auditado."
+    },
+    "ctaBand": {
+      "heading": "Sua língua. Seus dados. Seus termos.",
+      "lede": "Veja a demonstração ao vivo, depois acesse o benchmark público. Decida com base em números, não em um pitch de vendas.",
+      "ctaPrimary": "Experimente a demonstração ao vivo",
+      "ctaSecondary": "Veja o benchmark público"
+    }
   }
 }

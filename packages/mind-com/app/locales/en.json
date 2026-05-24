@@ -9,5 +9,102 @@
     "metaDescription": "Long-form research and analysis on real-time AI interpretation, multilingual meetings, and global team communication from the InterMIND team.",
     "noPosts": "No posts yet.",
     "backToBlog": "← All posts"
+  },
+  "home": {
+    "metaTitle": "InterMIND — Verifiable multilingual meetings for high-stakes rooms",
+    "metaDescription": "Video meetings where everyone speaks and is understood in their own language — with translation quality you can verify against a public benchmark, not just trust. Built for legal, regulatory, M&A and investor rooms where a mistranslation is a liability.",
+    "schema": {
+      "orgDescription": "Verifiable multilingual video meetings for legal, regulatory, M&A and investor rooms. EU / neutral infrastructure, on-premise available.",
+      "softwareDescription": "Multilingual video meeting platform with verifiable translation quality, customer-controlled glossaries, audit trail, EU / neutral infrastructure and on-premise deployment."
+    },
+    "hero": {
+      "badge": "Live interpretation · closed beta",
+      "headlineLead": "Your most important meetings shouldn't run in",
+      "headlineAccent": "everyone's second-best language.",
+      "lede": "Everyone speaks and is understood in their own language — with translation quality you can verify against a public benchmark, not just trust. Built for rooms where a mistranslation is a liability.",
+      "ctaPrimary": "Try the live demo (sound on)",
+      "ctaSecondary": "See the public benchmark",
+      "trustStrip": "Legal · regulatory · investor relations · M&A — EU / neutral infrastructure · on-premise available"
+    },
+    "stats": {
+      "benchmarkValue": "Public",
+      "benchmarkLabel": "translation benchmark",
+      "glossariesValue": "Yours",
+      "glossariesLabel": "glossaries & termbases",
+      "residencyValue": "EU / on-prem",
+      "residencyLabel": "data residency options"
+    },
+    "problem": {
+      "eyebrow": "The problem",
+      "headingLead": "Meetings in everyone's second-best language fail",
+      "headingAccent": "silently",
+      "headingTail": ".",
+      "lede": "Every cross-border meeting today defaults to a shared language nobody fully owns — almost always English. The status quo doesn't fail loudly. It fails quietly, in three ways:",
+      "falsePrecisionTitle": "False precision",
+      "falsePrecisionBody": "Non-native speech sounds fluent but carries hidden errors. A confidently wrong sentence beats an obvious gap — the gap earns a follow-up question, the false clarity gets minuted. Bad knowledge is worse than no knowledge.",
+      "selfCensorshipTitle": "Self-censorship",
+      "selfCensorshipBody": "People drop the nuance they can't express in a second language. The most knowledgeable person in the room becomes the least articulate.",
+      "fluencyTitle": "Fluency outranks competence",
+      "fluencyBody": "Decisions tilt toward whoever speaks best, not whoever is right. In a negotiation, the native-English side holds an advantage before any substance is exchanged.",
+      "disqualifierLead": "A generic machine-translation layer doesn't fix this — it",
+      "disqualifierEm": "reproduces",
+      "disqualifierMid": "it, because good-enough translation also emits false precision. In a high-stakes room,",
+      "disqualifierStrong": "good-enough is negative value."
+    },
+    "preview": {
+      "eyebrow": "What it looks like",
+      "headingLead": "One deal call. Four languages.",
+      "headingAccent": "Nothing lost in translation.",
+      "lede": "Each side speaks in their first language. Each side hears the others in theirs — with the exact terminology your termbase locks in, recorded on the audit trail, available to escalate to a human interpreter for the clauses that matter.",
+      "meetingLabel": "Mock cross-border M&A call with four participants speaking different languages",
+      "meetingTitle": "Cross-border M&A · interpretation on record",
+      "meetingRec": "● REC"
+    },
+    "pillars": {
+      "eyebrow": "Why this is different",
+      "headingLead": "Translation quality you can",
+      "headingAccent": "verify",
+      "headingTail": ", not just trust.",
+      "lede": "Everyone calls the same underlying models. A better quality score this quarter is erased next quarter. What we build — and incumbents structurally won't — is the layer that lets you check, constrain and audit what was actually said.",
+      "benchmarkTitle": "Scored against a public benchmark",
+      "benchmarkBody": "Every release is measured on an open, reproducible benchmark — not a private screenshot. You can check the number; you don't have to trust the vendor.",
+      "glossariesTitle": "Glossaries & termbases you control",
+      "glossariesBody": "Legal, medical, financial terminology bound to your wording — not the model's best guess. Upload, version, audit. Your house style; your liability surface.",
+      "auditTitle": "Audit trail + human escalation",
+      "auditBody": "Every translated segment is recorded with model, version and confidence. Critical passages can be routed to a human interpreter in-the-loop before the room moves on."
+    },
+    "qualifier": {
+      "eyebrow": "On your terms",
+      "headingLead": "The rooms where a mistranslation is catastrophic are the same rooms where a",
+      "headingAccent": "data leak",
+      "headingTail": "is catastrophic.",
+      "lede": "So data control rides with the wedge — not as the headline, but as procurement-grade proof.",
+      "euTitle": "EU residency.",
+      "euBody": "OVH Roubaix / Paris for GDPR- and Schrems-sensitive customers.",
+      "uaeTitle": "UAE-neutral jurisdiction.",
+      "uaeBody": "Out of US legal reach by design — a property of jurisdiction, not just architecture.",
+      "onPremTitle": "On-premise / air-gapped.",
+      "onPremBody": "For defense, intelligence and ultra-regulated pharma. Your hardware, your network, your keys.",
+      "linkText": "Read the security & jurisdiction brief →"
+    },
+    "cases": {
+      "eyebrow": "The rooms we're built for",
+      "heading": "High-stakes, regulated, cross-border.",
+      "lede": "Not stand-ups. Not casual sales calls. The conversations where a mistranslation is a liability and the data must stay under your control.",
+      "legalTitle": "Legal negotiations",
+      "legalBody": "Term sheets, settlements, IP licensing across jurisdictions — where one ambiguous clause is the whole exposure.",
+      "regulatoryTitle": "Regulatory submissions",
+      "regulatoryBody": "Pre-submission meetings with EMA, BfArM, MHRA, SFDA — recorded, glossary-controlled, defensible on review.",
+      "mnaTitle": "M&A and investor relations",
+      "mnaBody": "Cross-border deal calls and earnings Q&A where the buy-side speaks one language and the management another.",
+      "gxpTitle": "GxP and quality audits",
+      "gxpBody": "Vendor and site audits where every answer is on the record and the inspector's first language isn't the auditee's."
+    },
+    "ctaBand": {
+      "heading": "Your language. Your data. Your terms.",
+      "lede": "See the live demo, then open the public benchmark. Decide on numbers, not on a sales deck.",
+      "ctaPrimary": "Try the live demo",
+      "ctaSecondary": "See the public benchmark"
+    }
   }
 }
