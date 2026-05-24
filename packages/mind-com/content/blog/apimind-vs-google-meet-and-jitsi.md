@@ -3,6 +3,7 @@ title: "apiMind vs Google Meet and Jitsi"
 description: "A comprehensive comparison of apiMind's performance against Google Meet and Jitsi based on independent testing."
 date: "2025-08-18"
 author: "[Jilarganti](https://github.com/jilarganti)"
+image: "/blog/2025-08-18_18.54.27.png"
 ---
 
 # apiMind vs Google Meet and Jitsi: Independent 2024 Benchmark Analysis

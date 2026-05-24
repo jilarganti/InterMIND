@@ -3,6 +3,7 @@ title: "Mind.com Website Architecture"
 description: "Technical Research of a Modern JAMstack Solution with AI Integration"
 date: "2025-08-15"
 author: "[Jilarganti](https://github.com/jilarganti)"
+image: "/blog/iStock-681469612.jpg"
 ---
 
 # Mind.com Website Architecture: Technical Research of a Modern JAMstack Solution with AI Integration

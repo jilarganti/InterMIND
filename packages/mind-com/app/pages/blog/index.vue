@@ -3,7 +3,11 @@ const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 
 const { data: posts } = await useAsyncData("blog-index", () =>
-  queryCollection("blog").where("hidden", "<>", true).order("date", "DESC").select("path", "title", "description", "date", "author").all(),
+  queryCollection("blog")
+    .where("hidden", "<>", true)
+    .order("date", "DESC")
+    .select("path", "title", "description", "date", "author", "image", "badge")
+    .all(),
 )
 
 const title = "Blog — InterMIND"
@@ -25,82 +29,63 @@ useHead({
   link: [{ rel: "canonical", href: `${siteUrl}/blog` }],
 })
 
-function formatDate(d: string): string {
-  const date = new Date(d)
-  return date.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })
+function authorName(raw?: string | null): string | undefined {
+  if (!raw) return undefined
+  const match = raw.match(/^\[([^\]]+)\]/)
+  return match ? match[1] : raw
 }
 </script>
 
 <template>
-  <div class="content">
-    <section class="intro">
-      <h1>Blog</h1>
-      <p>Research and analysis on real-time AI interpretation and multilingual collaboration.</p>
-    </section>
+  <UContainer class="blog-container">
+    <UPageHeader
+      title="Blog"
+      description="Research and analysis on real-time AI interpretation and multilingual collaboration."
+      class="py-12"
+    />
 
-    <ul v-if="posts && posts.length" class="post-list">
-      <li v-for="post in posts" :key="post.path">
-        <NuxtLink :to="post.path">
-          <h2>{{ post.title }}</h2>
-          <p class="meta">{{ formatDate(post.date) }}</p>
-          <p class="excerpt">{{ post.description }}</p>
-        </NuxtLink>
-      </li>
-    </ul>
-    <p v-else class="empty">No posts yet.</p>
-  </div>
+    <UPageBody>
+      <UBlogPosts v-if="posts && posts.length">
+        <UBlogPost
+          v-for="post in posts"
+          :key="post.path"
+          :title="post.title"
+          :description="post.description"
+          :date="new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })"
+          :badge="post.badge ? { label: post.badge, color: 'primary' } : undefined"
+          :authors="authorName(post.author) ? [{ name: authorName(post.author)! }] : undefined"
+          :to="post.path"
+          variant="naked"
+        >
+          <template v-if="post.image" #header>
+            <img :src="post.image" :alt="post.title" class="og-cover" loading="lazy" width="1200" height="630" />
+          </template>
+        </UBlogPost>
+      </UBlogPosts>
+
+      <p v-else class="empty">No posts yet.</p>
+    </UPageBody>
+  </UContainer>
 </template>
 
 <style scoped>
-.content {
-  max-width: 760px;
+.blog-container {
+  padding-bottom: 4rem;
+}
+:deep([class*="grid-cols-3"]) {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+.og-cover {
   width: 100%;
-  margin: 0 auto;
-  padding: 2rem;
-}
-.intro h1 {
-  font-size: 2.5rem;
-  margin: 0 0 0.5rem;
-}
-.intro p {
-  color: #555;
-  margin: 0 0 2rem;
-}
-.post-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.post-list li {
-  border-top: 1px solid #ececea;
-}
-.post-list li:last-child {
-  border-bottom: 1px solid #ececea;
-}
-.post-list a {
+  height: auto;
+  aspect-ratio: 1200 / 630;
+  object-fit: cover;
+  border-radius: 0.5rem;
   display: block;
-  padding: 1.5rem 0;
-  text-decoration: none;
-  color: inherit;
-}
-.post-list a:hover h2 {
-  color: #dd9144;
-}
-.post-list h2 {
-  font-size: 1.3rem;
-  margin: 0 0 0.25rem;
-  font-weight: 600;
-}
-.meta {
-  font-size: 0.85rem;
-  color: #888;
-  margin: 0 0 0.5rem;
-}
-.excerpt {
-  margin: 0;
-  color: #555;
 }
 .empty {
   color: #888;
+  text-align: center;
+  padding: 3rem 0;
 }
 </style>

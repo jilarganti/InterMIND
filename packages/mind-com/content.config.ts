@@ -10,6 +10,8 @@ export default defineContentConfig({
         description: z.string(),
         date: z.string(),
         author: z.string().optional(),
+        image: z.string().optional(),
+        badge: z.string().optional(),
         hidden: z.boolean().optional().default(false),
         canonical: z.string().url().optional(),
       }),

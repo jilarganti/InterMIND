@@ -3,6 +3,7 @@ title: "Multilingual Meetings in Microsoft Teams"
 description: "Comprehensive guide to AI translation technologies, professional interpretation platforms, and emerging solutions for breaking language barriers in global business communications"
 date: "2025-08-25"
 author: "[Jilarganti](https://github.com/jilarganti)"
+image: "/blog/iStock-2168600948.jpg"
 ---
 
 # Multilingual Meetings in Microsoft Teams: Modern Translation Solutions for 2025

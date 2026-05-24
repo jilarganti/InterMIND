@@ -3,6 +3,7 @@ title: "Real-Time Translation for E-Commerce: How to Enter the Global Market"
 description: "Complete guide to using real-time AI translation for international e-commerce expansion. Market statistics, ROI, and best practices."
 date: "2026-01-28"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
+image: "/blog/ecommerce-localization-roi-infographic.png"
 ---
 
 # Real-Time Translation for E-Commerce: How to Enter the Global Market

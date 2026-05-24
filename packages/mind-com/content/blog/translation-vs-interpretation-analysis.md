@@ -3,6 +3,7 @@ title: "Translation vs Interpretation: Complete Guide to Real-Time Video Confere
 description: "How simultaneous interpretation is transforming video communications - comparing written translation and real-time interpretation technologies for international business"
 date: "2025-10-28"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
+image: "/blog/iStock-2167834147.jpg"
 ---
 
 # Translation vs Interpretation: What's the Real Difference?

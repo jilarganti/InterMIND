@@ -3,6 +3,7 @@ title: "How to Enhance Employee Training with Real-Time AI Interpretation in 202
 description: "Complete guide to implementing real-time AI interpretation for corporate training. Statistics, ROI, and best practices for multilingual teams."
 date: "2025-11-27"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
+image: "/blog/ai-interpretation-roi-infographic.png"
 ---
 
 # How to Enhance Employee Training with Real-Time AI Interpretation in 2025

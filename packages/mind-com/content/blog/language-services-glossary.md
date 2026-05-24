@@ -3,6 +3,7 @@ title: "Language Services Glossary 2025: Complete Guide to AI Translation & Inte
 description: "Comprehensive glossary of translation and interpretation terminology with 2025 market data, AI performance metrics, and industry benchmarks"
 date: "2025-10-27"
 author: "[Jilarganti](https://github.com/jilarganti)"
+image: "/blog/iStock-1442915416.jpg"
 ---
 
 # Language Services Glossary 2025: Complete Guide to AI Translation & Interpretation

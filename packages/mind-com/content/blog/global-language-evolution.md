@@ -3,6 +3,7 @@ title: "The Global Language: From Latin to Artificial Intelligence"
 description: "Complete history and evolution of lingua franca throughout human history. How AI translation technology may fundamentally change the concept of a 'world language' in 2025 and beyond."
 date: "2025-12-28"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
+image: "/blog/lingua-franca-history-ai-translation-timeline.png"
 ---
 
 # The Global Language: From Latin to Artificial Intelligence
