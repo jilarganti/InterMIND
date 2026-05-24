@@ -31,6 +31,13 @@ export default defineNuxtConfig({
   // strings live in app/locales/<code>.json; content is mirrored under
   // content/<code>/{blog,legal}/ by scripts/i18n-translate-content.ts.
   i18n: {
+    // Allow inline HTML (<strong>, <em>, <a>) inside locale message values.
+    // Without this, unplugin-vue-i18n aborts loading the whole file the moment
+    // it sees a tag — every key from that file then renders as the raw key.
+    compilation: {
+      strictMessage: false,
+      escapeHtml: false,
+    },
     locales: [
       { code: "en", name: "English", file: "en.json" },
       { code: "es", name: "Spanish (Latin America)", file: "es.json" },

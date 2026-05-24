@@ -1,69 +1,62 @@
 <script setup lang="ts">
+const { t } = useI18n()
+const localePath = useLocalePath()
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 const productUrl = config.public.productUrl
+const productUrlBare = productUrl.replace(/^https?:\/\//, "")
 
 useHead({
-  title: "About — InterMIND",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Mind.com builds InterMIND — the world's first platform that makes multilingual conversations feel native. We're eliminating the last barrier to truly global collaboration.",
-    },
-  ],
+  title: () => t("about.metaTitle"),
+  meta: [{ name: "description", content: () => t("about.metaDescription") }],
   link: [{ rel: "canonical", href: `${siteUrl}/about` }],
 })
 </script>
 
 <template>
   <div class="content prose">
-    <h1>Mind.com: Erasing Language Barriers Forever</h1>
+    <h1>{{ t("about.h1") }}</h1>
 
-    <h2>Who We Are</h2>
-    <p>
-      <strong>Mind.com</strong> builds <strong>InterMIND</strong> — the world's first platform that makes multilingual conversations feel native. We're
-      eliminating the last barrier to truly global collaboration.
-    </p>
+    <h2>{{ t("about.whoTitle") }}</h2>
+    <p v-html="t('about.whoBody')" />
 
-    <h2>Our Mission</h2>
-    <p><strong>Make language learning obsolete for business.</strong></p>
-    <p>Every conversation. Every meeting. Every deal — in any language, understood perfectly.</p>
-    <p>No subtitles. No delays. No lost deals because of language.</p>
+    <h2>{{ t("about.missionTitle") }}</h2>
+    <p v-html="t('about.missionLead')" />
+    <p>{{ t("about.missionBody1") }}</p>
+    <p>{{ t("about.missionBody2") }}</p>
 
-    <h2>What Is InterMIND?</h2>
-    <p><strong>Not translation. Not interpretation. Something entirely new.</strong></p>
-    <p>
-      InterMIND is <strong>conversational telepathy</strong> — you think in English, they hear perfect Mandarin. They respond in Japanese, you understand every
-      nuance.
-    </p>
-    <p>
-      It preserves <strong>your voice</strong>, <strong>your tone</strong>, <strong>your personality</strong> — in any language. It captures
-      <strong>context</strong>, <strong>cultural subtext</strong>, <strong>business intent</strong>.
-    </p>
-    <blockquote>Speak naturally. Be understood perfectly. Close more deals.</blockquote>
-    <p>
-      Try the platform on <a :href="productUrl">{{ productUrl.replace(/^https?:\/\//, "") }}</a
-      >.
-    </p>
+    <h2>{{ t("about.productTitle") }}</h2>
+    <p v-html="t('about.productLead')" />
+    <p v-html="t('about.productBody1')" />
+    <p v-html="t('about.productBody2')" />
+    <blockquote>{{ t("about.productQuote") }}</blockquote>
+    <i18n-t keypath="about.tryPlatform" tag="p">
+      <template #link>
+        <a :href="productUrl">{{ productUrlBare }}</a>
+      </template>
+    </i18n-t>
 
-    <h2>The Technology</h2>
-    <p>Where others translate words, we transfer <strong>meaning</strong>.</p>
-    <p>Where others add delay, we enable <strong>real-time flow</strong>.</p>
-    <p>Where others create barriers, we create <strong>connection</strong>.</p>
-    <p><strong>20+ languages. Zero cognitive load. Maximum impact.</strong></p>
+    <h2>{{ t("about.techTitle") }}</h2>
+    <p v-html="t('about.techBody1')" />
+    <p v-html="t('about.techBody2')" />
+    <p v-html="t('about.techBody3')" />
+    <p v-html="t('about.techBody4')" />
 
-    <h2>Our Philosophy</h2>
-    <p>Language shouldn't determine who you can work with.</p>
-    <p>Geography shouldn't limit your ambitions.</p>
-    <p>Culture shouldn't be a competitive disadvantage.</p>
-    <blockquote><strong>We're not building a translator. We're building a bridge between worlds.</strong></blockquote>
-    <p>The future belongs to those who can collaborate globally — instantly, naturally, intelligently.</p>
-    <p><em>— The Mind.com Team</em></p>
+    <h2>{{ t("about.philosophyTitle") }}</h2>
+    <p>{{ t("about.philosophyBody1") }}</p>
+    <p>{{ t("about.philosophyBody2") }}</p>
+    <p>{{ t("about.philosophyBody3") }}</p>
+    <blockquote v-html="t('about.philosophyQuote')" />
+    <p>{{ t("about.philosophyClose") }}</p>
+    <p><em>{{ t("about.signoff") }}</em></p>
 
     <p>
-      <strong>Ready to learn more?</strong> Visit our <a href="/team">team page</a>, explore <a href="/careers">career opportunities</a>, or
-      <a href="/contacts">get in touch</a>.
+      <strong>{{ t("about.ctaIntro") }}</strong>
+      <i18n-t keypath="about.ctaParagraph" tag="span">
+        <template #team><NuxtLink :to="localePath('/team')">{{ t("about.ctaTeamLink") }}</NuxtLink></template>
+        <template #careers><NuxtLink :to="localePath('/careers')">{{ t("about.ctaCareersLink") }}</NuxtLink></template>
+        <template #contacts><NuxtLink :to="localePath('/contacts')">{{ t("about.ctaContactsLink") }}</NuxtLink></template>
+      </i18n-t>
     </p>
   </div>
 </template>
