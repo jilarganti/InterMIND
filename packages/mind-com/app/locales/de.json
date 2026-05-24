@@ -370,5 +370,10 @@
     "searchHeading": "Suche in all Ihren Meetings",
     "interpretationAlt": "Simultandolmetschen",
     "searchAlt": "Suche in all Ihren Meetings"
+  },
+  "chat": {
+    "metaTitle": "Chat — InterMIND",
+    "h1": "Chat",
+    "placeholder": "Phase 5 integriert das KI-Chat-Widget in diese Seite."
   }
 }

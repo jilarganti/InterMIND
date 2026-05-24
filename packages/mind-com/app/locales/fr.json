@@ -370,5 +370,10 @@
     "searchHeading": "Rechercher dans toutes vos réunions",
     "interpretationAlt": "Interprétation simultanée",
     "searchAlt": "Rechercher dans toutes vos réunions"
+  },
+  "chat": {
+    "metaTitle": "Chat — InterMIND",
+    "h1": "Chat",
+    "placeholder": "La phase 5 intègre le widget de chat IA à cette page."
   }
 }

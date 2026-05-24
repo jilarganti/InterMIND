@@ -33,6 +33,11 @@
     "noPosts": "No posts yet.",
     "backToBlog": "← All posts"
   },
+  "chat": {
+    "metaTitle": "Chat — InterMIND",
+    "h1": "Chat",
+    "placeholder": "Phase 5 wires the AI chat widget into this page."
+  },
   "brandAssets": {
     "metaTitle": "Brand Assets — InterMIND",
     "metaDescription": "InterMIND marketing resources and identity guidelines, including logo, content, and trademarks.",

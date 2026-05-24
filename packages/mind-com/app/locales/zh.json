@@ -370,5 +370,10 @@
     "searchHeading": "搜索您的所有会议",
     "interpretationAlt": "同声传译",
     "searchAlt": "搜索您的所有会议"
+  },
+  "chat": {
+    "metaTitle": "聊天 — InterMIND",
+    "h1": "聊天",
+    "placeholder": "第五阶段将AI聊天小部件集成到此页面。"
   }
 }
