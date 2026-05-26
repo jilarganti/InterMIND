@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { t } = useI18n()
+const { t } = useI18n({ useScope: "global" })
 const localePath = useLocalePath()
 
 const columns = computed(() => [
@@ -49,9 +49,11 @@ const year = new Date().getFullYear()
 </template>
 
 <style scoped>
+/* Two-tone vCard: footer inverts the page background.
+   Light theme → dark footer. Dark theme → light footer. */
 .app-footer {
-  background: #fafafa;
-  border-top: 1px solid #ececec;
+  background: #111827;
+  border-top: 1px solid #1f2937;
   padding: 3rem 1.5rem 2rem;
   margin-top: 4rem;
 }
@@ -69,7 +71,7 @@ const year = new Date().getFullYear()
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.05em;
-  color: #1c1c1c;
+  color: #ffffff;
   margin: 0 0 1rem;
 }
 .column ul {
@@ -81,26 +83,50 @@ const year = new Date().getFullYear()
   gap: 0.6rem;
 }
 .footer-link {
-  color: #4a4a4a;
+  color: #9ca3af;
   text-decoration: none;
   font-size: 0.95rem;
   line-height: 1.4;
 }
 .footer-link:hover {
-  color: #1c1c1c;
+  color: #ffffff;
   text-decoration: underline;
 }
 .meta {
-  border-top: 1px solid #ececec;
+  border-top: 1px solid #1f2937;
   padding-top: 1rem;
   font-size: 0.85rem;
-  color: #777;
+  color: #6b7280;
 }
 .meta a {
-  color: #777;
+  color: #6b7280;
 }
 .meta a:hover {
-  color: #1c1c1c;
+  color: #ffffff;
   text-decoration: underline;
+}
+
+:where(html.dark) .app-footer {
+  background: #fafafa;
+  border-top-color: #ececec;
+}
+:where(html.dark) .column h4 {
+  color: #1c1c1c;
+}
+:where(html.dark) .footer-link {
+  color: #4a4a4a;
+}
+:where(html.dark) .footer-link:hover {
+  color: #1c1c1c;
+}
+:where(html.dark) .meta {
+  border-top-color: #ececec;
+  color: #777;
+}
+:where(html.dark) .meta a {
+  color: #777;
+}
+:where(html.dark) .meta a:hover {
+  color: #1c1c1c;
 }
 </style>

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
-const { locale, t } = useI18n()
+const { locale, t } = useI18n({ useScope: "global" })
 const localePath = useLocalePath()
 
 const blogCollectionMap = {
@@ -123,12 +123,16 @@ function formatDate(d: string): string {
 :deep([class*="grid-cols-3"]) {
   grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
 }
+/* Nuxt UI's naked variant ships `shadow-lg` on the header, which renders as a
+   visible halo around the image in light theme. Drop the shadow and let the
+   cover fill the slot so there's no letterboxing either. */
+:deep([data-slot="header"]) {
+  box-shadow: none;
+}
 .og-cover {
   width: 100%;
-  height: auto;
-  aspect-ratio: 1200 / 630;
+  height: 100%;
   object-fit: cover;
-  border-radius: 0.5rem;
   display: block;
 }
 .empty {

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { DropdownMenuItem } from "@nuxt/ui"
 
-const { locale, locales, t } = useI18n()
+const { locale, locales, t } = useI18n({ useScope: "global" })
 const switchLocalePath = useSwitchLocalePath()
 const router = useRouter()
 

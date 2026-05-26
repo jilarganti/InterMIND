@@ -7,7 +7,7 @@ interface FormData {
   message: string
 }
 
-const { t } = useI18n()
+const { t } = useI18n({ useScope: "global" })
 
 withDefaults(
   defineProps<{

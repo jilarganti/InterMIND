@@ -12,7 +12,7 @@ interface TeamMember {
   links?: TeamMemberLink[]
 }
 defineProps<{ members: TeamMember[] }>()
-const { t } = useI18n()
+const { t } = useI18n({ useScope: "global" })
 
 function iconLabel(icon?: string): string {
   const fallback = t("teamMembers.defaultLinkLabel")

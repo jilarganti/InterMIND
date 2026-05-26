@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { t } = useI18n()
+const { t } = useI18n({ useScope: "global" })
 const config = useRuntimeConfig()
 const productUrl = config.public.productUrl
 const signInUrl = config.public.signInUrl
@@ -48,7 +48,7 @@ function cycleColorMode() {
       </div>
     </header>
 
-    <main class="flex-1 w-full">
+    <main class="flex-1 w-full flex items-center">
       <slot />
     </main>
 

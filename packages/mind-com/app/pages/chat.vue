@@ -1,7 +1,7 @@
 <script setup lang="ts">
 // Chat page is intentionally noindex (set in nuxt.config.ts robots + sitemap exclude).
 // Phase 5 ports the AI chat UI here.
-const { t } = useI18n()
+const { t } = useI18n({ useScope: "global" })
 useHead({
   title: () => t("chat.metaTitle"),
   meta: [{ name: "robots", content: "noindex,nofollow" }],

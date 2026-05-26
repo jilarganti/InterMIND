@@ -2,7 +2,7 @@
 const route = useRoute()
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
-const { locale, t } = useI18n()
+const { locale, t } = useI18n({ useScope: "global" })
 const localePath = useLocalePath()
 
 const blogCollectionMap = {

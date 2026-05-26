@@ -2,7 +2,7 @@
 const route = useRoute()
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
-const { locale } = useI18n()
+const { locale } = useI18n({ useScope: "global" })
 
 const legalCollectionMap = {
   en: "legal",
