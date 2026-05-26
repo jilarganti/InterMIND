@@ -15,6 +15,15 @@
     "newVersion": "Nueva versión"
   },
   "home": {
+    "vcard": {
+      "headlinePart1": "Verificables",
+      "headlinePart2": "videollamadas multilingües",
+      "headlinePart3": "para salas reguladas transfronterizas",
+      "productLine": "El producto vive en",
+      "openProduct": "Abrir el producto",
+      "entityEuRole": "Titular de IP en la UE",
+      "entityUaeRole": "Entidad operativa"
+    },
     "metaTitle": "InterMIND — Reuniones multilingües verificables para entornos de alto riesgo",
     "metaDescription": "Videollamadas donde todos hablan y son entendidos en su propio idioma — con una calidad de traducción que puedes verificar contra un benchmark público, no solo confiar. Diseñado para entornos legales, regulatorios, de fusiones y adquisiciones e inversores donde una mala traducción es un riesgo.",
     "schema": {

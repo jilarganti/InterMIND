@@ -280,10 +280,19 @@
     "ctaContactsLink": "get in touch"
   },
   "home": {
-    "metaTitle": "InterMIND — Verifiable multilingual meetings for high-stakes rooms",
-    "metaDescription": "Video meetings where everyone speaks and is understood in their own language — with translation quality you can verify against a public benchmark, not just trust. Built for legal, regulatory, M&A and investor rooms where a mistranslation is a liability.",
+    "vcard": {
+      "headlinePart1": "Verifiable",
+      "headlinePart2": "multilingual video meetings",
+      "headlinePart3": "for regulated cross‑border rooms",
+      "productLine": "The product lives at",
+      "openProduct": "Open the product",
+      "entityEuRole": "EU IP holder",
+      "entityUaeRole": "Operational entity"
+    },
+    "metaTitle": "InterMIND — Verifiable multilingual video meetings",
+    "metaDescription": "InterMIND builds verifiable multilingual video meetings for regulated cross-border rooms. EU IP holder (MindMeeting OÜ, Estonia) and UAE operational entity (Golden Fish CSP LLC, Dubai). Product at intermind.com.",
     "schema": {
-      "orgDescription": "Verifiable multilingual video meetings for legal, regulatory, M&A and investor rooms. EU / neutral infrastructure, on-premise available.",
+      "orgDescription": "InterMIND builds verifiable multilingual video meetings for regulated cross-border rooms. EU IP holder in Estonia, operational entity in UAE.",
       "softwareDescription": "Multilingual video meeting platform with verifiable translation quality, customer-controlled glossaries, audit trail, EU / neutral infrastructure and on-premise deployment."
     },
     "hero": {

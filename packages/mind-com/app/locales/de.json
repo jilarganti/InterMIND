@@ -15,6 +15,15 @@
     "newVersion": "Neue Version"
   },
   "home": {
+    "vcard": {
+      "headlinePart1": "Verifizierbare",
+      "headlinePart2": "mehrsprachige Videomeetings",
+      "headlinePart3": "für regulierte grenzüberschreitende Räume",
+      "productLine": "Das Produkt finden Sie unter",
+      "openProduct": "Produkt öffnen",
+      "entityEuRole": "EU-IP-Inhaber",
+      "entityUaeRole": "Operative Einheit"
+    },
     "metaTitle": "InterMIND — Verifizierbare mehrsprachige Meetings für kritische Besprechungen",
     "metaDescription": "Videomeetings, bei denen jeder in seiner eigenen Sprache spricht und verstanden wird — mit Übersetzungsqualität, die Sie anhand eines öffentlichen Benchmarks überprüfen können, statt nur zu vertrauen. Entwickelt für Rechts-, Regulierungs-, M&A- und Investoren-Meetings, wo eine Fehlübersetzung ein Risiko darstellt.",
     "schema": {
