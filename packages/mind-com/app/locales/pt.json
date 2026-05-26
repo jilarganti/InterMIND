@@ -2,14 +2,14 @@
   "blog": {
     "title": "Blog",
     "description": "Pesquisa e análise sobre interpretação de IA em tempo real e colaboração multilíngue.",
-    "metaTitle": "Blog — InterMIND",
+    "metaTitle": "Blog — Mind",
     "metaDescription": "Pesquisa e análise aprofundadas sobre interpretação de IA em tempo real, reuniões multilíngues e comunicação de equipes globais da equipe InterMIND.",
     "noPosts": "Nenhum post ainda.",
     "backToBlog": "← Todos os posts"
   },
   "nav": {
     "switchLanguage": "Mudar idioma",
-    "brandLabel": "InterMIND início",
+    "brandLabel": "Mind início",
     "blog": "Blog",
     "signIn": "Entrar",
     "newVersion": "Nova versão",
@@ -142,7 +142,7 @@
     "newVersionLabel": "Nova versão: {url}"
   },
   "about": {
-    "metaTitle": "Sobre — InterMIND",
+    "metaTitle": "Sobre — Mind",
     "metaDescription": "Mind.com desenvolve o InterMIND — a primeira plataforma do mundo que faz com que conversas multilíngues pareçam nativas. Estamos eliminando a última barreira para uma colaboração verdadeiramente global.",
     "h1": "Mind.com: Eliminando Barreiras Linguísticas Para Sempre",
     "whoTitle": "Quem Somos",
@@ -176,9 +176,9 @@
     "ctaContactsLink": "entre em contato"
   },
   "contacts": {
-    "metaTitle": "Contato InterMIND",
-    "metaDescription": "Quer fazer parceria com a InterMind, investir ou entrar em contato com nossa equipe executiva? Use este formulário para consultas comerciais, solicitações de mídia ou assuntos jurídicos.",
-    "h1": "🤝 Quer entrar em contato com a InterMind? Vamos nos conectar.",
+    "metaTitle": "Contato Mind",
+    "metaDescription": "Quer fazer parceria com a Mind, investir ou entrar em contato com nossa equipe executiva? Use este formulário para consultas comerciais, solicitações de mídia ou assuntos jurídicos.",
+    "h1": "🤝 Quer entrar em contato com a Mind? Vamos nos conectar.",
     "lede": "Use este formulário para entrar em contato diretamente com a equipe da nossa empresa — para parcerias, investimentos, mídia, conformidade ou outros assuntos relacionados a negócios. Garantiremos que sua mensagem chegue à pessoa certa.",
     "categoryLabel": "Qual o motivo do seu contato? *",
     "categoryPlaceholder": "Escolha seu tópico...",
@@ -196,7 +196,7 @@
       "general": "Consulta geral de negócios"
     },
     "helpBlockStrong": "Precisa de ajuda relacionada ao produto?",
-    "helpBlock": "Visite nossa {link} para obter respostas rápidas e assistência da equipe InterMind.",
+    "helpBlock": "Visite nossa {link} para obter respostas rápidas e assistência da equipe Mind.",
     "helpLink": "Página de Suporte",
     "learnBlockStrong": "Quer saber mais sobre nós?",
     "learnBlock": "Confira nossa {about}, conheça {team} ou explore {careers}.",
@@ -223,7 +223,7 @@
     "networkError": "Erro de rede ou servidor"
   },
   "careers": {
-    "metaTitle": "Carreiras — InterMIND",
+    "metaTitle": "Carreiras — Mind",
     "metaDescription": "Junte-se à InterMIND. Estamos construindo tecnologia que remove barreiras linguísticas entre as pessoas. Mostre-nos o que você construiu, não onde você estudou.",
     "h1": "Quebrando Barreiras Entre Culturas",
     "intro1": "Estamos construindo tecnologia que remove barreiras linguísticas entre as pessoas. Nosso produto permite que pessoas de diferentes países falem sua língua nativa e se entendam naturalmente.",
@@ -303,7 +303,7 @@
     "tagline": "InterMIND — tecnologia que torna o mundo verdadeiramente global."
   },
   "team": {
-    "metaTitle": "Equipe — InterMIND",
+    "metaTitle": "Equipe — Mind",
     "metaDescription": "Na Mind.com, humanos lideram, a IA amplifica. Juntos, combinamos criatividade, código e compreensão para eliminar as barreiras linguísticas de vez.",
     "h1": "Na Mind.com, humanos lideram, a IA amplifica",
     "ledeParagraph": "Juntos, combinamos criatividade, código e compreensão para eliminar as barreiras linguísticas de vez. Saiba mais {link}.",
@@ -336,12 +336,12 @@
     "defaultLinkLabel": "Link"
   },
   "help": {
-    "metaTitle": "Obter Suporte — InterMIND",
+    "metaTitle": "Obter Suporte — Mind",
     "metaDescription": "Tem perguntas sobre interpretação de reuniões com IA, comunicação multilíngue ou integração empresarial? Estamos aqui para ajudar — rápido, humano e sem confusão.",
     "h1": "💬 Precisa de Ajuda? Sem atrasos, sem confusão — apenas respostas.",
     "ledeLine1": "Diga-nos o que você está tentando alcançar — e nós o ajudaremos a avançar.",
     "ledeLine2": "Rápido, focado e com um ser humano real do outro lado.",
-    "categoryLabel": "O que o traz à InterMind hoje? *",
+    "categoryLabel": "O que o traz à Mind hoje? *",
     "categoryPlaceholder": "Escolha o seu principal motivo…",
     "messageLabel": "Conte-nos mais *",
     "messagePlaceholder": "Qualquer coisa que você gostaria de compartilhar — objetivos, contexto ou detalhes técnicos.",
@@ -362,7 +362,7 @@
     }
   },
   "brandAssets": {
-    "metaTitle": "Ativos da Marca — InterMIND",
+    "metaTitle": "Ativos da Marca — Mind",
     "metaDescription": "Recursos de marketing e diretrizes de identidade da InterMIND, incluindo logotipo, conteúdo e marcas registradas.",
     "h1": "Kit de Mídia",
     "intro": "Uma coleção de recursos de marketing e diretrizes de identidade da InterMIND, incluindo nosso logotipo, conteúdo e marcas registradas. Para baixar, clique com o botão direito em uma imagem e escolha \"Salvar imagem\".",
@@ -383,7 +383,7 @@
     "searchAlt": "Pesquise em todas as suas reuniões"
   },
   "chat": {
-    "metaTitle": "Chat — InterMIND",
+    "metaTitle": "Chat — Mind",
     "h1": "Chat",
     "placeholder": "A Fase 5 integra o widget de chat com IA nesta página."
   }

@@ -54,7 +54,7 @@ const pageUrl = `${siteUrl}${route.path}`
 const canonical = post.value.canonical ?? pageUrl
 
 useHead({
-  title: `${post.value.title} — InterMIND`,
+  title: `${post.value.title} — Mind`,
   meta: [
     { name: "description", content: post.value.description },
     { property: "og:type", content: "article" },
@@ -80,7 +80,7 @@ useHead({
         url: pageUrl,
         publisher: {
           "@type": "Organization",
-          name: "InterMIND",
+          name: "Mind",
           logo: { "@type": "ImageObject", url: `${siteUrl}/logo.svg` },
         },
       }),

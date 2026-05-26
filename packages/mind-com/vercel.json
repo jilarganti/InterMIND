@@ -108,7 +108,7 @@
 
     {
       "source": "/promo/:path*",
-      "destination": "https://intermind.com/",
+      "destination": "https://intermind.com/promo/:path*",
       "permanent": true
     },
     {

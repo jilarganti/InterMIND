@@ -69,9 +69,7 @@ export default defineNuxtConfig({
   },
 
   sitemap: {
-    // software-testing-basics-* is intentionally excluded: it stays at mind.com
-    // with a canonical pointing to intermind.com (Variant B — soft consolidation).
-    exclude: ["/chat", "/chat/**", "/blog/software-testing-basics-concepts-and-terminology"],
+    exclude: ["/chat", "/chat/**"],
     sources: ["/api/__sitemap__/urls"],
   },
 
