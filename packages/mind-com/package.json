@@ -5,7 +5,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "nuxt dev --dotenv .vercel/.env.development.local",
+    "dev": "nuxt dev --dotenv .vercel/.env.development.local --port=4000",
     "build": "nuxt build",
     "preview": "nuxt preview --dotenv .vercel/.env.development.local",
     "generate": "nuxt generate",

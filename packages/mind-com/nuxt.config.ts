@@ -7,6 +7,14 @@ export default defineNuxtConfig({
   // Phase 5 will add @pinia/nuxt for AI chat store.
   modules: ["@nuxt/content", "@nuxt/ui", "@nuxtjs/i18n", "@nuxtjs/sitemap", "@nuxtjs/robots", "@vueuse/nuxt"],
 
+  // Default for new visitors: follow OS preference (Nuxt UI ships
+  // @nuxtjs/color-mode under the hood). Stored choice wins after first toggle.
+  colorMode: {
+    preference: "system",
+    fallback: "light",
+    storageKey: "mind-com:color-mode",
+  },
+
   css: ["~/assets/css/main.css", "~/assets/css/prose.css"],
 
   runtimeConfig: {
@@ -22,7 +30,7 @@ export default defineNuxtConfig({
 
   site: {
     url: process.env.NUXT_PUBLIC_SITE_URL ?? "https://mind.com",
-    name: "InterMIND",
+    name: "Mind",
     indexable: process.env.VERCEL_ENV === "production",
   },
 
@@ -97,7 +105,7 @@ export default defineNuxtConfig({
       meta: [
         { name: "theme-color", content: "#dd9144" },
         { property: "og:type", content: "website" },
-        { property: "og:site_name", content: "InterMIND" },
+        { property: "og:site_name", content: "Mind" },
       ],
       link: [{ rel: "icon", type: "image/svg+xml", href: "/logo.svg" }],
     },

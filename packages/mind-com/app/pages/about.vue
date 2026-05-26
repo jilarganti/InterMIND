@@ -48,14 +48,22 @@ useHead({
     <p>{{ t("about.philosophyBody3") }}</p>
     <blockquote v-html="t('about.philosophyQuote')" />
     <p>{{ t("about.philosophyClose") }}</p>
-    <p><em>{{ t("about.signoff") }}</em></p>
+    <p>
+      <em>{{ t("about.signoff") }}</em>
+    </p>
 
     <p>
       <strong>{{ t("about.ctaIntro") }}</strong>
       <i18n-t keypath="about.ctaParagraph" tag="span">
-        <template #team><NuxtLink :to="localePath('/team')">{{ t("about.ctaTeamLink") }}</NuxtLink></template>
-        <template #careers><NuxtLink :to="localePath('/careers')">{{ t("about.ctaCareersLink") }}</NuxtLink></template>
-        <template #contacts><NuxtLink :to="localePath('/contacts')">{{ t("about.ctaContactsLink") }}</NuxtLink></template>
+        <template #team
+          ><NuxtLink :to="localePath('/team')">{{ t("about.ctaTeamLink") }}</NuxtLink></template
+        >
+        <template #careers
+          ><NuxtLink :to="localePath('/careers')">{{ t("about.ctaCareersLink") }}</NuxtLink></template
+        >
+        <template #contacts
+          ><NuxtLink :to="localePath('/contacts')">{{ t("about.ctaContactsLink") }}</NuxtLink></template
+        >
       </i18n-t>
     </p>
   </div>
@@ -82,13 +90,16 @@ p {
   margin: 0 0 1rem;
 }
 blockquote {
-  border-left: 3px solid #dd9144;
+  border-left: 3px solid #d4d4d4;
   padding-left: 1rem;
   margin: 1.5rem 0;
   color: #444;
   font-style: italic;
 }
 a {
-  color: #dd9144;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #c7c7c2;
+  text-underline-offset: 2px;
 }
 </style>

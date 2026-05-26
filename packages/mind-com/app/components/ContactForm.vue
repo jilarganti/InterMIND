@@ -158,7 +158,7 @@ async function handleSubmit() {
 .field select:focus,
 .field textarea:focus {
   outline: none;
-  border-color: #dd9144;
+  border-color: #1c1c1c;
 }
 .submit {
   padding: 0.75rem 1.25rem;
@@ -172,7 +172,7 @@ async function handleSubmit() {
   transition: background 0.15s;
 }
 .submit:hover:not(:disabled) {
-  background: #dd9144;
+  background: #333;
 }
 .submit:disabled {
   opacity: 0.6;

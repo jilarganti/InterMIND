@@ -42,15 +42,23 @@ const services = computed(() => [
       <p>
         <strong>{{ t("contacts.helpBlockStrong") }}</strong>
         <i18n-t keypath="contacts.helpBlock" tag="span">
-          <template #link><NuxtLink :to="localePath('/help')">{{ t("contacts.helpLink") }}</NuxtLink></template>
+          <template #link
+            ><NuxtLink :to="localePath('/help')">{{ t("contacts.helpLink") }}</NuxtLink></template
+          >
         </i18n-t>
       </p>
       <p>
         <strong>{{ t("contacts.learnBlockStrong") }}</strong>
         <i18n-t keypath="contacts.learnBlock" tag="span">
-          <template #about><NuxtLink :to="localePath('/about')">{{ t("contacts.learnAboutLink") }}</NuxtLink></template>
-          <template #team><NuxtLink :to="localePath('/team')">{{ t("contacts.learnTeamLink") }}</NuxtLink></template>
-          <template #careers><NuxtLink :to="localePath('/careers')">{{ t("contacts.learnCareersLink") }}</NuxtLink></template>
+          <template #about
+            ><NuxtLink :to="localePath('/about')">{{ t("contacts.learnAboutLink") }}</NuxtLink></template
+          >
+          <template #team
+            ><NuxtLink :to="localePath('/team')">{{ t("contacts.learnTeamLink") }}</NuxtLink></template
+          >
+          <template #careers
+            ><NuxtLink :to="localePath('/careers')">{{ t("contacts.learnCareersLink") }}</NuxtLink></template
+          >
         </i18n-t>
       </p>
     </blockquote>
@@ -78,6 +86,9 @@ blockquote {
   color: #555;
 }
 blockquote a {
-  color: #dd9144;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #c7c7c2;
+  text-underline-offset: 2px;
 }
 </style>

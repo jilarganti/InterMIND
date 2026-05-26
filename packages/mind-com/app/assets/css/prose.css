@@ -24,8 +24,17 @@
   margin: 0.35rem 0;
 }
 .prose a {
-  color: #dd9144;
+  color: inherit;
   text-decoration: underline;
+  text-decoration-color: #c7c7c2;
+  text-underline-offset: 2px;
+}
+.prose a:hover {
+  text-decoration-color: currentColor;
+}
+.prose :is(h1, h2, h3, h4, h5, h6) a {
+  color: inherit;
+  text-decoration: none;
 }
 .prose img {
   max-width: 100%;
@@ -34,11 +43,11 @@
   margin: 1.5rem 0;
 }
 .prose blockquote {
-  border-left: 4px solid #dd9144;
+  border-left: 4px solid #d4d4d4;
   padding: 0.5rem 1.25rem;
   margin: 1.5rem 0;
   color: #555;
-  background: #fff7ec;
+  background: #fafafa;
   border-radius: 0 8px 8px 0;
 }
 .prose code {
@@ -106,7 +115,7 @@
   display: block;
   font-size: 1.6rem;
   font-weight: 700;
-  color: #dd9144;
+  color: #1c1c1c;
 }
 .prose .stat-label {
   display: block;

@@ -1,33 +1,20 @@
 <script setup lang="ts">
 const { t } = useI18n()
 const localePath = useLocalePath()
-const config = useRuntimeConfig()
-const productUrl = config.public.productUrl
 
 const columns = computed(() => [
-  {
-    title: t("footer.supportTitle"),
-    links: [
-      { text: t("footer.getSupport"), href: localePath("/help") },
-      { text: t("footer.privacyPolicy"), href: localePath("/legal/privacy") },
-      { text: t("footer.aiLegalGuide"), href: localePath("/legal/terms") },
-      { text: t("footer.serviceStatus"), href: "https://status.mind.com/", external: true },
-    ],
-  },
   {
     title: t("footer.resourcesTitle"),
     links: [
       { text: t("footer.blog"), href: localePath("/blog") },
       { text: t("footer.globalLanguageAccess"), href: localePath("/blog/global-language-access-compliance") },
-      { text: t("footer.brandAssets"), href: localePath("/brand-assets") },
-      { text: t("footer.aiApiDocs"), href: "/llms-full.txt", external: true },
+      { text: t("footer.serviceStatus"), href: "https://status.mind.com/", external: true },
     ],
   },
   {
     title: t("footer.companyTitle"),
     links: [
       { text: t("footer.about"), href: localePath("/about") },
-      { text: t("footer.team"), href: localePath("/team") },
       { text: t("footer.careers"), href: localePath("/careers") },
       { text: t("footer.contacts"), href: localePath("/contacts") },
     ],
@@ -35,7 +22,6 @@ const columns = computed(() => [
 ])
 
 const year = new Date().getFullYear()
-const productUrlBare = productUrl.replace(/^https?:\/\//, "")
 </script>
 
 <template>
@@ -55,8 +41,8 @@ const productUrlBare = productUrl.replace(/^https?:\/\//, "")
         </div>
       </div>
       <div class="meta">
-        {{ t("footer.copyright", { year }) }} ·
-        <a :href="productUrl">{{ t("footer.newVersionLabel", { url: productUrlBare }) }}</a>
+        {{ t("footer.copyright", { year }) }} · <a :href="localePath('/legal/privacy')">{{ t("footer.privacyPolicy") }}</a> ·
+        <a :href="localePath('/legal/terms')">{{ t("footer.aiLegalGuide") }}</a>
       </div>
     </div>
   </footer>
@@ -101,7 +87,8 @@ const productUrlBare = productUrl.replace(/^https?:\/\//, "")
   line-height: 1.4;
 }
 .footer-link:hover {
-  color: #dd9144;
+  color: #1c1c1c;
+  text-decoration: underline;
 }
 .meta {
   border-top: 1px solid #ececec;
@@ -113,6 +100,7 @@ const productUrlBare = productUrl.replace(/^https?:\/\//, "")
   color: #777;
 }
 .meta a:hover {
-  color: #dd9144;
+  color: #1c1c1c;
+  text-decoration: underline;
 }
 </style>

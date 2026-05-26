@@ -157,6 +157,7 @@ function formatDate(d: string): string {
   text-decoration: none;
 }
 .back a:hover {
-  color: #dd9144;
+  color: #1c1c1c;
+  text-decoration: underline;
 }
 </style>

@@ -4,6 +4,21 @@ const config = useRuntimeConfig()
 const productUrl = config.public.productUrl
 const signInUrl = config.public.signInUrl
 const localePath = useLocalePath()
+
+// Cycles: light → system → dark → light. Matches the product (intermind.com).
+const colorMode = useColorMode()
+const colorModeIcon = computed(() => {
+  const pref = colorMode.preference
+  if (pref === "dark") return "i-lucide-moon"
+  if (pref === "light") return "i-lucide-sun"
+  return "i-lucide-monitor"
+})
+function cycleColorMode() {
+  const pref = colorMode.preference
+  if (pref === "light") colorMode.preference = "system"
+  else if (pref === "system") colorMode.preference = "dark"
+  else colorMode.preference = "light"
+}
 </script>
 
 <template>
@@ -20,11 +35,14 @@ const localePath = useLocalePath()
             {{ t("nav.blog") }}
           </UButton>
           <LanguageSwitcher />
+          <ClientOnly>
+            <UButton :icon="colorModeIcon" variant="ghost" color="neutral" size="md" :aria-label="t('nav.toggleTheme')" @click="cycleColorMode" />
+            <template #fallback>
+              <UButton icon="i-lucide-monitor" variant="ghost" color="neutral" size="md" disabled />
+            </template>
+          </ClientOnly>
           <UButton :to="signInUrl" external variant="ghost" color="neutral" size="md">
             {{ t("nav.signIn") }}
-          </UButton>
-          <UButton :to="productUrl" external color="neutral" size="md">
-            {{ t("nav.newVersion") }}
           </UButton>
         </nav>
       </div>

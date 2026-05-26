@@ -113,7 +113,7 @@ function renderMarkdownBold(s: string): string {
 }
 .link {
   font-size: 0.85rem;
-  color: #dd9144;
+  color: #1c1c1c;
   text-decoration: none;
 }
 .link:hover {

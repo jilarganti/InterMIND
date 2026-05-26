@@ -12,7 +12,8 @@
     "brandLabel": "InterMIND 首页",
     "blog": "博客",
     "signIn": "登录",
-    "newVersion": "新版本"
+    "newVersion": "新版本",
+    "toggleTheme": "切换主题"
   },
   "home": {
     "vcard": {
@@ -20,11 +21,11 @@
       "headlinePart2": "多语言视频会议",
       "headlinePart3": "面向受监管的跨境场景",
       "productLine": "产品访问地址",
-      "openProduct": "打开产品",
+      "openProduct": "新版本",
       "entityEuRole": "欧盟 IP 持有方",
       "entityUaeRole": "运营实体"
     },
-    "metaTitle": "InterMIND — 可验证的多语言会议，适用于高风险场合",
+    "metaTitle": "Mind — 可验证的多语言会议，适用于高风险场合",
     "metaDescription": "视频会议，让每个人都能用自己的语言发言并被理解 — 翻译质量可根据公开基准进行验证，而非仅仅依赖信任。专为法律、监管、并购和投资者会议等场合设计，在这些场合，任何翻译错误都可能带来风险。",
     "schema": {
       "orgDescription": "可验证的多语言视频会议，适用于法律、监管、并购和投资者会议。欧盟/中立基础设施，支持本地部署。",

@@ -16,7 +16,7 @@ const organizationJsonLd = computed(() => ({
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": `${siteUrl}/#organization`,
-  name: "InterMIND",
+  name: "Mind",
   url: siteUrl,
   logo: `${siteUrl}/logo.svg`,
   description: t("home.schema.orgDescription"),
@@ -36,7 +36,7 @@ const websiteJsonLd = computed(() => ({
   "@type": "WebSite",
   "@id": `${siteUrl}/#website`,
   url: siteUrl,
-  name: "InterMIND",
+  name: "Mind",
   publisher: { "@id": `${siteUrl}/#organization` },
 }))
 
@@ -51,7 +51,7 @@ useHead({
     { property: "og:image", content: ogImage },
     { property: "og:image:width", content: "1200" },
     { property: "og:image:height", content: "630" },
-    { property: "og:site_name", content: "InterMIND" },
+    { property: "og:site_name", content: "Mind" },
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:title", content: () => metaTitle.value },
     { name: "twitter:description", content: () => metaDescription.value },
@@ -85,8 +85,10 @@ const entities = [
 
       <h1 class="text-3xl sm:text-5xl font-bold tracking-tight mb-6">
         <span class="text-gray-900 dark:text-white">{{ t("home.vcard.headlinePart1") }}</span>
-        <span class="text-gray-600 dark:text-gray-300"> {{ t("home.vcard.headlinePart2") }}</span>
-        <span class="text-gray-400 dark:text-gray-500"> {{ t("home.vcard.headlinePart3") }}</span
+        {{ " " }}
+        <span class="text-gray-600 dark:text-gray-300">{{ t("home.vcard.headlinePart2") }}</span>
+        {{ " " }}
+        <span class="text-gray-400 dark:text-gray-500">{{ t("home.vcard.headlinePart3") }}</span
         ><span class="text-red-500">.</span>
       </h1>
 

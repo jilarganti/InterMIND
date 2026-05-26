@@ -12,7 +12,8 @@
     "brandLabel": "Accueil InterMIND",
     "blog": "Blog",
     "signIn": "Se connecter",
-    "newVersion": "Nouvelle version"
+    "newVersion": "Nouvelle version",
+    "toggleTheme": "Changer de thème"
   },
   "home": {
     "vcard": {
@@ -20,11 +21,11 @@
       "headlinePart2": "visioconférences multilingues",
       "headlinePart3": "pour salles régulées transfrontalières",
       "productLine": "Le produit vit sur",
-      "openProduct": "Ouvrir le produit",
+      "openProduct": "Nouvelle version",
       "entityEuRole": "Détenteur d'IP dans l'UE",
       "entityUaeRole": "Entité opérationnelle"
     },
-    "metaTitle": "InterMIND — Réunions multilingues vérifiables pour les environnements à enjeux élevés",
+    "metaTitle": "Mind — Réunions multilingues vérifiables pour les environnements à enjeux élevés",
     "metaDescription": "Réunions vidéo où chacun s'exprime et est compris dans sa propre langue — avec une qualité de traduction que vous pouvez vérifier par rapport à un benchmark public, plutôt que de simplement faire confiance. Conçu pour les environnements juridiques, réglementaires, de fusions-acquisitions et d'investisseurs où une erreur de traduction constitue un risque.",
     "schema": {
       "orgDescription": "Réunions vidéo multilingues vérifiables pour les environnements juridiques, réglementaires, de fusions-acquisitions et d'investisseurs. Infrastructure UE / neutre, déploiement sur site disponible.",
