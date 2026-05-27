@@ -2,14 +2,14 @@
   "blog": {
     "title": "Blog",
     "description": "Pesquisa e análise sobre interpretação de IA em tempo real e colaboração multilíngue.",
-    "metaTitle": "Blog — Mind",
+    "metaTitle": "Blog — Mind.com",
     "metaDescription": "Pesquisa e análise aprofundadas sobre interpretação de IA em tempo real, reuniões multilíngues e comunicação de equipes globais da equipe InterMIND.",
     "noPosts": "Nenhum post ainda.",
     "backToBlog": "← Todos os posts"
   },
   "nav": {
     "switchLanguage": "Mudar idioma",
-    "brandLabel": "Mind início",
+    "brandLabel": "Mind.com início",
     "blog": "Blog",
     "signIn": "Entrar",
     "newVersion": "Nova versão",
@@ -26,10 +26,10 @@
       "entityEuRole": "Titular de PI na UE",
       "entityUaeRole": "Entidade operacional"
     },
-    "metaTitle": "Mind — tecnologia para a comunicação sem fronteiras",
-    "metaDescription": "A Mind constrói a tecnologia para a comunicação sem fronteiras — a empresa por trás do InterMIND, comunicação multilíngue em tempo real. Titular da PI na UE (MindMeeting OÜ, Estônia) e entidade operacional nos Emirados (Golden Fish CSP LLC, Dubai). Produto em intermind.com.",
+    "metaTitle": "Mind.com — tecnologia para a comunicação sem fronteiras",
+    "metaDescription": "A Mind.com constrói a tecnologia para a comunicação sem fronteiras — a empresa por trás do InterMIND, comunicação multilíngue em tempo real. Titular da PI na UE (MindMeeting OÜ, Estônia) e entidade operacional nos Emirados (Golden Fish CSP LLC, Dubai). Produto em intermind.com.",
     "schema": {
-      "orgDescription": "A Mind constrói a tecnologia para a comunicação sem fronteiras — a empresa por trás do InterMIND. Titular da PI na Estônia, entidade operacional nos Emirados.",
+      "orgDescription": "A Mind.com constrói a tecnologia para a comunicação sem fronteiras — a empresa por trás do InterMIND. Titular da PI na Estônia, entidade operacional nos Emirados.",
       "softwareDescription": "Plataforma de reuniões de vídeo multilíngues com qualidade de tradução verificável, glossários controlados pelo cliente, trilha de auditoria, infraestrutura neutra / da UE e implantação on-premise."
     }
   },
@@ -49,21 +49,21 @@
     "team": "Equipe",
     "careers": "Carreiras",
     "contacts": "Contatos",
-    "copyright": "© Mind, {year}.",
+    "copyright": "© Mind.com, {year}.",
     "newVersionLabel": "Nova versão: {url}"
   },
   "about": {
-    "metaTitle": "Sobre — Mind",
-    "metaDescription": "A Mind é a empresa por trás do InterMIND — tecnologia para a comunicação sem fronteiras. Titular da propriedade intelectual na UE (MindMeeting OÜ, Estônia) e entidade operacional nos Emirados (Golden Fish CSP LLC, Dubai).",
-    "h1": "Sobre a Mind",
-    "lede": "A Mind é a empresa por trás do InterMIND: tecnologia para a comunicação sem fronteiras.",
+    "metaTitle": "Sobre — Mind.com",
+    "metaDescription": "A Mind.com é a empresa por trás do InterMIND — tecnologia para a comunicação sem fronteiras. Titular da propriedade intelectual na UE (MindMeeting OÜ, Estônia) e entidade operacional nos Emirados (Golden Fish CSP LLC, Dubai).",
+    "h1": "Sobre a Mind.com",
+    "lede": "A Mind.com é a empresa por trás do InterMIND: tecnologia para a comunicação sem fronteiras.",
     "whoTitle": "Quem somos",
-    "whoBody": "A Mind é uma empresa de tecnologia que desenvolve o <strong>InterMIND</strong>: comunicação multilíngue em tempo real que permite que as pessoas trabalhem juntas entre idiomas sem perder o sentido. Este site é a porta de entrada da empresa — para parceiros, imprensa e qualquer pessoa que queira saber quem está por trás do produto.",
+    "whoBody": "A Mind.com é uma empresa de tecnologia que desenvolve o <strong>InterMIND</strong>: comunicação multilíngue em tempo real que permite que as pessoas trabalhem juntas entre idiomas sem perder o sentido. Este site é a porta de entrada da empresa — para parceiros, imprensa e qualquer pessoa que queira saber quem está por trás do produto.",
     "buildTitle": "O que construímos",
     "buildBody1": "O InterMIND permite que cada participante de uma reunião fale e seja compreendido em seu próprio idioma, em tempo real. Em vez de recorrer a um idioma comum de segunda opção, cada um mantém o seu, e o tom, as nuances e a intenção chegam intactos.",
     "buildBody2": "O produto está em {link}.",
     "structureTitle": "Como estamos estruturados",
-    "structureLead": "A Mind opera por meio de duas entidades jurídicas — a propriedade intelectual na UE e as operações a partir dos Emirados:",
+    "structureLead": "A Mind.com opera por meio de duas entidades jurídicas — a propriedade intelectual na UE e as operações a partir dos Emirados:",
     "entityEuRole": "Entidade da UE — detém a propriedade intelectual.",
     "entityUaeRole": "Entidade operacional — sediada em Dubai.",
     "approachTitle": "Como trabalhamos",
@@ -74,12 +74,12 @@
     "ctaParagraph": "Explore as {careers} ou {contacts}.",
     "ctaCareersLink": "vagas",
     "ctaContactsLink": "fale conosco",
-    "signoff": "— A equipe Mind"
+    "signoff": "— A equipe Mind.com"
   },
   "contacts": {
-    "metaTitle": "Contato Mind",
-    "metaDescription": "Quer fazer parceria com a Mind, investir ou entrar em contato com nossa equipe executiva? Use este formulário para consultas comerciais, solicitações de mídia ou assuntos jurídicos.",
-    "h1": "Fale com a Mind",
+    "metaTitle": "Contato Mind.com",
+    "metaDescription": "Quer fazer parceria com a Mind.com, investir ou entrar em contato com nossa equipe executiva? Use este formulário para consultas comerciais, solicitações de mídia ou assuntos jurídicos.",
+    "h1": "Fale com a Mind.com",
     "lede": "Use este formulário para entrar em contato diretamente com a equipe da nossa empresa — para parcerias, investimentos, mídia, conformidade ou outros assuntos relacionados a negócios. Garantiremos que sua mensagem chegue à pessoa certa.",
     "categoryLabel": "Qual o motivo do seu contato? *",
     "categoryPlaceholder": "Escolha seu tópico...",
@@ -97,12 +97,13 @@
       "general": "Consulta geral de negócios"
     },
     "helpBlockStrong": "Precisa de ajuda relacionada ao produto?",
-    "helpBlock": "Visite nossa {link} para obter respostas rápidas e assistência da equipe Mind.",
+    "helpBlock": "Visite nossa {link} para obter respostas rápidas e assistência da equipe Mind.com.",
     "helpLink": "Página de Suporte",
     "learnBlockStrong": "Quer saber mais sobre nós?",
     "learnBlock": "Confira nossa {about} ou explore {careers}.",
     "learnAboutLink": "página sobre nós",
-    "learnCareersLink": "oportunidades de carreira"
+    "learnCareersLink": "oportunidades de carreira",
+    "detailsTitle": "Entidades registradas"
   },
   "contactForm": {
     "nameLabel": "Nome *",
@@ -123,14 +124,12 @@
     "networkError": "Erro de rede ou servidor"
   },
   "careers": {
-    "metaTitle": "Carreiras — Mind",
-    "metaDescription": "A Mind é uma equipe pequena e autofinanciada. No momento, não estamos contratando ativamente. Criadores excepcionais podem nos escrever em careers{'@'}mind.com.",
+    "metaTitle": "Carreiras — Mind.com",
+    "metaDescription": "A Mind.com é uma equipe pequena e autofinanciada. No momento, não estamos contratando ativamente. Criadores excepcionais podem nos escrever em careers{'@'}mind.com.",
     "h1": "Carreiras",
-    "lead": "A Mind é uma equipe pequena e autofinanciada. No momento, não estamos contratando ativamente para nenhuma função específica.",
+    "lead": "A Mind.com é uma equipe pequena e autofinanciada. No momento, não estamos contratando ativamente para nenhuma função específica.",
     "invite": "Se você criou algo excepcional — código, produtos, pesquisa, uma empresa — alinhado ao que fazemos, ainda assim gostaríamos de ouvir você. Envie links para seus trabalhos e algumas linhas sobre o que quer construir a seguir.",
     "formTitle": "Conte-nos sobre você",
-    "categoryLabel": "Qual é a sua área? *",
-    "categoryPlaceholder": "Escolha sua área...",
     "messageLabel": "Mostre-nos seu trabalho *",
     "messagePlaceholder": "Compartilhe links para seus projetos, GitHub, portfólio ou descreva o impacto que você teve. Que problema você está animado para resolver a seguir?",
     "buttonText": "Enviar sua candidatura",
@@ -141,7 +140,7 @@
     }
   },
   "team": {
-    "metaTitle": "Equipe — Mind",
+    "metaTitle": "Equipe — Mind.com",
     "metaDescription": "Na Mind.com, humanos lideram, a IA amplifica. Juntos, combinamos criatividade, código e compreensão para eliminar as barreiras linguísticas de vez.",
     "h1": "Na Mind.com, humanos lideram, a IA amplifica",
     "ledeParagraph": "Juntos, combinamos criatividade, código e compreensão para eliminar as barreiras linguísticas de vez. Saiba mais {link}.",
@@ -174,12 +173,12 @@
     "defaultLinkLabel": "Link"
   },
   "help": {
-    "metaTitle": "Obter Suporte — Mind",
+    "metaTitle": "Obter Suporte — Mind.com",
     "metaDescription": "Tem perguntas sobre interpretação de reuniões com IA, comunicação multilíngue ou integração empresarial? Estamos aqui para ajudar — rápido, humano e sem confusão.",
     "h1": "💬 Precisa de Ajuda? Sem atrasos, sem confusão — apenas respostas.",
     "ledeLine1": "Diga-nos o que você está tentando alcançar — e nós o ajudaremos a avançar.",
     "ledeLine2": "Rápido, focado e com um ser humano real do outro lado.",
-    "categoryLabel": "O que o traz à Mind hoje? *",
+    "categoryLabel": "O que o traz à Mind.com hoje? *",
     "categoryPlaceholder": "Escolha o seu principal motivo…",
     "messageLabel": "Conte-nos mais *",
     "messagePlaceholder": "Qualquer coisa que você gostaria de compartilhar — objetivos, contexto ou detalhes técnicos.",
@@ -195,12 +194,12 @@
       "teamOnboarding": "Preciso de assistência com a integração da equipe",
       "billing": "Tenho perguntas sobre faturamento ou assinatura",
       "enterpriseFeatures": "Quero explorar recursos empresariais",
-      "apiAccess": "Quero obter o ID do aplicativo e o token da Mind API sem restrições",
+      "apiAccess": "Quero obter o ID do aplicativo e o token da Mind.com API sem restrições",
       "general": "Pergunta geral ou feedback"
     }
   },
   "brandAssets": {
-    "metaTitle": "Ativos da Marca — Mind",
+    "metaTitle": "Ativos da Marca — Mind.com",
     "metaDescription": "Recursos de marketing e diretrizes de identidade da InterMIND, incluindo logotipo, conteúdo e marcas registradas.",
     "h1": "Kit de Mídia",
     "intro": "Uma coleção de recursos de marketing e diretrizes de identidade da InterMIND, incluindo nosso logotipo, conteúdo e marcas registradas. Para baixar, clique com o botão direito em uma imagem e escolha \"Salvar imagem\".",
@@ -219,10 +218,4 @@
     "searchHeading": "Pesquise em todas as suas reuniões",
     "interpretationAlt": "Interpretação simultânea",
     "searchAlt": "Pesquise em todas as suas reuniões"
-  },
-  "chat": {
-    "metaTitle": "Chat — Mind",
-    "h1": "Chat",
-    "placeholder": "A Fase 5 integra o widget de chat com IA nesta página."
-  }
-}
+  }}

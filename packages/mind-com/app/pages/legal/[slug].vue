@@ -52,7 +52,7 @@ if (!doc.value) {
 const pageUrl = `${siteUrl}${route.path}`
 
 useHead({
-  title: `${doc.value.title} — Mind`,
+  title: `${doc.value.title} — Mind.com`,
   meta: [
     { name: "description", content: doc.value.description },
     { property: "og:type", content: "article" },

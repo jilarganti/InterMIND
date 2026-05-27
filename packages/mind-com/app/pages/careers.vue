@@ -24,8 +24,6 @@ const services = computed(() => [t("careers.services.partnerships")])
 
     <ContactForm
       :services="services"
-      :category-label="t('careers.categoryLabel')"
-      :category-placeholder="t('careers.categoryPlaceholder')"
       :message-label="t('careers.messageLabel')"
       :message-placeholder="t('careers.messagePlaceholder')"
       :button-text="t('careers.buttonText')"

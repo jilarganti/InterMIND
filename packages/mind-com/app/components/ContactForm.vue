@@ -9,7 +9,7 @@ interface FormData {
 
 const { t } = useI18n({ useScope: "global" })
 
-withDefaults(
+const props = withDefaults(
   defineProps<{
     services: string[]
     categoryLabel?: string
@@ -39,6 +39,13 @@ const inputClass =
   "px-3 py-2.5 rounded-lg border text-base bg-white border-gray-300 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:border-gray-900 dark:bg-gray-900 dark:border-gray-600 dark:text-gray-100 dark:placeholder:text-gray-500 dark:focus:border-gray-300"
 
 const data = reactive<FormData>({ name: "", email: "", webSite: "", kind: "", message: "" })
+
+// A single category is no real choice — hide the select and submit it implicitly.
+const showCategory = computed(() => props.services.length > 1)
+watchEffect(() => {
+  if (props.services.length === 1) data.kind = props.services[0]!
+})
+
 const isSubmitting = ref(false)
 const successMessage = ref("")
 const errorMessage = ref("")
@@ -109,7 +116,7 @@ async function handleSubmit() {
           maxlength="100"
         />
       </div>
-      <div :class="fieldClass">
+      <div v-if="showCategory" :class="fieldClass">
         <label for="cf-kind" :class="labelClass">{{ categoryLabel ?? t("contactForm.categoryLabel") }}</label>
         <select id="cf-kind" v-model="data.kind" :class="inputClass" required>
           <option value="" disabled>{{ categoryPlaceholder ?? t("contactForm.categoryPlaceholder") }}</option>

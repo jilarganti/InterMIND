@@ -20,6 +20,14 @@ const services = computed(() => [
   t("contacts.services.businessDev"),
   t("contacts.services.general"),
 ])
+
+// Verifiable company facts in place of a scrapeable email/phone — language-neutral
+// except the role line, which reuses the About page's translated strings.
+const entities = [
+  { name: "MindMeeting OÜ", roleKey: "about.entityEuRole", jurisdiction: "Estonia · Reg. 16207677 · VAT EE102465446" },
+  { name: "Golden Fish Corporate Services Provider LLC", roleKey: "about.entityUaeRole", jurisdiction: "UAE · Reg. 2411728 · License 1414192" },
+]
+const address = "City Avenue Building, Office 405-070, Port Saeed, Dubai, UAE"
 </script>
 
 <template>
@@ -59,6 +67,18 @@ const services = computed(() => [
         </i18n-t>
       </p>
     </blockquote>
+
+    <section class="details border-t border-gray-200 dark:border-gray-700">
+      <h2 class="text-gray-900 dark:text-white">{{ t("contacts.detailsTitle") }}</h2>
+      <dl>
+        <div v-for="e in entities" :key="e.name" class="entity">
+          <dt class="font-semibold text-gray-900 dark:text-white">{{ e.name }}</dt>
+          <dd class="text-gray-600 dark:text-gray-400">{{ t(e.roleKey) }}</dd>
+          <dd class="text-sm text-gray-500 dark:text-gray-500">{{ e.jurisdiction }}</dd>
+        </div>
+      </dl>
+      <p class="text-sm text-gray-500 dark:text-gray-500">{{ address }}</p>
+    </section>
   </div>
 </template>
 
@@ -86,5 +106,23 @@ blockquote a {
   text-decoration: underline;
   text-decoration-color: #c7c7c2;
   text-underline-offset: 2px;
+}
+.details {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+}
+.details h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin: 0 0 1.25rem;
+}
+.details dl {
+  display: grid;
+  gap: 1.25rem;
+  margin: 0 0 1.25rem;
+}
+.entity dd {
+  margin: 0.15rem 0 0;
 }
 </style>

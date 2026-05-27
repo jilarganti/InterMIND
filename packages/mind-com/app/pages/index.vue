@@ -17,13 +17,11 @@ const organizationJsonLd = computed(() => ({
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": `${siteUrl}/#organization`,
-  name: "Mind",
+  name: "Mind.com",
   url: siteUrl,
   logo: `${siteUrl}/logo.svg`,
   description: t("home.schema.orgDescription"),
   sameAs: [productUrl],
-  email: "hello@mind.com",
-  telephone: "+971 58 574 88 06",
   address: {
     "@type": "PostalAddress",
     streetAddress: "City Avenue Building, Office 405-070, Port Saeed",
@@ -37,7 +35,7 @@ const websiteJsonLd = computed(() => ({
   "@type": "WebSite",
   "@id": `${siteUrl}/#website`,
   url: siteUrl,
-  name: "Mind",
+  name: "Mind.com",
   publisher: { "@id": `${siteUrl}/#organization` },
 }))
 
@@ -52,7 +50,7 @@ useHead({
     { property: "og:image", content: ogImage },
     { property: "og:image:width", content: "1200" },
     { property: "og:image:height", content: "630" },
-    { property: "og:site_name", content: "Mind" },
+    { property: "og:site_name", content: "Mind.com" },
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:title", content: () => metaTitle.value },
     { name: "twitter:description", content: () => metaDescription.value },
@@ -81,7 +79,7 @@ const entities = [
 
 <template>
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 w-full">
-    <p class="text-sm font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-5">Mind</p>
+    <p class="text-sm font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-5">Mind.com</p>
 
     <h1 class="text-4xl sm:text-6xl font-bold tracking-tight mb-10">
       <span class="text-gray-900 dark:text-white">{{ t("home.vcard.headlinePart1") }}</span>

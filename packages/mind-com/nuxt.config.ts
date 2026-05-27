@@ -30,7 +30,7 @@ export default defineNuxtConfig({
 
   site: {
     url: process.env.NUXT_PUBLIC_SITE_URL ?? "https://mind.com",
-    name: "Mind",
+    name: "Mind.com",
     indexable: process.env.VERCEL_ENV === "production",
   },
 
@@ -69,12 +69,11 @@ export default defineNuxtConfig({
   },
 
   sitemap: {
-    exclude: ["/chat", "/chat/**"],
     sources: ["/api/__sitemap__/urls"],
   },
 
   robots: {
-    disallow: ["/chat", "/api/"],
+    disallow: ["/api/"],
   },
 
   content: {

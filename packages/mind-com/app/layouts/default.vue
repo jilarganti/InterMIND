@@ -27,7 +27,7 @@ function cycleColorMode() {
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
         <NuxtLink :to="localePath('/')" class="inline-flex items-center gap-2 font-semibold text-gray-900 dark:text-white" :aria-label="t('nav.brandLabel')">
           <img src="/logo.svg" alt="" class="w-7 h-7" width="28" height="28" />
-          <span>Mind</span>
+          <span>Mind.com</span>
         </NuxtLink>
 
         <nav class="flex items-center gap-2">
