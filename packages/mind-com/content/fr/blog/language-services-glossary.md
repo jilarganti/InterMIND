@@ -1269,7 +1269,7 @@ Ceci est le deuxième sous-titre.
 
 ---
 
-::: tip Restez Informé
+:::tip{title="Restez Informé"}
 La technologie linguistique évolue rapidement. Ce glossaire reflète les conditions marché 2025 et sera mis à jour trimestriellement avec dernières métriques précision, données coût et références sectorielles.
 :::
 

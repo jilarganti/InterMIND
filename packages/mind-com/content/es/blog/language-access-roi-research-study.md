@@ -793,7 +793,7 @@ image: "/blog/iStock-2204770115.jpg"
 
 ---
 
-::: tip Actualización de Investigación
+:::tip{title="Actualización de Investigación"}
 Este estudio se actualizará trimestralmente con nuevos datos y tendencias. La próxima actualización está programada para enero de 2026 con los datos de fin de año de 2025.
 :::
 

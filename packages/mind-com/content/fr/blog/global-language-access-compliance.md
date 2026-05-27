@@ -633,7 +633,7 @@ Inclure :
 5. **Testez minutieusement** avec des outils automatisés et des utilisateurs réels
 6. **Documentez et maintenez** votre programme d'accessibilité
 
-::: tip N'oubliez pas
+:::tip{title="N'oubliez pas"}
 L'accessibilité est un engagement continu, pas un projet ponctuel. Les lois évoluent, la technologie change, et les besoins des utilisateurs grandissent. Intégrez l'accessibilité à votre culture et à vos processus pour un succès à long terme.
 
 **Besoin d'aide pour la conformité ?** [Contactez InterMIND](/contacts) pour discuter de la manière dont notre [plateforme de traduction en temps réel](https://intermind.com) peut vous aider à répondre aux exigences d'accessibilité.

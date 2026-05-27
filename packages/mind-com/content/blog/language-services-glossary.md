@@ -1269,7 +1269,7 @@ This is the second subtitle.
 
 ---
 
-::: tip Stay Updated
+:::tip{title="Stay Updated"}
 Language technology evolves rapidly. This glossary reflects 2025 market conditions and will be updated quarterly with the latest accuracy metrics, cost data, and industry benchmarks.
 :::
 

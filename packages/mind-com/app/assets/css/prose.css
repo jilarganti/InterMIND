@@ -123,7 +123,6 @@
   color: #777;
   margin-top: 0.25rem;
 }
-
 /* Dark-mode overrides. `.dark` is toggled on <html> by Nuxt color mode (same as
    the Tailwind dark: variant used elsewhere). Body text already inherits the
    layout's theme color; these rules only fix the light accent surfaces. */

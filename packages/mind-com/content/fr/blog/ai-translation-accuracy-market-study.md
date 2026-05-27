@@ -844,6 +844,6 @@ Toutes les données de recherche collectées sont conformes aux normes internati
 
 ---
 
-::: tip Mises à jour de la recherche
+:::tip{title="Mises à jour de la recherche"}
 Cette étude représente un aperçu d'une technologie en évolution rapide. Nous mettrons à jour les principaux résultats trimestriellement et publierons une étude de suivi complète au deuxième trimestre 2026.
 :::

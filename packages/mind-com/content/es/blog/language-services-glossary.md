@@ -1267,7 +1267,7 @@ This is the second subtitle.
 
 ---
 
-::: tip Mantente Actualizado
+:::tip{title="Mantente Actualizado"}
 La tecnología lingüística evoluciona rápidamente. Este glosario refleja las condiciones del mercado de 2025 y se actualizará trimestralmente con las últimas métricas de precisión, datos de costos y puntos de referencia de la industria.
 :::
 

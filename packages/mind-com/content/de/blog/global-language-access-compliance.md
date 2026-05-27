@@ -630,7 +630,7 @@ Beinhalten Sie:
 5. **Testen Sie gründlich** mit automatisierten Tools und echten Nutzern
 6. **Dokumentieren und pflegen Sie** Ihr Barrierefreiheitsprogramm
 
-::: tip Merke
+:::tip{title="Merke"}
 Barrierefreiheit ist eine fortlaufende Verpflichtung, kein einmaliges Projekt. Gesetze entwickeln sich weiter, Technologien ändern sich und die Nutzerbedürfnisse wachsen. Integrieren Sie Barrierefreiheit in Ihre Kultur und Prozesse für langfristigen Erfolg.
 
 **Benötigen Sie Hilfe bei der Compliance?** [Kontaktieren Sie InterMIND](/contacts), um zu besprechen, wie unsere [Echtzeit-Übersetzungsplattform](https://intermind.com) Ihnen helfen kann, die Anforderungen an die Barrierefreiheit zu erfüllen.

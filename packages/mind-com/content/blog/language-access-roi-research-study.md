@@ -793,7 +793,7 @@ image: "/blog/iStock-2204770115.jpg"
 
 ---
 
-::: tip Research Update
+:::tip{title="Research Update"}
 This study will be updated quarterly with new data and trends. Next update scheduled for January 2026 with 2025 year-end data.
 :::
 

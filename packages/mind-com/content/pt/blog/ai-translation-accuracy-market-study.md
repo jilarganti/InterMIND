@@ -844,6 +844,6 @@ Todos os dados da pesquisa coletados em conformidade com os padrões internacion
 
 ---
 
-::: tip Atualizações da Pesquisa
+:::tip{title="Atualizações da Pesquisa"}
 Este estudo representa um panorama de uma tecnologia em rápida evolução. Atualizaremos as principais descobertas trimestralmente e publicaremos um estudo de acompanhamento abrangente no segundo trimestre de 2026.
 :::

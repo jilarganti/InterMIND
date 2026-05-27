@@ -633,7 +633,7 @@ Include:
 5. **Test thoroughly** with automated tools and real users
 6. **Document and maintain** your accessibility program
 
-::: tip Remember
+:::tip{title="Remember"}
 Accessibility is an ongoing commitment, not a one-time project. Laws evolve, technology changes, and user needs grow. Build accessibility into your culture and processes for long-term success.
 
 **Need help with compliance?** [Contact InterMIND](/contacts) to discuss how our [real-time translation platform](https://intermind.com) can help meet accessibility requirements.

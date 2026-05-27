@@ -1269,7 +1269,7 @@ This is the second subtitle.
 
 ---
 
-::: tip Bleiben Sie auf dem Laufenden
+:::tip{title="Bleiben Sie auf dem Laufenden"}
 Sprachtechnologie entwickelt sich schnell. Dieses Glossar spiegelt die Marktbedingungen von 2025 wider und wird vierteljährlich mit den neuesten Genauigkeitsmetriken, Kostendaten und Branchen-Benchmarks aktualisiert.
 :::
 

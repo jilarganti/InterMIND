@@ -844,6 +844,6 @@ All research data collected in compliance with international data protection sta
 
 ---
 
-::: tip Research Updates
+:::tip{title="Research Updates"}
 This study represents a snapshot of rapidly evolving technology. We will update key findings quarterly and publish a comprehensive follow-up study in Q2 2026.
 :::

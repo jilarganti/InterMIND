@@ -844,6 +844,6 @@ image: "/blog/ai-translation-efficiency-infographic.png"
 
 ---
 
-::: tip 研究更新
+:::tip{title="研究更新"}
 本研究代表了快速发展技术的现状。我们将每季度更新关键发现，并于 2026 年第二季度发布一份全面的后续研究报告。
 :::

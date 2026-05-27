@@ -1269,7 +1269,7 @@ This is the second subtitle.
 
 ---
 
-::: tip Mantenha-se Atualizado
+:::tip{title="Mantenha-se Atualizado"}
 A tecnologia de idiomas evolui rapidamente. Este glossário reflete as condições de mercado de 2025 e será atualizado trimestralmente com as mais recentes métricas de precisão, dados de custos e benchmarks da indústria.
 :::
 

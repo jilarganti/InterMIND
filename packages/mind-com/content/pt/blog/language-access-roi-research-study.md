@@ -793,7 +793,7 @@ image: "/blog/iStock-2204770115.jpg"
 
 ---
 
-::: tip Atualização da Pesquisa
+:::tip{title="Atualização da Pesquisa"}
 Este estudo será atualizado trimestralmente com novos dados e tendências. Próxima atualização agendada para janeiro de 2026 com dados de final de ano de 2025.
 :::
 

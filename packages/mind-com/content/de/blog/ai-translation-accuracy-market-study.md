@@ -844,6 +844,6 @@ Alle Forschungsdaten in Übereinstimmung mit internationalen Datenschutzstandard
 
 ---
 
-::: tip Forschungsupdates
+:::tip{title="Forschungsupdates"}
 Diese Studie repräsentiert eine Momentaufnahme sich schnell entwickelnder Technologie. Wir werden wichtige Erkenntnisse vierteljährlich aktualisieren und eine umfassende Folgestudie im Q2 2026 veröffentlichen.
 :::

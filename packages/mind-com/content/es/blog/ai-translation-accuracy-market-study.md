@@ -844,6 +844,6 @@ Todos los datos de investigación recopilados en cumplimiento con los estándare
 
 ---
 
-::: tip Actualizaciones de la Investigación
+:::tip{title="Actualizaciones de la Investigación"}
 Este estudio representa una instantánea de una tecnología en rápida evolución. Actualizaremos los hallazgos clave trimestralmente y publicaremos un estudio de seguimiento exhaustivo en el segundo trimestre de 2026.
 :::

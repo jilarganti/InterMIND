@@ -793,7 +793,7 @@ image: "/blog/iStock-2204770115.jpg"
 
 ---
 
-::: tip Forschungsaktualisierung
+:::tip{title="Forschungsaktualisierung"}
 Diese Studie wird vierteljährlich mit neuen Daten und Trends aktualisiert. Nächste Aktualisierung geplant für Januar 2026 mit den Jahresenddaten 2025.
 :::
 

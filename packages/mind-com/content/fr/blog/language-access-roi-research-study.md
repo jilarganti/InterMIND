@@ -793,7 +793,7 @@ image: "/blog/iStock-2204770115.jpg"
 
 ---
 
-::: tip Mise à jour de la recherche
+:::tip{title="Mise à jour de la recherche"}
 Cette étude sera mise à jour trimestriellement avec de nouvelles données et tendances. La prochaine mise à jour est prévue pour janvier 2026 avec les données de fin d'année 2025.
 :::
 
