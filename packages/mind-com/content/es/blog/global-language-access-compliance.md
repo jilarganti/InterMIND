@@ -34,7 +34,7 @@ image: "/blog/iStock-2203725394.jpg"
   </div>
 </div>
 
-Descubra cómo [InterMIND ayuda con el cumplimiento](../../product/overview/what-is-intermind) a través de la interpretación en tiempo real y el [soporte multilingüe](../../product/overview/how-it-works).
+Descubra cómo [InterMIND ayuda con el cumplimiento](https://intermind.com) a través de la interpretación en tiempo real y el [soporte multilingüe](https://intermind.com).
 
 ## 🌍 Países de un Vistazo
 
@@ -636,5 +636,5 @@ Incluya:
 ::: tip Recuerde
 La accesibilidad es un compromiso continuo, no un proyecto único. Las leyes evolucionan, la tecnología cambia y las necesidades de los usuarios crecen. Incorpore la accesibilidad en su cultura y procesos para el éxito a largo plazo.
 
-**¿Necesita ayuda con el cumplimiento?** [Contacte con InterMIND](../../resources/company/contacts) para discutir cómo nuestra [plataforma de traducción en tiempo real](../../product/overview/video-meeting-platform) puede ayudar a cumplir los requisitos de accesibilidad.
+**¿Necesita ayuda con el cumplimiento?** [Contacte con InterMIND](/contacts) para discutir cómo nuestra [plataforma de traducción en tiempo real](https://intermind.com) puede ayudar a cumplir los requisitos de accesibilidad.
 :::

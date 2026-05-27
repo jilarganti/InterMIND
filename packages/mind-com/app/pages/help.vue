@@ -26,7 +26,7 @@ const services = computed(() => [
 <template>
   <div class="content">
     <h1>{{ t("help.h1") }}</h1>
-    <p class="lede">
+    <p class="lede text-gray-600 dark:text-gray-400">
       {{ t("help.ledeLine1") }}<br />
       {{ t("help.ledeLine2") }}
     </p>
@@ -40,7 +40,7 @@ const services = computed(() => [
       :button-text="t('help.buttonText')"
     />
 
-    <blockquote>
+    <blockquote class="text-gray-500 dark:text-gray-400 border-gray-200 dark:border-gray-700">
       <p><em>{{ t("help.responseTime") }}</em></p>
       <p><em>{{ t("help.humanReview") }}</em></p>
     </blockquote>
@@ -58,14 +58,13 @@ h1 {
   margin: 1rem 0 1rem;
 }
 .lede {
-  color: #555;
   margin-bottom: 2rem;
 }
 blockquote {
-  border-left: 3px solid #ececea;
+  border-left-width: 3px;
+  border-left-style: solid;
   padding-left: 1rem;
   margin: 2rem 0;
-  color: #666;
 }
 blockquote p {
   margin: 0.25rem 0;

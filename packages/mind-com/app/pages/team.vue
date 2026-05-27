@@ -59,7 +59,7 @@ const ai = computed(() => [
 <template>
   <div class="content">
     <h1>{{ t("team.h1") }}</h1>
-    <i18n-t keypath="team.ledeParagraph" tag="p" class="lede">
+    <i18n-t scope="global" keypath="team.ledeParagraph" tag="p" class="lede text-gray-600 dark:text-gray-400">
       <template #link
         ><NuxtLink :to="localePath('/about')">{{ t("team.ledeAboutLink") }}</NuxtLink></template
       >
@@ -69,10 +69,10 @@ const ai = computed(() => [
     <TeamMembersGrid :members="humans" />
 
     <h2>{{ t("team.aiTeamTitle") }}</h2>
-    <p class="note">{{ t("team.aiTeamNote") }}</p>
+    <p class="note text-gray-500 dark:text-gray-400">{{ t("team.aiTeamNote") }}</p>
     <TeamMembersGrid :members="ai" />
 
-    <i18n-t keypath="team.ctaParagraph" tag="p">
+    <i18n-t scope="global" keypath="team.ctaParagraph" tag="p">
       <template #strong
         ><strong>{{ t("team.ctaStrong") }}</strong></template
       >
@@ -100,12 +100,10 @@ h2 {
   font-weight: 600;
 }
 .lede {
-  color: #555;
   margin: 0 0 1rem;
 }
 .note {
   font-size: 0.9rem;
-  color: #777;
   margin: 0 0 1rem;
 }
 a {

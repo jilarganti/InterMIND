@@ -34,7 +34,7 @@ image: "/blog/iStock-2203725394.jpg"
   </div>
 </div>
 
-Learn how [InterMIND helps with compliance](../../product/overview/what-is-intermind) through real-time interpretation and [multilingual support](../../product/overview/how-it-works).
+Learn how [InterMIND helps with compliance](https://intermind.com) through real-time interpretation and [multilingual support](https://intermind.com).
 
 ## 🌍 Countries at a Glance
 
@@ -636,5 +636,5 @@ Include:
 ::: tip Remember
 Accessibility is an ongoing commitment, not a one-time project. Laws evolve, technology changes, and user needs grow. Build accessibility into your culture and processes for long-term success.
 
-**Need help with compliance?** [Contact InterMIND](../../resources/company/contacts) to discuss how our [real-time translation platform](../../product/overview/video-meeting-platform) can help meet accessibility requirements.
+**Need help with compliance?** [Contact InterMIND](/contacts) to discuss how our [real-time translation platform](https://intermind.com) can help meet accessibility requirements.
 :::

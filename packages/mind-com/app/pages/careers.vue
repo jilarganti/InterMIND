@@ -16,11 +16,11 @@ const services = computed(() => [t("careers.services.partnerships")])
   <div class="content">
     <h1>{{ t("careers.h1") }}</h1>
 
-    <p class="lead">{{ t("careers.lead") }}</p>
+    <p class="lead text-gray-900 dark:text-gray-100">{{ t("careers.lead") }}</p>
 
-    <p>{{ t("careers.invite") }}</p>
+    <p class="text-gray-700 dark:text-gray-300">{{ t("careers.invite") }}</p>
 
-    <h2>{{ t("careers.formTitle") }}</h2>
+    <h2 class="text-gray-900 dark:text-white">{{ t("careers.formTitle") }}</h2>
 
     <ContactForm
       :services="services"
@@ -52,14 +52,11 @@ h2 {
   font-size: 1.1rem;
   font-weight: 600;
   margin: 2.5rem 0 0.75rem;
-  color: #1c1c1c;
 }
 p {
   margin: 0 0 1rem;
-  color: #333;
 }
 .lead {
   font-size: 1.1rem;
-  color: #1c1c1c;
 }
 </style>

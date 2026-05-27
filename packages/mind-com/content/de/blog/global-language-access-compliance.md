@@ -34,7 +34,7 @@ image: "/blog/iStock-2203725394.jpg"
   </div>
 </div>
 
-Erfahren Sie, wie [InterMIND bei der Compliance hilft](../../product/overview/what-is-intermind) durch Echtzeit-Dolmetschen und [mehrsprachiger Unterstützung](../../product/overview/how-it-works).
+Erfahren Sie, wie [InterMIND bei der Compliance hilft](https://intermind.com) durch Echtzeit-Dolmetschen und [mehrsprachiger Unterstützung](https://intermind.com).
 
 ## 🌍 Länder im Überblick
 
@@ -633,5 +633,5 @@ Beinhalten Sie:
 ::: tip Merke
 Barrierefreiheit ist eine fortlaufende Verpflichtung, kein einmaliges Projekt. Gesetze entwickeln sich weiter, Technologien ändern sich und die Nutzerbedürfnisse wachsen. Integrieren Sie Barrierefreiheit in Ihre Kultur und Prozesse für langfristigen Erfolg.
 
-**Benötigen Sie Hilfe bei der Compliance?** [Kontaktieren Sie InterMIND](../../resources/company/contacts), um zu besprechen, wie unsere [Echtzeit-Übersetzungsplattform](../../product/overview/video-meeting-platform) Ihnen helfen kann, die Anforderungen an die Barrierefreiheit zu erfüllen.
+**Benötigen Sie Hilfe bei der Compliance?** [Kontaktieren Sie InterMIND](/contacts), um zu besprechen, wie unsere [Echtzeit-Übersetzungsplattform](https://intermind.com) Ihnen helfen kann, die Anforderungen an die Barrierefreiheit zu erfüllen.
 :::

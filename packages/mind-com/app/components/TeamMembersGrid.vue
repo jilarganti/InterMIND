@@ -38,16 +38,16 @@ function renderMarkdownBold(s: string): string {
 
 <template>
   <div class="team-grid">
-    <article v-for="m in members" :key="m.name" class="member">
-      <div class="avatar">
+    <article v-for="m in members" :key="m.name" class="member bg-white dark:bg-gray-800/50 border-gray-200 dark:border-gray-700">
+      <div class="avatar bg-gray-100 dark:bg-gray-700">
         <img v-if="isImageUrl(m.avatarLink)" :src="m.avatarLink" :alt="m.name" />
-        <span v-else class="avatar-placeholder">{{ m.name.charAt(0) }}</span>
+        <span v-else class="avatar-placeholder text-gray-400 dark:text-gray-500">{{ m.name.charAt(0) }}</span>
       </div>
       <h3 class="name" v-html="renderMarkdownBold(m.name)" />
-      <p v-if="m.desc" class="desc" v-html="renderMarkdownBold(m.desc)" />
-      <p v-if="m.country" class="country">{{ m.country }}</p>
+      <p v-if="m.desc" class="desc text-gray-600 dark:text-gray-400" v-html="renderMarkdownBold(m.desc)" />
+      <p v-if="m.country" class="country text-gray-500 dark:text-gray-400">{{ m.country }}</p>
       <div v-if="m.links?.length" class="links">
-        <a v-for="l in m.links" :key="l.link" :href="l.link" target="_blank" rel="noopener" class="link">
+        <a v-for="l in m.links" :key="l.link" :href="l.link" target="_blank" rel="noopener" class="link text-gray-900 dark:text-gray-100">
           {{ l.label ?? iconLabel(l.icon) }}
         </a>
       </div>
@@ -63,8 +63,8 @@ function renderMarkdownBold(s: string): string {
   margin: 2rem 0;
 }
 .member {
-  background: #fff;
-  border: 1px solid #ececea;
+  border-width: 1px;
+  border-style: solid;
   border-radius: 12px;
   padding: 1.5rem;
   text-align: center;
@@ -75,7 +75,6 @@ function renderMarkdownBold(s: string): string {
   border-radius: 50%;
   margin: 0 auto 1rem;
   overflow: hidden;
-  background: #f0efea;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,7 +87,6 @@ function renderMarkdownBold(s: string): string {
 .avatar-placeholder {
   font-size: 2rem;
   font-weight: 600;
-  color: #999;
 }
 .name {
   font-size: 1.05rem;
@@ -97,12 +95,10 @@ function renderMarkdownBold(s: string): string {
 }
 .desc {
   font-size: 0.9rem;
-  color: #555;
   margin: 0 0 0.5rem;
 }
 .country {
   font-size: 0.8rem;
-  color: #888;
   margin: 0 0 0.75rem;
 }
 .links {
@@ -113,7 +109,6 @@ function renderMarkdownBold(s: string): string {
 }
 .link {
   font-size: 0.85rem;
-  color: #1c1c1c;
   text-decoration: none;
 }
 .link:hover {

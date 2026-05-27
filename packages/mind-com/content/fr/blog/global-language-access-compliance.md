@@ -34,7 +34,7 @@ image: "/blog/iStock-2203725394.jpg"
   </div>
 </div>
 
-Découvrez comment [InterMIND aide à la conformité](../../product/overview/what-is-intermind) grâce à l'interprétation en temps réel et au [support multilingue](../../product/overview/how-it-works).
+Découvrez comment [InterMIND aide à la conformité](https://intermind.com) grâce à l'interprétation en temps réel et au [support multilingue](https://intermind.com).
 
 ## 🌍 Pays en un coup d'œil
 
@@ -636,5 +636,5 @@ Inclure :
 ::: tip N'oubliez pas
 L'accessibilité est un engagement continu, pas un projet ponctuel. Les lois évoluent, la technologie change, et les besoins des utilisateurs grandissent. Intégrez l'accessibilité à votre culture et à vos processus pour un succès à long terme.
 
-**Besoin d'aide pour la conformité ?** [Contactez InterMIND](../../resources/company/contacts) pour discuter de la manière dont notre [plateforme de traduction en temps réel](../../product/overview/video-meeting-platform) peut vous aider à répondre aux exigences d'accessibilité.
+**Besoin d'aide pour la conformité ?** [Contactez InterMIND](/contacts) pour discuter de la manière dont notre [plateforme de traduction en temps réel](https://intermind.com) peut vous aider à répondre aux exigences d'accessibilité.
 :::

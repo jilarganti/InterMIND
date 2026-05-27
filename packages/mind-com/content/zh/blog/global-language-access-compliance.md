@@ -34,7 +34,7 @@ image: "/blog/iStock-2203725394.jpg"
   </div>
 </div>
 
-了解[InterMIND如何帮助合规](../../product/overview/what-is-intermind)通过实时口译和[多语言支持](../../product/overview/how-it-works)。
+了解[InterMIND如何帮助合规](https://intermind.com)通过实时口译和[多语言支持](https://intermind.com)。
 
 ## 🌍 各国概览
 
@@ -636,5 +636,5 @@ image: "/blog/iStock-2203725394.jpg"
 ::: tip 记住
 无障碍是一个持续的承诺，不是一次性项目。法律在演变，技术在变化，用户需求在增长。将无障碍融入您的文化和流程中，以实现长期成功。
 
-**需要合规帮助？**[联系InterMIND](../../resources/company/contacts)讨论我们的[实时翻译平台](../../product/overview/video-meeting-platform)如何帮助满足无障碍要求。
+**需要合规帮助？**[联系InterMIND](/contacts)讨论我们的[实时翻译平台](https://intermind.com)如何帮助满足无障碍要求。
 :::

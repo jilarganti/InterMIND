@@ -25,7 +25,7 @@ const services = computed(() => [
 <template>
   <div class="content">
     <h1>{{ t("contacts.h1") }}</h1>
-    <p class="lede">
+    <p class="lede text-gray-600 dark:text-gray-400">
       {{ t("contacts.lede") }}
     </p>
 
@@ -38,10 +38,10 @@ const services = computed(() => [
       :button-text="t('contacts.buttonText')"
     />
 
-    <blockquote>
+    <blockquote class="text-gray-600 dark:text-gray-400 border-gray-200 dark:border-gray-700">
       <p>
         <strong>{{ t("contacts.helpBlockStrong") }}</strong>
-        <i18n-t keypath="contacts.helpBlock" tag="span">
+        <i18n-t scope="global" keypath="contacts.helpBlock" tag="span">
           <template #link
             ><NuxtLink :to="localePath('/help')">{{ t("contacts.helpLink") }}</NuxtLink></template
           >
@@ -49,12 +49,9 @@ const services = computed(() => [
       </p>
       <p>
         <strong>{{ t("contacts.learnBlockStrong") }}</strong>
-        <i18n-t keypath="contacts.learnBlock" tag="span">
+        <i18n-t scope="global" keypath="contacts.learnBlock" tag="span">
           <template #about
             ><NuxtLink :to="localePath('/about')">{{ t("contacts.learnAboutLink") }}</NuxtLink></template
-          >
-          <template #team
-            ><NuxtLink :to="localePath('/team')">{{ t("contacts.learnTeamLink") }}</NuxtLink></template
           >
           <template #careers
             ><NuxtLink :to="localePath('/careers')">{{ t("contacts.learnCareersLink") }}</NuxtLink></template
@@ -76,14 +73,13 @@ h1 {
   margin: 1rem 0 1rem;
 }
 .lede {
-  color: #555;
   margin-bottom: 2rem;
 }
 blockquote {
-  border-left: 3px solid #ececea;
+  border-left-width: 3px;
+  border-left-style: solid;
   padding-left: 1rem;
   margin: 2rem 0;
-  color: #555;
 }
 blockquote a {
   color: inherit;
