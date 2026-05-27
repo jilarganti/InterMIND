@@ -37,14 +37,21 @@ const address = "City Avenue Building, Office 405-070, Port Saeed, Dubai, UAE"
       {{ t("contacts.lede") }}
     </p>
 
-    <ContactForm
-      :services="services"
-      :category-label="t('contacts.categoryLabel')"
-      :category-placeholder="t('contacts.categoryPlaceholder')"
-      :message-label="t('contacts.messageLabel')"
-      :message-placeholder="t('contacts.messagePlaceholder')"
-      :button-text="t('contacts.buttonText')"
-    />
+    <div class="cta">
+      <UModal :title="t('contacts.h1')" :ui="{ content: 'sm:max-w-xl' }">
+        <UButton color="neutral" size="xl">{{ t("home.vcard.letsTalk") }}</UButton>
+        <template #body>
+          <ContactForm
+            :services="services"
+            :category-label="t('contacts.categoryLabel')"
+            :category-placeholder="t('contacts.categoryPlaceholder')"
+            :message-label="t('contacts.messageLabel')"
+            :message-placeholder="t('contacts.messagePlaceholder')"
+            :button-text="t('contacts.buttonText')"
+          />
+        </template>
+      </UModal>
+    </div>
 
     <blockquote class="text-gray-600 dark:text-gray-400 border-gray-200 dark:border-gray-700">
       <p>
@@ -94,6 +101,9 @@ h1 {
 }
 .lede {
   margin-bottom: 2rem;
+}
+.cta {
+  margin: 0 0 2.75rem;
 }
 blockquote {
   border-left-width: 3px;
