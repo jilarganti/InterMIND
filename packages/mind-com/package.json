@@ -25,9 +25,12 @@
     "@nuxtjs/i18n": "^10.2.4",
     "@nuxtjs/robots": "^6.0.8",
     "@nuxtjs/sitemap": "^8.0.15",
+    "@sentry/nuxt": "^10.53.1",
+    "@sentry/vue": "^10.53.1",
     "@vueuse/nuxt": "^12.8.2",
     "better-sqlite3": "^12.10.0",
     "nuxt": "^4.4.6",
+    "nuxt-posthog": "^1.6.3",
     "tailwindcss": "^4.3.0",
     "vue": "^3.5.18"
   },

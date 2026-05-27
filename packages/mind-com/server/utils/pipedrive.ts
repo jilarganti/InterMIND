@@ -21,6 +21,8 @@ export enum Channel {
   MANUAL_ENTRY = "Manual entry",
 }
 
+// Canonical conversion event names — "generate_lead" is captured in PostHog
+// from ContactForm.vue on a successful contact-form submit.
 export type AnalyticsEvent = "sign_up" | "generate_lead" | "sign_in_attempt" | "try_it_attempt" | "get_started_attempt"
 
 export interface SubmitForm {
@@ -29,11 +31,6 @@ export interface SubmitForm {
   webSite?: string
   kind: string
   message: string
-}
-
-export interface DataLayerEvent {
-  event: AnalyticsEvent
-  kind?: string
 }
 
 interface FieldOption {

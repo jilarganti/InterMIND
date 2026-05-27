@@ -1,4 +1,4 @@
-import { createContactAndLead, type SubmitForm, type DataLayerEvent } from "../utils/pipedrive"
+import { createContactAndLead, type SubmitForm } from "../utils/pipedrive"
 
 export default defineEventHandler(async (event) => {
   const body = await readBody<SubmitForm>(event)
@@ -16,6 +16,7 @@ export default defineEventHandler(async (event) => {
     return result
   }
 
-  const gtmData: DataLayerEvent = { event: "generate_lead", kind: body.kind }
-  return { ...result, gtmData }
+  // The "generate_lead" conversion is captured client-side in PostHog
+  // (ContactForm.vue) after a successful submit, gated by Usercentrics consent.
+  return result
 })

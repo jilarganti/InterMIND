@@ -50,11 +50,9 @@ const isSubmitting = ref(false)
 const successMessage = ref("")
 const errorMessage = ref("")
 
-declare global {
-  interface Window {
-    dataLayer?: Record<string, unknown>[]
-  }
-}
+// posthog-js instance (null in dev / SSR). capture() is a no-op while the
+// visitor hasn't granted Usercentrics consent, so this is GDPR-safe.
+const { $clientPosthog } = useNuxtApp()
 
 async function handleSubmit() {
   isSubmitting.value = true
@@ -67,13 +65,11 @@ async function handleSubmit() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
     })
-    const json = (await res.json()) as { success?: boolean; message?: string; gtmData?: Record<string, unknown> }
+    const json = (await res.json()) as { success?: boolean; message?: string }
     if (res.ok && json.success) {
       successMessage.value = t("contactForm.successMessage")
-      if (json.gtmData && typeof window !== "undefined") {
-        window.dataLayer = window.dataLayer || []
-        window.dataLayer.push(json.gtmData)
-      }
+      // Key landing-page conversion (replaces the old GTM dataLayer push).
+      $clientPosthog?.capture("generate_lead", { kind: data.kind })
     } else {
       errorMessage.value = json.message || t("contactForm.crmError")
     }
@@ -88,10 +84,7 @@ async function handleSubmit() {
 
 <template>
   <div class="max-w-xl my-6">
-    <div
-      v-if="successMessage"
-      class="p-8 text-center rounded-xl border border-green-200 bg-green-50 dark:border-green-800 dark:bg-green-900/20"
-    >
+    <div v-if="successMessage" class="p-8 text-center rounded-xl border border-green-200 bg-green-50 dark:border-green-800 dark:bg-green-900/20">
       <h3 class="mb-2 font-semibold text-green-700 dark:text-green-400">{{ t("contactForm.successHeading") }}</h3>
       <p>{{ successMessage }}</p>
     </div>
