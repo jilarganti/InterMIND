@@ -99,6 +99,17 @@ export default defineNuxtConfig({
     },
   },
 
+  // Inline every used icon into the client build (clientBundle.scan) so the app
+  // never fetches from the Iconify CDN at runtime — kills the api.iconify.design
+  // / api.simplesvg.com / api.unisvg.com fallback requests, keeping the public
+  // marketing site free of third-party icon calls (one less GDPR surface).
+  icon: {
+    clientBundle: {
+      scan: true,
+      sizeLimitKb: 256,
+    },
+  },
+
   // Product analytics (nuxt-posthog → posthog-js). The marketing site is a
   // public, EU-facing property, so capture starts OPTED OUT and is enabled only
   // after Usercentrics grants the PostHog service consent — see
