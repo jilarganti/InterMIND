@@ -19,11 +19,10 @@ export default defineNuxtConfig({
     "nuxt-posthog",
   ],
 
-  // Default for new visitors: follow OS preference (Nuxt UI ships
-  // @nuxtjs/color-mode under the hood). Stored choice wins after first toggle.
+  // Default for new visitors: dark. Stored choice wins after first toggle.
   colorMode: {
-    preference: "system",
-    fallback: "light",
+    preference: "dark",
+    fallback: "dark",
     storageKey: "mind-com:color-mode",
   },
 
