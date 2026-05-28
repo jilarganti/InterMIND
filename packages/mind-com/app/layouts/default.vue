@@ -48,7 +48,7 @@ function cycleColorMode() {
       </div>
     </header>
 
-    <main class="flex-1 w-full flex items-center">
+    <main class="flex-1 w-full flex items-center min-h-[calc(100vh-8rem)]">
       <slot />
     </main>
 
