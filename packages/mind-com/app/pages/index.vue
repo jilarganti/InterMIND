@@ -79,7 +79,7 @@ const entities = [
 
 <template>
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 w-full">
-    <p class="text-sm font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-5">Mind.com</p>
+    <p class="text-sm font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-5">Mind<span class="text-red-500">.</span>com</p>
 
     <h1 class="text-4xl sm:text-6xl font-bold tracking-tight mb-10">
       <span class="text-gray-900 dark:text-white">{{ t("home.vcard.headlinePart1") }}</span>

@@ -17,7 +17,6 @@ const services = computed(() => [
   t("contacts.services.media"),
   t("contacts.services.legal"),
   t("contacts.services.security"),
-  t("contacts.services.businessDev"),
   t("contacts.services.general"),
 ])
 

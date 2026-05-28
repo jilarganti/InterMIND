@@ -141,14 +141,13 @@
     "messagePlaceholder": "Share any relevant background, timelines, or context you'd like us to consider.",
     "buttonText": "Send your message",
     "services": {
-      "partnership": "Strategic partnership opportunity",
-      "investment": "Investment or funding discussion",
-      "enterprise": "Enterprise solution inquiry",
-      "media": "Media & press request",
-      "legal": "Legal or compliance matter",
-      "security": "Security concern or report",
-      "businessDev": "Business development proposal",
-      "general": "General business inquiry"
+      "partnership": "Partnership or integration",
+      "investment": "Investor relations",
+      "enterprise": "Enterprise procurement",
+      "media": "Press inquiry",
+      "legal": "Legal or compliance",
+      "security": "Security disclosure",
+      "general": "Other"
     },
     "helpBlockStrong": "Need product-related help?",
     "helpBlock": "Visit our {link} for fast answers and assistance from the Mind.com team.",

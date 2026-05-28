@@ -87,14 +87,13 @@
     "messagePlaceholder": "Comparta cualquier antecedente relevante, plazos o contexto que desee que consideremos.",
     "buttonText": "Enviar su mensaje",
     "services": {
-      "partnership": "Oportunidad de asociación estratégica",
-      "investment": "Discusión sobre inversión o financiación",
-      "enterprise": "Consulta sobre soluciones Enterprise",
-      "media": "Solicitud de medios y prensa",
-      "legal": "Asunto legal o de cumplimiento normativo",
-      "security": "Preocupación o informe de seguridad",
-      "businessDev": "Propuesta de desarrollo de negocio",
-      "general": "Consulta comercial general"
+      "partnership": "Asociación o integración",
+      "investment": "Relaciones con inversores",
+      "enterprise": "Adquisición empresarial",
+      "media": "Consulta de prensa",
+      "legal": "Legal o cumplimiento",
+      "security": "Divulgación de seguridad",
+      "general": "Otro"
     },
     "helpBlockStrong": "¿Necesita ayuda con el producto?",
     "helpBlock": "Visite nuestra {link} para obtener respuestas rápidas y asistencia del equipo de Mind.com.",

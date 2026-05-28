@@ -87,14 +87,13 @@
     "messagePlaceholder": "Compartilhe qualquer informação relevante, prazos ou contexto que gostaria que considerássemos.",
     "buttonText": "Enviar sua mensagem",
     "services": {
-      "partnership": "Oportunidade de parceria estratégica",
-      "investment": "Discussão sobre investimento ou financiamento",
-      "enterprise": "Consulta sobre solução empresarial",
-      "media": "Solicitação de mídia e imprensa",
-      "legal": "Assunto jurídico ou de conformidade",
-      "security": "Preocupação ou relatório de segurança",
-      "businessDev": "Proposta de desenvolvimento de negócios",
-      "general": "Consulta geral de negócios"
+      "partnership": "Parceria ou integração",
+      "investment": "Relações com investidores",
+      "enterprise": "Aquisição empresarial",
+      "media": "Consulta de imprensa",
+      "legal": "Jurídico ou conformidade",
+      "security": "Divulgação de segurança",
+      "general": "Outro"
     },
     "helpBlockStrong": "Precisa de ajuda relacionada ao produto?",
     "helpBlock": "Visite nossa {link} para obter respostas rápidas e assistência da equipe Mind.com.",

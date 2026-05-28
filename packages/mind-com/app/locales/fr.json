@@ -87,14 +87,13 @@
     "messagePlaceholder": "Partagez tout contexte, échéancier ou information pertinente que vous souhaiteriez que nous prenions en compte.",
     "buttonText": "Envoyer votre message",
     "services": {
-      "partnership": "Opportunité de partenariat stratégique",
-      "investment": "Discussion sur un investissement ou un financement",
-      "enterprise": "Demande de solution d'entreprise",
-      "media": "Demande média et presse",
-      "legal": "Question juridique ou de conformité",
-      "security": "Problème ou rapport de sécurité",
-      "businessDev": "Proposition de développement commercial",
-      "general": "Demande commerciale générale"
+      "partnership": "Partenariat ou intégration",
+      "investment": "Relations investisseurs",
+      "enterprise": "Achat entreprise",
+      "media": "Demande presse",
+      "legal": "Juridique ou conformité",
+      "security": "Signalement de sécurité",
+      "general": "Autre"
     },
     "helpBlockStrong": "Besoin d'aide concernant un produit ?",
     "helpBlock": "Visitez notre {link} pour des réponses rapides et l'assistance de l'équipe Mind.com.",

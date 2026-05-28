@@ -87,14 +87,13 @@
     "messagePlaceholder": "Teilen Sie relevante Hintergrundinformationen, Zeitpläne oder Kontext, den wir berücksichtigen sollen.",
     "buttonText": "Nachricht senden",
     "services": {
-      "partnership": "Strategische Partnerschaftsmöglichkeit",
-      "investment": "Investitions- oder Finanzierungsgespräch",
-      "enterprise": "Anfrage zu Unternehmenslösungen",
-      "media": "Medien- & Presseanfrage",
-      "legal": "Rechtliche oder Compliance-Angelegenheit",
-      "security": "Sicherheitsbedenken oder -meldung",
-      "businessDev": "Vorschlag zur Geschäftsentwicklung",
-      "general": "Allgemeine Geschäftsanfrage"
+      "partnership": "Partnerschaft oder Integration",
+      "investment": "Investor Relations",
+      "enterprise": "Unternehmensbeschaffung",
+      "media": "Presseanfrage",
+      "legal": "Recht oder Compliance",
+      "security": "Sicherheitsmeldung",
+      "general": "Sonstiges"
     },
     "helpBlockStrong": "Benötigen Sie produktspezifische Hilfe?",
     "helpBlock": "Besuchen Sie unsere {link} für schnelle Antworten und Unterstützung vom Mind.com-Team.",

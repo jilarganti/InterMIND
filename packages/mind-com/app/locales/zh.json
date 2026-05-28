@@ -87,14 +87,13 @@
     "messagePlaceholder": "请分享您希望我们考虑的任何相关背景、时间表或上下文信息。",
     "buttonText": "发送留言",
     "services": {
-      "partnership": "战略合作机会",
-      "investment": "投资或融资洽谈",
-      "enterprise": "企业解决方案咨询",
-      "media": "媒体与新闻请求",
-      "legal": "法律或合规事宜",
-      "security": "安全问题或报告",
-      "businessDev": "业务发展提案",
-      "general": "一般业务咨询"
+      "partnership": "合作或集成",
+      "investment": "投资者关系",
+      "enterprise": "企业采购",
+      "media": "媒体咨询",
+      "legal": "法律或合规",
+      "security": "安全披露",
+      "general": "其他"
     },
     "helpBlockStrong": "需要产品相关帮助？",
     "helpBlock": "访问我们的 {link} 以获取 Mind.com 团队的快速解答和帮助。",
