@@ -22,6 +22,11 @@
 
   "redirects": [
     {
+      "source": "/blog/posts/Multilingual-Meetings-in-Microsoft-Teams",
+      "destination": "/blog/multilingual-meetings-in-microsoft-teams",
+      "permanent": true
+    },
+    {
       "source": "/blog/posts/2025/:slug",
       "destination": "/blog/:slug",
       "permanent": true
@@ -95,6 +100,11 @@
       "permanent": true
     },
     {
+      "source": "/ru/product/:path*",
+      "destination": "https://intermind.com/",
+      "permanent": true
+    },
+    {
       "source": "/pricing",
       "destination": "https://intermind.com/",
       "permanent": true
@@ -112,6 +122,11 @@
       "permanent": true
     },
     {
+      "source": "/ru/promo/:path*",
+      "destination": "https://intermind.com/promo/:path*",
+      "permanent": true
+    },
+    {
       "source": "/exp/:path*",
       "destination": "https://intermind.com/",
       "permanent": true
@@ -125,6 +140,53 @@
     {
       "source": "/company/about",
       "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/company/news/:path*",
+      "destination": "/blog",
+      "permanent": true
+    },
+
+    {
+      "source": "/solutions/:path*",
+      "destination": "https://intermind.com/",
+      "permanent": true
+    },
+    {
+      "source": "/imind",
+      "destination": "https://intermind.com/",
+      "permanent": true
+    },
+    {
+      "source": "/plans",
+      "destination": "https://intermind.com/",
+      "permanent": true
+    },
+    {
+      "source": "/form/:path*",
+      "destination": "/contacts",
+      "permanent": true
+    },
+
+    {
+      "source": "/patents",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/company-customers",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/trust",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/training",
+      "destination": "/",
       "permanent": true
     }
   ]
