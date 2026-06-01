@@ -61,7 +61,7 @@ useHead({
     { name: "twitter:title", content: () => metaTitle.value },
     { name: "twitter:description", content: () => metaDescription.value },
   ],
-  link: [{ rel: "canonical", href: `${siteUrl}/blog` }],
+  link: [{ rel: "canonical", href: `${siteUrl}${localePath("/blog")}` }],
 })
 
 function authorName(raw?: string | null): string | undefined {

@@ -9,7 +9,7 @@ const productUrlBare = productUrl.replace(/^https?:\/\//, "")
 useHead({
   title: () => t("about.metaTitle"),
   meta: [{ name: "description", content: () => t("about.metaDescription") }],
-  link: [{ rel: "canonical", href: `${siteUrl}/about` }],
+  link: [{ rel: "canonical", href: `${siteUrl}${localePath("/about")}` }],
 })
 
 // Language-neutral facts; only the role line is localized.

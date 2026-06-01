@@ -8,6 +8,7 @@ const columns = computed(() => [
     links: [
       { text: t("footer.blog"), href: localePath("/blog") },
       { text: t("footer.globalLanguageAccess"), href: localePath("/blog/global-language-access-compliance") },
+      { text: t("footer.brandAssets"), href: localePath("/brand-assets") },
       { text: t("footer.serviceStatus"), href: "https://intermind.checkly-dashboards.com/", external: true },
     ],
   },
@@ -15,6 +16,7 @@ const columns = computed(() => [
     title: t("footer.companyTitle"),
     links: [
       { text: t("footer.about"), href: localePath("/about") },
+      { text: t("footer.team"), href: localePath("/team") },
       { text: t("footer.careers"), href: localePath("/careers") },
       { text: t("footer.contacts"), href: localePath("/contacts") },
     ],

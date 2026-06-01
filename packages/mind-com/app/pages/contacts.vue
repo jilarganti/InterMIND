@@ -7,7 +7,7 @@ const siteUrl = config.public.siteUrl
 useHead({
   title: () => t("contacts.metaTitle"),
   meta: [{ name: "description", content: () => t("contacts.metaDescription") }],
-  link: [{ rel: "canonical", href: `${siteUrl}/contacts` }],
+  link: [{ rel: "canonical", href: `${siteUrl}${localePath("/contacts")}` }],
 })
 
 const services = computed(() => [

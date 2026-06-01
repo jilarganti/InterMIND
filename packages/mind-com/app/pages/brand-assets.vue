@@ -1,12 +1,13 @@
 <script setup lang="ts">
 const { t } = useI18n({ useScope: "global" })
+const localePath = useLocalePath()
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 
 useHead({
   title: () => t("brandAssets.metaTitle"),
   meta: [{ name: "description", content: () => t("brandAssets.metaDescription") }],
-  link: [{ rel: "canonical", href: `${siteUrl}/brand-assets` }],
+  link: [{ rel: "canonical", href: `${siteUrl}${localePath("/brand-assets")}` }],
 })
 
 const interpretationImages = computed(() => [

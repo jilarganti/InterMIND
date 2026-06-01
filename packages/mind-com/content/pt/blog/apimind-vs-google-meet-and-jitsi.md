@@ -98,13 +98,6 @@ Estamos trabalhando ativamente em:
 2. **Recuperação Dinâmica da Qualidade** — Restauração mais rápida para a qualidade ideal quando as condições da rede melhoram
 3. **Otimização da Latência** — Redução dos atrasos de linha de base, mantendo a estabilidade
 
-## Experimente a Diferença Você Mesmo
-
-Dados contam uma história, mas sua própria experiência escreve o capítulo final:
-
-- [Baixe o relatório completo do teste - 2024](/Presentation-TDL-2024.pdf) (90 páginas de métricas detalhadas)
-- [Baixe o relatório completo do teste - 2023](/Presentation-TDL-2023.pdf) (85 páginas de métricas detalhadas)
-
 ## Conclusão
 
 O benchmark independente fornece insights valiosos sobre o desempenho no mundo real. O apiMind demonstra **forte desempenho em condições desafiadoras de tempo de rede** e tratamento competitivo de perda de pacotes, enquanto continuamos a aprimorar a adaptação da largura de banda e os mecanismos de recuperação.

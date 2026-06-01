@@ -98,13 +98,6 @@ We're actively working on:
 2. **Dynamic Quality Recovery** — Faster restoration to optimal quality when network conditions improve
 3. **Latency Optimization** — Reducing baseline delays while maintaining stability
 
-## Experience the Difference Yourself
-
-Data tells a story, but your own experience writes the final chapter:
-
-- [Download the full test report - 2024](/Presentation-TDL-2024.pdf) (90 pages of detailed metrics)
-- [Download the full test report - 2023](/Presentation-TDL-2023.pdf) (85 pages of detailed metrics)
-
 ## Conclusion
 
 The independent benchmark provides valuable insights into real-world performance. apiMind shows **strong performance in challenging network timing conditions** and competitive packet loss handling, while we continue improving bandwidth adaptation and recovery mechanisms.

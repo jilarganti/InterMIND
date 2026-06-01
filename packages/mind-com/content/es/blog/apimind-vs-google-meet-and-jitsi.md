@@ -98,13 +98,6 @@ Estamos trabajando activamente en:
 2.  **Recuperación Dinámica de la Calidad** — Restauración más rápida a la calidad óptima cuando las condiciones de la red mejoran
 3.  **Optimización de la Latencia** — Reducción de los retrasos de referencia manteniendo la estabilidad
 
-## Experimenta la Diferencia Tú Mismo
-
-Los datos cuentan una historia, pero tu propia experiencia escribe el capítulo final:
-
--   [Descargar el informe completo de la prueba - 2024](/Presentation-TDL-2024.pdf) (90 páginas de métricas detalladas)
--   [Descargar el informe completo de la prueba - 2023](/Presentation-TDL-2023.pdf) (85 páginas de métricas detalladas)
-
 ## Conclusión
 
 El análisis comparativo independiente proporciona información valiosa sobre el rendimiento en el mundo real. apiMind muestra un **sólido rendimiento en condiciones de sincronización de red desafiantes** y un manejo competitivo de la pérdida de paquetes, mientras continuamos mejorando la adaptación al ancho de banda y los mecanismos de recuperación.

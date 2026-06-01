@@ -7,7 +7,7 @@ const siteUrl = config.public.siteUrl
 useHead({
   title: () => t("team.metaTitle"),
   meta: [{ name: "description", content: () => t("team.metaDescription") }],
-  link: [{ rel: "canonical", href: `${siteUrl}/team` }],
+  link: [{ rel: "canonical", href: `${siteUrl}${localePath("/team")}` }],
 })
 
 const humans = computed(() => [

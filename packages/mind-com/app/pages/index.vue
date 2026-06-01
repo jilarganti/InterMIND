@@ -56,7 +56,7 @@ useHead({
     { name: "twitter:description", content: () => metaDescription.value },
     { name: "twitter:image", content: ogImage },
   ],
-  link: [{ rel: "canonical", href: `${siteUrl}/` }],
+  link: [{ rel: "canonical", href: `${siteUrl}${localePath("/")}` }],
   script: [
     { type: "application/ld+json", innerHTML: () => JSON.stringify(organizationJsonLd.value) },
     { type: "application/ld+json", innerHTML: () => JSON.stringify(websiteJsonLd.value) },

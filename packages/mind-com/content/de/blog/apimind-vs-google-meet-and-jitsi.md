@@ -98,13 +98,6 @@ Wir arbeiten aktiv an:
 2. **Dynamische Qualitätswiederherstellung** — Schnellere Wiederherstellung der optimalen Qualität, wenn sich die Netzwerkbedingungen verbessern
 3. **Latenzoptimierung** — Reduzierung der Basisverzögerungen bei gleichzeitiger Aufrechterhaltung der Stabilität
 
-## Erleben Sie den Unterschied selbst
-
-Daten erzählen eine Geschichte, aber Ihre eigene Erfahrung schreibt das letzte Kapitel:
-
-- [Laden Sie den vollständigen Testbericht - 2024 herunter](/Presentation-TDL-2024.pdf) (90 Seiten detaillierte Metriken)
-- [Laden Sie den vollständigen Testbericht - 2023 herunter](/Presentation-TDL-2023.pdf) (85 Seiten detaillierte Metriken)
-
 ## Fazit
 
 Der unabhängige Benchmark liefert wertvolle Einblicke in die Leistung in der Praxis. apiMind zeigt eine **starke Leistung unter schwierigen Netzwerk-Timing-Bedingungen** und eine wettbewerbsfähige Paketverlustbehandlung, während wir die Bandbreitenanpassung und Wiederherstellungsmechanismen weiter verbessern.

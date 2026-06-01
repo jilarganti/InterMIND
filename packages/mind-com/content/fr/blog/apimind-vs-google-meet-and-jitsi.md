@@ -98,13 +98,6 @@ Nous travaillons activement sur :
 2. **Récupération Dynamique de la Qualité** — Rétablissement plus rapide à une qualité optimale lorsque les conditions réseau s'améliorent
 3. **Optimisation de la Latence** — Réduction des délais de base tout en maintenant la stabilité
 
-## Découvrez la Différence par Vous-même
-
-Les données racontent une histoire, mais votre propre expérience écrit le chapitre final :
-
-- [Télécharger le rapport de test complet - 2024](/Presentation-TDL-2024.pdf) (90 pages de métriques détaillées)
-- [Télécharger le rapport de test complet - 2023](/Presentation-TDL-2023.pdf) (85 pages de métriques détaillées)
-
 ## Conclusion
 
 L'analyse comparative indépendante fournit des informations précieuses sur les performances réelles. apiMind démontre des **performances solides dans des conditions de timing réseau difficiles** et une gestion compétitive de la perte de paquets, tandis que nous continuons d'améliorer les mécanismes d'adaptation de la bande passante et de récupération.
