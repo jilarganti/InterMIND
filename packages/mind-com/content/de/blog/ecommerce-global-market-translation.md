@@ -3,7 +3,7 @@ title: "Echtzeit-Übersetzung für den E-Commerce: Wie man den globalen Markt er
 description: "Umfassender Leitfaden zur Nutzung von Echtzeit-KI-Übersetzung für die internationale E-Commerce-Expansion. Marktstatistiken, ROI und Best Practices."
 date: "2026-01-28"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-image: "/blog/ecommerce-localization-roi-infographic.png"
+image: "/blog/ecommerce-localization-roi-infographic.webp"
 ---
 
 # Echtzeit-Übersetzung für den E-Commerce: Wie man den globalen Markt erschließt
@@ -13,7 +13,7 @@ image: "/blog/ecommerce-localization-roi-infographic.png"
 > **Wichtige Erkenntnisse:**  
 > Der grenzüberschreitende E-Commerce-Markt wird von 551 Milliarden US-Dollar im Jahr 2025 auf 2 Billionen US-Dollar im Jahr 2034 wachsen. Gleichzeitig bevorzugen 76 % der Käufer Produkte mit Informationen in ihrer Muttersprache, und 40 % werden niemals auf einer Website in einer anderen Sprache kaufen. Unternehmen mit mehrsprachigen Websites verzeichnen Umsatzsteigerungen von 25 % bis 70 %, und jeder in Lokalisierung investierte Dollar bringt 25 Dollar zurück.
 
-![Infografik zum ROI der E-Commerce-Lokalisierung, die eine 76%ige Präferenz für die Muttersprache und eine Umsatzsteigerung von 25-70% zeigt](/blog/ecommerce-localization-roi-infographic.png)
+![Infografik zum ROI der E-Commerce-Lokalisierung, die eine 76%ige Präferenz für die Muttersprache und eine Umsatzsteigerung von 25-70% zeigt](/blog/ecommerce-localization-roi-infographic.webp)
 
 ## Größe der Chance: Der globale grenzüberschreitende E-Commerce-Markt
 

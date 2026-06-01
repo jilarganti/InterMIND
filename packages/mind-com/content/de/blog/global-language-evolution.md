@@ -3,7 +3,7 @@ title: "Die globale Sprache: Von Latein zu Künstlicher Intelligenz"
 description: "Die vollständige Geschichte und Entwicklung der Lingua Franca im Laufe der Menschheitsgeschichte. Wie KI-Übersetzungstechnologie das Konzept einer „Weltsprache“ im Jahr 2025 und darüber hinaus grundlegend verändern könnte."
 date: "2025-12-28"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-image: "/blog/lingua-franca-history-ai-translation-timeline.png"
+image: "/blog/lingua-franca-history-ai-translation-timeline.webp"
 ---
 
 # Die globale Sprache: Von Latein zu Künstlicher Intelligenz
@@ -13,7 +13,7 @@ image: "/blog/lingua-franca-history-ai-translation-timeline.png"
 > **Zusammenfassung für Führungskräfte:**  
 > Seit Jahrtausenden suchen Menschen nach Wegen, Sprachbarrieren zu überwinden. Heute stehen wir am Vorabend einer Revolution: KI-Übersetzungstechnologien versprechen, die Institution einer globalen Sprache obsolet zu machen. Englisch dominiert derzeit mit 1,5 Milliarden Sprechern (nur 25 % Muttersprachler), 85 % der internationalen Organisationen und 52 % der Webinhalte. Der Markt für maschinelle Übersetzungen wird voraussichtlich bis 2032 23,5 Milliarden US-Dollar erreichen, mit einem jährlichen Wachstum von 12-25 %. Dieser Artikel verfolgt die Entwicklung globaler Sprachen von Aramäisch bis Englisch – und untersucht, was als Nächstes kommt.
 
-![Zeitleiste der Geschichte globaler Sprachen vom antiken Aramäisch bis zur modernen KI-Übersetzungstechnologie](/blog/lingua-franca-history-ai-translation-timeline.png)
+![Zeitleiste der Geschichte globaler Sprachen vom antiken Aramäisch bis zur modernen KI-Übersetzungstechnologie](/blog/lingua-franca-history-ai-translation-timeline.webp)
 
 ## Die Entwicklung globaler Sprachen: Ein historischer Überblick
 

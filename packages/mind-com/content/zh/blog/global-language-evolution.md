@@ -3,7 +3,7 @@ title: "全球语言：从拉丁语到人工智能"
 description: "人类通用语的完整历史和演变。人工智能翻译技术如何在2025年及以后从根本上改变“世界语言”的概念。"
 date: "2025-12-28"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-image: "/blog/lingua-franca-history-ai-translation-timeline.png"
+image: "/blog/lingua-franca-history-ai-translation-timeline.webp"
 ---
 
 # 全球语言：从拉丁语到人工智能
@@ -13,7 +13,7 @@ image: "/blog/lingua-franca-history-ai-translation-timeline.png"
 > **执行摘要：**
 > 数千年来，人类一直在寻求克服语言障碍的方法。如今，我们正站在一场革命的边缘：人工智能翻译技术有望使全球语言的制度变得过时。英语目前占据主导地位，拥有15亿使用者（其中只有25%是母语使用者），85%的国际组织使用英语，52%的网络内容使用英语。与此同时，机器翻译市场预计到2032年将达到235亿美元，年增长率达到12-25%。本文追溯了全球语言从阿拉姆语到英语的演变历程 — 并探讨了接下来会发生什么。
 
-![从古老的阿拉姆语到现代AI翻译技术的全球语言时间线](/blog/lingua-franca-history-ai-translation-timeline.png)
+![从古老的阿拉姆语到现代AI翻译技术的全球语言时间线](/blog/lingua-franca-history-ai-translation-timeline.webp)
 
 ## 全球语言的演变：历史概述
 

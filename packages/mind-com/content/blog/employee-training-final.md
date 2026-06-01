@@ -3,7 +3,7 @@ title: "How to Enhance Employee Training with Real-Time AI Interpretation in 202
 description: "Complete guide to implementing real-time AI interpretation for corporate training. Statistics, ROI, and best practices for multilingual teams."
 date: "2025-11-27"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-image: "/blog/ai-interpretation-roi-infographic.png"
+image: "/blog/ai-interpretation-roi-infographic.webp"
 ---
 
 # How to Enhance Employee Training with Real-Time AI Interpretation in 2025
@@ -13,7 +13,7 @@ image: "/blog/ai-interpretation-roi-infographic.png"
 > **Executive Summary:**  
 > As globalization accelerates, companies face the challenge of training employees who speak different languages. Traditional approaches using human interpreters cost $500-1,500 per session, while AI interpretation reduces costs by 85-90% with up to 97% accuracy. Companies with comprehensive training programs generate 218% more income per employee, and 94% of workers are willing to stay with companies that invest in their development.
 
-![AI interpretation ROI infographic showing cost savings of 85-90% and 97% translation accuracy](/blog/ai-interpretation-roi-infographic.png)
+![AI interpretation ROI infographic showing cost savings of 85-90% and 97% translation accuracy](/blog/ai-interpretation-roi-infographic.webp)
 
 ## Global Corporate Training Market: Key Trends 2025
 

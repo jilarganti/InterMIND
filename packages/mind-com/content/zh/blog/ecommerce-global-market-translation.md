@@ -3,7 +3,7 @@ title: "实时翻译助力电子商务：如何进军全球市场"
 description: "使用实时AI翻译拓展国际电子商务的完整指南。市场统计、投资回报率和最佳实践。"
 date: "2026-01-28"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-image: "/blog/ecommerce-localization-roi-infographic.png"
+image: "/blog/ecommerce-localization-roi-infographic.webp"
 ---
 
 # 实时翻译助力电子商务：如何进军全球市场
@@ -13,7 +13,7 @@ image: "/blog/ecommerce-localization-roi-infographic.png"
 > **核心要点：**  
 > 跨境电子商务市场将从2025年的5510亿美元增长到2034年的2万亿美元。同时，76%的消费者更喜欢以母语获取产品信息，40%的消费者绝不会从非母语网站购买商品。拥有多语言网站的公司销售额增长25%至70%，本地化每投入1美元可获得25美元的回报。
 
-![电子商务本地化投资回报率信息图，显示76%的消费者偏好母语，销售额增长25-70%](/blog/ecommerce-localization-roi-infographic.png)
+![电子商务本地化投资回报率信息图，显示76%的消费者偏好母语，销售额增长25-70%](/blog/ecommerce-localization-roi-infographic.webp)
 
 ## 市场机遇：全球跨境电子商务市场
 

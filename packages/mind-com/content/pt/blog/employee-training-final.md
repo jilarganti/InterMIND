@@ -3,7 +3,7 @@ title: "Como Aprimorar o Treinamento de Funcionários com Interpretação de IA 
 description: "Guia completo para implementar a interpretação de IA em tempo real para treinamento corporativo. Estatísticas, ROI e melhores práticas para equipes multilíngues."
 date: "2025-11-27"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-image: "/blog/ai-interpretation-roi-infographic.png"
+image: "/blog/ai-interpretation-roi-infographic.webp"
 ---
 
 # Como Aprimorar o Treinamento de Funcionários com Interpretação de IA em Tempo Real em 2025
@@ -13,7 +13,7 @@ image: "/blog/ai-interpretation-roi-infographic.png"
 > **Resumo Executivo:**
 > Com a aceleração da globalização, as empresas enfrentam o desafio de treinar funcionários que falam diferentes idiomas. Abordagens tradicionais usando intérpretes humanos custam $500-1.500 por sessão, enquanto a interpretação de IA reduz os custos em 85-90% com até 97% de precisão. Empresas com programas de treinamento abrangentes geram 218% mais receita por funcionário, e 94% dos trabalhadores estão dispostos a permanecer em empresas que investem em seu desenvolvimento.
 
-![Infográfico de ROI da interpretação de IA mostrando economia de custos de 85-90% e precisão de tradução de 97%](/blog/ai-interpretation-roi-infographic.png)
+![Infográfico de ROI da interpretação de IA mostrando economia de custos de 85-90% e precisão de tradução de 97%](/blog/ai-interpretation-roi-infographic.webp)
 
 ## Mercado Global de Treinamento Corporativo: Principais Tendências 2025
 

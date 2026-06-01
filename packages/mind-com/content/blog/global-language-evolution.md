@@ -3,7 +3,7 @@ title: "The Global Language: From Latin to Artificial Intelligence"
 description: "Complete history and evolution of lingua franca throughout human history. How AI translation technology may fundamentally change the concept of a 'world language' in 2025 and beyond."
 date: "2025-12-28"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-image: "/blog/lingua-franca-history-ai-translation-timeline.png"
+image: "/blog/lingua-franca-history-ai-translation-timeline.webp"
 ---
 
 # The Global Language: From Latin to Artificial Intelligence
@@ -13,7 +13,7 @@ image: "/blog/lingua-franca-history-ai-translation-timeline.png"
 > **Executive Summary:**  
 > For millennia, humans have sought ways to overcome language barriers. Today, we stand on the brink of a revolution: AI translation technologies promise to make the institution of a global language obsolete. English currently dominates with 1.5 billion speakers (only 25% native), 85% of international organizations, and 52% of web content. Meanwhile, the machine translation market is projected to reach $23.5 billion by 2032, growing at 12-25% annually. This article traces the evolution of global languages from Aramaic to English — and explores what comes next.
 
-![History of global languages timeline from ancient Aramaic to modern AI translation technology](/blog/lingua-franca-history-ai-translation-timeline.png)
+![History of global languages timeline from ancient Aramaic to modern AI translation technology](/blog/lingua-franca-history-ai-translation-timeline.webp)
 
 ## The Evolution of Global Languages: A Historical Overview
 

@@ -3,7 +3,7 @@ title: "Estudio de Precisión y Análisis de Mercado de la Traducción con IA 20
 description: "Investigación exhaustiva sobre el rendimiento de la traducción con inteligencia artificial, las tasas de adopción y el panorama competitivo en los mercados globales."
 date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
-image: "/blog/ai-translation-efficiency-infographic.png"
+image: "/blog/ai-translation-efficiency-infographic.webp"
 ---
 
 # Estudio de Precisión y Análisis de Mercado de la Traducción con IA 2025

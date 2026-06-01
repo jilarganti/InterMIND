@@ -3,7 +3,7 @@ title: "Точность ИИ-перевода и исследование ры�
 description: "Комплексное исследование производительности перевода с помощью искусственного интеллекта, темпов внедрения и конкурентной среды на мировых рынках."
 date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
-image: "/blog/ai-translation-efficiency-infographic.png"
+image: "/blog/ai-translation-efficiency-infographic.webp"
 ---
 
 # Точность ИИ-перевода и исследование рынка 2025

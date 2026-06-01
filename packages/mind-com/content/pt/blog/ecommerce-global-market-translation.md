@@ -3,7 +3,7 @@ title: "Tradução em Tempo Real para E-Commerce: Como Entrar no Mercado Global"
 description: "Guia completo para usar a tradução por IA em tempo real para expansão internacional de e-commerce. Estatísticas de mercado, ROI e melhores práticas."
 date: "2026-01-28"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-image: "/blog/ecommerce-localization-roi-infographic.png"
+image: "/blog/ecommerce-localization-roi-infographic.webp"
 ---
 
 # Tradução em Tempo Real para E-Commerce: Como Entrar no Mercado Global
@@ -13,7 +13,7 @@ image: "/blog/ecommerce-localization-roi-infographic.png"
 > **Principais Conclusões:**  
 > O mercado de e-commerce transfronteiriço crescerá de US$ 551 bilhões em 2025 para US$ 2 trilhões até 2034. Enquanto isso, 76% dos compradores preferem produtos com informações em seu idioma nativo, e 40% nunca comprarão de um site em outro idioma. Empresas com sites multilíngues veem aumentos de vendas de 25% a 70%, e cada US$ 1 investido em localização retorna US$ 25.
 
-![Infográfico de ROI de localização em e-commerce mostrando 76% de preferência por idioma nativo e aumento de 25-70% nas vendas](/blog/ecommerce-localization-roi-infographic.png)
+![Infográfico de ROI de localização em e-commerce mostrando 76% de preferência por idioma nativo e aumento de 25-70% nas vendas](/blog/ecommerce-localization-roi-infographic.webp)
 
 ## Escala da Oportunidade: O Mercado Global de E-Commerce Transfronteiriço
 

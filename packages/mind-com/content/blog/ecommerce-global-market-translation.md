@@ -3,7 +3,7 @@ title: "Real-Time Translation for E-Commerce: How to Enter the Global Market"
 description: "Complete guide to using real-time AI translation for international e-commerce expansion. Market statistics, ROI, and best practices."
 date: "2026-01-28"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-image: "/blog/ecommerce-localization-roi-infographic.png"
+image: "/blog/ecommerce-localization-roi-infographic.webp"
 ---
 
 # Real-Time Translation for E-Commerce: How to Enter the Global Market
@@ -13,7 +13,7 @@ image: "/blog/ecommerce-localization-roi-infographic.png"
 > **Key Takeaways:**  
 > The cross-border e-commerce market will grow from $551 billion in 2025 to $2 trillion by 2034. Meanwhile, 76% of shoppers prefer products with information in their native language, and 40% will never buy from a website in another language. Companies with multilingual websites see sales increases of 25% to 70%, and every $1 invested in localization returns $25.
 
-![E-commerce localization ROI infographic showing 76% preference for native language and 25-70% sales increase](/blog/ecommerce-localization-roi-infographic.png)
+![E-commerce localization ROI infographic showing 76% preference for native language and 25-70% sales increase](/blog/ecommerce-localization-roi-infographic.webp)
 
 ## Scale of Opportunity: The Global Cross-Border E-Commerce Market
 

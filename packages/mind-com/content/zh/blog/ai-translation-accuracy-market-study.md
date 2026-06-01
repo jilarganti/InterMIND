@@ -3,7 +3,7 @@ title: "AI 翻译准确性与市场分析研究 2025"
 description: "全面研究人工智能翻译的性能、采用率以及全球市场的竞争格局。"
 date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
-image: "/blog/ai-translation-efficiency-infographic.png"
+image: "/blog/ai-translation-efficiency-infographic.webp"
 ---
 
 # AI 翻译准确性与市场分析研究 2025

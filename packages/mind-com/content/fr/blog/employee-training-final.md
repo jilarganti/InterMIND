@@ -3,7 +3,7 @@ title: "Comment améliorer la formation des employés avec l'interprétation IA 
 description: "Guide complet pour la mise en œuvre de l'interprétation IA en temps réel pour la formation en entreprise. Statistiques, ROI et meilleures pratiques pour les équipes multilingues."
 date: "2025-11-27"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-image: "/blog/ai-interpretation-roi-infographic.png"
+image: "/blog/ai-interpretation-roi-infographic.webp"
 ---
 
 # Comment améliorer la formation des employés avec l'interprétation IA en temps réel en 2025
@@ -13,7 +13,7 @@ image: "/blog/ai-interpretation-roi-infographic.png"
 > **Résumé Exécutif :**  
 > Alors que la mondialisation s'accélère, les entreprises sont confrontées au défi de former des employés parlant différentes langues. Les approches traditionnelles utilisant des interprètes humains coûtent 500 à 1 500 $ par session, tandis que l'interprétation IA réduit les coûts de 85 à 90 % avec une précision allant jusqu'à 97 %. Les entreprises dotées de programmes de formation complets génèrent 218 % plus de revenus par employé, et 94 % des travailleurs sont prêts à rester dans les entreprises qui investissent dans leur développement.
 
-![Infographie sur le ROI de l'interprétation IA montrant des économies de coûts de 85-90% et une précision de traduction de 97%](/blog/ai-interpretation-roi-infographic.png)
+![Infographie sur le ROI de l'interprétation IA montrant des économies de coûts de 85-90% et une précision de traduction de 97%](/blog/ai-interpretation-roi-infographic.webp)
 
 ## Marché mondial de la formation en entreprise : Tendances clés 2025
 

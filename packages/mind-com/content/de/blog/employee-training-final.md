@@ -3,7 +3,7 @@ title: "Wie man Mitarbeiterschulungen mit Echtzeit-KI-Übersetzung im Jahr 2025 
 description: "Umfassender Leitfaden zur Implementierung von Echtzeit-KI-Übersetzung für Unternehmensschulungen. Statistiken, ROI und Best Practices für mehrsprachige Teams."
 date: "2025-11-27"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-image: "/blog/ai-interpretation-roi-infographic.png"
+image: "/blog/ai-interpretation-roi-infographic.webp"
 ---
 
 # Wie man Mitarbeiterschulungen mit Echtzeit-KI-Übersetzung im Jahr 2025 verbessert
@@ -13,7 +13,7 @@ image: "/blog/ai-interpretation-roi-infographic.png"
 > **Zusammenfassung:**  
 > Mit fortschreitender Globalisierung stehen Unternehmen vor der Herausforderung, Mitarbeiter auszubilden, die unterschiedliche Sprachen sprechen. Traditionelle Ansätze mit menschlichen Dolmetschern kosten 500-1.500 US-Dollar pro Sitzung, während die KI-Übersetzung die Kosten um 85-90 % senkt und eine Genauigkeit von bis zu 97 % erreicht. Unternehmen mit umfassenden Schulungsprogrammen erwirtschaften 218 % mehr Umsatz pro Mitarbeiter, und 94 % der Arbeitnehmer sind bereit, bei Unternehmen zu bleiben, die in ihre Entwicklung investieren.
 
-![Infografik zum ROI der KI-Übersetzung, die Kosteneinsparungen von 85-90 % und eine Übersetzungsgenauigkeit von 97 % zeigt](/blog/ai-interpretation-roi-infographic.png)
+![Infografik zum ROI der KI-Übersetzung, die Kosteneinsparungen von 85-90 % und eine Übersetzungsgenauigkeit von 97 % zeigt](/blog/ai-interpretation-roi-infographic.webp)
 
 ## Globaler Markt für Unternehmensschulungen: Schlüsselentwicklungen 2025
 

@@ -3,7 +3,7 @@ title: "Précision de la traduction par IA et étude de marché 2025"
 description: "Recherche complète sur les performances, les taux d'adoption et le paysage concurrentiel de la traduction par intelligence artificielle sur les marchés mondiaux."
 date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
-image: "/blog/ai-translation-efficiency-infographic.png"
+image: "/blog/ai-translation-efficiency-infographic.webp"
 ---
 
 # Précision de la traduction par IA et étude de marché 2025

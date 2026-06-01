@@ -3,7 +3,7 @@ title: "2025 年如何通过实时 AI 翻译增强员工培训"
 description: "企业培训中实施实时 AI 翻译的完整指南。包含多语言团队的统计数据、投资回报率和最佳实践。"
 date: "2025-11-27"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-image: "/blog/ai-interpretation-roi-infographic.png"
+image: "/blog/ai-interpretation-roi-infographic.webp"
 ---
 
 # 2025 年如何通过实时 AI 翻译增强员工培训
@@ -13,7 +13,7 @@ image: "/blog/ai-interpretation-roi-infographic.png"
 > **执行摘要：**  
 > 随着全球化进程的加速，企业面临着培训使用不同语言的员工的挑战。传统的真人翻译方法每场次成本为 500-1,500 美元，而 AI 翻译可将成本降低 85-90%，准确率高达 97%。拥有全面培训计划的公司每名员工可创造多 218% 的收入，并且 94% 的员工愿意留在投资其发展的公司。
 
-![AI 翻译投资回报率信息图，显示节省 85-90% 的成本和 97% 的翻译准确率](/blog/ai-interpretation-roi-infographic.png)
+![AI 翻译投资回报率信息图，显示节省 85-90% 的成本和 97% 的翻译准确率](/blog/ai-interpretation-roi-infographic.webp)
 
 ## 全球企业培训市场：2025 年主要趋势
 

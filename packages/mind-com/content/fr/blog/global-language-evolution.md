@@ -3,7 +3,7 @@ title: "Le Langage Mondial : Du Latin à l'Intelligence Artificielle"
 description: "Historique complet et évolution de la lingua franca à travers l'histoire humaine. Comment la technologie de traduction IA pourrait changer fondamentalement le concept de 'langue mondiale' en 2025 et au-delà."
 date: "2025-12-28"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-image: "/blog/lingua-franca-history-ai-translation-timeline.png"
+image: "/blog/lingua-franca-history-ai-translation-timeline.webp"
 ---
 
 # Le Langage Mondial : Du Latin à l'Intelligence Artificielle
@@ -13,7 +13,7 @@ image: "/blog/lingua-franca-history-ai-translation-timeline.png"
 > **Résumé Exécutif :**
 > Depuis des millénaires, les humains cherchent des moyens de surmonter les barrières linguistiques. Aujourd'hui, nous sommes au seuil d'une révolution : les technologies de traduction par IA promettent de rendre obsolète l'institution d'une langue mondiale. L'anglais domine actuellement avec 1,5 milliard de locuteurs (seulement 25% natifs), 85% des organisations internationales et 52% du contenu web. Parallèlement, le marché de la traduction automatique devrait atteindre 23,5 milliards de dollars d'ici 2032, avec une croissance annuelle de 12 à 25%. Cet article retrace l'évolution des langues mondiales de l'araméen à l'anglais — et explore ce qui nous attend.
 
-![Chronologie de l'histoire des langues mondiales, de l'araméen ancien à la technologie moderne de traduction par IA](/blog/lingua-franca-history-ai-translation-timeline.png)
+![Chronologie de l'histoire des langues mondiales, de l'araméen ancien à la technologie moderne de traduction par IA](/blog/lingua-franca-history-ai-translation-timeline.webp)
 
 ## L'Évolution des Langues Mondiales : Un Aperçu Historique
 

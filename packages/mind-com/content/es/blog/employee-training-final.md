@@ -3,7 +3,7 @@ title: "Cómo Mejorar la Capacitación de Empleados con Interpretación de IA en
 description: "Guía completa para implementar la interpretación de IA en tiempo real para la capacitación corporativa. Estadísticas, ROI y mejores prácticas para equipos multilingües."
 date: "2025-11-27"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-image: "/blog/ai-interpretation-roi-infographic.png"
+image: "/blog/ai-interpretation-roi-infographic.webp"
 ---
 
 # Cómo Mejorar la Capacitación de Empleados con Interpretación de IA en Tiempo Real en 2025
@@ -13,7 +13,7 @@ image: "/blog/ai-interpretation-roi-infographic.png"
 > **Resumen Ejecutivo:**  
 > A medida que la globalización se acelera, las empresas se enfrentan al desafío de capacitar a empleados que hablan diferentes idiomas. Los enfoques tradicionales que utilizan intérpretes humanos cuestan entre $500 y $1,500 por sesión, mientras que la interpretación de IA reduce los costos en un 85-90% con una precisión de hasta el 97%. Las empresas con programas de capacitación integrales generan un 218% más de ingresos por empleado, y el 94% de los trabajadores están dispuestos a permanecer en empresas que invierten en su desarrollo.
 
-![Infografía del ROI de la interpretación de IA que muestra ahorros de costos del 85-90% y una precisión de traducción del 97%](/blog/ai-interpretation-roi-infographic.png)
+![Infografía del ROI de la interpretación de IA que muestra ahorros de costos del 85-90% y una precisión de traducción del 97%](/blog/ai-interpretation-roi-infographic.webp)
 
 ## Mercado Global de Capacitación Corporativa: Tendencias Clave 2025
 

@@ -3,7 +3,7 @@ title: "KI-Übersetzungsgenauigkeit & Marktanalysestudie 2025"
 description: "Umfassende Forschung zur Leistung künstlicher Intelligenz bei Übersetzungen, Akzeptanzraten und Wettbewerbslandschaft auf globalen Märkten."
 date: "2025-10-20"
 author: "[Jilarganti](https://github.com/jilarganti)"
-image: "/blog/ai-translation-efficiency-infographic.png"
+image: "/blog/ai-translation-efficiency-infographic.webp"
 ---
 
 # KI-Übersetzungsgenauigkeit & Marktanalysestudie 2025

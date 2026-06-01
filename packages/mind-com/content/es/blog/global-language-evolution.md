@@ -3,7 +3,7 @@ title: "El Lenguaje Global: Del Latín a la Inteligencia Artificial"
 description: "Historia completa y evolución de la lengua franca a lo largo de la historia humana. Cómo la tecnología de traducción por IA puede cambiar fundamentalmente el concepto de 'lenguaje mundial' en 2025 y más allá."
 date: "2025-12-28"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
-image: "/blog/lingua-franca-history-ai-translation-timeline.png"
+image: "/blog/lingua-franca-history-ai-translation-timeline.webp"
 ---
 
 # El Lenguaje Global: Del Latín a la Inteligencia Artificial
@@ -13,7 +13,7 @@ image: "/blog/lingua-franca-history-ai-translation-timeline.png"
 > **Resumen Ejecutivo:**
 > Durante milenios, los humanos han buscado formas de superar las barreras del idioma. Hoy, nos encontramos al borde de una revolución: las tecnologías de traducción por IA prometen dejar obsoleta la institución de un lenguaje global. El inglés domina actualmente con 1.500 millones de hablantes (solo el 25% nativos), el 85% de las organizaciones internacionales y el 52% del contenido web. Mientras tanto, se proyecta que el mercado de la traducción automática alcance los 23.500 millones de dólares para 2032, creciendo entre un 12 y un 25% anualmente. Este artículo traza la evolución de los lenguajes globales desde el arameo hasta el inglés — y explora lo que vendrá después.
 
-![Cronología de la historia de los lenguajes globales desde el arameo antiguo hasta la moderna tecnología de traducción por IA](/blog/lingua-franca-history-ai-translation-timeline.png)
+![Cronología de la historia de los lenguajes globales desde el arameo antiguo hasta la moderna tecnología de traducción por IA](/blog/lingua-franca-history-ai-translation-timeline.webp)
 
 ## La Evolución de los Lenguajes Globales: Un Resumen Histórico
 
