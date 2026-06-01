@@ -59,6 +59,11 @@ useHead({
     { property: "og:url", content: pageUrl },
     { property: "og:title", content: doc.value.title },
     { property: "og:description", content: doc.value.description },
+    { property: "og:image", content: `${siteUrl}/og-cover.png` },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: doc.value.title },
+    { name: "twitter:description", content: doc.value.description },
+    { name: "twitter:image", content: `${siteUrl}/og-cover.png` },
   ],
   link: [{ rel: "canonical", href: pageUrl }],
 })

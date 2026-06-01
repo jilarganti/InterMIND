@@ -52,6 +52,9 @@ if (!post.value) {
 
 const pageUrl = `${siteUrl}${route.path}`
 const canonical = post.value.canonical ?? pageUrl
+// Absolute OG image: the post's own cover when set, else the site cover so the
+// card is never incomplete (Ahrefs "Open Graph tags incomplete").
+const ogImage = post.value.image ? `${siteUrl}${post.value.image}` : `${siteUrl}/og-cover.png`
 
 useHead({
   title: `${post.value.title} — Mind.com`,
@@ -61,9 +64,11 @@ useHead({
     { property: "og:url", content: pageUrl },
     { property: "og:title", content: post.value.title },
     { property: "og:description", content: post.value.description },
+    { property: "og:image", content: ogImage },
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:title", content: post.value.title },
     { name: "twitter:description", content: post.value.description },
+    { name: "twitter:image", content: ogImage },
     { property: "article:published_time", content: post.value.date },
   ],
   link: [{ rel: "canonical", href: canonical }],

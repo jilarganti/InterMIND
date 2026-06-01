@@ -2,14 +2,13 @@
 const { t } = useI18n({ useScope: "global" })
 const localePath = useLocalePath()
 const config = useRuntimeConfig()
-const siteUrl = config.public.siteUrl
 const productUrl = config.public.productUrl
 const productUrlBare = productUrl.replace(/^https?:\/\//, "")
 
-useHead({
+usePageSeo({
   title: () => t("about.metaTitle"),
-  meta: [{ name: "description", content: () => t("about.metaDescription") }],
-  link: [{ rel: "canonical", href: `${siteUrl}${localePath("/about")}` }],
+  description: () => t("about.metaDescription"),
+  path: "/about",
 })
 
 // Language-neutral facts; only the role line is localized.

@@ -54,12 +54,16 @@ useHead({
   meta: [
     { name: "description", content: () => metaDescription.value },
     { property: "og:type", content: "website" },
-    { property: "og:url", content: `${siteUrl}/blog` },
+    { property: "og:url", content: `${siteUrl}${localePath("/blog")}` },
     { property: "og:title", content: () => metaTitle.value },
     { property: "og:description", content: () => metaDescription.value },
+    { property: "og:image", content: `${siteUrl}/og-cover.png` },
+    { property: "og:image:width", content: "1200" },
+    { property: "og:image:height", content: "630" },
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:title", content: () => metaTitle.value },
     { name: "twitter:description", content: () => metaDescription.value },
+    { name: "twitter:image", content: `${siteUrl}/og-cover.png` },
   ],
   link: [{ rel: "canonical", href: `${siteUrl}${localePath("/blog")}` }],
 })

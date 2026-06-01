@@ -1,13 +1,10 @@
 <script setup lang="ts">
 const { t } = useI18n({ useScope: "global" })
-const localePath = useLocalePath()
-const config = useRuntimeConfig()
-const siteUrl = config.public.siteUrl
 
-useHead({
+usePageSeo({
   title: () => t("help.metaTitle"),
-  meta: [{ name: "description", content: () => t("help.metaDescription") }],
-  link: [{ rel: "canonical", href: `${siteUrl}${localePath("/help")}` }],
+  description: () => t("help.metaDescription"),
+  path: "/help",
 })
 
 const services = computed(() => [

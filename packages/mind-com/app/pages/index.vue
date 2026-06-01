@@ -44,7 +44,7 @@ useHead({
   meta: [
     { name: "description", content: () => metaDescription.value },
     { property: "og:type", content: "website" },
-    { property: "og:url", content: `${siteUrl}/` },
+    { property: "og:url", content: `${siteUrl}${localePath("/")}` },
     { property: "og:title", content: () => metaTitle.value },
     { property: "og:description", content: () => metaDescription.value },
     { property: "og:image", content: ogImage },

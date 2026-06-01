@@ -26,7 +26,7 @@ function cycleColorMode() {
     <header class="sticky top-0 z-50 bg-white/80 dark:bg-[#0a0b0d]/80 backdrop-blur border-b border-gray-200 dark:border-gray-800">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
         <NuxtLink :to="localePath('/')" class="inline-flex items-center gap-2 font-semibold text-gray-900 dark:text-white" :aria-label="t('nav.brandLabel')">
-          <img src="/logo.svg" alt="" class="w-7 h-7" width="28" height="28" />
+          <img src="/logo.svg" alt="Mind.com" class="w-7 h-7" width="28" height="28" />
           <span>Mind.com</span>
         </NuxtLink>
 
