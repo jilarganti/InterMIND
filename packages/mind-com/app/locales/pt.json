@@ -22,6 +22,7 @@
       "headlinePart3": "sem fronteiras",
       "productLine": "O produto vive em",
       "openProduct": "Nova versão",
+      "getStarted": "Começar",
       "letsTalk": "Vamos conversar",
       "entityEuRole": "Titular de PI na UE",
       "entityUaeRole": "Entidade operacional"
@@ -217,4 +218,5 @@
     "searchHeading": "Pesquise em todas as suas reuniões",
     "interpretationAlt": "Interpretação simultânea",
     "searchAlt": "Pesquise em todas as suas reuniões"
-  }}
+  }
+}

@@ -5,6 +5,10 @@ const productUrl = config.public.productUrl
 const signInUrl = config.public.signInUrl
 const localePath = useLocalePath()
 
+// "Sign in" points at the legacy product (inter.mind.com). Only surface it to the
+// returning cohort — new visitors should not be sent to the old version.
+const audience = useAudience()
+
 // Cycles: light → system → dark → light. Matches the product (intermind.com).
 const colorMode = useColorMode()
 const colorModeIcon = computed(() => {
@@ -41,7 +45,7 @@ function cycleColorMode() {
               <UButton icon="i-lucide-monitor" variant="ghost" color="neutral" size="md" disabled />
             </template>
           </ClientOnly>
-          <UButton :to="signInUrl" external variant="ghost" color="neutral" size="md">
+          <UButton v-if="audience === 'legacy'" :to="signInUrl" external variant="ghost" color="neutral" size="md">
             {{ t("nav.signIn") }}
           </UButton>
         </nav>

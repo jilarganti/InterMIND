@@ -22,6 +22,7 @@
       "headlinePart3": "без границ",
       "productLine": "Продукт живёт по адресу",
       "openProduct": "Новая версия",
+      "getStarted": "Начать",
       "letsTalk": "Поговорим",
       "entityEuRole": "Держатель IP в ЕС",
       "entityUaeRole": "Операционная структура"
@@ -217,4 +218,5 @@
     "searchHeading": "Поиск по всем вашим встречам",
     "interpretationAlt": "Синхронный перевод",
     "searchAlt": "Поиск по всем вашим встречам"
-  }}
+  }
+}

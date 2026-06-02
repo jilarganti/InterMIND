@@ -22,6 +22,7 @@
       "headlinePart3": "Kommunikation",
       "productLine": "Das Produkt finden Sie unter",
       "openProduct": "Neue Version",
+      "getStarted": "Loslegen",
       "letsTalk": "Lass uns reden",
       "entityEuRole": "EU-IP-Inhaber",
       "entityUaeRole": "Operative Einheit"
@@ -217,4 +218,5 @@
     "searchHeading": "Suche in all Ihren Meetings",
     "interpretationAlt": "Simultandolmetschen",
     "searchAlt": "Suche in all Ihren Meetings"
-  }}
+  }
+}

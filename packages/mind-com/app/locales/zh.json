@@ -22,6 +22,7 @@
       "headlinePart3": "沟通技术",
       "productLine": "产品访问地址",
       "openProduct": "新版本",
+      "getStarted": "开始使用",
       "letsTalk": "联系我们",
       "entityEuRole": "欧盟 IP 持有方",
       "entityUaeRole": "运营实体"
@@ -217,4 +218,5 @@
     "searchHeading": "搜索您的所有会议",
     "interpretationAlt": "同声传译",
     "searchAlt": "搜索您的所有会议"
-  }}
+  }
+}

@@ -22,6 +22,7 @@
       "headlinePart3": "sans frontières",
       "productLine": "Le produit vit sur",
       "openProduct": "Nouvelle version",
+      "getStarted": "Commencer",
       "letsTalk": "Parlons-en",
       "entityEuRole": "Détenteur d'IP dans l'UE",
       "entityUaeRole": "Entité opérationnelle"
@@ -217,4 +218,5 @@
     "searchHeading": "Rechercher dans toutes vos réunions",
     "interpretationAlt": "Interprétation simultanée",
     "searchAlt": "Rechercher dans toutes vos réunions"
-  }}
+  }
+}
