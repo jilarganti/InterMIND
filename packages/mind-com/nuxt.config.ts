@@ -119,6 +119,10 @@ export default defineNuxtConfig({
     // safe to ship in the client bundle. Override per-env via NUXT_PUBLIC_POSTHOG_KEY.
     publicKey: process.env.NUXT_PUBLIC_POSTHOG_KEY || "phc_ydw5Nf2ebr6c3iS76xjxzeaJoctMENyxTYVD48gSCPGV",
     host: "https://eu.i.posthog.com",
+    // First-party reverse proxy: routes capture through our own origin
+    // (api_host → `<origin>/ingest/ph`, handled by server/routes/ingest/ph/) so
+    // ad-blockers can't silently drop events. See posthog.com/docs/advanced/proxy/nuxt.
+    proxy: true,
     clientOptions: {
       // Nothing is captured until the consent plugin calls opt_in_capturing().
       opt_out_capturing_by_default: true,
