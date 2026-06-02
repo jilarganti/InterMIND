@@ -36,8 +36,8 @@
  * so a single read at plugin setup can win the race and see an unsettled
  * "unknown" state. And for non-EU visitors the banner never renders, so
  * `UC_UI_INITIALIZED` may never fire to trigger a re-read. We therefore poll
- * `getConsentDetails()` until it yields a definite decision (see `tick` below),
- * in addition to listening for the lifecycle events.
+ * `getConsentDetails()` on a resilient setInterval until we opt in (see the
+ * poll loop below), in addition to listening for the lifecycle events.
  *
  * Append `?ph_debug` to the URL to log what the CMP returned and the resulting
  * opt-in/out decision to the console.
@@ -57,13 +57,16 @@ type UcConsentDetails = { consent?: UcConsentData; services?: Record<string, UcS
 type ConsentDecision = "in" | "out" | "unknown"
 
 async function readConsentDecision(serviceId: string, debug: boolean): Promise<ConsentDecision> {
-  const getDetails = (window as unknown as { __ucCmp?: { getConsentDetails?: () => Promise<UcConsentDetails> } }).__ucCmp?.getConsentDetails
+  const cmp = (window as unknown as { __ucCmp?: { getConsentDetails?: () => Promise<UcConsentDetails> } }).__ucCmp
 
-  if (!getDetails) return "unknown" // CMP not loaded/ready yet — try again on the next event.
+  if (!cmp?.getConsentDetails) return "unknown" // CMP not loaded/ready yet — try again on the next event.
 
   let details: UcConsentDetails
   try {
-    details = await getDetails()
+    // MUST call as a method: getConsentDetails() reads `this` internally, so a
+    // detached `const f = cmp.getConsentDetails; f()` throws and we'd always
+    // fall through to "unknown" (this silently broke capture since launch).
+    details = await cmp.getConsentDetails()
   } catch {
     return "unknown"
   }
@@ -98,50 +101,49 @@ export default defineNuxtPlugin({
     const serviceId = (useRuntimeConfig().public.ucPosthogId as string) || ""
     const debug = /[?&]ph_debug\b/.test(window.location.search)
 
-    // Flips once the CMP has produced a definite in/out decision, which stops
-    // the polling loop below. Later consent *changes* still re-apply via the
-    // lifecycle events regardless of this flag.
-    let settled = false
+    // Set once we've opted in — stops the poll. We intentionally do NOT stop on
+    // "out": for a non-EU visitor the CMP first reports "unknown", then resolves
+    // to a grant a second or two later, and never fires a lifecycle event (no
+    // banner renders) — so we must keep re-checking until "in".
+    let optedIn = false
 
-    const apply = (decision: ConsentDecision) => {
-      if (decision === "in") {
-        if (!ph.has_opted_in_capturing()) {
-          ph.opt_in_capturing()
-          // The landing $pageview is suppressed while opted out and isn't
-          // replayed on opt-in, so capture it explicitly to keep first-touch
-          // (entry page / source) attribution. Subsequent loads opt in from
-          // the persisted flag and capture the pageview natively.
-          ph.capture("$pageview")
-        }
-        settled = true
-      } else if (decision === "out") {
-        ph.opt_out_capturing()
-        settled = true
+    const apply = async () => {
+      if (optedIn) return
+      let decision: ConsentDecision
+      try {
+        decision = await readConsentDecision(serviceId, debug)
+      } catch {
+        return // transient CMP error — the next tick retries
       }
-      // "unknown" — CMP not ready / still settling; leave PostHog as-is and retry.
+      if (decision === "in") {
+        optedIn = true
+        if (!ph.has_opted_in_capturing()) ph.opt_in_capturing()
+        // The landing $pageview is suppressed while opted out and isn't replayed
+        // on opt-in, so capture it explicitly to keep first-touch attribution.
+        // Subsequent loads opt in from the persisted flag and capture natively.
+        ph.capture("$pageview")
+      } else if (decision === "out") {
+        ph.opt_out_capturing() // stay opted out, but keep polling — may still resolve to "in"
+      }
+      // "unknown" — CMP still settling; keep polling.
     }
-
-    const sync = async () => apply(await readConsentDecision(serviceId, debug))
 
     // Manual escape hatch, e.g. to call from a custom Usercentrics callback.
-    ;(window as unknown as { __syncAnalyticsConsent?: () => void }).__syncAnalyticsConsent = () => void sync()
+    ;(window as unknown as { __syncAnalyticsConsent?: () => void }).__syncAnalyticsConsent = () => void apply()
 
     // Re-apply whenever the visitor accepts/denies/changes in the CMP UI (EU).
-    window.addEventListener("UC_UI_INITIALIZED", () => void sync())
-    window.addEventListener("UC_UI_CMP_EVENT", () => void sync())
+    window.addEventListener("UC_UI_INITIALIZED", () => void apply())
+    window.addEventListener("UC_UI_CMP_EVENT", () => void apply())
 
-    // The immediate read races the CMP's `onInitialPageLoad` consent
-    // computation, and for non-EU visitors the banner never renders so
-    // UC_UI_INITIALIZED may never fire — leaving the single early sync stuck on
-    // "unknown" forever. Poll getConsentDetails() until it yields a definite
-    // decision (or we give up), so opt-in still happens without any banner.
-    let attempts = 0
-    const MAX_ATTEMPTS = 40 // ~10s at 250ms
-    const tick = async () => {
-      await sync()
-      if (settled || ++attempts >= MAX_ATTEMPTS) return
-      window.setTimeout(() => void tick(), 250)
-    }
-    void tick()
+    // The CMP computes consent asynchronously (`onInitialPageLoad`) and, for
+    // non-EU visitors, never fires a lifecycle event — so we poll until opted
+    // in. Use setInterval (NOT a self-rescheduling setTimeout): one slow or
+    // rejected tick must not break the chain and strand the visitor opted out.
+    let ticks = 0
+    const timer = window.setInterval(() => {
+      void apply()
+      if (optedIn || ++ticks >= 120) window.clearInterval(timer) // 120 × 250ms ≈ 30s
+    }, 250)
+    void apply()
   },
 })
