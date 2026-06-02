@@ -28,8 +28,16 @@
  * case-insensitive "posthog" name match as a fallback.
  *
  * V3 API: `window.__ucCmp.getConsentDetails()` returns a Promise resolving to
- * `{ consent: { required: boolean, ... }, services: Record<serviceId, { name, consent?: { given: boolean } }> }`.
+ * `{ consent: { required: boolean, status, ... }, services: Record<serviceId, { name, consent?: { given: boolean } }> }`.
  * Lifecycle events: `UC_UI_INITIALIZED` (ready) and `UC_UI_CMP_EVENT` (change).
+ *
+ * ── TIMING ───────────────────────────────────────────────────────────────────
+ * The CMP computes consent asynchronously (`updatedBy: "onInitialPageLoad"`),
+ * so a single read at plugin setup can win the race and see an unsettled
+ * "unknown" state. And for non-EU visitors the banner never renders, so
+ * `UC_UI_INITIALIZED` may never fire to trigger a re-read. We therefore poll
+ * `getConsentDetails()` until it yields a definite decision (see `tick` below),
+ * in addition to listening for the lifecycle events.
  *
  * Append `?ph_debug` to the URL to log what the CMP returned and the resulting
  * opt-in/out decision to the console.
@@ -39,6 +47,7 @@ type PosthogClient = {
   opt_in_capturing: () => void
   opt_out_capturing: () => void
   has_opted_in_capturing: () => boolean
+  capture: (event: string, properties?: Record<string, unknown>) => void
 }
 
 type UcServiceData = { name?: string; consent?: { given?: boolean } }
@@ -89,22 +98,50 @@ export default defineNuxtPlugin({
     const serviceId = (useRuntimeConfig().public.ucPosthogId as string) || ""
     const debug = /[?&]ph_debug\b/.test(window.location.search)
 
-    const sync = async () => {
-      const decision = await readConsentDecision(serviceId, debug)
+    // Flips once the CMP has produced a definite in/out decision, which stops
+    // the polling loop below. Later consent *changes* still re-apply via the
+    // lifecycle events regardless of this flag.
+    let settled = false
+
+    const apply = (decision: ConsentDecision) => {
       if (decision === "in") {
-        if (!ph.has_opted_in_capturing()) ph.opt_in_capturing()
+        if (!ph.has_opted_in_capturing()) {
+          ph.opt_in_capturing()
+          // The landing $pageview is suppressed while opted out and isn't
+          // replayed on opt-in, so capture it explicitly to keep first-touch
+          // (entry page / source) attribution. Subsequent loads opt in from
+          // the persisted flag and capture the pageview natively.
+          ph.capture("$pageview")
+        }
+        settled = true
       } else if (decision === "out") {
         ph.opt_out_capturing()
+        settled = true
       }
-      // "unknown" — leave PostHog as-is (opted out by default).
+      // "unknown" — CMP not ready / still settling; leave PostHog as-is and retry.
     }
+
+    const sync = async () => apply(await readConsentDecision(serviceId, debug))
 
     // Manual escape hatch, e.g. to call from a custom Usercentrics callback.
     ;(window as unknown as { __syncAnalyticsConsent?: () => void }).__syncAnalyticsConsent = () => void sync()
 
-    // Run once now (CMP may already be up) and on the V3 lifecycle events.
-    void sync()
+    // Re-apply whenever the visitor accepts/denies/changes in the CMP UI (EU).
     window.addEventListener("UC_UI_INITIALIZED", () => void sync())
-    window.addEventListener("UC_UI_CMP_EVENT", () => void sync()) // accept / deny / change
+    window.addEventListener("UC_UI_CMP_EVENT", () => void sync())
+
+    // The immediate read races the CMP's `onInitialPageLoad` consent
+    // computation, and for non-EU visitors the banner never renders so
+    // UC_UI_INITIALIZED may never fire — leaving the single early sync stuck on
+    // "unknown" forever. Poll getConsentDetails() until it yields a definite
+    // decision (or we give up), so opt-in still happens without any banner.
+    let attempts = 0
+    const MAX_ATTEMPTS = 40 // ~10s at 250ms
+    const tick = async () => {
+      await sync()
+      if (settled || ++attempts >= MAX_ATTEMPTS) return
+      window.setTimeout(() => void tick(), 250)
+    }
+    void tick()
   },
 })
