@@ -53,8 +53,14 @@ if (!post.value) {
 const pageUrl = `${siteUrl}${route.path}`
 const canonical = post.value.canonical ?? pageUrl
 // Absolute OG image: the post's own cover when set, else the site cover so the
-// card is never incomplete (Ahrefs "Open Graph tags incomplete").
-const ogImage = post.value.image ? `${siteUrl}${post.value.image}` : `${siteUrl}/og-cover.png`
+// card is never incomplete (Ahrefs "Open Graph tags incomplete"). An already-
+// absolute cover (e.g. a cross-domain roundup hotlinking intermind.com) is used
+// as-is; only site-relative paths get the siteUrl prefix.
+const ogImage = post.value.image
+  ? /^https?:\/\//.test(post.value.image)
+    ? post.value.image
+    : `${siteUrl}${post.value.image}`
+  : `${siteUrl}/og-cover.png`
 
 useHead({
   title: `${post.value.title} — Mind.com`,
