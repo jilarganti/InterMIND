@@ -270,6 +270,22 @@ function validateTranslation(src: string, out: string): ValidationIssue | null {
 }
 
 // ── translation ──────────────────────────────────────────────────────
+// The monthly digest is the only mind-com content that links to intermind.com, and it
+// hardcodes English URLs (covers, post links, blog index) that the translator preserves
+// verbatim. Localize them to the target locale so each translated digest shows localized
+// covers and links. Two URL shapes on intermind.com:
+//   - covers are static assets:    /blog/<slug>.png  →  /blog/<locale>/<slug>.png
+//   - posts/index are i18n routes:  /blog[/<slug>]   →  /<locale>/blog[/<slug>]
+function localizeIntermindUrls(md: string, locale: Locale): string {
+  return md.replace(/https:\/\/intermind\.com\/blog(\/[^"'\s)]*)?/g, (_m, path?: string) => {
+    if (!path || path === "/") return `https://intermind.com/${locale}/blog`
+    const seg = path.slice(1)
+    return /\.(?:png|svg|jpe?g|webp)$/i.test(seg)
+      ? `https://intermind.com/blog/${locale}/${seg}`
+      : `https://intermind.com/${locale}/blog/${seg}`
+  })
+}
+
 async function translateFile(
   gw: ReturnType<typeof createGateway>,
   primary: string,
@@ -505,7 +521,7 @@ async function main(): Promise<void> {
     const src = srcCache.get(t.enAbs)!
     const label = `${t.locale}  ${t.enRel}`
     try {
-      const out = await translateFile(gw, primary, fallback, t.locale, src)
+      const out = localizeIntermindUrls(await translateFile(gw, primary, fallback, t.locale, src), t.locale)
       ensureDir(t.targetAbs)
       writeFileSync(t.targetAbs, out.endsWith("\n") ? out : out + "\n")
       done++
