@@ -35,8 +35,29 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          # Need full history so `git diff HEAD` / `git show HEAD:...` work in the scripts.
+          # Full history so the push-range diff (I18N_DIFF_BASE..HEAD) and `git show` resolve.
           fetch-depth: 0
+
+      # Resolve the diff base to the push range (github.event.before..HEAD) so a newly
+      # pushed post is detected. After a clean checkout `git diff HEAD` is empty, so the
+      # content script reads I18N_DIFF_BASE instead. Fall back to HEAD~1 when no usable
+      # "before" exists: workflow_dispatch (empty), branch creation (all-zeros), or a
+      # rewritten/absent commit.
+      - name: Resolve diff base
+        working-directory: .
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          set -euo pipefail
+          if [ -z "${BEFORE:-}" ] \
+            || [ "$BEFORE" = "0000000000000000000000000000000000000000" ] \
+            || ! git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
+            BASE="HEAD~1"
+          else
+            BASE="$BEFORE"
+          fi
+          echo "I18N_DIFF_BASE=$BASE" >> "$GITHUB_ENV"
+          echo "Resolved i18n diff base: $BASE"
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -73,10 +94,13 @@ jobs:
         id: diff
         working-directory: .
         run: |
-          if git diff --quiet packages/mind-com/content packages/mind-com/app/locales; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
+          # --porcelain (not `git diff`) so newly-added locale files for a brand-new post —
+          # which are untracked, not modifications — also count. `git diff` sees only tracked
+          # changes, so every new digest produced translations but opened no PR.
+          if [ -n "$(git status --porcelain -- packages/mind-com/content packages/mind-com/app/locales)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Open / update translation PR

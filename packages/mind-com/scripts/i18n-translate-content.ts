@@ -112,6 +112,14 @@ function loadEnv(): void {
 }
 
 // ── git helpers ──────────────────────────────────────────────────────
+// I18N_DIFF_BASE lets CI diff the push range (github.event.before, or HEAD~1) instead
+// of the working tree. After a clean CI checkout the working tree == HEAD, so a bare
+// `git diff HEAD` is empty and --from-en never sees a newly pushed post. Default HEAD
+// keeps local working-tree-vs-HEAD behavior.
+function diffBase(): string {
+  return process.env.I18N_DIFF_BASE || "HEAD"
+}
+
 function gitShow(repoRelPath: string): string | null {
   try {
     return execSync(`git show HEAD:${repoRelPath}`, { encoding: "utf-8", stdio: ["ignore", "pipe", "ignore"] })
@@ -133,10 +141,16 @@ function packageRelToRepoRel(rel: string): string {
 }
 
 function gitDiffNames(filter: string, sections: readonly Section[]): string[] {
-  // Returns paths relative to package root (ROOT).
-  const patterns = sections.map((s) => `'${packageRelToRepoRel(`content/${s}`)}/**/*.md'`).join(" ")
+  // Returns paths relative to package root (ROOT). Pathspec magic is required twice over:
+  // `top` makes the repo-root-relative path resolve even though the script runs from the
+  // package subdir (the workflow's working-directory); `glob` makes `**/*.md` match files
+  // directly under content/{blog,legal}/ — a bare `**/*.md` pathspec needs an intervening
+  // directory and silently skips these flat dirs.
+  const patterns = sections.map((s) => `':(top,glob)${packageRelToRepoRel(`content/${s}`)}/**/*.md'`).join(" ")
+  const base = diffBase()
+  const range = base === "HEAD" ? "HEAD" : `${base} HEAD`
   try {
-    const out = execSync(`git diff --name-only --diff-filter=${filter} HEAD -- ${patterns}`, {
+    const out = execSync(`git diff --name-only --diff-filter=${filter} ${range} -- ${patterns}`, {
       encoding: "utf-8",
       stdio: ["ignore", "pipe", "ignore"],
     })
