@@ -121,7 +121,9 @@
     "successHeading": "谢谢！",
     "successMessage": "我们已收到您的消息 — 我们的团队将很快与您联系。",
     "crmError": "CRM 错误",
-    "networkError": "网络或服务器错误"
+    "networkError": "网络或服务器错误",
+    "errorRequired": "此字段为必填项",
+    "errorEmail": "请输入有效的电子邮件地址"
   },
   "careers": {
     "metaTitle": "招聘 — Mind.com",

@@ -174,7 +174,9 @@
     "successHeading": "Thank you!",
     "successMessage": "We've received your message — our team will be in touch shortly.",
     "crmError": "CRM error",
-    "networkError": "Network or server error"
+    "networkError": "Network or server error",
+    "errorRequired": "This field is required",
+    "errorEmail": "Please enter a valid email address"
   },
   "about": {
     "metaTitle": "About — Mind.com",

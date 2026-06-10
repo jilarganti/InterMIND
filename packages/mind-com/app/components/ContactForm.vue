@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import type { FormError } from "@nuxt/ui"
+
 interface FormData {
   name: string
   email: string
@@ -19,6 +21,8 @@ const props = withDefaults(
     webSiteLabel?: string
     webSitePlaceholder?: string
     buttonText?: string
+    /** "card" wraps the form in a framed panel for inline page use; "plain" suits already-framed containers like modals. */
+    variant?: "card" | "plain"
   }>(),
   {
     categoryLabel: undefined,
@@ -28,15 +32,12 @@ const props = withDefaults(
     webSiteLabel: undefined,
     webSitePlaceholder: undefined,
     buttonText: undefined,
+    variant: "card",
   },
 )
 
-// Theme-aware Tailwind class groups, shared across fields (mirrors the home page's dark: pattern).
-const fieldGroupClass = "flex flex-col gap-4 p-6 rounded-xl border border-gray-200 bg-gray-50 dark:border-gray-700 dark:bg-gray-800/50"
-const fieldClass = "flex flex-col gap-1.5"
-const labelClass = "text-sm font-medium text-gray-600 dark:text-gray-400"
-const inputClass =
-  "px-3 py-2.5 rounded-lg border text-base bg-white border-gray-300 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:border-gray-900 dark:bg-gray-900 dark:border-gray-600 dark:text-gray-100 dark:placeholder:text-gray-500 dark:focus:border-gray-300"
+// Translated labels carry a trailing "*"; UFormField's `required` renders its own marker.
+const stripRequired = (label: string) => label.replace(/\s*\*\s*$/, "")
 
 const data = reactive<FormData>({ name: "", email: "", webSite: "", kind: "", message: "" })
 
@@ -46,8 +47,18 @@ watchEffect(() => {
   if (props.services.length === 1) data.kind = props.services[0]!
 })
 
+function validate(state: Partial<FormData>): FormError[] {
+  const errors: FormError[] = []
+  if (!state.name?.trim()) errors.push({ name: "name", message: t("contactForm.errorRequired") })
+  if (!state.email?.trim()) errors.push({ name: "email", message: t("contactForm.errorRequired") })
+  else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(state.email)) errors.push({ name: "email", message: t("contactForm.errorEmail") })
+  if (showCategory.value && !state.kind) errors.push({ name: "kind", message: t("contactForm.errorRequired") })
+  if (!state.message?.trim()) errors.push({ name: "message", message: t("contactForm.errorRequired") })
+  return errors
+}
+
 const isSubmitting = ref(false)
-const successMessage = ref("")
+const isSubmitted = ref(false)
 const errorMessage = ref("")
 
 // posthog-js instance (null in dev / SSR). capture() is a no-op while the
@@ -56,7 +67,6 @@ const { $clientPosthog } = useNuxtApp()
 
 async function handleSubmit() {
   isSubmitting.value = true
-  successMessage.value = ""
   errorMessage.value = ""
 
   try {
@@ -67,7 +77,7 @@ async function handleSubmit() {
     })
     const json = (await res.json()) as { success?: boolean; message?: string }
     if (res.ok && json.success) {
-      successMessage.value = t("contactForm.successMessage")
+      isSubmitted.value = true
       // Key landing-page conversion (replaces the old GTM dataLayer push).
       $clientPosthog?.capture("generate_lead", { kind: data.kind })
     } else {
@@ -83,57 +93,61 @@ async function handleSubmit() {
 </script>
 
 <template>
-  <div class="max-w-xl my-6">
-    <div v-if="successMessage" class="p-8 text-center rounded-xl border border-green-200 bg-green-50 dark:border-green-800 dark:bg-green-900/20">
-      <h3 class="mb-2 font-semibold text-green-700 dark:text-green-400">{{ t("contactForm.successHeading") }}</h3>
-      <p>{{ successMessage }}</p>
-    </div>
-    <form v-else :class="fieldGroupClass" @submit.prevent="handleSubmit">
-      <div :class="fieldClass">
-        <label for="cf-name" :class="labelClass">{{ t("contactForm.nameLabel") }}</label>
-        <input id="cf-name" v-model="data.name" type="text" :class="inputClass" :placeholder="t('contactForm.namePlaceholder')" required />
-      </div>
-      <div :class="fieldClass">
-        <label for="cf-email" :class="labelClass">{{ t("contactForm.emailLabel") }}</label>
-        <input id="cf-email" v-model="data.email" type="email" :class="inputClass" :placeholder="t('contactForm.emailPlaceholder')" required />
-      </div>
-      <div :class="fieldClass">
-        <label for="cf-site" :class="labelClass">{{ webSiteLabel ?? t("contactForm.webSiteLabel") }}</label>
-        <input
-          id="cf-site"
+  <div :class="variant === 'card' ? 'max-w-xl my-6' : undefined">
+    <UAlert
+      v-if="isSubmitted"
+      color="success"
+      variant="subtle"
+      icon="i-lucide-circle-check"
+      :title="t('contactForm.successHeading')"
+      :description="t('contactForm.successMessage')"
+    />
+    <UForm
+      v-else
+      :state="data"
+      :validate="validate"
+      :class="['flex flex-col gap-4', variant === 'card' && 'p-6 rounded-xl border border-default bg-elevated/50']"
+      @submit="handleSubmit"
+    >
+      <UFormField :label="stripRequired(t('contactForm.nameLabel'))" name="name" required>
+        <UInput v-model="data.name" size="lg" class="w-full" autocomplete="name" :placeholder="t('contactForm.namePlaceholder')" />
+      </UFormField>
+      <UFormField :label="stripRequired(t('contactForm.emailLabel'))" name="email" required>
+        <UInput v-model="data.email" type="email" size="lg" class="w-full" autocomplete="email" :placeholder="t('contactForm.emailPlaceholder')" />
+      </UFormField>
+      <UFormField :label="stripRequired(webSiteLabel ?? t('contactForm.webSiteLabel'))" name="webSite">
+        <UInput
           v-model="data.webSite"
-          type="url"
-          :class="inputClass"
-          :placeholder="webSitePlaceholder ?? t('contactForm.webSitePlaceholder')"
-          pattern="https?://.+"
+          size="lg"
+          class="w-full"
+          inputmode="url"
+          autocomplete="url"
           maxlength="100"
+          :placeholder="webSitePlaceholder ?? t('contactForm.webSitePlaceholder')"
         />
-      </div>
-      <div v-if="showCategory" :class="fieldClass">
-        <label for="cf-kind" :class="labelClass">{{ categoryLabel ?? t("contactForm.categoryLabel") }}</label>
-        <select id="cf-kind" v-model="data.kind" :class="inputClass" required>
-          <option value="" disabled>{{ categoryPlaceholder ?? t("contactForm.categoryPlaceholder") }}</option>
-          <option v-for="s in services" :key="s" :value="s">{{ s }}</option>
-        </select>
-      </div>
-      <div :class="fieldClass">
-        <label for="cf-msg" :class="labelClass">{{ messageLabel ?? t("contactForm.messageLabel") }}</label>
-        <textarea
-          id="cf-msg"
+      </UFormField>
+      <UFormField v-if="showCategory" :label="stripRequired(categoryLabel ?? t('contactForm.categoryLabel'))" name="kind" required>
+        <USelect v-model="data.kind" :items="services" size="lg" class="w-full" :placeholder="categoryPlaceholder ?? t('contactForm.categoryPlaceholder')" />
+      </UFormField>
+      <UFormField :label="stripRequired(messageLabel ?? t('contactForm.messageLabel'))" name="message" required>
+        <UTextarea
           v-model="data.message"
-          :class="[inputClass, 'resize-y']"
+          :rows="4"
+          autoresize
+          size="lg"
+          class="w-full"
           :placeholder="messagePlaceholder ?? t('contactForm.messagePlaceholder')"
-          rows="4"
         />
-      </div>
-      <p v-if="errorMessage" class="text-sm text-red-600 dark:text-red-400">{{ errorMessage }}</p>
-      <button
+      </UFormField>
+      <UAlert v-if="errorMessage" color="error" variant="subtle" icon="i-lucide-circle-alert" :description="errorMessage" />
+      <UButton
         type="submit"
-        class="px-5 py-3 rounded-full text-base font-medium transition-colors bg-gray-900 text-white hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200 disabled:opacity-60 disabled:cursor-not-allowed"
-        :disabled="isSubmitting"
-      >
-        {{ isSubmitting ? t("contactForm.sending") : (buttonText ?? t("contactForm.buttonText")) }}
-      </button>
-    </form>
+        color="neutral"
+        size="lg"
+        class="self-start"
+        :loading="isSubmitting"
+        :label="isSubmitting ? t('contactForm.sending') : (buttonText ?? t('contactForm.buttonText'))"
+      />
+    </UForm>
   </div>
 </template>

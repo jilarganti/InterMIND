@@ -39,6 +39,7 @@ const address = "City Avenue Building, Office 405-070, Port Saeed, Dubai, UAE"
         <UButton color="neutral" size="xl">{{ t("home.vcard.letsTalk") }}</UButton>
         <template #body>
           <ContactForm
+            variant="plain"
             :services="services"
             :category-label="t('contacts.categoryLabel')"
             :category-placeholder="t('contacts.categoryPlaceholder')"

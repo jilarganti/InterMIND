@@ -121,7 +121,9 @@
     "successHeading": "¡Gracias!",
     "successMessage": "Hemos recibido su mensaje — nuestro equipo se pondrá en contacto en breve.",
     "crmError": "Error de CRM",
-    "networkError": "Error de red o del servidor"
+    "networkError": "Error de red o del servidor",
+    "errorRequired": "Este campo es obligatorio",
+    "errorEmail": "Introduzca una dirección de correo electrónico válida"
   },
   "careers": {
     "metaTitle": "Empleo — Mind.com",
