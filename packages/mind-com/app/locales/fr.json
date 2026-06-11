@@ -43,8 +43,6 @@
     "aiLegalGuide": "Guide juridique IA",
     "serviceStatus": "État du système",
     "blog": "Blog",
-    "globalLanguageAccess": "Conformité à l'accès linguistique mondial",
-    "brandAssets": "Ressources de marque",
     "aiApiDocs": "Documentation API IA / LLM",
     "about": "À propos",
     "team": "Équipe",
@@ -197,26 +195,5 @@
       "apiAccess": "Je souhaite obtenir l'ID d'application et le jeton Mind.com API sans restrictions",
       "general": "Question générale ou feedback"
     }
-  },
-  "brandAssets": {
-    "metaTitle": "Ressources de marque — Mind.com",
-    "metaDescription": "Ressources marketing et lignes directrices d'identité InterMIND, incluant le logo, le contenu et les marques déposées.",
-    "h1": "Kit média",
-    "intro": "Une collection de ressources marketing et de lignes directrices d'identité InterMIND, incluant notre logo, notre contenu et nos marques déposées. Pour télécharger, faites un clic droit sur une image et choisissez « Enregistrer l'image ».",
-    "metadataTitle": "Métadonnées",
-    "titleHeading": "Titre",
-    "title1": "Traduction vocale en temps réel lors des appels vidéo.",
-    "title2": "Traduction vocale en direct lors des appels vidéo — <strong>sans</strong> délais, <strong>sans</strong> affaires perdues, <strong>sans</strong> barrières linguistiques.",
-    "descriptionHeading": "Description",
-    "description1": "Traduction vocale en direct lors des appels vidéo pour les <strong>équipes internationales</strong> où les barrières linguistiques entraînent des <strong>délais, des affaires perdues ou des malentendus coûteux</strong>.",
-    "description2": "InterMIND ajoute la traduction vocale en temps réel à chaque appel vidéo, afin que les équipes internationales ne perdent jamais d'affaires, de temps ou de clarté à cause des barrières linguistiques.",
-    "logoHeading": "Logo",
-    "logoAlt": "Logo InterMIND",
-    "colorsHeading": "Couleurs de la marque",
-    "promotionalHeading": "Images promotionnelles",
-    "interpretationHeading": "Interprétation simultanée",
-    "searchHeading": "Rechercher dans toutes vos réunions",
-    "interpretationAlt": "Interprétation simultanée",
-    "searchAlt": "Rechercher dans toutes vos réunions"
   }
 }

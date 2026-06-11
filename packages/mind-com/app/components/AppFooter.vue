@@ -7,8 +7,7 @@ const columns = computed(() => [
     title: t("footer.resourcesTitle"),
     links: [
       { text: t("footer.blog"), href: localePath("/blog") },
-      { text: t("footer.globalLanguageAccess"), href: localePath("/blog/global-language-access-compliance") },
-      { text: t("footer.brandAssets"), href: localePath("/brand-assets") },
+      { text: t("footer.privacyPolicy"), href: localePath("/legal/privacy") },
       { text: t("footer.serviceStatus"), href: "https://intermind.checkly-dashboards.com/", external: true },
     ],
   },

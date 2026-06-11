@@ -43,8 +43,6 @@
     "aiLegalGuide": "Guía Legal de IA",
     "serviceStatus": "Estado del Sistema",
     "blog": "Blog",
-    "globalLanguageAccess": "Cumplimiento de Acceso Global a Idiomas",
-    "brandAssets": "Activos de Marca",
     "aiApiDocs": "Documentación de API de IA / LLM",
     "about": "Acerca de",
     "team": "Equipo",
@@ -197,26 +195,5 @@
       "apiAccess": "Quiero obtener el ID de aplicación y el token de la API de Mind.com sin restricciones",
       "general": "Pregunta general o comentarios"
     }
-  },
-  "brandAssets": {
-    "metaTitle": "Activos de Marca — Mind.com",
-    "metaDescription": "Recursos de marketing y directrices de identidad de InterMIND, incluyendo logotipo, contenido y marcas registradas.",
-    "h1": "Kit de Prensa",
-    "intro": "Una colección de recursos de marketing y directrices de identidad de InterMIND, incluyendo nuestro logotipo, contenido y marcas registradas. Para descargar, haga clic derecho en una imagen y seleccione \"Guardar imagen\".",
-    "metadataTitle": "Metadatos",
-    "titleHeading": "Título",
-    "title1": "Traducción de voz en tiempo real en videollamadas.",
-    "title2": "Traducción de voz en vivo en videollamadas — <strong>sin</strong> demoras, <strong>sin</strong> acuerdos perdidos, <strong>sin</strong> barreras idiomáticas.",
-    "descriptionHeading": "Descripción",
-    "description1": "Traducción de voz en vivo en videollamadas para <strong>equipos internacionales</strong> donde las barreras idiomáticas causan <strong>demoras, acuerdos perdidos o malentendidos costosos</strong>.",
-    "description2": "InterMIND añade traducción de voz en tiempo real a cada videollamada, para que los equipos internacionales nunca pierdan acuerdos, tiempo o claridad debido a las barreras idiomáticas.",
-    "logoHeading": "Logotipo",
-    "logoAlt": "Logotipo de InterMIND",
-    "colorsHeading": "Colores de Marca",
-    "promotionalHeading": "Imágenes Promocionales",
-    "interpretationHeading": "Interpretación simultánea",
-    "searchHeading": "Búsqueda en todas tus reuniones",
-    "interpretationAlt": "Interpretación simultánea",
-    "searchAlt": "Búsqueda en todas tus reuniones"
   }
 }

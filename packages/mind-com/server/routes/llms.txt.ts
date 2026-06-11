@@ -26,7 +26,6 @@ export default defineEventHandler(async (event) => {
   lines.push(`- [Careers](${siteUrl}/careers): Join us. Show us what you've built.`)
   lines.push(`- [Contacts](${siteUrl}/contacts): Reach our company team`)
   lines.push(`- [Help](${siteUrl}/help): Get support — fast, human, no confusion`)
-  lines.push(`- [Brand Assets](${siteUrl}/brand-assets): Logo, identity guidelines, promotional images`)
   lines.push("")
   lines.push("## Blog")
   for (const p of posts) {

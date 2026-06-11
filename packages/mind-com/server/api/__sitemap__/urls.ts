@@ -37,7 +37,7 @@ export default defineEventHandler(async (event) => {
     }),
   )
 
-  const staticPaths = ["/about", "/team", "/careers", "/help", "/contacts", "/brand-assets"]
+  const staticPaths = ["/about", "/team", "/careers", "/help", "/contacts"]
 
   return [
     ...posts.map((p) => ({ loc: p.path, lastmod: p.date })),

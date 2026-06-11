@@ -3,12 +3,19 @@
 // pages that drove unwanted/irrelevant traffic or whose external links we
 // chose not to recover.
 //
-// Two layers:
+// Three layers:
 //   - GONE_BLOG_SLUGS: matches /blog/<slug> in EN and all supported locales.
+//   - GONE_PAGE_PATHS: matches a top-level page path in EN and all locales.
 //   - GONE_EXACT_PATHS: matches a single absolute path exactly. Use for
 //     one-off URLs (e.g. abandoned promo pages) where locale-fanout doesn't
 //     apply.
 const GONE_BLOG_SLUGS = new Set(["software-testing-basics-concepts-and-terminology"])
+
+const GONE_PAGE_PATHS = new Set([
+  // Stale media-kit page, removed 2026-06-11. The /media-kit images stay in
+  // public/ — press may have hotlinked them.
+  "/brand-assets",
+])
 
 const GONE_EXACT_PATHS = new Set([
   // /ru/promo/imind — 732 refdomains, 128 organic traffic. iMind→InterMIND
@@ -34,7 +41,9 @@ function blogSlug(path: string): string | null {
 
 function isGone(path: string): boolean {
   if (GONE_EXACT_PATHS.has(path)) return true
-  const slug = blogSlug(stripLocale(path))
+  const localeFree = stripLocale(path)
+  if (GONE_PAGE_PATHS.has(localeFree)) return true
+  const slug = blogSlug(localeFree)
   return slug !== null && GONE_BLOG_SLUGS.has(slug)
 }
 

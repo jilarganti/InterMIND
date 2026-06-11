@@ -43,8 +43,6 @@
     "aiLegalGuide": "AI 法律指南",
     "serviceStatus": "系统状态",
     "blog": "博客",
-    "globalLanguageAccess": "全球语言无障碍合规",
-    "brandAssets": "品牌资产",
     "aiApiDocs": "AI API / LLM 文档",
     "about": "关于我们",
     "team": "团队",
@@ -197,26 +195,5 @@
       "apiAccess": "我想获取无限制的 Mind.com API 应用程序 ID 和令牌",
       "general": "一般问题或反馈"
     }
-  },
-  "brandAssets": {
-    "metaTitle": "品牌素材 — Mind.com",
-    "metaDescription": "InterMIND 营销资源和品牌识别指南，包括徽标、内容和商标。",
-    "h1": "媒体资料包",
-    "intro": "InterMIND 营销资源和品牌识别指南合集，包括我们的徽标、内容和商标。如需下载，请右键点击图片并选择“保存图片”。",
-    "metadataTitle": "元数据",
-    "titleHeading": "标题",
-    "title1": "视频通话中的实时语音翻译。",
-    "title2": "视频通话中的实时语音翻译 — <strong>无</strong>延迟，<strong>无</strong>交易损失，<strong>无</strong>语言障碍。",
-    "descriptionHeading": "描述",
-    "description1": "视频通话中的实时语音翻译，专为<strong>国际团队</strong>设计，解决语言障碍导致的<strong>延迟、交易损失或代价高昂的误解</strong>。",
-    "description2": "InterMIND 为每次视频通话提供实时语音翻译，确保国际团队不再因语言障碍而损失交易、浪费时间或沟通不清。",
-    "logoHeading": "徽标",
-    "logoAlt": "InterMIND 徽标",
-    "colorsHeading": "品牌色彩",
-    "promotionalHeading": "宣传图片",
-    "interpretationHeading": "同声传译",
-    "searchHeading": "搜索您的所有会议",
-    "interpretationAlt": "同声传译",
-    "searchAlt": "搜索您的所有会议"
   }
 }
