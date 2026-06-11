@@ -94,20 +94,18 @@
     "ctaStrong": "Want to join us?",
     "ctaCareersLink": "career opportunities",
     "humans": {
-      "mindDesc": "Erasing language barriers for good",
-      "jilargantiDesc": "Bringing **new minds** to InterMIND"
+      "mindDesc": "Engineering, operations & sales",
+      "windictedDesc": "Engineering",
+      "jilargantiDesc": "Product lead & growth"
     },
     "ai": {
-      "claudeDesc": "Bringing clarity to conversations",
-      "geminiDesc": "Connecting knowledge with intent",
-      "chatgptDesc": "Interpreting with nuance and memory",
-      "deepseekDesc": "Thinking in code and reasoning in context"
+      "claudeDesc": "Software engineering & code review",
+      "geminiDesc": "Research & data analysis",
+      "mistralDesc": "Translation quality evaluation"
     },
     "countries": {
       "portugal": "Portugal",
-      "uae": "UAE",
-      "usa": "USA",
-      "china": "China"
+      "uae": "UAE"
     },
     "humanName": "The **Mind.com** Team"
   },

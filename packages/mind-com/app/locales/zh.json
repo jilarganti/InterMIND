@@ -154,20 +154,18 @@
     "ctaStrong": "想加入我们吗？",
     "ctaCareersLink": "职业机会",
     "humans": {
-      "mindDesc": "彻底消除语言障碍",
-      "jilargantiDesc": "将 **新思维** 带入 InterMIND"
+      "mindDesc": "工程、运营与销售",
+      "windictedDesc": "工程",
+      "jilargantiDesc": "产品与增长负责人"
     },
     "ai": {
-      "claudeDesc": "为对话带来清晰度",
-      "geminiDesc": "连接知识与意图",
-      "chatgptDesc": "以细微之处和记忆进行解读",
-      "deepseekDesc": "以代码思考，在语境中推理"
+      "claudeDesc": "软件工程与代码审查",
+      "geminiDesc": "研究与数据分析",
+      "mistralDesc": "翻译质量评估"
     },
     "countries": {
       "portugal": "葡萄牙",
-      "uae": "阿联酋",
-      "usa": "美国",
-      "china": "中国"
+      "uae": "阿联酋"
     },
     "humanName": "**Mind.com** 团队"
   },

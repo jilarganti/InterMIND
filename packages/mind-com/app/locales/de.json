@@ -154,20 +154,18 @@
     "ctaStrong": "Möchten Sie uns beitreten?",
     "ctaCareersLink": "Karrieremöglichkeiten",
     "humans": {
-      "mindDesc": "Sprachbarrieren dauerhaft beseitigen",
-      "jilargantiDesc": "Bringt **neue Köpfe** zu InterMIND"
+      "mindDesc": "Engineering, Betrieb & Vertrieb",
+      "windictedDesc": "Engineering",
+      "jilargantiDesc": "Produktleitung & Wachstum"
     },
     "ai": {
-      "claudeDesc": "Bringt Klarheit in Gespräche",
-      "geminiDesc": "Verbindet Wissen mit Absicht",
-      "chatgptDesc": "Interpretiert mit Nuance und Gedächtnis",
-      "deepseekDesc": "Denkt in Code und argumentiert im Kontext"
+      "claudeDesc": "Software-Engineering & Code-Review",
+      "geminiDesc": "Forschung & Datenanalyse",
+      "mistralDesc": "Bewertung der Übersetzungsqualität"
     },
     "countries": {
       "portugal": "Portugal",
-      "uae": "VAE",
-      "usa": "USA",
-      "china": "China"
+      "uae": "VAE"
     },
     "humanName": "Das **Mind.com** Team"
   },
