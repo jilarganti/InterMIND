@@ -37,8 +37,11 @@ Sentry.init({
     Sentry.captureConsoleIntegration({ levels: ["error"] }),
     // Главная причина существования Sentry здесь: ловить упавшую отправку
     // формы /contacts (5xx от /api/submit-form = потерянный лид).
+    // Только наши /api/* — иначе ловим транзиентные 502 Vercel на статике
+    // вроде /_i18n/*/messages.json (серверные падения и так видны в Nitro-части).
     httpClientIntegration({
       failedRequestStatusCodes: [[500, 599]],
+      failedRequestTargets: [/\/api\//],
     }),
   ],
 
@@ -50,6 +53,21 @@ Sentry.init({
     "ResizeObserver loop limit exceeded",
     "ResizeObserver loop completed with undelivered notifications",
     "Non-Error promise rejection captured",
+    // Usercentrics CMP: console.error самого SDK (попадает сюда через
+    // captureConsoleIntegration). Сетевые отказы до *.usercentrics.eu —
+    // ad-блокеры и блокировки по региону (RU/CN), чинить нечего.
+    /^Usercentrics \[/,
+    "No CMP data",
+    /No core data available for core\//,
+    /^\[CMP\] Your browser/,
+    // Stale-chunk после редеплоя: пользователя спасает
+    // experimental.emitRouteChunkError="automatic-immediate" (см. nuxt.config.ts).
+    /Failed to fetch dynamically imported module/,
+    /error loading dynamically imported module/,
+    /Importing a module script failed/,
+    /Unable to preload CSS/,
+    // Инлайн-скрипт @nuxtjs/color-mode вырезан прокси/ботом — window-хелпера нет.
+    /removeColorScheme is not a function/,
   ],
 
   beforeSend(event, hint) {

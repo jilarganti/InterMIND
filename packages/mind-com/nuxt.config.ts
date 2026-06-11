@@ -4,6 +4,14 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   ssr: true,
 
+  experimental: {
+    // Stale-chunk после Vercel-редеплоя: старые хэшированные /_nuxt/*.js отдают
+    // 404 у пользователей с открытой вкладкой. Дефолтный "automatic" перезагружает
+    // только при навигации; "-immediate" — сразу, что спасает и lazy-компоненты
+    // (MDC-рендерер блога падал каскадом: MIND-COM-3/E/9 в Sentry).
+    emitRouteChunkError: "automatic-immediate",
+  },
+
   // Phase 5 will add @pinia/nuxt for AI chat store.
   modules: [
     "@nuxt/content",
@@ -60,14 +68,16 @@ export default defineNuxtConfig({
       strictMessage: false,
       escapeHtml: false,
     },
+    // `language` (BCP 47) обязателен для генерации hreflang: без него
+    // useLocaleHead() молча не выводит <link rel="alternate"> вообще.
     locales: [
-      { code: "en", name: "English", file: "en.json" },
-      { code: "es", name: "Spanish (Latin America)", file: "es.json" },
-      { code: "pt", name: "Portuguese (Brazilian)", file: "pt.json" },
-      { code: "fr", name: "French", file: "fr.json" },
-      { code: "de", name: "German", file: "de.json" },
-      { code: "ru", name: "Russian", file: "ru.json" },
-      { code: "zh", name: "Chinese (Simplified)", file: "zh.json" },
+      { code: "en", language: "en", name: "English", file: "en.json" },
+      { code: "es", language: "es-419", name: "Spanish (Latin America)", file: "es.json" },
+      { code: "pt", language: "pt-BR", name: "Portuguese (Brazilian)", file: "pt.json" },
+      { code: "fr", language: "fr", name: "French", file: "fr.json" },
+      { code: "de", language: "de", name: "German", file: "de.json" },
+      { code: "ru", language: "ru", name: "Russian", file: "ru.json" },
+      { code: "zh", language: "zh-CN", name: "Chinese (Simplified)", file: "zh.json" },
     ],
     langDir: "locales",
     restructureDir: "app",
