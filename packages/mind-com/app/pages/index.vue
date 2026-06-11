@@ -26,12 +26,6 @@ const organizationJsonLd = computed(() => ({
   logo: `${siteUrl}/logo.svg`,
   description: t("home.schema.orgDescription"),
   sameAs: [productUrl],
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "City Avenue Building, Office 405-070, Port Saeed",
-    addressLocality: "Dubai",
-    addressCountry: "AE",
-  },
 }))
 
 const websiteJsonLd = computed(() => ({

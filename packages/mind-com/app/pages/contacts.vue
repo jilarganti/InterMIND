@@ -22,9 +22,8 @@ const services = computed(() => [
 // except the role line, which reuses the About page's translated strings.
 const entities = [
   { name: "MindMeeting OÜ", roleKey: "about.entityEuRole", jurisdiction: "Estonia · Reg. 16207677 · VAT EE102465446" },
-  { name: "Golden Fish CSP LLC", roleKey: "about.entityUaeRole", jurisdiction: "UAE · Reg. 2411728 · License 1414192" },
+  { name: "Golden Fish Corporate Services Provider LLC", roleKey: "about.entityUaeRole", jurisdiction: "UAE · Reg. 2411728 · License 1414192" },
 ]
-const address = "City Avenue Building, Office 405-070, Port Saeed, Dubai, UAE"
 </script>
 
 <template>
@@ -82,7 +81,6 @@ const address = "City Avenue Building, Office 405-070, Port Saeed, Dubai, UAE"
           <dd class="text-sm text-gray-500 dark:text-gray-500">{{ e.jurisdiction }}</dd>
         </div>
       </dl>
-      <p class="text-sm text-gray-500 dark:text-gray-500">{{ address }}</p>
     </section>
   </div>
 </template>
@@ -128,7 +126,7 @@ blockquote a {
 .details dl {
   display: grid;
   gap: 1.25rem;
-  margin: 0 0 1.25rem;
+  margin: 0;
 }
 .entity dd {
   margin: 0.15rem 0 0;
