@@ -1,79 +1,81 @@
 ---
-title: "Legal Regulations for AI Services"
-description: "Terms governing the use of InterMIND AI features: AI-generated content disclaimer, professional advice limitations, and user responsibilities."
-updated: "2025-01-01"
+title: Terms of Service
+description: The terms governing your use of InterMIND — your contract with Golden Fish CSP LLC, plans and billing, your content, acceptable use, liability, and governing law.
+updated: "2026-06-17"
 ---
 
-# Legal Regulations for AI Services
+**Effective date: 17 June 2026**
 
-## Terms and Definitions
+## 1. Agreement
 
-For the purposes of this disclaimer, the following terms shall have the meanings set forth below:
+These Terms of Service ("Terms") are a contract between you and **Golden Fish Corporate Services Provider LLC** ("Golden Fish CSP LLC", "we", "us"), City Avenue Building, Office 405-070, Port Saeed, Dubai, United Arab Emirates — the operator of InterMIND, the meeting platform with real-time speech translation available at intermind.com and through the InterMIND mobile apps (the "Service"). By creating an account or using the Service you accept these Terms. If you use the Service on behalf of an organization, you confirm you have authority to bind it, and "you" includes that organization.
 
-"AI" or "Artificial Intelligence" refers to computer systems or algorithms capable of performing tasks that typically require human intelligence, including learning, reasoning, problem-solving, understanding natural language, and generating content.
+**Publisher and Intellectual Property Owner:** MindMeeting OÜ (Estonia), Juhkentali 8, Tallinn 10132, Estonia. **Service Operator and Contracting Entity:** Golden Fish Corporate Services Provider LLC (United Arab Emirates). The InterMIND mobile apps are published on the Apple App Store and Google Play by MindMeeting OÜ on behalf of, and under license from, Golden Fish CSP LLC; your contract for the Service is with Golden Fish CSP LLC.
 
-"Company" refers to Golden Fish Corporate Services Provider LLC (Register No: 2411728, License No: 1414192, Address: City Avenue Building, Office 405-070, Port Saeed, Dubai, UAE), its subsidiaries, affiliates, officers, employees, agents, and representatives.
+## 2. The Service
 
-"AI-generated content" refers to any text, image, recommendation, suggestion, answer, or other content created, produced, or formulated by our AI systems in response to user inputs or queries.
+InterMIND provides online meetings with real-time speech transcription and translation, meeting recordings, persistent and in-meeting chat with message translation, document translation, and AI-generated meeting summaries. Feature availability and limits depend on your plan (see §4).
 
-"User" refers to any individual or entity that accesses, uses, or interacts with the AI features available on our website or services.
+**Translation accuracy.** Transcription and translation are produced by automated speech recognition and machine translation. They are provided for communication convenience and may contain errors. Do not rely on them as the sole basis for legal, medical, financial, or other consequential decisions, and verify accuracy before relying on any transcript or translation.
 
-"Professional advice" refers to specialized guidance typically provided by qualified professionals in fields such as law, medicine, finance, engineering, or other regulated professions requiring specific expertise, certifications, or licenses.
+## 3. Accounts
 
-"Personal data" refers to any information relating to an identified or identifiable natural person, including but not limited to names, identification numbers, location data, online identifiers, or factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that person.
+You sign in with a one-time email code or a third-party sign-in provider (e.g. Google or Microsoft). Keep access to your email account secure — anyone who controls it can access your InterMIND account. You are responsible for activity under your account. Team workspaces have administrators who can manage members, content, and billing for the workspace; if you join a team workspace, its administrators control that workspace's data.
 
-"AI Developers" refers to the third-party entities, organizations, or individuals responsible for creating, training, maintaining, and updating the artificial intelligence technologies utilized by the Company. The AI Developers are separate and distinct from the Company and maintain independent responsibility for the core functionality, capabilities, and limitations of the AI systems being implemented.
+Guests may join meetings without an account; anonymous guest sessions are temporary and are purged automatically (see the Privacy Policy).
 
-## Artificial Intelligence Functionality
+## 4. Plans, billing, trials
 
-This website incorporates artificial intelligence ("AI") features designed to enhance user experience through automated responses, content generation, and personalized recommendations. By using these AI features, you acknowledge and agree to the following terms and conditions:
+- **Plans.** The Service offers a free plan and paid subscription plans. Current plans, limits (such as monthly translation minutes, participants, and storage), and prices are listed on the pricing page at intermind.com/pricing, which forms part of these Terms.
+- **Payment.** Paid plans are billed by subscription (monthly or yearly) through our payment provider, Stripe. Your card details are handled by Stripe and never touch our systems.
+- **Trials.** Paid plans may include a free trial; its length is shown at checkout. Unless you cancel before the trial ends, the subscription begins automatically.
+- **Renewal and cancellation.** Subscriptions renew automatically until cancelled. You can cancel at any time via the billing portal in Settings; cancellation takes effect at the end of the current billing period. Except as required by applicable law or as stated in §12, fees are non-refundable and we do not provide refunds or credits for partial billing periods. If you are a consumer in the EU/EEA or UK, you have a statutory 14-day right of withdrawal for digital services; by starting to use a paid plan during that period you expressly request immediate performance and acknowledge that you lose the withdrawal right once the service is fully performed. Nothing in these Terms limits mandatory consumer rights under the law of your country of residence.
+- **Plan changes and prices.** We may change plan prices or limits with at least 30 days' prior notice; changes apply from your next billing period.
+- **Usage limits.** Plan limits (e.g. translation minutes per month) are enforced by the Service; when a limit is reached, the corresponding feature pauses until the next period or an upgrade.
 
-## Licensing Compliance Statement
+## 5. Your content
 
-The Company fully complies with all terms of use and maintains appropriate licensing agreements with the developers of the AI models utilized on this website. All AI technologies implemented by the Company are properly licensed and used in accordance with the contractual terms established by their respective AI Developers. Our compliance with these licensing agreements ensures the legal and authorized use of AI technologies within our services.
+- **Ownership.** You retain all rights to the content you create or upload — meetings, recordings, transcripts, chat messages, documents ("Content"). We claim no ownership.
+- **License to operate.** You grant us the license needed to run the Service: to host, store, transmit, transcribe, translate, summarize, and display your Content to you and the people you share it with. This license ends when the Content is deleted. We do not use your Content to train AI models.
+- **Your responsibilities.** You are responsible for your Content and for your use of recording and transcription features in compliance with applicable law — some jurisdictions require the consent of all participants before a conversation is recorded or transcribed. The Service makes recording visible to participants, but obtaining any legally required consent is your responsibility.
+- **Deletion and export.** You can delete individual Content, or your entire account in Settings (permanent, immediate, includes storage and subscription cancellation), and export your account data as a ZIP archive. See the Privacy Policy for retention details.
 
-## Accuracy of Information
+## 6. Acceptable use
 
-The information, content, and responses generated by our AI systems are provided for general informational purposes only. While we strive to ensure the accuracy and reliability of AI-generated content, such content may contain errors, inaccuracies, or outdated information. The Company does not warrant or guarantee the completeness, accuracy, reliability, suitability, or availability of any AI-generated content.
+You agree not to: use the Service for unlawful purposes; infringe others' rights (including recording people without required consent); upload malware or attempt to breach, probe, or overload the Service; resell or white-label the Service without an agreement with us; or interfere with other users. We may suspend or terminate accounts that violate these Terms. Where a violation is capable of being cured, we will give you notice and a reasonable opportunity (normally 14 days) to cure it before suspending or terminating your account. We may suspend access immediately, with notice as soon as reasonably practicable, where the violation is unlawful, poses a security risk, risks harm to others or to the Service, or where required by law.
 
-## Limitation of Liability
+## 7. Privacy and data protection
 
-Under no circumstances shall the Company be liable for any direct, indirect, incidental, special, consequential, or exemplary damages arising from or in any way connected with your use of AI features on this website. This includes, but is not limited to, any losses, costs, or damages of any kind incurred as a result of your reliance on information or content generated by our AI systems.
+Our Privacy Policy (/legal/privacy) describes what we process and why; the subprocessor list is published at [/legal/subprocessors](/legal/subprocessors). For organizations that need one, we offer a Data Processing Addendum — request it at privacy@mind.com.
 
-## No Professional Advice
+## 8. Intellectual property
 
-AI-generated content and responses do not constitute professional advice, opinion, or recommendation. Our AI systems are not qualified to provide legal, medical, financial, psychological, or other professional services. You should not rely on AI-generated content as a substitute for professional judgment or consultation with qualified experts in the relevant field. Always seek the advice of qualified professionals regarding specific questions or concerns related to your particular circumstances.
+The Service, including its software, design, and branding, is protected by intellectual property rights owned by MindMeeting OÜ (Estonia) and/or its licensors and used by Golden Fish CSP LLC. These Terms grant you only the right to use the Service; no other rights are transferred. If you send us feedback or suggestions, we may use them without obligation to you.
 
-## No Warranties
+## 9. Third-party services
 
-The AI features are provided on an "as is" and "as available" basis without warranties of any kind, either express or implied. The Company does not guarantee that the AI features will be uninterrupted, timely, secure, or error-free. You acknowledge that technical problems or changes in third-party systems may temporarily or permanently limit your ability to access or use the AI features.
+Sign-in via Google or Microsoft, and payments via Stripe, are subject to those providers' own terms. We are not responsible for third-party services.
 
-## Data Collection and Usage
+## 10. Disclaimers
 
-Your interactions with our AI features may be collected, stored, and analyzed to improve our services. This information helps train and refine our AI systems to enhance user experience. By using our AI features, you consent to the collection, storage, and processing of your interaction data in accordance with our Privacy Policy.
+The Service is provided "as is" and "as available". To the maximum extent permitted by law, we disclaim all warranties, express or implied, including fitness for a particular purpose and non-infringement. We do not warrant uninterrupted or error-free operation, or the accuracy of transcriptions and translations (§2). Service level commitments, if any, apply only where agreed in a separate written agreement (e.g. an Enterprise SLA).
 
-## User Input Consent
+## 11. Limitation of liability
 
-By engaging with our AI services, you explicitly agree and consent to the AI model processing, analyzing, and utilizing the information you provide during your interactions. You acknowledge that any text, queries, or data you input may be used by the AI system to generate responses, improve its functionality, and enhance its capabilities. This consent extends to AI Developers who may use anonymized interactions to further train and refine their models. If you do not wish your input to be processed by our AI systems, you should refrain from using the AI features available on this website.
+To the maximum extent permitted by applicable law: (a) neither party is liable for indirect, incidental, special, consequential, or punitive damages, or for lost profits, revenue, data, or goodwill, even if advised of the possibility; (b) our total aggregate liability arising out of or relating to the Service or these Terms is limited to the greater of the fees you paid us for the Service in the 12 months before the event giving rise to the claim, or USD 100; and (c) these limits do not apply to liability that cannot be excluded or limited under applicable law, including for death or personal injury caused by negligence, for fraud or fraudulent misrepresentation, or for willful misconduct or gross negligence. Where mandatory consumer-protection law gives you greater rights, those rights prevail. These limitations reflect a reasonable allocation of risk and are an essential basis of the bargain.
 
-## Personal Data Protection
+## 12. Termination
 
-Any personal data or sensitive information shared during your communications with our AI systems is subject to our robust data protection protocols. However, we strongly advise against sharing sensitive personal information (such as social security numbers, financial account details, or medical records) during interactions with our AI features. While we implement industry-standard security measures to protect data transmitted to our systems, we cannot guarantee absolute security of information shared with our AI features. The Company shall not be held liable for any breach, disclosure, loss, or misuse of personal data resulting from your voluntary disclosure of such information during AI interactions.
+You may stop using the Service and delete your account at any time. We may suspend or terminate your access for material breach of these Terms (with notice and a reasonable cure period where the breach is curable, as set out in §6), or discontinue the Service with reasonable prior notice — in which case prepaid fees for the unused period will be refunded pro-rata. Sections that by their nature survive termination (e.g. §§8, 10, 11, 13) do so.
 
-## Content Disclaimer
+## 13. Governing law and disputes
 
-Our AI systems generate content based on patterns learned from training data and may occasionally produce content that does not align with the Company's values or policies. The Company does not endorse all content generated by its AI systems. We make reasonable efforts to prevent inappropriate content but cannot guarantee that all AI-generated content will be appropriate, accurate, or aligned with our values.
+These Terms are governed by the laws of the Dubai International Financial Centre (DIFC). The Courts of the DIFC have exclusive jurisdiction over any dispute arising out of or in connection with these Terms or the Service, and the parties submit to the jurisdiction of the DIFC Courts. This choice of governing law and forum does not displace mandatory data-protection law applicable to the processing described in the Privacy Policy. If you use the Service as a consumer, nothing in this section deprives you of the protection of mandatory provisions of the law of your country of residence, and you may bring proceedings in the courts of that country where the applicable law so requires.
 
-## Cultural Respect and Responsibility Statement
+## 14. Changes to these Terms
 
-The Company deeply respects the traditions, religions, and governance of all countries in which we operate. Any content that may be generated by our AI system that could be considered offensive, culturally insensitive, or morally inappropriate is solely the result of AI error and does not represent the views, opinions, or values of the Company. Responsibility for such content lies with the developers of the AI technology and not with the Company. We are committed to fostering inclusive and respectful digital environments while acknowledging the technical limitations of current AI systems. Users who encounter any such inappropriate content are encouraged to report it immediately so that appropriate measures can be taken.
+We may update these Terms; we will post the new version on this page and update the effective date, and for material changes we will notify you in the product or by email before they take effect. Continued use after the effective date constitutes acceptance.
 
-## Modifications to AI Features
+## 15. Contact
 
-The Company reserves the right to modify, suspend, or discontinue any part of the AI features without prior notice. We may update or change the capabilities, functionalities, or limitations of our AI systems at any time at our sole discretion.
-
-## User Responsibility
-
-You are responsible for reviewing and evaluating all AI-generated content before relying on it or implementing any suggestions. You acknowledge that you bear all risks associated with using information or content generated by our AI systems.
-
-By continuing to use the AI features on this website, you acknowledge that you have read, understood, and agree to be bound by this AI Features Disclaimer.
+Golden Fish Corporate Services Provider LLC — City Avenue Building, Office 405-070, Port Saeed, Dubai, United Arab Emirates. Email: privacy@mind.com

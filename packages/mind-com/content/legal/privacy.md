@@ -1,119 +1,98 @@
 ---
-title: "Privacy Policy"
-description: "How InterMIND (Golden Fish Corporate Services Provider LLC) collects, uses, and protects personal information across global jurisdictions (GDPR, CCPA, PIPL, PDPL, HIPAA)."
-updated: "2025-01-01"
+title: Privacy Policy
+description: How InterMIND (Golden Fish CSP LLC) collects, uses, and protects your personal data — controller, subprocessors, retention, your rights, and international transfers.
+updated: "2026-06-17"
 ---
 
-# Privacy Policy
+**Effective date: 17 June 2026**
 
-## Introduction
+## 1. Who we are
 
-This Privacy Policy outlines how Golden Fish Corporate Services Provider LLC ("we," "us," or "our") collects, uses, protects, and discloses personal information when you use our website and legal services. As a global legal services provider, we are committed to protecting your privacy and ensuring compliance with applicable data protection laws worldwide.
+InterMIND ("the Service") — the meeting platform with real-time speech translation available at intermind.com and through the InterMIND mobile apps — is operated by:
 
-## Regulatory Compliance
+**Golden Fish Corporate Services Provider LLC** ("Golden Fish CSP LLC", "we", "us"), City Avenue Building, Office 405-070, Port Saeed, Dubai, United Arab Emirates.
 
-Our privacy practices comply with major global privacy regulations, including:
+For personal data processed through the Service, Golden Fish CSP LLC acts as the data controller, except where your organization uses InterMIND under its own agreement with us — in that case your organization is the controller and we process data on its behalf (see our Data Processing Addendum).
 
-- General Data Protection Regulation (GDPR) - European Union
-- California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA) - United States
-- Personal Information Protection Law (PIPL) - China
-- Federal Law No. 45 of 2021 on Personal Data Protection (PDPL) - United Arab Emirates
-- Health Insurance Portability and Accountability Act (HIPAA) - United States
-- Children's Online Privacy Protection Act (COPPA) - United States
+**Publisher and Intellectual Property Owner:** MindMeeting OÜ (Estonia), Juhkentali 8, Tallinn 10132, Estonia. **Service Operator and Contracting Entity:** Golden Fish Corporate Services Provider LLC (United Arab Emirates). The InterMIND mobile apps are published by MindMeeting OÜ on behalf of, and under license from, Golden Fish CSP LLC, which operates the Service and is responsible for personal data processed through it.
 
-## Information We Collect
+**Privacy contact:** privacy@mind.com
 
-We may collect the following types of information:
+**EU/EEA representative (Article 27 GDPR):** MindMeeting OÜ, Juhkentali 8, Tallinn 10132, Estonia, acts as our representative in the European Union under Article 27 GDPR. EU/EEA users and supervisory authorities may contact our representative on data-protection matters at privacy@mind.com (subject line "EU representative").
 
-- Personal Information: Name, contact details, identification documents, and other information necessary to provide legal services.
-- Service Data: Information related to legal matters, case details, and correspondence.
-- Technical Data: IP address, browser type, device information, cookies, and usage data.
+This policy covers intermind.com and the InterMIND apps only. The corporate site mind.com is operated separately and has its own policy.
 
-## How We Use Your Information
+## 2. What we collect and why
 
-We use your information to:
+| What | Details | Why (purpose) | Legal basis |
+| --- | --- | --- | --- |
+| Account data | Email, display name, profile photo, language preferences | Creating and operating your account | Contract |
+| Meeting audio/video | Live streams during a call — **transient, never stored** (see §3) | Running the call: transmission, speech recognition, real-time translation | Contract |
+| Transcriptions | Recognized and translated speech with speaker names | Live captions/translation; available to participants after the meeting until deleted | Contract |
+| Recordings & files | Meeting recordings you start, chat attachments, documents | Making your content available to you and participants | Contract |
+| AI meeting summary | Your meeting transcript is sent **once, at meeting end** to generate a digest | Post-meeting summary in the meeting chat | Legitimate interest (disclosed here) |
+| Document translation | Contents of documents you submit for translation | Translating the document at your request | Contract |
+| Chat messages | Message text and edit history; ad-hoc meeting chats are purged when the call ends | Messaging | Contract |
+| Billing data | Name, email, billing address, subscription and usage records. **Card numbers never touch our systems** — payments are handled by Stripe | Charging for paid plans; tax/accounting obligations | Contract; legal obligation |
+| Usage analytics | Product events, session replays, error traces — **only after you consent via the cookie banner** (analytics is off by default) | Improving the product, fixing errors | Consent (analytics); legitimate interest (error monitoring) |
+| Transactional email | Your email address, one-time sign-in codes, notifications | Sign-in and service notifications | Contract |
+| Sales inquiries | Name, email, company, message from contact/partner forms | Responding to your inquiry | Legitimate interest |
 
-- Provide and improve our legal services
-- Communicate with you regarding your legal matters
-- Process payments and maintain financial records
-- Comply with legal and regulatory obligations
-- Protect our legitimate business interests
+We do not sell personal data, and we do not use your meeting content to train AI models.
 
-## AI Technology and Data Processing
+## 3. How meetings are processed
 
-### Use of AI Models
+- **Audio and video streams are not stored.** They pass through our media infrastructure (hosted in France) for transmission, speech recognition, and translation, and exist only for the duration of the call. Only what is listed above — transcriptions, recordings you explicitly start, chat — is persisted.
+- **AI summaries** are generated by Mistral AI (France) under a zero-data-retention agreement: the transcript is processed once and is not retained or used for training by Mistral.
+- **Recording is visible to participants.** You are responsible for complying with the laws that apply to you when recording or transcribing a conversation (some jurisdictions require the consent of all participants).
 
-Our website utilizes artificial intelligence (AI) models to enhance our service delivery. Here's how we process your data when you interact with our AI-powered features:
+## 4. Who we share data with (subprocessors)
 
-#### Data Collection
+We use a small set of infrastructure and service providers. The full, versioned list — including each provider's purpose, processing region, and safeguards — is published at [/legal/subprocessors](/legal/subprocessors). Headlines, verified against our infrastructure:
 
-When you interact with our AI tools, we may collect information you provide during these interactions, including queries, uploaded documents, and conversation history.
+- Application hosting, database, realtime servers, object storage, analytics, and error monitoring all run in the **EU** (Frankfurt, Paris, EU multi-region storage).
+- Meeting media, speech recognition, and translation run on infrastructure in **France**.
+- Stripe (payments), Google/Microsoft (optional OAuth sign-in), and the corporate entities of some EU-hosted providers are US-based — covered by Standard Contractual Clauses and/or the EU–US Data Privacy Framework.
 
-#### Processing Purpose
+## 5. International transfers
 
-We use AI to assist with legal research, document review, contract analysis, and providing preliminary legal information.
+Processing happens in the EU by default (see §4). Where a provider's corporate entity is outside the EU/EEA, transfers are covered by Standard Contractual Clauses or an adequacy mechanism.
 
-#### Data Storage
+The United Arab Emirates, where Golden Fish CSP LLC is established, has comprehensive data-protection legislation but is not the subject of an EU adequacy decision. Where personal data is accessed from, or transferred to, a country outside the EEA — including access by us for the administration of the Service — we rely on appropriate safeguards under Chapter V GDPR (Standard Contractual Clauses and, where applicable, the EU–US Data Privacy Framework) together with supplementary technical measures such as encryption in transit and at rest and EU-pinned storage and processing. A copy of the relevant safeguards is available on request at privacy@mind.com.
 
-Your interactions with our AI systems are stored securely in encrypted format. These interactions may be retained for a limited period to improve our AI services and ensure quality control.
+## 6. Data retention
 
-#### Third-Party AI Providers
+We retain your content — meeting recordings, transcripts, translations, and chat messages — for as long as your account or team workspace remains active, so that it stays available to you. You control retention: you can delete individual recordings, channels, or messages at any time, and deleting your account permanently erases all associated content (across our database and storage) together with the cancellation of any active subscription. We do not impose an automatic expiry on your content; you decide how long it is kept.
 
-In some cases, we may utilize third-party AI service providers. When we do, we ensure they adhere to appropriate data protection standards through contractual safeguards.
+Some data is held only transiently for operational reasons: account-data exports are available for 7 days before deletion, anonymous guest sessions are purged within 24 hours, and one-time email verification codes are swept on expiry.
 
-#### Human Review
+## 7. Your rights
 
-While our AI systems operate autonomously, certain interactions may be reviewed by our legal professionals to ensure accuracy and quality of service.
+Depending on your jurisdiction (including under the GDPR), you have the right to access, rectify, erase, and export your data, to object to or restrict certain processing, and to withdraw consent at any time.
 
-#### AI Training
+Two of these are self-service, effective immediately:
 
-We may use anonymized and aggregated data from AI interactions to improve our systems. Personal identifiers are removed before any data is used for training purposes.
+- **Erasure** — delete your account in Settings; this permanently removes your data from our database and storage and cancels any active subscription.
+- **Portability** — export your full account data as a ZIP archive from Settings (download link valid for 7 days).
 
-## Data Sharing and Transfers
+For anything else, contact privacy@mind.com. If you are in the EU/EEA, you can also lodge a complaint with your local supervisory authority. If you are in the United Arab Emirates, you have equivalent rights under the UAE Personal Data Protection Law (Federal Decree-Law No. 45 of 2021), which you may exercise through the same contact.
 
-We may share your information with:
+## 8. Cookies and analytics
 
-- Affiliated legal entities within our global network
-- Third-party service providers who assist in our operations
-- Regulatory authorities and government bodies where required by law
-- Professional advisors and consultants
+We use a consent management platform (Usercentrics) to ask for your consent before any non-essential cookies or analytics run. Analytics (PostHog, EU cloud) and session replay are **off by default** and start only if you opt in. Essential cookies (session, security) do not require consent. You can change your choice at any time via the cookie settings link in the footer.
 
-When transferring data internationally, we implement appropriate safeguards in accordance with applicable laws, including Standard Contractual Clauses, Binding Corporate Rules, and other legally recognized transfer mechanisms.
+## 9. Security
 
-## Your Rights
+TLS for all traffic (HTTPS/WSS, no plaintext fallback); encryption at rest for the database and object storage; no passwords stored (one-time email codes or OAuth only); HTTP-only session cookies; server-side role enforcement; speech text scrubbed from client-side logs; isolated per-environment databases.
 
-Depending on your jurisdiction, you may have the right to:
+## 10. Children
 
-- Access your personal information
-- Correct inaccurate information
-- Delete your personal information
-- Restrict or object to processing
-- Data portability
-- Withdraw consent
-- Lodge a complaint with a supervisory authority
+The Service is not directed at children. You must be at least 16 years old to use the Service. If you are under the age of majority in your country (18 in the United Arab Emirates), you may use the Service only with the consent and under the supervision of a parent or legal guardian. We do not knowingly collect personal data from children below the applicable age; if you believe a child has provided us with personal data, contact privacy@mind.com and we will delete it.
 
-## Data Security
+## 11. Changes to this policy
 
-We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.
+We will post any changes on this page and update the effective date. For material changes we will notify you in the product or by email.
 
-## Data Retention
+## 12. Contact
 
-We retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.
-
-## Changes to This Policy
-
-We may update this Privacy Policy periodically. The updated version will be indicated by a revised date and will be accessible on our website.
-
-## Contact Us
-
-If you have any questions about this Privacy Policy or our data practices, please contact our Data Protection Officer at:
-
-- **Email:** support@mind.com
-- **Address:** City Avenue Building, Office 405-070, Port Saeed, Dubai, UAE
-- **Phone:** +971 058 574 88 06
-- **WhatsApp:** +971 058 574 88 06
-
-## Company Information
-
-- **License No:** 1414192
-- **Register No:** 2411728
+Golden Fish Corporate Services Provider LLC — City Avenue Building, Office 405-070, Port Saeed, Dubai, United Arab Emirates. Email: privacy@mind.com
