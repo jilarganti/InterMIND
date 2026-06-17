@@ -11,7 +11,7 @@ const isProd = import.meta.env.VITE_VERCEL_ENV === "production"
 
 const items = computed<DropdownMenuItem[][]>(() => [
   locales.value
-    .filter((l): l is { code: string; name: string; file?: string } => typeof l !== "string" && "name" in l)
+    .filter((l): l is Exclude<typeof l, string> => typeof l !== "string" && "name" in l)
     .filter((l) => !(isProd && l.code === "ru"))
     .map((l) => ({
       label: l.name,

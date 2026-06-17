@@ -1,5 +1,6 @@
 import { defineEventHandler, setResponseHeader } from "h3"
-import { useRuntimeConfig, useStorage } from "#imports"
+import { useStorage } from "nitropack/runtime"
+import { useRuntimeConfig } from "#imports"
 
 interface Section {
   title: string
@@ -16,10 +17,10 @@ async function readMarkdownDir(prefix: string, urlPrefix: string): Promise<Secti
     const raw = (await storage.getItem(key)) as string | null
     if (!raw) continue
     const slugMatch = key.match(/([^/:]+)\.md$/)
-    const slug = slugMatch ? slugMatch[1] : key
+    const slug = slugMatch?.[1] ?? key
     const markdown = raw.replace(/^---\n[\s\S]*?\n---\n*/, "")
     const titleMatch = markdown.match(/^#\s+(.+)$/m)
-    const title = titleMatch ? titleMatch[1].trim() : slug
+    const title = titleMatch?.[1]?.trim() ?? slug
     out.push({ title, path: `${urlPrefix}/${slug}`, markdown })
   }
   return out
