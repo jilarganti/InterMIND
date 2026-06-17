@@ -3,7 +3,9 @@ name: i18n refresh (mind-com)
 # Refreshes localized content/UI strings whenever English sources change on main.
 # - content (blog + legal): mirrors content/{blog,legal}/<f>.md → content/<locale>/{blog,legal}/<f>.md
 # - UI strings: translates app/locales/{es,pt,fr,de,ru,zh}.json entries marked [NEEDS_TRANSLATION]
-# If diffs are produced, opens (or updates) a PR. Manual run via workflow_dispatch is also supported.
+# If diffs are produced, commits them straight back to main (no PR — translations are not
+# hand-reviewed). The push to main is what Vercel deploys, so prod picks them up automatically.
+# Manual run via workflow_dispatch is also supported.
 
 on:
   push:
@@ -23,7 +25,12 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
+
+# Serialize runs so two back-to-back pushes don't both rebase+push to main and race.
+# Don't cancel in-progress: a half-finished translation push would leave main inconsistent.
+concurrency:
+  group: i18n-refresh
+  cancel-in-progress: false
 
 jobs:
   refresh:
@@ -96,29 +103,31 @@ jobs:
         run: |
           # --porcelain (not `git diff`) so newly-added locale files for a brand-new post —
           # which are untracked, not modifications — also count. `git diff` sees only tracked
-          # changes, so every new digest produced translations but opened no PR.
+          # changes, so every new digest produced translations but committed nothing.
           if [ -n "$(git status --porcelain -- packages/mind-com/content packages/mind-com/app/locales)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Open / update translation PR
+      # Commit translations straight to main — they aren't hand-reviewed, so a PR is just
+      # manual-merge friction. The push to main is what Vercel deploys, so prod auto-updates.
+      #
+      # The commit is made with the built-in GITHUB_TOKEN, whose pushes do NOT trigger other
+      # workflows (GitHub's recursion guard). That's intentional here: it stops this job from
+      # re-triggering itself in a loop, and Vercel's GitHub integration deploys off the push
+      # event itself (not Actions), so prod still picks the commit up.
+      - name: Commit translations to main
         if: steps.diff.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v6
-        with:
-          commit-message: "chore(i18n): refresh translations"
-          title: "chore(i18n): refresh translations"
-          body: |
-            Auto-refreshed translations for `packages/mind-com`:
-
-            - `content/<locale>/{blog,legal}/**` mirrored from English sources
-            - `app/locales/<locale>.json` entries cleared of `[NEEDS_TRANSLATION]` markers
-
-            Triggered by ${{ github.event_name == 'workflow_dispatch' && format('manual run (mode={0})', inputs.mode) || format('push to main ({0})', github.sha) }}.
-          branch: i18n/auto-refresh
-          base: main
-          delete-branch: true
-          add-paths: |
-            packages/mind-com/content
-            packages/mind-com/app/locales
+        working-directory: .
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- packages/mind-com/content packages/mind-com/app/locales
+          git commit -m "chore(i18n): refresh translations [skip ci]"
+          # Rebase onto the latest main in case another commit landed during translation,
+          # then push. Translations only touch content/<locale>/** and locales/*.json, so a
+          # concurrent source change won't conflict; --rebase keeps history linear.
+          git pull --rebase origin main
+          git push origin HEAD:main
