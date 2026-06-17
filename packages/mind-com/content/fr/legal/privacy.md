@@ -1,119 +1,98 @@
 ---
-title: "Politique de Confidentialité"
-description: "Comment InterMIND (Golden Fish Corporate Services Provider LLC) collecte, utilise et protège les informations personnelles à travers les juridictions mondiales (RGPD, CCPA, PIPL, PDPL, HIPAA)."
-updated: "2025-01-01"
+title: Politique de confidentialité
+description: Comment InterMIND (Golden Fish CSP LLC) collecte, utilise et protège vos données personnelles — responsable du traitement, sous-traitants, rétention, vos droits et transferts internationaux.
+updated: "2026-06-17"
 ---
 
-# Politique de Confidentialité
+**Date d'entrée en vigueur : 17 juin 2026**
 
-## Introduction
+## 1. Qui nous sommes
 
-Cette Politique de Confidentialité décrit comment Golden Fish Corporate Services Provider LLC (« nous », « notre » ou « nos ») collecte, utilise, protège et divulgue les informations personnelles lorsque vous utilisez notre site web et nos services juridiques. En tant que fournisseur mondial de services juridiques, nous nous engageons à protéger votre vie privée et à garantir la conformité avec les lois applicables en matière de protection des données dans le monde entier.
+InterMIND (« le Service ») — la plateforme de réunion avec traduction vocale en temps réel disponible sur intermind.com et via les applications mobiles InterMIND — est exploitée par :
 
-## Conformité Réglementaire
+**Golden Fish Corporate Services Provider LLC** (« Golden Fish CSP LLC », « nous »), City Avenue Building, Office 405-070, Port Saeed, Dubai, Émirats arabes unis.
 
-Nos pratiques en matière de confidentialité sont conformes aux principales réglementations mondiales en la matière, notamment :
+Pour les données personnelles traitées via le Service, Golden Fish CSP LLC agit en tant que responsable du traitement, sauf si votre organisation utilise InterMIND en vertu de son propre accord avec nous — dans ce cas, votre organisation est le responsable du traitement et nous traitons les données en son nom (voir notre Avenant sur le Traitement des Données).
 
-- Règlement Général sur la Protection des Données (RGPD) - Union Européenne
-- California Consumer Privacy Act (CCPA) et California Privacy Rights Act (CPRA) - États-Unis
-- Loi sur la protection des informations personnelles (PIPL) - Chine
-- Loi fédérale n° 45 de 2021 sur la protection des données personnelles (PDPL) - Émirats arabes unis
-- Loi sur la portabilité et la responsabilité de l'assurance maladie (HIPAA) - États-Unis
-- Loi sur la protection de la vie privée des enfants en ligne (COPPA) - États-Unis
+**Éditeur et propriétaire de la propriété intellectuelle :** MindMeeting OÜ (Estonie), Juhkentali 8, Tallinn 10132, Estonie. **Opérateur du service et entité contractante :** Golden Fish Corporate Services Provider LLC (Émirats arabes unis). Les applications mobiles InterMIND sont publiées par MindMeeting OÜ au nom et sous licence de Golden Fish CSP LLC, qui exploite le Service et est responsable des données personnelles traitées via celui-ci.
 
-## Informations que nous collectons
+**Contact confidentialité :** privacy@mind.com
 
-Nous pouvons collecter les types d'informations suivants :
+**Représentant UE/EEE (Article 27 RGPD) :** MindMeeting OÜ, Juhkentali 8, Tallinn 10132, Estonie, agit en tant que notre représentant dans l'Union Européenne en vertu de l'Article 27 du RGPD. Les utilisateurs de l'UE/EEE et les autorités de contrôle peuvent contacter notre représentant pour les questions relatives à la protection des données à privacy@mind.com (objet « EU representative »).
 
-- Informations personnelles : Nom, coordonnées, documents d'identification et autres informations nécessaires à la fourniture de services juridiques.
-- Données de service : Informations relatives aux affaires juridiques, détails des dossiers et correspondance.
-- Données techniques : Adresse IP, type de navigateur, informations sur l'appareil, cookies et données d'utilisation.
+Cette politique couvre uniquement intermind.com et les applications InterMIND. Le site corporate mind.com est exploité séparément et a sa propre politique.
 
-## Comment nous utilisons vos informations
+## 2. Ce que nous collectons et pourquoi
 
-Nous utilisons vos informations pour :
+| Quoi | Détails | Pourquoi (finalité) | Base légale |
+| --- | --- | --- | --- |
+| Données de compte | E-mail, nom d'affichage, photo de profil, préférences linguistiques | Création et exploitation de votre compte | Contrat |
+| Audio/vidéo de réunion | Flux en direct pendant un appel — **transitoires, jamais stockés** (voir §3) | Déroulement de l'appel : transmission, reconnaissance vocale, traduction en temps réel | Contrat |
+| Transcriptions | Discours reconnu et traduit avec les noms des intervenants | Sous-titres/traduction en direct ; disponibles pour les participants après la réunion jusqu'à leur suppression | Contrat |
+| Enregistrements & fichiers | Enregistrements de réunions que vous lancez, pièces jointes du chat, documents | Mettre votre contenu à votre disposition et à celle des participants | Contrat |
+| Résumé d'IA de réunion | Votre transcription de réunion est envoyée **une seule fois, à la fin de la réunion** pour générer un résumé | Résumé post-réunion dans le chat de la réunion | Intérêt légitime (divulgué ici) |
+| Traduction de documents | Contenu des documents que vous soumettez pour traduction | Traduction du document à votre demande | Contrat |
+| Messages de chat | Texte du message et historique des modifications ; les chats de réunion ad-hoc sont purgés à la fin de l'appel | Messagerie | Contrat |
+| Données de facturation | Nom, e-mail, adresse de facturation, enregistrements d'abonnement et d'utilisation. **Les numéros de carte ne touchent jamais nos systèmes** — les paiements sont gérés par Stripe | Facturation des forfaits payants ; obligations fiscales/comptables | Contrat ; obligation légale |
+| Analyses d'utilisation | Événements produit, relectures de session, traces d'erreurs — **uniquement après votre consentement via la bannière de cookies** (l'analyse est désactivée par défaut) | Amélioration du produit, correction des erreurs | Consentement (analyse) ; intérêt légitime (surveillance des erreurs) |
+| E-mails transactionnels | Votre adresse e-mail, codes de connexion uniques, notifications | Notifications de connexion et de service | Contrat |
+| Demandes commerciales | Nom, e-mail, entreprise, message des formulaires de contact/partenaire | Répondre à votre demande | Intérêt légitime |
 
-- Fournir et améliorer nos services juridiques
-- Communiquer avec vous concernant vos affaires juridiques
-- Traiter les paiements et tenir les registres financiers
-- Se conformer aux obligations légales et réglementaires
-- Protéger nos intérêts commerciaux légitimes
+Nous ne vendons pas de données personnelles et nous n'utilisons pas le contenu de vos réunions pour entraîner des modèles d'IA.
 
-## Technologie d'IA et traitement des données
+## 3. Comment les réunions sont traitées
 
-### Utilisation des modèles d'IA
+- **Les flux audio et vidéo ne sont pas stockés.** Ils transitent par notre infrastructure média (hébergée en France) pour la transmission, la reconnaissance vocale et la traduction, et n'existent que pendant la durée de l'appel. Seuls les éléments listés ci-dessus — transcriptions, enregistrements que vous démarrez explicitement, chat — sont conservés.
+- **Les résumés d'IA** sont générés par Mistral AI (France) dans le cadre d'un accord de non-conservation des données : la transcription est traitée une seule fois et n'est ni conservée ni utilisée pour l'entraînement par Mistral.
+- **L'enregistrement est visible par les participants.** Il vous incombe de respecter les lois qui vous sont applicables lors de l'enregistrement ou de la transcription d'une conversation (certaines juridictions exigent le consentement de tous les participants).
 
-Notre site web utilise des modèles d'intelligence artificielle (IA) pour améliorer la prestation de nos services. Voici comment nous traitons vos données lorsque vous interagissez avec nos fonctionnalités basées sur l'IA :
+## 4. Avec qui nous partageons des données (sous-traitants)
 
-#### Collecte des données
+Nous utilisons un petit ensemble de fournisseurs d'infrastructure et de services. La liste complète et versionnée — incluant la finalité, la région de traitement et les garanties de chaque fournisseur — est publiée à [/legal/subprocessors](/legal/subprocessors). Points principaux, vérifiés par rapport à notre infrastructure :
 
-Lorsque vous interagissez avec nos outils d'IA, nous pouvons collecter les informations que vous fournissez lors de ces interactions, y compris les requêtes, les documents téléchargés et l'historique des conversations.
+- L'hébergement des applications, la base de données, les serveurs en temps réel, le stockage d'objets, l'analyse et la surveillance des erreurs fonctionnent tous dans l'**UE** (Francfort, Paris, stockage multi-régional UE).
+- Les médias de réunion, la reconnaissance vocale et la traduction fonctionnent sur une infrastructure en **France**.
+- Stripe (paiements), Google/Microsoft (connexion OAuth facultative) et les entités corporatives de certains fournisseurs hébergés dans l'UE sont basés aux États-Unis — couverts par les clauses contractuelles types et/ou le Cadre de Confidentialité des Données UE-États-Unis.
 
-#### Finalité du traitement
+## 5. Transferts internationaux
 
-Nous utilisons l'IA pour l'aide à la recherche juridique, l'examen de documents, l'analyse de contrats et la fourniture d'informations juridiques préliminaires.
+Le traitement se fait par défaut dans l'UE (voir §4). Lorsqu'une entité corporative d'un fournisseur est en dehors de l'UE/EEE, les transferts sont couverts par les clauses contractuelles types ou un mécanisme d'adéquation.
 
-#### Stockage des données
+Les Émirats arabes unis, où Golden Fish CSP LLC est établie, disposent d'une législation complète sur la protection des données mais ne font pas l'objet d'une décision d'adéquation de l'UE. Lorsque des données personnelles sont consultées depuis, ou transférées vers, un pays en dehors de l'EEE — y compris l'accès par nous pour l'administration du Service — nous nous appuyons sur des garanties appropriées en vertu du Chapitre V du RGPD (clauses contractuelles types et, le cas échéant, le Cadre de Confidentialité des Données UE-États-Unis) ainsi que des mesures techniques supplémentaires telles que le chiffrement en transit et au repos, et un stockage et un traitement épinglés à l'UE. Une copie des garanties pertinentes est disponible sur demande à privacy@mind.com.
 
-Vos interactions avec nos systèmes d'IA sont stockées en toute sécurité sous format crypté. Ces interactions peuvent être conservées pendant une période limitée afin d'améliorer nos services d'IA et d'assurer le contrôle qualité.
+## 6. Conservation des données
 
-#### Fournisseurs d'IA tiers
+Nous conservons votre contenu — enregistrements de réunions, transcriptions, traductions et messages de chat — tant que votre compte ou votre espace de travail d'équipe reste actif, afin qu'il reste disponible pour vous. Vous contrôlez la conservation : vous pouvez supprimer des enregistrements individuels, des canaux ou des messages à tout moment, et la suppression de votre compte efface définitivement tout le contenu associé (dans notre base de données et notre stockage) ainsi que l'annulation de tout abonnement actif. Nous n'imposons pas d'expiration automatique à votre contenu ; vous décidez de la durée de sa conservation.
 
-Dans certains cas, nous pouvons faire appel à des fournisseurs de services d'IA tiers. Dans ce cas, nous nous assurons qu'ils respectent les normes de protection des données appropriées par le biais de garanties contractuelles.
+Certaines données ne sont conservées que de manière transitoire pour des raisons opérationnelles : les exportations de données de compte sont disponibles pendant 7 jours avant leur suppression, les sessions d'invités anonymes sont purgées dans les 24 heures, et les codes de vérification d'e-mail à usage unique sont supprimés à leur expiration.
 
-#### Examen humain
+## 7. Vos droits
 
-Bien que nos systèmes d'IA fonctionnent de manière autonome, certaines interactions peuvent être examinées par nos professionnels du droit pour garantir la précision et la qualité du service.
+Selon votre juridiction (y compris en vertu du RGPD), vous avez le droit d'accéder à vos données, de les rectifier, de les effacer, de les exporter, de vous opposer ou de restreindre certains traitements, et de retirer votre consentement à tout moment.
 
-#### Formation de l'IA
+Deux d'entre eux sont en libre-service, avec effet immédiat :
 
-Nous pouvons utiliser des données anonymisées et agrégées issues des interactions avec l'IA pour améliorer nos systèmes. Les identifiants personnels sont supprimés avant que toute donnée ne soit utilisée à des fins de formation.
+- **Effacement** — supprimez votre compte dans les Paramètres ; cela supprime définitivement vos données de notre base de données et de notre stockage et annule tout abonnement actif.
+- **Portabilité** — exportez l'intégralité des données de votre compte sous forme d'archive ZIP depuis les Paramètres (lien de téléchargement valide pendant 7 jours).
 
-## Partage et transferts de données
+Pour toute autre demande, contactez privacy@mind.com. Si vous êtes dans l'UE/EEE, vous pouvez également déposer une plainte auprès de votre autorité de contrôle locale. Si vous êtes aux Émirats arabes unis, vous disposez de droits équivalents en vertu de la Loi des Émirats arabes unis sur la protection des données personnelles (Décret-loi fédéral n° 45 de 2021), que vous pouvez exercer via le même contact.
 
-Nous pouvons partager vos informations avec :
+## 8. Cookies et analyses
 
-- Entités juridiques affiliées au sein de notre réseau mondial
-- Fournisseurs de services tiers qui nous assistent dans nos opérations
-- Autorités de régulation et organismes gouvernementaux lorsque la loi l'exige
-- Conseillers professionnels et consultants
+Nous utilisons une plateforme de gestion du consentement (Usercentrics) pour vous demander votre consentement avant l'exécution de tout cookie non essentiel ou analyse. L'analyse (PostHog, cloud UE) et la relecture de session sont **désactivées par défaut** et ne démarrent que si vous y consentez. Les cookies essentiels (session, sécurité) ne nécessitent pas de consentement. Vous pouvez modifier votre choix à tout moment via le lien des paramètres de cookies dans le pied de page.
 
-Lors du transfert de données à l'international, nous mettons en œuvre des garanties appropriées conformément aux lois applicables, y compris les clauses contractuelles types, les règles d'entreprise contraignantes et d'autres mécanismes de transfert légalement reconnus.
+## 9. Sécurité
 
-## Vos droits
+TLS pour tout le trafic (HTTPS/WSS, pas de repli en texte clair) ; chiffrement au repos pour la base de données et le stockage d'objets ; aucun mot de passe stocké (codes e-mail à usage unique ou OAuth uniquement) ; cookies de session HTTP-only ; application des rôles côté serveur ; texte vocal nettoyé des journaux côté client ; bases de données isolées par environnement.
 
-Selon votre juridiction, vous pouvez avoir le droit de :
+## 10. Enfants
 
-- Accéder à vos informations personnelles
-- Corriger des informations inexactes
-- Supprimer vos informations personnelles
-- Restreindre ou vous opposer au traitement
-- À la portabilité des données
-- Retirer votre consentement
-- Déposer une plainte auprès d'une autorité de contrôle
+Le Service n'est pas destiné aux enfants. Vous devez avoir au moins 16 ans pour utiliser le Service. Si vous êtes mineur dans votre pays (18 ans aux Émirats arabes unis), vous ne pouvez utiliser le Service qu'avec le consentement et sous la supervision d'un parent ou d'un tuteur légal. Nous ne collectons pas sciemment de données personnelles d'enfants de moins de l'âge applicable ; si vous pensez qu'un enfant nous a fourni des données personnelles, contactez privacy@mind.com et nous les supprimerons.
 
-## Sécurité des données
+## 11. Modifications de cette politique
 
-Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos informations personnelles contre l'accès, l'altération, la divulgation ou la destruction non autorisés.
+Nous publierons toute modification sur cette page et mettrons à jour la date d'entrée en vigueur. Pour les changements importants, nous vous informerons dans le produit ou par e-mail.
 
-## Conservation des données
+## 12. Contact
 
-Nous conservons vos informations personnelles aussi longtemps que nécessaire pour atteindre les objectifs décrits dans cette Politique de Confidentialité, à moins qu'une période de conservation plus longue ne soit requise ou autorisée par la loi.
-
-## Modifications de cette politique
-
-Nous pouvons mettre à jour cette Politique de Confidentialité périodiquement. La version mise à jour sera indiquée par une date révisée et sera accessible sur notre site web.
-
-## Nous contacter
-
-Si vous avez des questions concernant cette Politique de Confidentialité ou nos pratiques en matière de données, veuillez contacter notre Délégué à la Protection des Données à l'adresse suivante :
-
-- **E-mail :** support@mind.com
-- **Adresse :** City Avenue Building, Office 405-070, Port Saeed, Dubai, UAE
-- **Téléphone :** +971 058 574 88 06
-- **WhatsApp :** +971 058 574 88 06
-
-## Informations sur l'entreprise
-
-- **Numéro de licence :** 1414192
-- **Numéro d'enregistrement :** 2411728
+Golden Fish Corporate Services Provider LLC — City Avenue Building, Office 405-070, Port Saeed, Dubai, Émirats arabes unis. E-mail : privacy@mind.com

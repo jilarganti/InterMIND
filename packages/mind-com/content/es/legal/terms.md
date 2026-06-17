@@ -1,79 +1,81 @@
 ---
-title: "Regulaciones Legales para Servicios de IA"
-description: "Términos que rigen el uso de las funciones de IA de InterMIND: exención de responsabilidad sobre el contenido generado por IA, limitaciones del asesoramiento profesional y responsabilidades del usuario."
-updated: "2025-01-01"
+title: Términos de Servicio
+description: Los términos que rigen el uso de InterMIND — su contrato con Golden Fish CSP LLC, planes y facturación, su contenido, uso aceptable, responsabilidad y ley aplicable.
+updated: "2026-06-17"
 ---
 
-# Regulaciones Legales para Servicios de IA
+**Fecha de entrada en vigor: 17 de junio de 2026**
 
-## Términos y Definiciones
+## 1. Acuerdo
 
-Para los fines de esta exención de responsabilidad, los siguientes términos tendrán los significados establecidos a continuación:
+Estos Términos de Servicio ("Términos") son un contrato entre usted y **Golden Fish Corporate Services Provider LLC** ("Golden Fish CSP LLC", "nosotros"), City Avenue Building, Office 405-070, Port Saeed, Dubái, Emiratos Árabes Unidos — el operador de InterMIND, la plataforma de reuniones con traducción de voz en tiempo real disponible en intermind.com y a través de las aplicaciones móviles de InterMIND (el "Servicio"). Al crear una cuenta o utilizar el Servicio, usted acepta estos Términos. Si utiliza el Servicio en nombre de una organización, usted confirma que tiene autoridad para obligarla, y "usted" incluye a dicha organización.
 
-"IA" o "Inteligencia Artificial" se refiere a sistemas o algoritmos informáticos capaces de realizar tareas que normalmente requieren inteligencia humana, incluyendo el aprendizaje, el razonamiento, la resolución de problemas, la comprensión del lenguaje natural y la generación de contenido.
+**Editor y Propietario de la Propiedad Intelectual:** MindMeeting OÜ (Estonia), Juhkentali 8, Tallin 10132, Estonia. **Operador del Servicio y Entidad Contratante:** Golden Fish Corporate Services Provider LLC (Emiratos Árabes Unidos). Las aplicaciones móviles de InterMIND son publicadas en Apple App Store y Google Play por MindMeeting OÜ en nombre de, y bajo licencia de, Golden Fish CSP LLC; su contrato para el Servicio es con Golden Fish CSP LLC.
 
-"Compañía" se refiere a Golden Fish Corporate Services Provider LLC (Número de Registro: 2411728, Número de Licencia: 1414192, Dirección: City Avenue Building, Oficina 405-070, Port Saeed, Dubai, EAU), sus subsidiarias, afiliadas, funcionarios, empleados, agentes y representantes.
+## 2. El Servicio
 
-"Contenido generado por IA" se refiere a cualquier texto, imagen, recomendación, sugerencia, respuesta u otro contenido creado, producido o formulado por nuestros sistemas de IA en respuesta a las entradas o consultas del usuario.
+InterMIND ofrece reuniones en línea con transcripción y traducción de voz en tiempo real, grabaciones de reuniones, chat persistente y dentro de la reunión con traducción de mensajes, traducción de documentos y resúmenes de reuniones generados por IA. La disponibilidad y los límites de las funciones dependen de su plan (véase el §4).
 
-"Usuario" se refiere a cualquier individuo o entidad que accede, utiliza o interactúa con las funciones de IA disponibles en nuestro sitio web o servicios.
+**Precisión de la traducción.** La transcripción y la traducción son producidas por reconocimiento de voz automático y traducción automática. Se proporcionan para la conveniencia de la comunicación y pueden contener errores. No confíe en ellos como única base para decisiones legales, médicas, financieras o de otra índole de gran importancia, y verifique la precisión antes de confiar en cualquier transcripción o traducción.
 
-"Asesoramiento profesional" se refiere a la orientación especializada proporcionada típicamente por profesionales cualificados en campos como el derecho, la medicina, las finanzas, la ingeniería u otras profesiones reguladas que requieren experiencia, certificaciones o licencias específicas.
+## 3. Cuentas
 
-"Datos personales" se refiere a cualquier información relativa a una persona física identificada o identificable, incluyendo, entre otros, nombres, números de identificación, datos de ubicación, identificadores en línea o factores específicos de la identidad física, fisiológica, genética, mental, económica, cultural o social de esa persona.
+Usted inicia sesión con un código de correo electrónico de un solo uso o un proveedor de inicio de sesión de terceros (por ejemplo, Google o Microsoft). Mantenga seguro el acceso a su cuenta de correo electrónico — cualquiera que la controle puede acceder a su cuenta de InterMIND. Usted es responsable de la actividad bajo su cuenta. Los espacios de trabajo de equipo tienen administradores que pueden gestionar miembros, contenido y facturación del espacio de trabajo; si se une a un espacio de trabajo de equipo, sus administradores controlan los datos de ese espacio de trabajo.
 
-"Desarrolladores de IA" se refiere a las entidades, organizaciones o individuos de terceros responsables de crear, entrenar, mantener y actualizar las tecnologías de inteligencia artificial utilizadas por la Compañía. Los Desarrolladores de IA son entidades separadas y distintas de la Compañía y mantienen una responsabilidad independiente por la funcionalidad central, las capacidades y las limitaciones de los sistemas de IA que se están implementando.
+Los invitados pueden unirse a las reuniones sin una cuenta; las sesiones de invitados anónimos son temporales y se eliminan automáticamente (véase la Política de Privacidad).
 
-## Funcionalidad de Inteligencia Artificial
+## 4. Planes, facturación, pruebas
 
-Este sitio web incorpora funciones de inteligencia artificial ("IA") diseñadas para mejorar la experiencia del usuario a través de respuestas automatizadas, generación de contenido y recomendaciones personalizadas. Al utilizar estas funciones de IA, usted reconoce y acepta los siguientes términos y condiciones:
+- **Planes.** El Servicio ofrece un plan gratuito y planes de suscripción de pago. Los planes actuales, los límites (como minutos de traducción mensuales, participantes y almacenamiento) y los precios se enumeran en la página de precios en intermind.com/pricing, que forma parte de estos Términos.
+- **Pago.** Los planes de pago se facturan por suscripción (mensual o anual) a través de nuestro proveedor de pagos, Stripe. Sus datos de tarjeta son gestionados por Stripe y nunca llegan a nuestros sistemas.
+- **Pruebas.** Los planes de pago pueden incluir una prueba gratuita; su duración se muestra al finalizar la compra. A menos que cancele antes de que finalice la prueba, la suscripción comienza automáticamente.
+- **Renovación y cancelación.** Las suscripciones se renuevan automáticamente hasta que se cancelan. Puede cancelar en cualquier momento a través del portal de facturación en Configuración; la cancelación surte efecto al final del período de facturación actual. Salvo lo exigido por la ley aplicable o lo establecido en el §12, las tarifas no son reembolsables y no ofrecemos reembolsos ni créditos por períodos de facturación parciales. Si usted es un consumidor en la UE/EEE o el Reino Unido, tiene un derecho legal de desistimiento de 14 días para los servicios digitales; al comenzar a utilizar un plan de pago durante ese período, usted solicita expresamente la ejecución inmediata y reconoce que pierde el derecho de desistimiento una vez que el servicio se ha realizado completamente. Nada en estos Términos limita los derechos obligatorios del consumidor bajo la ley de su país de residencia.
+- **Cambios de plan y precios.** Podemos cambiar los precios o límites de los planes con al menos 30 días de antelación; los cambios se aplicarán a partir de su próximo período de facturación.
+- **Límites de uso.** Los límites del plan (por ejemplo, minutos de traducción por mes) son aplicados por el Servicio; cuando se alcanza un límite, la función correspondiente se pausa hasta el siguiente período o una actualización.
 
-## Declaración de Cumplimiento de Licencias
+## 5. Su contenido
 
-La Compañía cumple plenamente con todos los términos de uso y mantiene acuerdos de licencia apropiados con los desarrolladores de los modelos de IA utilizados en este sitio web. Todas las tecnologías de IA implementadas por la Compañía están debidamente licenciadas y se utilizan de acuerdo con los términos contractuales establecidos por sus respectivos Desarrolladores de IA. Nuestro cumplimiento de estos acuerdos de licencia garantiza el uso legal y autorizado de las tecnologías de IA dentro de nuestros servicios.
+- **Propiedad.** Usted conserva todos los derechos sobre el contenido que crea o carga — reuniones, grabaciones, transcripciones, mensajes de chat, documentos ("Contenido"). No reclamamos ninguna propiedad.
+- **Licencia de operación.** Usted nos otorga la licencia necesaria para operar el Servicio: para alojar, almacenar, transmitir, transcribir, traducir, resumir y mostrar su Contenido a usted y a las personas con las que lo comparte. Esta licencia termina cuando el Contenido es eliminado. No utilizamos su Contenido para entrenar modelos de IA.
+- **Sus responsabilidades.** Usted es responsable de su Contenido y de su uso de las funciones de grabación y transcripción en cumplimiento con la ley aplicable — algunas jurisdicciones requieren el consentimiento de todos los participantes antes de que una conversación sea grabada o transcrita. El Servicio hace visible la grabación a los participantes, pero la obtención de cualquier consentimiento legalmente requerido es su responsabilidad.
+- **Eliminación y exportación.** Puede eliminar Contenido individual, o su cuenta completa en Configuración (permanente, inmediata, incluye almacenamiento y cancelación de suscripción), y exportar los datos de su cuenta como un archivo ZIP. Consulte la Política de Privacidad para detalles sobre la retención.
 
-## Exactitud de la Información
+## 6. Uso aceptable
 
-La información, el contenido y las respuestas generadas por nuestros sistemas de IA se proporcionan únicamente con fines informativos generales. Si bien nos esforzamos por garantizar la precisión y fiabilidad del contenido generado por IA, dicho contenido puede contener errores, imprecisiones o información desactualizada. La Compañía no garantiza la integridad, exactitud, fiabilidad, idoneidad o disponibilidad de ningún contenido generado por IA.
+Usted acepta no: utilizar el Servicio con fines ilícitos; infringir los derechos de otros (incluida la grabación de personas sin el consentimiento requerido); cargar malware o intentar violar, sondear o sobrecargar el Servicio; revender o marcar en blanco el Servicio sin un acuerdo con nosotros; o interferir con otros usuarios. Podemos suspender o cancelar cuentas que infrinjan estos Términos. Cuando una infracción sea susceptible de ser subsanada, le notificaremos y le daremos una oportunidad razonable (normalmente 14 días) para subsanarla antes de suspender o cancelar su cuenta. Podemos suspender el acceso de inmediato, con notificación tan pronto como sea razonablemente posible, cuando la infracción sea ilegal, suponga un riesgo de seguridad, un riesgo de daño para otros o para el Servicio, o cuando lo exija la ley.
 
-## Limitación de Responsabilidad
+## 7. Privacidad y protección de datos
 
-Bajo ninguna circunstancia la Compañía será responsable de daños directos, indirectos, incidentales, especiales, consecuentes o ejemplares que surjan o estén relacionados de alguna manera con su uso de las funciones de IA en este sitio web. Esto incluye, entre otros, cualquier pérdida, costo o daño de cualquier tipo incurrido como resultado de su dependencia de la información o el contenido generado por nuestros sistemas de IA.
+Nuestra Política de Privacidad (/legal/privacy) describe qué procesamos y por qué; la lista de subprocesadores se publica en [/legal/subprocessors](/legal/subprocessors). Para las organizaciones que lo necesiten, ofrecemos una Adenda de Procesamiento de Datos — solicítela en privacy@mind.com.
 
-## No Asesoramiento Profesional
+## 8. Propiedad intelectual
 
-El contenido y las respuestas generadas por IA no constituyen asesoramiento profesional, opinión o recomendación. Nuestros sistemas de IA no están cualificados para proporcionar servicios legales, médicos, financieros, psicológicos u otros servicios profesionales. No debe confiar en el contenido generado por IA como sustituto del juicio profesional o de la consulta con expertos cualificados en el campo relevante. Siempre busque el consejo de profesionales cualificados con respecto a preguntas o preocupaciones específicas relacionadas con sus circunstancias particulares.
+El Servicio, incluido su software, diseño y marca, está protegido por derechos de propiedad intelectual propiedad de MindMeeting OÜ (Estonia) y/o sus licenciantes y utilizado por Golden Fish CSP LLC. Estos Términos le otorgan solo el derecho a usar el Servicio; no se transfieren otros derechos. Si nos envía comentarios o sugerencias, podemos utilizarlos sin ninguna obligación hacia usted.
 
-## Sin Garantías
+## 9. Servicios de terceros
 
-Las funciones de IA se proporcionan "tal cual" y "según disponibilidad" sin garantías de ningún tipo, ya sean expresas o implícitas. La Compañía no garantiza que las funciones de IA serán ininterrumpidas, oportunas, seguras o estarán libres de errores. Usted reconoce que los problemas técnicos o los cambios en los sistemas de terceros pueden limitar temporal o permanentemente su capacidad para acceder o utilizar las funciones de IA.
+El inicio de sesión a través de Google o Microsoft, y los pagos a través de Stripe, están sujetos a los términos propios de esos proveedores. No somos responsables de los servicios de terceros.
 
-## Recopilación y Uso de Datos
+## 10. Exenciones de responsabilidad
 
-Sus interacciones con nuestras funciones de IA pueden ser recopiladas, almacenadas y analizadas para mejorar nuestros servicios. Esta información ayuda a entrenar y refinar nuestros sistemas de IA para mejorar la experiencia del usuario. Al utilizar nuestras funciones de IA, usted consiente la recopilación, almacenamiento y procesamiento de sus datos de interacción de acuerdo con nuestra Política de Privacidad.
+El Servicio se proporciona "tal cual" y "según disponibilidad". En la máxima medida permitida por la ley, renunciamos a todas las garantías, expresas o implícitas, incluidas las de idoneidad para un fin particular y no infracción. No garantizamos un funcionamiento ininterrumpido o sin errores, ni la precisión de las transcripciones y traducciones (§2). Los compromisos de nivel de servicio, si los hubiera, se aplican solo cuando se acuerdan en un acuerdo escrito separado (por ejemplo, un SLA Enterprise).
 
-## Consentimiento de Entrada del Usuario
+## 11. Limitación de responsabilidad
 
-Al interactuar con nuestros servicios de IA, usted acepta y consiente explícitamente que el modelo de IA procese, analice y utilice la información que proporciona durante sus interacciones. Usted reconoce que cualquier texto, consulta o dato que introduzca puede ser utilizado por el sistema de IA para generar respuestas, mejorar su funcionalidad y potenciar sus capacidades. Este consentimiento se extiende a los Desarrolladores de IA, quienes pueden utilizar interacciones anonimizadas para entrenar y refinar aún más sus modelos. Si no desea que su entrada sea procesada por nuestros sistemas de IA, debe abstenerse de utilizar las funciones de IA disponibles en este sitio web.
+En la máxima medida permitida por la ley aplicable: (a) ninguna de las partes es responsable de daños indirectos, incidentales, especiales, consecuentes o punitivos, o por la pérdida de ganancias, ingresos, datos o buena voluntad, incluso si se ha advertido de la posibilidad; (b) nuestra responsabilidad total acumulada que surja de o esté relacionada con el Servicio o estos Términos se limita al mayor de los honorarios que nos pagó por el Servicio en los 12 meses anteriores al evento que dio lugar a la reclamación, o USD 100; y (c) estos límites no se aplican a la responsabilidad que no pueda ser excluida o limitada bajo la ley aplicable, incluyendo la muerte o lesiones personales causadas por negligencia, por fraude o tergiversación fraudulenta, o por mala conducta intencional o negligencia grave. Cuando la ley de protección al consumidor obligatoria le otorgue mayores derechos, esos derechos prevalecen. Estas limitaciones reflejan una asignación razonable del riesgo y son una base esencial del acuerdo.
 
-## Protección de Datos Personales
+## 12. Terminación
 
-Cualquier dato personal o información sensible compartida durante sus comunicaciones con nuestros sistemas de IA está sujeto a nuestros robustos protocolos de protección de datos. Sin embargo, recomendamos encarecidamente no compartir información personal sensible (como números de seguridad social, detalles de cuentas financieras o historiales médicos) durante las interacciones con nuestras funciones de IA. Si bien implementamos medidas de seguridad estándar de la industria para proteger los datos transmitidos a nuestros sistemas, no podemos garantizar la seguridad absoluta de la información compartida con nuestras funciones de IA. La Compañía no será responsable de ninguna violación, divulgación, pérdida o uso indebido de datos personales que resulte de su divulgación voluntaria de dicha información durante las interacciones con la IA.
+Usted puede dejar de usar el Servicio y eliminar su cuenta en cualquier momento. Podemos suspender o cancelar su acceso por incumplimiento material de estos Términos (con notificación y un período de subsanación razonable cuando el incumplimiento sea subsanable, según lo establecido en el §6), o interrumpir el Servicio con una antelación razonable — en cuyo caso las tarifas prepagadas por el período no utilizado serán reembolsadas pro-rata. Las secciones que por su naturaleza sobreviven a la terminación (por ejemplo, los §§8, 10, 11, 13) lo harán.
 
-## Exención de Responsabilidad sobre el Contenido
+## 13. Ley aplicable y disputas
 
-Nuestros sistemas de IA generan contenido basándose en patrones aprendidos de datos de entrenamiento y ocasionalmente pueden producir contenido que no se alinea con los valores o políticas de la Compañía. La Compañía no respalda todo el contenido generado por sus sistemas de IA. Realizamos esfuerzos razonables para evitar contenido inapropiado, pero no podemos garantizar que todo el contenido generado por IA sea apropiado, preciso o esté alineado con nuestros valores.
+Estos Términos se rigen por las leyes del Centro Financiero Internacional de Dubái (DIFC). Los Tribunales del DIFC tienen jurisdicción exclusiva sobre cualquier disputa que surja de o en relación con estos Términos o el Servicio, y las partes se someten a la jurisdicción de los Tribunales del DIFC. Esta elección de ley aplicable y foro no anula la ley de protección de datos obligatoria aplicable al procesamiento descrito en la Política de Privacidad. Si utiliza el Servicio como consumidor, nada en esta sección le priva de la protección de las disposiciones obligatorias de la ley de su país de residencia, y puede iniciar procedimientos en los tribunales de ese país donde la ley aplicable así lo exija.
 
-## Declaración de Respeto y Responsabilidad Cultural
+## 14. Cambios a estos Términos
 
-La Compañía respeta profundamente las tradiciones, religiones y la gobernanza de todos los países en los que operamos. Cualquier contenido que pueda ser generado por nuestro sistema de IA y que pueda considerarse ofensivo, culturalmente insensible o moralmente inapropiado es únicamente el resultado de un error de la IA y no representa las opiniones, puntos de vista o valores de la Compañía. La responsabilidad de dicho contenido recae en los desarrolladores de la tecnología de IA y no en la Compañía. Estamos comprometidos a fomentar entornos digitales inclusivos y respetuosos, al tiempo que reconocemos las limitaciones técnicas de los sistemas de IA actuales. Se anima a los usuarios que encuentren contenido inapropiado a que lo informen de inmediato para que se puedan tomar las medidas adecuadas.
+Podemos actualizar estos Términos; publicaremos la nueva versión en esta página y actualizaremos la fecha de entrada en vigor, y para cambios materiales le notificaremos en el producto o por correo electrónico antes de que entren en vigor. El uso continuado después de la fecha de entrada en vigor constituye aceptación.
 
-## Modificaciones a las Funciones de IA
+## 15. Contacto
 
-La Compañía se reserva el derecho de modificar, suspender o descontinuar cualquier parte de las funciones de IA sin previo aviso. Podemos actualizar o cambiar las capacidades, funcionalidades o limitaciones de nuestros sistemas de IA en cualquier momento a nuestra entera discreción.
-
-## Responsabilidad del Usuario
-
-Usted es responsable de revisar y evaluar todo el contenido generado por IA antes de confiar en él o implementar cualquier sugerencia. Usted reconoce que asume todos los riesgos asociados con el uso de información o contenido generado por nuestros sistemas de IA.
-
-Al continuar utilizando las funciones de IA en este sitio web, usted reconoce que ha leído, entendido y acepta estar sujeto a esta Exención de Responsabilidad de las Funciones de IA.
+Golden Fish Corporate Services Provider LLC — City Avenue Building, Office 405-070, Port Saeed, Dubái, Emiratos Árabes Unidos. Correo electrónico: privacy@mind.com

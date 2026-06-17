@@ -1,79 +1,81 @@
 ---
-title: "Rechtliche Bestimmungen für KI-Dienste"
-description: "Bestimmungen zur Nutzung von InterMIND KI-Funktionen: Haftungsausschluss für KI-generierte Inhalte, Einschränkungen bei professioneller Beratung und Nutzerverantwortlichkeiten."
-updated: "2025-01-01"
+title: Nutzungsbedingungen
+description: Die Bedingungen für Ihre Nutzung von InterMIND — Ihr Vertrag mit Golden Fish CSP LLC, Pläne und Abrechnung, Ihre Inhalte, zulässige Nutzung, Haftung und anwendbares Recht.
+updated: "2026-06-17"
 ---
 
-# Rechtliche Bestimmungen für KI-Dienste
+**Datum des Inkrafttretens: 17. Juni 2026**
 
-## Begriffe und Definitionen
+## 1. Vereinbarung
 
-Für die Zwecke dieses Haftungsausschlusses haben die folgenden Begriffe die unten dargelegte Bedeutung:
+Diese Nutzungsbedingungen ("Bedingungen") stellen einen Vertrag zwischen Ihnen und **Golden Fish Corporate Services Provider LLC** ("Golden Fish CSP LLC", "wir", "uns"), City Avenue Building, Office 405-070, Port Saeed, Dubai, Vereinigte Arabische Emirate — dem Betreiber von InterMIND, der Meeting-Plattform mit Echtzeit-Sprachübersetzung, verfügbar unter intermind.com und über die InterMIND Mobil-Apps (der "Dienst"). Durch die Erstellung eines Kontos oder die Nutzung des Dienstes akzeptieren Sie diese Bedingungen. Wenn Sie den Dienst im Namen einer Organisation nutzen, bestätigen Sie, dass Sie befugt sind, diese zu binden, und "Sie" schließt in diesem Fall diese Organisation ein.
 
-"KI" oder "Künstliche Intelligenz" bezieht sich auf Computersysteme oder Algorithmen, die in der Lage sind, Aufgaben auszuführen, die typischerweise menschliche Intelligenz erfordern, einschließlich Lernen, Argumentieren, Problemlösen, Verstehen natürlicher Sprache und Generieren von Inhalten.
+**Herausgeber und Inhaber des geistigen Eigentums:** MindMeeting OÜ (Estland), Juhkentali 8, Tallinn 10132, Estland. **Dienstbetreiber und Vertragspartner:** Golden Fish Corporate Services Provider LLC (Vereinigte Arabische Emirate). Die InterMIND Mobil-Apps werden von MindMeeting OÜ im Apple App Store und bei Google Play im Auftrag und unter Lizenz von Golden Fish CSP LLC veröffentlicht; Ihr Vertrag für den Dienst besteht mit Golden Fish CSP LLC.
 
-"Unternehmen" bezieht sich auf Golden Fish Corporate Services Provider LLC (Registernummer: 2411728, Lizenznummer: 1414192, Adresse: City Avenue Building, Office 405-070, Port Saeed, Dubai, UAE), seine Tochtergesellschaften, verbundenen Unternehmen, Führungskräfte, Mitarbeiter, Beauftragten und Vertreter.
+## 2. Der Dienst
 
-"KI-generierte Inhalte" bezieht sich auf jeden Text, jedes Bild, jede Empfehlung, jeden Vorschlag, jede Antwort oder andere Inhalte, die von unseren KI-Systemen als Reaktion auf Benutzereingaben oder -anfragen erstellt, produziert oder formuliert wurden.
+InterMIND bietet Online-Meetings mit Echtzeit-Sprachtranskription und -übersetzung, Meeting-Aufzeichnungen, persistenten und In-Meeting-Chats mit Nachrichtenübersetzung, Dokumentenübersetzung und KI-generierten Meeting-Zusammenfassungen. Die Verfügbarkeit und Einschränkungen der Funktionen hängen von Ihrem Plan ab (siehe §4).
 
-"Nutzer" bezieht sich auf jede Einzelperson oder juristische Person, die auf die auf unserer Website oder unseren Diensten verfügbaren KI-Funktionen zugreift, diese nutzt oder mit ihnen interagiert.
+**Übersetzungsgenauigkeit.** Transkription und Übersetzung werden durch automatische Spracherkennung und maschinelle Übersetzung erstellt. Sie dienen der Kommunikationserleichterung und können Fehler enthalten. Verlassen Sie sich nicht ausschließlich auf diese als Grundlage für rechtliche, medizinische, finanzielle oder andere folgenschwere Entscheidungen und überprüfen Sie die Genauigkeit, bevor Sie sich auf eine Transkription oder Übersetzung verlassen.
 
-"Professionelle Beratung" bezieht sich auf spezialisierte Anleitungen, die typischerweise von qualifizierten Fachleuten in Bereichen wie Recht, Medizin, Finanzen, Ingenieurwesen oder anderen regulierten Berufen bereitgestellt werden, die spezifisches Fachwissen, Zertifizierungen oder Lizenzen erfordern.
+## 3. Konten
 
-"Personenbezogene Daten" bezieht sich auf alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen, einschließlich, aber nicht beschränkt auf Namen, Identifikationsnummern, Standortdaten, Online-Identifikatoren oder Faktoren, die spezifisch für die physische, physiologische, genetische, mentale, wirtschaftliche, kulturelle oder soziale Identität dieser Person sind.
+Sie melden sich mit einem einmaligen E-Mail-Code oder einem Drittanbieter-Anmeldedienst (z.B. Google oder Microsoft) an. Halten Sie den Zugang zu Ihrem E-Mail-Konto sicher – jeder, der es kontrolliert, kann auf Ihr InterMIND-Konto zugreifen. Sie sind für Aktivitäten unter Ihrem Konto verantwortlich. Team-Workspaces haben Administratoren, die Mitglieder, Inhalte und die Abrechnung für den Workspace verwalten können; wenn Sie einem Team-Workspace beitreten, kontrollieren dessen Administratoren die Daten dieses Workspaces.
 
-"KI-Entwickler" bezieht sich auf die Drittunternehmen, Organisationen oder Einzelpersonen, die für die Erstellung, das Training, die Wartung und die Aktualisierung der vom Unternehmen genutzten Technologien der künstlichen Intelligenz verantwortlich sind. Die KI-Entwickler sind vom Unternehmen getrennt und eigenständig und tragen die unabhängige Verantwortung für die Kernfunktionalität, Fähigkeiten und Einschränkungen der implementierten KI-Systeme.
+Gäste können Meetings ohne Konto beitreten; anonyme Gastsitzungen sind temporär und werden automatisch gelöscht (siehe die Datenschutzrichtlinie).
 
-## Funktionalität der Künstlichen Intelligenz
+## 4. Pläne, Abrechnung, Testphasen
 
-Diese Website integriert Funktionen der künstlichen Intelligenz ("KI"), die darauf abzielen, die Benutzererfahrung durch automatisierte Antworten, Inhaltsgenerierung und personalisierte Empfehlungen zu verbessern. Durch die Nutzung dieser KI-Funktionen erkennen Sie die folgenden Bedingungen an und stimmen ihnen zu:
+- **Pläne.** Der Dienst bietet einen kostenlosen Plan und kostenpflichtige Abonnementpläne an. Aktuelle Pläne, Limits (wie monatliche Übersetzungsminuten, Teilnehmer und Speicherplatz) und Preise sind auf der Preisseite unter intermind.com/pricing aufgeführt, die Bestandteil dieser Bedingungen ist.
+- **Zahlung.** Kostenpflichtige Pläne werden per Abonnement (monatlich oder jährlich) über unseren Zahlungsdienstleister Stripe abgerechnet. Ihre Kartendaten werden von Stripe verarbeitet und berühren niemals unsere Systeme.
+- **Testphasen.** Kostenpflichtige Pläne können eine kostenlose Testphase beinhalten; deren Dauer wird beim Bezahlen angezeigt. Sofern Sie nicht vor Ablauf der Testphase kündigen, beginnt das Abonnement automatisch.
+- **Verlängerung und Kündigung.** Abonnements verlängern sich automatisch, bis sie gekündigt werden. Sie können jederzeit über das Abrechnungsportal in den Einstellungen kündigen; die Kündigung wird am Ende des aktuellen Abrechnungszeitraums wirksam. Sofern nicht durch geltendes Recht vorgeschrieben oder in §12 angegeben, sind Gebühren nicht erstattungsfähig und wir gewähren keine Rückerstattungen oder Gutschriften für anteilige Abrechnungszeiträume. Wenn Sie ein Verbraucher in der EU/EWR oder im Vereinigten Königreich sind, haben Sie ein gesetzliches 14-tägiges Widerrufsrecht für digitale Dienste; durch die Nutzung eines kostenpflichtigen Plans während dieser Frist fordern Sie ausdrücklich die sofortige Erbringung der Leistung an und erkennen an, dass Sie das Widerrufsrecht verlieren, sobald der Dienst vollständig erbracht wurde. Nichts in diesen Bedingungen schränkt zwingende Verbraucherrechte nach dem Recht Ihres Wohnsitzlandes ein.
+- **Planänderungen und Preise.** Wir können Planpreise oder Limits mit einer Frist von mindestens 30 Tagen ändern; Änderungen gelten ab Ihrem nächsten Abrechnungszeitraum.
+- **Nutzungslimits.** Plan-Limits (z.B. Übersetzungsminuten pro Monat) werden vom Dienst durchgesetzt; wenn ein Limit erreicht wird, wird die entsprechende Funktion bis zur nächsten Periode oder einem Upgrade pausiert.
 
-## Erklärung zur Lizenzkonformität
+## 5. Ihre Inhalte
 
-Das Unternehmen hält sich vollständig an alle Nutzungsbedingungen und pflegt entsprechende Lizenzvereinbarungen mit den Entwicklern der auf dieser Website verwendeten KI-Modelle. Alle vom Unternehmen implementierten KI-Technologien sind ordnungsgemäß lizenziert und werden gemäß den vertraglichen Bedingungen ihrer jeweiligen KI-Entwickler verwendet. Unsere Einhaltung dieser Lizenzvereinbarungen gewährleistet die rechtmäßige und autorisierte Nutzung von KI-Technologien innerhalb unserer Dienste.
+- **Eigentum.** Sie behalten alle Rechte an den Inhalten, die Sie erstellen oder hochladen – Meetings, Aufzeichnungen, Transkripte, Chat-Nachrichten, Dokumente ("Inhalte"). Wir beanspruchen kein Eigentum.
+- **Betriebslizenz.** Sie erteilen uns die Lizenz, die zum Betrieb des Dienstes erforderlich ist: um Ihre Inhalte zu hosten, zu speichern, zu übertragen, zu transkribieren, zu übersetzen, zusammenzufassen und Ihnen sowie den Personen, mit denen Sie sie teilen, anzuzeigen. Diese Lizenz endet, wenn die Inhalte gelöscht werden. Wir verwenden Ihre Inhalte nicht zum Training von AI Modellen.
+- **Ihre Verantwortlichkeiten.** Sie sind für Ihre Inhalte und für Ihre Nutzung der Aufzeichnungs- und Transkriptionsfunktionen in Übereinstimmung mit geltendem Recht verantwortlich – einige Rechtsordnungen erfordern die Zustimmung aller Teilnehmer, bevor ein Gespräch aufgezeichnet oder transkribiert wird. Der Dienst macht die Aufzeichnung für die Teilnehmer sichtbar, aber die Einholung einer gesetzlich vorgeschriebenen Zustimmung liegt in Ihrer Verantwortung.
+- **Löschen und Exportieren.** Sie können einzelne Inhalte oder Ihr gesamtes Konto in den Einstellungen löschen (permanent, sofort, beinhaltet Speicherplatz und Abonnementkündigung) und Ihre Kontodaten als ZIP-Archiv exportieren. Details zur Speicherung finden Sie in der Datenschutzrichtlinie.
 
-## Genauigkeit der Informationen
+## 6. Zulässige Nutzung
 
-Die von unseren KI-Systemen generierten Informationen, Inhalte und Antworten dienen ausschließlich allgemeinen Informationszwecken. Obwohl wir uns bemühen, die Richtigkeit und Zuverlässigkeit von KI-generierten Inhalten sicherzustellen, können solche Inhalte Fehler, Ungenauigkeiten oder veraltete Informationen enthalten. Das Unternehmen gewährleistet oder garantiert nicht die Vollständigkeit, Richtigkeit, Zuverlässigkeit, Eignung oder Verfügbarkeit von KI-generierten Inhalten.
+Sie stimmen zu, den Dienst nicht zu nutzen für: rechtswidrige Zwecke; die Verletzung von Rechten Dritter (einschließlich der Aufzeichnung von Personen ohne erforderliche Zustimmung); das Hochladen von Malware oder den Versuch, den Dienst zu kompromittieren, zu sondieren oder zu überlasten; den Wiederverkauf oder das White-Labeling des Dienstes ohne eine Vereinbarung mit uns; oder die Störung anderer Nutzer. Wir können Konten, die gegen diese Bedingungen verstoßen, sperren oder kündigen. Wenn ein Verstoß behebbar ist, werden wir Sie benachrichtigen und Ihnen eine angemessene Frist (normalerweise 14 Tage) zur Behebung geben, bevor wir Ihr Konto sperren oder kündigen. Wir können den Zugang sofort sperren, mit Benachrichtigung sobald dies vernünftigerweise praktikabel ist, wenn der Verstoß rechtswidrig ist, ein Sicherheitsrisiko darstellt, anderen oder dem Dienst Schaden zufügt oder wenn dies gesetzlich vorgeschrieben ist.
 
-## Haftungsbeschränkung
+## 7. Datenschutz und Datensicherheit
 
-Unter keinen Umständen haftet das Unternehmen für direkte, indirekte, zufällige, besondere, Folge- oder exemplarische Schäden, die aus Ihrer Nutzung der KI-Funktionen auf dieser Website entstehen oder in irgendeiner Weise damit verbunden sind. Dies umfasst, ist aber nicht beschränkt auf, Verluste, Kosten oder Schäden jeglicher Art, die durch Ihr Vertrauen auf Informationen oder Inhalte entstehen, die von unseren KI-Systemen generiert wurden.
+Unsere Datenschutzrichtlinie (/legal/privacy) beschreibt, was wir verarbeiten und warum; die Liste der Unterauftragsverarbeiter ist unter [/legal/subprocessors](/legal/subprocessors) veröffentlicht. Für Organisationen, die eine benötigen, bieten wir einen Datenverarbeitungszusatz an – fordern Sie diesen unter privacy@mind.com an.
 
-## Keine professionelle Beratung
+## 8. Geistiges Eigentum
 
-KI-generierte Inhalte und Antworten stellen keine professionelle Beratung, Meinung oder Empfehlung dar. Unsere KI-Systeme sind nicht qualifiziert, juristische, medizinische, finanzielle, psychologische oder andere professionelle Dienstleistungen zu erbringen. Sie sollten sich nicht auf KI-generierte Inhalte als Ersatz für professionelles Urteilsvermögen oder die Konsultation qualifizierter Experten im relevanten Bereich verlassen. Suchen Sie immer den Rat qualifizierter Fachleute zu spezifischen Fragen oder Anliegen, die Ihre besonderen Umstände betreffen.
+Der Dienst, einschließlich seiner Software, seines Designs und seiner Marke, ist durch geistige Eigentumsrechte geschützt, die MindMeeting OÜ (Estland) und/oder seinen Lizenzgebern gehören und von Golden Fish CSP LLC genutzt werden. Diese Bedingungen gewähren Ihnen lediglich das Recht zur Nutzung des Dienstes; es werden keine anderen Rechte übertragen. Wenn Sie uns Feedback oder Vorschläge senden, können wir diese ohne Verpflichtung Ihnen gegenüber nutzen.
 
-## Keine Gewährleistungen
+## 9. Drittanbieterdienste
 
-Die KI-Funktionen werden "wie besehen" und "wie verfügbar" ohne jegliche ausdrückliche oder stillschweigende Gewährleistung bereitgestellt. Das Unternehmen garantiert nicht, dass die KI-Funktionen ununterbrochen, zeitgerecht, sicher oder fehlerfrei sind. Sie erkennen an, dass technische Probleme oder Änderungen in Drittsystemen Ihre Fähigkeit, auf die KI-Funktionen zuzugreifen oder diese zu nutzen, vorübergehend oder dauerhaft einschränken können.
+Die Anmeldung über Google oder Microsoft und Zahlungen über Stripe unterliegen den jeweiligen Bedingungen dieser Anbieter. Wir sind nicht verantwortlich für Drittanbieterdienste.
 
-## Datenerhebung und -nutzung
+## 10. Haftungsausschlüsse
 
-Ihre Interaktionen mit unseren KI-Funktionen können gesammelt, gespeichert und analysiert werden, um unsere Dienste zu verbessern. Diese Informationen helfen dabei, unsere KI-Systeme zu trainieren und zu verfeinern, um die Benutzererfahrung zu verbessern. Durch die Nutzung unserer KI-Funktionen stimmen Sie der Erhebung, Speicherung und Verarbeitung Ihrer Interaktionsdaten gemäß unserer Datenschutzrichtlinie zu.
+Der Dienst wird "wie besehen" und "wie verfügbar" bereitgestellt. Soweit gesetzlich zulässig, lehnen wir alle ausdrücklichen oder stillschweigenden Garantien ab, einschließlich der Eignung für einen bestimmten Zweck und der Nichtverletzung von Rechten Dritter. Wir übernehmen keine Gewähr für einen unterbrechungsfreien oder fehlerfreien Betrieb oder für die Genauigkeit von Transkriptionen und Übersetzungen (§2). Service-Level-Verpflichtungen, falls vorhanden, gelten nur, wenn sie in einer separaten schriftlichen Vereinbarung (z.B. einem Enterprise-SLA) vereinbart wurden.
 
-## Zustimmung zur Nutzereingabe
+## 11. Haftungsbeschränkung
 
-Durch die Nutzung unserer KI-Dienste erklären Sie sich ausdrücklich damit einverstanden und stimmen zu, dass das KI-Modell die von Ihnen während Ihrer Interaktionen bereitgestellten Informationen verarbeitet, analysiert und nutzt. Sie erkennen an, dass alle Texte, Anfragen oder Daten, die Sie eingeben, vom KI-System verwendet werden können, um Antworten zu generieren, seine Funktionalität zu verbessern und seine Fähigkeiten zu erweitern. Diese Zustimmung erstreckt sich auch auf KI-Entwickler, die anonymisierte Interaktionen nutzen können, um ihre Modelle weiter zu trainieren und zu verfeinern. Wenn Sie nicht möchten, dass Ihre Eingaben von unseren KI-Systemen verarbeitet werden, sollten Sie die auf dieser Website verfügbaren KI-Funktionen nicht nutzen.
+Soweit nach geltendem Recht zulässig: (a) keine Partei haftet für indirekte, zufällige, besondere, Folge- oder Strafschäden oder für entgangene Gewinne, Einnahmen, Daten oder Goodwill, selbst wenn auf die Möglichkeit hingewiesen wurde; (b) unsere gesamte Gesamthaftung, die sich aus oder im Zusammenhang mit dem Dienst oder diesen Bedingungen ergibt, ist auf den höheren Betrag der Gebühren beschränkt, die Sie uns für den Dienst in den 12 Monaten vor dem schadensverursachenden Ereignis gezahlt haben, oder USD 100; und (c) diese Grenzen gelten nicht für Haftungen, die nach geltendem Recht nicht ausgeschlossen oder begrenzt werden können, einschließlich für Tod oder Körperverletzung durch Fahrlässigkeit, für Betrug oder arglistige Täuschung oder für vorsätzliches Fehlverhalten oder grobe Fahrlässigkeit. Wo zwingendes Verbraucherschutzrecht Ihnen weitergehende Rechte einräumt, gehen diese Rechte vor. Diese Beschränkungen spiegeln eine angemessene Risikoverteilung wider und sind eine wesentliche Grundlage der Vereinbarung.
 
-## Schutz personenbezogener Daten
+## 12. Kündigung
 
-Alle personenbezogenen Daten oder sensiblen Informationen, die während Ihrer Kommunikation mit unseren KI-Systemen geteilt werden, unterliegen unseren robusten Datenschutzprotokollen. Wir raten jedoch dringend davon ab, sensible personenbezogene Informationen (wie Sozialversicherungsnummern, Finanzkontodaten oder medizinische Unterlagen) während der Interaktion mit unseren KI-Funktionen zu teilen. Obwohl wir branchenübliche Sicherheitsmaßnahmen implementieren, um an unsere Systeme übertragene Daten zu schützen, können wir die absolute Sicherheit von Informationen, die mit unseren KI-Funktionen geteilt werden, nicht garantieren. Das Unternehmen haftet nicht für Verletzungen, Offenlegungen, Verluste oder Missbräuche personenbezogener Daten, die sich aus Ihrer freiwilligen Offenlegung solcher Informationen während der KI-Interaktionen ergeben.
+Sie können die Nutzung des Dienstes jederzeit einstellen und Ihr Konto löschen. Wir können Ihren Zugang bei wesentlichem Verstoß gegen diese Bedingungen sperren oder kündigen (mit Benachrichtigung und einer angemessenen Frist zur Behebung, falls der Verstoß behebbar ist, wie in §6 dargelegt), oder den Dienst mit angemessener vorheriger Ankündigung einstellen – in diesem Fall werden vorausbezahlte Gebühren für den ungenutzten Zeitraum anteilig zurückerstattet. Abschnitte, die ihrer Natur nach die Kündigung überdauern (z.B. §§8, 10, 11, 13), bleiben bestehen.
 
-## Inhaltlicher Haftungsausschluss
+## 13. Anwendbares Recht und Streitigkeiten
 
-Unsere KI-Systeme generieren Inhalte basierend auf Mustern, die aus Trainingsdaten gelernt wurden, und können gelegentlich Inhalte produzieren, die nicht mit den Werten oder Richtlinien des Unternehmens übereinstimmen. Das Unternehmen billigt nicht alle von seinen KI-Systemen generierten Inhalte. Wir unternehmen angemessene Anstrengungen, um unangemessene Inhalte zu verhindern, können jedoch nicht garantieren, dass alle KI-generierten Inhalte angemessen, genau oder mit unseren Werten übereinstimmen.
+Diese Bedingungen unterliegen den Gesetzen des Dubai International Financial Centre (DIFC). Die Gerichte des DIFC haben die ausschließliche Zuständigkeit für alle Streitigkeiten, die sich aus oder im Zusammenhang mit diesen Bedingungen oder dem Dienst ergeben, und die Parteien unterwerfen sich der Gerichtsbarkeit der DIFC-Gerichte. Diese Wahl des anwendbaren Rechts und des Gerichtsstands ersetzt nicht das zwingende Datenschutzrecht, das auf die in der Datenschutzrichtlinie beschriebene Verarbeitung anwendbar ist. Wenn Sie den Dienst als Verbraucher nutzen, entzieht Ihnen nichts in diesem Abschnitt den Schutz zwingender Bestimmungen des Rechts Ihres Wohnsitzlandes, und Sie können Verfahren bei den Gerichten dieses Landes einleiten, wo dies nach dem anwendbaren Recht erforderlich ist.
 
-## Erklärung zu kulturellem Respekt und Verantwortung
+## 14. Änderungen dieser Bedingungen
 
-Das Unternehmen respektiert die Traditionen, Religionen und Regierungsführung aller Länder, in denen wir tätig sind, zutiefst. Jegliche Inhalte, die von unserem KI-System generiert werden und als beleidigend, kulturell unsensibel oder moralisch unangemessen angesehen werden könnten, sind ausschließlich das Ergebnis eines KI-Fehlers und repräsentieren nicht die Ansichten, Meinungen oder Werte des Unternehmens. Die Verantwortung für solche Inhalte liegt bei den Entwicklern der KI-Technologie und nicht beim Unternehmen. Wir verpflichten uns, integrative und respektvolle digitale Umgebungen zu fördern und gleichzeitig die technischen Einschränkungen aktueller KI-Systeme anzuerkennen. Nutzer, die auf solche unangemessenen Inhalte stoßen, werden ermutigt, dies umgehend zu melden, damit geeignete Maßnahmen ergriffen werden können.
+Wir können diese Bedingungen aktualisieren; wir werden die neue Version auf dieser Seite veröffentlichen und das Datum des Inkrafttretens aktualisieren, und bei wesentlichen Änderungen werden wir Sie im Produkt oder per E-Mail benachrichtigen, bevor sie in Kraft treten. Die fortgesetzte Nutzung nach dem Datum des Inkrafttretens stellt eine Akzeptanz dar.
 
-## Änderungen an KI-Funktionen
+## 15. Kontakt
 
-Das Unternehmen behält sich das Recht vor, Teile der KI-Funktionen ohne vorherige Ankündigung zu ändern, auszusetzen oder einzustellen. Wir können die Fähigkeiten, Funktionalitäten oder Einschränkungen unserer KI-Systeme jederzeit nach eigenem Ermessen aktualisieren oder ändern.
-
-## Nutzerverantwortung
-
-Sie sind dafür verantwortlich, alle KI-generierten Inhalte zu überprüfen und zu bewerten, bevor Sie sich darauf verlassen oder Vorschläge umsetzen. Sie erkennen an, dass Sie alle Risiken tragen, die mit der Nutzung von Informationen oder Inhalten verbunden sind, die von unseren KI-Systemen generiert wurden.
-
-Durch die fortgesetzte Nutzung der KI-Funktionen auf dieser Website bestätigen Sie, dass Sie diesen Haftungsausschluss für KI-Funktionen gelesen, verstanden und ihm zugestimmt haben.
+Golden Fish Corporate Services Provider LLC — City Avenue Building, Office 405-070, Port Saeed, Dubai, United Arab Emirates. Email: privacy@mind.com

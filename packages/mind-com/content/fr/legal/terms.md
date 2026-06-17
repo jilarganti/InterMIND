@@ -1,79 +1,81 @@
 ---
-title: "Réglementations Légales pour les Services d'IA"
-description: "Conditions régissant l'utilisation des fonctionnalités d'IA d'InterMIND : avertissement sur le contenu généré par l'IA, limitations des conseils professionnels et responsabilités de l'utilisateur."
-updated: "2025-01-01"
+title: Conditions Générales de Service
+description: Les conditions régissant votre utilisation d'InterMIND — votre contrat avec Golden Fish CSP LLC, les forfaits et la facturation, votre contenu, l'utilisation acceptable, la responsabilité et le droit applicable.
+updated: "2026-06-17"
 ---
 
-# Réglementations Légales pour les Services d'IA
+**Date d'entrée en vigueur : 17 juin 2026**
 
-## Termes et Définitions
+## 1. Accord
 
-Aux fins de la présente clause de non-responsabilité, les termes suivants auront les significations définies ci-dessous :
+Les présentes Conditions Générales de Service (les "Conditions") constituent un contrat entre vous et **Golden Fish Corporate Services Provider LLC** ("Golden Fish CSP LLC", "nous"), City Avenue Building, Office 405-070, Port Saeed, Dubaï, Émirats Arabes Unis — l'opérateur d'InterMIND, la plateforme de réunion avec traduction vocale en temps réel disponible sur intermind.com et via les applications mobiles InterMIND (le "Service"). En créant un compte ou en utilisant le Service, vous acceptez les présentes Conditions. Si vous utilisez le Service au nom d'une organisation, vous confirmez avoir l'autorité de l'engager, et "vous" inclut cette organisation.
 
-« IA » ou « Intelligence Artificielle » désigne les systèmes ou algorithmes informatiques capables d'effectuer des tâches qui nécessitent généralement l'intelligence humaine, y compris l'apprentissage, le raisonnement, la résolution de problèmes, la compréhension du langage naturel et la génération de contenu.
+**Éditeur et propriétaire de la propriété intellectuelle :** MindMeeting OÜ (Estonie), Juhkentali 8, Tallinn 10132, Estonie. **Opérateur du Service et Entité Contractante :** Golden Fish Corporate Services Provider LLC (Émirats Arabes Unis). Les applications mobiles InterMIND sont publiées sur l'Apple App Store et Google Play par MindMeeting OÜ au nom et sous licence de Golden Fish CSP LLC ; votre contrat pour le Service est avec Golden Fish CSP LLC.
 
-« Société » désigne Golden Fish Corporate Services Provider LLC (numéro d'enregistrement : 2411728, numéro de licence : 1414192, adresse : City Avenue Building, Office 405-070, Port Saeed, Dubaï, EAU), ses filiales, sociétés affiliées, dirigeants, employés, agents et représentants.
+## 2. Le Service
 
-« Contenu généré par l'IA » désigne tout texte, image, recommandation, suggestion, réponse ou autre contenu créé, produit ou formulé par nos systèmes d'IA en réponse aux entrées ou requêtes de l'utilisateur.
+InterMIND propose des réunions en ligne avec transcription et traduction vocale en temps réel, des enregistrements de réunions, un chat persistant et en réunion avec traduction de messages, la traduction de documents et des résumés de réunions générés par l'IA. La disponibilité et les limites des fonctionnalités dépendent de votre forfait (voir §4).
 
-« Utilisateur » désigne toute personne ou entité qui accède, utilise ou interagit avec les fonctionnalités d'IA disponibles sur notre site web ou nos services.
+**Précision de la traduction.** La transcription et la traduction sont produites par la reconnaissance vocale automatique et la traduction automatique. Elles sont fournies pour faciliter la communication et peuvent contenir des erreurs. Ne vous y fiez pas comme seule base pour des décisions juridiques, médicales, financières ou autres décisions importantes, et vérifiez leur exactitude avant de vous fier à toute transcription ou traduction.
 
-« Conseils professionnels » désigne les conseils spécialisés généralement fournis par des professionnels qualifiés dans des domaines tels que le droit, la médecine, la finance, l'ingénierie ou d'autres professions réglementées nécessitant une expertise, des certifications ou des licences spécifiques.
+## 3. Comptes
 
-« Données personnelles » désigne toute information relative à une personne physique identifiée ou identifiable, y compris, mais sans s'y limiter, les noms, les numéros d'identification, les données de localisation, les identifiants en ligne ou les facteurs spécifiques à l'identité physique, physiologique, génétique, mentale, économique, culturelle ou sociale de cette personne.
+Vous vous connectez avec un code e-mail à usage unique ou via un fournisseur de connexion tiers (par exemple Google ou Microsoft). Maintenez la sécurité de l'accès à votre compte de messagerie — toute personne qui le contrôle peut accéder à votre compte InterMIND. Vous êtes responsable de l'activité de votre compte. Les espaces de travail d'équipe ont des administrateurs qui peuvent gérer les membres, le contenu et la facturation de l'espace de travail ; si vous rejoignez un espace de travail d'équipe, ses administrateurs contrôlent les données de cet espace de travail.
 
-« Développeurs d'IA » désigne les entités, organisations ou individus tiers responsables de la création, de la formation, de la maintenance et de la mise à jour des technologies d'intelligence artificielle utilisées par la Société. Les Développeurs d'IA sont distincts et séparés de la Société et assument une responsabilité indépendante quant à la fonctionnalité, aux capacités et aux limitations fondamentales des systèmes d'IA mis en œuvre.
+Les invités peuvent participer aux réunions sans compte ; les sessions d'invités anonymes sont temporaires et sont purgées automatiquement (voir la Politique de Confidentialité).
 
-## Fonctionnalité de l'Intelligence Artificielle
+## 4. Forfaits, facturation, essais
 
-Ce site web intègre des fonctionnalités d'intelligence artificielle (« IA ») conçues pour améliorer l'expérience utilisateur grâce à des réponses automatisées, la génération de contenu et des recommandations personnalisées. En utilisant ces fonctionnalités d'IA, vous reconnaissez et acceptez les termes et conditions suivants :
+- **Forfaits.** Le Service propose un forfait gratuit et des forfaits d'abonnement payants. Les forfaits actuels, les limites (telles que les minutes de traduction mensuelles, les participants et le stockage) et les prix sont indiqués sur la page de tarification à intermind.com/pricing, qui fait partie des présentes Conditions.
+- **Paiement.** Les forfaits payants sont facturés par abonnement (mensuel ou annuel) via notre fournisseur de paiement, Stripe. Les détails de votre carte sont gérés par Stripe et ne transitent jamais par nos systèmes.
+- **Essais.** Les forfaits payants peuvent inclure un essai gratuit ; sa durée est indiquée lors du paiement. Sauf si vous annulez avant la fin de l'essai, l'abonnement commence automatiquement.
+- **Renouvellement et annulation.** Les abonnements se renouvellent automatiquement jusqu'à leur annulation. Vous pouvez annuler à tout moment via le portail de facturation dans les Paramètres ; l'annulation prend effet à la fin de la période de facturation en cours. Sauf si la loi applicable l'exige ou tel qu'indiqué au §12, les frais ne sont pas remboursables et nous n'accordons pas de remboursements ou de crédits pour les périodes de facturation partielles. Si vous êtes un consommateur dans l'UE/EEE ou au Royaume-Uni, vous disposez d'un droit de rétractation légal de 14 jours pour les services numériques ; en commençant à utiliser un forfait payant pendant cette période, vous demandez expressément une exécution immédiate et reconnaissez que vous perdez le droit de rétractation une fois le service entièrement exécuté. Rien dans les présentes Conditions ne limite les droits obligatoires des consommateurs en vertu de la loi de votre pays de résidence.
+- **Modifications des forfaits et des prix.** Nous pouvons modifier les prix ou les limites des forfaits avec un préavis d'au moins 30 jours ; les modifications s'appliquent à partir de votre prochaine période de facturation.
+- **Limites d'utilisation.** Les limites de forfait (par exemple, les minutes de traduction par mois) sont appliquées par le Service ; lorsqu'une limite est atteinte, la fonctionnalité correspondante est mise en pause jusqu'à la période suivante ou une mise à niveau.
 
-## Déclaration de Conformité en matière de Licences
+## 5. Votre contenu
 
-La Société respecte pleinement toutes les conditions d'utilisation et maintient des accords de licence appropriés avec les développeurs des modèles d'IA utilisés sur ce site web. Toutes les technologies d'IA mises en œuvre par la Société sont dûment concédées sous licence et utilisées conformément aux termes contractuels établis par leurs Développeurs d'IA respectifs. Notre conformité avec ces accords de licence garantit l'utilisation légale et autorisée des technologies d'IA au sein de nos services.
+- **Propriété.** Vous conservez tous les droits sur le contenu que vous créez ou téléchargez — réunions, enregistrements, transcriptions, messages de chat, documents ("Contenu"). Nous ne revendiquons aucune propriété.
+- **Licence d'exploitation.** Vous nous accordez la licence nécessaire pour faire fonctionner le Service : héberger, stocker, transmettre, transcrire, traduire, résumer et afficher votre Contenu à vous et aux personnes avec lesquelles vous le partagez. Cette licence prend fin lorsque le Contenu est supprimé. Nous n'utilisons pas votre Contenu pour entraîner des modèles d'AI.
+- **Vos responsabilités.** Vous êtes responsable de votre Contenu et de votre utilisation des fonctionnalités d'enregistrement et de transcription conformément à la loi applicable — certaines juridictions exigent le consentement de tous les participants avant qu'une conversation ne soit enregistrée ou transcrite. Le Service rend l'enregistrement visible aux participants, mais l'obtention de tout consentement légalement requis relève de votre responsabilité.
+- **Suppression et exportation.** Vous pouvez supprimer du Contenu individuel, ou votre compte entier dans les Paramètres (suppression permanente et immédiate, inclut le stockage et l'annulation de l'abonnement), et exporter les données de votre compte sous forme d'archive ZIP. Consultez la Politique de Confidentialité pour les détails de conservation.
 
-## Exactitude de l'Information
+## 6. Utilisation acceptable
 
-Les informations, le contenu et les réponses générés par nos systèmes d'IA sont fournis à des fins d'information générale uniquement. Bien que nous nous efforcions d'assurer l'exactitude et la fiabilité du contenu généré par l'IA, ce contenu peut contenir des erreurs, des inexactitudes ou des informations obsolètes. La Société ne garantit ni ne cautionne l'exhaustivité, l'exactitude, la fiabilité, l'adéquation ou la disponibilité de tout contenu généré par l'IA.
+Vous vous engagez à ne pas : utiliser le Service à des fins illégales ; enfreindre les droits d'autrui (y compris enregistrer des personnes sans le consentement requis) ; télécharger des logiciels malveillants ou tenter de violer, sonder ou surcharger le Service ; revendre ou proposer le Service en marque blanche sans accord avec nous ; ou interférer avec d'autres utilisateurs. Nous pouvons suspendre ou résilier les comptes qui violent ces Conditions. Lorsqu'une violation est susceptible d'être corrigée, nous vous donnerons un préavis et une opportunité raisonnable (normalement 14 jours) de la corriger avant de suspendre ou de résilier votre compte. Nous pouvons suspendre l'accès immédiatement, avec un préavis dès que raisonnablement possible, lorsque la violation est illégale, présente un risque de sécurité, risque de nuire à d'autres ou au Service, ou lorsque la loi l'exige.
 
-## Limitation de Responsabilité
+## 7. Confidentialité et protection des données
 
-En aucun cas, la Société ne pourra être tenue responsable des dommages directs, indirects, accessoires, spéciaux, consécutifs ou exemplaires découlant de ou liés de quelque manière que ce soit à votre utilisation des fonctionnalités d'IA sur ce site web. Cela inclut, sans s'y limiter, toutes pertes, coûts ou dommages de quelque nature que ce soit résultant de votre confiance dans les informations ou le contenu générés par nos systèmes d'IA.
+Notre Politique de Confidentialité (/legal/privacy) décrit ce que nous traitons et pourquoi ; la liste des sous-traitants est publiée à [/legal/subprocessors](/legal/subprocessors). Pour les organisations qui en ont besoin, nous proposons un Addendum sur le Traitement des Données — demandez-le à privacy@mind.com.
 
-## Pas de Conseils Professionnels
+## 8. Propriété intellectuelle
 
-Le contenu et les réponses générés par l'IA ne constituent pas des conseils professionnels, des opinions ou des recommandations. Nos systèmes d'IA ne sont pas qualifiés pour fournir des services juridiques, médicaux, financiers, psychologiques ou autres services professionnels. Vous ne devez pas vous fier au contenu généré par l'IA comme substitut au jugement professionnel ou à la consultation d'experts qualifiés dans le domaine concerné. Cherchez toujours l'avis de professionnels qualifiés concernant des questions ou des préoccupations spécifiques liées à votre situation particulière.
+Le Service, y compris son logiciel, sa conception et sa marque, est protégé par les droits de propriété intellectuelle détenus par MindMeeting OÜ (Estonie) et/ou ses concédants de licence et utilisés par Golden Fish CSP LLC. Les présentes Conditions vous accordent uniquement le droit d'utiliser le Service ; aucun autre droit n'est transféré. Si vous nous envoyez des commentaires ou des suggestions, nous pouvons les utiliser sans obligation envers vous.
 
-## Aucune Garantie
+## 9. Services tiers
 
-Les fonctionnalités d'IA sont fournies « en l'état » et « selon leur disponibilité », sans garanties d'aucune sorte, expresses ou implicites. La Société ne garantit pas que les fonctionnalités d'IA seront ininterrompues, opportunes, sécurisées ou exemptes d'erreurs. Vous reconnaissez que des problèmes techniques ou des modifications des systèmes tiers peuvent temporairement ou définitivement limiter votre capacité à accéder ou à utiliser les fonctionnalités d'IA.
+La connexion via Google ou Microsoft, et les paiements via Stripe, sont soumis aux propres conditions de ces fournisseurs. Nous ne sommes pas responsables des services tiers.
 
-## Collecte et Utilisation des Données
+## 10. Exclusions de garantie
 
-Vos interactions avec nos fonctionnalités d'IA peuvent être collectées, stockées et analysées afin d'améliorer nos services. Ces informations aident à entraîner et à affiner nos systèmes d'IA pour améliorer l'expérience utilisateur. En utilisant nos fonctionnalités d'IA, vous consentez à la collecte, au stockage et au traitement de vos données d'interaction conformément à notre Politique de Confidentialité.
+Le Service est fourni "tel quel" et "tel que disponible". Dans toute la mesure permise par la loi, nous déclinons toutes les garanties, expresses ou implicites, y compris l'adéquation à un usage particulier et la non-contrefaçon. Nous ne garantissons pas un fonctionnement ininterrompu ou sans erreur, ni l'exactitude des transcriptions et traductions (§2). Les engagements de niveau de service, le cas échéant, ne s'appliquent que s'ils sont convenus dans un accord écrit distinct (par exemple, un SLA Enterprise).
 
-## Consentement de l'Utilisateur pour la Saisie de Données
+## 11. Limitation de responsabilité
 
-En utilisant nos services d'IA, vous acceptez et consentez explicitement à ce que le modèle d'IA traite, analyse et utilise les informations que vous fournissez lors de vos interactions. Vous reconnaissez que tout texte, toute requête ou toute donnée que vous saisissez peut être utilisé par le système d'IA pour générer des réponses, améliorer sa fonctionnalité et renforcer ses capacités. Ce consentement s'étend aux Développeurs d'IA qui peuvent utiliser des interactions anonymisées pour entraîner et affiner davantage leurs modèles. Si vous ne souhaitez pas que votre saisie soit traitée par nos systèmes d'IA, vous devez vous abstenir d'utiliser les fonctionnalités d'IA disponibles sur ce site web.
+Dans toute la mesure permise par la loi applicable : (a) aucune des parties n'est responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs, ou des pertes de profits, de revenus, de données ou de clientèle, même si elle a été informée de cette possibilité ; (b) notre responsabilité totale globale découlant du Service ou des présentes Conditions ou y étant liée est limitée au montant le plus élevé entre les frais que vous nous avez payés pour le Service au cours des 12 mois précédant l'événement donnant lieu à la réclamation, ou 100 USD ; et (c) ces limites ne s'appliquent pas à la responsabilité qui ne peut être exclue ou limitée en vertu de la loi applicable, y compris en cas de décès ou de blessures corporelles causés par négligence, de fraude ou de fausse déclaration frauduleuse, ou de faute intentionnelle ou de négligence grave. Lorsque le droit impératif de la protection des consommateurs vous confère des droits plus étendus, ces droits prévalent. Ces limitations reflètent une répartition raisonnable des risques et constituent une base essentielle de l'accord.
 
-## Protection des Données Personnelles
+## 12. Résiliation
 
-Toutes les données personnelles ou informations sensibles partagées lors de vos communications avec nos systèmes d'IA sont soumises à nos protocoles robustes de protection des données. Cependant, nous déconseillons fortement de partager des informations personnelles sensibles (telles que les numéros de sécurité sociale, les détails de comptes financiers ou les dossiers médicaux) lors des interactions avec nos fonctionnalités d'IA. Bien que nous mettions en œuvre des mesures de sécurité conformes aux normes de l'industrie pour protéger les données transmises à nos systèmes, nous ne pouvons garantir une sécurité absolue des informations partagées avec nos fonctionnalités d'IA. La Société ne pourra être tenue responsable de toute violation, divulgation, perte ou utilisation abusive de données personnelles résultant de votre divulgation volontaire de ces informations lors des interactions avec l'IA.
+Vous pouvez cesser d'utiliser le Service et supprimer votre compte à tout moment. Nous pouvons suspendre ou résilier votre accès en cas de violation substantielle des présentes Conditions (avec un préavis et un délai de correction raisonnable lorsque la violation est corrigible, comme indiqué au §6), ou interrompre le Service avec un préavis raisonnable — auquel cas les frais prépayés pour la période non utilisée seront remboursés au prorata. Les sections qui, par leur nature, survivent à la résiliation (par exemple §§8, 10, 11, 13) le feront.
 
-## Avertissement sur le Contenu
+## 13. Droit applicable et litiges
 
-Nos systèmes d'IA génèrent du contenu basé sur des modèles appris à partir de données d'entraînement et peuvent occasionnellement produire du contenu qui ne correspond pas aux valeurs ou aux politiques de la Société. La Société n'endosse pas tout le contenu généré par ses systèmes d'IA. Nous faisons des efforts raisonnables pour prévenir le contenu inapproprié, mais nous ne pouvons garantir que tout le contenu généré par l'IA sera approprié, exact ou aligné avec nos valeurs.
+Les présentes Conditions sont régies par les lois du Dubai International Financial Centre (DIFC). Les tribunaux du DIFC ont compétence exclusive pour tout litige découlant des présentes Conditions ou du Service ou y étant lié, et les parties se soumettent à la juridiction des tribunaux du DIFC. Ce choix de loi applicable et de for n'écarte pas le droit impératif en matière de protection des données applicable au traitement décrit dans la Politique de Confidentialité. Si vous utilisez le Service en tant que consommateur, rien dans cette section ne vous prive de la protection des dispositions impératives de la loi de votre pays de résidence, et vous pouvez intenter des poursuites devant les tribunaux de ce pays lorsque la loi applicable l'exige.
 
-## Déclaration sur le Respect Culturel et la Responsabilité
+## 14. Modifications des présentes Conditions
 
-La Société respecte profondément les traditions, les religions et la gouvernance de tous les pays dans lesquels nous opérons. Tout contenu qui pourrait être généré par notre système d'IA et qui pourrait être considéré comme offensant, culturellement insensible ou moralement inapproprié est uniquement le résultat d'une erreur de l'IA et ne représente pas les points de vue, opinions ou valeurs de la Société. La responsabilité d'un tel contenu incombe aux développeurs de la technologie d'IA et non à la Société. Nous nous engageons à favoriser des environnements numériques inclusifs et respectueux tout en reconnaissant les limitations techniques des systèmes d'IA actuels. Les utilisateurs qui rencontrent un tel contenu inapproprié sont encouragés à le signaler immédiatement afin que des mesures appropriées puissent être prises.
+Nous pouvons mettre à jour les présentes Conditions ; nous publierons la nouvelle version sur cette page et mettrons à jour la date d'entrée en vigueur, et pour les modifications importantes, nous vous en informerons dans le produit ou par e-mail avant qu'elles ne prennent effet. L'utilisation continue après la date d'entrée en vigueur constitue une acceptation.
 
-## Modifications des Fonctionnalités d'IA
+## 15. Contact
 
-La Société se réserve le droit de modifier, suspendre ou interrompre toute partie des fonctionnalités d'IA sans préavis. Nous pouvons mettre à jour ou modifier les capacités, les fonctionnalités ou les limitations de nos systèmes d'IA à tout moment, à notre seule discrétion.
-
-## Responsabilité de l'Utilisateur
-
-Vous êtes responsable de l'examen et de l'évaluation de tout contenu généré par l'IA avant de vous y fier ou de mettre en œuvre toute suggestion. Vous reconnaissez que vous assumez tous les risques associés à l'utilisation des informations ou du contenu générés par nos systèmes d'IA.
-
-En continuant à utiliser les fonctionnalités d'IA sur ce site web, vous reconnaissez avoir lu, compris et accepté d'être lié par la présente clause de non-responsabilité relative aux fonctionnalités d'IA.
+Golden Fish Corporate Services Provider LLC — City Avenue Building, Office 405-070, Port Saeed, Dubaï, Émirats Arabes Unis. E-mail : privacy@mind.com
