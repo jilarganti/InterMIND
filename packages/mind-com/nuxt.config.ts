@@ -70,14 +70,19 @@ export default defineNuxtConfig({
     },
     // `language` (BCP 47) обязателен для генерации hreflang: без него
     // useLocaleHead() молча не выводит <link rel="alternate"> вообще.
+    // Держим `language` == `code`: при региональном значении (es-419 и т.п.)
+    // i18n выводит ДВА <link rel="alternate"> на один URL (по code и по
+    // language), из-за чего Ahrefs ругается "Page referenced for more than
+    // one language" и "Hreflang annotation invalid". URL-сегменты идут по
+    // короткому `code` (/es, /pt, /zh) — одна взаимная ссылка на локаль.
     locales: [
       { code: "en", language: "en", name: "English", file: "en.json" },
-      { code: "es", language: "es-419", name: "Spanish (Latin America)", file: "es.json" },
-      { code: "pt", language: "pt-BR", name: "Portuguese (Brazilian)", file: "pt.json" },
+      { code: "es", language: "es", name: "Spanish (Latin America)", file: "es.json" },
+      { code: "pt", language: "pt", name: "Portuguese (Brazilian)", file: "pt.json" },
       { code: "fr", language: "fr", name: "French", file: "fr.json" },
       { code: "de", language: "de", name: "German", file: "de.json" },
       { code: "ru", language: "ru", name: "Russian", file: "ru.json" },
-      { code: "zh", language: "zh-CN", name: "Chinese (Simplified)", file: "zh.json" },
+      { code: "zh", language: "zh", name: "Chinese (Simplified)", file: "zh.json" },
     ],
     langDir: "locales",
     restructureDir: "app",
