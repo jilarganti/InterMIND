@@ -43,7 +43,7 @@ const year = new Date().getFullYear()
       </div>
       <div class="meta">
         {{ t("footer.copyright", { year }) }} · <a :href="localePath('/legal/privacy')">{{ t("footer.privacyPolicy") }}</a> ·
-        <a :href="localePath('/legal/terms')">{{ t("footer.aiLegalGuide") }}</a>
+        <a :href="localePath('/legal/terms')">{{ t("footer.termsOfService") }}</a>
       </div>
     </div>
   </footer>
