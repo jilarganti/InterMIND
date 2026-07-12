@@ -48,7 +48,8 @@
     "careers": "Carreras",
     "contacts": "Contactos",
     "copyright": "© Mind.com, {year}.",
-    "newVersionLabel": "Nueva versión: {url}"
+    "newVersionLabel": "Nueva versión: {url}",
+    "brand": "Activos de marca"
   },
   "about": {
     "metaTitle": "Acerca de — Mind.com",
@@ -73,6 +74,37 @@
     "ctaCareersLink": "vacantes",
     "ctaContactsLink": "póngase en contacto",
     "signoff": "— El equipo de Mind.com"
+  },
+  "brand": {
+    "metaTitle": "Activos de marca — Mind.com",
+    "metaDescription": "Descargue el logotipo, la marca, el icono de la aplicación, el favicon y los activos sociales de Mind.com. Archivos de marca oficiales en SVG y PNG, además de guía de color y uso.",
+    "h1": "Activos de marca",
+    "lede": "Todo lo que necesita para representar Mind.com correctamente: la marca en todos los formatos, nuestro color y unas pocas reglas sencillas. Descargue y use tal cual.",
+    "colorTitle": "Color",
+    "usageTitle": "Uso",
+    "usageDo1": "Mantenga un espacio libre alrededor de la marca igual a al menos la mitad de su altura.",
+    "usageDo2": "Use la marca blanca en fondos oscuros o recargados, la marca degradada en fondos claros.",
+    "usageDont1": "No cambie el color, rote, estire ni añada efectos a la marca.",
+    "usageDont2": "No coloque la marca en fondos de bajo contraste donde sea difícil de leer.",
+    "color": {
+      "top": "Degradado superior",
+      "mid": "Degradado medio",
+      "bottom": "Degradado inferior"
+    },
+    "assets": {
+      "markName": "Marca del logotipo",
+      "markDesc": "La marca principal de Mind.com — degradado gris sobre un fondo transparente.",
+      "markWhiteName": "Marca blanca",
+      "markWhiteDesc": "Versión blanca sólida para fondos oscuros.",
+      "avatarName": "Avatar",
+      "avatarDesc": "Marca cuadrada de 512×512 para fotos de perfil y avatares.",
+      "appIconName": "Icono de la aplicación",
+      "appIconDesc": "Cuadrado redondeado de 1024×1024 sobre la placa oscura de la marca — para iOS y Android.",
+      "faviconName": "Favicon",
+      "faviconDesc": "Marcas de tamaño pequeño optimizadas para pestañas del navegador, de 16 a 256 px.",
+      "socialName": "Encabezado social",
+      "socialDesc": "Banner de 1500×500 con la marca centrada sobre el fondo oscuro de la marca."
+    }
   },
   "contacts": {
     "metaTitle": "Contactar con Mind.com",

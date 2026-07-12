@@ -48,7 +48,8 @@
     "careers": "职业发展",
     "contacts": "联系方式",
     "copyright": "© Mind.com, {year}。",
-    "newVersionLabel": "新版本：{url}"
+    "newVersionLabel": "新版本：{url}",
+    "brand": "品牌资产"
   },
   "about": {
     "metaTitle": "关于 — Mind.com",
@@ -73,6 +74,37 @@
     "ctaCareersLink": "招聘职位",
     "ctaContactsLink": "联系我们",
     "signoff": "— Mind.com 团队"
+  },
+  "brand": {
+    "metaTitle": "品牌资产 — Mind.com",
+    "metaDescription": "下载 Mind.com 标志、标识、应用图标、网站图标和社交媒体素材。提供 SVG 和 PNG 格式的官方品牌文件，以及颜色和使用指南。",
+    "h1": "品牌资产",
+    "lede": "正确展示 Mind.com 所需的一切——包括各种格式的标识、我们的品牌色以及一些简单规则。下载后即可使用。",
+    "colorTitle": "颜色",
+    "usageTitle": "使用规范",
+    "usageDo1": "标识周围应留出净空区域，至少为其高度的一半。",
+    "usageDo2": "在深色或复杂背景上使用白色标识，在浅色背景上使用渐变标识。",
+    "usageDont1": "请勿更改标识颜色、旋转、拉伸或添加效果。",
+    "usageDont2": "请勿将标识放置在对比度低的背景上，以免难以辨认。",
+    "color": {
+      "top": "渐变顶部",
+      "mid": "渐变中部",
+      "bottom": "渐变底部"
+    },
+    "assets": {
+      "markName": "标志标识",
+      "markDesc": "Mind.com 的主要标识——透明背景上的灰色渐变。",
+      "markWhiteName": "白色标识",
+      "markWhiteDesc": "纯白色版本，适用于深色背景。",
+      "avatarName": "头像",
+      "avatarDesc": "512×512 像素方形标识，用于个人资料图片和头像。",
+      "appIconName": "应用图标",
+      "appIconDesc": "1024×1024 像素圆角方形，置于品牌深色底板上——适用于 iOS 和 Android。",
+      "faviconName": "网站图标",
+      "faviconDesc": "小尺寸标识，针对浏览器标签页优化，尺寸范围从 16 到 256 像素。",
+      "socialName": "社交媒体横幅",
+      "socialDesc": "1500×500 像素横幅，标识居中置于品牌深色背景上。"
+    }
   },
   "contacts": {
     "metaTitle": "联系 Mind.com",

@@ -48,7 +48,8 @@
     "careers": "Carrières",
     "contacts": "Contacts",
     "copyright": "© Mind.com, {year}.",
-    "newVersionLabel": "Nouvelle version : {url}"
+    "newVersionLabel": "Nouvelle version : {url}",
+    "brand": "Ressources de marque"
   },
   "about": {
     "metaTitle": "À propos — Mind.com",
@@ -73,6 +74,37 @@
     "ctaCareersLink": "postes ouverts",
     "ctaContactsLink": "contactez-nous",
     "signoff": "— L'équipe Mind.com"
+  },
+  "brand": {
+    "metaTitle": "Ressources de marque — Mind.com",
+    "metaDescription": "Téléchargez le logo, la marque, l'icône d'application, le favicon et les ressources sociales de Mind.com. Fichiers de marque officiels en SVG et PNG, ainsi que des directives de couleur et d'utilisation.",
+    "h1": "Ressources de marque",
+    "lede": "Tout ce dont vous avez besoin pour représenter Mind.com correctement : la marque dans tous les formats, nos couleurs et quelques règles simples. Téléchargez et utilisez tel quel.",
+    "colorTitle": "Couleur",
+    "usageTitle": "Utilisation",
+    "usageDo1": "Maintenez un espace clair autour de la marque égal à au moins la moitié de sa hauteur.",
+    "usageDo2": "Utilisez la marque blanche sur des fonds sombres ou chargés, et la marque dégradée sur des fonds clairs.",
+    "usageDont1": "Ne recolorez pas, ne faites pas pivoter, n'étirez pas et n'ajoutez pas d'effets à la marque.",
+    "usageDont2": "Ne placez pas la marque sur des fonds à faible contraste où elle serait difficile à lire.",
+    "color": {
+      "top": "Haut du dégradé",
+      "mid": "Milieu du dégradé",
+      "bottom": "Bas du dégradé"
+    },
+    "assets": {
+      "markName": "Marque du logo",
+      "markDesc": "La marque principale de Mind.com — dégradé de gris sur fond transparent.",
+      "markWhiteName": "Marque blanche",
+      "markWhiteDesc": "Version blanche unie pour les fonds sombres.",
+      "avatarName": "Avatar",
+      "avatarDesc": "Marque carrée 512×512 pour les photos de profil et les avatars.",
+      "appIconName": "Icône d'application",
+      "appIconDesc": "Carré arrondi 1024×1024 sur la plaque sombre de la marque — pour iOS et Android.",
+      "faviconName": "Favicon",
+      "faviconDesc": "Marques de petite taille optimisées pour les onglets de navigateur, de 16 à 256 px.",
+      "socialName": "Bannière sociale",
+      "socialDesc": "Bannière 1500×500 avec la marque centrée sur le fond sombre de la marque."
+    }
   },
   "contacts": {
     "metaTitle": "Contact Mind.com",

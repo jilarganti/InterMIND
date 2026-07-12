@@ -48,7 +48,8 @@
     "careers": "Carreiras",
     "contacts": "Contatos",
     "copyright": "© Mind.com, {year}.",
-    "newVersionLabel": "Nova versão: {url}"
+    "newVersionLabel": "Nova versão: {url}",
+    "brand": "Ativos da Marca"
   },
   "about": {
     "metaTitle": "Sobre — Mind.com",
@@ -73,6 +74,37 @@
     "ctaCareersLink": "vagas",
     "ctaContactsLink": "fale conosco",
     "signoff": "— A equipe Mind.com"
+  },
+  "brand": {
+    "metaTitle": "Ativos da Marca — Mind.com",
+    "metaDescription": "Baixe o logotipo, marca, ícone do aplicativo, favicon e ativos sociais do Mind.com. Arquivos oficiais da marca em SVG e PNG, além de orientações de cores e uso.",
+    "h1": "Ativos da Marca",
+    "lede": "Tudo o que você precisa para representar o Mind.com corretamente — a marca em todos os formatos, nossa cor e algumas regras simples. Baixe e use como está.",
+    "colorTitle": "Cor",
+    "usageTitle": "Uso",
+    "usageDo1": "Mantenha um espaço livre ao redor da marca equivalente a pelo menos metade de sua altura.",
+    "usageDo2": "Use a marca branca em fundos escuros ou com muitos elementos, e a marca gradiente em fundos claros.",
+    "usageDont1": "Não altere a cor, gire, estique ou adicione efeitos à marca.",
+    "usageDont2": "Não coloque a marca em fundos de baixo contraste onde seja difícil de ler.",
+    "color": {
+      "top": "Gradiente superior",
+      "mid": "Gradiente do meio",
+      "bottom": "Gradiente inferior"
+    },
+    "assets": {
+      "markName": "Marca do logotipo",
+      "markDesc": "A marca principal do Mind.com — gradiente cinza em um fundo transparente.",
+      "markWhiteName": "Marca branca",
+      "markWhiteDesc": "Versão branca sólida para fundos escuros.",
+      "avatarName": "Avatar",
+      "avatarDesc": "Marca quadrada 512×512 para fotos de perfil e avatares.",
+      "appIconName": "Ícone do aplicativo",
+      "appIconDesc": "Quadrado arredondado 1024×1024 na placa escura da marca — para iOS e Android.",
+      "faviconName": "Favicon",
+      "faviconDesc": "Marcas de tamanho pequeno otimizadas para abas do navegador, de 16 a 256 px.",
+      "socialName": "Cabeçalho social",
+      "socialDesc": "Banner 1500×500 com a marca centralizada no fundo escuro da marca."
+    }
   },
   "contacts": {
     "metaTitle": "Contato Mind.com",

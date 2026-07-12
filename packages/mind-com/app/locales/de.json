@@ -48,7 +48,8 @@
     "careers": "Karriere",
     "contacts": "Kontakt",
     "copyright": "© Mind.com, {year}.",
-    "newVersionLabel": "Neue Version: {url}"
+    "newVersionLabel": "Neue Version: {url}",
+    "brand": "Marken-Assets"
   },
   "about": {
     "metaTitle": "Über uns — Mind.com",
@@ -73,6 +74,37 @@
     "ctaCareersLink": "offene Stellen",
     "ctaContactsLink": "nehmen Sie Kontakt auf",
     "signoff": "— Das Mind.com-Team"
+  },
+  "brand": {
+    "metaTitle": "Marken-Assets — Mind.com",
+    "metaDescription": "Laden Sie das Mind.com-Logo, -Zeichen, App-Icon, Favicon und Social-Media-Assets herunter. Offizielle Markendateien in SVG und PNG, inklusive Farb- und Nutzungsrichtlinien.",
+    "h1": "Marken-Assets",
+    "lede": "Alles, was Sie benötigen, um Mind.com korrekt darzustellen – das Zeichen in jedem Format, unsere Farbe und ein paar einfache Regeln. Herunterladen und unverändert verwenden.",
+    "colorTitle": "Farbe",
+    "usageTitle": "Nutzung",
+    "usageDo1": "Halten Sie einen Freiraum um das Zeichen, der mindestens der Hälfte seiner Höhe entspricht.",
+    "usageDo2": "Verwenden Sie das weiße Zeichen auf dunklen oder unruhigen Hintergründen, das Farbverlaufszeichen auf hellen.",
+    "usageDont1": "Färben, drehen, strecken oder fügen Sie keine Effekte zum Zeichen hinzu.",
+    "usageDont2": "Platzieren Sie das Zeichen nicht auf kontrastarmen Hintergründen, wo es schwer lesbar ist.",
+    "color": {
+      "top": "Farbverlauf oben",
+      "mid": "Farbverlauf Mitte",
+      "bottom": "Farbverlauf unten"
+    },
+    "assets": {
+      "markName": "Logo-Zeichen",
+      "markDesc": "Das primäre Mind.com-Zeichen – grauer Farbverlauf auf transparentem Hintergrund.",
+      "markWhiteName": "Weißes Zeichen",
+      "markWhiteDesc": "Einfarbige weiße Version für dunkle Hintergründe.",
+      "avatarName": "Avatar",
+      "avatarDesc": "512×512 quadratisches Zeichen für Profilbilder und Avatare.",
+      "appIconName": "App-Icon",
+      "appIconDesc": "1024×1024 abgerundetes Quadrat auf der dunklen Markenplatte – für iOS und Android.",
+      "faviconName": "Favicon",
+      "faviconDesc": "Kleine Zeichen, optimiert für Browser-Tabs, von 16 bis 256 px.",
+      "socialName": "Social-Media-Header",
+      "socialDesc": "1500×500 Banner mit dem Zeichen zentriert auf dem dunklen Markenhintergrund."
+    }
   },
   "contacts": {
     "metaTitle": "Kontakt Mind.com",
