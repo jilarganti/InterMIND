@@ -70,7 +70,13 @@
     "overrides": {
       "undici": ">=5.28.5",
       "esbuild": ">=0.25.0",
-      "jsondiffpatch": ">=0.7.2"
+      "jsondiffpatch": ">=0.7.2",
+      "ws@>=8.0.0 <8.21.0": ">=8.21.0",
+      "vitest@<3.2.6": "~3.2.6",
+      "js-yaml@>=4.0.0": ">=4.2.0",
+      "dompurify": ">=3.4.11",
+      "protobufjs": ">=7.6.3",
+      "@opentelemetry/core": ">=2.8.0"
     },
     "onlyBuiltDependencies": [
       "better-sqlite3",
