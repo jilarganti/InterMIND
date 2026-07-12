@@ -9,6 +9,8 @@ interface TeamMember {
   desc?: string
   country?: string
   avatarLink?: string
+  /** Logo mark rather than a photo — render contained with padding so it doesn't cling to the circle edge. */
+  avatarIsMark?: boolean
   links?: TeamMemberLink[]
 }
 
@@ -25,9 +27,10 @@ const humans = computed<TeamMember[]>(() => [
   {
     name: t("team.humanName"),
     desc: t("team.humans.mindDesc"),
-    avatarLink: "/logo.svg",
+    avatarLink: "/brand/mind-mark-padded.svg",
+    avatarIsMark: true,
     links: [
-      { icon: "mdi:twitter", link: "https://x.com/imindcom" },
+      { icon: "mdi:twitter", link: "https://x.com/intermindcom" },
       { icon: "mdi:linkedin", link: "https://www.linkedin.com/company/mind" },
     ],
   },
@@ -88,7 +91,7 @@ function renderMarkdownBold(s: string): string {
     <ul class="divide-y divide-gray-200 dark:divide-gray-800 border-b border-gray-200 dark:border-gray-800 mb-14">
       <li v-for="m in humans" :key="m.name" class="flex flex-wrap items-center gap-x-4 gap-y-2 py-5">
         <span class="w-12 h-12 rounded-full overflow-hidden bg-gray-100 dark:bg-gray-800 flex items-center justify-center shrink-0">
-          <img v-if="m.avatarLink" :src="m.avatarLink" :alt="m.name" class="w-full h-full object-cover" />
+          <img v-if="m.avatarLink" :src="m.avatarLink" :alt="m.name" :class="m.avatarIsMark ? 'w-3/4 h-3/4 object-contain' : 'w-full h-full object-cover'" />
           <span v-else class="text-xl font-semibold text-gray-400 dark:text-gray-500">{{ m.name.charAt(0) }}</span>
         </span>
         <div class="flex-1 min-w-0">

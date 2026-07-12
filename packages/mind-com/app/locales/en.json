@@ -22,7 +22,8 @@
     "careers": "Careers",
     "contacts": "Contacts",
     "copyright": "© Mind.com, {year}.",
-    "newVersionLabel": "New version: {url}"
+    "newVersionLabel": "New version: {url}",
+    "brand": "Brand Assets"
   },
   "blog": {
     "title": "Blog",
@@ -176,6 +177,37 @@
     "ctaCareersLink": "open roles",
     "ctaContactsLink": "get in touch",
     "signoff": "— The Mind.com team"
+  },
+  "brand": {
+    "metaTitle": "Brand Assets — Mind.com",
+    "metaDescription": "Download the Mind.com logo, mark, app icon, favicon and social assets. Official brand files in SVG and PNG, plus color and usage guidance.",
+    "h1": "Brand Assets",
+    "lede": "Everything you need to represent Mind.com correctly — the mark in every format, our color, and a few simple rules. Download and use as-is.",
+    "colorTitle": "Color",
+    "usageTitle": "Usage",
+    "usageDo1": "Keep clear space around the mark equal to at least half its height.",
+    "usageDo2": "Use the white mark on dark or busy backgrounds, the gradient mark on light ones.",
+    "usageDont1": "Don't recolor, rotate, stretch, or add effects to the mark.",
+    "usageDont2": "Don't place the mark on low-contrast backgrounds where it's hard to read.",
+    "color": {
+      "top": "Gradient top",
+      "mid": "Gradient middle",
+      "bottom": "Gradient bottom"
+    },
+    "assets": {
+      "markName": "Logo mark",
+      "markDesc": "The primary Mind.com mark — grey gradient on a transparent background.",
+      "markWhiteName": "White mark",
+      "markWhiteDesc": "Solid white version for dark backgrounds.",
+      "avatarName": "Avatar",
+      "avatarDesc": "512×512 square mark for profile pictures and avatars.",
+      "appIconName": "App icon",
+      "appIconDesc": "1024×1024 rounded square on the brand dark plate — for iOS and Android.",
+      "faviconName": "Favicon",
+      "faviconDesc": "Small-size marks optimized for browser tabs, from 16 to 256 px.",
+      "socialName": "Social header",
+      "socialDesc": "1500×500 banner with the mark centered on the brand dark background."
+    }
   },
   "home": {
     "vcard": {
