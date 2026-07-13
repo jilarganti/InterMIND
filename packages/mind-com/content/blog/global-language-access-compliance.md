@@ -450,8 +450,8 @@ Learn how [InterMIND helps with compliance](https://intermind.com) through real-
 
 ## ⏰ Critical Deadlines Timeline
 
-<img src="/blog/iStock-2203725394.jpg" alt="UAE dirham" width="500" align="right" style="padding: 1.5rem" class="dark-only"/>
-<img src="/blog/iStock-2206387857.jpg" alt="Emirates NBD" width="500" align="right" style="padding: 1.5rem" class="light-only"/>
+<img src="/blog/iStock-2203725394.jpg" alt="Language access compliance deadlines" width="500" align="right" style="padding: 1.5rem" class="dark-only"/>
+<img src="/blog/iStock-2206387857.jpg" alt="Language access compliance deadlines" width="500" align="right" style="padding: 1.5rem" class="light-only"/>
 
 - **June 2025** – 🇨🇦 Canada - Bill 96: Quebec French language compliance deadline
 - **June 28, 2025** – 🇪🇺 EU - EAA: European Accessibility Act in full effect
@@ -585,8 +585,8 @@ Include:
 
 ## 🔗 Official Resources
 
-<img src="/blog/iStock-491619000.jpg" alt="UAE dirham" width="700" align="right" style="padding: 1.5rem" class="dark-only"/>
-<img src="/blog/iStock-501821118.jpg" alt="Emirates NBD" width="700" align="right" style="padding: 1.5rem" class="light-only"/>
+<img src="/blog/iStock-491619000.jpg" alt="Official language access resources and standards" width="700" align="right" style="padding: 1.5rem" class="dark-only"/>
+<img src="/blog/iStock-501821118.jpg" alt="Official language access resources and standards" width="700" align="right" style="padding: 1.5rem" class="light-only"/>
 
 ### International Standards
 
