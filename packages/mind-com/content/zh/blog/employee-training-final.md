@@ -1,464 +1,152 @@
 ---
-title: "2025 年如何通过实时 AI 翻译增强员工培训"
-description: "企业培训中实施实时 AI 翻译的完整指南。包含多语言团队的统计数据、投资回报率和最佳实践。"
+title: "员工培训中的AI口译 — 构建案例，而非借用"
+description: "实时AI口译能够让多语言培训发挥作用 — 但并非因为某个标题百分比。以下是一个实用且可验证的框架，用于在您自己的团队中进行衡量。"
 date: "2025-11-27"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
 image: "/blog/ai-interpretation-roi-infographic.webp"
 ---
 
-# 2025 年如何通过实时 AI 翻译增强员工培训
+# 员工培训中的AI口译 — 构建案例，而非借用
 
-<p class="subtitle">在员工培训项目中实施实时翻译的实用指南：多语言团队的统计数据、投资回报率和成功策略</p>
+<p class="subtitle">面向多语言团队的企业培训实时AI口译实用指南 — 价值所在以及如何用您自己的数据进行衡量</p>
 
 > **执行摘要：**  
-> 随着全球化进程的加速，企业面临着培训使用不同语言的员工的挑战。传统的真人翻译方法每场次成本为 500-1,500 美元，而 AI 翻译可将成本降低 85-90%，准确率高达 97%。拥有全面培训计划的公司每名员工可创造多 218% 的收入，并且 94% 的员工愿意留在投资其发展的公司。
+> 在培训全球员工时，您的一些员工正在用非母语学习。实时AI口译可以在现场培训和入职中弥合这一差距。但它是否在*您的*组织中获得回报，这是您需要通过试点和自己的指标来回答的问题 — 而不是通过其他人案例研究中的百分比。这是诚实的版本：价值在哪里显现，成本在哪里，以及如何构建一个您能够真正为之辩护的回报数字。
 
-![AI 翻译投资回报率信息图，显示节省 85-90% 的成本和 97% 的翻译准确率](/blog/ai-interpretation-roi-infographic.webp)
+![多语言员工培训中的实时AI口译](/blog/ai-interpretation-roi-infographic.webp)
 
-## 全球企业培训市场：2025 年主要趋势
+## 为什么标题数字无法证明您的预算合理
 
-全球企业培训市场呈现出令人瞩目的增长，2024 年达到 4010 亿美元并持续扩张。企业正在加大对员工发展的投入，认识到培训与业务成果之间的直接联系。
+关于企业培训和AI翻译的令人印象深刻的统计数据不乏其例 — 成本削减、准确性评分、员工收入提升。它们成就了漂亮的幻灯片和糟糕的决策。来自其他人研究的数字反映的是*他们的*员工队伍、*他们的*内容、*他们的*语言组合和*他们的*成本基础 — 而不是您的。
+
+在Mind.com — [InterMIND](https://intermind.com)背后的公司 — 我们宁愿给您一个可以在自己数据上运行的框架，而不是一个您必须凭信念接受的百分比。因此本文的其余部分做两件事：指出多语言培训价值往往出现的地方，并为您提供衡量它是否对您适用的方法。
+
+## 价值真正显现的地方
+
+为培训提供人们母语口译的理由很有说服力 — 但在您用自己的数字支撑之前，它只是定性的。价值往往出现在几个反复出现的地方。将每一个都视为**衡量**的地方，而不是引用的数字。
+
+- **对非母语学习者的覆盖。** 任何目前用第二或第三语言吸收培训的人都在做额外的认知工作来跟上进度。用他们的语言提供相同的课程，理解力会提高 — 问题是对于*您的*内容和*您的*语言对，提高多少。
+- **高风险培训中更少的误解。** 安全、合规和监管内容正是错过细微差别代价昂贵的地方。消除语言障碍不仅消除摩擦，还消除了一类失败。
+- **参与度和保留率。** 能够用自己的语言跟上、提问和贡献的人往往保持更高的参与度 — 而发展中的参与度往往在保留率方面体现出下游效应。
+- **分布式团队的访问。** 现场多语言交付让单一课程能够覆盖地理和语言分散的员工队伍，而不是按语言复制培训师、课程或材料。
+
+注意这些都不是通用的百分比。每一个都是您可以在自己基线上测试的假设。
+
+## 成本所在
+
+可辩护的案例对成本诚实。对于大多数组织，条目是：
+
+- **技术/平台** — 口译能力本身。
+- **高风险内容的人工审核** — 对于安全和监管培训，机器输出是第一步，而不是最终结果。在错误成本高的地方为人工参与预算。
+- **集成和员工赋能** — 将其连接到您的培训堆栈中，让培训师和学习者熟悉它。
+- **术语维护** — 随着时间推移保持您的产品名称、首字母缩略词和行业词汇正确呈现。这是经常性的，不是一次性的，是大多数计划低估的条目。
+
+正确的规模取决于您的规模和范围，所以抵制插入其他人美元数字的诱惑。列出这些的要点是确保您自己的估计中不会悄悄遗漏任何一项。
+
+## 如何构建您能够真正为之辩护的案例
+
+与其导入结果，不如产生自己的：
+
+1. **设定基线。** 衡量重要培训的今天状态 — 您非母语群体的完成率、新员工的生产力时间、培训后的错误或返工率、按语言分解的评估分数。
+2. **选择一到两个指标。** 不要试图捕获一切。选择在您的环境中与生产力或风险最相关的一到两个结果。
+3. **运行范围试点。** 从您最高影响的培训开始 — 通常是安全、合规或入职 — 以及您最重要的一到两个语言对。保持足够小以便清楚衡量。
+4. **衡量前后。** 您自己基线上的增量就是您的证据 — 与借用的百分比不同，您可以逐行为其辩护。
+5. **计算*您的*回报，然后扩展有效的部分。** 现在这个数字有了意义，因为它来自您的数据。
+
+这比引用研究更慢。这也是在财务部门反对时唯一能够经受审查的版本。
 
 <div class="stats-grid">
   <div class="stat-card positive">
-    <div class="stat-number">$401B</div>
-    <div class="stat-label">2024 年全球培训市场规模</div>
+    <div class="stat-number">基线</div>
+    <div class="stat-label">在改变任何事情之前衡量今天的状态</div>
   </div>
   <div class="stat-card neutral">
-    <div class="stat-number">$1,286</div>
-    <div class="stat-label">每名员工的年度投资</div>
+    <div class="stat-number">试点</div>
+    <div class="stat-label">一个高影响培训，您的顶级语言对</div>
   </div>
   <div class="stat-card positive">
-    <div class="stat-number">218%</div>
-    <div class="stat-label">高质量培训带来更高收入</div>
+    <div class="stat-number">前后对比</div>
+    <div class="stat-label">您自己数据上的增量就是您的证据</div>
   </div>
   <div class="stat-card warning">
-    <div class="stat-number">94%</div>
-    <div class="stat-label">投资发展带来员工留存</div>
+    <div class="stat-number">扩展</div>
+    <div class="stat-label">只扩展您的数字真正证明的部分</div>
   </div>
 </div>
 
-_来源：eLearning Industry, SC Training_
+## 衡量什么 — 以及在哪里查看
 
----
-
-## 语言障碍：一项严峻挑战
-
-随着国际团队的增长，语言障碍正成为有效培训的主要障碍之一。2023 年，美国有 3100 万外国出生工人，占总劳动力的 19%。大约一半的移民英语水平有限。
-
-<div class="market-stats">
-  <div class="market-card">
-    <h4>🇺🇸 美国</h4>
-    <div class="market-number">31M</div>
-    <div class="market-label">外国出生工人</div>
-    <div class="market-value">19%</div>
-    <div class="market-desc">占总劳动力的</div>
-  </div>
-
-  <div class="market-card">
-    <h4>🏠 家庭语言</h4>
-    <div class="market-number">22%</div>
-    <div class="market-label">非英语使用者</div>
-    <div class="market-value">9/10</div>
-    <div class="market-desc">雇主需要多语言员工</div>
-  </div>
-
-  <div class="market-card">
-    <h4>📈 需求</h4>
-    <div class="market-number">1/3</div>
-    <div class="market-label">对语言的高度需求</div>
-    <div class="market-value">50%</div>
-    <div class="market-desc">英语水平有限</div>
-  </div>
-</div>
-
-### 培训中语言障碍的后果
-
-<div class="penalty-analysis">
-
-| 问题             | 业务影响                 | 财务后果          |
-| ---------------- | ------------------------ | ----------------- |
-| **知识留存差**   | 员工不理解关键概念       | 生产力下降 20-30% |
-| **合规性违规**   | 不符合安全标准           | 罚款和法律风险    |
-| **参与度低**     | 员工感到被排斥           | 员工流失率增加 35-40% |
-| **重复培训**     | 需要重复培训             | 成本增加 3-5 倍   |
-
-</div>
-
----
-
-## 为何实时 AI 翻译是解决方案
-
-传统上，公司依赖人工翻译员或双语培训师，但这种方法既昂贵又低效。专业的同声传译员每次活动成本为 500-1,500 美元，需要提前预订，并且无法扩展到大量受众。
-
-<div class="success-factors">
-
-<div class="strategy-card">
-
-#### 🌐 可访问性
-
-员工以母语参与培训，理解和参与度提高 **87%**
-
-</div>
-
-<div class="strategy-card">
-
-#### 💰 成本效益
-
-与人工翻译员相比，成本降低 **85-90%**
-
-</div>
-
-<div class="strategy-card">
-
-#### 📈 可扩展性
-
-同时培训 **10 到 10,000** 名员工，无需额外成本
-
-</div>
-
-<div class="strategy-card">
-
-#### 🕐 全天候可用
-
-随时进行紧急培训，无需寻找翻译员
-
-</div>
-
-</div>
-
----
-
-## 实时 AI 翻译的工作原理
-
-实时 AI 翻译技术利用人工智能和机器学习将口语转换为文本，并几乎即时地翻译成目标语言。现代系统凭借神经网络和深度学习实现了 **97% 的准确率**。
-
-_来源：ScienceDirect - 教学中的 AI 翻译_
-
-<div class="technology-comparison">
-
-<div class="solution-card">
-
-#### 🎤 语音识别 (ASR)
-
-捕捉口语并将其转换为文本，对于清晰语音，准确率高达 **95%**。
-
-</div>
-
-<div class="solution-card">
-
-#### 🧠 神经网络翻译 (NMT)
-
-在保持语境的同时翻译文本。现代模型理解语言细微差别。
-
-</div>
-
-<div class="solution-card">
-
-#### 🔊 文本转语音 (TTS)
-
-将翻译后的文本以自然语调转换回声音。
-
-**延迟：** 2-3 秒
-
-</div>
-
-</div>
-
----
-
-## AI 翻译准确性：2025 年数据
-
-得益于 Transformer 架构和深度学习，AI 翻译质量显著提高。然而，准确率因语言对而异。
-
-<div class="revenue-table-wrapper">
-
-| 语言对      | AI 准确率 | 质量   | 建议             |
-| ----------- | --------- | ------ | ---------------- |
-| 🇺🇸↔🇪🇸 EN-Spanish  | 96-98%    | 优秀   | ✅ 可直接使用      |
-| 🇺🇸↔🇫🇷 EN-French   | 95-97%    | 优秀   | ✅ 可直接使用      |
-| 🇺🇸↔🇩🇪 EN-German   | 94-96%    | 非常好 | ✅ 可直接使用      |
-| 🇺🇸↔🇨🇳 EN-Chinese  | 89-92%    | 良好   | ⚠️ 验证关键术语    |
-| 🇺🇸↔🇯🇵 EN-Japanese | 87-90%    | 良好   | ⚠️ 验证关键术语    |
-| 🇺🇸↔🇸🇦 EN-Arabic   | 84-88%    | 可接受 | ⚠️ 额外验证        |
-
-</div>
-
----
-
-## AI 翻译的实际益处
-
-### 提高理解和记忆
-
-当培训以员工的母语进行时，对内容全面理解和材料记忆的可能性显著增加。
-
-<div class="stats-grid">
-  <div class="stat-card positive">
-    <div class="stat-number">60%</div>
-    <div class="stat-label">母语学习记忆效果更佳</div>
-  </div>
-  <div class="stat-card neutral">
-    <div class="stat-number">92%</div>
-    <div class="stat-label">对参与度的积极影响</div>
-  </div>
-  <div class="stat-card positive">
-    <div class="stat-number">70%</div>
-    <div class="stat-label">偏爱在线和自主学习</div>
-  </div>
-</div>
-
-_来源：Levelup LMS_
-
-### 增强包容性
-
-实时 AI 翻译创造了一个每个人都能理解材料、提问和贡献而不会感到被排斥的环境。对于跨国公司进行安全协议的虚拟会议，来自不同国家的员工可以使用实时翻译来理解正在进行中的材料。
-
----
-
-## 成本效益分析
-
-### 成本比较：传统方法 vs. AI 方法
-
-<div class="cost-table-wrapper">
-
-| 方法             | 每次 2 小时会议的成本 | 局限性             | 可扩展性 |
-| ---------------- | --------------------- | ------------------ | -------- |
-| **专业翻译员**   | $500-1,500            | 需要预订，1-2 种语言 | 低       |
-| **双语培训师**   | $300-800              | 语言组合有限       | 低       |
-| **交替传译**     | $400-1,000            | 会议时间翻倍       | 中       |
-| **实时 AI**      | $20-150               | 需要互联网         | **高** ♾️ |
-
-</div>
-
-<div class="healthcare-case">
-
-#### 💵 实时 AI 翻译的投资回报率
-
-**直接成本节省：** 与聘请专业翻译员相比，节省 85-90%
-
-**其他可衡量的好处：**
-
-- ✅ 培训改善使员工流失率降低 40%
-- ✅ 高质量培训后生产力提高 22%
-- ✅ 培训组织时间减少 70%
-- ✅ 所有员工一次性培训，而非重复多次
-
-**典型投资回收期：** 数月至一年
-
-</div>
-
----
-
-## 实施最佳实践
-
-### 1. 选择合适的平台
-
-<div class="exec-recommendations">
-
-#### 选择标准
-
-1.  **语言支持** — 至少 15-20 种主要语言
-2.  **技术术语** — 测试行业特定词汇
-3.  **翻译延迟** — 最多 2-3 秒
-4.  **录制功能** — 保存带有多语言字幕的培训
-5.  **音频质量** — 清晰无失真的声音
-
-</div>
-
-### 2. 准确性测试
-
-<div class="size-recommendations">
-
-<div class="size-card">
-
-#### 🧪 试点测试
-
-- 来自不同语言群体的 15-20 名员工
-- 收集关于准确性和清晰度的反馈
-- 测试公司特定术语
-
-</div>
-
-<div class="size-card">
-
-#### 🎙️ 说话人测试
-
-- 不同培训师口音
-- 快速讲话场景
-- 重叠声音
-
-</div>
-
-<div class="size-card">
-
-#### 📝 文档
-
-- 所有语言的自动转录
-- 关键词搜索功能
-- 用于审计的合规记录
-
-</div>
-
-</div>
-
----
-
-## 实际应用案例
-
-<div class="conclusion-highlights">
-
-<div class="takeaway-card positive">
-  <h4>👋 新员工入职培训</h4>
-  <p>组织将员工留存率提高 <strong>82%</strong>。AI 翻译将适应时间缩短 <strong>40%</strong>，并将早期生产力提高 <strong>35%</strong>。</p>
-</div>
-
-<div class="takeaway-card warning">
-  <h4>⚠️ 合规与安全培训</h4>
-  <p>实施多语言安全培训后，工作场所事故减少 <strong>45%</strong>，合规指标提高 <strong>60%</strong>。</p>
-</div>
-
-<div class="takeaway-card neutral">
-  <h4>🚀 销售产品培训</h4>
-  <p>通过实时翻译，产品上市时间缩短 <strong>50%</strong>，信息一致性提高 <strong>70%</strong>。</p>
-</div>
-
-<div class="takeaway-card positive">
-  <h4>🔧 技术培训</h4>
-  <p>当以母语进行培训时，认证结果提高 <strong>38%</strong>，技术采纳速度提高 <strong>45%</strong>。</p>
-</div>
-
-</div>
-
----
-
-## 挑战与局限
-
-<div class="penalty-analysis">
-
-#### 技术局限与解决方案
-
-**🎤 口音和语速**  
-AI 可能难以处理强口音或快速讲话。  
-_解决方案:_ 培训师应清晰、中速讲话。
-
-**📚 行业术语**  
-专业术语可能翻译不准确。  
-_解决方案:_ 提前为参与者准备词汇表以供查阅。
-
-**🌐 互联网依赖**  
-大多数解决方案需要稳定的连接。  
-_解决方案:_ 确保关键会议有高质量 Wi-Fi 和备用通道。
-
-**🌍 文化敏感性**  
-AI 可能错过文化语境。  
-_解决方案:_ 培训师澄清特定文化点。
-
-</div>
-
----
-
-## AI 翻译趋势 2025-2026
-
-<div class="technology-comparison">
-
-<div class="solution-card">
-
-#### 🤝 混合模式：AI + 人工
-
-到 2025 年，占所有翻译服务的 **40%**。AI 处理常规任务，人工介入复杂场景。
-
-</div>
-
-<div class="solution-card">
-
-#### 🎯 个性化翻译
-
-AI 学习用户偏好、口音、声音特征和说话模式，以提供定制翻译。
-
-</div>
-
-<div class="solution-card">
-
-#### 🌍 稀有语言支持
-
-到 2025 年底，地区语言覆盖率增加 **50%**。重点关注非洲、东南亚、南美洲。
-
-</div>
-
-</div>
-
----
-
-## 衡量培训效果
+您不需要虚构的数字来知道哪些信号值得跟踪。检测与您基线相关的信号，并观察试点如何移动它们。
 
 <div class="kpi-grid">
 
 <div class="kpi-card">
   <h5>📊 完成率</h5>
-  <div class="kpi-target">目标：≥ 90%</div>
-  <div class="kpi-tool">LMS 分析</div>
+  <div class="kpi-target">非母语与母语群体</div>
+  <div class="kpi-tool">LMS分析</div>
 </div>
 
 <div class="kpi-card">
-  <h5>📝 测试结果</h5>
-  <div class="kpi-target">差异：< 10%</div>
-  <div class="kpi-tool">按语言分数比较</div>
+  <h5>📝 评估分数</h5>
+  <div class="kpi-target">按学习者语言的差距</div>
+  <div class="kpi-tool">分数比较</div>
 </div>
 
 <div class="kpi-card">
-  <h5>😊 满意度</h5>
-  <div class="kpi-target">目标：≥ 4.0/5.0</div>
+  <h5>⏱️ 生产力时间</h5>
+  <div class="kpi-target">新员工，按语言</div>
+  <div class="kpi-tool">管理者检查</div>
+</div>
+
+<div class="kpi-card">
+  <h5>🔁 错误/返工</h5>
+  <div class="kpi-target">培训后错误</div>
+  <div class="kpi-tool">质量/事件日志</div>
+</div>
+
+<div class="kpi-card">
+  <h5>😊 学习者满意度</h5>
+  <div class="kpi-target">按语言分段</div>
   <div class="kpi-tool">培训后调查</div>
 </div>
 
-<div class="kpi-card">
-  <h5>💼 技能应用</h5>
-  <div class="kpi-target">目标：≥ 75%</div>
-  <div class="kpi-tool">经理评估 30-60 天</div>
 </div>
 
-<div class="kpi-card">
-  <h5>💰 培训投资回报率</h5>
-  <div class="kpi-target">目标：≥ 200%</div>
-  <div class="kpi-tool">生产力对比成本</div>
-</div>
+重点不是达到其他人发布的目标。而是看一旦语言障碍被消除，*您的*非母语群体是否在*您的*母语群体上缩小差距。
 
-</div>
+## 对局限性诚实
 
----
+实时AI口译确实有用，但它不是在每种语言和每个主题上都有统一的质量，假装如此会让试点注定失败。
 
-## 主要收获
+- **质量取决于语言对和主题。** 高资源语言对和结构良好的内容处理得很好；低资源语言对和密集、术语繁重的材料更难。"平均准确性"数字恰恰隐藏了您关心的语言对 — 所以不要基于一个数字购买。参见[如何实际验证翻译准确性](/blog/ai-translation-accuracy-market-study)而不是相信标题百分比。
+- **高风险内容需要人工参与。** 对于安全和监管培训，将机器口译视为第一步，在误译带来真正后果的地方保持人工审核。
+- **定制术语很重要。** 开箱即用，模型不会知道您的产品名称、首字母缩略词或内部简写。您控制的词汇表是保持术语正确呈现的关键。
 
-<div class="stats-grid">
-  <div class="stat-card positive">
-    <div class="stat-number">218%</div>
-    <div class="stat-label">每名员工更多收入</div>
-  </div>
-  <div class="stat-card positive">
-    <div class="stat-number">85-90%</div>
-    <div class="stat-label">与传统方法相比成本降低</div>
-  </div>
-  <div class="stat-card neutral">
-    <div class="stat-number">97%</div>
-    <div class="stat-label">主要语言的 AI 准确率</div>
-  </div>
-  <div class="stat-card warning">
-    <div class="stat-number">60%</div>
-    <div class="stat-label">母语学习记忆效果更佳</div>
-  </div>
-</div>
+在资金方面：您应该信任的回报数字是您衡量的，不是您继承的。如果您想要该论点的一般版本，我们单独写了 — [构建ROI数字，不要借用它](/blog/language-access-roi-research-study)。
 
----
+## InterMIND的定位
 
-## 准备好革新企业培训了吗？
+许多培训价值存在于现场交付中 — 入职会议、安全简报、产品推出 — 在这些场合没有时间先将脚本发送出去翻译。这就是InterMIND为之构建的问题：实时多语言会议和培训，每位参与者在事情发生时用自己的语言听取会议内容，语调和意图保持完整。
+
+对于由风险和合规驱动案例的培训计划，使回报*可辩护*的部分与我们使之可检查的部分相同：
+
+- **定制词汇表**，因此您的企业和行业术语按您要求的方式呈现。
+- **审计跟踪**，因此传达的内容可以在事后审查 — 在监管部门通常是硬性要求。
+- **现场多语言入职和培训**，因此单一会议可以覆盖分布式、多语言的员工队伍，而无需按语言复制。
+
+:::tip{title="构建数字，不要借用"}
+AI口译培训最有用的数字是您在自己团队上衡量的。我们宁愿帮助您构建它而不是给您我们的 — 看看InterMIND如何在[intermind.com](https://intermind.com)支持现场多语言培训。
+:::
+
+## 准备在您自己的培训上测试它吗？
 
 <div class="cta-section">
 
-试用我们集成了 **15+ 种语言**实时 AI 翻译的视频会议平台。开展全球培训，无语言障碍。
+在您最高影响的培训上运行范围试点，使用实时AI口译。带上您自己的基线 — 并为自己衡量差异。
 
 <a href="https://inter.mind.com/" class="cta-button">开始免费试用 →</a>
 
-_前 25 次会议免费 — 无需信用卡_
+_前25次会议免费 — 无需信用卡_
 
 </div>
 
@@ -524,222 +212,6 @@ _前 25 次会议免费 — 无需信用卡_
   font-weight: 500;
 }
 
-.market-stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5em;
-  margin: 2em 0;
-}
-
-.market-card {
-  background: linear-gradient(135deg, var(--vp-c-brand-soft) 0%, var(--vp-c-brand-softer) 100%);
-  padding: 2em;
-  border-radius: 12px;
-  text-align: center;
-  border: 2px solid var(--vp-c-brand);
-  color: var(--vp-c-text-1);
-}
-
-.market-card h4 {
-  margin-top: 0;
-  margin-bottom: 1em;
-  color: var(--vp-c-brand);
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-.market-number {
-  font-size: 2.2em;
-  font-weight: bold;
-  color: var(--vp-c-brand);
-  margin-bottom: 0.2em;
-}
-
-.market-label {
-  font-size: 0.9em;
-  color: var(--vp-c-text-2);
-  margin-bottom: 1em;
-}
-
-.market-value {
-  font-size: 1.8em;
-  font-weight: bold;
-  color: #28a745;
-  margin-bottom: 0.2em;
-}
-
-.market-desc {
-  font-size: 0.9em;
-  color: var(--vp-c-text-2);
-}
-
-.penalty-analysis {
-  background: var(--vp-c-bg-soft);
-  padding: 2em;
-  border-radius: 12px;
-  margin: 2em 0;
-  border-left: 4px solid #ffc107;
-}
-
-.penalty-analysis h4 {
-  font-weight: bold;
-}
-
-.success-factors {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5em;
-  margin: 2em 0;
-}
-
-.strategy-card {
-  background: var(--vp-c-bg-soft);
-  padding: 1.5em;
-  border-radius: 8px;
-  border-top: 3px solid var(--vp-c-brand);
-}
-
-.strategy-card h4 {
-  font-weight: bold;
-  margin-top: 0;
-}
-
-.technology-comparison {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5em;
-  margin: 2em 0;
-}
-
-.solution-card {
-  background: var(--vp-c-bg-soft);
-  padding: 1.5em;
-  border-radius: 8px;
-  border-top: 3px solid var(--vp-c-brand);
-}
-
-.solution-card h4 {
-  font-weight: bold;
-  margin-top: 0;
-}
-
-.revenue-table-wrapper {
-  overflow-x: auto;
-  margin: 2em 0;
-  background: var(--vp-c-bg-soft);
-  border-radius: 8px;
-  padding: 1em;
-}
-
-.cost-table-wrapper {
-  overflow-x: auto;
-  margin: 2em 0;
-  background: var(--vp-c-bg-soft);
-  border-radius: 8px;
-  padding: 1em;
-}
-
-.cost-table-wrapper table {
-  background: var(--vp-c-bg-soft);
-}
-
-.cost-table-wrapper th,
-.cost-table-wrapper td {
-  color: var(--vp-c-text-1);
-}
-
-.healthcare-case {
-  background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
-  padding: 2em;
-  border-radius: 12px;
-  margin: 2em 0;
-  border: 2px solid #28a745;
-  color: #155724;
-}
-
-.healthcare-case h4 {
-  color: #155724;
-  font-weight: bold;
-  margin-top: 0;
-}
-
-.exec-recommendations {
-  background: linear-gradient(135deg, var(--vp-c-brand-soft) 0%, var(--vp-c-brand-softer) 100%);
-  padding: 2em;
-  border-radius: 12px;
-  margin: 2em 0;
-  border: 2px solid var(--vp-c-brand);
-  color: var(--vp-c-text-1);
-}
-
-.exec-recommendations h4 {
-  color: var(--vp-c-brand);
-  font-weight: bold;
-  margin-top: 0;
-}
-
-.size-recommendations {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5em;
-  margin: 2em 0;
-}
-
-.size-card {
-  background: var(--vp-c-bg-soft);
-  padding: 1.5em;
-  border-radius: 8px;
-  border-left: 4px solid var(--vp-c-brand);
-}
-
-.size-card h4 {
-  font-weight: bold;
-  margin-top: 0;
-}
-
-.conclusion-highlights {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5em;
-  margin: 2em 0;
-}
-
-.takeaway-card {
-  padding: 1.5em;
-  border-radius: 8px;
-  border: 2px solid;
-}
-
-.takeaway-card.positive {
-  background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
-  border-color: #28a745;
-  color: #155724;
-}
-
-.takeaway-card.warning {
-  background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
-  border-color: #ffc107;
-  color: #856404;
-}
-
-.takeaway-card.neutral {
-  background: linear-gradient(135deg, #d1ecf1 0%, #bee5eb 100%);
-  border-color: #17a2b8;
-  color: #0c5460;
-}
-
-.takeaway-card h4 {
-  margin-top: 0;
-  margin-bottom: 1em;
-  color: inherit;
-  font-weight: bold;
-}
-
-.takeaway-card p {
-  color: inherit;
-  margin: 0;
-}
-
 .kpi-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -762,7 +234,7 @@ _前 25 次会议免费 — 无需信用卡_
 }
 
 .kpi-target {
-  font-size: 1.2em;
+  font-size: 1.05em;
   font-weight: bold;
   color: var(--vp-c-text-1);
   margin: 0.5em 0;
@@ -802,19 +274,9 @@ _前 25 次会议免费 — 无需信用卡_
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
-  .technology-comparison,
-  .success-factors,
-  .size-recommendations {
-    grid-template-columns: 1fr;
-  }
-}
-
 @media (max-width: 480px) {
   .stats-grid,
-  .market-stats,
-  .kpi-grid,
-  .conclusion-highlights {
+  .kpi-grid {
     grid-template-columns: 1fr;
   }
 }
