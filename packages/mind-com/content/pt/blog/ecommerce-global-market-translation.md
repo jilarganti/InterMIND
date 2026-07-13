@@ -1,122 +1,128 @@
 ---
-title: "Tradução em Tempo Real para E-Commerce: Como Entrar no Mercado Global"
-description: "Guia completo para usar a tradução por IA em tempo real para expansão internacional de e-commerce. Estatísticas de mercado, ROI e melhores práticas."
+title: "Tradução em Tempo Real para E-commerce: Como Entrar no Mercado Global"
+description: "Uma estrutura para usar a tradução por IA em tempo real para expandir o e-commerce internacionalmente: como entender o mercado, onde as barreiras linguísticas custam vendas e o que medir em sua própria loja em vez de confiar em números de terceiros."
 date: "2026-01-28"
 author: "[Nataliya Agafonova](https://www.linkedin.com/in/nataliya-agafonova-25340448/)"
 image: "/blog/ecommerce-localization-roi-infographic.webp"
 ---
 
-# Tradução em Tempo Real para E-Commerce: Como Entrar no Mercado Global
+# Tradução em Tempo Real para E-commerce: Como Entrar no Mercado Global
 
-<p class="subtitle">Guia analítico para a expansão internacional do e-commerce usando tradução por IA: estatísticas de mercado, impacto das barreiras linguísticas na conversão e estratégias de escalabilidade</p>
+<p class="subtitle">Um guia prático para a expansão do e-commerce internacional usando tradução por IA: como entender a oportunidade, onde as barreiras linguísticas realmente custam vendas e o que medir em sua própria loja em vez de confiar em números de terceiros</p>
 
-> **Principais Conclusões:**  
-> O mercado de e-commerce transfronteiriço crescerá de US$ 551 bilhões em 2025 para US$ 2 trilhões até 2034. Enquanto isso, 76% dos compradores preferem produtos com informações em seu idioma nativo, e 40% nunca comprarão de um site em outro idioma. Empresas com sites multilíngues veem aumentos de vendas de 25% a 70%, e cada US$ 1 investido em localização retorna US$ 25.
+> **Principais Pontos:**  
+> O e-commerce transfronteiriço é vasto e está crescendo mais rápido do que o varejo online em geral. Os consumidores preferem consistentemente comprar em sua própria língua, e muitos simplesmente não comprarão de uma loja que não conseguem ler — portanto, remover a barreira linguística é uma alavanca real, não um 'algo a mais'. O tamanho dessa alavanca depende do seu catálogo, mercados e margens. Em vez de repetir uma porcentagem de um estudo de terceiros, este guia oferece uma estrutura e informa o que medir em sua própria loja.
 
-![Infográfico de ROI de localização em e-commerce mostrando 76% de preferência por idioma nativo e aumento de 25-70% nas vendas](/blog/ecommerce-localization-roi-infographic.webp)
+![Localização de e-commerce: ilustração da remoção de barreiras linguísticas para alcançar compradores internacionais](/blog/ecommerce-localization-roi-infographic.webp)
 
-## Escala da Oportunidade: O Mercado Global de E-Commerce Transfronteiriço
+## Escala da Oportunidade: O Mercado Global de E-commerce Transfronteiriço
 
-O mercado global de e-commerce transfronteiriço está experimentando um crescimento explosivo. O comércio transfronteiriço representa aproximadamente 20% de todas as vendas online globalmente e está superando o crescimento geral do e-commerce em 28,3%.
+O mercado global de e-commerce transfronteiriço é vasto e está crescendo rapidamente. As previsões dos analistas variam amplamente em metodologia, mas concordam na direção: o comércio transfronteiriço é uma parcela significativa e crescente das vendas online, e tende a crescer mais rápido do que o varejo online em geral. Trate qualquer valor em dólar ou taxa de crescimento que você veja (incluindo nos relatórios abaixo) como a estimativa de uma empresa para seu mercado definido — não um fato sobre o seu.
 
 <div class="stats-grid">
   <div class="stat-card positive">
-    <div class="stat-number">$551B</div>
-    <div class="stat-label">Tamanho do Mercado 2025</div>
+    <div class="stat-number">Vasto</div>
+    <div class="stat-label">Mercado Transfronteiriço Atual</div>
   </div>
   <div class="stat-card neutral">
-    <div class="stat-number">$2T</div>
-    <div class="stat-label">Previsão para 2034</div>
+    <div class="stat-number">Em Crescimento</div>
+    <div class="stat-label">Previsão de Vários Anos</div>
   </div>
   <div class="stat-card positive">
-    <div class="stat-number">15.4%</div>
-    <div class="stat-label">CAGR 2025-2034</div>
+    <div class="stat-number">Dois Dígitos</div>
+    <div class="stat-label">Estimativas Típicas de Crescimento Anual</div>
   </div>
   <div class="stat-card warning">
-    <div class="stat-number">28.3%</div>
-    <div class="stat-label">Mais Rápido que o E-commerce Geral</div>
+    <div class="stat-number">Mais Rápido</div>
+    <div class="stat-label">Do que o E-commerce Geral</div>
   </div>
 </div>
 
-_Fontes: Precedence Research, Capital One Shopping_
+_A direção é bem suportada por relatórios de analistas (por exemplo, Precedence Research, Capital One Shopping); os números exatos diferem por fonte e definição, por isso não repetimos um único como fato._
+
+:::tip{title="Por que este guia evita porcentagens precisas"}
+Um dado de um estudo de terceiros reflete o mercado, o ano e a metodologia deles — não os seus. Preferimos oferecer uma estrutura a uma porcentagem que você acreditaria por fé. Onde esta publicação poderia citar um número, ela, em vez disso, diz qual métrica extrair da sua própria loja. Essa é a diferença entre marketing e medição.
+:::
 
 ---
 
 ## Estrutura do Mercado Regional
 
-A região Ásia-Pacífico domina o mercado de e-commerce transfronteiriço, enquanto a América do Norte demonstra as maiores taxas de crescimento.
+Os analistas concordam amplamente que a região Ásia-Pacífico lidera o e-commerce transfronteiriço em volume, enquanto a América do Norte é frequentemente citada entre as regiões de crescimento mais rápido. Use isso para priorizar, não para planejar receita — as participações abaixo são direcionais, não precisas.
 
 <div class="market-stats">
   <div class="market-card">
     <h4>🌏 Região Ásia-Pacífico</h4>
-    <div class="market-number">40%+</div>
-    <div class="market-label">Participação de Mercado Global</div>
-    <div class="market-value">$882B</div>
-    <div class="market-desc">Receita 2024</div>
+    <div class="market-number">Maior</div>
+    <div class="market-label">Mercado Transfronteiriço</div>
+    <div class="market-value">Lidera por Volume</div>
+    <div class="market-desc">Na maioria dos relatórios de analistas</div>
   </div>
 
   <div class="market-card">
     <h4>🇺🇸 América do Norte</h4>
-    <div class="market-number">24.3%</div>
-    <div class="market-label">Participação de Mercado</div>
-    <div class="market-value">Crescimento Mais Rápido</div>
-    <div class="market-desc">Previsão Até 2030</div>
+    <div class="market-number">Principal</div>
+    <div class="market-label">Mercado Estabelecido</div>
+    <div class="market-value">Crescimento Rápido</div>
+    <div class="market-desc">Frequentemente citada entre os líderes</div>
   </div>
 
   <div class="market-card">
     <h4>📱 Comércio Móvel</h4>
-    <div class="market-number">73%</div>
-    <div class="market-label">Participação nas Vendas Até 2025</div>
-    <div class="market-value">62%</div>
-    <div class="market-desc">Preferem Carteiras Digitais</div>
+    <div class="market-number">Dominante</div>
+    <div class="market-label">Participação nas Vendas Online</div>
+    <div class="market-value">Crescendo</div>
+    <div class="market-desc">Pagamentos por carteira crescendo</div>
   </div>
 </div>
 
-_Fontes: Market.us, eMarketer, World Bank_
+_Padrões direcionais relatados em fontes como Market.us, eMarketer e o Banco Mundial. Um dado de um estudo de terceiros reflete o mercado deles, não o seu — verifique de onde seu próprio tráfego e demanda realmente vêm._
 
 ---
 
-## Barreira Linguística: O Principal Obstáculo para Vendas Globais
+## Barreira Linguística: O Principal Obstáculo às Vendas Globais
 
-Apesar das enormes oportunidades, as barreiras linguísticas continuam sendo um obstáculo crítico para a expansão internacional. O estudo da CSA Research "Can't Read, Won't Buy" (Não Lê, Não Compra) revela a dimensão do problema.
+Apesar das enormes oportunidades, as barreiras linguísticas continuam sendo um obstáculo crítico para a expansão internacional. As pesquisas amplamente citadas da CSA Research ("Não Lê, Não Compra") relatam um padrão consistente de comportamento do comprador — que vale a pena entender qualitativamente e depois confirmar com os dados da sua própria loja.
 
 <div class="stats-grid">
   <div class="stat-card warning">
-    <div class="stat-number">76%</div>
-    <div class="stat-label">Preferem Informações em Idioma Nativo</div>
+    <div class="stat-number">Maioria</div>
+    <div class="stat-label">Prefere Informações em Sua Língua Nativa</div>
   </div>
   <div class="stat-card warning">
-    <div class="stat-number">60%</div>
-    <div class="stat-label">Raramente/Nunca Compram de Sites Apenas em Inglês</div>
+    <div class="stat-number">Muitos</div>
+    <div class="stat-label">Raramente ou Nunca Compram de Sites Que Não Conseguem Ler</div>
   </div>
   <div class="stat-card warning">
-    <div class="stat-number">40%</div>
-    <div class="stat-label">Nunca Comprarão em Outro Idioma</div>
+    <div class="stat-number">Um Segmento</div>
+    <div class="stat-label">Não Comprará em Idioma Estrangeiro de Forma Alguma</div>
   </div>
   <div class="stat-card positive">
-    <div class="stat-number">56%</div>
-    <div class="stat-label">O Idioma Importa Mais que o Preço</div>
+    <div class="stat-number">Frequentemente</div>
+    <div class="stat-label">O Idioma Pesa Tanto Quanto o Preço</div>
   </div>
 </div>
 
-_Fonte: CSA Research "Can't Read, Won't Buy"_
+_O padrão acima é relatado pelas pesquisas "Can't Read, Won't Buy" da CSA Research. As porcentagens exatas são deles, medidas em seu grupo de respondentes e mercados — descrevemos a direção em vez de repetir um número em que você acreditaria por fé. [Verifique a precisão, não confie em um número.](/blog/ai-translation-accuracy-market-study)_
 
-### Consequências Empresariais das Barreiras Linguísticas
+### Consequências de Negócio das Barreiras Linguísticas
 
 <div class="penalty-analysis">
 
-| Problema              | Impacto nos Negócios                                 | Consequências Financeiras                |
-| -------------------- | ----------------------------------------------- | ------------------------------------- |
-| **Baixa Conversão**   | Clientes não entendem as descrições dos produtos | Perda de até 40% de compradores potenciais |
-| **Carrinhos Abandonados**  | Processo de checkout confuso                      | Aumento de 20-35% no abandono        |
-| **Falta de Confiança**    | Clientes inseguros sobre o vendedor               | Redução do valor médio do pedido           |
-| **Compras Repetidas** | Dificuldades com o suporte                       | Perda de fidelidade do cliente              |
+| Problema              | Impacto nos Negócios                               | Onde Aparece — Meça Isso                                              |
+| -------------------- | -------------------------------------------------- | --------------------------------------------------------------------- |
+| **Baixa Conversão**  | Clientes não entendem as descrições dos produtos   | Taxa de conversão no tráfego em idioma estrangeiro versus seu mercado de origem |
+| **Carrinhos Abandonados** | Processo de checkout confuso                      | Taxa de abandono de carrinho segmentada por idioma/país do comprador  |
+| **Falta de Confiança** | Clientes inseguros sobre o vendedor                 | Valor médio do pedido e taxa de devolução em mercados de idiomas não nativos |
+| **Compras Repetidas** | Dificuldades com suporte                           | Taxa de recompra e retenção onde o suporte não é no idioma            |
 
 </div>
 
+O ponto não é uma porcentagem de manchete — é que cada linha é uma métrica que você já pode segmentar por idioma e país em sua análise. Extraia esses números para sua própria loja; essa lacuna é sua verdadeira oportunidade.
+
 ---
 
-## Por Que a Tradução por IA em Tempo Real é Crítica
+## Por Que a Tradução por IA em Tempo Real É Crítica
 
 Tradicionalmente, as empresas dependiam da tradução estática de sites, mas o e-commerce moderno exige comunicação em tempo real: chats ao vivo, consultas por vídeo e suporte ao cliente.
 
@@ -126,7 +132,7 @@ Tradicionalmente, as empresas dependiam da tradução estática de sites, mas o 
 
 #### 🌐 Chat ao Vivo com Tradução
 
-**85%** dos clientes esperam chat nos sites. O chat multilíngue aumenta a satisfação em **73%**
+Os compradores esperam cada vez mais o chat ao vivo, e a satisfação tende a aumentar quando podem conversar em sua própria língua em vez de se esforçar em uma segunda
 
 </div>
 
@@ -134,7 +140,7 @@ Tradicionalmente, as empresas dependiam da tradução estática de sites, mas o 
 
 #### 💰 Economia de Custos de Suporte
 
-Um agente com tradução por IA atende a **mais de 25 idiomas**, reduzindo custos em até **75%**
+Um agente com tradução por IA pode cobrir muitos idiomas de uma vez, então você dimensiona a equipe conforme a demanda em vez de contratar um falante nativo para cada mercado
 
 </div>
 
@@ -142,7 +148,7 @@ Um agente com tradução por IA atende a **mais de 25 idiomas**, reduzindo custo
 
 #### 📈 Crescimento da Conversão
 
-Compradores são **13% mais propensos** a comprar de uma loja em seu idioma, mesmo com preços mais altos
+Os compradores tendem a preferir uma loja que podem ler confortavelmente — às vezes, até mesmo em detrimento de uma opção mais barata que não conseguem. Meça o valor disso em sua loja
 
 </div>
 
@@ -150,53 +156,53 @@ Compradores são **13% mais propensos** a comprar de uma loja em seu idioma, mes
 
 #### 🎥 Consultas por Vídeo
 
-**98%** das reuniões de negócios incluem participantes remotos. A tradução por IA remove as barreiras linguísticas
+A maioria das reuniões de negócios agora inclui participantes remotos em diferentes locais e idiomas. A tradução por IA remove a barreira do idioma em chamadas ao vivo
 
 </div>
 
 </div>
 
-_Fontes: LiveChat, Askly, Shopify, Cisco Hybrid Work Index_
+_Observações direcionais consistentes com relatórios da LiveChat, Askly, Shopify e Cisco. Preferimos oferecer uma estrutura a uma porcentagem em que você acreditaria por fé — os números reais são os que você mede._
 
 ---
 
-## Chat ao Vivo: O Ponto Máximo de Conversão
+## Chat ao Vivo: O Ponto de Conversão Máximo
 
-O chat ao vivo é uma das ferramentas mais influentes para aumentar as vendas de e-commerce. As estatísticas mostram uma correlação direta entre a disponibilidade do chat e o crescimento da receita.
+O chat ao vivo é uma das ferramentas mais influentes para aumentar as vendas de e-commerce. Relatórios de fornecedores e da indústria apontam para uma ligação positiva entre a disponibilidade do chat e a receita — o tamanho dessa ligação é exatamente o que você deve medir em seu próprio funil em vez de assumir.
 
 <div class="stats-grid">
   <div class="stat-card positive">
-    <div class="stat-number">63%</div>
-    <div class="stat-label">Mais Propensos a Comprar com Chat ao Vivo</div>
+    <div class="stat-number">Maior</div>
+    <div class="stat-label">Intenção de Compra Quando o Chat Está Disponível</div>
   </div>
   <div class="stat-card positive">
-    <div class="stat-number">305%</div>
-    <div class="stat-label">ROI de Chat Proativo</div>
+    <div class="stat-number">Forte</div>
+    <div class="stat-label">ROI Reportado em Chat Proativo</div>
   </div>
   <div class="stat-card neutral">
-    <div class="stat-number">48%</div>
-    <div class="stat-label">Aumento da Receita por Hora de Chat</div>
+    <div class="stat-number">Acompanhe</div>
+    <div class="stat-label">Receita por Hora de Chat, Em Sua Loja</div>
   </div>
   <div class="stat-card positive">
-    <div class="stat-number">87%</div>
-    <div class="stat-label">Avaliações Positivas de Conversa</div>
+    <div class="stat-number">Principalmente</div>
+    <div class="stat-label">Avaliações Positivas de Conversas</div>
   </div>
 </div>
 
-_Fontes: Freshworks, Relatório ICMI, LiveChat_
+_Sinais direcionais dos relatórios da Freshworks, ICMI e LiveChat. Estes são os ambientes deles, não os seus — [construa o ROI você mesmo](/blog/language-access-roi-research-study) a partir de seus próprios números._
 
 <div class="healthcare-case">
 
 #### 💵 Impacto do Chat ao Vivo nas Métricas de Negócio
 
-**Métricas Chave:**
+**O que os relatórios apontam — e o que verificar:**
 
-- ✅ **79%** das empresas relatam aumento de fidelidade, vendas e receita
-- ✅ Aumento de **40%** na conversão após a implementação do chat
-- ✅ **60%** dos clientes retornarão a um site com chat ao vivo
-- ✅ Clientes de chat valem **4,5x** mais
+- ✅ Muitas empresas relatam maior lealdade, vendas e receita após adicionar o chat — verifique o aumento na sua
+- ✅ A conversão frequentemente melhora após a implementação do chat — meça seu antes/depois
+- ✅ Os compradores são mais propensos a retornar a uma loja que oferece chat ao vivo
+- ✅ Clientes engajados por chat tendem a valer mais do que a média — compare seu AOV e valor vitalício em seus dados
 
-_Fonte: Kayako, ICMI_
+_Direcional, com base em relatórios da Kayako e ICMI. Trate cada afirmação aqui como uma hipótese a ser testada em sua própria loja, não um resultado garantido._
 
 </div>
 
@@ -204,7 +210,7 @@ _Fonte: Kayako, ICMI_
 
 ## ROI da Localização: Investimentos Que Compensam
 
-Dados de múltiplos estudos confirmam a eficácia econômica de investir em adaptação de idioma e tradução em tempo real.
+Múltiplos estudos apontam na mesma direção — investir em adaptação de idioma e tradução em tempo real tende a compensar — mas os múltiplos de ROI de destaque que você vê citados são saídas de modelos construídos com base em suposições específicas. Use-os para justificar um teste, não para prometer um retorno.
 
 <div class="technology-comparison">
 
@@ -212,9 +218,9 @@ Dados de múltiplos estudos confirmam a eficácia econômica de investir em adap
 
 #### 💰 Retorno sobre o Investimento
 
-Cada **US$ 1** em localização retorna **US$ 25**
+A localização é frequentemente relatada como fortemente positiva em ROI
 
-**96%** das empresas relatam ROI positivo
+A maioria das empresas que investem diz que valeu a pena — mas o múltiplo depende inteiramente de suas margens e mercados
 
 </div>
 
@@ -222,9 +228,9 @@ Cada **US$ 1** em localização retorna **US$ 25**
 
 #### 📈 Crescimento de Vendas
 
-Sites multilíngues: **+25-70%** vendas
+Lojas multilíngues e localizadas geralmente veem vendas e tráfego mais altos
 
-Sites localizados: até **+70%** tráfego
+Quanto é uma função do seu catálogo e público — meça o aumento por mercado
 
 </div>
 
@@ -232,34 +238,36 @@ Sites localizados: até **+70%** tráfego
 
 #### ⏱️ Impacto a Longo Prazo
 
-Automação de localização: **345% de ROI** em 3 anos
+A automação da localização se acumula ao longo do tempo à medida que você adiciona mercados
 
-**3/4** das empresas observam aumento do engajamento
-
-</div>
+A maioria das empresas relata maior engajamento uma vez que o conteúdo está disponível no idioma
 
 </div>
 
-_Fontes: Onesky.ai, Forrester Consulting, Crowdin_
+</div>
+
+_Descobertas direcionais de Onesky.ai, Forrester Consulting e Crowdin. Um múltiplo de ROI emprestado reflete a base de custos e o catálogo de outra pessoa — [construa o ROI você mesmo](/blog/language-access-roi-research-study) com seus próprios dados, e ele se torna um número que você pode realmente defender._
 
 ---
 
-## Videoconferência como Novo Canal de Vendas
+## Videoconferência como um Novo Canal de Vendas
 
-O mercado global de videoconferência atingiu US$ 33 bilhões em 2024 e continua a crescer. Para o e-commerce, isso abre novas oportunidades para comunicação direta com o cliente.
+O mercado global de videoconferência é vasto e está em expansão, e os recursos de IA estão cada vez mais integrados às principais plataformas. Para o e-commerce, isso abre novas oportunidades para comunicação direta com o cliente em vários idiomas.
 
 <div class="revenue-table-wrapper">
 
-| Métrica                            | Valor   | Fonte                       |
-| --------------------------------- | ------- | ---------------------------- |
-| Tamanho do Mercado 2024                  | $33.04B | Fortune Business Insights    |
-| Previsão 2032                     | $60.17B | Fortune Business Insights    |
-| CAGR                              | 7.1%    | Fortune Business Insights    |
-| Reuniões com Participantes Remotos | 98%     | Cisco Hybrid Work Index      |
-| Economia de Custos de Viagem               | 30-40%  | SQ Magazine                  |
-| Integração de IA em Plataformas       | 60%+    | Cisco Annual Internet Report |
+| Sinal                            | Direção          | Fonte (estimativa deles)     |
+| --------------------------------- | ---------------- | ---------------------------- |
+| Tamanho do Mercado                | Grande           | Fortune Business Insights    |
+| Previsão de Vários Anos           | Em Crescimento   | Fortune Business Insights    |
+| Crescimento Anual                 | Estável          | Fortune Business Insights    |
+| Reuniões com Participantes Remotos | Agora a maioria  | Cisco Hybrid Work Index      |
+| Economia de Custos de Viagem      | Significativa    | SQ Magazine                  |
+| Integração de IA em Plataformas   | Crescendo rapidamente | Cisco Annual Internet Report |
 
 </div>
+
+_Cada linha se refere à própria estimativa de uma fonte para seu escopo definido. Mostramos a direção em vez de repetir números precisos que seriam lidos como fatos sobre o seu negócio._
 
 <div class="exec-recommendations">
 
@@ -282,17 +290,17 @@ O mercado global de videoconferência atingiu US$ 33 bilhões em 2024 e continua
 
 <div class="size-card">
 
-#### 🌍 TOP 8 Idiomas
+#### 🌍 Um Punhado de Idiomas
 
-Inglês, Chinês, Japonês, Espanhol, Alemão, Francês, Português, Italiano = **80%** do poder de compra global
+Uma lista curta — Inglês, Chinês, Japonês, Espanhol, Alemão, Francês, Português, Italiano — cobre uma grande parte do poder de compra online global. Comece onde a demanda se concentra
 
 </div>
 
 <div class="size-card">
 
-#### 🎯 TOP 4 Países
+#### 🎯 Alguns Grandes Mercados
 
-EUA, China, Japão, Alemanha = **50%** do potencial global de vendas online
+Mercados como EUA, China, Japão e Alemanha representam uma fatia desproporcional das vendas online globais. Priorize pelo seu próprio tráfego, não por um ranking genérico
 
 </div>
 
@@ -300,13 +308,13 @@ EUA, China, Japão, Alemanha = **50%** do potencial global de vendas online
 
 #### 📊 Análise de Tráfego
 
-Use o Google Analytics para identificar países com alto interesse, mas baixa conversão
+Use o Google Analytics para encontrar países com alto interesse, mas baixa conversão — essa lacuna é onde a experiência no idioma provavelmente compensa primeiro
 
 </div>
 
 </div>
 
-_Fonte: Translated.com_
+_O padrão de "concentração" é amplamente relatado (por exemplo, Translated.com); a participação exata da cobertura depende de como você define o poder de compra. Deixe sua própria análise definir a ordem._
 
 ### 2. Implementando a Tradução em Tempo Real
 
@@ -324,12 +332,12 @@ _Fonte: Translated.com_
 
 <div class="takeaway-card warning">
   <h4>📞 Suporte ao Cliente</h4>
-  <p>**70%** dos clientes preferem receber suporte em seu idioma nativo.</p>
+  <p>A maioria dos clientes prefere fortemente receber suporte em sua língua nativa — o suporte no idioma reduz o atrito e contatos repetidos.</p>
 </div>
 
 <div class="takeaway-card positive">
   <h4>📝 Documentação</h4>
-  <p>Legendas e transcrições automáticas para gravações de consulta.</p>
+  <p>Legendas e transcrições automáticas para gravações de consultas.</p>
 </div>
 
 </div>
@@ -353,13 +361,13 @@ _Fonte: Translated.com_
 <div class="kpi-card">
   <h5>💵 Receita/Hora de Chat</h5>
   <div class="kpi-target">Receita por Hora de Chat</div>
-  <div class="kpi-tool">CRM + Análise de Chat</div>
+  <div class="kpi-tool">CRM + Chat Analytics</div>
 </div>
 
 <div class="kpi-card">
   <h5>🔄 Retenção</h5>
   <div class="kpi-target">Compras Repetidas</div>
-  <div class="kpi-tool">Análise de Coorte</div>
+  <div class="kpi-tool">Cohort Analysis</div>
 </div>
 
 </div>
@@ -368,353 +376,18 @@ _Fonte: Translated.com_
 
 ## Conclusão: Hora de Agir
 
-O mercado de e-commerce transfronteiriço está crescendo a taxas que superam o crescimento geral do e-commerce. Enquanto isso, **65% dos falantes não nativos de inglês preferem conteúdo em seu idioma nativo**, mesmo que sejam fluentes em inglês.
+O mercado de e-commerce transfronteiriço está crescendo mais rápido do que o varejo online em geral. Enquanto isso, **muitos falantes não nativos de inglês preferem conteúdo em sua própria língua, mesmo quando leem bem o inglês** — a fluência não apaga a preferência de comprar no idioma em que se pensa. A oportunidade é real; o tamanho exato dela é algo que você mede em sua própria loja, não algo que você herda de um slide.
 
 <div class="cta-section">
 
 ### Pronto para Entrar no Mercado Global?
 
-Experimente nossa plataforma de videoconferência com interpretação por IA em tempo real integrada em **mais de 15 idiomas**. Conduza treinamentos globais sem barreiras linguísticas.
+Teste nossa plataforma de videoconferência com interpretação por IA em tempo real integrada em **mais de 15 idiomas**. Conduza treinamentos globais sem barreiras linguísticas.
 
-<a href="https://inter.mind.com/" class="cta-button">Iniciar Teste Gratuito →</a>
+<a href="https://inter.mind.com/" class="cta-button">Comece o Teste Gratuito →</a>
 
 _Primeiras 25 reuniões gratuitas — sem necessidade de cartão de crédito_
 
 </div>
 
 ---
-
-<style>
-.subtitle {
-  font-size: 1.2em;
-  color: var(--vp-c-text-2);
-  margin-bottom: 2em;
-  line-height: 1.6;
-}
-
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5em;
-  margin: 2em 0;
-}
-
-.stat-card {
-  padding: 1.5em;
-  border-radius: 8px;
-  text-align: center;
-  border: 2px solid;
-}
-
-.stat-card.positive {
-  background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
-  border-color: #28a745;
-  color: #155724;
-}
-
-.stat-card.warning {
-  background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
-  border-color: #ffc107;
-  color: #856404;
-}
-
-.stat-card.neutral {
-  background: linear-gradient(135deg, #d1ecf1 0%, #bee5eb 100%);
-  border-color: #17a2b8;
-  color: #0c5460;
-}
-
-.stat-number {
-  font-size: 2.5em;
-  font-weight: bold;
-  margin-bottom: 0.3em;
-}
-
-.stat-card.positive .stat-number { color: #155724; }
-.stat-card.warning .stat-number { color: #856404; }
-.stat-card.neutral .stat-number { color: #0c5460; }
-
-.stat-label {
-  font-size: 1em;
-  color: inherit;
-  font-weight: 500;
-}
-
-.market-stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5em;
-  margin: 2em 0;
-}
-
-.market-card {
-  background: linear-gradient(135deg, var(--vp-c-brand-soft) 0%, var(--vp-c-brand-softer) 100%);
-  padding: 2em;
-  border-radius: 12px;
-  text-align: center;
-  border: 2px solid var(--vp-c-brand);
-  color: var(--vp-c-text-1);
-}
-
-.market-card h4 {
-  margin-top: 0;
-  margin-bottom: 1em;
-  color: var(--vp-c-brand);
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-.market-number {
-  font-size: 2.2em;
-  font-weight: bold;
-  color: var(--vp-c-brand);
-  margin-bottom: 0.2em;
-}
-
-.market-label {
-  font-size: 0.9em;
-  color: var(--vp-c-text-2);
-  margin-bottom: 1em;
-}
-
-.market-value {
-  font-size: 1.8em;
-  font-weight: bold;
-  color: #28a745;
-  margin-bottom: 0.2em;
-}
-
-.market-desc {
-  font-size: 0.9em;
-  color: var(--vp-c-text-2);
-}
-
-.penalty-analysis {
-  background: var(--vp-c-bg-soft);
-  padding: 2em;
-  border-radius: 12px;
-  margin: 2em 0;
-  border-left: 4px solid #ffc107;
-}
-
-.penalty-analysis h4 {
-  font-weight: bold;
-}
-
-.success-factors {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5em;
-  margin: 2em 0;
-}
-
-.strategy-card {
-  background: var(--vp-c-bg-soft);
-  padding: 1.5em;
-  border-radius: 8px;
-  border-top: 3px solid var(--vp-c-brand);
-}
-
-.strategy-card h4 {
-  font-weight: bold;
-  margin-top: 0;
-}
-
-.technology-comparison {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5em;
-  margin: 2em 0;
-}
-
-.solution-card {
-  background: var(--vp-c-bg-soft);
-  padding: 1.5em;
-  border-radius: 8px;
-  border-top: 3px solid var(--vp-c-brand);
-}
-
-.solution-card h4 {
-  font-weight: bold;
-  margin-top: 0;
-}
-
-.revenue-table-wrapper {
-  overflow-x: auto;
-  margin: 2em 0;
-  background: var(--vp-c-bg-soft);
-  border-radius: 8px;
-  padding: 1em;
-}
-
-.healthcare-case {
-  background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
-  padding: 2em;
-  border-radius: 12px;
-  margin: 2em 0;
-  border: 2px solid #28a745;
-  color: #155724;
-}
-
-.healthcare-case h4 {
-  color: #155724;
-  font-weight: bold;
-  margin-top: 0;
-}
-
-.exec-recommendations {
-  background: linear-gradient(135deg, var(--vp-c-brand-soft) 0%, var(--vp-c-brand-softer) 100%);
-  padding: 2em;
-  border-radius: 12px;
-  margin: 2em 0;
-  border: 2px solid var(--vp-c-brand);
-  color: var(--vp-c-text-1);
-}
-
-.exec-recommendations h4 {
-  color: var(--vp-c-brand);
-  font-weight: bold;
-  margin-top: 0;
-}
-
-.size-recommendations {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5em;
-  margin: 2em 0;
-}
-
-.size-card {
-  background: var(--vp-c-bg-soft);
-  padding: 1.5em;
-  border-radius: 8px;
-  border-left: 4px solid var(--vp-c-brand);
-}
-
-.size-card h4 {
-  font-weight: bold;
-  margin-top: 0;
-}
-
-.conclusion-highlights {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5em;
-  margin: 2em 0;
-}
-
-.takeaway-card {
-  padding: 1.5em;
-  border-radius: 8px;
-  border: 2px solid;
-}
-
-.takeaway-card.positive {
-  background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
-  border-color: #28a745;
-  color: #155724;
-}
-
-.takeaway-card.warning {
-  background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
-  border-color: #ffc107;
-  color: #856404;
-}
-
-.takeaway-card.neutral {
-  background: linear-gradient(135deg, #d1ecf1 0%, #bee5eb 100%);
-  border-color: #17a2b8;
-  color: #0c5460;
-}
-
-.takeaway-card h4 {
-  margin-top: 0;
-  margin-bottom: 1em;
-  color: inherit;
-  font-weight: bold;
-}
-
-.takeaway-card p {
-  color: inherit;
-  margin: 0;
-}
-
-.kpi-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1.5em;
-  margin: 2em 0;
-}
-
-.kpi-card {
-  background: var(--vp-c-bg-soft);
-  padding: 1.5em;
-  border-radius: 8px;
-  border-top: 3px solid var(--vp-c-brand);
-  text-align: center;
-}
-
-.kpi-card h5 {
-  margin-top: 0;
-  color: var(--vp-c-brand);
-  font-weight: bold;
-}
-
-.kpi-target {
-  font-size: 1.2em;
-  font-weight: bold;
-  color: var(--vp-c-text-1);
-  margin: 0.5em 0;
-}
-
-.kpi-tool {
-  font-size: 0.9em;
-  color: var(--vp-c-text-2);
-}
-
-.cta-section {
-  background: linear-gradient(135deg, var(--vp-c-brand-soft) 0%, var(--vp-c-brand-softer) 100%);
-  padding: 2em;
-  border-radius: 12px;
-  margin: 2em 0;
-  border: 2px solid var(--vp-c-brand);
-  color: var(--vp-c-text-1);
-  text-align: center;
-}
-
-.cta-button {
-  display: inline-block;
-  background: var(--vp-c-brand);
-  color: white !important;
-  padding: 1em 2em;
-  border-radius: 8px;
-  font-weight: bold;
-  font-size: 1.1em;
-  text-decoration: none;
-  margin: 1em 0;
-  transition: background 0.2s, transform 0.2s;
-}
-
-.cta-button:hover {
-  background: var(--vp-c-brand-dark);
-  transform: translateY(-2px);
-  text-decoration: none;
-}
-
-@media (max-width: 768px) {
-  .technology-comparison,
-  .success-factors,
-  .size-recommendations {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 480px) {
-  .stats-grid,
-  .market-stats,
-  .kpi-grid,
-  .conclusion-highlights {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
