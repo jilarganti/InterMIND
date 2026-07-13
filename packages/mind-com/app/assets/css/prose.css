@@ -155,3 +155,131 @@
 .dark .prose .stat-number {
   color: #f3f4f6;
 }
+
+/* ---------------------------------------------------------------------------
+   More legacy VitePress class hooks left in a few posts (employee-training,
+   ecommerce-global-market-translation, global-language-evolution). The posts
+   originally shipped inline <style> blocks referencing VitePress's --vp-c-*
+   tokens, which don't exist here — so those blocks were removed and the
+   styling centralised below, theme-aware like the .stat-card rules above.
+   --------------------------------------------------------------------------- */
+
+/* Card grids: several posts wrap a set of cards in a labelled container. */
+.prose .stats-grid,
+.prose .kpi-grid,
+.prose .market-stats,
+.prose .success-factors,
+.prose .size-recommendations,
+.prose .exec-recommendations,
+.prose .conclusion-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+/* Generic card surface shared by the assorted *-card classes. */
+.prose .kpi-card,
+.prose .market-card,
+.prose .solution-card,
+.prose .strategy-card,
+.prose .size-card,
+.prose .timeline-card,
+.prose .takeaway-card,
+.prose .healthcare-case,
+.prose .penalty-analysis {
+  background: #fff;
+  border: 1px solid #ececea;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin: 0.5rem 0;
+}
+.prose .kpi-card {
+  text-align: center;
+}
+.prose .kpi-card h5,
+.prose .market-card h4,
+.prose .takeaway-card h4 {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+.prose :is(.kpi-card, .market-card, .solution-card, .strategy-card, .size-card,
+  .timeline-card, .takeaway-card, .healthcare-case, .penalty-analysis) > :last-child {
+  margin-bottom: 0;
+}
+
+/* Emphasised figures inside market cards. */
+.prose .market-number,
+.prose .market-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1c1c1c;
+}
+.prose .market-label,
+.prose .market-desc,
+.prose .kpi-target,
+.prose .kpi-tool {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+/* Sentiment accents: cards can carry .positive / .warning / .neutral. */
+.prose .takeaway-card.positive,
+.prose .stat-card.positive {
+  border-left: 3px solid #16a34a;
+}
+.prose .takeaway-card.warning,
+.prose .stat-card.warning {
+  border-left: 3px solid #d97706;
+}
+.prose .takeaway-card.neutral,
+.prose .stat-card.neutral {
+  border-left: 3px solid #2563eb;
+}
+
+/* Wrapper that lets wide tables scroll instead of overflowing the page. */
+.prose .revenue-table-wrapper {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+/* Call-to-action block at the end of a couple of posts. */
+.prose .cta-section {
+  background: #f0efea;
+  border: 1px solid #ececea;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+.prose .cta-button {
+  display: inline-block;
+  background: var(--ui-primary, #2563eb);
+  color: #fff;
+  padding: 0.75rem 1.75rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0.75rem 0;
+}
+.prose .cta-button:hover {
+  filter: brightness(1.08);
+  text-decoration: none;
+}
+
+/* Dark-mode surfaces for the blocks above. */
+.dark .prose :is(.kpi-card, .market-card, .solution-card, .strategy-card,
+  .size-card, .timeline-card, .takeaway-card, .healthcare-case, .penalty-analysis) {
+  background: #1f2937;
+  border-color: #374151;
+}
+.dark .prose .cta-section {
+  background: #1f2937;
+  border-color: #374151;
+}
+.dark .prose :is(.market-number, .market-value) {
+  color: #f3f4f6;
+}
+.dark .prose :is(.market-label, .market-desc, .kpi-target, .kpi-tool) {
+  color: #9ca3af;
+}
