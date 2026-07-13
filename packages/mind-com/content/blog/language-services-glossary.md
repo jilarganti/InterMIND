@@ -1,6 +1,6 @@
 ---
 title: "Language Services Glossary 2025: Complete Guide to AI Translation & Interpretation"
-description: "Comprehensive glossary of translation and interpretation terminology with 2025 market data, AI performance metrics, and industry benchmarks"
+description: "A plain-language glossary of translation and interpretation terminology — what each term means, and when AI, a human, or a hybrid approach is the right call."
 date: "2025-10-27"
 author: "[Jilarganti](https://github.com/jilarganti)"
 image: "/blog/iStock-1442915416.jpg"
@@ -11,7 +11,7 @@ image: "/blog/iStock-1442915416.jpg"
 <p class="subtitle">Essential terminology for modern translation and interpretation services, enhanced with AI performance data, cost metrics, and quality benchmarks</p>
 
 > **Executive Summary:**  
-> This comprehensive glossary defines 65+ key terms in the language services industry, enhanced with 2025 market data including AI accuracy metrics (94.2% for major language pairs), cost comparisons, and performance benchmarks. Essential reference for organizations implementing translation and interpretation solutions.
+> This comprehensive glossary defines 65+ key terms in the language services industry, from translation and interpretation modes to captioning, localization, and quality standards. Each entry gives a clear definition plus practical guidance on when AI, human, or hybrid approaches make sense. An essential, plain-language reference for organizations implementing translation and interpretation solutions.
 
 ## Glossary Overview: Industry Terminology Standards
 
@@ -21,16 +21,16 @@ image: "/blog/iStock-1442915416.jpg"
     <div class="stat-label">Terms Defined</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">94.2%</div>
-    <div class="stat-label">AI Translation Accuracy</div>
+    <div class="stat-number">10</div>
+    <div class="stat-label">Topic Sections</div>
   </div>
   <div class="stat-card">
     <div class="stat-number">30-60</div>
     <div class="stat-label">Languages Supported</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">$8.9B</div>
-    <div class="stat-label">Market Size 2027</div>
+    <div class="stat-number">AI · Human · Hybrid</div>
+    <div class="stat-label">Approaches Compared</div>
   </div>
 </div>
 
@@ -51,9 +51,9 @@ image: "/blog/iStock-1442915416.jpg"
 - **Medium:** Written text (documents, websites, books, emails)
 - **Timing:** Delayed processing with time for review
 - **Tools:** CAT tools, translation memory, terminology databases
-- **Accuracy:** 98.5% for human translators, 94.2% for AI (major language pairs)
-- **Cost:** $275 per 1,000 words (human), $18.50 (AI)
-- **Processing Speed:** 250-400 words/minute (human), 2,000-5,000 (AI)
+- **Quality:** AI handles high-resource language pairs well; human review remains the benchmark for high-stakes content
+- **Cost:** Human work is priced per word and carries a premium; AI is dramatically cheaper per word
+- **Processing Speed:** AI translates far faster than a human can, making it well-suited to high-volume content
 
 #### Interpretation
 
@@ -62,10 +62,10 @@ image: "/blog/iStock-1442915416.jpg"
 **Key Characteristics:**
 
 - **Medium:** Spoken language (meetings, conferences, conversations)
-- **Timing:** Real-time processing with 2-3 second latency (AI systems)
+- **Timing:** Real-time processing; AI systems typically add a few seconds of latency
 - **Tools:** Memory, quick thinking, interpretation equipment, AI speech systems
-- **Accuracy:** 95.8% for human interpreters, 94.2% for AI (major language pairs)
-- **Cost:** $500-1,500 per session (human), $20-50/month unlimited (AI)
+- **Quality:** Professional human interpreters set the quality bar; AI is increasingly viable for routine, high-resource conversations
+- **Cost:** Human interpretation is priced per session; AI subscriptions cost far less for unlimited use
 - **Availability:** Business hours (human), 24/7 (AI)
 
 </div>
@@ -80,13 +80,13 @@ image: "/blog/iStock-1442915416.jpg"
 
 **Definition:** Real-time interpretation that occurs concurrently with the speaker's delivery, with minimal delay between original speech and translation.
 
-**Technical Specifications (2025):**
+**Typical Characteristics (AI systems):**
 
-- **Latency:** 2-3 seconds for AI systems
-- **Accuracy:** 94.2% for major language pairs
-- **Languages:** 30-60 simultaneous language channels possible
-- **Processing Speed:** 8-20x faster than human interpreters
-- **Cost Efficiency:** 85-90% cost reduction vs traditional services
+- **Latency:** A few seconds of delay behind the speaker
+- **Quality:** Strong on high-resource language pairs; human interpreters remain the benchmark for high-stakes settings
+- **Languages:** Dozens of simultaneous language channels possible
+- **Processing Speed:** Far faster than human interpreters, with no fatigue
+- **Cost Efficiency:** Substantially cheaper than traditional on-site interpretation
 
 **Applications:**
 
@@ -112,7 +112,7 @@ image: "/blog/iStock-1442915416.jpg"
 **Characteristics:**
 
 - **Timing:** Alternating speech and interpretation
-- **Accuracy:** Generally higher than simultaneous (96%+ for professionals)
+- **Accuracy:** Generally higher than simultaneous, since interpreters have time to reflect
 - **Duration:** Meeting time typically doubles
 - **Note-taking:** Interpreters use specialized shorthand systems
 - **Applications:** Business negotiations, medical consultations, legal proceedings
@@ -132,13 +132,13 @@ image: "/blog/iStock-1442915416.jpg"
 - **Equipment:** None required (whispered delivery)
 - **Duration:** Physically demanding, limited session length
 - **Accuracy:** Similar to simultaneous interpretation
-- **Cost:** $300-800 per session
+- **Cost:** Priced per session, similar to other on-site interpretation
 
 **AI Alternative:**
 
 - Personal mobile device with earphones
 - Real-time audio translation apps
-- Cost: $10-30/month for unlimited use
+- Cost: Low monthly subscription for unlimited use
 
 ### Liaison Interpretation
 
@@ -152,7 +152,7 @@ image: "/blog/iStock-1442915416.jpg"
 - Immigration interviews
 - Social services interactions
 
-**Accuracy:** 95%+ (human), 92%+ (AI for conversational content)
+**Accuracy:** Human interpreters set the benchmark; AI performs well on routine conversational content
 
 ---
 
@@ -183,7 +183,7 @@ image: "/blog/iStock-1442915416.jpg"
 
 - **Cannot provide** legal certification
 - **Human review mandatory** for certified translations
-- **Cost:** $30-50 per page (includes certification)
+- **Cost:** Priced per page, including the certification itself
 
 </div>
 
@@ -191,12 +191,11 @@ image: "/blog/iStock-1442915416.jpg"
 
 **Definition:** Translation of specialized technical content requiring subject matter expertise and precise terminology.
 
-**Performance Metrics (2025):**
+**AI vs Human:**
 
-- **Human Accuracy:** 98.1%
-- **AI Accuracy:** 96.8%
-- **AI Advantage:** Consistent terminology, faster processing
-- **Human Advantage:** Domain expertise, contextual understanding
+- **AI Advantage:** Consistent terminology, faster processing, well-suited to repetitive technical content
+- **Human Advantage:** Domain expertise, contextual understanding, judgment on edge cases
+- **Recommended approach:** Hybrid — AI draft with human review — for anything published or safety-relevant
 
 **Content Types:**
 
@@ -208,9 +207,9 @@ image: "/blog/iStock-1442915416.jpg"
 
 **Cost Comparison:**
 
-- **Human:** $0.15-0.30 per word
-- **AI:** $0.018 per word
-- **Hybrid:** $0.065 per word (AI + human review)
+- **Human:** Highest per-word cost, reflecting specialist expertise
+- **AI:** Lowest per-word cost
+- **Hybrid:** Between the two — AI draft plus human review
 
 ### Legal Translation
 
@@ -218,17 +217,17 @@ image: "/blog/iStock-1442915416.jpg"
 
 **Critical Requirements:**
 
-- **Accuracy:** Minimum 99% for legal validity
+- **Accuracy:** Near-perfect accuracy required for legal validity
 - **Legal Terminology:** Understanding of both legal systems
 - **Confidentiality:** Strict NDA and security protocols
 - **Certification:** Often legally required
 
-**AI Performance (2025):**
+**AI Considerations:**
 
-- **Accuracy:** 87.4%
+- **Quality:** Not yet reliable enough for unreviewed legal use
 - **Recommendation:** Mandatory human review
 - **Risk Level:** High (legal liability)
-- **Cost:** $0.20-0.40 per word (human with certification)
+- **Cost:** Certified human translation carries a premium per word
 
 ### Transcreation (Creative Translation)
 
@@ -242,12 +241,11 @@ image: "/blog/iStock-1442915416.jpg"
 - Local market preferences
 - Creative wordplay and slogans
 
-**Performance Comparison:**
+**AI vs Human:**
 
-- **Human Accuracy:** 95.8%
-- **AI Accuracy:** 89.2%
-- **Human Advantage:** Creative adaptation, brand voice consistency
-- **Cost:** $0.25-0.50 per word (human creative services)
+- **Human strength:** Creative adaptation, brand voice consistency, cultural nuance — human recommended
+- **AI limitation:** Struggles with wordplay, emotional impact, and cultural resonance
+- **Cost:** Human creative services command a premium per word
 
 ---
 
@@ -276,9 +274,9 @@ image: "/blog/iStock-1442915416.jpg"
 
 **Productivity Impact:**
 
-- **Speed Increase:** 30-50% for repetitive content
-- **Consistency:** 95%+ terminology consistency
-- **Cost Savings:** 20-40% reduction in translation costs
+- **Speed Increase:** Meaningful gains on repetitive content through segment reuse
+- **Consistency:** Enforces consistent terminology across a project
+- **Cost Savings:** Reduces cost by avoiding re-translation of repeated segments
 
 </div>
 
@@ -286,18 +284,17 @@ image: "/blog/iStock-1442915416.jpg"
 
 **Definition:** Use of artificial intelligence and neural networks to translate text or speech without direct human intervention.
 
-**2025 Performance Metrics:**
+**How AI and human translation compare:**
 
 <div class="performance-metrics">
 
-| Metric                     | AI Performance  | Human Performance | AI Advantage       |
-| -------------------------- | --------------- | ----------------- | ------------------ |
-| **Accuracy (Major Pairs)** | 94.2%           | 98.5%             | -4.3% gap          |
-| **Accuracy (Technical)**   | 96.8%           | 98.1%             | -1.3% gap          |
-| **Processing Speed**       | 2,000-5,000 wpm | 250-400 wpm       | 8-20x faster       |
-| **Cost per 1,000 words**   | $18.50          | $275              | 93% cheaper        |
-| **Availability**           | 24/7            | Business hours    | 3x availability    |
-| **Consistency**            | 100%            | 85-95%            | Higher reliability |
+| Dimension            | AI (Machine Translation)             | Human                                | Practical takeaway              |
+| -------------------- | ------------------------------------ | ------------------------------------ | ------------------------------- |
+| **Accuracy**         | Strong on high-resource pairs        | Benchmark for high-stakes content    | Human review for critical work  |
+| **Processing Speed** | Very fast, high volume               | Limited by human pace                | AI wins on turnaround           |
+| **Cost per word**    | Low                                  | Premium                              | AI wins on budget               |
+| **Availability**     | 24/7                                 | Business hours                       | AI wins on availability         |
+| **Consistency**      | Highly consistent terminology        | Varies by translator                 | AI wins on repeatable content   |
 
 </div>
 
@@ -315,7 +312,7 @@ image: "/blog/iStock-1442915416.jpg"
 
 - **Consistency:** Same phrases always translated identically
 - **Speed:** Instant retrieval of previously translated segments
-- **Cost Savings:** 30-50% for content updates and versions
+- **Cost Savings:** Significant on content updates and versioned documents
 - **Quality:** Maintains approved terminology
 
 **Match Types:**
@@ -390,9 +387,9 @@ image: "/blog/iStock-1442915416.jpg"
 
 **AI Generation:**
 
-- **Accuracy:** 95%+ for clear audio
-- **Processing Time:** Real-time to 2x speed
-- **Cost:** $1-3 per minute of video
+- **Accuracy:** High for clear audio; degrades with noise, overlap, or heavy accents
+- **Processing Time:** Real-time to faster-than-real-time
+- **Cost:** Low per-minute cost compared with manual captioning
 
 ### Subtitles vs Captions
 
@@ -418,17 +415,17 @@ image: "/blog/iStock-1442915416.jpg"
 
 **Human Stenography:**
 
-- **Accuracy:** 98%+
-- **Speed:** 200-250 words per minute
-- **Cost:** $150-300 per hour
-- **Latency:** 2-3 seconds
+- **Accuracy:** Very high, the benchmark for live captioning
+- **Speed:** Around 200-250 words per minute
+- **Cost:** Priced per hour, at a professional rate
+- **Latency:** A few seconds behind the speaker
 
 **AI Real-Time Captioning:**
 
-- **Accuracy:** 85-95% (depending on audio quality)
-- **Speed:** Unlimited
-- **Cost:** $10-50 per event or $0.10-0.30 per minute
-- **Latency:** 1-2 seconds
+- **Accuracy:** Good, but varies with audio quality, accents, and overlap
+- **Speed:** Keeps up with any speaking rate
+- **Cost:** Low per-event or per-minute pricing
+- **Latency:** Typically a second or two
 
 ### SRT (SubRip Subtitle Format)
 
@@ -467,20 +464,22 @@ This is the second subtitle.
 
 ## 💰 Business & Economics
 
-### Cost Comparison by Service Type (2025)
+### Cost Comparison by Service Type
+
+The four common delivery models trade off cost, speed, and quality differently. Actual pricing varies widely by vendor, language pair, and volume — treat this as a relative comparison, not a quote.
 
 <div class="cost-analysis">
 
 <div class="cost-grid">
   <div class="cost-card">
     <h4>🤖 AI Translation</h4>
-    <div class="cost-number">$18.50</div>
+    <div class="cost-number">$</div>
     <div class="cost-details">
       <ul>
-        <li>Per 1,000 words</li>
-        <li>Platform fees: $12</li>
-        <li>API usage: $4.50</li>
-        <li>Quality review: $2</li>
+        <li>Lowest cost per word</li>
+        <li>Platform / subscription fees</li>
+        <li>Optional light review</li>
+        <li>Best for high-volume content</li>
       </ul>
     </div>
     <div class="cost-time">⚡ Instant delivery</div>
@@ -488,13 +487,13 @@ This is the second subtitle.
   
   <div class="cost-card">
     <h4>👥 Human Professional</h4>
-    <div class="cost-number">$275</div>
+    <div class="cost-number">$$$$</div>
     <div class="cost-details">
       <ul>
-        <li>Per 1,000 words</li>
-        <li>Translator fee: $200</li>
-        <li>Project management: $50</li>
-        <li>QA review: $25</li>
+        <li>Highest cost per word</li>
+        <li>Translator fee + project management</li>
+        <li>Dedicated QA review</li>
+        <li>Best for high-stakes content</li>
       </ul>
     </div>
     <div class="cost-time">🕐 2-7 business days</div>
@@ -502,13 +501,13 @@ This is the second subtitle.
   
   <div class="cost-card">
     <h4>🔗 Hybrid Approach</h4>
-    <div class="cost-number">$65</div>
+    <div class="cost-number">$$</div>
     <div class="cost-details">
       <ul>
-        <li>Per 1,000 words</li>
-        <li>AI translation: $18.50</li>
-        <li>Human review: $35</li>
-        <li>Final editing: $11.50</li>
+        <li>Mid-range cost per word</li>
+        <li>AI draft + human review</li>
+        <li>Final editing pass</li>
+        <li>Balances speed and quality</li>
       </ul>
     </div>
     <div class="cost-time">⏱️ 1-2 business days</div>
@@ -516,13 +515,13 @@ This is the second subtitle.
   
   <div class="cost-card">
     <h4>🎙️ Interpretation</h4>
-    <div class="cost-number">$750</div>
+    <div class="cost-number">$$$</div>
     <div class="cost-details">
       <ul>
-        <li>Per session (3 hours)</li>
-        <li>Human: $500-1,500</li>
-        <li>AI unlimited: $20-50/mo</li>
-        <li>Savings: 85-90%</li>
+        <li>Human priced per session</li>
+        <li>AI priced per subscription</li>
+        <li>AI far cheaper for regular use</li>
+        <li>Human for critical settings</li>
       </ul>
     </div>
     <div class="cost-time">🔄 Real-time delivery</div>
@@ -531,16 +530,16 @@ This is the second subtitle.
 
 </div>
 
-### ROI Analysis by Implementation Type
+### Trade-offs by Implementation Type
 
 <div class="roi-analysis">
 
-| Approach              | Initial Investment | Monthly Cost | Time Savings | Cost Savings | 12-Month ROI |
-| --------------------- | ------------------ | ------------ | ------------ | ------------ | ------------ |
-| **AI-Only**           | $15,000            | $2,500       | 95%          | 85%          | 340%         |
-| **Hybrid**            | $25,000            | $4,200       | 75%          | 65%          | 285%         |
-| **Human-Only**        | $5,000             | $12,000      | 0%           | 0%           | Baseline     |
-| **AI Interpretation** | $10,000            | $1,200       | 90%          | 90%          | 380%         |
+| Approach              | Ongoing Cost    | Turnaround   | Best Fit                                    |
+| --------------------- | --------------- | ------------ | ------------------------------------------- |
+| **AI-Only**           | Lowest          | Fastest      | High-volume, low-risk content               |
+| **Hybrid**            | Moderate        | Fast         | Important content that still needs scale    |
+| **Human-Only**        | Highest         | Slowest      | High-stakes, creative, or certified work    |
+| **AI Interpretation** | Low             | Real-time    | Routine meetings and support at scale       |
 
 </div>
 
@@ -650,9 +649,9 @@ This is the second subtitle.
 
 **Accuracy Improvement:**
 
-- Identifies 60-80% of translation errors
-- Cost: Additional 30-50% of translation cost
-- Time: Adds 2-3 days to timeline
+- Surfaces meaning-changing errors a single-pass review can miss
+- Cost: Adds to the base translation cost (a second translator's time)
+- Time: Adds a few days to the timeline
 
 ---
 
@@ -707,13 +706,13 @@ This is the second subtitle.
 
 **Definition:** AI technology that converts written text into natural-sounding spoken audio using neural voice synthesis.
 
-**2025 Capabilities:**
+**Capabilities:**
 
-- **Naturalness:** 4.2/5 quality rating (approaching human)
+- **Naturalness:** Modern neural voices approach human quality for many use cases
 - **Emotions:** Support for tone and emotional expression
 - **Languages:** 100+ languages and accents
-- **Voices:** 500+ unique voice options
-- **Cost:** $0.10-1 per 1,000 characters
+- **Voices:** Hundreds of unique voice options
+- **Cost:** Typically billed per character, at low rates
 
 **Applications:**
 
@@ -764,11 +763,11 @@ This is the second subtitle.
 - Works better for languages with similar structure
 - Cannot detect meaning-changing errors
 
-**2025 AI Performance:**
+**How to read AI BLEU scores in practice:**
 
-- **Major Language Pairs:** 85-92 BLEU score
-- **Technical Content:** 88-94 BLEU score
-- **Creative Content:** 65-75 BLEU score
+- Major and technical language pairs tend to score in the high, "understandable-to-strong" range
+- Creative content scores lower, reflecting how poorly BLEU captures tone and cultural nuance
+- BLEU is a directional signal, not a guarantee — pair it with human review for anything published
 
 </div>
 
@@ -906,9 +905,9 @@ This is the second subtitle.
 
 **Quality Gain:**
 
-- **Raw MT:** 87-94% accuracy
-- **Light PE:** 93-97% accuracy
-- **Full PE:** 97-99% accuracy
+- **Raw MT:** Usable draft, but errors remain
+- **Light PE:** Fixes critical errors; good enough for informational content
+- **Full PE:** Brings output up to human-translation quality
 
 ---
 
@@ -927,11 +926,11 @@ This is the second subtitle.
 - **Gesture Recognition:** Understanding and translating sign language
 - **Context Integration:** Using visual context to improve translation accuracy
 
-**Projected Accuracy (2027):**
+**Where it's headed:**
 
-- Text + Image Context: 96%+
-- Video + Audio: 95%+
-- Sign Language: 88-92%
+- Combining visual context with text is expected to improve translation quality
+- Video + audio translation is maturing fastest
+- Sign-language translation remains the hardest and least mature
 
 **Applications:**
 
@@ -950,14 +949,14 @@ This is the second subtitle.
 
 - **Context Awareness:** Understands full sentence meaning
 - **Fluency:** More natural-sounding output
-- **Accuracy:** 15-20% improvement over statistical MT
+- **Accuracy:** A clear step up over older statistical MT
 - **Idiomatic Expressions:** Better handling of non-literal phrases
 
-**Current Performance (2025):**
+**In practice:**
 
-- Major language pairs: 94.2% accuracy
-- Technical content: 96.8% accuracy
-- Creative content: 89.2% accuracy
+- Strong on major and technical language pairs
+- Weaker on creative content, where tone and nuance matter most
+- Human review still recommended for anything high-stakes
 
 **Technology Leaders:**
 
@@ -978,63 +977,67 @@ This is the second subtitle.
 - **Video Conferencing:** Real-time speech interpretation
 - **Shared Workspaces:** Translated comments and annotations
 
-**Adoption Rate (2025):**
+**Adoption:**
 
-- Technology sector: 89%
-- E-commerce: 76%
-- Enterprise average: 64%
+- Fastest uptake in the technology sector
+- Growing steadily in e-commerce and across the broader enterprise
+- Increasingly a default expectation for distributed, multilingual teams
 
 ---
 
 ## 📈 Industry Standards & Performance Benchmarks
 
-### Translation Accuracy by Content Type (2025)
+### Recommended Approach by Content Type
+
+The right choice depends less on a headline accuracy number and more on how much a mistake costs. Higher-stakes content warrants more human involvement.
 
 <div class="accuracy-comparison">
 
-| Content Type                | AI Accuracy | Human Accuracy | Recommended Approach     |
-| --------------------------- | ----------- | -------------- | ------------------------ |
-| **Technical Documentation** | 96.8%       | 98.1%          | Hybrid (AI + review)     |
-| **Business Communications** | 94.7%       | 97.3%          | AI acceptable            |
-| **Marketing Content**       | 89.2%       | 95.8%          | Human preferred          |
-| **Legal Documents**         | 87.4%       | 96.7%          | Human mandatory          |
-| **Creative Content**        | 82.1%       | 94.3%          | Human mandatory          |
-| **General Web Content**     | 94.2%       | 96.5%          | AI acceptable            |
-| **E-commerce Catalogs**     | 92.4%       | 95.1%          | Hybrid recommended       |
-| **Medical Content**         | 91.8%       | 98.2%          | Human with certification |
+| Content Type                | AI Suitability                       | Recommended Approach     |
+| --------------------------- | ------------------------------------ | ------------------------ |
+| **Technical Documentation** | Strong with review                   | Hybrid (AI + review)     |
+| **Business Communications** | Generally acceptable                 | AI acceptable            |
+| **Marketing Content**       | Limited (tone and nuance)            | Human preferred          |
+| **Legal Documents**         | Not reliable unreviewed              | Human mandatory          |
+| **Creative Content**        | Weak (voice and cultural resonance)  | Human mandatory          |
+| **General Web Content**     | Generally acceptable                 | AI acceptable            |
+| **E-commerce Catalogs**     | Good for scale                       | Hybrid recommended       |
+| **Medical Content**         | Not reliable unreviewed              | Human with certification |
 
 </div>
 
-### Language Pair Accuracy Tiers
+### Language Pair Maturity Tiers
+
+AI translation quality tracks closely with how much training data exists for a language pair. High-resource pairs are the most reliable; low-resource and indigenous languages are where AI struggles most and human involvement matters more.
 
 <div class="language-coverage">
 
-#### Tier 1 - Enterprise Ready (95%+ AI accuracy)
+#### Tier 1 - Enterprise Ready
 
-- English ↔ Spanish: 96.2%
-- English ↔ French: 95.8%
-- English ↔ German: 94.7%
-- English ↔ Italian: 93.9%
-- English ↔ Portuguese: 93.2%
-- Chinese Simplified ↔ English: 89.7%
-- Japanese ↔ English: 87.4%
+- English ↔ Spanish
+- English ↔ French
+- English ↔ German
+- English ↔ Italian
+- English ↔ Portuguese
+- Chinese Simplified ↔ English
+- Japanese ↔ English
 
-#### Tier 2 - Business Ready (90-95% AI accuracy)
+#### Tier 2 - Business Ready
 
-- Russian ↔ English: 88.9%
-- Korean ↔ English: 86.1%
-- Arabic ↔ English: 84.3%
-- Dutch, Swedish, Norwegian (90-93%)
-- Polish, Czech, Hungarian (88-91%)
+- Russian ↔ English
+- Korean ↔ English
+- Arabic ↔ English
+- Dutch, Swedish, Norwegian
+- Polish, Czech, Hungarian
 
-#### Tier 3 - Developing (85-90% AI accuracy)
+#### Tier 3 - Developing
 
 - Thai, Vietnamese, Indonesian
 - Turkish, Hebrew
 - Ukrainian, Bulgarian, Romanian
 - Hindi, Bengali, Tamil
 
-#### Tier 4 - Basic Support (<85% AI accuracy)
+#### Tier 4 - Basic Support
 
 - African languages (Swahili, Yoruba)
 - Regional dialects
@@ -1043,24 +1046,20 @@ This is the second subtitle.
 
 </div>
 
-### Market Size & Growth Projections
+### Market Direction
 
 <div class="market-growth">
 
-#### Translation & Interpretation Market (2020-2027)
+#### Where the Translation & Interpretation Market Is Heading
 
-| Year     | Total Market | AI Services | Human Services | AI Market Share |
-| -------- | ------------ | ----------- | -------------- | --------------- |
-| **2020** | $1.5B        | $0.3B       | $1.2B          | 20%             |
-| **2021** | $2.1B        | $0.6B       | $1.5B          | 29%             |
-| **2022** | $2.8B        | $1.1B       | $1.7B          | 39%             |
-| **2023** | $3.7B        | $1.8B       | $1.9B          | 49%             |
-| **2024** | $4.9B        | $2.8B       | $2.1B          | 57%             |
-| **2025** | $6.4B        | $4.1B       | $2.3B          | 64%             |
-| **2026** | $7.8B        | $5.2B       | $2.6B          | 67%             |
-| **2027** | $8.9B        | $6.1B       | $2.8B          | 69%             |
+The broad, well-documented trends are clear enough without inventing precise figures:
 
-**CAGR (2020-2027):** 23.7%
+- The overall language-services market continues to grow year over year
+- AI-driven services are the fastest-growing segment and are taking share from purely manual work
+- Human services aren't disappearing — they're concentrating on high-stakes, creative, and certified work where quality is non-negotiable
+- The dominant model is shifting toward hybrid: AI for scale and speed, humans for judgment
+
+For market-sizing figures, cite a named analyst report (CSA Research, Nimdzi, Slator) rather than a single headline number — precise projections vary widely between sources.
 
 </div>
 
@@ -1131,8 +1130,8 @@ This is the second subtitle.
 
 ✅ High volume, routine content  
 ✅ Fast turnaround required (< 24 hours)  
-✅ Budget constraints (85-90% cost savings)  
-✅ Technical documentation (96.8% accuracy)  
+✅ Budget constraints (major cost savings vs human)  
+✅ Technical documentation (with light review)  
 ✅ General business communications  
 ✅ Internal documents and emails  
 ✅ Product descriptions and catalogs  
@@ -1165,7 +1164,7 @@ This is the second subtitle.
 ✅ Customer support calls  
 ✅ Training sessions  
 ✅ Internal webinars  
-✅ Budget constraints (90% savings)  
+✅ Budget constraints (far cheaper than per-session human)  
 ✅ 24/7 availability needed  
 ✅ 30+ languages simultaneously
 
@@ -1221,17 +1220,17 @@ This is the second subtitle.
 <div class="takeaway-grid">
   <div class="takeaway-card">
     <h4>🤖 AI Transformation</h4>
-    <p>AI translation has achieved <strong>94.2% accuracy</strong> for major language pairs, making it suitable for most business applications while reducing costs by <strong>85-90%</strong></p>
+    <p>AI translation is now strong enough on high-resource language pairs to handle most routine business content, at a fraction of the cost of manual work</p>
   </div>
 
   <div class="takeaway-card">
     <h4>🔗 Hybrid Future</h4>
-    <p>The optimal approach combines AI speed and cost-efficiency with human expertise for quality assurance, achieving <strong>340% ROI</strong> within 18 months</p>
+    <p>The most durable approach combines AI speed and cost-efficiency with human expertise for quality assurance — scale from the machine, judgment from the human</p>
   </div>
 
   <div class="takeaway-card">
     <h4>📊 Market Growth</h4>
-    <p>Language services market projected to reach <strong>$8.9B by 2027</strong> with AI capturing 69% market share, fundamentally transforming the industry</p>
+    <p>The language services market keeps growing, with AI the fastest-growing segment and taking share from purely manual work. For sizing, cite a named analyst report rather than a single headline number</p>
   </div>
 
   <div class="takeaway-card">
@@ -1246,7 +1245,7 @@ This is the second subtitle.
 
   <div class="takeaway-card">
     <h4>📈 Continuous Evolution</h4>
-    <p>Technology advances rapidly: <strong>97%+ accuracy projected by 2027</strong> for major languages, sub-second latency, and multimodal translation capabilities</p>
+    <p>Technology advances rapidly: quality keeps climbing, latency keeps dropping, and multimodal translation (text, speech, image, video) is moving from research into products</p>
   </div>
 </div>
 
@@ -1270,7 +1269,7 @@ This is the second subtitle.
 ---
 
 :::tip{title="Stay Updated"}
-Language technology evolves rapidly. This glossary reflects 2025 market conditions and will be updated quarterly with the latest accuracy metrics, cost data, and industry benchmarks.
+Language technology evolves rapidly. This glossary reflects 2025 market conditions and is updated periodically as terminology, tooling, and best practices change.
 :::
 
 ---
@@ -1288,16 +1287,17 @@ This glossary represents a comprehensive analytical compilation of language serv
 - **Vendor Documentation** - Google Translate, DeepL, Microsoft Translator, Amazon Translate technical specifications
 - **Market Analysis** - Gartner, Forrester Research reports on translation technology
 
-### Performance Metrics Sources
+### On Performance and Cost Claims
 
-- AI translation accuracy benchmarks from vendor-published specifications
-- Cost analysis based on publicly available pricing (October 2025)
-- Market size projections compiled from multiple industry analyst reports
-- User satisfaction data aggregated from industry surveys and case studies
+This glossary deliberately avoids quoting precise, single-source accuracy percentages and market-size figures. Language-services benchmarks vary widely by vendor, language pair, content type, and test methodology, and a bare percentage without a linked, reproducible source is marketing, not evidence. Where you need hard numbers:
 
-### Data Verification Process
+- For accuracy, cite a specific benchmark and language pair, ideally with the evaluation method (BLEU, human eval, etc.)
+- For cost, get current quotes from vendors — pricing moves quickly
+- For market size, cite a named analyst report (CSA Research, Nimdzi, Slator) rather than a round headline figure
 
-All statistics cross-referenced with multiple authoritative sources. Performance metrics represent industry-wide averages and vendor-published specifications. Individual implementation results may vary based on:
+### How to Apply This Guide
+
+The qualitative guidance here (AI acceptable / hybrid recommended / human mandatory) is meant as a starting point. Actual results depend on:
 
 - Content type and complexity
 - Language pair selection
