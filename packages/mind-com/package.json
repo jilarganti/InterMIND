@@ -10,6 +10,7 @@
     "preview": "nuxt preview --dotenv .vercel/.env.development.local",
     "generate": "nuxt generate",
     "postinstall": "nuxt prepare",
+    "test": "vitest --run",
     "lint": "pnpm eslint --cache .",
     "format": "prettier --cache --cache-strategy content -w .",
     "typecheck": "nuxt typecheck",

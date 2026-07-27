@@ -41,6 +41,10 @@ const stripRequired = (label: string) => label.replace(/\s*\*\s*$/, "")
 
 const data = reactive<FormData>({ name: "", email: "", webSite: "", kind: "", message: "" })
 
+// Honeypot — hidden from real users, filled by bots; dropped server-side.
+const honeypot = ref("")
+const captchaToken = ref("")
+
 // A single category is no real choice — hide the select and submit it implicitly.
 const showCategory = computed(() => props.services.length > 1)
 watchEffect(() => {
@@ -73,7 +77,7 @@ async function handleSubmit() {
     const res = await fetch("/api/submit-form", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
+      body: JSON.stringify({ ...data, website: honeypot.value, captchaToken: captchaToken.value }),
     })
     const json = (await res.json()) as { success?: boolean; message?: string }
     if (res.ok && json.success) {
@@ -109,6 +113,10 @@ async function handleSubmit() {
       :class="['flex flex-col gap-4', variant === 'card' && 'p-6 rounded-xl border border-default bg-elevated/50']"
       @submit="handleSubmit"
     >
+      <!-- Honeypot: off-screen, hidden from real users; bots fill it and get dropped server-side. -->
+      <div aria-hidden="true" class="absolute -left-[9999px] h-0 w-0 overflow-hidden">
+        <input v-model="honeypot" type="text" name="website" tabindex="-1" autocomplete="off" />
+      </div>
       <UFormField :label="stripRequired(t('contactForm.nameLabel'))" name="name" required>
         <UInput v-model="data.name" size="lg" class="w-full" autocomplete="name" :placeholder="t('contactForm.namePlaceholder')" />
       </UFormField>
@@ -139,6 +147,7 @@ async function handleSubmit() {
           :placeholder="messagePlaceholder ?? t('contactForm.messagePlaceholder')"
         />
       </UFormField>
+      <TurnstileWidget v-model="captchaToken" />
       <UAlert v-if="errorMessage" color="error" variant="subtle" icon="i-lucide-circle-alert" :description="errorMessage" />
       <UButton
         type="submit"

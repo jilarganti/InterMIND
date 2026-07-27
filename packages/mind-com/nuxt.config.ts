@@ -47,6 +47,9 @@ export default defineNuxtConfig({
       // Usercentrics Template ID of the PostHog Data Processing Service — drives
       // consent gating in app/plugins/posthog-consent.client.ts.
       ucPosthogId: process.env.NUXT_PUBLIC_UC_POSTHOG_ID ?? "uRoG9JxhEUtI4V",
+      // Cloudflare Turnstile site key (public by design). Empty disables the
+      // widget; server/utils/lead-guard.ts fails open to match.
+      turnstileSiteKey: process.env.NUXT_PUBLIC_TURNSTILE_SITE_KEY ?? "",
     },
   },
 
