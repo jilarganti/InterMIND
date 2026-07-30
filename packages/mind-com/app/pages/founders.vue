@@ -26,10 +26,7 @@ const founders = computed<Founder[]>(() => [
     desc: t("founders.descAleksey"),
     country: t("founders.country"),
     avatarLink: "https://github.com/jilarganti.png",
-    links: [
-      { label: "LinkedIn", link: "https://www.linkedin.com/in/aleksey-korolev" },
-      { label: "GitHub", link: "https://github.com/jilarganti" },
-    ],
+    links: [{ label: "LinkedIn", link: "https://www.linkedin.com/in/aleksey-korolev" }],
   },
   {
     name: "Nataliya Agafonova",
