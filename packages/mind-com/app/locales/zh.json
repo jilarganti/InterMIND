@@ -47,7 +47,8 @@
     "contacts": "联系方式",
     "copyright": "© Mind.com, {year}。",
     "newVersionLabel": "新版本：{url}",
-    "brand": "品牌资产"
+    "brand": "品牌资产",
+    "founders": "创始人"
   },
   "about": {
     "metaTitle": "关于 — Mind.com",
@@ -215,5 +216,16 @@
       "apiAccess": "我想获取无限制的 Mind.com API 应用程序 ID 和令牌",
       "general": "一般问题或反馈"
     }
+  },
+  "founders": {
+    "metaTitle": "创始人 — Mind.com",
+    "metaDescription": "Mind.com 由 Aleksey Korolev 和 Nataliya Agafonova 创立并全资持有，自有资金运营，无外部投资者。",
+    "h1": "创始人",
+    "lede": "Mind.com 由两个人创立并持有，自有资金运营，无外部投资者——决策快速且着眼长远。",
+    "structureNote": "进一步了解{link}。",
+    "aboutLink": "公司架构",
+    "descAleksey": "联合创始人 · 产品负责人与增长",
+    "descNataliya": "联合创始人 · 15 年会议技术经验",
+    "country": "阿联酋"
   }
 }

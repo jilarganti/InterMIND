@@ -47,7 +47,8 @@
     "contacts": "Contatos",
     "copyright": "© Mind.com, {year}.",
     "newVersionLabel": "Nova versão: {url}",
-    "brand": "Ativos da Marca"
+    "brand": "Ativos da Marca",
+    "founders": "Fundadores"
   },
   "about": {
     "metaTitle": "Sobre — Mind.com",
@@ -215,5 +216,16 @@
       "apiAccess": "Quero obter o ID do aplicativo e o token da Mind.com API sem restrições",
       "general": "Pergunta geral ou feedback"
     }
+  },
+  "founders": {
+    "metaTitle": "Fundadores — Mind.com",
+    "metaDescription": "A Mind.com foi fundada e pertence a Aleksey Korolev e Nataliya Agafonova, com financiamento próprio. Sem investidores externos.",
+    "h1": "Fundadores",
+    "lede": "A Mind.com foi fundada e pertence a duas pessoas, com financiamento próprio. Sem investidores externos — decisões rápidas e de longo prazo.",
+    "structureNote": "Saiba mais sobre {link}.",
+    "aboutLink": "a estrutura da empresa",
+    "descAleksey": "Cofundador · Líder de produto e crescimento",
+    "descNataliya": "Cofundadora · 15 anos em tecnologia de reuniões",
+    "country": "EAU"
   }
 }

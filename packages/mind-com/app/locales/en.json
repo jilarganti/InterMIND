@@ -21,7 +21,8 @@
     "contacts": "Contacts",
     "copyright": "© Mind.com, {year}.",
     "newVersionLabel": "New version: {url}",
-    "brand": "Brand Assets"
+    "brand": "Brand Assets",
+    "founders": "Founders"
   },
   "blog": {
     "title": "Blog",
@@ -216,5 +217,16 @@
       "orgDescription": "Mind.com builds the technology for borderless conversation — the company behind InterMIND. EU IP holder in Estonia, operational entity in UAE.",
       "softwareDescription": "Multilingual video meeting platform with verifiable translation quality, customer-controlled glossaries, audit trail, EU / neutral infrastructure and on-premise deployment."
     }
+  },
+  "founders": {
+    "metaTitle": "Founders — Mind.com",
+    "metaDescription": "Mind.com is founded, owned and self-funded by Aleksey Korolev and Nataliya Agafonova. No external investors.",
+    "h1": "Founders",
+    "lede": "Mind.com is founded, owned and self-funded by two people. No external investors — decisions are fast and made for the long term.",
+    "structureNote": "Read more about {link}.",
+    "aboutLink": "how the company is structured",
+    "descAleksey": "Co-founder · Product lead & growth",
+    "descNataliya": "Co-founder · 15 years in meetings technology",
+    "country": "UAE"
   }
 }

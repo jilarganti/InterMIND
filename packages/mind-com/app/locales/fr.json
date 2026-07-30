@@ -47,7 +47,8 @@
     "contacts": "Contacts",
     "copyright": "© Mind.com, {year}.",
     "newVersionLabel": "Nouvelle version : {url}",
-    "brand": "Ressources de marque"
+    "brand": "Ressources de marque",
+    "founders": "Fondateurs"
   },
   "about": {
     "metaTitle": "À propos — Mind.com",
@@ -215,5 +216,16 @@
       "apiAccess": "Je souhaite obtenir l'ID d'application et le jeton Mind.com API sans restrictions",
       "general": "Question générale ou feedback"
     }
+  },
+  "founders": {
+    "metaTitle": "Fondateurs — Mind.com",
+    "metaDescription": "Mind.com a été fondée et est détenue par Aleksey Korolev et Nataliya Agafonova, sur fonds propres. Sans investisseurs externes.",
+    "h1": "Fondateurs",
+    "lede": "Mind.com a été fondée et est détenue par deux personnes, sur fonds propres. Sans investisseurs externes — des décisions rapides et pensées pour le long terme.",
+    "structureNote": "En savoir plus sur {link}.",
+    "aboutLink": "la structure de l'entreprise",
+    "descAleksey": "Cofondateur · Responsable produit et croissance",
+    "descNataliya": "Cofondatrice · 15 ans dans les technologies de réunion",
+    "country": "EAU"
   }
 }
