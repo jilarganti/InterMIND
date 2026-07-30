@@ -102,7 +102,7 @@ const resolveCustomFieldId = async (fieldKey: string, label: string): Promise<st
   return option.id
 }
 
-export async function createContactAndLead(data: SubmitForm, refererUrl: string) {
+export async function createContactAndLead(data: SubmitForm, sourceUrl: string) {
   try {
     const person = await createContact({
       name: data.name || data.email,
@@ -118,7 +118,7 @@ export async function createContactAndLead(data: SubmitForm, refererUrl: string)
       title: data.name || data.email,
       [CUSTOM_LEAD_FIELD.KIND]: data.kind,
       [CUSTOM_LEAD_FIELD.MESSAGE]: message,
-      [CUSTOM_LEAD_FIELD.URL]: refererUrl,
+      [CUSTOM_LEAD_FIELD.URL]: sourceUrl,
     })
 
     return { success: true as const, message: "Contact and lead created", person, lead }

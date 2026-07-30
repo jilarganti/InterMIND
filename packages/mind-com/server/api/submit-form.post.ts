@@ -1,8 +1,9 @@
 import { createContactAndLead, type SubmitForm } from "../utils/pipedrive"
 import { guardLeadSubmission } from "../utils/lead-guard"
+import { resolveSourceUrl } from "../utils/source-url"
 
 export default defineEventHandler(async (event) => {
-  const body = await readBody<SubmitForm & { captchaToken?: string; website?: string }>(event)
+  const body = await readBody<SubmitForm & { captchaToken?: string; website?: string; page?: string }>(event)
 
   if (!body?.email || !body?.kind) {
     setResponseStatus(event, 400)
@@ -20,8 +21,8 @@ export default defineEventHandler(async (event) => {
     return { success: false, message: "Request rejected" }
   }
 
-  const referer = getRequestHeader(event, "referer") || getRequestURL(event).origin
-  const result = await createContactAndLead(body, referer)
+  const sourceUrl = resolveSourceUrl(body.page, getRequestHeader(event, "referer"), getRequestURL(event).origin)
+  const result = await createContactAndLead(body, sourceUrl)
 
   if (!result.success) {
     setResponseStatus(event, 500)

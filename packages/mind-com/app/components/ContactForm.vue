@@ -10,6 +10,9 @@ interface FormData {
 }
 
 const { t } = useI18n({ useScope: "global" })
+// Which page the form sits on — recorded on the CRM lead so sales can tell
+// /careers applications from /team, /contacts and /help submissions apart.
+const route = useRoute()
 
 const props = withDefaults(
   defineProps<{
@@ -77,7 +80,7 @@ async function handleSubmit() {
     const res = await fetch("/api/submit-form", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ ...data, website: honeypot.value, captchaToken: captchaToken.value }),
+      body: JSON.stringify({ ...data, page: route.path, website: honeypot.value, captchaToken: captchaToken.value }),
     })
     const json = (await res.json()) as { success?: boolean; message?: string }
     if (res.ok && json.success) {
