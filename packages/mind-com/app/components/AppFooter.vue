@@ -16,7 +16,8 @@ const columns = computed(() => [
     links: [
       { text: t("footer.about"), href: localePath("/about") },
       { text: t("footer.team"), href: localePath("/team") },
-      { text: t("footer.founders"), href: localePath("/founders") },
+      // Founders link hidden until the /team → intermind.com/team switchover
+      // { text: t("footer.founders"), href: localePath("/founders") },
       { text: t("footer.contacts"), href: localePath("/contacts") },
     ],
   },
