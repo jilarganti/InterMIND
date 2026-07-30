@@ -11,7 +11,7 @@ interface FormData {
 
 const { t } = useI18n({ useScope: "global" })
 // Which page the form sits on — recorded on the CRM lead so sales can tell
-// /careers applications from /team, /contacts and /help submissions apart.
+// /team, /contacts and /help submissions apart.
 const route = useRoute()
 
 const props = withDefaults(

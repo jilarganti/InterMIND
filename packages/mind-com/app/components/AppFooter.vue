@@ -9,7 +9,6 @@ const columns = computed(() => [
       { text: t("footer.blog"), href: localePath("/blog") },
       { text: t("footer.brand"), href: localePath("/brand") },
       { text: t("footer.privacyPolicy"), href: localePath("/legal/privacy") },
-      { text: t("footer.serviceStatus"), href: "https://intermind.checkly-dashboards.com/", external: true },
     ],
   },
   {
@@ -17,7 +16,6 @@ const columns = computed(() => [
     links: [
       { text: t("footer.about"), href: localePath("/about") },
       { text: t("footer.team"), href: localePath("/team") },
-      { text: t("footer.careers"), href: localePath("/careers") },
       { text: t("footer.contacts"), href: localePath("/contacts") },
     ],
   },
@@ -34,10 +32,7 @@ const year = new Date().getFullYear()
           <h4>{{ col.title }}</h4>
           <ul>
             <li v-for="link in col.links" :key="link.href">
-              <a :href="link.href" :target="link.external ? '_blank' : undefined" :rel="link.external ? 'noopener' : undefined" class="footer-link">
-                {{ link.text }}
-                <span v-if="link.external" aria-hidden="true"> ↗</span>
-              </a>
+              <a :href="link.href" class="footer-link">{{ link.text }}</a>
             </li>
           </ul>
         </div>

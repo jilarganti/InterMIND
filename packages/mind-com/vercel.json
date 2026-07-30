@@ -68,11 +68,6 @@
       "permanent": true
     },
     {
-      "source": "/resources/company/careers",
-      "destination": "/careers",
-      "permanent": true
-    },
-    {
       "source": "/resources/company/contacts",
       "destination": "/contacts",
       "permanent": true

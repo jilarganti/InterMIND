@@ -23,7 +23,6 @@ export default defineEventHandler(async (event) => {
   lines.push(`- [Home](${siteUrl}/): InterMIND — Real-time multilingual video meetings`)
   lines.push(`- [About](${siteUrl}/about): Who we are and our mission`)
   lines.push(`- [Team](${siteUrl}/team): The humans and AI behind Mind.com`)
-  lines.push(`- [Careers](${siteUrl}/careers): Join us. Show us what you've built.`)
   lines.push(`- [Contacts](${siteUrl}/contacts): Reach our company team`)
   lines.push(`- [Help](${siteUrl}/help): Get support — fast, human, no confusion`)
   lines.push("")

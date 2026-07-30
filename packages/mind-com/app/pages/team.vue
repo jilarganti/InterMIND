@@ -139,11 +139,6 @@ function renderMarkdownBold(s: string): string {
         <template #strong>
           <strong class="text-gray-900 dark:text-white">{{ t("team.ctaStrong") }}</strong>
         </template>
-        <template #link>
-          <NuxtLink :to="localePath('/careers')" class="underline underline-offset-2 decoration-gray-400 hover:decoration-current">{{
-            t("team.ctaCareersLink")
-          }}</NuxtLink>
-        </template>
       </i18n-t>
       <ContactForm
         :services="careersServices"

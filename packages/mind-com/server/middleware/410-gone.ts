@@ -15,12 +15,17 @@ const GONE_PAGE_PATHS = new Set([
   // Stale media-kit page, removed 2026-06-11. The /media-kit images stay in
   // public/ — press may have hotlinked them.
   "/brand-assets",
+  // Careers page removed 2026-07-30; not hiring, no replacement page.
+  "/careers",
 ])
 
 const GONE_EXACT_PATHS = new Set([
   // /ru/promo/imind — 732 refdomains, 128 organic traffic. iMind→InterMIND
   // legacy promo page; not restored on the rebrand.
   "/ru/promo/imind",
+  // Legacy pre-rebrand careers URL; its redirect to /careers was dropped
+  // when the careers page was removed (2026-07-30).
+  "/resources/company/careers",
 ])
 
 const LOCALE_PREFIXES = ["/es", "/pt", "/fr", "/de", "/ru", "/zh"]

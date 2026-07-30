@@ -54,9 +54,6 @@ const entities = [
     <p>
       <strong>{{ t("about.ctaIntro") }}</strong>{{ " " }}
       <i18n-t scope="global" keypath="about.ctaParagraph" tag="span">
-        <template #careers
-          ><NuxtLink :to="localePath('/careers')">{{ t("about.ctaCareersLink") }}</NuxtLink></template
-        >
         <template #contacts
           ><NuxtLink :to="localePath('/contacts')">{{ t("about.ctaContactsLink") }}</NuxtLink></template
         >

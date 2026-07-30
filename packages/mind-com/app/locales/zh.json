@@ -40,12 +40,10 @@
     "companyTitle": "公司",
     "getSupport": "获取支持",
     "privacyPolicy": "隐私政策",
-    "serviceStatus": "系统状态",
     "blog": "博客",
     "aiApiDocs": "AI API / LLM 文档",
     "about": "关于我们",
     "team": "团队",
-    "careers": "职业发展",
     "contacts": "联系方式",
     "copyright": "© Mind.com, {year}。",
     "newVersionLabel": "新版本：{url}",
@@ -70,8 +68,7 @@
     "approach2": "<strong>语言不应决定你能与谁合作。</strong>边界与口音不是筛选人才或机会的过滤器。",
     "approach3": "<strong>小团队，AI 加持。</strong>由人来做决策；AI 承担繁重工作。",
     "ctaIntro": "想了解更多？",
-    "ctaParagraph": "了解{careers}，或{contacts}。",
-    "ctaCareersLink": "招聘职位",
+    "ctaParagraph": "欢迎{contacts}。",
     "ctaContactsLink": "联系我们",
     "signoff": "— Mind.com 团队"
   },
@@ -129,9 +126,8 @@
     "helpBlock": "访问我们的 {link} 以获取 Mind.com 团队的快速解答和帮助。",
     "helpLink": "支持页面",
     "learnBlockStrong": "想了解更多关于我们？",
-    "learnBlock": "查看我们的 {about}，或探索 {careers}。",
+    "learnBlock": "查看我们的 {about}。",
     "learnAboutLink": "关于页面",
-    "learnCareersLink": "职业机会",
     "detailsTitle": "注册主体"
   },
   "contactForm": {
@@ -155,12 +151,6 @@
     "errorEmail": "请输入有效的电子邮件地址"
   },
   "careers": {
-    "metaTitle": "招聘 — Mind.com",
-    "metaDescription": "Mind.com 是一支自筹资金的小团队。目前我们没有在积极招聘。出色的创造者可通过 careers{'@'}mind.com 联系我们。",
-    "h1": "招聘",
-    "lead": "Mind.com 是一支自筹资金的小团队。目前我们没有针对具体岗位积极招聘。",
-    "invite": "如果你创造过出色的东西——代码、产品、研究、一家公司——并且与我们所做的事相契合，我们仍然乐意听到你的来信。请发送你的作品链接，以及几句关于你接下来想构建什么的话。",
-    "formTitle": "介绍一下你自己",
     "messageLabel": "展示你的作品 *",
     "messagePlaceholder": "分享你的项目、GitHub、作品集链接，或描述你做出的影响。接下来你最想解决什么问题？",
     "buttonText": "提交申请",
@@ -179,9 +169,8 @@
     "humanTeamTitle": "人类团队",
     "aiTeamTitle": "AI 团队",
     "aiTeamNote": "AI 团队成员并非人类，但他们是我们运营不可或缺的一部分。他们协助完成从编码到研究的各项任务，并帮助我们打破语言障碍。",
-    "ctaParagraph": "{strong} 查看我们的 {link}。",
+    "ctaParagraph": "{strong} 请在下方介绍一下你自己。",
     "ctaStrong": "想加入我们吗？",
-    "ctaCareersLink": "职业机会",
     "humans": {
       "mindDesc": "工程、运营与销售",
       "windictedDesc": "工程",

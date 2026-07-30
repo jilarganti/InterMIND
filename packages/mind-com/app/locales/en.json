@@ -14,12 +14,10 @@
     "getSupport": "Get Support",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
-    "serviceStatus": "System Status",
     "blog": "Blog",
     "aiApiDocs": "AI API / LLM Docs",
     "about": "About",
     "team": "Team",
-    "careers": "Careers",
     "contacts": "Contacts",
     "copyright": "© Mind.com, {year}.",
     "newVersionLabel": "New version: {url}",
@@ -68,9 +66,8 @@
     "humanTeamTitle": "Human Team",
     "aiTeamTitle": "AI Team",
     "aiTeamNote": "AI team members are not human, but they are integral to our operations. They assist in various tasks, from coding to research, and help us break down language barriers.",
-    "ctaParagraph": "{strong} Check out our {link}.",
+    "ctaParagraph": "{strong} Tell us about yourself below.",
     "ctaStrong": "Want to join us?",
-    "ctaCareersLink": "career opportunities",
     "humans": {
       "mindDesc": "Engineering, operations & sales",
       "windictedDesc": "Engineering",
@@ -91,12 +88,6 @@
     "defaultLinkLabel": "Link"
   },
   "careers": {
-    "metaTitle": "Careers — Mind.com",
-    "metaDescription": "Mind.com is a small self-funded team. We're not actively hiring right now. Exceptional builders can reach us at careers{'@'}mind.com.",
-    "h1": "Careers",
-    "lead": "Mind.com is a small self‑funded team. Right now we're not actively hiring for any specific role.",
-    "invite": "If you've built something exceptional — code, products, research, a company — that aligns with what we do, we'd still like to hear from you. Send links to your work and a few lines about what you want to build next.",
-    "formTitle": "Tell us about yourself",
     "messageLabel": "Show us your work *",
     "messagePlaceholder": "Share links to your projects, GitHub, portfolio, or describe the impact you've made. What problem are you excited to solve next?",
     "buttonText": "Send your application",
@@ -129,9 +120,8 @@
     "helpBlock": "Visit our {link} for fast answers and assistance from the Mind.com team.",
     "helpLink": "Support Page",
     "learnBlockStrong": "Want to learn more about us?",
-    "learnBlock": "Check out our {about} or explore {careers}.",
+    "learnBlock": "Check out our {about}.",
     "learnAboutLink": "about page",
-    "learnCareersLink": "career opportunities",
     "detailsTitle": "Registered entities"
   },
   "contactForm": {
@@ -173,8 +163,7 @@
     "approach2": "<strong>Language shouldn't decide who you can work with.</strong> Borders and accents are not a filter on talent or opportunity.",
     "approach3": "<strong>Small team, AI-amplified.</strong> People lead the decisions; AI does the heavy lifting.",
     "ctaIntro": "Want to go deeper?",
-    "ctaParagraph": "Explore {careers} or {contacts}.",
-    "ctaCareersLink": "open roles",
+    "ctaParagraph": "Feel free to {contacts}.",
     "ctaContactsLink": "get in touch",
     "signoff": "— The Mind.com team"
   },

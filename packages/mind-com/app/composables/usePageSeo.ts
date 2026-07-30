@@ -1,7 +1,7 @@
 import type { MaybeRefOrGetter } from "vue"
 
 /**
- * Per-page SEO head for the static marketing pages (about, contacts, careers,
+ * Per-page SEO head for the static marketing pages (about, contacts,
  * team, help). Sets <title>, the meta description, a
  * locale-aware self-canonical, and the matching OpenGraph + Twitter card tags.
  *

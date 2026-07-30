@@ -40,12 +40,10 @@
     "companyTitle": "EMPRESA",
     "getSupport": "Obtener Soporte",
     "privacyPolicy": "Política de Privacidad",
-    "serviceStatus": "Estado del Sistema",
     "blog": "Blog",
     "aiApiDocs": "Documentación de API de IA / LLM",
     "about": "Acerca de",
     "team": "Equipo",
-    "careers": "Carreras",
     "contacts": "Contactos",
     "copyright": "© Mind.com, {year}.",
     "newVersionLabel": "Nueva versión: {url}",
@@ -70,8 +68,7 @@
     "approach2": "<strong>El idioma no debería decidir con quién puede trabajar.</strong> Las fronteras y los acentos no son un filtro para el talento ni las oportunidades.",
     "approach3": "<strong>Equipo pequeño, amplificado por IA.</strong> Las personas toman las decisiones; la IA hace el trabajo pesado.",
     "ctaIntro": "¿Quiere saber más?",
-    "ctaParagraph": "Explore {careers} o {contacts}.",
-    "ctaCareersLink": "vacantes",
+    "ctaParagraph": "Si lo desea, {contacts}.",
     "ctaContactsLink": "póngase en contacto",
     "signoff": "— El equipo de Mind.com"
   },
@@ -129,9 +126,8 @@
     "helpBlock": "Visite nuestra {link} para obtener respuestas rápidas y asistencia del equipo de Mind.com.",
     "helpLink": "Página de Soporte",
     "learnBlockStrong": "¿Quiere saber más sobre nosotros?",
-    "learnBlock": "Consulte nuestra {about} o explore {careers}.",
+    "learnBlock": "Consulte nuestra {about}.",
     "learnAboutLink": "página 'Acerca de nosotros'",
-    "learnCareersLink": "oportunidades laborales",
     "detailsTitle": "Entidades registradas"
   },
   "contactForm": {
@@ -155,12 +151,6 @@
     "errorEmail": "Introduzca una dirección de correo electrónico válida"
   },
   "careers": {
-    "metaTitle": "Empleo — Mind.com",
-    "metaDescription": "Mind.com es un equipo pequeño y autofinanciado. Ahora mismo no estamos contratando activamente. Los creadores excepcionales pueden escribirnos a careers{'@'}mind.com.",
-    "h1": "Empleo",
-    "lead": "Mind.com es un equipo pequeño y autofinanciado. Ahora mismo no estamos contratando activamente para ningún puesto concreto.",
-    "invite": "Si has creado algo excepcional — código, productos, investigación, una empresa — que encaje con lo que hacemos, aún así nos gustaría saber de ti. Envía enlaces a tu trabajo y unas líneas sobre lo que quieres construir a continuación.",
-    "formTitle": "Cuéntanos sobre ti",
     "messageLabel": "Muéstranos tu trabajo *",
     "messagePlaceholder": "Comparte enlaces a tus proyectos, GitHub, portafolio o describe el impacto que has tenido. ¿Qué problema te entusiasma resolver a continuación?",
     "buttonText": "Enviar tu candidatura",
@@ -179,9 +169,8 @@
     "humanTeamTitle": "Equipo Humano",
     "aiTeamTitle": "Equipo de IA",
     "aiTeamNote": "Los miembros del equipo de IA no son humanos, pero son parte integral de nuestras operaciones. Asisten en diversas tareas, desde la codificación hasta la investigación, y nos ayudan a derribar las barreras del idioma.",
-    "ctaParagraph": "{strong} Consulta nuestras {link}.",
+    "ctaParagraph": "{strong} Cuéntanos sobre ti a continuación.",
     "ctaStrong": "¿Quieres unirte a nosotros?",
-    "ctaCareersLink": "oportunidades profesionales",
     "humans": {
       "mindDesc": "Ingeniería, operaciones y ventas",
       "windictedDesc": "Ingeniería",

@@ -65,9 +65,6 @@ const entities = [
           <template #about
             ><NuxtLink :to="localePath('/about')">{{ t("contacts.learnAboutLink") }}</NuxtLink></template
           >
-          <template #careers
-            ><NuxtLink :to="localePath('/careers')">{{ t("contacts.learnCareersLink") }}</NuxtLink></template
-          >
         </i18n-t>
       </p>
     </blockquote>

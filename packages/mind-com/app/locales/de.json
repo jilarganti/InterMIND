@@ -40,12 +40,10 @@
     "companyTitle": "Unternehmen",
     "getSupport": "Support erhalten",
     "privacyPolicy": "Datenschutzerklärung",
-    "serviceStatus": "Systemstatus",
     "blog": "Blog",
     "aiApiDocs": "AI API / LLM Dokumentation",
     "about": "Über uns",
     "team": "Team",
-    "careers": "Karriere",
     "contacts": "Kontakt",
     "copyright": "© Mind.com, {year}.",
     "newVersionLabel": "Neue Version: {url}",
@@ -70,8 +68,7 @@
     "approach2": "<strong>Sprache sollte nicht bestimmen, mit wem Sie arbeiten können.</strong> Grenzen und Akzente sind kein Filter für Talent oder Chancen.",
     "approach3": "<strong>Kleines Team, KI-verstärkt.</strong> Menschen treffen die Entscheidungen; die KI übernimmt die Schwerstarbeit.",
     "ctaIntro": "Mehr erfahren?",
-    "ctaParagraph": "Entdecken Sie {careers} oder {contacts}.",
-    "ctaCareersLink": "offene Stellen",
+    "ctaParagraph": "Gerne — {contacts}.",
     "ctaContactsLink": "nehmen Sie Kontakt auf",
     "signoff": "— Das Mind.com-Team"
   },
@@ -129,9 +126,8 @@
     "helpBlock": "Besuchen Sie unsere {link} für schnelle Antworten und Unterstützung vom Mind.com-Team.",
     "helpLink": "Support-Seite",
     "learnBlockStrong": "Möchten Sie mehr über uns erfahren?",
-    "learnBlock": "Besuchen Sie unsere {about} oder entdecken Sie {careers}.",
+    "learnBlock": "Besuchen Sie unsere {about}.",
     "learnAboutLink": "Über-uns-Seite",
-    "learnCareersLink": "Karrieremöglichkeiten",
     "detailsTitle": "Eingetragene Gesellschaften"
   },
   "contactForm": {
@@ -155,12 +151,6 @@
     "errorEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
   },
   "careers": {
-    "metaTitle": "Karriere — Mind.com",
-    "metaDescription": "Mind.com ist ein kleines, eigenfinanziertes Team. Derzeit stellen wir nicht aktiv ein. Außergewöhnliche Macher erreichen uns unter careers{'@'}mind.com.",
-    "h1": "Karriere",
-    "lead": "Mind.com ist ein kleines, eigenfinanziertes Team. Derzeit stellen wir für keine konkrete Rolle aktiv ein.",
-    "invite": "Wenn Sie etwas Außergewöhnliches geschaffen haben — Code, Produkte, Forschung, ein Unternehmen — das zu unserer Arbeit passt, hören wir trotzdem gern von Ihnen. Senden Sie Links zu Ihren Arbeiten und ein paar Zeilen dazu, was Sie als Nächstes bauen möchten.",
-    "formTitle": "Erzählen Sie uns von sich",
     "messageLabel": "Zeigen Sie uns Ihre Arbeit *",
     "messagePlaceholder": "Teilen Sie Links zu Ihren Projekten, GitHub, Portfolio oder beschreiben Sie Ihre Wirkung. Welches Problem möchten Sie als Nächstes lösen?",
     "buttonText": "Bewerbung senden",
@@ -179,9 +169,8 @@
     "humanTeamTitle": "Menschliches Team",
     "aiTeamTitle": "KI-Team",
     "aiTeamNote": "KI-Teammitglieder sind nicht menschlich, aber sie sind ein integraler Bestandteil unserer Abläufe. Sie unterstützen uns bei verschiedenen Aufgaben, von der Codierung bis zur Forschung, und helfen uns, Sprachbarrieren abzubauen.",
-    "ctaParagraph": "{strong} Entdecken Sie unsere {link}.",
+    "ctaParagraph": "{strong} Erzählen Sie uns unten von sich.",
     "ctaStrong": "Möchten Sie uns beitreten?",
-    "ctaCareersLink": "Karrieremöglichkeiten",
     "humans": {
       "mindDesc": "Engineering, Betrieb & Vertrieb",
       "windictedDesc": "Engineering",
