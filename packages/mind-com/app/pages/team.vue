@@ -53,6 +53,8 @@ const humans = computed<TeamMember[]>(() => [
   },
 ])
 
+const careersServices = computed(() => [t("careers.services.partnerships")])
+
 const ai = computed<TeamMember[]>(() => [
   { name: "Claude", desc: t("team.ai.claudeDesc"), links: [{ link: "https://claude.ai/", label: "claude.ai" }] },
   { name: "Gemini", desc: t("team.ai.geminiDesc"), links: [{ link: "https://gemini.google.com/", label: "gemini.google.com" }] },
@@ -132,20 +134,25 @@ function renderMarkdownBold(s: string): string {
       </a>
     </div>
 
-    <i18n-t
-      scope="global"
-      keypath="team.ctaParagraph"
-      tag="p"
-      class="border-t border-gray-200 dark:border-gray-800 pt-8 text-gray-600 dark:text-gray-400"
-    >
-      <template #strong>
-        <strong class="text-gray-900 dark:text-white">{{ t("team.ctaStrong") }}</strong>
-      </template>
-      <template #link>
-        <NuxtLink :to="localePath('/careers')" class="underline underline-offset-2 decoration-gray-400 hover:decoration-current">{{
-          t("team.ctaCareersLink")
-        }}</NuxtLink>
-      </template>
-    </i18n-t>
+    <div class="border-t border-gray-200 dark:border-gray-800 pt-8">
+      <i18n-t scope="global" keypath="team.ctaParagraph" tag="p" class="text-gray-600 dark:text-gray-400">
+        <template #strong>
+          <strong class="text-gray-900 dark:text-white">{{ t("team.ctaStrong") }}</strong>
+        </template>
+        <template #link>
+          <NuxtLink :to="localePath('/careers')" class="underline underline-offset-2 decoration-gray-400 hover:decoration-current">{{
+            t("team.ctaCareersLink")
+          }}</NuxtLink>
+        </template>
+      </i18n-t>
+      <ContactForm
+        :services="careersServices"
+        :message-label="t('careers.messageLabel')"
+        :message-placeholder="t('careers.messagePlaceholder')"
+        :button-text="t('careers.buttonText')"
+        :web-site-label="t('careers.webSiteLabel')"
+        :web-site-placeholder="t('careers.webSitePlaceholder')"
+      />
+    </div>
   </div>
 </template>
