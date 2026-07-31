@@ -58,46 +58,6 @@
       "general": "General question or feedback"
     }
   },
-  "team": {
-    "metaTitle": "Team — Mind.com",
-    "metaDescription": "At Mind.com, humans lead, AI amplifies. Together, we blend creativity, code, and understanding to erase language barriers for good.",
-    "h1": "At Mind.com, humans lead, AI amplifies",
-    "ledeParagraph": "Together, we blend creativity, code, and understanding to erase language barriers for good. Learn more {link}.",
-    "ledeAboutLink": "about our mission",
-    "humanTeamTitle": "Human Team",
-    "aiTeamTitle": "AI Team",
-    "aiTeamNote": "AI team members are not human, but they are integral to our operations. They assist in various tasks, from coding to research, and help us break down language barriers.",
-    "ctaParagraph": "{strong} Tell us about yourself below.",
-    "ctaStrong": "Want to join us?",
-    "humans": {
-      "mindDesc": "Engineering, operations & sales",
-      "windictedDesc": "Engineering",
-      "jilargantiDesc": "Product lead & growth"
-    },
-    "ai": {
-      "claudeDesc": "Software engineering & code review",
-      "geminiDesc": "Research & data analysis",
-      "mistralDesc": "Translation quality evaluation"
-    },
-    "countries": {
-      "portugal": "Portugal",
-      "uae": "UAE"
-    },
-    "humanName": "The **Mind.com** Team"
-  },
-  "teamMembers": {
-    "defaultLinkLabel": "Link"
-  },
-  "careers": {
-    "messageLabel": "Show us your work *",
-    "messagePlaceholder": "Share links to your projects, GitHub, portfolio, or describe the impact you've made. What problem are you excited to solve next?",
-    "buttonText": "Send your application",
-    "webSiteLabel": "Git / Blog / Site / ...",
-    "webSitePlaceholder": "e.g. github.com/yourname",
-    "services": {
-      "partnerships": "Partnerships / BD"
-    }
-  },
   "contacts": {
     "metaTitle": "Contact Mind.com",
     "metaDescription": "Want to partner with Mind.com, invest, or reach our executive team? Use this form for business inquiries, media requests, or legal matters.",

@@ -15,8 +15,8 @@ const columns = computed(() => [
     title: t("footer.companyTitle"),
     links: [
       { text: t("footer.about"), href: localePath("/about") },
-      { text: t("footer.team"), href: localePath("/team") },
-      // Founders link hidden until the /team → intermind.com/team switchover
+      { text: t("footer.team"), href: "https://intermind.com/team", external: true },
+      // Founders link hidden for now
       // { text: t("footer.founders"), href: localePath("/founders") },
       { text: t("footer.contacts"), href: localePath("/contacts") },
     ],
@@ -34,7 +34,9 @@ const year = new Date().getFullYear()
           <h4>{{ col.title }}</h4>
           <ul>
             <li v-for="link in col.links" :key="link.href">
-              <a :href="link.href" class="footer-link">{{ link.text }}</a>
+              <a :href="link.href" :target="link.external ? '_blank' : undefined" :rel="link.external ? 'noopener' : undefined" class="footer-link">
+                {{ link.text }}<span v-if="link.external" aria-hidden="true"> ↗</span>
+              </a>
             </li>
           </ul>
         </div>

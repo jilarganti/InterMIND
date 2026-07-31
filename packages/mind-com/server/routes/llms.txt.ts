@@ -22,7 +22,7 @@ export default defineEventHandler(async (event) => {
   lines.push("## Pages")
   lines.push(`- [Home](${siteUrl}/): InterMIND — Real-time multilingual video meetings`)
   lines.push(`- [About](${siteUrl}/about): Who we are and our mission`)
-  lines.push(`- [Team](${siteUrl}/team): The humans and AI behind Mind.com`)
+  lines.push(`- [Team](https://intermind.com/team): The humans and AI behind Mind.com`)
   lines.push(`- [Founders](${siteUrl}/founders): Founded, owned and self-funded by Aleksey Korolev and Nataliya Agafonova`)
   lines.push(`- [Contacts](${siteUrl}/contacts): Reach our company team`)
   lines.push(`- [Help](${siteUrl}/help): Get support — fast, human, no confusion`)

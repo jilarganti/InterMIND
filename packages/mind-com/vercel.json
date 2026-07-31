@@ -64,7 +64,17 @@
     },
     {
       "source": "/resources/company/team",
-      "destination": "/team",
+      "destination": "https://intermind.com/team",
+      "permanent": true
+    },
+    {
+      "source": "/team",
+      "destination": "https://intermind.com/team",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(es|pt|fr|de|ru|zh)/team",
+      "destination": "https://intermind.com/team",
       "permanent": true
     },
     {

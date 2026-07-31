@@ -151,46 +151,6 @@
     "errorRequired": "Dieses Feld ist erforderlich",
     "errorEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
   },
-  "careers": {
-    "messageLabel": "Zeigen Sie uns Ihre Arbeit *",
-    "messagePlaceholder": "Teilen Sie Links zu Ihren Projekten, GitHub, Portfolio oder beschreiben Sie Ihre Wirkung. Welches Problem möchten Sie als Nächstes lösen?",
-    "buttonText": "Bewerbung senden",
-    "webSiteLabel": "Git / Blog / Site / ...",
-    "webSitePlaceholder": "z. B. github.com/yourname",
-    "services": {
-      "partnerships": "Partnerschaften / BD"
-    }
-  },
-  "team": {
-    "metaTitle": "Team — Mind.com",
-    "metaDescription": "Bei Mind.com führen Menschen, KI verstärkt. Gemeinsam vereinen wir Kreativität, Code und Verständnis, um Sprachbarrieren dauerhaft zu beseitigen.",
-    "h1": "Bei Mind.com führen Menschen, KI verstärkt",
-    "ledeParagraph": "Gemeinsam vereinen wir Kreativität, Code und Verständnis, um Sprachbarrieren dauerhaft zu beseitigen. Erfahren Sie mehr {link}.",
-    "ledeAboutLink": "über unsere Mission",
-    "humanTeamTitle": "Menschliches Team",
-    "aiTeamTitle": "KI-Team",
-    "aiTeamNote": "KI-Teammitglieder sind nicht menschlich, aber sie sind ein integraler Bestandteil unserer Abläufe. Sie unterstützen uns bei verschiedenen Aufgaben, von der Codierung bis zur Forschung, und helfen uns, Sprachbarrieren abzubauen.",
-    "ctaParagraph": "{strong} Erzählen Sie uns unten von sich.",
-    "ctaStrong": "Möchten Sie uns beitreten?",
-    "humans": {
-      "mindDesc": "Engineering, Betrieb & Vertrieb",
-      "windictedDesc": "Engineering",
-      "jilargantiDesc": "Produktleitung & Wachstum"
-    },
-    "ai": {
-      "claudeDesc": "Software-Engineering & Code-Review",
-      "geminiDesc": "Forschung & Datenanalyse",
-      "mistralDesc": "Bewertung der Übersetzungsqualität"
-    },
-    "countries": {
-      "portugal": "Portugal",
-      "uae": "VAE"
-    },
-    "humanName": "Das **Mind.com** Team"
-  },
-  "teamMembers": {
-    "defaultLinkLabel": "Link"
-  },
   "help": {
     "metaTitle": "Support erhalten — Mind.com",
     "metaDescription": "Haben Sie Fragen zur KI-gestützten Besprechungsdolmetschung, mehrsprachigen Kommunikation oder zum Enterprise Onboarding? Wir sind für Sie da – schnell, persönlich und ohne Missverständnisse.",

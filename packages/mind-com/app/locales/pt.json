@@ -151,46 +151,6 @@
     "errorRequired": "Este campo é obrigatório",
     "errorEmail": "Insira um endereço de e-mail válido"
   },
-  "careers": {
-    "messageLabel": "Mostre-nos seu trabalho *",
-    "messagePlaceholder": "Compartilhe links para seus projetos, GitHub, portfólio ou descreva o impacto que você teve. Que problema você está animado para resolver a seguir?",
-    "buttonText": "Enviar sua candidatura",
-    "webSiteLabel": "Git / Blog / Site / ...",
-    "webSitePlaceholder": "ex.: github.com/yourname",
-    "services": {
-      "partnerships": "Parcerias / BD"
-    }
-  },
-  "team": {
-    "metaTitle": "Equipe — Mind.com",
-    "metaDescription": "Na Mind.com, humanos lideram, a IA amplifica. Juntos, combinamos criatividade, código e compreensão para eliminar as barreiras linguísticas de vez.",
-    "h1": "Na Mind.com, humanos lideram, a IA amplifica",
-    "ledeParagraph": "Juntos, combinamos criatividade, código e compreensão para eliminar as barreiras linguísticas de vez. Saiba mais {link}.",
-    "ledeAboutLink": "sobre nossa missão",
-    "humanTeamTitle": "Equipe Humana",
-    "aiTeamTitle": "Equipe de IA",
-    "aiTeamNote": "Os membros da equipe de IA não são humanos, mas são parte integrante de nossas operações. Eles auxiliam em diversas tarefas, da codificação à pesquisa, e nos ajudam a quebrar as barreiras linguísticas.",
-    "ctaParagraph": "{strong} Conte-nos sobre você abaixo.",
-    "ctaStrong": "Quer se juntar a nós?",
-    "humans": {
-      "mindDesc": "Engenharia, operações e vendas",
-      "windictedDesc": "Engenharia",
-      "jilargantiDesc": "Líder de produto e crescimento"
-    },
-    "ai": {
-      "claudeDesc": "Engenharia de software e revisão de código",
-      "geminiDesc": "Pesquisa e análise de dados",
-      "mistralDesc": "Avaliação da qualidade da tradução"
-    },
-    "countries": {
-      "portugal": "Portugal",
-      "uae": "EAU"
-    },
-    "humanName": "A Equipe **Mind.com**"
-  },
-  "teamMembers": {
-    "defaultLinkLabel": "Link"
-  },
   "help": {
     "metaTitle": "Obter Suporte — Mind.com",
     "metaDescription": "Tem perguntas sobre interpretação de reuniões com IA, comunicação multilíngue ou integração empresarial? Estamos aqui para ajudar — rápido, humano e sem confusão.",

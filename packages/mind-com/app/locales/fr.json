@@ -151,46 +151,6 @@
     "errorRequired": "Ce champ est obligatoire",
     "errorEmail": "Veuillez saisir une adresse e-mail valide"
   },
-  "careers": {
-    "messageLabel": "Montrez-nous votre travail *",
-    "messagePlaceholder": "Partagez des liens vers vos projets, GitHub, portfolio, ou décrivez l'impact que vous avez eu. Quel problème avez-vous hâte de résoudre ensuite ?",
-    "buttonText": "Envoyer votre candidature",
-    "webSiteLabel": "Git / Blog / Site / ...",
-    "webSitePlaceholder": "p. ex. github.com/yourname",
-    "services": {
-      "partnerships": "Partenariats / BD"
-    }
-  },
-  "team": {
-    "metaTitle": "Équipe — Mind.com",
-    "metaDescription": "Chez Mind.com, les humains dirigent, l'IA amplifie. Ensemble, nous fusionnons créativité, code et compréhension pour éliminer définitivement les barrières linguistiques.",
-    "h1": "Chez Mind.com, les humains dirigent, l'IA amplifie",
-    "ledeParagraph": "Ensemble, nous fusionnons créativité, code et compréhension pour éliminer définitivement les barrières linguistiques. En savoir plus {link}.",
-    "ledeAboutLink": "sur notre mission",
-    "humanTeamTitle": "Équipe humaine",
-    "aiTeamTitle": "Équipe IA",
-    "aiTeamNote": "Les membres de l'équipe IA ne sont pas humains, mais ils sont essentiels à nos opérations. Ils assistent dans diverses tâches, du codage à la recherche, et nous aident à briser les barrières linguistiques.",
-    "ctaParagraph": "{strong} Parlez-nous de vous ci-dessous.",
-    "ctaStrong": "Envie de nous rejoindre ?",
-    "humans": {
-      "mindDesc": "Ingénierie, opérations et ventes",
-      "windictedDesc": "Ingénierie",
-      "jilargantiDesc": "Responsable produit et croissance"
-    },
-    "ai": {
-      "claudeDesc": "Ingénierie logicielle et révision de code",
-      "geminiDesc": "Recherche et analyse de données",
-      "mistralDesc": "Évaluation de la qualité de la traduction"
-    },
-    "countries": {
-      "portugal": "Portugal",
-      "uae": "EAU"
-    },
-    "humanName": "L'équipe **Mind.com**"
-  },
-  "teamMembers": {
-    "defaultLinkLabel": "Lien"
-  },
   "help": {
     "metaTitle": "Obtenir de l'aide — Mind.com",
     "metaDescription": "Vous avez des questions sur l'interprétation de réunions assistée par l'IA, la communication multilingue ou l'intégration d'entreprise ? Nous sommes là pour vous aider — rapidement, humainement et sans confusion.",

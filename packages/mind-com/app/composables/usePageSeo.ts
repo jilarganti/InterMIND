@@ -2,7 +2,7 @@ import type { MaybeRefOrGetter } from "vue"
 
 /**
  * Per-page SEO head for the static marketing pages (about, contacts,
- * team, help). Sets <title>, the meta description, a
+ * founders, help). Sets <title>, the meta description, a
  * locale-aware self-canonical, and the matching OpenGraph + Twitter card tags.
  *
  * og:url is derived from the SAME `localePath()` as the canonical, so the two
