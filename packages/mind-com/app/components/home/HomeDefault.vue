@@ -16,9 +16,9 @@ const entities = [
     jurisdiction: "Estonia · Reg. 16207677 · VAT EE102465446",
   },
   {
-    name: "Golden Fish CSP LLC",
+    name: "Golden Fish LLC",
     roleKey: "home.vcard.entityUaeRole",
-    jurisdiction: "UAE · Reg. 2411728 · License 1414192",
+    jurisdiction: "UAE · Reg. 2920093 · License 1414192",
   },
 ]
 </script>

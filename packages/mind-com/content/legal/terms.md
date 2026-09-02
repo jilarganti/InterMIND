@@ -1,16 +1,16 @@
 ---
 title: Terms of Service
-description: The terms governing your use of InterMIND — your contract with Golden Fish CSP LLC, plans and billing, your content, acceptable use, liability, and governing law.
-updated: "2026-06-17"
+description: The terms governing your use of InterMIND — your contract with Golden Fish LLC, plans and billing, your content, acceptable use, liability, and governing law.
+updated: "2026-09-02"
 ---
 
 **Effective date: 17 June 2026**
 
 ## 1. Agreement
 
-These Terms of Service ("Terms") are a contract between you and **Golden Fish Corporate Services Provider LLC** ("Golden Fish CSP LLC", "we", "us"), City Avenue Building, Office 405-070, Port Saeed, Dubai, United Arab Emirates — the operator of InterMIND, the meeting platform with real-time speech translation available at intermind.com and through the InterMIND mobile apps (the "Service"). By creating an account or using the Service you accept these Terms. If you use the Service on behalf of an organization, you confirm you have authority to bind it, and "you" includes that organization.
+These Terms of Service ("Terms") are a contract between you and **Golden Fish Computer Systems & Communication Equipment Software Design L.L.C** ("Golden Fish LLC", "we", "us"), City Avenue Building, Office 405-070, Port Saeed, Dubai, United Arab Emirates — the operator of InterMIND, the meeting platform with real-time speech translation available at intermind.com and through the InterMIND mobile apps (the "Service"). By creating an account or using the Service you accept these Terms. If you use the Service on behalf of an organization, you confirm you have authority to bind it, and "you" includes that organization.
 
-**Publisher and Intellectual Property Owner:** MindMeeting OÜ (Estonia), Juhkentali 8, Tallinn 10132, Estonia. **Service Operator and Contracting Entity:** Golden Fish Corporate Services Provider LLC (United Arab Emirates). The InterMIND mobile apps are published on the Apple App Store and Google Play by MindMeeting OÜ on behalf of, and under license from, Golden Fish CSP LLC; your contract for the Service is with Golden Fish CSP LLC.
+**Publisher and Intellectual Property Owner:** MindMeeting OÜ (Estonia), Juhkentali 8, Tallinn 10132, Estonia. **Service Operator and Contracting Entity:** Golden Fish Computer Systems & Communication Equipment Software Design L.L.C (United Arab Emirates). The InterMIND mobile apps are published on the Apple App Store and Google Play by MindMeeting OÜ on behalf of, and under license from, Golden Fish LLC; your contract for the Service is with Golden Fish LLC.
 
 ## 2. The Service
 
@@ -50,7 +50,7 @@ Our Privacy Policy (/legal/privacy) describes what we process and why; the subpr
 
 ## 8. Intellectual property
 
-The Service, including its software, design, and branding, is protected by intellectual property rights owned by MindMeeting OÜ (Estonia) and/or its licensors and used by Golden Fish CSP LLC. These Terms grant you only the right to use the Service; no other rights are transferred. If you send us feedback or suggestions, we may use them without obligation to you.
+The Service, including its software, design, and branding, is protected by intellectual property rights owned by MindMeeting OÜ (Estonia) and/or its licensors and used by Golden Fish LLC. These Terms grant you only the right to use the Service; no other rights are transferred. If you send us feedback or suggestions, we may use them without obligation to you.
 
 ## 9. Third-party services
 
@@ -78,4 +78,4 @@ We may update these Terms; we will post the new version on this page and update 
 
 ## 15. Contact
 
-Golden Fish Corporate Services Provider LLC — City Avenue Building, Office 405-070, Port Saeed, Dubai, United Arab Emirates. Email: privacy@mind.com
+Golden Fish Computer Systems & Communication Equipment Software Design L.L.C — City Avenue Building, Office 405-070, Port Saeed, Dubai, United Arab Emirates. Email: privacy@mind.com

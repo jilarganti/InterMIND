@@ -1,10 +1,10 @@
 ---
 title: Subprocessors
 description: The infrastructure and service providers InterMIND uses to process personal data — each provider's purpose, processing region, and safeguards.
-updated: "2026-06-17"
+updated: "2026-09-02"
 ---
 
-To run InterMIND we use a small set of infrastructure and service providers ("subprocessors"). This page lists each one, what it processes, where, and under what safeguards. **Service Operator and Contracting Entity:** Golden Fish CSP LLC (UAE). **Publisher and Intellectual Property Owner:** MindMeeting OÜ (EE).
+To run InterMIND we use a small set of infrastructure and service providers ("subprocessors"). This page lists each one, what it processes, where, and under what safeguards. **Service Operator and Contracting Entity:** Golden Fish LLC (UAE). **Publisher and Intellectual Property Owner:** MindMeeting OÜ (EE).
 
 Processing happens in the EU by default. Where a provider's corporate entity is outside the EU/EEA, transfers are covered by Standard Contractual Clauses (SCCs) and/or the EU–US Data Privacy Framework (DPF). We update this list whenever a subprocessor is added or removed.
 

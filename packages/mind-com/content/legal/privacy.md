@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
-description: How InterMIND (Golden Fish CSP LLC) collects, uses, and protects your personal data — controller, subprocessors, retention, your rights, and international transfers.
-updated: "2026-06-17"
+description: How InterMIND (Golden Fish LLC) collects, uses, and protects your personal data — controller, subprocessors, retention, your rights, and international transfers.
+updated: "2026-09-02"
 ---
 
 **Effective date: 17 June 2026**
@@ -10,11 +10,11 @@ updated: "2026-06-17"
 
 InterMIND ("the Service") — the meeting platform with real-time speech translation available at intermind.com and through the InterMIND mobile apps — is operated by:
 
-**Golden Fish Corporate Services Provider LLC** ("Golden Fish CSP LLC", "we", "us"), City Avenue Building, Office 405-070, Port Saeed, Dubai, United Arab Emirates.
+**Golden Fish Computer Systems & Communication Equipment Software Design L.L.C** ("Golden Fish LLC", "we", "us"), City Avenue Building, Office 405-070, Port Saeed, Dubai, United Arab Emirates.
 
-For personal data processed through the Service, Golden Fish CSP LLC acts as the data controller, except where your organization uses InterMIND under its own agreement with us — in that case your organization is the controller and we process data on its behalf (see our Data Processing Addendum).
+For personal data processed through the Service, Golden Fish LLC acts as the data controller, except where your organization uses InterMIND under its own agreement with us — in that case your organization is the controller and we process data on its behalf (see our Data Processing Addendum).
 
-**Publisher and Intellectual Property Owner:** MindMeeting OÜ (Estonia), Juhkentali 8, Tallinn 10132, Estonia. **Service Operator and Contracting Entity:** Golden Fish Corporate Services Provider LLC (United Arab Emirates). The InterMIND mobile apps are published by MindMeeting OÜ on behalf of, and under license from, Golden Fish CSP LLC, which operates the Service and is responsible for personal data processed through it.
+**Publisher and Intellectual Property Owner:** MindMeeting OÜ (Estonia), Juhkentali 8, Tallinn 10132, Estonia. **Service Operator and Contracting Entity:** Golden Fish Computer Systems & Communication Equipment Software Design L.L.C (United Arab Emirates). The InterMIND mobile apps are published by MindMeeting OÜ on behalf of, and under license from, Golden Fish LLC, which operates the Service and is responsible for personal data processed through it.
 
 **Privacy contact:** privacy@mind.com
 
@@ -58,7 +58,7 @@ We use a small set of infrastructure and service providers. The full, versioned 
 
 Processing happens in the EU by default (see §4). Where a provider's corporate entity is outside the EU/EEA, transfers are covered by Standard Contractual Clauses or an adequacy mechanism.
 
-The United Arab Emirates, where Golden Fish CSP LLC is established, has comprehensive data-protection legislation but is not the subject of an EU adequacy decision. Where personal data is accessed from, or transferred to, a country outside the EEA — including access by us for the administration of the Service — we rely on appropriate safeguards under Chapter V GDPR (Standard Contractual Clauses and, where applicable, the EU–US Data Privacy Framework) together with supplementary technical measures such as encryption in transit and at rest and EU-pinned storage and processing. A copy of the relevant safeguards is available on request at privacy@mind.com.
+The United Arab Emirates, where Golden Fish LLC is established, has comprehensive data-protection legislation but is not the subject of an EU adequacy decision. Where personal data is accessed from, or transferred to, a country outside the EEA — including access by us for the administration of the Service — we rely on appropriate safeguards under Chapter V GDPR (Standard Contractual Clauses and, where applicable, the EU–US Data Privacy Framework) together with supplementary technical measures such as encryption in transit and at rest and EU-pinned storage and processing. A copy of the relevant safeguards is available on request at privacy@mind.com.
 
 ## 6. Data retention
 
@@ -95,4 +95,4 @@ We will post any changes on this page and update the effective date. For materia
 
 ## 12. Contact
 
-Golden Fish Corporate Services Provider LLC — City Avenue Building, Office 405-070, Port Saeed, Dubai, United Arab Emirates. Email: privacy@mind.com
+Golden Fish Computer Systems & Communication Equipment Software Design L.L.C — City Avenue Building, Office 405-070, Port Saeed, Dubai, United Arab Emirates. Email: privacy@mind.com

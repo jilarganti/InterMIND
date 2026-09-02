@@ -14,7 +14,7 @@ usePageSeo({
 // Language-neutral facts; only the role line is localized.
 const entities = [
   { name: "MindMeeting OÜ", roleKey: "about.entityEuRole", jurisdiction: "Estonia · Reg. 16207677 · VAT EE102465446" },
-  { name: "Golden Fish CSP LLC", roleKey: "about.entityUaeRole", jurisdiction: "UAE · Reg. 2411728 · License 1414192" },
+  { name: "Golden Fish LLC", roleKey: "about.entityUaeRole", jurisdiction: "UAE · Reg. 2920093 · License 1414192" },
 ]
 </script>
 
