@@ -91,5 +91,9 @@
     "singleQuote": false,
     "jsxSingleQuote": false,
     "quoteProps": "preserve"
+  },
+  "packageManager": "pnpm@10.33.3",
+  "engines": {
+    "node": "22.x"
   }
 }
