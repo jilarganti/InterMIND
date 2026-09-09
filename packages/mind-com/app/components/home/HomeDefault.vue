@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { entitiesWithRoles } from "~/utils/legal-entities"
 // Default homepage — what new / unknown visitors and bots see (audience === "new").
 // Deliberately free of any "old version" framing: the only product it surfaces is
 // the current one (productUrl → intermind.com) with a neutral CTA, and the layout
@@ -9,18 +10,7 @@ const localePath = useLocalePath()
 const config = useRuntimeConfig()
 const productUrl = config.public.productUrl
 
-const entities = [
-  {
-    name: "MindMeeting OÜ",
-    roleKey: "home.vcard.entityEuRole",
-    jurisdiction: "Estonia · Reg. 16207677 · VAT EE102465446",
-  },
-  {
-    name: "Golden Fish LLC",
-    roleKey: "home.vcard.entityUaeRole",
-    jurisdiction: "UAE · Reg. 2920093 · License 1414192",
-  },
-]
+const entities = entitiesWithRoles("home")
 </script>
 
 <template>
@@ -45,7 +35,7 @@ const entities = [
       <div v-for="entity in entities" :key="entity.name">
         <dt class="font-semibold text-gray-900 dark:text-white">{{ entity.name }}</dt>
         <dd class="mt-1">{{ t(entity.roleKey) }}</dd>
-        <dd class="text-xs text-gray-500 dark:text-gray-500 mt-0.5">{{ entity.jurisdiction }}</dd>
+        <dd class="text-xs text-gray-500 dark:text-gray-500 mt-0.5"><LegalEntityIds :entity="entity" /></dd>
       </div>
     </dl>
   </div>

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { entitiesWithRoles } from "~/utils/legal-entities"
 const { t } = useI18n({ useScope: "global" })
 const localePath = useLocalePath()
 
@@ -18,12 +19,7 @@ const services = computed(() => [
   t("contacts.services.general"),
 ])
 
-// Verifiable company facts in place of a scrapeable email/phone — language-neutral
-// except the role line, which reuses the About page's translated strings.
-const entities = [
-  { name: "MindMeeting OÜ", roleKey: "about.entityEuRole", jurisdiction: "Estonia · Reg. 16207677 · VAT EE102465446" },
-  { name: "Golden Fish LLC", roleKey: "about.entityUaeRole", jurisdiction: "UAE · Reg. 2920093 · License 1414192" },
-]
+const entities = entitiesWithRoles("about")
 </script>
 
 <template>
@@ -75,7 +71,7 @@ const entities = [
         <div v-for="e in entities" :key="e.name" class="entity">
           <dt class="font-semibold text-gray-900 dark:text-white">{{ e.name }}</dt>
           <dd class="text-gray-600 dark:text-gray-400">{{ t(e.roleKey) }}</dd>
-          <dd class="text-sm text-gray-500 dark:text-gray-500">{{ e.jurisdiction }}</dd>
+          <dd class="text-sm text-gray-500 dark:text-gray-500"><LegalEntityIds :entity="e" /></dd>
         </div>
       </dl>
     </section>

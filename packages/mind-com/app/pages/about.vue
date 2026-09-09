@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { entitiesWithRoles } from "~/utils/legal-entities"
 const { t } = useI18n({ useScope: "global" })
 const localePath = useLocalePath()
 const config = useRuntimeConfig()
@@ -11,11 +12,7 @@ usePageSeo({
   path: "/about",
 })
 
-// Language-neutral facts; only the role line is localized.
-const entities = [
-  { name: "MindMeeting OÜ", roleKey: "about.entityEuRole", jurisdiction: "Estonia · Reg. 16207677 · VAT EE102465446" },
-  { name: "Golden Fish LLC", roleKey: "about.entityUaeRole", jurisdiction: "UAE · Reg. 2920093 · License 1414192" },
-]
+const entities = entitiesWithRoles("about")
 </script>
 
 <template>
@@ -40,7 +37,7 @@ const entities = [
       <div v-for="e in entities" :key="e.name" class="entity">
         <dt class="font-semibold text-gray-900 dark:text-white">{{ e.name }}</dt>
         <dd>{{ t(e.roleKey) }}</dd>
-        <dd class="text-sm text-gray-500 dark:text-gray-400">{{ e.jurisdiction }}</dd>
+        <dd class="text-sm text-gray-500 dark:text-gray-400"><LegalEntityIds :entity="e" /></dd>
       </div>
     </dl>
 
