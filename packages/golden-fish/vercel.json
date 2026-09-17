@@ -1,6 +1,15 @@
 {
   "cleanUrls": true,
 
+  "redirects": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "goldenfish.ae" }],
+      "destination": "https://mind.com/",
+      "statusCode": 308
+    }
+  ],
+
   "headers": [
     {
       "source": "/assets/(.*)",
