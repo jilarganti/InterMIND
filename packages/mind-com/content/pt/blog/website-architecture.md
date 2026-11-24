@@ -64,7 +64,7 @@ Executamos duas ferramentas de observabilidade, e elas fazem trabalhos diferente
 
 **Sentry** (`@sentry/nuxt`) captura erros. Ele é integrado como um módulo em tempo de construção e permanece desativado no desenvolvimento, para que o ruído local não o alcance. Sua função é nos dizer quando algo quebra em produção.
 
-**PostHog** (`nuxt-posthog`) lida com a análise de produtos, e seu comportamento em relação ao consentimento é a parte que vale a pena detalhar. Ele começa **com a opção desativada**. Nada é capturado até que a plataforma de consentimento Usercentrics conceda permissão, momento em que `app/plugins/posthog-consent.client.ts` o habilita. O padrão é não rastrear; o consentimento o ativa, não o contrário. PostHog cobre análises e Sentry cobre erros — essa é a visão completa, sem um gerenciador de tags separado ou uma camada de análise de terceiros acoplada.
+**PostHog** (`nuxt-posthog`) lida com a análise de produtos, e seu comportamento em relação ao consentimento é a parte que vale a pena detalhar. Ele começa **com a opção desativada**. O site não exibe banner de cookies: para um visitante do Espaço Econômico Europeu, do Reino Unido ou da Suíça a análise simplesmente permanece desativada, e para todos os demais `app/plugins/posthog-consent.client.ts` a habilita. O padrão é não rastrear; ela só é ativada onde não é preciso consentimento. PostHog cobre análises e Sentry cobre erros — essa é a visão completa, sem um gerenciador de tags separado ou uma camada de análise de terceiros acoplada.
 
 ## SEO e rastreadores de AI
 
@@ -78,6 +78,6 @@ Tudo é implantado no **Vercel**. O preset `vercel` do Nitro transforma as rotas
 
 ## A estrutura geral
 
-Nada disso é incomum, e esse é o ponto. Nuxt 4 nos dá SSR sem rodar servidores; @nuxt/content mantém posts e páginas legais como arquivos revisáveis; i18n e os scripts de tradução localizam o site como uma etapa de construção que podemos revisar; um backend Nitro leve entrega leads ao Pipedrive; Sentry e PostHog monitoram quebras e comportamento, com análises desativadas até que o consentimento diga o contrário.
+Nada disso é incomum, e esse é o ponto. Nuxt 4 nos dá SSR sem rodar servidores; @nuxt/content mantém posts e páginas legais como arquivos revisáveis; i18n e os scripts de tradução localizam o site como uma etapa de construção que podemos revisar; um backend Nitro leve entrega leads ao Pipedrive; Sentry e PostHog monitoram quebras e comportamento, com análises desativadas onde seria preciso consentimento.
 
 O site é fácil de entender porque mantivemos as partes móveis em poucas e colocamos cada uma onde pertence. Para um site de marketing, ser descomplicado e legível supera o inteligente em todos os momentos.

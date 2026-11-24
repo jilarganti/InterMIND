@@ -1,7 +1,7 @@
 ---
 title: Datenschutzrichtlinie
 description: Wie InterMIND (Golden Fish LLC) Ihre personenbezogenen Daten sammelt, nutzt und schützt – Verantwortlicher, Unterauftragsverarbeiter, Speicherdauer, Ihre Rechte und internationale Übermittlungen.
-updated: "2026-09-02"
+updated: "2026-11-24"
 ---
 
 **Gültig ab: 17. Juni 2026**
@@ -79,7 +79,7 @@ Für alles andere kontaktieren Sie privacy@mind.com. Wenn Sie in der EU/dem EWR 
 
 ## 8. Cookies und Analysen
 
-Wir verwenden eine Consent Management Platform (Usercentrics), um Ihre Zustimmung einzuholen, bevor nicht-essenzielle Cookies oder Analysen ausgeführt werden. Analysen (PostHog, EU Cloud) und Session Replay sind **standardmäßig deaktiviert** und starten nur, wenn Sie zustimmen. Essenzielle Cookies (Sitzung, Sicherheit) benötigen keine Zustimmung. Sie können Ihre Auswahl jederzeit über den Link zu den Cookie-Einstellungen in der Fußzeile ändern.
+Wenn Sie uns aus dem Europäischen Wirtschaftsraum, dem Vereinigten Königreich oder der Schweiz besuchen, holen wir Ihre Zustimmung ein, bevor nicht-essenzielle Cookies oder Analysen ausgeführt werden. Analysen (PostHog, EU Cloud) und Session Replay sind dort **standardmäßig deaktiviert** und starten nur, wenn Sie zustimmen. Essenzielle Cookies (Sitzung, Sicherheit) benötigen keine Zustimmung. Sie können Ihre Auswahl jederzeit über den Link zu den Cookie-Einstellungen in der Fußzeile ändern. Diese Website (mind.com) zeigt kein Cookie-Banner: Für Besucher aus diesen Regionen bleiben die Analysen hier einfach deaktiviert.
 
 ## 9. Sicherheit
 

@@ -37,7 +37,7 @@ export const fa = defineConfig({
     },
 
     footer: {
-      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">تنظیمات حریم خصوصی</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">شرایط و ضوابط</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">سیاست حریم خصوصی</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">مقررات حقوقی برای خدمات هوش مصنوعی</a>`,
+      message: `© Golden Fish, 2025. | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">شرایط و ضوابط</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">سیاست حریم خصوصی</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">مقررات حقوقی برای خدمات هوش مصنوعی</a>`,
     },
 
     localization: {

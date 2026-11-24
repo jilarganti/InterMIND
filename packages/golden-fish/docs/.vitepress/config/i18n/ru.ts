@@ -40,7 +40,7 @@ export const ru = defineConfig({
     },
 
     footer: {
-      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Настройки конфиденциальности</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">Условия использования</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Правовые нормы для AI-сервисов</a>`,
+      message: `© Golden Fish, 2025. | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">Условия использования</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Политика конфиденциальности</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Правовые нормы для AI-сервисов</a>`,
     },
 
     localization: {

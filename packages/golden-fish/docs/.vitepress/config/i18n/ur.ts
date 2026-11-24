@@ -31,7 +31,7 @@ export const ur = defineConfig({
     },
 
     footer: {
-      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">پرائیویسی سیٹنگز</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">شرائط و ضوابط</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">پرائیویسی پالیسی</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI خدمات کے لیے قانونی ضوابط</a>`,
+      message: `© Golden Fish, 2025. | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">شرائط و ضوابط</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">پرائیویسی پالیسی</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI خدمات کے لیے قانونی ضوابط</a>`,
     },
 
     localization: {

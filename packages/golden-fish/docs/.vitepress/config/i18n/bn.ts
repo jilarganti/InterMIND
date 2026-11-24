@@ -31,7 +31,7 @@ export const bn = defineConfig({
     },
 
     footer: {
-      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">গোপনীয়তা সেটিংস</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">শর্তাবলী</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">গোপনীয়তা নীতি</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI সেবার জন্য আইনি নিয়মাবলী</a>`,
+      message: `© Golden Fish, 2025. | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">শর্তাবলী</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">গোপনীয়তা নীতি</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI সেবার জন্য আইনি নিয়মাবলী</a>`,
     },
 
     localization: {

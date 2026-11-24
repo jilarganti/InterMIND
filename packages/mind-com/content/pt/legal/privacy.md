@@ -1,7 +1,7 @@
 ---
 title: Política de Privacidade
 description: Como a InterMIND (Golden Fish LLC) coleta, usa e protege seus dados pessoais — controlador, subprocessadores, retenção, seus direitos e transferências internacionais.
-updated: "2026-09-02"
+updated: "2026-11-24"
 ---
 
 **Data de efetivação: 17 de junho de 2026**
@@ -79,7 +79,7 @@ Para qualquer outra coisa, entre em contato com privacy@mind.com. Se você estiv
 
 ## 8. Cookies e análises
 
-Usamos uma plataforma de gestão de consentimento (Usercentrics) para solicitar seu consentimento antes que quaisquer cookies não essenciais ou análises sejam executados. As análises (PostHog, nuvem da UE) e a reprodução de sessão estão **desativadas por padrão** e só iniciam se você optar por ativá-las. Cookies essenciais (sessão, segurança) não exigem consentimento. Você pode alterar sua escolha a qualquer momento através do link de configurações de cookies no rodapé.
+Se você nos visita a partir do Espaço Econômico Europeu, do Reino Unido ou da Suíça, solicitamos seu consentimento antes que quaisquer cookies não essenciais ou análises sejam executados. As análises (PostHog, nuvem da UE) e a reprodução de sessão estão **desativadas por padrão** nesses locais e só iniciam se você optar por ativá-las. Cookies essenciais (sessão, segurança) não exigem consentimento. Você pode alterar sua escolha a qualquer momento através do link de configurações de cookies no rodapé. Este site (mind.com) não exibe banner de cookies: para visitantes dessas regiões a análise simplesmente permanece desativada aqui.
 
 ## 9. Segurança
 

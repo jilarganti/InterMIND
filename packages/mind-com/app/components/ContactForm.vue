@@ -68,8 +68,8 @@ const isSubmitting = ref(false)
 const isSubmitted = ref(false)
 const errorMessage = ref("")
 
-// posthog-js instance (null in dev / SSR). capture() is a no-op while the
-// visitor hasn't granted Usercentrics consent, so this is GDPR-safe.
+// posthog-js instance (null in dev / SSR). capture() is a no-op while PostHog is
+// off for the visitor (EEA, UK, Switzerland — plugins/posthog-consent.client.ts).
 const { $clientPosthog } = useNuxtApp()
 
 async function handleSubmit() {

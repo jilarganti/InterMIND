@@ -43,10 +43,6 @@ export default defineNuxtConfig({
       signInUrl:
         process.env.NUXT_PUBLIC_SIGN_IN_URL ??
         "https://id.inter.mind.com/realms/vca/protocol/openid-connect/auth?client_id=vca&scope=openid&response_type=code&state=oZ19WALjY1nJd83Rbwfeu&redirect_uri=https%3A%2F%2Finter.mind.com%2Fauth%2Fcallback&ui_locales=en",
-      gtmId: process.env.GTM_ID ?? "",
-      // Usercentrics Template ID of the PostHog Data Processing Service — drives
-      // consent gating in app/plugins/posthog-consent.client.ts.
-      ucPosthogId: process.env.NUXT_PUBLIC_UC_POSTHOG_ID ?? "uRoG9JxhEUtI4V",
       // Cloudflare Turnstile site key (public by design). Empty disables the
       // widget; server/utils/lead-guard.ts fails open to match.
       turnstileSiteKey: process.env.NUXT_PUBLIC_TURNSTILE_SITE_KEY ?? "",
@@ -128,9 +124,9 @@ export default defineNuxtConfig({
   },
 
   // Product analytics (nuxt-posthog → posthog-js). The marketing site is a
-  // public, EU-facing property, so capture starts OPTED OUT and is enabled only
-  // after Usercentrics grants the PostHog service consent — see
-  // app/plugins/posthog-consent.client.ts.
+  // public, EU-facing property with no cookie banner, so capture starts OPTED OUT
+  // and is enabled only for a visitor from outside the EEA, the UK and
+  // Switzerland — see app/plugins/posthog-consent.client.ts.
   posthog: {
     disabled: process.env.NODE_ENV === "development",
     // Public, write-only project token (PostHog "Mind.com", id 188389, EU) —
@@ -142,7 +138,7 @@ export default defineNuxtConfig({
     // ad-blockers can't silently drop events. See posthog.com/docs/advanced/proxy/nuxt.
     proxy: true,
     clientOptions: {
-      // Nothing is captured until the consent plugin calls opt_in_capturing().
+      // Nothing is captured until posthog-consent.client.ts calls opt_in_capturing().
       opt_out_capturing_by_default: true,
       // 'always' so anonymous landing visitors still get profiles once opted in
       // (the project defaults to identified_only, which would drop them).
@@ -183,18 +179,6 @@ export default defineNuxtConfig({
         { property: "og:site_name", content: "Mind" },
       ],
       link: [{ rel: "icon", type: "image/svg+xml", href: "/logo.svg" }],
-      // Usercentrics Web CMP (V3) — GDPR consent banner. Must load before any
-      // third-party script that needs consent; PostHog stays opted out until
-      // app/plugins/posthog-consent.client.ts sees this CMP grant the service.
-      script: [
-        {
-          id: "usercentrics-cmp",
-          src: "https://web.cmp.usercentrics.eu/ui/loader.js",
-          "data-settings-id": "oOBkcAZgmMkYWC",
-          async: true,
-          tagPriority: "critical",
-        },
-      ],
     },
   },
 

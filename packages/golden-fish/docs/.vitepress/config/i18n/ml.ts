@@ -37,7 +37,7 @@ export const ml = defineConfig({
     },
 
     footer: {
-      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">സ്വകാര്യതാ ക്രമീകരണങ്ങൾ</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">നിബന്ധനകളും വ്യവസ്ഥകളും</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">സ്വകാര്യതാ നയം</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI സേവനങ്ങൾക്കുള്ള നിയമപരമായ നിയന്ത്രണങ്ങൾ</a>`,
+      message: `© Golden Fish, 2025. | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">നിബന്ധനകളും വ്യവസ്ഥകളും</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">സ്വകാര്യതാ നയം</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI സേവനങ്ങൾക്കുള്ള നിയമപരമായ നിയന്ത്രണങ്ങൾ</a>`,
     },
 
     localization: {

@@ -68,7 +68,7 @@ Vercel env: `vercel link --repo` then `vercel pull` writes `.vercel/.env.develop
 - **i18n** (`@nuxtjs/i18n`): locales en/es/pt/fr/de/ru/zh, `strategy: prefix_except_default`. `compilation.strictMessage:false` allows inline HTML in messages. Always call `useI18n({ useScope: "global" })` to avoid intlify warnings.
 - **Content collections** (`@nuxt/content` v3): per-locale `blog_<locale>` / `legal_<locale>` collections are generated programmatically in `content.config.ts`; the blog uses MDC syntax (`:::tip{title="..."}`, overridden via `app/components/content/ProseTip.vue`).
 - **Theme/color**: default `dark` for new visitors (`#0a0b0d` page bg is intentional). All pages/components must work in light AND dark — no hardcoded light colors in scoped CSS.
-- **Observability**: Sentry (`@sentry/nuxt`, build-time module skipped in dev) + PostHog (`nuxt-posthog`). PostHog is its own EU project, starts **opted-out**, and is enabled only after Usercentrics CMP grants consent in `app/plugins/posthog-consent.client.ts`. Errors go to Sentry only (`capture_exceptions:false`).
+- **Observability**: Sentry (`@sentry/nuxt`, build-time module skipped in dev) + PostHog (`nuxt-posthog`). PostHog is its own EU project, starts **opted-out**, and is enabled only for visitors from outside the EEA, the UK and Switzerland — the site has no cookie banner (`app/plugins/posthog-consent.client.ts`, `server/api/consent-region.get.ts`). Errors go to Sentry only (`capture_exceptions:false`).
 - **Deploy**: Vercel with manual rolling releases (1→10→100%). `vercel.json` holds extensive SEO redirects and asset cache headers.
 
 ### golden-fish (VitePress) + shared

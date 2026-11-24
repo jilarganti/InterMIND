@@ -30,7 +30,7 @@ export const ko = defineConfig({
     },
 
     footer: {
-      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">개인정보 설정</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">이용약관</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">개인정보 처리방침</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI 서비스 법적 규정</a>`,
+      message: `© Golden Fish, 2025. | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">이용약관</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">개인정보 처리방침</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI 서비스 법적 규정</a>`,
     },
 
     localization: {

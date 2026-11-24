@@ -30,6 +30,6 @@ export default defineEventHandler(async (event) => {
   }
 
   // The "generate_lead" conversion is captured client-side in PostHog
-  // (ContactForm.vue) after a successful submit, gated by Usercentrics consent.
+  // (ContactForm.vue) after a successful submit, where PostHog runs for the visitor.
   return result
 })

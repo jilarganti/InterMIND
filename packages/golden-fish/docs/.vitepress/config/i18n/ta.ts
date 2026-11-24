@@ -37,7 +37,7 @@ export const ta = defineConfig({
     },
 
     footer: {
-      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">தனியுரிமை அமைப்புகள்</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">விதிமுறைகள் & நிபந்தனைகள்</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">தனியுரிமை கொள்கை</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI சேவைகளுக்கான சட்ட விதிமுறைகள்</a>`,
+      message: `© Golden Fish, 2025. | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">விதிமுறைகள் & நிபந்தனைகள்</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">தனியுரிமை கொள்கை</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI சேவைகளுக்கான சட்ட விதிமுறைகள்</a>`,
     },
 
     localization: {

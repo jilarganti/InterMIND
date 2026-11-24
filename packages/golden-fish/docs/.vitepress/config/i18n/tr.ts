@@ -33,7 +33,7 @@ export const tr = defineConfig({
     },
 
     footer: {
-      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Gizlilik Ayarları</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">Şartlar ve Koşullar</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Gizlilik Politikası</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Yapay Zeka Hizmetleri için Yasal Düzenlemeler</a>`,
+      message: `© Golden Fish, 2025. | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">Şartlar ve Koşullar</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Gizlilik Politikası</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Yapay Zeka Hizmetleri için Yasal Düzenlemeler</a>`,
     },
 
     localization: {

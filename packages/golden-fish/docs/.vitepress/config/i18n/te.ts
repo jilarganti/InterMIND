@@ -36,7 +36,7 @@ export const te = defineConfig({
     },
 
     footer: {
-      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">గోప్యతా సెట్టింగ్‌లు</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">నిబంధనలు & షరతులు</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">గోప్యతా విధానం</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI సేవల కోసం చట్టపరమైన నిబంధనలు</a>`,
+      message: `© Golden Fish, 2025. | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">నిబంధనలు & షరతులు</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">గోప్యతా విధానం</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI సేవల కోసం చట్టపరమైన నిబంధనలు</a>`,
     },
 
     localization: {
