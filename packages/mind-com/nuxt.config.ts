@@ -137,6 +137,9 @@ export default defineNuxtConfig({
     // (api_host → `<origin>/ingest/ph`, handled by server/routes/ingest/ph/) so
     // ad-blockers can't silently drop events. See posthog.com/docs/advanced/proxy/nuxt.
     proxy: true,
+    // The module's own router hook is off: posthog-js counts page views itself (see
+    // capture_pageview below). With both on, every full page load was counted twice.
+    capturePageViews: false,
     clientOptions: {
       // Nothing is captured until posthog-consent.client.ts calls opt_in_capturing().
       opt_out_capturing_by_default: true,
@@ -151,7 +154,8 @@ export default defineNuxtConfig({
         maskAllInputs: true,
         maskTextSelector: "[data-ph-mask]",
       },
-      capture_pageview: true,
+      // One $pageview per page: the first load and every in-app navigation.
+      capture_pageview: "history_change" as const,
       capture_pageleave: true,
       // Errors are owned by Sentry; don't double-report them into PostHog.
       capture_exceptions: false,
