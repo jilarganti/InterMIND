@@ -41,7 +41,7 @@ export const ar = defineConfig({
     },
 
     footer: {
-      message: `© Golden Fish، 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">إعدادات الخصوصية</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">الشروط والأحكام</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">سياسة الخصوصية</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">اللوائح القانونية لخدمات الذكاء الاصطناعي</a>`,
+      message: `© Golden Fish، 2025. | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">الشروط والأحكام</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">سياسة الخصوصية</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">اللوائح القانونية لخدمات الذكاء الاصطناعي</a>`,
     },
 
     localization: {

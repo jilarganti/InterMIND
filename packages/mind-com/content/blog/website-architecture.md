@@ -64,7 +64,7 @@ We run two observability tools, and they do different jobs.
 
 **Sentry** (`@sentry/nuxt`) catches errors. It's wired in as a build-time module and stays off in development, so local noise doesn't reach it. Its job is to tell us when something breaks in production.
 
-**PostHog** (`nuxt-posthog`) handles product analytics, and its behavior around consent is the part worth spelling out. It starts **opted out**. Nothing is captured until the Usercentrics consent platform grants permission, at which point `app/plugins/posthog-consent.client.ts` enables it. The default is no tracking; consent flips it on, not the reverse. PostHog covers analytics and Sentry covers errors — that's the whole picture, with no separate tag-manager or third-party analytics layer bolted on.
+**PostHog** (`nuxt-posthog`) handles product analytics, and its behavior around consent is the part worth spelling out. It starts **opted out**. The site shows no cookie banner: for a visitor from the European Economic Area, the United Kingdom or Switzerland analytics simply stays off, and for everyone else `app/plugins/posthog-consent.client.ts` enables it. The default is no tracking; it is switched on only where it needs no consent. PostHog covers analytics and Sentry covers errors — that's the whole picture, with no separate tag-manager or third-party analytics layer bolted on.
 
 ## SEO and AI crawlers
 
@@ -78,6 +78,6 @@ Everything deploys to **Vercel**. Nitro's `vercel` preset turns the server route
 
 ## The shape of it
 
-None of this is unusual, and that's the point. Nuxt 4 gives us SSR without running servers; @nuxt/content keeps posts and legal pages as reviewable files; i18n and the translation scripts localize the site as a build step we can proofread; a thin Nitro backend hands leads to Pipedrive; Sentry and PostHog watch for breakage and behavior, with analytics off until consent says otherwise.
+None of this is unusual, and that's the point. Nuxt 4 gives us SSR without running servers; @nuxt/content keeps posts and legal pages as reviewable files; i18n and the translation scripts localize the site as a build step we can proofread; a thin Nitro backend hands leads to Pipedrive; Sentry and PostHog watch for breakage and behavior, with analytics off wherever it would need consent.
 
 The site is easy to reason about because we kept the moving parts few and put each one where it belongs. For a marketing site, boring and legible beats clever every time.

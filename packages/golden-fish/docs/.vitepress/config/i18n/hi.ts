@@ -30,7 +30,7 @@ export const hi = defineConfig({
     },
 
     footer: {
-      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">गोपनीयता सेटिंग्स</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">नियम और शर्तें</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">गोपनीयता नीति</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI सेवाओं के लिए कानूनी नियम</a>`,
+      message: `© Golden Fish, 2025. | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">नियम और शर्तें</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">गोपनीयता नीति</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">AI सेवाओं के लिए कानूनी नियम</a>`,
     },
 
     localization: {

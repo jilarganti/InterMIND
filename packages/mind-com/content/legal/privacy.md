@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 description: How InterMIND (Golden Fish LLC) collects, uses, and protects your personal data — controller, subprocessors, retention, your rights, and international transfers.
-updated: "2026-09-02"
+updated: "2026-11-24"
 ---
 
 **Effective date: 17 June 2026**
@@ -79,7 +79,7 @@ For anything else, contact privacy@mind.com. If you are in the EU/EEA, you can a
 
 ## 8. Cookies and analytics
 
-We use a consent management platform (Usercentrics) to ask for your consent before any non-essential cookies or analytics run. Analytics (PostHog, EU cloud) and session replay are **off by default** and start only if you opt in. Essential cookies (session, security) do not require consent. You can change your choice at any time via the cookie settings link in the footer.
+If you visit from the European Economic Area, the United Kingdom or Switzerland, we ask for your consent before any non-essential cookies or analytics run. Analytics (PostHog, EU cloud) and session replay are **off by default** there and start only if you opt in. Essential cookies (session, security) do not require consent. You can change your choice at any time via the cookie settings link in the footer. This website (mind.com) shows no cookie banner: for visitors from those regions analytics simply stays off here.
 
 ## 9. Security
 

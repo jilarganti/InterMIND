@@ -53,13 +53,6 @@ Sentry.init({
     "ResizeObserver loop limit exceeded",
     "ResizeObserver loop completed with undelivered notifications",
     "Non-Error promise rejection captured",
-    // Usercentrics CMP: console.error самого SDK (попадает сюда через
-    // captureConsoleIntegration). Сетевые отказы до *.usercentrics.eu —
-    // ad-блокеры и блокировки по региону (RU/CN), чинить нечего.
-    /^Usercentrics \[/,
-    "No CMP data",
-    /No core data available for core\//,
-    /^\[CMP\] Your browser/,
     // Stale-chunk после редеплоя: пользователя спасает
     // experimental.emitRouteChunkError="automatic-immediate" (см. nuxt.config.ts).
     /Failed to fetch dynamically imported module/,

@@ -39,7 +39,7 @@ export const vi = defineConfig({
     },
 
     footer: {
-      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Cài đặt quyền riêng tư</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">Điều khoản & Điều kiện</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Chính sách bảo mật</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Quy định pháp lý cho Dịch vụ AI</a>`,
+      message: `© Golden Fish, 2025. | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">Điều khoản & Điều kiện</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Chính sách bảo mật</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Quy định pháp lý cho Dịch vụ AI</a>`,
     },
 
     localization: {

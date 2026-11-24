@@ -39,7 +39,7 @@ export const id = defineConfig({
     },
 
     footer: {
-      message: `© Golden Fish, 2025. | <a href="#" onClick="UC_UI.showSecondLayer();">Pengaturan Privasi</a> | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">Syarat & Ketentuan</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Kebijakan Privasi</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Peraturan Hukum untuk Layanan AI</a>`,
+      message: `© Golden Fish, 2025. | <a href="${BASE_PATH}/resources/TERMS-CONDITIONS">Syarat & Ketentuan</a> | <a href="${BASE_PATH}/resources/Privacy-Policy">Kebijakan Privasi</a> | <a href="${BASE_PATH}/resources/Legal-Regulations-for-AI-Services">Peraturan Hukum untuk Layanan AI</a>`,
     },
 
     localization: {
